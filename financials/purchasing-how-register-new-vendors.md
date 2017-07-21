@@ -1,6 +1,6 @@
 ---
-title: "Toimintaohje: Uusien toimittajien rekisteröinti| Microsoft Docs"
-description: "Lisätietoja toimittajien lisäämisestä Financialsiin."
+title: "Uuden toimittajan rekisteröinti toimittajan kortin luonnin avulla | Microsoft Docs"
+description: "Lisätietoja uuden toimittajan rekisteröinnistä toimittajan kortin luonnin avulla."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: supplier
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 3420a91200b64ea0672d5757a0104c6806fc607f
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 78710d796ed73d7b4c2505f6cbb8c7d5f41d7320
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -27,7 +27,8 @@ Ennen kuin voit rekisteröidä uusia toimittajia, sinun on määritettävä osto
 
 Toimittajan kortti sisältää tiedot, joita tarvitaan tuotteiden ostamiseksi toimittajalta. Lisätietoja on kohdassa [Toimintaohje: Ostojen kirjaaminen](purchasing-how-record-purchases.md) ja [Toimintaohje: Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md).
 
-**Huomautus**: Jos eri toimittajan tyypeille on olemassa toimittajamalleja, ikkuna tulee näkyviin, kun luot uuden toimittajan kortin, jossa voit valita haluamasi mallin. Jos vain yksi toimittajamalli on olemassa, uudet toimittajan kortit käyttävät aina kyseistä mallia.
+> [!NOTE]  
+>   Jos eri toimittajan tyypeille on olemassa toimittajamalleja, ikkuna avautuu, kun luot uuden toimittajan kortin, jossa voit valita haluamasi mallin. Jos vain yksi toimittajamalli on olemassa, uudet toimittajan kortit käyttävät aina kyseistä mallia.
 
 ## <a name="to-create-a-new-vendor-card"></a>Uuden toimittajan kortin luominen
 1. Valitse kotisivulla **Toimittajat**, kun haluat avata olemassa olevien toimittajien luettelon.  
@@ -53,5 +54,5 @@ Jos haluat käyttää tätä toimittajan korttia mallina, kun luot uusia toimitt
 ## <a name="see-also"></a>Katso myös
 [Osto](purchasing-manage-purchasing.md)  
 [Toimintaohje: Ostojen kirjaus](purchasing-how-record-purchases.md)   
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 

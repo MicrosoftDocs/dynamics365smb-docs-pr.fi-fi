@@ -1,6 +1,6 @@
 ---
-title: Ostaminen| Microsoft Docs
-description: "Tässä artikkelissa kerrotaan, miten ostoaktiviteetteja hallitaan."
+title: "Ostojen hallintatehtävien yleiskatsaus | Microsoft Docs"
+description: "Ohjeaiheessa kerrotaan osto- tai hankintaprosessien hallinnasta ja selitetään muun muassa ostolaskujen ja -tilausten käyttöä."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: procurement, supply, vendor order
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 4ba8ea773fa4024cfcaccd00b80bdbbfe81be8b7
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 653cd9b5e9651f2039ab18f3e7a26b299238d817
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -36,7 +36,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 | Toiminta | Katso |
 | --- | --- |
 | Luot ostolasku tallentaaksesi sopimuksesi asiakkaan kanssa tuotteiden ostamisesta tietyillä toimitus- ja maksuehdoilla. |[Toimintaohje: Ostojen kirjaus](purchasing-how-record-purchases.md) |
-| Luo ostolasku kaikille valituille myyntilaskun riveille. |[Toimintaohje: Tuotteiden ostaminen myyntiin](purchasing-how-purchase-products-sale.md) |
+| Luo ostolasku kaikille valituille myyntilaskun riveille. |[Toimintaohje: Nimikkeiden ostaminen myyntiin](purchasing-how-purchase-products-sale.md) |
 | Suorita toiminto maksamattomalle kirjatulle ostolaskulle hyvityslaskun automaattiseksi luomiseksi ja joko peruuta ostolasku tai luo se uudelleen, jotta voit tehdä korjauksia. |[Toimintaohjeet: Maksamattomien myyntilaskujen korjaaminen tai peruuttaminen](purchasing-how-correct-cancel-unpaid-purchase-invoices.md) |
 | Luo ostohyvityslasku palauttamaan vastaamaan määrätty kirjattu ostolasku heijastamaan sitä, mitä tuotteita palautat toimittajalle ja minkä maksusumman keräät. |[Toimintaohje: Ostopalautuksen tai peruutuksen käsittely](purchasing-how-register-new-vendors.md) |
 | Luo toimittajan kortti jokaiselle toimittajalle, jolta ostat. |[Toimintaohje: Uusien toimittajien rekisteröiminen](purchasing-how-register-new-vendors.md) |
@@ -46,7 +46,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 [Ostovelkojen hallinta](payables-manage-payables.md)  
 [Projektien hallinta](projects-manage-projects.md)    
 [Toimitusketju](madeira-supply-chain.md)      
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

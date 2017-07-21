@@ -1,6 +1,6 @@
 ---
-title: "Kontaktien määrittämisen valmisteleminen | Microsoft Docs"
-description: "Tässä artikkelissa kerrotaan, miten kontaktien määrittäminen valmistellaan Financialsissa"
+title: "Kontaktien tietojen määrittäminen | Microsoft Docs"
+description: "Tässä ohjeaiheessa kerrotaan tehtävistä, joilla määritetään tietoja ja koodeja, kuten toimialaryhmiä ja liikesuhteita, ennen kontaktien määrittämistä."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 399fc41da9ff8168eea8aabd593ffd6123d8d501
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 3de30e72853689df84d3807def1334db88776680
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="preparing-for-setting-up-contacts"></a>Kontaktien määrittämisen valmisteleminen
+# <a name="preparing-to-set-up-contacts"></a>Kontaktien määrittämisen valmisteleminen
 Voit syöttää kontaktien luomisen yhteydessä tietoja, kuten toimialan, johon kontaktin yritykset kuuluvat, sekä liikesuhteesi kontakteihin.
 
 Ennen kontaktien luomista ja liikesuhteiden tietojen tallentamista on määritettävä koodit, joiden avulla tiedot liitetään kontaktin yrityksiin ja henkilöihin. Koodit voidaan määrittää postitusryhmille, toimialaryhmille, liikesuhteille, verkkolähteille, organisatorisille tasoille ja vastuualueille.
@@ -32,14 +32,14 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 | Toiminta | Katso |
 | --- | --- |
 | Määritä, millainen liikesuhde sinulla on eri kontaktiesi (esimerkiksi prospektin, pankin, konsultin tai palvelun toimittajan) kanssa. |[Liikesuhteiden määrittäminen kontaktiyrityksissä](marketing-business-relations.md) |
-| Määritä toimiala, johon kontaktit kuuluvat (esimerkiksi vähittäistavarakauppa tai autoteollisuus). |[Toimialaryhmien määrittäminen kontaktiyrityksissä](marketing-industry-groups.md) |
-| Määritä postitusryhmät, joiden avulla määritetään samat tiedot saavat kontaktiryhmät. |[Postitusryhmien määrittäminen kontaktiyrityksissä](marketing-mailing-groups.md) |
+| Määritä toimiala, johon kontaktit kuuluvat (esimerkiksi vähittäistavarakauppa tai autoteollisuus). |[Toimintaohje: Toimialaryhmien määrittäminen kontaktiyrityksissä](marketing-industry-groups.md) |
+| Määritä postitusryhmät, joiden avulla määritetään samat tiedot saavat kontaktiryhmät. |[Toimintaohje: Postitusryhmien määrittäminen kontaktiyrityksissä](marketing-mailing-groups.md) |
 | Määritä kontaktihenkilöiden vastuualueet. |[Vastuualueiden määrittäminen kontakteille](marketing-job-responsibilities.md) |
-| Määritä organisatoriset tasot, joita haluat käyttää kontaktihenkilöiden kanssa. |[Kontaktien organisaatiotasojen määritteleminen](marketing-organizational-levels.md) |
-| Määritä verkkolähteet (hakukoneet ja sivustot), joita haluat käyttää, kun haet Internetistä tietoja kontakteistasi. |[Verkkolähteiden määrittäminen kontakteille](marketing-web-sources.md) |
+| Määritä organisatoriset tasot, joita haluat käyttää kontaktihenkilöiden kanssa. |[Toimintaohje: Kontaktien organisaatiotasojen määritteleminen](marketing-organizational-levels.md) |
+| Määritä verkkolähteet (hakukoneet ja sivustot), joita haluat käyttää, kun haet Internetistä tietoja kontakteistasi. |[Toimintaohje: Verkkolähteiden määrittäminen kontakteissa](marketing-web-sources.md) |
 
 ## <a name="see-also"></a>Katso myös
 [Kontaktien hallinta](marketing-contacts.md)  
 [Myyntimahdollisuuksien hallinta](marketing-manage-sales-opportunities.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md)
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
 

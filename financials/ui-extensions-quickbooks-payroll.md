@@ -1,6 +1,6 @@
 ---
-title: Quickbooks Payroll| Microsoft Docs
-description: "Lisätietoja Quickbooks Payroll -laajennuksesta"
+title: "Quickbooks Payroll -tiedoston tuontilaajennuksen käyttäminen | Microsoft Docs"
+description: "Tässä ohjeaiheessa kerrotaan, miten laajennuksella voi tuoda palkkatapahtumat Quickbooks Payroll -palvelusta."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms. search.keywords: app, add-in, manifest, customize, salary, wage
 ms.date: 03/29/2017
 ms.author: SorenGP
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: dd934265607e4073ab13b089c3dd98ceb4ead9c3
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: b719a7d2b6b5590ae63920b63aaba8c2313a8661
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -28,7 +28,7 @@ Voit tehdä tämän tuomalla ensin palkanlaskennan tarjoajalta saadun csv-tiedos
 Quickbooks-palkanlaskentatiedostojen tuontilaajennuksen avulla voit tuoda palkkatapahtumat Quickbooks-palvelusta.
 
 ## <a name="see-also"></a>Katso myös
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in mukauttaminen laajennuksilla ](ui-extensions.md)    
+[[!INCLUDE[d365fin](includes/d365fin_md.md)]in mukauttaminen laajennusten avulla ](ui-extensions.md)    
 [Rahoitus](finance.md)    
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md)
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
 

@@ -1,6 +1,6 @@
 ---
 title: "Kassavirta-analyysin määrittäminen| Microsoft Docs"
-description: "Tässä artikkelissa kerrotaan, miten käyttöpääomasykli-, tulot ja kulut-, kassavirta- ja kassavirtaennustekaaviot määritetään analysoimaan yrityksen historiallista ja tulevaa kassavirran liikkumista."
+description: "Kaavioiden määrittäminen kirjanpitäjän roolikeskuksessa auttaa analysoimaan yrityksen rahavirtaa, kuten menoja ja tuloja, maksuvalmiutta ja kassaanmaksuista vähennettyjä kassamaksuja."
 services: project-madeira
 documentationcenter: 
 author: bholtorf
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: e07f32dcc3a50e07c5dea48600f7e3dbcd6088a9
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: ffc0a1c8a513556de2a40fc37db7af9be779225c
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -49,7 +49,7 @@ Anna **Yhteensä**-kentässä tilit seuraaville: **Kokonaistuotto**, **Myyntisaa
 ## <a name="set-up-the-cash-flow-chart"></a>Kassavirta-kaavion määrittäminen
 Kassavirta-kaavio perustuu seuraaviin:  
 
-* Kassavirtatilien kaavio
+* Kassavirtatilien kaavio.
 * Vähintään yksiin kassavirta-asetuksiin. Ne määrittävät kirjanpitoon, ostoihin, myynteihin, palveluihin ja käyttöomaisuuteen käytettävät tilit.  
 
 Käytön aloittamisen helpottamiseksi osa tilistä ja kassavirran asetuksista on määritetty valmiiksi. Voit lisätä, muuttaa tai poistaa niitä.  
@@ -61,7 +61,8 @@ Voit määrittää ne käyttämällä hakutermiä **kassavirtatilit**, valitsema
 
 Kassavirtaennusteet voivat sisällyttää Cortana Intelligencen avulla asiakirjoja, joiden eräpäivä on tulevaisuudessa. Tällä tavoin saadaan entistä kattavampi ennuste. Cortana Intelligence -yhteys on muodostettu valmiiksi. Sinun tarvitsee vain ottaa se käyttöön. Kun kirjaudut [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]iin, ilmoitus näkyy sinisessä palkissa, ja siinä on linkki kassavirran oletusasetuksiin. Ilmoitus näytetään vain kerran. Jos suljet sen mutta päätät ottaa Cortana Intelligencen käyttöön, voit tehdä sen avustetun asennusoppaan avulla tai manuaalisesti.  
 
-**Huomautus:** Voit käyttää myös omaa ennakoivaa verkkopalvelua. Lisätietoja on kohdassa [Kassavirtaennusteiden ennakoivan verkkopalvelun luonti ja käyttö](#AnchorText).  
+> [!NOTE]  
+>   Voit käyttää myös omaa ennakoivaa verkkopalvelua. Lisätietoja on kohdassa [Kassavirtaennusteiden ennakoivan verkkopalvelun luonti ja käyttö](#AnchorText).  
 
 Voit käyttää avustettua asennusopasta seuraavissa toiminnoissa:  
 
@@ -75,7 +76,8 @@ Voit käyttää manuaalista prosessia seuraavasti:
 2. Laajenna **Cortana Intelligence**-pikavälilehti ja valitse sitten **Cortana Intelligence käytössä** -valintaruutu.  
 3. Valitse aloitussivulla kaavion yläpuolella **Kassavirtaennuste** ja sitten **Laske ennuste uudelleen**.  
 
-**Vihje:** Mieti, miten pitkiä jaksoja palvelun laskelmissa käytetään. Mitä enemmän tietoja on käytettävissä, sitä tarkempia ennusteet ovat. Varo myös suuria jaksovaihteluita. Ne vaikuttavat myös ennusteisiin. Jos Cortana Intelligence ei löydä riittävästi tietoja tai tiedot ovat kovin erilaisia, palvelu ei voi tehdä ennustetta.  
+> [!TIP]  
+>   Mieti, miten pitkiä jaksoja palvelun laskelmissa käytetään. Mitä enemmän tietoja on käytettävissä, sitä tarkempia ennusteet ovat. Varo myös suuria jaksovaihteluita. Ne vaikuttavat myös ennusteisiin. Jos Cortana Intelligence ei löydä riittävästi tietoja tai tiedot ovat kovin erilaisia, palvelu ei voi tehdä ennustetta.  
 
 ## <a name="AnchorText"> </a>Kassavirtaennusteiden ennakoivan verkkopalvelun luonti ja käyttö
 Voit myös luoda oman ennakoivan verkkopalvelun **Microsoft Dynamics 365 for Financialsin ennustemalli** -nimisen julkisen mallin perusteella. Tämä ennakoiva malli on saatavana verkossa Cortana Intelligence Galleryssa. Voit käyttää mallia seuraavien vaiheiden avulla:  
@@ -85,11 +87,11 @@ Voit myös luoda oman ennakoivan verkkopalvelun **Microsoft Dynamics 365 for Fin
 3. Kirjaudu työtilaan Microsoft-tilin avulla ja kopioi malli.  
 4. Aja malli ja julkaise se verkkopalveluna.  
 5. Kirjoita API:n URL-osoite ja API-avain muistiin. Näitä tunnistetietoja käytetään kassavirran asetuksissa.  
-6. Valitse oikeassa yläkulmassa **Etsi sivua tai raporttia** -kuvake ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake"), kirjoita **Kassavirran asetukset** ja valitse sitten liittyvä linkki.  
+6. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Kassavirran asetukset** ja valitse sitten aiheeseen liittyvä linkki.  
 7. Laajenna **Cortana Intelligence** -pikavälilehti ja täytä sitten kentät.  
 
 ## <a name="see-also"></a>Katso myös
 [Yrityksen kassavirran analysoiminen](finance-analyze-cash-flow.md)  
 [Rahoituksen määrittäminen](finance-setup-finance.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md)
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
 

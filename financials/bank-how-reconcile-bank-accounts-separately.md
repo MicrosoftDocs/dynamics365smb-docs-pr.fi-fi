@@ -1,6 +1,6 @@
 ---
-title: "Toimintaohje: Pankkitilien täsmäyttäminen erikseen| Microsoft Docs"
-description: "Toimintaohje: Pankkitilien täsmäyttäminen erikseen"
+title: "Pankkitilien täsmäyttäminen erikseen| Microsoft Docs"
+description: "Tässä artikkelissa kerrotaan, miten varastoarvo täsmäytetään pääkirjanpidon kanssa."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,20 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
-ms.date: 03/23/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 916f655f9dba80f7c227519372633913b11641ea
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 12620b1afa4630441889777bce30cb81317a848b
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="how-to-reconcile-bank-accounts-separately"></a>Toimintaohje: Pankkitilien täsmäyttäminen erikseen
 Jos haluat täsmäyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]in pankkitilit pankista saatujen tiliotteiden kanssa, sinun on ensin täytettävä **Pankkitilin täsmäytys** -ikkunan rivit.
 
-**Huomautus**: Voit täsmäyttää pankkitilit myös **Maksujen täsmäytyskirjauskansio** -ikkunassa. Kaikki kohdistettuun asiakas- tai toimittajatapahtumaan liittyvät avoimet pankkitilitapahtumat suljetaan, kun valitset **Kirjaa maksut ja täsmäytä pankkitili** -toiminnon. Tämä tarkoittaa sitä, että pankkitili täsmäytetään automaattisesti päiväkirjaan kirjattaville maksuille. Lisätietoja on kohdassa [Toimintaohje: Maksujen täsmäyttäminen käyttämällä automaattista kohdistusta](receivables-how-reconcile-payments-auto-application.md).
+> [!NOTE]  
+>   Voit täsmäyttää pankkitilit myös **Maksujen täsmäytyskirjauskansio** -ikkunassa. Kaikki kohdistettuun asiakas- tai toimittajatapahtumaan liittyvät avoimet pankkitilitapahtumat suljetaan, kun valitset **Kirjaa maksut ja täsmäytä pankkitili** -toiminnon. Tämä tarkoittaa sitä, että pankkitili täsmäytetään automaattisesti päiväkirjaan kirjattaville maksuille. Lisätietoja on kohdassa [Toimintaohje: Maksujen täsmäyttäminen käyttämällä automaattista kohdistusta](receivables-how-reconcile-payments-auto-application.md).
 
 Jos haluat ottaa pankin tiliotteet käyttöön pankkisyötteinä, määritä ensin Envestnet Yodlee -pankkisyötepalvelu ja linkitä sitten pankkitilit liittyviin verkkopankkitileihin. Lisätietoja on kohdassa [Toimintaohje: Envestnet Yodlee -pankkisyötepalvelun määrittäminen](bank-how-setup-bank-statement-service.md).
 
@@ -38,10 +39,11 @@ Voit täyttää **Pankin tiliotteen rivit** -ruudun **Pankkitilin täsmäytys** 
 
 Kun **Kokonaissaldo**-kentän arvo**Pankin tiliotteen rivit** -ruudussa on sama kuin **Täsmäytettävä saldo** -kentän arvo **Pankkitilitapahtumat**-ruudussa, voit täsmäyttää kohdistetun pankkitilin tapahtumat valitsemalla **Kirjaa**-toiminnon. Kaikki ei käytössä olevat pankkitilin kirjanpitomerkinnät säilyvät ikkunassa, tämä ilmaisee, että pankkitilille käsitellyt maksut eivät näy viimeisimmässä tiliotteessa, tai että eräät maksuista vastaanotettiin sekkeinä.
 
-**Huomautus**: Jos pankin tiliotteen rivit liittyvät sekkitapahtumiin, et voi käyttää kohdistustoimintoja. Sen sijaan sinun on valittava **Kohdista tapahtumat** -toiminto ja valittava sitten asianmukainen sekkitapahtuma, jota kohdistetaan pankin tiliotteen riviin.
+> [!NOTE]  
+>   Jos pankin tiliotteen rivit liittyvät sekkitapahtumiin, et voi käyttää kohdistustoimintoja. Sen sijaan sinun on valittava **Kohdista tapahtumat** -toiminto ja valittava sitten asianmukainen sekkitapahtuma, jota kohdistetaan pankin tiliotteen riviin.
 
 ## <a name="to-fill-bank-reconciliation-lines-by-importing-a-bank-statement"></a>Pankin täsmäytysrivien täyttäminen tiliotteen tuomisen avulla
-1. Valitse oikeassa yläkulmassa **Etsi sivua tai raporttia** -kuvake ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake"), kirjoita **Pankkitilin täsmäytys** ja valitse sitten liittyvä linkki.
+1. Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Pankkitilin täsmäytys** ja valitse sitten aiheeseen liittyvä linkki.
 2. Valitse **Uusi**-toiminto.
 3. Valitse **Pankkitilin nro** -kentässä vastaava pankkitili. Pankkitilillä olevat tapahtumat näkyvät **Pankkitilitapahtumat**-ruudussa.
 4. Syötä **Tiliotteen pvm** -kenttään pankin tiliotteen päivämäärä.
@@ -92,5 +94,5 @@ Joskus pankin tiliotteessa on koron tai veloitetun maksun summia. Tällaisia pan
 ## <a name="see-also"></a>Katso myös
 [Pankkitilien hallinta](bank-manage-bank-accounts.md)  
 [Pankkitoiminnan määrittäminen](bank-setup-banking.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md)
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
 

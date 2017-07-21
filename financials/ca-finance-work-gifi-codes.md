@@ -1,6 +1,6 @@
 ---
-title: "Toimintaohje: Kanadan GIFI-koodien käyttäminen | Microsoft Docs"
-description: "Lisätietoja GIFI-koodeista"
+title: Kanadalaiset GIFI-koodit | Microsoft Docs
+Description: "Voit määrittää Kanadassa GIFI-koodeja (General Index of Financial Information) ja liittää ne kirjaustileihin."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: local
-ms.date: 03/23/2017
+ms.date: 06/02/2017
 ms.author: SorenGP
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 03316fe6ad7a63c79a88f540a9c49f61450922f4
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: d5211f5c8265e572ff1d1a809b1046ce89f8c1e6
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -32,32 +32,33 @@ Saldotiedot voidaan viedä GIFI-koodin avulla, ja viety tiedosto voidaan tallent
 ## <a name="to-set-up-gifi-codes"></a>GIFI-koodien määrittäminen
 Dynamics NAV -ohjelmassa GIFI-koodit on määritettävä kirjanpitotileille, raporteille, taseille, tuloslaskelmille ja jakamattoman voiton tiliotteille.
 
-1. Valitse oikeassa yläkulmassa **Etsi sivua tai raporttia** -kuvake ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake"), kirjoita **GIFI-koodit** ja valitse sitten liittyvä linkki.
+1. Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **GIFI-koodit** ja valitse sitten aiheeseen liittyvä linkki.
 2. Valitse **GIFI-koodit**-ikkunassa **Uusi**-toiminto.
 3. Määritä GIFI-koodit täyttämällä kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-associate-gifi-codes-with-gl-accounts"></a>GIFI-koodien liittäminen kirjanpitotileihin
 Voit raportoida taloustiedot GIFI-koodien mukaan, kun kukin GIFI-koodi on liitetty tilikartan asianmukaiseen tiliin.
 
-1. Valitse oikeassa yläkulmassa **Etsi sivua tai raporttia** -kuvake ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake"), kirjoita **Tilikartta** ja valitse sitten liittyvä linkki.
+1. Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Tilikartta** ja valitse sitten aiheeseen liittyvä linkki.
 2. Valitse asiaankuuluva kirjanpitotili ja valitse sitten **Muokkaa**-toiminto.
 3. Valitse **Kustannuslaskenta**-pikavälilehden **GIFI-koodi**-kenttään asiaankuuluva GIFI-koodi.
 
 ## <a name="to-view-account-balances-using-the-gifi-code-report"></a>Tilien saldojen tarkasteleminen GIFI-koodiraportin avulla
 Voit tarkastella tilien saldoja GIFI-koodin mukaan **Tilien saldot GIFI-koodin mukaan** -raportin avulla.
 
-1. Valitse oikeassa yläkulmassa **Etsi sivua tai raporttia** -kuvake ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake"), kirjoita **GIFI-koodin mukaiset tilisaldot** ja valitse sitten liittyvä linkki.
+1. Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Tilien saldot GIFI-koodin mukaan** ja valitse sitten aiheeseen liittyvä linkki.
 2. Määritä raporttiin sisällytettävät tiedot täyttämällä kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Valitse **Tulosta**- tai **Esikatsele**-painike.
 
 ## <a name="to-export-balance-information-using-gifi-codes"></a>Saldotietojen vieminen GIFI-koodien avulla
 Voit viedä saldotiedot GIFI-koodien avulla ja tallentaa viedyn tiedoston Excelissä. Voit muokata tiedostoa tai tallentaa tai poistaa sen. Tiedoston avulla voit siirtää tietoja verojen valmistelussa käytettävään ohjelmistoon.
 
-1. Valitse oikeassa yläkulmassa **Etsi sivua tai raporttia** -kuvake ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake"), kirjoita **Vie GIFI-tiedot Exceliin** ja valitse sitten liittyvä linkki.
+1. Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **GIFI-koodit** ja valitse sitten aiheeseen liittyvä linkki.
 2. Määritä Exceliin vietävät tiedot täyttämällä kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Valitse **OK**-painike.
 
-**Huomautus:** Excel-tiedostolla on seuraavat ominaisuudet:
+> [!NOTE]  
+>   Excel-tiedostolla on seuraavat ominaisuudet:
 
 * Saldo pyöristetään lähimpään prosenttilukuun, mutta solun arvona pidetään pääkirjanpidossa oleva prosenttiluku.
 * Negatiiviset luvut esitetään suluissa olevina positiivisina lukuina. Luku -123 on siis (123).

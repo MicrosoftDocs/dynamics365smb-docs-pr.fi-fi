@@ -1,5 +1,5 @@
 ---
-title: Myynti| Microsoft Docs
+title: "Myynnin hallintatehtävien yleiskatsaus | Microsoft Docs"
 description: "Tässä artikkelissa määritetään, miten myyntiaktiviteetteja hallitaan."
 services: project-madeira
 documentationcenter: 
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell
-ms.date: 04/27/2017
+ms.date: 06/30/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: d8b73dcf1ee000bd13aec200c82275eb3c0f9d1d
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: ebdcfc8c2be94398c1ebd7d5268a94b568e3b23b
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -46,6 +46,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 | Luo myyntitarjous, jos tarjoat tuotteita siirtokelpoisilla ehdoilla ennen tarjouksen muuntamista myyntilaskuksi. |[Toimintaohje: Tarjousten tekeminen](sales-how-make-offers.md) |
 | Luot myyntilaskun tallentaaksesi sopimuksesi asiakkaan kanssa ja myydäksesi määrätyt tuotteet määrätyillä toimitus- ja maksuehdoilla. |[Toimintaohje: Myynnin laskutus](sales-how-invoice-sales.md) |
 | Käsittele osittaista toimitusta tai suoratoimitusta käsittelevä myyntitilaus. |[Toimintaohje: Tuotteiden myyminen](sales-how-sell-products.md) |
+|Määritä vakiomyynti- tai -ostorivit, jotka voit lisätä nopeasti asiakirjoihin, kuten toistuviin täydennystilauksiin.|[Toimintaohje: Toistuvien myynti- ja ostorivien luominen](sales-how-work-standard-lines.md)|  
 | Linkitä myyntitilaus ostotilaukseen, jotta voit myydä suoratoimituksen nimikkeen, joka toimitetaan suoraan toimittajaltasi asiakkaallesi. |[Toimintaohje: Suoratoimitusten tekeminen](sales-how-drop-shipment.md) |
 | Suorita toiminto maksamattomalle kirjatulle myyntilaskulle hyvityslaskun automaattiseksi luomiseksi ja joko peruuta myyntilasku tai luo se uudelleen, jotta voit tehdä korjauksia. |[Toimintaohje: Maksamattomien myyntilaskujen korjaaminen tai peruuttaminen](sales-how-correct-cancel-sales-invoice.md) |
 | Luo myyntihyvityslasku palauttamaan vastaamaan määrätty kirjattu myyntilasku heijastamaan sitä, mitä tuotteita asiakas palauttaa toimittajalle ja minkä maksusumman palautat. |[Toimintaohje: Myynnin palautuksen tai peruutuksen käsittely](sales-how-process-sales-returns-cancellations.md) |
@@ -57,7 +58,8 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 [Ostovelkojen hallinta](payables-manage-payables.MD)  
 [Projektinhallinta](projects-manage-projects.md)    
 [Toimitusketju](madeira-supply-chain.md)      
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

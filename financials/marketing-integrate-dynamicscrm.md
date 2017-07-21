@@ -1,6 +1,6 @@
 ---
-title: Asiakassuhteiden hallinta Dynamics 365 for Salesin avulla Dynamics 365 for Financialsissa | Microsoft Docs
-description: "Jos käytät Dynamics 365 for Salesia asiakassuhteissa, voit käyttää Dynamics 365 for Financialsia tilausten käsittelyyn ja talousasioissa. Tällä tavoin saavutetaan saumaton integrointi liidistä tuottoon."
+title: Asiakkaiden hallinta Dynamics 365 for Salesissa| Microsoft Docs
+description: "Voit tehdä Dynamics 365 for Financialsissa tietojen yhdistämismäärityksen Dynamics 365 for Salesilla, jolloin saavutetaan liidistä tuottoon -prosessin saumaton integrointi ja synkronointi."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map
-ms.date: 03/05/2017
+ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: c0291cc316b49e1f1f4f2196745914daca158f61
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 2f182d48a3d2c083507564b553fbe22ad7a2e661
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 ---
 # <a name="managing-your-customer-relationships-using-dynamics-365-for-sales-from-inside-dynamics-365-for-financials"></a>Asiakassuhteiden hallinta Dynamics 365 for Salesin avulla Dynamics 365 for Financialsissa
@@ -23,16 +23,19 @@ Jos käytät Dynamics 365 for Salesia asiakassuhteissa, voit käyttää [!INCLUD
 
 Kun sovellus on määritetty integroitumaan Dynamics 365 for Salesiin, voit käyttää Sales-tietoja [!INCLUDE[d365fin](includes/d365fin_md.md)]ista ja toisin päin tietyissä tilanteissa. Tämän integroinnin ansiosta voit käsitellä ja synkronoida molemmille palveluille yhteisiä tietotyyppejä, kuten asiakkaita, kontakteja ja myyntitietoja, sekä pitää tiedot ajan tasalla molemmissa palveluissa.  
 
-**Huomautus**: [!INCLUDE[d365fin](includes/d365fin_md.md)]in nykyisessä versiossa Dynamics 365 for Salesia kutsutaan Dynamics CRM:ksi. Yksinkertaisuuden vuoksi tässä artikkelissa käytetään jatkossa [!INCLUDE[d365fin](includes/d365fin_md.md)]issa käytössä olevia termejä.  
+> [!NOTE]  
+>   [!INCLUDE[d365fin](includes/d365fin_md.md)]in nykyisessä versiossa Dynamics 365 for Salesia kutsutaan Dynamics CRM:ksi. Yksinkertaisuuden vuoksi tässä artikkelissa käytetään jatkossa [!INCLUDE[d365fin](includes/d365fin_md.md)]issa käytössä olevia termejä.  
 
 Esimerkiksi myyjä voi käyttää Dynamics CRM:ssä [!INCLUDE[d365fin](includes/d365fin_md.md)]in hinnastoja myyntitilauksen luonnissa. Kun he lisäävät nimikkeen Dynamics CRM:n myyntitilausriville, he näkevät myös nimikkeen varastotason (saatavuuden) [!INCLUDE[d365fin](includes/d365fin_md.md)]ista. Nämä tiedot on julkaistu avustetun **Dynamics CRM -yhteyden määritys** -asennusoppaan osana.  
 
-**Huomautus**: Tämä toiminto edellyttää, että kokemukseksi on valittu **Ohjelmistopaketti**. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)]-kokemuksen mukauttaminen](ui-experiences.md).  
+> [!NOTE]  
+>   Tämä toiminto edellyttää, että kokemukseksi on valittu **Ohjelmistopaketti**. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)] -kokemuksen mukauttaminen](ui-experiences.md).  
 
 ## <a name="setting-up-the-connection"></a>Yhteyden määrittäminen
 Voit käynnistää aloitussivulta avustetun **Dynamics CRM -yhteyden määritys** -asennusoppaan helpottamaan yhteyden määritystä. Kun yhteys on muodostettu, Dynamics CRM:n tietueet on yhdistetty saumattomasti [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietueisiin.  
 
-**Huomautus**: Seuraavassa selitetään avustettu asennus, mutta voit suorittaa samat tehtävät manuaalisesti **CRM-yhteyden määritys** -ikkunassa.
+> [!NOTE]  
+>   Seuraavassa selitetään asetusten ohjattu määritys, mutta voit suorittaa samat tehtävät manuaalisesti **CRM-yhteyden määritys** -ikkunassa.
 
 Voit valita avustetussa asennusoppaassa, mitkä tiedot synkronoidaan palvelujen välillä. Voit myös määrittää, että haluat tuoda nykyisen Dynamics CRM -ratkaisun. Siinä tapauksessa on määritettävä hallinnollinen käyttäjätili.
 
@@ -67,7 +70,8 @@ Tietyillä alueilla toimintoa varten on ensin yhdistettävä tietyt tietojoukot 
 * Nimikkeiden ja resurssien hinnat  
   * Asiakkaan hintaryhmät on yhdistettävä ensin Dynamics CRM:n hintoihin  
 
-**Huomautus**: Jos hinnoissa käytetään ulkomaan valuuttaa, varmista, että valuutat yhdistetään Dynamics CRM:n tapahtumavaluuttoihin.
+> [!NOTE]  
+>   Jos hinnoissa käytetään ulkomaan valuuttaa, varmista, että valuutat yhdistetään Dynamics CRM:n tapahtumavaluuttoihin.
 
 Dynamics CRM:n myyntitilaukset tarvitsevat lisätietoja, kuten asiakkaita, mittayksiköitä, valuuttoja, asiakkaan hintaryhmiä, nimikkeitä ja/tai resursseja. Dynamics CRM:n myyntitilausten saumaton käyttö edellyttää, että asiakkaat, mittayksikkö, asiakkaan hintaryhmät, nimikkeet ja/tai resurssit yhdistetään ensin.
 
@@ -80,8 +84,8 @@ Saat **CRM-yhteyden määritys** -ikkunassa koska tahansa tietoja täydestä syn
 
 ## <a name="see-also"></a>Katso myös
 [Kontaktienhallinta](marketing-relationship-management.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md)  
-[Oman [!INCLUDE[d365fin](includes/d365fin_md.md)]-kokemuksen mukauttaminen](ui-experiences.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttökokemuksen mukauttaminen](ui-experiences.md)  
 [Toimintaohje: Käyttäjien ja käyttöoikeuksien hallinta](ui-how-users-permissions.md)    
 [Organisaation ja käyttäjien perehdyttäminen Dynamics 365 (online) -ratkaisuun](https://www.microsoft.com/en-US/Dynamics/crm-customer-center/onboard-your-organization-and-users-to-dynamics-365-online.aspx)  
 

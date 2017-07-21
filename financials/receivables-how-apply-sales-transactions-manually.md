@@ -1,6 +1,6 @@
 ---
-title: "Toimintaohje: Asiakkaan maksujen täsmäyttäminen manuaalisesti| Microsoft Docs"
-description: "Toimintaohje: Asiakkaan maksujen täsmäyttäminen manuaalisesti"
+title: "Asiakasmaksujen täsmäyttäminen manuaalisesti kohdistamalla asiakastapahtumat | Microsoft Docs"
+description: "Ohjeaiheessa kerrotaan, miten asiakkaan kassaanmaksut tai hyvitykset kohdistetaan vähintään yhteen avoimeen asiakastapahtumaan ja asiakasmaksut täsmäytetään."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,17 +13,18 @@ ms.search.keywords: payment process, cash receipt
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 929404a3385a7964136226ae1ee1a8775dd7a62a
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 568bd66c201764cae45ea12a900ea12eabbf0546
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="how-to-reconcile-customer-payments-manually"></a>Toimintaohje: Asiakkaan maksujen täsmäyttäminen manuaalisesti
 Kun asiakkaalta saadaan kassaanmaksu tai asiakkaalle tehdään käteishyvitys, on päätettävä, kohdistetaanko maksu tai hyvitys yhteen vai useaan avoimeen debet- tai kredit-tapahtumaan sen sulkemiseksi. Voit määrittää kohdistettavan summan. Voit esimerkiksi kohdistaa osamaksut asiakastapahtumiin. Asiakastapahtumat sulkeminen varmistaa, että tiedot, kuten asiakkaan tilastotiedot, tiliotteet ja viivästyskulut, ovat oikein.
 
-**Huomautus**: Punainen fontti **Asiakastapahtumat**-ikkunassa ilmaisee, että liittyvä maksu on myöhässä.
+> [!NOTE]  
+>   Punainen fontti **Asiakastapahtumat**-ikkunassa ilmaisee, että liittyvä maksu on myöhässä.
 
 Voit kohdistaa asiakastapahtumia eri tavoilla:
 
@@ -31,14 +32,15 @@ Voit kohdistaa asiakastapahtumia eri tavoilla:
 * myyntihyvityslaskuasiakirjoista
 * asiakastapahtumista sen jälkeen, kun myyntiasiakirjat on kirjattu, mutta ei kohdistettu.
 
-**Huomautus**: Jos asiakkaan kortin **Kohdistustapa**-kentän arvo on **Kohdista vanhimpaan**, maksut kohdistetaan automaattisesti vanhimpaan avoimeen kredit-tapahtumaan, ellei tapahtumaa määritetä manuaalisesti. Jos kohdistustapa on **Manuaalinen**, tapahtumat kohdistetaan aina manuaalisesti.
+> [!NOTE]  
+>   Jos asiakkaan kortin **Kohdistustapa**-kentän arvo on **Kohdista vanhimpaan**, maksut kohdistetaan automaattisesti vanhimpaan avoimeen kredit-tapahtumaan, ellei tapahtumaa määritetä manuaalisesti. Jos kohdistustapa on **Manuaalinen**, tapahtumat kohdistetaan aina manuaalisesti.
 
 Voit kohdistaa asiakkaan maksut manuaalisesti **Kassapäiväkirja**-ikkunassa. Kassapäiväkirja on yleisen päiväkirjan tyyppi, joten sitä voidaan käyttää kirjaamaan myyntitapahtumia yleinen päiväkirja -, pankki-, asiakas-, toimittaja- ja käyttöomaisuustileille. Voit kohdistaa maksun yhteen tai useampaan debet-tapahtumaan, kun kirjaat maksun, tai tehdä kohdistuksen myöhemmin kirjatuista tapahtumista.
 
 Voit kohdistaa asiakas- ja toimittajamaksuja myös **Maksujen täsmäytyskirjauskansio** -ikkunassa pankin tiliotteen tuonti-, automaattisen kohdistamis- ja pankkitilin täsmäyttämistoiminnoilla. Lisätietoja on kohdassa [Maksujen täsmäyttäminen käyttämällä automaattista kohdistusta](receivables-how-reconcile-payments-auto-application.md). Vaihtoehtoisesti voit täsmäyttää asiakasmaksut **Maksurekisteröinti**-ikkunan maksamattomien myyntiasiakirjojen luettelon perusteella. Lisätietoja on kohdassa [Toimintaohje: Asiakasmaksujen täsmäyttäminen maksamattomien myyntiasiakirjojen luettelosta](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
 
 ## <a name="to-fill-and-post-a-cash-receipt-journal"></a>Kassapäiväkirjan täyttäminen ja kirjaaminen
-1. Valitse oikeassa yläkulmassa **Etsi sivua tai raporttia** -kuvake ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake"), kirjoita **Kassapäiväkirja** ja valitse sitten liittyvä linkki.
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Kassapäiväkirja** ja valitse sitten aiheeseen liittyvä linkki.
 2. Valitse **Muokkaa päiväkirjaa** -toiminto.
 3. Valitse haluamasi erä **Erän nimi** -kentässä.
 4. Täytä **Kirjauspvm.**-kentän tiedot.  
@@ -54,7 +56,7 @@ Voit kohdistaa asiakas- ja toimittajamaksuja myös **Maksujen täsmäytyskirjaus
 12. Kirjaa päiväkirja.
 
 ## <a name="to-apply-a-payment-to-a-single-customer-ledger-entry"></a>Maksun kohdistaminen yhteen asiakastapahtumaan:
-1. Valitse oikeassa yläkulmassa **Etsi sivua tai raporttia** -kuvake ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake"), kirjoita **Kassapäiväkirja** ja valitse liittyvä linkki.
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Kassapäiväkirja** ja valitse aiheeseen liittyvä linkki.
 2. Valitse **Muokkaa päiväkirjaa** -toiminto.
 3. Syötä ensimmäiselle päiväkirjariville asianmukaiset tiedot kohdistettavasta tapahtumasta.
 4. Syötä **Asiakirjatyyppi**-kenttään **Maksu**.
@@ -69,7 +71,7 @@ Voit kohdistaa asiakas- ja toimittajamaksuja myös **Maksujen täsmäytyskirjaus
 11. Kirjaa kassapäiväkirja.
 
 ## <a name="to-apply-a-payment-to-multiple-customer-ledger-entries"></a>Maksun kohdistaminen useaan asiakastapahtumaan:
-1. Valitse oikeassa yläkulmassa **Etsi sivua tai raporttia** -kuvake ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake"), kirjoita **Kassapäiväkirja** ja valitse liittyvä linkki.
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Kassapäiväkirja** ja valitse sitten aiheeseen liittyvä linkki.
 2. Valitse **Muokkaa päiväkirjaa** -toiminto.
 3. Syötä ensimmäiselle päiväkirjariville asianmukaiset tiedot kohdistettavasta tapahtumasta.
 4. Syötä **Asiakirjatyyppi**-kenttään **Maksu**.
@@ -85,7 +87,7 @@ Voit kohdistaa asiakas- ja toimittajamaksuja myös **Maksujen täsmäytyskirjaus
 12. Kirjaa kassapäiväkirja.
 
 ## <a name="to-apply-a-credit-memo-to-a-single-customer-ledger-entry"></a>Hyvityslaskun kohdistaminen yhteen asiakastapahtumaan:
-1. Valitse oikeassa yläkulmassa **Etsi sivua tai raporttia** -kuvake ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake"), kirjoita **Myyntihyvityslaskut** ja valitse sitten liittyvä linkki.
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Myyntihyvityslaskut** ja valitse sitten aiheeseen liittyvä linkki.
 2. Avaa haluamasi myyntihyvityslasku.
 3. Voit kohdistaa hyvityslaskun yksittäiseen asiakastapahtumaan kirjaamisen yhteydessä valitsemalla **Kohdistetaan asiakirjaan nro** -kentässä tapahtuma, johon haluat kohdistaa maksun.
 4. Määritä tapahtumaan kohdistettava summa rivin **Kohdistettava summa** -kenttään.  
@@ -95,7 +97,7 @@ Voit kohdistaa asiakas- ja toimittajamaksuja myös **Maksujen täsmäytyskirjaus
 6. Kirjaa hyvityslasku.
 
 ## <a name="to-apply-a-credit-memo-to-multiple-customer-ledger-entries"></a>Hyvityslaskun kohdistaminen useaan asiakastapahtumaan:
-1. Valitse oikeassa yläkulmassa **Etsi sivua tai raporttia** -kuvake ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake"), kirjoita **Myyntihyvityslaskut** ja valitse sitten liittyvä linkki.
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Myyntihyvityslaskut** ja valitse sitten aiheeseen liittyvä linkki.
 2. Avaa haluamasi myyntihyvityslasku.
 3. Voit kohdistaa hyvityslaskun useaan asiakastapahtumaan kirjaamisen yhteydessä valitsemalla **Kohdista tapahtumat** -toiminto.
 4. Valitse rivit, joiden tapahtumiin tapahtuma kohdistetaan, ja valitse sitten **Aseta kohdistustunniste** -toiminto.
@@ -106,7 +108,7 @@ Voit kohdistaa asiakas- ja toimittajamaksuja myös **Maksujen täsmäytyskirjaus
 7. Kirjaa hyvityslasku.
 
 ## <a name="to-apply-posted-customer-ledger-entries"></a>Kirjattujen asiakastapahtumien kohdistaminen:
-1. Valitse oikeassa yläkulmassa **Etsi sivua tai raporttia** -kuvake ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake"), kirjoita **Asiakkaat** ja valitse sitten liittyvä linkki.
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Asiakkaan tiliote** ja valitse sitten aiheeseen liittyvä linkki.
 2. Avaa sen asiakkaan kortti, jonka tapahtumia haluat kohdistaa.
 3. Valitse **Tapahtumakirjaukset**-toiminto ja valitse sitten sen tapahtuman rivi, johon tapahtuma kohdistetaan.
 4. Valitse **Kohdista tapahtumat** -toiminto. Näyttöön avautuu **Kohdista asiakastapahtumat** -ikkuna, jossa näkyvät asiakkaan avoimet tapahtumat.
@@ -118,11 +120,12 @@ Voit kohdistaa asiakas- ja toimittajamaksuja myös **Maksujen täsmäytyskirjaus
 8. Kirjaa sovellus valitsemalla **OK**.
 
     Jos kirjatun kohdistuksen tuloksena on suljettuja asiakastapahtumia, näiden tapahtumien **Avoin**-kentässä ei enää ole valintamerkkiä.    
-9. Jos haluat nähdä tapahtumia, valitse oikeassa yläkulmassa **Etsi sivua tai raporttia** -kuvake ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake"), kirjoita **Asiakkaat** ja valitse sitten liittyvä linkki. Etsi asianmukaisen asiakkaan kortti nähdäksesi tapahtumat.  
+9. Voit tarkastella kirjanpitotapahtumia, valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Asiakkaat** ja valitse sitten aiheeseen liittyvä linkki. Etsi asianmukaisen asiakkaan kortti nähdäksesi tapahtumat.  
 
 **Avaa**-valintaruutua, joka sijaitsee sen tapahtumakirjausluettelon rivillä, joka sisältää kokonaan kohdistetun tapahtumakirjauksen, ei ole valittu.  
 
-**Huomautus**: Kun valitset tapahtuman **Kohdista asiakastapahtumat** -ikkunassa tai useita tapahtumia määrittämällä **Kohdistetaan tunnisteeseen** -kohdan arvon, päiväkirjarivin **Kohdistettu summa** -kentässä näytetään valittujen kirjattujen tapahtumien jäljellä oleva yhteissumma, ellei kentässä ole jo arvoa. Jos asiakkaan kortin **Kohdistustapa**-kentässä valitaan **Kohdista vanhimpaan**, sovellus tekee kohdistuksen automaattisesti.
+> [!NOTE]  
+>   Kun valitset tapahtuman **Kohdista asiakastapahtumat** -ikkunassa tai useita tapahtumia määrittämällä **Kohdistetaan tunnisteeseen** -kohdan arvon, päiväkirjarivin **Kohdistettu summa** -kentässä näytetään valittujen kirjattujen tapahtumien jäljellä oleva yhteissumma, ellei kentässä ole jo arvoa. Jos asiakkaan kortin **Kohdistustapa**-kentässä valitaan **Kohdista vanhimpaan**, sovellus tekee kohdistuksen automaattisesti.
 
 ## <a name="to-apply-customer-ledger-entries-in-different-currencies-to-one-another"></a>Erivaluuttaisten asiakastapahtumien kohdistaminen toisiinsa:
 Jos asiakkaalle myydään yhdessä valuutassa ja maksu vastaanotetaan toisessa valuutassa, maksu voidaan kohdistaa laskuun.  
@@ -131,30 +134,32 @@ Jos tapahtuma (tapahtuma 1) kohdistetaan eri valuuttaa käyttävään tapahtumaa
 
 Asiakastapahtumien kohdistaminen eri valuutoissa on otettava käyttöön. Lisätietoja on kohdassa [Toimintaohje: Tapahtumakirjausten kohdistamisen ottaminen käyttöön eri valuutoissa](finance-how-enable-application-ledger-entries-different-currencies.md).  
 
-1. Valitse oikeassa yläkulmassa **Etsi sivua tai raporttia** -kuvake ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake"), kirjoita **Kassapäiväkirja** ja valitse liittyvä linkki.
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Kassapäiväkirja** ja valitse sitten aiheeseen liittyvä linkki.
 2. Avaa haluamasi päiväkirja ja täytä ensimmäinen tyhjä päiväkirjan rivi valuuttakoodilla.
 3. Valitse **Kohdista tapahtumat** -toiminto.
 4. Valitse rivi, jonka tapahtumaan kassapäiväkirjan tapahtuma kohdistetaan. Valitse sitten **Aseta kohdistustunniste** -toiminto ja valitse tapahtuma, johon kohdistetaan.
 5. Valitse **OK**-painike palataksesi kassapäiväkirjaan.
 6. Kirjaa myyntipäiväkirja.  
 
-**Tärkeää**: Kun erivaluuttaisia tapahtumia kohdistetaan, tapahtumat muunnetaan paikallista valuuttaa (USD) käyttäen. Vaikka valuuttojen vaihtokurssit ovat kiinteät (esimerkiksi Yhdysvaltain dollarin ja euron välillä), pieniä jäännössummia saattaa esiintyä, kun ulkomaan valuutat muunnetaan Yhdysvaltain dollariksi. Nämä pienet jäännössummat kirjataan voitoiksi ja tappioiksi **Valuutat**-ikkunan **Realisoitun. val.voitt. tili**- ja **Realisoitun. val.tapp. tili** -kentissä määritetyille tileille. **Summa (USD)** -kenttää muokataan myös toimittajatapahtumien mukaan.  
+> [!IMPORTANT]  
+>   Kun erivaluuttaisia tapahtumia kohdistetaan, tapahtumat muunnetaan paikallista valuuttaa (USD) käyttäen. Vaikka valuuttojen vaihtokurssit ovat kiinteät (esimerkiksi Yhdysvaltain dollarin ja euron välillä), pieniä jäännössummia saattaa esiintyä, kun ulkomaan valuutat muunnetaan Yhdysvaltain dollariksi. Nämä pienet jäännössummat kirjataan voitoiksi ja tappioiksi **Valuutat**-ikkunan **Realisoitun. val.voitt. tili**- ja **Realisoitun. val.tapp. tili** -kentissä määritetyille tileille. **Summa (USD)** -kenttää muokataan myös toimittajatapahtumien mukaan.  
 
 ## <a name="to-correct-an-application-of-customer-entries"></a>Asiakkaan tapahtumien kohdistuksen korjaaminen
 Kun kohdistus korjataan, ohjelma luo ja kirjaa korjaavat tapahtumat (eli tapahtumat, jotka ovat alkuperäisten tapahtumien kanssa identtisiä mutta joiden summakentässä on vastakkainen etumerkki) kaikille tapahtumille, myös kaikille kohdistuksesta johdetuille KP-kirjauksille, kuten maksualennuksille ja valuuttavoitoille tai tappioille. Ohjelma avaa uudelleen kohdistuksen sulkemat tapahtumat.  
 
-1. Valitse oikeassa yläkulmassa **Etsi sivua tai raporttia** -kuvake ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake"), kirjoita **Asiakkaat** ja valitse sitten liittyvä linkki.
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Asiakkaan tiliote** ja valitse sitten aiheeseen liittyvä linkki.
 2. Avaa haluamasi asiakkaan kortti.
 3. Valitse **Tapahtumakirjaukset**-toiminto.
 4. Valitse haluamasi tapahtuma ja valitse sitten **Peruuta kohdistus** -toiminto.
 5. Vaihtoehtoisesti voit valita **Yksityiskoht. tapahtumat.** -toiminnon.
 6. Valitse haluamasi kohdistustapahtuma ja valitse sitten **Peruuta kohdistus** -toiminto.
-7. Täytä pyyntöikkunan kentät ja valitse sitten **Peruuta kohdistus** -painike.  
+7. Täytä pyyntöikkunan kentät ja valitse sitten **Peruuta kohdistus** -toiminto.  
 
-**Tärkeää**: Jos tapahtumaan on tehty useita kohdistuksia, on viimeisin kohdistustapahtuma poistettava ensin.  
+> [!IMPORTANT]  
+>   Jos tapahtumaan on tehty useita kohdistuksia, on viimeisin kohdistustapahtuma poistettava ensin.  
 
 ## <a name="see-also"></a>Katso myös
 [Myyntisaamisten hallinta](receivables-manage-receivables.md)  
 [Myynti](sales-manage-sales.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md)
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
 

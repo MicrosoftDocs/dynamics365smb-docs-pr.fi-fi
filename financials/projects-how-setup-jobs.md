@@ -1,6 +1,6 @@
 ---
-title: "Toimintaohje: Projektien määrittäminen| Microsoft Docs"
-description: "Artikkelissa kerrotaan, miten järjestelmä valmistellaan käyttämään projektitöitä projektien hallitsemiseen."
+title: "Projektihintojen ja projektin kirjausryhmien määrittäminen| Microsoft Docs"
+description: "Tässä ohjeaiheessa kerrotaan, miten yleiset projektitiedot määritetään, sekä määritetään projektin nimikkeiden, resurssien sekä KP-tilien ja projektien kirjausryhmien hinnat."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: f228e520f1140243a6fd305173200ff5637272a5
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: aa7669c5f7762de647346039e0023c93603fbc10
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -26,10 +26,11 @@ Määritä **Projektienhallinnan asetukset** -ikkunassa projektin tiettyjen toim
 Määritä yksittäisissä projektikorteissa projektinimikkeiden hinnat, projektin resurssit ja KP-tilit. Määritä myös projektin kirjausryhmät.
 
 ## <a name="to-set-general-information-for-jobs"></a>Projektien yleistietojen määrittäminen
-1. Valitse oikeassa yläkulmassa **Etsi sivua tai raporttia** -kuvake ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake"), kirjoita **Projektienhallinnan asetukset** ja valitse sitten liittyvä linkki.
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Projektienhallinnan asetukset** ja valitse sitten aiheeseen liittyvä linkki.
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-**Huomautus**: **Käytä käyttölinkkiä** -valintaruutu on varsin monimutkainen. Seuraavassa osassa kerrotaan siitä enemmän.
+> [!NOTE]  
+>   **Käytä käyttölinkkiä** -valintaruutu on varsin monimutkainen. Seuraavassa osassa kerrotaan siitä enemmän.
 
 ## <a name="to-set-up-job-usage-tracking"></a>Projektin käytön seurannan määrittäminen
 Kun suoritat työtä, haluat ehkä tietää, miten käyttöäsi seurataan suunnitelmaasi. Voit tehdä tämän helposti luomalla linkin työsuunnittelurivien ja toteutuneen käytön välille. Tämän avulla voi seurata kustannuksia ja helposti nähdä, miten paljon työtä on vielä jäljellä. Oletusarvon mukaan työn suunnittelurivin tyyppi on **Budjetti**, mutta käyttämällä rivin tyyppiä **Sekä budjetti että laskutettava** on samanlainen vaikutus.
@@ -38,17 +39,19 @@ Jos valitset **Käytä käyttölinkkiä** -valintaruudun, voit tarkastella tieto
 
 Kun **Käytä käyttölinkkiä** -valintaruutu on valittuna ja projektin suunnittelurivin tyyppi on **Laskutettava**, Financial luo **Budjetti**-tyyppisen projektin suunnittelurivin päiväkirjarivin kirjaamisen jälkeen.
 
-**Huomautus**: Jos projektikortin **Käytä käyttölinkkiä** -valintaruutu on valittu ja päiväkirjarivin **Rivityyppi**-kenttä on tyhjä, **Budjetti**-tyyppiset projektin uudet suunnittelurivit luodaan projektipäiväkirjan rivien kirjaamisen yhteydessä. Jos projektikortin **Käytä käyttölinkkiä** -valintaruutua ei ole valittu ja projektipäiväkirjan rivin **Rivityyppi**-kenttä on tyhjä, uusia projektin suunnittelurivejä ei luoda projektipäiväkirjan rivien kirjaamisen yhteydessä. Lisätietoja on kohdassa [Toimintaohje: Projektien käytön kirjaaminen](projects-how-record-job-usage.md).
+> [!NOTE]  
+>   Jos projektikortin **Käytä käyttölinkkiä** -valintaruutu on valittu ja päiväkirjarivin **Rivityyppi**-kenttä on tyhjä, **Budjetti**-tyyppiset projektin uudet suunnittelurivit luodaan projektipäiväkirjan rivien kirjaamisen yhteydessä. Jos projektikortin **Käytä käyttölinkkiä** -valintaruutua ei ole valittu ja projektipäiväkirjan rivin **Rivityyppi**-kenttä on tyhjä, uusia projektin suunnittelurivejä ei luoda projektipäiväkirjan rivien kirjaamisen yhteydessä. Lisätietoja on kohdassa [Toimintaohje: Projektien käytön kirjaaminen](projects-how-record-job-usage.md).
 
-1. Valitse oikeassa yläkulmassa **Etsi sivua tai raporttia** -kuvake ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake"), kirjoita **Projektienhallinnan asetukset** ja valitse sitten liittyvä linkki.
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Projektienhallinnan asetukset** ja valitse sitten aiheeseen liittyvä linkki.
 2. Valitse **Käytä käyttölinkkiä** -valintaruutu tai poista sen valinta.
 
-**Huomautus**: Voit määrittää yksittäisten projektikorttien **Käytä käyttölinkkiä** -valintaruudulle eri asetukset. Tässä tapauksessa kyseisen projektin asetus korvaa yllä kuvatun yleisen oletusasetuksen.
+> [!NOTE]  
+>   Voit määrittää yksittäisten projektikorttien **Käytä käyttölinkkiä** -valintaruudulle eri asetukset. Tässä tapauksessa kyseisen projektin asetus korvaa yllä kuvatun yleisen oletusasetuksen.
 
 ## <a name="to-set-up-prices-for-job-resources"></a>Projektin resurssien hintojen määrittäminen
 Voit määrittää projektin resursseja varten tietyt hinnat. Tähän käytetään **Projektiresurssien hinnat** -ikkunaa.
 
-1. Valitse oikeassa yläkulmassa **Etsi sivua tai raporttia** -kuvake ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake"), kirjoita **Projektit** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Projektit** ja valitse sitten aiheeseen liittyvä linkki.  
 2. Valitse asianmukainen projekti ja valitse sitten **Resurssi**-toiminto.
 3. Täytä **Projektiresurssien hinnat** -ikkunassa tarvittavat kentät.
 
@@ -56,12 +59,13 @@ Voit määrittää projektin resursseja varten tietyt hinnat. Tähän käytetä�
 
 Resurssin **Yksikköhinta**-kentän arvoa käytetään projektin suunnitteluriveillä ja projektipäiväkirjoissa, kun tämä resurssi, resurssiryhmään liitetty resurssi tai mikä tahansa resurssi määritetään.  
 
-**Huomautus**: Tämä hinta ohittaa aina aiemmin määritetyissä **Resurssihinta / resurssiryhmän hinnat** -ikkunassa olevat hinnat.
+> [!NOTE]  
+>   Tämä hinta ohittaa aina aiemmin määritetyissä **Resurssihinta tai Resurssiryhmän hinnat** -ikkunassa olevat hinnat.
 
 ## <a name="to-set-up-prices-for-job-items"></a>Projektinimikkeiden hintojen määrittäminen
 Voit määrittää projektin nimikkeille tietyt hinnat. Tähän käytetään **Projektinimikkeiden hinnat** -ikkunaa.
 
-1. Valitse oikeassa yläkulmassa **Etsi sivua tai raporttia** -kuvake ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake"), kirjoita **Projektit** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Projektit** ja valitse sitten aiheeseen liittyvä linkki.  
 2. Valitse asianmukainen projekti ja valitse sitten **Nimike**-toiminto.
 3. Täytä **Projektinimikkeiden hinnat** -ikkunassa tarvittavat kentät.
 
@@ -69,12 +73,13 @@ Voit määrittää projektin nimikkeille tietyt hinnat. Tähän käytetään **P
 
 Nimikkeen **Yksikköhinta**-kentän arvoa käytetään projektin suunnitteluriveillä ja projektipäiväkirjoissa tämän nimikkeen syöttämisen yhteydessä.  
 
-**Huomautus**: Tämä hinta ohittaa aina nimikkeiden normaalin asiakashinnan (parhaan hinnan mekanismi). Jos haluat käyttää säännöllisiä asiakashintamekanismeja, älä luo projektille projektinimikkeiden hintoja.
+> [!NOTE]  
+>   Tämä hinta ohittaa aina nimikkeiden normaalin asiakashinnan (parhaan hinnan mekanismi). Jos haluat käyttää säännöllisiä asiakashintamekanismeja, älä luo projektille projektinimikkeiden hintoja.
 
 ## <a name="to-set-up-prices-for-job-general-ledger-accounts"></a>Kirjanpitotilin hintojen määrittäminen
 Määritä hinnat projektin kirjanpidon kuluille. Tähän käytetään **Projektin kirjanpitotilin hinnat** -ikkunaa.
 
-1. Valitse oikeassa yläkulmassa **Etsi sivua tai raporttia** -kuvake ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake"), kirjoita **Projektit** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Projektit** ja valitse sitten aiheeseen liittyvä linkki.  
 2. Valitse asianmukainen projekti ja valitse sitten **KP-tili**-toiminto.  
 3. Täytä **Projektin kirjanpitotilin hinnat** -ikkunassa tarvittavat kentät.
 
@@ -85,9 +90,10 @@ Pääkirjanpidon projektikulujen **Yksikköhinta**-kentän arvoa käytetään pr
 ## <a name="to-set-up-job-posting-groups"></a>Projektin kirjausryhmien määrittäminen
 Yksi näkökulma projektien suunnittelussa on sen päättäminen, mitä kirjaustilejä projektin kustannuslaskentaan käytetään. Projektien kirjaus edellyttää, että määrität kullekin projektin kirjausryhmälle tilit kirjausta varten. Kirjausryhmä edustaa linkkiä työn ja sen kirjanpitokäsittelyn välillä. Kun luot työn, määrität kirjausryhmän ja oletusarvon mukaan jokainen tehtävä, jonka luot työlle, liittyy kyseiseen kirjausryhmään. Voit kuitenkin ohittaa oletusarvon tehtävien luonnin yhteydessä ja valita sopivamman kirjausryhmän.  
 
-**Huomautus**: Tilikartan tarvittavat tilit tulee määrittää ennen kirjausryhmien määrittämistä. Lisätietoja on kohdassa [Tilikartan määrittäminen tai muuttaminen](finance-setup-chart-accounts.md).  
+> [!NOTE]  
+>   Tarvittavat tilikartat tulee määrittää Tilikartta-taulukossa ennen kirjausryhmien määrittämistä. Lisätietoja on kohdassa [Tilikartan määrittäminen tai muuttaminen](finance-setup-chart-accounts.md).  
 
-1. Valitse oikeassa yläkulmassa **Etsi sivua tai raporttia** -kuvake ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake"), kirjoita **Projektin kirjausryhmät** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Projektienhallinnan asetukset** ja valitse sitten aiheeseen liittyvä linkki.  
 2. Valitse **Uusi**-toiminto ja täytä kentät seuraavassa taulukossa kuvatulla tavalla.  
 
 | Summakentät | Kuvaus |
@@ -114,5 +120,5 @@ Yksi näkökulma projektien suunnittelussa on sen päättäminen, mitä kirjaust
 [Rahoitus](finance.md)  
 [Osto](purchasing-manage-purchasing.md)         
 [Myynti](sales-manage-sales.md)      
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 

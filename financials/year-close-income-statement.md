@@ -1,6 +1,6 @@
 ---
-title: 'Toimintaohje: Tuloslaskelman sulkeminen | Microsoft Docs'
-description: "Tämä artikkeli sisältää tietoja tuloslaskelman sulkemisesta."
+title: Tuloslaskelmatilien sulkeminen | Microsoft Docs
+description: "Vuositilinpäätöksessä on suoritettava Sulje tuloslaskelma -etätyö, jolla suljetaan tilikauden muodostavat kirjanpitojaksot."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,22 +10,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 03/29/2017
+ms.date: 06/02/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: dde7b93c6a3dcf78173494f1c6fa09a38207e676
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 6ddd7b504f6faa856e92c336f889ad08db0b3d8b
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="close-income-statement"></a>Sulje tuloslaskelma
-Kun tilikausi on ohi, sinun täytyy päättää tilikauteen sisältyvät kirjanpitojaksot. Voit tehdä sen ajamalla **Sulje tuloslaskelma** -eräajon. Tämä ajo siirtää vuoden tuloksen tilille taseeseen ja sulkee tuloslaskelmatilit. Voit tehdä tämän luomalla rivejä päiväkirjaan, jonka sitten voit kirjata.
+# <a name="how-to-close-income-statement-accounts"></a>Toimintaohje: Tuloslaskelmatilien sulkeminen
+Kun tilikausi on ohi, sinun täytyy sulkea tilikauteen sisältyvät kirjanpitojaksot. Voit tehdä sen ajamalla **Sulje tuloslaskelma** -eräajon. Tämä ajo siirtää vuoden tuloksen tilille taseeseen ja sulkee tuloslaskelmatilit. Voit tehdä tämän luomalla rivejä päiväkirjaan, jonka sitten voit kirjata.
 
 ## <a name="to-run-the-close-income-statement-batch-job"></a>Sulje tuloslaskelma -eräajon ajaminen
 1. Sulje tilikausi. Tilikausi täytyy sulkea ennen eräajon suorittamista. Lisätietoja on kohdassa [Toimintaohje: Kirjanpitojakson päättäminen](year-close-account-periods.md).
-2. Valitse oikeassa yläkulmassa **Etsi sivua tai raporttia** -kuvake ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake"), kirjoita **Sulje tuloslaskelma** ja valitse sitten liittyvä linkki.
+2. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Sulje tuloslaskelma** ja valitse sitten aiheeseen liittyvä linkki.
 3. Suorita eräajo valitsemalla **OK**.
 
 ## <a name="about-the-close-income-statement-batch-job"></a>Tietoja Sulje tuloslaskelma -eräajosta
@@ -41,5 +41,5 @@ Niillä riveillä, jotka eräajo syöttää päiväkirjan riveille, on aina tili
 [Kirjojen sulkeminen](year-close-books.md)  
 [Toimintaohje: Vuositilinpäätöstapahtuman kirjaaminen](year-how-post-year-end-close-entry.md)  
 [Toimintaohje: Uuden tilikauden avaaminen](finance-how-open-new-fiscal-year.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md)
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
 

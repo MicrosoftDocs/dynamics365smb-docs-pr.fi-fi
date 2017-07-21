@@ -1,6 +1,6 @@
 ---
-title: "Pakolliset kentät | Microsoft Docs"
-description: "Lisätietoja pakollista kentistä."
+title: "Prosessien suorittamiseen tarvittavat pakolliset kentät | Microsoft Docs"
+description: "Tutustu punaisella tähtimerkillä merkittyihin kenttien. Tämä merkintä osoittaa, että ne ovat pakollisia ja ne on täytettävä, jotta prosessit voidaan suorittaa."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms.date: 05/12/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 999a5ba260121c378f80a86703df194d27a5f25c
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: b93a0a7deeab263e457b9bd1da1e7d1264cf2e71
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -30,6 +30,6 @@ Vaikka kentässä on punainen tähti, et joudu täyttämään kenttää ennen ku
 **Nimikkeen kortti** -ikkunassa näkyvä **Kuvaus**-kentässä näkyvä punainen tähti osoittaa sen, että et voi kirjoittaa nimikettä asiakirjariville, kuten myyntitilaukseen, jos tätä kenttää ole täytetty.
 
 ## <a name="see-also"></a>Katso myös
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md)
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
 
 

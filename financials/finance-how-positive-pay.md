@@ -1,6 +1,6 @@
 ---
-title: 'Toimintaohje: Positive Pay -tiedostojen vieminen| Microsoft Docs'
-description: "Tässä artikkelissa kerrotaan, miten voit varmistaa toimittaja- ja maksutiedot sisältävän Positive Pay -tiedoston viennin avulla, että pankki vahvistaa vain tarkistetut sekit ja summat, viemällä ."
+title: Positive Pay -tiedostojen vieminen| Microsoft Docs
+description: "Voit varmistaa toimittaja- ja maksutiedot sisältävän Positive Pay -tiedoston viennin avulla, että pankki vahvistaa vain tarkistetut sekit ja summat."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: check, clearing
-ms.date: 03/24/2017
+ms.date: 06/16/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: ee93f8eb889ae1d635bca22ff133e1523fd1b825
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: dfae1975a78c9380b5b6d4086569d63fe3793832
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -26,13 +26,13 @@ Kun viet toimittajan tiedot, sekin numeron ja maksun summan sisältävän Positi
 [!INCLUDE[d365fin](includes/d365fin_md.md)] on määritetty tukemaan Bank of American ja City Bankin Positive Pay -tiedostoja.
 
 ## <a name="to-set-up-a-bank-account-for-positive-pay"></a>Positive Pay -pankkitilin määrittäminen
-1. Valitse oikeassa yläkulmassa **Etsi sivua tai raporttia** -kuvake ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake"), kirjoita **Pankkitilit** ja valitse sitten liittyvä linkki.
+1. Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Pankkitilit** ja valitse sitten aiheeseen liittyvä linkki.
 2. Avaa sen pankin kortti, jossa haluat käyttää Positive Pay -toimintoa.
 3. Kirjoita **Positive Pay -vientikoodi** -kenttään POSPAYBANK.
 4. Sulje ikkuna.
 
 ## <a name="to-export-a-positive-pay-file"></a>Positive Pay -tiedoston vienti
-1. Valitse oikeassa yläkulmassa **Etsi sivua tai raporttia** -kuvake ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake"), kirjoita **Pankkitilit** ja valitse sitten liittyvä linkki.
+1. Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Pankkitilit** ja valitse sitten aiheeseen liittyvä linkki.
 2. Valitse pankkitili, johon haluat viedä Positive Pay -tiedoston.
 3. Valitse **Positive Pay, vienti** -toiminto.
 
@@ -45,7 +45,7 @@ Kun viet toimittajan tiedot, sekin numeron ja maksun summan sisältävän Positi
 
 Vietyjen Positive Pay -tietueiden näyttäminen
 
-1. Valitse oikeassa yläkulmassa **Etsi sivua tai raporttia** -kuvake ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake"), kirjoita **Pankkitilit** ja valitse sitten liittyvä linkki.
+1. Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Pankkitilit** ja valitse sitten aiheeseen liittyvä linkki.
 2. Valitse pankkitili, jonka Positive Pay -vientitietueet haluat näyttää.
 3. Valitse **Positive Pay -tapahtumat** -toiminto.
 
@@ -55,7 +55,7 @@ Vietyjen Positive Pay -tietueiden näyttäminen
 
 Positive Pay -tiedostojen uudelleenvienti
 
-1. Valitse oikeassa yläkulmassa **Etsi sivua tai raporttia** -kuvake ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake"), kirjoita **Pankkitilit** ja valitse sitten liittyvä linkki.
+1. Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Pankkitilit** ja valitse sitten aiheeseen liittyvä linkki.
 2. Valitse pankkitili, johon haluat viedä Positive Pay -tiedostot uudelleen.
 3. Valitse **Positive Pay -tapahtumat** -toiminto.
 4. Valitse uudelleenvietävä Positive Pay -vientitiedoston rivi.
@@ -64,6 +64,6 @@ Positive Pay -tiedostojen uudelleenvienti
 ## <a name="see-also"></a>Katso myös
 [Rahoitus](finance.md)  
 [Rahoituksen määrittäminen](finance-setup-finance.md)  
-[Toimintaohje: Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md)
+[Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
 

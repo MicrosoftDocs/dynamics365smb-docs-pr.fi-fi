@@ -1,6 +1,6 @@
 ---
-title: "Toimintaohje: Pinojen värillisen mittarin määrittäminen | Microsoft Docs"
-description: "Lisätietoja värillisten ilmaisimien käytöstä roolikeskuksen pinoissa."
+title: "Pinon toiminnon visuaalisien signaalien mukauttaminen määrittämällä värilliset mittarit | Microsoft Docs"
+description: "Määritä värillinen mittari pinoruudussa mukautettuna pinon toiminnon visuaalisena signaalina."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -13,10 +13,10 @@ ms.search.keywords: personalize, customize
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 3c5aff53c522729a95763485eb79d13c0f051831
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 0cb10770954f485d9c0a3474615e6c69411de321
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -38,12 +38,12 @@ Seuraava taulukko sisältää värit, jotka vastaavat **Matalan alueen tyyli**-,
 
 | Asetus | Väri |
 | --- | --- |
-| **Ei yhtään** |Ei väriä (sama väri kuin pinon ruutu) |
+| **Ei yhtään** |Ei väriä (sama väri kuin pinon ruutu |
 | **Suotuisa** |Vihreä |
 | **Epäsuotuisa** |Punainen |
 | **Epäselvä** |Keltainen |
 | **Alataso** |Harmaa |
 
 ## <a name="see-also"></a>Katso myös
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md)
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
 

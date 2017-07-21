@@ -1,6 +1,6 @@
 ---
-title: "Toimintaohje: Vuositilinpäätöstapahtuman kirjaaminen | Microsoft Docs"
-description: "Tässä artikkelissa kerrotaan, miten vuositilinpäätöstapahtuma kirjataan."
+title: "Vuositilinpäätöstapahtuman tarkasteleminen ja kirjaaminen | Microsoft Docs"
+description: "Tässä ohjeaiheessa kerrotaan, miten Sulje tuloslaskelma -eräajossa määritetty päiväkirja avataan. Sen jälkeen käsitellään vuositilinpäätöstapahtuman tarkastelua ja kirjaamista."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,27 +13,28 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.date: 03/29/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: fe04f75ed84a959cbacd9e9d4806d43d41186edb
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 68017b8b031ee4bd368936b6fb4de157328d7030
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="how-to-post-year-end-closing-entry"></a>Toimintaohje: Vuositilinpäätöstapahtuman kirjaaminen
+# <a name="how-to-post-the-year-end-closing-entry"></a>Vuositilinpäätöstapahtuman kirjaaminen
 Kun olet luonut vuositilinpäätöstapahtuman tai -tapahtumat **Sulje tuloslaskelma** -eräajolla, sinun on avattava eräajossa määrittämäsi päiväkirja sekä tarkistettava ja kirjattava tapahtumat.
 
 ## <a name="to-post-the-year-end-closing-entry"></a>Kirjaa vuositilinpäätöstapahtuma
-1. Valitse oikeassa yläkulmassa **Etsi sivua tai raporttia** -kuvake ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake"), kirjoita **Yleinen päiväkirja** ja valitse sitten liittyvä linkki.
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Yleinen päiväkirja** ja valitse sitten aiheeseen liittyvä linkki.
 2. Valitse **Yleinen päiväkirja** -ikkunassa **Erän nimi** kenttää ja valitse erä, joka sisältää tilinpäätöstapahtumat.
 3. Tarkista tapahtumat.
 4. Kirjaa päiväkirja valitsemalla **Kirjaa**-toiminto.
 
-**Huomautus**: Jos havaitaan virhe, näyttöön tulee virhesanoma. Jos kirjaus onnistuu, järjestelmä poistaa kirjatut tapahtumat päiväkirjasta. Kirjaamisen jälkeen kullekin tuloslaskelmatilille kirjataan tapahtuma, jolloin tilin saldoksi tulee nolla ja vuoden tulos siirretään taseeseen.
+> [!NOTE]  
+>   Jos havaitaan virhe, näyttöön tulee virhesanoma. Jos kirjaus onnistuu, järjestelmä poistaa kirjatut tapahtumat päiväkirjasta. Kirjaamisen jälkeen kullekin tuloslaskelmatilille kirjataan tapahtuma, jolloin tilin saldoksi tulee nolla ja vuoden tulos siirretään taseeseen.
 
 ## <a name="see-also"></a>Katso myös
 [Kirjanpitojakson päättäminen](year-close-account-periods.md)  
 [Kirjojen sulkeminen](year-close-books.md)  
 [Tuloslaskelman sulkeminen](year-close-income-statement.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md)
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
 

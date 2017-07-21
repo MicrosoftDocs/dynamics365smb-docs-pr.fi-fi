@@ -1,6 +1,6 @@
 ---
-title: "Usein kysyttyjä kysymyksiä | Microsoft Docs"
-description: "Usein kysyttyjä kysymyksiä Dynamics 365 for Financialsiin rekisteröitymisestä ja sen käyttämisestä."
+title: "Usein kysyttyjä kysymyksiä Financialsin käytöstä| Microsoft Docs"
+description: "Vastauksia yleisimpiin kysymyksiin Financialsiin rekisteröitymisestä ja sen käytön aloittamisesta."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
-ms.date: 03/22/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 58ba70311a035afd08bc5b4d0193fc34b132a39f
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: f4c4180c1ea70d8ef17136d56cc0f21e50f4f302
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -32,10 +32,10 @@ Jos yrität rekisteröityä käyttämällä henkilökohtaista sähköpostiosoite
 Ei. Mutta jos haluat käyttää Office 365:een täysin integroitua [!INCLUDE[d365fin](includes/d365fin_md.md)]ia, voit rekisteröityä käyttämään Office 365 -kokeiluversiota maksutta kuukauden ajan [täällä](https://products.office.com/try).  
 
 ## <a name="what-is-the-integration-with-office-365-about"></a>Mitä integroiminen Office 365:n kanssa tarkoittaa?
-[!INCLUDE[d365fin](includes/d365fin_md.md)] on täysin integroitu Office 365:een, joten voit siirtyä vapaasti Office 365 -sovellusten ja [!INCLUDE[d365fin](includes/d365fin_md.md)]in välillä sovellusten käynnistysohjelman avulla. Voit esimerkiksi avata [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietoja Excelissä, tulostaa raportteja Wordin avulla ja käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietoja Outlookissa. Lisätietoja on kohdassa [[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]in käyttö yrityssähköpostina Outlookissa](madeira-outlook.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] on täysin integroitu Office 365:een, joten voit siirtyä vapaasti Office 365 -sovellusten ja [!INCLUDE[d365fin](includes/d365fin_md.md)]in välillä sovellusten käynnistysohjelman avulla. Voit esimerkiksi avata [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietoja Excelissä, tulostaa raportteja Wordin avulla ja käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietoja Outlookissa. Lisätietoja on kohdassa [[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] -ohjelman käyttäminen yrityssähköpostina Outlookissa](madeira-outlook.md).  
 
 ## <a name="can-i-cancel-my-subscription"></a>Voinko peruuttaa tilaukseni?
-Kyllä voit. Huomaa kuitenkin, että tietosi poistetaan tai säilytetään sen perusteella, miten rekisteröidyit [!INCLUDE[d365fin](includes/d365fin_md.md)]iin. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)]in peruuttaminen](madeira-cancel.md).  
+Kyllä voit. Huomaa kuitenkin, että tietosi poistetaan tai säilytetään sen perusteella, miten rekisteröidyit [!INCLUDE[d365fin](includes/d365fin_md.md)]iin. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)] -tilauksen peruuttaminen](madeira-cancel.md).  
 
 ## <a name="where-do-i-go-if-i-have-questions"></a>Mistä saan tarvittaessa lisätietoja?
 Jos sinulla on sellaisia [!INCLUDE[d365fin](includes/d365fin_md.md)]ia koskevia kysymyksiä, joihin ei ole vastauksia tässä dokumentaatiossa, voit kysyä asiaa Dynamics 365 for Financials -yhteisöltä. Lisätietoja on kohdassa [Dynamics 365, Business edition -yhteisö](https://community.dynamics.com/business). Lisäksi tukitiimimme julkaisee erilaisia vihjeitä. Lisätietoja on [Dynamics 365 for Financials -tuen blogissa](https://blogs.msdn.microsoft.com/dyn365finsupport).  
@@ -47,9 +47,9 @@ Kyllä. Jos haluat pidentää kokeilujaksoa, ota yhteys Microsoftiin soittamalla
 Selitys on hieman monimutkainen, mutta ilmeisesti järjestelmänvalvoja ei vaihtanut roolikeskustasi eikä määrittänyt uutta käyttöoikeutta vastaavia käyttäjäryhmiä. [!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttöoikeus määräytyy periaatteessa tilaussuunnitelman (käyttöoikeuden) mukaan, sillä sen avulla määritetään oikeudet ja oletusaloitussivu. Voit vaihtaa roolikeskuksen manuaalisesti omissa asetuksissa, mutta jos sinut siirretään toiseen tilaussuunnitelmaan, vaikkapa yritystilauksesta Team Members -tilaukseen, vanha aloitussivu voi olla näkyvissä, koska oikeuksia ei muutettu.  
 
 ## <a name="see-also"></a>Katso myös
-[Tervetuloa [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]iin](index.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen yrityssähköpostina Outlookissa](madeira-outlook.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen ilman Outlookia](madeira-no-outlook.md)  
+[Tervetuloa [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]iin!](index.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen yrityssähköpostina Outlookissa](madeira-outlook.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen ilman Outlookia](madeira-no-outlook.md)  
 [Toimintaohje: Roolikeskuksen vaihtaminen](change-role.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 

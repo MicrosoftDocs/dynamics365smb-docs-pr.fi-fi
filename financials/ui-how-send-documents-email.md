@@ -1,6 +1,6 @@
 ---
-title: "Toimintaohje: Asiakirjojen lähettäminen sähköpostitse| Microsoft Docs"
-description: "Toimintaohje: Asiakirjojen lähettäminen sähköpostitse"
+title: "Asiakirjakohtaisen sisällön ja sähköpostiviestien liitteiden määrittäminen | Microsoft Docs"
+description: "Voit määrittää sähköpostiviestin perustekstiin lisättävän sisällön, kuten PayPal-linkin. Voit myös liittää asiakirjoja sähköpostiviesteihin."
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
@@ -12,10 +12,10 @@ ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
 ms.date: 03/30/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: f6d234e40cf01be46d601c92c680e90c71424be0
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 445982644c7491df2090b56b0a7ce3e7277c4a57
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -33,7 +33,7 @@ Jos **Sähköposti**-kentän arvoksi on **Lähetä asiakirja kohteeseen** -ikkun
 Seuraavassa kuvataan, miten sähköpostitse lähetettävien myyntilaskujen asiakirjakohtaisissa sähköpostien perusteksteissä käytettävä **Myyntilasku**-raportti määritetään.
 
 ## <a name="to-set-up-a-document-specific-email-body-for-sales-invoices"></a>Asiakirjakohtaisen sähköpostin perustekstin määrittäminen myyntilaskuille
-1. Valitse oikeassa yläkulmassa **Etsi sivua tai raporttia** -kuvake ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake"), kirjoita **Raporttivalinnat - Myynti** ja valitse sitten liittyvä linkki.
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Raporttivalinnat - Myynti** ja valitse sitten aiheeseen liittyvä linkki.
 2. Valitse **Raporttivalinta - Myynti** -ikkunan **Käyttö**-kentässä **Lasku**.
 3. Valitse **Raportin tunnus** -kentän uudella rivillä esimerkiksi vakioraportti 1306.
 4. Valitse **Käytä sähköpostin perustekstinä** -valintaruutu.
@@ -49,7 +49,7 @@ Kun nyt valitset esimerkiksi **Kirjattu myyntilasku** -ikkunassa **Lähetä**-to
 Seuraavassa kerrotaan, miten kirjattu myyntilasku lähetetään sähköpostiviestinä, johon on liitetty asiakirja PDF-tiedostona ja joka sisältää asiakirjakohtaisen sähköpostin perustekstin.
 
 ## <a name="to-send-documents-by-email"></a>Asiakirjojen lähettäminen sähköpostitse
-1. Valitse oikeassa yläkulmassa **Etsi sivua tai raporttia** -kuvake ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake"), kirjoita **Kirjatut myyntilaskut** ja valitse sitten liittyvä linkki.
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Kirjatut myyntilaskut** ja valitse sitten aiheeseen liittyvä linkki.
 2. Valitse ensin soveltuva kirjattu myyntilasku ja sitten **Lähetä**-toiminto. **Lähetä asiakirja kohteeseen** -ikkuna avautuu.
 3. Valitse **Sähköposti**-kentässä **Kyllä (Pyydä asetuksia)**. Lisätietoja on kohdassa [Toimintaohje: Asiakirjan lähetysprofiilien määrittäminen](sales-how-setup-document-send-profiles.md).
 4. Valitse **OK**-painike. **Lähetä sähköposti** -ikkuna avautuu.
@@ -61,11 +61,12 @@ Seuraavassa kerrotaan, miten kirjattu myyntilasku lähetetään sähköpostivies
     Jos asiakirjakohtainen sähköpostin perusteksti on määritetty **Raporttivalinta - Myynti** -ikkunassa, **Perusteksti**-kenttä täytetään automaattisesti. Lisätietoja on tämän ohjeaiheen Asiakirjakohtaisen sähköpostin perustekstin määrittäminen myyntilaskuille -osassa.
 9. Valitse **OK**-painike, kun haluat lähettää sähköpostiviestin.
 
-**Huomautus**: Jos et halua määrittää sähköpostiviestin asetuksia aina, kun lähetät asiakirjan sähköpostitse, valitse **Kyllä (Käytä oletusasetuksia)** -vaihtoehto **Lähetä asiakirja kohteeseen** -ikkunan **Sähköposti**-kentässä. Tällöin **Lähetä sähköposti** -ikkuna ei avaudu. Lisätietoja on vaiheessa 4. Lisätietoja on kohdassa [Toimintaohje: Asiakirjan lähetysprofiilien määrittäminen](sales-how-setup-document-send-profiles.md).
+> [!NOTE]  
+>   Jos et halua määrittää sähköpostiviestin asetuksia aina, kun lähetät asiakirjan sähköpostitse, valitse **Kyllä (Käytä oletusasetuksia)** -vaihtoehto **Lähetä asiakirja kohteeseen** -ikkunan **Sähköposti**-kentässä. Tällöin **Lähetä sähköposti** -ikkuna ei avaudu. Lisätietoja on vaiheessa 4. Lisätietoja on kohdassa [Toimintaohje: Asiakirjan lähetysprofiilien määrittäminen](sales-how-setup-document-send-profiles.md).
 
 ## <a name="see-also"></a>Katso myös
 [Raporttien ja asiakirjojen asettelujen hallinta](ui-manage-report-layouts.md)  
 [Toimintaohje: Sähköpostin määrittäminen](madeira-how-setup-email.md)  
 [Toimintaohje: Myynnin laskutus](sales-how-invoice-sales.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md)
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
 

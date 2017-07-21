@@ -1,6 +1,6 @@
 ---
-title: 'Toimintaohje: Uuden tilikauden avaaminen| Microsoft Docs'
-description: "Tässä artikkelissa kerrotaan, miten tilikaudet avataan."
+title: Uuden tilikauden avaaminen| Microsoft Docs
+description: "Ennen uuden tilikauden kirjaamista sinun täytyy avata tilikausi ja määrittää sen kirjanpitojaksot."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting year, fiscal period
-ms.date: 03/24/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 02bd101bca987d30730766531687738f8e5f7d81
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: c653a43329f95c817560c5888fb282e64b57ba24
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -24,7 +24,7 @@ ms.lasthandoff: 05/04/2017
 Ennen uuden tilikauden kirjaamista sinun täytyy avata tilikausi ja määrittää sen kirjanpitojaksot.
 
 ## <a name="to-open-a-new-fiscal-year"></a>Uuden tilikauden avaaminen
-1. Valitse oikeassa yläkulmassa **Etsi sivua tai raporttia** -kuvake ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake"), kirjoita **Kirjanpitojaksot** ja valitse sitten liittyvä linkki.
+1. Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Kirjanpitojaksot** ja valitse sitten aiheeseen liittyvä linkki.
 2. Valitse **Kirjanpitojaksot**-ikkunassa **Luo vuosi** -toiminto.
 3. Määritä tilikauden rakenne täyttämällä tiedot kenttiin.
 
@@ -37,5 +37,5 @@ Kirjanpitojaksot lisätään sivulle. **Aloituspvm**- ja **Lopetuspvm**-kentän 
 [Toimintaohje: Kirjausjaksojen määrittäminen](finance-how-specify-posting-periods.md)  
 [Toimintaohje: Vuositilinpäätöstapahtuman kirjaaminen](year-how-post-year-end-close-entry.md)  
 [Rahoitus](finance.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md)
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
 

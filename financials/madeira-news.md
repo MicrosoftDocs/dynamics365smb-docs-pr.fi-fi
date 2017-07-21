@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 for Financialsin uutuudet| Microsoft Docs
-description: Dynamics 365 for Financialsin uutuudet
+description: "Ohjeaiheessa kerrotaan Dynamics 365 for Financialsin viimeisimmät uutiset ja käsitellään uusimmat päivitykset."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: news
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 26fe803ea4d4b503b8123f4a06e3017c1d5f077f
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 2a54dfe38195a27c4c1cb155e48760d19fb36f03
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
+
 
 ---
-
 # <a name="whats-new-in-dynamics-365-for-financials"></a>Dynamics 365 for Financialsin uutuudet
 Tervetuloa [!INCLUDE[d365fin](includes/d365fin_md.md)]iin! Jos et ole vielä rekisteröitynyt kokeiluversioon, tee se nyt, niin esittelemme [!INCLUDE[d365fin](includes/d365fin_md.md)]in perusominaisuudet. Tämän jälkeen voit kokeilla toimintoja itseksesi jonkin aikaa. Kun olet valmis, voit avata tyhjän yrityksen ja määrittää sen tiedot.  
 
@@ -54,7 +54,7 @@ Tässä [!INCLUDE[d365fin](includes/d365fin_md.md)]in päivityksessä lisättiin
 ### <a name="more-flexibility-in-your-sales-processes"></a>Entistä joustavammat myyntiprosessit
 Tämä päivitys parantaa myynnin joustavuutta:
 - Voit nyt määrittää ei-varastoitavia nimikkeitä eli nimikkeitä, joita tarjoat asiakkaille mutta joita ei säilytetä varastossa. Lisätietoja on kohdassa [Toimintaohje: Ei-varastoitavien nimikkeiden käsitteleminen](inventory-how-work-nonstock-items.md).
-- Voit nyt merkitä suoratoimitettavan nimikkeen myyntitilaukseen ja luoda samalla nimikkeen ostotilauksen. Tällä tavoin voit myydä nimikkeen asiakkaalle, ostaa sen toimittajalta ja toimittaa sen suoraan toimittajalta asiakkaalle. Lisätietoja on kohdassa [Toimintaohje: Tuotteiden ostaminen myyntiin](purchasing-how-purchase-products-sale.md).
+- Voit nyt merkitä suoratoimitettavan nimikkeen myyntitilaukseen ja luoda samalla nimikkeen ostotilauksen. Tällä tavoin voit myydä nimikkeen asiakkaalle, ostaa sen toimittajalta ja toimittaa sen suoraan toimittajalta asiakkaalle. Lisätietoja on ohjeaiheessa [Toimintaohje: Nimikkeiden ostaminen myyntiin](purchasing-how-purchase-products-sale.md).
 
 ### <a name="categorize-items-in-your-inventory"></a>Varastonimikkeiden luokittelu
 Tämän päivityksen myötä voit luoda nimikeluokkahierarkian ja määrittää kullekin nimiluokalle nimikkeen määritteet. Lisätietoja on kohdassa [Toimintaohje: Nimikkeiden luokitteleminen](inventory-how-categorize-items.md).
@@ -88,26 +88,26 @@ Tässä [!INCLUDE[d365fin](includes/d365fin_md.md)]in päivityksessä lisättiin
 Tämä päivitys lisäsi toimintoja Outlook-apuohjelman toimittajan koontinäyttöön, joten voit käsitellä suoraan sähköpostin liitetiedostoja. Voit lähettää näillä toiminnoilla sähköpostin liitteitä suoraan **Saapuvat asiakirjat** -luetteloon, asiakirjoja OCR-palveluun ja saapuvan asiakirjan hyväksymispyynnön. Lisätietoja on kohdassa [Saapuvien asiakirjojen hallinta](across-income-documents.md).
 
 ### <a name="create-invoices-in-your-outlook-calendar"></a>Laskujen luominen Outlookin kalenterissa
-Outlook-apuohjelma on nyt laajentunut Outlookin kalenteriin. Voit avata kalenteritapaamista [!INCLUDE[d365fin](includes/d365fin_md.md)]-apuohjelma ja saada yleiskuvan tapaamiseen liitetystä asiakkaasta. Voit sitten luoda ja lähettää laskun kokouksessa annetuista palveluista – suoraan Outlookin kalenterissa. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttö yrityssähköpostina Outlookissa](madeira-outlook.md).  
+Outlook-apuohjelma on nyt laajentunut Outlookin kalenteriin. Voit avata kalenteritapaamista [!INCLUDE[d365fin](includes/d365fin_md.md)]-apuohjelma ja saada yleiskuvan tapaamiseen liitetystä asiakkaasta. Voit sitten luoda ja lähettää laskun kokouksessa annetuista palveluista – suoraan Outlookin kalenterissa. Lisätietoja on ohjeaiheessa [[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen Outlookin yrityssähköpostina](madeira-outlook.md).  
 
 ### <a name="appsource-marketplace-for-extensions"></a>Laajennusten AppSource-kauppa
-[!INCLUDE[d365fin](includes/d365fin_md.md)]-laajennukset ovat nyt saatavana AppSource-kaupassa osoitteessa [AppSource.microsoft.com ](https://appsource.microsoft.com/). Voit hakea laajennuksia kaupassa. Voi tarkastella tietoja, kuten markkinointiaineistoa, näyttökuvia, videoita ja linkkejä lisätietoihin. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)]in mukauttaminen laajennuksilla](ui-extensions.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]-laajennukset ovat nyt saatavana AppSource-kaupassa osoitteessa [AppSource.microsoft.com](https://appsource.microsoft.com/). Voit hakea laajennuksia kaupassa. Voi tarkastella tietoja, kuten markkinointiaineistoa, näyttökuvia, videoita ja linkkejä lisätietoihin. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md).  
 
 ### <a name="shipping-agents-and-item-attributes"></a>Kuljetusliikkeet ja nimikkeen määritteet
 Voit lisätä määritteitä varastonimikkeisiin, mikä helpottaa asiakkaan haluaman oikean tuotteen löytämistä. Lisätietoja on kohdassa [Toimintaohje: Nimikkeen määritteiden käsitteleminen](inventory-how-work-item-attributes.md).  
 
 ### <a name="new-extensions-made-available"></a>Saatavilla uusia laajennuksia
 Tämän päivityksen myötä valittavana on entistä enemmän laajennuksia **Laajennusten hallinta** -ikkunassa.
-Lisätietoja on kohdassa [Muiden palveluntarjoajien [!INCLUDE[d365fin](includes/d365fin_md.md)]in laajennukset](ui-extensions-other.md).  
+Lisätietoja on ohjeaiheessa [Muiden valmistajien [!INCLUDE[d365fin](includes/d365fin_md.md)]in laajennukset](ui-extensions-other.md).  
 
 ### <a name="manage-your-customer-relationships-using-microsoft-dynamics-crm-from-inside-included365finincludesd365finmdmd"></a>Asiakassuhteiden hallinta käyttämällä Microsoft Dynamics CRM:ää [!INCLUDE[d365fin](includes/d365fin_md.md)]issa
-Liiketoimintajohtajan aloitussivulle on lisätty uusi avustettu asennusopas, joka opastaa Dynamics CRM:n yhteyden muodostamisprosessissa. Kun yhteys on muodostettu, Dynamics CRM:n tietueet on kytketty saumattomasti [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietueisiin. Lisätietoja on kohdassa [Asiakassuhteiden hallinta käyttämällä Microsoft Dynamics CRM:ää [!INCLUDE[d365fin](includes/d365fin_md.md)]issa ](marketing-integrate-dynamicscrm.md).
+Liiketoimintajohtajan aloitussivulle on lisätty uusi avustettu asennusopas, joka opastaa Dynamics CRM:n yhteyden muodostamisprosessissa. Kun yhteys on muodostettu, Dynamics CRM:n tietueet on kytketty saumattomasti [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietueisiin. Lisätietoja on ohjeaiheessa [Asiakassuhteiden hallinta käyttämällä Microsoft Dynamics CRM:ää [!INCLUDE[d365fin](includes/d365fin_md.md)]issa](marketing-integrate-dynamicscrm.md).
 
 ## <a name="may-2016-update"></a>Toukokuun 2016 päivitys
 Tässä [!INCLUDE[d365fin](includes/d365fin_md.md)]in päivityksessä lisättiin uusia ominaisuuksia, kuten [blogissa kerrottiin](https://community.dynamics.com/business/b/financials/archive/2016/06/01/new-and-updated-capabilities-in-the-first-update-of-project-quot-madeira-quot).  
 
 ### <a name="new-extensions-made-available"></a>Saatavilla uusia laajennuksia
-Tutustu **Laajennusten hallinta** -ikkunaan: Päivitys lisää uusia laajennuksia, kuten Sana Commerce [!INCLUDE[d365fin](includes/d365fin_md.md)]in, joka sisältää B2B-kaupankäyntitoimintoja, ja ChargeLogic Payments -sovelluksen maksujen ja luottokorttien käsittelyä varten. Laajennuksia ei asenneta automaattisesti, mutta **Laajennusten hallinta** -ikkuna auttaa asentamaan ne laajennukset, joita haluat käyttää. Lisätietoja on kohdassa [Muiden palveluntarjoajien [!INCLUDE[d365fin](includes/d365fin_md.md)]in laajennukset](ui-extensions-other.md).  
+Tutustu **Laajennusten hallinta** -ikkunaan: Päivitys lisää uusia laajennuksia, kuten Sana Commerce [!INCLUDE[d365fin](includes/d365fin_md.md)]in, joka sisältää B2B-kaupankäyntitoimintoja, ja ChargeLogic Payments -sovelluksen maksujen ja luottokorttien käsittelyä varten. Laajennuksia ei asenneta automaattisesti, mutta **Laajennusten hallinta** -ikkuna auttaa asentamaan ne laajennukset, joita haluat käyttää. Lisätietoja on ohjeaiheessa [Muiden valmistajien [!INCLUDE[d365fin](includes/d365fin_md.md)]in laajennukset](ui-extensions-other.md).  
 
 ### <a name="filter-on-unprocessed-incoming-documents"></a>Käsittelemättömien saapuvien asiakirjojen suodatus
 Tämän kuun päivitykseen on lisätty ydintoiminto: saapuvien asiakirjojen luettelo suodatetaan nyt näyttävään vain tapahtumat, joilla ei ole luotu kirjattuja asiakirjoja. Lisätietoja on kohdassa [Saapuvien asiakirjojen hallinta](across-income-documents.md).  
@@ -120,15 +120,15 @@ Oikeassa yläkulmassa Asetukset-valikon vieressä on kellosymbolin, jonka tunnis
 
 Voit kokeilla itseksesi näitä tärkeitä tilanteita:  
 
-- [[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen yrityssähköpostina Outlookissa](madeira-no-outlook.md)  
-- [[!INCLUDE[d365fin](includes/d365fin_md.md)]in hakeminen mobiililaitteeseen] (install-mobile-app.md)  
+- [[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen Outlookin yrityssähköpostina](madeira-no-outlook.md)  
+- [[!INCLUDE[d365fin](includes/d365fin_md.md)]in hakeminen mobiililaitteeseen](install-mobile-app.md)  
 - [Yritystietojen ottaminen käyttöön Power BI:tä varten](madeira-powerbi.md)  
 - [Roolikeskuksen muuttaminen](change-role.md)  
 
 
 
 ## <a name="see-also"></a>Katso myös
-[Tervetuloa [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]iin](index.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md)  
+[Tervetuloa [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]iin!](index.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Dynamics 365 Roadmap](https://roadmap.dynamics.com/)  
 

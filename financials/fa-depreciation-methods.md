@@ -1,6 +1,6 @@
 ---
 title: "Poistomenetelmät| Microsoft Docs"
-description: "Artikkelissa käsitellään seitsemää käyttöomaisuuden poistoissa käytettävää poistomenetelmää."
+description: "Lisätietoja eri tavoista käyttöomaisuuden poistojen tai arvonalennusten toteuttamiseen."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 03/23/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: a5a43c6d53bdff7c30133d88c66e33996476f580
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 6a32ddc5fd8202507b66a30fabd2cbd6b5ab91eb
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -31,10 +31,12 @@ Saatavilla olevia poistomenetelmiä on kahdeksan:
 * Käyttäjäkohtainen  
 * Manuaalinen  
 
-  **Huomautus:** Tätä menetelmää voidaan käyttää omaisuuserille, joille ei tehdä poistoja, kuten maa-alueille. Poisto on vietävä käyttöomaisuuserän KP-päiväkirjaan. **Laske poisto** -eräajo jättää huomiotta tätä poistomenetelmää käyttävät käyttöomaisuuserät.  
+  > [!NOTE]  
+>   Tätä menetelmää voidaan käyttää omaisuuserille, joille ei tehdä poistoja, kuten maa-alueille. Poisto on vietävä käyttöomaisuuserän KP-päiväkirjaan. **Laske poisto** -eräajo jättää huomiotta tätä poistomenetelmää käyttävät käyttöomaisuuserät.  
 * Puolivuotissopimus  
 
-  **Huomautus:** tätä menetelmää käytettäessä käyttöomaisuudesta poistetaan joka vuosi sama summa.  
+  > [!NOTE]  
+>    Tätä menetelmää käytettäessä käyttöomaisuudesta poistetaan joka vuosi sama summa.  
 
 ## <a name="straight-line-depreciation"></a>Tasapoisto
 Tasapoistomenetelmää käytettäessä käyttöomaisuuden poistokirjaan on määritettävä jokin seuraavista vaihtoehdoista:  
@@ -166,7 +168,7 @@ MJP1/TP on lyhenne Menojäännöspoiston 1 ja Tasapoiston yhdistelmästä. Laske
 
 Voit laskea menojäännöspoiston käyttämällä eri prosentteja.  
 
-Jos tätä menetelmää käytetään, **KO-poistokirjat**-ikkunaan tulee syöttää arvioitu elinikä ja menojäännöspoistoprosentti  
+Jos tätä menetelmää käytetään, **KO-poistokirjat**-ikkunaan tulee syöttää arvioitu elinikä ja menojäännöspoistoprosentti.  
 
 ### <a name="example---db1-sl-depreciation"></a>Esimerkki - MJP1/TP-poisto
 Käyttöomaisuuden hankintameno on PVA 100 000. **KO-poistokirjat** -ikkunassa **Menojäännöspoisto-%** -kentässä on 25 ja **Poistovuosien lukumäärä** -kentässä on 8. **Laske poisto** -eräajo suoritetaan kaksi kertaa vuodessa.  
@@ -230,7 +232,7 @@ Tätä käyttäjäkohtaista menetelmää voidaan käyttää myös poistoissa, jo
 ### <a name="to-set-up-user-defined-depreciation-methods"></a>Käyttäjäkohtaisten poistomenetelmien määrittäminen
 **Poistotaulukon kortti** -ikkunassa voidaan määrittää käyttäjäkohtaiset poistomenetelmät. Voit esimerkiksi määrittää poiston yksiköiden määrän perusteella.  
 
-1. Valitse oikeassa yläkulmassa **Etsi sivua tai raporttia** -kuvake ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake"), kirjoita **Poistotaulukot** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Poistotaulukot** ja valitse sitten aiheeseen liittyvä linkki.  
 2. Valitse **Poistotaulukkoluettelo**-ikkunassa **Uusi**-toiminto.  
 3. Täytä **Poistotaulukon kortti** -ikkunassa tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
@@ -282,7 +284,8 @@ Tätä poistomenetelmää voidaan käyttää yhdessä seuraavien ohjelman poisto
 
 Kun käytetään Puolivuotissopimusta, käyttöomaisuudelle tehdään kuuden kuukauden poisto ensimmäisenä tilikautena **Poiston aloituspvm** -kentän sisällöstä huolimatta.  
 
-**Huomautus:** Käyttöomaisuuden arvioitu ikä, joka on jäljellä ensimmäisen tilikauden jälkeen, on aina puoli vuotta silloin, kun käytetään Puolivuotissopimus-menetelmää. Jotta Puolivuotissopimus-menetelmää voitaisiin käyttää oikein, **KO-poistokirja**-ikkunan **Poiston lopetuspvm** -kentässä on aina oltava päivämäärä, joka on tasan kuusi kuukautta ennen sen tilikauden viimeistä päivämäärä, jolloin käyttöomaisuudelle tehdään kokonaispoisto.  
+> [!NOTE]  
+>   Käyttöomaisuuden arvioitu ikä, joka on jäljellä ensimmäisen tilikauden jälkeen, on aina puoli vuotta silloin, kun käytetään Puolivuotissopimus-menetelmää. Jotta Puolivuotissopimus-menetelmää voitaisiin käyttää oikein, **KO-poistokirja**-ikkunan **Poiston lopetuspvm** -kentässä on aina oltava päivämäärä, joka on tasan kuusi kuukautta ennen sen tilikauden viimeistä päivämäärä, jolloin käyttöomaisuudelle tehdään kokonaispoisto.  
 
 ### <a name="example---half-year-convention-depreciation"></a>Esimerkki – Poisto puolivuotissopimusta käyttämällä
 Käyttöomaisuuden hankintameno on PVA 100 000. **Poiston aloituspvm** on 1.3.10. Arvioitu käyttöikä on viisi vuotta, joten **Poiston lopetuspvm** -kohdan arvon on oltava 30.6.15. **Laske poisto** -eräajo suoritetaan vuosittain. Tämä esimerkki perustuu kalenteritilikauteen.  
@@ -314,7 +317,7 @@ Käyttöomaisuustapahtumat näyttävät seuraavalta:
 | 31.12.12 |Arvonalennus |360 |-19.200,00 |28,800.00 |
 | 31.12.13 |Arvonalennus |360 |-11.520,00 |17,280.00 |
 | 31.12.14 |Arvonalennus |360 |-11.520,00 |5 760,00 TP |
-| 31.12.15 |Arvonalennus |180 |  -5,760.00 |0,00 TP |
+| 31.12.15 |Arvonalennus |180 |-5,760.00 |0,00 TP |
 
 * Poiston aloituspvm  
 
@@ -343,14 +346,16 @@ Jos poistokirjoja on kolme – B1, B2 ja B3 – ja jos haluat monistaa tapahtumi
 
 Kun käyttöomaisuuden KP-päiväkirjan B1:een syötetään tapahtuma ja **Käytä monistusluetteloa** -kenttään lisätään rasti, ohjelma monistaa KO-päiväkirjassa kirjassa B2 ja B3 olevan tapahtuman silloin, kun tapahtuma kirjataan.  
 
-**Huomautus:** Samaan päiväkirjaan tai päiväkirjan erään, josta olet monistamassa, ei voi monistaa. Jos tapahtumia kirjataan käyttöomaisuuden KP-päiväkirjaan, ne voidaan monistaa KO-päiväkirjaan tai käyttöomaisuuden KP-päiväkirjaan muuta erää käyttämällä.  
+> [!NOTE]  
+>   Samaan päiväkirjaan tai päiväkirjan erään, josta olet monistamassa, ei voi monistaa. Jos tapahtumia kirjataan käyttöomaisuuden KP-päiväkirjaan, ne voidaan monistaa KO-päiväkirjaan tai käyttöomaisuuden KP-päiväkirjaan muuta erää käyttämällä.  
 
-**Huomautus**: Samaa numerosarjaa ei voi käyttää sekä käyttöomaisuuden KP-päiväkirjassa että KO-päiväkirjassa. Kun kirjaat tapahtumia käyttöomaisuuden KP-päiväkirjaan, jätä **Asiakirjan nro** -kenttä tyhjäksi. Jos annat kenttään numeron, numero monistetaan KO-päiväkirjaan. Asiakirjanumero on muutettava manuaalisesti ennen päiväkirjan kirjaamista.  
+> [!NOTE]  
+>   Samaa numerosarjaa ei voi käyttää sekä käyttöomaisuuden KP-päiväkirjassa että KO-päiväkirjassa. Kun kirjaat tapahtumia käyttöomaisuuden KP-päiväkirjaan, jätä **Asiakirjan nro** -kenttä tyhjäksi. Jos annat kenttään numeron, numero monistetaan KO-päiväkirjaan. Asiakirjanumero on muutettava manuaalisesti ennen päiväkirjan kirjaamista.  
 
 ## <a name="see-also"></a>Katso myös
 [Käyttöomaisuus](fa-manage.md)  
 [Käyttöomaisuuden määrittäminen](fa-setup.md)  
 [Rahoitus](finance.md)  
-[Tervetuloa [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]iin](index.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md)
+[Tervetuloa [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]iin!](index.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
 

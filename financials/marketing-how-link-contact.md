@@ -1,6 +1,6 @@
 ---
-title: "Kontaktien linkittäminen asiakkaisiin, toimittajiin ja pankkitileihin | Microsoft Docs"
-description: "Tässä artikkelissa kerrotaan, miten kontaktit linkitetään asiakkaiden, toimittajien ja pankkitilien kanssa Financialsissa"
+title: "Kontaktien linkittäminen asiakkaisiin ja toimittajiin| Microsoft Docs"
+description: "Tässä ohjeaiheessa kerrotaan, miten kontakti linkitetään saman yrityksen asiakkaaseen, toimittajaan tai pankkitiliin yhteisten tietojen synkronointia varten."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 44dff830f293f4a33e6358d816635aa67e8a8de6
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: f5bbadb37a40dbc7b06668d940d2be9569aaa8e8
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -33,5 +33,5 @@ Jos kontakti ja joko asiakas, toimittaja tai pankkitili ovat samassa yrityksess�
 ## <a name="see-also"></a>Katso myös
 [Kontaktien synkronoiminen asiakkaiden, toimittajien ja pankkitilien kanssa](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  
 [Kontaktien luonti ja hallinta](marketing-contacts.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 

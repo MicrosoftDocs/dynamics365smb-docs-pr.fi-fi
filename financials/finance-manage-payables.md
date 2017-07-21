@@ -1,6 +1,6 @@
 ---
-title: Ostovelkojen hallinta | Microsoft Docs
-description: "Esittelyssä toimittajille maksaminen ja muut maksut."
+title: Ostovelkojen hallinta| Microsoft Docs
+description: "Yleiskatsaus tavoista, joilla Financials auttaa hallitsemaan ostovelkoja, kuten toimittajamaksuja, lainoja, velkaa ja erääntyvää saldoa."
 services: project-madeira
 documentationcenter: 
 author: bholtorf
@@ -12,13 +12,13 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: article
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
-ms.date: 03/24/2017
+ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 03b872f9507e4c96dd55e8cf0f3d1ec7417501f2
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 859647435fe3a418761f67c9067314939c734519
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -53,5 +53,5 @@ Jos odotat maksujen kirjaamista, kunnes pankki vahvistaa tapahtumien käsittelyn
 ## <a name="see-also"></a>Katso myös
 [Maksutavat](finance-payment-methods.md)  
 [Rahoitus](finance.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md)
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
 

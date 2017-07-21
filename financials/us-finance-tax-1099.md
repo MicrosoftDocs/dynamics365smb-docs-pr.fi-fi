@@ -1,6 +1,6 @@
 ---
 title: Freelance-tulojen ilmoitukset (lomake 1099) USA:ssa | Microsoft Docs
-description: "Voit määrittää ostoasiakirjoissa, että asiakirja on 1099-lomakkeen alainen sekä määrittää toimittajan 1099-verokoodin."
+description: "IRS edellyttää 1099-verolomakkeen käyttöä toimittajille tehtävissä maksuissa, ja voit määrittää, että 1099-lomake koskee ostoasiakirjaa. Voit myös määrittää toimittajan 1099-koodin."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,14 +13,15 @@ ms.search.keywords: local
 ms.date: 03/29/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: a0a31c28b6c96dc80593ac3862b97b36c3ec81c7
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: c20c52927aa979e56aeef7975fbcee1564ca4dd7
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="reporting-1099-transactions-in-the-us"></a>Freelance-tulojen ilmoitukset (lomake 1099) USA:ssa
+# <a name="reporting-transactions-as-1099-liable-in-the-us"></a>Tapahtumien ilmoittaminen 1099-lomakkeella USA:ssa
+
 Yhdysvaltain verohallinto (IRS) vaatii vähintään yhdenlaisen version 1099-lomakkeella tehdystä veroilmoituksesta, joka käsittelee toimittajille suoritettuja maksuja. Kopiot näistä lomakkeista on lähetettävä toimittajille vuosittain tai ennen tammikuun viimeistä päivää. Voit määrittää ostoasiakirjoissa, että asiakirja on 1099-lomakkeen alainen sekä määrittää toimittajan 1099-verokoodin.  
 
 ## <a name="1099-codes"></a>1099-verokoodit
@@ -55,5 +56,5 @@ Tätä raporttia ja taulukkotietoja koskevat lainsäädännölliset muutokset k�
 ## <a name="see-also"></a>Katso myös
 [Toimintaohje: Uusien toimittajien rekisteröiminen](purchasing-how-register-new-vendors.md)  
 [Toimintaohje: Ostojen kirjaus](purchasing-how-record-purchases.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 

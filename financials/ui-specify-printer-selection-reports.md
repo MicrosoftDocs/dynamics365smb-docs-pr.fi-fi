@@ -1,6 +1,6 @@
 ---
-title: "Tulostimen valinnan määrittäminen raporteille | Microsoft Docs"
-description: "Tulostimen valinnan määrittäminen raporteille."
+title: "Raporttien määrittäminen tulostumaan tiettyihin tulostimiin | Microsoft Docs"
+description: "Tutustu, miten tulostin määritetään raportille ja miten Tulostimen valinnat -ikkunaa käytetään."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -13,10 +13,10 @@ ms.search.keywords: online printing
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: e0b13ff745cddf6173b7a6dacda05e915eff41ff
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 106ad2acf2703e8182033a43a39c693a8b060d8f
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -47,7 +47,7 @@ The following table describes the combination of values to specify when you set 
 -->
 
 ## <a name="see-also"></a>Katso myös
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Toimintaohje: Eräajojen ajaminen](ui-how-run-batch-jobs.md)  
 [Toimintaohje: Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md)  
 

@@ -1,6 +1,6 @@
 ---
-title: 'Toimintaohje: Myynnin laskutus| Microsoft Docs'
-description: "Tässä artikkelissa kerrotaan, miten myyntilaskuja käytetään."
+title: Myyntilaskun tai myyntitilauksen luominen | Microsoft Docs
+description: "Tässä ohjeaiheessa kerrotaan, miten luodaan kauppakirja tai myyntilasku tai myyntitilaus kirjaamaan asiakkaan kanssa tehty sopimus tuotteiden myynnistä tietyin ehdoin."
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
@@ -8,21 +8,22 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: bill, sale
+ms.search.keywords: bill, sale, invoice, order
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: e9fbf7b6599c4136a4077f199feb8f2f00d3a959
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: fb4b1ad14dfedaeca38293e0e0b4496300090c17
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="how-to-invoice-sales"></a>Toimintaohje: Myynnin laskutus
 Luo myyntilasku tai -tilaus tallentaaksesi sopimuksesi asiakkaan kanssa ja myydäksesi määrätyt tuotteet määrätyillä toimitus- ja maksuehdoilla.  
 
-**Huomautus:** Myyntitilausta on käytettävä muutamissa skenaarioissa myyntilaskun sijaan:  
+> [!NOTE]  
+>   Myyntitilausta on käytettävä muutamissa skenaarioissa myyntilaskun sijaan:  
 
 * Jos tilauksesta on toimitettava vain osa, koska esimerkiksi tilauksen koko määrä ei ole varastossa.  
 * Jos myyt nimikkeitä, joita toimittaja toimittaa suoraan asiakkaalle. Tätä kutsutaan suoratoimitukseksi. Lisätietoja on kohdassa [Toimintaohje: Suoratoimitusten tekeminen](sales-how-drop-shipment.md).  
@@ -66,7 +67,8 @@ Jos olet määrittänyt toistuvien myyntien rivin asiakkaalle, kuten kuukausitta
 
 11. Ilmoita **Määrä**-kentässä, kuinka monta tuote-, kulu- tai tapahtumayksikkö rivi kirjaa asiakkaalle.  
 
-    **Huomautus:** Jos nimikkeen tyyppi on **Nimike - Palvelu** tai **Resurssi**, määrä on aikayksikkö, esimerkiksi tunnit, kuten rivin **Mittayksikkökoodi**-kenttä osoittaa.  
+    > [!NOTE]  
+>   Jos nimikkeen tyyppi on **Nimike - Palvelu** tai **Resurssi**, määrä on aikayksikkö, esimerkiksi tunnit, kuten rivin **Mittayksikkökoodi**-kenttä osoittaa.  
 
     **Rivisumma**-kentän arvo lasketaan *Yksikköhinta* x *Määrä*.  
 
@@ -91,5 +93,6 @@ Nyt järjestelmässä luodaan liittyvä nimike ja asiakastapahtumat. Myyntilasku
 [Myynnin määrittäminen](sales-setup-sales.md)  
 [Varasto](inventory-manage-inventory.md)  
 [Toimintaohje: Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md)
+[Dynamics 365 for Financialsin Microsoft Bookingsin massalaskutus](finance-bookings.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
 

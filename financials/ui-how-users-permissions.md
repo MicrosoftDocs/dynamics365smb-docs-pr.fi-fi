@@ -1,6 +1,6 @@
 ---
-title: "Toimintaohje: Käyttäjien ja käyttöoikeuksien hallinta | Microsoft Docs"
-description: "Hallitse käyttäjien käyttöoikeusjoukkoja sen jälkeen, kun luonut käyttäjät Office 365:ssä."
+title: "Käyttöoikeuksien määrittäminen ja käyttöoikeusjoukkojen luominen tai muokkaaminen | Microsoft Docs"
+description: "Ohjeaiheessa kerrotaan, miten Office 365 -käyttäjät lisätään Financialsiin ja miten käyttöoikeudet ja suojausasetukset määritetään."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 03/29/2017
+ms.date: 06/27/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: d1a973b864a654e2047c5a89271519da04f55c08
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 564ef68a1571611efee32db1cf3759cda6a04c80
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -27,16 +27,17 @@ Kun käyttäjät on luotu Office 365:ssa, heidät voidaan tuoda **Käyttäjät**
 
 Voit sitten määrittää käyttäjille käyttöoikeusjoukkoja, jotka määrittävät, mitä tietokantaobjekteja siten myös mitä käyttöliittymäelementtejä käyttäjät saavat käyttää ja missä yrityksissä niitä saa käyttää.
 
-**Tärkeää**: Jos tietokannassa on useita yrityksiä, vähintään yhden käyttäjän on oltava kaikkien yritysten SUPER-käyttäjäryhmän jäsen.
-
 Oikeussarja on joukko tietyn tietokannan objektien käyttöoikeuksia. Kaikille käyttäjille on määritettävä vähintään yksi käyttöoikeusjoukko, ennen kuin he voivat käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]ia. Tietyt ennalta määritetyt käyttöoikeusryhmät ovat valmiina oletusarvoisesti. Voit käyttää näitä käyttöoikeusjoukkoja oletuksena, muokata käyttöoikeuksien oletusjoukkoja tai luoda lisäkäyttöoikeusjoukkoja.
 
 Voit lisätä käyttäjiä käyttäjäryhmiin. Tämä helpottaa samojen käyttöoikeusjoukkojen määrittämistä useille käyttäjille.
 
-**Huomautus**: Tämä toiminto edellyttää, että kokemukseksi on valittu Ohjelmistopaketti. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)]-kokemuksen mukauttaminen](ui-experiences.md).
+Järjestelmänvalvojat voivat määrittää **Käyttäjäasetukset**-ikkunassa ajanjaksoja, joiden aikana määritetyt käyttäjät voivat tehdä kirjauksia. He voivat myös määrittää, kirjaako järjestelmä ajan, jonka käyttäjät olivat kirjautuneena.
+
+> [!NOTE]  
+>   Tämä toiminto edellyttää, että kokemukseksi on valittu Ohjelmistopaketti. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)] -kokemuksen mukauttaminen](ui-experiences.md).
 
 ## <a name="to-assign-permissions-to-a-user"></a>Käyttöoikeuksien määrittäminen käyttäjälle
-1. Valitse oikeassa yläkulmassa oleva Etsi sivu tai raportti -kuvake, kirjoita **Käyttäjät** ja valitse sitten liittyvä linkki.
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Käyttäjät** ja valitse sitten liittyvä linkki.
 2. Valitse käyttäjä, jolle haluat määrittää käyttöoikeuden.
 Kaikki käyttäjälle jo määritetyt käyttöoikeusjoukot **Käyttöoikeuksien joukot** -tietoruudussa.
 3. Avaa **Käyttäjän kortti** -ikkuna valitsemalla **Muokkaa** -toiminto.
@@ -45,7 +46,7 @@ Kaikki käyttäjälle jo määritetyt käyttöoikeusjoukot **Käyttöoikeuksien 
 ## <a name="to-group-users-in-user-groups"></a>Käyttäjien ryhmittäminen käyttäjäryhmiin
 Voit määrittää käyttäjäryhmiä auttamaan hallitsemaan oikeusryhmät käyttäjäryhmille yrityksessä. Voit kopioida toiminnon avulla kaikki käyttöoikeusjoukot aiemmin luodusta käyttäjäryhmästä uuteen käyttäjäryhmään. Käyttäjäryhmän jäseniä ei kopioida.
 
-1. Valitse oikeassa yläkulmassa oleva Etsi sivua tai raporttia -kuvake, kirjoita **Käyttäjäryhmät** ja valitse sitten liittyvä linkki.
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Käyttäjät** ja valitse sitten liittyvä linkki.
 2. Vaihtoehtoisesti voit valita **Käyttäjät**-ikkunassa **Käyttäjäryhmät**-toiminnon.
 3. Valitse **Käyttäjäryhmät**-ikkunassa ensin kopioitava aiemmin luotu käyttäjäryhmä ja sitten **Kopio käyttäjäryhmä** -toiminto.
 4. Määritä **Uuden käyttäjäryhmän koodi** -kentässä uuden käyttäjäryhmän nimi ja valitse sitten **OK**-painike.
@@ -60,7 +61,7 @@ Voit määrittää käyttäjäryhmiä auttamaan hallitsemaan oikeusryhmät käyt
 Jos [!INCLUDE[d365fin](includes/d365fin_md.md)]iin sisältyvät oletuskäyttöoikeusjoukot eivät riitä tai eivät sovi organisaatiollesi, voit luoda uusia käyttöoikeusjoukkoja. Ja jos käyttöoikeusjoukon määrittävät yksittäisen objektin käyttöoikeudet eivät ole riittävät, voit muokata käyttöoikeusjoukkoa. Voit luoda käyttöoikeusjoukon manuaalisesti. Vaihtoehtoisesti voit käyttää tallennustoimintoa, joka tallentaa toimesi skenaariossa siirtyessäsi ja muodostaa sitten tarvittavan käyttöoikeusjoukon.
 
 ### <a name="to-create-or-modify-permission-sets-manually"></a>Käyttöoikeuksien joukkojen luominen tai muokkaaminen manuaalisesti
-1. Valitse oikeassa yläkulmassa oleva Etsi sivu tai raportti -kuvake, kirjoita **Käyttäjät** ja valitse sitten liittyvä linkki.
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Käyttäjät** ja valitse sitten liittyvä linkki.
 2. Valitse **Käyttäjät**-ikkunassa **Käyttöoikeuksien joukot** -toiminto.
 3. Valitse **Käyttöoikeuksien joukot** -ikkunassa **Uusi**-toiminto.
 4. Täytä tarvittaessa uuden rivin kentät.
@@ -82,7 +83,7 @@ Jos [!INCLUDE[d365fin](includes/d365fin_md.md)]iin sisältyvät oletuskäyttöoi
 9. Lisää käyttöoikeuksia käyttöoikeusjoukon lisäobjekteihin toistamalla vaiheet 7 ja 8.
 
 ### <a name="to-create-or-modify-permission-sets-by-recording-your-actions"></a>Käyttöoikeusjoukkojen luominen tai muokkaaminen toimia tallentamalla
-1. Valitse oikeassa yläkulmassa oleva Etsi sivu tai raportti -kuvake, kirjoita **Käyttäjät** ja valitse sitten liittyvä linkki.
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Käyttäjät** ja valitse sitten liittyvä linkki.
 2. Valitse **Käyttäjät**-ikkunassa **Käyttöoikeuksien joukot** -toiminto.
 3. Valitse **Käyttöoikeuksien joukot** -ikkunassa **Uusi**-toiminto.
 4. Täytä tarvittaessa uuden rivin kentät.
@@ -101,8 +102,16 @@ Käyttäjällä voi olla esimerkiksi oikeus suorittaa codeunit 80, **Myynti kirj
 
 Käyttäjällä ei kuitenkaan tarvitse olla **Ostorivi**-taulukon täysiä käyttöoikeuksia codeunitin suorittamiseksi. Jos käyttäjällä on **Ostorivi**-taulukon epäsuorat käyttöoikeudet, codeunitin **Myynti kirjattu** suorittaminen onnistuu. Kun käyttäjällä on epäsuorat oikeudet, kyseinen käyttäjä voi muokata vain **Ostorivi**-taulukkoa suorittamalla codeunitin **Myynti kirjattu** tai toisen objektin, jolla on **Ostorivi**-taulukon muokkausoikeudet. Käyttäjä voi muokata **Ostorivi**-taulukkoa vain silloin, kun se tapahtuu tuetulla sovellusalueella. Käyttäjä ei voi suorittaa toimintoa vahingossa tai tahallaan muita menetelmiä käyttäen.
 
+## <a name="to-set-up-user-time-constraints"></a>Määritä käyttäjän aikarajoitukset
+Järjestelmänvalvojat voivat määrittää ajanjaksoja, joiden aikana määritetyt käyttäjät voivat tehdä kirjauksia. He voivat myös määrittää, kirjaako järjestelmä ajan, jonka käyttäjät olivat kirjautuneena. Järjestelmänvalvojat voivat myös määrittää käyttäjille vastuupaikkoja.
+
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "") -kuvake, kirjoitta **Resurssienhallinnan asetukset** ja valitse sitten aiheeseen liittyvä linkki.
+2. Valitse avautuvassa **Käyttäjäasetukset**-ikkunassa **Uusi**-toiminto.
+3. Anna **Käyttäjätunnus**-kentässä käyttäjän tunnus tai valitse kenttä, jos haluat nähdä kaikki järjestelmässä tällä hetkellä olevat Windows-käyttäjät.
+4. Täytä tarvittavat kentät.
+
 ## <a name="see-also"></a>Katso myös
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
-[Tervetuloa [!INCLUDE[d365fin](includes/d365fin_md.md)]iin](index.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md)  
+[Tervetuloa [!INCLUDE[d365fin](includes/d365fin_md.md)]iin!](index.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 

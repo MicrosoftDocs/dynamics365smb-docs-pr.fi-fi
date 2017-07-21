@@ -1,5 +1,5 @@
 ---
-title: Vanhojen tietojen noutaminen Financialsiin Excelin avulla | Microsoft Docs
+title: Tietojen tuominen Financialsiin Excelin avulla | Microsoft Docs
 description: "Voit lisätä asiakastietoja Excelissä oletusmäärityspaketin avulla ja tuoda tiedot takaisin Dynamics 365 for Financialsiin."
 author: edupont04
 ms.service: dynamics365-financials
@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: migration, Excel
-ms.date: 04/27/2017
+ms.date: 07/05/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 0151b1c3d8bddd4692c494d1c0e5d1c036da424e
+ms.sourcegitcommit: 2a38dc36cb9ff609c5582acd489841b20013d4bc
+ms.openlocfilehash: 8cf36afea60b089afac8f1c27d126cd19b88ce94
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -22,6 +22,9 @@ ms.lasthandoff: 05/04/2017
 Voit tuoda päätiedot ja joitakin tapahtumatietoja muista rahoitusjärjestelmistä [!INCLUDE[d365fin](includes/d365fin_md.md)]in oletusmäärityspaketin perusteella. Voit käsitellä tuotavaa pakettia **Määrityspaketit**-ikkunassa, jossa voit myös tarkistaa tiedot ennen paketin käyttämistä.  
 
 Jos RapidStart Services for Microsoft Dynamics on sinulle tuttu, tunnet myös määrityspaketit. Oletusmäärityspaketti tukee useimpia vanhasta järjestelmästä tuotavia tietotyyppejä. Voit sitten lisätä Excelissä vanhan järjestelmän tiedot ja käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]in liiketoimintalogiikan mukaisia määrityksiä.  
+
+> [!TIP]  
+>   Voit myös käyttää tietojen siirtotoimintoja, jos haluat tuoda tietoja QuickBooksista tai Dynamics GP:stä. Lisätietoja on kohdassa [QuickBooks-tietojen siirto](ui-extensions-quickbooks-data-migration.md) tai [Dynamics GP -tietojen siirto](ui-extensions-dynamicsgp-data-migration.md).  
 
 ## <a name="working-with-data-in-excel"></a>Tietojen käsittely Excelissä
 Kun tuot oletusmäärityspaketin Exceliin, luodussa työkirjassa on kutakin paketin taulukkoa vastaava laskentataulukko. Yksinkertaistaaksesi tehtäviä voit hyödyntää XML manipulointityökaluja, jotka on sisällytetty Exceliin. Voit käyttää myös Excelin valmiita funktioita tietojen muotoilun auttamiseksi ja tiedon asettamiseksi oikeisiin soluihin. Lisää esimerkiksi tyhjä laskentataulukko ja kopioi vanhat tiedot siihen. Tee sitten Excel-kaava määrittämään muunnostyökirjan tiedot viedyn laskentataulukon kenttien ja vanhojen asiakastietojen välille. Kun olet yhdistänyt kaikki tiedot, kopioi tietoalue taulukon työkirjaan.  
@@ -64,5 +67,8 @@ Kun asiakastiedot on annettu Excelissä, tiedot tuodaan [!INCLUDE[d365fin](inclu
 
 ## <a name="see-also"></a>Katso myös
 [Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä](upload-data.md)  
+[QuickBooks-tietojen siirto](ui-extensions-quickbooks-data-migration.md)  
+[Dynamics GP -tietojen siirto](ui-extensions-dynamicsgp-data-migration.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

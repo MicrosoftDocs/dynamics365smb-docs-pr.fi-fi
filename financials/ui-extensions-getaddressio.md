@@ -1,6 +1,6 @@
 ---
-title: Ison-Britannian postinumeroiden GetAddress.io-laajennus | Microsoft Docs
-description: "Lisätietoja Ison-Britannian postinumeroiden GetAddress.io-laajennuksesta"
+title: "Ison-Britannian postinumeroiden käyttäminen GetAddress.io-laajennuksella | Microsoft Docs"
+description: "Voit noutaa isobritannialaisten asiakkaiden, toimittajien, työntekijöiden ja pankkien osoitteita GetAddress.io-palvelusta."
 services: project-madeira
 documentationcenter: 
 author: bholtorf
@@ -9,28 +9,31 @@ ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: VAT, posting, tax, value added tax
+ms.search.keywords: GetAddress.io, postcodes, postal, address, extension
 ms.date: 04/20/2017
 ms.author: bholtorf
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 03cf2a2e2c0e1bfe9f80bbefe2c7157afe788180
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 5bc3961cd97f0a19ab4d6d3be0ef0e12ee732a26
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 ---
 
 # <a name="the-getaddressio-uk-postcodes-extension-to-microsoft-dynamics-365-for-financials"></a>Microsoft Dynamics 365 for Financialsin Ison-Britannian postinumeroiden GetAddress.io-laajennus
 Ison-Britannian postinumeroiden GetAddress.io-laajennus säästää aikaa ja estää virheitä, kun annat objektien, kuten asiakkaiden, toimittajien, pankkitilien ja työntekijöiden, osoitteita. Jos olet esimerkiksi luomassa asiakasta, sinun tarvitsee vain valita postinumero ja [!INCLUDE[d365fin](includes/d365fin_md.md)] näyttää osoiteluettelon. Valitse sopiva osoite, jonka osoitekentät täyttyvät.  
-  
+
 ##<a name="to-use-the-getaddressio-uk-postcodes-extension-when-you-enter-an-address"></a>Osoitteen antaminen Ison-Britannian postinumeroiden GetAddress.io-laajennuksella
 1. Valitse **Osoite**-kohdassa **Etsi osoite postinumeron mukaan**.  
 
-    **HUOMAUTUS**: **Etsi osoite postinumeron mukaan** -vaihtoehdon voi valita vain, jossa **Maa- tai aluekoodi** -kenttä on tyhjä tai jos siinä on valittu **GB**.
+    > [!NOTE]  
+>   **Etsi osoite postinumeron mukaan** -vaihtoehdon voi valita vain, jossa **Maa- tai aluekoodi -kenttä** on tyhjä tai jos siinä on valittu **GB**.
 2. Anna **Postinumerohaku**-ikkunan **Postinumero**-kenttään postinumero tai valitse se.  
 3. Valitse osoite **Osoitevalinta**-ikkunassa.  
-  
-    **VIHJE**: Jos tiedät kadun numeron, voit suodattaa osoitteita antamalla koko numeron tai sen osan **Toimituspiste**-kenttään.
+
+> [!TIP]  
+>   Jos tiedät kadun numeron, voit suodattaa osoitteita antamalla koko numeron tai sen osan **Toimituspiste**-kentässä.
+
 
 ## <a name="see-also"></a>Katso myös
 [Ison-Britannian postinumeroiden GetAddress.io-laajennuksen määrittäminen](uk-setup-postal-code-service.md)

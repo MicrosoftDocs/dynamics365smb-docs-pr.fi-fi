@@ -1,6 +1,6 @@
 ---
-title: Perusasetusten muuttaminen | Microsoft Docs
-description: "Lisätietoja tavoista, joilla voit muuttaa joitakin Financialsin perusasetuksia."
+title: Financialsin perusasetusten tarkasteleminen ja muokkaaminen | Microsoft Docs
+description: "Tutustu, miten joitakin Financialsin perusasetuksia voi muuttaa. Tällaisia perusasetuksia ovat esimerkiksi roolikeskus, yritys ja käsittelypäivämäärä."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -13,10 +13,10 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: cf910084523c51cd2966335bf3a7c8f81d3d0670
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: ed0a6848f07999246566ad740e02abfc561ae130
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -37,20 +37,23 @@ Yritystoiminnot [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietojen säilön�
 
 Oletusyrityksen nimi on CRONUS, ja se sisältää vain esittelytietoja.
 
-**Vihje**: Jos haluat, että yritys näkee toisella nimellä sovelluksessa (esimerkiksi aloitussivulla, määritä **Nimi**-kenttä **Yritystiedot**-sivulla tai **Näyttönimi**-kenttä **Yritykset**-sivulla.  
+> [!TIP]  
+>   Jos haluat, että yritys näkyy sovelluksessa toisella nimellä (esimerkiksi aloitussivulla), määritä **Nimi**-kenttä **Yritystiedot**-sivulla tai **Näyttönimi**-kenttä **Yritykset**-sivulla.  
 
 ## <a name="work-date"></a>Työn päivämäärä
 Oletuskäsittelypäivä on yleensä kuluvan päivän päivämäärä. Saatat joutua muuttamaan käsittelypäivämäärän väliaikaisesti, jotta voit suorittaa tehtäviä, kuten sellaisten tapahtumien täydentäminen, joiden päivämäärä ei ole kuluvan päivän päivämäärä.
 
-**Vihje**: Kirjoita **w**, kun haluat syöttää nopeasti käsittelypäivämäärän päivämääräkenttään. Kirjoita **t**, kun haluat syöttää nopeasti nykyisen päivämäärän päivämääräkenttään.
+> [!TIP]  
+>   Kirjoita **w**, kun haluat antaa käsittelypäivämäärän nopeasti päivämääräkenttään. Kirjoita **t**, kun haluat syöttää nopeasti nykyisen päivämäärän päivämääräkenttään.
 
-**Tärkeää**: Käsittelypäivämäärää muutetaan vain siihen asti, kunnes yritys suljetaan, tai siihen asti, kunnes päivämäärä muuttuu. Jos avaat toisen yrityksen tai jos avaat saman yrityksen uudestaan seuraavana päivänä, käsittelypäivämäärä täytyy määrittää uudestaan, jos tarvitset vielä järjestelmäpäivämäärästä poikkeavan päivämäärän.
+> [!IMPORTANT]  
+>   Käsittelypäivämäärää muutetaan vain siihen asti, kunnes yritys suljetaan, tai siihen asti, kunnes päivämäärä muuttuu. Jos avaat toisen yrityksen tai jos avaat saman yrityksen uudestaan seuraavana päivänä, käsittelypäivämäärä täytyy määrittää uudestaan, jos tarvitset vielä järjestelmäpäivämäärästä poikkeavan päivämäärän.
 
 ## <a name="confirmation-dialogs"></a>Vahvistusvalintaikkunat
 Tämän osan vaihtoehtojen avulla voit määrittää asiakirjojen kirjaamiselle lisätarkistuksia. Vaihtoehdot on valittu oletusarvoisesti, mutta voit tyhjentää valintaruudut, jos haluat välttää tiettyjä varoituksia ja sanomia.
 
 ## <a name="see-also"></a>Katso myös
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Toimintaohje: Roolikeskuksen vaihtaminen](change-role.md)  
-[Oman [!INCLUDE[d365fin](includes/d365fin_md.md)]-kokemuksen mukauttaminen](ui-experiences.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttökokemuksen mukauttaminen](ui-experiences.md)  
 

@@ -1,6 +1,6 @@
 ---
-title: 'Toimintaohje: Saatavuuden yleiskuva| Microsoft Docs'
-description: "Artikkelissa käsitellään, miten nimikkeiden saatavuutta voi tarkastella eri sijainneissa myynti- tai ostotapahtumien tai ajanjakson mukaan tai sen mukaan, mikä on nimikkeen sijainti kokoonpanon tuoterakenteessa."
+title: Saatavuuden yleiskatsaus| Microsoft Docs
+description: "Saat tietoja nimikkeiden tai varaston saatavuudesta eri sijainneissa myynti- tai ostotapahtumien tai ajanjakson mukaan tai sen mukaan, mikä on nimikkeen sijainti kokoonpanon tuoterakenteessa."
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
@@ -9,36 +9,39 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: SorenGP
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 47071e5e325de8a31663b8d5a59d1ce93e5d0111
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 83af1b6b3a234f67ccc26ee9bba7f5e3e6ff6d77
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="how-to-get-an-availability-overview"></a>Toimintaohje: Saatavuuden yleiskuva
+# <a name="how-to-view-the-availability-of-items"></a>Nimikkeiden saatavuuden tarkasteleminen
 Voit saada, liiketoimintaan liittyvän tehtävän kontekstissa, lisätietoja milloin ja mistä nimike on saatavissa, esimerkiksi kun kerrot asiakkaalle toimitusaikataulua.
 
 Voit tarkastella kaikkien nimikkeiden saatavuutta sijainneittain sekä kunkin nimikkeen saatavuutta tapahtuman, jakson tai sijainnin perusteella. Tapahtuma on mikä tahansa suunniteltu nimiketapahtuma, kuten myyntitoimitus tai saapuvan siirron vastaanotto.
 
-**Huomautus**: Sijaintiin perustuvat saatavuusnäkymät vaativat, että ylläpidät varastoa useammassa sijainnissa. Lisätietoja on kohdassa [Toimintaohje: Sijaintien määrittäminen](inventory-how-setup-locations.md).
+> [!NOTE]  
+>   Sijaintiin perustuvat saatavuusnäkymät edellyttävät, että varastoa pidetään useissa sijainneissa. Lisätietoja on kohdassa [Toimintaohje: Sijaintien määrittäminen](inventory-how-setup-locations.md).
 
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]ia käytettäessä saatavuusluvut näytetään kahdessa eri kentässä, ja kullakin on eri määritelmä:
 
 * **Varastosaldo** -kentässä näytetään päivän todellinen saldo kirjattujen nimiketapahtumien perusteella.
 * **Oletettu saatavilla oleva saldo** -kentän arvo on laskennallinen, ja se esittää varastosaldon, johon on lisätty suunnitellut vastaanotot ja josta on vähennetty bruttotarpeet. ([[!INCLUDE[d365fin](includes/d365fin_md.md)]ia käytettäessä suunnitellut vastaanotot sisältävät ostotilauksilla ja saapuvilla siirtotilauksilla olevat määrät. Bruttotarpeisiin sisältyvät myyntitilauksilla ja lähtevillä siirtotilauksilla olevat määrät).
 
-**Vihje**: Oletettu saatavilla oleva saldo soveltuu erityisesti **Nimikk. saatavuus jaksoittain** ja **Nimikkeen saatavuus tapahtumittain** -ikkunoiden tarkasteluun, koska ne sisältävät päivämäärädimension.  
+> [!TIP]  
+>   Oletettu saatavilla oleva saldo soveltuu erityisesti **Nimikk. saatavuus jaksoittain** ja **Nimikkeen saatavuus tapahtumittain** -ikkunoiden tarkasteluun, koska ne sisältävät päivämäärädimension.  
 
-**Huomautus**: seuraavissa ohjeissa kuvataan, miten saatavuuden lisätietoja tarkastellaan nimikeluettelosta ja -kortilta. Tietoja voi käyttää myös myyntiasiakirjan riveiltä, jotka koskevat ko. nimikettä. Lisätietoja on kohdassa [Toimintaohje: Tuotteiden myyminen](sales-how-sell-products.md).
+> [!NOTE]  
+>   Seuraavissa ohjeissa kerrotaan, miten saatavuuden lisätietoja tarkastellaan nimikeluettelosta ja -kortilta. Tietoja voi käyttää myös myyntiasiakirjan riveiltä, jotka koskevat ko. nimikettä. Lisätietoja on kohdassa [Toimintaohje: Tuotteiden myyminen](sales-how-sell-products.md).
 
 ## <a name="to-view-the-availability-of-an-item-according-to-when-it-will-be-received-or-shipped"></a>Voit tarkastella nimikkeen saatavuutta sen vastaanotto- tai toimituspäivän mukaan.
 Voit tarkastella nimikkeen saatavuutta **Saatavuus tapahtumittain** -ikkunassa näytettävien suunniteltujen nimiketapahtumien perusteella.
 
-1. Valitse oikeassa yläkulmassa **Etsi sivua tai raporttia** -kuvake ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake"), kirjoita **Nimikkeet** ja valitse sitten liittyvä linkki.
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Nimikkeet** ja valitse sitten aiheeseen liittyvä linkki.
 2. Avaa sen nimikkeen kortti, jonka saatavuuden haluat näyttää.
 3. Valitse **Nimikkeen saatavuus** -toiminto ja sitten **Tapahtuma**-toiminto.
 
@@ -48,7 +51,7 @@ Voit tarkastella nimikkeen saatavuutta **Saatavuus tapahtumittain** -ikkunassa n
 ## <a name="to-view-the-availability-of-an-item-in-different-periods"></a>Nimikkeen saatavuuden tarkastelu eri jaksoissa
 Nimikkeen saatavuutta määritettynä aikajaksolla voit tarkastella **Nimikk. saatavuus jaksoittain** -ikkunassa.
 
-1. Valitse oikeassa yläkulmassa **Etsi sivua tai raporttia** -kuvake ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake"), kirjoita **Nimikkeet** ja valitse sitten liittyvä linkki.
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Nimikkeet** ja valitse sitten aiheeseen liittyvä linkki.
 2. Avaa sen nimikkeen kortti, jonka saatavuuden haluat näyttää.
 3. Valitse **Nimikkeen saatavuus** -toiminto ja sitten **Jakso**-toiminto.
 
@@ -58,7 +61,7 @@ Nimikkeen saatavuutta määritettynä aikajaksolla voit tarkastella **Nimikk. sa
 ## <a name="to-view-the-availability-of-an-item-at-the-locations-where-it-is-stored"></a>Nimikkeen saatavuuden tarkastelu kaikissa sen varastointipaikoissa
 Voit tarkastella nimikkeen saatavuutta kaikissa paikoissa, jossa sitä varastoidaan **Nimikkeen saatavuus sijainnin mukaan** -ikkunassa.
 
-1. Valitse oikeassa yläkulmassa **Etsi sivua tai raporttia** -kuvake ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake"), kirjoita **Nimikkeet** ja valitse sitten liittyvä linkki.
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Nimikkeet** ja valitse sitten aiheeseen liittyvä linkki.
 2. Avaa sen nimikkeen kortti, jonka saatavuuden haluat näyttää.
 3. Valitse **Nimikkeen saatavuus** -toiminto ja sitten **Sijainti**-toiminto.
 
@@ -69,7 +72,7 @@ Voit tarkastella nimikkeen saatavuutta kaikissa paikoissa, jossa sitä varastoid
 ## <a name="to-view-the-availability-of-all-items-by-the-location-where-they-are-stored"></a>Kaikkien nimikkeiden saatavuuden tarkastelu kaikissa niiden varastointipaikoissa
 Voit tarkastella kaikkien nimikkeidesi saatavuutta kaikissa sijainneissa **Nimikkeet sijainneittain** -ikkunassa.
 
-1. Valitse oikeassa yläkulmassa **Etsi sivua tai raporttia** -kuvake ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake"), kirjoita **Nimikkeet** ja valitse sitten liittyvä linkki.
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Nimikkeet** ja valitse sitten aiheeseen liittyvä linkki.
 2. Valitse **Nimikkeet sijainneittain** -toiminto.
 
     **Nimikkeet sijainneittain** -ikkunassa näyttää kussakin sijainnissa olevan saldon nimikkeelle.
@@ -89,7 +92,8 @@ Seuraavat kentät määrittävät saatavuusluvut sekä päänimikkeiden että al
 
 **Nimikkeen saatavuus tuoterakennetason mukaan** -ikkunassa on sen kortin tai asiakirjarivin nimikkeen tietoja, jonka ikkuna avattiin. Kohde näkyy aina ylimmällä rivillä. Voit tarkastella muiden nimikkeiden tai kaikkien nimikkeiden tietoja vaihtamalla arvoa **Nimikesuodatus**-kentässä.
 
-**Huomautus:** Oletusarvoisesti rivien luvut näyttävät kaikkien nimikkeiden kokonaissaatavuuden ylimmän nimikkeen alla. Nämä luvut näkyvät **Saatavilla oleva määrä** -kentässä ja kohdistus on ylimmässä nimikkeessä. Tiedot siitä, miten monta osakokoonpanoa voidaan tehdä, voivat olla virheellisiä. Jotta saisit todellista tietoa siitä, kuinka monta näkyvää osakokoonpanoa voit tehdä, sinun on poistettava **Näytä kokonaissaatavuus** -valintaruudun valinta ja tarkistettava sitten **Kykenee valmistamaan päänimikettä** -kentän luku.
+> [!NOTE]  
+>   Oletusarvon mukaan rivien luvut näyttävät kaikkien nimikkeiden kokonaissaatavuuden ylimmän nimikkeen alla. Nämä luvut näkyvät **Saatavilla oleva määrä** -kentässä ja kohdistus on ylimmässä nimikkeessä. Tiedot siitä, miten monta osakokoonpanoa voidaan tehdä, voivat olla virheellisiä. Jotta saisit todellista tietoa siitä, kuinka monta näkyvää osakokoonpanoa voit tehdä, sinun on poistettava **Näytä kokonaissaatavuus** -valintaruudun valinta ja tarkistettava sitten **Kykenee valmistamaan päänimikettä** -kentän luku.
 
 **Pullonkaula**-kenttä määrittää, mikä tuoterakenteen nimike estää suuremman valmistusmäärän kuin **Kykenee valmistamaan tärkeintä nimikettä** -kentässä näkyvä määrä. Pullonkaulanimike voi olla esimerkiksi ostettu osa, jonka oletettu vastaanottopäivämäärä on liian myöhään, jotta päänimekettä voitaisiin valmistaa lisää **Tarvitaan päivämäärän mennessä** -kentässä olevaan päivämäärään mennessä.
 

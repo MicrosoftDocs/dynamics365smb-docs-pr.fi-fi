@@ -1,6 +1,6 @@
 ---
-title: "Toimintaohje: Hyväksyntätyönkulkujen käyttäminen| Microsoft Docs"
-description: "Toimintaohje: Hyväksyntätyönkulkujen käyttäminen"
+title: "Hyväksy tai hylkää asiakirjoja työnkuluissa| Microsoft Docs"
+description: "Pyydä, hylkää tai delegoi esimerkiksi osto- tai myyntiasiakirjan hyväksyntä työnkulun osana."
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
@@ -12,10 +12,10 @@ ms.search.keywords: reject, delegate, request
 ms.date: 04/25/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: ed08fdb7f78c9f6c338e287cd4ef42d7ce0cb72c
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: ffeffe725025dc03d2053333f75249679103b6a4
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -26,13 +26,14 @@ Hyväksyntätyönkulut määritetään **Työnkulku**-ikkunassa.
 
 Ostoasiakirjojen, myyntiasiakirjojen, maksupäiväkirjojen, asiakaskorttien ja nimikekorttien perushyväksyntätyönkulut ovat valmiita käynnistettäväksi avustetuissa asennuksissa. Lisätietoja on kohdassa [Tervetuloa [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]iin(index.md).
 
-**Huomautus**: Tämä toiminto edellyttää, että kokemukseksi on valittu **Ohjelmistopaketti**. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)]-kokemuksen mukauttaminen](ui-experiences.md).
+> [!NOTE]  
+>   Tämä toiminto edellyttää, että kokemukseksi on valittu **Ohjelmistopaketti**. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)] -kokemuksen mukauttaminen](ui-experiences.md).
 
 ## <a name="to-request-approval-of-a-record"></a>Tietueen hyväksynnän pyytäminen
 Hyväksynnän käyttäjä suorittaa seuraavan tehtävän.
 
 1. Valitse tietueen ikkunassa **Lähetä hyväksymispyyntö** -toiminto.
-2. Jos haluat nähdä kaikki hyväksymispyynnöt, valitse oikeassa yläkulmassa **Etsi sivua tai raporttia** -kuvake ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake"), kirjoita **Hyväksymispyyntötapahtumat** ja valitse sitten liittyvä linkki.
+2. Kun haluat nähdä kaikki hyväksymispyynnöt, valitse ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") -kuvake, syötä **Hyväksymispyyntötapahtumat** ja valitse liittyvä linkki.  
 
 Hyväksyntämerkinnän tila muuttuu **Luotu** -tilasta**Avoin**-tilaksi. Tietueen, kuten esimerkiksi ostolaskun, tila päivitetään **Avoin**-tilasta **Odottaa hyväksyntää** -tilaksi. Tietue pysyy lukittuna käsittelyltä, kunnes hyväksyjät ovat hyväksyneet tietueen.
 
@@ -63,7 +64,7 @@ Hyväksymisoikeudet omaava hyväksynnän käyttäjä suorittaa seuraavan tehtäv
 
 Voit käsitellä hyväksymispyynnöt **Hyväksyttävät pyynnöt** -ikkunassa esimerkiksi silloin, kun haluat hyväksyä kerralla useita pyyntöjä. Vaihtoehtoisesti voit käsitellä liittyvän tietueen, kuten **Ostolasku**-ikkunan, jokaisen pyynnön valitsemalla vastaanottamasi ilmoituksen linkin.
 
-1. Valitse oikeassa yläkulmassa **Etsi sivua tai raporttia** -kuvake ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake"), kirjoita **Hyväksyttävät pyynnöt** ja valitse sitten liittyvä linkki.
+1. Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Hyväksyttävät pyynnöt** ja valitse sitten aiheeseen liittyvä linkki.
 2. Valitse yksi tai useampi rivi tietueesta tai tietueista, jonka haluat hyväksyä tai hylätä.
 3. Valitse **Hyväksy**-, **Hylkää**- tai **Delegoi**-toiminto.
 
@@ -71,14 +72,14 @@ Kun tietue on hyväksytty tai hylätty, hyväksynnän **Tila**-kentän arvoksi m
 
 Jos hyväksyjähierarkia on määritelty, tietueen tilaksi määritellään **Odottaa hyväksyntää** siihen asti, että kaikki hyväksyjät ovat hyväksyneet tietueen. Tietueen tilaksi tulee tämän jälkeen **Vapautettu**.
 
-Hyväksynnän tila muuttuu samanaikaisesti **Luodusta****Avoimeksi** heti, kun tietueelle luodaan hyväksymispyyntö. Jos pyyntö hylätään, hyväksynnän tilaksi muutetaan **Hylätty**. Tila pysyy **Avoimena** tai **Hylättynä** kunnes kaikki hyväksyjät ovat hyväksyneet pyynnön.
+Hyväksynnän tila muuttuu samanaikaisesti **Luodusta** **Avoimeksi** heti, kun tietueelle luodaan hyväksymispyyntö. Jos pyyntö hylätään, hyväksynnän tilaksi muutetaan **Hylätty**. Tila pysyy **Avoimena** tai **Hylättynä** kunnes kaikki hyväksyjät ovat hyväksyneet pyynnön.
 
 ## <a name="to-delegate-requests-for-approval"></a>Hyväksymispyyntöjen delegoiminen
 Hyväksymisoikeudet omaava hyväksynnän käyttäjä suorittaa seuraavan tehtävän.
 
 Työnkulun tukkiutumisen tai asiakirjojen kasaantumisen estämiseksi hyväksyjä ja hyväksynnän valvoja voi delegoida hyväksymispyynnöt sijaiselle. Korvaava voi olla joko nimetty korvaaja, suora hyväksyjä tai hyväksynnän järjestelmänvalvoja, tässä järjestyksessä. Tätä toimintoa käytetään yleensä, kun alkuperäinen hyväksyjä on poissa töistä eikä pysty käsittelemään pyyntöjä ennen eräpäivää.
 
-1. Valitse oikeassa yläkulmassa **Etsi sivua tai raporttia** -kuvake ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake"), kirjoita **Hyväksyttävät pyynnöt** ja valitse sitten liittyvä linkki.
+1. Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Hyväksyttävät pyynnöt** ja valitse sitten aiheeseen liittyvä linkki.
 2. Valitse vähintään yksi pyyntörivi, jonka haluat delegoida sijaiselle, ja valitse sitten **Delegoi**-toiminto.
 
 Ilmoitus hyväksyttävästä pyynnöstä lähetetään sijaiselle.
@@ -90,12 +91,12 @@ Hyväksynnän työnkulun käyttäjiä on muistutettava säännöllisin väliajoi
 
 **Lähetä ilmoituksia myöhässä olevista hyväksynnöistä** -toiminto tarkistaa kaikki avoimet myöhässä olevat hyväksyntäpyynnöt. Toiminto lähettää luettelon kaikista myöhässä olevista hyväksynnöistä jokaiselle hyväksyjälle, jolla on vähintään yksi myöhässä oleva hyväksyntämerkintä. Ilmoitus lähetetään myös hyväksyjän esimiehelle ja kaikille myöhässä olevien hyväksyntöjen pyytäjille. Tästä on apua, jos hyväksyntä on siirrettävä sijaiselle.
 
-1. Valitse oikeassa yläkulmassa **Etsi sivua tai raporttia** -kuvake ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake"), kirjoita **Erääntyneet hyväksymispyynnöt** ja valitse sitten liittyvä linkki.
+1. Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Erääntyneiden hyväksymispyyntöjen työnkulku** ja valitse sitten aiheeseen liittyvä linkki.
 2. Valitse **Myöhässä olevat hyväksyntäpyynnöt** -ikkunassa **Lähetä erääntyneiden hyväksyntöjen ilmoitukset** -toiminto.
 
 ## <a name="see-also"></a>Katso myös
 [Myynti](sales-manage-sales.md)    
 [Saapuvat asiakirjat](across-income-documents.md)  
 [Osto](purchasing-manage-purchasing.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md)
+[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen(ui-work-product.md)
 

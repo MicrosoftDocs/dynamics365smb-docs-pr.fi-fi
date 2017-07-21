@@ -1,6 +1,6 @@
 ---
-title: "Kanadan arvonlisävero | Microsoft Docs"
-description: "Lisätietoja arvonlisäverosta (GST) ja harmonisoidusta arvonlisäverosta (HST)."
+title: "Arvonlisävero Kanadassa| Microsoft Docs"
+description: "Lue kanadalaisesta tavaroita ja palveluita koskevasta arvonlisäverokäytännöstä."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales tax, local
-ms.date: 03/23/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: e1866f5047a826f3d527267d901eb30279d5b4e4
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 571b11f4f18ffd194bdfe1d1d412bca87df4b868
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="sales-tax-and-goods-and-services-tax-in-canada"></a>Kanadan arvonlisävero
+# <a name="reporting-sales-tax-and-goodsservices-tax-in-canada"></a>Kanadan arvonlisäveron raportointi
 Jos Kanadassa toimittajalla ei ole liiketilaa provinssissa, jossa ostoja tehdään, toimittaja veloittaa vain arvonlisäveroa (GST) tai harmonisoitua arvonlisäveroa (HST). Jos provinssissa on käytössä provinssin arvonlisävero (PST), ostajan on laskettava myös PST ja maksettava se suoraan provinssiin. Kun provinssin veroaluekoodi on valittuna, [!INCLUDE[d365fin](includes/d365fin_md.md)] käyttää sitä PST:n laskemisessa ja kirjaa sen. Tällöin verovelkaa on sekä pääkirjanpidossa että arvonlisäverotietueissa. Tämän vuoksi valitun veroaluekoodin tulee olla se, jossa on valittuna PST, ei GST.  
 
 Lisätietoja on kohdassa [Kanadan arvonlisävero ja veroryhmät](us-finance-sales-tax.md).  
@@ -32,5 +32,5 @@ Ostoasiakirjojen verotietoja käytetään veroviranomaisille annettavan GST-/HST
 [Rahoitus](finance.md)  
 [Rahoituksen määrittäminen](finance-setup-finance.md)  
 [Yhdysvaltojen ja Kanadan arvonlisävero ja veroryhmät](us-finance-sales-tax.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md)
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
 

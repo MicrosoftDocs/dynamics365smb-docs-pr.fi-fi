@@ -1,6 +1,6 @@
 ---
 title: Vanhojen liiketoimintatietojen tuominen Financialsiin | Microsoft Docs
-description: "Tässä artikkelissa kerrotaan, miten omat tiedot tuodaan Dynamics 365 for Financialsiin."
+description: "Voit siirtää asiakkaiden, toimittajien ja varaston tietoja esimerkiksi Excelistä, QuickBooksista tai Dynamics GP:stä Financialsiin."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: migrate, initialize, implement
-ms.date: 04/27/2017
+ms.date: 07/05/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 001dccf7935f38dd2f409e4fea31598a279472d4
+ms.sourcegitcommit: 2a38dc36cb9ff609c5582acd489841b20013d4bc
+ms.openlocfilehash: dd6eb5a6b19bf4c8fd92674a48e8cd29ce912eee
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -31,16 +31,21 @@ Jos tiedosto sisältää esimerkiksi asiakkaita ja toimittajia, voit siirtää v
 
 Avustetun asennuksen avulla voit muuttaa siirron oletusmäärityksiä. Näitä lisäasetuksia kannattaa muuttaa vain, jos tietokantataulukot ovat sinulle ennestään tuttuja. QuickBooksista tai Dynamics GP:stä [!INCLUDE[d365fin](includes/d365fin_md.md)]iin tehtävän siirron oletusmääritykset siirtävät suurimmassa osassa yrityksiä juuri halutut tiedot.  
 
+Lisätietoja on kohdassa [QuickBooks-tietojen siirto](ui-extensions-quickbooks-data-migration.md) tai [Dynamics GP -tietojen siirto](ui-extensions-dynamicsgp-data-migration.md).
+
 ## <a name="importing-data-from-configuration-packages"></a>Tietojen tuominen määrityspaketeista
 [!INCLUDE[d365fin](includes/d365fin_md.md)] sisältää määrityspaketin, jonka voit viedä Exceliin tietojen määrittämiseksi siellä. Tämän jälkeen voit tuoda tiedot uudelleen Excelistä. Paketissa on 27 taulukkoa, mukaan lukien päätiedot, kuten asiakkaat, toimittajat, nimikkeet ja tilit, muita perusasetustaulukkoja, kuten toimitustavat, ja tapahtumataulukot, kuten myyntiotsikko ja rivit.  
 
 > [!NOTE]  
->  Määrityspakettien käyttäminen on lisätoiminto ja onkin suositeltavaa keskustella sen käytöstä järjestelmänvalvojan kanssa. Lisätietoja on kohdassa [Tietojen tuominen vanhasta kirjanpito-ohjelmistosta määrityspaketin avulla](across-import-data-configuration-packages.md).  
+>   Määrityspakettien käyttäminen on lisätoiminto ja onkin suositeltavaa keskustella sen käytöstä järjestelmänvalvojan kanssa. Lisätietoja on kohdassa [Tietojen tuominen vanhasta kirjanpito-ohjelmistosta määrityspaketin avulla](across-import-data-configuration-packages.md).  
 
 ## <a name="see-also"></a>Katso myös
 [Rahoitus](finance.md)  
 [Tietojen tuominen vanhasta kirjanpito-ohjelmistosta määrityspaketin avulla](across-import-data-configuration-packages.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in mukauttaminen laajennuksilla](ui-extensions.md)   
+[QuickBooks-tietojen siirto](ui-extensions-quickbooks-data-migration.md)  
+[Dynamics GP -tietojen siirto](ui-extensions-dynamicsgp-data-migration.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)]in mukauttaminen laajennusten avulla](ui-extensions.md)   
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittäminen](setup.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

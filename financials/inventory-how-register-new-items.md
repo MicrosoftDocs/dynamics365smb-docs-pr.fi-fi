@@ -1,6 +1,6 @@
 ---
-title: "Toimintaohje: Uusien nimikkeiden rekisteröinti| Microsoft Docs"
-description: "Voit luoda kortteja uusille, varastosta esimerkiksi kappaleittain myytäville fyysisille tuotteille, tai tunteina myytäville palveluille."
+title: Tavaroiden tai palvelujen nimikekorttien luominen| Microsoft Docs
+description: "Nimikekortit luodaan tunteina myytäville palveluille ja varastosta myytäville fyysisille tuotteille, kuten kokoonpanonimikkeille, valmiille tavaroille, komponenteille tai raaka-aineille."
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
@@ -9,18 +9,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 582e006291e51e19d80304d24ae055ce6ac8d698
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 719e11f2c8fee3d7e5dd3736754700b68f57379c
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="how-to-register-new-items"></a>Toimintaohje: Uusien nimikkeiden rekisteröiminen
-Nimikkeet ovat muiden tuotteiden eli tavaroiden tai palveluiden, joilla käyt kauppaa, ohessa liiketoimintasi perusta. Jokainen nimike on rekisteröitävä nimikekorttina.
+Nimikkeet ovat muiden tuotteiden ohella liiketoimintasi perusta; ne ovat siis tavaroita ja palveluja, joilla käyt kauppaa. Jokainen nimike on rekisteröitävä nimikekorttina.
 
 Nimikekortti sisältää tiedot, jotka tarvitaan nimikkeiden ostamista, tallentamista, myymistä ja toimittamista varten.
 
@@ -28,7 +28,8 @@ Nimikekortin tyyppi voi olla **Varasto** tai **Palvelu**, jolloin voidaan määr
 
 Nimike voi olla tuoterakenteessa päänimike, jonka alla on alinimikkeitä. [!INCLUDE[d365fin](includes/d365fin_md.md)]issa tuoterakennetta kutsutaan kokoonpanon tuoterakenteeksi. Kokoonpanon tuoterakenteen avulla jäsennetään päänimikkeet, joita myydään päänimikkeen osista koostuvina paketteina tai jotka kootaan tilausta tai varastointia varten. Lisätietoja on kohdassa [Toimintaohje: Tuoterakenteiden käyttäminen](inventory-how-work-BOMs.md).
 
-**Huomautus**: Jos eri nimikkeen on olemassa asiakasmalleja, ikkuna tulee näkyviin, kun luot uuden nimikkeen kortin, jossa voit valita haluamasi mallin. Jos vain yksi nimikemalli on olemassa, uudet nimikekortit käyttävät aina kyseistä mallia.
+> [!NOTE]  
+>   Jos eri nimiketyypeillä on nimikemalleja, ikkuna avautuu, kun luot uuden nimikekortin, jossa voit valita sopivan mallin. Jos vain yksi nimikemalli on olemassa, uudet nimikekortit käyttävät aina kyseistä mallia.
 
 ## <a name="to-create-a-new-item-card"></a>Uuden nimikekortin luominen
 1. Valitse kotisivun **Nimikkeet**-toiminto, kun haluat avata olemassa olevien nimikkeiden luettelon.  

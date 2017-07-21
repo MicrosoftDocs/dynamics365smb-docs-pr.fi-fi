@@ -1,6 +1,6 @@
 ---
-title: "Käyttäjän mukautus| Microsoft Docs"
-description: "Artikkelissa käsitellään tapoja, joilla käyttäjät voivat muuttaa käyttöliittymän elementtien näkymistä."
+title: "Käyttäjätilillä näytettävien tietojen mukauttaminen | Microsoft Docs"
+description: "Tässä ohjeaiheessa kerrotaan, miten Financialsin ulkoasua voi mukauttaa käyttäjätilillä."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,17 +13,18 @@ ms.search.keywords: customize, personalize
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: c1b4fe89265f551810aebc0a874ac84e645128e1
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 754ce16624db4d939da98baf2da74f14bd383920
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="user-personalization"></a>Käyttäjän mukautus
 Voit muuttaa sen, miten käyttöliittymäelementit näkyvät [!INCLUDE[d365fin](includes/d365fin_md.md)]in versiossa tarpeitasi parhaiten vastaavalla tavalla.
 
-**Huomautus**: Mukautukset koskevat vain omaa käyttäjätiliäsi. Muut käyttäjät eivät näe niitä.
+> [!NOTE]  
+>   Mukautukset koskevat vain omaa käyttäjätiliäsi. Muut käyttäjät eivät näe niitä.
 
 ## <a name="to-add-or-remove-a-column"></a>Sarakkeen lisääminen tai poistaminen
 Kaikki luetteloiden ja asiakirjojen rivien saraketiedot eivät ole oletusarvoisesti näkyvissä. Voit lisätä tai poistaa sarakkeita **Valitse sarakkeet** -toiminnolla.
@@ -34,6 +35,6 @@ Kaikki luetteloiden ja asiakirjojen rivien saraketiedot eivät ole oletusarvoise
 4. Valitse **OK**-painike.
 
 ## <a name="see-also"></a>Katso myös
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md)  
-[Ehtojen antaminen suodattimiin](ui-enter-criteria-filters.md)
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[Suodattimen ehtojen antaminen](ui-enter-criteria-filters.md)
 

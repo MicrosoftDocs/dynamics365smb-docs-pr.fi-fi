@@ -1,6 +1,6 @@
 ---
-title: Toimitusketju| Microsoft-Docs
-description: "Lisätietoja tärkeimmistä toimitusketjun käsitteistä ja prosesseista"
+title: Financialsin tukemat toimitusketjun toiminnot| Microsoft Docs
+description: "Tässä ohjeaiheessa on tuotteen yleiskuvaus sekä lisätietoja ERP-ratkaisuun sisältyvistä tärkeistä toimitusketjun käsitteistä ja prosesseista."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: product overview, ERP
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 4ed8437f5d1b7628f256bb435de8ba13bd64a8f9
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 3bae84075dc505aa9318590b1fac06e4844ffafe
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="supply-chain"></a>Toimitusketju
+# <a name="overview-of-supply-chain-functionality"></a>Toimitusketjun toimintojen yleiskuvaus
 [!INCLUDE[d365fin](includes/d365fin_md.md)] tukee yleisiä toimitusketjun prosesseja, mutta se on rajoitettu tukku- ja jakeluyritysten tarpeisiin ilman hallittua varastonkäsittelyä.
 
 Myyntilaskuasiakirjojen lisäksi voit hallita tilausten toteutumista myyntitilausten kanssa, joka mahdollistaa osittaisten tilausmäärien toimittamisen, esimerkiksi silloin, kun täysi määrä ei ole heti saatavilla. Voit valita nimikkeille suoratoimituksen toimittajalta asiakkaalle yhdistämällä myyntitilauksen liittyvään ostotilaukseen.
@@ -36,7 +36,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 | Toiminta | Katso |
 | --- | --- |
 | Rekisteröi uusia asiakkaita, tee myyntitarjouksia, myy tuotteita tilauksilla tai laskuilla, kuten esimerkiksi suoratoimituksia, ja hallitse asiakaspalautuksia. |[Myynti](sales-manage-sales.md) |
-| Rekisteröi uusia toimittajia, osta tuotteita tilauksella tai laskulla, esimerkiksi myyntilaskusta käynnistettynä, ja hallitse ostopalautuksia. |[Osto](purchasing-manage-purchasing.md) |
+| Rekisteröi uusia toimittajia, osta nimikkeitä tilauksella tai laskulla, joka on esimerkiksi muodostettu myyntilaskusta, ja hallitse ostopalautuksia. |[Osto](purchasing-manage-purchasing.md) |
 | Rekisteröi uusia fyysisiä tai palvelutuotteita, oikaise varastosaldoja ja hallitse varastoarvoa kirjaamalla oikaistut kustannukset pääkirjanpitoon. |[Varasto](inventory-manage-inventory.md) |
 
 ## <a name="see-also"></a>Katso myös
@@ -44,6 +44,6 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 [Myyntisaamisten hallinta](receivables-manage-receivables.md)     
 [Ostojen määrittäminen](purchasing-setup-purchasing.md)  
 [Ostovelkojen hallinta](payables-manage-payables.md)    
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)
 

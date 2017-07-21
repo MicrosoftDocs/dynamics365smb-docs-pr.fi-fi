@@ -1,6 +1,6 @@
 ---
-title: Suoritettavan raportin aikatauluttaminen | Microsoft Docs
-description: "Lisätietoja tavoista, joilla voit aikatauluttaa raportin suoritettavaksi myöhemmin."
+title: "Raportin suorituksen ajoittaminen tietylle päivämäärälle ja kellonajalle | Microsoft Docs"
+description: "Tutustu, miten raportti lisätään työjonoon ja ajoitetaan käsiteltäväksi tiettynä päivänä ja tiettyyn kellonaikaan."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -13,10 +13,10 @@ ms.search.keywords: task, process, job queue
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 50d0d76857b71cc2b2c706cf2a585fde5e7449e8
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 0b97a5e48c4b339375ca9ad8cbe8388c5d47bb44
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -27,5 +27,5 @@ Voit aikatauluttaa raportin sen avaamisen yhteydessä. Valitse **Aikataulu**-toi
 
 ## <a name="see-also"></a>Katso myös
 [Tulostimen valinnan määrittäminen raporteille](ui-specify-printer-selection-reports.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md)
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
 

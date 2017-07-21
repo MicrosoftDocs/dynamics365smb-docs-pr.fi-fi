@@ -1,6 +1,6 @@
 ---
-title: "Financialsin määrittäminen| Microsoft Docs"
-description: "Financialsin määrittäminen"
+title: "Dynamics 365 for Financialsin määritystehtävien yleiskatsaus| Microsoft Docs"
+description: "Tässä ohjeaiheessa kerrotaan tehtävistä, jolla Dynamics 365 for Financials asennetaan, alustetaan ja määritetään omia tarpeita vastaavaksi."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 04/27/2017
+ms.date: 06/07/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 5be24b9017b105adc6c857655c8de63d67b6aa29
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: e6efc11442a693da00c289866b726345ef97fb39
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -40,12 +40,13 @@ Tietyt joko yleiset tai erityiset liiketoimintaprosessien toiminnot voidaan mä�
 | Määritä käyttöomaisuuden vakuuttaminen, kunnossapito ja poistot sekä tapa, jolla käyttöomaisuuden kustannukset kirjataan yrityskirjoihin. |[Käyttöomaisuuden määrittäminen](fa-setup.md) |
 | Määritä tietueille, kuten korteille, asiakirjoille ja päiväkirjan riville, yksilölliset tunnuskoodit, joilla tietueita voi seurata järjestelmässä. |[Numerosarjojen luominen](ui-create-number-series.md) |
 | Määritä **SMTP-sähköpostiasetukset** -ikkunassa, miten [!INCLUDE[d365fin](includes/d365fin_md.md)]issa lähetetään ja vastaanotetaan sähköposteja asiakirjoista. |[Toimintaohje: Sähköpostin määrittäminen](madeira-how-setup-email.md) |
+| Määritä yksilölliset tunnuskoodit. |[Toimintaohje: Numerosarjojen luominen](ui-create-number-series.md) |
 
 ## <a name="see-also"></a>Katso myös
 [Rahoitus](finance.md)  
 [Myynti](sales-manage-sales.md)  
 [Osto](purchasing-manage-purchasing.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md)  
-[Tervetuloa [!INCLUDE[d365fin](includes/d365fin_long_md.md)]iin](index.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[Tervetuloa [!INCLUDE[d365fin](includes/d365fin_long_md.md)]iin!](index.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

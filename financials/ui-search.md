@@ -1,6 +1,6 @@
 ---
-title: Sivun tai raportin etsiminen | Microsoft Docs
-description: "lisätietoja haun käyttämisestä Dynamics 365 for Financialsissa."
+title: Sivujen tai raporttien etsiminen Etsi sivu tai raportti -toiminnolla | Microsoft Docs
+description: "Voit etsiä sivuja ja raportteja Dynamics 365 for Financialsissa käyttämällä Etsi sivu tai raportti -toiminnolla."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -13,10 +13,10 @@ ms.search.keywords: find
 ms.date: 03/29/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: ae0814ab8c2412c67ae436441306ce14d4b40851
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: c38f22bec1101a8373b7b5dab246942f49412afc
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -27,10 +27,12 @@ Voit etsiä sivuja tai raportteja valitsemalla osoiterivin oikeassa yläkulmassa
 
 Kun alat kirjoittaa merkkejä, avattavassa luettelossa näkyvät kirjoittamasi merkit sisältävien sivujen nimet. Avattavan luettelon sisältö muuttuu, kun kirjoitat lisää merkkejä, ja voit valita luettelosta haluamasi vaihtoehdon, kun luettelo on näkyvissä. Avattavan luettelon toisessa sarakkeessa näkyvät löydettyjen sivujen polut. Käytössä on myös linkki, jolla voit etsiä ohjetta kirjoittamiesi merkkien mukaan.
 
-**Huomautus:** Käytettävissä olevat sivut ja raportit määräytyvät yritykselle valitun käyttäjäkokemuksen mukaan. **Perus**-kokemuksen valikoima on suppeampi kuin **Ohjelmistopaketti**-kokemuksen valikoima. Ensimmäiselle kirjautumiskerralla käytössä on Perus-kokemus. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_long_md.md)]-kokemuksen mukauttaminen](ui-experiences.md).
+> [!NOTE]  
+>   Käytettävissä olevat sivut ja raportit määräytyvät yritykselle valitun käyttäjäkokemuksen mukaan. **Perus**-kokemuksen valikoima on suppeampi kuin **Ohjelmistopaketti**-kokemuksen valikoima. Ensimmäiselle kirjautumiskerralla käytössä on Perus-kokemus. Lisätietoja on ohjeaiheessa [[!INCLUDE[d365fin](includes/d365fin_long_md.md)]iin käyttökokemuksen mukauttaminen](ui-experiences.md).
 
-**Huomautus**: **Etsi sivua tai raporttia** -toiminto ei etsi kaikista tiedoista, kuten asiakkaiden nimistä, osoitteista ja tapahtumista. Voit sen sijaan etsiä tietoja luettelosivuilta valitsemalla luettelon otsikon oikeassa yläkulmassa suurennuslasikuvakkeen. Haku tehdään vain avatussa luettelossa. Lisätietoja on kohdassa [Ehtojen antaminen suodattimiin](ui-enter-criteria-filters.md).
+> [!NOTE]  
+>   **Etsi sivu tai raportti** -toiminto ei etsi kaikista tiedoista, kuten asiakkaiden nimistä, osoitteista ja tapahtumista. Voit sen sijaan etsiä tietoja luettelosivuilta valitsemalla luettelon otsikon oikeassa yläkulmassa suurennuslasikuvakkeen. Haku tehdään vain avatussa luettelossa. Lisätietoja on kohdassa [Ehtojen antaminen suodattimiin](ui-enter-criteria-filters.md).
 
 ## <a name="see-also"></a>Katso myös
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md)
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
 

@@ -1,6 +1,6 @@
 ---
 title: "Varaston määrittäminen| Microsoft Docs"
-description: "Tässä artikkelissa kerrotaan, miten varastoprosessit, kuten sijainnit ja siirtoreitit, määritetään."
+description: "Tässä artikkelissa kerrotaan, miten varastoinnin ja varaston prosessit määritetään. Kyse voi olla esimerkiksi siirtoreiteistä ja sijainneista, kuten fyysisistä varastoista."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: SorenGP
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: c4f2abbe400e0fa7150a912e1cb267b5fbf52d8e
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 8fd3ff9518613c9d01f8e9503a568a0bdf079819
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -39,6 +39,6 @@ Kun olet määrittänyt varastosi, voit hallita eri varastonhallinnan prosesseja
 [Ostojen hallinta](purchasing-manage-purchasing.md)  
 [Myynnin hallinta](sales-manage-sales.md)    
 [Toimitusketju](madeira-supply-chain.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)
 

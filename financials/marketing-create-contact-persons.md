@@ -1,6 +1,6 @@
 ---
-title: "Kontaktihenkilöt | Microsoft Docs"
-description: "Voit luoda aiemmin luoduista kontaktiyrityksistä kontaktihenkilöitä tai voit luoda itsenäisiä kontaktihenkilöitä Financialsissa."
+title: "Kontaktihenkilöiden luominen| Microsoft Docs"
+description: "Tässä ohjeaiheessa kerrotaan tehtävistä, joilla luodaan henkilölle, kuten prospektille tai toimittajalle, kontaktin kortti helpottamaan suhteen määrittämistä ja räätälöimään viestintää."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: bfc992a09bfe3b93d682dd5c38cdab6c7dc1617b
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 7ce0a022520b161fd0159fceb1cc1ecd3d14f4ec
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="contact-persons"></a>Kontaktihenkilöt
+# <a name="creating-contact-persons"></a>Kontaktihenkilöiden luominen
 Voit luoda yhteyshenkilön määrittämällä yhteystietokortin henkilölle. Voit luoda aiemmin luoduista yrityksistä yhteyshenkilötítä, tai voit luoda riippumatomia yhteyshenkilöitä.
 
 Voit esimerkiksi tavata mahdollisen asiakasyrityksen jälkeen ostajan. Voit luoda tälle henkilölle kontaktin kortin, jonka avulla yhteydenpidosta tulee entistä mukautetumpaa.
@@ -35,8 +35,8 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 | --- | --- |
 | Määritä kontaktihenkilön tiedot. |[Toimintaohjeet: Kontaktihenkilöiden luominen](marketing-how-create-contact-persons.md) |
 | Määritä kontaktin vaihtoehtoinen osoite. |[Toimintaohjeet: Vaihtoehtoisten osoitteiden liittäminen](marketing-how-assign-alternate-address.md) |
-| Kuvaile yrityksen kontaktin liikesuhdetta. |[Vastuualueiden määrittäminen kontakteille](marketing-job-responsibilities.md) |
-| Määritä kontaktien organisaatiotaso. |[Kontaktihenkilöiden organisaatiotasojen määrittäminen](marketing-organizational-levels.md) |
+| Kuvaile yrityksen kontaktin liikesuhdetta. |[Toimintaohje: Vastuualueiden määrittäminen kontakteille](marketing-job-responsibilities.md) |
+| Määritä kontaktien organisaatiotaso. |[Toimintaohje: Kontaktihenkilöiden organisaatiotasojen määrittäminen](marketing-organizational-levels.md) |
 | Postitusryhmien määrittäminen kontakteille |[Postitusryhmien määrittäminen kontaktille](marketing-mailing-groups.md) |
 
 ## <a name="see-also"></a>Katso myös

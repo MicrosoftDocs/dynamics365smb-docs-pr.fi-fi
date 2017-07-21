@@ -1,6 +1,6 @@
 ---
-title: Ostovelkojen hallinta| Microsoft Docs
-description: Ostovelkojen hallinta
+title: "Ostovelkojen hallintatehtävien yleiskatsaus| Microsoft Docs"
+description: "Tässä ohjeaiheessa käsitellään ostovelkojen hallintaan liittyviä tehtäviä, kuten maksamista velkojille tai laskujen tai hyvityslaskujen sulkemista kohdistamalla lähtevät maksut tapahtumiin."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 92b16c52589a07661d9ff080e9ef8a0f6be633f7
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 9684a91268927a4f1f4d249fef019c8f6ac00325
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -34,10 +34,12 @@ Seuraavassa taulukossa on ostoreskontran tehtäväsarja ja linkit tehtäviä kuv
 | Luo erääntyvät toimittajan maksut, jotka on priorisoitu maksualennusten ja erääntymismaksujen mukaan. Vaihtoehtoisesti voit viedä maksut pankkitiedostoon kirjaamisen yhteydessä. |[Maksujen suorittaminen](payables-make-payments.md) |
 | Kohdista toimittajan maksut automaattisesti maksamattomiin ostolaskuihin tuomalla pankin tiliotetiedosto. |[Maksujen kohdistaminen automaattisesti ja pankkitilien täsmäyttäminen](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
 | Kohdista toimittajan maksut maksamattomiin ostolaskuihin manuaalisesti. |[Toimintaohje: Toimittajamaksujen täsmäyttäminen manuaalisesti](payables-how-apply-purchase-transactions-manually.md) |
+|Varmista varaston oikea arvostus määrittämällä lisätyt nimikekulut, kuten nimikkeiden ostamisessa syntyvät rahti-, käsittely-, vakuutus- ja kuljetuskulut.|[Toimintaohje: Kaupan lisäkustannusten huomiointi nimikekulujen avulla](payables-how-assign-item-charges.md)|
 
 ## <a name="see-also"></a>Katso myös
 [Osto](purchasing-manage-purchasing.md)  
 [Myyntisaamisten hallinta](receivables-manage-receivables.md)  
+[Toimintaohje: Kaupan lisäkustannusten huomiointi nimikekulujen avulla](payables-how-assign-item-charges.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md)
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
 

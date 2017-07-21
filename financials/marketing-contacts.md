@@ -1,6 +1,6 @@
 ---
-title: Kontaktien luonti ja hallinta | Microsoft Docs
-description: "Tässä artikkelissa kerrotaan, miten kontakteja luodaan ja hallitaan Financialsissa"
+title: Yrityksen kontaktien luonti ja hallinta| Microsoft Docs
+description: "Voit määrittää kaikki ulkoiset yksiköt, joiden kanssa sinulla on liikesuhde, kontakteiksi. Kyse voi olla esimerkiksi prospekteista, asiakkaista, toimittajista ja konsulteista."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 4042cf76b6be433ad0a9934d0d1651d1df7ee433
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: c50bd4ae740c688761e7f5871b036633949add79
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -32,7 +32,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 | Toiminta | Katso |
 | --- | --- |
 | Määritä kontaktien hallinta ennen kontaktien lisäämistä. |[Kontaktien määrittämisen valmisteleminen](marketing-setup-contacts.md) |
-| Luo kontaktin kortti jokaiselle uudelle yritykselle, jonka kanssa yrityksesi on vuorovaikutuksessa (esimerkiksi asiakkaalle ja toimittajalle). |[Kontaktiyritysten luominen](marketing-create-contact-companies.md) |
+| Luo kontaktin kortti jokaiselle uudelle yritykselle, jonka kanssa yrityksesi on vuorovaikutuksessa (esimerkiksi asiakkaalle ja toimittajalle). |[Kontaktiyrityksen luominen](marketing-create-contact-companies.md) |
 | Luo kontaktin kortti jokaiselle sellaisessa yrityksessä työskentelevälle kontaktihenkilölle, jonka kanssa yrityksesi on vuorovaikutuksessa. |[Kontaktihenkilöiden luominen](marketing-create-contact-persons.md) |
 
 ## <a name="see-also"></a>Katso myös

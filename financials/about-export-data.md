@@ -1,6 +1,6 @@
 ---
-title: Tietojen vienti Exceliin Dynamics 365 for Financialsista | Microsoft Docs
-description: "Lue lisää tietojen viemisestä Dynamics 365 for Financialsista Exceliin."
+title: Taloushallinnon tietojen vieminen Exceliin | Microsoft Docs
+description: "Voit viedä tilinpäätökset ja liiketoimintatiedot Dynamics 365 for Financials -sovelluksesta Exceliin tai avata Financial-sovelluksen tiedot Excelissä."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
-ms.date: 02/22/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 94b2bbcd3db4b5071221b6f24e0f960355db3af1
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 054288659215df61a99564ab856bfb5f72ee7f39
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="exporting-your-data-to-excel-from-dynamics-365-for-financials"></a>Tietojen vienti Exceliin Dynamics 365 for Financialsista
+# <a name="exporting-your-business-data-to-excel"></a>Liiketoimintatietojen vienti Exceliin
 Jos haluat käsitellä [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietoja Excelissä, voit avata kaikki luettelot Excelissä ja käsitellä niitä siellä. Jos haluat vastaavasti peruuttaa [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]in tilauksen, voit viedä tiedot Exceliin, jotta ne ovat edelleen käytettävissä.
 
 ## <a name="opening-lists-in-excel"></a>Luetteloiden avaaminen Excelissä
@@ -60,12 +60,13 @@ Myös seuraavien sivujen tietojen vienti on suositeltavaa:
 * Kontaktit  
 * Myyjät  
 
-**Huomautus**: jos olet määrittänyt [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]iin useita yrityksiä, kunkin yrityksen kyseiset tiedot on vietävä.
+> [!NOTE]  
+>   Jos olet määrittänyt [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]iin useita yrityksiä, kunkin yrityksen kyseiset tiedot on vietävä.
 
 ## <a name="see-also"></a>Katso myös
-[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]in tilauksen peruuttaminen](madeira-cancel.md)  
-[Yritystietojen tuonti muista rahoitusjärjestelmistä] (upload-data.md)  
+[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]-tilauksen peruuttaminen](madeira-cancel.md)  
+[Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä](upload-data.md)  
 [Rahoitus](finance.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 

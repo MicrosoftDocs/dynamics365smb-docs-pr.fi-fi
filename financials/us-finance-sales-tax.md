@@ -1,6 +1,6 @@
 ---
-title: "Yhdysvaltojen ja Kanadan arvonlisävero ja veroryhmät | Microsoft Docs"
-description: "Lisätietoja siitä, miten arvonlisävero määritetään ja miten veroryhmiä, verotoimialueita ja verojen tietoja käsitellään."
+title: "Yhdysvaltojen ja Kanadan veroryhmien, -alueiden ja toimialueiden määrittäminen | Microsoft Docs"
+description: "Lisätietoja siitä, miten arvonlisävero määritetään ja miten veroryhmiä, veroalueita (osavaltioita, piirikuntia, kaupunkeja ja paikkakuntia) ja verojen tietoja käsitellään."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,14 +13,14 @@ ms.search.keywords: local
 ms.date: 03/29/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: ff1981a428a2cd3b3864b7f0cc795a1abeab7a10
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 763bb1b954b30734b0f81f121a6534c83442321a
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="sales-tax-and-tax-groups-in-the-us-and-canada"></a>Yhdysvaltojen ja Kanadan arvonlisävero ja veroryhmät
+# <a name="reporting-sales-tax-in-the-us-and-canada"></a>Myyntiveron ilmoittamien Yhdysvalloissa ja Kanadassa
 Kun aloitat [!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttämisen, voit määrittää arvonlisäverojen tiedot nopeasti ja helposti yritykselle, asiakkaille ja toimittajille avustetun asennusoppaan avulla. Muutamassa minuutissa voit aloittaa myynti- ja ostoasiakirjojen luomisen niin, että arvonlisävero lasketaan oikein. Lisätietoja on [blogiviestissämme](https://madeira.microsoft.com/blog/sales-tax-setup-made-easy).
 Jos siirryt tyhjään omaan yritykseen, aloita käyttämällä kutakin avustettua asennusopasta, myös arvonlisäveron asennusopasta. Tässä artikkelissa kerrotaan, mitä arvonlisäveron määrittämisessä tulee ottaa huomioon, jos haluat määrittää arvonlisäveron itse.  
 
@@ -43,5 +43,5 @@ Kun Yhdysvalloissa myynti asiakkaalle tapahtuu paikassa, jolla ei ole *situs*-ar
 [Rahoituksen määrittäminen](finance-setup-finance.md)  
 [Kanadan arvonlisävero](ca-finance-tax.md)  
 [Helposti suoritettava arvonlisäveron määrittäminen](https://madeira.microsoft.com/blog/sales-tax-setup-made-easy)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 

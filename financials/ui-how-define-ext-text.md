@@ -1,6 +1,6 @@
 ---
-title: "Toimintaohje: Laajennetun nimiketekstin määrittäminen | Microsoft Docs"
-description: "Tässä artikkelissa kerrotaan lisätekstistä"
+title: "Nimikkeen kuvauksen laajennetun tekstin määrittäminen ylimääräisiä rivejä lisäämällä | Microsoft Docs"
+description: "Voit laajentaa nimikkeen kuvauksena käytettävää vakiotekstiä lisäämällä ylimääräisiä rivejä."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -12,10 +12,10 @@ ms.workload: na
 ms.date: 01/16/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 6974e57f7969fa41731d59ffd12ad6c4a3af35eb
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 147ce327e3a30f27166fb44226fa60c1e15721c4
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -33,6 +33,6 @@ Voit laajentaa nimikkeiden vakiotekstiä lisärivein ja määrittää lisärivie
 8. Sulje ikkuna.
 
 ## <a name="see-also"></a>Katso myös
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md)
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
 
 

@@ -1,6 +1,6 @@
 ---
-title: "Kontaktien vastuualueiden määrittäminen | Microsoft Docs"
-description: "Tässä artikkelissa kerrotaan kontaktien vastuualueista Financialsissa"
+title: "Kontaktien vastuualueiden määrittäminen| Microsoft Docs"
+description: "Voit määrittää vastuualueen koodin ja määrittää sen sitten kontaktille ilmaisemaan tehtävät, joista kontakti vastaa omassa yrityksessään. Vastuualueena voi olla esimerkiksi IT tai tuotanto."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,25 +10,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, to-do, relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 610ae314502e60b959f0e2ff705a48b936d79d68
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: fd949573e7bfd1b6ce1fc849625a1a3474013f96
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="setting-up-job-responsibilities-for-contact-persons"></a>Kontaktihenkilöiden vastuualueiden määrittäminen
+# <a name="how-to-set-up-job-responsibilities-for-contact-persons"></a>Toimintaohje: Kontaktihenkilöiden vastuualueiden määrittäminen
 Voit lisätä kontaktihenkilöiden vastuualueiden tietoja, kun haluat osoittaa, mistä kontaktihenkilö vastaa yrityksessä (esimerkiksi IT, hallinto tai tuotanto). Voit käyttää näitä tietoja kontaktien tietojen syöttämisessä.
 
 Kontaktien vastuualueiden käyttäminen on kaksivaiheinen prosessi. Ensin määritetään vastuualueen koodi. Tämä vaihe suoritetaan vain kerran jokaiselle vastuualueelle. Kun vastuualueen koodi on määritetty, voit aloittaa koodin liittämisen kontaktihenkilöille.
 
-## <a name="tp-define-a-job-responsibility-code"></a>vastuualueen koodin määrittäminen
+## <a name="to-define-a-job-responsibility-code"></a>vastuualueen koodin määrittäminen
 Vastuualueen koodi määrittää työn tyypin tai luokan. Se voi olla esimerkiksi MARKKINOINTI tai OSTO. Vastuualueen koodeja voi olla useita. Voit määrittää vastuualueen **Vastuualueet**-ikkunassa.
 
-1. Valitse oikeassa yläkulmassa **Etsi sivua tai raporttia** -kuvake ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake"), kirjoita **Vastuualueet** ja valitse sitten liittyvä linkki.
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Vastuualueet** ja valitse sitten aiheeseen liittyvä linkki.
 2. Valitse **Uusi**-toiminto. Täytä sitten koodi ja kuvaus. Koodi voi olla enintään 11 merkkiä pitkä. Se voi sisältää numeroita ja kirjaimia.
 
 ## <a name="to-assign-job-responsibilities-to-a-contact-person"></a>vastuualueiden määrittäminen kontaktihenkilöihin

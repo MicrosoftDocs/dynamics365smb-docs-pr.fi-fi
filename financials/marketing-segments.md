@@ -1,6 +1,6 @@
 ---
-title: Segmenttien hallinta | Microsoft Docs
-description: "Tässä artikkelissa käsitellään kontaktien segmenttejä Financialsiassa"
+title: "Segmenttien hallinta ja sisällytettävien kontaktien valitseminen| Microsoft Docs"
+description: "Tässä ohjeaiheessa kerrotaan tehtävistä, joilla luodaan kontaktiryhmät tiettyjen ehtojen mukaan valitseva segmentti. Kyse voi olla esimerkiksi tietyn kohdetoimialan kontaktit."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 430199404ebab6d72f2f7748bb90e5ed3cd223c4
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 2ca2e771e4f7ec141cd152e1f643efad2db1b7dc
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -34,10 +34,10 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 | --- | --- |
 | Luo segmentit, joiden avulla voit valita kontaktiryhmän (esimerkiksi suoramainos). Tällainen on esimerkiksi suoramainos. |[Segmenttien luominen](marketing-how-create-segment.md) |
 | Hallitse segmentteihin liitettyjä kontakteja. |[Toimintaohje: Kontaktien lisääminen segmentteihin](marketing-add-contact-segment.md) |
-| Lisätietoja vuorovaikutusten ja segmenttien sekä lokiin kirjaamisen käyttämisestä. |[Vuorovaikutus ja segmentit](marketing-interaction-segments.md) |
+| Lisätietoja vuorovaikutusten ja segmenttien sekä lokiin kirjaamisen käyttämisestä. |[Vuorovaikutuksen ja segmenttien hallinta](marketing-interaction-segments.md) |
 
 ## <a name="see-also"></a>Katso myös
 [Myyntimahdollisuuksien hallinta](marketing-manage-sales-opportunities.md)  
 [Kontaktien hallinta](marketing-contacts.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md)
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
 

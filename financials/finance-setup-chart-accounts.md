@@ -1,6 +1,6 @@
 ---
 title: "Tilikartan määrittäminen| Microsoft Docs"
-description: "Tässä artikkelissa kerrotaan, miten tilikarttaa muutetaan."
+description: "Voit muuttaa tilikartan oletustilejä ja lisätä uusia tilejä."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: COA, cha of acc
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 48202a9e9a763dcb22bed9975aa9c4a39d2dc4ae
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: ceb01999525139cabc7c31e2304f738dcc9267f8
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -27,7 +27,8 @@ Voit kuitenkin muuttaa oletustilejä ja lisätä uusia tilejä.
 ## <a name="adding-or-changing-accounts"></a>Tilien lisääminen tai muuttaminen
 Voit avata kunkin tilin KP-tilin tilikartasta ja lisätä tai muuttaa asetuksia.
 
-**Huomautus**: Voit poistaa pääkirjanpitotilin. Ennen sen poistamista seuraavien on kuitenkin toteuduttava:  
+> [!NOTE]  
+>   Voit poistaa pääkirjanpitotilin. Ennen sen poistamista seuraavien on kuitenkin toteuduttava:  
 
 * Tilin saldon tulee olla nolla.  
 * **Salli KP-tilin poisto ennen** -kenttä on määritettävä **Pääkirjanpidon asetukset** -ikkunassa. Tilillä ei saa olla tapahtumakirjauksia kyseisenä päivänä tai sen jälkeen.  
@@ -38,9 +39,9 @@ Voit avata kunkin tilin KP-tilin tilikartasta ja lisätä tai muuttaa asetuksia.
 ## <a name="see-also"></a>Katso myös
 [Pääkirjanpito ja tilikartta](finance-general-ledger.md)  
 [Pankkitilien hallinta](bank-manage-bank-accounts.md)  
-[Dimensiot](finance-dimensions.md)  
+[Dimensioiden käyttäminen](finance-dimensions.md)  
 [Tuominen muista rahoitusjärjestelmistä](upload-data.md)  
 [Toimintaohje: Kanadan GIFI-koodien käyttäminen](ca-finance-work-gifi-codes.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

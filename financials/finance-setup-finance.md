@@ -1,6 +1,6 @@
 ---
-title: "Rahoituksen määrittäminen| Microsoft Docs"
-description: "Rahoituksen määrittäminen"
+title: "Talousprosessien määrittäminen| Microsoft Docs"
+description: "Lisätietoja tehtävistä, joilla määritetään liiketoiminnan taloushallinto laskentatoimen, tilintarkastuksen tai kirjanpidon tarpeita varten."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 04/27/2017
+ms.date: 06/07/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 87b4f85333fdf1660493f2a77009f0c763f03d59
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 52fd9ae967dab9c6f90733e1ea25b6c875374243
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -27,21 +27,21 @@ Tietyt asiat on kuitenkin määritettävä itse. Esimerkki: haluat käyttää di
 
 Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisiin.
 
-| Toiminta | Katso |
+| Vastaanottaja | Katso |
 | --- | --- |
-| Valitse, miten maksat toimittajille. |[Maksutavat](finance-payment-methods.md) |
+| Valitse, miten maksat toimittajille. |[Maksutapojen määrittäminen](finance-payment-methods.md) |
+| Määritä kirjausryhmät, jotka yhdistävät objektit, kuten asiakkaat, toimittajat, nimikkeet, resurssit sekä myynti- ja ostoasiakirjat, pääkirjanpidon tileille. |[Kirjausryhmien määrittäminen](finance-posting-groups.md)|
 | Määritä tilikaudet. |[Toimintaohje: Uuden tilikauden avaaminen](finance-how-open-new-fiscal-year.md) |
-| Määritä tai päivitä lisävaluutat, jos yritys on mukana kansainvälisessä kaupassa. |[Toimintaohje: Valuutan vaihtokurssien päivittäminen](finance-how-update-currencies.md) |
-| Määritä yksilölliset tunnuskoodit. |[Numerosarjojen luominen](ui-create-number-series.md) |
-| Lisää dimensioita, kun haluat saada käyttöön monipuolisempia liiketoimintatietoja. |[Dimensioiden määrittäminen](finance-setup-dimensions.md) |
+| Määritä, miten myynnistä kerätyt arvonlisäverosummat raportoidaan veroviranomaisille. |[ALV:n raportointi veroviranomaisille](finance-how-report-vat.md)|
+| Määritä, miten lisävaluutat päivitetään, jos yritys on mukana kansainvälisessä kaupassa. |[Toimintaohje: Valuutan vaihtokurssien päivittäminen](finance-how-update-currencies.md) |
 | Lisää aiemmin luotuun tilikarttaan uusia tilejä. |[Tilikartan määrittäminen](finance-setup-chart-accounts.md) |
 | Määritä BI-kaaviot analysoimaan kassavirtaa. |[Kassavirta-analyysin määrittäminen](finance-setup-cash-flow-analyses.md) |
 
 ## <a name="see-also"></a>Katso myös
 [Pankkitilien hallinta](bank-manage-bank-accounts.md)  
-[Dimensiot](finance-dimensions.md)  
+[Dimensioiden käyttäminen](finance-dimensions.md)  
 [Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä](upload-data.md)  
 [Yrityksen kassavirran analysoiminen](finance-analyze-cash-flow.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

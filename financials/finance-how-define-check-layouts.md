@@ -1,6 +1,6 @@
 ---
-title: "Toimintaohje: Sekkien asetteluiden määrittäminen| Microsoft Docs"
-description: "Lisätietoja Financialsiin sisältyvistä sekkien asetteluista."
+title: "Sekin asettelun määrittäminen| Microsoft Docs"
+description: Voit suunnitella ja tulostaa sekkisi eri muodoissa standardinmukaisia vaatimuksia noudattaen.
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, customize
-ms.date: 03/24/2017
+ms.date: 06/15/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 6081b6d09fa75b868138817442d6df4d9a8d0d7f
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: a2db2860846cd9b8010222faf580f0c9889e39a4
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -26,7 +26,7 @@ Voit suunnitella omat sekit, joiden avulla pystyt noudattamaan paikallisten vira
 Sekit suunnitellaan tulostettavaksi sekä Yhdysvaltojen että Kanadan sekkikuvamuodoissa joko muodossa sekki-talonki-sekki tai talonki-talonki-sekki.
 
 ## <a name="to-define-check-layouts"></a>Sekkien asetteluiden määrittäminen
-1. Valitse oikeassa yläkulmassa **Etsi sivua tai raporttia** -kuvake ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake"), kirjoita **Raporttivalintojen pankkitili** ja valitse sitten liittyvä linkki.
+1. Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Raporttivalintojen pankkitili** ja valitse sitten aiheeseen liittyvä linkki.
 2. Valitse **Raporttivalinta - Pankkitili** -ikkunan **Käyttö**-kentässä **Sekki**.
 3. Valitse jompikumpi seuraavista raportin tunnuksista:
 
@@ -42,6 +42,6 @@ Kun olet määrittänyt sekkien asettelut, voit tulostaa sekit **Maksupäiväkir
 [Ostovelkojen hallinta](payables-manage-payables.md)  
 [Pankkitilien hallinta](bank-manage-bank-accounts.md)   
 [Kauden lopun prosessien viimeisteleminen](year-how-complete-period-end-processes.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)
 

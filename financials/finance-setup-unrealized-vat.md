@@ -13,10 +13,10 @@ ms.search.keywords: cash, VAT, unrealized, cash-based
 ms.date: 04/20/2017
 ms.author: bholtorf
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: f87da12abcd2fd513a1579dd9362159687baaab8
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: c22e17c931fcb262abe2d2059af89ec6f930ecb5
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -28,7 +28,7 @@ Jos käytät kassaperusteista kirjanpitoa, voit määrittää [!INCLUDE[d365fin_
 ALV-summat voidaan laskea ja kirjata väliaikaiselle kirjanpitotilille laskun kirjaamisen yhteydessä. Sen jälkeen ne voidaan kirjata oikealle kirjanpitotilille ja sisällyttää ALV-ilmoituksiin laskun maksun kirjaamisen yhteydessä. Ennen sitä sinun täytyy määrittää ALV-kirjausasetukset.
 
 Käytä ei-realisoituneen arvonlisäveron tilejä seuraavasti:
-1. Valitse oikeassa yläkulmassa **Etsi sivua tai raporttia** -kuvake ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") ja kirjoita **Pääkirjanpidon asetukset**. 
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake ja anna **Pääkirjanpidon asetukset**. 
 2. Valitse **Pääkirjanpidon asetukset** -sivun **Yleiset**-pikavälilehdessä **Näytä lisää** ja valitse sitten **Ei-realisoitunut ALV** -valintaruutu.
 3. Sulje sivu.
 4. Valitse **Etsi sivua tai raporttia** -kuvake ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") ja kirjoita **ALV-kirjausten asetukset**. 
@@ -46,10 +46,12 @@ Käytä ei-realisoituneen arvonlisäveron tilejä seuraavasti:
 
 6. Valitse myynnin ei-realisoituneen ALV:n tili **Ei-real. myynti-ALV:n tili** -kentässä.
 
-    **Huomautus**: ALV-summa kirjataan tälle tilille, jossa se on asiakkaan maksun kirjaamisen saakka. Summa siirretään sitten myynnin ALV-tilille.
+    > [!NOTE]  
+>   ALV-summa kirjataan tälle tilille, jossa se on asiakkaan maksun kirjaamisen saakka. Summa siirretään sitten myynnin ALV-tilille.
 7. Määritä ostojen ei-realisoituneen ALV:n KP-tili **Ostojen ei-realis. ALV:n tili** -kentässä.
 
-    **Huomautus**: ALV-summa kirjataan tälle tilille, jossa se on asiakkaan maksun kirjaamisen saakka. Summa siirretään sitten myynnin ALV-tilille.
+    > [!NOTE]  
+>   ALV-summa kirjataan tälle tilille, jossa se on asiakkaan maksun kirjaamisen saakka. Summa siirretään sitten myynnin ALV-tilille.
 
 ## <a name="see-also"></a>Katso myös
 [Arvolisäveron määrittäminen](finance-setup-vat.md)

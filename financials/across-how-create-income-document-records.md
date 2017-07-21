@@ -1,6 +1,6 @@
 ---
-title: 'Toimintaohje: Saapuvien asiakirjatietueiden luominen| Microsoft Docs'
-description: 'Toimintaohje: Saapuvien asiakirjatietueiden luominen'
+title: Tietueiden luominen saapuvista asiakirjoista| Microsoft Docs
+description: "Voit luoda tietueita saapuvista asiakirjoista, kuten sähköisistä laskuista, ja hallita OCR-tehtäviä, sähköistä kaupankäyntiä ja asiakirjojen vaihtopalvelua."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 05/12/2016
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 38ea48e8a948df0fc3894e91d8393d2d14b2fd5a
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 36e1acc3125e325a9fca8fdd9ce797ac50c065c1
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -30,13 +30,14 @@ Ennen kuin voit käyttää Saapuvat asiakirjat -ominaisuutta, sinun on tehtävä
 ## <a name="to-approve-or-reject-an-incoming-document"></a>Saapuvan asiakirjan hyväksyminen tai hylkääminen
 Jos haluat, että käyttäjät voivat luoda laskuja tai yleisen päiväkirjan rivejä saapuvista asiakirjatietueista vasta, kun ne on hyväksytty, voit määrittää hyväksyjät, joiden on hyväksyttävä tietueet ennen niiden käsittelyä.
 
-1. Valitse oikeassa yläkulmassa **Etsi sivua tai raporttia** -kuvake ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake"), kirjoita **Saapuvat asiakirjat** ja valitse sitten liittyvä linkki.
+1. Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Saapuvat asiakirjat** ja valitse sitten aiheeseen liittyvä linkki.
 2. Valitse rivi, jolla hyväksyttävä tai hylättävä asiakirja on, ja valitse sitten **Hyväksy**- tai **Hylkää**-toiminto.
 
 Jos hyväksyt saapuvan asiakirjatietueen, saapuvan asiakirjan rivin **Vapautettu**-valintaruutu on valittuna. Esimerkiksi ostolaskujen luonnista vastaava henkilö voi nyt aloittaa tietueen käsittelemisen.
 
 ## <a name="to-create-an-incoming-document-record-by-taking-a-photo"></a>Saapuvien asiakirjatietueiden luominen valokuva ottamalla
-**Huomautus**: seuraavat toimet koskevat vain [!INCLUDE[d365fin](includes/d365fin_md.md)]in tabletti- ja puhelinasiakasohjelmia.
+> [!NOTE]  
+>   Seuraavat toimet koskevat vain [!INCLUDE[d365fin](includes/d365fin_md.md)]in tabletti- ja puhelinasiakasohjelmia.
 
 1. Valitse sovellusriviltä **luo saapuva asiakirja kamerasta** ruutu ja siirry sitten vaiheeseen 4.
 2. Voit myös valita sovellusrivin, valita asetukset-painikkeen, valita **saapuvat asiakirjat**, ja valita sitten **kaikki**.
@@ -46,7 +47,8 @@ Jos hyväksyt saapuvan asiakirjatietueen, saapuvan asiakirjan rivin **Vapautettu
 Luo uuden saapuvan asiakirjan tietueen ja liittää kuvan.
 
 ## <a name="to-attach-an-image-to-an-incoming-document-record-by-taking-a-photo"></a>Kuvan liittäminen saapuvien asiakirjatietueiden tietueeseen valokuva ottamalla
-**Huomautus**: seuraavat toimet koskevat vain [!INCLUDE[d365fin](includes/d365fin_md.md)]in tabletti- ja puhelinasiakasohjelmia.
+> [!NOTE]  
+>   Seuraavat toimet koskevat vain [!INCLUDE[d365fin](includes/d365fin_md.md)]in tabletti- ja puhelinasiakasohjelmia.
 
 1. Voit valita sovellusrivin, valita asetukset-painikkeen, valita **saapuvat asiakirjat**, ja valita sitten **kaikki**.
 2. Avaa aiemmin luotu saapuvan asiakirjan tietue kortti.
@@ -56,7 +58,7 @@ Luo uuden saapuvan asiakirjan tietueen ja liittää kuvan.
 Kuva liitetään saapuvan asiakirjan tietueeseen.
 
 ## <a name="to-create-an-incoming-document-record-manually"></a>Saapuvan asiakirjatietueen luominen manuaalisesti
-1. Valitse oikeassa yläkulmassa **Etsi sivua tai raporttia** -kuvake ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake"), kirjoita **Saapuvat asiakirjat** ja valitse sitten liittyvä linkki.
+1. Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Saapuvat asiakirjat** ja valitse sitten aiheeseen liittyvä linkki.
 2. Valitse **Luo tiedostosta** -toiminto.  
 3. **Lisää tiedosto** -ikkunassa valitse tiedosto ja valitse sitten **Avaa**.
 
@@ -70,5 +72,5 @@ Kuva liitetään saapuvan asiakirjan tietueeseen.
 [Saapuvien asiakirjojen käsitteleminen](across-process-income-documents.md)  
 [Saapuvat asiakirjat](across-income-documents.md)  
 [Osto](purchasing-manage-purchasing.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md)
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
 

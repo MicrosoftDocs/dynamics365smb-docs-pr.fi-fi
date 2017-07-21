@@ -1,6 +1,6 @@
 ---
-title: "Tilinpäätöslaskelmien valmisteleminen| Microsoft Docs"
-description: "Tässä artikkelissa on niiden raporttien yleiskuvaus, jotka ovat hyödyllisiä vuoden sulkemisen yhteydessä."
+title: "Tilinpäätöslaskelmien valmistelua helpottavien raporttien yleiskatsaus | Microsoft Docs"
+description: "Tässä ohjeaiheessa on yleiskatsaus raporteista, joilla kerätään tietoja yrityksen tilinpäätöslaskelmien laatimista varten tilikautta suljettaessa."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI
-ms.date: 03/21/2017
+ms.date: 06/02/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 2979ac7aa3013b3c7ee70a557db0cc581d546624
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 9070d8d1454b43ccfc25276ac679c099b9e809ab
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -35,9 +35,10 @@ Seuraavassa taulukossa on luettelo raporteista, jotka voivat olla hyödyksi näi
 | KP-raporttimallin tulostaminen kirjanpitotilien lukujen analysoimista varten tai todellisten pääkirjanpidon tapahtumien vertaamiseksi pääkirjanpidon budjettitapahtumiin. |KP-raporttimalli |
 | Tarkistaminen, täsmäävätkö asiakas- ja toimittajatapahtumat vastaavien pääkirjanpidon tapahtumien kanssa. |Täsm. asiak.- ja toim.tilit |
 
-Jos haluat nähdä raportin, valitse oikeassa yläkulmassa **Etsi sivua tai raporttia** -kuvake ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake"), kirjoita nimi siinä muodossa kuin se näkyy taulukossa, ja valitse sitten liittyvä linkki.
+Voit avata raportin valitsemalla ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") -kuvake, kirjoita nimi sellaisena kuin se näkyy taulukossa ja valitse aiheeseen liittyvä linkki.
 
 ## <a name="see-also"></a>Katso myös
-[Vuosien ja kausien sulkeminen](year-close-years-periods.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md)
+[Vuosien ja jaksojen sulkeminen](year-close-years-periods.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[Business Intelligence](bi.md)
 

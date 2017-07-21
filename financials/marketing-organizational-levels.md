@@ -1,6 +1,6 @@
 ---
-title: "Kontaktihenkilöiden organisaatiotasojen määrittäminen | Microsoft Docs"
-description: "Tässä artikkelissa kerrotaan Financialsin kontaktien organisaatiotasoista"
+title: "Kontaktihenkilöiden organisaatiotasojen määrittäminen| Microsoft Docs"
+description: "Voit määrittää organisaatiotason, ja kun se on määritetty kontaktille, voit ilmaista sen avulla, mikä on kontaktin asema yrityksessä (esimerkiksi ylin johto)."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, client, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: bde26a2d5fcb7ec10dcd70fdd30c74893bcb34d5
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 927c27998bfaeb8d7247158cde1d1eb958a6911f
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="setting-up-organizational-levels-for-contact-persons"></a>Kontaktihenkilöiden organisaatiotasojen määrittäminen
+# <a name="how-to-set-up-organizational-levels-for-contact-persons"></a>Toimintaohje: Kontaktihenkilöiden organisaatiotasojen määrittäminen
 Voit käyttää kontakteissa organisaatiotasoja (esimerkiksi ylin johto) kun haluat määrittää, missä asemassa he ovat yrityksessä. Voit käyttää näitä tietoja kontaktien tietojen syöttämisessä.
 
 Kontaktien organisaatiotasojen käyttäminen on kaksivaiheinen prosessi. Ensin määritetään organisaatiotason koodi. Tämä vaihe suoritetaan vain kerran jokaiselle organisaatiotasolle. Kun organisaation koodi on määritetty, voit aloittaa koodin liittämisen kontaktihenkilöille.
@@ -28,7 +28,7 @@ Kontaktien organisaatiotasojen käyttäminen on kaksivaiheinen prosessi. Ensin m
 ## <a name="to-define-an-organizational-level-code"></a>organisaatiotason koodin määrittäminen
 Organisaatontason koodi määrittää organisaatiotason tyypin tai luokan. Se voi olla esimerkiksi TOIMITUSJOHTAJA tai TALOUSJOHTAJA. Organisaatiotason koodeja voi olla useita. Voit määrittää organisaatiotason **Organisaatiotasot**-ikkunan avulla.
 
-1. Valitse oikeassa yläkulmassa **Etsi sivua tai raporttia** -kuvake ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake"), kirjoita **Organisaation tasot** ja valitse sitten liittyvä linkki.
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Organisaatiotasot** ja valitse sitten aiheeseen liittyvä linkki.
 2. Valitse **Uusi**-toiminto. Täytä sitten koodi ja kuvaus. Koodi voi olla enintään 11 merkkiä pitkä. Se voi sisältää numeroita ja kirjaimia.
 
 ## <a name="to-assign-organizational-levels-to-a-contact-person"></a>organisaatiotasojen liittäminen kontaktihenkilölle
@@ -44,5 +44,5 @@ Kun olet liittänyt vastuualueita kontakteihisi, voit käyttää näitä tietoja
 ## <a name="see-also"></a>Katso myös
 [Kontaktiyrityksen luominen](marketing-create-contact-companies.md)  
 [Kontaktihenkilöiden luominen](marketing-create-contact-persons.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 

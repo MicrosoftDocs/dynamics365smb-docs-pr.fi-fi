@@ -1,6 +1,6 @@
 ---
-title: "Power BI:n Dynamics 365 for Financials -sisältöpaketit | Microsoft Docs"
-description: "Lisätietojen hakeminen Financialsin tietoihin on helppoa Power BI- ja Financials-sisältöpakettien avulla."
+title: "Dynamics 365 for Financials ja Power BI:n sisältöpaketit| Microsoft Docs"
+description: "Analyysitietojen, liiketoimintatietoja ja tunnuslukujen hakeminen Financials-tiedoista on helppoa Power BI- ja Financials-sisältöpakettien avulla."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 70e3e166f344d373750c969bd5816a8e67589e53
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 537effab2f406d619c5000efad12754db678e8b8
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -30,7 +30,8 @@ Sisältöpaketit on määritetty etukäteen niin, että niitä voidaan käyttä�
 * Kiinnitä tämä mukautettu näkymä koontinäyttöön, kun haluat jatkaa seuraamista.  
   Koontinäyttö ja perustana olevat raportit päivitetään päivittäin. Voit hallita päivitysaikataulua ja muokata tietojoukon esiintymistiheyttä.  
 
-**Huomautus**: Voit myös luoda omia raportteja ja koontinäyttöjä Power BI:ssä [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietojen perusteella. Lisätietoja on kohdassa [Dynamics 365 for Financialsin käyttäminen Power BI:n tietolähteenä](across-how-use-financials-data-source-powerbi.md).  
+> [!NOTE]  
+>   Voit myös luoda omia raportteja ja koontinäyttöjä Power BI:ssä [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietojen perusteella. Lisätietoja on ohjeaiheessa [Liiketoimintatietojen yhdistäminen Power BI:hin](across-how-use-financials-data-source-powerbi.md).  
 
 ## <a name="accessing-included365finincludesd365finmdmd-in-power-bi"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen Power BI:ssä
 Voit tarkastella [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietoja Power BI:ssä, kun seuraavat vaatimukset toteutuvat:  
@@ -74,7 +75,8 @@ Voit etsiä nämä tiedot etsimällä [!INCLUDE[d365fin](includes/d365fin_md.md)
 * SalesOrdersBySalesPerson  
 * TopCustomerOverview  
 
-**Huomautus**: Jos muutat näiden WWW-palveluiden nimet, tiedot eivät näy Power BI:ssä.  
+> [!NOTE]  
+>   Jos muutat näiden verkkopalveluiden nimet, tiedot eivät näy Power BI:ssä.  
 Jos haluat lisätä muiden tietojen käytön Power BI:ssä, etsi taulukot [!INCLUDE[d365fin](includes/d365fin_md.md)]ista, näytä ne verkkopalveluina ja lisää ne sisältöpakettiin. Tämä on lisäskenaario. Suosittelemme, että aloitat käsittelemisen Power BI:n valmiilla tiedoilla.  
 
 ## <a name="troubleshooting"></a>Vianetsintä
@@ -98,7 +100,8 @@ Jos näyttöön tulee sisäänkirjautumisen epäonnistumista ilmoittava virhe, k
     Tarkista [!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäjätili ja varmista, että olet käyttänyt oikeaa verkkopalvelun käyttöoikeusavainta salasanana. Yritä tämän jälkeen uudelleen.  
 * [!INCLUDE[d365fin](includes/d365fin_md.md)]in ilmentymällä, johon yrität muodostaa yhteyden, ei ole sallittua SSL-varmennetta. Tällöin näyttöön tulee eritellympi virhesanoma ("luotetun SSL-suhteen muodostaminen ei onnistu").
 
-    **Huomautus**: Itse allekirjoitettuja varmenteita ei tueta.  
+    > [!NOTE]  
+>   Itse allekirjoitettuja varmenteita ei tueta.  
 
 **"Jokin meni vikaan"**  
 Jos näet "Jokin meni vikaan" -virhevalintaikkunan sen jälkeen, kun todentamisvalintaikkuna on ohitettu, syy on todennäköisesti ongelma muodostettaessa yhteyttä sisältöpaketin tietoihin.
@@ -114,9 +117,9 @@ Jos näet "Jokin meni vikaan" -virhevalintaikkunan sen jälkeen, kun todentamisv
     https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/  
 
 ## <a name="see-also"></a>Katso myös
-[Tervetuloa [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]iin](index.md)  
-[Yritystietojen siirto muista rahoitusjärjestelmistä] (upload-data.md)  
-[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]in käyttäminen Power BI:n tietolähteenä](across-how-use-financials-data-source-powerbi.md)  
+[Tervetuloa [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]iin!](index.md)  
+[Liiketoiminnan tietojen siirtäminen muista rahoitusjärjestelmistä](upload-data.md)  
+[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]in käyttäminen Power BI -tietolähteenä](across-how-use-financials-data-source-powerbi.md)  
 [[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]in käyttäminen PowerApps-tietolähteenä](across-how-use-financials-data-source-powerapps.md)  
 [[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]in käyttäminen Microsoft Flow'ssa](across-how-use-financials-data-source-flow.md)  
 

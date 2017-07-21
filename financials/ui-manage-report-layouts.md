@@ -1,6 +1,6 @@
 ---
-title: Raporttiasetteluiden hallinta | Microsoft Docs
-description: "Lisätietoja raporttiasetteluista."
+title: "Raporttien ja asiakirjojen mukautettujen ja valmiiden asettelujen käyttäminen | Microsoft Docs"
+description: "Voit mukauttaa asiakirjoja raporttiasettelujen avulla. Voit muokata tällä tavoin asiakkaille lähetettävien PDF-tiedostojen fonttia, logoa tai sivuasetuksia."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -13,17 +13,18 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: e221f5264190a90e04132ed4326afe2cf8364164
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 9c4c3b743d705913eaacbfd4b0e2df854f777c1c
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="managing-report-and-document-layouts"></a>Raporttien ja asiakirjojen asettelujen hallinta
 Raporttiasettelu ohjaa raportin sisältöä ja muotoa, mukaan lukien, mitkä tietojen kentät näkyvät raportissa ja miten ne järjestetään, tekstityylin, kuvia ja muita ominaisuuksia. Voit luoda [!INCLUDE[d365fin](includes/d365fin_md.md)]ista uuden asettelun, muuttaa raportissa käytettävää asettelua tai muokata nykyisiä asetteluja.
 
-**Huomautus**: Raportti tarkoittaa [!INCLUDE[d365fin](includes/d365fin_md.md)]issa myös ulkoisille käyttäjille tarkoitettuja asiakirjoja, kuten myyntilaskuja tai tilausvahvistuksia, jotka lähetetään asiakkaille PDF-tiedostoina.
+> [!NOTE]  
+>   Raportti tarkoittaa [!INCLUDE[d365fin](includes/d365fin_md.md)]issa myös ulkoisille käyttäjille tarkoitettuja asiakirjoja, kuten myyntilaskuja tai tilausvahvistuksia, jotka lähetetään asiakkaille PDF-tiedostoina.
 
 Erityisesti raporttiasettelu määrittää seuraavat asetukset:
 
@@ -57,7 +58,7 @@ Word- ja RDLC-raporttiasetteluiden asettaminen toimii samalla tavalla. Tärkein 
 Lisätietoja näytettävän asettelun vaihtamisesta on kohdassa [Toimintaohje: Raportissa tällä hetkellä käytettävän asettelun muuttaminen](ui-how-change-layout-currently-used-report.md)
 
 ## <a name="see-also"></a>Katso myös
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Toimintaohje: Raportin tai asiakirjan mukautetun asettelun luominen](ui-how-create-custom-report-layout.md)  
 [Toimintaohje: Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md)
 

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 04/27/2017
-ms.author: jswymer
+ms.date: 06/02/2017
+ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 0e3d1a290a541cdf9289bd607b70abc21f9c8120
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 1a7fbf443c6fb3f9276e3f6a5d3ea196b7fb2cb7
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -33,16 +33,17 @@ Käteviä vihjeitä on seuraavissa kohdissa:
 * [Suodattimien määrittäminen](ui-enter-criteria-filters.md)  
 * [Luettelon tietojen lajitteleminen](ui-sorting.md)  
 
-Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md).  
+Lisätietoja on aiheessa [[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md).  
 
 Kun olet valmis aloittamaan vakavamman käytön ja haluat tutustua tiettyihin [!INCLUDE[d365fin](includes/d365fin_md.md)]in tukemiin liiketoimintaprosesseihin, lisätietoja on kohdassa [Liiketoiminnan toiminnallisuus](madeira-business-functionality.md). Yleiskatsaus nykyisistä ja tulevista toiminnoista on sivustossa [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68).  
 
 ## <a name="the-home-pages"></a>Aloitussivut
 Aloitussivujen roolikeskeisen rakenteen ansiosta voit käyttää nopeasti työssä tarvittavia liiketoimintaprosesseja ja BI-työkaluja. Kirjanpitäjä voi esimerkiksi seurata maksuja ja hyväksymisiä sekä tarkastella rahoituksen suorituskykykaavioita. Tutustu erilaisiin aloitussivuihin valitsemalla oikeassa yläkulmassa **Asetukset**-kuvake ![Asetukset](media/ui-experience/settings_icon_small.png "Roolikeskuksen Asetukset-kuvake"). Valitse sitten **Omat asetukset** ja lopuksi roolikeskus, johon haluat tutustua. Ota muutos käyttöön kirjautumalla uudelleen sisään. Lisätietoja on kohdassa [Roolikeskuksen vaihtaminen](change-role.md).  
 
-Jokaisella aloitussivulla on **Asennus ja laajennukset** -painike. Saat käyttöösi luettelon avustetuista asennuksista, joiden avulla pääset alkuun määrittämällä valitut alueet nopeasti. Jos alueella ei ole avustettua asennusta, valitse **Manuaalinen asennus** -toiminto. Pääset tällä tavoin ikkunoihin, joissa voit täyttää kaikkien alueiden asennuskentät manuaalisesti. Lisätietoja on myös kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittäminen](setup.md).  
+Jokaisella aloitussivulla on **Asennus ja laajennukset** -painike. Saat käyttöösi luettelon avustetuista asennuksista, joiden avulla pääset alkuun määrittämällä valitut alueet nopeasti. Jos alueella ei ole avustettua asennusta, valitse **Manuaalinen asennus** -toiminto. Pääset tällä tavoin ikkunoihin, joissa voit täyttää kaikkien alueiden asennuskentät manuaalisesti. Lisätietoja on myös ohjeaiheessa [[!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittäminen ](setup.md)  
 
-**Huomautus:** Käytettävissä olevien asennusoppaiden, laajennusten ja palvelujen luettelo vaihtelee yritykselle valitun käyttäjäkokemuksen mukaan. **Perus**-kokemuksen valikoima on suppeampi kuin **Ohjelmistopaketti**-kokemuksen valikoima. Ensimmäiselle kirjautumiskerralla käytössä on Perus-kokemus. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)]-kokemuksen mukauttaminen](ui-experiences.md).  
+> [!NOTE]  
+>   Käytettävissä olevien asennusoppaiden, laajennusten ja palvelujen luettelo vaihtelee yritykselle valitun käyttäjäkokemuksen mukaan. **Perus**-kokemuksen valikoima on suppeampi kuin **Ohjelmistopaketti**-kokemuksen valikoima. Ensimmäiselle kirjautumiskerralla käytössä on Perus-kokemus. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)] -kokemuksen mukauttaminen](ui-experiences.md).  
 
 **Avustettu asennus** -ikkunassa on seuraava **Ohjelmistopaketti**-kokemus:
 
@@ -71,12 +72,12 @@ Voit luoda yrityksen kokeilukäyttöä varten siirtymällä oikeassa yläkulmass
 Aina kun kirjaudut sovellukseen kokeilujakson aikana, jäljellä oleva aika näkyy yläreunassa olevassa sinisessä palkissa. Jos päätät tehdä tilauksen, ota yhteys Microsoftin ilmoituksessa olevasta linkistä. Voit myös siirtyä sivustoon [Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=828707).
 
 ## <a name="see-also"></a>Katso myös
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittäminen](setup.md)  
 [Rahoitus](finance.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in mukauttaminen laajennuksilla](ui-extensions.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen omana yrityssähköpostina Outlookissa](madeira-outlook.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in hakeminen mobiililaitteeseen] (install-mobile-app.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen Outlookin yrityssähköpostina](madeira-outlook.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)]in hakeminen mobiililaitteeseen](install-mobile-app.md)  
 [Microsoft Dynamics 365 -dokumentaatio](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_financials)  
 [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)  
 [Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=828707)  

@@ -15,7 +15,7 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
 ms.openlocfilehash: a4a110fec7f656fd2132daaf6ddda492e9a4ab67
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -26,6 +26,6 @@ Jos otat laajennuksen käyttöön ja lähetät myyntilaskun tai -tilauksen sähk
 Maksupalvelulaajennukset voi ottaa maksutta käyttöön [!INCLUDE[d365fin](includes/d365fin_md.md)]issa. Tiliä varten on kuitenkin otettava yhteys maksupalveluun. Lisätietoja on kohdassa [Toimintaohje: Asiakkaan maksujen ottaminen käyttöön maksupalvelujen kautta](sales-how-enable-payment-service-extensions.md).
 
 ## <a name="see-also"></a>Katso myös
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in mukauttaminen laajennuksilla](ui-extensions.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md)  
 [Myynnin määrittäminen](sales-setup-sales.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md)
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)

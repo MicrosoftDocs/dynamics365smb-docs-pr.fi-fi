@@ -1,6 +1,6 @@
 ---
-title: "Lisätietoja Dynamics 365 for Financialsin laajentamisesta | Microsoft Docs"
-description: Dynamics 365 for Financials -laajennusten luonti, esittely ja markkinointi
+title: Dynamics 365 for Financialsin mukauttaminen | Microsoft Docs
+description: Dynamics 365 for Financials -sovellusten ja -laajennusten luonti, esittely ja markkinointi.
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 03/22/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 110216a4466733b5e5b9f31eb5b73e428c74da91
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: cc355c7b4cd51412ec0b5c95398c2d7b50a13f94
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="extend-included365finlongincludesd365finlongmdmd"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]in laajentaminen
+# <a name="extending-included365finlongincludesd365finlongmdmd"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] -järjestelmän laajentaminen
 [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]in käytöstä alustana on monia etuja sovellusten muodostajille:
 
 * [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] on todistetusti toimiva Microsoftin verkkoratkaisu, jota voit täydentää omalla osaamisellasi.  
@@ -68,13 +68,13 @@ Jos sovellut mielestäsi sovelluspalvelukumppaniksi, ota yhteys osoitteeseen [d3
 
 ## <a name="further-resources"></a>Muita resursseja
 Sovelluskehitystä koskevia lisäresursseja on DLP-aihesivulla [DLP-aihesivu](https://mbspartner.microsoft.com/BFI/Topic/76). Seuraavassa on valittu muutamia esimerkkejä:
--    [Käyttäjän rekisteröinti ja sitä seuraava laskutus ](http://download.microsoft.com/download/3/2/0/320D0286-8810-4A8F-B7DD-523ED87D441B/FAQ on apps for Dynamics 365 for Financials.pdf)
+-   [Käyttäjän rekisteröinti ja sitä seuraava laskutus ](http://download.microsoft.com/download/3/2/0/320D0286-8810-4A8F-B7DD-523ED87D441B/FAQ on apps for Dynamics 365 for Financials.pdf)
 
 
 
 ## <a name="see-also"></a>Katso myös
-[Tervetuloa [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]iin](index.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in mukauttaminen laajennuksilla](ui-extensions.md)  
+[Tervetuloa [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]iin!](index.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md)  
 [https://appsource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365-for-financials&page=1)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

@@ -1,6 +1,6 @@
 ---
-title: "Toimintaohje: Uusien asiakkaiden rekisteröiminen| Microsoft Docs"
-description: "Toimintaohje: Uusien asiakkaiden rekisteröiminen"
+title: "Uusien asiakkaiden rekisteröinti asiakkaan kortin luonnin avulla | Microsoft Docs"
+description: "Tässä ohjeaiheessa kerrotaan, miten asiakkaan kortti luodaan rekisteröimään tietoja kustakin uudesta asiakkaasta, jolle myyt."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: client
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 6789e6a4129789e950c7f71ff86e62263ae9c087
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: ca4f1880e7a95eaf945d48ca2cdd7b3d5f80a621
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -25,7 +25,8 @@ Asiakkaat ovat tulonlähteesi. Jokainen asiakas, jolle myyt, on rekisteröitäv�
 
 Ennen kuin voit rekisteröidä uusia asiakkaita, sinun on määritettävä myyntikoodit, jotka voidaan valita asiakkaiden korttien täyttämisen yhteydessä. Lisätietoja on kohdassa [Myynnin määrittäminen](sales-setup-sales.md).
 
-**Huomautus**: Jos eri asiakastyypeille on olemassa asiakasmalleja, ikkuna tulee näkyviin, kun luot uuden asiakkaan kortin, jossa voit valita haluamasi mallin. Jos vain yksi asiakasmalli on olemassa, uudet asiakaskortit käyttävät aina kyseistä mallia.
+> [!NOTE]  
+>   Jos eri asiakastyypeille on olemassa asiakasmalleja, ikkuna avautuu, kun luot uuden asiakkaan kortin, jossa voit valita haluamasi mallin. Jos vain yksi asiakasmalli on olemassa, uudet asiakaskortit käyttävät aina kyseistä mallia.
 
 ## <a name="to-create-a-new-customer-card"></a>Uuden asiakkaan kortin luominen
 1. Valitse kotisivun **Asiakkaat**-toiminto, kun haluat avata olemassa olevien asiakkaiden luettelon.  
@@ -56,5 +57,5 @@ Asiakasmalli lisätään asiakasmallien luetteloon niin, että sen avulla voit l
 ## <a name="see-also"></a>Katso myös
 [Myynti](sales-manage-sales.md)    
 [Myynnin määrittäminen](sales-setup-sales.md)    
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md)
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
 

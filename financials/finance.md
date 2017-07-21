@@ -1,6 +1,6 @@
 ---
-title: Rahoitus | Microsoft Docs
-description: "Lisätietoja tärkeimmistä talouskäsitteistä ja -prosesseista "
+title: Taloushallinto| Microsoft Docs
+description: "Lisätietoja tehtävistä, joilla määritetään liiketoiminnan taloushallinto laskentatoimen, tilintarkastuksen tai kirjanpidon tarpeita varten."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 04/27/2017
+ms.date: 06/15/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: c5493fe0702a0b7032bfdb4724d7a865113636d1
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 386c202b3c742416a7654a00660309904d47c0ae
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -32,16 +32,21 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 | Kohdista saapuvia maksuja, täsmäytä pankkitilejä maksujen kohdistamisen aikana ja peri avoimia saldoja. |[Myyntisaamisten hallinta](receivables-manage-receivables.md) |
 | Suorita maksuja, kohdista lähteviä maksuja ja käsittele sekkejä. |[Ostovelkojen hallinta](payables-manage-payables.md) |
 | Täsmäytä pankkitilejä ja siirrä varoja pankkitilien välillä. |[Pankkitilien hallinta](bank-manage-bank-accounts.md) |
-| Tietoja pääkirjanpidosta ja tilikartasta. |[Pääkirjanpito ja tilikartta](finance-general-ledger.md) |
-| Lisää dimensioita, kun haluat saada käyttöön monipuolisempia liiketoimintatietoja. |[Dimensiot](finance-dimensions.md) |
-| Hae yksityiskohtaisia tietoja taloustietojen KP-raporttimallien avulla. |[KP-raporttimallit](finance-account-schedule.md) |
+| Tietoja pääkirjanpidosta ja tilikartasta. |[Pääkirjanpito ja aitoustodistus](finance-general-ledger.md) |
+| Lisää dimensioita, kun haluat saada käyttöön monipuolisempia liiketoimintatietoja. |[Dimensioiden käyttäminen](finance-dimensions.md) |
+| Budjettien luominen ennustamaan erilaisia taloudellisia toimintoja ja dimensioiden määrittäminen liiketoimintatietoja varten. |[Uusien budjettien luominen](finance-how-create-budgets.md) |
+|Kirjaa tuotot tai kulut suoraan pääkirjanpitoon kirjaamatta erityisiä liiketoiminnan asiakirjoja.|[Tapahtumien kirjaaminen suoraan pääkirjanpitoon](finance-how-post-transactions-directly.md)|
+|Kirjaa peruutustapahtumia pääkirjanpitoon kirjattujen tapahtumien peruuttamiseksi. |[Päiväkirjakirjauksen peruuttaminen](finance-how-reverse-journal-posting.md)|
+| Liitä lisäkustannukset, kuten rahti- ja fyysisen käsittelyn kustannukset, joita joudut maksamaan kaupan yhteydessä nimikkeisiin, jotta kustannukset vaikuttavat varastonarvostukseen. |[Toimintaohje: Kaupan lisäkustannusten huomiointi nimikekulujen avulla](payables-how-assign-item-charges.md) |
 | Tulouta tuotot ja kulut muissa kuin niissä jaksoissa, joiden tapahtumat on kirjattu. |[Toimintaohje: Tuottojen ja kulujen siirtäminen](finance-how-defer-revenue-expenses.md) |
 | Tuo palkkatapahtumat palkanlaskennan tarjoajalta pääkirjanpitoon. |[Toimintaohje: Palkkatapahtumien tuominen](finance-how-import-payroll-transactions.md) |
-| Avaa tilikausi. |[Toimintaohje: Uuden tilikauden avaaminen](finance-how-open-new-fiscal-year.md) |
-| Valmistele tilikauden tai kirjanpitokauden sulkeminen. |[Vuosien ja kausien sulkeminen](year-close-years-periods.md) |
-| Järjestä käyttöomaisuutta, varmista oikeat jaksottaiset poistot ja seuraa kunnossapitokustannuksia. |[Käyttöomaisuus](fa-manage.md) |
 | Seuraa yrityksen kassavirtaliikennettä. |[Yrityksen kassavirtojen analysoiminen](finance-analyze-cash-flow.md) |
-| Kanada: GIFI-koodien määrittäminen ja käyttäminen talousraportoinnissa. |[Toimintaohje: Kanadan GIFI-koodien käyttäminen](ca-finance-work-gifi-codes.md) |
+| Valmistele tilikauden tai kirjanpitokauden sulkeminen. |[Vuosien ja jaksojen sulkeminen](year-close-years-periods.md) |
+|**Yhdysvallat**: täytä veroviranomaisen vaatimukset useanlaisten, toimittajamaksuja koskevien 1099-lomakkeen lähettämisestä.|[Freelance-tulojen ilmoitukset (lomake 1099) USA:ssa](us-finance-tax-1099.md)|
+|**Yhdysvallat ja Kanada**: ymmärrä, miten yhdysvaltalainen ja kanadalainen myyntiverotoiminnallisuus määritetään.|[Myyntiveron ilmoittamien Yhdysvalloissa ja Kanadassa](us-finance-sales-tax.md)|
+|**Kanada**: ymmärrä, miten kanadalainen tuotteiden ja palveluiden myyntiverotoiminnallisuus määritetään.|[Kanadan arvonlisäveron raportointi](ca-finance-tax.md)|
+|**Kanada**: kanadalaisten GIFI-tietojen raportointitoiminnallisuuden määrittäminen ja käyttö.| [Toimintaohje: Kanadan GIFI-koodien käyttäminen](ca-finance-work-gifi-codes.md)
+|**EU**: valmistele raportti, jossa luetellaan myynneistä saatu arvonlisävero ja lähetä raportti veroviranomaiselle. | [ALV:n raportointi veroviranomaisille](finance-how-report-vat.md)|
 
 ## <a name="see-also"></a>Katso myös
 [Rahoituksen määrittäminen](finance-setup-finance.md)  
@@ -51,6 +56,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 [Projektien hallinta](projects-manage-projects.md)    
 [Tuominen muista rahoitusjärjestelmistä](upload-data.md)  
 [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

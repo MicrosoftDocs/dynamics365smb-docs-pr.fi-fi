@@ -1,6 +1,6 @@
 ---
 title: Tervetuloa | Microsoft Docs
-description: Valmistautuminen liiketoimintaan.
+description: "Tässä ohjeaiheessa kerrotaan asennusoppaista, videoista, ohjeaiheista sekä sivuista ja ikkunoista, jotka auttavat Dynamics 365 for Financialsin käyttöönotossa."
 documentationcenter: 
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
@@ -12,10 +12,10 @@ ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 03/21/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: fe2a7eb24acf0830a8ebaadafa695e7a34023198
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 9e13c2a994ecf4805f585df9c55199f041e80950
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 ---
 # <a name="getting-ready-for-doing-business"></a>Valmistautuminen liiketoimintaan
@@ -23,9 +23,10 @@ Olet juuri aloittanut ensimmäisen yrityksen [!INCLUDE[d365fin](includes/d365fin
 
 Pääset liiketoiminnassa alkuun tutustumalla **Liiketoiminnan tuki** -ikkunaan, jossa voit käynnistää avustettuja asennusoppaita, videoita tai valittujen asennustehtävien ohjeaiheita. Voit avata ikkunan **Liiketoimintajohtaja**-roolikeskuksen kaaviosta valitsemalla avattavassa **Liiketoiminnan tuki** -luettelossa **Näytä määritys- ja ohjeresurssit** -toiminnon. Kun päivität sivun, asennus- ja ohjeresurssit näkyvät kaavion tilalla.
 
-Aloitussivun siirtymisruudun alareunassa on **Asennus ja laajennukset** -valikko. Saat siirtymisruudun laajentamalla **Kotisivu**-painikkeen. Ruudussa on luettelo avustetuista asennuksista, joiden avulla pääset alkuun. Kun olet siirtänyt olemassa olevasta taloustietojen järjestelmästä tiedot, kuten toimittajat, asiakkaat ja nimikkeet, olet valmis aloittamaan. Voit käyttää tarvittaessa myös toista avustettua asennusta. Jos alueella ei ole avustettua asennusta, valitse **Manuaalinen asennus** -toiminto. Pääset tällä tavoin ikkunoihin, joissa voit täyttää kaikkien alueiden asennuskentät manuaalisesti. Lisätietoja on myös kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittäminen](setup.md).
+Aloitussivun siirtymisruudun alareunassa on **Asennus ja laajennukset** -valikko. Saat siirtymisruudun laajentamalla **Kotisivu**-painikkeen. Ruudussa on luettelo avustetuista asennuksista, joiden avulla pääset alkuun. Kun olet siirtänyt olemassa olevasta taloustietojen järjestelmästä tiedot, kuten toimittajat, asiakkaat ja nimikkeet, olet valmis aloittamaan. Voit käyttää tarvittaessa myös toista avustettua asennusta. Jos alueella ei ole asetuksen ohjattua määritystä, valitse **Manuaalinen asennus** -toiminto. Pääset tällä tavoin ikkunoihin, joissa voit täyttää kaikkien alueiden asennuskentät manuaalisesti. Lisätietoja on myös ohjeaiheessa [[!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittäminen ](setup.md)
 
-**Huomautus:** Käytettävissä olevien asennusoppaiden, laajennusten ja palvelujen luettelo vaihtelee yritykselle valitun käyttäjäkokemuksen mukaan. **Perus**-kokemuksen valikoima on suppeampi kuin **Ohjelmistopaketti**-kokemuksen valikoima. Ensimmäiselle kirjautumiskerralla käytössä on Perus-kokemus. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)]-kokemuksen mukauttaminen](ui-experiences.md).
+> [!NOTE]  
+>   Käytettävissä olevien asennusoppaiden, laajennusten ja palvelujen luettelo vaihtelee yritykselle valitun käyttäjäkokemuksen mukaan. **Perus**-kokemuksen valikoima on suppeampi kuin **Ohjelmistopaketti**-kokemuksen valikoima. Ensimmäiselle kirjautumiskerralla käytössä on Perus-kokemus. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)] -kokemuksen mukauttaminen](ui-experiences.md).
 
 **Avustettu asennus** -ikkunassa on seuraava **Perus**-kokemus:
 
@@ -58,7 +59,7 @@ Jos sinun on lisättävä uusia käyttäjiä, voit tehdä sen Office 365:n halli
 Voit jatkaa luomalla uusia myynti- tai ostoasiakirjoja siirrettyjen tietojen perusteella. Voit luoda nopeasti myyntitarjouksen, myyntilaskun, myyntitilauksen, ostolaskun tai maksurekisteröinnin **kotisivun** **Oma yritys** -osassa.
 
 ## <a name="see-also"></a>Katso myös
-[Tervetuloa [!INCLUDE[d365fin](includes/d365fin_md.md)]iin](index.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md)  
+[Tervetuloa [!INCLUDE[d365fin](includes/d365fin_md.md)]iin!](index.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Toimintaohje: Käyttäjien ja käyttöoikeuksien hallinta](ui-how-users-permissions.md)
 

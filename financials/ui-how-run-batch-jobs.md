@@ -1,6 +1,6 @@
 ---
-title: "Toimintaohje: Eräajojen ajaminen | Microsoft Docs"
-description: "Lisätietoja eräajojen käytöstä Dynamics 365 for Financialsissa."
+title: "Eräajon luominen ja suorittaminen | Microsoft Docs"
+description: "Voit käsitellä ja päivittämää tietoja suorittamalla eräajon esimerkiksi kausiluontoisissa kirjanpitotehtävissä tai laskutoimituksissa."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -13,10 +13,10 @@ ms.search.keywords: task, process
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 1f4678ce0cfb18a746374226bb33020f70bf874d
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 6844d5fe3efba5349eef166161c5956116bc7fc0
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -26,12 +26,12 @@ Eräajo on rutiini, joka käsittelee tietoja erissä, esimerkiksi **Valuuttakurs
 Eräajo vastaa raporttia, mutta se päivittää tiedot suoraan saatujen tulosten perusteella sen sijaan, että tulokset tulostettaisiin.
 
 ## <a name="to-run-a-batch-job"></a>Eräajon suorittaminen
-1. Kun haluat avata kyseisen eräajon pyyntöikkunan, valitse oikeassa yläkulmassa **Etsi sivua tai raporttia** -kuvake![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake"), kirjoita eräajon nimi ja valitse liittyvä linkki.
+1. Voit avata kyseisten eräajojen pyyntöikkunan valitsemalla ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") -kuvakkeen, antamalla eräajon nimen ja valitsemalla aiheeseen liittyvän linkin.
 2. Jos eräajolla on **Vaihtoehdot**-pikavälilehti, voit määrittää eräajon toiminnan täyttämällä kentät.
 3. Ikkunassa voi olla yksi tai useita pikavälilehtiä ja suodattimia, joiden avulla voidaan rajoittaa eräajoon sisällytettyjä tietoa. Voit syöttää kriteerin ehdotetuille suodattimille tai lisätä suodattimia.
 4. Aloita eräajo valitsemalla **OK**.
 
 ## <a name="see-also"></a>Katso myös
-[Ehtojen antaminen suodattimiin](ui-enter-criteria-filters.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md)
+[Suodattimen ehtojen antaminen](ui-enter-criteria-filters.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
 

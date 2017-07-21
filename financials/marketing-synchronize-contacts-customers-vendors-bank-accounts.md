@@ -1,6 +1,6 @@
 ---
-title: Kontaktien synkronointi asiakkaiden, toimittajien ja pankkitilien kanssa | Microsoft Docs
-description: "Tässä artikkelissa kerrotaan, miten kontaktit synkronoidaan asiakkaiden, toimittajien ja pankkitilien kanssa Financialsissa"
+title: Kontaktien synkronointi asiakkaiden ja toimittajien kanssa| Microsoft Docs
+description: "Voit muodostaa yhteyden kontaktien, jotka ovat myös asiakkaita, toimittajia tai pankkitilejä, yhteystietoihin tai synkronoida ne, joten tiedot tarvitsee päivittää vain yhdessä paikassa."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, CRM, integration, couple
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: b28cd00659b077403e3174ac69c32ad5d9a8bf83
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: dbb29d9d53618eec69817455d4304da2a6bfe466
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -42,9 +42,10 @@ Kontaktin synkronoiminen asiakkaan, toimittajan ja pankkitilin kanssa
 * jos poistat asiakkaaseen, toimittajaan ja/tai pankkitiliin linkitetyn kontaktin, vain kontakti poistuu ohjelmasta. Asiakas, toimittaja tai pankkitili säilytetään.
 * jos poistat asiakkaaseen, toimittajaan ja/tai pankkitiliin linkitetyn kontaktin, vain kontakti säilytetään.
 
-**Huomautus**: Jotkin tiedot, kuten laskutus- ja kirjaustiedot, eivät näy kontaktin kortilla. Tämän vuoksi ne halutaan ehkä lisätä manuaalisesti asiakaskortille, toimittajakortille tai pankkitilikortille, kun kontakteja luodaan asiakkaina, toimittajina tai pankkitileinä.
+> [!NOTE]  
+>   Jotkin tiedot, kuten laskutus- ja kirjaustiedot, eivät näy kontaktikortilla. Tämän vuoksi ne halutaan ehkä lisätä manuaalisesti asiakaskortille, toimittajakortille tai pankkitilikortille, kun kontakteja luodaan asiakkaina, toimittajina tai pankkitileinä.
 
 ## <a name="see-also"></a>Katso myös
 [Kontaktien hallinta](marketing-contacts.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md)
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
 

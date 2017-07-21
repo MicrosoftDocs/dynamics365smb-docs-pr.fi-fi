@@ -1,6 +1,6 @@
 ---
-title: Kirjausryhmien asetukset| Microsoft Docs
-description: "Sisältää kirjausryhmien yleiskatsauksen"
+title: "Kirjausryhmän määrittäminen| Microsoft Docs"
+description: "Yleiskatsaus kirjausryhmistä, joiden avulla voit säästää aikaa ja välttää virheitä tapahtumia kirjattaessa."
 services: project-madeira
 documentationcenter: 
 author: bholtorf
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: posting setup, initialize
-ms.date: 03/24/2017
+ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 79018546484ff3bb8965089a3554d69bec219304
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: add78070e838dcf8b0eb24dcc8b642d621a400b9
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="posting-group-setups"></a>Kirjausryhmien asetukset
+# <a name="setting-up-posting-groups"></a>Kirjausryhmien määrittäminen
 Kirjausryhmät yhdistävät objektit, kuten asiakkaat, toimittajat, nimikkeet, resurssit sekä myynti- ja ostoasiakirjoja pääkirjanpidon tileille. Ne säästävät aikaa ja auttavat välttämään virheitä tapahtumia kirjattaessa. Tapahtuman arvot viedään kyseisen objektin kirjausryhmässä määritetylle tilille. Kirjausryhmiä varten tarvitaan vain tilikartta. Lisätietoja on kohdassa [Tilikartan määrittäminen](finance-setup-chart-accounts.md).  
 
 Kirjausryhmiä on kolmenlaisia:  
@@ -47,7 +47,7 @@ Seuraavissa taulukoissa käsitellään kutakin kirjausryhmätyyppiä.
 
 | Verokirjausryhmä | Kuvaus |
 | --- | --- |
-| Liiketoiminnan verokirjausryhmät |Määrittää, miten asiakkaiden ja toimittajien arvonlisävero lasketaan ja kirjataan. Määritä nämä asetukset **Liiketoiminnan verokirjausryhmät** -ikkunassa. Mieti määrityksiä tehdessäsi, kuinka monta ryhmää tarvitset Siihen voi vaikuttaa esimerkiksi paikallinen lainsäädäntö ja se, käytkö sekä kotimaan- että ulkomaankauppaa. |
+| Liiketoiminnan verokirjausryhmät |Määrittää, miten asiakkaiden ja toimittajien arvonlisävero lasketaan ja kirjataan. Määritä nämä asetukset **Liiketoiminnan verokirjausryhmät** -ikkunassa. Mieti määrityksiä tehdessäsi, kuinka monta ryhmää tarvitset. Siihen voi vaikuttaa esimerkiksi paikallinen lainsäädäntö ja se, käytkö sekä kotimaan- että ulkomaankauppaa. |
 | Tuotteen verokirjausryhmät |Ilmoita, mitä verolaskelmia on tehtävä nimike- tai resurssityypeille, joita ostat tai myyt. |
 | Verokirjausten asetukset |Yhdistä liiketoiminnan verokirjausryhmät ja tuotteen verokirjausryhmät. Kun täytät yleisen päiväkirjarivin, ostorivin tai myyntirivin, käytettävät tilit tunnistetaan yhdistelmän avulla. |
 
@@ -79,5 +79,5 @@ Mitä enemmän tuotteen ja liiketoiminnan kirjausryhmiä on luotu, sitä enemmä
 ## <a name="see-also"></a>Katso myös .
 [Pääkirjanpito ja tilikartta](finance-general-ledger.md)  
 [Rahoituksen määrittäminen](finance-setup-finance.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md)
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
 

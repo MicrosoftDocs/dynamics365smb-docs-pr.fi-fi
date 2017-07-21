@@ -1,6 +1,6 @@
 ---
-title: "Kontaktien lisääminen segmentteihin | Microsoft Docs"
-description: "Tässä artikkelissa kerrotaan, miten Financialsin segmentteihin lisätään kontakteja"
+title: "Kontaktien määrittäminen segmentissä| Microsoft Docs"
+description: "Kun olet luonut segmentin, voit lisätä segmenttiin kontakteja esimerkiksi tiettyihin asiakkaisiin kohdistettuina markkinointikampanjoiden osana."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect, contact, client, customer
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: d9e72fc4f6f83534cabd36cfc66cfcf856a8b0d2
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 1385b97ef7d6a27a62cb347521b61f5853a0618c
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -24,7 +24,7 @@ ms.lasthandoff: 05/04/2017
 Kun olet luonut segmentin ja syöttänyt sen perustiedot, haluat ehkä lisätä segmenttiin kontakteja. Voit tehdä tämän täyttämällä rivit **Segmentti**-ikkunassa manuaalisesti, mutta nopeampi ja helpompi tapa on käyttää **Lisää kontakteja**-toimintoa.
 
 ## <a name="to-add-a-contact-to-a-segment"></a>Kontaktin lisääminen segmenttiin:
-1. Valitse kotisivun **Aktiiviset segmentit** -kohta. Voit myös valita oikeassa yläkulmassa **Etsi sivua tai raporttia** -kuvake ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake"), kirjoita **Segmentit** ja valitse sitten liittyvä linkki.  
+1. Valitse kotisivun **Aktiiviset segmentit** -kohta. Vaihtoehtoisesti voit valita ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvakkeen, kirjoittaa **Segmentit** ja valita sitten aiheeseen liittyvän linkin.  
 2. Valitse segmentti ja valitse sitten **Lisää kontakteja** -toiminto. **Lisää kontakteja** -eräajo-ikkuna avautuu.
 3. Määritä **Kontakti**-osassa suodattimet, joiden tietojen mukaan kontaktit valitaan.
 
@@ -58,5 +58,5 @@ Voit vähentää segmentin kontakteja niin monta kertaa kuin haluat. Valitse **T
 [Toimintaohje: Segmentin luominen](marketing-how-create-segment.md)   
 [Segmenttien hallinta](marketing-segments.md)  
 [Myyntimahdollisuuksien hallinta](marketing-manage-sales-opportunities.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 
