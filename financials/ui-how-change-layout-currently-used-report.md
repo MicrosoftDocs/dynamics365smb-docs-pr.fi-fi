@@ -18,7 +18,6 @@ ms.openlocfilehash: de0c429e8a5e03124c5a20977a9723570879952a
 ms.contentlocale: fi-fi
 ms.lasthandoff: 07/07/2017
 
-
 ---
 # <a name="how-to-change-which-layout-is-currently-used-on-a-report"></a>Miten voit: muuta tällä hetkellä raportissa käytettävää asettelua
 Raportti voidaan määrittää useille raportin asetteluille, joita voidaan vaihtaa tarpeen mukaan.
@@ -34,8 +33,9 @@ Raporttiin käytettävissä olevien asettelujen mukaan voit valita valmiin RDLC-
    * Word (valmis), käyttää raportissa valmista Word-raporttiasettelua.
    * Mukautettu, käyttää raportissa mukautettua asettelua.  
      Raportissa käytettävissä olevat mukautetut asettelut näkyvät Raporttiasettelujen osat -tietoruudussa. Jos raportille ei ole mukautettuja asetteluja, sinun on ensin luotava yksi. Jos valitset tämän vaihtoehdon, siirry seuraavaan toimenpiteeseen ja määritä mukautettu asettelu, jota haluat käyttää.
-     > [!NOTE]  
->   Jos valitset **RDLC (sisäinen)** tai **Word (sisäinen)** ja näyttöön tulee virhesanoma siitä, että raportin asettelu ei määritetyn tyyppinen, sinun on valittava toinen asetteluvaihtoehto tai luotava mukautettu raportin asettelu, joka on haluamasi tyyppinen.
+
+    > [!NOTE]  
+    >   Jos valitset **RDLC (sisäinen)** tai **Word (sisäinen)** ja näyttöön tulee virhesanoma siitä, että raportin asettelu ei määritetyn tyyppinen, sinun on valittava toinen asetteluvaihtoehto tai luotava mukautettu raportin asettelu, joka on haluamasi tyyppinen.
 
 Lisätoimia ei vaadita, jos valitsit valmiin RDLC- tai Word-raporttiasettelun ja asettelua käytetään, kun raportti suoritetaan seuraavan kerran.
 
