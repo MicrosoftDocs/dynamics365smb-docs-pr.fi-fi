@@ -16,44 +16,43 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 42e5357eb78df09437bbd22a288f4e583de27e67
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="how-to-create-interactions-on-contacts-and-segments"></a>Toimintaohje: Vuorovaikutusten luominen kontakteille ja segmenteille
-Voit luoda vuorovaikutuksia, kun haluat tallentaa kaikki vuorovaikutukset ja kaiken yhteydenpidon (esimerkiksi postin), joita sinulla on kontaktiesi ja segmenttiesi kanssa.
+# <a name="how-to-create-interactions-on-contacts-and-segments"></a><span data-ttu-id="d6b55-103">Toimintaohje: Vuorovaikutusten luominen kontakteille ja segmenteille</span><span class="sxs-lookup"><span data-stu-id="d6b55-103">How to: Create Interactions on Contacts and Segments</span></span>
+<span data-ttu-id="d6b55-104">Voit luoda vuorovaikutuksia, kun haluat tallentaa kaikki vuorovaikutukset ja kaiken yhteydenpidon (esimerkiksi postin), joita sinulla on kontaktiesi ja segmenttiesi kanssa.</span><span class="sxs-lookup"><span data-stu-id="d6b55-104">You can create interactions to record all the interactions and communications you have with your contacts and segments, for example, direct mail.</span></span>
 
-Ennen vuorovaikutusten luomista sinun täytyy määrittää vuorovaikutusmallit. Lisätietoja on ohjeaiheessa [Vuorovaikutusmallien määrittäminen](marketing-interactions.md).
+<span data-ttu-id="d6b55-105">Ennen vuorovaikutusten luomista sinun täytyy määrittää vuorovaikutusmallit.</span><span class="sxs-lookup"><span data-stu-id="d6b55-105">Before you create interactions, you must set up interaction templates.</span></span> <span data-ttu-id="d6b55-106">Lisätietoja on ohjeaiheessa [Vuorovaikutusmallien määrittäminen](marketing-interactions.md).</span><span class="sxs-lookup"><span data-stu-id="d6b55-106">For more information, see  [Set Up Interaction Templates](marketing-interactions.md).</span></span>
 
-## <a name="to-create-an-interaction"></a>Integroinnin luominen
-1. Avaa kontakti-, myyjä- tai vuorovaikutuslokitapahtuma.
-2. Valitse **Luo vuorovaikutus** -toiminto.
-3. Täytä kentät ja valitse **OK**-painike.
+## <a name="to-create-an-interaction"></a><span data-ttu-id="d6b55-107">Integroinnin luominen</span><span class="sxs-lookup"><span data-stu-id="d6b55-107">To create an interaction</span></span>
+1. <span data-ttu-id="d6b55-108">Avaa kontakti-, myyjä- tai vuorovaikutuslokitapahtuma.</span><span class="sxs-lookup"><span data-stu-id="d6b55-108">Open the contact, salesperson, or interaction log entry.</span></span>
+2. <span data-ttu-id="d6b55-109">Valitse **Luo vuorovaikutus** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="d6b55-109">Choose the **Create Interaction** action.</span></span>
+3. <span data-ttu-id="d6b55-110">Täytä kentät ja valitse **OK**-painike.</span><span class="sxs-lookup"><span data-stu-id="d6b55-110">Fill in the fields, and then choose the **OK** button.</span></span>
 
 > [!NOTE]  
->   Jos haluat suorittaa toisen tehtävän ennen vuorovaikutuksen suorittamista, valitse **Peruuta** ja valitse sitten yhteydenpidon suorittaminen myöhemmin. Tällöin vuorovaikutusta lykätään.
+>   <span data-ttu-id="d6b55-111">Jos haluat suorittaa toisen tehtävän ennen vuorovaikutuksen suorittamista, valitse **Peruuta** ja valitse sitten yhteydenpidon suorittaminen myöhemmin.</span><span class="sxs-lookup"><span data-stu-id="d6b55-111">If you need to perform another task before finishing the interaction, you can choose **Cancel** and then finish the interaction at a later time.</span></span> <span data-ttu-id="d6b55-112">Tällöin vuorovaikutusta lykätään.</span><span class="sxs-lookup"><span data-stu-id="d6b55-112">This postpones the interaction.</span></span>
 
-## <a name="to-finish-and-delete-postponed-interactions"></a>Lykättyjen vuorovaikutusten lopettaminen ja poistaminen
-1. Avaa kontakti-, myyjä- tai vuorovaikutuslokitapahtuma.
-2. Valitse **Lykätyt vuorovaikutukset**.
-3. Valitse lopetettava vuorovaikutus ja valitse sitten **Jatka**-toiminto.
+## <a name="to-finish-and-delete-postponed-interactions"></a><span data-ttu-id="d6b55-113">Lykättyjen vuorovaikutusten lopettaminen ja poistaminen</span><span class="sxs-lookup"><span data-stu-id="d6b55-113">To finish and delete postponed interactions</span></span>
+1. <span data-ttu-id="d6b55-114">Avaa kontakti-, myyjä- tai vuorovaikutuslokitapahtuma.</span><span class="sxs-lookup"><span data-stu-id="d6b55-114">Open the contact, salesperson, or interaction log entry.</span></span>
+2. <span data-ttu-id="d6b55-115">Valitse **Lykätyt vuorovaikutukset**.</span><span class="sxs-lookup"><span data-stu-id="d6b55-115">Choose **Postponed Interactions**.</span></span>
+3. <span data-ttu-id="d6b55-116">Valitse lopetettava vuorovaikutus ja valitse sitten **Jatka**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="d6b55-116">Select the interaction you want to finish, and then choose the **Resume** action.</span></span>
 
-## <a name="to-create-an-interaction-on-a-segment"></a>Vuorovaikutusten luominen segmentille
-1. Valitse aloitussivulla **Aktiiviset segmentit** tai valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, kirjoita **Segmentit** ja valitse sitten aiheeseen liittyvä linkki.
-2. Määritä, minkä vuorovaikutuksen haluat liittää segmenttiin, täyttämällä **Segmentti**-ikkunassa **Vuorovaikutus**-osan kentät.
+## <a name="to-create-an-interaction-on-a-segment"></a><span data-ttu-id="d6b55-117">Vuorovaikutusten luominen segmentille</span><span class="sxs-lookup"><span data-stu-id="d6b55-117">To create an interaction on a segment</span></span>
+1. <span data-ttu-id="d6b55-118">Valitse aloitussivulla **Aktiiviset segmentit** tai valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, kirjoita **Segmentit** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="d6b55-118">On the Home page, choose **Active Segments**, or choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Segments**, and then choose the related link.</span></span>
+2. <span data-ttu-id="d6b55-119">Määritä, minkä vuorovaikutuksen haluat liittää segmenttiin, täyttämällä **Segmentti**-ikkunassa **Vuorovaikutus**-osan kentät.</span><span class="sxs-lookup"><span data-stu-id="d6b55-119">In the **Segment window**, in the **Interaction** section, fill in the fields to specify which interaction you want to assign to the segment.</span></span>
 
-    Kun olet liittänyt vuorovaikutuksen segmenttiin, voit tehdä jokaisen segmentin kontaktin vuorovaikutuksesta yksilöllisen, esimerkiksi valitsemalla toisen vuorovaikutusmallin **Segmentti**-ikkunan riveillä.  
-3. Voit kirjata segmentin ja vuorovaikutukset lokiin valitsemalla **Loki**-toiminnon. **Lokin segmentti**-luetteloikkuna aukeaa.
-4. Jos haluat luoda uuden segmentin, joka sisältää samat kontaktit, valitse **Luo seurantasegmentti** -valintaruutu. Jotta ohjelma luo seurantasegmentin, segmenttien numerosarja on määritettävä **Kontaktienhallinnan asetukset** -ikkunassa.
+    <span data-ttu-id="d6b55-120">Kun olet liittänyt vuorovaikutuksen segmenttiin, voit tehdä jokaisen segmentin kontaktin vuorovaikutuksesta yksilöllisen, esimerkiksi valitsemalla toisen vuorovaikutusmallin **Segmentti**-ikkunan riveillä.</span><span class="sxs-lookup"><span data-stu-id="d6b55-120">After you have assigned an interaction to the segment, you can personalize the interaction for each particular contact within the segment, for example, by selecting another interaction template on the lines in the **Segment** window.</span></span>  
+3. <span data-ttu-id="d6b55-121">Voit kirjata segmentin ja vuorovaikutukset lokiin valitsemalla **Loki**-toiminnon.</span><span class="sxs-lookup"><span data-stu-id="d6b55-121">To log the segment and interactions, choose the **Log** action.</span></span> <span data-ttu-id="d6b55-122">**Lokin segmentti**-luetteloikkuna aukeaa.</span><span class="sxs-lookup"><span data-stu-id="d6b55-122">The **Log Segment** window opens.</span></span>
+4. <span data-ttu-id="d6b55-123">Jos haluat luoda uuden segmentin, joka sisältää samat kontaktit, valitse **Luo seurantasegmentti** -valintaruutu.</span><span class="sxs-lookup"><span data-stu-id="d6b55-123">If you want to create a new segment containing the same contacts, select the **Create Follow-up Segment** check box.</span></span> <span data-ttu-id="d6b55-124">Jotta ohjelma luo seurantasegmentin, segmenttien numerosarja on määritettävä **Kontaktienhallinnan asetukset** -ikkunassa.</span><span class="sxs-lookup"><span data-stu-id="d6b55-124">To create a follow-up segment, you must have specified number series for segments in the **Marketing Setup** window.</span></span>
 
-Vuorovaikutus tallennetaan kullekin kontaktille **Vuorovaikutuslokitapahtuma**-taulukon segmentissä. Tämän jälkeen segmentti kirjataan lokiin. Lokiin kirjatut segmentit löytyvät **Lokiin kirjattu segmentti** -ikkunasta.
+<span data-ttu-id="d6b55-125">Vuorovaikutus tallennetaan kullekin kontaktille **Vuorovaikutuslokitapahtuma**-taulukon segmentissä. Tämän jälkeen segmentti kirjataan lokiin.</span><span class="sxs-lookup"><span data-stu-id="d6b55-125">An interaction is recorded for each contact within the segment in the **Interaction Log Entry** table, and the segment is logged.</span></span> <span data-ttu-id="d6b55-126">Lokiin kirjatut segmentit löytyvät **Lokiin kirjattu segmentti** -ikkunasta.</span><span class="sxs-lookup"><span data-stu-id="d6b55-126">Logged segments can be found in the **Logged Segment** window.</span></span>
 
-Jos olet valinnut **Luo seurantasegmentti** -valintaruudun, ohjelma luo automaattisesti uuden segmentin, jossa on samat kontaktit kuin juuri lokiin kirjaamassasi segmentissä.
+<span data-ttu-id="d6b55-127">Jos olet valinnut **Luo seurantasegmentti** -valintaruudun, ohjelma luo automaattisesti uuden segmentin, jossa on samat kontaktit kuin juuri lokiin kirjaamassasi segmentissä.</span><span class="sxs-lookup"><span data-stu-id="d6b55-127">If you have selected the **Create Follow-up Segment** check box, a new segment is created that contains the same contacts as the segment you have just logged.</span></span>
 
-## <a name="see-also"></a>Katso myös
-[Vuorovaikutusten tallentaminen](marketing-interactions.md)  
-[Kontaktien hallinta](marketing-contacts.md)  
-[Myyntimahdollisuuksien hallinta](marketing-manage-sales-opportunities.md)  
-[Kontaktienhallinnan määrittäminen](marketing-setup-marketing.md)  
-[Financialsin käyttäminen](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="d6b55-128">Katso myös</span><span class="sxs-lookup"><span data-stu-id="d6b55-128">See Also</span></span>
+[<span data-ttu-id="d6b55-129">Vuorovaikutusten tallentaminen</span><span class="sxs-lookup"><span data-stu-id="d6b55-129">Recording Interactions</span></span>](marketing-interactions.md)  
+[<span data-ttu-id="d6b55-130">Kontaktien hallinta</span><span class="sxs-lookup"><span data-stu-id="d6b55-130">Managing Contacts</span></span>](marketing-contacts.md)  
+[<span data-ttu-id="d6b55-131">Myyntimahdollisuuksien hallinta</span><span class="sxs-lookup"><span data-stu-id="d6b55-131">Managing Sales Opportunities</span></span>](marketing-manage-sales-opportunities.md)  
+[<span data-ttu-id="d6b55-132">Kontaktienhallinnan määrittäminen</span><span class="sxs-lookup"><span data-stu-id="d6b55-132">Setting Up Relationship Management</span></span>](marketing-setup-marketing.md)  
+[<span data-ttu-id="d6b55-133">Financialsin käyttäminen</span><span class="sxs-lookup"><span data-stu-id="d6b55-133">Working with Financials</span></span>](ui-work-product.md)
 

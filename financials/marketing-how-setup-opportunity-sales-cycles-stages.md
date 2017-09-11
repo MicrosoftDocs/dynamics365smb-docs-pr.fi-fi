@@ -16,57 +16,56 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 29f9caa8f01fe8e4cfd0f65cc290d82a49fb36bb
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="how-to-set-up-opportunity-sales-cycles-and-cycle-stages"></a>Toimintaohje: Mahdollisuuden myyntisyklien ja syklin vaiheiden määrittäminen
-Myyntisyklit ja myyntisyklin vaiheet on määritettävä ennen myyntimahdollisuuksien käyttöönottoa. Myyntisykli muodostuu vaiheista alkuperäisestä yhteydenotosta aina kaupantekoon asti. Jokaisella vaiheella on tietyt vaatimukset, jotka on täytettävä, esimerkiksi myyntitarjouksen vaatiminen ennen mahdollisuuden siirtämistä seuraavaan vaiheeseen. Voit myös määrittää, voiko vaiheen ohittaa. Voit määrittää tarvittavan määrän myyntisyklejä ja niille haluamasi määrän myyntisyklien vaiheita.
+# <a name="how-to-set-up-opportunity-sales-cycles-and-cycle-stages"></a><span data-ttu-id="aa497-103">Toimintaohje: Mahdollisuuden myyntisyklien ja syklin vaiheiden määrittäminen</span><span class="sxs-lookup"><span data-stu-id="aa497-103">How to: Set Up Opportunity Sales Cycles and Cycle Stages</span></span>
+<span data-ttu-id="aa497-104">Myyntisyklit ja myyntisyklin vaiheet on määritettävä ennen myyntimahdollisuuksien käyttöönottoa.</span><span class="sxs-lookup"><span data-stu-id="aa497-104">Before you can start using sales opportunities, you must set up sales cycles and sales cycle stages.</span></span> <span data-ttu-id="aa497-105">Myyntisykli muodostuu vaiheista alkuperäisestä yhteydenotosta aina kaupantekoon asti.</span><span class="sxs-lookup"><span data-stu-id="aa497-105">A sales cycle is made up of a series of stages that go from the initial contact to the closing of a sale.</span></span> <span data-ttu-id="aa497-106">Jokaisella vaiheella on tietyt vaatimukset, jotka on täytettävä, esimerkiksi myyntitarjouksen vaatiminen ennen mahdollisuuden siirtämistä seuraavaan vaiheeseen.</span><span class="sxs-lookup"><span data-stu-id="aa497-106">Each stage can have certain requirements that must be met, such as requiring a sales quote, before an opportunity can go to the next stage.</span></span> <span data-ttu-id="aa497-107">Voit myös määrittää, voiko vaiheen ohittaa.</span><span class="sxs-lookup"><span data-stu-id="aa497-107">You can also specify whether a stage can be skipped.</span></span> <span data-ttu-id="aa497-108">Voit määrittää tarvittavan määrän myyntisyklejä ja niille haluamasi määrän myyntisyklien vaiheita.</span><span class="sxs-lookup"><span data-stu-id="aa497-108">You can setup as many sales cycles as you need, and you can set up as many sales cycle stages as necessary within a sales cycle.</span></span>
 
-Mahdollisuuden myyntisyklien ottaminen käyttöön sisältää myyntisyklin määrittämisen, syklin eri vaiheiden määrittämisen ja syklin liittämisen mahdollisuuksiin. Liittyvän toiminnon tai tehtävien määrittäminen mahdollisuuteen voi olla myös osa myyntisyklin määrittämistä.
+<span data-ttu-id="aa497-109">Mahdollisuuden myyntisyklien ottaminen käyttöön sisältää myyntisyklin määrittämisen, syklin eri vaiheiden määrittämisen ja syklin liittämisen mahdollisuuksiin.</span><span class="sxs-lookup"><span data-stu-id="aa497-109">Implementing opportunity sales cycles involves setting up the sales cycle, defining the different stages of the cycle, and then assigning the cycle to opportunities.</span></span> <span data-ttu-id="aa497-110">Liittyvän toiminnon tai tehtävien määrittäminen mahdollisuuteen voi olla myös osa myyntisyklin määrittämistä.</span><span class="sxs-lookup"><span data-stu-id="aa497-110">Assigning the relevant activity or tasks to the opportunity may also be part of setting up a sales cycle.</span></span>
 
-Tässä ohjeaiheessa kerrotaan, miten tehtävät ja toiminnot määritetään ja miten toiminnoille määritetään tehtäviä. Lisätietoja on kohdassa Tehtäviä sisältävien toimintojen määrittäminen.
+<span data-ttu-id="aa497-111">Tässä ohjeaiheessa kerrotaan, miten tehtävät ja toiminnot määritetään ja miten toiminnoille määritetään tehtäviä.</span><span class="sxs-lookup"><span data-stu-id="aa497-111">This topic also describes how to set up tasks and activities, and how to assign tasks to activities.</span></span> <span data-ttu-id="aa497-112">Lisätietoja on kohdassa Tehtäviä sisältävien toimintojen määrittäminen.</span><span class="sxs-lookup"><span data-stu-id="aa497-112">For more information, see the "To set up activities with tasks" section.</span></span>
 
-## <a name="to-set-up-opportunity-sales-cycle-codes"></a>Mahdollisuuden myyntisyklin koodien määrittäminen
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Myyntisyklit** ja valitse sitten aiheeseen liittyvä linkki. Kaikki olemassa olevat myyntisyklit sisältävä **Myyntisyklit**-ikkuna avautuu.
-2. Valitse **Uusi**-toiminto ja täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+## <a name="to-set-up-opportunity-sales-cycle-codes"></a><span data-ttu-id="aa497-113">Mahdollisuuden myyntisyklin koodien määrittäminen</span><span class="sxs-lookup"><span data-stu-id="aa497-113">To set up opportunity sales cycle codes</span></span>
+1. <span data-ttu-id="aa497-114">Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Myyntisyklit** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="aa497-114">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Cycles**, and then choose the related link.</span></span> <span data-ttu-id="aa497-115">Kaikki olemassa olevat myyntisyklit sisältävä **Myyntisyklit**-ikkuna avautuu.</span><span class="sxs-lookup"><span data-stu-id="aa497-115">The **Sales Cycles** window opens, and lists all the existing sales cycles.</span></span>
+2. <span data-ttu-id="aa497-116">Valitse **Uusi**-toiminto ja täytä tarvittavat kentät.</span><span class="sxs-lookup"><span data-stu-id="aa497-116">Choose the **New** action, and fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-Toista nämä vaiheet ja luo niin monta myyntijaksoa kuin haluat. Kun olet määrittänyt mahdollisuuden myyntikoodit, haluat ehkä määrittää kunkin syklin eri vaiheet.
+<span data-ttu-id="aa497-117">Toista nämä vaiheet ja luo niin monta myyntijaksoa kuin haluat.</span><span class="sxs-lookup"><span data-stu-id="aa497-117">Repeat these steps to set up as many sales cycles as you want.</span></span> <span data-ttu-id="aa497-118">Kun olet määrittänyt mahdollisuuden myyntikoodit, haluat ehkä määrittää kunkin syklin eri vaiheet.</span><span class="sxs-lookup"><span data-stu-id="aa497-118">After you have set up opportunity sales cycles, you may want to set up the different stages within each cycle.</span></span>
 
-## <a name="to-define-opportunity-sales-cycle-stages"></a>Mahdollisuuden myyntisyklin vaiheiden määrittäminen
-1. Valitse **Myyntisyklit**-ikkunassa mahdollisuuden myyntisykli, jolle haluat määrittää vaiheet. Valitse sitten **Vaiheet**-toiminto. **Myyntisyklin vaiheet** -ikkuna avautuu.
-2. Valitse **Uusi**-toiminto, kun haluat syöttää myyntisykliin uuden vaiheen.
+## <a name="to-define-opportunity-sales-cycle-stages"></a><span data-ttu-id="aa497-119">Mahdollisuuden myyntisyklin vaiheiden määrittäminen</span><span class="sxs-lookup"><span data-stu-id="aa497-119">To define opportunity sales cycle stages</span></span>
+1. <span data-ttu-id="aa497-120">Valitse **Myyntisyklit**-ikkunassa mahdollisuuden myyntisykli, jolle haluat määrittää vaiheet. Valitse sitten **Vaiheet**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="aa497-120">In the **Sales Cycles** window, select the opportunity sales cycle for which you want to set up stages, and then choose the **Stages** action.</span></span> <span data-ttu-id="aa497-121">**Myyntisyklin vaiheet** -ikkuna avautuu.</span><span class="sxs-lookup"><span data-stu-id="aa497-121">The **Sales Cycle Stages** window opens.</span></span>
+2. <span data-ttu-id="aa497-122">Valitse **Uusi**-toiminto, kun haluat syöttää myyntisykliin uuden vaiheen.</span><span class="sxs-lookup"><span data-stu-id="aa497-122">Choose the **New** action to enter a new stage in the sales cycle.</span></span>
 
-Toista nämä vaiheet ja määritä myyntisyklille niin monta vaihetta kuin haluat.
+<span data-ttu-id="aa497-123">Toista nämä vaiheet ja määritä myyntisyklille niin monta vaihetta kuin haluat.</span><span class="sxs-lookup"><span data-stu-id="aa497-123">Repeat these steps to set up as many stages as you want within the sales cycle.</span></span>
 
-## <a name="to-assign-stage-cycles-to-opportunities"></a>Syklin vaiheiden määrittäminen mahdollisuuksille
-Kun olet lisännyt mahdollisuuksien myyntisyklin, voit lisätä myyntimahdollisuuksia ja liittää mahdollisuuksiin vaiheen syklin määrittämällä **Myyntisyklin koodi** -kentän. Lisätietoja on kohdassa [Toimintaohje: Myyntimahdollisuuksien luominen](marketing-how-create-opportunities.md).
+## <a name="to-assign-stage-cycles-to-opportunities"></a><span data-ttu-id="aa497-124">Syklin vaiheiden määrittäminen mahdollisuuksille</span><span class="sxs-lookup"><span data-stu-id="aa497-124">To assign stage cycles to opportunities</span></span>
+<span data-ttu-id="aa497-125">Kun olet lisännyt mahdollisuuksien myyntisyklin, voit lisätä myyntimahdollisuuksia ja liittää mahdollisuuksiin vaiheen syklin määrittämällä **Myyntisyklin koodi** -kentän.</span><span class="sxs-lookup"><span data-stu-id="aa497-125">After you add the opportunities stage cycle, you can start to add sales opportunities, and then assign the stage cycle to opportunities by setting the **Sales Cycle Code** field.</span></span> <span data-ttu-id="aa497-126">Lisätietoja on kohdassa [Toimintaohje: Myyntimahdollisuuksien luominen](marketing-how-create-opportunities.md).</span><span class="sxs-lookup"><span data-stu-id="aa497-126">For more information, see [How to: Create Sales Opportunities](marketing-how-create-opportunities.md).</span></span>
 
-## <a name="to-set-up-activities-with-tasks"></a>Tehtäviä sisältävien toimintojen määrittäminen
-Voit yhdistää toiminnoissa useita tehtäviä, kuten kutakin vaihetta koskeva tehtävän. Toiminnon tehtävät liittyvät toisiinsa päivämääräkaavan avulla. Voit määrittää toimintoja mahdollisuuksille, myyjille tai kontakteille.
+## <a name="to-set-up-activities-with-tasks"></a><span data-ttu-id="aa497-127">Tehtäviä sisältävien toimintojen määrittäminen</span><span class="sxs-lookup"><span data-stu-id="aa497-127">To set up activities with tasks</span></span>
+<span data-ttu-id="aa497-128">Voit yhdistää toiminnoissa useita tehtäviä, kuten kutakin vaihetta koskeva tehtävän.</span><span class="sxs-lookup"><span data-stu-id="aa497-128">You can combine multiple task, for example tasks that each represent a step, in activities.</span></span> <span data-ttu-id="aa497-129">Toiminnon tehtävät liittyvät toisiinsa päivämääräkaavan avulla.</span><span class="sxs-lookup"><span data-stu-id="aa497-129">Activity tasks are related to each other by a date formula.</span></span> <span data-ttu-id="aa497-130">Voit määrittää toimintoja mahdollisuuksille, myyjille tai kontakteille.</span><span class="sxs-lookup"><span data-stu-id="aa497-130">You can assign activities to opportunities, salespeople, or contacts.</span></span>
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Myyntisyklit** ja valitse sitten aiheeseen liittyvä linkki.
-2. Valitse **Uusi**-toiminto ja täytä tarvittavat kentät.
-3. Täytä **Rivit**-pikavälilehdessä kentät, joilla määritetään vähintään yksi toiminnon tehtävä.
+1. <span data-ttu-id="aa497-131">Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Myyntisyklit** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="aa497-131">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Activities**, and then choose the related link.</span></span>
+2. <span data-ttu-id="aa497-132">Valitse **Uusi**-toiminto ja täytä tarvittavat kentät.</span><span class="sxs-lookup"><span data-stu-id="aa497-132">Choose the **New** action, and fill in the fields as necessary.</span></span>
+3. <span data-ttu-id="aa497-133">Täytä **Rivit**-pikavälilehdessä kentät, joilla määritetään vähintään yksi toiminnon tehtävä.</span><span class="sxs-lookup"><span data-stu-id="aa497-133">On the **Lines** FastTab, fill in the fields as necessary to define one or more tasks in the activity.</span></span>
 
-## <a name="to-assign-tasks-or-activities-of-tasks-to-opportunities"></a>Tehtävien tai tehtävätoimintojen määrittäminen mahdollisuuksiin
-Kun ole määrittänyt tehtävän, voit määrittää sen myyntimahdollisuudelle ja siten toiminnon, jolle tehtävä kuuluu.
+## <a name="to-assign-tasks-or-activities-of-tasks-to-opportunities"></a><span data-ttu-id="aa497-134">Tehtävien tai tehtävätoimintojen määrittäminen mahdollisuuksiin</span><span class="sxs-lookup"><span data-stu-id="aa497-134">To assign tasks or activities of tasks to opportunities</span></span>
+<span data-ttu-id="aa497-135">Kun ole määrittänyt tehtävän, voit määrittää sen myyntimahdollisuudelle ja siten toiminnon, jolle tehtävä kuuluu.</span><span class="sxs-lookup"><span data-stu-id="aa497-135">When you have set up a task, you can assign it to a sales opportunity and thereby assign the activity that the task belongs to.</span></span>
 
 > [!NOTE]  
->   Tässä menettelyssä toimintotehtävät määritetään mahdollisuuksille. Tehtävät määritetään myyjille ja kontakteille vastaavasti.
+>   <span data-ttu-id="aa497-136">Tässä menettelyssä toimintotehtävät määritetään mahdollisuuksille.</span><span class="sxs-lookup"><span data-stu-id="aa497-136">This procedure describes how to assign activity tasks to opportunities.</span></span> <span data-ttu-id="aa497-137">Tehtävät määritetään myyjille ja kontakteille vastaavasti.</span><span class="sxs-lookup"><span data-stu-id="aa497-137">the steps are similar when you assign tasks to salespeople and contacts.</span></span>
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Mahdollisuudet** ja valitse sitten aiheeseen liittyvä linkki.
-2. Valitse ensin mahdollisuus ja sitten **Tehtävät**-toiminto.
-3. Valitse **Tehtäväluettelo**-ikkunassa **Luo tehtävä** -toiminto.
-4.  Täytä **Luo tehtävä** -ikkunassa tarvittavat kentät.
+1. <span data-ttu-id="aa497-138">Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Mahdollisuudet** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="aa497-138">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Opportunities**, and then choose the related link.</span></span>
+2. <span data-ttu-id="aa497-139">Valitse ensin mahdollisuus ja sitten **Tehtävät**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="aa497-139">Select an opportunity, and then choose the **Tasks** action.</span></span>
+3. <span data-ttu-id="aa497-140">Valitse **Tehtäväluettelo**-ikkunassa **Luo tehtävä** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="aa497-140">In the **Task List** window, choose the **Create Task** action.</span></span>
+4.  <span data-ttu-id="aa497-141">Täytä **Luo tehtävä** -ikkunassa tarvittavat kentät.</span><span class="sxs-lookup"><span data-stu-id="aa497-141">The **Create Task** window, fill in the fields as necessary.</span></span>
 
-    Huomaa, että **Mahdollisuus**-kenttä on määritetty automaattisesti kyseiselle mahdollisuudelle.
-5. Valitse **OK**-painike.
-6. Valitse **Tehtäväluettelo**-ikkunassa ensin uusi tehtävä ja sitten **Määritä aktiviteetit** -toiminto.
-7. Täytä **Määritä aktiviteetti** -ikkunassa tarvittavat kentät ja valitse sitten **OK**-painike.
+    <span data-ttu-id="aa497-142">Huomaa, että **Mahdollisuus**-kenttä on määritetty automaattisesti kyseiselle mahdollisuudelle.</span><span class="sxs-lookup"><span data-stu-id="aa497-142">Notice in the **Opportunity** field, that it is automatically assigned to the opportunity in question.</span></span>
+5. <span data-ttu-id="aa497-143">Valitse **OK**-painike.</span><span class="sxs-lookup"><span data-stu-id="aa497-143">Choose the **OK** button.</span></span>
+6. <span data-ttu-id="aa497-144">Valitse **Tehtäväluettelo**-ikkunassa ensin uusi tehtävä ja sitten **Määritä aktiviteetit** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="aa497-144">In the **Task List** window, select the new task, and then choose the **Assign Activities** action.</span></span>
+7. <span data-ttu-id="aa497-145">Täytä **Määritä aktiviteetti** -ikkunassa tarvittavat kentät ja valitse sitten **OK**-painike.</span><span class="sxs-lookup"><span data-stu-id="aa497-145">In the **Assign Activity** window, fill in the fields as necessary, and then choose the **OK** button.</span></span>
 
-## <a name="see-also"></a>Katso myös
-[Myyntimahdollisuuksien käsitteleminen](marketing-processing-sales-opportunities.md)  
-[Myynti](sales-manage-sales.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="aa497-146">Katso myös</span><span class="sxs-lookup"><span data-stu-id="aa497-146">See Also</span></span>
+[<span data-ttu-id="aa497-147">Myyntimahdollisuuksien käsitteleminen</span><span class="sxs-lookup"><span data-stu-id="aa497-147">Processing Sales Opportunities</span></span>](marketing-processing-sales-opportunities.md)  
+[<span data-ttu-id="aa497-148">Myynti</span><span class="sxs-lookup"><span data-stu-id="aa497-148">Sales</span></span>](sales-manage-sales.md)  
+<span data-ttu-id="aa497-149">[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="aa497-149">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 

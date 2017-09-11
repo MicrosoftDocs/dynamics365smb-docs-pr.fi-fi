@@ -16,68 +16,67 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 50ea98d45875fa418d12c5ba378f26208d739126
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="how-to-create-jobs"></a>Toimintaohje: Projektien luominen
-Uuden projektin aloittamisen yhteydessä on luotava projektikortti sekä integroidut projektitehtävät ja projektin suunnittelurivit kahteen eri tasoon.  
+# <a name="how-to-create-jobs"></a><span data-ttu-id="eb93e-103">Toimintaohje: Projektien luominen</span><span class="sxs-lookup"><span data-stu-id="eb93e-103">How to: Create Jobs</span></span>
+<span data-ttu-id="eb93e-104">Uuden projektin aloittamisen yhteydessä on luotava projektikortti sekä integroidut projektitehtävät ja projektin suunnittelurivit kahteen eri tasoon.</span><span class="sxs-lookup"><span data-stu-id="eb93e-104">When you start a new project, you must create a job card with integrated job tasks and job planning lines, structured in two layers.</span></span>  
 
-Ensimmäinen taso koostuu projektitehtävistä. Projektille on luotava vähintään yksi projektitehtävä, koska kirjaukset viittaavat projektitehtävään. Kun projektissa on vähintään yksi projektitehtävä, voit määrittää projektin suunnittelurivejä ja kirjata projektin kulutuksen.
+<span data-ttu-id="eb93e-105">Ensimmäinen taso koostuu projektitehtävistä.</span><span class="sxs-lookup"><span data-stu-id="eb93e-105">The first layer consists of job tasks.</span></span> <span data-ttu-id="eb93e-106">Projektille on luotava vähintään yksi projektitehtävä, koska kirjaukset viittaavat projektitehtävään.</span><span class="sxs-lookup"><span data-stu-id="eb93e-106">You must create at least one job task per job because all posting refers to a job task.</span></span> <span data-ttu-id="eb93e-107">Kun projektissa on vähintään yksi projektitehtävä, voit määrittää projektin suunnittelurivejä ja kirjata projektin kulutuksen.</span><span class="sxs-lookup"><span data-stu-id="eb93e-107">Having at least one job task in your job enables you to set up job planning lines and to post consumption to the job.</span></span>
 
-Toinen taso koostuu projektin suunnitteluriveistä, jotka määrittävät yksityiskohtaisesti resurssien ja nimikkeiden käytön sekä erilaiset kirjanpidon kulut.
+<span data-ttu-id="eb93e-108">Toinen taso koostuu projektin suunnitteluriveistä, jotka määrittävät yksityiskohtaisesti resurssien ja nimikkeiden käytön sekä erilaiset kirjanpidon kulut.</span><span class="sxs-lookup"><span data-stu-id="eb93e-108">The second layer consists of job planning lines, which specify the detailed use of resources, items and various general ledger expenses.</span></span>
 
-Tason rakenteen avulla voit jakaa projektin pienemmiksi tehtäviksi ja käyttää tarkempia tietoja budjetoinnissa, tarjouksissa ja rekisteröinnissä. Lisäksi saat sen avulla tietoja projektin etenemisestä. Voit seurata esimerkiksi sitä, miten olet saavuttanut määritetyt välitavoitteet tai oletko saavuttamassa budjettiin määritetyt tavoitteet.
-
-> [!NOTE]  
->   **Projektipäällikkö**-roolikeskuksen **Uusi projekti** -toiminto käynnistää avustetun asennuksen, jonka ohjaa vaihe vaiheelta projektin ja integroitujen tehtävien ja suunnittelurivien luomisessa. Seuraavassa kerrotaan, miten vaiheet suoritetaan manuaalisesti.
+<span data-ttu-id="eb93e-109">Tason rakenteen avulla voit jakaa projektin pienemmiksi tehtäviksi ja käyttää tarkempia tietoja budjetoinnissa, tarjouksissa ja rekisteröinnissä.</span><span class="sxs-lookup"><span data-stu-id="eb93e-109">The layer structure enables you to divide the job into smaller tasks, and therefore use more specific details in budgeting, quotes, and registration.</span></span> <span data-ttu-id="eb93e-110">Lisäksi saat sen avulla tietoja projektin etenemisestä.</span><span class="sxs-lookup"><span data-stu-id="eb93e-110">In addition, it gives you insight into how a job is progressing.</span></span> <span data-ttu-id="eb93e-111">Voit seurata esimerkiksi sitä, miten olet saavuttanut määritetyt välitavoitteet tai oletko saavuttamassa budjettiin määritetyt tavoitteet.</span><span class="sxs-lookup"><span data-stu-id="eb93e-111">For example, you can track whether you are meeting designated milestones or if you are on target to meet budget expectations.</span></span>
 
 > [!NOTE]  
->   Tämä toiminto edellyttää, että kokemukseksi on valittu **Ohjelmistopaketti**. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)] -kokemuksen mukauttaminen](ui-experiences.md).
-
-## <a name="to-create-a-job-card"></a>Projektikortin luominen
-Luo projektikortti ja luo sitten projektikortille työtehtävä ja projektin suunnittelurivit.
-
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Projektit** ja valitse sitten aiheeseen liittyvä linkki.  
-2. Valitse **Uusi**-toiminto ja täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Voit määrittää projektille muiden projektien tiedot valitsemalla **Kopioi projekti** -toiminnon, täyttämällä tarvittavat kentät ja valitsemalla sitten **OK**-painikkeen.
+>   <span data-ttu-id="eb93e-112">**Projektipäällikkö**-roolikeskuksen **Uusi projekti** -toiminto käynnistää avustetun asennuksen, jonka ohjaa vaihe vaiheelta projektin ja integroitujen tehtävien ja suunnittelurivien luomisessa.</span><span class="sxs-lookup"><span data-stu-id="eb93e-112">The **New Job** action on the **Project Manager** Role Center launches an assisted setup that guides you through the steps of creating a job with integrated tasks and planning lines.</span></span> <span data-ttu-id="eb93e-113">Seuraavassa kerrotaan, miten vaiheet suoritetaan manuaalisesti.</span><span class="sxs-lookup"><span data-stu-id="eb93e-113">The following procedure describes how to perform the steps manually.</span></span>
 
 > [!NOTE]  
->   Jos projektissa käytetään aikaraportteja, myös vastuussa oleva henkilö on määritettävä. Tämä henkilö voi hyväksyä työhön liittyvien työntekijätehtävien tuntilomakkeet. Lisätietoja on kohdassa [Toimintaohje: Aikaraporttien määrittäminen](projects-how-setup-time-sheets.md).
+>   <span data-ttu-id="eb93e-114">Tämä toiminto edellyttää, että kokemukseksi on valittu **Ohjelmistopaketti**.</span><span class="sxs-lookup"><span data-stu-id="eb93e-114">This functionality requires that your experience is set to **Suite**.</span></span> <span data-ttu-id="eb93e-115">Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)] -kokemuksen mukauttaminen](ui-experiences.md).</span><span class="sxs-lookup"><span data-stu-id="eb93e-115">For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).</span></span>
 
-## <a name="to-create-tasks-for-a-job"></a>Luo projektille tehtäviä
-Projektin luomisen keskeinen osa on määrittää siihen liittyvät tehtävät. Se tehdään lisäämällä **Projektikortti**-ikkunan **Tehtävät**-pikavälilehteen yksi tehtävä riville. Jokaisella projektilla on oltava vähintään yksi tehtävä.
+## <a name="to-create-a-job-card"></a><span data-ttu-id="eb93e-116">Projektikortin luominen</span><span class="sxs-lookup"><span data-stu-id="eb93e-116">To create a job card</span></span>
+<span data-ttu-id="eb93e-117">Luo projektikortti ja luo sitten projektikortille työtehtävä ja projektin suunnittelurivit.</span><span class="sxs-lookup"><span data-stu-id="eb93e-117">You create a job card and then create job task lines and job planning lines for it.</span></span>
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Projektit** ja valitse sitten aiheeseen liittyvä linkki.
-2. Avaa asianmukaisen projektin projektikortti.
-3. Täytä **Tehtävät**-pikavälilehden uuden rivin kentät tarvittaessa.
-4. Kun haluat sisentää tehtäviä ja luoda hierarkian, valitse **Tehtävät**-toiminto ja sen jälkeen **Sisennä projektitehtävät** -toiminto.
-5. Toista vaiheet 3 ja 4 kaikille projektissa tarvittaville tehtäville.
-6. Voit määrittää projektitehtäville muiden projektitehtävien tiedot valitsemalla **Kopioi projektitehtävät kohteesta** -toiminnon, täyttämällä tarvittavat kentät ja valitsemalla sitten **OK**-painikkeen.
+1. <span data-ttu-id="eb93e-118">Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Projektit** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="eb93e-118">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="eb93e-119">Valitse **Uusi**-toiminto ja täytä tarvittavat kentät.</span><span class="sxs-lookup"><span data-stu-id="eb93e-119">Choose the **New** action, and then fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. <span data-ttu-id="eb93e-120">Voit määrittää projektille muiden projektien tiedot valitsemalla **Kopioi projekti** -toiminnon, täyttämällä tarvittavat kentät ja valitsemalla sitten **OK**-painikkeen.</span><span class="sxs-lookup"><span data-stu-id="eb93e-120">To specify the job with information on other jobs, choose the **Copy Job** action, fill in the fields as necessary, and then choose the **OK** button.</span></span>
 
-## <a name="to-create-planning-lines-for-a-job"></a>Projektin suunnittelurivien luominen
-Voit tarkentaa uusia projektitehtäviä projektin suunnitteluriveillä. Suunnittelurivin avulla voidaan taltioida kaikki tiedot, joita haluat seurata työssä. Voit käyttää suunnittelurivejä lisätäksesi tietoja, muun muassa tiedot siitä, mitä resursseja tarvitaan tai kerätään ja mitä nimikkeitä tarvitaan projektin suorittamisessa. Voit esimerkiksi liittää projektia koskevan asiakkaan hyväksynnän hankkimisessa käytettävän tehtävän nimikkeiden, kuten asiakkaan kanssa käydyn neuvottelun ja resurssin määrittämisen, suunnitteluriveihin.  
+> [!NOTE]  
+>   <span data-ttu-id="eb93e-121">Jos projektissa käytetään aikaraportteja, myös vastuussa oleva henkilö on määritettävä.</span><span class="sxs-lookup"><span data-stu-id="eb93e-121">If you are using time sheets with your job, you must also designate a person responsible.</span></span> <span data-ttu-id="eb93e-122">Tämä henkilö voi hyväksyä työhön liittyvien työntekijätehtävien tuntilomakkeet.</span><span class="sxs-lookup"><span data-stu-id="eb93e-122">This person can approve time sheets for the employee tasks associated with the job.</span></span> <span data-ttu-id="eb93e-123">Lisätietoja on kohdassa [Toimintaohje: Aikaraporttien määrittäminen](projects-how-setup-time-sheets.md).</span><span class="sxs-lookup"><span data-stu-id="eb93e-123">For more information, see [How to: Set Up Timesheets](projects-how-setup-time-sheets.md).</span></span>
 
-Projektin suunnittelurivin tyyppi voi olla jokin seuraavista tyypeistä.  
+## <a name="to-create-tasks-for-a-job"></a><span data-ttu-id="eb93e-124">Luo projektille tehtäviä</span><span class="sxs-lookup"><span data-stu-id="eb93e-124">To create tasks for a job</span></span>
+<span data-ttu-id="eb93e-125">Projektin luomisen keskeinen osa on määrittää siihen liittyvät tehtävät.</span><span class="sxs-lookup"><span data-stu-id="eb93e-125">A key part of creating a job is to specify the various tasks involved in the job.</span></span> <span data-ttu-id="eb93e-126">Se tehdään lisäämällä **Projektikortti**-ikkunan **Tehtävät**-pikavälilehteen yksi tehtävä riville.</span><span class="sxs-lookup"><span data-stu-id="eb93e-126">You do this by adding new lines on the **Tasks** FastTab in the **Job Card** window, one task per line.</span></span> <span data-ttu-id="eb93e-127">Jokaisella projektilla on oltava vähintään yksi tehtävä.</span><span class="sxs-lookup"><span data-stu-id="eb93e-127">Every job must have at least one task.</span></span>
 
-| Tyyppi | Kuvaus |
+1. <span data-ttu-id="eb93e-128">Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Projektit** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="eb93e-128">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs**, and then choose the related link.</span></span>
+2. <span data-ttu-id="eb93e-129">Avaa asianmukaisen projektin projektikortti.</span><span class="sxs-lookup"><span data-stu-id="eb93e-129">Open the job card for a relevant job.</span></span>
+3. <span data-ttu-id="eb93e-130">Täytä **Tehtävät**-pikavälilehden uuden rivin kentät tarvittaessa.</span><span class="sxs-lookup"><span data-stu-id="eb93e-130">On the **Tasks** FastTab, fill in the fields as necessary on a new line.</span></span>
+4. <span data-ttu-id="eb93e-131">Kun haluat sisentää tehtäviä ja luoda hierarkian, valitse **Tehtävät**-toiminto ja sen jälkeen **Sisennä projektitehtävät** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="eb93e-131">To indent tasks and create a hierarchy, Choose the **Tasks** action, the then choose **Indent Job Tasks** action.</span></span>
+5. <span data-ttu-id="eb93e-132">Toista vaiheet 3 ja 4 kaikille projektissa tarvittaville tehtäville.</span><span class="sxs-lookup"><span data-stu-id="eb93e-132">Repeat steps 3 and 4 for all the tasks that you need for the job.</span></span>
+6. <span data-ttu-id="eb93e-133">Voit määrittää projektitehtäville muiden projektitehtävien tiedot valitsemalla **Kopioi projektitehtävät kohteesta** -toiminnon, täyttämällä tarvittavat kentät ja valitsemalla sitten **OK**-painikkeen.</span><span class="sxs-lookup"><span data-stu-id="eb93e-133">To specify the job tasks with information on other job tasks, choose the **Copy Job Tasks from** action, fill in the fields as necessary, and then choose the **OK** button.</span></span>
+
+## <a name="to-create-planning-lines-for-a-job"></a><span data-ttu-id="eb93e-134">Projektin suunnittelurivien luominen</span><span class="sxs-lookup"><span data-stu-id="eb93e-134">To create planning lines for a job</span></span>
+<span data-ttu-id="eb93e-135">Voit tarkentaa uusia projektitehtäviä projektin suunnitteluriveillä.</span><span class="sxs-lookup"><span data-stu-id="eb93e-135">You can refine your new job tasks on job planning lines.</span></span> <span data-ttu-id="eb93e-136">Suunnittelurivin avulla voidaan taltioida kaikki tiedot, joita haluat seurata työssä.</span><span class="sxs-lookup"><span data-stu-id="eb93e-136">A planning line can be used to capture any information that you want to track for a job.</span></span> <span data-ttu-id="eb93e-137">Voit käyttää suunnittelurivejä lisätäksesi tietoja, muun muassa tiedot siitä, mitä resursseja tarvitaan tai kerätään ja mitä nimikkeitä tarvitaan projektin suorittamisessa.</span><span class="sxs-lookup"><span data-stu-id="eb93e-137">You can use planning lines to add information such as what resources are required or to capture what items are needed to perform the job.</span></span> <span data-ttu-id="eb93e-138">Voit esimerkiksi liittää projektia koskevan asiakkaan hyväksynnän hankkimisessa käytettävän tehtävän nimikkeiden, kuten asiakkaan kanssa käydyn neuvottelun ja resurssin määrittämisen, suunnitteluriveihin.</span><span class="sxs-lookup"><span data-stu-id="eb93e-138">For example, if you have a task to obtain customer approval of a job, you can associate that task with planning lines for items such as meeting with the customer and assigning a resource.</span></span>  
+
+<span data-ttu-id="eb93e-139">Projektin suunnittelurivin tyyppi voi olla jokin seuraavista tyypeistä.</span><span class="sxs-lookup"><span data-stu-id="eb93e-139">A job planning line can have one of the following types.</span></span>  
+
+| <span data-ttu-id="eb93e-140">Tyyppi</span><span class="sxs-lookup"><span data-stu-id="eb93e-140">Type</span></span> | <span data-ttu-id="eb93e-141">Kuvaus</span><span class="sxs-lookup"><span data-stu-id="eb93e-141">Description</span></span> |
 | --- | --- |
-| **Budjetti** |Projektin käytön ja kustannusten arviointi, yleensä Aika ja materiaali -tyyppisessä projektissa. Tämän tyyppisiä suunnittelurivejä ei voi laskuttaa. |
-| **Laskutettava** |Asiakkaan arviolaskutus, yleensä kiinteähintainen projekti. |
-| **Sekä budjetti että laskutettava** |Budjetoitu käyttö on sama kuin laskutettava käyttö. |
+| <span data-ttu-id="eb93e-142">**Budjetti**</span><span class="sxs-lookup"><span data-stu-id="eb93e-142">**Budget**</span></span> |<span data-ttu-id="eb93e-143">Projektin käytön ja kustannusten arviointi, yleensä Aika ja materiaali -tyyppisessä projektissa.</span><span class="sxs-lookup"><span data-stu-id="eb93e-143">Provides estimated usage and costs for the job, typically in a time and materials type project.</span></span> <span data-ttu-id="eb93e-144">Tämän tyyppisiä suunnittelurivejä ei voi laskuttaa.</span><span class="sxs-lookup"><span data-stu-id="eb93e-144">Planning lines of this type cannot be invoiced.</span></span> |
+| <span data-ttu-id="eb93e-145">**Laskutettava**</span><span class="sxs-lookup"><span data-stu-id="eb93e-145">**Billable**</span></span> |<span data-ttu-id="eb93e-146">Asiakkaan arviolaskutus, yleensä kiinteähintainen projekti.</span><span class="sxs-lookup"><span data-stu-id="eb93e-146">Provides estimated invoicing to the customer, typically in a fixed price project.</span></span> |
+| <span data-ttu-id="eb93e-147">**Sekä budjetti että laskutettava**</span><span class="sxs-lookup"><span data-stu-id="eb93e-147">**Both Budget and Billable**</span></span> |<span data-ttu-id="eb93e-148">Budjetoitu käyttö on sama kuin laskutettava käyttö.</span><span class="sxs-lookup"><span data-stu-id="eb93e-148">Provides budgeted usage equal to what you want to invoice.</span></span> |
 
-**Huomautus**. Kustannustiedot täytetään automaattisesti projektin suunnittelurivien tietojen lisäyksen aikana. Esimerkiksi resurssien ja nimikkeiden kustannus, hinta ja alennus perustuvat resurssin ja nimikkeen kortteihin määritettyihin tietoihin.
+<span data-ttu-id="eb93e-149">**Huomautus**.</span><span class="sxs-lookup"><span data-stu-id="eb93e-149">**Note**.</span></span> <span data-ttu-id="eb93e-150">Kustannustiedot täytetään automaattisesti projektin suunnittelurivien tietojen lisäyksen aikana.</span><span class="sxs-lookup"><span data-stu-id="eb93e-150">As you enter information on job planning lines, cost information is automatically filled in.</span></span> <span data-ttu-id="eb93e-151">Esimerkiksi resurssien ja nimikkeiden kustannus, hinta ja alennus perustuvat resurssin ja nimikkeen kortteihin määritettyihin tietoihin.</span><span class="sxs-lookup"><span data-stu-id="eb93e-151">For example, the cost, price, and discount for resources and items are initially based on the information that is defined on the resource and item cards.</span></span>
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Projektit** ja valitse sitten aiheeseen liittyvä linkki.
-2. Avaa asianmukainen projektikortti.
-3. Valitse projektitehtävä, jonka **Projektitehtävätyyppi**-kentän arvo on **Kirjaus**. Valitse sitten **Projektin suunnittelurivit** -toiminto.  
-4. Täytä **Projektin suunnittelurivit** -ikkunan uuden rivin tarvittavat kentät.
-5. Toista vaiheet 3 ja 4 kaikille projektitehtävässä tarvittaville suunnitteluriveille.
+1. <span data-ttu-id="eb93e-152">Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Projektit** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="eb93e-152">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs**, and then choose the related link.</span></span>
+2. <span data-ttu-id="eb93e-153">Avaa asianmukainen projektikortti.</span><span class="sxs-lookup"><span data-stu-id="eb93e-153">Open a relevant job card.</span></span>
+3. <span data-ttu-id="eb93e-154">Valitse projektitehtävä, jonka **Projektitehtävätyyppi**-kentän arvo on **Kirjaus**. Valitse sitten **Projektin suunnittelurivit** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="eb93e-154">Select a job task for which the **Job Task Type** field contains **Posting**, and then choose the **Job Planning Lines** action.</span></span>  
+4. <span data-ttu-id="eb93e-155">Täytä **Projektin suunnittelurivit** -ikkunan uuden rivin tarvittavat kentät.</span><span class="sxs-lookup"><span data-stu-id="eb93e-155">In the **Job Planning Lines** window, on a new line, fill in the fields as necessary.</span></span>
+5. <span data-ttu-id="eb93e-156">Toista vaiheet 3 ja 4 kaikille projektitehtävässä tarvittaville suunnitteluriveille.</span><span class="sxs-lookup"><span data-stu-id="eb93e-156">Repeat steps 3 and 4 for all planning lines that you need for the job task.</span></span>
 
-## <a name="see-also"></a>Katso myös
-[Projektinhallinta](projects-manage-projects.md)  
-[Rahoitus](finance.md)  
-[Osto](purchasing-manage-purchasing.md)         
-[Myynti](sales-manage-sales.md)      
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+## <a name="see-also"></a><span data-ttu-id="eb93e-157">Katso myös</span><span class="sxs-lookup"><span data-stu-id="eb93e-157">See Also</span></span>
+[<span data-ttu-id="eb93e-158">Projektinhallinta</span><span class="sxs-lookup"><span data-stu-id="eb93e-158">Project Management</span></span>](projects-manage-projects.md)  
+[<span data-ttu-id="eb93e-159">Rahoitus</span><span class="sxs-lookup"><span data-stu-id="eb93e-159">Finance</span></span>](finance.md)  
+<span data-ttu-id="eb93e-160">[Osto](purchasing-manage-purchasing.md)       </span><span class="sxs-lookup"><span data-stu-id="eb93e-160">[Purchasing](purchasing-manage-purchasing.md)       </span></span>  
+<span data-ttu-id="eb93e-161">[Myynti](sales-manage-sales.md)    </span><span class="sxs-lookup"><span data-stu-id="eb93e-161">[Sales](sales-manage-sales.md)    </span></span>  
+<span data-ttu-id="eb93e-162">[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="eb93e-162">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
 

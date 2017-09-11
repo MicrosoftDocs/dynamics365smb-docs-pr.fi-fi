@@ -16,106 +16,106 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: ef5c6f4b9106b1b289cc5ed060fc28426fde0ae2
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/11/2017
 
 
 ---
-# <a name="how-to-set-up-the-envestnet-yodlee-bank-feeds-service"></a>Toimintaohje: Envestnet Yodlee -pankkisyötepalvelun määrittäminen
-Voit tuoda pankistasi sähköisiä tiliotteita ja täyttää nopeasti **Maksujen täsmäytyskirjauskansio** -ikkunan maksujen kohdistamiseksi ja pankkitilin täsmäyttämiseksi. Lisätietoja on kohdassa [Maksujen kohdistaminen automaattisesti ja pankkitilien täsmäyttäminen](receivables-apply-payments-auto-reconcile-bank-accounts.md).
+# <a name="how-to-set-up-the-envestnet-yodlee-bank-feeds-service"></a><span data-ttu-id="bf3e7-103">Toimintaohje: Envestnet Yodlee -pankkisyötepalvelun määrittäminen</span><span class="sxs-lookup"><span data-stu-id="bf3e7-103">How to: Set Up the Envestnet Yodlee Bank Feeds Service</span></span>
+<span data-ttu-id="bf3e7-104">Voit tuoda pankistasi sähköisiä tiliotteita ja täyttää nopeasti **Maksujen täsmäytyskirjauskansio** -ikkunan maksujen kohdistamiseksi ja pankkitilin täsmäyttämiseksi.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-104">You can import electronic bank statements from your bank to quickly fill in the **Payment Reconciliation Journal** window so you can apply payments and reconcile the bank account.</span></span> <span data-ttu-id="bf3e7-105">Lisätietoja on kohdassa [Maksujen kohdistaminen automaattisesti ja pankkitilien täsmäyttäminen](receivables-apply-payments-auto-reconcile-bank-accounts.md).</span><span class="sxs-lookup"><span data-stu-id="bf3e7-105">For more information, see [Apply Payments Automatically and Reconcile Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md).</span></span>
 
-Envestnet Yodlee -pankkisyötepalvelu on asennettu [!INCLUDE[d365fin](includes/d365fin_md.md)]iin laajennuksena. Se on valmis käyttöönottoa varten. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md).
+<span data-ttu-id="bf3e7-106">Envestnet Yodlee -pankkisyötepalvelu on asennettu [!INCLUDE[d365fin](includes/d365fin_md.md)]iin laajennuksena. Se on valmis käyttöönottoa varten.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-106">The Envestnet Yodlee Bank Feeds service is installed as an extension to [!INCLUDE[d365fin](includes/d365fin_md.md)] and is ready to be enabled.</span></span> <span data-ttu-id="bf3e7-107">Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md).</span><span class="sxs-lookup"><span data-stu-id="bf3e7-107">For more information, see [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md).</span></span>
 
-Kun olet ottanut pankkisyötepalvelun käyttöön, pankkitili on linkitettävä siihen verkkopankkitiliin, josta syöte tulee. Voit linkittää pankkitilit verkkopankkitileihin seuraavissa erilaisissa skenaarioissa:
+<span data-ttu-id="bf3e7-108">Kun olet ottanut pankkisyötepalvelun käyttöön, pankkitili on linkitettävä siihen verkkopankkitiliin, josta syöte tulee.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-108">After you enable the bank feed service, you must link a bank account to the online bank account that the feed will come from.</span></span> <span data-ttu-id="bf3e7-109">Voit linkittää pankkitilit verkkopankkitileihin seuraavissa erilaisissa skenaarioissa:</span><span class="sxs-lookup"><span data-stu-id="bf3e7-109">You link bank accounts to online bank accounts in the following different scenarios:</span></span>
 
-* Verkkopankkitilille ei ole määritetty [!INCLUDE[d365fin](includes/d365fin_md.md)]in pankkitiliä. Tämän vuoksi luodaan pankkitili linkittämällä se verkkopankkitilistä.
-* [!INCLUDE[d365fin](includes/d365fin_md.md)]issa on pankkitili, jonka haluat linkittää verkkopankkitiliin.
-* Linkitetyn pankkitilin linkitys on peruutettava, koska haluat lopettaa tilin pankkisyötepalvelun käyttämisen.
-* Verkkopankkitilejä on muutettu, ja haluat päivittää [!INCLUDE[d365fin](includes/d365fin_md.md)]in pankkitilien tiedot.
+* <span data-ttu-id="bf3e7-110">Verkkopankkitilille ei ole määritetty [!INCLUDE[d365fin](includes/d365fin_md.md)]in pankkitiliä.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-110">A bank account does not exist in [!INCLUDE[d365fin](includes/d365fin_md.md)] for your online bank account.</span></span> <span data-ttu-id="bf3e7-111">Tämän vuoksi luodaan pankkitili linkittämällä se verkkopankkitilistä.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-111">Therefore, you create the bank account by linking from the online bank account.</span></span>
+* <span data-ttu-id="bf3e7-112">[!INCLUDE[d365fin](includes/d365fin_md.md)]issa on pankkitili, jonka haluat linkittää verkkopankkitiliin.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-112">A bank account exists in [!INCLUDE[d365fin](includes/d365fin_md.md)], which you want to link to an online bank account.</span></span>
+* <span data-ttu-id="bf3e7-113">Linkitetyn pankkitilin linkitys on peruutettava, koska haluat lopettaa tilin pankkisyötepalvelun käyttämisen.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-113">A linked bank account must be unlinked because you want to stop using the bank feed service for the account.</span></span>
+* <span data-ttu-id="bf3e7-114">Verkkopankkitilejä on muutettu, ja haluat päivittää [!INCLUDE[d365fin](includes/d365fin_md.md)]in pankkitilien tiedot.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-114">Online bank accounts have changed and you want to update the information on bank accounts in [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span>
 
-Kun pankkisyötepalvelu on otettu käyttöön, voit määrittää pankkitilille uusien tiliotteiden automaattisen tuonnin **Maksujen täsmäytyskirjauskansio** -ikkunaan kahden tunnin välein. Niiden maksujen tapahtumia, jotka on jo kohdistettu ja/tai täsmäytetty **Maksujen täsmäytyskirjauskansio** -ikkunassa, ei tuoda. Lisätietoja on “Pankin tiliotteiden automaattisen tuonnin ottaminen käyttöön” -osassa.
-
-> [!NOTE]  
->   Jos käytössä on yrityksen määrittämisen avustettu asennus, jotkin seuraavien toimenpiteiden yrityksen pankkitilin asennusvaiheet suoritetaan automaattisesti. Lisätietoja on kohdassa [Tervetuloa [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]iin](index.md).
-
-## <a name="to-enable-the-bank-feed-service"></a>Pankkisyötepalvelun ottaminen käyttöön
-1. Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Pankkitilit** ja valitse sitten aiheeseen liittyvä linkki.
-2. Avaa pankkisyötepalvelussa käytettävä pankkitili.
-3. Valitse **Pankkitili**-ikkunan **Pankin tiliotteen tuontimuoto** -kenttään YODLEEBANKFEED.  
-
-Pankkisyötepalvelu otetaan käyttöön, kun linkität pankkitilin siihen liittyvään verkkopankkitiliin. Tutustu seuraaviin toimiin.  
-
-## <a name="to-create-a-new-linked-bank-account"></a>Uuden linkitetyn pankkitilin luominen
-1. Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Pankkitilit** ja valitse sitten aiheeseen liittyvä linkki.
-2. Valitse asianmukainen pankkitili ja valitse sitten **Luo uusi linkitetty pankkitili**. Hetken kuluttua näyttöön avautuu **Pankkitilin linkitys** -ikkuna.
-
-    > [!NOTE]  
->   Tässä ikkunassa näytetään Envestnet Yodlee -pankkisyötepalvelun todellinen verkkosivu. Ikkunassa näkyvät termit ja toiminnot eivät ehkä vastaa tämän ohjeaiheen ohjeita.  
-3. Käytä **Verkkopankkitilin linkitys** -ikkunan **Linkitä tili** -ruudun hakutoimintoa, kun etsit pankin, jossa sinulla on vähintään yksi verkkopankkitili.
-4. Valitse pankin nimi. **Kirjaudu sisään** -ruutu avautuu.
-5. Syötä käyttäjätunnus ja salasana, jota käytät kirjautuessasi verkkopankkiin, ja valitse sitten **Seuraava**-painike.  
-6. Pankkisyötepalvelu valmistelee määritetyn pankin ensimmäisen verkkopankkitiliin ja [!INCLUDE[d365fin](includes/d365fin_md.md)]in uuden pankkitilin linkityksen.
-
-    > [!NOTE]  
->   Jos sinulla on pankissa useita verkkopankkitilejä, luo niille lisäpankkitilit [!INCLUDE[d365fin](includes/d365fin_md.md)]iin. Katso vaiheet 8–10.  
-
-    Kun prosessi on valmis, pankin nimi näkyy **Linkitetty**-välilehden **Omat tilit**-ruudussa. Sulkeissa oleva luku osoittaa linkitettyjen verkkopankkien määrän.  
-7. Valitse **OK**-painike.
-
-    Jos linkität vain yhden verkkopankkitilin **Pankkitilin kortti** -ikkuna avautuu ja verkkopankkitilin nimi näkyy, Nyt pankkitilin linkitystehtävä on valmis. Jäljellä on enää pankkitilin määrittäminen. Lisätietoja on kohdassa [Toimintaohje: Pankkitilien määrittäminen](bank-how-setup-bank-accounts.md).
-
-    Jos linkität useita verkkopankkitilejä, **Pankkitilin linkitys** -ikkuna avautuu. Tässä ikkunassa on luettelo verkkopankkitileistä, joita ei ole vielä linkitetty [!INCLUDE[d365fin](includes/d365fin_md.md)]in pankkitileihin. Noudata tällaisessa tapauksessa seuraavaa vaihetta.  
-8. Valitse **Pankkitilin linkitys** -ikkunassa verkkopankkitilin rivi ja valitse sitten **Linkitä uuteen pankkitiliin** -toiminto.  
-
-    Näyttöön avautuu uuden pankkitilin **Pankkitilin kortti** -ikkuna ja verkkopankkitilin nimi näkyy.
-
-    Jos [!INCLUDE[d365fin](includes/d365fin_md.md)]issa on jo pankkitili, johon haluat linkittää lisäverkkopankkitilin, noudata seuraavia ohjeita.  
-9. Valitse **Pankkitilin linkitys** -ikkunassa verkkopankkitilin rivi ja valitse sitten **Linkitä olemassa olevaan pankkitiliin** -toiminto.
-10. Valitse **Pankkitililuettelo**-ikkunassa pankkitili, johon linkitys tehdään, ja valitse sitten **OK**-painike.
-
-## <a name="to-link-a-bank-account-to-an-online-bank-account"></a>Pankkitilin linkittäminen verkkopankkitiliin
-1. Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Pankkitilit** ja valitse sitten aiheeseen liittyvä linkki.
-2. Valitse sen pankkitilin rivi, jota ei ole linkitetty verkkopankkitiliin, ja valitse sitten **Linkitä verkkopankkitiliin** -toiminto. Näyttöön avautuu **Verkkopankkitilin linkitys** -ikkuna, joka sisältää **Linkitä tili** -ruudussa annetun pankin nimen.
-3. Valitse pankin nimi. **Kirjaudu sisään** -ruutu avautuu.
-4. Syötä käyttäjätunnus ja salasana, jota käytät kirjautuessasi verkkopankkiin, ja valitse sitten **Seuraava**-painike.  
-
-    Pankkisyötepalvelu valmistelee [!INCLUDE[d365fin](includes/d365fin_md.md)]in pankkitilin ja liittyvän verkkopankkitilin linkityksen.  
-
-    Kun prosessi on valmis, pankin nimi näkyy **Linkitetty**-välilehden **Omat tilit**-ruudussa. Jos pankissa on useita pankkitilejä, vain vaiheessa 2 valittu pankkitili linkitetään.  
-5. Valitse **OK**-painike.
-
-**Pankkitililuettelo**-ikkunan **Linkitetty**-valintaruutu valitaan.
-
-## <a name="to-unlink-a-bank-account"></a>Pankkitilin linkityksen poistaminen
-1. Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Pankkitilit** ja valitse sitten aiheeseen liittyvä linkki.  
-2. Valitse sen linkitetyn pankkitilin rivi, jonka linkityksen liittyvään verkkopankkitiliin haluat poistaa. Valitse sitten **Poista verkkopankkitilin linkitys** -toiminto.
+<span data-ttu-id="bf3e7-115">Kun pankkisyötepalvelu on otettu käyttöön, voit määrittää pankkitilille uusien tiliotteiden automaattisen tuonnin **Maksujen täsmäytyskirjauskansio** -ikkunaan kahden tunnin välein.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-115">When the bank feed service is enabled, you can set a bank account up to automatically import new bank statements into the **Payment Reconciliation Journal** window every two hour.</span></span> <span data-ttu-id="bf3e7-116">Niiden maksujen tapahtumia, jotka on jo kohdistettu ja/tai täsmäytetty **Maksujen täsmäytyskirjauskansio** -ikkunassa, ei tuoda.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-116">Transactions for payments that have already been posted as applied and/or reconciled in the **Payment Reconciliation Journal** window will not be imported.</span></span> <span data-ttu-id="bf3e7-117">Lisätietoja on “Pankin tiliotteiden automaattisen tuonnin ottaminen käyttöön” -osassa.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-117">For more information, see the “To enable automatic import of bank statements” section.</span></span>
 
 > [!NOTE]  
->   Jos valitset vahvistusvalintaikkunassa **Kyllä**, verkkopankkitilin linkki poistetaan ja sisäänkirjaustiedot poistetaan. Voit linkittää pankkitilin uudelleen verkkopankkitiliin kirjautumalla pankkiin sisään uudelleen. Lisätietoja on “Pankkitilin linkittäminen verkkopankkitiliin“ -osassa.
+>   <span data-ttu-id="bf3e7-118">Jos käytössä on yrityksen määrittämisen avustettu asennus, jotkin seuraavien toimenpiteiden yrityksen pankkitilin asennusvaiheet suoritetaan automaattisesti.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-118">If you use the Set Up Company assisted setup, some of the steps in the following procedures happen automatically when you get to the company bank account setup.</span></span> <span data-ttu-id="bf3e7-119">Lisätietoja on kohdassa [Tervetuloa [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]iin](index.md).</span><span class="sxs-lookup"><span data-stu-id="bf3e7-119">For more information, see [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md).</span></span>
 
-## <a name="to-update-bank-account-linking"></a>Pankkitilin linkityksen päivittäminen
-1. Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Pankkitilit** ja valitse sitten aiheeseen liittyvä linkki.
-2. Valitse asianmukainen pankkitili ja valitse sitten **Päivitä pankkitilien linkitys** -toiminto.
+## <a name="to-enable-the-bank-feed-service"></a><span data-ttu-id="bf3e7-120">Pankkisyötepalvelun ottaminen käyttöön</span><span class="sxs-lookup"><span data-stu-id="bf3e7-120">To enable the bank feed service</span></span>
+1. <span data-ttu-id="bf3e7-121">Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Pankkitilit** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-121">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.</span></span>
+2. <span data-ttu-id="bf3e7-122">Avaa pankkisyötepalvelussa käytettävä pankkitili.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-122">Open the bank account that you will use for the bank feed service.</span></span>
+3. <span data-ttu-id="bf3e7-123">Valitse **Pankkitili**-ikkunan **Pankin tiliotteen tuontimuoto** -kenttään YODLEEBANKFEED.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-123">In the **Bank Account** window, in the **Bank Statement Import Format** field, select YODLEEBANKFEED.</span></span>  
 
-Jos **Pankkitililuettelo**-ikkunan linkitetyissä pankkitileissä esiintyy ongelmia, näyttöön avautuu **Pankkitilin linkitys** -ikkuna, jossa kerrotaan pankkitili, jota ongelmat koskevat. Ongelmien ratkaiseminen tapahtuu parhaiten poistamalla verkkopankkitilin linkitys ja luomalla linkitys uudelleen. Lisätietoja on “Pankkitilin linkittäminen verkkopankkitiliin“ -osassa.
+<span data-ttu-id="bf3e7-124">Pankkisyötepalvelu otetaan käyttöön, kun linkität pankkitilin siihen liittyvään verkkopankkitiliin.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-124">The bank feed service will be enabled when you link a bank account to its related online bank account.</span></span> <span data-ttu-id="bf3e7-125">Tutustu seuraaviin toimiin.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-125">See the next procedure.</span></span>  
 
-## <a name="to-enable-automatic-import-of-bank-statements"></a>Pankin tiliotteiden automaattisen tuonnin ottaminen käyttöön
-1. Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Pankkitilit** ja valitse sitten aiheeseen liittyvä linkki.
-2. Valitse linkitetyn pankkitilin rivi ja valitse sitten **Pankin tiliotteen automaattisen tuonnin asetukset** -toiminto.
-3. Määritä **Pankin tiliotteen automaattisen tuonnin asetukset** -ikkunan **Sisällytettyjen päivien lukumäärä** -kentässä, miltä kaukaiselta ajalta uudet pankkitapahtumat haetaan.
+## <a name="to-create-a-new-linked-bank-account"></a><span data-ttu-id="bf3e7-126">Uuden linkitetyn pankkitilin luominen</span><span class="sxs-lookup"><span data-stu-id="bf3e7-126">To create a new linked bank account</span></span>
+1. <span data-ttu-id="bf3e7-127">Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Pankkitilit** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-127">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.</span></span>
+2. <span data-ttu-id="bf3e7-128">Valitse asianmukainen pankkitili ja valitse sitten **Luo uusi linkitetty pankkitili**.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-128">Select the relevant bank account, and then choose the **Create New Linked Bank Account**.</span></span> <span data-ttu-id="bf3e7-129">Hetken kuluttua näyttöön avautuu **Pankkitilin linkitys** -ikkuna.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-129">The **Bank Account Linking** window opens after a few moments.</span></span>
 
     > [!NOTE]  
->   Suosittelemme arvoksi 7 päivää tai enemmän.  
-4. Valitse **Käytössä**-valintaruutu.  
+>   <span data-ttu-id="bf3e7-130">Tässä ikkunassa näytetään Envestnet Yodlee -pankkisyötepalvelun todellinen verkkosivu.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-130">This window shows the actual web page of the Envestnet Yodlee Bank Feeds service.</span></span> <span data-ttu-id="bf3e7-131">Ikkunassa näkyvät termit ja toiminnot eivät ehkä vastaa tämän ohjeaiheen ohjeita.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-131">Terminology and functionality in the window may not match instructions provided in this topic.</span></span>  
+3. <span data-ttu-id="bf3e7-132">Käytä **Verkkopankkitilin linkitys** -ikkunan **Linkitä tili** -ruudun hakutoimintoa, kun etsit pankin, jossa sinulla on vähintään yksi verkkopankkitili.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-132">In the **Online Bank Account Linking** window, in the **Link Account** pane, use the Search function to find the bank where you have one or more online bank accounts.</span></span>
+4. <span data-ttu-id="bf3e7-133">Valitse pankin nimi.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-133">Choose the bank name.</span></span> <span data-ttu-id="bf3e7-134">**Kirjaudu sisään** -ruutu avautuu.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-134">The **Log In** pane opens.</span></span>
+5. <span data-ttu-id="bf3e7-135">Syötä käyttäjätunnus ja salasana, jota käytät kirjautuessasi verkkopankkiin, ja valitse sitten **Seuraava**-painike.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-135">Enter the username and password that you use to log on to the online bank, and then choose the **Next** button.</span></span>  
+6. <span data-ttu-id="bf3e7-136">Pankkisyötepalvelu valmistelee määritetyn pankin ensimmäisen verkkopankkitiliin ja [!INCLUDE[d365fin](includes/d365fin_md.md)]in uuden pankkitilin linkityksen.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-136">The bank feed service prepares to link the first online bank account at the specified bank to a new bank account in [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span>
 
-**Maksujen täsmäytyskirjauskansio** -ikkuna näyttää nyt tunneittain kaikki uudet verkkopankissa tehdyt maksut.
+    > [!NOTE]  
+>   <span data-ttu-id="bf3e7-137">Jos sinulla on pankissa useita verkkopankkitilejä, luo niille lisäpankkitilit [!INCLUDE[d365fin](includes/d365fin_md.md)]iin.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-137">If you have more than one online bank account at the bank, you must create additional bank accounts in [!INCLUDE[d365fin](includes/d365fin_md.md)] for them.</span></span> <span data-ttu-id="bf3e7-138">Katso vaiheet 8–10.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-138">See steps 8 through 10.</span></span>  
+
+    <span data-ttu-id="bf3e7-139">Kun prosessi on valmis, pankin nimi näkyy **Linkitetty**-välilehden **Omat tilit**-ruudussa.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-139">After the process completes, the bank name will appear in the **My Accounts** pane on the **Linked** tab.</span></span> <span data-ttu-id="bf3e7-140">Sulkeissa oleva luku osoittaa linkitettyjen verkkopankkien määrän.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-140">The number in brackets indicates how many online bank accounts were linked.</span></span>  
+7. <span data-ttu-id="bf3e7-141">Valitse **OK**-painike.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-141">Choose the **OK** button.</span></span>
+
+    <span data-ttu-id="bf3e7-142">Jos linkität vain yhden verkkopankkitilin **Pankkitilin kortti** -ikkuna avautuu ja verkkopankkitilin nimi näkyy,</span><span class="sxs-lookup"><span data-stu-id="bf3e7-142">If you're only linking one online bank account, the **Bank Account Card** window opens and displays the name of the online bank account.</span></span> <span data-ttu-id="bf3e7-143">Nyt pankkitilin linkitystehtävä on valmis.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-143">In this case, the bank account linking task is completed.</span></span> <span data-ttu-id="bf3e7-144">Jäljellä on enää pankkitilin määrittäminen.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-144">All that's left to do is to set up the bank account.</span></span> <span data-ttu-id="bf3e7-145">Lisätietoja on kohdassa [Toimintaohje: Pankkitilien määrittäminen](bank-how-setup-bank-accounts.md).</span><span class="sxs-lookup"><span data-stu-id="bf3e7-145">For more information, see [How to: Set Up Bank Accounts](bank-how-setup-bank-accounts.md).</span></span>
+
+    <span data-ttu-id="bf3e7-146">Jos linkität useita verkkopankkitilejä, **Pankkitilin linkitys** -ikkuna avautuu. Tässä ikkunassa on luettelo verkkopankkitileistä, joita ei ole vielä linkitetty [!INCLUDE[d365fin](includes/d365fin_md.md)]in pankkitileihin.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-146">If you're linking more than one online bank accounts, the **Bank Account Linking** window opens and lists the online bank accounts that are not yet linked to bank accounts in [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span> <span data-ttu-id="bf3e7-147">Noudata tällaisessa tapauksessa seuraavaa vaihetta.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-147">In that case, follow the next step.</span></span>  
+8. <span data-ttu-id="bf3e7-148">Valitse **Pankkitilin linkitys** -ikkunassa verkkopankkitilin rivi ja valitse sitten **Linkitä uuteen pankkitiliin** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-148">In the **Bank Account Linking** window, select the line for an online bank account, and then choose the **Link to New Bank Account** action.</span></span>  
+
+    <span data-ttu-id="bf3e7-149">Näyttöön avautuu uuden pankkitilin **Pankkitilin kortti** -ikkuna ja verkkopankkitilin nimi näkyy.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-149">The **Bank Account Card** window for a new bank account opens and displays the name of the online bank account.</span></span>
+
+    <span data-ttu-id="bf3e7-150">Jos [!INCLUDE[d365fin](includes/d365fin_md.md)]issa on jo pankkitili, johon haluat linkittää lisäverkkopankkitilin, noudata seuraavia ohjeita.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-150">If a bank account already exists in [!INCLUDE[d365fin](includes/d365fin_md.md)] that you want to link the additional online bank account to, follow the next step.</span></span>  
+9. <span data-ttu-id="bf3e7-151">Valitse **Pankkitilin linkitys** -ikkunassa verkkopankkitilin rivi ja valitse sitten **Linkitä olemassa olevaan pankkitiliin** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-151">In the **Bank Account Linking** window, select the line for an online bank account, and then choose the **Link to Existing Bank Account** action.</span></span>
+10. <span data-ttu-id="bf3e7-152">Valitse **Pankkitililuettelo**-ikkunassa pankkitili, johon linkitys tehdään, ja valitse sitten **OK**-painike.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-152">In the **Bank Account List** window, select the bank account that you want to link to, and then choose the **OK** button.</span></span>
+
+## <a name="to-link-a-bank-account-to-an-online-bank-account"></a><span data-ttu-id="bf3e7-153">Pankkitilin linkittäminen verkkopankkitiliin</span><span class="sxs-lookup"><span data-stu-id="bf3e7-153">To link a bank account to an online bank account</span></span>
+1. <span data-ttu-id="bf3e7-154">Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Pankkitilit** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-154">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.</span></span>
+2. <span data-ttu-id="bf3e7-155">Valitse sen pankkitilin rivi, jota ei ole linkitetty verkkopankkitiliin, ja valitse sitten **Linkitä verkkopankkitiliin** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-155">Select the line for a bank account that is not linked to an online bank account, and then choose the **Link to Online Bank Account** action.</span></span> <span data-ttu-id="bf3e7-156">Näyttöön avautuu **Verkkopankkitilin linkitys** -ikkuna, joka sisältää **Linkitä tili** -ruudussa annetun pankin nimen.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-156">The **Online Bank Account Linking** window opens with the name of the bank prefilled in the **Link Account** pane.</span></span>
+3. <span data-ttu-id="bf3e7-157">Valitse pankin nimi.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-157">Choose the bank name.</span></span> <span data-ttu-id="bf3e7-158">**Kirjaudu sisään** -ruutu avautuu.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-158">The **Log In** pane opens.</span></span>
+4. <span data-ttu-id="bf3e7-159">Syötä käyttäjätunnus ja salasana, jota käytät kirjautuessasi verkkopankkiin, ja valitse sitten **Seuraava**-painike.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-159">Enter the username and password that you use to log on to the online bank, and then choose the **Next** button.</span></span>  
+
+    <span data-ttu-id="bf3e7-160">Pankkisyötepalvelu valmistelee [!INCLUDE[d365fin](includes/d365fin_md.md)]in pankkitilin ja liittyvän verkkopankkitilin linkityksen.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-160">The bank feed service prepares to link your bank account in [!INCLUDE[d365fin](includes/d365fin_md.md)] to the related online bank account.</span></span>  
+
+    <span data-ttu-id="bf3e7-161">Kun prosessi on valmis, pankin nimi näkyy **Linkitetty**-välilehden **Omat tilit**-ruudussa.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-161">When the process has completed successfully, the bank name will appear in the **My Accounts** pane on the **Linked** tab.</span></span> <span data-ttu-id="bf3e7-162">Jos pankissa on useita pankkitilejä, vain vaiheessa 2 valittu pankkitili linkitetään.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-162">If the bank has more than one bank account, only the bank account that you selected in step 2 is linked.</span></span>  
+5. <span data-ttu-id="bf3e7-163">Valitse **OK**-painike.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-163">Choose the **OK** button.</span></span>
+
+<span data-ttu-id="bf3e7-164">**Pankkitililuettelo**-ikkunan **Linkitetty**-valintaruutu valitaan.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-164">In the **Bank Account List** window, the **Linked** check box is selected.</span></span>
+
+## <a name="to-unlink-a-bank-account"></a><span data-ttu-id="bf3e7-165">Pankkitilin linkityksen poistaminen</span><span class="sxs-lookup"><span data-stu-id="bf3e7-165">To unlink a bank account</span></span>
+1. <span data-ttu-id="bf3e7-166">Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Pankkitilit** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-166">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="bf3e7-167">Valitse sen linkitetyn pankkitilin rivi, jonka linkityksen liittyvään verkkopankkitiliin haluat poistaa. Valitse sitten **Poista verkkopankkitilin linkitys** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-167">Select the line for a linked bank account that you want to unlink from its related online bank account, and the choose the **Unlink Online Bank Account** action.</span></span>
 
 > [!NOTE]  
->   Niiden maksujen tapahtumia, jotka on jo kohdistettu ja/tai täsmäytetty **Maksujen täsmäytyskirjauskansio** -ikkunassa, ei tuoda.
+>   <span data-ttu-id="bf3e7-168">Jos valitset vahvistusvalintaikkunassa **Kyllä**, verkkopankkitilin linkki poistetaan ja sisäänkirjaustiedot poistetaan.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-168">If you choose **Yes** on the confirmation dialog, the link to the online bank account is removed, and the log-in details are cleared.</span></span> <span data-ttu-id="bf3e7-169">Voit linkittää pankkitilin uudelleen verkkopankkitiliin kirjautumalla pankkiin sisään uudelleen.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-169">To link the bank account to the online bank account again, you must log on to the bank again.</span></span> <span data-ttu-id="bf3e7-170">Lisätietoja on “Pankkitilin linkittäminen verkkopankkitiliin“ -osassa.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-170">For more information, see the “To link a bank account to an online bank account“ section.</span></span>
 
-## <a name="see-also"></a>Katso myös
-[Pankkitoiminnan määrittäminen](bank-setup-banking.md)  
-[Pankkitilien hallinta](bank-manage-bank-accounts.md)  
-[Maksujen kohdistaminen automaattisesti ja pankkitilien täsmäyttäminen](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+## <a name="to-update-bank-account-linking"></a><span data-ttu-id="bf3e7-171">Pankkitilin linkityksen päivittäminen</span><span class="sxs-lookup"><span data-stu-id="bf3e7-171">To update bank account linking</span></span>
+1. <span data-ttu-id="bf3e7-172">Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Pankkitilit** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-172">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.</span></span>
+2. <span data-ttu-id="bf3e7-173">Valitse asianmukainen pankkitili ja valitse sitten **Päivitä pankkitilien linkitys** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-173">Select the relevant bank account, and then choose the **Update Bank Account Linking** action.</span></span>
+
+<span data-ttu-id="bf3e7-174">Jos **Pankkitililuettelo**-ikkunan linkitetyissä pankkitileissä esiintyy ongelmia, näyttöön avautuu **Pankkitilin linkitys** -ikkuna, jossa kerrotaan pankkitili, jota ongelmat koskevat.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-174">If issues exist for any of the linked bank accounts in the **Bank Account List** window, the **Bank Account Linking** window opens specifying which bank accounts have issues.</span></span> <span data-ttu-id="bf3e7-175">Ongelmien ratkaiseminen tapahtuu parhaiten poistamalla verkkopankkitilin linkitys ja luomalla linkitys uudelleen.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-175">Issues can best be resolved by unlinking the online bank account and then re-creating the link.</span></span> <span data-ttu-id="bf3e7-176">Lisätietoja on “Pankkitilin linkittäminen verkkopankkitiliin“ -osassa.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-176">For more information, see the “To link a bank account to an online bank account“ section.</span></span>
+
+## <a name="to-enable-automatic-import-of-bank-statements"></a><span data-ttu-id="bf3e7-177">Pankin tiliotteiden automaattisen tuonnin ottaminen käyttöön</span><span class="sxs-lookup"><span data-stu-id="bf3e7-177">To enable automatic import of bank statements</span></span>
+1. <span data-ttu-id="bf3e7-178">Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Pankkitilit** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-178">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.</span></span>
+2. <span data-ttu-id="bf3e7-179">Valitse linkitetyn pankkitilin rivi ja valitse sitten **Pankin tiliotteen automaattisen tuonnin asetukset** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-179">Select the line for a linked bank account, and then choose the **Automatic Bank Statement Import Setup** action.</span></span>
+3. <span data-ttu-id="bf3e7-180">Määritä **Pankin tiliotteen automaattisen tuonnin asetukset** -ikkunan **Sisällytettyjen päivien lukumäärä** -kentässä, miltä kaukaiselta ajalta uudet pankkitapahtumat haetaan.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-180">In the **Automatic Bank Statement Import Setup** window, in the **Number of Days Included** field, specify how far back in time to get new bank transactions for.</span></span>
+
+    > [!NOTE]  
+>   <span data-ttu-id="bf3e7-181">Suosittelemme arvoksi 7 päivää tai enemmän.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-181">It is recommended that you set this value to 7 days or more.</span></span>  
+4. <span data-ttu-id="bf3e7-182">Valitse **Käytössä**-valintaruutu.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-182">Select the **Enabled** check box.</span></span>  
+
+<span data-ttu-id="bf3e7-183">**Maksujen täsmäytyskirjauskansio** -ikkuna näyttää nyt tunneittain kaikki uudet verkkopankissa tehdyt maksut.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-183">Every hour, the **Payment Reconciliation Journal** window will display new payments that are made on the online bank account.</span></span>
+
+> [!NOTE]  
+>   <span data-ttu-id="bf3e7-184">Niiden maksujen tapahtumia, jotka on jo kohdistettu ja/tai täsmäytetty **Maksujen täsmäytyskirjauskansio** -ikkunassa, ei tuoda.</span><span class="sxs-lookup"><span data-stu-id="bf3e7-184">Transactions for payments that have already been posted as applied and/or reconciled in the **Payment Reconciliation Journal** window will not be imported.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="bf3e7-185">Katso myös</span><span class="sxs-lookup"><span data-stu-id="bf3e7-185">See Also</span></span>
+[<span data-ttu-id="bf3e7-186">Pankkitoiminnan määrittäminen</span><span class="sxs-lookup"><span data-stu-id="bf3e7-186">Setting Up Banking</span></span>](bank-setup-banking.md)  
+[<span data-ttu-id="bf3e7-187">Pankkitilien hallinta</span><span class="sxs-lookup"><span data-stu-id="bf3e7-187">Managing Bank Accounts</span></span>](bank-manage-bank-accounts.md)  
+[<span data-ttu-id="bf3e7-188">Maksujen kohdistaminen automaattisesti ja pankkitilien täsmäyttäminen</span><span class="sxs-lookup"><span data-stu-id="bf3e7-188">Apply Payments Automatically and Reconcile Bank Accounts</span></span>](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
+<span data-ttu-id="bf3e7-189">[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md)</span><span class="sxs-lookup"><span data-stu-id="bf3e7-189">[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions ](ui-extensions.md)</span></span>  
+<span data-ttu-id="bf3e7-190">[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="bf3e7-190">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 

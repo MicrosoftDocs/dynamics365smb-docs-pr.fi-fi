@@ -16,79 +16,78 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 71210a9acbd196581aa4397264b462728007e5e8
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="how-to-maintain-fixed-assets"></a>Toimintaohje: Käyttöomaisuuden kunnossapito
-Kunnossapitokulut ovat ajoittaisia rutiinikustannuksia, jotka aiheutuvat käyttöomaisuuden arvon säilyttämisestä. Toisin kuin pääoman kohentaminen, kunnossapito ei lisää arvoa.
+# <a name="how-to-maintain-fixed-assets"></a><span data-ttu-id="d2a50-103">Toimintaohje: Käyttöomaisuuden kunnossapito</span><span class="sxs-lookup"><span data-stu-id="d2a50-103">How to: Maintain Fixed Assets</span></span>
+<span data-ttu-id="d2a50-104">Kunnossapitokulut ovat ajoittaisia rutiinikustannuksia, jotka aiheutuvat käyttöomaisuuden arvon säilyttämisestä.</span><span class="sxs-lookup"><span data-stu-id="d2a50-104">Maintenance expenses are routine periodic costs undertaken to preserve the value of fixed assets.</span></span> <span data-ttu-id="d2a50-105">Toisin kuin pääoman kohentaminen, kunnossapito ei lisää arvoa.</span><span class="sxs-lookup"><span data-stu-id="d2a50-105">Unlike capital improvements, they do not increase values.</span></span>
 
-Voit tallentaa ajantasaisen tiedoston käyttöomaisuuden kunnossapidosta ja huollosta ja ylläpitää sitä, jotta käyttöomaisuudesta olisi helposti saatavilla täydelliset kunnossapitotiedot. Aina, kun käyttöomaisuus lähetetään huoltoon, tallennetaan kaikki olennaiset tiedot, kuten huoltopäivämäärä, toimittajan numero ja huoltoliikkeen puhelinnumero. Kunnossapitorekisteröinti tallennetaan kunkin käyttöomaisuuserän osalta kyseisestä käyttöomaisuuden kortista.
+<span data-ttu-id="d2a50-106">Voit tallentaa ajantasaisen tiedoston käyttöomaisuuden kunnossapidosta ja huollosta ja ylläpitää sitä, jotta käyttöomaisuudesta olisi helposti saatavilla täydelliset kunnossapitotiedot.</span><span class="sxs-lookup"><span data-stu-id="d2a50-106">You can record and maintain an up-to-date file on maintenance and service of your fixed assets to have complete maintenance records on a fixed asset easily accessible.</span></span> <span data-ttu-id="d2a50-107">Aina, kun käyttöomaisuus lähetetään huoltoon, tallennetaan kaikki olennaiset tiedot, kuten huoltopäivämäärä, toimittajan numero ja huoltoliikkeen puhelinnumero.</span><span class="sxs-lookup"><span data-stu-id="d2a50-107">Each time a fixed asset is sent to service, you record all relevant information such as date of service, vendor number and service agent's phone number.</span></span> <span data-ttu-id="d2a50-108">Kunnossapitorekisteröinti tallennetaan kunkin käyttöomaisuuserän osalta kyseisestä käyttöomaisuuden kortista.</span><span class="sxs-lookup"><span data-stu-id="d2a50-108">Maintenance registration is recorded for each fixed asset from the relevant fixed asset card.</span></span>
 
-Indeksointia käytetään muuttamaan arvoja yleisten hintatason muutosten mukaan. **Tee indeksimuutos KO:teen** -eräajoa voidaan käyttää kunnossapitokulujen uudelleenlaskemiseen.
+<span data-ttu-id="d2a50-109">Indeksointia käytetään muuttamaan arvoja yleisten hintatason muutosten mukaan.</span><span class="sxs-lookup"><span data-stu-id="d2a50-109">Indexation is used to adjust values for general price-level changes.</span></span> <span data-ttu-id="d2a50-110">**Tee indeksimuutos KO:teen** -eräajoa voidaan käyttää kunnossapitokulujen uudelleenlaskemiseen.</span><span class="sxs-lookup"><span data-stu-id="d2a50-110">The **Index Fixed Assets** batch job can be used to recalculate the maintenance costs.</span></span>
 
-## <a name="to-record-maintenance-work-on-a-fixed-asset"></a>Käyttöomaisuuden kunnossapitotyön tallentaminen
-Kunnossapito, kuten huoltokäynti, voidaan tallentaa sen suorittamisen yhteydessä kyseiselle käyttöomaisuudelle **Kunnossapidon rekisteröinti** -ikkunassa.  
+## <a name="to-record-maintenance-work-on-a-fixed-asset"></a><span data-ttu-id="d2a50-111">Käyttöomaisuuden kunnossapitotyön tallentaminen</span><span class="sxs-lookup"><span data-stu-id="d2a50-111">To record maintenance work on a fixed asset</span></span>
+<span data-ttu-id="d2a50-112">Kunnossapito, kuten huoltokäynti, voidaan tallentaa sen suorittamisen yhteydessä kyseiselle käyttöomaisuudelle **Kunnossapidon rekisteröinti** -ikkunassa.</span><span class="sxs-lookup"><span data-stu-id="d2a50-112">Every time maintenance has been performed, such as a service visit, you can record it for the relevant fixed asset in the **Maintenance Registrations** window.</span></span>  
 
-1. Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Käyttöomaisuus** ja valitse sitten aiheeseen liittyvä linkki.  
-2. Valitse käyttöomaisuus, jolle haluat tallentaa kunnossapitotyön. Valitse sitten **Kunnossapidon rekisteröinti** -toiminto.
-3. Täytä **Kunnossapidon rekisteröinti** -ikkunassa tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+1. <span data-ttu-id="d2a50-113">Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Käyttöomaisuus** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="d2a50-113">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Fixed Assets**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="d2a50-114">Valitse käyttöomaisuus, jolle haluat tallentaa kunnossapitotyön. Valitse sitten **Kunnossapidon rekisteröinti** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="d2a50-114">Select the fixed asset that you want to record maintenance for, and then choose the **Maintenance Registration** action.</span></span>
+3. <span data-ttu-id="d2a50-115">Täytä **Kunnossapidon rekisteröinti** -ikkunassa tarvittavat kentät.</span><span class="sxs-lookup"><span data-stu-id="d2a50-115">In the **Maintenance Registration** window, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## <a name="to-post-maintenance-costs-from-a-fixed-asset-gl-journal"></a>Kunnossapitokustannusten kirjaaminen käyttöomaisuuden KP-päiväkirjasta
-1. Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Poistokirjaluettelo** ja valitse sitten aiheeseen liittyvä linkki.  
-2. Valitse poistokirja, joka on liitetty käyttöomaisuuteen, ja valitse sitten **Muokkaa**-toiminto.
-3. Varmista, että **Poistokirjakortti**-ikkunan **Kunnossapito**-valintaruutua ei ole valittu. Näin varmistetaan, että kunnossapitokustannuksia ei kirjata pääkirjanpitoon.
-4. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **KO - KP-päiväkirjat** ja valitse sitten aiheeseen liittyvä linkki.  
-5. Luo alkuperäisen päiväkirjan rivi ja täytä kentät tarpeen mukaan.
-6. Valitse **KO:n kirjaustyyppi** -kentässä **Kunnossapito**.
-7. Valitse **Syötä KO-vastatili** -toiminto. Toinen päiväkirjan rivi luodaan vastatilille, joka on määritetty kunnossapidon kirjaamista varten.
+## <a name="to-post-maintenance-costs-from-a-fixed-asset-gl-journal"></a><span data-ttu-id="d2a50-116">Kunnossapitokustannusten kirjaaminen käyttöomaisuuden KP-päiväkirjasta</span><span class="sxs-lookup"><span data-stu-id="d2a50-116">To post maintenance costs from a fixed asset G/L journal</span></span>
+1. <span data-ttu-id="d2a50-117">Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Poistokirjaluettelo** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="d2a50-117">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Depreciation Book List**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="d2a50-118">Valitse poistokirja, joka on liitetty käyttöomaisuuteen, ja valitse sitten **Muokkaa**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="d2a50-118">Select the depreciation book that is assigned to the fixed asset, and then choose the **Edit** action.</span></span>
+3. <span data-ttu-id="d2a50-119">Varmista, että **Poistokirjakortti**-ikkunan **Kunnossapito**-valintaruutua ei ole valittu.</span><span class="sxs-lookup"><span data-stu-id="d2a50-119">In the **Depreciation Book Card** window, make sure the **Maintenance** check box is not selected.</span></span> <span data-ttu-id="d2a50-120">Näin varmistetaan, että kunnossapitokustannuksia ei kirjata pääkirjanpitoon.</span><span class="sxs-lookup"><span data-stu-id="d2a50-120">This ensures that maintenance costs are not posted to the general ledger.</span></span>
+4. <span data-ttu-id="d2a50-121">Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **KO - KP-päiväkirjat** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="d2a50-121">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **FA G/L Journals**, and then choose the related link.</span></span>  
+5. <span data-ttu-id="d2a50-122">Luo alkuperäisen päiväkirjan rivi ja täytä kentät tarpeen mukaan.</span><span class="sxs-lookup"><span data-stu-id="d2a50-122">Create an initial journal line and fill in the fields as necessary.</span></span>
+6. <span data-ttu-id="d2a50-123">Valitse **KO:n kirjaustyyppi** -kentässä **Kunnossapito**.</span><span class="sxs-lookup"><span data-stu-id="d2a50-123">In the **FA Posting Type** field, select **Maintenance**.</span></span>
+7. <span data-ttu-id="d2a50-124">Valitse **Syötä KO-vastatili** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="d2a50-124">Choose the **Insert FA Bal. Account** action.</span></span> <span data-ttu-id="d2a50-125">Toinen päiväkirjan rivi luodaan vastatilille, joka on määritetty kunnossapidon kirjaamista varten.</span><span class="sxs-lookup"><span data-stu-id="d2a50-125">A second journal line is created for the balancing account that is set up for maintenance posting.</span></span>
 
     > [!NOTE]  
->   Vaihe 7 toimii vain, jos seuraavat arvot on määritetty: Käyttöomaisuuden kirjausryhmän **KO:n kirjausryhmän kortti** -ikkunan **Kunnossapitotili**-kenttä sisältää pääkirjanpidon debet-tilin ja **Kunnossapidon vastatili** -kenttä sisältää sen pääkirjanpitotilin, jolle arvonkorotuksen vastatilitapahtumat kirjataan. Lisätietoja on "Käyttöomaisuuden kirjausryhmien määrittäminen" -osassa kohdassa [Toimintaohje: Käyttöomaisuuden yleisten tietojen määrittäminen](fa-how-setup-general.md).
-8. Valitse **Kirjaa**-toiminto.
+>   <span data-ttu-id="d2a50-126">Vaihe 7 toimii vain, jos seuraavat arvot on määritetty: Käyttöomaisuuden kirjausryhmän **KO:n kirjausryhmän kortti** -ikkunan **Kunnossapitotili**-kenttä sisältää pääkirjanpidon debet-tilin ja **Kunnossapidon vastatili** -kenttä sisältää sen pääkirjanpitotilin, jolle arvonkorotuksen vastatilitapahtumat kirjataan.</span><span class="sxs-lookup"><span data-stu-id="d2a50-126">Step 7 only works if you have set up the following: In the **FA Posting Group Card** window for the posting group of the fixed asset, the **Maintenance Account** field contains the general ledger debit account and the **Maintenance Bal. Account** field contains the general ledger account to which you want to post balancing entries for appreciation.</span></span> <span data-ttu-id="d2a50-127">Lisätietoja on "Käyttöomaisuuden kirjausryhmien määrittäminen" -osassa kohdassa [Toimintaohje: Käyttöomaisuuden yleisten tietojen määrittäminen](fa-how-setup-general.md).</span><span class="sxs-lookup"><span data-stu-id="d2a50-127">For more information, see the "To set up fixed asset posting groups" section in [How to: Set Up General Fixed Asset Information](fa-how-setup-general.md).</span></span>
+8. <span data-ttu-id="d2a50-128">Valitse **Kirjaa**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="d2a50-128">Choose the **Post** action.</span></span>
 
-## <a name="to-follow-up-on-fixed-assets-service-visits"></a>Käyttöomaisuuden huoltokäyntien seuraaminen
-Tulosta **Kunnossapito – Seuraava huolto** -raportti, kun haluat tarkastella käyttöomaisuuseriä, joille on aikataulutettu huoltokäynti. Tätä raporttia voidaan käyttää myös silloin, kun päivitetään käyttöomaisuuskorttien **Seuraava huoltopvm** -kenttää.  
+## <a name="to-follow-up-on-fixed-assets-service-visits"></a><span data-ttu-id="d2a50-129">Käyttöomaisuuden huoltokäyntien seuraaminen</span><span class="sxs-lookup"><span data-stu-id="d2a50-129">To follow up on fixed assets service visits</span></span>
+<span data-ttu-id="d2a50-130">Tulosta **Kunnossapito – Seuraava huolto** -raportti, kun haluat tarkastella käyttöomaisuuseriä, joille on aikataulutettu huoltokäynti.</span><span class="sxs-lookup"><span data-stu-id="d2a50-130">You can print the **Maintenance - Next Service** report to see which assets you have scheduled a service visit for.</span></span> <span data-ttu-id="d2a50-131">Tätä raporttia voidaan käyttää myös silloin, kun päivitetään käyttöomaisuuskorttien **Seuraava huoltopvm** -kenttää.</span><span class="sxs-lookup"><span data-stu-id="d2a50-131">You can also use this report when you are updating the **Next Service Date** field on fixed asset cards.</span></span>  
 
-1. Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Kunnossapidon seuraava huolto** ja valitse sitten aiheeseen liittyvä linkki.  
-2. Täytä **Aloituspvm**- ja **Lopetuspvm**-kenttä.  
-3. Valitse **Tulosta**- tai **Esikatsele**-painike.
+1. <span data-ttu-id="d2a50-132">Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Kunnossapidon seuraava huolto** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="d2a50-132">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Maintenance Next Service**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="d2a50-133">Täytä **Aloituspvm**- ja **Lopetuspvm**-kenttä.</span><span class="sxs-lookup"><span data-stu-id="d2a50-133">Fill in the **Starting Date** and **Ending Date** fields.</span></span>  
+3. <span data-ttu-id="d2a50-134">Valitse **Tulosta**- tai **Esikatsele**-painike.</span><span class="sxs-lookup"><span data-stu-id="d2a50-134">Choose the **Print** or **Preview** button.</span></span>
 
-## <a name="to-monitor-maintenance-costs"></a>Kunnossapitokustannusten valvonta
-Kunnossapitokustannuksia voi tarkastella käyttöomaisuuden tilastossa.  
+## <a name="to-monitor-maintenance-costs"></a><span data-ttu-id="d2a50-135">Kunnossapitokustannusten valvonta</span><span class="sxs-lookup"><span data-stu-id="d2a50-135">To monitor maintenance costs</span></span>
+<span data-ttu-id="d2a50-136">Kunnossapitokustannuksia voi tarkastella käyttöomaisuuden tilastossa.</span><span class="sxs-lookup"><span data-stu-id="d2a50-136">You can view the maintenance costs when you look at the statistics of a fixed asset.</span></span>  
 
-1. Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Käyttöomaisuus** ja valitse sitten aiheeseen liittyvä linkki.
-2. Valitse käyttöomaisuus, jonka kunnossapitokustannuksia haluat tarkastella. Valitse sitten **Poistokirjat**-toiminto.
-3. Valitse **KO:n poistokirjat** -ikkunassa kyseinen käyttöomaisuuden poistokirja ja valitse sitten **Tilasto**-toiminto.
-4. Valitse **Käyttöomaisuustilastot**-ikkunassa **Kunnossapito**-kenttä.
+1. <span data-ttu-id="d2a50-137">Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Käyttöomaisuus** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="d2a50-137">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Fixed Assets**, and then choose the related link.</span></span>
+2. <span data-ttu-id="d2a50-138">Valitse käyttöomaisuus, jonka kunnossapitokustannuksia haluat tarkastella. Valitse sitten **Poistokirjat**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="d2a50-138">Select the fixed asset you want to view maintenance costs for, and then choose the **Depreciation Books** action.</span></span>
+3. <span data-ttu-id="d2a50-139">Valitse **KO:n poistokirjat** -ikkunassa kyseinen käyttöomaisuuden poistokirja ja valitse sitten **Tilasto**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="d2a50-139">In the **FA Depreciation Books** window, select the relevant fixed asset depreciation book, and then choose the **Statistics** action.</span></span>
+4. <span data-ttu-id="d2a50-140">Valitse **Käyttöomaisuustilastot**-ikkunassa **Kunnossapito**-kenttä.</span><span class="sxs-lookup"><span data-stu-id="d2a50-140">In the **Fixed Asset Statistics** window, choose the **Maintenance** field.</span></span>
 
-Avautuvassa **Kunnossapitotapahtumat**-ikkunassa näkyvät ne tapahtumat, joista summa muodostuu **Kunnossapito**-kentässä.
+<span data-ttu-id="d2a50-141">Avautuvassa **Kunnossapitotapahtumat**-ikkunassa näkyvät ne tapahtumat, joista summa muodostuu **Kunnossapito**-kentässä.</span><span class="sxs-lookup"><span data-stu-id="d2a50-141">The **Maintenance Ledger Entries** window opens showing the entries that make up the amount in the **Maintenance** field.</span></span>
 
-## <a name="to-view-or-print-maintenance-costs-for-multiple-fixed-assets"></a>Useiden käyttöomaisuuserien kunnossapitokustannusten tarkasteleminen tai tulostaminen
-**Kunnossapito – Analyysi** -raportissa voidaan valita, halutaanko kunnossapitokustannukset nähdä yhdeltä, kahdelta vai kolmelta kunnossapitokoodilta tietyn päivämäärän tai jakson osalta. Voit myös tarkastella kaikkien valittujen käyttöomaisuuserien kokonaissummaa vai tietyn omaisuuserän kokonaissummaa.
+## <a name="to-view-or-print-maintenance-costs-for-multiple-fixed-assets"></a><span data-ttu-id="d2a50-142">Useiden käyttöomaisuuserien kunnossapitokustannusten tarkasteleminen tai tulostaminen</span><span class="sxs-lookup"><span data-stu-id="d2a50-142">To view or print maintenance costs for multiple fixed assets</span></span>
+<span data-ttu-id="d2a50-143">**Kunnossapito – Analyysi** -raportissa voidaan valita, halutaanko kunnossapitokustannukset nähdä yhdeltä, kahdelta vai kolmelta kunnossapitokoodilta tietyn päivämäärän tai jakson osalta.</span><span class="sxs-lookup"><span data-stu-id="d2a50-143">In the **Maintenance - Analysis** report, you can select to see maintenance based on one, two, or three maintenance codes for a specified date or period.</span></span> <span data-ttu-id="d2a50-144">Voit myös tarkastella kaikkien valittujen käyttöomaisuuserien kokonaissummaa vai tietyn omaisuuserän kokonaissummaa.</span><span class="sxs-lookup"><span data-stu-id="d2a50-144">You can see the total of all selected assets or a total for each asset.</span></span>
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Kunnossapitoanalyysi** ja valitse sitten aiheeseen liittyvä linkki.
-2. Täytä tarvittavat kentät.
-3. Valitse **Tulosta**- tai **Esikatsele**-painike.
+1. <span data-ttu-id="d2a50-145">Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Kunnossapitoanalyysi** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="d2a50-145">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Maintenance Analysis**, and then choose the related link.</span></span>
+2. <span data-ttu-id="d2a50-146">Täytä tarvittavat kentät.</span><span class="sxs-lookup"><span data-stu-id="d2a50-146">Fill in the fields as necessary.</span></span>
+3. <span data-ttu-id="d2a50-147">Valitse **Tulosta**- tai **Esikatsele**-painike.</span><span class="sxs-lookup"><span data-stu-id="d2a50-147">Choose the **Print** or **Preview** button.</span></span>
 
-## <a name="to-view-maintenance-ledger-entries"></a>Kunnossapitotapahtumien katsominen
-Voit tutkia kunnossapitokustannuksia myös tarkastelemalla kunnossapitotapahtumia.  
+## <a name="to-view-maintenance-ledger-entries"></a><span data-ttu-id="d2a50-148">Kunnossapitotapahtumien katsominen</span><span class="sxs-lookup"><span data-stu-id="d2a50-148">To view maintenance ledger entries</span></span>
+<span data-ttu-id="d2a50-149">Voit tutkia kunnossapitokustannuksia myös tarkastelemalla kunnossapitotapahtumia.</span><span class="sxs-lookup"><span data-stu-id="d2a50-149">You can also study maintenance costs by viewing the maintenance ledger entries.</span></span>  
 
-1. Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Käyttöomaisuus** ja valitse sitten aiheeseen liittyvä linkki.
-2. Valitse käyttöomaisuus, jonka tapahtumia haluat tarkastella. Valitse sitten **Poistokirjat**-toiminto.
-3. Valitse **KO:n poistokirjat** -ikkunassa kyseinen käyttöomaisuuden poistokirja ja valitse sitten **Kunnossapitotapahtumat**-toiminto.
+1. <span data-ttu-id="d2a50-150">Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Käyttöomaisuus** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="d2a50-150">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Fixed Assets**, and then choose the related link.</span></span>
+2. <span data-ttu-id="d2a50-151">Valitse käyttöomaisuus, jonka tapahtumia haluat tarkastella. Valitse sitten **Poistokirjat**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="d2a50-151">Select the fixed asset that you want to view ledger entries for, and then choose the **Depreciation Books** action.</span></span>
+3. <span data-ttu-id="d2a50-152">Valitse **KO:n poistokirjat** -ikkunassa kyseinen käyttöomaisuuden poistokirja ja valitse sitten **Kunnossapitotapahtumat**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="d2a50-152">In the **FA Depreciation Books** window, select the relevant fixed asset depreciation book, and then choose the **Maintenance Ledger Entries** action.</span></span>
 
-## <a name="to-view-or-print-maintenance-ledger-entries-for-multiple-fixed-assets"></a>Useiden käyttöomaisuuserien kunnossapitotapahtumien tarkasteleminen tai tulostaminen
-**Kunnossapito - Erittely** -raportin avulla voit tarkastella ja tulostaa yhden tai usean käyttöomaisuuserän kunnossapitotapahtumia.  
+## <a name="to-view-or-print-maintenance-ledger-entries-for-multiple-fixed-assets"></a><span data-ttu-id="d2a50-153">Useiden käyttöomaisuuserien kunnossapitotapahtumien tarkasteleminen tai tulostaminen</span><span class="sxs-lookup"><span data-stu-id="d2a50-153">To view or print maintenance ledger entries for multiple fixed assets</span></span>
+<span data-ttu-id="d2a50-154">**Kunnossapito - Erittely** -raportin avulla voit tarkastella ja tulostaa yhden tai usean käyttöomaisuuserän kunnossapitotapahtumia.</span><span class="sxs-lookup"><span data-stu-id="d2a50-154">In the **Maintenance - Details** report, you can view or print maintenance ledger entries for one or many fixed assets.</span></span>  
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Kunnossapitotiedot** ja valitse sitten aiheeseen liittyvä linkki.
-2. Täytä tarvittavat kentät.
-3. Valitse **Tulosta**- tai **Esikatsele**-painike.
+1. <span data-ttu-id="d2a50-155">Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Kunnossapitotiedot** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="d2a50-155">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Maintenance Details**, and then choose the related link.</span></span>
+2. <span data-ttu-id="d2a50-156">Täytä tarvittavat kentät.</span><span class="sxs-lookup"><span data-stu-id="d2a50-156">Fill in the fields as necessary.</span></span>
+3. <span data-ttu-id="d2a50-157">Valitse **Tulosta**- tai **Esikatsele**-painike.</span><span class="sxs-lookup"><span data-stu-id="d2a50-157">Choose the **Print** or **Preview** button.</span></span>
 
-## <a name="see-also"></a>Katso myös
-[Käyttöomaisuus](fa-manage.md)  
-[Käyttöomaisuuden määrittäminen](fa-setup.md)  
-[Rahoitus](finance.md)  
-[Tervetuloa [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]iin!](index.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="d2a50-158">Katso myös</span><span class="sxs-lookup"><span data-stu-id="d2a50-158">See Also</span></span>
+[<span data-ttu-id="d2a50-159">Käyttöomaisuus</span><span class="sxs-lookup"><span data-stu-id="d2a50-159">Fixed Assets</span></span>](fa-manage.md)  
+[<span data-ttu-id="d2a50-160">Käyttöomaisuuden määrittäminen</span><span class="sxs-lookup"><span data-stu-id="d2a50-160">Setting Up Fixed Assets</span></span>](fa-setup.md)  
+[<span data-ttu-id="d2a50-161">Rahoitus</span><span class="sxs-lookup"><span data-stu-id="d2a50-161">Finance</span></span>](finance.md)  
+<span data-ttu-id="d2a50-162">[Tervetuloa [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]iin!](index.md)</span><span class="sxs-lookup"><span data-stu-id="d2a50-162">[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)</span></span>  
+<span data-ttu-id="d2a50-163">[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="d2a50-163">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 

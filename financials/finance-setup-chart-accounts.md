@@ -16,32 +16,31 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: ceb01999525139cabc7c31e2304f738dcc9267f8
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="setting-up-or-changing-the-chart-of-accounts"></a>Tilikartan määrittäminen tai muuttaminen
-Tilikartta näyttää ne kirjanpidon tilit, joihin on tallennettu taloustietoja. [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] sisältää tilikartan, joka on valmis tukemaan liiketoimintaasi.
-Voit kuitenkin muuttaa oletustilejä ja lisätä uusia tilejä.  
+# <a name="setting-up-or-changing-the-chart-of-accounts"></a><span data-ttu-id="2c10c-103">Tilikartan määrittäminen tai muuttaminen</span><span class="sxs-lookup"><span data-stu-id="2c10c-103">Setting Up or Changing the Chart of Accounts</span></span>
+<span data-ttu-id="2c10c-104">Tilikartta näyttää ne kirjanpidon tilit, joihin on tallennettu taloustietoja.</span><span class="sxs-lookup"><span data-stu-id="2c10c-104">The chart of accounts shows the ledger accounts that store your financial data.</span></span> [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]<span data-ttu-id="2c10c-105"> sisältää tilikartan, joka on valmis tukemaan liiketoimintaasi.</span><span class="sxs-lookup"><span data-stu-id="2c10c-105"> includes a standard chart of accounts that is ready to support your business.</span></span>
+<span data-ttu-id="2c10c-106">Voit kuitenkin muuttaa oletustilejä ja lisätä uusia tilejä.</span><span class="sxs-lookup"><span data-stu-id="2c10c-106">However, you can change the default accounts, and you can add new accounts.</span></span>  
 
-## <a name="adding-or-changing-accounts"></a>Tilien lisääminen tai muuttaminen
-Voit avata kunkin tilin KP-tilin tilikartasta ja lisätä tai muuttaa asetuksia.
+## <a name="adding-or-changing-accounts"></a><span data-ttu-id="2c10c-107">Tilien lisääminen tai muuttaminen</span><span class="sxs-lookup"><span data-stu-id="2c10c-107">Adding or Changing Accounts</span></span>
+<span data-ttu-id="2c10c-108">Voit avata kunkin tilin KP-tilin tilikartasta ja lisätä tai muuttaa asetuksia.</span><span class="sxs-lookup"><span data-stu-id="2c10c-108">From the chart of accounts, you can open each G/L account and add or change settings.</span></span>
 
 > [!NOTE]  
->   Voit poistaa pääkirjanpitotilin. Ennen sen poistamista seuraavien on kuitenkin toteuduttava:  
+>   <span data-ttu-id="2c10c-109">Voit poistaa pääkirjanpitotilin.</span><span class="sxs-lookup"><span data-stu-id="2c10c-109">You can delete a general ledger account.</span></span> <span data-ttu-id="2c10c-110">Ennen sen poistamista seuraavien on kuitenkin toteuduttava:</span><span class="sxs-lookup"><span data-stu-id="2c10c-110">However, before you delete it, the following must be true:</span></span>  
 
-* Tilin saldon tulee olla nolla.  
-* **Salli KP-tilin poisto ennen** -kenttä on määritettävä **Pääkirjanpidon asetukset** -ikkunassa. Tilillä ei saa olla tapahtumakirjauksia kyseisenä päivänä tai sen jälkeen.  
-* Jos **Tarkista KP-tilin käyttö** -kenttä on valittu **Pääkirjanpidon asetukset** -ikkunassa, tiliä ei voi käyttää kirjausryhmässä tai kirjauksen asetuksissa.  
+* <span data-ttu-id="2c10c-111">Tilin saldon tulee olla nolla.</span><span class="sxs-lookup"><span data-stu-id="2c10c-111">The balance on the account must be zero.</span></span>  
+* <span data-ttu-id="2c10c-112">**Salli KP-tilin poisto ennen** -kenttä on määritettävä **Pääkirjanpidon asetukset** -ikkunassa. Tilillä ei saa olla tapahtumakirjauksia kyseisenä päivänä tai sen jälkeen.</span><span class="sxs-lookup"><span data-stu-id="2c10c-112">The **Allow G/L Acc. Deletion Before** field must be set in the **General Ledger Setup** window, and the account must not have ledger entries on or after that date.</span></span>  
+* <span data-ttu-id="2c10c-113">Jos **Tarkista KP-tilin käyttö** -kenttä on valittu **Pääkirjanpidon asetukset** -ikkunassa, tiliä ei voi käyttää kirjausryhmässä tai kirjauksen asetuksissa.</span><span class="sxs-lookup"><span data-stu-id="2c10c-113">If the **Check G/L Account Usage** field in the **General Ledger Setup** window is selected, then the account must not be used in any posting groups or posting setup.</span></span>  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] estää tilikartassa tarvittavia tietoja sisältävän pääkirjanpitotilin poistamisen.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="2c10c-114"> estää tilikartassa tarvittavia tietoja sisältävän pääkirjanpitotilin poistamisen.</span><span class="sxs-lookup"><span data-stu-id="2c10c-114"> will prevent you from deleting a general ledger account that stores data that is needed in the chart of accounts.</span></span>  
 
-## <a name="see-also"></a>Katso myös
-[Pääkirjanpito ja tilikartta](finance-general-ledger.md)  
-[Pankkitilien hallinta](bank-manage-bank-accounts.md)  
-[Dimensioiden käyttäminen](finance-dimensions.md)  
-[Tuominen muista rahoitusjärjestelmistä](upload-data.md)  
-[Toimintaohje: Kanadan GIFI-koodien käyttäminen](ca-finance-work-gifi-codes.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+## <a name="see-also"></a><span data-ttu-id="2c10c-115">Katso myös</span><span class="sxs-lookup"><span data-stu-id="2c10c-115">See Also</span></span>
+[<span data-ttu-id="2c10c-116">Pääkirjanpito ja tilikartta</span><span class="sxs-lookup"><span data-stu-id="2c10c-116">The General Ledger and the Chart of Accounts</span></span>](finance-general-ledger.md)  
+[<span data-ttu-id="2c10c-117">Pankkitilien hallinta</span><span class="sxs-lookup"><span data-stu-id="2c10c-117">Managing Bank Accounts</span></span>](bank-manage-bank-accounts.md)  
+[<span data-ttu-id="2c10c-118">Dimensioiden käyttäminen</span><span class="sxs-lookup"><span data-stu-id="2c10c-118">Working with Dimensions</span></span>](finance-dimensions.md)  
+[<span data-ttu-id="2c10c-119">Tuominen muista rahoitusjärjestelmistä</span><span class="sxs-lookup"><span data-stu-id="2c10c-119">Importing from Other Finance Systems</span></span>](upload-data.md)  
+[<span data-ttu-id="2c10c-120">Toimintaohje: Kanadan GIFI-koodien käyttäminen</span><span class="sxs-lookup"><span data-stu-id="2c10c-120">How to: Work With GIFI Codes in Canada</span></span>](ca-finance-work-gifi-codes.md)  
+<span data-ttu-id="2c10c-121">[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="2c10c-121">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

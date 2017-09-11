@@ -16,36 +16,35 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 98cf0364b9983e2bf62fe6a3ce4aa882af3ece14
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="setting-up-fixed-assets"></a>Käyttöomaisuuden määrittäminen
-Ennen käyttöomaisuuserien käsittelyä on määritettäviä muutamia toimintoja:  
+# <a name="setting-up-fixed-assets"></a><span data-ttu-id="4a815-103">Käyttöomaisuuden määrittäminen</span><span class="sxs-lookup"><span data-stu-id="4a815-103">Setting Up Fixed Assets</span></span>
+<span data-ttu-id="4a815-104">Ennen käyttöomaisuuserien käsittelyä on määritettäviä muutamia toimintoja:</span><span class="sxs-lookup"><span data-stu-id="4a815-104">Before you can work with Fixed Assets, you need to define a few things:</span></span>  
 
-* käyttöomaisuuden vakuuttaminen, kunnossapito ja poistaminen  
-* kustannusten ja muiden arvojen kirjaaminen pääkirjanpitoon.  
+* <span data-ttu-id="4a815-105">käyttöomaisuuden vakuuttaminen, kunnossapito ja poistaminen</span><span class="sxs-lookup"><span data-stu-id="4a815-105">How you insure, maintain, and depreciate fixed assets.</span></span>  
+* <span data-ttu-id="4a815-106">kustannusten ja muiden arvojen kirjaaminen pääkirjanpitoon.</span><span class="sxs-lookup"><span data-stu-id="4a815-106">How you record costs and other values in the general ledger.</span></span>  
 
-Seuraavassa taulukossa on linkkejä lisätietoihin. Kun olet määrittänyt nämä toiminnot, voit aloittaa erilaisten aktiviteettien käytön. Lisätietoja on kohdassa [Käyttöomaisuus](fa-manage.md).  
+<span data-ttu-id="4a815-107">Seuraavassa taulukossa on linkkejä lisätietoihin.</span><span class="sxs-lookup"><span data-stu-id="4a815-107">The table below has links to more information.</span></span> <span data-ttu-id="4a815-108">Kun olet määrittänyt nämä toiminnot, voit aloittaa erilaisten aktiviteettien käytön.</span><span class="sxs-lookup"><span data-stu-id="4a815-108">After you set those things up, you can start various activities.</span></span> <span data-ttu-id="4a815-109">Lisätietoja on kohdassa [Käyttöomaisuus](fa-manage.md).</span><span class="sxs-lookup"><span data-stu-id="4a815-109">For more information, see [Fixed Assets](fa-manage.md).</span></span>  
 
 > [!NOTE]  
->   Voit tallentaa käyttöomaisuustapahtumat **Käyttöomaisuuden KP-päiväkirja**- tai **Käyttöomaisuuspäiväkirja**-ikkunaan sen mukaan, koskevatko tapahtumat talousraportointia vai sisäistä hallintaa. Käyttöomaisuuden ohje sisältää tietoja vain **Käyttöomaisuuden KP-päiväkirja** -ikkunan käyttämisestä.  
+>   <span data-ttu-id="4a815-110">Voit tallentaa käyttöomaisuustapahtumat **Käyttöomaisuuden KP-päiväkirja**- tai **Käyttöomaisuuspäiväkirja**-ikkunaan sen mukaan, koskevatko tapahtumat talousraportointia vai sisäistä hallintaa.</span><span class="sxs-lookup"><span data-stu-id="4a815-110">You can record fixed asset transactions in the **Fixed Asset G/L Journal** or **Fixed Asset Journal** windows, depending on whether the transactions are for financial reporting or for internal management.</span></span> <span data-ttu-id="4a815-111">Käyttöomaisuuden ohje sisältää tietoja vain **Käyttöomaisuuden KP-päiväkirja** -ikkunan käyttämisestä.</span><span class="sxs-lookup"><span data-stu-id="4a815-111">Help for Fixed Assets only describes how to use the **Fixed Asset G/L Journal** window.</span></span>  
 
-Kun otat käyttöomaisuusaktiviteetin käyttöön **Poistokirjakortti**-ikkunan **KP-integrointi**-osassa, **Käyttöomaisuuden KP-päiväkirja** -ikkunaa käytetään kyseisen aktiviteetin tapahtumien kirjaamisessa.
+<span data-ttu-id="4a815-112">Kun otat käyttöomaisuusaktiviteetin käyttöön **Poistokirjakortti**-ikkunan **KP-integrointi**-osassa, **Käyttöomaisuuden KP-päiväkirja** -ikkunaa käytetään kyseisen aktiviteetin tapahtumien kirjaamisessa.</span><span class="sxs-lookup"><span data-stu-id="4a815-112">When you enable a fixed asset activity in the **G/L Integration** section in the **Depreciation Book Card** window, the **Fixed Asset G/L Journal** window is used to post transactions for the activity.</span></span>
 
-Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisiin.  
+<span data-ttu-id="4a815-113">Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisiin.</span><span class="sxs-lookup"><span data-stu-id="4a815-113">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span>  
 
-| Toiminta | Katso |
+| <span data-ttu-id="4a815-114">Toiminta</span><span class="sxs-lookup"><span data-stu-id="4a815-114">To</span></span> | <span data-ttu-id="4a815-115">Katso</span><span class="sxs-lookup"><span data-stu-id="4a815-115">See</span></span> |
 | --- | --- |
-| Määritä oletusarvoiset KP-tilit, kohdistusavaimet, päiväkirjamallit ja -erät käyttöomaisuuden kirjaamista varten. Määritä myös käyttöomaisuuden luokat ja alaluokat, kuten Aineellinen ja Aineeton. |[Toimintaohje: Käyttöomaisuuden yleisten tietojen määrittäminen](fa-how-setup-general.md) |
-| Luo poistokirjat, määritä eri poistotavat, integroi pääkirjanpidon kanssa ja ota käyttöön tapahtumien monistaminen useissa poistokirjoissa. |[Toimintaohje: Käyttöomaisuuden poiston määrittäminen](fa-how-setup-depreciation.md) |
-| Voit ottaa käyttöön käyttöomaisuuden vakuutuksen määrittämällä vakuutuksen tiedot ja sopimuskohtaisen vakuutuskortin sekä valmistelemalla päiväkirjat vakuutuskustannusten kirjaamista varten. |[Toimintaohje: Käyttöomaisuuden vakuutuksen määrittäminen](fa-how-setup-insurance.md) |
-| Voit ottaa käyttöomaisuuden kunnossapidon määrittämällä yleiset kunnossapitotiedot, kunnossapidon kirjaustilit ja kunnossapitotyön tyypit. |[Toimintaohje: Käyttöomaisuuden kunnossapidon määrittäminen](fa-how-setup-maintenance.md) |
-| Lisätietoja käyttöomaisuuden erilaisista poistotavoista. |[Poistotavat](fa-depreciation-methods.md) |
+| <span data-ttu-id="4a815-116">Määritä oletusarvoiset KP-tilit, kohdistusavaimet, päiväkirjamallit ja -erät käyttöomaisuuden kirjaamista varten. Määritä myös käyttöomaisuuden luokat ja alaluokat, kuten Aineellinen ja Aineeton.</span><span class="sxs-lookup"><span data-stu-id="4a815-116">Set up default G/L accounts, allocation keys, journal templates and batches for fixed asset posting, and set up fixed asset classes and subclasses, such as Tangible and Intangible.</span></span> |[<span data-ttu-id="4a815-117">Toimintaohje: Käyttöomaisuuden yleisten tietojen määrittäminen</span><span class="sxs-lookup"><span data-stu-id="4a815-117">How to: Set Up General Fixed Assets Information</span></span>](fa-how-setup-general.md) |
+| <span data-ttu-id="4a815-118">Luo poistokirjat, määritä eri poistotavat, integroi pääkirjanpidon kanssa ja ota käyttöön tapahtumien monistaminen useissa poistokirjoissa.</span><span class="sxs-lookup"><span data-stu-id="4a815-118">Create depreciation books, define various depreciation methods, integrate with the general ledger, and enable duplication of entries in several depreciation books.</span></span> |[<span data-ttu-id="4a815-119">Toimintaohje: Käyttöomaisuuden poiston määrittäminen</span><span class="sxs-lookup"><span data-stu-id="4a815-119">How to: Set Up Fixed Asset Depreciation</span></span>](fa-how-setup-depreciation.md) |
+| <span data-ttu-id="4a815-120">Voit ottaa käyttöön käyttöomaisuuden vakuutuksen määrittämällä vakuutuksen tiedot ja sopimuskohtaisen vakuutuskortin sekä valmistelemalla päiväkirjat vakuutuskustannusten kirjaamista varten.</span><span class="sxs-lookup"><span data-stu-id="4a815-120">Enable insurance of fixed assets, set up general insurance information, an insurance card per policy, and prepare journals to post insurance costs.</span></span> |[<span data-ttu-id="4a815-121">Toimintaohje: Käyttöomaisuuden vakuutuksen määrittäminen</span><span class="sxs-lookup"><span data-stu-id="4a815-121">How to: Set Up Fixed Asset Insurance</span></span>](fa-how-setup-insurance.md) |
+| <span data-ttu-id="4a815-122">Voit ottaa käyttöomaisuuden kunnossapidon määrittämällä yleiset kunnossapitotiedot, kunnossapidon kirjaustilit ja kunnossapitotyön tyypit.</span><span class="sxs-lookup"><span data-stu-id="4a815-122">Enable maintenance of fixed assets, set up general maintenance information, set up maintenance posting accounts, and define types of maintenance work.</span></span> |[<span data-ttu-id="4a815-123">Toimintaohje: Käyttöomaisuuden kunnossapidon määrittäminen</span><span class="sxs-lookup"><span data-stu-id="4a815-123">How to: Set Up Fixed Asset Maintenance</span></span>](fa-how-setup-maintenance.md) |
+| <span data-ttu-id="4a815-124">Lisätietoja käyttöomaisuuden erilaisista poistotavoista.</span><span class="sxs-lookup"><span data-stu-id="4a815-124">Learn about different fixed asset depreciation methods.</span></span> |[<span data-ttu-id="4a815-125">Poistotavat</span><span class="sxs-lookup"><span data-stu-id="4a815-125">Depreciation Methods</span></span>](fa-depreciation-methods.md) |
 
-## <a name="see-also"></a>Katso myös
-[Käyttöomaisuus](fa-manage.md)  
-[Rahoitus](finance.md)  
-[Tervetuloa [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]iin!](index.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="4a815-126">Katso myös</span><span class="sxs-lookup"><span data-stu-id="4a815-126">See Also</span></span>
+[<span data-ttu-id="4a815-127">Käyttöomaisuus</span><span class="sxs-lookup"><span data-stu-id="4a815-127">Fixed Assets</span></span>](fa-manage.md)  
+[<span data-ttu-id="4a815-128">Rahoitus</span><span class="sxs-lookup"><span data-stu-id="4a815-128">Finance</span></span>](finance.md)  
+<span data-ttu-id="4a815-129">[Tervetuloa [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]iin!](index.md)</span><span class="sxs-lookup"><span data-stu-id="4a815-129">[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)</span></span>  
+<span data-ttu-id="4a815-130">[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="4a815-130">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 

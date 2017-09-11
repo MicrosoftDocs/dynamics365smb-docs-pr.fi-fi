@@ -16,23 +16,22 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 8226961d467dee7b03c22632c6dab008ceecad44
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="recording-interactions-with-contacts-automatically"></a>Kontaktien kanssa tapahtuvien vuorovaikutusten tallentaminen automaattisesti
-Voit määrittää sovelluksen niin, että myynti-, osto- ja huoltoasiakirjojen, kansilehtien, sähköpostien ja puheluiden vuorovaikutukset tallennetaan automaattisesti seuraavasti:
+# <a name="recording-interactions-with-contacts-automatically"></a><span data-ttu-id="32f14-103">Kontaktien kanssa tapahtuvien vuorovaikutusten tallentaminen automaattisesti</span><span class="sxs-lookup"><span data-stu-id="32f14-103">Recording Interactions with Contacts Automatically</span></span>
+<span data-ttu-id="32f14-104">Voit määrittää sovelluksen niin, että myynti-, osto- ja huoltoasiakirjojen, kansilehtien, sähköpostien ja puheluiden vuorovaikutukset tallennetaan automaattisesti seuraavasti:</span><span class="sxs-lookup"><span data-stu-id="32f14-104">You can set up the application to automatically record interactions for sales, purchase and service documents, cover sheets, e-mails, phone calls, such as:</span></span>
 
-* Tulosta myynti- tai ostotarjoukset, -tilaukset, laskut, hyvityslaskut ja kansilehdet.
-* Luo myynnin huoltotilaukset.
-* Kirjaa myynnin huoltotilaukset.
-* Lähetä sähköpostiviestejä kontakteille.
-* Soita kontakteillesi, jos sinulla on TAPI-yhteensopiva puhelin, ja se on oikein asennettu.
+* <span data-ttu-id="32f14-105">Tulosta myynti- tai ostotarjoukset, -tilaukset, laskut, hyvityslaskut ja kansilehdet.</span><span class="sxs-lookup"><span data-stu-id="32f14-105">Print sales or purchase quotes, orders, invoices, credit memos, cover sheets.</span></span>
+* <span data-ttu-id="32f14-106">Luo myynnin huoltotilaukset.</span><span class="sxs-lookup"><span data-stu-id="32f14-106">Create sales service orders.</span></span>
+* <span data-ttu-id="32f14-107">Kirjaa myynnin huoltotilaukset.</span><span class="sxs-lookup"><span data-stu-id="32f14-107">Post sales service orders.</span></span>
+* <span data-ttu-id="32f14-108">Lähetä sähköpostiviestejä kontakteille.</span><span class="sxs-lookup"><span data-stu-id="32f14-108">Send e-mails to your contacts.</span></span>
+* <span data-ttu-id="32f14-109">Soita kontakteillesi, jos sinulla on TAPI-yhteensopiva puhelin, ja se on oikein asennettu.</span><span class="sxs-lookup"><span data-stu-id="32f14-109">Call your contacts, if you have a TAPI-compliant telephone and the correct installation.</span></span>
 
-Voit määrittää näille vuorovaikutuksille automaattisen tallentamisen määrittämällä asiakirjojen ja toimintojen vuorovaikutusmallit **Vuorovaikutusmallin asetukset** -ikkunassa.  
-Voit avata **Vuorovaikutusmallin asetukset** -ikkunan valitsemalla ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Search for Page or Report icon") -kuvakkeen, kirjoittamalla **Vuorovaikutusmallin asetukset** ja valitsemalla sitten aiheeseen liittyvän linkin.
+<span data-ttu-id="32f14-110">Voit määrittää näille vuorovaikutuksille automaattisen tallentamisen määrittämällä asiakirjojen ja toimintojen vuorovaikutusmallit **Vuorovaikutusmallin asetukset** -ikkunassa.</span><span class="sxs-lookup"><span data-stu-id="32f14-110">To set up the automatic recording of these interactions, you specify interaction templates for these documents and actions by using the **Interaction Template Setup** window.</span></span>  
+<span data-ttu-id="32f14-111">Voit avata **Vuorovaikutusmallin asetukset** -ikkunan valitsemalla ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Search for Page or Report icon") -kuvakkeen, kirjoittamalla **Vuorovaikutusmallin asetukset** ja valitsemalla sitten aiheeseen liittyvän linkin.</span><span class="sxs-lookup"><span data-stu-id="32f14-111">To open the **Interaction Template Setup** window, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Interaction Template Setup**, and then choose the related link.</span></span>
 
-## <a name="see-also"></a>Katso myös
-[Kontaktien kanssa tapahtuvien vuorovaikutusten tallentaminen](marketing-interactions.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+## <a name="see-also"></a><span data-ttu-id="32f14-112">Katso myös</span><span class="sxs-lookup"><span data-stu-id="32f14-112">See Also</span></span>
+[<span data-ttu-id="32f14-113">Kontaktien kanssa tapahtuvien vuorovaikutusten tallentaminen</span><span class="sxs-lookup"><span data-stu-id="32f14-113">Recording Interactions With Contacts</span></span>](marketing-interactions.md)  
+<span data-ttu-id="32f14-114">[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="32f14-114">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
 

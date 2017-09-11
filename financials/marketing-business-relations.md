@@ -16,40 +16,39 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 7d0f189ac233ea4da72136858a343dfaa7e88883
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="setting-up-business-relations-on-contact-companies"></a>Liikesuhteiden määrittäminen kontaktiyrityksissä
-Voit käyttää liikesuhteita, kun haluat osoittaa eri kontaktien, kuten prospektin, pankin, konsultin tai palvelun toimittajan, kanssa olevan liikesuhteen.
+# <a name="setting-up-business-relations-on-contact-companies"></a><span data-ttu-id="dce49-103">Liikesuhteiden määrittäminen kontaktiyrityksissä</span><span class="sxs-lookup"><span data-stu-id="dce49-103">Setting Up Business Relations on Contact Companies</span></span>
+<span data-ttu-id="dce49-104">Voit käyttää liikesuhteita, kun haluat osoittaa eri kontaktien, kuten prospektin, pankin, konsultin tai palvelun toimittajan, kanssa olevan liikesuhteen.</span><span class="sxs-lookup"><span data-stu-id="dce49-104">You can use business relations to indicate the business relationship you have with your contacts, for example, a prospect, bank, consultant, service supplier, and so on.</span></span>
 
-Kontaktien liikesuhteiden käyttäminen on kaksivaiheinen prosessi. Ensin määritetään liikesuhteen koodi. Tämä vaihe suoritetaan vain kerran jokaiselle liikesuhteelle. Kun liikesuhteen koodi on määritetty, voit aloittaa koodin liittämisen kontaktiyrityksille.
+<span data-ttu-id="dce49-105">Kontaktien liikesuhteiden käyttäminen on kaksivaiheinen prosessi.</span><span class="sxs-lookup"><span data-stu-id="dce49-105">Using business relations on contacts is a two-step process.</span></span> <span data-ttu-id="dce49-106">Ensin määritetään liikesuhteen koodi.</span><span class="sxs-lookup"><span data-stu-id="dce49-106">First, you define the business relation code.</span></span> <span data-ttu-id="dce49-107">Tämä vaihe suoritetaan vain kerran jokaiselle liikesuhteelle.</span><span class="sxs-lookup"><span data-stu-id="dce49-107">You only have to perform this step one time for each business relation.</span></span> <span data-ttu-id="dce49-108">Kun liikesuhteen koodi on määritetty, voit aloittaa koodin liittämisen kontaktiyrityksille.</span><span class="sxs-lookup"><span data-stu-id="dce49-108">Once you have a business relation code, you can start to assign the code to contact companies.</span></span>
 
 > [!NOTE]  
->   Jos aiot synkronisoida kontaktisi ohjelman muissa osissa olevien toimittajien, asiakkaiden tai pankkitilien kanssa, haluat ehkä määrittää niille liikesuhteen.
+>   <span data-ttu-id="dce49-109">Jos aiot synkronisoida kontaktisi ohjelman muissa osissa olevien toimittajien, asiakkaiden tai pankkitilien kanssa, haluat ehkä määrittää niille liikesuhteen.</span><span class="sxs-lookup"><span data-stu-id="dce49-109">If you plan to synchronize your contacts with vendors, customers, or bank accounts in other parts of the application, you may want to set up a business relation for them.</span></span>
 
-## <a name="to-define-a-business-relation-code"></a>Liikesuhteen koodin määrittäminen
-Liikesuhteen koodi määrittää liikesuhteen luokan tai tyypin. Se voi olla esimerkiksi PANKKI tai LAKI. Liikesuhteen koodeja voi olla useita. Määritä liikesuhde **Liikesuhteet**-ikkunassa.
+## <a name="to-define-a-business-relation-code"></a><span data-ttu-id="dce49-110">Liikesuhteen koodin määrittäminen</span><span class="sxs-lookup"><span data-stu-id="dce49-110">To define a business relation code</span></span>
+<span data-ttu-id="dce49-111">Liikesuhteen koodi määrittää liikesuhteen luokan tai tyypin. Se voi olla esimerkiksi PANKKI tai LAKI.</span><span class="sxs-lookup"><span data-stu-id="dce49-111">The business relation code defines a category or type of the business relationship, such as BANK or Law.</span></span> <span data-ttu-id="dce49-112">Liikesuhteen koodeja voi olla useita.</span><span class="sxs-lookup"><span data-stu-id="dce49-112">You can have several business relation codes.</span></span> <span data-ttu-id="dce49-113">Määritä liikesuhde **Liikesuhteet**-ikkunassa.</span><span class="sxs-lookup"><span data-stu-id="dce49-113">To define the business relation, you use the **Business Relations** window.</span></span>
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Liikesuhteet** ja valitse sitten aiheeseen liittyvä linkki.
-2. Valitse **Uusi**-toiminto. Täytä sitten koodi ja kuvaus. Koodi voi olla enintään 11 merkkiä pitkä. Se voi sisältää numeroita ja kirjaimia.
+1. <span data-ttu-id="dce49-114">Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Liikesuhteet** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="dce49-114">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Business Relations**, and then choose the related link.</span></span>
+2. <span data-ttu-id="dce49-115">Valitse **Uusi**-toiminto. Täytä sitten koodi ja kuvaus.</span><span class="sxs-lookup"><span data-stu-id="dce49-115">Choose the **New** action, and fill in a code and description.</span></span> <span data-ttu-id="dce49-116">Koodi voi olla enintään 11 merkkiä pitkä. Se voi sisältää numeroita ja kirjaimia.</span><span class="sxs-lookup"><span data-stu-id="dce49-116">The code can be a maximum of 11 characters, and can be any combination of numbers and letters.</span></span>
 
-## <a name="AssignBusRelContact"></a> Liikesuhteiden määrittäminen kontaktille
-Liikesuhteita ei voi liittää kontaktihenkilöön, vaan ainoastaan yrityksiin.
+## <span data-ttu-id="dce49-117"><a name="AssignBusRelContact"></a> Liikesuhteiden määrittäminen kontaktille</span><span class="sxs-lookup"><span data-stu-id="dce49-117"><a name="AssignBusRelContact"></a> To assign business relations to a contact</span></span>
+<span data-ttu-id="dce49-118">Liikesuhteita ei voi liittää kontaktihenkilöön, vaan ainoastaan yrityksiin.</span><span class="sxs-lookup"><span data-stu-id="dce49-118">You cannot assign business relations to a contact person - only companies.</span></span>
 
-1. Avaa kontakti.
-2. Valitse **Yritys**-toiminto ja sitten **Liikesuhteet**-toiminto.
+1. <span data-ttu-id="dce49-119">Avaa kontakti.</span><span class="sxs-lookup"><span data-stu-id="dce49-119">Open the contact.</span></span>
+2. <span data-ttu-id="dce49-120">Valitse **Yritys**-toiminto ja sitten **Liikesuhteet**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="dce49-120">Choose the **Company** action, and then the **Business Relations** action.</span></span>
 
-    **Kontaktin liikesuhteet** -ikkuna avautuu.
-3. Valitse **Liikesuhteen koodi** -kentässä liikesuhde, jonka haluat määrittää.
+    <span data-ttu-id="dce49-121">**Kontaktin liikesuhteet** -ikkuna avautuu.</span><span class="sxs-lookup"><span data-stu-id="dce49-121">The **Contact Business Relations** window opens.</span></span>
+3. <span data-ttu-id="dce49-122">Valitse **Liikesuhteen koodi** -kentässä liikesuhde, jonka haluat määrittää.</span><span class="sxs-lookup"><span data-stu-id="dce49-122">In the **Business Relation Code** field, select the business relation you want to assign.</span></span>
 
-Toista nämä vaiheet ja luo niin monta liikesuhdetta kuin haluat. Voit myös liittää liikesuhteita kontaktiluettelosta saman menettelytavan avulla.
+<span data-ttu-id="dce49-123">Toista nämä vaiheet ja luo niin monta liikesuhdetta kuin haluat.</span><span class="sxs-lookup"><span data-stu-id="dce49-123">Repeat these steps to assign as many business relations as you want.</span></span> <span data-ttu-id="dce49-124">Voit myös liittää liikesuhteita kontaktiluettelosta saman menettelytavan avulla.</span><span class="sxs-lookup"><span data-stu-id="dce49-124">You can also assign business relations from the contact list by following the same procedure.</span></span>
 
-Kontaktille liitettyjen liikesuhteiden lukumäärä näkyy **Kontakti**-ikkunan **Segmentointi**-osan **Liikesuhteiden lkm** -kentässä.
+<span data-ttu-id="dce49-125">Kontaktille liitettyjen liikesuhteiden lukumäärä näkyy **Kontakti**-ikkunan **Segmentointi**-osan **Liikesuhteiden lkm** -kentässä.</span><span class="sxs-lookup"><span data-stu-id="dce49-125">The number of business relations you have assigned to the contact is displayed in the **No. of Business Relations** field in the **Segmentation** section in the **Contact** window.</span></span>
 
-Kun olet liittänyt liikesuhteita kontakteihisi, voit käyttää näitä tietoja valitessasi kontakteja segmentteihisi. Lisätietoja on kohdassa [Toimintaohje: Kontaktien lisääminen segmentteihin](marketing-add-contact-segment.md).
+<span data-ttu-id="dce49-126">Kun olet liittänyt liikesuhteita kontakteihisi, voit käyttää näitä tietoja valitessasi kontakteja segmentteihisi.</span><span class="sxs-lookup"><span data-stu-id="dce49-126">After you have assigned business relations to your contacts, you can use this information to select contacts for your segments.</span></span> <span data-ttu-id="dce49-127">Lisätietoja on kohdassa [Toimintaohje: Kontaktien lisääminen segmentteihin](marketing-add-contact-segment.md).</span><span class="sxs-lookup"><span data-stu-id="dce49-127">For more information, see [How to: Add Contacts to Segments](marketing-add-contact-segment.md).</span></span>
 
-## <a name="see-also"></a>Katso myös
-[Kontaktiyrityksen luominen](marketing-create-contact-companies.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="dce49-128">Katso myös</span><span class="sxs-lookup"><span data-stu-id="dce49-128">See Also</span></span>
+[<span data-ttu-id="dce49-129">Kontaktiyrityksen luominen</span><span class="sxs-lookup"><span data-stu-id="dce49-129">Creating Contact Companies</span></span>](marketing-create-contact-companies.md)  
+<span data-ttu-id="dce49-130">[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="dce49-130">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 

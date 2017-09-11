@@ -16,125 +16,125 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: db79c257585fe89237ef4e8d61fa49ce46ec682f
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/11/2017
 
 
 ---
-# <a name="how-to-count-adjust-and-reclassify-inventory"></a>Varaston laskeminen, muuttaminen ja uudelleenluokitus
-Vähintään kerran tilikauden aikana tulee suorittaa inventointi (eli laskea kaikki varastossa olevat nimikkeet), jotta nähtäisiin, onko tietokantaan rekisteröity määrä sama kuin varaston fyysinen määrä. Kun varaston fyysinen määrä on tiedossa, se on kirjattava pääkirjanpitoon osana kauden lopun varaston arvostusta.
+# <a name="how-to-count-adjust-and-reclassify-inventory"></a><span data-ttu-id="848bb-103">Varaston laskeminen, muuttaminen ja uudelleenluokitus</span><span class="sxs-lookup"><span data-stu-id="848bb-103">How to: Count, Adjust, and Reclassify Inventory</span></span>
+<span data-ttu-id="848bb-104">Vähintään kerran tilikauden aikana tulee suorittaa inventointi (eli laskea kaikki varastossa olevat nimikkeet), jotta nähtäisiin, onko tietokantaan rekisteröity määrä sama kuin varaston fyysinen määrä.</span><span class="sxs-lookup"><span data-stu-id="848bb-104">At least once every fiscal year you must take a physical inventory, that is, count all the items on inventory, to see if the quantity registered in the database is the same as the actual physical quantity in the warehouses.</span></span> <span data-ttu-id="848bb-105">Kun varaston fyysinen määrä on tiedossa, se on kirjattava pääkirjanpitoon osana kauden lopun varaston arvostusta.</span><span class="sxs-lookup"><span data-stu-id="848bb-105">When the actual physical quantity is known, it must be posted to the general ledger as a part of period-end valuation of inventory.</span></span>
 
-Vaikka lasket kaikki varaston nimikkeet vähintään kerran vuodessa, voit päättää laskevasi joitain nimikkeitä useammin, koska ne ovat ehkä arvokkaampia tai ne liikkuvat nopeasti varastosta ja ovat suuri osa liiketoimintaa. Voit määrittää tätä varten erityisiä laskentajaksoja. Lisätietoja on kohdassa Inventoinnin suorittaminen.
+<span data-ttu-id="848bb-106">Vaikka lasket kaikki varaston nimikkeet vähintään kerran vuodessa, voit päättää laskevasi joitain nimikkeitä useammin, koska ne ovat ehkä arvokkaampia tai ne liikkuvat nopeasti varastosta ja ovat suuri osa liiketoimintaa.</span><span class="sxs-lookup"><span data-stu-id="848bb-106">Although you count all items in inventory at least once a year, you may have decided to count some items more often, perhaps because they are more valuable, or because they are very fast movers and a large part of your business.</span></span> <span data-ttu-id="848bb-107">Voit määrittää tätä varten erityisiä laskentajaksoja.</span><span class="sxs-lookup"><span data-stu-id="848bb-107">For this purpose, you can assign special counting periods to those items.</span></span> <span data-ttu-id="848bb-108">Lisätietoja on kohdassa Inventoinnin suorittaminen.</span><span class="sxs-lookup"><span data-stu-id="848bb-108">For more information, see the "To perform cycle counting" section.</span></span>
 
-Jos kirjattuja varastomääriä pitää muuttaa laskennan yhteydessä tai muita tarkoituksia varten, inventointitapahtumia voi muuttaa suoraan nimikepäiväkirjan avulla liiketoimintatapahtumia kirjaamatta. Vaihtoehtoisesti voit muuttaa yhden nimikkeen nimikekortissa.
+<span data-ttu-id="848bb-109">Jos kirjattuja varastomääriä pitää muuttaa laskennan yhteydessä tai muita tarkoituksia varten, inventointitapahtumia voi muuttaa suoraan nimikepäiväkirjan avulla liiketoimintatapahtumia kirjaamatta.</span><span class="sxs-lookup"><span data-stu-id="848bb-109">If you need to adjust recorded inventory quantities, in connection with counting or for other purposes, you can use an item journal to change the inventory ledger entries directly without posting business transactions.</span></span> <span data-ttu-id="848bb-110">Vaihtoehtoisesti voit muuttaa yhden nimikkeen nimikekortissa.</span><span class="sxs-lookup"><span data-stu-id="848bb-110">Alternatively, you can adjust for a single item on the item card.</span></span>
 
-Jos sekä nimiketapahtumien määritteitä että määriä pitää muuttaa, voidaan käyttää nimikkeen uudelleenluokituspäiväkirjaa. Tyypillisiä uudelleenluokiteltavia määritteitä ovat sarja- ja eränumerot, vanhentumispäivämäärät ja dimensiot.
+<span data-ttu-id="848bb-111">Jos sekä nimiketapahtumien määritteitä että määriä pitää muuttaa, voidaan käyttää nimikkeen uudelleenluokituspäiväkirjaa.</span><span class="sxs-lookup"><span data-stu-id="848bb-111">If you need to change attributes on item ledger entries as well as the quantities, you can use the item reclassification journal.</span></span> <span data-ttu-id="848bb-112">Tyypillisiä uudelleenluokiteltavia määritteitä ovat sarja- ja eränumerot, vanhentumispäivämäärät ja dimensiot.</span><span class="sxs-lookup"><span data-stu-id="848bb-112">Typical attributes to reclassify include serial/lot numbers, expiration dates, and dimensions.</span></span>
 
-## <a name="to-perform-a-physical-inventory"></a>Inventoinnin suorittaminen
-Sinun tulee tehdä inventointi (eli laskea saatavilla olevat nimikkeet) nähdäksesi, onko ohjelmaan rekisteröity määrä sama kuin varaston fyysinen määrä, tilikauden lopussa ellei useamminkin. Jos löytyy eroja, ne tulee kirjata nimiketileille ennen varaston arvostusta.
+## <a name="to-perform-a-physical-inventory"></a><span data-ttu-id="848bb-113">Inventoinnin suorittaminen</span><span class="sxs-lookup"><span data-stu-id="848bb-113">To perform a physical inventory</span></span>
+<span data-ttu-id="848bb-114">Sinun tulee tehdä inventointi (eli laskea saatavilla olevat nimikkeet) nähdäksesi, onko ohjelmaan rekisteröity määrä sama kuin varaston fyysinen määrä, tilikauden lopussa ellei useamminkin.</span><span class="sxs-lookup"><span data-stu-id="848bb-114">You must take a physical inventory, that is, count the actual items on hand, to check if the quantity registered is the same as the physical quantity in stock at the end of a fiscal year, if not more often.</span></span> <span data-ttu-id="848bb-115">Jos löytyy eroja, ne tulee kirjata nimiketileille ennen varaston arvostusta.</span><span class="sxs-lookup"><span data-stu-id="848bb-115">If there are differences, you must post them to the item accounts before you do the inventory valuation.</span></span>
 
-Fyysisen laskentajakson lisäksi täydellinen prosessi käsittää seuraavat kolme tehtävää:
+<span data-ttu-id="848bb-116">Fyysisen laskentajakson lisäksi täydellinen prosessi käsittää seuraavat kolme tehtävää:</span><span class="sxs-lookup"><span data-stu-id="848bb-116">Apart from the physical counting task, the complete process involves the following three tasks:</span></span>
 
-- Laske oletettu varasto.
-- Tulosta raportti, jota käytetään laskennassa.
-- Syötä ja kirjaa todellinen laskettu varasto.
+- <span data-ttu-id="848bb-117">Laske oletettu varasto.</span><span class="sxs-lookup"><span data-stu-id="848bb-117">Calculate the expected inventory.</span></span>
+- <span data-ttu-id="848bb-118">Tulosta raportti, jota käytetään laskennassa.</span><span class="sxs-lookup"><span data-stu-id="848bb-118">Print the report to be used when counting.</span></span>
+- <span data-ttu-id="848bb-119">Syötä ja kirjaa todellinen laskettu varasto.</span><span class="sxs-lookup"><span data-stu-id="848bb-119">Enter and post the actual counted inventory.</span></span>
 
-### <a name="to-calculate-the-expected-inventory"></a>Laske oletettu varasto
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Varastopäiväkirjat** ja valitse sitten aiheeseen liittyvä linkki.
-2. Valitse **Laske varasto** -toiminto.
-3. Määritä **Laske varasto** -ikkunassa ehdot, joita käytetään luotaessa päiväkirjarivejä, kuten sisällytetäänkö nimikkeet, joiden kirjattu varastomäärä on nolla.
-4. Aseta suodattimia, jos haluat laskea vain varaston tiettyjä nimikkeitä, varastopaikkoja, sijainteja tai dimensioita.
-5. Valitse **OK**-painike.
+### <a name="to-calculate-the-expected-inventory"></a><span data-ttu-id="848bb-120">Laske oletettu varasto</span><span class="sxs-lookup"><span data-stu-id="848bb-120">To calculate the expected inventory</span></span>
+1. <span data-ttu-id="848bb-121">Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Varastopäiväkirjat** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="848bb-121">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Phys. Inventory Journals**, and then choose the related link.</span></span>
+2. <span data-ttu-id="848bb-122">Valitse **Laske varasto** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="848bb-122">Choose the **Calculate Inventory** action.</span></span>
+3. <span data-ttu-id="848bb-123">Määritä **Laske varasto** -ikkunassa ehdot, joita käytetään luotaessa päiväkirjarivejä, kuten sisällytetäänkö nimikkeet, joiden kirjattu varastomäärä on nolla.</span><span class="sxs-lookup"><span data-stu-id="848bb-123">In the **Calculate Inventory** window, specify the conditions to use to create the journal lines, such as whether to include items that have zero recorded inventory.</span></span>
+4. <span data-ttu-id="848bb-124">Aseta suodattimia, jos haluat laskea vain varaston tiettyjä nimikkeitä, varastopaikkoja, sijainteja tai dimensioita.</span><span class="sxs-lookup"><span data-stu-id="848bb-124">Set filters if you only want to calculate inventory for certain items, bins, locations, or dimensions.</span></span>
+5. <span data-ttu-id="848bb-125">Valitse **OK**-painike.</span><span class="sxs-lookup"><span data-stu-id="848bb-125">Choose the **OK** button.</span></span>
 
 > [!NOTE]  
->   Ohjelma käsittelee nimiketapahtumat määrittämiesi tietojen mukaan ja luo rivejä inventointipäiväkirjaan. Huomaa, että **Määrä (inventointi)** -kenttään täytetään automaattisesti sama määrä kuin **Määrä (laskettu)** -kenttään. Tämän ominaisuuden ansiosta sinun ei tarvitse syöttää laskettua varastosaldoa niiden nimikkeiden osalta, joiden määrä on sama kuin laskettu määrä. Jos laskettu määrä kuitenkin eroaa **Määrä (laskettu)** -kenttään syötetystä määrästä, korvaa se todellisella lasketulla määrällä.
+>   <span data-ttu-id="848bb-126">Ohjelma käsittelee nimiketapahtumat määrittämiesi tietojen mukaan ja luo rivejä inventointipäiväkirjaan.</span><span class="sxs-lookup"><span data-stu-id="848bb-126">The item entries are processed according to the information that you specified, and lines are created in the physical inventory journal.</span></span> <span data-ttu-id="848bb-127">Huomaa, että **Määrä (inventointi)** -kenttään täytetään automaattisesti sama määrä kuin **Määrä (laskettu)** -kenttään.</span><span class="sxs-lookup"><span data-stu-id="848bb-127">Notice that the **Qty. (Phys. Inventory)** field is automatically filled in with the same quantity as the **Qty. (Calculated)** field.</span></span> <span data-ttu-id="848bb-128">Tämän ominaisuuden ansiosta sinun ei tarvitse syöttää laskettua varastosaldoa niiden nimikkeiden osalta, joiden määrä on sama kuin laskettu määrä.</span><span class="sxs-lookup"><span data-stu-id="848bb-128">With this feature, it is not necessary for you to enter the counted inventory on hand for items that are the same as the calculated quantity.</span></span> <span data-ttu-id="848bb-129">Jos laskettu määrä kuitenkin eroaa **Määrä (laskettu)** -kenttään syötetystä määrästä, korvaa se todellisella lasketulla määrällä.</span><span class="sxs-lookup"><span data-stu-id="848bb-129">However, if the quantity counted differs from what is entered in the **Qty. (Calculated)** field, you must overwrite it with the quantity actually counted.</span></span>
 
-### <a name="to-print-the-report-used-when-counting"></a>Tulosta raportti, jota käytetään laskennassa
-1. Valitse lasketun oletetun varaston sisältävän **Varastopäiväkirja** -ikkunassa **Tulosta**-toiminto.
-2. Määritä **Inventointiluettelo**-ikkunassa, näytetäänkö raportissa laskettu määrä ja näkyykö raportissa varastonimikkeiden luettelo sarja ja eränumeroiden mukaan.
-3. Määritä suodattimia, jos haluat tulostaa vain tiettyjä varastojen nimikkeiden, varastopaikkojen, sijaintien tai dimensioiden raportteja.
-4. Valitse **Tulosta**-painike.
+### <a name="to-print-the-report-used-when-counting"></a><span data-ttu-id="848bb-130">Tulosta raportti, jota käytetään laskennassa</span><span class="sxs-lookup"><span data-stu-id="848bb-130">To print the report used when counting</span></span>
+1. <span data-ttu-id="848bb-131">Valitse lasketun oletetun varaston sisältävän **Varastopäiväkirja** -ikkunassa **Tulosta**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="848bb-131">In the **Phys. Inventory Journal** window containing the calculated expected inventory, Choose the **Print** action.</span></span>
+2. <span data-ttu-id="848bb-132">Määritä **Inventointiluettelo**-ikkunassa, näytetäänkö raportissa laskettu määrä ja näkyykö raportissa varastonimikkeiden luettelo sarja ja eränumeroiden mukaan.</span><span class="sxs-lookup"><span data-stu-id="848bb-132">In the **Phys. Inventory List** window, specify if the report should show the calculated quantity and if the report should list inventory items by serial/lot numbers.</span></span>
+3. <span data-ttu-id="848bb-133">Määritä suodattimia, jos haluat tulostaa vain tiettyjä varastojen nimikkeiden, varastopaikkojen, sijaintien tai dimensioiden raportteja.</span><span class="sxs-lookup"><span data-stu-id="848bb-133">Set filters if you only want to print the report for certain items, bins, locations, or dimensions.</span></span>
+4. <span data-ttu-id="848bb-134">Valitse **Tulosta**-painike.</span><span class="sxs-lookup"><span data-stu-id="848bb-134">Choose the **Print** button.</span></span>
 
-Työntekijät voivat nyt laskea varaston ja merkitä mahdolliset poikkeamat tulostettuun raporttiin.
+<span data-ttu-id="848bb-135">Työntekijät voivat nyt laskea varaston ja merkitä mahdolliset poikkeamat tulostettuun raporttiin.</span><span class="sxs-lookup"><span data-stu-id="848bb-135">Employees can now proceed to count inventory and record any discrepancies on the printed report.</span></span>
 
-### <a name="to-enter-and-post-the-actual-counted-inventory"></a>Syötä ja kirjaa todellinen laskettu varasto
-1. Jos jollakin **Varastopäiväkirja**-ikkunan rivillä inventoinnissa määritetty todellinen saatavissa oleva varastomäärä poikkeaa lasketusta määrästä, anna **Määrä (varastotilanne)** -kentässä todellinen saatavissa oleva varastomäärä.
+### <a name="to-enter-and-post-the-actual-counted-inventory"></a><span data-ttu-id="848bb-136">Syötä ja kirjaa todellinen laskettu varasto</span><span class="sxs-lookup"><span data-stu-id="848bb-136">To enter and post the actual counted inventory</span></span>
+1. <span data-ttu-id="848bb-137">Jos jollakin **Varastopäiväkirja**-ikkunan rivillä inventoinnissa määritetty todellinen saatavissa oleva varastomäärä poikkeaa lasketusta määrästä, anna **Määrä (varastotilanne)** -kentässä todellinen saatavissa oleva varastomäärä.</span><span class="sxs-lookup"><span data-stu-id="848bb-137">On each line in the **Phys. Inventory Journal** window where the actual inventory on hand, as determined by the physical count, differs from the calculated quantity, enter the actual inventory on hand in the **Qty. (Phys. Inventory)** field.</span></span>
 
-    Liittyvät kentät päivitetään tämän mukaisesti.
+    <span data-ttu-id="848bb-138">Liittyvät kentät päivitetään tämän mukaisesti.</span><span class="sxs-lookup"><span data-stu-id="848bb-138">The related fields are updated accordingly.</span></span>
 
     > [!NOTE]  
->   Jos inventointi paljastaa eroja, jotka johtuvat siitä, että nimikkeitä on kirjattu virheellisten sijaintikoodien kanssa, älä syötä eroja inventointipäiväkirjaan. Käytä sen sijaan uudelleenluokituspäiväkirjaa tai siirtotilausta nimikkeiden ohjaamiseen oikeisiin sijainteihin. Lisätietoja on kohdassa Nimikkeen uudelleen luokittelun päiväkirja tai Siirtotilausten luominen.
+>   <span data-ttu-id="848bb-139">Jos inventointi paljastaa eroja, jotka johtuvat siitä, että nimikkeitä on kirjattu virheellisten sijaintikoodien kanssa, älä syötä eroja inventointipäiväkirjaan.</span><span class="sxs-lookup"><span data-stu-id="848bb-139">If the physical count reveals differences that are caused by items posted with incorrect location codes, do not enter the differences in the physical inventory journal.</span></span> <span data-ttu-id="848bb-140">Käytä sen sijaan uudelleenluokituspäiväkirjaa tai siirtotilausta nimikkeiden ohjaamiseen oikeisiin sijainteihin.</span><span class="sxs-lookup"><span data-stu-id="848bb-140">Instead, use the reclassification journal or a transfer order to redirect the items to the correct locations.</span></span> <span data-ttu-id="848bb-141">Lisätietoja on kohdassa Nimikkeen uudelleen luokittelun</span><span class="sxs-lookup"><span data-stu-id="848bb-141">For more information, see Item Reclass.</span></span> <span data-ttu-id="848bb-142">päiväkirja tai Siirtotilausten luominen.</span><span class="sxs-lookup"><span data-stu-id="848bb-142">Journal or How to: Create Transfer Orders.</span></span>
 
-2. Voit muokata lasketut määrät todellisten laskettujen määrien mukaiseksi valitsemalla **Kirjaus**-toiminnon.
+2. <span data-ttu-id="848bb-143">Voit muokata lasketut määrät todellisten laskettujen määrien mukaiseksi valitsemalla **Kirjaus**-toiminnon.</span><span class="sxs-lookup"><span data-stu-id="848bb-143">To adjust the calculated quantities to the actual counted quantities, choose the **Post** action.</span></span>
 
-    Sekä nimiketapahtumat että fyysiset inventointitapahtumat luodaan. Avaa nimikkeen kortti, jos halkuat tarkastella tuloksena saatavia inventointitapahtumia.
+    <span data-ttu-id="848bb-144">Sekä nimiketapahtumat että fyysiset inventointitapahtumat luodaan.</span><span class="sxs-lookup"><span data-stu-id="848bb-144">Both item ledger entries and physical inventory ledger entries are created.</span></span> <span data-ttu-id="848bb-145">Avaa nimikkeen kortti, jos halkuat tarkastella tuloksena saatavia inventointitapahtumia.</span><span class="sxs-lookup"><span data-stu-id="848bb-145">Open the item card to view the resulting physical inventory ledger entries.</span></span>
 
-3. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Nimikkeet** ja valitse sitten aiheeseen liittyvä linkki.
-4. Voit tarkistaa inventoinnin avaamalla kyseisen nimikekortin ja valitsemalla sitten **Inventointitapahtumat** -toiminnon.
+3. <span data-ttu-id="848bb-146">Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Nimikkeet** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="848bb-146">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.</span></span>
+4. <span data-ttu-id="848bb-147">Voit tarkistaa inventoinnin avaamalla kyseisen nimikekortin ja valitsemalla sitten **Inventointitapahtumat** -toiminnon.</span><span class="sxs-lookup"><span data-stu-id="848bb-147">To verify the inventory counting, open the item card in question, and then, choose the **Phys. Inventory ledger Entries** action.</span></span>
 
-# <a name="to-perform-cycle-counting"></a>Inventoinnin suorittaminen
-Vaikka inventoit kaikki varaston nimikkeet vähintään kerran vuodessa, voit päättää joillekin nimikkeille useammin tehtävän inventoinnin, vaikkapa niiden suuren arvon vuoksi tai koska ne liikkuvat nopeasti varastosta ja ovat suuri osa liiketoimintaa. Voit määrittää tätä varten erityisiä laskentajaksoja.
-
-> [!NOTE]  
->   Jos sijaintiin on määritetty ohjattu hyllytys ja keräily, sinun on käytettävä ensin **Invent. varastopäiväk.** -ikkunaa ja sitten **Nimikepäiväkirja**-ikkunan **Laske f.var. muutos** -toimintoa.
-
-## <a name="to-set-up-counting-periods"></a>Laskentajaksojen määrittäminen
-Inventointi suoritetaan tavallisesti toistuvin aikavälein, esimerkiksi kuukausittain, neljännesvuosittain tai vuosittain. Voit määrittää mitä tahansa inventoinnin laskentajaksoja.
-
-Määritä käytettävät inventointijaksot ja määritä yksi niistä kullekin nimikkeelle. Kun suoritat inventoinnin ja käytät inventointipäiväkirjassa **Laske laskentajakso** -vaihtoehtoa, nimikkeiden rivit luodaan automaattisesti.
-
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Varastotilanteen laskentajaksot** ja valitse sitten aiheeseen liittyvä linkki.  
-2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-
-## <a name="to-assign-a-counting-period-to-an-item"></a>Laskentajakson määritteleminen nimikkeelle  
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Nimikkeet** ja valitse sitten aiheeseen liittyvä linkki.  
-2. Valitse nimike, jolle haluat määrittää laskentajakson.  
-3. Valitse **Inventointijakson koodi** -kentässä sopiva laskentajakso.  
-4. Valitse **Kyllä**-painike vaihtaaksesi koodin ja laskeaksesi nimikkeelle ensimmäisen laskentajakson. Kun lasket seuraavan kerran inventointipäiväkirjassa laskentajakson, nimike näkyy rivinä **Inventoinnin nimikevalinta** -ikkunassa. Voit sitten aloittaa nimikkeen laskennan säännöllisin väliajoin.
-
-## <a name="to-initiate-a-count-based-on-counting-periods"></a>Laskennan aloittaminen laskentajaksojen perusteella
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Varastopäiväkirja** ja valitse sitten aiheeseen liittyvä linkki.
-2. Valitse **Laske laskentajakso** -toiminto.
-
-    Avautuvassa **Inventoinnin nimikevalinta** -ikkunassa näkyvät nimikkeet, joille on määritetty laskentajaksot ja jotka on laskettava niiden laskentajaksojen mukaisesti.
-3. Suorita inventointi. Lisätietoja on kohdassa Inventoinnin suorittaminen.
-
-## <a name="to-adjust-the-inventory-of-one-item"></a>Yhden nimikkeen varastonimikkeen muuttaminen
-Kun nimikkeen fyysinen laskenta on suoritettu varastoalueellasi, voit käyttää **Muuta varasto**-toimintoa todellisen varastomäärän kirjaamiseen.
-
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Nimikkeet** ja valitse sitten aiheeseen liittyvä linkki.
-2. Valitse nimike, jonka varastoa haluat muuttaa, ja valitse sitten **Muuta varastoa** -toimintoa.
-3. Syötä **Uusi varasto** -kenttään varastomäärä, jonka haluat tallentaa nimikkeelle.
-4. Valitse **OK**-painike.
-
-Nimikkeen varasto on nyt määritetty. Uusi määrä näytetään **Nykyinen varasto** -kentässä **Muokkaa varastoa** -ikkunassa ja **Varasto**-kentässä **Nimikekortti**-ikkunassa.
-
-Voit käyttää **Muuta varastoa** -toimintoa myös yksinkertaisena tapana asettaa ostetut nimikkeet varastoon, jos et tallenna ostoja ostolaskuina tai -tilauksina. Lisätietoja on kohdassa [Toimintaohje: Ostojen kirjaaminen](purchasing-how-record-purchases.md).
+# <a name="to-perform-cycle-counting"></a><span data-ttu-id="848bb-148">Inventoinnin suorittaminen</span><span class="sxs-lookup"><span data-stu-id="848bb-148">To perform cycle counting</span></span>
+<span data-ttu-id="848bb-149">Vaikka inventoit kaikki varaston nimikkeet vähintään kerran vuodessa, voit päättää joillekin nimikkeille useammin tehtävän inventoinnin, vaikkapa niiden suuren arvon vuoksi tai koska ne liikkuvat nopeasti varastosta ja ovat suuri osa liiketoimintaa.</span><span class="sxs-lookup"><span data-stu-id="848bb-149">Although you count all items in inventory at least once a year, you may have decided to count some items more often, perhaps because they are more valuable, or because they are very fast movers and a large part of your business.</span></span> <span data-ttu-id="848bb-150">Voit määrittää tätä varten erityisiä laskentajaksoja.</span><span class="sxs-lookup"><span data-stu-id="848bb-150">For this purpose, you can assign special counting periods to those items.</span></span>
 
 > [!NOTE]  
->   Kun olet muuttanut varastoa, se on päivitettävä nykyisellä lasketulla arvolla. Lisätietoja on kohdassa [Toimintaohje: Varaston uudelleenarvostus](inventory-how-revalue-inventory.md).
+>   <span data-ttu-id="848bb-151">Jos sijaintiin on määritetty ohjattu hyllytys ja keräily, sinun on käytettävä ensin **Invent. varastopäiväk.** -ikkunaa ja sitten **Nimikepäiväkirja**-ikkunan **Laske f.var. muutos** -toimintoa.</span><span class="sxs-lookup"><span data-stu-id="848bb-151">If your location is set up for directed put-away and pick, then you first use the **Whse. Phys. Invt. Journal** window, and then you use the **Calculate Whse. Adjustment** function in the **Item Journal** window.</span></span>
 
-## <a name="to-adjust-the-inventory-quantity-of-one-or-more-items"></a>Vähintään yhden nimikkeen varastosaldon muuttaminen
-Voit kirjata **Nimikepäiväkirja** -ikkunassa nimiketapahtuman suoraan ja muuttaa varastoa ostojen, myyntien ja positiivisten tai negatiivisten muutosten yhteydessä asiakirjoja käyttämättä.
+## <a name="to-set-up-counting-periods"></a><span data-ttu-id="848bb-152">Laskentajaksojen määrittäminen</span><span class="sxs-lookup"><span data-stu-id="848bb-152">To set up counting periods</span></span>
+<span data-ttu-id="848bb-153">Inventointi suoritetaan tavallisesti toistuvin aikavälein, esimerkiksi kuukausittain, neljännesvuosittain tai vuosittain.</span><span class="sxs-lookup"><span data-stu-id="848bb-153">A physical inventory is typically taken at some recurring interval, for example monthly, quarterly, or annually.</span></span> <span data-ttu-id="848bb-154">Voit määrittää mitä tahansa inventoinnin laskentajaksoja.</span><span class="sxs-lookup"><span data-stu-id="848bb-154">You can set up whatever inventory counting periods necessary.</span></span>
 
-Jos nimikepäiväkirjaan kirjataan usein samoja tai saman tyyppisiä päiväkirjan rivejä, jotka liittyvät esimerkiksi materiaalinkulutukseen, voit helpottaa toistuvien toimien suorittamista käyttämällä **Vakionimikepäiväkirja**-ikkunaa. Lisätietoja on ohjeaiheen [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md) kohdassa Vakiopäiväkirjat.
+<span data-ttu-id="848bb-155">Määritä käytettävät inventointijaksot ja määritä yksi niistä kullekin nimikkeelle.</span><span class="sxs-lookup"><span data-stu-id="848bb-155">You set up the inventory counting periods that you want to use and then assign one to each item.</span></span> <span data-ttu-id="848bb-156">Kun suoritat inventoinnin ja käytät inventointipäiväkirjassa **Laske laskentajakso** -vaihtoehtoa, nimikkeiden rivit luodaan automaattisesti.</span><span class="sxs-lookup"><span data-stu-id="848bb-156">When you perform a physical inventory and use the **Calculate Counting Period** in the physical inventory journal, lines for the items are created automatically.</span></span>
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Nimikepäiväkirjat** ja valitse sitten aiheeseen liittyvä linkki.
-2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Tee muutokset varastoon valitsemalla **Kirjaa**-toiminto.
+1. <span data-ttu-id="848bb-157">Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Varastotilanteen laskentajaksot** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="848bb-157">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Phys. Invt. Counting Periods**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="848bb-158">Täytä tarvittavat kentät.</span><span class="sxs-lookup"><span data-stu-id="848bb-158">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+## <a name="to-assign-a-counting-period-to-an-item"></a><span data-ttu-id="848bb-159">Laskentajakson määritteleminen nimikkeelle</span><span class="sxs-lookup"><span data-stu-id="848bb-159">To assign a counting period to an item</span></span>  
+1. <span data-ttu-id="848bb-160">Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Nimikkeet** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="848bb-160">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="848bb-161">Valitse nimike, jolle haluat määrittää laskentajakson.</span><span class="sxs-lookup"><span data-stu-id="848bb-161">Select the item to which you want to assign a counting period.</span></span>  
+3. <span data-ttu-id="848bb-162">Valitse **Inventointijakson koodi** -kentässä sopiva laskentajakso.</span><span class="sxs-lookup"><span data-stu-id="848bb-162">In the **Phys Invt Counting Period Code** field, select the appropriate counting period.</span></span>  
+4. <span data-ttu-id="848bb-163">Valitse **Kyllä**-painike vaihtaaksesi koodin ja laskeaksesi nimikkeelle ensimmäisen laskentajakson.</span><span class="sxs-lookup"><span data-stu-id="848bb-163">Choose the **Yes** button to change the code and calculate the first counting period for the item.</span></span> <span data-ttu-id="848bb-164">Kun lasket seuraavan kerran inventointipäiväkirjassa laskentajakson, nimike näkyy rivinä **Inventoinnin nimikevalinta** -ikkunassa.</span><span class="sxs-lookup"><span data-stu-id="848bb-164">The next time you choose to calculate a counting period in the physical inventory journal, the item appears as a line in the **Phys. Invt. Item Selection** window.</span></span> <span data-ttu-id="848bb-165">Voit sitten aloittaa nimikkeen laskennan säännöllisin väliajoin.</span><span class="sxs-lookup"><span data-stu-id="848bb-165">You can then begin to count the item on a periodic basis.</span></span>
+
+## <a name="to-initiate-a-count-based-on-counting-periods"></a><span data-ttu-id="848bb-166">Laskennan aloittaminen laskentajaksojen perusteella</span><span class="sxs-lookup"><span data-stu-id="848bb-166">To initiate a count based on counting periods</span></span>
+1. <span data-ttu-id="848bb-167">Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Varastopäiväkirja** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="848bb-167">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Phys. Inventory Journal**, and then choose the related link.</span></span>
+2. <span data-ttu-id="848bb-168">Valitse **Laske laskentajakso** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="848bb-168">Choose the **Calculate Counting Period** action.</span></span>
+
+    <span data-ttu-id="848bb-169">Avautuvassa **Inventoinnin nimikevalinta** -ikkunassa näkyvät nimikkeet, joille on määritetty laskentajaksot ja jotka on laskettava niiden laskentajaksojen mukaisesti.</span><span class="sxs-lookup"><span data-stu-id="848bb-169">The **Phys. Invt. Item Selection** window opens showing the items that have counting periods assigned and need to be counted according to their counting periods.</span></span>
+3. <span data-ttu-id="848bb-170">Suorita inventointi.</span><span class="sxs-lookup"><span data-stu-id="848bb-170">Perform the physical inventory.</span></span> <span data-ttu-id="848bb-171">Lisätietoja on kohdassa Inventoinnin suorittaminen.</span><span class="sxs-lookup"><span data-stu-id="848bb-171">For more information, see the "To perform a physical inventory" section.</span></span>
+
+## <a name="to-adjust-the-inventory-of-one-item"></a><span data-ttu-id="848bb-172">Yhden nimikkeen varastonimikkeen muuttaminen</span><span class="sxs-lookup"><span data-stu-id="848bb-172">To adjust the inventory of one item</span></span>
+<span data-ttu-id="848bb-173">Kun nimikkeen fyysinen laskenta on suoritettu varastoalueellasi, voit käyttää **Muuta varasto**-toimintoa todellisen varastomäärän kirjaamiseen.</span><span class="sxs-lookup"><span data-stu-id="848bb-173">After you have made a physical count of an item in your inventory area, you can use the **Adjust Inventory** function to record the actual inventory quantity.</span></span>
+
+1. <span data-ttu-id="848bb-174">Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Nimikkeet** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="848bb-174">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.</span></span>
+2. <span data-ttu-id="848bb-175">Valitse nimike, jonka varastoa haluat muuttaa, ja valitse sitten **Muuta varastoa** -toimintoa.</span><span class="sxs-lookup"><span data-stu-id="848bb-175">Select the item for which you want to adjust inventory, and then choose the **Adjust Inventory** action.</span></span>
+3. <span data-ttu-id="848bb-176">Syötä **Uusi varasto** -kenttään varastomäärä, jonka haluat tallentaa nimikkeelle.</span><span class="sxs-lookup"><span data-stu-id="848bb-176">In the **New Inventory** field, enter the inventory quantity that you want to record for the item.</span></span>
+4. <span data-ttu-id="848bb-177">Valitse **OK**-painike.</span><span class="sxs-lookup"><span data-stu-id="848bb-177">Choose the **OK** button.</span></span>
+
+<span data-ttu-id="848bb-178">Nimikkeen varasto on nyt määritetty.</span><span class="sxs-lookup"><span data-stu-id="848bb-178">The item’s inventory is now adjusted.</span></span> <span data-ttu-id="848bb-179">Uusi määrä näytetään **Nykyinen varasto** -kentässä **Muokkaa varastoa** -ikkunassa ja **Varasto**-kentässä **Nimikekortti**-ikkunassa.</span><span class="sxs-lookup"><span data-stu-id="848bb-179">The new quantity is shown in the **Current Inventory** field in the **Adjust Inventory** window and in the **Inventory** field in the **Item Card** window.</span></span>
+
+<span data-ttu-id="848bb-180">Voit käyttää **Muuta varastoa** -toimintoa myös yksinkertaisena tapana asettaa ostetut nimikkeet varastoon, jos et tallenna ostoja ostolaskuina tai -tilauksina.</span><span class="sxs-lookup"><span data-stu-id="848bb-180">You can also use the **Adjust Inventory** function as a simple way to place purchased items on inventory if you do not use purchase invoices or orders to record your purchases.</span></span> <span data-ttu-id="848bb-181">Lisätietoja on kohdassa [Toimintaohje: Ostojen kirjaaminen](purchasing-how-record-purchases.md).</span><span class="sxs-lookup"><span data-stu-id="848bb-181">For more information, [How to: Record Purchases](purchasing-how-record-purchases.md).</span></span>
 
 > [!NOTE]  
->   Kun olet muuttanut varastoa, se on päivitettävä nykyisellä lasketulla arvolla. Lisätietoja on kohdassa [Varaston uudelleenarvostus](inventory-how-revalue-inventory.md).
+>   <span data-ttu-id="848bb-182">Kun olet muuttanut varastoa, se on päivitettävä nykyisellä lasketulla arvolla.</span><span class="sxs-lookup"><span data-stu-id="848bb-182">After you have adjusted inventory, you must update it with the current, calculated value.</span></span> <span data-ttu-id="848bb-183">Lisätietoja on kohdassa [Toimintaohje: Varaston uudelleenarvostus](inventory-how-revalue-inventory.md).</span><span class="sxs-lookup"><span data-stu-id="848bb-183">For more information, see [How to: Revalue Inventory](inventory-how-revalue-inventory.md).</span></span>
 
-## <a name="to-reclassify-an-items-lot-number"></a>Nimikkeen eränumeron uudelleenluokittelu
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Nimikkeen uudell.luokit. pvk:t** ja valitse sitten aiheeseen liittyvä linkki.
-2. Täytä **Nimik. uud.luok.pvk** -ikkunassa tarvittavat kentät.
-3. Anna **Eränro**-kentässä nimikkeen nykyinen eränumero.
-4. Anna **Uusi eränro** -kentässä nimikkeen uusi eränumero.
-5. Valitse **Kirjaa**-toiminto.
+## <a name="to-adjust-the-inventory-quantity-of-one-or-more-items"></a><span data-ttu-id="848bb-184">Vähintään yhden nimikkeen varastosaldon muuttaminen</span><span class="sxs-lookup"><span data-stu-id="848bb-184">To adjust the inventory quantity of one or more items</span></span>
+<span data-ttu-id="848bb-185">Voit kirjata **Nimikepäiväkirja** -ikkunassa nimiketapahtuman suoraan ja muuttaa varastoa ostojen, myyntien ja positiivisten tai negatiivisten muutosten yhteydessä asiakirjoja käyttämättä.</span><span class="sxs-lookup"><span data-stu-id="848bb-185">In the **Item Journal** window, you can post item transaction directly to adjust inventory in connection with purchases, sales, and positive or negative adjustments without using documents.</span></span>
 
-## <a name="see-also"></a>Katso myös
-[Varasto](inventory-manage-inventory.md)  
-[Myynti](sales-manage-sales.md)  
-[Osto](purchasing-manage-purchasing.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+<span data-ttu-id="848bb-186">Jos nimikepäiväkirjaan kirjataan usein samoja tai saman tyyppisiä päiväkirjan rivejä, jotka liittyvät esimerkiksi materiaalinkulutukseen, voit helpottaa toistuvien toimien suorittamista käyttämällä **Vakionimikepäiväkirja**-ikkunaa.</span><span class="sxs-lookup"><span data-stu-id="848bb-186">If you often use the item journal to post the same or similar journal lines, for example, in connection with material consumption, you can use the **Standard Item Journal** window to make this recurring work easier.</span></span> <span data-ttu-id="848bb-187">Lisätietoja on ohjeaiheen [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md) kohdassa Vakiopäiväkirjat.</span><span class="sxs-lookup"><span data-stu-id="848bb-187">For more information, see the "Standard Journals" section in [Working with General Journals](ui-work-general-journals.md).</span></span>
+
+1. <span data-ttu-id="848bb-188">Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Nimikepäiväkirjat** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="848bb-188">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Journals**, and then choose the related link.</span></span>
+2. <span data-ttu-id="848bb-189">Täytä tarvittavat kentät.</span><span class="sxs-lookup"><span data-stu-id="848bb-189">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. <span data-ttu-id="848bb-190">Tee muutokset varastoon valitsemalla **Kirjaa**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="848bb-190">Choose the **Post** action to make the inventory adjustments.</span></span>
+
+> [!NOTE]  
+>   <span data-ttu-id="848bb-191">Kun olet muuttanut varastoa, se on päivitettävä nykyisellä lasketulla arvolla.</span><span class="sxs-lookup"><span data-stu-id="848bb-191">After you have adjusted inventory, you must update it with the current, calculated value.</span></span> <span data-ttu-id="848bb-192">Lisätietoja on kohdassa [Varaston uudelleenarvostus](inventory-how-revalue-inventory.md).</span><span class="sxs-lookup"><span data-stu-id="848bb-192">For more information, see [How to: Revalue Inventory](inventory-how-revalue-inventory.md).</span></span>
+
+## <a name="to-reclassify-an-items-lot-number"></a><span data-ttu-id="848bb-193">Nimikkeen eränumeron uudelleenluokittelu</span><span class="sxs-lookup"><span data-stu-id="848bb-193">To reclassify an item's lot number</span></span>
+1. <span data-ttu-id="848bb-194">Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Nimikkeen uudell.luokit. pvk:t** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="848bb-194">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Reclass. Journals**, and then choose the related link.</span></span>
+2. <span data-ttu-id="848bb-195">Täytä **Nimik. uud.luok.pvk** -ikkunassa tarvittavat kentät.</span><span class="sxs-lookup"><span data-stu-id="848bb-195">In the **Item Reclass. Journal** window, fill in the fields as necessary.</span></span>
+3. <span data-ttu-id="848bb-196">Anna **Eränro**-kentässä</span><span class="sxs-lookup"><span data-stu-id="848bb-196">To In the **Lot No.**</span></span> <span data-ttu-id="848bb-197">nimikkeen nykyinen eränumero.</span><span class="sxs-lookup"><span data-stu-id="848bb-197">field, enter the items current lot number.</span></span>
+4. <span data-ttu-id="848bb-198">Anna **Uusi eränro**</span><span class="sxs-lookup"><span data-stu-id="848bb-198">In the **New Lot No.**</span></span> <span data-ttu-id="848bb-199">-kentässä nimikkeen uusi eränumero.</span><span class="sxs-lookup"><span data-stu-id="848bb-199">field, enter the item's new lot number.</span></span>
+5. <span data-ttu-id="848bb-200">Valitse **Kirjaa**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="848bb-200">Choose the **Post** action.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="848bb-201">Katso myös</span><span class="sxs-lookup"><span data-stu-id="848bb-201">See Also</span></span>
+[<span data-ttu-id="848bb-202">Varasto</span><span class="sxs-lookup"><span data-stu-id="848bb-202">Inventory</span></span>](inventory-manage-inventory.md)  
+[<span data-ttu-id="848bb-203">Myynti</span><span class="sxs-lookup"><span data-stu-id="848bb-203">Sales</span></span>](sales-manage-sales.md)  
+[<span data-ttu-id="848bb-204">Osto</span><span class="sxs-lookup"><span data-stu-id="848bb-204">Purchasing</span></span>](purchasing-manage-purchasing.md)  
+<span data-ttu-id="848bb-205">[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="848bb-205">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 

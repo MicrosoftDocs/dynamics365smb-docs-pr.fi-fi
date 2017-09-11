@@ -16,72 +16,71 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 0284e419280be2d1faba4ac2bf40dac6f78823ed
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="how-to-work-with-account-schedules"></a>KP-raporttimallien käyttäminen
-Saat KP-raporttimallien avulla tietoja tilikarttaan sisältyvistä kirjanpitotiedoista. KP-raporttimallit analysoivat kirjanpitotilien lukuja ja vertaavat pääkirjanpidon tapahtumia pääkirjanpidon budjettitapahtumiin. Tulokset näkyvät aloitussivun kaavioissa, kuten kassavirtakaaviossa.  
+# <a name="how-to-work-with-account-schedules"></a><span data-ttu-id="501a1-103">KP-raporttimallien käyttäminen</span><span class="sxs-lookup"><span data-stu-id="501a1-103">How to: Work with Account Schedules</span></span>
+<span data-ttu-id="501a1-104">Saat KP-raporttimallien avulla tietoja tilikarttaan sisältyvistä kirjanpitotiedoista.</span><span class="sxs-lookup"><span data-stu-id="501a1-104">Use account schedules to get insight into the financial data stored in your chart of accounts.</span></span> <span data-ttu-id="501a1-105">KP-raporttimallit analysoivat kirjanpitotilien lukuja ja vertaavat pääkirjanpidon tapahtumia pääkirjanpidon budjettitapahtumiin.</span><span class="sxs-lookup"><span data-stu-id="501a1-105">Account schedules analyze figures in G/L accounts, and compare general ledger entries with general ledger budget entries.</span></span> <span data-ttu-id="501a1-106">Tulokset näkyvät aloitussivun kaavioissa, kuten kassavirtakaaviossa.</span><span class="sxs-lookup"><span data-stu-id="501a1-106">The results display in charts on your Home page, such as the Cash Flow chart.</span></span>  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] sisältää käyttövalmiita KP-raporttimalleja. Voit myös määrittää itse verrattavat luvut määrittämällä omat rivit ja sarakkeet. Voit esimerkiksi luoda KP-raporttimalleja katteen laskemista varten erilaisille dimensioille, kuten osastoille tai asiakasryhmille. Voit luoda niin monta mukautettua rahoituslaskelmaa kuin haluat.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="501a1-107"> sisältää käyttövalmiita KP-raporttimalleja. Voit myös määrittää itse verrattavat luvut määrittämällä omat rivit ja sarakkeet.</span><span class="sxs-lookup"><span data-stu-id="501a1-107"> provides a few sample account schedules that you can use right away, or you can set up your own rows and columns to specify the figures to compare.</span></span> <span data-ttu-id="501a1-108">Voit esimerkiksi luoda KP-raporttimalleja katteen laskemista varten erilaisille dimensioille, kuten osastoille tai asiakasryhmille.</span><span class="sxs-lookup"><span data-stu-id="501a1-108">For example, you can create account schedules to calculate profit margins on dimensions like departments or customer groups.</span></span> <span data-ttu-id="501a1-109">Voit luoda niin monta mukautettua rahoituslaskelmaa kuin haluat.</span><span class="sxs-lookup"><span data-stu-id="501a1-109">You can create as many customized financial statements as you want.</span></span>  
 
-KP-raporttimallien määrittäminen vaatii tilikartan taloustietojen ymmärtämistä. Voit esimerkiksi tarkastella pääkirjanpidon tapahtumia budjettitapahtumien prosenttiosuuksina. Tämä edellyttää, että budjetit on luotu. Lisätietoja on kohdassa [Budjettien luominen](finance-how-create-budgets.md).
-
-> [!NOTE]  
->   Tämä toiminto edellyttää, että kokemukseksi on valittu **Ohjelmistopaketti**. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)] -kokemuksen mukauttaminen](ui-experiences.md).
-
-## <a name="account-categories-and-account-schedules"></a>Tililuokat ja KP-raporttimallit
-Tililuokkien avulla voit muuttaa rahoituslaskelmien asettelua. Kun olet määrittänyt tililuokat **KP-tilin luokat** -ikkunassa ja valinnut **Luo KP-raporttimallit** -toiminnon, tärkeimpien rahoituslaskelmien perustana olevat KP-raporttimallit päivitetään. Kun seuraavan kerran suoritat jonkin näistä raporteista, uudet kokonaissummat ja korvaustapahtumat lisätään muutosten perusteella. Lisätietoja on kohdassa [Pääkirjanpito ja tilikartta](finance-general-ledger.md).  
-
-## <a name="to-create-new-account-schedules"></a>Uuden KP-raporttimallin luominen  
- KP-raporttimallien käyttäminen kirjanpitotilien lukujen analysoimista varten tai pääkirjanpidon tapahtumien vertaamiseksi pääkirjanpidon budjettitapahtumiin. Voit esimerkiksi tarkastella KP-tapahtumien prosenttiosuuksia budjettitapahtumista.
-
-1. Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **KP-raporttimallit** ja valitse sitten aiheeseen liittyvä linkki.  
-2. Valitse **KP-raporttimallien nimet** -ikkunassa **Uusi**-toiminto ja luo uusi KP-raporttimallin nimi.
-3. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Valitse **Muokkaa KP-raporttimallia** -toiminto.
-5. Täytä **KP-raporttimalli** -ikkunan kentät tarpeesi mukaan.  
-
-    Kun olet luonut uuden KP-raporttimallin ja määrittänyt rivit sinun täytyy määrittää sarakkeet. Voit joko määrittää ne manuaalisesti tai liittää ennalta määrätyn sarakeasettelun KP-raporttimalliisi.
-6. Valitse **Muokkaa sarakeasetuksia** -toiminto.
-7. Täytä **Sarakeasettelu**-ikkunan kentät tarpeesi mukaan.
+<span data-ttu-id="501a1-110">KP-raporttimallien määrittäminen vaatii tilikartan taloustietojen ymmärtämistä.</span><span class="sxs-lookup"><span data-stu-id="501a1-110">Setting up account schedules requires an understanding of the financial data in the chart of accounts.</span></span> <span data-ttu-id="501a1-111">Voit esimerkiksi tarkastella pääkirjanpidon tapahtumia budjettitapahtumien prosenttiosuuksina.</span><span class="sxs-lookup"><span data-stu-id="501a1-111">For example, you can view general ledger entries as percentages of budget entries.</span></span> <span data-ttu-id="501a1-112">Tämä edellyttää, että budjetit on luotu.</span><span class="sxs-lookup"><span data-stu-id="501a1-112">This requires that budgets are created.</span></span> <span data-ttu-id="501a1-113">Lisätietoja on kohdassa [Budjettien luominen](finance-how-create-budgets.md).</span><span class="sxs-lookup"><span data-stu-id="501a1-113">For more information, see [How to: Create Budgets](finance-how-create-budgets.md).</span></span>
 
 > [!NOTE]  
->   Jos KP-raporttimallin sarakeasettelun oletusarvoa ei määritetty, sarakkeet on määritettävä manuaalisesti.   
+>   <span data-ttu-id="501a1-114">Tämä toiminto edellyttää, että kokemukseksi on valittu **Ohjelmistopaketti**.</span><span class="sxs-lookup"><span data-stu-id="501a1-114">This functionality requires that your experience is set to **Suite**.</span></span> <span data-ttu-id="501a1-115">Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)] -kokemuksen mukauttaminen](ui-experiences.md).</span><span class="sxs-lookup"><span data-stu-id="501a1-115">For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).</span></span>
 
-### <a name="to-create-a-column-that-calculates-percentages"></a>Prosenttilukuja laskevan sarakkeen luominen  
-Joskus haluat ehkä sisällyttää KP-raporttimalliin sarakkeen, joka laskee prosenttiluvut kokonaissummasta. Jos esimerkiksi eri rivit jakavat myynnin dimensioittain, voit lisätä sarakkeen, joka ilmoittaa kunkin rivin prosenttiosuuden kokonaissummasta.
+## <a name="account-categories-and-account-schedules"></a><span data-ttu-id="501a1-116">Tililuokat ja KP-raporttimallit</span><span class="sxs-lookup"><span data-stu-id="501a1-116">Account Categories and Account Schedules</span></span>
+<span data-ttu-id="501a1-117">Tililuokkien avulla voit muuttaa rahoituslaskelmien asettelua.</span><span class="sxs-lookup"><span data-stu-id="501a1-117">You can use account categories to change the layout of your financial statements.</span></span> <span data-ttu-id="501a1-118">Kun olet määrittänyt tililuokat **KP-tilin luokat** -ikkunassa ja valinnut **Luo KP-raporttimallit** -toiminnon, tärkeimpien rahoituslaskelmien perustana olevat KP-raporttimallit päivitetään.</span><span class="sxs-lookup"><span data-stu-id="501a1-118">After you set up your account categories in the **G/L Account Categories** window, and you choose the **Generate Account Schedules** action, the underlying account schedules for the core financial reports are updated.</span></span> <span data-ttu-id="501a1-119">Kun seuraavan kerran suoritat jonkin näistä raporteista, uudet kokonaissummat ja korvaustapahtumat lisätään muutosten perusteella.</span><span class="sxs-lookup"><span data-stu-id="501a1-119">The next time you run one of these reports, such as the balance statement, new totals and subentries are added, based on your changes.</span></span> <span data-ttu-id="501a1-120">Lisätietoja on kohdassa [Pääkirjanpito ja tilikartta](finance-general-ledger.md).</span><span class="sxs-lookup"><span data-stu-id="501a1-120">For more information, see [The General Ledger and the Chart of Accounts](finance-general-ledger.md).</span></span>  
 
-1. Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **KP-raporttimallit** ja valitse sitten aiheeseen liittyvä linkki.
-2. Valitse **KP-raporttimallien nimet** -ikkunassa KP-raporttimalli.  
-3. Valitse **Muokkaa KP-raporttimallia** -toiminto, jos haluat määrittää KP-raporttimallin rivin, joka laskee prosenttilukujen perustana olevan kokonaissumman.  
-4. Lisää KP-raporttimalli-ikkunaan rivi välittömästi ensimmäisen sellaisen rivin yläpuolelle, jolla haluat näyttää prosenttiluvun.  
-5. Täytä rivin kentät seuraavasti: valitse **Summaustyyppi**-kenttään **Määritä prosentin perusta**. Anna **Yhteensä**-kentässä kaava, jonka laskemaan kokonaissummaan prosenttiarvo perustuu. Jos esimerkiksi rivi 11 sisältää kokonaismyynnin, syötä **11**.  
-6. Valitse **Muokkaa sarakeasetuksia** -toiminto, kun haluat määrittää sarakkeen.  
-7. Täytä rivin kentät seuraavasti: valitse **Saraketyyppi**-kenttään **Kaava**. Anna **Kaava**-kenttään sen summan kaava, jolle haluat laskea prosentin, ja sen perää %-merkki. Jos esimerkiksi sarake N sisältää nettomuutoksen, syötä **N %**.  
-8. Toista vaiheet 4-7 kullekin riviryhmälle, jonka haluat jakaa prosenttiluvun mukaan.
+## <a name="to-create-new-account-schedules"></a><span data-ttu-id="501a1-121">Uuden KP-raporttimallin luominen</span><span class="sxs-lookup"><span data-stu-id="501a1-121">To create new account schedules</span></span>  
+ <span data-ttu-id="501a1-122">KP-raporttimallien käyttäminen kirjanpitotilien lukujen analysoimista varten tai pääkirjanpidon tapahtumien vertaamiseksi pääkirjanpidon budjettitapahtumiin.</span><span class="sxs-lookup"><span data-stu-id="501a1-122">You use account schedules to analyze figures in general ledger accounts or to compare general ledger entries with general ledger budget entries.</span></span> <span data-ttu-id="501a1-123">Voit esimerkiksi tarkastella KP-tapahtumien prosenttiosuuksia budjettitapahtumista.</span><span class="sxs-lookup"><span data-stu-id="501a1-123">For example, you can view the general ledger entries as percentages of the budget entries.</span></span>
 
-## <a name="to-set-up-account-schedules-with-overviews"></a>KP-raporttimallien määrittäminen käyttäen yleiskuvauksia  
-KP-raporttimallin käyttäminen pääkirjanpidon lukuja ja pääkirjanpidon budjettilukuja vertaavan laskelman luomiseksi.
+1. <span data-ttu-id="501a1-124">Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **KP-raporttimallit** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="501a1-124">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Account Schedules**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="501a1-125">Valitse **KP-raporttimallien nimet** -ikkunassa **Uusi**-toiminto ja luo uusi KP-raporttimallin nimi.</span><span class="sxs-lookup"><span data-stu-id="501a1-125">In the **Account Schedule Names** window, choose the **New** action to create a new account schedule name.</span></span>
+3. <span data-ttu-id="501a1-126">Täytä tarvittavat kentät.</span><span class="sxs-lookup"><span data-stu-id="501a1-126">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. <span data-ttu-id="501a1-127">Valitse **Muokkaa KP-raporttimallia** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="501a1-127">Choose the **Edit Account Schedule** action.</span></span>
+5. <span data-ttu-id="501a1-128">Täytä **KP-raporttimalli** -ikkunan kentät tarpeesi mukaan.</span><span class="sxs-lookup"><span data-stu-id="501a1-128">In the **Account Schedule** window, fill in the fields as necessary.</span></span>  
 
-1. Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **KP-raporttimallit** ja valitse sitten aiheeseen liittyvä linkki.
-2. Valitse **KP-raporttimallien nimet** -ikkunassa KP-raporttimalli.  
-3. Valitse **Muokkaa KP-raporttimallia** -toiminto  
-4. Valitse **KP-raporttimalli** -ikkunan **Nimi**-kentässä haluamasi KP-raporttimallin nimi.
-5. Valitse **Syötä tilit** -toiminto.  
-6. Valitse tilit, joita haluat ilmoitukseesi ja valitse sitten **OK**-painike.
+    <span data-ttu-id="501a1-129">Kun olet luonut uuden KP-raporttimallin ja määrittänyt rivit sinun täytyy määrittää sarakkeet.</span><span class="sxs-lookup"><span data-stu-id="501a1-129">When you have created a new account schedule and set up the rows, you must set up columns.</span></span> <span data-ttu-id="501a1-130">Voit joko määrittää ne manuaalisesti tai liittää ennalta määrätyn sarakeasettelun KP-raporttimalliisi.</span><span class="sxs-lookup"><span data-stu-id="501a1-130">You can either set them up manually or assign a predefined column layout to your account schedule.</span></span>
+6. <span data-ttu-id="501a1-131">Valitse **Muokkaa sarakeasetuksia** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="501a1-131">Choose the **Edit Column Layout Setup** action.</span></span>
+7. <span data-ttu-id="501a1-132">Täytä **Sarakeasettelu**-ikkunan kentät tarpeesi mukaan.</span><span class="sxs-lookup"><span data-stu-id="501a1-132">In the **Column Layout** window, fill in the fields as necessary.</span></span>
 
-    Tilit on nyt lisätty KP-raporttimalliin. Halutessasi voit myös muuttaa sarakeasettelua.  
-7. Valitse **Yleiskuvaus**-toiminto.  
-8. Valitse **Dimensiosuodattimet**-pikavälilehti ja määritä Budjettisuodatus-kentässä haluamasi suodattimen nimi.  
-9. Valitse **OK**-painike.  
+> [!NOTE]  
+>   <span data-ttu-id="501a1-133">Jos KP-raporttimallin sarakeasettelun oletusarvoa ei määritetty, sarakkeet on määritettävä manuaalisesti.</span><span class="sxs-lookup"><span data-stu-id="501a1-133">If you did not assign a default column layout to the account schedule, you must set the columns up manually.</span></span>   
 
-Nyt voit kopioida ja liittää budjettierittelyn laskentataulukkoon.
+### <a name="to-create-a-column-that-calculates-percentages"></a><span data-ttu-id="501a1-134">Prosenttilukuja laskevan sarakkeen luominen</span><span class="sxs-lookup"><span data-stu-id="501a1-134">To create a column that calculates percentages</span></span>  
+<span data-ttu-id="501a1-135">Joskus haluat ehkä sisällyttää KP-raporttimalliin sarakkeen, joka laskee prosenttiluvut kokonaissummasta.</span><span class="sxs-lookup"><span data-stu-id="501a1-135">Sometimes you may want to include a column in an account schedule to calculate percentages of a total.</span></span> <span data-ttu-id="501a1-136">Jos esimerkiksi eri rivit jakavat myynnin dimensioittain, voit lisätä sarakkeen, joka ilmoittaa kunkin rivin prosenttiosuuden kokonaissummasta.</span><span class="sxs-lookup"><span data-stu-id="501a1-136">For example, if you have a number of rows that break down sales by dimension, you may want a column to indicate the percentage of total sales that each row represents.</span></span>
 
-## <a name="see-also"></a>Katso myös
-[Business Intelligence](bi.md)  
-[Rahoitus](finance.md)  
-[Rahoituksen määrittäminen](finance-setup-finance.md)  
-[Pääkirjanpito ja tilikartta](finance-general-ledger.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+1. <span data-ttu-id="501a1-137">Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **KP-raporttimallit** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="501a1-137">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Account Schedules**, and then choose the related link.</span></span>
+2. <span data-ttu-id="501a1-138">Valitse **KP-raporttimallien nimet** -ikkunassa KP-raporttimalli.</span><span class="sxs-lookup"><span data-stu-id="501a1-138">In the **Account Schedule Names** window, select an account schedule.</span></span>  
+3. <span data-ttu-id="501a1-139">Valitse **Muokkaa KP-raporttimallia** -toiminto, jos haluat määrittää KP-raporttimallin rivin, joka laskee prosenttilukujen perustana olevan kokonaissumman.</span><span class="sxs-lookup"><span data-stu-id="501a1-139">Choose the **Edit Account Schedule** action to set up an account schedule row to calculate the total on which the percentages will be based.</span></span>  
+4. <span data-ttu-id="501a1-140">Lisää KP-raporttimalli-ikkunaan rivi välittömästi ensimmäisen sellaisen rivin yläpuolelle, jolla haluat näyttää prosenttiluvun.</span><span class="sxs-lookup"><span data-stu-id="501a1-140">Insert a line immediately above the first row for which you want to display a percentage.</span></span>  
+5. <span data-ttu-id="501a1-141">Täytä rivin kentät seuraavasti: valitse **Summaustyyppi**-kenttään **Määritä prosentin perusta**.</span><span class="sxs-lookup"><span data-stu-id="501a1-141">Fill in the fields on the line as follows: In the **Totaling Type** field, enter **Set Base for Percent**.</span></span> <span data-ttu-id="501a1-142">Anna **Yhteensä**-kentässä kaava, jonka laskemaan kokonaissummaan prosenttiarvo perustuu.</span><span class="sxs-lookup"><span data-stu-id="501a1-142">In the **Totaling** field, enter a formula for the total that the percentage will be based on.</span></span> <span data-ttu-id="501a1-143">Jos esimerkiksi rivi 11 sisältää kokonaismyynnin, syötä **11**.</span><span class="sxs-lookup"><span data-stu-id="501a1-143">For example, if row 11 contains the total sales, enter **11**.</span></span>  
+6. <span data-ttu-id="501a1-144">Valitse **Muokkaa sarakeasetuksia** -toiminto, kun haluat määrittää sarakkeen.</span><span class="sxs-lookup"><span data-stu-id="501a1-144">Choose the **Edit Column Layout Setup** action to set up a column.</span></span>  
+7. <span data-ttu-id="501a1-145">Täytä rivin kentät seuraavasti: valitse **Saraketyyppi**-kenttään **Kaava**.</span><span class="sxs-lookup"><span data-stu-id="501a1-145">Fill in the fields on the line as follows: In the **Column Type** field, select **Formula**.</span></span> <span data-ttu-id="501a1-146">Anna **Kaava**-kenttään sen summan kaava, jolle haluat laskea prosentin, ja sen perää %-merkki.</span><span class="sxs-lookup"><span data-stu-id="501a1-146">In the **Formula** field, enter a formula for the amount that you want to calculate a percentage for, followed by %.</span></span> <span data-ttu-id="501a1-147">Jos esimerkiksi sarake N sisältää nettomuutoksen, syötä **N %**.</span><span class="sxs-lookup"><span data-stu-id="501a1-147">For example, if column number N contains the net change, enter **N%**.</span></span>  
+8. <span data-ttu-id="501a1-148">Toista vaiheet 4-7 kullekin riviryhmälle, jonka haluat jakaa prosenttiluvun mukaan.</span><span class="sxs-lookup"><span data-stu-id="501a1-148">Repeat steps 4 through 7 for each group of rows that you want to break down by percentage.</span></span>
+
+## <a name="to-set-up-account-schedules-with-overviews"></a><span data-ttu-id="501a1-149">KP-raporttimallien määrittäminen käyttäen yleiskuvauksia</span><span class="sxs-lookup"><span data-stu-id="501a1-149">To set up account schedules with overviews</span></span>  
+<span data-ttu-id="501a1-150">KP-raporttimallin käyttäminen pääkirjanpidon lukuja ja pääkirjanpidon budjettilukuja vertaavan laskelman luomiseksi.</span><span class="sxs-lookup"><span data-stu-id="501a1-150">You can use an account schedule to create a statement comparing general ledger figures and general leger budget figures.</span></span>
+
+1. <span data-ttu-id="501a1-151">Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **KP-raporttimallit** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="501a1-151">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Account Schedules**, and then choose the related link.</span></span>
+2. <span data-ttu-id="501a1-152">Valitse **KP-raporttimallien nimet** -ikkunassa KP-raporttimalli.</span><span class="sxs-lookup"><span data-stu-id="501a1-152">In the **Account Schedule Names** window, select an account schedule.</span></span>  
+3. <span data-ttu-id="501a1-153">Valitse **Muokkaa KP-raporttimallia** -toiminto</span><span class="sxs-lookup"><span data-stu-id="501a1-153">Choose the **Edit Account Schedule** action</span></span>  
+4. <span data-ttu-id="501a1-154">Valitse **KP-raporttimalli** -ikkunan **Nimi**-kentässä haluamasi KP-raporttimallin nimi.</span><span class="sxs-lookup"><span data-stu-id="501a1-154">In the **Account Schedule** window, in the **Name** field, select the default account schedule name.</span></span>
+5. <span data-ttu-id="501a1-155">Valitse **Syötä tilit** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="501a1-155">Choose the **Insert Accounts** action.</span></span>  
+6. <span data-ttu-id="501a1-156">Valitse tilit, joita haluat ilmoitukseesi ja valitse sitten **OK**-painike.</span><span class="sxs-lookup"><span data-stu-id="501a1-156">Select the accounts that you want to include in your statement, and then choose the **OK** button.</span></span>
+
+    <span data-ttu-id="501a1-157">Tilit on nyt lisätty KP-raporttimalliin.</span><span class="sxs-lookup"><span data-stu-id="501a1-157">The accounts are now inserted into your account schedule.</span></span> <span data-ttu-id="501a1-158">Halutessasi voit myös muuttaa sarakeasettelua.</span><span class="sxs-lookup"><span data-stu-id="501a1-158">If you want you can also change the column layout.</span></span>  
+7. <span data-ttu-id="501a1-159">Valitse **Yleiskuvaus**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="501a1-159">Choose the **Overview** action.</span></span>  
+8. <span data-ttu-id="501a1-160">Valitse **Dimensiosuodattimet**-pikavälilehti ja määritä Budjettisuodatus-kentässä haluamasi suodattimen nimi.</span><span class="sxs-lookup"><span data-stu-id="501a1-160">On the **Dimension Filters** FastTab, set the budget filter to the desired filter name.</span></span>  
+9. <span data-ttu-id="501a1-161">Valitse **OK**-painike.</span><span class="sxs-lookup"><span data-stu-id="501a1-161">Choose the **OK** button.</span></span>  
+
+<span data-ttu-id="501a1-162">Nyt voit kopioida ja liittää budjettierittelyn laskentataulukkoon.</span><span class="sxs-lookup"><span data-stu-id="501a1-162">Now you can copy and paste your budget statement into a spreadsheet.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="501a1-163">Katso myös</span><span class="sxs-lookup"><span data-stu-id="501a1-163">See Also</span></span>
+[<span data-ttu-id="501a1-164">Business Intelligence</span><span class="sxs-lookup"><span data-stu-id="501a1-164">Business Intelligence</span></span>](bi.md)  
+[<span data-ttu-id="501a1-165">Rahoitus</span><span class="sxs-lookup"><span data-stu-id="501a1-165">Finance</span></span>](finance.md)  
+[<span data-ttu-id="501a1-166">Rahoituksen määrittäminen</span><span class="sxs-lookup"><span data-stu-id="501a1-166">Setting Up Finance</span></span>](finance-setup-finance.md)  
+[<span data-ttu-id="501a1-167">Pääkirjanpito ja tilikartta</span><span class="sxs-lookup"><span data-stu-id="501a1-167">The General Ledger and the Chart of Accounts</span></span>](finance-general-ledger.md)  
+<span data-ttu-id="501a1-168">[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="501a1-168">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
 

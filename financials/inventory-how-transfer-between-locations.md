@@ -16,58 +16,58 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: d54b75240cb0a2dddcfabc488a18e0bf9635f82c
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/11/2017
 
 
 ---
-# <a name="how-to-transfer-inventory-between-locations"></a>Toimintaohje: Varastonimikkeiden siirtäminen sijaintien välillä
-Varastonimikkeitä siirretään sijaintien välillä luomalla siirtotilauksia. Vaihtoehtoisesti voit käyttää uudelleenluokituspäiväkirjaa.
+# <a name="how-to-transfer-inventory-between-locations"></a><span data-ttu-id="f2adf-103">Toimintaohje: Varastonimikkeiden siirtäminen sijaintien välillä</span><span class="sxs-lookup"><span data-stu-id="f2adf-103">How to: Transfer Inventory Between Locations</span></span>
+<span data-ttu-id="f2adf-104">Varastonimikkeitä siirretään sijaintien välillä luomalla siirtotilauksia.</span><span class="sxs-lookup"><span data-stu-id="f2adf-104">You can transfer inventory items between locations by creating transfer orders.</span></span> <span data-ttu-id="f2adf-105">Vaihtoehtoisesti voit käyttää uudelleenluokituspäiväkirjaa.</span><span class="sxs-lookup"><span data-stu-id="f2adf-105">Alternatively, you can use the item reclassification journal.</span></span>
 
-Siirtotilauksissa lähtevä siirto toimitetaan yhdestä sijainnista vastaanotettavaksi toisessa sijainnissa. Tämä mahdollistaa liittyvien varastointiaktiviteettien hallinnan ja tarjoaa suuremman varmuuden siitä, että varastosaldot päivitetään oikein.
+<span data-ttu-id="f2adf-106">Siirtotilauksissa lähtevä siirto toimitetaan yhdestä sijainnista vastaanotettavaksi toisessa sijainnissa.</span><span class="sxs-lookup"><span data-stu-id="f2adf-106">With transfer orders, you ship the outbound transfer from one location and receive the inbound transfer at the other location.</span></span> <span data-ttu-id="f2adf-107">Tämä mahdollistaa liittyvien varastointiaktiviteettien hallinnan ja tarjoaa suuremman varmuuden siitä, että varastosaldot päivitetään oikein.</span><span class="sxs-lookup"><span data-stu-id="f2adf-107">This allows you to manage the involved warehouse activities and provides more certainty that inventory quantities are updated correctly.</span></span>
 
-Uudelleenluokituspäiväkirjaan voit yksinkertaisesti täyttää **Sijaintikoodi**- ja **Uusi sijaintikoodi** -kentät. Kun teet kirjauksen päiväkirjaan, nimiketapahtumat oikaistaan kyseisissä sijainneissa. Varastotoimintoja ei hallita tällä menetelmällä.
-
-> [!NOTE]  
->   Jos varastoon on kirjattu nimikkeitä ilman sijaintikoodia esimerkiksi silloin, kun käytössä oli vain yksi varasto, et voi siirtää kyseisiä nimikkeitä siirtotilauksilla. Sen sijaan sinun on käytettävä uudelleenluokittelupäiväkirjaa ja luokiteltava nimikkeet uudelleen tyhjästä sijaintikoodista todelliseen sijaintikoodiin.  Lisätietoja on Nimikkeiden siirtäminen uudelleenluokituspäiväkirjan avulla -kohdan vaiheessa 3.
-
-Sijainnit ja siirtoreitit on määritettävä, jotta nimikkeitä voi siirtää. Lisätietoja on kohdassa [Toimintaohje: Sijaintien määrittäminen](inventory-how-setup-locations.md).
+<span data-ttu-id="f2adf-108">Uudelleenluokituspäiväkirjaan voit yksinkertaisesti täyttää **Sijaintikoodi**- ja **Uusi sijaintikoodi** -kentät.</span><span class="sxs-lookup"><span data-stu-id="f2adf-108">With the reclassification journal, you simply fill in the **Location Code** and the **New Location Code** fields.</span></span> <span data-ttu-id="f2adf-109">Kun teet kirjauksen päiväkirjaan, nimiketapahtumat oikaistaan kyseisissä sijainneissa.</span><span class="sxs-lookup"><span data-stu-id="f2adf-109">When you post the journal, the item ledger entries are adjusted at the locations in question.</span></span> <span data-ttu-id="f2adf-110">Varastotoimintoja ei hallita tällä menetelmällä.</span><span class="sxs-lookup"><span data-stu-id="f2adf-110">With this method, warehouse activities are not managed.</span></span>
 
 > [!NOTE]  
->   Tämä toiminto edellyttää, että kokemukseksi on valittu **Ohjelmistopaketti**. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)] -kokemuksen mukauttaminen](ui-experiences.md).
+>   <span data-ttu-id="f2adf-111">Jos varastoon on kirjattu nimikkeitä ilman sijaintikoodia esimerkiksi silloin, kun käytössä oli vain yksi varasto, et voi siirtää kyseisiä nimikkeitä siirtotilauksilla.</span><span class="sxs-lookup"><span data-stu-id="f2adf-111">If you have items recorded in your inventory without a location code, for example from a time when you only had one warehouse, then you cannot transfer those items using transfer orders.</span></span> <span data-ttu-id="f2adf-112">Sen sijaan sinun on käytettävä uudelleenluokittelupäiväkirjaa ja luokiteltava nimikkeet uudelleen tyhjästä sijaintikoodista todelliseen sijaintikoodiin.</span><span class="sxs-lookup"><span data-stu-id="f2adf-112">Instead, you must use the reclassification journal to reclassify the items from a blank location code to an actual location code.</span></span>  <span data-ttu-id="f2adf-113">Lisätietoja on Nimikkeiden siirtäminen uudelleenluokituspäiväkirjan avulla -kohdan vaiheessa 3.</span><span class="sxs-lookup"><span data-stu-id="f2adf-113">For more information, see step 3 in the "To transfer items with the item reclassification journal" section.</span></span>
 
-## <a name="to-transfer-items-with-a-transfer-order"></a>Nimikkeiden siirtäminen siirtotilauksella
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Siirtotilaukset** ja valitse sitten aiheeseen liittyvä linkki.
-2. Täytä **Siirtotilaus**-ikkunassa tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+<span data-ttu-id="f2adf-114">Sijainnit ja siirtoreitit on määritettävä, jotta nimikkeitä voi siirtää.</span><span class="sxs-lookup"><span data-stu-id="f2adf-114">To transfer items, locations and transfer routes must be set up.</span></span> <span data-ttu-id="f2adf-115">Lisätietoja on kohdassa [Toimintaohje: Sijaintien määrittäminen](inventory-how-setup-locations.md).</span><span class="sxs-lookup"><span data-stu-id="f2adf-115">For more information, see [How to: Set Up Locations](inventory-how-setup-locations.md).</span></span>
 
-    > [!NOTE]  
->   Jos täytit **Siirtoreitin määritykset**-ikkunassa **Kuljetuksessa-koodi**-, **Kuljetusliike**- ja **Kuljetusliikkeen palvelu** -kentät, kun olet määritit siirtoreitin, vastaavat kentät täytetään automaattisesti siirtotilaukseen.
+> [!NOTE]  
+>   <span data-ttu-id="f2adf-116">Tämä toiminto edellyttää, että kokemukseksi on valittu **Ohjelmistopaketti**.</span><span class="sxs-lookup"><span data-stu-id="f2adf-116">This functionality requires that your experience is set to **Suite**.</span></span> <span data-ttu-id="f2adf-117">Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)] -kokemuksen mukauttaminen](ui-experiences.md).</span><span class="sxs-lookup"><span data-stu-id="f2adf-117">For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).</span></span>
 
-    Kun **Kuljetusliikkeen palvelu** -kenttä täytetään, kohteeseen-sijainnin vastaanottopäivämäärä lasketaan lisäämällä kuljetusliikkeen palvelun toimitusajan Kohteesta-pikavälilehden lähetyksen päivämäärään.
-
-    Kohteesta-sijainnin varastotyöntekijänä voit siirtyä nimikkeiden toimittamiseen.
-3. Valita ensin **Kirjaa**-toiminto, sitten **Toimitus**-asetus ja lopuksi **OK**-painike.
-
-    Nimikkeet ovat nyt matkalla valittujen sijaintien välillä valitun siirtoreitin mukaisesti.
-
-    Kohteesta-sijainnin varastotyöntekijänä voit siirtyä nimikkeiden vastaanottamiseen.
-4. Valita ensin **Kirjaa**-toiminto, sitten **Vastaanotto**-asetus ja lopuksi **OK**-painike.
-
-## <a name="to-transfer-items-with-the-item-reclassification-journal"></a>Siirrä nimikkeet nimikkeiden uudelleenluokituspäiväkirjan avulla
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Nimikkeen uudell.luokit. pvk:t** ja valitse sitten aiheeseen liittyvä linkki.
-2. Täytä **Nimik. uud.luok.pvk** -ikkunassa tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Anna **Sijaintikoodi**-kentässä sijainti, jossa nimikkeet ovat varastoituna.
+## <a name="to-transfer-items-with-a-transfer-order"></a><span data-ttu-id="f2adf-118">Nimikkeiden siirtäminen siirtotilauksella</span><span class="sxs-lookup"><span data-stu-id="f2adf-118">To transfer items with a transfer order</span></span>
+1. <span data-ttu-id="f2adf-119">Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Siirtotilaukset** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="f2adf-119">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Transfer orders**, and then choose the related link.</span></span>
+2. <span data-ttu-id="f2adf-120">Täytä **Siirtotilaus**-ikkunassa tarvittavat kentät.</span><span class="sxs-lookup"><span data-stu-id="f2adf-120">In the **Transfer Order** window, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
->   Jos siirrettävillä nimikkeillä ei ole sijainkoodia, jätä **Sijaintikoodi**-kenttä tyhjäksi.
-4. Anna **Uusi sijaintikoodi** -kenttään sijainti, johon haluat siirtää nimikkeet.
-5. Valitse **Kirjaa**-toiminto.
+>   <span data-ttu-id="f2adf-121">Jos täytit **Siirtoreitin määritykset**-ikkunassa **Kuljetuksessa-koodi**-, **Kuljetusliike**- ja **Kuljetusliikkeen palvelu** -kentät,</span><span class="sxs-lookup"><span data-stu-id="f2adf-121">If you have filled in the **In-Transit Code**, **Shipping Agent Code**, and **Shipping Agent Service** fields in the **Trans. Route Spec.**</span></span> <span data-ttu-id="f2adf-122">kun olet määritit siirtoreitin, vastaavat kentät täytetään automaattisesti siirtotilaukseen.</span><span class="sxs-lookup"><span data-stu-id="f2adf-122">window when you set up the transfer route, then the corresponding fields on the transfer order are filled in automatically.</span></span>
 
-## <a name="see-also"></a>Katso myös
-[Varaston hallinta](inventory-manage-inventory.md)  
-[Toimintaohje: Sijaintien määrittäminen](inventory-how-setup-locations.md)  
-[Toimitusketju](madeira-supply-chain.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttökokemuksen mukauttaminen](ui-experiences.md)  
-[Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)
+    <span data-ttu-id="f2adf-123">Kun **Kuljetusliikkeen palvelu** -kenttä täytetään, kohteeseen-sijainnin vastaanottopäivämäärä lasketaan lisäämällä kuljetusliikkeen palvelun toimitusajan Kohteesta-pikavälilehden lähetyksen päivämäärään.</span><span class="sxs-lookup"><span data-stu-id="f2adf-123">When you fill in the **Shipping Agent Service** field, the receipt date at the transfer-to location is calculated by adding the shipping time of the shipping agent service to the shipment date.</span></span>
+
+    <span data-ttu-id="f2adf-124">Kohteesta-sijainnin varastotyöntekijänä voit siirtyä nimikkeiden toimittamiseen.</span><span class="sxs-lookup"><span data-stu-id="f2adf-124">As a warehouse worker at the transfer-from location, proceed to ship the items.</span></span>
+3. <span data-ttu-id="f2adf-125">Valita ensin **Kirjaa**-toiminto, sitten **Toimitus**-asetus ja lopuksi **OK**-painike.</span><span class="sxs-lookup"><span data-stu-id="f2adf-125">Choose the **Post** action, choose the **Ship** option, and then choose the **OK** button.</span></span>
+
+    <span data-ttu-id="f2adf-126">Nimikkeet ovat nyt matkalla valittujen sijaintien välillä valitun siirtoreitin mukaisesti.</span><span class="sxs-lookup"><span data-stu-id="f2adf-126">The items are now in transit between the specified locations, according to the specifies transfer route.</span></span>
+
+    <span data-ttu-id="f2adf-127">Kohteesta-sijainnin varastotyöntekijänä voit siirtyä nimikkeiden vastaanottamiseen.</span><span class="sxs-lookup"><span data-stu-id="f2adf-127">As a warehouse worker at the transfer-from location, proceed to receive the items.</span></span>
+4. <span data-ttu-id="f2adf-128">Valita ensin **Kirjaa**-toiminto, sitten **Vastaanotto**-asetus ja lopuksi **OK**-painike.</span><span class="sxs-lookup"><span data-stu-id="f2adf-128">Choose the **Post** action, choose the **Receive** option, and then choose the **OK** button.</span></span>
+
+## <a name="to-transfer-items-with-the-item-reclassification-journal"></a><span data-ttu-id="f2adf-129">Siirrä nimikkeet nimikkeiden uudelleenluokituspäiväkirjan avulla</span><span class="sxs-lookup"><span data-stu-id="f2adf-129">To transfer items with the item reclassification journal</span></span>
+1. <span data-ttu-id="f2adf-130">Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Nimikkeen uudell.luokit. pvk:t** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="f2adf-130">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Reclass. Journals**, and then choose the related link.</span></span>
+2. <span data-ttu-id="f2adf-131">Täytä **Nimik. uud.luok.pvk** -ikkunassa tarvittavat kentät.</span><span class="sxs-lookup"><span data-stu-id="f2adf-131">In the **Item Reclass. Journal** window, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. <span data-ttu-id="f2adf-132">Anna **Sijaintikoodi**-kentässä sijainti, jossa nimikkeet ovat varastoituna.</span><span class="sxs-lookup"><span data-stu-id="f2adf-132">In the **Location Code** field, enter the location where the items are currently stored.</span></span>
+
+    > [!NOTE]  
+>   <span data-ttu-id="f2adf-133">Jos siirrettävillä nimikkeillä ei ole sijainkoodia, jätä **Sijaintikoodi**-kenttä tyhjäksi.</span><span class="sxs-lookup"><span data-stu-id="f2adf-133">To transfer items that have no location code, leave the **Location Code** field blank.</span></span>
+4. <span data-ttu-id="f2adf-134">Anna **Uusi sijaintikoodi** -kenttään sijainti, johon haluat siirtää nimikkeet.</span><span class="sxs-lookup"><span data-stu-id="f2adf-134">In the **New Location Code** field, enter the location that you want to transfer the items to.</span></span>
+5. <span data-ttu-id="f2adf-135">Valitse **Kirjaa**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="f2adf-135">Choose the **Post** action.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="f2adf-136">Katso myös</span><span class="sxs-lookup"><span data-stu-id="f2adf-136">See Also</span></span>
+[<span data-ttu-id="f2adf-137">Varaston hallinta</span><span class="sxs-lookup"><span data-stu-id="f2adf-137">Manage Inventory</span></span>](inventory-manage-inventory.md)  
+[<span data-ttu-id="f2adf-138">Toimintaohje: Sijaintien määrittäminen</span><span class="sxs-lookup"><span data-stu-id="f2adf-138">How to: Set Up Locations</span></span>](inventory-how-setup-locations.md)  
+[<span data-ttu-id="f2adf-139">Toimitusketju</span><span class="sxs-lookup"><span data-stu-id="f2adf-139">Supply Chain</span></span>](madeira-supply-chain.md)  
+<span data-ttu-id="f2adf-140">[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="f2adf-140">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+<span data-ttu-id="f2adf-141">[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttökokemuksen mukauttaminen](ui-experiences.md)</span><span class="sxs-lookup"><span data-stu-id="f2adf-141">[Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)</span></span>  
+[<span data-ttu-id="f2adf-142">Yleiset liiketoimintatoiminnot</span><span class="sxs-lookup"><span data-stu-id="f2adf-142">General Business Functionality</span></span>](ui-across-business-areas.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

@@ -16,28 +16,27 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 1935f53db068047921e44109cd4b23bbb51f0890
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="how-to-revalue-inventory"></a>Toimintaohje: Varaston uudelleenarvostus
-Jos haluat nostaa tai laskea nimikkeen tai tietyn nimiketapahtuman varastoarvoa, sinun tulee käyttää uudelleenarvostuspäiväkirjaa.
+# <a name="how-to-revalue-inventory"></a><span data-ttu-id="7aa3b-103">Toimintaohje: Varaston uudelleenarvostus</span><span class="sxs-lookup"><span data-stu-id="7aa3b-103">How to: Revalue Inventory</span></span>
+<span data-ttu-id="7aa3b-104">Jos haluat nostaa tai laskea nimikkeen tai tietyn nimiketapahtuman varastoarvoa, sinun tulee käyttää uudelleenarvostuspäiväkirjaa.</span><span class="sxs-lookup"><span data-stu-id="7aa3b-104">If you want to appreciate or depreciate an item or a specific item ledger entry, you must use the revaluation journal.</span></span>
 
-## <a name="to-revalue-inventory"></a>Varaston uudelleenarvostus
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Uudelleenarvostus pvk** ja valitse sitten aiheeseen liittyvä linkki.
-2. Valitse **Laske varaston arvo** -toiminto.
-3. Täytä **Laske varaston arvo** -ikkunassa tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Valitse **OK**-painike.
-5. Syötä uusi yksikkökustannus **Uudelleenarvostus pvk** -ikkunan kuhunkin **Yks.kust. (uudelleenarvostet.)** -kenttään. Vaihtoehtoisesti voit syöttää uuden kokonaissumman **Var. arvo (uudell.arvostettu)** -kenttään.
+## <a name="to-revalue-inventory"></a><span data-ttu-id="7aa3b-105">Varaston uudelleenarvostus</span><span class="sxs-lookup"><span data-stu-id="7aa3b-105">To revalue inventory</span></span>
+1. <span data-ttu-id="7aa3b-106">Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Uudelleenarvostus pvk** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="7aa3b-106">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Revaluation Journal**, and then choose the related link.</span></span>
+2. <span data-ttu-id="7aa3b-107">Valitse **Laske varaston arvo** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="7aa3b-107">Choose the **Calculate Inventory Value** action.</span></span>
+3. <span data-ttu-id="7aa3b-108">Täytä **Laske varaston arvo** -ikkunassa tarvittavat kentät.</span><span class="sxs-lookup"><span data-stu-id="7aa3b-108">In the **Calculate Inventory Value** window, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. <span data-ttu-id="7aa3b-109">Valitse **OK**-painike.</span><span class="sxs-lookup"><span data-stu-id="7aa3b-109">Choose the **OK** button.</span></span>
+5. <span data-ttu-id="7aa3b-110">Syötä uusi yksikkökustannus **Uudelleenarvostus pvk** -ikkunan kuhunkin **Yks.kust. (uudelleenarvostet.)** -kenttään.</span><span class="sxs-lookup"><span data-stu-id="7aa3b-110">On each line in the **Revaluation Journal** window, in the **Unit Cost (Revalued)** field, enter the new unit cost.</span></span> <span data-ttu-id="7aa3b-111">Vaihtoehtoisesti voit syöttää uuden kokonaissumman **Var. arvo (uudell.arvostettu)** -kenttään.</span><span class="sxs-lookup"><span data-stu-id="7aa3b-111">Alternatively, enter the new total amount in the **Inventory Value (Revalued)** field.</span></span>
 
-    Asianmukaiset kentät päivitetään automaattisesti. Huomaa että **Summa**-kentässä on varaston arvon todellinen muutos valitun nimiketapahtuman osalta. Ohjelma laskee **Varaston arvo (laskettu)** -kentän ja **Var. arvo (uudell.arvostettu)** -kentän erotuksen.
-6. Kun olet saanut kaikki uudelleenarvostuspäiväkirjan rivit valmiiksi, valitse **Kirjaa**-toiminto.
+    <span data-ttu-id="7aa3b-112">Asianmukaiset kentät päivitetään automaattisesti.</span><span class="sxs-lookup"><span data-stu-id="7aa3b-112">The relevant fields are automatically updated.</span></span> <span data-ttu-id="7aa3b-113">Huomaa että **Summa**-kentässä on varaston arvon todellinen muutos valitun nimiketapahtuman osalta.</span><span class="sxs-lookup"><span data-stu-id="7aa3b-113">Note that the **Amount** field shows the actual change in inventory value for the selected item ledger entry.</span></span> <span data-ttu-id="7aa3b-114">Ohjelma laskee **Varaston arvo (laskettu)** -kentän ja **Var. arvo (uudell.arvostettu)** -kentän erotuksen.</span><span class="sxs-lookup"><span data-stu-id="7aa3b-114">It calculates the difference between the **Inventory Value (Calculated)** field and the **Inventory Value (Revalued)** field.</span></span>
+6. <span data-ttu-id="7aa3b-115">Kun olet saanut kaikki uudelleenarvostuspäiväkirjan rivit valmiiksi, valitse **Kirjaa**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="7aa3b-115">When you have completed all lines in the revaluation journal, choose the **Post** action.</span></span>
 
-Kirjaamiasi uudelleenarvostuksia vastaavat uudet arvotapahtumat on nyt luotu. Uudet arvot näkyvät vastaavissa nimikekorteissa.
+<span data-ttu-id="7aa3b-116">Kirjaamiasi uudelleenarvostuksia vastaavat uudet arvotapahtumat on nyt luotu.</span><span class="sxs-lookup"><span data-stu-id="7aa3b-116">New value entries are now created to reflect the revaluations that you have posted.</span></span> <span data-ttu-id="7aa3b-117">Uudet arvot näkyvät vastaavissa nimikekorteissa.</span><span class="sxs-lookup"><span data-stu-id="7aa3b-117">You can see the new values on the respective item cards.</span></span>
 
-## <a name="see-also"></a>Katso myös
-[Varasto](inventory-manage-inventory.md)  
-[Myynti](sales-manage-sales.md)  
-[Osto](purchasing-manage-purchasing.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="7aa3b-118">Katso myös</span><span class="sxs-lookup"><span data-stu-id="7aa3b-118">See Also</span></span>
+[<span data-ttu-id="7aa3b-119">Varasto</span><span class="sxs-lookup"><span data-stu-id="7aa3b-119">Inventory</span></span>](inventory-manage-inventory.md)  
+[<span data-ttu-id="7aa3b-120">Myynti</span><span class="sxs-lookup"><span data-stu-id="7aa3b-120">Sales</span></span>](sales-manage-sales.md)  
+[<span data-ttu-id="7aa3b-121">Osto</span><span class="sxs-lookup"><span data-stu-id="7aa3b-121">Purchasing</span></span>](purchasing-manage-purchasing.md)  
+<span data-ttu-id="7aa3b-122">[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="7aa3b-122">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 

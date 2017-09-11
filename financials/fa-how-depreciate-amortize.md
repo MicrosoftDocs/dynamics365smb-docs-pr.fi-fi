@@ -16,93 +16,92 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 07e80551ca215eb4c2632faa9f534801a1813680
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="how-to-depreciate-or-amortize-fixed-assets"></a>Toimintaohje: Käyttöomaisuuden poisto tai kuolettaminen
-Poistoja käytetään jakamaan käyttöomaisuuden, esimerkiksi koneiden ja laitteiden, kustannuksia niiden poistoajalle. Jokaisen käyttöomaisuuserän osalta tulee määrittää, miten sille tehdään poistoja.  
+# <a name="how-to-depreciate-or-amortize-fixed-assets"></a><span data-ttu-id="7e2e5-103">Toimintaohje: Käyttöomaisuuden poisto tai kuolettaminen</span><span class="sxs-lookup"><span data-stu-id="7e2e5-103">How to: Depreciate or Amortize Fixed Assets</span></span>
+<span data-ttu-id="7e2e5-104">Poistoja käytetään jakamaan käyttöomaisuuden, esimerkiksi koneiden ja laitteiden, kustannuksia niiden poistoajalle.</span><span class="sxs-lookup"><span data-stu-id="7e2e5-104">Depreciation is used to allocate the cost of fixed assets, such as machinery and equipment, over their depreciable life.</span></span> <span data-ttu-id="7e2e5-105">Jokaisen käyttöomaisuuserän osalta tulee määrittää, miten sille tehdään poistoja.</span><span class="sxs-lookup"><span data-stu-id="7e2e5-105">For each fixed asset, you must define how it will be depreciated.</span></span>  
 
- Poistot voi kirjata kahdella tavalla:  
+ <span data-ttu-id="7e2e5-106">Poistot voi kirjata kahdella tavalla:</span><span class="sxs-lookup"><span data-stu-id="7e2e5-106">There are two ways to post depreciation:</span></span>  
 
-* automaattisesti **Laske poisto** -eräajon avulla.  
-* Manuaalisesti käyttöomaisuuden KP-päiväkirjan avulla.  
+* <span data-ttu-id="7e2e5-107">automaattisesti **Laske poisto** -eräajon avulla.</span><span class="sxs-lookup"><span data-stu-id="7e2e5-107">Automatically, by running the **Calculate Depreciation** batch job.</span></span>  
+* <span data-ttu-id="7e2e5-108">Manuaalisesti käyttöomaisuuden KP-päiväkirjan avulla.</span><span class="sxs-lookup"><span data-stu-id="7e2e5-108">Manually, by using the fixed asset G/L journal.</span></span>  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] voi laskea päivittäisen poiston, jolloin voit laskea poiston mille tahansa ajanjaksolle. Nykyisiä toiminnan tuloksia voi siis analysoida esimerkiksi kuukausittain, neljännesvuosittain tai vuosittain. Laskennassa käytetään 360 päivän vakiovuotta ja 30 päivän vakiokuukautta. Lisätietoja on kohdassa [Poistotavat](fa-depreciation-methods.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="7e2e5-109"> voi laskea päivittäisen poiston, jolloin voit laskea poiston mille tahansa ajanjaksolle.</span><span class="sxs-lookup"><span data-stu-id="7e2e5-109"> can calculate daily depreciation, which allows you to calculate depreciation for any period.</span></span> <span data-ttu-id="7e2e5-110">Nykyisiä toiminnan tuloksia voi siis analysoida esimerkiksi kuukausittain, neljännesvuosittain tai vuosittain.</span><span class="sxs-lookup"><span data-stu-id="7e2e5-110">You can therefore analyze current operating results on, for example, a monthly, quarterly, or annual basis.</span></span> <span data-ttu-id="7e2e5-111">Laskennassa käytetään 360 päivän vakiovuotta ja 30 päivän vakiokuukautta.</span><span class="sxs-lookup"><span data-stu-id="7e2e5-111">The calculation uses a standard year of 360 days and a standard month of 30 days.</span></span> <span data-ttu-id="7e2e5-112">Lisätietoja on kohdassa [Poistotavat](fa-depreciation-methods.md).</span><span class="sxs-lookup"><span data-stu-id="7e2e5-112">For more information, see [Depreciation Methods](fa-depreciation-methods.md).</span></span>  
 
-Jos useat osastot käyttävät käyttöomaisuuserää, jaksottaiset poistot voidaan kohdistaa automaattisesti näille osastoille käyttäjäkohtaisen kohdistustaulukon mukaisesti.  
+<span data-ttu-id="7e2e5-113">Jos useat osastot käyttävät käyttöomaisuuserää, jaksottaiset poistot voidaan kohdistaa automaattisesti näille osastoille käyttäjäkohtaisen kohdistustaulukon mukaisesti.</span><span class="sxs-lookup"><span data-stu-id="7e2e5-113">If several departments use a fixed asset, periodic depreciation can be automatically allocated to these departments according to a user-defined allocation table.</span></span>  
 
-Virheellisiä poistotapahtumia voi peruuttaa **Peruuta KO-tapahtumat** -eräajolla. Oikean poistosumman voi kirjata tämän jälkeen suorittamalla uudelleen **Laske poisto** -eräajon. Virheet kirjataan korjattaessa KO-virhetapahtumiksi.  
+<span data-ttu-id="7e2e5-114">Virheellisiä poistotapahtumia voi peruuttaa **Peruuta KO-tapahtumat** -eräajolla.</span><span class="sxs-lookup"><span data-stu-id="7e2e5-114">You can cancel incorrect depreciation entries by using the **Cancel FA Ledger Entries** batch job.</span></span> <span data-ttu-id="7e2e5-115">Oikean poistosumman voi kirjata tämän jälkeen suorittamalla uudelleen **Laske poisto** -eräajon.</span><span class="sxs-lookup"><span data-stu-id="7e2e5-115">Afterward, you can post the correct amount by running the **Calculate Depreciation** batch job again.</span></span> <span data-ttu-id="7e2e5-116">Virheet kirjataan korjattaessa KO-virhetapahtumiksi.</span><span class="sxs-lookup"><span data-stu-id="7e2e5-116">The errors you correct are posted as fixed asset error ledger entries.</span></span>  
 
-Indeksointia käytetään muuttamaan arvoja yleisten hintatason muutosten mukaan. **Tee indeksimuutos KO:teen** -eräajoa voidaan käyttää poistosummien uudelleenlaskemiseen.  
+<span data-ttu-id="7e2e5-117">Indeksointia käytetään muuttamaan arvoja yleisten hintatason muutosten mukaan.</span><span class="sxs-lookup"><span data-stu-id="7e2e5-117">Indexation is used to adjust values for general price-level changes.</span></span> <span data-ttu-id="7e2e5-118">**Tee indeksimuutos KO:teen** -eräajoa voidaan käyttää poistosummien uudelleenlaskemiseen.</span><span class="sxs-lookup"><span data-stu-id="7e2e5-118">You can use the **Index Fixed Assets** batch job to recalculate the depreciation amounts.</span></span>  
 
-## <a name="to-calculate-depreciation-automatically"></a>Poistojen laskeminen automaattisesti
-**Laske poisto** -eräajon voi suorittaa kerran kuukaudessa tai valitsemanasi ajankohtana. Eräajo ei huomioi myytyjä tai suljettuja käyttöomaisuuseriä eikä käyttöomaisuuseriä, jotka eivät ole aktiivisia ja jotka käyttävät manuaalista poistomenetelmää.  
+## <a name="to-calculate-depreciation-automatically"></a><span data-ttu-id="7e2e5-119">Poistojen laskeminen automaattisesti</span><span class="sxs-lookup"><span data-stu-id="7e2e5-119">To calculate depreciation automatically</span></span>
+<span data-ttu-id="7e2e5-120">**Laske poisto** -eräajon voi suorittaa kerran kuukaudessa tai valitsemanasi ajankohtana.</span><span class="sxs-lookup"><span data-stu-id="7e2e5-120">Once a month, or whenever you choose, you can run the **Calculate Depreciation** batch job.</span></span> <span data-ttu-id="7e2e5-121">Eräajo ei huomioi myytyjä tai suljettuja käyttöomaisuuseriä eikä käyttöomaisuuseriä, jotka eivät ole aktiivisia ja jotka käyttävät manuaalista poistomenetelmää.</span><span class="sxs-lookup"><span data-stu-id="7e2e5-121">The batch job ignores fixed assets that have been sold, are blocked or inactive, or use the manual depreciation method.</span></span>  
 
-1. Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Laske poisto** ja valitse sitten aiheeseen liittyvä linkki.  
-2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-3. Valitse **OK**-painike.  
+1. <span data-ttu-id="7e2e5-122">Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Laske poisto** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="7e2e5-122">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Calculate Depreciation**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="7e2e5-123">Täytä tarvittavat kentät.</span><span class="sxs-lookup"><span data-stu-id="7e2e5-123">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. <span data-ttu-id="7e2e5-124">Valitse **OK**-painike.</span><span class="sxs-lookup"><span data-stu-id="7e2e5-124">Choose the **OK** button.</span></span>  
 
-    Eräajo laskee poiston ja luo rivejä käyttöomaisuuden KP-päiväkirjaan.  
-4. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **KO - KP-päiväkirjat** ja valitse sitten aiheeseen liittyvä linkki.  
+    <span data-ttu-id="7e2e5-125">Eräajo laskee poiston ja luo rivejä käyttöomaisuuden KP-päiväkirjaan.</span><span class="sxs-lookup"><span data-stu-id="7e2e5-125">The batch job calculates the depreciation and creates lines in the fixed asset G/L journal.</span></span>  
+4. <span data-ttu-id="7e2e5-126">Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **KO - KP-päiväkirjat** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="7e2e5-126">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **FA G/L Journals**, and then choose the related link.</span></span>  
 
-    **Käyttöomaisuuden KP-päiväkirja** -ikkunan **Poistopäivien lukumäärä** -kentän avulla nähdään, kuinka monta poistopäivää on laskettu.  
-5. Valitse **Kirjaa**-toiminto.  
+    <span data-ttu-id="7e2e5-127">**Käyttöomaisuuden KP-päiväkirja** -ikkunan **Poistopäivien lukumäärä** -kentän avulla nähdään, kuinka monta poistopäivää on laskettu.</span><span class="sxs-lookup"><span data-stu-id="7e2e5-127">In the **Fixed Asset G/L Journal** window, in the **No. of Depreciation Days** field you can see how many days of depreciation have been calculated.</span></span>  
+5. <span data-ttu-id="7e2e5-128">Valitse **Kirjaa**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="7e2e5-128">Choose the **Post** action.</span></span>  
 
-## <a name="to-post-depreciation-manually-from-the-fixed-asset-gl-journal"></a>Poistojen kirjaaminen manuaalisesti käyttöomaisuuden KP-päiväkirjasta
-1. Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Käyttöomaisuuden KP-päiväkirja** ja valitse sitten aiheeseen liittyvä linkki.  
-2. Luo alkuperäisen päiväkirjan rivi ja täytä kentät tarpeen mukaan.  
-3. Valitse **KO:n kirjaustyyppi** -kentässä **Poisto**.  
-4. Valitse **Syötä KO-vastatili** -toiminto. Toinen päiväkirjan rivi luodaan vastatilille, joka on määritetty poiston kirjaamista varten. Lisätietoja on "Käyttöomaisuuden kirjausryhmien määrittäminen" -osassa kohdassa [Toimintaohje: Käyttöomaisuuden yleisten tietojen määrittäminen](fa-how-setup-general.md).  
-5. Valitse **Kotisivu**-välilehdessä **Kirjaa**, jolloin päiväkirja kirjataan.  
+## <a name="to-post-depreciation-manually-from-the-fixed-asset-gl-journal"></a><span data-ttu-id="7e2e5-129">Poistojen kirjaaminen manuaalisesti käyttöomaisuuden KP-päiväkirjasta</span><span class="sxs-lookup"><span data-stu-id="7e2e5-129">To post depreciation manually from the fixed asset G/L journal</span></span>
+1. <span data-ttu-id="7e2e5-130">Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Käyttöomaisuuden KP-päiväkirja** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="7e2e5-130">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Fixed Asset G/L Journal**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="7e2e5-131">Luo alkuperäisen päiväkirjan rivi ja täytä kentät tarpeen mukaan.</span><span class="sxs-lookup"><span data-stu-id="7e2e5-131">Create an initial journal line and fill in the fields as necessary.</span></span>  
+3. <span data-ttu-id="7e2e5-132">Valitse **KO:n kirjaustyyppi** -kentässä **Poisto**.</span><span class="sxs-lookup"><span data-stu-id="7e2e5-132">In the **FA Posting Type** field, select **Depreciation**.</span></span>  
+4. <span data-ttu-id="7e2e5-133">Valitse **Syötä KO-vastatili** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="7e2e5-133">Choose the **Insert FA Bal. Account** action.</span></span> <span data-ttu-id="7e2e5-134">Toinen päiväkirjan rivi luodaan vastatilille, joka on määritetty poiston kirjaamista varten.</span><span class="sxs-lookup"><span data-stu-id="7e2e5-134">A second journal line is created for the balancing account that is set up for depreciation posting.</span></span> <span data-ttu-id="7e2e5-135">Lisätietoja on "Käyttöomaisuuden kirjausryhmien määrittäminen" -osassa kohdassa [Toimintaohje: Käyttöomaisuuden yleisten tietojen määrittäminen](fa-how-setup-general.md).</span><span class="sxs-lookup"><span data-stu-id="7e2e5-135">For more information, see the "To set up fixed asset posting groups" section in [How to: Set Up General Fixed Asset Information](fa-how-setup-general.md).</span></span>  
+5. <span data-ttu-id="7e2e5-136">Valitse **Kotisivu**-välilehdessä **Kirjaa**, jolloin päiväkirja kirjataan.</span><span class="sxs-lookup"><span data-stu-id="7e2e5-136">On the **Home** tab, choose **Post** to post the journal.</span></span>  
 
-Jos summien kohdistamiseksi eri osastoille tai projekteille on määritetty käyttöomaisuuden kohdistusavaimia, summat kohdistetaan kirjaamisen aikana. Lisätietoja on kohdassa [Toimintaohje: Käyttöomaisuuden yleisten tietojen määrittäminen](fa-how-setup-general.md).  
+<span data-ttu-id="7e2e5-137">Jos summien kohdistamiseksi eri osastoille tai projekteille on määritetty käyttöomaisuuden kohdistusavaimia, summat kohdistetaan kirjaamisen aikana.</span><span class="sxs-lookup"><span data-stu-id="7e2e5-137">If you have set up fixed asset allocation keys to allocate amounts to different departments or projects, the amounts are allocated during posting.</span></span> <span data-ttu-id="7e2e5-138">Lisätietoja on kohdassa [Toimintaohje: Käyttöomaisuuden yleisten tietojen määrittäminen](fa-how-setup-general.md).</span><span class="sxs-lookup"><span data-stu-id="7e2e5-138">For more information, see [How to: Set Up General Fixed Assets Information](fa-how-setup-general.md).</span></span>  
 
-## <a name="to-calculate-allocations-in-the-fixed-asset-gl-journal"></a>Käyttöomaisuuden KO-päiväkirjan kohdistusten laskeminen
-Jos useat osastot käyttävät käyttöomaisuuserää, jaksottaiset poistot voidaan kohdistaa automaattisesti näille osastoille käyttäjäkohtaisen kohdistustaulukon mukaisesti.  
+## <a name="to-calculate-allocations-in-the-fixed-asset-gl-journal"></a><span data-ttu-id="7e2e5-139">Käyttöomaisuuden KO-päiväkirjan kohdistusten laskeminen</span><span class="sxs-lookup"><span data-stu-id="7e2e5-139">To calculate allocations in the fixed asset G/L journal</span></span>
+<span data-ttu-id="7e2e5-140">Jos useat osastot käyttävät käyttöomaisuuserää, jaksottaiset poistot voidaan kohdistaa automaattisesti näille osastoille käyttäjäkohtaisen kohdistustaulukon mukaisesti.</span><span class="sxs-lookup"><span data-stu-id="7e2e5-140">If a fixed asset is used by several departments, periodic depreciation can be automatically allocated to these departments according to a user-defined allocation table.</span></span>  
 
-1. Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Käyttöomaisuuden KP-päiväkirja** ja valitse sitten aiheeseen liittyvä linkki.  
-2. Luo alkuperäinen rivi ja täytä kentät tarpeen mukaan.
-3. Valitse **KO:n kirjaustyyppi** -kentässä **Kohdistus**.  
-4. Valitse **Syötä KO-vastatili** -toiminto. Toinen päiväkirjan rivi luodaan vastatilille, joka on määritetty kohdistuksen kirjaamista varten.  
-5. Valitse **Kotisivu**-välilehdessä **Kirjaa**, jolloin päiväkirja kirjataan.  
+1. <span data-ttu-id="7e2e5-141">Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Käyttöomaisuuden KP-päiväkirja** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="7e2e5-141">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Fixed Asset G/L Journal**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="7e2e5-142">Luo alkuperäinen rivi ja täytä kentät tarpeen mukaan.</span><span class="sxs-lookup"><span data-stu-id="7e2e5-142">Create an initial line and fill in the fields as necessary.</span></span>
+3. <span data-ttu-id="7e2e5-143">Valitse **KO:n kirjaustyyppi** -kentässä **Kohdistus**.</span><span class="sxs-lookup"><span data-stu-id="7e2e5-143">In the **FA Posting Type** field, select **Allocation**.</span></span>  
+4. <span data-ttu-id="7e2e5-144">Valitse **Syötä KO-vastatili** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="7e2e5-144">Choose the **Insert FA Bal. Account** action.</span></span> <span data-ttu-id="7e2e5-145">Toinen päiväkirjan rivi luodaan vastatilille, joka on määritetty kohdistuksen kirjaamista varten.</span><span class="sxs-lookup"><span data-stu-id="7e2e5-145">A second journal line is created for the balancing account that is set up for allocation posting.</span></span>  
+5. <span data-ttu-id="7e2e5-146">Valitse **Kotisivu**-välilehdessä **Kirjaa**, jolloin päiväkirja kirjataan.</span><span class="sxs-lookup"><span data-stu-id="7e2e5-146">On the **Home** tab, choose **Post** to post the journal.</span></span>  
 
-## <a name="use-duplication-lists-to-prepare-to-post-to-multiple-depreciation-books"></a>Valmistele useiden poistokirjojen kirjaaminen monistusluetteloiden avulla
-Kun täytät poistokirjaan kirjattavat päiväkirjarivit, voit monistaa rivit erilliseen päiväkirjaan, josta ne voidaan kirjata eri poistokirjaan. Lisätietoja on "Tapahtumien kirjaaminen eri poistokirjoihin" -osassa.
+## <a name="use-duplication-lists-to-prepare-to-post-to-multiple-depreciation-books"></a><span data-ttu-id="7e2e5-147">Valmistele useiden poistokirjojen kirjaaminen monistusluetteloiden avulla</span><span class="sxs-lookup"><span data-stu-id="7e2e5-147">Use duplication lists to prepare to post to multiple depreciation books</span></span>
+<span data-ttu-id="7e2e5-148">Kun täytät poistokirjaan kirjattavat päiväkirjarivit, voit monistaa rivit erilliseen päiväkirjaan, josta ne voidaan kirjata eri poistokirjaan.</span><span class="sxs-lookup"><span data-stu-id="7e2e5-148">When you fill in journal lines to post to a depreciation book, you can duplicate the lines in a separate journal so you can post to a different depreciation book.</span></span> <span data-ttu-id="7e2e5-149">Lisätietoja on "Tapahtumien kirjaaminen eri poistokirjoihin" -osassa.</span><span class="sxs-lookup"><span data-stu-id="7e2e5-149">For more information, see the "To post entries to different depreciation books" section.</span></span>
 
-1. Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Poistokirjat** ja valitse sitten aiheeseen liittyvä linkki.  
-2. Avaa poistokirja ja valitse **Osa monistusluettelosta** -valintaruutu.  
+1. <span data-ttu-id="7e2e5-150">Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Poistokirjat** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="7e2e5-150">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Depreciation Books**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="7e2e5-151">Avaa poistokirja ja valitse **Osa monistusluettelosta** -valintaruutu.</span><span class="sxs-lookup"><span data-stu-id="7e2e5-151">Open the depreciation book, and then select the **Part of Duplication List** check box.</span></span>  
 
 > [!IMPORTANT]  
->   Jos olet lisännyt valintamerkin **Käytä monistusluetteloa** -kenttään, älä käytä päiväkirjassa numerosarjaa. Tämä sen vuoksi, että käyttöomaisuuden KP-päiväkirjan numerosarjat ja käyttöomaisuuspäiväkirjan numerosarjat eivät ole samoja.  
+>   <span data-ttu-id="7e2e5-152">Jos olet lisännyt valintamerkin **Käytä monistusluetteloa** -kenttään, älä käytä päiväkirjassa numerosarjaa.</span><span class="sxs-lookup"><span data-stu-id="7e2e5-152">If you have selected the **Use Duplication List** field, do not use number series on the journal.</span></span> <span data-ttu-id="7e2e5-153">Tämä sen vuoksi, että käyttöomaisuuden KP-päiväkirjan numerosarjat ja käyttöomaisuuspäiväkirjan numerosarjat eivät ole samoja.</span><span class="sxs-lookup"><span data-stu-id="7e2e5-153">The reason is that the number series for the fixed asset G/L journal does not the number series for the fixed asset journal.</span></span>  
 
-## <a name="to-post-entries-to-different-depreciation-books"></a>Tapahtumien kirjaaminen eri poistokirjoihin
-1. Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Käyttöomaisuuden KP-päiväkirja** ja valitse sitten aiheeseen liittyvä linkki.  
-2. Valitse **Käytä monistusluetteloa** -valintaruutu siinä päiväkirjassa, johon poisto kirjataan.  
-3. Täytä tarvittavat jäljellä olevat kentät.  
-4. Valitse **Kirjaa**-toiminto.  
-5. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **KO-päiväkirjat** ja valitse sitten aiheeseen liittyvä linkki.  
-
-    > [!NOTE]  
->   **Käyttöomaisuuspäiväkirja**-ikkuna sisältää uusia rivejä eri poistokirjoille monistusluettelon mukaan.  
-6. Tarkista rivit tai muokkaa niitä ja valitse sitten **Kirjaa**-toiminto.  
+## <a name="to-post-entries-to-different-depreciation-books"></a><span data-ttu-id="7e2e5-154">Tapahtumien kirjaaminen eri poistokirjoihin</span><span class="sxs-lookup"><span data-stu-id="7e2e5-154">To post entries to different depreciation books</span></span>
+1. <span data-ttu-id="7e2e5-155">Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Käyttöomaisuuden KP-päiväkirja** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="7e2e5-155">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Fixed Asset G/L Journal**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="7e2e5-156">Valitse **Käytä monistusluetteloa** -valintaruutu siinä päiväkirjassa, johon poisto kirjataan.</span><span class="sxs-lookup"><span data-stu-id="7e2e5-156">In the journal that you want to post depreciation with, select the **Use Duplication List** check box.</span></span>  
+3. <span data-ttu-id="7e2e5-157">Täytä tarvittavat jäljellä olevat kentät.</span><span class="sxs-lookup"><span data-stu-id="7e2e5-157">Fill in the remaining fields as necessary.</span></span>  
+4. <span data-ttu-id="7e2e5-158">Valitse **Kirjaa**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="7e2e5-158">Choose the **Post** action.</span></span>  
+5. <span data-ttu-id="7e2e5-159">Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **KO-päiväkirjat** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="7e2e5-159">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **FA Journals**, and then choose the related link.</span></span>  
 
     > [!NOTE]  
->   Toinen tapa monistaa tapahtuma erilliseen kirjaan on syöttää poistokirjan koodi **Monista poistokirjaan** -kenttään silloin, kun päiväkirjariviä täytetään.  
+>   <span data-ttu-id="7e2e5-160">**Käyttöomaisuuspäiväkirja**-ikkuna sisältää uusia rivejä eri poistokirjoille monistusluettelon mukaan.</span><span class="sxs-lookup"><span data-stu-id="7e2e5-160">The **Fixed Asset Journal** window contains new lines for different depreciation books according to the duplication list.</span></span>  
+6. <span data-ttu-id="7e2e5-161">Tarkista rivit tai muokkaa niitä ja valitse sitten **Kirjaa**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="7e2e5-161">Review or edit the lines, and then choose the **Post** action.</span></span>  
 
-Tapahtumia voidaan kopioida poistokirjasta toiseen käyttämällä **Kopioi poistokirja** -eräajoa. Eräajo luo päiväkirjarivejä päiväkirjan erään, jonka olet määrittänyt **KO-päiväkirjan asetukset** -ikkunassa poistokirjalle, johon haluat kopioida. Katso lisätietoja seuraavasta menettelystä.  
+    > [!NOTE]  
+>   <span data-ttu-id="7e2e5-162">Toinen tapa monistaa tapahtuma erilliseen kirjaan on syöttää poistokirjan koodi **Monista poistokirjaan** -kenttään silloin, kun päiväkirjariviä täytetään.</span><span class="sxs-lookup"><span data-stu-id="7e2e5-162">Another way to duplicate an entry in a separate book is to enter a depreciation book code in the **Duplicate in Depreciation Book** field when you fill in a journal line.</span></span>  
 
-## <a name="to-copy-fixed-asset-ledger-entries-between-depreciation-books"></a>Käyttöomaisuustapahtumien kopioiminen poistokirjojen välillä
-1. Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Poistokirjat** ja valitse sitten aiheeseen liittyvä linkki.  
-2. Avaa poistokirjan kortti ja valitse **Kopioi poistokirja** -toiminto.  
-3. Täytä **Kopioi poistokirja** -ikkunassa tarvittavat kentät.  
-4. Valitse **OK**-painike.  
+<span data-ttu-id="7e2e5-163">Tapahtumia voidaan kopioida poistokirjasta toiseen käyttämällä **Kopioi poistokirja** -eräajoa.</span><span class="sxs-lookup"><span data-stu-id="7e2e5-163">You can copy entries from one depreciation book to another by using the **Copy Depreciation Book** batch job.</span></span> <span data-ttu-id="7e2e5-164">Eräajo luo päiväkirjarivejä päiväkirjan erään, jonka olet määrittänyt **KO-päiväkirjan asetukset** -ikkunassa poistokirjalle, johon haluat kopioida.</span><span class="sxs-lookup"><span data-stu-id="7e2e5-164">The batch job creates journal lines in the journal batch that you have specified in the **FA Journal Setup** window for the depreciation book that you want to copy to.</span></span> <span data-ttu-id="7e2e5-165">Katso lisätietoja seuraavasta menettelystä.</span><span class="sxs-lookup"><span data-stu-id="7e2e5-165">For more information, see the following procedure.</span></span>  
 
-Kopioidut rivit luodaan joko käyttöomaisuuden KP-päiväkirjassa tai käyttöomaisuuspäiväkirjassa sen mukaisesti, onko kopioitava poistokirja integroitu pääkirjanpitoon.  
+## <a name="to-copy-fixed-asset-ledger-entries-between-depreciation-books"></a><span data-ttu-id="7e2e5-166">Käyttöomaisuustapahtumien kopioiminen poistokirjojen välillä</span><span class="sxs-lookup"><span data-stu-id="7e2e5-166">To copy fixed asset ledger entries between depreciation books</span></span>
+1. <span data-ttu-id="7e2e5-167">Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Poistokirjat** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="7e2e5-167">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Depreciation Books**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="7e2e5-168">Avaa poistokirjan kortti ja valitse **Kopioi poistokirja** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="7e2e5-168">Open the relevant depreciation book card, and then choose the **Copy Depreciation Book** action.</span></span>  
+3. <span data-ttu-id="7e2e5-169">Täytä **Kopioi poistokirja** -ikkunassa tarvittavat kentät.</span><span class="sxs-lookup"><span data-stu-id="7e2e5-169">In the **Copy Depreciation Book** window, fill in the fields as necessary.</span></span>  
+4. <span data-ttu-id="7e2e5-170">Valitse **OK**-painike.</span><span class="sxs-lookup"><span data-stu-id="7e2e5-170">Choose the **OK** button.</span></span>  
 
-## <a name="see-also"></a>Katso myös
-[Käyttöomaisuus](fa-manage.md)  
-[Käyttöomaisuuden määrittäminen](fa-setup.md)  
-[Rahoitus](finance.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+<span data-ttu-id="7e2e5-171">Kopioidut rivit luodaan joko käyttöomaisuuden KP-päiväkirjassa tai käyttöomaisuuspäiväkirjassa sen mukaisesti, onko kopioitava poistokirja integroitu pääkirjanpitoon.</span><span class="sxs-lookup"><span data-stu-id="7e2e5-171">The copied lines are created in either the fixed asset G/L journal or the fixed asset journal, depending on whether the depreciation book that you are copying has integration to the general ledger.</span></span>  
+
+## <a name="see-also"></a><span data-ttu-id="7e2e5-172">Katso myös</span><span class="sxs-lookup"><span data-stu-id="7e2e5-172">See Also</span></span>
+[<span data-ttu-id="7e2e5-173">Käyttöomaisuus</span><span class="sxs-lookup"><span data-stu-id="7e2e5-173">Fixed Assets</span></span>](fa-manage.md)  
+[<span data-ttu-id="7e2e5-174">Käyttöomaisuuden määrittäminen</span><span class="sxs-lookup"><span data-stu-id="7e2e5-174">Setting Up Fixed Assets</span></span>](fa-setup.md)  
+[<span data-ttu-id="7e2e5-175">Rahoitus</span><span class="sxs-lookup"><span data-stu-id="7e2e5-175">Finance</span></span>](finance.md)  
+<span data-ttu-id="7e2e5-176">[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="7e2e5-176">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
 

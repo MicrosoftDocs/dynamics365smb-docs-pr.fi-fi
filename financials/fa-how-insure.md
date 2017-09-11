@@ -16,108 +16,108 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 421d45e7f35ffdc46801fea85221ba453d52c516
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/11/2017
 
 
 ---
-# <a name="how-to-insure-fixed-assets"></a>Toimintaohje: Käyttöomaisuuden vakuuttaminen
-Vakuutuskortti edustaa käyttöomaisuuden vakuutussopimusta. Voit liittää yhteen vakuutussopimukseen yhden käyttöomaisuuserän tai useita käyttöomaisuuseriä.
+# <a name="how-to-insure-fixed-assets"></a><span data-ttu-id="8ede5-103">Toimintaohje: Käyttöomaisuuden vakuuttaminen</span><span class="sxs-lookup"><span data-stu-id="8ede5-103">How to: Insure Fixed Assets</span></span>
+<span data-ttu-id="8ede5-104">Vakuutuskortti edustaa käyttöomaisuuden vakuutussopimusta.</span><span class="sxs-lookup"><span data-stu-id="8ede5-104">An insurance policy for a fixed asset is represented by an insurance card.</span></span> <span data-ttu-id="8ede5-105">Voit liittää yhteen vakuutussopimukseen yhden käyttöomaisuuserän tai useita käyttöomaisuuseriä.</span><span class="sxs-lookup"><span data-stu-id="8ede5-105">You can assign one fixed asset to one insurance policy or multiple fixed assets to one insurance policy.</span></span>
 
-Voit liittää käyttöomaisuuserän vakuutussopimukseen kirjaamalla vakuutuksen kattavuustapahtuman **Vakuutuspäiväkirja**-ikkunasta.
+<span data-ttu-id="8ede5-106">Voit liittää käyttöomaisuuserän vakuutussopimukseen kirjaamalla vakuutuksen kattavuustapahtuman **Vakuutuspäiväkirja**-ikkunasta.</span><span class="sxs-lookup"><span data-stu-id="8ede5-106">You assign a fixed asset to an insurance policy by posting to the insurance coverage ledger from the **Insurance Journal** window.</span></span>
 
-Lisäksi voit liittää käyttöomaisuuserän vakuutussopimukseen ja luoda kattavuustapahtumia sen hankintamenon kirjaamisen yhteydessä. Tämä tehdään kirjaamalla käyttöomaisuuserän hankintameno niin, että **Vakuutusnro**-kenttä on täytetty. **Automaattinen vakuutuskirjaus** -valintaruutu **Käyttöomaisuuden asetukset** -ikkunassa on valittava. Lisätietoja on Käyttöomaisuuden hankinnan kirjaaminen manuaalisesti käyttöomaisuuden KP-päiväkirjan avulla -osan kohdassa [Toimintaohje: Käyttöomaisuuden hankinta](fa-how-acquire.md).
+<span data-ttu-id="8ede5-107">Lisäksi voit liittää käyttöomaisuuserän vakuutussopimukseen ja luoda kattavuustapahtumia sen hankintamenon kirjaamisen yhteydessä.</span><span class="sxs-lookup"><span data-stu-id="8ede5-107">In addition, you can assign a fixed asset to an insurance policy and create coverage ledger entries when you post its acquisition cost.</span></span> <span data-ttu-id="8ede5-108">Tämä tehdään kirjaamalla käyttöomaisuuserän hankintameno niin, että **Vakuutusnro**-kenttä</span><span class="sxs-lookup"><span data-stu-id="8ede5-108">You do this by posting an acquisition cost from the fixed asset journal with the **Insurance No.**</span></span> <span data-ttu-id="8ede5-109">on täytetty.</span><span class="sxs-lookup"><span data-stu-id="8ede5-109">field filled in.</span></span> <span data-ttu-id="8ede5-110">**Automaattinen vakuutuskirjaus** -valintaruutu **Käyttöomaisuuden asetukset** -ikkunassa on valittava.</span><span class="sxs-lookup"><span data-stu-id="8ede5-110">The **Automatic Insurance Posting** check box in the **Fixed Asset Setup** window must be selected.</span></span> <span data-ttu-id="8ede5-111">Lisätietoja on Käyttöomaisuuden hankinnan kirjaaminen manuaalisesti käyttöomaisuuden KP-päiväkirjan avulla -osan kohdassa [Toimintaohje: Käyttöomaisuuden hankinta](fa-how-acquire.md).</span><span class="sxs-lookup"><span data-stu-id="8ede5-111">For more information, see the "To post a fixed asset acquisition manually with the fixed asset G/L journal" section in [How to: Acquire Fixed Assets](fa-how-acquire.md).</span></span>
 
-Jos **Automaattinen vakuutuskirjaus** -valintaruutua **Käyttöomaisuuden asetukset** -ikkunassa ei ole valittu, hankintojen kirjaaminen käyttöomaisuuspäiväkirjasta luo rivit **Vakuutuspäiväkirja**-ikkunaan. Rivit on tämän jälkeen kirjattava manuaalisesti.
+<span data-ttu-id="8ede5-112">Jos **Automaattinen vakuutuskirjaus** -valintaruutua **Käyttöomaisuuden asetukset** -ikkunassa ei ole valittu, hankintojen kirjaaminen käyttöomaisuuspäiväkirjasta luo rivit **Vakuutuspäiväkirja**-ikkunaan. Rivit on tämän jälkeen kirjattava manuaalisesti.</span><span class="sxs-lookup"><span data-stu-id="8ede5-112">If the **Automatic Insurance Posting** check box in the **Fixed Asset Setup** window is not selected, then posting acquisitions from the fixed asset journal will create lines in the **Insurance Journal** window, which you must then post manually.</span></span>
 
 > [!WARNING]  
->   Jos et valitse **Automaattinen vakuutuskirjaus** -valintaruutua **Käyttöomaisuuden asetukset** -ikkunassa, vakuutuspäiväkirjan on perustuttava sellaiseen päiväkirjan malliin, jolla ei ole numerosarjoja. Tämä johtuu siitä, että käyttöomaisuuspäiväkirjan rivistä lisätyt asiakirjanumerot ovat muussa tapauksessa ristiriidassa vakuutuspäiväkirjan numerosarjojen kanssa. Lisätietoja päiväkirjojen malleista ja eristä on kohdassa [Toimintaohje: Käyttöomaisuuden yleisten tietojen määrittäminen](fa-how-setup-general.md).
+>   <span data-ttu-id="8ede5-113">Jos et valitse **Automaattinen vakuutuskirjaus** -valintaruutua **Käyttöomaisuuden asetukset** -ikkunassa, vakuutuspäiväkirjan on perustuttava sellaiseen päiväkirjan malliin, jolla ei ole numerosarjoja.</span><span class="sxs-lookup"><span data-stu-id="8ede5-113">If you do not select the **Automatic Insurance Posting** check box in the **Fixed Asset Setup** window, then your insurance journal should be based on a journal template without a number series.</span></span> <span data-ttu-id="8ede5-114">Tämä johtuu siitä, että käyttöomaisuuspäiväkirjan rivistä lisätyt asiakirjanumerot ovat muussa tapauksessa ristiriidassa vakuutuspäiväkirjan numerosarjojen kanssa.</span><span class="sxs-lookup"><span data-stu-id="8ede5-114">This is because the inserted document numbers from the fixed asset journal line will otherwise conflict with the number series of the insurance journal.</span></span> <span data-ttu-id="8ede5-115">Lisätietoja päiväkirjojen malleista ja eristä on kohdassa [Toimintaohje: Käyttöomaisuuden yleisten tietojen määrittäminen](fa-how-setup-general.md).</span><span class="sxs-lookup"><span data-stu-id="8ede5-115">For more information about journal templates and batches, see [How to: Set Up General Fixed Assets Information](fa-how-setup-general.md).</span></span>
 
-Kun käyttöomaisuus on liitetty vakuutussopimukseen, käyttöomaisuuden kortin **Vakuutettu**-valintaruutu valitaan. Kun myyt käyttöomaisuuden, valintaruudun valinta poistetaan automaattisesti.
+<span data-ttu-id="8ede5-116">Kun käyttöomaisuus on liitetty vakuutussopimukseen, käyttöomaisuuden kortin **Vakuutettu**-valintaruutu valitaan.</span><span class="sxs-lookup"><span data-stu-id="8ede5-116">After you have assigned a fixed asset to an insurance policy, the **Insured** check box is selected on the fixed asset card.</span></span> <span data-ttu-id="8ede5-117">Kun myyt käyttöomaisuuden, valintaruudun valinta poistetaan automaattisesti.</span><span class="sxs-lookup"><span data-stu-id="8ede5-117">When you sell the fixed asset, the check box is automatically deselected.</span></span>
 
-## <a name="to-create-or-modify-an-insurance-card"></a>Vakuutuskortin luominen tai muokkaaminen
-Vakuutuskortin on edustettava käyttöomaisuuden vakuutussopimusta.
+## <a name="to-create-or-modify-an-insurance-card"></a><span data-ttu-id="8ede5-118">Vakuutuskortin luominen tai muokkaaminen</span><span class="sxs-lookup"><span data-stu-id="8ede5-118">To create or modify an insurance card</span></span>
+<span data-ttu-id="8ede5-119">Vakuutuskortin on edustettava käyttöomaisuuden vakuutussopimusta.</span><span class="sxs-lookup"><span data-stu-id="8ede5-119">An insurance policy for a fixed asset must be represented by an insurance card.</span></span>
 
-Kun saat tiedon kattavuussumman muutoksista, uudet tiedot on syötettävä **Vakuutuskortti**-ikkunaan, jotta vakuutussopimuksen kattavuus voitaisiin analysoida oikein.  
+<span data-ttu-id="8ede5-120">Kun saat tiedon kattavuussumman muutoksista, uudet tiedot on syötettävä **Vakuutuskortti**-ikkunaan, jotta vakuutussopimuksen kattavuus voitaisiin analysoida oikein.</span><span class="sxs-lookup"><span data-stu-id="8ede5-120">When you receive information about changes in the coverage amount, you must enter the new information in the **Insurance Card** window to ensure that you analyze insurance policy coverage correctly.</span></span>  
 
-1. Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Vakuutus** ja valitse sitten aiheeseen liittyvä linkki.
-2. Valitse **Uusi**-toiminto, kun haluat luoda vakuutussopimukselle uuden kortin. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Vaihtoehtoisesti voit valita muutettavan vakuutussopimuksen ja valita sitten **Muokkaa**-toiminnon.
+1. <span data-ttu-id="8ede5-121">Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Vakuutus** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="8ede5-121">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Insurance**, and then choose the related link.</span></span>
+2. <span data-ttu-id="8ede5-122">Valitse **Uusi**-toiminto, kun haluat luoda vakuutussopimukselle uuden kortin.</span><span class="sxs-lookup"><span data-stu-id="8ede5-122">Choose the **New** action to create a new card for an insurance policy.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. <span data-ttu-id="8ede5-123">Vaihtoehtoisesti voit valita muutettavan vakuutussopimuksen ja valita sitten **Muokkaa**-toiminnon.</span><span class="sxs-lookup"><span data-stu-id="8ede5-123">Alternatively, select the insurance policy that you want to change, and then choose the **Edit** action.</span></span>
 
-## <a name="to-assign-a-fixed-asset-to-an-insurance-policy-by-posting-from-the-insurance-journal"></a>Käyttöomaisuuden liittäminen vakuutussopimukseen vakuutuspäiväkirjasta kirjaamalla
-Liitä käyttöomaisuus vakuutussopimukseen vakuutuksen kattavuustapahtumaan kirjaamalla.  
+## <a name="to-assign-a-fixed-asset-to-an-insurance-policy-by-posting-from-the-insurance-journal"></a><span data-ttu-id="8ede5-124">Käyttöomaisuuden liittäminen vakuutussopimukseen vakuutuspäiväkirjasta kirjaamalla</span><span class="sxs-lookup"><span data-stu-id="8ede5-124">To assign a fixed asset to an insurance policy by posting from the insurance journal</span></span>
+<span data-ttu-id="8ede5-125">Liitä käyttöomaisuus vakuutussopimukseen vakuutuksen kattavuustapahtumaan kirjaamalla.</span><span class="sxs-lookup"><span data-stu-id="8ede5-125">You assign a fixed asset to an insurance policy by posting to the insurance coverage ledger.</span></span>  
 
-Seuraavassa kerrotaan, miten vakuutuspäiväkirjan rivi luodaan manuaalisesti. Jos **Automaattinen vakuutuskirjaus** -valintaruutu on valittu **KO:n asetukset**-ikkunassa, vakuutuspäiväkirjan rivit luodaan automaattisesti hankintamenojen kirjaamisen yhteydessä. Tällöin ei tarvitse tehdä muuta kuin kirjata päiväkirja.  
+<span data-ttu-id="8ede5-126">Seuraavassa kerrotaan, miten vakuutuspäiväkirjan rivi luodaan manuaalisesti.</span><span class="sxs-lookup"><span data-stu-id="8ede5-126">The following procedure explains how to create an insurance journal line manually.</span></span> <span data-ttu-id="8ede5-127">Jos **Automaattinen vakuutuskirjaus** -valintaruutu on valittu **KO:n asetukset**-ikkunassa, vakuutuspäiväkirjan rivit luodaan automaattisesti hankintamenojen kirjaamisen yhteydessä.</span><span class="sxs-lookup"><span data-stu-id="8ede5-127">If the **Automatic Insurance Posting** check box is selected in the **FA Setup** window, then insurance journal lines are automatically created when you post acquisition costs.</span></span> <span data-ttu-id="8ede5-128">Tällöin ei tarvitse tehdä muuta kuin kirjata päiväkirja.</span><span class="sxs-lookup"><span data-stu-id="8ede5-128">In that case, all you have to do is to post the journal.</span></span>  
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Vakuutuspäiväkirjat** ja valitse sitten aiheeseen liittyvä linkki.  
-2. Avaa kyseessä oleva päiväkirja ja täytä vaaditut päiväkirjarivit.  
-3. Voit liittää yhteen vakuutussopimukseen useita käyttöomaisuuseriä luomalla päiväkirjarivejä, joiden **Vakuutusnro**-kentässä on sama arvo ja eri arvot **KO-nro** -kentässä.  
-4. Valitse **Kirjaa**-toiminto.  
-
-    > [!NOTE]  
->   Vakuutuspäiväkirjan tapahtumat kirjataan vain vakuutuksen kattavuuskirjauksiin.  
-
-## <a name="to-update-the-insurance-value-of-a-fixed-asset"></a>Käyttöomaisuuden vakuutusarvon päivittäminen
-**Tee indeksimuutos vakuutuksiin** -eräajoa voidaan käyttää päivittämään katetun käyttöomaisuuden arvoa.  
-
-1. Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Tee indeksimuutos vakuutuksiin** ja valitse sitten aiheeseen liittyvä linkki.
-2. Täytä tarvittavat kentät.
+1. <span data-ttu-id="8ede5-129">Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Vakuutuspäiväkirjat** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="8ede5-129">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Insurance Journals**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="8ede5-130">Avaa kyseessä oleva päiväkirja ja täytä vaaditut päiväkirjarivit.</span><span class="sxs-lookup"><span data-stu-id="8ede5-130">Open the relevant journal, and fill in the journal lines as necessary.</span></span>  
+3. <span data-ttu-id="8ede5-131">Voit liittää yhteen vakuutussopimukseen useita käyttöomaisuuseriä luomalla päiväkirjarivejä, joiden **Vakuutusnro**-kentässä</span><span class="sxs-lookup"><span data-stu-id="8ede5-131">To assign multiple fixed assets to one insurance policy, create journal lines with the same value in the **Insurance No.**</span></span> <span data-ttu-id="8ede5-132">on sama arvo ja eri arvot **KO-nro**</span><span class="sxs-lookup"><span data-stu-id="8ede5-132">field and different values in the **FA No.**</span></span> <span data-ttu-id="8ede5-133">-kentässä.</span><span class="sxs-lookup"><span data-stu-id="8ede5-133">field.</span></span>  
+4. <span data-ttu-id="8ede5-134">Valitse **Kirjaa**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="8ede5-134">Choose the **Post** action.</span></span>  
 
     > [!NOTE]  
->   **Indeksiluku**-kenttään annetaan esimerkiksi 5 %:n pienentämistä varten 95, kun taas 2 %:n suurentamiseksi annetaan 102.  
-3. Valitse **OK**-painike.  
+>   <span data-ttu-id="8ede5-135">Vakuutuspäiväkirjan tapahtumat kirjataan vain vakuutuksen kattavuuskirjauksiin.</span><span class="sxs-lookup"><span data-stu-id="8ede5-135">The entries from an insurance journal are only posted to the insurance coverage ledger.</span></span>  
 
-   Eräajo laskee uudeksi summaksi prosenttiosuuden vakuutetusta kokonaisarvosta **Vakuutustilastot**-ikkunan arvon mukaan. Tämän jälkeen luodaan rivi vakuutuspäiväkirjaan.  
-4. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Vakuutuspäiväkirjat** ja valitse sitten aiheeseen liittyvä linkki.  
-5. Avaa kyseinen vakuutuspäiväkirja, tarkista luodut arvot ja kirjaa ne vakuutuksen kattavuustapahtumiin.  
+## <a name="to-update-the-insurance-value-of-a-fixed-asset"></a><span data-ttu-id="8ede5-136">Käyttöomaisuuden vakuutusarvon päivittäminen</span><span class="sxs-lookup"><span data-stu-id="8ede5-136">To update the insurance value of a fixed asset</span></span>
+<span data-ttu-id="8ede5-137">**Tee indeksimuutos vakuutuksiin** -eräajoa voidaan käyttää päivittämään katetun käyttöomaisuuden arvoa.</span><span class="sxs-lookup"><span data-stu-id="8ede5-137">You can use the **Index Insurance** batch job to update the value of the fixed assets that are covered.</span></span>  
 
-## <a name="to-monitor-insurance-coverage"></a>Vakuutuksen kattavuuden valvonta
-[!INCLUDE[d365fin](includes/d365fin_md.md)] sisältää vakuutussopimusten analysoimiseen ja käyttöomaisuuserien yli- ja alivakuuttamisen määrittämiseen tarkoitettuja raportti- ja tilastotietoikkunoita.  
+1. <span data-ttu-id="8ede5-138">Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Tee indeksimuutos vakuutuksiin** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="8ede5-138">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Index Insurance**, and then choose the related link.</span></span>
+2. <span data-ttu-id="8ede5-139">Täytä tarvittavat kentät.</span><span class="sxs-lookup"><span data-stu-id="8ede5-139">Fill in the fields as necessary.</span></span>
 
-### <a name="overview-of-insurance-policies"></a>Yleiskuva vakuutussopimuksista
-Saat yleiskuvan vakuutussopimuksista esikatselemalla tai tulostamalla **Vakuutus – Luettelo** -raportin. Raportti näyttää kaikki käytännöt ja vakuutuskorttien tärkeimmät kentät.  
+    > [!NOTE]  
+>   <span data-ttu-id="8ede5-140">**Indeksiluku**-kenttään annetaan esimerkiksi 5 %:n pienentämistä varten 95, kun taas 2 %:n suurentamiseksi annetaan 102.</span><span class="sxs-lookup"><span data-stu-id="8ede5-140">In the **Index Figure** field, you enter a decrease of 5%, for example, as 95, whereas you enter an increase of 2% as 102.</span></span>  
+3. <span data-ttu-id="8ede5-141">Valitse **OK**-painike.</span><span class="sxs-lookup"><span data-stu-id="8ede5-141">Choose the **OK** button.</span></span>  
 
-### <a name="insurance-coverage"></a>Vakuutuskattavuus
-Tarkastele, mitä käyttöomaisuuseriä vakuutussopimukset kattavat ja millaisista summista on kyse, esikatselemalla tai tulostamalla **Vakuutus – Vakuut. arvo yht.** -raportin.  
+   <span data-ttu-id="8ede5-142">Eräajo laskee uudeksi summaksi prosenttiosuuden vakuutetusta kokonaisarvosta **Vakuutustilastot**-ikkunan arvon mukaan. Tämän jälkeen luodaan rivi vakuutuspäiväkirjaan.</span><span class="sxs-lookup"><span data-stu-id="8ede5-142">The batch job calculates the new amount as a percentage of the total value insured, as stated in the **Insurance Statistics** window, and then creates a line in the insurance journal.</span></span>  
+4. <span data-ttu-id="8ede5-143">Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Vakuutuspäiväkirjat** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="8ede5-143">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Insurance Journals**, and then choose the related link.</span></span>  
+5. <span data-ttu-id="8ede5-144">Avaa kyseinen vakuutuspäiväkirja, tarkista luodut arvot ja kirjaa ne vakuutuksen kattavuustapahtumiin.</span><span class="sxs-lookup"><span data-stu-id="8ede5-144">Open the relevant insurance journal, review the created values, and then post them to the insurance coverage ledger.</span></span>  
 
-### <a name="overunder-coverage"></a>Yli-/alikattavuus
-Voit tarkistaa käyttöomaisuuserien mahdollisen yli- tai alivakuuttamisen seuraavilla tavoilla:  
+## <a name="to-monitor-insurance-coverage"></a><span data-ttu-id="8ede5-145">Vakuutuksen kattavuuden valvonta</span><span class="sxs-lookup"><span data-stu-id="8ede5-145">To monitor insurance coverage</span></span>
+[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="8ede5-146"> sisältää vakuutussopimusten analysoimiseen ja käyttöomaisuuserien yli- ja alivakuuttamisen määrittämiseen tarkoitettuja raportti- ja tilastotietoikkunoita.</span><span class="sxs-lookup"><span data-stu-id="8ede5-146"> provides dedicated reports and statistics windows for use in analyzing insurance policies and whether your fixed assets are over- or under-insured.</span></span>  
 
-* **Vakuutustilastot**-ikkuna. Jos **Ali-/ylivakuutus**-kentässä on positiivinen summa, käyttöomaisuus on ylivakuutettu. Negatiivinen summa tarkoittaa sitä, että se on alivakuutettu.  
-* **Käyttöomaisuustilastot**-ikkuna. Valitse **Kokonaisvakuutusarvo**-kenttä, kun haluat tarkastella **Vakuutuksen kattav.tapahtumat** -ikkunaa.  
-* **Yli-/alikattavuus**-raportti.  
-* **Vakuutusanalyysi**-raportti.  
+### <a name="overview-of-insurance-policies"></a><span data-ttu-id="8ede5-147">Yleiskuva vakuutussopimuksista</span><span class="sxs-lookup"><span data-stu-id="8ede5-147">Overview of Insurance Policies</span></span>
+<span data-ttu-id="8ede5-148">Saat yleiskuvan vakuutussopimuksista esikatselemalla tai tulostamalla **Vakuutus – Luettelo** -raportin.</span><span class="sxs-lookup"><span data-stu-id="8ede5-148">To get an overview of your insurance policies, preview or print the **Insurance - List** report.</span></span> <span data-ttu-id="8ede5-149">Raportti näyttää kaikki käytännöt ja vakuutuskorttien tärkeimmät kentät.</span><span class="sxs-lookup"><span data-stu-id="8ede5-149">The report shows all the policies and the most important fields from the insurance cards.</span></span>  
 
-### <a name="uninsured-fixed-assets"></a>Vakuuttamaton käyttöomaisuus
-Tarkastaaksesi, ettet ole unohtanut määritellä käyttöomaisuutta vakuutussopimukseen, voit tulostaa tai esikatsella **Vakuutus – Vakuuttamaton KO** -raportin. Tässä raportissa näkyvät käyttöomaisuuserät, joiden osalta ei ole kirjattu summia vakuutuksen kattavuustapahtumaan.  
+### <a name="insurance-coverage"></a><span data-ttu-id="8ede5-150">Vakuutuskattavuus</span><span class="sxs-lookup"><span data-stu-id="8ede5-150">Insurance Coverage</span></span>
+<span data-ttu-id="8ede5-151">Tarkastele, mitä käyttöomaisuuseriä vakuutussopimukset kattavat ja millaisista summista on kyse, esikatselemalla tai tulostamalla **Vakuutus – Vakuut. arvo yht.** -raportin.</span><span class="sxs-lookup"><span data-stu-id="8ede5-151">To see which insurance policies cover each asset and by which amount, you can preview or print the **Insurance - Tot. Value Insured** report.</span></span>  
 
-## <a name="to-view-insurance-coverage-ledger-entries"></a>Vakuutuksen kattavuustapahtumien katsominen
-Vakuutuksen kattavuuskirjauksiin tehtyjä tapahtumia voi katsoa.  
+### <a name="overunder-coverage"></a><span data-ttu-id="8ede5-152">Yli-/alikattavuus</span><span class="sxs-lookup"><span data-stu-id="8ede5-152">Over/Under Coverage</span></span>
+<span data-ttu-id="8ede5-153">Voit tarkistaa käyttöomaisuuserien mahdollisen yli- tai alivakuuttamisen seuraavilla tavoilla:</span><span class="sxs-lookup"><span data-stu-id="8ede5-153">You can check if fixed assets are over- or under-insured in the following ways:</span></span>  
 
-1. Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Vakuutus** ja valitse sitten aiheeseen liittyvä linkki.  
-2. Valitse haluamasi vakuutussopimus ja valitse sitten **Vakuutuksen kattav.tapahtumat** -toiminto.  
+* <span data-ttu-id="8ede5-154">**Vakuutustilastot**-ikkuna.</span><span class="sxs-lookup"><span data-stu-id="8ede5-154">The **Insurance Statistics** window.</span></span> <span data-ttu-id="8ede5-155">Jos **Ali-/ylivakuutus**-kentässä on positiivinen summa, käyttöomaisuus on ylivakuutettu.</span><span class="sxs-lookup"><span data-stu-id="8ede5-155">A positive amount in the **Over/Under Insured** field means that the fixed asset is over-insured.</span></span> <span data-ttu-id="8ede5-156">Negatiivinen summa tarkoittaa sitä, että se on alivakuutettu.</span><span class="sxs-lookup"><span data-stu-id="8ede5-156">A negative amount means that it is underinsured.</span></span>  
+* <span data-ttu-id="8ede5-157">**Käyttöomaisuustilastot**-ikkuna.</span><span class="sxs-lookup"><span data-stu-id="8ede5-157">The **Fixed Asset Statistics** window.</span></span> <span data-ttu-id="8ede5-158">Valitse **Kokonaisvakuutusarvo**-kenttä, kun haluat tarkastella **Vakuutuksen kattav.tapahtumat** -ikkunaa.</span><span class="sxs-lookup"><span data-stu-id="8ede5-158">Choose the **Total Value Insured** field to view the **Ins. Coverage Ledger Entries** window.</span></span>  
+* <span data-ttu-id="8ede5-159">**Yli-/alikattavuus**-raportti.</span><span class="sxs-lookup"><span data-stu-id="8ede5-159">The **Over/Under Coverage** report.</span></span>  
+* <span data-ttu-id="8ede5-160">**Vakuutusanalyysi**-raportti.</span><span class="sxs-lookup"><span data-stu-id="8ede5-160">The **Insurance Analysis** report.</span></span>  
 
-## <a name="to-view-the-total-insurance-value-of-fixed-assets"></a>Käyttöomaisuuden kokonaisvakuutusarvon tarkasteleminen
-Erityinen matriisi-ikkuna sisältää kunkin käyttöomaisuuserän vakuutussopimukselle rekisteröidyt vakuutusarvot, jotka saadaan vakuutukseen liittyvien kirjattujen summien tuloksena.  
+### <a name="uninsured-fixed-assets"></a><span data-ttu-id="8ede5-161">Vakuuttamaton käyttöomaisuus</span><span class="sxs-lookup"><span data-stu-id="8ede5-161">Uninsured Fixed Assets</span></span>
+<span data-ttu-id="8ede5-162">Tarkastaaksesi, ettet ole unohtanut määritellä käyttöomaisuutta vakuutussopimukseen, voit tulostaa tai esikatsella **Vakuutus – Vakuuttamaton KO** -raportin.</span><span class="sxs-lookup"><span data-stu-id="8ede5-162">To check if you have forgotten to assign a fixed asset to an insurance policy, you can print or preview the **Insurance - Uninsured FAs** report.</span></span> <span data-ttu-id="8ede5-163">Tässä raportissa näkyvät käyttöomaisuuserät, joiden osalta ei ole kirjattu summia vakuutuksen kattavuustapahtumaan.</span><span class="sxs-lookup"><span data-stu-id="8ede5-163">This report displays fixed assets for which amounts have not been posted to the insurance coverage ledger.</span></span>  
 
-1. Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Vakuutus** ja valitse sitten aiheeseen liittyvä linkki.  
-2. Valitse haluamasi vakuutussopimus ja valitse sitten **Vakuutusarvo KO-erää kohti** -toiminto.  
-3. Täytä tarvittavat kentät.  
-4. Valitse **Näytä matriisi** -toiminto.  
-5. Voit tarkastella perusteena olevia vakuutuksen kattavuustapahtumia valitsemalla arvon matriisista.  
+## <a name="to-view-insurance-coverage-ledger-entries"></a><span data-ttu-id="8ede5-164">Vakuutuksen kattavuustapahtumien katsominen</span><span class="sxs-lookup"><span data-stu-id="8ede5-164">To view insurance coverage ledger entries</span></span>
+<span data-ttu-id="8ede5-165">Vakuutuksen kattavuuskirjauksiin tehtyjä tapahtumia voi katsoa.</span><span class="sxs-lookup"><span data-stu-id="8ede5-165">You can view the entries that you have made in the insurance coverage ledger.</span></span>  
 
-## <a name="to-correct-insurance-coverage-entries"></a>Vakuutuksen kattavuustapahtumien korjaaminen
-Jos käyttöomaisuus on liitetty virheelliseen vakuutussopimukseen, voit korjata sen luomalla kaksi uudelleenluokittelutapahtumaa vakuutuspäiväkirjasta.  
+1. <span data-ttu-id="8ede5-166">Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Vakuutus** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="8ede5-166">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Insurance**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="8ede5-167">Valitse haluamasi vakuutussopimus ja valitse sitten **Vakuutuksen kattav.tapahtumat** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="8ede5-167">Select the relevant insurance policy, and then choose the **Coverage Ledger Entries** action.</span></span>  
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Vakuutuspäiväkirjat** ja valitse sitten aiheeseen liittyvä linkki.  
-2. Luo käyttöomaisuudelle yksi päiväkirjarivi ja korjaa vakuutussopimus, jonka **Summa**-kentän arvo on positiivinen.  
-3. Luo käyttöomaisuudelle toinen päiväkirjarivi ja virheellinen vakuutussopimus, jonka **Summa**-kentän arvo on negatiivinen.  
-4. Valitse **Kirjaa**-toiminto.  
+## <a name="to-view-the-total-insurance-value-of-fixed-assets"></a><span data-ttu-id="8ede5-168">Käyttöomaisuuden kokonaisvakuutusarvon tarkasteleminen</span><span class="sxs-lookup"><span data-stu-id="8ede5-168">To view the total insurance value of fixed assets</span></span>
+<span data-ttu-id="8ede5-169">Erityinen matriisi-ikkuna sisältää kunkin käyttöomaisuuserän vakuutussopimukselle rekisteröidyt vakuutusarvot, jotka saadaan vakuutukseen liittyvien kirjattujen summien tuloksena.</span><span class="sxs-lookup"><span data-stu-id="8ede5-169">A dedicated matrix window shows the insurance values that are registered for each insurance policy for each fixed asset as a result of insurance-related amounts that you have posted.</span></span>  
 
-Käyttöomaisuus irrotetaan virheellisestä vakuutussopimuksesta toisella rivillä ja liitetään oikeaan sopimukseen ensimmäisellä rivillä.  
+1. <span data-ttu-id="8ede5-170">Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Vakuutus** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="8ede5-170">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Insurance**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="8ede5-171">Valitse haluamasi vakuutussopimus ja valitse sitten **Vakuutusarvo KO-erää kohti** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="8ede5-171">Select the relevant insurance policy, and then choose the **Total Value Insures per FA** action.</span></span>  
+3. <span data-ttu-id="8ede5-172">Täytä tarvittavat kentät.</span><span class="sxs-lookup"><span data-stu-id="8ede5-172">Fill in the fields as necessary.</span></span>  
+4. <span data-ttu-id="8ede5-173">Valitse **Näytä matriisi** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="8ede5-173">Choose the **Show Matrix** action.</span></span>  
+5. <span data-ttu-id="8ede5-174">Voit tarkastella perusteena olevia vakuutuksen kattavuustapahtumia valitsemalla arvon matriisista.</span><span class="sxs-lookup"><span data-stu-id="8ede5-174">To see the underlying insurance coverage ledger entries, choose a value in the matrix.</span></span>  
 
-## <a name="see-also"></a>Katso myös
-[Käyttöomaisuus](fa-manage.md)  
-[Käyttöomaisuuden määrittäminen](fa-setup.md)  
-[Rahoitus](finance.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+## <a name="to-correct-insurance-coverage-entries"></a><span data-ttu-id="8ede5-175">Vakuutuksen kattavuustapahtumien korjaaminen</span><span class="sxs-lookup"><span data-stu-id="8ede5-175">To correct insurance coverage entries</span></span>
+<span data-ttu-id="8ede5-176">Jos käyttöomaisuus on liitetty virheelliseen vakuutussopimukseen, voit korjata sen luomalla kaksi uudelleenluokittelutapahtumaa vakuutuspäiväkirjasta.</span><span class="sxs-lookup"><span data-stu-id="8ede5-176">If a fixed asset has been attached to the wrong insurance policy, you can correct it by creating two reclassification entries from the insurance journal.</span></span>  
+
+1. <span data-ttu-id="8ede5-177">Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Vakuutuspäiväkirjat** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="8ede5-177">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Insurance Journals**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="8ede5-178">Luo käyttöomaisuudelle yksi päiväkirjarivi ja korjaa vakuutussopimus, jonka **Summa**-kentän arvo on positiivinen.</span><span class="sxs-lookup"><span data-stu-id="8ede5-178">Create one journal line for the fixed asset and the correct insurance policy where the value in the **Amount** field is positive.</span></span>  
+3. <span data-ttu-id="8ede5-179">Luo käyttöomaisuudelle toinen päiväkirjarivi ja virheellinen vakuutussopimus, jonka **Summa**-kentän arvo on negatiivinen.</span><span class="sxs-lookup"><span data-stu-id="8ede5-179">Create another journal line for the fixed asset and the incorrect insurance policy where the value in the **Amount** field is negative.</span></span>  
+4. <span data-ttu-id="8ede5-180">Valitse **Kirjaa**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="8ede5-180">Choose the **Post** action.</span></span>  
+
+<span data-ttu-id="8ede5-181">Käyttöomaisuus irrotetaan virheellisestä vakuutussopimuksesta toisella rivillä ja liitetään oikeaan sopimukseen ensimmäisellä rivillä.</span><span class="sxs-lookup"><span data-stu-id="8ede5-181">The fixed asset will be detached from the incorrect insurance policy, on the second line, and attached to the correct insurance policy, on the first line.</span></span>  
+
+## <a name="see-also"></a><span data-ttu-id="8ede5-182">Katso myös</span><span class="sxs-lookup"><span data-stu-id="8ede5-182">See Also</span></span>
+[<span data-ttu-id="8ede5-183">Käyttöomaisuus</span><span class="sxs-lookup"><span data-stu-id="8ede5-183">Fixed Assets</span></span>](fa-manage.md)  
+[<span data-ttu-id="8ede5-184">Käyttöomaisuuden määrittäminen</span><span class="sxs-lookup"><span data-stu-id="8ede5-184">Setting Up Fixed Assets</span></span>](fa-setup.md)  
+[<span data-ttu-id="8ede5-185">Rahoitus</span><span class="sxs-lookup"><span data-stu-id="8ede5-185">Finance</span></span>](finance.md)  
+<span data-ttu-id="8ede5-186">[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="8ede5-186">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
 

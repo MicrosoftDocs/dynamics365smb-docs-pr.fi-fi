@@ -16,45 +16,44 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 8dbefb4ef7daf4016c5c577d1e749d2049791c4b
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="managing-interactions-with-contacts"></a>Kontaktien kanssa tapahtuvien vuorovaikutusten hallinta
-[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]:ssa kaikentyyppinen yhteydenpito yrityksesi ja kontaktiesi välillä on vuorovaikutusta. Yhteydenpito voi tapahtua esimerkiksi kirjeitse, faksitse, sähköpostitse, puhelimitse jne.
+# <a name="managing-interactions-with-contacts"></a><span data-ttu-id="61030-103">Kontaktien kanssa tapahtuvien vuorovaikutusten hallinta</span><span class="sxs-lookup"><span data-stu-id="61030-103">Managing Interactions With Contacts</span></span>
+<span data-ttu-id="61030-104">[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]:ssa kaikentyyppinen yhteydenpito yrityksesi ja kontaktiesi välillä on vuorovaikutusta.</span><span class="sxs-lookup"><span data-stu-id="61030-104">In [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], interactions are all types of communications between your company and your contacts.</span></span> <span data-ttu-id="61030-105">Yhteydenpito voi tapahtua esimerkiksi kirjeitse, faksitse, sähköpostitse, puhelimitse jne.</span><span class="sxs-lookup"><span data-stu-id="61030-105">For example, communications can be by letter, fax, email, telephone, meetings, and so on.</span></span>
 
-Asiakkuudenhallinnan alueella voit tallentaa kaikki vuorovaikutukset, joita sinulla on kontaktiesi kanssa, jotta voit seurata kontakteihin suuntaamiasi markkinointi- ja myyntiponnistuksia, ja jatkossa parantaa liiketoiminnallista vuorovaikutustasi näiden kontaktien kanssa. Sovelluksen määrittäminen niin, että se tallentaa vuorovaikutukset, sisältää seuraavat tehtävät:
+<span data-ttu-id="61030-106">Asiakkuudenhallinnan alueella voit tallentaa kaikki vuorovaikutukset, joita sinulla on kontaktiesi kanssa, jotta voit seurata kontakteihin suuntaamiasi markkinointi- ja myyntiponnistuksia, ja jatkossa parantaa liiketoiminnallista vuorovaikutustasi näiden kontaktien kanssa.</span><span class="sxs-lookup"><span data-stu-id="61030-106">The relationship management area enables you to record all the interactions you have with your contacts in order to keep track of the sales and marketing efforts you have directed at your contacts and to improve your future business interactions with them.</span></span> <span data-ttu-id="61030-107">Sovelluksen määrittäminen niin, että se tallentaa vuorovaikutukset, sisältää seuraavat tehtävät:</span><span class="sxs-lookup"><span data-stu-id="61030-107">Setting up your application to record interactions consists of these tasks:</span></span>
 
-* Vuorovaikutusmallien määrittäminen  
-* Vuorovaikutusten luominen kontakteille ja segmenteille  
-* Tallennettujen vuorovaikutusten tarkasteleminen ja hallinta  
+* <span data-ttu-id="61030-108">Vuorovaikutusmallien määrittäminen</span><span class="sxs-lookup"><span data-stu-id="61030-108">Setting up interaction templates</span></span>  
+* <span data-ttu-id="61030-109">Vuorovaikutusten luominen kontakteille ja segmenteille</span><span class="sxs-lookup"><span data-stu-id="61030-109">Creating interactions on contacts or segments</span></span>  
+* <span data-ttu-id="61030-110">Tallennettujen vuorovaikutusten tarkasteleminen ja hallinta</span><span class="sxs-lookup"><span data-stu-id="61030-110">View and manage recorded interactions</span></span>  
 
-##  <a name="setting-up-interaction-templates"></a>Vuorovaikutusmallien määrittäminen
-Ennen kun voit luoda ja tallentaa vuorovaikutuksia, sinun täytyy määrittää vuorovaikutusmallit. Ennen vuorovaikutusten luomista on määritettävä, mihin vuorovaikutusmalleihin ne perustuvat. Vuorovaikutusmalli on malli, joka määrittää vuorovaikutuksen perusominaisuudet.
-Voit määrittää vuorovaikutusmallin **Vuorovaikutusmallit**-ikkunassa.  
+##  <a name="setting-up-interaction-templates"></a><span data-ttu-id="61030-111">Vuorovaikutusmallien määrittäminen</span><span class="sxs-lookup"><span data-stu-id="61030-111">Setting up Interaction Templates</span></span>
+<span data-ttu-id="61030-112">Ennen kun voit luoda ja tallentaa vuorovaikutuksia, sinun täytyy määrittää vuorovaikutusmallit.</span><span class="sxs-lookup"><span data-stu-id="61030-112">Before you can create and record interactions, you must set up interaction templates.</span></span> <span data-ttu-id="61030-113">Ennen vuorovaikutusten luomista on määritettävä, mihin vuorovaikutusmalleihin ne perustuvat.</span><span class="sxs-lookup"><span data-stu-id="61030-113">When creating interactions, you must specify the interaction templates they are based on.</span></span> <span data-ttu-id="61030-114">Vuorovaikutusmalli on malli, joka määrittää vuorovaikutuksen perusominaisuudet.</span><span class="sxs-lookup"><span data-stu-id="61030-114">An interaction template is a model that defines the basic characteristics of an interaction.</span></span>
+<span data-ttu-id="61030-115">Voit määrittää vuorovaikutusmallin **Vuorovaikutusmallit**-ikkunassa.</span><span class="sxs-lookup"><span data-stu-id="61030-115">You set up an interaction template in the **Interaction Templates** window.</span></span>  
 
-## <a name="creating-interactions"></a>Vuorovaikutusten luominen
-Vuorovaikutuksia voi tallentaa kahdella tavalla:
+## <a name="creating-interactions"></a><span data-ttu-id="61030-116">Vuorovaikutusten luominen</span><span class="sxs-lookup"><span data-stu-id="61030-116">Creating Interactions</span></span>
+<span data-ttu-id="61030-117">Vuorovaikutuksia voi tallentaa kahdella tavalla:</span><span class="sxs-lookup"><span data-stu-id="61030-117">There are two ways of recording interactions:</span></span>
 
-* Voit luoda manuaalisesti vuorovaikutuksia, jotka on linkitetty yhteen kontaktiin tai segmenttiin. Lisätietoja on kohdassa [Toimintaohje: Vuorovaikutusten luominen kontakteille ja segmenteille](marketing-how-create-interactions.md).  
-* Voit tallentaa vuorovaikutukset automaattisesti, kun teet toimenpiteitä sovelluksessa (esimerkiksi tulostat laskun tai tarjouksen). Lisätietoja on kohdassa [Kontaktien kanssa tapahtuvien vuorovaikutusten tallentaminen automaattisesti](marketing-auto-record-interactions.md).
+* <span data-ttu-id="61030-118">Voit luoda manuaalisesti vuorovaikutuksia, jotka on linkitetty yhteen kontaktiin tai segmenttiin.</span><span class="sxs-lookup"><span data-stu-id="61030-118">You can manually create interactions that are linked to a single contact or to a segment.</span></span> <span data-ttu-id="61030-119">Lisätietoja on kohdassa [Toimintaohje: Vuorovaikutusten luominen kontakteille ja segmenteille](marketing-how-create-interactions.md).</span><span class="sxs-lookup"><span data-stu-id="61030-119">For more information, see [How to: Create Interactions on Contacts and Segments](marketing-how-create-interactions.md).</span></span>  
+* <span data-ttu-id="61030-120">Voit tallentaa vuorovaikutukset automaattisesti, kun teet toimenpiteitä sovelluksessa (esimerkiksi tulostat laskun tai tarjouksen).</span><span class="sxs-lookup"><span data-stu-id="61030-120">You can automatically record interactions when you perform actions in the application, for example, when you print an invoice, or quote.</span></span> <span data-ttu-id="61030-121">Lisätietoja on kohdassa [Kontaktien kanssa tapahtuvien vuorovaikutusten tallentaminen automaattisesti](marketing-auto-record-interactions.md).</span><span class="sxs-lookup"><span data-stu-id="61030-121">For more information, see [Automatically Record Interactions with Contacts](marketing-auto-record-interactions.md).</span></span>
 
-## <a name="viewing-and-managing-recorded-interactions"></a>Tallennettujen vuorovaikutusten tarkasteleminen ja hallinta
-Voit tarkastella kaikkia tallennettuja vuorovaikutuksia, joita ei ole poistettu, **Vuorovaikutuslokin tapahtumat** -ikkunassa. Voit avata ikkunan seuraavasti:
+## <a name="viewing-and-managing-recorded-interactions"></a><span data-ttu-id="61030-122">Tallennettujen vuorovaikutusten tarkasteleminen ja hallinta</span><span class="sxs-lookup"><span data-stu-id="61030-122">Viewing and managing Recorded Interactions</span></span>
+<span data-ttu-id="61030-123">Voit tarkastella kaikkia tallennettuja vuorovaikutuksia, joita ei ole poistettu, **Vuorovaikutuslokin tapahtumat** -ikkunassa.</span><span class="sxs-lookup"><span data-stu-id="61030-123">You can view all the recorded interactions that have not been deleted in the **Interaction Log Entries** window.</span></span> <span data-ttu-id="61030-124">Voit avata ikkunan seuraavasti:</span><span class="sxs-lookup"><span data-stu-id="61030-124">You can open this window by:</span></span>
 
-* **Etsi sivua tai raporttia** -kuvakkeen avulla, kun haluat hakea **Vuorovaikutuslokin tapahtumat** -kohdasta.
-* Valitsemalla kontaktin tai segmentin **Vuorovaikutuslokin tapahtumat** -toiminnon.
-  **Vuorovaikutuslokin tapahtuma** -ikkuna sisältää manuaalisesti luomasi vuorovaikutukset sekä sovelluksen automaattisesti tallentamat vuorovaikutukset.
+* <span data-ttu-id="61030-125">**Etsi sivua tai raporttia** -kuvakkeen avulla, kun haluat hakea **Vuorovaikutuslokin tapahtumat** -kohdasta.</span><span class="sxs-lookup"><span data-stu-id="61030-125">Using the **Search for Page or Report** icon to search on **Interaction Log Entries**.</span></span>
+* <span data-ttu-id="61030-126">Valitsemalla kontaktin tai segmentin **Vuorovaikutuslokin tapahtumat** -toiminnon.</span><span class="sxs-lookup"><span data-stu-id="61030-126">Choosing the **Interaction Log Entries** action on a contact or segment.</span></span>
+  <span data-ttu-id="61030-127">**Vuorovaikutuslokin tapahtuma** -ikkuna sisältää manuaalisesti luomasi vuorovaikutukset sekä sovelluksen automaattisesti tallentamat vuorovaikutukset.</span><span class="sxs-lookup"><span data-stu-id="61030-127">The **Interaction Log Entry** window contains the interactions you create manually and the interactions that the application records automatically.</span></span>
 
-Tässä ikkunassa voit
+<span data-ttu-id="61030-128">Tässä ikkunassa voit</span><span class="sxs-lookup"><span data-stu-id="61030-128">In this window, you can:</span></span>
 
-* tarkastella vuorovaikutusten tilaa
-* merkitä vuorovaikutukset peruutetuiksi.
+* <span data-ttu-id="61030-129">tarkastella vuorovaikutusten tilaa</span><span class="sxs-lookup"><span data-stu-id="61030-129">View the status of interactions.</span></span>
+* <span data-ttu-id="61030-130">merkitä vuorovaikutukset peruutetuiksi.</span><span class="sxs-lookup"><span data-stu-id="61030-130">Mark interactions as canceled.</span></span>
 
-Voit poistaa vuorovaikutuslokin tapahtumia, jotka on peruutettu. Voit poistaa vuorovaikutuslokin tapahtumia valitsemalla ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvakkeen, kirjoittamalla **Poista peruutetut vuorovaikutuslokin tapahtumat** ja valitsemalla sitten liittyvän linkin. Täytä tämän jälkeen tiedot.
+<span data-ttu-id="61030-131">Voit poistaa vuorovaikutuslokin tapahtumia, jotka on peruutettu.</span><span class="sxs-lookup"><span data-stu-id="61030-131">You can delete interaction log entries that have been canceled.</span></span> <span data-ttu-id="61030-132">Voit poistaa vuorovaikutuslokin tapahtumia valitsemalla ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvakkeen, kirjoittamalla **Poista peruutetut vuorovaikutuslokin tapahtumat** ja valitsemalla sitten liittyvän linkin. Täytä tämän jälkeen tiedot.</span><span class="sxs-lookup"><span data-stu-id="61030-132">To delete interaction log entries, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Delete Canceled Interaction Log Entries**, and then choose the related link, and then fill in the information.</span></span>
 
-## <a name="see-also"></a>Katso myös
-[Kontaktien hallinta](marketing-contacts.md)  
-[Myyntimahdollisuuksien hallinta](marketing-manage-sales-opportunities.md)  
-[Financialsin käyttäminen](ui-work-product.md)  
+## <a name="see-also"></a><span data-ttu-id="61030-133">Katso myös</span><span class="sxs-lookup"><span data-stu-id="61030-133">See Also</span></span>
+[<span data-ttu-id="61030-134">Kontaktien hallinta</span><span class="sxs-lookup"><span data-stu-id="61030-134">Managing Contacts</span></span>](marketing-contacts.md)  
+[<span data-ttu-id="61030-135">Myyntimahdollisuuksien hallinta</span><span class="sxs-lookup"><span data-stu-id="61030-135">Managing Sales Opportunities</span></span>](marketing-manage-sales-opportunities.md)  
+[<span data-ttu-id="61030-136">Financialsin käyttäminen</span><span class="sxs-lookup"><span data-stu-id="61030-136">Working with Financials</span></span>](ui-work-product.md)  
 

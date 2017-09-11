@@ -16,27 +16,26 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: a01f90d93c12cf429264f525df3a7e42e01d7e33
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="set-up-project-management"></a>Projektinhallinnan määrittäminen
-Ennen kuin voit käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]ia projektien hallintaan, on määritettävä resurssit, aikaraportit ja projektit.
+# <a name="set-up-project-management"></a><span data-ttu-id="bb600-103">Projektinhallinnan määrittäminen</span><span class="sxs-lookup"><span data-stu-id="bb600-103">Set Up Project Management</span></span>
+<span data-ttu-id="bb600-104">Ennen kuin voit käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]ia projektien hallintaan, on määritettävä resurssit, aikaraportit ja projektit.</span><span class="sxs-lookup"><span data-stu-id="bb600-104">Before you can use [!INCLUDE[d365fin](includes/d365fin_md.md)] to manage projects, you must set up resources, time sheets, and jobs.</span></span>
 
-Tämän jälkeen voit luoda projekteja ja ajoittaa projektien resursseja sekä hallita budjetteja ja seurata koneiden ja työntekijöiden työtunteja aikaraporttien avulla. Lisätietoja on myös kohdassa [Projektien hallinta](projects-manage-projects.md).  
+<span data-ttu-id="bb600-105">Tämän jälkeen voit luoda projekteja ja ajoittaa projektien resursseja sekä hallita budjetteja ja seurata koneiden ja työntekijöiden työtunteja aikaraporttien avulla.</span><span class="sxs-lookup"><span data-stu-id="bb600-105">Then you can create jobs and schedule resources for projects as well as manage budgets and track machine and employee hours with time sheets.</span></span> <span data-ttu-id="bb600-106">Lisätietoja on myös kohdassa [Projektien hallinta](projects-manage-projects.md).</span><span class="sxs-lookup"><span data-stu-id="bb600-106">For more information, see [Manage Projects](projects-manage-projects.md).</span></span>  
 
-Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisiin.
+<span data-ttu-id="bb600-107">Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisiin.</span><span class="sxs-lookup"><span data-stu-id="bb600-107">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span>
 
-| Toiminta | Katso |
+| <span data-ttu-id="bb600-108">Toiminta</span><span class="sxs-lookup"><span data-stu-id="bb600-108">To</span></span> | <span data-ttu-id="bb600-109">Katso</span><span class="sxs-lookup"><span data-stu-id="bb600-109">See</span></span> |
 | --- | --- |
-| Määritä resurssit ja liittyvät kustannukset ja hinnat yksittäisille resursseille, resurssiryhmille tai kaikille yrityksen käytettävissä oleville resursseille. |[Toimintaohje: Resurssien määrittäminen](projects-how-setup-resources.md) |
-| Ota raporteissa käyttöön ajan käytön raportointi yksityishenkilölle tai koneelle. Anna esimiehelle oikeus tarkistaa käyttö ja sen kohdistus. |[Toimintaohje: Aikaraporttien määrittäminen](projects-how-setup-time-sheets.md) |
-| Luo projektikortit ja valmistele projektitehtävät. Määritä projektinimikkeiden ja -resurssien hinnat ja määritä projektin kirjausryhmät. |[Toimintaohje: Projektien määrittäminen](projects-how-setup-jobs.md) |
+| <span data-ttu-id="bb600-110">Määritä resurssit ja liittyvät kustannukset ja hinnat yksittäisille resursseille, resurssiryhmille tai kaikille yrityksen käytettävissä oleville resursseille.</span><span class="sxs-lookup"><span data-stu-id="bb600-110">Set up your resources and the related costs and prices, either for individual resources, resource groups, or for all available resources of the company.</span></span> |[<span data-ttu-id="bb600-111">Toimintaohje: Resurssien määrittäminen</span><span class="sxs-lookup"><span data-stu-id="bb600-111">How to: Set Up Resources</span></span>](projects-how-setup-resources.md) |
+| <span data-ttu-id="bb600-112">Ota raporteissa käyttöön ajan käytön raportointi yksityishenkilölle tai koneelle. Anna esimiehelle oikeus tarkistaa käyttö ja sen kohdistus.</span><span class="sxs-lookup"><span data-stu-id="bb600-112">Enable resources to report time usage for an individual or a machine and enable a manager to review the usage and its allocation.</span></span> |[<span data-ttu-id="bb600-113">Toimintaohje: Aikaraporttien määrittäminen</span><span class="sxs-lookup"><span data-stu-id="bb600-113">How to: Set Up Time Sheets</span></span>](projects-how-setup-time-sheets.md) |
+| <span data-ttu-id="bb600-114">Luo projektikortit ja valmistele projektitehtävät.</span><span class="sxs-lookup"><span data-stu-id="bb600-114">Create job cards and prepare job tasks.</span></span> <span data-ttu-id="bb600-115">Määritä projektinimikkeiden ja -resurssien hinnat ja määritä projektin kirjausryhmät.</span><span class="sxs-lookup"><span data-stu-id="bb600-115">Set up prices for job items and job resources and define job posting groups.</span></span> |[<span data-ttu-id="bb600-116">Toimintaohje: Projektien määrittäminen</span><span class="sxs-lookup"><span data-stu-id="bb600-116">How to: Set Up Jobs</span></span>](projects-how-setup-jobs.md) |
 
-## <a name="see-also"></a>Katso myös
-[Projektien hallinta](projects-manage-projects.md)  
-[Rahoitus](finance.md)  
-[Osto](purchasing-manage-purchasing.md)         
-[Myynti](sales-manage-sales.md)     
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+## <a name="see-also"></a><span data-ttu-id="bb600-117">Katso myös</span><span class="sxs-lookup"><span data-stu-id="bb600-117">See Also</span></span>
+[<span data-ttu-id="bb600-118">Projektien hallinta</span><span class="sxs-lookup"><span data-stu-id="bb600-118">Manage Projects</span></span>](projects-manage-projects.md)  
+[<span data-ttu-id="bb600-119">Rahoitus</span><span class="sxs-lookup"><span data-stu-id="bb600-119">Finance</span></span>](finance.md)  
+<span data-ttu-id="bb600-120">[Osto](purchasing-manage-purchasing.md)       </span><span class="sxs-lookup"><span data-stu-id="bb600-120">[Purchasing](purchasing-manage-purchasing.md)       </span></span>  
+<span data-ttu-id="bb600-121">[Myynti](sales-manage-sales.md)   </span><span class="sxs-lookup"><span data-stu-id="bb600-121">[Sales](sales-manage-sales.md)   </span></span>  
+<span data-ttu-id="bb600-122">[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="bb600-122">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
 

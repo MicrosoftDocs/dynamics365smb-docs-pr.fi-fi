@@ -16,24 +16,23 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 2760d173a46e0ab382253179d899d6f7c3cf7a4f
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="become-a-reseller-of-included365finlongincludesd365finlongmdmd"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]in jälleenmyyjäksi ryhtyminen
-Laajenna liiketoimintamahdollisuuksia [!INCLUDE[d365fin](includes/d365fin_md.md)]illa.  
+# <a name="become-a-reseller-of-included365finlongincludesd365finlongmdmd"></a><span data-ttu-id="c006a-103">[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]in jälleenmyyjäksi ryhtyminen</span><span class="sxs-lookup"><span data-stu-id="c006a-103">Become a Reseller of [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]</span></span>
+<span data-ttu-id="c006a-104">Laajenna liiketoimintamahdollisuuksia [!INCLUDE[d365fin](includes/d365fin_md.md)]illa.</span><span class="sxs-lookup"><span data-stu-id="c006a-104">Expand your business opportunity with [!INCLUDE[d365fin](includes/d365fin_md.md)]!</span></span>  
 
-Jos pilviratkaisut, Office 365, SharePoint, toimialakohtaiset ratkaisut, analytiikka, ERP, CRM, kirjanpito-ohjelmistot ja/tai liiketoimintaprosessien optimointiohjelmistot tai -palvelut ovat erikoisalaasi, Financials tarjoaa uusia mahdollisuuksia.   
+<span data-ttu-id="c006a-105">Jos pilviratkaisut, Office 365, SharePoint, toimialakohtaiset ratkaisut, analytiikka, ERP, CRM, kirjanpito-ohjelmistot ja/tai liiketoimintaprosessien optimointiohjelmistot tai -palvelut ovat erikoisalaasi, Financials tarjoaa uusia mahdollisuuksia.</span><span class="sxs-lookup"><span data-stu-id="c006a-105">If you specialize in Cloud solutions, Office 365, SharePoint, industry solutions, analytics, ERP, CRM, accounting software, and/or business process optimization software/services, Financials is a new opportunity.</span></span>   
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] auttaa erottautumaan ja syventämään asiakassuhteita, sillä voit toimittaa sen avulla kattavan liiketoiminnan hallintaratkaisun, joka yhdistää työntekijät ja prosessit aivan uudella tavalla. Lisäksi se integroituu tuttuihin Microsoft Office -työkaluihin, joita PK-yritykset käyttävät joka päivä.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="c006a-106"> auttaa erottautumaan ja syventämään asiakassuhteita, sillä voit toimittaa sen avulla kattavan liiketoiminnan hallintaratkaisun, joka yhdistää työntekijät ja prosessit aivan uudella tavalla. Lisäksi se integroituu tuttuihin Microsoft Office -työkaluihin, joita PK-yritykset käyttävät joka päivä.</span><span class="sxs-lookup"><span data-stu-id="c006a-106"> can help you differentiate and deepen customer relationships by giving you the capability to deliver an end-to-end business management solution that’s connecting people and processes like never before, embedded within familiar Microsoft Office tools that small and medium businesses use every day.</span></span>  
 
-## <a name="get-started"></a>Aloitus
-Rekisteröidy [!INCLUDE[d365fin](includes/d365fin_md.md)]in esiversioon osoitteessa [https://microsoft.com/dynamics365/financials](https://www.microsoft.com/en-us/dynamics365/financials).  
-Lähetä palautetta osoitteessa [https://community.dynamics.com/business](https://community.dynamics.com/business/f/758).  
-Jos haluat kuulla lisää [!INCLUDE[d365fin](includes/d365fin_md.md)]in jälleenmyyjäksi ryhtymisestä, ota yhteyttä osoitteessa [d365-smb@microsoft.com](mailto:d365-smb@microsoft.com).  
+## <a name="get-started"></a><span data-ttu-id="c006a-107">Aloitus</span><span class="sxs-lookup"><span data-stu-id="c006a-107">Get started</span></span>
+<span data-ttu-id="c006a-108">Rekisteröidy [!INCLUDE[d365fin](includes/d365fin_md.md)]in esiversioon osoitteessa [https://microsoft.com/dynamics365/financials](https://www.microsoft.com/en-us/dynamics365/financials).</span><span class="sxs-lookup"><span data-stu-id="c006a-108">Sign up for the [!INCLUDE[d365fin](includes/d365fin_md.md)] Preview at [https://microsoft.com/dynamics365/financials](https://www.microsoft.com/en-us/dynamics365/financials).</span></span>  
+<span data-ttu-id="c006a-109">Lähetä palautetta osoitteessa [https://community.dynamics.com/business](https://community.dynamics.com/business/f/758).</span><span class="sxs-lookup"><span data-stu-id="c006a-109">Send feedback at [https://community.dynamics.com/business](https://community.dynamics.com/business/f/758).</span></span>  
+<span data-ttu-id="c006a-110">Jos haluat kuulla lisää [!INCLUDE[d365fin](includes/d365fin_md.md)]in jälleenmyyjäksi ryhtymisestä, ota yhteyttä osoitteessa [d365-smb@microsoft.com](mailto:d365-smb@microsoft.com).</span><span class="sxs-lookup"><span data-stu-id="c006a-110">If you're interested in learning more about becoming a [!INCLUDE[d365fin](includes/d365fin_md.md)] reseller, contact us at [d365-smb@microsoft.com](mailto:d365-smb@microsoft.com).</span></span>  
 
-## <a name="see-also"></a>Katso myös
-[Tervetuloa [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]iin!](index.md)  
-[Liiketoiminnan tietojen siirtäminen muista rahoitusjärjestelmistä](upload-data.md)  
-[https://appsource.microsoft.com](https://appsource.microsoft.com/en-us/?product=project-madeira)  
+## <a name="see-also"></a><span data-ttu-id="c006a-111">Katso myös</span><span class="sxs-lookup"><span data-stu-id="c006a-111">See Also</span></span>
+<span data-ttu-id="c006a-112">[Tervetuloa [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]iin!](index.md)</span><span class="sxs-lookup"><span data-stu-id="c006a-112">[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)</span></span>  
+[<span data-ttu-id="c006a-113">Liiketoiminnan tietojen siirtäminen muista rahoitusjärjestelmistä</span><span class="sxs-lookup"><span data-stu-id="c006a-113">Migrate Business Data from Other Finance Systems</span></span>](upload-data.md)  
+[<span data-ttu-id="c006a-114">https://appsource.microsoft.com</span><span class="sxs-lookup"><span data-stu-id="c006a-114">https://appsource.microsoft.com</span></span>](https://appsource.microsoft.com/en-us/?product=project-madeira)  
 

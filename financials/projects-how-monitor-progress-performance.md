@@ -16,87 +16,86 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 9b374c80a649a1e05c98fcbcea1ca447ec0b8d27
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="how-to-monitor-job-progress-and-performance"></a>Toimintaohje: Projektin edistymisen ja suorituskyvyn valvonta
-Projektin edetessä kulutetaan materiaaleja, resursseja ja muita kuluja, ja nämä on kirjattava projektiin. Keskeneräinen työ (KET) on ominaisuus, jonka avulla voit arvioida kirjanpidossa olevien projektien taloudellisen arvon projektin ollessa meneillään. Monissa tapauksissa saatat kirjata projektille kuluja ennen projektin laskuttamista. Kun projektista on kirjattu vain kuluja, rahoituslaskelma on epätarkka. Lisätietoja on kohdassa [Tietoja KET-menetelmistä](projects-understanding-wip.md).
+# <a name="how-to-monitor-job-progress-and-performance"></a><span data-ttu-id="1a8cb-102">Toimintaohje: Projektin edistymisen ja suorituskyvyn valvonta</span><span class="sxs-lookup"><span data-stu-id="1a8cb-102">How to: Monitor Job Progress and Performance</span></span>
+<span data-ttu-id="1a8cb-103">Projektin edetessä kulutetaan materiaaleja, resursseja ja muita kuluja, ja nämä on kirjattava projektiin.</span><span class="sxs-lookup"><span data-stu-id="1a8cb-103">As a job progresses, materials, resources, and other expenses are consumed and must be posted to the job.</span></span> <span data-ttu-id="1a8cb-104">Keskeneräinen työ (KET) on ominaisuus, jonka avulla voit arvioida kirjanpidossa olevien projektien taloudellisen arvon projektin ollessa meneillään.</span><span class="sxs-lookup"><span data-stu-id="1a8cb-104">Work in Process (WIP) is a feature that enables you to estimate the financial value of jobs in the general ledger while the jobs are ongoing.</span></span> <span data-ttu-id="1a8cb-105">Monissa tapauksissa saatat kirjata projektille kuluja ennen projektin laskuttamista.</span><span class="sxs-lookup"><span data-stu-id="1a8cb-105">In many cases, you might post expenses for a job before invoicing a job.</span></span> <span data-ttu-id="1a8cb-106">Kun projektista on kirjattu vain kuluja, rahoituslaskelma on epätarkka.</span><span class="sxs-lookup"><span data-stu-id="1a8cb-106">When only expenses have been posted, your financial statement will be inaccurate.</span></span> <span data-ttu-id="1a8cb-107">Lisätietoja on kohdassa [Tietoja KET-menetelmistä](projects-understanding-wip.md).</span><span class="sxs-lookup"><span data-stu-id="1a8cb-107">For more information, see [Understanding WIP Methods](projects-understanding-wip.md).</span></span>
 
-Voit seurata arvoa kirjanpidossa laskemalla KET:n ja kirjaamalla arvon kirjanpitoon.
+<span data-ttu-id="1a8cb-108">Voit seurata arvoa kirjanpidossa laskemalla KET:n ja kirjaamalla arvon kirjanpitoon.</span><span class="sxs-lookup"><span data-stu-id="1a8cb-108">To track the value in the general ledger, you can calculate WIP and post the value to the general ledger.</span></span>
 
-Voit laskea KET:n seuraavien arvojen perusteella:
+<span data-ttu-id="1a8cb-109">Voit laskea KET:n seuraavien arvojen perusteella:</span><span class="sxs-lookup"><span data-stu-id="1a8cb-109">You can calculate WIP based on the following:</span></span>
 
-* kustannusarvo
-* myyntiarvo
-* tuloutettavat kustannukset
-* valmistumisen prosenttiosuus
-* valmis sopimus.
+* <span data-ttu-id="1a8cb-110">kustannusarvo</span><span class="sxs-lookup"><span data-stu-id="1a8cb-110">Cost Value</span></span>
+* <span data-ttu-id="1a8cb-111">myyntiarvo</span><span class="sxs-lookup"><span data-stu-id="1a8cb-111">Sales Value</span></span>
+* <span data-ttu-id="1a8cb-112">tuloutettavat kustannukset</span><span class="sxs-lookup"><span data-stu-id="1a8cb-112">Recognizable Cost</span></span>
+* <span data-ttu-id="1a8cb-113">valmistumisen prosenttiosuus</span><span class="sxs-lookup"><span data-stu-id="1a8cb-113">Percentage of Completion</span></span>
+* <span data-ttu-id="1a8cb-114">valmis sopimus.</span><span class="sxs-lookup"><span data-stu-id="1a8cb-114">Completed Contract</span></span>
 
-Jos haluat tarkastella tulosta jollakin muulla menetelmällä, voit vaihtaa menetelmää ja laskea KET:n uudelleen. KET:n laskentakertojen määrää ei ole rajoitettu. Ohjelma laskee KET:n mutta ei kirjaa sitä kirjanpitoon. Kun olet laskenut KET:n, voit kirjata sen kirjanpitoon.
+<span data-ttu-id="1a8cb-115">Jos haluat tarkastella tulosta jollakin muulla menetelmällä, voit vaihtaa menetelmää ja laskea KET:n uudelleen.</span><span class="sxs-lookup"><span data-stu-id="1a8cb-115">If you want to view the result using a different method, you can change the method and calculate WIP again.</span></span> <span data-ttu-id="1a8cb-116">KET:n laskentakertojen määrää ei ole rajoitettu.</span><span class="sxs-lookup"><span data-stu-id="1a8cb-116">There is no limit to the number of times that you calculate WIP.</span></span> <span data-ttu-id="1a8cb-117">Ohjelma laskee KET:n mutta ei kirjaa sitä kirjanpitoon.</span><span class="sxs-lookup"><span data-stu-id="1a8cb-117">WIP is only calculated, it does not get posted to the general ledger.</span></span> <span data-ttu-id="1a8cb-118">Kun olet laskenut KET:n, voit kirjata sen kirjanpitoon.</span><span class="sxs-lookup"><span data-stu-id="1a8cb-118">After you have calculated WIP, you can post to the general ledger.</span></span>
 
-## <a name="to-create-a-job-wip-method"></a>Projektin KET-menetelmän luominen
-Voit luoda projektin KET-menetelmän, joka kuvastaa organisaatiosi tarpeita. Luonnin jälkeen voit määrittää sen projektin oletusarvoiseksi KET-laskentamenetelmäksi, jota käytetään organisaatiossa.  
+## <a name="to-create-a-job-wip-method"></a><span data-ttu-id="1a8cb-119">Projektin KET-menetelmän luominen</span><span class="sxs-lookup"><span data-stu-id="1a8cb-119">To create a job WIP method</span></span>
+<span data-ttu-id="1a8cb-120">Voit luoda projektin KET-menetelmän, joka kuvastaa organisaatiosi tarpeita.</span><span class="sxs-lookup"><span data-stu-id="1a8cb-120">You can create a job WIP method that reflects the needs of your organization.</span></span> <span data-ttu-id="1a8cb-121">Luonnin jälkeen voit määrittää sen projektin oletusarvoiseksi KET-laskentamenetelmäksi, jota käytetään organisaatiossa.</span><span class="sxs-lookup"><span data-stu-id="1a8cb-121">After you have created it, you can set it as the default job WIP calculation method that will be used in your organization.</span></span>  
 
-**Huomautus**. Kun olet käyttänyt uutta tapaasi luodaksesi KET-tapahtumat, et voi enää poistaa tai muokata tapaa.  
+<span data-ttu-id="1a8cb-122">**Huomautus**.</span><span class="sxs-lookup"><span data-stu-id="1a8cb-122">**Note**.</span></span> <span data-ttu-id="1a8cb-123">Kun olet käyttänyt uutta tapaasi luodaksesi KET-tapahtumat, et voi enää poistaa tai muokata tapaa.</span><span class="sxs-lookup"><span data-stu-id="1a8cb-123">After you have used your new method to create WIP entries, you cannot delete the method or modify it.</span></span>  
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Projektin KET-menetelmät** ja valitse sitten aiheeseen liittyvä linkki.  
-2. Valitse **Uusi**-toiminto ja täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-3. Sulje ikkuna.   
-4. Määritä tämä uusi menetelmä oletusarvoksi valitsemalla ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoittamalla **Projektienhallinnan asetukset** ja valitsemalla sitten aiheeseen liittyvä linkki.  
-5. Valitse **Oletus KET-menetelmä** -kentässä menetelmä luettelosta.
+1. <span data-ttu-id="1a8cb-124">Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Projektin KET-menetelmät** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="1a8cb-124">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job WIP Methods**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="1a8cb-125">Valitse **Uusi**-toiminto ja täytä tarvittavat kentät.</span><span class="sxs-lookup"><span data-stu-id="1a8cb-125">Choose the **New** action, and then fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. <span data-ttu-id="1a8cb-126">Sulje ikkuna.</span><span class="sxs-lookup"><span data-stu-id="1a8cb-126">Close the window.</span></span>   
+4. <span data-ttu-id="1a8cb-127">Määritä tämä uusi menetelmä oletusarvoksi valitsemalla ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoittamalla **Projektienhallinnan asetukset** ja valitsemalla sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="1a8cb-127">To make this new method the default, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs Setup**, and then choose the related link.</span></span>  
+5. <span data-ttu-id="1a8cb-128">Valitse **Oletus KET-menetelmä** -kentässä menetelmä luettelosta.</span><span class="sxs-lookup"><span data-stu-id="1a8cb-128">In the **Default WIP Method** field, choose the method from the list.</span></span>
 
-## <a name="to-define-a-wip-method-for-a-job"></a>Määritä projektin KET-menetelmä
-Kun luot uuden projektin, määritä, mihin projektin KET-menetelmään se kohdistetaan. Joissakin tapauksissa käytettävissä oleva projektin KET-menetelmä on määritetty oletusasetukseksi.
+## <a name="to-define-a-wip-method-for-a-job"></a><span data-ttu-id="1a8cb-129">Määritä projektin KET-menetelmä</span><span class="sxs-lookup"><span data-stu-id="1a8cb-129">To define a WIP method for a job</span></span>
+<span data-ttu-id="1a8cb-130">Kun luot uuden projektin, määritä, mihin projektin KET-menetelmään se kohdistetaan.</span><span class="sxs-lookup"><span data-stu-id="1a8cb-130">When you create a new job, you must specify which job WIP method that applies.</span></span> <span data-ttu-id="1a8cb-131">Joissakin tapauksissa käytettävissä oleva projektin KET-menetelmä on määritetty oletusasetukseksi.</span><span class="sxs-lookup"><span data-stu-id="1a8cb-131">In some cases, which Job WIP method that you can use has been set up for you as a default.</span></span>
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Projektit** ja valitse sitten aiheeseen liittyvä linkki.
-2. Valitse **Uusi**-toiminto. Lisätietoja on kohdassa [Toimintaohje: Projektien luominen](projects-how-create-jobs.md).  
-3. Valitse **Projektikortti**-ikkunan **KET-menetelmä**-kentässä KET-menetelmä luettelosta. Vaikka oletusmenetelmä olisi määritetty, voit valita tarvittaessa toisen vaihtoehdon.  
+1. <span data-ttu-id="1a8cb-132">Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Projektit** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="1a8cb-132">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs**, and then choose the related link.</span></span>
+2. <span data-ttu-id="1a8cb-133">Valitse **Uusi**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="1a8cb-133">Choose the **New** action.</span></span> <span data-ttu-id="1a8cb-134">Lisätietoja on kohdassa [Toimintaohje: Projektien luominen](projects-how-create-jobs.md).</span><span class="sxs-lookup"><span data-stu-id="1a8cb-134">For more information, see [How to: Create Jobs](projects-how-create-jobs.md).</span></span>  
+3. <span data-ttu-id="1a8cb-135">Valitse **Projektikortti**-ikkunan **KET-menetelmä**-kentässä KET-menetelmä luettelosta.</span><span class="sxs-lookup"><span data-stu-id="1a8cb-135">In the **Job Card** window, in the **WIP Method** field, select a WIP method from the list.</span></span> <span data-ttu-id="1a8cb-136">Vaikka oletusmenetelmä olisi määritetty, voit valita tarvittaessa toisen vaihtoehdon.</span><span class="sxs-lookup"><span data-stu-id="1a8cb-136">If a default method has been defined, you can select another option if needed.</span></span>  
 
-## <a name="to-calculate-wip"></a>Keskeneräisen työn laskeminen
-Voit määrittää tasetileille kirjattavan KET-summan kauden lopussa suoritettavaa raportointia varten. Tähän käytetään **Laske projektin KET** -erätyötä.  
+## <a name="to-calculate-wip"></a><span data-ttu-id="1a8cb-137">Keskeneräisen työn laskeminen</span><span class="sxs-lookup"><span data-stu-id="1a8cb-137">To calculate WIP</span></span>
+<span data-ttu-id="1a8cb-138">Voit määrittää tasetileille kirjattavan KET-summan kauden lopussa suoritettavaa raportointia varten.</span><span class="sxs-lookup"><span data-stu-id="1a8cb-138">You can determine the WIP amount that is to be posted to balance sheet accounts for the period end reporting.</span></span> <span data-ttu-id="1a8cb-139">Tähän käytetään **Laske projektin KET** -erätyötä.</span><span class="sxs-lookup"><span data-stu-id="1a8cb-139">You use the **Job Calculate WIP** batch job to do this.</span></span>  
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Projektin KET-menetelmät** ja valitse sitten aiheeseen liittyvä linkki.  
-2. Valitse **Laske KET** -toiminto.
-3. Täytä **Laske projektin KET** -ikkunassa tarvittavat kentät.
-4. Valitse **OK**-painike.  
-
-> [!NOTE]  
->   Eräajo laskee ainoastaan keskeneräisen työn. Sitä ei kirjata pääkirjanpitoon. Nämä toimet edellyttävät, että suoritat **Kirjaa KET kirjanpitoon** -eräajon, kun olet laskenut keskeneräisen työn. Katso lisätietoja seuraavasta menettelystä.
-
-## <a name="to-post-wip"></a>Keskeneräisen työn kirjaaminen
-Kun keskeneräinen työ on laskettu, voit kirjata sen tasetileille jakson lopun raportointia varten. Tähän käytetään **Kirjaa projektin KET kirjanpitoon** -erätyötä.
-
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Projektin KET-menetelmät** ja valitse sitten aiheeseen liittyvä linkki.  
-2. Täytä **Kirjaa projektin KET kirjanpitoon** -ikkunassa tarvittavat kentät.  
-3. Valitse **OK**-painike.
-
-## <a name="to-view-job-usage-estimates-and-post-updates"></a>Projektin käytön arvioiden tarkasteleminen ja päivitysten kirjaaminen
-Voit katsella projektin käyttöä projektin valmistumiseen asti yhden vaiheen avulla. Tämä tapahtuu käyttämällä **Laske projektin jäljellä oleva käyttö** -eräajoa kaikissa tehtävissä projektin alusta loppuun.  
-
-Näin voit seurata ja vertailla alkuperäisiä arvioita todellisiin tuloksiin. Voit myös tehdä tarvittaessa muutoksia tai uusia tapahtumia. Olet esimerkiksi saattanut arvioida projektin kestoksi 10 tuntia, mutta aikaa on kulunut jo 15 tuntia. Voit lisätä viisi tuntia aiemmin luotuun päiväkirjariviin tai luoda uuden rivin, jolla nämä viisi tuntia raportoidaan ylityönä, joka on toinen työtyyppi. Sitten lasketaan oikeat kustannukset ja hinta, jotka voidaan kirjata päiväkirjaan.  
+1. <span data-ttu-id="1a8cb-140">Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Projektin KET-menetelmät** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="1a8cb-140">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Calculate WIP**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="1a8cb-141">Valitse **Laske KET** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="1a8cb-141">Choose the **Calculate WIP** action.</span></span>
+3. <span data-ttu-id="1a8cb-142">Täytä **Laske projektin KET** -ikkunassa tarvittavat kentät.</span><span class="sxs-lookup"><span data-stu-id="1a8cb-142">In the **Job Calculate WIP** window, fill in the fields as necessary.</span></span>
+4. <span data-ttu-id="1a8cb-143">Valitse **OK**-painike.</span><span class="sxs-lookup"><span data-stu-id="1a8cb-143">Choose the **OK** button.</span></span>  
 
 > [!NOTE]  
->   Nimiketapahtumat luovat nimiketapahtumia ja vähentävät varastomäärää. **Kirjaa varaston kustannus KP:oon** -eräajo siirtää kustannuksen varastosta pääkirjanpitoon. Resurssitapahtumat luovat resurssitapahtumia.  
+>   <span data-ttu-id="1a8cb-144">Eräajo laskee ainoastaan keskeneräisen työn.</span><span class="sxs-lookup"><span data-stu-id="1a8cb-144">The batch job only calculates the WIP.</span></span> <span data-ttu-id="1a8cb-145">Sitä ei kirjata pääkirjanpitoon.</span><span class="sxs-lookup"><span data-stu-id="1a8cb-145">It is not posted to the general ledger.</span></span> <span data-ttu-id="1a8cb-146">Nämä toimet edellyttävät, että suoritat **Kirjaa KET kirjanpitoon** -eräajon, kun olet laskenut keskeneräisen työn.</span><span class="sxs-lookup"><span data-stu-id="1a8cb-146">To do so, you must run the **Post WIP to G/L** batch job when you have calculated the WIP.</span></span> <span data-ttu-id="1a8cb-147">Katso lisätietoja seuraavasta menettelystä.</span><span class="sxs-lookup"><span data-stu-id="1a8cb-147">For more information, see the following procedure.</span></span>
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Projektipäiväkirjat** ja valitse sitten aiheeseen liittyvä linkki.  
-2. Valitse asianmukaisen projektin päiväkirja ja valitse sitten **Laske jäljellä oleva käyttö** -toiminto.  
-3. Syötä **Laske projektin jäljellä oleva käyttö** -ikkunassa päiväkirjaan lisättävä asiakirjan numero ja kirjauspäivämäärä. Valitse sitten **OK**-painike.  
-4. Päivitä tarvittavat muutokset päiväkirjaan.  
-5. Valitse **Kirjaa**.
+## <a name="to-post-wip"></a><span data-ttu-id="1a8cb-148">Keskeneräisen työn kirjaaminen</span><span class="sxs-lookup"><span data-stu-id="1a8cb-148">To post WIP</span></span>
+<span data-ttu-id="1a8cb-149">Kun keskeneräinen työ on laskettu, voit kirjata sen tasetileille jakson lopun raportointia varten.</span><span class="sxs-lookup"><span data-stu-id="1a8cb-149">When you have calculated WIP, you can post it to balance sheet accounts for the period end reporting.</span></span> <span data-ttu-id="1a8cb-150">Tähän käytetään **Kirjaa projektin KET kirjanpitoon** -erätyötä.</span><span class="sxs-lookup"><span data-stu-id="1a8cb-150">You use the **Job Post WIP to G/L** batch job to do this.</span></span>
 
-## <a name="to-view-job-ledger-entries"></a>Projektitapahtumien katsominen
-Kaikki projekteihin liittyvät tapahtumat on tallennettu projektirekistereihin ja numeroitu järjestyksessä numerosta 1 alkaen. Projektirekisterissä voi saada yleiskuvan kaikista projektitapahtumista.    
+1. <span data-ttu-id="1a8cb-151">Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Projektin KET-menetelmät** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="1a8cb-151">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Post WIP to G/L**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="1a8cb-152">Täytä **Kirjaa projektin KET kirjanpitoon** -ikkunassa tarvittavat kentät.</span><span class="sxs-lookup"><span data-stu-id="1a8cb-152">In the **Job Post WIP to G/L** window, fill in the fields as necessary.</span></span>  
+3. <span data-ttu-id="1a8cb-153">Valitse **OK**-painike.</span><span class="sxs-lookup"><span data-stu-id="1a8cb-153">Choose the **OK** button.</span></span>
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Projektipäiväkirjat** ja valitse sitten aiheeseen liittyvä linkki.
-2. Valitse asianmukainen rekisteri ja valitse sitten **Projektikirjaukset**-toiminto.
+## <a name="to-view-job-usage-estimates-and-post-updates"></a><span data-ttu-id="1a8cb-154">Projektin käytön arvioiden tarkasteleminen ja päivitysten kirjaaminen</span><span class="sxs-lookup"><span data-stu-id="1a8cb-154">To view job usage estimates and post updates</span></span>
+<span data-ttu-id="1a8cb-155">Voit katsella projektin käyttöä projektin valmistumiseen asti yhden vaiheen avulla.</span><span class="sxs-lookup"><span data-stu-id="1a8cb-155">You can view job usage up to the completion of a project in one step.</span></span> <span data-ttu-id="1a8cb-156">Tämä tapahtuu käyttämällä **Laske projektin jäljellä oleva käyttö** -eräajoa kaikissa tehtävissä projektin alusta loppuun.</span><span class="sxs-lookup"><span data-stu-id="1a8cb-156">To do so, you use the **Job Calc. Remaining Usage** batch job for all the tasks up to and including the end of a job.</span></span>  
 
-**Projektitapahtumat**-ikkunassa voit tarkastella mihin tahansa projektiin liittyviä tapahtumia.  
+<span data-ttu-id="1a8cb-157">Näin voit seurata ja vertailla alkuperäisiä arvioita todellisiin tuloksiin. Voit myös tehdä tarvittaessa muutoksia tai uusia tapahtumia.</span><span class="sxs-lookup"><span data-stu-id="1a8cb-157">This lets you track and compare your original estimates against actual results and make modifications or new entries as needed.</span></span> <span data-ttu-id="1a8cb-158">Olet esimerkiksi saattanut arvioida projektin kestoksi 10 tuntia, mutta aikaa on kulunut jo 15 tuntia.</span><span class="sxs-lookup"><span data-stu-id="1a8cb-158">For example, you may have estimated that a job required 10 hours, and to date, it has taken 15 hours.</span></span> <span data-ttu-id="1a8cb-159">Voit lisätä viisi tuntia aiemmin luotuun päiväkirjariviin tai luoda uuden rivin, jolla nämä viisi tuntia raportoidaan ylityönä, joka on toinen työtyyppi.</span><span class="sxs-lookup"><span data-stu-id="1a8cb-159">You can add the extra five hours to the existing journal line or create a new journal line to report these five hours as overtime, which is another work type.</span></span> <span data-ttu-id="1a8cb-160">Sitten lasketaan oikeat kustannukset ja hinta, jotka voidaan kirjata päiväkirjaan.</span><span class="sxs-lookup"><span data-stu-id="1a8cb-160">The appropriate cost and price are calculated, and you can then post to the journal.</span></span>  
 
-## <a name="see-also"></a>Katso myös
-[Projektien hallinta](projects-manage-projects.md)  
-[Rahoitus](finance.md)  
-[Osto](purchasing-manage-purchasing.md)         
-[Myynti](sales-manage-sales.md)      
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+> [!NOTE]  
+>   <span data-ttu-id="1a8cb-161">Nimiketapahtumat luovat nimiketapahtumia ja vähentävät varastomäärää.</span><span class="sxs-lookup"><span data-stu-id="1a8cb-161">Item entries create item ledger entries and reduce the inventory quantity.</span></span> <span data-ttu-id="1a8cb-162">**Kirjaa varaston kustannus KP:oon** -eräajo siirtää kustannuksen varastosta pääkirjanpitoon.</span><span class="sxs-lookup"><span data-stu-id="1a8cb-162">The **Post Inventory Cost to G/L** batch job transfers the cost from inventory to the general ledger.</span></span> <span data-ttu-id="1a8cb-163">Resurssitapahtumat luovat resurssitapahtumia.</span><span class="sxs-lookup"><span data-stu-id="1a8cb-163">Resource entries create resource ledger entries.</span></span>  
+
+1. <span data-ttu-id="1a8cb-164">Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Projektipäiväkirjat** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="1a8cb-164">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Journals**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="1a8cb-165">Valitse asianmukaisen projektin päiväkirja ja valitse sitten **Laske jäljellä oleva käyttö** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="1a8cb-165">Select a relevant job journal, and then choose the **Calc. Remaining Usage** action.</span></span>  
+3. <span data-ttu-id="1a8cb-166">Syötä **Laske projektin jäljellä oleva käyttö** -ikkunassa päiväkirjaan lisättävä asiakirjan numero ja kirjauspäivämäärä. Valitse sitten **OK**-painike.</span><span class="sxs-lookup"><span data-stu-id="1a8cb-166">In the **Job Calc. Remaining Usage** window, enter the document number and posting date that is to be inserted in the journal, and then choose the **OK** button.</span></span>  
+4. <span data-ttu-id="1a8cb-167">Päivitä tarvittavat muutokset päiväkirjaan.</span><span class="sxs-lookup"><span data-stu-id="1a8cb-167">Update the journal with any modifications that may be needed.</span></span>  
+5. <span data-ttu-id="1a8cb-168">Valitse **Kirjaa**.</span><span class="sxs-lookup"><span data-stu-id="1a8cb-168">Choose the **Post**.</span></span>
+
+## <a name="to-view-job-ledger-entries"></a><span data-ttu-id="1a8cb-169">Projektitapahtumien katsominen</span><span class="sxs-lookup"><span data-stu-id="1a8cb-169">To view job ledger entries</span></span>
+<span data-ttu-id="1a8cb-170">Kaikki projekteihin liittyvät tapahtumat on tallennettu projektirekistereihin ja numeroitu järjestyksessä numerosta 1 alkaen.</span><span class="sxs-lookup"><span data-stu-id="1a8cb-170">All job-related entries are recorded in job registers and are numbered sequentially, starting with 1.</span></span> <span data-ttu-id="1a8cb-171">Projektirekisterissä voi saada yleiskuvan kaikista projektitapahtumista.</span><span class="sxs-lookup"><span data-stu-id="1a8cb-171">From the job register, you can get an overview of all job ledger entries.</span></span>    
+
+1. <span data-ttu-id="1a8cb-172">Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Projektipäiväkirjat** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="1a8cb-172">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Registers**, and then choose the related link.</span></span>
+2. <span data-ttu-id="1a8cb-173">Valitse asianmukainen rekisteri ja valitse sitten **Projektikirjaukset**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="1a8cb-173">Select a relevant register, and then choose **Job Ledger** action.</span></span>
+
+<span data-ttu-id="1a8cb-174">**Projektitapahtumat**-ikkunassa voit tarkastella mihin tahansa projektiin liittyviä tapahtumia.</span><span class="sxs-lookup"><span data-stu-id="1a8cb-174">In the **Job Ledger Entries** window you can review the entries that are associated with any job.</span></span>  
+
+## <a name="see-also"></a><span data-ttu-id="1a8cb-175">Katso myös</span><span class="sxs-lookup"><span data-stu-id="1a8cb-175">See Also</span></span>
+[<span data-ttu-id="1a8cb-176">Projektien hallinta</span><span class="sxs-lookup"><span data-stu-id="1a8cb-176">Manage Projects</span></span>](projects-manage-projects.md)  
+[<span data-ttu-id="1a8cb-177">Rahoitus</span><span class="sxs-lookup"><span data-stu-id="1a8cb-177">Finance</span></span>](finance.md)  
+<span data-ttu-id="1a8cb-178">[Osto](purchasing-manage-purchasing.md)       </span><span class="sxs-lookup"><span data-stu-id="1a8cb-178">[Purchasing](purchasing-manage-purchasing.md)       </span></span>  
+<span data-ttu-id="1a8cb-179">[Myynti](sales-manage-sales.md)    </span><span class="sxs-lookup"><span data-stu-id="1a8cb-179">[Sales](sales-manage-sales.md)    </span></span>  
+<span data-ttu-id="1a8cb-180">[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="1a8cb-180">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
 

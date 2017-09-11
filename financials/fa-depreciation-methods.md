@@ -16,346 +16,346 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 6a32ddc5fd8202507b66a30fabd2cbd6b5ab91eb
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/11/2017
 
 
 ---
-# <a name="depreciation-methods"></a>Poistotavat
-Saatavilla olevia poistomenetelmiä on kahdeksan:  
+# <a name="depreciation-methods"></a><span data-ttu-id="b5749-103">Poistotavat</span><span class="sxs-lookup"><span data-stu-id="b5749-103">Depreciation Methods</span></span>
+<span data-ttu-id="b5749-104">Saatavilla olevia poistomenetelmiä on kahdeksan:</span><span class="sxs-lookup"><span data-stu-id="b5749-104">There are eight methods of depreciation available:</span></span>  
 
-* Tasapoisto  
-* Menojäännöspoisto 1  
-* Menojäännöspoisto 2  
-* MJP1/TP  
-* MJP2/TP  
-* Käyttäjäkohtainen  
-* Manuaalinen  
-
-  > [!NOTE]  
->   Tätä menetelmää voidaan käyttää omaisuuserille, joille ei tehdä poistoja, kuten maa-alueille. Poisto on vietävä käyttöomaisuuserän KP-päiväkirjaan. **Laske poisto** -eräajo jättää huomiotta tätä poistomenetelmää käyttävät käyttöomaisuuserät.  
-* Puolivuotissopimus  
+* <span data-ttu-id="b5749-105">Tasapoisto</span><span class="sxs-lookup"><span data-stu-id="b5749-105">Straight-Line</span></span>  
+* <span data-ttu-id="b5749-106">Menojäännöspoisto 1</span><span class="sxs-lookup"><span data-stu-id="b5749-106">Declining-Balance 1</span></span>  
+* <span data-ttu-id="b5749-107">Menojäännöspoisto 2</span><span class="sxs-lookup"><span data-stu-id="b5749-107">Declining-Balance 2</span></span>  
+* <span data-ttu-id="b5749-108">MJP1/TP</span><span class="sxs-lookup"><span data-stu-id="b5749-108">DB1/SL</span></span>  
+* <span data-ttu-id="b5749-109">MJP2/TP</span><span class="sxs-lookup"><span data-stu-id="b5749-109">DB2/SL</span></span>  
+* <span data-ttu-id="b5749-110">Käyttäjäkohtainen</span><span class="sxs-lookup"><span data-stu-id="b5749-110">User-defined</span></span>  
+* <span data-ttu-id="b5749-111">Manuaalinen</span><span class="sxs-lookup"><span data-stu-id="b5749-111">Manual</span></span>  
 
   > [!NOTE]  
->    Tätä menetelmää käytettäessä käyttöomaisuudesta poistetaan joka vuosi sama summa.  
+>   <span data-ttu-id="b5749-112">Tätä menetelmää voidaan käyttää omaisuuserille, joille ei tehdä poistoja, kuten maa-alueille.</span><span class="sxs-lookup"><span data-stu-id="b5749-112">Use this method for assets that are not subject to depreciation, for example, land.</span></span> <span data-ttu-id="b5749-113">Poisto on vietävä käyttöomaisuuserän KP-päiväkirjaan.</span><span class="sxs-lookup"><span data-stu-id="b5749-113">You must enter depreciation in the fixed asset G/L journal.</span></span> <span data-ttu-id="b5749-114">**Laske poisto** -eräajo jättää huomiotta tätä poistomenetelmää käyttävät käyttöomaisuuserät.</span><span class="sxs-lookup"><span data-stu-id="b5749-114">The **Calculate Depreciation** batch job omits fixed assets that use this depreciation method.</span></span>  
+* <span data-ttu-id="b5749-115">Puolivuotissopimus</span><span class="sxs-lookup"><span data-stu-id="b5749-115">Half-Year Convention</span></span>  
 
-## <a name="straight-line-depreciation"></a>Tasapoisto
-Tasapoistomenetelmää käytettäessä käyttöomaisuuden poistokirjaan on määritettävä jokin seuraavista vaihtoehdoista:  
+  > [!NOTE]  
+>    <span data-ttu-id="b5749-116">Tätä menetelmää käytettäessä käyttöomaisuudesta poistetaan joka vuosi sama summa.</span><span class="sxs-lookup"><span data-stu-id="b5749-116">When you use this method, a fixed asset is depreciated by the same amount each year.</span></span>  
 
-* Poistojakso (vuotta tai kuukautta) tai poiston lopetuspäivämäärä  
-* Kiinteä vuosittainen prosentti  
-* Kiinteä vuosittainen summa  
-* Poistojakso  
+## <a name="straight-line-depreciation"></a><span data-ttu-id="b5749-117">Tasapoisto</span><span class="sxs-lookup"><span data-stu-id="b5749-117">Straight-Line Depreciation</span></span>
+<span data-ttu-id="b5749-118">Tasapoistomenetelmää käytettäessä käyttöomaisuuden poistokirjaan on määritettävä jokin seuraavista vaihtoehdoista:</span><span class="sxs-lookup"><span data-stu-id="b5749-118">When you use the straight-line method, you must specify one of the following options in the fixed asset depreciation book:</span></span>  
 
-### <a name="depreciation-period"></a>Poistojakso
-Jos annat poistojakson (poistovuosien tai poistokuukausien lukumäärän tai poiston lopetuspäivämäärän), poistosumma lasketaan seuraavalla kaavalla:  
+* <span data-ttu-id="b5749-119">Poistojakso (vuotta tai kuukautta) tai poiston lopetuspäivämäärä</span><span class="sxs-lookup"><span data-stu-id="b5749-119">The depreciation period (years or months) or a depreciation ending date</span></span>  
+* <span data-ttu-id="b5749-120">Kiinteä vuosittainen prosentti</span><span class="sxs-lookup"><span data-stu-id="b5749-120">A fixed yearly percentage</span></span>  
+* <span data-ttu-id="b5749-121">Kiinteä vuosittainen summa</span><span class="sxs-lookup"><span data-stu-id="b5749-121">A fixed yearly amount</span></span>  
+* <span data-ttu-id="b5749-122">Poistojakso</span><span class="sxs-lookup"><span data-stu-id="b5749-122">Depreciation period</span></span>  
 
-*Poistosumma = ((Kirjanpitoarvo - Jäännösarvo) x Poistopäivien lukumäärä) / Jäljellä olevat poistopäivät*  
+### <a name="depreciation-period"></a><span data-ttu-id="b5749-123">Poistojakso</span><span class="sxs-lookup"><span data-stu-id="b5749-123">Depreciation Period</span></span>
+<span data-ttu-id="b5749-124">Jos annat poistojakson (poistovuosien tai poistokuukausien lukumäärän tai poiston lopetuspäivämäärän), poistosumma lasketaan seuraavalla kaavalla:</span><span class="sxs-lookup"><span data-stu-id="b5749-124">If you enter the depreciation period (the number of depreciation years, the number of depreciation months, or the depreciation ending date), the following formula calculates the depreciation amount:</span></span>  
 
-Jäljellä oleviksi poistopäiviksi lasketaan poistopäivien lukumäärä miinus poiston aloituspäivän ja viimeisen käyttöomaisuustapahtuman päivän välisten päivien lukumäärä.  
+<span data-ttu-id="b5749-125">*Poistosumma = ((Kirjanpitoarvo - Jäännösarvo) x Poistopäivien lukumäärä) / Jäljellä olevat poistopäivät*</span><span class="sxs-lookup"><span data-stu-id="b5749-125">*Depreciation Amount = ((Book value - Salvage Value) x Number of Depreciation Days) / Remaining Depreciation Days*</span></span>  
 
-Kirjanpitoarvoa voidaan vähentää kirjatulla arvonkorotuksella, arvonalennuksella, mukautettu 1- tai mukautettu 2 -summilla riippuen siitä, onko **Sisällytä poistolaskentaan** -kentästä poistettu aktivointi ja onko **Kirjanpitoarvon osa** -kenttä aktivoitu **KO:n kirjaustyypin asetukset** -ikkunassa. Laskenta takaa sen, että käyttöomaisuudelle tehdään kokonaispoisto poiston lopetuspäivämääränä.  
+<span data-ttu-id="b5749-126">Jäljellä oleviksi poistopäiviksi lasketaan poistopäivien lukumäärä miinus poiston aloituspäivän ja viimeisen käyttöomaisuustapahtuman päivän välisten päivien lukumäärä.</span><span class="sxs-lookup"><span data-stu-id="b5749-126">Remaining depreciation days are calculated as the number of depreciation days minus the number of days between the depreciation starting date and the last fixed asset entry date.</span></span>  
 
-### <a name="fixed-yearly-percentage"></a>Kiinteä vuosittainen prosentti
-Jos syötät kiinteän vuosittaisen prosentin, ohjelma käyttää poistosumman laskemiseen seuraavaa laskukaavaa:  
+<span data-ttu-id="b5749-127">Kirjanpitoarvoa voidaan vähentää kirjatulla arvonkorotuksella, arvonalennuksella, mukautettu 1- tai mukautettu 2 -summilla riippuen siitä, onko **Sisällytä poistolaskentaan** -kentästä poistettu aktivointi ja onko **Kirjanpitoarvon osa** -kenttä aktivoitu **KO:n kirjaustyypin asetukset** -ikkunassa.</span><span class="sxs-lookup"><span data-stu-id="b5749-127">Book value may be reduced by posted appreciation, write-down, custom 1 or custom 2 amounts, depending on whether the **Include in Depr. Calculation** field is deactivated and whether the **Part of Book Value** field is activated in the **FA Posting Type Setup** window.</span></span> <span data-ttu-id="b5749-128">Laskenta takaa sen, että käyttöomaisuudelle tehdään kokonaispoisto poiston lopetuspäivämääränä.</span><span class="sxs-lookup"><span data-stu-id="b5749-128">This calculation ensures that the fixed asset is fully depreciated at the depreciation ending date.</span></span>  
 
-Poistosumma = (Tasapoisto-% x Poistopohja x Poistopäivien lkm) / (100 x 360)  
+### <a name="fixed-yearly-percentage"></a><span data-ttu-id="b5749-129">Kiinteä vuosittainen prosentti</span><span class="sxs-lookup"><span data-stu-id="b5749-129">Fixed Yearly Percentage</span></span>
+<span data-ttu-id="b5749-130">Jos syötät kiinteän vuosittaisen prosentin, ohjelma käyttää poistosumman laskemiseen seuraavaa laskukaavaa:</span><span class="sxs-lookup"><span data-stu-id="b5749-130">If you enter a fixed yearly percentage, the program uses the following formula to calculate the depreciation amount:</span></span>  
 
-### <a name="fixed-yearly-amount"></a>Kiinteä vuosittainen summa
-Jos syötät kiinteän vuosittaisen summan, ohjelma käyttää poistosumman laskemiseen seuraavaa laskukaavaa:  
+<span data-ttu-id="b5749-131">Poistosumma = (Tasapoisto-% x Poistopohja x Poistopäivien</span><span class="sxs-lookup"><span data-stu-id="b5749-131">Depreciation Amount = (Straight-Line % x Depreciable Basis x Number of Depr.</span></span> <span data-ttu-id="b5749-132">lkm) / (100 x 360)</span><span class="sxs-lookup"><span data-stu-id="b5749-132">Days) / (100 x 360)</span></span>  
 
-Poistosumma = (Kiinteä poistosumma x Poistopäivien lukumäärä) / 360  
+### <a name="fixed-yearly-amount"></a><span data-ttu-id="b5749-133">Kiinteä vuosittainen summa</span><span class="sxs-lookup"><span data-stu-id="b5749-133">Fixed Yearly Amount</span></span>
+<span data-ttu-id="b5749-134">Jos syötät kiinteän vuosittaisen summan, ohjelma käyttää poistosumman laskemiseen seuraavaa laskukaavaa:</span><span class="sxs-lookup"><span data-stu-id="b5749-134">If you enter a fixed yearly amount, the program uses this formula to calculate the depreciation amount:</span></span>  
 
-### <a name="example---straight-line-depreciation"></a>Esimerkki - Tasapoisto
-Käyttöomaisuuden hankintameno on PVA 100 000. Arvioitu käyttöikä on kahdeksan vuotta. **Laske poisto** -eräajo suoritetaan kaksi kertaa vuodessa.  
+<span data-ttu-id="b5749-135">Poistosumma = (Kiinteä poistosumma x Poistopäivien lukumäärä) / 360</span><span class="sxs-lookup"><span data-stu-id="b5749-135">Depreciation Amount = (Fixed Depreciation Amount x Number of Depreciation Days) / 360</span></span>  
 
-Tässä esimerkissä käyttöomaisuustapahtuma näyttää seuraavalta:  
+### <a name="example---straight-line-depreciation"></a><span data-ttu-id="b5749-136">Esimerkki - Tasapoisto</span><span class="sxs-lookup"><span data-stu-id="b5749-136">Example - Straight-Line Depreciation</span></span>
+<span data-ttu-id="b5749-137">Käyttöomaisuuden hankintameno on PVA 100 000.</span><span class="sxs-lookup"><span data-stu-id="b5749-137">A fixed asset has an acquisition cost of LCY 100,000.</span></span> <span data-ttu-id="b5749-138">Arvioitu käyttöikä on kahdeksan vuotta.</span><span class="sxs-lookup"><span data-stu-id="b5749-138">The estimated life is eight years.</span></span> <span data-ttu-id="b5749-139">**Laske poisto** -eräajo suoritetaan kaksi kertaa vuodessa.</span><span class="sxs-lookup"><span data-stu-id="b5749-139">The **Calculate Depreciation** batch job is run biannually.</span></span>  
 
-| Pvm | KO:n kirjaustyyppi | Päivää | Summa | Kirjanpitoarvo |
+<span data-ttu-id="b5749-140">Tässä esimerkissä käyttöomaisuustapahtuma näyttää seuraavalta:</span><span class="sxs-lookup"><span data-stu-id="b5749-140">For this example, the fixed asset ledger entry looks like this:</span></span>  
+
+| <span data-ttu-id="b5749-141">Pvm</span><span class="sxs-lookup"><span data-stu-id="b5749-141">Date</span></span> | <span data-ttu-id="b5749-142">KO:n kirjaustyyppi</span><span class="sxs-lookup"><span data-stu-id="b5749-142">FA Posting Type</span></span> | <span data-ttu-id="b5749-143">Päivää</span><span class="sxs-lookup"><span data-stu-id="b5749-143">Days</span></span> | <span data-ttu-id="b5749-144">Summa</span><span class="sxs-lookup"><span data-stu-id="b5749-144">Amount</span></span> | <span data-ttu-id="b5749-145">Kirjanpitoarvo</span><span class="sxs-lookup"><span data-stu-id="b5749-145">Book Value</span></span> |
 | --- | --- | --- | --- | --- |
-| 1.1.10 |Hankintameno |* |100,000.00 |100,000.00 |
-| 30.6.10 |Arvonalennus |180 |-6.250,00 |93,750.00 |
-| 31.12.10 |Arvonalennus |180 |-6.250,00 |87,500.00 |
-| 30.6.11 |Arvonalennus |180 |-6.250,00 |81,250.00 |
-| 31.12.11 |Arvonalennus |180 |-6.250,00 |75,000.00 |
-| 30.6.17 |Arvonalennus |180 |-6.250,00 |6,250.00 |
-| 31.12.17 |Arvonalennus |180 |-6.250,00 |0 |
+| <span data-ttu-id="b5749-146">1.1.10</span><span class="sxs-lookup"><span data-stu-id="b5749-146">01/01/10</span></span> |<span data-ttu-id="b5749-147">Hankintameno</span><span class="sxs-lookup"><span data-stu-id="b5749-147">Acquisition Cost</span></span> |* |<span data-ttu-id="b5749-148">100,000.00</span><span class="sxs-lookup"><span data-stu-id="b5749-148">100,000.00</span></span> |<span data-ttu-id="b5749-149">100,000.00</span><span class="sxs-lookup"><span data-stu-id="b5749-149">100,000.00</span></span> |
+| <span data-ttu-id="b5749-150">30.6.10</span><span class="sxs-lookup"><span data-stu-id="b5749-150">06/30/10</span></span> |<span data-ttu-id="b5749-151">Arvonalennus</span><span class="sxs-lookup"><span data-stu-id="b5749-151">Depreciation</span></span> |<span data-ttu-id="b5749-152">180</span><span class="sxs-lookup"><span data-stu-id="b5749-152">180</span></span> |<span data-ttu-id="b5749-153">-6.250,00</span><span class="sxs-lookup"><span data-stu-id="b5749-153">-6,250.00</span></span> |<span data-ttu-id="b5749-154">93,750.00</span><span class="sxs-lookup"><span data-stu-id="b5749-154">93,750.00</span></span> |
+| <span data-ttu-id="b5749-155">31.12.10</span><span class="sxs-lookup"><span data-stu-id="b5749-155">12/31/10</span></span> |<span data-ttu-id="b5749-156">Arvonalennus</span><span class="sxs-lookup"><span data-stu-id="b5749-156">Depreciation</span></span> |<span data-ttu-id="b5749-157">180</span><span class="sxs-lookup"><span data-stu-id="b5749-157">180</span></span> |<span data-ttu-id="b5749-158">-6.250,00</span><span class="sxs-lookup"><span data-stu-id="b5749-158">-6,250.00</span></span> |<span data-ttu-id="b5749-159">87,500.00</span><span class="sxs-lookup"><span data-stu-id="b5749-159">87,500.00</span></span> |
+| <span data-ttu-id="b5749-160">30.6.11</span><span class="sxs-lookup"><span data-stu-id="b5749-160">06/30/11</span></span> |<span data-ttu-id="b5749-161">Arvonalennus</span><span class="sxs-lookup"><span data-stu-id="b5749-161">Depreciation</span></span> |<span data-ttu-id="b5749-162">180</span><span class="sxs-lookup"><span data-stu-id="b5749-162">180</span></span> |<span data-ttu-id="b5749-163">-6.250,00</span><span class="sxs-lookup"><span data-stu-id="b5749-163">-6,250.00</span></span> |<span data-ttu-id="b5749-164">81,250.00</span><span class="sxs-lookup"><span data-stu-id="b5749-164">81,250.00</span></span> |
+| <span data-ttu-id="b5749-165">31.12.11</span><span class="sxs-lookup"><span data-stu-id="b5749-165">12/31/11</span></span> |<span data-ttu-id="b5749-166">Arvonalennus</span><span class="sxs-lookup"><span data-stu-id="b5749-166">Depreciation</span></span> |<span data-ttu-id="b5749-167">180</span><span class="sxs-lookup"><span data-stu-id="b5749-167">180</span></span> |<span data-ttu-id="b5749-168">-6.250,00</span><span class="sxs-lookup"><span data-stu-id="b5749-168">-6,250.00</span></span> |<span data-ttu-id="b5749-169">75,000.00</span><span class="sxs-lookup"><span data-stu-id="b5749-169">75,000.00</span></span> |
+| <span data-ttu-id="b5749-170">30.6.17</span><span class="sxs-lookup"><span data-stu-id="b5749-170">06/30/17</span></span> |<span data-ttu-id="b5749-171">Arvonalennus</span><span class="sxs-lookup"><span data-stu-id="b5749-171">Depreciation</span></span> |<span data-ttu-id="b5749-172">180</span><span class="sxs-lookup"><span data-stu-id="b5749-172">180</span></span> |<span data-ttu-id="b5749-173">-6.250,00</span><span class="sxs-lookup"><span data-stu-id="b5749-173">-6,250.00</span></span> |<span data-ttu-id="b5749-174">6,250.00</span><span class="sxs-lookup"><span data-stu-id="b5749-174">6,250.00</span></span> |
+| <span data-ttu-id="b5749-175">31.12.17</span><span class="sxs-lookup"><span data-stu-id="b5749-175">12/31/17</span></span> |<span data-ttu-id="b5749-176">Arvonalennus</span><span class="sxs-lookup"><span data-stu-id="b5749-176">Depreciation</span></span> |<span data-ttu-id="b5749-177">180</span><span class="sxs-lookup"><span data-stu-id="b5749-177">180</span></span> |<span data-ttu-id="b5749-178">-6.250,00</span><span class="sxs-lookup"><span data-stu-id="b5749-178">-6,250.00</span></span> |<span data-ttu-id="b5749-179">0</span><span class="sxs-lookup"><span data-stu-id="b5749-179">0</span></span> |
 
-* Poiston aloituspvm  
+* <span data-ttu-id="b5749-180">Poiston aloituspvm</span><span class="sxs-lookup"><span data-stu-id="b5749-180">Depreciation starting date</span></span>  
 
-## <a name="declining-balance-1-depreciation"></a>Menojäännöspoisto 1 -poisto
-Tämä degressiivinen poistomenetelmä kohdistaa suurimman osan omaisuuserän kustannuksesta sen eliniän ensimmäisille vuosille. Tätä menetelmää käytettäessä tulee syöttää kiinteä vuosiprosentti.  
+## <a name="declining-balance-1-depreciation"></a><span data-ttu-id="b5749-181">Menojäännöspoisto 1 -poisto</span><span class="sxs-lookup"><span data-stu-id="b5749-181">Declining-Balance 1 Depreciation</span></span>
+<span data-ttu-id="b5749-182">Tämä degressiivinen poistomenetelmä kohdistaa suurimman osan omaisuuserän kustannuksesta sen eliniän ensimmäisille vuosille.</span><span class="sxs-lookup"><span data-stu-id="b5749-182">This accelerated depreciation method allocates the largest portion of the cost of an asset to the early years of its useful lifetime.</span></span> <span data-ttu-id="b5749-183">Tätä menetelmää käytettäessä tulee syöttää kiinteä vuosiprosentti.</span><span class="sxs-lookup"><span data-stu-id="b5749-183">If you use this method, you must enter a fixed yearly percentage.</span></span>  
 
-Poistosumma lasketaan seuraavalla kaavalla:  
+<span data-ttu-id="b5749-184">Poistosumma lasketaan seuraavalla kaavalla:</span><span class="sxs-lookup"><span data-stu-id="b5749-184">The following formula calculates depreciation amounts:</span></span>  
 
-*Poistosumma = (Menojäännöspoisto-% x Poistopäivien lkm x Poistopohja) / (100 x 360)*  
+<span data-ttu-id="b5749-185">*Poistosumma = (Menojäännöspoisto-% x Poistopäivien lkm x Poistopohja) / (100 x 360)*</span><span class="sxs-lookup"><span data-stu-id="b5749-185">*Depreciation Amount = (Declining-Bal. % x Number of Depreciation Days x Depr. Basis) / (100 x 360)*</span></span>  
 
-Poistopohjaksi lasketaan kirjanpitoarvo vähennettynä kirjatulla poistolla nykyisen tilikauden aloituspäivämäärästä lähtien.  
+<span data-ttu-id="b5749-186">Poistopohjaksi lasketaan kirjanpitoarvo vähennettynä kirjatulla poistolla nykyisen tilikauden aloituspäivämäärästä lähtien.</span><span class="sxs-lookup"><span data-stu-id="b5749-186">The depreciable basis is calculated as the book value less posted depreciation since the starting date of the current fiscal year.</span></span>  
 
-Kirjattu poistosumma voi sisältää tapahtumia, joilla on eri kirjaustyyppejä (arvonalennus, mukautettu 1 ja mukautettu 2), jotka on kirjattu nykyisen tilikauden aloituspäivämäärästä lähtien. Nämä kirjaustyypit sisältyvät kirjattuun poistosummaan, jos **Poistotyyppi**- ja **Osa kirjanpitoarvosta** -kentissä **KO:n kirjaustyypin asetukset** -ikkunassa on rasti.  
+<span data-ttu-id="b5749-187">Kirjattu poistosumma voi sisältää tapahtumia, joilla on eri kirjaustyyppejä (arvonalennus, mukautettu 1 ja mukautettu 2), jotka on kirjattu nykyisen tilikauden aloituspäivämäärästä lähtien.</span><span class="sxs-lookup"><span data-stu-id="b5749-187">The posted depreciation amount can contain entries with various posting types (write-down, custom1, and custom2) posted since the starting date of the current fiscal year.</span></span> <span data-ttu-id="b5749-188">Nämä kirjaustyypit sisältyvät kirjattuun poistosummaan, jos **Poistotyyppi**- ja **Osa kirjanpitoarvosta** -kentissä **KO:n kirjaustyypin asetukset** -ikkunassa on rasti.</span><span class="sxs-lookup"><span data-stu-id="b5749-188">These posting types are included in the posted depreciation amount if there are check marks in the **Depreciation Type** and the **Part of Book Value** fields in the **FA Posting Type Setup** window.</span></span>  
 
-### <a name="example---declining-balance-1-depreciation"></a>Esimerkki - Menojäännöspoisto 1 -poisto
-Käyttöomaisuuden hankintameno on PVA 100 000. **Menojäännöspoisto-%** -kentässä on arvo 25. **Laske poisto** -eräajo suoritetaan kaksi kertaa vuodessa.  
+### <a name="example---declining-balance-1-depreciation"></a><span data-ttu-id="b5749-189">Esimerkki - Menojäännöspoisto 1 -poisto</span><span class="sxs-lookup"><span data-stu-id="b5749-189">Example - Declining-Balance 1 Depreciation</span></span>
+<span data-ttu-id="b5749-190">Käyttöomaisuuden hankintameno on PVA 100 000.</span><span class="sxs-lookup"><span data-stu-id="b5749-190">A fixed asset has an acquisition cost of LCY 100,000.</span></span> <span data-ttu-id="b5749-191">**Menojäännöspoisto-%** -kentässä on arvo 25.</span><span class="sxs-lookup"><span data-stu-id="b5749-191">The **Declining-Balance %** field is 25.</span></span> <span data-ttu-id="b5749-192">**Laske poisto** -eräajo suoritetaan kaksi kertaa vuodessa.</span><span class="sxs-lookup"><span data-stu-id="b5749-192">The **Calculate Depreciation** batch job is run biannually.</span></span>  
 
-Seuraavassa taulukossa on esimerkkejä käyttöomaisuustapahtumista.  
+<span data-ttu-id="b5749-193">Seuraavassa taulukossa on esimerkkejä käyttöomaisuustapahtumista.</span><span class="sxs-lookup"><span data-stu-id="b5749-193">The following table shows how the fixed asset ledger entries look.</span></span>  
 
-| Pvm | KO:n kirjaustyyppi | Päivää | Summa | Kirjanpitoarvo |
+| <span data-ttu-id="b5749-194">Pvm</span><span class="sxs-lookup"><span data-stu-id="b5749-194">Date</span></span> | <span data-ttu-id="b5749-195">KO:n kirjaustyyppi</span><span class="sxs-lookup"><span data-stu-id="b5749-195">FA Posting Type</span></span> | <span data-ttu-id="b5749-196">Päivää</span><span class="sxs-lookup"><span data-stu-id="b5749-196">Days</span></span> | <span data-ttu-id="b5749-197">Summa</span><span class="sxs-lookup"><span data-stu-id="b5749-197">Amount</span></span> | <span data-ttu-id="b5749-198">Kirjanpitoarvo</span><span class="sxs-lookup"><span data-stu-id="b5749-198">Book Value</span></span> |
 | --- | --- | --- | --- | --- |
-| 1.1.10 |Hankintamenot |* |100,000.00 |100,000.00 |
-| 30.6.10 |Arvonalennus |180 |-12.500,00 |87,500.00 |
-| 31.12.10 |Arvonalennus |180 |-12.500,00 |75,000.00 |
-| 30.6.11 |Arvonalennus |180 |-9.375,00 |65,625.00 |
-| 31.12.11 |Arvonalennus |180 |-9.375,00 |56,250.00 |
-| 30.6.12 |Arvonalennus |180 |-7.031,25 |49,218.75 |
-| 31.12.12 |Arvonalennus |180 |-7.031,25 |42,187.50 |
-| 30.6.13 |Arvonalennus |180 |-5.273,44 |36,914.06 |
-| 31.12.13 |Arvonalennus |180 |-5.273,44 |31,640.62 |
-| 30.6.14 |Arvonalennus |180 |-3.955,08 |27,685.54 |
-| 31.12.14 |Arvonalennus |180 |-3.955,08 |23,730.46 |
+| <span data-ttu-id="b5749-199">1.1.10</span><span class="sxs-lookup"><span data-stu-id="b5749-199">01/01/10</span></span> |<span data-ttu-id="b5749-200">Hankintamenot</span><span class="sxs-lookup"><span data-stu-id="b5749-200">Acquisition Costs</span></span> |* |<span data-ttu-id="b5749-201">100,000.00</span><span class="sxs-lookup"><span data-stu-id="b5749-201">100,000.00</span></span> |<span data-ttu-id="b5749-202">100,000.00</span><span class="sxs-lookup"><span data-stu-id="b5749-202">100,000.00</span></span> |
+| <span data-ttu-id="b5749-203">30.6.10</span><span class="sxs-lookup"><span data-stu-id="b5749-203">06/30/10</span></span> |<span data-ttu-id="b5749-204">Arvonalennus</span><span class="sxs-lookup"><span data-stu-id="b5749-204">Depreciation</span></span> |<span data-ttu-id="b5749-205">180</span><span class="sxs-lookup"><span data-stu-id="b5749-205">180</span></span> |<span data-ttu-id="b5749-206">-12.500,00</span><span class="sxs-lookup"><span data-stu-id="b5749-206">-12,500.00</span></span> |<span data-ttu-id="b5749-207">87,500.00</span><span class="sxs-lookup"><span data-stu-id="b5749-207">87,500.00</span></span> |
+| <span data-ttu-id="b5749-208">31.12.10</span><span class="sxs-lookup"><span data-stu-id="b5749-208">12/31/10</span></span> |<span data-ttu-id="b5749-209">Arvonalennus</span><span class="sxs-lookup"><span data-stu-id="b5749-209">Depreciation</span></span> |<span data-ttu-id="b5749-210">180</span><span class="sxs-lookup"><span data-stu-id="b5749-210">180</span></span> |<span data-ttu-id="b5749-211">-12.500,00</span><span class="sxs-lookup"><span data-stu-id="b5749-211">-12,500.00</span></span> |<span data-ttu-id="b5749-212">75,000.00</span><span class="sxs-lookup"><span data-stu-id="b5749-212">75,000.00</span></span> |
+| <span data-ttu-id="b5749-213">30.6.11</span><span class="sxs-lookup"><span data-stu-id="b5749-213">06/30/11</span></span> |<span data-ttu-id="b5749-214">Arvonalennus</span><span class="sxs-lookup"><span data-stu-id="b5749-214">Depreciation</span></span> |<span data-ttu-id="b5749-215">180</span><span class="sxs-lookup"><span data-stu-id="b5749-215">180</span></span> |<span data-ttu-id="b5749-216">-9.375,00</span><span class="sxs-lookup"><span data-stu-id="b5749-216">-9,375.00</span></span> |<span data-ttu-id="b5749-217">65,625.00</span><span class="sxs-lookup"><span data-stu-id="b5749-217">65,625.00</span></span> |
+| <span data-ttu-id="b5749-218">31.12.11</span><span class="sxs-lookup"><span data-stu-id="b5749-218">12/31/11</span></span> |<span data-ttu-id="b5749-219">Arvonalennus</span><span class="sxs-lookup"><span data-stu-id="b5749-219">Depreciation</span></span> |<span data-ttu-id="b5749-220">180</span><span class="sxs-lookup"><span data-stu-id="b5749-220">180</span></span> |<span data-ttu-id="b5749-221">-9.375,00</span><span class="sxs-lookup"><span data-stu-id="b5749-221">-9,375.00</span></span> |<span data-ttu-id="b5749-222">56,250.00</span><span class="sxs-lookup"><span data-stu-id="b5749-222">56,250.00</span></span> |
+| <span data-ttu-id="b5749-223">30.6.12</span><span class="sxs-lookup"><span data-stu-id="b5749-223">06/30/12</span></span> |<span data-ttu-id="b5749-224">Arvonalennus</span><span class="sxs-lookup"><span data-stu-id="b5749-224">Depreciation</span></span> |<span data-ttu-id="b5749-225">180</span><span class="sxs-lookup"><span data-stu-id="b5749-225">180</span></span> |<span data-ttu-id="b5749-226">-7.031,25</span><span class="sxs-lookup"><span data-stu-id="b5749-226">-7,031.25</span></span> |<span data-ttu-id="b5749-227">49,218.75</span><span class="sxs-lookup"><span data-stu-id="b5749-227">49,218.75</span></span> |
+| <span data-ttu-id="b5749-228">31.12.12</span><span class="sxs-lookup"><span data-stu-id="b5749-228">12/31/12</span></span> |<span data-ttu-id="b5749-229">Arvonalennus</span><span class="sxs-lookup"><span data-stu-id="b5749-229">Depreciation</span></span> |<span data-ttu-id="b5749-230">180</span><span class="sxs-lookup"><span data-stu-id="b5749-230">180</span></span> |<span data-ttu-id="b5749-231">-7.031,25</span><span class="sxs-lookup"><span data-stu-id="b5749-231">-7,031.25</span></span> |<span data-ttu-id="b5749-232">42,187.50</span><span class="sxs-lookup"><span data-stu-id="b5749-232">42,187.50</span></span> |
+| <span data-ttu-id="b5749-233">30.6.13</span><span class="sxs-lookup"><span data-stu-id="b5749-233">06/30/13</span></span> |<span data-ttu-id="b5749-234">Arvonalennus</span><span class="sxs-lookup"><span data-stu-id="b5749-234">Depreciation</span></span> |<span data-ttu-id="b5749-235">180</span><span class="sxs-lookup"><span data-stu-id="b5749-235">180</span></span> |<span data-ttu-id="b5749-236">-5.273,44</span><span class="sxs-lookup"><span data-stu-id="b5749-236">-5,273.44</span></span> |<span data-ttu-id="b5749-237">36,914.06</span><span class="sxs-lookup"><span data-stu-id="b5749-237">36,914.06</span></span> |
+| <span data-ttu-id="b5749-238">31.12.13</span><span class="sxs-lookup"><span data-stu-id="b5749-238">12/31/13</span></span> |<span data-ttu-id="b5749-239">Arvonalennus</span><span class="sxs-lookup"><span data-stu-id="b5749-239">Depreciation</span></span> |<span data-ttu-id="b5749-240">180</span><span class="sxs-lookup"><span data-stu-id="b5749-240">180</span></span> |<span data-ttu-id="b5749-241">-5.273,44</span><span class="sxs-lookup"><span data-stu-id="b5749-241">-5,273.44</span></span> |<span data-ttu-id="b5749-242">31,640.62</span><span class="sxs-lookup"><span data-stu-id="b5749-242">31,640.62</span></span> |
+| <span data-ttu-id="b5749-243">30.6.14</span><span class="sxs-lookup"><span data-stu-id="b5749-243">06/30/14</span></span> |<span data-ttu-id="b5749-244">Arvonalennus</span><span class="sxs-lookup"><span data-stu-id="b5749-244">Depreciation</span></span> |<span data-ttu-id="b5749-245">180</span><span class="sxs-lookup"><span data-stu-id="b5749-245">180</span></span> |<span data-ttu-id="b5749-246">-3.955,08</span><span class="sxs-lookup"><span data-stu-id="b5749-246">-3,955.08</span></span> |<span data-ttu-id="b5749-247">27,685.54</span><span class="sxs-lookup"><span data-stu-id="b5749-247">27,685.54</span></span> |
+| <span data-ttu-id="b5749-248">31.12.14</span><span class="sxs-lookup"><span data-stu-id="b5749-248">12/31/14</span></span> |<span data-ttu-id="b5749-249">Arvonalennus</span><span class="sxs-lookup"><span data-stu-id="b5749-249">Depreciation</span></span> |<span data-ttu-id="b5749-250">180</span><span class="sxs-lookup"><span data-stu-id="b5749-250">180</span></span> |<span data-ttu-id="b5749-251">-3.955,08</span><span class="sxs-lookup"><span data-stu-id="b5749-251">-3,955.08</span></span> |<span data-ttu-id="b5749-252">23,730.46</span><span class="sxs-lookup"><span data-stu-id="b5749-252">23,730.46</span></span> |
 
-* Poiston aloituspvm  
+* <span data-ttu-id="b5749-253">Poiston aloituspvm</span><span class="sxs-lookup"><span data-stu-id="b5749-253">Depreciation starting date</span></span>  
 
-    Laskentamenetelmä:  
+    <span data-ttu-id="b5749-254">Laskentamenetelmä:</span><span class="sxs-lookup"><span data-stu-id="b5749-254">Calculation Method:</span></span>  
 
-    *1. vuosi: 25 % 100 000:sta = 25 000 = 12 500 + 12 500*
+    <span data-ttu-id="b5749-255">*1. vuosi: 25 % 100 000:sta = 25 000 = 12 500 + 12 500*</span><span class="sxs-lookup"><span data-stu-id="b5749-255">*1st Year: 25% of 100,000 = 25,000 = 12,500 + 12,500*</span></span>
 
-    *2. vuosi: 25 % 75 000:sta = 18 750 = 9 375 + 9 375*
+    <span data-ttu-id="b5749-256">*2. vuosi: 25 % 75 000:sta = 18 750 = 9 375 + 9 375*</span><span class="sxs-lookup"><span data-stu-id="b5749-256">*2nd Year: 25% of 75,000 = 18,750 = 9,375 + 9,375*</span></span>
 
-    *3. vuosi: 25 % 56 250:sta = 14 062,50 = 7 031,25 + 7 031,25*
+    <span data-ttu-id="b5749-257">*3. vuosi: 25 % 56 250:sta = 14 062,50 = 7 031,25 + 7 031,25*</span><span class="sxs-lookup"><span data-stu-id="b5749-257">*3rd Year: 25% of 56,250 = 14,062.50 = 7,031.25 + 7,031.25*</span></span>
 
-    Laskenta jatkuu siihen asti, kun kirjanpitoarvo on yhtä kuin lopullinen pyöristyssumma tai jäännösarvo, jonka syötit.   
+    <span data-ttu-id="b5749-258">Laskenta jatkuu siihen asti, kun kirjanpitoarvo on yhtä kuin lopullinen pyöristyssumma tai jäännösarvo, jonka syötit.</span><span class="sxs-lookup"><span data-stu-id="b5749-258">The calculation continues until the book value equals the final rounding amount or the salvage value that you entered.</span></span>   
 
-## <a name="declining-balance-2-depreciation"></a>Menojäännöspoisto 2 -poisto
-Menojäännöspoisto 1- ja Menojäännöspoisto 2 -menetelmät laskevat saman kokonaispoistosumman kullekin vuodelle. Jos **Laske poisto** -eräajo suoritetaan useammin kuin kerran vuodessa, Menojäännöspoisto 1 -menetelmä johtaa samansuuruisiin poistosummiin kunkin poistojakson osalta. Menojäännöspoisto 2 -menetelmä sen sijaan johtaa poistosummiin, jotka vähenevät joka jaksolla.  
+## <a name="declining-balance-2-depreciation"></a><span data-ttu-id="b5749-259">Menojäännöspoisto 2 -poisto</span><span class="sxs-lookup"><span data-stu-id="b5749-259">Declining-Balance 2 Depreciation</span></span>
+<span data-ttu-id="b5749-260">Menojäännöspoisto 1- ja Menojäännöspoisto 2 -menetelmät laskevat saman kokonaispoistosumman kullekin vuodelle.</span><span class="sxs-lookup"><span data-stu-id="b5749-260">The Declining-Balance 1 and Declining-Balance 2 methods calculate the same total depreciation amount for each year.</span></span> <span data-ttu-id="b5749-261">Jos **Laske poisto** -eräajo suoritetaan useammin kuin kerran vuodessa, Menojäännöspoisto 1 -menetelmä johtaa samansuuruisiin poistosummiin kunkin poistojakson osalta.</span><span class="sxs-lookup"><span data-stu-id="b5749-261">However, if you run the **Calculate Depreciation** batch job more than once a year, the Declining-Balance 1 method will result in equal depreciation amounts for each depreciation period.</span></span> <span data-ttu-id="b5749-262">Menojäännöspoisto 2 -menetelmä sen sijaan johtaa poistosummiin, jotka vähenevät joka jaksolla.</span><span class="sxs-lookup"><span data-stu-id="b5749-262">The Declining-Balance 2 method, on the other hand, will result in depreciation amounts that decline for each period.</span></span>  
 
-### <a name="example---declining-balance-2-depreciation"></a>Esimerkki - Menojäännöspoisto 2 -poisto
-Käyttöomaisuuden hankintameno on PVA 100 000. **Menojäännöspoisto-%** -kentässä on arvo 25. **Laske poisto** -eräajo suoritetaan kaksi kertaa vuodessa. Käyttöomaisuustapahtumat näyttävät seuraavalta:  
+### <a name="example---declining-balance-2-depreciation"></a><span data-ttu-id="b5749-263">Esimerkki - Menojäännöspoisto 2 -poisto</span><span class="sxs-lookup"><span data-stu-id="b5749-263">Example - Declining-Balance 2 Depreciation</span></span>
+<span data-ttu-id="b5749-264">Käyttöomaisuuden hankintameno on PVA 100 000.</span><span class="sxs-lookup"><span data-stu-id="b5749-264">A fixed asset has an acquisition cost of LCY 100,000.</span></span> <span data-ttu-id="b5749-265">**Menojäännöspoisto-%** -kentässä on arvo 25.</span><span class="sxs-lookup"><span data-stu-id="b5749-265">The **Declining-Balance %** field is 25.</span></span> <span data-ttu-id="b5749-266">**Laske poisto** -eräajo suoritetaan kaksi kertaa vuodessa.</span><span class="sxs-lookup"><span data-stu-id="b5749-266">The **Calculate Depreciation** batch job is run biannually.</span></span> <span data-ttu-id="b5749-267">Käyttöomaisuustapahtumat näyttävät seuraavalta:</span><span class="sxs-lookup"><span data-stu-id="b5749-267">The fixed asset ledger entries look like this:</span></span>  
 
-| Pvm | KO:n kirjaustyyppi | Päivää | Summa | Kirjanpitoarvo |
+| <span data-ttu-id="b5749-268">Pvm</span><span class="sxs-lookup"><span data-stu-id="b5749-268">Date</span></span> | <span data-ttu-id="b5749-269">KO:n kirjaustyyppi</span><span class="sxs-lookup"><span data-stu-id="b5749-269">FA Posting Type</span></span> | <span data-ttu-id="b5749-270">Päivää</span><span class="sxs-lookup"><span data-stu-id="b5749-270">Days</span></span> | <span data-ttu-id="b5749-271">Summa</span><span class="sxs-lookup"><span data-stu-id="b5749-271">Amount</span></span> | <span data-ttu-id="b5749-272">Kirjanpitoarvo</span><span class="sxs-lookup"><span data-stu-id="b5749-272">Book Value</span></span> |
 | --- | --- | --- | --- | --- |
-| 1.1.10 |Hankintamenot |* |100,000.00 |100,000.00 |
-| 30.6.10 |Arvonalennus |180 |-13.397,46 |86,602.54 |
-| 31.12.10 |Arvonalennus |180 |-11.602,54 |75,000.00 |
-| 30.6.11 |Arvonalennus |180 |-10.048,09 |64,951.91 |
-| 31.12.11 |Arvonalennus |180 |-8.701,91 |56,250.00 |
+| <span data-ttu-id="b5749-273">1.1.10</span><span class="sxs-lookup"><span data-stu-id="b5749-273">01/01/10</span></span> |<span data-ttu-id="b5749-274">Hankintamenot</span><span class="sxs-lookup"><span data-stu-id="b5749-274">Acquisition Costs</span></span> |* |<span data-ttu-id="b5749-275">100,000.00</span><span class="sxs-lookup"><span data-stu-id="b5749-275">100,000.00</span></span> |<span data-ttu-id="b5749-276">100,000.00</span><span class="sxs-lookup"><span data-stu-id="b5749-276">100,000.00</span></span> |
+| <span data-ttu-id="b5749-277">30.6.10</span><span class="sxs-lookup"><span data-stu-id="b5749-277">06/30/10</span></span> |<span data-ttu-id="b5749-278">Arvonalennus</span><span class="sxs-lookup"><span data-stu-id="b5749-278">Depreciation</span></span> |<span data-ttu-id="b5749-279">180</span><span class="sxs-lookup"><span data-stu-id="b5749-279">180</span></span> |<span data-ttu-id="b5749-280">-13.397,46</span><span class="sxs-lookup"><span data-stu-id="b5749-280">-13,397.46</span></span> |<span data-ttu-id="b5749-281">86,602.54</span><span class="sxs-lookup"><span data-stu-id="b5749-281">86,602.54</span></span> |
+| <span data-ttu-id="b5749-282">31.12.10</span><span class="sxs-lookup"><span data-stu-id="b5749-282">12/31/10</span></span> |<span data-ttu-id="b5749-283">Arvonalennus</span><span class="sxs-lookup"><span data-stu-id="b5749-283">Depreciation</span></span> |<span data-ttu-id="b5749-284">180</span><span class="sxs-lookup"><span data-stu-id="b5749-284">180</span></span> |<span data-ttu-id="b5749-285">-11.602,54</span><span class="sxs-lookup"><span data-stu-id="b5749-285">-11,602.54</span></span> |<span data-ttu-id="b5749-286">75,000.00</span><span class="sxs-lookup"><span data-stu-id="b5749-286">75,000.00</span></span> |
+| <span data-ttu-id="b5749-287">30.6.11</span><span class="sxs-lookup"><span data-stu-id="b5749-287">06/30/11</span></span> |<span data-ttu-id="b5749-288">Arvonalennus</span><span class="sxs-lookup"><span data-stu-id="b5749-288">Depreciation</span></span> |<span data-ttu-id="b5749-289">180</span><span class="sxs-lookup"><span data-stu-id="b5749-289">180</span></span> |<span data-ttu-id="b5749-290">-10.048,09</span><span class="sxs-lookup"><span data-stu-id="b5749-290">-10,048.09</span></span> |<span data-ttu-id="b5749-291">64,951.91</span><span class="sxs-lookup"><span data-stu-id="b5749-291">64,951.91</span></span> |
+| <span data-ttu-id="b5749-292">31.12.11</span><span class="sxs-lookup"><span data-stu-id="b5749-292">12/31/11</span></span> |<span data-ttu-id="b5749-293">Arvonalennus</span><span class="sxs-lookup"><span data-stu-id="b5749-293">Depreciation</span></span> |<span data-ttu-id="b5749-294">180</span><span class="sxs-lookup"><span data-stu-id="b5749-294">180</span></span> |<span data-ttu-id="b5749-295">-8.701,91</span><span class="sxs-lookup"><span data-stu-id="b5749-295">-8,701.91</span></span> |<span data-ttu-id="b5749-296">56,250.00</span><span class="sxs-lookup"><span data-stu-id="b5749-296">56,250.00</span></span> |
 
-* Poiston aloituspvm  
+* <span data-ttu-id="b5749-297">Poiston aloituspvm</span><span class="sxs-lookup"><span data-stu-id="b5749-297">Depreciation starting date</span></span>  
 
-Laskentamenetelmä:  
+<span data-ttu-id="b5749-298">Laskentamenetelmä:</span><span class="sxs-lookup"><span data-stu-id="b5749-298">Calculation Method:</span></span>  
 
-* KP = kirjanpitoarvo  
-* PM = Poistopäivien määrä  
-* MJPP = Menojäännöspoistoprosentti  
-* P = DBP/100  
-* D = ND/360  
+* <span data-ttu-id="b5749-299">KP = kirjanpitoarvo</span><span class="sxs-lookup"><span data-stu-id="b5749-299">BV = Book value</span></span>  
+* <span data-ttu-id="b5749-300">PM = Poistopäivien määrä</span><span class="sxs-lookup"><span data-stu-id="b5749-300">ND = Number of depreciation days</span></span>  
+* <span data-ttu-id="b5749-301">MJPP = Menojäännöspoistoprosentti</span><span class="sxs-lookup"><span data-stu-id="b5749-301">DBP = Declining-balance percent</span></span>  
+* <span data-ttu-id="b5749-302">P = DBP/100</span><span class="sxs-lookup"><span data-stu-id="b5749-302">P = DBP/100</span></span>  
+* <span data-ttu-id="b5749-303">D = ND/360</span><span class="sxs-lookup"><span data-stu-id="b5749-303">D = ND/360</span></span>  
 
-Poistosumman laskennan kaava on:  
+<span data-ttu-id="b5749-304">Poistosumman laskennan kaava on:</span><span class="sxs-lookup"><span data-stu-id="b5749-304">The formula for calculating the depreciation amounts is:</span></span>  
 
-*PS = KP x (1 – (1 –P)<sup>P<sup>*  
+<span data-ttu-id="b5749-305">*PS = KP x (1 – (1 –P)<sup>P<sup>*</span><span class="sxs-lookup"><span data-stu-id="b5749-305">*DA = BV x (1 – (1 –P)<sup>D<sup>*</span></span>  
 
-Poistojen arvot ovat:  
+<span data-ttu-id="b5749-306">Poistojen arvot ovat:</span><span class="sxs-lookup"><span data-stu-id="b5749-306">The depreciation values are:</span></span>  
 
-| Pvm | Laskenta |
+| <span data-ttu-id="b5749-307">Pvm</span><span class="sxs-lookup"><span data-stu-id="b5749-307">Date</span></span> | <span data-ttu-id="b5749-308">Laskenta</span><span class="sxs-lookup"><span data-stu-id="b5749-308">Calculation</span></span> |
 | --- | --- |
-| 30.6.10 |PS = 100 000,00 x (1 -(1 - 0.25)<sup>0,5<sup>) = 13 397,46 |
-| 31.12.10 |PS = 86 602,54 x (1 - (1 - 0,25)<sup>0,5<sup>) = 11 602,54 |
-| 30.6.11 |PS = 75 000,00 x (1 - (1 - 0,25)<sup>0,5<sup>) = 10 048,09 |
-| 31.12.11 |PS = 64 951,91 x (1 - (1 - 0,25)<sup>0,5<sup>) = 8 701,91 |
+| <span data-ttu-id="b5749-309">30.6.10</span><span class="sxs-lookup"><span data-stu-id="b5749-309">06/30/10</span></span> |<span data-ttu-id="b5749-310">PS = 100 000,00 x (1 -(1 - 0.25)<sup>0,5<sup>) = 13 397,46</span><span class="sxs-lookup"><span data-stu-id="b5749-310">DA = 100,000.00 x (1 -(1 - 0.25)<sup>0.5<sup>) = 13,397.46</span></span> |
+| <span data-ttu-id="b5749-311">31.12.10</span><span class="sxs-lookup"><span data-stu-id="b5749-311">12/31/10</span></span> |<span data-ttu-id="b5749-312">PS = 86 602,54 x (1 - (1 - 0,25)<sup>0,5<sup>) = 11 602,54</span><span class="sxs-lookup"><span data-stu-id="b5749-312">DA = 86,602.54 x (1 - (1 - 0.25)<sup>0.5<sup>) = 11,602.54</span></span> |
+| <span data-ttu-id="b5749-313">30.6.11</span><span class="sxs-lookup"><span data-stu-id="b5749-313">06/30/11</span></span> |<span data-ttu-id="b5749-314">PS = 75 000,00 x (1 - (1 - 0,25)<sup>0,5<sup>) = 10 048,09</span><span class="sxs-lookup"><span data-stu-id="b5749-314">DA = 75,000.00 x (1 - (1 - 0.25)<sup>0.5<sup>) = 10,048.09</span></span> |
+| <span data-ttu-id="b5749-315">31.12.11</span><span class="sxs-lookup"><span data-stu-id="b5749-315">12/31/11</span></span> |<span data-ttu-id="b5749-316">PS = 64 951,91 x (1 - (1 - 0,25)<sup>0,5<sup>) = 8 701,91</span><span class="sxs-lookup"><span data-stu-id="b5749-316">DA = 64,951.91 x (1 - (1 - 0.25)<sup>0.5<sup>) = 8,701.91</span></span> |
 
-## <a name="db1sl-depreciation"></a>MJP1/TP-poisto
-MJP1/TP on lyhenne Menojäännöspoiston 1 ja Tasapoiston yhdistelmästä. Laskenta jatkuu siihen asti, kun kirjanpitoarvo on yhtä kuin lopullinen pyöristyssumma tai jäännösarvo, jonka annoit.  
+## <a name="db1sl-depreciation"></a><span data-ttu-id="b5749-317">MJP1/TP-poisto</span><span class="sxs-lookup"><span data-stu-id="b5749-317">DB1/SL Depreciation</span></span>
+<span data-ttu-id="b5749-318">MJP1/TP on lyhenne Menojäännöspoiston 1 ja Tasapoiston yhdistelmästä.</span><span class="sxs-lookup"><span data-stu-id="b5749-318">DB1/SL is an abbreviated combination of Declining-Balance 1 and Straight-Line.</span></span> <span data-ttu-id="b5749-319">Laskenta jatkuu siihen asti, kun kirjanpitoarvo on yhtä kuin lopullinen pyöristyssumma tai jäännösarvo, jonka annoit.</span><span class="sxs-lookup"><span data-stu-id="b5749-319">The calculation continues until the book value equals the final rounding amount, or the salvage value that you entered.</span></span>  
 
-**Laske poisto** -eräajolla lasketaan sekä tasapoistosumma että menojäännöspoistosumma, mutta vain suurempi summista siirretään päiväkirjaan.  
+<span data-ttu-id="b5749-320">**Laske poisto** -eräajolla lasketaan sekä tasapoistosumma että menojäännöspoistosumma, mutta vain suurempi summista siirretään päiväkirjaan.</span><span class="sxs-lookup"><span data-stu-id="b5749-320">The **Calculate Depreciation** batch job calculates a straight-line amount and a declining balance amount, but only the greater of the two amounts is transferred to the journal.</span></span>  
 
-Voit laskea menojäännöspoiston käyttämällä eri prosentteja.  
+<span data-ttu-id="b5749-321">Voit laskea menojäännöspoiston käyttämällä eri prosentteja.</span><span class="sxs-lookup"><span data-stu-id="b5749-321">You can use various percentages to calculate declining-balance.</span></span>  
 
-Jos tätä menetelmää käytetään, **KO-poistokirjat**-ikkunaan tulee syöttää arvioitu elinikä ja menojäännöspoistoprosentti.  
+<span data-ttu-id="b5749-322">Jos tätä menetelmää käytetään, **KO-poistokirjat**-ikkunaan tulee syöttää arvioitu elinikä ja menojäännöspoistoprosentti.</span><span class="sxs-lookup"><span data-stu-id="b5749-322">If you use this method, you must enter the estimated useful lifetime and a declining balance percentage in the **FA Depreciation Books** window.</span></span>  
 
-### <a name="example---db1-sl-depreciation"></a>Esimerkki - MJP1/TP-poisto
-Käyttöomaisuuden hankintameno on PVA 100 000. **KO-poistokirjat** -ikkunassa **Menojäännöspoisto-%** -kentässä on 25 ja **Poistovuosien lukumäärä** -kentässä on 8. **Laske poisto** -eräajo suoritetaan kaksi kertaa vuodessa.  
+### <a name="example---db1-sl-depreciation"></a><span data-ttu-id="b5749-323">Esimerkki - MJP1/TP-poisto</span><span class="sxs-lookup"><span data-stu-id="b5749-323">Example - DB1-SL Depreciation</span></span>
+<span data-ttu-id="b5749-324">Käyttöomaisuuden hankintameno on PVA 100 000.</span><span class="sxs-lookup"><span data-stu-id="b5749-324">A fixed asset has an acquisition cost of LCY 100,000.</span></span> <span data-ttu-id="b5749-325">**KO-poistokirjat** -ikkunassa **Menojäännöspoisto-%** -kentässä on 25 ja **Poistovuosien lukumäärä** -kentässä on 8.</span><span class="sxs-lookup"><span data-stu-id="b5749-325">In the **FA Depreciation Books** window, the **Declining-Balance %** field contains 25 and the **No. of Depreciation Years** field contains 8.</span></span> <span data-ttu-id="b5749-326">**Laske poisto** -eräajo suoritetaan kaksi kertaa vuodessa.</span><span class="sxs-lookup"><span data-stu-id="b5749-326">The **Calculate Depreciation** batch job is run biannually.</span></span>  
 
-Käyttöomaisuustapahtumat näyttävät seuraavalta:  
+<span data-ttu-id="b5749-327">Käyttöomaisuustapahtumat näyttävät seuraavalta:</span><span class="sxs-lookup"><span data-stu-id="b5749-327">The fixed asset ledger entries look like this:</span></span>  
 
-| Pvm | KO:n kirjaustyyppi | Päivää | Summa | Kirjanpitoarvo |
+| <span data-ttu-id="b5749-328">Pvm</span><span class="sxs-lookup"><span data-stu-id="b5749-328">Date</span></span> | <span data-ttu-id="b5749-329">KO:n kirjaustyyppi</span><span class="sxs-lookup"><span data-stu-id="b5749-329">FA Posting Type</span></span> | <span data-ttu-id="b5749-330">Päivää</span><span class="sxs-lookup"><span data-stu-id="b5749-330">Days</span></span> | <span data-ttu-id="b5749-331">Summa</span><span class="sxs-lookup"><span data-stu-id="b5749-331">Amount</span></span> | <span data-ttu-id="b5749-332">Kirjanpitoarvo</span><span class="sxs-lookup"><span data-stu-id="b5749-332">Book Value</span></span> |
 | --- | --- | --- | --- | --- |
-| 1.1.10 |Hankintamenot |* |100,000.00 |100,000.00 |
-| 30.6.10 |Arvonalennus |180 |-12.500,00 |87,500.00 |
-| 31.12.10 |Arvonalennus |180 |-12.500,00 |75,000.00 |
-| 30.6.11 |Arvonalennus |180 |-9.375,00 |65,625.00 |
-| 31.12.11 |Arvonalennus |180 |-9.375,00 |56,250.00 |
-| 30.6.12 |Arvonalennus |180 |-7.031,25 |49,218.75 |
-| 31.12.12 |Arvonalennus |180 |-7.031,25 |42,187.50 |
-| 30.6.13 |Arvonalennus |180 |-5.273,44 |36,914.06 |
-| 31.12.13 |Arvonalennus |180 |-5.273,44 |31,640.62 |
-| 30.6.14 |Arvonalennus |180 |-3.955,08 |27,685.54 |
-| 31.12.14 |Arvonalennus |180 |-3.955,08 |23,730.46 |
-| 30.6.15 |Arvonalennus |180 |-3.955,08 |19 775,38 TP |
-| 31.12.15 |Arvonalennus |180 |-3.955,08 |15 820,30 TP |
-| 30.6.16 |Arvonalennus |180 |-3.955,08 |11 865,22 TP |
-| 31.12.16 |Arvonalennus |180 |-3.955,07 |7 910,15 TP |
-| 30.6.17 |Arvonalennus |180 |-3.955,08 |3 955,07 TP |
-| 31.12.17 |Arvonalennus |180 |-3.955,07 |0,00 TP |
+| <span data-ttu-id="b5749-333">1.1.10</span><span class="sxs-lookup"><span data-stu-id="b5749-333">01/01/10</span></span> |<span data-ttu-id="b5749-334">Hankintamenot</span><span class="sxs-lookup"><span data-stu-id="b5749-334">Acquisition Costs</span></span> |* |<span data-ttu-id="b5749-335">100,000.00</span><span class="sxs-lookup"><span data-stu-id="b5749-335">100,000.00</span></span> |<span data-ttu-id="b5749-336">100,000.00</span><span class="sxs-lookup"><span data-stu-id="b5749-336">100,000.00</span></span> |
+| <span data-ttu-id="b5749-337">30.6.10</span><span class="sxs-lookup"><span data-stu-id="b5749-337">06/30/10</span></span> |<span data-ttu-id="b5749-338">Arvonalennus</span><span class="sxs-lookup"><span data-stu-id="b5749-338">Depreciation</span></span> |<span data-ttu-id="b5749-339">180</span><span class="sxs-lookup"><span data-stu-id="b5749-339">180</span></span> |<span data-ttu-id="b5749-340">-12.500,00</span><span class="sxs-lookup"><span data-stu-id="b5749-340">-12,500.00</span></span> |<span data-ttu-id="b5749-341">87,500.00</span><span class="sxs-lookup"><span data-stu-id="b5749-341">87,500.00</span></span> |
+| <span data-ttu-id="b5749-342">31.12.10</span><span class="sxs-lookup"><span data-stu-id="b5749-342">12/31/10</span></span> |<span data-ttu-id="b5749-343">Arvonalennus</span><span class="sxs-lookup"><span data-stu-id="b5749-343">Depreciation</span></span> |<span data-ttu-id="b5749-344">180</span><span class="sxs-lookup"><span data-stu-id="b5749-344">180</span></span> |<span data-ttu-id="b5749-345">-12.500,00</span><span class="sxs-lookup"><span data-stu-id="b5749-345">-12,500.00</span></span> |<span data-ttu-id="b5749-346">75,000.00</span><span class="sxs-lookup"><span data-stu-id="b5749-346">75,000.00</span></span> |
+| <span data-ttu-id="b5749-347">30.6.11</span><span class="sxs-lookup"><span data-stu-id="b5749-347">06/30/11</span></span> |<span data-ttu-id="b5749-348">Arvonalennus</span><span class="sxs-lookup"><span data-stu-id="b5749-348">Depreciation</span></span> |<span data-ttu-id="b5749-349">180</span><span class="sxs-lookup"><span data-stu-id="b5749-349">180</span></span> |<span data-ttu-id="b5749-350">-9.375,00</span><span class="sxs-lookup"><span data-stu-id="b5749-350">-9,375.00</span></span> |<span data-ttu-id="b5749-351">65,625.00</span><span class="sxs-lookup"><span data-stu-id="b5749-351">65,625.00</span></span> |
+| <span data-ttu-id="b5749-352">31.12.11</span><span class="sxs-lookup"><span data-stu-id="b5749-352">12/31/11</span></span> |<span data-ttu-id="b5749-353">Arvonalennus</span><span class="sxs-lookup"><span data-stu-id="b5749-353">Depreciation</span></span> |<span data-ttu-id="b5749-354">180</span><span class="sxs-lookup"><span data-stu-id="b5749-354">180</span></span> |<span data-ttu-id="b5749-355">-9.375,00</span><span class="sxs-lookup"><span data-stu-id="b5749-355">-9,375.00</span></span> |<span data-ttu-id="b5749-356">56,250.00</span><span class="sxs-lookup"><span data-stu-id="b5749-356">56,250.00</span></span> |
+| <span data-ttu-id="b5749-357">30.6.12</span><span class="sxs-lookup"><span data-stu-id="b5749-357">06/30/12</span></span> |<span data-ttu-id="b5749-358">Arvonalennus</span><span class="sxs-lookup"><span data-stu-id="b5749-358">Depreciation</span></span> |<span data-ttu-id="b5749-359">180</span><span class="sxs-lookup"><span data-stu-id="b5749-359">180</span></span> |<span data-ttu-id="b5749-360">-7.031,25</span><span class="sxs-lookup"><span data-stu-id="b5749-360">-7,031.25</span></span> |<span data-ttu-id="b5749-361">49,218.75</span><span class="sxs-lookup"><span data-stu-id="b5749-361">49,218.75</span></span> |
+| <span data-ttu-id="b5749-362">31.12.12</span><span class="sxs-lookup"><span data-stu-id="b5749-362">12/31/12</span></span> |<span data-ttu-id="b5749-363">Arvonalennus</span><span class="sxs-lookup"><span data-stu-id="b5749-363">Depreciation</span></span> |<span data-ttu-id="b5749-364">180</span><span class="sxs-lookup"><span data-stu-id="b5749-364">180</span></span> |<span data-ttu-id="b5749-365">-7.031,25</span><span class="sxs-lookup"><span data-stu-id="b5749-365">-7,031.25</span></span> |<span data-ttu-id="b5749-366">42,187.50</span><span class="sxs-lookup"><span data-stu-id="b5749-366">42,187.50</span></span> |
+| <span data-ttu-id="b5749-367">30.6.13</span><span class="sxs-lookup"><span data-stu-id="b5749-367">06/30/13</span></span> |<span data-ttu-id="b5749-368">Arvonalennus</span><span class="sxs-lookup"><span data-stu-id="b5749-368">Depreciation</span></span> |<span data-ttu-id="b5749-369">180</span><span class="sxs-lookup"><span data-stu-id="b5749-369">180</span></span> |<span data-ttu-id="b5749-370">-5.273,44</span><span class="sxs-lookup"><span data-stu-id="b5749-370">-5,273.44</span></span> |<span data-ttu-id="b5749-371">36,914.06</span><span class="sxs-lookup"><span data-stu-id="b5749-371">36,914.06</span></span> |
+| <span data-ttu-id="b5749-372">31.12.13</span><span class="sxs-lookup"><span data-stu-id="b5749-372">12/31/13</span></span> |<span data-ttu-id="b5749-373">Arvonalennus</span><span class="sxs-lookup"><span data-stu-id="b5749-373">Depreciation</span></span> |<span data-ttu-id="b5749-374">180</span><span class="sxs-lookup"><span data-stu-id="b5749-374">180</span></span> |<span data-ttu-id="b5749-375">-5.273,44</span><span class="sxs-lookup"><span data-stu-id="b5749-375">-5,273.44</span></span> |<span data-ttu-id="b5749-376">31,640.62</span><span class="sxs-lookup"><span data-stu-id="b5749-376">31,640.62</span></span> |
+| <span data-ttu-id="b5749-377">30.6.14</span><span class="sxs-lookup"><span data-stu-id="b5749-377">06/30/14</span></span> |<span data-ttu-id="b5749-378">Arvonalennus</span><span class="sxs-lookup"><span data-stu-id="b5749-378">Depreciation</span></span> |<span data-ttu-id="b5749-379">180</span><span class="sxs-lookup"><span data-stu-id="b5749-379">180</span></span> |<span data-ttu-id="b5749-380">-3.955,08</span><span class="sxs-lookup"><span data-stu-id="b5749-380">-3,955.08</span></span> |<span data-ttu-id="b5749-381">27,685.54</span><span class="sxs-lookup"><span data-stu-id="b5749-381">27,685.54</span></span> |
+| <span data-ttu-id="b5749-382">31.12.14</span><span class="sxs-lookup"><span data-stu-id="b5749-382">12/31/14</span></span> |<span data-ttu-id="b5749-383">Arvonalennus</span><span class="sxs-lookup"><span data-stu-id="b5749-383">Depreciation</span></span> |<span data-ttu-id="b5749-384">180</span><span class="sxs-lookup"><span data-stu-id="b5749-384">180</span></span> |<span data-ttu-id="b5749-385">-3.955,08</span><span class="sxs-lookup"><span data-stu-id="b5749-385">-3,955.08</span></span> |<span data-ttu-id="b5749-386">23,730.46</span><span class="sxs-lookup"><span data-stu-id="b5749-386">23,730.46</span></span> |
+| <span data-ttu-id="b5749-387">30.6.15</span><span class="sxs-lookup"><span data-stu-id="b5749-387">06/30/15</span></span> |<span data-ttu-id="b5749-388">Arvonalennus</span><span class="sxs-lookup"><span data-stu-id="b5749-388">Depreciation</span></span> |<span data-ttu-id="b5749-389">180</span><span class="sxs-lookup"><span data-stu-id="b5749-389">180</span></span> |<span data-ttu-id="b5749-390">-3.955,08</span><span class="sxs-lookup"><span data-stu-id="b5749-390">-3,955.08</span></span> |<span data-ttu-id="b5749-391">19 775,38 TP</span><span class="sxs-lookup"><span data-stu-id="b5749-391">19,775.38 SL</span></span> |
+| <span data-ttu-id="b5749-392">31.12.15</span><span class="sxs-lookup"><span data-stu-id="b5749-392">12/31/15</span></span> |<span data-ttu-id="b5749-393">Arvonalennus</span><span class="sxs-lookup"><span data-stu-id="b5749-393">Depreciation</span></span> |<span data-ttu-id="b5749-394">180</span><span class="sxs-lookup"><span data-stu-id="b5749-394">180</span></span> |<span data-ttu-id="b5749-395">-3.955,08</span><span class="sxs-lookup"><span data-stu-id="b5749-395">-3,955.08</span></span> |<span data-ttu-id="b5749-396">15 820,30 TP</span><span class="sxs-lookup"><span data-stu-id="b5749-396">15,820.30 SL</span></span> |
+| <span data-ttu-id="b5749-397">30.6.16</span><span class="sxs-lookup"><span data-stu-id="b5749-397">06/30/16</span></span> |<span data-ttu-id="b5749-398">Arvonalennus</span><span class="sxs-lookup"><span data-stu-id="b5749-398">Depreciation</span></span> |<span data-ttu-id="b5749-399">180</span><span class="sxs-lookup"><span data-stu-id="b5749-399">180</span></span> |<span data-ttu-id="b5749-400">-3.955,08</span><span class="sxs-lookup"><span data-stu-id="b5749-400">-3,955.08</span></span> |<span data-ttu-id="b5749-401">11 865,22 TP</span><span class="sxs-lookup"><span data-stu-id="b5749-401">11,865.22 SL</span></span> |
+| <span data-ttu-id="b5749-402">31.12.16</span><span class="sxs-lookup"><span data-stu-id="b5749-402">12/31/16</span></span> |<span data-ttu-id="b5749-403">Arvonalennus</span><span class="sxs-lookup"><span data-stu-id="b5749-403">Depreciation</span></span> |<span data-ttu-id="b5749-404">180</span><span class="sxs-lookup"><span data-stu-id="b5749-404">180</span></span> |<span data-ttu-id="b5749-405">-3.955,07</span><span class="sxs-lookup"><span data-stu-id="b5749-405">-3,955.07</span></span> |<span data-ttu-id="b5749-406">7 910,15 TP</span><span class="sxs-lookup"><span data-stu-id="b5749-406">7,910.15 SL</span></span> |
+| <span data-ttu-id="b5749-407">30.6.17</span><span class="sxs-lookup"><span data-stu-id="b5749-407">06/30/17</span></span> |<span data-ttu-id="b5749-408">Arvonalennus</span><span class="sxs-lookup"><span data-stu-id="b5749-408">Depreciation</span></span> |<span data-ttu-id="b5749-409">180</span><span class="sxs-lookup"><span data-stu-id="b5749-409">180</span></span> |<span data-ttu-id="b5749-410">-3.955,08</span><span class="sxs-lookup"><span data-stu-id="b5749-410">-3,955.08</span></span> |<span data-ttu-id="b5749-411">3 955,07 TP</span><span class="sxs-lookup"><span data-stu-id="b5749-411">3,955.07 SL</span></span> |
+| <span data-ttu-id="b5749-412">31.12.17</span><span class="sxs-lookup"><span data-stu-id="b5749-412">12/31/17</span></span> |<span data-ttu-id="b5749-413">Arvonalennus</span><span class="sxs-lookup"><span data-stu-id="b5749-413">Depreciation</span></span> |<span data-ttu-id="b5749-414">180</span><span class="sxs-lookup"><span data-stu-id="b5749-414">180</span></span> |<span data-ttu-id="b5749-415">-3.955,07</span><span class="sxs-lookup"><span data-stu-id="b5749-415">-3,955.07</span></span> |<span data-ttu-id="b5749-416">0,00 TP</span><span class="sxs-lookup"><span data-stu-id="b5749-416">0.00 SL</span></span> |
 
-* Poiston aloituspvm  
+* <span data-ttu-id="b5749-417">Poiston aloituspvm</span><span class="sxs-lookup"><span data-stu-id="b5749-417">Depreciation starting date</span></span>  
 
-"TP" kirjanpitoarvon jälkeen tarkoittaa sitä, että käytettiin tasapoistomenetelmää.  
+<span data-ttu-id="b5749-418">"TP" kirjanpitoarvon jälkeen tarkoittaa sitä, että käytettiin tasapoistomenetelmää.</span><span class="sxs-lookup"><span data-stu-id="b5749-418">"SL" after the book value means that the straight-line method has been used.</span></span>  
 
-Laskentamenetelmä:  
+<span data-ttu-id="b5749-419">Laskentamenetelmä:</span><span class="sxs-lookup"><span data-stu-id="b5749-419">Calculation method:</span></span>  
 
-vuosi:  
+<span data-ttu-id="b5749-420">vuosi:</span><span class="sxs-lookup"><span data-stu-id="b5749-420">1st year:</span></span>  
 
-*Menojäännöspoistosumma: 25 % 100 000:sta = 25 000 = 12 500 + 12 500*  
+<span data-ttu-id="b5749-421">*Menojäännöspoistosumma: 25 % 100 000:sta = 25 000 = 12 500 + 12 500*</span><span class="sxs-lookup"><span data-stu-id="b5749-421">*Declining-balance amount: 25% of 100,000 = 25,000 = 12,500 + 12,500*</span></span>  
 
-*Tasapoistosumma = 100 000 / 8 = 12 500 = 6 250 + 6 250*  
+<span data-ttu-id="b5749-422">*Tasapoistosumma = 100 000 / 8 = 12 500 = 6 250 + 6 250*</span><span class="sxs-lookup"><span data-stu-id="b5749-422">*Straight-line amount = 100,000 / 8 = 12,500 = 6,250 + 6,250*</span></span>  
 
-Tässä käytetään menojäännöspoistosummaa, koska se on suurempi.  
+<span data-ttu-id="b5749-423">Tässä käytetään menojäännöspoistosummaa, koska se on suurempi.</span><span class="sxs-lookup"><span data-stu-id="b5749-423">The declining-balance amount is used because it is the greater amount.</span></span>  
 
-vuosi (2015):  
+<span data-ttu-id="b5749-424">vuosi (2015):</span><span class="sxs-lookup"><span data-stu-id="b5749-424">6th year (2015):</span></span>  
 
-*Menojäännöspoistosumma: 25 % 23 730,46:sta = 4 943,85 = 2 471,92 + 2 471,92*  
+<span data-ttu-id="b5749-425">*Menojäännöspoistosumma: 25 % 23 730,46:sta = 4 943,85 = 2 471,92 + 2 471,92*</span><span class="sxs-lookup"><span data-stu-id="b5749-425">*Declining-balance amount: 25% of 23,730.46 = 4,943.85= 2,471.92 + 2,471.92*</span></span>  
 
-*Tasapoistosumma = 23 730,46/3 = 7 910,15 = 3 995,07 + 3 995,08*  
+<span data-ttu-id="b5749-426">*Tasapoistosumma = 23 730,46/3 = 7 910,15 = 3 995,07 + 3 995,08*</span><span class="sxs-lookup"><span data-stu-id="b5749-426">*Straight-line amount = 23,730.46/3 = 7,910.15 = 3,995.07 + 3,995.08*</span></span>  
 
-Tässä käytetään tasapoistosummaa, koska se on suurempi.  
+<span data-ttu-id="b5749-427">Tässä käytetään tasapoistosummaa, koska se on suurempi.</span><span class="sxs-lookup"><span data-stu-id="b5749-427">The straight-line amount is used because it is the greater amount.</span></span>  
 
-## <a name="user-defined-depreciation"></a>Käyttäjän määrittämä poisto
-Ohjelmassa on ominaisuus, joka mahdollistaa käyttäjäkohtaisten poistomenetelmien määrittämisen.  
+## <a name="user-defined-depreciation"></a><span data-ttu-id="b5749-428">Käyttäjän määrittämä poisto</span><span class="sxs-lookup"><span data-stu-id="b5749-428">User-defined Depreciation</span></span>
+<span data-ttu-id="b5749-429">Ohjelmassa on ominaisuus, joka mahdollistaa käyttäjäkohtaisten poistomenetelmien määrittämisen.</span><span class="sxs-lookup"><span data-stu-id="b5749-429">The program has a facility that allows you to set up user-defined depreciation methods.</span></span>  
 
-Käyttäjäkohtaisessa menetelmässä käytetään **Poistotaulukot**-ikkunaa, johon tulee syöttää poistoprosentti kullekin jaksolle (kuukaudelle, vuosineljännekselle tai kirjanpitojaksolle).  
+<span data-ttu-id="b5749-430">Käyttäjäkohtaisessa menetelmässä käytetään **Poistotaulukot**-ikkunaa, johon tulee syöttää poistoprosentti kullekin jaksolle (kuukaudelle, vuosineljännekselle tai kirjanpitojaksolle).</span><span class="sxs-lookup"><span data-stu-id="b5749-430">With a user-defined method, you use the **Depreciation Tables** window, where you must enter a depreciation percentage for each period (month, quarter, year, or accounting period).</span></span>  
 
-Poistosumman laskennan kaava on:  
+<span data-ttu-id="b5749-431">Poistosumman laskennan kaava on:</span><span class="sxs-lookup"><span data-stu-id="b5749-431">The formula for calculating the depreciation amounts is:</span></span>  
 
-Poistosumma = (Poisto-% x Poistopäivien lkm x Poistoperuste peruste) / (100 x 360)  
+<span data-ttu-id="b5749-432">Poistosumma = (Poisto-% x Poistopäivien lkm x Poistoperuste</span><span class="sxs-lookup"><span data-stu-id="b5749-432">Depreciation Amount = (Depreciation % x Number of Depreciation Days x Depr.</span></span> <span data-ttu-id="b5749-433">peruste) / (100 x 360)</span><span class="sxs-lookup"><span data-stu-id="b5749-433">Basis) / (100 x 360)</span></span>  
 
-### <a name="depreciation-based-on-number-of-units"></a>Yksiköiden lukumäärään perustuvat poistot
-Tätä käyttäjäkohtaista menetelmää voidaan käyttää myös poistoissa, jotka perustuvat yksiköiden lukumäärään, esimerkiksi sellaisten tuotantokoneiden kohdalla, joiden eliniän kapasiteetti on vakio. **Poistotaulukot**-ikkunaan voidaan syöttää yksiköiden lukumäärä, joka voidaan tuottaa kullakin ajanjaksolla (kuukaudessa, neljännesvuodessa, vuodessa tai kirjanpitojakson aikana).  
+### <a name="depreciation-based-on-number-of-units"></a><span data-ttu-id="b5749-434">Yksiköiden lukumäärään perustuvat poistot</span><span class="sxs-lookup"><span data-stu-id="b5749-434">Depreciation Based on Number of Units</span></span>
+<span data-ttu-id="b5749-435">Tätä käyttäjäkohtaista menetelmää voidaan käyttää myös poistoissa, jotka perustuvat yksiköiden lukumäärään, esimerkiksi sellaisten tuotantokoneiden kohdalla, joiden eliniän kapasiteetti on vakio.</span><span class="sxs-lookup"><span data-stu-id="b5749-435">This user-defined method can also be used to depreciate based on number of units, for example, in the case of production machines with an established lifetime capacity.</span></span> <span data-ttu-id="b5749-436">**Poistotaulukot**-ikkunaan voidaan syöttää yksiköiden lukumäärä, joka voidaan tuottaa kullakin ajanjaksolla (kuukaudessa, neljännesvuodessa, vuodessa tai kirjanpitojakson aikana).</span><span class="sxs-lookup"><span data-stu-id="b5749-436">In the **Depreciation Tables** window, you can enter the number of units that can be produced in each period (month, quarter, year,or accounting period).</span></span>  
 
-### <a name="to-set-up-user-defined-depreciation-methods"></a>Käyttäjäkohtaisten poistomenetelmien määrittäminen
-**Poistotaulukon kortti** -ikkunassa voidaan määrittää käyttäjäkohtaiset poistomenetelmät. Voit esimerkiksi määrittää poiston yksiköiden määrän perusteella.  
+### <a name="to-set-up-user-defined-depreciation-methods"></a><span data-ttu-id="b5749-437">Käyttäjäkohtaisten poistomenetelmien määrittäminen</span><span class="sxs-lookup"><span data-stu-id="b5749-437">To set up user-defined depreciation methods</span></span>
+<span data-ttu-id="b5749-438">**Poistotaulukon kortti** -ikkunassa voidaan määrittää käyttäjäkohtaiset poistomenetelmät.</span><span class="sxs-lookup"><span data-stu-id="b5749-438">In the **Depreciation Table** window, you can set up user-defined depreciation methods.</span></span> <span data-ttu-id="b5749-439">Voit esimerkiksi määrittää poiston yksiköiden määrän perusteella.</span><span class="sxs-lookup"><span data-stu-id="b5749-439">For example, you can set up depreciation based on number of units.</span></span>  
 
-1. Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Poistotaulukot** ja valitse sitten aiheeseen liittyvä linkki.  
-2. Valitse **Poistotaulukkoluettelo**-ikkunassa **Uusi**-toiminto.  
-3. Täytä **Poistotaulukon kortti** -ikkunassa tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+1. <span data-ttu-id="b5749-440">Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Poistotaulukot** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="b5749-440">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Depreciation Tables**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="b5749-441">Valitse **Poistotaulukkoluettelo**-ikkunassa **Uusi**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="b5749-441">In the **Depreciation Table List** window, choose the **New** action.</span></span>  
+3. <span data-ttu-id="b5749-442">Täytä **Poistotaulukon kortti** -ikkunassa tarvittavat kentät.</span><span class="sxs-lookup"><span data-stu-id="b5749-442">**Depreciation Table Card** window, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-### <a name="example---user-defined-depreciation"></a>Esimerkki - käyttäjän määrittämä poisto
-Käytä poistomenetelmää, joka mahdollistaa poistojen tekemisen käyttöomaisuuseriin nopeutetusti tuloverotarkoituksia varten.  
+### <a name="example---user-defined-depreciation"></a><span data-ttu-id="b5749-443">Esimerkki - käyttäjän määrittämä poisto</span><span class="sxs-lookup"><span data-stu-id="b5749-443">Example - User-defined Depreciation</span></span>
+<span data-ttu-id="b5749-444">Käytä poistomenetelmää, joka mahdollistaa poistojen tekemisen käyttöomaisuuseriin nopeutetusti tuloverotarkoituksia varten.</span><span class="sxs-lookup"><span data-stu-id="b5749-444">You use a depreciation method that allows you to depreciate assets in an accelerated manner for income tax purposes.</span></span>  
 
-Voit käyttää seuraavia poistoarvoja verotustarkoituksia varten käyttöomaisuudelle, jonka ikä on kolme vuotta:  
+<span data-ttu-id="b5749-445">Voit käyttää seuraavia poistoarvoja verotustarkoituksia varten käyttöomaisuudelle, jonka ikä on kolme vuotta:</span><span class="sxs-lookup"><span data-stu-id="b5749-445">You would use the following depreciation rates for a fixed asset with a three-year lifetime for tax purposes:</span></span>  
 
-* 1. vuosi: 25%  
-* 2. vuosi: 38%  
-* 3. vuosi: 37%  
+* <span data-ttu-id="b5749-446">1. vuosi: 25%</span><span class="sxs-lookup"><span data-stu-id="b5749-446">year 1: 25%</span></span>  
+* <span data-ttu-id="b5749-447">2. vuosi: 38%</span><span class="sxs-lookup"><span data-stu-id="b5749-447">year 2: 38%</span></span>  
+* <span data-ttu-id="b5749-448">3. vuosi: 37%</span><span class="sxs-lookup"><span data-stu-id="b5749-448">year 3: 37%</span></span>  
 
-Hankintameno on 100 000 PVA ja poistoaika on viisi vuotta. Poisto lasketaan vuosittain.  
+<span data-ttu-id="b5749-449">Hankintameno on 100 000 PVA ja poistoaika on viisi vuotta.</span><span class="sxs-lookup"><span data-stu-id="b5749-449">The acquisition cost is LCY 100,000, and the depreciable lifetime is five years.</span></span> <span data-ttu-id="b5749-450">Poisto lasketaan vuosittain.</span><span class="sxs-lookup"><span data-stu-id="b5749-450">Depreciation is calculated annually.</span></span>  
 
-| Pvm | KO:n kirjaustyyppi | Päivää | Summa | Kirjanpitoarvo |
+| <span data-ttu-id="b5749-451">Pvm</span><span class="sxs-lookup"><span data-stu-id="b5749-451">Date</span></span> | <span data-ttu-id="b5749-452">KO:n kirjaustyyppi</span><span class="sxs-lookup"><span data-stu-id="b5749-452">FA Posting Type</span></span> | <span data-ttu-id="b5749-453">Päivää</span><span class="sxs-lookup"><span data-stu-id="b5749-453">Days</span></span> | <span data-ttu-id="b5749-454">Summa</span><span class="sxs-lookup"><span data-stu-id="b5749-454">Amount</span></span> | <span data-ttu-id="b5749-455">Kirjanpitoarvo</span><span class="sxs-lookup"><span data-stu-id="b5749-455">Book Value</span></span> |
 | --- | --- | --- | --- | --- |
-| 1.1.10 |Hankintameno |* |100,000.00 |100,000.00 |
-| 31.12.10 |Arvonalennus |360 |-25.000,00 |75,000.00 |
-| 31.12.11 |Arvonalennus |360 |-38.000,00 |37,000.00 |
-| 31.12.12 |Arvonalennus |360 |-37.000,00 |0 |
-| 31.12.13 |Arvonalennus |Ei yhtään |Ei yhtään |0 |
-| 31.12.14 |Arvonalennus |Ei yhtään |Ei yhtään |0 |
+| <span data-ttu-id="b5749-456">1.1.10</span><span class="sxs-lookup"><span data-stu-id="b5749-456">01/01/10</span></span> |<span data-ttu-id="b5749-457">Hankintameno</span><span class="sxs-lookup"><span data-stu-id="b5749-457">Acquisition Cost</span></span> |* |<span data-ttu-id="b5749-458">100,000.00</span><span class="sxs-lookup"><span data-stu-id="b5749-458">100,000.00</span></span> |<span data-ttu-id="b5749-459">100,000.00</span><span class="sxs-lookup"><span data-stu-id="b5749-459">100,000.00</span></span> |
+| <span data-ttu-id="b5749-460">31.12.10</span><span class="sxs-lookup"><span data-stu-id="b5749-460">12/31/10</span></span> |<span data-ttu-id="b5749-461">Arvonalennus</span><span class="sxs-lookup"><span data-stu-id="b5749-461">Depreciation</span></span> |<span data-ttu-id="b5749-462">360</span><span class="sxs-lookup"><span data-stu-id="b5749-462">360</span></span> |<span data-ttu-id="b5749-463">-25.000,00</span><span class="sxs-lookup"><span data-stu-id="b5749-463">-25,000.00</span></span> |<span data-ttu-id="b5749-464">75,000.00</span><span class="sxs-lookup"><span data-stu-id="b5749-464">75,000.00</span></span> |
+| <span data-ttu-id="b5749-465">31.12.11</span><span class="sxs-lookup"><span data-stu-id="b5749-465">12/31/11</span></span> |<span data-ttu-id="b5749-466">Arvonalennus</span><span class="sxs-lookup"><span data-stu-id="b5749-466">Depreciation</span></span> |<span data-ttu-id="b5749-467">360</span><span class="sxs-lookup"><span data-stu-id="b5749-467">360</span></span> |<span data-ttu-id="b5749-468">-38.000,00</span><span class="sxs-lookup"><span data-stu-id="b5749-468">-38,000.00</span></span> |<span data-ttu-id="b5749-469">37,000.00</span><span class="sxs-lookup"><span data-stu-id="b5749-469">37,000.00</span></span> |
+| <span data-ttu-id="b5749-470">31.12.12</span><span class="sxs-lookup"><span data-stu-id="b5749-470">12/31/12</span></span> |<span data-ttu-id="b5749-471">Arvonalennus</span><span class="sxs-lookup"><span data-stu-id="b5749-471">Depreciation</span></span> |<span data-ttu-id="b5749-472">360</span><span class="sxs-lookup"><span data-stu-id="b5749-472">360</span></span> |<span data-ttu-id="b5749-473">-37.000,00</span><span class="sxs-lookup"><span data-stu-id="b5749-473">-37,000.00</span></span> |<span data-ttu-id="b5749-474">0</span><span class="sxs-lookup"><span data-stu-id="b5749-474">0</span></span> |
+| <span data-ttu-id="b5749-475">31.12.13</span><span class="sxs-lookup"><span data-stu-id="b5749-475">12/31/13</span></span> |<span data-ttu-id="b5749-476">Arvonalennus</span><span class="sxs-lookup"><span data-stu-id="b5749-476">Depreciation</span></span> |<span data-ttu-id="b5749-477">Ei yhtään</span><span class="sxs-lookup"><span data-stu-id="b5749-477">None</span></span> |<span data-ttu-id="b5749-478">Ei yhtään</span><span class="sxs-lookup"><span data-stu-id="b5749-478">None</span></span> |<span data-ttu-id="b5749-479">0</span><span class="sxs-lookup"><span data-stu-id="b5749-479">0</span></span> |
+| <span data-ttu-id="b5749-480">31.12.14</span><span class="sxs-lookup"><span data-stu-id="b5749-480">12/31/14</span></span> |<span data-ttu-id="b5749-481">Arvonalennus</span><span class="sxs-lookup"><span data-stu-id="b5749-481">Depreciation</span></span> |<span data-ttu-id="b5749-482">Ei yhtään</span><span class="sxs-lookup"><span data-stu-id="b5749-482">None</span></span> |<span data-ttu-id="b5749-483">Ei yhtään</span><span class="sxs-lookup"><span data-stu-id="b5749-483">None</span></span> |<span data-ttu-id="b5749-484">0</span><span class="sxs-lookup"><span data-stu-id="b5749-484">0</span></span> |
 
-* Poiston aloituspvm  
+* <span data-ttu-id="b5749-485">Poiston aloituspvm</span><span class="sxs-lookup"><span data-stu-id="b5749-485">Depreciation starting date</span></span>  
 
-Jos käytät käyttäjäkohtaista menetelmää, **Ens. käyttäjäkoht. poistopvm**- ja **Poiston aloituspvm**-kenttä tulee olla täytettynä **KO-poistokirjat**-ikkunassa. **Ens. käyttäjäkoht. poistopvm** -kenttää ja **Poistotaulukot**-ikkunan **Jakson pituus** -kentän sisältöä käytetään määrittämään poistolaskennassa käytettäviä aikavälejä. Näin varmistetaan, että ohjelma käynnistyy käyttämällä kaikkien omaisuuserien kohdalla määritettyä prosenttilukua samana päivänä. **Poiston aloituspvm** -kenttää käytetään laskemaan poistopäivien lukumäärä.  
+<span data-ttu-id="b5749-486">Jos käytät käyttäjäkohtaista menetelmää, **Ens. käyttäjäkoht. poistopvm**- ja **Poiston aloituspvm**-kenttä tulee olla täytettynä **KO-poistokirjat**-ikkunassa.</span><span class="sxs-lookup"><span data-stu-id="b5749-486">If you use a user-defined method, the **First User-Defined Depr. Date** and **Depreciation Starting Date** fields must be filled in in the **FA Depreciation Books** window.</span></span> <span data-ttu-id="b5749-487">**Ens. käyttäjäkoht. poistopvm** -kenttää ja **Poistotaulukot**-ikkunan **Jakson pituus** -kentän sisältöä käytetään määrittämään poistolaskennassa käytettäviä aikavälejä.</span><span class="sxs-lookup"><span data-stu-id="b5749-487">The **First User-Defined Depr. Date** field and the contents in the **Period Length** field in the **Depreciation Tables** window are used to determine the time intervals to be used for depreciation calculations.</span></span> <span data-ttu-id="b5749-488">Näin varmistetaan, että ohjelma käynnistyy käyttämällä kaikkien omaisuuserien kohdalla määritettyä prosenttilukua samana päivänä.</span><span class="sxs-lookup"><span data-stu-id="b5749-488">This ensures that the program will start using the specified percentage on the same day for all assets.</span></span> <span data-ttu-id="b5749-489">**Poiston aloituspvm** -kenttää käytetään laskemaan poistopäivien lukumäärä.</span><span class="sxs-lookup"><span data-stu-id="b5749-489">The **Depreciation Starting Date** field is used to calculate the number of depreciation days.</span></span>  
 
-Edellisessä esimerkissä sekä **Ens. käyttäjäkoht. poistopvm**- ja **Poiston aloituspvm** -kentissä on 1.1.01. Jos kuitenkin **Ens. käyttäjäkoht. poistopvm** -kentässä oli 1.1.10 ja **Poiston aloituspvm** -kentässä oli 1.4.11, tuloksena olisi:  
+<span data-ttu-id="b5749-490">Edellisessä esimerkissä sekä **Ens. käyttäjäkoht. poistopvm**- ja **Poiston aloituspvm** -kentissä on 1.1.01.</span><span class="sxs-lookup"><span data-stu-id="b5749-490">In the previous example, both the **First User-Defined Depr. Date** and **Depreciation Starting Date** fields contain 01/01/01.</span></span> <span data-ttu-id="b5749-491">Jos kuitenkin **Ens. käyttäjäkoht. poistopvm** -kentässä oli 1.1.10 ja **Poiston aloituspvm** -kentässä oli 1.4.11, tuloksena olisi:</span><span class="sxs-lookup"><span data-stu-id="b5749-491">If, however, the **First User-Defined Depr. Date** field contained 01/01/10 and the **Depreciation Starting Date** field contained 04/01/11, the result would be:</span></span>  
 
-| Pvm | KO:n kirjaustyyppi | Päivää | Summa | Kirjanpitoarvo |
+| <span data-ttu-id="b5749-492">Pvm</span><span class="sxs-lookup"><span data-stu-id="b5749-492">Date</span></span> | <span data-ttu-id="b5749-493">KO:n kirjaustyyppi</span><span class="sxs-lookup"><span data-stu-id="b5749-493">FA Posting Type</span></span> | <span data-ttu-id="b5749-494">Päivää</span><span class="sxs-lookup"><span data-stu-id="b5749-494">Days</span></span> | <span data-ttu-id="b5749-495">Summa</span><span class="sxs-lookup"><span data-stu-id="b5749-495">Amount</span></span> | <span data-ttu-id="b5749-496">Kirjanpitoarvo</span><span class="sxs-lookup"><span data-stu-id="b5749-496">Book Value</span></span> |
 | --- | --- | --- | --- | --- |
-| 1.1.10 |Hankintameno |* |100,000.00 |100,000.00 |
-| 31.12.10 |Arvonalennus |270 |-18.750,00 |81,250.00 |
-| 31.12.11 |Arvonalennus |360 |-38.000,00 |42,250.00 |
-| 31.12.12 |Arvonalennus |360 |-37.000,00 |6,250.00 |
-| 31.12.13 |Arvonalennus |90 |-6.250,00 |0 |
-| 31.12.14 |Arvonalennus |Ei yhtään |Ei yhtään |0 |
+| <span data-ttu-id="b5749-497">1.1.10</span><span class="sxs-lookup"><span data-stu-id="b5749-497">01/01/10</span></span> |<span data-ttu-id="b5749-498">Hankintameno</span><span class="sxs-lookup"><span data-stu-id="b5749-498">Acquisition Cost</span></span> |* |<span data-ttu-id="b5749-499">100,000.00</span><span class="sxs-lookup"><span data-stu-id="b5749-499">100,000.00</span></span> |<span data-ttu-id="b5749-500">100,000.00</span><span class="sxs-lookup"><span data-stu-id="b5749-500">100,000.00</span></span> |
+| <span data-ttu-id="b5749-501">31.12.10</span><span class="sxs-lookup"><span data-stu-id="b5749-501">12/31/10</span></span> |<span data-ttu-id="b5749-502">Arvonalennus</span><span class="sxs-lookup"><span data-stu-id="b5749-502">Depreciation</span></span> |<span data-ttu-id="b5749-503">270</span><span class="sxs-lookup"><span data-stu-id="b5749-503">270</span></span> |<span data-ttu-id="b5749-504">-18.750,00</span><span class="sxs-lookup"><span data-stu-id="b5749-504">-18,750.00</span></span> |<span data-ttu-id="b5749-505">81,250.00</span><span class="sxs-lookup"><span data-stu-id="b5749-505">81,250.00</span></span> |
+| <span data-ttu-id="b5749-506">31.12.11</span><span class="sxs-lookup"><span data-stu-id="b5749-506">12/31/11</span></span> |<span data-ttu-id="b5749-507">Arvonalennus</span><span class="sxs-lookup"><span data-stu-id="b5749-507">Depreciation</span></span> |<span data-ttu-id="b5749-508">360</span><span class="sxs-lookup"><span data-stu-id="b5749-508">360</span></span> |<span data-ttu-id="b5749-509">-38.000,00</span><span class="sxs-lookup"><span data-stu-id="b5749-509">-38,000.00</span></span> |<span data-ttu-id="b5749-510">42,250.00</span><span class="sxs-lookup"><span data-stu-id="b5749-510">42,250.00</span></span> |
+| <span data-ttu-id="b5749-511">31.12.12</span><span class="sxs-lookup"><span data-stu-id="b5749-511">12/31/12</span></span> |<span data-ttu-id="b5749-512">Arvonalennus</span><span class="sxs-lookup"><span data-stu-id="b5749-512">Depreciation</span></span> |<span data-ttu-id="b5749-513">360</span><span class="sxs-lookup"><span data-stu-id="b5749-513">360</span></span> |<span data-ttu-id="b5749-514">-37.000,00</span><span class="sxs-lookup"><span data-stu-id="b5749-514">-37,000.00</span></span> |<span data-ttu-id="b5749-515">6,250.00</span><span class="sxs-lookup"><span data-stu-id="b5749-515">6,250.00</span></span> |
+| <span data-ttu-id="b5749-516">31.12.13</span><span class="sxs-lookup"><span data-stu-id="b5749-516">12/31/13</span></span> |<span data-ttu-id="b5749-517">Arvonalennus</span><span class="sxs-lookup"><span data-stu-id="b5749-517">Depreciation</span></span> |<span data-ttu-id="b5749-518">90</span><span class="sxs-lookup"><span data-stu-id="b5749-518">90</span></span> |<span data-ttu-id="b5749-519">-6.250,00</span><span class="sxs-lookup"><span data-stu-id="b5749-519">-6,250.00</span></span> |<span data-ttu-id="b5749-520">0</span><span class="sxs-lookup"><span data-stu-id="b5749-520">0</span></span> |
+| <span data-ttu-id="b5749-521">31.12.14</span><span class="sxs-lookup"><span data-stu-id="b5749-521">12/31/14</span></span> |<span data-ttu-id="b5749-522">Arvonalennus</span><span class="sxs-lookup"><span data-stu-id="b5749-522">Depreciation</span></span> |<span data-ttu-id="b5749-523">Ei yhtään</span><span class="sxs-lookup"><span data-stu-id="b5749-523">None</span></span> |<span data-ttu-id="b5749-524">Ei yhtään</span><span class="sxs-lookup"><span data-stu-id="b5749-524">None</span></span> |<span data-ttu-id="b5749-525">0</span><span class="sxs-lookup"><span data-stu-id="b5749-525">0</span></span> |
 
-* Poiston aloituspvm  
+* <span data-ttu-id="b5749-526">Poiston aloituspvm</span><span class="sxs-lookup"><span data-stu-id="b5749-526">Depreciation starting date</span></span>  
 
-## <a name="half-year-convention-depreciation"></a>Poisto puolivuotissopimusta käyttämällä
-Puolivuotissopimus-menetelmää käytetään vain, jos **KO-poistokirja**-ikkunan **Käytä puolivuotissopimusta** -kenttään on lisätty rasti.  
+## <a name="half-year-convention-depreciation"></a><span data-ttu-id="b5749-527">Poisto puolivuotissopimusta käyttämällä</span><span class="sxs-lookup"><span data-stu-id="b5749-527">Half-Year Convention Depreciation</span></span>
+<span data-ttu-id="b5749-528">Puolivuotissopimus-menetelmää käytetään vain, jos **KO-poistokirja**-ikkunan **Käytä puolivuotissopimusta** -kenttään on lisätty rasti.</span><span class="sxs-lookup"><span data-stu-id="b5749-528">The Half-Year Convention method will only be applied if you have placed a check mark in the **Use Half-Year Convention** field in the fixed **FA Depreciation Book** window.</span></span>  
 
-Tätä poistomenetelmää voidaan käyttää yhdessä seuraavien ohjelman poistomenetelmien kanssa:  
+<span data-ttu-id="b5749-529">Tätä poistomenetelmää voidaan käyttää yhdessä seuraavien ohjelman poistomenetelmien kanssa:</span><span class="sxs-lookup"><span data-stu-id="b5749-529">This depreciation method can be used in conjunction with the following depreciation methods in the program:</span></span>  
 
-* Tasapoisto  
-* Menojäännöspoisto 1  
-* MJP1/TP  
+* <span data-ttu-id="b5749-530">Tasapoisto</span><span class="sxs-lookup"><span data-stu-id="b5749-530">Straight-Line</span></span>  
+* <span data-ttu-id="b5749-531">Menojäännöspoisto 1</span><span class="sxs-lookup"><span data-stu-id="b5749-531">Declining-Balance 1</span></span>  
+* <span data-ttu-id="b5749-532">MJP1/TP</span><span class="sxs-lookup"><span data-stu-id="b5749-532">DB1/SL</span></span>  
 
-Kun käytetään Puolivuotissopimusta, käyttöomaisuudelle tehdään kuuden kuukauden poisto ensimmäisenä tilikautena **Poiston aloituspvm** -kentän sisällöstä huolimatta.  
+<span data-ttu-id="b5749-533">Kun käytetään Puolivuotissopimusta, käyttöomaisuudelle tehdään kuuden kuukauden poisto ensimmäisenä tilikautena **Poiston aloituspvm** -kentän sisällöstä huolimatta.</span><span class="sxs-lookup"><span data-stu-id="b5749-533">When you apply the Half-Year Convention, a fixed asset has six months of depreciation in the first fiscal year, regardless of the contents of the **Depreciation Starting Date** field.</span></span>  
 
 > [!NOTE]  
->   Käyttöomaisuuden arvioitu ikä, joka on jäljellä ensimmäisen tilikauden jälkeen, on aina puoli vuotta silloin, kun käytetään Puolivuotissopimus-menetelmää. Jotta Puolivuotissopimus-menetelmää voitaisiin käyttää oikein, **KO-poistokirja**-ikkunan **Poiston lopetuspvm** -kentässä on aina oltava päivämäärä, joka on tasan kuusi kuukautta ennen sen tilikauden viimeistä päivämäärä, jolloin käyttöomaisuudelle tehdään kokonaispoisto.  
+>   <span data-ttu-id="b5749-534">Käyttöomaisuuden arvioitu ikä, joka on jäljellä ensimmäisen tilikauden jälkeen, on aina puoli vuotta silloin, kun käytetään Puolivuotissopimus-menetelmää.</span><span class="sxs-lookup"><span data-stu-id="b5749-534">The estimated life of the fixed asset that is remaining after the first fiscal year will always contain a half-year using the Half-Year Convention Method.</span></span> <span data-ttu-id="b5749-535">Jotta Puolivuotissopimus-menetelmää voitaisiin käyttää oikein, **KO-poistokirja**-ikkunan **Poiston lopetuspvm** -kentässä on aina oltava päivämäärä, joka on tasan kuusi kuukautta ennen sen tilikauden viimeistä päivämäärä, jolloin käyttöomaisuudelle tehdään kokonaispoisto.</span><span class="sxs-lookup"><span data-stu-id="b5749-535">Thus, for the Half-Year Convention method to be applied correctly, the **Depreciation Ending Date** field in the **FA Depreciation Book** window must always contain a date which is exactly six months before the final date of the fiscal year in which the fixed asset will fully depreciate.</span></span>  
 
-### <a name="example---half-year-convention-depreciation"></a>Esimerkki – Poisto puolivuotissopimusta käyttämällä
-Käyttöomaisuuden hankintameno on PVA 100 000. **Poiston aloituspvm** on 1.3.10. Arvioitu käyttöikä on viisi vuotta, joten **Poiston lopetuspvm** -kohdan arvon on oltava 30.6.15. **Laske poisto** -eräajo suoritetaan vuosittain. Tämä esimerkki perustuu kalenteritilikauteen.  
+### <a name="example---half-year-convention-depreciation"></a><span data-ttu-id="b5749-536">Esimerkki – Poisto puolivuotissopimusta käyttämällä</span><span class="sxs-lookup"><span data-stu-id="b5749-536">Example - Half-Year Convention Depreciation</span></span>
+<span data-ttu-id="b5749-537">Käyttöomaisuuden hankintameno on PVA 100 000.</span><span class="sxs-lookup"><span data-stu-id="b5749-537">A fixed asset has an acquisition cost of LCY 100,000.</span></span> <span data-ttu-id="b5749-538">**Poiston aloituspvm** on 1.3.10.</span><span class="sxs-lookup"><span data-stu-id="b5749-538">The **Depreciation Starting Date** is 03/01/10.</span></span> <span data-ttu-id="b5749-539">Arvioitu käyttöikä on viisi vuotta, joten **Poiston lopetuspvm** -kohdan arvon on oltava 30.6.15.</span><span class="sxs-lookup"><span data-stu-id="b5749-539">The estimated life is five years, so the **Depreciation Ending Date** must be 06/30/15.</span></span> <span data-ttu-id="b5749-540">**Laske poisto** -eräajo suoritetaan vuosittain.</span><span class="sxs-lookup"><span data-stu-id="b5749-540">The **Calculate Depreciation** batch job is run annually.</span></span> <span data-ttu-id="b5749-541">Tämä esimerkki perustuu kalenteritilikauteen.</span><span class="sxs-lookup"><span data-stu-id="b5749-541">This example is based on a calendar fiscal year.</span></span>  
 
-Käyttöomaisuustapahtumat näyttävät seuraavalta:  
+<span data-ttu-id="b5749-542">Käyttöomaisuustapahtumat näyttävät seuraavalta:</span><span class="sxs-lookup"><span data-stu-id="b5749-542">The fixed asset ledger entries look like this:</span></span>  
 
-| Pvm | KO:n kirjaustyyppi | Päivää | Summa | Kirjanpitoarvo |
+| <span data-ttu-id="b5749-543">Pvm</span><span class="sxs-lookup"><span data-stu-id="b5749-543">Date</span></span> | <span data-ttu-id="b5749-544">KO:n kirjaustyyppi</span><span class="sxs-lookup"><span data-stu-id="b5749-544">FA Posting Type</span></span> | <span data-ttu-id="b5749-545">Päivää</span><span class="sxs-lookup"><span data-stu-id="b5749-545">Days</span></span> | <span data-ttu-id="b5749-546">Summa</span><span class="sxs-lookup"><span data-stu-id="b5749-546">Amount</span></span> | <span data-ttu-id="b5749-547">Kirjanpitoarvo</span><span class="sxs-lookup"><span data-stu-id="b5749-547">Book Value</span></span> |
 | --- | --- | --- | --- | --- |
-| 1.3.10 |Hankintameno |* |100,000.00 |100,000.00 |
-| 31.12.10 |Arvonalennus |270 |-10.000,00 |90,000.00 |
-| 31.12.11 |Arvonalennus |360 |-20.000,00 |70,000.00 |
-| 31.12.12 |Arvonalennus |360 |-20.000,00 |50,000.00 |
-| 31.12.13 |Arvonalennus |360 |-20.000,00 |30,000.00 |
-| 31.12.14 |Arvonalennus |360 |-20.000,00 |10,000.00 |
-| 31.12.15 |Arvonalennus |180 |-10.000,00 |0.00 |
+| <span data-ttu-id="b5749-548">1.3.10</span><span class="sxs-lookup"><span data-stu-id="b5749-548">03/01/10</span></span> |<span data-ttu-id="b5749-549">Hankintameno</span><span class="sxs-lookup"><span data-stu-id="b5749-549">Acquisition Cost</span></span> |* |<span data-ttu-id="b5749-550">100,000.00</span><span class="sxs-lookup"><span data-stu-id="b5749-550">100,000.00</span></span> |<span data-ttu-id="b5749-551">100,000.00</span><span class="sxs-lookup"><span data-stu-id="b5749-551">100,000.00</span></span> |
+| <span data-ttu-id="b5749-552">31.12.10</span><span class="sxs-lookup"><span data-stu-id="b5749-552">12/31/10</span></span> |<span data-ttu-id="b5749-553">Arvonalennus</span><span class="sxs-lookup"><span data-stu-id="b5749-553">Depreciation</span></span> |<span data-ttu-id="b5749-554">270</span><span class="sxs-lookup"><span data-stu-id="b5749-554">270</span></span> |<span data-ttu-id="b5749-555">-10.000,00</span><span class="sxs-lookup"><span data-stu-id="b5749-555">-10,000.00</span></span> |<span data-ttu-id="b5749-556">90,000.00</span><span class="sxs-lookup"><span data-stu-id="b5749-556">90,000.00</span></span> |
+| <span data-ttu-id="b5749-557">31.12.11</span><span class="sxs-lookup"><span data-stu-id="b5749-557">12/31/11</span></span> |<span data-ttu-id="b5749-558">Arvonalennus</span><span class="sxs-lookup"><span data-stu-id="b5749-558">Depreciation</span></span> |<span data-ttu-id="b5749-559">360</span><span class="sxs-lookup"><span data-stu-id="b5749-559">360</span></span> |<span data-ttu-id="b5749-560">-20.000,00</span><span class="sxs-lookup"><span data-stu-id="b5749-560">-20,000.00</span></span> |<span data-ttu-id="b5749-561">70,000.00</span><span class="sxs-lookup"><span data-stu-id="b5749-561">70,000.00</span></span> |
+| <span data-ttu-id="b5749-562">31.12.12</span><span class="sxs-lookup"><span data-stu-id="b5749-562">12/31/12</span></span> |<span data-ttu-id="b5749-563">Arvonalennus</span><span class="sxs-lookup"><span data-stu-id="b5749-563">Depreciation</span></span> |<span data-ttu-id="b5749-564">360</span><span class="sxs-lookup"><span data-stu-id="b5749-564">360</span></span> |<span data-ttu-id="b5749-565">-20.000,00</span><span class="sxs-lookup"><span data-stu-id="b5749-565">-20,000.00</span></span> |<span data-ttu-id="b5749-566">50,000.00</span><span class="sxs-lookup"><span data-stu-id="b5749-566">50,000.00</span></span> |
+| <span data-ttu-id="b5749-567">31.12.13</span><span class="sxs-lookup"><span data-stu-id="b5749-567">12/31/13</span></span> |<span data-ttu-id="b5749-568">Arvonalennus</span><span class="sxs-lookup"><span data-stu-id="b5749-568">Depreciation</span></span> |<span data-ttu-id="b5749-569">360</span><span class="sxs-lookup"><span data-stu-id="b5749-569">360</span></span> |<span data-ttu-id="b5749-570">-20.000,00</span><span class="sxs-lookup"><span data-stu-id="b5749-570">-20,000.00</span></span> |<span data-ttu-id="b5749-571">30,000.00</span><span class="sxs-lookup"><span data-stu-id="b5749-571">30,000.00</span></span> |
+| <span data-ttu-id="b5749-572">31.12.14</span><span class="sxs-lookup"><span data-stu-id="b5749-572">12/31/14</span></span> |<span data-ttu-id="b5749-573">Arvonalennus</span><span class="sxs-lookup"><span data-stu-id="b5749-573">Depreciation</span></span> |<span data-ttu-id="b5749-574">360</span><span class="sxs-lookup"><span data-stu-id="b5749-574">360</span></span> |<span data-ttu-id="b5749-575">-20.000,00</span><span class="sxs-lookup"><span data-stu-id="b5749-575">-20,000.00</span></span> |<span data-ttu-id="b5749-576">10,000.00</span><span class="sxs-lookup"><span data-stu-id="b5749-576">10,000.00</span></span> |
+| <span data-ttu-id="b5749-577">31.12.15</span><span class="sxs-lookup"><span data-stu-id="b5749-577">12/31/15</span></span> |<span data-ttu-id="b5749-578">Arvonalennus</span><span class="sxs-lookup"><span data-stu-id="b5749-578">Depreciation</span></span> |<span data-ttu-id="b5749-579">180</span><span class="sxs-lookup"><span data-stu-id="b5749-579">180</span></span> |<span data-ttu-id="b5749-580">-10.000,00</span><span class="sxs-lookup"><span data-stu-id="b5749-580">-10,000.00</span></span> |<span data-ttu-id="b5749-581">0.00</span><span class="sxs-lookup"><span data-stu-id="b5749-581">0.00</span></span> |
 
-* Poiston aloituspvm  
+* <span data-ttu-id="b5749-582">Poiston aloituspvm</span><span class="sxs-lookup"><span data-stu-id="b5749-582">Depreciation starting date</span></span>  
 
-## <a name="example---db1sl-depreciation-using-half-year-convention"></a>Esimerkki – MJP1/TP-poisto puolivuotissopimusta käyttämällä
-Käyttöomaisuuden hankintameno on PVA 100 000. **Poiston aloituspvm** on 1.11.10. Arvioitu käyttöikä on viisi vuotta, joten **Poiston lopetuspvm** -kohdan arvon on oltava 30.6.15. **KO-poistokirjat**-ikkunan **Menojäännöspoisto-%**-kentässä on arvo 40. **Laske poisto** -eräajo suoritetaan vuosittain. Tämä esimerkki perustuu kalenteritilikauteen.  
+## <a name="example---db1sl-depreciation-using-half-year-convention"></a><span data-ttu-id="b5749-583">Esimerkki – MJP1/TP-poisto puolivuotissopimusta käyttämällä</span><span class="sxs-lookup"><span data-stu-id="b5749-583">Example - DB1/SL Depreciation Using Half-Year Convention</span></span>
+<span data-ttu-id="b5749-584">Käyttöomaisuuden hankintameno on PVA 100 000.</span><span class="sxs-lookup"><span data-stu-id="b5749-584">A fixed asset has an acquisition cost of LCY 100,000.</span></span> <span data-ttu-id="b5749-585">**Poiston aloituspvm** on 1.11.10.</span><span class="sxs-lookup"><span data-stu-id="b5749-585">The **Depreciation Starting Date** is 11/01/10.</span></span> <span data-ttu-id="b5749-586">Arvioitu käyttöikä on viisi vuotta, joten **Poiston lopetuspvm** -kohdan arvon on oltava 30.6.15.</span><span class="sxs-lookup"><span data-stu-id="b5749-586">The estimated life is five years, so the **Depreciation Ending Date** must be 06/30/15.</span></span> <span data-ttu-id="b5749-587">**KO-poistokirjat**-ikkunan **Menojäännöspoisto-%**-kentässä on arvo 40.</span><span class="sxs-lookup"><span data-stu-id="b5749-587">In the **FA Depreciation Books** window, the **Declining-Balance %** field contains 40.</span></span> <span data-ttu-id="b5749-588">**Laske poisto** -eräajo suoritetaan vuosittain.</span><span class="sxs-lookup"><span data-stu-id="b5749-588">The **Calculate Depreciation** batch job is run annually.</span></span> <span data-ttu-id="b5749-589">Tämä esimerkki perustuu kalenteritilikauteen.</span><span class="sxs-lookup"><span data-stu-id="b5749-589">This example is based on a calendar fiscal year.</span></span>  
 
-Käyttöomaisuustapahtumat näyttävät seuraavalta:  
+<span data-ttu-id="b5749-590">Käyttöomaisuustapahtumat näyttävät seuraavalta:</span><span class="sxs-lookup"><span data-stu-id="b5749-590">The fixed asset ledger entries look like this:</span></span>  
 
-| Pvm | KO:n kirjaustyyppi | Päivää | Summa | Kirjanpitoarvo |
+| <span data-ttu-id="b5749-591">Pvm</span><span class="sxs-lookup"><span data-stu-id="b5749-591">Date</span></span> | <span data-ttu-id="b5749-592">KO:n kirjaustyyppi</span><span class="sxs-lookup"><span data-stu-id="b5749-592">FA Posting Type</span></span> | <span data-ttu-id="b5749-593">Päivää</span><span class="sxs-lookup"><span data-stu-id="b5749-593">Days</span></span> | <span data-ttu-id="b5749-594">Summa</span><span class="sxs-lookup"><span data-stu-id="b5749-594">Amount</span></span> | <span data-ttu-id="b5749-595">Kirjanpitoarvo</span><span class="sxs-lookup"><span data-stu-id="b5749-595">Book Value</span></span> |
 | --- | --- | --- | --- | --- |
-| 1.11.10 |Hankintameno |* |100,000.00 |100,000.00 |
-| 31.12.10 |Arvonalennus |60 |-20.000,00 |80,000.00 |
-| 31.12.11 |Arvonalennus |360 |-32.000,00 |48,000.00 |
-| 31.12.12 |Arvonalennus |360 |-19.200,00 |28,800.00 |
-| 31.12.13 |Arvonalennus |360 |-11.520,00 |17,280.00 |
-| 31.12.14 |Arvonalennus |360 |-11.520,00 |5 760,00 TP |
-| 31.12.15 |Arvonalennus |180 |-5,760.00 |0,00 TP |
+| <span data-ttu-id="b5749-596">1.11.10</span><span class="sxs-lookup"><span data-stu-id="b5749-596">11/01/10</span></span> |<span data-ttu-id="b5749-597">Hankintameno</span><span class="sxs-lookup"><span data-stu-id="b5749-597">Acquisition Cost</span></span> |* |<span data-ttu-id="b5749-598">100,000.00</span><span class="sxs-lookup"><span data-stu-id="b5749-598">100,000.00</span></span> |<span data-ttu-id="b5749-599">100,000.00</span><span class="sxs-lookup"><span data-stu-id="b5749-599">100,000.00</span></span> |
+| <span data-ttu-id="b5749-600">31.12.10</span><span class="sxs-lookup"><span data-stu-id="b5749-600">12/31/10</span></span> |<span data-ttu-id="b5749-601">Arvonalennus</span><span class="sxs-lookup"><span data-stu-id="b5749-601">Depreciation</span></span> |<span data-ttu-id="b5749-602">60</span><span class="sxs-lookup"><span data-stu-id="b5749-602">60</span></span> |<span data-ttu-id="b5749-603">-20.000,00</span><span class="sxs-lookup"><span data-stu-id="b5749-603">-20,000.00</span></span> |<span data-ttu-id="b5749-604">80,000.00</span><span class="sxs-lookup"><span data-stu-id="b5749-604">80,000.00</span></span> |
+| <span data-ttu-id="b5749-605">31.12.11</span><span class="sxs-lookup"><span data-stu-id="b5749-605">12/31/11</span></span> |<span data-ttu-id="b5749-606">Arvonalennus</span><span class="sxs-lookup"><span data-stu-id="b5749-606">Depreciation</span></span> |<span data-ttu-id="b5749-607">360</span><span class="sxs-lookup"><span data-stu-id="b5749-607">360</span></span> |<span data-ttu-id="b5749-608">-32.000,00</span><span class="sxs-lookup"><span data-stu-id="b5749-608">-32,000.00</span></span> |<span data-ttu-id="b5749-609">48,000.00</span><span class="sxs-lookup"><span data-stu-id="b5749-609">48,000.00</span></span> |
+| <span data-ttu-id="b5749-610">31.12.12</span><span class="sxs-lookup"><span data-stu-id="b5749-610">12/31/12</span></span> |<span data-ttu-id="b5749-611">Arvonalennus</span><span class="sxs-lookup"><span data-stu-id="b5749-611">Depreciation</span></span> |<span data-ttu-id="b5749-612">360</span><span class="sxs-lookup"><span data-stu-id="b5749-612">360</span></span> |<span data-ttu-id="b5749-613">-19.200,00</span><span class="sxs-lookup"><span data-stu-id="b5749-613">-19,200.00</span></span> |<span data-ttu-id="b5749-614">28,800.00</span><span class="sxs-lookup"><span data-stu-id="b5749-614">28,800.00</span></span> |
+| <span data-ttu-id="b5749-615">31.12.13</span><span class="sxs-lookup"><span data-stu-id="b5749-615">12/31/13</span></span> |<span data-ttu-id="b5749-616">Arvonalennus</span><span class="sxs-lookup"><span data-stu-id="b5749-616">Depreciation</span></span> |<span data-ttu-id="b5749-617">360</span><span class="sxs-lookup"><span data-stu-id="b5749-617">360</span></span> |<span data-ttu-id="b5749-618">-11.520,00</span><span class="sxs-lookup"><span data-stu-id="b5749-618">-11,520.00</span></span> |<span data-ttu-id="b5749-619">17,280.00</span><span class="sxs-lookup"><span data-stu-id="b5749-619">17,280.00</span></span> |
+| <span data-ttu-id="b5749-620">31.12.14</span><span class="sxs-lookup"><span data-stu-id="b5749-620">12/31/14</span></span> |<span data-ttu-id="b5749-621">Arvonalennus</span><span class="sxs-lookup"><span data-stu-id="b5749-621">Depreciation</span></span> |<span data-ttu-id="b5749-622">360</span><span class="sxs-lookup"><span data-stu-id="b5749-622">360</span></span> |<span data-ttu-id="b5749-623">-11.520,00</span><span class="sxs-lookup"><span data-stu-id="b5749-623">-11,520.00</span></span> |<span data-ttu-id="b5749-624">5 760,00 TP</span><span class="sxs-lookup"><span data-stu-id="b5749-624">5,760.00 SL</span></span> |
+| <span data-ttu-id="b5749-625">31.12.15</span><span class="sxs-lookup"><span data-stu-id="b5749-625">12/31/15</span></span> |<span data-ttu-id="b5749-626">Arvonalennus</span><span class="sxs-lookup"><span data-stu-id="b5749-626">Depreciation</span></span> |<span data-ttu-id="b5749-627">180</span><span class="sxs-lookup"><span data-stu-id="b5749-627">180</span></span> |<span data-ttu-id="b5749-628">-5,760.00</span><span class="sxs-lookup"><span data-stu-id="b5749-628">-5,760.00</span></span> |<span data-ttu-id="b5749-629">0,00 TP</span><span class="sxs-lookup"><span data-stu-id="b5749-629">0.00 SL</span></span> |
 
-* Poiston aloituspvm  
+* <span data-ttu-id="b5749-630">Poiston aloituspvm</span><span class="sxs-lookup"><span data-stu-id="b5749-630">Depreciation starting date</span></span>  
 
-"TP" kirjanpitoarvon jälkeen tarkoittaa sitä, että käytettiin tasapoistomenetelmää.  
+<span data-ttu-id="b5749-631">"TP" kirjanpitoarvon jälkeen tarkoittaa sitä, että käytettiin tasapoistomenetelmää.</span><span class="sxs-lookup"><span data-stu-id="b5749-631">"SL" after the book value means that the straight-line method has been used.</span></span>  
 
-Laskentamenetelmä:  
+<span data-ttu-id="b5749-632">Laskentamenetelmä:</span><span class="sxs-lookup"><span data-stu-id="b5749-632">Calculation method:</span></span>  
 
-vuosi:  
+<span data-ttu-id="b5749-633">vuosi:</span><span class="sxs-lookup"><span data-stu-id="b5749-633">1st year:</span></span>  
 
-*Menojäännöspoistosumma = Koko vuoden summa = 40 % 100 000:sta = 40 000. Puolen vuoden summa on siis 40 000 / 2 = 20 000.*  
+<span data-ttu-id="b5749-634">*Menojäännöspoistosumma = Koko vuoden summa = 40 % 100 000:sta = 40 000. Puolen vuoden summa on siis 40 000 / 2 = 20 000.*</span><span class="sxs-lookup"><span data-stu-id="b5749-634">*Declining-balance amount = Full year amount = 40% of 100,000 = 40,000. Thus, for half a year 40,000 / 2 = 20,000*</span></span>  
 
-*Tasapoistosumma = Koko vuoden summa = 100 000 / 5 = 20 000. Puolen vuoden summa on siis = 20 000 / 2 = 10 000.*  
+<span data-ttu-id="b5749-635">*Tasapoistosumma = Koko vuoden summa = 100 000 / 5 = 20 000. Puolen vuoden summa on siis = 20 000 / 2 = 10 000.*</span><span class="sxs-lookup"><span data-stu-id="b5749-635">*Straight-line amount = Full year amount = 100,000 / 5 = 20,000. Thus, for half a year = 20,000 / 2 = 10,000*</span></span>  
 
-Tässä käytetään menojäännöspoistosummaa, koska se on suurempi.  
+<span data-ttu-id="b5749-636">Tässä käytetään menojäännöspoistosummaa, koska se on suurempi.</span><span class="sxs-lookup"><span data-stu-id="b5749-636">The declining-balance amount is used because it is the greater amount.</span></span>  
 
-vuosi (2004):  
+<span data-ttu-id="b5749-637">vuosi (2004):</span><span class="sxs-lookup"><span data-stu-id="b5749-637">5th year (2004):</span></span>  
 
-*Menojäännöspoistosumma = 40 % 17 280,00:sta = 6 912,00*  
+<span data-ttu-id="b5749-638">*Menojäännöspoistosumma = 40 % 17 280,00:sta = 6 912,00*</span><span class="sxs-lookup"><span data-stu-id="b5749-638">*Declining-balance amount = 40% of 17,280.00 = 6,912.00*</span></span>  
 
-*Tasapoistosumma = 28 800 / 1,5 = 11 520,00*  
+<span data-ttu-id="b5749-639">*Tasapoistosumma = 28 800 / 1,5 = 11 520,00*</span><span class="sxs-lookup"><span data-stu-id="b5749-639">*Straight-line amount = 28,800 / 1.5 = 11,520.00*</span></span>  
 
-Tässä käytetään tasapoistosummaa, koska se on suurempi.  
+<span data-ttu-id="b5749-640">Tässä käytetään tasapoistosummaa, koska se on suurempi.</span><span class="sxs-lookup"><span data-stu-id="b5749-640">The straight-line amount is used because it is the greater amount.</span></span>  
 
-## <a name="duplicating-entries-to-more-depreciation-books"></a>Tapahtumien monistaminen lisäpoistokirjoihin
-Jos poistokirjoja on kolme – B1, B2 ja B3 – ja jos haluat monistaa tapahtumia B1:stä B2:een ja B3:een, B2:n ja B3:n poistokirjakorttien **Osa monistusluettelosta** -kenttään voi lisätä rastin. Tämä voi olla hyödyllistä, jos poistokirja B1 on integroitu pääkirjanpidon kanssa, ja se käyttää käyttöomaisuuden KP-päiväkirjaa, eikä poistokirjoja B2 ja B3 ole integroitu pääkirjanpidon kanssa, ja ne käyttävät käyttöomaisuuden päiväkirjaa.  
+## <a name="duplicating-entries-to-more-depreciation-books"></a><span data-ttu-id="b5749-641">Tapahtumien monistaminen lisäpoistokirjoihin</span><span class="sxs-lookup"><span data-stu-id="b5749-641">Duplicating Entries to More Depreciation Books</span></span>
+<span data-ttu-id="b5749-642">Jos poistokirjoja on kolme – B1, B2 ja B3 – ja jos haluat monistaa tapahtumia B1:stä B2:een ja B3:een, B2:n ja B3:n poistokirjakorttien **Osa monistusluettelosta** -kenttään voi lisätä rastin.</span><span class="sxs-lookup"><span data-stu-id="b5749-642">If you have three depreciation books, B1, B2 and B3, and you want to duplicate entries from B1 to B2 and B3, you can place a check mark in the **Part of Duplication List** field on the depreciation book cards for B2 and B3.</span></span> <span data-ttu-id="b5749-643">Tämä voi olla hyödyllistä, jos poistokirja B1 on integroitu pääkirjanpidon kanssa, ja se käyttää käyttöomaisuuden KP-päiväkirjaa, eikä poistokirjoja B2 ja B3 ole integroitu pääkirjanpidon kanssa, ja ne käyttävät käyttöomaisuuden päiväkirjaa.</span><span class="sxs-lookup"><span data-stu-id="b5749-643">This can be useful if depreciation book B1 is integrated with the general ledger and uses the fixed asset G/L journal, and depreciation books B2 and B3 are not integrated with the general ledger and use the fixed asset journal.</span></span>  
 
-Kun käyttöomaisuuden KP-päiväkirjan B1:een syötetään tapahtuma ja **Käytä monistusluetteloa** -kenttään lisätään rasti, ohjelma monistaa KO-päiväkirjassa kirjassa B2 ja B3 olevan tapahtuman silloin, kun tapahtuma kirjataan.  
+<span data-ttu-id="b5749-644">Kun käyttöomaisuuden KP-päiväkirjan B1:een syötetään tapahtuma ja **Käytä monistusluetteloa** -kenttään lisätään rasti, ohjelma monistaa KO-päiväkirjassa kirjassa B2 ja B3 olevan tapahtuman silloin, kun tapahtuma kirjataan.</span><span class="sxs-lookup"><span data-stu-id="b5749-644">When you enter an entry in B1 in the fixed asset G/L journal and place a check mark in the **Use Duplication List** field, the program will duplicate the entry in book B2 and B3 in the fixed asset journal when the entry is posted.</span></span>  
 
 > [!NOTE]  
->   Samaan päiväkirjaan tai päiväkirjan erään, josta olet monistamassa, ei voi monistaa. Jos tapahtumia kirjataan käyttöomaisuuden KP-päiväkirjaan, ne voidaan monistaa KO-päiväkirjaan tai käyttöomaisuuden KP-päiväkirjaan muuta erää käyttämällä.  
+>   <span data-ttu-id="b5749-645">Samaan päiväkirjaan tai päiväkirjan erään, josta olet monistamassa, ei voi monistaa.</span><span class="sxs-lookup"><span data-stu-id="b5749-645">You cannot duplicate in the same journal and journal batch as you are duplicating from.</span></span> <span data-ttu-id="b5749-646">Jos tapahtumia kirjataan käyttöomaisuuden KP-päiväkirjaan, ne voidaan monistaa KO-päiväkirjaan tai käyttöomaisuuden KP-päiväkirjaan muuta erää käyttämällä.</span><span class="sxs-lookup"><span data-stu-id="b5749-646">If you post entries in the fixed asset G/L journal, you can duplicate them in the fixed asset journal or in the fixed asset G/L journal using another batch.</span></span>  
 
 > [!NOTE]  
->   Samaa numerosarjaa ei voi käyttää sekä käyttöomaisuuden KP-päiväkirjassa että KO-päiväkirjassa. Kun kirjaat tapahtumia käyttöomaisuuden KP-päiväkirjaan, jätä **Asiakirjan nro** -kenttä tyhjäksi. Jos annat kenttään numeron, numero monistetaan KO-päiväkirjaan. Asiakirjanumero on muutettava manuaalisesti ennen päiväkirjan kirjaamista.  
+>   <span data-ttu-id="b5749-647">Samaa numerosarjaa ei voi käyttää sekä käyttöomaisuuden KP-päiväkirjassa että KO-päiväkirjassa.</span><span class="sxs-lookup"><span data-stu-id="b5749-647">You cannot use the same number series in the fixed asset G/L journal and the fixed asset journal.</span></span> <span data-ttu-id="b5749-648">Kun kirjaat tapahtumia käyttöomaisuuden KP-päiväkirjaan, jätä **Asiakirjan nro** -kenttä</span><span class="sxs-lookup"><span data-stu-id="b5749-648">When you post entries in the fixed asset G/L journal, you must leave the **Document No.**</span></span> <span data-ttu-id="b5749-649">tyhjäksi.</span><span class="sxs-lookup"><span data-stu-id="b5749-649">field empty.</span></span> <span data-ttu-id="b5749-650">Jos annat kenttään numeron, numero monistetaan KO-päiväkirjaan.</span><span class="sxs-lookup"><span data-stu-id="b5749-650">If you enter a number in the field, the the number is duplicated in the fixed asset journal.</span></span> <span data-ttu-id="b5749-651">Asiakirjanumero on muutettava manuaalisesti ennen päiväkirjan kirjaamista.</span><span class="sxs-lookup"><span data-stu-id="b5749-651">You'll have to manually change the document number before you can post the journal.</span></span>  
 
-## <a name="see-also"></a>Katso myös
-[Käyttöomaisuus](fa-manage.md)  
-[Käyttöomaisuuden määrittäminen](fa-setup.md)  
-[Rahoitus](finance.md)  
-[Tervetuloa [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]iin!](index.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="b5749-652">Katso myös</span><span class="sxs-lookup"><span data-stu-id="b5749-652">See Also</span></span>
+[<span data-ttu-id="b5749-653">Käyttöomaisuus</span><span class="sxs-lookup"><span data-stu-id="b5749-653">Fixed Assets</span></span>](fa-manage.md)  
+[<span data-ttu-id="b5749-654">Käyttöomaisuuden määrittäminen</span><span class="sxs-lookup"><span data-stu-id="b5749-654">Setting Up Fixed Assets</span></span>](fa-setup.md)  
+[<span data-ttu-id="b5749-655">Rahoitus</span><span class="sxs-lookup"><span data-stu-id="b5749-655">Finance</span></span>](finance.md)  
+<span data-ttu-id="b5749-656">[Tervetuloa [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]iin!](index.md)</span><span class="sxs-lookup"><span data-stu-id="b5749-656">[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)</span></span>  
+<span data-ttu-id="b5749-657">[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="b5749-657">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 
