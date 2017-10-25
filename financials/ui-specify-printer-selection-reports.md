@@ -12,17 +12,17 @@ ms.workload: na
 ms.search.keywords: online printing
 ms.date: 03/29/2017
 ms.author: solsen
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 106ad2acf2703e8182033a43a39c693a8b060d8f
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 42fb4adbcc01c443722fe90bb59edafceb34ff06
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/11/2017
+ms.lasthandoff: 09/22/2017
 
 ---
-# <a name="specify-printer-selection-for-reports"></a><span data-ttu-id="23b25-103">Tulostimen valinnan määrittäminen raporteille</span><span class="sxs-lookup"><span data-stu-id="23b25-103">Specify Printer Selection for Reports</span></span>
-<span data-ttu-id="23b25-104">Tämä sivu on tyhjä, koska et voi määrittää tiettyjä tulostimia tietyille raporteille.</span><span class="sxs-lookup"><span data-stu-id="23b25-104">This page is empty because you cannot yet set up specific printers for specific reports.</span></span> <span data-ttu-id="23b25-105">Etsimme ongelmaan ratkaisua.</span><span class="sxs-lookup"><span data-stu-id="23b25-105">We are working on solving this.</span></span>
+# <a name="specify-printer-selection-for-reports"></a><span data-ttu-id="1940d-103">Tulostimen valinnan määrittäminen raporteille</span><span class="sxs-lookup"><span data-stu-id="1940d-103">Specify Printer Selection for Reports</span></span>
+<span data-ttu-id="1940d-104">Tämä sivu on tyhjä, koska et voi määrittää tiettyjä tulostimia tietyille raporteille.</span><span class="sxs-lookup"><span data-stu-id="1940d-104">This page is empty because you cannot yet set up specific printers for specific reports.</span></span> <span data-ttu-id="1940d-105">Etsimme ongelmaan ratkaisua.</span><span class="sxs-lookup"><span data-stu-id="1940d-105">We are working on solving this.</span></span>
 
-<span data-ttu-id="23b25-106">Toistaiseksi tulostettava raportti on ladattava PDF-tiedostona valitsemalla ensin **Lähetä kohteeseen** -painike.</span><span class="sxs-lookup"><span data-stu-id="23b25-106">In the meantime, when you want to print a report you have to download the report as a PDF document first by choosing the **Send to** button.</span></span> <span data-ttu-id="23b25-107">Valitse tämän jälkeen tiedostotyyppi, jona haluat ladata tiedoston. Valitse nyt **PDF-asiakirja**.</span><span class="sxs-lookup"><span data-stu-id="23b25-107">Then you select the type of file to download the report as, and here you should pick **PDF Document**.</span></span> <span data-ttu-id="23b25-108">Voit nyt joka avata PDF-tiedoston ja tulostaa sen tai tallentaa sen myöhemmin tulostettavaksi.</span><span class="sxs-lookup"><span data-stu-id="23b25-108">Now, you can either open the PDF document right-away and print it, or save it and print it later.</span></span>
+<span data-ttu-id="1940d-106">Toistaiseksi tulostettava raportti on ladattava ensin PDF-tiedostona valitsemalla **Lähetä kohteeseen** -painike.</span><span class="sxs-lookup"><span data-stu-id="1940d-106">In the meantime, when you want to print a report, you have to download the report as a PDF document first by choosing the **Send to** button.</span></span> <span data-ttu-id="1940d-107">Valitse tämän jälkeen tiedostotyyppi, jona haluat ladata tiedoston. Valitse nyt **PDF-asiakirja**.</span><span class="sxs-lookup"><span data-stu-id="1940d-107">Then you select the type of file to download the report as, and here you should pick **PDF Document**.</span></span> <span data-ttu-id="1940d-108">Voit nyt joka avata PDF-tiedoston ja tulostaa sen tai tallentaa sen myöhemmin tulostettavaksi.</span><span class="sxs-lookup"><span data-stu-id="1940d-108">Now, you can either open the PDF document right-away and print it, or save it and print it later.</span></span>
 
 <!--
 
@@ -45,8 +45,8 @@ The following table describes the combination of values to specify when you set 
 |Print a specific report to a specific printer for a specific user|Specify values in all three fields.|
 -->
 
-## <a name="see-also"></a><span data-ttu-id="23b25-109">Katso myös</span><span class="sxs-lookup"><span data-stu-id="23b25-109">See Also</span></span>
-<span data-ttu-id="23b25-110">[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="23b25-110">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
-[<span data-ttu-id="23b25-111">Toimintaohje: Eräajojen ajaminen</span><span class="sxs-lookup"><span data-stu-id="23b25-111">How to: Run Batch Jobs</span></span>](ui-how-run-batch-jobs.md)  
-[<span data-ttu-id="23b25-112">Toimintaohje: Asiakirjojen lähettäminen sähköpostitse</span><span class="sxs-lookup"><span data-stu-id="23b25-112">How to: Send Documents by Email</span></span>](ui-how-send-documents-email.md)  
+## <a name="see-also"></a><span data-ttu-id="1940d-109">Katso myös</span><span class="sxs-lookup"><span data-stu-id="1940d-109">See Also</span></span>
+<span data-ttu-id="1940d-110">[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="1940d-110">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+[<span data-ttu-id="1940d-111">Toimintaohje: Eräajojen ajaminen</span><span class="sxs-lookup"><span data-stu-id="1940d-111">How to: Run Batch Jobs</span></span>](ui-how-run-batch-jobs.md)  
+[<span data-ttu-id="1940d-112">Toimintaohje: Asiakirjojen lähettäminen sähköpostitse</span><span class="sxs-lookup"><span data-stu-id="1940d-112">How to: Send Documents by Email</span></span>](ui-how-send-documents-email.md)  
 

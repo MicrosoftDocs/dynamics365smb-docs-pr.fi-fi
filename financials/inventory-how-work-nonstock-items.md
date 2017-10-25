@@ -11,11 +11,11 @@ ms.workload: na
 ms.search.keywords: non-inventoriable
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: b51c163dc8eafc462a1fd489d498d44eaeafd24a
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: b9256944295880d6ec9dad916eb9632b9d5f7c20
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/11/2017
+ms.lasthandoff: 09/22/2017
 
 ---
 # Toimintaohje: Ei-varastoitavien nimikkeiden käsitteleminen
@@ -65,7 +65,8 @@ Tämän jälkeen voit täyttää uuden nimikekortin kentät tai muokata niitä t
 >   Toimittajalle luodaan automaattisesti nimikkeen viittaustietue nimikkeelle, jonka numero on toimittajan nimikenumeron ja uuden nimikenumeron välissä.
 
 ## Katso myös
-[Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md)  
-[Varasto](inventory-manage-inventory.md)  
+[Toimintaohje: Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md)  
+[Erikoistilausten luominen](sales-how-to-create-special-orders.md)|  
+[Vaihto-omaisuus](inventory-manage-inventory.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
 
