@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 11de49ec0ffc1ff847839a913fbe538930145221
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 6a2e2465cb73716b4087c6dc43ef97c640840a63
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="managing-sales-opportunities"></a>Myyntimahdollisuuksien hallinta
@@ -25,9 +24,9 @@ Kaikkia saapuvia leadeja voidaan pitää myyntimahdollisuuksina. Voit luoda mahd
 
 Myyntisyklit ja myyntisyklin vaiheet on määritettävä ennen mahdollisuuksien hallinnan käyttöönottoa. Mahdollisuuksien luomisen yhteydessä on määritettävä tietoja kontaktista, myyjästä, myyntisyklistä ja päivämääristä sekä omat arviot mahdollisuuden myyntiarvosta ja onnistumisesta.
 
-Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisiin. Tehtävät luetellaan järjestyksessä, jossa ne yleensä suoritetaan.
+Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aiheisiin. 
 
-| Toiminta | Katso |
+| Vastaanottaja | Katso |
 | --- | --- |
 | Myyntisyklien määrittäminen, joka on yleensä seuraavana, ja kunkin mahdollisuuden myyntisyklin eri vaiheet. |[Toimintaohje: Mahdollisuuden myyntisyklien ja syklin vaiheiden määrittäminen](marketing-how-setup-opportunity-sales-cycles-stages.md) |
 | Luo kontakteiltasi peräisin olevat myyntimahdollisuudet. |[Toimintaohje: Mahdollisuuksien luominen](marketing-how-create-opportunities.md) |

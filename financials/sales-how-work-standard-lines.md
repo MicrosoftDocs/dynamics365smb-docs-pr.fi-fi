@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: trade, sell, replenishment
 ms.date: 07/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 85d15de13739e944ff8817b402b37ae1c7e1b144
-ms.openlocfilehash: 980a0646317c2b5c02c0eadcde9ba984c11580c4
+ms.translationtype: HT
+ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
+ms.openlocfilehash: 6f7202da4290ae3f6093baed4185649c30d6a199
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/27/2017
 
 ---
 # <a name="how-to-create-recurring-sales-and-purchase-lines"></a>Toimintaohje: Toistuvien myynti- ja ostorivien luominen
@@ -39,12 +38,12 @@ Seuraavassa menettelyssä käsitellään vakiomyyntirivien käyttämistä. Niit�
 5. Lisää vakiomyyntirivit laskuun valitsemalla **OK**. Voit sitten käyttää näitä rivejä sellaisenaan tai muokata rivien tietoja.
 
 ## <a name="to-create-multiple-sales-invoices-based-on-standard-sales-lines"></a>Useiden myyntilaskujen luonti vakiomyyntirivien perusteella
-Voit käyttää **Luo toistuvia myyntilaskuja** -eräajoa, kun luot sellaisia asiakkaille määritettyjä myyntilaskuja vakiomyyntirivien mukaisesti, joiden kirjauspäivämäärät ovat vakiomyyntikoodissa määritetyllä voimassaoloajalla.
+Voit luoda **Luo toistuvia myyntilaskuja** -eräajolla myyntilaskuja asiakkaille määritettyjen vakiomyyntirivien mukaan siten, että niiden kirjauspäivämäärät ovat vakiomyyntikoodissa määritetyllä voimassaolon päivämäärävälillä.
 
-Voit määrittää **Toistuvat myyntirivit** -ikkunassa myös suoraveloitusmaksutavan ja suoraveloitusvaltakirjan. Tämän jälkeen **Luo toistuvia myyntilaskuja** -eräajolla luodut myyntilaskut sisältävät tiedot, joita tarvitaan myyntilaskujen maksun keräämiseen SEPA-suoraveloituksella. Lisätietoja on ohjeaiheessa Maksujen kerääminen SEPA-suoraveloitusperintänä.
+Voit määrittää **Toistuvat myyntirivit** -ikkunassa myös suoraveloitusmaksutavan ja suoraveloitusvaltakirjan. Laskut, jotka luodaan **Luo toistuvia myyntilaskuja** -eräajolla, sisältävät tietoja, jotka vaaditaan maksun perimiseen SEPA-suoraveloituksen sisältävistä myyntilaskuista. Lisätietoja on kohdassa [SEPA-suoraveloitusmaksujen periminen](finance-collect-payments-with-sepa-direct-debit.md).
 
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoitta **Luo toistuvia myyntilaskuja** ja valitse sitten aiheeseen liittyvä linkki.
-2. Täytä **Luo toistuvia myyntilaskuja**  -ikkunassa tarvittavat kentät.
+2. Täytä **Luo toistuvia myyntilaskuja** -ikkunassa tarvittavat kentät.
 3. Anna **Koodi**-kentässä sille asiakkaalle määritetty vakiomyyntirivien koodi, jolle haluat luoda myyntilaskuja.
 4. Valitse **OK**-painike.
 

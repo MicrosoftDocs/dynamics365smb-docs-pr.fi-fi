@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 06/15/2017
+ms.date: 06/28/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 386c202b3c742416a7654a00660309904d47c0ae
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 203449e8a7f032dbcb7b3d014c3198e0a2e7847a
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="finance"></a>Rahoitus
@@ -31,22 +30,26 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 | --- | --- |
 | Kohdista saapuvia maksuja, täsmäytä pankkitilejä maksujen kohdistamisen aikana ja peri avoimia saldoja. |[Myyntisaamisten hallinta](receivables-manage-receivables.md) |
 | Suorita maksuja, kohdista lähteviä maksuja ja käsittele sekkejä. |[Ostovelkojen hallinta](payables-manage-payables.md) |
+|Saat asiakkaat lähettämään maksun ennen toimitusta tai lähetät itse maksun toimittajille, ennen kuin he toimittavat sinulle.|[Ennakkomaksujen laskuttaminen](finance-invoice-prepayments.md)|
 | Täsmäytä pankkitilejä ja siirrä varoja pankkitilien välillä. |[Pankkitilien hallinta](bank-manage-bank-accounts.md) |
+|Määritä konsernikumppanit ja käsittele tapahtumat manuaalisesti tai automaattisesti samaan yhtiöön kuuluvien yritysten välillä.|[Konsernitapahtumien hallinta](intercompany-manage.md)|
+|Analysoi liiketoiminnan kustannuksia kohdistamalla toimintojen, osastojen, toimintojen ja projektien toteutuneet ja budjetoidut kustannukset kustannuspaikkoihin.|[Kustannuslaskenta](finance-manage-cost-accounting.md)|
+|Varaston ja tuotannon kustannusten hallinta, kustannusten raportointi ja kustannusten täsmäyttäminen pääkirjanpitoon.|[Varaston kustannusten hallinta](finance-manage-inventory-costs.md)|
 | Tietoja pääkirjanpidosta ja tilikartasta. |[Pääkirjanpito ja aitoustodistus](finance-general-ledger.md) |
 | Lisää dimensioita, kun haluat saada käyttöön monipuolisempia liiketoimintatietoja. |[Dimensioiden käyttäminen](finance-dimensions.md) |
 | Budjettien luominen ennustamaan erilaisia taloudellisia toimintoja ja dimensioiden määrittäminen liiketoimintatietoja varten. |[Uusien budjettien luominen](finance-how-create-budgets.md) |
-|Kirjaa tuotot tai kulut suoraan pääkirjanpitoon kirjaamatta erityisiä liiketoiminnan asiakirjoja.|[Tapahtumien kirjaaminen suoraan pääkirjanpitoon](finance-how-post-transactions-directly.md)|
-|Kirjaa peruutustapahtumia pääkirjanpitoon kirjattujen tapahtumien peruuttamiseksi. |[Päiväkirjakirjauksen peruuttaminen](finance-how-reverse-journal-posting.md)|
+|Kirjaa tuotot tai kulut suoraan pääkirjanpitoon kirjaamatta erityisiä liiketoiminnan asiakirjoja.|[Toimintaohje: Tapahtumien kirjaaminen suoraan pääkirjanpitoon](finance-how-post-transactions-directly.md)|
+|Kirjaa käänteiskirjaukset ja kumoa niillä kirjanpidon arvokirjaukset tai osto- ja myyntiasiakirjojen määräkirjaukset. |[Toimintaohje: Kirjausten peruuttaminen](finance-how-reverse-journal-posting.md)|
+|Voit kohdistaa tapahtuman useisiin yleisen päiväkirjan tileihin päiväkirjan kirjaamisen yhteydessä. |[Toimintaohje: Kustannusten ja tulojen kohdistaminen](year-allocate-costs-income.md) |
 | Liitä lisäkustannukset, kuten rahti- ja fyysisen käsittelyn kustannukset, joita joudut maksamaan kaupan yhteydessä nimikkeisiin, jotta kustannukset vaikuttavat varastonarvostukseen. |[Toimintaohje: Kaupan lisäkustannusten huomiointi nimikekulujen avulla](payables-how-assign-item-charges.md) |
-| Tulouta tuotot ja kulut muissa kuin niissä jaksoissa, joiden tapahtumat on kirjattu. |[Toimintaohje: Tuottojen ja kulujen siirtäminen](finance-how-defer-revenue-expenses.md) |
-| Tuo palkkatapahtumat palkanlaskennan tarjoajalta pääkirjanpitoon. |[Toimintaohje: Palkkatapahtumien tuominen](finance-how-import-payroll-transactions.md) |
+|Kirjaa työntekijöiden liiketoimintaan liittyvät henkilökohtaiset kulut ja tee hyvitykset suorittamalla maksu työntekijän pankkitilille.|[Toimintaohje: Työntekijöiden kulujen kirjaaminen ja hyvittäminen](finance-how-record-reimburse-employee-expenses.md)|
+| Tulouta tuotot ja kulut muissa kuin niissä jaksoissa, joiden tapahtumat on kirjattu. |[Toimintaohje: Tuottojen ja kulujen siirtäminen](finance-how-defer-revenue-expenses.md)|
+|Lisätietoja lisävaluuttojen käytöstä ja vaihtokurssien päivittämisestä automaattisesti. |[Toimintaohje: Valuutan vaihtokurssien päivittäminen](finance-how-update-currencies.md)|
+| Tuo palkkatapahtumat palkanlaskennan tarjoajalta pääkirjanpitoon. |[Toimintaohje: Palkkatapahtumien tuominen](finance-how-import-payroll-transactions.md)|
 | Seuraa yrityksen kassavirtaliikennettä. |[Yrityksen kassavirtojen analysoiminen](finance-analyze-cash-flow.md) |
+| Käsittele tilinpäätöksiä ja yhteenvetoja Excelissä. |[Rahoituslaskelmien analysointi Excelissä](finance-analyze-excel.md) |
 | Valmistele tilikauden tai kirjanpitokauden sulkeminen. |[Vuosien ja jaksojen sulkeminen](year-close-years-periods.md) |
-|**Yhdysvallat**: täytä veroviranomaisen vaatimukset useanlaisten, toimittajamaksuja koskevien 1099-lomakkeen lähettämisestä.|[Freelance-tulojen ilmoitukset (lomake 1099) USA:ssa](us-finance-tax-1099.md)|
-|**Yhdysvallat ja Kanada**: ymmärrä, miten yhdysvaltalainen ja kanadalainen myyntiverotoiminnallisuus määritetään.|[Myyntiveron ilmoittamien Yhdysvalloissa ja Kanadassa](us-finance-sales-tax.md)|
-|**Kanada**: ymmärrä, miten kanadalainen tuotteiden ja palveluiden myyntiverotoiminnallisuus määritetään.|[Kanadan arvonlisäveron raportointi](ca-finance-tax.md)|
-|**Kanada**: kanadalaisten GIFI-tietojen raportointitoiminnallisuuden määrittäminen ja käyttö.| [Toimintaohje: Kanadan GIFI-koodien käyttäminen](ca-finance-work-gifi-codes.md)
-|**EU**: valmistele raportti, jossa luetellaan myynneistä saatu arvonlisävero ja lähetä raportti veroviranomaiselle. | [ALV:n raportointi veroviranomaisille](finance-how-report-vat.md)|
+|valmistele raportti, jossa luetellaan myynneistä saatu arvonlisävero ja lähetä raportti EU:n veroviranomaiselle. | [ALV:n raportointi veroviranomaisille](finance-how-report-vat.md)|
 
 ## <a name="see-also"></a>Katso myös
 [Rahoituksen määrittäminen](finance-setup-finance.md)  

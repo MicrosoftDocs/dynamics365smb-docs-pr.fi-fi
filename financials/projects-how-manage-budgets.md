@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: project budget, forecast
 ms.date: 06/06/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 0e480c67ddb2acd5e98799c98cb1cd9d972889df
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-manage-job-budgets"></a>Toimintaohje: Projektibudjettien hallinta
@@ -39,7 +38,7 @@ Viittaa **Rivityyppi**-kentässä seuraaviin tietoihin.
 | --- | --- |
 | **Sekä budjetti että laskutettava** |Suunnitteluriville annetut kustannus- ja hintasummat ovat tämän suunnittelurivin budjetoidut kustannukset sekä laskutettava hinta. Hinnaston summa laskutetaan. |
 | **Budjetti** |Asiakasta ei veloiteta käytöstä. Sitä ei voida koskaan siirtää laskuun, mutta käytetään edelleen KET-laskennassa. |
-| **Laskutettava** |Asiakasta veloitetaan käytöstä. Käyttö siirretään laskuun Laskuun siirrettävä määrä -kentässä määritetyn määrän perusteella. |
+| **Laskutettava** |Asiakasta veloitetaan käytöstä. Laskutettava määrä on määritetty kunkin ostorivin Laskuun siirrettävä määrä -kentässä. |
 
 > [!NOTE]  
 >   Suunnittelurivin **Suunnittelupäivämäärä**-kenttä sisältää päivämäärän, jona suunnitteluriviin liittyvän käytön odotetaan olevan valmis. Se on myös päivämäärä, jona suunnittelurivi voidaan siirtää myyntilaskuun ja kirjata.  

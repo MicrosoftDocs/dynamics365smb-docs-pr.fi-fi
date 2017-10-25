@@ -1,8 +1,6 @@
 ---
-title: ALV-viranomaisilmoitusten hallinta| Microsoft Docs
-description: "Opi valmistelemaan raportti, jossa luetellaan myynneistä tiettynä kautena saatu arvonlisävero sekä lähettämään raportti veroviranomaiselle."
-services: project-madeira
-documentationcenter: 
+title: "ALV-ilmoitusten lähettäminen veroviranomaisille| Microsoft Docs"
+description: "Lisätietoja sellaisten ilmoitusten valmistelusta, joissa mainitaan myynnin tai myynnin ja ostojen arvonlisävero tiettynä kautena, ilmoituksen lähettämisestä veroviranomaisille."
 author: bholtorf
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,74 +8,97 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, tax, report, EC sales list, statement
-ms.date: 06/02/2017
+ms.date: 07/17/2017
 ms.author: bholtorf
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 9b0db56fc08881a94b1f80bafed32d7bcbc24fd8
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 2f1e4016df9932b0441d664e203be947e1fa643e
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 
-# <a name="how-to-report-vat-to-tax-authorities"></a>ALV:n raportointi veroviranomaisille
-Euroopan yhteisö (EY) -myyntiluetteloraportti sisältää luettelon arvonlisäveron (ALV) summista, jotka olet kerännyt myynneistä EU:n sisällä, jotta voit lähettää ALV-summat veroviranomaisen verkkopalveluun.
+# <a name="how-to-report-vat-to-a-tax-authority"></a>Toimintaohje: ALV:n raportointi veroviranomaisille
+Tässä ohjeaiheessa käsitellään [!INCLUDE[d365fin](includes/d365fin_md.md)]in raportteja, joilla voit lähettää myynnin ja ostojen arvolisäverosummia koskevat tiedot alueesi veronviranomaisille.
 
-> [!NOTE]  
->   Isossa-Britanniassa kaikki yritykset, joiden vuosittainen myynti EU-jäsenvaltioissa sijaitseville asiakkaille ylittää tietyn summan, ovat velvoitettuja lähettämään sähköisen version Euroopan yhteisön (EY) -myyntiluetteloraportista XML-muodossa Britannian veroviranomaisen verkkosivun kautta.
+Käytössä on seuraavat raportit:
 
-EY-myyntiluetteloraportti toimii vain EU-maiden kohdalla. Se ei esimerkiksi sisällä arvonlisäveroa myynneistä Kiinan tai Yhdysvaltain kaltaisiin maihin.
+* **EU-myyntiluettelo** Euroopan unionin (EU:n) myyntiluettelo sisältää arvolisävero- eli ALV-summat, jotka olet kerännyt EU-maissa sijaitseville ALV-rekisteröidyille asiakkaille suuntautuneesta myynnistä.  
+* **ALV-palautus**-raportti sisältää kaikissa sellaisissa maissa toimiville asiakkaille suuntautuneen myynnin ja ostojen ALV:n, joissa käytetään arvonlisäveroa.
 
-Jotta voisit ilmoittaa arvonlisäveron viranomaiselle sähköisesti, [!INCLUDE[d365fin](includes/d365fin_md.md)] on yhdistettävä veroviranomaisen verkkopalveluun. Tämä edellyttää, että luot tilin ALV-viranomaisen kanssa. Kun sinulla on tili, voit ottaa käyttöön [!INCLUDE[d365fin](includes/d365fin_md.md)]issa tarjotun palveluyhteyden. Esimerkiksi Iso-Britanniassa voit käyttää **GovTalk**-palveluyhteyttä.
+Jos haluat tarkastella täydellistä ALV-tapahtumahistoriaa, jokainen ALV:n sisältävä kirjaus luo tapahtuman **ALV-tapahtumat**-sivulla. Näitä tapahtumia käytetään laskettaessa ALV-laskelmasi summaa (maksu tai palautus) tietyltä kaudelta. Voit tarkastella ALV-tapahtumia valitsemalla ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoittamalla **ALV- tapahtumat** ja valitsemalla sitten aiheeseen liittyvän linkin.
+
+## <a name="about-the-ec-sales-list-report"></a>Tietoja EU-myyntiluettelo-raportista
+Isossa-Britanniassa kaikkien tavaroita ja palveluja ALV-rekisteröidyille asiakkaille, myös muiden EU-maiden asiakkaille, myyvien yritysten on lähetettävä EU-myyntiluettelo-raportin sähköinen versio XML-muodossa HMRC (Her Majesty's Revenue and Customs) -viraston sivuston kautta. EU-myyntiluettelo-raportti toimii vain EU-maiden kohdalla.
 
 Raportti sisältää yhden rivin kullekin asiakastapahtumalle ja näyttää kokonaissumman tietyntyyppisille tapahtumille. Raportti voi sisältää kolmentyyppisiä tapahtumia:  
-  
+
 * B2B-tuotteet  
 * B2B-palvelut  
 * B2B-kolmikantakaupan tuotteet  
-  
-B2B-tuotteet ja palvelut määrittävät, onko myyty tavaraa vai palvelua, joita hallitsee **EU-palvelu** -asetus ALV-kirjausasetuksissa. B2B-kolmikantakaupan tuotteet ilmaisevat kaupankäyntiä kolmannen osapuolen kanssa, ja näitä hallitaan myyntiasiakirjojen, kuten myyntitilausten, laskujen ja hyvityslaskujen **EU-kolmikantakauppa**-asetuksella.  
-  
-Kun lähetät raportin, [!INCLUDE[d365fin](includes/d365fin_md.md)] valvoo palvelua ja pitää kirjaa yhteydenpidosta. **Tila**-kenttä ilmaisee raportin kulun prosessissa. Kun viranomainen on esimerkiksi käsitellyt raporttisi, sen tilaksi tulee **Onnistui**. Jos veroviranomaiselle lähetetyssä raportissa on virheitä, sen tilaksi muutetaan **Epäonnistui**. Voit tarkastella virheitä kohdassa **Virheet ja varoitukset**, korjata ne ja lähettää raportin uudelleen. Voit tarkastella luetteloa kaikista EY-myyntiluetteloraporteistasi **EU-myyntiluetteloraportit**-sivulla.  
-  
-> [!NOTE]  
->   Jos raportti lähetetään jollakin muulla tavalla, esimerkiksi viemällä se XML-tiedostoksi ja lataamalla sen veroviranomaisen verkkosivulle, raportointikauden voi sulkea sen jälkeen valitsemalla **Merkitse lähetetyksi**. Kun olet merkinnyt ALV-raportin vapautetuksi, siitä tulee ei muokattava. Jos raporttia on muutettava sen jälkeen, kun se on merkitty vapautetuksi, raportti on ensin avattava uudelleen. 
-  
+
+B2B-tuotteet ja -palvelut määrittävät, onko kyse myydystä tavarasta tai palvelusta, jota voi hallita ALV-kirjausasetusten **EU-palvelu**-asetuksella. B2B-kolmikantakaupan tuotteet ilmaisevat, onko kyse kaupankäynnistä kolmannen osapuolen kanssa, jolloin niitä voi hallita myyntiasiakirjojen, kuten myyntitilausten, laskujen ja hyvityslaskujen, **EU-kolmikantakauppa**-asetuksella.  
+
 Kun veroviranomainen on tarkistanut raporttisi, yrityksesi yhteyshenkilö saa viranomaiselta sähköpostiviestin. [!INCLUDE[d365fin](includes/d365fin_md.md)]issa yhteyshenkilö määritetään **Yritystiedot**-sivulla. Ennen kuin lähetät raportin, varmista, että olet valinnut yhteyshenkilön.
 
-<!--> [!NOTE]  
->   EY-myyntiluetteloraportti voi sisältää enintään 1000 riviä. Jos rivejä on enemmän, lähetä useampi raportti. -->
+## <a name="about-the-vat-return-report"></a>Tietoja ALV-palautusraportista
+Voit lähettää tällä raportilla osto- ja myyntiasiakirjoissa olevan ALV:n. Näitä asiakirjoja ovat esimerkiksi osto- ja myyntitilaukset, laskut ja hyvityslaskut. Tiedot ovat raportissa samassa muodossa kuin tulli- ja veroviranomaisille tehtävässä yhteenvetoilmoituksessa.  
+
+ALV lasketaan määritettyjen ALV-kirjausasetusten ja ALV-kirjausryhmien perusteella.
+
+Tapahtumat voidaan määrittää sisältämään ALV-palautuksia varten seuraavat tiedot:
+
+* Lähetä vain avoimet tapahtumat tai avoimet ja suljetut tapahtumat. Tämä on kätevää esimerkiksi silloin, kun valmistelet lopullista vuositason ALV-palautusta.
+* Lähetä vain määritettyjen kausien tapahtumat tai sisällytä myös edellisten kausien tapahtumat. Tämä on kätevää päivitettäessä jo lähetettyä ALV-palautusta, jos esimerkiksi toimittaa lähettää laskun myöhässä.    
 
 ## <a name="to-connect-to-your-tax-authoritys-web-service"></a>Veroviranomaisen verkkopalveluun yhdistäminen
-[!INCLUDE[d365fin](includes/d365fin_md.md)] tarjoaa palveluyhteydet, jotka yhdistävät veroviranomaisen sivustoihin. Esimerkiksi Iso-Britanniassa sinun on otettava käyttöön **GovTalk**-palveluyhteys.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] sisältää palveluyhteyden veroviranomaisten sivustoihin. Jos toimit esimerkiksi Isossa-Britanniassa, voit ottaa käyttöön **GovTalk**-palveluyhteyden, jonka kautta voit lähettää EU-myyntiluettelo- ja ALV-palautus-raportit sähköisessä muodossa. Jos haluat lähettää raportin manuaalisesti antamalla tiedot esimerkiksi veronviranomaisten sivustossa, yhteyttä ei ole pakko ottaa käyttöön.   
 
-1. Kirjoita **Etsi sivuja tai raportteja** -kenttään **Palveluyhteydet** ja valitse sitten asiaankuuluva linkki. <!-- remember to get the updated text for this-->  
-2. Täytä vaaditut kentät.  
+Jotta voisit ilmoittaa arvonlisäveron viranomaiselle sähköisesti, [!INCLUDE[d365fin](includes/d365fin_md.md)] on yhdistettävä veroviranomaisen verkkopalveluun. Tämä edellyttää, että luot tilin ALV-viranomaisen kanssa. Kun sinulla on tili, voit ottaa käyttöön [!INCLUDE[d365fin](includes/d365fin_md.md)]issa tarjotun palveluyhteyden.
 
-## <a name="to-set-up-the-ec-sales-list-report"></a>EY-myyntiluetteloraportin määrittäminen
-1. Kirjoita **Etsi sivuja tai raportteja** -kenttään **ALV-raportin asetukset** ja valitse sitten asiaankuuluva linkki.  
-2. Jos haluat antaa käyttäjille mahdollisuuden muuttaa ja uudelleenlähettää näitä raportteja, valitse **Muokkaa lähetettyjä raportteja** -valintaruutu.  
-3. Määritä EY-myyntiluetteloraporteissa käytettävä numerosarja.  
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Palvelun yhteydet** ja valitse sitten sopiva linkki.
+2. Täytä vaaditut kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## <a name="to-prepare-and-submit-the-ec-sales-list-report"></a>EY-myyntiluetteloraportin valmistelu ja lähettäminen
-1. Kirjoita **Etsi sivuja tai raportteja** -kenttään **EY-myyntiluetteloraportti** ja valitse sitten asiaankuuluva linkki.  
-2. Valitse **Uusi** ja täytä sitten tarvittavat kentät.  
+    > [!NOTE]  
+>   Yhteyden toimivuus kannattaa testata. Sen voi tehdä valitsemalla **Testitila**-valintaruudun sekä valmistelemalla ja lähettämällä ALV-raportin kohdassa _ALV-raportin valmisteleminen ja lähettäminen_ kuvatulla tavalla. Palvelu testaa testitilassa, voiko veroviranomainen vastaanottaa raportin. Raportin tila ilmaisee, onnistuiko testilähetys vai ei. Muista kuitenkin, että tietoja ei ole vielä oikeasti lähetetty. Kun haluat lähettää raportin oikeasti, poista **Testitila**-valintaruudun valinta ja toista sitten lähetysprosessi.
+
+## <a name="to-set-up-vat-reports-in-included365finincludesd365finmdmd"></a>ALV-raporttien määrittäminen [!INCLUDE[d365fin](includes/d365fin_md.md)]issa
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **ALV-raportin asetukset** ja valitse sitten aiheeseen liittyvä linkki.  
+2. Jos haluat, että käyttäjät voivat muuttaa ja uudelleenlähettää näitä raportteja, valitse **Muokkaa lähetettyjä raportteja** -valintaruutu.  
+3. Valitse kussakin raportissa käytettävä numerosarja.  
+
+## <a name="to-prepare-and-submit-a-vat-report"></a>ALV-raportin valmisteleminen ja lähettäminen
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **EU-myyntiluettelo** tai **ALV-palautus** ja valitse sitten aiheeseen liittyvä linkki.  
+2. Valitse **Uusi** ja täytä sitten tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Voit luoda raportin sisällön **Ehdota rivejä** -toiminnolla.  
 
     > [!NOTE]  
->   Voit tarkastella rivin tapahtumia ennen kuin lähetät raportin. Valitse ensin rivi ja valitse sitten **Näytä ALV-tapahtumat**-toiminto.  
-4. Kun haluat valmistella raportin lähettämistä varten, valitse **Vapauta**-toiminto.  
+>   Voit tarkastella EU-myyntiluettelo-raportin riveillä olevia tapahtumia ennen raportin lähettämistä. Valitse ensin rivi ja valitse sitten **Näytä ALV-tapahtumat**-toiminto.  
+4. Voit tarkistaa ja valmistella raportin lähetystä varten valitsemalla **Vapauta**-toiminnon.  
+
+    >  [!NOTE]  
+>   [!INCLUDE[d365fin](includes/d365fin_md.md)] vahvistaa, että raportti on määritetty oikein. Jos tarkistus epäonnistuu, virheet näkyvät **Virheet ja varoitukset** -kohdassa ja voit tehdä näiden tietojen perusteella tarvittavat korjaukset. Jos kyse on [!INCLUDE[d365fin](includes/d365fin_md.md)]in puuttuvasta asetuksesta, voit yleensä avata korjaukseen tarvittavat tiedot sisältävän sivun napsauttamalla sanomaa.  
 5. Raportin voit lähettää **Lähetä** -toiminnolla.  
-  
-[!INCLUDE[d365fin](includes/d365fin_md.md)] vahvistaa, että raportti on määritetty oikein. Jos vahvistus epäonnistuu, virheet näkyvät **Virheet ja varoitukset** -ikkunassa niin, että voit tehdä tarvittavat muutokset.
+
+Kun lähetät raportin, [!INCLUDE[d365fin](includes/d365fin_md.md)] valvoo palvelua ja pitää kirjaa yhteydenpidosta. **Tila**-kenttä ilmaisee raportin kulun prosessissa. Kun viranomainen on esimerkiksi käsitellyt raporttisi, sen tilaksi tulee **Onnistui**. Jos veroviranomaiselle lähetetyssä raportissa on virheitä, sen tilaksi muutetaan **Epäonnistui**. Voit tarkastella virheitä **Virheet ja varoitukset** -kohdassa, korjata virheet ja lähettää raportin uudelleen. Voit tarkastella luetteloa kaikista EY-myyntiluetteloraporteistasi **EU-myyntiluetteloraportit**-sivulla.  
 
 ## <a name="viewing-communications-with-your-tax-authority"></a>Veroviranomaisen ja yrityksen välisen viestintähistorian tarkastelu
 Joissakin maissa tapahtuu viestinvaihtoa veroviranomaiselle raporttien lähettämisen yhteydessä. Näet ensimmäisen ja viimeisen lähettämäsi tai vastaanottamasi sanoman valitsemalla **Lataa lähetysviesti** ja **Lataa vastausviesti** -toiminnon.  
 
+## <a name="submitting-vat-reports-manually"></a>ALV-raporttien lähettäminen manuaalisesti
+Jos raportti lähetetään jollakin muulla tavalla, esimerkiksi viemällä se XML-tiedostoksi ja lataamalla sen veroviranomaisen verkkosivulle, raportointikauden voi sulkea sen jälkeen valitsemalla **Merkitse lähetetyksi**. Kun olet merkinnyt ALV-raportin vapautetuksi, siitä tulee ei muokattava. Jos raporttia on muutettava sen jälkeen, kun se on merkitty vapautetuksi, raportti on ensin avattava uudelleen.
+
+## <a name="vat-settlement"></a>ALV-laskelma
+Netto-ALV on jaksoittain maksettava veroviranomaisille. Jos ALV on laskettava usein, voit suorittaa **Laske ja kirjaa ALV-laskelma** -eräajon, joka sulkee avoimet ALV-tapahtumat ja siirtää ostojen ja myynnin ALV-summat ALV-maksutilille.
+
+Kun siirrät ALV-summat maksutilille, ostojen ALV-tilille hyvitetään ja myyntien ALV-tililtä veloitetaan ne summat, jotka on laskettu määritetylle ajalle. Nettosumma hyvitetään (tai veloitetaan, jos ostojen ALV-summa on suurempi) ALV-maksutilille. Voit kirjata maksun välittömästi tai tulostaa ensin testiraportin.
+
+>    [!NOTE]  
+>    Kun suoritat **Laske ja kirjaa ALV-laskelma** -eräajon mutta et määritä **Liiketoiminnan ALV-kirjausryhmä**- ja **Tuotteen ALV-kirjausryhmä** -asetuksia, kaikkien liiketoiminnan kirjausryhmien ja tuotteen kirjausryhmien koodien tapahtumat sisällytetään.
+
 ## <a name="configuring-your-own-vat-reports"></a>Omien ALV-raporttien määrittäminen
 Voit käyttää EY-myyntiraporttiluetteloa sellaisenaan, mutta voit myös luoda omat raporttisi. Tämä edellyttää muutaman koodiyksiköt luomista. Ohjeita saat tarvittaessa Microsoft-kumppanilta.  
-    
+
 Seuraavassa taulukossa kuvataan koodiyksiköt, jotka sinun on luotava raporttiasi varten.
 
 | Koodiyksikkö | Mitä raportin on tehtävä |
@@ -92,7 +113,8 @@ Seuraavassa taulukossa kuvataan koodiyksiköt, jotka sinun on luotava raporttias
 >   Kiinnitä huomiota raportin koodiyksiköitä luodessasi **ALV-raportin versio** -kentän arvoon. Tässä kentässä on oltava sama versio, joka on tai oli veroviranomaisen vaatimuksena. Voit esimerkiksi kirjoittaa kentän arvoksi **2017** osoittamaan, että raportti noudattaa kyseisenä vuonna voimassa olleita vaatimuksia. Voimassa olevan version saat selville veroviranomaiseltasi.  
 
 ## <a name="see-also"></a>Katso myös .
-[Määritä ALV](finance-setup-vat.md)  
+[Arvonlisäveron laskemisen ja kirjaustapojen määrittäminen](finance-setup-vat.md)  
+[Toimintaohje: Myynnin ja ostojen ALV:n käsittely](finance-work-with-vat.md)  
 [Myynnin määrittäminen](sales-setup-sales.md)  
 [Toimintaohje: Myynnin laskutus](sales-setup-sales.md)  
 

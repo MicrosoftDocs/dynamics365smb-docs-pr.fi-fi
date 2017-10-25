@@ -1,8 +1,6 @@
 ---
 title: "Asiakkaiden muistuttaminen tai sakottaminen erääntyneistä maksuista| Microsoft Docs"
 description: "Ohjeaiheessa kerrotaan, miten asiakkaalle lähetetään muistutus erääntyvästä maksusta ja miten maksuun lisätään myöhästymismaksu."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,14 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 06/28/2017
+ms.date: 09/08/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: f64ad8c9170af52d7650324029a259b267f166b4
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: c0e028d84d868c7aca597ee007a038ccf3fa61a2
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-collect-outstanding-balances"></a>Toimintaohje: Avointen saldojen periminen
@@ -99,7 +96,7 @@ Jos luot enemmän muistutuksia kuin mille olet määrittänyt tasoja, ohjelma k�
 |%11|Yrityksen nimi|  
 |%12|Muistutuksen otsikon **Lisämaksu riviä kohti** -kentän sisältö|  
 
-Jos kirjoitat kenttään esimerkiksi **Velkasi on %7 %9, joka erääntyy %2**, muistutustekstiksi tulee **Velkasi on 1200,50 PVA, joka erääntyy 2.2.2014**.
+Jos kirjoitat kenttään esimerkiksi **Velkasi on %7 %9, joka erääntyy %2**, muistutustekstiksi tulee **Velkasi on 1200,50 PVA, joka erääntyy 2.2.2014.**.
 
 Kun olet määrittänyt muistutusehdot sekä lisätasot ja tekstin, määritä jokin koodeista kussakin asiakkaan kortissa. Lisätietoja on kohdassa [Toimintaohje: Uusien asiakkaiden rekisteröiminen](sales-how-register-new-customers.md).
 
@@ -163,11 +160,13 @@ Jokaista viivästyskulun laskentaa kuvaamaan täytyy määrittää koodi. Tämä
 
 Viivästyskulut voidaan laskea käyttämällä joko keskimääräinen päiväsaldo -menetelmää tai erääntyvä saldo -menetelmää.
 
-Erääntyvä saldon menetelmää käyttämällä viivästyskulu on yksinkertaisesti prosenttiosuus erääntyneestä summasta.
-**Erääntyvä saldo -menetelmä:** - viivästyskulu = erääntynyt summa x (korkoprosentti / 100)
+Erääntyvä saldo -menetelmää käyttäen viivästyskulu on yksinkertaisesti prosenttiosuus erääntyneestä summasta.  
 
-Keskimääräinen päiväsaldo -menetelmässä otetaan huomioon se, kuinka monta päivää sitten maksu on erääntynyt.
-**Keskimääräinen päiväsaldo -menetelmä** - viivästyskulu = erääntynyt summa x (päiviä erääntynyt / korkojakso) x (korkoprosentti/100)
+    Balance Due method - Finance Charge = Overdue Amount x (Interest Rate / 100)
+
+Keskimääräinen päiväsaldo -menetelmässä otetaan huomioon se, kuinka monta päivää sitten maksu on erääntynyt.  
+
+    Average Daily Balance method - Finance Charge = Overdue Amount x (Days Overdue / Interest Period) x (Interest Rate/100)
 
 Lisäksi jokainen Viivästyskuluehdot-taulukon koodi on linkitetty alitaulukkoon, Viivästyskuluteksti-taulukkoon. Jokaiselle viivästyskuluehtojen sarjalle voidaan määrittää alku- ja/tai lopputekstiä, joka sisällytetään viivästyskululaskuun.
 
@@ -204,10 +203,8 @@ Viivästyskululasku on samanlainen kuin tavallinen lasku. Voit täyttää otsiko
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Asiakkaan tiliote** ja valitse sitten aiheeseen liittyvä linkki.  
 2. Valitse **Uusi**-toiminto ja täytä tarvittavat kentät.  
 3. Valitse **Ehdota lisäkululaskurivejä** -toiminto.
-4. **Ehdota lisäkululaskurivejä  
-6.  Määritä suodatin **Asiakastapahtuma**-pikavälilehdessä, jos haluat luoda viivästyskululaskuja vain tietyille tapahtumille.  
-
-7.  Aloita eräajo valitsemalla **OK**.  
+4. Määritä suodatin **Ehdota lisäkululaskurivejä** -ikkunan **Asiakastapahtuma**-pikavälilehdessä, jos haluat luoda viivästyskululaskuja vain tietyille tapahtumille.  
+5.  Aloita eräajo valitsemalla **OK**.  
 
 ## <a name="to-update-finance-charge-memo-texts"></a>Viivästyskululaskutekstien päivitys  
 Joskus voit haluta muuttaa viivästyskuluehtoihin määrittämiäsi alku- ja lopputekstejä. Jos teet tämän silloin, kun olet luonut viivästyskululaskut – mutta et vielä lähettänyt niitä, voit antaa ohjelman päivittää muutetut tekstit laskuihin.

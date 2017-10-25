@@ -1,8 +1,6 @@
 ---
 title: Asiakkaiden erikoismyyntihintojen ja -alennusten kirjaaminen | Microsoft Docs
 description: "Tässä ohjeaiheessa kerrotaan, miten määritetään vaihtoehtoisten hintojen ja alennusten sopimukset, joita käytetään myyntiasiakirjoissa myytäessä eri asiakkaille."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,14 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 07/03/2017
+ms.date: 09/08/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 85d15de13739e944ff8817b402b37ae1c7e1b144
-ms.openlocfilehash: 41558d6eec29a277db3cf8f156ae476faf315238
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 3bb16f6f192e3a3ca29911cf6215fe1f00bfcb68
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-record-special-sales-prices-and-discounts"></a>Toimintaohje: Erikoismyyntihintojen ja -alennusten kirjaaminen
@@ -69,7 +66,7 @@ Kun olet määrittänyt asiakkaat, joille myönnetään laskun alennuksia, mää
 
 Laskualennus on nyt määritetty ja liitetty kyseiselle asiakkaalle. Kun valitset asiakaskoodin muiden asiakkaiden korttien **Laskun alennuskoodi** -kentässä, sama laskualennus liitetään myös näille asiakkaille.
 
-## <a name="sales-invoice-discounts-and-service-charges"></a>Myyntilaskualennukset ja palvelumaksut
+## <a name="to-work-with-sales-invoice-discounts-and-service-charges"></a>Myyntilaskualennukset ja palvelumaksujen käyttäminen
 Kun käytät laskualennuksia, laskusumman suuruus määrää annettavan alennuksen suuruuden.  
 
 Voit myös lisätä **Asiakkaan laskualennukset** -ikkunassa tietyn summan ylittäville laskuille palvelumaksuja.  
@@ -79,9 +76,9 @@ Ennen kuin myynneissä voi käyttää laskualennuksia, ohjelmaan täytyy syött�
 - ketkä asiakkaat saavat tämän tyyppisen alennuksen.  
 - mitä alennusprosentteja käytetään.  
 
-Jos haluat ohjelman laskevan automaattisesti laskualennukset, tämän voi määrittää Myyntien ja myyntisaamisten asetukset -ikkunassa.  
+Jos haluat, että laskualennukset lasketaan automaattisesti, voit määrittää sen **Myyntien ja myyntisaamisten asetukset** -ikkunassa.  
 
-Voit määrittää jokaiselle asiakkaalle erikseen, annetaanko tälle laskualennuksia, jos tarve on tyydytetty (eli jos laskusumma on tarpeeksi suuri). Laskualennusehdot voi määrittää PVA:ssa kotimaisille asiakkaille ja ulkomaan valuutassa ulkomaisille asiakkaille.  
+Voit määrittää jokaiselle asiakkaalle erikseen, annetaanko tälle laskualennuksia, jos tarve on tyydytetty (eli jos laskusumma on tarpeeksi suuri). Laskualennusehdot voi määrittää paikallisena valuuttana kotimaisille asiakkaille ja ulkomaan valuuttana ulkomaisille asiakkaille.  
 
 Voit linkittää alennusprosentit tiettyihin laskusummiin **Asiakkaan laskualennukset** -ikkunoissa. Voit syöttää mitä tahansa prosenttilukuja kussakin ikkunassa. Jokainen asiakas voi olla erillisessä ikkunassa, tai samaan ikkunaan voi linkittää useita asiakkaita.  
 
@@ -108,9 +105,22 @@ Paras hinta on tietyn päivän alhaisin sallittu hinta, jolla on suurin sallittu
 2. [!INCLUDE[d365fin](includes/d365fin_md.md)] tarkistaa, koskeeko jokin hinta- tai alennussopimus asiakirjan tai päiväkirjarivin tietoja, ja lisää sitten käytettävän yksikköhinnan ja rivialennusprosentin seuraavien ehtojen mukaisesti:
 
     - Täytyykö hinta- tai alennussopimuksen vähimmäismäärävaatimus?
-    - Täytyykö hinta- tai alennussopimuksen valuuttavaatimus? Jos täyttyy, kyseisen valuutan alhaisin hinta ja suurin rivialennus lisätään, vaikka paikallinen valuutta antaisi paremman hinnan. Jos määritellyllä valuuttakoodilla ei ole hinta- tai alennusopimusta, [!INCLUDE[d365fin](includes/d365fin_md.md)] lisää alhaisimman hinnan ja suurimman rivialennuksen paikallisessa valuutassa.
+    - Täytyykö hinta- tai alennussopimuksen valuuttavaatimus? Jos täyttyy, kyseisen valuutan alhaisin hinta ja suurin rivialennus lisätään, vaikka paikallinen valuutta antaisi paremman hinnan. Jos määritellyllä valuuttakoodilla ei ole hinta- tai alennusopimusta, [!INCLUDE[d365fin](includes/d365fin_md.md)] lisää alhaisimman hinnan ja suurimman rivialennuksen paikallisena valuuttana.
 
 Jos erikoishintaa ei voi laskea rivin nimikkeelle, joko viimeinen välitön kustannus tai nimikekortin yksikköhinta lisätään.
+
+## <a name="to-copy-sales-prices"></a>Myyntihintojen kopioiminen  
+Jos haluat kopioida myyntihintoja, kuten jonkin yksittäisen asiakkaan hintoja koko asiakashintaryhmälle, sinun tulee ajaa **Ehdota myyntihinta työkirja**  eräajo. Eräajon löytää **Myyntihintatyökirja**-ikkunasta.    
+
+1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Myyntihinnan työkirja** ja valitse sitten aiheeseen liittyvä linkki.  
+2.  Valitse **Ehdota myyntihintaa työkirjalle**. -toiminto.  
+3.  Täytä **Myyntihinnat**-pikavälilehden kenttiin kopioitavien, alkuperäisten myyntihintojen **Myynnin tyyppi** ja **Myyntikoodi**.  
+4.  Täytä pyyntöikkunan yläosassa **Myynnin tyyppi** ja **Myyntikoodi** tyypillä ja nimellä, joihin haluat kopioida myyntihinnat.  
+5.  Jos haluat eräajon luovan uusia hintoja, lisää rasti **Luo uudet hinnat** -kenttään.  
+6.  Napsauta **OK** täyttääksesi rivit **Myyntihintatyökirja**-ikkunassa ehdotetuilla uusilla hinnoilla ja ilmaistaksesi, että hinnat ovat voimassa valitulle **Myynnin tyypille**.  
+
+> [!NOTE]  
+>  Tämä eräajo luo ainoastaan ehdotuksia eikä se ota ehdotettuja muutoksia käyttöön. Jos olet tyytyväinen ehdotuksiin ja haluat ottaa ne käyttöön eli syöttää ne **Myyntihinnat**-taulukkoon, voit käyttää **Ota käyttöön hinnan muutos** -eräajoa, joka löytyy valitsemalla **Myyntihinnan työkirja** -ikkunan **Toiminnot**-välilehden Toiminnot **ryhmän**-ryhmästä.
 
 ## <a name="see-also"></a>Katso myös
 [Myynnin määrittäminen](sales-setup-sales.md)  

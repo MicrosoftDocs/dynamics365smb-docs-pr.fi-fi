@@ -12,26 +12,25 @@ ms.workload: na
 ms.search.keywords: projects
 ms.date: 06/06/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: a01f90d93c12cf429264f525df3a7e42e01d7e33
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: cd42389cdebe3ce480603e07e01cc063f6d1f8bf
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
-# <a name="set-up-project-management"></a>Projektinhallinnan määrittäminen
+# <a name="setting-up-project-management"></a>Projektinhallinnan määrittäminen
 Ennen kuin voit käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]ia projektien hallintaan, on määritettävä resurssit, aikaraportit ja projektit.
 
-Tämän jälkeen voit luoda projekteja ja ajoittaa projektien resursseja sekä hallita budjetteja ja seurata koneiden ja työntekijöiden työtunteja aikaraporttien avulla. Lisätietoja on myös kohdassa [Projektien hallinta](projects-manage-projects.md).  
+Tämän jälkeen voit luoda projekteja ja ajoittaa projektien resursseja sekä hallita budjetteja ja seurata koneiden ja työntekijöiden työtunteja aikaraporttien avulla. Lisätietoja on kohdassa [Projektien hallinta](projects-manage-projects.md).  
 
-Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisiin.
+Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aiheisiin.
 
 | Toiminta | Katso |
 | --- | --- |
 | Määritä resurssit ja liittyvät kustannukset ja hinnat yksittäisille resursseille, resurssiryhmille tai kaikille yrityksen käytettävissä oleville resursseille. |[Toimintaohje: Resurssien määrittäminen](projects-how-setup-resources.md) |
 | Ota raporteissa käyttöön ajan käytön raportointi yksityishenkilölle tai koneelle. Anna esimiehelle oikeus tarkistaa käyttö ja sen kohdistus. |[Toimintaohje: Aikaraporttien määrittäminen](projects-how-setup-time-sheets.md) |
-| Luo projektikortit ja valmistele projektitehtävät. Määritä projektinimikkeiden ja -resurssien hinnat ja määritä projektin kirjausryhmät. |[Toimintaohje: Projektien määrittäminen](projects-how-setup-jobs.md) |
+| Luo projektikortit ja valmistele projektitehtävät. Määritä projektinimikkeiden ja -resurssien hinnat ja määritä projektin kirjausryhmät. |[Projektien määrittäminen](projects-how-setup-jobs.md) |
 
 ## <a name="see-also"></a>Katso myös
 [Projektien hallinta](projects-manage-projects.md)  

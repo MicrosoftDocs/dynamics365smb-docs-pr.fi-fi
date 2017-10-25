@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
 ms.date: 06/02/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: cc355c7b4cd51412ec0b5c95398c2d7b50a13f94
+ms.translationtype: HT
+ms.sourcegitcommit: c50aeb38a13569316f3208c27e5e8dc3d7b6d771
+ms.openlocfilehash: fdb60d82c7e8d2215c59d2c087105f42fe37eb84
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="extending-included365finlongincludesd365finlongmdmd"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] -järjestelmän laajentaminen
@@ -48,6 +47,9 @@ Sovelluksen ominaisuuksien ja toimintojen mainitseminen ei riitä houkuttelemaan
 + Sovelluksen julkaiseminen  
 Varmistamme ennen julkaisua, että sovellus on näkyvästi esillä Microsoft AppSource -kaupassa ja omalla saapumissivullasi. Meidän on tarkistettava sovellus, jotta voimme varmistaa, että sitä markkinoidaan hyvin, että se on luotettava ja että se on ajan tasalla.
 Lisätietoja tarkistusprosessista ja sovelluksen julkaisemista on Download Centerin [Sovelluksen julkaisu.pdf](https://go.microsoft.com/fwlink/?linkid=841517) -tiedostossa.
+
+## <a name="learn-more-about-extensions-v20"></a>Lisätietoja laajennusversiosta 2.0
+Laajennusversion 2.0 muodostamisen mahdollistavat uudet kehitystyökalut ovat tällä hetkellä saatavana esiversiona, ja ne otetaan käyttöön pian Dynamics 365 for Financials -palvelussa. Voit halutessasi tutustua uusiin työkaluihin tai katsoa lisätietoja laajennusversiosta 2.0 osoitteessa [aka.ms/GetStartedWithApps](http://aka.ms/GetStartedWithApps).  
 
 ## <a name="need-help"></a>Tarvitsetko apua?
 Jos haluat yksityiskohtaisempaa opastusta, voit ottaa yhteyttä seuraavassa luettelossa olevaan sovelluksen aihealueen asiantuntijaan:

@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: c50bd4ae740c688761e7f5871b036633949add79
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 3ece25dc08df403e8dc3743d30a54c4172665c50
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="creating-and-managing-contacts"></a>Kontaktien luonti ja hallinta
@@ -27,9 +26,9 @@ Kaikki ulkoiset yksiköt, joiden kanssa yritys on liikesuhteessa (esimerkiksi as
 
 Voit tallentaa yritykseen tai yrityksen henkilöön perustuvia tietoja. Voit myös luoda itsenäisen kontaktihenkilön henkilöstä, joka ei ole töissä tietyssä yrityksessä vaan joka työskentelee itsenäisesti tai freelancerina.
 
-Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisiin. Tehtävät luetellaan järjestyksessä, jossa ne yleensä suoritetaan.
+Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aiheisiin. 
 
-| Toiminta | Katso |
+| Vastaanottaja | Katso |
 | --- | --- |
 | Määritä kontaktien hallinta ennen kontaktien lisäämistä. |[Kontaktien määrittämisen valmisteleminen](marketing-setup-contacts.md) |
 | Luo kontaktin kortti jokaiselle uudelle yritykselle, jonka kanssa yrityksesi on vuorovaikutuksessa (esimerkiksi asiakkaalle ja toimittajalle). |[Kontaktiyrityksen luominen](marketing-create-contact-companies.md) |

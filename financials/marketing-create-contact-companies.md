@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: bbde977ff87049625295fab798445539b23f23dc
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 2deb992855857a83955c3c119eb7903fe45088d2
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="creating-contact-companies"></a>Kontaktiyrityksen luominen
@@ -27,9 +26,9 @@ Tehokkaan yhteydenpidon varmistamiseksi yrityksestä on määritettävä mahdoll
 
 Voit määrittää myös liikesuhteen, joka kontaktiin on muodostettu. Kontakti voi olla esimerkiksi prospekti, pankki tai alihankkija.
 
-Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisiin. Tehtävät luetellaan järjestyksessä, jossa ne yleensä suoritetaan.
+Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aiheisiin. 
 
-| Toiminta | Katso |
+| Vastaanottaja | Katso |
 | --- | --- |
 | Määritä uudelle yritykselle kontakti aivan alusta tai asiakkaasta, toimittajasta tai pankkitilistä. |[Toimintaohjeet: Kontaktiyritysten luominen](marketing-how-create-contact-companies.md) |
 | Kontaktien tietojen synkronointi asiakkaiden, toimittajien ja pankkitilien yleisten tietojen kanssa |[Kontaktien synkronoiminen asiakkaiden, toimittajien ja pankkitilien kanssa](marketing-synchronize-contacts-customers-vendors-bank-accounts.md) |

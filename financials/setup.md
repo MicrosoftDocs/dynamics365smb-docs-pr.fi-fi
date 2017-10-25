@@ -1,8 +1,6 @@
 ---
 title: "Dynamics 365 for Financialsin määritystehtävien yleiskatsaus| Microsoft Docs"
 description: "Tässä ohjeaiheessa kerrotaan tehtävistä, jolla Dynamics 365 for Financials asennetaan, alustetaan ja määritetään omia tarpeita vastaavaksi."
-services: project-madeira
-documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,14 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 06/07/2017
+ms.date: 09/01/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: e6efc11442a693da00c289866b726345ef97fb39
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: cbf0f6521db686f4e1a820070969bd0193227015
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="setting-up-dynamics-365-for-financials"></a>Dynamics 365 for Financialsin määrittäminen
@@ -38,15 +35,28 @@ Tietyt joko yleiset tai erityiset liiketoimintaprosessien toiminnot voidaan mä�
 | Määritä yrityksen varastokäytäntöjä koskevat säännöt, määritä sijainnit, josta varasto jakautuu useisiin fyysisiin varastoihin, sekä paranna hakua ja lajittelua luokittelemalla nimikkeet. |[Varaston määrittäminen](inventory-setup-inventory.md) |
 | Hallitse projekteja määrittämällä resurssit, aikaraportit ja projektityöt. |[Projektinhallinnan määrittäminen](projects-setup-projects.md) |
 | Määritä käyttöomaisuuden vakuuttaminen, kunnossapito ja poistot sekä tapa, jolla käyttöomaisuuden kustannukset kirjataan yrityskirjoihin. |[Käyttöomaisuuden määrittäminen](fa-setup.md) |
+|Määritä varastointiprosessien yleiset säännöt ja arvot sekä sijaintikohtainen käsittely.|[Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md)|
+|Valmistele tuotannon tuoterakenteet ja reititykset määrittämään loppunimikkeiden tuotantotapa. Valmistele myös kuormituskeskukset tai tuotantosolut suorittamaan tarvittavat toiminnot.|[Tuotannon määrittäminen](production-configure-production-processes.md)|
 | Määritä tietueille, kuten korteille, asiakirjoille ja päiväkirjan riville, yksilölliset tunnuskoodit, joilla tietueita voi seurata järjestelmässä. |[Numerosarjojen luominen](ui-create-number-series.md) |
 | Määritä **SMTP-sähköpostiasetukset** -ikkunassa, miten [!INCLUDE[d365fin](includes/d365fin_md.md)]issa lähetetään ja vastaanotetaan sähköposteja asiakirjoista. |[Toimintaohje: Sähköpostin määrittäminen](madeira-how-setup-email.md) |
 | Määritä yksilölliset tunnuskoodit. |[Toimintaohje: Numerosarjojen luominen](ui-create-number-series.md) |
 
+Joidenkin alueiden edellytyksenä on, että käyttäjä on [!INCLUDE[d365fin](includes/d365fin_md.md)]-tilauksen järjestelmänvalvoja. Lisätietoja on kohdassa [Dynamics 365 for Financialsin määrittäminen ja hallinta](admin-setup-and-administration.md).  
+
 ## <a name="see-also"></a>Katso myös
 [Rahoitus](finance.md)  
-[Myynti](sales-manage-sales.md)  
-[Osto](purchasing-manage-purchasing.md)  
+[Myynti](sales-manage-sales.md)
+[Ostot](purchasing-manage-purchasing.md)  
+[Vaihto-omaisuus](inventory-manage-inventory.md)    
+[Projektinhallinta](projects-manage-projects.md)
+[Käyttöomaisuus](fa-manage.md)    
+[Kokoonpanon hallinta](assembly-assemble-items.md)  
+[Tuotanto](production-manage-manufacturing.md)  
+[Varastoinninhallinta](warehouse-manage-warehouse.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
-[Tervetuloa [!INCLUDE[d365fin](includes/d365fin_long_md.md)]iin!](index.md)  
+[Dynamics 365 for Financialsin määrittäminen ja hallinta](admin-setup-and-administration.md)  
+[Uusien yritysten luominen [!INCLUDE[d365fin](includes/d365fin_md.md)]issa](about-new-company.md)  
+[Tervetuloa [!INCLUDE[d365fin](includes/d365fin_md.md)]iin!](index.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

@@ -1,6 +1,6 @@
 ---
 title: "Lisätoiminnot näyttävän tai piilottavan käyttäjäkokemuksen valitseminen | Microsoft Docs"
-description: "Tutustu, miten Dynamics 365 for Financialsin Perus- ja Ohjelmistopaketti-käyttäjäkokemus tarkoittaa käyttöliittymässä, sovellusalueilla ja yrityksessä."
+description: "Tutustu, miten Dynamics 365 for Financialsin Perus- ja Suite-käyttäjäkokemus tarkoittaa käyttöliittymässä, sovellusalueilla ja yrityksessä."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -9,14 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Suite, Basic, user interface, application area
-ms.date: 03/29/2017
+ms.date: 08/22/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 6add50f8d24d75e58abd12d110c881628d1fa6d9
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: f2336dbb8381c1ed1961ed97ab4dd782ef846a10
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="customizing-your-dynamics-365-for-financials-experience"></a>Dynamics 365 for Financials -käyttökokemuksen mukauttaminen
@@ -34,12 +33,13 @@ Seuraavassa taulukossa on luettelo nyt käytettävissä olevista kokemuksista.
 
 | Kokemus | Vaikutus käyttöliittymään |
 | --- | --- |
-| Perus |Näyttää vain perusliiketoiminta-alueiden perustoiminnot ja kentät. Näitä alueita ovat esimerkiksi myynti, osto, rahoitus ja mahdollisuuksien hallinta. |
-| Ohjelmistopaketti |Näyttää lisää perusliiketoiminta-alueiden ja muiden alueiden toimintoja ja kenttiä. Näitä alueita ovat esimerkiksi projektinhallinta, käyttöomaisuuden hallinta ja dimensiokohtainen analyysi. |
+| Perus |Näyttää vain yleisimpien liiketoimintatoimintojen, kuten myynnin, ostojen, varaston ja rahoituksen, perustoiminnot ja kentät. |
+| Suite |Näyttää kaikkien käytettävissä olevien liiketoimintatoimintojen kaikki toiminnot ja kentät.|
 
 ## <a name="see-also"></a>Katso myös .
 [Perusasetusten muuttaminen](ui-change-basic-settings.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)]in mukauttaminen laajennusten avulla](ui-extensions.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

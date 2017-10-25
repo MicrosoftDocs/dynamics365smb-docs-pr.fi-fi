@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 7ce0a022520b161fd0159fceb1cc1ecd3d14f4ec
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 1e7d9f6e05f12ff826959dee420917f36258b573
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="creating-contact-persons"></a>Kontaktihenkilöiden luominen
@@ -29,9 +28,9 @@ Saattaa myös olla niin, että osa tuotteita koskevista julkaisuista on käänne
 
 Tallentamalla mahdollisimman paljon kontaktihenkilöä koskevia tietoja voit varmistaa, että kaikki yrityksen ryhmät löytävät tarvittavat tiedot.
 
-Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisiin. Tehtävät luetellaan järjestyksessä, jossa ne yleensä suoritetaan.
+Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aiheisiin. 
 
-| Toiminta | Katso |
+| Vastaanottaja | Katso |
 | --- | --- |
 | Määritä kontaktihenkilön tiedot. |[Toimintaohjeet: Kontaktihenkilöiden luominen](marketing-how-create-contact-persons.md) |
 | Määritä kontaktin vaihtoehtoinen osoite. |[Toimintaohjeet: Vaihtoehtoisten osoitteiden liittäminen](marketing-how-assign-alternate-address.md) |
@@ -41,6 +40,6 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 
 ## <a name="see-also"></a>Katso myös
 [Kontaktiyrityksen luominen](marketing-create-contact-companies.md)  
-[Kontaktien luonti ja hallinta](marketing-create-contact-persons.md)  
+[Kontaktien luonti ja hallinta]()  
 [Financialsin käyttäminen](ui-work-product.md)
 

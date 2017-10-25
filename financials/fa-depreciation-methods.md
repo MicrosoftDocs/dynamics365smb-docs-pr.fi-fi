@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: write down
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 6a32ddc5fd8202507b66a30fabd2cbd6b5ab91eb
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="depreciation-methods"></a>Poistotavat
@@ -205,7 +204,7 @@ vuosi:
 
 *Menojäännöspoistosumma: 25 % 100 000:sta = 25 000 = 12 500 + 12 500*  
 
-*Tasapoistosumma = 100 000 / 8 = 12 500 = 6 250 + 6 250*  
+*Tasapoistosumma = 100 000/8=12 500=6 250+6 250*  
 
 Tässä käytetään menojäännöspoistosummaa, koska se on suurempi.  
 
@@ -213,7 +212,7 @@ vuosi (2015):
 
 *Menojäännöspoistosumma: 25 % 23 730,46:sta = 4 943,85 = 2 471,92 + 2 471,92*  
 
-*Tasapoistosumma = 23 730,46/3 = 7 910,15 = 3 995,07 + 3 995,08*  
+*Tasapoistosumma = 23 730,46/3 = 7 910,15=3 995,07+3 995,08*  
 
 Tässä käytetään tasapoistosummaa, koska se on suurempi.  
 
@@ -224,7 +223,7 @@ Käyttäjäkohtaisessa menetelmässä käytetään **Poistotaulukot**-ikkunaa, j
 
 Poistosumman laskennan kaava on:  
 
-Poistosumma = (Poisto-% x Poistopäivien lkm x Poistoperuste peruste) / (100 x 360)  
+Poistosumma = (Poisto-% x Poistopäivien lkm x Poistopohja) / (100 x 360)  
 
 ### <a name="depreciation-based-on-number-of-units"></a>Yksiköiden lukumäärään perustuvat poistot
 Tätä käyttäjäkohtaista menetelmää voidaan käyttää myös poistoissa, jotka perustuvat yksiköiden lukumäärään, esimerkiksi sellaisten tuotantokoneiden kohdalla, joiden eliniän kapasiteetti on vakio. **Poistotaulukot**-ikkunaan voidaan syöttää yksiköiden lukumäärä, joka voidaan tuottaa kullakin ajanjaksolla (kuukaudessa, neljännesvuodessa, vuodessa tai kirjanpitojakson aikana).  
@@ -350,7 +349,7 @@ Kun käyttöomaisuuden KP-päiväkirjan B1:een syötetään tapahtuma ja **Käyt
 >   Samaan päiväkirjaan tai päiväkirjan erään, josta olet monistamassa, ei voi monistaa. Jos tapahtumia kirjataan käyttöomaisuuden KP-päiväkirjaan, ne voidaan monistaa KO-päiväkirjaan tai käyttöomaisuuden KP-päiväkirjaan muuta erää käyttämällä.  
 
 > [!NOTE]  
->   Samaa numerosarjaa ei voi käyttää sekä käyttöomaisuuden KP-päiväkirjassa että KO-päiväkirjassa. Kun kirjaat tapahtumia käyttöomaisuuden KP-päiväkirjaan, jätä **Asiakirjan nro** -kenttä tyhjäksi. Jos annat kenttään numeron, numero monistetaan KO-päiväkirjaan. Asiakirjanumero on muutettava manuaalisesti ennen päiväkirjan kirjaamista.  
+>   Samaa numerosarjaa ei voi käyttää sekä käyttöomaisuuden KP-päiväkirjassa että KO-päiväkirjassa. Kun kirjaat tapahtumia KO/KP-päiväkirjaan, jätä **Asiakirjan nro** -kenttä tyhjäksi. Jos annat kenttään numeron, numero monistetaan KO-päiväkirjaan. Asiakirjanumero on muutettava manuaalisesti ennen päiväkirjan kirjaamista.  
 
 ## <a name="see-also"></a>Katso myös
 [Käyttöomaisuus](fa-manage.md)  

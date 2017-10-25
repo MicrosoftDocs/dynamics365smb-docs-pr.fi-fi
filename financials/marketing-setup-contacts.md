@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 3de30e72853689df84d3807def1334db88776680
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 8b1ad8ba4d64fff96e9c9fa1866217b19869e98c
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="preparing-to-set-up-contacts"></a>Kontaktien määrittämisen valmisteleminen
@@ -27,9 +26,9 @@ Ennen kontaktien luomista ja liikesuhteiden tietojen tallentamista on määritet
 
 Kun nämä tiedot on määritetty, kontaktien luominen on organisoidumpaa ja kontaktien etsiminen tietyn ryhmän perusteella tehokkaampaa. Jokainen yrityksen ryhmä saa tiedot käyttöönsä, ja näin kontakteihin voi pitää yhteyttä tehokkaammin.
 
-Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisiin. Tehtävät luetellaan järjestyksessä, jossa ne yleensä suoritetaan.
+Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aiheisiin. 
 
-| Toiminta | Katso |
+| Vastaanottaja | Katso |
 | --- | --- |
 | Määritä, millainen liikesuhde sinulla on eri kontaktiesi (esimerkiksi prospektin, pankin, konsultin tai palvelun toimittajan) kanssa. |[Liikesuhteiden määrittäminen kontaktiyrityksissä](marketing-business-relations.md) |
 | Määritä toimiala, johon kontaktit kuuluvat (esimerkiksi vähittäistavarakauppa tai autoteollisuus). |[Toimintaohje: Toimialaryhmien määrittäminen kontaktiyrityksissä](marketing-industry-groups.md) |

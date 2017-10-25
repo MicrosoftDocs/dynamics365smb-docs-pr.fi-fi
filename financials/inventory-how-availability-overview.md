@@ -1,6 +1,6 @@
 ---
 title: Saatavuuden yleiskatsaus| Microsoft Docs
-description: "Saat tietoja nimikkeiden tai varaston saatavuudesta eri sijainneissa myynti- tai ostotapahtumien tai ajanjakson mukaan tai sen mukaan, mikä on nimikkeen sijainti kokoonpanon tuoterakenteessa."
+description: "Saat tietoja nimikkeiden tai varaston saatavuudesta eri sijainneissa myynti- tai ostotapahtumien tai ajanjakson mukaan tai sen mukaan, mikä on nimikkeen sijainti kokoonpanon tai tuotannon tuoterakenteessa."
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
@@ -9,14 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
-ms.date: 06/02/2017
+ms.date: 08/15/2017
 ms.author: SorenGP
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 83af1b6b3a234f67ccc26ee9bba7f5e3e6ff6d77
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 17af257627549023212c8c19f708c836c1c4bb7f
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-view-the-availability-of-items"></a>Nimikkeiden saatavuuden tarkasteleminen
@@ -78,10 +77,10 @@ Voit tarkastella kaikkien nimikkeidesi saatavuutta kaikissa sijainneissa **Nimik
     **Nimikkeet sijainneittain** -ikkunassa näyttää kussakin sijainnissa olevan saldon nimikkeelle.
 3. Valitse arvo **Varastosaldo** -kentässä tarkastellaksesi nimiketapahtumia tai avataksesi asiakirjoja, jotka muodostavat arvon.
 
-## <a name="to-view-the-availability-of-an-item-by-its-use-in-assembly-boms"></a>Nimikkeen saatavuuden tarkastelu sen mukaan, miten sitä käytetään kokoonpanon tuoterakenteessa
-Jos nimike on kokoonpanon tuoterakenteessa joko päänimikkeenä tai osana, voit tarkastella **Nimikkeen saatavuus tuoterakennetason mukaan** -ikkunassa, kuinka monta sen yksikköä tarvitaan. Ikkunassa näkee, kuinka monta pääyksikköä voit tehdä alla olevien rivien alinimikkeiden saatavuuteen perustuen. Kaikki nimikkeet, joilla on kokoonpanon tuoterakenne, näkyvät ikkunassa tiivistettävänä rivinä. Voit laajentaa tämän rivin pohjana sen alla oleville osille ja alemman tason osakokoonpanoille niiden omien tuoterakenteiden kanssa.
+## <a name="to-view-the-availability-of-an-item-by-its-use-in-assembly-or-production-boms"></a>Nimikkeen saatavuuden tarkastelu sen mukaan, miten sitä käytetään kokoonpanon tai tuotannon tuoterakenteessa
+Jos nimike on kokoonpanon tai tuotannon tuoterakenteessa joko päänimikkeenä tai osana, voit tarkastella **Nimikkeen saatavuus tuoterakennetason mukaan** -ikkunassa, kuinka monta sen yksikköä tarvitaan. Ikkunassa näkee, kuinka monta pääyksikköä voit tehdä alla olevien rivien alinimikkeiden saatavuuteen perustuen. Kaikki nimikkeet, joilla on kokoonpanon tai tuotannon tuoterakenne, näkyvät ikkunassa tiivistettävänä rivinä. Voit laajentaa tämän rivin pohjana sen alla oleville osille ja alemman tason osakokoonpanoille niiden omien tuoterakenteiden kanssa.
 
-Ikkunan avulla voit nähdä, voitko täyttää nimikkeen myyntitilauksen tiettynä päivämääränä tutkimalla sen nykyisen saatavuuden ja määrien kanssa, jotka sen osat voi toimittaa. Voit tunnistaa ikkunan avulla myös pullonkaulat liittyvissä kokoonpanon tuoterakenteissa.
+Ikkunan avulla voit nähdä, voitko täyttää nimikkeen myyntitilauksen tiettynä päivämääränä tutkimalla sen nykyisen saatavuuden ja määrien kanssa, jotka sen osat voi toimittaa. Ikkunan avulla voit myös tunnistaa pullonkaulat liittyvissä tuoterakenteissa.
 
 Seuraavat kentät määrittävät saatavuusluvut sekä päänimikkeiden että alinimikkeiden ikkunan kullakin rivillä. Voit luvata näiden lukujen avulla, kuinka monta pääyksikköä voit toimittaa, jos aloitat liittyvän kokoonpanoprosessin.
 
@@ -90,6 +89,7 @@ Seuraavat kentät määrittävät saatavuusluvut sekä päänimikkeiden että al
 |**Kykenee valmistamaan päänimikettä**|Näyttää, kuinka monta yksikköä päänimikkeen osakokoonpanoa voi tehdä. Kenttä määrittää, kuinka monta pääyksikköä voidaan koota välittömästi. Arvo perustuu rivillä olevan nimikkeen saatavuuteen.|
 |**Kykenee valmistamaan tärkeintä nimikettä**|Näyttää, kuinka monta yksikköä päänimikettä voi tehdä. Kenttä määrittää, kuinka monta yksikköä tuoterakenteen ylärivin nimikettä voidaan koota. Arvo perustuu rivillä olevan nimikkeen saatavuuteen.|
 
+### <a name="item-availability-by-bom-level-window"></a>Nimikkeen saatavuus tuoterakennetason mukaan -ikkuna
 **Nimikkeen saatavuus tuoterakennetason mukaan** -ikkunassa on sen kortin tai asiakirjarivin nimikkeen tietoja, jonka ikkuna avattiin. Kohde näkyy aina ylimmällä rivillä. Voit tarkastella muiden nimikkeiden tai kaikkien nimikkeiden tietoja vaihtamalla arvoa **Nimikesuodatus**-kentässä.
 
 > [!NOTE]  
@@ -97,13 +97,28 @@ Seuraavat kentät määrittävät saatavuusluvut sekä päänimikkeiden että al
 
 **Pullonkaula**-kenttä määrittää, mikä tuoterakenteen nimike estää suuremman valmistusmäärän kuin **Kykenee valmistamaan tärkeintä nimikettä** -kentässä näkyvä määrä. Pullonkaulanimike voi olla esimerkiksi ostettu osa, jonka oletettu vastaanottopäivämäärä on liian myöhään, jotta päänimekettä voitaisiin valmistaa lisää **Tarvitaan päivämäärän mennessä** -kentässä olevaan päivämäärään mennessä.
 
+## <a name="assembly-availability-window"></a>Kokoonpanon saatavuus -ikkuna
+**Kokoonpanon saatavuus** -ikkunassa on kokoonpanonimikkeen tarkat saatavuustiedot. Avautuminen:
+
+- Automaattisesti myyntitilausrivistä kokoonpano tilausta varten - tilanteissa, kun syötät määrän, joka saa aikaan osan saatavuusongelman.
+- Automaattisesti kokoonpanotilauksen otsikosta, kun syötät Määrä-kenttään arvon, joka saa aikaan osan saatavuusongelman.
+- Manuaalisesti, kun avaat sen kokoonpanotilauksesta. Valitse Toiminnot-välilehden Funktiot-ryhmässä Näytä saatavuus.
+
+**Tiedot**-pikavälilehdessä on kokoonpanon nimikkeen yksityiskohtaiset saatavuustiedot, kuten montako kokoonpanotilausten määrää voidaan koota eräpäivään mennessä tarvittavien osien saatavuuden perusteella. Tämä näkyy Mahdollista koota -kentässä Tiedot-pikavälilehdellä.
+
+**Mahdollista koota** -kentän arvo näkyy punaisella fontilla, jos määrä on pienempi kuin **Jäljellä oleva määrä** -kentässä näkyvä määrä, mikä ilmaisee, että osia ei riitä koko määrän kokoamiseen.
+
+**Rivit**-pikavälilehdessä on kokoonpanon komponenttien yksityiskohtaiset saatavuustiedot.
+
+Jos vähintään yksi kokoonpanon komponentti ei ole saatavana, vaikutus näkyy kyseisen rivin **Mahdollista koota** -kentässä niin, että sen määrä on pienempi kuin **Tiedot**-pikavälilehden **Jäljellä oleva määrä** -kentän arvo.
+
 ## <a name="see-also"></a>Katso myös
 [Varaston hallinta](inventory-manage-inventory.md)  
+[Kokoonpanon hallinta](assembly-assemble-items.md)  
 [Toimintaohje: Tuoterakenteen käyttäminen](inventory-how-work-BOMs.md)    
 [Toimintaohje: Sijaintien määrittäminen](inventory-how-setup-locations.md)  
 [Toimintaohje: Varastonimikkeiden siirtäminen sijaintien välillä](inventory-how-transfer-between-locations.md)  
 [Toimintaohje: Tuotteiden myyminen](sales-how-sell-products.md)      
-[Toimitusketju](madeira-supply-chain.md)  
 [Financialsin käyttäminen](ui-work-product.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)
 

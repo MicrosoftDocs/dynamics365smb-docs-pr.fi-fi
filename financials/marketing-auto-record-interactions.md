@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: marketing, relationship, prospect, contact, client, customer
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 8226961d467dee7b03c22632c6dab008ceecad44
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="recording-interactions-with-contacts-automatically"></a>Kontaktien kanssa tapahtuvien vuorovaikutusten tallentaminen automaattisesti
@@ -30,7 +29,7 @@ Voit määrittää sovelluksen niin, että myynti-, osto- ja huoltoasiakirjojen,
 * Soita kontakteillesi, jos sinulla on TAPI-yhteensopiva puhelin, ja se on oikein asennettu.
 
 Voit määrittää näille vuorovaikutuksille automaattisen tallentamisen määrittämällä asiakirjojen ja toimintojen vuorovaikutusmallit **Vuorovaikutusmallin asetukset** -ikkunassa.  
-Voit avata **Vuorovaikutusmallin asetukset** -ikkunan valitsemalla ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Search for Page or Report icon") -kuvakkeen, kirjoittamalla **Vuorovaikutusmallin asetukset** ja valitsemalla sitten aiheeseen liittyvän linkin.
+Voit avata **Vuorovaikutusmallin asetukset** -ikkunan valitsemalla ![Etsi sivua tai raportti](media/ui-search/search_small.png "Etsi sivua tai raportti -kuvake") -kuvake, kirjoittamalla **Vuorovaikutusmallin asetukset** ja valitsemalla sitten aiheeseen liittyvän linkin.
 
 ## <a name="see-also"></a>Katso myös
 [Kontaktien kanssa tapahtuvien vuorovaikutusten tallentaminen](marketing-interactions.md)  

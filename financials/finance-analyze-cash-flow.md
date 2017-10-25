@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera
 ms.date: 06/02/2017
 ms.author: bholtorf
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: ebf31708fcd95b6d4746f1a3616b0eb104055514
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: b11c6ea21b507024e6024b180205e02a60fe9465
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="analyzing-cash-flow-in-your-company"></a>Yrityksen kassavirran analysoiminen
@@ -30,7 +29,6 @@ Käteisvarat ovat tunnetusti tärkeitä. Kirjanpitäjä-roolikeskuksesta saa tie
 | Näyttävätkö jonkin kauden luvut epätavallisilta?</br> Pitäisikö asiaa tutkia? |Tulot ja kulut |
 | Milloin voi esiintyä käteisen yli- tai alijäämää?</br> Pitäisikö velka maksaa pois vai ottaa lainaa tulevia menoja varten? |Kassavirtaennusteet |
 
-## <a name="dig-into-the-numbers"></a>Lukuihin perehtyminen
 Kirjanpitäjä-roolikeskuksen **Rahoituksen suorituskyky** -kohdan **Käyttöpääomasykli**-, **Kassavirta**- ja **Tulot ja kulut** -kaavioiden avulla voi analysoida kassavirtaa eri tavoin:  
 
 * Voit tarkastella kauden lukuja aikajanan liukusäätimellä.  
@@ -46,7 +44,7 @@ Jos haluat tarkastella ennustetta, voit perehtyä ennustetapahtumien lisäksi my
 * vähentää ostoreskontran ja lisää myyntireskontran  
 * ohittaa myynti- ja ostotilausten kaksoiskappaleet.  
 
-### <a name="to-view-a-cash-flow-worksheet"></a>Kassavirtatyökirjan tarkastelu
+## <a name="to-view-a-cash-flow-worksheet"></a>Kassavirtatyökirjan tarkastelu
 1. Hae **Kassavirtaennusteet** ja valitse liittyvä linkki.  
 2. Valitse ensin kassavirtaennustee ja sitten **Kassavirtatyökirja**-toiminto.  
 3. Valitse **Kassavirtatyökirja**-sivulla **Ehdota työkirjan rivejä** -toiminto.  

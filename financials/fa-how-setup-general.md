@@ -11,12 +11,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 4a41abe08412b357207cbbc08e8dc5041b12d942
+ms.translationtype: HT
+ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
+ms.openlocfilehash: 2a84fbed87b4d6223e98db0c0bc1f5c5c7d1ba78
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-set-up-general-fixed-assets-information"></a>Toimintaohje: Käyttöomaisuuden yleisten tietojen määrittäminen
@@ -106,7 +105,7 @@ Jos käytät käyttöomaisuutta ensimmäistä kertaa [!INCLUDE[d365fin](includes
 2. Luo jokaiselle olemassa olevalle omaisuuserälle käyttöomaisuuskortti.  
 3. Käyttöomaisuuden poistokirjojen määrittäminen.  
 4. Ota käyttöön pääkirjanpidon integrointi seuraavien vaiheiden avulla.
-5. Syötä **Etsi**-ruudussa **Poistokirjat** ja valitse sitten vastaava linkki.  
+5. Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Poistokirjat** ja valitse sitten aiheeseen liittyvä linkki.  
 6. Valitse asianmukainen poistokirja. Valitse **Kotisivu**-välilehden **Hallinta**-ryhmässä **Muokkaa luetteloa**, jolloin **Poistokirjan kortti** -ikkuna avautuu.
 7. Varmista, että **Integrointi**-pikavälilehden kaikki kentät ovat tyhjiä (poista kaikki valintamerkit). Jos poistokirjoja on useita, ota jokaisessa käyttöön pääkirjanpidon integrointi.  
 8. Anna käyttöomaisuuden päiväkirjassa seuraavat rivit kutakin käyttöomaisuutta varten:
@@ -114,7 +113,7 @@ Jos käytät käyttöomaisuutta ensimmäistä kertaa [!INCLUDE[d365fin](includes
    * Rivi, jolla on kumulatiivinen poisto edellisen tilikauden loppuun.
    * Rivi, jolla on kumulatiivinen poisto nykyisen tilivuoden alusta päivään, jonka [!INCLUDE[d365fin](includes/d365fin_md.md)] määrittää poiston laskennan aloituskohdaksi.
 
-Jos avaussaldoja on muita, myös ne voidaan syöttää (esimerkiksi arvonalennukset ja \-korotukset).  
+Jos avaussaldoja on muita, myös ne voidaan syöttää (esimerkiksi arvonalennukset ja arvonkorotukset).  
 
 Jos käyttöomaisuutta ei ole integroitu käyttöomaisuuden kanssa, ohita työvaiheet 4–7.
 

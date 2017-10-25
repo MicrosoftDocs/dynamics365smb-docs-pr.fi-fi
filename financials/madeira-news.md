@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: news
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 2a54dfe38195a27c4c1cb155e48760d19fb36f03
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 00fd623b6323b10a811d64c47b4a24d9a47b9f88
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="whats-new-in-dynamics-365-for-financials"></a>Dynamics 365 for Financialsin uutuudet
@@ -31,10 +30,10 @@ Tällä sivulla kerrotaan, kun esiversion alueita tulee käyttöön. Jatkossa p�
 Niin kuin blogissa kerrottiin, ratkaisu on nyt palvelu, jota voit käyttää yrityksessäsi. Tämä päivitys lisää myös uusia ominaisuuksia ja uuden laajennuksen.
 
 ### <a name="project-management"></a>Projektinhallinta
-Jos siirryt Ohjelmistopaketti-vaihtoehtoon, voit hallita projekteja sekä käsitellä resursseja, tuntilomakkeita ja projekteja. Kun kirjaudut ensimmäisen kerran projektipäällikön roolissa, avustettu asennusopas auttaa määrittämään, miten projekteja hallitaan. Voit käyttää esimerkiksi mallitilejä, -projekteja ja -resursseja esittely-yrityksessä ja tutustua tällä tavoin toimintoihin. Lisätietoja on myös kohdassa [Projektien hallinta](projects-manage-projects.md).
+Jos siirryt Suite-vaihtoehtoon, voit hallita projekteja sekä käsitellä resursseja, tuntilomakkeita ja projekteja. Kun kirjaudut ensimmäisen kerran projektipäällikön roolissa, avustettu asennusopas auttaa määrittämään, miten projekteja hallitaan. Voit käyttää esimerkiksi mallitilejä, -projekteja ja -resursseja esittely-yrityksessä ja tutustua tällä tavoin toimintoihin. Lisätietoja on kohdassa [Projektien hallinta](projects-manage-projects.md).
 
 ### <a name="fixed-assets"></a>Käyttöomaisuus
-Jos siirryt Ohjelmistopaketti-vaihtoehtoon, voit hallitta käyttöomaisuutta, kuten poistoja ja vakuutuksia. Vakioasetukset on valmiina, mutta voit muokata niitä aina tarvittaessa. Voit rekisteröidä käyttöomaisuuserien ostot tarkoitukseen varattuihin käyttöomaisuuden KP-päiväkirjoihin, joissa voit myös luovuttaa käyttöomaisuuseriä. Oikeat kirjanpitotapahtumat luodaan automaattisesti. Lisätietoja on kohdassa [Käyttöomaisuus](fa-manage.md).
+Jos siirryt Suite-vaihtoehtoon, voit hallitta käyttöomaisuutta, kuten poistoja ja vakuutuksia. Vakioasetukset on valmiina, mutta voit muokata niitä aina tarvittaessa. Voit rekisteröidä käyttöomaisuuserien ostot tarkoitukseen varattuihin käyttöomaisuuden KP-päiväkirjoihin, joissa voit myös luovuttaa käyttöomaisuuseriä. Oikeat kirjanpitotapahtumat luodaan automaattisesti. Lisätietoja on kohdassa [Käyttöomaisuus](fa-manage.md).
 
 ### <a name="new-extension-for-migrating-data-from-dynamics-gp"></a>Uusi laajennus tietojen siirtämiseen Dynamics GP:stä
 Jos yrityksesi käyttää tällä hetkellä Dynamics GP:tä, voit siirtää päätietueet [!INCLUDE[d365fin](includes/d365fin_md.md)]iin avustetun asennusoppaan avulla. Sinun on vietävä aiemmin luodut asiakkaat, toimittajat, varastonimikkeet ja tilit Dynamics GP:n tietojen vientitoiminnolla. Dynamics GP:n tietojen siirtolaajennus yhdistää viedyt tiedot automaattisesti, joten saat aiemmin luodut tiedot nopeasti uuteen [!INCLUDE[d365fin](includes/d365fin_md.md)]-yritykseen. Lisätietoja on kohdassa [Dynamics GP:n tietojen siirto](ui-extensions-dynamicsgp-data-migration.md).
@@ -45,8 +44,8 @@ Kirjanpitäjä-roolikeskuksesta saa tietoja, joiden avulla voi päättää järk
 ### <a name="team-members"></a>Tiimin jäsenet
 **Ryhmän jäsen** -roolikeskus on uusi roolikeskus, joka on määritetty Dynamics 365:n ryhmän jäsenen roolia varten, jotta käyttäjät voivat lukea ja muokata suurinta osaa järjestelmän tiedoista. Ryhmän jäsenenä voit käsitellä myös tuntilomakkeita ja niihin määritettyjä hyväksymistehtäviä.
 
-### <a name="synchronize-your-customers-and-services-with-bookings-in-office-365"></a>Asiakkaiden ja palvelujen synkronointi Office 365:n varauksissa
-Tämän päivityksen ansiosta voit synkronoida asiakkaan ja palvelun nimiketietueet Office 365:n uudella **Varaukset**-sovelluksella. Kun luot asiakkaita ja palveluja sekä varaat tapaamisia Varaukset-sovelluksella, ne näkyvät [!INCLUDE[d365fin](includes/d365fin_md.md)]issa. Tämän vuoksi voit laskuttaa palvelua seuraavia asiakkaita automaattisesti eikä sinun tarvitse antaa samoja tietoja kahdesti.
+### <a name="synchronize-your-customers-and-services-with-bookings-in-office-365"></a>Asiakkaiden ja huoltojen synkronointi Office 365:n Bookings-sovelluksella
+Tämän päivityksen ansiosta voit synkronoida asiakkaan ja huollon nimiketietueet Office 365:n uudella **Bookings**-sovelluksella. Kun luot asiakkaita ja palveluja sekä varaat tapaamisia Varaukset-sovelluksella, ne näkyvät [!INCLUDE[d365fin](includes/d365fin_md.md)]issa. Tämän vuoksi voit laskuttaa palvelua seuraavia asiakkaita automaattisesti eikä sinun tarvitse antaa samoja tietoja kahdesti.
 
 ## <a name="september-2016-update"></a>Syyskuun 2016 päivitys
 Tässä [!INCLUDE[d365fin](includes/d365fin_md.md)]in päivityksessä lisättiin uusia ominaisuuksia, kuten [blogissa kerrottiin](https://community.dynamics.com/business/b/financials/archive/2016/09/29/new-and-updated-capabilities-in-the-september-update-of-project-quot-madeira-quot).
@@ -91,7 +90,7 @@ Tämä päivitys lisäsi toimintoja Outlook-apuohjelman toimittajan koontinäytt
 Outlook-apuohjelma on nyt laajentunut Outlookin kalenteriin. Voit avata kalenteritapaamista [!INCLUDE[d365fin](includes/d365fin_md.md)]-apuohjelma ja saada yleiskuvan tapaamiseen liitetystä asiakkaasta. Voit sitten luoda ja lähettää laskun kokouksessa annetuista palveluista – suoraan Outlookin kalenterissa. Lisätietoja on ohjeaiheessa [[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen Outlookin yrityssähköpostina](madeira-outlook.md).  
 
 ### <a name="appsource-marketplace-for-extensions"></a>Laajennusten AppSource-kauppa
-[!INCLUDE[d365fin](includes/d365fin_md.md)]-laajennukset ovat nyt saatavana AppSource-kaupassa osoitteessa [AppSource.microsoft.com](https://appsource.microsoft.com/). Voit hakea laajennuksia kaupassa. Voi tarkastella tietoja, kuten markkinointiaineistoa, näyttökuvia, videoita ja linkkejä lisätietoihin. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]in laajennukset ovat nyt saatavilla AppSource-kaupassa [AppSource.microsoft.comissa](https://appsource.microsoft.com/). Laajennuksia voi etsiä kaupassa. Voi tarkastella tietoja, kuten markkinointiaineistoa, näyttökuvia, videoita ja linkkejä lisätietoihin. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md).  
 
 ### <a name="shipping-agents-and-item-attributes"></a>Kuljetusliikkeet ja nimikkeen määritteet
 Voit lisätä määritteitä varastonimikkeisiin, mikä helpottaa asiakkaan haluaman oikean tuotteen löytämistä. Lisätietoja on kohdassa [Toimintaohje: Nimikkeen määritteiden käsitteleminen](inventory-how-work-item-attributes.md).  
@@ -100,8 +99,8 @@ Voit lisätä määritteitä varastonimikkeisiin, mikä helpottaa asiakkaan halu
 Tämän päivityksen myötä valittavana on entistä enemmän laajennuksia **Laajennusten hallinta** -ikkunassa.
 Lisätietoja on ohjeaiheessa [Muiden valmistajien [!INCLUDE[d365fin](includes/d365fin_md.md)]in laajennukset](ui-extensions-other.md).  
 
-### <a name="manage-your-customer-relationships-using-microsoft-dynamics-crm-from-inside-included365finincludesd365finmdmd"></a>Asiakassuhteiden hallinta käyttämällä Microsoft Dynamics CRM:ää [!INCLUDE[d365fin](includes/d365fin_md.md)]issa
-Liiketoimintajohtajan aloitussivulle on lisätty uusi avustettu asennusopas, joka opastaa Dynamics CRM:n yhteyden muodostamisprosessissa. Kun yhteys on muodostettu, Dynamics CRM:n tietueet on kytketty saumattomasti [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietueisiin. Lisätietoja on ohjeaiheessa [Asiakassuhteiden hallinta käyttämällä Microsoft Dynamics CRM:ää [!INCLUDE[d365fin](includes/d365fin_md.md)]issa](marketing-integrate-dynamicscrm.md).
+### <a name="manage-your-customer-relationships-using-microsoft-dynamics-365-for-sales-from-inside-included365finincludesd365finmdmd"></a>Asiakassuhteiden hallinta Microsoft Dynamics 365 for Salesin avulla [!INCLUDE[d365fin](includes/d365fin_md.md)]issa
+Liiketoimintajohtajan aloitussivulle on lisätty uusi asetusten ohjattu määritys, joka opastaa Dynamics 365 for Salesin yhteyden muodostamisprosessissa. Kun yhteys on muodostettu, Dynamics 365 for Salesin tietueet on yhdistetty saumattomasti [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietueisiin. Lisätietoja on kohdassa [Asiakassuhteiden hallinta käyttämällä Microsoft Dynamics 365 for Salesia [!INCLUDE[d365fin](includes/d365fin_md.md)]issa ](marketing-integrate-dynamicscrm.md).
 
 ## <a name="may-2016-update"></a>Toukokuun 2016 päivitys
 Tässä [!INCLUDE[d365fin](includes/d365fin_md.md)]in päivityksessä lisättiin uusia ominaisuuksia, kuten [blogissa kerrottiin](https://community.dynamics.com/business/b/financials/archive/2016/06/01/new-and-updated-capabilities-in-the-first-update-of-project-quot-madeira-quot).  

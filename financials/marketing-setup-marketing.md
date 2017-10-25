@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 1bac6c541a07f5da6c42fa076627e174249f708b
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 941c9dcc1638fd82f945b0ac268854b5f34d4294
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="setting-up-relationship-management"></a>Kontaktienhallinnan määrittäminen
@@ -54,13 +53,10 @@ Lisätietoja on kohdassa [Kontaktien synkronoiminen asiakkaiden, toimittajien ja
 ## <a name="assigning-a-number-series-to-contacts-and-opportunities"></a>Numerosarjojen määrittäminen kontakteihin ja mahdollisuuksiin
 Voit määrittää numerosarjan kontakteille ja mahdollisuuksille. Jos olet määrittänyt numerosarjat kontakteille kontaktin luomisen yhteydessä, ja painat Enter-näppäintä kontaktin kortin Nro-kentässä, ohjelma syöttää automaattisesti seuraavan käytettävissä olevan kontaktinumeron.
 
-Lisätietoja numerosarjoista on kohdassa [Numerosarjojen luominen](ui-create-number-series.md).
+Lisätietoja numerosarjoista on kohdassa [Toimintaohje: Numerosarjojen luominen](ui-create-number-series.md).
 
 ## <a name="searching-for-duplicate-contacts-when-contacts-are-created"></a>Kontaktien kopioiden etsiminen kontakteja luotaessa
 Voit valita, että ohjelma hakee kopioita automaattisesti aina kun luot kontaktiyrityksen; tai voit valita, että haet kopioita manuaalisesti kontaktien luomisen jälkeen. Voit myös valita, että ohjelma päivittää hakumerkkijonot automaattisesti aina kun muutat kontaktin tietoja tai luot uuden kontaktin. Voit päättää Haun osuma-%:in, siis sen identtisten merkkijonojen prosenttiosuuden, joka kahdella kontaktilla täytyy olla, jotta ohjelma tulkitsee ne kopioiksi.
-
-## <a name="setting-up-email-logging"></a>Sähköpostin lokiinkirjauksen määrittäminen
-Voit vaihtaa sähköpostiviestejä kontaktien, asiakkaiden, toimittajien ja niin edelleen kanssa. Voit lähettää ja vastaanottaa sähköposteja sovelluksesta tai Outlookista. Ennen kuin voit vaihtaa viestejä tällä tavalla ja saada järjestelmän tallentamaan ne ja asettamaan ne jonoon, sinun on määritettävä joitakin parametreja, kuten esimerkiksi aikavälin, jolloin ohjelma tarkistaa, onko sähköposteja odottamassa käsittelyä, sähköpostin kirjaamisen profiilinimi ja niin edelleen.
 
 ## <a name="see-also"></a>Katso myös
 [Kontaktien hallinta](marketing-contacts.md)  

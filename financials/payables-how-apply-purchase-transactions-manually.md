@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment application, payment processing, match payments
-ms.date: 06/06/2017
+ms.date: 06/15/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 6f0f3e1c14e21fff736b54b4c5f7423e1e909e72
+ms.translationtype: HT
+ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
+ms.openlocfilehash: 7c13f127f1ca9f9d95878d79afe21488df7868a6
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-reconcile-vendor-payments-manually"></a>Toimintaohje: Toimittajamaksujen täsmäyttäminen manuaalisesti
@@ -35,15 +34,15 @@ Voit kohdistaa toimittajatapahtumia seuraavilla kolmella tavalla:
 > [!NOTE]  
 >   Jos toimittajan kortin **Kohdistustapa**-kentässä on **Kohdista vanhimpaan**, maksut kohdistetaan automaattisesti vanhimpaan avoimeen kredit-tapahtumaan, jos tapahtumaa, johon kohdistetaan, ei määritetä manuaalisesti. Jos asiakkaan kohdistustapa on **Manuaalinen**, tapahtumat on kohdistettava manuaalisesti.
 
-Voit kohdistaa toimittajan maksut manuaalisesti liittyviin ostoasiakirjoihin, kun kirjaat maksut **Maksupäiväkirja**-ikkunassa. Lisätietoja maksupäiväkirjan täyttämisestä on kohdassa [Toimintaohje: Maksujen suorittaminen](payables-make-payments.md).
+Voit kohdistaa toimittajan maksut manuaalisesti liittyviin ostoasiakirjoihin, kun kirjaat maksut **Maksupäiväkirja**-ikkunassa. Lisätietoja maksupäiväkirjan täyttämisestä on kohdassa [Maksujen suorittaminen](payables-make-payments.md).
 
-Voit myös kohdistaa toimittajan maksuja ja asiakkaan maksuja sen jälkeen, kun maksut näkyvät negatiivisina pankkitapahtumina pankissasi. **Maksujen täsmäytyskirjauskansio** -ikkunassa voit käyttää pankin tiliotteen tuonnin, automaattisen kohdistuksen ja pankkitilin täsmäytyksen toimintoja. Lisätietoja on kohdassa [Maksujen täsmäyttäminen käyttämällä automaattista kohdistusta](receivables-how-reconcile-payments-auto-application.md).
+Voit kohdistaa toimittajan maksuja ja asiakkaan maksuja myös sen jälkeen, kun maksut näkyvät negatiivisina pankkitapahtumina pankissa. **Maksujen täsmäytyskirjauskansio** -ikkunassa voit käyttää pankin tiliotteen tuonnin, automaattisen kohdistuksen ja pankkitilin täsmäytyksen toimintoja. Lisätietoja on kohdassa [Maksujen täsmäyttäminen käyttämällä automaattista kohdistusta](receivables-how-reconcile-payments-auto-application.md).
 
 ## <a name="to-apply-a-payment-to-a-single-or-multiple-vendor-ledger-entries"></a>Maksun kohdistaminen yhteen tai useaan toimittajatapahtumaan
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Maksupäiväkirja** ja valitse sitten aiheeseen liittyvä linkki.
 2. Syötä **Maksupäiväkirja**-ikkunassa ensimmäiselle päiväkirjariville asianmukaiset tiedot maksutapahtumasta.
 3. Voit kohdistaa yhden toimittajatapahtuman seuraavasti:
-   1. Valitse **Kohdistetaan asiakirjaan nro** -kentässä kenttä, jolloin **Kohdista toimittajatapaht.** -ikkuna avautuu.
+   1. Valitse **Kohdistetaan asiakirjaan nro** -kentässä, joka avaa **Kohdista toimittajatapaht.** -ikkunan.
    2. Valitse **Kohdista toimittajatapaht.** -ikkunassa tapahtuma, johon maksu kohdistetaan.
    3. Määritä tapahtumaan kohdistettava summa rivin **Kohdistettava summa** -kenttään.
 4. Vaihtoehtoisesti voit kohdistaa useita toimittajatapahtumia seuraavasti:
@@ -61,7 +60,7 @@ Voit myös kohdistaa toimittajan maksuja ja asiakkaan maksuja sen jälkeen, kun 
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Ostohyvityslasku** ja valitse sitten aiheeseen liittyvä linkki.
 2. Avaa hyvityslasku, jonka haluat kohdistaa.
 3. Syötä tarvittavat tiedot otsikkoon.
-4. Voit haluat kohdistaa yhteen toimittajatapahtumaan, valitse **Kohdistus**-pikavälilehden **Kohdistetaan asiakirjaan nro** -kentässä tapahtuma, johon hyvitys kohdistetaan, ja anna sitten tapahtumaan kohdistettava summa **Kohdistettava summa** -kentässä.
+4. Voit kohdistaa yhden toimittajan tapahtuman valitsemalla **Kohdistus**-pikavälilehden **Kohdistetaan asiakirjaan nro** -kentässä tapahtuman, johon hyvitys kohdistetaan, ja antamalla sitten **Kohdistettava summa** -kentässä tapahtumaan kohdistettavan summan.
 5. Vaihtoehtoisesti voit kohdistaa useita toimittajatapahtumia seuraavasti:
 
    1. Valitse **Kohdista tapahtumat** -toiminto.
@@ -71,7 +70,7 @@ Voit myös kohdistaa toimittajan maksuja ja asiakkaan maksuja sen jälkeen, kun 
 
        Jos summaa ei määritetä, ohjelma kohdistaa automaattisesti enimmäissumman. **Kohdista toimittajatapaht.** -ikkunan alaosan **Kohdistettu summa** -kentästä voi tarkistaa summan sekä sen, täsmääkö kohdistus.
 6. Valitse **OK**-painike.  
-   **Ostohyvityslasku**-ikkunassa näkyy tapahtuma, jonka olet valinnut **Kohdistetaan asiakirjatyyppiin**- ja **Kohdistetaan asiakirjaan nro** -kentässä. Ikkunassa näkyy myös kirjattava hyvityslaskun summa sekä mahdolliset maksualennukset.
+   **Ostohyvityslasku**-ikkunassa näkyy tapahtuma, jonka olet valinnut **Kohdistetaan asiakirjatyyppiin**- ja **Kohdistetaan asiakirjaan nro** -kentissä. Ikkunassa näkyy myös kirjattava hyvityslaskun summa sekä mahdolliset maksualennukset.
 7. Kirjaa ostohyvityslasku valitsemalla **Kirjaa**-painike.
 
 ## <a name="to-apply-posted-vendor-ledger-entries"></a>Kirjattujen toimittajatapahtumien kohdistus:
@@ -115,7 +114,7 @@ Kun tehdään virheellinen kohdistus, ohjelma luo ja kirjaa korjaavat tapahtumat
 4. Valitse haluamasi tapahtuma ja valitse sitten **Peruuta kohdistus** -toiminto.
 5. Vaihtoehtoisesti voit valita **Yksityiskoht. tapahtumat.** -toiminnon.
 6. Valitse haluamasi kohdistustapahtuma ja valitse sitten **Peruuta kohdistus** -toiminto.
-7. Täytä pyyntöikkunan kentät ja valitse sitten **Peruuta kohdistus** -painike.
+7. Täytä pyyntöikkunan kentät ja valitse sitten **Peruuta kohdistus** -toiminto.
 
 > [!IMPORTANT]  
 >   Jos tapahtumaan on tehty useita kohdistuksia, on viimeisin kohdistustapahtuma poistettava ensin.

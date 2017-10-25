@@ -9,14 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipts, customer payment
-ms.date: 06/16/2017
+ms.date: 09/08/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 8ea27f21b2e4acc25b4acc6b5ba15580ca5a1997
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 94055c34b67f05faa8955fdff28f854e77d9664f
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-reconcile-customer-payments-manually-from-a-list-of-unpaid-sales-documents"></a>Toimintaohje: Asiakkaan maksujen täsmäyttäminen manuaalisesti maksamattomien myyntiasiakirjojen luettelosta
@@ -74,7 +73,7 @@ Maksutapahtumat kirjataan pääkirjanpitoon, pankkiin ja asiakastileille. Kukin 
 
 Maksutapahtumat kirjataan pääkirjanpitoon, pankkiin ja asiakastileille. Kukin maksu kohdistetaan siihen liittyvään myyntiasiakirjaan.  
 
-Jos pankissa suoritettua maksua ei kuitenkaan esitetä minkään asiakirjan avulla **Maksurekisteröinti**-ikkunassa voi olla liittyvä asiakirja ei ole vielä kirjattu. Tässä tapauksessa voit löytää asiakirjan hakutoiminnon avulla nopeasti ja kirjata sen maksukäsittelyä varten. Lisätietoja on Toimintaohje: Maksamattomien asiakirjojen etsiminen asiakkaan maksun manuaalisen täsmäytyksen aikana -osassa.  
+Jos pankissa suoritettua maksua ei kuitenkaan esitetä minkään asiakirjan avulla **Maksurekisteröinti**-ikkunassa voi olla liittyvä asiakirja ei ole vielä kirjattu. Tässä tapauksessa voit löytää asiakirjan hakutoiminnon avulla nopeasti ja kirjata sen maksukäsittelyä varten. Lisätietoja on kohdassa Tietyn myyntiasiakirjan etsiminen, jota ei ole laskutettu kokonaan.  
 
 Jos pankissa suoritettua maksua ei kuitenkaan esitetä minkään asiakirjan avulla [!INCLUDE[d365fin](includes/d365fin_md.md)]issa, avaa esitäytetty yleinen päiväkirja **Maksurekisteröinti**-ikkunassa ja kirjaa maksu suoraan vastatilille kohdistamatta maksua asiakirjaan. Vaihtoehtoisesti voit haluta tallentaa maksun päiväkirjaan ennen kuin maksun alkuperä on ratkaistu. Lisätietoja on kohdassa "Maksun kirjaaminen tai lähettäminen ilman aiheeseen liittyvää asiakirjaa" -osassa.  
 
@@ -138,7 +137,7 @@ Liittyvä asiakirja pysyy avoimena.
 Liittyvät asiakirja suljetaan ja asiakkaalle hyvitetään ylimääräinen maksusumma.  
 
 ## <a name="to-find-a-specific-sales-document-that-is-not-fully-invoiced"></a>Voit etsiä tietyn myyntiasiakirjan, jota ei ole laskutettu kokonaan
-**Maksurekisteröinti**-ikkuna on tarkoitettu tukemaan tehtävissä, jotka kuuluvat sisäinen vastatilien täsmäämiseen todellisten kassalukujen tehokkaan keräämisen varmistamiseksi asiakkailta. Se näyttää avoimet saapuvat maksut riveinä, jotka edustavat myyntiasiakirjoja, joiden summa on erääntynyt maksettavaksi.  
+**Maksurekisteröinti**-ikkuna tukee tehtäviä, joita tarvitaan sisäisten tilien täsmäämiseen todellisten kassalukemien, jotta tehokas perintä asiakkailta voidaan varmistaa. Se näyttää avoimet saapuvat maksut riveinä, jotka edustavat myyntiasiakirjoja, joiden summa on erääntynyt maksettavaksi.  
 
 Yleensä, kun maksu on tehty, tallennettu pankkiin tai muuten, liittyvä myynti- tai ostoasiakirja esitetään rivinä **Maksurekisteröinti**-ikkunassa, koska kyseinen asiakirja odottaa maksua kirjattavaksi avointa summaa vastaan. Joskus suoritettua maksua ei kuitenkaan esitetä **Maksurekisteröinti**-ikkunan rivillä, yleensä sen vuoksi, että kyseisiä asiakirjoja ei ole kirjattu täysin.
 
@@ -151,7 +150,7 @@ Seuraavissa selitetään, kuinka etsiä määrättyä asiakirjaa molempien hakue
 
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Maksurekisteröinti** ja valitse sitten aiheeseen liittyvä linkki.
 2. Kun kohdistin on minkä tahansa rivin päällä, valitse **Etsi asiakirjoja** -toiminto.
-3. Syötä **Asiakirjahaku**-ikkunassa hakuarvo **Asiakirjan nro** -kenttään. -kentässä.  
+3. Anna **Asiakirjahaku**-ikkunan **Asiakirjan nro** -kentässä hakuarvo.  
 
     > [!NOTE]  
 >   Tässä kentässä annetun arvon ympärillä on piilotettuihin yleismerkit. Tämä tarkoittaa sitä, että funktio etsii kaikkia asiakirjanumeroita, jotka sisältävät syötetyn arvon.    

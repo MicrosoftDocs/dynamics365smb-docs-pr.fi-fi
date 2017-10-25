@@ -1,8 +1,6 @@
 ---
 title: "Asiakasmaksujen täsmäyttäminen manuaalisesti kohdistamalla asiakastapahtumat | Microsoft Docs"
 description: "Ohjeaiheessa kerrotaan, miten asiakkaan kassaanmaksut tai hyvitykset kohdistetaan vähintään yhteen avoimeen asiakastapahtumaan ja asiakasmaksut täsmäytetään."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipt
-ms.date: 03/29/2017
+ms.date: 09/08/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 568bd66c201764cae45ea12a900ea12eabbf0546
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: ccef6a35b1632bd94f64c5e9ad56ecd3bacbfd06
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-reconcile-customer-payments-manually"></a>Toimintaohje: Asiakkaan maksujen täsmäyttäminen manuaalisesti
@@ -45,10 +43,10 @@ Voit kohdistaa asiakas- ja toimittajamaksuja myös **Maksujen täsmäytyskirjaus
 4. Täytä **Kirjauspvm.**-kentän tiedot.  
 5. Valitse **Asiakirjatyyppi**-kentässä **Maksu**.
 
-    **Asiakirjan nro** -kenttään syötetään erälle määritetty numerosarja.  
-6. Käytä **Ulkoisen asiakirjan nro** -kenttää, kun tallennat tunnuksen, kuten asiakkaan sekin numeron.
+    **Asiakirjan nro** -kenttään täytetään erään liitetty numerosarja.  
+6. Tallenna tunnus, kuten asiakkaan sekin numero, **Ulkoisen asiakirjan nro** -kenttään.
 7. Valitse **Tilityyppi**-kentässä **Asiakas**.
-8. Valitse **Tilinumero**-kenttään asianmukainen KP-tili.
+8. Valitse **Tilinumero**-kentässä käsiteltävä KP-tili.
 9. Jos haluat kirjata kohdistuksen samaan aikaan päiväkirjan kirjaamisen yhteydessä, valitse jokin seuraavista menetelmistä:
 10. Valitse **Vastatilin tyyppi** -kentässä kassamaksuille **KP-tili** ja muille maksuille **Pankkitili**.
 11. Valitse **Vastatilin nro** -kentässä kassamaksujen kassatili tai muiden maksujen asianmukainen pankkitili.
@@ -61,12 +59,12 @@ Voit kohdistaa asiakas- ja toimittajamaksuja myös **Maksujen täsmäytyskirjaus
 4. Syötä **Asiakirjatyyppi**-kenttään **Maksu**.
 5. Syötä **Tilityyppi**-kenttään **Asiakas**.
 6. Syötä **Vastatilin tyyppi** -kenttään **Pankkitili**.
-7. Valitse **Kohdistetaan asiakirjaan nro** -kentässä kenttä, jolloin **Kohdista asiakastapahtumat** -ikkuna avautuu.
+7. Avaa **Kohdista asiakastapahtumat** -ikkuna valitsemalla **Kohdistetaan asiakirjaan nro** -kentässä kenttä.
 8. Valitse **Kohdista asiakastapahtumat** -ikkunassa tapahtuma, johon maksu kohdistetaan.
 9. Syötä tapahtumaan kohdistettava summa **Kohdistettava summa** -kenttään. Jos summaa ei määritetä, käytetään enimmäissummaa.
 
     **Kohdista asiakastapahtumat** -ikkunan alaosan **Kohdistettu summa** -kentässä on tietty summa sekä tieto siitä, täsmääkö kohdistus.  
-10. Valitse **OK**-painike. **Kassapäiväkirja**-ikkunassa näkyy nyt tapahtuma, jonka olet syöttänyt **Kohdistetaan asiakirjatyyppiin**- ja **Kohdistetaan asiakirjaan nro** - -kentät.
+10. Valitse **OK**-painike. **Kassapäiväkirja**-ikkunassa näkyy nyt tapahtuma, jonka olet antanut **Kohdistetaan asiakirjatyyppiin**- ja **Kohdistetaan asiakirjaan nro** -kenttiin.
 11. Kirjaa kassapäiväkirja.
 
 ## <a name="to-apply-a-payment-to-multiple-customer-ledger-entries"></a>Maksun kohdistaminen useaan asiakastapahtumaan:
@@ -77,8 +75,8 @@ Voit kohdistaa asiakas- ja toimittajamaksuja myös **Maksujen täsmäytyskirjaus
 5. Syötä **Tilityyppi**-kenttään **Asiakas**.
 6. Syötä **Vastatilin tyyppi** -kenttään **Pankkitili**.
 7. Syötä **Summa**-kenttään täysi maksu negatiivisena summana.
-8. Voit kohdistaa maksun useaan asiakastapahtumaan kirjaamisen yhteydessä valitsemalla **Kohdista tapahtumat** -toiminto.
-9. Valitse rivit, joiden tapahtumiin tapahtuma kohdistetaan, ja valitse sitten **Aseta kohdistustunniste** -toiminto.
+8. Voit kohdistaa maksun useaan asiakastapahtumaan kirjaamisen yhteydessä valitsemalla **Kohdista tapahtumat** -toiminto.  
+9. Valitse rivit, joiden tapahtumiin tapahtuma kohdistetaan, ja valitse sitten **Aseta kohdistustunniste** -toiminto.  
 10. Määritä yksittäiseen tapahtumaan kohdistettava summa kunkin rivin **Kohdistettava summa** -kenttään. Jos summaa ei määritetä, käytetään enimmäissummaa.
 
     **Kohdista asiakastapahtumat** -ikkunan alaosan **Kohdistettu summa** -kentässä on tietty summa sekä tieto siitä, täsmääkö kohdistus.  
@@ -88,11 +86,11 @@ Voit kohdistaa asiakas- ja toimittajamaksuja myös **Maksujen täsmäytyskirjaus
 ## <a name="to-apply-a-credit-memo-to-a-single-customer-ledger-entry"></a>Hyvityslaskun kohdistaminen yhteen asiakastapahtumaan:
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Myyntihyvityslaskut** ja valitse sitten aiheeseen liittyvä linkki.
 2. Avaa haluamasi myyntihyvityslasku.
-3. Voit kohdistaa hyvityslaskun yksittäiseen asiakastapahtumaan kirjaamisen yhteydessä valitsemalla **Kohdistetaan asiakirjaan nro** -kentässä tapahtuma, johon haluat kohdistaa maksun.
+3. Jos haluat kohdistaa hyvityslaskun yksittäiseen asiakastapahtumaan kirjauksen yhteydessä, valitse **Kohdistetaan asiakirjaan nro** -kentässä tapahtuma, johon haluat kohdistaa maksun.
 4. Määritä tapahtumaan kohdistettava summa rivin **Kohdistettava summa** -kenttään.  
 
     Jos summaa ei määritetä, ohjelma kohdistaa automaattisesti enimmäissumman. **Kohdista asiakastapahtumat** -ikkunan alaosan **Kohdistettu summa** -kentässä on tietty summa sekä tieto siitä, täsmääkö kohdistus.    
-5. Valitse **OK**-painike. **Myyntihyvityslasku**-ikkunassa näkyy nyt tapahtuma, jonka olet syöttänyt **Kohdistetaan asiakirjatyyppiin**- ja **Kohdistetaan asiakirjaan nro** - -kentät. -ikkunassa näkyy nyt kirjattava hyvityslaskun summa sekä mahdolliset maksualennukset.
+5. Valitse **OK**-painike. **Myyntihyvityslasku**-ikkunassa näkyy nyt tapahtuma, jonka olet antanut **Kohdistetaan asiakirjatyyppiin**- ja **Kohdistetaan asiakirjaan nro** -kentissä. -ikkunassa näkyy nyt kirjattava hyvityslaskun summa sekä mahdolliset maksualennukset.
 6. Kirjaa hyvityslasku.
 
 ## <a name="to-apply-a-credit-memo-to-multiple-customer-ledger-entries"></a>Hyvityslaskun kohdistaminen useaan asiakastapahtumaan:

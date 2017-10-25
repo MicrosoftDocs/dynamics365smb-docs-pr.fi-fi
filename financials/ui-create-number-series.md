@@ -11,12 +11,11 @@ ms.workload: na
 ms.search.keywords: numbers, numbering
 ms.date: 06/02/2017
 ms.author: solsen
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 7cc119c5879400adf63e468259a2c3a275b71cca
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-create-number-series"></a>Toimintaohje: Numerosarjan luominen
@@ -27,7 +26,7 @@ Jokaiselle yritykselle on määritettävä yksilölliset tunnuskoodit esimerkiks
 
 Numerointijärjestelmä luodaan määrittämällä koodeja kullekin perustietotyypille tai asiakirjalle. Voit määrittää koodin esimerkiksi asiakkaiden, myyntilaskujen ja yleisten päiväkirjojen numerointia varten. Kun olet määrittänyt koodin, sinun on määritettävä vähintään yksi numerosarjarivi. Numerosarjarivit sisältävät erilaisia tietoja, kuten sarjan ensimmäisen ja viimeisen numeron sekä alkupäivämäärän. Voit määrittää yhtä numerosarjakoodia kohti useita numerosarjarivejä, joilla kullakin on eri alkupäivämäärä. Numerosarjoja käytetään peräkkäin kulloisestakin alkupäivämäärästä alkaen.
 
-Numerosarjat määritetään yleensä lisäämään seuraava peräkkäinen numero automaattisesti luotuihin uusiin kortteihin tai asiakirjoihin. Voit kuitenkin määrittää myös numerosarjoja, joissa uuden numeron voi antaa manuaalisesti. Tässä määrityksessä on käytössä **Manuaaliset nrot** -valintaruutu.
+Numerosarjat määritetään yleensä lisäämään seuraava peräkkäinen numero automaattisesti luotuihin uusiin kortteihin tai asiakirjoihin. Voit kuitenkin määrittää myös numerosarjoja, joissa uuden numeron voi antaa manuaalisesti. Se määritetään **Manuaaliset nrot** -valintaruudussa.
 
 Jos haluat käyttää useita numerosarjakoodeja yhdelle perustietotyypille (esimerkiksi silloin, kun haluat eri numerosarjoja eri nimikeluokille), voit käyttää numerosarjasuhteita.
 
@@ -36,7 +35,7 @@ Jos haluat käyttää useita numerosarjakoodeja yhdelle perustietotyypille (esim
 2. Valitse **Uusi**-toiminto.
 3. Täytä tarvittavat uuden rivin kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-**VIHJE**: Jos haluat, että uusiin kortteihin tai asiakirjoihin voi antaa numeron manuaalisesti, poista **Oletusnrot**-valintaruudun valinta ja valitse **Manuaaliset nrot** -valintaruutu.
+**VIHJE**: Jos haluat sallia numeroiden antamisen manuaalisesti uusissa korteissa tai asiakirjoissa, poista **Oletusnrot**-valintaruudun valinta ja valitse **Manuaaliset nrot** -valintaruutu.
 
 Kun nyt luot uuden kortin tai asiakirjan, joka on määritetty käyttämään kyseistä numerosarjaa, voit antaa **Nro**-kenttään sopivan arvon.  
 

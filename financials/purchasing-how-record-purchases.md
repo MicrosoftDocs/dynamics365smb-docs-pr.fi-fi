@@ -9,14 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement
-ms.date: 03/29/2017
+ms.date: 08/08/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 60906dde627216903b5ef82e34ce4bc918f3c988
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 5bd635465626c192d8650cbd2a999dd0fbceb15e
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-record-purchases"></a>Toimintaohje: Ostojen kirjaus
@@ -35,7 +34,7 @@ Voit helposti korjata tai peruuttaa kirjatun ostolaskun ennen kuin maksua toimit
 Nimikkeiden tyyppi voi olla **Varasto** tai **Palvelu**. Lisätietoja on kohdassa [Toimintaohje: Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md). Ostolaskuprosessi on sama molemmille nimiketyypeille.
 
 > [!NOTE]  
->   Ostotilaustoiminto edellyttää, että kokemukseksi on valittu **Ohjelmistopaketti**. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)] -kokemuksen mukauttaminen](ui-experiences.md).
+>   Ostotilaustoiminto edellyttää, että kokemukseksi on valittu **Suite**. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)] -kokemuksen mukauttaminen](ui-experiences.md).
 
 Voit täyttää ostolaskun toimittajan kentät kahdella tavalla sen mukaan, onko toimittaja jo rekisteröity.
 
@@ -58,7 +57,7 @@ Voit täyttää ostolaskun toimittajan kentät kahdella tavalla sen mukaan, onko
 
     > [!NOTE]  
 >   Jos olet määrittänyt toimittajalle toistuvien ostojen rivin, kuten kuukausittaisen täydennystilauksen, voit lisätä nämä rivit laskuun valitsemalla **Hae toistuvat ostorivit** -toiminnon.
-10. Valitse **Rivit**-pikavälilehdessä **Nimikenro**-kenttä ja syötä varastonimike tai palvelu.
+10. Syötä **Rivit**-pikavälilehden **Nimikenro**-kenttään varastonimikkeen tai palvelun numero.
 11. Syötä **Määrä**-kenttään ostettavien nimikkeiden lukumäärä.
 
     > [!NOTE]  
@@ -78,6 +77,7 @@ Osto vaikuttaa nyt varastoon ja taloustietueisiin, ja myyjän maksu on aktivoitu
 ## <a name="see-also"></a>Katso myös
 [Osto](purchasing-manage-purchasing.md)  
 [Ostojen määrittäminen](purchasing-setup-purchasing.md)  
+[Toimintaohje: Tarjousten pyytäminen](purchasing-how-request-quotes.md)  
 [Toimintaohje: Nimikkeiden ostaminen myyntiin](purchasing-how-purchase-products-sale.md)  
 [Toimintaohje: Uusien toimittajien rekisteröiminen](purchasing-how-register-new-vendors.md)  
 [Toimintaohje: Suoratoimitusten valmisteleminen](sales-how-drop-shipment.md)  

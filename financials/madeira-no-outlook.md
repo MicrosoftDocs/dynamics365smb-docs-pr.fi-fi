@@ -1,6 +1,6 @@
 ---
 title: "Dynamics 365 for Financialsin käyttäminen ilman Outlookia | Microsoft Docs"
-description: "Voit Dynamics 365 for Financialsia Outlookissa yrityksen Saapuneet-kansiona, koska sen on integroitu Office 365:een. Outlook ei kuitenkaan ole välttämätön, jos käytetä selainta tai mobiililaitetta."
+description: "Voit käyttää Dynamics 365 for Financialsia Outlookissa yrityksen Saapuneet-kansiona, koska se on integroitu Office 365:een. Outlook ei kuitenkaan ole välttämätön, jos käytät selainta tai mobiililaitetta."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -11,12 +11,11 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
 ms.date: 0602/2017
 ms.author: edupont
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 29b204502281b728889098ae8d88f928e4f46e20
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="using-dynamics-365-for-financials-without-outlook"></a>Dynamics 365 for Financialsin käyttäminen ilman Outlookia

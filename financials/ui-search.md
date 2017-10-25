@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: find
 ms.date: 03/29/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: c38f22bec1101a8373b7b5dab246942f49412afc
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="searching-for-a-page-or-report"></a>Sivun tai raportin etsiminen
@@ -28,7 +27,7 @@ Voit etsiä sivuja tai raportteja valitsemalla osoiterivin oikeassa yläkulmassa
 Kun alat kirjoittaa merkkejä, avattavassa luettelossa näkyvät kirjoittamasi merkit sisältävien sivujen nimet. Avattavan luettelon sisältö muuttuu, kun kirjoitat lisää merkkejä, ja voit valita luettelosta haluamasi vaihtoehdon, kun luettelo on näkyvissä. Avattavan luettelon toisessa sarakkeessa näkyvät löydettyjen sivujen polut. Käytössä on myös linkki, jolla voit etsiä ohjetta kirjoittamiesi merkkien mukaan.
 
 > [!NOTE]  
->   Käytettävissä olevat sivut ja raportit määräytyvät yritykselle valitun käyttäjäkokemuksen mukaan. **Perus**-kokemuksen valikoima on suppeampi kuin **Ohjelmistopaketti**-kokemuksen valikoima. Ensimmäiselle kirjautumiskerralla käytössä on Perus-kokemus. Lisätietoja on ohjeaiheessa [[!INCLUDE[d365fin](includes/d365fin_long_md.md)]iin käyttökokemuksen mukauttaminen](ui-experiences.md).
+>   Käytettävissä olevat sivut ja raportit määräytyvät yritykselle valitun käyttäjäkokemuksen mukaan. **Perus**-kokemuksen valikoima on suppeampi kuin **Suite**-kokemuksen valikoima. Ensimmäiselle kirjautumiskerralla käytössä on Perus-kokemus. Lisätietoja on ohjeaiheessa [[!INCLUDE[d365fin](includes/d365fin_long_md.md)]iin käyttökokemuksen mukauttaminen](ui-experiences.md).
 
 > [!NOTE]  
 >   **Etsi sivu tai raportti** -toiminto ei etsi kaikista tiedoista, kuten asiakkaiden nimistä, osoitteista ja tapahtumista. Voit sen sijaan etsiä tietoja luettelosivuilta valitsemalla luettelon otsikon oikeassa yläkulmassa suurennuslasikuvakkeen. Haku tehdään vain avatussa luettelossa. Lisätietoja on kohdassa [Ehtojen antaminen suodattimiin](ui-enter-criteria-filters.md).

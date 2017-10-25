@@ -9,25 +9,26 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
-ms.date: 04/25/2017
+ms.date: 08/24/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: ffeffe725025dc03d2053333f75249679103b6a4
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: b15bd0928e797918c7431e595b1bdf500a8d6792
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-use-approval-workflows"></a>Toimintaohje: Hyväksyntätyönkulkujen käyttäminen
 Jos organisaatiosi henkilön pitää hyväksyä tietue, kuten ostoasiakirja tai asiakaskortti, hänelle lähetetään hyväksyntäpyyntö työnkulun osana. Hyväksyjä saa työnkulun määrityksen mukaan ilmoituksen siitä, että tietue odottaa hänen hyväksyntäänsä.
 
-Hyväksyntätyönkulut määritetään **Työnkulku**-ikkunassa.
+Hyväksyntätyönkulut määritetään **Työnkulku**-ikkunassa. Lisätietoja on kohdassa [Työnkulkujen määrittäminen](across-set-up-workflows.md).
+
+Tässä ohjeaiheessa kuvattujen hyväksyntätyönkulkujen lisäksi voit suorittaa useita muita työnkulun tehtäviä. Lisätietoja on kohdassa [Työnkulkujen käyttäminen](across-use-workflows.md).
 
 Ostoasiakirjojen, myyntiasiakirjojen, maksupäiväkirjojen, asiakaskorttien ja nimikekorttien perushyväksyntätyönkulut ovat valmiita käynnistettäväksi avustetuissa asennuksissa. Lisätietoja on kohdassa [Tervetuloa [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]iin(index.md).
 
 > [!NOTE]  
->   Tämä toiminto edellyttää, että kokemukseksi on valittu **Ohjelmistopaketti**. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)] -kokemuksen mukauttaminen](ui-experiences.md).
+>   Tämä toiminto edellyttää, että kokemukseksi on valittu **Suite**. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)] -kokemuksen mukauttaminen](ui-experiences.md).
 
 ## <a name="to-request-approval-of-a-record"></a>Tietueen hyväksynnän pyytäminen
 Hyväksynnän käyttäjä suorittaa seuraavan tehtävän.
@@ -47,17 +48,6 @@ Tilanne voi toisinaan edellyttää, että asiakkaan täytyy tehdä muutoksia til
 - Valitse tietueen näyttävässä ikkunassa **Peruuta hyväksymispyyntö** -toiminto.
 
 Kun hyväksyntäpyyntö on peruutettu, siihen liittyvän hyväksyntämerkinnän tilaksi tulee **Peruutettu**. Tietueen tila muuttuu **Odottaa hyväksyntää** -tilasta**Avoin**-tilaksi. Tämän jälkeen hyväksyntäprosessi voi alkaa uudelleen.
-
-## <a name="to-make-minor-changes-to-approved-records"></a>Pienten muutosten tekeminen hyväksyttyihin tietueisiin
-Jos haluat tehdä tietueeseen pienen muutoksen hyväksymisen jälkeen, voit avata tietueen uudelleen, tehdä haluamasi muutoksen ja vapauttaa sitten tietueen. Tee pienet muutokset **Avaa uudelleen**- ja **Vapauta**-painikkeiden avulla.
-
-1. Avaa tietueen, kuten ostolaskun, sisältävä ikkuna ja valitse sitten **Avaa uudelleen** -toiminto.
-
-    **Asiakirjan tila** -kentän arvoksi muuttuu **Avoin**.
-2. Tee tietueeseen tarvittavat muutokset (esimerkiksi toimittajan osoite).
-3. Valitse **Vapauta**-toiminto.
-
-Kun avaat lähdetiedoston uudelleen, siihen liittyvän hyväksyntämerkinnän tila on edelleen Hyväksytty **Hyväksymistapahtumat**-ikkunassa.
 
 ## <a name="to-approve-or-reject-requests-for-approval"></a>Hyväksymispyyntöjen hyväksyminen tai hylkääminen
 Hyväksymisoikeudet omaava hyväksynnän käyttäjä suorittaa seuraavan tehtävän.
@@ -98,5 +88,5 @@ Hyväksynnän työnkulun käyttäjiä on muistutettava säännöllisin väliajoi
 [Myynti](sales-manage-sales.md)    
 [Saapuvat asiakirjat](across-income-documents.md)  
 [Osto](purchasing-manage-purchasing.md)  
-[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen(ui-work-product.md)
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
 

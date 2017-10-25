@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 2ca2e771e4f7ec141cd152e1f643efad2db1b7dc
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: cfb32511dd5ba564572050a3d52058fcc2c2f9d3
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="managing-segments"></a>Segmenttien hallinta
@@ -28,9 +27,9 @@ Segmenttien luomisessa on seuraavat kaksi päätehtävää:
 * segmenttiä koskevien yleistietojen syöttäminen Segmenttiin voi valita kontakteja vasta segmentin luomisen jälkeen.
 * segmenttiin sisällytettävien kontaktien valitseminen.
 
-Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisiin. Tehtävät luetellaan järjestyksessä, jossa ne yleensä suoritetaan.
+Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aiheisiin. 
 
-| Toiminta | Katso |
+| Vastaanottaja | Katso |
 | --- | --- |
 | Luo segmentit, joiden avulla voit valita kontaktiryhmän (esimerkiksi suoramainos). Tällainen on esimerkiksi suoramainos. |[Segmenttien luominen](marketing-how-create-segment.md) |
 | Hallitse segmentteihin liitettyjä kontakteja. |[Toimintaohje: Kontaktien lisääminen segmentteihin](marketing-add-contact-segment.md) |

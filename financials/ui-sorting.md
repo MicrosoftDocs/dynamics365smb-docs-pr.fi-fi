@@ -11,16 +11,15 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 02/07/2017
 ms.author: solsen
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 4f63d34f4dffc0a6e8c6aa7f8e3fe72710d9bce5
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 11c046fbd074f9542e496ad07560005873f84f15
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="sorting"></a>Lajittelu
-Lajittelutoiminnon avulla tietoja on helppo ja nopea tarkastella. Jos asiakkaita on useita, voit lajitella heidät esimerkiksi **Asiakasnro**-, **Asiakkaan kirjausryhmä**-, **Valuuttakoodi**-, **Maa-/aluekoodi**- tai **ALV-rekisteröintinro**-kohdan avulla, kun haluat tietyn yleiskuvauksen.
+Lajittelutoiminnon avulla tietoja on helppo ja nopea tarkastella. Jos asiakkaita on useita, saat tarvitsemasi yleiskuvan lajittelemalla heidät esimerkiksi **Asiakasnro**-, **Asiakkaan kirjausryhmä**-, **Valuuttakoodi**-, **Maa-/aluekoodi**- tai **ALV-rekisteröintinro**-kohdan avulla,
 
 Valitse sarakkeen otsikko ja lajittele nousevaan tai laskevaan järjestykseen pienen nuolen avulla.  
 
@@ -30,5 +29,4 @@ Valitse sarakkeen otsikko ja lajittele nousevaan tai laskevaan järjestykseen pi
 ## <a name="see-also"></a>Katso myös
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Suodattimen ehtojen antaminen](ui-enter-criteria-filters.md)
-
 
