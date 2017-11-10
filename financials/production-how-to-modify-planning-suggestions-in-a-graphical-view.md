@@ -67,7 +67,6 @@ Toteuttaaksesi tarjonnan tuotantosuunnitelmien muutokset sinun täytyy seurata s
  |Vihreä ympyrä ja kuvake, joka on levyn muotoinen ja jossa on punainen risti|Ehdotettu toimitustilaus, jossa toimenpideviesti *Peruuta*.<br /><br /> -   Ei voida muokata.<br />-   Näkyy silloin, kun **Sisällytä suunnitteluehdotukset** -kenttä on valittu (vihreä kaavio).|  
  |Vihreä ympyrä ja kuvake, joka on levyn muotoinen ja jossa on tähti|Ehdotettu toimitustilaus, jossa toimenpideviesti *Uusi*.<br /><br /> -   Voidaan muokata.<br />-   Näkyy silloin, kun **Sisällytä suunnitteluehdotukset** -kenttä on valittu (vihreä kaavio).|  
  |Vihreä ympyrä ja kuvake, joka on levyn muotoinen ja jossa on yksi tai kaksi nuolta|Toimenpide-ehdotus toimitustilauksille *Aikataul. uud.*, *Muuta määrä* tai *Aikataul. uud. ja muuta määrä*<br /><br /> -   Voidaan muokata.<br />-   Näkyy silloin, kun **Sisällytä suunnitteluehdotukset** -kenttä on valittu (vihreä kaavio).<br /><br /> Nuolet vastaavat suunnitteluehdotuksen suuntaa. Esimerkiksi vasen nuoli yhdessä ylänuolen kanssa ilmaisee *Aikatauluta uud. ja Muuta määrä* -toimenpideviestiä, joka sisältää aikataulutuksen taaksepäin ja määrän lisäyksen.|  
- ||  
 
 Jos käytät **Aikajana**-pikavälilehden avattavaa valikkoa, seuraavat toiminnot avautuvan tehdyn valinnan perusteella  
 

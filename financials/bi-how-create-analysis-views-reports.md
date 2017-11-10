@@ -50,13 +50,12 @@ Sen jälkeen voit määrittää seuraavanlaiset sarakkeet:
 
 Ohjelma yhdistää raportin tuloksen **Analyysiraportti**-ikkunassa määrittämiesi rivien ja sarakkeiden perusteella käyttämällä esimerkiksi seuraavanlaista matriisia:  
 
-|||||  
+| |Kuluvan kuukauden myynti|Edellisen kuukauden myynti|Edellisen kuukauden myynti (%)|  
 |-|-|-|-|  
-||Kuluvan kuukauden myynti|Edellisen kuukauden myynti|Edellisen kuukauden myynti (%)|  
-|Tietokoneet||||  
-|Näytöt||||  
-|Varaosat||||  
-|Yhteensä||||  
+|Tietokoneet| | | |  
+|Näytöt| | | |  
+|Varaosat| | | |  
+|Yhteensä| | | |  
 
  Voit esimerkiksi esittää kuukausiraportin määrittämällä yhden joukon riviasetteluja ja vuosiraportin määrittämällä useita joukkoja sarakeasetteluja.
 
