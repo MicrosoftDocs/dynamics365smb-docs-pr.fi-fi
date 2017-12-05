@@ -2,25 +2,33 @@
 title: "Kirjanpitäjän portaalin käyttäminen | Microsoft Docs"
 description: "Sisältää tietoja Kirjanpitäjän portaali -laajennuksesta."
 author: edupont04
-ms.service: dynamics365-financials
+ms.service: dynamics365-accountant
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, accountant
-ms.date: 07/27/2017
+ms.date: 10/23/2017
 ms.author: edupont
-ROBOTS: NOINDEX,NOFOLLOW
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: ed5a59f55b0209b20cccff3985c61097123360f6
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: d5d684e00a88ab60e3dedbb57b1c49faf549bf3b
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="accountant-portal-for-dynamics-365-for-financials"></a><span data-ttu-id="10e6f-103">Dynamics 365 for Financialsin kirjanpitäjän portaali</span><span class="sxs-lookup"><span data-stu-id="10e6f-103">Accountant Portal for Dynamics 365 for Financials</span></span>
-[!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
-## <a name="see-also"></a><span data-ttu-id="10e6f-104">Katso myös</span><span class="sxs-lookup"><span data-stu-id="10e6f-104">See Also</span></span>
-[<span data-ttu-id="10e6f-105">Tervetuloa käyttämään Dynamics 365 for Accountantsia</span><span class="sxs-lookup"><span data-stu-id="10e6f-105">Welcome to Dynamics 365 for Accountants</span></span>](index.md)  
-[<span data-ttu-id="10e6f-106">Dynamics 365 for Accountantsin käytön aloittaminen</span><span class="sxs-lookup"><span data-stu-id="10e6f-106">Get started with Dynamics 365 for Accountants</span></span>](accountant-get-started.md)  
+# <a name="accountant-portal-for-dynamics-365-for-finance-and-operations-business-edition"></a><span data-ttu-id="2ae6a-103">Dynamics 365 for Finance and Operations, Business editionin kirjanpitäjän portaali</span><span class="sxs-lookup"><span data-stu-id="2ae6a-103">Accountant Portal for Dynamics 365 for Finance and Operations, Business edition</span></span>
+<span data-ttu-id="2ae6a-104">Tämä sovellus toimii portaalina, jossa on kirjanpitäjän jokaisen asiakasohjelman yhteenvetotiedot.</span><span class="sxs-lookup"><span data-stu-id="2ae6a-104">This application provides a portal with summary data for each client of an accountant.</span></span> <span data-ttu-id="2ae6a-105">Portaalissa on esillä taloushallinnon tunnuslukujen lisäksi myös suora linkki asiakasohjelman taloushallinnon sovellukseen.</span><span class="sxs-lookup"><span data-stu-id="2ae6a-105">The portal displays financial KPIs as well as a direct link to the client’s financial application.</span></span>  
+
+<span data-ttu-id="2ae6a-106">Portaalissa on erikoistunut roolikeskus – koontinäyttönä sen kautta saa hyvän kokonaiskuvan asiakasohjelmista.</span><span class="sxs-lookup"><span data-stu-id="2ae6a-106">The portal includes a highly specialized Role Center that serves as a dashboard for a better overview of your clients.</span></span>  
+<span data-ttu-id="2ae6a-107">[![Kirjanpitäjän portaali](./media/accountant-get-started/accountant-dashboard.png)](https://go.microsoft.com/fwlink/?linkid=851257)</span><span class="sxs-lookup"><span data-stu-id="2ae6a-107">[![Accountant Portal](./media/accountant-get-started/accountant-dashboard.png)](https://go.microsoft.com/fwlink/?linkid=851257)</span></span>
+
+<span data-ttu-id="2ae6a-108">Kun laajennus asennetaan ensimmäisen kerran, pääset alkuun malliyrityksen avulla.</span><span class="sxs-lookup"><span data-stu-id="2ae6a-108">When you first install the extension, a sample company helps you get started.</span></span> <span data-ttu-id="2ae6a-109">Voit poistaa malliyrityksen koska tahansa.</span><span class="sxs-lookup"><span data-stu-id="2ae6a-109">You can delete the sample company at any time.</span></span>  
+
+## <a name="installing-the-extension"></a><span data-ttu-id="2ae6a-110">Laajennuksen asentaminen</span><span class="sxs-lookup"><span data-stu-id="2ae6a-110">Installing the Extension</span></span>
+<span data-ttu-id="2ae6a-111">Kun lisäät laajennuksen [!INCLUDE[d365fin](includes/d365fin_md.md)]iin, se korvaa nykyisen roolikeskuksen ja lisää käyttöoikeudet profiiliisi.</span><span class="sxs-lookup"><span data-stu-id="2ae6a-111">When you add the extension to your [!INCLUDE[d365fin](includes/d365fin_md.md)], it replaces your current Role Center and adds permissions to your user profile.</span></span> <span data-ttu-id="2ae6a-112">Tämän vuoksi sinun on kirjauduttava ulos ja takaisin sisään muutamia kertoja.</span><span class="sxs-lookup"><span data-stu-id="2ae6a-112">As a result, you must sign out and sign in a couple of times.</span></span>  
+
+## <a name="see-also"></a><span data-ttu-id="2ae6a-113">Katso myös</span><span class="sxs-lookup"><span data-stu-id="2ae6a-113">See Also</span></span>
+<span data-ttu-id="2ae6a-114">[Tervetuloa [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]iin!](index.md)</span><span class="sxs-lookup"><span data-stu-id="2ae6a-114">[Welcome to [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](index.md)</span></span>  
+<span data-ttu-id="2ae6a-115">[[!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]in käytön aloittaminen](get-started.md)</span><span class="sxs-lookup"><span data-stu-id="2ae6a-115">[Get Started with [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](get-started.md)</span></span>  
 
