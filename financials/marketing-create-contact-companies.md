@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 2deb992855857a83955c3c119eb7903fe45088d2
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 3c80d937a8b849cf7174952e02bbde243ca0ac5c
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="creating-contact-companies"></a>Kontaktiyrityksen luominen
@@ -26,9 +26,9 @@ Tehokkaan yhteydenpidon varmistamiseksi yrityksestä on määritettävä mahdoll
 
 Voit määrittää myös liikesuhteen, joka kontaktiin on muodostettu. Kontakti voi olla esimerkiksi prospekti, pankki tai alihankkija.
 
-Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aiheisiin. 
+Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aiheisiin.
 
-| Vastaanottaja | Katso |
+| Toiminta | Katso |
 | --- | --- |
 | Määritä uudelle yritykselle kontakti aivan alusta tai asiakkaasta, toimittajasta tai pankkitilistä. |[Toimintaohjeet: Kontaktiyritysten luominen](marketing-how-create-contact-companies.md) |
 | Kontaktien tietojen synkronointi asiakkaiden, toimittajien ja pankkitilien yleisten tietojen kanssa |[Kontaktien synkronoiminen asiakkaiden, toimittajien ja pankkitilien kanssa](marketing-synchronize-contacts-customers-vendors-bank-accounts.md) |
@@ -40,5 +40,5 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 
 ## <a name="see-also"></a>Katso myös
 [Kontaktihenkilöiden luominen](marketing-create-contact-persons.md)   
-[Financialsin käyttäminen](ui-work-product.md)
+[Dynamics 365:n käyttäminen](ui-work-product.md)
 

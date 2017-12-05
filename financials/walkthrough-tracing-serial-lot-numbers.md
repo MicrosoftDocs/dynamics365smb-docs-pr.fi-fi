@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/22/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 7e76ef1d5622486c3d8055f6e0ccbe3564a96701
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: face4821059b57c32e06dca46ec5144aba4ca528
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="walkthrough-tracing-serial-lot-numbers"></a>Vaihekuvaus: Sarja-/eränumeroiden jäljitys
@@ -141,11 +141,10 @@ Seuraavaksi näille kahdelle nimikkeelle luodaan osto-, tuotanto- ja myyntitilau
 2.  Valitse **Uusi**-ryhmä.  
 3.  Luo uusi vapautettu tuotantotilaus täyttämällä seuraavat kentät.  
 
-    ||||  
     |-|-|-|  
     |Lähteen nro|Määrä|Sarjanumero|  
-    |1002|2|Snro1|  
-    |1002|2|Snro2|  
+    |1002|2|SN1|  
+    |1002|2|SN2|  
 
 4.  Täytä rivi valitsemalla ensin **Päivitä tuotantotilaus** -toiminto ja sitten **OK**.  
 5.  Anna sarjanumerot valitsemalla **Nimikkeen seurantarivit** -toiminto.  

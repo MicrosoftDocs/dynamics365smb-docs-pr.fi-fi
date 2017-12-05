@@ -1,20 +1,20 @@
 ---
-title: Vanhojen liiketoimintatietojen tuominen Financialsiin | Microsoft Docs
-description: "Voit siirtää asiakkaiden, toimittajien ja varaston tietoja esimerkiksi Excelistä, QuickBooksista tai Dynamics GP:stä Financialsiin."
+title: Vanhojen liiketoimintatietojen tuominen Dynamics 365:een | Microsoft Docs
+description: "Voit siirtää asiakkaiden, toimittajien ja varaston tietoja esimerkiksi Excelistä, QuickBooksista tai Dynamics GP:stä Dynamics 365:een."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: migrate, initialize, implement
+ms.search.keywords: QuickBooks, transfer, import, migrate, initialize, implement
 ms.date: 09/25/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: c5571a6d5dcb7a228ce0debd9aa3bcf18607e8a4
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 3f1df4bf771586c5e3e4d79d23c26051bf19c763
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="importing-business-data-from-other-finance-systems"></a>Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä
@@ -24,7 +24,7 @@ Kotisivulla olevan avustetun asennusoppaan avulla voit siirtää liiketoimintati
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] sisältää malleja tileille, asiakkaille, toimittajille ja varastonimikkeille, joita voit kohdistaa tietojen tuomisen yhteydessä.  
 
-## <a name="importing-data-from-quickbooks-or-dynamics-gp"></a>Tietojen tuominen QuickBooksista tai Dynamics GP:stä
+## <a name="importing-data-from-quickbooks-desktop-quickbooks-online-or-dynamics-gp"></a>Tietojen tuominen QuickBooks Desktopista, QuickBooks Onlinesta tai Dynamics GP:stä
 Jos yrityksessä käytetään tällä hetkellä QuickBooksia tai Dynamics GP:tä, voit viedä tarvittavat tiedot tiedostoon. Tämän jälkeen voit avata avustetun asennusoppaan ja siirtää tiedot.
 Jos tiedosto sisältää esimerkiksi asiakkaita ja toimittajia, voit siirtää vain asiakkaiden tiedot. Loput tiedot voit siirtää myöhemmin.  
 

@@ -1,6 +1,6 @@
 ---
 title: Vuorovaikutusten luominen kontakteille ja segmenteille| Microsoft Docs
-description: "Tässä ohjeaiheessa kerrotaan, miten vuorovaikutukset luodaan Financialsissa asiakkaiden ja segmenttien kanssa käydylle viestinnälle. Kyse voi olla esimerkiksi suoramainonnasta."
+description: "Tässä ohjeaiheessa kerrotaan, miten vuorovaikutukset luodaan Dynamics 365:ssä asiakkaiden ja segmenttien kanssa käydylle viestinnälle. Kyse voi olla esimerkiksi suoramainonnasta."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/15/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 42e5357eb78df09437bbd22a288f4e583de27e67
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 57cbc08ab2e05777fae54018fe714d44b64d14e0
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-create-interactions-on-contacts-and-segments"></a>Toimintaohje: Vuorovaikutusten luominen kontakteille ja segmenteille
@@ -38,7 +38,7 @@ Ennen vuorovaikutusten luomista sinun täytyy määrittää vuorovaikutusmallit.
 3. Valitse lopetettava vuorovaikutus ja valitse sitten **Jatka**-toiminto.
 
 ## <a name="to-create-an-interaction-on-a-segment"></a>Vuorovaikutusten luominen segmentille
-1. Valitse aloitussivulla **Aktiiviset segmentit** tai valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, kirjoita **Segmentit** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse aloitussivulla **Aktiiviset segmentit** tai valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Segmentit** ja valitse sitten aiheeseen liittyvä linkki.
 2. Määritä, minkä vuorovaikutuksen haluat liittää segmenttiin, täyttämällä **Segmentti**-ikkunassa **Vuorovaikutus**-osan kentät.
 
     Kun olet liittänyt vuorovaikutuksen segmenttiin, voit tehdä jokaisen segmentin kontaktin vuorovaikutuksesta yksilöllisen, esimerkiksi valitsemalla toisen vuorovaikutusmallin **Segmentti**-ikkunan riveillä.  
@@ -54,5 +54,5 @@ Jos olet valinnut **Luo seurantasegmentti** -valintaruudun, ohjelma luo automaat
 [Kontaktien hallinta](marketing-contacts.md)  
 [Myyntimahdollisuuksien hallinta](marketing-manage-sales-opportunities.md)  
 [Kontaktienhallinnan määrittäminen](marketing-setup-marketing.md)  
-[Financialsin käyttäminen](ui-work-product.md)
+[Dynamics 365:n käyttäminen](ui-work-product.md)
 

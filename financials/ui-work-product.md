@@ -1,6 +1,6 @@
 ---
-title: "Yleisten toimintojen käyttö Dynamics 365 for Financialsissa | Microsoft Docs"
-description: "Ohjeaiheessa kerrotaan yleisistä toiminnoista, joilla käsittelet tietoja Financialsissa. Kyse voi olla esimerkiksi arvojen antamisesta, tietojen lajittelusta ja näkymien vaihtamisesta."
+title: "Yleisten toimintojen käyttö Dynamics 365 Business editionissa | Microsoft Docs"
+description: "Ohjeaiheessa kerrotaan yleisistä toiminnoista, joilla käsittelet tietoja Dynamics 365:ssä. Kyse voi olla esimerkiksi arvojen antamisesta, tietojen lajittelusta ja näkymien vaihtamisesta."
 services: 
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -12,13 +12,13 @@ ms.workload: na
 ms.date: 05/29/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 0a50b92a952c0d4be2b68dc4278cedd9362348f0
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: d9f0fd40b34637a8a31e28871b19bd2adb3aab40
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="working-with-included365finincludesd365finlongmdmd"></a>[!INCLUDE[d365fin](includes/d365fin_long_md.md)] -ohjelman käyttäminen
+# <a name="working-with-included365finlongincludesd365finlongmdmd"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] -ohjelman käyttäminen
 Kun tehdään liiketoimintaan liittyviä tehtäviä, voit käsitellä tietoja eri tavoin, kuten tietueiden luominen ja tietojen syöttäminen, tietojen lajittelu ja suodatus, kirjalliset huomautukset ja tietojen lähettäminen muihin sovelluksiin.
 
 Voit esimerkiksi säätää minkä tahansa ikkunan kokoa ja sijaintia, laajentaa sarakkeita ja kasvattaa sarakeotsikoiden korkeutta ja muuttaa sarakkeiden tietojen lajittelua. Ja jos haluat tarkastella kaikkia luettelosivun tai asiakirjarivien sarakkeita vaakavierityspalkin avulla, huomaat, että pystysuuntainen kiinnitysruutu estää tiettyjä sarakkeita vierittymästä.
@@ -36,11 +36,11 @@ Seuraava taulukko sisältää joitakin yleisiä toimintoja ja linkkejä niitä k
 | Muuta perusasetuksia, kuten yritystä tai käsittelypäivämäärää. |[Perusasetusten muuttaminen](ui-change-basic-settings.md) |
 | Vaihda roolikeskus ja siihen liittyvä aloitussivu rooliisi sopivaksi. |[Toimintaohje: Roolikeskuksen vaihtaminen](change-role.md) |
 | Vaihda käyttöliittymässä näytettävät kentät ja toiminnot vastaamaan yrityksen liiketoimintaprosesseja. |[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttökokemuksen mukauttaminen](ui-experiences.md) |
-| Näytä tiettyjen päivämääräalueiden tietojen näyttäminen hakemalla raportteja. |[Päivämääräalueiden antaminen Dynamics 365 for Financialsissa](ui-enter-date-ranges.md) |
+| Näytä tiettyjen päivämääräalueiden tietojen näyttäminen hakemalla raportteja. |[Päivämääräalueiden antaminen Dynamics 365 Business editionissa](ui-enter-date-ranges.md) |
 
 ## <a name="see-also"></a>Katso myös
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttökokemuksen mukauttaminen](ui-experiences.md)  
+[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]in käyttökokemuksen mukauttaminen](ui-experiences.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[free_trial](includes/free_trial_md.md)]
 

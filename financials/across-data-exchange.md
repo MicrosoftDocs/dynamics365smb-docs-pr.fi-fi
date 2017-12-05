@@ -1,5 +1,5 @@
 ---
-title: "Dynamics 365 for Financialsin sähköiset asiakirjat | Microsoft Docs"
+title: "Dynamics 365 Business editionin sähköiset asiakirjat | Microsoft Docs"
 description: "Johdanto sähköisten asiakirjojen lähettämiseen ja vastaanottamiseen [!INCLUDE[d365fin](includes/d365fin_md.md)]issa."
 author: SorenGP
 ms.service: dynamics365-financials
@@ -11,19 +11,20 @@ ms.search.keywords:
 ms.date: 09/19/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: dac82da00a2f4afe16bc784641abea8f6a29c537
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 4397c5b935afccc666fac91c73c04c59958fd8eb
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 11/10/2017
 
 ---
+
 # <a name="exchanging-data-electronically"></a>Sähköinen tiedonsiirto
 Voit siirtää liiketoiminta-asiakirjoja, pankkitiedostoja, vaihtokursseja ja muita datatiedostoja liikekumppaneille tiedonsiirtokehyksen avulla.
 
 ## <a name="electronic-documents"></a>Sähköiset asiakirjat
 Sähköpostin liitetiedostojen lähettämisen sijaan liiketoiminta-asiakirjoja voi lähettää ja vastaanottaa sähköisesti. Sähköisellä asiakirjalla tarkoitetaan sitä, että liiketoiminta-asiakirjaa (kuten toimittajan laskua) edustava standardinmukainen tiedosto voidaan vastaanottaa ja muuntaa ostolaskuksi [!INCLUDE[d365fin](includes/d365fin_md.md)]issa. Document exchange -palveluiden ulkoinen palveluntarjoaja suorittaa kahden liikekumppanin välisen sähköisten asiakirjojen vaihdon. [!INCLUDE[d365fin](includes/d365fin_md.md)]in yleinen versio tukee sähköisten laskujen ja hyvityslaskujen lähettämistä ja vastaanottamista PEPPOL-muodossa. Suurimmat asiakirjojen vaihtopalveluiden tarjoajat tukevat tätä muotoa. Tavallisin document exchange -palveluiden tarjoaja on esimääritetty, ja se on valmis määritettäväksi yrityksellesi. Tuen tarjoamiseen muissa sähköisen asiakirjan muodoissa, sinun on luotava uusi päivämäärän muutosmääritys Data Exchange -kehyksen avulla.  
 
-Ulkoinen OCR (Optical Character Recognition) -palvelu voi luoda saapuvia asiakirjoja vastaavista PDF- tai kuvatiedostoista sähköisiä asiakirjoja, jotka voit sitten muuntaa tiedostotietueiksi [!INCLUDE[d365fin](includes/d365fin_md.md)]issa samalla tavalla kuin teet sähköisille PEPPOL-asiakirjoille. Esimerkiksi kun saat PDF-muodossa laskun toimittajalta, voit lähettää sen OCR-palveluun **Saapuvat asiakirjat** -ikkunasta. Muutaman sekunnin kuluttua saat tiedoston takaisin sähköisenä laskuna, jonka voit muuntaa toimittajan ostolaskuksi. Jos lähetät tiedoston OCR-palveluun sähköpostitse, uusi saapuvan asiakirjan tietue luodaan automaattisesti, kun saat sähköisen asiakirjan takaisin.  
+Ulkoinen OCR (Optical Character Recognition) -palvelu voi luoda saapuvia asiakirjoja vastaavista PDF- tai kuvatiedostoista sähköisiä asiakirjoja, jotka voit sitten muuntaa tiedostotietueiksi [!INCLUDE[d365fin](includes/d365fin_md.md)]issa samalla tavalla kuin teet sähköisille PEPPOL-asiakirjoille. Kun esimerkiksi saat PDF-muotoisen laskun toimittajalta, voit lähettää sen OCR-palveluun **Saapuvat asiakirjat** -ikkunasta. Saat tiedoston muutamassa sekunnissa takaisin sähköisenä laskuna, jonka voit muuntaa toimittajan ostolaskuksi. Jos lähetät tiedoston OCR-palveluun sähköpostitse, uusi saapuvan asiakirjan tietue luodaan automaattisesti, kun saat sähköisen asiakirjan takaisin.  
 
 Lähettääksesi esimerkiksi myyntilaskun sähköisenä PEPPOL-tiedostona voit valita **sähköisen asiakirjan** -vaihtoehdon **Kirjaa ja lähettää** valintaikkunassa. Tässä voit määrittää myös asiakkaan oletuslähettämisprofiilin. Aluksi on määritettävä joitakin perustietoja, kuten yrityksen tiedot, asiakkaat, nimikkeet ja mittayksiköt. Näitä käytetään liikekumppanien ja nimikkeiden tunnistamisessa, kun [!INCLUDE[d365fin](includes/d365fin_md.md)]in kentissä olevat tiedot muunnetaan lähtevän asiakirjatiedoston elementeiksi. PEPPOL-myyntilaskun tietojen muunnon ja lähetyksen hoitavat koodiyksiköt ja XMLport-objektit (sähköisessä **PEPPOL**-asiakirjamuodossa).  
 
@@ -49,7 +50,7 @@ Voit valmistella kaikille XML-tiedostojen tiedonsiirroille tiedonsiirtoasetukset
 
 Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisiin.  
 
-|Vastaanottaja|Katso|  
+|Toiminta|Katso|  
 |--------|---------|  
 |Lue tietoja tiedonsiirtokehyksen toiminnasta.|[Tietoja tiedonvaihto-kehyksestä](across-about-the-data-exchange-framework.md)|  
 |Valmistele tiedoston tietojen vaihto käyttämällä tiedoston XML-rakennetta. Määritä tietojenvaihtomääritykset. Määritä perustiedot sähköisten asiakirjojen lähettämistä varten. Määritä pankin tuonti- ja vientikentät.|[Tiedonsiirron määrittäminen](across-set-up-data-exchange.md)|  

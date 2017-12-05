@@ -13,10 +13,10 @@ ms.search.keywords: categories, search words, facets
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: f071cca7df5bb1d3eac6f013784c0ca13e36477c
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: dcc29b913c999fe05272dd709a873635efb5eeb4
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-work-with-item-attributes"></a>Toimintaohje: Nimikkeen määritteiden käsitteleminen
@@ -25,7 +25,7 @@ Kun asiakkaat tekevät kyselyjä nimikkeestä kirjeenvaihdon tai integroidun ver
 Voit myös määrittää nimikkeen määritteitä nimikeluokkiin, jotka kohdistetaan nimikeluokkia käyttäviin nimikkeisiin. Lisätietoja on ohjeaiheessa [Toimintaohje: Nimikkeen luokitteleminen](inventory-how-categorize-items.md).
 
 > [!Tip]  
-> Jos liität nimikkeisiin kuvia, kuvan analysointilaajennus havaitsee kuvassa olevat määritteet. Lisäksi se ehdottaa määritteitä, ja voit päättää, määritetäänkö ne. Laajennusta voi käyttää heti, kun olet ottanut sen käyttöön. Lisätietoja on ohjeaiheessa [Microsoft Dynamics 365 for Financialsin kuvan analysointilaajennus](ui-extensions-image-analyzer.md).
+> Jos liität nimikkeisiin kuvia, kuvan analysointilaajennus havaitsee kuvassa olevat määritteet. Lisäksi se ehdottaa määritteitä, ja voit päättää, määritetäänkö ne. Laajennusta voi käyttää heti, kun olet ottanut sen käyttöön. Lisätietoja on kohdassa [Microsoft Dynamics 365 Business editionin kuvan analysointilaajennus](ui-extensions-image-analyzer.md).
 
 ## <a name="to-create-item-attributes"></a>Nimikkeen määritteiden luominen
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Nimikkeen määritteet** ja valitse sitten aiheeseen liittyvä linkki.

@@ -1,6 +1,6 @@
 ---
 title: "Uusien yritysten luominen asetusten ohjatun määritysoppaan avulla | Microsoft Docs"
-description: "Dynamics 365 for Financialsiin on helppo luoda uusi, tyhjä yritys. Asetusten ohjattu määritysopas antaa tarkkoja ohjeita, ja voit tuoda aiemmin luomasi liiketoimintatiedot."
+description: "Dynamics 365 Business editioniin on helppo luoda uusi, tyhjä yritys. Asetusten ohjattu määritysopas antaa tarkkoja ohjeita, ja voit tuoda aiemmin luomasi liiketoimintatiedot."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords: company, setup wizard
 ms.date: 07/14/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
-ms.openlocfilehash: 3ff3c7af87033595d64e583b62b0e0242b22d2f1
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: c4152a77fcd3e5995aaf09c17b0a3a2c227aa2fa
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="creating-new-companies-in-included365finlongincludesd365finlongmdmd"></a>Uusien yritysten luominen [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]issa
@@ -44,10 +44,10 @@ Kun kirjaudut uuteen yritykseen, ohjattu **Yrityksen asennus** -toiminto suorite
 
 Esimerkiksi yrityksen osoitetta käytetään laskuissa ja muissa asiakirjoissa, pankkitietoja käytetään maksuissa ja arvostusmenetelmän avulla lasketaan varaston arvostuksen lisäksi myös hintoja.  
 
-Kun perustiedot on annettu, voi määrittää loput keskeiset alueet. Sen jälkeen voi aloittaa liiketoimintatietojen, kuten asiakkaiden ja toimittajien, lisäämisen. Lisätietoja on ohjeaiheessa [Dynamics 365 for Financialsin määrittäminen](setup.md).  
+Kun perustiedot on annettu, voi määrittää loput keskeiset alueet. Sen jälkeen voi aloittaa liiketoimintatietojen, kuten asiakkaiden ja toimittajien, lisäämisen. Lisätietoja on kohdassa [Dynamics 365 Business editionin määrittäminen](setup.md).  
 
 ## <a name="see-also"></a>Katso myös
-[Dynamics 365 for Financialsin määrittäminen](setup.md)  
+[Dynamics 365 Business editionin määrittäminen](setup.md)  
 [Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä](upload-data.md)  
 [Perusasetusten muuttaminen](ui-change-basic-settings.md)  
 [Tervetuloa [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]iin!](index.md)  

@@ -1,6 +1,6 @@
 ---
-title: "Dynamics 365 for Financialsin käyttäminen Outlookin kanssa| Microsoft Docs"
-description: "Dynamics 365 for Financialsin ja Office 365:n ovat erittäin integroituneita, joten voit hallita kaikkea yrityksen asiakkaiden ja toimittajien kanssa tapahtuvaa viestintää suoraan Outlookissa."
+title: "Dynamics 365 Business editionin käyttäminen Outlookin kanssa| Microsoft Docs"
+description: "Dynamics 365 Business edition ja Office 365 ovat erittäin integroituneita, joten voit hallita kaikkea yrityksen asiakkaiden ja toimittajien kanssa tapahtuvaa viestintää suoraan Outlookissa."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,24 +13,24 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 1944d7633c5f19a42ae8bbe022b8ef026e9515cd
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 86cb193e6a86caef01f57671af2ecd54a2c4a271
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="using-dynamics-365-for-financials-as-your-business-inbox-in-outlook"></a>Dynamics 365 for Financialsin käyttäminen yrityssähköpostina Outlookissa
+# <a name="using-dynamics-365-for-finance-and-operations-business-edition-as-your-business-inbox-in-outlook"></a>Dynamics 365 for Finance and Operations, Business editionin käyttäminen Outlookin yrityssähköpostina
 [!INCLUDE[d365fin](includes/d365fin_md.md)] esittelee mahdollisuuden hallita liiketoiminnallisia vuorovaikutuksia asiakkaiden ja toimittajien kanssa suoraan Microsoft Outlookista. [!INCLUDE[d365fin](includes/d365fin_md.md)]in Outlook-apuohjelmien avulla voit tarkastella asiakkaisiin ja toimittajiin liittyviä taloustietoja sekä luoda ja lähettää talousasiakirjoja, kuten tarjouksia ja laskuja.  
 
 ## <a name="get-the-add-in"></a>Hanki apuohjelma
 [!INCLUDE[d365fin](includes/d365fin_md.md)]issa yksi aloitusasetusten ohjatun määrityksen vaiheista on **Harjoita liiketoimintaa Office 365:ssä** -ikkuna. Kun valitset ikkunassa **Määritä Outlookissa**, sinun on määritettävä Office 365:n käyttäjänimi ja salasana. [!INCLUDE[d365fin](includes/d365fin_md.md)]in apuohjelmat lisätään tämän jälkeen automaattisesti Outlookiin.  
 
-Kun sitten avaat Outlookin, näet Financialsin järjestelmänvalvojan lähettämät sähköpostiviestit. Outlookin valintanauhaan lisätään uusi apuohjelma, ja apuohjelman valintanauha näkyy Outlook Web Access -ohjelmassa heti sähköpostiviestin perustekstin yläpuolella. Apuohjelma päivitetään ajoittain ja saat ilmoituksen, kun uusi versio on valmiina Outlookissa.  
+Kun sitten avaat Outlookin, näet Dynamics 365:n järjestelmänvalvojan lähettämät sähköpostiviestit. Outlookin valintanauhaan lisätään uusi apuohjelma, ja apuohjelman valintanauha näkyy Outlook Web Access -ohjelmassa heti sähköpostiviestin perustekstin yläpuolella. Apuohjelma päivitetään ajoittain ja saat ilmoituksen, kun uusi versio on valmiina Outlookissa.  
 
 Jotkin Office 365:ää käyttävät yrityksen rajoittavat käyttäjien oikeuksia ottaa apuohjelmia käyttöön. Varmista tämän vuoksi, että Office 365 -tilauksesi sisältää sähköpostin ja mahdollistaa apuohjelmien käyttämisen. Jos haluat kokeilla apuohjelma joka tapauksessa, voit [kokeilla Office 365:ää maksutta](https://products.office.com/try).  
 
 ## <a name="using-the-contact-insights-add-in"></a>Kontaktien tiedot -apuohjelman käyttäminen
-Oletetaan, että saat sähköpostiviestin asiakkaalta, joka haluaa tarjouksen tietyistä nimikkeistä. Voit avata Financials-apuohjelman suoraan Outlookissa, jossa lähettäjä tunnistetaan asiakkaaksi ja yrityksen asiakaskortti avataan. Tässä koontinäytössä näytetään asiakkaan yleiskuvauksen tiedot. Koontinäytössä voit myös siirtyä tiettyjen asiakirjojen lisätietoihin. Voit siirtyä tarkastelemaan myös asiakkaan myyntihistoriaa. Jos kyseessä on uusi asiakas, voit luoda uuden asiakkaan [!INCLUDE[d365fin](includes/d365fin_md.md)]issa Outlookista poistumatta.  
+Oletetaan, että saat sähköpostiviestin asiakkaalta, joka haluaa tarjouksen tietyistä nimikkeistä. Voit avata [!INCLUDE[d365fin](includes/d365fin_md.md)] -apuohjelman suoraan Outlookissa, jossa lähettäjä tunnistetaan asiakkaaksi ja yrityksen asiakaskortti avataan. Tässä koontinäytössä näytetään asiakkaan yleiskuvauksen tiedot. Koontinäytössä voit myös siirtyä tiettyjen asiakirjojen lisätietoihin. Voit siirtyä tarkastelemaan myös asiakkaan myyntihistoriaa. Jos kyseessä on uusi asiakas, voit luoda uuden asiakkaan [!INCLUDE[d365fin](includes/d365fin_md.md)]issa Outlookista poistumatta.  
 
 Apuohjelmassa voit luoda myyntitarjouksen ja lähettää sen takaisin asiakkaalle ilman, että poistut Outlookista. Kaikki myyntitarjouksessa tarvitsemasi tiedot ovat käytettävissä Outlookin yrityssähköpostissa.  
 Kun tiedot on syötetty, voit kirjata tarjouksen. Tämän jälkeen voit lähettää sen sähköpostitse. [!INCLUDE[d365fin](includes/d365fin_md.md)] luo myyntitarjouksen sisältävän .PDF-tiedoston ja liittää sen apuohjelmassa tekemääsi sähköpostiviestin luonnokseen.  
@@ -52,14 +52,14 @@ Voit muokata Asiakirjalinkit-apuohjelmassa asiakirjaa ja suorittaa sille toimint
 ## <a name="adding-the-add-ins-manually"></a>Apuohjelmien lisääminen manuaalisesti
 Joissakin tapauksissa apuohjelmia ei lisätä automaattisesti Outlookiin. Vaikka sinä tai kollegasi suoritti avustetun asennusoppaan yrityksen puolesta, [!INCLUDE[d365fin](includes/d365fin_md.md)] ei ehkä näy Outlookissa. Jos tämä ongelma esiintyy, voit lisätä [!INCLUDE[d365fin](includes/d365fin_md.md)]in apuohjelmat manuaalisesti.  
 
-Tarkista ensin, että voit käyttää apuohjelmia Office 365 -tililläsi. Avaa vain Outlook Web Access selaimessa ja lisää `/owa/#path=/options/manageapps` osoiteriville URL-osoitteena. **Apuohjelmien hallinta** -sivu avautuu, ja voit ottaa Financialsin käyttöön Outlookissa. Kun siirryt takaisin Outlookiin, [!INCLUDE[d365fin](includes/d365fin_md.md)]in pitäisi olla käytettävissä.  
+Tarkista ensin, että voit käyttää apuohjelmia Office 365 -tililläsi. Avaa vain Outlook Web Access selaimessa ja lisää `/owa/#path=/options/manageapps` osoiteriville URL-osoitteena. **Apuohjelmien hallinta** -sivu avautuu, ja voit ottaa [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttöön Outlookissa. Kun siirryt takaisin Outlookiin, [!INCLUDE[d365fin](includes/d365fin_md.md)]in pitäisi olla käytettävissä.  
 
 Voit varmistaa myös Outlookin työpöytäversiossa, että [!INCLUDE[d365fin](includes/d365fin_md.md)] on mainittu **Apuohjelmien hallinta** -ikkunassa.  
 
 Jos [!INCLUDE[d365fin](includes/d365fin_md.md)]ia ei voi edelleenkään käyttää, sinun on haettava kummassakin tapauksessa apuohjelman kokoonpanotiedostot. Pyydä lisätietoja Office 365:n järjestelmänvalvojalta.
 
 ## <a name="see-also"></a>Katso myös
-[Tervetuloa [!INCLUDE[d365fin](includes/d365fin_md.md)]iin!](index.md)  
+[Tervetuloa [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]iin!](index.md)  
 [Rahoitus](finance.md)  
 [Myynti](sales-manage-sales.md)  
 [Osto](purchasing-manage-purchasing.md)  

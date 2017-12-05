@@ -1,8 +1,6 @@
 ---
-title: Dynamics 365 for Financialsin peruuttaminen| Microsoft Docs
-description: "Tässä ohjeaiheessa kerrotaan, miten Dynamics 365 for Financials voidaan poistaa."
-services: project-madeira
-documentationcenter: 
+title: Dynamics 365 Business editionin peruuttaminen | Microsoft Docs
+description: "Tässä ohjeaiheessa kerrotaan, miten Dynamics 365 Business edition voidaan poistaa."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,13 +11,13 @@ ms.search.keywords: remove, delete
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 4dc1a0d643aa9b1a2e1fe5b870881dc43c1ed2a1
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 384131512a815743db7ae654542b0e7ee70bf64a
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="unsubscribe-remove-or-reset-included365finincludesd365finmdmd"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)]in tilauksen peruuttaminen, poistaminen tai palauttaminen
+# <a name="unsubscribe-remove-or-reset-included365finlongincludesd365finlongmdmd"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]in tilauksen peruuttaminen, poistaminen tai palauttaminen
 Voit peruuttaa [!INCLUDE[d365fin](includes/d365fin_md.md)]in tilauksen milloin tahansa rekisteröitymisen jälkeen. Samaan tapaan voit palauttaa yrityksen, jota käytät [!INCLUDE[d365fin](includes/d365fin_md.md)]issa. Saat nopeasti yleiskuvan tutustumalla [[!INCLUDE[d365fin](includes/d365fin_md.md)]in blogiin](https://community.dynamics.com/business/b/financials/archive/2016/11/28/how-long-is-the-trial-period-and-how-do-i-cancel).  
 
 ## <a name="unsubscribing-by-removing-included365finincludesd365finmdmd-from-your-office-365-experience"></a>Tilauksen peruuttaminen poistamalla [!INCLUDE[d365fin](includes/d365fin_md.md)] Office 365:stä

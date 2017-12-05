@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 6a1141c352dd93657d32bb83067ce32077901a47
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: c0e678b07c1d5ca73808a2abb5631771dce76fd0
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-create-contact-companies"></a>Kontaktiyritysten luominen
@@ -41,7 +41,7 @@ Jos olet jo määrittänyt useita asiakkaita, toimittajia ja pankkitilejä ohjel
 > [!NOTE]  
 >   Ennen kuin voit luoda kontaktiyrityksiä tällä tavalla, asiakkaiden, toimittajien ja pankkitilien liikesuhteen koodi on määritettävä **Kontaktienhallinnan asetukset** -ikkunassa. Jos luot kontakteja pankkitileistä, määritä myös pankkitilien numerosarjat **Pääkirjanpidon asetukset** -ikkunassa.
 
-1. Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake ja kirjoita jokin seuraavista sen mukaan, mistä haluat luoda kontakteja. Valitse sitten liittyvä linkki.
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake ja kirjoita jokin seuraavista sen mukaan, mistä haluat luoda kontakteja. Valitse sitten liittyvä linkki.
    * **Luo kontakteja asiakkaista**
    * **Luo kontakteja toimittajista**
    * **Luo kontakteja pankkitileistä**
@@ -58,6 +58,6 @@ Jos olet jo määrittänyt useita asiakkaita, toimittajia ja pankkitilejä ohjel
 [Liikesuhteiden liittäminen kontaktiin](marketing-business-relations.md#AssignBusRelContact)  
 [Toimialaryhmien liittäminen kontaktiin](marketing-industry-groups.md#AssignIndustryGroupContact)  
 [Postitusryhmien liittäminen kontaktiin](marketing-mailing-groups.md#AssignMailGroupContact)  
-[Toimintaohjeet: Kontaktihenkilöiden luominen](marketing-create-contact-persons.md)  
-[Financialsin käyttäminen](ui-work-product.md)
+[Kontaktihenkilöiden luominen](marketing-create-contact-persons.md)  
+[Dynamics 365:n käyttäminen](ui-work-product.md)
 

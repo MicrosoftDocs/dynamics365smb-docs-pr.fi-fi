@@ -1,6 +1,6 @@
 ---
-title: Financialsin tukemat liiketoiminnan toiminnot | Microsoft Docs
-Description: "Tässä ohjeaiheessa on yleiskuvaus kaikista liiketoiminnan toimintojen ominaisuuksista ja osastoista, joita sovellusalueet tukevat. Tällaisia sovellusalueita ovat esimerkiksi taloushallinto, varastonhallinta ja projektinhallinta."
+title: Dynamics 365 Business editionin tukemat liiketoimintatoiminnot | Microsoft Docs
+Description: Provides a feature overview of all the business functions and departments that are supported by application areas, such as Finance, Inventory, and Project Management.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,16 +13,16 @@ ms.search.keywords: feature overview
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: 9e4692a6f308931dfdf6d613a4ebbfe5e027301d
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: f71c19abdc225b92a76a98992a2e3d78769b6dc5
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="overview-of-business-functionality"></a>Yritystoimintojen yleiskatsaus
+# <a name="overview-of-business-functionality-in-dynamics-365-for-finance-and-operations-business-edition"></a>Dynamics 365 for Finance and Operations, Business editionin liiketoimintatoimintojen yleiskatsaus
 [!INCLUDE[d365fin](includes/d365fin_md.md)]issa on lähinnä tukkukauppa- ja palvelualalla toimivien PK-yritysten tavallisissa liiketoimintaprosesseissa tarvitsemat toiminnot.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] sisältää vakiomääritykset useimmille liiketoimintaprosesseille. Voit muuttaa määritykset omaa liiketoimintaasi vastaavaksi. Aloitussivulla on avustettuja asennusoppaita, joiden avulla voit määrittää tiettyjä skenaarioita sekä lisätä ominaisuuksia [!INCLUDE[d365fin](includes/d365fin_md.md)]iin. Useat liiketoiminnan toiminnallisuusalueet on määritettävä manuaalisesti. Lisätietoja on ohjeaiheessa [[!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittäminen ](setup.md).
+[!INCLUDE[d365fin](includes/d365fin_md.md)] sisältää vakiomääritykset useimmille liiketoimintaprosesseille. Voit muuttaa määritykset omaa liiketoimintaasi vastaavaksi. Aloitussivulla on avustettuja asennusoppaita, joiden avulla voit määrittää tiettyjä skenaarioita sekä lisätä ominaisuuksia [!INCLUDE[d365fin](includes/d365fin_md.md)]iin. Useat liiketoiminnan toiminnallisuusalueet on määritettävä manuaalisesti. Lisätietoja on ohjeaiheessa [[!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittäminen](setup.md).
 
 Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisiin.
 

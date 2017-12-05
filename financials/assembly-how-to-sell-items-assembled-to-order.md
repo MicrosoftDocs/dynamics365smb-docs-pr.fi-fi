@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/15/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 74822d77b45f0ba1aaf8b255f611a54d051c1f52
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: b7617a0ac027b6d50c9029f386af3fe293e3bc7d
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-sell-items-assembled-to-order"></a>Kokoonpano tilausta varten -nimikkeiden myyminen
@@ -50,7 +50,7 @@ Tässä toimenpiteessä käsittelet asiakkaan pyytämien määrittelyjen mukaan 
     Voit myös mukauttaa tilauksen kasvattamalla yhden perusnimikkeen paketin määrää. Voit tehdä tämän lisäämällä arvon **Määrä per** -kentässä tietylle kokoonpanon tilausriville.  
 
     > [!NOTE]  
-    >  **Kokoonpano tilausta varten -rivit** -ikkunassa näytetään vain perustietokentät, joita myyjän on tarkoitus käyttää osaluettelon mukauttamiseen, nimikkeen seurantanumeroiden lisäämiseen tai osien saatavuuden ongelmanratkaisuun. Katso lisää kokoonpanotilauksen tietoja, kuten kokoonpanotilauksen aloituspäivämäärä **Koti** -välilehdessä **Prosessi** -ryhmässä valitsemalla **Näytä asiakirjat**. Tämä avaa myyntitilausriviin linkitetyn kokoonpanotilauksen koko näkymän. Et voi muuttaa useimpien kenttien sisältöä kokoonpanotilauksen otsikossa, etkä voi kirjata kokoonpanon tuotosta siitä, koska koska sinun täytyy käyttää myyntitilausrivin tilauksen kirjausta.  
+    >  **Kokoonpano tilausta varten -rivit** -ikkunassa näytetään vain perustietokentät, joita myyjän on tarkoitus käyttää osaluettelon mukauttamiseen, nimikkeen seurantanumeroiden lisäämiseen tai osien saatavuuden ongelmanratkaisuun. Katso lisää kokoonpanotilauksen tietoja, kuten kokoonpanotilauksen aloituspäivämäärä, valitsemalla **Näytä asiakirjat**. Tämä avaa myyntitilausriviin linkitetyn kokoonpanotilauksen koko näkymän. Et voi muuttaa useimpien kenttien sisältöä kokoonpanotilauksen otsikossa, etkä voi kirjata kokoonpanon tuotosta siitä, koska koska sinun täytyy käyttää myyntitilausrivin tilauksen kirjausta.  
     >   
     >  Linkitettyjen kokoonpanotilausten otsikossa vain **Aloituspvm**-kenttää voidaan muuttaa niin, että kokoonpanotyöntekijät voivat määrittää päivämäärän, joka on ennen eräpäivää, kun he aloittavat prosessin. Linkitetyn kokoonpanotilauksen rivien kaikki kentät voidaan muuttaa siten, että varaston työntekijät voivat syöttää kulutuksen lukuja prosessin aikana.  
 

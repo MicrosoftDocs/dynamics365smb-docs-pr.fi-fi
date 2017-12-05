@@ -11,10 +11,10 @@ ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
 ms.date: 07/27/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
-ms.openlocfilehash: d81e73ec99d8ef993cff8ec3b5f5f38d00741c7a
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 0823414b222c2f578a6e6c6908f403240cf104d5
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="frequently-asked-questions"></a>Usein kysytyt kysymykset
@@ -26,7 +26,7 @@ Tässä osassa on vastauksia [!INCLUDE[d365fin_long](includes/d365fin_long_md.md
 Jos yrität rekisteröityä käyttämällä henkilökohtaista sähköpostiosoitetta, saat viestin, jossa pyydetään käyttämään työ- tai opiskelupaikan antamaa sähköpostiosoitetta. Lisätietoja on kohdassa [Itsepalvelun rekisteröitymisen vianmääritys](ui-troubleshoot-self-signup.md).  
 
 ## <a name="do-i-have-to-buy-office-365"></a>Onko minun ostettava Office 365?
-Nro Jos kuitenkin haluat käyttää Office 365:een täysin integroitua [!INCLUDE[d365fin](includes/d365fin_md.md)]ia, voit rekisteröityä käyttämään Office 365 -kokeiluversiota maksutta kuukauden ajan [täällä](https://products.office.com/try).  
+Ei. Jos kuitenkin haluat käyttää Office 365:een täysin integroitua [!INCLUDE[d365fin](includes/d365fin_md.md)]ia, voit rekisteröityä käyttämään Office 365 -kokeiluversiota maksutta kuukauden ajan [täällä](https://products.office.com/try).  
 
 ## <a name="what-is-the-integration-with-office-365-about"></a>Mitä Office 365 -integraatio tarkoittaa?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] on täysin integroitu Office 365:een, joten voit siirtyä vapaasti Office 365 -sovellusten ja [!INCLUDE[d365fin](includes/d365fin_md.md)]in välillä sovellusten käynnistysohjelman avulla. Voit esimerkiksi avata [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietoja Excelissä, tulostaa raportteja Wordin avulla ja käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietoja Outlookissa. Lisätietoja on kohdassa [[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] -ohjelman käyttäminen yrityssähköpostina Outlookissa](madeira-outlook.md).  
@@ -35,7 +35,7 @@ Nro Jos kuitenkin haluat käyttää Office 365:een täysin integroitua [!INCLUDE
 Kyllä voit. Huomaa kuitenkin, että tietosi poistetaan tai säilytetään sen perusteella, miten rekisteröidyit [!INCLUDE[d365fin](includes/d365fin_md.md)]iin. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)] -tilauksen peruuttaminen](madeira-cancel.md).  
 
 ## <a name="where-do-i-go-if-i-have-questions"></a>Mistä saan tarvittaessa lisätietoja?
-Jos sinulla on sellaisia [!INCLUDE[d365fin](includes/d365fin_md.md)]ia koskevia kysymyksiä, joihin ei ole vastauksia tässä dokumentaatiossa, voit kysyä asiaa Dynamics 365 for Financials -yhteisöltä. Lisätietoja on kohdassa [Dynamics 365, Business edition -yhteisö](https://community.dynamics.com/business). Lisäksi tukitiimimme julkaisee erilaisia vihjeitä. Lisätietoja on [Dynamics 365 for Financials -tuen blogissa](https://blogs.msdn.microsoft.com/dyn365finsupport).  
+Jos sinulla on sellaisia [!INCLUDE[d365fin](includes/d365fin_md.md)]ia koskevia kysymyksiä, joihin ei ole vastauksia tässä dokumentaatiossa, voit kysyä asiaa Dynamics 365 Business edition -yhteisöltä. Lisätietoja on kohdassa [Dynamics 365, Business edition -yhteisö](https://community.dynamics.com/business). Lisäksi tukitiimimme julkaisee erilaisia vihjeitä. Lisätietoja on kohdassa [Dynamics 365 Business editionin tukiblogi](https://blogs.msdn.microsoft.com/dyn365finsupport).  
 
 ## <a name="is-it-possible-to-extend-my-30-day-new-company-trial-period"></a>Voiko uuden yrityksen 30 päivän kokeilujaksoa pidentää?
 Kyllä. Jos haluat pidentää kokeilujaksoa, ota yhteys Microsoftiin soittamalla numeroon 1 888 477 7989 (USA) tai 1 800 741 9206 (Kanada). HUOMAUTUS: kokeilujakson pidentämisprosessi voi kestää 2 arkipäivää.  
@@ -51,5 +51,5 @@ Luitko uudesta toiminnosta äskettäin tulevia toimintoja käsittelevästä sivu
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen yrityssähköpostina Outlookissa](madeira-outlook.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen ilman Outlookia](madeira-no-outlook.md)  
 [Toimintaohje: Roolikeskuksen vaihtaminen](change-role.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]in käyttäminen](ui-work-product.md)  
 

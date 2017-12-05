@@ -1,6 +1,6 @@
 ---
 title: "Lisätoiminnot näyttävän tai piilottavan käyttäjäkokemuksen valitseminen | Microsoft Docs"
-description: "Tutustu, miten Dynamics 365 for Financialsin Perus- ja Suite-käyttäjäkokemus tarkoittaa käyttöliittymässä, sovellusalueilla ja yrityksessä."
+description: "Lisätietoja siitä, mitä Dynamics 365 Business editionin Perus- ja Suite-käyttäjäkokemus tarkoittaa käyttöliittymässä, sovellusalueilla ja yrityksessä."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -12,13 +12,13 @@ ms.search.keywords: Suite, Basic, user interface, application area
 ms.date: 08/22/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: f2336dbb8381c1ed1961ed97ab4dd782ef846a10
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 361019af4ba1832cd0b9ac39c20bf22e98b38a76
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="customizing-your-dynamics-365-for-financials-experience"></a>Dynamics 365 for Financials -käyttökokemuksen mukauttaminen
+# <a name="customizing-your-included365finlongincludesd365finlongmdmd-experience"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]in käyttökokemuksen mukauttaminen
 [!INCLUDE[d365fin](includes/d365fin_md.md)] on suunniteltu auttamaan liiketoiminnan käytännön asioissa toimialasta riippumatta. [!INCLUDE[d365fin](includes/d365fin_md.md)]in ydintä ovat talousraportointi sekä myynti- ja ostoprosessit. Voit lisätä yrityksesi tarvitsemia ominaisuuksia hakemalla AppSourcesta laajennuksia. Voit myös supistaa tai laajentaa käyttökokemusta ja valita yritykseesi parhaiten sopivan laajuuden. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md).
 
 ## <a name="choosing-a-user-experience"></a>Käyttäjäkokemuksen valitseminen
@@ -38,8 +38,8 @@ Seuraavassa taulukossa on luettelo nyt käytettävissä olevista kokemuksista.
 
 ## <a name="see-also"></a>Katso myös .
 [Perusasetusten muuttaminen](ui-change-basic-settings.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in mukauttaminen laajennusten avulla](ui-extensions.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]in mukauttaminen laajennusten avulla](ui-extensions.md)  
+[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]in käyttäminen](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
 

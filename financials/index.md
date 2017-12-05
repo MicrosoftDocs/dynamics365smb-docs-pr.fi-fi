@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Financialsin esittely| Microsoft Docs
-description: "Lisätietoja pienille ja keskisuurille organisaatioille tarkoitetusta liiketoiminnan hallintaratkaisu Dynamics 365 for Financialsiin toiminnoista ja käyttötilanteista."
+title: Dynamics 365 Business editionin esittely | Microsoft Docs
+description: "Lisätietoja pienille ja keskisuurille organisaatioille tarkoitetusta liiketoiminnan hallintaratkaisu Dynamics 365 Business editionin toiminnoista ja käyttötilanteista."
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
 ms.topic: get-started-article
@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 08/23/2017
+ms.date: 09/14/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d44f71f9f52c60a789cfb84f3f7a96daa0f9cab1
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 0bd6edbefbfa46ec7214f806bf28e7a523930740
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="welcome-to-included365finlongincludesd365finlongmdmd"></a>Tervetuloa [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]iin
@@ -37,7 +37,7 @@ Kun olet valmis aloittamaan vakavamman käytön ja haluat tutustua tiettyihin [!
 ## <a name="the-home-pages"></a>Aloitussivut
 Aloitussivujen roolikeskeisen rakenteen ansiosta voit käyttää nopeasti työssä tarvittavia liiketoimintaprosesseja ja BI-työkaluja. Kirjanpitäjä voi esimerkiksi seurata maksuja ja hyväksymisiä sekä tarkastella rahoituksen suorituskykykaavioita. Tutustu erilaisiin aloitussivuihin valitsemalla oikeassa yläkulmassa **Asetukset**-kuvake ![Asetukset](media/ui-experience/settings_icon_small.png "Roolikeskuksen Asetukset-kuvake"). Valitse sitten **Omat asetukset** ja lopuksi roolikeskus, johon haluat tutustua. Ota muutos käyttöön kirjautumalla uudelleen sisään. Lisätietoja on kohdassa [Roolikeskuksen vaihtaminen](change-role.md).  
 
-Jokaisella aloitussivulla on **Asennus ja laajennukset** -painike. Saat käyttöösi luettelon avustetuista asennuksista, joiden avulla pääset alkuun määrittämällä valitut alueet nopeasti. Jos alueella ei ole avustettua asennusta, valitse **Manuaalinen asennus** -toiminto. Pääset tällä tavoin ikkunoihin, joissa voit täyttää kaikkien alueiden asennuskentät manuaalisesti. Lisätietoja on myös ohjeaiheessa [[!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittäminen ](setup.md)  
+Jokaisella aloitussivulla on **Asennus ja laajennukset** -painike. Saat käyttöösi luettelon avustetuista asennuksista, joiden avulla pääset alkuun määrittämällä valitut alueet nopeasti. Jos alueella ei ole avustettua asennusta, valitse **Manuaalinen asennus** -toiminto. Pääset tällä tavoin ikkunoihin, joissa voit täyttää kaikkien alueiden asennuskentät manuaalisesti. Lisätietoja on myös ohjeaiheessa [[!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittäminen](setup.md)  
 
 > [!NOTE]  
 >   Käytettävissä olevien asennusoppaiden, laajennusten ja palvelujen luettelo vaihtelee yritykselle valitun käyttäjäkokemuksen mukaan. **Perus**-kokemuksen valikoima on suppeampi kuin **Suite**-kokemuksen valikoima. Ensimmäiselle kirjautumiskerralla käytössä on Perus-kokemus. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)] -kokemuksen mukauttaminen](ui-experiences.md).  
@@ -66,21 +66,23 @@ Harkitsetko tilaamista? Voit vaihtaa helposti esimerkkiyrityksestä käyttämä�
 Voit luoda yrityksen kokeilukäyttöä varten siirtymällä oikeassa yläkulmassa **Omat asetukset** -valikkoon ja vaihtamalla yrityksen **Omaksi yritykseksi**. Muutos otetaan käyttöön, kun kirjaudut ensin ulos [!INCLUDE[d365fin](includes/d365fin_md.md)]ista ja sitten takaisin sisään. Avustettu asennusopas auttaa yrityksen perustietojen antamisessa. Kun nämä tiedot on annettu, tutustu aloitussivuun ja etsi **Avustettu asennus** -toiminto.  
 
 ## <a name="ready-to-subscribe"></a>Oletko valmis tilaukseen?
-Aina kun kirjaudut sovellukseen kokeilujakson aikana, jäljellä oleva aika näkyy yläreunassa olevassa sinisessä palkissa. Jos päätät tehdä tilauksen, ota yhteys Microsoftin ilmoituksessa olevasta linkistä. Voit ottaa yhteyden myös [!INCLUDE[d365fin](includes/d365fin_md.md)]in myyntiryhmään valitsemalla [Microsoft Dynamics 365 for Financials](https://go.microsoft.com/fwlink/?linkid=828707).  
+Aina kun kirjaudut sovellukseen kokeilujakson aikana, jäljellä oleva aika näkyy yläreunassa olevassa sinisessä palkissa. Jos päätät tehdä tilauksen, ota yhteys Microsoftin ilmoituksessa olevasta linkistä. Voit ottaa yhteyden myös [!INCLUDE[d365fin](includes/d365fin_md.md)]in myyntiryhmään valitsemalla [Microsoft Dynamics 365 Business edition](https://go.microsoft.com/fwlink/?linkid=828707).  
 
 ## <a name="other-dynamics-365-apps"></a>Muut Dynamics 365 -sovellukset
-Voit tutustua muita Dynamics 365 -sovelluksia käsittelevään sisältöön valitsemalla [Dynamics 365](https://docs.microsoft.com/dynamics365) -linkin tämän sivun yläosassa olevassa sinisessä palkissa. Lisätietoja on myös [Dynamics 365 -sivustossa](https://www.microsoft.com/en-us/dynamics365/).
+Voit tutustua muita Dynamics 365 -sovelluksia käsittelevään sisältöön valitsemalla [Dynamics 365](https://docs.microsoft.com/dynamics365) -linkin tämän sivun yläosassa olevassa sinisessä palkissa. Lisätietoja on myös [Dynamics 365 -sivustossa](https://www.microsoft.com/en-us/dynamics365/).  
+
+Jos olet kirjanpitäjä, voit rekisteröityä [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]iin, jolloin pääset käyttävään sujuvaa [!INCLUDE[d365fin](includes/d365fin_md.md)] -integraatiota…. Lisätietoja on kohdassa [Tervetuloa käyttämään ohjelmaa Dynamics 365 – Accountant Hub](/dynamics365/accountants/index).
 
 ## <a name="see-also"></a>Katso myös
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittäminen](setup.md)  
 [Rahoitus](finance.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)]in mukauttaminen laajennusten avulla](ui-extensions.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen Outlookin yrityssähköpostina](madeira-outlook.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]in hakeminen mobiililaitteeseen](install-mobile-app.md)  
 [Microsoft Dynamics 365 -dokumentaatio](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_financials)  
 [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)  
-[Microsoft Dynamics 365 for Financials](https://go.microsoft.com/fwlink/?linkid=828707)  
+[Microsoft Dynamics 365 for Finance and Operations, Business edition](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
 

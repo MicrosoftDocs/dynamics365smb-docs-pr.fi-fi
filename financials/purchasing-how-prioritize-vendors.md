@@ -1,6 +1,6 @@
 ---
 title: "Prioriteettitason määrittäminen toimittajalle | Microsoft Docs"
-description: "Voit määrittää toimittajille numeron, joka priorisoi ne ja helpottaa maksuehdotuksia Financialsissa."
+description: "Voit määrittää toimittajille numeron, joka priorisoi ne ja helpottaa maksuehdotuksia Dynamics 365:ssä."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: supplier, payment priority
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 2c91b28daf27ddd2b698ffe4338bbf92fd1f9adf
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: d19d0bce7290ce42b37dd1dfbea5213c6580e2da
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-prioritize-vendors"></a>Toimittajien priorisointi
@@ -25,7 +25,7 @@ ms.lasthandoff: 09/22/2017
 Ensin priorisoidaan toimittajat liittämällä heille numerot.
 
 ## <a name="to-prioritize-vendors"></a>Toimittajien priorisointi
-1. Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Toimittajat** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Toimittajat** ja valitse sitten aiheeseen liittyvä linkki.
 2. Valitse asianmukainen toimittaja ja valitse sitten **Muokkaa**.
 3. Syötä **Prioriteetti**-kenttään numero.
 

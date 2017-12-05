@@ -1,6 +1,6 @@
 ---
 title: Kontaktienhallinta| Microsoft Docs
-description: "Financialsin kontaktienhallinnan ominaisuudet tukevat myyntitoimintoja. Voit myös käyttää kontakteja ja prospekteja koskevia tietoja, mikä parantaa asiakaspalvelua."
+description: "Dynamics 365:n kontaktienhallinnan ominaisuudet tukevat myyntitoimintoja. Voit myös käyttää kontakteja ja prospekteja koskevia tietoja, mikä parantaa asiakaspalvelua."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,10 +13,10 @@ ms.search.keywords: contact, prospect, client
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 16ebd2d0525bec312368fba99d829b650b5015b2
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: cf1ba18fff8691fd6b197f83ddbe9a983fe1a340
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="managing-relationships"></a>Kontaktienhallinta
@@ -35,6 +35,6 @@ Aloita katsomalla seuraavat aiheet:
 ## <a name="see-also"></a>Katso myös
 [Myynti](sales-manage-sales.md)  
 [Kontaktienhallinnan määrittäminen](marketing-setup-marketing.md)  
-[Asiakassuhteiden hallinta [!INCLUDE[d365fin](includes/d365fin_md.md)]issa Dynamics 365 for Salesin avulla](marketing-integrate-dynamicscrm.md)  
+[Dynamics 365 for Sales -sovelluksessa luotujen asiakkaiden ja myynnin hallinta](marketing-integrate-dynamicscrm.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 

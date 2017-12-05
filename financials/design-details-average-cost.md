@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 4ced0ece340de08598fecff157d59aa708e4e17c
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 70a0773826984bab5c49334a88ea48872a629023
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="design-details-average-cost"></a>Rakennetiedot: keskimääräinen kustannus
@@ -25,7 +25,7 @@ Nimikkeen keskimääräiskustannukset on laskettu kausittain painotetulla keskia
 ## <a name="setting-up-average-cost-calculation"></a>Määritetään keskimääräiskustannuslaskelma  
  Seuraavassa taulukossa kuvataan kaksi kenttää **Varastonhallinnan asetukset** -ikkunassa, jotka täytyy täyttää, jotta keskimääräiskustannuslaskelma on mahdollinen.  
 
-|Kenttä|Description|  
+|Kenttä|Kuvaus|  
 |---------------------------------|---------------------------------------|  
 |**Keskimääräisen kustannuksen jakso**|Määrittää miltä aikakaudelta keskimääräiskustannukset lasketaan. Käytettävissä ovat seuraavat vaihtoehdot:<br /><br /> -   **Päivä**<br />-   **Viikko**<br />-   **Kuukausi**<br />-   **Kirjanpitojakso**<br /><br /> Kaikki keskimääräisellä kustannuksen jaksolla kirjatut varaston arvon laskut saavat tälle jaksolle lasketun keskimääräisen kustannuksen.|  
 |**Keskim. kust. laskentatyyppi**|Määrittää, kuinka keskimääräinen kustannus lasketaan. Käytettävissä ovat seuraavat vaihtoehdot:<br /><br /> -   **Vaihtoehto**<br />-   **Nimike, variantti ja sijainti**<br />     Kun tämä vaihtoehto on valittuna, keskimääräinen kustannus lasketaan jokaiselle nimikkeelle, sijainnille ja nimikkeen variantille. Tämä tarkoittaa sitä, että nimikkeen keskimääräinen kustannus riippuu siitä, missä se on varastoitu ja minkä nimikkeen variantin, kuten esimerkiksi värin, olet valinnut.|  

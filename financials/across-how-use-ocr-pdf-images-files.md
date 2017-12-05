@@ -12,10 +12,10 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 020aeed82d6147641936dee2d7b860791c76d2ee
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 70bacf1c523fa6f547798b1a8df14b1e316c36b3
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>Toimintaohje: Käytä OCR:ää muuntamaan PDF- ja kuvatiedostoja sähköisiksi asiakirjoiksi
@@ -30,7 +30,7 @@ Koska OCR perustuu optiseen tunnistukseen, OCR-palvelu tulkitsee todennäköises
 Tiedostojen liikenne OCR-palvelun kanssa sisään ja ulos käsitellään erillisinä työjonotapahtumana, jotka luodaan automaattisesti, kun otat liittyvän palveluyhteyden käyttöön. Lisätietoja on kohdassa [Toimintaohje: Saapuvien asiakirjojen määrittäminen](across-how-setup-income-documents.md).
 
 ## <a name="to-send-a-pdf-or-image-file-to-the-ocr-service-from-the-incoming-documents-window"></a>Voit lähettää PDF- tai kuvatiedoston OCR-palveluun **Saapuvat asiakirjat** -ikkunasta
-1. Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Saapuvat asiakirjat** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Saapuvat asiakirjat** ja valitse sitten aiheeseen liittyvä linkki.
 2. Luo uuden saapuvan asiakirjan tietueen ja liittää tiedoston. Lisätietoja on kohdassa [Toimintaohje: Saapuvien asiakirjatietueiden luominen](across-how-create-income-document-records.md).  
 3. Valitse **Saapuneet asiakirjat** -ikkunassa vähintään yksi rivi ja valitse sitten **Lähetä työjonoon** -toiminto.
 
@@ -70,23 +70,34 @@ Jos et käytä työjonoa tai haluat vastaanottaa OCR-asiakirjan työjonon aikata
 Voit nyt jatkaa asiakirjatietueiden luomista vastaanotetuille sähköisille asiakirjoille [!INCLUDE[d365fin](includes/d365fin_md.md)]issa manuaalisesti tai automaattisesti. Lisätietoja on seuraavassa toimenpiteessä. Voit myös yhdistää uuden saapuvan asiakirjan tietueen aiemmin kirjattuun tai kirjaamattomaan asiakirjaan siten, että lähdetiedostoa on helppo käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]ista. Lisätietoja on kohdassa [Saapuvien asiakirjojen käsitteleminen](across-process-income-documents.md).
 
 ## <a name="to-create-a-purchase-invoice-from-an-electronic-document-received-from-the-ocr-service"></a>Ostolaskun luominen OCR-palvelusta vastaanotetusta sähköisestä asiakirjasta
-Seuraavassa kuvataan, miten ostolaskutietue luodaan toimittajan laskusta, joka on vastaanotettu sähköisenä asiakirjana OCR-palvelusta. Menettelytapa on sama kuin esimerkiksi silloin,kun yleisenpäiväkirjan rivi luodaan kulutositteesta.
+Seuraavassa kuvataan, miten ostolaskutietue luodaan toimittajan laskusta, joka on vastaanotettu sähköisenä asiakirjana OCR-palvelusta. Menettelytapa on sama kuin esimerkiksi silloin, kun yleisen päiväkirjan rivi luodaan kulutositteesta tai myyntipalautustilaus asiakkaasta.
 
 > [!NOTE]  
->   **Kuvaus**- ja **Nro**-kenttä täytetään luoduilla asiakirjariveillä vain, jos OCR-asiakirjasta löytynyt teksti on ensin linkitetty kahteen [!INCLUDE[d365fin](includes/d365fin_md.md)]in kenttään. Voit tehdä tämän Nimike-tyyppisille asiakirjariveille nimikeviittauksina tai KP-tili-tyyppisille asiakirja- tai päiväkirjariveille tekstin ja tilin yhdistämismäärityksinä. Lisätietoja on nimikekorttien **Viittaukset**-toiminnon työkaluvihjeessä ja liittyvässä menettelytavassa [Toimintaohje: Toistuvien maksujen tekstin yhdistäminen tileihin automaattisen täsmäytyksen suorittamiseksi](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
+>   **Kuvaus**- ja **Nro**-kenttä täytetään luoduilla asiakirjariveillä vain, jos OCR-asiakirjasta löytynyt teksti on ensin linkitetty kahteen [!INCLUDE[d365fin](includes/d365fin_md.md)]in kenttään. Voit tehdä tämän yhdistämismäärityksen nimiketyyppisten asiakirjarivien nimikkeen ristiviittauksena. Voit käyttää myös Tekstin yhdistäminen tiliin -toimintoa. Lisätietoja on kohdassa Saapuvan asiakirjan tekstin yhdistäminen tiettyyn toimittajaan, kirjanpitoon tai pankkitiliin.
 
+Voit linkittää asiakirjan nimikenumerot toimittajan nimikkeiden kuvauksiin avaamalla kunkin nimikkeen kortin, valitsemalla **Viittaukset**-toiminnon ja määrittämällä sitten nimikkeen ja toimittajan kuvausten väliset viittaukset. Lisätietoja on nimikorttien **Ristiviittaukset**-toiminnon työkaluvihjeessä.
+
+1. Valitse ensin saapuvan asiakirjan rivi ja sitten **Luo asiakirja** -toiminto.
+
+[!INCLUDE[d365fin](includes/d365fin_md.md)]iin luodaan ostolasku OCR-palvelusta vastaanotetun toimittajan sähköisen laskun tietojen perusteella. Tiedot lisätään uuteen ostolaskuun sen yhdistämismäärityksen perusteella, jonka olet määrittänyt ristiviittaukseksi tai tekstin ja tilin yhdistämiselle.
+
+Vahvistusvirheet (jotka yleensä liittyvät [!INCLUDE[d365fin](includes/d365fin_md.md)]in vääriin tai puuttuviin perustietoihin) näkyvät **Virheet ja varoitukset** -pikavälilehdessä. Lisätietoja on "Virheiden käsitteleminen vastaanotettaessa sähköisiä asiakirjoja" -osassa.
+
+### <a name="to-map-text-on-an-incoming-document-to-a-specific-vendor-account"></a>Saapuvan asiakirjan tekstin yhdistäminen tietyn toimittajan tiliin
 Saapuvissa asiakirjoissa käytetään yleensä **Linkitä teksti tiliin** -toimintoa, kun määritetään, että OCR-palvelusta vastaanotetun toimittajan laskun tietty teksti on linkitetty tiettyyn toimittajan tiliin. Jatkettaessa mikä tahansa saapuvan asiakirjan kuvauksen osa, joka on olemassa linkitettynä tekstinä, tarkoittaa sitä, että **Nro**-kenttä tuloksena saatavassa asiakirjassa tai päiväkirjariveillä, joiden tyyppi on KP-tili, täytetään kyseisen toimittajan tiedoilla.
 
 Toimittajatiliin tai toiseen KP-tiliin linkittämisen lisäksi myös pankkitiliin voidaan linkittää. Tämä on käytännöllistä esimerkiksi sähköisille asiakirjoille, jotka on jo maksettu, johon haluat luoda yleisen päiväkirjarivin, joka on valmis kirjattavajsu pankkitilille.
 
-1. Valitse OCR-palvelusta vastaanotetun toimittajan sähköisen asiakirjan saapuvan asiakirjan rivi.
-2. Voit linkittää asiakirjan tekstin toimittajan tiliin (debet-tiliin) valitsemalla **Linkitä teksti tiliin** -toiminnon ja täyttämällä **Teksti tilille -vastaavuusmääritys** -ikkunaan toimittajaa jatkossa koskevat tiedot. Lisätietoja on kohdassa [Toimintaohje: Toistuvien maksujen tekstin yhdistäminen tileihin automaattisen täsmäytyksen suorittamiseksi](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
-3. Voit linkittää asiakirjan nimikenumerot toimittajan nimikkeiden kuvauksiin avaamalla kunkin nimikkeen kortin, valitsemalla **Viittaukset**-toiminnon ja määrittämällä sitten nimikkeen ja toimittajan kuvausten väliset viittaukset.
-4. Valitse **Saapuvat asiakirjat** -ikkunassa **Luo asiakirja** -toiminto.
+1. Valitse ensin saapuvan asiakirjan rivi ja sitten **Tekstin yhdistäminen tiliin** -toiminto. **Tekstin yhdistäminen tiliin** -ikkuna avautuu.
+3. Anna **Tekstin linkitys** -kentässä niihin toimittajalaskuihin sisältyvä teksti, joille haluat luoda ostoasiakirjoja tai päiväkirjarivejä. Koodissa voi olla enintään 50 merkkiä.
+4. Anna **Toimittajan nro** -kentässä toimittaja, jolle muodostuva ostoasiakirja tai päiväkirjarivi luodaan.
+5. Anna **Debet-tilin numero** -kentässä debet-tyyppinen KP-tili, joka lisätään muodostettavaan ostoasiakirjaan tai muodostettavalle KP-tili-tyyppiselle päiväkirjariville.
+6. Anna **Kredit-tilin numero** -kentässä kredit-tyyppinen KP-tili, joka lisätään muodostettavaan ostoasiakirjaan tai muodostettavalle KP-tili-tyyppiselle päiväkirjariville.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]iin luodaan ostolasku OCR-palvelusta vastaanotetun toimittajan sähköisen laskun tietojen perusteella.
+    > [!NOTE]
+    > Älä käytä saapuvien asiakirjojen yhteydessä **Saldon lähteen tyyppi**- ja **Saldon lähteen numero** -kenttiä. Niitä käytetään vain automaattisessa maksujen täsmäytyksessä. Lisätietoja on kohdassa [Toimintaohje: Toistuvien maksujen tekstin yhdistäminen tileihin automaattisen täsmäytyksen suorittamiseksi](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
 
-Vahvistusvirheet (jotka yleensä liittyvät [!INCLUDE[d365fin](includes/d365fin_md.md)]in vääriin tai puuttuviin perustietoihin) näkyvät **Virheet ja varoitukset** -pikavälilehdessä. Lisätietoja on "Virheiden käsitteleminen vastaanotettaessa sähköisiä asiakirjoja" -osassa.
+7. Toista vaiheet 2–5 kaikkien niiden saapuvien asiakirjojen tekstien osalta, joille haluat luoda automaattisesti asiakirjat.
 
 ## <a name="to-handle-errors-when-receiving-electronic-documents"></a>Virheiden käsitteleminen vastaanotettaessa sähköisiä asiakirjoja
 1. Valitse **Saapuvat asiakirjat** -ikkunassa OCR-palvelusta vastaanotetun sähköisen asiakirjan virheitä sisältävä rivi. Virhearvo **OCR-tila**-kentässä osoittaa virheen.
@@ -102,7 +113,7 @@ Koska OCR perustuu optiseen tunnistukseen, OCR-palvelu tulkitsee todennäköises
 
 **OCR-tietojen korjaus** -ikkunassa, joka avataan **Saapuneet asiakirjat** -ikkunassa, näkyvät **Rahoituksellisia tietoja** -pikavälilehden kentät kahdessa sarakkeessa. Toinen sarake sisältää muokattavat OCR-tiedot ja toinen vain luku -tilassa olevat OCR-tiedot. Kun valitset **Lähetä OCR-palaute** -painike, **OCR-tietojen korjaus** -ikkunan sisältö lähetetään OCR-palveluun. Seuraavan kerran, kun palvelu käsittelee kyseisiä tietoja sisältäviä PDF- tai kuvatiedostoja, korjaukset otetaan huomioon, jotta vältetään samat virheet.
 
-1. Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Saapuvat asiakirjat** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Saapuvat asiakirjat** ja valitse sitten aiheeseen liittyvä linkki.
 2. Avaa saapuva asiakirjatietue, joka sisältää OCR-palvelusta saadut tiedot, jonka haluat korjata.
 3. Valitse **Saapuva asiakirja** -ikkunassa **Korjaa OCR-tiedot** -toiminto.
 4. Korvaa **OCR-tietojen korjaus** -Ikkunassa muokattavissa olevassa sarakkeessa kenttien virheelliset tiedot.

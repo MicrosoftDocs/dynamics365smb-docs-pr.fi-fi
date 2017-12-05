@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Financialsin mukauttaminen asentamalla laajennuksia | Microsoft Docs
-description: "Tutustu, miten Dynamics 365 for Financialsiin voidaan lisätä toimintoja ja miten sitä voidaan mukauttaa asentamalla laajennuksia."
+title: Dynamics 365 Business editionin mukauttaminen asentamalla laajennuksia | Microsoft Docs
+description: "Lisätietoja tavoista, jolla Dynamics 365 Business editioniin voidaan lisätä toimintoja ja miten sitä voidaan mukauttaa asentamalla laajennuksia."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -12,13 +12,13 @@ ms.search.keywords: app, add-in, manifest, customize
 ms.date: 07/07/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 2aefbfade71ed78c89c59597f76c6e6707110d16
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 2f6bbbc213bce74b31bb4e8c64198559db2d105d
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="customizing-dynamics-365-for-financials-using-extensions"></a>Dynamics 365 for Financials mukauttaminen laajennuksilla
+# <a name="customizing-dynamics-365-business-edition-using-extensions"></a>Dynamics 365, Business editionin mukauttaminen laajennuksilla
 Voit muuttaa [!INCLUDE[d365fin](includes/d365fin_md.md)]ia asentamalla laajennuksia, jotka sisältävät lisätoimintoja, muuttavat toimintaa tai mahdollistavat esimerkiksi uusien verkkopalveluiden käyttämisen.
 Kun käynnistät [!INCLUDE[d365fin](includes/d365fin_md.md)]in ensimmäisen kerran, joitakin laajennuksia on asennettu valmiiksi. Ajan kuluessa käytettävissä on yhä enemmän laajennuksia. Voit ottaa niitä käyttöön tarpeen mukaan.
 
@@ -61,6 +61,8 @@ Microsoft tarjoaa seuraavat laajennukset:
 * [QuickBooks Online -tietojen siirto](ui-extensions-quickbooks-online-data-migration.md)
 * [Kirjanpitäjän portaali](ui-extensions-accountant-portal.md)  
 * [Kuvan analysointitoiminto](ui-extensions-image-analyzer.md)
+* [Maksut ja täsmäytykset](ui-extensions-payments-reconciliation-formats-dk.md)
+* [C5-tietojen siirto](ui-extensions-c5-data-migration.md)
 
 > [!NOTE]  
 >  Uudet laajennukset eivät ole saatavana AppSourcessa heti, kun ilmoitamme päivityksestä. Voit tarkkailla laajennuksia osoitteessa [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).

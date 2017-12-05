@@ -1,8 +1,6 @@
 ---
 title: "SEPA-hyvityksen siirron määrittäminen | Microsoft Docs"
-description: "Lisätietoja SEPA-hyvityksen siirron määrittämisestä Dynamics 365 for Financialsissa."
-services: project-madeira
-documentationcenter: 
+description: "Lisätietoja SEPA-hyvityksen siirron määrittämisestä Dynamics 365 Business editionissa."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords: sepa, credit, transfer, payment,
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: 4cf6e6a466aeb712020aab3a2389f2957f6aa0e8
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: afdf20baa9d61d28e18aa08ae175f139fdb31bdd
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-set-up-sepa-credit-transfer"></a>Toimintaohje: SEPA-hyvityksen siirron määrittäminen

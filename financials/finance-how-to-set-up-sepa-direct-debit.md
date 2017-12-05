@@ -1,6 +1,6 @@
 ---
 title: "SEPA-suoraveloituksen määrittäminen | Microsoft Docs"
-description: "Lisätietoja Dynamics 365 for Financialsin SEPA-suoraveloituksen määrittämisestä."
+description: "Lisätietoja SEPA-suoraveloituksen määrittämisestä Dynamics 365 Business editionissa."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: fea703b804fbc88e5c39f52f72bbda5699237b6b
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 96c851c58decbeb46afcd79a9c5275d16c8072d4
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-set-up-sepa-direct-debit"></a>Toimintaohje: SEPA-suoraveloituksen määrittäminen
@@ -38,7 +38,7 @@ Ennen kuin voit käsitellä asiakkaan maksuja sähköisesti viemällä suoravelo
 2. Valitse **Uusi**-toiminto.  
 3. Määritä maksutapa. Täytä suoraveloituskohtaiset kentät seuraavassa taulukossa kuvatulla tavalla.  
 
-    |Kenttä|[Kuvaus|  
+    |Kenttä|Kuvaus|  
     |---------------------------------|---------------------------------------|  
     |**Suoraveloitus**|Määrittää, käytetäänkö maksutapaa SEPA-suoraveloitusperintään.|  
     |**Suoraveloituksen maksuehtojen koodi**|Määritä maksuehdot, kuten ÄLÄ MAKSA, jotka näkyvät SEPA-suoraveloituksena maksettavissa myyntilaskuissa ilmoittamassa asiakkaalle, että maksu kerätään automaattisesti. Vaihtoehtoisesti tämän kentän voi jättää tyhjäksi.|  
@@ -59,7 +59,7 @@ Ennen kuin voit käsitellä asiakkaan maksuja sähköisesti viemällä suoravelo
 4. Valitse **Asiakkaan pankkitililuettelo** -ikkunassa asiakkaan pankkitili, jota käytät suoraveloitukseen ja valitse sitten **Koti**-välilehden **Käsittely**-ryhmässä **Suoraveloitusvaltakirja**.  
 5. Täytä **Suoraveloitusvaltakirjat** -ikkunan kentät seuraavassa taulukossa kuvatulla tavalla.  
 
-    |[Kenttä|Kuvaus]|  
+    |Kenttä|Kuvaus|  
     |---------------------------------|---------------------------------------|  
     |**Asiakkaan pankkitilin koodi**|Määrittää pankkitilin, josta suoraveloitusmaksut kerätään. Tämä kenttä täytetään automaattisesti.|  
     |**Voimassaolo alkaa**|Määritä päivämäärä, jolloin suoraveloitusvaltakirja alkaa.|  

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/05/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 54bbe338b71ece1322b10e0e4203489cf8ab2f49
+ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
+ms.openlocfilehash: 3ebbd34c966ab06fa578336d14a060b0dea44dbc
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/17/2017
 
 ---
 # <a name="how-to-create-production-boms"></a>Uusien tuotannon tuoterakenteiden luominen
@@ -26,7 +26,7 @@ Tuotannon tuoterakenne sisältää perustiedot päänimikkeen tuotannossa käyte
 
 Seuraavat toimet on oltava tehtynä ennen reitityksen määrittämistä:  
 
-- Tuotannossa mukana olevien päänimikkeiden nimikekortit on luotu. Lisätietoja on kohdassa [Toimintaohje: Uusien tuotteiden rekisteröiminen](inventory-how-register-new-items.md).
+- Tuotannossa mukana olevien päänimikkeiden nimikekortit on luotu. Lisätietoja on ohjeaiheessa [Toimintaohje: Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md).
 - Tuotantoresurssit on määritetty. Lisätietoja on kohdassa [Toimintaohje: Tuotantosolujen ja kuormituskeskusten määrittäminen](production-how-to-set-up-work-and-machine-centers.md).
 
 ## <a name="to-create-a-production-bom"></a>Tuotannon tuoterakenteen luominen  
@@ -47,7 +47,7 @@ Seuraavat toimet on oltava tehtynä ennen reitityksen määrittämistä:
 9.  Määritä **Reitityslinkin koodi** -kenttään koodi, joka liittää komponentin tiettyyn toimintoon. Lisätietoja on ohjeaiheen [Toimintaohje: Uusien reititysten luominen](production-how-to-create-routings.md) kohdassa Reitityslinkkien luominen.
 10. Voit kopioida rivit tuotannon tuoterakenteesta valitse aiemmin luodut rivit **Kopioi tuoterakenne** -toiminnolla.  
 11.  Hyväksy tuotannon tuoterakenne.  
-12.  Voit nyt liittää uuden tuotannon tuoterakenteen kyseisen päänimikkeen korttiin. Lisätietoja on kohdassa [Toimintaohje: Uusien tuotteiden rekisteröiminen](inventory-how-register-new-items.md).  
+12.  Voit nyt liittää uuden tuotannon tuoterakenteen kyseisen päänimikkeen korttiin. Lisätietoja on ohjeaiheessa [Toimintaohje: Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md).  
 
 > [!NOTE]  
 >  Voit laskea nimikkeen vakiokustannukset nimikkeen kortista valitsemalla ensin **Tuotanto**-toiminnon ja sitten **Laske Vakiokustannus** -toiminnon.  
@@ -61,7 +61,7 @@ Aloituspäivämäärä osoittaa alun jaksolle, jolloin kyseinen versio on voimas
 2.  Valitse ensin kopioitava tuotannon tuoterakenne ja sitten **Versiot**-toiminto.  
 3.  Valitse **Kotisivu**-välilehden **Uusi**-ryhmässä **Uusi**.  
 4. Täytä tarvittavat kentät.
-5. Anna **Versiokoodi**-kentässä version yksilöivä tunniste. Kenttään voidaan syöttää mikä tahansa numeroiden ja kirjainten yhdistelmä.  
+5. Anna **Versiokoodi**-kentässä version yksilöivä tunniste. Kaikenlaisten numero- ja kirjainyhdistelmien käyttö on sallittua.  
 
     Vasta luodulle versiolle määritellään automaattisesti tilaksi **Uusi.**
 6. Kun tuoterakenteen versio on valmis, **Tila**-kentän asetuksena on **Hyväksytty**.  

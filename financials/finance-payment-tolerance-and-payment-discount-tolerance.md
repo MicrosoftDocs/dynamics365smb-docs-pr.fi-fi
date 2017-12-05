@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/10/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 434e18ed539a189e8f041c914cfdcdf2c1e0532f
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: c6365507992b75d5fa264491bbc85bb1b4a8ed7a
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-work-with-payment-tolerances-and-payment-discount-tolerances"></a>Toimintaohje: Maksutoleranssien ja maksualennustoleranssien käsitteleminen
@@ -31,7 +31,7 @@ Yksittäisellä asiakirjalla on sama maksutoleranssi riippumatta siitä kohdiste
 
 *maksualennuspvm < maksupvm (kohdetapahtumalla) <= maksutoleranssipvm*  
 
-Tämä sääntö määrittää myös sen, näytetäänkö varoituksia, kun maksutoleranssia käytetään useissa tiedostoissa. Maksualennuksen toleranssivaroitus näytetään jokaiselle tapahtumalle, joka täyttää päivämääräkriteerin. Lisätietoja on kohdassa Esimerkki 2 – Useiden asiakirjojen toleranssilaskelmat. 
+Tämä sääntö määrittää myös sen, näytetäänkö varoituksia, kun maksutoleranssia käytetään useissa tiedostoissa. Maksualennuksen toleranssivaroitus näytetään jokaiselle tapahtumalle, joka täyttää päivämääräkriteerin. Lisätietoja on kohdassa Esimerkki 2 – Useiden asiakirjojen toleranssilaskelmat.
 
 Voit tuoda näyttöön varoituksen, joka perustuu eri poikkeamatilanteisiin.  
 
@@ -95,7 +95,8 @@ Seuraavissa tilanteissa käytössä on vaihtoehto A tai B:
 - **A** Tässä tapauksessa maksualennustoleranssivaroitus on suljettu TAI käyttäjällä on varoitus käytössä ja hän on sallinut myöhästyneen maksualennuksen (Kirjataanko saldo maksutoleranssina?).  
 - **B** Tässä tapauksessa käyttäjällä on käytössä varoitus ja hän on valinnut, ettei salli myöhästynyttä maksualennusta (Jätä saldo jäljellä olevaksi summaksi).  
 
-|—|Lask.|Maksuale|Maks.<br /><br /> Maksutol.|Maksualen. pvm|Maksualen.tol. Pvm|Maksupvm|Maksu|Tol. tyyppi|Kaikki tapaht. suljettu|Maksualen.tol. <br /> KP/MR|Maksu<br /><br /> Tol.<br /><br /> KP|  
+[!div class="mx-tdBreakAll"]  
+|—|Lask.|Maksuale|Maks. maksutol.|Maksualen. pvm|Maksualen.tol. Pvm|Maksupvm|Maksu|Tol. tyyppi|Kaikki tapaht. suljettu|Maksualen.tol. KP/MR|Maksutol. KP|  
 |-------|----------|----------------|-----------------------|---------------------|--------------------------|------------------|----------|--------------------|------------------------|------------------------------|----------------------------|  
 |1|1000|20|5|01/15/03|20.1.03|<=15.1.03|985|Maksutol.|Kyllä|0|-5|  
 |2|**1,000**|**20**|**5**|**15.1.03**|**20.1.03**|**<=15.01.03**|**980**|**Ei mitään**|**Kyllä**|**0**|**0**|  
@@ -166,7 +167,9 @@ Seuraavissa tilanteissa käytössä on vaihtoehdot A, B, C tai D:
 - **C** Tässä tapauksessa käyttäjällä on varoitus käytössä ja hän on päättänyt sallia myöhästyneen maksualennuksen ensimmäisessä laskussa mutta ei toisessa.  
 - **D** Tässä tapauksessa käyttäjällä on varoitus käytössä ja hän on päättänyt ettei salli myöhästynyttä maksualennusta ensimmäisessä laskussa mutta sallii sen toisessa.  
 
-|—|Lask.|Maksuale|Maks. maksutol.|Maksualen. pvm|Maksualen.tol. Pvm|Maksupvm|Maksu|Tol. tyyppi|Kaikki tapaht. suljettu|Maksualen.tol. <br /> KP/MR|Maksutol.<br /><br /> KP|  
+[!div class="mx-tdBreakAll"]  
+
+|—|Lask.|Maksuale|Maks. maksutol.|Maksualen. pvm|Maksualen.tol. Pvm|Maksupvm|Maksu|Tol. tyyppi|Kaikki tapaht. suljettu|Maksualen.tol. KP/MR|Maksutol. KP|  
 |-------|----------|---------------|-------------------|---------------------|--------------------------|------------------|---------|--------------------|------------------------|------------------------------|------------------------|  
 |1|1000 <br />1000|60 <br />30|5 <br />5|01/15/03 <br />17.1.2013|20.1.03 <br />22.1.2013|<=15.1.03|1920|Maksutol.|Kyllä|0<br /><br /> 0|-5 <br />-5|  
 |**2**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**15.1.03** <br />**17.1.03**|**20.1.03** <br />**22.1.03**|**<=15.01.03**|**1910**|**Ei mitään**|**Kyllä**|**0**<br /><br /> **0**|0 <br />0|  

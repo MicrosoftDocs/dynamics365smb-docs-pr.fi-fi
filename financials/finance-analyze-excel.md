@@ -1,6 +1,6 @@
 ---
 title: "Taloudellisten yleiskatsausten käsittely Excelissä | Microsoft Docs"
-description: "Lisätietoja raporttien avaamisesta Microsoft Excelissä Dynamics 365 for Financialsissa analysoinnin parantamiseksi."
+description: "Lisätietoja raporttien avaamisesta Microsoft Excelissä Dynamics 365 Business editionissa analysoinnin parantamiseksi."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords: accountant, accounting, financial report
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e32ece2d472adaca58ad5d4dc3446b407e431b63
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: e58d412b9fb182a8a8f640593f78decf0e6aecc1
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="analyzing-financial-statements-in-microsoft-excel"></a>Rahoituslaskelmien analysointi Microsoft Excelissä
@@ -45,5 +45,5 @@ Saat apuohjelman ansiosta uusimmat tiedot [!INCLUDE[d365fin](includes/d365fin_md
 [Rahoitus](finance.md)  
 [Rahoituksen määrittäminen](finance-setup-finance.md)  
 [Pääkirjanpito ja tilikartta](finance-general-ledger.md)  
-[Financialsin käyttäminen](ui-work-product.md)  
+[Dynamics 365:n käyttäminen](ui-work-product.md)  
 

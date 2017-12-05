@@ -1,6 +1,6 @@
 ---
 title: Myyntimahdollisuuksien luominen| Microsoft Docs
-description: "Tässä artikkelissa kerrotaan, miten Financialsissa luodaan mahdollisuuksia myyjästä tai kontaktista."
+description: "Tässä artikkelissa kerrotaan, miten Dynamics 365 Business editionissa luodaan mahdollisuuksia myyjästä tai kontaktista."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 3137ed6aeaa235e2f2b4db7fdfb7dd7b8570c886
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 2d280e80be237abb5f2b16b2130f446894497171
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-create-sales-opportunities"></a>Toimintaohje: Myyntimahdollisuuksien luominen
@@ -45,5 +45,5 @@ Ennen mahdollisuuksien luomista sinun täytyy määrittää myyntisyklit. Lisät
 ## <a name="see-also"></a>Katso myös
 [Myynti](sales-manage-sales.md)  
 [Kontaktien luonti ja hallinta](marketing-contacts.md)  
-[Financialsin käyttäminen](ui-work-product.md)
+[Dynamics 365:n käyttäminen](ui-work-product.md)
 

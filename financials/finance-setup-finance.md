@@ -13,10 +13,10 @@ ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 08/10/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b63e2e65f92edbbe10bcb5e2c340db31b1acda28
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 2d8863ba9037f6470232372dedd4536664fd3404
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="setting-up-finance"></a>Rahoituksen määrittäminen
@@ -26,7 +26,7 @@ Tietyt asiat on kuitenkin määritettävä itse. Esimerkki: haluat käyttää di
 
 Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisiin.
 
-| Vastaanottaja | Katso |
+| Toiminta | Katso |
 | --- | --- |
 | Valitse, miten maksat toimittajille. |[Maksutapojen määrittäminen](finance-payment-methods.md) |
 | Määritä kirjausryhmät, jotka yhdistävät objektit, kuten asiakkaat, toimittajat, nimikkeet, resurssit sekä myynti- ja ostoasiakirjat, pääkirjanpidon tileille. |[Kirjausryhmien määrittäminen](finance-posting-groups.md)|
@@ -40,7 +40,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 | Intrastat-raportoinnin määrittäminen ja raportin lähettäminen viranomaisille | [Toimintaohje: Intrastat-ilmoituksen määrittäminen ja raportoiminen](finance-how-setup-report-intrastat.md)|
 
 ## <a name="see-also"></a>Katso myös
-[Rahoitus](finance.md)]  
+[Rahoitus](finance.md)  
 [Pankkitilien hallinta](bank-manage-bank-accounts.md)  
 [Dimensioiden käyttäminen](finance-dimensions.md)  
 [Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä](upload-data.md)  

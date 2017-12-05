@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 3ece25dc08df403e8dc3743d30a54c4172665c50
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: f6c9b936bdd6e8b1495aaa609f3a6eaac4095ab3
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="creating-and-managing-contacts"></a>Kontaktien luonti ja hallinta
@@ -26,9 +26,9 @@ Kaikki ulkoiset yksiköt, joiden kanssa yritys on liikesuhteessa (esimerkiksi as
 
 Voit tallentaa yritykseen tai yrityksen henkilöön perustuvia tietoja. Voit myös luoda itsenäisen kontaktihenkilön henkilöstä, joka ei ole töissä tietyssä yrityksessä vaan joka työskentelee itsenäisesti tai freelancerina.
 
-Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aiheisiin. 
+Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aiheisiin.
 
-| Vastaanottaja | Katso |
+| Toiminta | Katso |
 | --- | --- |
 | Määritä kontaktien hallinta ennen kontaktien lisäämistä. |[Kontaktien määrittämisen valmisteleminen](marketing-setup-contacts.md) |
 | Luo kontaktin kortti jokaiselle uudelle yritykselle, jonka kanssa yrityksesi on vuorovaikutuksessa (esimerkiksi asiakkaalle ja toimittajalle). |[Kontaktiyrityksen luominen](marketing-create-contact-companies.md) |
@@ -36,6 +36,6 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 
 ## <a name="see-also"></a>Katso myös
 [Myyntimahdollisuuksien hallinta](marketing-manage-sales-opportunities.md)  
-[Kontaktien hallinnan määrittäminen](marketing-setup-marketing.md)  
-[Financialsin käyttäminen](ui-work-product.md)  
+[Kontaktienhallinnan määrittäminen](marketing-setup-marketing.md)  
+[Dynamics 365:n käyttäminen](ui-work-product.md)  
 

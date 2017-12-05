@@ -1,6 +1,6 @@
 ---
 title: "Ulkoisen kirjanpitäjän lisääminen Financialsiin | Microsoft Docs"
-description: "Lisätietoja ulkoisen kirjanpitäjän kutsumisesta Dynamics 365 for Financialsiin."
+description: "Lisätietoja ulkoisen kirjanpitäjän kutsumisesta Dynamics 365 Business editioniin."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting
-ms.date: 09/05/2017
+ms.date: 11/10/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b7efbb724f322d371e9e1b725612cb4eb0b3ceb2
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 9769d4b1e34da62290cc97de291462ee2d22c747
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="inviting-your-external-accountant-to-your-included365finincludesd365finmdmd"></a>Ulkoisen kirjanpitäjän kutsuminen [!INCLUDE[d365fin](includes/d365fin_md.md)]iin
@@ -23,7 +23,7 @@ Jos käytä ulkoista kirjanpitäjää kirjojen ja talousraportoinnin hallinnassa
 Kun kirjanpitäjä on saanut [!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttöoikeudet, hän voi käyttää **Kirjanpitäjä**-roolikeskusta. josta pääsee kätevästi kirjanpitäjän työssään eniten käyttämiin ikkunoihin.  
 
 > [!NOTE]  
->  Tämä toiminto edellyttää, että kokemukseksi on valittu **Suite**. Lisätietoja on ohjeaiheessa [Financials-kokemuksen mukauttaminen](ui-experiences.md).  
+>  Tämä toiminto edellyttää, että kokemukseksi on valittu **Suite**. Lisätietoja on kohdassa [Dynamics 365:n käyttökokemuksen mukauttaminen](ui-experiences.md).  
 
 ## <a name="invite-your-accountant-to-your-included365finincludesd365finmdmd"></a>Kirjanpitäjän kutsuminen [!INCLUDE[d365fin](includes/d365fin_md.md)]iin
 Ulkopuolisen kirjanpitäjän kutsumista on helpotettu [!INCLUDE[d365fin](includes/d365fin_md.md)]in uusimmassa versiossa. Avata vain **Käyttäjät**-ikkuna ja valitse sitten valintanauhassa **Kutsu ulkoinen kirjanpitäjä** -toiminto. Saat käyttöösi valmiin sähköpostiviestin, johon sinun tarvitsee vain lisätä kirjanpitäjän työsähköpostiosoite. Voit sitten lähettää kutsun.  
@@ -31,7 +31,10 @@ Ulkopuolisen kirjanpitäjän kutsumista on helpotettu [!INCLUDE[d365fin](include
 ![Kirjanpitäjän kutsuminen](./media/finance-invite-accountant/invite-accountant.png)
 
 > [!TIP]  
->  Kutsun lähettäminen, edellyttää, että SMTP-sähköposti on määritetty. Voit tehdä sen itse tai pyytää [!INCLUDE[d365fin](includes/d365fin_md.md)]-kumppania tekemään sen. Lisäksi sinun on kirjauduttava [!INCLUDE[d365fin](includes/d365fin_md.md)]iin käyttäjien järjestelmänvalvojana eikä liiketoiminnan omistajana tai muuna käyttäjänä.  
+>  Kutsun lähettäminen, edellyttää, että SMTP-sähköposti on määritetty. Voit tehdä sen itse tai pyytää [!INCLUDE[d365fin](includes/d365fin_md.md)]-kumppania tekemään sen. Lisäksi sinun on kirjauduttava [!INCLUDE[d365fin](includes/d365fin_md.md)]iin käyttäjien järjestelmänvalvojana eikä liiketoiminnan omistajana tai muuna käyttäjänä. Lopuksi sinun on jätettävä kokeiluyritys, jotta sinulla on Azure Active Directoryn järjestelmänvalvoja.  
+
+> [!IMPORTANT]  
+>  Kirjanpitäjän sähköpostiosoitteen on oltava Active Directoryyn perustuva työsähköpostiosoite. Jos kirjanpitäjä käyttää jotakin muuta sähköpostityyppiä, kutsua ei voi lähettää.  
 
 ### <a name="separate-license"></a>Erillinen käyttöoikeus
 Kirjanpitäjä lisätään taustalla Active Directory-vuokraajaan. Järjestelmänvalvoja voi varmistaa, että kirjanpitäjä hyväksyy kutsun ja että hänelle määritetään soveltuva käyttöoikeus. Tämä toimenpiteen tekeminen käytännössä määräytyy sen tilin mukaan, jolla [!INCLUDE[d365fin](includes/d365fin_md.md)]iin kirjaudutaan. Tämän ohjeaiheen ohjeet perustuvat Office 365 -tiliin, jossa on käytössä Microsoft Azure Active Directory.  
@@ -43,6 +46,6 @@ Yksi [!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttöoikeustyypeistä on *
 ## <a name="see-also"></a>Katso myös
 [Rahoitus](finance.md)  
 [Toimintaohje: Sähköpostin määrittäminen manuaalisesti tai asetusten ohjatun määrityksen käyttäminen](madeira-how-setup-email.md)  
-[Dynamics 365 for Financialsin kirjanpitäjän käyttökokemukset](finance-accounting.md)  
-[Financials for Accountants on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
+[Dynamics 365 Business editionin kirjanpitäjän käyttökokemukset](finance-accounting.md)  
+[Dynamics 365 – kirjanpitäjät Microsoft.comissa](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
 

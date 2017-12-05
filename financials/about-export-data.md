@@ -1,6 +1,6 @@
 ---
 title: Financials-tietojen vieminen Exceliin | Microsoft Docs
-description: "Voit viedä tilinpäätökset ja liiketoimintatiedot Dynamics 365 for Financials -sovelluksesta Exceliin tai avata Financial-sovelluksen tiedot Excelissä."
+description: "Voit viedä tilinpäätökset ja liiketoimintatiedot Dynamics 365 Business editionista Exceliin tai avata Financials-tiedot Excelissä."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,10 +13,10 @@ ms.search.keywords: analysis, reporting, financial report, business intelligence
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 054288659215df61a99564ab856bfb5f72ee7f39
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 36d3e31300fbdc3a29f345a331cabbf50875c77f
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Liiketoimintatietojen vienti Exceliin
@@ -67,5 +67,5 @@ Myös seuraavien sivujen tietojen vienti on suositeltavaa:
 [Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä](upload-data.md)  
 [Rahoitus](finance.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]in käyttäminen](ui-work-product.md)  
 

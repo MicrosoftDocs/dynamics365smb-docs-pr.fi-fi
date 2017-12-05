@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 166d85bbcf7d97cb513ba668e41fc4a179d8fcc3
+ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
+ms.openlocfilehash: 85cd332e4b62ba73f511989983e1eb9f5147c5fb
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/17/2017
 
 ---
 # <a name="how-to-create-routings"></a>Uusien reititysten luominen
@@ -28,7 +28,7 @@ Reititykset määritetään tuotannon tuoterakenteissa tuotannon loppunimikkeese
 
 Seuraavat toimet on oltava tehtynä ennen reitityksen määrittämistä:  
 
-- Tuotannossa mukana olevien päänimikkeiden nimikekortit on luotu. Lisätietoja on kohdassa [Toimintaohje: Uusien tuotteiden rekisteröiminen](inventory-how-register-new-items.md).
+- Tuotannossa mukana olevien päänimikkeiden nimikekortit on luotu. Lisätietoja on ohjeaiheessa [Toimintaohje: Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md).
 - Tuotantoresurssit on määritetty. Lisätietoja on kohdassa [Toimintaohje: Tuotantosolujen ja kuormituskeskusten määrittäminen](production-how-to-set-up-work-and-machine-centers.md).
 
 ## <a name="to-create-a-routing"></a>Reitityksen luominen  
@@ -53,7 +53,7 @@ Seuraavat toimet on oltava tehtynä ennen reitityksen määrittämistä:
 12.  Jatka rivien täyttämistä, kunnes kaikki nimikkeen tuottamiseen tarvittavat toiminnot on määritetty.  
 13.  Voit kopioida rivit reitityksestä valitsemalla aiemmin luodut rivit ja valitsemalla sitten **Kopioi reititys**.  
 14. Hyväksy reititys.  
-15. Voit nyt liittää uuden reitityksen kyseisen tuotantonimikkeen korttiin täyttämällä **Reititysnro**-kentän. Lisätietoja on kohdassa [Toimintaohje: Uusien tuotteiden rekisteröiminen](inventory-how-register-new-items.md).  
+15. Voit nyt liittää uuden reitityksen kyseisen tuotantonimikkeen korttiin täyttämällä **Reititysnro**-kentän. Lisätietoja on ohjeaiheessa [Toimintaohje: Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md).  
 
 > [!NOTE]  
 >  Muista myös laskea nimikkeen vakiokustannukset uudelleen **Nimike**-kortista: valitse ensin **Tuotanto**-toiminto, sitten **Laske vakiokustannus** -toiminto ja lopuksi **Kaikille tasoille** -toiminto.  

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/19/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: c06f828b50d217404bcdd3caafeb8843b40faffc
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 99ca93d4fd67ec424e54961ad5623c9986e5fe7c
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-set-up-work-centers-and-machine-centers"></a>Toimintaohje: Tuotantosolujen ja kuormituskeskusten määrittäminen
@@ -50,7 +50,7 @@ Seuraavaksi käsitellään ennen kaikkea tuotantosolun määrittämiseen. Kuormi
 10.  Lisää **Spesifinen yksikkökustannus** -kenttään valintamerkki, jos haluat määrittää tuotantosolun yksikkökustannuksen sitä käyttävällä reititysrivillä. Tämä saattaa olla järkevää sellaisten operaatioiden kohdalla, joiden kapasiteettikustannukset eroavat huomattavasti tuotantosolun normaaleista kustannuksista.  
 11.  Valitse **Materiaalinottotapa**-kentässä, lasketaanko ja kirjataanko tämän tuotantosolun tuotoksen kirjaus manuaalisesti vai automaattisesti jommallakummalla seuraavista menetelmistä:  
 
-    |Asetus|Description|  
+    |Asetus|Kuvaus|  
     |----------------------------------|---------------------------------------|  
     |**Manuaalinen**|Kulutus kirjataan manuaalisesti tuotospäiväkirjaan tai tuotantopäiväkirjaan.|
     |**Eteenpäin**|Kulutus lasketaan ja kirjataan automaattisesti, kun tuotantotilaus vapautetaan.|  
@@ -65,7 +65,7 @@ Seuraavaksi käsitellään ennen kaikkea tuotantosolun määrittämiseen. Kuormi
     > [!NOTE]  
     > Jos valitset yksiköksi Päivää, muista, että yksi päivä tarkoittaa 24:ää tuntia, ei 8:aa tuntia (työpäivää).
 
-13.  Määritä **Kapasiteetti**-kentässä, onko tuotantosolussa samanaikaisesti useita työntekijöitä tai koneita. Jos käyttämääsi **Tuotenimi**-asennukseen ei ole asennettu Kuormitusryhmä-toimintoa, kentän arvon on oltava **1**).  
+13.  Määritä **Kapasiteetti**-kentässä, onko tuotantosolussa samanaikaisesti useita työntekijöitä tai koneita. Jos käyttämääsi [!INCLUDE[d365fin](includes/d365fin_md.md)] -järjestelmään ei ole asennettu Kuormitusryhmä-toimintoa, kentän arvon on oltava **1**.  
 14.  Anna **Tehokkuus**-kenttään tuotantosolun todellinen tuotos prosenttiosuutena oletetusta vakiotuotoksesta. Jos annat arvoksi **100**, tämä tarkoittaa, että tuotantosolun todellinen tuotos on sama kuin vakiotuotos.  
 15. Valitse **Yhdistetty kalenteriin** -valintaruutu, jos käytät myös kuormitusryhmiä. Tämä varmistaa, että kalenteritapahtumat vyörytetään kuormitusryhmän kalentereista.  
 16.  Valitse **Tuotantokalenterin koodi** -kentässä tuotantokalenteri. Lisätietoja on kohdassa [Toimintaohje: Tuotantokalenterien luominen](production-how-to-create-work-center-calendars.md).  

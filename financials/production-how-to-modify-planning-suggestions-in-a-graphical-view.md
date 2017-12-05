@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 6cdd86fb96e89e99ea2378221d2991bd640f887e
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 4bc8694fc1da6caab88c3b462e5b50306d08271b
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-modify-planning-suggestions-in-a-graphical-view"></a>Suunnitteluehdotusten muokkaaminen graafisessa näkymässä
@@ -47,7 +47,7 @@ Seuraavassa ohjeessa neuvotaan, miten tarjontaehdotuksia voi muokata vetämäll�
 5.  Pitämällä hiiripainiketta alhaalla vetäessäsi osoitinta ylös tai alas voit muokata määrää. Pitämällä hiiripainiketta alhaalla vetäessäsi osoitinta vasemmalle tai oikealle voit muokata eräpäivää.  
 6.  Sen lisäksi että elementtejä voi siirtää vetämällä ja pudottamalla, voit muokata suunnitteluehdotuksia avattavan valikon toiminnoilla. Voit käyttää ehdotetun toimituselementin vihreän ympyrän avattavaa valikko ja valita jonkin seuraavista toiminnoista  
 
-    |Toiminto|Description|  
+    |Toiminto|Kuvaus|  
     |--------------|---------------------------------------|  
     |**Luo uusi tarjonta**|Luo uuden elementin kohtaan, jossa käytät avattavaa valikkoa, joka vastaa ehdotettua uutta toimitustilausta. Siitä tulee uusi suunnittelutyökirjan rivi, kun valitset **Tallenna muutokset**.<br /><br /> **HUOMAUTUS:** Jos **Vaihtoehdot**-pikavälilehden **Sijaintisuodatus**- tai **Varianttisuodatus**-kenttä on tyhjä tai sillä on useita suodattimen arvoja, luodaan uusi tarjonta, joka tallennetaan myöhemmin suunnittelutyökirjan tai hankintalistalle seuraavien koodien kanssa:<br /><br /> * Jos suodatinkenttä on tyhjä, uusi toimitus luodaan ilman sijainti- tai varianttikoodia.<br /><br /> * Jos määritettäviä suodattimen arvoja on useita, ensimmäisen suodattimen arvolle luodaan uusi toimitus järjestämistavan mukaan.<br /><br /> Jos haluat toisen variantti- tai sijaintikoodin, sinun on muutettava manuaalisesti uuden suunnittelurivin arvoa.|  
     |**Automaattinen tarjonnan muuttaminen**|Optimoi uuden toimituksen, jonka olet luonut kaaviossa varmistamalla, että sen tuloksena on nollavarasto ennen seuraava toimitusta.|  
@@ -59,7 +59,7 @@ Seuraavassa ohjeessa neuvotaan, miten tarjontaehdotuksia voi muokata vetämäll�
 Toteuttaaksesi tarjonnan tuotantosuunnitelmien muutokset sinun täytyy seurata suunnittelun tai hankintalistan tuloksena olevia toimenpideviestejä. Lisätietoja on ohjeaiheessa Toteuta toim.pidviesti - Suun.
 
 ## <a name="symbols-and-icons-on-the-timeline-fasttab"></a>Symbolit ja kuvakkeet Aikajana-pikavälilehdellä
- |Symboli tai kuvake|Description|  
+ |Symboli tai kuvake|Kuvaus|  
  |------------------|---------------------------------------|  
  |Musta risti|Tilaukset (sekä tarjonta että kysyntä).<br /><br /> -   Ei voida muokata.<br />-   Näkyy silloin, kun **Näytä suunniteltu varasto** -kenttä on valittu (oranssi kaavio).|  
  |Punainen ympyrä|Olemassa olevat toimitustilaukset, jotka eivät sisälly suunnitteluehdotuksiin.<br /><br /> -   Ei voida muokata.<br />-   Näkyy silloin, kun **Näytä suunniteltu varasto** -kenttä on valittu (oranssi kaavio).|  
@@ -70,7 +70,7 @@ Toteuttaaksesi tarjonnan tuotantosuunnitelmien muutokset sinun täytyy seurata s
 
 Jos käytät **Aikajana**-pikavälilehden avattavaa valikkoa, seuraavat toiminnot avautuvan tehdyn valinnan perusteella  
 
- |Toiminto|Description|  
+ |Toiminto|Kuvaus|  
  |--------------|---------------------------------------|  
  |**Luo uusi tarjonta**|Luo uuden elementin kohtaan, jossa käytät avattavaa valikkoa, joka vastaa ehdotettua uutta toimitustilausta. Siitä tulee uusi suunnittelutyökirjan rivi, kun valitset **Tallenna muutokset** **Käsittely**-välilehdessä.<br /><br /> Kaikki suodatinarvot, jotka on määritelty kentässä **Sijaintisuodatus** tai **Varianttisuodatus** **Asetukset**-välilehdellä, otetaan käyttöön uudessa toimitustilauksessa. **Huomautus:**  Jos suodatinkentät ovat tyhjiä tai niissä on useita suodattimen arvoja, uusi toimitustilaus luodaan seuraavien koodien avulla: <ul><li>Jos suodatinkenttä on tyhjä, uusi tarjonta luodaan ilman sijainti- tai varianttikoodia.</li><li>Jos määritettäviä suodattimen arvoja on useita, uusi toimitus luodaan käyttämällä ensimmäisen suodattimen arvoa lajittelujärjestyksen mukaan.</li></ul> Jos haluat uuteen toimitustilaukseen toisen variantti- tai sijaintikoodin, sinun on muutettava manuaalisesti uuden suunnittelurivin arvoa.|  
  |**Automaattinen tarjonnan muuttaminen**|Optimoi uuden toimituksen, jonka olet luonut kaaviossa varmistamalla, että se luo nollavaraston ennen seuraava toimitusta.|  
@@ -82,7 +82,7 @@ Jos käytät **Aikajana**-pikavälilehden avattavaa valikkoa, seuraavat toiminno
 
 Aiemmin mainittujen näppäimistötoimintojen lisäksi voit käyttää myös **Aikajana**-pikavälilehden seuraavia näppäimistötoimintoja.  
 
- |Näppäimistötoiminto|Description|  
+ |Näppäimistötoiminto|Kuvaus|  
  |---------------------|---------------------------------------|  
  |CTRL + vieritä hiiren rullaa|Muuttaa x-akselin asteikkoa.|  
  |Valitse elementti ja paina Vaihto + Nuoli|Siirtää elementtiä nuolen suuntaisesti.|  

@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: f81d6dac79817d758ff0ae49322a18f1e5cdc9d8
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 21f51e08fa5153bca28d1470b724038acfcd85cf
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="field-mapping-when-exporting-payment-files-using-bank-data-conversion-service"></a>Kenttien vastaavuuksien määrittäminen vietäessä maksutiedostot käyttämällä pankkitietojen muuntopalvelua
@@ -25,7 +25,7 @@ Kun viet maksutiedostoja pankkitietojen muuntopalvelun avulla, vietävät tiedot
 
 Seuraavassa taulukossa on [!INCLUDE[d365fin](includes/d365fin_md.md)] -kentät, joista tiedot voidaan viedä palveluntarjoajalle.  
 
-|Määritetty kenttä|Taulun kenttä|Sivupöytä|Kuvaus]-->|  
+|Määritetty kenttä|Taulun kenttä|Sivupöytä|Kuvaus|  
 |------------------|--------------------|-----------|---------------------------------------|  
 |Luotonantajan nro|Luotonantajan nro|Pankkitili|Tunniste, jonka pankki on liittänyt yritykseen maksujen keräämiseksi|  
 |Lähettäjän pankkitilin numero|Pankkitilin nro / IBAN|Pankkitili|Yrityksen pankkitilin numero (IBAN tai muu), joka on määritetty pankkitilin kortissa|  

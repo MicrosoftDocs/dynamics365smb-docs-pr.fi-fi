@@ -1,8 +1,6 @@
 ---
-title: "Markkinointikampanjoiden määrittäminen Financialsissa| Microsoft Docs"
-description: "Ohjeaiheessa käsitellään, miten markkinointikampanjat määritetään ja toteutetaan Dynamics 365 for Financialsissa ja miten ne auttavat tunnistamaan ja houkuttelemaan prospekteja sekä säilyttämään asiakkaita."
-services: project-madeira
-documentationcenter: 
+title: "Dynamics 365:n markkinointikampanjoiden määrittäminen| Microsoft Docs"
+description: "Ohjeaiheessa käsitellään, miten markkinointikampanjat määritetään ja toteutetaan Dynamics 365:ssä ja miten ne auttavat tunnistamaan ja houkuttelemaan prospekteja sekä säilyttämään asiakkaita."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords: marketing, campaign, promo, prospect
 ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 996aca0dd46c350b5345d05e7fe320763b3caef4
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 7ca0479ba1872600356ec5b10bf9492fef87a857
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="managing-marketing-campaigns"></a>Markkinointikampanjoiden hallinta
@@ -52,5 +50,5 @@ Myyjät hoitavat kampanjoita, ja sinun onkin luotava kutakin tehtävää vastaa 
 [Kontaktien hallinta](marketing-contacts.md)  
 [Segmenttien hallinta](marketing-segments.md)  
 [Myyntimahdollisuuksien hallinta](marketing-manage-sales-opportunities.md)  
-[Financialsin käyttäminen](ui-work-product.md)  
+[Dynamics 365:n käyttäminen](ui-work-product.md)  
 

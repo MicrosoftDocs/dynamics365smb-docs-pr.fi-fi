@@ -1,6 +1,6 @@
 ---
 title: "Käyttöoikeuksien määrittäminen ja käyttöoikeusjoukkojen luominen tai muokkaaminen | Microsoft Docs"
-description: "Lisätietoja Office 365 -käyttäjien lisäämisestä Financialsiin sekä käyttöoikeuksien ja suojausasetusten määrittämisestä."
+description: "Ohjeaiheessa kerrotaan, miten Office 365 -käyttäjät lisätään Dynamics 365 Business editioniin sekä miten käyttöoikeudet ja suojausasetukset määritetään."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 06/27/2017
+ms.date: 10/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: a944a6135feeb81b32d1f7edcb823b9da89cd404
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: f1b43879d6dafd238b593c6d17d2322943d75a89
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-manage-users-and-permissions"></a>Toimintaohje: Käyttäjien ja käyttöoikeuksien hallinta
@@ -54,53 +54,8 @@ Voit määrittää käyttäjäryhmiä auttamaan hallitsemaan oikeusryhmät käyt
 7. Voit lisätä uusia käyttöoikeusjoukkoja tai lisäkäyttöoikeusjoukkoja valitsemalla **Käyttäjäryhmä**-ikkunassa **Käyttäjäryhmän käyttöoikeuksien joukot** -toiminnon.
 8. Täytä **Käyttäjäryhmän käyttöoikeuksien joukot** -ikkunan uudella rivillä tarvittavat kentät tekemällä valintoja aiemmin luoduista käyttöoikeuksien joukoista.
 
-## <a name="to-create-or-modify-permission-sets"></a>Käyttöoikeuksien joukkojen luominen tai muokkaaminen
-Jos [!INCLUDE[d365fin](includes/d365fin_md.md)]iin sisältyvät oletuskäyttöoikeusjoukot eivät riitä tai eivät sovi organisaatiollesi, voit luoda uusia käyttöoikeusjoukkoja. Ja jos käyttöoikeusjoukon määrittävät yksittäisen objektin käyttöoikeudet eivät ole riittävät, voit muokata käyttöoikeusjoukkoa. Voit luoda käyttöoikeusjoukon manuaalisesti. Vaihtoehtoisesti voit käyttää tallennustoimintoa, joka tallentaa toimesi skenaariossa siirtyessäsi ja muodostaa sitten tarvittavan käyttöoikeusjoukon.
-
-### <a name="to-create-or-modify-permission-sets-manually"></a>Käyttöoikeuksien joukkojen luominen tai muokkaaminen manuaalisesti
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Käyttäjät** ja valitse sitten liittyvä linkki.
-2. Valitse **Käyttäjät**-ikkunassa **Käyttöoikeuksien joukot** -toiminto.
-3. Valitse **Käyttöoikeuksien joukot** -ikkunassa **Uusi**-toiminto.
-4. Täytä tarvittaessa uuden rivin kentät.
-5. Valitse **Käyttöoikeudet**-toiminto.
-6. Täytä **Käyttöoikeudet**-ikkunassa tarvittavat otsikon kentät.
-7. Täytä uudella rivillä viisi erilaista seuraavassa taulukossa kuvattua käyttöoikeustyyppiä.
-
-    |Asetus|Kuvaus|
-    |------|-----------|
-    |Tyhjä|Määrittää, ettei käyttöoikeustyyppiä myönnetä objektille.|
-    |**Kyllä**|Määrittää, että myönnetään käyttöoikeustyyppi, jolla objektia voi käyttää suoraan.|
-    |**Epäsuora**|Määrittää, että myönnetään käyttöoikeustyyppi, jolla objektia voi käyttää epäsuorasti.|
-
-    Taulukon epäsuorat käyttöoikeudet tarkoittavat, ettet voi avata ja lukea taulukkoa mutta voit tarkastella taulukon tietoja toisen sellaisen objektin kautta, jonka suora käyttöoikeus sinulla on. Tällainen objekti voi olla esimerkiksi sivu. Lisätietoja on tämän ohjeen kohdassa Esimerkki - epäsuorat käyttöoikeudet.
-
-8. Anna **Suojaussuodatin**-kentässä suodatin, jota haluat käyttää käyttöoikeudessa, valitsemalla kenttä, jonka käyttöä haluat rajoittaa käyttäjältä.
-
-    Jos haluat esimerkiksi luoda suojaussuodattimen siten, että käyttäjä voi tarkastella vain tietyn myyjäkoodin myyntiä, valitse kentän numero **Myyjäkoodi**-kentässä. Anna sitten **Kenttäsuodatin**-kentässä arvo, jolla haluat rajoittaa käyttöä. Jos haluat esimerkiksi rajoittaa käyttäjän pääsyn vain Anne Hellung-Larsenin myyntiin, anna AHL.
-9. Lisää käyttöoikeuksia käyttöoikeusjoukon lisäobjekteihin toistamalla vaiheet 7 ja 8.
-
-### <a name="to-create-or-modify-permission-sets-by-recording-your-actions"></a>Käyttöoikeusjoukkojen luominen tai muokkaaminen toimia tallentamalla
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Käyttäjät** ja valitse sitten liittyvä linkki.
-2. Valitse **Käyttäjät**-ikkunassa **Käyttöoikeuksien joukot** -toiminto.
-3. Valitse **Käyttöoikeuksien joukot** -ikkunassa **Uusi**-toiminto.
-4. Täytä tarvittaessa uuden rivin kentät.
-5. Valitse **Käyttöoikeudet**-toiminto.
-6. Valitse **Käyttöoikeudet**-ikkunassa **Aloita**-toiminto.
-
-    Tallennusprosessi aloittaa kaikkien käyttöliittymässä tekemiesi toimien tallentamisen.
-7. Siirry niihin [!INCLUDE[d365fin](includes/d365fin_md.md)]in ikkunoihin ja toimintoihin, joita haluat tämän käyttöoikeusjoukon käyttäjien käyttävän. Sinun on tehtävä ne tehtävät, joille haluat tallentaa käyttöoikeudet.
-8. Kun tallennus on valmis, palaa **Käyttöoikeudet**-ikkunaan ja valitse sitten **Lopeta**-toiminto.
-9. Lisää tallennetut käyttöoikeudet uuteen käyttöoikeusjoukkoon valitsemalla **Kyllä**.
-10. Määritä jokaiselle tallennetun luettelon objektille, saavatko käyttäjät lisätä, muokata tai poistaa tietueita tallennetuissa taulukoissa. Katso Käyttöoikeuksien joukkojen luominen tai muokkaaminen manuaalisesti -osan vaihe 7.
-
-### <a name="example---indirect-permission"></a>Esimerkki - epäsuora käyttöoikeus
-Voit määrittää epäsuoria käyttöoikeuksia, jos haluat käyttää objektia vain toisen objektin kautta.
-Käyttäjällä voi olla esimerkiksi oikeus suorittaa codeunit 80, **Myynti kirjattu**. Codeunit **Myynti kirjattu** suorittaa useita tehtäviä, myös muokkaa taulukkoa 37, **Ostorivi**. Kun käyttäjä kirjaa myyntiasiakirjan, codeunitin **Myynti kirjattu**, [!INCLUDE[d365fin](includes/d365fin_md.md)] tarkistaa, onko käyttäjällä oikeus muokata **Ostorivi**-taulukkoa. Jos ei, codeunit ei voi suorittaa tehtäviä ja käyttäjä saa virhesanoman. Tällöin koodiyksikön suorittaminen onnistuu.
-
-Käyttäjällä ei kuitenkaan tarvitse olla **Ostorivi**-taulukon täysiä käyttöoikeuksia codeunitin suorittamiseksi. Jos käyttäjällä on **Ostorivi**-taulukon epäsuorat käyttöoikeudet, codeunitin **Myynti kirjattu** suorittaminen onnistuu. Kun käyttäjällä on epäsuorat oikeudet, kyseinen käyttäjä voi muokata vain **Ostorivi**-taulukkoa suorittamalla codeunitin **Myynti kirjattu** tai toisen objektin, jolla on **Ostorivi**-taulukon muokkausoikeudet. Käyttäjä voi muokata **Ostorivi**-taulukkoa vain silloin, kun se tapahtuu tuetulla sovellusalueella. Käyttäjä ei voi suorittaa toimintoa vahingossa tai tahallaan muita menetelmiä käyttäen.
-
 ## <a name="to-set-up-user-time-constraints"></a>Määritä käyttäjän aikarajoitukset
-Järjestelmänvalvojat voivat määrittää ajanjaksoja, joiden aikana määritetyt käyttäjät voivat tehdä kirjauksia. He voivat myös määrittää, kirjaako järjestelmä ajan, jonka käyttäjät olivat kirjautuneena. Järjestelmänvalvojat voivat myös määrittää käyttäjille vastuupaikkoja.
+Järjestelmänvalvojat voivat määrittää ajanjaksoja, joiden aikana määritetyt käyttäjät voivat tehdä kirjauksia. He voivat myös määrittää, kirjaako järjestelmä ajan, jonka käyttäjät olivat kirjautuneena. Järjestelmänvalvojat voivat myös määrittää käyttäjille vastuupaikkoja. Lisätietoja on kohdassa [Toimintaohje: Vastuupaikkojen käyttäminen](inventory-responsibility-centers.md).
 
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "") -kuvake, kirjoitta **Resurssienhallinnan asetukset** ja valitse sitten aiheeseen liittyvä linkki.
 2. Valitse avautuvassa **Käyttäjäasetukset**-ikkunassa **Uusi**-toiminto.
@@ -109,7 +64,7 @@ Järjestelmänvalvojat voivat määrittää ajanjaksoja, joiden aikana määrite
 
 ## <a name="see-also"></a>Katso myös
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
-[Dynamics 365 for Financialsin määrittäminen ja hallinta](admin-setup-and-administration.md)  
-[Tervetuloa [!INCLUDE[d365fin](includes/d365fin_md.md)]iin!](index.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[Asetukset ja hallinto [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] -ohjelmassa](admin-setup-and-administration.md)  
+[Tervetuloa [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]iin!](index.md)  
+[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]in käyttäminen](ui-work-product.md)  
 

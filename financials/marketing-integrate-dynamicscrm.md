@@ -1,6 +1,6 @@
 ---
 title: Asiakkaiden hallinta Dynamics 365 for Salesissa| Microsoft Docs
-description: "Voit tehdä Dynamics 365 for Financialsissa tietojen yhdistämismäärityksen Dynamics 365 for Salesilla, jolloin saavutetaan liidistä tuottoon -prosessin saumaton integrointi ja synkronointi."
+description: "Voit tehdä Dynamics 365 Business editionissa tietojen yhdistämismäärityksen Dynamics 365 for Salesilla, jolloin saavutetaan liidistä tuottoon -prosessin saumaton integrointi ja synkronointi."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -12,27 +12,27 @@ ms.search.keywords: integration, synchronize, map
 ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: bc0b9c8141c6c2eac78abc9cd3f5c89af3c89fbb
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: fde1a04c4e6f56fb425f6aef85d21b029a76fe0c
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="managing-your-customer-relationships-using-dynamics-365-for-sales-from-inside-dynamics-365-for-financials"></a>Asiakassuhteiden hallinta Dynamics 365 for Salesin avulla Dynamics 365 for Financialsissa
+# <a name="managing-customers-and-sales-created-in-dynamics-365-for-sales"></a>Dynamics 365 for Sales -sovelluksessa luotujen asiakkaiden ja myynnin hallinta
 Jos käytät Dynamics 365 for Salesia asiakassuhteissa, voit käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]ia tilausten käsittelyyn ja talousasioissa. Tällä tavoin saavutetaan saumaton integrointi liidistä tuottoon.
 
 Kun sovellus on määritetty integroitumaan Dynamics 365 for Salesiin, voit käyttää Sales-tietoja [!INCLUDE[d365fin](includes/d365fin_md.md)]ista ja toisin päin tietyissä tilanteissa. Tämän integroinnin ansiosta voit käsitellä ja synkronoida molemmille palveluille yhteisiä tietotyyppejä, kuten asiakkaita, kontakteja ja myyntitietoja, sekä pitää tiedot ajan tasalla molemmissa palveluissa.  
 
-Esimerkiksi myyjä voi käyttää Dynamics 365 for Salesissa [!INCLUDE[d365fin](includes/d365fin_md.md)]in hinnastoja myyntitilausta luodessaan. Kun he lisäävät nimikkeen Dynamics 365 for Sales myyntitilausriville, he näkevät myös nimikkeen varastotason (saatavuuden) [!INCLUDE[d365fin](includes/d365fin_md.md)]ista. Nämä tiedot on julkaistu asetusten ohjatun määrityksen, **Dynamics 365 -yhteyden määritys**, osana.  
+Esimerkiksi myyjä voi käyttää Dynamics 365 for Salesissa [!INCLUDE[d365fin](includes/d365fin_md.md)]in hinnastoja myyntitilausta luodessaan. Kun he lisäävät nimikkeen Dynamics 365 for Sales myyntitilausriville, he näkevät myös nimikkeen varastotason (saatavuuden) [!INCLUDE[d365fin](includes/d365fin_md.md)]ista.
 
 > [!NOTE]  
 >   Tämä toiminto edellyttää, että kokemukseksi on valittu **Suite**. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)] -kokemuksen mukauttaminen](ui-experiences.md).  
 
 ## <a name="setting-up-the-connection"></a>Yhteyden määrittäminen
-Voit käynnistää aloitussivulta asetusten ohjatun määrityksen, **Dynamics 365 -yhteyden määritys**, joka auttaa yhteyden määrittämisessä. Kun yhteys on muodostettu, Dynamics 365 for Salesin tietueet on yhdistetty saumattomasti [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietueisiin.  
+Voit käynnistää aloitussivulta asetusten ohjatun **Dynamics 365 for Sales -yhteyden määrittäminen** -määrittämisen, joka auttaa yhteyden määrittämisessä. Kun yhteys on muodostettu, Dynamics 365 for Salesin tietueet on yhdistetty saumattomasti [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietueisiin.  
 
 > [!NOTE]  
->   Seuraavaksi käsitellään asetusten ohjattu määritys, mutta voit suorittaa samat tehtävät manuaalisesti **Dynamics 365 -yhteyden määritys** -ikkunassa.
+>   Seuraavaksi käsitellään asetusten ohjattu määritys, mutta voit suorittaa samat tehtävät manuaalisesti **Dynamics 365 for Sales -yhteyden määrittäminen** -ikkunassa.
 
 Voit valita avustetussa asennusoppaassa, mitkä tiedot synkronoidaan palvelujen välillä. Voit myös määrittää, että haluat tuoda nykyisen Dynamics 365 for Sales -ratkaisun. Siinä tapauksessa on määritettävä hallinnollinen käyttäjätili.
 
@@ -77,7 +77,7 @@ Valitse asetusten ohjatun määritysoppaan lopussa **Suorita täysi synkronointi
 
 Voit tarkistaa täyden synkronoinnin yksittäisten töiden etenemistä, porautua alaspäin **Työjonon tapahtuman tila**-, **Integrointitaulukkoon – projektin tila**- tai **Integrointitaulukosta – projektin tila** -kentissä **Täyden CRM-synkronoinnin tarkistus** -ikkunassa.
 
-**Dynamics 365 -yhteyden määritys** -ikkunasta voi katsoa koska tahansa tietoja täydestä synkronoinnista. Voit avata sieltä myös **Integrointitaulukon yhdistämismääritykset** -ikkunan, jossa on tietoja synkronoitavista Financialsin ja yhdistetyn Dynamics 365 for Sales -ratkaisun taulukoista.
+**Dynamics 365 -yhteyden määritys** -ikkunasta voi katsoa koska tahansa tietoja täydestä synkronoinnista. Voit avata sieltä myös **Integrointitaulukon yhdistämismääritykset** -ikkunan, jossa on tietoja synkronoitavista Dynamics 365 Business editionin ja Dynamics 365 for Sales -ratkaisun taulukoista.
 
 ## <a name="see-also"></a>Katso myös
 [Kontaktienhallinta](marketing-relationship-management.md)  

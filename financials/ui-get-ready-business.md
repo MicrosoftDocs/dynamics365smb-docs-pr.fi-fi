@@ -1,6 +1,6 @@
 ---
 title: Tervetuloa | Microsoft Docs
-description: "Tässä ohjeaiheessa kerrotaan asennusoppaista, videoista, ohjeaiheista sekä sivuista ja ikkunoista, jotka auttavat Dynamics 365 for Financialsin käyttöönotossa."
+description: "Tässä ohjeaiheessa kerrotaan asetusten ohjatusta määrityksestä, videoista, ohjeaiheista sekä sivuista ja ikkunoista, jotka auttavat Dynamics 365 Business editionin käyttöönotossa."
 documentationcenter: 
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
@@ -12,10 +12,10 @@ ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 03/21/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 129cc1326b9a35a41f0c12db51af25de6dc4fa3b
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: e6a467f526b8bb1c55af686817ed3e419b214dbb
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="getting-ready-for-doing-business"></a>Valmistautuminen liiketoimintaan
@@ -23,7 +23,7 @@ Olet juuri aloittanut ensimmäisen yrityksen [!INCLUDE[d365fin](includes/d365fin
 
 Pääset liiketoiminnassa alkuun tutustumalla **Liiketoiminnan tuki** -ikkunaan, jossa voit käynnistää avustettuja asennusoppaita, videoita tai valittujen asennustehtävien ohjeaiheita. Voit avata ikkunan **Liiketoimintajohtaja**-roolikeskuksen kaaviosta valitsemalla avattavassa **Liiketoiminnan tuki** -luettelossa **Näytä määritys- ja ohjeresurssit** -toiminnon. Kun päivität sivun, asennus- ja ohjeresurssit näkyvät kaavion tilalla.
 
-Aloitussivun siirtymisruudun alareunassa on **Asennus ja laajennukset** -valikko. Saat siirtymisruudun laajentamalla **Kotisivu**-painikkeen. Ruudussa on luettelo avustetuista asennuksista, joiden avulla pääset alkuun. Kun olet siirtänyt olemassa olevasta taloustietojen järjestelmästä tiedot, kuten toimittajat, asiakkaat ja nimikkeet, olet valmis aloittamaan. Voit käyttää tarvittaessa myös toista avustettua asennusta. Jos alueella ei ole asetuksen ohjattua määritystä, valitse **Manuaalinen asennus** -toiminto. Pääset tällä tavoin ikkunoihin, joissa voit täyttää kaikkien alueiden asennuskentät manuaalisesti. Lisätietoja on myös ohjeaiheessa [[!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittäminen ](setup.md)
+Aloitussivun siirtymisruudun alareunassa on **Asennus ja laajennukset** -valikko. Saat siirtymisruudun laajentamalla **Kotisivu**-painikkeen. Ruudussa on luettelo avustetuista asennuksista, joiden avulla pääset alkuun. Kun olet siirtänyt olemassa olevasta taloustietojen järjestelmästä tiedot, kuten toimittajat, asiakkaat ja nimikkeet, olet valmis aloittamaan. Voit käyttää tarvittaessa myös toista avustettua asennusta. Jos alueella ei ole asetuksen ohjattua määritystä, valitse **Manuaalinen asennus** -toiminto. Pääset tällä tavoin ikkunoihin, joissa voit täyttää kaikkien alueiden asennuskentät manuaalisesti. Lisätietoja on myös ohjeaiheessa [[!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittäminen](setup.md)
 
 > [!NOTE]  
 >   Käytettävissä olevien asennusoppaiden, laajennusten ja palvelujen luettelo vaihtelee yritykselle valitun käyttäjäkokemuksen mukaan. **Perus**-kokemuksen valikoima on suppeampi kuin **Suite**-kokemuksen valikoima. Ensimmäiselle kirjautumiskerralla käytössä on Perus-kokemus. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)] -kokemuksen mukauttaminen](ui-experiences.md).
@@ -59,7 +59,7 @@ Jos sinun on lisättävä uusia käyttäjiä, voit tehdä sen Office 365:n halli
 Voit jatkaa luomalla uusia myynti- tai ostoasiakirjoja siirrettyjen tietojen perusteella. Voit luoda nopeasti myyntitarjouksen, myyntilaskun, myyntitilauksen, ostolaskun tai maksurekisteröinnin **kotisivun** **Oma yritys** -osassa.
 
 ## <a name="see-also"></a>Katso myös
-[Tervetuloa [!INCLUDE[d365fin](includes/d365fin_md.md)]iin!](index.md)  
+[Tervetuloa [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]iin!](index.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Toimintaohje: Käyttäjien ja käyttöoikeuksien hallinta](ui-how-users-permissions.md)
 

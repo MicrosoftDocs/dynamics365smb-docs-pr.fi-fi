@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 09/26/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ffe729c1d0fbbb062394f815281dcf658cbff783
+ms.sourcegitcommit: bd69a3da7a0a5e766a232e8999056ac60109e7b1
+ms.openlocfilehash: 89982479ec539f6bf394d31af8775a0b735588fc
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/02/2017
 
 ---
-# <a name="how-to-run-full-planning-mps-and-mrp"></a>Kokonaisvaltaisen suunnittelun, tuotanto-ohjelman ja tarvelaskennan suorittaminen
-Suunnittelutyökirjan ja tarvelaskennan suorittaminen tarkoittavat päätuotantoaikataulun ja materiaalitarpeen laskemista todellisen ja ennustetun tarpeen perusteella. Suunnittelujärjestelmä voi laskea tuotanto-ohjelman tai tarvelaskennan pyydettäessä, tai se voi laskea molemmat samanaikaisesti.  
+# <a name="how-to-run-full-planning-mps-or-mrp"></a>Toimintaohje: Kokonaisvaltaisen suunnittelun, tuotanto-ohjelman tai tarvelaskennan suorittaminen
+Suunnittelutyökirjan suorittaminen ja tarvelaskennan suorittaminen tarkoitetaan tuotanto-ohjelman ja materiaalitarpeen laskemista todellisen ja ennustetun tarpeen perusteella. Suunnittelujärjestelmä voi laskea tuotanto-ohjelman tai tarvelaskennan pyydettäessä, tai se voi laskea molemmat samanaikaisesti.  
 
--   *MPS* tarkoittaa todelliseen tarpeeseen ja tuotantoennusteeseen perustuvaa tuotanto-ohjelman laskentaa. Tuotanto-ohjelman laskenta tehdään lopullisille nimikkeille, joilla on ennuste ja/tai myyntitilauksen rivi. Näitä nimikkeitä kutsutaan tuotanto-ohjelmanimikkeiksi, ja ne tunnistetaan dynaamisesti laskennan alkaessa.  
--   *MRP* tarkoittaa komponenttien todelliseen tarpeeseen ja komponenttitason tuotantoennusteeseen perustuvaa materiaalitarpeen laskentaa. Tarvelaskenta tehdään vain nimikkeille, jotka eivät ole tuotanto-ohjelmanimikkeitä. Tuotanto-ohjelman yleistavoitteena on tuottaa aikavaiheistetut, viralliset nimikekohtaiset suunnitelmat, jotta oikeaa tuotetta voidaan toimittaa oikea nimike ja oikea määrä oikeaan aikaan ja oikeassa paikassa.  
+-   Tuotanto-ohjelma tarkoittaa todelliseen tarpeeseen ja tuotantoennusteeseen perustuvaa tuotanto-ohjelman laskentaa. Tuotanto-ohjelman laskenta tehdään lopullisille nimikkeille, joilla on ennuste ja/tai myyntitilauksen rivi. Näitä nimikkeitä kutsutaan tuotanto-ohjelmanimikkeiksi, ja ne tunnistetaan dynaamisesti laskennan alkaessa.  
+-   MRP tarkoittaa komponenttien todelliseen tarpeeseen ja komponenttitason tuotantoennusteeseen perustuvaa materiaalitarpeen laskentaa. Tarvelaskenta tehdään vain nimikkeille, jotka eivät ole tuotanto-ohjelmanimikkeitä. Tuotanto-ohjelman yleistavoitteena on tuottaa aikavaiheistetut, viralliset nimikekohtaiset suunnitelmat, jotta oikeaa tuotetta voidaan toimittaa oikea nimike ja oikea määrä oikeaan aikaan ja oikeassa paikassa.  
 
 Tuotanto-ohjelmassa ja tarvelaskennassa käytetään identtisiä suunnittelualgoritmeja. Suunnittelualgoritmit liittyvät nettouttamiseen, aiempien täydennystilausten uudelleenkäyttöön ja toimenpideviesteihin. Suunnittelujärjestelmä selvittää, mitä nyt tai vastaisuudessa tarvitaan (kysyntä) sekä mitä on käsivarastossa ja mitä tulossa (tarjonta). Kun nämä määrät nettoutetaan, [!INCLUDE[d365fin](includes/d365fin_md.md)] näyttää toimenpideviestejä. Toimenpideviestit ovat ehdotuksia, jotka kehottavat luomaan uuden tilauksen, muuttamaan tilausta (määrää tai päivämäärää) tai peruuttamaan jo tilauksessa olevan tilauksen. Tilauksella tarkoitetaan ostotilauksia, kokoonpanotilauksia, tuotantotilauksia ja siirtotilauksia.
 
@@ -51,7 +51,7 @@ Jokaisen suunnitellun menetelmän kanssa, [!INCLUDE[d365fin](includes/d365fin_md
 2.  Avaa **Laske suunnitelma** -ikkuna valitsemalla **Laske uudelleensuunnittelu** -toiminto.  
 3.  Täytä **Vaihtoehdot**-pikavälilehden kentät seuraavassa taulukossa kuvatulla tavalla.  
 
-    |Kenttä|Description|  
+    |Kenttä|Kuvaus|  
     |---------------------------------|---------------------------------------|  
     |**Tuotanto-ohjelma**|Valitse tämä, jos haluat käynnistää tuotanto-ohjelman laskennan. Tässä ajossa otetaan huomioon nimikkeet, joilla on avoimia myyntitilauksia ja/tai tuotantoennusteita.|  
     |**Tarvelaskenta**|Valitse tämä, jos haluat käynnistää materiaalitarpeiden suunnittelun laskennan. Tässä ajossa otetaan huomioon nimikkeet, joilla on riippuvuusedellytyksiä. Yleensä tuotanto-ohjelma ja tarvelaskenta suoritetaan samanaikaisesti. Tuotanto-ohjelman ja tarvelaskennan samanaikainen suorittaminen edellyttää, että **Yhdistetty tuot-ohj/tarvelask.** -valintaruutu on valittuna **Tuotannon asetukset** -ikkunan **Suunnittelu**-pikavälilehdessä.|  
@@ -69,7 +69,7 @@ Jokaisen suunnitellun menetelmän kanssa, [!INCLUDE[d365fin](includes/d365fin_md
 1.  Valitse **Suunnittelutyökirja**-ikkunassa **Toteuta toimenpideviesti** -toiminto.  
 2.  Määritä **Asetukset**-pikavälilehdessä, miten toimitukset luodaan. Täytä tilikentät seuraavassa taulukossa kuvatulla tavalla.  
 
-    |Kenttä|Description|  
+    |Kenttä|Kuvaus|  
     |---------------------------------|---------------------------------------|  
     |**Tuotantotilaus**|Määrittää, miten tuotantotilaukset luodaan. Nämä toimet voit tehdä suoraan suunnittelurivin ehdotuksista. Voit luoda sekä suunniteltuja että sitovasti suunniteltuja tuotantotilauksia.|  
     |**Kokoonpanotilaus**|Määrittää, miten kokoonpanotilaukset luodaan. Nämä toimet voit tehdä suoraan suunnittelurivin ehdotuksista.|  
@@ -97,7 +97,7 @@ Kun toimenpideviestit on käyty läpi ja ehdotetut muutokset on päätetty hyvä
 
 Ohjelma luo seuraavia toimenpideviestejä, jos kysyntä ja tarjonta menevät epätasapainoon:  
 
-|Toimenpideviesti|Description|  
+|Toimenpideviesti|Kuvaus|  
 |--------------------|---------------------------------------|  
 |**Uusi**|Jos olemassa olevia tilauksia koskevien toimenpideviestien **Muuta määrä**, **Aikataul. uud.** tai **Aikataul. uud. ja Muuta määrä** ehdotukset eivät riitä täyttämään kysyntää, järjestelmä luo uuteen tilaukseen kehottavan toimenpideviestin **Uusi**. Järjestelmä luo toimenpideviestin **Uusi** myös, jos kyseisen nimikkeen uusintatilausvälissä ei ole toimitustilauksia. Tämä parametri määrittää saatavuusprofiilin jaksojen määrän eteen- ja taaksepäin, kun uudelleen aikataulutettavaa tilausta etsitään.|  
 |**Muuta määrä**|Kun määrä muuttuu toimitustilauksiin seurattavassa kysynnässä, järjestelmää luo toimenpideviestin **Muuta määrä**. Se merkitsee, että asiaankuuluvaa tarjontaa täytyy muuttaa suhteessa kysynnässä tapahtuneeseen muutokseen. Jos uutta kysyntää ilmenee, [!INCLUDE[d365fin](includes/d365fin_md.md)] etsii uusintatilausvälin lähimmän varaamattoman tuotantotilauksen ja luo kyseistä tilausta koskevan, muutokseen kehottavan toimenpideviestin.|  

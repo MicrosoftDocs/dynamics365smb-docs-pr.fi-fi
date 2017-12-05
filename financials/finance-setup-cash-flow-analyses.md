@@ -13,10 +13,10 @@ ms.search.keywords: money flow, expense and income, liquidity, cash receipts min
 ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: ffc0a1c8a513556de2a40fc37db7af9be779225c
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 7d78333c5a7151ad60f07433ba32cfea142a2445
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Kassavirta-analyysin määrittäminen
@@ -79,10 +79,10 @@ Voit käyttää manuaalista prosessia seuraavasti:
 >   Mieti, miten pitkiä jaksoja palvelun laskelmissa käytetään. Mitä enemmän tietoja on käytettävissä, sitä tarkempia ennusteet ovat. Varo myös suuria jaksovaihteluita. Ne vaikuttavat myös ennusteisiin. Jos Cortana Intelligence ei löydä riittävästi tietoja tai tiedot ovat kovin erilaisia, palvelu ei voi tehdä ennustetta.  
 
 ## <a name="AnchorText"> </a>Kassavirtaennusteiden ennakoivan verkkopalvelun luonti ja käyttö
-Voit myös luoda oman ennakoivan verkkopalvelun **Microsoft Dynamics 365 for Financialsin ennustemalli** -nimisen julkisen mallin perusteella. Tämä ennakoiva malli on saatavana verkossa Cortana Intelligence Galleryssa. Voit käyttää mallia seuraavien vaiheiden avulla:  
+Voit myös luoda oman ennakoivan verkkopalvelun **Microsoft Dynamics 365 Business editionin ennustemalli** -nimisen julkisen mallin perusteella. Tämä ennakoiva malli on saatavana verkossa Cortana Intelligence Galleryssa. Voit käyttää mallia seuraavien vaiheiden avulla:  
 
 1. Avaa selain ja siirry [Cortana Intelligence Galleryyn](https://go.microsoft.com/fwlink/?linkid=828352).  
-2. Hae **Microsoft Dynamics 365 for Financials -ohjelman ennustemalli** ja avaa sitten malli Azure Machine Learning Studiossa.  
+2. Hae **Microsoft Dynamics 365 Business editionin ennustemalli** ja avaa sitten malli Azure Machine Learning Studiossa.  
 3. Kirjaudu työtilaan Microsoft-tilin avulla ja kopioi malli.  
 4. Aja malli ja julkaise se verkkopalveluna.  
 5. Kirjoita API:n URL-osoite ja API-avain muistiin. Näitä tunnistetietoja käytetään kassavirran asetuksissa.  

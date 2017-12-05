@@ -12,10 +12,10 @@ ms.search.keywords: stock
 ms.date: 08/15/2017
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 17af257627549023212c8c19f708c836c1c4bb7f
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 986f1b00f1a8db237944ec8579d9401ca85dfd8a
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-view-the-availability-of-items"></a>Nimikkeiden saatavuuden tarkasteleminen
@@ -26,10 +26,10 @@ Voit tarkastella kaikkien nimikkeiden saatavuutta sijainneittain sekä kunkin ni
 > [!NOTE]  
 >   Sijaintiin perustuvat saatavuusnäkymät edellyttävät, että varastoa pidetään useissa sijainneissa. Lisätietoja on kohdassa [Toimintaohje: Sijaintien määrittäminen](inventory-how-setup-locations.md).
 
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]ia käytettäessä saatavuusluvut näytetään kahdessa eri kentässä, ja kullakin on eri määritelmä:
+[!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen saatavuusluvut näytetään kahdessa eri kentässä, ja kullakin on eri määritelmä:
 
 * **Varastosaldo** -kentässä näytetään päivän todellinen saldo kirjattujen nimiketapahtumien perusteella.
-* **Oletettu saatavilla oleva saldo** -kentän arvo on laskennallinen, ja se esittää varastosaldon, johon on lisätty suunnitellut vastaanotot ja josta on vähennetty bruttotarpeet. ([[!INCLUDE[d365fin](includes/d365fin_md.md)]ia käytettäessä suunnitellut vastaanotot sisältävät ostotilauksilla ja saapuvilla siirtotilauksilla olevat määrät. Bruttotarpeisiin sisältyvät myyntitilauksilla ja lähtevillä siirtotilauksilla olevat määrät).
+* **Oletettu saatavilla oleva saldo** -kentän arvo on laskennallinen, ja se esittää varastosaldon, johon on lisätty suunnitellut vastaanotot ja josta on vähennetty bruttotarpeet. ([!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen suunnitellut vastaanotot sisältävät ostotilauksilla ja saapuvilla siirtotilauksilla olevat määrät. Bruttotarpeisiin sisältyvät myyntitilauksilla ja lähtevillä siirtotilauksilla olevat määrät).
 
 > [!TIP]  
 >   Oletettu saatavilla oleva saldo soveltuu erityisesti **Nimikk. saatavuus jaksoittain** ja **Nimikkeen saatavuus tapahtumittain** -ikkunoiden tarkasteluun, koska ne sisältävät päivämäärädimension.  
@@ -119,6 +119,6 @@ Jos vähintään yksi kokoonpanon komponentti ei ole saatavana, vaikutus näkyy 
 [Toimintaohje: Sijaintien määrittäminen](inventory-how-setup-locations.md)  
 [Toimintaohje: Varastonimikkeiden siirtäminen sijaintien välillä](inventory-how-transfer-between-locations.md)  
 [Toimintaohje: Tuotteiden myyminen](sales-how-sell-products.md)      
-[Financialsin käyttäminen](ui-work-product.md)  
+[Dynamics 365:n käyttäminen](ui-work-product.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)
 

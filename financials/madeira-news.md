@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Financialsin uutuudet| Microsoft Docs
-description: "Ohjeaiheessa kerrotaan Dynamics 365 for Financialsin viimeisimmät uutiset ja käsitellään uusimmat päivitykset."
+title: Dynamics 365 Business editionin uudet ominaisuudet | Microsoft Docs
+description: "Ohjeaiheessa kerrotaan Dynamics 365 Business editionin viimeisimmät uutiset ja käsitellään uusimmat päivitykset."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,14 +13,14 @@ ms.search.keywords: news
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 00fd623b6323b10a811d64c47b4a24d9a47b9f88
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 83637fe211ce764b4b18429ab4c2c79cc06f3d20
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="whats-new-in-dynamics-365-for-financials"></a>Dynamics 365 for Financialsin uutuudet
-Tervetuloa [!INCLUDE[d365fin](includes/d365fin_md.md)]iin! Jos et ole vielä rekisteröitynyt kokeiluversioon, tee se nyt, niin esittelemme [!INCLUDE[d365fin](includes/d365fin_md.md)]in perusominaisuudet. Tämän jälkeen voit kokeilla toimintoja itseksesi jonkin aikaa. Kun olet valmis, voit avata tyhjän yrityksen ja määrittää sen tiedot.  
+# <a name="whats-new-in-dynamics-365-for-finance-and-operations-business-edition"></a>Dynamics 365 for Finance and Operations, Business editionin uudet ominaisuudet
+Tervetuloa [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]iin! Jos et ole vielä rekisteröitynyt kokeiluversioon, tee se nyt, niin esittelemme [!INCLUDE[d365fin](includes/d365fin_md.md)]in perusominaisuudet. Tämän jälkeen voit kokeilla toimintoja itseksesi jonkin aikaa. Kun olet valmis, voit avata tyhjän yrityksen ja määrittää sen tiedot.  
 
 Päivitämme [!INCLUDE[d365fin](includes/d365fin_md.md)]in ydinsovellukseen säännöllisesti lisää ominaisuuksia ja uusia [laajennuksia](ui-extensions.md). Lisätietoja tulevista ja jo käytössä olevista ominaisuuksista on sivustossa [Dynamics 365 Roadmap](https://roadmap.dynamics.com/). Muista suodattaa esiin [!INCLUDE[d365fin](includes/d365fin_md.md)]ia koskevat tiedot.  
 
@@ -100,7 +100,7 @@ Tämän päivityksen myötä valittavana on entistä enemmän laajennuksia **Laa
 Lisätietoja on ohjeaiheessa [Muiden valmistajien [!INCLUDE[d365fin](includes/d365fin_md.md)]in laajennukset](ui-extensions-other.md).  
 
 ### <a name="manage-your-customer-relationships-using-microsoft-dynamics-365-for-sales-from-inside-included365finincludesd365finmdmd"></a>Asiakassuhteiden hallinta Microsoft Dynamics 365 for Salesin avulla [!INCLUDE[d365fin](includes/d365fin_md.md)]issa
-Liiketoimintajohtajan aloitussivulle on lisätty uusi asetusten ohjattu määritys, joka opastaa Dynamics 365 for Salesin yhteyden muodostamisprosessissa. Kun yhteys on muodostettu, Dynamics 365 for Salesin tietueet on yhdistetty saumattomasti [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietueisiin. Lisätietoja on kohdassa [Asiakassuhteiden hallinta käyttämällä Microsoft Dynamics 365 for Salesia [!INCLUDE[d365fin](includes/d365fin_md.md)]issa ](marketing-integrate-dynamicscrm.md).
+Liiketoimintajohtajan aloitussivulle on lisätty uusi asetusten ohjattu määritys, joka opastaa Dynamics 365 for Salesin yhteyden muodostamisprosessissa. Kun yhteys on muodostettu, Dynamics 365 for Salesin tietueet on yhdistetty saumattomasti [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietueisiin. Lisätietoja on kohdassa [Asiakassuhteiden hallinta käyttämällä Microsoft Dynamics 365 for Salesia [!INCLUDE[d365fin](includes/d365fin_md.md)]issa](marketing-integrate-dynamicscrm.md).
 
 ## <a name="may-2016-update"></a>Toukokuun 2016 päivitys
 Tässä [!INCLUDE[d365fin](includes/d365fin_md.md)]in päivityksessä lisättiin uusia ominaisuuksia, kuten [blogissa kerrottiin](https://community.dynamics.com/business/b/financials/archive/2016/06/01/new-and-updated-capabilities-in-the-first-update-of-project-quot-madeira-quot).  

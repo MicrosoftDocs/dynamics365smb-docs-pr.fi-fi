@@ -12,10 +12,10 @@ ms.search.keywords: consolidation, subsidiaries, consolidate
 ms.date: 07/14/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: aba01deb3ab2294b86003957f293224bc89ea376
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 9739f89c45dd63d03235fef4204b2adeb48ac4d3
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 
@@ -29,16 +29,16 @@ Voit konsolidoida
 * yrityksiä, joissa on käytössä erilaiset tilikartat  
 * yrityksiä, joissa on käytössä erilaiset tilikaudet ja valuutat  
 * yrityksen taloudelliset tiedot kokonaan tai tietyn prosenttiosuuden niistä
-* käyttämällä eri valuuttakursseja yksittäisillä KP-tileillä. 
+* käyttämällä eri valuuttakursseja yksittäisillä KP-tileillä.
 
 Yritysten monimutkaisuus määrittää, kumpaa tapaa käytetään raportin määrittämiseen:
 
 * Jos et tarvitse lisäasetuksia, kuten vain osittain omistamasi yrityksen sisällyttämistä, voit määrittää konsolidoinnin nopeasti käyttämällä ohjattua **Yrityksen konsolidointi** -määritystä. Opas auttaa suorittamaan perusvaiheet.
 * Jos tarvitset lisäasetuksia, voit määrittää konsolidoidun yrityksen ja liiketoimintayksiköt itse.
 
-## <a name="to-do-a-simple-consolidation-setup"></a>Yksinkertaisen konsolidoinnin asetukset 
+## <a name="to-do-a-simple-consolidation-setup"></a>Yksinkertaisen konsolidoinnin asetukset
 Jos kyse on suoraviivaisesta konsolidoinnista, koska esimerkiksi omistat kokonaan konsolidoitavat liiketoimintayksiköt, ohjattu **Yrityksen konsolidointi** -määritys auttaa seuraavissa vaiheissa:
-  
+
 * Valitse, luodaanko uusi konsolidoitu yritys vai konsolidoidaanko tiedot yritykseen, joka on jo luotu konsolidointia varten. Yrityksessä ei saa olla tapahtumia.
 * Esikatsele tulokset. [!INCLUDE[d365fin](includes/d365fin_md.md)] varmistaa, että päätiedot ja tapahtumat voidaan siirtää konsolidoituun yritykseen.
 
@@ -58,20 +58,20 @@ Voit määrittää [!INCLUDE[d365fin](includes/d365fin_md.md)]issa konsolidoitav
 
 Jos liiketoimintayksikkösi käyttää ulkomaan valuuttaa, sinun on määritettävä konsolidoinnissa käytettävä valuuttakurssi. Sinun täytyy myös syöttää konsolidointitiedot liiketoimintayksikön KP-tileistä. Nämä prosessit käsitellään seuraavissa osissa.
 
-### <a name="to-prepare-general-ledger-accounts-for-consolidation"></a>Kirjanpitotilien valmisteleminen konsolidointia varten 
+### <a name="to-prepare-general-ledger-accounts-for-consolidation"></a>Kirjanpitotilien valmisteleminen konsolidointia varten
 Jos liiketoimintayksikön tilikartta poikkeaa konsolidoidun yrityksen tilikartasta, kirjanpitotilit on valmisteltava konsolidointia varten. Voit määrittää tilit, joihin debet- ja kreditsummat kirjataan, ja menetelmän, jolla valuutat muunnetaan konsolidoidussa yrityksessä. Tästä on hyötyä esimerkiksi silloin, jos raportti suoritetaan usein.
 
-1. Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Tilikartta** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Tilikartta** ja valitse sitten aiheeseen liittyvä linkki.  
 2. Avaa tilin kortti ja täytä **Konsolidointi**-pikavälilehden kentät.
 
 ### <a name="to-specify-exchange-rates-for-consolidations"></a>Valuutan vaihtokurssien määrittäminen konsolidoiduissa yrityksissä
-Jos liiketoimintayksikön käyttämä valuutta ei ole sama kuin konsolidoidun yrityksen käyttämä valuutta, kullekin tilille on määritettävä vaihtokurssimenetelmä ennen konsolidointia. Kunkin tilin **Konsolid. muuntomenetelmä** -kentän sisältö määrittää vaihtokurssin. Määritä kunkin liiketoimintayksikön **Valuutan vaihtok.taulu** -kentässä, käytetäänkö konsolidoinnissa liiketoimintayksikön vai konsolidoidun yrityksen vaihtokursseja. Jos käytät konsolidoidun yrityksen vaihtokursseja, voit muuttaa liiketoimintayksikön vaihtokursseja. Jos liiketoimintayksikön kortin **Valuutan vaihtok.taulu** -kentässä on arvo **Paikallinen**, voit muuttaa vaihtokurssia liiketoimintayksikön kortista. Vaihtokurssit kopioidaan **Valuutan vaihtokurssi** -taulukosta, mutta voit muuttaa niitä ennen konsolidointia. 
+Jos liiketoimintayksikön käyttämä valuutta ei ole sama kuin konsolidoidun yrityksen käyttämä valuutta, kullekin tilille on määritettävä vaihtokurssimenetelmä ennen konsolidointia. Kunkin tilin **Konsolid. muuntomenetelmä** -kentän sisältö määrittää vaihtokurssin. Määritä kunkin liiketoimintayksikön **Valuutan vaihtok.taulu** -kentässä, käytetäänkö konsolidoinnissa liiketoimintayksikön vai konsolidoidun yrityksen vaihtokursseja. Jos käytät konsolidoidun yrityksen vaihtokursseja, voit muuttaa liiketoimintayksikön vaihtokursseja. Jos liiketoimintayksikön kortin **Valuutan vaihtok.taulu** -kentässä on arvo **Paikallinen**, voit muuttaa vaihtokurssia liiketoimintayksikön kortista. Vaihtokurssit kopioidaan **Valuutan vaihtokurssi** -taulukosta, mutta voit muuttaa niitä ennen konsolidointia.
 
 Seuraavassa taulukossa käsitellään tileillä käytettäviä vaihtokurssimenetelmiä.
 
 |Vaihtokurssi | Tyypillinen käyttö |
 |---|---|
-|Keskikurssi (manuaalinen) | Konsolidoitavan jakson keskikurssi lasketaan manuaalisesti. Laske keskikurssi joko aritmeettisena keskiarvona tai parhaana arvioina ja määritä kunkin liiketoimintayksikön tulos. Käytetään tuloslaskelmatileillä.| 
+|Keskikurssi (manuaalinen) | Konsolidoitavan jakson keskikurssi lasketaan manuaalisesti. Laske keskikurssi joko aritmeettisena keskiarvona tai parhaana arvioina ja määritä kunkin liiketoimintayksikön tulos. Käytetään tuloslaskelmatileillä.|
 |Loppukurssi | Käytetään tasetileillä.|
 |Viimeinen loppukurssi | Valuuttamarkkinoiden kurssi päivämääränä, jona tasetta tai tuloslaskelmaa valmistellaan. Käyttäjä antaa tämän kurssin kullekin liiketoimintayksikölle. Käytetään tasetileillä.|
 |Historiallinen kurssi | Vaihtokurssi tapahtuman suoritusajankohtana.|
@@ -83,8 +83,8 @@ Liiketoimintayksiköiden vaihtokurssit määritetään seuraavasti:
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Liiketoimintayksiköt** ja valitse sitten liittyvä linkki.  
 2. Valitse ensin **Liiketoimintayksiköiden luettelo** -sivulla liiketoimintayksikkö ja sitten **Keskikurssi (manuaalinen)** -toiminto.   
 3. **Muuta vaihtokurssi** -sivun **Suhteellinen vaihtokurssi** -kentän sisältö on kopioitu **Valuutan vaihtokurssi** -taulukosta. Sisältöön voi kuitenkin tehdä muutoksia. Sulje sivu.  
-4. Valitse **Navigoi**-välilehden **Vaihtokurssit**-ryhmässä **Loppukurssi**.  
-5. Anna vaihtokurssi **Suhteellinen vaihtokurssisumma** -kentässä 
+4. Valitse **Loppukurssi**-toiminto.  
+5. Anna vaihtokurssi **Suhteellinen vaihtokurssisumma** -kentässä
 
 <!-- ### To include or exclude dimensions
 
@@ -104,17 +104,17 @@ Jos omistat osan yrityksestä, voit sisällyttää kustakin tapahtumasta sen pro
 
 ### <a name="to-test-the-data-before-you-consolidate"></a>Tietojen testaus ennen konsolidointia
 Voit testata tiedot, ennen kuin siirrät ne konsolidoituun yritykseen. [!INCLUDE[d365fin](includes/d365fin_md.md)] etsii eroavaisuuksia liiketoimintayksiköiden tietojen ja konsolidoidun yrityksen tietojen välillä. Tarkistettavia kohteita ovat esimerkiksi erot tilinumeroiden tai dimensiokoodien välillä. Virheet on korjattava ennen raportin suorittamista. Voit testata tietokannan. Jos tuot tietoja XML-tiedostosta, voit testata myös tiedoston.   
-  
+
 1. Avaa konsolidoitu yritys.  
 2. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Liiketoimintayksiköt** ja valitse sitten liittyvä linkki.  
 3. Tee jompikumpi seuraavista toimista:  
-  
+
     * Testaa tiedosto valitsemalla **Testaa tiedosto** -toiminto, antamalla testattavan tiedoston nimen ja valitsemalla **Tulosta**.  
     * Voit testata tietokannan valitsemalla **Testaa tietokanta**.  
 
 ## <a name="to-run-the-consolidation"></a>Konsolidoinnin suorittaminen
 Kun olet testannut tiedot, voit siirtää ne konsolidoituun yritykseen.  
-  
+
 1. Kirjaudu konsolidoituun yritykseen.  
 2. Valitse **kirjanpitäjän roolikeskuksessa** **Suorita konsolidointi** -toiminto.  
 3. Täytä vaaditut kentät.  
@@ -122,10 +122,10 @@ Kun olet testannut tiedot, voit siirtää ne konsolidoituun yritykseen.
 
 ## <a name="to-export-data-from-dynamics-nav-and-import-it-in-included365finincludesd365finmdmd"></a>Tietojen vieminen Dynamics NAVista ja tuominen [!INCLUDE[d365fin](includes/d365fin_md.md)]iin
 Jos liiketoimintayksikön tiedot ovat toisessa tietokannassa, tiedot on vietävä tiedostoon, ennen kuin ne voidaan sisällyttää konsolidointiin. Jokainen yritys täytyy viedä erikseen. Tähän tarkoitukseen ohjelma käyttää **Konsolidoinnin vienti** -eräajoa.  
-  
+
 Kun eräajo on suoritettu, KP-tilien kaikki tapahtumat käsitellään. Jokaisen globaalin dimension ja päivämäärän yhdistelmän osalta tapahtumien **summa**-kentät lasketaan yhteen, ja nämä summat viedään konsolidoituun yritykseen. Sen jälkeen seuraava globaalin dimension ja päivämäärän yhdistelmä, jossa on sama tilinumero, käsitellään – ja sen jälkeen seuraavan tilinumeron yhdistelmät, ja niin edelleen.  
 
-Viedyt tapahtumat sisältävät seuraavat kentät: **Tilinro**,  **Kirjauspvm** ja  **Summa**. Jos myös dimensiotiedot vietiin, tapahtumiin sisältyvät myös dimensiokoodit ja dimension arvot.  
+Viedyt tapahtumat sisältävät seuraavat kentät: **Tilinro**, **Kirjauspvm** ja **Summa**. Jos myös dimensiotiedot vietiin, tapahtumiin sisältyvät myös dimensiokoodit ja dimension arvot.  
 
 1. Jos tuodun rivin **Summa**-kenttien kokonaissumma on debet, liiketoimintayksikön **Konsolidoinnin debet**-tili -kentässä määritetty tilinumero tuodaan riville. Jos kokonaissumma on kredit, riville tuodaan **Konsolidoinnin kredit-tili** -kentän vastaava numero.  
 2. Kullakin tuodulla rivillä käytettävä päivämäärä on joko kauden lopetuspäivämäärä tai, mikäli siirto tapahtuu päivän mukaan, laskennan tarkka päivämäärä.  

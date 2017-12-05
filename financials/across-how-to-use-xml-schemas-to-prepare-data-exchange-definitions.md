@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: d44e4f55dc43e4ad6b8e8bc1742eed3c966eb918
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 5b10eaff0d412ee26ead2137a353054c41d05113
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-use-xml-schemas-to-prepare-data-exchange-definitions"></a>Toimintaohje: XML-rakenteiden käyttäminen Tietojen vaihdon määritysten valmistelussa
@@ -46,7 +46,7 @@ Voit ottaa XML-tiedostojen tietojen tuonnin ja viennin käyttöön [!INCLUDE[d36
 
 4.  Täytä kentät seuraavassa taulukossa kuvatulla tavalla.  
 
-    |Kenttä|[Kuvaus]|  
+    |Kenttä|Kuvaus|  
     |---------------------------------|---------------------------------------|  
     |**Koodi**|Määritä koodi, jolla identifioit XML-kaavan.|  
     |**Kuvaus**|Määritä XML-kaavan kuvaus.|  
@@ -66,7 +66,7 @@ Voit ottaa XML-tiedostojen tietojen tuonnin ja viennin käyttöön [!INCLUDE[d36
 
 2.  Täytä otsikon kentät seuraavassa taulukossa kuvatulla tavalla.  
 
-    |Kenttä|Description|  
+    |Kenttä|Kuvaus|  
     |---------------------------------|---------------------------------------|  
     |**XML-mallin koodi**|Määritä vaiheessa 5 lataamasi XML-rakennetiedosto "XML-rakenteen lataaminen" -osiossa.|  
     |**Uuden XMLportin numero**|Määritä sen XMLporttien määrä, joka luodaan tästä XML-kaavasta, kun valitset **Luo XMLport** -ikkunassa.|  
@@ -79,7 +79,7 @@ Voit ottaa XML-tiedostojen tietojen tuonnin ja viennin käyttöön [!INCLUDE[d36
 
 4.  Valitse **Kotisivu**-välilehden **Näytä**-ryhmässä yksi seuraavista toiminnoista muuttaaksesi mitkä solmut näytetään.  
 
-    |**Toiminto**|Description|  
+    |**Toiminto**|Kuvaus|  
     |----------------|---------------------------------------|  
     |**Näytä kaikki**|Kaikki solmut ovat näkyvissä.|  
     |**Piilota ei-pakollinen**|Ainoastaan XML-rakenteen perusteella pakollisia elementtejä esittävät solmut näytetään. Näiden solmujen merkintänä on yleensä **1** **MinOccurs**-kentässä.<br /><br /> Käännä näkymä valitsemalla **Näytä kaikki**.|  

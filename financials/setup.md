@@ -1,6 +1,6 @@
 ---
-title: "Dynamics 365 for Financialsin määritystehtävien yleiskatsaus| Microsoft Docs"
-description: "Tässä ohjeaiheessa kerrotaan tehtävistä, jolla Dynamics 365 for Financials asennetaan, alustetaan ja määritetään omia tarpeita vastaavaksi."
+title: "Dynamics 365 Business editionin määritystehtävien yleiskatsaus | Microsoft Docs"
+description: "Tässä ohjeaiheessa kerrotaan tehtävistä, joilla Dynamics 365 Business edition asennetaan, alustetaan ja määritetään omia tarpeita vastaavaksi."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,13 +11,13 @@ ms.search.keywords: configure, initialize
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: cbf0f6521db686f4e1a820070969bd0193227015
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 68a4563aab0edc6a0ac5b8cbcc5e053c449f20f8
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="setting-up-dynamics-365-for-financials"></a>Dynamics 365 for Financialsin määrittäminen
+# <a name="setting-up-included365finlongincludesd365finlongmdmd"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] -sovelluksen määrittäminen
 [!INCLUDE[d365fin](includes/d365fin_md.md)] sisältää vakiomääritykset useimmille liiketoimintaprosesseille. Voit muuttaa määritykset yrityksen tarpeita vastaaviksi.
 
 Esimerkiksi tilikarttaan on kerätty käyttövalmiita kirjaustilejä. Voit tietysti muuttaa tilikarttaa liiketoimintasi vaatimalla tavalla. Lisätietoja on kohdassa [Rahoitus](finance.md).
@@ -41,7 +41,7 @@ Tietyt joko yleiset tai erityiset liiketoimintaprosessien toiminnot voidaan mä�
 | Määritä **SMTP-sähköpostiasetukset** -ikkunassa, miten [!INCLUDE[d365fin](includes/d365fin_md.md)]issa lähetetään ja vastaanotetaan sähköposteja asiakirjoista. |[Toimintaohje: Sähköpostin määrittäminen](madeira-how-setup-email.md) |
 | Määritä yksilölliset tunnuskoodit. |[Toimintaohje: Numerosarjojen luominen](ui-create-number-series.md) |
 
-Joidenkin alueiden edellytyksenä on, että käyttäjä on [!INCLUDE[d365fin](includes/d365fin_md.md)]-tilauksen järjestelmänvalvoja. Lisätietoja on kohdassa [Dynamics 365 for Financialsin määrittäminen ja hallinta](admin-setup-and-administration.md).  
+Joidenkin alueiden edellytyksenä on, että käyttäjä on [!INCLUDE[d365fin](includes/d365fin_md.md)]-tilauksen järjestelmänvalvoja. Lisätietoja on kohdassa [Asetukset ja hallinto [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] -ohjelmassa](admin-setup-and-administration.md).  
 
 ## <a name="see-also"></a>Katso myös
 [Rahoitus](finance.md)  
@@ -54,7 +54,7 @@ Joidenkin alueiden edellytyksenä on, että käyttäjä on [!INCLUDE[d365fin](in
 [Tuotanto](production-manage-manufacturing.md)  
 [Varastoinninhallinta](warehouse-manage-warehouse.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
-[Dynamics 365 for Financialsin määrittäminen ja hallinta](admin-setup-and-administration.md)  
+[Asetukset ja hallinto [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmassa](admin-setup-and-administration.md)  
 [Uusien yritysten luominen [!INCLUDE[d365fin](includes/d365fin_md.md)]issa](about-new-company.md)  
 [Tervetuloa [!INCLUDE[d365fin](includes/d365fin_md.md)]iin!](index.md)  
 

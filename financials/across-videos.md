@@ -1,5 +1,5 @@
 ---
-title: "Miten löydän Dynamics 365 for Financialsin aloitusvideot| Microsoft Docs"
+title: "Dynamics 365 Business editionin ohjevideoiden käyttäminen | Microsoft Docs"
 description: "Täällä voit käyttää aloitusvideoita, joissa kerrotaan, miten yleisiä tehtäviä suoritetaan."
 services: project-madeira
 documentationcenter: 
@@ -13,10 +13,10 @@ ms.search.keywords: video, library, how to
 ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 6e5f4e0b32b90a19f4f58a1fd792a686c0cb41d0
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: c3cb769e45d2ef2ade6eb82118cd6f79b5e3cf9d
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="visit-our-video-library"></a>Vieraile Microsoftin videokirjastossa
@@ -35,7 +35,9 @@ Videot voit avata usealla tavalla. Jos [!INCLUDE[d365fin](includes/d365fin_md.md
 * Valitsemalla **Liiketoimintajohtaja**-roolikeskuksessa **Liiketoiminnan tuki** ja sitten **Näytä määritys- ja ohjeresurssit**.  
 
 > [!Tip]  
-> Videoiden lisäksi **Liiketoiminnan tuki** sisältää muita resursseja, kuten linkkejä ohjeaiheisiin ja avustettuihin määritysoppaisiin, joiden avulla alkuun pääseminen on helpompaa. Nämä resurssit korvaavat roolikeskuksen kaaviona. Kun olet tutkiskellut resursseja, voit siirtyä takaisin **Liiketoiminnan tuki** -valikon kaavioon valitsemalla **Näytä kaavio**.  
+> Kirjaston videot voivat näkyä pieneltä vaikuttavassa kehyksessä. Voit suurentaa kehystä valitse kaksipäisen nuolikuvakkeen kehyksen oikeassa yläkulmassa. Videot näkyvät nyt suuremmassa kehyksessä siihen saakka, että pienennät ne.  
+
+Videoiden lisäksi **Liiketoiminnan tuki** sisältää muita resursseja, kuten linkkejä ohjeaiheisiin ja avustettuihin määritysoppaisiin, joiden avulla alkuun pääseminen on helpompaa. Nämä resurssit korvaavat roolikeskuksen kaaviona. Kun olet tutkiskellut resursseja, voit siirtyä takaisin **Liiketoiminnan tuki** -valikon kaavioon valitsemalla **Näytä kaavio**.  
   
 Voit tarkastella Microsoftin opastusvideoita sekä runsaasti muuta sisältöä Microsoft Dynamics 365 -sovellusta varten luodulla YouTube-kanavalla. Kanavan löydät [napsauttamalla tästä](https://go.microsoft.com/fwlink/?linkid=851533).
 

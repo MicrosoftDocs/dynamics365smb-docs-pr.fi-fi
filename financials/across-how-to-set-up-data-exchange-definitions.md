@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: 32bf6cfb54a78f0b19334e1e46f7620979d64b01
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 1f35debace937a04b8f4174131fd72cde6610b7a
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-set-up-data-exchange-definitions"></a>Toimintaohje: Tietojenvaihtomääritysten määrittäminen
@@ -71,9 +71,9 @@ Tietojenvaihtomäärityksen luominen muodostuu kahdesta tehtävästä:
     >   
     >  Maksujen vientiä varten voit luoda rivin jokaista vietävää maksutyyppiä kohden. Tällöin **Sarakkeen määritykset** -pikalomakkeessa näkyy erilliset sarakkeet kullekin maksutyypille.  
 
-    |Kenttä|Description|  
+    |Kenttä|Kuvaus|  
     |---------------------------------|---------------------------------------|  
-    |**Koodi)**|Lisää koodi, jonka avulla tiedoston rivi tunnistetaan.|  
+    |**Koodi**|Lisää koodi, jonka avulla tiedoston rivi tunnistetaan.|  
     |**Nimi**|Kirjoita nimi, joka kuvaa tiedoston riviä.|  
     |**Sarakemäärä**|Määritä datatiedoston rivin sarakkeiden määrä. **Huomautus:** Tätä kenttää käytetään vain tuonnissa.|  
     |**Tietorivin tunniste**|Määritä elementtiin liittyvän XML-kaavan sijainti, joka edustaa tiedoston pääkirjausta. **Huomautus:** Tätä kenttää käytetään vain tuonnissa.|  
@@ -87,7 +87,7 @@ Tietojenvaihtomäärityksen luominen muodostuu kahdesta tehtävästä:
 7. Valitse liittyvä rakennetiedosto **Hae tiedostorakenne** -ikkunassa ja valitse sitten **OK**. **Sarakkeen määritykset** -pikalomakkeen rivit täytetään datatiedoston rakenteen mukaisesti.  
 8. Muokkaa **Sarakkeen**-pikalomakkeen kenttiä tai täytä ne seuraavassa taulukossa kuvatulla tavalla.  
 
-    |Kenttä|Description|  
+    |Kenttä|Kuvaus|  
     |---------------------------------|---------------------------------------|  
     |**Sarakkeen nro**|Määritä määrä, joka kuvaa sarakkeen sijaintia tiedostorivillä.<br /><br /> Määritä XML-tiedostojen osalta luku, joka ilmaisee tiedostossa olevien tietojen elementin tyyppiä.|  
     |**Nimi**|Määritä sarakkeen nimi.<br /><br /> Määritä XML-tiedostojen osalta merkintä, joka merkitsee siirrettävät tiedot.|  
@@ -111,7 +111,7 @@ Tietojenvaihtomäärityksen luominen muodostuu kahdesta tehtävästä:
 1. Valitse **Rivin määritykset** -pikalomakkeessa rivi, jonka kenttiin haluat yhdistää sarakkeita, ja valitse sitten **Kenttien yhdistämismääritys**. **Tiedonsiirron vastaavuus** -ikkuna avautuu.  
 2. Määritä kohdistus **Yleinen**-pikavälilehdellä täyttämällä seuraavassa taulukossa kuvatut kentät.  
 
-    |Kenttä|Description|  
+    |Kenttä|Kuvaus|  
     |---------------------------------|---------------------------------------|  
     |**Taulukon tunnus**|Määritä taulukko, joka käsittää kentät, joista tai joihin tiedot vaihdetaan kartoituksen mukaan.|  
     |**Käytä väliaikaisena taulukkona**|Määritä, onko **Taulukon tunnus** -kentässä valittu taulukko väliaikainen taulukko, johon tuodut tiedot tallennetaan ennen niiden siirtämistä kohdetaulukkoon.<br /><br /> Väliaikaista taulukkoa käytetään yleensä silloin, kun tiedonsiirtomääritystä käytetään sähköisten asiakirjojen tuomiseen ja muuntamiseen, kuten toimittajalaskujen tuomiseen ja muuntamiseen ostolaskuiksi [!INCLUDE[d365fin](includes/d365fin_md.md)]issa. Lisätietoja on kohdassa [Sähköinen tiedonsiirto](across-data-exchange.md).|  
@@ -122,7 +122,7 @@ Tietojenvaihtomäärityksen luominen muodostuu kahdesta tehtävästä:
 
 3.  Määritä **Kentän vastaavuus** -pikavälilehdessä, mitkä sarakkeet yhdistetään mihin [!INCLUDE[d365fin](includes/d365fin_md.md)]in kenttiin täyttämällä kentät seuraavassa taulukossa kuvatulla tavalla.  
 
-    |Kenttä|Description|  
+    |Kenttä|Kuvaus|  
     |---------------------------------|---------------------------------------|  
     |**Sarakkeen nro**|Määritä se tiedoston sarake, jonka haluat määrittää kartoitusta varten.<br /><br /> Voit valita vain sarakkeita, joilla on rivi **Tiedonsiirtomääritykset**-ikkunan **Sarakkeen määritykset** -pikavälilehdessä.|  
     |**Kentän tunnus**|Määritä, mihin kenttään **Sarakkeen nro** -kentän sarake yhdistetään.<br /><br /> Voit valita vain **Yleinen**-pikavälilehden **Taulukko**-kenttään määrittämäsi taulukon kenttiä.|  

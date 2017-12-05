@@ -1,1 +1,1 @@
-<blockquote STYLE="background: #81BEF7;border-left:None"><b>LISÄASETUKSET</b><br />Tämä toiminto on käytettävissä vain laajennetussa versiossa. Lisätietoja on kohdassa [Dynamics 365 for Financials -kokemuksen mukauttaminen](../ui-experiences.md) </blockquote>
+<blockquote STYLE="background: #81BEF7;border-left:None"><b>LISÄASETUKSET</b><br />Tämä toiminto on käytettävissä vain laajennetussa versiossa. Lisätietoja on kohdassa [Dynamics 365 Business editionin käyttökokemuksen mukauttaminen](../ui-experiences.md) </blockquote>

@@ -1,8 +1,6 @@
 ---
 title: "Itsepalvelun rekisteröitymisen vianmääritystavat ja siihen liittyvien ongelmien kiertäminen | Microsoft Docs"
-description: "Tutustu yleisimpiin syihin, minkä vuoksi Dynamics 365 for Financialsiin rekisteröityminen ei onnistu, ja miten nämä ongelmat voidaan kiertää."
-services: project-madeira
-documentationcenter: 
+description: "Tutustu yleisimpiin syihin, minkä vuoksi Dynamics 365 Business editioniin rekisteröityminen ei onnistu ja miten nämä ongelmat voidaan ratkaista."
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
 ms.topic: article
@@ -12,16 +10,16 @@ ms.workload: na
 ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 1bc036d4e57403d903c292a07a8985dfe939b20d
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: c97d406d0213c7b2ade23a2d209adf54bf9dfcae
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="troubleshooting-self-service-sign-up"></a>Itsepalvelun rekisteröitymisen vianmääritys
 [!INCLUDE[d365fin](includes/d365fin_md.md)]iin rekisteröityminen on helppoa ja nopeaa. Voit luoda ilmaisen tilin myös silloin, jos organisaatio on olemassa. Tässä artikkelissa kerrotaan ongelmista, joita rekisteröitymisen aikana voi ilmetä.
 
-## <a name="what-email-address-can-i-use-with-financials"></a>Mitä sähköpostiosoitetta voin käyttää Financialsin kanssa?
+## <a name="what-email-address-can-i-use-with-dynamics-365"></a>Mitä sähköpostiosoitetta voi käyttää Dynamics 365:ssä?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] edellyttää työ- tai opiskelupaikan antaman sähköpostiosoitteen käyttämistä rekisteröitymisen yhteydessä. [!INCLUDE[d365fin](includes/d365fin_md.md)] ei tue kuluttajille tarkoitettujen sähköpostipalveluiden ja tietoliikennepalveluiden tarjoajien sähköpostiosoitteita. Näitä ovat esimerkiksi outlook.com, hotmail.com ja gmail.com.
 
 Jos yrität rekisteröityä käyttämällä henkilökohtaista sähköpostiosoitetta, saat viestin, jossa pyydetään käyttämään työ- tai opiskelupaikan antamaa sähköpostiosoitetta.
@@ -40,5 +38,4 @@ Jos yrität rekisteröityä käyttämällä henkilökohtaista sähköpostiosoite
 ## <a name="see-also"></a>Katso myös
 [Tervetuloa [!INCLUDE[d365fin](includes/d365fin_long_md.md)]iin!](index.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-
 

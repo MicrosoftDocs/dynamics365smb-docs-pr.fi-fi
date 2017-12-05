@@ -1,25 +1,32 @@
 ---
-title: "Asiakkaiden hallinta Dynamics 365 – Accountant Hubissa| Microsoft Docs"
-description: "Dynamics 365 – Accountant Hub parantaa asiakasnäkyvää, mikä helpottaa asiakkaiden välillä siirtymistä."
+title: "Asiakkaiden hallinta Dynamics 365:ssä | Microsoft Docs"
+description: "Accountant Hub antaa hyvän kokonaiskuvan asiakkaista, mikä helpottaa asiakkaiden välillä siirtymistä."
 author: edupont04
-ms.service: dynamics365-financials
+ms.service: dynamics365-accountant
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard, accountant
-ms.date: 08/15/2017
+ms.date: 10/23/2017
 ms.author: edupont
-ROBOTS: NOINDEX,NOFOLLOW
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: 7aa7e46acf2e060cb2956b550696b89a8c4c0e99
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 021ca5cebb5de3357a36c802a725d806c592e40f
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="welcome-to-included365acclongincludesd365acclongmdmd"></a>Tervetuloa [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]iin
 [!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
+
+Jos olet kirjanpitäjä, jolla on useita asiakkaita, voit käyttää [!INCLUDE[d365acc](includes/d365acc_md.md)]ia koontinäyttönä ja saada sen avulla paremman yleiskuvan asiakkaistasi. Voit käyttää näkymästä kunkin asiakkaan tietoja.  
+
+![Accountant Hub](./media/accountant-get-started/accountant-dashboard.png)
+
+Saat [!INCLUDE[d365acc](includes/d365acc_md.md)]in käyttöösi rekisteröitymällä [Dynamics 365 – Accountant Hubista sivustossa Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants). Tämän maksuttoman palvelun käytön aloittaminen ja asiakkaiden lisääminen koontinäyttöön tapahtuu nopeasti. Lisätietoja on kohdassa [Accountant Hubin käytön aloittaminen](get-started.md).  
+
+Voit lisätä [!INCLUDE[d365acc](includes/d365acc_md.md)]in nykyisessä versiossa asiakkaita, jotka käyttävät liiketoiminnassaan [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]ia.  
 
 ## <a name="see-also"></a>Katso myös
 [Microsoft Dynamics 365 -dokumentaatio](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_financials)  

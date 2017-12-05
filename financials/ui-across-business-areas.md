@@ -1,6 +1,6 @@
 ---
 title: "Liiketoiminta-alueiden välillä käytettävät yleiset toiminnot | Microsoft Docs"
-description: "Tutustu Dynamics 365 for Financialsin liiketoiminta-alueiden välillä käytettäviin toimintoihin ja ominaisuuksiin."
+description: "Tutustu Dynamics 365 Business editionin liiketoiminta-alueiden välillä käytettäviin toimintoihin ja ominaisuuksiin."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -13,10 +13,10 @@ ms.search.keywords: feature overview, functionality
 ms.date: 08/21/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: bd035a6fa6dc86dcea12783c6d7684e6ffbae4a3
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 5a5238c3333551cc00fbb6b81c04309e76013f82
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="general-business-functionality"></a>Yleiset liiketoimintatoiminnot
@@ -24,7 +24,7 @@ ms.lasthandoff: 09/27/2017
 
 Seuraava taulukko sisältää nämä yleiset liiketoiminta-alueet ja linkit niitä kuvaaviin ohjeaiheisiin.
 
-| Vastaanottaja | Katso |
+| Toiminta | Katso |
 | --- | --- |
 | Määritä vakiotekstikoodit, jotta voit laajentaa vakiotekstiä lisäämällä rivejä, ja määritä lisärivien käytön ehdot. |[Toimintaohje: Lisätekstien määrittäminen](ui-how-define-ext-text.md) |
 | Saat lisätietoja yleisten päiväkirjojen käyttämisestä. Niitä käytetään tehtäessä kirjauksia kirjanpitotileille sekä muille tileille, kuten pankki-, asiakas-, toimittaja- ja käyttöomaisuustileille. |[Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md) |

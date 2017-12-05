@@ -13,13 +13,13 @@ ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 53c588f65232656d2362873347c6c7dc0d412449
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 1c82ab613d8f1fc5e71a81e6eead60cf9c0bf196
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="viewing-list-data-in-power-bi-reports-in-dynamics-365-for-financials"></a>Power BI -raporttien luettelotietojen tarkastelu Dynamics 365 for Financialsissa
+# <a name="viewing-list-data-in-power-bi-reports-in-dynamics-365-business-edition"></a>Power BI -raporttien luettelotietojen tarkastelu Dynamics 365 Business editionissa 
 [!INCLUDE[d365fin](includes/d365fin_md.md)]in useilla tärkeillä luettelosivuilla on ohjauselementtinä tietoruutu, jolla saa lisätietoja luettelon tiedoista. Raportti päivitetään ja suodatetaan valitun tapahtuman mukaan, kun siirryt luettelon riveillä. Voit luoda mukautettuja raportteja, joissa tämä ohjausobjekti on esillä. Raportteja luotaessa on kuitenkin noudatettava tiettyjä sääntöjä, jotta ne toimisivat halutulla tavalla.  
 
 > [!NOTE]  

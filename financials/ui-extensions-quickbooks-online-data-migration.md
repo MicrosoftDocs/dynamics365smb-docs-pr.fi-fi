@@ -1,8 +1,6 @@
 ---
 title: "QuickBooksin siirtolaajennuksen käyttäminen | Microsoft Docs"
-description: "Tässä ohjeaiheessa kerrotaan, miten laajennuksella siirretään asiakkaita, toimittajia, nimikkeitä ja tilejä QuickBooks Onlinesta Financialsiin."
-services: project-madeira
-documentationcenter: 
+description: "Tässä ohjeaiheessa kerrotaan, miten laajennuksella siirretään asiakkaita, toimittajia, nimikkeitä ja tilejä QuickBooks Onlinesta Dynamics 365:een."
 author: bholtorf
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,14 +11,14 @@ ms. search.keywords: extension, migrate, data, QuickBooks, import
 ms.date: 05/24/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: fe87a108d132ff25f0c93a51df58bb88fb12f421
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: e73db91a37fd5aee249de032d231df2c5e36b4ba
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 
-# <a name="the-quickbooks-online-data-migration-extension-for-dynamics-365-for-financials"></a>Dynamics 365 for Financialsin QuickBooks Onlinen tietojen siirron laajennus
+# <a name="the-quickbooks-online-data-migration-extension-for-dynamics-365-business-edition"></a>Dynamics 365 Business editionin QuickBooks Online -tietojen siirtolaajennus
 Tämä laajennus sisältää **tietojen siirron** asetusten ohjattuun määritykseen, joka auttaa siirtämään tärkeitä liiketoimintatietoja QuickBooks Onlinesta [!INCLUDE[d365fin](includes/d365fin_md.md)]iin. Tämä on kätevää esimerkiksi tilanteessa, jossa liiketoiminta kasvaa ja olet päättänyt päivittää liiketoiminnan hallintasovelluksen aloittamalla [!INCLUDE[d365fin](includes/d365fin_md.md)]in käytön.
 
 ## <a name="what-data-can-i-import-from-quickbooks-online"></a>QuickBooks Onlinesta siirrettävät tiedot
@@ -29,7 +27,7 @@ QuickBooks Onlinesta voi tuoda seuraavat tiedot [!INCLUDE[d365fin](includes/d365
 * Asiakkaat
 * Toimittajat
 * Nimikkeet
-* Tilikartta 
+* Tilikartta
 * Pääkirjanpidon alkusaldotapahtuma
 * Varastonimikkeiden varastomäärä
 * Asiakkaiden ja toimittajien avoimet asiakirjat, kuten laskut, hyvityslaskut ja maksut
@@ -41,7 +39,7 @@ Myynti- ja ostoasiakirjoissa vain täydet summat siirretään. Osittain maksettu
 
 ## <a name="before-you-start"></a>Ennen kuin aloitat
 Siirtoprosessiin olennaisesti kuuluva osa on määrittää tilit, joihin tapahtumat siirretään. Nämä yhdistämismääritykset on hyvä suunnitella ennen tietojen siirtoa. Kyse on esimerkiksi tileistä, joille seuraavat tapahtumat kirjataan:  
-  
+
 * Nimikkeiden tai palvelujen myynti asiakkaille.
 * Nimikkeiden tai palvelujen osto toimittajilta.  
 * Pääkirjanpidon oikaisut.  

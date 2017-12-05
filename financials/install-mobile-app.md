@@ -1,6 +1,6 @@
 ---
-title: "Financialsin käyttäminen mobiililaitteessa| Microsoft Docs"
-description: Voit tarkastella ja muokata Financials-tietoja puhelimessa tai tabletissa.
+title: "Dynamics 365:n käyttäminen mobiililaitteessa| Microsoft Docs"
+description: Voit tarkastella ja muokata Dynamics 365 -tietoja puhelimessa tai tabletissa.
 documentationcenter: 
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
@@ -12,14 +12,14 @@ ms.search.keywords: phone, tablet
 ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 028c1fcc6f184b0307e1fdfdc7b6a34fee86565d
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 56f2ef7c7b0c604f0966736020dcb9cff546dddd
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 
-# <a name="getting-dynamics-365-for-financials-on-your-mobile-device"></a>Dynamics 365 for Financialsin hakeminen mobiililaitteeseen
+# <a name="getting-dynamics-365-for-finance-and-operations-on-your-mobile-device"></a>Dynamics 365 for Finance and Operationsin hakeminen mobiililaitteeseen
 Voit käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietoja mobiililaitteella. Voit siirtyä liiketoimintatiedoissa, käyttää erilaisia toimintoja, kuten lähettää tietoja Exceliin ja Office 365:een, tarkastella päivitettyjä kaavioita ja tunnuslukuja, lähettää myyntitarjouksia ja -laskuja sähköpostitse sekä ottaa kameralla kuvia ja liittää niitä. Noudattamalla seuraavia ohjeita voit ladata sovelluksen ja aloittaa.
 
 ## <a name="to-get-the-app-on-my-mobile-device"></a>Sovelluksen hakeminen omaan mobiililaitteeseen

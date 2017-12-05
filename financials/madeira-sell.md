@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Financialsin myynti| Microsoft Docs
-description: "Saat tietää, miten voit laajentaa liiketoimintamahdollisuuksia sekä tulla Microsoft-kumppaniksi ja Dynamics 365 for Financialsin jälleenmyyjäksi."
+title: Dynamics 365 Business editionin myyminen | Microsoft Docs
+description: "Lisätietoja liiketoimintamahdollisuuksien laajentamisesta sekä Microsoft-kumppaniksi ja Dynamics 365 Business editionin jälleenmyyjäksi tulemisesta."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,16 +13,16 @@ ms.search.keywords: microsoft partner
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 2760d173a46e0ab382253179d899d6f7c3cf7a4f
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 582d000456c6802131c69fc5c0b391905a9b4ddf
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="become-a-reseller-of-included365finlongincludesd365finlongmdmd"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]in jälleenmyyjäksi ryhtyminen
 Laajenna liiketoimintamahdollisuuksia [!INCLUDE[d365fin](includes/d365fin_md.md)]illa.  
 
-Jos pilviratkaisut, Office 365, SharePoint, toimialakohtaiset ratkaisut, analytiikka, ERP, CRM, kirjanpito-ohjelmistot ja/tai liiketoimintaprosessien optimointiohjelmistot tai -palvelut ovat erikoisalaasi, Financials tarjoaa uusia mahdollisuuksia.   
+Jos pilviratkaisut, Office 365, SharePoint, toimialakohtaiset ratkaisut, analytiikka, ERP, CRM, kirjanpito-ohjelmistot ja/tai liiketoimintaprosessien optimointiohjelmistot tai -palvelut ovat erikoisalaasi, Dynamics 365 tarjoaa uusia mahdollisuuksia.   
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] auttaa erottautumaan ja syventämään asiakassuhteita, sillä voit toimittaa sen avulla kattavan liiketoiminnan hallintaratkaisun, joka yhdistää työntekijät ja prosessit aivan uudella tavalla. Lisäksi se integroituu tuttuihin Microsoft Office -työkaluihin, joita PK-yritykset käyttävät joka päivä.  
 
