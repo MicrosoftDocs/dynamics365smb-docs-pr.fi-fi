@@ -1,8 +1,6 @@
 ---
 title: "Vaihekuvaus – Myyntikampanjan suorittaminen | Microsoft Docs"
-description: "Kampanja voi olla mikä tahansa toimi, jossa on mukana useita kontakteja. Kampanjan määrittämisen tärkeä osa liittyy kampanjan kohderyhmän valitsemiseen. Sitä varten [!INCLUDE[d365fin](includes/d365fin_md.md)]issa luodaan segmentti tai yhteystietoryhmä suodattimien avulla."
-services: project-madeira
-documentationcenter: 
+description: "Kampanja voi olla mikä tahansa toimi, jossa on mukana useita kontakteja. Kampanjan määrittämisen tärkeä osa liittyy kampanjan kohderyhmän valitsemiseen. Tätä tarkoitusta varten Dynamics 365:ssä luodaan segmentti tai yhteystietoryhmä suodattimien avulla."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e9eb96fb0f9669a9ddac5e4ea6e973fd64388b87
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 492976f9ab0553b67b73317040878c825eaa1808
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Vaihekuvaus: Myyntikampanjan suorittaminen

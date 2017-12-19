@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 12/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 59805de35ca1ebe01255eafeb4fff12efacde934
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: 6beb70ad41fa32043e9b8afea67d390929533007
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="setting-up-workflows"></a>Työnkulkujen määrittäminen
@@ -26,9 +26,9 @@ Voit määrittää ja käyttää työnkulkuja, jotka yhdistävät eri käyttäji
 
  **Työnkulku**-ikkunassa voit luoda työnkulun luetteloimalla liittyvät toimet riveillä. Jokainen vaihe koostuu työnkulun tapahtumasta, jota valvotaan tapahtuman ehtojen mukaan, ja työnkulun vastauksesta, jota valvotaan vastausvaihtoehtojen mukaan. Työnkulku määritetään täyttämällä työnkulkurivien kentät tapahtumien kiinteistä luetteloista ja vastausarvot, jotka edustavat sovelluskoodin tukemia skenaarioita.  
 
- Jos liiketoimintaskenaario edellyttää työnkulun tapahtumaa tai vastausta, joka ei ole tuettu, Microsoft-kumppanin on toteutettava se mukauttamalla sovelluksen koodia. Lisätietoja on MSDN:n artikkelissa [Vaihekuvaus: Uusien työnkulun tapahtumien ja vastausten määrittäminen](https://msdn.microsoft.com/en-us/library/mt574349.aspx).
+ Jos liiketoimintaskenaario edellyttää työnkulun tapahtumaa tai vastausta, joka ei ole tuettu, Microsoft-kumppanin on toteutettava se mukauttamalla sovelluksen koodia. Lisätietoja on kehittäjien ja IT-ammattilaisten ohjeen kohdassa [Vaihekuvaus: Uusien työnkulun tapahtumien ja vastausten määrittäminen](/dynamics_nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses).
 
- Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aiheisiin.  
+ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisiin.  
 
 |**Tehtävä**|**Katso**|  
 |------------|-------------|  
@@ -42,7 +42,7 @@ Voit määrittää ja käyttää työnkulkuja, jotka yhdistävät eri käyttäji
 |Käytä työnkulkumalleja luomaan uusia työnkulkumalleja.|[Ohje: Työnkulkujen luominen työnkulkumalleista](across-how-to-create-workflows-from-workflow-templates.md)|  
 |Jaa työnkulkuja muiden [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietokantojen kanssa.|[Toimintaohje: työnkulkujen vienti ja tuonti](across-how-to-export-and-import-workflows.md)|  
 |Opi määrittämään myyntiasiakirjojen työnkulkujen hyväksyntäpyyntöjä päästä päähän -menetelmällä.|[Vaihekuvaus: Ostojen hyväksyntä -työnkulun määrittäminen ja käyttäminen](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
-|Lisää tuki business skenaariolle, joka vaatii uuden työnkulun tapahtumat tai vastaukset, mukauttamalla sovelluksen koodi.|MSDN-artikkeli [Vaihekuvaus: Uusien työnkulun tapahtumien ja vastausten määrittäminen](https://msdn.microsoft.com/en-us/library/mt574349.aspx).|  
+|Lisää tuki business skenaariolle, joka vaatii uuden työnkulun tapahtumat tai vastaukset, mukauttamalla sovelluksen koodi.|[Vaihekuvaus: Uusien työnkulun tapahtumien ja vastausten määrittäminen](/dynamics_nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses)|  
 
 ## <a name="see-also"></a>Katso myös  
  [Työnkulkujen käyttäminen](across-use-workflows.md)   

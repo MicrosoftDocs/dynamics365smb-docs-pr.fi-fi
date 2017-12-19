@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 56d191c465b611c1764cf3c97e507c4952fe6287
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: ab97e9beb67ac5c8e827f44c2976b51af2696109
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-enable-automated-data-capture-systems-adcs"></a>Toimintaohje: ADCS (Automated Data Capture Systems) -järjestelmän ottaminen käyttöön
@@ -28,7 +28,7 @@ Fyysisen varastoinnin tarpeiden pohjalta pienoislomakkeen asetuksissa määritet
 - Tekstitiedot.  
 - Vahvistuksia tai virhesanomia suoritetuista toiminnoista, jotka käyttäjä on tehnyt ja rekisteröinyt kannettavalla laitteella.
 
-Lisätietoja on MSDN-artikkelissa [ADCS (Automated Data Capture System) -järjestelmän määrittäminen](https://msdn.microsoft.com/en-us/library/dd338742.aspx).
+Lisätietoja on kehittäjien ja IT-ammattilaisten ohjeaiheessa [ADCS (Automated Data Capture System) -järjestelmän määrittäminen](/dynamics-nav/Configuring-Automated-Data-Capture-System).
 
 ## <a name="to-set-up-a-warehouse-to-use-adcs"></a>Fyysisen varaston määrittäminen ADCS-järjestelmän käyttämistä varten  
 ADCS:n käytössä on määritettävä, mitkä fyysisen varaston sijainnit käyttävät tekniikkaa.  
@@ -107,7 +107,7 @@ Pienoislomakkeen luonnin jälkeen luodaan seuraavaksi toiminnot ja liitetään t
 
 Muokkaa [!INCLUDE[d365fin](includes/d365fin_md.md)]in kehitysympäristössä **Käsittelevä koodiyksikkö** -kentän koodia, jos haluat luoda koodin tarvittavan toiminnon tai vastauksen suorittamiseen tai muokata koodia.
 
-Lisätietoja on MSDN-artikkelissa [ADCS (Automated Data Capture System) -järjestelmän määrittäminen](https://msdn.microsoft.com/en-us/library/dd338742.aspx).
+Lisätietoja on kehittäjien ja IT-ammattilaisten ohjeaiheessa [ADCS (Automated Data Capture System) -järjestelmän määrittäminen](/dynamics-nav/Configuring-Automated-Data-Capture-System).
 
 ## <a name="see-also"></a>Katso myös  
 [Varastoinninhallinta](warehouse-manage-warehouse.md)  

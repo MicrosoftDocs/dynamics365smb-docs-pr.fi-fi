@@ -1,8 +1,6 @@
 ---
 title: "Rakennetiedot – Suunnitteluparametrit | Microsoft Docs"
-description: "Tässä ohjeaiheessa käsitellään erilaisia suunnitteluparametreja, joita voit käyttää [!INCLUDE[d365fin](Includes/d365fin_md.MD)] -ohjelmassa."
-services: project-madeira
-documentationcenter: 
+description: "Tässä ohjeaiheessa kerrotaan, mitä suunnitteluparametreja voi käyttää Dynamics 365:ssä."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords: planning, design
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 6d1b9d86d53076c2373f4f08316192eda29592c5
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 5ab63063b5ad2ae453ecb9953ba4547f31536ee8
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-planning-parameters"></a>Rakennetiedot: suunnittelun parametrit
@@ -64,7 +62,7 @@ Suunnittelujärjestelmä noudattaa tavallisesti tätä logiikka uusintatilaustav
 ### <a name="reordering-policies"></a>Uusintatilauskäytännöt  
 Seuraavat uudelleenjärjestysohjeet vaikuttavat jälkitilattavaan määrään.  
 
-|Uusintatilaustapa|Description|  
+|Uusintatilaustapa|Kuvaus|  
 |-----------------------|---------------------------------------|  
 |**Kiinteä uusintatil. määrä**|Tilausmäärä vastaa vähimmillään uusintatilausmäärää. Sitä voidaan kasvattaa vastaamaan kysyntää tai haluttua varastotasoa. Tätä uusintatilaustapaa käytetään yleensä uusintatilauspisteen kanssa.|  
 |**Enimmäismäärä**|Tilausmäärä lasketaan vastaamaan maksimivarastoa. Jos määrän muuttujia käytetään, enimmäisvarasto-käytäntö on rikottavissa. Aikavälin ja enimmäismäärän käyttämistä samanaikaisesti ei suositella. Aikaväli korvataan tavallisesti. Tätä uusintatilaustapaa käytetään yleensä uusintatilauspisteen kanssa.|  
@@ -74,7 +72,7 @@ Seuraavat uudelleenjärjestysohjeet vaikuttavat jälkitilattavaan määrään.
 ##  <a name="optimize-when-and-how-much-to-reorder"></a>Optimoi milloin ja kuinka paljon järjestetään uudelleen  
 Rationaalinen toimitussuunnitelma saadaan, kun suunnittelija hienosäätää suunnitteluparametreja ja näin rajoittaa uudelleenajoituksen ehdotuksia, kokoaa kysynnän (dynaaminen uudelleentilausmäärä) ja välttää merkityksettömät suunnittelutoimenpiteet. Seuraavat jälkitilausjakson kentät auttavat optimoimaan milloin ja kuinka paljon jälkitilataan.  
 
-|Kenttä|Description|  
+|Kenttä|Kuvaus|  
 |---------------------------------|---------------------------------------|  
 |**Uudelleenajoitusjakso**|Tämän kentän avulla määritetään, tuleeko toimenpideviestin ajoittaa olemassa oleva tilaus uudelleen vai peruuttaa se ja luoda uusi tilaus. Olemassa oleva tilaus aikataulutetaan uudelleen yhden uudelleenaikataulutuskauden sisällä ennen tämänhetkistä tarjontaa ja yhteen tämänhetkisen tarjonnan ylittämään uudelleenaikataulutuskauteen.|  
 |**Erän koontijakso**|Kun on uusintatilausmenetelmä on erä-erästä, tätä kenttää käytetään useiden tarjontatarpeiden keräämisessä yhteen toimitustilaukseen. Järjestelmä kokoaa ensimmäisestä suunnitellusta tarjonnasta alkaen kaikki tarjonnan tarpeet seuraavalla erän koontijaksolla yhdeksi tarjonnaksi, joka asetetaan ensimmäisen tarjonnan päivämääränä. Tämä toimitus ei kata kysyntää, joka on erän koontijakson ulkopuolella.|  

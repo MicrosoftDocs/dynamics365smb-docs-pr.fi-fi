@@ -13,14 +13,18 @@ ms.search.keywords: feature overview, functionality
 ms.date: 08/21/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 5a5238c3333551cc00fbb6b81c04309e76013f82
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: 66a8a2124f1bc4775268b95ba100ada19cbc286d
 ms.contentlocale: fi-fi
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="general-business-functionality"></a>Yleiset liiketoimintatoiminnot
-[!INCLUDE[d365fin](includes/d365fin_md.md)] sisältää omat toiminnot tavallisille liiketoiminta-alueille, kuten rahoitus ja myynti. Voit käyttää liiketoiminta-aluekohtaisten tehtävien tukena erilaisia yleisiä liiketoimintatoimintoja, kuten lisätekstin määrittämistä asiakirjariveille ja liittyvien liiketoimintatehtävien järjestämistä työnkuluiksi.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] sisältää omat toiminnot tavallisille liiketoiminta-alueille, kuten rahoitus ja myynti. Lisätietoja on kohdassa [Liiketoiminnan toiminnallisuus](madeira-business-functionality.md).
+
+Voit käyttää liiketoiminta-aluekohtaisten tehtävien tukena erilaisia yleisiä liiketoimintatoimintoja, kuten lisätekstin määrittämistä asiakirjariveille ja liittyvien liiketoimintatehtävien järjestämistä työnkuluiksi.
+
+
 
 Seuraava taulukko sisältää nämä yleiset liiketoiminta-alueet ja linkit niitä kuvaaviin ohjeaiheisiin.
 

@@ -1,6 +1,6 @@
 ---
 title: "Dynamics 365:n hallintatehtävät | Microsoft Docs"
-description: "Joitakin [!INCLUDE[d365fin](includes/d365fin_md.md)]in tehtäviä on hallittava ja ne on määritettävä keskitetysti. Katso lisätietoja näistä tehtävistä ja niiden määrittämisestä."
+description: "Joitakin Dynamics 365:n tehtäviä on hallittava ja määritettävä keskitetysti. Katso lisätietoja näistä tehtävistä ja niiden määrittämisestä."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 09c3460a50088098bfe5c2fb633e76dccbac0794
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: c7e5efe85dddcc7db84b05879f0c71990167c775
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="setup-and-administration-in-dynamics-365-for-financials"></a>Dynamics 365 for Financialsin määrittäminen ja hallinta
@@ -40,7 +40,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 |Uuden liiketoimintayksikön määrittäminen mallien avulla|[Uusien yritysten luominen [!INCLUDE[d365fin](includes/d365fin_md.md)]issa](about-new-company.md)|  
 
 ## <a name="see-also"></a>Katso myös
-[Yritystoimintojen yleiskatsaus](madeira-business-functionality.md)  
+[Liiketoiminnan toiminnallisuus](madeira-business-functionality.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Tervetuloa [!INCLUDE[d365fin](includes/d365fin_md.md)]iin!](index.md)  

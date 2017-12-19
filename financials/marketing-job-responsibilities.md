@@ -13,10 +13,10 @@ ms.search.keywords: task, to-do, relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: fd949573e7bfd1b6ce1fc849625a1a3474013f96
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: f0a4000a3f12a23b1d732ab9671e7cb5938eb887
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-set-up-job-responsibilities-for-contact-persons"></a>Toimintaohje: Kontaktihenkilöiden vastuualueiden määrittäminen
@@ -30,7 +30,7 @@ Vastuualueen koodi määrittää työn tyypin tai luokan. Se voi olla esimerkiks
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Vastuualueet** ja valitse sitten aiheeseen liittyvä linkki.
 2. Valitse **Uusi**-toiminto. Täytä sitten koodi ja kuvaus. Koodi voi olla enintään 11 merkkiä pitkä. Se voi sisältää numeroita ja kirjaimia.
 
-## <a name="to-assign-job-responsibilities-to-a-contact-person"></a>vastuualueiden määrittäminen kontaktihenkilöihin
+## <a name="to-assign-job-responsibilities-to-a-contact-person"></a>Vastuualueiden määrittäminen kontaktihenkilöille
 Et voi liittää vastuualueita kontaktiyrityksiin.
 
 1. Avaa yhteyshenkilö.

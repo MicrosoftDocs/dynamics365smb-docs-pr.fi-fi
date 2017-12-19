@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
-ms.date: 08/16/2017
+ms.date: 11/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 031affc5d872fd989515a2561155353446dfde60
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: e9d08040932be4fec5ddefb5db69e453c375d3c6
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-count-adjust-and-reclassify-inventory"></a>Varaston laskeminen, muuttaminen ja uudelleenluokitus
@@ -26,7 +26,7 @@ Vaikka lasket kaikki varaston nimikkeet vähintään kerran vuodessa, voit pää
 
 Jos kirjattuja varastomääriä pitää muuttaa laskennan yhteydessä tai muita tarkoituksia varten, inventointitapahtumia voi muuttaa suoraan nimikepäiväkirjan avulla liiketoimintatapahtumia kirjaamatta. Vaihtoehtoisesti voit muuttaa yhden nimikkeen nimikekortissa.
 
-Jos sekä nimiketapahtumien määritteitä että määriä pitää muuttaa, voidaan käyttää nimikkeen uudelleenluokituspäiväkirjaa. Tyypillisiä uudelleenluokiteltavia määritteitä ovat sarja- ja eränumerot, vanhentumispäivämäärät ja dimensiot.
+Jos nimiketapahtumien määritteitä on muutettava, voit käyttää nimikkeen uudelleenluokituspäiväkirjaa. Tyypillisiä uudelleenluokiteltavia määritteitä ovat dimensiot ja myyntikampanjan koodit, mutta myös tehdä järjestelmäsiirtoja luokittelemalla varastopaikka- ja sijaintikoodit uudelleen. Sarja- tai eränumeroiden sekä niiden vanhentumispäivämäärien uudelleenluokittelussa on erityisvaiheita. Lisätietoja on kohdassa [Toimintaohje: Sarja- ja eränumeroiden käsitteleminen](inventory-how-work-item-tracking.md).
 
 > [!NOTE]
 > Laajennetussa varastointimäärityksessä nimikkeet rekisteröidään varastopaikoissa nimiketapahtumien sijaan fyysisen varastoinnin tapahtumina. Niinpä laskenta, muutokset ja uudelleenluokittelu tehdään tavarapaikkoja tukevissa erityisissä fyysisen varastoinnin päiväkirjoissa. Voit sitten synkronoida uudet tai muuttuneet fyysisen varastoinnin tapahtumat erityistoiminnoilla tapahtumiin liittyviin nimeketapahtumiin siten, että vastaavat varaston määrissä ja arvoissa tapahtuneita muutoksia. Tätä käsitellään tarvittaessa jäljempänä olevissa toimenpidekuvauksissa.
@@ -209,13 +209,19 @@ Fyysisen varastoinnin muutosvarastopaikan tietueet tulee kirjata yrityksen menet
 6.  Lisää määräerot nimiketapahtumiin kirjaamalla päiväkirjarivit. Fyysisen varastoinnin varastopaikkojen varasto vastaa nyt tarkasti nimiketapahtumien varastoa.  
 
 ## <a name="to-reclassify-an-items-lot-number"></a>Nimikkeen eränumeron uudelleenluokittelu
+Jos nimiketapahtumien määritteitä on muutettava, voit käyttää nimikkeen uudelleenluokituspäiväkirjaa. Tyypillisiä uudelleenluokiteltavia määritteitä ovat dimensiot ja myyntikampanjan koodit, mutta myös tehdä järjestelmäsiirtoja luokittelemalla varastopaikka- ja sijaintikoodit uudelleen.
+
+Sarja- tai eränumeroiden sekä niiden vanhentumispäivämäärien uudelleenluokittelussa on erityisvaiheita. Lisätietoja on kohdassa [Toimintaohje: Sarja- ja eränumeroiden käsitteleminen](inventory-how-work-item-tracking.md).
+
+Seuraava esimerkki perustuu sijaintikoodiin. Ohjeet ovat vastaavanlaiset myös muiden nimikkeen määritetyyppien kohdalla.
+
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Nimikkeen uudell.luokit. pvk:t** ja valitse sitten aiheeseen liittyvä linkki.
 2. Täytä **Nimik. uud.luok.pvk** -ikkunassa tarvittavat kentät.
-3. Anna valittuna olevan erän numero **Eränro**-kentässä.
-4. Anna uuden erän numero **Uusi eränro**-kentässä.
+3. Anna **Sijaintikoodi**-kentässä nimikkeen nykyinen sijaintikoodi.
+4. Anna **Uusi sijaintikoodi** -kentässä nimikkeen uusi sijaintikoodi.
 5. Valitse **Kirjaa**-toiminto.
 
-Sarja- tai eränumeroiden uudelleenluokitteluun liittyy erityisiä vaiheita. Lisätietoja on kohdassa [Toimintaohje: Sarja- ja eränumeroiden käsitteleminen](inventory-how-work-item-tracking.md).
+Lisätietoja nimikkeiden siirtämisestä siten, että toimitus- ja vastaanottomäärien hallinta säilyy, on kohdassa [Toimintaohje: Varastonimikkeiden siirtäminen sijaintien välillä](inventory-how-transfer-between-locations.md).
 
 ## <a name="see-also"></a>Katso myös
 [Varasto](inventory-manage-inventory.md)

@@ -1,8 +1,6 @@
 ---
 title: "Rakennetiedot – Fyysisen varastoinnin asetukset | Microsoft Docs"
-description: "[!INCLUDE[d365fin](includes/d365fin_md.md)]in fyysisen varastoinnin toiminnolla on erilaisia monimutkaisuustasoja, jotka perustuvat valittavissa olevien yksiköiden käyttöoikeuksiin. Varastoratkaisun monimutkaisuuden taso määritellään laajasti binin asetusten mukaisesti sijaintikorteissa, joka vuorostaan on lisenssikontrolloitu niin, että binin määrityskenttien käyttö määritellään lisenssissä."
-services: project-madeira
-documentationcenter: 
+description: "Dynamics 365:n fyysisen varastoinnin toiminnolla on erilaisia monimutkaisuustasoja, jotka perustuvat valittavissa olevien yksiköiden käyttöoikeuksiin. Varastoratkaisun monimutkaisuuden taso määritellään laajasti binin asetusten mukaisesti sijaintikorteissa, joka vuorostaan on lisenssikontrolloitu niin, että binin määrityskenttien käyttö määritellään lisenssissä."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 3c6d60ad75a8bf4f758a5e2fbc0ffa10b8929899
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: cf6a2fbbe92b47c4ac58d16abacaaefbe33309b1
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-warehouse-setup"></a>Rakennetiedot: f. varaston asetus
@@ -39,7 +37,7 @@ Lisätietoja kustakin yksiköstä on kohdassa [[!INCLUDE[d365fin](includes/d365f
 
 Seuraavassa taulukossa käsitellään mitä yksiköitä vaaditaan määrittämään eri fyysisen varastoinnin monimutkaisuustasot, mitkä käyttöliittymäasiakirjat tukevat kutakin tasoa ja mitkä sijaintikoodit heijastavat näitä tasoja [!INCLUDE[d365fin](includes/d365fin_md.md)]in esittelytietokannassa.  
 
-|Monimutkaisuustaso|Description|Käyttöliittymäasiakirja|CRONUS-sijainti|Yksikön vähimmäisvaatimus|  
+|Monimutkaisuustaso|Kuvaus|Käyttöliittymäasiakirja|CRONUS-sijainti|Yksikön vähimmäisvaatimus|  
 |----------------------|---------------------------------------|-----------------|---------------------------------|---------------------------------|  
 |1|Ei määritettyä fyysisen varaston toimintaa.<br /><br /> Vastaanotto-/toimituskirjaus tilauksista.|Tilaus|SININEN|Perusvarasto|  
 |2|Ei määritettyä fyysisen varaston toimintaa.<br /><br /> Vastaanotto-/toimituskirjaus tilauksista.<br /><br /> Lokerokoodi vaaditaan.|Tilaus varastopaikkakoodilla|HOPEINEN|Perusvarasto/lokero|  
@@ -69,7 +67,7 @@ Sijainnin nimikkeellä voi olla vain yksi varastopaikka.
 ## <a name="bin-type"></a>Varastopaikan tyyppi  
 WMS-asennuksissa voit rajoittaa varastopaikalle sallittuja varastotoimintoja määrittämällä sille varastotyypin. Käytössä on seuraavat lokerotyypit:  
 
-|Varastopaikan tyyppi|Description|  
+|Varastopaikan tyyppi|Kuvaus|  
 |------------------|---------------------------------------|  
 |VAST.OTTO|Nimikkeet, jotka on kirjattu vastaanotetuiksi mutta niitä ei ole vielä hyllytetty.|  
 |TOIM|Nimikkeet, jotka on poimittu fyysisen varastoinnin toimitusriveille, mutta joita ei ole vielä kirjattu toimitetuiksi.|  

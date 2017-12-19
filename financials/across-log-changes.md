@@ -12,13 +12,13 @@ ms.search.keywords: user log, user activity, tracking
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: b64a17e69e5112ec0ff822bbacc8ec2772a21231
+ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
+ms.openlocfilehash: 9f3db97203e09608ea0776f5571d6179778283b6
 ms.contentlocale: fi-fi
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 12/14/2017
 
 ---
-# <a name="logging-changes-in-dynamics-365-business-edition"></a>Muutosten kirjaaminen lokiin Dynamics 365 Business editionissa 
+# <a name="logging-changes-in-dynamics-365-business-edition"></a>Muutosten kirjaaminen lokiin Dynamics 365, Business editionissa 
 Voit ottaa muutoslokin käyttöön [!INCLUDE[d365fin](includes/d365fin_md.md)]issa, joten saat käyttöösi toimintojen historian. Loki perustuu seuraamiesi taulukoiden tietoihin tehtyihin muutoksiin. Muutoslokissa tapahtumat järjestetään aikajärjestykseen. Se näyttää muutokset, jotka tehdään määritettyjen taulukoiden kenttiin. Muutosloki kerää kaikki taulukkoon tehdyt muutokset.  
 
 ## <a name="working-with-the-change-log"></a>Muutoslokin käyttäminen

@@ -13,10 +13,10 @@ ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 06/28/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 203449e8a7f032dbcb7b3d014c3198e0a2e7847a
+ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
+ms.openlocfilehash: f5f0640c84a382a62512116f2f3c7c57c7793243
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="finance"></a>Rahoitus
@@ -37,7 +37,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 |Varaston ja tuotannon kustannusten hallinta, kustannusten raportointi ja kustannusten täsmäyttäminen pääkirjanpitoon.|[Varaston kustannusten hallinta](finance-manage-inventory-costs.md)|
 | Tietoja pääkirjanpidosta ja tilikartasta. |[Pääkirjanpito ja aitoustodistus](finance-general-ledger.md) |
 | Lisää dimensioita, kun haluat saada käyttöön monipuolisempia liiketoimintatietoja. |[Dimensioiden käyttäminen](finance-dimensions.md) |
-| Budjettien luominen ennustamaan erilaisia taloudellisia toimintoja ja dimensioiden määrittäminen liiketoimintatietoja varten. |[Uusien budjettien luominen](finance-how-create-budgets.md) |
+| Luo KP-budjetteja ennustamaan erilaisia taloudellisia toimintoja ja määritä dimensioita liiketoimintatietoja varten. |[Toimintaohje: Uusien KP-budjettien luominen](finance-how-create-budgets.md) |
 |Kirjaa tuotot tai kulut suoraan pääkirjanpitoon kirjaamatta erityisiä liiketoiminnan asiakirjoja.|[Toimintaohje: Tapahtumien kirjaaminen suoraan pääkirjanpitoon](finance-how-post-transactions-directly.md)|
 |Kirjaa käänteiskirjaukset ja kumoa niillä kirjanpidon arvokirjaukset tai osto- ja myyntiasiakirjojen määräkirjaukset. |[Toimintaohje: Kirjausten peruuttaminen](finance-how-reverse-journal-posting.md)|
 |Voit kohdistaa tapahtuman useisiin yleisen päiväkirjan tileihin päiväkirjan kirjaamisen yhteydessä. |[Toimintaohje: Kustannusten ja tulojen kohdistaminen](year-allocate-costs-income.md) |

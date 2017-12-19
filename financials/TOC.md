@@ -24,6 +24,7 @@
 ## [Dynamics 365 saa ehdottaa arvoja](ui-let-system-suggest-values.md)
 ## [Raportin tulostaminen](ui-work-report.md#PrintReport)
 ## [Yleisiä tehtäviä käsitteleviä videoita](across-videos.md)
+## [Helppokäyttötoiminnot ja pikanäppäimet](ui-accessibility.md)
 ## [Kieli ja kielialue](about-locale-language.md)  
 ## [Asiakirjojen kielet](about-languages.md)
 
@@ -173,7 +174,7 @@
 ### [Ulkoisen kirjanpitäjän kutsuminen Dynamics 365:een](finance-invite-external-accountant.md)  
 ## [Pääkirjanpito ja aitoustodistus](finance-general-ledger.md)
 ## [Dimensioiden käyttäminen](finance-dimensions.md)
-## [Uusien budjettien luominen](finance-how-create-budgets.md)
+## [Toimintaohje: Uusien KP-budjettien luominen](finance-how-create-budgets.md)
 ## [Toimintaohje: Tapahtumien kirjaaminen suoraan pääkirjanpitoon](finance-how-post-transactions-directly.md)
 ## [Toimintaohje: Kirjausten peruuttaminen](finance-how-reverse-journal-posting.md)
 ## [Toimintaohje: Kustannusten ja tulojen kohdistaminen](year-allocate-costs-income.md)

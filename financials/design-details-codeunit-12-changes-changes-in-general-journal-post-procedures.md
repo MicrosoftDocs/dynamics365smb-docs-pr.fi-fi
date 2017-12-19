@@ -1,8 +1,6 @@
 ---
 title: "Rakennetiedot – Koodiyksikön 12 muutokset: Päiväkirjakirjausten menettelytapojen muutokset | Microsoft Docs"
-description: "Seuraavat muutokset on toteutettu tässä [!INCLUDE[d365fin](includes/d365fin_md.md)] -versiossa."
-services: project-madeira
-documentationcenter: 
+description: "Seuraavat muutokset on toteutettu Dynamics 365:n tässä versiossa."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 165011b27432bb12760b325f7f69c9a041e0f5ef
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: a320e0acbe75c98db525c0dc94edd8c39253d97c
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="codeunit-12-changes-changes-in-general-journal-post-procedures"></a>Koodiyksikön 12 muutokset: Päiväkirjakirjausten menettelytapojen muutokset

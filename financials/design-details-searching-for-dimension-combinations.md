@@ -1,8 +1,6 @@
 ---
 title: "Rakennetiedot – Dimensioyhdistelmien etsiminen | Microsoft Docs"
-description: "Kun suljet ikkunan dimensioyhdistelmän muokkaamisen jälkeen, [!INCLUDE[d365fin](includes/d365fin_md.md)] arvioi, onko muokattu dimensiojoukko olemassa. Jos yhdistelmää ei ole olemassa, järjestelmän luo uuden ja palauttaa dimensioyhdistelmän tunnuksen."
-services: project-madeira
-documentationcenter: 
+description: "Kun suljet ikkunan dimensioyhdistelmän muokkaamisen jälkeen, Dynamics 365 arvioi, onko muokattu dimensiojoukko olemassa. Jos yhdistelmää ei ole olemassa, järjestelmän luo uuden ja palauttaa dimensioyhdistelmän tunnuksen."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9e36a8a1a5eeede5023da32bcb40a06042173fb4
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: 64e5191fd2947a8e19595d8c9f1ece4eeff77ec0
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-searching-for-dimension-combinations"></a>Rakennetiedot: dimensioyhdistelmien etsiminen
@@ -75,7 +73,7 @@ EXIT(DimSet.ID);
 ```  
 
 ## <a name="see-also"></a>Katso myös  
- [GET-funktio (tietue)](https://msdn.microsoft.com/en-us/library/dd301056.aspx)    
+ [GET-funktio (tietue)](/dynamics-nav/GET-Function--Record-)    
  [Rakennetiedot: Dimensioyhdistelmätapahtumat](design-details-dimension-set-entries.md)   
  [Dimensioyhdistelmätapahtumien yleiskuva](design-details-dimension-set-entries-overview.md)   
  [Rakennetiedot: taulukkorakenne](design-details-table-structure.md)   
