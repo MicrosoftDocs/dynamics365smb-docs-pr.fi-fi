@@ -1,6 +1,6 @@
 ---
 title: Nimikkeiden kokoaminen | Microsoft Docs
-description: "Jos nimikkeen kortin **Täydennysjärjestelmä**-kenttä sisältää **kokoonpanon**, nimikkeen toimituksen oletustapa on koota nimike määritetyistä komponenteista ja kokoajana on mahdollisesti määritetty resurssi."
+description: "Jos nimikkeen kortin **Täydennysjärjestelmä**-kenttä sisältää **kokoonpanon**, nimikkeen toimituksen oletustapa on koota nimike määritetyistä komponenteista ja mahdollisesti määritetyn resurssin toimesta."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,16 +13,16 @@ ms.search.keywords:
 ms.date: 08/15/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e1f2cc5bd276fbd5fe1417df56f57dd8454e18e2
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 8ac1f46c7b7f3035c2cfc711671d659a18871bda
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-assemble-items"></a>Nimikkeiden kokoaminen
+# <a name="assemble-items"></a>Kokoa nimikkeet
 Jos nimikkeen kortin **Täydennysjärjestelmä**-kenttä sisältää **kokoonpanon**, nimikkeen toimituksen oletustapa on koota nimike määritetyistä komponenteista ja mahdollisesti määritetyn resurssin toimesta.  
 
-Tämänkaltaiseen kokoonpanon nimikkeeseen kuuluvat osat ja resurssit tulee määritellä kokoonpanon tuoterakenteessa. Lisätietoja on kohdassa [Toimintaohje: Tuoterakenteen käyttäminen](inventory-how-work-BOMs.md).  
+Tämänkaltaiseen kokoonpanon nimikkeeseen kuuluvat osat ja resurssit tulee määritellä kokoonpanon tuoterakenteessa. Lisätietoja on kohdassa [Tuoterakenteen käyttäminen](inventory-how-work-BOMs.md).  
 
 Kokoonpanon nimikkeitä voidaan määrittää kahdelle eri kokoonpanoprosessille:  
 
@@ -35,10 +35,10 @@ Käytät yleensä **Kokoonpano tilausta varten** nimikkeille, joita et halua var
 
 Lisätietoja kokoonpanon nimikkeen määrittämisestä on kohdassa [Tietoja Kokoonpano tilausta varten- ja Kokoonpano varastoon -toiminnoista](assembly-assemble-to-order-or-assemble-to-stock.md).  
 
-Nämä asetukset ovat oletusasetuksia, jotka hallitsevat sitä, miten myynnin ja kokoonpanontilauksen rivejä aluksi käsitellään. Voit poiketa näistä oletuksista ja toimittaa kokoonpanon nimikkeen kaikkein parhaalla tavalla myyntejä käsiteltäessä. Lisätietoja on kohdissa [Toimintaohje: Varastonimikkeiden myyminen kokoonpano tilausta varten -virroissa](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md) ja [Toimintaohje: Kokoonpano tilausta varten -nimikkeiden ja varastonimikkeiden myyminen yhdessä](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md).
+Nämä asetukset ovat oletusasetuksia, jotka hallitsevat sitä, miten myynnin ja kokoonpanontilauksen rivejä aluksi käsitellään. Voit poiketa näistä oletuksista ja toimittaa kokoonpanon nimikkeen kaikkein parhaalla tavalla myyntejä käsiteltäessä. Lisätietoja on kohdissa [Varastonimikkeiden myyminen kokoonpano tilausta varten -virroissa](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md) ja [Kokoonpano tilausta varten -nimikkeiden ja varastonimikkeiden myyminen yhdessä](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md).
 
 > [!NOTE]  
-> Kokoonpanon komponentit käsitellään tietyllä tavalla fyysisen varastoinnin perusmäärityksissä. Lisätietoja on ohjeaiheen [Toimintaohje: Nimikkeiden poiminta varastopoiminnalla](warehouse-how-to-pick-items-with-inventory-picks.md) kohdassa Kokoonpano tilausta varten -nimikkeiden käsitteleminen varaston poiminnoissa.   
+> Kokoonpanon komponentit käsitellään tietyllä tavalla fyysisen varastoinnin perusmäärityksissä. Lisätietoja on ohjeaiheen [Nimikkeiden poiminta varaston poiminnoissa](warehouse-how-to-pick-items-with-inventory-picks.md) kohdassa Kokoonpano tilausta varten -nimikkeiden käsitteleminen varaston poiminnoissa.   
 
 Tässä toimenpiteessä luot kokoonpanotilauksen varastoon (eli ilman myyntitilausta) koottavia nimikkeitä varten ja käsittelet tilausta. Vaiheita ovat kokoonpanotilauksen käynnistäminen, mahdollisten osien saatavuusongelmien käsitteleminen ja osittainen kokoonpanon nimikkeen tuotoksen kirjaaminen.
 
@@ -50,7 +50,7 @@ Tässä toimenpiteessä luot kokoonpanotilauksen varastoon (eli ilman myyntitila
 5.  Määritä **Määrä**-kentässä, miten monta nimikkeen yksikköä haluat koottavan.  
 
     > [!NOTE]  
-    >  Jos vähintään yksi komponentti ei ole saatavana syötetyn kokoonpanon nimikkeen määrän täyttämiseksi määritettynä eräpäivänä, **Kokoonpanon saatavuus** -ikkuna avautuu automaattisesti ja näyttää niiden kokoonpanon nimikkeiden yksityiskohtaiset tiedot, jotka ovat käytettävissä kokoonpanoa varten komponentin saatavuuden perusteella. Lisätietoja on kohdassa [Toimintaohje: Nimikkeiden saatavuuden tarkasteleminen](inventory-how-availability-overview.md).  Kun suljet ikkunan, kokoonpanotilaus luodaan liittyvien komponenttirivien saatavuushälytyksillä.  
+    >  Jos vähintään yksi komponentti ei ole saatavana syötetyn kokoonpanon nimikkeen määrän täyttämiseksi määritettynä eräpäivänä, **Kokoonpanon saatavuus** -ikkuna avautuu automaattisesti ja näyttää niiden kokoonpanon nimikkeiden yksityiskohtaiset tiedot, jotka ovat käytettävissä kokoonpanoa varten komponentin saatavuuden perusteella. Lisätietoja on kohdassa [Nimikkeiden saatavuuden tarkasteleminen](inventory-how-availability-overview.md).  Kun suljet ikkunan, kokoonpanotilaus luodaan liittyvien komponenttirivien saatavuushälytyksillä.  
 
     Kokoonpanotilauksen riveille täytetään automaattisesti kokoonpanon tuoterakenteen sisältö, sekä rivien määrät kokoonpanotilauksen otsikon mukaisesti.  
 
@@ -71,7 +71,7 @@ Kun kirjaus on onnistunut, kokoonpanon nimike kirjatataan sijaintikoodiin ja mah
 
 ## <a name="see-also"></a>Katso myös
 [Kokoonpanon hallinta](assembly-assemble-items.md)  
-[Toimintaohje: Tuoterakenteen käyttäminen](inventory-how-work-BOMs.md)  
+[Tuoterakenteen käyttäminen](inventory-how-work-BOMs.md)  
 [Vaihto-omaisuus](inventory-manage-inventory.md)  
 [Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)

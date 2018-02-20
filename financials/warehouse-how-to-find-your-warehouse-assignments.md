@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c85fa0d5ede1624a650a85d8340112f9ccbef1c4
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d84010d0d707ad96970ff9fc24077cb12ad9f9df
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-find-your-warehouse-assignments"></a>Fyysisen varaston varausten etsiminen
-Etsi fyysisen varaston varaukset avaamalla valitun nimikkeen kortin ikkuna. Jos fyysisen varastoinnin ohjeita on luotu, Ota- ja Aseta-rivit ovat näkyvillä ja voit alkaa käsitellä tehtävää. Joissakin fyysisissä varastoissa esimies on voinut määrittää erityisohjeita kullekin työntekijälle. Lisätietoja on kohdassa [Toimintaohje: Varastotyöntekijöiden määrittäminen](warehouse-how-to-set-up-warehouse-employees.md).
+# <a name="find-your-warehouse-assignments"></a>Fyysisen varaston varausten etsiminen
+Etsi fyysisen varaston varaukset avaamalla valitun nimikkeen kortin ikkuna. Jos fyysisen varastoinnin ohjeita on luotu, Ota- ja Aseta-rivit ovat näkyvillä ja voit alkaa käsitellä tehtävää. Joissakin varastoissa esimies on voinut määrittää erityisiä ohjeita kullekin työntekijälle. Lisätietoja on kohdassa [Varastotyöntekijöiden määrittäminen](warehouse-how-to-set-up-warehouse-employees.md).
 
 ## <a name="to-find-an-instruction-assigned-to-you"></a>Sinulle määritellyn ohjeen etsiminen  
 1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Fyysisen varaston hyllytykset**, **Fyysisen varaston poiminnat** tai **F. var. siirto** ja valitse sitten aiheeseen liittyvä linkki.

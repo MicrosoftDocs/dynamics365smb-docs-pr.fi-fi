@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 12/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: 6beb70ad41fa32043e9b8afea67d390929533007
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 75571a006ab267cfef268e0ff6b62ffd0ffb936b
 ms.contentlocale: fi-fi
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-workflows"></a>Työnkulkujen määrittäminen
@@ -32,15 +32,15 @@ Voit määrittää ja käyttää työnkulkuja, jotka yhdistävät eri käyttäji
 
 |**Tehtävä**|**Katso**|  
 |------------|-------------|  
-|Työnkulun käyttäjien ja käyttäjäryhmien määrittäminen.|[Toimintaohje: Työnkulun käyttäjien määrittäminen](across-how-to-set-up-workflow-users.md)|  
-|Määritä työnkulun käyttäjät, jotka osallistuvat hyväksynnän työnkulkuihin.|[Toimintaohje: Hyväksynnän käyttäjien määrittäminen](across-how-to-set-up-approval-users.md)|  
+|Työnkulun käyttäjien ja käyttäjäryhmien määrittäminen.|[Työnkulun käyttäjien määrittäminen](across-how-to-set-up-workflow-users.md)|  
+|Määritä työnkulun käyttäjät, jotka osallistuvat hyväksynnän työnkulkuihin.|[Hyväksynnän käyttäjien määrittäminen](across-how-to-set-up-approval-users.md)|  
 |Määritä, miten työnkulun käyttäjät saavat ilmoituksia työnkulun osavaiheista, mukaan lukien hyväksyntäpyynnöistä.|[Työnkulkuilmoitusten määrittäminen](across-setting-up-workflow-notifications.md)|  
-|Määritä, milloin käyttäjät saavat ilmoituksia ja ovatko ilmoitukset koottuja tietyltä aikaväliltä ilmoitusten määrän vähentämiseksi.|[Toimintaohje: Määritä, milloin ja miten käyttäjät saavat ilmoituksia](across-how-to-specify-when-and-how-to-receive-notifications.md)|  
-|Määritä uusien työnkulun sähköposti-ilmoitusten asettelu ja yleinen sisältö tai vie, muokkaa ja tuo takaisin olemassa olevia malleja.|[Toimintaohje: Ilmoitusmallien hallinta](across-how-to-manage-notification-templates.md)|  
-|[!INCLUDE[d365fin](includes/d365fin_md.md)]in sähköpostiviestinnän mahdollistavan SMTP-palvelimen määrittäminen|[Toimintaohje: Sähköpostin määrittäminen](madeira-how-setup-email.md)|
-|Määritä työnkulun eri vaiheet yhdistämällä työnkulun tapahtumat työnkulun vastauksiin.|[Toimintaohje: Työnkulkujen luominen](across-how-to-create-workflows.md)|  
-|Käytä työnkulkumalleja luomaan uusia työnkulkumalleja.|[Ohje: Työnkulkujen luominen työnkulkumalleista](across-how-to-create-workflows-from-workflow-templates.md)|  
-|Jaa työnkulkuja muiden [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietokantojen kanssa.|[Toimintaohje: työnkulkujen vienti ja tuonti](across-how-to-export-and-import-workflows.md)|  
+|Määritä, milloin käyttäjät saavat ilmoituksia ja ovatko ilmoitukset koottuja tietyltä aikaväliltä ilmoitusten määrän vähentämiseksi.|[Ilmoitusten vastaanoton ajankohdan ja tavan määrittäminen](across-how-to-specify-when-and-how-to-receive-notifications.md)|  
+|Määritä uusien työnkulun sähköposti-ilmoitusten asettelu ja yleinen sisältö tai vie, muokkaa ja tuo takaisin olemassa olevia malleja.|[Ilmoitusmallien hallinta](across-how-to-manage-notification-templates.md)|  
+|in sähköpostiviestinnän mahdollistavan SMTP-palvelimen määrittäminen [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Sähköpostin määrittäminen](madeira-how-setup-email.md)|
+|Määritä työnkulun eri vaiheet yhdistämällä työnkulun tapahtumat työnkulun vastauksiin.|[Työnkulkujen luominen](across-how-to-create-workflows.md)|  
+|Käytä työnkulkumalleja luomaan uusia työnkulkumalleja.|[Työnkulkujen luominen työnkulkumalleista](across-how-to-create-workflows-from-workflow-templates.md)|  
+|Jaa työnkulkuja muiden [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietokantojen kanssa.|[Työnkulkujen vienti ja tuonti](across-how-to-export-and-import-workflows.md)|  
 |Opi määrittämään myyntiasiakirjojen työnkulkujen hyväksyntäpyyntöjä päästä päähän -menetelmällä.|[Vaihekuvaus: Ostojen hyväksyntä -työnkulun määrittäminen ja käyttäminen](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
 |Lisää tuki business skenaariolle, joka vaatii uuden työnkulun tapahtumat tai vastaukset, mukauttamalla sovelluksen koodi.|[Vaihekuvaus: Uusien työnkulun tapahtumien ja vastausten määrittäminen](/dynamics_nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses)|  
 

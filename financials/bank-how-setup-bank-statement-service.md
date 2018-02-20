@@ -13,13 +13,13 @@ ms.search.keywords: Yodlee, feed, stream, payment process
 ms.date: 09/14/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
-ms.openlocfilehash: 5f4b675db86bc6fef19a587454e1e513fe6fa83d
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: fa5c0c39dbbce40b59d639f810522c66da1a09ab
 ms.contentlocale: fi-fi
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-the-envestnet-yodlee-bank-feeds-service"></a>Toimintaohje: Envestnet Yodlee -pankkisyötepalvelun määrittäminen
+# <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Envestnet Yodlee -pankkisyötepalvelun määrittäminen
 Voit tuoda pankistasi sähköisiä tiliotteita ja täyttää nopeasti **Maksujen täsmäytyskirjauskansio** -ikkunan maksujen kohdistamiseksi ja pankkitilin täsmäyttämiseksi. Lisätietoja on kohdassa [Maksujen kohdistaminen automaattisesti ja pankkitilien täsmäyttäminen](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 Envestnet Yodlee -pankkisyötepalvelu on asennettu [!INCLUDE[d365fin](includes/d365fin_md.md)]iin laajennuksena. Se on valmis käyttöönottoa varten. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md).
@@ -63,7 +63,7 @@ Pankkisyötepalvelu otetaan käyttöön, kun linkität pankkitilin siihen liitty
     Kun käsittely on tehty, pankin nimi näkyy **Linkitetty**-välilehden **Omat tilit** -ruudussa. Sulkeissa oleva luku osoittaa linkitettyjen verkkopankkien määrän.  
 7. Valitse **OK**-painike.
 
-    Jos linkität vain yhden verkkopankkitilin **Pankkitilin kortti** -ikkuna avautuu ja verkkopankkitilin nimi näkyy, Nyt pankkitilin linkitystehtävä on valmis. Jäljellä on enää pankkitilin määrittäminen. Lisätietoja on kohdassa [Toimintaohje: Pankkitilien määrittäminen](bank-how-setup-bank-accounts.md).
+    Jos linkität vain yhden verkkopankkitilin **Pankkitilin kortti** -ikkuna avautuu ja verkkopankkitilin nimi näkyy, Nyt pankkitilin linkitystehtävä on valmis. Jäljellä on enää pankkitilin määrittäminen. Lisätietoja on kohdassa [Pankkitilien määrittäminen](bank-how-setup-bank-accounts.md).
 
     Jos linkität useita verkkopankkitilejä, **Pankkitilin linkitys** -ikkuna avautuu. Tässä ikkunassa on luettelo verkkopankkitileistä, joita ei ole vielä linkitetty [!INCLUDE[d365fin](includes/d365fin_md.md)]in pankkitileihin. Noudata tällaisessa tapauksessa seuraavaa vaihetta.  
 8. Valitse **Pankkitilin linkitys** -ikkunassa verkkopankkitilin rivi ja valitse sitten **Linkitä uuteen pankkitiliin** -toiminto.  

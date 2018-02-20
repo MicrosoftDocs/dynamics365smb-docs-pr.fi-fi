@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 936c6a429f2b8c60499d7b2b5f1f8fba800a4e8b
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-transfers-in-planning"></a>Rakennetiedot: siirrot suunnittelussa
@@ -139,7 +139,7 @@ Oletusarvoista varmuusläpimenoaikaa tuotantoasetukset - ikkunassa sekä liittyv
   
 ![](media/nav_app_supply_planning_7_transfers14.png "NAV_APP_supply_planning_7_transfers14")  
   
-Tuotantotilausrivillä, Lopetuspvm + Toimitusajan varmistus + Saapuva f.var. käsittelyaika = Eräpäivä.  
+Tuotantoitilausrivillä Lopetuspvm + Toimitusajan varmistus + Saapuvan f.var. käsittelyaika = Eräpäivä.  
   
 Ostotilausrivillä Suunniteltu vast.otto pvm + Toimitusajan varmistus + Saapuvan f.var. käsittelyaika = Oletettu vast.otto pvm.  
   

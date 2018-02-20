@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 222056cc8b505d0ed027492d764ff4cde7f68795
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 351c079df25516a83de42d5fa12954b25ba5e63e
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-workflow-notifications"></a>Työnkulkuilmoitusten määrittäminen
@@ -30,19 +30,19 @@ Monet työnkulun vastaukset ilmoittavat käyttäjälle toimia edellyttävistä t
 
 Työnkulun ilmoitusten osatekijöitä määritetään seuraavissa paikoissa:  
 
-1.  Hyväksynnän työnkulkujen ilmoitusten vastaanottajat määritetään täyttämällä rivi **Hyväksynnän käyttäjäasetukset** -ikkunassa kullekin työnkulkuun osallistuvalle käyttäjälle. Jos esimerkiksi käyttäjä 2 on määritetty **Hyväksyjän tunnus** -kentän Käyttäjä 1 -rivillä, hyväksyntäpyyntöilmoitus lähetetään käyttäjälle 1. Lisätietoja on kohdassa [Toimintaohje: Hyväksynnän käyttäjien määrittäminen](across-how-to-set-up-approval-users.md).  
-2.  Täyttämällä **Ilmoitusaikataulu**-ikkuna kullekin työnkulun käyttäjälle määritetään se, milloin ja miten käyttäjät saavat työnkulun ilmoituksia. Lisätietoja on ohjeaiheessa [Toimintaohje: Määritä, milloin ja miten käyttäjät saavat ilmoituksia](across-how-to-specify-when-and-how-to-receive-notifications.md).  
+1.  Hyväksynnän työnkulkujen ilmoitusten vastaanottajat määritetään täyttämällä rivi **Hyväksynnän käyttäjäasetukset** -ikkunassa kullekin työnkulkuun osallistuvalle käyttäjälle. Jos esimerkiksi käyttäjä 2 on määritetty **Hyväksyjän tunnus** -kentän Käyttäjä 1 -rivillä, hyväksyntäpyyntöilmoitus lähetetään käyttäjälle 1. Lisätietoja on kohdassa [Hyväksynnän käyttäjien määrittäminen](across-how-to-set-up-approval-users.md).  
+2.  Täyttämällä **Ilmoitusaikataulu**-ikkuna kullekin työnkulun käyttäjälle määritetään se, milloin ja miten käyttäjät saavat työnkulun ilmoituksia. Lisätietoja on kohdassa [Ilmoitusten vastaanoton ajankohdan ja tavan määrittäminen](across-how-to-specify-when-and-how-to-receive-notifications.md).  
 3.  Ilmoitusten yleinen sisältö ja asettelu määritetään **Ilmoitusmallit**-ikkunassa määrittämällä ilmoitusmallit (koskee myös ilmoituksia myöhässä olevista työnkulun vastauksista). Voit käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]in oletusmalleja.  
 4.  Työnkulun ilmoituksen erityinen sisältö ja säännöt määritetään silloin, kun luot kyseistä työnkulkua. Se tehdään valitsemalla **Työnkulun vastausvaihtoehdot** -ikkunassa asetuksia ilmoitusta edustavalle työnkulun vastaukselle. Lisätietoja on kohdan [Työnkulkujen luominen](across-how-to-create-workflows.md) vaiheessa 9.  
 
 ## <a name="see-also"></a>Katso myös  
- [Toimintaohje: Hyväksyjäkäyttäjien määrittäminen](across-how-to-set-up-approval-users.md)   
- [Toimintaohje: Työnkulun käyttäjien määrittäminen](across-how-to-set-up-workflow-users.md)   
- [Toimintaohje: Määritä, milloin ja miten käyttäjät saavat ilmoituksia](across-how-to-specify-when-and-how-to-receive-notifications.md)   
- [Toimintaohje: Työnkulkujen luominen](across-how-to-create-workflows.md)   
- [Toimintaohje: Ilmoitusmallien hallinta](across-how-to-manage-notification-templates.md)   
+ [Hyväksynnän käyttäjien määrittäminen](across-how-to-set-up-approval-users.md)   
+ [Työnkulun käyttäjien määrittäminen](across-how-to-set-up-workflow-users.md)   
+ [Ilmoitusten vastaanoton ajankohdan ja tavan määrittäminen](across-how-to-specify-when-and-how-to-receive-notifications.md)   
+ [Työnkulkujen luominen](across-how-to-create-workflows.md)   
+ [Ilmoitusmallien hallinta](across-how-to-manage-notification-templates.md)   
  [Tehtävien aikatauluttaminen työjonojen avulla](admin-job-queues-schedule-tasks.md)   
- [Toimintaohje: Sähköpostin määrittäminen](madeira-how-setup-email.md)   
+ [Sähköpostin määrittäminen](madeira-how-setup-email.md)   
  [Vaihekuvaus: Ostojen hyväksyntätyönkulun määrittäminen ja käyttäminen](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
  [Työnkulku](across-workflow.md)   
 

@@ -1,6 +1,6 @@
 ---
 title: Jaksojen sulkemisen valinnaiset toiminnot | Microsoft Docs
-description: "Tässä ohjeaiheessa kerrotaan Dynamics 365:n kirjanpitojaksojen sulkemisen valinnaisista prosesseista ja toiminnoista."
+description: "Tässä ohjeaiheessa kerrotaan Finance and Operations, Business editionin kirjanpitojaksojen sulkemisen valinnaisista prosesseista ja toiminnoista."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,19 +13,19 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ag
 ms.date: 06/19/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 526ae1811768f38b04f961e378454fed79a8426b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 344e294083813d41b415ad07e6e8acdd3fe5047b
 ms.contentlocale: fi-fi
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="overview-of-tasks-to-close-accounting-periods"></a>Kirjanpitojaksojen sulkemistehtävien yleiskatsaus
-[!INCLUDE[d365fin](includes/d365fin_md.md)] ei pakota päättämään kausia, joskin on monia kauden lopussa (kuukauden lopussa) aktiviteetteja, jotka voit tehdä. Tässä ohjeaiheessa on yleiskatsaus kausien päättämiseen liittyvistä valinnaisista prosesseista ja aktiviteeteista.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  ei pakota päättämään kausia, joskin on monia kauden lopussa (kuukauden lopussa) aktiviteetteja, jotka voit tehdä. Tässä ohjeaiheessa on yleiskatsaus kausien päättämiseen liittyvistä valinnaisista prosesseista ja aktiviteeteista.  
 
 ## <a name="general-ledger"></a>Pääkirjanpito
 * Määritä järjestelmänlaajuiset ja käyttäjäkohtaiset kirjausjaksot.  
 
-    Tässä määritetään kirjausten sallittu päivämääräväli. Liiketoiminnan tarpeiden mukaan voit sallia kirjauksen jakson alussa tai jakson loppupuolella. Lisätietoja on kohdassa [Toimintaohje: Kirjausjaksojen määrittäminen](finance-how-specify-posting-periods.md).  
+    Tässä määritetään kirjausten sallittu päivämääräväli. Liiketoiminnan tarpeiden mukaan voit sallia kirjauksen jakson alussa tai jakson loppupuolella. Lisätietoja on kohdassa [Kirjausjaksojen määrittäminen](finance-how-specify-posting-periods.md).  
 * Tee kaikki tarpeelliset KP-muutokset.  
 * Päivitä ja kirjaa toistuvat päiväkirjat.  
   <!--* Process Consolidations-->

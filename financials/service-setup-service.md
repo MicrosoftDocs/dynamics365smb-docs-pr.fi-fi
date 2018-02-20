@@ -13,10 +13,10 @@ ms.search.keywords: service, service items, repairs, maintenance, fix
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 7eac962e0c9863d8c6ed9bcff19f320687f217ff
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: cee6dcc0c0f4f596b3f63dbafec344875edb4e33
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
@@ -31,18 +31,18 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
   
 | Vastaanottaja | Katso |
 | --- | --- |
-| Määritä koodit, joita määrittävät huoltoasiakirjoihin automaattisesti usein tehtyjen huoltojen rivit. |[Toimintaohje: Vakiohuoltokoodien määrittäminen](service-how-setup-service-coding.md)|
-| Määritä yleiset asetukset, jotka hallitsevat huoltohallintoprosessien eri puolia.|[Toimintaohje: Huoltoprosessien määrittäminen](service-setup-service-processes.md)|
-| Määritä, miten organisaatio käsittelee vikaraportoinnin. |[Toimintaohje: Vian raportoinnin määrittäminen](service-how-setup-fault-reporting.md) |
-| Määrittää yrityksen asiakkaille antamat huoltotarjoukset.|[Toimintaohje: Huoltotarjousten määrittäminen](service-how-setup-service-offerings.md)|
-| Anna vianetsintäohjeet, joiden avulla asiakaspalvelu voi nopeuttaa huollon toimitusta. |[Toimintaohje: Vianetsinnän määrittäminen:](service-how-setup-troubleshooting.md) |
-| Määrittää resurssin kohdistus helpottamaan sopivan resurssin määrittämistä huoltotehtävään. |[Toimintaohje: Resurssien kohdistamisen määrittäminen](service-how-setup-resource-allocation.md) |
-| Määritä huollon hinnoittelu ja määritä huollon lisäkustannukset arvioitavaksi huoltotilauksiin. |[Toimintaohje: Huollon hinnoittelun ja lisäkustannusten määrittäminen](service-how-setup-service-costs-pricing.md)|
-| Tee määritykset niin, että voit seurata resurssin tunteja ja huoltotilauksen tilaa kuormituksen ja huollon tarpeiden ennustamista varten.|[Toimintaohje: Työ- ja huoltotuntien määrittäminen](service-how-setup-work-service-hours.md)|
-| Määritä korjauksen tilavaihtoehdot siten, että voi valvoa korjauksen etenemistä. | [Toimintaohje: Huoltotilausten ja korjausten tilojen määrittäminen](service-order-repair-status.md)|
-| Määritä lainausohjelma, jotta voit lainata korvaavan tavaran huoltonimikkeen käsittelyn ajaksi. |[Toimintaohje: Lainatavaraohjelman määrittäminen](service-how-setup-loaner-program.md) |
-| Määritä huoltonimikkeet ja huoltonimikkeen komponentit. |[Toimintaohje: Huoltonimikkeiden määrittäminen](service-how-setup-service-items.md) |
-| Tee pohjatyö huoltosopimusten ja sopimustarjousten luontia varten. |[Toimintaohje: Huoltosopimusten määrittäminen](service-how-setup-service-contracts.md) |
+| Määritä koodit, joita määrittävät huoltoasiakirjoihin automaattisesti usein tehtyjen huoltojen rivit. |[Vakiohuoltokoodien määrittäminen](service-how-setup-service-coding.md)|
+| Määritä yleiset asetukset, jotka hallitsevat huoltohallintoprosessien eri puolia.|[Huoltoprosessien määrittäminen](service-setup-service-processes.md)|
+| Määritä, miten organisaatio käsittelee vikaraportoinnin. |[Vian raportoinnin määrittäminen](service-how-setup-fault-reporting.md) |
+| Määrittää yrityksen asiakkaille antamat huoltotarjoukset.|[Huoltotarjousten määrittäminen](service-how-setup-service-offerings.md)|
+| Anna vianetsintäohjeet, joiden avulla asiakaspalvelu voi nopeuttaa huollon toimitusta. |[Vianmäärityksen määrittäminen](service-how-setup-troubleshooting.md) |
+| Määrittää resurssin kohdistus helpottamaan sopivan resurssin määrittämistä huoltotehtävään. |[Resurssien kohdistamisen määrittäminen](service-how-setup-resource-allocation.md) |
+| Määritä huollon hinnoittelu ja määritä huollon lisäkustannukset arvioitavaksi huoltotilauksiin. |[Huollon hintojen ja lisäkustannusten määrittäminen](service-how-setup-service-costs-pricing.md)|
+| Tee määritykset niin, että voit seurata resurssin tunteja ja huoltotilauksen tilaa kuormituksen ja huollon tarpeiden ennustamista varten.|[Työ- ja huoltotuntien määrittäminen](service-how-setup-work-service-hours.md)|
+| Määritä korjauksen tilavaihtoehdot siten, että voi valvoa korjauksen etenemistä. | [Huoltotilausten ja -korjausten tilan määrittäminen](service-order-repair-status.md)|
+| Määritä lainausohjelma, jotta voit lainata korvaavan tavaran huoltonimikkeen käsittelyn ajaksi. |[Lainatavaraohjelman määrittäminen](service-how-setup-loaner-program.md) |
+| Määritä huoltonimikkeet ja huoltonimikkeen komponentit. |[Huoltonimikkeiden määrittäminen](service-how-setup-service-items.md) |
+| Tee pohjatyö huoltosopimusten ja sopimustarjousten luontia varten. |[Huoltosopimusten määrittäminen](service-how-setup-service-contracts.md) |
 
 ## <a name="see-also"></a>Katso myös .
 [Service Management](service-service.md)  

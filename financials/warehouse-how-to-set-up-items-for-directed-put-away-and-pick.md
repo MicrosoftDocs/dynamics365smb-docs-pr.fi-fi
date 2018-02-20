@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9b41bb902d8a2298f438233ca24c5a7bcf7f69d9
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5c802ee014df6c992a9e5b1e975f2cdc981e3a5a
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-items-and-locations-for-directed-put-away-and-pick"></a>Toimintaohje: Nimikkeiden ja sijaintien määrittäminen ohjattua hyllytystä ja poimintaa varten
+# <a name="set-up-items-and-locations-for-directed-put-away-and-pick"></a>Nimikkeiden ja sijaintien määrittäminen ohjattua hyllytystä ja poimintaa varten
 Kun otat ohjatun hyllytyksen ja poiminnan käyttöön fyysisen varastoinnin sijainnissa, voit tehostaa fyysistä varastointia uusien toimintojen avulla. Jotta hyötyisit mahdollisimman paljon näistä toiminnoista, anna ohjelmalle nimikkeistä lisätietoja, joiden avulla ohjelma voi laskea tehokkaimman fyysisen varastoinnin aktiviteettien suoritustavan. Katso lisätietoja kohdasta [Rakennetiedot: Fyysisen varastoinnin asetukset](design-details-warehouse-setup.md).
 
 ## <a name="to-set-up-an-item-for-directed-put-away-and-pick"></a>Nimikkeen määritys ohjattua hyllytystä ja poimintaa varten  
@@ -60,9 +60,9 @@ Kun muutat jotakin alueen parametria, kaikki tämän jälkeen alueella luodut va
 > [!NOTE]  
 >  Vaikka et haluaisi käyttää alueita, tarvitset kuitenkin yhden alueen, joka on määrittämätön koodia lukuun ottamatta.  
 
-Seuraava fyysisen varastoinnin määritysvaihe on varastopaikkojen määritys. Lisätietoja on kohdassa [Toimintaohje: Sijaintien määrittäminen varastopaikkojen käyttämistä varten](warehouse-how-to-set-up-locations-to-use-bins.md).  
+Seuraava fyysisen varastoinnin määritysvaihe on varastopaikkojen määritys. Lisätietoja on kohdassa [Sijaintien määrittäminen varastopaikkojen käyttämistä varten](warehouse-how-to-set-up-locations-to-use-bins.md).  
 
-Lisäksi on luotava hyllytysmallit ja laskentajaksot. Lisätietoja on kohdassa [Toimintaohje: Hyllytysmallien määrittäminen](warehouse-how-to-set-up-put-away-templates.md).  
+Lisäksi on luotava hyllytysmallit ja laskentajaksot. Lisätietoja on ohjeaiheessa [Hyllytysmallien määrittäminen](warehouse-how-to-set-up-put-away-templates.md).  
 
 ## <a name="see-also"></a>Katso myös  
 [Varastoinninhallinta](warehouse-manage-warehouse.md)  

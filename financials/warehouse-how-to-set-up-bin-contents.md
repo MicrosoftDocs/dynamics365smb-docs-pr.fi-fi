@@ -1,6 +1,6 @@
 ---
 title: "Varastopaikan sisällön luominen | Microsoft Docs"
-description: "Kun olet määrittänyt varastopaikat, voit määrittää varastopaikan sisällön. Voit määrittää varastopaikkoihin varastoitavat nimikkeet sekä säännöt, joita ohjelma noudattaa täyttäessään varastopaikkaa tietyllä nimikkeellä."
+description: "Kun olet määrittänyt varastopaikat, voit määrittää varastopaikan sisällön. Voit määrittää varastopaikkoihin varastoitavat nimikkeet ja säännöt, joita noudatetaan, kun varastopaikkaa täytetään tietyllä nimikkeellä."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 1f3a90b9bc9cce2e138e490d3064f6d505a088b9
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ec7a0c7c34e164b6ca6c8e65938a8c5e53e65514
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-bin-contents"></a>Toimintaohje: Varastopaikan sisällön luominen
+# <a name="create-bin-contents"></a>Varastopaikan sisältöjen luominen
 Kun olet määrittänyt varastopaikat, voit määrittää varastopaikan sisällön. Voit määrittää varastopaikkoihin varastoitavat nimikkeet ja säännöt, joita noudatetaan, kun varastopaikkaa täytetään tietyllä nimikkeellä. Voit tehdä sen manuaalisesti **Varastopaikan sisältö** -ikkunassa tai automaattisesti **Var.p. sisällön luontityökirja** -ikkunassa.
 
 ## <a name="to-create-bin-content-manually"></a>Varastopaikan sisällön luominen manuaalisesti  
@@ -56,7 +56,7 @@ Kun olet luonut varastopaikat, voit luoda varastopaikan sisällön, jonka haluat
 Tässä työkirjassa voi työskennellä useiden varastopaikan sisältörivien parissa useiden varastopaikkojen osalta ja sen ansiosta voi saada hyvän yleiskuvan siitä, mitä olet panemassa eri varastopaikkoihin tietyllä alueella, käytävällä tai hyllyllä.  
 
 ## <a name="see-also"></a>Katso myös
-[Kuinka laskea var.paikan täydennys](warehouse-how-to-calculate-bin-replenishment.md)    
+[Laske var.paikan täydennys](warehouse-how-to-calculate-bin-replenishment.md)    
 [Varastoinninhallinta](warehouse-manage-warehouse.md)  
 [Vaihto-omaisuus](inventory-manage-inventory.md)  
 [Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md)     

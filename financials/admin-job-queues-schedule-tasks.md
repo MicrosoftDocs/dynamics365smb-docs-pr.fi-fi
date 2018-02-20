@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 6dc45cfcff07bfb36f363121298cd0f68b9ce7fe
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b679c2762c67c6d78bcc6be293e6aabde4a58848
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Käytä työjonoja ajoitustehtäviin
@@ -25,7 +25,7 @@ ms.lasthandoff: 09/22/2017
 
 Vaihtoehtoisesti voit määrittää suodattimen **Työjonoluokan suodatin** -kentässä. Luettelon töitä voi ryhmitellä työjonoluokkien avulla.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] suorittaa työt automaattisesti kullekin työjonotapahtumalle määritetyn aikataulun mukaan. Työjonotapahtuman voi myös käynnistää, pysäyttää ja asettaa pitoon manuaalisesti.
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  suorittaa työt automaattisesti kullekin työjonotapahtumalle määritetyn aikataulun mukaan. Työjonotapahtuman voi myös käynnistää, pysäyttää ja asettaa pitoon manuaalisesti.
 
 ### <a name="log-files"></a>Lokitiedostot
 Virheet näkyvät **Työjonon lokitapahtumat** -ikkunassa, jonka voi avata valintanauhasta. Voit myös määrittää vian työjonon virheissä. Työjonon suorituksen yhteydessä luodut tiedot tallennetaan tietokantaan.  
@@ -35,7 +35,7 @@ Työjonot ovat tehokas väline liiketoiminnan prosessien suorituksen ajoittamise
 
  Vaihtoehtoisesti voit ajoittaa kirjaukset tunneille, jotka sopivat parhaiten organisaatiollesi. Saattaa olla hyödyllistä ajaa yrityksessä tietyt toiminnot sen jälkeen, kun suurin osa päivän tietojen syötöistä on suoritettu. Tämä on mahdollista, kun asetat työjonon ajamaan useita eräkirjausraportteja, kuten **Eräkirjaa myyntitilaukset**-, **Eräkirjaa ostotilaukset**- ja **Eräkirjaa myyntihyvityslaskut** -raportit.  
 
- [!INCLUDE[d365fin](includes/d365fin_md.md)] tukee taustakirjausta seuraavilla asiakirjatyypeillä:  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)]  tukee taustakirjausta seuraavilla asiakirjatyypeillä:  
 
 -   Myynti: myyntitilaus, palautustilaus, hyvityslasku, lasku  
 
@@ -68,6 +68,6 @@ Kun työjono on aktivoitu manuaalisesti, se suoritetaan käyttäjän tunnistetie
 Työjonotapahtuma-tietueella on monta kenttää, joiden tarkoituksena on viedä parametrejä koodiyksikölle, jonka olet määrittänyt ajettavaksi työjonossa. Tämä tarkoittaa myös sitä, että koodiyksiköt, jotka suoritetaan työjonon kautta, on määritettävä työjonotapahtumatietueessa **OnRun**-käynnistimen parametrina. Tämä auttaa parantamaan tietoturvaa, sillä se estää käyttäjiä suorittamasta satunnaisia koodiyksiköitä työjonon kautta. Jos käyttäjän on välitettävä raportoitavat parametrit, raportti on suoritettava koodiyksikössä, joka jäsentää syöttöparametrit ja syöttää ne raporttiin ennen sen suoritusta.  
 
 ## <a name="see-also"></a>Katso myös  
-[Dynamics 365 for Financialsin määrittäminen ja hallinta](admin-setup-and-administration.md)  
-[Dynamics 365 for Financialsin määrittäminen](setup.md)  
+[Finance and Operations, Business editionin määrittäminen ja hallinta](admin-setup-and-administration.md)  
+[Finance and Operations, Business editionin määrittäminen](setup.md)  
 

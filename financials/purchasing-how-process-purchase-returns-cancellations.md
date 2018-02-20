@@ -13,19 +13,19 @@ ms.search.keywords: cancel, undo, correct
 ms.date: 08/03/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 114448607d8b99252573912d2df08f91e1d27c76
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 9a746de45bc6878d15e879e623c6a65539943be3
 ms.contentlocale: fi-fi
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-process-purchase-returns-or-cancellations"></a>Toimintaohje: tavaran palautuksen tai peruutuksen käsittely
+# <a name="process-purchase-returns-or-cancellations"></a>Ostopalautusten tai peruutusten käsittely
 Jos haluat palauttaa nimikkeitä toimittajalle tai peruuttaa ostamiasi palveluita, voit luoda ja kirjata ostohyvityslaskun, joka määrittää pyydetyn muutoksen alkuperäisen ostolaskun suhteen. Voit sisällyttää oikeat ostolaskun tiedot luomalla ostohyvityslaskun suoraan kirjatusta ostolaskusta. Vaihtoehtoisesti voit luoda uuden ostohyvityslaskun, johon laskun tiedot on kopioitu.
 
 Jos ostopalautuskäsittelyä, kuten nimikkeen käsittelyn varastoasiakirjoja, on hallittava paremmin tai jos haluat paremman yleiskuvan, kun useiden ostoasiakirjojen nimikkeitä lähetetään takaisin yhtenä ostopalautuksena, voit luoda ostopalautustilauksia. Ostopalautustilaus lähettää automaattisesti liittyvän ostohyvityslaskun. Lisätietoja on kohdassa Ostopalautustilauksen luominen vähintään yhden kirjatun ostoasiakirjan perusteella.
 
 > [!NOTE]  
->   Jos kirjattua ostolaskua ei ole vielä maksettu, voit käyttää kirjatussa ostolaskussa olevia **Korjaa**- tai **Peruuta**-toimintoja kääntääksesi automaattisesti mukana olevat tapahtumat. Nämä toiminnot toimivat vain maksamattomille laskuille eivätkä ne osittaisia palautuksia tai peruutuksia. Lisätietoja on kohdassa [Toimintaohje: Maksamattomien ostolaskujen korjaaminen tai peruuttaminen](purchasing-how-correct-cancel-unpaid-purchase-invoices.md).
+>   Jos kirjattua ostolaskua ei ole vielä maksettu, voit käyttää kirjatussa ostolaskussa olevia **Korjaa**- tai **Peruuta**-toimintoja kääntääksesi automaattisesti mukana olevat tapahtumat. Nämä toiminnot toimivat vain maksamattomille laskuille eivätkä ne osittaisia palautuksia tai peruutuksia. Lisätietoja on kohdassa [Maksamattomien ostolaskujen korjaaminen tai peruuttaminen](purchasing-how-correct-cancel-unpaid-purchase-invoices.md).
 
 Yleensä toimittajan lähettämän hyvityslaskun jälkeen luodaan ostohyvityslasku tai ostopalautustilaus. Ostohyvityslasku tai ostopalautustilaus toimii hyvityslaskuprosessin sisäisenä dokumentaationa kirjanpitoa varten, tai sen avulla voi hallita liittyvien nimikkeiden toimitusta.
 
@@ -134,7 +134,7 @@ Voit sopia toimittajan kanssa, että toimittaja hyvittää ostetun nimikkeen vai
 1.  Tee korvaavalle nimikkeelle aktiivisen palautuskäsittelyn **Ostopalautustilaus**-ikkunan tyhjällä rivillä negatiivinen tapahtuma lisäämällä negatiivinen summa **Määrä**-kenttään.  
 2. Valitse **Siirrä negatiiviset rivit** -toiminto.  
 3. Täytä **Siirrä negatiiviset ostorivit**-ikkunassa tarvittavat kentät.
-4. Valitse **OK**-painike. Negatiivinen rivi poistetaan ostopalautustilauksesta ja uusi ostotilaus luodaan. Lisätietoja on ohjeaiheessa [Toimintaohje: Ostojen kirjaaminen](purchasing-how-record-purchases.md).  
+4. Valitse **OK**-painike. Negatiivinen rivi poistetaan ostopalautustilauksesta ja uusi ostotilaus luodaan. Lisätietoja on kohdassa [Ostojen kirjaaminen](purchasing-how-record-purchases.md).  
 
 ## <a name="to-create-a-purchase-allowance"></a>Ostoalennuksen luominen  
 Jos vastaanotat toimittajaltasi nimikkeitä, jotka eivät ole sellaisia kuin halusit – ne ovat esimerkiksi hieman vahingoittuneita, väärän värisiä tai väärän kokoisia – toimittaja voi tarjota ostoalennusta.  
@@ -150,7 +150,7 @@ Tämän alennetun ostokustannuksen voi kirjata nimikekuluna hyvityslaskuun tai p
     Voit haluta luoda erityisen nimikekulunumeron koskemaan ostoalennuksia.  
 6.  Syötä **Määrä**-kenttään **1**.  
 7.  Syötä **Välitön yksikkökustannus** -kenttään ostoalennuksen summa.  
-8.  Määritä ostoalennus nimikekuluna kirjatussa vastaanotossa oleville nimikkeille. Lisätietoja on kohdassa [Toimintaohje: Kaupan lisäkustannusten huomiointi nimikekulujen avulla](payables-how-assign-item-charges.md) Kun olet määrittänyt alennuksen, siirry takaisin **Ostohyvityslasku**-ikkunaan.
+8.  Määritä ostoalennus nimikekuluna kirjatussa vastaanotossa oleville nimikkeille. Lisätietoja on kohdassa [Kaupan lisäkustannusten huomiointi nimikekulujen avulla](payables-how-assign-item-charges.md) Kun olet määrittänyt alennuksen, siirry takaisin **Ostohyvityslasku**-ikkunaan.
 
 Kun kirjaat ostopalautustilauksen, ostoalennus lisätään liittyvän ostotapahtuman summaan. Tällä tavoin voit ylläpitää täsmällistä varaston arvostusta.  
 
@@ -183,7 +183,7 @@ Kun palautustilaukset yhdistetään hyvityslaskuun ja kirjataan, laskutetuista r
 
 ## <a name="see-also"></a>Katso myös
 [Osto](purchasing-manage-purchasing.md)  
-[Toimintaohje: Ostojen kirjaus](purchasing-how-record-purchases.md)  
-[Toimintaohje: Maksamattomien ostolaskujen korjaaminen tai peruuttaminen](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
+[Ostojen kirjaus](purchasing-how-record-purchases.md)  
+[Maksamattomien ostolaskujen korjaaminen tai peruuttaminen](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
 

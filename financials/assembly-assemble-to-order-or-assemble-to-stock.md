@@ -13,19 +13,19 @@ ms.search.keywords:
 ms.date: 08/15/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d5be31ebb84542e1762ffda9bc76a3aa38485095
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: a263eb848556c60702124b37fc62e250b8a954a0
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# Tietoja Kokoonpano tilausta varten- ja Kokoonpano varastoon -toiminnoista
+# <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Tietoja Kokoonpano tilausta varten- ja Kokoonpano varastoon -toiminnoista
 Kokoonpanon osat voidaan toimittaa seuraavaan kahteen prosessiin:  
 
 -   Kokoonpano tilausta varten.  
 -   Kokoonpano varastoon.  
 
-## Kokoonpano tilausta varten  
+## <a name="assemble-to-order"></a>Kokoonpano tilausta varten  
 Käytät yleensä *Kokoonpano tilausta varten* nimikkeille, joita et halua varastoida, koska oletat mukauttavasti ne asiakkaan pyyntöjä astaaviksi tai koska haluat pienentää varastokustannuksia toimittamalla juuri ajoissa. Tukitoimintoja ovat seuraavat:  
 
 -   Kyky mukauttaa kokoonpanon nimikkeet myyntitilauksen ottamisen yhteydessä.  
@@ -41,23 +41,23 @@ Kokoonpano tilausta varten -käsittelyssä nimike kootaan vastauksena myyntitila
 Kun syötät myyntiriville kokoonpano tilausta varten nimikkeen, kokoonpanotilaus luodaan automaattisesti otsikolla, joka perustuu myyntiriviin ja riveillä, jotka perustuvat nimikkeen kokoonpanon tuoterakenteeseen kerrottuna tilausmäärällä. Voit käyttää **Kokoonpano tilausta varten -rivit** -ikkunaa nähdäksesi linkitetyt kokoonpanotilausrivit tukeaksesi muokkaamaan kokoonpanon nimikettä ja toimituspäivää, joka perustuu osan saatavuustietoihin. Lisätietoja on kohdassa [Kokoonpano tilausta varten -nimikkeiden myyminen](assembly-how-to-sell-items-assembled-to-order.md).  
 
 > [!NOTE]  
->  Vaikka se ei ole osa oletusprosessia, voit myydä varastomääriä kokoonpano tilausta varten -määrillä. Lisätietoja on kohdassa [Toimintaohje: Varastonimikkeiden myyminen Kokoonpano tilausta varten -työnkuluissa.](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md)  
+>  Vaikka se ei ole osa oletusprosessia, voit myydä varastomääriä kokoonpano tilausta varten -määrillä. Lisätietoja on kohdassa [Varastonimikkeiden myyminen Kokoonpano tilausta varten -työnkuluissa](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md).  
 
  Ottaaksesi tämän prosessin käyttöön **Kokoonpanokäytäntö** -kentän nimikekortissa on oltava **Kokoonpano tilausta varten**.  
 
-## Kokoonpano varastoon  
+## <a name="assemble-to-stock"></a>Kokoonpano varastoon  
  Käytät yleensä *kokoonpano varastoon* nimikkeille, jotka haluat koota ennen myyntiä, kuten valmistauta kampanjapakettiin ja pitää varastossa, kunnes ne on tilattu. Nämä kohteet ovat yleensä vakiokohteita, kuten pakattuja sarjoja, joita ei tarjota asiakkaalle heidän pyyntöjensä mukauttamiseksi.  
 
- Kokoonpano varastoon -käsittelyssä nimike kootaan ilman välitöntä myyntikysyntää ja varastoidaan fyysiseen varastoon varastonimikkeenä myöhempää myyntiä varten tai osakokoonpanona kulutettavaksi. Lisätietoja on kohdassa [Toimintaohje: Nimikkeiden kokoaminen](assembly-how-to-assemble-items.md). Tästä eteenpäin nimike poimitaan ja sitä käsitellään yksittäisenä nimikkeenä. Sitä kohdellaan valmiina tuotantonimikkeenä.  
+ Kokoonpano varastoon -käsittelyssä nimike kootaan ilman välitöntä myyntikysyntää ja varastoidaan fyysiseen varastoon varastonimikkeenä myöhempää myyntiä varten tai osakokoonpanona kulutettavaksi. Lisätietoja on kohdassa [Nimikkeiden kokoaminen](assembly-how-to-assemble-items.md). Tästä eteenpäin nimike poimitaan ja sitä käsitellään yksittäisenä nimikkeenä. Sitä kohdellaan valmiina tuotantonimikkeenä.  
 
  Kun syötät myyntiriville kokooknpano varastoon nimikkeen, kuten minkä tahansa muun nimikkeen, joka on myyty varastosta. Esimerkiksi saatavuus tarkistetaan vain kokoonpanon nimikkeen osalta.  
 
 > [!NOTE]  
->  Vaikka se ei ole osa oletusprosessia, voit koota nimikkeen tilattavaksi, vaikka se on määritetty kokoonpantavaksi varastoon. Lisätietoja on kohdassa [Toimintaohje: Kokoonpano tilausta varten -nimikkeiden ja -varastonimikkeiden myyminen yhdessä.](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md)  
+>  Vaikka se ei ole osa oletusprosessia, voit koota nimikkeen tilattavaksi, vaikka se on määritetty kokoonpantavaksi varastoon. Lisätietoja on kohdassa [Kokoonpano tilausta varten -nimikkeiden ja -varastonimikkeiden myyminen yhdessä](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md).  
 
  Ottaaksesi tämän prosessin käyttöön **Kokoonpanokäytäntö** -kentän nimikekortissa on oltava **Kokoonpano varastoon**.  
 
-## Skenaarioiden yhdistelmä  
+## <a name="combination-scenarios"></a>Skenaarioiden yhdistelmä  
  Kokoonpanon hallinnan yleinen periaate on se, että yhdistettäessä myyntitilauksen riville, kokoonpano tilausta varten on lähetettävä ennen varaston määriä.  
 
  Jos kokoonpanotilaus on linkitetty myyntitilauksen riville, tilausrivin **Kokoonpantava määrä tilausta varten** -kentän arvo kopioidaan **Kokoonpantava määrä** -kenttään kokoonpanotilauksen otsikon **Määrä** -kentän välityksellä. Lisätietoja on kohdassa [Kokoonpano tilausta varten -nimikkeiden myyminen](assembly-how-to-sell-items-assembled-to-order.md).  
@@ -85,9 +85,9 @@ Kun syötät myyntiriville kokoonpano tilausta varten nimikkeen, kokoonpanotilau
 -   Pienin määrä, joka voidaan syöttää on 1. Tämä johtuu siitä, että ainakin yksi yksikkö on koottava, jotta voit myydä neljä yksikköä, olettaen, että loput kolme ovat saatavilla varastossa.  
 -   Suurin määrä, joka voidaan syöttää on 4. Näin varmistetaan, että tilaukselle ei koota enempää nimikkeitä kuin mitä myyntiin tarvitaan.  
 
-## Katso myös  
+## <a name="see-also"></a>Katso myös  
 [Kokoonpanon hallinta](assembly-assemble-items.md)  
-[Toimintaohje: Tuoterakenteen käyttäminen](inventory-how-work-BOMs.md)  
+[Tuoterakenteen käyttäminen](inventory-how-work-BOMs.md)  
 [Vaihto-omaisuus](inventory-manage-inventory.md)  
 [Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)

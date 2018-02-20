@@ -1,6 +1,6 @@
 ---
-title: "Dynamics 365 Business edition- ja Power BI Content Pack -sisältöpaketit| Microsoft Docs"
-description: "Analyysitietojen, liiketoimintatietojen ja tunnuslukujen hakeminen Dynamics 365 -tiedoista on helppoa Power BI- ja Dynamics 365 Content Pack -sisältöpakettien avulla."
+title: "Finance and Operations, Business editionin ja Power BI:n sisältöpaketit| Microsoft Docs"
+description: "Finance and Operations, Business editionin tiedoista saa kätevästi analyysi- ja BI-tietoja sekä tunnuslukuja Power BI:n ja Finance and Operations, Business editionin sisältöpaketeilla."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: get-started-article
@@ -11,10 +11,10 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.date: 09/05/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: f9a85074f2bc3ed2bff6022b9c248d3568a04e93
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 61d339e584107d48e22bd4c250085e9468271d7e
 ms.contentlocale: fi-fi
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Yritystietojen ottaminen käyttöön Power BI:tä varten
@@ -22,11 +22,11 @@ Lisätietojen hakeminen [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietoihin 
 
 Microsoft on julkaissut seuraavat sisältöpaketit:
 
-| Sovellus | Kuvaus |
+| Sovellus | Description |
 | --- | --- |
-| Microsoft Dynamics 365 for Financials | Sisältää koontinäytön, jossa on tärkeitä aikaperusteisia taloustietoja, kuten tulojen ja menojen vertailu, käyttökate ja käyttöpääomasykli.|
-| Microsoft Dynamics 365 for Financials – CRM | Sisältää koontinäytön, jossa on tärkeitä tietoja myyntimahdollisuuksista ja kontakteista.  |
-| Microsoft Dynamics 365 for Financials – Sales | Sisältää koontinäytön, jossa on tärkeitä tietoja myynnistä ja varastosta. |
+| Microsoft Finance and Operations, Business edition | Sisältää koontinäytön, jossa on tärkeitä aikaperusteisia taloustietoja, kuten tulojen ja menojen vertailu, käyttökate ja käyttöpääomasykli.|
+| Microsoft Finance and Operations, Business edition - CRM | Sisältää koontinäytön, jossa on tärkeitä tietoja myyntimahdollisuuksista ja kontakteista.  |
+| Microsoft Finance and Operations, Business edition - Sales | Sisältää koontinäytön, jossa on tärkeitä tietoja myynnistä ja varastosta. |
 
 ## <a name="using-the-dashboards"></a>Koontinäyttöjen käyttäminen
 Kussakin sisältöpaketissa on raportteja, joilla voi porautua tietoihin:
@@ -44,7 +44,7 @@ Sisältöpaketit on määritetty etukäteen niin, että niitä voidaan käyttä�
 ## <a name="accessing-included365finincludesd365finmdmd-in-power-bi"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen Power BI:ssä
 Voit tarkastella [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietoja Power BI:ssä, kun seuraavat vaatimukset toteutuvat:  
 
-* [!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttöoikeus. Lisätietoja on kohdassa [Dynamics 365 Business edition](http://go.microsoft.com/fwlink/?LinkID=759714).  
+* [!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttöoikeus. Lisätietoja on kohdassa [Finance and Operations, Business edition](http://go.microsoft.com/fwlink/?LinkID=759714).  
 * Power BI:n käyttöoikeus. Lisätietoja on kohdassa [Power BI](https://powerbi.microsoft.com).
 
 Power BI -sivustossa on lisätietoja [sisältöpaketteja sisältävien palvelujen yhdistämisestä Power BI:hin](http://go.microsoft.com/fwlink/?LinkID=760850).  
@@ -120,9 +120,10 @@ Jos näet "Jokin meni vikaan" -virhevalintaikkunan sen jälkeen, kun todentamisv
 [Business Intelligence](bi.md)  
 [Tervetuloa [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]iin!](index.md)  
 [Liiketoiminnan tietojen siirtäminen muista rahoitusjärjestelmistä](upload-data.md)  
-[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]in käyttäminen Power BI -tietolähteenä](across-how-use-financials-data-source-powerbi.md)  
-[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]in käyttäminen PowerApps-tietolähteenä](across-how-use-financials-data-source-powerapps.md)  
-[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]in käyttäminen Microsoft Flow'ssa](across-how-use-financials-data-source-flow.md)   
+[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen Power BI -tietolähteenä](across-how-use-financials-data-source-powerbi.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen PowerApps-tietolähteenä](across-how-use-financials-data-source-powerapps.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen Microsoft Flow'ssa](across-how-use-financials-data-source-flow.md)   
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

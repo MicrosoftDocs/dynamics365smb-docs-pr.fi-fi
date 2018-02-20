@@ -13,14 +13,14 @@ ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 04/20/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 733405000725ccfca2a1bdd1bb2a893e6f5f3536
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5861071decd1feac9adf53783038f2927be3c930
 ms.contentlocale: fi-fi
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
-# <a name="setting-up-to-calculations-and-posting-methods-for-value-added-tax"></a>Arvonlisäveron laskemisen ja kirjaustapojen määrittäminen
+# <a name="setting-up-calculations-and-posting-methods-for-value-added-tax"></a>Arvonlisäveron laskemisen ja kirjaustapojen määrittäminen
 Kuluttajat ja yritykset maksavat arvonlisäveroa (ALV:tä), kun he ostavat tavaroita tai palveluja. ALV:n määrä voi vaihdella useiden tekijöiden mukaan. ALV määritetään [!INCLUDE[d365fin](includes/d365fin_md.md)]issa määrittämään prosentti, jolla verosummat lasketaan, seuraavien tekijöiden perusteella: 
 
 * Kenelle myydään  
@@ -40,7 +40,20 @@ Avustetun ALV-asetusten asennus oppaan käyttö on suositeltavaa määritettäes
 
 Avaa avustettu asennusopas seuraavasti:
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake ja anna **Asetusten ohjattu määritys**.  
-2. Valitse **ALV-asetukset**.
+2. Valitse **Määritä ALV**.
+
+## <a name="to-set-up-vat-registration-numbers-for-your-country-or-region"></a>Oman maan tai alueen ALV-rekisteröintinumeroiden määrittäminen
+Voit auttaa varmistamaan, että annettavat ALV-rekisteröintinumerot ovat kelvollisia, määrittämällä niiden maiden tai alueiden ALV-rekisteröintinumeroiden muodot, joissa sinulla on liiketoimintaa. [!INCLUDE[d365fin](includes/d365fin_md.md)] näyttää virhesanoman, kun joku tekee virheen tai käyttää muotoa, jota ei hyväksytä maassa tai alueella.
+
+ALV-rekisteröintinumeroiden määritysohjeet:
+1. Valitse ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") -kuvake ja kirjoita **Maat/alueet**.
+2. Valitse ensin maa tai alue ja sitten **ALV-rekisteröintinron muodot** -toiminto.
+3. Määritä muoto **Muodot**-kenttään antamalla vähintään yksi seuraavista merkeistä:  
+  
+    |----|----| | # | Edellyttää yksimerkkistä lukua. | | @ | Edellyttää kirjainta. Kirjainkoolla ei ole merkitystä. | | ? | Mikä tahansa merkki sallitaan. |
+  
+    > [!Tip]
+    > Voit käyttää muita merkkejä, kunhan niitä käytetään maan tai alueen muodossa. Jos sinun on sisällytettävä esimerkiksi numeroiden välinen piste tai yhdysviiva, voit määrittää muodon seuraavasti: ##.####.### tai @@-###-###.  
 
 ## <a name="to-set-up-vat-business-posting-groups"></a>Liiketoiminnan ALV-kirjausryhmien luominen
 Liiketoiminnan ALV-kirjausryhmien on vastattava niitä markkinoita, joilla teet kauppaa asiakkaiden ja toimittajien kanssa, ja niiden määritettävä ALV:n laskeminen ja kirjaaminen kullakin markkinalla. Esimerkkejä liiketoiminnan ALV-kirjausryhmistä: **Kotimaa** ja **Euroopan unioni (EU)**.  
@@ -64,7 +77,7 @@ Liiketoiminnan ALV-kirjausryhmä määritetään seuraavasti:
 2. Täytä tarvittavat kentät.
 
 ## <a name="to-combine-vat-posting-groups-in-vat-posting-setups"></a>ALV-kirjausryhmien yhdistäminen ALV-kirjausasetuksissa
-[!INCLUDE[d365fin](includes/d365fin_md.md)] laskee myynnin ja ostojen ALV-summat ALV-kirjausryhmien perusteella. Nämä ryhmät puolestaan ovat yhdistelmä liiketoiminnan ja tuotteen ALV-kirjausryhmiä. Voit määrittää kullekin yhdistelmälle ALV-prosentin, ALV-laskennan tyypin sekä myyntiin, ostoihin ja vastakirjaukseen liittyvien ALV-kirjausten pääkirjanpidon tilit. Voit määrittää myös, lasketaanko ALV uudelleen, kun maksualennusta käytetään tai vastaanotetaan.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  laskee myynnin ja ostojen ALV-summat ALV-kirjausryhmien perusteella. Nämä ryhmät puolestaan ovat yhdistelmä liiketoiminnan ja tuotteen ALV-kirjausryhmiä. Voit määrittää kullekin yhdistelmälle ALV-prosentin, ALV-laskennan tyypin sekä myyntiin, ostoihin ja vastakirjaukseen liittyvien ALV-kirjausten pääkirjanpidon tilit. Voit määrittää myös, lasketaanko ALV uudelleen, kun maksualennusta käytetään tai vastaanotetaan.  
 
 Voit määrittää niin monta yhdistelmää kuin haluat. Jos haluat ryhmitellä ALV-kirjausasetusten yhdistelmät, joissa on samanlaiset määritteet, voit määrittää **ALV-tunnuksen** kullekin ryhmälle ja liittää tunnuksen ryhmän jäsenille.
 
@@ -235,4 +248,4 @@ ALV-prosentin muutostyökalun avulla voit hallita muutoksia ALV:n vakiokorvaukse
 ## <a name="see-also"></a>Katso myös  
 [Ei-realisoituneen arvonlisäveron määrittäminen](finance-setup-unrealized-vat.md)  
 [Toimintaohje: ALV:n raportointi veroviranomaisille](finance-how-report-vat.md)  
-[Toimintaohje: Myynnin ja ostojen ALV:n käsittely](finance-work-with-vat.md)  
+[Myynnin ja ostojen ALV:n käsitteleminen](finance-work-with-vat.md)  

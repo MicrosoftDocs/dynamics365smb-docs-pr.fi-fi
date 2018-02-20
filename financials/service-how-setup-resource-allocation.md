@@ -13,14 +13,14 @@ ms.search.keywords: resource, skill, service, zones
 ms.date: 08/22/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 6c20c0b346186adad6e4b125dbd48bd0d3f56ab2
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b16ba9366aefc108f39667678fe8ab70ce421b83
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
-# <a name="how-to-set-up-resource-allocation"></a>Toimintaohje: Resurssien kohdistamisen määrittäminen
+# <a name="set-up-resource-allocation"></a>Resurssien kohdistamisen määrittäminen
 Huoltotehtävän onnistuneen suorittamisen kannalta on tärkeää löytää resurssi, jolla on työn edellyttävät taidot. Voit määrittää [!INCLUDE[d365fin](includes/d365fin_md.md)] helpottamaan työhön vaadittavat taidot omaavan henkilön kohdistamista. [!INCLUDE[d365fin](includes/d365fin_md.md)]issa tätä kutsutaan _resurssien kohdistamiseksi_. Resursseja voi kohdistaa taitojen tai saatavuuden perusteella tai sen perusteella, onko resurssi samalla huoltoalueella kuin asiakas. 
 
 Resurssien kohdistaminen edellyttää seuraavia määrityksiä:  
@@ -80,10 +80,10 @@ Jos haluat muuttaa nimikkeille määritettyjä taitokoodeja (vaikkapa **kpl** ei
     * Poista taitokoodit tai päivitä niiden suhteet: Valitse tämä vaihtoehto, jos haluat muuttaa vain nimikkeen taitokoodin. Siihen liittyvien huoltonimikkeiden taitokoodit määritetään uudelleen, toisin sanoen **Määritetty kohteesta** -kenttä päivitetään.  
   
 ## <a name="see-also"></a>Katso myös
-[Toimintaohje: Resurssien kohdistaminen](service-how-to-allocate-resources.md)  
-[Toimintaohje: Työ- ja huoltotuntien määrittäminen](service-how-setup-work-service-hours.md)  
-[Toimintaohje: Vian raportoinnin määrittäminen](service-how-setup-fault-reporting.md)  
-[Toimintaohje: Vakiohuoltokoodien määrittäminen](service-how-setup-service-coding.md)  
+[Resurssien kohdistaminen](service-how-to-allocate-resources.md)  
+[Työ- ja huoltotuntien määrittäminen](service-how-setup-work-service-hours.md)  
+[Vian raportoinnin määrittäminen](service-how-setup-fault-reporting.md)  
+[Vakiohuoltokoodien määrittäminen](service-how-setup-service-coding.md)  
  
 
 

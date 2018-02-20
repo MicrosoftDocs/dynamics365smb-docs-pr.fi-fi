@@ -13,13 +13,13 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 208c49d0f86ae0a3c8ef4db8008fa2995f77e674
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2bb49ed17db6a4b6f7eafef76c9109e2652fa76b
 ms.contentlocale: fi-fi
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-contact-persons"></a>Kontaktihenkilöiden luominen
+# <a name="create-contact-persons"></a>Kontaktihenkilöiden luominen
 Voit luoda kontaktikortin jokaiselle yhteyshenkilölle, joka työskentelee sellaisessa yrityksissä, jonka kanssa yrityksesi on vuorovaikutuksessa. Jokaiselle kontaktiyritykselle voit luoda niin monta kontaktihenkilöä kuin haluat. Voit luoda kontaktikortteja myös niille henkilöille, jotka haluat tallentaa itsenäisinä.
 
 > [!TIP]  
@@ -40,8 +40,8 @@ Voit luoda kontaktikortin jokaiselle yhteyshenkilölle, joka työskentelee sella
 ## <a name="see-also"></a>Katso myös
 [Kontaktienhallinnan määrittäminen](marketing-setup-marketing.md)  
 [Postitusryhmien määrittäminen kontaktille](marketing-mailing-groups.md#AssignMailGroupContact)  
-[Toimintaohje: Vastuualueiden määrittäminen kontakteille](marketing-job-responsibilities.md)  
-[Toimintaohje: Kontaktihenkilöiden organisaatiotasojen määrittäminen](marketing-organizational-levels.md)  
+[Vastuualueiden määrittäminen kontakteille](marketing-job-responsibilities.md)  
+[Kontaktihenkilöiden organisaatiotasojen määrittäminen](marketing-organizational-levels.md)  
 [Kontaktien synkronoiminen asiakkaiden, toimittajien ja pankkitilien kanssa](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  
-[Dynamics 365:n käyttäminen](ui-work-product.md)  
+[Finance and Operations, Business editionin käyttäminen](ui-work-product.md)  
 

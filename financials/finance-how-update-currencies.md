@@ -1,6 +1,6 @@
 ---
 title: "Valuutan vaihtokurssien päivittäminen| Microsoft Docs"
-description: "Voit käyttää yrityksessä useita valuuttoja määrittämällä kullekin valuutalle koodin ja käyttämällä ulkoista vaihtokurssipalvelua, kuten Yahoota."
+description: "Voit käyttää yrityksessä useita valuuttoja määrittämällä kullekin valuutalle koodin ja käyttämällä ulkoista vaihtokurssipalvelua, kuten FloatRatesia."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -9,17 +9,17 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: multiple currencies, Yahoo
-ms.date: 07/02/2017
+ms.search.keywords: multiple currencies
+ms.date: 01/25/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: eecb1c7b7bcb62e8dc7def488f66338855dad030
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 973e2559b5cbf3e21bb735267ac800f87fa5a7f6
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-update-currency-exchange-rates"></a>Toimintaohje: Valuutan vaihtokurssien päivittäminen
+# <a name="update-currency-exchange-rates"></a>Valuutan vaihtokurssien päivittäminen
 Kaikille valuutoille täytyy määrittää koodi, jos yritys ostaa tai myy käyttäen jotain muuta valuuttaa kuin paikallista valuuttaa, jos yrityksellä on myyntisaamisia tai ostovelkoja muissa valuutoissa; tai jos yritys tallentaa KP-kauppatapahtumia eri valuuttoina.  
 
 Yritysten toiminnan ollessa yhä useamman maan/alueen laajuista niiden on entistä tärkeämpää pystyä tarkistamaan ja raportoimaan taloustiedot useana valuuttana. Ohjelma tukee usean valuutan käyttöä. Ohjelman sisällä pääkirjanpito määritetään käyttäen paikallista valuuttaa (PVA) ja toinen valuutta määritetään lisävaluutaksi, jolle asetetaan ajantasainen vaihtokurssi.  
@@ -41,11 +41,8 @@ Lisäraportointivaluutan käyttäminen voi helpottaa yrityksen raportointiproses
 
 Monet Pääkirjanpito-sovellusalueen raportit perustuvat KP-tapahtumiin. Voit näyttää raportin taloudelliset tiedot lisäraportointivaluuttana valitsemalla vain **Näytä lisäraportointivaluuttana** -kentän kyseisessä KP-raportti-ikkunassa.  
 
-> [!NOTE]  
->   Tämä toiminto edellyttää, että kokemukseksi on valittu **Suite**. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)] -kokemuksen mukauttaminen](ui-experiences.md).
-
 ## <a name="to-set-up-a-currency-exchange-rate-service"></a>Valuutanvaihdon kurssipalvelun määrittäminen
-Voit pitää valuutan vaihtokurssit ajan tasalla ulkoisen palvelun avulla. Yahoon valuutanvaihtokurssit -palvelu on asennettu valmiiksi ja odottaa käyttöönottoa.
+Voit pitää valuutan vaihtokurssit ajan tasalla ulkoisen palvelun, kuten FloatRatesin avulla.
 
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Valuutanvaihtokurssipalvelut** ja valitse sitten aiheeseen liittyvä linkki.
 2. Valitse **Uusi**-toiminto.

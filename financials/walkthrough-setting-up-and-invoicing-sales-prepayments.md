@@ -1,6 +1,6 @@
 ---
 title: "Vaihekuvaus – Myynnin ennakkomaksujen määrittäminen ja laskuttaminen | Microsoft Docs"
-description: "Ennakkomaksut ovat maksuja, jotka on laskutettu ja kirjattu myynti- tai ostoennakkomaksun tilaukseen ennen lopullista laskutusta. Voit edellyttää, että ennakkomaksu maksetaan ennen tilattujen tuotteiden valmistamista tai että maksu suoritetaan ennen nimikkeiden toimittamista asiakkaalle. Dynamics 365:n ennakkomaksutoimintojen avulla voit laskuttaa ja kerätä asiakkailta edellytettyjä talletuksia tai suorittaa talletuksia toimittajille. Näin voit varmistaa, että kaikki maksut kirjataan laskua vastaan."
+description: "Ennakkomaksut ovat maksuja, jotka on laskutettu ja kirjattu myynti- tai ostoennakkomaksun tilaukseen ennen lopullista laskutusta. Voit edellyttää, että ennakkomaksu maksetaan ennen tilattujen tuotteiden valmistamista tai että maksu suoritetaan ennen nimikkeiden toimittamista asiakkaalle. Voit laskuttaa ja periä asiakkailta edellytettyjä talletuksia tai suorittaa talletuksia toimittajille Finance and Operations, Business editionin ennakkomaksutoimintojen avulla. Näin voit varmistaa, että kaikki maksut kirjataan laskua vastaan."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: fbdeb6b9dc8c96b09ded933ec987b8c60098bfcf
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: cd74d543168f1f96f55141aace571d6d701e3de1
 ms.contentlocale: fi-fi
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Vaihekuvaus: Myynnin ennakkomaksujen määrittäminen ja laskuttaminen
@@ -128,7 +128,7 @@ Susanna luo ennakkomaksulaskun ja lähettää sen asiakkaalle.
 
     **Ennakkomaksuprosentti**-kentässä rivillä, jolla on nimike **1100**, lukee **40**. Tämä on prosenttiosuus, jonka olet lisännyt **Myynnin ennakkomaksuprosentit** -ikkunaan nimikkeelle **1100** ja asiakkaalle **20000**.  
 
-    Lisätietoja on kohdassa [Toimintaohje: Ennakkomaksujen määrittäminen](finance-set-up-prepayments.md).  
+    Lisätietoja on ohjeaiheessa [Ennakkomaksujen määrittäminen](finance-set-up-prepayments.md).  
 8. Valitse **Tilastot**-toiminto.  
 9. **Ennakkomaksu**-pikavälilehden **Ennakkomaksun rivisumma ilman ALV:tä** -kentän arvona on **1 560**. Jos luot nyt tilaukselle ennakkomaksulaskun, tämä summa näkyy laskussa.  
 

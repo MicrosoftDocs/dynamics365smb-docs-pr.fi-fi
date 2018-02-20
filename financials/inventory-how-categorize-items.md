@@ -13,22 +13,22 @@ ms.search.keywords: category, search, attribute, facet
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: da87c427033d58d92a6a5222bc323c68c4bc3f4e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 64511e0979671d13740bd18d95d53e8e37564583
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-categorize-items"></a>Toimintaohje: Nimikkeiden luokitteleminen
+# <a name="categorize-items"></a>Nimikkeiden luokitteleminen
 Nimikkeet kannattaa järjestää nimikeluokkiin. Niiden avulla voi järjestellä nimikkeitä ja helpottaa nimikkeiden lajittelemista ja etsimistä.
 
-Voit etsiä nimikkeitä ominaisuuksien mukaan, kun määrität nimikkeille ja nimikeluokille nimikkeen määritteet. Lisätietoja on kohdassa [Toimintaohje: Nimikkeen määritteiden käsitteleminen](inventory-how-work-item-attributes.md).
+Voit etsiä nimikkeitä ominaisuuksien mukaan, kun määrität nimikkeille ja nimikeluokille nimikkeen määritteet. Lisätietoja on kohdassa [Nimikkeen määritteiden käsitteleminen](inventory-how-work-item-attributes.md).
 
 ## <a name="to-create-an-item-category"></a>Nimikeluokan luominen
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Nimikekategoriat** ja valitse sitten aiheeseen liittyvä linkki.
 2. Valitse **Nimikeluokat**-ikkunassa **Uusi**-toiminto.
 3. Täytä tarvittaessa **Nimikeluokkakortti**-ikkunan **Yleinen**-pikavälilehden kentät: [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Määritä **Määritteet**-pikavälilehdessä kaikki nimikeluokan nimikkeen määritteet. Lisätietoja on "Nimikkeen määritteiden määrittäminen nimikeluokkaan" -osassa kohdassa [Toimintaohje: Nimikkeen määritteiden käsitteleminen](inventory-how-work-item-attributes.md).
+4. Määritä **Määritteet**-pikavälilehdessä kaikki nimikeluokan nimikkeen määritteet. Lisätietoja on kohdan [Nimikkeen määritteiden käsitteleminen](inventory-how-work-item-attributes.md) osassa Nimikkeen määritteiden määrittäminen nimikeluokkaan.
 
 > [!NOTE]  
 >   Jos nimikeluokalla on Pääluokka-kentässä ilmaistu **Päänimike**-luokka, kaikki tähän päänimikeluokkaan määritetyt nimikkeen määritteet täytetään **Määritteet**-pikavälilehteen.
@@ -42,8 +42,8 @@ Voit etsiä nimikkeitä ominaisuuksien mukaan, kun määrität nimikkeille ja ni
 3. Valitse **Nimikeluokan koodi** -kentän valintapainike ja valitse sitten aiemmin määritetty nimikeluokka. Vaihtoehtoisesti voit valita **Uusi**-toiminnon ja luoda ensin uuden nimikeluokan "Nimikeluokan luominen" -osassa esitetyllä tavalla.
 
 ## <a name="see-also"></a>Katso myös
-[Toimintaohje: Nimikkeen määritteiden käsitteleminen](inventory-how-work-item-attributes.md)  
+[Nimikkeen määritteiden käsitteleminen](inventory-how-work-item-attributes.md)  
 [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md)  
-[Varasto](inventory-manage-inventory.md)  
+[Vaihto-omaisuus](inventory-manage-inventory.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
 

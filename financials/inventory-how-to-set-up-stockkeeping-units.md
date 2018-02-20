@@ -1,6 +1,6 @@
 ---
 title: "Varastoyksikköjen määrittäminen | Microsoft Docs"
-description: "Varastointiyksiköitä voidaan käyttää tallentamaan tietoja nimikkeistäsi tietyn sijainnin ja/tai tietyn varianttikoodin osalta."
+description: "Voit tallentaa tiettyä sijaintia ja/tai tiettyä varianttikoodia koskevat nimikkeen tiedot varastointiyksiköihin."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,18 +13,18 @@ ms.search.keywords:
 ms.date: 08/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e5ac1c791b10c26a3cecd20711e7899bb7eaee3c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: bc323e4dac1b62802e999e2780352634e25e482d
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# Varastointiyksiköiden määrittäminen
+# <a name="set-up-stockkeeping-units"></a>Varastointiyksiköiden määrittäminen
 Voit tallentaa tiettyä sijaintia ja/tai tiettyä varianttikoodia koskevat nimikkeen tiedot varastointiyksiköihin.  
 
  Varastointiyksiköt ovat lisätietona nimikekorteille. Ne eivät korvaa niitä, vaikka liittyvätkin niihin. Varastointiyksiköt mahdollistavat nimikkeen tietojen erittelemisen tietyn sijainnin osalta (esimerkiksi fyysisen varaston tai jakelupaikan osalta) tai saman nimikkeen tietyn variantin osalta (esimerkiksi eri hyllynumeroiden ja eri täydennystietojen osalta).  
 
-## Varastointiyksiköiden määrittäminen  
+## <a name="to-set-up-a-stockkeeping-unit"></a>Varastointiyksiköiden määrittäminen  
 
 1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Varastointiyksiköt** ja valitse sitten aiheeseen liittyvä linkki.  
 2.  Valitse **Uusi**-toiminto.  
@@ -37,8 +37,8 @@ Käytä **Luo varastointiyksikkö** -eräajoa, kun haluat luoda nimikkeelle usei
 > [!NOTE]  
 >  **Varastointiyksikön** kortin tiedoilla on korkeampi prioriteetti kuin **nimikkeen** kortilla.  
 
-## Katso myös  
-[Toimintaohje: Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md)  
+## <a name="see-also"></a>Katso myös  
+[Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md)  
 [Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md)  
 [Varastoinninhallinta](warehouse-manage-warehouse.md)  
 [Vaihto-omaisuus](inventory-manage-inventory.md)  

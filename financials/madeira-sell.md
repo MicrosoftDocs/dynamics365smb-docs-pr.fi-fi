@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 Business editionin myyminen | Microsoft Docs
-description: "Lisätietoja liiketoimintamahdollisuuksien laajentamisesta sekä Microsoft-kumppaniksi ja Dynamics 365 Business editionin jälleenmyyjäksi tulemisesta."
+title: Finance and Operations, Business editionin myynti | Microsoft Docs
+description: "Lisätietoja liiketoimintamahdollisuuksien laajentamisesta sekä Microsoft-kumppaniksi ja Finance and Operations, Business editionin jälleenmyyjäksi tulemisesta."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,18 +13,18 @@ ms.search.keywords: microsoft partner
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 582d000456c6802131c69fc5c0b391905a9b4ddf
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6766559f314c6fd9031f9599f414dae0eff984f8
 ms.contentlocale: fi-fi
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="become-a-reseller-of-included365finlongincludesd365finlongmdmd"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]in jälleenmyyjäksi ryhtyminen
 Laajenna liiketoimintamahdollisuuksia [!INCLUDE[d365fin](includes/d365fin_md.md)]illa.  
 
-Jos pilviratkaisut, Office 365, SharePoint, toimialakohtaiset ratkaisut, analytiikka, ERP, CRM, kirjanpito-ohjelmistot ja/tai liiketoimintaprosessien optimointiohjelmistot tai -palvelut ovat erikoisalaasi, Dynamics 365 tarjoaa uusia mahdollisuuksia.   
+Jos pilviratkaisut, Office 365, SharePoint, toimialakohtaiset ratkaisut, analytiikka, ERP, CRM, kirjanpito-ohjelmistot ja/tai liiketoimintaprosessien optimointiohjelmistot tai -palvelut ovat erikoisalaasi, Finance and Operations, Business edition tarjoaa uusia mahdollisuuksia.   
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] auttaa erottautumaan ja syventämään asiakassuhteita, sillä voit toimittaa sen avulla kattavan liiketoiminnan hallintaratkaisun, joka yhdistää työntekijät ja prosessit aivan uudella tavalla. Lisäksi se integroituu tuttuihin Microsoft Office -työkaluihin, joita PK-yritykset käyttävät joka päivä.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  auttaa erottautumaan ja syventämään asiakassuhteita, sillä voit toimittaa sen avulla kattavan liiketoiminnan hallintaratkaisun, joka yhdistää työntekijät ja prosessit aivan uudella tavalla. Lisäksi se integroituu tuttuihin Microsoft Office -työkaluihin, joita PK-yritykset käyttävät joka päivä.  
 
 ## <a name="get-started"></a>Aloitus
 Rekisteröidy [!INCLUDE[d365fin](includes/d365fin_md.md)]in esiversioon osoitteessa [https://microsoft.com/dynamics365/financials](https://www.microsoft.com/en-us/dynamics365/financials).  

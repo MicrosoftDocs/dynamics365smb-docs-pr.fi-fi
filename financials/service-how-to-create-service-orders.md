@@ -1,6 +1,6 @@
 ---
 title: Huoltotilausten luominen | Microsoft Docs
-description: "**Huoltotilaus**-ikkunassa voidaan luoda asiakirjoja, joihin annetaan tietoja asiakkaan pyynnöstä tehtävästä huoltonimikkeiden huollosta (korjauksesta tai ylläpidosta)."
+description: "**Huoltotilaus**-ikkunassa voidaan luoda asiakirjoja, joihin syötetään tietoja asiakkaan pyynnöstä tehtävästä huoltonimikkeiden huollosta (korjauksesta tai ylläpidosta)."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: cb514fe04fd70836f640d3db4ea592680ab0fa1a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5460f50c4c556a74b518976d5d5fa90203f16967
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-service-orders"></a>Huoltotilausten luominen
+# <a name="create-service-orders"></a>Huoltotilausten luominen
 **Huoltotilaus**-ikkunassa voidaan luoda asiakirjoja, joihin syötetään tietoja asiakkaan pyynnöstä tehtävästä huoltonimikkeiden huollosta (korjauksesta tai ylläpidosta).  
   
 Kun luot huoltotilauksen, sinun tarvitsee vain täyttää muutama kenttä. Jotkut kentät ovat valinnaisia, ja monet täytetään automaattisesti silloin, kun täytät kohteeseen liittyvät kentät.  
@@ -79,7 +79,7 @@ Jos huoltotilauksen nimikkeen saatavuus on varmistettava, voit varata nimikkeen.
 5. Valitse **Varaus**-sivulla **Varaa nykyiseltä riviltä**. 
 
 ## <a name="to-insert-lines-based-on-standard-service-codes"></a>Rivien lisääminen vakiohuoltokoodien perusteella  
-Jos olet määrittänyt vakiohuoltokoodit ja liittänyt ne huoltonimikeryhmiin, voit lisätä vakiohuoltokoodeihin linkitettyjä vakiorivejä huoltoasiakirjoihin. Lisätietoja on kohdassa [Toimintaohje: Vakiohuoltokoodien määrittäminen](service-how-setup-service-coding.md).   
+Jos olet määrittänyt vakiohuoltokoodit ja liittänyt ne huoltonimikeryhmiin, voit lisätä vakiohuoltokoodeihin linkitettyjä vakiorivejä huoltoasiakirjoihin. Lisätietoja on kohdassa [Vakiohuoltokoodien määrittäminen](service-how-setup-service-coding.md).   
 
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Huoltotilaukset** ja valitse sitten aiheeseen liittyvä linkki.  
 2. Luo uusi huoltotilaus.  
@@ -106,8 +106,8 @@ Ohjelma ei poista huoltotilauksia automaattisesti, jos tilauksen kokonaismäär�
 
 ## <a name="see-also"></a>Katso myös  
 [Huollon kirjaus](service-service-posting.md)  
-[Toimintaohje: Huoltotilauksen kirjaaminen](service-how-to-post-service-orders.md)  
+[Huoltotilauksen kirjaaminen](service-how-to-post-service-orders.md)  
 [Huoltohallinnon määrittäminen](service-setup-service.md)  
-[Toimintaohje: Huoltotehtävien käsitteleminen](service-how-to-work-on-service-tasks.md)  
-[Toimintaohje: Resurssien kohdistaminen](service-how-to-allocate-resources.md)  
+[Huoltotehtävien käyttäminen](service-how-to-work-on-service-tasks.md)  
+[Resurssien kohdistaminen](service-how-to-allocate-resources.md)  
 

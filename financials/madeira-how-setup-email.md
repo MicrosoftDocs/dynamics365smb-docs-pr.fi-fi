@@ -1,6 +1,6 @@
 ---
-title: "Dynamics 365 Business editionin sähköpostin määrittäminen | Microsoft Docs"
-description: "Lisätietoja tavoista, joilla sähköpostiviestejä lähetetään ja vastaanotetaan Dynamics 365:ssä SMTP-palvelimen kautta tai miten Office 365 -tilauksessa luotuja sähköpostipalvelimen asetuksia käytetään."
+title: "Sähköpostin määrittäminen Finance and Operations, Business editionissa | Microsoft Docs"
+description: "Lisätietoja tavoista, joilla sähköpostiviestejä lähetetään ja vastaanotetaan Finance and Operations, Business editionissa SMTP-palvelimen kautta tai miten Office 365 -tilauksessa luotuja sähköpostipalvelimen asetuksia käytetään."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -12,13 +12,13 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 59d97a3bd838c80e66d62ed16c2bcb1c525938c4
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2389c97c37a2b35da01c846b32a81a1c7bbf2bad
 ms.contentlocale: fi-fi
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-email-manually-or-using-the-assisted-setup"></a>Toimintaohje: Sähköpostin määrittäminen manuaalisesti tai asetusten ohjatun määrityksen käyttäminen
+# <a name="set-up-email-manually-or-using-the-assisted-setup"></a>Sähköpostin määrittäminen manuaalisesti tai asetusten ohjatun määrityksen käyttäminen
 Jos haluat lähettää ja vastaanottaa sähköpostiviestejä [!INCLUDE[d365fin](includes/d365fin_md.md)]issa, **SMTP-sähköpostiasetukset**-ikkunan kentät on täytettävä.
 
 > [!NOTE]  
@@ -36,8 +36,8 @@ Voit joko määrittää sähköpostin manuaalisesti tai voit käyttää hyväkse
 ## <a name="see-also"></a>Katso myös  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittäminen](setup.md)  
-[Toimintaohje: Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen yrityssähköpostina Outlookissa](madeira-outlook.md)  
+[Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)]in mukauttaminen laajennusten avulla](ui-extensions.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen yrityssähköpostina Outlookissa](madeira-outlook.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]in hakeminen mobiililaitteeseen](install-mobile-app.md)
 

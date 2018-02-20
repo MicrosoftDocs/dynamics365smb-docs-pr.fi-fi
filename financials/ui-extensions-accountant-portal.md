@@ -11,13 +11,13 @@ ms. search.keywords: app, add-in, manifest, customize, accountant
 ms.date: 09/14/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: a370002c08d8ef4cc46baa864f32b6ca2ef01b78
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d0efd02b14cf1b93b18b187b5f9bebfb8618d6a8
 ms.contentlocale: fi-fi
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="accountant-portal-for-dynamics-365-business-edition"></a>Dynamics 365 Business editionin kirjanpitäjän portaali
+# <a name="accountant-portal-for-finance-and-operations-business-edition"></a>Finance and Operations, Business editionin kirjanpitäjän portaali
 Tässä sovelluksessa on koontinäyttö, jossa on kirjanpitäjän jokaisen asiakasohjelman yhteenvetotiedot. Portaalissa on esillä taloushallinnon tunnuslukujen lisäksi myös suora linkki asiakasohjelman taloushallinnon sovellukseen.  
 
 Koontinäyttö on erikoistunut roolikeskus, jonka kautta saa hyvän kokonaiskuvan asiakasohjelmista.  
@@ -28,7 +28,7 @@ Kun laajennus asennetaan ensimmäisen kerran, pääset alkuun malliyrityksen avu
 ## <a name="installing-the-extension"></a>Laajennuksen asentaminen
 Kun olet asentanut laajennuksen [!INCLUDE[d365fin](includes/d365fin_md.md)]iin, sinulta kysytään, haluatko käyttää sitä heti. Jos haluat aloittaa käytön heti, sinun on kirjauduttava ensin ulos ja sitten takaisin sisään, koska laajennus korvaa nykyisen roolikeskuksen ja lisää käyttöoikeudet käyttäjäprofiiliisi.  
 
-Lisätietoja on kohdassa [Dynamics 365 Business editionin kirjanpitäjän käyttökokemukset](finance-accounting.md).  
+Lisätietoja on kohdassa [Finance and Operations, Business editionin kirjanpitäjäkokemukset ](finance-accounting.md).  
 
 > [!NOTE]  
 >  Laajennuksen nykyinen versio edellyttää, että asiakasohjelmassa on käytössä [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -39,6 +39,6 @@ Laajennus poistetaan käytöstä muutaman kuukauden kuluttua. Tämän laajennuks
 Lisätietoja on kohdassa [Tervetuloa käyttämään ohjelmaa Dynamics 365 – Accountant Hub](/dynamics365/accountants/index.md).  
 
 ## <a name="see-also"></a>Katso myös
-[Dynamics 365 Business editionin kirjanpitäjän käyttökokemukset](finance-accounting.md)  
+[Kirjanpitäjän käyttökokemukset – Finance and Operations, Business edition ](finance-accounting.md)  
 [Rahoitus](finance.md)  
 

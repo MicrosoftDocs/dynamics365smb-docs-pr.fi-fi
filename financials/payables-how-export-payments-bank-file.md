@@ -13,25 +13,25 @@ ms.search.keywords: bank file export, re-export, bank transfer, AMC, bank data c
 ms.date: 06/28/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: bab124ecc4d98886e41fbee3af00d4913435c993
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: db8f59a71b8a6afa26e878e189f8cb2ef85685e5
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-export-payments-to-a-bank-file"></a>Kuinka maksut viedään pankkitiedostoon
+# <a name="export-payments-to-a-bank-file"></a>Maksujen vienti pankkitiedostoon
 Kun olet valmis suorittamaan maksut toimittajille tai hyvitykset työntekijöille, voit viedä tiedoston ja päiväkirjan rivien maksutiedot **Maksupäiväkirja**-ikkunassa. Voit sitten ladata tiedoston pankkiin kyseisten rahansiirtojen käsittelyä varten.
 
-[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]in yleisessä versiossa asetetaan ja yhdistetään yleiset palvelut pankkitietojen muuntamiseen mihin tahansa pankkisi vaatimaan muotoon. Pohjoisamerikkalaisessa versioissa maksutiedostot voidaan lähettää samalla palvelulla sähköisenä rahansiirtona, joskin prosessi on hieman erilainen. Lisätietoja on Maksujen vienti pankkitiedostoon -osan vaiheessa 6.    
+[!INCLUDE[d365fin](includes/d365fin_md.md)]in yleisessä versiossa asetetaan ja yhdistetään yleiset palvelut pankkitietojen muuntamiseen mihin tahansa pankkisi vaatimaan muotoon. Pohjoisamerikkalaisessa versioissa maksutiedostot voidaan lähettää samalla palvelulla sähköisenä rahansiirtona, joskin prosessi on hieman erilainen. Lisätietoja on Maksujen vienti pankkitiedostoon -osan vaiheessa 6.    
 
 > [!NOTE]  
->   Määritä liittyvän pankkitilin sähköinen muoto ennen maksutiedostojen vientiä maksupäiväkirjasta ja ota pankkitietojen muuntopalvelu käyttöön. Lisätietoja on kohdassa [Toimintaohje: Pankkitilien määrittäminen](bank-how-setup-bank-accounts.md) ja [Toimintaohje: Pankkitietojen muuntopalvelun määrittäminen](bank-how-setup-bank-data-conversion-service.md). Valitse myös **Salli maksun vienti** -valintaruutu **Yleisen päiväkirjan erät** -ikkunassa. Lisätietoja on kohdassa [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md)  
+>   Määritä liittyvän pankkitilin sähköinen muoto ennen maksutiedostojen vientiä maksupäiväkirjasta ja ota pankkitietojen muuntopalvelu käyttöön. Lisätietoja on kohdissa [Pankkitilien määrittäminen](bank-how-setup-bank-accounts.md) ja [Pankkitietojen muuntopalvelun määrittäminen](bank-how-setup-bank-data-conversion-service.md). Valitse myös **Salli maksun vienti** -valintaruutu **Yleisen päiväkirjan erät** -ikkunassa. Lisätietoja on kohdassa [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md)  
 
 Voit tarkastella maksupäiväkirjasta vietyjä maksutiedostoja **Hyvityksen siirron rekisterit** -ikkunassa. Ikkunassa voit myös viedä maksutiedostot uudelleen, jos tekniset virheet tai tiedostomuutokset vaativat sitä. Huomaa kuitenkin, että viedyt sähköiset rahansiirtotiedostot eivät näy tässä ikkunassa eikä niitä voi viedä uudelleen.  
 
 ## <a name="to-export-payments-to-a-bank-file"></a>Maksujen vienti pankkitiedostoon
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Maksupäiväkirjat** ja valitse sitten aiheeseen liittyvä linkki.
-2. Voit esimerkiksi täyttää päiväkirjan rivit **Ehdota toimittajamaksuja** -toiminnolla. Lisätietoja on kohdassa [Toimintaohje: Toimittajamaksujen ehdottaminen](payables-how-suggest-vendor-payments.md).
+2. Voit esimerkiksi täyttää päiväkirjan rivit **Ehdota toimittajamaksuja** -toiminnolla. Lisätietoja on kohdassa [Toimittajamaksujen ehdottaminen](payables-how-suggest-vendor-payments.md).
 3. Täytä maksupäiväkirjan rivien kentät tarpeen mukaan. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
@@ -62,7 +62,7 @@ Seuraavaksi kerrotaan kiertotie sähköisten hyvitysmaksujen viennille.
 
 > [!CAUTION]  
 >   Tuloksena olevan maksupäiväkirjan rivejä ei voi kirjata, poistaa eikä mitätöidä.
-1. Määritä asiakas toimittajaksi. Anna sen nimeksi vaikkapa Asiakas X hyvityksiä varten. Lisätietoja on kohdassa [Toimintaohje: Uusien toimittajien rekisteröiminen](purchasing-how-register-new-vendors.md).
+1. Määritä asiakas toimittajaksi. Anna sen nimeksi vaikkapa Asiakas X hyvityksiä varten. Lisätietoja on kohdassa [Uusien toimittajien rekisteröinti](purchasing-how-register-new-vendors.md).
 2. Määritä asiakkaan maksupäiväkirjan rivin **Tilityyppi**-kentän arvoksi **Asiakas** ja **Asiakirjatyyppi**-kentän arvoksi **Hyvitys**.
 3. Suorita maksun vienti tavalliseen tapaan Maksujen vienti pankkitiedostoon -osassa kuvatulla tavalla.
 
@@ -89,6 +89,4 @@ Voit viedä maksutiedostot uudelleen **Hyvityksen siirron rekisterit** -ikkunast
 [Ostovelat](payables-manage-payables.md)  
 [Ostojen määrittäminen](purchasing-setup-purchasing.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
 

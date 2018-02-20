@@ -13,13 +13,13 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 8149c89e2031a7fd44f9942d7aba213158700dc9
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: e7bac54306953628e8aab21ffab66badf9a1c8fe
 ms.contentlocale: fi-fi
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-alternative-addresses-for-contacts"></a>Toimintaohje: Vaihtoehtoisten osoitteiden määrittäminen kontakteille
+# <a name="set-up-alternative-addresses-for-contacts"></a>Vaihtoehtoisten osoitteiden määrittäminen kontakteille
 Voit liittää vaihtoehtoisen osoitteen (esimerkiksi kesämökin osoitteen), johon kontakteille joskus lähetetään postia ja tietoa. Voit määrittää myös vähintään yhden päivämäärävälin jokaiseen vaihtoehtoiseen osoitteeseen, jonka olet antanut kontakteillesi määrittämään, milloin osoite on voimassa.
 
 ## <a name="to-assign-an-alternate-address"></a>Vaihtoehtoisen osoitteen määrittäminen
@@ -41,5 +41,5 @@ Toista nämä vaiheet ja luo niin monta päivämääräväliä kuin haluat.
 
 ## <a name="see-also"></a>Katso myös
 [Kontaktiyritysten luominen](marketing-create-contact-companies.md)  
-[Dynamics 365:n käyttäminen](ui-work-product.md)
+[Finance and Operations, Business editionin käyttäminen](ui-work-product.md)
 

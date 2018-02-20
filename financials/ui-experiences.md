@@ -1,6 +1,6 @@
 ---
 title: "Lisätoiminnot näyttävän tai piilottavan käyttäjäkokemuksen valitseminen | Microsoft Docs"
-description: "Lisätietoja siitä, mitä Dynamics 365 Business editionin Perus- ja Suite-käyttäjäkokemus tarkoittaa käyttöliittymässä, sovellusalueilla ja yrityksessä."
+description: "Tutustu, miten Dynamics 365 for Financialsin Perus- ja Essentials-käyttäjäkokemus tarkoittaa käyttöliittymässä, sovellusalueilla ja yrityksessä."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -8,27 +8,25 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Suite, Basic, user interface, application area
-ms.date: 08/22/2017
+ms.search.keywords: essentials, basic, user interface, application area, experience
+ms.date: 01/24/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 361019af4ba1832cd0b9ac39c20bf22e98b38a76
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f019ffbc0c8f02d6facfe58e96de469e90a26a3c
 ms.contentlocale: fi-fi
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="customizing-your-included365finlongincludesd365finlongmdmd-experience"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]in käyttökokemuksen mukauttaminen
-[!INCLUDE[d365fin](includes/d365fin_md.md)] on suunniteltu auttamaan liiketoiminnan käytännön asioissa toimialasta riippumatta. [!INCLUDE[d365fin](includes/d365fin_md.md)]in ydintä ovat talousraportointi sekä myynti- ja ostoprosessit. Voit lisätä yrityksesi tarvitsemia ominaisuuksia hakemalla AppSourcesta laajennuksia. Voit myös supistaa tai laajentaa käyttökokemusta ja valita yritykseesi parhaiten sopivan laajuuden. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md).
+# <a name="customizing-your-included365finincludesd365finmdmd-experience"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttökokemuksen mukauttaminen
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  on suunniteltu auttamaan liiketoiminnan käytännön asioissa toimialasta riippumatta. [!INCLUDE[d365fin](includes/d365fin_md.md)]in ydintä ovat talousraportointi sekä myynti- ja ostoprosessit. Voit lisätä siihen kokemuksia liiketoiminnan tarpeiden mukaan lisäämällä laajennuksia AppSourcesta tai muuttamalla yrityksen Kokemus-asetusta. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)]in mukauttaminen laajennuksilla](ui-extensions.md) tai alla olevassa kohdassa *Käyttäjäkokemuksen valitseminen*.
 
-## <a name="choosing-a-user-experience"></a>Käyttäjäkokemuksen valitseminen
+## <a name="choosing-a-user-experience-to-show-or-hide-features"></a>Ominaisuuksien näyttäminen tai piilottaminen valitsemalla käyttäjäkokemus
 Käyttäjäkokemus määrittää, kuinka suurta osaa [!INCLUDE[d365fin](includes/d365fin_md.md)]in perustoiminnoista voit työtovereittesi kanssa käyttää. Voit valita yrityksen käyttökokemuksen **Yrityksen tiedot** -ikkunan **Kokemus**-kentässä.
-
+  
 > [!NOTE]  
->   Tämä asetus koskee kaikki yrityksen käyttäjiä.
-
-![Kokemus](media/ui-experience/experience.gif)
-
+> Tämä asetus koskee kaikki yrityksen käyttäjiä. Käyttäjät voivat lisäksi mukauttaa omaa kokemustaan muuttamalla sivun asettelua ja sisältöä. Lisätietoja on kohdassa [Työtilan ja sivujen mukauttaminen](ui-personalization-user.md).  
+  
 Seuraavassa taulukossa on luettelo nyt käytettävissä olevista kokemuksista.
 
 | Kokemus | Vaikutus käyttöliittymään |
@@ -38,8 +36,8 @@ Seuraavassa taulukossa on luettelo nyt käytettävissä olevista kokemuksista.
 
 ## <a name="see-also"></a>Katso myös .
 [Perusasetusten muuttaminen](ui-change-basic-settings.md)  
-[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]in mukauttaminen laajennusten avulla](ui-extensions.md)  
-[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]in käyttäminen](ui-work-product.md)
+[[!INCLUDE[d365fin](includes/d365fin_md.md)]in mukauttaminen laajennusten avulla](ui-extensions.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
 

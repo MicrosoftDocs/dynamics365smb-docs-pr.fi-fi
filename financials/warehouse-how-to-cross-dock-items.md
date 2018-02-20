@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5e167129e8a8bc5f10a0f9de4c384c06de030bbb
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 7da190b6859b00ddb56612ae29234932a03b50a1
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-cross-dock-items"></a>Nimikkeiden laituroiminen
+# <a name="cross-dock-items"></a>Nimikkeiden laiturointi
 Laiturointitoiminto on käytettävissä, jos olet määrittänyt fyysisen varastoinnin vastaanoton ja hyllytyksen käsittelyn pakolliseksi sijainnissa.  
 
 Kun laituroit nimikkeitä, käsittele nimikkeitä vastaanotossa ja toimituksessa ilman varastointia, nopeuatat nimikkeen hyllytys- ja poimintaprosesseja ja rajoitat nimikkeiden fyysistä käsittelyä. Voit laituroida nimikkeet sekä toimitus- että tuotantotilauksille. Kun valmisteleta toimitusta tai poimit nimikkeittä tuotantoon ja käytät varastopaikkoja, nimike keräillään automaattisesti laiturointivarastopaikasta ennen muita varastopaikkoja. Sinun tulee tarkistaa laiturointialue nähdäksesi, onko starvitsemasi nimikkeet käytettävissä siellä, ennen kuin haet nimikkeet normaalille varastointialueelle.  
@@ -39,7 +39,7 @@ Ohjelma ei ylläpidä erillisiä tietueita nimikkeistä, jotka on laituroitu, va
 ## <a name="to-set-up-the-warehouse-for-cross-docking"></a>Fyysisen varastoinnin määrittäminen laiturointia varten  
 1.  Määritä ainakin yksi laiturointivarastopaikka, jos käytät varastopaikkoja. Määritä laiturointialue, jos käytät ohjattua hyllytystä ja poimintaa.  
 
-    Laiturointivar.paikassa on **Laiturointivar.paikka**-kenttä valittuna ja sekä **Vastaanotto** että **Poiminta** -paikkatyypit on valittu. Lisätietoja on kohdissa [Toimintaohje: Varastopaikkojen luominen](warehouse-how-to-create-individual-bins.md) ja [Toimintaohje: Varastopaikkatyyppien määrittäminen](warehouse-how-to-set-up-bin-types.md).  
+    Laiturointivar.paikassa on **Laiturointivar.paikka**-kenttä valittuna ja sekä **Vastaanotto** että **Poiminta** -paikkatyypit on valittu. Lisätietoja on kohdissa [Varastopaikkojen luominen](warehouse-how-to-create-individual-bins.md) ja [Varastopaikkatyyppien määrittäminen](warehouse-how-to-set-up-bin-types.md).  
 
     Jos käytät alueita, luo alue laiturointivarastopaikoille ja valitse **Laiturointivar.paikan alue** -kenttä. Lisätietoja on kohdassa [Sijaintien määrittäminen varastopaikkojen käyttämistä varten](warehouse-how-to-set-up-locations-to-use-bins.md).  
 
@@ -59,7 +59,7 @@ Ohjelma ei ylläpidä erillisiä tietueita nimikkeistä, jotka on laituroitu, va
 
 ## <a name="to-cross-dock-items-without-viewing-the-opportunities"></a>Nimikkeiden laituroiminen ilman mahdollisuuksien tarkastelua  
 1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **F.var. vast.otot** ja valitse sitten aiheeseen liittyvä linkki.  
-2.  Luo varaston vastaanotot nimikkeelle, joka on saapunut ja voidaan ehkä laituroida. Lisätietoja on kohdassa [Toimintaohje: Nimikkeiden vastaanottaminen](warehouse-how-receive-items.md).  
+2.  Luo varaston vastaanotot nimikkeelle, joka on saapunut ja voidaan ehkä laituroida. Lisätietoja on kohdassa [Nimikkeiden vastaanottaminen](warehouse-how-receive-items.md).  
 3.  Täytä **Vastaanotettava määrä** -kenttä ja valitse sitten **Laske laiturointi** -toiminto.  
 
     Näin tunnistetaan lähtevät lähdeasiakirjat, joissa pyydetään päivämääräkaavan ajanjakson aikana varastolta lähteviksi aikataulutettuja nimikkeitä.  [!INCLUDE[d365fin](includes/d365fin_md.md)] laskee määrät siten, että laituroitava määrä on mahdollisimman suuri ja ettei nimikkeitä tarvitse hyllyttää. Laskelma tehdään kuitenkin niin, ettei laiturointialueelle keräänny liian paljon nimikkeitä. **Laituroitava määrä** -kentässä oleva arvo on siis yhteenlaskettu summa kaikista lähtevistä riveistä, joilla pyydetään nimikettä määritetyn ajanjakson aikana, vähennettynä laiturointialueelle sijoitetulla nimikkeen määrällä – tai se on vastaanottorivin **Vastaanotettava määrä** -kentän arvo – sen mukaan, kumpi näistä arvoista on pienempi. Laituroinnin määrä ei voi olla suurempi kuin vastaanotettu määrä.  
@@ -76,7 +76,7 @@ Ohjelma ei ylläpidä erillisiä tietueita nimikkeistä, jotka on laituroitu, va
 
 ## <a name="to-cross-dock-items-after-viewing-the-opportunities"></a>Nimikkeiden laiturointi mahdollisuuksien tarkastelemisen jälkeen  
 1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **F.var. vast.otot** ja valitse sitten aiheeseen liittyvä linkki.  
-2.  Luo fyysisen varaston vastaanotot nimikkeelle, joka on saapunut ja joka voidaan ehkä laituroida. Lisätietoja on kohdassa [Toimintaohje: Nimikkeiden vastaanottaminen](warehouse-how-receive-items.md).  
+2.  Luo varaston vastaanotot nimikkeelle, joka on saapunut ja joka voidaan ehkä laituroida. Lisätietoja on kohdassa [Nimikkeiden vastaanottaminen](warehouse-how-receive-items.md).  
 
     Haluat tarkastella lähdeasiakirjan rivejä, joilla pyydetään nimikettä, ennen vastaanoton kirjaamista.  
 3.  Valitse **Laske laiturointi** -toiminto.  
@@ -84,7 +84,7 @@ Ohjelma ei ylläpidä erillisiä tietueita nimikkeistä, jotka on laituroitu, va
     **Laiturointimahdollisuudet**-ikkuna sisältää tärkeimmät tiedot riveistä, joilla pyydetään nimikettä. Näitä tietoja ovat esimerkiksi asiakirjan tyyppi, pyydetty määrä ja eräpäivä. Näiden tietojen avulla voit päättää, kuinka paljon laituroidaan, mihin nimikkeet sijoitetaan laiturointialueella tai miten niitä ryhmitellään.  
 
 4.  Valitsemalla **Täytä laiturointimäärä automaattisesti** toiminnot, näet, vastaanottorivien määrät lasketaan. Kun muutat nimikkeiden määrää **Laituroitava määrä** -kentässä jokaisella rivillä, laskelma päivitetään, kun teet muutoksia. Tämä ei tarkoita sitä, että tietty toimitus tai tuotantotilaus tosiasiassa vastaanottaa laituroitaviksi ehdotetut nimikkeet, koska tämä menettely on tarkoitettu vain testaamista varten. Prosessista voi kuitenkin olla hyötyä useita mittayksikköjä käytettäessä.  
-5.  Jos haluat varata nimikemäärän tietylle tilausriville, siirrä osoitin kyseiselle riville ja valitse **Varaa**-toiminto. Voit nyt varata **Varaus**-ikkunassa nimikettä tilaukseen saatavilla olevan määrän. Tämä varaus on kuin mikä tahansa muu varaus, eikä sillä ole suurempaa prioriteettia, koska se luotiin laituroinnin yhteydessä. Lisätietoja on kohdassa [Toimintaohje: Nimikkeiden varaaminen](inventory-how-to-reserve-items.md).   
+5.  Jos haluat varata nimikemäärän tietylle tilausriville, siirrä osoitin kyseiselle riville ja valitse **Varaa**-toiminto. Voit nyt varata **Varaus**-ikkunassa nimikettä tilaukseen saatavilla olevan määrän. Tämä varaus on kuin mikä tahansa muu varaus, eikä sillä ole suurempaa prioriteettia, koska se luotiin laituroinnin yhteydessä. Lisätietoja on kohdassa [Nimikkeiden varaaminen](inventory-how-to-reserve-items.md).   
 6.  Kun olet saanut uudelleenlaskennan tai varaamisen valmiiksi, tuo korjattu laskennan vastaanottorivi **Laituroitava määrä** -kenttään valitsemalla **OK** tai valitse **Peruuta**, jos haluat palata fyysisen varastoinnin vastaanottoon, jossa voit laskea laituroinnin uudelleen.  
 7.  Kirjaa nyt vastaanotto, niin voit jatkaa hyllytysohjeeseen osan ”Nimikkeiden laituroiminen ilman mahdollisuuksien tarkastelua” vaiheissa 3 - 7.  
 

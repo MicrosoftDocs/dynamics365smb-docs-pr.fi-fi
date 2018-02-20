@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 2e47adde6da02252ee1dd15abb8cbd905579420b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5dc35d82dee8d3a9b93c04de497e7363b7bafb90
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="about-calculating-standard-cost"></a>Tietoja standardikustannuksen laskemisesta
@@ -52,7 +52,7 @@ Seuraavat keskeiset kustannukset muodostavat valmiiksi käsitellyn nimikkeen vä
 -   Välittömät materiaalikustannukset edustavat ostettujen raaka-aineiden tai osakokoonpanon käsittelykustannusten laskutettua summaa.  
 -   Välilliset kustannukset (tai *yleiskustannukset*) voivat koostua esimerkiksi tuotetun valmiin nimikkeen varastointikustannuksista.  
 
-Ostettujen nimikkeiden materiaalikustannusten määrittäminen välillisiin ja välittömiin kustannuksiin riippuu kyseiselle nimikkeelle valitusta arvostusmenetelmästä. Kummankin arvostusmenetelmän kustannustiedot määritetään nimikkeen kortissa. Lisätietoja on ohjeaiheessa [Toimintaohje: Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md).
+Ostettujen nimikkeiden materiaalikustannusten määrittäminen välillisiin ja välittömiin kustannuksiin riippuu kyseiselle nimikkeelle valitusta arvostusmenetelmästä. Kummankin arvostusmenetelmän kustannustiedot määritetään nimikkeen kortissa. Lisätietoja on ohjeaiheessa [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md).
 
 Hukkatavaran kustannus tuotannossa on kokonaismateriaalikustannusten laskennassa huomioon otettava lisätekijä. Kun tietty määrä raaka-ainetta hukataan nimikkeen kokoonpanossa tai tuotannossa, tämän nimikkeen tuotannossa tarvittavien komponenttien määrä yleensä kasvaa. Se taas lisää päänimikkeen tuotannossa tarvittavien komponenttien materiaalikustannuksia. Materiaalien hukkakustannus voidaan määrittää joko tuotannon tuoterakenteessa tai reitityksessä.  
 
@@ -98,13 +98,13 @@ Päivitä tai laske kokoonpanon nimikkeiden standardikustannukset käyttäen fun
 Vakiokustannusten päivittäminen tai laskeminen koostuu yleensä seuraavista tehtävistä:  
 
 1.  Päivitetään kustannuksia osa- ja kapasiteettitasolla. Lisätietoja on **Ehdota nimikkeen vakiokust.**- ja **Ehdota kapasiteetin vakiokustannusta** -eräajoissa.  
-2.  Nimikkeiden kokoonpanon ja tuotannon kokonaiskustannusten laskeminen konsolidoimalla ja vyöryttämällä osa- ja kapasiteettikustannukset. Lisätietoja on ohjeaiheen [Toimintaohje: Tuoterakenteen käyttäminen](inventory-how-work-BOMs.md) kohdassa Kokoonpanon nimikkeen vakiokustannusten laskeminen.  
+2.  Nimikkeiden kokoonpanon ja tuotannon kokonaiskustannusten laskeminen konsolidoimalla ja vyöryttämällä osa- ja kapasiteettikustannukset. Lisätietoja on ohjeaiheen [Tuoterakenteen käyttäminen](inventory-how-work-BOMs.md) kohdassa Kokoonpanon nimikkeen vakiokustannusten laskeminen.  
 3.  Otetaan edellisten eräajojen aikana syötetyt vakiokustannukset käyttöön. Vakiokustannukset eivät tule voimaan, ennen kuin ne on otettu käyttöön. Lisätietoja on **Ota käyttöön vakiokustannusten muutokset** -eräajossa.  
 4.  Otetaan muutokset käyttöön nimikkeen kortin **Yksikkökustannus**-kentän päivittämistä ja varaston uudelleenarvostuksen suorittamista varten. Lisätietoja on kohdassa [Varaston uudelleenarvostus](inventory-how-revalue-inventory.md).
 
 ## <a name="see-also"></a>Katso myös  
- [Rakennetiedot: Arvostusmenetelmät](design-details-costing-methods.md)   
- [Toimintaohje: Tuoterakenteen käyttäminen](inventory-how-work-BOMs.md)   
+ [Rakennetiedot: arvostusmenetelmät](design-details-costing-methods.md)   
+ [Tuoterakenteen käyttäminen](inventory-how-work-BOMs.md)   
  [Vakiokustannusten päivittäminen](finance-how-to-update-standard-costs.md)   
  [Rakennetiedot: Varaston arvostus](design-details-inventory-costing.md)
 

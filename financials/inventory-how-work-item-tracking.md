@@ -13,20 +13,20 @@ ms.search.keywords:
 ms.date: 08/22/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 326c7931cc0217c72ede62d5516dba5f4ee6fa32
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f9672af6dc4f87f52773a91c587f60c6afe98b8f
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-serial-and-lot-numbers"></a>Toimintaohje: Sarja- ja eränumeroiden käsitteleminen
+# <a name="work-with-serial-and-lot-numbers"></a>Sarja- ja eränumeroiden käsitteleminen
 Voit määrittää sarja- ja eränumeroita mihin tahansa lähtevään tai saapuvaan asiakirjaan, ja sen kirjatut nimikeseurantatapahtumat näkyvät niihin liittyvissä nimiketapahtumissa. Käsittely tehdään **Nimikkeen seurantarivit** -ikkunassa.
 
 **Nimikkeen seurantarivit** -ikkunan yläosassa olevassa määräkenttien taulukossa näkyy rivillä määritettävien nimikkeen seurantanumeroiden määrät ja summat. Määrien on vastattava asiakirjarivejä. Sen osoituksena **Määrittelemätön**-kentässä on 0.
 
 Suorituskyvyn mittaamiseksi ohjelma kerää saatavuustietoja **Nimikkeen seurantarivit** -ikkunassa vain kerran, kun ikkuna avataan. Tällöin ohjelma ei päivitä saatavuustietoja ikkunan ollessa avoinna, vaikka varastotiedoissa tai muissa asiakirjoissa tapahtuisi muutoksia kyseisenä aikana.
 
-Nimikkeet, joiden sarja- tai eränumeroita voi jäljittää toimitusketjussa eteen- ja taaksepäin. Tämä kätevää yleisessä laadunvarmistuksessa ja tuotteen takaisinvedossa. Lisätietoja on ohjeaiheessa [Toimintaohje: Nimikeseurannan nimikkeiden jäljittäminen](inventory-how-to-trace-item-tracked-items.md)
+Nimikkeet, joiden sarja- tai eränumeroita voi jäljittää toimitusketjussa eteen- ja taaksepäin. Tämä kätevää yleisessä laadunvarmistuksessa ja tuotteen takaisinvedossa. Lisätietoja on kohdassa [Nimikeseurannan nimikkeiden jäljittäminen](inventory-how-to-trace-item-tracked-items.md)
 
 ## <a name="about-picking-serial-or-lot-numbers-in-the-warehouse"></a>Tietoja sarja- tai eränumeroiden poimimisesta varastossa
 Sarja-/eränumeroiden lähtevä käsittely on tehtävä, jota käytetään useiden eri fyysisen varaston prosessien aikana.  
@@ -236,7 +236,7 @@ Kenttien sisältöä **Sarjanro****Eränro** ei voida muuttaa. Voit kuitenkin po
 Nimikkeiden seurannan uudelleenluokittelu tarkoittaa erä- tai sarjanumeron muuttamista uudeksi erä- tai sarjanumeroksi tai vanhentumispäivämäärän muuttamista uudeksi vanhentumispäivämääräksi. Jos käsittelet eriä, voit myös yhdistää useita eriä yhdeksi eräksi. Voit suorittaa nämä tehtävät nimikkeen uudelleenluokituspäiväkirjassa.
 
 1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Nimikkeen uudell.luokit. pvk** ja valitse sitten aiheeseen liittyvä linkki.  
-2.  Täytä rivi asianmukaisilla tiedoilla. Lisätietoja on kohdassa [Toimintaohje: Varaston laskeminen, muuttaminen ja uudelleenluokitus](inventory-how-count-adjust-reclassify.md).
+2.  Täytä rivi asianmukaisilla tiedoilla. Lisätietoja on kohdassa [Varaston laskeminen, muuttaminen ja uudelleenluokitus](inventory-how-count-adjust-reclassify.md).
 3.  Valitse **Nimikkeen seurantarivit** -toiminto.  
 4.  Napsauta **Sarjanro**- tai **Eränro**-kentässä olevaa AssistButtonia ja valitse nykyinen sarja- tai eränumero.  
 5.  Jos haluat syöttää uuden nimikeseurannan numeron, syötä se **Uusi sarjanro**- tai **Uusi eränro** -kenttään. Jos haluat, voit yhdistää eriä yhdeksi uudeksi tai olemassa olevaksi eräksi.  
@@ -263,6 +263,6 @@ Nimikkeiden seurannan uudelleenluokittelu tarkoittaa erä- tai sarjanumeron muut
 [Vaihto-omaisuus](inventory-manage-inventory.md)  
 [Rakennetiedot: Nimikkeen seuranta](design-details-item-tracking.md)
 [Rakennetiedot: Nimikkeen seuranta ja varaukset](design-details-item-tracking-and-reservations.md)  
-[Toimintaohje: Nimikkeiden varaaminen](inventory-how-to-reserve-items.md)  
+[Nimikkeiden varaaminen](inventory-how-to-reserve-items.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
 

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c66fc5da322ddb1d217b61da0b563faab27b344e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 25319bae1d601d6beddca35cf8edc032ac11eda6
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Vaihekuvaus: tehdään kassavirtaennusteita käyttäen KP-raporttimalleja
@@ -34,7 +34,7 @@ Tässä vaihekuvauksessa käsitellään seuraavia tehtäviä:
 ### <a name="prerequisites"></a>Vaatimukset  
 Tämän vaihekuvauksen ohjeiden noudattamisen edellytykset:  
 
-- [!INCLUDE[d365fin](includes/d365fin_md.md)] on asennettu.  
+- [!INCLUDE[d365fin](includes/d365fin_md.md)]  on asennettu.  
 - Kassavirran rivit on rekisteröity.  
 
 ## <a name="roles"></a>Roolit  
@@ -50,7 +50,7 @@ KP-raporttimalli koostuu kassavirran KP-raporttimallin nimestä, jossa on sarja 
 
 ### <a name="to-set-up-a-new-account-schedule-name"></a>Uuden KP-raporttimallin nimen määrittäminen  
 
-1.  Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **KP-raporttimallit** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **KP-raporttimallit** ja valitse sitten aiheeseen liittyvä linkki.  
 2.  Valitse **KP-raporttimallien nimet** -ikkunassa **Uusi**-toiminto ja luo uuden kassavirran KP-raporttimallin nimi.  
 3.  Syötä **Nimi**-kenttään **Ennuste**.  
 4.  Kirjoita **Kuvaus**-kenttään **Kassavirtaennuste**.  

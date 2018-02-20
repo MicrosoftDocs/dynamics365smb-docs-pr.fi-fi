@@ -12,19 +12,19 @@ ms.search.keywords: stock
 ms.date: 08/15/2017
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 986f1b00f1a8db237944ec8579d9401ca85dfd8a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: dade893e7ff1c14854274565b40a436a5a9b48c8
 ms.contentlocale: fi-fi
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-view-the-availability-of-items"></a>Nimikkeiden saatavuuden tarkasteleminen
+# <a name="view-the-availability-of-items"></a>Nimikkeiden saatavuuden tarkasteleminen
 Voit saada, liiketoimintaan liittyvän tehtävän kontekstissa, lisätietoja milloin ja mistä nimike on saatavissa, esimerkiksi kun kerrot asiakkaalle toimitusaikataulua.
 
 Voit tarkastella kaikkien nimikkeiden saatavuutta sijainneittain sekä kunkin nimikkeen saatavuutta tapahtuman, jakson tai sijainnin perusteella. Tapahtuma on mikä tahansa suunniteltu nimiketapahtuma, kuten myyntitoimitus tai saapuvan siirron vastaanotto.
 
 > [!NOTE]  
->   Sijaintiin perustuvat saatavuusnäkymät edellyttävät, että varastoa pidetään useissa sijainneissa. Lisätietoja on kohdassa [Toimintaohje: Sijaintien määrittäminen](inventory-how-setup-locations.md).
+>   Sijaintiin perustuvat saatavuusnäkymät edellyttävät, että varastoa pidetään useissa sijainneissa. Lisätietoja on kohdassa [Sijaintien määrittäminen](inventory-how-setup-locations.md).
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen saatavuusluvut näytetään kahdessa eri kentässä, ja kullakin on eri määritelmä:
 
@@ -35,7 +35,7 @@ Voit tarkastella kaikkien nimikkeiden saatavuutta sijainneittain sekä kunkin ni
 >   Oletettu saatavilla oleva saldo soveltuu erityisesti **Nimikk. saatavuus jaksoittain** ja **Nimikkeen saatavuus tapahtumittain** -ikkunoiden tarkasteluun, koska ne sisältävät päivämäärädimension.  
 
 > [!NOTE]  
->   Seuraavissa ohjeissa kerrotaan, miten saatavuuden lisätietoja tarkastellaan nimikeluettelosta ja -kortilta. Tietoja voi käyttää myös myyntiasiakirjan riveiltä, jotka koskevat ko. nimikettä. Lisätietoja on kohdassa [Toimintaohje: Tuotteiden myyminen](sales-how-sell-products.md).
+>   Seuraavissa ohjeissa kerrotaan, miten saatavuuden lisätietoja tarkastellaan nimikeluettelosta ja -kortilta. Tietoja voi käyttää myös myyntiasiakirjan riveiltä, jotka koskevat ko. nimikettä. Lisätietoja on kohdassa [Tuotteiden myyminen](sales-how-sell-products.md).
 
 ## <a name="to-view-the-availability-of-an-item-according-to-when-it-will-be-received-or-shipped"></a>Voit tarkastella nimikkeen saatavuutta sen vastaanotto- tai toimituspäivän mukaan.
 Voit tarkastella nimikkeen saatavuutta **Saatavuus tapahtumittain** -ikkunassa näytettävien suunniteltujen nimiketapahtumien perusteella.
@@ -115,10 +115,10 @@ Jos vähintään yksi kokoonpanon komponentti ei ole saatavana, vaikutus näkyy 
 ## <a name="see-also"></a>Katso myös
 [Varaston hallinta](inventory-manage-inventory.md)  
 [Kokoonpanon hallinta](assembly-assemble-items.md)  
-[Toimintaohje: Tuoterakenteen käyttäminen](inventory-how-work-BOMs.md)    
-[Toimintaohje: Sijaintien määrittäminen](inventory-how-setup-locations.md)  
-[Toimintaohje: Varastonimikkeiden siirtäminen sijaintien välillä](inventory-how-transfer-between-locations.md)  
-[Toimintaohje: Tuotteiden myyminen](sales-how-sell-products.md)      
-[Dynamics 365:n käyttäminen](ui-work-product.md)  
+[Tuoterakenteiden käyttäminen](inventory-how-work-BOMs.md)    
+[Sijaintien määrittäminen](inventory-how-setup-locations.md)  
+[Varastonimikkeiden siirtäminen sijaintien välillä](inventory-how-transfer-between-locations.md)  
+[Tuotteiden myyminen](sales-how-sell-products.md)      
+[Finance and Operations, Business editionin käyttäminen](ui-work-product.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)
 

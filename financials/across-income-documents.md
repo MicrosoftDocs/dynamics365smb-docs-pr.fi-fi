@@ -13,10 +13,10 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 8c15fded4b70ee0fce8ad43f90b915a33523fc77
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d38f1ed77ac3fac7c9283af6ea0f92479adbf89f
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="incoming-documents"></a>Saapuvat asiakirjat
@@ -41,7 +41,7 @@ Saapuvien asiakirjojen käsittely voi muodostua seuraavista pääaktiviteeteista
 
 | Toiminta | Katso |
 | --- | --- |
-| Määritä Saapuvat asiakirjat -ominaisuus ja OCR-palvelu. |[Toimintaohje: Saapuvien asiakirjojen määrittäminen](across-how-setup-income-documents.md) |
+| Määritä Saapuvat asiakirjat -ominaisuus ja OCR-palvelu. |[Määritä saapuvat asiakirjat](across-how-setup-income-documents.md) |
 | Luo saapuvan asiakirjan tietueet, liitä tiedostot, käytä OCR:ää muuntamaan PDF-tiedostot sähköisiksi asiakirjoiksi, muunna sähköiset asiakirjat asiakirjatietueiksi, valvo kirjattujen myynti- ja ostoasiakirjojen saapuvia asiakirjatietueita. |[Saapuvien asiakirjojen käsitteleminen](across-process-income-documents.md) |
 
 ## <a name="see-also"></a>Katso myös

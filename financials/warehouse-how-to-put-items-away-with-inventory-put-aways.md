@@ -1,6 +1,6 @@
 ---
 title: "Nimikkeiden hyllyttäminen varastohyllytyksen avulla | Microsoft Docs"
-description: "Kun sijainti on määritetty edellyttämään hyllytyskäsittelyä mutta ei vastaanottokäsittelyä, lähdeasiakirjojen hyllytys- ja vastaanottotiedot tallennetaan ja kirjataan **Varastohyllytys**-asiakirjaan. Saapuva lähdeasiakirja voi olla ostotilaus, myyntipalautustilaus, saapuva siirtotilaus tai tuotantilaus jonka tuotos odottaa hyllytystä."
+description: "Kun sijanti on asetettu vaatimaan hyllytysprosessia mutta ei vastaanottoprosessia, sinun tulee käyttää **Varastohyllytys** -asiakirjaa kirjataksesi hyllytys ja vastaanotto tietoja lähdeasiakirjoillesi. Saapuva lähdeasiakirja voi olla ostotilaus, myyntipalautustilaus, saapuva siirtotilaus tai tuotantilaus jonka tuotos odottaa hyllytystä."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/31/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5de060d742401da62339fb67deff38d0a1e7bddb
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 92eae2f24daf8181e39b3d22ea23c31a9ee85347
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-put-items-away-with-inventory-put-aways"></a>Nimikkeiden hyllyttäminen varastohyllytyksen avulla
+# <a name="put-items-away-with-inventory-put-aways"></a>Nimikkeiden hyllyttäminen varastohyllytyksen avulla
 Kun sijainti on määritetty edellyttämään hyllytyskäsittelyä mutta ei vastaanottokäsittelyä, lähdeasiakirjojen hyllytys- ja vastaanottotiedot tallennetaan ja kirjataan **Varastohyllytys**-asiakirjaan. Saapuva lähdeasiakirja voi olla ostotilaus, myyntipalautustilaus, saapuva siirtotilaus tai kokoonpano- tai tuotantotilaus, jonka tuotos odottaa hyllytystä.  
 
 Varastohyllytyksen voi luoda kolmella tavalla:  
@@ -39,7 +39,7 @@ Jos kyseessä on ostotilaus, myyntipalautustilaus, saapuva siirtotilaus tai koko
 4. Valitse **Luo saapuva f. var. pyyntö** -toiminto.  
 
 > [!NOTE]  
->  Voit luoda saapuvan fyysisen varastoinnin pyynnön myös valitsemalla **Luo saapuva pyyntö** -valintaruudun, kun päivität tuotantotilauksen. Lisätietoja on kohdassa [Toimintaohje: Tuotantotilausten päivittäminen tai uudelleensuunnitteleminen](production-how-to-replan-refresh-production-orders.md).  
+>  Voit luoda saapuvan fyysisen varastoinnin pyynnön myös valitsemalla **Luo saapuva pyyntö** -valintaruudun, kun päivität tuotantotilauksen. Lisätietoja on kohdassa [Tuotantotilausten päivittäminen tai uudelleensuunnitteleminen](production-how-to-replan-refresh-production-orders.md).  
 
 Kun fyysisen varastoinnin pyyntö on luotu, varastossa hyllytystä tekevä työntekijä voi nähdä, että lähdeasiakirja odottaa hyllytystä ja hän voi luoda uuden hyllytysasiakirjan fyysisen varastoinnin pyynnöstä.  
 
@@ -68,7 +68,7 @@ Nyt kun pyyntö on luotu, varastotyöntekijä voi luoda uuden varastohyllytyksen
 2. Hyllytysrivien **Varastopaikkakoodi**-kentän varastopaikka, johon nimikkeet on hyllytettävä, ehdotetaan nimikkeen oletusvarastopaikan mukaan. Voit tarvittaessa muuttaa varastopaikkaa tässä ikkunassa.  
 3. Suorita hyllytys ja syötä tiedot koskien todellisia hyllytysmääriä **Käsiteltävä määrä** -kentässä.
 
-    Jos yhden rivin nimikkeet on asetettava useaan varastopaikkaan esimerkiksi siksi, että määritetty varastopaikka on täynnä, käytä **Rivit**-pikavälilehden **Jaa rivi** -toimintoa. Lisätietoja rivien jakamisesta on kohdassa [Toimintaohje: Varastotoimintorivien jakaminen](warehouse-how-to-split-warehouse-activity-lines.md).  
+    Jos yhden rivin nimikkeet on asetettava useaan varastopaikkaan esimerkiksi siksi, että määritetty varastopaikka on täynnä, käytä **Rivit**-pikavälilehden **Jaa rivi** -toimintoa. Lisätietoja rivien jakamisesta on kohdassa [Varastotoimintorivien jakaminen](warehouse-how-to-split-warehouse-activity-lines.md).  
 4. Kun olet suorittanut hyllytyksen, valitse **Kirjaa**-toiminto.  
 
 Kirjausprosessi kirjaa vastaanoton (tai tuotantotilauksille tuotoksen) lähdeasiakirjoista jotka on hyllytetty ja lisäksi jos sijainti käyttää var.paikkoja kirjaus luo myös f.var.tapahtumia kirjatakseen varastopaikan määrä muutoksia.

@@ -11,13 +11,13 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 541eed23db807d62c570834ab0efbef6fc4f4083
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: afeaeb66ee6ff9f45b642e56c9a06ec484fe9669
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Huoltosopimuksen tai sopimustarjouksen vuosittaisen summan muuttaminen
+# <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Huoltosopimuksen tai sopimustarjouksen vuosittaisen summan muuttaminen
 Huoltosopimuksen tai sopimustarjouksen vuosittaista summaa voidaan muuttaa, jos vuosittain laskutettavaa summaa tarvitsee korjata.  
 
 ## <a name="to-change-the-annual-amount-of-the-service-contract-or-contract-quote"></a>Huoltosopimuksen tai sopimustarjouksen vuosittaisen summan muuttaminen  
@@ -186,6 +186,6 @@ Sopimusriveillä on lopuksi seuraavat tiedot:
 |Nimike 3|100.00|115.00|8.20|9.43|105.57|5.57|  
 
 ## <a name="see-also"></a>Katso myös  
-[Toimintaohje: Huoltosopimusten ja huoltosopimustarjousten luominen](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
+[Huoltosopimusten ja huoltosopimustarjousten luominen](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Huoltohallinnon määrittäminen](service-setup-service.md)  
 

@@ -13,16 +13,16 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
-ms.openlocfilehash: 19fbfd60beb973dc65a09b7bfeee95b976a89905
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 25094427b1e87002de11afad487ecd09a8af2e30
 ms.contentlocale: fi-fi
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="creating-cost-budgets"></a>Kustannusbudjettien luominen
 Budjetointi kustannuslaskennassa muistuttaa pääkirjanpidon budjetointia. Kustannusbudjetti luodaan kustannustyyppien perusteella samalla tavalla kuin pääkirjanpidon budjetti luodaan pääkirjanpitotilien perusteella.  
 
-Kustannusbudjetti luodaan tietylle aikajaksolle, esimerkiksi tilikaudelle. Kustannusbudjetteja voi määrittää niin monta kuin tarvitaan. Voit luoda uuden kusannusbudjeti manuaalisesti tai tuomalla kustannusbudjetin tai kopioimalla aiemmin luodun kustannusbudjetin talousarvion perustaksi. Lisätietoja on kohdassa [Toimintaohje: KP-budjettien luominen](finance-how-create-budgets.md).
+Kustannusbudjetti luodaan tietylle aikajaksolle, esimerkiksi tilikaudelle. Kustannusbudjetteja voi määrittää niin monta kuin tarvitaan. Voit luoda uuden kusannusbudjeti manuaalisesti tai tuomalla kustannusbudjetin tai kopioimalla aiemmin luodun kustannusbudjetin talousarvion perustaksi. Lisätietoja on kohdassa [KP-budjettien luominen](finance-how-create-budgets.md).
 
 Voit luoda ja analysoida kustannusbudjetteja seuraavissa ikkunoissa. Etsi ikkuna valitsemalla ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake ja lue sitten kunkin ikkunan työkaluvihje.
 
@@ -36,7 +36,7 @@ Voit luoda ja analysoida kustannusbudjetteja seuraavissa ikkunoissa. Etsi ikkuna
 
 ## <a name="see-also"></a>Katso myös  
 [Kustannuslaskenta](finance-manage-cost-accounting.md)  
-[Toimintaohje: Uusien KP-budjettien luominen](finance-how-create-budgets.md)  
+[KP-budjettien luominen](finance-how-create-budgets.md)  
 [Termit kustannuslaskennassa](finance-terminology-in-cost-accounting.md)   
 [Kustannusten määrittäminen ja kohdistaminen](finance-define-and-allocate-costs.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)

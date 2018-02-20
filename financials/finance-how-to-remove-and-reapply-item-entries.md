@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5ca921ba6c8ced04899b3a8cc2cd2db91e4d69a3
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 12bde7fc508bb29e56ad63d76b526a80b5073f03
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-remove-and-reapply-item-ledger-entries"></a>Toimintaohje: Nimiketapahtumien poistaminen ja uudelleenkohdistaminen
+# <a name="remove-and-reapply-item-ledger-entries"></a>Nimiketapahtumien poistaminen ja uudelleenkohdistaminen
 Voit tarkastella ja muuttaa **Kohdistustyökirja**-ikkunassa manuaalisesti tietyn nimikkeen kohdistustapahtumia, jotka on luotu automaattisesti varastotapahtumien yhteydessä.  
 
 Kun kirjaat tapahtuman, jossa nimikkeitä siirretään varastosta tai varastoon, nimikesovellus luodaan jookaisen varastoarvon nousun varastoarvon laskun väliin. Nämä kohdistukset määrittävät varastoon vastaanotettavien tavaroiden ja varastosta otettavien tavaroiden kustannusvirran. Yksikkökustannuksen laskentatavan mukaan nimikkeen virheellinen kohdistus voi johtaa vääristyneeseen keskimääräiseen kustannukseen ja yksikkökustannukseen. Katso lisätiedot kohdasta Rakennetiedot: nimikkeen kohdistus.
@@ -30,7 +30,7 @@ Seuraavat tilanteet saattavat vaatia, että kohdistus peruutetaan tai nimiketapa
 - Teit virheellisen kiinteän kohdistuksen.
 - Sinun on palautettava nimike, johon myynti on jo kohdistettu.
 
-Käytä asiakirjaa nimiketapahtuman kohdistamisessa uudelleen, jos mahdollista. Jos esimerkiksi teet ostopalautuksen nimikkeelle, jonka myynti on jo kohdistettu, voit tehdä uudelleenkohdistuksen yksinkertaisesti luomalla ja kirjaamalla oikean kohdistuksen sisältävän ostopalautusasiakirjan ostopalautusrivin **Kohdista nimiketapahtumaan** -kentässä. Voit käyttää **Hae peruutettavat kirjatut asiakirjarivit** -toimintoa tai **Kopioi asiakirja** -toimintoa ostopalautusasiakirjassa, jolloin kohdistus on helpompaa. Kun kirjaat asiakirjan, nimiketapahtuma otetaan automaattisesti uudelleen käyttöön. Lisätietoja on kohdassa [Toimintaohje: Ostopalautusten tai -peruutusten käsitteleminen](purchasing-how-process-purchase-returns-cancellations.md).
+Käytä asiakirjaa nimiketapahtuman kohdistamisessa uudelleen, jos mahdollista. Jos esimerkiksi teet ostopalautuksen nimikkeelle, jonka myynti on jo kohdistettu, voit tehdä uudelleenkohdistuksen yksinkertaisesti luomalla ja kirjaamalla oikean kohdistuksen sisältävän ostopalautusasiakirjan ostopalautusrivin **Kohdista nimiketapahtumaan** -kentässä. Voit käyttää **Hae peruutettavat kirjatut asiakirjarivit** -toimintoa tai **Kopioi asiakirja** -toimintoa ostopalautusasiakirjassa, jolloin kohdistus on helpompaa. Kun kirjaat asiakirjan, nimiketapahtuma otetaan automaattisesti uudelleen käyttöön. Lisätietoja on kohdassa [Ostopalautusten tai -peruutusten käsitteleminen](purchasing-how-process-purchase-returns-cancellations.md).
 
 Jos et tehdä uudelleenkohdistusta, kuten korjata kiinteää kohdistusta, asiakirjassa, korjaa kohdistus **Kohdistustyökirja**-ikkunassa.
 
@@ -75,8 +75,8 @@ Jos et tehdä uudelleenkohdistusta, kuten korjata kiinteää kohdistusta, asiaki
 6.  Jos **varastonhallinnan asetusten** **Automaattinen kustannusten muuttaminen** -kentän arvoksi määritetään **Aina**, kustannusten muuttamisen eräajo suoritetaan automaattisesti uudelleenkohdistuksen jälkeen. Muussa tapauksessa voit varmistaa suorittamalla **Muuta kustannuksia - Nimiketapahtumat** -eräajon, että kaikki kustannukset on päivitetty.  
 
 ## <a name="see-also"></a>Katso myös  
-[Toimintaohje: Nimikepäiväkirjan kiinteästä kohdistuksesta aiheutuvien avointen nimiketapahtumien sulkeminen](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
- [Toimintaohje: Ostopalautuksen tai peruutuksen käsittely](purchasing-how-process-purchase-returns-cancellations.md)  
+[Nimikepäiväkirjan kiinteästä kohdistuksesta aiheutuvien avointen nimiketapahtumien sulkeminen](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
+ [Ostopalautusten tai peruutusten käsittely](purchasing-how-process-purchase-returns-cancellations.md)  
  [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)   
  [Rakennetiedot: Nimikkeen kohdistus](design-details-item-application.md)  
  [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)

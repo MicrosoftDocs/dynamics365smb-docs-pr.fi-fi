@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 Business editionin uudet ominaisuudet | Microsoft Docs
-description: "Ohjeaiheessa kerrotaan Dynamics 365 Business editionin viimeisimmät uutiset ja käsitellään uusimmat päivitykset."
+title: Finance and Operations, Business editionin uudet ominaisuudet | Microsoft Docs
+description: "Ohjeaiheessa kerrotaan Finance and Operations, Business editionin viimeisimmät uutiset ja käsitellään uusimmat päivitykset."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,27 +13,27 @@ ms.search.keywords: news
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 83637fe211ce764b4b18429ab4c2c79cc06f3d20
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 78f340d619f622c6bca91bd97f0fcd8ae6b28acd
 ms.contentlocale: fi-fi
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="whats-new-in-dynamics-365-for-finance-and-operations-business-edition"></a>Dynamics 365 for Finance and Operations, Business editionin uudet ominaisuudet
 Tervetuloa [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]iin! Jos et ole vielä rekisteröitynyt kokeiluversioon, tee se nyt, niin esittelemme [!INCLUDE[d365fin](includes/d365fin_md.md)]in perusominaisuudet. Tämän jälkeen voit kokeilla toimintoja itseksesi jonkin aikaa. Kun olet valmis, voit avata tyhjän yrityksen ja määrittää sen tiedot.  
 
-Päivitämme [!INCLUDE[d365fin](includes/d365fin_md.md)]in ydinsovellukseen säännöllisesti lisää ominaisuuksia ja uusia [laajennuksia](ui-extensions.md). Lisätietoja tulevista ja jo käytössä olevista ominaisuuksista on sivustossa [Dynamics 365 Roadmap](https://roadmap.dynamics.com/). Muista suodattaa esiin [!INCLUDE[d365fin](includes/d365fin_md.md)]ia koskevat tiedot.  
+Päivitämme [!INCLUDE[d365fin](includes/d365fin_md.md)]in ydinsovellukseen säännöllisesti lisää ominaisuuksia ja uusia [laajennuksia](ui-extensions.md). Lisätietoja tulevista ja jo käytössä olevista ominaisuuksista on sivustossa [Finance and Operations, Business edition Roadmap](https://roadmap.dynamics.com/). Muista suodattaa esiin [!INCLUDE[d365fin](includes/d365fin_md.md)]ia koskevat tiedot.  
 
-Tällä sivulla kerrotaan, kun esiversion alueita tulee käyttöön. Jatkossa päivitykset ovat [Dynamics 365 Roadmap](https://roadmap.dynamics.com/) -sivustossa.
+Tällä sivulla kerrotaan, kun esiversion alueita tulee käyttöön. Jatkossa päivitykset ovat sivustossa [Finance and Operations, Business edition Roadmap](https://roadmap.dynamics.com/).
 
 ## <a name="november-2016-launch-of-included365finlongincludesd365finlongmdmd"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]in julkistaminen marraskuussa 2016
 Niin kuin blogissa kerrottiin, ratkaisu on nyt palvelu, jota voit käyttää yrityksessäsi. Tämä päivitys lisää myös uusia ominaisuuksia ja uuden laajennuksen.
 
 ### <a name="project-management"></a>Projektinhallinta
-Jos siirryt Suite-vaihtoehtoon, voit hallita projekteja sekä käsitellä resursseja, tuntilomakkeita ja projekteja. Kun kirjaudut ensimmäisen kerran projektipäällikön roolissa, avustettu asennusopas auttaa määrittämään, miten projekteja hallitaan. Voit käyttää esimerkiksi mallitilejä, -projekteja ja -resursseja esittely-yrityksessä ja tutustua tällä tavoin toimintoihin. Lisätietoja on kohdassa [Projektien hallinta](projects-manage-projects.md).
+Voit hallita projekteja sekä käyttää resursseja, tuntiraportteja ja projekteja. Kun kirjaudut ensimmäisen kerran projektipäällikön roolissa, avustettu asennusopas auttaa määrittämään, miten projekteja hallitaan. Voit käyttää esimerkiksi mallitilejä, -projekteja ja -resursseja esittely-yrityksessä ja tutustua tällä tavoin toimintoihin. Lisätietoja on kohdassa [Projektien hallinta](projects-manage-projects.md).
 
 ### <a name="fixed-assets"></a>Käyttöomaisuus
-Jos siirryt Suite-vaihtoehtoon, voit hallitta käyttöomaisuutta, kuten poistoja ja vakuutuksia. Vakioasetukset on valmiina, mutta voit muokata niitä aina tarvittaessa. Voit rekisteröidä käyttöomaisuuserien ostot tarkoitukseen varattuihin käyttöomaisuuden KP-päiväkirjoihin, joissa voit myös luovuttaa käyttöomaisuuseriä. Oikeat kirjanpitotapahtumat luodaan automaattisesti. Lisätietoja on kohdassa [Käyttöomaisuus](fa-manage.md).
+Voit hallita käyttöomaisuutta, kuten poistoja ja vakuutuksia. Vakioasetukset on valmiina, mutta voit muokata niitä aina tarvittaessa. Voit rekisteröidä käyttöomaisuuserien ostot tarkoitukseen varattuihin käyttöomaisuuden KP-päiväkirjoihin, joissa voit myös luovuttaa käyttöomaisuuseriä. Oikeat kirjanpitotapahtumat luodaan automaattisesti. Lisätietoja on kohdassa [Käyttöomaisuus](fa-manage.md).
 
 ### <a name="new-extension-for-migrating-data-from-dynamics-gp"></a>Uusi laajennus tietojen siirtämiseen Dynamics GP:stä
 Jos yrityksesi käyttää tällä hetkellä Dynamics GP:tä, voit siirtää päätietueet [!INCLUDE[d365fin](includes/d365fin_md.md)]iin avustetun asennusoppaan avulla. Sinun on vietävä aiemmin luodut asiakkaat, toimittajat, varastonimikkeet ja tilit Dynamics GP:n tietojen vientitoiminnolla. Dynamics GP:n tietojen siirtolaajennus yhdistää viedyt tiedot automaattisesti, joten saat aiemmin luodut tiedot nopeasti uuteen [!INCLUDE[d365fin](includes/d365fin_md.md)]-yritykseen. Lisätietoja on kohdassa [Dynamics GP:n tietojen siirto](ui-extensions-dynamicsgp-data-migration.md).
@@ -52,17 +52,17 @@ Tässä [!INCLUDE[d365fin](includes/d365fin_md.md)]in päivityksessä lisättiin
 
 ### <a name="more-flexibility-in-your-sales-processes"></a>Entistä joustavammat myyntiprosessit
 Tämä päivitys parantaa myynnin joustavuutta:
-- Voit nyt määrittää ei-varastoitavia nimikkeitä eli nimikkeitä, joita tarjoat asiakkaille mutta joita ei säilytetä varastossa. Lisätietoja on kohdassa [Toimintaohje: Ei-varastoitavien nimikkeiden käsitteleminen](inventory-how-work-nonstock-items.md).
-- Voit nyt merkitä suoratoimitettavan nimikkeen myyntitilaukseen ja luoda samalla nimikkeen ostotilauksen. Tällä tavoin voit myydä nimikkeen asiakkaalle, ostaa sen toimittajalta ja toimittaa sen suoraan toimittajalta asiakkaalle. Lisätietoja on ohjeaiheessa [Toimintaohje: Nimikkeiden ostaminen myyntiin](purchasing-how-purchase-products-sale.md).
+- Voit nyt määrittää ei-varastoitavia nimikkeitä eli nimikkeitä, joita tarjoat asiakkaille mutta joita ei säilytetä varastossa. Lisätietoja on kohdassa [Ei-varastoitavien nimikkeiden käsitteleminen](inventory-how-work-nonstock-items.md).
+- Voit nyt merkitä suoratoimitettavan nimikkeen myyntitilaukseen ja luoda samalla nimikkeen ostotilauksen. Tällä tavoin voit myydä nimikkeen asiakkaalle, ostaa sen toimittajalta ja toimittaa sen suoraan toimittajalta asiakkaalle. Lisätietoja on kohdassa [Nimikkeiden ostaminen myyntiin](purchasing-how-purchase-products-sale.md).
 
 ### <a name="categorize-items-in-your-inventory"></a>Varastonimikkeiden luokittelu
-Tämän päivityksen myötä voit luoda nimikeluokkahierarkian ja määrittää kullekin nimiluokalle nimikkeen määritteet. Lisätietoja on kohdassa [Toimintaohje: Nimikkeiden luokitteleminen](inventory-how-categorize-items.md).
+Tämän päivityksen myötä voit luoda nimikeluokkahierarkian ja määrittää kullekin nimiluokalle nimikkeen määritteet. Lisätietoja on kohdassa [Nimikkeiden luokitteleminen](inventory-how-categorize-items.md).
 
 ### <a name="send-purchase-orders-to-vendors"></a>Ostotilausten lähettäminen toimittajille
-Voit nyt luoda ostotilauksia [!INCLUDE[d365fin](includes/d365fin_md.md)]issa. Lisätietoja on kohdassa [Toimintaohje: Ostojen kirjaaminen](purchasing-how-record-purchases.md).
+Voit nyt luoda ostotilauksia [!INCLUDE[d365fin](includes/d365fin_md.md)]issa. Lisätietoja on kohdassa [Ostojen kirjaaminen](purchasing-how-record-purchases.md).
 
 ### <a name="better-quality-incoming-documents"></a>Laadultaan paremmat saapuvat asiakirjat
-Voit nyt korjata kätevästi skannatuissa asiakirjoissa olevia virheitä ennen korjatun asiakirjan vastaanottamista. Tällä tavoin palvelu oppii välttämään jatkossa virheitä. Lisätietoja on kohdassa [Toimintaohje: PDF- ja kuvatiedostojen muuntaminen sähköisiksi asiakirjoiksi OCR-palvelun avulla](across-how-use-ocr-pdf-images-files.md).
+Voit nyt korjata kätevästi skannatuissa asiakirjoissa olevia virheitä ennen korjatun asiakirjan vastaanottamista. Tällä tavoin palvelu oppii välttämään jatkossa virheitä. Lisätietoja on kohdassa [PDF- ja kuvatiedostojen muuntaminen sähköisiksi asiakirjoiksi OCR-palvelun avulla](across-how-use-ocr-pdf-images-files.md).
 
 ## <a name="august-2016-update"></a>Elokuun 2016 päivitys
 Tässä [!INCLUDE[d365fin](includes/d365fin_md.md)]in päivityksessä lisättiin uusia ominaisuuksia, kuten [blogissa kerrottiin](https://community.dynamics.com/business/b/financials/archive/2016/08/29/new-and-updated-capabilities-in-the-august-update-of-project-quot-madeira-quot).
@@ -90,10 +90,10 @@ Tämä päivitys lisäsi toimintoja Outlook-apuohjelman toimittajan koontinäytt
 Outlook-apuohjelma on nyt laajentunut Outlookin kalenteriin. Voit avata kalenteritapaamista [!INCLUDE[d365fin](includes/d365fin_md.md)]-apuohjelma ja saada yleiskuvan tapaamiseen liitetystä asiakkaasta. Voit sitten luoda ja lähettää laskun kokouksessa annetuista palveluista – suoraan Outlookin kalenterissa. Lisätietoja on ohjeaiheessa [[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen Outlookin yrityssähköpostina](madeira-outlook.md).  
 
 ### <a name="appsource-marketplace-for-extensions"></a>Laajennusten AppSource-kauppa
-[!INCLUDE[d365fin](includes/d365fin_md.md)]in laajennukset ovat nyt saatavilla AppSource-kaupassa [AppSource.microsoft.comissa](https://appsource.microsoft.com/). Laajennuksia voi etsiä kaupassa. Voi tarkastella tietoja, kuten markkinointiaineistoa, näyttökuvia, videoita ja linkkejä lisätietoihin. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] laajennukset ovat nyt saatavilla AppSource-kaupassa [AppSource.microsoft.comissa](https://appsource.microsoft.com/). Laajennuksia voi etsiä kaupassa. Voi tarkastella tietoja, kuten markkinointiaineistoa, näyttökuvia, videoita ja linkkejä lisätietoihin. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md).  
 
 ### <a name="shipping-agents-and-item-attributes"></a>Kuljetusliikkeet ja nimikkeen määritteet
-Voit lisätä määritteitä varastonimikkeisiin, mikä helpottaa asiakkaan haluaman oikean tuotteen löytämistä. Lisätietoja on kohdassa [Toimintaohje: Nimikkeen määritteiden käsitteleminen](inventory-how-work-item-attributes.md).  
+Voit lisätä määritteitä varastonimikkeisiin, mikä helpottaa asiakkaan haluaman oikean tuotteen löytämistä. Lisätietoja on kohdassa [Nimikkeen määritteiden käsitteleminen](inventory-how-work-item-attributes.md).  
 
 ### <a name="new-extensions-made-available"></a>Saatavilla uusia laajennuksia
 Tämän päivityksen myötä valittavana on entistä enemmän laajennuksia **Laajennusten hallinta** -ikkunassa.
@@ -129,5 +129,5 @@ Voit kokeilla itseksesi näitä tärkeitä tilanteita:
 ## <a name="see-also"></a>Katso myös
 [Tervetuloa [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]iin!](index.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
-[Dynamics 365 Roadmap](https://roadmap.dynamics.com/)  
+[Finance and Operations, Business edition Roadmap](https://roadmap.dynamics.com/)  
 

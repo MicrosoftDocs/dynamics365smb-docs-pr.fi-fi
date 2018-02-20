@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 34d6e46146f3072da49cd28e4b4bf1b0f00d1369
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: cc45bf06ab5d12cf393d48b7b1c295db28f56b3b
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-enable-picking-items-by-fefo"></a>Toimintaohje: FEFO-poiminnan ottaminen käyttöön
+# <a name="enable-picking-items-by-fefo"></a>FEFO-poiminnan ottaminen käyttöön
 FEFO (First Expired First Out) on lajittelumenetelmä, joka varmistaa sen, että vanhimmat ja aikaisimman vanhenemispäivämäärän omaavat nimikkeet poimitaan ensin.  
 
  Tämä toiminto toimii vain, kun seuraavat ehdot täyttyvät:  
@@ -46,7 +46,7 @@ FEFO (First Expired First Out) on lajittelumenetelmä, joka varmistaa sen, että
 ## <a name="see-also"></a>Katso myös  
 [Nimikkeiden poiminta](warehouse-pick-items.md)   
 [Nimikkeiden poiminta fyysisen varastoinnin toimitusta varten](warehouse-how-to-pick-items-for-warehouse-shipment.md)   
-[Toimintaohje: Nimikkeiden poiminta varastopoiminnalla](warehouse-how-to-pick-items-with-inventory-picks.md)   
+[Nimikkeiden poiminta varastopoiminnalla](warehouse-how-to-pick-items-with-inventory-picks.md)   
 [Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
 [Vaihto-omaisuus](inventory-manage-inventory.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)

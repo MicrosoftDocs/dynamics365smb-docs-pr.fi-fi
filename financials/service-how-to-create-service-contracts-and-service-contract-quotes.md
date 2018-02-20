@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/29/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ab8ded6ef2b93c2ab038472609093ef7e5ad3d88
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 0d4ad6854c361bf254c6acec44f460afa5e100ba
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-service-contracts-and-service-contract-quotes"></a>Toimintaohje: Huoltosopimusten ja huoltosopimustarjousten käsitteleminen
+# <a name="work-with-service-contracts-and-service-contract-quotes"></a>Huoltosopimusten ja huoltosopimustarjousten käyttäminen
 Huoltosopimus voidaan luoda joko manuaalisesti tai huoltosopimustarjouksesta. Huoltosopimustarjousta voidaan käyttää huoltosopimuksen esiasteena, jossa yrityksesi tekee asiakkaalle tarjouksen ja joka tarvitsee asiakkaan hyväksynnän, ennen kuin se voidaan muuntaa huoltosopimukseksi. Tämän vuoksi huoltosopimus ja huoltotarjous luodaan pitkälti samalla tavoin.  
   
 ## <a name="to-create-a-service-contract-or-service-contract-quote"></a>Huoltosopimuksen tai -sopimustarjouksen luominen  
@@ -40,7 +40,7 @@ Kun olet tehnyt seuraavat toimet, luotavan huoltosopimuksen tila on **Allekirjoi
 Yksityiskohtaisten sopimusten laskutettu summa lasketaan seuraavasti:  
   
 * Laskutettu summa = laskutetun summan yhteenlaskettu summa kunkin sopimusrivin osalta.  
-* Laskutettu summa kunkin sopimusrivin osalta = ((tarjousarvo / 12) * aloitusjakson kuukausien lukumäärä) + (tarjousarvo / vuoden päivien lukumäärä) * laskutusjaksossa jäljellä olevien päivien lukumäärä).  
+* Laskutettu summa kunkin sopimusrivin osalta = ((tarjousarvo / 12) * aloitusjakson kuukausien lukumäärä) + ((tarjousarvo / vuoden päivien lukumäärä) * laskutusjaksossa jäljellä olevien päivien lukumäärä).  
 * Jos sopimusrivi menee vanhaksi ennen kuin aloitusjakso päättyy, vanhentumispäivämäärästä tulee aloitusjakson lopetuspäivämäärä riville.  
   
 Muiden kuin yksityiskohtaisten sopimusten laskutettu summa lasketaan seuraavasti:  
@@ -199,7 +199,7 @@ Sopimus voi olla tarpeen peruuttaa ohjelmassa, kun sopimus on vanhentunut tai ku
 Huoltosopimuksia ja sopimustarjouksia voi arkistoida milloin vain, jotta sopimuksesta tai huoltosopimuksesta voitaisiin tallentaa kopio. [!INCLUDE[d365fin](includes/d365fin_md.md)] arkistoi huoltosopimuksia automaattisesti silloin, kun sopimustarjouksia muunnetaan huoltosopimuksiksi, tai kun huoltosopimuksia peruutetaan. Voit arkistoida sopimuksen tai tarjouksen itse valitsemalla **Arkistoi sopimus** -toiminnon **Huoltosopimukset**- tai **Huoltosopimustarjoukset**-sivulla. Jos haluat tarkastella arkistoituja tarjoussopimuksia, voit hakea niitä hakusanalla **Arkistoidut sopimukset**.
 
 ## <a name="see-also"></a>Katso myös  
-[Toimintaohje: Huoltosopimusten määrittäminen](service-how-setup-service-contracts.md)  
+[Huoltosopimusten määrittäminen](service-how-setup-service-contracts.md)  
 [Service Management](service-service.md)  
-[Toimintaohje: ALV-summia sisältävien huoltosopimusten muuntaminen](service-how-to-convert-service-contracts.md)  
+[ALV-summia sisältävien huoltosopimusten muuntaminen](service-how-to-convert-service-contracts.md)  
 

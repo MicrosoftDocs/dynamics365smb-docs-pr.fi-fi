@@ -13,13 +13,13 @@ ms.search.keywords: marketing, campaign, promo, prospect, contact, client, custo
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 1385b97ef7d6a27a62cb347521b61f5853a0618c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 02e72507a2118cf279be156774079be70d5ede43
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-add-contacts-to-segments"></a>Kuinka lisätä kontakteja segmentteihin
+# <a name="add-contacts-to-segments"></a>Kontaktien lisääminen segmentteihin
 Kun olet luonut segmentin ja syöttänyt sen perustiedot, haluat ehkä lisätä segmenttiin kontakteja. Voit tehdä tämän täyttämällä rivit **Segmentti**-ikkunassa manuaalisesti, mutta nopeampi ja helpompi tapa on käyttää **Lisää kontakteja**-toimintoa.
 
 ## <a name="to-add-a-contact-to-a-segment"></a>Kontaktin lisääminen segmenttiin:
@@ -54,7 +54,7 @@ Kun olet valinnut yhteen segmenttiin tulevat kontaktit, haluat ehkä poistaa joi
 Voit vähentää segmentin kontakteja niin monta kertaa kuin haluat. Valitse **Takaisin**-toiminto, jos olet tarkentanut segmentin vahingossa ja haluat palata edelliseen vaiheeseen.
 
 ## <a name="see-also"></a>Katso myös
-[Toimintaohje: Segmentin luominen](marketing-how-create-segment.md)   
+[Segmentin luominen](marketing-how-create-segment.md)   
 [Segmenttien hallinta](marketing-segments.md)  
 [Myyntimahdollisuuksien hallinta](marketing-manage-sales-opportunities.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  

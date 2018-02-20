@@ -1,6 +1,6 @@
 ---
 title: "Tietojen siirtäminen Dynamics GP:stä tietojen siirron laajennuksella | Microsoft Docs"
-description: "Voit siirtää asiakkaita, toimittajia, varastonimikkeitä ja tilejä Dynamics GP:stä Dynamics 365 Business editioniin Dynamics GP:n tietojen siirron laajennuksella."
+description: "Voit siirtää asiakkaita, toimittajia, varastonimikkeitä ja tilejä Dynamics GP:stä Finance and Operations, Business editioniin Dynamics GP:n tietojen siirron laajennuksella."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -12,13 +12,13 @@ ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 03/29/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: b97c074b1283a981522b7a9651fcc7c552f1f930
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: bfd3ca3e28b6eb3efa2a16cc131b508db6bd1590
 ms.contentlocale: fi-fi
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="the-dynamics-gp-data-migration-extension-for-dynamics-365-business-edition"></a>Dynamics 365 Business editionin Dynamics GP -tietojen siirron laajennus 
+# <a name="the-dynamics-gp-data-migration-extension-for-finance-and-operations-business-edition"></a>Finance and Operations, Business editionin Dynamics GP -tiedonsiirtolaajennus 
 Tämän laajennuksen avulla asiakkaat, toimittajat, varastonimikkeet ja tilit on helppo siirtää Dynamics GP:stä [!INCLUDE[d365fin](includes/d365fin_md.md)]iin. Jos yrityksessä on käytössä Dynamics GP, voit viedä soveltuvat päätietueet ja lisätä tiedot [!INCLUDE[d365fin](includes/d365fin_md.md)]iin avaamalla avustetun asennusoppaan. Lisätietoja on kohdassa [Tietojen siirtäminen muista rahoitusjärjestelmistä](upload-data.md).
 
 ## <a name="exporting-data-from-dynamics-gp"></a>Tietojen vieminen Dynamics GP:stä

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
-ms.date: 08/09/2017
+ms.date: 01/25/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 87a55a215f4db857d390033fb6954c06b210be8c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 4056d901739ba5cb4eaf1eb38f5cb4089012c941
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="manage-human-resources"></a>Henkilöstöresurssien hallinta
@@ -24,17 +24,14 @@ Voit luoda tarkat työntekijätietueet [!INCLUDE[d365fin](includes/d365fin_md.md
 
 Voit myös rekisteröidä työntekijöiden poissaolot. Rekisteröityjä poissaoloja voi analysoida tarvittaessa.
 
-> [!NOTE]  
-> Tämä toiminto edellyttää, että kokemukseksi on valittu **Suite**. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)] -kokemuksen mukauttaminen](ui-experiences.md).
-
 Henkilöstöhallinnon toimintojen käyttö alkaa työntekijöiden ja muiden perustietojen määrittämisestä. Työntekijöille voi liittää erilaisia koodeja, joiden avulla voi suodattaa tiettyjen työntekijöiden tietoja.
 
 Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisiin.
 
 | Toiminta | Katso |
 | --- | --- |
-| Voit rekisteröidä uusia työntekijöitä tai muokata vanhoja työntekijätietueita, sekä liittää lisätietoja, kuten sopimuksia ja artikkeleita. |[Toimintaohje: Työntekijöiden rekisteröinti](hr-how-register-employees.md) |
-| Kirjaa työntekijöiden poissaoloja ja tarkastele poissaolotilastoja eri suodattimien avulla. |[Toimintaohje: Työntekijöiden poissaolojen hallinta](hr-how-manage-absence.md) |
+| Voit rekisteröidä uusia työntekijöitä tai muokata vanhoja työntekijätietueita, sekä liittää lisätietoja, kuten sopimuksia ja artikkeleita. |[Työntekijöiden rekisteröiminen](hr-how-register-employees.md) |
+| Kirjaa työntekijöiden poissaoloja ja tarkastele poissaolotilastoja eri suodattimien avulla. |[Työntekijöiden poissaolojen hallinta](hr-how-manage-absence.md) |
 
 ## <a name="see-also"></a>Katso myös
 [Rahoitus](finance.md)  

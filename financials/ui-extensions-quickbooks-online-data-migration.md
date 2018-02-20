@@ -1,6 +1,6 @@
 ---
 title: "QuickBooksin siirtolaajennuksen käyttäminen | Microsoft Docs"
-description: "Tässä ohjeaiheessa kerrotaan, miten laajennuksella siirretään asiakkaita, toimittajia, nimikkeitä ja tilejä QuickBooks Onlinesta Dynamics 365:een."
+description: "Tässä ohjeaiheessa kerrotaan, miten laajennuksella siirretään asiakkaita, toimittajia, nimikkeitä ja tilejä QuickBooks Onlinesta Finance and Operations, Business editioniin."
 author: bholtorf
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,14 +11,14 @@ ms. search.keywords: extension, migrate, data, QuickBooks, import
 ms.date: 05/24/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: e73db91a37fd5aee249de032d231df2c5e36b4ba
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 8ed245276a6bebd369a3ec32791a9939e8db5aa1
 ms.contentlocale: fi-fi
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
-# <a name="the-quickbooks-online-data-migration-extension-for-dynamics-365-business-edition"></a>Dynamics 365 Business editionin QuickBooks Online -tietojen siirtolaajennus
+# <a name="the-quickbooks-online-data-migration-extension-for-finance-and-operations-business-edition"></a>Finance and Operations, Business editionin QuickBooks Online -tiedonsiirtolaajennus
 Tämä laajennus sisältää **tietojen siirron** asetusten ohjattuun määritykseen, joka auttaa siirtämään tärkeitä liiketoimintatietoja QuickBooks Onlinesta [!INCLUDE[d365fin](includes/d365fin_md.md)]iin. Tämä on kätevää esimerkiksi tilanteessa, jossa liiketoiminta kasvaa ja olet päättänyt päivittää liiketoiminnan hallintasovelluksen aloittamalla [!INCLUDE[d365fin](includes/d365fin_md.md)]in käytön.
 
 ## <a name="what-data-can-i-import-from-quickbooks-online"></a>QuickBooks Onlinesta siirrettävät tiedot
@@ -44,7 +44,7 @@ Siirtoprosessiin olennaisesti kuuluva osa on määrittää tilit, joihin tapahtu
 * Nimikkeiden tai palvelujen osto toimittajilta.  
 * Pääkirjanpidon oikaisut.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] edellyttää, että KP-tileille on määritetty tilinumerot. Varmista, että QuickBooks Online -tileille on määritetty tilinumerot.
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  edellyttää, että KP-tileille on määritetty tilinumerot. Varmista, että QuickBooks Online -tileille on määritetty tilinumerot.
 
 QuickBooks Onlinen tapahtumissa on verosummia, [!INCLUDE[d365fin](includes/d365fin_md.md)]issa on määritettävä veroalueen verotili ennen tapahtumien kirjaamista.
 

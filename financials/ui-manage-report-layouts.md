@@ -13,10 +13,10 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: 34a25ed48ff16971120b272421560bf1416af60f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 86a6451bdb02571480f775debd6c7286f0d8eb67
 ms.contentlocale: fi-fi
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-report-and-document-layouts"></a>Raporttien ja asiakirjojen asettelujen hallinta
@@ -32,7 +32,7 @@ Erityisesti raporttiasettelu määrittää seuraavat asetukset:
 * Yrityksen logo ja sen sijainti.
 * Yleiset sivun asetukset, esimerkiksi reunukset ja taustakuvia.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]iin voidaan määrittää useita raportin asetteluja, joita voit vaihtaa tarpeen mukaan. Voit valita jonkin valmiin raporttiasettelun tai voit luoda mukautettuja raporttiasetteluja ja määrittää ne raportteihisi tarpeen mukaan. Lisätietoja on kohdassa [Toimintaohje: Raportin tai asiakirjan mukautetun asettelun luominen](ui-how-create-custom-report-layout.md).
+[!INCLUDE[d365fin](includes/d365fin_md.md)]iin voidaan määrittää useita raportin asetteluja, joita voit vaihtaa tarpeen mukaan. Voit valita jonkin valmiin raporttiasettelun tai voit luoda mukautettuja raporttiasetteluja ja määrittää ne raportteihisi tarpeen mukaan. Lisätietoja on kohdassa [Raportin tai asiakirjan mukautetun asettelun luominen](ui-how-create-custom-report-layout.md).
 
 Raporteissa käytettävän raporttiasettelun tyyppi voi olla Word tai RDLC.
 
@@ -45,7 +45,7 @@ Word-raportin asettelu perustuu Word-asiakirjaan (.docx-tiedostotyyppi). Word-ra
 RDLC-asettelut perustuvat asiakkaan määrittelemiin raportinasetteluihin (.rdlc- tai .rdl-tiedostotyypit). Näitä asetteluja luodaan ja muokataan käyttämällä SQL Server Report Builderia. RDLC-asetteluiden rakenne muistuttaa Word-asetteluja, joissa asettelu määrittää raportin yleisen muodon ja määrää sisällytettävät tietojoukon kentät. RDLC-asetteluiden suunnitteleminen on monimutkaisempaa kuin Word-asetteluiden. Lisätietoja on kohdassa [RDLC-raporttiasetteluiden suunnitteleminen](/dynamics-nav/Designing-RDLC-Report-Layouts).
 
 ## <a name="built-in-and-custom-report-layouts"></a>Valmiit ja mukautetut raporttiasettelut
-[!INCLUDE[d365fin](includes/d365fin_md.md)] sisältää useita valmiita asetteluita. Valmiit asettelut ovat etukäteen määritettyjä asetteluita, jotka on suunniteltu määrätyille raporteille. [!INCLUDE[d365fin](includes/d365fin_md.md)]in raporteissa on valmis asettelu joko RDLC-raporttiasetteluna, Wordin raporttiasetteluna tai joissakin tapauksissa molempina. Et voi muokata valmista raporttiasettelua [!INCLUDE[d365fin](includes/d365fin_md.md)]ista, mutta voit käyttää niitä lähtökohtana oman mukautetun raporttiasettelun luomisessa.
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  sisältää useita valmiita asetteluita. Valmiit asettelut ovat etukäteen määritettyjä asetteluita, jotka on suunniteltu määrätyille raporteille. [!INCLUDE[d365fin](includes/d365fin_md.md)]in raporteissa on valmis asettelu joko RDLC-raporttiasetteluna, Wordin raporttiasetteluna tai joissakin tapauksissa molempina. Et voi muokata valmista raporttiasettelua [!INCLUDE[d365fin](includes/d365fin_md.md)]ista, mutta voit käyttää niitä lähtökohtana oman mukautetun raporttiasettelun luomisessa.
 
 Mukautetut asettelut ovat raporttiasetteluita, jotka olet suunnitellut raportin ulkoasun muuttamiseksi. Luot tavallisesti mukautetun asettelun valmiin asettelun perusteella, mutta voit luoda niitä alusta alkaen tai kopioimalla aiemmin luodun mukautetun asettelun. Mukautetut asettelut mahdollistavat useat asettelut samalle raportille, joita voit vaihtaa tarpeen mukaan. Kullakin [!INCLUDE[d365fin](includes/d365fin_md.md)]-yritykselle voi olla esimerkiksi erilaisia asetteluja tai samalle yritykselle voi olla eri asetteluja tietyissä tapauksissa tai tapahtumissa, kuten erityiskampanjoissa tai lomakaudella.
 
@@ -56,13 +56,13 @@ Word- ja RDLC-asetteluiden yleiset rakenteet ovat hyvin samanlaisia. Kuitenkin j
 
 Word- ja RDLC-raporttiasetteluiden asettaminen toimii samalla tavalla. Tärkein ero on asetteluiden muokkaustavassa. Word-raporttiasettelut ovat yleensä helpompia luoda ja muokata kuin RDLC-raporttiasettelut, koska voit käyttää Wordia. RDLC-raporttiasetteluja muokataan SQL Server Report Builderilla, joka on tarkoitettu kokeneille käyttäjille.
 
-Lisätietoja näytettävän asettelun vaihtamisesta on kohdassa [Toimintaohje: Raportissa tällä hetkellä käytettävän asettelun muuttaminen](ui-how-change-layout-currently-used-report.md)
+Lisätietoja näytettävän asettelun vaihtamisesta on kohdassa [Raportissa tällä hetkellä käytettävän asettelun muuttaminen](ui-how-change-layout-currently-used-report.md)
 
 ## <a name="see-also"></a>Katso myös
 [Raporttien tai asiakirjojen asettelujen päivittäminen](ui-update-report-layouts.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
-[Toimintaohje: Raporttien tai asiakirjojen mukautetun asettelun luominen ja muokkaaminen](ui-how-create-custom-report-layout.md)  
-[Toimintaohje: Raporttien tai asiakirjojen mukautetun asettelun tuonti ja vienti](ui-how-import-and-export-report-layout.md)  
-[Toimintaohje: Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md)  
+[Raporttien tai asiakirjojen mukautetun asettelun luominen ja muokkaaminen](ui-how-create-custom-report-layout.md)  
+[Raporttien tai asiakirjojen mukautetun asettelun tuonti ja vienti](ui-how-import-and-export-report-layout.md)  
+[Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md)  
 [Raporttien käsittely](ui-work-report.md)  
 

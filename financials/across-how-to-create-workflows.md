@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: a057da05d6b63ee60e29de70900ffae917d0fee3
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3c1771ecc9c63afc0fab335d37684fc4263cc993
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-workflows"></a>Toimintaohje: Työnkulkujen luominen
+# <a name="create-workflows"></a>Työnkulkujen luominen
 Voit luoda työnkulkuja, jotka yhdistävät eri käyttäjien suorittamia liiketoimintaprosessin tehtäviä. Järjestelmätehtäviä (kuten automaattinen kirjaus) voidaan sisällyttää työnkulkuihin, joita käyttäjän tehtävät edeltävät tai seuraavat. Uusien tietueiden luontiin liittyvien hyväksyntöjen pyytäminen ja antaminen ovat tyypillisiä työnkulun osavaiheita.  
 
 Voit luoda **Työnkulku**-ikkunassa työnkulun mainitsemalla liittyvät toimet riveillä. Jokainen vaihe koostuu työnkulun tapahtumasta, jota valvotaan tapahtuman ehtojen mukaan, ja työnkulun vastauksesta ja vastausvaihtoehdoista. Työnkulku määritetään täyttämällä työnkulkurivien kentät tapahtumien kiinteistä luetteloista ja vastausarvot, jotka edustavat sovelluskoodin tukemia skenaarioita.  
@@ -35,7 +35,7 @@ Jos liiketoimintaskenaario edellyttää työnkulun tapahtumia tai vastauksia, jo
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Työnkulut** ja valitse sitten aiheeseen liittyvä linkki.  
 2. Valitse **Uusi**-toiminto. **Työnkulku**-ikkuna avautuu.  
 3. Syötä **Koodi**-kenttään enintään 20 merkkiä pitkä työnkulun tunniste.  
-4. Voit luoda työnkulun työnkulkumallista valitsemalla **Työnkulut**-ikkunassa **Luo työnkulku mallista** -toiminnon. Lisätietoja on kohdassa [Toimintaohje: Työnkulkujen luominen työnkulkumalleista](across-how-to-create-workflows-from-workflow-templates.md).  
+4. Voit luoda työnkulun työnkulkumallista valitsemalla **Työnkulut**-ikkunassa **Luo työnkulku mallista** -toiminnon. Lisätietoja on kohdassa [Työnkulkujen luominen työnkulkumalleista](across-how-to-create-workflows-from-workflow-templates.md).  
 5. Syötä **Kuvaus**-kenttään työnkulun kuvaus.  
 6. Määritä **Luokka**-kentässä, mihin luokkaan työnkulku kuuluu.  
 7. Määritä **Kun - tapahtuma** -kentässä tapahtuma, jonka on tapahduttava, jotta työnkulun vaihe käynnistyy.  
@@ -67,7 +67,7 @@ Jos liiketoimintaskenaario edellyttää työnkulun tapahtumia tai vastauksia, jo
         |----------------------------------|---------------------------------------|  
         |**Eräpäivän kaava**|Määritä, kuinka monen päivän kuluessa lähettämisestä hyväksyntäpyyntö on ratkaistava.|  
         |**Delegoi seuraavan jälkeen:**|Määritä, milloin, jos ollenkaan, hyväksyntäpyyntö delegoidaan automaattisesti korvaajalle. Voit valita automaattisen delegoinnin yhden, kahden tai viiden päivän päähän hyväksynnän pyynnöstä.|  
-        |**Hyväksyjän tyyppi**|Määritä, kuka on hyväksyjä, käyttäen hyväksyntäkäyttäjien ja työnkulun käyttäjien määritystä.<br /><br /> Käytettävissä ovat seuraavat vaihtoehdot:<br /><br /> -   **Myyjä/ostaja** määrittää, että **Myyjän/ostajan koodi** -kenttään **Hyväksynnän käyttäjäasetukset** -ikkunassa määritetty käyttäjä määrittää hyväksyjän. Hyväksymispyyntötapahtumat luodaan sitten **Hyväksyjän rajatyyppi** -kentän arvon mukaan.<br />     Lisätietoja on kohdassa [Toimintaohje: Hyväksynnän käyttäjien määrittäminen](across-how-to-set-up-workflow-users.md).|  
+        |**Hyväksyjän tyyppi**|Määritä, kuka on hyväksyjä, käyttäen hyväksyntäkäyttäjien ja työnkulun käyttäjien määritystä.<br /><br /> Käytettävissä ovat seuraavat vaihtoehdot:<br /><br /> -   **Myyjä/ostaja** määrittää, että **Myyjän/ostajan koodi** -kenttään **Hyväksynnän käyttäjäasetukset** -ikkunassa määritetty käyttäjä määrittää hyväksyjän. Hyväksymispyyntötapahtumat luodaan sitten **Hyväksyjän rajatyyppi** -kentän arvon mukaan.<br />     Lisätietoja on kohdassa [Hyväksynnän käyttäjien määrittäminen](across-how-to-set-up-workflow-users.md).|  
         |**Näytä vahvistussanoma**|Määritä, näytetäänkö vahvistussanoma käyttäjille, kun he pyytävät hyväksyntää.|  
         |**Hyväksyjän rajatyyppi**|Määritä, kuinka hyväksyjien hyväksyntärajat vaikuttavat silloin, kun hyväksyjille luodaan hyväksyntäpyyntöjä. Hyväksytyllä hyväksyjällä tarkoitetaan hyväksyjää, jonka hyväksyntäraja on suurempi kuin pyynnön arvo.<br /><br /> Käytettävissä ovat seuraavat vaihtoehdot:<br /><br /> 1. **Hyväksyjäketju** määrittää, että hyväksyntäpyynnöt luodaan kaikille pyytäjän hyväksyjille ensimmäiseen hyväksyttyyn hyväksyjään saakka.<br />2. **Suora hyväksyjä** määrittää, että hyväksyntäpyyntö luodaan vain pyytäjän lähimmälle hyväksyjälle hänen hyväksyntärajastaan riippumatta.<br />3. **Ensimmäinen hyväksytty hyväksyjä** määrittää, että hyväksyntäpyyntö luodaan vain pyytäjän ensimmäiselle hyväksytylle hyväksyjälle.<br />|  
     3.  Määritä työnkulun vastauksen asetukset, johon sisältyy päiväkirjarivien luominen, täyttämällä kentät seuraavassa taulukossa kuvatulla tavalla.  
@@ -94,11 +94,11 @@ Jos liiketoimintaskenaario edellyttää työnkulun tapahtumia tai vastauksia, jo
 >  Voit tarkastella työnkulussa käytettävien taulukoiden väliset suhteet valitsemalla ![Esti sivu tai raportti](media/ui-search/search_small.png "Esti sivu tai raportti -kuvake") -kuvake ja kirjoittamalla sitten **Työnkulku – taulukon suhteet**.  
 
 ## <a name="see-also"></a>Katso myös  
-[Ohje: Työnkulkujen luominen työnkulkumalleista](across-how-to-create-workflows-from-workflow-templates.md)   
-[Toimintaohje: Hyväksynnän käyttäjien määrittäminen](across-how-to-set-up-approval-users.md)   
+[Työnkulkujen luominen työnkulkumalleista](across-how-to-create-workflows-from-workflow-templates.md)   
+[Hyväksynnän käyttäjien määrittäminen](across-how-to-set-up-approval-users.md)   
 [Työnkulkuilmoitusten määrittäminen](across-setting-up-workflow-notifications.md)   
-[Toimintaohje: Arkistoitujen työnkulun osavaiheen instanssien tarkasteleminen](across-how-to-view-archived-workflow-step-instances.md)   
-[Toimintaohje: Työnkulkujen poistaminen](across-how-to-delete-workflows.md)   
+[Arkistoitujen työnkulun osavaiheen ilmentymien tarkasteleminen](across-how-to-view-archived-workflow-step-instances.md)   
+[Työnkulkujen poistaminen](across-how-to-delete-workflows.md)   
 [Vaihekuvaus: Ostojen hyväksyntätyönkulun määrittäminen ja käyttäminen](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
 [Työnkulkujen määrittäminen](across-set-up-workflows.md)   
 [Työnkulkujen käyttäminen](across-use-workflows.md)   

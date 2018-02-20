@@ -16,13 +16,13 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: e8b3015cfbf9c474d49d2e3dab6e3397e6ad6c80
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-item-application"></a>Rakennetiedot: Nimikkeen kohdistus
 Kun kirjaat varastotapahtuman, määrän kirjaus tallennetaan nimiketapahtumiin ja arvon kirjaus arvotapahtumiin. Lisätietoja on ohjeaiheessa [Rakenteen tiedot: Varaston kirjaus](design-details-inventory-posting.md).  
 
-Lisäksi suoritetaan nimikkeen kohdistus kustannuksen vastaanottajan linkittämiseksi sen kustannuksen lähteeseen kustannuksen siirron suorittamiseksi arvostusmenetelmän mukaisesti. Katso lisätietoja kohdasta [Rakennetiedot: arvostusmenetelmät](design-details-costing-methods.md).  
+Lisäksi suoritetaan nimikkeen kohdistus kustannuksen vastaanottajan linkittämiseksi sen kustannuksen lähteeseen kustannuksen siirron suorittamiseksi arvostusmenetelmän mukaisesti. Lisätietoja on kohdassa [Rakennetiedot: Arvostusmenetelmät](design-details-costing-methods.md).  
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] suorittaa kahdenlaisia nimikkeen kohdistuksia.  
 
@@ -73,7 +73,7 @@ Seuraavassa taulukossa esitetään nimikkeen käyttökirjaus, joka luodaan, kun 
 |01-01-20|1|0|10|1|  
 
 ## <a name="inventory-decrease"></a>Varastoarvon lasku  
-Kun kirjaat varaston arvon laskun, luodaan nimikkeen kohdistustapahtuma, joka linkittää varaston arvon laskun varaston arvon nousuun. Tämä linkki luodaan käyttämällä ohjeena nimikkeen arvostusmenetelmää. FIFO-, vakio- ja keskimääräinen-arvostusmenetelmää käyttävien nimikkeiden osalta linkitys perustuu ensimmäinen käsitellään ensin -periaatteeseen. Varaston vähennystä käytetään varaston kasvuun aikaisimman tiliöintipäivämäärän mukaisesti. LIFO-arvostusmenetelmää käyttävien nimikkeiden osalta linkitys perustuu viimeisin käsitellään ensin -periaatteeseen. Varaston vähennystä käytetään varaston kasvuun viimeisimmän tiliöintipäivämäärän mukaisesti.  
+Kun kirjaat varaston arvon laskun, luotava nimikkeen kohdistustapahtuma linkittää varaston arvon laskun varaston arvon nousuun. Tämä linkki luodaan käyttämällä ohjeena nimikkeen arvostusmenetelmää. FIFO-, vakio- ja keskimääräinen-arvostusmenetelmää käyttävien nimikkeiden osalta linkitys perustuu ensimmäinen käsitellään ensin -periaatteeseen. Varaston vähennystä käytetään varaston kasvuun aikaisimman tiliöintipäivämäärän mukaisesti. LIFO-arvostusmenetelmää käyttävien nimikkeiden osalta linkitys perustuu viimeisin käsitellään ensin -periaatteeseen. Varaston vähennys kohdistetaan varaston arvon nousuun viimeisimmän tiliöintipäivämäärän mukaisesti.  
 
 **Nimiketapahtuma**-taulukon **Jäljellä oleva määrä** -kenttä näyttää määrän, jota ei ole vielä kohdistettu. Jos jäljellä oleva määrä on suurempi kuin 0, **Avoin** -valintaruutu valitaan.  
 
@@ -88,7 +88,7 @@ Seuraavissa taulukoissa esitetään kaksi nimikkeen sovelluskirjausta, jotka aih
 |01-03-20|1|2|-5|2|  
 
 ## <a name="fixed-application"></a>Kiinteä kohdistus  
-Teet kiinteän kohdistuksen, kun kohdistat varaston arvon nousun kustannukset tiettyyn varaston arvon laskuun tai päinvastoin. Kiinteä sovellus vaikuttaa jäljellä oleviin kirjausten määriin, mutta kiinteä sovellus myös kumoaa alkuperäisen kirjauksen tarkat kustannukset, jota käytät.  
+Teet kiinteän kohdistuksen, kun kohdistat varaston arvon nousun kustannukset tiettyyn varaston arvon laskuun tai päinvastoin. Kiinteä kohdistus vaikuttaa jäljellä oleviin kirjausten määriin, mutta se myös kumoaa alkuperäisen kirjauksen tarkat kustannukset, jota käytät.  
 
 Voit tehdä kiinteän kohdistuksen asiakirjarivien **Kohdista nimiketapahtumaan**- tai **Kohdistus nimiketapahtumasta** -kentän avulla, kun haluat määrittää nimiketapahtuman, johon haluat kohdistaa tapahtumarivin tai josta haluat sen kohdistettavan. Voit esimerkiksi tehdä kiinteän kohdistuksen, kun haluat luoda kustannuksen kohdistuksen, joka määrittää, että myynnin tuoton tulisi koskea tiettyä myyntitoimitusta myyntitilauksen kustannuksen peruuttamiseksi. Tässä tapauksessa [!INCLUDE[d365fin](includes/d365fin_md.md)] ohittaa arvostusmenetelmän ja käyttää myyntipalautukselle varaston arvon vähennystä tai kasvatusta määrittämääsi nimiketapahtumaan. Kiinteän sovelluksen teon hyöty on se, että alkuperäisen siirron kustannus siirretään uuteen tapahtumaan.  
 
@@ -99,7 +99,7 @@ Seuraava esimerkki, jossa kuvataan sellaisen nimikkeen vaikutus ostopalautuksen 
 2. Kirjauksessa 2 käyttäjä kirjaa oston hintaan 20,00 (PVA).  
 3. Tapahtumassa 3 käyttäjä kirjaa ostopalautuksen. Käyttäjä tekee toiselle ostolle kiinteän kohdistuksen antamalla nimiketapahtuman numeron ostopalautustilauksen rivin **Kohdista nimiketapahtumaan** -kenttään.  
 
-Seuraavassa taulukossa kuvataan nimikkeen pääkirjan kirjaukset, jotka aiheutuvat skenaariosta.  
+Seuraavassa taulukossa käsitellään skenaariosta aiheutuvat nimiketapahtumat.  
 
 |**Kirjauspvm**|**Nimiketapahtuman tyyppi**|**Määrä**|**Kustannussumma (todellinen)**|**Nimiketapahtuman nro**|  
 |----------------------|---------------------------------------------------|------------------|----------------------------------------------------|---------------------------------------------------|  
@@ -122,7 +122,7 @@ Seuraava esimerkki, jossa kuvataan kiinteän sovelluksen vaikutusta, perustuu se
 
 1. Tapahtumissa numero 1 ja 2 käyttäjä kirjaa kaksi ostolaskua. Toisessa laskussa on väärä välitön kustannusyksikkö LCY 1000.00.  
 2. Tapahtumassa numero 3 käyttäjä kirjaa ostohyvityslaskun, joka on kohdistettu kiinteästi ostotapahtumaan väärällä välittömällä yksikkökustannuksella. **Kustannussumma todellinen** -kentän kahden kiinteän käytetyn arvokirjauksen summaksi tulee 0,00  
-3. Tapahtumassa numero 4, käyttäjä kirjaa toisen ostolaskun oikealla välittömällä yksikkökustannuksella 100,00 PVA  
+3. Tapahtumassa numero 4 käyttäjä kirjaa toisen ostolaskun oikealla välittömällä yksikkökustannuksella 100,00 PVA  
 4. Tapahtumassa 5 käyttäjä kirjaa myyntipalautuksen.  
 5. Varastomäärä on 0 ja varaston arvo on myös 0.00.  
 
@@ -138,7 +138,7 @@ Seuraavassa taulukossa esitetään skenaarion tulos nimikkeen arvokirjauksissa.
 
 Jos käyttäjä ei olisi tehnyt kiinteää kohdistusta ostohyvityslaskun ja ostojen välillä virheellisellä suoralla yksikkökustannuksella (vaihe 2 edellisessä skenaariossa), kustannus olisi muutettu eri tavalla.  
 
-Seuraavassa taulukossa esitetään nimikkeen arvokirjausten tulos, jos vaihe 2 edellisessä skenaariossa suoritetaan ilman kiinteää sovellusta.  
+Seuraavassa taulukossa käsitellään nimikkeen arvotapahtumien tulos, jos vaihe 2 edellisessä skenaariossa suoritetaan ilman kiinteää kohdistusta.  
 
 |Kirjauspäivämäärä|Nimiketapahtuman tyyppi|Arvostettu määrä|Kustannussumma (todellinen)|Kohdista nimiketapahtumaan|Arvostettu keskim. kust.|Nimiketapahtuman nro|Tapahtumanro|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
@@ -173,13 +173,13 @@ Seuraavassa taulukossa esitetään skenaarion vaiheiden 1-3 tulos nimikkeen arvo
 |02-01-20|Myynti|-1|1000.00||2|2|  
 |03-01-20|Myynti (hyvityslasku)|1|1000|2|3|3|  
 
-Seuraavassa taulukossa esitetään arvokirjaus, joka aiheutuu skenaarion vaiheesta 4, tiliöiden nimikkeen veloituksen.  
+Seuraavassa taulukossa esitetään arvotapahtuma joka aiheutuu skenaarion vaiheesta 4, nimikekulun kirjauksesta.  
 
 |Kirjauspäivämäärä|Nimiketapahtuman tyyppi|Arvostettu määrä|Kustannussumma (todellinen)|Kohdistus nimiketapahtumasta|Nimiketapahtuman nro|Tapahtumanro|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
 |04-01-20|(Nimikekulu)|1|100.00||1|4|  
 
-Seuraavassa taulukossa esitetään täsmällisen kustannusten kumoamisen vaikutukset nimikkeen arvokirjauksiin.  
+Seuraavassa taulukossa esitetään täsmällisen kustannusten kumoamisen vaikutukset nimikkeen arvotapahtumiin.  
 
 |Kirjauspäivämäärä|Nimiketapahtuman tyyppi|Arvostettu määrä|Kustannussumma (todellinen)|Kohdistus nimiketapahtumasta|Nimiketapahtuman nro|Tapahtumanro|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
@@ -191,7 +191,7 @@ Seuraavassa taulukossa esitetään täsmällisen kustannusten kumoamisen vaikutu
 Kun **Muuta kustannuksia - Nimiketapahtumat** -eräajo suoritetaan, ostotapahtuman nimikeveloituksen vuoksi nousseet kustannukset välitetään myyntitapahtumalle (tapahtuma numero 2). Myyntikirjaus lähettää sitten edelleen nämä kasvaneet kustannukset myynnin kredit-kirjaukseen (kirjausnumero 3). Lopputulos on se, että kustannukset on kumottu oikein.  
 
 > [!NOTE]  
->  Kun käsittelet palautuksia tai hyvityslaskuja ja olet määrittänyt **Todellisen kust. peruutt. pakollinen** -kentän joko **Ostojen ja ostovelkojen asetukset** - tai **Myyntien ja myyntisaamisten asetukset** -ikkunassa tilanteesi mukaisesti, [!INCLUDE[d365fin](includes/d365fin_md.md)] täyttää syötekentät automaattisesti, kun käytät **Kopioi asiakirja** -toimintoa. Jos käytät **Hae peruutettavat kirjatut asiakirjarivit** -toimintoa, tällöin kentät täytetään aina automaattisesti.  
+>  Kun käsittelet palautuksia tai hyvityslaskuja ja olet määrittänyt **Todellisen kust. peruutt. pakollinen** -kentän joko **Ostojen ja ostovelkojen asetukset** - tai **Myyntien ja myyntisaamisten asetukset** -ikkunassa tilanteesi mukaisesti, [!INCLUDE[d365fin](includes/d365fin_md.md)] täyttää kohdistustapahtumakentät automaattisesti, kun käytät **Kopioi asiakirja** -toimintoa. Jos käytät **Hae peruutettavat kirjatut asiakirjarivit** -toimintoa, tällöin kentät täytetään aina automaattisesti.  
 
 > [!NOTE]  
 >  Jos kirjaat tapahtuman, jolla on kiinteä kohdistus ja kohdistettava nimiketapahtuma on suljettu (eli jäljellä oleva määrä on nolla), tällöin vanha kohdistus kumotaan automaattisesti ja nimiketapahtuma kohdistetaan uudelleen käyttämällä määrittämääsi kiinteää kohdistusta.  

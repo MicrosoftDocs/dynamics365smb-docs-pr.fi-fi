@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 59ab4fdc2cedb39296985dfaf9c5ac66fd5bf61d
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 473cf43c227793e4e606c893154caf28466fdff7
 ms.contentlocale: fi-fi
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="creating-contact-persons"></a>Kontaktihenkilöiden luominen
@@ -28,18 +28,18 @@ Saattaa myös olla niin, että osa tuotteita koskevista julkaisuista on käänne
 
 Tallentamalla mahdollisimman paljon kontaktihenkilöä koskevia tietoja voit varmistaa, että kaikki yrityksen ryhmät löytävät tarvittavat tiedot.
 
-Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aiheisiin.
+Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisiin.
 
-| Toiminta | Katso |
+| Vastaanottaja | Katso |
 | --- | --- |
-| Määritä kontaktihenkilön tiedot. |[Toimintaohjeet: Kontaktihenkilöiden luominen](marketing-how-create-contact-persons.md) |
-| Määritä kontaktin vaihtoehtoinen osoite. |[Toimintaohjeet: Vaihtoehtoisten osoitteiden liittäminen](marketing-how-assign-alternate-address.md) |
-| Kuvaile yrityksen kontaktin liikesuhdetta. |[Toimintaohje: Vastuualueiden määrittäminen kontakteille](marketing-job-responsibilities.md) |
-| Määritä kontaktien organisaatiotaso. |[Toimintaohje: Kontaktihenkilöiden organisaatiotasojen määrittäminen](marketing-organizational-levels.md) |
+| Määritä kontaktihenkilön tiedot. |[Kontaktihenkilöiden luominen](marketing-how-create-contact-persons.md) |
+| Määritä kontaktin vaihtoehtoinen osoite. |[Vaihtoehtoisten osoitteiden määrittäminen](marketing-how-assign-alternate-address.md) |
+| Kuvaile yrityksen kontaktin liikesuhdetta. |[Vastuualueiden määrittäminen kontakteille](marketing-job-responsibilities.md) |
+| Määritä kontaktien organisaatiotaso. |[Kontaktihenkilöiden organisaatiotasojen määrittäminen](marketing-organizational-levels.md) |
 | Postitusryhmien määrittäminen kontakteille |[Postitusryhmien määrittäminen kontaktille](marketing-mailing-groups.md) |
 
 ## <a name="see-also"></a>Katso myös
 [Kontaktiyrityksen luominen](marketing-create-contact-companies.md)  
 [Kontaktien luonti ja hallinta]()  
-[Dynamics 365:n käyttäminen](ui-work-product.md)
+[Finance and Operations, Business editionin käyttäminen](ui-work-product.md)
 

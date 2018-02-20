@@ -1,6 +1,6 @@
 ---
 title: "Suunnitteluehdotusten muokkaaminen graafisessa näkymässä | Microsoft Docs"
-description: "Tyypillinen suunnittelun tehtävä on muuttaa tai lisätä suunnittelutyökirjan rivejä ehdotettujen toimitustilausten muokkaamiseksi, ennen kuin ne suoritetaan **Toteuta toimenpideviesti** -toiminnolla. Vaihtoehtona suunnittelutyökirjassa on graafinen esitys."
+description: "Tyypillinen suunnittelun tehtävä on muuttaa tai lisätä suunnittelutyökirjan rivejä ehdotettujen toimitustilausten muokkaamiseksi ennen kuin ne suoritetaan **Toteuta toimenpideviesti** -toiminnolla. Vaihtoehtona suunnittelutyökirjassa on graafinen esitys."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 4bc8694fc1da6caab88c3b462e5b50306d08271b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 9217d8707ab65d231a6759e86f6f2b2866835bb8
 ms.contentlocale: fi-fi
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-modify-planning-suggestions-in-a-graphical-view"></a>Suunnitteluehdotusten muokkaaminen graafisessa näkymässä
+# <a name="modify-planning-suggestions-in-a-graphical-view"></a>Suunnitteluehdotusten muokkaaminen graafisessa näkymässä
 Tyypillinen suunnittelun tehtävä on muuttaa tai lisätä suunnittelutyökirjan rivejä ehdotettujen toimitustilausten muokkaamiseksi ennen kuin ne suoritetaan **Toteuta toimenpideviesti** -toiminnolla. Vaihtoehtona suunnittelutyökirjassa on graafinen esitys.
 
 Voit muokata **Nimikkeen saatavuus aikajanalla** -ikkunassa tiettyjä toimitustilauksia ja ehdotuksia muuttamalla määrää vetämällä elementtejä x-akselilla tai muuttamalla eräpäivää vetämällä elementtejä y-akselilla.  

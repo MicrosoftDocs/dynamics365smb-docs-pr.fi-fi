@@ -10,22 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 12/01/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
-ms.openlocfilehash: e76d590476b1236bf1d82a7f5e4f502ffdd9d02d
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 1da2e94fa64d1daa3304b5266d54152563cfa283
 ms.contentlocale: fi-fi
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-analyze-actual-amounts-versus-budgeted-amounts"></a>Todellisten summien analysointi budjetoituihin summiin nähden
+# <a name="analyze-actual-amounts-versus-budgeted-amounts"></a>Todellisten summien analysointi budjetoituihin summiin nähden
 Yrityksesi tietojen keräämisen, analysoinnin ja jakamisen osana tarkastelet todellisia summia ja vertaat niitä kaikkien tilien sekä useiden ajanjaksojen budjetoituihin summiin.
 
-Budjetoitujen summia analysointia varten on ensin luotava KP-budjetteja. Lisätietoja on kohdassa [Toimintaohje: KP-budjettien luominen](finance-how-create-budgets.md).
-
-> [!NOTE]  
->   Tämä toiminto edellyttää, että kokemukseksi on valittu **Suite**. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)] -kokemuksen mukauttaminen](ui-experiences.md).
+Budjetoitujen summia analysointia varten on ensin luotava KP-budjetteja. Lisätietoja on kohdassa [KP-budjettien luominen](finance-how-create-budgets.md).
 
 ## <a name="to-view-a-gl-budget"></a>KP-budjetin tarkastelu
 Budjetissa, jossa on dimensioita, voi suodattaa tapahtumia ja siten tarkastella tiettyjä budjetteja.
@@ -69,7 +66,7 @@ Sen sijaan että tarkastelisit todellisia ja budjetoituja summia kaikkien tilien
 
 ## <a name="see-also"></a>Katso myös
 [Business Intelligence](bi.md)  
-[Toimintaohje: KP-raporttimallien käyttäminen](bi-how-work-account-schedule.md)  
+[KP-raporttimallien käyttäminen](bi-how-work-account-schedule.md)  
 [Rahoitus](finance.md)  
 [Rahoituksen määrittäminen](finance-setup-finance.md)  
 [Pääkirjanpito ja tilikartta](finance-general-ledger.md)  

@@ -13,20 +13,20 @@ ms.search.keywords: warehouse, stock
 ms.date: 08/23/2017
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 79c1d376358cc6b2a622bc589627968c1197df03
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ee5737fc44282d2f2217a50e5f9ffffc808dd4f8
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-general-inventory-information"></a>Toimintaohje: Yleisten varastotietojen määrittäminen
+# <a name="set-up-general-inventory-information"></a>Yleisten varastotietojen määrittäminen
 Yleiset varastoasetukset määritetään **Varastonhallinnan asetukset** -ikkunassa.
 
 ## <a name="to-set-up-general-inventory-information"></a>Yleisten varastotietojen määrittäminen
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Varastonhallinnan asetukset** ja valitse sitten aiheeseen liittyvä linkki.
 2. Täytä **Varastonhallinnan asetukset** -ikkunassa tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-Jos haluat sisällyttää fyysisen varastoinnin käsittelyajan ostorivin toimituksen lupaamisen laskentaan, voit määrittää sen oletusarvoksi varastolle ja sijainnille **Varastonhallinnan asetukset** -ikkunassa. Lisätietoja on kohdassa [Toimintaohje: Toimituksen lupaamisen päivämäärän laskeminen](sales-how-to-calculate-order-promising-dates.md).  
+Jos haluat sisällyttää fyysisen varastoinnin käsittelyajan ostorivin toimituksen lupaamisen laskentaan, voit määrittää sen oletusarvoksi varastolle ja sijainnille **Varastonhallinnan asetukset** -ikkunassa. Lisätietoja on kohdassa [Toimituksen lupaamisen päivämäärän laskeminen](sales-how-to-calculate-order-promising-dates.md).  
 
 ## <a name="see-also"></a>Katso myös
 [Varastonhallinnan määrittäminen](inventory-setup-inventory.md)  

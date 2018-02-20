@@ -13,10 +13,10 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 06/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e41dcb709ad865ab6cb102834e9d99dc3346a840
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: bb4fcd8aa08fb172ed26620dd0bd416c9e84897d
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="business-intelligence"></a>Business Intelligence
@@ -33,10 +33,10 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 | --- | --- |
 |Tarkastele todellisia summia verrattuna kaikkien tilien budjetoituihin summiin useilta kausilta.|[Todellisten summien analysointi budjetoituihin summiin nähden](bi-how-analyze-actual-versus-budget.md)|
 |Luo uusia KP-raporttimalleja määrittääksesi tilinpäätöksiä raportointia tai taulukoina näyttämistä varten.|[KP-raporttimallien käyttäminen](bi-how-work-account-schedule.md)|
-|Analysoi taloudellinen suorituskyky määrittämällä KPI:t perustuen raporttimalleihin, jotka sitten julkaiset verkkopalveluina. Julkaistun KP-raporttimallin KPI-tietoja voi tarkastella sivustossa tai ne voi tuoda Microsoft Exceliin OData-verkkopalvelujen avulla.|[Toimintaohje: KP-raporttimalleihin perustuvan KPI-verkkopalvelun asettaminen ja julkaiseminen](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)|
-|Analyysinäkymän määrittäminen tietojen analysointia varten dimensioiden avulla.|[Analysoi tiedot dimensioiden mukaan](bi-how-analyze-data-dimension.md)|
-|Uusien analyysiraporttien luominen myyntejä, ostoja ja varastoa varten sekä analyysimallien määrittäminen.|[Uusien myynnin analyysiraporttien luominen](bi-how-create-analysis-views-reports.md)|
-|Ota käyttöön kansainvälisten kirjanpitojärjestöjen maailmanlaajuinen taloudellinen raportointi eXtensible Business Reporting Language -kielen avulla.|[Toimintaohje: Raporttien luominen XBRL-kielellä](bi-create-reports-with-xbrl.md)|
+|Analysoi taloudellinen suorituskyky määrittämällä KPI:t perustuen raporttimalleihin, jotka sitten julkaiset verkkopalveluina. Julkaistun KP-raporttimallin KPI-tietoja voi tarkastella sivustossa tai ne voi tuoda Microsoft Exceliin OData-verkkopalvelujen avulla.|[KP-raporttimalleihin perustuvan KPI-verkkopalvelun määrittäminen ja julkaiseminen](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)|
+|Analyysinäkymän määrittäminen tietojen analysointia varten dimensioiden avulla.|[Analysoi tiedot mittojen mukaan](bi-how-analyze-data-dimension.md)|
+|Uusien analyysiraporttien luominen myyntejä, ostoja ja varastoa varten sekä analyysimallien määrittäminen.|[Analyysiraporttien luominen](bi-how-create-analysis-views-reports.md)|
+|Ota käyttöön kansainvälisten kirjanpitojärjestöjen maailmanlaajuinen taloudellinen raportointi eXtensible Business Reporting Language -kielen avulla.|[Luo raportteja XBRL-linkityksellä.](bi-create-reports-with-xbrl.md)|
 
 ## <a name="see-also"></a>Katso myös
 [Rahoitus](finance.md)    
@@ -44,4 +44,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 [Kirjanpitokausien sulkeminen](year-close-years-periods.md)  
 [Tuominen muista rahoitusjärjestelmistä](upload-data.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

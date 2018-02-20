@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 3c3a02aa2251b9b6b18576e9f274d018a617b179
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 45afc7249e921b483d9fcb6860401528746f554a
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="reporting-costs-and-reconciling-with-the-general-ledger"></a>Kustannukset raportointi ja täsmäyttäminen pääkirjanpidon kanssa
@@ -30,9 +30,9 @@ Kirjanpitojaksojen lopussa (kuukausittain, vuosittain tai muulla aikavälillä) 
 |Valittujen KET-varaston tuotantotilausten varaston arvon tarkastelu. Tietoihin sisältyvät kulutuksen määrät ja arvot, kapasiteetin käyttö sekä meneillään olevien tuotantotilausten tuotto.|**Varaston arvostus - KET** -raportti|  
 |Valittujen nimikkeiden varaston arvon tarkastelu, mukaan lukien todellinen ja oletettu kustannus määritettynä päivämääränä.|**Varaston arvostus - Kust. määr.** -raportti|  
 |Raportin käyttäminen kustannusvarianssien analysoimiseksi tai myytyjen tuotteiden kustannusosuuksien selvittämiseksi.|**Kustannusjakaumien erittely** -raportti|  
-|Nimiketapahtumiin liittyvien arvotapahtumien kausittainen kirjaaminen varastotapahtumista niihin liittyville pääkirjanpidon tileille näiden kahden kirjanpidon täsmäyttämiseksi.|[Toimintaohje: Varaston kustannusten täsmäyttäminen pääkirjanpitoon](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
-|Varastotapahtumien ja pääkirjanpidon välisen täsmäytyksen tarkistaminen yhdessä ikkunassa.|[Toimintaohje: Varaston kustannusten täsmäyttäminen pääkirjanpitoon](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
-|Tasetileille kirjattavan KET-summan määrittäminen kauden lopussa suoritettavaa raportointia varten.|[Toimintaohje: Projektin edistymisen ja suorituskyvyn valvonta](projects-how-monitor-progress-performance.md)|
+|Nimiketapahtumiin liittyvien arvotapahtumien kausittainen kirjaaminen varastotapahtumista niihin liittyville pääkirjanpidon tileille näiden kahden kirjanpidon täsmäyttämiseksi.|[Varaston kustannusten täsmäyttäminen pääkirjanpitoon](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
+|Varastotapahtumien ja pääkirjanpidon välisen täsmäytyksen tarkistaminen yhdessä ikkunassa.|[Varaston kustannusten täsmäyttäminen pääkirjanpitoon](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
+|Tasetileille kirjattavan KET-summan määrittäminen kauden lopussa suoritettavaa raportointia varten.|[Projektin edistymisen ja suorituskyvyn valvonta](projects-how-monitor-progress-performance.md)|
 
 ## <a name="see-also"></a>Katso myös  
 [Varastonarvostuksen ja kustannuslaskennan määrittäminen](finance-set-up-inventory-valuation-and-costing.md)  

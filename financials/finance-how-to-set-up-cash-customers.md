@@ -13,18 +13,18 @@ ms.search.keywords:
 ms.date: 08/11/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 6826c574bf63de70d76a29b45968c68c0b2e2d1f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: a72e6ff0a710f2d555c805e4fa28896683a819e9
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-cash-customers"></a>Käteisasiakkaiden määrittäminen
+# <a name="set-up-cash-customers"></a>Käteisasiakkaiden määrittäminen
 Laskua ei voi luoda ilman asiakasnumeroa. Näin on, vaikka teet käteismyynnin, eikä asiakastilille ole mitään tallennettavaa.  
 
 ## <a name="to-set-up-a-cash-customer"></a>Käteisasiakkaiden määrittäminen  
 1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Asiakas** ja valitse sitten aiheeseen liittyvä linkki.  
-2.  Luo uusi **Asiakkaan** kortti. Lisätietoja on kohdassa [Toimintaohje: Uusien asiakkaiden rekisteröiminen](sales-how-register-new-customers.md).
+2.  Luo uusi **Asiakkaan** kortti. Lisätietoja on kohdassa [Uusien asiakkaiden rekisteröinti](sales-how-register-new-customers.md).
 3.  Valitse **Nro**-kenttään esimerkiksi **Käteismyynti**.  
 4.  Syötä **Nimi**-kenttään esimerkiksi **Käteismyynti**.  
 5.  Täytä **Laskutus**-pikavälilehden **Asiakkaan kirjausryhmä**- ja **Ylein. liiketoim. kirjausryhmä** -kentät.  
@@ -38,7 +38,7 @@ Laskua ei voi luoda ilman asiakasnumeroa. Näin on, vaikka teet käteismyynnin, 
 
 ## <a name="see-also"></a>Katso myös
 [Myyntisaamisten hallinta](receivables-manage-receivables.md)  
-[Toimintaohje: Uusien asiakkaiden rekisteröiminen](sales-how-register-new-customers.md)    
+[Uusien asiakkaiden rekisteröinti](sales-how-register-new-customers.md)    
 [Rahoitus](finance.md)  
 
 

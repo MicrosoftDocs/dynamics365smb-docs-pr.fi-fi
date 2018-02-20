@@ -13,17 +13,17 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.date: 06/02/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 859801a5e9d9b900aed6af5fe672f650932b2e79
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: e136195c7b89635ca85601cdae5047493c237d09
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-close-accounting-periods"></a>Kirjanpitojakson päättäminen
+# <a name="close-accounting-periods"></a>Kirjanpitojakson päättäminen
 Kun tilikausi on ohi, sinun täytyy päättää tilikauteen sisältyvät kirjanpitojaksot.
 
 ## <a name="to-close-accounting-periods"></a>Kirjanpitojakson päättäminen
-1. Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Kirjanpitojaksot** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Kirjanpitojaksot** ja valitse sitten aiheeseen liittyvä linkki.
 2. Valitse **Kirjanpitojaksot**-ikkunassa **Sulje vuosi** -toiminto.
 
     Jos avoinna on useita tilikausia, niistä valitaan automaattisesti ensimmäinen suljettavaksi. Näyttöön tulee sanoma, jossa näkyy suljettava kausi ja jossa selostetaan sulkemisen seuraukset.
@@ -40,7 +40,7 @@ Kun tilikausi on suljettu, tuloslaskelmatilien saldo eli tilikauden tulos tulee 
 
 ## <a name="see-also"></a>Katso myös
 [Kirjojen sulkeminen](year-close-books.md)  
-[Toimintaohje: Vuositilinpäätöstapahtuman kirjaaminen](year-how-post-year-end-close-entry.md)  
-[Toimintaohje: Uuden tilikauden avaaminen](finance-how-open-new-fiscal-year.md)  
+[Vuositilinpäätöstapahtuman kirjaaminen](year-how-post-year-end-close-entry.md)  
+[Uuden tilikauden avaaminen](finance-how-open-new-fiscal-year.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
 

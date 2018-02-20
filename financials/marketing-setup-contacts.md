@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 8b1ad8ba4d64fff96e9c9fa1866217b19869e98c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 701282909208c36b0ba546c1a15ca27afdbf447c
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="preparing-to-set-up-contacts"></a>Kontaktien määrittämisen valmisteleminen
@@ -31,11 +31,11 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 | Vastaanottaja | Katso |
 | --- | --- |
 | Määritä, millainen liikesuhde sinulla on eri kontaktiesi (esimerkiksi prospektin, pankin, konsultin tai palvelun toimittajan) kanssa. |[Liikesuhteiden määrittäminen kontaktiyrityksissä](marketing-business-relations.md) |
-| Määritä toimiala, johon kontaktit kuuluvat (esimerkiksi vähittäistavarakauppa tai autoteollisuus). |[Toimintaohje: Toimialaryhmien määrittäminen kontaktiyrityksissä](marketing-industry-groups.md) |
-| Määritä postitusryhmät, joiden avulla määritetään samat tiedot saavat kontaktiryhmät. |[Toimintaohje: Postitusryhmien määrittäminen kontaktiyrityksissä](marketing-mailing-groups.md) |
+| Määritä toimiala, johon kontaktit kuuluvat (esimerkiksi vähittäistavarakauppa tai autoteollisuus). |[Toimialaryhmien määrittäminen kontaktiyrityksissä](marketing-industry-groups.md) |
+| Määritä postitusryhmät, joiden avulla määritetään samat tiedot saavat kontaktiryhmät. |[Postitusryhmien määrittäminen kontaktiyrityksissä](marketing-mailing-groups.md) |
 | Määritä kontaktihenkilöiden vastuualueet. |[Vastuualueiden määrittäminen kontakteille](marketing-job-responsibilities.md) |
-| Määritä organisatoriset tasot, joita haluat käyttää kontaktihenkilöiden kanssa. |[Toimintaohje: Kontaktien organisaatiotasojen määritteleminen](marketing-organizational-levels.md) |
-| Määritä verkkolähteet (hakukoneet ja sivustot), joita haluat käyttää, kun haet Internetistä tietoja kontakteistasi. |[Toimintaohje: Verkkolähteiden määrittäminen kontakteissa](marketing-web-sources.md) |
+| Määritä organisatoriset tasot, joita haluat käyttää kontaktihenkilöiden kanssa. |[Kontaktien organisaatiotasojen määritteleminen](marketing-organizational-levels.md) |
+| Määritä verkkolähteet (hakukoneet ja sivustot), joita haluat käyttää, kun haet Internetistä tietoja kontakteistasi. |[Verkkolähteiden määrittäminen kontakteille](marketing-web-sources.md) |
 
 ## <a name="see-also"></a>Katso myös
 [Kontaktien hallinta](marketing-contacts.md)  

@@ -1,6 +1,6 @@
 ---
 title: "Fyysisten varastojen järjesteleminen uudelleen | Microsoft Docs"
-description: "Joskus voit haluat järjestellä fyysisen varaston uudelleen uusilla varastopaikan koodeilla ja uusilla varastopaikan ominaispiirteillä."
+description: "Haluat ehkä järjestellä fyysisen varaston uudelleen käyttämällä uusia varastopaikan koodeja ja uusia varastopaikan ominaispiirteitä."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: da5928be8280bad2eac379a5f0e5b19ddc2d12bc
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d2820513ec95c43464979effd85d5113359886ef
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-restructure-warehouses"></a>Fyysisten varastojen järjesteleminen uudelleen
+# <a name="restructure-warehouses"></a>Fyysisten varastojen uudelleenjärjestely
 Haluat ehkä järjestellä fyysisen varaston uudelleen käyttämällä uusia varastopaikan koodeja ja uusia varastopaikan ominaispiirteitä. Tällaista toimintoa ei suoriteta kovin usein, mutta eteen voi tulla tilanteita, jolloin uudelleenluokittelu on tarpeen, jotta saavutettaisiin tai ylläpidettäisiin tehokkaampaa toimintaa. Esimerkiksi:  
 
 - Haluat alkaa käyttää varastopaikkakoodeja, jotka tukevat automaattisen tiedonkeruun käyttöä esimerkiksi kannettavien laitteiden kanssa.  
@@ -45,7 +45,7 @@ Olet nyt tyhjentänyt varastopaikat, joissa nimikkeet olivat. Nimikkeiden oletus
 
 ## <a name="to-restructure-an-advanced-warehouse-that-uses-directed-put-away-and-pick"></a>Järjestele uudelleen laajennettu varastointi, jossa on käytössä ohjattu hyllytys ja poiminta  
 
-1.  Luo uudet varastopaikat, joita haluat käyttää jatkossa. Lisätietoja on kohdassa [Toimintaohje: Varastopaikkojen luominen](warehouse-how-to-create-individual-bins.md).  
+1.  Luo uudet varastopaikat, joita haluat käyttää jatkossa. Lisätietoja on kohdassa [Varastopaikkojen luominen](warehouse-how-to-create-individual-bins.md).  
 2.  Siirrä nykyisten varastopaikkojen koko sisältö juuri luomiisi uusiin varastopaikkoihin:  
 
     1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **F.var. uudelleenluokit. pvk:t** ja valitse sitten aiheeseen liittyvä linkki.  

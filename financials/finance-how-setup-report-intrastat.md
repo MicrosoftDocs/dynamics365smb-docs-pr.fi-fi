@@ -13,10 +13,10 @@ ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.date: 08/15/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: de6cbcdc8e7ca4aff06461192e2038831ba6b5b3
-ms.openlocfilehash: 973c42642f88024de9d8924b675496015ce60983
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 4b4fde6f005c992b63856ec4afadbb689532ac16
 ms.contentlocale: fi-fi
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="how-to-set-up-and-report-intrastat"></a>Toimintaohje: Intrastat-ilmoituksen määrittäminen ja raportoiminen
@@ -85,7 +85,7 @@ Eräajo hakee kaikki tämän tilastokauden nimiketapahtumat ja lisää ne riveik
 > [!IMPORTANT]  
 >  Eräajo hakee vain ne tapahtumat, joilla on sellainen maa- tai aluekoodi, joille Intrastat-koodi annettiin **Maat/alueet**-sivulla. Siksi on tärkeää, että syötät Intrastat-koodit sellaisille maa-/aluekoodeille, joilla tulet tekemään eräajoja.  
 
-### <a name="how-to-report-intrastat-on-a-form-or-a-file"></a>Toimintaohje: Intrastat-raportointi lomakkeella tai tiedostona
+### <a name="report-intrastat-on-a-form-or-a-file"></a>Intrastat-raportointi lomakkeella tai tiedostona
 Saat Intrastat-lomakkeeseen tarvittavat tiedot tilastoja ylläpitäviltä viranomaisilta tulostamalla **Intrastat – lomake** -raportin. Ennen sitä sinun täytyy laatia Intrastat-ilmoitus ja täyttää se. Jos sinulla on sekä myyntiin että ostoihin liittyviä kauppatahtumia, sinun täytyy tehdä erillinen lomake molemmille tyypeille, ja sinun täytyy siten tulostaa raportti kahdesti.  
 
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Intrastat-ilmoitus** ja valitse sitten aiheeseen liittyvä linkki.  
@@ -95,7 +95,7 @@ Saat Intrastat-lomakkeeseen tarvittavat tiedot tilastoja ylläpitäviltä virano
 5. Lisää **Intrastat-ilmoituksen rivi** -pikavälilehdessä **Tyyppi**-suodatin ja määritä, onko kyseessä **Vastaanotto** vai **Toimitus**.  
 6. Tulosta raportti valitsemalla **Lähetä kohteeseen**.  
 
-### <a name="how-to-report-intrastat-in-a-file"></a>Toimintaohje: Intrastat-raportointi tiedostona
+### <a name="report-intrastat-in-a-file"></a>Intrastat-raportointi tiedostona
 Voit nyt lähettää Intrastat-raportin tiedostona. Ennen tiedoston luomista voit tulostaa tarkastusluettelon, jossa on samat tiedo kuin mitä tiedostossa tulee olemaan.  
 
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Intrastat-ilmoitus** ja valitse sitten aiheeseen liittyvä linkki.  
@@ -106,7 +106,7 @@ Voit nyt lähettää Intrastat-raportin tiedostona. Ennen tiedoston luomista voi
 6. Valitse **Tallenna**.  
 7. Selaa sijaintiin, jonne haluat tallentaa tiedoston. Anna tiedoston nimi ja valitse sitten **Tallenna**.
 
-## <a name="how-to-reorganize-intrastat-journals"></a>Intrastat-ilmoitusten uudelleenjärjestely
+## <a name="reorganize-intrastat-journals"></a>Intrastat-ilmoitusten uudelleenjärjestely
 Koska Intrastat-raportti on lähetettävä joka kuukausi ja luot uuden päiväkirjan erä kullekin raportille, sinulla tulee olemaan ajan mittaan useita päiväkirjan eriä. Kirjauskansiorivejä ei poisteta automaattisesti. Haluat ehkä järjestää päiväkirjan erien nimet uudelleen jaksoittain. Voit tehdä sen poistamalla ne päiväkirjan erät, joita et enää tarvitse. Näissä erissä olevat päiväkirjan rivit poistuvat myös.  
 
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Intrastat-ilmoitus** ja valitse sitten aiheeseen liittyvä linkki.  
@@ -115,6 +115,4 @@ Koska Intrastat-raportti on lähetettävä joka kuukausi ja luot uuden päiväki
 
 ## <a name="see-also"></a>Katso myös
 [Taloushallinto](finance.md)
-
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
 

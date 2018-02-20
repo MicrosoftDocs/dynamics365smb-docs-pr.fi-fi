@@ -12,13 +12,13 @@ ms.search.keywords: payment process, cash receipts, customer payment
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 94055c34b67f05faa8955fdff28f854e77d9664f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: aa2accb5b03fd55c96b046ca6b61582ed5b8a142
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-reconcile-customer-payments-manually-from-a-list-of-unpaid-sales-documents"></a>Toimintaohje: Asiakkaan maksujen täsmäyttäminen manuaalisesti maksamattomien myyntiasiakirjojen luettelosta
+# <a name="reconcile-customer-payments-manually-from-a-list-of-unpaid-sales-documents"></a>Asiakkaan maksujen täsmäyttäminen manuaalisesti maksamattomien myyntiasiakirjojen luettelosta
 Kun asiakkaat ovat suorittaneet maksuja sähköiselle pankkitilille, sinun täytyy kohdistaa jokainen maksettu summa vastaavaan myyntiasiakirjaan ja kirjata maksu sitten ja päivittää asiakkaan, yleisen päiväkirjan ja pankkitilin tapahtumat.
 
 > [!NOTE]  
@@ -176,7 +176,7 @@ Siirry kirjaamaan dokumentoimaton maksu.
 1. Valitse **Yleinen päiväkirja** -toiminto.  
 
     **Yleinen päiväkirja** -ikkuna avautuu. Se sisältää yhden rivin, joka on esitäytetty **Maksurekisteröinnin asetukset** -ikkunassa määritetyllä päväkirjaerän vastatilillä.  
-2. Täytä jäljellä olevat kentät yleisen päiväkirjan rivillä, esimerkiksi summa ja asiakasnumero tai muita tietoja pankin tiliotteesta. Lisätietoja on kohdassa [Toimintaohje: Tapahtumien kirjaaminen suoraan pääkirjanpitoon](finance-how-post-transactions-directly.md).  
+2. Täytä jäljellä olevat kentät yleisen päiväkirjan rivillä, esimerkiksi summa ja asiakasnumero tai muita tietoja pankin tiliotteesta. Lisätietoja on kohdassa [Tapahtumien kirjaaminen suoraan pääkirjanpitoon](finance-how-post-transactions-directly.md).  
 
 Voit kirjata päiväkirjarivin päivittämään vastatilin yhteissummaa. Vaihtoehtoisesti voit jättää päiväkirjarivin kirjaamatta ja kenties liittää se huomautuksen kanssa siitä, että maksu tarvitsee tarkempia analyyseja.  
 

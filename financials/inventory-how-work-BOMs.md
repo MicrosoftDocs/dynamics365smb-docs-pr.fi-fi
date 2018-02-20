@@ -11,13 +11,13 @@ ms.workload: na
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: caf3637dac270a3d20283e6c0776634ee1f5613e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: da306187ff3007834e34b727c2c8f4e00dd8829b
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-bills-of-material"></a>Toimintaohje: Tuoterakenteen käyttäminen
+# <a name="work-with-bills-of-material"></a>Tuoterakenteen käyttäminen
 Tuoterakenteilla voi jäsentää päänimikkeet, jotka resurssien tai kuormituskeskusten on koottava tai tuotettava komponenteista. Kokoonpanon tuoterakennetta voidaan käyttää myös päänimikkeen myyntiin komponenteista koostuvana tuotepakettina.
 
 ## <a name="assembly-boms-or-production-boms"></a>Kokoonpanon tuoterakenteet tai tuotannon tuoterakenteet
@@ -31,7 +31,7 @@ Käytä tuotantotilauksia tehdäksesi loopullisia nimikkeitä osista monimutkais
 
 Tuotannon tuoterakenne määrittää tuotannon kohteen ja sen komponentit. Tuotannon tuoterakenteen on oltava sertifioitu ja määritetty tuotantokohteelle ennen kuin sitä voidaan käyttää tuotantotilauksessa. Kun syötät tuotantonimikkeen tuotantotilausriville joko manuaalisesti tai päivittämällä järjestystä, tuotannon rruoterakenteen sisällöstä tulee tuotantotilauksen komponentit. Lisätietoja on kohdassa [Tuotannon tuoterakenteiden luominen](production-how-to-create-production-boms.md).  
 
-Tuotannossa olevien resurssien konsepti on paljon kehittyneempi kuin kokoonpanon hallinnassa. Tuotantosolut ja kuormitusryhmät toimivat resursseina ja tuotannon vaiheet on esitetty toimina, jotka on määritetty resursseille tuotannon reitityksissä. Lisätietoja on kohdassa [Uusien reititysten luominen](production-how-to-create-routings.md).
+Tuotannossa olevien resurssien konsepti on paljon kehittyneempi kuin kokoonpanon hallinnassa. Tuotantosolut ja kuormitusryhmät toimivat resursseina ja tuotannon vaiheet on esitetty toimina, jotka on määritetty resursseille tuotannon reitityksissä. Lisätietoja on kohdassa [Reititysten luominen](production-how-to-create-routings.md).
 
 Sekä kokoonpanotilaukset että tuotantotilaukset voidaan linkittää suoraan myyntitilauksiin. Voit käyttää kokoonpanotilauksia kuitenkin vain loppunimikkeen mukauttamiseen suoraan asiakkaan pyynnöstä myyntitilauksessa
 
@@ -42,13 +42,13 @@ Kokoonpanon tuoterakenteet sisältävät yleensä nimikkeitä, mutta ne voivat s
 
 Kokoonpanon tuoterakenteessa voi olla useita tasoja. Toisin sanoen kokoonpanon tuoterakenteen komponentti voi olla itsessään kokoonpanonimike. Siinä tapauksessa kokoonpanon tuoterakennerivillä olevassa **Kokoonpanon tuoterakenne** -kentässä on **Kyllä**.
 
-Erikoisvaatimukset koskevat kokoonpanon tuoterakenteiden nimikkeiden saatavuutta. Lisätietoja on ohjeaiheen [Toimintaohje: Nimikkeiden saatavuuden tarkasteleminen](inventory-how-availability-overview.md) kohdassa Nimikkeen saatavuuden tarkastelu sen mukaan, miten sitä käytetään kokoonpanon tuoterakenteessa.
+Erikoisvaatimukset koskevat kokoonpanon tuoterakenteiden nimikkeiden saatavuutta. Lisätietoja on ohjeaiheen [Nimikkeiden saatavuuden tarkasteleminen](inventory-how-availability-overview.md) kohdassa Nimikkeen saatavuuden tarkastelu sen mukaan, miten sitä käytetään kokoonpanon tuoterakenteessa.
 
 Kokoonpanon tuoterakenteen luomisessa on kaksi osaa:
 - uuden nimikkeen määrittäminen
 - kokoonpanonimikkeen tuoterakenteen määrittäminen.
 
-1. Määritä uusi nimike. Lisätietoja on kohdassa [Toimintaohje: Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md).
+1. Määritä uusi nimike. Lisätietoja on ohjeaiheessa [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md).
 
     Jatka antamalla kokoonpanon tuoterakenteen osat tai resurssit.  
 2. Valitse kokoonpanonimikkeen **Nimikekortti**-ikkunassa ensin **Kokoonpano**-toiminto ja sitten **Kokoonpanon tuoterakenne** -toiminto.
@@ -80,7 +80,7 @@ Kaikki kokoonpanonimikkeen myyntilaskurivin kentät poistetaan **Nimike**- ja **
 ## <a name="to-calculate-the-standard-cost-of-an-assembly-item"></a>Kokoonpanonimikkeen vakiokustannusten laskeminen
 Lasket kokoonpano-nimikkeen yksikkökustannuksen vyöryttämällä jokaisen osan yksikkökustannuksen ja resurssin nimikkeen kokoonpanon tuoterakenteessa.
 
-Voit myös laskea ja päivittää yhden tai usean nimikkeen vakiokustannukset **Vakiokust. työkirja** -ikkunassa. Lisätietoja on kohdassa [Toimintaohje: Vakiokustannusten päivittäminen](finance-how-to-update-standard-costs.md).  
+Voit myös laskea ja päivittää yhden tai usean nimikkeen vakiokustannukset **Vakiokust. työkirja** -ikkunassa. Lisätietoja on kohdassa [Vakiokustannusten päivittäminen](finance-how-to-update-standard-costs.md).  
 
 Kokoonpanon tuoterakenteen yksikkökustannus on aina yhtä suuri kuin sen komponenttien (mukaan lukien muut kokoonpanon tuoterakenteet) ja mahdollisten resurssien yhteenlasketut yksikkökustannukset.
 
@@ -100,8 +100,8 @@ Kokoonpanon tuoterakenteen yksikkökustannus on aina yhtä suuri kuin sen kompon
 Kokoonpanon tuoterakenteen muodostavien nimikkeiden kustannukset kopioidaan osanimikekorteilta. Kunkin nimikkeen kustannus kerrotaan määrällä ja kokonaiskustannus lisätään kokoonpanon nimikekortin **Yksikkökustannus**-kenttään.
 
 ## <a name="see-also"></a>Katso myös
-[Toimintaohje: Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md)  
-[Toimintaohje: Nimikkeiden saatavuuden tarkasteleminen](inventory-how-availability-overview.md)     
-[Varasto](inventory-manage-inventory.md)  
-[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]in käyttäminen](ui-work-product.md)
+[Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md)  
+[Nimikkeiden saatavuuden tarkasteleminen](inventory-how-availability-overview.md)     
+[Vaihto-omaisuus](inventory-manage-inventory.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
 

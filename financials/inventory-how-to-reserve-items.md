@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/14/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b03209b5681c264f7d788d3d731d32b60f1709b6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 61ecdcd1c87d267e19047be5424e1c07e832316a
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-reserve-items"></a>Toimintaohje: Nimikkeiden varaaminen
+# <a name="reserve-items"></a>Nimikkeiden varaaminen
 Voit varata nimikkeitä myyntitilauksiin, ostotilauksiin, huoltotilauksiin, kokoonpanotilauksiin ja tuotantotilauksiin. Voit varata nimikkeitä varastossa tai avoimien asiakirja- tai päiväkirjarivien saapuvissa kohteissa. Käsittely tapahtuu **Varaus**-ikkunassa.
 
 Jokaisella nimikkeiden varaamista varten avatulla **Varaus**-ikkunan rivillä on tietoja yhdestä rivin (myynti, osto, päiväkirja) tai varastotapahtuman tyypistä. Riveillä kuvataan, kuinka monta nimikettä on saatavilla varattavaksi kustakin rivin tai tapahtuman tyypistä.
@@ -43,7 +43,7 @@ Seuraavaksi käsitellään, miten nimikkeitä varataan myyntitilauksesta. Samat 
 ## <a name="to-reserve-an-item-for-a-production-order-line"></a>Nimikkeiden varaaminen tuotantotilauksen rivejä varten  
 Tuotantotilauksille voi varata nimikkeitä. Tuotantotilauksen rivit eli päänimike ja tuotantotilauksen komponentit on erotettava toisistaan.
 
-Seuraavassa toienpiteessä luodaan sitovasti suunniteltu tuotantotilaus.   
+Seuraavassa toimenpiteessä käytetään sitovasti suunniteltua tuotantotilausta.   
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Sitovasti suun. tuotantotil.** ja valitse sitten aiheeseen liittyvä linkki.  
 2. Avaa sitovasti suunniteltu tuotantotilaus, jolle haluat varata päänimikkeitä.  
 3. Valitse vapautettavan tuotantotilauksen rivi.  
@@ -81,14 +81,14 @@ Joskus voit haluta peruuttaa nimikevarauksen.
 4.  Vahvista avautuva sanoma valitsemalla **OK**.  
 
 ## <a name="to-reserve-a-specific-serial-or-lot-number"></a>Varaa tietty sarja- tai eränumero  
-Nimikeseurannassa olevien nimikkeiden lähtevien asiakirjojen, kuten myyntitilausten tai tuotannon komponenttiluetteloiden, tiettyjä sarja- tai eränumeroita voi varata. Tämä voi olla tarpeen, jos esimerkiksi tarvitaan tietyn erän tuotanto-osia, jotta varmistetaan yhdenmukaisuus aiempien tuotantoerien kanssa, tai koska asiakas on pyytänyt tiettyä sarjanumeroa. Lisätietoja on kohdassa [Toimintaohje: Sarja- ja eränumeroiden käsitteleminen](inventory-how-work-item-tracking.md).
+Nimikeseurannassa olevien nimikkeiden lähtevien asiakirjojen, kuten myyntitilausten tai tuotannon komponenttiluetteloiden, tiettyjä sarja- tai eränumeroita voi varata. Tämä voi olla tarpeen, jos esimerkiksi tarvitaan tietyn erän tuotanto-osia, jotta varmistetaan yhdenmukaisuus aiempien tuotantoerien kanssa, tai koska asiakas on pyytänyt tiettyä sarjanumeroa. Lisätietoja on kohdassa [Sarja- ja eränumeroiden käsitteleminen](inventory-how-work-item-tracking.md).
 
 Tätä kutsutaan määritetyksi varaukseksi, koska varataan erään X kuuluvan nimikkeen X määrästä. Jos varataan vain nimikkeen X määristä, kyseessä on normaali, määrittämätön varaus. Lisätietoja on kohdassa [Rakennetiedot: Nimikkeen seuranta ja varaukset](design-details-item-tracking-and-reservations.md).
 
 Seuraava toimenpide perustuu myyntitilaukseen.    
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Myyntitilaukset** ja valitse sitten aiheeseen liittyvä linkki.  
 2. Luo myyntitilausrivi nimikeseurannassa olevalle nimikkeelle.  
-3. Määritä sarja- ja eränumerot myyntitilausriville. Lisätietoja on kohdassa [Toimintaohje: Sarja- ja eränumeroiden käsitteleminen](inventory-how-work-item-tracking.md).
+3. Määritä sarja- ja eränumerot myyntitilausriville. Lisätietoja on kohdassa [Sarja- ja eränumeroiden käsitteleminen](inventory-how-work-item-tracking.md).
 4. Valitse myyntitilausrivillä **Varaa**-toiminto.  
 5. Valitse **Kyllä** varataksesi tietyt sarja- tai eränumerot.  
 6. Valitse **Nimikeseurantaluettelo**-ikkunassa sarja- ja eränumeron yhdistelmä, jonka olet juuri määrittänyt.  
@@ -99,6 +99,6 @@ Seuraava toimenpide perustuu myyntitilaukseen.
 [Vaihto-omaisuus](inventory-manage-inventory.md)  
 [Rakennetiedot: varaus, tilauksen seuranta ja toimenpiteiden viestitys](design-details-reservation-order-tracking-and-action-messaging.md)  
 [Rakennetiedot – nimikkeen seuranta ja varaukset](design-details-item-tracking-and-reservations.md)  
-[Toimintaohje: Sarja- ja eränumeroiden käsitteleminen](inventory-how-work-item-tracking.md)  
+[Sarja- ja eränumeroiden käsitteleminen](inventory-how-work-item-tracking.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
 

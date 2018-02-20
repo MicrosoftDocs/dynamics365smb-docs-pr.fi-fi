@@ -13,14 +13,14 @@ ms.search.keywords: GetAddress.io, postcodes, postal, address, extension
 ms.date: 04/20/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 075c49d0fb452a47cc67e21c56e9e7a69232555e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: eb964479bf6fd2f60eae278a7b14ec36e3a7e9ff
 ms.contentlocale: fi-fi
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
-# <a name="the-getaddressio-uk-postcodes-extension-to-microsoft-dynamics-365-business-edition"></a>Microsoft Dynamics 365 Business editionin Ison-Britannian postinumeroiden GetAddress.io-laajennus 
+# <a name="the-getaddressio-uk-postcodes-extension-to-microsoft-finance-and-operations-business-edition"></a>Microsoft Finance and Operations, Business editionin Ison-Britannian postinumeroiden GetAddress.io-laajennus 
 Ison-Britannian postinumeroiden GetAddress.io-laajennus säästää aikaa ja estää virheitä, kun annat objektien, kuten asiakkaiden, toimittajien, pankkitilien ja työntekijöiden, osoitteita. Jos olet esimerkiksi luomassa asiakasta, sinun tarvitsee vain valita postinumero ja [!INCLUDE[d365fin](includes/d365fin_md.md)] näyttää osoiteluettelon. Valitse sopiva osoite, jonka osoitekentät täyttyvät.  
 
 ##<a name="to-use-the-getaddressio-uk-postcodes-extension-when-you-enter-an-address"></a>Osoitteen antaminen Ison-Britannian postinumeroiden GetAddress.io-laajennuksella

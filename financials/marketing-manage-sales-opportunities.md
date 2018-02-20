@@ -1,6 +1,6 @@
 ---
 title: Myyntimahdollisuuksien ja liidien hallinta| Microsoft Docs
-description: "Tässä ohjeaiheessa käsitellään saapuvien liidien tai myyntimahdollisuuksien hallintaa Dynamics 365:ssä ja mahdollisuuden liittämisestä myyjään, jotta mahdollista myyntiä voidaan seurata."
+description: "Tässä ohjeaiheessa kerrotaan saapuvien liidien tai myyntimahdollisuuksien hallintaa Finance and Operations, Business editionissa ja mahdollisuuden liittämisestä myyjään, jotta mahdollista myyntiä voidaan seurata."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 34c43d54d2472d6aee0fc791824013727e3fd324
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 67e385b6c3f533ab5c63259b9df7e775f2155897
 ms.contentlocale: fi-fi
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-sales-opportunities"></a>Myyntimahdollisuuksien hallinta
@@ -28,8 +28,8 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 
 | Toiminta | Katso |
 | --- | --- |
-| Myyntisyklien määrittäminen, joka on yleensä seuraavana, ja kunkin mahdollisuuden myyntisyklin eri vaiheet. |[Toimintaohje: Mahdollisuuden myyntisyklien ja syklin vaiheiden määrittäminen](marketing-how-setup-opportunity-sales-cycles-stages.md) |
-| Luo kontakteiltasi peräisin olevat myyntimahdollisuudet. |[Toimintaohje: Mahdollisuuksien luominen](marketing-how-create-opportunities.md) |
+| Myyntisyklien määrittäminen, joka on yleensä seuraavana, ja kunkin mahdollisuuden myyntisyklin eri vaiheet. |[Mahdollisuuden myyntisyklien ja syklin vaiheiden määrittäminen](marketing-how-setup-opportunity-sales-cycles-stages.md) |
+| Luo kontakteiltasi peräisin olevat myyntimahdollisuudet. |[Mahdollisuuksien luominen](marketing-how-create-opportunities.md) |
 | Siirrä myyntimahdollisuus myyntisyklin kautta valmistumiseen. |[Myyntimahdollisuuksien käsitteleminen](marketing-processing-sales-opportunities.md) |
 
 ## <a name="see-also"></a>Katso myös

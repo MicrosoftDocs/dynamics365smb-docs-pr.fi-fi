@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/10/2017
+ms.date: 01/19/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ff83b7e5b61cd265bb3cb1af0bd5db3513c26072
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b31ba087798c3f54e54403ed418019c82ce3091c
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-calculate-order-promising-dates"></a>Toimituksen lupaamisen päivämäärän laskeminen
+# <a name="calculate-order-promising-dates"></a>Toimituksen lupaamisen päivämäärien laskeminen
 Yrityksen on voitava ilmoittaa asiakkailleen tilauksen toimituksen päivämäärät. Voit tehdä tämän **Toimituksen lupaamisen rivit** -ikkunassa myyntitilauksen riviltä.  
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] laskee heti nimikkeen tunnettujen ja oletettujen päivämäärien perusteella toimitus- ja lähetyspäivämäärät, jotka voidaan sitten luvata asiakkaalle.  
@@ -39,7 +39,7 @@ Jos et ole määrittänyt pyydettyä toimituspäivämäärää myyntitilausrivil
 ## <a name="about-order-promising"></a>Tietoja toimituksen lupaamisesta
 Toimituksen lupaamistoiminnon ansiosta voidaan luvata, että tilaus lähetetään tai toimitetaan tiettynä päivänä. Ohjelma laskee päivämäärän, jolloin nimike on luvattavissa tai mahdollinen luvattavaksi, ja se luo tilausrivejä niille päivämäärille, jotka hyväksyt. Toiminto laskee aikaisimman mahdollisen päivämäärän, jolloin nimike on saatavilla toimitusta tai lähetystä varten. Se luo myös hankintarivit hyväksytyille päivämäärille siinä tapauksessa, että nimikkeiden on oltava ensin ostoja.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] käyttää kahta peruskäsitettä:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  käyttää kahta peruskäsitettä:  
 
 - Luvattavissa (ATP)  
 - Mahdollinen luvattavaksi (CTP)  
@@ -48,8 +48,10 @@ Toimituksen lupaamistoiminnon ansiosta voidaan luvata, että tilaus lähetetää
 Luvattavissa (ATP) laskee päivämäärät varausjärjestelmän mukaan. Se suorittaa varaston varaamattomien määrien saatavuustarkistuksen suunnitellun tuotannon, ostojen, siirtojen ja myyntipalautusten varalta. [!INCLUDE[d365fin](includes/d365fin_md.md)] laskee näiden tietojen perusteella automaattisesti asiakkaan tilauksen toimituspäivämäärän, koska nimikkeet ovat käytettävissä joko varastossa tai suunnitelluissa vastaanotoissa.  
 
 ### <a name="capable-to-promise"></a>Mahdollinen luvattavaksi  
-Mahdollinen luvattavaksi (CTP) olettaa "mitä jos"-skenaarion, jossa nimike ei ole varastossa eikä tilaukset ole ajoitettu. [!INCLUDE[d365fin](includes/d365fin_md.md)] laskee tämän skenaarion perusteella varhaisimman päivämäärän, jolloin nimike voi olla käytettävissä, jos se tuotetaan, ostetaan tai siirretään.  
+Mahdollinen luvattavaksi (CTP) olettaa entä jos -esimerkkitilanteen, joka koskee vain nimikemääriä, jotka eivät ole varastossa tai aikataulutetuissa tilauksissa. [!INCLUDE[d365fin](includes/d365fin_md.md)] laskee tämän skenaarion perusteella varhaisimman päivämäärän, jolloin nimike voi olla käytettävissä, jos se tuotetaan, ostetaan tai siirretään.
 
+#### <a name="example"></a>Esimerkki
+Jos tilauksen määrä on 10 kpl ja varastossa tai aikatauluteissa tilauksissa on saatavana 6 kpl, Mahdollinen luvattavaksi -laskennan perustana on 4 kpl.
 
 ### <a name="calculations"></a>Laskelmat  
 Kun [!INCLUDE[d365fin](includes/d365fin_md.md)] laskee asiakkaan toimituspäivän, se suorittaa kaksi tehtävää:  
@@ -62,7 +64,7 @@ Jos asiakas ei pyydä tiettyä toimituspäivämäärää, toimituspäivämäär�
 - Toimituspvm + Lähtevä f.var. + Suunniteltu toimituspvm + Käsittelyaika = Pvm  
 - Suunniteltu toimituspvm + Toimitusaika = Suunniteltu toimituspvm  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] tarkistaa sitten, onko laskettu toimituspäivä mahdollinen laskemalla ajassa taaksepäin, milloin nimikkeen on oltava saatavissa, jotta luvattu päivämäärä toteutuisi. Tämä toteutetaan seuraavilla kaavoilla:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  tarkistaa sitten, onko laskettu toimituspäivä mahdollinen laskemalla ajassa taaksepäin, milloin nimikkeen on oltava saatavissa, jotta luvattu päivämäärä toteutuisi. Tämä toteutetaan seuraavilla kaavoilla:  
 
 - Suunniteltu lähetyspvm + Toimitusaika = Suunniteltu toimituspvm  
 - Suunniteltu toimituspvm - Lähtevä f.var. käsittelyaika= Toimituspvm  
@@ -73,7 +75,7 @@ Perustuen uusiin päivämääriin ja kellonaikoihin, kaikki liittyvät päiväm�
 
 Tilausten käsittelijä päättää CTP-prosessin hyväksymällä päivämäärät. Tämä tarkoittaa sitä, että nimikkeelle luodaan suunnittelutyökirjan rivi ja varaustapahtuma ennen laskettuja päivämääriä sen varmistamiseksi, että tilaus voidaan toteuttaa.  
 
-**Toimituksen lupaamisen rivit** -ikkunassa suoritettavan ulkoisen toimituksen lupaamisen lisäksi voit luvata tuoterakenteen nimikkeille myös sisäisiä tai ulkoisia päivämääriä. Lisätietoja on kohdassa [Toimintaohje: Nimikkeiden saatavuuden tarkasteleminen](inventory-how-availability-overview.md).
+**Toimituksen lupaamisen rivit** -ikkunassa suoritettavan ulkoisen toimituksen lupaamisen lisäksi voit luvata tuoterakenteen nimikkeille myös sisäisiä tai ulkoisia päivämääriä. Lisätietoja on kohdassa [Nimikkeiden saatavuuden tarkasteleminen](inventory-how-availability-overview.md).
 
 ## <a name="to-set-up-order-promising"></a>Toimituksen lupaamisen määrittäminen  
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Toimituksen lupaamisen asetukset** ja valitse sitten aiheeseen liittyvä linkki.  

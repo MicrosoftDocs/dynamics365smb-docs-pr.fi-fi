@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 99c3ac10460a62ee23294cfd0d8c25709c37901b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f1ced6c90333c1da9cbd148f199debdc70ed5a46
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-plan-put-aways-in-worksheets"></a>Hyllytysten suunnitteleminen työkirjoissa
-Jos sijainnissa on määritetty sekä hyllytyksen että vastaanoton käsittely pakolliseksi ja haluat suunnitella hyllytysohjeita useille vastaanotoille sen sijaan, että työntekijät noudattaisivat ohjelman luomia ohjeita erillisille kirjatuille vastaanotoille, voit käyttää hyllytystyökirjaa.  
+# <a name="plan-put-aways-in-worksheets"></a>Hyllytysten suunnitteleminen työkirjoissa
+Jos sijainnissa on määritetty sekä hyllytyksen että vastaanoton käsittely pakolliseksi ja haluat suunnitella hyllytysohjeita useille vastaanotoille – sen asemesta, että työntekijät noudattaisivat ohjelman luomia ohjeita erillisille kirjatuille vastaanotoille – voit käyttää hyllytystyökirjaa.  
 
 Jos haluat määrittää fyysisen varastoinnin niin, että vastaanottorivit ovat saatavilla hyllytystyökirjassa heti kirjaamisen jälkeen, lisää valintamerkki  **Käytä hyllytystyökirjaa** -kenttään sijaintikortin **F. varastointi** -pikavälilehdessä. Lisätietoja on kohdassa [Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md).  
 
@@ -58,7 +58,7 @@ Jos et valitse tätä kenttää, ohjelma luo automaattisesti hyllytysohjeita vas
 
     -   Hyllytyksen voi määritellä tietylle työntekijälle.  
     -   Hyllytysohjerivit voidaan lajitella samoin kuin työkirjassa tai varastopaikan luokittelun mukaan. Kun järjestelet varastopaikan luokittelun mukaisesti, Ota-rivit tulevat ensimmäisiksi, koska useimmilla vastaanoton varastopaikoille on varastopaikan luokittelu 0, ja Aseta-rivit tulevat viimeisiksi alkaen varastopaikoista, joilla on alin varastopaikan luokittelu. Jos olet järjestänyt fyysisen varaston niin, että samanlaisen varastopaikan luokittelun varastopaikat ovat vierekkäin, rivien järjesteleminen tällä tavalla säästää lopulta työvaiheita varaston työntekijöiltä.  
-    -   Voit valita, että ohjeessa eivät näy välissä olevia rivejä, jotka luotiin ohjelman erotellessa suuremman mittayksikön pienemmiksi mittayksiköiksi (lisää rasti **Aseta erottelusuodatin** -kenttään). Lisätietoja on kohdassa [Toimintaohje: Irtotavaran ohjatulla hyllytyksellä ja poiminnalla tapahtuvan automaattisen erottelun ottaminen käyttöön] (warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md).  
+    -   Voit valita, että ohjeessa eivät näy välissä olevia rivejä, jotka luotiin ohjelman erotellessa suuremman mittayksikön pienemmiksi mittayksiköiksi (lisää rasti **Aseta erottelusuodatin** -kenttään). Lisätietoja on kohdassa [Irtotavaran ohjatulla hyllytyksellä ja poiminnalla tapahtuvan automaattisen erottelun ottaminen käyttöön] (warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md).  
     -   Voit valita, että ohjelma ei täytä automaattisesti hyllytysohjeiden **Käsiteltävä määrä** -kenttää.  
     -   Voit tulostaa asiakirjan heti.  
 

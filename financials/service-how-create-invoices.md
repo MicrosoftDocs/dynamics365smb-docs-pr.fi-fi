@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/22/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 7ee0dc8f0f44e9bb62fc87caf85eaf92d438abe6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: fb65a8b978a0f87b27cc48a634c4ec64d230221d
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-service-invoices-or-credit-memos"></a>Toimintaohje: Huoltolaskujen tai -hyvityslaskujen luominen
+# <a name="create-service-invoices-or-credit-memos"></a>Huoltolaskujen ja hyvityslaskujen luominen
 Huoltotilausten laskuttamisen helppous on yksi [!INCLUDE[d365fin](includes/d365fin_md.md)]:n tärkeimmistä ominaisuuksista. Voit lähettää laskun asiakkaille milloin tahansa tai voit luoda laskut jaksoittain.  
   
 Laskun voi luoda suoraan **Huoltosopimus**-ikkunassa. Järjestelmän voi myös määrittää niin, että huoltoteknikko voi luoda laskun kentällä, vaikka palvelua ei olisikaan liitetty sopimukseen tai tilaukseen.  
@@ -99,7 +99,7 @@ Huollon hyvityslaskuasiakirjaa käytetään yleensä silloin, kun asiakas palaut
 4. Syötä hyvityslaskun riveille tietoja nimikkeistä, jotka on palautettu tai poistettu tai asiakkaalle annettavasta korvauksesta.  
 
 ## <a name="see-also"></a>Katso myös
-[Toimintaohje: Huoltolaskujen kirjaaminen:](service-how-to-post-service-orders.md)  
+[Huoltolaskujen kirjaaminen](service-how-to-post-service-orders.md)  
 [Huoltohallinnon määrittäminen](service-setup-service.md)  
 [Huollon kirjaus](service-service-posting.md)  
 

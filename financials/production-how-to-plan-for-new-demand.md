@@ -1,6 +1,6 @@
 ---
 title: Tilauskohtainen suunnittelu | Microsoft Docs
-description: "Tämä suunnittelutehtävä voidaan suorittaa **Tilauksen suunnittelu** -ikkunassa, jossa uusi kysyntää näkyy kokonaisuudessaan samoin kuin saatavuustiedot sekä tarjontaa koskevat ehdotukset. Ikkunan tietojen ja työkalujen avulla voidaan suunnitella tehokkaasti myynti- ja komponenttirivien synnyttämä kysyntä sekä luoda erityyppisiä toimitustilauksia suoraan."
+description: "Tämä suunnittelutehtävä voidaan suorittaa **Tilauksen suunnittelu** -ikkunassa, jossa näkyvät kaikki uusi kysyntä, saatavuustiedot sekä tarjontaa koskevat ehdotukset. Ikkunan tietojen ja työkalujen avulla voidaan suunnitella tehokkaasti myynti- ja komponenttirivien synnyttämä kysyntä sekä luoda erityyppisiä toimitustilauksia suoraan."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 143124fd2e458ee756d47d3f8523380cff6826a9
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: a7266eddba4293807a1e7e2a187c5002be771499
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-plan-for-new-demand-order-by-order"></a>Toimintaohje: Uuden kysynnän tilauskohtainen suunnittelu
+# <a name="plan-for-new-demand-order-by-order"></a>Uuden kysynnän tilauskohtainen suunnittelu
 Tämä suunnittelutehtävä voidaan suorittaa **Tilauksen suunnittelu** -ikkunassa, jossa näkyvät kaikki uusi kysyntä, saatavuustiedot sekä tarjontaa koskevat ehdotukset. Ikkunan tietojen ja työkalujen avulla voidaan suunnitella tehokkaasti myynti- ja komponenttirivien synnyttämä kysyntä sekä luoda erityyppisiä toimitustilauksia suoraan.  
 
 Voit siirtyä **Tilauksen suunnittelu** -ikkunaan kahdella tavalla kohdistuksen mukaan: tilauksesta, jonka nimenomaisesti haluat suunnitella, tai erätilasta, koska haluat suunnitella kaikkea uutta kysyntää varten.  
@@ -75,7 +75,7 @@ Ikkunassa näkyvät suunnittelurivit on suodatettu  **Tuotantokysyntä**-suodatu
     >  Valintamerkki voidaan lisätä vain, jos nimikkeen kortin **Varaa**-kentässä on arvo **Valinnainen** tai **Aina**.  
 
 8.  **Tilattava määrä** -kenttään voit antaa määrän, joka siirretään luotavaan toimitustilaukseen.   
-    Kentässä on oletusarvona on sama määrä kuin **Tarvittu määrä** -kentässä. Nimikettä voidaan kuitenkin tilata enemmän tai vähemmän sen mukaan, mitä tiedetään yleisestä kysyntätilanteesta. Jos esimerkiksi huomaat **Tilauksen suunnittelu** -ikkunassa, että samalle ostonimikkeelle on useita toisiinsa liittymättömiä kysyntärivejä, jotka ovat erääntymässä samoihin aikoihin, voit yhdistää rivit määrittämällä tarvittavan kokonaismäärän yhden rivin **Tilattava määrä** -kenttään ja poistamalla muut nimikkeen suunnittelurivit.  
+    Kentässä on oletusarvona on sama määrä kuin **Tarvittu määrä**-kentässä. Nimikettä voidaan kuitenkin tilata enemmän tai vähemmän sen mukaan, mitä tiedetään yleisestä kysyntätilanteesta. Jos esimerkiksi huomaat **Tilauksen suunnittelu**-ikkunassa, että samalle ostonimikkeelle on useita toisiinsa liittymättömiä kysyntärivejä, jotka ovat erääntymässä samoihin aikoihin, voit yhdistää rivit määrittämällä tarvittavan kokonaismäärän yhden rivin **Tilattava määrä**-kenttään ja poistamalla muut nimikkeen suunnittelurivit.  
 
 9.  **Eräpäivä**- ja **Tilauspvm**-kenttiin voit antaa päivämäärät, joita käytetään luoduissa toimitustilauksissa.  
 

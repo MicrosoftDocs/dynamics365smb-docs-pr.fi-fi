@@ -1,6 +1,6 @@
 ---
-title: Varausten laskuttaminen Dynamics 365:ssa | Microsoft Docs
-description: "Lisätietoja Microsoft Bookingsista tehtävästä massalaskutuksesta Dynamics 365 Business editionissa."
+title: Varausten laskuttaminen Finance and Operations, Business editionissa | Microsoft Docs
+description: "Lisätietoja Finance and Operations, Business editionissa Microsoft Bookingsista tehtävästä massalaskutuksesta."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords: invoicing, bookings
 ms.date: 06/14/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 154a4719cdd0e28280c5b0a5de85479beb0b9262
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d387bbbf59550a6ca11dff534b76683a07808ca4
 ms.contentlocale: fi-fi
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="bulk-invoicing-for-microsoft-bookings-in-included365finincludesd365finmdmd"></a>Microsoft Bookingsin massalaskutus [!INCLUDE[d365fin](includes/d365fin_md.md)]issa
@@ -28,11 +28,11 @@ Jos esimerkiksi haluat synkronoida asiakkaat Bookingsin ja [!INCLUDE[d365fin](in
 ## <a name="invoice-appointments"></a>Laskuta tapaamiset
 Kun on aika lähettää laskut valmiista varauksista, voit siirtyä **Laskuttamattomat varaukset** -sivulle. Luettelon pituus riippuu tietojen synkronointiaikataulusta. Voit luoda laskut kaikille luettelon varauksille tai yhdelle varaukselle kerrallaan. Voit valita luettelosta useita tapahtumia ja laskuttaa ainoastaan ne.  
 
-Bookings-tapaamisten laskuttamisen tuki on yksinkertaisempi kuin myyntitarjousten, -tilausten ja -laskujen kanssa työskentelyn täysi työnkulku. Lisätietoja on kohdassa [Toimintaohje: Myynnin laskuttaminen](sales-how-invoice-sales.md). Voit myydä palveluitasi [!INCLUDE[d365fin](includes/d365fin_md.md)]in avulla tai käyttää Bookingsia, yrityksesi tarpeista riippuen.  
+Bookings-tapaamisten laskuttamisen tuki on yksinkertaisempi kuin myyntitarjousten, -tilausten ja -laskujen kanssa työskentelyn täysi työnkulku. Lisätietoja on kohdassa [Myynnin laskutus](sales-how-invoice-sales.md). Voit myydä palveluitasi [!INCLUDE[d365fin](includes/d365fin_md.md)]in avulla tai käyttää Bookingsia, yrityksesi tarpeista riippuen.  
 
 ## <a name="see-also"></a>Katso myös
 [Rahoitus](finance.md)  
-[Toimintaohje: Myynnin laskutus](sales-how-invoice-sales.md)  
+[Myynnin laskutus](sales-how-invoice-sales.md)  
 [Myynnin määrittäminen](sales-setup-sales.md)  
 [Microsoft Bookings](https://products.office.com/en-us/business/scheduling-and-booking-app)  
 

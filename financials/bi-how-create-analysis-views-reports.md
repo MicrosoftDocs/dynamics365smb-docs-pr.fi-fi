@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 06/16/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: b2efb52ce874643fffc0af805fc7ff0dac792462
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 378c3d2b0429390c303c723dbfafd07c531b3958
 ms.contentlocale: fi-fi
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-#  <a name="how-to-create-analysis-reports"></a>Uusien myynnin analyysiraporttien luominen
+#  <a name="create-analysis-reports"></a>Analyysiraporttien luominen
 Myyntipäälliköiden on analysoitava liikevaihtoa, bruttokatetta ja muita myynnin tunnuslukuja säännöllisesti. Ostajat ovat kiinnostuneempia ostovolyymien dynamiikasta, toimittajien suorituskyvystä ja ostohinnoista. Logistiikka-/varastopäälliköt puolestaan tarvitsevat tietoja varaston kierrosta, varaston siirtoanalyysin ja tilastotietoja varaston arvosta.  
 
 Analyysiraporttien avulla voit luoda räätälöityjä raportteja kirjattujen tapahtumien, esimerkiksi myynnin, ostojen, siirtojen ja varastonmuutosten, tietueiden perusteella. Räätälöitävän raportin lähdetietoja, jotka johdetaan nimiketapahtumista (niihin liittyvien arvotapahtumien kera), voidaan yhdistää, vertailla ja esittää mielekkäillä käyttäjän määrittämillä tavoilla. Niinpä analyysiraportti muistuttaa hyvin paljon Microsoft Excelin pivot-taulukkoraporttia.  
@@ -28,7 +28,7 @@ Voit luoda mukautetun raportin, jossa keskitytään avainasiakkaisiin kokonaisli
 
 Analyysiraportit koostuvat analysoitavista objekteista, kuten asiakkaista, asiakasryhmistä ja myyjistä, jotka esitetään riveinä, ja analyysin parametreista eli objektin analysointitavasta, kuten katelaskelmista, myyntisummien ja -määrien jaksoittaisista vertailuista tai todellisten ja budjetoitujen lukujen jaksoittaisista vertailuista.
 
-Analyysiraporttien lisäksi voit luoda ja tarkastella samanlaisia tietoja analyysinäkymissä, jotka perustuvat dimensioihin. Lisätietoja on kohdassa [Toimintaohje: tietojen analysointi dimensioittain](bi-how-analyze-data-dimension.md).
+Analyysiraporttien lisäksi voit luoda ja tarkastella samanlaisia tietoja analyysinäkymissä, jotka perustuvat dimensioihin. Lisätietoja on kohdassa [Tietojen analysointi dimensioittain](bi-how-analyze-data-dimension.md).
 
 ## <a name="example"></a>Esimerkki  
 Voit määrittää seuraavanlaiset rivit:  
@@ -41,9 +41,6 @@ Sen jälkeen voit määrittää seuraavanlaiset sarakkeet:
 - Kuluvan kuukauden myynti  
 - Edellisen kuukauden myynti  
 - Edellisen kuukauden myynti prosentteina.  
-
-> [!NOTE]  
->   Tämä toiminto edellyttää, että kokemukseksi on valittu **Suite**. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)] -kokemuksen mukauttaminen](ui-experiences.md).
 
 ## <a name="setting-up-line-and-column-layouts"></a>Rivi- ja sarakeasettelujen määrittäminen  
  **Analyysiraportti**-ikkunan avulla voit katsella eri rivi- ja sarakeasetteluja sen mukaan, mitä olet määrittänyt. Rivit tai rivimallit määritetään **Analyysirivimallit**-ikkunassa. Tässä ikkunassa voit määrittää raportin nimen ja raportin riveillä näkyvät objektit. Sarakkeet määritetään **Analyysisarakkeen mallit** -ikkunassa. Tässä ikkunassa voit määrittää sarakkeen mallin nimen ja raportissa sarakkeina esitettävät analyysin parametrit. **Analyysisarakkeen mallit** -ikkunassa jokainen rivi vastaa raportin saraketta. Huomaa, että analyysin rivit ja sarakkeet ovat riippumattomia toisistaan.  

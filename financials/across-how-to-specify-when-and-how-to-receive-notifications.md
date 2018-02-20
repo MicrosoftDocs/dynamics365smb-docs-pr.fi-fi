@@ -13,24 +13,24 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: db0e3f159a0d6a793ed5881118ecff6d0bf6a529
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 1c514178ef65b78ad74256834b962e7018ac3864
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-specify-when-and-how-to-receive-notifications"></a>Toimintaohje: Määritä, milloin ja miten käyttäjät saavat ilmoituksia
+# <a name="specify-when-and-how-to-receive-notifications"></a>Ilmoitusten vastaanoton ajankohdan ja tavan määrittäminen
 Kun määrität käyttäjiä hyväksynnän työnkulkuihin, **Ilmoituksen asetukset** ja **Ilmoitusaikataulu**-ikkunoissa on määritettävä miten ja milloin käyttäjät saavat ilmoituksia hyväksynnän työnkulun osavaiheista. Yksittäiset käyttäjät voivat muuttaa ilmoitusasetuksiaan valitsemalla **Muuta ilmoitusasetuksia** -painikkeen, joka näytetään kaikissa ilmoituksissa.  
 
- Ennen kuin voit määrittää hyväksynnän käyttäjän ilmoitusasetukset, käyttäjä on määritettävä hyväksynnän käyttäjäksi. Lisätietoja on kohdassa [Toimintaohje: Hyväksynnän käyttäjien määrittäminen](across-how-to-set-up-approval-users.md).  
+ Ennen kuin voit määrittää hyväksynnän käyttäjän ilmoitusasetukset, käyttäjä on määritettävä hyväksynnän käyttäjäksi. Lisätietoja on kohdassa [Hyväksynnän käyttäjien määrittäminen](across-how-to-set-up-approval-users.md).  
 
- Ilmoitusten asettelu ja sisältö määritetään ilmoitusmalleilla. Lisätietoja on kohdassa [Toimintaohje: Ilmoitusmallien hallinta](across-how-to-manage-notification-templates.md).  
+ Ilmoitusten asettelu ja sisältö määritetään ilmoitusmalleilla. Lisätietoja on kohdassa [Ilmoitusmallien hallinta](across-how-to-manage-notification-templates.md).  
 
  Useat hyväksyntätyönkulun osavaiheet ilmoittavat käyttäjille toimia vaativista tapahtumista. Työnkulun osavaiheen tapahtuma voi olla esimerkiksi se, että käyttäjä 1 pyytää uuden tietueen hyväksymistä. Vastauksena lähetetään ilmoitus käyttäjälle 2 (hyväksyjälle). Seuraavan työnkulun osavaiheen tapahtuma voi olla se, että käyttäjä 2 hyväksyy tietueen. Vastauksena lähetetään ilmoitus käyttäjälle 3, jotta hyväksytyn tietueen käsittely voidaan aloittaa. Hyväksyntään liittyvien työnkulun osavaiheiden ilmoitukset ovat sidoksissa hyväksyntämerkintään. Lisätietoja on kohdassa [Työnkulku](across-workflow.md).  
 
 ## <a name="specify-when-and-how-users-receive-notifications"></a>Määritä, milloin ja miten käyttäjät saavat ilmoituksia  
 
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "") -kuvake, kirjoita **Hyväksynnän käyttäjäasetukset** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Hyväksynnän käyttäjäasetukset** ja valitse sitten aiheeseen liittyvä linkki.  
 2.  Valitse sen käyttäjän rivi, jonka ilmoitusasetukset haluat määrittää, ja valitse sitten **Ilmoitusasetukset**-toiminto.  
 3.  Täytä **Ilmoituksen asetukset** -ikkunan kentät seuraavassa taulukossa kuvatulla tavalla.  
 
@@ -59,8 +59,8 @@ Kun määrität käyttäjiä hyväksynnän työnkulkuihin, **Ilmoituksen asetuks
 2.  Muuta ilmoitusasetuksiasi **Ilmoituksen asetukset** -ikkunassa edellä kuvattujen ohjeiden mukaisesti.  
 
 ## <a name="see-also"></a>Katso myös  
- [Toimintaohje: Hyväksyjäkäyttäjien määrittäminen](across-how-to-set-up-approval-users.md)   
- [Toimintaohje: Ilmoitusmallien hallinta](across-how-to-manage-notification-templates.md)   
+ [Hyväksynnän käyttäjien määrittäminen](across-how-to-set-up-approval-users.md)   
+ [Ilmoitusmallien hallinta](across-how-to-manage-notification-templates.md)   
  [Työnkulkuilmoitusten määrittäminen](across-setting-up-workflow-notifications.md)   
  [Työnkulkujen määrittäminen](across-set-up-workflows.md)   
  [Työnkulkujen käyttäminen](across-use-workflows.md)

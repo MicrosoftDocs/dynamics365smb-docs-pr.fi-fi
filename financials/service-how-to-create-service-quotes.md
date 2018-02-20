@@ -1,6 +1,6 @@
 ---
 title: Huoltotarjousten luominen | Microsoft Docs
-description: "**Huoltotarjous**-ikkunassa voidaan luoda asiakirjoja, joihin annetaan tiedot asiakkaan pyynnöstä tehtävästä huoltonimikkeiden huollosta (korjauksesta tai ylläpidosta). Voit käyttää alustavana huoltotilauksen suunnitelmana huoltotarjousta ja muuntaa tarjouksen sitten huoltotilaukseksi."
+description: "**Huoltotilaus**-ikkunassa voidaan luoda asiakirjoja, joihin syötetään tietoja asiakkaan pyynnöstä tehtävästä huoltonimikkeiden huollosta (korjauksesta tai ylläpidosta). Voit käyttää huoltotarjousta huoltotilauksen luonnoksena ja muuntaa tarjouksen sitten huoltotilaukseksi."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d5348e7b15eb0337f2a5f829c871dadcf3133b86
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 9d4f8d21d0c79adbac238b2d26accc4c08656c77
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-service-quotes"></a>Huoltotarjousten luominen
+# <a name="create-service-quotes"></a>Huoltotarjousten luominen
 Huoltotarjoukset voidaan mieltää huoltotilausten pohjaksi. Ne ovatkin itse asiassa lähes samanlaisia. Kummassakin on tietoja esimerkiksi asiakkaasta, tilaustyypistä, huollettavista nimikkeistä, laskutus- ja toimitustiedoista sekä tehtävästä huoltotyöstä.
  
 Voit käyttää huoltotarjousta huoltotilauksen luonnoksena ja muuntaa tarjouksen sitten huoltotilaukseksi.  
@@ -38,7 +38,7 @@ Voit käyttää huoltotarjousta huoltotilauksen luonnoksena ja muuntaa tarjoukse
 7. Rekisteröi arvioidut kustannukset huoltoriveille  
   
 ## <a name="see-also"></a>Katso myös  
-[Toimintaohje: Huoltotilausten luominen](service-how-to-create-service-orders.md)  
-[Toimintaohje: Huoltotehtävien käsitteleminen](service-how-to-work-on-service-tasks.md)  
+[Huoltotilausten luominen](service-how-to-create-service-orders.md)  
+[Huoltotehtävien käyttäminen](service-how-to-work-on-service-tasks.md)  
 
  

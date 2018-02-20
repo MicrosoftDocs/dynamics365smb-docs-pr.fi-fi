@@ -1,1 +1,1 @@
-Tämä on varhainen versio toiminto, jota kehitetään edelleen. Toiminto ja tämän sivun sisältö voi muuttua. Lisätietoja tulevasta on kohdassa [Microsoft Dynamics 365 Roadmap -sivustossa](https://go.microsoft.com/fwlink/?linkid=842139).
+Tämä on varhainen versio toiminto, jota kehitetään edelleen. Toiminto ja tämän sivun sisältö voi muuttua. Lisätietoja tulevasta on sivustossa [Microsoft Dynamics 365 for Finance and Operations, Business edition Roadmap](https://go.microsoft.com/fwlink/?linkid=842139).

@@ -13,13 +13,13 @@ ms.search.keywords: policy, coverage
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 8e88002c920e392cd61f2a899811fd0434d8cb4b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: fd59a1aea6cb42dbeac7c6978619a5648f877b52
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-fixed-asset-insurance"></a>Toimintaohje: Käyttöomaisuuden vakuutuksen määrittäminen
+# <a name="set-up-fixed-asset-insurance"></a>Käyttöomaisuuserän määrittäminen
 Voit hallita käyttöomaisuuden vakuutuksen kattavuutta, kun määrität ensin joitakin sopimusta koskevia yleisiä vakuutustietoja sekä vakuutuskortin.
 
 ## <a name="to-set-up-general-insurance-information"></a>Yleisten vakuutustietojen määrittäminen
@@ -31,13 +31,13 @@ Jotta [!INCLUDE[d365fin](includes/d365fin_md.md)]in vakuutusominaisuuksia voitai
 ## <a name="to-set-up-insurance-types"></a>Vakuutustyyppien määrittäminen
 Voit ryhmitellä vakuutussopimukset luokkiin, esimerkiksi vakuutukset varkauksia vastaan ja vakuutukset tulipaloa vastaan. Vakuutustyyppejä käytetään vakuutuskortissa.
 
-1. Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Vakuutustyypit** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Vakuutustyypit** ja valitse sitten aiheeseen liittyvä linkki.  
 2. Täytä tarvittavat kentät.
 
 ## <a name="to-set-up-insurance-cards"></a>Vakuutuskorttien määrittäminen
 Vakuutuskorttiin voi kerätä tietoja kustakin vakuutussopimuksesta.  
 
-1. Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Vakuutus** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Vakuutus** ja valitse sitten aiheeseen liittyvä linkki.  
 2. Luo uusi vakuutuskortti valitsemalla **Vakuutus**-ikkunassa **Uusi**-toiminto.  
 3. Täytä tarvittavat kentät.
 

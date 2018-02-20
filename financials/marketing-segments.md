@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: cfb32511dd5ba564572050a3d52058fcc2c2f9d3
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2c17f14809ecfe9a335c3f8e6bb7ddeb4e26e1e9
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-segments"></a>Segmenttien hallinta
@@ -32,7 +32,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 | Vastaanottaja | Katso |
 | --- | --- |
 | Luo segmentit, joiden avulla voit valita kontaktiryhmän (esimerkiksi suoramainos). Tällainen on esimerkiksi suoramainos. |[Segmenttien luominen](marketing-how-create-segment.md) |
-| Hallitse segmentteihin liitettyjä kontakteja. |[Toimintaohje: Kontaktien lisääminen segmentteihin](marketing-add-contact-segment.md) |
+| Hallitse segmentteihin liitettyjä kontakteja. |[Kontaktien lisääminen segmentteihin](marketing-add-contact-segment.md) |
 | Lisätietoja vuorovaikutusten ja segmenttien sekä lokiin kirjaamisen käyttämisestä. |[Vuorovaikutuksen ja segmenttien hallinta](marketing-interaction-segments.md) |
 
 ## <a name="see-also"></a>Katso myös

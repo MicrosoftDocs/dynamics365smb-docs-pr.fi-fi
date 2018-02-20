@@ -13,14 +13,14 @@ ms.search.keywords: service, service items, respond, response
 ms.date: 08/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9c60f65b65c7037b4ce26212cfe80e7b7f1b1336
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 34283487641e7b249b556cec834531582c58af7a
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="delivering-service"></a>Huollon toimittaminen
-[!INCLUDE[d365fin](includes/d365fin_md.md)]:n toiminnot helpottavat huollon toimittamista luotujen sopimusten ja huoltotilausten mukaisesti. Huoltoteknikot ja huollon aikatauluttajat voivat tarkastaa odottavat huoltotilaukset helposti **lähetystaulukosta**. **Lähetystaulukosta** ilmenevät sekä käynnissä olevat että valmiit tilaukset.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] :n toiminnot helpottavat huollon toimittamista luotujen sopimusten ja huoltotilausten mukaisesti. Huoltoteknikot ja huollon aikatauluttajat voivat tarkastaa odottavat huoltotilaukset helposti **lähetystaulukosta**. **Lähetystaulukosta** ilmenevät sekä käynnissä olevat että valmiit tilaukset.  
   
 Voit tarkastella jonossa olevia huoltotilauksia myös **Huoltotehtävät**-ikkunasta. Tästä huoltovelvoitteiden näkymästä voi tarkistaa, missä kohtaa huoltotyönkulkua tilaus on. Samassa näkymässä voi myös muuttaa tilauksen tilan ajan tasalle.  
   
@@ -36,11 +36,11 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 |------------|-------------|  
 |Luo tarjouksia huoltotilausten luonnoksiksi ja muunna tarjoukset huoltotilauksiksi.|[Huoltotarjousten luominen](service-how-to-create-service-quotes.md)|
 |Luo asiakirjoja, joissa on tietoja huoltonimikkeiden huollosta, kuten korjauksista ja ylläpidosta.|[Huoltotilausten luominen](service-how-to-create-service-orders.md)|
-|Suunnittele huollon toimittaminen **lähetystaulukon** avulla. Suunnitteluun voi käyttää myös Projektit-osaston projektinhallintatyökaluja.|[Toimintaohje: Resurssien kohdistaminen](service-how-to-allocate-resources.md)|  
-|Toimita huolto asiakkaille suorittamalla huoltotehtäviä.|[Huoltotehtävien parissa työskenteleminen](service-how-to-work-on-service-tasks.md)|  
-|Kirjaa huoltojen huoltotilaukset, jotta kirjanpito pysyy ajan tasalla.|[Toimintaohje: Huoltotilausten ja hyvityslaskujen kirjaaminen](service-how-to-post-service-orders.md)|  
-|Luo ja kirjaa toimitetun huollon laskut.|[Toimintaohje: Huoltolaskujen tai hyvityslaskujen luominen](service-how-create-invoices.md)|  
-|Asiakkaat pysyvät tyytyväisinä, kun lainaat heille huollettavaa nimikettä vastaavan nimikkeen huollon ajaksi.| [Toimintaohje: Lainatavaroiden lainaaminen ja vastaanottaminen](service-how-to-lend-receive-loaners.md)|
+|Suunnittele huollon toimittaminen **lähetystaulukon** avulla. Suunnitteluun voi käyttää myös Projektit-osaston projektinhallintatyökaluja.|[Resurssien kohdistaminen](service-how-to-allocate-resources.md)|  
+|Toimita huolto asiakkaille suorittamalla huoltotehtäviä.|[Huoltotehtävien käyttäminen](service-how-to-work-on-service-tasks.md)|  
+|Kirjaa huoltojen huoltotilaukset, jotta kirjanpito pysyy ajan tasalla.|[Huoltotilausten ja hyvityslaskujen kirjaaminen](service-how-to-post-service-orders.md)|  
+|Luo ja kirjaa toimitetun huollon laskut.|[Huoltolaskujen ja hyvityslaskujen luominen](service-how-create-invoices.md)|  
+|Asiakkaat pysyvät tyytyväisinä, kun lainaat heille huollettavaa nimikettä vastaavan nimikkeen huollon ajaksi.| [Lainatavaroiden lainaaminen ja vastaanottaminen](service-how-to-lend-receive-loaners.md)|
   
 ## <a name="see-also"></a>Katso myös  
 [Huollon suunnittelu](service-plan-service.md)  

@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 2a6829c5a67f1121ecc135e1183af78b0e602f8f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5cafcc32874187ae787279c20256c11cadaff6a1
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-pick-and-put-away-without-a-source-document"></a>Toimintaohje: Poiminta ja hyllytys ilman lähdeasiakirjaa
+# <a name="pick-and-put-away-without-a-source-document"></a>Poimiminen ja hyllyttäminen ilman lähdeasiakirjaa
 Kun nimikkeet on hyllytetty ja ennen kuin ne poimitaan täyttämään tuotantotilauksen tai toimituksen tarpeita, ne varastoidaan fyysiseen varastoon osaksi saatavilla olevaa varastoa.  
 
 On mahdollista, että nimikkeitä täytyy poistaa tilapäisesti fyysisen varastoinnin poimintavarastopaikoista, esim. myyntiesittelyn mallikappaleiksi. Nämä kohteet ovat edelleen yhtiön omaisuutta ja osa varastoa, mutta ne eivät ole poimittavissa. Ne on rekisteröity tarkoitusta varten luotuun erityistarkoituksen varastopaikkaan; periaatteessa nimikkeet ovat fyysisessä varastossa, mutta todellisuudessa ne voivat olla kokous- tai esittelyhuoneessa.  

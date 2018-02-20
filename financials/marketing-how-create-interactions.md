@@ -1,6 +1,6 @@
 ---
 title: Vuorovaikutusten luominen kontakteille ja segmenteille| Microsoft Docs
-description: "Tässä ohjeaiheessa kerrotaan, miten vuorovaikutukset luodaan Dynamics 365:ssä asiakkaiden ja segmenttien kanssa käydylle viestinnälle. Kyse voi olla esimerkiksi suoramainonnasta."
+description: "Tässä ohjeaiheessa kerrotaan, miten vuorovaikutukset luodaan Finance and Operations, Business editionissa asiakkaiden ja segmenttien kanssa käydylle viestinnälle. Kyse voi olla esimerkiksi suoramainonnasta."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,13 +13,13 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/15/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 57cbc08ab2e05777fae54018fe714d44b64d14e0
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 93d5bc9fd8189d5a8341faa252de9eac257901d2
 ms.contentlocale: fi-fi
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-interactions-on-contacts-and-segments"></a>Toimintaohje: Vuorovaikutusten luominen kontakteille ja segmenteille
+# <a name="create-interactions-on-contacts-and-segments"></a>Vuorovaikutusten luominen kontakteille ja segmenteille
 Voit luoda vuorovaikutuksia, kun haluat tallentaa kaikki vuorovaikutukset ja kaiken yhteydenpidon (esimerkiksi postin), joita sinulla on kontaktiesi ja segmenttiesi kanssa.
 
 Ennen vuorovaikutusten luomista sinun täytyy määrittää vuorovaikutusmallit. Lisätietoja on ohjeaiheessa [Vuorovaikutusmallien määrittäminen](marketing-interactions.md).
@@ -54,5 +54,5 @@ Jos olet valinnut **Luo seurantasegmentti** -valintaruudun, ohjelma luo automaat
 [Kontaktien hallinta](marketing-contacts.md)  
 [Myyntimahdollisuuksien hallinta](marketing-manage-sales-opportunities.md)  
 [Kontaktienhallinnan määrittäminen](marketing-setup-marketing.md)  
-[Dynamics 365:n käyttäminen](ui-work-product.md)
+[Finance and Operations, Business editionin käyttäminen](ui-work-product.md)
 

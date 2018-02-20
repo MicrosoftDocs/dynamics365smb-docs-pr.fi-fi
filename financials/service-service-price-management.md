@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/28/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e9eb165c8ccb196f687c11f4cb4353d88c71de3c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b2607dce0b62a3a1433362491692687d4c868d06
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="service-price-management"></a>huoltohallinnan asetukset
@@ -67,6 +67,6 @@ Asetukset kuvaillaan seuraavassa taulukossa.
 |**Pienin**|Tämä tarkoittaa, että asiakkaalta veloitettavalle summalle asetetaan alaraja todellisista kustannuksista tai vakioveloituksista välittämättä. Kun valitaan tämä vaihtoehto, huoltohinnan muutos tehdään vain, jos yhteishinta alittaa huoltohintaryhmälle määritetyn summan.|  
   
 ## <a name="see-also"></a>Katso myös  
-[Toimintaohje: Huollon hinnoittelun ja lisäkustannusten määrittäminen](service-how-setup-service-costs-pricing.md)  
+[Huollon hintojen ja lisäkustannusten määrittäminen](service-how-setup-service-costs-pricing.md)  
 [Huoltohallinnon määrittäminen](service-setup-service.md)  
 

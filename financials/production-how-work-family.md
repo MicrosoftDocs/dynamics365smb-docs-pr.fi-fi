@@ -1,6 +1,6 @@
 ---
 title: "Tuotannon nimikeperheiden käyttäminen | Microsoft Docs"
-description: "Kun yrityksen tai sen jonkin liikekumppanin peruskalenteria mukautetaan tärkeintä on antaa kaikki työskentely- ja ei-työskentelypäivätilan muutokset."
+description: "Päätehtävä peruskalenterin räätälöimisessä yrityksellesi tai yhdelle sen liiketoimintakumppaneista on syöttää kaikki työskentely- ja ei-työskentelypäivätilan muutokset."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/05/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 060c58991ae48ba768f5c1c0bd7442228e6bc976
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2e76520cdab388d3430ea50fb8e88f7dce26715a
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-production-families"></a>Toimintaohje: Tuotantoperheiden käsitteleminen
+# <a name="work-with-production-families"></a>Tuotantoperheiden käsitteleminen
 Tuoteperhe on ryhmä yksittäisiä nimikkeitä, joiden suhde perustuu niiden tuotantoprosessien samankaltaisuuteen. Tuoteperheitä muodostamalla joitain nimikkeitä voidaan tuottaa kaksi kertaa tai useammin yhdessä tuotannossa, joka optimoi materiaalinkulutusta.
 
 Anna **Tuoteperhe**-ikkunan **Määrä**-kentässä määrä, joka tuotetaan, kun koko tuoteperhe on tuotettu kerran.
@@ -35,12 +35,12 @@ Tuoteperheiden muodostamisella vähennetään hukkatavaran määrää, koska se,
 
 ## <a name="to-produce-based-on-a-production-familily"></a>Tuotanto tuoteperheen perusteella
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Sitovasti suunn. tuotantotil.** ja valitse sitten aiheeseen liittyvä linkki.
-2. Luo uusi tuotantotilaus. Lisätietoja on kohdassa [Toimintaohje: Tuotantotilausten luominen](production-how-to-create-production-orders.md).
+2. Luo uusi tuotantotilaus. Lisätietoja on kohdassa [Tuotantotilausten luominen](production-how-to-create-production-orders.md).
 3. Valitse **Lähdetyyppi**-kentässä **Tuoteperhe**.  
 4. Valitse **Lähdenro** -kentässä käsiteltävä tuotantoperhe.
 
 ## <a name="see-also"></a>Katso myös
-[Toimintaohje: Uusien tuotannon tuoterakenteiden luominen](production-how-to-create-production-boms.md)  
+[Tuotannon tuoterakenteiden luominen](production-how-to-create-production-boms.md)  
 [Tuotannon määrittäminen](production-configure-production-processes.md)  
 [Tuotanto](production-manage-manufacturing.md)    
 [Suunnittelu](production-planning.md)   

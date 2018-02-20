@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 54489c23a34e409ccb22faff77da41acdaf065b3
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Rakennetiedot: lähtevän fyysisen varastoinnin virta
@@ -43,9 +43,9 @@ Lisäksi olemassa on seuraavat sisäiset lähdeasiakirjat, jotka toimivat kuten 
 |Tapa|Saapuva prosessi|Varastopaikat|Poiminnat|Toimitukset|Monimutkaisuustaso (katso [Rakennetiedot: Fyysisen varaston asetukset](design-details-warehouse-setup.md))|  
 |------------|---------------------|----------|-----------|---------------|--------------------------------------------------------------------------------------------------------------------|  
 |L|Kirjaa poiminta ja lähetys tilausrivistä|X|||2|  
-|B|Kirjaa poiminta ja lähetys varaston poiminta-asiakirjasta||X||3|  
+|B|Poiminnan ja toimituksen kirjaaminen varaston poiminta-asiakirjasta||X||3|  
 |N|Kirjaa poiminta ja lähetyksen fyysisen varastoinnin toimituksen asiakirjasta|||X|4/5/6|  
-|P|Kirjaa poiminta fyysisen varastoinnin poiminta-asiakirjasta ja kirjaa toimitus varastoinnin toimituksen asiakirjasta||X|X|4/5/6|  
+|P|Poiminnan kirjaaminen fyysisen varastoinnin poiminta-asiakirjasta ja toimituksen kirjaaminen fyysisen varastoinnin toimituksen asiakirjasta||X|X|4/5/6|  
 
  Katso lisätietoja kohdasta [Rakennetiedot: lähtevän fyysisen varastoinnin virta]().  
 

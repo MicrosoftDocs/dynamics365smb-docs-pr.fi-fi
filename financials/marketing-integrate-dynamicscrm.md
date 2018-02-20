@@ -1,6 +1,6 @@
 ---
 title: Asiakkaiden hallinta Dynamics 365 for Salesissa| Microsoft Docs
-description: "Voit tehdä Dynamics 365 Business editionissa tietojen yhdistämismäärityksen Dynamics 365 for Salesilla, jolloin saavutetaan liidistä tuottoon -prosessin saumaton integrointi ja synkronointi."
+description: "Voit tehdä Finance and Operations, Business editionissa tietojen yhdistämismäärityksen Dynamics 365 for Salesilla, jolloin saavutetaan liidistä tuottoon -prosessin saumaton integrointi ja synkronointi."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map
-ms.date: 06/06/2017
+ms.date: 01/25/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: de6cbcdc8e7ca4aff06461192e2038831ba6b5b3
-ms.openlocfilehash: fde1a04c4e6f56fb425f6aef85d21b029a76fe0c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5626472de338f23df287699d65901645b84b49b3
 ms.contentlocale: fi-fi
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-customers-and-sales-created-in-dynamics-365-for-sales"></a>Dynamics 365 for Sales -sovelluksessa luotujen asiakkaiden ja myynnin hallinta
@@ -25,8 +25,7 @@ Kun sovellus on määritetty integroitumaan Dynamics 365 for Salesiin, voit käy
 
 Esimerkiksi myyjä voi käyttää Dynamics 365 for Salesissa [!INCLUDE[d365fin](includes/d365fin_md.md)]in hinnastoja myyntitilausta luodessaan. Kun he lisäävät nimikkeen Dynamics 365 for Sales myyntitilausriville, he näkevät myös nimikkeen varastotason (saatavuuden) [!INCLUDE[d365fin](includes/d365fin_md.md)]ista.
 
-> [!NOTE]  
->   Tämä toiminto edellyttää, että kokemukseksi on valittu **Suite**. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)] -kokemuksen mukauttaminen](ui-experiences.md).  
+Ja päinvastoin, [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen tilausten käsittelijät voivat käsitellä Dynamics 365 for Sales -sovelluksesta automaattisesti tai manuaalisesti siirrettyjä myyntitilausten erityisominaisuuksia. Erityisominaisuudet voivat olla esimerkiksi sallittujen myyntitilausrivien automaattinen luominen ja kirjaaminen Sales-sovellukseen käsin lisättyinä tuotteina syötetyille nimikkeille tai resursseille. Lisätietoja on Erityisten myyntitilausten tietojen käsittelminen -osassa.  
 
 ## <a name="setting-up-the-connection"></a>Yhteyden määrittäminen
 Voit käynnistää aloitussivulta asetusten ohjatun **Dynamics 365 for Sales -yhteyden määrittäminen** -määrittämisen, joka auttaa yhteyden määrittämisessä. Kun yhteys on muodostettu, Dynamics 365 for Salesin tietueet on yhdistetty saumattomasti [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietueisiin.  
@@ -42,14 +41,14 @@ Asennusopas tuo nykyisen Dynamics 365 for Sales -ratkaisun käyttämällä järj
 * järjestelmänvalvoja  
 * ratkaisun mukauttaja.  
 
-Lisätietoja on TechNetin artikkelissa [Käyttäjien luominen ja Microsoft Dynamics 365 (online) -käyttöoikeusroolien määrittäminen](https://technet.microsoft.com/library/jj191623.aspx) ja kohdassa [Toimintaohje: Käyttäjien ja käyttöoikeuksien hallinta](ui-how-users-permissions.md).  
+Lisätietoja on TechNetin artikkelissa [Käyttäjien luominen ja Microsoft Finance and Operations, Business edition (online) -käyttöoikeusroolien määrittäminen](https://technet.microsoft.com/library/jj191623.aspx) ja kohdassa [Käyttäjien ja käyttöoikeuksien hallinta](ui-how-users-permissions.md).  
 
 Tätä tiliä käytetään vain asennuksen aikana. Kun ratkaisu on tuotu [!INCLUDE[d365fin](includes/d365fin_md.md)]iin, tiliä ei enää tarvita.
 
 ### <a name="setting-up-the-user-account-for-synchronization"></a>Synkronoinnin käyttäjätilin määrittäminen
-Integraatiota varten tarvitaan jaettu käyttäjätili. Niinpä sinun on luotava Office 365 -tilauksessa erillinen käyttäjä, jota käytetään kahden palvelun välillä tapahtumaan synkronointiin. Tämän tilin on jo oltava hyväksytty Dynamics 365 for Salesin käyttäjä, mutta tilille ei tarvitse määrittää käyttöoikeusrooleja, koska asennusopas tekee sen puolestasi. Tämä käyttäjätili on määritettävä asennusoppaassa ainakin kerran sen perusteella, kuinka laajan synkronoinnin haluat ottaa käyttöön. Lisätietoja on TechNetin artikkelissa [Käyttäjien luominen ja Microsoft Dynamics 365 (online) -käyttöoikeusroolien määrittäminen](https://technet.microsoft.com/library/jj191623.aspx).
+Integraatiota varten tarvitaan jaettu käyttäjätili. Niinpä sinun on luotava Office 365 -tilauksessa erillinen käyttäjä, jota käytetään kahden palvelun välillä tapahtumaan synkronointiin. Tämän tilin on jo oltava hyväksytty Dynamics 365 for Salesin käyttäjä, mutta tilille ei tarvitse määrittää käyttöoikeusrooleja, koska asennusopas tekee sen puolestasi. Tämä käyttäjätili on määritettävä asennusoppaassa ainakin kerran sen perusteella, kuinka laajan synkronoinnin haluat ottaa käyttöön. Lisätietoja on TechNetin artikkelissa [Käyttäjien luominen ja Microsoft Finance and Operations, Business edition (online) -käyttöoikeusroolien määrittäminen](https://technet.microsoft.com/library/jj191623.aspx).
 
-Jos otat käyttöön *tuotteen saatavuuden*, integrointiin käytettävällä käyttäjätilillä on oltava verkkopalvelun käyttöoikeusavain. Se on kaksivaiheinen toiminto kyseisen käyttäjätilin [!INCLUDE[d365fin](includes/d365fin_md.md)]-sivulla. Sinun on valittava **Muuta verkkopalvelun käyttöoikeusavainta** -painike ja määritettävä kyseinen käyttäjä OData-verkkopalvelun käyttäjäksi Dynamics 365 -yhteyden asennusoppaassa.
+Jos otat käyttöön *tuotteen saatavuuden*, integrointiin käytettävällä käyttäjätilillä on oltava verkkopalvelun käyttöoikeusavain. Se on kaksivaiheinen toiminto kyseisen käyttäjätilin [!INCLUDE[d365fin](includes/d365fin_md.md)] -sivulla. Sinun on valittava **Muuta verkkopalvelun käyttöoikeusavainta** -painike ja määritettävä kyseinen käyttäjä OData-verkkopalvelun käyttäjäksi Dynamics 365 for Sales -yhteyden asennusoppaassa.
 
 Jos otat käyttöön *myyntitilauksen integroinnin*, sinun on määritettävä tämän synkronoinnin käsittelevä käyttäjä. Se voi olla joko integrointikäyttäjä tai jokin muu käyttäjätili.
 
@@ -77,14 +76,15 @@ Valitse asetusten ohjatun määritysoppaan lopussa **Suorita täysi synkronointi
 
 Voit tarkistaa täyden synkronoinnin yksittäisten töiden etenemistä, porautua alaspäin **Työjonon tapahtuman tila**-, **Integrointitaulukkoon – projektin tila**- tai **Integrointitaulukosta – projektin tila** -kentissä **Täyden CRM-synkronoinnin tarkistus** -ikkunassa.
 
-**Dynamics 365 -yhteyden määritys** -ikkunasta voi katsoa koska tahansa tietoja täydestä synkronoinnista. Voit avata sieltä myös **Integrointitaulukon yhdistämismääritykset** -ikkunan, jossa on tietoja synkronoitavista Dynamics 365 Business editionin ja Dynamics 365 for Sales -ratkaisun taulukoista.
+**Dynamics 365 for Sales -yhteyden määritys** -ikkunasta voi katsoa koska tahansa tietoja täydestä synkronoinnista. Voit avata sieltä myös **Integrointitaulukon yhdistämismääritykset** -ikkunan, jossa on tietoja synkronoitavista Finance and Operations, Business editionin ja Dynamics 365 for Sales -ratkaisun taulukoista.
 
 ## <a name="see-also"></a>Katso myös
 [Kontaktienhallinta](marketing-relationship-management.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttökokemuksen mukauttaminen](ui-experiences.md)  
-[Toimintaohje: Käyttäjien ja käyttöoikeuksien hallinta](ui-how-users-permissions.md)    
-[Organisaation ja käyttäjien perehdyttäminen Dynamics 365 (online) -ratkaisuun](https://www.microsoft.com/en-US/Dynamics/crm-customer-center/onboard-your-organization-and-users-to-dynamics-365-online.aspx)  
+[Käyttäjien ja käyttöoikeuksien hallinta](ui-how-users-permissions.md)    
+[Organisaation ja käyttäjien perehdyttäminen Finance and Operations, Business editioniin (online)](https://www.microsoft.com/en-US/Dynamics/crm-customer-center/onboard-your-organization-and-users-to-dynamics-365-online.aspx)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

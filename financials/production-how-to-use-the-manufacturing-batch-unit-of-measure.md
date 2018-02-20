@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/14/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 1b075d164e18a52fbda56cced8d88fabc77bec3f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 7dafbb96b4ce4f5ad525ab299edd8549c7aa600e
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-manufacturing-batch-units-of-measure"></a>Toimintaohje: Tuotantoerän mittayksiköiden käyttäminen
+# <a name="work-with-manufacturing-batch-units-of-measure"></a>Tuotantoerän mittayksiköiden käyttäminen
 Jos nimike varastoidaan yhtä mittayksikköä ja tuotetaan toista mittayksikköä käyttäen, ohjelma voi laskea komponenttien oikean määrän **Päivitä tuotantotilaus** -eräajon aikana luomalla tuotantoerän mittayksikköä käyttävän tuotantotilauksen. Tuotantoerän mittayksikön laskentaa voidaan tarvita esimerkiksi, kun nimike varastoidaan kappaleina mutta tuotetaan tonneina.  
 
 ## <a name="to-create-a-production-bom-using-a-batch-unit-of-measure"></a>Tuotannon tuoterakenteen luominen erän mittayksikköä käyttäen  
@@ -30,7 +30,7 @@ Jos nimike varastoidaan yhtä mittayksikköä ja tuotetaan toista mittayksikkö�
 5.  Avaa liittyvän nimikkeen **Nimikkeen kortti**.  
 
     Valitse **Täydennys**-pikavälilehden **Tuotannon tuoterakenteen nro** -kentässä edellä luotu tuotannon tuoterakenne.  
-6.  Luo tuotantotilauksen otsikko käyttäen nimikettä, johon on määritetty tuotantoerän mittayksikkö. Lisätietoja on kohdassa [Toimintaohje: Tuotantotilausten luominen](production-how-to-create-production-orders.md).  
+6.  Luo tuotantotilauksen otsikko käyttäen nimikettä, johon on määritetty tuotantoerän mittayksikkö. Lisätietoja on kohdassa [Tuotantotilausten luominen](production-how-to-create-production-orders.md).  
 7.  Valitse ensin **Päivitä**-toiminto ja sitten **OK**.  
 
 Voit tarkastella tuloksia valitsemalla ensin **Rivit**-pikavälilehdessä **Rivi**- ja sitten **Komponentit**-toiminnon. Ohjelma laskee tuotantoerän mittayksikön perusteella oikean komponenttimäärän, jonka tuotannon tuoterakenne tarvitsee.  
@@ -46,8 +46,8 @@ Voit tarkastella tuloksia valitsemalla ensin **Rivit**-pikavälilehdessä **Rivi
 8.  Voit tarkastella tuloksia valitsemalla ensin **Rivit**-pikavälilehdessä **Rivi**- ja sitten **Komponentit**-toiminnon. Ohjelma laskee tuotantoerän mittayksikön perusteella oikean komponenttimäärän, jonka tuotannon tuoterakenne tarvitsee.  
 
 ## <a name="see-also"></a>Katso myös  
-[Toimintaohje: Uusien reititysten luominen](production-how-to-create-routings.md)  
-[Toimintaohje: Tuotannon tuoterakenteiden luominen](production-how-to-create-production-boms.md)     
+[Uusien reititysten luominen](production-how-to-create-routings.md)  
+[Tuotannon tuoterakenteiden luominen](production-how-to-create-production-boms.md)     
 [Tuotannon määrittäminen](production-configure-production-processes.md)  
 [Tuotanto](production-manage-manufacturing.md)    
 [Suunnittelu](production-planning.md)   

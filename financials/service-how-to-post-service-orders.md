@@ -1,6 +1,6 @@
 ---
 title: Huoltotilausten kirjaaminen | Microsoft Docs
-description: "Kun huoltotilaus on luotu, tarpeelliset tiedot on täytetty ja muutokset tehty, huoltotilauksen voi kirjata. Tilauksessa tulee olla vähintään yksi huoltonimikerivi ja yksi huoltorivi, ennen kuin sen voi kirjata. Jos tilaus sisältää useita huoltorivejä, ohjelma kirjaa kaikki rivit kerralla."
+description: "Kun huoltotilaus on luotu, tarpeelliset tiedot on täytetty ja muutokset tehty, huoltotilauksen voi kirjata. Tilauksessa tulee olla vähintään yksi huoltonimikerivi ja yksi huoltorivi, ennen kuin sen voi kirjata. Jos tilaus sisältää useita huoltorivejä, kaikki rivit kirjataan kerralla."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 7cafdcb9f6002d0732ee86b643b784d96e8c2aa1
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3b52f7c62cc13d27ff4d96ff5b9087d3560d6fbc
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-post-service-orders-and-credit-memos"></a>Toimintaohje: Huoltotilausten ja hyvityslaskujen kirjaaminen
-Kun huoltotilaus on luotu, tarpeelliset tiedot täytetty ja muutokset tehty, huoltotilauksen voi kirjata. Tilauksessa tulee olla vähintään yksi huoltonimikerivi ja yksi huoltorivi, ennen kuin sen voi kirjata. Jos tilaus sisältää useita huoltorivejä, kaikki rivit kirjataan kerralla.  
+# <a name="post-service-orders-and-credit-memos"></a>Huoltotilausten ja hyvityslaskujen kirjaaminen
+Kun huoltotilaus on luotu, tarpeelliset tiedot on täytetty ja muutokset tehty, huoltotilauksen voi kirjata. Tilauksessa tulee olla vähintään yksi huoltonimikerivi ja yksi huoltorivi, ennen kuin sen voi kirjata. Jos tilaus sisältää useita huoltorivejä, kaikki rivit kirjataan kerralla.  
 
 Jos huoltotilauksia on runsaasti, voit säästää aikaa kirjaamalla ne samalla kertaa käyttämällä eräajoa. Voit suorittaa eräajon mistä tahansa huoltotilauksesta.
 
@@ -99,7 +99,7 @@ Seuraavassa ohjeessa neuvotaan, miten kirjataan toimitus huoltorivin nimikkeille
   
 4. Valitse **Toiminnot**, **Kirjaus**, **Kirjaa**. Valitse avautuvassa ikkunassa **Toimitus**.  
   
-[!INCLUDE[d365fin](includes/d365fin_md.md)] luo tapahtumat (takuu-, nimike-, huolto- tai kirjanpitotapahtuma), luo kirjatun huoltotoimitusasiakirjan ja päivittää huoltotilauksen huoltorivien kentät.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  luo tapahtumat (takuu-, nimike-, huolto- tai kirjanpitotapahtuma), luo kirjatun huoltotoimitusasiakirjan ja päivittää huoltotilauksen huoltorivien kentät.  
   
 Jos sijainti on määritetty niin, että fyysisen varaston käsittely on pakollinen, huoltonimikerivien toimitus ja siirtäminen tapahtuu samalla tavalla kuin muissa lähdeasiakirjoissa. Ainoa ero on, että huoltorivin nimikkeet voidaan käyttää joko ulkoisesti tai sisäisesti, ja vaativat sen vuoksi kaksi eri vapautustoimintoa.  
   
@@ -133,5 +133,5 @@ Seuraavassa ohjeessa neuvotaan, miten toimitus kirjataan suoraan huoltotilaukses
   
 ## <a name="see-also"></a>Katso myös  
 [Kirjaaminen huoltohallinnassa](service-service-posting.md)  
-[Toimintaohje: Huoltotilauksen luominen](service-how-to-create-service-orders.md)  
+[Huoltotilauksen luominen](service-how-to-create-service-orders.md)  
 

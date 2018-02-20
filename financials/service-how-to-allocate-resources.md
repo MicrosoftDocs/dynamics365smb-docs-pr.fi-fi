@@ -11,15 +11,15 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 462400f4a404592ec8f63e6a5e47e45c2158b7ea
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: e975a945b878c39dc095e2e129a4ac0c02ee6c29
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
-# <a name="how-to-allocate-resources"></a>Toimintaohje: Resurssien kohdistaminen
-Huollon toimittavat henkilöt ovat huoltohallinnon tärkein elementti. Voit määrittää [!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittämään henkilöt heille soveltuviin projekteihin. Toimeksiannot voivat perustua henkilön tai huollon sijainnin mukaisiin huoltoalueisiin. Lisäksi resurssit voi ryhmitellä yhteen huoltopyyntöihin vastattaessa. Lisätietoja on kohdassa [Toimintaohje: Resurssien kohdistamisen määrittäminen](service-how-setup-resource-allocation.md).
+# <a name="allocate-resources"></a>Resurssien kohdistaminen
+Huollon toimittavat henkilöt ovat huoltohallinnon tärkein elementti. Voit määrittää [!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittämään henkilöt heille soveltuviin projekteihin. Toimeksiannot voivat perustua henkilön tai huollon sijainnin mukaisiin huoltoalueisiin. Lisäksi resurssit voi ryhmitellä yhteen huoltopyyntöihin vastattaessa. Lisätietoja on kohdassa [Resurssien kohdistamisen määrittäminen](service-how-setup-resource-allocation.md).
 
 Huoltonimikkeille kohdistetaan resursseja, esimerkiksi teknikoita, käyttämällä **Lähetystaulukko**, tai huoltotilauksesta. Voit kohdistaa resurssit niiden saatavuuden mukaan suorittamaan tilausten tai tarjousten huoltotehtäviä.
 
@@ -142,6 +142,6 @@ Voit peruuttaa huoltotehtävien resurssien kohdistukset ilman, että tehtävät 
     > Ohjelma valitsee automaattisesti **Uudelleenkohdistamista tarvitaan** -vaihtoehdon **Tila**-kentässä. Jos tapahtumassa olevan huoltonimikkeen korjauksen tila on **Alku**, ohjelma muuttaa korjauksen tilaksi **Lykätty** (huoltoa ei ole aloitettu). Jos korjauksen tila on **Työn alla**, ohjelma muuttaa korjauksen tilaksi **Osittain huollettu** (osa huollosta on suoritettu loppuun).
 
 ## <a name="see-also"></a>Katso myös
-[Toimintaohje: Resurssien kohdistamisen määrittäminen](service-how-setup-resource-allocation.md)  
+[Resurssien kohdistamisen määrittäminen](service-how-setup-resource-allocation.md)  
 [Kohdistuksen tila ja korjauksen tila](service-allocation-status-and-repair-status.md)  
 

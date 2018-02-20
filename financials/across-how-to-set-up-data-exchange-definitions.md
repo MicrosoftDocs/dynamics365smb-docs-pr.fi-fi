@@ -11,16 +11,16 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 1f35debace937a04b8f4174131fd72cde6610b7a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6d5fecae58ec05f3cb3eda4ee2a43a131b267c92
 ms.contentlocale: fi-fi
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-data-exchange-definitions"></a>Toimintaohje: Tietojenvaihtomääritysten määrittäminen
+# <a name="set-up-data-exchange-definitions"></a>Tietojenvaihtomääritysten määrittäminen
 Voit määrittää [!INCLUDE[d365fin](includes/d365fin_md.md)]in vaihtamaan tiettyjen taulukoiden tietoja ulkoisten tiedostojen kanssa. Tällöin voit esimerkiksi lähettää ja vastaanottaa sähköisiä asiakirjoja sekä tuoda ja viedä pankkitietoja tai muita tietoja, kuten palkanlaskennan tietoja, vaihtokursseja ja tuoteluetteloita. Lisätietoja on kohdassa [Sähköinen tiedonsiirto](across-data-exchange.md).  
 
-Datatiedoston tai tietovirran tietojenvaihtomäärityksen luonnin valmisteluun voit käyttää liittyvää XML-rakennetta. Sen avulla voit määrittää **Sarakkeen määritykset** -pikalomakkeeseen sisällytettävät tietoelementit. Katso vaihe 6 kohdassa "Tiedoston rivien ja sarakkeiden muotoilun kuvaileminen". Lisätietoja on kohdassa [Toimintaohje: XML-rakenteiden käyttäminen tiedonsiirtomääritysten valmistelussa](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
+Datatiedoston tai tietovirran tietojenvaihtomäärityksen luonnin valmisteluun voit käyttää liittyvää XML-rakennetta. Sen avulla voit määrittää **Sarakkeen määritykset** -pikalomakkeeseen sisällytettävät tietoelementit. Katso vaihe 6 kohdassa "Tiedoston rivien ja sarakkeiden muotoilun kuvaileminen". Lisätietoja on kohdassa [XML-rakenteiden käyttäminen tiedonsiirtomääritysten valmistelussa](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
 
 Tiedonsiirtomääritykset määritetään yleensä **Tiedonsiirtomääritys**-ikkunassa. Vaihtokurssien päivityspalvelun tiedonsiirtomääritysten määrittäminen aloitetaan kuitenkin yksinkertaistetussa **Vaihtokurssin päivitysasetusten kortti** -ikkunassa.  
 
@@ -81,7 +81,7 @@ Tietojenvaihtomäärityksen luominen muodostuu kahdesta tehtävästä:
 
 5. Luo rivi jokaista vietävää datatiedoston tyyppiä kohden toistamalla vaihe 4.  
 
-     Jatka kuvailemalla datatiedoston sarakkeiden muotoilu **Sarakkeen määritykset**-pikalomakkeessa täyttämällä kentät alla olevan taulukon mukaisesti. Voit käyttää apuna rakennetiedostoa (esimerkiksi .XSD-tiedostoa), jolloin datatiedosto esitäyttää pikalomakkeeseen tarvittavat elementit. Lisätietoja on kohdassa [Toimintaohje: XML-rakenteiden käyttäminen tiedonsiirtomääritysten valmistelussa](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
+     Jatka kuvailemalla datatiedoston sarakkeiden muotoilu **Sarakkeen määritykset**-pikalomakkeessa täyttämällä kentät alla olevan taulukon mukaisesti. Voit käyttää apuna rakennetiedostoa (esimerkiksi .XSD-tiedostoa), jolloin datatiedosto esitäyttää pikalomakkeeseen tarvittavat elementit. Lisätietoja on kohdassa [XML-rakenteiden käyttäminen tiedonsiirtomääritysten valmistelussa](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
 
 6. Valitse **Sarakkeen määritykset** -pikalomakkeessa **Hae tiedostorakenne**.  
 7. Valitse liittyvä rakennetiedosto **Hae tiedostorakenne** -ikkunassa ja valitse sitten **OK**. **Sarakkeen määritykset** -pikalomakkeen rivit täytetään datatiedoston rakenteen mukaisesti.  
@@ -133,7 +133,7 @@ Tietojenvaihtomäärityksen luominen muodostuu kahdesta tehtävästä:
     |**Kohdekentän seloste**|Näkyvissä vain, kun **Käytä väliaikaisena taulukkona** -valintaruutu on valittu.<br /><br /> Määritä kentän nii kohdetaulukossa, johon **Sarakeotsikko**-kentän arvo yhdistetään, kun tietojen tuonnissa käytetään väliaikaista taulukkoa.|  
     |**Valinnainen**|Näkyvissä vain, kun **Käytä väliaikaisena taulukkona** -valintaruutu on valittu.<br /><br /> Määritä, pitääkö yhdistäminen ohittaa, jos kenttä on tyhjä. Jos et valitse tätä valintaruutua, tällöin järjestelmä ilmoittaa vientivirheestä, jos kenttä on tyhjä.|  
 
- Tietojenvaihtomääritys voidaan nyt ottaa käyttöön käyttäjille. Lisätietoja on kohdissa [Toimintaohje: Sähköisten asiakirjojen vastaanottamisen ja lähettämisen määrittäminen](across-how-to-set-up-electronic-document-sending-and-receiving.md), [Toimintaohje: SEPA-hyvityksen siirron määrittäminen](finance-how-to-set-up-sepa-credit-transfer.md), [Toimintaohje: SEPA-suoraveloituksen määrittäminen](finance-how-to-set-up-sepa-direct-debit.md) ja [Maksujen suorittaminen pankkitietojen muunnospalvelulla tai SEPA-hyvityksen siirrolla](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
+ Tietojenvaihtomääritys voidaan nyt ottaa käyttöön käyttäjille. Lisätietoja on kohdissa [Sähköisten asiakirjojen vastaanottamisen ja lähettämisen määrittäminen](across-how-to-set-up-electronic-document-sending-and-receiving.md), [SEPA-hyvityksen siirron määrittäminen](finance-how-to-set-up-sepa-credit-transfer.md), [SEPA-suoraveloituksen määrittäminen](finance-how-to-set-up-sepa-direct-debit.md) ja [Maksujen suorittaminen pankkitietojen muunnospalvelulla tai SEPA-hyvityksen siirrolla](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
 
     Kun olet luonut tietojenvaihtomäärityksen tietylle datatiedostolle, voit viedä tietojenvaihtomäärityksen XML-tiedostona kyseisen datatiedoston nopeaa tuonnin käyttöönottoa varten. Tämä kuvataan seuraavassa menettelytavassa.  
 
@@ -154,9 +154,9 @@ Tietojenvaihtomäärityksen luominen muodostuu kahdesta tehtävästä:
 
 ## <a name="see-also"></a>Katso myös  
 [Tiedonsiirron määrittäminen](across-set-up-data-exchange.md)  
-[Toimintaohje: Sähköisten asiakirjojen vastaanottamisen ja lähettämisen määrittäminen](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
-[Toimintaohje: SEPA-hyvityksen siirron määrittäminen](finance-how-to-set-up-sepa-credit-transfer.md)  
-[Toimintaohje: SEPA-suoraveloituksen määrittäminen](finance-how-to-set-up-sepa-direct-debit.md)  
+[Sähköisten asiakirjojen vastaanottamisen ja lähettämisen määrittäminen](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
+[SEPA-hyvityksen siirron määrittäminen](finance-how-to-set-up-sepa-credit-transfer.md)  
+[SEPA-suoraveloituksen määrittäminen](finance-how-to-set-up-sepa-direct-debit.md)  
 [Maksujen suorittaminen pankkitietojen muunnospalvelulla tai SEPA-hyvityksen siirrolla](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
 [Saapuvat asiakirjat](across-income-documents.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)  

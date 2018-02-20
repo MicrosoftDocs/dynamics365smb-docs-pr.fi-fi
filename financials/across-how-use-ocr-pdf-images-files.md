@@ -12,13 +12,13 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 70bacf1c523fa6f547798b1a8df14b1e316c36b3
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 91071855697c9235ba8734b40d77ed0b48c24923
 ms.contentlocale: fi-fi
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>Toimintaohje: Käytä OCR:ää muuntamaan PDF- ja kuvatiedostoja sähköisiksi asiakirjoiksi
+# <a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>PDF- ja kuvatiedostojen muuntaminen sähköisiksi asiakirjoiksi OCR-palvelun avulla
 Ulkoinen OCR (Optical Character Recognition) -palvelu voi luoda liikekumppaneilta vastaanotetuista PDF- tai kuvatiedostoista sähköisiä asiakirjoja, jotka voit muuntaa tiedostotietueiksi [!INCLUDE[d365fin](includes/d365fin_md.md)]issa. Esimerkiksi kun saat PDF-muodossa laskun toimittajalta, voit lähettää sen OCR-palveluun **Saapuvat asiakirjat** -ikkunasta. Tämä kuvataan ensimmäisessä menettelytavassa.
 
 Jos et halua lähettää tiedostoa **Saapuneet asiakirjat** -ikkunasta, voit lähettää sen OCR-palveluun sähköpostitse. Sitten, kun saat sähköisen tiedoston takaisin, liittyvä saapuvan asiakirjan tietue luodaan automaattisesti. Tämä kuvataan toisessa menettelytavassa.
@@ -27,11 +27,11 @@ Jonkin sekunnin kuluttua saat tiedoston takaisin OCR-palvelusta sähköisenä la
 
 Koska OCR perustuu optiseen tunnistukseen, OCR-palvelu tulkitsee todennäköisesti PDF- tai kuvatiedostojesi merkit väärin, kun se käsittelee ensimmäistä kertaa esimerkiksi tietyn toimittajan asiakirjoja. Se ei ehkä tulkitse yrityksen logoa toimittajan nimeksi, tai se voi tulkita tositteen kokonaissumman väärin sen asettelun vuoksi. Voit välttää näiden virheiden aiheuttamat seuraukset korjaamalla virheet **Saapuneet asiakirjat** -ikkunan erillisessä versiossa. Sitten korjaukset lähettää takaisin OCR-palveluun opettamaan se tulkitsemaan merkkejä oikein seuraavalla kerralla, kun se käsittelee PDF- tai kuva-asiakirjaa samalta toimittajalta. Lisätietoja on osassa "OCR-palvelun kouluttaminen välttämään virheet".
 
-Tiedostojen liikenne OCR-palvelun kanssa sisään ja ulos käsitellään erillisinä työjonotapahtumana, jotka luodaan automaattisesti, kun otat liittyvän palveluyhteyden käyttöön. Lisätietoja on kohdassa [Toimintaohje: Saapuvien asiakirjojen määrittäminen](across-how-setup-income-documents.md).
+Tiedostojen liikenne OCR-palvelun kanssa sisään ja ulos käsitellään erillisinä työjonotapahtumana, jotka luodaan automaattisesti, kun otat liittyvän palveluyhteyden käyttöön. Lisätietoja on kohdassa [Saapuvien asiakirjojen määrittäminen](across-how-setup-income-documents.md).
 
 ## <a name="to-send-a-pdf-or-image-file-to-the-ocr-service-from-the-incoming-documents-window"></a>Voit lähettää PDF- tai kuvatiedoston OCR-palveluun **Saapuvat asiakirjat** -ikkunasta
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Saapuvat asiakirjat** ja valitse sitten aiheeseen liittyvä linkki.
-2. Luo uuden saapuvan asiakirjan tietueen ja liittää tiedoston. Lisätietoja on kohdassa [Toimintaohje: Saapuvien asiakirjatietueiden luominen](across-how-create-income-document-records.md).  
+2. Luo uuden saapuvan asiakirjan tietueen ja liittää tiedoston. Lisätietoja on kohdassa [Saapuvien asiakirjatietueiden luominen](across-how-create-income-document-records.md).  
 3. Valitse **Saapuneet asiakirjat** -ikkunassa vähintään yksi rivi ja valitse sitten **Lähetä työjonoon** -toiminto.
 
     **OCR-tila**-kentän arvoksi tulee **Valmis**. Liitetty PDF- tai kuvatiedosto lähetetään OCR-palvelun aikataulun mukaan Työjonosta edellyttäen, että virheitä ei ole.
@@ -42,10 +42,10 @@ Tiedostojen liikenne OCR-palvelun kanssa sisään ja ulos käsitellään erillis
 ## <a name="to-send-a-pdf-or-image-file-to-the-ocr-service-by-email"></a>Lähetä PDF- tai kuvatiedosto OCR-palveluun sähköpostitse
 Lähetä sähköpostiohjelmasta OCR-palveluntarjoajalle sähköpostiviesti PDF- tai kuvatiedostoliitteen kanssa. Palveluntarjoajan verkkosivusto sisältää sähköpostiosoitteen, jonne viesti lähetetään.
 
-Koska tiedostolla ei ole tulevaa asiakirjatietuetta, uusi tietue luodaan automaattisesti **Saapuvat asiakirjat** -ikkunassa, kun vastaanotat sähköisen asiakirjan OCR-palvelusta. Lisätietoja on kohdassa [Toimintaohje: Saapuvien asiakirjatietueiden luominen](across-how-create-income-document-records.md).
+Koska tiedostolla ei ole tulevaa asiakirjatietuetta, uusi tietue luodaan automaattisesti **Saapuvat asiakirjat** -ikkunassa, kun vastaanotat sähköisen asiakirjan OCR-palvelusta. Lisätietoja on kohdassa [Saapuvien asiakirjatietueiden luominen](across-how-create-income-document-records.md).
 
 > [!NOTE]  
->   Jos käytät Tablet PC:tä tai puhelinta, voit lähettää tiedoston OCR-palvelun heti kun olet ottanut valokuvan asiakirjasta tai voit luoda saapuvan asiakirjan suoraan. Lisätietoja on "Saapuvien asiakirjatietueiden luominen ottamalla valokuva"-osassa kohdassa [Toimintaohje: Saapuvien tietueiden luominen](across-how-create-income-document-records.md).
+>   Jos käytät Tablet PC:tä tai puhelinta, voit lähettää tiedoston OCR-palvelun heti kun olet ottanut valokuvan asiakirjasta tai voit luoda saapuvan asiakirjan suoraan. Lisätietoja on ohjeaiheen [Saapuvien tietueiden luominen](across-how-create-income-document-records.md) kohdassa Saapuvien asiakirjatietueiden luominen ottamalla valokuva.
 
 ## <a name="to-receive-the-resulting-electronic-document-from-the-ocr-service"></a>Tuloksena olevan vastaanotettavan sähköisen asiakirjan vastaanottaminen OCR-palvelusta.
 Työjonotapahtuma, joka määritetään OCR-palvelun käyttöönoton yhteydessä, vastaanottaa **Saapuvat asiakirjat** -ikkunaan automaattisesti sähköisen asiakirjan, jonka OCR-palvelu luo PDF- tai kuvatiedostosta.
@@ -56,7 +56,7 @@ Jos et käytä työjonoa tai haluat vastaanottaa OCR-asiakirjan työjonon aikata
 >   Jos OCR-palvelun määrityksissä vaaditaan käsiteltyjen asiakirjojen manuaalinen vahvistus, **OCR-tila**-kentän arvo on **Odottaa vahvistusta**. Kirjaudu tällöin OCR-palvelun verkkosivustoon seuraavien ohjeiden mukaan ja vahvista OCR-asiakirja.
 
 1. Valitse **OCR-tila**-kentässä **Odottaa vahvistusta** -hyperlinkki. Vaihtoehtoisesti voit valita kotisivulla **Odottaa vahvistusta** -ruudun.
-2. Kirjaudu OCR-palvelun verkkosivustoon OCR-palvelutilin tunnistetietojen avulla. Näitä tunnistetietoja käytetään myös palvelun määrittämisessä. Lisätietoja on "OCR-palvelun määrittäminen" -osan kohdassa [Toimintaohje: Saapuvan asiakirjan määrittäminen](across-how-setup-income-documents.md).
+2. Kirjaudu OCR-palvelun verkkosivustoon OCR-palvelutilin tunnistetietojen avulla. Näitä tunnistetietoja käytetään myös palvelun määrittämisessä. Lisätietoja on kohdan [Saapuvan asiakirjan määrittäminen](across-how-setup-income-documents.md) osassa OCR-palvelun määrittäminen.
 
     Jos siirryt verkkosivustoon **OCR-tila**-kentän avulla, kyseinen asiakirja näytetään heti sisäänkirjautumisen jälkeen. Jos siirryt verkkosivustoon kotisivun ruudun avulla, ensimmäisenä avautuvalla OCR-palvelun sivulla on valittava **Aloita**-painike **Vahvista**-välilehdessä. Vaihtoehtoisesti voit kaksoisnapsauttaa vahvistettavaa asiakirjaa.
 
@@ -95,7 +95,7 @@ Toimittajatiliin tai toiseen KP-tiliin linkittämisen lisäksi myös pankkitili
 6. Anna **Kredit-tilin numero** -kentässä kredit-tyyppinen KP-tili, joka lisätään muodostettavaan ostoasiakirjaan tai muodostettavalle KP-tili-tyyppiselle päiväkirjariville.
 
     > [!NOTE]
-    > Älä käytä saapuvien asiakirjojen yhteydessä **Saldon lähteen tyyppi**- ja **Saldon lähteen numero** -kenttiä. Niitä käytetään vain automaattisessa maksujen täsmäytyksessä. Lisätietoja on kohdassa [Toimintaohje: Toistuvien maksujen tekstin yhdistäminen tileihin automaattisen täsmäytyksen suorittamiseksi](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
+    > Älä käytä saapuvien asiakirjojen yhteydessä **Saldon lähteen tyyppi**- ja **Saldon lähteen numero** -kenttiä. Niitä käytetään vain automaattisessa maksujen täsmäytyksessä. Lisätietoja on kohdassa [Toistuvien maksujen tekstin yhdistäminen tileihin automaattisen täsmäytyksen suorittamiseksi](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
 
 7. Toista vaiheet 2–5 kaikkien niiden saapuvien asiakirjojen tekstien osalta, joille haluat luoda automaattisesti asiakirjat.
 

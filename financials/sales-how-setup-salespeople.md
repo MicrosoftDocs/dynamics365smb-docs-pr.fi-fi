@@ -11,13 +11,13 @@ ms.search.keywords: sales rep
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c43577eaeac85631da3b86af82b76d97fb612cd2
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 528d1735a8b725cf245ec4e1611c8140f413b49a
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-salespeople"></a>Toimintaohje: Myyjien määrittäminen
+# <a name="set-up-salespeople"></a>Myyjien määrittäminen
 Useat yritykset haluavat seurata yksittäisen työntekijän suoritusta perustana myyntiprovision tai bonuksen laskennalle. Tarkastele esimerkiksi **myyjien provisioiden** raporttia. Yritys voi myös haluta määrittää myyjän kullekin kontaktilleen.
 
 Kun olet määrittänyt myyjän **Myyjät**-ikkunassa, voit valita luomasi myyjän **Myyjäkoodi**-kenttään kaikissa asiaankuuluvissa tietueissa. Näitä ovat esimerkiksi KP-tili, asiakas, toimittaja ja kampanjoiden kortit. Kun tämän jälkeen kirjaat tai määrität esimerkiksi laskuja, hyvityslaskuja, päiväkirjan rivejä tai viivästyskulutoimenpiteitä, myyjäkoodi siirtyy tuloksena saataviin tapahtumakirjauksiin.
@@ -26,7 +26,7 @@ Kun olet määrittänyt myyjän **Myyjät**-ikkunassa, voit valita luomasi myyj�
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Myyjät** ja valitse sitten aiheeseen liittyvä linkki.
 2. Valitse **Myyjät**-ikkunassa **Uusi**-toiminto.
 
-Voit käyttää myyjiä erilaisissa asiakkuudenhallinta- ja markkinointitöissä. Voit esimerkiksi määrittää tehtäviä myyjille siten, että tehtävät sisältyvät niihin myyntimahdollisuuksiin, jotka on määritetty myyjälle. Lisätietoja on ohjeaiheessa [Toimintaohje: Mahdollisuuden myyntisyklien ja syklin vaiheiden määrittäminen](marketing-how-setup-opportunity-sales-cycles-stages.md).
+Voit käyttää myyjiä erilaisissa asiakkuudenhallinta- ja markkinointitöissä. Voit esimerkiksi määrittää tehtäviä myyjille siten, että tehtävät sisältyvät niihin myyntimahdollisuuksiin, jotka on määritetty myyjälle. Lisätietoja on ohjeaiheessa [Mahdollisuuden myyntisyklien ja syklin vaiheiden määrittäminen](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## <a name="see-also"></a>Katso myös
 [Myynnin määrittäminen](sales-setup-sales.md)  

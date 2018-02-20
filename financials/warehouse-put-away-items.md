@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/31/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9ecb54ee063daa054c5503702fcc21c4dc111d99
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: db48432b54e0bd2c303816c8b06f0986f2352a59
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="putting-items-away"></a>Nimikkeiden hyllyttäminen
@@ -32,14 +32,14 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 
 |**Tehtävä**|**Katso**|  
 |------------|-------------|  
-|Kirjaa nimikkeiden vastaanotto suoraan saapuvasta tilausasiakirjasta. Tämä myös kirjaa hyllytyksen, sillä fyysisen varastoinnin määritystä ei ole.|[Toimintaohje: Nimikkeiden vastaanotto](warehouse-how-receive-items.md)|  
+|Kirjaa nimikkeiden vastaanotto suoraan saapuvasta tilausasiakirjasta. Tämä myös kirjaa hyllytyksen, sillä fyysisen varastoinnin määritystä ei ole.|[Nimikkeiden vastaanottaminen](warehouse-how-receive-items.md)|  
 |Hyllytä nimikkeitä tilauskohtaisesti ja kirjaa vastaanotto samassa perusvarastointimäärityksen toiminnossa.  |[Nimikkeiden hyllyttäminen varastohyllytyksen avulla](warehouse-how-to-put-items-away-with-inventory-put-aways.md)|  
 |Hyllytä nimikkeitä tilauksista laajennetussa varastointimäärityksessä.|[Nimikkeiden hyllyttäminen ja fyysisen varaston hyllytykset](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)|  
-|Hyllytä tuotettuja ja kokoonpantuja nimikkeitä fyysisen varastoinnin perusmäärityksissä tai laajennetussa varastointimäärityksessä.|[Toimintaohje: Tuotannon tai kokoonpanon tuotoksen hyllyttäminen](warehouse-how-to-put-away-production-output.md)|
+|Hyllytä tuotettuja ja kokoonpantuja nimikkeitä fyysisen varastoinnin perusmäärityksissä tai laajennetussa varastointimäärityksessä.|[Tuotannon tai kokoonpanon tuotoksen hyllyttäminen](warehouse-how-to-put-away-production-output.md)|
 |Suunnittele optimoituja hyllytysohjeita useille kirjatuille fyysisen varastoinnin vastaanotoille, jolloin varastotyöntekijöiden ei tarvitse käsitellä suoraan vastaanottoja.|[Hyllytysten suunnitteleminen työkirjoissa](warehouse-how-to-plan-put-aways-in-worksheets.md)|  
-|Hyllytä uudelleen nimikkeitä, jotka on poimittu teknisesti sisäisen poiminnan avulla, esimerkiksi sellaisessa tuotantotilauksessa, joka ei ole kuluttanut odotettua määrää.|[Toimintaohje: Poimiminen ja hyllyttäminen ilman lähdeasiakirjaa](warehouse-how-to-create-put-aways-from-internal-put-aways.md)|
-|Jaa hyllytysrivi, jotta osa hyllytysmäärästä voidaan sijoittaa varastopaikkoihin, koska määritetty varastopaikka on täysi.|[Toimintaohje: Varastotoimintorivien jakaminen](warehouse-how-to-split-warehouse-activity-lines.md)|
-|Hae suoraan varastotyöntekijälle määritetyt hyllytykset.|[Toimintaohje: Fyysisen varaston määritysten etsiminen](warehouse-how-to-find-your-warehouse-assignments.md)|    
+|Hyllytä uudelleen nimikkeitä, jotka on poimittu teknisesti sisäisen poiminnan avulla, esimerkiksi sellaisessa tuotantotilauksessa, joka ei ole kuluttanut odotettua määrää.|[Poimiminen ja hyllyttäminen ilman lähdeasiakirjaa](warehouse-how-to-create-put-aways-from-internal-put-aways.md)|
+|Jaa hyllytysrivi, jotta osa hyllytysmäärästä voidaan sijoittaa varastopaikkoihin, koska määritetty varastopaikka on täysi.|[ Varastotoimintorivien jakaminen](warehouse-how-to-split-warehouse-activity-lines.md)|
+|Hae suoraan varastotyöntekijälle määritetyt hyllytykset.|[Fyysisen varaston varausten etsiminen](warehouse-how-to-find-your-warehouse-assignments.md)|    
 
 ## <a name="see-also"></a>Katso myös  
 [Varastoinninhallinta](warehouse-manage-warehouse.md)  

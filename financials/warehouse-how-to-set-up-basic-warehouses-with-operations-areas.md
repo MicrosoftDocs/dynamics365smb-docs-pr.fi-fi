@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 8fa067c5a6d96d0d992c1488f31aa2929efc6dcc
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 31f057f862b72cd21ecb2c1fb59674c6485a960d
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-basic-warehouses-with-operations-areas"></a>Fyysisten perusvarastojen ja toimintoalueiden määrittäminen
+# <a name="set-up-basic-warehouses-with-operations-areas"></a>Fyysisten perusvarastojen ja toimintoalueiden määrittäminen
 Jos sellaisen fyysisen varaston perusmäärityksissä, jonka sijainnit käyttävät **Var.paikka pakollinen** -asetuskenttää ja mahdollisesti myös **Vaadi poiminta**- ja **Vaadi hyllytys** -asetuskenttää, on sisäisiä toimintoalueita, kuten tuotanto tai kokoonpano, sisäisten toimintoalueiden fyysisen varastoinnin toimintojen tallentamisessa on käytettävä seuraavia fyysisen varastoinnin perusasiakirjoja:  
 
 - **Varastonsiirto**-ikkuna.  
@@ -66,9 +66,9 @@ Tämä työnkulkukaavio näyttää, miten tuotantotilauksen osarivien**Varastopa
 ![Varastopaikkojen vuokaavio](media/binflow.png "BinFlow")    
 
 ## <a name="to-define-a-default-bin-structure-in-the-assembly-area"></a>Varastopaikan oletusrakenten määrittäminen kokoonpanoalueella
-Kokoonpanotilausten osia ei voi poimia tai kirjata varastopoiminnan kanssa. Käytä sen sijaan **Varaston siirto** -ikkunaa. Lisätietoja on kohdassa [Toimintaohje: Komponenttien siirtäminen fyysisen perusvarastoinnin toiminta-alueelle](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
+Kokoonpanotilausten osia ei voi poimia tai kirjata varastopoiminnan kanssa. Käytä sen sijaan **Varaston siirto** -ikkunaa. Lisätietoja on kohdassa [Komponenttien siirtäminen fyysisen perusvarastoinnin toiminta-alueelle](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
 
-Kun poiminnan ja toimituksen myyntirivin määriä kootaan tilaukseen, varaston poimintarivejä luotaessa on noudatettava tiettyjä sääntöjä. Lisätietoja on ohjeaiheen [Toimintaohje: Nimikkeiden poiminta varastopoiminnalla](warehouse-how-to-pick-items-with-inventory-picks.md) kohdassa Kokoonpano tilausta varten -nimikkeiden käsitteleminen varaston poiminnoissa.
+Kun poiminnan ja toimituksen myyntirivin määriä kootaan tilaukseen, varaston poimintarivejä luotaessa on noudatettava tiettyjä sääntöjä. Lisätietoja on ohjeaiheen [Nimikkeiden poiminta varaston poiminnoissa](warehouse-how-to-pick-items-with-inventory-picks.md) kohdassa Kokoonpano tilausta varten -nimikkeiden käsitteleminen varaston poiminnoissa.
 
 Lisätietoja on kohdassa [Kokoonpanon hallinta](assembly-assemble-items.md).
 
@@ -110,7 +110,7 @@ Tämän kentän arvo lisätään automaattisesti myyntitilausrivin Varastopaikka
 
 Jos **Kok. til.ltoimit. -var.p.koodi** on tyhjä, **Kokoonpanosta-varastop.koodi**-kenttää käytetään sen sijaan. Jos molemmat asetuskentät ovat tyhjiä, myyntitilausrivien **Varastopaikkakoodi**-kentässä käytetään viimeksi käytettyä varastopaikkaa, jolla on sisältöä.
 
-Sama varastopaikkakoodi kopioidaan puolestaan varaston poimintarivin **Varastopaikkakoodi**-kenttään, joka hallitsee tilaukselle kootun määrän toimitusta. Lisätietoja on ohjeaiheen [Toimintaohje: Nimikkeiden poiminta varastopoiminnalla](warehouse-how-to-pick-items-with-inventory-picks.md) kohdassa Kokoonpano tilausta varten -nimikkeiden käsitteleminen varaston poiminnoissa.
+Sama varastopaikkakoodi kopioidaan puolestaan varaston poimintarivin **Varastopaikkakoodi**-kenttään, joka hallitsee tilaukselle kootun määrän toimitusta. Lisätietoja on ohjeaiheen [Nimikkeiden poiminta varaston poiminnoissa](warehouse-how-to-pick-items-with-inventory-picks.md) kohdassa Kokoonpano tilausta varten -nimikkeiden käsitteleminen varaston poiminnoissa.
 
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Sijainnit** ja valitse sitten aiheeseen liittyvä linkki.
 2. Avaa määritettävä sijainti.
@@ -123,7 +123,7 @@ Erityisvarastopaikoissa olevat määrät voidaan edelleen varata. Näin ollen er
 
 Esimerkiksi tuotantosolu on määritetty **Tuotannon valmisteluvarastopaikkakoodi** -kentän varastopaikkakoodilla. Oletusvarastopaikkakoodilla varustetut tuotantotilauksen komponenttirivit vaativat, että eteenpäin siirretyt komponentit sijoitetaan niihin. Kunnes kyseisen varastopaikan komponentit on kulutettu loppuun, tästä varastopaikasta voidaan poimia tai kuluttaa muiden komponenttien kysynnän mukaisesti, koska varastopaikat ovat yhä saatavana olevaa varastopaikan sisältöä. Voit varmistaa, että vain kyseistä tuotannon valmisteluvarastopaikkaa käyttävä komponenttitarve voi käyttää sen sisältöä valitsemalla **Erityinen**-kentän kyseisen varastopaikkakoodin rivillä sijaintikortista avattavassa **Varastopaikat**-ikkunassa.
 
-Erillisen varastopaikan tekeminen tuottaa samantapaisen toiminnan kuin varastopaikkatyyppien käyttö, joka on mahdollista vain laajennetussa varastoinnissa. Lisätietoja on kohdassa [Toimintaohje: Varastopaikkatyyppien määrittäminen](warehouse-how-to-set-up-bin-types.md).
+Erillisen varastopaikan tekeminen tuottaa samantapaisen toiminnan kuin varastopaikkatyyppien käyttö, joka on mahdollista vain laajennetussa varastoinnissa. Lisätietoja on kohdassa [Varastopaikkojen määrittäminen](warehouse-how-to-set-up-bin-types.md).
 
 > [!Caution]
 > Erikoisvarastopaikoissa olevat nimikkeet eivät ole suojattuja, kun ne on kerätty ja kulutettu tuotantokomponentteina Varaston poiminta -ikkunan kautta.

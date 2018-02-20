@@ -11,15 +11,15 @@ ms.search.keywords: sandbox, demo, develop
 ms.date: 08/18/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d7bcb866d5f69e77e5a175d0b73e8ac03cf09d98
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b3ee160e2c38107aea1342b51d729aa172bbbc3e
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 [!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
 
-# <a name="how-to-create-a-sandbox-environment"></a>Toimintaohje: Sandbox-ympäristön luominen
+# <a name="create-a-sandbox-environment"></a>Sandbox-ympäristön luominen
 Sandbox-ympäristö (esiversio) on [!INCLUDE[d365fin](includes/d365fin_md.md)]in tuotantoympäristöön kuulumaton ilmentymä. Tuotannosta eristetty Sandbox-ympäristö on paikka, jossa voi turvallisesti tutustua palveluun, opetella sen käyttöä sekä kehittää ja testata sitä ilman, että tuotantoympäristön tiedot ja asetukset vaarantuvat.
 
 ## <a name="to-create-a-sandbox-environment"></a>Sandbox-ympäristön luominen
@@ -44,7 +44,7 @@ Sandbox-ympäristöön on luotu täysin uusi vuokraaja. Vuokraajaan on ladattu C
 > [!NOTE]  
 >  Sandbox-ympäristön palauttaminen alkuasetuksiin poistaa sen kokonaan, ja voit luoda sen uudelleen oletusesittelytiedoilla.  
 
-8.  Voit siirtyä tuotanto- ja sandbox-ympäristöjen välillä Dynamics 365:n sovellusten käynnistysohjelman avulla.
+8.  Voit siirtyä tuotanto- ja sandbox-ympäristöjen välillä Finance and Operations, Business editionin sovellusten käynnistysohjelman avulla.
 ![Sandbox-ympäristön Dynamics 365 -valikko](./media/across-sandbox/sandbox-dynamics365-menu.png)
 
 9.  Järjestelmänvalvoja tai toinen käyttäjä voi rajoittaa tai jopa estää joidenkin käyttäjien mahdollisuutta käyttää sandbox-ympäristöä. Se voidaan tehdä tuotteen vakiotietoturvaominaisuuksilla, kuten käyttäjäkortin, käyttäjäryhmien tai käyttöoikeusjoukkojen avulla.

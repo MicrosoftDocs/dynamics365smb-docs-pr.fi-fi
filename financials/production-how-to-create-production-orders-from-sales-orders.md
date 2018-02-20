@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: a0261ee242abf0fedcfb22f4a22252636a0074b4
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3de644d63c57402b81a3d688fa6e533d717ae089
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-production-orders-from-sales-orders"></a>Tuotantotilausten luominen myyntitilauksista
+# <a name="create-production-orders-from-sales-orders"></a>Tuotantotilausten luominen myyntitilauksista
 Voit luoda tuotettujen nimikkeiden tuotantotilaukset suodaan myyntitilauksista.  
 
 ## <a name="to-create-a-production-order-from-a-sales-order"></a>Tuotantotilausten luominen myyntitilauksista  
@@ -31,7 +31,7 @@ Voit luoda tuotettujen nimikkeiden tuotantotilaukset suodaan myyntitilauksista.
 5.  Valitse tila ja tilaustyyppi.  
 6.  Valitse **Kyllä**luodaksesi tuotantotilauksen.
 
-Voit valita myös projektituotantotilauksen luominen. Lisätietoja on ohjeaiheessa [Projektitilausten suunnitteleminen](production-how-to-plan-project-orders.md).   
+Voit valita myös projektituotantotilauksen luominen. Lisätietoja on kohdassa [Projektitilausten suunnitteleminen](production-how-to-plan-project-orders.md).   
 
 ## <a name="see-also"></a>Katso myös  
 [Tuotannon määrittäminen](production-configure-production-processes.md)  

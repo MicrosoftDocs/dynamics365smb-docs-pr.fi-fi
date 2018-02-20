@@ -1,6 +1,6 @@
 ---
 title: "Huoltotehtävien käsitteleminen | Microsoft Docs"
-description: "Kun huoltotilaukset tai huoltotarjoukset on luotu, huoltonimikerivit on rekisteröity ja resurssit on kohdistettu tilausten tai tarjousten huoltonimikkeille, huoltonimikkeiden korjauksen ja ylläpidon voi aloittaa."
+description: "Kun huoltotilaukset tai huoltotarjoukset on luotu, huoltonimikerivit rekisteröity ja resurssit on kohdistettu tilausten tai tarjousten huoltonimikkeille, huoltonimikkeiden korjauksen ja ylläpidon voi aloittaa."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,16 +13,16 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 32cbc23b24a8a04a62a246dd50eac8d8a721e2e7
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 1e6db49370a1fc2d9a2bb99e55d00ed69908d703
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-on-service-tasks"></a>Huoltotehtävien parissa työskenteleminen
+# <a name="work-on-service-tasks"></a>Huoltotehtävien käyttäminen
 Kun huoltotilaukset tai huoltotarjoukset on luotu, huoltonimikerivit rekisteröity ja resurssit on kohdistettu tilausten tai tarjousten huoltonimikkeille, huoltonimikkeiden korjauksen ja ylläpidon voi aloittaa.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] sisältää **Huoltotehtävät**-ikkunan, jossa yleiskuvaus toimenpiteitä edellyttävistä huoltonimikkeistä. Ikkuna toimii huollon mittareina, joiden avulla voit nähdä odottavat tilaukset, etsiä ja rekisteröidä varaosia sekä pitää varaston ajan tasalla.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] sisältää **Huoltotehtävät**-ikkunan, jossa on yleiskuvaus toimenpiteitä edellyttävistä huoltonimikkeistä. Ikkuna toimii huollon mittareina, joiden avulla voit nähdä odottavat tilaukset, etsiä ja rekisteröidä varaosia sekä pitää varaston ajan tasalla.  
   
 Voit seurata huollon muutoksia sekä tarkastella huollon graafista näkyvää [!INCLUDE[d365fin](includes/d365fin_md.md)]:n tilastotyökalujen avulla, jotka luovat kaavoja ja analyyseja nopeasti ja automaattisesti.  
   
@@ -106,7 +106,7 @@ Huoltonimikkeen korjauksen jälkeen nimikkeelle voi rekisteröidä sekä vikakoo
 4. Täytä rivi. Valitse oikea vika- ja ratkaisukoodien yhdistelmä ja kopioi se sitten huoltonimikkeeseen valitsemalla **OK**. Jos sopivaa yhdistelmää ei löydy, ikkunassa voi luoda uuden yhdistelmän.  
 
 ## <a name="see-also"></a>Katso myös  
-[Toimintaohje: Vian raportoinnin määrittäminen](service-how-setup-fault-reporting.md)
+[Vian raportoinnin määrittäminen](service-how-setup-fault-reporting.md)
 [Kohdistuksen tila ja korjauksen tila](service-allocation-status-and-repair-status.md)  
 [Huollon kirjaus](service-service-posting.md)  
 

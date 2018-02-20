@@ -13,10 +13,10 @@ ms.search.keywords: money flow, expense and income, liquidity, cash receipts min
 ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 7d78333c5a7151ad60f07433ba32cfea142a2445
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 7fd5d5885439a34ca18ae4ed8d7c0bfb577c0174
 ms.contentlocale: fi-fi
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Kassavirta-analyysin määrittäminen
@@ -58,7 +58,7 @@ Voit määrittää ne käyttämällä hakutermiä **kassavirtatilit**, valitsema
 ## <a name="set-up-cash-flow-forecasts"></a>Kassavirtaennusteiden määrittäminen
 **Kassavirtaennuste**-kaavio käyttää kassavirtatilejä, kassavirran asetuksia ja kassavirtaennusteita. Osa niistä on määritetty valmiiksi, mutta voit tehdä omat määrityksesi avustetun asennusoppaan avulla. Oppaan avulla voit määrittää esimerkiksi ennusteen päivitystiheyden, ennusteen perustana olevat tilit, verojen maksua koskevat tiedot ja sen, otetaanko [Cortana Intelligence](https://www.microsoft.com/en-us/cloud-platform/what-is-cortana-intelligence-suite) käyttöön.  
 
-Kassavirtaennusteet voivat sisällyttää Cortana Intelligencen avulla asiakirjoja, joiden eräpäivä on tulevaisuudessa. Tällä tavoin saadaan entistä kattavampi ennuste. Cortana Intelligence -yhteys on muodostettu valmiiksi. Sinun tarvitsee vain ottaa se käyttöön. Kun kirjaudut [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]iin, ilmoitus näkyy sinisessä palkissa, ja siinä on linkki kassavirran oletusasetuksiin. Ilmoitus näytetään vain kerran. Jos suljet sen mutta päätät ottaa Cortana Intelligencen käyttöön, voit tehdä sen avustetun asennusoppaan avulla tai manuaalisesti.  
+Kassavirtaennusteet voivat sisällyttää Cortana Intelligencen avulla asiakirjoja, joiden eräpäivä on tulevaisuudessa. Tällä tavoin saadaan entistä kattavampi ennuste. Cortana Intelligence -yhteys on muodostettu valmiiksi. Sinun tarvitsee vain ottaa se käyttöön. Kun kirjaudut [!INCLUDE[d365fin](includes/d365fin_md.md)]iin, ilmoitus näkyy sinisessä palkissa, ja siinä on linkki kassavirran oletusasetuksiin. Ilmoitus näytetään vain kerran. Jos suljet sen mutta päätät ottaa Cortana Intelligencen käyttöön, voit tehdä sen avustetun asennusoppaan avulla tai manuaalisesti.  
 
 > [!NOTE]  
 >   Voit käyttää myös omaa ennakoivaa verkkopalvelua. Lisätietoja on kohdassa [Kassavirtaennusteiden ennakoivan verkkopalvelun luonti ja käyttö](#AnchorText).  
@@ -79,10 +79,10 @@ Voit käyttää manuaalista prosessia seuraavasti:
 >   Mieti, miten pitkiä jaksoja palvelun laskelmissa käytetään. Mitä enemmän tietoja on käytettävissä, sitä tarkempia ennusteet ovat. Varo myös suuria jaksovaihteluita. Ne vaikuttavat myös ennusteisiin. Jos Cortana Intelligence ei löydä riittävästi tietoja tai tiedot ovat kovin erilaisia, palvelu ei voi tehdä ennustetta.  
 
 ## <a name="AnchorText"> </a>Kassavirtaennusteiden ennakoivan verkkopalvelun luonti ja käyttö
-Voit myös luoda oman ennakoivan verkkopalvelun **Microsoft Dynamics 365 Business editionin ennustemalli** -nimisen julkisen mallin perusteella. Tämä ennakoiva malli on saatavana verkossa Cortana Intelligence Galleryssa. Voit käyttää mallia seuraavien vaiheiden avulla:  
+Voit myös luoda oman ennakoivan verkkopalvelun **Microsoft Finance and Operations, Business editionin ennustemalli** -nimisen julkisen mallin perusteella. Tämä ennakoiva malli on saatavana verkossa Cortana Intelligence Galleryssa. Voit käyttää mallia seuraavien vaiheiden avulla:  
 
 1. Avaa selain ja siirry [Cortana Intelligence Galleryyn](https://go.microsoft.com/fwlink/?linkid=828352).  
-2. Hae **Microsoft Dynamics 365 Business editionin ennustemalli** ja avaa sitten malli Azure Machine Learning Studiossa.  
+2. Hae **Microsoft Finance and Operations, Business editionin ennustemalli** ja avaa sitten malli Azure Machine Learning Studiossa.  
 3. Kirjaudu työtilaan Microsoft-tilin avulla ja kopioi malli.  
 4. Aja malli ja julkaise se verkkopalveluna.  
 5. Kirjoita API:n URL-osoite ja API-avain muistiin. Näitä tunnistetietoja käytetään kassavirran asetuksissa.  

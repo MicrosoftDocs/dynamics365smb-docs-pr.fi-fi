@@ -1,6 +1,6 @@
 ---
 title: "Uusien yritysten luominen asetusten ohjatun määritysoppaan avulla | Microsoft Docs"
-description: "Dynamics 365 Business editioniin on helppo luoda uusi, tyhjä yritys. Asetusten ohjattu määritysopas antaa tarkkoja ohjeita, ja voit tuoda aiemmin luomasi liiketoimintatiedot."
+description: "Finance and Operations, Business editioniin on helppo luoda uusi, tyhjä yritys. Asetusten ohjattu määritysopas antaa tarkkoja ohjeita, ja voit tuoda aiemmin luomasi liiketoimintatiedot."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,13 +11,13 @@ ms.search.keywords: company, setup wizard
 ms.date: 07/14/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: c4152a77fcd3e5995aaf09c17b0a3a2c227aa2fa
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d18845dfb3c904139b1b392619d04611522c6e12
 ms.contentlocale: fi-fi
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="creating-new-companies-in-included365finlongincludesd365finlongmdmd"></a>Uusien yritysten luominen [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]issa
+# <a name="creating-new-companies-in-included365finincludesd365finmdmd"></a>Uusien yritysten luominen [!INCLUDE[d365fin](includes/d365fin_md.md)]issa
 [!INCLUDE[d365fin](includes/d365fin_md.md)]in liiketoimintayksikölle tai yritykselle kuuluvia liiketoimintatietojen säilöjä kutsutaan *yrityksiksi*. Kun rekisteröidyt [!INCLUDE[d365fin](includes/d365fin_md.md)]iin, saat käyttöösi esimerkkiyrityksen ja tyhjän yrityksen, jonka nimi on *Oma yritys*. Yritysten välillä siirtyminen on helppoa: valitse vain **Omat asetukset** ja siirry toiseen yritykseen. Voit myös luoda uusia yrityksiä [!INCLUDE[d365fin](includes/d365fin_md.md)]issa yrityksen tarpeiden mukaan. Kun luot uuden yrityksen, asetusten ohjattu määritysopas auttaa varmistamaan, että perustoiminnot ovat kohdallaan. Voit tuoda tämän jälkeen tarvittavat tiedot vanhasta järjestelmästä tai toisesta [!INCLUDE[d365fin](includes/d365fin_md.md)]in yrityksestä.  
 
 ## <a name="create-new-company"></a>Luo uusi yritys
@@ -44,10 +44,10 @@ Kun kirjaudut uuteen yritykseen, ohjattu **Yrityksen asennus** -toiminto suorite
 
 Esimerkiksi yrityksen osoitetta käytetään laskuissa ja muissa asiakirjoissa, pankkitietoja käytetään maksuissa ja arvostusmenetelmän avulla lasketaan varaston arvostuksen lisäksi myös hintoja.  
 
-Kun perustiedot on annettu, voi määrittää loput keskeiset alueet. Sen jälkeen voi aloittaa liiketoimintatietojen, kuten asiakkaiden ja toimittajien, lisäämisen. Lisätietoja on kohdassa [Dynamics 365 Business editionin määrittäminen](setup.md).  
+Kun perustiedot on annettu, voi määrittää loput keskeiset alueet. Sen jälkeen voi aloittaa liiketoimintatietojen, kuten asiakkaiden ja toimittajien, lisäämisen. Lisätietoja on kohdassa [Finance and Operations, Business editionin määrittäminen ](setup.md).  
 
 ## <a name="see-also"></a>Katso myös
-[Dynamics 365 Business editionin määrittäminen](setup.md)  
+[Finance and Operations, Business editionin määrittäminen ](setup.md)  
 [Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä](upload-data.md)  
 [Perusasetusten muuttaminen](ui-change-basic-settings.md)  
 [Tervetuloa [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]iin!](index.md)  

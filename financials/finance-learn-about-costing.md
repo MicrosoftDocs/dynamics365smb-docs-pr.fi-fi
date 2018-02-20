@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5e6b691eae1663cdc93d851f531306c472291484
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5c942b0e0dcdc025fdeca6373fe30b485a147ad2
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="about-inventory-costing"></a>Tietoja varaston arvostuksesta
@@ -36,7 +36,7 @@ Varastokustannusten hallinta käsittelee liiketoiminnan toimintokustannusten tal
 |Kustannusten muuttamismekanismi, joka varmistaa, että kustannukset tuodaan eteenpäin, vaikka varastotapahtumat tapahtuisivat satunnaisessa järjestyksessä.|[Rakennetiedot: Kustannuksen muutos](design-details-cost-adjustment.md)|  
 |Vakiokustannusten komponenttien ja valmiiden tuotteiden arvostuksen perustana käyttämisen syyt teollisuusyhtiöissä.|[Tietoja standardikustannuksen laskemisesta](finance-about-calculating-standard-cost.md)|  
 |Varaston arvon näyttäminen pääkirjanpidossa.|[Kustannusten raportointi ja täsmäyttäminen pääkirjanpidon kanssa](finance-report-costs-and-reconcile-with-the-general-ledger.md)|  
-|Nimikekulujen, kuten rahdin tai vakuutuksen, aiheuttamien lisäkustannuskomponenttien määrittäminen nimikkeen yksikkökustannukseen.|[Toimintaohje: Kaupan lisäkustannusten huomiointi nimikekulujen avulla](payables-how-assign-item-charges.md)|  
+|Nimikekulujen, kuten rahdin tai vakuutuksen, aiheuttamien lisäkustannuskomponenttien määrittäminen nimikkeen yksikkökustannukseen.|[Kaupan lisäkustannusten huomiointi nimikekulujen avulla](payables-how-assign-item-charges.md)|  
 |Varastokausien käyttäminen yrityksen varaston arvon pitkäaikaisessa hallinnassa määrittämällä lyhyempiä kausia, jotka voi sulkea kirjaamista varten tilikauden edetessä.|[Varastokausien käsitteleminen](finance-how-to-work-with-inventory-periods.md)|  
 |Tutustu kaikki kustannuslaskentaohjelman kaikkiin mekanismeihin, myös siihen mitä tapahtuu, kun kokoonpano- ja tuotantotapahtumia kirjataan.|[Rakennetiedot: Varaston arvostus](design-details-inventory-costing.md)|
 

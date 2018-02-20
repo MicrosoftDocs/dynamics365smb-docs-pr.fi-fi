@@ -1,6 +1,6 @@
 ---
 title: "Tuotantosolujen ja kuormituskeskusten määrittäminen | Microsoft Docs"
-description: "**Tuotantosolu**-korttiin kootaan tuotantoresurssin kiinteät arvot ja vaatimukset. Nämä tiedot ohjaavat tuotantosolussa tapahtuvan tuotannon tuotosta."
+description: "**Tuotantosolukorttiin** kootaan tuotantoresurssin kiinteät arvot ja vaatimukset. Nämä tiedot ohjaavat tuotantosolussa tapahtuvan tuotannon tuotosta."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/19/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 99ca93d4fd67ec424e54961ad5623c9986e5fe7c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 45477104c003d60786961f4329c1543a96be5b0c
 ms.contentlocale: fi-fi
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-work-centers-and-machine-centers"></a>Toimintaohje: Tuotantosolujen ja kuormituskeskusten määrittäminen
+# <a name="set-up-work-centers-and-machine-centers"></a>Tuotantosolujen ja kuormituskeskusten määrittäminen
 Ohjelmassa erotetaan kolme eri kapasiteettityyppiä. Tyypit on järjestelty hierarkkisesti. Jokaiseen tasoon kuuluu alatasoja.  
 
 Ylin taso on tuotantosoluryhmä. Tuotantosolut on määritelty tuotantosoluryhmiin. Jokainen tuotantosolu voi kuulua vain yhteen tuotantosoluryhmään.
@@ -28,7 +28,7 @@ Jokaiselle tuotantosolulle voi määritellä useita kuormitusryhmiä. Yksi kuorm
 
 Tuotantosolun suunniteltu kapasiteetti koostuu vastaavien kuormitusryhmien saatavuudesta ja tuotantosolun suunnitellusta lisäsaatavuudesta. Tuotantosoluryhmän suunniteltu saatavuus on siten kaikkien vastaavien kuormitusryhmien ja tuotantosolujen saatavuuksien summa.  
 
-Saatavuus tallennetaan kalenteritapahtumiin. Tuotantokalenteri on määritettävä ennen tuotantosolujen tai kuormitusryhmien määrittämistä. Lisätietoja on kohdassa [Toimintaohje: Tuotantokalenterien luominen](production-how-to-create-work-center-calendars.md).  
+Saatavuus tallennetaan kalenteritapahtumiin. Tuotantokalenteri on määritettävä ennen tuotantosolujen tai kuormitusryhmien määrittämistä. Lisätietoja on kohdassa [Tuotantokalenterien luominen](production-how-to-create-work-center-calendars.md).  
 
 ## <a name="to-set-up-a-work-center"></a>Tuotantosolun määrittäminen
 Seuraavaksi käsitellään ennen kaikkea tuotantosolun määrittämiseen. Kuormitusryhmän kalenterin määrittämisen vaiheet ovat vastaavanlaiset **Reitityksen asetukset** -pikavälilehteä lukuun ottamatta.  
@@ -37,7 +37,7 @@ Seuraavaksi käsitellään ennen kaikkea tuotantosolun määrittämiseen. Kuormi
 2.  Valitse **Uusi**-toiminto.  
 3. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Valitse tarvittaessa **Tuotantosoluryhmä**-kentässä ylätason resurssiryhmä, johon tuotantosolu kuuluu. Valitse avattavassa luettelossa **Uusi**-toiminto.  
-5.  Valitse **Estetty** -kenttä, jos haluat estää tuotantosolun käyttämisen käsittelyssä. Siinä tapauksessa tuotosta ei voi kirjata tuotantosolussa tuotetulle nimikkeelle. Lisätietoja on kohdassa [Toimintaohje: Tuotannon tuotoksen kirjaaminen](production-how-to-post-output-quantity.md).
+5.  Valitse **Estetty** -kenttä, jos haluat estää tuotantosolun käyttämisen käsittelyssä. Siinä tapauksessa tuotosta ei voi kirjata tuotantosolussa tuotetulle nimikkeelle. Lisätietoja on kohdassa [Tuotannon tuotoksen kirjaaminen](production-how-to-post-output-quantity.md).
 6.  Anna **Välitön yksikkökustannus** -kenttään yhden yksikön tuottamiskustannus tässä tuotantosolussa muita kustannuselementtejä huomioon ottamatta. Tätä kustannusta kutsutaan usein myös *välittömäksi työkustannukseksi*.  
 7.  Syötä **Välillinen kustannus-%** -kenttään yleiset tuotantosolun käytöstä syntyvät toimintakustannukset prosenttiosuutena välittömästä yksikkökustannuksesta. Tämä prosentti lisätään välittömiin kustannuksiin yksikkökustannusta laskettaessa.  
 8.  Syötä **Yleiskustannus (arvo)** -kenttään tuotantosolun kaikki muut kuin toiminnasta syntyvät kustannukset, esimerkiksi kunnossapitokulut, absoluuttisena arvona.  
@@ -68,7 +68,7 @@ Seuraavaksi käsitellään ennen kaikkea tuotantosolun määrittämiseen. Kuormi
 13.  Määritä **Kapasiteetti**-kentässä, onko tuotantosolussa samanaikaisesti useita työntekijöitä tai koneita. Jos käyttämääsi [!INCLUDE[d365fin](includes/d365fin_md.md)] -järjestelmään ei ole asennettu Kuormitusryhmä-toimintoa, kentän arvon on oltava **1**.  
 14.  Anna **Tehokkuus**-kenttään tuotantosolun todellinen tuotos prosenttiosuutena oletetusta vakiotuotoksesta. Jos annat arvoksi **100**, tämä tarkoittaa, että tuotantosolun todellinen tuotos on sama kuin vakiotuotos.  
 15. Valitse **Yhdistetty kalenteriin** -valintaruutu, jos käytät myös kuormitusryhmiä. Tämä varmistaa, että kalenteritapahtumat vyörytetään kuormitusryhmän kalentereista.  
-16.  Valitse **Tuotantokalenterin koodi** -kentässä tuotantokalenteri. Lisätietoja on kohdassa [Toimintaohje: Tuotantokalenterien luominen](production-how-to-create-work-center-calendars.md).  
+16.  Valitse **Tuotantokalenterin koodi** -kentässä tuotantokalenteri. Lisätietoja on kohdassa [Tuotantokalenterien luominen](production-how-to-create-work-center-calendars.md).  
 17.  Määritä **Jonotusaika**-kenttään aika, jonka täytyy kulua, ennen kuin tuotantosolulle määritetty työ voidaan aloittaa. Huomaa, että jonotusaika lisätään muihin tuottamattomiin aikaelementteihin, kuten odotusaikaan ja siirtoaikaan, jotka voidaan määrittää tätä tuotantosolua käyttäville reititysriveille.  
 
 ## <a name="example---different-machine-centers-assigned-to-a-work-center"></a>Esimerkki - Tuotantosoluun liitetyt erilaiset kuormitusryhmät
@@ -83,7 +83,7 @@ Jos tuotantosolujen kapasiteettien ei ole tarkoitus vaikuttaa kokonaiskapasiteet
 ## <a name="to-set-up-a-capacity-constrained-machine-or-work-center"></a>Kapasiteettirajoitetun kuormitusryhmän tai tuotantosolun määrittäminen
 Tässä taulukossa on mahdollista määritellä tuotantoresurssit niille alueille, joita pidät kriittisinä, ja merkitä ne hyväksymään äärellinen kuormitus oletusarvoisen äärettömän kuormituksen sijaan, jotka muut tuotantoresurssit hyväksyvät. Kapasiteettirajoitettu resurssi voi olla tuotantosolu tai kuormitusryhmä, jonka olet tunnistanut pullonkaulaksi ja jolle haluaisit määritellä rajoitetun (rajallisen) kuormituksen.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] ei tue yksityiskohtaista työnohjausta. Se suunnittelee resurssien käytön tarjoamalla karkean aikataulun, mutta se ei luo ja ylläpidä automaattisesti tarkkoja aikatauluja prioriteetteihin tai optimointisääntöihin perustuen.
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  ei tue yksityiskohtaista työnohjausta. Se suunnittelee resurssien käytön tarjoamalla karkean aikataulun, mutta se ei luo ja ylläpidä automaattisesti tarkkoja aikatauluja prioriteetteihin tai optimointisääntöihin perustuen.
 
 Voit tehdä **Kapasiteettirajoitetut resurssit** -ikkunassa määritykset, jotka estävät tiettyjen resurssien ylikuormituksen ja varmistaa, että kapasiteettia ei jää kohdentamatta, jos se voisi parantaa tuotantotilauksen läpimenoaikaa. Voit lisätä **Vaimennin (% koko kapasiteetista)** -kenttään resurssien puskuriajan toiminnon jaon minimoimiseksi. Tämän avulla järjestelmä ajoittaa kuormituksen viimeiseen mahdolliseen päivään niin, että kriittinen kuormitusprosentti ylittyy hieman. Tämä voi vähentää jaettavien toimintojen määrää.
 
@@ -99,7 +99,7 @@ Kun suunnitellaan kapasiteettirajoitettuja resursseja, järjestelmä varmistaa, 
 > Jos toiminto jaetaan, asetusaika kohdistetaan vain kerran, koska oletetaan, että jotkin manuaaliset muutokset suoritetaan aikataulun optimoimiseksi.
 
 ## <a name="see-also"></a>Katso myös  
-[Toimintaohje: Tuotantokalenterien luominen](production-how-to-create-work-center-calendars.md)  
+[Tuotantokalenterien luominen](production-how-to-create-work-center-calendars.md)  
 [Tuotannon määrittäminen](production-configure-production-processes.md)  
 [Tuotanto](production-manage-manufacturing.md)    
 [Suunnittelu](production-planning.md)   

@@ -1,6 +1,6 @@
 ---
 title: "Työnkulkujen poistaminen | Microsoft Docs"
-description: "Voit poistaa työnkulun, jos olet varma, ettei sitä enää käytetä. Kaikkien työnkulun osavaiheiden instanssien tilan on oltava **Valmis**."
+description: "Voit poistaa työnkulun, jos olet varma, ettei sitä enää käytetä. Kaikkien työnkulun osavaiheiden instanssien tilan pitää olla **Valmis**."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,19 +13,19 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d1b7b29735983e2de0bdaf5d382679d9546a6278
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3e972ae6532c9531845e2739237b6ccb94d14c12
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-delete-workflows"></a>Toimintaohje: Työnkulkujen poistaminen
+# <a name="delete-workflows"></a>Työnkulkujen poistaminen
 Voit poistaa työnkulun, jos olet varma, ettei sitä enää käytetä. Kaikkien työnkulun osavaiheiden instanssien tilan pitää olla **Valmis**.  
 
 > [!CAUTION]  
 >  Kun poistat työnkulun, kaikki työnkulun tiedot menetetään.  
 
- **Työnkulku**-ikkunassa voit luoda työnkulun luetteloimalla liittyvät toimet riveillä. Jokainen vaihe koostuu työnkulun tapahtumasta, jota valvotaan tapahtuman ehtojen mukaan, ja työnkulun vastauksesta, jota valvotaan vastausvaihtoehtojen mukaan. Työnkulku määritetään täyttämällä työnkulkurivien kentät tapahtumien kiinteistä luetteloista ja vastausarvot, jotka edustavat sovelluskoodin tukemia skenaarioita. Lisätietoja on kohdassa [Toimintaohje: Työnkulkujen luominen](across-how-to-create-workflows.md).  
+ **Työnkulku**-ikkunassa voit luoda työnkulun luetteloimalla liittyvät toimet riveillä. Jokainen vaihe koostuu työnkulun tapahtumasta, jota valvotaan tapahtuman ehtojen mukaan, ja työnkulun vastauksesta, jota valvotaan vastausvaihtoehtojen mukaan. Työnkulku määritetään täyttämällä työnkulkurivien kentät tapahtumien kiinteistä luetteloista ja vastausarvot, jotka edustavat sovelluskoodin tukemia skenaarioita. Lisätietoja on kohdassa [Työnkulkujen luominen](across-how-to-create-workflows.md).  
 
 ## <a name="to-delete-a-workflow"></a>Työnkulun poistaminen  
 1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Työnkulut** ja valitse sitten aiheeseen liittyvä linkki.  
@@ -35,9 +35,9 @@ Voit poistaa työnkulun, jos olet varma, ettei sitä enää käytetä. Kaikkien 
 5.  Valitse **Työnkulku**-ikkunassa **Poista**-toiminto.  
 
 ## <a name="see-also"></a>Katso myös  
- [Toimintaohje: Työnkulkujen luominen](across-how-to-create-workflows.md)   
- [Toimintaohje: Työnkulkujen ottaminen käyttöön](across-how-to-enable-workflows.md)   
- [Toimintaohje: Arkistoitujen työnkulun osavaiheen instanssien tarkasteleminen](across-how-to-view-archived-workflow-step-instances.md)   
+ [Työnkulkujen luominen](across-how-to-create-workflows.md)   
+ [Työnkulkujen ottaminen käyttöön](across-how-to-enable-workflows.md)   
+ [Arkistoitujen työnkulun osavaiheen ilmentymien tarkasteleminen](across-how-to-view-archived-workflow-step-instances.md)   
  [Vaihekuvaus: Ostojen hyväksyntätyönkulun määrittäminen ja käyttäminen](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
  [Työnkulkujen määrittäminen](across-set-up-workflows.md)   
  [Työnkulkujen käyttäminen](across-use-workflows.md)   

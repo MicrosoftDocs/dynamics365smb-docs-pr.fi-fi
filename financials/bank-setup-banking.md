@@ -13,10 +13,10 @@ ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
 ms.date: 06/02/2016
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: ef549db1af519084b79f85d8815fa89ff707067d
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 31fec531df5e601355442c7bf7c6e3e99b8362d8
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-banking"></a>Pankkitoiminnan määrittäminen
@@ -26,9 +26,9 @@ Voit käyttää sähköisiä pankkipalveluita pankin tiliotteiden tuonnissa ja m
 
 | Toiminta | Katso |
 | --- | --- |
-| Pankkitilikorttien määrittäminen kullekin pankkitilille pankkitapahtumien seurantaa varten. |[Toimintaohje: Pankkitoiminnan määrittäminen](bank-how-setup-bank-accounts.md) |
-| Määritä ulkoinen palvelu, jonka avulla voit tuoda pankin tiliotteet pankkisyötteinä maksun kohdistusta ja pankin täsmäytystä varten. |[Toimintaohje: Envestnet Yodlee -pankkisyötepalvelun määrittäminen](bank-how-setup-bank-statement-service.md) |
-| Määritä ulkoinen palvelu, jonka avulla voit viedä pankin maksut käsittelyyn ja tuoda pankin tiliotteet pankkitiedostoista maksun kohdistusta ja pankin täsmäytystä varten. |[Toimintaohje: Pankkitietojen muuntopalvelun määrittäminen](bank-how-setup-bank-data-conversion-service.md) |
+| Pankkitilikorttien määrittäminen kullekin pankkitilille pankkitapahtumien seurantaa varten. |[Pankkitilien määrittäminen](bank-how-setup-bank-accounts.md) |
+| Määritä ulkoinen palvelu, jonka avulla voit tuoda pankin tiliotteet pankkisyötteinä maksun kohdistusta ja pankin täsmäytystä varten. |[Envestnet Yodlee -pankkisyötepalvelun määrittäminen](bank-how-setup-bank-statement-service.md) |
+| Määritä ulkoinen palvelu, jonka avulla voit viedä pankin maksut käsittelyyn ja tuoda pankin tiliotteet pankkitiedostoista maksun kohdistusta ja pankin täsmäytystä varten. |[Pankkitietojen muuntopalvelun määrittäminen](bank-how-setup-bank-data-conversion-service.md) |
 
 ## <a name="see-also"></a>Katso myös
 [Pankkitilien hallinta](bank-manage-bank-accounts.md)  

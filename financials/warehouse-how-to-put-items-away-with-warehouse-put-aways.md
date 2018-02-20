@@ -13,18 +13,18 @@ ms.search.keywords:
 ms.date: 08/31/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 28ff0073c75136f31153327a70a8f7c0bb9176aa
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6ccc452db91f7c227e052f60d50f8cc0fdf46fd0
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-put-items-away-with-warehouse-put-aways"></a>Nimikkeiden hyllyttäminen ja fyysisen varaston hyllytykset
-Kun fyysisen varastoinnin hyllytys- ja vastaanottokäsittely on määritetty sijainnissa pakolliseksi, voit ohjata nimikkeiden hyllytystä fyysisen varastoinnin hyllytysasiakirjojen avulla.  
+# <a name="put-items-away-with-warehouse-put-aways"></a>Nimikkeiden hyllyttäminen ja fyysisen varaston hyllytykset
+Kun sijainnissa on määritetty pakolliseksi fyysisen varastoinnin hyllytyksen ja vastaanoton käsittely, voit ohjata nimikkeiden hyllytystä fyysisen varastoinnin hyllytysasiakirjojen avulla.  
 
 Kun kirjaat fyysisen varastoinnin vastaanoton, ohjelma päivittää lähdeasiakirjat (ostotilauksen, saapuvan siirron tilauksen tai myyntipalautustilauksen), kirjaa vastaanotetun määrän nimikekirjauksiin ja lähettää vastaanotettuja nimikkeitä koskevat rivit fyysisen varastoinnin hyllytystoimintoon. Jos käytät sisäistä hyllytystä ja poimintaa, myös sisäinen hyllytys voi luoda rivejä hyllytystä varten.  
 
-Fyysisen varastoinnin määritysten mukaan ohjelma ottaa rivit käyttöön hyllytystyökirjassa tai luo hyllytysohjeet välittömästi. Lisätietoja on kohdassa [Toimintaohje: Hyllytysten suunnitteleminen työkirjoissa](warehouse-how-to-plan-put-aways-in-worksheets.md).  
+Fyysisen varastoinnin määritysten mukaan ohjelma ottaa rivit käyttöön hyllytystyökirjassa tai luo hyllytysohjeet välittömästi. Lisätietoja on kohdassa [Hyllytysten suunnitteleminen työkirjoissa](warehouse-how-to-plan-put-aways-in-worksheets.md).  
 
 Tässä ohjeaiheessa kuvattujen fyysisen varaston hyllytysten luonnin vakiotapojen lisäksi voit luoda hyllytyksen liittyvästä kirjatusta fyysisen varaston vastaanotosta. Tämä on kätevää, jos olet poistanut hyllytysrivit tai jos käytät ohjattua hyllytystä ja poimintaa ja olet päättänyt olla käyttämättä hyllytystyökirjaa, koska voit luoda tai uudelleenluoda vastaanottorivien hyllytysohjeet.  
 
@@ -56,7 +56,7 @@ Tässä ohjeaiheessa kuvattujen fyysisen varaston hyllytysten luonnin vakiotapoj
 
 Paikoissa, jotka on määritetty käyttämään ohjattua hyllytystä ja poimintaa, seuraavat asetukset ovat edellytykset yllä mainittua menettelyä varten:  
 
-- Hyllytysmallien määrittäminen: Lisätietoja on kohdassa [Toimintaohje: Hyllytysmallien määrittäminen](warehouse-how-to-set-up-put-away-templates.md).  
+- Hyllytysmallien määrittäminen: Lisätietoja on ohjeaiheessa [Hyllytysmallien määrittäminen](warehouse-how-to-set-up-put-away-templates.md).  
 - Nimikkeen tai varastointiyksikön paino, tilavuus ja varastoinnin erityisvaatimukset määritetään. Lisätietoja on myös kohdassa Bruttopaino.  
 - Kapasiteetti, varastopaikan tyyppi ja varastopaikkojen paikkaluokittelu. Lisätietoja on kohdassa Varastopaikan luokittelu.  
 

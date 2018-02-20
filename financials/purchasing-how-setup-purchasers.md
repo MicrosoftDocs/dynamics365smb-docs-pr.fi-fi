@@ -13,13 +13,13 @@ ms.search.keywords: purchasing agent
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 98b9dfce0b0a9723992fe3de77a1130ca2b05e7a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 66e6233df8204476e5f856e230e5e3d502d309c4
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-purchasers"></a>Ostajien määrittäminen
+# <a name="set-up-purchasers"></a>Ostajien määrittäminen
 Jos yrityksessäsi työskentelee useita ostajia, ne voidaan määrittää ikkunaan, ja kullekin voidaan määritellä koodi. Tämän jälkeen koodeja voi käyttää valmistelemaan tilastoja ja suodattamaan tietoja tulostetuissa raporteissa.
 
 ## <a name="to-set-up-purchasers"></a>Ostajien määrittäminen
@@ -28,7 +28,7 @@ Jos yrityksessäsi työskentelee useita ostajia, ne voidaan määrittää ikkuna
 3. Täytä **Myyjät/ostajat**-ikkunassa tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-purchasers-to-vendors"></a>Ostajien määrittäminen toimittajiin
-1. Valitse ![Etsi sivu tai raportti(media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake")] -kuvake, syötä **Toimittajat** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Toimittajat** ja valitse sitten aiheeseen liittyvä linkki.
 2. Avaa sen toimittajan toimittajan kortti, jolle määritetään ostaja.
 3. Valitse **Ostajan koodi** -kentässä sopiva ostajan koodi ja sulje ikkuna.
 

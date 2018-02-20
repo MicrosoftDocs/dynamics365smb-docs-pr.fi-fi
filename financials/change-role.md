@@ -13,13 +13,13 @@ ms.search.keywords: Profile
 ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 7e49359f29bcb101b2dc16236e9b617962248a67
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 454385cf346510396b7ff154164e4495bb784419
 ms.contentlocale: fi-fi
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-change-the-role-center"></a>Toimintaohje: Roolikeskuksen vaihtaminen
+# <a name="change-the-role-center"></a>Roolikeskuksen vaihtaminen
 Aloitussivu on ensisijainen [!INCLUDE[d365fin](includes/d365fin_md.md)]in aloituskohta. Kotisivulla on yleiskuvaus päivän työtehtävistä ja niiden tiloista. Suoritettavat tehtävät otetaan usein käyttöön sisältöalueen ruutujen, vasemmalla olevan siirtymisruudun ja valintanauhan toimintojen avulla.
 
 Kotisivun sisältö riippuu valitusta roolikeskuksesta. [!INCLUDE[d365fin](includes/d365fin_md.md)]in vakioroolikeskus on **Liiketoimintajohtaja**. Roolikeskukseksi voi vaihtaa minkä tahansa useista vaihtoehdoista.

@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/14/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: f42941328d49aee4e823007284fd14417866cbae
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: cf54f63e94ab3249f30d2fcdbef2c35e323e4cd8
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-shop-calendars"></a>Tuotantokalenterien määrittäminen
+# <a name="set-up-shop-calendars"></a>Tuotantokalentereiden määrittäminen
 Tuotantosolun tai kuormituskeskuksen kalenterissa määritetään työpäivät ja -tunnit, työvuorot, lomapäivät sekä poissaolot, jotka määräävät tuotantosolun tai kuormituskeskuksen käytettävissä olevan kokonaiskapasiteetin (ajassa mitattuna) tehokkuus- ja kapasiteettiarvojen mukaisesti.
 
 Tuotantosolun tai kuormituskeskuksen kalenterin laskemisen perustaksi on ensin määritettävä ainakin yksi yleinen tuotantokalenteri. Tuotantokalenteriin määritetään vakiotyöviikon kunkin työpäivän alkamis- ja päättymisajat sekä työvuorot. Lisäksi tuotantokalenteriin määritetään kaikki vuoden kiinteät lomapäivät.  
@@ -108,8 +108,8 @@ Laskettu tuotantosolun kalenteri määrittelee nyt, milloin ja kuinka paljon kap
 Valitun päivän kapasiteetti on nyt pienentynyt kalenteriin merkityn poissaoloajan verran.  
 
 ## <a name="see-also"></a>Katso myös  
-[Peruskalenterin määrittäminen](across-how-to-assign-base-calendars.md)  
-[Toimintaohje: Tuotantosolujen ja kuormitusryhmien määrittäminen](production-how-to-set-up-work-and-machine-centers.md)  
+[Peruskalenterien määrittäminen](across-how-to-assign-base-calendars.md)  
+[Tuotantosolujen ja kuormituskeskusten määrittäminen](production-how-to-set-up-work-and-machine-centers.md)  
 [Tuotannon määrittäminen](production-configure-production-processes.md)  
 [Tuotanto](production-manage-manufacturing.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  

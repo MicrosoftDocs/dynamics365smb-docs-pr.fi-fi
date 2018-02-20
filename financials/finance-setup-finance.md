@@ -13,14 +13,14 @@ ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 08/10/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 2d8863ba9037f6470232372dedd4536664fd3404
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6edce17707ec8514348abe46f30a9368802a858a
 ms.contentlocale: fi-fi
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-finance"></a>Rahoituksen määrittäminen
-[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] sisältää useimpien rahoitusprosessien vakiomääritykset, mikä nopeuttaa käytön aloittamista. Voit tarvittaessa muuttaa määrityksiä liiketoiminnan tarpeiden mukaisesti. Voit määrittää esimerkiksi aloitussivulla avustetun asennusoppaan avulla sijaintiin sopivan arvonlisäveron.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] sisältää useimpien rahoitusprosessien vakiomääritykset, mikä nopeuttaa käytön aloittamista. Voit tarvittaessa muuttaa määrityksiä liiketoiminnan tarpeiden mukaisesti. Voit määrittää esimerkiksi aloitussivulla avustetun asennusoppaan avulla sijaintiin sopivan arvonlisäveron.  
 
 Tietyt asiat on kuitenkin määritettävä itse. Esimerkki: haluat käyttää dimensioita BI-tietojen perustana.  
 
@@ -30,14 +30,14 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 | --- | --- |
 | Valitse, miten maksat toimittajille. |[Maksutapojen määrittäminen](finance-payment-methods.md) |
 | Määritä kirjausryhmät, jotka yhdistävät objektit, kuten asiakkaat, toimittajat, nimikkeet, resurssit sekä myynti- ja ostoasiakirjat, pääkirjanpidon tileille. |[Kirjausryhmien määrittäminen](finance-posting-groups.md)|
-|Määritä toleranssi, jonka mukaan järjestelmä sulkee laskun, vaikka maksu ja mahdolliset alennukset eivät täysin vastaa laskun koko summaa.|[Toimintaohje: Maksutoleranssien ja maksualennustoleranssien käsitteleminen](finance-payment-tolerance-and-payment-discount-tolerance.md)|
-| Määritä tilikaudet. |[Toimintaohje: Uuden tilikauden avaaminen](finance-how-open-new-fiscal-year.md) |
+|Määritä toleranssi, jonka mukaan järjestelmä sulkee laskun, vaikka maksu ja mahdolliset alennukset eivät täysin vastaa laskun koko summaa.|[Maksutoleranssien ja maksualennustoleranssien käsitteleminen](finance-payment-tolerance-and-payment-discount-tolerance.md)|
+| Määritä tilikaudet. |[Uuden tilikauden avaaminen](finance-how-open-new-fiscal-year.md) |
 | Määritä, miten myynnistä kerätyt arvonlisäverosummat raportoidaan veroviranomaisille. |[ALV:n raportointi veroviranomaisille](finance-how-report-vat.md)|
-| Määritä myynti- ja ostotoiminnot käsittelemään maksut ulkomaan valuuttana.|[Toimintaohje: Tapahtumakirjausten kohdistamisen ottaminen käyttöön eri valuutoissa](finance-how-enable-application-ledger-entries-different-currencies.md)
+| Määritä myynti- ja ostotoiminnot käsittelemään maksut ulkomaan valuuttana.|[Tapahtumakirjausten kohdistamisen ottaminen käyttöön eri valuutoissa](finance-how-enable-application-ledger-entries-different-currencies.md)
 | Lisää aiemmin luotuun tilikarttaan uusia tilejä. |[Tilikartan määrittäminen](finance-setup-chart-accounts.md) |
 | Määritä BI-kaaviot analysoimaan kassavirtaa. |[Kassavirta-analyysin määrittäminen](finance-setup-cash-flow-analyses.md) |
 |Ota käyttöön sellaisen asiakkaan laskutus, jota ei ole määritetty järjestelmässä.|[Käteisasiakkaiden määrittäminen](finance-how-to-set-up-cash-customers.md)|
-| Intrastat-raportoinnin määrittäminen ja raportin lähettäminen viranomaisille | [Toimintaohje: Intrastat-ilmoituksen määrittäminen ja raportoiminen](finance-how-setup-report-intrastat.md)|
+| Intrastat-raportoinnin määrittäminen ja raportin lähettäminen viranomaisille | [Intrastat-ilmoituksen määrittäminen ja raportoiminen](finance-how-setup-report-intrastat.md)|
 
 ## <a name="see-also"></a>Katso myös
 [Rahoitus](finance.md)  
@@ -47,5 +47,6 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 [Yrityksen kassavirran analysoiminen](finance-analyze-cash-flow.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

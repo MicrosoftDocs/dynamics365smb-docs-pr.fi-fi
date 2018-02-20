@@ -13,10 +13,10 @@ ms.search.keywords: trade, sell, configure
 ms.date: 10/26/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: d94177e37fec6abf278dc8edac71b03c569c9581
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6407b49cf9b5e844b4e0920ccf1fc299d96ae34f
 ms.contentlocale: fi-fi
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-sales"></a>Myynnin määrittäminen
@@ -30,14 +30,14 @@ Maksumenetelmiä ja valuuttoja sekä muita rahoitukseen liittyviä myyntiasetuks
 
 | Toiminta | Katso |
 | --- | --- |
-| Luo asiakkaan kortti jokaiselle asiakkaalle, jolle myyt. |[Toimintaohje: Uusien asiakkaiden rekisteröiminen](sales-how-register-new-customers.md) |
-| Ota asiakkaille käyttöön mahdollisuus maksaa PayPalin kautta valitsemalla myyntiasiakirjoissa PayPalin logo. |[Toimintaohje: Asiakkaan maksujen ottaminen käyttöön PayPalin kautta](sales-how-enable-payment-service-extensions.md) |
-| Määritä asiakkaille myönnettävät alennukset ja erikoishinnat. Ne voivat perustua nimikkeeseen, määrään ja/tai päivämäärään. |[Toimintaohje: Myyntihinnan, alennuksen ja maksusopimusten kirjaaminen](sales-how-record-sales-price-discount-payment-agreements.md) |
-| Määritä myyjät niin, että voit määrittää heidät asiakaskontakteille tai mitata myyjien suorituskykyä, kun myyntiprovisiota tai bonusta lasketaan. |[Toimintaohje: Myyjien määrittäminen](sales-how-setup-salespeople.md) |
-| Määritä yksittäisille asiakkaille tai kaikille asiakkaille myyntiasiakirjojen oletusarvoinen lähetystapa valitsemalla **Kirjaa ja lähetä** -toiminto. |[Toimintaohje: Asiakirjan lähetysprofiilien määrittäminen](sales-how-setup-document-send-profiles.md) |
-| Määritä sähköposti niin, että se sisältää lähetettävän myyntiasiakirjan yhteenvedon. |[Toimintaohje: Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md). |
-|Tarkista ALV-rekisteröintinumero EU:n verkkopalvelun avulla.|[Toimintaohje: ALV-rekisteröintinumeroiden tarkistaminen](finance-setup-vat.md)|
-|Syötä käytettävien kuljetusliikkeiden tietoja, mukaan lukien linkki kuljetusliikkeiden kollinseurantapalveluun.|[Toimintaohje: Kuljetusliikkeiden määrittäminen](sales-how-to-set-up-shipping-agents.md)|
+| Luo asiakkaan kortti jokaiselle asiakkaalle, jolle myyt. |[Uusien asiakkaiden rekisteröinti](sales-how-register-new-customers.md) |
+| Ota asiakkaille käyttöön mahdollisuus maksaa PayPalin kautta valitsemalla myyntiasiakirjoissa PayPalin logo. |[Asiakkaan maksujen ottaminen käyttöön PayPalin kautta](sales-how-enable-payment-service-extensions.md) |
+| Määritä asiakkaille myönnettävät alennukset ja erikoishinnat. Ne voivat perustua nimikkeeseen, määrään ja/tai päivämäärään. |[Myyntihinnan, alennuksen ja maksusopimusten tallentaminen](sales-how-record-sales-price-discount-payment-agreements.md) |
+| Määritä myyjät niin, että voit määrittää heidät asiakaskontakteille tai mitata myyjien suorituskykyä, kun myyntiprovisiota tai bonusta lasketaan. |[Myyjien määrittäminen](sales-how-setup-salespeople.md) |
+| Määritä yksittäisille asiakkaille tai kaikille asiakkaille myyntiasiakirjojen oletusarvoinen lähetystapa valitsemalla **Kirjaa ja lähetä** -toiminto. |[Asiakirjan lähetysprofiilien määrittäminen](sales-how-setup-document-send-profiles.md) |
+| Määritä sähköposti niin, että se sisältää lähetettävän myyntiasiakirjan yhteenvedon. |[Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md) |
+|Tarkista ALV-rekisteröintinumero EU:n verkkopalvelun avulla.|[ALV-rekisterinumeroiden tarkistaminen](finance-setup-vat.md)|
+|Syötä käytettävien kuljetusliikkeiden tietoja, mukaan lukien linkki kuljetusliikkeiden kollinseurantapalveluun.|[Kuljetusliikkeiden määrittäminen](sales-how-to-set-up-shipping-agents.md)|
 
 ## <a name="see-also"></a>Katso myös
 [Myynti](sales-manage-sales.md)  

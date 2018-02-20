@@ -1,6 +1,6 @@
 ---
 title: "Tietojen siirtäminen QuickBooks-sovelluksesta | Microsoft Docs"
-description: "Voit siirtää tietoja, kuten asiakkaat, toimittajat, varastonimikkeet ja kirjanpitotilit, QuickBooks-sovelluksista Dynamics 365, Business editioniin."
+description: "Voit siirtää tietoja, kuten asiakkaat, toimittajat, varastonimikkeet ja kirjanpitotilit, QuickBooks-sovelluksista Finance and Operations, Business editioniin."
 documentationcenter: 
 author: bholtorf
 ms.service: dynamics365-financials
@@ -12,15 +12,15 @@ ms.search.keywords: app, import, migrate, data, transfer, QuickBooks, customize
 ms.date: 09/25/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 05266cf4ae039caac2dcd42bfa45f8100e9a5852
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: a5a9d2270c63899318d5e9d5cde861cefc0ca550
 ms.contentlocale: fi-fi
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
 
-# <a name="changing-from-a-quickbooks-app-to-microsoft-dynamics-365-business-edition"></a>Vaihtaminen QuickBooks-sovelluksesta Microsoft Dynamics 365, Business editioniin
+# <a name="changing-from-a-quickbooks-app-to-microsoft-finance-and-operations-business-edition"></a>QuickBooks-sovelluksen vaihtaminen Microsoft Finance and Operations, Business editioniin
 Yhtä useammat kasvavat yritykset ovat vaihtamassa startup-yrityksille ja muille pienyrityksille tarkoitetuista taloushallinnon sovelluksista, kuten QuickBooks Desktop ja QuickBooks Online, [!INCLUDE[d365fin](includes/d365fin_md.md)]:een, joka tukee myös suuria ja monimutkaisia organisaatioita. 
 
 Yritykset haluavat yleensä tuoda siirtymisvaiheessa vanhat tiedot mukanaan, jotka kaikkea ei tarvitse aloittaa alusta. [!INCLUDE[d365fin](includes/d365fin_md.md)] sisältää valmiita laajennuksia, jotka auttavat siirtämään tietoja, kuten asiakkaat, toimittajat, varastonimikkeet ja kirjanpitotilit. Seuraavat laajennukset on asennettu ja valmiita käytettäväksi **tietojen siirtoasetusten** ohjatun määrityksen osana:
@@ -38,5 +38,5 @@ Jos olet valmis aloittamaan käytön nyt, valitse ![Etsi sivu tai raportti](medi
 
 ## <a name="see-also"></a>Katso myös
 [Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä](upload-data.md)  
-[Dynamics 365, Business editionin mukauttaminen laajennuksilla](ui-extensions.md)   
+[Finance and Operations, Business editionin mukauttaminen laajennusten avulla](ui-extensions.md)   
 

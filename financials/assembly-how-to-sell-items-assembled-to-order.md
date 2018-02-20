@@ -13,17 +13,17 @@ ms.search.keywords:
 ms.date: 08/15/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: b7617a0ac027b6d50c9029f386af3fe293e3bc7d
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ca8cf74ca844b2ec0119497e79ccfc7cc7df5026
 ms.contentlocale: fi-fi
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-sell-items-assembled-to-order"></a>Kokoonpano tilausta varten -nimikkeiden myyminen
+# <a name="sell-items-assembled-to-order"></a>Kokoonpano tilausta varten -nimikkeiden myyminen
 Jos kokoonpanon nimikkeen kortin **Kokoonpanokäytäntö**-kenttä sisältää **Kokoonpano tilausta varten** -kohdan, nimikettä ei oleteta olevan varastossa, vaan se on koottava myyntitilausta varten. Kun syötät nimikkeen myyntitilausriville, kokoonpanotilaus luodaan automaattisesti ja linkitetään myyntitilaukseen.  
 
 > [!NOTE]  
->  Jos kokoonpano tilausta varten -nimikkeet ovat jo varastossa, voit vähentää kokoonpanotilauksen määrää ja varata sen varastosta. Lisätietoja on kohdassa [Toimintaohje: Varastonimikkeiden myyminen Kokoonpano tilausta varten -työnkuluissa](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md).  
+>  Jos kokoonpano tilausta varten -nimikkeet ovat jo varastossa, voit vähentää kokoonpanotilauksen määrää ja varata sen varastosta. Lisätietoja on kohdassa [Varastonimikkeiden myyminen Kokoonpano tilausta varten -työnkuluissa](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md).  
 
 Tässä toimenpiteessä käsittelet asiakkaan pyytämien määrittelyjen mukaan koottavan nimikkeen myyntiä. Vaiheita ovat myyntitilausrivin käynnistäminen, kokoonpanonimikkeen mukauttaminen muokkaamalla sen osia ja resursseja, saatavuuden tarkistaminen toimituspäivämäärän määrittämiseksi ja myyntitilauksen vapauttaminen kokoonpanoa ja välitöntä toimitusta varten.  
 
@@ -32,7 +32,7 @@ Tässä toimenpiteessä käsittelet asiakkaan pyytämien määrittelyjen mukaan 
 
 ## <a name="to-sell-an-item-that-is-assembled-to-order"></a>Myy nimike, jok aon kokoonpano tilausta varten  
 1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Myyntitilaukset** ja valitse sitten aiheeseen liittyvä linkki.  
-2.  Luo myyntitilaus. Lisätietoja on kohdassa [Toimintaohje: Tuotteiden myyminen](sales-how-sell-products.md).  
+2.  Luo myyntitilaus. Lisätietoja on kohdassa [Tuotteiden myyminen](sales-how-sell-products.md).  
 3.  Valitse **Nro**-kenttään nimike, jolle on määritetty kokoonpano tilausta varten.  
 4.  Määritä **Sijaintikoodi**-kentässä sijainti, josta nimike myydään. Kokoonpanoprosessi tapahtuu kyseisessä sijainnissa.  
 5.  Määritä **Quantity**-kentässä, miten monta yksikköä haluat myytävän.  
@@ -42,7 +42,7 @@ Tässä toimenpiteessä käsittelet asiakkaan pyytämien määrittelyjen mukaan 
 
     Kokoonpanotilaus luodaan nyt automaattisesti ja linkitetään myyntitilauksen riviin. Kokoonpanotilauksen eräpäivä synkronoidaan myyntitilausrivin lähetyspäivämäärän kanssa.  
 
-    Myytävä määrä on kopioitu **Kokoonpantava määrä tilausta varten** -kentästä, joka ilmaisee, että nimikkeen asennus vaatii myyntirivillä olevan täyden määrän kokoonpanon tilausta varten. Voit vähentää kokoonpano tilausta varten -määrää, jos tiedät, että jotkin osat ovat jo saatavilla. Lisätietoja on kohdassa [Toimintaohje: Varastonimikkeiden myyminen Kokoonpano tilausta varten -työnkuluissa.](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md)  
+    Myytävä määrä on kopioitu **Kokoonpantava määrä tilausta varten** -kentästä, joka ilmaisee, että nimikkeen asennus vaatii myyntirivillä olevan täyden määrän kokoonpanon tilausta varten. Voit vähentää kokoonpano tilausta varten -määrää, jos tiedät, että jotkin osat ovat jo saatavilla. Lisätietoja on kohdassa [Varastonimikkeiden myyminen Kokoonpano tilausta varten -työnkuluissa](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md).  
 
 6.  Jos asiakas haluaa tuotepakettiin lisänimikkeen, valitse **Rivit** -pikavälilehdessä ensin **Rivi**-toiminto, sitten **Kokoonpano tilausta varten** -toiminto ja lopuksi **Kokoonpano tilausta varten -rivit** -toiminnon. Voit nyt tarkastella ja muuta vakiokokoonpanon komponentteja. Voit myös valita **Kokoonpantava määrä tilausta varten** -kentän.  
 7.  Luo **Kokoonpano tilausta varten -rivit** -ikkunassa pyydettyä lisäkokoonpanoisisältöä varten uusi rivi, jonka tyyppi on **Nimike**. Rivi vastaa ylimääräistä kokoonpano-osaa.  
@@ -57,11 +57,11 @@ Tässä toimenpiteessä käsittelet asiakkaan pyytämien määrittelyjen mukaan 
 8.  Tarkista tai reagoi komponenttien saatavuusongelmiin. Valitse esimerkiksi saatavilla oleva korvaava nimike tai määritä myöhempi eräpäivä.  
 9. Sulje **Kokoonpano tilausta varten -rivit** -ikkuna. Linkitetty kokoonpanotilaus on nyt valmiina mukautettujen nimikkeiden kokoonpanon aloittamiseen eräpäivään mennessä.  
 10. Valitse myyntitilauksessa **Vapauta**-toiminto, jos haluat ilmoittaa kokoonpano-osastolle, että kokoonpanoprosessi voidaan aloittaa.  
-11. Suorita kokoonpanoosastossa niiden nimikkeiden kokoamisvaiheet, jotka myydään tässä käsittelyssä. Lisätietoja on kohdassa [Toimintaohje: Nimikkeiden kokoaminen](assembly-how-to-assemble-items.md).  
+11. Suorita kokoonpanoosastossa niiden nimikkeiden kokoamisvaiheet, jotka myydään tässä käsittelyssä. Lisätietoja on kohdassa [Nimikkeiden kokoaminen](assembly-how-to-assemble-items.md).  
 
 ## <a name="see-also"></a>Katso myös  
 [Kokoonpanon hallinta](assembly-assemble-items.md)  
-[Toimintaohje: Tuoterakenteen käyttäminen](inventory-how-work-BOMs.md)  
+[Tuoterakenteen käyttäminen](inventory-how-work-BOMs.md)  
 [Vaihto-omaisuus](inventory-manage-inventory.md)  
 [Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)

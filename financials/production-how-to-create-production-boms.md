@@ -13,21 +13,21 @@ ms.search.keywords:
 ms.date: 09/05/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
-ms.openlocfilehash: 3ebbd34c966ab06fa578336d14a060b0dea44dbc
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: a193d1ac19a0474b4a541165ef9f06d21ac7fb7d
 ms.contentlocale: fi-fi
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-production-boms"></a>Uusien tuotannon tuoterakenteiden luominen
+# <a name="create-production-boms"></a>Tuotannon tuoterakenteiden luominen
 Tuotannon tuoterakenne sisältää perustiedot päänimikkeen tuotannossa käytettävistä komponenteista ja osakokoonpanoista. Kun päänimikkeelle luodaan tuotantotilaus, tuotannon tuoterakenne ohjaa materiaalitarpeiden laskentaa **Tuot.til. komponentit** -ikkunassa näkyvällä tavalla.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] tukee myös kokoonpanon tuoterakenteita. Voit käyttää kokoonpanotilauksia, kun teet komponenteista loppunimikkeitä yksinkertaisella prosessilla. Tämä prosessi voidaan toteutetaan vähintään yhdellä perusresurssilla, joka ei ole kuormituskeskus eikä tuotantosolu, tai ilman resursseja. Kokoonpanoprosessi voi olla esimerkiksi kahden viinipullon ja yhden kahvipaketin valinta ja niiden pakkaaminen lahjaksi. Lisätietoja on ohjeaiheen [Toimintaohje: Tuoterakenteen käyttäminen](inventory-how-work-BOMs.md) kohdassa Kokoonpanon tuoterakenteet tai tuotannon tuoterakenteet.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]   tukee myös kokoonpanon tuoterakenteita. Voit käyttää kokoonpanotilauksia, kun teet komponenteista loppunimikkeitä yksinkertaisella prosessilla. Tämä prosessi voidaan toteutetaan vähintään yhdellä perusresurssilla, joka ei ole kuormituskeskus eikä tuotantosolu, tai ilman resursseja. Kokoonpanoprosessi voi olla esimerkiksi kahden viinipullon ja yhden kahvipaketin valinta ja niiden pakkaaminen lahjaksi. Lisätietoja on ohjeaiheen [Tuoterakenteen käyttäminen](inventory-how-work-BOMs.md) kohdassa Kokoonpanon tuoterakenteet tai tuotannon tuoterakenteet.  
 
 Seuraavat toimet on oltava tehtynä ennen reitityksen määrittämistä:  
 
-- Tuotannossa mukana olevien päänimikkeiden nimikekortit on luotu. Lisätietoja on ohjeaiheessa [Toimintaohje: Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md).
-- Tuotantoresurssit on määritetty. Lisätietoja on kohdassa [Toimintaohje: Tuotantosolujen ja kuormituskeskusten määrittäminen](production-how-to-set-up-work-and-machine-centers.md).
+- Tuotannossa mukana olevien päänimikkeiden nimikekortit on luotu. Lisätietoja on ohjeaiheessa [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md).
+- Tuotantoresurssit on määritetty. Lisätietoja on kohdassa [Tuotantosolujen ja kuormituskeskusten määrittäminen](production-how-to-set-up-work-and-machine-centers.md).
 
 ## <a name="to-create-a-production-bom"></a>Tuotannon tuoterakenteen luominen  
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Tuotannon tuoterakenne** ja valitse sitten aiheeseen liittyvä linkki.  
@@ -44,10 +44,10 @@ Seuraavat toimet on oltava tehtynä ennen reitityksen määrittämistä:
     > [!NOTE]  
     >  Tämä hukkaprosentti viittaa komponentteihin, jotka joutuvat hukkatavaraksi tuotannon aikana (varastosta poimittaessa), kun taas reititysrivien hukkaprosentti viittaa hukkatavaraksi ennen varastointia joutuvaan tuotokseen.  
 
-9.  Määritä **Reitityslinkin koodi** -kenttään koodi, joka liittää komponentin tiettyyn toimintoon. Lisätietoja on ohjeaiheen [Toimintaohje: Uusien reititysten luominen](production-how-to-create-routings.md) kohdassa Reitityslinkkien luominen.
+9.  Määritä **Reitityslinkin koodi** -kenttään koodi, joka liittää komponentin tiettyyn toimintoon. Lisätietoja on ohjeaiheen [Uusien reititysten luominen](production-how-to-create-routings.md) kohdassa Reitityslinkkien luominen.
 10. Voit kopioida rivit tuotannon tuoterakenteesta valitse aiemmin luodut rivit **Kopioi tuoterakenne** -toiminnolla.  
 11.  Hyväksy tuotannon tuoterakenne.  
-12.  Voit nyt liittää uuden tuotannon tuoterakenteen kyseisen päänimikkeen korttiin. Lisätietoja on ohjeaiheessa [Toimintaohje: Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md).  
+12.  Voit nyt liittää uuden tuotannon tuoterakenteen kyseisen päänimikkeen korttiin. Lisätietoja on ohjeaiheessa [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md).  
 
 > [!NOTE]  
 >  Voit laskea nimikkeen vakiokustannukset nimikkeen kortista valitsemalla ensin **Tuotanto**-toiminnon ja sitten **Laske Vakiokustannus** -toiminnon.  

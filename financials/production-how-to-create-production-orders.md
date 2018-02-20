@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 0c792dbb7d7261e8f8b89ca4f3d39d875142c4eb
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3ffbe781830a492256be864bace38bbef3050596
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-production-order-headers"></a>Tuotantotilausten otsikoiden luominen
+# <a name="create-production-order-headers"></a>Tuotantotilausten otsikoiden luominen
 Tuotantotilauksen voi luoda manuaalisesti. Ensimmäinen työvaihe on tuotantotilauksen otsikon luominen.
 
 Suunnittelutoiminto luo tuotantotilaukset tavallisesti automaattisesti toteuttamaan tunnetun kysynnän. Lisätietoja on kohdassa [Suunnittelu](production-planning.md).   
@@ -32,11 +32,11 @@ Seuraavassa toienpiteessä luodaan sitovasti suunniteltu tuotantotilaus. Voit lu
 3.  Valitse **Nro**-kenttään seuraava numero sarjasta.  
 4.  Valitse **Lähdetyyppi**-kentässä tuotantotilauksen lähde.
 
-    Voit valita täällä tuotenimikeperheen tuotannon. Lisätietoja on kohdassa [Toimintaohje: Tuotantoperheiden käyttäminen](production-how-work-family.md).
+    Voit valita täällä tuotenimikeperheen tuotannon. Lisätietoja on kohdassa [Tuotantoperheiden käyttäminen](production-how-work-family.md).
 5.  Valitse **Lähteen nro** -kentässä nimikenumero, tuoteperhe tai myynnin tunnistetiedot, jolle tuotantotilaus luodaan.  
 6.  Täytä **Määrä**- ja **Eräpäivä**-kentät määritystesi mukaisesti.  
 
-Kun tuotannon vaatimukset, kuten komponentit tai toiminnot, muuttuvat, voit suunnitella tuotantotilauksen nopeasti uudelleen. Lisätietoja on kohdassa [Toimintaohje: Tuotantotilausten suora päivittäminen tai uudelleensuunnitteleminen](production-how-to-replan-refresh-production-orders.md). 
+Kun tuotannon vaatimukset, kuten komponentit tai toiminnot, muuttuvat, voit suunnitella tuotantotilauksen nopeasti uudelleen. Lisätietoja on kohdassa [Tuotantotilausten suora uudelleensuunnittelu tai päivitys](production-how-to-replan-refresh-production-orders.md). 
 
 ## <a name="see-also"></a>Katso myös  
 [Tuotanto](production-manage-manufacturing.md)    

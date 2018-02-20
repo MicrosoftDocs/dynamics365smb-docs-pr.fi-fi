@@ -1,6 +1,6 @@
 ---
 title: Tervetuloa | Microsoft Docs
-description: "Tässä ohjeaiheessa kerrotaan asetusten ohjatusta määrityksestä, videoista, ohjeaiheista sekä sivuista ja ikkunoista, jotka auttavat Dynamics 365 Business editionin käyttöönotossa."
+description: "Tässä ohjeaiheessa kerrotaan asetusten ohjatusta määrityksestä, videoista, ohjeaiheista sekä sivuista ja ikkunoista, jotka auttavat Finance and Operations, Business editionin käyttöönotossa."
 documentationcenter: 
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
@@ -12,10 +12,10 @@ ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 03/21/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: e6a467f526b8bb1c55af686817ed3e419b214dbb
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2743061f3581d8938cc020960777f8e8f71b25e1
 ms.contentlocale: fi-fi
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="getting-ready-for-doing-business"></a>Valmistautuminen liiketoimintaan
@@ -39,7 +39,7 @@ Aloitussivun siirtymisruudun alareunassa on **Asennus ja laajennukset** -valikko
 | Määritä Officen apuohjelmat |Määrittää [!INCLUDE[d365fin](includes/d365fin_md.md)]in käytettäväksi ja käynnistettäväksi Outlookista. |
 | Määritä hyväksymistyönkulku |Määrittää järjestelmän automaattisesti ilmoittamaan hyväksyjälle, milloin käyttäjä yrittää luoda tai muokata asiakirjojen tiettyjä arvoja (kuten tietyn rajan ylittävää summaa), päiväkirjan rivejä tai kortteja. |
 | Määritä sähköpostin lokiinkirjaus |Määrittää sähköpostikirjeenvaihdon kirjaamisen [!INCLUDE[d365fin](includes/d365fin_md.md)]issa vuorovaikutusten seuraamista varten. |
-| Dynamics 365 Connectorin määrittäminen |Määrittää yhteyden Dynamics 365 for Salesiin. Voit synkronoida yhteyden avulla tiedot, kuten yhteyshenkilöiden ja myyntitilausten tiedot. |
+| Finance and Operations, Business editionin yhdistimen määrittäminen |Määrittää yhteyden Dynamics 365 for Salesiin. Voit synkronoida yhteyden avulla tiedot, kuten yhteyshenkilöiden ja myyntitilausten tiedot. |
 
 Kun olet suorittanut avustetun asennuksen, sen tilaksi merkitään **Valmis**. Voit suorittaa avustetun asennuksen valitsemalla kolme pistettä, joita kutsutaan myös pikavalikoksi, ja valitsemalla sitten **Käynnistä asennus**.
 
@@ -51,7 +51,7 @@ Nuolten avulla voit supistaa osan sivusta, jolloin haluamillesi tiedoille jää 
 Voit tarkastella ja muokata **Yrityksen asetukset** -kohdassa nykyisen yrityksen asetustietoja, joista suuri osa on esitäytetty, jos suoritit avustetun **Määritä yritys** -asennuksen [!INCLUDE[d365fin](includes/d365fin_md.md)]iin rekisteröityessäsi. Tässä ikkunassa voit muuttaa yrityksen logoa, yhteystietoja, pankkiasetuksia tai verotustietoja.    
 
 ## <a name="adding-users-and-permissions"></a>Käyttäjien ja käyttöoikeuksien lisäämisen
-Jos sinun on lisättävä uusia käyttäjiä, voit tehdä sen Office 365:n hallintaportaalissa. Lisätietoja on kohdassa [Käyttäjien lisääminen Office 365 for Businessiin](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc). Kun käyttäjät on luotu Office 365:ssa, heidät voidaan tuoda **Käyttäjät**-ikkunaan **Hae käyttäjät Office 365:stä** -toiminnolla. Voit määrittää tämän jälkeen käyttäjien käyttöoikeudet ja järjestää käyttäjät käyttäjäryhmiin. Lisätietoja on kohdassa [Toimintaohje: Käyttäjien ja käyttöoikeuksien hallinta](ui-how-users-permissions.md).  
+Jos sinun on lisättävä uusia käyttäjiä, voit tehdä sen Office 365:n hallintaportaalissa. Lisätietoja on kohdassa [Käyttäjien lisääminen Office 365 for Businessiin](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc). Kun käyttäjät on luotu Office 365:ssa, heidät voidaan tuoda **Käyttäjät**-ikkunaan **Hae käyttäjät Office 365:stä** -toiminnolla. Voit määrittää tämän jälkeen käyttäjien käyttöoikeudet ja järjestää käyttäjät käyttäjäryhmiin. Lisätietoja on kohdassa [Käyttäjien ja käyttöoikeuksien hallinta](ui-how-users-permissions.md).  
 
 ## <a name="getting-help"></a>Ohjeiden saaminen
 [!INCLUDE[d365fin](includes/d365fin_md.md)]issa on työkaluvihjeitä, jotka auttavat eri liiketoimintaprosessien suorittamisessa. Jokainen työkaluvihje sisältää **Lisätietoja**-linkin. Sen avulla voit siirtyä tuotteen ohjeisiin. Oikeassa yläkulmassa oleva kysymysmerkki vie myös tuotteen ohjeisiin.
@@ -61,5 +61,5 @@ Voit jatkaa luomalla uusia myynti- tai ostoasiakirjoja siirrettyjen tietojen per
 ## <a name="see-also"></a>Katso myös
 [Tervetuloa [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]iin!](index.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
-[Toimintaohje: Käyttäjien ja käyttöoikeuksien hallinta](ui-how-users-permissions.md)
+[Käyttäjien ja käyttöoikeuksien hallinta](ui-how-users-permissions.md)
 

@@ -13,10 +13,10 @@ ms.search.keywords: contract, agreement, configure
 ms.date: 08/23/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 338fc294813487438073391495035d40635f9202
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6ad29dddb5a3dac2063e06fd973f1e41dc51d08a
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="fulfilling-service-contracts"></a>Huoltosopimusten toteuttaminen 
@@ -36,5 +36,5 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 [Huollon suunnittelu](service-plan-service.md)  
 [Huollon toimittaminen](service-deliver-service.md)  
 [Huoltohallinnon määrittäminen](service-setup-service.md)  
-[Toimintaohje: Huoltosopimusten ja huoltosopimustarjousten luominen](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
+[Huoltosopimusten ja huoltosopimustarjousten luominen](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 

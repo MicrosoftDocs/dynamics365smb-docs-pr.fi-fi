@@ -1,6 +1,6 @@
 ---
 title: Myyntimahdollisuuksien luominen| Microsoft Docs
-description: "Tässä artikkelissa kerrotaan, miten Dynamics 365 Business editionissa luodaan mahdollisuuksia myyjästä tai kontaktista."
+description: "Tässä ohjeaiheessa kerrotaan, miten Finance and Operations, Business editionissa luodaan mahdollisuuksia myyjästä tai kontaktista."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,18 +13,18 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 2d280e80be237abb5f2b16b2130f446894497171
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ff4318d9da902847166ac5747adf469584a3d2a2
 ms.contentlocale: fi-fi
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-sales-opportunities"></a>Toimintaohje: Myyntimahdollisuuksien luominen
+# <a name="create-sales-opportunities"></a>Myyntimahdollisuuksien luominen
 Voit luoda mahdollisuuksia kontaktiesi myynneille. Kaikki mahdollisuudet täytyy liittää myyjään/ostajaan, ja mahdollisuuteen täytyy sisältyä kontakti.
 
 Voit luoda mahdollisuuksia **Mahdollisuusluettelo**-ikkunassa. Yleensä mahdollisuuksia luodaan kuitenkin tietyistä kontakteista tai myyjistä.
 
-Ennen mahdollisuuksien luomista sinun täytyy määrittää myyntisyklit. Lisätietoja on kohdassa [Toimintaohje: Mahdollisuuden myyntisyklien ja vaiheiden määrittäminen](marketing-how-setup-opportunity-sales-cycles-stages.md).
+Ennen mahdollisuuksien luomista sinun täytyy määrittää myyntisyklit. Lisätietoja on kohdassa [Mahdollisuuden myyntisyklien ja syklin vaiheiden määrittäminen](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## <a name="to-create-an-opportunity-from-a-salesperson"></a>Mahdollisuuden luominen myyjästä
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Myyjät** ja valitse sitten aiheeseen liittyvä linkki.
@@ -45,5 +45,5 @@ Ennen mahdollisuuksien luomista sinun täytyy määrittää myyntisyklit. Lisät
 ## <a name="see-also"></a>Katso myös
 [Myynti](sales-manage-sales.md)  
 [Kontaktien luonti ja hallinta](marketing-contacts.md)  
-[Dynamics 365:n käyttäminen](ui-work-product.md)
+[Finance and Operations, Business editionin käyttäminen](ui-work-product.md)
 

@@ -1,6 +1,6 @@
 ---
-title: "Dynamics 365 Business editionin päivämääräalueiden määrittäminen | Microsoft Docs"
-description: "Lisätietoja siitä, miten luodaan raportti näyttämään tietyn ajanjakson tiedot käyttämällä Dynamics 365 Business editionin päivämääräalueita."
+title: "Päivämääräalueiden määrittäminen Finance and Operations, Business editionissa | Microsoft Docs"
+description: "Lisätietoja siitä, miten luodaan raportti näyttämään tietyn ajanjakson tiedot käyttämällä Finance and Operations, Business editionin päivämääräalueita."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -12,13 +12,13 @@ ms.search.keywords: dates, reporting, filter
 ms.date: 05/29/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: fee6a5d7ce6603829ed98913b7e370a53239ee3e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: da2fea4e095c8211f30aaa7c570a84a005e7cbc8
 ms.contentlocale: fi-fi
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="entering-date-ranges-in-dynamics-365-business-edition"></a>Päivämääräalueiden antaminen Dynamics 365 Business editionissa 
+# <a name="entering-date-ranges-in-finance-and-operations-business-edition"></a>Päivämääräalueiden antaminen Finance and Operations, Business editionissa 
 Voit asettaa suodattimia, jotka sisältävät alkupäivämäärän ja loppupäivämäärän, jos haluat tarkastella vain kyseisen päivämääräalueen tai aikavälin tietoja. Päivämääräalueiden määrittämiseen liittyy erityissääntöjä: Käytetään esimerkkinä **10 pääasiakasta**:
 
 ![10 pääasiakkaan luettelon päivämääräalueen määrittäminen pyyntösivulla](./media/ui-enter-date-ranges/customer-top10-list.png)

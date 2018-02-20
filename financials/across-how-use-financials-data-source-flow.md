@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: workflow, Odata, Power App, SOAP
-ms.date: 06/02/2017
-ms.author: edupont
+ms.date: 01/25/2018
+ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 277dda7c954380138af1ecabc02d77121f35aac7
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ef4d841723b6bb0af37695a8c3ed1d805319be78
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="using-included365finincludesd365finmdmd-in-an-automated-workflow"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen automaattisessa työnkulussa
@@ -28,27 +28,31 @@ Voit käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietoja työnkulun
 1. Siirry selaimessa osoitteeseen [flow.microsoft.com](https://flow.microsoft.com/en-us/) ja kirjaudu sisään.
 2. Valitse sivun yläosan valintanauhassa **Omat Flow't**.
 3. Valitse **Omat Flow't** -ikkunassa **Luo tyhjästä mallista** -asetus.
-4. Valitse käytettävien käynnistimien luettelosta jompikumpi kahdesta [!INCLUDE[d365fin](includes/d365fin_md.md)]-käynnistimestä: *Kun tietue on luotu* tai *Kun tietuetta on muutettu*.
-5. Flow näyttää yhteyssivun, joka kysyy sinulta tietoja, jotka on yhdistettävä [!INCLUDE[d365fin](includes/d365fin_md.md)]-tietoihin. Yhteyttä varten on määritettävä yhteyden nimi, ODatan URL-osoite, käyttäjänimi, salasana ja yrityksen nimi.
+4. Valitse käytettävissä olevien käynnistimien luettelosta jokin [!INCLUDE[d365fin](includes/d365fin_md.md)] -käynnistin:  
+    *Kun tietue on luotu*  
+    *Kun tietue poistetaan*  
+    *Kun tietuetta muokataan*  
+    *Kun asiakkaan hyväksyntää on pyydetty*  
+    *Kun yleisen päiväkirjan erän hyväksymistä on pyydetty*  
+    *Kun yleisen päiväkirjan rivin hyväksymistä on pyydetty*  
+    *Kun nimikkeen hyväksyntää on pyydetty*  
+    *Kun ostoasiakirjan hyväksyntää on pyydetty*  
+    *Kun myyntiasiakirjan hyväksyntää on pyydetty* tai  
+    *Kun toimittajan hyväksyntää on pyydetty*.
+5. Flow joka kysyy sinulta tietoja, joita tarvitaan [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietojen yhdistämistä varten. Yrityksen nimi ja taulukon nimi on valittava, jos valitsit jonkin seuraavista käynnistimistä: *Kun tietue luodaan*, *Kun tietuetta muokataan* tai *Kun tietue poistetaan*. Muissa käynnistimissä vain yrityksen nimi on yhdistettävä.
 
-   Voit kopioida *OData URL* -osoitteeksi minkä tahansa [!INCLUDE[d365fin](includes/d365fin_md.md)]in **WWW-palvelut**-sivulla mainitun verkkopalvelun OData V4 URL-osoitteen, kuten `https://mycompany.financials.dynamics.com:7048/MS/ODataV4/`.  
-
-   Käytä *yrityksen nimenä* nimeä, joka näkyy [!INCLUDE[d365fin](includes/d365fin_md.md)]in **Oman yrityksen tiedot** -ikkunan **Nimi**-kentässä. Jos [!INCLUDE[d365fin](includes/d365fin_md.md)]issa on useita yrityksiä, valitse sopiva yrityksen nimi **Yritykset**-ikkunassa olevasta luettelosta. Varmista kummassakin tapauksessa, että ohjatussa PowerApps-toiminnossa määrittämäsi nimi on kirjoitettu täsmälleen samoin kuin [!INCLUDE[d365fin](includes/d365fin_md.md)]issa. Esimerkki: `My Company`.
-
-   Käytä käyttäjänimenä ja salasanana tilille [!INCLUDE[d365fin](includes/d365fin_md.md)]in **Käyttäjät**-ikkunassa määritettyä nimeä ja verkkopalvelun käyttöoikeusavainta. Käyttäjänimesi on esimerkiksi *JÄRJESTELMÄNVALVOJA* ja salasanana toimiva verkkopalvelun käyttöoikeusavain on *EgzeUFQ9Uv0o5O0lUMyqCzo1ueUW9yRF3SsLU=*. Lisätietoja on kohdassa [Toimintaohje: Käyttäjien ja käyttöoikeuksien hallinta](ui-how-users-permissions.md).
-6. Jatka valitsemalla sivun alareunassa **Luo**-painike.
-
-   Flow näyttää luettelon taulukoista, joita voi käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]ista. Nämä taulukot tai päätepisteet viittaavat kaikkiin [!INCLUDE[d365fin](includes/d365fin_md.md)]ista julkaistuihin verkkopalveluihin.
+   Flow näyttää luettelon yrityksistä taulukoista, joita voi käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]ista. Nämä taulukot tai päätepisteet viittaavat kaikkiin [!INCLUDE[d365fin](includes/d365fin_md.md)]ista julkaistuihin verkkopalveluihin.
 
    Voit vaihtoehtoisesti luoda uuden verkkopalvelun URL-osoitteen [!INCLUDE[d365fin](includes/d365fin_md.md)]issa käyttämällä **Luo tietojoukko** -toimintoa **WWW-palvelut**-sivulla tai avustettua **Määritä raportointi** -asetusopasta tai valitsemalla **Muokkaa Excelissä** -toiminnon missä tahansa luettelossa.
-7. Valitse Flow'ssa käytettävät tiedot.
 
-Olet nyt muodostanut yhteyden Dynamics 365 -tietoihin ja olet valmis aloittamaan oman Flow'n luomisen. Lisätietoja on kohdassa [Flow-dokumentaatio](https://flow.microsoft.com/documentation/getting-started/).
+Olet nyt muodostanut yhteyden Finance and Operations, Business editionin tietoihin ja olet valmis aloittamaan oman työnkulun luomisen. Lisätietoja on kohdassa [Flow-dokumentaatio](https://flow.microsoft.com/documentation/getting-started/).
+
+Lisätietoja Microsoft Flow'n vianmäärityksestä on kohdassa [Microsoft Flow -integroinnin vianmääritys](across-troubleshooting-how-use-financials-data-source-flow.md).
 
 ## <a name="see-also"></a>Katso myös
 [Tervetuloa [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]iin!](index.md)  
 [Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä](upload-data.md)  
-[Toimintaohje: Käyttäjien ja käyttöoikeuksien hallinta](ui-how-users-permissions.md)    
+[Käyttäjien ja käyttöoikeuksien hallinta](ui-how-users-permissions.md)    
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittäminen](setup.md)  
 [Rahoitus](finance.md)  
 

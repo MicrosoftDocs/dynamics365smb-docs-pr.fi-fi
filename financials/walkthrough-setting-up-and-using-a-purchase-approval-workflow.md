@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: 7ce4b45d740e50bba8256e72fcf43c70ea85922c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 58c243000bea5b70666b2a08cdd5696444e22f0f
 ms.contentlocale: fi-fi
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Vaihekuvaus: Ostojen hyväksyntä -työnkulun määrittäminen ja käyttäminen
@@ -72,7 +72,7 @@ Sinun on luotava paikalliseen tietokoneeseen ja [!INCLUDE[d365fin](includes/d365
 Käyttämällä Windows-käyttäjää, joka on juuri luotu, määritä Alicia hyväksyjäkäyttäjäksi, jonka hyväksyjä olet itse. Aseta hyväksyntäoikeutesi ja määritä, miten ja milloin sinulle ilmoitetaan hyväksymispyynnöt.  
 
 ### <a name="to-set-up-yourself-and-alicia-as-approval-users"></a>Määritä itsesi ja Alicia hyväksyjäkäyttäjiksi  
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "") -kuvake, kirjoita **Hyväksynnän käyttäjäasetukset** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Hyväksynnän käyttäjäasetukset** ja valitse sitten aiheeseen liittyvä linkki.  
 2.  Valitse **Hyväksynnän käyttäjäasetukset** -ikkunan **Koti**-välilehden **Uusi**-ryhmässä **Uusi**.  
 
     > [!NOTE]  
@@ -158,14 +158,14 @@ Olet nyt määrittänyt ja testannut yksinkertaisen hyväksymisen työnkulun, jo
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)]in yleinen versio sisältää lukuisia työnkulkumalleja sovelluskoodin tukemiin tilanteisiin. Useimmat näistä ovat hyväksynnän työnkulkuun. Lisätietoja on kohdassa Työnkulkumallit.  
 
-Työnkulun variaatiot määritetään täyttämällä työnkulkurivien kentät tapahtumien kiinteistä luetteloista ja vastausarvot, jotka edustavat sovelluskoodin tukemia skenaarioita. Lisätietoja on kohdassa [Toimintaohje: Työnkulkujen luominen](across-how-to-create-workflows.md).  
+Työnkulun variaatiot määritetään täyttämällä työnkulkurivien kentät tapahtumien kiinteistä luetteloista ja vastausarvot, jotka edustavat sovelluskoodin tukemia skenaarioita. Lisätietoja on kohdassa [Työnkulkujen luominen](across-how-to-create-workflows.md).  
 
 Jos liiketoimintaskenaario edellyttää työnkulun tapahtumaa tai vastausta, joka ei tueta, Microsoftin kumppanin on toteutettava se mukauttamalla sovelluksen koodia. Lisätietoja on kehittäjien ja IT-ammattilaisten ohjeen kohdassa [Vaihekuvaus: Uusien työnkulun tapahtumien ja vastausten määrittäminen](/dynamics-nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses).  
 
 ## <a name="see-also"></a>Katso myös  
-[Toimintaohje: Hyväksyjäkäyttäjien määrittäminen](across-how-to-set-up-approval-users.md)   
+[Hyväksynnän käyttäjien määrittäminen](across-how-to-set-up-approval-users.md)   
 [Työnkulkuilmoitusten määrittäminen](across-setting-up-workflow-notifications.md)   
-[Toimintaohje: Työnkulkujen luominen](across-how-to-create-workflows.md)   
-[Toimintaohje: Hyväksyntätyönkulkujen käyttäminen](across-how-use-approval-workflows.md)   
+[Työnkulkujen luominen](across-how-to-create-workflows.md)   
+[Hyväksymistyönkulkujen käyttäminen](across-how-use-approval-workflows.md)   
 [Työnkulku](across-workflow.md)
 

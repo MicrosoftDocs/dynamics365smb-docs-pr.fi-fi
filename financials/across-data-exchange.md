@@ -1,6 +1,6 @@
 ---
-title: "Dynamics 365 Business editionin sähköiset asiakirjat | Microsoft Docs"
-description: "Sähköisten asiakirjojen lähettämisen ja vastaanottamisen esittely Dynamics 365:ssä."
+title: "Finance and Operations, Business editionin sähköiset asiakirjat | Microsoft Docs"
+description: "Johdanto sähköisten asiakirjojen lähettämiseen ja vastaanottamiseen Finance and Operations, Business editionissa."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/19/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: dca451d2555641dc1c1fc134b19380b3ede2690b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2ebc2e716080bde51646cb136dca904e6fd43c43
 ms.contentlocale: fi-fi
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
@@ -57,8 +57,8 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 |Lähetä PEPPOL-laskuja, vastaanota PEPPOL-laskuja, tuo tiliotteita ja vie pankin maksutiedostoja tietojenvaihtomääritysten mukaisesti.|[Tiedonsiirto](across-exchange-data.md)|  
 
 ## <a name="see-also"></a>Katso myös  
-[Tietoja tiedonsiirtokehyksestä](across-about-the-data-exchange-framework.md)  
-[Toimintaohje: XML-rakenteiden käyttäminen tiedonsiirtomääritysten valmistelussa](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
+[Tietoja tiedonvaihto-kehyksestä](across-about-the-data-exchange-framework.md)  
+[XML-mallien käyttäminen tietojenvaihtomääritysten valmisteluun](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
 [Tiedonsiirron määrittäminen](across-set-up-data-exchange.md)  
 [Tiedonsiirto](across-exchange-data.md)  
 [Saapuvat asiakirjat](across-income-documents.md)  

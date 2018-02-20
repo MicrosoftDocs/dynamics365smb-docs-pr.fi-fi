@@ -11,13 +11,13 @@ ms.search.keywords: direct-debit, collection, payment, sepa
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: ff6fc3af28273545781fc96b811f3c164eaa6fd8
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 40e4a90329fc7fc7241b570fd641a0d83b06842e
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-sepa-direct-debit-collection-entries-and-export-to-a-bank-file"></a>Toimintaohjeet: SEPA-suoraveloitusperintätapahtumien luominen ja vieminen pankkitiedostoon
+# <a name="create-sepa-direct-debit-collection-entries-and-export-to-a-bank-file"></a>SEPA-suoraveloitusperintätapahtumien luominen ja vieminen pankkitiedostoon
 Jos haluat ohjata pankin siirtämään maksusumman asiakkaan pankkitililtä yrityksesi tilille, luo suoraveloitusperintätapahtuma, joka säilyttää tiedot asiakkaan pankkitilistä, kyseisestä myyntilaskuista ja suoraveloitusvaltakirjasta. Syntyvästä suoraveloitusperintämerkinnästä viet sitten XML-tiedoston, jonka lähetät tai lataat verkkopankkiin käsittelyä varten. Kaikista maksuista, joita pankki ei voinut käsitellä, tiedotetaan sinulle pankin toimesta. Sinun täytyy sitten manuaalisesti hylätä kyseessä olevat suoraveloitusmerkinnät.  
 
 > [!NOTE]  
@@ -64,7 +64,7 @@ Jos vietyä tiedostoa ei voi käsitellä, esimerkiksi sen vuoksi, että asiakkaa
 Voit nyt kirjata kyseisten myyntilaskujen maksukuitit. Voit tehdä tämän, kun yleensä kirjaat maksukuitteja, kuten **Maksurekisteröinti**-ikkunassa, tai voit kirjata liittyvät maksukuitit suoran **Suoraveloitusperintätapahtumat**-ikkunasta. Lisätietoja on kohdassa [SEPA-suoraveloitusmaksujen kirjaaminen](finance-how-to-post-sepa-direct-debit-payment-receipts.md).  
 
 ## <a name="see-also"></a>Katso myös  
-[Toimintaohje: SEPA-suoraveloituksen määrittäminen](finance-how-to-set-up-sepa-direct-debit.md)   
-[Toimintaohje: Kuinka SEPA-suoraveloitusmaksut kirjataan](finance-how-to-post-sepa-direct-debit-payment-receipts.md)   
+[SEPA-suoraveloituksen määrittäminen](finance-how-to-set-up-sepa-direct-debit.md)   
+[SEPA-suoraveloitusmaksujen kirjaaminen](finance-how-to-post-sepa-direct-debit-payment-receipts.md)   
 [Maksujen kerääminen SEPA-suoraveloitusperintänä](finance-collect-payments-with-sepa-direct-debit.md)   
 

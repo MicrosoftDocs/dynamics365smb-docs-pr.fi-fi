@@ -13,17 +13,17 @@ ms.search.keywords:
 ms.date: 08/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ba8c1649094c9606766c4f4e88df5beed9400e53
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 7e5d30ec5775030c523b73f90490428531f49fec
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-pick-items-with-inventory-picks"></a>Poimiaksesi nimikkeitä joissa on varastopoiminta
+# <a name="pick-items-with-inventory-picks"></a>Nimikkeiden poiminta varastopoiminnalla
 Kun sijainti on määritetty edellyttämään poimintakäsittelyä mutta ei toimituskäsittelyä, lähdeasiakirjojen poiminta- ja toimitustiedot kirjataan **Varaston poiminta** -ikkunassa. Lähtevä lähdeasiakirja voi olla myyntitilaus, ostopalautustilaus, lähtevä siirtotilaus tai tuotantotilaus, jonka osat ovat valmiina poimittaviksi.
 
 > [!NOTE]  
-> Kokoonpanotilausten osia ei voi poimia tai kirjata varastopoiminnan kanssa. Käytä sen sijaan **Varaston siirto** -ikkunaa. Lisätietoja on kohdassa [Toimintaohje: Komponenttien siirtäminen fyysisen perusvarastoinnin toiminta-alueelle](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
+> Kokoonpanotilausten osia ei voi poimia tai kirjata varastopoiminnan kanssa. Käytä sen sijaan **Varaston siirto** -ikkunaa. Lisätietoja on kohdassa [Komponenttien siirtäminen fyysisen perusvarastoinnin toiminta-alueelle](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
 
 >  Kun poiminnan ja toimituksen myyntirivin määriä kootaan tilaukseen, varaston poimintarivejä luotaessa on noudatettava tiettyjä sääntöjä. Lisätietoja on kohdassa Kokoonpano tilausta varten -nimikkeiden käsitteleminen varaston poiminnoissa.  
 
@@ -39,7 +39,7 @@ Jos kyseessä on myyntitilaus, ostopalautustilaus tai lähtevä siirto, voit luo
 1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Myyntitilaukset** ja valitse sitten aiheeseen liittyvä linkki.
 2. Valitse ensin vapautettava myyntitilaus ja sitten **Vapauta**-toiminto.
 
-Tuotantotilauksissa osien poiminnan fyysisen varastoinnin pyyntö eli *materiaaliotto* luodaan automaattisesti, kun tuotantotilauksen tilaksi tulee **Vapautettu** tai kun vapautettu tuotantotilaus luodaan. Lisätietoja on kohdassa [Toimintaohje: Tuotannon tai kokoonpanon poiminta](warehouse-how-to-pick-for-production.md).
+Tuotantotilauksissa osien poiminnan fyysisen varastoinnin pyyntö eli *materiaaliotto* luodaan automaattisesti, kun tuotantotilauksen tilaksi tulee **Vapautettu** tai kun vapautettu tuotantotilaus luodaan. Lisätietoja on kohdassa [Tuotannon tai kokoonpanon poiminta](warehouse-how-to-pick-for-production.md).
 
 Kun fyysisen varaston pyyntö on luotu, varastotyöntekijä, jolle nimikkeiden poiminta on määritetty, näkee, että lähdeasiakirja odottaa poimintaa ja voi luoda uuden poiminta-asiakirjan fyysisen varaston pyynnöstä.  
 
@@ -73,7 +73,7 @@ Nyt kun pyyntö on luotu, varastotyöntekijä voi luoda uuden varaston poiminnan
 2. Poimintarivien **Varastopaikkakoodi**-kentässä varastopaikka, josta nimikkeet on poimittava, ehdotetaan nimikkeen oletusvarastopaikan mukaan. Voi muuttaa var.paikkaa tässä ikkunassa jos tarpeen.  
 3. Suorita poiminta ja annan todellisia hyllytysmääriä koskevat tiedot **Käsiteltävä määrä** -kentässä.
 
-    Jos yhden rivin nimikkeet on poimittava useasta varastopaikasta esimerkiksi siksi, että niitä ei ole saatavilla määritetyssä varastopaikassa, käytä **Rivit**-pikavälilehden **Jaa rivi** -toimintoa. Lisätietoja rivien jakamisesta on kohdassa [Fyysisen varastoinnin aktiviteettirivien jakaminen](warehouse-how-to-split-warehouse-activity-lines.md).  
+    Jos yhden rivin nimikkeet on poimittava useasta varastopaikasta esimerkiksi siksi, että niitä ei ole saatavilla määritetyssä varastopaikassa, käytä **Rivit**-pikavälilehden **Jaa rivi** -toimintoa. Lisätietoja rivien jakamisesta on kohdassa [Varastotoimintorivien jakaminen](warehouse-how-to-split-warehouse-activity-lines.md).  
 4. Kun olet suorittanut poiminnan, valitse **Kirjaa**-toiminto.    
 
 Kirjausprosessi kirjaa toimituksen poimituille lähdeasiakirjariveille tai tuotantilauksen olessa kyseessä se kirjaa kulutusta. Jos sijainti käyttää var.paikkoja, kirjaus luo myös f.var.tapahtumia kirjatakseen var.paikan määrä muutoksia.  
@@ -91,7 +91,7 @@ Jos varaston poiminnan nimikkeet eivät ole saatavissa, voit poistaa nämä vara
 
 Toimitettavat nimikkeet eivät ole paikalla, kunnes ne kootaan ja kirjataan kokoonpanoalueen varastopaikan tuotokseksi. Tämä tarkoittaa, että kokoonpano tilausta varten -nimikkeiden poiminta toimitusta varten noudattaa eritystä virtaa. Varastopaikasta varastotyöntekijät vievät kokoonpanon nimikkeet toimituslaituriin ja kirjaavat sitten varastopoiminnan. Kirjattu varaston poiminta kirjaa sitten kokoonpanon tuotoksen, komponentin kulutuksen ja myyntitoimituksen.
 
-Voit määrittää [!INCLUDE[d365fin](includes/d365fin_md.md)]in luomaan varaston siirron automaattisesti, kun varastopoiminta luodaan kokoonpanon nimikkeelle. Tämä toiminta otetaan käyttöön valitsemalla **Luo siirrot automaattisesti** -kenttä **Kokoonpanon asetukset** -ikkunassa. Lisätietoja on kohdassa [Toimintaohje: Komponenttien siirtäminen fyysisen perusvarastoinnin toiminta-alueelle](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
+Voit määrittää [!INCLUDE[d365fin](includes/d365fin_md.md)]in luomaan varaston siirron automaattisesti, kun varastopoiminta luodaan kokoonpanon nimikkeelle. Tämä toiminta otetaan käyttöön valitsemalla **Luo siirrot automaattisesti** -kenttä **Kokoonpanon asetukset** -ikkunassa. Lisätietoja on kohdassa [Komponenttien siirtäminen fyysisen perusvarastoinnin toiminta-alueelle](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
 
 Myyntinimikkeiden varaston poimintarivit luodaan eri tavalla sen mukaan, onko tilaukseen koottu mitään, joitakin vai kaikki myyntirivin määrille määritetyt määrät.
 

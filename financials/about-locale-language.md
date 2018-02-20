@@ -1,6 +1,6 @@
 ---
 title: Monikielisyys ja lokalisointi | Microsoft Docs
-description: "Tutustu, miten kieli ja kielialue vaikuttavat Dynamics 365:n käyttökokemukseen."
+description: "Lisätietoja tavoista, joilla kieli ja maa-asetukset vaikuttavat Finance and Operations, Business editionin käyttökokemukseen."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,14 +11,14 @@ ms.search.keywords: language, locale, localization, culture
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 94a7a3e1da9f2ac3145f18102f86386cfc980ea5
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b46f4d9882297b147ecee1c86faf3eb19f4e9fa7
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="language-and-locale"></a>Kieli ja kielialue
-[!INCLUDE[d365fin](includes/d365fin_md.md)]ia tuetaan useilla markkina-alueilla, ja se on käännetty kielille, joita kyseisillä alueilla tarvitaan. Tämä onnistuu, koska suorituspalvelua tuetaan useilla kielillä samalla, kun tuettujen markkina-alueitten lainsäädännöllisiä vaatimuksia tuetaan. Tämän vuoksi [!INCLUDE[d365fin](includes/d365fin_md.md)] näkyy käyttäjälle eri kielillä. Voit vaihtaa kielen, jolla tekstit näkyvät. Tämä muutos on tapahtuu automaattisen ulos- ja sisäänkirjautumisen aikana. Tämä asetus koskee vain muutoksen tekevää käyttäjää – ei siis yrityksen kaikkia käyttäjiä.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] ia tuetaan useilla markkina-alueilla, ja se on käännetty kielille, joita kyseisillä alueilla tarvitaan. Tämä onnistuu, koska suorituspalvelua tuetaan useilla kielillä samalla, kun tuettujen markkina-alueitten lainsäädännöllisiä vaatimuksia tuetaan. Tämän vuoksi [!INCLUDE[d365fin](includes/d365fin_md.md)] näkyy käyttäjälle eri kielillä. Voit vaihtaa kielen, jolla tekstit näkyvät. Tämä muutos on tapahtuu automaattisen ulos- ja sisäänkirjautumisen aikana. Tämä asetus koskee vain muutoksen tekevää käyttäjää – ei siis yrityksen kaikkia käyttäjiä.  
 
 Jos olet esimerkiksi kanadalainen, voit käyttää englannin- ja ranskankielistä käyttöliittymää. Kyse on kuitenkin kaikilta ominaisuuksiltaan kanadalaisesta [!INCLUDE[d365fin](includes/d365fin_md.md)]-versiosta. Se ei ole sama versio kuin esimerkiksi Isossa-Britanniassa käytettävä [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
@@ -28,7 +28,7 @@ Jos olet esimerkiksi kanadalainen, voit käyttää englannin- ja ranskankielist�
 Sovellusdatana tallennettujen tekstien kielen muuttaminen ei ole osa monikielisyysominaisuutta. Tämä on sovelluksen suunnitteluun liittyvä asia. Nimikkeiden nimet varastossa ja asiakaskommentit ovat esimerkkejä tällaisista teksteistä. Toisin sanoen tämän tyyppisiä tekstejä ei käännetä.  
 
 > [!NOTE]  
->  [!INCLUDE[d365fin](includes/d365fin_md.md)] tukee ainoastaan yhtä merkistöä. Tämän vuoksi vuokraaja ei välttämättä tue kaikkia merkkejä, ja saatat havaita ongelmia hakiessasi eri merkistöllä annettuja tietoja. Vuokraaja voi tukea esimerkiksi vain englantilaisia tai venäläisiä merkkejä. Jos annat tietoja eri kielellä, tiedot saattavat tallentua virheellisesti. Ota yhteys järjestelmänvalvojaan, jos haluat lisätietoja [!INCLUDE[d365fin](includes/d365fin_md.md)]in tukemista kielistä.  
+>  [!INCLUDE[d365fin](includes/d365fin_md.md)]  tukee ainoastaan yhtä merkistöä. Tämän vuoksi vuokraaja ei välttämättä tue kaikkia merkkejä, ja saatat havaita ongelmia hakiessasi eri merkistöllä annettuja tietoja. Vuokraaja voi tukea esimerkiksi vain englantilaisia tai venäläisiä merkkejä. Jos annat tietoja eri kielellä, tiedot saattavat tallentua virheellisesti. Ota yhteys järjestelmänvalvojaan, jos haluat lisätietoja [!INCLUDE[d365fin](includes/d365fin_md.md)]in tukemista kielistä.  
 
 ## <a name="changing-the-locale"></a>Aluekohtaisten asetusten muuttaminen
 Aluekohtaiset asetukset poikkeavat paikallisten markkina-alueiden kielivaatimuksista ja lainsäädännöllisistä vaatimuksista. Aluekohtaiset asetukset määrittävät, käytetäänkö tietoja annettaessa esimerkiksi pilkkuerotinta ja tapahtuuko kohdistus vasemmalle vai oikealle. Aluekohtaiset asetukset määrittävät myös jotkin selaimen järjestelmäelementit, kuten toiminnon, jolla luetteloon luodaan uusi nimike.  

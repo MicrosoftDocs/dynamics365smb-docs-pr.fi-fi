@@ -11,10 +11,10 @@ ms.search.keywords: setup wizard, accountant
 ms.date: 10/23/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 021ca5cebb5de3357a36c802a725d806c592e40f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 419c13f4d7b35f66fae04d71d269208d9c172613
 ms.contentlocale: fi-fi
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="welcome-to-included365acclongincludesd365acclongmdmd"></a>Tervetuloa [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]iin
@@ -26,7 +26,7 @@ Jos olet kirjanpitäjä, jolla on useita asiakkaita, voit käyttää [!INCLUDE[d
 
 Saat [!INCLUDE[d365acc](includes/d365acc_md.md)]in käyttöösi rekisteröitymällä [Dynamics 365 – Accountant Hubista sivustossa Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants). Tämän maksuttoman palvelun käytön aloittaminen ja asiakkaiden lisääminen koontinäyttöön tapahtuu nopeasti. Lisätietoja on kohdassa [Accountant Hubin käytön aloittaminen](get-started.md).  
 
-Voit lisätä [!INCLUDE[d365acc](includes/d365acc_md.md)]in nykyisessä versiossa asiakkaita, jotka käyttävät liiketoiminnassaan [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]ia.  
+Voit lisätä [!INCLUDE[d365acc](includes/d365acc_md.md)]in nykyisessä versiossa asiakkaita, jotka käyttävät liiketoiminnassaan [!INCLUDE[d365fin](includes/d365fin_long_md.md)]ia.  
 
 ## <a name="see-also"></a>Katso myös
 [Microsoft Dynamics 365 -dokumentaatio](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_financials)  

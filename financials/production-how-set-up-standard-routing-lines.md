@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/05/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 78170bd2bf64b110d5346855d5592837abf2b73e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ac9813b06da171f2da0e179f3b7d360f4dcae3f5
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-standard-routing-lines"></a>Toimintaohje: Vakioreititysrivien määrittäminen
+# <a name="set-up-standard-routing-lines"></a>Vakioreititysrivien määrittäminen
 Vakiotehtävien käyttäminen yksinkertaistaa reititysten luomista ja ylläpitoa. Niiden avulla voit liittää nopeasti lisätietoja toistuviin toimintoihin.
 
 ## <a name="to-set-up-a-standard-task"></a>Vakiotehtävän määrittäminen
@@ -35,8 +35,8 @@ Vakiotehtävien käyttäminen yksinkertaistaa reititysten luomista ja ylläpitoa
 3. Valitse käsiteltävä reititysrivi valitsemalla ensin **Toiminnot**-toiminto ja sitten **Työkalut**-, **Henkilöstö**-, **Kuvaus**- tai **Työkalut**-toiminto.
 
 ## <a name="see-also"></a>Katso myös  
-[Toimintaohje: Uusien reititysten luominen](production-how-to-create-routings.md)  
-[Uusien tuotannon tuoterakenteiden luominen](production-how-to-create-production-boms.md)     
+[Uusien reititysten luominen](production-how-to-create-routings.md)  
+[Tuotannon tuoterakenteiden luominen](production-how-to-create-production-boms.md)     
 [Tuotannon määrittäminen](production-configure-production-processes.md)   
 [Tuotanto](production-manage-manufacturing.md)    
 [Suunnittelu](production-planning.md)   

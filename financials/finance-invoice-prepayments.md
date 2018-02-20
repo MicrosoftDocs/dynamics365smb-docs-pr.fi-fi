@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 29e4380312724b08a7e250a65288d75d27444df0
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 045cabbaab1b7978402524f408caee87ce8e53e2
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="invoicing-prepayments"></a>Ennakkomaksujen laskuttaminen
@@ -28,8 +28,8 @@ Ennakkomaksut ovat maksuja, jotka on laskutettu ja kirjattu myynti- tai ostoenna
 
 |**Tehtävä**|**Katso**|  
 |------------|-------------|  
-|Määritä ennakkomaksun kirjausryhmiä ja numerosarja. Määritä myös asiakkaiden, toimittajien ja nimikkeiden oletusennakkomaksuprosentit.|[Toimintaohje: Ennakkomaksujen määrittäminen](finance-set-up-prepayments.md)|
-|Tilauksen luominen, ennakkomaksusummien muuttaminen ja ennakkomaksusummien mukaisen laskun lähettäminen.|[Yhdistettyjen ennakkolaskujen luominen](finance-how-to-create-prepayment-invoices.md)|  
+|Määritä ennakkomaksun kirjausryhmiä ja numerosarja. Määritä myös asiakkaiden, toimittajien ja nimikkeiden oletusennakkomaksuprosentit.|[Ennakkomaksujen määrittäminen](finance-set-up-prepayments.md)|
+|Tilauksen luominen, ennakkomaksusummien muuttaminen ja ennakkomaksusummien mukaisen laskun lähettäminen.|[Ennakkomaksulaskujen luominen](finance-how-to-create-prepayment-invoices.md)|  
 |Lisäennakkomaksulaskun lähettäminen joko lisänimikkeiden tai alkuperäiseen tilaukseen kuulumattoman lisätalletuksen vuoksi tai ennakkomaksun hyvityslaskun lähettäminen.|[Ennakkomaksujen korjaaminen](finance-how-to-correct-prepayments.md)|  
 
 ## <a name="see-also"></a>Katso myös  

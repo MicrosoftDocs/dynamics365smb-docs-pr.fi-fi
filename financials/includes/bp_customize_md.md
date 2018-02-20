@@ -1,1 +1,1 @@
-Voit muuttaa tapaa, jolla tietyt käyttöliittymän elementit näytetään. Lisätietoja on ohjeaiheessa [Käyttäjän mukautus](../ui-user-personalization.md).
+Voit muuttaa tapaa, jolla tietyt käyttöliittymän elementit näytetään. Lisätietoja on kohdassa [Työtilan mukauttaminen](../ui-personalization-user.md).

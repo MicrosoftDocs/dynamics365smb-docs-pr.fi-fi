@@ -13,19 +13,19 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 146e113931384e8bc9ba01d5ae7ddb626d18050f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 111d79755a3141bf4e562de3e99ffc2117d12d16
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Toimintaohje: Komponenttien siirtäminen toiminta-alueelle fyysisen varastoinnin perusmäärityksissä
+# <a name="move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Komponenttien siirtäminen toiminta-alueelle fyysisen varastoinnin perusmäärityksissä
 Jos fyysisen varaston sijainnissa on nimikkeen käsittelytoimintoja, nimikkeitä on ehkä siirrettävä sisäisten varastopaikkojen välillä vastaamaan sisäisiä lähdeasiakirjoja, kuten sijainnin tuotantoa, kokoonpanoa tai huoltotilauksia.  
 
 > [!NOTE]  
 >  Lisätietoja nimikkeiden siirtämisestä varastopaikkojen välillä ilman lähdeasiakirjoja on ohjeaiheessa Sisäinen siirto.  
 
-Laajennetuissa varastomäärityksissä eli sijainneissa, joissa käytetään **Ohjattu hyllytys ja poiminta** -asetuskenttää, nimikkeitä voi siirtää varastopaikkojen välillä **Var.siirtotyökirja**-ikkunassa. Lisätietoja on kohdassa [Toimintaohje: Nimikkeiden siirtäminen laajennetuissa varastomäärityksissä](warehouse-how-to-move-items-in-advanced-warehousing.md).  
+Laajennetuissa varastomäärityksissä eli sijainneissa, joissa käytetään **Ohjattu hyllytys ja poiminta** -asetuskenttää, nimikkeitä voi siirtää varastopaikkojen välillä **Var.siirtotyökirja**-ikkunassa. Lisätietoja on kohdassa [Nimikkeiden siirtäminen laajennetuissa varastomäärityksissä](warehouse-how-to-move-items-in-advanced-warehousing.md).  
 
 Fyysisen varaston perusmäärityksissä eli sijainneissa, joissa käytetään **Var.paikka pakollinen**- ja **Vaadi poiminta** -asetuskenttää, voi rekisteröidä nimikkeiden varastosiirron sisäisille toimintoalueille sisäisten lähdeasiakirjojen perusteella seuraavilla tavoilla:  
 
@@ -44,7 +44,7 @@ Myös varastotyöntekijä voi luoda sen valitsemalla kyseisen julkaistun kokoonp
 > [!NOTE]  
 >  Jos siirto koskee kokoonpanotilausta, jossa nimike on koottu myyntitilaukseen, voit määrittää, että varastosiirtoasiakirja luodaan automaattisesti varaston poiminta-asiakirjan luonnin yhteydessä. Poiminta-asiakirja tallentaa valmiin kokoonpanon nimikkeen ja kirjaa toimituksen. Voit määrittää tämän valitsemalla **Luo siirrot automaattisesti** -kentän **Kokoonpanon asetukset** -ikkunassa  
 >   
->  Lisätietoja kokoonpanotilauksista ja fyysisen varastoinnin perusmäärityksistä on ohjeaiheen [Toimintaohje: Kokoonpano- tai tuotantopoiminta](warehouse-how-to-pick-for-production.md) kohdassa Kokoonpano tilausta varten -nimikkeiden käsitteleminen varaston poiminnoissa.  
+>  Lisätietoja kokoonpanotilauksista ja fyysisen varastoinnin perusmäärityksistä on ohjeaiheen [Kokoonpano- tai tuotantopoiminta](warehouse-how-to-pick-for-production.md) kohdassa Kokoonpano tilausta varten -nimikkeiden käsitteleminen varaston poiminnoissa.  
 
 Tässä toimenpiteessä kuvataan, miten voit luoda varastosiirron **Varastosiirto**-ikkunassa viittaamalla vapautettuun kokoonpanotilaukseen lähdeasiakirjana.  Menettely on sama kun siirrät tuotantotilausten ja huoltotilausten osia.  
 

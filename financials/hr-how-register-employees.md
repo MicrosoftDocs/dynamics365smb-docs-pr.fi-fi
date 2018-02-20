@@ -13,13 +13,13 @@ ms.search.keywords: personnel, people, employee, staff, HR
 ms.date: 08/11/2017
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ceea5fba1b2daeab3c517d87e3e31e29d53441c3
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 484d21ad14991d663de3e9c5491455fe60494a06
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-register-employees"></a>Toimintaohje: Työntekijöiden rekisteröinti
+# <a name="register-employees"></a>Työntekijöiden rekisteröiminen
 Henkilöstöhallinnan toimintojen käyttämiseksi sinun on rekisteröitävä kukin työntekijä luomalla heille kortti, joka sisältää kaikki perus- ja lisätiedot.
 
 Voit muokata työntekijän tietoja milloin tahansa. Työntekijöiden tietueiden ylläpitäminen helpottaa henkilöstöhallintotehtäviä. Jos esimerkiksi työntekijän osoite muuttuu, voit rekisteröidä uuden tiedon työntekijän korttiin.
@@ -27,7 +27,7 @@ Voit muokata työntekijän tietoja milloin tahansa. Työntekijöiden tietueiden 
 Seuraavissa ohjeissa kuvataan ensimmäisen työntekijäkortin luominen sekä kahden erilaisen työntekijätiedon määrittäminen työntekijälle. Voit lisäksi määrittää muita lisätietoja, kuten pätevyyksiä tai toimettomuuden syitä. Voit määrittää työntekijätiedot valitsemalla joko kentän tai toiminnon **Työntekijän kortti** -ikkunassa.
 
 > [!NOTE]  
-> Voit hyvittää työntekijöille heidän liiketoimintaan liittyvät kulut. Sitä varten on täytettävä **Työntekijän kortti**-ikkunan **Maksut**-pikavälilehden kentät. Lisätietoja on kohdassa [Toimintaohje: Työntekijöiden kulujen kirjaaminen ja hyvittäminen](finance-how-record-reimburse-employee-expenses.md).
+> Voit hyvittää työntekijöille heidän liiketoimintaan liittyvät kulut. Sitä varten on täytettävä **Työntekijän kortti**-ikkunan **Maksut**-pikavälilehden kentät. Lisätietoja on kohdassa [Työntekijöiden kulujen kirjaaminen ja hyvittäminen](finance-how-record-reimburse-employee-expenses.md).
 
 ## <a name="to-set-up-an-employee"></a>Työntekijän määrittäminen
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, annan **Työntekijät** ja valitse sitten aiheeseen liittyvä linkki.
@@ -57,7 +57,7 @@ Vaihtoehtoisten osoitteiden avulla voit jäljittää työntekijöittesi sijainte
 5. Toista vaihe 4 kullekin vaihtoehtoiselle osoitteelle.
 
 ## <a name="see-also"></a>Katso myös
-[Toimintaohje: Työntekijöiden kulujen kirjaaminen ja hyvittäminen](finance-how-record-reimburse-employee-expenses.md)  
+[Työntekijöiden kulujen kirjaaminen ja hyvittäminen](finance-how-record-reimburse-employee-expenses.md)  
 [Rahoitus](finance.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttökokemuksen mukauttaminen](ui-experiences.md)

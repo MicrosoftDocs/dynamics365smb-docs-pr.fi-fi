@@ -1,8 +1,6 @@
 ---
-title: "Dynamics 365 Business editionin käyttäminen Outlookin kanssa| Microsoft Docs"
-description: "Dynamics 365 Business edition ja Office 365 ovat erittäin integroituneita, joten voit hallita kaikkea yrityksen asiakkaiden ja toimittajien kanssa tapahtuvaa viestintää suoraan Outlookissa."
-services: project-madeira
-documentationcenter: 
+title: "Finance and Operations, Business editionin käyttäminen Outlookin kanssa| Microsoft Docs"
+description: "Tämä palvelu integroituu kattavasti Office 365:n kanssa, joten voit hallita kaikkea yrityksen asiakkaiden ja toimittajien kanssa tapahtuvaa viestintää suoraan Outlookissa."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: get-started-article
@@ -13,19 +11,19 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: de6cbcdc8e7ca4aff06461192e2038831ba6b5b3
-ms.openlocfilehash: 473c21085c54c7f97f34404eeb18683cf4479e41
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3e22e907667127508634ce56b9d40e4b9cad01f5
 ms.contentlocale: fi-fi
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="using-dynamics-365-for-finance-and-operations-business-edition-as-your-business-inbox-in-outlook"></a>Dynamics 365 for Finance and Operations, Business editionin käyttäminen Outlookin yrityssähköpostina
-[!INCLUDE[d365fin](includes/d365fin_md.md)] esittelee mahdollisuuden hallita liiketoiminnallisia vuorovaikutuksia asiakkaiden ja toimittajien kanssa suoraan Microsoft Outlookista. [!INCLUDE[d365fin](includes/d365fin_md.md)]in Outlook-apuohjelmien avulla voit tarkastella asiakkaisiin ja toimittajiin liittyviä taloustietoja sekä luoda ja lähettää talousasiakirjoja, kuten tarjouksia ja laskuja.  
+# <a name="using-finance-and-operations-business-edition-as-your-business-inbox-in-outlook"></a>Finance and Operations, Business editionin käyttäminen Outlookin yrityssähköpostina
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  esittelee mahdollisuuden hallita liiketoiminnallisia vuorovaikutuksia asiakkaiden ja toimittajien kanssa suoraan Microsoft Outlookista. [!INCLUDE[d365fin](includes/d365fin_md.md)]in Outlook-apuohjelmien avulla voit tarkastella asiakkaisiin ja toimittajiin liittyviä taloustietoja sekä luoda ja lähettää talousasiakirjoja, kuten tarjouksia ja laskuja.  
 
 ## <a name="getting-the-add-in"></a>Apuohjelman hakeminen
 [!INCLUDE[d365fin](includes/d365fin_md.md)]issa yksi aloitusasetusten ohjatun määrityksen vaiheista on **Harjoita liiketoimintaa Office 365:ssä** -ikkuna. Kun valitset ikkunassa **Määritä Outlookissa**, sinun on määritettävä Office 365:n käyttäjänimi ja salasana. [!INCLUDE[d365fin](includes/d365fin_md.md)]in apuohjelmat lisätään tämän jälkeen automaattisesti Outlookiin.  
 
-Kun sitten avaat Outlookin, näet Dynamics 365:n järjestelmänvalvojan lähettämät sähköpostiviestit. Outlookin valintanauhaan lisätään uusi apuohjelma, ja apuohjelman valintanauha näkyy Outlook Web Access -ohjelmassa heti sähköpostiviestin perustekstin yläpuolella. Apuohjelma päivitetään ajoittain ja saat ilmoituksen, kun uusi versio on valmiina Outlookissa.  
+Kun sitten avaat Outlookin, näet Finance and Operations, Business editionin järjestelmänvalvojan lähettämän sähköpostiviestin. Outlookin valintanauhaan lisätään uusi apuohjelma, ja apuohjelman valintanauha näkyy Outlook Web Accessissa heti sähköpostiviestin perustekstin yläpuolella. Apuohjelma päivitetään ajoittain ja saat ilmoituksen, kun uusi versio on valmiina Outlookissa.  
 
 Jotkin Office 365:ää käyttävät yrityksen rajoittavat käyttäjien oikeuksia ottaa apuohjelmia käyttöön. Varmista tämän vuoksi, että Office 365 -tilauksesi sisältää sähköpostin ja mahdollistaa apuohjelmien käyttämisen. Jos haluat kokeilla apuohjelma joka tapauksessa, voit [kokeilla Office 365:ää maksutta](https://products.office.com/try).  
 

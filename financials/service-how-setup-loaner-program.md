@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/31/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: f57c94523c4a907478dceae182446098cba31dd7
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 4d2927cb2bc02ecf2c8befde4dcdba141cb371f6
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-a-loaner-program"></a>Toimintaohje: Lainatavaraohjelman määrittäminen
+# <a name="set-up-a-loaner-program"></a>Lainatavaraohjelman määrittäminen
 Ajoittain on tarpeen toimittaa asiakkaan käyttöön lainatavara, kunnes huoltohenkilökunta korjaa asiakkaan tavaran. Voit määrittää [!INCLUDE[d365fin](includes/d365fin_md.md)]iin lainatavaraohjelman, lainata nimikkeitä asiakkaille ja seurata nimikkeiden vastaanottoa, kun asiakkaat palauttavat ne. Voit myös lisätä lainatavaroita koskevia kommentteja kahdella tavalla:  
   
 * Määritä lainatavaran huomautus tai kommentti.  
@@ -33,7 +33,7 @@ Ajoittain on tarpeen toimittaa asiakkaan käyttöön lainatavara, kunnes huoltoh
 5. Valitse sopiva mittayksikkö **Mittayksikön koodi** -kentässä.  
   
 ## <a name="see-also"></a>Katso myös
-[Toimintaohje: Lainatavaroiden lainaaminen ja vastaanottaminen](service-how-to-lend-receive-loaners.md)  
+[Lainatavaroiden lainaaminen ja vastaanottaminen](service-how-to-lend-receive-loaners.md)  
 [Huoltohallinnon määrittäminen](service-setup-service.md)  
 [Huollon toimittaminen](service-deliver-service.md)  
 

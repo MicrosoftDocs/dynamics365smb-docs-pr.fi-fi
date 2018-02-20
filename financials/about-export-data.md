@@ -1,6 +1,6 @@
 ---
 title: Financials-tietojen vieminen Exceliin | Microsoft Docs
-description: "Voit viedä tilinpäätökset ja liiketoimintatiedot Dynamics 365 Business editionista Exceliin tai avata Financials-tiedot Excelissä."
+description: "Voit viedä tilinpäätökset ja liiketoimintatiedot Finance and Operations, Business editionista Exceliin tai avata Financials-tiedot Excelissä."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,14 +13,14 @@ ms.search.keywords: analysis, reporting, financial report, business intelligence
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 36d3e31300fbdc3a29f345a331cabbf50875c77f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6f82017a0e5178e39b5c06e4d52c6e35ec84d848
 ms.contentlocale: fi-fi
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Liiketoimintatietojen vienti Exceliin
-Jos haluat käsitellä [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietoja Excelissä, voit avata kaikki luettelot Excelissä ja käsitellä niitä siellä. Jos haluat vastaavasti peruuttaa [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]in tilauksen, voit viedä tiedot Exceliin, jotta ne ovat edelleen käytettävissä.
+Jos haluat käsitellä [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietoja Excelissä, voit avata kaikki luettelot Excelissä ja käsitellä niitä siellä. Jos haluat vastaavasti peruuttaa [!INCLUDE[d365fin](includes/d365fin_md.md)]in tilauksen, voit viedä tiedot Exceliin, jotta ne ovat edelleen käytettävissä.
 
 ## <a name="opening-lists-in-excel"></a>Luetteloiden avaaminen Excelissä
 Voit avata minkä tahansa päiväkirjan, luettelon tai työkirjan tiedot Excelissä. Avaa haluamasi sivu ja valitse sitten **Avaa Excelissä**. Voit esimerkiksi avata asiakasluettelon (hae **Asiakkaat**) ja valitse sitten **Avaa Excelissä**. Selain pyytää sinua avaamaan tai tallentamaan luodun Excel-työkirjan.  
@@ -60,12 +60,12 @@ Myös seuraavien sivujen tietojen vienti on suositeltavaa:
 * Myyjät  
 
 > [!NOTE]  
->   Jos olet määrittänyt [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]iin useita yrityksiä, kunkin yrityksen kyseiset tiedot on vietävä.
+>   Jos olet määrittänyt [!INCLUDE[d365fin](includes/d365fin_md.md)]iin useita yrityksiä, kunkin yrityksen kyseiset tiedot on vietävä.
 
 ## <a name="see-also"></a>Katso myös
-[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]-tilauksen peruuttaminen](madeira-cancel.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)]-tilauksen peruuttaminen](madeira-cancel.md)  
 [Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä](upload-data.md)  
 [Rahoitus](finance.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)  
-[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]in käyttäminen](ui-work-product.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 

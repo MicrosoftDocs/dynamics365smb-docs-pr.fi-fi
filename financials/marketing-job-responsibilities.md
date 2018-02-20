@@ -13,13 +13,13 @@ ms.search.keywords: task, to-do, relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: f0a4000a3f12a23b1d732ab9671e7cb5938eb887
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 673c7a118c5f589319bd967bfaea3bedef84f9ff
 ms.contentlocale: fi-fi
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-job-responsibilities-for-contact-persons"></a>Toimintaohje: Kontaktihenkilöiden vastuualueiden määrittäminen
+# <a name="set-up-job-responsibilities-for-contact-persons"></a>Kontaktihenkilöiden vastuualueiden määrittäminen
 Voit lisätä kontaktihenkilöiden vastuualueiden tietoja, kun haluat osoittaa, mistä kontaktihenkilö vastaa yrityksessä (esimerkiksi IT, hallinto tai tuotanto). Voit käyttää näitä tietoja kontaktien tietojen syöttämisessä.
 
 Kontaktien vastuualueiden käyttäminen on kaksivaiheinen prosessi. Ensin määritetään vastuualueen koodi. Tämä vaihe suoritetaan vain kerran jokaiselle vastuualueelle. Kun vastuualueen koodi on määritetty, voit aloittaa koodin liittämisen kontaktihenkilöille.
@@ -41,7 +41,7 @@ Toista nämä vaiheet ja luo niin monta vastuualuetta kuin haluat. Voit liittä�
 
 Kontaktille liittämiesi vastuualueiden lukumäärä näkyy **Yhteyshenkilö**-ikkunan **Segmentointi**-osan **Vastuualueiden lkm** -kentässä.
 
-Kun olet liittänyt vastuualueita kontakteihisi, voit käyttää näitä tietoja valitessasi kontakteja segmentteihisi. Lisätietoja on kohdassa [Toimintaohje: Kontaktien lisääminen segmentteihin](marketing-add-contact-segment.md).
+Kun olet liittänyt vastuualueita kontakteihisi, voit käyttää näitä tietoja valitessasi kontakteja segmentteihisi. Lisätietoja on ohjeaiheessa [Kontaktien lisääminen segmentteihin](marketing-add-contact-segment.md).
 
 ## <a name="see-also"></a>Katso myös
 [Kontaktihenkilöiden luominen](marketing-create-contact-persons.md)  

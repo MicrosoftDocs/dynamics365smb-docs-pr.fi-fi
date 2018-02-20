@@ -13,10 +13,10 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
-ms.openlocfilehash: dde3ad30e76c02f58bd31afaa74b81031857462b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3b2fb6a1d63e689d54d9b89b1edae0f18607f276
 ms.contentlocale: fi-fi
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="changing-basic-settings"></a>Perusasetusten muuttaminen
@@ -29,7 +29,7 @@ Keskellä ovat toimenpideruudut. Toimenpiteet esittävät nykyiset tiedot. Valit
 
 Voit luoda kotisivulla myös suosikkiasiakkaiden luettelon niitä asiakkaita varten, joiden kanssa käyt kauppaa usein tai jotka vaativat erityishuomiota. Nuolten avulla voit supistaa osan sivusta, jolloin haluamillesi tiedoille jää enemmän tilaa. Kotisivun yläosassa ovat toiminnot, joita voit käyttää nykyisen sisällön käsittelemisessä. Sekin voidaan supistaa. Voit jatkaa supistetun alueen tarkastelemista napsauttamalla tai napauttamalla aluetta.
 
-Oletusroolikeskus on **Liiketoimintajohtaja**, mutta voit valita tarvittaessa toisen roolikeskuksen. Lisätietoja on kohdassa [Toimintaohje: Roolikeskuksen vaihtaminen](change-role.md).
+Oletusroolikeskus on **Liiketoimintajohtaja**, mutta voit valita tarvittaessa toisen roolikeskuksen. Lisätietoja on kohdassa [Roolikeskuksen vaihtaminen](change-role.md).
 
 ## <a name="company"></a>Oma yritys
 Yritystoiminnot [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietojen säilönä. Tietokannassa voi olla useita yrityksiä. Kerralla on kuitenkin mahdollista valita vain yksi yritys.
@@ -56,6 +56,6 @@ Valitsemalla tämän linkin voit tarkastella tai muuttaa ilmoituksia, joita saat
 
 ## <a name="see-also"></a>Katso myös
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
-[Toimintaohje: Roolikeskuksen vaihtaminen](change-role.md)  
+[Roolikeskuksen vaihtaminen](change-role.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttökokemuksen mukauttaminen](ui-experiences.md)  
 

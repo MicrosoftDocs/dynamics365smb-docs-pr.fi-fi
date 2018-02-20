@@ -11,20 +11,20 @@ ms.search.keywords:
 ms.date: 11/17/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 8ae02f7a55f822751ae66b5b62013455aac87e48
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 1e2f5142eb21d346b17b7d541191df553086b30f
 ms.contentlocale: fi-fi
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-receive-and-convert-electronic-documents"></a>Toimintaohje: Sähköisten asiakirjojen vastaanottaminen ja muuntaminen
+# <a name="receive-and-convert-electronic-documents"></a>Sähköisten asiakirjojen vastaanottaminen ja muuntaminen
 [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman yleinen versio tukee sähköisten laskujen ja hyvityslaskujen vastaanottamista PEPPOL-muodossa. Suurimmat document exchange -palveluiden tarjoajat tukevat tätä muotoa. Jotta voisit saada laskun toimittajalta sähköisenä PEPPOL-asiakirjana, asiakirja on muunnettava Saapuvat asiakirjat -ikkunassa [!INCLUDE[d365fin](includes/d365fin_md.md)]in ostolaskuksi tai päiväkirjan riviksi.
 
  Kauppakumppaneiden sähköisten asiakirjojen suoran vastaanottamisen lisäksi voit saada sähköisiä asiakirjoja OCR-palvelusta, joka on muuntanut PDF- tai kuvatiedostoja sähköisiksi asiakirjoiksi.  
 
- Ennen kuin voit vastaanottaa sähköisiä asiakirjoja Document Exchange -palvelun avulla, sinun on määritettävä perustietoja, kuten yritystiedot, toimittajat, nimikkeet ja mittayksiköt. Niiden avulla tunnistetaan liikekumppaneja ja nimikkeitä, kun saapuvassa asiakirjatiedostossa olevien elementtien tiedot muunnetaan [!INCLUDE[d365fin](includes/d365fin_md.md)]in kentiksi. Lisätietoja on kohdassa [Toimintaohje: Document Exchange -palvelun määrittäminen](across-how-to-set-up-a-document-exchange-service.md).  
+ Ennen kuin voit vastaanottaa sähköisiä asiakirjoja Document Exchange -palvelun avulla, sinun on määritettävä perustietoja, kuten yritystiedot, toimittajat, nimikkeet ja mittayksiköt. Niiden avulla tunnistetaan liikekumppaneja ja nimikkeitä, kun saapuvassa asiakirjatiedostossa olevien elementtien tiedot muunnetaan [!INCLUDE[d365fin](includes/d365fin_md.md)]in kentiksi. Lisätietoja on kohdassa [Document Exchange -palvelun määrittäminen](across-how-to-set-up-a-document-exchange-service.md).  
 
- Ennen kuin voit vastaanottaa sähköisiä asiakirjoja OCR-palvelun kautta, määritä ja ota käyttöön ennalta määritetty palveluyhteys. Lisätietoja on kohdassa [Toimintaohje: Saapuvien asiakirjojen määrittäminen](across-how-setup-income-documents.md).  
+ Ennen kuin voit vastaanottaa sähköisiä asiakirjoja OCR-palvelun kautta, määritä ja ota käyttöön ennalta määritetty palveluyhteys. Lisätietoja on kohdassa [Saapuvien asiakirjojen määrittäminen](across-how-setup-income-documents.md).  
 
  Sähköisten asiakirjojen saapuvan ja lähtevän liikenteen [!INCLUDE[d365fin](includes/d365fin_md.md)]:ssa hallitsee työjono-ominaisuus. Ennen kuin voit vastaanottaa sähköisiä asiakirjoja, on aloitettava asianmukainen työjono.  
 
@@ -45,7 +45,7 @@ ms.lasthandoff: 12/14/2017
 
 2.  Valitse rivi sille saapuvalle asiakirjatietueelle, joka edustaa uutta saapuvaa sähköistä laskua, ja valitse sitten **Koti**-välilehden **Hallinta**-ryhmästä **Muokkaa**.  
 
-     Aiheeseen liittyvä XML-tiedosto liitetään **Saapuvan asiakirjan kortti** -ikkunaan, ja useimmat sen kentät on esitäytetty sähköisen laskun tiedoilla. Lisätietoja on kohdassa [Toimintaohje: Saapuvien asiakirjatietueiden luominen](across-how-create-income-document-records.md).  
+     Aiheeseen liittyvä XML-tiedosto liitetään **Saapuvan asiakirjan kortti** -ikkunaan, ja useimmat sen kentät on esitäytetty sähköisen laskun tiedoilla. Lisätietoja on kohdassa [Saapuvien asiakirjatietueiden luominen](across-how-create-income-document-records.md).  
 
 3.  Valitse **Tiedonsiirron tyyppi** -kentässä **PEPPOL-lasku** tai **OCR-lasku** sähköisen asiakirjan lähteen mukaan.  
 
@@ -60,7 +60,7 @@ ms.lasthandoff: 12/14/2017
 ## <a name="see-also"></a>Katso myös  
 [Ostovelkojen hallinta](payables-manage-payables.md)  
 [Saapuvat asiakirjat](across-income-documents.md)  
-[Toimintaohje: Sähköisten asiakirjojen vastaanottamisen ja lähettämisen määrittäminen](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
+[Sähköisten asiakirjojen vastaanottamisen ja lähettämisen määrittäminen](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
 [Sähköinen tiedonsiirto](across-data-exchange.md)   
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)  
 

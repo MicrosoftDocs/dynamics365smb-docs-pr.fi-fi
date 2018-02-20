@@ -11,13 +11,13 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 6f8094545431468bd12e231364987e70bda429bb
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2796da1b41569c8c950dc844fc31eaf4f0179efa
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-subcontract-manufacturing"></a>Toimintaohje: Tuotanto alihankintana
+# <a name="subcontract-manufacturing"></a>Tuotanto alihankintana
 Valittujen toimintojen siirtäminen alihankintoina toimittajalle on yleistä monissa tuotantoyrityksissä. Alihankinta voi olla joko harvinaista tai keskeinen osa kaikkia tuotantoprosesseja.
 
 Ohjelmassa on useita työkaluja alihankintatöiden hallintaan:  
@@ -41,12 +41,12 @@ Alihankinnan tuotantokeskuksia voi käytätä reititysten operaatioissa samalla 
 
 Voit määrittää reitityksen, joka käyttää ulkoista tuotantokeskusta, normaaliksi toimintavaiheeksi. Halutessasi voit myös muokata tietyn tuotantotilauksen reititystä ja ottaa mukaan ulkoisen operaation. Tästä voi olla hyötyä hätätilanteissa, jos palvelin ei esimerkiksi toimi kunnolla tai kysyntäpiikkien aikana, jolloin yhtiön sisäisiä töitä täytyy teettää alihankkijoilla.  
 
-Lisätietoja on kohdassa [Toimintaohje: Reititysten luominen](production-how-to-create-routings.md).  
+Lisätietoja on kohdassa [Reititysten luominen](production-how-to-create-routings.md).  
 
 ## <a name="subcontracting-worksheet"></a>Alihankintatyökirja  
 Kun alihankintatyökirja on laskettu, käsiteltävä asiakirja, tässä tapauksessa ostotilaus, luodaan.  
 
-# <a name="how-to-calculate-subcontracting-worksheets-and-create-subcontract-purchase-orders"></a>Alihankintatyökirjan laskeminen ja alihankkijan ostotilausten luominen
+# <a name="calculate-subcontracting-worksheets-and-create-subcontract-purchase-orders"></a>Alihankintatyökirjan laskeminen ja alihankkijan ostotilausten luominen
 **Alihankintatyökirja** -ikkunassa toimii kuin **Suunnittelutyökirja** laskemalla tarvittavan tarjonnan, tässä tapauksessa ostotilaukset, jotka tarkistat ja luot työkirjan perusteella käyttäen **Toteuta toimenpideviesti** -funktiota.  
 
 > [!NOTE]  

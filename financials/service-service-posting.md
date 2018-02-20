@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d82961b41266f645f87b79555171891cd2ce828f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 1a95163c861cf9691c5f82e4815df6d87a135ed6
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="service-posting"></a>Huollon kirjaus
@@ -23,7 +23,7 @@ Huollon kirjaustoiminnon avulla voit käsitellä asiakirjoja tehokkaasti ja yll�
 > [!NOTE]  
 >  Seuraavassa ohjeessa neuvotaan, miten huoltokirjauksia tehdään riippumatta siitä, miten kohteita käsitellään fyysisessä varastossa.  
 >   
->  Jos fyysisen varaston käsittely ei ole pakollista sijainnissa, tee kirjaustoiminnot suoraan **Huoltorivit**-ikkunassa. Sijainneissa, joissa käytetään fyysisen varaston käsittelyä, kuvatut kirjaustoiminnot (toimitusta ja kulutusta lukuun ottamatta) suoritetaan suoraan muuttuvien fyysisen varaston toimitustoimintojen kautta asetusten perusteella. Lisätietoja on kohdassa [Toimintaohje: Nimikkeiden poiminta varaston poiminnassa](warehouse-how-to-pick-items-with-inventory-picks.md).  
+>  Jos fyysisen varaston käsittely ei ole pakollista sijainnissa, tee kirjaustoiminnot suoraan **Huoltorivit**-ikkunassa. Sijainneissa, joissa käytetään fyysisen varaston käsittelyä, kuvatut kirjaustoiminnot (toimitusta ja kulutusta lukuun ottamatta) suoritetaan suoraan muuttuvien fyysisen varaston toimitustoimintojen kautta asetusten perusteella. Lisätietoja on kohdassa [Nimikkeiden poiminta varastopoiminnalla](warehouse-how-to-pick-items-with-inventory-picks.md).  
 
 ## <a name="ship"></a>Toimitus  
 Toimitusvaihtoehdon avulla voit rekisteröidä ohjelmassa nimikkeet ja huoltotilauksen riveille huollon suorituksen jälkeen syötetyt ajat. Ohjelma luo kirjatun toimituksen ja päivittää varastomoduulin ja muut [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman moduulit sen mukaan, mitä nimikkeitä on otettu varastosta ja lähetetty asiakkaalle. Ohjelma tuottaa erityisesti nimiketapahtumia, arvotapahtumia, huoltotapahtumia ja takuutapahtumia.  
@@ -56,6 +56,6 @@ Seuraavassa ohjeessa käytetään esimerkkinä kirjattua huoltolaskua, mutta sam
     Avaa **Huoltotilaustilastot**-ikkuna. Ikkunassa on muun muassa seuraavat kirjatun asiakirjan tiedot: määrä, summa, ALV, kustannus, tuotto ja asiakkaan luottoraja.
 
 ## <a name="see-also"></a>Katso myös  
-[Huoltotilauksien kirjaaminen](service-how-to-post-service-orders.md)   
-[Toimintaohje: Huoltotilausten luominen](service-how-to-create-service-orders.md)
+[Huoltotilausten kirjaaminen](service-how-to-post-service-orders.md)   
+[Huoltotilausten luominen](service-how-to-create-service-orders.md)
 

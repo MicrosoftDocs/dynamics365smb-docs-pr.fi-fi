@@ -1,6 +1,6 @@
 ---
 title: "SEPA-suoraveloituksen määrittäminen | Microsoft Docs"
-description: "Lisätietoja SEPA-suoraveloituksen määrittämisestä Dynamics 365 Business editionissa."
+description: "Lisätietoja SEPA-suoraveloituksen määrittämisestä Finance and Operations, Business editionissa."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,16 +11,16 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 96c851c58decbeb46afcd79a9c5275d16c8072d4
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 28958f1f090e5adad69cb21d30727fcbd6a7fef8
 ms.contentlocale: fi-fi
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-sepa-direct-debit"></a>Toimintaohje: SEPA-suoraveloituksen määrittäminen
+# <a name="set-up-sepa-direct-debit"></a>SEPA-suoraveloituksen määrittäminen
 **Suoraveloitusperinnät** -ikkunasta voit viedä sähköiseen pankkiisi ohjeita, jotka ohjaavat pankkiasi suorittamaan suoraveloituksen asiakkaan pankkitililtä omalle pankkitilillesi. [!INCLUDE[d365fin](includes/d365fin_md.md)] tukee SEPA-suoraveloitusmuotoa, mutta maassasi tai alueellasi saattaa olla käytettävissä muita sähköisten maksujen muotoja.  
 
-Jos haluat ottaa käyttöön sellaisten pankkitiedostomuotojen viennin, joita [!INCLUDE[d365fin](includes/d365fin_md.md)] ei tue sellaisenaan, voit määrittää tietojen siirtomäärityksen käyttämällä tiedonsiirtokehystä. Lisätietoja on kohdassa [Toimintaohje: Tiedonsiirtomääritysten määrittäminen](across-how-to-set-up-data-exchange-definitions.md).  
+Jos haluat ottaa käyttöön sellaisten pankkitiedostomuotojen viennin, joita [!INCLUDE[d365fin](includes/d365fin_md.md)] ei tue sellaisenaan, voit määrittää tietojen siirtomäärityksen käyttämällä tiedonsiirtokehystä. Lisätietoja on kohdassa [Tietojenvaihtomääritysten määrittäminen](across-how-to-set-up-data-exchange-definitions.md).  
 
 Ennen kuin voit käsitellä asiakkaan maksuja sähköisesti viemällä suoraveloitusohjeita SEPA Direct Debit -muodossa, sinun on suoritettava seuraavat määritysvaiheet.  
 
@@ -72,11 +72,11 @@ Ennen kuin voit käsitellä asiakkaan maksuja sähköisesti viemällä suoravelo
 
 6.  Toista vaiheet 1–5 kaikille asiakkaille, joille haluat määrittää SEPA-suoraveloitukset.  
 
- Suoraveloitusvaltakirja lisätään automaattisesti **Suoraveloitusvaltakirjan tunnus** -kenttään, kun luot myyntilaskun vaiheessa 2 valitulle asiakkaalle. Lisätietoja on kohdassa [Toimintaohje: Toistuvien myynti- ja ostorivien luominen](sales-how-work-standard-lines.md).  
+ Suoraveloitusvaltakirja lisätään automaattisesti **Suoraveloitusvaltakirjan tunnus** -kenttään, kun luot myyntilaskun vaiheessa 2 valitulle asiakkaalle. Lisätietoja on kohdassa [Toistuvien myynti- ja ostorivien luominen](sales-how-work-standard-lines.md).  
 
 ## <a name="see-also"></a>Katso myös  
 [Maksujen kerääminen SEPA-suoraveloitusperintänä](finance-collect-payments-with-sepa-direct-debit.md)  
-[Toimintaohje: Tiedonsiirtomääritysten määrittäminen](across-how-to-set-up-data-exchange-definitions.md)
-[Toimintaohje: Toistuvien myynti- ja ostorivien luominen](sales-how-work-standard-lines.md)
+[Tiedonsiirtomääritysten määrittäminen](across-how-to-set-up-data-exchange-definitions.md)
+[Toistuvien myynti- ja ostorivien luominen](sales-how-work-standard-lines.md)
 [Sähköinen tiedonsiirto](across-data-exchange.md)
 

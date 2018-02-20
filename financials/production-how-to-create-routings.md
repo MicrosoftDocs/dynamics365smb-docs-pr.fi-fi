@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
-ms.openlocfilehash: 85cd332e4b62ba73f511989983e1eb9f5147c5fb
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f941625052bea17e524e7150f1a3a957d2916d54
 ms.contentlocale: fi-fi
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-routings"></a>Uusien reititysten luominen
+# <a name="create-routings"></a>Uusien reititysten luominen
 Tuotantoyritykset käyttävät reitityksiä tuotantoprosessin näyttämiseen ja ohjaamiseen.
 
 Reititys on prosessiaikataulutuksen, kapasiteettiaikataulutuksen sekä materiaalitarpeitten ja tuotantoasiakirjojen aikataulutetun määrittelyn perusta.  
@@ -28,8 +28,8 @@ Reititykset määritetään tuotannon tuoterakenteissa tuotannon loppunimikkeese
 
 Seuraavat toimet on oltava tehtynä ennen reitityksen määrittämistä:  
 
-- Tuotannossa mukana olevien päänimikkeiden nimikekortit on luotu. Lisätietoja on ohjeaiheessa [Toimintaohje: Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md).
-- Tuotantoresurssit on määritetty. Lisätietoja on kohdassa [Toimintaohje: Tuotantosolujen ja kuormituskeskusten määrittäminen](production-how-to-set-up-work-and-machine-centers.md).
+- Tuotannossa mukana olevien päänimikkeiden nimikekortit on luotu. Lisätietoja on ohjeaiheessa [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md).
+- Tuotantoresurssit on määritetty. Lisätietoja on kohdassa [Tuotantosolujen ja kuormituskeskusten määrittäminen](production-how-to-set-up-work-and-machine-centers.md).
 
 ## <a name="to-create-a-routing"></a>Reitityksen luominen  
 1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Reititykset** ja valitse sitten aiheeseen liittyvä linkki.  
@@ -53,7 +53,7 @@ Seuraavat toimet on oltava tehtynä ennen reitityksen määrittämistä:
 12.  Jatka rivien täyttämistä, kunnes kaikki nimikkeen tuottamiseen tarvittavat toiminnot on määritetty.  
 13.  Voit kopioida rivit reitityksestä valitsemalla aiemmin luodut rivit ja valitsemalla sitten **Kopioi reititys**.  
 14. Hyväksy reititys.  
-15. Voit nyt liittää uuden reitityksen kyseisen tuotantonimikkeen korttiin täyttämällä **Reititysnro**-kentän. Lisätietoja on ohjeaiheessa [Toimintaohje: Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md).  
+15. Voit nyt liittää uuden reitityksen kyseisen tuotantonimikkeen korttiin täyttämällä **Reititysnro**-kentän. Lisätietoja on ohjeaiheessa [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md).  
 
 > [!NOTE]  
 >  Muista myös laskea nimikkeen vakiokustannukset uudelleen **Nimike**-kortista: valitse ensin **Tuotanto**-toiminto, sitten **Laske vakiokustannus** -toiminto ja lopuksi **Kaikille tasoille** -toiminto.  
@@ -87,7 +87,7 @@ Toinen tästä seuraava tärkeä etu on se, että linkitetyt komponentit ja toim
 10. Aseta tuotannon tuoterakenteen tilaksi **Hyväksytty**.  
 
     > [!NOTE]  
-    >  Voit ottaa aiemmin luodun tuotantotilauksen reitityslinkit käyttöön päivittämällä tuotantotilauksen. Lisätietoja on kohdassa [Toimintaohje: Tuotantotilausten luominen](production-how-to-create-production-orders.md).  
+    >  Voit ottaa aiemmin luodun tuotantotilauksen reitityslinkit käyttöön päivittämällä tuotantotilauksen. Lisätietoja on kohdassa [Tuotantotilausten luominen](production-how-to-create-production-orders.md).  
 
 Kun nyt luodaan ja/tai päivitetään tuotantotilaus, joka käyttää yllä käsiteltyjä tuotannon tuoterakennetta ja reititystä, komponentit linkitetään valittuihin toimintoihin. Tämä on näkyvissä **Tuot. til.komponentit**-ikkunassa tuotantotilauksen kohdalla. Määritettyjä reitityslinkkien koodeja voidaan myös lisätä ja poistaa tässä ikkunassa koska tahansa.
 
@@ -116,10 +116,10 @@ Versioperiaate mahdollistaa useiden reititysversioiden hallitsemisen. Reititysve
 
 7. Kun reititysversio on valmis, **Tila**-kentän asetuksena on **Hyväksytty**.
 
-Version voimassaoloaika määritetään **Aloituspvm**-kentässä.  
+Version voimassaoloajan määrittää **Aloituspvm**-kenttä.  
 
 ## <a name="see-also"></a>Katso myös  
-[Toimintaohje: Uusien tuotannon tuoterakenteiden luominen](production-how-to-create-production-boms.md)  
+[Tuotannon tuoterakenteiden luominen](production-how-to-create-production-boms.md)  
 [Tuotannon määrittäminen](production-configure-production-processes.md)  
 [Tuotanto](production-manage-manufacturing.md)    
 [Suunnittelu](production-planning.md)   

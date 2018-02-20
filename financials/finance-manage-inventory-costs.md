@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 8da779426dfd06519507796c995adcedcd40ac81
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: e2443552440cae8a0d90753d9a56fdc82006a197
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-inventory-costs"></a>Varaston kustannusten hallinta
@@ -28,10 +28,10 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 
 |**Tehtävä**|**Katso**|  
 |------------|-------------|  
-|[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]in varaston kustannuslaskennan toiminnot. Ohjeaihe sisältää käsitteellisiä tietoja toimintoja koskevista periaatteista ja määrityksistä.|[Tietoja varaston arvostuksesta](finance-learn-about-costing.md)|  
+|[!INCLUDE[d365fin](includes/d365fin_md.md)]in varaston kustannuslaskennan toiminnot. Ohjeaihe sisältää käsitteellisiä tietoja toimintoja koskevista periaatteista ja määrityksistä.|[Tietoja varaston arvostuksesta](finance-learn-about-costing.md)|  
 |Määritä varastokaudet, arvostusmenetelmät ja pyöristystavat.|[Varastonarvostuksen ja kustannuslaskennan määrittäminen](finance-set-up-inventory-valuation-and-costing.md)|
-|Nosta tai laske vähintään yhden varaston nimikkeen arvoa kirjaamalla nimikkeen nykyinen laskettu arvo.|[Toimintaohje: Varaston uudelleenarvostus](inventory-how-revalue-inventory.md)|
-|Muuta nimikekustannuksia automaattisesti tai manuaalisesti, kun haluat siirtää saapuvien tapahtumien kustannusmuutokset liittyviin lähteviin tapahtumiin.|[Toimintaohje: Nimikekustannusten muokkaaminen](inventory-how-adjust-item-costs.md)|
+|Nosta tai laske vähintään yhden varaston nimikkeen arvoa kirjaamalla nimikkeen nykyinen laskettu arvo.|[Varaston uudelleenarvostus](inventory-how-revalue-inventory.md)|
+|Muuta nimikekustannuksia automaattisesti tai manuaalisesti, kun haluat siirtää saapuvien tapahtumien kustannusmuutokset liittyviin lähteviin tapahtumiin.|[Nimikekustannusten muuttaminen](inventory-how-adjust-item-costs.md)|
 |Käytä erityisiä kustannuslaskentatoimintoja nimiketoimintojen päivittäisissä nimiketapahtumissa.|[Varaston ja tuotannon kustannusten käsitteleminen](finance-handle-inventory-and-manufacturing-costs.md)|  
 |Kokoonpanon ja tuotannon tuoterakenteiden komponenttien vakiokustannukset on päivitettävä säännöllisesti ja uudet kustannukset on vyörytettävä päänimikkeelle.|[Vakiokustannusten päivittäminen](finance-how-to-update-standard-costs.md)|
 |Kauden lopun hallinta- ja raportointitehtävien toteuttaminen. Näitä tehtäviä ovat esimerkiksi varaston arvon laskeminen ja kustannusten kirjaaminen pääkirjanpitoon.|[Kustannusten raportointi ja täsmäyttäminen pääkirjanpidon kanssa](finance-report-costs-and-reconcile-with-the-general-ledger.md)|  

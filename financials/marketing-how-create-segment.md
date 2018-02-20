@@ -1,6 +1,6 @@
 ---
 title: Segmenttien luominen| Microsoft Docs
-description: "Tässä ohjeaiheessa kerrotaan, miten kontaktiryhmän segmentti luodaan Dynamics 365 Business editionissa, jotta esimerkiksi suoramainonta voidaan kohdistaa useille kontakteille."
+description: "Tässä ohjeaiheessa kerrotaan, miten kontaktiryhmän segmentti luodaan Finance and Operations, Business editionissa, jotta esimerkiksi suoramainonta voidaan kohdistaa useille kontakteille."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,13 +13,13 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: dc915aaf2bb273417d87f6ea8bf1b1f5eb142ff3
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 4e76980237c79919b0e90ae75115c1571a6cdb85
 ms.contentlocale: fi-fi
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-segments"></a>Segmenttien luominen
+# <a name="create-segments"></a>Segmenttien luominen
 Voit luoda segmenttejä, kun haluat luoda kontaktiryhmän - jos esimerkiksi haluat luoda vuorovaikutuksen, johon sisältyy useita kontakteja (esimerkiksi postituksessa).
 
 ## <a name="to-create-a-segment"></a>Segmenttien luominen
@@ -30,7 +30,7 @@ Voit luoda segmenttejä, kun haluat luoda kontaktiryhmän - jos esimerkiksi halu
     Jos olet määrittänyt segmenteille numerosarjan **Kontaktienhallinnan asetukset** -ikkunassa, voit valita seuraavan saatavilla olevan segmenttinumeron painamalla Enter-näppäintä.
 4. Täytä otsikon muut kentät.
 
-Nyt voit lisätä segmenttiin kontakteja. Lisätietoja on ohjeaiheessa [Toimintaohje: Kontaktien lisääminen segmentteihin](marketing-add-contact-segment.md).
+Nyt voit lisätä segmenttiin kontakteja. Lisätietoja on ohjeaiheessa [Kontaktien lisääminen segmentteihin](marketing-add-contact-segment.md).
 
 ## <a name="see-also"></a>Katso myös
 [Segmenttien hallinta](marketing-segments.md)  

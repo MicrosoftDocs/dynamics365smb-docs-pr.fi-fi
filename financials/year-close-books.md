@@ -13,10 +13,10 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.date: 03/29/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 870f1c6a7f93195e0308a646402d642f6cadd219
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3d92f1ca1f36ca74b2da9922d2929ad69c5b31cf
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="closing-the-books"></a>Kirjojen sulkeminen
@@ -31,7 +31,7 @@ Kirjan sulkemisprosessi sisältää seuraavat päätehtävät:
 
     Tilikausi koostuu **Kirjanpitojaksot**-ikkunassa määritetyistä avoimista jaksoista. Tyypillisesti tilikausi koostuu 12:sta kuukauden mittaisesta kaudesta, mutta tilikauden voi määrittää myös toisin.
 
-    Lisätietoja on kohdassa [Toimintaohje: Kirjanpitojakson päättäminen](year-close-account-periods.md).
+    Lisätietoja on kohdassa [Kirjanpitojakson päättäminen](year-close-account-periods.md).
 2. Edellisen vuoden tapahtumien rekisteröinti.
 
     Tilikautta suljettaessa on määritettävä erinäisiä hallinnallisia tapahtumia (kuten ennakkoon maksetut ja jaksotetut nimikkeet). Näitä tapahtumia kutsutaan oikaiseviksi tapahtumiksi. Näiden tapahtumien kirjaamista varten ei ole erityissääntöjä, ja niillä (kuten muillakin tapahtumilla) on valintamerkki **Edellisen vuoden tapahtuma** -kentässä, jos ne on kirjattu suljetun tilikauden päivämääränä. Vaikka tilikausi on suljettu, voit silti kirjata tilikaudelle KP-tapahtumia.
@@ -44,7 +44,7 @@ Kirjan sulkemisprosessi sisältää seuraavat päätehtävät:
 
     Kun Sulje tuloslaskelma -eräajo on valmis, voit kirjata ajon luomat tapahtumat. Jos et ole määrittänyt eräajon aikana jakamattoman voiton tiliä, lisää rivi, jolla on oikaiseva tapahtuma. Tapahtuma kirjaa nettotuoton oikealle kirjanpitotilille taseen omaan pääomaan. Kirjaa lopulta päiväkirja.
 
-    Lisätietoja on kohdassa [Toimintaohje: Vuoden lopun tilinpäätöstapahtuman kirjaaminen](year-how-post-year-end-close-entry.md).
+    Lisätietoja on kohdassa [Vuoden lopun tilinpäätöstapahtuman kirjaaminen](year-how-post-year-end-close-entry.md).
 
 ## <a name="what-happens-when-you-close"></a>Sulkemisen yhteydessä tapahtuvat asiat
 Kun suljet tilikauden vuoden lopussa, järjestelmä siirtää voiton laskennallisesta voitosta jakamattoman voiton tilille. Järjestelmä myös merkitsee tilikauden suljetuksi ja kaikki myöhemmät suljetun vuoden tapahtumat edellisen vuoden tapahtumiksi.
@@ -54,6 +54,6 @@ Järjestelmä luo sitten tilinpäätöstapahtuman, mutta tapahtumaa ei merkitä 
 Voit tehdä kirjauksia edelliselle tilikaudelle myös tuloslaskelmatilien sulkemisen jälkeen suorittamalla Sulje tuloslaskelma -eräajon myöhemmin uudelleen.
 
 ## <a name="see-also"></a>Katso myös
-[Toimintaohje: Uuden tilikauden avaaminen](finance-how-open-new-fiscal-year.md)  
+[Uuden tilikauden avaaminen](finance-how-open-new-fiscal-year.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
 

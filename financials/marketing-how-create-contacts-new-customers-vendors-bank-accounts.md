@@ -13,13 +13,13 @@ ms.search.keywords: relationship, client, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 289213b9c44b07387fd0dcf315b9d08750bdd9f7
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 0c4cf74ef7b0b2e48a8608a0859a71b919e46397
 ms.contentlocale: fi-fi
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-a-customer-vendor-or-bank-account-from-a-contact"></a>Toimintaohje: Asiakkaan, toimittajan tai pankkitilin luominen kontaktista
+# <a name="create-a-customer-vendor-or-bank-account-from-a-contact"></a>Asiakkaan, toimittajan tai pankkitilin luominen kontaktista
 Haluat ehkä tallentaa jotkin aiemmin luoduista kontakteistasi asiakkaina, toimittajina tai pankkitileinä. Kun asiakas, toimittaja tai pankkitili luodaan kontaktista, voit käyttää aiemmin luotuja tietoja. Kun luot asiakkaan, toimittajan tai pankkitilin tällä tavalla, se synkronisoidaan kontaktin kanssa. Synkronoimisen avulla kontaktien ja asiakkaiden, toimittajien tai pankkitilien yhteiset tiedot säilyvät samoina.
 
 Ennen kuin voit tallentaa kontakteja tällä tavalla, asiakkaiden, toimittajien ja pankkitilien liikesuhteen koodi on määritettävä **Kontaktienhallinnan asetukset** -ikkunassa. Jos tallennat kontakteja pankkitileinä, määritä myös pankkitilien numerosarjat **Pääkirjanpidon asetukset** -ikkunassa.
@@ -33,11 +33,11 @@ Ennen kuin voit tallentaa kontakteja tällä tavalla, asiakkaiden, toimittajien 
 Yhteystiedot siirretään **Kontakti**-kortilta **Pankkitili** -kortille, **Asiakas** -kortille tai **Toimittaja** -kortille. Haluat ehkä lisätä tiettyjä tietoja jokaiseen korttiin, kuten laskutus- ja maksutiedot.
 
 ## <a name="see-also"></a>Katso myös
-[Toimintaohjeet: Kontaktiyritysten luominen](marketing-create-contact-companies.md)  
-[Toimintaohjeet: Kontaktihenkilöiden luominen](marketing-create-contact-persons.md)  
-[Kontaktien hallinnan määrittäminen](marketing-setup-marketing.md)  
+[Kontaktiyritysten luominen](marketing-create-contact-companies.md)  
+[Kontaktihenkilöiden luominen](marketing-create-contact-persons.md)  
+[Kontaktienhallinnan määrittäminen](marketing-setup-marketing.md)  
 [Kontaktien synkronoiminen asiakkaiden, toimittajien ja pankkitilien kanssa](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  
-[Toimintaohje: Kontaktien linkittäminen aiemmin luotuihin asiakkaisiin, toimittajiin tai pankkitileihin](marketing-how-link-contact.md)  
+[Kontaktien linkittäminen aiemmin luotuihin asiakkaisiin, toimittajiin tai pankkitileihin](marketing-how-link-contact.md)  
 [Liikesuhteiden liittäminen kontaktiin](marketing-business-relations.md#AssignBusRelContact)  
-[Dynamics 365:n käyttäminen](ui-work-product.md)
+[Finance and Operations, Business editionin käyttäminen](ui-work-product.md)
 

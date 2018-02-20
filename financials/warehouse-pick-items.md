@@ -1,6 +1,6 @@
 ---
 title: Nimikkeiden poiminta | Microsoft Docs
-description: "Varastonimikkeiden poimintatapahtuma ennen nimikkeiden toimitusta tai kulutusta suoritetaan eri tavoilla sen mukaan, miten varastoinninhallintajärjestelmän ominaisuudet on määritetty. [Määritysten](../configure-warehouse-processes.md) monimutkaisuus voi vaihdella: ominaisuusluettelossa ei ole varastotoimintoja lainkaan, fyysisen varastoinnin perusmääritysten tilausten käsittelyssä on vain yksi tai useita toimintoja ja laajennetuissa varastomäärityksissä kaikki varastotoiminnot on suoritettava ohjatun työnkulun mukaisesti."
+description: "Jos varastotoimintona on nimikkeiden poimiminen ennen nimikkeiden toimitusta tai kulutusta, se voidaan suorittaa eri tavoilla sen mukaan, miten varastoinninhallinnan ominaisuudet on määritetty. [Määritysten](../configure-warehouse-processes.md) monimutkaisuus voi vaihdella: ominaisuusluettelossa ei ole varastotoimintoja lainkaan, tilauskohtaisessa fyysisen varastoinnin perusmäärityksissä käsittelytoimintoja on vain muutama toiminto, kun laajennetuissa varastomäärityksissä kaikki varastotoiminnot tehdään ohjatun työnkulun mukaisesti."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 13db47dcfcc7eb6d30230490baa5ac961fc825a8
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 132408d095edbfa1a60577cdd19022920088670b
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="pick-items"></a>Nimikkeiden poiminta
@@ -35,14 +35,14 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 
 |**Tehtävä**|**Katso**|
 |------------|-------------|  
-|Kirjaa nimikkeiden toimitus suoraan lähtevään tilausasiakirjaan, koska varastointitoimintoja ei ole. (Samalla toimitaan tavoin myyntitilausten, lähtevien siirtotilausten ja palautustoimitusten kohdalla.)|[Toimintaohje: Nimikkeiden toimittaminen](warehouse-how-ship-items.md)|  
-|Poimi nimikkeitä tilauskohtaisesti ja kirjaa toimitus samassa perusvarastointimäärityksen toiminnossa.  |[Poimiaksesi nimikkeitä joissa on varastopoiminta](warehouse-how-to-pick-items-with-inventory-picks.md)|
-|Poimi nimikkeitä tilauksia varten laajennetussa varastointimäärityksessä.|[Toimintaohje: Nimikkeiden poiminta fyysisen varaston poiminnassa](warehouse-how-to-pick-items-for-warehouse-shipment.md)|  
-|Poimi komponentteja tuotantoa tai kokoonpanoa varten fyysisen varastoinnin perusmäärityksessä tai laajennetussa varastointimäärityksessä.|[Toimintaohje: Poiminta tuotantoon tai kokoonpanoon](warehouse-how-to-pick-for-production.md)|  
-|Suunnittele optimoituja poimintaohjeita toimituksille niin, että varastotyöntekijöiden ei tarvitse käsitellä suoraan kirjattuja toimituksia.|[Poimintojen suunnitteleminen työkirjassa](warehouse-how-to-plan-picks-in-worksheets.md)|  
-|Poimi nimikkeitä teknisesti erityistarkoituksia varten esimerkiksi silloin, kun tuotantoyksikkö tarvitsee lisää komponentteja. Tällöin nimikkeet eivät teknisesti poistu varastosta.|[Toimintaohje: Poimiminen ja hyllyttäminen ilman lähdeasiakirjaa](warehouse-how-to-create-put-aways-from-internal-put-aways.md)|
+|Kirjaa nimikkeiden toimitus suoraan lähtevään tilausasiakirjaan, koska varastointitoimintoja ei ole. (Samalla toimitaan tavoin myyntitilausten, lähtevien siirtotilausten ja palautustoimitusten kohdalla.)|[Nimikkeiden lähettäminen](warehouse-how-ship-items.md)|  
+|Poimi nimikkeitä tilauskohtaisesti ja kirjaa toimitus samassa perusvarastointimäärityksen toiminnossa.  |[Nimikkeiden poiminta varastopoiminnalla](warehouse-how-to-pick-items-with-inventory-picks.md)|
+|Poimi nimikkeitä tilauksia varten laajennetussa varastointimäärityksessä.|[Nimikkeiden poiminta fyysisen varaston poiminnassa](warehouse-how-to-pick-items-for-warehouse-shipment.md)|  
+|Poimi komponentteja tuotantoa tai kokoonpanoa varten fyysisen varastoinnin perusmäärityksessä tai laajennetussa varastointimäärityksessä.|[Poiminta tuotantoon tai kokoonpanoon](warehouse-how-to-pick-for-production.md)|  
+|Suunnittele optimoituja poimintaohjeita toimituksille niin, että varastotyöntekijöiden ei tarvitse käsitellä suoraan kirjattuja toimituksia.|[Poimintojen suunnitteleminen työkirjoissa](warehouse-how-to-plan-picks-in-worksheets.md)|  
+|Poimi nimikkeitä teknisesti erityistarkoituksia varten esimerkiksi silloin, kun tuotantoyksikkö tarvitsee lisää komponentteja. Tällöin nimikkeet eivät teknisesti poistu varastosta.|[Poimiminen ja hyllyttäminen ilman lähdeasiakirjaa](warehouse-how-to-create-put-aways-from-internal-put-aways.md)|
 |Lisätietoja siitä, miten nimikkeitä poimitaan automaattisesti vanhentumispäivän perusteella esimerkiksi silloin, kun kyse on helposti pilaantuvista tuotteista.|[FEFO-poiminta](warehouse-picking-by-fefo.md)|
-|Jaa poimintarivi useisiin riveihin esimerkiksi silloin, kun nimikkeitä ei ole tarpeeksi määritetyssä varastopaikassa.|[Fyysisen varastoinnin aktiviteettirivien jakaminen](warehouse-how-to-split-warehouse-activity-lines.md)|
+|Jaa poimintarivi useisiin riveihin esimerkiksi silloin, kun nimikkeitä ei ole tarpeeksi määritetyssä varastopaikassa.|[ Varastotoimintorivien jakaminen](warehouse-how-to-split-warehouse-activity-lines.md)|
 |Hae suoraan varastotyöntekijälle määritetyt poiminnat.|[Fyysisen varaston varausten etsiminen](warehouse-how-to-find-your-warehouse-assignments.md)|  
 
 ## <a name="see-also"></a>Katso myös  
