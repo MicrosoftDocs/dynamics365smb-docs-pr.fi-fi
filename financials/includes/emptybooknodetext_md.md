@@ -1,1 +1,1 @@
-<span data-ttu-id="a0522-101">Jos haluat nähdä tämän osan ohjeaiheet, valitse kohdan **Katso myös** linkit.</span><span class="sxs-lookup"><span data-stu-id="a0522-101">To see the topics in this section, choose the links under **See Also**.</span></span>
+<span data-ttu-id="8ec85-101">Jos haluat nähdä tämän osan ohjeaiheet, valitse kohdan **Katso myös** linkit.</span><span class="sxs-lookup"><span data-stu-id="8ec85-101">To see the topics in this section, choose the links under **See Also**.</span></span>
