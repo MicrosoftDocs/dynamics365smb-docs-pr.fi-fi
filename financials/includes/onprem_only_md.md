@@ -1,0 +1,1 @@
+<span data-ttu-id="5bc30-101">Isabel-toiminnot ovat nyt käytettävissä vain paikallisissa käyttöönotoissa.</span><span class="sxs-lookup"><span data-stu-id="5bc30-101">The Isabel features are available only for on-premises deployments.</span></span>
