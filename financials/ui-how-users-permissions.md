@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 01/25/2018
+ms.date: 03/08/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 7f02d9718f4697e5d7eb9113d52e8d6572555b52
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: e78504959c5e858b420ac463d0a6adbaccad9481
 ms.contentlocale: fi-fi
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="manage-users-and-permissions"></a>Käyttäjien ja käyttöoikeuksien hallinta
@@ -22,11 +22,9 @@ Käyttäjiä voi lisätä [!INCLUDE[d365fin](includes/d365fin_md.md)]iin sen jä
 
 Kun käyttäjät on luotu Office 365:ssa, heidät voidaan tuoda **Käyttäjät**-ikkunaan **Hae käyttäjät Office 365:stä** -toiminnolla. Käyttäjille määritetään käyttöoikeusjoukot sen mukaan, mitä palvelupaketti on määritetty käyttäjälle Office 365:ssä.
 
-Voit sitten määrittää käyttäjille käyttöoikeusjoukkoja, jotka määrittävät, mitä tietokantaobjekteja siten myös mitä käyttöliittymäelementtejä käyttäjät saavat käyttää ja missä yrityksissä niitä saa käyttää.
+Voit sitten määrittää käyttäjille käyttöoikeusjoukkoja, jotka määrittävät, mitä tietokantaobjekteja siten myös mitä käyttöliittymäelementtejä käyttäjät saavat käyttää ja missä yrityksissä niitä saa käyttää. Voit lisätä käyttäjiä käyttäjäryhmiin. Tämä helpottaa samojen käyttöoikeusjoukkojen määrittämistä useille käyttäjille.
 
 Oikeussarja on joukko tietyn tietokannan objektien käyttöoikeuksia. Kaikille käyttäjille on määritettävä vähintään yksi käyttöoikeusjoukko, ennen kuin he voivat käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]ia. Tietyt ennalta määritetyt käyttöoikeusryhmät ovat valmiina oletusarvoisesti. Voit käyttää näitä käyttöoikeusjoukkoja oletuksena, muokata käyttöoikeuksien oletusjoukkoja tai luoda lisäkäyttöoikeusjoukkoja.
-
-Voit lisätä käyttäjiä käyttäjäryhmiin. Tämä helpottaa samojen käyttöoikeusjoukkojen määrittämistä useille käyttäjille.
 
 Järjestelmänvalvojat voivat määrittää **Käyttäjäasetukset**-ikkunassa ajanjaksoja, joiden aikana määritetyt käyttäjät voivat tehdä kirjauksia. He voivat myös määrittää, kirjaako järjestelmä ajan, jonka käyttäjät olivat kirjautuneena.
 
@@ -42,13 +40,9 @@ Voit määrittää käyttäjäryhmiä auttamaan hallitsemaan oikeusryhmät käyt
 
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Käyttäjät** ja valitse sitten liittyvä linkki.
 2. Vaihtoehtoisesti voit valita **Käyttäjät**-ikkunassa **Käyttäjäryhmät**-toiminnon.
-3. Valitse **Käyttäjäryhmät**-ikkunassa ensin kopioitava aiemmin luotu käyttäjäryhmä ja sitten **Kopio käyttäjäryhmä** -toiminto.
-4. Määritä **Uuden käyttäjäryhmän koodi** -kentässä uuden käyttäjäryhmän nimi ja valitse sitten **OK**-painike.
-
-    Kopioinnin sijaan voit luoda uuden rivin tyhjälle käyttäjäryhmälle valitsemalla Uusi-toiminnon ja täyttää sen sitten manuaalisesti.
-5. Voit lisätä uusia käyttäjiä tai lisäkäyttäjiä valitsemalla **Käyttäjäryhmä**-ikkunassa **Käyttäjäryhmän jäsenet** -toiminnon.
-6. Täytä **Käyttäjäryhmän jäsenet** -ikkunan uudella rivillä tarvittavat kentät tekemällä valintoja aiemmin luoduista jäsenistä.
-7. Voit lisätä uusia käyttöoikeusjoukkoja tai lisäkäyttöoikeusjoukkoja valitsemalla **Käyttäjäryhmä**-ikkunassa **Käyttäjäryhmän käyttöoikeuksien joukot** -toiminnon.
+3. Valitse **Käyttäjäryhmä**-ikkunassa **Käyttäjäryhmän jäsenet** -toiminto.
+6. Valitse **Käyttäjäryhmän jäsenet** -ikkunassa **Lisää käyttäjiä** -toiminto.
+7. Voit lisätä uusia käyttöoikeusjoukkoja tai lisäkäyttöoikeusjoukkoja valitsemalla **Käyttäjäryhmät**-ikkunassa **Käyttäjäryhmän käyttöoikeuksien joukot** -toiminnon.
 8. Täytä **Käyttäjäryhmän käyttöoikeuksien joukot** -ikkunan uudella rivillä tarvittavat kentät tekemällä valintoja aiemmin luoduista käyttöoikeuksien joukoista.
 
 ## <a name="to-set-up-user-time-constraints"></a>Määritä käyttäjän aikarajoitukset

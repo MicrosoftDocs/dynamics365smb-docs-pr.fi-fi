@@ -1,0 +1,1 @@
+Isabel-toiminnot ovat nyt käytettävissä vain paikallisissa käyttöönotoissa.

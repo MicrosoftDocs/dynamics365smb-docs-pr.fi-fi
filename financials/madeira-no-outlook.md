@@ -12,17 +12,17 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 0602/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 81587638e5a92b48bb1bef406423c23e061f2241
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 29304bbbac28926247dfd6a6304647770dcd8114
 ms.contentlocale: fi-fi
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="using-finance-and-operations-business-edition-without-outlook"></a>Finance and Operations, Business editionin käyttäminen ilman Outlookia
 [!INCLUDE[d365fin](includes/d365fin_md.md)] on integroitu tiiviisti Office 365:n kanssa, ja voit käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]ia Outlookissa yrityssähköpostina. Jos Outlook ei ole käytössä, [!INCLUDE[d365fin](includes/d365fin_md.md)]ia voi käyttää selaimessa tai mobiililaitteessa.  
 
 ## <a name="sending-email"></a>Sähköpostin lähettäminen
-Voit lähettää asiakirjoja, kuten laskuja, sähköpostina käyttämällä yrityksen sähköpostiosoitetta. Kotisivulta voit käyttää avustettua asennusopasta, joka auttaa sähköpostin määrittämisessä. Jos Office 365 -sähköpostitili ei ole käytössä, sinun on määritettävä sähköpostipalvelimen tekniset tiedot. Jos tiedot eivät ole käytettävissä, ota yhteys IT-tukeen.  
+Voit lähettää asiakirjoja, kuten laskuja, sähköpostina käyttämällä yrityksen sähköpostiosoitetta. Roolikeskuksesta voit käyttää avustettua asennusopasta, joka auttaa sähköpostin määrittämisessä. Jos Office 365 -sähköpostitili ei ole käytössä, sinun on määritettävä sähköpostipalvelimen tekniset tiedot. Jos tiedot eivät ole käytettävissä, ota yhteys IT-tukeen.  
 
 
 ## <a name="see-also"></a>Katso myös

@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 2df47e6f5bcd7b02282e45757d94bd6fc0f0981d
 ms.contentlocale: fi-fi
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Vaihekuvaus: Projektinhallinta Projektit-sovellusalueen avulla
@@ -88,10 +88,10 @@ Tämä vaihekuvaus keskittyy suunnittelu- ja konsulttiyritykseen CRONUS Finland 
 5.  Lisää seuraavat tiedot **Laskutus**-pikavälilehteen:  
 
     -   **Välitön yksikkökustannus**: **5**  
-    -   **Välillinen kustannus****4**  
+    -   **Välillinen kustannus**: **4**  
     -   **Yksikkökustannus**: **10**  
     -   **Yleinen tuotteen kirjausryhmä**: **Palvelut**  
-    -   **Tuotteen ALV-kirjausryhmä****ALV 25**  
+    -   **Tuotteen ALV-kirjausryhmä**: **ALV 25**  
 
 6.  Tallenna muutokset valitsemalla **OK**-painike.  
 

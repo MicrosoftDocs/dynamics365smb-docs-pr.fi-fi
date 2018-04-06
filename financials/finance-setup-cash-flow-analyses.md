@@ -13,10 +13,10 @@ ms.search.keywords: money flow, expense and income, liquidity, cash receipts min
 ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 7fd5d5885439a34ca18ae4ed8d7c0bfb577c0174
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 1f6b31663aad5c777d16b82742bf11c7dce05264
 ms.contentlocale: fi-fi
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Kassavirta-analyysin määrittäminen
@@ -67,13 +67,15 @@ Voit käyttää avustettua asennusopasta seuraavissa toiminnoissa:
 
 1. Valitse Kirjanpitäjä-roolikeskuksen **Kassavirtaennuste**-kaaviossa **Avaa avustettu määritys** -toiminto.  
 2. Täytä kentät oppaan kussakin vaiheessa.  
-3. Valitse aloitussivulla kaavion yläpuolella **Kassavirtaennuste** ja sitten **Laske ennuste uudelleen**.  
+3. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Kassavirtaennuste** ja valitse sitten aiheeseen liittyvä linkki.
+4. Valitse **Kassavirtaennuste**-ikkunassa **Laske ennuste uudelleen** -toiminto.  
 
 Voit käyttää manuaalista prosessia seuraavasti:  
 
 1. Etsi Kirjanpitäjä-roolikeskuksessa **Kassavirran asetukset** ja valitse sitten vastaava linkki.  
 2. Laajenna **Cortana Intelligence**-pikavälilehti ja valitse sitten **Cortana Intelligence käytössä** -valintaruutu.  
-3. Valitse aloitussivulla kaavion yläpuolella **Kassavirtaennuste** ja sitten **Laske ennuste uudelleen**.  
+3. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Kassavirtaennuste** ja valitse sitten aiheeseen liittyvä linkki.
+4. Valitse **Kassavirtaennuste**-ikkunassa **Laske ennuste uudelleen** -toiminto.  
 
 > [!TIP]  
 >   Mieti, miten pitkiä jaksoja palvelun laskelmissa käytetään. Mitä enemmän tietoja on käytettävissä, sitä tarkempia ennusteet ovat. Varo myös suuria jaksovaihteluita. Ne vaikuttavat myös ennusteisiin. Jos Cortana Intelligence ei löydä riittävästi tietoja tai tiedot ovat kovin erilaisia, palvelu ei voi tehdä ennustetta.  

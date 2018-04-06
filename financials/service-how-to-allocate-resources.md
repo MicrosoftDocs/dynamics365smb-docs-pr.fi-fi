@@ -14,7 +14,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: e975a945b878c39dc095e2e129a4ac0c02ee6c29
 ms.contentlocale: fi-fi
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 
@@ -75,7 +75,7 @@ Kun huoltotilaus tai tilaustarjous on luotu ja täytetty, voidaan asiakirjan huo
 ## <a name="to-reallocate-resources-on-a-service-order"></a>Huoltotilauksen resurssien uudelleenkohdistaminen  
 Resursseja voidaan kohdistaa uudelleen suoraan huoltotilauksesta tai huoltotarjouksesta tätä käsiteltäessä. Alkuperäinen tapahtuma on edelleen olemassa, mutta sen tila päivitetään seuraavalla tavalla:  
 
-* Jos huolto aloitettiin silloin, kun kohdistus oli **Aktiivinen** (eli tapahtumassa olevan huoltonimikkeen korjauksen tilaksi muutettiin **Työn alla**), ohjelma muuttaa kohdistuksen tilan **Uudelleenkohdistus tarvitaan****Valmiiksi**.  
+* Jos huolto aloitettiin silloin, kun kohdistus oli **Aktiivinen** (eli tapahtumassa olevan huoltonimikkeen korjauksen tilaksi muutettiin **Työn alla**), ohjelma muuttaa kohdistuksen tilan **Uudelleenkohdistus tarvitaan** **Valmiiksi**.  
 * Jos huoltoa ei aloitettu silloin, kun kohdistus oli **Aktiivinen**, ohjelma muuttaa kohdistuksen tilan **Uudelleenkohdistus tarvitaan** **Peruutetuksi**.  
 * Jos olet kohdistamassa uudelleen huoltotilausta, jonka olet muuntanut tarjouksesta, ohjelma muuttaa aina tarjoukselle rekisteröityjen kohdistustapahtumien tilaksi **Valmis** silloin, kun huoltotilauksessa olevia huoltonimikkeitä uudelleenkohdistetaan.  
 
@@ -100,7 +100,7 @@ Jos huoltotehtävään kohdistettu resurssi ei kykene suorittamaan tehtävää, 
     > [!NOTE]  
     >  Vanha tapahtuma on edelleen olemassa, mutta ohjelma päivittää sen tilan seuraavalla tavalla:  
     >   
-    >  * Jos huolto aloitettiin silloin, kun kohdistus oli **Aktiivinen** (eli tapahtumassa olevan huoltonimikkeen korjauksen tilaksi muutettiin **Työn alla**), ohjelma muuttaa kohdistuksen tilan **Uudelleenkohdistus tarvitaan****Valmiiksi**.  
+    >  * Jos huolto aloitettiin silloin, kun kohdistus oli **Aktiivinen** (eli tapahtumassa olevan huoltonimikkeen korjauksen tilaksi muutettiin **Työn alla**), ohjelma muuttaa kohdistuksen tilan **Uudelleenkohdistus tarvitaan** **Valmiiksi**.  
     > * Jos huoltoa ei aloitettu silloin, kun kohdistus oli **Aktiivinen**, ohjelma muuttaa kohdistuksen tilan **Uudelleenkohdistus tarvitaan** **Peruutetuksi**.  
     > * Jos olet kohdistamassa uudelleen huoltotilausta, jonka olet muuntanut tarjouksesta, tarjoukselle rekisteröityjen kohdistustapahtumien tilaksi muutetaan **Valmis** aina silloin, kun huoltotilauksessa olevia huoltonimikkeitä uudelleenkohdistetaan.  
 

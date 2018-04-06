@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 4020910008e47fdf5a7e4626aa84e0f64cf0905f
 ms.contentlocale: fi-fi
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="allocation-status-and-repair-status-of-service-items"></a>Huoltonimikkeen kohdistuksen tila ja korjauksen tila
@@ -50,7 +50,7 @@ Ohjelma päivittää kohdistustapahtumassa olevan huoltonimikkeen korjauksen til
 ## <a name="reallocating-an-active-allocation-entry"></a>Aktiivisen kohdistustapahtuma uudelleenkohdistaminen  
 Kun huoltonimike uudelleenkohdistetaan kohdistustapahtumassa, jonka tila on **Aktiivinen**, ohjelma päivittää kohdistustapahtuman seuraavilla tavoilla:  
   
-* Jos huolto aloitettiin silloin, kun kohdistus oli **Aktiivinen** (eli tapahtumassa olevan huoltonimikkeen korjauksen tilaksi muutettiin **Työn alla**), ohjelma muuttaa kohdistuksen tilan **Aktiivisesta****Valmiiksi**.  
+* Jos huolto aloitettiin silloin, kun kohdistus oli **Aktiivinen** (eli tapahtumassa olevan huoltonimikkeen korjauksen tilaksi muutettiin **Työn alla**), ohjelma muuttaa kohdistuksen tilan **Aktiivisesta** **Valmiiksi**.  
 * Jos huoltoa ei aloitettu silloin, kun kohdistus oli **Aktiivinen**, ohjelma muuttaa kohdistuksen tilan **Aktiivisesta** **Peruutetuksi**.  
   
 Ohjelma päivittää kohdistustapahtumassa olevan huoltonimikkeen korjauksen tilan samalla tavalla kuin olisit peruuttanut kohdistuksen:  
@@ -63,7 +63,7 @@ Ohjelma luo uuden kohdistustapahtuman, joka sisältää uuden resurssin ja jonka
 ## <a name="reallocating-a-service-item"></a>Huoltonimikkeen uudelleenkohdistaminen  
 Kun huoltonimike uudelleenkohdistetaan kohdistustapahtumassa, jonka tilana on **Uudelleenkohdistamista tarvitaan**, ohjelma päivittää kohdistustapahtuman seuraavilla tavoilla:  
   
-* Jos huolto aloitettiin silloin, kun kohdistus oli **Aktiivinen** (eli tapahtumassa olevan huoltonimikkeen korjauksen tilaksi muutettiin **Työn alla**), ohjelma muuttaa kohdistuksen tilan **Uudelleenkohdistus tarvitaan****Valmiiksi**.  
+* Jos huolto aloitettiin silloin, kun kohdistus oli **Aktiivinen** (eli tapahtumassa olevan huoltonimikkeen korjauksen tilaksi muutettiin **Työn alla**), ohjelma muuttaa kohdistuksen tilan **Uudelleenkohdistus tarvitaan** **Valmiiksi**.  
 * Jos huoltoa ei aloitettu silloin, kun kohdistus oli **Aktiivinen**, ohjelma muuttaa kohdistuksen tilan **Uudelleenkohdistus tarvitaan** **Peruutetuksi**.  
   
 Uusi kohdistustapahtuma sisältää uuden resurssin ja sen tila on **Aktiivinen**.  

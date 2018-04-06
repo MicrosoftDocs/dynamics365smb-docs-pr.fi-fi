@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: b31ba087798c3f54e54403ed418019c82ce3091c
 ms.contentlocale: fi-fi
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="calculate-order-promising-dates"></a>Toimituksen lupaamisen päivämäärien laskeminen
@@ -39,7 +39,7 @@ Jos et ole määrittänyt pyydettyä toimituspäivämäärää myyntitilausrivil
 ## <a name="about-order-promising"></a>Tietoja toimituksen lupaamisesta
 Toimituksen lupaamistoiminnon ansiosta voidaan luvata, että tilaus lähetetään tai toimitetaan tiettynä päivänä. Ohjelma laskee päivämäärän, jolloin nimike on luvattavissa tai mahdollinen luvattavaksi, ja se luo tilausrivejä niille päivämäärille, jotka hyväksyt. Toiminto laskee aikaisimman mahdollisen päivämäärän, jolloin nimike on saatavilla toimitusta tai lähetystä varten. Se luo myös hankintarivit hyväksytyille päivämäärille siinä tapauksessa, että nimikkeiden on oltava ensin ostoja.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  käyttää kahta peruskäsitettä:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] käyttää kahta peruskäsitettä:  
 
 - Luvattavissa (ATP)  
 - Mahdollinen luvattavaksi (CTP)  
@@ -64,7 +64,7 @@ Jos asiakas ei pyydä tiettyä toimituspäivämäärää, toimituspäivämäär�
 - Toimituspvm + Lähtevä f.var. + Suunniteltu toimituspvm + Käsittelyaika = Pvm  
 - Suunniteltu toimituspvm + Toimitusaika = Suunniteltu toimituspvm  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  tarkistaa sitten, onko laskettu toimituspäivä mahdollinen laskemalla ajassa taaksepäin, milloin nimikkeen on oltava saatavissa, jotta luvattu päivämäärä toteutuisi. Tämä toteutetaan seuraavilla kaavoilla:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] tarkistaa sitten, onko laskettu toimituspäivä mahdollinen laskemalla ajassa taaksepäin, milloin nimikkeen on oltava saatavissa, jotta luvattu päivämäärä toteutuisi. Tämä toteutetaan seuraavilla kaavoilla:  
 
 - Suunniteltu lähetyspvm + Toimitusaika = Suunniteltu toimituspvm  
 - Suunniteltu toimituspvm - Lähtevä f.var. käsittelyaika= Toimituspvm  

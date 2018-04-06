@@ -12,16 +12,16 @@ ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
 ms.date: 03/30/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: dc22f7e06cf0686238cf1b6ab43951f3943e38a3
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: a31558764cf8c2bccde7598119216096803eb1ca
 ms.contentlocale: fi-fi
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="send-documents-by-email"></a>Asiakirjojen lähettäminen sähköpostitse
 Voit kertoa liiketoiminta-asiakirjojen sisällön, kuten esimerkiksi asiakkaiden myyntiasiakirjojen maksutiedot, liiketoimintakumppaneille nopeasti Raporttiasettelu-toiminnolla. Voit määrittää asiakirjakohtaisen sisällön, joka lisätään sähköpostien perustekstiin automaattisesti. Lisätietoja on kohdassa [Raporttien ja asiakirjojen asettelujen hallinta](ui-manage-report-layouts.md).
 
-Ota sähköpostit käyttöön [!INCLUDE[d365fin](includes/d365fin_md.md)]issa käynnistämällä avustetun **Määritä sähköposti** -asennuksen aloitussivulla.
+Ota sähköpostit käyttöön [!INCLUDE[d365fin](includes/d365fin_md.md)]issa käynnistämällä avustetun **Määritä sähköposti** -asennuksen roolikeskuksessa.
 
 Voit lähettää käytännössä kaikkia asiakirjatyyppejä sähköpostitse sähköpostiviestien liitteinä suoraan asiakirjan ikkunasta. Liitteen lisäksi voit määrittää asiakirjakohtaisia sähköpostin perustekstejä, jotka sisältävät asiakirjan perustiedot. Niitä edeltää vakioteksti, jossa tervehditään viestin vastaanottajaa ja esitellään kyseessä oleva asiakirja. Voit tarjota asiakkaillesi mahdollisuuden maksaa sähköisesti käyttämällä maksupalvelua, kuten PayPalia. Sähköpostin perustekstiin voi siten lisätä myös PayPal-tiedot ja -hyperlinkin.
 

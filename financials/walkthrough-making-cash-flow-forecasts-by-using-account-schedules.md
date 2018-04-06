@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 25319bae1d601d6beddca35cf8edc032ac11eda6
 ms.contentlocale: fi-fi
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Vaihekuvaus: tehdään kassavirtaennusteita käyttäen KP-raporttimalleja
@@ -34,7 +34,7 @@ Tässä vaihekuvauksessa käsitellään seuraavia tehtäviä:
 ### <a name="prerequisites"></a>Vaatimukset  
 Tämän vaihekuvauksen ohjeiden noudattamisen edellytykset:  
 
-- [!INCLUDE[d365fin](includes/d365fin_md.md)]  on asennettu.  
+- [!INCLUDE[d365fin](includes/d365fin_md.md)] on asennettu.  
 - Kassavirran rivit on rekisteröity.  
 
 ## <a name="roles"></a>Roolit  

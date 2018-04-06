@@ -8,19 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: migration, Excel
-ms.date: 07/05/2017
+ms.date: 03/07/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 53c32e77be0ec3dad95ca61cefa1f0db6ac4809b
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 591d8100100ee717a932d188a87545fe4098a001
 ms.contentlocale: fi-fi
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="importing-data-from-legacy-accounting-software-using-a-configuration-package"></a>Tietojen tuominen vanhasta kirjanpito-ohjelmistosta määrityspaketin avulla
 Voit tuoda päätiedot ja joitakin tapahtumatietoja muista rahoitusjärjestelmistä [!INCLUDE[d365fin](includes/d365fin_md.md)]in oletusmäärityspaketin perusteella. Voit käsitellä tuotavaa pakettia **Määrityspaketit**-ikkunassa, jossa voit myös tarkistaa tiedot ennen paketin käyttämistä.  
 
-Jos RapidStart Services for Microsoft Dynamics on sinulle tuttu, tunnet myös määrityspaketit. Oletusmäärityspaketti tukee useimpia vanhasta järjestelmästä tuotavia tietotyyppejä. Voit sitten lisätä Excelissä vanhan järjestelmän tiedot ja käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]in liiketoimintalogiikan mukaisia määrityksiä.  
+> [!NOTE]  
+> Määrityspaketit ovat [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman RapidStart Services -palvelun osa. Ne ovat laajoja työkalupaketteja, joiden avulla määritetään uusia ratkaisuja asiakkaiden liiketoimintavaatimusten ja asetustietojen perusteella. RapidStart Services sisältää myös vanhojen tietojen tuontitoimintoja. Lisätietoja on kohdassa [Yrityksen määrittäminen RapidStart Services -palvelun avulla](admin-set-up-a-company-with-rapidstart.md).
 
 > [!TIP]  
 >   Voit myös käyttää tietojen siirtotoimintoja, jos haluat tuoda tietoja QuickBooksista tai Dynamics GP:stä. Lisätietoja on kohdassa [QuickBooks-tietojen siirto](ui-extensions-quickbooks-data-migration.md) tai [Dynamics GP -tietojen siirto](ui-extensions-dynamicsgp-data-migration.md).  
@@ -66,6 +67,7 @@ Kun asiakastiedot on annettu Excelissä, tiedot tuodaan [!INCLUDE[d365fin](inclu
 
 ## <a name="see-also"></a>Katso myös
 [Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä](upload-data.md)  
+[Yrityksen määrittäminen RapidStart Services -palvelun avulla](admin-set-up-a-company-with-rapidstart.md)  
 [QuickBooks-tietojen siirto](ui-extensions-quickbooks-data-migration.md)  
 [Dynamics GP -tietojen siirto](ui-extensions-dynamicsgp-data-migration.md)  
 

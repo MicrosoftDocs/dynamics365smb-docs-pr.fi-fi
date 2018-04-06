@@ -18,11 +18,11 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 654c34bc09967247617bda7be070a9c0ec6f635d
 ms.contentlocale: fi-fi
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="managing-payables"></a>Ostovelkojen hallinta
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  sisältää kaiken, mitä tarvitset ostoreskontran tehokkaaseen hallintaan.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] sisältää kaiken, mitä tarvitset ostoreskontran tehokkaaseen hallintaan.  
 
 ## <a name="payments"></a>Maksut
 Sen avulla on helppo priorisoida maksut, ottaa huomioon erääntymismaksut ja käsitelle aikaisin suoritettujen maksujen alennukset.
@@ -32,10 +32,10 @@ Voit kirjata maksut yleiseen päiväkirjaan ja tulostaa sitten sekit ennen maksu
 Voit kohdistaa maksut sulkemaan laskut maksun kirjaamisen yhteydessä tai kirjaamisen jälkeen. Toimittajalle (**toimittajakortissa**) määritetty **Kohdistustapa** määrittää, kohdistetaanko maksu manuaalisesti vai automaattisesti. Voit aina kohdistaa tapahtumia manuaalisesti. Jos toimittajan kohdistustapa on **Kohdista vanhimpaan** etkä määritä asiakirjaa, johon maksu kohdistetaan, maksu kohdistetaan toimittajan vanhimpaan avoinna olevaan tapahtumaan.
 
 ## <a name="suggest-vendor-payments"></a>Ehdota toimittajamaksuja
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  voi ehdottaa eri maksuja toimittajille, kuten maksuja, jotka erääntyvät pian, ja maksuja, joista voi saada alennuksen. Maksuehdotus voi ottaa huomioon summan, jonka määrität saatavilla olevina varoina maksuihin, ja kelpoisuuden maksualennuksiin.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] voi ehdottaa eri maksuja toimittajille, kuten maksuja, jotka erääntyvät pian, ja maksuja, joista voi saada alennuksen. Maksuehdotus voi ottaa huomioon summan, jonka määrität saatavilla olevina varoina maksuihin, ja kelpoisuuden maksualennuksiin.
 
 ## <a name="issue-checks"></a>Sekkien myöntäminen
-[!INCLUDE[d365fin](includes/d365fin_md.md)] issa sekit voi myöntää toimittajille manuaalisesti ja sähköisesti. Kumpikin tehdään **Maksupäiväkirjat**-ikkunassa, jossa voit myös mitätöidä sekkejä ja tarkastella sekkitapahtumia.
+[!INCLUDE[d365fin](includes/d365fin_md.md)]issa sekit voi myöntää toimittajille manuaalisesti ja sähköisesti. Kumpikin tehdään **Maksupäiväkirjat**-ikkunassa, jossa voit myös mitätöidä sekkejä ja tarkastella sekkitapahtumia.
 
 ## <a name="export-payments-to-a-bank-file"></a>Maksujen vienti pankkitiedostoon
 Kun olet valmis maksamaan toimittajille, voit viedä tiedoston päiväkirjan riveiltä **Maksupäiväkirja**-ikkunassa maksutietojen kanssa. Voit sitten ladata tiedoston verkkopankkiin rahansiirtojen käsittelyä varten.

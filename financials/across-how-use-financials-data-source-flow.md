@@ -12,10 +12,10 @@ ms.search.keywords: workflow, Odata, Power App, SOAP
 ms.date: 01/25/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: ef4d841723b6bb0af37695a8c3ed1d805319be78
+ms.sourcegitcommit: b4e2e7bc1c2622d329c73ae5bf47b4accff10aa8
+ms.openlocfilehash: dde99e50c6984a7ec162b4047e8640e6affb3f25
 ms.contentlocale: fi-fi
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="using-included365finincludesd365finmdmd-in-an-automated-workflow"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen automaattisessa työnkulussa
@@ -29,9 +29,6 @@ Voit käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietoja työnkulun
 2. Valitse sivun yläosan valintanauhassa **Omat Flow't**.
 3. Valitse **Omat Flow't** -ikkunassa **Luo tyhjästä mallista** -asetus.
 4. Valitse käytettävissä olevien käynnistimien luettelosta jokin [!INCLUDE[d365fin](includes/d365fin_md.md)] -käynnistin:  
-    *Kun tietue on luotu*  
-    *Kun tietue poistetaan*  
-    *Kun tietuetta muokataan*  
     *Kun asiakkaan hyväksyntää on pyydetty*  
     *Kun yleisen päiväkirjan erän hyväksymistä on pyydetty*  
     *Kun yleisen päiväkirjan rivin hyväksymistä on pyydetty*  
@@ -39,11 +36,7 @@ Voit käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietoja työnkulun
     *Kun ostoasiakirjan hyväksyntää on pyydetty*  
     *Kun myyntiasiakirjan hyväksyntää on pyydetty* tai  
     *Kun toimittajan hyväksyntää on pyydetty*.
-5. Flow joka kysyy sinulta tietoja, joita tarvitaan [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietojen yhdistämistä varten. Yrityksen nimi ja taulukon nimi on valittava, jos valitsit jonkin seuraavista käynnistimistä: *Kun tietue luodaan*, *Kun tietuetta muokataan* tai *Kun tietue poistetaan*. Muissa käynnistimissä vain yrityksen nimi on yhdistettävä.
-
-   Flow näyttää luettelon yrityksistä taulukoista, joita voi käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]ista. Nämä taulukot tai päätepisteet viittaavat kaikkiin [!INCLUDE[d365fin](includes/d365fin_md.md)]ista julkaistuihin verkkopalveluihin.
-
-   Voit vaihtoehtoisesti luoda uuden verkkopalvelun URL-osoitteen [!INCLUDE[d365fin](includes/d365fin_md.md)]issa käyttämällä **Luo tietojoukko** -toimintoa **WWW-palvelut**-sivulla tai avustettua **Määritä raportointi** -asetusopasta tai valitsemalla **Muokkaa Excelissä** -toiminnon missä tahansa luettelossa.
+5. Flow pyytää valitsemaan yrityksen [!INCLUDE[d365fin](includes/d365fin_md.md)] -vuokraajasta. Koska seuraavat vaiheet eivät vaikuta Flow'n vaiheisiin, saatat joutua määrittämään yrityksen useita kertoja [!INCLUDE[d365fin](includes/d365fin_md.md)] -mallissa.
 
 Olet nyt muodostanut yhteyden Finance and Operations, Business editionin tietoihin ja olet valmis aloittamaan oman työnkulun luomisen. Lisätietoja on kohdassa [Flow-dokumentaatio](https://flow.microsoft.com/documentation/getting-started/).
 

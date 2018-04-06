@@ -1,8 +1,6 @@
 ---
 title: "Rakennetiedot – Kustannusten muuttaminen | Microsoft Docs"
 description: "Kustannusten sopeuttamisen päätarkoitus on siirtää eteenpäin kustannusmuutokset kustannuslähteistä kustannusten vastaanottajille nimikkeen kustannuslaskentamenetelmän mukaisesti, jotta se tuottaisi oikean varaston arvostuksen."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 23/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 8520630e03e26c8c2aab5157fc1efb853552919a
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: d0733c7d96f10969a7d266031e5d1d0d7f83519f
 ms.contentlocale: fi-fi
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="design-details-cost-adjustment"></a>Rakennetiedot: kustannuksen muutos
@@ -171,13 +169,20 @@ Jos olet asettanut automaattisen kustannusten muutoksen käytettäväksi kirjauk
 Jos olet määrittänyt automaattisia kustannuksen muutoksia kirjauksiin, jotka tapahtuvat päivän tai viikon kuluessa nykyisestä työpäivästä, automaattinen kustannuksen muutos ei toimi ja oston kustannusta ei siirretä eteenpäin myyntiin, ennen kuin suoritat **Muuta kustannuksia - Nimiketapahtumat** -eräajon.  
 
 ## <a name="see-also"></a>Katso myös
+<<<<<<< HEAD [Nimikekustannusten muuttaminen](inventory-how-adjust-item-costs.md)  
+[Rakennetiedot: Muutoksen arvotapahtuman kirjauspäivämäärä](design-details-inventory-adjustment-value-entry-posting-date.md)  
+[Rakennetiedot: Varaston arvostus](design-details-inventory-costing.md)  
+[Rakennetiedot: täsmäytys pääkirjanpidon kanssa](design-details-reconciliation-with-the-general-ledger.md)  
+[Rakennetiedot: varaston kirjaus](design-details-inventory-posting.md)  
+[Rakennetiedot: varianssi](design-details-variance.md)  
+=======
 [Nimikekustannusten muuttaminen](inventory-how-adjust-item-costs.md)   
 [Rakennetiedot: Varaston arvostus](design-details-inventory-costing.md)   
 [Rakennetiedot: Täsmäytys pääkirjanpidon kanssa](design-details-reconciliation-with-the-general-ledger.md)   
-[Rakennetiedot: varaston kirjaus](design-details-inventory-posting.md)   
+[Rakennetiedot: Varastokirjaus](design-details-inventory-posting.md)   
 [Rakennetiedot: varianssi](design-details-variance.md)   
-[Rakennetiedot: kokoonpanotilauksen kirjaus](design-details-assembly-order-posting.md)   
-[Rakennetiedot: Tuotantotilauksen kirjaus](design-details-production-order-posting.md)
+>>>>>>> refs/remotes/origin/Update13 [Rakennetiedot: Kokoonpanotilauksen kirjaus](design-details-assembly-order-posting.md)   
+[Rakennetiedot: tuotantotilauksen kirjaus](design-details-production-order-posting.md)  
 [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)  
 [Rahoitus](finance.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  

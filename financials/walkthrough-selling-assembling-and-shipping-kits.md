@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 015acdfbbc349477b9e86225f2c971f993215000
 ms.contentlocale: fi-fi
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Vaihekuvaus: pakettien myynti, kokoaminen ja toimitus
@@ -36,7 +36,7 @@ Kokoonpanon osat määrittää niiden täydennysjärjestelmä ja kokoonpanon tuo
 -   Kokoonpanon tuoterakenteen luominen, joka listaa kokoonpanon osat ja resurssin, joka siirtyy kokoonpanon nimikkeeseen.  
 
 ### <a name="selling-customized-assembly-items"></a>Mukautetun kokoonpanon nimikkeiden myynti  
-[!INCLUDE[d365fin](includes/d365fin_md.md)] issa voi kirjata joustavasti sekä varastomäärän että Kokoonpano tilausta varten -määrän yhdelle myyntitilausriville. Tässä osassa käsitellään seuraavia tehtäviä:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]issa voi kirjata joustavasti sekä varastomäärän että Kokoonpano tilausta varten -määrän yhdelle myyntitilausriville. Tässä osassa käsitellään seuraavia tehtäviä:  
 
 -   Puhtaan ATO-myyntitilausrivin luominen, jossa koko määrä ei ole käytettävissä ja on koottava ennen lähetystä.  
 -   ATO-kohteiden mukauttaminen.  
@@ -108,7 +108,7 @@ Luo varasto kokoonpanon osille noudattamalla näiden vaihekohtaisten ohjeiden os
 ## <a name="story"></a>Taustatietoja  
 23. tammikuuta myyntitilausten käsittelijä Sanna ottaa Laitekauppa-yritykseltä tilauksen kolmesta tuotepaketti B:stä, joka on ATO-nimike. Kaikki kolme yksikköä on mukautettu, ja niissä on oltava tehokas grafiikkakorttti ja ylimääräistä RAM-muistia. Levyasemat päivitetään DVD-asemiksi, koska CD-asemia ei ole saatavilla. Sanna tietää, että yksiköt voidaan koota heti, joten hän jättää ehdotetuksi toimituspäiväksi tammikuun 23. päivän.  
 
-Samaan aikaan asiakas tilaa 15 yksikköä sarjaa A erityispyynnöllä, jonka mukaan viisi yksikköä mukautetaan tehokkaammalla grafiikkakortilla. Vaikka sarja A Kit on yleensä kokoonpano varastoon -nimike, tilausten käsittelijä yhdistää myyntirivimäärät myydäkseen kymmenen yksikköä varastosta ja kootakseen viisi mukautettua yksikköä tilaukseen. Sarjan A kymmenen yksikköä eivät ole käytettävissä ja kokoonpanotilauksen pitää toimittaa ne ensin varastoon nimikkeen kokoonpanokäytännön mukaisesti. Sanna kuulee kokoonpano-osastolta, että A-sarjan yksiköitä ei voida saada kuluvan viikon aikana valmiiksi. Hän asettaa yhdistelmä-ATO:n ja varaston määrän kohdalle toisen myyntitilausrivin toimituspäivämääräksi 27. tammikuuta ja ilmoittaa asiakkaalle, että paketti A:n 15 yksikköä toimitetaan neljä päivää paketti B:n kolmen yksikön jälkeen. Sanna ilmoittaa lähetysosastolle, että tämä myyntitilaus edellyttää kokoonpanon käsittelyä. Hän luo fyysisen varastoinnin toimituksen asiakirjan myyntitilauksesta.  
+Samaan aikaan asiakas tilaa 5 yksikköä sarjaa A erityispyynnöllä, jonka mukaan viisi yksikköä mukautetaan tehokkaammalla grafiikkakortilla. Vaikka sarja A Kit on yleensä kokoonpano varastoon -nimike, tilausten käsittelijä yhdistää myyntirivimäärät myydäkseen kymmenen yksikköä varastosta ja kootakseen viisi mukautettua yksikköä tilaukseen. Sarjan A kymmenen yksikköä eivät ole käytettävissä ja kokoonpanotilauksen pitää toimittaa ne ensin varastoon nimikkeen kokoonpanokäytännön mukaisesti. Sanna kuulee kokoonpano-osastolta, että A-sarjan yksiköitä ei voida saada kuluvan viikon aikana valmiiksi. Hän asettaa yhdistelmä-ATO:n ja varaston määrän kohdalle toisen myyntitilausrivin toimituspäivämääräksi 27. tammikuuta ja ilmoittaa asiakkaalle, että paketti A:n 15 yksikköä toimitetaan neljä päivää paketti B:n kolmen yksikön jälkeen. Sanna ilmoittaa lähetysosastolle, että tämä myyntitilaus edellyttää kokoonpanon käsittelyä. Hän luo fyysisen varastoinnin toimituksen asiakirjan myyntitilauksesta.  
 
 Suunnittelija Eduardo ajaa suunnittelutyökirjan ja luo kokoonpanotilauksen kymmenelle paketin A vakioyksikölle, jonka sisäinen eräpäivä on 27. tammikuuta.  
 
@@ -423,7 +423,7 @@ Kun myyntitilaus on myöhemmin kirjattu kokonaan laskutetuksi, myyntitilaus ja l
 
     Fyysisen varastoinnin toimituksen asiakirja poistetaan, mikä ilmaisee, että asiaan liittyvät varastotoiminnot on suoritettu. Varmista seuraavaksi, että myyntitilaus on käsitelty.  
 
-10. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Ostotilaukset** ja valitse sitten aiheeseen liittyvä linkki.  
+10. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Myyntitilaukset** ja valitse sitten aiheeseen liittyvä linkki.  
 11. Avaa myyntitilaus Laitekauppa-yritystä varten.  
 
     Huomaa, että **Toimitettu määrä** -kenttä sisältää täyden määrän kummallakin rivillä.  

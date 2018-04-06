@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 27f3dd2e3ff6b15798c9d483480f4443992dc024
 ms.contentlocale: fi-fi
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="design-details-item-application"></a>Rakennetiedot: Nimikkeen kohdistus
@@ -68,7 +68,7 @@ Kun kirjaat varaston arvon nousun, tämän jälkeen tallennetaan yksinkertainen 
 ### <a name="example"></a>Esimerkki  
 Seuraavassa taulukossa esitetään nimikkeen käyttökirjaus, joka luodaan, kun tiliöit 10 yksikön ostokuitit.  
   
-|Kirjauspäivämäärä|Saapuva nimiketapahtuma|Lähtevän nimiketapahtuman nro|Määrä|Nimiketapahtuman nro|  
+|Kirjauspäivämäärä|Saapuvan nimiketapahtuman nro|Lähtevän nimiketapahtuman nro|Määrä|Nimiketapahtuman nro|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
 |01-01-20|1|0|10|1|  
   
@@ -82,7 +82,7 @@ Seuraava esimerkki näyttää nimikkeen kohdistustapahtuman, joka luodaan edelli
   
 Seuraavissa taulukoissa esitetään kaksi nimikkeen sovelluskirjausta, jotka aiheutuvat varaston kasvusta ja varaston vähennyksistä, tässä järjestyksessä.  
   
-|Kirjauspäivämäärä|Saapuva nimiketapahtuma|Lähtevän nimiketapahtuman nro|Määrä|Nimiketapahtuman nro|  
+|Kirjauspäivämäärä|Saapuvan nimiketapahtuman nro|Lähtevän nimiketapahtuman nro|Määrä|Nimiketapahtuman nro|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
 |01-01-20|1|0|10|1|  
 |01-03-20|1|2|-5|2|  
@@ -111,7 +111,7 @@ Koska kiinteä kohdistus tehdään ostopalautuksesta toiselle ostotapahtumalle, 
   
 Seuraavassa taulukossa esitetään nimikkeen käyttökirjaus, joka johtuu kiinteästä sovelluksesta.  
   
-|Kirjauspäivämäärä|Saapuva nimiketapahtuma|Lähtevän nimiketapahtuman nro|Määrä|Nimiketapahtuman nro|  
+|Kirjauspäivämäärä|Saapuvan nimiketapahtuman nro|Lähtevän nimiketapahtuman nro|Määrä|Nimiketapahtuman nro|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
 |01-06-20|1|3|10|3|  
   

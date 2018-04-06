@@ -13,17 +13,17 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 4e76980237c79919b0e90ae75115c1571a6cdb85
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 83aabad9c08bd232c05016be008a45b1f8dce0b6
 ms.contentlocale: fi-fi
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="create-segments"></a>Segmenttien luominen
 Voit luoda segmenttejä, kun haluat luoda kontaktiryhmän - jos esimerkiksi haluat luoda vuorovaikutuksen, johon sisältyy useita kontakteja (esimerkiksi postituksessa).
 
 ## <a name="to-create-a-segment"></a>Segmenttien luominen
-1. Valitse kotisivulla **Aktiiviset segmentit**. Vaihtoehtoisesti voit valita ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvakkeen, kirjoittaa **Segmentit** ja valita sitten aiheeseen liittyvän linkin.
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Segmentit** ja valita sitten aiheeseen liittyvän linkin.
 2. Valitse **Uusi**-toiminto.
 3. Syötä **Yleiset**-osan **Nro**-kenttään segmentin numero.
 

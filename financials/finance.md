@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 06/28/2017
+ms.date: 02/28/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 71a311e3aefd22dd0c7d0af6eb24d54e0d2a1afe
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 655c2248d10b357fd6ac5f3dba5cf71d7fd2c77b
 ms.contentlocale: fi-fi
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="finance"></a>Rahoitus
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  sisältää useimpien taloushallinnon prosessien vakiomäärityksen. Voit muuttaa määritystä omaa liiketoimintaasi vastaavaksi. Lisätietoja on kohdassa [Rahoituksen määrittäminen](finance-setup-finance.md).
+[!INCLUDE[d365fin](includes/d365fin_md.md)] sisältää useimpien taloushallinnon prosessien vakiomäärityksen. Voit muuttaa määritystä omaa liiketoimintaasi vastaavaksi. Lisätietoja on kohdassa [Rahoituksen määrittäminen](finance-setup-finance.md).
 
 Oletusmääritys sisältää tilikartan ja vakiokirjausryhmät, joiden avulla oletuskirjanpitotilit voidaan liittää asiakkaille, toimittajille ja nimikkeille tehokkaammin.  
 
@@ -33,6 +33,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 |Saat asiakkaat lähettämään maksun ennen toimitusta tai lähetät itse maksun toimittajille, ennen kuin he toimittavat sinulle.|[Ennakkomaksujen laskuttaminen](finance-invoice-prepayments.md)|
 | Täsmäytä pankkitilejä ja siirrä varoja pankkitilien välillä. |[Pankkitilien hallinta](bank-manage-bank-accounts.md) |
 |Määritä konsernikumppanit ja käsittele tapahtumat manuaalisesti tai automaattisesti samaan yhtiöön kuuluvien yritysten välillä.|[Konsernitapahtumien hallinta](intercompany-manage.md)|
+|Yhdistää useiden yritysten pääkirjanpidon tapahtumat yhteen virtuaaliseen konsolidoituun yritykseen talousanalyysiä varten.|[Usean yrityksen kirjanpitotietojen konsolidoiminen](finance-consolidated-company-reporting.md)|
 |Analysoi liiketoiminnan kustannuksia kohdistamalla toimintojen, osastojen, toimintojen ja projektien toteutuneet ja budjetoidut kustannukset kustannuspaikkoihin.|[Kustannuslaskenta](finance-manage-cost-accounting.md)|
 |Varaston ja tuotannon kustannusten hallinta, kustannusten raportointi ja kustannusten täsmäyttäminen pääkirjanpitoon.|[Varaston kustannusten hallinta](finance-manage-inventory-costs.md)|
 | Tietoja pääkirjanpidosta ja tilikartasta. |[Pääkirjanpito ja aitoustodistus](finance-general-ledger.md) |

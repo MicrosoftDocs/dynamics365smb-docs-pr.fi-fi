@@ -1,0 +1,54 @@
+---
+title: Tietojen luottamuksellisuuden luokitteleminen
+description: "Tallennettavien henkilöitä koskevien tietojen tyyppi on määritettävä, jotta voit vastata tietojen kohteiden pyyntöihin."
+author: bholtorf
+ms.author: bholtorf
+ms.custom: na
+ms.date: 03/09/2018
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: article
+ms.translationtype: HT
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 05d9630075ed533759f8225810e4e4a95c141b16
+ms.contentlocale: fi-fi
+ms.lasthandoff: 03/22/2018
+
+---
+
+# <a name="classifying-data-sensitivity"></a>Tietojen luottamuksellisuuden luokitteleminen
+Microsoft-kumppani voi luokitella luottamuksellisia tai henkilökohtaisia tietoja sisältävät kentät määrittämällä kentille ominaisuuden ```DataClassification```. Tämä edellyttää tietokantataulujen käyttämistä joko kehitysympäristössä tai suorittamalla Windows PowerShell -komentosarja. Lisätietoja on kohdassa [Tietojen luokitteleminen](https://docs.microsoft.com/en-us/dynamics-nav/classifying-data).  
+
+Asiakkaana voit lisätä luokittelulle toisen tason, kun määrität vakiokentille ja mukautetuille kentille tietojen luottamuksellisuuden tasot. Tietojen luottamuksellisuuden luokitteleminen auttaa varmistamaan, että tiedät henkilökohtaisten tietojen tallennussijainnin järjestelmässä. Sen avulla on myös helppo vastata tietojen kohteiden pyyntöihin. Yhteyshenkilö tai asiakas voi esimerkiksi pyytää henkilökohtaisten tietojen viemistä. Lisätietoja on kohdassa [Henkilökohtaisia tietoja koskeviin pyyntöihin vastaaminen](admin-responding-to-requests-about-personal-data.md).
+
+> [!Important]
+> Microsoft tarjoaa tämän tietojen luottamuksellisuuden luokittelutoiminnon lisäämään mukavuutta. Käyttäjä on vastuussa tietojen asianmukaisesta luokittelemisesta ja yritystä koskevien lakien ja asetusten noudattamisesta. Microsoft ei ota vastuuta mistään tietojesi luokitteluun liittyvistä vaatimuksista.  
+
+Seuraavassa taulukossa kerrotaan, millaisia tietojen luottamuksellisuustasoja voit määrittää.
+
+|Luottamuksellisuus|Description|
+|----|----|
+|Luottamuksellinen | Tietojen kohteen rotua tai etnistä alkuperää, poliittisia mielipiteitä, uskonnollista vakaumusta, ammattiliitoissa toimimista, fyysistä ja psyykkistä terveyttä, seksuaalisuutta ja rikoksia koskevat tiedot. |
+|Henkilökohtainen | Tiedot, joiden avulla tietojen kohde voidaan tunnistaa joko suoraan tai yhdessä muiden tietojen kanssa.|
+|Luottamuksellinen | Kirjanpidossa tai muissa liiketoimintatarkoituksissa käytettävät liiketoimintatiedot, joita ei haluta paljastaa muille yksiköille. Näitä tietoja voivat olla esimerkiksi kirjanpidon tapahtumat.|
+|Normaali | Yleistiedot, jotka eivät kuulu muihin luokkiin.|
+
+## <a name="how-do-i-classify-my-data"></a>Miten tiedot luokitellaan?
+Jos kenttiä on paljon, niiden tietojen luottamuksellisuuden luokitteleminen yksitellen kestäisi kauan. Voit nopeuttaa prosessia käyttämällä työkaluja, jotka mahdollistavat kenttien luottamuksellisuuden joukkoluokittelun sekä tiettyjen kenttien luokitteluiden hienosäädön. Työkalut löytyvät tietojen luokittelun työkirjasta. Se sijaitsee käyttäjien, käyttäjäryhmien ja käyttöoikeuksien hallinnan roolikeskuksessa. Tätä työkirjaa voi käyttää vain järjestelmänvalvoja.
+
+> [!Important]
+> Kun avaat tietojen luokittelun työkirjan ensimmäisen kerran, se on tyhjä. Voit luoda kenttäluettelon suorittamalla tietojen luokittelun oppaan. Aloita opas valitsemalla **Määritä tietojen luokitukset** -toiminto.
+
+Tietojen luokittelun työkirjan avulla voit tehdä esimerkiksi seuraavat toiminnot:  
+
+* Vie kentät tietojen luokittelun oppaan avulla Excel-työkirjaan, jossa voit joukkoluokitella ne. Ecxel-työkirjan käyttäminen on erityisen hyödyllistä, jos teet yhteistyötä Microsoft-kumppanin kanssa. Kun työkirja on päivitetty, voit tuoda luokittelut ja käyttää niitä oppaan avulla. Voit käyttää opasta myös kenttien manuaalisessa luokittelussa.  
+* Valitse kenttä ja suodata luettelo, jotta voit etsiä samanlaisia kenttiä, jotka todennäköisesti kuuluvat samaan luokitteluun kuin kenttä, johon haku perustuu.  
+* Tutki kenttää sen sisällön avulla.  
+
+> [!Tip]
+> Olemme määrittäneet esimerkkitietojen luottamuksellisuuden luokittelut Cronus-esittely-yrityksen taulukoille ja kentille. Voit käyttää näitä luokitteluita inspiraation lähteenä, kun luokittelet omia taulukoita ja kenttiä.
+
+## <a name="see-also"></a>Katso myös
+[Tietojen luokitteleminen](https://docs.microsoft.com/en-us/dynamics-nav/classifying-data)  
+

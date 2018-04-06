@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 659b3bebb20e3deb33e6e392c5318810848285a1
 ms.contentlocale: fi-fi
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="create-reports-with-xbrl"></a>Luo raportteja XBRL-linkityksellä.
@@ -27,7 +27,7 @@ XBRL, joka tarkoittaa eXtensible Business Reporting Language, on XML-pohjainen k
  • muita kuin rahoituksellisia tietoja  
  • säädösten alaisia kirjauksia, kuten vuosittaiset ja neljännesvuosittaiset tilinpäätökset.  
 
- [!INCLUDE[d365fin](includes/d365fin_md.md)] in avulla yritykset voivat tuottaa XBRL-muotoisia tietoja ja hyödyntää kielen mahdollistaman joustavuuden ja automatisoinnin sekä tietojen keräämisessä että jakamisessa.  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)]in avulla yritykset voivat tuottaa XBRL-muotoisia tietoja ja hyödyntää kielen mahdollistaman joustavuuden ja automatisoinnin sekä tietojen keräämisessä että jakamisessa.  
 
 ## <a name="extensible-business-reporting-language"></a>XBRL (eXtensible Business Reporting Language)
 XBRL (e **X**tensible **B**usiness **R**eporting **L**anguage) on XML-pohjainen kieli talousraportointiin. XBRL mahdollistaa standardin vakiomuotoisen raportoinnin koko finanssitietojen käyttäjäketjulle; noteeratut ja yksityiset yritykset, tilintarkastajat, viranomaiset, analyytikot, sijoitusyhteisöt, pääomamarkkinat ja luotottajat sekä kolmannet osapuolet kuten ohjelmistotalot ja tiedon jalostajat.  

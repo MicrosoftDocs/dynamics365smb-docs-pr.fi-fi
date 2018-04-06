@@ -12,10 +12,10 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 91071855697c9235ba8734b40d77ed0b48c24923
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: c3a9abd47e6d9f0a2b7fcd87aa83f2eaef3702a9
 ms.contentlocale: fi-fi
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>PDF- ja kuvatiedostojen muuntaminen sähköisiksi asiakirjoiksi OCR-palvelun avulla
@@ -55,16 +55,12 @@ Jos et käytä työjonoa tai haluat vastaanottaa OCR-asiakirjan työjonon aikata
 > [!NOTE]  
 >   Jos OCR-palvelun määrityksissä vaaditaan käsiteltyjen asiakirjojen manuaalinen vahvistus, **OCR-tila**-kentän arvo on **Odottaa vahvistusta**. Kirjaudu tällöin OCR-palvelun verkkosivustoon seuraavien ohjeiden mukaan ja vahvista OCR-asiakirja.
 
-1. Valitse **OCR-tila**-kentässä **Odottaa vahvistusta** -hyperlinkki. Vaihtoehtoisesti voit valita kotisivulla **Odottaa vahvistusta** -ruudun.
+1. Valitse **OCR-tila**-kentässä **Odottaa vahvistusta** -hyperlinkki.
 2. Kirjaudu OCR-palvelun verkkosivustoon OCR-palvelutilin tunnistetietojen avulla. Näitä tunnistetietoja käytetään myös palvelun määrittämisessä. Lisätietoja on kohdan [Saapuvan asiakirjan määrittäminen](across-how-setup-income-documents.md) osassa OCR-palvelun määrittäminen.
-
-    Jos siirryt verkkosivustoon **OCR-tila**-kentän avulla, kyseinen asiakirja näytetään heti sisäänkirjautumisen jälkeen. Jos siirryt verkkosivustoon kotisivun ruudun avulla, ensimmäisenä avautuvalla OCR-palvelun sivulla on valittava **Aloita**-painike **Vahvista**-välilehdessä. Vaihtoehtoisesti voit kaksoisnapsauttaa vahvistettavaa asiakirjaa.
 
     Näkyviin tulevat OCR-asiakirjan tiedot, joissa näkyvät sekä PDF- tai kuvatiedoston lähdesisältö että tuloksena olevan OCR-kentän arvot.
 3. Voit tarkistaa eri kenttien arvoja ja manuaalisesti muokata tai syöttää niiden kenttien arvoja, jotka OCR-palvelu on merkinnyt epävarmoiksi.
 4. Valitse **OK**-painike. OCR-prosessi on valmis ja tuloksena saatava sähköinen asiakirja lähetetään [!INCLUDE[d365fin](includes/d365fin_md.md)]in **Saapuvat asiakirjat** -ikkunaan työjonon aikataulun mukaisesti.
-
-    Jos siirryt verkkosivustoon kotisivun ruudun avulla, kaikki muut varmistettavat OCR-asiakirjat näytetään verkkosivustossa automaattisesti.
 5. Toista vaihe 4 kaikille varmistettaville OCR-asiakirjoille.
 
 Voit nyt jatkaa asiakirjatietueiden luomista vastaanotetuille sähköisille asiakirjoille [!INCLUDE[d365fin](includes/d365fin_md.md)]issa manuaalisesti tai automaattisesti. Lisätietoja on seuraavassa toimenpiteessä. Voit myös yhdistää uuden saapuvan asiakirjan tietueen aiemmin kirjattuun tai kirjaamattomaan asiakirjaan siten, että lähdetiedostoa on helppo käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]ista. Lisätietoja on kohdassa [Saapuvien asiakirjojen käsitteleminen](across-process-income-documents.md).

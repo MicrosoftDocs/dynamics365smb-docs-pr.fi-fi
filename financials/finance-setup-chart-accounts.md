@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 1d0130dde256706460e58e5efc445bc5f4d5c595
 ms.contentlocale: fi-fi
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="setting-up-or-changing-the-chart-of-accounts"></a>Tilikartan määrittäminen tai muuttaminen
@@ -33,7 +33,7 @@ Voit avata kunkin tilin KP-tilin tilikartasta ja lisätä tai muuttaa asetuksia.
 * **Salli KP-tilin poisto ennen** -kenttä on määritettävä **Pääkirjanpidon asetukset** -ikkunassa. Tilillä ei saa olla tapahtumakirjauksia kyseisenä päivänä tai sen jälkeen.  
 * Jos **Tarkista KP-tilin käyttö** -kenttä on valittu **Pääkirjanpidon asetukset** -ikkunassa, tiliä ei voi käyttää kirjausryhmässä tai kirjauksen asetuksissa.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  estää tilikartassa tarvittavia tietoja sisältävän pääkirjanpitotilin poistamisen.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] estää tilikartassa tarvittavia tietoja sisältävän pääkirjanpitotilin poistamisen.  
 
 ## <a name="see-also"></a>Katso myös
 [Pääkirjanpito ja tilikartta](finance-general-ledger.md)  

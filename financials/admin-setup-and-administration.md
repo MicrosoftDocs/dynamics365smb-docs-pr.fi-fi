@@ -8,36 +8,39 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/01/2017
+ms.date: 03/12/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 2de32e0acb9e3aeb57a0331aa54bbde4d5dae44d
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: acf94bd4f048e1f76ae2e84c66e8831dd4e46c81
 ms.contentlocale: fi-fi
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
-# <a name="setup-and-administration-in-finance-and-operations-business-edition"></a>Finance and Operations, Business editionin määrittäminen ja hallinta
+# <a name="administration"></a>Hallinta
 Yleensä yksi rooli hoitaa yrityksen keskitetyt hallintatehtävät. Tehtävien laajuus voi määräytyä yrityksen koon ja järjestelmänvalvojan vastuualueiden mukaan. Tehtäviin voi sisältyä esimerkiksi työ- ja sähköpostijonojen tietokantasynkronoinnin hallintaa, käyttäjien määritystä, käyttöliittymän mukautusta ja salausavainten hallintaa.  
 
 Uuden liiketoimintaohjelmiston toimivuuden vuoksi on tärkeää, että syötettävät asetusarvot ovat oikeita alusta alkaen. [!INCLUDE[d365fin](includes/d365fin_md.md)]issa on useita asetusoppaita, jotka helpottavat perustietojen määrittämistä. Lisätietoja on kohdassa [Finance and Operations, Business editionin määrittäminen](setup.md).
 
-<!--Whether you use [!INCLUDE[rim](../../includes/rim_md.md)] to implement setup values or you manually enter them in the new company, you can support your setup decisions with some general recommendations for selected setup fields that are known to potentially cause the solution to be inefficient if defined incorrectly.-->  
+Riippumatta siitä, otatko asetusarvot käyttöön RapidStart Services -palvelussa vai annatko ne manuaalisesti uudessa yrityksessä, voit tukea määrityspäätöksiäsi tietyillä yleisillä suosituksilla sellaisissa määrityskentissä, joiden tiedetään voivan heikentää ratkaisun toimintaa, jos ne määritetään virheellisesti.  
 
-Pääkäyttäjä tai järjestelmänvalvoja voi määrittää tietojen vaihtamiskehyksen, jonka avulla käyttäjät voivat viedä ja tuoda pankki- ja palkanlaskentatiedostojen tietoja esimerkiksi erilaisia kassanhallintaprosesseja varten.  
+Pääkäyttäjä tai järjestelmänvalvoja voi määrittää tietojen vaihtamiskehyksen, jonka avulla käyttäjät voivat viedä ja tuoda pankki- ja palkanlaskentatiedostojen tietoja esimerkiksi erilaisia kassanhallintaprosesseja varten.
 
-Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aiheisiin.   
+> [!NOTE]
+> Voit määrittää uuden yrityksen [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksessa RapidStart Services -palvelun kanssa. RapidStart Services -palvelun on työkalu, joka on suunniteltu lyhentämään käyttöönottoa, parantamaan toteutuksen laatua, esittelemään toistettavia lähestymistapoja toteutuksiin, ja lisäämään tuottavuutta automatisoimalla ja yksinkertaistamalla toistuvia tehtäviä. Lisätietoja on kohdassa ## [Yrityksen määrittäminen RapidStart Services -palvelun avulla](admin-set-up-a-company-with-rapidstart.md).
+
+Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisiin.   
 
 |**Tehtävä**|**Katso**|  
 |------------|-------------|  
-|Lisää käyttäjiä, hallitse tietojen käyttöoikeuksia ja määritä rooleja.|[Finance and Operations, Business editionin käyttäjät, profiilit ja roolikeskukset](admin-users-profiles-roles.md)|  
-|Seuraa kaikkia suoria muutoksia, joita käyttäjät tekevät tietokannan tietoihin. Muutoksia seuraamalla voidaan tunnistaa virheiden alkuperä ja tietojen muutokset.|[Muutosten kirjaaminen Finance and Operations, Business editionissa](across-log-changes.md)|  
-|Tue määritysten suhteen tekemiäsi päätöksiä valittujen kenttien suosituksilla, joiden tiedetään mahdollisesti aiheuttavan sen, että ratkaisu on tehoton, jos se määritetään virheellisesti.|[Monimutkaisten sovellusalueiden määrittäminen parhaiden käytäntöjen avulla](set-up-complex-application-areas-using-best-practices.md)|  
-|Näytä sivuja, koodiyksiköitä ja kyselyitä verkkopalveluina.|[Verkkopalvelun julkaiseminen](across-how-publish-web-service.md)|  
-|Finance and Operations, Business editionin sisäisen ja ulkoisen sähköpostiviestinnän mahdollistavan SMTP-palvelimen määrittäminen| [Sähköpostin määrittäminen manuaalisesti tai asetusten ohjatun määrityksen käyttäminen](madeira-how-setup-email.md)|  
-|Määritä yksittäisiä tai toistuvia pyyntöjä raporttien tai koodiyksiköiden suorittamista varten.|[Käytä työjonoja ajoitustehtäviin](admin-job-queues-schedule-tasks.md)|  
-|Asiakirjojen hallinta, poistaminen ja pakkaaminen|[Asiakirjojen hallinta](admin-manage-documents.md)|  
-|Uuden liiketoimintayksikön määrittäminen mallien avulla|[Uusien yritysten luominen [!INCLUDE[d365fin](includes/d365fin_md.md)]issa](about-new-company.md)|  
+|Lisää käyttäjiä, hallitse tietojen käyttöoikeuksia ja määritä rooleja.|[Tietoja profiileista ja roolikeskuksista](admin-users-profiles-roles.md)|  
+|Määritä käyttöoikeuksia käyttäjille, muokata käyttöoikeusjoukkoja ja ryhmitä käyttäjiä käyttöoikeuksien perusteella.|[Käyttäjien ja käyttöoikeuksien hallinta](ui-how-users-permissions.md)|
+|Uuden liiketoimintayksikön määrittäminen mallien avulla|[Uusien yritysten luominen](about-new-company.md)|
+| Vaihda käyttöliittymässä näytettävät kentät ja toiminnot vastaamaan yrityksen liiketoimintaprosesseja. |[[!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen mukauttaminen](ui-customizing-overview.md) |
+|Seuraa kaikkia suoria muutoksia, joita käyttäjät tekevät tietokannan tietoihin. Muutoksia seuraamalla voidaan tunnistaa virheiden alkuperä ja tietojen muutokset.|[Muutosten kirjaaminen lokiin](across-log-changes.md)|  
+|Määritä yksittäisiä tai toistuvia pyyntöjä raporttien tai koodiyksiköiden suorittamista varten.|[Työjonojen käyttäminen tehtävien aikatauluttamiseen](admin-job-queues-schedule-tasks.md)|  
+|Asiakirjojen hallinta, poistaminen ja pakkaaminen|[Asiakirjojen poistaminen](admin-manage-documents.md)|  
+|Näytä sivuja, koodiyksiköitä ja kyselyitä verkkopalveluina.|[Verkkopalvelun julkaiseminen](across-how-publish-web-service.md)|
 
 ## <a name="see-also"></a>Katso myös
 [Liiketoiminnan toiminnallisuus](madeira-business-functionality.md)  

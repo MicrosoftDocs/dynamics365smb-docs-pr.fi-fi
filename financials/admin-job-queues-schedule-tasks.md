@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: b679c2762c67c6d78bcc6be293e6aabde4a58848
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 712f0de68476a73871672c399bc5be72d511d9c1
 ms.contentlocale: fi-fi
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Käytä työjonoja ajoitustehtäviin
@@ -25,7 +25,7 @@ ms.lasthandoff: 01/30/2018
 
 Vaihtoehtoisesti voit määrittää suodattimen **Työjonoluokan suodatin** -kentässä. Luettelon töitä voi ryhmitellä työjonoluokkien avulla.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  suorittaa työt automaattisesti kullekin työjonotapahtumalle määritetyn aikataulun mukaan. Työjonotapahtuman voi myös käynnistää, pysäyttää ja asettaa pitoon manuaalisesti.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] suorittaa työt automaattisesti kullekin työjonotapahtumalle määritetyn aikataulun mukaan. Työjonotapahtuman voi myös käynnistää, pysäyttää ja asettaa pitoon manuaalisesti.
 
 ### <a name="log-files"></a>Lokitiedostot
 Virheet näkyvät **Työjonon lokitapahtumat** -ikkunassa, jonka voi avata valintanauhasta. Voit myös määrittää vian työjonon virheissä. Työjonon suorituksen yhteydessä luodut tiedot tallennetaan tietokantaan.  
@@ -35,7 +35,7 @@ Työjonot ovat tehokas väline liiketoiminnan prosessien suorituksen ajoittamise
 
  Vaihtoehtoisesti voit ajoittaa kirjaukset tunneille, jotka sopivat parhaiten organisaatiollesi. Saattaa olla hyödyllistä ajaa yrityksessä tietyt toiminnot sen jälkeen, kun suurin osa päivän tietojen syötöistä on suoritettu. Tämä on mahdollista, kun asetat työjonon ajamaan useita eräkirjausraportteja, kuten **Eräkirjaa myyntitilaukset**-, **Eräkirjaa ostotilaukset**- ja **Eräkirjaa myyntihyvityslaskut** -raportit.  
 
- [!INCLUDE[d365fin](includes/d365fin_md.md)]  tukee taustakirjausta seuraavilla asiakirjatyypeillä:  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)] tukee taustakirjausta seuraavilla asiakirjatyypeillä:  
 
 -   Myynti: myyntitilaus, palautustilaus, hyvityslasku, lasku  
 
@@ -52,7 +52,7 @@ Voit määrittää tällaisen työjonon käytön **Myyntien ja myyntisaamisten a
 >  Jos määrität asiakirjat kirjaavan ja tulostavan työn ja tulostimessa avautuu valintaikkuna, kuten tunnistetietojen pyyntö tai tulostimen musteen loppumisesta ilmoittava varoitus, asiakirja kirjataan mutta sitä ei tulosteta. Vastaava työjonotapahtuma aikakatkaistaan lopulta, ja **Tila**-kentän arvoksi määritetään **Virhe**. Näin ollen suosittelemme, että et käytä tulostimen asetuksia, jotka edellyttävät vuorovaikutusta tulostimen näytön valintaruutujen kanssa taustakirjausten yhteydessä.  
 
 ## <a name="use-the-my-job-queue-part"></a>Oma työjono -osan käyttäminen
-**Oma työjono** osaa näyttää työjonotapahtumat, jotka käyttäjä on aloittanut, mutta jotka eivät ole vielä valmiit. Oletusarvoisesti osa ei ole näkyvissä, joten se on lisättävä omaan roolikeskukseesi. Lisätietoja on kohdassa [Roolikeskusten muuttaminen](change-role.md).  
+**Oma työjono** osaa näyttää työjonotapahtumat, jotka käyttäjä on aloittanut, mutta jotka eivät ole vielä valmiit. Oletusarvoisesti osa ei ole näkyvissä, joten se on lisättävä omaan roolikeskukseesi. Lisätietoja on kohdassa [Perusasetusten muuttaminen](ui-change-basic-settings.md).  
 
 Tässä osassa näet käsiteltävinä tai jonossa olevat asiakirjat, joita varten tunnuksesi on määritetty **Määritetty käyttäjätunnus** -kentässä. Osan avulla voit seurata kaikkia työjonon tapahtumia, mukaan lukien taustakirjauksia. Osa tietää yhdellä silmäyksellä, onko asiakirjan kirjaamisessa tai työjonon tapahtumissa tapahtunut virheitä. Osan avulla voit peruuttaa kun asiakirjan kirjaamisen, jos se ei ole käynnissä.  
 

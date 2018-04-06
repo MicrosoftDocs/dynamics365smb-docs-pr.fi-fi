@@ -13,10 +13,10 @@ ms.search.keywords: online payment
 ms.date: 07/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: cfa15ee7b85f1bd01077493d295f230e836239a7
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: c8f3faa68280a1c6157ab62ca2a19ce964bdbfd4
 ms.contentlocale: fi-fi
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="enable-customer-payments-through-payment-services"></a>Asiakasmaksujen ottaminen käyttöön maksupalvelujen kautta
@@ -35,7 +35,7 @@ Microsoft Pay, PayPal Payments Standard- ja WorldPay Payments Standard -laajennu
 6. Sulje ikkuna.  
 
 ## <a name="to-select-a-payment-service-on-a-sales-invoice"></a>Maksupalvelun valitseminen myyntilaskussa
-1. Valitse kotisivun **Myyntilaskut**-kohta.  
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Myyntilaskut** ja valitse sitten aiheeseen liittyvä linkki.  
 2. Avaa myyntilasku, jonka haluat maksaa maksupalvelun avulla.  
 3. Valitse maksupalvelu **Maksupalvelu**-kentässä.  
 

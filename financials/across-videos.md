@@ -16,18 +16,18 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 747a3f83d5e0387a557eebaf9ad5d2ef5dcd0673
 ms.contentlocale: fi-fi
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="visit-our-video-library"></a>Vieraile Microsoftin videokirjastossa
 Jotta pääsisit alkuun mahdollisimman nopeasti, olemme rakentamassa sarjaa opastusvideoita, joissa esittelemme, miten monet [!INCLUDE[d365fin](includes/d365fin_md.md)]in prosessit suoritetaan. Muutamana esimerkkinä videokirjasto sisältää esimerkiksi seuraavat opetusvideot:  
 
-* Liiketoiminnan tietojen siirtäminen muista taloushallinnon sovelluksista iin [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+* Liiketoiminnan tietojen siirtäminen muista taloushallinnon sovelluksista [!INCLUDE[d365fin](includes/d365fin_md.md)]iin  
 * Asiakirjojen ja objektien analysointiin ja seurantaan käytettävien dimensioiden määrittäminen
 * [!INCLUDE[d365fin](includes/d365fin_md.md)]in yhdistäminen Microsoft Dynamics 365 for Salesiin
 * Määritä hyväksymistyönkulut  
-* Power BI:n käyttö in kanssa [!INCLUDE[d365fin](includes/d365fin_md.md)]  
-* Määritä sähköposti ja lähetä asiakirjoja suoraan ista [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+* Power BI:n käyttö [!INCLUDE[d365fin](includes/d365fin_md.md)]in kanssa  
+* Määritä sähköposti ja lähetä asiakirjoja suoraan [!INCLUDE[d365fin](includes/d365fin_md.md)]ista  
 
 Videot voit avata usealla tavalla. Jos [!INCLUDE[d365fin](includes/d365fin_md.md)] on jo käynnissä, voit siirtyä kirjastoon kahdella tavalla:
 

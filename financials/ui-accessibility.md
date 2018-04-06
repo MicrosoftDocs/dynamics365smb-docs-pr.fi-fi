@@ -11,16 +11,18 @@ ms.search.keywords:
 ms.date: 12/04/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 4934b5ca71ed93fcd6327d41784443d9faedfc1b
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: a9e622dbf9b9edf5e74386dd5c651d7b585d3b46
 ms.contentlocale: fi-fi
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="accessibility-and-keyboard-shortcuts-in-included365finincludesd365finmdmd"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)]in helppokäyttötoiminnot ja pikanäppäimet
 Tässä ohjeaiheessa on tietoja toiminnoista, jotka helpottavat [!INCLUDE[d365fin](includes/d365fin_md.md)]:n käyttöä. [!INCLUDE[d365fin](includes/d365fin_md.md)] tukee seuraavia helppokäyttötoimintoja:  
 
--   Näppäimistön pikanäppäimet  
+-   Näppäimistön pikanäppäimet
+
+    Lisätietoja on kohdassa [Pikanäppäimet](keyboard-shortcuts.md)
 
 -   Siirtyminen  
 
@@ -30,18 +32,21 @@ Tässä ohjeaiheessa on tietoja toiminnoista, jotka helpottavat [!INCLUDE[d365fi
 
 -   Yleisten käyttöä tukevien tekniikoiden tuki  
 
-##  <a name="Keyboard"></a> Selaimen pikanäppäimet
- [!INCLUDE[d365fin](includes/d365fin_md.md)]  tukee useiden selaimien tukemia pikanäppäimiä. Tässä käsitellyt pikanäppäimet viittaavat yhdysvaltaiseen näppäimistöön. Muiden näppäimistöjen näppäimet eivät ehkä vastaa täsmälleen yhdysvaltalaisen näppäimistön näppäimiä.  
+<!-- moved to separate article
+##  <a name="Keyboard"></a> Keyboard Shortcuts in the browser
+ [!INCLUDE[d365fin](includes/d365fin_md.md)] supports the keyboard shortcuts that are supported by most web browsers. The keyboard shortcuts described here refer to the U.S. keyboard layout. The layout of the keys on other keyboards may not correspond exactly to the keys on a U.S. keyboard.  
 
-|Tehtävä|Paina|  
+|To do this|Press|  
 |----------------|-----------|  
-|Kohdistuksen siirtäminen sivulla seuraavaan tai edelliseen ohjausobjektiin tai elementtiin, kuten painikkeeseen, kenttään tai luettelokohtaan.|Sarkain, vaihto+sarkain|  
-|Kohdistetun elementin tai ohjausobjektin ottaminen käyttöön tai käyttäminen.|Enter|  
-|Kohteiden vierittäminen luettelossa ylös- tai alaspäin.|Ylänuoli, alanuoli|  
-|Luettelossa olevan nimikkeen sarakkeiden vierittäminen vasemmalle tai oikealle|Vasen nuolinäppäin, oikea nuolinäppäin|  
-|Avattavan luettelon avaaminen tai kentän arvon valinta.|Alt+alanuoli|  
-|Kohdistuksen siirtämään seuraavaan luettelon ulkopuolella olevaan elementtiin.|Ctrl+Enter|  
-|Kenttään lasketun arvon tulokseksi antaneiden tapahtumien näyttäminen.|Alt+Oikea nuoli|  
+|To move focus to the next or previous control or element on a page, such as buttons, fields, or items in a list.|Tab, Shift+Tab|  
+|To enable or access the element or control that is in focus.|Enter|  
+|To scroll items up and down in a list.|Up Arrow, Down Arrow|  
+|To scroll columns of an item left and right in a list.|Left Arrow, Right Arrow|  
+|To open a drop-down list or look up a value for a field.|Alt+Down Arrow|  
+|To move focus to the next element outside the list.|Ctrl + Enter|  
+|To see the transactions that resulted in a calculated value in a field.|Alt+Right Arrow|  
+
+-->
 
 ##  <a name="Navigation"></a> Siirtyminen  
  Voit siirtyä valintanauhan välilehtien ja toimintojen, siirtymisruudun elementtien sekä muiden [!INCLUDE[d365fin](includes/d365fin_md.md)]:n sivujen ja raporttien välillä näppäimistön avulla. Voit siirtää kohdistuksen yhdestä välilehdestä, toiminnosta tai ohjausobjektista toiseen painamalla sarkainnäppäintä, jos haluat siirtyä eteenpäin. Jos haluat siirtyä taaksepäin, paina näppäinyhdistelmään vaihto+sarkain.  
@@ -55,7 +60,7 @@ Tässä ohjeaiheessa on tietoja toiminnoista, jotka helpottavat [!INCLUDE[d365fi
  Kuvien kuvaileva teksti määritetään IMG-tunnisteeseen sisältyvällä ALT-määritteellä. Hyperlinkkien kuvaileva teksti määritetään A-tunnisteeseen sisältyvällä TITLE-määritteellä.  
 
 ##  <a name="AssistiveTech"></a> Käyttöä tukevat tekniikat  
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  tukee erilaisia käyttöä helpottavia tekniikoita, kuten suurta kontrasti, näytönlukuohjelmia ja puheentunnistusohjelmistoja. Jotkin käyttöä helpottavat tekniikat eivät ehkä toimi hyvin tiettyjen [!INCLUDE[d365fin](includes/d365fin_md.md)]:n sivuelementtien kanssa.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] tukee erilaisia käyttöä helpottavia tekniikoita, kuten suurta kontrasti, näytönlukuohjelmia ja puheentunnistusohjelmistoja. Jotkin käyttöä helpottavat tekniikat eivät ehkä toimi hyvin tiettyjen [!INCLUDE[d365fin](includes/d365fin_md.md)]:n sivuelementtien kanssa.  
 
 ## <a name="for-more-accessibility-information"></a>Lisätietoja helppokäyttötoiminnoista  
 Lisätietoja Microsoftin tuotteiden helppokäyttötoiminnoista ja käyttöä helpottavista tekniikoista on [Microsoftin helppokäyttötoimintojen](http://go.microsoft.com/fwlink/?LinkId=262160) sivustossa.

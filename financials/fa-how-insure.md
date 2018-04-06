@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: d5f3ef437e19ec037dc8f81aac6a8d283fc251a5
 ms.contentlocale: fi-fi
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="insure-fixed-assets"></a>Käyttöomaisuuden vakuuttaminen
@@ -70,7 +70,7 @@ Seuraavassa kerrotaan, miten vakuutuspäiväkirjan rivi luodaan manuaalisesti. J
 5. Avaa kyseinen vakuutuspäiväkirja, tarkista luodut arvot ja kirjaa ne vakuutuksen kattavuustapahtumiin.  
 
 ## <a name="to-monitor-insurance-coverage"></a>Vakuutuksen kattavuuden valvonta
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  sisältää vakuutussopimusten analysoimiseen ja käyttöomaisuuserien yli- ja alivakuuttamisen määrittämiseen tarkoitettuja raportti- ja tilastotietoikkunoita.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] sisältää vakuutussopimusten analysoimiseen ja käyttöomaisuuserien yli- ja alivakuuttamisen määrittämiseen tarkoitettuja raportti- ja tilastotietoikkunoita.  
 
 ### <a name="overview-of-insurance-policies"></a>Yleiskuva vakuutussopimuksista
 Saat yleiskuvan vakuutussopimuksista esikatselemalla tai tulostamalla **Vakuutus – Luettelo** -raportin. Raportti näyttää kaikki käytännöt ja vakuutuskorttien tärkeimmät kentät.  

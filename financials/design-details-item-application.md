@@ -1,8 +1,6 @@
 ---
 title: "Rakennetiedot – Nimikkeen kohdistus | Microsoft Docs"
 description: "Tässä ohjeaiheessa käsitellään varaston määrän ja arvon tallentamista varastotapahtuman kirjauksen yhteydessä."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 07/01/2017
+ms.date: 11/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e8b3015cfbf9c474d49d2e3dab6e3397e6ad6c80
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: a70d1c31d867f3e005f51af0fc1b6352cb23ce91
 ms.contentlocale: fi-fi
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="design-details-item-application"></a>Rakennetiedot: Nimikkeen kohdistus
@@ -68,7 +66,7 @@ Kun kirjaat varaston arvon nousun, tämän jälkeen tallennetaan yksinkertainen 
 ### <a name="example"></a>Esimerkki  
 Seuraavassa taulukossa esitetään nimikkeen käyttökirjaus, joka luodaan, kun tiliöit 10 yksikön ostokuitit.  
 
-|Kirjauspäivämäärä|Saapuva nimiketapahtuma|Lähtevän nimiketapahtuman nro|Määrä|Nimiketapahtuman nro|  
+|Kirjauspäivämäärä|Saapuvan nimiketapahtuman nro|Lähtevän nimiketapahtuman nro|Määrä|Nimiketapahtuman nro|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
 |01-01-20|1|0|10|1|  
 
@@ -82,7 +80,7 @@ Seuraava esimerkki näyttää nimikkeen kohdistustapahtuman, joka luodaan edelli
 
 Seuraavissa taulukoissa esitetään kaksi nimikkeen sovelluskirjausta, jotka aiheutuvat varaston kasvusta ja varaston vähennyksistä, tässä järjestyksessä.  
 
-|Kirjauspäivämäärä|Saapuva nimiketapahtuma|Lähtevän nimiketapahtuman nro|Määrä|Nimiketapahtuman nro|  
+|Kirjauspäivämäärä|Saapuvan nimiketapahtuman nro|Lähtevän nimiketapahtuman nro|Määrä|Nimiketapahtuman nro|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
 |01-01-20|1|0|10|1|  
 |01-03-20|1|2|-5|2|  
@@ -111,7 +109,7 @@ Koska kiinteä kohdistus tehdään ostopalautuksesta toiselle ostotapahtumalle, 
 
 Seuraavassa taulukossa esitetään nimikkeen käyttökirjaus, joka johtuu kiinteästä sovelluksesta.  
 
-|Kirjauspäivämäärä|Saapuva nimiketapahtuma|Lähtevän nimiketapahtuman nro|Määrä|Nimiketapahtuman nro|  
+|Kirjauspäivämäärä|Saapuvan nimiketapahtuman nro|Lähtevän nimiketapahtuman nro|Määrä|Nimiketapahtuman nro|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
 |01-06-20|1|3|10|3|  
 
@@ -242,11 +240,12 @@ Nimikkeen yksikkökustannuksen laskentatavan mukaan nimikkeen virheellinen kohdi
 [!INCLUDE[d365fin](includes/d365fin_md.md)] tarjoaa ominaisuuden nimikkeen kohdistusten analysointiin ja korjaamiseen. Tämä työ tehdään **Kohdistustyökirja**-ikkunassa.  
 
 ## <a name="see-also"></a>Katso myös  
-[Rakennetiedot: Varaston arvostus](design-details-inventory-costing.md)   
-[Rakennetiedot: Arvostusmenetelmät](design-details-costing-methods.md)   
+[Rakennetiedot: Nimikkeen kohdistuksen tunnettu ongelma](design-details-inventory-zero-level-open-item-ledger-entries.md)  
+[Rakennetiedot: Varaston arvostus](design-details-inventory-costing.md)  
+[Rakennetiedot: Arvostusmenetelmät](design-details-costing-methods.md)  
 [Rakennetiedot: Keskimääräinen kustannus](design-details-average-cost.md)   
-[Rakennetiedot: Kustannusten muuttaminen](design-details-cost-adjustment.md)
+[Rakennetiedot: Kustannuksen muutos](design-details-cost-adjustment.md)  
 [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)  
 [Rahoitus](finance.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 

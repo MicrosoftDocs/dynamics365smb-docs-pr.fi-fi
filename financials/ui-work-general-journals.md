@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/02/2017
+ms.date: 02/23/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 2aac957fc253f6c7d2f621ea2e5e039733081a19
+ms.sourcegitcommit: e6e662ee13db1f9002e1c3e74a0d15e2aa2e2a98
+ms.openlocfilehash: b567b57755df5d887bc20ca8cebfb6d3d4383c37
 ms.contentlocale: fi-fi
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="working-with-general-journals"></a>Yleisten päiväkirjojen käyttäminen
@@ -41,8 +41,55 @@ Jos olet määrittänyt päiväkirjan erille oletusvastatilit **Yleiset päiväk
 > [!NOTE]  
 >   ALV lasketaan erikseen päätiliä varten ja vastatiliä varten, joten niillä voi olla eri ALV-prosentit.
 
-## <a name="working-with-recurring-journals"></a>Toistuvien päiväkirjojen käyttäminen
-Toistuva päiväkirja on yleinen päiväkirja, jossa on erityiskenttiä sellaisten tapahtumien hallintaa varten, jotka kirjataan usein vähäisin muutoksin tai ilman muutoksia. Käyttämällä näitä kenttiä toistuviin tapahtumiin, voit kirjata sekä vakiosummia että muuttuvia summia. Voit myös määrittää automaattisen peruutuksen tapahtumat kirjauspäivämäärän jälkeisenä päivänä sekä käyttää kohdistusavaimia toistuvien tapahtumien kanssa.
+## <a name="working-with-recurring-journals"></a>Toistuvien tapahtumien päiväkirjojen käyttäminen
+Toistuvien tapahtumien päiväkirja on yleinen päiväkirja, jossa on erityiskenttiä sellaisten tapahtumien hallintaa varten, jotka kirjataan usein vähäisin muutoksin tai ilman muutoksia. Näitä ovat esimerkiksi vuokra, lehtitilaukset, sähkö ja lämmitys. Käyttämällä näitä kenttiä toistuviin tapahtumiin, voit kirjata sekä vakiosummia että muuttuvia summia. Voit myös määrittää automaattiset peruutustapahtumat kirjauspäivämäärän jälkeisenä päivänä. Voit myös käyttää kohdistusavaimia ja jakaa toistuvat tapahtumat eri tileille. Lisätietoja on Toistuvien tapahtumien päiväkirjan summien kohdistaminen useisiin tileihin -osassa.
+
+Toistuvassa päiväkirjassa säännöllisesti kirjattavat tapahtumat tarvitsee syöttää vain kerran. Siten tilit, dimensiot , dimension arvot ym. tiedot jotka syötät, säilyvät päiväkirjassa kirjauksen jälkeen. Jos sinun tarvitsee tehdä muutoksia, voit tehdä niitä jokaisen kirjauksen yhteydessä.
+
+### <a name="recurring-method-field"></a>Toistotapa-kenttä
+Tämä kenttä määrittää, miten päiväkirjan rivin summaa käsitellään kirjauksen jälkeen. Jos esimerkiksi haluat käyttää samaa summaa aina kun kirjaat rivin, voit valita, että summa säilyy rivillä. Jos käytät rivillä samoja tilejä ja tekstiä, mutta summa vaihtelee kirjattaessa, voit valita sen vaihtoehdon, että summa poistuu riviltä kirjauksen jälkeen.
+
+| Vastaanottaja | Katso |
+| --- | --- |
+|Kiinteä|Summa säilyy päiväkirjan rivillä kirjauksen jälkeen.|
+|Muuttuva|Ohjelma poistaa summan päiväkirjan riviltä kirjauksen jälkeen.|
+|Saldo|Rivin tilille kirjattu summa jaetaan niiden tilien kesken, jotka on määritelty riville Yleisen päiväkirjan kohdistus -taulukossa. Tilin saldoksi tulee siten nolla. Muista täyttää **Kohdistus-%**-kenttä **Kohdistukset**-ikkunassa Lisätietoja on Toistuvien tapahtumien päiväkirjan summien kohdistaminen useisiin tileihin -osassa.|
+|Muuttuva vastakirjaus|Päiväkirjan rivillä oleva summa säilyy kirjauksen jälkeen, ja vastakirjaus kirjataan seuraavana päivänä.|
+|Muuttuva vastakirjaus|Päiväkirjan rivillä oleva summa poistuu kirjauksen jälkeen, ja vastakirjaus kirjataan seuraavana päivänä.|
+|Vasta-saldo|Rivin tilille kirjattu summa jaetaan niiden tilien kesken, jotka on määritelty riville **Kohdistukset**-ikkunassa. Tilin saldoksi määritetään nolla ja vastatapahtuma kirjataan seuraavana päivänä.|
+
+> [!NOTE]  
+>  ALV-kentät voidaan täyttää joko toistuvan päiväkirjan rivillä tai kohdistuspäiväkirjan rivillä, mutta ei molemmilla. Siten ne voidaan täyttää **Kohdistukset**-ikkunassa vain, jos toistuvien tapahtumien päiväkirjan vastaavia kenttiä ei ole täytetty.
+
+### <a name="recurring-frequency-field"></a>Toistotiheys-kenttä
+Tämä kenttä määrittää, kuinka usein päiväkirjarivillä oleva tapahtuma kirjataan. Se on Päivämäärän kaava -kenttä, joka on täytettävä toistuvien tapahtumien päiväkirjan riveille. Lisätietoja on Päivämäärän kaavojen käyttäminen -osassa kohdassa [Tietojen antaminen](ui-enter-data.md).
+
+#### <a name="examples"></a>Esimerkkejä
+Jos päiväkirjan rivi tulee kirjata joka kuukausi, syötä 1K. Jokaisen kirjauksen jälkeen **Kirjauspvm.**-kentässä oleva päivämäärä päivitetään seuraavan kuukauden samaan päivään.
+
+Jos haluat kirjata tapahtuman jokaisen kuukauden viimeisenä päivänä, voit toimia yhdellä seuraavista tavoista:
+
+- Kirjaa ensimmäinen tapahtuma kuukauden viimeisenä päivänä syöttämällä 1P+1K-1P (1 päivä + 1 kuukausi - 1 päivä). Tämän laskukaavan avulla ohjelma laskee kirjauspäivämäärän oikein riippumatta siitä, kuinka monta päivää kussakin kuukaudessa on.
+
+- Kirjaa ensimmäinen tapahtuma minä tahansa kuukauden päivänä syöttämällä 1K+NK. Tämän kaavan avulla kirjauspäivämäärä on yhden kokonaisen kuukauden + nykyisen kuukauden jäljellä olevien päivien verran myöhemmin.
+
+### <a name="expiration-date-field"></a>Vanhentumispäivämäärä -kenttä
+Tämä kenttä määrittää päivämäärän, jolloin rivi kirjataan viimeisen kerran. Riviä ei kirjata tämän päivämäärän jälkeen.
+
+Kentän käyttämisessä on se etu, että rivi ei poistu päiväkirjasta heti, ja voit aina korvata nykyisen vanhentumispäivämäärän myöhäisemmällä, niin että riviä voi käyttää jatkossakin.
+
+Jos kenttä on tyhjä, rivi kirjataan joka kerta, kun kirjaat siihen asti, kun se poistetaan päiväkirjasta.
+
+### <a name="allocating-recurring-journal-amounts-to-several-accounts"></a>Toistuvien tapahtumien päiväkirjan summien kohdistaminen useisiin tileihin
+Valitse **Toistuva yleinen päiväkirja** -ikkunassa **Kohdistukset**-toiminto, kun haluat nähdä, miten toistuvien tapahtumien päiväkirjan rivin summat on kohdistettu useille tileille ja useisiin dimensioihin. Toiminnon avulla voit myös hallita näitä summia. Huomaa, että kohdistus toimii toistuvien tapahtumien päiväkirjan rivin vastatilin rivinä.
+
+Kuten toistuvien tapahtumien päiväkirjassa, sinun tarvitsee syöttää kohdistus vain kerran. Kohdistus säilyy kohdistuspäiväkirjassa kirjauksen jälkeen, joten sinun ei tarvitse syöttää summia ja kohdistuksia aina kun kirjaat toistuvan päiväkirjan rivin.
+
+Jos Toistotapa-kenttään toistuvien tapahtumien päiväkirjassa on asetettu **Saldo** tai **Vasta-saldo**, ohjelma ei huomioi mitään dimension arvokoodeja toistuvassa päiväkirjassa, kun tili on nollattu. Jos siis kohdistat toistuvan rivin useampaan dimension arvoon **Kohdistukset**-ikkunassa, syntyy vain yksi vastakirjaus. Jos kohdistat toistuvan rivin, jolla on dimension arvon koodi, et voi syöttää samaa koodia **Kohdistukset**-ikkunaan. Jos teet niin, dimension arvot ovat virheellisiä.
+
+####<a name="example-allocating-rent-payments-to-different-departments"></a>Esimerkki: Vuokramaksujen kohdistaminen eri osastoihin
+Jos maksat vuokraa joka kuukausi, olet syöttänyt vuokrasumman kassatilille toistuvien tapahtumien päiväkirjan rivillä. **Kohdistukset**-ikkunassa voit jakaa kulun useamman osaston (Osasto-dimension) kesken osastojen pinta-alaneliöiden mukaan. Laskenta perustuu kunkin rivin kohdistusprosenttiin. Voit syöttää erilaisia tilejä jokaiselle eri kohdistusriville (jos myös vuokra jaetaan useammalle tilille) tai voit syöttää saman tilin erilaisilla dimension arvokoodeilla Osasto-dimension jokaisella rivillä.
+
 
 ## <a name="working-with-standard-journals"></a>Vakiopäiväkirjojen käyttäminen
 Kun olet luonut päiväkirjan rivejä, joita todennäköisesti käytät myös vastaisuudessa, voit tallentaa rivit vakiopäiväkirjana, ennen kuin kirjaat rivit päiväkirjaan. Tämä toiminto koskee nimikepäiväkirjoja sekä yleisiä päiväkirjoja.

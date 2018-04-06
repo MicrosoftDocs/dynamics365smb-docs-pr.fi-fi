@@ -16,13 +16,13 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 2d02977377f0d88229fdbfd4c2df96d88cd82f2e
 ms.contentlocale: fi-fi
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="planning-services"></a>Huollon suunnittelu
 [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman työkaluilla voit määrittää asiakaspalvelun vaatimusten edellyttämät vakiotehtävät. Ensin on kuitenkin määritettävä, mitä huoltonimikkeitä ja -tarjouksia huolto-organisaatio tukee ja mikä on niiden hinta.   
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] issa on myös tilastotyökaluja, joiden avulla voit päätellä, miten nyt asiat sujuvat ja mitä parannettavaa on.
+[!INCLUDE[d365fin](includes/d365fin_md.md)]issa on myös tilastotyökaluja, joiden avulla voit päätellä, miten nyt asiat sujuvat ja mitä parannettavaa on.
   
 Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aiheisiin.   
   

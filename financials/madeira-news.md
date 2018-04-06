@@ -13,10 +13,10 @@ ms.search.keywords: news
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 78f340d619f622c6bca91bd97f0fcd8ae6b28acd
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 46e2150432c4e304fbfce63ae5eecea443391efe
 ms.contentlocale: fi-fi
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="whats-new-in-dynamics-365-for-finance-and-operations-business-edition"></a>Dynamics 365 for Finance and Operations, Business editionin uudet ominaisuudet
@@ -90,7 +90,7 @@ Tämä päivitys lisäsi toimintoja Outlook-apuohjelman toimittajan koontinäytt
 Outlook-apuohjelma on nyt laajentunut Outlookin kalenteriin. Voit avata kalenteritapaamista [!INCLUDE[d365fin](includes/d365fin_md.md)]-apuohjelma ja saada yleiskuvan tapaamiseen liitetystä asiakkaasta. Voit sitten luoda ja lähettää laskun kokouksessa annetuista palveluista – suoraan Outlookin kalenterissa. Lisätietoja on ohjeaiheessa [[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen Outlookin yrityssähköpostina](madeira-outlook.md).  
 
 ### <a name="appsource-marketplace-for-extensions"></a>Laajennusten AppSource-kauppa
-[!INCLUDE[d365fin](includes/d365fin_md.md)] laajennukset ovat nyt saatavilla AppSource-kaupassa [AppSource.microsoft.comissa](https://appsource.microsoft.com/). Laajennuksia voi etsiä kaupassa. Voi tarkastella tietoja, kuten markkinointiaineistoa, näyttökuvia, videoita ja linkkejä lisätietoihin. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]in laajennukset ovat nyt saatavilla AppSource-kaupassa [AppSource.microsoft.comissa](https://appsource.microsoft.com/). Laajennuksia voi etsiä kaupassa. Voi tarkastella tietoja, kuten markkinointiaineistoa, näyttökuvia, videoita ja linkkejä lisätietoihin. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md).  
 
 ### <a name="shipping-agents-and-item-attributes"></a>Kuljetusliikkeet ja nimikkeen määritteet
 Voit lisätä määritteitä varastonimikkeisiin, mikä helpottaa asiakkaan haluaman oikean tuotteen löytämistä. Lisätietoja on kohdassa [Nimikkeen määritteiden käsitteleminen](inventory-how-work-item-attributes.md).  
@@ -100,7 +100,7 @@ Tämän päivityksen myötä valittavana on entistä enemmän laajennuksia **Laa
 Lisätietoja on ohjeaiheessa [Muiden valmistajien [!INCLUDE[d365fin](includes/d365fin_md.md)]in laajennukset](ui-extensions-other.md).  
 
 ### <a name="manage-your-customer-relationships-using-microsoft-dynamics-365-for-sales-from-inside-included365finincludesd365finmdmd"></a>Asiakassuhteiden hallinta Microsoft Dynamics 365 for Salesin avulla [!INCLUDE[d365fin](includes/d365fin_md.md)]issa
-Liiketoimintajohtajan aloitussivulle on lisätty uusi asetusten ohjattu määritys, joka opastaa Dynamics 365 for Salesin yhteyden muodostamisprosessissa. Kun yhteys on muodostettu, Dynamics 365 for Salesin tietueet on yhdistetty saumattomasti [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietueisiin. Lisätietoja on kohdassa [Asiakassuhteiden hallinta käyttämällä Microsoft Dynamics 365 for Salesia [!INCLUDE[d365fin](includes/d365fin_md.md)]issa](marketing-integrate-dynamicscrm.md).
+Liiketoimintajohtajan roolikeskukseen on lisätty uusi asetusten ohjattu määritys, joka opastaa Dynamics 365 for Salesin yhteyden muodostamisprosessissa. Kun yhteys on muodostettu, Dynamics 365 for Salesin tietueet on yhdistetty saumattomasti [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietueisiin. Lisätietoja on kohdassa [Asiakassuhteiden hallinta käyttämällä Microsoft Dynamics 365 for Salesia [!INCLUDE[d365fin](includes/d365fin_md.md)]issa](marketing-integrate-dynamicscrm.md).
 
 ## <a name="may-2016-update"></a>Toukokuun 2016 päivitys
 Tässä [!INCLUDE[d365fin](includes/d365fin_md.md)]in päivityksessä lisättiin uusia ominaisuuksia, kuten [blogissa kerrottiin](https://community.dynamics.com/business/b/financials/archive/2016/06/01/new-and-updated-capabilities-in-the-first-update-of-project-quot-madeira-quot).  
@@ -122,7 +122,7 @@ Voit kokeilla itseksesi näitä tärkeitä tilanteita:
 - [[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen Outlookin yrityssähköpostina](madeira-no-outlook.md)  
 - [[!INCLUDE[d365fin](includes/d365fin_md.md)]in hakeminen mobiililaitteeseen](install-mobile-app.md)  
 - [Yritystietojen ottaminen käyttöön Power BI:tä varten](madeira-powerbi.md)  
-- [Roolikeskuksen muuttaminen](change-role.md)  
+- [Perusasetusten muuttaminen](ui-change-basic-settings.md)  
 
 
 
