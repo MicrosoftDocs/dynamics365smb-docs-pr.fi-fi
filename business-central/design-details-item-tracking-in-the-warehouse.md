@@ -1,0 +1,48 @@
+---
+title: "Rakennetiedot – Nimikeseurannan saatavuus | Microsoft Docs"
+description: "Tässä ohjeaiheessa kerrotaan, miten voit varmistaa, että tilauksen käsittelevä henkilö voi luottaa sarja- tai eränumeroiden saatavuuteen."
+services: project-madeira
+documentationcenter: 
+author: SorenGP
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: design, item, tracking, serial number, lot number, outbound documents
+ms.date: 07/01/2017
+ms.author: sgroespe
+ms.translationtype: HT
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 4f9dfd8b4e3fe6052ef8cd0d4fcbadba67c7517b
+ms.contentlocale: fi-fi
+ms.lasthandoff: 03/22/2018
+
+---
+# <a name="design-details-item-tracking-availability"></a><span data-ttu-id="31c8c-103">Rakennetiedot: Nimikkeen seurannan saatavuus</span><span class="sxs-lookup"><span data-stu-id="31c8c-103">Design Details: Item Tracking Availability</span></span>
+<span data-ttu-id="31c8c-104">**Nimikkeen seurantarivit**- ja **Nimikeseurannan yhteenveto** -ikkunoissa on dynaamista saatavuustietoa sarja- tai eränumeroista.</span><span class="sxs-lookup"><span data-stu-id="31c8c-104">The **Item Tracking Lines** and **Item Tracking Summary** windows provide dynamic availability information for serial or lot numbers.</span></span> <span data-ttu-id="31c8c-105">Tämän tarkoituksena on kasvattaa käyttäjien läpinäkyvyyttä lähtevissä asiakirjoissa, kuten myyntitilaukset, näyttämälle heille, mitkä sarjanumerot tai kuinka monta yksikköä eränumeroita tällä hetkellä on kirjattuna toisiin avoimiin asiakirjoihin.</span><span class="sxs-lookup"><span data-stu-id="31c8c-105">The purpose of this is to increase transparency for users on outbound documents, such as sales orders, by showing them which serial numbers or how many units of a lot number are currently assigned on other open documents.</span></span> <span data-ttu-id="31c8c-106">Tämä poistaa kaksoiskohdistuksen aiheuttamaa epävarmuutta ja vahvistaa tilausten käsittelijöiden luottamusta siihen, että nimikkeen seurantanumerot ja kirjaamattomien myyntitilausten luvatut päivämäärät voidaan toteuttaa.</span><span class="sxs-lookup"><span data-stu-id="31c8c-106">This reduces uncertainty that is caused by double allocation and instills confidence in order processors that the item tracking numbers and dates that they are promising on unposted sales orders can be fulfilled.</span></span> <span data-ttu-id="31c8c-107">Katso lisätiedot kohdasta [Rakennetiedot: nimikkeen seurantarivit -ikkuna](design-details-item-tracking-lines-window.md).</span><span class="sxs-lookup"><span data-stu-id="31c8c-107">For more information, see [Design Details: Item Tracking Lines Window](design-details-item-tracking-lines-window.md).</span></span>  
+  
+<span data-ttu-id="31c8c-108">Kun **Nimikkeen seurantarivit** -ikkuna avataan, saatavuustiedot haetaan **Nimiketapahtuma**- ja **Varaustapahtuma**-taulukosta ilman päivämääräsuodatinta.</span><span class="sxs-lookup"><span data-stu-id="31c8c-108">When you open the **Item Tracking Lines** window, availability data is retrieved from the **Item Ledger Entry** table and the **Reservation Entry** table, with no date filter.</span></span> <span data-ttu-id="31c8c-109">Kun valitset **Sarjanro**- tai **Eränro**-kentän, **Nimikeseurannan yhteenveto** -ikkuna avautuu. Ikkunassa näkyvät nimikkeen seurantatiedot **Varaustapahtuma**-taulukossa.</span><span class="sxs-lookup"><span data-stu-id="31c8c-109">When you choose the **Serial No.** field or the **Lot No.** field, the **Item Tracking Summary** window opens and shows a summary of the item tracking information in the **Reservation Entry** table.</span></span> <span data-ttu-id="31c8c-110">Tämä yhteenveto sisältää nimikkeen seurantarivin jokaisen sarja- tai eränumeron seurantatiedot.</span><span class="sxs-lookup"><span data-stu-id="31c8c-110">The summary contains the following information about each serial or lot number on the item tracking line:</span></span>  
+  
+|<span data-ttu-id="31c8c-111">Kenttä</span><span class="sxs-lookup"><span data-stu-id="31c8c-111">Field</span></span>|<span data-ttu-id="31c8c-112">Kuvaus</span><span class="sxs-lookup"><span data-stu-id="31c8c-112">Description</span></span>|  
+|---------------------------------|---------------------------------------|  
+|<span data-ttu-id="31c8c-113">**Määrä yhteensä**</span><span class="sxs-lookup"><span data-stu-id="31c8c-113">**Total Quantity**</span></span>|<span data-ttu-id="31c8c-114">Varastossa tällä hetkellä oleva erä- tai sarjanumeron kokonaismäärä.</span><span class="sxs-lookup"><span data-stu-id="31c8c-114">The total quantity of the serial or lot number that is currently in inventory.</span></span>|  
+|<span data-ttu-id="31c8c-115">**Pyydetty määrä yhteensä**</span><span class="sxs-lookup"><span data-stu-id="31c8c-115">**Total Requested Quantity**</span></span>|<span data-ttu-id="31c8c-116">Tällä hetkellä kaikissa asiakirjoissa pyydettyjen erä- tai sarjanumeroiden kokonaismäärä.</span><span class="sxs-lookup"><span data-stu-id="31c8c-116">The total quantity of the serial or lot number that is currently requested in all documents.</span></span>|  
+|<span data-ttu-id="31c8c-117">**Nykyinen odottava määrä**</span><span class="sxs-lookup"><span data-stu-id="31c8c-117">**Current Pending Quantity**</span></span>|<span data-ttu-id="31c8c-118">Määrä, joka on kirjattu nykyiseen **Nimikkeenseurantarivit** -ikkunaan, mutta ei ole vielä lähetetty tietokantaan.</span><span class="sxs-lookup"><span data-stu-id="31c8c-118">The quantity that is entered in the current instance of the **Item Tracking Lines** window but is not yet committed to the database.</span></span>|  
+|<span data-ttu-id="31c8c-119">**Saatavilla oleva kokonaismäärä**</span><span class="sxs-lookup"><span data-stu-id="31c8c-119">**Total Available Quantity**</span></span>|<span data-ttu-id="31c8c-120">Sarja- tai eränumeron määrä, joka on käyttäjän käytettävissä pyynnöstä.</span><span class="sxs-lookup"><span data-stu-id="31c8c-120">The quantity of the serial or lot number that is available for the user to request.</span></span><br /><br /> <span data-ttu-id="31c8c-121">Määrä lasketaan ikkunan toisten kenttien avulla seuraavasti:</span><span class="sxs-lookup"><span data-stu-id="31c8c-121">This quantity is calculated from other fields in the window as follows:</span></span><br /><br /> <span data-ttu-id="31c8c-122">kokonaismäärä – (pyydetty kokonaismäärä + nykyinen odottava määrä).</span><span class="sxs-lookup"><span data-stu-id="31c8c-122">total quantity – (total requested quantity + current pending quantity).</span></span>|  
+  
+> [!NOTE]  
+>  <span data-ttu-id="31c8c-123">Voit tarkastella edellisen taulukon tietoja käyttämällä **Valitse tapahtumat** -toimintoa **Nimikkeen seurantarivit** -ikkunassa.</span><span class="sxs-lookup"><span data-stu-id="31c8c-123">You can also see the information in the preceding table by using the **Select Entries** function in the **Item Tracking Lines** window.</span></span>  
+  
+<span data-ttu-id="31c8c-124">Saatavuustiedot haetaan tietokannasta vain kerran **Nimikkeen seurantarivit** -ikkunan avaamisen ja **Päivitä saatavuus** -toiminnon käyttämisen yhteydessä. Näin säilytetään tietokannan suorituskyky.</span><span class="sxs-lookup"><span data-stu-id="31c8c-124">To preserve database performance, availability data is only retrieved once from the database when you open the **Item Tracking Lines** window and use the **Refresh Availability** function in the window.</span></span>  
+  
+## <a name="calculation-formula"></a><span data-ttu-id="31c8c-125">Laskentakaava</span><span class="sxs-lookup"><span data-stu-id="31c8c-125">Calculation Formula</span></span>  
+<span data-ttu-id="31c8c-126">Kuten edellisessä taulukossa selvittiin, määritetyn sarja- tai eränumeron saatavuus lasketaan seuraavasti:</span><span class="sxs-lookup"><span data-stu-id="31c8c-126">As described in the preceding table, the availability of a given serial or lot number is calculated as follows:</span></span>  
+  
+* <span data-ttu-id="31c8c-127">saatavilla oleva kokonaismäärä = varastossa oleva määrä – (koko kysyntä + määrä, jota ei ole vielä siirretty tietokantaan)</span><span class="sxs-lookup"><span data-stu-id="31c8c-127">total available quantity = quantity in inventory – (all demands + quantity not yet committed to the database)</span></span>  
+  
+> [!IMPORTANT]  
+>  <span data-ttu-id="31c8c-128">Tämä kaava osoittaa, että sarja- tai eränumeron saatavuuden laskenta ottaa huomioon vain varaston, ei suunniteltuja vastaanottoja.</span><span class="sxs-lookup"><span data-stu-id="31c8c-128">This formula implies that the serial or lot number availability calculation considers only inventory and ignores projected receipts.</span></span> <span data-ttu-id="31c8c-129">Näin ollen tarjonta, jota ei ole vielä kirjattu varastoon, ei vaikuta nimikkeen seurannan saatavuuteen, toisin kuin tavallinen nimikkeen saatavuudessa, johon sisällytetään suunnitellut vastaanotot.</span><span class="sxs-lookup"><span data-stu-id="31c8c-129">Accordingly, supply that is not yet posted to inventory does not affect item tracking availability, as opposed to regular item availability where projected receipts are included.</span></span>  
+  
+## <a name="see-also"></a><span data-ttu-id="31c8c-130">Katso myös</span><span class="sxs-lookup"><span data-stu-id="31c8c-130">See Also</span></span>  
+[<span data-ttu-id="31c8c-131">Rakennetiedot: nimikkeen seuranta</span><span class="sxs-lookup"><span data-stu-id="31c8c-131">Design Details: Item Tracking</span></span>](design-details-item-tracking.md)

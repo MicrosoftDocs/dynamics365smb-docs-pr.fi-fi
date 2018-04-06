@@ -16,13 +16,13 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 9612d1b0859639bf25713dd8bcfbebdaacd3517e
 ms.contentlocale: fi-fi
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
-# <a name="specify-printer-selection-for-reports"></a><span data-ttu-id="4b113-103">Tulostimen valinnan määrittäminen raporteille</span><span class="sxs-lookup"><span data-stu-id="4b113-103">Specify Printer Selection for Reports</span></span>
-<span data-ttu-id="4b113-104">Tämä sivu on tyhjä, koska et voi määrittää tiettyjä tulostimia tietyille raporteille.</span><span class="sxs-lookup"><span data-stu-id="4b113-104">This page is empty because you cannot yet set up specific printers for specific reports.</span></span> <span data-ttu-id="4b113-105">Etsimme ongelmaan ratkaisua.</span><span class="sxs-lookup"><span data-stu-id="4b113-105">We are working on solving this.</span></span>
+# <a name="specify-printer-selection-for-reports"></a><span data-ttu-id="2083b-103">Tulostimen valinnan määrittäminen raporteille</span><span class="sxs-lookup"><span data-stu-id="2083b-103">Specify Printer Selection for Reports</span></span>
+<span data-ttu-id="2083b-104">Tämä sivu on tyhjä, koska et voi määrittää tiettyjä tulostimia tietyille raporteille.</span><span class="sxs-lookup"><span data-stu-id="2083b-104">This page is empty because you cannot yet set up specific printers for specific reports.</span></span> <span data-ttu-id="2083b-105">Etsimme ongelmaan ratkaisua.</span><span class="sxs-lookup"><span data-stu-id="2083b-105">We are working on solving this.</span></span>
 
-<span data-ttu-id="4b113-106">Toistaiseksi tulostettava raportti on ladattava ensin PDF-tiedostona valitsemalla **Lähetä kohteeseen** -painike.</span><span class="sxs-lookup"><span data-stu-id="4b113-106">In the meantime, when you want to print a report, you have to download the report as a PDF document first by choosing the **Send to** button.</span></span> <span data-ttu-id="4b113-107">Valitse tämän jälkeen tiedostotyyppi, jona haluat ladata tiedoston. Valitse nyt **PDF-asiakirja**.</span><span class="sxs-lookup"><span data-stu-id="4b113-107">Then you select the type of file to download the report as, and here you should pick **PDF Document**.</span></span> <span data-ttu-id="4b113-108">Voit nyt joka avata PDF-tiedoston ja tulostaa sen tai tallentaa sen myöhemmin tulostettavaksi.</span><span class="sxs-lookup"><span data-stu-id="4b113-108">Now, you can either open the PDF document right-away and print it, or save it and print it later.</span></span>
+<span data-ttu-id="2083b-106">Toistaiseksi tulostettava raportti on ladattava ensin PDF-tiedostona valitsemalla **Lähetä kohteeseen** -painike.</span><span class="sxs-lookup"><span data-stu-id="2083b-106">In the meantime, when you want to print a report, you have to download the report as a PDF document first by choosing the **Send to** button.</span></span> <span data-ttu-id="2083b-107">Valitse tämän jälkeen tiedostotyyppi, jona haluat ladata tiedoston. Valitse nyt **PDF-asiakirja**.</span><span class="sxs-lookup"><span data-stu-id="2083b-107">Then you select the type of file to download the report as, and here you should pick **PDF Document**.</span></span> <span data-ttu-id="2083b-108">Voit nyt joka avata PDF-tiedoston ja tulostaa sen tai tallentaa sen myöhemmin tulostettavaksi.</span><span class="sxs-lookup"><span data-stu-id="2083b-108">Now, you can either open the PDF document right-away and print it, or save it and print it later.</span></span>
 
 <!--
 
@@ -45,8 +45,8 @@ The following table describes the combination of values to specify when you set 
 |Print a specific report to a specific printer for a specific user|Specify values in all three fields.|
 -->
 
-## <a name="see-also"></a><span data-ttu-id="4b113-109">Katso myös</span><span class="sxs-lookup"><span data-stu-id="4b113-109">See Also</span></span>
-<span data-ttu-id="4b113-110">[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="4b113-110">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
-[<span data-ttu-id="4b113-111">Eräajojen ajaminen</span><span class="sxs-lookup"><span data-stu-id="4b113-111">Run Batch Jobs</span></span>](ui-how-run-batch-jobs.md)  
-[<span data-ttu-id="4b113-112">Asiakirjojen lähettäminen sähköpostitse</span><span class="sxs-lookup"><span data-stu-id="4b113-112">Send Documents by Email</span></span>](ui-how-send-documents-email.md)  
+## <a name="see-also"></a><span data-ttu-id="2083b-109">Katso myös</span><span class="sxs-lookup"><span data-stu-id="2083b-109">See Also</span></span>
+<span data-ttu-id="2083b-110">[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="2083b-110">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+[<span data-ttu-id="2083b-111">Eräajojen ajaminen</span><span class="sxs-lookup"><span data-stu-id="2083b-111">Run Batch Jobs</span></span>](ui-how-run-batch-jobs.md)  
+[<span data-ttu-id="2083b-112">Asiakirjojen lähettäminen sähköpostitse</span><span class="sxs-lookup"><span data-stu-id="2083b-112">Send Documents by Email</span></span>](ui-how-send-documents-email.md)  
 

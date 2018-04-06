@@ -9,29 +9,33 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/16/2017
+ms.date: 03/02/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 52e5b2b69da1f9a78906563d054d91de2dfe0925
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 7f83b9fa8803e3b6611e0167a972c0e54f5eff79
 ms.contentlocale: fi-fi
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
-# <a name="set-up-extended-item-text"></a><span data-ttu-id="a6e10-103">Laajennetun nimiketekstin määrittäminen</span><span class="sxs-lookup"><span data-stu-id="a6e10-103">Set Up Extended Item Text</span></span>
-<span data-ttu-id="a6e10-104">Voit laajentaa nimikkeiden vakiotekstiä lisärivein ja määrittää lisärivien käytölle ehtoja.</span><span class="sxs-lookup"><span data-stu-id="a6e10-104">You can extend a standard text for items by adding extra lines, and you can set up conditions for use of the extra lines.</span></span> <span data-ttu-id="a6e10-105">Voit tehdä tämän nimikekorttien avulla.</span><span class="sxs-lookup"><span data-stu-id="a6e10-105">You do this from item cards.</span></span>
+# <a name="adding-extended-item-text"></a><span data-ttu-id="547dc-103">Laajennetun nimiketekstin lisääminen</span><span class="sxs-lookup"><span data-stu-id="547dc-103">Adding Extended Item Text</span></span>
+<span data-ttu-id="547dc-104">Voit laajentaa nimikkeiden vakiotekstiä lisärivein ja määrittää lisärivien käytölle ehtoja.</span><span class="sxs-lookup"><span data-stu-id="547dc-104">You can extend a standard text for items by adding extra lines, and you can set up conditions for use of the extra lines.</span></span> <span data-ttu-id="547dc-105">Voit tehdä tämän nimikekorttien avulla.</span><span class="sxs-lookup"><span data-stu-id="547dc-105">You do this from item cards.</span></span>
 
-## <a name="to-define-extended-text-for-an-item-description"></a><span data-ttu-id="a6e10-106">Nimikkeen kuvauksen lisätekstin määrittäminen</span><span class="sxs-lookup"><span data-stu-id="a6e10-106">To define extended text for an item description</span></span>
-1. <span data-ttu-id="a6e10-107">Avaa sen nimikkeen kortti, johon lisäteksti lisätään, ja valitse **Lisäteksti**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="a6e10-107">Open the card for an item that you want to add extended text to, and then choose the **Extended Text** action.</span></span>
-2. <span data-ttu-id="a6e10-108">Syötä ensimmäinen koodi  **Koodi**-kenttään. Syötä  **Kuvaus**-kenttään haluttu teksti.</span><span class="sxs-lookup"><span data-stu-id="a6e10-108">In the **Code** field, enter the code, and in the **Description** field, enter the desired text.</span></span>
-3. <span data-ttu-id="a6e10-109">Valitse **Lisätekstit**.</span><span class="sxs-lookup"><span data-stu-id="a6e10-109">Choose **Extended Texts**.</span></span>
-4. <span data-ttu-id="a6e10-110">Täytä **Lisäteksti**-ikkunan riveille lisäteksti.</span><span class="sxs-lookup"><span data-stu-id="a6e10-110">Fill in the lines in the **Extended Text** window with the additional text.</span></span>
-5. <span data-ttu-id="a6e10-111">Täytä **Kielikoodi**- tai **Kaikki kielikoodit** -kenttä, jos käytät kielikoodeja.</span><span class="sxs-lookup"><span data-stu-id="a6e10-111">Fill in the **Language Code** field or the **All Language Codes** field if you use language codes.</span></span>
-6. <span data-ttu-id="a6e10-112">Anna arvot **Aloituspvm**- ja/tai **Lopetuspvm**-kenttään, jos haluat rajoittaa lisätekstin käyttöpäiviä.</span><span class="sxs-lookup"><span data-stu-id="a6e10-112">Fill in the **Starting Date** and **Ending Date** fields if you want to limit the dates on which the extended text is used.</span></span>
-7. <span data-ttu-id="a6e10-113">Valitse asianmukaiset valintaruudut niitä asiakirjatyyppejä varten, joihin haluat lisätekstin tulostuvan.</span><span class="sxs-lookup"><span data-stu-id="a6e10-113">Select relevant check boxes for the document types where you want the extended text printed.</span></span>
-8. <span data-ttu-id="a6e10-114">Sulje ikkuna.</span><span class="sxs-lookup"><span data-stu-id="a6e10-114">Close the window.</span></span>
+## <a name="to-define-extended-text-for-an-item-description"></a><span data-ttu-id="547dc-106">Nimikkeen kuvauksen lisätekstin määrittäminen</span><span class="sxs-lookup"><span data-stu-id="547dc-106">To define extended text for an item description</span></span>
+1. <span data-ttu-id="547dc-107">Avaa sen nimikkeen kortti, johon lisäteksti lisätään, ja valitse **Lisäteksti**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="547dc-107">Open the card for an item that you want to add extended text to, and then choose the **Extended Text** action.</span></span>
+2. <span data-ttu-id="547dc-108">Syötä ensimmäinen koodi  **Koodi**-kenttään. Syötä  **Kuvaus**-kenttään haluttu teksti.</span><span class="sxs-lookup"><span data-stu-id="547dc-108">In the **Code** field, enter the code, and in the **Description** field, enter the desired text.</span></span>
+3. <span data-ttu-id="547dc-109">Valitse **Lisätekstit**.</span><span class="sxs-lookup"><span data-stu-id="547dc-109">Choose **Extended Texts**.</span></span>
+4. <span data-ttu-id="547dc-110">Täytä **Lisäteksti**-ikkunan riveille lisäteksti.</span><span class="sxs-lookup"><span data-stu-id="547dc-110">Fill in the lines in the **Extended Text** window with the additional text.</span></span>
+5. <span data-ttu-id="547dc-111">Täytä **Kielikoodi**- tai **Kaikki kielikoodit** -kenttä, jos käytät kielikoodeja.</span><span class="sxs-lookup"><span data-stu-id="547dc-111">Fill in the **Language Code** field or the **All Language Codes** field if you use language codes.</span></span>
+6. <span data-ttu-id="547dc-112">Anna arvot **Aloituspvm**- ja/tai **Lopetuspvm**-kenttään, jos haluat rajoittaa lisätekstin käyttöpäiviä.</span><span class="sxs-lookup"><span data-stu-id="547dc-112">Fill in the **Starting Date** and **Ending Date** fields if you want to limit the dates on which the extended text is used.</span></span>
+7. <span data-ttu-id="547dc-113">Valitse asianmukaiset valintaruudut niitä asiakirjatyyppejä varten, joihin haluat lisätekstin tulostuvan.</span><span class="sxs-lookup"><span data-stu-id="547dc-113">Select relevant check boxes for the document types where you want the extended text printed.</span></span>
+8. <span data-ttu-id="547dc-114">Sulje ikkuna.</span><span class="sxs-lookup"><span data-stu-id="547dc-114">Close the window.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="a6e10-115">Katso myös</span><span class="sxs-lookup"><span data-stu-id="a6e10-115">See Also</span></span>
-[<span data-ttu-id="a6e10-116">Varaston määrittäminen</span><span class="sxs-lookup"><span data-stu-id="a6e10-116">Setting Up Inventory</span></span>](inventory-setup-inventory.md)  
-<span data-ttu-id="a6e10-117">[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="a6e10-117">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+## <a name="to-add-an-extended-item-text-on-a-sales-order-line"></a><span data-ttu-id="547dc-115">Laajennetun nimiketekstin lisääminen myyntitilausriville</span><span class="sxs-lookup"><span data-stu-id="547dc-115">To add an extended item text on a sales order line</span></span>
+1. <span data-ttu-id="547dc-116">Avaa sen nimikkeen myyntitilaus ja myyntirivi, jolle on määritetty laajennettu teksti.</span><span class="sxs-lookup"><span data-stu-id="547dc-116">Open a sales order with a sales line for an item that has extended text defined.</span></span> <span data-ttu-id="547dc-117">Lisätietoja on kohdassa [Tuotteiden myyminen](sales-how-sell-products.md).</span><span class="sxs-lookup"><span data-stu-id="547dc-117">For more information, see [Sell Products](sales-how-sell-products.md).</span></span>
+2. <span data-ttu-id="547dc-118">Valitse kyseinen rivi ja valitse sitten **Syötä lisätekstit** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="547dc-118">Select the line in question, and then choose the **Insert Ext. Text** action.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="547dc-119">Katso myös</span><span class="sxs-lookup"><span data-stu-id="547dc-119">See Also</span></span>
+[<span data-ttu-id="547dc-120">Varaston määrittäminen</span><span class="sxs-lookup"><span data-stu-id="547dc-120">Setting Up Inventory</span></span>](inventory-setup-inventory.md)  
+<span data-ttu-id="547dc-121">[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="547dc-121">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 

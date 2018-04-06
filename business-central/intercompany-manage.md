@@ -1,0 +1,54 @@
+---
+title: "Samaan organisaatioon kuuluvien yritysten keskinäiset tapahtumat| Microsoft Docs"
+description: "Voit yksinkertaistaa konsernitoiminnoilla samaan organisaatioon kuuluvien yritysten välisiä liiketoimintaprosesseja ja tapahtumia."
+services: project-madeira
+documentationcenter: 
+author: SorenGP
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
+ms.date: 06/20/2017
+ms.author: sgroespe
+ms.translationtype: HT
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 8c68e4bd69c854ecd99cfb833c941066d9a805da
+ms.contentlocale: fi-fi
+ms.lasthandoff: 03/22/2018
+
+---
+# <a name="managing-intercompany-transactions"></a><span data-ttu-id="9e2fe-103">Konsernitapahtumien hallinta</span><span class="sxs-lookup"><span data-stu-id="9e2fe-103">Managing Intercompany Transactions</span></span>
+<span data-ttu-id="9e2fe-104">Organisaatio saattaa koostua useasta yrityksestä, mutta siinä ei välttämättä ole samaa määrää laskenta- ja hallintotyöryhmiä.</span><span class="sxs-lookup"><span data-stu-id="9e2fe-104">Your organization may consist of several companies, but might not have the equivalent number of accounting and administrative teams.</span></span> <span data-ttu-id="9e2fe-105">Konsernitoimintojen ansiosta liiketoiminta tytäryhtiöiden ja sisäisten kumppaniorganisaatioiden on samanlaista kuin ulkoisten toimittajien ja asiakkaiden kanssa toimiminen.</span><span class="sxs-lookup"><span data-stu-id="9e2fe-105">The Intercompany functionality lets you do business with your subsidiary and internal partner organizations in the same way as you engage with your external vendors and customers.</span></span> <span data-ttu-id="9e2fe-106">Konsernin tapahtumien tiedot lisätään asianmukaisiin asiakirjoihin vain kerran.</span><span class="sxs-lookup"><span data-stu-id="9e2fe-106">You enter intercompany transaction information only once in the appropriate documents.</span></span> <span data-ttu-id="9e2fe-107">Voit käyttää itsellesi tuttua toimintoa, esimerkiksi myyntisaamisten ja ostovelkojen hallintaa.</span><span class="sxs-lookup"><span data-stu-id="9e2fe-107">You can use the functionality you are already familiar with, such as receivables and payables management.</span></span> <span data-ttu-id="9e2fe-108">Tilikartan ja dimensioiden linkitystoiminto auttaa varmistamaan, että tiedot näkyvät oikeissa paikoissa.</span><span class="sxs-lookup"><span data-stu-id="9e2fe-108">Mapping facilities for the chart of accounts and dimensions help ensure that information appears in the right places.</span></span>  
+
+<span data-ttu-id="9e2fe-109">Konsernitoimintoihin liittyy neljä merkittävää etua:</span><span class="sxs-lookup"><span data-stu-id="9e2fe-109">There are four main benefits to the Intercompany functionality:</span></span>  
+
+- <span data-ttu-id="9e2fe-110">Ajansäästö ja yksinkertaistetut tapahtumat lisäävät tuottavuutta.</span><span class="sxs-lookup"><span data-stu-id="9e2fe-110">Increased productivity as a result of time saved and simplified transactions</span></span>  
+- <span data-ttu-id="9e2fe-111">Tietojen kertakirjaus ja järjestelmänlaajuiset automaattiset päivitykset pienentävät virhepotentiaalia.</span><span class="sxs-lookup"><span data-stu-id="9e2fe-111">Minimized error potential with one-time entry of information and system-wide, automated updates</span></span>  
+- <span data-ttu-id="9e2fe-112">Kirjausketju on täydellinen, ja liiketoiminnoilla sekä tapahtumahistorioilla on täysi näkyvyys.</span><span class="sxs-lookup"><span data-stu-id="9e2fe-112">Complete audit trail and full visibility into business activities and transaction histories</span></span>  
+- <span data-ttu-id="9e2fe-113">Tapahtumat sisar- ja tytäryhtiöiden kanssa ovat tehokkaita ja kannattavia.</span><span class="sxs-lookup"><span data-stu-id="9e2fe-113">Efficient, cost-effective transactions with affiliate and subsidiary companies</span></span>  
+
+<span data-ttu-id="9e2fe-114">Kaikki tapahtuma-asiakirjat ovat täysin hallinnassasi.</span><span class="sxs-lookup"><span data-stu-id="9e2fe-114">You are in full control of all transaction documents.</span></span> <span data-ttu-id="9e2fe-115">Voit esimerkiksi hylätä sinulle lähetetyn asiakirjan ja tällä tavalla kumota väärät kirjaukset.</span><span class="sxs-lookup"><span data-stu-id="9e2fe-115">For example, you can reject a document sent to you and, in this way, reverse postings that were incorrect.</span></span> <span data-ttu-id="9e2fe-116">Tehdessäsi ostoja kumppani- tai tytäryritykseltä voit päivittää ostotilausta niin kauan kuin myyjäyritys ei ole lähettänyt tavaroita.</span><span class="sxs-lookup"><span data-stu-id="9e2fe-116">Or, when making a purchase from a partner or subsidiary company, you can update the purchase order as long as the selling company has not shipped any goods.</span></span>  
+
+<span data-ttu-id="9e2fe-117">Kun lisäät tapahtuman, yksittäisten tilijoukkojen tilejä ei tarvitse määrittää, vaan kumppaniyrityksen tunnus riittää.</span><span class="sxs-lookup"><span data-stu-id="9e2fe-117">When you enter a transaction, you do not need to specify the accounts for an individual set of books, but simply give the identification of the partner company.</span></span> <span data-ttu-id="9e2fe-118">Konsernitoiminto luo yleisen päiväkirjan rivejä, jotka täsmäävät molempien tapahtumaan osallistuneiden yritysten tilit.</span><span class="sxs-lookup"><span data-stu-id="9e2fe-118">The Intercompany functionality creates general journal lines that result in the balancing of the books of both companies involved in a transaction.</span></span> <span data-ttu-id="9e2fe-119">Myyntisaamisissa ja ostoveloissa asiakkaille ja toimittajille voi määrittää konsernikumppanin koodin.</span><span class="sxs-lookup"><span data-stu-id="9e2fe-119">In receivables and payables, you assign an intercompany partner code to any customer or vendor.</span></span> <span data-ttu-id="9e2fe-120">Sen jälkeen aina, kun luodaan näiden yritysten kanssa suoritettuihin tapahtumiin liittyviä tilauksia tai laskuja, vastaavat asiakirjat luodaan myös kumppaniyritykseen, jolloin tilit täsmäytyvät oikein.</span><span class="sxs-lookup"><span data-stu-id="9e2fe-120">From that moment on, all orders and invoices generated pertaining to transactions with these companies will produce corresponding documents in the partner company, resulting in correct balancing of the accounts.</span></span>  
+
+ <span data-ttu-id="9e2fe-121">Kun olet määrittänyt liiketoimintakumppanit asiakkaiksi ja toimittajiksi järjestelmässä sekä luonut heille konsernikumppanin koodit, on mahdollista vaihtaa konsernin osto- ja myyntiasiakirjoja, kuten nimikkeitä ja nimikekuluja.</span><span class="sxs-lookup"><span data-stu-id="9e2fe-121">After you set up business partners as customers and vendors in the system, and assign them intercompany partner codes, it is possible to exchange intercompany purchase and sales documents, including items and item charges.</span></span> <span data-ttu-id="9e2fe-122">Konsernitoiminto sallii konsernin tapahtumat eri tietokantojen välillä, esimerkiksi eri maissa ja eri alueilla, sekä eri valuutat, erilaiset tilikartat, eri dimensiot ja erilaiset nimikenumeroinnit.</span><span class="sxs-lookup"><span data-stu-id="9e2fe-122">The Intercompany functionality allows intercompany transactions between multiple databases, for example, in different countries/regions, as well as multiple currencies, different charts of accounts, different dimensions, and different item numbering.</span></span>  
+
+<span data-ttu-id="9e2fe-123">Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aiheisiin.</span><span class="sxs-lookup"><span data-stu-id="9e2fe-123">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span>
+
+ |<span data-ttu-id="9e2fe-124">Vastaanottaja</span><span class="sxs-lookup"><span data-stu-id="9e2fe-124">To</span></span> |<span data-ttu-id="9e2fe-125">Katso</span><span class="sxs-lookup"><span data-stu-id="9e2fe-125">See</span></span>|
+ |---|---|
+ |<span data-ttu-id="9e2fe-126">Luo konsernitoimittajat ja -asiakkaat konsernikumppaneina ja määritä konsernin tilikartta.</span><span class="sxs-lookup"><span data-stu-id="9e2fe-126">Create your intercompany vendors and customers as so-called intercompany partners, and set up an intercompany chart of accounts.</span></span>|[<span data-ttu-id="9e2fe-127">Konsernin tietojen määrittäminen</span><span class="sxs-lookup"><span data-stu-id="9e2fe-127">Set Up Intercompany</span></span>](intercompany-how-setup.md)|
+ |<span data-ttu-id="9e2fe-128">Voit kirjata konsernin asiakirjojen tai päiväkirjojen avulla tapahtumia yhdessä konsernikumppanien kanssa.</span><span class="sxs-lookup"><span data-stu-id="9e2fe-128">Use intercompany documents or journals to post transactions with your intercompany partners.</span></span>|[<span data-ttu-id="9e2fe-129">Konserniasiakirjojen ja -päiväkirjojen käyttäminen</span><span class="sxs-lookup"><span data-stu-id="9e2fe-129">Work with Intercompany Documents and Journals</span></span>](intercompany-how-work-documents-journals.md)|
+ |<span data-ttu-id="9e2fe-130">Järjestää ja käsitellä konsernikumppanien kanssa vaihdettavat saapuvat ja lähtevät tapahtumat.</span><span class="sxs-lookup"><span data-stu-id="9e2fe-130">Organize and process incoming and outgoing transactions that you exchange with your intercompany partners.</span></span>|[<span data-ttu-id="9e2fe-131">Konsernin Saapuneet- ja Lähtevät-kansion hallinta</span><span class="sxs-lookup"><span data-stu-id="9e2fe-131">Manage the Intercompany Inbox and Outbox</span></span>](intercompany-how-manage-intercompany-inbox.md)|
+
+## <a name="see-also"></a><span data-ttu-id="9e2fe-132">Katso myös</span><span class="sxs-lookup"><span data-stu-id="9e2fe-132">See Also</span></span>
+[<span data-ttu-id="9e2fe-133">Rahoitus</span><span class="sxs-lookup"><span data-stu-id="9e2fe-133">Finance</span></span>](finance.md)  
+[<span data-ttu-id="9e2fe-134">Rahoituksen määrittäminen</span><span class="sxs-lookup"><span data-stu-id="9e2fe-134">Setting Up Finance</span></span>](finance-setup-finance.md)  
+[<span data-ttu-id="9e2fe-135">Yleisten päiväkirjojen käyttäminen</span><span class="sxs-lookup"><span data-stu-id="9e2fe-135">Working with General Journals</span></span>](ui-work-general-journals.md)  
+<span data-ttu-id="9e2fe-136">[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="9e2fe-136">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
+
