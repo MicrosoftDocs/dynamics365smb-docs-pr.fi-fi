@@ -38,7 +38,7 @@ Microsoft Pay, PayPal Payments Standard- ja WorldPay Payments Standard -laajennu
 3. Valitse maksupalvelu **Maksupalvelu**-kentässä.  
 
     > [!NOTE]  
-    >   **Maksupalvelu**-kenttä on käytettävissä vain, jos olet ottanut maksupalvelun käyttöön.  
+    > **Maksupalvelu**-kenttä on käytettävissä vain, jos olet ottanut maksupalvelun käyttöön.  
 
 ## <a name="see-also"></a>Katso myös  
 [Myynnin määrittäminen](sales-setup-sales.md)  
