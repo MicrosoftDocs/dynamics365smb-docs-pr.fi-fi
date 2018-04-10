@@ -12,8 +12,8 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 03/16/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 97be9460746003c2972a4c4d1f23eec9a4f39fab
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: adeb5f554014e64921cccb9dc926552a2321d333
 ms.contentlocale: fi-fi
 ms.lasthandoff: 03/22/2018
 
@@ -26,7 +26,7 @@ Voit lähettää asiakirjoja, kuten laskuja, sähköpostina käyttämällä yrit
 
 
 ## <a name="see-also"></a>Katso myös
-[Tervetuloa [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]iin!](index.md)  
+[Käytön aloittaminen](product-get-started.md)  
 [Business Central -sovelluksen käyttäminen yrityssähköpostina Outlookissa](admin-outlook.md)  
 [Business Central -sovelluksen hakeminen omaan mobiililaitteeseen](install-mobile-app.md)  
 [Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md)

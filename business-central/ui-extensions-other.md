@@ -12,8 +12,8 @@ ms. search.keywords: app, add-in, manifest, customize
 ms.date: 07/05/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ad7ae8f46b5161e363fb0d9e41ea7c2382e5bde1
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: ac0e4a77cd217a74e315d4e601fed7e0a4e7f203
 ms.contentlocale: fi-fi
 ms.lasthandoff: 03/22/2018
 
@@ -24,6 +24,6 @@ Osoitteessa [AppSource.microsoft.com](https://appsource.microsoft.com/) on [!INC
 Luettelo muiden yritysten laajennuksista kasvaa joka kuukausi. Sivustoa [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1) kannattaakin tarkkailla ja sieltä voi ladata [!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttöä helpottavia sovelluksia.  
 
 ## <a name="see-also"></a>Katso myös
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md)  
-[Tervetuloa [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]iin!](index.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)]in mukauttaminen laajennusten avulla](ui-extensions.md)  
+[Käytön aloittaminen](product-get-started.md)  
 

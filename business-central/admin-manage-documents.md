@@ -11,8 +11,8 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 292231a907970de2821daeba87003eca7bf54cdc
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 696100bfbcc987b1d684e7987e7fd43979813282
 ms.contentlocale: fi-fi
 ms.lasthandoff: 03/22/2018
 
@@ -32,5 +32,5 @@ Laskutetut huoltotilaukset poistetaan ohjelmasta automaattisesti sen jälkeen, k
 Ohjelma ei poista huoltotilauksia automaattisesti, jos tilauksen kokonaismäärä on kirjattu **Huoltolasku**-ikkunassa itse huoltotilauksen sijaan. Tällöin sinun on ehkä poistettava laskutetut tilaukset, joita ei poistettu. Voit tehdä sen suorittamalla **Poista laskutetut huoltotilaukset** -eräajon.  
 
 ## <a name="see-also"></a>Katso myös  
-[Business Central -sovelluksen asetukset ja hallinta](admin-setup-and-administration.md)  
+[Hallinta](admin-setup-and-administration.md)  
 

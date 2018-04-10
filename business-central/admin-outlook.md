@@ -11,8 +11,8 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 03/16/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 20184c026ff12b3367aee3d3c6b0ca66c77e5c64
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 7013cfa615174953660aa291abd62fa327e6f3ab
 ms.contentlocale: fi-fi
 ms.lasthandoff: 03/22/2018
 
@@ -57,7 +57,7 @@ Voit varmistaa myös Outlookin työpöytäversiossa, että [!INCLUDE[d365fin](in
 Jos [!INCLUDE[d365fin](includes/d365fin_md.md)]ia ei voi edelleenkään käyttää, sinun on haettava kummassakin tapauksessa apuohjelman kokoonpanotiedostot. Pyydä lisätietoja Office 365:n järjestelmänvalvojalta.
 
 ## <a name="see-also"></a>Katso myös
-[Tervetuloa [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]iin!](index.md)  
+[Käytön aloittaminen](product-get-started.md)  
 [Rahoitus](finance.md)  
 [Myynti](sales-manage-sales.md)  
 [Osto](purchasing-manage-purchasing.md)  

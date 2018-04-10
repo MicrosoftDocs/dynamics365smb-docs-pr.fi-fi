@@ -1,5 +1,6 @@
-# [Käytön aloittaminen](index.md)
-## [Vähimmäisvaatimukset](financials-requirements.md)
+# [Tervetuloa käyttämään Business Centralia](index.md)
+# [Käytön aloittaminen](product-get-started.md)
+## [Vähimmäisvaatimukset](product-requirements.md)
 ## [Usein kysytyt kysymykset](across-faq.md)
 ## [Yleisiä tehtäviä käsitteleviä videoita](across-videos.md)
 ## [Liiketoimintatoimintojen yleiskatsaus](across-business-functionality.md)
@@ -348,6 +349,7 @@
 ## [Huollon toimittaminen](service-deliver-service.md)
 
 # [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)
+## [Asiakirjarivien seuranta](across-how-to-track-document-lines.md)
 ## [Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md)
 ## [Laajennetun nimiketekstin lisääminen](ui-how-define-ext-text.md)
 ## [Käyttäjätehtävien määrittäminen](across-user-tasks.md)

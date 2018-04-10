@@ -1,8 +1,6 @@
 ---
 title: Analyysiraporttien luominen | Microsoft Docs
 description: "Kuvaa, miten uusien analyysiraporttien luominen myyntejä, ostoja ja varastoa varten sekä analyysimallien määrittäminen tapahtuu."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,8 +11,8 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 622323cd0df894c2cb8a55c6fdfe29a81934af05
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: f127cef1af857b5f50f5e14c7376941151b57e91
 ms.contentlocale: fi-fi
 ms.lasthandoff: 03/22/2018
 
@@ -69,9 +67,8 @@ Malli sisältää joukon rivejä, joista jokainen vastaa analyysiraportissa näk
 4. Valitse Sarakkeet ja määritä analyysiraporttiin sisällytettävät sarakkeet täyttämällä **Analysointisarakkeet**-ikkunan kentät.  
 
     > [!NOTE]  
->   Kun määrität sarakkeen, täytä **Analyysin tyyppikoodi** -kenttä (kaikkien saraketyyppien osalta lukuun ottamatta tyyppiä **Kaava**). Määritä analyysin tyyppikoodi **Analyysityypit**-ikkunassa.  
-
-    **Huomautus**. Jos valitset **Tapahtumakirjauksen tyyppi** -kentässä **Nimiketapahtumat**, ohjelma kopioi todelliset luvut nimiketapahtumasta. Jos valitset **Nimikkeiden budjettitapahtumat**, ohjelma kopioi budjetoidut luvut budjetista.  
+    >   Kun määrität sarakkeen, täytä **Analyysin tyyppikoodi** -kenttä (kaikkien saraketyyppien osalta lukuun ottamatta tyyppiä **Kaava**). Määritä analyysin tyyppikoodi **Analyysityypit**-ikkunassa.  
+    Jos lisäksi valitset **Tapahtumakirjauksen tyyppi** -kentässä **Nimiketapahtumat**, ohjelma kopioi todelliset luvut nimiketapahtumasta. Jos valitset **Nimikkeiden budjettitapahtumat**, ohjelma kopioi budjetoidut luvut budjetista.  
 5.  Tallenna muutokset valitsemalla **OK**-painike.  
 
 ## <a name="to-set-up-analysis-line-templates"></a>Analyysirivimallien määrittäminen  

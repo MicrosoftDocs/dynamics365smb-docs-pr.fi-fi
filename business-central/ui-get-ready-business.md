@@ -12,8 +12,8 @@ ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 02/19/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: bc317c6fefbc9f79b668c1332bbaef2fc74ed4da
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 3e517397fb849e84da42492aaeea36def7dd3a28
 ms.contentlocale: fi-fi
 ms.lasthandoff: 03/22/2018
 
@@ -43,12 +43,12 @@ Roolikeskuksen siirtymispalkin alareunassa on **Asennus ja laajennukset** -valik
 
 Kun olet suorittanut avustetun asennuksen, sen tilaksi merkitään **Valmis**. Voit suorittaa avustetun asennuksen valitsemalla kolme pistettä, joita kutsutaan myös pikavalikoksi, ja valitsemalla sitten **Käynnistä asennus**.
 
-## <a name="role-center-home-page"></a>Roolikeskuksen kotisivu
-Roolikeskuksen kotisivu sisältää liiketoiminnan yleiskuvauksen. Vasemmalla olevan siirtymispalkin avulla voit helposti käsitellä asiakkaita, toimittajia, nimikkeitä jne. Keskellä ovat **toimenpideruudut**. **Toimenpiteet** esittävät nykyiset tiedot. Valitun asiakirjan saa helposti käyttöön toimenpiteitä napsauttamalla tai napauttamalla. **Suorituskykyilmaisimet** voidaan määrittää niin, että ne näyttävät visuaalisesti esimerkiksi kassavirran tai tuottojen ja kulujen valitun kaavion. Voit luoda roolikeskuksen kotisivulla myös **suosikkiasiakkaiden** luettelon niitä asiakkaita varten, joiden kanssa käyt kauppaa usein tai jotka vaativat erityishuomiota.
-Nuolten avulla voit supistaa osan sivusta, jolloin haluamillesi tiedoille jää enemmän tilaa. Roolikeskuksen kotisivun yläosassa on toimintoja, joilla voi käsitellä nykyistä sisältöä. Sekin voidaan supistaa. Voit jatkaa supistetun alueen tarkastelemista napsauttamalla tai napauttamalla aluetta.
+## <a name="role-center"></a>Roolikeskus
+Saat roolikeskuksessa yleiskuvan liiketoiminnastasi. Vasemmalla olevan siirtymispalkin avulla voit helposti käsitellä asiakkaita, toimittajia, nimikkeitä jne. Keskellä ovat **toimenpideruudut**. **Toimenpiteet** esittävät nykyiset tiedot. Valitun asiakirjan saa helposti käyttöön toimenpiteitä napsauttamalla tai napauttamalla. **Suorituskykyilmaisimet** voidaan määrittää niin, että ne näyttävät visuaalisesti esimerkiksi kassavirran tai tuottojen ja kulujen valitun kaavion. Voit luoda roolikeskuksessa myös **suosikkiasiakkaiden** luettelon niitä asiakkaita varten, joiden kanssa käyt kauppaa usein tai jotka vaativat erityishuomiota.
+Nuolten avulla voit supistaa osan sivusta, jolloin haluamillesi tiedoille jää enemmän tilaa. Roolikeskuksen yläosassa on toimintoja, joilla voi käsitellä nykyistä sisältöä. Sekin voidaan supistaa. Voit jatkaa supistetun alueen tarkastelemista napsauttamalla tai napauttamalla aluetta.
 
 > [!TIP]  
-> Voit palata roolikeskuksen kotisivulle valitsemalla yrityksen nimen vasemmasta yläkulmasta.
+> Voit palata roolikeskukseen valitsemalla yrityksen nimen vasemmasta yläkulmasta.
 
 ## <a name="company-information"></a>Yrityksen tiedot
 Voit tarkastella ja muokata **Yrityksen asetukset** -kohdassa nykyisen yrityksen asetustietoja, joista suuri osa on esitäytetty, jos suoritit avustetun **Määritä yritys** -asennuksen [!INCLUDE[d365fin](includes/d365fin_md.md)]iin rekisteröityessäsi. Tässä ikkunassa voit muuttaa yrityksen logoa, yhteystietoja, pankkiasetuksia tai verotustietoja.    
@@ -63,7 +63,7 @@ Jos sinun on lisättävä uusia käyttäjiä, voit tehdä sen Office 365:n halli
 Voit jatkaa luomalla uusia myynti- tai ostoasiakirjoja siirrettyjen tietojen perusteella. Voit luoda nopeasti myyntitarjouksen, myyntilaskun, myyntitilauksen, ostolaskun tai maksurekisteröinnin **kotisivun** **Oma yritys** -osassa.
 
 ## <a name="see-also"></a>Katso myös
-[Tervetuloa [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]iin!](index.md)  
+[Käytön aloittaminen](product-get-started.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Käyttäjien ja käyttöoikeuksien hallinta](ui-how-users-permissions.md)
 

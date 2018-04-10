@@ -11,8 +11,8 @@ ms. search.keywords: app, add-in, manifest, customize, accountant
 ms.date: 09/14/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2bbe5af160a3512c83cc33057252ff6c2eb6a6fc
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 0e7778f0a118280ef18c2ddb61a1c0b0ee7b2452
 ms.contentlocale: fi-fi
 ms.lasthandoff: 03/22/2018
 
@@ -36,7 +36,7 @@ Lisätietoja on kohdassa [Business Central -sovelluksen kirjanpitäjän käyttö
 ## <a name="using-the-extension"></a>Laajennuksen käyttäminen
 Laajennus poistetaan käytöstä muutaman kuukauden kuluttua. Tämän laajennuksen asentamista ei suositella. Rekisteröidy sen sijaan [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]iin [Financials for Accountants -sovelluksessa osoitteessa Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants).
 
-Lisätietoja on kohdassa [Tervetuloa käyttämään ohjelmaa Dynamics 365 – Accountant Hub](/dynamics365/accountants/index.md).  
+Lisätietoja on kohdassa [Tervetuloa käyttämään ohjelmaa Dynamics 365 – Accountant Hub](/dynamics365/accountants/index).  
 
 ## <a name="see-also"></a>Katso myös
 [Kirjanpitäjän käyttökokemukset Business Central -sovelluksessa](finance-accounting.md)  

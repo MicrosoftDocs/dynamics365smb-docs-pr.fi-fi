@@ -12,10 +12,10 @@ ms.search.keywords: bill, sale, invoice, order
 ms.date: 03/12/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e4cf02913056fd0b20bb35fd407a82b2ec8b1599
+ms.sourcegitcommit: f03cc11b5d8cb349567138604857ad3a679967cf
+ms.openlocfilehash: 34c5b47885e82e6dc2985fabb8a4c202ede9c0f9
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/03/2018
 
 ---
 # <a name="invoice-sales"></a>Myynnin laskutus
@@ -58,14 +58,16 @@ Voit täyttää myyntilaskun asiakkaan kentät kahdella tavalla sen mukaan, onko
    Myyntilaskun useat kentät täytetään nyt tiedoilla, jotka olet määrittänyt uuden asiakkaan kortissa.  
 8. Täytä tarvittaessa jäljellä olevat kentät **Myyntilasku**-ikkunassa. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-Voit nyt täyttää asiakkaille myytävien tuotteiden tai KP-tilille kirjattavan asiakastapahtuman myyntilaskun rivit.   
+    Voit nyt täyttää asiakkaille myytävien tuotteiden tai KP-tilille kirjattavan asiakastapahtuman myyntilaskun rivit.   
 
-Jos olet määrittänyt toistuvien myyntien rivin asiakkaalle, kuten kuukausittainen täydennystilaus, voit lisätä nämä rivit tilaukseen valitsemalla **Nouda toistuvat myyntirivit** -toiminto.  
+    Jos olet määrittänyt toistuvien myyntien rivin asiakkaalle, kuten kuukausittainen täydennystilaus, voit lisätä nämä rivit tilaukseen valitsemalla **Nouda toistuvat myyntirivit** -toiminto.  
 9. Valitse **Rivit**-pikavälilehden **Tyyppi**-kentässä sen tuotteen, kulun tai tapahtuman tyyppi, jonka kirjaat myyntirivin asiakkaalle.
 10. Valitse **Nro**-kenttään kirjattava tietue **Tyyppi**-kentän arvon mukaan.
 
- Jätä **Nro**-kenttä tyhjäksi seuraavissa tapauksissa: -Jos rivi on tarkoitettu kommentille. Kirjoita kommentti **Kuvaus**-kenttään.
- -Jos rivi on tarkoitettu ei-varastoitavalle nimikkeelle. Valitse **Valitse ei-varastoitavat nimikkeet** -toiminto. Lisätietoja on kohdassa [Ei-varastoitavien nimikkeiden käsitteleminen](inventory-how-work-nonstock-items.md).
+    Jätä **Nro**-kenttä tyhjäksi seuraavissa tapauksissa:
+
+    * Jos rivi on tarkoitettu kommentille. Kirjoita kommentti **Kuvaus**-kenttään.
+    * Jos rivi on tarkoitettu ei-varastoitavalle nimikkeelle. Valitse **Valitse ei-varastoitavat nimikkeet** -toiminto. Lisätietoja on kohdassa [Ei-varastoitavien nimikkeiden käsitteleminen](inventory-how-work-nonstock-items.md).
 
 11. Ilmoita **Määrä**-kentässä, kuinka monta tuote-, kulu- tai tapahtumayksikköä rivi kirjaa asiakkaalle.  
 

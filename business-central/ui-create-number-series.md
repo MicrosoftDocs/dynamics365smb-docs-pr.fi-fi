@@ -2,20 +2,20 @@
 title: Numerosarjan luominen | Microsoft Docs
 description: "Katso, miten määritetään numerosarjat, jotka määrittävät yksilölliset tunnuskoodit Business Central -sovelluksen tileille ja asiakirjoille."
 documentationcenter: 
-author: SusanneWindfeldPedersen
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: numbers, numbering
-ms.date: 06/02/2017
-ms.author: solsen
+ms.date: 03/27/2018
+ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 151e585b0a809b1b537b52089fce297f222a60dc
+ms.sourcegitcommit: ea9b4a6310df319df06d02c53b9d6156caaee24f
+ms.openlocfilehash: 4d7e554300f0b445816ef9dd7fb81ea54fd25bf7
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 03/28/2018
 
 ---
 # <a name="create-number-series"></a>Numerosarjojen luominen
@@ -30,14 +30,29 @@ Numerosarjat määritetään yleensä lisäämään seuraava peräkkäinen numer
 
 Jos haluat käyttää useita numerosarjakoodeja yhdelle perustietotyypille (esimerkiksi silloin, kun haluat eri numerosarjoja eri nimikeluokille), voit käyttää numerosarjasuhteita.
 
+## <a name="behavior-of-the-no-field-on-documents-and-cards"></a>Nro-kentän toiminta asiakirjoissa ja korteissa
+Myynti-, osto- ja siirtoasiakirjojen ja korttien **Nro** voidaan täyttää automaattisesti numerosarjasta tai manuaalisesti. Lisäksi voidaan määrittää näkymättömäksi.
+
+**Nro**-kenttä voidaan täyttää kolmella tavalla:
+
+1. Jos asiakirjantyypillä tai kortilla on vain yksi numerosarja, jossa **Oletusnrot**-valintaruutu on valittu mutta **Manuaaliset nrot** -valintaruutua ei ole valittu, kenttä täytetään automaattisesti sarjan seuraavalla numerolla. **Nro**-kenttä ei silloin näy.
+
+    > [!NOTE]  
+    > Jos numerosarja ei toimi esimerkiksi siksi, että sen numerot ovat loppuneet, tällöin **Nro**-kenttä on näkyvissä ja voit kirjoittaa numeron manuaalisesti tai ratkaista ongelmat **Numerosarjaluettelo**-ikkunassa.
+
+2. Jos asiakirjatyypillä tai kortilla on useita numerosarjoja eikä nykyisen kohdistetun numerosarjan **Oletusnrot**-valintaruutua ole valittu, **Nro**-kenttä näkyy ja voit valita käytettävän numerosarjan **Numerosarjaluettelo**-ikkunasta. Sarjan seuraava numero lisätään sitten **Nro** -kentässä.
+
+3. Jos asiakirjatyypin tai kortin numerosarjaa ei ole määritetty tai jos numerosarjoille on valittu **Manuaaliset nrot** -kenttä, **Nro**-kenttä näkyy ja numerot on annettava manuaalisesti. Voit kirjoittaa enintään 20 merkkiä, sekä numeroita että kirjaimia.
+
+Kun uuden asiakirjan tai kortin, jolla on jo numerosarja, vastaava **Numerosarja-asetukset**-ikkuna avautuu. Voit määrittää tässä ikkunassa kyseisen asiakirjatyypin tai kortin numerosarjan, ennen kuin jatkat muiden tietojen antamista.
+
+> [!NOTE]  
+> Jos manuaalinen numerointi on otettava käyttöön esimerkiksi uusissa korteissa, jotka luoneessa tietojen siirtoprosessissa **Nro**-kenttä on oletusarvoisesti piilotettu, siirry **Varastonhallinnan asetukset** -ikkunaan ja valitse **Nimikenrot**-kenttä. Voit nyt avata ja määrittää liittyvien numerosarjojen asetuksiksi **Manuaaliset nrot**.
+
 ## <a name="to-create-a-new-number-series"></a>Uuden numerosarjan luominen
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Nrosarja** ja valitse sitten aiheeseen liittyvä linkki.
 2. Valitse **Uusi**-toiminto.
 3. Täytä tarvittavat uuden rivin kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-
-**VIHJE**: Jos haluat sallia numeroiden antamisen manuaalisesti uusissa korteissa tai asiakirjoissa, poista **Oletusnrot**-valintaruudun valinta ja valitse **Manuaaliset nrot** -valintaruutu.
-
-Kun nyt luot uuden kortin tai asiakirjan, joka on määritetty käyttämään kyseistä numerosarjaa, voit antaa **Nro**-kenttään sopivan arvon.  
 
 ## <a name="to-set-up-where-a-number-series-is-used"></a>Numerosarjan käyttökohteen määrittäminen
 Seuraavaksi selitetään, miten myyntialueen numerosarja määritetään. Myös muut alueet määritetään vastaavasti.

@@ -8,11 +8,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 03/12/2018
+ms.date: 03/22/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7d41317f1f5e071c70dfd5ae265b046b3bea4825
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: f669e4b4dd43a6ac32fafc0dc1e408e1b87be98b
 ms.contentlocale: fi-fi
 ms.lasthandoff: 03/22/2018
 
@@ -25,7 +25,7 @@ Esimerkiksi tilikarttaan on kerätty käyttövalmiita kirjaustilejä. Voit tiety
 Roolisivulla on avustettuja asennusoppaita, joiden avulla voit määrittää tiettyjä skenaarioita sekä lisätä ominaisuuksia [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmaan. Lisätietoja siitä, miten käytät kaikkia avustettuja sekä manuaalisia määritysikkunoita löydät ohjeesta [Valmistautuminen liiketoimintaan](ui-get-ready-business.md).
 
 > [!NOTE]
-> Voit määrittää uuden yrityksen [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksessa RapidStart Services -palvelun kanssa. RapidStart Services -palvelun on työkalu, joka on suunniteltu lyhentämään käyttöönottoa, parantamaan toteutuksen laatua, esittelemään toistettavia lähestymistapoja toteutuksiin, ja lisäämään tuottavuutta automatisoimalla ja yksinkertaistamalla toistuvia tehtäviä. Lisätietoja on kohdassa ## [Yrityksen määrittäminen RapidStart Services -palvelun avulla](admin-set-up-a-company-with-rapidstart.md).
+> Voit määrittää uuden yrityksen [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksessa RapidStart Services -palvelun kanssa. RapidStart Services -palvelun on työkalu, joka on suunniteltu lyhentämään käyttöönottoa, parantamaan toteutuksen laatua, esittelemään toistettavia lähestymistapoja toteutuksiin, ja lisäämään tuottavuutta automatisoimalla ja yksinkertaistamalla toistuvia tehtäviä. Lisätietoja on kohdassa [Yrityksen määrittäminen RapidStart Services -palvelun avulla](admin-set-up-a-company-with-rapidstart.md).
 
 Tietyt joko yleiset tai erityiset liiketoimintaprosessien toiminnot voidaan määrittää manuaalisesti tai avustetusti. Seuraavassa luettelossa on joitakin manuaalisesti määritettäviä toimintoja.
 
@@ -59,9 +59,9 @@ Joidenkin alueiden edellytyksenä on, että käyttäjä on [!INCLUDE[d365fin](in
 [Tuotanto](production-manage-manufacturing.md)  
 [Varastoinninhallinta](warehouse-manage-warehouse.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
-[Asetukset ja hallinto [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmassa](admin-setup-and-administration.md)  
+[Hallinta](admin-setup-and-administration.md)  
 [Uusien yritysten luominen [!INCLUDE[d365fin](includes/d365fin_md.md)]issa](about-new-company.md)  
-[Tervetuloa [!INCLUDE[d365fin](includes/d365fin_md.md)]iin!](index.md)  
+[Käytön aloittaminen](product-get-started.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
 ## [!INCLUDE[d365fin](includes/training_link_md.md)]

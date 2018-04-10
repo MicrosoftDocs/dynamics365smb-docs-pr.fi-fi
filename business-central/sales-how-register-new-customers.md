@@ -13,10 +13,10 @@ ms.search.keywords: client
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6dcd375cc687e74783cadc2cf50fbf804377d3ca
+ms.sourcegitcommit: ea9b4a6310df319df06d02c53b9d6156caaee24f
+ms.openlocfilehash: 6ca938a5bcd0fd160c98358d89740e4dfd756e79
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 03/28/2018
 
 ---
 # <a name="register-new-customers"></a>Uusien asiakkaiden rekisteröinti
@@ -54,6 +54,7 @@ Jos haluat käyttää tätä asiakkaan korttia mallina, kun luot uusia asiakkaan
 Asiakasmalli lisätään asiakasmallien luetteloon niin, että sen avulla voit luoda uusia asiakkaiden kortteja.
 
 ## <a name="see-also"></a>Katso myös
+[Numerosarjojen luominen](ui-create-number-series.md)  
 [Myynti](sales-manage-sales.md)    
 [Myynnin määrittäminen](sales-setup-sales.md)    
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)

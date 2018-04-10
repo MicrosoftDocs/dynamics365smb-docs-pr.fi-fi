@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade
-ms.date: 01/12/2018
+ms.date: 04/03/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3a5dc2085e5d7b7bfad591e0f70f7f6e8f9cc43f
+ms.sourcegitcommit: f03cc11b5d8cb349567138604857ad3a679967cf
+ms.openlocfilehash: 4b645c2db215d08d7bf483c3d728359d8e224062
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/03/2018
 
 ---
 # <a name="sell-products"></a>Tuotteiden myyminen
@@ -75,17 +75,20 @@ Voit täyttää myyntitilauksen asiakkaan kentät kahdella tavalla sen mukaan, o
 14. Uuden asiakkaan kortissa näkyy valitun asiakasmallin tiedot. Täytä jäljellä olevat kentät. Lisätietoja on kohdassa [Uusien asiakkaiden rekisteröinti](sales-how-register-new-customers.md).  
 15. Kun olet määrittänyt asiakaskortin, palaa **Myyntitilaus**-ikkunaan valitsemalla **OK**.
 
-   Monet myyntitilauksen kentistä täytetään nyt tiedoilla, jotka olet määrittänyt uuden asiakkaan kortissa.  
+    Myyntitilauksen useat kentät täytetään nyt tiedoilla, jotka olet määrittänyt uuden asiakkaan kortissa.
 16. Täytä tarvittaessa jäljellä olevat kentät **Myyntitilaus**-ikkunassa. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-   Voit nyt täyttää asiakkaille myytävien tuotteiden tai KP-tilille kirjattavan asiakastapahtuman myyntitilauksen rivit.   
+    Voit nyt täyttää asiakkaille myytävien tuotteiden tai KP-tilille kirjattavan asiakastapahtuman myyntitilauksen rivit.   
 
-   Jos olet määrittänyt toistuvien myyntien rivin asiakkaalle, kuten kuukausittainen täydennystilaus, voit lisätä nämä rivit tilaukseen valitsemalla **Nouda toistuvat myyntirivit** -toiminto.  
+    Jos olet määrittänyt toistuvien myyntien rivin asiakkaalle, kuten kuukausittainen täydennystilaus, voit lisätä nämä rivit tilaukseen valitsemalla **Nouda toistuvat myyntirivit** -toiminto.  
 17. Valitse **Rivit**-pikavälilehden **Tyyppi**-kentässä sen tuotteen, kulun tai tapahtuman tyyppi, jonka kirjaat myyntirivin asiakkaalle.
+
 18. Valitse **Nro**-kenttään kirjattava tietue **Tyyppi**-kentän arvon mukaan.
 
-    Jätä **Nro**-kenttä tyhjäksi seuraavissa tapauksissa: -Jos rivi on tarkoitettu kommentille. Kirjoita kommentti **Kuvaus**-kenttään.
-    -Jos rivi on tarkoitettu ei-varastoitavalle nimikkeelle. Valitse **Valitse ei-varastoitavat nimikkeet** -toiminto. Lisätietoja on kohdassa [Ei-varastoitavien nimikkeiden käsitteleminen](inventory-how-work-nonstock-items.md).
+    Jätä **Nro**-kenttä tyhjäksi seuraavissa tapauksissa:
+
+    * Jos rivi on tarkoitettu kommentille. Kirjoita kommentti **Kuvaus**-kenttään.
+    * Jos rivi on tarkoitettu ei-varastoitavalle nimikkeelle. Valitse **Valitse ei-varastoitavat nimikkeet** -toiminto. Lisätietoja on kohdassa [Ei-varastoitavien nimikkeiden käsitteleminen](inventory-how-work-nonstock-items.md).
 
 19. Ilmoita **Määrä**-kentässä, kuinka monta tuote-, kulu- tai tapahtumayksikköä rivi kirjaa asiakkaalle.  
 

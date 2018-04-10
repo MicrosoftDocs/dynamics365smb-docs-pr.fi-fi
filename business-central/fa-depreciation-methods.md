@@ -13,8 +13,8 @@ ms.search.keywords: write down
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 25509535a04f94c00bf8ea123e36898d4eb20eb8
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: ebee0f94a64fcb6d3a86a7fe1808fdb643371cfd
 ms.contentlocale: fi-fi
 ms.lasthandoff: 03/22/2018
 
@@ -31,11 +31,11 @@ Saatavilla olevia poistomenetelmiä on kahdeksan:
 * Manuaalinen  
 
   > [!NOTE]  
->   Tätä menetelmää voidaan käyttää omaisuuserille, joille ei tehdä poistoja, kuten maa-alueille. Poisto on vietävä käyttöomaisuuserän KP-päiväkirjaan. **Laske poisto** -eräajo jättää huomiotta tätä poistomenetelmää käyttävät käyttöomaisuuserät.  
+  >   Tätä menetelmää voidaan käyttää omaisuuserille, joille ei tehdä poistoja, kuten maa-alueille. Poisto on vietävä käyttöomaisuuserän KP-päiväkirjaan. **Laske poisto** -eräajo jättää huomiotta tätä poistomenetelmää käyttävät käyttöomaisuuserät.  
 * Puolivuotissopimus  
 
   > [!NOTE]  
->    Tätä menetelmää käytettäessä käyttöomaisuudesta poistetaan joka vuosi sama summa.  
+  >    Tätä menetelmää käytettäessä käyttöomaisuudesta poistetaan joka vuosi sama summa.  
 
 ## <a name="straight-line-depreciation"></a>Tasapoisto
 Tasapoistomenetelmää käytettäessä käyttöomaisuuden poistokirjaan on määritettävä jokin seuraavista vaihtoehdoista:  
@@ -355,6 +355,6 @@ Kun käyttöomaisuuden KP-päiväkirjan B1:een syötetään tapahtuma ja **Käyt
 [Käyttöomaisuus](fa-manage.md)  
 [Käyttöomaisuuden määrittäminen](fa-setup.md)  
 [Rahoitus](finance.md)  
-[Tervetuloa [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]iin!](index.md)  
+[Käytön aloittaminen](product-get-started.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
 

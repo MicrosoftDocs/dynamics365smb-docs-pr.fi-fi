@@ -13,8 +13,8 @@ ms.search.keywords: Yodlee, feed, stream, payment process
 ms.date: 09/14/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3b40920eb3b93364a7d571b46d8657336aff556a
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: f3507de1dbf463066b81b8504b832d12731f9138
 ms.contentlocale: fi-fi
 ms.lasthandoff: 03/22/2018
 
@@ -37,7 +37,7 @@ Kun olet ottanut pankkisyötepalvelun käyttöön, pankkitili on linkitettävä 
 Kun pankkisyötepalvelu on otettu käyttöön, voit määrittää pankkitilille uusien tiliotteiden automaattisen tuonnin **Maksujen täsmäytyskirjauskansio** -ikkunaan kahden tunnin välein. Niiden maksujen tapahtumia, jotka on jo kohdistettu ja/tai täsmäytetty **Maksujen täsmäytyskirjauskansio** -ikkunassa, ei tuoda. Lisätietoja on “Pankin tiliotteiden automaattisen tuonnin ottaminen käyttöön” -osassa.
 
 > [!NOTE]  
->   Jos käytössä on yrityksen määrittämisen avustettu asennus, jotkin seuraavien toimenpiteiden yrityksen pankkitilin asennusvaiheet suoritetaan automaattisesti. Lisätietoja on kohdassa [Tervetuloa [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]iin](index.md).
+> Jos käytössä on yrityksen määrittämisen avustettu asennus, jotkin seuraavien toimenpiteiden yrityksen pankkitilin asennusvaiheet suoritetaan automaattisesti. Lisätietoja on kohdassa [Käytön aloittaminen](product-get-started.md).
 
 ## <a name="to-enable-the-bank-feed-service"></a>Pankkisyötepalvelun ottaminen käyttöön
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Pankkitilit** ja valitse sitten aiheeseen liittyvä linkki.
@@ -51,14 +51,14 @@ Pankkisyötepalvelu otetaan käyttöön, kun linkität pankkitilin siihen liitty
 2. Valitse asianmukainen pankkitili ja valitse sitten **Luo uusi linkitetty pankkitili**. Hetken kuluttua näyttöön avautuu **Pankkitilin linkitys** -ikkuna.
 
     > [!NOTE]  
->   Tässä ikkunassa näytetään Envestnet Yodlee -pankkisyötepalvelun todellinen verkkosivu. Ikkunassa näkyvät termit ja toiminnot eivät ehkä vastaa tämän ohjeaiheen ohjeita.  
+    > Tässä ikkunassa näytetään Envestnet Yodlee -pankkisyötepalvelun todellinen verkkosivu. Ikkunassa näkyvät termit ja toiminnot eivät ehkä vastaa tämän ohjeaiheen ohjeita.  
 3. Käytä **Verkkopankkitilin linkitys** -ikkunan **Linkitä tili** -ruudun hakutoimintoa, kun etsit pankin, jossa sinulla on vähintään yksi verkkopankkitili.
 4. Valitse pankin nimi. **Kirjaudu sisään** -ruutu avautuu.
 5. Syötä käyttäjätunnus ja salasana, jota käytät kirjautuessasi verkkopankkiin, ja valitse sitten **Seuraava**-painike.  
 6. Pankkisyötepalvelu valmistelee määritetyn pankin ensimmäisen verkkopankkitiliin ja [!INCLUDE[d365fin](includes/d365fin_md.md)]in uuden pankkitilin linkityksen.
 
     > [!NOTE]  
->   Jos sinulla on pankissa useita verkkopankkitilejä, luo niille lisäpankkitilit [!INCLUDE[d365fin](includes/d365fin_md.md)]iin. Katso vaiheet 8–10.  
+    > Jos sinulla on pankissa useita verkkopankkitilejä, luo niille lisäpankkitilit [!INCLUDE[d365fin](includes/d365fin_md.md)]iin. Katso vaiheet 8–10.  
 
     Kun käsittely on tehty, pankin nimi näkyy **Linkitetty**-välilehden **Omat tilit** -ruudussa. Sulkeissa oleva luku osoittaa linkitettyjen verkkopankkien määrän.  
 7. Valitse **OK**-painike.
@@ -92,7 +92,7 @@ Pankkisyötepalvelu otetaan käyttöön, kun linkität pankkitilin siihen liitty
 2. Valitse sen linkitetyn pankkitilin rivi, jonka linkityksen liittyvään verkkopankkitiliin haluat poistaa. Valitse sitten **Poista verkkopankkitilin linkitys** -toiminto.
 
 > [!NOTE]  
->   Jos valitset vahvistusvalintaikkunassa **Kyllä**, verkkopankkitilin linkki poistetaan ja sisäänkirjaustiedot poistetaan. Voit linkittää pankkitilin uudelleen verkkopankkitiliin kirjautumalla pankkiin sisään uudelleen. Lisätietoja on “Pankkitilin linkittäminen verkkopankkitiliin“ -osassa.
+> Jos valitset vahvistusvalintaikkunassa **Kyllä**, verkkopankkitilin linkki poistetaan ja sisäänkirjaustiedot poistetaan. Voit linkittää pankkitilin uudelleen verkkopankkitiliin kirjautumalla pankkiin sisään uudelleen. Lisätietoja on “Pankkitilin linkittäminen verkkopankkitiliin“ -osassa.
 
 ## <a name="to-update-bank-account-linking"></a>Pankkitilin linkityksen päivittäminen
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Pankkitilit** ja valitse sitten aiheeseen liittyvä linkki.
@@ -106,13 +106,13 @@ Jos **Pankkitililuettelo**-ikkunan linkitetyissä pankkitileissä esiintyy ongel
 3. Määritä **Pankin tiliotteen automaattisen tuonnin asetukset** -ikkunan **Sisällytettyjen päivien lukumäärä** -kentässä, miltä kaukaiselta ajalta uudet pankkitapahtumat haetaan.
 
     > [!NOTE]  
->   Suosittelemme arvoksi 7 päivää tai enemmän.  
+    > Suosittelemme arvoksi 7 päivää tai enemmän.  
 4. Valitse **Käytössä**-valintaruutu.  
 
 **Maksujen täsmäytyskirjauskansio** -ikkuna näyttää nyt tunneittain kaikki uudet verkkopankissa tehdyt maksut.
 
 > [!NOTE]  
->   Niiden maksujen tapahtumia, jotka on jo kohdistettu ja/tai täsmäytetty **Maksujen täsmäytyskirjauskansio** -ikkunassa, ei tuoda.
+> Niiden maksujen tapahtumia, jotka on jo kohdistettu ja/tai täsmäytetty **Maksujen täsmäytyskirjauskansio** -ikkunassa, ei tuoda.
 
 ## <a name="see-also"></a>Katso myös
 [Pankkitoiminnan määrittäminen](bank-setup-banking.md)  

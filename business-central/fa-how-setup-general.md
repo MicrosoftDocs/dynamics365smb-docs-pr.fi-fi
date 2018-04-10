@@ -10,8 +10,8 @@ ms.workload: na
 ms.date: 29/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 30c60a7ec8d80270256536d9b0b80218b7fd1559
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: d653021766b5d9dd4efa49e97525666e30c69450
 ms.contentlocale: fi-fi
 ms.lasthandoff: 03/22/2018
 
@@ -33,7 +33,7 @@ Kirjausryhmiä käytetään määrittelemään käyttöomaisuusryhmiä. Näiden 
 3. Täytä **KO:n kirjausryhmän kortti** -ikkunassa tarvittavat kentät.
 
     > [!NOTE]  
->   Varmista, että eri käyttöomaisuuserien kirjausten vastatilit lisätään automaattisesti, kun päiväkirjarivien **Syötä KO-vastatil** -toiminto valitaan, tee seuraavan vaiheen osoittamat toiminnot arvonkorotuksen kirjaamisen perusteella.
+    >   Varmista, että eri käyttöomaisuuserien kirjausten vastatilit lisätään automaattisesti, kun päiväkirjarivien **Syötä KO-vastatil** -toiminto valitaan, tee seuraavan vaiheen osoittamat toiminnot arvonkorotuksen kirjaamisen perusteella.
 4. Valitse **Vastatili**-pikavälilehden **Arvonkorotuksen vastatili** -kenttään se pääkirjanpitotili, jolle haluat kirjata arvonkorotuksen vastatilitapahtumat.
 
 Lisätietoja **Syötä KO-vastatili** -toiminnon käyttämisestä käyttöomaisuuden KP-päiväkirjariveillä on esimerkiksi kohdassa [Käyttöomaisuuden uudelleenarvostus](fa-how-revalue.md).
@@ -121,6 +121,6 @@ Jos käyttöomaisuutta ei ole integroitu käyttöomaisuuden kanssa, ohita työva
 [Käyttöomaisuuden määrittäminen](fa-setup.md)  
 [Käyttöomaisuus](fa-manage.md)  
 [Rahoitus](finance.md)  
-[Tervetuloa [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]iin!](index.md)  
+[Käytön aloittaminen](product-get-started.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
 

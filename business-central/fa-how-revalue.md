@@ -12,8 +12,8 @@ ms.workload: na
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5dd885d32c0ca08bdf51770669ee569c3a7a98ed
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 1127c2d485ae72cc3cb27860a6189f7657756e06
 ms.contentlocale: fi-fi
 ms.lasthandoff: 03/22/2018
 
@@ -34,7 +34,7 @@ Indeksointia käytetään muuttamaan useiden käyttöomaisuuserien arvoja esimer
 4. Valitse **Syötä KO-vastatili** -toiminto. Toinen päiväkirjan rivi luodaan vastatilille, joka on määritetty arvonkorotuksen kirjaamista varten.
 
     > [!NOTE]  
->   Vaihe 4 toimii vain, jos määritettynä ovat seuraavat arvot: Käyttöomaisuuden kirjausryhmän **KO:n kirjausryhmän kortti** -ikkunan **Arvonkorotustili**-kenttä sisältää pääkirjanpidon debet-tilin ja **Arvonkorotuksen vastatili** -kenttä sisältää sen pääkirjanpitotilin, jolle arvonkorotuksen vastatilitapahtumat kirjataan. Lisätietoja on kohdan [Käyttöomaisuuden yleisten tietojen määrittäminen](fa-how-setup-general.md) osassa Käyttöomaisuuden kirjausryhmien määrittäminen.  
+    >   Vaihe 4 toimii vain, jos määritettynä ovat seuraavat arvot: Käyttöomaisuuden kirjausryhmän **KO:n kirjausryhmän kortti** -ikkunan **Arvonkorotustili**-kenttä sisältää pääkirjanpidon debet-tilin ja **Arvonkorotuksen vastatili** -kenttä sisältää sen pääkirjanpitotilin, jolle arvonkorotuksen vastatilitapahtumat kirjataan. Lisätietoja on kohdan [Käyttöomaisuuden yleisten tietojen määrittäminen](fa-how-setup-general.md) osassa Käyttöomaisuuden kirjausryhmien määrittäminen.  
 5. Valitse **Kirjaa**-toiminto.
 
 ## <a name="to-post-a-write-down-from-the-fixed-asset-gl-journal"></a>Arvonalennuksen kirjaaminen käyttöomaisuuden KP-päiväkirjasta
@@ -44,7 +44,7 @@ Indeksointia käytetään muuttamaan useiden käyttöomaisuuserien arvoja esimer
 4. Valitse **Syötä KO-vastatili** -toiminto. Toinen päiväkirjan rivi luodaan vastatilille, joka on määritetty arvonalennuksen kirjaamista varten.
 
     > [!NOTE]  
->   Vaihe 4 toimii vain, jos määritettynä ovat seuraavat arvot: Käyttöomaisuuden kirjausryhmän **KO:n kirjausryhmän kortti** -ikkunan **Arvonalennustili**-kenttä sisältää pääkirjanpidon kredit-tilin ja **Arvonalennuksen kustannustili** -kenttä sisältää sen pääkirjanpitotilin, jolle arvonalennusten vastatilitapahtumat kirjataan. Lisätietoja on kohdan [Käyttöomaisuuden yleisten tietojen määrittäminen](fa-how-setup-general.md) osassa Käyttöomaisuuden kirjausryhmien määrittäminen.
+    >   Vaihe 4 toimii vain, jos määritettynä ovat seuraavat arvot: Käyttöomaisuuden kirjausryhmän **KO:n kirjausryhmän kortti** -ikkunan **Arvonalennustili**-kenttä sisältää pääkirjanpidon kredit-tilin ja **Arvonalennuksen kustannustili** -kenttä sisältää sen pääkirjanpitotilin, jolle arvonalennusten vastatilitapahtumat kirjataan. Lisätietoja on kohdan [Käyttöomaisuuden yleisten tietojen määrittäminen](fa-how-setup-general.md) osassa Käyttöomaisuuden kirjausryhmien määrittäminen.
 5. Valitse **Kirjaa**-toiminto.
 
 ## <a name="to-perform-general-revaluation-of-fixed-assets"></a>Käyttöomaisuuden yleisen uudelleenarvostuksen suorittaminen
@@ -60,10 +60,10 @@ Indeksointia käytetään muuttamaan useiden käyttöomaisuuserien arvoja esimer
 6. Tarkista luodut tapahtumat ja kirjaa päiväkirja **Kirjaa**-toiminnon avulla.
 
     > [!TIP]  
->   Jos indeksiluvut on tarkoitettu vain simulointia varten, niiden tallentamiseksi voi luoda erityisen poistokirjan. Tällä tavalla tapahtumat eivät vaikuta muihin poistokirjoihin.
+    >   Jos indeksiluvut on tarkoitettu vain simulointia varten, niiden tallentamiseksi voi luoda erityisen poistokirjan. Tällä tavalla tapahtumat eivät vaikuta muihin poistokirjoihin.
 
-   ## <a name="to-post-additional-acquisition-costs"></a>Lisähankintakustannusten kirjaaminen
-   Käyttöomaisuuden lisähankintameno kirjataan samalla tavalla kuin alkuperäinen hankintameno: ostolaskusta tai käyttöomaisuuden päiväkirjasta. Lisätietoja on kohdassa [Käyttöomaisuuden hankinta](fa-how-acquire.md).  
+## <a name="to-post-additional-acquisition-costs"></a>Lisähankintakustannusten kirjaaminen
+Käyttöomaisuuden lisähankintameno kirjataan samalla tavalla kuin alkuperäinen hankintameno: ostolaskusta tai käyttöomaisuuden päiväkirjasta. Lisätietoja on kohdassa [Käyttöomaisuuden hankinta](fa-how-acquire.md).  
 
 Jos käyttöomaisuudelle on jo laskettu poisto, valitse **Poiston hankintameno** -valintaruutu tehdäksesi poiston lisähankintamenolle vähennettynä jäännösarvolla samassa suhteessa kuin aiemmin hankitulle käyttöomaisuudelle on jo tehty poisto. Näin varmistat, että poistojaksoa ei muuteta.  
 
@@ -120,6 +120,6 @@ Jos et valinnut **Poisto KO-kirjauspvm:ään asti** -kenttää, omaisuuserä men
 [Käyttöomaisuus](fa-manage.md)  
 [Käyttöomaisuuden määrittäminen](fa-setup.md)  
 [Rahoitus](finance.md)  
-[Tervetuloa [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]iin!](index.md)  
+[Käytön aloittaminen](product-get-started.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
 

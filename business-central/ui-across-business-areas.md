@@ -10,11 +10,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.date: 03/02/2018
+ms.date: 03/20/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: eb0b77de0be1ac9d86750bf406f0ef2a6e9770df
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: fe75b81e2eae2520c6952cf1751ee4259eb3fb68
 ms.contentlocale: fi-fi
 ms.lasthandoff: 03/22/2018
 
@@ -28,6 +28,7 @@ Seuraava taulukko sisältää nämä yleiset liiketoiminta-alueet ja linkit niit
 
 | Vastaanottaja | Katso |
 | --- | --- |
+|Näytä myynti- ja ostotilausriveihin liittyvät keskeneräiset, kirjatut tai arkistoidut asiakirjat.|[Asiakirjarivien seuranta](across-how-to-track-document-lines.md)|
 | Voit kertoa liiketoiminta-asiakirjojen sisällön nopeasti liiketoimintakumppaneille. Asiakirjat voivat sisältää esimerkiksi asiakkaiden myyntiasiakirjojen maksutietoja. |[Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md) |
 | Määritä vakiotekstikoodit, jotta voit laajentaa vakiotekstiä lisäämällä rivejä, ja määritä lisärivien käytön ehdot. |[Lisätekstien määrittäminen](ui-how-define-ext-text.md) |
 |Luo tehtäviä, jotka muistuttavat sinua tekemättömistä töistä. Voit luoda tehtäviä itsellesi, mutta voit määrittää tehtäviä myös muille. Samoin joku toinen käyttäjä organisaatiossa voi määrittää tehtäviä sinulle.|[Käyttäjätehtävien määrittäminen](across-user-tasks.md)|

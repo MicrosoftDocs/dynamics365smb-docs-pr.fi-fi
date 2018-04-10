@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade
-ms.date: 01/12/2018
+ms.date: 03/26/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: b396908f9c63b63eb8eb0a3e9fd84d20cd1c6c32
+ms.sourcegitcommit: ea9b4a6310df319df06d02c53b9d6156caaee24f
+ms.openlocfilehash: 7d1e9196e4fa4e24eb01f6a7f6b824e0c4f857ca
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 03/28/2018
 
 ---
 # <a name="sell-products"></a>Tuotteiden myyminen
@@ -33,6 +33,8 @@ Kun toimitat tuotteita kokonaan tai osittain, kirjaa myyntitilaus toimitetuksi t
 
 Liiketoimintaympäristöissä, joissa asiakkaan on maksettava ennen kuin tuotteet toimitetaan, kuten vähittäismyynti, sinun on odotettava maksukuittia ennen kuin toimitat tuotteet. Useimmissa tapauksissa saapuvia maksuja käsitellään joitakin viikkoja toimituksen jälkeen kohdistamalla maksut niihin liittyviin kirjattuihin ja maksamattomiin myyntilaskuihin. Lisätietoja on kohdassa [Maksujen täsmäyttäminen käyttämällä automaattista kohdistusta](receivables-how-reconcile-payments-auto-application.md).
 
+Liiketoimintaympäristöissä, joissa asiakas maksaa heti esimerkiksi käteisellä, PayPalin avulla tai luottokortilla, voit valita asianmukaisen tavan myyntilaskun **Maksutavan koodi** -kentässä. Maksu tallennetaan tämän jälkeen heti kirjattuun laskuun. Täytä myös maksupalvelun tiedot **Maksupalvelu**-kenttään. Lisätietoja on kohdassa [Asiakasmaksujen ottaminen käyttöön maksupalvelujen kautta](sales-how-enable-payment-service-extensions.md).
+
 Voit korjata tai peruuttaa myyntitilauksen muodostaman kirjatun myyntilaskun helposti ennen sen maksamista. Tästä on hyötyä, jos haluat korjata kirjoitusvirheen tai jos asiakas pyytää muutosta prosessin alkuvaiheessa. Lisätietoja on kohdassa [Maksamattomien myyntilaskujen korjaaminen tai peruuttaminen](sales-how-correct-cancel-sales-invoice.md). Jos kirjattu myyntilasku maksetaan, sinun on luotava myyntihyvityslasku kaupan peruuttamiseksi. Lisätietoja on kohdassa [Myyntipalautusten tai -peruutusten käsitteleminen](sales-how-process-sales-returns-cancellations.md).
 
 Nimikkeet voivat olla sekä varastonimikkeitä että palveluja, ja niiden tyypit ovat myyntiriveillä **Nimike - Varasto** ja **Nimike - Palvelu**. Myyntitilausprosessi on sama molemmille nimiketyypeille. Lisätietoja on ohjeaiheessa [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md).
@@ -40,7 +42,7 @@ Nimikkeet voivat olla sekä varastonimikkeitä että palveluja, ja niiden tyypit
 Voit täyttää myyntitilauksen asiakkaan kentät kahdella tavalla sen mukaan, onko asiakas jo rekisteröity. Katso vaiheet 2 ja 3 seuraavassa menettelyssä.
 
 ## <a name="to-create-a-sales-order"></a>Myyntitilauksen luominen
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Myyntitilaukset** ja valitse sitten aiheeseen liittyvä linkki. 
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Myyntitilaukset** ja valitse sitten aiheeseen liittyvä linkki.
 2. Syötä **Asiakas**-kenttään nykyisen asiakkaan nimi.
 
     Muut **Myyntitilaus**-ikkunan kentät täytetään nyt valitun asiakkaan vakiotiedoilla. Jos asiakasta ei ole rekisteröity, toimi seuraavasti:
@@ -87,7 +89,7 @@ Voit täyttää myyntitilauksen asiakkaan kentät kahdella tavalla sen mukaan, o
 18. Valitse **Nro**-kenttään kirjattava tietue **Tyyppi**-kentän arvon mukaan.
 
     Jätä **Nro**-kenttä tyhjäksi seuraavissa tapauksissa: -Jos rivi on tarkoitettu kommentille. Kirjoita kommentti **Kuvaus**-kenttään.
-    -Jos rivi on tarkoitettu ei-varastoitavalle nimikkeelle. Valitse **Valitse ei-varastoitavat nimikkeet** -toiminto. Lisätietoja on kohdassa [Ei-varastoitavien nimikkeiden käsitteleminen](inventory-how-work-nonstock-items.md).
+        - Jos rivi on tarkoitettu ei-varastoitavalle nimikkeelle. Valitse **Valitse ei-varastoitavat nimikkeet** -toiminto. Lisätietoja on kohdassa [Ei-varastoitavien nimikkeiden käsitteleminen](inventory-how-work-nonstock-items.md).
 
 19. Ilmoita **Määrä**-kentässä, kuinka monta tuote-, kulu- tai tapahtumayksikköä rivi kirjaa asiakkaalle.  
 

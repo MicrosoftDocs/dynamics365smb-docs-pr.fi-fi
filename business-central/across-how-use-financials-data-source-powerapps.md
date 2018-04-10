@@ -13,8 +13,8 @@ ms.search.keywords: Odata, Power App, SOAP
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8db67d30ba18e9f7dba14b93ddf7b4de6e2b6444
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 0e6310e9789e8a0f2ceaed44f1209cdcf425ef1e
 ms.contentlocale: fi-fi
 ms.lasthandoff: 03/22/2018
 
@@ -49,12 +49,12 @@ Voit käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]-tietoja PowerAppsin 
 9. Lisää muita [!INCLUDE[d365fin](includes/d365fin_md.md)]-tietoja Power BI -tietomalliin toistamalla edellä olevat vaiheet.
 
    > [!NOTE]  
->    Kun [!INCLUDE[d365fin](includes/d365fin_md.md)] -yhteys on muodostettu, ODatan URL-osoitetta, käyttäjänimeä tai salasanaa ei enää kysytä.
+   >    Kun [!INCLUDE[d365fin](includes/d365fin_md.md)] -yhteys on muodostettu, ODatan URL-osoitetta, käyttäjänimeä tai salasanaa ei enää kysytä.
 
 Olet nyt muodostanut yhteyden Business Central -tietoihin ja olet valmis aloittamaan oman PowerApp:n luomisen. Lisätietoja on kohdassa [PowerApps-dokumentaatio](https://powerapps.microsoft.com/tutorials/getting-started/).
 
 ## <a name="see-also"></a>Katso myös
-[Tervetuloa [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]iin!](index.md)  
+[Käytön aloittaminen](product-get-started.md)  
 [Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä](upload-data.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittäminen](setup.md)  
 [Rahoitus](finance.md)  

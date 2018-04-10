@@ -8,11 +8,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 03/08/2018
+ms.date: 03/16/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 602c429733104a792a49f4a7f38e2a3090420c9d
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 6d350a064f134c4c29938005fea966dec7cca142
 ms.contentlocale: fi-fi
 ms.lasthandoff: 03/22/2018
 
@@ -36,7 +36,7 @@ Kaikki käyttäjälle jo määritetyt käyttöoikeusjoukot **Käyttöoikeuksien 
 4. Täytä **Käyttöoikeuksien joukot** -tietoruudun uudella rivillä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-group-users-in-user-groups"></a>Käyttäjien ryhmittäminen käyttäjäryhmiin
-Voit määrittää käyttäjäryhmiä auttamaan hallitsemaan oikeusryhmät käyttäjäryhmille yrityksessä. Voit kopioida toiminnon avulla kaikki käyttöoikeusjoukot aiemmin luodusta käyttäjäryhmästä uuteen käyttäjäryhmään. Käyttäjäryhmän jäseniä ei kopioida.
+Voit määrittää käyttäjäryhmiä auttamaan hallitsemaan oikeusryhmät käyttäjäryhmille yrityksessä.
 
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Käyttäjät** ja valitse sitten liittyvä linkki.
 2. Vaihtoehtoisesti voit valita **Käyttäjät**-ikkunassa **Käyttäjäryhmät**-toiminnon.
@@ -44,6 +44,17 @@ Voit määrittää käyttäjäryhmiä auttamaan hallitsemaan oikeusryhmät käyt
 6. Valitse **Käyttäjäryhmän jäsenet** -ikkunassa **Lisää käyttäjiä** -toiminto.
 7. Voit lisätä uusia käyttöoikeusjoukkoja tai lisäkäyttöoikeusjoukkoja valitsemalla **Käyttäjäryhmät**-ikkunassa **Käyttäjäryhmän käyttöoikeuksien joukot** -toiminnon.
 8. Täytä **Käyttäjäryhmän käyttöoikeuksien joukot** -ikkunan uudella rivillä tarvittavat kentät tekemällä valintoja aiemmin luoduista käyttöoikeuksien joukoista.
+
+## <a name="to-copy-a-user-group-and-all-its-permission-sets"></a>Käyttäjäryhmän ja sen kaikkien käyttöoikeuksien joukkojen kopioiminen
+Voit määrittää uuden käyttäjäryhmän nopeasti kopioimalla kaikki käyttöoikeusjoukot aiemmin luodusta käyttäjäryhmästä uuteen käyttäjäryhmään.
+
+Käyttäjäryhmän jäseniä ei kopioida uuteen käyttäjäryhmään. Heidät on lisättävä myöhemmin manuaalisesti.
+
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Käyttäjät** ja valitse sitten liittyvä linkki.
+2. Valitse ensin kopioitava käyttäjäryhmä ja sitten **Kopioi käyttäjäryhmä** -toiminto.
+3. Anna **Uuden käyttäjäryhmän koodi** -kentässä ryhmälle nimi ja valitse sitten **OK**-painike.
+
+Uusi käyttäjäryhmä lisätään **Käyttäjäryhmät**-ikkunaan. Aloita käyttäjien lisääminen. Lisätietoja on osassa Käyttäjien ryhmittäminen käyttäjäryhmiin
 
 ## <a name="to-set-up-user-time-constraints"></a>Määritä käyttäjän aikarajoitukset
 Järjestelmänvalvojat voivat määrittää ajanjaksoja, joiden aikana määritetyt käyttäjät voivat tehdä kirjauksia. He voivat myös määrittää, kirjaako järjestelmä ajan, jonka käyttäjät olivat kirjautuneena. Järjestelmänvalvojat voivat myös määrittää käyttäjille vastuupaikkoja. Lisätietoja on kohdassa [Vastuupaikkojen käyttäminen](inventory-responsibility-centers.md).
@@ -55,7 +66,7 @@ Järjestelmänvalvojat voivat määrittää ajanjaksoja, joiden aikana määrite
 
 ## <a name="see-also"></a>Katso myös
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
-[Asetukset ja hallinto [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmassa](admin-setup-and-administration.md)  
-[Tervetuloa [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]iin!](index.md)  
+[Hallinta](admin-setup-and-administration.md)  
+[Käytön aloittaminen](product-get-started.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 

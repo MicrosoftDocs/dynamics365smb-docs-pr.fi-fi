@@ -13,8 +13,8 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.date: 03/02/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ee0615cd475d412f7380d6577bfa2965bb0cee9f
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: c7f07bd3cee8d52cccf171dfd229265d65e99cba
 ms.contentlocale: fi-fi
 ms.lasthandoff: 03/22/2018
 
@@ -23,11 +23,11 @@ ms.lasthandoff: 03/22/2018
 Voit tarkastella **Omat asetukset** -ikkunassa [!INCLUDE[d365fin](includes/d365fin_md.md)]in perusasetuksia ja muuttaa niitä.  
 
 ## <a name="role-center"></a>Roolikeskus
-Roolikeskus edustaa kotisivua eli aloitussivua, joka on suunniteltu roolia varten. Roolikeskus sisältää liiketoiminnan yleiskatsauksen ja roolin tiedot, tehtävät ja prioriteetit. 
+Roolikeskus on aloitussivu, joka on suunniteltu roolin tarpeiden mukaan. Roolikeskus sisältää liiketoiminnan yleiskatsauksen ja roolin tiedot, tehtävät ja prioriteetit.
 
 Roolikeskuksen yläosassa on siirtymispalkki, jonka avulla voi käyttää roolin tyypillisiä objekteja, kuten esimerkiksi asiakkaita, toimittajia ja nimikkeitä.
 
-Sisällön pääalueella näkyvät kohteet riippuvat roolikeskuksesta. Useimmissa roolikeskuksissa on Toimenpiteet-ruudut, joissa näkyvät nykyiset tiedot. Niitä napsauttamalla tai napauttamalla voi siirtyä helposti valittuun asiakirjaan. Suorituskykyilmaisimet voidaan määrittää niin, että ne näyttävät visuaalisesti esimerkiksi kassavirran tai tuottojen ja kulujen valitun kaavion. Joissakin roolikeskuksissa voi muodostaa luettelon suosikkikohteista, kuten asiakkaista ja toimittajista, ja näyttää Saapuneet raportit -kohdan.
+Sisällön pääalueella näkyvät kohteet määräytyvät roolikeskuksen mukaan. Useimmissa roolikeskuksissa on Toimenpiteet-ruudut, joissa näkyvät nykyiset tiedot. Niitä napsauttamalla tai napauttamalla voi siirtyä helposti valittuun asiakirjaan. Suorituskykyilmaisimet voidaan määrittää niin, että ne näyttävät visuaalisesti esimerkiksi kassavirran tai tuottojen ja kulujen valitun kaavion. Joissakin roolikeskuksissa voi muodostaa luettelon suosikkikohteista, kuten asiakkaista ja toimittajista, ja näyttää Saapuneet raportit -kohdan.
 
 ### <a name="to-change-role-center"></a>Roolikeskuksen vaihtaminen
 Oletusroolikeskus on **Liiketoimintajohtaja**, mutta voit valita tarvittaessa toisen roolikeskuksen.
@@ -41,7 +41,7 @@ Yritystoiminnot [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietojen säilön�
 Oletusyrityksen nimi on CRONUS, ja se sisältää vain esittelytietoja.
 
 > [!TIP]  
->   Jos haluat, että yritys näkyy sovelluksessa toisella nimellä (esimerkiksi roolikeskuksen kotisivulla), määritä **Nimi**-kenttä **Yritystiedot**-sivulla tai **Näyttönimi**-kenttä **Yritykset**-sivulla.  
+>   Jos haluat, että yritys näkyy sovelluksessa toisella nimellä (esimerkiksi roolikeskuksessa), määritä **Nimi**-kenttä **Yritystiedot**-sivulla tai **Näyttönimi**-kenttä **Yritykset**-sivulla.  
 
 ## <a name="work-date"></a>Käsittelypvm
 Oletuskäsittelypäivä on yleensä kuluvan päivän päivämäärä. Saatat joutua muuttamaan käsittelypäivämäärän väliaikaisesti, jotta voit suorittaa tehtäviä, kuten sellaisten tapahtumien täydentäminen, joiden päivämäärä ei ole kuluvan päivän päivämäärä.

@@ -8,11 +8,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: news
-ms.date: 03/16/2018
+ms.date: 03/20/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4bfef92f4b9a6f29ec443677fd77eec3ba26a580
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: b9a3b7b0415a971797cba22b16a25dbdc521b0f3
 ms.contentlocale: fi-fi
 ms.lasthandoff: 03/22/2018
 
@@ -25,11 +25,12 @@ Päivitämme [!INCLUDE[d365fin](includes/d365fin_md.md)]in ydinsovellukseen sä�
 Tällä sivulla ovat linkit julkaisutietoihin sekä [Business Central Roadmap](https://roadmap.dynamics.com/) -ratkaisun uusimmat päivitystiedot.
 
 ## <a name="dynamics-365-spring-18-release-notes"></a>Dynamics 365:n kevään 2018 julkaisutiedot
-Tutustu liiketoimintasovellusten uusimpiin päivityksiin. Tutustu myös omien sovellusten ja laajennusten kehittämisen uusien ominaisuuksien isäntään uuden ympäristömme yläosassa. [Lataa](https://aka.ms/businessappsreleasenotes) Dynamics 365:n kevään 2018 julkaisutiedot.
+Tutustu liiketoimintasovellusten uusimpiin päivityksiin. Tutustu myös omien sovellusten ja laajennusten kehittämisen uusien ominaisuuksien isäntään uuden ympäristömme yläosassa. Yhteenveto kaikista Dynamics 365 -sovellusten ja -ympäristön uusia ominaisuuksista on kevään 2018 julkaisutiedoissa [täällä](https://aka.ms/businessappsreleasenotes).
 
 
 ## <a name="see-also"></a>Katso myös
-[Tervetuloa [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]iin!](index.md)  
+[Käytön aloittaminen](product-get-started.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Business Central Roadmap](https://roadmap.dynamics.com/)  
+[Dynamics 365 -yhteisö](https://community.dynamics.com/business/)  
 

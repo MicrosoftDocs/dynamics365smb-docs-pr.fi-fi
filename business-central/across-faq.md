@@ -11,8 +11,8 @@ ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
 ms.date: 07/27/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 72fdb96907c4feeb21cdc40b4b781e75e4f1119c
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: d015f3c2e4b06a7e93b7b4e0fe678c5066afbb8c
 ms.contentlocale: fi-fi
 ms.lasthandoff: 03/22/2018
 
@@ -40,14 +40,14 @@ Jos sinulla on sellaisia [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmaa k
 ## <a name="is-it-possible-to-extend-my-30-day-new-company-trial-period"></a>Voiko uuden yrityksen 30 päivän kokeilujaksoa pidentää?
 Kyllä. Jos haluat pidentää kokeilujaksoa, ota yhteys Microsoftiin soittamalla numeroon 1 888 477 7989 (USA) tai 1 800 741 9206 (Kanada). HUOMAUTUS: kokeilujakson pidentämisprosessi voi kestää 2 arkipäivää.  
 
-## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-home-page-in-included365finincludesd365finmdmd"></a>Järjestelmänvalvoja on siirtänyt minut toiseen tilaukseen, jotta voin käyttää toista roolia, mutta näen kuitenkin edelleen saman [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman aloitussivun. Miksi?
+## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-role-center-in-included365finincludesd365finmdmd"></a>Järjestelmänvalvoja on siirtänyt minut toiseen tilaukseen, jotta voin käyttää toista roolia, mutta näen kuitenkin edelleen saman [!INCLUDE[d365fin](includes/d365fin_md.md)] -roolikeskuksen. Miksi?
 Selitys on hieman monimutkainen, mutta ilmeisesti järjestelmänvalvoja ei vaihtanut roolikeskustasi eikä määrittänyt uutta käyttöoikeutta vastaavia käyttäjäryhmiä. [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttöoikeus määräytyy periaatteessa tilaussuunnitelman (käyttöoikeuden) mukaan, sillä sen avulla määritetään oikeudet ja roolikeskuksen oletussivu. Voit vaihtaa roolikeskuksen manuaalisesti omissa asetuksissa, mutta jos sinut siirretään toiseen tilaussuunnitelmaan, vaikkapa yritystilauksesta Team Members -tilaukseen, vanha aloitussivu voi olla näkyvissä, koska oikeuksia ei muutettu.  
 
 ## <a name="why-cant-i-find-that-capability-in-my-included365finincludesd365finmdmd"></a>Miksi tätä toimintoa ei löydy omasta [!INCLUDE[d365fin](includes/d365fin_md.md)]ista?
 Luitko uudesta toiminnosta äskettäin tulevia toimintoja käsittelevästä sivustosta tai blogistamme? Siinä tapauksessa [!INCLUDE[d365fin](includes/d365fin_md.md)]-versiotasi ei ehkä ole vielä päivitetty uusimpaan versioon. Jos toiminto on julkaistu laajennuksena AppSourcessa, laajennuksen julkistamista kuluu hetki, ennen kuin se on saatavilla AppSourcessa.
 
 ## <a name="see-also"></a>Katso myös
-[Tervetuloa [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]iin!](index.md)  
+[Käytön aloittaminen](product-get-started.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen yrityssähköpostina Outlookissa](admin-outlook.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen ilman Outlookia](admin-no-outlook.md)  
 [Perusasetusten muuttaminen](ui-change-basic-settings.md)  

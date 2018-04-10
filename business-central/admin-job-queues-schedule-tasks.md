@@ -11,8 +11,8 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 05d2941d5124f333602cb2f73103389601ff3e85
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: fae1b2937a3c06fc947dd3dbec529826322d035c
 ms.contentlocale: fi-fi
 ms.lasthandoff: 03/22/2018
 
@@ -68,6 +68,6 @@ Kun työjono on aktivoitu manuaalisesti, se suoritetaan käyttäjän tunnistetie
 Työjonotapahtuma-tietueella on monta kenttää, joiden tarkoituksena on viedä parametrejä koodiyksikölle, jonka olet määrittänyt ajettavaksi työjonossa. Tämä tarkoittaa myös sitä, että koodiyksiköt, jotka suoritetaan työjonon kautta, on määritettävä työjonotapahtumatietueessa **OnRun**-käynnistimen parametrina. Tämä auttaa parantamaan tietoturvaa, sillä se estää käyttäjiä suorittamasta satunnaisia koodiyksiköitä työjonon kautta. Jos käyttäjän on välitettävä raportoitavat parametrit, raportti on suoritettava koodiyksikössä, joka jäsentää syöttöparametrit ja syöttää ne raporttiin ennen sen suoritusta.  
 
 ## <a name="see-also"></a>Katso myös  
-[Business Central -sovelluksen asetukset ja hallinta](admin-setup-and-administration.md)  
+[Hallinta](admin-setup-and-administration.md)  
 [Business Central -sovelluksen määrittäminen](setup.md)  
 
