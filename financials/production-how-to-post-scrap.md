@@ -27,7 +27,7 @@ Jos käsittelyn aikana on tuotettu hukkatavaraa, se voidaan kirjata myös tuotos
 
 ## <a name="to-post-scrap-manually"></a>Hukkatavaran kirjaaminen manuaalisesti  
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Tuotospäiväkirja** ja valitse sitten aiheeseen liittyvä linkki.  
-2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. Täytä tarvittavat kentät. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Syötä **Hylätyn tavaran määrä** -kenttään hukkatavaran määrä.  
 4. Syötä **Hukkatavarakoodi**-kenttään hukkatavaran koodi.  
 5. Kirjaa määritetty toimintakohtainen hukkatavara valitsemalla **Kirjaa**.  

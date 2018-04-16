@@ -30,8 +30,8 @@ Voit käyttää huoltotarjousta huoltotilauksen luonnoksena ja muuntaa tarjoukse
 3. Valitse **Nro**-kenttään numero huoltotarjoukselle. Vaihtoehtoisesti jos olet määrittänyt huoltotarjouksille numerosarjan **Huoltohallinnon asetukset**-ikkunassa, voit painaa Enter, jolloin ohjelma syöttää seuraavan saatavilla olevan huoltotarjouksen numeron.  
 4. Syötä **Asiakasnro** -kentässä  asiamukainen asiakas luettelosta.  
 
-  > [!Note]  
-  >  Ohjelma täyttää automaattisesti asiakkaaseen liittyvät kentät tiedoilla **Asiakas**-kortilta. Jos asiakkaalla ei ole **asiakkaan** korttia ja asiakasmalli on määritetty, voit luoda asiakkaan huoltotarjouksesta. Täytä tarvittavat kentät ja valitse **Luo asiakas** -toiminto.  
+   > [!Note]  
+   >  Ohjelma täyttää automaattisesti asiakkaaseen liittyvät kentät tiedoilla **Asiakas**-kortilta. Jos asiakkaalla ei ole **asiakkaan** korttia ja asiakasmalli on määritetty, voit luoda asiakkaan huoltotarjouksesta. Täytä tarvittavat kentät ja valitse **Luo asiakas** -toiminto.  
   
 5. **Huoltohallinnon asetukset** -ikkunan **Pakolliset kentät** -pikavälilehden asetusten mukaan **Huoltotilauksen tyyppi** -kenttä ja **Myyjäkoodi**-kenttä on ehkä täytettävä.  
 6. Täytä huoltonimikerivit.  

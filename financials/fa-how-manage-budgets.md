@@ -39,7 +39,7 @@ Jos suunnittelet myyväsi omaisuutta budjettijaksolla, voit syöttää tietoja m
 
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Käyttöomaisuus** ja valitse sitten aiheeseen liittyvä linkki.
 2. Valitse luovutettava käyttöomaisuus ja valitse sitten **Poistokirjat**-toiminto.
-3. Lisää sisältö **KO:n poistokirja**-ikkunassa **Suunnit. luovut. saadut tulot**-kenttään ja **Suunniteltu luovutuspvm** -kentän sisältö. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Lisää sisältö **KO:n poistokirja**-ikkunassa **Suunnit. luovut. saadut tulot**-kenttään ja **Suunniteltu luovutuspvm** -kentän sisältö. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-view-projected-disposal-values"></a>Suunniteltujen luovutusarvojen katsominen
 **KO:n suunniteltu arvo** -raportissa voi tarkastella suunniteltuja luovutusarvoja ja laskea voittoja ja tappioita.

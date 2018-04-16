@@ -42,7 +42,7 @@ Nimikekulunumeroita käytetään erottelemaan eri tyyppisiä nimikekuluja, joita
 
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Nimikekulut** ja valitse sitten aiheeseen liittyvä linkki.
 2. Luo uusi rivi valitsemalla **Nimikekulut**-ikkunassa **Uusi**-toiminto.
-3. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Täytä tarvittavat kentät. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item"></a>Nimikekulun määrittäminen suoraan nimikkeen ostolaskuun
 Jos tiedät nimikekulun nimikkeen ostolaskua kirjatessa, toimi seuraavasti.
@@ -53,7 +53,7 @@ Jos tiedät nimikekulun nimikkeen ostolaskua kirjatessa, toimi seuraavasti.
 4. Valitse uuden rivin **Tyyppi**-kentässä **Kulu (nimike)**.
 5. Anna **Määrä**-kenttään laskutetun nimikekulun yksiköt.
 6. Anna **Välitön yksikkökustannus** -kentässä nimikekulun summa.
-7. Täytä tarvittavat jäljellä olevat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+7. Täytä tarvittavat jäljellä olevat kentät. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     Varsinainen määritys tehdään seuraavissa vaiheissa. **Määriteltävä määrä** -kentän arvo näkyy punaisella fontilla, kunnes nimikekulu on määritetty kokonaan.
 8. Valitse **Rivit**-välilehdessä **Nimikekulujen määritys** toiminto.

@@ -23,13 +23,13 @@ ms.lasthandoff: 03/22/2018
 Laskua ei voi luoda ilman asiakasnumeroa. Näin on, vaikka teet käteismyynnin, eikä asiakastilille ole mitään tallennettavaa.  
 
 ## <a name="to-set-up-a-cash-customer"></a>Käteisasiakkaiden määrittäminen  
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Asiakas** ja valitse sitten aiheeseen liittyvä linkki.  
-2.  Luo uusi **Asiakkaan** kortti. Lisätietoja on kohdassa [Uusien asiakkaiden rekisteröinti](sales-how-register-new-customers.md).
-3.  Valitse **Nro**-kenttään esimerkiksi **Käteismyynti**.  
-4.  Syötä **Nimi**-kenttään esimerkiksi **Käteismyynti**.  
-5.  Täytä **Laskutus**-pikavälilehden **Asiakkaan kirjausryhmä**- ja **Ylein. liiketoim. kirjausryhmä** -kentät.  
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Asiakas** ja valitse sitten aiheeseen liittyvä linkki.  
+2. Luo uusi **Asiakkaan** kortti. Lisätietoja on kohdassa [Uusien asiakkaiden rekisteröinti](sales-how-register-new-customers.md).
+3. Valitse **Nro**-kenttään esimerkiksi **Käteismyynti**.  
+4. Syötä **Nimi**-kenttään esimerkiksi **Käteismyynti**.  
+5. Täytä **Laskutus**-pikavälilehden **Asiakkaan kirjausryhmä**- ja **Ylein. liiketoim. kirjausryhmä** -kentät.  
 
- Nyt asiakas on määritetty, ja se sisältää riittävästi tietoa laskutusta varten.  
+   Nyt asiakas on määritetty, ja se sisältää riittävästi tietoa laskutusta varten.  
 
 > [!NOTE]  
 >  Olet voinut valita kirjausryhmän, jota on käytetty myös kotimaisiin luottomyynteihin. Jos haluat ylläpitää erillistä tietoa käteismyynneistä esimerkiksi erityisellä myynti- tai myyntisaamistilillä, voit määrittää tätä varten ylimääräisen kirjausryhmän.  

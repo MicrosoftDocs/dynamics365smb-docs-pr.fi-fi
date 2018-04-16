@@ -22,15 +22,16 @@ ms.lasthandoff: 03/22/2018
 <!--NAV # Customizing Dynamics NAV -->
 Sovelluksen voi mukauttaa useilla eri tavoilla, jotta sinä ja työtoverisi voitte käyttää eniten tarvitsemianne ominaisuuksia, toimintoja ja tietoja tavalla, joka sopii parhaiten päivittäiseen työhönne. Seuraavassa taulukossa kerrotaan ketkä näkevät muutokset sen mukaan, mitä teet.
 
-| Sallitut toimet    |  Description  |  Muutosten näkijät  |  Lisätietoja  |
-|-----|---------------|---------|-------|
-|Laajennuksen asentaminen|Laajennukset ovat kuin pieniä sovelluksia, jotka esimerkiksi sisältävät lisätoimintoja, muuttavat toimintaa tai mahdollistavat uuden online-palvelun käyttöoikeuden. Microsoft tarjoaa esimerkiksi laajennuksen, joka mahdollistaa integroinnin PayPal Payments Standard -ohjelman kanssa.|Kaikki yrityksen käyttäjät.|[Laajennusten käyttämisen mukauttaminen](ui-extensions.md)|
-|Vaihda käyttäjäkokemus|Yksi asetus, *Kokemus*, määrittää, kuinka laajasti perustoiminnot ovat käytettävissä. Tällä hetkellä tasoja on kaksi: Basic ja Essential.|Kaikki tietyn yrityksen käyttäjät.|[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttökokemuksen mukauttaminen](ui-experiences.md)|
-|Mukauta työtilaa|Muuta sivujen asettelua ja sisältöä.|Vain sinä.|[Työtilan mukauttaminen](ui-personalization-user.md)|
+
+|      Sallitut toimet       |                                                                                                              Description                                                                                                               |       Muutosten näkijät       |                                       Lisätietoja                                       |
+|----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------|----------------------------------------------------------------------------------------------|
+|    Laajennuksen asentaminen    | Laajennukset ovat kuin pieniä sovelluksia, jotka esimerkiksi sisältävät lisätoimintoja, muuttavat toimintaa tai mahdollistavat uuden online-palvelun käyttöoikeuden. Microsoft tarjoaa esimerkiksi laajennuksen, joka mahdollistaa integroinnin PayPal Payments Standard -ohjelman kanssa. |   Kaikki yrityksen käyttäjät.    |                       [Laajennusten käyttämisen mukauttaminen](ui-extensions.md)                       |
+|   Vaihda käyttäjäkokemus    |                                     Yksi asetus, *Kokemus*, määrittää, kuinka laajasti perustoiminnot ovat käytettävissä. Tällä hetkellä tasoja on kaksi: Basic ja Essential.                                      | Kaikki tietyn yrityksen käyttäjät. | [[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttökokemuksen mukauttaminen](ui-experiences.md) |
+| Mukauta työtilaa |                                                                                              Muuta sivujen asettelua ja sisältöä.                                                                                              |            Vain sinä.             |                  [Työtilan mukauttaminen](ui-personalization-user.md)                  |
 
 ## <a name="see-also"></a>Katso myös
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+## [!INCLUDE [d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE [d365fin](includes/training_link_md.md)]
 

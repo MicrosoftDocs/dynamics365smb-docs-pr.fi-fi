@@ -34,7 +34,7 @@ Seuraavassa kuvataan, miten todelliset (laskutettavat) tai budjetoidut projektih
 
     **Jäljellä oleva määrä** -kentässä näkyy määrä, joka on jäljellä projektin valmiiksi suorittamista ja päiväkirjaan siirtämistä varten.  
 5. Valitse **Luo projektipäiväkirjan rivit** -toiminto.
-6. Täytä **Projektin siirron projektisuunnittelurivi** -ikkunassa kenttiä tarpeen mukaan ja valitse sitten **OK**-painike. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+6. Täytä **Projektin siirron projektisuunnittelurivi** -ikkunassa kenttiä tarpeen mukaan ja valitse sitten **OK**-painike. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 7. Valitse **Avaa projektipäiväkirja** -toiminto.  
 8. Valitse **Projektipäiväkirja**-ikkunassa asianmukainen rivi ja valitse sitten **Kirjaa**-toiminto.
 9. Tarkista **Projektin suunnittelurivit** -ikkunassa kirjattu käyttö **Määrä**-, **Jäljellä oleva määrä**- ja **Päiväkirjaan siirrettävä määrä** -kentän avulla.  

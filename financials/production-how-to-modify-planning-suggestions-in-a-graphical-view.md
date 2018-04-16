@@ -59,6 +59,7 @@ Seuraavassa ohjeessa neuvotaan, miten tarjontaehdotuksia voi muokata vetämäll�
 Toteuttaaksesi tarjonnan tuotantosuunnitelmien muutokset sinun täytyy seurata suunnittelun tai hankintalistan tuloksena olevia toimenpideviestejä. Lisätietoja on ohjeaiheessa Toteuta toim.pidviesti - Suun.
 
 ## <a name="symbols-and-icons-on-the-timeline-fasttab"></a>Symbolit ja kuvakkeet Aikajana-pikavälilehdellä
+
  |Symboli tai kuvake|Kuvaus|  
  |------------------|---------------------------------------|  
  |Musta risti|Tilaukset (sekä tarjonta että kysyntä).<br /><br /> -   Ei voida muokata.<br />-   Näkyy silloin, kun **Näytä suunniteltu varasto** -kenttä on valittu (oranssi kaavio).|  

@@ -75,14 +75,14 @@ Vaikka kentässä on punainen tähti, et joudu täyttämään kenttää ennen ku
 # <a name="entering-negative-numbers"></a>Negatiivisten lukujen syöttäminen
 Voit antaa negatiivisia lukuja kahdella tavalla. Numero -20.5 voidaan syöttää seuraavasti:  
 
--   -20.5  
+- -20.5  
 
-    tai
--   20.5-  
+  tai
+- 20.5-  
 
- Kummassakin tapauksessa summa kirjataan arvona -20,5.  
+  Kummassakin tapauksessa summa kirjataan arvona -20,5.  
 
- Jos lausekkeen viimeinen merkki on **+** tai **-**, koko lauseke kirjataan kyseisen merkin kanssa. Esimerkiksi **10-20+** johtaa tulokseen 10, ei tulokseen -10.  
+  Jos lausekkeen viimeinen merkki on **+** tai **-**, koko lauseke kirjataan kyseisen merkin kanssa. Esimerkiksi **10-20+** johtaa tulokseen 10, ei tulokseen -10.  
 
 ## <a name="entering-dates-and-times"></a>Päivämäärien ja aikojen syöttäminen
 Päivämääriä ja aikoja voi määrittää kaikissa päivämääräkentissä. Voit syöttää päivämäärät käyttäen erottimia tai ilman niitä.
@@ -93,15 +93,15 @@ Päivämääriä ja aikoja voi määrittää kaikissa päivämääräkentissä. 
 ### <a name="entering-dates"></a>Päivämäärien syöttäminen  
  Päivämäärä-kenttään voi syöttää kaksi, neljä, kuusi tai kahdeksan numeroa:  
 
--   Jos syötät vain kaksi numeroa, ohjelma tulkitsee ne kuukaudeksi ja vuodeksi ja lisää käsittelypäivämäärän vuoden.  
+- Jos syötät vain kaksi numeroa, ohjelma tulkitsee ne kuukaudeksi ja vuodeksi ja lisää käsittelypäivämäärän vuoden.  
 
--   Jos syötät neljä numeroa, ohjelma tulkitsee ne päiväksi ja kuukaudeksi ja lisää käsittelypäivämäärän vuoden.  
+- Jos syötät neljä numeroa, ohjelma tulkitsee ne päiväksi ja kuukaudeksi ja lisää käsittelypäivämäärän vuoden.  
 
--   Jos päivämäärä, jonka haluat syöttää, on välillä 1.1.1930 ja 31.12.2029, voit syöttää vuoden kaksinumeroisena. Muutoin vuosi täytyy syöttää nelinumeroisena.  
+- Jos päivämäärä, jonka haluat syöttää, on välillä 1.1.1930 ja 31.12.2029, voit syöttää vuoden kaksinumeroisena. Muutoin vuosi täytyy syöttää nelinumeroisena.  
 
- Voit myös syöttää päivämäärän viikonpäivänä, jota seuraa viikon numero tai vaihtoehtoisesti vuosi (esimerkiksi Ma25 tai ma25 tarkoittaa maanantaita viikolla 25).  
+  Voit myös syöttää päivämäärän viikonpäivänä, jota seuraa viikon numero tai vaihtoehtoisesti vuosi (esimerkiksi Ma25 tai ma25 tarkoittaa maanantaita viikolla 25).  
 
- Tietyn päivämäärän syöttämisen sijaan voit syöttää jommankumman seuraavista koodeista.  
+  Tietyn päivämäärän syöttämisen sijaan voit syöttää jommankumman seuraavista koodeista.  
 
 |koodi|Tulos|  
 |--------------|----------------|  
@@ -202,13 +202,13 @@ Päivämääriä ja aikoja voi määrittää kaikissa päivämääräkentissä. 
 
  Seuraavassa on joitakin esimerkkejä päivämäärän kaavojen käytöstä:  
 
--   Toistuvien päiväkirjojen toistotiheys-kentän päivämäärän kaava määrittää, kuinka usein päiväkirjan rivin tapahtuma kirjataan.  
+- Toistuvien päiväkirjojen toistotiheys-kentän päivämäärän kaava määrittää, kuinka usein päiväkirjan rivin tapahtuma kirjataan.  
 
--   Ylityskausi-kentän tietyn tason muistutusta koskeva päivämäärän kaava määrittelee ajanjakson, joka täytyy kulua eräpäivästä (tai edellisen muistutuksen päivämäärästä), ennen kuin muistutus voidaan luoda.  
+- Ylityskausi-kentän tietyn tason muistutusta koskeva päivämäärän kaava määrittelee ajanjakson, joka täytyy kulua eräpäivästä (tai edellisen muistutuksen päivämäärästä), ennen kuin muistutus voidaan luoda.  
 
--   Eräpäivän laskenta -kentän kaava määrittää, miten ohjelma laskee muistutuksen eräpäivän.  
+- Eräpäivän laskenta -kentän kaava määrittää, miten ohjelma laskee muistutuksen eräpäivän.  
 
- Eräpäivän laskentakaavassa voi olla enintään 20 merkkiä, sekä numeroita että kirjaimia. Voit käyttää seuraavia kirjaimia, jotka ovat aikamääreiden lyhenteitä:  
+  Eräpäivän laskentakaavassa voi olla enintään 20 merkkiä, sekä numeroita että kirjaimia. Voit käyttää seuraavia kirjaimia, jotka ovat aikamääreiden lyhenteitä:  
 
 |||  
 |-|-|  

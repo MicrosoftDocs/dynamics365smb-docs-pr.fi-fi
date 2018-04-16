@@ -29,11 +29,11 @@ Kun käytössä on useita sijainteja, yritykset voivat hallita varastoa useista 
 Vastuupaikat lisäävät usean sijainnin toiminnon käyttömahdollisuuksia, sillä niiden avulla käyttäjät voivat käsitellä hallintapaikkoja. Vastuupaikka voi olla kustannuspaikka, kannattavuuspaikka, sijoituspaikka tai muu yrityksen määrittämä hallintapaikka. Vastuupaikkoja ovat esimerkiksi myyntitoimistot, usean sijainnin osto-osastot sekä tehtaan suunnittelutoimistot. Tällä toiminolla yritykset voivat esimerkiksi määrittää käyttäjäkohtaiset näkymät ainoastaan tiettyyn vastuupaikkaan liittyville osto- ja myyntiasiakirjoille.
 
 ## <a name="to-set-up-a-responsibility-center"></a>Vastuupaikkojen luominen  
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Vastuupaikat** ja valitse sitten aiheeseen liittyvä linkki.  
-2.  Valitse **Uusi**-toiminto.  
-3.  Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Vastuupaikat** ja valitse sitten aiheeseen liittyvä linkki.  
+2. Valitse **Uusi**-toiminto.  
+3. Täytä tarvittavat kentät. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-    Jos käytät vastuupaikkoja yrityksesi hallinnoimisessa, voi olla hyödyllistä määrittää yrityksen vastuupaikalle oletusarvo.
+   Jos käytät vastuupaikkoja yrityksesi hallinnoimisessa, voi olla hyödyllistä määrittää yrityksen vastuupaikalle oletusarvo.
 4. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Yrityksen tiedot** ja valitse sitten aiheeseen liittyvä linkki.
 5. Anna vastuupaikan koodi **Vastuupaikka**-kentässä.
 

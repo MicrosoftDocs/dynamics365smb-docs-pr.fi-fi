@@ -33,7 +33,7 @@ Voit luoda asiakkaalle laskun projektista tai vähintään yhdestä projektiteht
 Voit laskuttaa **Projektit**-ikkunassa asiakasta valitsemalla projektin ja valitsemalla sitten **Luo projektin myyntilasku** -toiminnon. Seuraavassa kerrotaan, miten eräajoa käytetään useiden projektien laskuttamisessa.  
 
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoitta **Luo projektin myyntilasku** ja valitse sitten aiheeseen liittyvä linkki.  
-2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Täytä tarvittavat kentät. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Määritä suodattimet, jos haluat rajata erätyön käsittelemien projektien määrää.
 4. Luo laskut valitsemalla **OK**.  
 

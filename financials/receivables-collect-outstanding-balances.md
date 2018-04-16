@@ -47,7 +47,7 @@ Kun olet luonut viivästyskululaskut ja tehnyt tarvittavat muutokset, voit joko 
 
 ## <a name="to-send-the-customer-statement-report"></a>Asiakkaan tilioteraportin lähettäminen
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Asiakkaan tiliote** ja valitse sitten aiheeseen liittyvä linkki.
-2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Täytä tarvittavat kentät. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Valitse **Tulostusvaihtoehdot**-kohdassa, miten raportti lähetetään asiakkaalle.
 
 > [!NOTE]  

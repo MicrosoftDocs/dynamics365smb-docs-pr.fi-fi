@@ -38,7 +38,7 @@ Maksun täsmäytyskirjauskansion rivillä, jossa maksu on määritetty kirjatuks
 4. Syötä **Tekstin linkitys** -kenttään mikä tahansa teksti, joka näkyy maksuissa, jotka haluat kirjata tietyille tileille kohdistamatta avoimeen tapahtumaan. Koodissa voi olla enintään 50 merkkiä.
 
     > [!NOTE]  
->   Jos muita maksuja, joissa on kyseinen linkitettävä teksti, ei ole, tekstin yhdistäminen tiliin tapahtuu, vaikka maksun tekstistä vain osa on linkitettävänä tekstinä.
+   >   Jos muita maksuja, joissa on kyseinen linkitettävä teksti, ei ole, tekstin yhdistäminen tiliin tapahtuu, vaikka maksun tekstistä vain osa on linkitettävänä tekstinä.
 5. Anna **Toimittajan nro** -kentässä toimittaja, johon maksut kirjataan.
 6. Määritä **Saldon lähteen tyyppi** -kenttään, kirjataanko maksu kirjanpitotilille vai asiakkaan tai toimittajan tilille.
 7. Määritä **Saldon lähteen numero** -kenttään **Saldon lähteen tyyppi** -kentän valinnan mukaisesti tili, jolle maksu kirjataan.
@@ -57,7 +57,7 @@ Kirjataksesi aina Shell-huoltoasemilla kertyneet polttoainekulut kirjanpitoon po
 | --- | --- | --- | --- | --- |
 | Hylly |TYHJÄ |8510 |KP-tili |TYHJÄ |
 
-> [!TIP]  
+> [!TIP]
 >   Lisätietoja kenttien ja sarakkeiden käsittelemisestä on ohjeaineessa [[!INCLUDE[d365fin](includes/d365fin_long_md.md)]in käyttäminen](ui-work-product.md). Lisätietoja tiettyjen sivujen löytämisestä on kohdassa [Haku](ui-search.md).
 
 ## <a name="see-also"></a>Katso myös

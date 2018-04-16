@@ -38,22 +38,22 @@ Jos virheitä ei ilmene, päivitykset otetaan käyttöön raporttiasetteluissa. 
 
 ## <a name="to-test-custom-report-layout-updates"></a>Mukautettujen raporttiasetteluiden päivitysten testaaminen  
   
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Raporttiasetteluvalinta** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Raporttiasetteluvalinta** ja valitse sitten aiheeseen liittyvä linkki.  
   
-2.  Valitse **Raporttiasetteluvalinta**-ikkunassa **Testiasettelun päivitykset** -toiminto.  
+2. Valitse **Raporttiasetteluvalinta**-ikkunassa **Testiasettelun päivitykset** -toiminto.  
   
- Raporttiasettelujen muutokset testataan, mutta niitä ei käytetä varsinaisissa raporttiasetteluissa. **Raporttiasettelun päivitysloki** -ikkuna aukeaa, jossa näytetään jokaiselle raporttiasettelulle tulevat päivitykset sekä niiden tila. Jos raporttiasettelulla on virheitä, voit avata raporttiasettelun suoraan viestistä muokkaamista varten. Lisätietoja on kohdassa [Virheiden korjaaminen](ui-update-report-layouts.md#FixErrors).  
+   Raporttiasettelujen muutokset testataan, mutta niitä ei käytetä varsinaisissa raporttiasetteluissa. **Raporttiasettelun päivitysloki** -ikkuna aukeaa, jossa näytetään jokaiselle raporttiasettelulle tulevat päivitykset sekä niiden tila. Jos raporttiasettelulla on virheitä, voit avata raporttiasettelun suoraan viestistä muokkaamista varten. Lisätietoja on kohdassa [Virheiden korjaaminen](ui-update-report-layouts.md#FixErrors).  
   
 ##  <a name="UpdateLimitations"></a> Mukautettujen raporttiasetteluiden päivittämisen rajoitukset  
  Automaattinen päivitys voi tehdä monenlaisia muutoksia mukautettuihin raporttiasetteluihin, kuten jos asettelussa käytettävä kenttä on poistettu raportin tietojoukosta. Seuraavia muutoksia raportin tietojoukkoon automaattinen päivitys ei kuitenkaan käsittele.  
   
-1.  Poistetut kentät, otsikot ja tietokohteet.  
+1. Poistetut kentät, otsikot ja tietokohteet.  
   
-2.  Monistaa kenttien nimet raporttiasettelussa sen jälkeen, kun kenttä on nimetty uudelleen tietojoukossa. Tämä tulisi käsitellä suunnitteluvirheenä.  
+2. Monistaa kenttien nimet raporttiasettelussa sen jälkeen, kun kenttä on nimetty uudelleen tietojoukossa. Tämä tulisi käsitellä suunnitteluvirheenä.  
   
-3.  Päivitystapaukset, joissa raporttiasettelun useammat toistot aiheuttavat useita uudelleennimeämistoimintoja samoille kentille, otsikoille tai tietonimikkeille.  
+3. Päivitystapaukset, joissa raporttiasettelun useammat toistot aiheuttavat useita uudelleennimeämistoimintoja samoille kentille, otsikoille tai tietonimikkeille.  
   
- Jos päivitysprosessi havaitsee jonkin näistä ongelmista, päivitystä ei voi ottaa käyttöön. Nämä ongelmat on korjattava manuaalisesti, esimerkiksi muokkaamalla raporttia käsin Wordissa tai ohjelmallisesti käyttämällä päivityksen codeuniteja.  
+   Jos päivitysprosessi havaitsee jonkin näistä ongelmista, päivitystä ei voi ottaa käyttöön. Nämä ongelmat on korjattava manuaalisesti, esimerkiksi muokkaamalla raporttia käsin Wordissa tai ohjelmallisesti käyttämällä päivityksen codeuniteja.  
   
 ##  <a name="FixErrors"></a> Virheiden korjaaminen  
  Jos virhesanoma tulee näkyviin raporttiasettelun päivityksen tai testauksen jälkeen, sinun on todennäköisesti muokattava raportin asettelua ongelman korjaamiseksi. Lue virhesanoma, jonka avulla voit selvittää ongelman syyn.  

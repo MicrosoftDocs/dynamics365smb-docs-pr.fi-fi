@@ -25,7 +25,7 @@ Suunnittelujärjestelmän priorisoitujen tavoitteiden ymmärtäminen edellyttä�
 - Kaikki kysyntä täytetään riittävällä tarjonnalla.  
 - Kaikki tarjonta palvelee tarkoitusta.  
 
- Yleisesti ottaen nämä tavoitteet saavutetaan täsmäyttämällä tarjonta ja kysyntä.  
+  Yleisesti ottaen nämä tavoitteet saavutetaan täsmäyttämällä tarjonta ja kysyntä.  
 
 ## <a name="in-this-section"></a>Tämän osan sisältö  
 [Rakennetiedot: kysyntä ja tarjonta](design-details-demand-and-supply.md)  

@@ -35,17 +35,17 @@ Kustannustyyppikartta vastaa pääkirjanpidon tilikarttaa. Voit määrittää ku
     >  **Rekisteröi kustannustyypit tilikartassa** -toiminto päivittää tilikartan ja kustannustyyppukaavion välisen suhteen. **Nro**-kenttä on täytetty ja vahvistettu, että jokaiselle KP-tilille on liitetty vain yksi kustannuslaji. Toiminto suoritetaan automaattisesti ennen KP-tapahtumien siirtämistä kustannuslaskentaan.  
 
 ## <a name="to-set-up-new-cost-types-in-the-chart-of-cost-types-window"></a>Uuden kustannustyypin määrittäminen Kustannustyyppikartta-ikkunassa  
-1.  Avaa **Kustannustyyppikartta**-ikkuna muokkaustilassa.  
-2.  Täytä kentät tarvittaessa ohjeiden mukaan. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+1. Avaa **Kustannustyyppikartta**-ikkuna muokkaustilassa.  
+2. Täytä kentät tarvittaessa ohjeiden mukaan. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-    > [!NOTE]  
-    >  Voit määrittää ja ylläpitää kustannustyyppejä joko **Kustannustyypin kortti** -kortissa tai **Kustannustyyppikartta**-ikkunassa. Tässä toimenpiteessä määrität kustannustyypit **Kustannustyyppikartta**-ikkunassa.
+   > [!NOTE]  
+   >  Voit määrittää ja ylläpitää kustannustyyppejä joko **Kustannustyypin kortti** -kortissa tai **Kustannustyyppikartta**-ikkunassa. Tässä toimenpiteessä määrität kustannustyypit **Kustannustyyppikartta**-ikkunassa.
 
-3.  Kun olet luonut kaikki kustannustyypit, valitse **Sisennä kustannustyypit** -toiminto. Valitse valintaikkunassa **Kyllä**.  
-4.  Linkitä uusi kustannustyyppi vastaavalle pääkirjanpidon tilille.  
+3. Kun olet luonut kaikki kustannustyypit, valitse **Sisennä kustannustyypit** -toiminto. Valitse valintaikkunassa **Kyllä**.  
+4. Linkitä uusi kustannustyyppi vastaavalle pääkirjanpidon tilille.  
 
-    > [!IMPORTANT]  
-    >  Jos olet antanut määritelmiä **Loppusumma**-rivien **Summausväli**-kentissä ennen **Sisennä kustannustyypit** -toiminnon suorittamista, määritelmät on annettava uudelleen, koska toiminto korvaa kaikki **Loppusumma**-kenttien arvot.  
+   > [!IMPORTANT]  
+   >  Jos olet antanut määritelmiä **Loppusumma**-rivien **Summausväli**-kentissä ennen **Sisennä kustannustyypit** -toiminnon suorittamista, määritelmät on annettava uudelleen, koska toiminto korvaa kaikki **Loppusumma**-kenttien arvot.  
 
 ## <a name="to-update-cost-types"></a>Päivitä kustannustyypit  
 1.  Valitse **Kustannuslaskennan asetukset** -ikkunassa, haluatko kustannustyyppikaavion päivittyvän automaattisesti, kun tilikarttaa muutetaan.  

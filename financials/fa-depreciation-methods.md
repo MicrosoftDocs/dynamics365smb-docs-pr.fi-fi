@@ -31,11 +31,11 @@ Saatavilla olevia poistomenetelmiä on kahdeksan:
 * Manuaalinen  
 
   > [!NOTE]  
->   Tätä menetelmää voidaan käyttää omaisuuserille, joille ei tehdä poistoja, kuten maa-alueille. Poisto on vietävä käyttöomaisuuserän KP-päiväkirjaan. **Laske poisto** -eräajo jättää huomiotta tätä poistomenetelmää käyttävät käyttöomaisuuserät.  
+  >   Tätä menetelmää voidaan käyttää omaisuuserille, joille ei tehdä poistoja, kuten maa-alueille. Poisto on vietävä käyttöomaisuuserän KP-päiväkirjaan. **Laske poisto** -eräajo jättää huomiotta tätä poistomenetelmää käyttävät käyttöomaisuuserät.  
 * Puolivuotissopimus  
 
   > [!NOTE]  
->    Tätä menetelmää käytettäessä käyttöomaisuudesta poistetaan joka vuosi sama summa.  
+  >    Tätä menetelmää käytettäessä käyttöomaisuudesta poistetaan joka vuosi sama summa.  
 
 ## <a name="straight-line-depreciation"></a>Tasapoisto
 Tasapoistomenetelmää käytettäessä käyttöomaisuuden poistokirjaan on määritettävä jokin seuraavista vaihtoehdoista:  
@@ -233,7 +233,7 @@ Tätä käyttäjäkohtaista menetelmää voidaan käyttää myös poistoissa, jo
 
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Poistotaulukot** ja valitse sitten aiheeseen liittyvä linkki.  
 2. Valitse **Poistotaulukkoluettelo**-ikkunassa **Uusi**-toiminto.  
-3. Täytä **Poistotaulukon kortti** -ikkunassa tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. Täytä **Poistotaulukon kortti** -ikkunassa tarvittavat kentät. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ### <a name="example---user-defined-depreciation"></a>Esimerkki - käyttäjän määrittämä poisto
 Käytä poistomenetelmää, joka mahdollistaa poistojen tekemisen käyttöomaisuuseriin nopeutetusti tuloverotarkoituksia varten.  

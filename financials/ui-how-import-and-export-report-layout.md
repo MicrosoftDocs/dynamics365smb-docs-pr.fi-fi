@@ -37,19 +37,19 @@ Voit tuoda ja viedä olemassa olevan mukautetun raporttiasettelun tiedostona tie
   
 ### <a name="to-import-a-report-layout-file"></a>Raporttiasettelun tiedoston tuonti  
   
-1.  Varmista, että raporttiasettelun määrittävä asianmukainen tiedosto on käytettävissä tietokoneellasi tai verkossa.  
+1. Varmista, että raporttiasettelun määrittävä asianmukainen tiedosto on käytettävissä tietokoneellasi tai verkossa.  
   
-     Word-raporttiasettelutiedoston tiedostotyypin on oltava .docx. RDLC-raporttiasettelutiedoston on oltava .rdlc- tai RDL-tiedostotyyppiä.  
+    Word-raporttiasettelutiedoston tiedostotyypin on oltava .docx. RDLC-raporttiasettelutiedoston on oltava .rdlc- tai RDL-tiedostotyyppiä.  
   
-2.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Raporttiasetteluvalinta** ja valitse sitten aiheeseen liittyvä linkki.  
+2. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Raporttiasetteluvalinta** ja valitse sitten aiheeseen liittyvä linkki.  
   
-3.  Valitse raportille rivi, jolle haluat tuoda raporttiasettelun ja valitse sitten **Kotisivu**-välilehden **Käsittely**-ryhmässä **Mukautetut asettelut**.  
+3. Valitse raportille rivi, jolle haluat tuoda raporttiasettelun ja valitse sitten **Kotisivu**-välilehden **Käsittely**-ryhmässä **Mukautetut asettelut**.  
   
-4.  Valitse **Raporttiasettelut** -ikkunassa raporttiasettelu, johon haluat tuoda tiedoston, ja valitse sitten **Kotisivu**-välilehden **Käsittely**-ryhmässä **Tuo asettelu**.  
+4. Valitse **Raporttiasettelut** -ikkunassa raporttiasettelu, johon haluat tuoda tiedoston, ja valitse sitten **Kotisivu**-välilehden **Käsittely**-ryhmässä **Tuo asettelu**.  
   
-5.  Valitse **Tuo**-valintaruudussa asiakirja, joka määrittää raporttiasettelun ja valitse sitten **Avaa**.  
+5. Valitse **Tuo**-valintaruudussa asiakirja, joka määrittää raporttiasettelun ja valitse sitten **Avaa**.  
   
- Alkuperäinen mukautettu raporttiasettelu korvataan tuodulla raporttiasettelulla.  
+   Alkuperäinen mukautettu raporttiasettelu korvataan tuodulla raporttiasettelulla.  
   
 ## <a name="see-also"></a>Katso myös  
  [Raporttien mukautetun asettelun luominen ja muokkaaminen](ui-how-create-custom-report-layout.md)   

@@ -27,7 +27,7 @@ Voit sitten luoda asiakirjarivejä tietylle sijainnille, tarkastella saatavuutta
 ## <a name="to-create-a-location-card"></a>Sijaintikortin luominen
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Sijainnit** ja valitse sitten aiheeseen liittyvä linkki.
 2. Valitse **Uusi**-toiminto.
-3. Täytä **Sijaintikortti**-ikkunassa tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Täytä **Sijaintikortti**-ikkunassa tarvittavat kentät. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Toista vaiheet 2 ja 3 jokaiselle sijainnille, jossa haluat pitää varastoa.
 
 > [!NOTE]  
@@ -37,7 +37,7 @@ Voit sitten luoda asiakirjarivejä tietylle sijainnille, tarkastella saatavuutta
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Sijainnit** ja valitse sitten aiheeseen liittyvä linkki.
 2. Voit myös valita **Siirtoreitit**-toiminnon mistä tahansa **Sijaintikortti**-ikkunasta.
 3. Valitse **Uusi**-toiminto.
-4. Täytä **Sijaintikortti**-ikkunassa tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. Täytä **Sijaintikortti**-ikkunassa tarvittavat kentät. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Voit nyt siirtää varastonimikkeitä sijaintien välillä. Lisätietoja on kohdassa [Varastonimikkeiden siirtäminen sijantien välillä](inventory-how-transfer-between-locations.md).    
 

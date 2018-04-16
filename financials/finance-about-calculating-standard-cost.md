@@ -80,8 +80,8 @@ Tuotantoyrityksen on muodostettava koneen ja tuotantosolujen suorituksessa tarvi
 
 Jokaiselle koneelle/tuotantosolulle määritetään kunkin aikatyypin kustannukset yksittäistä reititystä kohti.  
 
-> [!NOTE]  
-    >  On tärkeää huomata, että ajoajan kustannukset kohdistetaan jokaiseen tuotettavaan nimikeyksikköön ja asetuskustannukset kohdistetaan jokaiseen erään. Sen vuoksi kunkin toiminnon reitityksen asetusajan kustannukset on jaettava eräkoon mukaan. Eräkoko määritetään nimikekortin **Tilaaminen**-pikavälilehden kentässä.  
+> [!NOTE]
+>  On tärkeää huomata, että ajoajan kustannukset kohdistetaan jokaiseen tuotettavaan nimikeyksikköön ja asetuskustannukset kohdistetaan jokaiseen erään. Sen vuoksi kunkin toiminnon reitityksen asetusajan kustannukset on jaettava eräkoon mukaan. Eräkoko määritetään nimikekortin **Tilaaminen**-pikavälilehden kentässä.  
 
 Jos haluat määrittää määritysajan reitityksen suunnittelulle mutta et sisällyttää tätä kulua vakiokustannusten laskentaan, tyhjennä **Tuotannon asetukset** -ikkunan **Kust. sisältävät asetuksen** -kentän valinta.  
 

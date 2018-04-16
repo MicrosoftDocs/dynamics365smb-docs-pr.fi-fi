@@ -29,7 +29,7 @@ Kun valitset **Kirjaa ja lähetä** -toiminnon myyntiasiakirjassa, näkyviin tul
 ## <a name="to-set-up-a-document-sending-profile"></a>Asiakirjan lähetysprofiilin määrittäminen
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Asiakirjan lähetysprofiilit** ja valitse sitten aiheeseen liittyvä linkki.
 2. Valitse **Asiakirjan lähetysprofiilit** -ikkunassa **Uusi**-toiminto.
-3. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Täytä tarvittavat kentät. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-specify-a-sending-profile-on-a-customer-card"></a>Lähetysprofiilin määrittäminen asiakaskortilla
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Asiakkaat** ja valitse sitten aiheeseen liittyvä linkki.

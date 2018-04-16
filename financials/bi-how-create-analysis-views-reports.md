@@ -69,10 +69,10 @@ Malli sisältää joukon rivejä, joista jokainen vastaa analyysiraportissa näk
 4. Valitse Sarakkeet ja määritä analyysiraporttiin sisällytettävät sarakkeet täyttämällä **Analysointisarakkeet**-ikkunan kentät.  
 
     > [!NOTE]  
->   Kun määrität sarakkeen, täytä **Analyysin tyyppikoodi** -kenttä (kaikkien saraketyyppien osalta lukuun ottamatta tyyppiä **Kaava**). Määritä analyysin tyyppikoodi **Analyysityypit**-ikkunassa.  
+   >   Kun määrität sarakkeen, täytä **Analyysin tyyppikoodi** -kenttä (kaikkien saraketyyppien osalta lukuun ottamatta tyyppiä **Kaava**). Määritä analyysin tyyppikoodi **Analyysityypit**-ikkunassa.  
 
     **Huomautus**. Jos valitset **Tapahtumakirjauksen tyyppi** -kentässä **Nimiketapahtumat**, ohjelma kopioi todelliset luvut nimiketapahtumasta. Jos valitset **Nimikkeiden budjettitapahtumat**, ohjelma kopioi budjetoidut luvut budjetista.  
-5.  Tallenna muutokset valitsemalla **OK**-painike.  
+5. Tallenna muutokset valitsemalla **OK**-painike.  
 
 ## <a name="to-set-up-analysis-line-templates"></a>Analyysirivimallien määrittäminen  
 Seuraava toimenpide perustuu myynnin analyysiraportteihin. Vaiheet ovat samanlaiset ostojen ja varaston analyysiraporteille.
@@ -96,7 +96,7 @@ Analyysiraporttien avulla voit analysoida myynnin dynamiikkaa tunnuslukujen muka
 
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Myynnin analyysiraportit** ja valitse sitten aiheeseen liittyvä linkki.  
 2. Valitse **Analyysiraportti - Myynti** -ikkunassa **Uusi**-toiminto.
-3. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Täytä tarvittavat kentät. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Valitse **Muokkaa analyysiraporttia** -toiminto.
 5. Valitse **Myynnin analyysiraportti** -ikkunassa **Näytä matriisi** -toiminto.  
 

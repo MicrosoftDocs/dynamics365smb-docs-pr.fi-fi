@@ -32,7 +32,7 @@ Seuraavissa ohjeissa kuvataan ensimmäisen työntekijäkortin luominen sekä kah
 ## <a name="to-set-up-an-employee"></a>Työntekijän määrittäminen
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, annan **Työntekijät** ja valitse sitten aiheeseen liittyvä linkki.
 2. Valitse **Uusi**-toiminto.
-3. Täytä **Työntekijän kortti**-ikkunassa tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Täytä **Työntekijän kortti**-ikkunassa tarvittavat kentät. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-insert-a-picture-of-an-employee"></a>Työntekijän kuvan lisääminen
 Jos työntekijästä on .bmp-muotoinen kuva, voit lisätä sen työntekijän korttiin.

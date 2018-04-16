@@ -25,7 +25,7 @@ Jos haluat nostaa tai laskea nimikkeen tai tietyn nimiketapahtuman varastoarvoa,
 ## <a name="to-revalue-inventory"></a>Varaston uudelleenarvostus
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Uudelleenarvostus pvk** ja valitse sitten aiheeseen liittyvä linkki.
 2. Valitse **Laske varaston arvo** -toiminto.
-3. Täytä **Laske varaston arvo** -ikkunassa tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Täytä **Laske varaston arvo** -ikkunassa tarvittavat kentät. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Valitse **OK**-painike.
 5. Syötä uusi yksikkökustannus **Uudelleenarvostus pvk** -ikkunan kuhunkin **Yks.kust. (uudelleenarvostet.)** -kenttään. Vaihtoehtoisesti voit syöttää uuden kokonaissumman **Var. arvo (uudell.arvostettu)** -kenttään.
 

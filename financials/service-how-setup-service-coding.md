@@ -28,12 +28,12 @@ Kun suoritat tavallisen huollon, sinun on usein luotava samat tiedot sisältäv�
   
 ## <a name="to-set-up-a-standard-service-code"></a>Vakiohuoltokoodien määrittäminen    
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Vakiohuoltokoodit** ja valitse sitten aiheeseen liittyvä linkki.  
-2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-4. Täytä tähän huoltokoodiin linkitetyt huoltorivit.  
+2. Täytä tarvittavat kentät. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. Täytä tähän huoltokoodiin linkitetyt huoltorivit.  
 
 ## <a name="to-assign-a-standard-service-code-to-a-service-item-group"></a>Vakiohuoltokoodin liittäminen huoltonimikeryhmään:
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Huoltonimikeryhmät** ja valitse sitten aiheeseen liittyvä linkki.  
-2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Täytä tarvittavat kentät. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Täytä tähän huoltokoodiin linkitetyt huoltorivit.  
 
 ## <a name="see-also"></a>Katso myös

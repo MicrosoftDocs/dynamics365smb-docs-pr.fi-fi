@@ -24,7 +24,7 @@ Yleiset varastoasetukset määritetään **Varastonhallinnan asetukset** -ikkuna
 
 ## <a name="to-set-up-general-inventory-information"></a>Yleisten varastotietojen määrittäminen
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Varastonhallinnan asetukset** ja valitse sitten aiheeseen liittyvä linkki.
-2. Täytä **Varastonhallinnan asetukset** -ikkunassa tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Täytä **Varastonhallinnan asetukset** -ikkunassa tarvittavat kentät. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Jos haluat sisällyttää fyysisen varastoinnin käsittelyajan ostorivin toimituksen lupaamisen laskentaan, voit määrittää sen oletusarvoksi varastolle ja sijainnille **Varastonhallinnan asetukset** -ikkunassa. Lisätietoja on kohdassa [Toimituksen lupaamisen päivämäärän laskeminen](sales-how-to-calculate-order-promising-dates.md).  
 

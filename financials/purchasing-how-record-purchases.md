@@ -48,17 +48,17 @@ Voit täyttää ostolaskun toimittajan kentät kahdella tavalla sen mukaan, onko
 8. Kun olet määrittänyt toimittajakortin, valitse **OK**-painike palataksesi **Ostolasku**-ikkunaan.
 
     Useat kentät **Ostolasku** -ikkunassa täytetään tiedoilla, jotka olet määrittänyt uuden toimittajan kortissa.
-9. Täytä tarvittaessa jäljellä olevat kentät **Ostolasku**-ikkunassa. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+9. Täytä tarvittaessa jäljellä olevat kentät **Ostolasku**-ikkunassa. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     Voit nyt täyttää ostolaskurivit varastonimikkeillä tai palveluilla, joita olet ostanut toimittajalta.
 
     > [!NOTE]  
->   Jos olet määrittänyt toimittajalle toistuvien ostojen rivin, kuten kuukausittaisen täydennystilauksen, voit lisätä nämä rivit laskuun valitsemalla **Hae toistuvat ostorivit** -toiminnon.
+   >   Jos olet määrittänyt toimittajalle toistuvien ostojen rivin, kuten kuukausittaisen täydennystilauksen, voit lisätä nämä rivit laskuun valitsemalla **Hae toistuvat ostorivit** -toiminnon.
 10. Syötä **Rivit**-pikavälilehden **Nimikenro**-kenttään varastonimikkeen tai palvelun numero.
 11. Syötä **Määrä**-kenttään ostettavien nimikkeiden lukumäärä.
 
     > [!NOTE]  
->   Kun nimikkeen tyyppi on **Huolto**, sen määrä on aikayksikkö, kuten tunnit, rivin **Mittayksikkökoodi**-kentän mukaan.
+    >   Kun nimikkeen tyyppi on **Huolto**, sen määrä on aikayksikkö, kuten tunnit, rivin **Mittayksikkökoodi**-kentän mukaan.
 
     **Rivisumma**-kenttä päivitetään näyttämään arvoa, joka saadaan kertomalla **Välitön yksikkökustannus** -kentän arvo **Määrä**-kentän arvolla.
 
@@ -66,7 +66,7 @@ Voit täyttää ostolaskun toimittajan kentät kahdella tavalla sen mukaan, onko
 12. Syötä **Laskun alennussumma** -kenttään summa, joka vähennetään laskun alaosan **Yhteensä sis. ALV:n** -kentässä olevasta arvosta.
 
     > [!NOTE]  
->   Jos toimittajalle on määritetty laskualennukset, määritetty prosenttiluvun arvo lisätään automaattisesti **Toimittajan laskun alennus-%** -kenttään, jos ehdot täyttyvät. Liittyvä summa lisätään **Laskun alennussumma** -kenttään.
+    >   Jos toimittajalle on määritetty laskualennukset, määritetty prosenttiluvun arvo lisätään automaattisesti **Toimittajan laskun alennus-%** -kenttään, jos ehdot täyttyvät. Liittyvä summa lisätään **Laskun alennussumma** -kenttään.
 13. Kun vastaanotat ostettuja nimikkeitä tai palveluita, valitse **Kirjaa**.
 
 Osto vaikuttaa nyt varastoon ja taloustietueisiin, ja myyjän maksu on aktivoitu. Ostolasku poistetaan ostolaskujen luettelosta ja korvataan uudella asiakirjalla kirjattujen ostolaskujen luettelosta.

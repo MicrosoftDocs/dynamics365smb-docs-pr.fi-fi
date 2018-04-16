@@ -106,12 +106,12 @@ Peruskalenterit määritetään omalle yritykselle, asiakkaille, toimittajille, 
 2.  Avaa **Asiakkaan** kortti, jolle haluat määrittää peruskalenterin.  
 3.  Valitse **Toimitus**-pikavälilehden **Peruskalenterin koodi** -kentässä peruskalenteri, jonka haluat määrittää.  
 
-> [!IMPORTANT]  
->  -   Jos yritykselle ei määritellä peruskalenteria, ohjelma laskee kaikki päivämäärät työskentelypäiviksi.  
-> -   Jos tilausriville syötetään tyhjä sijainti, ohjelma laskee kaikki päivämäärät työskentelypäiviksi.  
-> -   Toimittajalle tai sijainnille määritetyt peruskalenterit vaikuttavat siihen, kuinka päivämäärät lasketaan ja pyöristetään työpäiviin.
-
-> [!NOTE]  
+> [!IMPORTANT]
+> - Jos yritykselle ei määritellä peruskalenteria, ohjelma laskee kaikki päivämäärät työskentelypäiviksi.  
+>   -   Jos tilausriville syötetään tyhjä sijainti, ohjelma laskee kaikki päivämäärät työskentelypäiviksi.  
+>   -   Toimittajalle tai sijainnille määritetyt peruskalenterit vaikuttavat siihen, kuinka päivämäärät lasketaan ja pyöristetään työpäiviin.
+> 
+> [!NOTE]
 >  Ennen kuin räätälöityjä kalenteritapahtumia voidaan tehdä, yritykselle tulee ensin määritellä peruskalenteri.  
 
 ## <a name="see-also"></a>Katso myös

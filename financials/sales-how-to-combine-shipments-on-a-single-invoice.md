@@ -31,17 +31,17 @@ Jos haluat laskuttaa useamman kuin yhden toimituksen kerralla, voit käyttää k
 4. Valitse **Rivit**-pikavälilehdessä **Hae toimitusrivit** -toiminto.  
 5. Valitse laskuun sisällytettävä toimitusrivi:  
 
-    - Voit lisätä kaikki rivit valitsemalla kaikki rivit ja valitsemalla sitten **OK**.  
-    - Voit lisätä kaikki rivit valitsemalla kaikki rivit ja valitsemalla sitten **OK**. Voit käyttää Ctrl-näppäintä valitsemaan useita ei-perättäisiä rivejä.  
+   - Voit lisätä kaikki rivit valitsemalla kaikki rivit ja valitsemalla sitten **OK**.  
+   - Voit lisätä kaikki rivit valitsemalla kaikki rivit ja valitsemalla sitten **OK**. Voit käyttää Ctrl-näppäintä valitsemaan useita ei-perättäisiä rivejä.  
 
-    Jos valitsit virheellisen rivin tai haluat aloittaa alusta, voit yksinkertaisesti poistaa laskun rivit ja ajaa **Hae toimitusrivit** -toiminnon uudelleen.  
-7. Kirjaa lasku valitsemalla **Kirjaa**-toiminto.  
+     Jos valitsit virheellisen rivin tai haluat aloittaa alusta, voit yksinkertaisesti poistaa laskun rivit ja ajaa **Hae toimitusrivit** -toiminnon uudelleen.  
+6. Kirjaa lasku valitsemalla **Kirjaa**-toiminto.  
 
 ## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>Yhdistä automaattisesti toimitukset yhteen laskuun  
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Tee koontilasku** ja valitse sitten aiheeseen liittyvä linkki. Eräajon pyynnön ikkuna aukeaa.  
-2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Täytä tarvittavat kentät. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Valitse **Kirjaa laskut** -valintaruutu.  
-4.  Valitse **OK**-painike.  
+4. Valitse **OK**-painike.  
 
 > [!NOTE]  
 >  Huomaa, että laskut on kirjattava manuaalisesti, jos eräajon **Kirjaa laskut** -valintaruutua ei ole valittu.  

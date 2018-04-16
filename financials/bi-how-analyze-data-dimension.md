@@ -32,7 +32,7 @@ Analyysissa dimensioittain näkyy valittu dimensioyhdistelmä. Voit tallentaa ja
 
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Analyysinäkymät** ja valitse sitten aiheeseen liittyvä linkki.  
 2. Valitse **Analyysinäkymän luettelo** -ikkunassa **Uusi**-toiminto.
-3. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Täytä tarvittavat kentät. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Jos haluat lisätä muita dimensiokoodeja neljän **Dimensiot**-pikavälilehden koodin lisäksi, valitse **Suodatin**-toiminto, täytä kentät ja valitse **OK**.  
 5. Voit päivittää näkymän valitsemalla **Päivitä**-toiminnon.
 

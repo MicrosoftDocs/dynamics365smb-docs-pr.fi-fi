@@ -26,10 +26,10 @@ Voit etsiä sivuja tai raportteja valitsemalla osoiterivin oikeassa yläkulmassa
 
 Kun alat kirjoittaa merkkejä, avattavassa luettelossa näkyvät kirjoittamasi merkit sisältävien sivujen nimet. Avattavan luettelon sisältö muuttuu, kun kirjoitat lisää merkkejä, ja voit valita luettelosta haluamasi vaihtoehdon, kun luettelo on näkyvissä. Avattavan luettelon toisessa sarakkeessa näkyvät löydettyjen sivujen polut. Käytössä on myös linkki, jolla voit etsiä ohjetta kirjoittamiesi merkkien mukaan.
 
-> [!NOTE]  
+> [!NOTE]
 >   Käytettävissä olevat sivut ja raportit määräytyvät yritykselle valitun käyttäjäkokemuksen mukaan. **Basic**-kokemuksen valikoima on suppeampi kuin **Essential**-kokemuksen valikoima. Ensimmäiselle kirjautumiskerralla käytössä on Perus-kokemus. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)] -kokemuksen mukauttaminen](ui-experiences.md).
-
-> [!NOTE]  
+> 
+> [!NOTE]
 >   **Etsi sivu tai raportti** -toiminto ei etsi kaikista tiedoista, kuten asiakkaiden nimistä, osoitteista ja tapahtumista. Voit sen sijaan etsiä tietoja luettelosivuilta valitsemalla luettelon otsikon oikeassa yläkulmassa suurennuslasikuvakkeen. Haku tehdään vain avatussa luettelossa. Lisätietoja on kohdassa [Ehtojen antaminen suodattimiin](ui-enter-criteria-filters.md).
 
 ## <a name="see-also"></a>Katso myös

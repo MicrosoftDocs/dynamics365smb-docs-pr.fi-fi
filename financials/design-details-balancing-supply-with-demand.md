@@ -31,21 +31,21 @@ Kuvittele, että jokainen varastoprofiili sisältää kysyntätapahtumien joukon
   
      Jos toimituksen ajankohta ei ole sopiva, ehkä toimitus voidaan aikatauluttaa uudelleen seuraavasti:  
   
-    1.  Jos tarjonta on asetettu kysyntää aiemmin, tarjonta voidaan ehkä aikatauluttaa uudelleen niin, että varasto on mahdollisimman pieni.  
-    2.  Jos tarjonta tapahtuu kysyntää ennen, tarjonnan voi mahdollisesti aikatauluttaa uudelleen. Muussa tapauksessa järjestelmä ehdottaa uutta tarjontaa.  
-    3.  Jos tarjonta vastaa kysyntää kyseisenä päivämääränä, suunnittelujärjestelmä voi tutkia edelleen, voiko tarjonnan määrä kattaa kysynnän.  
+   1. Jos tarjonta on asetettu kysyntää aiemmin, tarjonta voidaan ehkä aikatauluttaa uudelleen niin, että varasto on mahdollisimman pieni.  
+   2. Jos tarjonta tapahtuu kysyntää ennen, tarjonnan voi mahdollisesti aikatauluttaa uudelleen. Muussa tapauksessa järjestelmä ehdottaa uutta tarjontaa.  
+   3. Jos tarjonta vastaa kysyntää kyseisenä päivämääränä, suunnittelujärjestelmä voi tutkia edelleen, voiko tarjonnan määrä kattaa kysynnän.  
   
-     Kun ajoitus on valmis, riittävä toimitettava määrä voidaan laskea seuraavasti:  
+      Kun ajoitus on valmis, riittävä toimitettava määrä voidaan laskea seuraavasti:  
   
-    1.  Jos tarjonnan määrä on pienempi kuin kysyntä, on mahdollista, että tarjonnan määrää voidaan kasvattaa (tai ei, jos vähimmäismääräkäytäntö rajoittaa sitä).  
-    2.  Jos tarjonnan määrä on suurempi kuin kysyntä, on mahdollista, että tarjonnan määrää voidaan vähentää (tai ei, jos vähimmäismääräkäytäntö rajoittaa sitä).  
+   4. Jos tarjonnan määrä on pienempi kuin kysyntä, on mahdollista, että tarjonnan määrää voidaan kasvattaa (tai ei, jos vähimmäismääräkäytäntö rajoittaa sitä).  
+   5. Jos tarjonnan määrä on suurempi kuin kysyntä, on mahdollista, että tarjonnan määrää voidaan vähentää (tai ei, jos vähimmäismääräkäytäntö rajoittaa sitä).  
   
-     Tässä vaiheessa on olemassa yksi näistä kahdesta tilanteesta:  
+      Tässä vaiheessa on olemassa yksi näistä kahdesta tilanteesta:  
   
-    1.  Nykyiseen kysyntään voidaan vastata, jolloin se voidaan sulkea ja seuraavan kysynnän suunnittelu voidaan aloittaa.  
-    2.  Tarjonta on saavuttanut enimmäismäärän, ja osa kysyntämäärästä on jäänyt kattamatta. Tässä tapauksessa suunnittelujärjestelmä voi sulkea nykyisen tarjonnan ja siirtyä seuraavaan.  
+   6. Nykyiseen kysyntään voidaan vastata, jolloin se voidaan sulkea ja seuraavan kysynnän suunnittelu voidaan aloittaa.  
+   7. Tarjonta on saavuttanut enimmäismäärän, ja osa kysyntämäärästä on jäänyt kattamatta. Tässä tapauksessa suunnittelujärjestelmä voi sulkea nykyisen tarjonnan ja siirtyä seuraavaan.  
   
- Toimenpide alkaa tyypillisesti seuraavasta kysynnästä ja nykyisestä tarjonnasta tai päinvastoin. Nykyinen tarjonta voi pystyä kattamaan myös tämän seuraavan kysynnän tai nykyiseen kysyntään ei ole vielä täysin vastattu.  
+   Toimenpide alkaa tyypillisesti seuraavasta kysynnästä ja nykyisestä tarjonnasta tai päinvastoin. Nykyinen tarjonta voi pystyä kattamaan myös tämän seuraavan kysynnän tai nykyiseen kysyntään ei ole vielä täysin vastattu.  
   
 ## <a name="rules-concerning-actions-for-supply-events"></a>Säännöt, jotka koskevat toimitustapahtumien toimintoja  
 Kun suunnittelujärjestelmä suorittaa ylhäältä alaspäin tehtävän laskennan, jossa tarjonnan on täytettävä kysyntä, kysyntä saadaan muualta valmiina, eikä suunnittelujärjestelmä valvo sitä. Tarjontapuolta voidaan kuitenkin hallita. Tämän vuoksi suunnittelujärjestelmä ehdottaa uuden toimitustilauksen luomista, olemassa olevien uudelleenajoittamista ja/tai tilausmäärän muuttamista. Jos olemassa oleva toimitustilaus muuttuu tarpeettomaksi, suunnittelujärjestelmä ehdottaa, että käyttäjä peruuttaa sen.  

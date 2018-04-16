@@ -24,24 +24,24 @@ FEFO (First Expired First Out) on lajittelumenetelmä, joka varmistaa sen, että
 
  Tämä toiminto toimii vain, kun seuraavat ehdot täyttyvät:  
 
--   Nimikkeellä on oltava sarjanumero tai eränumero.  
--   Nimikkeen seurantakoodiasetuksissa on valittava kenttä **Sarjanumerokohtainen varastoseuranta** field or the **Eränumerokohtainen varastoseuranta**.  
--   Nimike on kirjattu varastoon vanhentumispäivämäärän kera.  
--   Sijaintikortissa on valittava valintaruutu **Vaadi poiminta**.  
--   Sijaintikortissa on valittava valintaruutu **FEFO-poiminta**.  
--   Sijaintikortissa on valittava **Var.paikka pakollinen** -valintaruutu.  
+- Nimikkeellä on oltava sarjanumero tai eränumero.  
+- Nimikkeen seurantakoodiasetuksissa on valittava kenttä **Sarjanumerokohtainen varastoseuranta** field or the **Eränumerokohtainen varastoseuranta**.  
+- Nimike on kirjattu varastoon vanhentumispäivämäärän kera.  
+- Sijaintikortissa on valittava valintaruutu **Vaadi poiminta**.  
+- Sijaintikortissa on valittava valintaruutu **FEFO-poiminta**.  
+- Sijaintikortissa on valittava **Var.paikka pakollinen** -valintaruutu.  
 
- Kun kaikki ehdot täyttyvät, poimittavat sarja/erä-numeroidut nimikkeet lajitellaan vanhimmat ensin kaikissa poiminnoissa ja siirroissa, lukuun ottamatta nimikkeitä, jotka käyttävät sarjanrokohtaista tai eränumerokohtaista seurantaa.  
+  Kun kaikki ehdot täyttyvät, poimittavat sarja/erä-numeroidut nimikkeet lajitellaan vanhimmat ensin kaikissa poiminnoissa ja siirroissa, lukuun ottamatta nimikkeitä, jotka käyttävät sarjanrokohtaista tai eränumerokohtaista seurantaa.  
 
 > [!NOTE]  
 >  Jos jotkin sarja-/eränumeroidut nimikkeet käyttävät erityistä seurantaa, ne otetaan ensin huomioon. Näiden jälkeen jäljellä olevat määrittämättömät sarja-/eränumerot luetellaan FEFO:n mukaan.  
 
  Jos kahdella erä-/sarjanumeroidulla nimikkeellä on sama vanhentumispäivämäärä, ohjelma valitsee nimikkeen, jolla on pienempi sarja- tai eränumero. Jos sarja- tai eränumerot ovat samoja, ohjelma valitsee ensimmäisenä rekisteröidyn nimikkeen.  
 
-> [!NOTE]  
->  -   Kun sarja- tai eränumeroituja nimikkeitä poimitaan ohjattua hyllytystä ja poimintaa varten määritetyissä sijainneissa, FEFO poimii vain tyyppiä *Poiminta* olevien varastopaikkojen määrät.  
-> -   Ota varastosiirrot käyttöön FEFO:n mukaan joko **Varaston siirto** -ikkunassa tai **Siirtotyökirja** -ikkunassa ja jätä **Varastopaikasta** -kenttä tyhjäksi.  
-> -   Jos **Tiukka vanhentumisen kirj.** -kenttä on valittuna, poimintaan sisällytetään vain ne kohteet, jotka eivät ole vanhentuneet. Tämä pätee myös silloin, kun et käytä poimintaa FEFO-periaatteen mukaan.  
+> [!NOTE]
+> - Kun sarja- tai eränumeroituja nimikkeitä poimitaan ohjattua hyllytystä ja poimintaa varten määritetyissä sijainneissa, FEFO poimii vain tyyppiä *Poiminta* olevien varastopaikkojen määrät.  
+>   -   Ota varastosiirrot käyttöön FEFO:n mukaan joko **Varaston siirto** -ikkunassa tai **Siirtotyökirja** -ikkunassa ja jätä **Varastopaikasta** -kenttä tyhjäksi.  
+>   -   Jos **Tiukka vanhentumisen kirj.** -kenttä on valittuna, poimintaan sisällytetään vain ne kohteet, jotka eivät ole vanhentuneet. Tämä pätee myös silloin, kun et käytä poimintaa FEFO-periaatteen mukaan.  
 
 ## <a name="see-also"></a>Katso myös  
 [Nimikkeiden poiminta](warehouse-pick-items.md)   

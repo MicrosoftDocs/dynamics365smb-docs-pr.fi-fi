@@ -51,16 +51,16 @@ Järjestelmän on valvottava varaston nimikkeiden saatavuutta jatkuvasti, jotta 
 
  Kaikkien varastossa olevien nimikkeiden varaamisen tulisi olla mahdollista, lähtevien käsittelyssä olevia nimikkeitä lukuun ottamatta. Näin ollen varattavissa oleva määrä määritetään kaikissa asiakirjoissa ja kaikissa lokerotyypeissä olevana määränä, lukuun ottamatta seuraavia lähteviä määriä:  
 
--   Määrä rekisteröimättömissä poiminta-asiakirjoissa  
--   Varastopaikoissa oleva määrä  
--   Määrä tuotannon valmisteluvarastopaikoissa  
--   Määrä avoimissa tuotannon varastopaikoissa  
--   Määrä kokoonpanon valmisteluvarastopaikoissa  
--   Muutosvarastopaikoissa oleva määrä  
+- Määrä rekisteröimättömissä poiminta-asiakirjoissa  
+- Varastopaikoissa oleva määrä  
+- Määrä tuotannon valmisteluvarastopaikoissa  
+- Määrä avoimissa tuotannon varastopaikoissa  
+- Määrä kokoonpanon valmisteluvarastopaikoissa  
+- Muutosvarastopaikoissa oleva määrä  
 
- Tulos näkyy **Saatavilla oleva kokonaismäärä** -kenttään **Varaus**-ikkunassa.  
+  Tulos näkyy **Saatavilla oleva kokonaismäärä** -kenttään **Varaus**-ikkunassa.  
 
- Varausrivillä oleva määrä, jota ei ole mahdollista varata, koska se on varattu varastossa, näytetään **F.var. kohdistettu määrä** -kentässä **Varaus** -ikkunassa.  
+  Varausrivillä oleva määrä, jota ei ole mahdollista varata, koska se on varattu varastossa, näytetään **F.var. kohdistettu määrä** -kentässä **Varaus** -ikkunassa.  
 
 ### <a name="calculating-the-quantity-available-to-reserve"></a>Lasketaan varattavissa olevaa määrää  
  Varattava määrä lasketaan seuraavasti:  

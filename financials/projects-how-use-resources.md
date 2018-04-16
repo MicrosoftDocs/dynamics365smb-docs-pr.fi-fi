@@ -29,7 +29,7 @@ Voit määrittää resursseja projekteihin luomalla projektiin suunnittelurivej�
 
 ## <a name="to-record-resource-usage-for-a-job"></a>Projektin resurssin käytön kirjaaminen
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Projektipäiväkirjat** ja valitse sitten aiheeseen liittyvä linkki.
-2. Avaa kyseessä oleva projektipäiväkirjan erä ja täytä vaaditut kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Avaa kyseessä oleva projektipäiväkirjan erä ja täytä vaaditut kentät. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Kun päiväkirja on valmis, valitse **Kirjaa**-toiminto.
 
 ## <a name="to-adjust-resource-prices"></a>Resurssihintojen muuttaminen

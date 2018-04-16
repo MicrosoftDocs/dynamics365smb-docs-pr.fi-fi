@@ -38,14 +38,14 @@ Jos olet määritellyt irtotavaran varastopaikoille varastopaikan tyypin, jonka 
 
 Seuraavan kerran kun lasket varastopaikan täydennystä, ohjelma luo uudelleen poistamasi ehdotukset, jos ne ovat silloin vielä voimassa.  
 
-> [!NOTE]  
+> [!NOTE]
 >  Oletetaan, että nimike täyttää seuraavat ehdot:  
->   
->  -   Nimikkeellä on vanhentumispäivämäärä.  
-> -   Sijaintikortin **FEFO-poiminta**-kentässä valitaan.  
-> -   Käytät **Laske var.paikan täydennys**-toimintoa.  
->   
->  Tällöin **Alue koodista**- ja  **Var.paikasta**-kentät jätetään tyhjiksi, sillä nimikkeiden siirron lähtökohdan laskeva algoritmi käynnistyy vain, kun käytät **Luo siirto** -toimintoa.  
+> 
+> - Nimikkeellä on vanhentumispäivämäärä.  
+>   -   Sijaintikortin **FEFO-poiminta**-kentässä valitaan.  
+>   -   Käytät **Laske var.paikan täydennys**-toimintoa.  
+> 
+>   Tällöin **Alue koodista**- ja  **Var.paikasta**-kentät jätetään tyhjiksi, sillä nimikkeiden siirron lähtökohdan laskeva algoritmi käynnistyy vain, kun käytät **Luo siirto** -toimintoa.  
 
 ## <a name="see-also"></a>Katso myös  
 [Varastoinninhallinta](warehouse-manage-warehouse.md)  

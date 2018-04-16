@@ -32,26 +32,26 @@ Seuraavat toimet on oltava tehtynä ennen reitityksen määrittämistä:
 - Tuotantoresurssit on määritetty. Lisätietoja on kohdassa [Tuotantosolujen ja kuormituskeskusten määrittäminen](production-how-to-set-up-work-and-machine-centers.md).
 
 ## <a name="to-create-a-routing"></a>Reitityksen luominen  
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Reititykset** ja valitse sitten aiheeseen liittyvä linkki.  
-2.  Valitse **Uusi**-toiminto.  
-3. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4.  Valitse **Tyyppi**-kentässä **Sarja**, jos haluat laskea tuotantoreitityksen kentän **Operaation nro** arvon mukaan. -kentässä.   
-    Valitse **Rinnakkainen** laskeaksesi operaatiot **Seuraavan operaation nro**-kentän mukaan. -kentässä.  
-5.  Jos haluat muokata reititystä, aseta **Tila**-kentän arvoksi **Uusi** tai **Kehityksen alla**. Jos haluat aktivoida sen, määritä **Tila**-kentän arvoksi **Hyväksytty**.  
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Reititykset** ja valitse sitten aiheeseen liittyvä linkki.  
+2. Valitse **Uusi**-toiminto.  
+3. Täytä tarvittavat kentät. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. Valitse **Tyyppi**-kentässä **Sarja**, jos haluat laskea tuotantoreitityksen kentän **Operaation nro** arvon mukaan. -kentässä.   
+   Valitse **Rinnakkainen** laskeaksesi operaatiot **Seuraavan operaation nro**-kentän mukaan. -kentässä.  
+5. Jos haluat muokata reititystä, aseta **Tila**-kentän arvoksi **Uusi** tai **Kehityksen alla**. Jos haluat aktivoida sen, määritä **Tila**-kentän arvoksi **Hyväksytty**.  
 
-    Siirry reititysrivien täyttämiseen.
-6.  Täytä **Operaation nro** -kenttään ensimmäisen operaation numero (esimerkiksi **10**).  
-7.  Määritä **Tyyppi**-kentässä käytettävän resurssin tyyppi (esimerkiksi **Tuotantosolu**).  
-8.  Valitse **Nro**-kenttään käytettävä resurssi (tai kirjoita numero kenttään).  
-9.  Määritä **Reitityslinkin koodi** -kenttään koodi, joka liittää komponentin tiettyyn toimintoon. Lisätietoja on kohdassa Reitityslinkkien luominen.
-10.  Anna **Ajoaika**- ja **Asetusaika**-kenttiin toiminnon suorittamiseen tarvittavat prosessiajat.  
+   Siirry reititysrivien täyttämiseen.
+6. Täytä **Operaation nro** -kenttään ensimmäisen operaation numero (esimerkiksi **10**).  
+7. Määritä **Tyyppi**-kentässä käytettävän resurssin tyyppi (esimerkiksi **Tuotantosolu**).  
+8. Valitse **Nro**-kenttään käytettävä resurssi (tai kirjoita numero kenttään).  
+9. Määritä **Reitityslinkin koodi** -kenttään koodi, joka liittää komponentin tiettyyn toimintoon. Lisätietoja on kohdassa Reitityslinkkien luominen.
+10. Anna **Ajoaika**- ja **Asetusaika**-kenttiin toiminnon suorittamiseen tarvittavat prosessiajat.  
 
     > [!NOTE]  
     >  Asetusaika lasketaan tuotantotilausta kohden, ajoaika tuotettavaa nimikettä kohden.  
 
-11.  Määritä **Samanaikaiset kapasiteetit** -kentässä, kuinka monta valitun resurssin yksikköä toiminnon suorittamiseen käytetään. Jos esimerkiksi yhteen pakkaustoimintoon on kohdistettu kaksi työntekijää, ajoaika puolitetaan.  
-12.  Jatka rivien täyttämistä, kunnes kaikki nimikkeen tuottamiseen tarvittavat toiminnot on määritetty.  
-13.  Voit kopioida rivit reitityksestä valitsemalla aiemmin luodut rivit ja valitsemalla sitten **Kopioi reititys**.  
+11. Määritä **Samanaikaiset kapasiteetit** -kentässä, kuinka monta valitun resurssin yksikköä toiminnon suorittamiseen käytetään. Jos esimerkiksi yhteen pakkaustoimintoon on kohdistettu kaksi työntekijää, ajoaika puolitetaan.  
+12. Jatka rivien täyttämistä, kunnes kaikki nimikkeen tuottamiseen tarvittavat toiminnot on määritetty.  
+13. Voit kopioida rivit reitityksestä valitsemalla aiemmin luodut rivit ja valitsemalla sitten **Kopioi reititys**.  
 14. Hyväksy reititys.  
 15. Voit nyt liittää uuden reitityksen kyseisen tuotantonimikkeen korttiin täyttämällä **Reititysnro**-kentän. Lisätietoja on ohjeaiheessa [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md).  
 

@@ -26,11 +26,11 @@ Takautuvat tapahtumat tai kustannusten muutokset vaikuttavat usein varaston arvo
 
  Voit varmistaa, että kaikki suljetun kauden tapahtumat ovat lopullisia, tarkistamalla, että seuraavat ehdot täyttyvät ennen varastokauden sulkemista:  
 
--   Kaikki jakson lähtevät nimiketapahtumat on suljettava (ei negatiivista varastoa).  
--   Kaikki jakson nimikkeen kustannuksia on muutettava.  
--   Kaikkien jakson julkaistujen ja valmiiden tuotantotilausten kustannusta on muutettava.  
+- Kaikki jakson lähtevät nimiketapahtumat on suljettava (ei negatiivista varastoa).  
+- Kaikki jakson nimikkeen kustannuksia on muutettava.  
+- Kaikkien jakson julkaistujen ja valmiiden tuotantotilausten kustannusta on muutettava.  
 
- Kun suljet varastokauden, varastokauden tapahtuma luodaan varastokauden edellisen nimiketapahtuman numeron avulla. Lisäksi varastokauden tapahtumaan tallennetaan aika, päivämäärä ja kauden sulkevan käyttäjän käyttäjäkoodi. Käyttämällä tätä tietoa edellisen kauden viimeisen nimikerekisterin kanssa voit nähdä mitkä varastotapahtumat kirjattiin varastokaudella. Varastojaksojen uudelleen avaaminen on myös mahdollista, jos sinun tarvitsee kirjata suljetulla kaudella. Varastokauden avaamisen yhteydessä luodaan varastokauden tapahtuma.  
+  Kun suljet varastokauden, varastokauden tapahtuma luodaan varastokauden edellisen nimiketapahtuman numeron avulla. Lisäksi varastokauden tapahtumaan tallennetaan aika, päivämäärä ja kauden sulkevan käyttäjän käyttäjäkoodi. Käyttämällä tätä tietoa edellisen kauden viimeisen nimikerekisterin kanssa voit nähdä mitkä varastotapahtumat kirjattiin varastokaudella. Varastojaksojen uudelleen avaaminen on myös mahdollista, jos sinun tarvitsee kirjata suljetulla kaudella. Varastokauden avaamisen yhteydessä luodaan varastokauden tapahtuma.  
 
 ## <a name="see-also"></a>Katso myös  
  [Rakennetiedot: varaston arvostus](design-details-inventory-costing.md) [Varaston kustannusten hallinta](finance-manage-inventory-costs.md) [Rahoitus](finance.md)  

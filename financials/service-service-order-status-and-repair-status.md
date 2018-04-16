@@ -30,7 +30,7 @@ ms.lasthandoff: 03/22/2018
 * Huoltotilauksen tila, johon kukin korjauksen tila on linkitetty. Lisätietoja on ohjeaiheessa Huoltotilauksen tila.  
 * Kunkin huoltotilauksen tilavaihtoehdon prioriteettitaso. Lisätietoja on kohdassa Prioriteetti.  
   
- Kun huoltotarjous muunnetaan huoltotilaukseksi, ohjelma muuttaa jokaisen tilauksessa olevan huoltonimikkeen korjauksen tilaksi **Alku** ja huoltotilauksen tilaksi **Odottava**.  
+  Kun huoltotarjous muunnetaan huoltotilaukseksi, ohjelma muuttaa jokaisen tilauksessa olevan huoltonimikkeen korjauksen tilaksi **Alku** ja huoltotilauksen tilaksi **Odottava**.  
   
 ## <a name="specifying-service-order-status-for-repair-status"></a>Huoltotilauksen tilan määrittäminen korjauksen tilaa varten  
 Jokainen korjauksen tila on linkitetty tiettyyn huoltotilauksen tilaan. Huoltotilauksen tilan vaihtoehdot ovat **Odottava**, **Työn alla**, **Estossa** ja **Valmis**. Korjauksen tilan vaihtoehtoja ovat seuraavat: **Alku**, **Työn alla**, **Lykätty**, **Osittain huollettu**, **Tarjous valmis**, **Odotetaan asiakasta**, **Varaosa tilattu**, **Varaosa vastaanotettu** ja **Valmis**.  

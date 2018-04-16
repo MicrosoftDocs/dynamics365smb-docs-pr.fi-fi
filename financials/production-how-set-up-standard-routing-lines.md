@@ -25,7 +25,7 @@ Vakiotehtävien käyttäminen yksinkertaistaa reititysten luomista ja ylläpitoa
 ## <a name="to-set-up-a-standard-task"></a>Vakiotehtävän määrittäminen
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Vakiotehtävät** ja valitse sitten aiheeseen liittyvä linkki.
 2. Valitse **Uusi**-toiminto.
-3. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Täytä tarvittavat kentät. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Valitse **Työkalut**-, **Henkilöstö**-, **Kuvaus**- tai **Työkalut**-toiminto.
 5. Anna kyseisen vakiotehtävän kuvaus avautuvassa ikkunassa.
 

@@ -27,7 +27,7 @@ Seuraavassa menettelyssä käsitellään vakiomyyntirivien käyttämistä. Niit�
 ## <a name="to-set-up-standard-sales-lines"></a>Vakiomyyntirivien määrittäminen  
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Vakiomyyntikoodit** ja valitse sitten aiheeseen liittyvä linkki.  
 2. Valitse **Vakiomyyntirivit** -ikkunassa **Uusi**-toiminto.  
-3. Täytä **Yleiset**-pikavälilehdessä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. Täytä **Yleiset**-pikavälilehdessä tarvittavat kentät. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Kirjoita **Rivit**-pikavälilehden kenttiin esitiedot, jotka sopivat toistuvina riveinä myyntiasiakirjoissa käytettäviksi vakioriveiksi.  
 
 ## <a name="to-insert-standard-sales-lines-on-a-sales-invoice"></a>Vakiomyyntirivien lisääminen myyntilaskuun

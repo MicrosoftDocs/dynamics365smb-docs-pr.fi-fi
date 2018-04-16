@@ -25,7 +25,7 @@ Jos yrityksessäsi työskentelee useita ostajia, ne voidaan määrittää ikkuna
 ## <a name="to-set-up-purchasers"></a>Ostajien määrittäminen
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Myyjät/ostajat** ja valitse sitten aiheeseen liittyvä linkki.
 2. Valitse **Myyjät/ostajat**-ikkunassa **Uusi**-toiminto.
-3. Täytä **Myyjät/ostajat**-ikkunassa tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Täytä **Myyjät/ostajat**-ikkunassa tarvittavat kentät. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-purchasers-to-vendors"></a>Ostajien määrittäminen toimittajiin
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Toimittajat** ja valitse sitten aiheeseen liittyvä linkki.

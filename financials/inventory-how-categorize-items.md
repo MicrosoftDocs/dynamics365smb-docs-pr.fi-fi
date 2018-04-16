@@ -27,7 +27,7 @@ Voit etsiä nimikkeitä ominaisuuksien mukaan, kun määrität nimikkeille ja ni
 ## <a name="to-create-an-item-category"></a>Nimikeluokan luominen
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Nimikekategoriat** ja valitse sitten aiheeseen liittyvä linkki.
 2. Valitse **Nimikeluokat**-ikkunassa **Uusi**-toiminto.
-3. Täytä tarvittaessa **Nimikeluokkakortti**-ikkunan **Yleinen**-pikavälilehden kentät: [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Täytä tarvittaessa **Nimikeluokkakortti**-ikkunan **Yleinen**-pikavälilehden kentät: [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Määritä **Määritteet**-pikavälilehdessä kaikki nimikeluokan nimikkeen määritteet. Lisätietoja on kohdan [Nimikkeen määritteiden käsitteleminen](inventory-how-work-item-attributes.md) osassa Nimikkeen määritteiden määrittäminen nimikeluokkaan.
 
 > [!NOTE]  

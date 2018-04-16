@@ -34,24 +34,24 @@ Käytä asiakirjaa nimiketapahtuman kohdistamisessa uudelleen, jos mahdollista. 
 
 Jos et tehdä uudelleenkohdistusta, kuten korjata kiinteää kohdistusta, asiakirjassa, korjaa kohdistus **Kohdistustyökirja**-ikkunassa.
 
-> [!Warning]  
+> [!Warning]
 > Seuraavassa on tärkeitä muistettavia asioita, kun käsitellään kohdistustyökirjaa:
-    - Älä jätä kohdistustapahtumia pitkäksi aikaa käyttämättä, koska muut käyttäjät eivät voi käsitellä nimikkeitä ennen kuin käytät kohdistustapahtumia uudelleen tai suljet **Sovellustyökirja** -ikkunan. Käyttäjät, jotka yrittävät tehdä toimia, joihin liittyy manuaalisesti kohdistamattoman kohdistustapahtuman saavat seuraavan virhesanoman: "Tätä toimintoa ei voi suorittaa, koska kohteen XXX tapahtumia ei ole käytetty sovelluksen asiakirjasta käyttäjän XXX toimesta."
-    - Nimiketapahtumien uudelleenkohdistus on suositeltavaa tehdä muuna kuin työaikana. Tällöin vältetään ristiriidat muiden käyttäjien kirjatessa tapahtumia samalle nimikkeelle.
-    - Kun suljet kohdistustyökirjan, [!INCLUDE[d365fin](includes/d365fin_md.md)] suorittaa tarkistuksen ja varmistaa, että kaikki tapahtumat on kohdistettu. Jos esimerkiksi poistat määrän kohdistuksen, mutta et luo uutta kohdistusta, ja suljet sen jälkeen kohdistustyökirjan, ohjelma luo uuden kohdistuksen jos mahdollista. Tällöin kustannukset pysyvät samoina. Huomaa kuitenkin, että jos poistat kiinteän kohdistuksen, ohjelma ei luo uutta kiinteää kohdistusta automaattisesti työarkin sulkemisen yhteydessä. Sinun on luotava uusi kohdistus manuaalisesti työarkissa.
-    - Voit poistaa usean tapahtuman kohdistukset samanaikaisesti kohdistustyökirjassa. Koska tapahtumien kohdistaminen vaikuttaa useisiin kohdistuksen käytettävissä oleviin tapahtumiin, voit luoda kohdistuksen vain yhdelle tapahtumalle samanaikaisesti.
-    - Kohdistustyökirja ei voi tehdä kohdistusta seuraavassa tilanteessa: Jos varastossa ei ole tarpeeksi kohdistettavaa määrää, kohdistustyökirja ei voi tehdä kohdistusta, jos yrität kohdistaa varaston vähennystapahtumaa, jolla ei ole nimikeseurannan tietoja, sellaiseen varaston lisäystapahtumaan, jolla on nimikeseurannan tiedot.
+>     - Älä jätä kohdistustapahtumia pitkäksi aikaa käyttämättä, koska muut käyttäjät eivät voi käsitellä nimikkeitä ennen kuin käytät kohdistustapahtumia uudelleen tai suljet **Sovellustyökirja** -ikkunan. Käyttäjät, jotka yrittävät tehdä toimia, joihin liittyy manuaalisesti kohdistamattoman kohdistustapahtuman saavat seuraavan virhesanoman: "Tätä toimintoa ei voi suorittaa, koska kohteen XXX tapahtumia ei ole käytetty sovelluksen asiakirjasta käyttäjän XXX toimesta."
+>     - Nimiketapahtumien uudelleenkohdistus on suositeltavaa tehdä muuna kuin työaikana. Tällöin vältetään ristiriidat muiden käyttäjien kirjatessa tapahtumia samalle nimikkeelle.
+>     - Kun suljet kohdistustyökirjan, [!INCLUDE[d365fin](includes/d365fin_md.md)] suorittaa tarkistuksen ja varmistaa, että kaikki tapahtumat on kohdistettu. Jos esimerkiksi poistat määrän kohdistuksen, mutta et luo uutta kohdistusta, ja suljet sen jälkeen kohdistustyökirjan, ohjelma luo uuden kohdistuksen jos mahdollista. Tällöin kustannukset pysyvät samoina. Huomaa kuitenkin, että jos poistat kiinteän kohdistuksen, ohjelma ei luo uutta kiinteää kohdistusta automaattisesti työarkin sulkemisen yhteydessä. Sinun on luotava uusi kohdistus manuaalisesti työarkissa.
+>     - Voit poistaa usean tapahtuman kohdistukset samanaikaisesti kohdistustyökirjassa. Koska tapahtumien kohdistaminen vaikuttaa useisiin kohdistuksen käytettävissä oleviin tapahtumiin, voit luoda kohdistuksen vain yhdelle tapahtumalle samanaikaisesti.
+>     - Kohdistustyökirja ei voi tehdä kohdistusta seuraavassa tilanteessa: Jos varastossa ei ole tarpeeksi kohdistettavaa määrää, kohdistustyökirja ei voi tehdä kohdistusta, jos yrität kohdistaa varaston vähennystapahtumaa, jolla ei ole nimikeseurannan tietoja, sellaiseen varaston lisäystapahtumaan, jolla on nimikeseurannan tiedot.
 
 ## <a name="to-remove-an-item-application-by-using-the-application-worksheet"></a>Nimikkeen kohdistuksen ja kohdistustyökirjan poistaminen  
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Kohdistustyökirja** ja valitse sitten aiheeseen liittyvä linkki.  
-2.  **Kohdistustyökirja**-ikkuna aukeaa näyttäen kaikkia nimikkeitä koskevat nimiketapahtumat.  
-3.  Syötä suodattimet **Yleinen**-pikavälilehdelle, jotta on helpompi löytää nimiketapahtumat, joille haluat muuttaa sovelluksen.  
-4.  Valitse ensin nimiketapahtuma ja sitten **Kohdistetut tapahtumat** -toiminto. **Näytä kohdistetut tapahtumat - Kohdistetut tapahtumat** -ikkuna avautuu ja ikkunassa näkyvä valittuun tapahtumaan kohdistetut nimiketapahtumat.  
-5.  Valitse nimiketapahtuma, jonka kohdistuksen haluat poistaa.  
-6.  Valitse **Poista kohdistus** -toiminto. Nämä kaksi nimiketapahtumaa linkittävä nimikkeen kohdistustapahtuma poistetaan ja siirretään **Nimikkeen kohdistustapahtumahistoria** -ikkunaan.  
-7.  Sulje **Näytä kohdistetut tapahtumat - Kohdistetut tapahtumat** -ikkuna.  
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Kohdistustyökirja** ja valitse sitten aiheeseen liittyvä linkki.  
+2. **Kohdistustyökirja**-ikkuna aukeaa näyttäen kaikkia nimikkeitä koskevat nimiketapahtumat.  
+3. Syötä suodattimet **Yleinen**-pikavälilehdelle, jotta on helpompi löytää nimiketapahtumat, joille haluat muuttaa sovelluksen.  
+4. Valitse ensin nimiketapahtuma ja sitten **Kohdistetut tapahtumat** -toiminto. **Näytä kohdistetut tapahtumat - Kohdistetut tapahtumat** -ikkuna avautuu ja ikkunassa näkyvä valittuun tapahtumaan kohdistetut nimiketapahtumat.  
+5. Valitse nimiketapahtuma, jonka kohdistuksen haluat poistaa.  
+6. Valitse **Poista kohdistus** -toiminto. Nämä kaksi nimiketapahtumaa linkittävä nimikkeen kohdistustapahtuma poistetaan ja siirretään **Nimikkeen kohdistustapahtumahistoria** -ikkunaan.  
+7. Sulje **Näytä kohdistetut tapahtumat - Kohdistetut tapahtumat** -ikkuna.  
 
- Kahden nimiketapahtuman **Jäljellä oleva määrä** -kenttien määrä lisääntyy sillä määrällä, jolta poistettiin kohdistus. Poistettu nimiketapahtuma voidaan nyt kohdistaa uudelleen **Näytä kohdistetut tapahtumat - kohdistamattomat tapahtumat** -ikkunassa.  
+   Kahden nimiketapahtuman **Jäljellä oleva määrä** -kenttien määrä lisääntyy sillä määrällä, jolta poistettiin kohdistus. Poistettu nimiketapahtuma voidaan nyt kohdistaa uudelleen **Näytä kohdistetut tapahtumat - kohdistamattomat tapahtumat** -ikkunassa.  
 
 > [!IMPORTANT]  
 >  Älä jätä kohdistustapahtumia pitkäksi aikaa käyttämättä, koska muut käyttäjät eivät voi käsitellä nimikkeitä ennen kuin käytät kohdistustapahtumia uudelleen tai suljet **Kohdistustyökirja**-ikkunan. Seuraava virhesanoma näytetään, jos yrität suorittaa toimintoja, jotka liittyvät manuaalisesti peruutettuun kohdistustapahtumaan:  

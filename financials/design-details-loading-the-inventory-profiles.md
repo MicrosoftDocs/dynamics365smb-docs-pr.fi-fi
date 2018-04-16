@@ -28,15 +28,15 @@ Voit lajitella useita kysynnän ja tarjonnan lähteitä, kun suunnittelujärjest
 
  Yleisesti suunnittelujärjestelmä katsoo, että kaikki suunnittelupäivämäärän jälkeiset toimitustilaukset saattavat muuttua kysynnän täyttämiseksi. Kuitenkin heti, kun määrä on kirjattu toimitustilauksesta, suunnittelujärjestelmä ei voi enää muuttaa sitä. Näin ollen seuraavia eri tilauksia ei voi suunnitella uudelleen:  
 
--   Julkaistut tuotantotilaukset, joihin kulutus tai tuotanto on tiliöity.  
+- Julkaistut tuotantotilaukset, joihin kulutus tai tuotanto on tiliöity.  
 
--   Kokoonpanotilaukset, joissa kulutus tai tuotos on kirjattu.  
+- Kokoonpanotilaukset, joissa kulutus tai tuotos on kirjattu.  
 
--   Siirrä tilaukset, joiden toimitus on kirjattu.  
+- Siirrä tilaukset, joiden toimitus on kirjattu.  
 
--   Ostotilaukset, joissa vastaanotto on jo kirjattu.  
+- Ostotilaukset, joissa vastaanotto on jo kirjattu.  
 
- Kysyntä ja tarjontatyyppien lataamisesta riippumatta, tietyt tyypit ladataan kiinnittäen huomiota erityisiin sääntöihin ja riippuvuuksiin, jotka on kuvattu seuraavassa.  
+  Kysyntä ja tarjontatyyppien lataamisesta riippumatta, tietyt tyypit ladataan kiinnittäen huomiota erityisiin sääntöihin ja riippuvuuksiin, jotka on kuvattu seuraavassa.  
 
 ## <a name="item-dimensions-are-separated"></a>Nimikkeen dimensiot on erotettu  
  Tarjontasuunnitelma on laskettava nimikkeen dimensioiden, kuten variantin ja sijainnin, yhdistelmää kohti. Minkään teoreettisen yhdistelmän laskeminen ei ole kuitenkaan tarpeellista. Vain ne yhdistelmät tarvitsee laskea, joihin liittyy kysyntä ja/tai tarjonta.  

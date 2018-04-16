@@ -32,15 +32,15 @@ Varianssi on todellisten kustannusten ja vakiokustannuksen välinen ero seuraava
 ## <a name="example"></a>Esimerkki  
  Seuraavassa esimerkissä kuvataan sitä, kuinka varianssi lasketaan laskutetuista nimikkeistä. Se perustuu seuraavaan skenaarioon:  
 
-1.  Käyttäjä ostaa nimikkeen hintaan 90,00 (PVA), mutta vakiokustannus on 100,00 (PVA). Näin ollen ostovaihteluksi tulee 10,00 PVA.  
-2.  10,00 PVA hyvitetään ostovaihtelutilille.  
-3.  Käyttäjä kirjaa nimikekuluksi 20,00 (PVA). Näin ollen todellinen kustannus kasvatetaan arvoon 110,00 PVA ja oston varianssin arvoksi muuttuu 10,00 PVA.  
-4.  20,00 PVA veloitetaan ostovaihtelutililtä. Näin ollen netto-ostovaihteluksi tulee 10,00 PVA.  
-5.  Käyttäjä määrittää nimikkeen hinnaksi 70,00 (PVA) aiemman 100,00 (PVA):n sijaan. Tämä ei vaikuta erojen laskentaan, ainoastaan varaston arvoon.  
+1. Käyttäjä ostaa nimikkeen hintaan 90,00 (PVA), mutta vakiokustannus on 100,00 (PVA). Näin ollen ostovaihteluksi tulee 10,00 PVA.  
+2. 10,00 PVA hyvitetään ostovaihtelutilille.  
+3. Käyttäjä kirjaa nimikekuluksi 20,00 (PVA). Näin ollen todellinen kustannus kasvatetaan arvoon 110,00 PVA ja oston varianssin arvoksi muuttuu 10,00 PVA.  
+4. 20,00 PVA veloitetaan ostovaihtelutililtä. Näin ollen netto-ostovaihteluksi tulee 10,00 PVA.  
+5. Käyttäjä määrittää nimikkeen hinnaksi 70,00 (PVA) aiemman 100,00 (PVA):n sijaan. Tämä ei vaikuta erojen laskentaan, ainoastaan varaston arvoon.  
 
- Seuraavassa taulukossa on tuloksena saatavat arvotapahtumat.  
+   Seuraavassa taulukossa on tuloksena saatavat arvotapahtumat.  
 
- ![Ostojen varianssin laskenta](media/design_details_inventory_costing_11_purchase_variance.png "design_details_inventory_costing_11_purchase_variance")  
+   ![Ostojen varianssin laskenta](media/design_details_inventory_costing_11_purchase_variance.png "design_details_inventory_costing_11_purchase_variance")  
 
 ## <a name="determining-the-standard-cost"></a>Vakiokustannuksen määrittäminen  
  Peruskustannuksia käytetään, kun lasketaan varianssia ja hyödynnettävää määrää. Koska peruskustannus voidaan vaihtaa ajan kuluessa manuaalisista päivityslaskuista johtuen, sinulla tulee olla ajankohta, kun peruskustannus on kiinteä varianssilaskennalle. Tässä kohdassa varastoarvon nousu laskutetaan. Valmistettujen tai koottujen nimikkeiden osalta vakiokustannuksen määrityskohta on kustannuksen muutoshetki.  

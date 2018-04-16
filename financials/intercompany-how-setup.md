@@ -30,7 +30,7 @@ Jos suorittamiisi konsernin myyntitapahtumiin sisältyy resursseja, täytä kunk
 
 ## <a name="to-set-up-companies-for-intercompany-transactions"></a>Konsernitapahtumien yritysten määrittäminen
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Yrityksen tiedot** ja valitse sitten aiheeseen liittyvä linkki.  
-2. Täytä **Yrityksen tiedot** -ikkunassa **Konsernikumppanin koodi**, **Konsernin Saapuneet-kansion tyyppi**- ja **Konsernin Saapuneet-kansion tiedot** -kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Täytä **Yrityksen tiedot** -ikkunassa **Konsernikumppanin koodi**, **Konsernin Saapuneet-kansion tyyppi**- ja **Konsernin Saapuneet-kansion tiedot** -kentät. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-set-intercompany-partners"></a>Konsernikumppanien määrittäminen
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Konsernikumppanit** ja valitse sitten aiheeseen liittyvä linkki.

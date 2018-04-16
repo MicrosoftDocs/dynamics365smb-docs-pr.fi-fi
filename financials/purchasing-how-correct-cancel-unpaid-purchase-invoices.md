@@ -31,7 +31,7 @@ Valitse **Kirjattu ostolasku** -ikkunassa **Korjaa**- tai **Peruuta**-painike. K
 2. Valitse kirjattu ostolasku, jonka haluat korjata.  
 
     > [!NOTE]  
->   Jos **Peruutettu**-valintaruutu on valittuna, et voi korjata kirjattua ostolaskua, koska se on jo korjattu tai peruutettu.
+   >   Jos **Peruutettu**-valintaruutu on valittuna, et voi korjata kirjattua ostolaskua, koska se on jo korjattu tai peruutettu.
 3. Valitse **Kirjattu ostolasku** -ikkunassa **Korjaa**.
 
     Luodaan samoilla tiedoilla uusi ostolasku, johon voit tehdä korjauksen. Lisätietoja on kohdassa [Ostojen kirjaaminen](purchasing-how-record-purchases.md). Alkuperäisen kirjatun ostolaskun **Peruutettu**-kentän arvoksi muutetaan **Kyllä**.
@@ -44,7 +44,7 @@ Valitse **Kirjattu ostolasku** -ikkunassa **Korjaa**- tai **Peruuta**-painike. K
 2. Valitse kirjattu ostolasku, jonka haluat peruuttaa.
 
     > [!NOTE]  
->   Jos **Peruutettu**-valintaruutu on valittuna, et voi peruuttaa kirjattua ostolaskua, koska se on jo peruutettu tai korjattu.
+   >   Jos **Peruutettu**-valintaruutu on valittuna, et voi peruuttaa kirjattua ostolaskua, koska se on jo peruutettu tai korjattu.
 3. Valitse **Kirjattu ostolasku** -ikkunassa **Peruuta**.
 
     Ostohyvityslasku luodaan automaattisesti ja kirjataan mitätöimään alun perin kirjattu ostolasku. Alkuperäisen kirjatun ostolaskun **Peruutettu**-kentän arvoksi muutetaan **Kyllä**.

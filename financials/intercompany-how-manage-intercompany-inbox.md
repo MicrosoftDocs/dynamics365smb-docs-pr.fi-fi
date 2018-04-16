@@ -69,7 +69,7 @@ Konsernikumppanien sinulle lähettämät konsernin tapahtumat tulevat konsernin 
 
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Konsernin Saapuneet-kansion tapahtumat** ja valitse sitten aiheeseen liittyvä linkki.  
 2. Käsittele rivi valitsemalla **Konsernin Saapuneet-kansion tapahtumat** -ikkunassa ensin rivi ja sitten toiminto, kuten **Hyväksy**.
-3. Täytä **Tot. kons. Saap.-kansion toim.** -ikkunassa tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Täytä **Tot. kons. Saap.-kansion toim.** -ikkunassa tarvittavat kentät. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Valitse **OK**-painike.  
 
 **Hyväksy**-toiminnolla käsitellyille riveille luodaan yritykseen asiakirja- tai päiväkirjarivit. Avaa kukin asiakirja tai päiväkirja, tee tarvittavat muutokset ja kirjaa ne.  
