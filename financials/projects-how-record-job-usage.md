@@ -13,10 +13,10 @@ ms.search.keywords: project management, consumption
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: b0bd4f9a4c0963520631e1571fd182adce85fdd9
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 15bddf7d0e1ed651bc4b2be6fafd24db360f952c
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="record-usage-for-jobs"></a><span data-ttu-id="d4607-103">Projektien käytön kirjaaminen</span><span class="sxs-lookup"><span data-stu-id="d4607-103">Record Usage for Jobs</span></span>
@@ -34,7 +34,7 @@ ms.lasthandoff: 03/22/2018
 
     <span data-ttu-id="d4607-118">**Jäljellä oleva määrä** -kentässä näkyy määrä, joka on jäljellä projektin valmiiksi suorittamista ja päiväkirjaan siirtämistä varten.</span><span class="sxs-lookup"><span data-stu-id="d4607-118">The **Remaining Quantity** field shows the quantity that remains to complete the job and be transferred to the journal.</span></span>  
 5. <span data-ttu-id="d4607-119">Valitse **Luo projektipäiväkirjan rivit** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="d4607-119">Choose the **Create Job Journal Lines** action.</span></span>
-6. <span data-ttu-id="d4607-120">Täytä **Projektin siirron projektisuunnittelurivi** -ikkunassa kenttiä tarpeen mukaan ja valitse sitten **OK**-painike.</span><span class="sxs-lookup"><span data-stu-id="d4607-120">In the **Job Transfer Job Planning Line** window, fill in the fields as necessary, and then choose the **OK** button.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+6. <span data-ttu-id="d4607-120">Täytä **Projektin siirron projektisuunnittelurivi** -ikkunassa kenttiä tarpeen mukaan ja valitse sitten **OK**-painike.</span><span class="sxs-lookup"><span data-stu-id="d4607-120">In the **Job Transfer Job Planning Line** window, fill in the fields as necessary, and then choose the **OK** button.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 7. <span data-ttu-id="d4607-121">Valitse **Avaa projektipäiväkirja** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="d4607-121">Choose the **Open Job Journal** action.</span></span>  
 8. <span data-ttu-id="d4607-122">Valitse **Projektipäiväkirja**-ikkunassa asianmukainen rivi ja valitse sitten **Kirjaa**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="d4607-122">In the **Job Journal** window, select the relevant line and then choose the **Post** action.</span></span>
 9. <span data-ttu-id="d4607-123">Tarkista **Projektin suunnittelurivit** -ikkunassa kirjattu käyttö **Määrä**-, **Jäljellä oleva määrä**- ja **Päiväkirjaan siirrettävä määrä** -kentän avulla.</span><span class="sxs-lookup"><span data-stu-id="d4607-123">In the **Job Planning Lines** window, review the recorded usage by observing the **Quantity**, **Remaining Quantity**, and **Qty. To Transfer to Journal** fields.</span></span>  

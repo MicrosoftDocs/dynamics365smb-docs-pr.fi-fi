@@ -13,10 +13,10 @@ ms.search.keywords: adjustment, negative, positive, increase, decrease
 ms.date: 11/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: f2ab1e60eb826b93a1b8b7ae354bcadfa0fafd62
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 6b196839db87a40308bab69da255092222df8a4b
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="count-adjust-and-reclassify-inventory"></a><span data-ttu-id="04158-103">Varaston laskeminen, muuttaminen ja uudelleenluokitus</span><span class="sxs-lookup"><span data-stu-id="04158-103">Count, Adjust, and Reclassify Inventory</span></span>
@@ -99,7 +99,7 @@ ms.lasthandoff: 03/22/2018
     <span data-ttu-id="04158-173">Liittyvät kentät päivitetään tämän mukaisesti.</span><span class="sxs-lookup"><span data-stu-id="04158-173">The related fields are updated accordingly.</span></span>
 
     > [!NOTE]  
->   <span data-ttu-id="04158-174">Jos inventointi paljastaa eroja, jotka johtuvat siitä, että nimikkeitä on kirjattu virheellisten sijaintikoodien kanssa, älä syötä eroja inventointipäiväkirjaan.</span><span class="sxs-lookup"><span data-stu-id="04158-174">If the physical count reveals differences that are caused by items posted with incorrect location codes, do not enter the differences in the physical inventory journal.</span></span> <span data-ttu-id="04158-175">Käytä sen sijaan uudelleenluokituspäiväkirjaa tai siirtotilausta nimikkeiden ohjaamiseen oikeisiin sijainteihin.</span><span class="sxs-lookup"><span data-stu-id="04158-175">Instead, use the reclassification journal or a transfer order to redirect the items to the correct locations.</span></span> <span data-ttu-id="04158-176">Lisätietoja on kohdassa Nimikkeen uudel.luokit. pvk tai Siirtotilausten luominen.</span><span class="sxs-lookup"><span data-stu-id="04158-176">For more information, see Item Reclass. Journal or Create Transfer Orders.</span></span>
+   >   <span data-ttu-id="04158-174">Jos inventointi paljastaa eroja, jotka johtuvat siitä, että nimikkeitä on kirjattu virheellisten sijaintikoodien kanssa, älä syötä eroja inventointipäiväkirjaan.</span><span class="sxs-lookup"><span data-stu-id="04158-174">If the physical count reveals differences that are caused by items posted with incorrect location codes, do not enter the differences in the physical inventory journal.</span></span> <span data-ttu-id="04158-175">Käytä sen sijaan uudelleenluokituspäiväkirjaa tai siirtotilausta nimikkeiden ohjaamiseen oikeisiin sijainteihin.</span><span class="sxs-lookup"><span data-stu-id="04158-175">Instead, use the reclassification journal or a transfer order to redirect the items to the correct locations.</span></span> <span data-ttu-id="04158-176">Lisätietoja on kohdassa Nimikkeen uudel.luokit. pvk tai Siirtotilausten luominen.</span><span class="sxs-lookup"><span data-stu-id="04158-176">For more information, see Item Reclass. Journal or Create Transfer Orders.</span></span>
 
 2. <span data-ttu-id="04158-177">Voit muokata lasketut määrät todellisten laskettujen määrien mukaiseksi valitsemalla **Kirjaus**-toiminnon.</span><span class="sxs-lookup"><span data-stu-id="04158-177">To adjust the calculated quantities to the actual counted quantities, choose the **Post** action.</span></span>
 
@@ -134,7 +134,7 @@ ms.lasthandoff: 03/22/2018
 <span data-ttu-id="04158-200">Määritä käytettävät inventointijaksot ja määritä yksi niistä kullekin nimikkeelle.</span><span class="sxs-lookup"><span data-stu-id="04158-200">You set up the inventory counting periods that you want to use and then assign one to each item.</span></span> <span data-ttu-id="04158-201">Kun suoritat inventoinnin ja käytät inventointipäiväkirjassa **Laske laskentajakso** -vaihtoehtoa, nimikkeiden rivit luodaan automaattisesti.</span><span class="sxs-lookup"><span data-stu-id="04158-201">When you perform a physical inventory and use the **Calculate Counting Period** in the physical inventory journal, lines for the items are created automatically.</span></span>
 
 1. <span data-ttu-id="04158-202">Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Varastotilanteen laskentajaksot** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="04158-202">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Phys. Invt. Counting Periods**, and then choose the related link.</span></span>  
-2. <span data-ttu-id="04158-203">Täytä tarvittavat kentät.</span><span class="sxs-lookup"><span data-stu-id="04158-203">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. <span data-ttu-id="04158-203">Täytä tarvittavat kentät.</span><span class="sxs-lookup"><span data-stu-id="04158-203">Fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="to-assign-a-counting-period-to-an-item"></a><span data-ttu-id="04158-204">Laskentajakson määritteleminen nimikkeelle</span><span class="sxs-lookup"><span data-stu-id="04158-204">To assign a counting period to an item</span></span>  
 1. <span data-ttu-id="04158-205">Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Nimikkeet** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="04158-205">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.</span></span>  
@@ -180,7 +180,7 @@ ms.lasthandoff: 03/22/2018
 <span data-ttu-id="04158-240">Jos nimikepäiväkirjaan kirjataan usein samoja tai saman tyyppisiä päiväkirjan rivejä, jotka liittyvät esimerkiksi materiaalinkulutukseen, voit helpottaa toistuvien toimien suorittamista käyttämällä **Vakionimikepäiväkirja**-ikkunaa.</span><span class="sxs-lookup"><span data-stu-id="04158-240">If you often use the item journal to post the same or similar journal lines, for example, in connection with material consumption, you can use the **Standard Item Journal** window to make this recurring work easier.</span></span> <span data-ttu-id="04158-241">Lisätietoja on ohjeaiheen [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md) kohdassa Vakiopäiväkirjat.</span><span class="sxs-lookup"><span data-stu-id="04158-241">For more information, see the "Standard Journals" section in [Working with General Journals](ui-work-general-journals.md).</span></span>
 
 1. <span data-ttu-id="04158-242">Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Nimikepäiväkirjat** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="04158-242">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Journals**, and then choose the related link.</span></span>
-2. <span data-ttu-id="04158-243">Täytä tarvittavat kentät.</span><span class="sxs-lookup"><span data-stu-id="04158-243">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. <span data-ttu-id="04158-243">Täytä tarvittavat kentät.</span><span class="sxs-lookup"><span data-stu-id="04158-243">Fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. <span data-ttu-id="04158-244">Tee muutokset varastoon valitsemalla **Kirjaa**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="04158-244">Choose the **Post** action to make the inventory adjustments.</span></span>
 
 > [!NOTE]  

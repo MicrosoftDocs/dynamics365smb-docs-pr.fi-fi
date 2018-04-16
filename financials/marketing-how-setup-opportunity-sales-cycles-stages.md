@@ -11,10 +11,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: ecff2e9e0705055a514f1726b3223f8196300cb6
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 337c76b92b579f4f7a69f5fe895cc589df7e94cc
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="set-up-opportunity-sales-cycles-and-cycle-stages"></a><span data-ttu-id="fd1f2-103">Mahdollisuuden myyntisyklien ja syklin vaiheiden määrittäminen</span><span class="sxs-lookup"><span data-stu-id="fd1f2-103">Set Up Opportunity Sales Cycles and Cycle Stages</span></span>
@@ -26,7 +26,7 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="to-set-up-opportunity-sales-cycle-codes"></a><span data-ttu-id="fd1f2-113">Mahdollisuuden myyntisyklin koodien määrittäminen</span><span class="sxs-lookup"><span data-stu-id="fd1f2-113">To set up opportunity sales cycle codes</span></span>
 1. <span data-ttu-id="fd1f2-114">Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Myyntisyklit** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="fd1f2-114">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Cycles**, and then choose the related link.</span></span> <span data-ttu-id="fd1f2-115">Kaikki olemassa olevat myyntisyklit sisältävä **Myyntisyklit**-ikkuna avautuu.</span><span class="sxs-lookup"><span data-stu-id="fd1f2-115">The **Sales Cycles** window opens, and lists all the existing sales cycles.</span></span>
-2. <span data-ttu-id="fd1f2-116">Valitse **Uusi**-toiminto ja täytä tarvittavat kentät.</span><span class="sxs-lookup"><span data-stu-id="fd1f2-116">Choose the **New** action, and fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. <span data-ttu-id="fd1f2-116">Valitse **Uusi**-toiminto ja täytä tarvittavat kentät.</span><span class="sxs-lookup"><span data-stu-id="fd1f2-116">Choose the **New** action, and fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 <span data-ttu-id="fd1f2-117">Toista nämä vaiheet ja luo niin monta myyntijaksoa kuin haluat.</span><span class="sxs-lookup"><span data-stu-id="fd1f2-117">Repeat these steps to set up as many sales cycles as you want.</span></span> <span data-ttu-id="fd1f2-118">Kun olet määrittänyt mahdollisuuden myyntikoodit, haluat ehkä määrittää kunkin syklin eri vaiheet.</span><span class="sxs-lookup"><span data-stu-id="fd1f2-118">After you have set up opportunity sales cycles, you may want to set up the different stages within each cycle.</span></span>
 

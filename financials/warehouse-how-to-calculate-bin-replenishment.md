@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: e667ca56aa22fafc7fe6d0a4880c419a4272db26
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: ea0fd5ad5d2289a20a3648acba9e073a984dab12
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="calculate-bin-replenishment"></a><span data-ttu-id="687c8-103">Laske var.paikan täydennys</span><span class="sxs-lookup"><span data-stu-id="687c8-103">Calculate Bin Replenishment</span></span>
@@ -38,14 +38,14 @@ ms.lasthandoff: 03/22/2018
 
 <span data-ttu-id="687c8-122">Seuraavan kerran kun lasket varastopaikan täydennystä, ohjelma luo uudelleen poistamasi ehdotukset, jos ne ovat silloin vielä voimassa.</span><span class="sxs-lookup"><span data-stu-id="687c8-122">The next time you calculate bin replenishment, the suggestions that you have deleted will be recreated, if they are still valid at that time.</span></span>  
 
-> [!NOTE]  
+> [!NOTE]
 >  <span data-ttu-id="687c8-123">Oletetaan, että nimike täyttää seuraavat ehdot:</span><span class="sxs-lookup"><span data-stu-id="687c8-123">If the following conditions are met for an item:</span></span>  
->   
->  -   <span data-ttu-id="687c8-124">Nimikkeellä on vanhentumispäivämäärä.</span><span class="sxs-lookup"><span data-stu-id="687c8-124">The item has an expiration date, and</span></span>  
-> -   <span data-ttu-id="687c8-125">Sijaintikortin **FEFO-poiminta**-kentässä valitaan.</span><span class="sxs-lookup"><span data-stu-id="687c8-125">The **Pick According to FEFO** field on the location card is selected, and</span></span>  
-> -   <span data-ttu-id="687c8-126">Käytät **Laske var.paikan täydennys**-toimintoa.</span><span class="sxs-lookup"><span data-stu-id="687c8-126">You use the **Calculate Bin Replenishment** functionality</span></span>  
->   
->  <span data-ttu-id="687c8-127">Tällöin **Alue koodista**- ja  **Var.paikasta**-kentät jätetään tyhjiksi, sillä nimikkeiden siirron lähtökohdan laskeva algoritmi käynnistyy vain, kun käytät **Luo siirto** -toimintoa.</span><span class="sxs-lookup"><span data-stu-id="687c8-127">then the **From Zone** and **From Bin** fields will be blank because the algorithm to calculate from where to move the items is triggered only when you activate the **Create Movement** function.</span></span>  
+> 
+> - <span data-ttu-id="687c8-124">Nimikkeellä on vanhentumispäivämäärä.</span><span class="sxs-lookup"><span data-stu-id="687c8-124">The item has an expiration date, and</span></span>  
+>   -   <span data-ttu-id="687c8-125">Sijaintikortin **FEFO-poiminta**-kentässä valitaan.</span><span class="sxs-lookup"><span data-stu-id="687c8-125">The **Pick According to FEFO** field on the location card is selected, and</span></span>  
+>   -   <span data-ttu-id="687c8-126">Käytät **Laske var.paikan täydennys**-toimintoa.</span><span class="sxs-lookup"><span data-stu-id="687c8-126">You use the **Calculate Bin Replenishment** functionality</span></span>  
+> 
+>   <span data-ttu-id="687c8-127">Tällöin **Alue koodista**- ja  **Var.paikasta**-kentät jätetään tyhjiksi, sillä nimikkeiden siirron lähtökohdan laskeva algoritmi käynnistyy vain, kun käytät **Luo siirto** -toimintoa.</span><span class="sxs-lookup"><span data-stu-id="687c8-127">then the **From Zone** and **From Bin** fields will be blank because the algorithm to calculate from where to move the items is triggered only when you activate the **Create Movement** function.</span></span>  
 
 ## <a name="see-also"></a><span data-ttu-id="687c8-128">Katso myös</span><span class="sxs-lookup"><span data-stu-id="687c8-128">See Also</span></span>  
 [<span data-ttu-id="687c8-129">Varastoinninhallinta</span><span class="sxs-lookup"><span data-stu-id="687c8-129">Warehouse Management</span></span>](warehouse-manage-warehouse.md)  

@@ -151,7 +151,7 @@
 
 # [Rahoitus](finance.md)
 ## [Myyntisaamisten hallinta](receivables-manage-receivables.md)
-###[Maksujen kohdistaminen automaattisesti ja pankkitilien täsmäyttäminen](receivables-apply-payments-auto-reconcile-bank-accounts.md)
+### [Maksujen kohdistaminen automaattisesti ja pankkitilien täsmäyttäminen](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ### [Asiakkaan maksujen täsmäyttäminen manuaalisesti maksamattomien myyntiasiakirjojen luettelosta](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
 ### [Asiakkaan maksut manuaalinen käsittely](receivables-how-apply-sales-transactions-manually.md)  
 ### [Avointen saldojen perintä](receivables-collect-outstanding-balances.md)

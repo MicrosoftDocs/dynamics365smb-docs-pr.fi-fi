@@ -13,20 +13,20 @@ ms.search.keywords:
 ms.date: 09/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: f8cd19f97c530397dd6b499157e13340331aa3ba
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: fab392260f07405156c8c9874f141b05d24e681b
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="create-bins"></a><span data-ttu-id="26155-103">Varastopaikkojen luominen</span><span class="sxs-lookup"><span data-stu-id="26155-103">Create Bins</span></span>
 <span data-ttu-id="26155-104">Tehokkain tapa luoda fyysisen varaston varastopaikkoja on luoda samankaltaisten varastopaikkojen ryhmiä varastopaikan luontityökirjassa, mutta varastopaikkoja voi luoda myös yksittäin sijainnin kortista.</span><span class="sxs-lookup"><span data-stu-id="26155-104">The most effective way to create the bins of your warehouse is to generate groups of similar bins in the bin creation worksheet, but you can also create your bins individually from the location card.</span></span> <span data-ttu-id="26155-105">Voit luoda varastopaikkoja myös automaattisesti **Var.paikan luontityökirja** -ikkunassa.</span><span class="sxs-lookup"><span data-stu-id="26155-105">You can also use a function in the **Bin Creation Worksheet** window to create bins automatically.</span></span>  
 
 ## <a name="to-create-a-bin-from-the-location-card"></a><span data-ttu-id="26155-106">Varastopaikan luonti sijaintikortista</span><span class="sxs-lookup"><span data-stu-id="26155-106">To create a bin from the location card</span></span>  
-1.  <span data-ttu-id="26155-107">Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Sijainnit** ja valitse aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="26155-107">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and choose the related link.</span></span>  
-2.  <span data-ttu-id="26155-108">Valitse ensin sijainti, josta haluat luoda varastopaikan, ja sitten **Varastopaikat**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="26155-108">Select the location that you want to create a bin from, and then choose the **Bins** action.</span></span>  
+1. <span data-ttu-id="26155-107">Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Sijainnit** ja valitse aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="26155-107">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and choose the related link.</span></span>  
+2. <span data-ttu-id="26155-108">Valitse ensin sijainti, josta haluat luoda varastopaikan, ja sitten **Varastopaikat**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="26155-108">Select the location that you want to create a bin from, and then choose the **Bins** action.</span></span>  
 3. <span data-ttu-id="26155-109">Valitse **Uusi**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="26155-109">Choose the **New** action.</span></span>
-4. <span data-ttu-id="26155-110">Täytä tarvittavat kentät.</span><span class="sxs-lookup"><span data-stu-id="26155-110">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+4. <span data-ttu-id="26155-110">Täytä tarvittavat kentät.</span><span class="sxs-lookup"><span data-stu-id="26155-110">Fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-create-bins-individually-in-the-bin-creation-worksheet"></a><span data-ttu-id="26155-111">Varastopaikkojen luominen yksittäin varastopaikan luontityökirjassa</span><span class="sxs-lookup"><span data-stu-id="26155-111">To create bins individually in the bin creation worksheet</span></span>  
 1.  <span data-ttu-id="26155-112">Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Var.paikan luontityökirja** ja valitse aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="26155-112">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bin Creation Worksheet**, and choose the related link.</span></span>  

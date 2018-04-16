@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 5dc35d82dee8d3a9b93c04de497e7363b7bafb90
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 6f6ec5d60325ecfdad3c7fb29cf2208b0d1aa557
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="about-calculating-standard-cost"></a><span data-ttu-id="6dd13-104">Tietoja standardikustannuksen laskemisesta</span><span class="sxs-lookup"><span data-stu-id="6dd13-104">About Calculating Standard Cost</span></span>
@@ -80,8 +80,8 @@ ms.lasthandoff: 03/22/2018
 
 <span data-ttu-id="6dd13-167">Jokaiselle koneelle/tuotantosolulle määritetään kunkin aikatyypin kustannukset yksittäistä reititystä kohti.</span><span class="sxs-lookup"><span data-stu-id="6dd13-167">You set up the rates for each time type for each machine or work center on an individual routing.</span></span>  
 
-> [!NOTE]  
-    >  <span data-ttu-id="6dd13-168">On tärkeää huomata, että ajoajan kustannukset kohdistetaan jokaiseen tuotettavaan nimikeyksikköön ja asetuskustannukset kohdistetaan jokaiseen erään.</span><span class="sxs-lookup"><span data-stu-id="6dd13-168">While run time rates apply for each item unit that is produced, the setup time rates apply for each lot.</span></span> <span data-ttu-id="6dd13-169">Sen vuoksi kunkin toiminnon reitityksen asetusajan kustannukset on jaettava eräkoon mukaan.</span><span class="sxs-lookup"><span data-stu-id="6dd13-169">Therefore, you must prorate the routing setup time for each operation over the lot size.</span></span> <span data-ttu-id="6dd13-170">Eräkoko määritetään nimikekortin **Tilaaminen**-pikavälilehden kentässä.</span><span class="sxs-lookup"><span data-stu-id="6dd13-170">You specify the lot size in the corresponding field on the **Ordering** FastTab of the item card.</span></span>  
+> [!NOTE]
+>  <span data-ttu-id="6dd13-168">On tärkeää huomata, että ajoajan kustannukset kohdistetaan jokaiseen tuotettavaan nimikeyksikköön ja asetuskustannukset kohdistetaan jokaiseen erään.</span><span class="sxs-lookup"><span data-stu-id="6dd13-168">While run time rates apply for each item unit that is produced, the setup time rates apply for each lot.</span></span> <span data-ttu-id="6dd13-169">Sen vuoksi kunkin toiminnon reitityksen asetusajan kustannukset on jaettava eräkoon mukaan.</span><span class="sxs-lookup"><span data-stu-id="6dd13-169">Therefore, you must prorate the routing setup time for each operation over the lot size.</span></span> <span data-ttu-id="6dd13-170">Eräkoko määritetään nimikekortin **Tilaaminen**-pikavälilehden kentässä.</span><span class="sxs-lookup"><span data-stu-id="6dd13-170">You specify the lot size in the corresponding field on the **Ordering** FastTab of the item card.</span></span>  
 
 <span data-ttu-id="6dd13-171">Jos haluat määrittää määritysajan reitityksen suunnittelulle mutta et sisällyttää tätä kulua vakiokustannusten laskentaan, tyhjennä **Tuotannon asetukset** -ikkunan **Kust. sisältävät asetuksen** -kentän valinta.</span><span class="sxs-lookup"><span data-stu-id="6dd13-171">To specify setup time on the routing for planning but not include this expense in the standard cost calculation, clear the **Cost Incl. Setup** field in the **Manufacturing Setup** window.</span></span>  
 

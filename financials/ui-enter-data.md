@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/19/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: 5f95efb5cad24db9848752035172bc7bb76db716
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: ae8ef874abd6ca3b307dcbfdb3f4700b49e6680e
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="entering-data"></a><span data-ttu-id="ea0c9-104">Tietojen antaminen</span><span class="sxs-lookup"><span data-stu-id="ea0c9-104">Entering Data</span></span>
@@ -75,14 +75,14 @@ ms.lasthandoff: 03/22/2018
 # <a name="entering-negative-numbers"></a><span data-ttu-id="ea0c9-130">Negatiivisten lukujen syöttäminen</span><span class="sxs-lookup"><span data-stu-id="ea0c9-130">Entering Negative Numbers</span></span>
 <span data-ttu-id="ea0c9-131">Voit antaa negatiivisia lukuja kahdella tavalla.</span><span class="sxs-lookup"><span data-stu-id="ea0c9-131">You can enter negative numbers in two ways.</span></span> <span data-ttu-id="ea0c9-132">Numero -20.5 voidaan syöttää seuraavasti:</span><span class="sxs-lookup"><span data-stu-id="ea0c9-132">The number -20.5 can be entered as:</span></span>  
 
--   <span data-ttu-id="ea0c9-133">-20.5</span><span class="sxs-lookup"><span data-stu-id="ea0c9-133">-20.5</span></span>  
+- <span data-ttu-id="ea0c9-133">-20.5</span><span class="sxs-lookup"><span data-stu-id="ea0c9-133">-20.5</span></span>  
 
-    <span data-ttu-id="ea0c9-134">tai</span><span class="sxs-lookup"><span data-stu-id="ea0c9-134">or</span></span>
--   <span data-ttu-id="ea0c9-135">20.5-</span><span class="sxs-lookup"><span data-stu-id="ea0c9-135">20.5-</span></span>  
+  <span data-ttu-id="ea0c9-134">tai</span><span class="sxs-lookup"><span data-stu-id="ea0c9-134">or</span></span>
+- <span data-ttu-id="ea0c9-135">20.5-</span><span class="sxs-lookup"><span data-stu-id="ea0c9-135">20.5-</span></span>  
 
- <span data-ttu-id="ea0c9-136">Kummassakin tapauksessa summa kirjataan arvona -20,5.</span><span class="sxs-lookup"><span data-stu-id="ea0c9-136">In both cases, the amount will be recorded in as -20.5.</span></span>  
+  <span data-ttu-id="ea0c9-136">Kummassakin tapauksessa summa kirjataan arvona -20,5.</span><span class="sxs-lookup"><span data-stu-id="ea0c9-136">In both cases, the amount will be recorded in as -20.5.</span></span>  
 
- <span data-ttu-id="ea0c9-137">Jos lausekkeen viimeinen merkki on **+** tai **-**, koko lauseke kirjataan kyseisen merkin kanssa.</span><span class="sxs-lookup"><span data-stu-id="ea0c9-137">If the last character of the expression is a **+** or a **-**, the entire expression will be recorded with that sign.</span></span> <span data-ttu-id="ea0c9-138">Esimerkiksi **10-20+** johtaa tulokseen 10, ei tulokseen -10.</span><span class="sxs-lookup"><span data-stu-id="ea0c9-138">An example, **10-20+** will result in 10 and not -10.</span></span>  
+  <span data-ttu-id="ea0c9-137">Jos lausekkeen viimeinen merkki on **+** tai **-**, koko lauseke kirjataan kyseisen merkin kanssa.</span><span class="sxs-lookup"><span data-stu-id="ea0c9-137">If the last character of the expression is a **+** or a **-**, the entire expression will be recorded with that sign.</span></span> <span data-ttu-id="ea0c9-138">Esimerkiksi **10-20+** johtaa tulokseen 10, ei tulokseen -10.</span><span class="sxs-lookup"><span data-stu-id="ea0c9-138">An example, **10-20+** will result in 10 and not -10.</span></span>  
 
 ## <a name="entering-dates-and-times"></a><span data-ttu-id="ea0c9-139">Päivämäärien ja aikojen syöttäminen</span><span class="sxs-lookup"><span data-stu-id="ea0c9-139">Entering Dates and Times</span></span>
 <span data-ttu-id="ea0c9-140">Päivämääriä ja aikoja voi määrittää kaikissa päivämääräkentissä.</span><span class="sxs-lookup"><span data-stu-id="ea0c9-140">You can enter dates and times in all the fields that are specifically assigned to dates (date fields).</span></span> <span data-ttu-id="ea0c9-141">Voit syöttää päivämäärät käyttäen erottimia tai ilman niitä.</span><span class="sxs-lookup"><span data-stu-id="ea0c9-141">You can enter dates with or without separators.</span></span>
@@ -93,15 +93,15 @@ ms.lasthandoff: 03/22/2018
 ### <a name="entering-dates"></a><span data-ttu-id="ea0c9-144">Päivämäärien syöttäminen</span><span class="sxs-lookup"><span data-stu-id="ea0c9-144">Entering Dates</span></span>  
  <span data-ttu-id="ea0c9-145">Päivämäärä-kenttään voi syöttää kaksi, neljä, kuusi tai kahdeksan numeroa:</span><span class="sxs-lookup"><span data-stu-id="ea0c9-145">In a date field you can enter two, four, six, or eight digits:</span></span>  
 
--   <span data-ttu-id="ea0c9-146">Jos syötät vain kaksi numeroa, ohjelma tulkitsee ne kuukaudeksi ja vuodeksi ja lisää käsittelypäivämäärän vuoden.</span><span class="sxs-lookup"><span data-stu-id="ea0c9-146">If you enter only two digits, this is interpreted as the day, and it will add the month and the year of the work date.</span></span>  
+- <span data-ttu-id="ea0c9-146">Jos syötät vain kaksi numeroa, ohjelma tulkitsee ne kuukaudeksi ja vuodeksi ja lisää käsittelypäivämäärän vuoden.</span><span class="sxs-lookup"><span data-stu-id="ea0c9-146">If you enter only two digits, this is interpreted as the day, and it will add the month and the year of the work date.</span></span>  
 
--   <span data-ttu-id="ea0c9-147">Jos syötät neljä numeroa, ohjelma tulkitsee ne päiväksi ja kuukaudeksi ja lisää käsittelypäivämäärän vuoden.</span><span class="sxs-lookup"><span data-stu-id="ea0c9-147">If you enter four digits, this is interpreted as the day and the month, and it will add the year of the work date.</span></span>  
+- <span data-ttu-id="ea0c9-147">Jos syötät neljä numeroa, ohjelma tulkitsee ne päiväksi ja kuukaudeksi ja lisää käsittelypäivämäärän vuoden.</span><span class="sxs-lookup"><span data-stu-id="ea0c9-147">If you enter four digits, this is interpreted as the day and the month, and it will add the year of the work date.</span></span>  
 
--   <span data-ttu-id="ea0c9-148">Jos päivämäärä, jonka haluat syöttää, on välillä 1.1.1930 ja 31.12.2029, voit syöttää vuoden kaksinumeroisena. Muutoin vuosi täytyy syöttää nelinumeroisena.</span><span class="sxs-lookup"><span data-stu-id="ea0c9-148">If the date you want to enter is in the range 01/01/1930 through 12/31/2029, you can enter the year with two digits; otherwise, enter the year with four digits.</span></span>  
+- <span data-ttu-id="ea0c9-148">Jos päivämäärä, jonka haluat syöttää, on välillä 1.1.1930 ja 31.12.2029, voit syöttää vuoden kaksinumeroisena. Muutoin vuosi täytyy syöttää nelinumeroisena.</span><span class="sxs-lookup"><span data-stu-id="ea0c9-148">If the date you want to enter is in the range 01/01/1930 through 12/31/2029, you can enter the year with two digits; otherwise, enter the year with four digits.</span></span>  
 
- <span data-ttu-id="ea0c9-149">Voit myös syöttää päivämäärän viikonpäivänä, jota seuraa viikon numero tai vaihtoehtoisesti vuosi (esimerkiksi Ma25 tai ma25 tarkoittaa maanantaita viikolla 25).</span><span class="sxs-lookup"><span data-stu-id="ea0c9-149">You can also enter a date as a weekday followed by a week number and, optionally, a year (for example, Mon25 or mon25 means Monday in week 25).</span></span>  
+  <span data-ttu-id="ea0c9-149">Voit myös syöttää päivämäärän viikonpäivänä, jota seuraa viikon numero tai vaihtoehtoisesti vuosi (esimerkiksi Ma25 tai ma25 tarkoittaa maanantaita viikolla 25).</span><span class="sxs-lookup"><span data-stu-id="ea0c9-149">You can also enter a date as a weekday followed by a week number and, optionally, a year (for example, Mon25 or mon25 means Monday in week 25).</span></span>  
 
- <span data-ttu-id="ea0c9-150">Tietyn päivämäärän syöttämisen sijaan voit syöttää jommankumman seuraavista koodeista.</span><span class="sxs-lookup"><span data-stu-id="ea0c9-150">Instead of entering a specific date, you can enter one of two codes.</span></span>  
+  <span data-ttu-id="ea0c9-150">Tietyn päivämäärän syöttämisen sijaan voit syöttää jommankumman seuraavista koodeista.</span><span class="sxs-lookup"><span data-stu-id="ea0c9-150">Instead of entering a specific date, you can enter one of two codes.</span></span>  
 
 |<span data-ttu-id="ea0c9-151">koodi</span><span class="sxs-lookup"><span data-stu-id="ea0c9-151">Code</span></span>|<span data-ttu-id="ea0c9-152">Tulos</span><span class="sxs-lookup"><span data-stu-id="ea0c9-152">Result</span></span>|  
 |--------------|----------------|  
@@ -202,13 +202,13 @@ ms.lasthandoff: 03/22/2018
 
  <span data-ttu-id="ea0c9-252">Seuraavassa on joitakin esimerkkejä päivämäärän kaavojen käytöstä:</span><span class="sxs-lookup"><span data-stu-id="ea0c9-252">Here are some examples of how date formulas can be used:</span></span>  
 
--   <span data-ttu-id="ea0c9-253">Toistuvien päiväkirjojen toistotiheys-kentän päivämäärän kaava määrittää, kuinka usein päiväkirjan rivin tapahtuma kirjataan.</span><span class="sxs-lookup"><span data-stu-id="ea0c9-253">The date formula in the recurring frequency field in recurring journals determines how often the entry on the journal line will be posted.</span></span>  
+- <span data-ttu-id="ea0c9-253">Toistuvien päiväkirjojen toistotiheys-kentän päivämäärän kaava määrittää, kuinka usein päiväkirjan rivin tapahtuma kirjataan.</span><span class="sxs-lookup"><span data-stu-id="ea0c9-253">The date formula in the recurring frequency field in recurring journals determines how often the entry on the journal line will be posted.</span></span>  
 
--   <span data-ttu-id="ea0c9-254">Ylityskausi-kentän tietyn tason muistutusta koskeva päivämäärän kaava määrittelee ajanjakson, joka täytyy kulua eräpäivästä (tai edellisen muistutuksen päivämäärästä), ennen kuin muistutus voidaan luoda.</span><span class="sxs-lookup"><span data-stu-id="ea0c9-254">The date formula in the Grace Period field for a specified reminder level determines the period of time that must pass from the due date (or from the date of the previous reminder) before a reminder will be created.</span></span>  
+- <span data-ttu-id="ea0c9-254">Ylityskausi-kentän tietyn tason muistutusta koskeva päivämäärän kaava määrittelee ajanjakson, joka täytyy kulua eräpäivästä (tai edellisen muistutuksen päivämäärästä), ennen kuin muistutus voidaan luoda.</span><span class="sxs-lookup"><span data-stu-id="ea0c9-254">The date formula in the Grace Period field for a specified reminder level determines the period of time that must pass from the due date (or from the date of the previous reminder) before a reminder will be created.</span></span>  
 
--   <span data-ttu-id="ea0c9-255">Eräpäivän laskenta -kentän kaava määrittää, miten ohjelma laskee muistutuksen eräpäivän.</span><span class="sxs-lookup"><span data-stu-id="ea0c9-255">The date formula in the Due Date Calculation field determines how to calculate the due date on the reminder.</span></span>  
+- <span data-ttu-id="ea0c9-255">Eräpäivän laskenta -kentän kaava määrittää, miten ohjelma laskee muistutuksen eräpäivän.</span><span class="sxs-lookup"><span data-stu-id="ea0c9-255">The date formula in the Due Date Calculation field determines how to calculate the due date on the reminder.</span></span>  
 
- <span data-ttu-id="ea0c9-256">Eräpäivän laskentakaavassa voi olla enintään 20 merkkiä, sekä numeroita että kirjaimia.</span><span class="sxs-lookup"><span data-stu-id="ea0c9-256">The date calculation formula can contain a maximum of 20 characters, both numbers and letters.</span></span> <span data-ttu-id="ea0c9-257">Voit käyttää seuraavia kirjaimia, jotka ovat aikamääreiden lyhenteitä:</span><span class="sxs-lookup"><span data-stu-id="ea0c9-257">You can use the following letters, which are abbreviations for time specifications.</span></span>  
+  <span data-ttu-id="ea0c9-256">Eräpäivän laskentakaavassa voi olla enintään 20 merkkiä, sekä numeroita että kirjaimia.</span><span class="sxs-lookup"><span data-stu-id="ea0c9-256">The date calculation formula can contain a maximum of 20 characters, both numbers and letters.</span></span> <span data-ttu-id="ea0c9-257">Voit käyttää seuraavia kirjaimia, jotka ovat aikamääreiden lyhenteitä:</span><span class="sxs-lookup"><span data-stu-id="ea0c9-257">You can use the following letters, which are abbreviations for time specifications.</span></span>  
 
 |||  
 |-|-|  

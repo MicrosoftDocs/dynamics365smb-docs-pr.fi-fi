@@ -12,10 +12,10 @@ ms.search.keywords: procurement
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3228d82190e81198817d0e1fa5c86f6c9d0f784f
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: a57ab953304a89f0caeedd66f6be55e3cf5030bb
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="record-purchases"></a><span data-ttu-id="8eba1-103">Ostojen kirjaus</span><span class="sxs-lookup"><span data-stu-id="8eba1-103">Record Purchases</span></span>
@@ -48,17 +48,17 @@ ms.lasthandoff: 03/22/2018
 8. <span data-ttu-id="8eba1-138">Kun olet määrittänyt toimittajakortin, valitse **OK**-painike palataksesi **Ostolasku**-ikkunaan.</span><span class="sxs-lookup"><span data-stu-id="8eba1-138">When you have completed the vendor card, choose the **OK** button to return to the **Purchase Invoice** window.</span></span>
 
     <span data-ttu-id="8eba1-139">Useat kentät **Ostolasku** -ikkunassa täytetään tiedoilla, jotka olet määrittänyt uuden toimittajan kortissa.</span><span class="sxs-lookup"><span data-stu-id="8eba1-139">Several fields in the **Purchase Invoice** window are filled with information that you specified on the new vendor card.</span></span>
-9. <span data-ttu-id="8eba1-140">Täytä tarvittaessa jäljellä olevat kentät **Ostolasku**-ikkunassa.</span><span class="sxs-lookup"><span data-stu-id="8eba1-140">Fill in the remaining fields in the **Purchase Invoice** window as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+9. <span data-ttu-id="8eba1-140">Täytä tarvittaessa jäljellä olevat kentät **Ostolasku**-ikkunassa.</span><span class="sxs-lookup"><span data-stu-id="8eba1-140">Fill in the remaining fields in the **Purchase Invoice** window as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     <span data-ttu-id="8eba1-141">Voit nyt täyttää ostolaskurivit varastonimikkeillä tai palveluilla, joita olet ostanut toimittajalta.</span><span class="sxs-lookup"><span data-stu-id="8eba1-141">You are now ready to fill in the purchase invoice lines with inventory items or services that you have purchased from the vendor.</span></span>
 
     > [!NOTE]  
->   <span data-ttu-id="8eba1-142">Jos olet määrittänyt toimittajalle toistuvien ostojen rivin, kuten kuukausittaisen täydennystilauksen, voit lisätä nämä rivit laskuun valitsemalla **Hae toistuvat ostorivit** -toiminnon.</span><span class="sxs-lookup"><span data-stu-id="8eba1-142">If you have set up recurring purchase lines for the vendor, such as a monthly replenishment order, then you can insert these lines on the invoice by choosing the **Get Recurring Purchase Lines** action.</span></span>
+   >   <span data-ttu-id="8eba1-142">Jos olet määrittänyt toimittajalle toistuvien ostojen rivin, kuten kuukausittaisen täydennystilauksen, voit lisätä nämä rivit laskuun valitsemalla **Hae toistuvat ostorivit** -toiminnon.</span><span class="sxs-lookup"><span data-stu-id="8eba1-142">If you have set up recurring purchase lines for the vendor, such as a monthly replenishment order, then you can insert these lines on the invoice by choosing the **Get Recurring Purchase Lines** action.</span></span>
 10. <span data-ttu-id="8eba1-143">Syötä **Rivit**-pikavälilehden **Nimikenro**-kenttään varastonimikkeen tai palvelun numero.</span><span class="sxs-lookup"><span data-stu-id="8eba1-143">On the **Lines** FastTab, in the **Item No.** field, enter the number of an inventory item or service.</span></span>
 11. <span data-ttu-id="8eba1-144">Syötä **Määrä**-kenttään ostettavien nimikkeiden lukumäärä.</span><span class="sxs-lookup"><span data-stu-id="8eba1-144">In the **Quantity** field, enter the number of items to be purchased.</span></span>
 
     > [!NOTE]  
->   <span data-ttu-id="8eba1-145">Kun nimikkeen tyyppi on **Huolto**, sen määrä on aikayksikkö, kuten tunnit, rivin **Mittayksikkökoodi**-kentän mukaan.</span><span class="sxs-lookup"><span data-stu-id="8eba1-145">For items of type **Service**, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.</span></span>
+    >   <span data-ttu-id="8eba1-145">Kun nimikkeen tyyppi on **Huolto**, sen määrä on aikayksikkö, kuten tunnit, rivin **Mittayksikkökoodi**-kentän mukaan.</span><span class="sxs-lookup"><span data-stu-id="8eba1-145">For items of type **Service**, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.</span></span>
 
     <span data-ttu-id="8eba1-146">**Rivisumma**-kenttä päivitetään näyttämään arvoa, joka saadaan kertomalla **Välitön yksikkökustannus** -kentän arvo **Määrä**-kentän arvolla.</span><span class="sxs-lookup"><span data-stu-id="8eba1-146">The **Line Amount** field is updated to show the value in the **Direct Unit Cost** field multiplied by the value in the **Quantity** field.</span></span>
 
@@ -66,7 +66,7 @@ ms.lasthandoff: 03/22/2018
 12. <span data-ttu-id="8eba1-148">Syötä **Laskun alennussumma** -kenttään summa, joka vähennetään laskun alaosan **Yhteensä sis. ALV:n** -kentässä olevasta arvosta.</span><span class="sxs-lookup"><span data-stu-id="8eba1-148">In the **Invoice Discount Amount** field, enter an amount that should be deducted from the value shown in the **Total Incl. Tax** field at the bottom of the invoice.</span></span>
 
     > [!NOTE]  
->   <span data-ttu-id="8eba1-149">Jos toimittajalle on määritetty laskualennukset, määritetty prosenttiluvun arvo lisätään automaattisesti **Toimittajan laskun alennus-%** -kenttään, jos ehdot täyttyvät. Liittyvä summa lisätään **Laskun alennussumma** -kenttään.</span><span class="sxs-lookup"><span data-stu-id="8eba1-149">If you have set up invoice discounts for the vendor, then the specified percentage value is automatically inserted in the **Vendor Invoice Discount %** field if the criteria are met, and the related amount is inserted in the **Invoice Discount Amount** field.</span></span>
+    >   <span data-ttu-id="8eba1-149">Jos toimittajalle on määritetty laskualennukset, määritetty prosenttiluvun arvo lisätään automaattisesti **Toimittajan laskun alennus-%** -kenttään, jos ehdot täyttyvät. Liittyvä summa lisätään **Laskun alennussumma** -kenttään.</span><span class="sxs-lookup"><span data-stu-id="8eba1-149">If you have set up invoice discounts for the vendor, then the specified percentage value is automatically inserted in the **Vendor Invoice Discount %** field if the criteria are met, and the related amount is inserted in the **Invoice Discount Amount** field.</span></span>
 13. <span data-ttu-id="8eba1-150">Kun vastaanotat ostettuja nimikkeitä tai palveluita, valitse **Kirjaa**.</span><span class="sxs-lookup"><span data-stu-id="8eba1-150">When you receive the purchased items or services, choose **Post**.</span></span>
 
 <span data-ttu-id="8eba1-151">Osto vaikuttaa nyt varastoon ja taloustietueisiin, ja myyjän maksu on aktivoitu.</span><span class="sxs-lookup"><span data-stu-id="8eba1-151">The purchase is now reflected in inventory and financial records, and the vendor payment is activated.</span></span> <span data-ttu-id="8eba1-152">Ostolasku poistetaan ostolaskujen luettelosta ja korvataan uudella asiakirjalla kirjattujen ostolaskujen luettelosta.</span><span class="sxs-lookup"><span data-stu-id="8eba1-152">The purchase invoice is removed from the list of purchase invoices and replaced with a new document in the list of posted purchase invoices.</span></span>

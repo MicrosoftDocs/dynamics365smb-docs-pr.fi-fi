@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: ff4318d9da902847166ac5747adf469584a3d2a2
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: c60084194191f958c3eac501141a52c6b32595b1
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="create-sales-opportunities"></a><span data-ttu-id="3c0c5-103">Myyntimahdollisuuksien luominen</span><span class="sxs-lookup"><span data-stu-id="3c0c5-103">Create Sales Opportunities</span></span>
@@ -30,7 +30,7 @@ ms.lasthandoff: 03/22/2018
 1. <span data-ttu-id="3c0c5-111">Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Myyjät** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="3c0c5-111">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Salespeople**, and then choose the related link.</span></span>
 2. <span data-ttu-id="3c0c5-112">Valitse luettelosta myyjä, jolle haluat luoda mahdollisuuden.</span><span class="sxs-lookup"><span data-stu-id="3c0c5-112">Select the salesperson from the list for whom you want to create an opportunity.</span></span>
 3. <span data-ttu-id="3c0c5-113">Valitse **Mahdollisuudet**-toiminto ja valitse sitten **Luettelo**.</span><span class="sxs-lookup"><span data-stu-id="3c0c5-113">Choose the **Opportunities** action, and then choose **List**.</span></span>
-4. <span data-ttu-id="3c0c5-114">Valitse **Uusi** ja täytä sitten tarvittavat kentät.</span><span class="sxs-lookup"><span data-stu-id="3c0c5-114">Choose **New**, and then fill in the fields as relevant.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+4. <span data-ttu-id="3c0c5-114">Valitse **Uusi** ja täytä sitten tarvittavat kentät.</span><span class="sxs-lookup"><span data-stu-id="3c0c5-114">Choose **New**, and then fill in the fields as relevant.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 
 

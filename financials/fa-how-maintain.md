@@ -13,10 +13,10 @@ ms.search.keywords: repair, service
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 1115f65c52215fe82c8371773c0c2071e9406ba4
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 8ccd398e39a2437e4e923b8fbe5d02e725046902
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="maintain-fixed-assets"></a><span data-ttu-id="42bee-103">Käyttöomaisuuden ylläpito</span><span class="sxs-lookup"><span data-stu-id="42bee-103">Maintain Fixed Assets</span></span>
@@ -31,7 +31,7 @@ ms.lasthandoff: 03/22/2018
 
 1. <span data-ttu-id="42bee-113">Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Käyttöomaisuus** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="42bee-113">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Fixed Assets**, and then choose the related link.</span></span>  
 2. <span data-ttu-id="42bee-114">Valitse käyttöomaisuus, jolle haluat tallentaa kunnossapitotyön. Valitse sitten **Kunnossapidon rekisteröinti** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="42bee-114">Select the fixed asset that you want to record maintenance for, and then choose the **Maintenance Registration** action.</span></span>
-3. <span data-ttu-id="42bee-115">Täytä **Kunnossapidon rekisteröinti** -ikkunassa tarvittavat kentät.</span><span class="sxs-lookup"><span data-stu-id="42bee-115">In the **Maintenance Registration** window, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. <span data-ttu-id="42bee-115">Täytä **Kunnossapidon rekisteröinti** -ikkunassa tarvittavat kentät.</span><span class="sxs-lookup"><span data-stu-id="42bee-115">In the **Maintenance Registration** window, fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-post-maintenance-costs-from-a-fixed-asset-gl-journal"></a><span data-ttu-id="42bee-116">Kunnossapitokustannusten kirjaaminen käyttöomaisuuden KP-päiväkirjasta</span><span class="sxs-lookup"><span data-stu-id="42bee-116">To post maintenance costs from a fixed asset G/L journal</span></span>
 1. <span data-ttu-id="42bee-117">Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Poistokirjaluettelo** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="42bee-117">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Depreciation Book List**, and then choose the related link.</span></span>  
@@ -43,7 +43,7 @@ ms.lasthandoff: 03/22/2018
 7. <span data-ttu-id="42bee-124">Valitse **Syötä KO-vastatili** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="42bee-124">Choose the **Insert FA Bal. Account** action.</span></span> <span data-ttu-id="42bee-125">Toinen päiväkirjan rivi luodaan vastatilille, joka on määritetty kunnossapidon kirjaamista varten.</span><span class="sxs-lookup"><span data-stu-id="42bee-125">A second journal line is created for the balancing account that is set up for maintenance posting.</span></span>
 
     > [!NOTE]  
->   <span data-ttu-id="42bee-126">Vaihe 7 toimii vain, jos seuraavat arvot on määritetty: Käyttöomaisuuden kirjausryhmän **KO:n kirjausryhmän kortti** -ikkunan **Kunnossapitotili**-kenttä sisältää pääkirjanpidon debet-tilin ja **Kunnossapidon vastatili** -kenttä sisältää sen pääkirjanpitotilin, jolle arvonkorotuksen vastatilitapahtumat kirjataan.</span><span class="sxs-lookup"><span data-stu-id="42bee-126">Step 7 only works if you have set up the following: In the **FA Posting Group Card** window for the posting group of the fixed asset, the **Maintenance Account** field contains the general ledger debit account and the **Maintenance Bal. Account** field contains the general ledger account to which you want to post balancing entries for appreciation.</span></span> <span data-ttu-id="42bee-127">Lisätietoja on kohdan [Käyttöomaisuuden yleisten tietojen määrittäminen](fa-how-setup-general.md) osassa Käyttöomaisuuden kirjausryhmien määrittäminen.</span><span class="sxs-lookup"><span data-stu-id="42bee-127">For more information, see the "To set up fixed asset posting groups" section in [Set Up General Fixed Asset Information](fa-how-setup-general.md).</span></span>
+   >   <span data-ttu-id="42bee-126">Vaihe 7 toimii vain, jos seuraavat arvot on määritetty: Käyttöomaisuuden kirjausryhmän **KO:n kirjausryhmän kortti** -ikkunan **Kunnossapitotili**-kenttä sisältää pääkirjanpidon debet-tilin ja **Kunnossapidon vastatili** -kenttä sisältää sen pääkirjanpitotilin, jolle arvonkorotuksen vastatilitapahtumat kirjataan.</span><span class="sxs-lookup"><span data-stu-id="42bee-126">Step 7 only works if you have set up the following: In the **FA Posting Group Card** window for the posting group of the fixed asset, the **Maintenance Account** field contains the general ledger debit account and the **Maintenance Bal. Account** field contains the general ledger account to which you want to post balancing entries for appreciation.</span></span> <span data-ttu-id="42bee-127">Lisätietoja on kohdan [Käyttöomaisuuden yleisten tietojen määrittäminen](fa-how-setup-general.md) osassa Käyttöomaisuuden kirjausryhmien määrittäminen.</span><span class="sxs-lookup"><span data-stu-id="42bee-127">For more information, see the "To set up fixed asset posting groups" section in [Set Up General Fixed Asset Information](fa-how-setup-general.md).</span></span>
 8. <span data-ttu-id="42bee-128">Valitse **Kirjaa**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="42bee-128">Choose the **Post** action.</span></span>
 
 ## <a name="to-follow-up-on-fixed-assets-service-visits"></a><span data-ttu-id="42bee-129">Käyttöomaisuuden huoltokäyntien seuraaminen</span><span class="sxs-lookup"><span data-stu-id="42bee-129">To follow up on fixed assets service visits</span></span>

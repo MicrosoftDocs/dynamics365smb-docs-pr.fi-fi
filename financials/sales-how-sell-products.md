@@ -13,10 +13,10 @@ ms.search.keywords: trade
 ms.date: 03/26/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ea9b4a6310df319df06d02c53b9d6156caaee24f
-ms.openlocfilehash: 7d1e9196e4fa4e24eb01f6a7f6b824e0c4f857ca
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 214edd3973930abf82f0fdf41347efa5f99f7f24
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="sell-products"></a><span data-ttu-id="5aaa3-103">Tuotteiden myyminen</span><span class="sxs-lookup"><span data-stu-id="5aaa3-103">Sell Products</span></span>
@@ -55,7 +55,7 @@ ms.lasthandoff: 03/28/2018
 7. <span data-ttu-id="5aaa3-146">Kun olet määrittänyt asiakaskortin, valitse **OK**-painike palataksesi **Myyntitilaus**-ikkunaan.</span><span class="sxs-lookup"><span data-stu-id="5aaa3-146">When you have completed the customer card, choose the **OK** button to return to the **Sales Order** window.</span></span>
 
     <span data-ttu-id="5aaa3-147">Myyntitilauksen useat kentät täytetään nyt tiedoilla, jotka olet määrittänyt uuden asiakkaan kortissa.</span><span class="sxs-lookup"><span data-stu-id="5aaa3-147">Several fields on the sales order are now filled with information that you specified on the new customer card.</span></span>
-8. <span data-ttu-id="5aaa3-148">Täytä tarvittaessa jäljellä olevat kentät **Myyntitilaus**-ikkunassa.</span><span class="sxs-lookup"><span data-stu-id="5aaa3-148">Fill in the remaining fields in the **Sales Order** window as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+8. <span data-ttu-id="5aaa3-148">Täytä tarvittaessa jäljellä olevat kentät **Myyntitilaus**-ikkunassa.</span><span class="sxs-lookup"><span data-stu-id="5aaa3-148">Fill in the remaining fields in the **Sales Order** window as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     <span data-ttu-id="5aaa3-149">Voit nyt täyttää myyntitilausrivit varastonimikkeillä tai palveluilla, joita haluat myydä asiakkaalle.</span><span class="sxs-lookup"><span data-stu-id="5aaa3-149">You are now ready to fill in the sales order lines with inventory items or services that you want to sell to the customer.</span></span>
 
@@ -64,7 +64,7 @@ ms.lasthandoff: 03/28/2018
 10. <span data-ttu-id="5aaa3-152">Syötä myytävien nimikkeiden lukumäärä **Määrä**-kenttään.</span><span class="sxs-lookup"><span data-stu-id="5aaa3-152">In the **Quantity** field, enter the number of items to be sold.</span></span>
 
     > [!NOTE]  
->   <span data-ttu-id="5aaa3-153">Kun nimikkeen tyyppi on Huolto, sen määrä on aikayksikkö, kuten tunnit, rivin **Mittayksikkökoodi**-kentän mukaan.</span><span class="sxs-lookup"><span data-stu-id="5aaa3-153">For items of type Service, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.</span></span>
+    >   <span data-ttu-id="5aaa3-153">Kun nimikkeen tyyppi on Huolto, sen määrä on aikayksikkö, kuten tunnit, rivin **Mittayksikkökoodi**-kentän mukaan.</span><span class="sxs-lookup"><span data-stu-id="5aaa3-153">For items of type Service, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.</span></span>
 
     <span data-ttu-id="5aaa3-154">**Rivisumma**-kenttä päivitetään näyttämään arvoa, joka saadaan kertomalla **Yksikköhinta**-kentän arvo **Määrä**-kentän arvolla.</span><span class="sxs-lookup"><span data-stu-id="5aaa3-154">The **Line Amount** field is updated to show the value in the **Unit Price** field multiplied by the value in the **Quantity** field.</span></span>
 
@@ -79,12 +79,12 @@ ms.lasthandoff: 03/28/2018
 14. <span data-ttu-id="5aaa3-163">Uuden asiakkaan kortissa näkyy valitun asiakasmallin tiedot.</span><span class="sxs-lookup"><span data-stu-id="5aaa3-163">A new customer card displays the information on the selected customer template.</span></span> <span data-ttu-id="5aaa3-164">Täytä jäljellä olevat kentät.</span><span class="sxs-lookup"><span data-stu-id="5aaa3-164">Fill in the remaining fields.</span></span> <span data-ttu-id="5aaa3-165">Lisätietoja on kohdassa [Uusien asiakkaiden rekisteröinti](sales-how-register-new-customers.md).</span><span class="sxs-lookup"><span data-stu-id="5aaa3-165">For more information, see [Register New Customers](sales-how-register-new-customers.md).</span></span>  
 15. <span data-ttu-id="5aaa3-166">Kun olet määrittänyt asiakaskortin, palaa **Myyntitilaus**-ikkunaan valitsemalla **OK**.</span><span class="sxs-lookup"><span data-stu-id="5aaa3-166">When you have completed the customer card, choose the **OK** button to return to the **Sales Order** window.</span></span>
 
-   <span data-ttu-id="5aaa3-167">Monet myyntitilauksen kentistä täytetään nyt tiedoilla, jotka olet määrittänyt uuden asiakkaan kortissa.</span><span class="sxs-lookup"><span data-stu-id="5aaa3-167">Several fields on the sales Order are now filled with information that you specified on the new customer card.</span></span>  
-16. <span data-ttu-id="5aaa3-168">Täytä tarvittaessa jäljellä olevat kentät **Myyntitilaus**-ikkunassa.</span><span class="sxs-lookup"><span data-stu-id="5aaa3-168">Fill in the remaining fields in the **Sales Order** window as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+    <span data-ttu-id="5aaa3-167">Monet myyntitilauksen kentistä täytetään nyt tiedoilla, jotka olet määrittänyt uuden asiakkaan kortissa.</span><span class="sxs-lookup"><span data-stu-id="5aaa3-167">Several fields on the sales Order are now filled with information that you specified on the new customer card.</span></span>  
+16. <span data-ttu-id="5aaa3-168">Täytä tarvittaessa jäljellä olevat kentät **Myyntitilaus**-ikkunassa.</span><span class="sxs-lookup"><span data-stu-id="5aaa3-168">Fill in the remaining fields in the **Sales Order** window as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-   <span data-ttu-id="5aaa3-169">Voit nyt täyttää asiakkaille myytävien tuotteiden tai KP-tilille kirjattavan asiakastapahtuman myyntitilauksen rivit.</span><span class="sxs-lookup"><span data-stu-id="5aaa3-169">You are now ready to fill in the sales order lines for products that you are selling to the customer or for any transaction with the customer that you want to record in a G/L account.</span></span>   
+    <span data-ttu-id="5aaa3-169">Voit nyt täyttää asiakkaille myytävien tuotteiden tai KP-tilille kirjattavan asiakastapahtuman myyntitilauksen rivit.</span><span class="sxs-lookup"><span data-stu-id="5aaa3-169">You are now ready to fill in the sales order lines for products that you are selling to the customer or for any transaction with the customer that you want to record in a G/L account.</span></span>   
 
-   <span data-ttu-id="5aaa3-170">Jos olet määrittänyt toistuvien myyntien rivin asiakkaalle, kuten kuukausittainen täydennystilaus, voit lisätä nämä rivit tilaukseen valitsemalla **Nouda toistuvat myyntirivit** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="5aaa3-170">If you have set up recurring sales lines for the customer, such as a monthly replenishment order, then you can insert these lines on the order by choosing the **Get Recurring Sales Lines** action.</span></span>  
+    <span data-ttu-id="5aaa3-170">Jos olet määrittänyt toistuvien myyntien rivin asiakkaalle, kuten kuukausittainen täydennystilaus, voit lisätä nämä rivit tilaukseen valitsemalla **Nouda toistuvat myyntirivit** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="5aaa3-170">If you have set up recurring sales lines for the customer, such as a monthly replenishment order, then you can insert these lines on the order by choosing the **Get Recurring Sales Lines** action.</span></span>  
 17. <span data-ttu-id="5aaa3-171">Valitse **Rivit**-pikavälilehden **Tyyppi**-kentässä sen tuotteen, kulun tai tapahtuman tyyppi, jonka kirjaat myyntirivin asiakkaalle.</span><span class="sxs-lookup"><span data-stu-id="5aaa3-171">On the **Lines** FastTab, in the **Type** field, select what type of product, charge, or transaction that you will post for the customer with the sales line.</span></span>
 18. <span data-ttu-id="5aaa3-172">Valitse **Nro**-kenttään</span><span class="sxs-lookup"><span data-stu-id="5aaa3-172">In the **No.**</span></span> <span data-ttu-id="5aaa3-173">kirjattava tietue **Tyyppi**-kentän arvon mukaan.</span><span class="sxs-lookup"><span data-stu-id="5aaa3-173">field, select a record to post according to the value in the **Type** field.</span></span>
 
@@ -94,7 +94,7 @@ ms.lasthandoff: 03/28/2018
 19. <span data-ttu-id="5aaa3-180">Ilmoita **Määrä**-kentässä, kuinka monta tuote-, kulu- tai tapahtumayksikköä rivi kirjaa asiakkaalle.</span><span class="sxs-lookup"><span data-stu-id="5aaa3-180">In the **Quantity** field, enter how many units of the product, charge, or transaction that the line will record for the customer.</span></span>  
 
     > [!NOTE]  
->   <span data-ttu-id="5aaa3-181">Jos nimikkeen tyyppi on **Nimike - Palvelu** tai **Resurssi**, määrä on aikayksikkö, esimerkiksi tunnit, kuten rivin **Mittayksikkökoodi**-kenttä osoittaa.</span><span class="sxs-lookup"><span data-stu-id="5aaa3-181">If the item is of type **Item - Service** or **Resource**, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.</span></span> <span data-ttu-id="5aaa3-182">Lisätietoja on kohdassa [Nimikkeen mittayksiköiden määrittäminen](inventory-how-setup-units-of-measure.md).</span><span class="sxs-lookup"><span data-stu-id="5aaa3-182">For more information, see [Set Up Item Units of Measure](inventory-how-setup-units-of-measure.md).</span></span>
+    >   <span data-ttu-id="5aaa3-181">Jos nimikkeen tyyppi on **Nimike - Palvelu** tai **Resurssi**, määrä on aikayksikkö, esimerkiksi tunnit, kuten rivin **Mittayksikkökoodi**-kenttä osoittaa.</span><span class="sxs-lookup"><span data-stu-id="5aaa3-181">If the item is of type **Item - Service** or **Resource**, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.</span></span> <span data-ttu-id="5aaa3-182">Lisätietoja on kohdassa [Nimikkeen mittayksiköiden määrittäminen](inventory-how-setup-units-of-measure.md).</span><span class="sxs-lookup"><span data-stu-id="5aaa3-182">For more information, see [Set Up Item Units of Measure](inventory-how-setup-units-of-measure.md).</span></span>
 
     <span data-ttu-id="5aaa3-183">**Rivisumma**-kentän arvo lasketaan *Yksikköhinta* x *Määrä*.</span><span class="sxs-lookup"><span data-stu-id="5aaa3-183">The value in the **Line Amount** field is calculated as *Unit Price* x *Quantity*.</span></span>  
 
