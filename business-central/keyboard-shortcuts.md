@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
-ms.date: 07/12/2017
+ms.date: 05/18/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: fe2ebe89310465f11561fbb1d0baed23b8241639
+ms.sourcegitcommit: 4fceff1a6cf728608a49182a9704f187d31767fe
+ms.openlocfilehash: f0e7b7a560bacb3791524b94d721f413b3c72310
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/28/2018
 
 ---
 
@@ -28,29 +28,29 @@ Useimmat selaimet tukevat pikanäppäimiä. Toiminta voi kuitenkin olla eri sela
 
 Tässä käsitellyt pikanäppäimet viittaavat yhdysvaltaiseen näppäimistöön. Muiden näppäimistöjen näppäimet eivät ehkä vastaa täsmälleen yhdysvaltalaisen näppäimistön näppäimiä.
 
+Useimmat pikanäppäimet ovat samoja sekä Windows- että macOS-käyttöjärjestelmässä. Jotkin Windows-käyttöjärjestelmän pikanäppäimet kuitenkin ovat erilaisia macOS-käyttöjärjestelmässä. Nämä on esitetty seuraavien osien taulukoissa sulkeissa.
+
 ##  <a name="Keyboard"></a> Yleiset pikanäppäimet
-Seuraavassa taulukossa kuvataan pikanäppäimet, joiden avulla voi käyttää sivun eri elementtejä, kuten toimintoja, avattavia luetteloita ja hakuja, ja siirtyä niiden välillä. Lisätietoja luettelon tietueiden välillä siirtymisessä käytettävistä pikanäppäimistä on seuraavassa osassa. 
+Seuraavassa taulukossa kuvataan pikanäppäimet, joiden avulla voi käyttää sivun eri elementtejä, kuten toimintoja, avattavia luetteloita ja hakuja, ja siirtyä niiden välillä. Lisätietoja luettelon tietueiden välillä siirtymisessä käytettävistä pikanäppäimistä on seuraavassa osassa.
 
 |Paina näitä näppäimiä|Tehtävä|  
 |----------------|-----------|  
-|Sarkain|Siirrä kohdistus sivun seuraavaan ohjausobjektiin tai elementtiin, kuten toimintoon, painikkeeseen, kenttään tai luettelon otsikkoon.| 
+|Sarkain|Siirrä kohdistus sivun seuraavaan ohjausobjektiin tai elementtiin, kuten toimintoon, painikkeeseen, kenttään tai luettelon otsikkoon.|
 |Vaihto+Sarkain|Siirrä kohdistus sivun edelliseen ohjausobjektiin tai elementtiin, kuten painikkeeseen, kenttään tai luettelon otsikkoon.|   
 |Enter|Ota kohdistettu elementti tai ohjausobjekti käyttöön tai käytä sitä.|   
 |Alt+alanuoli|Avaa avattava luettelo tai hae kentän arvo.|    
 |Alt+Oikea nuoli|Näet tapahtumat, joiden perusteella kentän arvo laskettiin.|  
+|Esc|Sulje nykyinen sivu tai avattava luettelo.|
 
 
 ## <a name="keyboard-shortcuts-in-lists"></a>Luettelon pikanäppäimet
 
 Seuraavassa taulukossa kuvataan luettelosivulla käytettävät pikanäppäimet. Pikanäppäintoiminto on hieman erilainen riippuen siitä, näytetäänkö sivu luettelo- vai ruutunäkymässä.
 
-Useimman pikanäppäimet ovat samoja sekä Windows- että macOS-käyttöjärjestelmässä. Jotkin Windows-käyttöjärjestelmän pikanäppäimet kuitenkin ovat erilaisia macOS-käyttöjärjestelmässä. Myös ne näkyvät taulukossa suluissa.
+> [!Note]
+> Seuraavassa taulukossa *toiminnallinen kenttä* tarkoittaa kenttää, jossa voi tehdä jotain, kuten esimerkiksi muuttaa arvon tai lisätä linkin toiselle sivulle. Yleensä pikanäppäimet ohittavat kentät, joissa on ei-muutettavia luettelon tietoja (eli vain luku -tilassa olevat kentät).
 
->[!Note]
->Seuraavassa taulukossa *toiminnallinen kenttä* tarkoittaa kenttää, jossa voi tehdä jotain, kuten esimerkiksi muuttaa arvon tai lisätä linkin toiselle sivulle. Yleensä pikanäppäimet ohittavat kentät, joissa on ei-muutettavia luettelon tietoja (eli vain luku -tilassa olevat kentät).
-
-
-|Paina näitä näppäimiä<br />(macOS)|Luettelonäkymän toiminnot |Luettelonäkymän toiminnot |Huomautukset|
+|Paina näitä näppäimiä<br />(macOS)|Luettelonäkymän toiminnot |Ruutunäkymän toiminnot |Huomautukset|
 |-----------------|-------|-------|-------|
 |Ylänuoli|Siirry saman sarakkeen ylemmän rivin kenttään.| Siirry saman sarakkeen ylemmän rivin ruutuun.  |  | 
 |Nuoli alas|Siirry saman sarakkeen alemman rivin kenttään. |Siirry saman sarakkeen alemman rivin ruutuun. | |
@@ -67,7 +67,7 @@ Useimman pikanäppäimet ovat samoja sekä Windows- että macOS-käyttöjärjest
 |Vaihto+napsautus|Laajentaa valitut rivit, myös valitun rivin ja kaikki välissä olevat rivit.|Ei sovellu|Voit käyttää tätä sen jälkeen, kun valinta on laajennettu käyttämällä yhdistelmää Ctrl+ylänuoli tai Ctrl+alanuoli.|
 |Ctrl + Ylänuoli<br />(Ctrl+Cmd+ylänuoli)|Siirrä kohdistus ylempään riviin ja pidä nykyinen rivi valittuna.|Ei sovellu||
 |Ctrl+ alanuoli<br />(Ctrl+Cmd+alanuoli)|Siirrä kohdistus alempaan riviin ja pidä nykyinen rivi valittuna.|Ei sovellu||
-|Ctrl+välilyönti<br />(Ctrl+Cmd+välilyönti)|Laajentaa valitut rivit, myös rivin, jolla on kohdistus.|Ei sovellu|Voit käyttää tätä sen jälkeen, kun valinta on laajennettu käyttämällä yhdistelmää Ctrl+ylänuoli tai Ctrl+alanuoli.|
+|Ctrl+välilyönti<br />(Ctrl+Cmd+välilyönti)|Laajentaa valitut rivit sisältämään rivin, jolla on kohdistus.|Ei sovellu|Voit käyttää tätä sen jälkeen, kun valinta on laajennettu käyttämällä yhdistelmää Ctrl+ylänuoli tai Ctrl+alanuoli.|
 |Ctrl+A|Valitse kaikki rivit.|Ei sovellu||
 |Vaihto+ylänuoli|Laajentaa valitut rivit, myös alapuolella olevan rivin.|Ei sovellu||
 |Vaihto+alanuoli|Laajentaa valitut rivit, myös yläpuolella olevan rivin.|Ei sovellu||
@@ -75,8 +75,25 @@ Useimman pikanäppäimet ovat samoja sekä Windows- että macOS-käyttöjärjest
 |Vaihto+sivu alas<br />(Vaihto+Fn+alanuoli)|Laajenna rivien valinta niin, että se sisältää kaikki valittujen rivien alapuolella olevat näkyvissä olevat rivit.|Ei sovellu||
 |Ctrl+Enter|Siirrä kohdistus seuraavaan luettelon ulkopuolella olevaan elementtiin.|Siirrä kohdistus seuraavaan luettelon ulkopuolella olevaan elementtiin.||
 
+## <a name="keyboard-shortcuts-in-the-calendar-date-picker"></a>Pikanäppäimet kalenterissa (päivämäärän valitsin)
+Päivämääräkenttää määrittäessäsi voit syöttää päivämäärän manuaalisesti tai avata kalenterin (päivämäärän valitsin), jonka avulla voit valita haluamasi päivämäärän. Seuraavassa taulukossa kuvataan kalenterin pikanäppäimet.
+
+|Paina näitä näppäimiä<br />(macOS)|Tehtävä|
+|-----------------|-------|
+|Sivu ylös|Siirry edelliseen kuukauteen.|  
+|Sivu alas|Siirry seuraavaan kuukauteen.|
+|Ctrl+Home|Avaa kalenteri, jos se on suljettu.|
+|Ctrl+Home<br />(Cmd + Home)|Siirry nykyisen kuukauden tähän päivään.|
+|Ctrl+vasen nuoli<br />(Cmd + Vasen nuoli)|Siirry edelliseen päivään.|
+|Ctrl+Oikea nuoli<br />(Cmd + Oikea nuoli)|Siirry seuraavaan päivään.|
+|Ctrl + Ylänuoli<br />(Cmd + ylänuoli)|Siirry edellisen viikon samaan viikonpäivään.|
+|Ctrl+ alanuoli<br />(Cmd+alanuoli)|Siirry seuraavan viikon samaan viikonpäivään.|
+|Enter|Valitse kohdistettu päivä.|
+|Ctrl+End<br />(Cmd+End)|Sulje kalenteri ja poista nykyinen päivämäärä.|
+|Esc|Sulje kalenteri ilman valintaa, säilytä nykyinen päivämäärä.|
+
 <!--
-## Keyboard shortcuts in list (shown as tiles) 
+## Keyboard shortcuts in list (shown as tiles)
 
 The following table describes the keyboard shortcuts that you can use in a list page when the page is shown as a tiles.
 
@@ -84,8 +101,8 @@ The following table describes the keyboard shortcuts that you can use in a list 
 |Keyboard Shortcut<br />(shortcut in osX)| Action|Remarks|
 |-----------------|-------|-------|
 |Up Arrow|Move to the tile above in the same column|  |   
-|Down Arrow|Move to the tile below in the same column|  | 
-|Right Arrow|Move to the next tile in the same row| | 
+|Down Arrow|Move to the tile below in the same column|  |
+|Right Arrow|Move to the next tile in the same row| |
 |Left Arrow|Move to the previous tile in the same row | |
 |Home<br />(Fn+left Arrow)|Move to the first tile in the row|
 |End<br />Fn+right Arrow)|Move to the last tile in the row|

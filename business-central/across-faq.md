@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
-ms.date: 07/27/2017
+ms.date: 04/19/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: d015f3c2e4b06a7e93b7b4e0fe678c5066afbb8c
+ms.sourcegitcommit: dc7e739bc2b8ac9e8efce3a0f52acb945352416e
+ms.openlocfilehash: 24b6001df4937df491be8a90fee806cd0f074830
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/19/2018
 
 ---
 # <a name="frequently-asked-questions"></a>Usein kysytyt kysymykset
@@ -45,6 +45,15 @@ Selitys on hieman monimutkainen, mutta ilmeisesti järjestelmänvalvoja ei vaiht
 
 ## <a name="why-cant-i-find-that-capability-in-my-included365finincludesd365finmdmd"></a>Miksi tätä toimintoa ei löydy omasta [!INCLUDE[d365fin](includes/d365fin_md.md)]ista?
 Luitko uudesta toiminnosta äskettäin tulevia toimintoja käsittelevästä sivustosta tai blogistamme? Siinä tapauksessa [!INCLUDE[d365fin](includes/d365fin_md.md)]-versiotasi ei ehkä ole vielä päivitetty uusimpaan versioon. Jos toiminto on julkaistu laajennuksena AppSourcessa, laajennuksen julkistamista kuluu hetki, ennen kuin se on saatavilla AppSourcessa.
+
+## <a name="why-are-some-ui-elements-that-i-used-in-dynamics-nav-not-visible-in-included365finincludesd365finmdmd"></a>Miksi jotkin käyttöliittymän osat, joita käytin Dynamics NAV:ssa, eivät näy [!INCLUDE[d365fin](includes/d365fin_md.md)]:ssa?
+[!INCLUDE[d365fin](includes/d365fin_md.md)]:n sovellusaluejärjestelmässä ja käyttökokemuksen vaihtoehdoissa voit näyttää tai piilottaa tuotteen halutut osat ostetun suunnitelman (Essential tai Premium) ja yrityksesi tarpeiden mukaisesti.
+
+Näitä ominaisuuksia on käytetty tuotteen käyttöliittymän yksinkertaistamiseen [!INCLUDE[d365fin](includes/d365fin_md.md)] -vakioversiossa. Esimerkiksi kentät, joita ei usein käytetä, kuten **Faksinro**, on poistettu, ja luetteloiden ja korttien värinauhoissa kaksinkertaiset toiminnot on poistettu ja useimmiten käytettävät tehtävät nostetaan esiin. Joitakin täydellisiä ominaisuuksia, kuten kommentteja, optimoidaan tällä hetkellä web-asiakasohjelmalle ja siksi eivät ole käytettävissä [!INCLUDE[d365fin](includes/d365fin_md.md)]:ssa.
+
+Näin ollen tiettyjä käyttöliittymän osia, jotka näkyvät Dynamics NAV -vakioversiossa, ei näytetä [!INCLUDE[d365fin](includes/d365fin_md.md)]:ssa. Kyseisillä komponenteilla on tällä hetkellä #Advanced-sovellusaluetunniste. 
+
+Jos haluat, että [!INCLUDE[d365fin](includes/d365fin_md.md)] -ratkaisusi sisältää samat käyttöliittymän osat kuin Dynamics NAV -ratkaisusi, sinun on tehtävä muutamia vaiheita kehitysympäristössä, jotta saat #Advanced-ohjausobjektit esiin laajennuksen kautta. Lisätietoja on kohdassa [Sovellusalueiden laajentaminen](https://docs.microsoft.com/en-us/dynamics-nav/developer/devenv-extending-application-areas).
 
 ## <a name="see-also"></a>Katso myös
 [Käytön aloittaminen](product-get-started.md)  

@@ -11,10 +11,10 @@ ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 04/20/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 3ca2883af506af1d98322305ee07a2995470bb2b
+ms.sourcegitcommit: b4dfdeb3cf49867699907c444147060727d3f146
+ms.openlocfilehash: 335738af45c1365da7e45f062b60e30d66082f41
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/09/2018
 
 ---
 
@@ -48,7 +48,9 @@ ALV-rekisteröintinumeroiden määritysohjeet:
 2. Valitse ensin maa tai alue ja sitten **ALV-rekisteröintinron muodot** -toiminto.
 3. Määritä muoto **Muodot**-kenttään antamalla vähintään yksi seuraavista merkeistä:  
 
-    |----|----| | # | Edellyttää yksimerkkistä lukua. | | @ | Edellyttää kirjainta. Kirjainkoolla ei ole merkitystä. | | ? | Mikä tahansa merkki sallitaan. |
+* # <a name="--requires-a-single-digit-number"></a>- Edellyttää yksimerkkistä lukua.
+* @ - Edellyttää kirjainta. Kirjainkoolla ei ole merkitystä.
+* ? - Mikä tahansa merkki sallitaan.
 
     > [!Tip]
     > Voit käyttää muita merkkejä, kunhan niitä käytetään maan tai alueen muodossa. Jos sinun on sisällytettävä esimerkiksi numeroiden välinen piste tai yhdysviiva, voit määrittää muodon seuraavasti: ##.####.### tai @@-###-###.  

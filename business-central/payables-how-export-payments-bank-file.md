@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank file export, re-export, bank transfer, AMC, bank data conversion service, funds transfer
-ms.date: 06/28/2017
+ms.date: 04/26/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 88406936af640a2ec31f099fcae8bf039b64ecf3
+ms.sourcegitcommit: db28ad9a4adb45514b1d1287d269d8daefe64865
+ms.openlocfilehash: 68a35c3bbedd0d0f09a9e43269260e98dfa02a59
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 
 ---
 # <a name="export-payments-to-a-bank-file"></a>Maksujen vienti pankkitiedostoon
@@ -28,41 +28,33 @@ Kun olet valmis suorittamaan maksut toimittajille tai hyvitykset työntekijöill
 Voit tarkastella maksupäiväkirjasta vietyjä maksutiedostoja **Hyvityksen siirron rekisterit** -ikkunassa. Ikkunassa voit myös viedä maksutiedostot uudelleen, jos tekniset virheet tai tiedostomuutokset vaativat sitä. Huomaa kuitenkin, että viedyt sähköiset rahansiirtotiedostot eivät näy tässä ikkunassa eikä niitä voi viedä uudelleen.  
 
 ## <a name="to-export-payments-to-a-bank-file"></a>Maksujen vienti pankkitiedostoon
+Seuraavassa kuvataan, miten toimittajalle maksetaan sekillä. Vaiheet ovat samankaltaiset kuin hyvitettäessä asiakkaalle sekkimaksuna.
+
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Maksupäiväkirjat** ja valitse sitten aiheeseen liittyvä linkki.
-2. Voit esimerkiksi täyttää päiväkirjan rivit **Ehdota toimittajamaksuja** -toiminnolla. Lisätietoja on kohdassa [Toimittajamaksujen ehdottaminen](payables-how-suggest-vendor-payments.md).
-3. Täytä maksupäiväkirjan rivien kentät tarpeen mukaan. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Täytä maksupäiväkirjan rivit. Lisätietoja on ohjeaiheessa [Maksujen ja hyvitysten kirjaaminen](payables-how-post-payments-refunds.md).
 
 > [!NOTE]  
 >   Jos käytät sähköistä rahansiirtoa, sinun on valittava joko **Sähköinen maksu** tai **Sähköinen maksu – IAT** **Pankkimaksun tyyppi** -kentässä. Eri tiedostojen vientipalvelut ja niiden tiedostomuodot edellyttävät erilaisia asetuksia **Pankkitilin kortti**- ja **Toimittajan pankkitilin kortti** -ikkunassa. Saat ilmoituksen virheellisistä tai puuttuvista asetusarvoista, kun yrität viedä tiedoston.
 
-4. Kun kaikki maksupäiväkirjan rivit ovat valmiit, valitse **Vie**-toiminto.
-5. Täytä **Vie sähköiset maksut** -ikkunan kentät tarpeen mukaan.
+3. Kun kaikki maksupäiväkirjan rivit ovat valmiit, valitse **Vie**-toiminto.
+4. Täytä **Vie sähköiset maksut** -ikkunan kentät tarpeen mukaan.
 
     Virheilmoituksia näkyy **maksutiedoston virheet** -tietoruudussa, jossa voit myös nähdä yksityiskohtaiset tiedot virheviestistä. Kaikki virheet on ratkaistava ennen maksutiedoston vientiä.
 
     > [!TIP]  
     >   Pankkitietojen muuntopalvelua käytettäessä yleinen virheilmoitus kertoo, että pankkitilin numeron pituus ei täytä pankin vaatimuksia. Voit välttää tämän virheen tai ratkaista sen poistamalla **IBAN**-kentän **Pankkitilin kortti** -ikkunassa ja antamalla sitten pankkitilin numeron **Pankkitilin nro** -kentässä pankin edellyttämässä muodossa.
 
-6. Määritä **Tallenna nimellä** -ikkunassa paikka, johon tiedosto viedään ja valitse sitten **Tallenna**.
+5. Määritä **Tallenna nimellä** -ikkunassa paikka, johon tiedosto viedään ja valitse sitten **Tallenna**.
 
     > [!NOTE]  
     >   Jos käytät sähköistä rahansiirtoa, tallenna saatava toimittajan maksusuorituslomake Word-asiakirjana tai valitse sen lähettäminen suoraan toimittajalle. Maksut on nyt lisätty **Luo sähköinen rahansiirtotiedosto** -ikkunaan, jossa voit luoda samanaikaisesti useita maksutilauksia, mikä säästää lähetyskustannuksia. Lisätietoja on seuraavissa vaiheissa:
-7. Valitse **Maksupäiväkirja**-ikkunassa **Luo sähköinen rahansiirtotiedosto** -toiminto.
+6. Valitse **Maksupäiväkirja**-ikkunassa **Luo sähköinen rahansiirtotiedosto** -toiminto.
 
     **Luo sähköinen rahansiirtotiedosto** -ikkunassa kaikki sähköistä rahansiirtoa varten määritetyt maksut, jotka on viety maksupäiväkirjasta määritetylle pankkitilille mutta joita ei ole vielä muodostettu, on mainittu **Rivit**-pikavälilehdessä.
-8. Vie kaikki sähköiset rahansiirtomaksut sisältävä tiedosto valitsemalla **Luo sähköinen rahansiirtotiedosto** -toiminto.
-9. Määritä **Tallenna nimellä** -ikkunassa paikka, johon tiedosto viedään ja valitse sitten **Tallenna**.
+7. Vie kaikki sähköiset rahansiirtomaksut sisältävä tiedosto valitsemalla **Luo sähköinen rahansiirtotiedosto** -toiminto.
+8. Määritä **Tallenna nimellä** -ikkunassa paikka, johon tiedosto viedään ja valitse sitten **Tallenna**.
 
 Pankin maksutiedosto viedään määrittämääsi sijaintiin ja voit jatkaa sen lataamista verkkopankkitilille ja suorittaa todelliset maksut. Voit sitten kirjata viedyn maksupäiväkirjan rivit.
-
-## <a name="to-export-payments-that-represent-customer-refunds"></a>Asiakashyvityksiä vastaavien maksujen vieminen
-Seuraavaksi kerrotaan kiertotie sähköisten hyvitysmaksujen viennille.
-
-> [!CAUTION]  
->   Tuloksena olevan maksupäiväkirjan rivejä ei voi kirjata, poistaa eikä mitätöidä.
-1. Määritä asiakas toimittajaksi. Anna sen nimeksi vaikkapa Asiakas X hyvityksiä varten. Lisätietoja on kohdassa [Uusien toimittajien rekisteröinti](purchasing-how-register-new-vendors.md).
-2. Määritä asiakkaan maksupäiväkirjan rivin **Tilityyppi**-kentän arvoksi **Asiakas** ja **Asiakirjatyyppi**-kentän arvoksi **Hyvitys**.
-3. Suorita maksun vienti tavalliseen tapaan Maksujen vienti pankkitiedostoon -osassa kuvatulla tavalla.
 
 ## <a name="to-plan-when-to-post-exported-payments"></a>Vietyjen maksujen kirjaamisajankohdan suunnitteleminen
 Jos et halua kirjata viedyn maksun maksupäiväkirjan riviä, koska esimerkiksi odotat pankin vahvistusta tapahtuman käsittelystä, voit poistaa päiväkirjan rivin. Kun luot myöhemmin maksupäiväkirjan rivin, jolla maksetaan jäljellä oleva laskun summa, **Viety summa yhteensä** -kenttä näyttää, kuinka paljon maksun summasta on jo viety. Lisäksi saat lisätietoja viedystä kokonaissummasta valitsemalla **Hyvityksen siirron rekisterimerkinnät** -painikkeen, joka avaa vietyjen maksutiedostojen tiedot.
@@ -84,6 +76,7 @@ Voit viedä maksutiedostot uudelleen **Hyvityksen siirron rekisterit** -ikkunast
 2. Valitse ensin uudelleenvietävä maksun vienti ja sitten **Vie maksut uudelleen tiedostoon** -toiminto.
 
 ## <a name="see-also"></a>Katso myös
+[Maksujen suorittaminen](payables-make-payments.md)  
 [Ostovelat](payables-manage-payables.md)  
 [Ostojen määrittäminen](purchasing-setup-purchasing.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)

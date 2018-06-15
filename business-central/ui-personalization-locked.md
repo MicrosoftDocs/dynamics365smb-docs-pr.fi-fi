@@ -11,10 +11,10 @@ ms.search.keywords: customize, personalize, personalization, hide columns, remov
 ms.date: 09/07/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c5a8cfafe710e988cd0217db4b2f0c298c4c577e
+ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
+ms.openlocfilehash: 6b225548e95abacc688a97f1c3f8b5e8472a8f8f
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/18/2018
 
 ---
 # <a name="why-a-page-is-locked-from-personalizing"></a>Sivun mukauttamisen estäminen lukitsemalla
@@ -32,5 +32,5 @@ Sivu sisältää tällä hetkellä viimeksi tekemäsi muutokset. Jos haluat jatk
 [Mukautuksen hallinta](ui-personalization-manage.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Perusasetusten muuttaminen](ui-change-basic-settings.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttökokemuksen mukauttaminen](ui-experiences.md)  
+[Näytettävien ominaisuuksien muuttaminen](ui-experiences.md)  
 

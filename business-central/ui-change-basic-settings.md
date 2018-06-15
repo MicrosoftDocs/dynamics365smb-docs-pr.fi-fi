@@ -13,21 +13,21 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.date: 03/02/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: c7f07bd3cee8d52cccf171dfd229265d65e99cba
+ms.sourcegitcommit: 4fceff1a6cf728608a49182a9704f187d31767fe
+ms.openlocfilehash: f71b0e7d53138be0f89abe4e7935ab7c21437d8e
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/28/2018
 
 ---
 # <a name="changing-basic-settings"></a>Perusasetusten muuttaminen
-Voit tarkastella **Omat asetukset** -ikkunassa [!INCLUDE[d365fin](includes/d365fin_md.md)]in perusasetuksia ja muuttaa niitä.  
+Voit tarkastella **Omat asetukset** -ikkunassa [!INCLUDE[d365fin](includes/d365fin_md.md)]in perusasetuksia ja muuttaa niitä. Tekemäsi muutokset vaikuttavat vain omaan työtilaasi; ei muiden käyttäjien työtiloihin.  
 
 ## <a name="role-center"></a>Roolikeskus
-Roolikeskus on aloitussivu, joka on suunniteltu roolin tarpeiden mukaan. Roolikeskus sisältää liiketoiminnan yleiskatsauksen ja roolin tiedot, tehtävät ja prioriteetit.
+Roolikeskus edustaa kotisivua eli aloitussivua, joka on suunniteltu organisaation tiettyä roolia varten. Roolisi mukaan roolikeskus antaa yleiskuvan yrityksestäsi, osastostasi tai henkilökohtaisista tehtävistäsi. Se auttaa myös siirtymään päivittäisten tehtävien välillä ja löytämään työt, jotka on määritetty sinulle.
 
-Roolikeskuksen yläosassa on siirtymispalkki, jonka avulla voi käyttää roolin tyypillisiä objekteja, kuten esimerkiksi asiakkaita, toimittajia ja nimikkeitä.
+-   Yläreunan siirtymisvalikon avulla voit siirtyä asiakkaiden, toimittajien, nimikkeiden ja muiden tärkeiden tietoluetteloiden välillä. Vastaavasti toimintojen avulla voit aloittaa tehtävät, kuten luoda uuden myyntilaskun suoraan roolikeskuksesta.
 
-Sisällön pääalueella näkyvät kohteet määräytyvät roolikeskuksen mukaan. Useimmissa roolikeskuksissa on Toimenpiteet-ruudut, joissa näkyvät nykyiset tiedot. Niitä napsauttamalla tai napauttamalla voi siirtyä helposti valittuun asiakirjaan. Suorituskykyilmaisimet voidaan määrittää niin, että ne näyttävät visuaalisesti esimerkiksi kassavirran tai tuottojen ja kulujen valitun kaavion. Joissakin roolikeskuksissa voi muodostaa luettelon suosikkikohteista, kuten asiakkaista ja toimittajista, ja näyttää Saapuneet raportit -kohdan.
+-   Keskellä ovat **Toimenpiteet**. Toimenpiteissä näkyvät nykyiset tiedot, joista saa yksityiskohtaisia tietoja napsauttamalla tai napauttamalla. Suorituskykyilmaisimet voidaan määrittää niin, että ne näyttävät visuaalisesti esimerkiksi kassavirran tai tuottojen ja kulujen valitun kaavion. Voit luoda kotisivulla myös suosikkiasiakkaiden luettelon niitä asiakkaita varten, joiden kanssa käyt kauppaa usein tai jotka vaativat erityishuomiota.
 
 ### <a name="to-change-role-center"></a>Roolikeskuksen vaihtaminen
 Oletusroolikeskus on **Liiketoimintajohtaja**, mutta voit valita tarvittaessa toisen roolikeskuksen.
@@ -55,10 +55,16 @@ Oletuskäsittelypäivä on yleensä kuluvan päivän päivämäärä. Saatat jou
 ## <a name="region"></a>Alue
 **Alue**-asetus määrittää, miten päivämäärät, ajat, luvut ja valuutat näkyvät tai miten ne on muotoiltu.   
 
+
+## <a name="language"></a>Kieli
+Muuttaa näyttökielen. Tämä kenttä näkyy vain, kun useita kieliä voi valita. 
+
+Alkuperäinen kieli määräytyy joko järjestelmänvalvojan asettamien tai selaimen asetusten mukaan, kun rekisteröidyt [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovellukseen. Määrittämääsi kieltä käytetään kaikissa laitteissa, joista kirjaudut, esimerkiksi puhelimessa ja tabletissa. 
+
 ## <a name="changing-when-i-receive-notifications"></a>Ilmoitusten vastaanoton ajankohta-asetusten muuttaminen
 Valitsemalla tämän linkin voit tarkastella tai muuttaa ilmoituksia, joita saat tietyistä tapahtumista tai tilamuutoksista esimerkiksi silloin, kun olet laskuttamassa asiakasta, jolla on erääntynyttä saldoa, tai kun käytettävissä oleva varasto on pienempi kuin myytävä määrä. Lisätietoja on kohdassa [Älykkäät ilmoitukset](ui-smart-notifications.md).
 
 ## <a name="see-also"></a>Katso myös
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttökokemuksen mukauttaminen](ui-experiences.md)  
+[Näytettävien ominaisuuksien muuttaminen](ui-experiences.md)  
 

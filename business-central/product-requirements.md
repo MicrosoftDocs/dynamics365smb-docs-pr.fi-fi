@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 09/22/2017
+ms.date: 04/17/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 41788b3fb69c9294990a06643e855f4082c750ab
+ms.sourcegitcommit: dc7e739bc2b8ac9e8efce3a0f52acb945352416e
+ms.openlocfilehash: a1910acdfb80de7a7e6a4d1b701bf1108b384996
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/19/2018
 
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Business Central -sovelluksen käytön vähimmäisvaatimukset
@@ -36,6 +36,9 @@ Suosittelemme, että tietokoneen tai mobiililaitteen tuotteelle asetettujen jär
 **Outlook-sovellukset:** Jos haluat käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]ia Outlookin yrityssähköpostina, tarvitset Outlook 2013:n tai uudemman, Outlook Web Appin, OWA for iPhonen, OWA for iPadin tai OWA for Androidin.  
 **Selaimet:** Kun [!INCLUDE[d365fin](includes/d365fin_md.md)] on käytössä Outlookin yrityssähköpostina Outlook Web Appissa (OWA), apuohjelma edellyttää, että yritys käyttää jotakin aiemmin tässä artikkelissa mainittua tuettua selainta.  
 **Alustat:** Kun käytössä on [!INCLUDE[d365fin](includes/d365fin_md.md)] Outlookin apuohjelma OWA for iPhone-, OWA for iPad- tai OWA for Android -sovelluksessa, apuohjelma edellyttää, että mobiililaitteessa käytetään [!INCLUDE[d365fin](includes/d365fin_md.md)]in tuettujen mobiililaitteiden luettelossa mainittua mobiililaitetta.  
+
+## <a name="excel"></a>Excel
+**Muokkaa Excelissä:** Jotta voit tehdä muutoksia Excelissä ja tuoda muutokset takaisin [!INCLUDE[d365fin](includes/d365fin_md.md)]:een Excel-lisäosan avulla, tarvitset Excel 2016 -version tai uudemman. Lisätietoja on kohdassa [Rahoituslaskelmien analysointi Microsoft Excelissä](finance-analyze-excel.md).  
 
 ## <a name="see-also"></a>Katso myös
 [Käytön aloittaminen](product-get-started.md)  

@@ -12,10 +12,10 @@ ms.search.keywords: personalize, add-in, extend, customize
 ms.date: 03/19/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 940f5380e57e6af22958854d12a5bd2006b861e3
+ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
+ms.openlocfilehash: 7adad8c33771d478125c7f6ecb8256f5109f5f02
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/18/2018
 
 ---
 # <a name="customizing-business-central"></a>Business Central -sovelluksen mukauttaminen
@@ -25,7 +25,7 @@ Sovelluksen voi mukauttaa useilla eri tavoilla, jotta sinä ja työtoverisi voit
 | Sallitut toimet    |  Description  |  Muutosten näkijät  |  Lisätietoja  |
 |-----|---------------|---------|-------|
 |Laajennuksen asentaminen|Laajennukset ovat kuin pieniä sovelluksia, jotka esimerkiksi sisältävät lisätoimintoja, muuttavat toimintaa tai mahdollistavat uuden online-palvelun käyttöoikeuden. Microsoft tarjoaa esimerkiksi laajennuksen, joka mahdollistaa integroinnin PayPal Payments Standard -ohjelman kanssa.|Kaikki yrityksen käyttäjät.|[Laajennusten käyttämisen mukauttaminen](ui-extensions.md)|
-|Vaihda käyttäjäkokemus|**Käyttökokemus**-asetus määrittää, miten suuri osa toimintoja näytetään käyttöliittymässä. Valitse Basic, Essential tai Premium.|Kaikki tietyn yrityksen käyttäjät.|[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttökokemuksen mukauttaminen](ui-experiences.md)|
+|Vaihda käyttöliittymäelementit, jotka ovat näkyvissä.|**Käyttökokemus**-asetus määrittää, miten suuri osa toimintoja näytetään käyttöliittymässä. Valitse Basic, Essential tai Premium.|Kaikki tietyn yrityksen käyttäjät.|[Näytettävien ominaisuuksien muuttaminen](ui-experiences.md)|
 |Mukauta työtilaa|Muuta sivujen asettelua ja sisältöä.|Vain sinä.|[Työtilan mukauttaminen](ui-personalization-user.md)|
 
 ## <a name="see-also"></a>Katso myös

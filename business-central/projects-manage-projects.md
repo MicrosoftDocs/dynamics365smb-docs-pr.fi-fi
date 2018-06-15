@@ -13,10 +13,10 @@ ms.search.keywords: projects
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f13343d8f0a18832c9f1ed16f02e79f9a59b5f12
+ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
+ms.openlocfilehash: 545c09e5b462dd712dffa68a27341b1acde17071
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/18/2018
 
 ---
 # <a name="project-management"></a>Projektinhallinta
@@ -40,7 +40,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 
 ## <a name="see-also"></a>Katso myös
 [Projektinhallinnan määrittäminen](projects-setup-projects.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttökokemuksen mukauttaminen](ui-experiences.md)      
+[Näytettävien ominaisuuksien muuttaminen](ui-experiences.md)      
 [Osto](purchasing-manage-purchasing.md)         
 [Myynti](sales-manage-sales.md)    
 [Rahoitus](finance.md)  

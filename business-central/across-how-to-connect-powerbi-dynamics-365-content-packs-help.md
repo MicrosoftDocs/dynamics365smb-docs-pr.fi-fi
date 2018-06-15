@@ -12,10 +12,10 @@ ms.date: 04/03/2018
 ms.author: solsen
 redirect_url: admin-powerbi
 ms.translationtype: HT
-ms.sourcegitcommit: 9cad9c7e2b54506e60af7d38d42f413599a44d01
-ms.openlocfilehash: 7b9140611a47b8b823274763731cf000258c681e
+ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
+ms.openlocfilehash: 0196bff5dedb878884fd3d6e0208022faa968dfd
 ms.contentlocale: fi-fi
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 05/17/2018
 
 ---
 # <a name="connecting-power-bi-to-dynamics-365-business-central-content-packs"></a>Power BI- ja Dynamics 365 Business Central -sisältöpakettien yhdistäminen
@@ -142,7 +142,7 @@ Jos annat yhteydenmuodostusprosessin aikana yrityksen nimen, joka ei ole sallitt
 [Power BI – peruskäsitteet](https://docs.microsoft.com/en-us/power-bi/service-basic-concepts)  
 [Business Intelligence](bi.md)  
 [Käytön aloittaminen](product-get-started.md)  
-[Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä](upload-data.md)  
+[Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittäminen](setup.md)  
 [Rahoitus](finance.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]in raportoinnin määrittäminen Power BI:ssä](across-how-use-financials-data-source-powerbi.md)  

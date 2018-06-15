@@ -11,10 +11,10 @@ ms.search.keywords: company, setup wizard
 ms.date: 03/02/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: a591dbe198994c8b926b30beae4f901ffd6d5bc4
+ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
+ms.openlocfilehash: ce2fd5c5027fc54c92bf5ffc63b70c84d81f26b3
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/17/2018
 
 ---
 # <a name="creating-new-companies-in-included365finincludesd365finmdmd"></a>Uusien yritysten luominen [!INCLUDE[d365fin](includes/d365fin_md.md)]issa
@@ -50,7 +50,7 @@ Kun perustiedot on annettu, voi määrittää loput keskeiset alueet. Sen jälke
 ## <a name="see-also"></a>Katso myös
 [Business Central -sovelluksen mukauttaminen](ui-customizing-overview.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittäminen](setup.md)  
-[Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä](upload-data.md)  
+[Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md)  
 [Perusasetusten muuttaminen](ui-change-basic-settings.md)  
 [Käytön aloittaminen](product-get-started.md)  
 

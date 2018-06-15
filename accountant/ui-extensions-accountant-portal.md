@@ -11,13 +11,13 @@ ms. search.keywords: app, add-in, manifest, customize, accountant
 ms.date: 10/23/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: d5d684e00a88ab60e3dedbb57b1c49faf549bf3b
+ms.sourcegitcommit: 4fceff1a6cf728608a49182a9704f187d31767fe
+ms.openlocfilehash: d75e50429f58c3834993ee392d274f6c8ba8a00f
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/28/2018
 
 ---
-# <a name="accountant-portal-for-dynamics-365-for-finance-and-operations-business-edition"></a>Dynamics 365 for Finance and Operations, Business editionin kirjanpitäjän portaali
+# <a name="accountant-portal-for-dynamics-365-business-central"></a>Dynamics 365 Business Centralin kirjanpitäjän portaali
 Tämä sovellus toimii portaalina, jossa on kirjanpitäjän jokaisen asiakasohjelman yhteenvetotiedot. Portaalissa on esillä taloushallinnon tunnuslukujen lisäksi myös suora linkki asiakasohjelman taloushallinnon sovellukseen.  
 
 Portaalissa on erikoistunut roolikeskus – koontinäyttönä sen kautta saa hyvän kokonaiskuvan asiakasohjelmista.  
@@ -26,7 +26,7 @@ Portaalissa on erikoistunut roolikeskus – koontinäyttönä sen kautta saa hyv
 Kun laajennus asennetaan ensimmäisen kerran, pääset alkuun malliyrityksen avulla. Voit poistaa malliyrityksen koska tahansa.  
 
 ## <a name="installing-the-extension"></a>Laajennuksen asentaminen
-Kun lisäät laajennuksen [!INCLUDE[d365fin](includes/d365fin_md.md)]iin, se korvaa nykyisen roolikeskuksen ja lisää käyttöoikeudet profiiliisi. Tämän vuoksi sinun on kirjauduttava ulos ja takaisin sisään muutamia kertoja.  
+Kun lisäät laajennuksen [!INCLUDE [d365fin](includes/d365fin_md.md)]iin, se korvaa nykyisen roolikeskuksen ja lisää käyttöoikeudet profiiliisi. Tämän vuoksi sinun on kirjauduttava ulos ja takaisin sisään muutamia kertoja.  
 
 ## <a name="see-also"></a>Katso myös
 [Tervetuloa [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]iin!](index.md)  

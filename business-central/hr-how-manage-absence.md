@@ -12,10 +12,10 @@ ms.workload: na
 ms.date: 09/08/2017
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f445ae26c3586016b350cfee2c594a4f7d636595
+ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
+ms.openlocfilehash: 09866f6774af5b2d9644015e986772052146d901
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/18/2018
 
 ---
 # <a name="manage-employee-absence"></a>Työntekijöiden poissaolojen hallinta
@@ -72,5 +72,5 @@ Voit rekisteröidä työntekijöiden poissaolot päivittäin tai muulta aikaväl
 [Henkilöstöresurssien hallinta](hr-manage-human-resources.md)  
 [Rahoitus](finance.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttökokemuksen mukauttaminen](ui-experiences.md)
+[Näytettävien ominaisuuksien muuttaminen](ui-experiences.md)
 

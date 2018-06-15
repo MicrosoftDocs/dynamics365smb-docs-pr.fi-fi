@@ -1,1 +1,1 @@
-Tämä on varhainen versio toiminto, jota kehitetään edelleen. Toiminto ja tämän sivun sisältö voi muuttua. Lisätietoja tulevasta on sivustossa [Microsoft Dynamics 365 for Finance and Operations, Business edition Roadmap](https://go.microsoft.com/fwlink/?linkid=842139).
+Tämä on varhainen versio toiminto, jota kehitetään edelleen. Toiminto ja tämän sivun sisältö voi muuttua. Saat tietoja tulevasta [lataamalla Kevät 18 -päivityksen julkaisutiedot](http://download.microsoft.com/download/1/C/0/1C0A4DB7-9CE8-4D25-AC7F-65579E713BA8/ReleaseNotes_Dynamics365_03192018.pdf).

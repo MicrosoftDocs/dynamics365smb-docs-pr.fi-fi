@@ -1,22 +1,20 @@
 ---
-title: "KP-raporttimallien kanssa työskentely| Microsoft Docs"
+title: "Luo taloudellisia raportteja KP-raporttimalleja käyttäen"
 description: "Kuvailee, miten KP-raporttimalleja voidaan käyttää erilaisten näkymien ja raporttien luomiseen taloushallinnon suorituskykytietojen analysointia varten."
-services: project-madeira
-documentationcenter: 
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 01/25/2018
-ms.author: sgroespe
+ms.date: 04/16/2018
+ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d01bd220571b7b87d9e631c8a4d75bef951c7433
+ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
+ms.openlocfilehash: f9f5b3a25a24d4d10c80d048153e68030733bf9e
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/18/2018
 
 ---
 # <a name="work-with-account-schedules"></a>KP-raporttimallien käyttäminen
@@ -72,7 +70,98 @@ KP-raporttimallin käyttäminen pääkirjanpidon lukuja ja pääkirjanpidon budj
 8. Valitse **Dimensiosuodattimet**-pikavälilehti ja määritä Budjettisuodatus-kentässä haluamasi suodattimen nimi.  
 9. Valitse **OK**-painike.  
 
-Nyt voit kopioida ja liittää budjettierittelyn laskentataulukkoon.
+Nyt voit kopioida ja liittää budjettierittelyn laskentataulukkoon.  
+
+## <a name="comparing-accounting-periods-using-period-formulas"></a>Kirjanpitojaksojen vertaaminen käyttäen jakson kaavoja
+KP-raporttimalli voi verrata eri kirjanpitojaksojen tuloksia, kuten tämän kuun tuloksia edellisen vuoden saman kuukauden tuloksiin. Voit tehdä tämän lisäämällä sarakkeen, jossa on **Vertailujakson laskukaava** -kenttä ja sitten määrittämällä kentän arvoksi jakson kaava.  
+
+Kirjanpitojakson ei tarvitse vastata kalenteria, mutta jokaisessa tilikaudessa on oltava sama määrä kirjanpitojaksoja, vaikka jaksot voivatkin olla eripituisia.   
+
+[!INCLUDE[d365fin](includes/d365fin_md.md)] laskee jakson kaavan avulla vertailujakson summan suhteessa raporttipyynnön päivämääräsuodattimen jaksoon. Vertailujakso perustuu päivämääräsuodatuksen aloituspäivämäärän jaksoon. Jaksomääritysten lyhenteet ovat seuraavat:
+
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Lyhenne</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>J</p></td>
+<td><p>Jakso</p></td>
+</tr>
+<tr class="even">
+<td><p>VJ</p></td>
+<td><p>Tilikauden, puolen vuoden tai neljänneksen viimeinen jakso.</p></td>
+</tr>
+<tr class="odd">
+<td><p>NJ</p></td>
+<td><p>Tilikauden, puolen vuoden tai neljänneksen nykyinen jakso.</p></td>
+</tr>
+<tr class="even">
+<td><p>TK</p></td>
+<td><p>Tilikausi. Esimerkiksi TK[1..3] tarkoittaa kuluvan tilikauden ensimmäistä neljännestä.</p></td>
+</tr>
+</tbody>
+</table>
+
+Esimerkkejä kaavoista:
+
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Kaava</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>&lt;Tyhjä&gt;</p></td>
+<td><p>Nykyinen jakso</p></td>
+</tr>
+<tr class="even">
+<td><p>-1J</p></td>
+<td><p>Edellinen jakso</p></td>
+</tr>
+<tr class="odd">
+<td><p>-1TK[1..EJ]</p></td>
+<td><p>Koko edellinen tilikausi</p></td>
+</tr>
+<tr class="even">
+<td><p>-1TK</p></td>
+<td><p>Nykyinen jakso edellisenä tilikautena</p></td>
+</tr>
+<tr class="odd">
+<td><p>-1TK[1..3]</p></td>
+<td><p>Edellisen tilikauden ensimmäinen vuosineljännes</p></td>
+</tr>
+<tr class="even">
+<td><p>-1TK[1..NJ]</p></td>
+<td><p>Edellisen tilikauden alusta lähtien, edellisen tilikauden nykyiseen jaksoon asti, se mukaan lukien</p></td>
+</tr>
+<tr class="odd">
+<td><p>-1TK[NJ..EJ]</p></td>
+<td><p>Edellisen tilikauden nykyisestä jaksosta alkaen, aina edellisen tilikauden viimeiseen jaksoon asti, se mukaan lukien</p></td>
+</tr>
+</tbody>
+</table>
+
+Jos haluat laskea tavallisten jaksojen mukaan, syötä kaava sen sijaan **Vertailu pvm -kaava** -kenttään.
+
+> [!NOTE]
+> Ei ole aina selvää, mitä kausia vertailet, koska voit asettaa päivämääräsuodatuksen raportille, joka sijoittuu eri päivämääräväleille kuin kirjanpitojaksot, jotka näkyvät tilikartan tiedoissa. Voit esimerkiksi luoda KP-raporttimallin, jossa haluat verrata tätä jaksoa edellisen vuoden samaan jaksoon siten, että määrität **Vertailun päivämääräjakson suodatus** -kentän arvoksi *-1FY*. Tämän jälkeen raportti suoritetaan helmikuun 28. päivä ja määrität päivämääräsuodatukseksi tammikuun ja helmikuun. Tämän tuloksena KP-raporttimalli vertaa tämän vuoden tammikuuta ja helmikuuta edellisen vuoden tammikuuhun, joka on ainut viime vuonna valmistuneesta kirjanpitojaksosta.  
+
 
 ## <a name="see-also"></a>Katso myös
 [Business Intelligence](bi.md)  

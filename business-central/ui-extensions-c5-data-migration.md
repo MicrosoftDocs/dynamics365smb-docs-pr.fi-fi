@@ -1,6 +1,6 @@
 ---
 title: "C5-tietojen siirtolaajennuksen käyttäminen | Microsoft Docs"
-description: "Voit käyttää tätä laajennusta asiakkaiden, toimittajien, nimikkeiden ja pääkirjanpidon tilien siirtämiseen Microsoft Dynamics C5 2012:sta Financialsiin."
+description: "Voit käyttää tätä laajennusta asiakkaiden, toimittajien, nimikkeiden ja pääkirjanpidon tilien siirtämiseen Microsoft Dynamics C5 2012:sta Business Centraliin."
 services: project-madeira
 documentationcenter: 
 author: bholtorf
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
-ms.date: 11/21/2017
+ms.date: 04/09/208
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 7fe6393ad43dbad032512b2d6d45cc8ee0392236
+ms.sourcegitcommit: fa6779ee8fb2bbb453014e32cb7f3cf8dcfa18da
+ms.openlocfilehash: 698bde6949c6053501881d07135586810fc81bdd
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/11/2018
 
 ---
 
@@ -26,7 +26,7 @@ Tämän laajennuksen avulla on helppo siirtää asiakkaita, toimittajia, nimikke
 > [!Note]
 > [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman yrityksessä ei saa olla tietoja. Kun siirto on käynnistetty, asiakkaiden, toimittajien, nimikkeiden tai tilien luominen ei ole sallittua. Voit luoda niitä siirron valmistuttua.
 
-##<a name="what-data-is-migrated"></a>Mitkä tiedot siirretään?
+## <a name="what-data-is-migrated"></a>Mitkä tiedot siirretään?
 Seuraavat kunkin objektit tiedot siirretään:
 
 **Asiakkaat**
@@ -86,6 +86,13 @@ Jos siirrät tilit, myös seuraavat tiedot siirretään:
 > [!Note]
 > Jos avoimissa tapahtumissa käytetään ulkomaanvaluuttoja, myös kyseisten valuuttojen vaihtokurssit siirretään. Muita vaihtokursseja ei siirretä.
 
+**Tilikartta**  
+* Vakiodimensiot: osasto, kustannupaikka, tarkoitus  
+* Historialliset KP-tapahtumat  
+
+> [!Note]
+> Historialliset KP-tapahtumat, joita käsitellään hieman eri tavalla. Kun siirrät tietoja, määrität **Nykyinen jakso** -parametrin. Tämä parametri määrittää, miten KP-tapahtumia käsitellään. Tämän päivämäärän jälkeen tapahtumat siirretään erikseen. Tapahtumat ennen tätä päivämäärää koostetaan tilikohtaisesti ja siirretään yhtenä summana. Esimerkiksi oletetaan, että tapahtumia on vuosina 2015, 2016, 2017 ja 2018, ja määrität 1. tammikuuta 2017 Nykyinen jakso -kenttään. Kunkin tilin tapahtumien 31.12.2016 tai sitä ennen summat kootaan yhteen yleisen päiväkirjan riviin kullekin KP-tilille. Kaikki tapahtumat tämän päivämäärän jälkeen siirretään yksitellen.
+
 ## <a name="to-migrate-data"></a>Tietojen siirtäminen
 Tietojen siirtäminen C5:stä ja tuominen [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmasta edellyttää vain seuraavien vaiheiden suorittamista:  
 
@@ -101,6 +108,13 @@ Voit valvoa siirron onnistumista **Tietojen siirron yleiskuvaus** -sivulla. Sivu
 
 > [!Note]
 > Päivitä sivu, jotta siirron tulokset näkyvät sivulla.
+
+## <a name="how-to-avoid-double-posting"></a>Miten voit välttää kaksinkertaisen kirjauksen
+Voit välttää kaksinkertaisen kirjaamisen pääkirjanpitoon, käyttämällä seuraavia vastatilejä avoimille tapahtumille:  
+  
+* Toimittajia varten käytetään ostoreskontratiliä toimittajan kirjausryhmästä.  
+* Asiakkaita varten käytetään myyntireskontratiliä asiakkaan kirjausryhmästä.  
+* Nimikkeille luodaan yleinen kirjausasetus, missä oikaisutili on tili, joka on määritetty varastotiliksi varaston kirjausasetuksissa.  
 
 ## <a name="correcting-errors"></a>Virheiden korjaaminen
 Jos siirrossa tapahtuu virheitä, **Tila**-kentän arvoksi tulee **Valmis (löytyi virheitä)**. **Virheiden määrä** -kenttä osoittaa virheiden määrän. Voit tarkastella virheluetteloa, kun avaat **Tietojen siirron virheet** -sivun valitsemalla seuraavat kohdat:  
@@ -119,13 +133,12 @@ Voit korjata virheen **Tietojen siirron virheet** -sivulla valitsemalla virhesan
 ## <a name="verifying-data-after-migrating"></a>Tietojen tarkistaminen siirron jälkeen
 Yksi tapa tarkistaa, että tiedot on siirretty oikein, on katsoa seuraavia C5:n ja [!INCLUDE[d365fin](includes/d365fin_md.md)]in sivuja.
 
-|Microsoft Dynamics C5 2012 | [!INCLUDE[d365fin](includes/d365fin_md.md)]|
-|-----|-----|
-|Asiakastapahtumat| Yleiset päiväkirjat|
-|Toimittajatapahtumat| Yleiset päiväkirjat|
-|Nimiketapahtumat| Nimikepäiväkirjat|
-
-Siirrettyjen tietojen erän nimeksi annetaan [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmassa **C5MIGRATE**.
+|Microsoft Dynamics C5 2012 | [!INCLUDE[d365fin](includes/d365fin_md.md)]| Käytettävä eräajo |
+|-----|-----|-----|
+|Asiakastapahtumat| Yleiset päiväkirjat| CUSTMIGR |
+|Toimittajatapahtumat| Yleiset päiväkirjat| VENDMIGR|
+|Nimiketapahtumat| Nimikepäiväkirjat| ITEMMIGR |
+|KP-tapahtumat| Yleiset päiväkirjat| GLACMIGR |
 
 ## <a name="stopping-data-migration"></a>Tietojen siirron pysäyttäminen
 Voit pysäyttää tietojen siirron valitsemalla **Pysäytä kaikki siirrot**. Jos teet näin, kaikki odottavat siirrot pysäytetään.

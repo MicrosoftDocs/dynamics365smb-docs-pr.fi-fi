@@ -1,8 +1,6 @@
 ---
 title: "Kontaktihenkilöiden luominen| Microsoft Docs"
 description: "Tässä ohjeaiheessa kerrotaan, miten luodaan kontaktin kortti kullekin sellaiselle uudelle henkilölle tai prospektille, joiden kanssa sinulla on liikesuhde."
-services: project-madeira
-documentationcenter: 
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 06/06/2017
+ms.date: 05/09/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5a5f1bc0157309c18f92253803b27ccc29263e84
+ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
+ms.openlocfilehash: 38f42e4d44dd38fe70816035711e00561fd9e777
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/15/2018
 
 ---
 # <a name="create-contact-persons"></a>Kontaktihenkilöiden luominen
@@ -43,5 +41,6 @@ Voit luoda kontaktikortin jokaiselle yhteyshenkilölle, joka työskentelee sella
 [Vastuualueiden määrittäminen kontakteille](marketing-job-responsibilities.md)  
 [Kontaktihenkilöiden organisaatiotasojen määrittäminen](marketing-organizational-levels.md)  
 [Kontaktien synkronoiminen asiakkaiden, toimittajien ja pankkitilien kanssa](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  
+[Liiketoimintakontaktien luokittelu profiilikyselyiden avulla](marketing-create-contact-profile-questionnaire.md)  
 [Business Central -sovelluksen käyttäminen](ui-work-product.md)  
 

@@ -1,1 +1,1 @@
-Lue kentän lyhyt kuvaus valitsemalla kenttä tai siirry lisätietoihin valitsemalla linkki.
+Lue lyhyt kuvaus siirtämällä kohdistin kentän päälle.

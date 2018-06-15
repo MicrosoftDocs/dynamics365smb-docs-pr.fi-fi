@@ -10,10 +10,10 @@ ms.workload: na
 ms.date: 03/16/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 1595f5020a0da7b2899ba056f135ff5e88985d38
+ms.sourcegitcommit: 4fceff1a6cf728608a49182a9704f187d31767fe
+ms.openlocfilehash: f1d432ae73696e9e81bdc96c939051b676008e54
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/28/2018
 
 ---
 # <a name="troubleshooting-self-service-sign-up"></a>Itsepalvelun rekisteröitymisen vianmääritys
@@ -33,29 +33,26 @@ Jos yrität rekisteröityä käyttämällä henkilökohtaista sähköpostiosoite
 | Henkilökohtaisia sähköpostiosoitteita, kuten nancy@gmail.com, ei tueta. Näyttöön tulee rekisteröitymisen yhteydessä seuraavan tyyppinen viesti:<br /><br />**Annoit henkilökohtaisen sähköpostiosoitteen: anna työsähköpostiosoite, jotta yrityksen tiedot voidaan tallentaa turvallisesti.**<br> tai <br> **Tämä näyttää henkilökohtaiselta sähköpostiosoitteelta. Anna työsähköpostiosoite, jotta voimme yhdistää sinut muihin yrityksesi henkilöihin. Eikä hätää; Microsoft ei jaa osoitettasi kenenkään kanssa.** |[!INCLUDE[d365fin](includes/d365fin_md.md)] ei tue kuluttajille tarkoitettujen sähköpostipalveluiden ja tietoliikennepalveluiden tarjoajien sähköpostiosoitteita. Tee rekisteröityminen valmiiksi yrittämällä uudelleen työpaikan tai koulun myöntämällä sähköpostiosoitteella. Jos rekisteröityminen ei onnistu vieläkään ja haluat kokeilla monimutkaisempaa asetusprosessia, voit rekisteröityä uuteen Office 365 -kokeiluversioon ja rekisteröityä kyseisellä sähköpostiosoitteella. |
 | sähköpostiosoitteet .gov tai .mil. Rekisteröitymisen yhteydessä saat seuraavan tyyppisen viestin:<br /><br />**[!INCLUDE[d365fin](includes/d365fin_md.md)] ei ole käytettävissä: [!INCLUDE[d365fin](includes/d365fin_md.md)] ei ole tällä hetkellä niiden käyttäjien käytettävissä, joiden sähköpostiosoitteen pääte on .gov tai .mil. Käytä toista työsähköpostiosoitetta tai yritä myöhemmin uudelleen.** <br>tai <br>**Rekisteröityminen ei onnistu. Näyttää siltä, että [!INCLUDE[d365fin](includes/d365fin_md.md)] ei ole tällä hetkellä työpaikkasi tai koulusi käytettävissä.** |[!INCLUDE[d365fin](includes/d365fin_md.md)] ei tue tällä hetkellä sähköpostiosoitteita, joiden pääte on .gov tai .mil. |
 | Itsepalvelun rekisteröityminen ei ole käytössä. Näyttöön tulee rekisteröitymisen yhteydessä seuraavan tyyppinen viesti:<br /><br />**Rekisteröityminen ei onnistu. IT-osasto on poistanut [!INCLUDE[d365fin](includes/d365fin_md.md)]iin kirjautumisen käytöstä. Ota IT-osastoon yhteys, kun haluat viimeistellä rekisteröitymisen.** <br>tai <br> **Tämä näyttää henkilökohtaiselta sähköpostiosoitteelta. Anna työsähköpostiosoite, jotta voimme yhdistää sinut muihin yrityksesi henkilöihin. Eikä hätää; Microsoft ei jaa osoitettasi kenenkään kanssa.** |Organisaation IT-järjestelmänvalvoja on poistanut [!INCLUDE[d365fin](includes/d365fin_md.md)]in itsepalvelun rekisteröitymisen käytöstä. Viimeistele rekisteröityminen ottamalla yhteys IT-osastoon ja pyytämällä heitä noudattamaan alla olevan sivun ohjeita. Niiden avulla nykyiset käyttäjät voivat rekisteröityä [!INCLUDE[d365fin](includes/d365fin_md.md)]iin ja uudet käyttäjät voivat liittyä olemassa olevaan vuokraajaan. Tämä ongelma saattaa esiintyä myös silloin, kun rekisteröidyt Office 365:een kumppanin kautta. |
-| Sähköpostiosoite ei ole Office 365:n tunnus. Näyttöön tulee rekisteröitymisen yhteydessä seuraavan tyyppinen viesti:<br /><br />**Sähköpostiosoitettasi ei löydy contoso.com-tiedoista. Käytätkö eri tunnusta töissä tai koulussa? Yritä rekisteröityä tällä toisella tunnuksella. Jos rekisteröityminen ei onnistu, ota yhteys yrityksen IT-osastoon.** |Organisaatiosi kirjautuu Office 365:een ja muihin Microsoft-palveluihin tunnuksilla eikä sähköpostiosoitteella. Esimerkiksi sähköpostiosoite voi olla Nancy.Smith@contoso.com mutta tunnus onkin nancys@contoso.com. Viimeistele rekisteröityminen käyttämällä tunnusta, jonka organisaatio on määrittänyt Office 365:een tai muihin Microsoft-palveluihin rekisteröitymistä varten. Jos et tiedä tunnusta, ota yhteys IT-järjestelmänvalvojaan. Jos rekisteröityminen ei onnistu vieläkään ja haluat kokeilla monimutkaisempaa asetusprosessia, voit rekisteröityä uuteen Office 365 -kokeiluversioon ja rekisteröityä kyseisellä sähköpostiosoitteella. |
+| Sähköpostiosoite ei ole Office 365:n tunnus. Näyttöön tulee rekisteröitymisen yhteydessä seuraavan tyyppinen viesti:<br /><br />**Sähköpostiosoitettasi ei löydy contoso.com-tiedoista. Käytätkö eri tunnusta töissä tai koulussa? Yritä rekisteröityä tällä toisella tunnuksella. Jos rekisteröityminen ei onnistu, ota yhteys yrityksen IT-osastoon.** |Organisaatiosi kirjautuu Office 365:een ja muihin Microsoft-palveluihin tunnuksilla eikä sähköpostiosoitteella. Sähköpostiosoitteesi voi olla esimerkiksi Nancy.Smith@contoso.com, kun taas tunnuksesi voi olla nancys@contoso.com. Voit tehdä rekisteröitymisen valmiiksi käyttämällä tunnusta, jonka organisaatio on määrittänyt Office 365:een tai muihin Microsoft-palveluihin rekisteröitymistä varten. Jos et tiedä tunnusta, ota yhteys IT-järjestelmänvalvojaan. Jos rekisteröityminen ei onnistu vieläkään ja haluat kokeilla monimutkaisempaa asetusprosessia, voit rekisteröityä uuteen Office 365 -kokeiluversioon ja rekisteröityä kyseisellä sähköpostiosoitteella. |
 | Jos Office 365 -tili on rekisteröity tuetussa maassa ja olet rekisteröitymässä [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmaan eri maassa, näyttöön tulee rekisteröitymisen yhteydessä seuraavan tyyppinen viesti:<br /><br />**Toiminto ei onnistunut. Microsoft ei vielä tue maatasi tai aluettasi.**| Organisaation Office 365 -tilaus on rekisteröity tietyssä maassa Office 365:n hallintaportaalissa. [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman rekisteröitymisessä käytetään nykyisen selaimen kieltä ja kielialuetta. Tämän vuoksi saatat saada virhesanoman, vaikka sijaintisi olisi tuettu maa. Pyydä IT-järjestelmänvalvojaa tarkistamaan [Office 365:n hallintaportaalin](https://portal.office.com/adminportal/home#/companyprofile) organisaatioprofiilissa määritetty maa. Saatat joutua käyttämään eri tiliä [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmassa.|
 
 ## <a name="regional-availability"></a>Aluekohtainen saatavuus
 [!INCLUDE[d365fin](includes/d365fin_md.md)] on tällä hetkellä saatavana seuraavilla markkinoilla:
 
-*   Eurooppa:
-  * Itävalta
-  * Belgia
-    * Tanska
-  * Saksa
-  * Suomi
-  * Ranska
-  * Italia
-  * Alankomaat
-  * Espanja
-  * Ruotsi
-  * Sveitsi
-  * Iso-Britannia
-*   Pohjois-Amerikka:
-  * Kanada
-  * Yhdysvallat
-
+| Eurooppa | Pohjois-Amerikka |
+| --- | --- |
+| Itävalta | Kanada |
+| Belgia | Yhdysvallat |
+| Tanska | |
+| Saksa | |
+| Suomi | |
+| Ranska | |
+| Italia | |
+| Alankomaat | |
+| Espanja | |
+| Ruotsi | |
+| Sveitsi | |
+| Iso-Britannia | |
 
 ## <a name="see-also"></a>Katso myös
 [Tervetuloa [!INCLUDE[d365fin](includes/d365fin_long_md.md)]iin!](index.md)  
