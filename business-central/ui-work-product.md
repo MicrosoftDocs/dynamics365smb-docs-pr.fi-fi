@@ -49,5 +49,5 @@ Seuraava taulukko sisältää joitakin yleisiä toimintoja ja linkkejä niitä k
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

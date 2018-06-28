@@ -68,5 +68,5 @@ Voit jatkaa luomalla uusia myynti- tai ostoasiakirjoja siirrettyjen tietojen per
 [Käyttäjien ja käyttöoikeuksien hallinta](ui-how-users-permissions.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

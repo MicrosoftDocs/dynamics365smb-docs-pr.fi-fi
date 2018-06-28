@@ -40,5 +40,5 @@ Tässä sisällössä on yksityiskohtaisia teknisiä tietoja [!INCLUDE[d365fin](
  [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
 
  ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- ## [!INCLUDE[d365fin](includes/training_link_md.md)]
+  
 

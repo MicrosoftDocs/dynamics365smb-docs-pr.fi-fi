@@ -64,5 +64,5 @@ Joidenkin alueiden edellytyksenä on, että käyttäjä on [!INCLUDE[d365fin](in
 [Käytön aloittaminen](product-get-started.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 
