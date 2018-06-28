@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 01/02/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ceb323211f6b0058d5b48ae11b4bd91dca32caee
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: 0b387e6f1f0daf48a0244d0f840dd314d5c53289
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="finland-local-functionality"></a><span data-ttu-id="f5744-103">Suomen paikalliset toiminnot</span><span class="sxs-lookup"><span data-stu-id="f5744-103">Finland Local Functionality</span></span>
@@ -33,5 +33,5 @@ ms.lasthandoff: 03/22/2018
 <span data-ttu-id="f5744-112">[[!INCLUDE[d365fin](../../includes/d365fin_md.md)] -ohjelman käyttäminen](../../ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="f5744-112">[Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)</span></span>     
 
 ## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](../../includes/training_link_md.md)]
+ 
 
