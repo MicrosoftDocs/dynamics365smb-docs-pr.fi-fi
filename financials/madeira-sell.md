@@ -1,38 +1,10 @@
 ---
-title: Finance and Operations, Business editionin myynti | Microsoft Docs
-description: "Lisätietoja liiketoimintamahdollisuuksien laajentamisesta sekä Microsoft-kumppaniksi ja Finance and Operations, Business editionin jälleenmyyjäksi tulemisesta."
-services: project-madeira
-documentationcenter: 
-author: edupont04
-ms.service: dynamics365-financials
-ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: microsoft partner
-ms.date: 06/02/2017
-ms.author: edupont
+redirect_url: /dynamics365/business-central/product-sell
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 6766559f314c6fd9031f9599f414dae0eff984f8
+ms.sourcegitcommit: 2cce334e74ebcf37d53224d1b3246b2d0f9bd0fb
+ms.openlocfilehash: e3f73894974f7711a0d230dacaa4bcf2eb29eba1
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 07/09/2018
 
 ---
-# <a name="become-a-reseller-of-included365finlongincludesd365finlongmdmd"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]in jälleenmyyjäksi ryhtyminen
-Laajenna liiketoimintamahdollisuuksia [!INCLUDE[d365fin](includes/d365fin_md.md)]illa.  
-
-Jos pilviratkaisut, Office 365, SharePoint, toimialakohtaiset ratkaisut, analytiikka, ERP, CRM, kirjanpito-ohjelmistot ja/tai liiketoimintaprosessien optimointiohjelmistot tai -palvelut ovat erikoisalaasi, Finance and Operations, Business edition tarjoaa uusia mahdollisuuksia.   
-
-[!INCLUDE[d365fin](includes/d365fin_md.md)] auttaa erottautumaan ja syventämään asiakassuhteita, sillä voit toimittaa sen avulla kattavan liiketoiminnan hallintaratkaisun, joka yhdistää työntekijät ja prosessit aivan uudella tavalla. Lisäksi se integroituu tuttuihin Microsoft Office -työkaluihin, joita PK-yritykset käyttävät joka päivä.  
-
-## <a name="get-started"></a>Aloitus
-Rekisteröidy [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman esiversion käyttäjäksi osoitteessa [https://microsoft.com/dynamics365/financials](https://www.microsoft.com/en-us/dynamics365/financials).  
-Lähetä palautetta osoitteessa [https://community.dynamics.com/business](https://community.dynamics.com/business/f/758).  
-Jos haluat kuulla lisää [!INCLUDE[d365fin](includes/d365fin_md.md)]in jälleenmyyjäksi ryhtymisestä, ota yhteyttä osoitteessa [d365-smb@microsoft.com](mailto:d365-smb@microsoft.com).  
-
-## <a name="see-also"></a>Katso myös
-[Tervetuloa [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]iin!](index.md)  
-[Liiketoiminnan tietojen siirtäminen muista rahoitusjärjestelmistä](upload-data.md)  
-[https://appsource.microsoft.com](https://appsource.microsoft.com/en-us/?product=project-madeira)  
 
