@@ -11,10 +11,10 @@ ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.date: 07/17/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 975703333b1a675ae78b70d99b1394d370490e9d
+ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
+ms.openlocfilehash: e7546d2d90567f9d633394dfd585f1dbbab27e46
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/11/2018
 
 ---
 
@@ -76,7 +76,7 @@ Jotta voisit ilmoittaa arvonlisäveron viranomaiselle sähköisesti, [!INCLUDE[d
     >   Voit tarkastella EU-myyntiluettelo-raportin riveillä olevia tapahtumia ennen raportin lähettämistä. Valitse ensin rivi ja valitse sitten **Näytä ALV-tapahtumat**-toiminto.  
 4. Voit tarkistaa ja valmistella raportin lähetystä varten valitsemalla **Vapauta**-toiminnon.  
 
-    >  [!NOTE]  
+    > [!NOTE]  
     >   [!INCLUDE[d365fin](includes/d365fin_md.md)] vahvistaa, että raportti on määritetty oikein. Jos tarkistus epäonnistuu, virheet näkyvät **Virheet ja varoitukset** -kohdassa ja voit tehdä näiden tietojen perusteella tarvittavat korjaukset. Jos kyse on [!INCLUDE[d365fin](includes/d365fin_md.md)]in puuttuvasta asetuksesta, voit yleensä avata korjaukseen tarvittavat tiedot sisältävän sivun napsauttamalla sanomaa.  
 5. Raportin voit lähettää **Lähetä** -toiminnolla.  
 
@@ -91,10 +91,10 @@ Jos raportti lähetetään jollakin muulla tavalla, esimerkiksi viemällä se XM
 ## <a name="vat-settlement"></a>ALV-laskelma
 Netto-ALV on jaksoittain maksettava veroviranomaisille. Jos ALV on laskettava usein, voit suorittaa **Laske ja kirjaa ALV-laskelma** -eräajon, joka sulkee avoimet ALV-tapahtumat ja siirtää ostojen ja myynnin ALV-summat ALV-maksutilille.
 
-Kun siirrät ALV-summat maksutilille, ostojen ALV-tilille hyvitetään ja myyntien ALV-tililtä veloitetaan ne summat, jotka on laskettu määritetylle ajalle. Nettosumma hyvitetään (tai veloitetaan, jos ostojen ALV-summa on suurempi) ALV-maksutilille. Voit kirjata maksun välittömästi tai tulostaa ensin testiraportin.
+Kun siirrät ALV-summat maksutilille, ostojen ALV-tilille hyvitetään ja myyntien ALV-tililtä veloitetaan ne summat, jotka on laskettu määritetylle ajalle. Nettosumma hyvitetään (tai veloitetaan, jos ostojen ALV-summa on suurempi) ALV-maksutilille. Voit kirjata maksun välittömästi tai tulostaa ensin testiraportin.  
 
->    [!NOTE]  
->    Kun suoritat **Laske ja kirjaa ALV-laskelma** -eräajon mutta et määritä **Liiketoiminnan ALV-kirjausryhmä**- ja **Tuotteen ALV-kirjausryhmä** -asetuksia, kaikkien liiketoiminnan kirjausryhmien ja tuotteen kirjausryhmien koodien tapahtumat sisällytetään.
+> [!Note]
+> Kun suoritat **Laske ja kirjaa ALV-laskelma** -eräajon mutta et määritä **Liiketoiminnan ALV-kirjausryhmä**- ja **Tuotteen ALV-kirjausryhmä** -asetuksia, kaikkien liiketoiminnan kirjausryhmien ja tuotteen kirjausryhmien koodien tapahtumat sisällytetään.
 
 ## <a name="configuring-your-own-vat-reports"></a>Omien ALV-raporttien määrittäminen
 Voit käyttää EY-myyntiraporttiluetteloa sellaisenaan, mutta voit myös luoda omat raporttisi. Tämä edellyttää muutaman koodiyksiköt luomista. Ohjeita saat tarvittaessa Microsoft-kumppanilta.  
@@ -107,14 +107,14 @@ Seuraavassa taulukossa kuvataan koodiyksiköt, jotka sinun on luotava raporttias
 |Sisältö | Hallittava raportin muotoa. Onko raportti esimerkiksi XML- vai JSON-muotoinen. Muoto, jota käytetään riippuu veroviranomaisesi verkkopalvelun vaatimuksista. |
 |Lähettäminen | Määrittää miten ja milloin ALV-raportti lähetetään veroviranomaisten vaatimusten mukaisesti. |
 |Vastauksen käsittelijä | Veroviranomaisen vastauksen käsittely. Viranomainen voi esimerkiksi lähettää sähköpostin yrityksesi yhteyshenkilölle. |
-|Peruuta | Aiemmin veroviranomaiselle lähetetyn ALV-raportin peruutussanoman lähettäminen. |
+|Peruuta | Aiemmin veroviranomaiselle lähetetyn ALV-raportin peruutussanoman lähettäminen. |  
 
-> [!NOTE]  
->   Kiinnitä huomiota raportin koodiyksiköitä luodessasi **ALV-raportin versio** -kentän arvoon. Tässä kentässä on oltava sama versio, joka on tai oli veroviranomaisen vaatimuksena. Voit esimerkiksi kirjoittaa kentän arvoksi **2017** osoittamaan, että raportti noudattaa kyseisenä vuonna voimassa olleita vaatimuksia. Voimassa olevan version saat selville veroviranomaiseltasi.  
-
+> [!Note]
+> Ota **ALV-raportin versio** -kentän arvo huomioon, kun luot raportin koodiyksiköt. Tässä kentässä on oltava sama versio, joka on tai oli veroviranomaisen vaatimuksena. Voit esimerkiksi kirjoittaa kentän arvoksi **2017** osoittamaan, että raportti noudattaa kyseisenä vuonna voimassa olleita vaatimuksia. Voimassa olevan version saat selville veroviranomaiseltasi.
+ 
 ## <a name="see-also"></a>Katso myös .
 [Arvonlisäveron laskemisen ja kirjaustapojen määrittäminen](finance-setup-vat.md)  
 [Myynnin ja ostojen ALV:n käsitteleminen](finance-work-with-vat.md)  
 [Myynnin määrittäminen](sales-setup-sales.md)  
-[Myynnin laskutus](sales-setup-sales.md)  
+[Myynnin laskutus](sales-how-invoice-sales.md)  
 

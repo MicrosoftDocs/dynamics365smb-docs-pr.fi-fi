@@ -12,15 +12,14 @@ ms.search.keywords: personalize, add-in, extend, customize
 ms.date: 03/19/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
-ms.openlocfilehash: 7adad8c33771d478125c7f6ecb8256f5109f5f02
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: 7bb86cc2c2e152772a554e871074bd9a29cc9943
 ms.contentlocale: fi-fi
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="customizing-business-central"></a>Business Central -sovelluksen mukauttaminen
-<!--NAV # Customizing Dynamics NAV -->
-Sovelluksen voi mukauttaa useilla eri tavoilla, jotta sinä ja työtoverisi voitte käyttää eniten tarvitsemianne ominaisuuksia, toimintoja ja tietoja tavalla, joka sopii parhaiten päivittäiseen työhönne. Seuraavassa taulukossa kerrotaan ketkä näkevät muutokset sen mukaan, mitä teet.
+<!--NAV # Customizing Dynamics NAV --> Sovelluksen voi mukauttaa useilla eri tavoilla, jotta sinä ja työtoverisi voitte käyttää eniten tarvitsemianne ominaisuuksia, toimintoja ja tietoja tavalla, joka sopii parhaiten päivittäiseen työhönne. Seuraavassa taulukossa kerrotaan ketkä näkevät muutokset sen mukaan, mitä teet.
 
 | Sallitut toimet    |  Description  |  Muutosten näkijät  |  Lisätietoja  |
 |-----|---------------|---------|-------|
@@ -32,5 +31,5 @@ Sovelluksen voi mukauttaa useilla eri tavoilla, jotta sinä ja työtoverisi voit
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

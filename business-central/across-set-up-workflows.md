@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 02/20/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d2301b31308c1300961d78478ce1ada807eddeab
+ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
+ms.openlocfilehash: 1c98e4473a1c19aac846927e2eab56493f9a0a08
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/01/2018
 
 ---
 # <a name="setting-up-workflows"></a>Työnkulkujen määrittäminen
@@ -48,5 +48,5 @@ Voit määrittää ja käyttää työnkulkuja, jotka yhdistävät eri käyttäji
  [Työnkulkujen käyttäminen](across-use-workflows.md)   
  [Työnkulku](across-workflow.md)   
  [Vaihekuvaus: Ostojen hyväksyntätyönkulun määrittäminen ja käyttäminen](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
- [Financialsin käyttäminen](ui-work-product.md)
+ [Business Central -sovelluksen käyttäminen](ui-work-product.md)
 

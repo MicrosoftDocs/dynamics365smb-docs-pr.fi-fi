@@ -1,29 +1,28 @@
 ---
 title: "KP-raporttimallien KPI-verkkopalvelun määrittäminen ja julkaiseminen | Microsoft Docs"
-description: "Voit määrittää **KP-raporttimallin KPI-verkkopalvelun asetukset** -ikkunassa, miten KP-raporttimallin KPI-tiedot näytetään ja mihin tiettyihin KP-raporttimalleihin KPI:t perustuvat."
+description: "Tässä ohjeaiheessa kuvataan, miten KP-raporttimallin KPI-tiedot näytetään tietyissä KP-raporttimalleissa."
 services: project-madeira
 documentationcenter: 
-author: SorenGP
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/08/2017
-ms.author: sgroespe
+ms.date: 05/31/2018
+ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: dc1226724d1f953a3cf14a148e6d229ac0736bd3
+ms.sourcegitcommit: 4bc9199b879c23115082b07a81d6da5a0b46e60d
+ms.openlocfilehash: c15f9c77479780566f8b1e464193b43a20c3315d
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/31/2018
 
 ---
 # <a name="set-up-and-publish-kpi-web-services-based-on-account-schedules"></a>KP-raporttimalleihin perustuvan KPI-verkkopalvelun määrittäminen ja julkaiseminen
 Voit määrittää **KP-raporttimallin KPI-verkkopalvelun asetukset** -ikkunassa, miten KP-raporttimallin KPI-tiedot näytetään ja mihin tiettyihin KP-raporttimalleihin KPI:t perustuvat. Kun valitset **Julkaise verkkopalvelu** -painikkeen, määritellyt KP-raporttimallin KPI-tiedot lisätään julkaistujen verkkopalveluiden luetteloon **Verkkopalvelut**-ikkunassa.  
 
 ## <a name="to-set-up-and-publish-a-kpi-web-service-that-is-based-on-account-schedules"></a>KP-raporttimalleihin perustuvan KPI-verkkopalvelun määrittäminen ja julkaiseminen  
-
 1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **KP-raporttimallin KPI-verkkopalvelun asetukset** ja valitse sitten aiheeseen liittyvä linkki.  
 2.  Täytä **Yleinen**-pikavälilehden kentät seuraavassa taulukossa kuvatulla tavalla.  
 
@@ -35,7 +34,7 @@ Voit määrittää **KP-raporttimallin KPI-verkkopalvelun asetukset** -ikkunassa
     |**Näyttöperuste**|Määritä, millä aikavälillä KP-raporttimallin KPI-tiedot näytetään.|  
     |**Verkkopalvelun nimi**|Määritä KP-raporttimallin KPI-verkkopalvelun nimi.<br /><br /> Tämä nimi näkyy **Palvelun nimi** -kentässä **Verkkopalvelut** -ikkunassa.|  
 
-    Määritä KP-raporttimalleja, jotka haluat julkaista KPI-verkkopalveluna edellisen taulukon asetusten mukaisesti.  
+    Määritä vähintään yksi KP-raporttimalli, jonka haluat julkaista KPI-verkkopalveluna edellisen taulukon asetusten mukaisesti.  
 
 3.  Täytä **Raporttimallit**-pikavälilehden kentät seuraavassa taulukossa kuvatulla tavalla.  
 

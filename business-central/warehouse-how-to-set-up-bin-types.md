@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/23/2017
+ms.date: 06/18/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 19beb71ecd377bb7f5a7429021d04769900f87d2
+ms.sourcegitcommit: 3331849cf94c70d0597ae5f37d3109451947c9fc
+ms.openlocfilehash: 0af456e420c9b485e242c15e660367a348c75536
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/20/2018
 
 ---
 # <a name="set-up-bin-types"></a>Varastopaikkatyyppien määrittäminen
 Voit ohjata nimikkeiden kulkua tietyille varastotoiminnoille määritettyjen varastopaikkojen kautta. Kullekin varastopaikalle annetaan nimikevirran perusaktiviteetit – ja samalla määritellään tapa, jolla ohjelma käyttää varastopaikkaa – määrittelemälle sille varastopaikan tyyppi.  
 
-Ohjelmassa on kahdeksan varastopaikan tyyppiä. Voit käyttää fyysistä varastointia kaikilla kahdeksalla mahdollisella varastopaikan tyypillä tai voit valita käyttäväsi vain VASTOTTO-, HYLLPOIM-, LÄHETYS- JA QC-varastopaikan tyyppejä. Nämä neljä varastopaikan tyyppiä mahdollistavat sen, että ohjelma voi tehdä ehdotuksia nimikevirran tukemiseksi, ja ne mahdollistavat varaston eroavaisuuksien tallentamisen.  
+Tyyppejä on kuusi. Voit käyttää fyysistä varastointia kaikilla kuudella mahdollisella varastopaikan tyypillä tai voit valita käyttäväsi vain VASTOTTO-, HYLLPOIM-, LÄHETYS- JA QC-varastopaikan tyyppejä. Nämä neljä varastopaikan tyyppiä mahdollistavat sen, että ohjelma voi tehdä ehdotuksia nimikevirran tukemiseksi, ja ne mahdollistavat varaston eroavaisuuksien tallentamisen.  
 
 ## <a name="to-set-up-the-bin-types-you-want-to-use"></a>Haluamiesi varastopaikan tyyppien määrittäminen  
 1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Varastopaikkatyypit** ja valitse sitten aiheeseen liittyvä linkki.  

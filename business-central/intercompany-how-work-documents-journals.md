@@ -1,8 +1,6 @@
 ---
 title: "Konsernin asiakirjojen ja päiväkirjojen kirjaaminen| Microsoft Docs"
 description: "Tapahtumien kirjaaminen yhdessä konsernikumppanien kanssa konsernin asiakirjojen avulla."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 06/21/2017
+ms.date: 06/07/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2f56dd9746ab065628f5785715153b82fa02a155
+ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
+ms.openlocfilehash: ab05b9d596af65936d81c649fbace0f250efe076
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/11/2018
 
 ---
 # <a name="work-with-intercompany-documents-and-journals"></a>Konserniasiakirjojen ja -päiväkirjojen käyttäminen
@@ -52,7 +50,7 @@ Kun kirjaat konsernin yleisen päiväkirjan rivin omassa yrityksessä, vastaava 
     > Tämä kenttä on täytettävä, jos rivin **Tilinro**- tai **Vastatilin nro** -kentässä on pankkitili tai kirjanpitotili.  
 5. Valitse **Kirjaa**-toiminto.
 
-Kyseiset tapahtumat kirjataan omaan yritykseen ja päiväkirjaan. Lisäksi vastaavat tapahtumat luodaan konsernin Lähtevät-kansioon, josta voit lähettää ne kumppaniyritykselle. Lisätietoja on kohdassa [Konsernin Saapuneet- ja Lähtevät-kansion hallinta](intercompany-how-manage-intercompany-inbox.md). 
+Kyseiset tapahtumat kirjataan omaan yritykseen ja päiväkirjaan. Lisäksi vastaavat tapahtumat luodaan konsernin Lähtevät-kansioon, josta voit lähettää ne kumppaniyritykselle. Lisätietoja on kohdassa [Konsernin Saapuneet- ja Lähtevät-kansion hallinta](intercompany-how-manage-intercompany-inbox.md).
 
 ## <a name="see-also"></a>Katso myös
 [Konsernitapahtumien hallinta](intercompany-manage.md)  

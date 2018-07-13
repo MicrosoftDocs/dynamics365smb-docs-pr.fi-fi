@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 06/02/2017
+ms.date: 06/08/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6381fc0949c3f6789a6b3387d119051403bcbb4a
+ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
+ms.openlocfilehash: ea5673f341954960852de33cb94ee5722c8dbe26
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/11/2018
 
 ---
 # <a name="set-up-incoming-documents"></a>Määritä saapuvat asiakirjat
@@ -48,11 +48,8 @@ Kun hyväksyjät on määritetty **Saapuvien asiakirjojen hyväksyjät** -ikkuna
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **OCR-palvelun asetukset** ja valitse sitten aiheeseen liittyvä linkki.
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-encrypt-your-login-information"></a>Kirjautumistietojen salaaminen
-Suosittelemme, että suojaat **OCR-palvelun asetukset** -ikkunaan kirjoittamasi kirjautumistiedot. Palvelimen tiedot voi salata luomalla uusia salausavaimia tai tuomalla olemassa olevia salausavaimia, jotka otetaan käyttöön tietokantayhteyden muodostavassa palvelininstanssissa.
-
-1. Valitse **OCR-palvelun asetukset** -ikkunassa **Salauksen hallinta** -toiminto.
-2. Ota tietojen salaus käyttöön **Tietojen salauksen hallinta** -ikkunassa.
+> [!NOTE]  
+> Sisäänkirjaustiedot salataan automaattisesti.
 
 ## <a name="see-also"></a>Katso myös
 [Saapuvien asiakirjojen käsitteleminen](across-process-income-documents.md)  

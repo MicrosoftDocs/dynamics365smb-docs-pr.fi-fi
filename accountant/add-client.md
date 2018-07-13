@@ -8,26 +8,31 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 10/23/2017
+ms.date: 05/15/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
-ms.openlocfilehash: 8b8d92e114733d87b1866d66ee3111208e233ad3
+ms.sourcegitcommit: 4bc9199b879c23115082b07a81d6da5a0b46e60d
+ms.openlocfilehash: 00e0d0a131b586d3aee39b3d08064defff81814a
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 05/31/2018
 
 ---
-# <a name="add-clients-to-your-dashboard-in-include-d365acclongincludesd365acclongmdmd"></a>Asiakkaiden lisääminen [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]in koontinäyttöön
+# <a name="add-clients-to-your-dashboard-in-include-d365acclongincludesd365acclongmdmd"></a>Asiakkaiden lisääminen koontinäyttöön [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)] -sovelluksessa
 [!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]
 
 Voit lisätä asiakkaan **Asiakkaat**-ikkunassa, jonka voit avata valitsemalla **Hallitse asiakkaita** -toiminnon valintanauhassa. Valitse vain **Uusi** ja täytä sitten tarvittavat kentät.  
 
 ![Asiakkaan lisääminen](./media/accountant-add-client/manage-client.png)
 
-Kunkin asiakaskortin tiedot määrität sinä itse, ja voit myös muuttaa niitä tarvittaessa. **Asiakkaan URL-osoite** -kenttä on kuitenkin erityisen tärkeä – sitä tarvitaan asiakkaan [!INCLUDE [d365fin](includes/d365fin_md.md)]iin pääsyyn. Tarkista, että linkki on oikein valintanauhan **Testaa asiakkaan URL-osoite** -toiminnon avulla. URL-osoite, joka sinun täytyy syöttää, osoittaa asiakkaan [!INCLUDE [d365fin](includes/d365fin_md.md)] -sovellukseen, kuten *<https://mybusiness.financials.dynamics.com>*. Tätä URL-osoitetta käytetään, kun valitset **Siirry yritykseen** -valikkovaihtoehdon [!INCLUDE [d365acc](includes/d365acc_md.md)] -koontinäytössä.  
+Kunkin asiakaskortin tiedot määrität sinä itse, ja voit myös muuttaa niitä tarvittaessa. **Asiakkaan URL-osoite** -kenttä on kuitenkin erityisen tärkeä – sitä tarvitaan asiakkaan [!INCLUDE [d365fin](includes/d365fin_md.md)]iin pääsyyn. Valintanauhan **Tarkista asiakkaan URL-osoite** -toiminnon avulla voit tarkistaa, että linkki on annettu oikein. URL-osoite, joka on syötettävä, osoittaa asiakkaan [!INCLUDE [d365fin](includes/d365fin_md.md)] -sovellukseen ja sisältää tämän toimialueen osoitteen. Jos toimialueeksi on määritetty esimerkiksi MyBusiness.com, linkki [!INCLUDE [d365fin](includes/d365fin_md.md)] -sovellukseen on *https://businesscentral.dynamics.com/mybusiness.com?redirectedfromsignup=1*.  
+
+> [!NOTE]
+>  Ennen toikokuun 2018 päivitystä määritetyn URL-osoitteen alussa olevan asiakkaan yrityksen nimen muoto oli erilainen. Toukokuun 2018 päivityksen jälkeen muoto on ```https://businesscentral.dynamics.com/clientdomain?redirectedfromsignup=1```, jossa ```clientdomain``` edustaa asiakkaan toimialuetta.  
+
+Asiakkaan URL-osoitetta käytetään, kun valitset **Siirry yritykseen** -valikkovaihtoehdon [!INCLUDE [d365acc](includes/d365acc_md.md)] -koontinäytössä.  
 
 ### <a name="get-invited-to-a-clients-include-d365finlongincludesd365finlongmdmd"></a>Kutsun saaminen asiakkaan [!INCLUDE [d365fin_long](includes/d365fin_long_md.md)] -ympäristöön
-[!INCLUDE [d365fin](includes/d365fin_md.md)]ia käyttävä yritys voi kutsua sinut [!INCLUDE [d365fin](includes/d365fin_md.md)] -ympäristöönsä ulkoiseksi kirjanpitäjäksi. Kutsun saaminen edellyttää [!INCLUDE [d365acc](includes/d365acc_md.md)]issa käytettävän sähköpostiosoitteen, kuten <em>me@accountant.com</em>, antamista. Asiakkaan järjestelmänvalvoja voi sitten lisätä sinut järjestelmään ohjatulla **Kutsu ulkoinen kirjanpitäjä** -toiminnolla.  
+[!INCLUDE [d365fin](includes/d365fin_md.md)]ia käyttävä yritys voi kutsua sinut [!INCLUDE [d365fin](includes/d365fin_md.md)] -ympäristöönsä ulkoiseksi kirjanpitäjäksi. Saat kutsun, jos annat heille [!INCLUDE [d365acc](includes/d365acc_md.md)] -sovelluksessa käyttämäsi sähköpostiosoitteen, joka voi olla esimerkiksi <em>me@accountant.com</em>. Asiakkaan järjestelmänvalvoja voi sitten lisätä sinut järjestelmään suorittamalla ohjatun **Kutsu ulkoinen kirjanpitäjä** -toiminnon.  
 
 Saat nyt asiakkaalta sähköpostiviestin, jossa on linkit asiakkaan [!INCLUDE [d365fin](includes/d365fin_md.md)]:een. Ensimmäinen linkki on kutsu, jolla saa yrityksen käyttöoikeuden. Avaa linkki ja hyväksy vaiheet, joilla sinut lisätään asiakkaan [!INCLUDE [d365fin](includes/d365fin_md.md)]:een. Toisen linkin avulla kyseinen asiakas lisätään [!INCLUDE [d365acc](includes/d365acc_md.md)]in koontinäyttöön edellä kuvatulla tavalla.  
 

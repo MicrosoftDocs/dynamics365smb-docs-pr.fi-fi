@@ -13,10 +13,10 @@ ms.search.keywords: feature overview, functionality
 ms.date: 05/09/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
-ms.openlocfilehash: f35e361d083ce9fd497f76cb3b8417fef233438c
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: f6a8bca975e37adb436f30ef3d16bbc198f26447
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="general-business-functionality"></a>Yleiset liiketoimintatoiminnot
@@ -33,7 +33,7 @@ Seuraava taulukko sisältää nämä yleiset liiketoiminta-alueet ja linkit niit
 | Määritä vakiotekstikoodit, jotta voit laajentaa vakiotekstiä lisäämällä rivejä, ja määritä lisärivien käytön ehdot. |[Lisätekstien määrittäminen](ui-how-define-ext-text.md) |
 |Luo tehtäviä, jotka muistuttavat sinua tekemättömistä töistä. Voit luoda tehtäviä itsellesi, mutta voit määrittää tehtäviä myös muille. Samoin joku toinen käyttäjä organisaatiossa voi määrittää tehtäviä sinulle.|[Käyttäjätehtävien määrittäminen](across-user-tasks.md)|
 |Järjestelmän avulla tehtävät voi suorittaa nopeammin ja tarkemmin niin, että kentät tai rivit täytetään tiedoilla, jotka muussa tapauksessa olisi laskettava ja syötettävä manuaalisesti.|[Business Central -sovelluksen arvoehdotusten salliminen](ui-let-system-suggest-values.md)|
-|Kirjaa ulkoiset asiakirjat Financialsiin asiakirjojen liitteiden kanssa. Luo sitten manuaalisesti liittyvät asiakirjat tai muunna tiedostot automaattisesti sähköisiksi asiakirjoiksi.|[Saapuvat asiakirjat](across-income-documents.md)|
+|Kirjaa ulkoiset asiakirjat liitteineen ja luo sitten manuaalisesti liittyvät asiakirjat tai muunna tiedostot automaattisesti sähköisiksi asiakirjoiksi.|[Saapuvat asiakirjat](across-income-documents.md)|
 |Voit määrittää ja käyttää työnkulkuja, jotka yhdistävät eri käyttäjien tai järjestelmän suorittamia tehtäviä, kuten automaattisia kirjauksia. Uusien asiakirjojen luontiin ja kirjaukseen liittyvien hyväksyntöjen pyytäminen ja antaminen ovat tyypillisiä työnkulun osavaiheita.|[Työnkulku](across-workflow.md)|
 | Määritä tiedonsiirtomääritykset sähköisten asiakirjojen lähettämistä ja vastaanottamista varten. |[Sähköinen tiedonsiirto](across-data-exchange.md) |
 
@@ -42,5 +42,5 @@ Seuraava taulukko sisältää nämä yleiset liiketoiminta-alueet ja linkit niit
 [Hallinta](admin-setup-and-administration.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

@@ -11,10 +11,10 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.translationtype: HT
-ms.sourcegitcommit: 4fceff1a6cf728608a49182a9704f187d31767fe
-ms.openlocfilehash: 400b4710bd4e9a26db3b392646581f5225a2d245
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: b90577cbab4167894fe79a3e8e8a0c61ce8c70e9
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/28/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 
@@ -47,6 +47,11 @@ Jos olet rekisteröinyt [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen
 Työpaikkojen ja oppilaitosten tietosuoja -sivulla voit myös sulkea tilisi. Kannattaa kuitenkin varmistaa, että olet vienyt ja poistanut kaikki tiedot ensin, koska tilin poistaminen tarkoittaa sitä, menetät mahdollisuuden käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovellusta.  
 
 Voit edelleen merkitä henkilöitä estetyiksi tietosuojan vuoksi ja viedä, muokata tai poistaa tapahtumia tässä artikkelissa esitetyllä tavalla.  
+
+## <a name="exporting-data-from-tables-not-classified-by-data-subject"></a>Tietojen vieminen taulukoista, joita ei ole luokiteltu tietojen aiheen mukaan
+Jos vietävänä on tietoja (kuten Profiilin vastaukset -taulukon tiedot), joiden luokittelu ei mahdollista automaattista vientiä, toimi seuraavasti: 
+-   Varmista, haluatko viedä nämä lisätiedot tai onko ne pakko viedä, jos tiedot eivä tliity kontaktiin eli tiedoilla ja kontaktilla ei ole suoraa suhdetta 
+-   Lisää tämä taulukko ja suhde manuaalisesti RapidStart-pakettiin ja vie ne suoraan RapidStart-paketista. RapidStart-paketti on luotu juuri sitä varten, että voit käyttää sitä tämänkaltaisissa tilanteissa.
 
 ## <a name="handling-data-about-minors"></a>Alaikäisiä koskevien tietojen käsitteleminen
 Jos yhteyshenkilö on niin nuori, ettei hän voi antaa laillista suostumusta alueen lakien mukaan, voit osoitaa tämän valitsemalla **Yhteyshenkilö**-kortin **Alaikäinen**-valintaruudun. Tällöin **Estetty tietosuojan vuoksi** -valintaruutu valitaan automaattisesti. Kun saat alaikäisen vanhemman tai laillisen huoltajan suostumuksen, voit valita **Vanhemman suostumus vastaanotettu** -valintaruudun, jolloin sisällön esto poistetaan. Voit käsitellä alaikäisten henkilökohtaisia tietoja, mutta et voi käyttää Microsoft Dynamics 365 for Sales -sovelluksen profilointitoimintoja.

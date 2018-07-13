@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 05/09/2018
+ms.date: 05/15/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
-ms.openlocfilehash: 8901216a843440e922ae4df9d7508b543a6c1322
+ms.sourcegitcommit: 4bc9199b879c23115082b07a81d6da5a0b46e60d
+ms.openlocfilehash: bb700a7c65721efb7c1322420a4929eb7adc4433
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 05/31/2018
 
 ---
-# <a name="get-started-with-include-d365acclongincludesd365acclongmdmd"></a>[!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]in käytön aloittaminen
+# <a name="get-started-with-include-d365acclongincludesd365acclongmdmd"></a>Aloita [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]in käyttö
 [!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]
 
 Kaikkien yritysten on pidettävä kirjanpitoa ja hyväksyttävä se. Jotkin yritykset käyttävät ulkoista kirjanpitäjää, ja joillain yrityksillä on oma kirjanpitäjä. Jos olet kirjanpitäjä, jolla on useita asiakkaita, voit käyttää [!INCLUDE [d365acc](includes/d365acc_md.md)]ia koontinäyttönä ja saada sen avulla paremman yleiskuvan asiakkaistasi.  
@@ -25,9 +25,9 @@ Kaikkien yritysten on pidettävä kirjanpitoa ja hyväksyttävä se. Jotkin yrit
 Saat [!INCLUDE [d365acc](includes/d365acc_md.md)]in käyttöoikeuden rekisteröitymällä [Dynamics 365 – Accountant Hubista osoitteessa Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
 
 > [!TIP]
->  Sinun on ilmoitettava työsähköpostiosoitteesi, kuten <em>me@accountant.com</em>, kun rekisteröidyt [!INCLUDE [d365acc](includes/d365acc_md.md)]iin. On suositeltavaa käyttää samaa sähköpostiosoitetta, kun käytät asiakkaasi [!INCLUDE [d365fin_long](includes/d365fin_long_md.md)]ia, jotta voit siirtyä kätevästi asiakkaasta toiseen. Sähköpostiosoitteen on oltava Active Directoryyn perustuva työsähköpostiosoite.
+>  Kun olet rekisteröitynyt [!INCLUDE [d365acc](includes/d365acc_md.md)] -sovellukseen, sinun on määritettävä työsähköpostiosoitteesi, esimerkiksi <em>me@accountant.com</em>. Suosittelemme, että käytät samaa sähköpostiosoitetta työskennellessäsi asiakkaidesi [!INCLUDE [d365fin_long](includes/d365fin_long_md.md)] -ympäristöissä, jotta voit vaihtaa asiakkaiden välillä helposti. Sähköpostiosoitteen on oltava Active Directoryyn perustuva työsähköpostiosoite.
 
-## <a name="working-with-individual-clients"></a>Yksittäisten asiakkaiden käsitteleminen
+## <a name="working-with-individual-clients"></a>Yksittäisten asiakkaiden tietojen käsitteleminen
 Koontinäytössä esitetään kunkin asiakkaan tärkeimmät tiedot.  
 ![Accountant Hub](./media/accountant-get-started/accountant-dashboard-tasks.png)
 
@@ -46,7 +46,7 @@ Voit vastaavasti käyttää avattavaa **Asiakkaan yhteenveto** -valikkoa päivit
 > [!TIP]
 >  Pääset asiakkaan [!INCLUDE [d365fin](includes/d365fin_md.md)]iin valitsemalla **Siirry asiakkaaseen** -valikkovaihtoehdon - sinut kirjataan sisään automaattisesti.
 
-## <a name="company-details"></a>Yritystiedot
+## <a name="company-details"></a>Yrityksen tiedot
 Saat lisätietoja asiakkaiden tiedoista valitsemalla sen yrityksen nimen, josta haluat tietää lisää. Voit tarkastella avautuvassa **Yrityksen tiedot** -ruudussa esimerkiksi seuraavia lisätietoja:  
 
 * Käteistilien saldo  

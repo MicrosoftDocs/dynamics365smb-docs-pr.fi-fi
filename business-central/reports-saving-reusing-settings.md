@@ -11,10 +11,10 @@ ms.search.keywords: customization, personalization
 ms.date: 09/08/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: fcfbf5d9c66df986e34e68d98888042d83a53481
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: f5225d1f6d0d4ac0020fb073d5df6da83b5c0f5b
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="managing-saved-settings-on-reports"></a>Raporttien tallennettujen asetusten hallinta
@@ -22,7 +22,7 @@ Ajetusta raportista riippuen näkyviin voi tulla sivu, jolla voi määrittää t
 
 Voit tarkastella raportin käytettävissä olevia tallennettuja asetuksia raporttipyyntösivun **Tallennetut asetukset** -osassa.  
 
-## <a name="to-apply-saved-settings-to-a-report"></a>Tallennettujen asetusten käyttäminen raportissa
+## <a name="apply-saved-settings-to-a-report"></a>Tallennettujen asetusten käyttäminen raportissa
 1. Avaa raportti.
 
    Näkyviin tulee raporttipyyntösivu.    
@@ -30,7 +30,7 @@ Voit tarkastella raportin käytettävissä olevia tallennettuja asetuksia raport
 
    **Tallennetut asetukset** -osa näkyy vain, jos raportti on suoritettu aiemmin tai jos asetukset on tallennettu aiemmin. **Viimeksi käytetyt asetukset ja suodattimet** -kirjaus on aina saatavilla. Nämä asetukset ovat valinnan ja suodattimen arvot, joita käytettiin viimeksi raportin ajon yhteydessä.
 
-## <a name="administer-saved-report-settings-for-users"></a>Käyttäjille tallennettujen raporttiasetusten hallinta
+## <a name="create-and-modify-saved-settings-for-all-users"></a>Kaikkien käyttäjien tallennettujen asetusten luominen ja muokkaaminen
 Jos sinulla on tarvittavat oikeudet, voit tarkastella, luoda ja muokata yrityksen kaikkien käyttäjien raporttien tallennettuja asetuksia. Voit määrittää raportin tallennetut asetukset yksittäisille käyttäjille tai yrityksen kaikille käyttäjille.
 
 Voit hallita tallennettuja asetuksia sivun 1506 **Raporttien asetukset** -kohdassa. Avaa tämä sivu valitsemalla ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoittamalla **Raportin asetukset** ja valitsemalla sitten aiheeseen liittyvä linkki.

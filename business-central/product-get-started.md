@@ -1,29 +1,29 @@
 ---
 title: "Käytön aloittaminen | Microsoft Docs"
 description: "Lisätietoja pienille ja keskisuurille organisaatioille tarkoitetusta liiketoiminnan Business Central -hallintaratkaisun toiminnoista ja käyttötilanteista."
-author: SusanneWindfeldPedersen
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 03/21/2018
-ms.author: solsen
+ms.date: 06/20/2018
+ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
-ms.openlocfilehash: 7dda76b03bb4bff5bb75be38710f2c851b106823
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: 655f67778ed52794df893cec8965eec990f41b3f
 ms.contentlocale: fi-fi
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]in käytön aloittaminen
-[!INCLUDE[d365fin](includes/d365fin_md.md)] on pienille ja keskisuurille organisaatioille tarkoitettu liiketoiminnan hallintaratkaisu, joka automatisoi ja selkeyttää liiketoiminnan prosesseja sekä auttaa liiketoiminnan hallinnassa. Rekisteröityminen on helppoa, ja voit siirtää aiemmin luodut yritystiedot vanhojen tietojen järjestelmästä.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] on pienille ja keskisuurille organisaatioille tarkoitettu liiketoiminnan hallintaratkaisu, joka automatisoi ja selkeyttää liiketoiminnan prosesseja sekä auttaa liiketoiminnan hallinnassa. Rekisteröityminen on helppoa, ja voit siirtää aiemmin luodut yritystiedot vanhojen tietojen järjestelmästä. Jos tarvitset apua tilaukseen liittyvissä asioissa, etsi [!INCLUDE[d365fin](includes/d365fin_md.md)] -kumppani [täältä](https://www.microsoft.com/en-us/solution-providers/search).  
 
 Kun olet rekisteröitynyt [!INCLUDE[d365fin](includes/d365fin_md.md)]in esikatseluun, saat käyttöösi käyttää esittely-yrityksen. Esittely-yritys sisältää mallitietoja. Voit kuitenkin luoda esimerkiksi omia myyntiasiakirjoja tai määrittää pankkitilin.  
 
 ## <a name="get-to-know-included365finincludesd365finmdmd"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)]iin tutustuminen
-[!INCLUDE[d365fin](includes/d365fin_md.md)]issa on sekä tuttuja että uusia ominaisuuksia. Esittely-yrityksen visuaaliset opasteet selittävät perustoimintoja sekä auttavat kokeilemaan päivittäisiä tehtäviä, kuten luomaan myyntilaskun ja näyttämään raportin. Jos poistut oppaasta, koska haluat esimerkiksi tutustua [!INCLUDE[d365fin](includes/d365fin_md.md)]in itsenäisesti, voit palata oppaaseen siirtymällä roolikeskukseen ja käynnistämällä Aloitusopas-esittelyn.
+[!INCLUDE[d365fin](includes/d365fin_md.md)]issa on sekä tuttuja että uusia ominaisuuksia. Esittely-yrityksen visuaaliset opasteet selittävät perustoimintoja sekä auttavat kokeilemaan päivittäisiä tehtäviä, kuten luomaan myyntilaskun ja näyttämään raportin. Jos poistut oppaasta, koska haluat esimerkiksi tutustua [!INCLUDE[d365fin](includes/d365fin_md.md)]in itsenäisesti, voit palata oppaaseen siirtymällä roolikeskukseen ja käynnistämällä Aloitusopas-esittelyn. Jos haluat apua, voit etsiä [!INCLUDE[d365fin](includes/d365fin_md.md)] -kumppanin [täältä](https://www.microsoft.com/en-us/solution-providers/search).  
 
 > [!TIP]  
 > Voit palata roolikeskukseen valitsemalla yrityksen nimen vasemmasta yläkulmasta.
@@ -71,8 +71,10 @@ Harkitsetko tilaamista? Voit vaihtaa helposti esimerkkiyrityksestä käyttämä�
 
 Voit luoda yrityksen kokeilukäyttöä varten siirtymällä oikeassa yläkulmassa **Omat asetukset** -valikkoon ja vaihtamalla yrityksen **Omaksi yritykseksi**. Muutos otetaan käyttöön, kun kirjaudut ensin ulos [!INCLUDE[d365fin](includes/d365fin_md.md)]ista ja sitten takaisin sisään. Avustettu asennusopas auttaa yrityksen perustietojen antamisessa. Kun nämä tiedot on annettu, tutustu roolikeskukseen ja etsi **Asetusten ohjattu määritys** -toiminto.  
 
+Vaihtoehtoisesti voit etsiä [!INCLUDE[d365fin](includes/d365fin_md.md)] -kumppanin [täältä](https://www.microsoft.com/en-us/solution-providers/search).
+
 ## <a name="ready-to-subscribe"></a>Oletko valmis tilaukseen?
-Aina kun kirjaudut sovellukseen kokeilujakson aikana, jäljellä oleva aika näkyy yläreunassa olevassa sinisessä palkissa. Jos päätät tehdä tilauksen, ota yhteys Microsoftin ilmoituksessa olevasta linkistä. Voit ottaa yhteyttä myös [[!INCLUDE[d365fin](includes/d365fin_md.md)] -myyntiryhmään](https://go.microsoft.com/fwlink/?linkid=828707).  
+Aina kun kirjaudut sovellukseen kokeilujakson aikana, jäljellä oleva aika näkyy yläreunassa olevassa sinisessä palkissa. Jos päätät tehdä tilauksen, voit etsiä [!INCLUDE[d365fin](includes/d365fin_md.md)] -kumppanin [täältä](https://www.microsoft.com/en-us/solution-providers/search). Voit ottaa yhteyttä myös [[!INCLUDE[d365fin](includes/d365fin_md.md)] -myyntiryhmään](https://go.microsoft.com/fwlink/?linkid=828707).  
 
 ## <a name="other-dynamics-365-apps"></a>Muut Dynamics 365 -sovellukset
 Voit tutustua muita Dynamics 365 -sovelluksia käsittelevään sisältöön valitsemalla [Dynamics 365](https://docs.microsoft.com/dynamics365) -linkin tämän sivun yläosassa olevassa sinisessä palkissa. Lisätietoja on myös [Dynamics 365 Business Central -sivustossa](https://dynamics.microsoft.com/en-us/business-central/overview/).  
@@ -90,5 +92,5 @@ Jos olet kirjanpitäjä, voit rekisteröityä [!INCLUDE[d365acc_long](includes/d
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

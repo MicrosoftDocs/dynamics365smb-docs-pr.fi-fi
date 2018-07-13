@@ -12,13 +12,13 @@ ms.search.keywords: rfq
 ms.date: 08/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 60ee3c2226e45bb904d91243c861a2d747447abc
+ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
+ms.openlocfilehash: 9773b849007b5c9eed52f7223338954a64583cb8
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 07/02/2018
 
 ---
-# <a name="make-offers"></a>Tarjousten tekeminen
+# <a name="make-sales-quotes"></a>Myyntitarjousten tekeminen
 Luot myyntitarjouksen tallentaaksesi tarjouksen asiakkaalle myydäksesi määrätyt tuotteet määrätyillä toimitus- ja maksuehdoilla. Voit lähettää myyntitarjouksen asiakkaalle kommunikoidaksenne tarjouksesta. Voit lähettää asiakirjan sähköpostitse PDF-liitteenä. Sähköpostin perusteksti voidaan esitäyttää tarjouksen yhteenvedolla. Lisätietoja on kohdassa [Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md).
 
 Kun neuvottelet asiakkaan kanssa, voit muuttaa ja lähettää myyntitarjouksen uudelleen niin paljon kuin tarvitaan. Kun asiakas hyväksyy tarjouksen, voit muuntaa myyntitarjouksen myyntilaskuksi tai -tilaukseksi, jossa myynti käsitellään. Lisätietoja on kohdassa [Myynnin laskuttaminen](sales-how-invoice-sales.md) tai [Tuotteiden myyminen](sales-how-sell-products.md).

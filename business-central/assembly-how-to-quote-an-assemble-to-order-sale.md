@@ -13,10 +13,10 @@ ms.search.keywords: kit, kitting
 ms.date: 08/15/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 402745a9c90d1b82779e436f4a6533d2aed1b344
+ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
+ms.openlocfilehash: 497d19dfdc8c972ff22aa0bcb65d96791bc8390e
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 07/02/2018
 
 ---
 # <a name="quote-an-assemble-to-order-sale"></a>Kokoonpano tilausta varten -myynnin tarjous
@@ -29,7 +29,7 @@ Kuin silloin, kun myyt minkä tahansa muun tyyppisen nimikkeen, voit myös luoda
 
 ## <a name="to-create-a-sales-quote-for-an-assemble-to-order-item"></a>Luo myyntitarjous kokoonpano tilausta varten -nimikkeelle  
 1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Myyntitarjous** ja valitse sitten aiheeseen liittyvä linkki.  
-2.  Luo uusi myyntitarjousrivi yhdellä kokoonpanonimikkeen rivillä. Lisätietoja on kohdassa [Tarjousten tekeminen](sales-how-make-offers.md).  
+2.  Luo uusi myyntitarjousrivi yhdellä kokoonpanonimikkeen rivillä. Lisätietoja on kohdassa [Myyntitarjousten tekeminen](sales-how-make-offers.md).  
 3.  Anna **Kokoonpantava määrä tilausta varten** -kentässä koko määrä.
 
     > [!NOTE]  
@@ -38,7 +38,7 @@ Kuin silloin, kun myyt minkä tahansa muun tyyppisen nimikkeen, voit myös luoda
 4.  Valitse **Rivit**-pikavalintalehdessä **Rivi**, valitse **Kokoonpano tilausta varten** ja valitse sitten **Kokoonpano tilausta varten -rivit**. Voit myös valita rivin **Kokoonpantava määrä tilausta varten** -kentän.  
 5.  Tarkastele tai muokkaa **Kokoonpano tilausta varten -rivit** -ikkunassa asiakkaan pyytämän tarjouksen mukaisia kokoonpanotilauksen rivejä. Jos haluat tarkastella tietoja, avaa koko puitetarjoustilaus valitsemalla **Näytä asiakirja** -toiminto. Useimpien kenttien sisältöä ei voi muuttaa etkä voi kirjata.  
 6.  Kun olet muokannut kokoonpanotilauksen rivejä tarjouksen mukaisesti, sulje **Kokoonpano tilausta varten -rivit** -ikkuna palataksesi **Myyntitarjous** -ikkunaan.  
-7.  Jos asiakas hyväksyy tarjouksen, luo tarjotusta kokoonpanon nimikkeestä myyntitilaus. Lisätietoja on kohdassa [Tarjousten tekeminen](sales-how-make-offers.md). Linkitetty kokoonpanotarjous ja kaikki muokkaukset on linkitetty uuteen myyntitilaukseen kokoonpanon tai myynnin valmistelua varten.  
+7.  Jos asiakas hyväksyy tarjouksen, luo tarjotusta kokoonpanon nimikkeestä myyntitilaus. Lisätietoja on kohdassa [Myyntitarjousten tekeminen](sales-how-make-offers.md). Linkitetty kokoonpanotarjous ja kaikki muokkaukset on linkitetty uuteen myyntitilaukseen kokoonpanon tai myynnin valmistelua varten.  
 
 ## <a name="see-also"></a>Katso myös  
 [Kokoonpanon hallinta](assembly-assemble-items.md)  

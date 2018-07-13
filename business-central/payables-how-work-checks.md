@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 04/25/2018
+ms.date: 06/06/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: db28ad9a4adb45514b1d1287d269d8daefe64865
-ms.openlocfilehash: 39b48fbd34b29db56b39712fbd2cbf5dc91fefc6
+ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
+ms.openlocfilehash: bcd0e21bc40b63c99f37618ae3406395b3c31b10
 ms.contentlocale: fi-fi
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/11/2018
 
 ---
 # <a name="make-check-payments"></a>Sekkimaksujen suorittaminen
@@ -31,6 +31,8 @@ Voit maksaa kahdella eri tyyppisellä sekillä. Molemmissa tyypeissä **Vastatil
 > Voit varmistaa lähettämällä toimittaja-, sekki- ja maksutiedot sisältävän tiedoston, että pankki vahvistaa vain tarkistetut sekit ja summat. Lisätietoja on kohdassa [Positive Pay -tiedostojen vieminen](finance-how-positive-pay.md).
 
 Tulostin on määritettävä oikein sekkimuotoja varten. Myös käytettävä sekkien asettelu on määritettävä. Lisätietoja on kohdassa [Sekkien asetteluiden määrittäminen](finance-how-define-check-layouts.md)
+
+Voit tulostaa sivulle enintään 10 laskua sekin talonkia kohti. Jos sekki koskee yli 10 laskua, sekki mitätöidään talongin tulostuksen yhteydessä ensimmäisellä sivulla ja sekkiin tulostetaan sana MITÄTÖITY. Tämän jälkeen toiselle sivulle tulostetaan loput laskut ja sekin kokonaissumma. 
 
 ## <a name="to-pay-a-vendor-invoice-with-a-computer-check"></a>Maksaaksesi toimittajalaskun tietokonesekillä
 Seuraavassa kuvataan, miten toimittajalle maksetaan sekillä. Vaiheet ovat samankaltaiset kuin hyvitettäessä asiakkaalle sekkimaksuna.

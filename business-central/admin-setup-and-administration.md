@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 05/07/2018
+ms.date: 0/07/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
-ms.openlocfilehash: 93eced90155b9172595561bfc5b80c3c49ca11bc
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: c1675921c82ddf00f6a00f94bb38bd594a9a0089
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="administration"></a>Hallinta
-Yleensä yksi rooli hoitaa yrityksen keskitetyt hallintatehtävät. Tehtävien laajuus voi määräytyä yrityksen koon ja järjestelmänvalvojan vastuualueiden mukaan. Tehtäviin voi sisältyä esimerkiksi työ- ja sähköpostijonojen tietokantasynkronoinnin hallintaa, käyttäjien määritystä, käyttöliittymän mukautusta ja salausavainten hallintaa.  
+Yleensä yksi rooli hoitaa yrityksen keskitetyt hallintatehtävät. Tehtävien laajuus voi määräytyä yrityksen koon ja järjestelmänvalvojan vastuualueiden mukaan. Tehtäviin voi sisältyä esimerkiksi työ- ja sähköpostijonojen tietokantasynkronoinnin hallintaa, käyttäjien määritystä ja käyttöliittymän mukautusta.  
 
-Uuden liiketoimintaohjelmiston toimivuuden vuoksi on tärkeää, että syötettävät asetusarvot ovat oikeita alusta alkaen. [!INCLUDE[d365fin](includes/d365fin_md.md)]issa on useita asetusoppaita, jotka helpottavat perustietojen määrittämistä. Lisätietoja on kohdassa [Business Central -sovelluksen määrittäminen](setup.md).
+Uuden liiketoimintaohjelmiston toimivuuden vuoksi on tärkeää, että annettavat asetusarvot ovat oikein heti alusta alkaen. [!INCLUDE[d365fin](includes/d365fin_md.md)]issa on useita asetusoppaita, jotka helpottavat perustietojen määrittämistä. Lisätietoja on kohdassa [Business Central -sovelluksen määrittäminen](setup.md).
 
 Riippumatta siitä, otatko asetusarvot käyttöön RapidStart Services -palvelussa vai annatko ne manuaalisesti uudessa yrityksessä, voit tukea määrityspäätöksiäsi tietyillä yleisillä suosituksilla sellaisissa määrityskentissä, joiden tiedetään voivan heikentää ratkaisun toimintaa, jos ne määritetään virheellisesti.  
 
@@ -52,5 +52,5 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 [Käytön aloittaminen](product-get-started.md)    
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

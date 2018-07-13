@@ -11,10 +11,10 @@ ms.search.keywords: trade
 ms.date: 04/30/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
-ms.openlocfilehash: b3a3c4067c40ff2911c368cc97c94404b9dd66e2
+ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
+ms.openlocfilehash: ad8936e09a8f093f5855a87c8d78e05839afefc1
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 07/02/2018
 
 ---
 # <a name="sell-products"></a>Tuotteiden myyminen
@@ -23,7 +23,7 @@ Luo myyntitilaus tai -lasku tallentaaksesi sopimuksesi asiakkaan kanssa ja myyd�
 > [!NOTE]  
 >   Myyntitilauksia käytetään, jos myyntiprosessi vaatii tilausmäärän osittaisen toimittamisen esimerkiksi silloin, kun koko määrä ei ole kerralla käytettävissä. Jos myyt nimikkeitä toimittamalla ne suoraan toimittajalta asiakkaalle (suoratoimituksena), myyntitilauksia on käytettävä. Lisätietoja on kohdassa [Suoratoimitusten tekeminen](sales-how-drop-shipment.md). Kaikilta muilta osin myyntitilaukset toimivat samalla tavalla kuin myyntilaskut. Lisätietoja on kohdassa [Myynnin laskutus](sales-how-invoice-sales.md).
 
-Voit neuvotella asiakkaan kanssa luomalla ensin myyntitarjoukseen, jonka voit muuntaa myyntitilaukseksi, kun hyväksyt myynnin. Lisätietoja on kohdassa [Tarjousten tekeminen](sales-how-make-offers.md).
+Voit neuvotella asiakkaan kanssa luomalla ensin myyntitarjoukseen, jonka voit muuntaa myyntitilaukseksi, kun hyväksyt myynnin. Lisätietoja on kohdassa [Myyntitarjousten tekeminen](sales-how-make-offers.md).
 
 Sen jälkeen, kun asiakas on vahvistanut sopimuksen, esimerkiksi tarjousprosessin jälkeen, voit lähettää tilausvahvistuksen ja tallentaa velvollisuutesi toimittaa tuotteet sovitun mukaisesti.
 

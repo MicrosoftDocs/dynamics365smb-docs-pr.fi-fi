@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 04/20/2017
+ms.date: 05/06/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: b4dfdeb3cf49867699907c444147060727d3f146
-ms.openlocfilehash: 335738af45c1365da7e45f062b60e30d66082f41
+ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
+ms.openlocfilehash: 399b1a4331431a6472ecebaad41489092d117cfa
 ms.contentlocale: fi-fi
-ms.lasthandoff: 04/09/2018
+ms.lasthandoff: 06/11/2018
 
 ---
 
@@ -48,9 +48,9 @@ ALV-rekisteröintinumeroiden määritysohjeet:
 2. Valitse ensin maa tai alue ja sitten **ALV-rekisteröintinron muodot** -toiminto.
 3. Määritä muoto **Muodot**-kenttään antamalla vähintään yksi seuraavista merkeistä:  
 
-* # <a name="--requires-a-single-digit-number"></a>- Edellyttää yksimerkkistä lukua.
-* @ - Edellyttää kirjainta. Kirjainkoolla ei ole merkitystä.
-* ? - Mikä tahansa merkki sallitaan.
+* **#** - edellyttää yksimerkkistä lukua.  
+* **@** - edellyttää kirjainta. Kirjainkoolla ei ole merkitystä.  
+* **?** Mikä tahansa merkki sallitaan.  
 
     > [!Tip]
     > Voit käyttää muita merkkejä, kunhan niitä käytetään maan tai alueen muodossa. Jos sinun on sisällytettävä esimerkiksi numeroiden välinen piste tai yhdysviiva, voit määrittää muodon seuraavasti: ##.####.### tai @@-###-###.  
@@ -116,6 +116,29 @@ Seuraavissa osissa käsitellään ALV-kirjausryhmien määrittämistä yksittäi
 * Laajenna **Resurssi**-kortissa **Laskutus**-pikavälilehti.  
 3. Valitse tuotteen ALV-kirjausryhmä.  
 
+## <a name="setting-up-vat-statement-templates-and-vat-statement-names"></a>ALV-ilmoitusmallien ja ALV-ilmoitusten nimien määrittäminen
+Veroviranomaiset voivat muuttaa ALV:n kirjausvaatimuksia. **ALV-ilmoitusmallit** ja **ALV-ilmoitusten nimet** voivat auttaa tulevien muutosten valmistelemisessa. Niiden avulla siirtyminen uusiin vaatimuksiin on sujuva. Voit käyttää ALV-ilmoitusmalleja, kun määrität laskelmien määrittämisessä käytettäviä ALV-ilmoituksen sisältäviä kenttiä. Voit luoda uuden ALV-ilmoitusmallin, kun vaatimukset muuttuvat. Esimerkiksi yksi malli voi laskea tämän vuoden ALV:n nykyisten vaatimusten ja toinen malli seuraavan vuoden vaatimusten perusteella. Mallien avulla voi myös ylläpitää ALV-ilmoitusten muotojen historiaa esimerkiksi niin, että voit katsoa, miten edellisen vuoden ALV laskettiin.
+
+## <a name="how-to-define-and-preview-vat-statements"></a>ALV-ilmoitusten määrittäminen ja esikatselu
+ALV-ilmoitusten avulla voi laskea ALV-laskelman summan tietyltä kaudelta, esimerkiksi neljännesvuoden ajalta. Kun ALV-ilmoitus on määritetty, voit esikatsella sitä ja varmistaa, että se täyttää tarpeet. 
+
+Voit määrittää ALV-ilmoituksen seuraavien vaiheiden avulla:
+
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **ALV-ilmoitukset** ja valitse sitten aiheeseen liittyvä linkki.  
+2. Valitse **Nimi**-kenttä ja valitse sitten **ALV-ilmoitusten nimet** -sivulla **Uusi** . 
+3. Täytä vaaditut kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+> [!Tip]
+> Voit suodattaa ilmoituksen sisältämät tiedot sen mukaan, mikä arvo **Tyyppi**-kentässä on valittu. **Tilien summat** -kohta on hyödyllinen silloin, kun haetaan tietyn tilin ALV.
+**ALV-tapahtumien summat** hakee ALV:n **Yleinen kirjaustyyppi**-, **Liiketoiminnan ALV-kirjausryhmä**- ja/tai **Tuotteen ALV-kirjausryhmä** -kenttien valikoimaan liitetyistä tileistä. Voit syöttää arvon **Rivien summat** -kenttään tai pikasuodattimen ehdot **Rivien summat** -kenttään. Lisätietoja on kohdassa [Tietojen hakeminen, suodattaminen ja lajitteleminen](ui-enter-criteria-filters.md). **Kuvaus**-kohtaa käytetään usein, kun ilmoitukseen lisätään huomautus. Voit käyttää sitä esimerkiksi otsikkona, kun käytössä on rivien summa.
+
+Voit esikatsella ALV-ilmoitusta seuraavien vaiheiden avulla:
+
+1. Valitse **Esikatselu**.
+2. Aseta päivämääräsuodatus, jos haluat rajoittaa ilmoituksen tietylle kaudelle. Lisätietoja sivun mukauttamisesta niin, että sivulla näkyy päivämääräsuodatin, on kohdassa [Tietojen hakeminen, suodattaminen ja lajitteleminen](ui-enter-criteria-filters.md).
+3. Voit valita eri vaihtoehtoja ja siten määrittää, minkä tyyppiset ALV-tapahtumat sisällytetään ALV-ilmoitukseen.
+4. Niillä riveillä, joiden **Tyyppi**-kentässä lukee **ALV-tapahtumien summat**, näkyy luettelo ALV-tapahtumista, kun valitset summan **Sarakkeen summa** -kentässä.   
+
 ## <a name="to-set-up-clauses-to-explain-the-use-of-non-standard-vat-rates"></a>Poikkeavien ALV-prosenttien käyttöä selittävien lauseiden määrittäminen
 Määritä ALV-lause kuvaamaan tietoja käytettävästä ALV-tyypistä. Tietoja voidaan vaatia hallituksen asetuksella. Kun olet määrittänyt ALV-lauseen ja liittänyt sen ALV-kirjausasetukseen, ALV-lause näkyy kaikissa tulostetuissa myyntiasiakirjoissa, jotka käyttävät ALV-kirjausten asetusryhmää.
 
@@ -166,8 +189,7 @@ Voit tarkastella ALV-rekisteröintilokia asiakkaan, toimittajan tai kontaktin ko
 
 Palvelu voi myös säästää aikaa asiakasta tai toimittajaa luotaessa. Jos tiedät asiakkaan ALV-numeron, voit antaa sen asiakkaan tai toimittajan kortin **ALV-rekisterinro** -kentässä, jolloin asiakkaan nimi täytetään valmiiksi. Joissakin maissa myös yrityksen osoitteet ilmoitetaan jäsennetyssä muodossa. Näissä maissa myös osoitetiedot täytetään valmiiksi.  
 
-> [!NOTE]  
-> ALV-tietojen vaihtojärjestelmästä (VIES-palvelusta) on hyvä muistaa pari asiaa:
+ALV-tietojen vaihtojärjestelmästä (VIES-palvelusta) on hyvä muistaa pari asiaa:
 
 * Palvelu käyttää http-protokollaa, joten palvelun kautta siirretyt tiedot eivät ole salattuja.  
 * Palvelu voi olla ajoittain pois käytöstä Microsoftista riippumattomista syistä. Palvelu on osa EU:n laajaa kansallisten ALV-rekisterien verkostoa.

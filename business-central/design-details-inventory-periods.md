@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 99aa0cacdbe6933c5ba16443297d1838b8bfd3ac
+ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
+ms.openlocfilehash: c4c699204cf8c9e85f38f844a57c8da2e8e8e332
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/01/2018
 
 ---
 # <a name="design-details-inventory-periods"></a>Rakennetiedot: varastokausi
@@ -34,5 +34,5 @@ Takautuvat tapahtumat tai kustannusten muutokset vaikuttavat usein varaston arvo
 
 ## <a name="see-also"></a>Katso myös  
  [Rakennetiedot: varaston arvostus](design-details-inventory-costing.md) [Varaston kustannusten hallinta](finance-manage-inventory-costs.md) [Rahoitus](finance.md)  
- [Financialsin käyttäminen](ui-work-product.md)
+ [Business Central -sovelluksen käyttäminen](ui-work-product.md)
 

@@ -12,10 +12,10 @@ ms.search.keywords: bill, sale, invoice, order
 ms.date: 04/30/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
-ms.openlocfilehash: 2e5f27c156fd02641d65a4653c51553664c2322c
+ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
+ms.openlocfilehash: 97116be5c1a0fbbef2564120ac95030f488aafbc
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 07/02/2018
 
 ---
 # <a name="invoice-sales"></a>Myynnin laskutus
@@ -28,7 +28,7 @@ Myyntitilausta on käytettävä muutamissa skenaarioissa myyntilaskun sijaan:
 
 Kaikilta muilta osin myyntitilaukset ja myyntilaskut toimivat samalla tavalla. Lisätietoja on kohdassa [Tuotteiden myyminen](sales-how-sell-products.md).
 
-Voit neuvotella asiakkaan kanssa luomalla ensin myyntitarjoukseen, jonka voit muuntaa myyntilaskuksi, kun hyväksyt myynnin. Lisätietoja on kohdassa [Tarjousten tekeminen](sales-how-make-offers.md).
+Voit neuvotella asiakkaan kanssa luomalla ensin myyntitarjoukseen, jonka voit muuntaa myyntilaskuksi, kun hyväksyt myynnin. Lisätietoja on kohdassa [Myyntitarjousten tekeminen](sales-how-make-offers.md).
 
 Jos asiakas päättää tehdä oston, luo liittyvä määrä- ja arvotapahtuma kirjaamalla myyntilasku. Kun kirjaat myyntilaskun, voit myös lähettää asiakirjan PDF-liitteenä sähköpostitse. Sähköpostin perusteksti voidaan esitäyttää laskun ja maksun tietojen yhteenvedolla. Tietoihin voi kuulua esimerkiksi PayPal-linkki. Lisätietoja on kohdassa [Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md).
 

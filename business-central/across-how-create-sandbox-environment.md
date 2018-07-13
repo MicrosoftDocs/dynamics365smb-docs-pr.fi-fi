@@ -11,10 +11,10 @@ ms.search.keywords: sandbox, demo, develop
 ms.date: 08/18/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8451e456d03c9429ff2e04f4e0664ae240f872c2
+ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
+ms.openlocfilehash: d31095d0fc67b342d74bff813fb2eff7e3f82262
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/01/2018
 
 ---
 [!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
@@ -31,7 +31,7 @@ Tarvitse sandbox-ympäristön luontia varten [!INCLUDE[d365fin](includes/d365fin
 3. Valitse **Luo**.  
   Selaimeen avautuu uusi välilehti, jossa voi viimeistellä sandbox-ympäristön määrittämisen.
 > [!NOTE]  
->  Jos ponnahdusikkunoiden esto on selaimessa käytössä, vaihda sen asetukset sallimaan financials.dynamics.com-osoitteen URL-osoitteet.   
+>  Jos ponnahdusikkunoiden esto on selaimessa käytössä, vaihda sen asetukset sallimaan *.businesscentral.dynamics.com-osoitteen URL-osoitteet.   
 
 4. Kun sandbox-ympäristö on valmis, sinut uudelleenohjataan sandbox-ympäristön ohjattuun aloitustoimintoon.
 ![Sandbox-ympäristön ohjattu aloitustoiminto](./media/across-sandbox/sandbox-wizard.png)

@@ -13,15 +13,15 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 73d0044308d619f92e0379cc7b678301c72ce31c
+ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
+ms.openlocfilehash: 30f93593985140abd49c6cd4f90a992da793b164
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/01/2018
 
 ---
 
 # <a name="viewing-service-statistics"></a>Huoltotilastojen tarkasteleminen
-Financials sisältää tiettyjä tilastoja, joilla voit analysoida huoltoasiakirjoja ja selvittää, miten hyvin hallitse huoltoprosesseja. Voit analysoida huoltosopimuksia, tarjouksia, tilauksia, laskuja ja hyvityslaskuja valitsemalla **Tilastot**-toiminnon. Voit käyttää huoltonimikkeissä ja -sopimuksissa myös **huoltonimikkeen Trendscape-näkymää** tai **sopimuksen Trendscape-näkymää**. Voit tarkastella näissä näkymissä tietyn huoltonimikkeen huoltotapahtumia.   
+Voit käyttää tilastoja huoltoasiakirjojen analysoimisessa ja selvittää, miten hyvin hallitse huoltoprosesseja. Voit analysoida huoltosopimuksia, tarjouksia, tilauksia, laskuja ja hyvityslaskuja valitsemalla **Tilastot**-toiminnon. Voit käyttää huoltonimikkeissä ja -sopimuksissa myös **huoltonimikkeen Trendscape-näkymää** tai **sopimuksen Trendscape-näkymää**. Voit tarkastella näissä näkymissä tietyn huoltonimikkeen huoltotapahtumia.   
 
 ## <a name="viewing-statistics-for-service-orders"></a>Huoltotilauksen tilastojen tarkasteleminen
 Huoltotilauksen tilastoista saa yleiskatsauksen koko huoltotilauksen sisällöstä, tietyn huoltorivin erittelyn sekä laskutukseen, toimitukseen, kulutukseen ja asiakkaan saldoon liittyviä tietoja.  

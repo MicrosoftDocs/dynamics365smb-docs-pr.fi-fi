@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 74028404f5bc7c466b9bf7c0769e78804fd6114f
+ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
+ms.openlocfilehash: dd1651c6df11f99c010c1a9725b2cb5069b929e8
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/01/2018
 
 ---
 # <a name="managing-interactions-with-contacts"></a>Kontaktien kanssa tapahtuvien vuorovaikutusten hallinta
@@ -55,5 +55,5 @@ Voit poistaa vuorovaikutuslokin tapahtumia, jotka on peruutettu. Voit poistaa vu
 ## <a name="see-also"></a>Katso myös
 [Kontaktien hallinta](marketing-contacts.md)  
 [Myyntimahdollisuuksien hallinta](marketing-manage-sales-opportunities.md)  
-[Financialsin käyttäminen](ui-work-product.md)  
+[Business Central -sovelluksen käyttäminen](ui-work-product.md)  
 

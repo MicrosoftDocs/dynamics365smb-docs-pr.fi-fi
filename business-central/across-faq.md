@@ -1,6 +1,6 @@
 ---
-title: "Usein kysyttyjä kysymyksiä Financialsin käytöstä| Microsoft Docs"
-description: "Vastauksia yleisimpiin kysymyksiin Financialsiin rekisteröitymisestä ja sen käytön aloittamisesta."
+title: "Usein kysyttyjä kysymyksiä Business Centralin käyttämisestä | Microsoft Docs"
+description: "Vastauksia yleisimpiin kysymyksiin Business Centraliin rekisteröitymisestä ja sen käytön aloittamisesta."
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
-ms.date: 04/19/2018
+ms.date: 06/28/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: dc7e739bc2b8ac9e8efce3a0f52acb945352416e
-ms.openlocfilehash: 24b6001df4937df491be8a90fee806cd0f074830
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: 9284476557de94e57680bbaa68dfd62ed6d50afc
 ms.contentlocale: fi-fi
-ms.lasthandoff: 04/19/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="frequently-asked-questions"></a>Usein kysytyt kysymykset
@@ -38,22 +38,27 @@ Kyllä voit. Huomaa kuitenkin, että tietosi poistetaan tai säilytetään sen p
 Jos sinulla on sellaisia [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmaa koskevia kysymyksiä, joihin ei ole vastauksia tässä dokumentaatiossa, voit kysyä asiaa Business Central -yhteisöltä. Lisätietoja on kohdassa [Dynamics 365 Business Central -yhteisö](https://community.dynamics.com/business). Lisäksi tukitiimimme julkaisee erilaisia vihjeitä. Lisätietoja on kohdassa [Dynamics 365 Business Central -sovelluksen tukiblogi](https://blogs.msdn.microsoft.com/dyn365finsupport).  
 
 ## <a name="is-it-possible-to-extend-my-30-day-new-company-trial-period"></a>Voiko uuden yrityksen 30 päivän kokeilujaksoa pidentää?
-Kyllä. Jos haluat pidentää kokeilujaksoa, ota yhteys Microsoftiin soittamalla numeroon 1 888 477 7989 (USA) tai 1 800 741 9206 (Kanada). HUOMAUTUS: kokeilujakson pidentämisprosessi voi kestää 2 arkipäivää.  
+Kyllä. Jos haluat pidentää kokeilujaksoa, ota yhteyttä Microsoftiin soittamalla numeroon 1 800 865 9408. HUOMAUTUS: kokeilujakson pidentämisprosessi voi kestää 2 arkipäivää.  
 
 ## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-role-center-in-included365finincludesd365finmdmd"></a>Järjestelmänvalvoja on siirtänyt minut toiseen tilaukseen, jotta voin käyttää toista roolia, mutta näen kuitenkin edelleen saman [!INCLUDE[d365fin](includes/d365fin_md.md)] -roolikeskuksen. Miksi?
 Selitys on hieman monimutkainen, mutta ilmeisesti järjestelmänvalvoja ei vaihtanut roolikeskustasi eikä määrittänyt uutta käyttöoikeutta vastaavia käyttäjäryhmiä. [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttöoikeus määräytyy periaatteessa tilaussuunnitelman (käyttöoikeuden) mukaan, sillä sen avulla määritetään oikeudet ja roolikeskuksen oletussivu. Voit vaihtaa roolikeskuksen manuaalisesti omissa asetuksissa, mutta jos sinut siirretään toiseen tilaussuunnitelmaan, vaikkapa yritystilauksesta Team Members -tilaukseen, vanha aloitussivu voi olla näkyvissä, koska oikeuksia ei muutettu.  
 
 ## <a name="why-cant-i-find-that-capability-in-my-included365finincludesd365finmdmd"></a>Miksi tätä toimintoa ei löydy omasta [!INCLUDE[d365fin](includes/d365fin_md.md)]ista?
-Luitko uudesta toiminnosta äskettäin tulevia toimintoja käsittelevästä sivustosta tai blogistamme? Siinä tapauksessa [!INCLUDE[d365fin](includes/d365fin_md.md)]-versiotasi ei ehkä ole vielä päivitetty uusimpaan versioon. Jos toiminto on julkaistu laajennuksena AppSourcessa, laajennuksen julkistamista kuluu hetki, ennen kuin se on saatavilla AppSourcessa.
+Luitko uudesta toiminnosta äskettäin tulevia toimintoja käsittelevästä sivustosta tai blogistamme? Siinä tapauksessa [!INCLUDE[d365fin](includes/d365fin_md.md)]-versiotasi ei ehkä ole vielä päivitetty uusimpaan versioon. Jos toiminto on julkaistu laajennuksena AppSourcessa, laajennuksen julkistamista kuluu hetki, ennen kuin se on saatavilla AppSourcessa.  
+
+## <a name="can-i-get-training-in-included365finincludesd365finmdmd"></a>Saanko [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen käyttöä koskevaa koulutusta?
+Kyllä saat. Tällä hetkellä koulutusta tulee tiedustella jälleenmyyntikumppanilta. Jos et tiedä jälleenmyyntikumppaniasi, etsi Business Central -kumppani [täältä](https://www.microsoft.com/en-us/solution-providers/search).  
+
+Jos sinulla on Microsoftin CustomerSource-sivuston käyttöoikeus, voit käyttää Imagine Academy -sivustoa eLearning-materiaalin kanssa. Lisätietoja käyttöoikeuden saamisesta on [Microsoft Dynamics 365 -koulutus](/dynamics365/get-started/training/index#dynamics-365-customers) -sivulla.  
 
 ## <a name="why-are-some-ui-elements-that-i-used-in-dynamics-nav-not-visible-in-included365finincludesd365finmdmd"></a>Miksi jotkin käyttöliittymän osat, joita käytin Dynamics NAV:ssa, eivät näy [!INCLUDE[d365fin](includes/d365fin_md.md)]:ssa?
 [!INCLUDE[d365fin](includes/d365fin_md.md)]:n sovellusaluejärjestelmässä ja käyttökokemuksen vaihtoehdoissa voit näyttää tai piilottaa tuotteen halutut osat ostetun suunnitelman (Essential tai Premium) ja yrityksesi tarpeiden mukaisesti.
 
 Näitä ominaisuuksia on käytetty tuotteen käyttöliittymän yksinkertaistamiseen [!INCLUDE[d365fin](includes/d365fin_md.md)] -vakioversiossa. Esimerkiksi kentät, joita ei usein käytetä, kuten **Faksinro**, on poistettu, ja luetteloiden ja korttien värinauhoissa kaksinkertaiset toiminnot on poistettu ja useimmiten käytettävät tehtävät nostetaan esiin. Joitakin täydellisiä ominaisuuksia, kuten kommentteja, optimoidaan tällä hetkellä web-asiakasohjelmalle ja siksi eivät ole käytettävissä [!INCLUDE[d365fin](includes/d365fin_md.md)]:ssa.
 
-Näin ollen tiettyjä käyttöliittymän osia, jotka näkyvät Dynamics NAV -vakioversiossa, ei näytetä [!INCLUDE[d365fin](includes/d365fin_md.md)]:ssa. Kyseisillä komponenteilla on tällä hetkellä #Advanced-sovellusaluetunniste. 
+Näin ollen tiettyjä käyttöliittymän osia, jotka näkyvät Dynamics NAV -vakioversiossa, ei näytetä [!INCLUDE[d365fin](includes/d365fin_md.md)]:ssa. Kyseisillä komponenteilla on tällä hetkellä #Advanced-sovellusaluetunniste.
 
-Jos haluat, että [!INCLUDE[d365fin](includes/d365fin_md.md)] -ratkaisusi sisältää samat käyttöliittymän osat kuin Dynamics NAV -ratkaisusi, sinun on tehtävä muutamia vaiheita kehitysympäristössä, jotta saat #Advanced-ohjausobjektit esiin laajennuksen kautta. Lisätietoja on kohdassa [Sovellusalueiden laajentaminen](https://docs.microsoft.com/en-us/dynamics-nav/developer/devenv-extending-application-areas).
+Jos haluat, että [!INCLUDE[d365fin](includes/d365fin_md.md)] -ratkaisusi sisältää samat käyttöliittymän osat kuin Dynamics NAV -ratkaisusi, sinun on tehtävä muutamia vaiheita kehitysympäristössä, jotta saat #Advanced-ohjausobjektit esiin laajennuksen kautta. Lisätietoja on kohdassa [Sovellusalueiden laajentaminen](/dynamics365/dev-itpro/developer/devenv-extending-application-areas).
 
 ## <a name="see-also"></a>Katso myös
 [Käytön aloittaminen](product-get-started.md)  
@@ -63,5 +68,4 @@ Jos haluat, että [!INCLUDE[d365fin](includes/d365fin_md.md)] -ratkaisusi sisäl
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

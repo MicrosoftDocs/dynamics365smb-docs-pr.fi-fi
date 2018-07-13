@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox
-ms.date: 01/05/2018
+ms.date: 06/28/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 3e7c5ca600a5f64b44fca419ce33cad868f15595
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: 0829c825ec0635a20c040fe17cd3e7cfc667ffd7
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="access-to-the-included365finlongincludesd365finlongmdmd-preview"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] -esikatselun käyttöoikeus
@@ -43,7 +43,7 @@ Lisätietoja on kohdassa [Suunnittelutoiminnon käyttäminen](https://docs.micro
 3.  Valitse **Luo**. Esiin tulevassa välilehdessä voit määrittää sandbox-ympäristön asetukset valmiiksi.
 
     > [!Note]
-    > Jos ponnahdusikkunoiden esto on käytössä selaimessa, vaihda sen asetukset sallimaan *.financials.dynamics.com*-osoitteen URL-osoitteet.  
+    > Jos ponnahdusikkunoiden esto on käytössä selaimessa, vaihda sen asetukset sallimaan *.businesscentral.dynamics.com*-osoitteen URL-osoitteet.  
 
 4.  Kun sandbox-ympäristö on valmis, näyttöön tulee aloitussivu.  
 5.  Jos haluat lukea sandbox-ympäristössä kokeiltavista skenaarioista, kuten esimerkiksi laajennusten kehittämisestä, valitse **Lisätietoja**-linkki. Muussa tapauksessa valitse **Sulje** ja jatka [!INCLUDE[d365fin](includes/d365fin_md.md)] -sanbox-esiintymän roolikeskukseen.  
@@ -67,7 +67,7 @@ Lisätietoja on kohdassa [Suunnittelutoiminnon käyttäminen](https://docs.micro
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] sisältää työkaluja, joiden avulla voit ottaa käyttöön omat lisäosat ja upottaa toimintoja, joiden avulla lisätään toimialakohtaisia kokonaisvaltaisia käyttökokemuksia tai integroidaan kolmannen osapuolen ratkaisuja. Voit esimerkiksi kehittää ohjelmointirajapinnan avulla yhdistetyn sovelluksen, jolla vaihdetaan tietoja [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman ja palkkasovelluksen välillä. Yhdistetyt sovellukset voivat käyttää myös laajennuksia ja luoda sivuja, joita käytetään asetuksissa, määrityksissä tai sovelluskohtaisten toimintojen tukemisessa. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman sovellusten kehittäminen](https://aka.ms/getstartedwithapps).
 
-##<a name="see-also"></a>Katso myös
+## <a name="see-also"></a>Katso myös
 [Käytön aloittaminen](product-get-started.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 

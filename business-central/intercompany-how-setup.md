@@ -1,8 +1,6 @@
 ---
 title: "Konsernitapahtuman kirjauksen määrittäminen| Microsoft Docs"
 description: "Luo konsernitoimittajat ja -asiakkaat konsernikumppaneina ja määritä konsernin tilikartta."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 06/20/2017
+ms.date: 06/07/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 418dac3a6d909d3eb07525ab537a94f85016ad19
+ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
+ms.openlocfilehash: a9e3788687e88a60141e9ffb6b18f1c98a180c59
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/11/2018
 
 ---
 # <a name="set-up-intercompany"></a>Konsernin tietojen määrittäminen
@@ -59,7 +57,7 @@ Jos oma yritys on tytäryhtiö ja olet vastaanottanut konsernin yleisen tilikart
 ### <a name="to-export-an-intercompany-chart-of-accounts"></a>Konsernin tilikartan vieminen
 Jotta konsernikumppanit voisivat tuoda määrittävän tilikartan, se on vietävä tiedostoon.      
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake -kuvake"), kirjoita **Konsernin tilikartta** ja valitse sitten aiheeseen liittyvä linkki.
-2. - **Konsernin Tilikartta** -ikkunassa valita **Vie** toiminto, ja valitse sitten **tallentaa** painike.
+2. Valitse **Konsernin Tilikartta** -ikkunassa **Vie** toiminto ja valitse sitten **Tallenna**-painike.
 3. Määritä tiedostonimi sekä sijainti, johon haluat tallentaa XML-tiedoston, ja valitse sitten **Tallenna**-painike.  
 
 ### <a name="to-import-the-intercompany-chart-of-accounts"></a>Voit tuoda konsernin tilikartan seuraavasti  
@@ -89,7 +87,7 @@ Kun lisäät kirjanpitotilin **Vastatilin nro** -kenttään sille konsernin rivi
 3. Toista vaihe 3 kaikkien sellaisten tilien osalta, joita lisäät usein konsernin päiväkirjan tai asiakirjan riville **Vastatilin nro** -kenttään.
 
 ## <a name="to-set-up-intercompany-dimensions"></a>Konsernin dimensioiden määrittäminen
-Jos oman yrityksen ja konsernikumppanien välillä halutaan siirtää tapahtumia, joihin on linkitetty dimensioita, kaikkien on hyväksyttävä käytettävät dimensiot. Konsernin emoyritys voi esimerkiksi luoda yksinkertaistetun version omasta dimensiojoukostaan, viedä kyseiset konsernin dimensiot XML-tiedostoon ja jakaa tiedoston muille konsernin yrityksille. Jokainen tytäryhtiö tuo tämän jälkeen XML-tiedoston **Konsernin dimensiot** -ikkunaan ja linkittää konsernin dimensiot oman **Dimensiot**-taulukon dimensioihin.  
+Jos oman yrityksen ja konsernikumppanien välillä halutaan siirtää tapahtumia, joihin on linkitetty dimensioita, kaikkien on hyväksyttävä käytettävät dimensiot. Konsernin emoyritys voi esimerkiksi luoda yksinkertaistetun version omasta dimensiojoukostaan, viedä kyseiset konsernin dimensiot XML-tiedostoon ja jakaa tiedoston muille konsernin yrityksille. Jokainen tytäryhtiö tuo tämän jälkeen XML-tiedoston **Konsernin dimensiot** -ikkunaan ja linkittää konsernin dimensiot oman **Dimensiot**-ikkunansa dimensioihin.  
 
 Jos oma yritys on emoyhtiö ja sen on tarkoitus määrittää konsernin viitekehyksenä käyttämä konsernin dimensiojoukko, noudata kohdan Konsernin dimensioiden määrittäminen ohjeita.
 
@@ -112,7 +110,7 @@ Kun määrittävällä konsernin dimensioilla on tiedosto, konsernikumppanit voi
 **Konsernin dimensiot**- ja **Konsernin dimensioarvot** -ikkunoiden rivit tuodaan.  
 
 ### <a name="to-map-intercompany-dimensions-to-your-companys-dimensions"></a>Voit linkittää konsernin dimensiot oman yrityksen dimensioihin seuraavasti
-Kun olet määrittänyt tai tuonut dimensiot, joiden käytöstä olette sopineet konsernikumppanien kesken, kukin konsernin dimensio on yhdistettävä oman yrityksen dimensioon ja päin vastoin. Määritä **Konsernin dimensio** -ikkunassa, kuinka saapuvien tapahtumien konsernin dimensiot muunnetaan yrityksen dimensioluettelon dimensioiksi. Voit määrittää **Dimensiot**-ikkunassa, kuinka yrityksen dimensiot muunnetaan konsernin dimensioiksi lähtevissä tapahtumissa.
+Kun olet määrittänyt tai tuonut dimensiot, joiden käytöstä olette sopineet konsernikumppanien kesken, kukin konsernin dimensio on yhdistettävä oman yrityksen dimensioon ja päin vastoin. Määritä **Konsernin dimensio** -ikkunassa, miten saapuvien tapahtumien konsernin dimensiot muunnetaan yrityksen dimensioluettelon dimensioiksi. Voit määrittää **Dimensiot**-ikkunassa, kuinka yrityksen dimensiot muunnetaan konsernin dimensioiksi lähtevissä tapahtumissa.
 
 Jos konsernin dimensioilla on samoja koodeja kuin yrityksen dimensioluettelon vastaavilla dimensioilla, voit määrittää ohjelman linkittämään dimensiot automaattisesti ja linkittää tilit sitten automaattisesti.
 

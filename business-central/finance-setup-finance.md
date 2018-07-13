@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 12/20/2017
+ms.date: 05/31/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: 44b9d4b0f1a57920ad4be0ccb4a13f17df88ff3b
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: 025c00e6013e773204a12abc7d86c09b3dcef3dd
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="setting-up-finance"></a>Rahoituksen määrittäminen
@@ -30,6 +30,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 | --- | --- |
 | Valitse, miten maksat toimittajille. |[Maksutapojen määrittäminen](finance-payment-methods.md) |
 | Määritä kirjausryhmät, jotka yhdistävät objektit, kuten asiakkaat, toimittajat, nimikkeet, resurssit sekä myynti- ja ostoasiakirjat, pääkirjanpidon tileille. |[Kirjausryhmien määrittäminen](finance-posting-groups.md)|
+|Luo KP-raporttimallit ja määritä tililuokat, jos haluat määrittää talouskaavioiden ja -raporttien, kuten tase- ja tuloslaskelmaraporttien, sisällön.|[Talousraportoinnin valmisteleminen KP-raporttimallien ja tililuokkien avulla](bi-how-work-account-schedule.md)|
 |Määritä toleranssi, jonka mukaan järjestelmä sulkee laskun, vaikka maksu ja mahdolliset alennukset eivät täysin vastaa laskun koko summaa.|[Maksutoleranssien ja maksualennustoleranssien käsitteleminen](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Määritä tilikaudet. |[Uuden tilikauden avaaminen](finance-how-open-new-fiscal-year.md) |
 | Määritä, miten myynnistä kerätyt arvonlisäverosummat raportoidaan veroviranomaisille. |[ALV:n raportointi veroviranomaisille](finance-how-report-vat.md)|
@@ -48,5 +49,5 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

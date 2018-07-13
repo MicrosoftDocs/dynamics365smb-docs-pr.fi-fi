@@ -8,24 +8,26 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 04/16/2018
+ms.date: 05/31/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
-ms.openlocfilehash: f9f5b3a25a24d4d10c80d048153e68030733bf9e
+ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
+ms.openlocfilehash: 69034b0eb97b595d0fbf5795e1fac34ecd775afe
 ms.contentlocale: fi-fi
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/11/2018
 
 ---
-# <a name="work-with-account-schedules"></a>KP-raporttimallien käyttäminen
-Saat KP-raporttimallien avulla tietoja tilikarttaan sisältyvistä kirjanpitotiedoista. KP-raporttimallit analysoivat kirjanpitotilien lukuja ja vertaavat pääkirjanpidon tapahtumia pääkirjanpidon budjettitapahtumiin. Tulokset näkyvät roolikeskuksen kaavioissa, kuten kassavirtakaaviossa.  
+# <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Talousraportoinnin valmisteleminen KP-raporttimallien ja tililuokkien avulla
+Saat KP-raporttimallien avulla tietoja tilikarttaan sisältyvistä kirjanpitotiedoista. KP-raporttimallit analysoivat kirjanpitotilien lukuja ja vertaavat pääkirjanpidon tapahtumia pääkirjanpidon budjettitapahtumiin. Tulokset näkyvät roolikeskuksen kaavioissa, kuten kassavirtakaaviossa, ja raporteissa, kuten Tuloslaskelma- ja Tase-raporteissa.
+
+Voit käyttää näitä kahta raporttia esimerkiksi liiketoimintajohtajan ja kirjanpitäjän roolikeskusten **Tilinpäätökset** -toiminnon avulla.   
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] sisältää käyttövalmiita KP-raporttimalleja. Voit myös määrittää itse verrattavat luvut määrittämällä omat rivit ja sarakkeet. Voit esimerkiksi luoda KP-raporttimalleja katteen laskemista varten erilaisille dimensioille, kuten osastoille tai asiakasryhmille. Voit luoda niin monta mukautettua rahoituslaskelmaa kuin haluat.  
 
 KP-raporttimallien määrittäminen vaatii tilikartan taloustietojen ymmärtämistä. Voit esimerkiksi tarkastella pääkirjanpidon tapahtumia budjettitapahtumien prosenttiosuuksina. Tämä edellyttää, että budjetit on luotu. Lisätietoja on kohdassa [KP-budjettien luominen](finance-how-create-budgets.md).
 
 ## <a name="account-categories-and-account-schedules"></a>Tililuokat ja KP-raporttimallit
-Tililuokkien avulla voit muuttaa rahoituslaskelmien asettelua. Kun olet määrittänyt tililuokat **KP-tilin luokat** -ikkunassa ja valinnut **Luo KP-raporttimallit** -toiminnon, tärkeimpien rahoituslaskelmien perustana olevat KP-raporttimallit päivitetään. Kun seuraavan kerran suoritat jonkin näistä raporteista, uudet kokonaissummat ja korvaustapahtumat lisätään muutosten perusteella. Lisätietoja on kohdassa [Pääkirjanpito ja tilikartta](finance-general-ledger.md).  
+Tililuokkien avulla voit muuttaa rahoituslaskelmien asettelua. Kun olet määrittänyt tililuokat **KP-tilin luokat** -ikkunassa ja valinnut **Luo KP-raporttimallit** -toiminnon, tärkeimpien rahoituslaskelmien perustana olevat KP-raporttimallit päivitetään. Kun seuraavan kerran suoritat toisen näistä raporteista, esimerkiksi Tase-raportin, uudet kokonaissummat ja korvaustapahtumat lisätään muutosten perusteella. Lisätietoja on kohdan [Tietoja pääkirjanpidosta ja tilikartasta](finance-general-ledger.md) Tililuokat-osassa.  
 
 ## <a name="to-create-new-account-schedules"></a>Uuden KP-raporttimallin luominen  
  KP-raporttimallien käyttäminen kirjanpitotilien lukujen analysoimista varten tai pääkirjanpidon tapahtumien vertaamiseksi pääkirjanpidon budjettitapahtumiin. Voit esimerkiksi tarkastella KP-tapahtumien prosenttiosuuksia budjettitapahtumista.
@@ -41,7 +43,12 @@ Tililuokkien avulla voit muuttaa rahoituslaskelmien asettelua. Kun olet määrit
 7. Täytä **Sarakeasettelu**-ikkunan kentät tarpeesi mukaan.
 
 > [!NOTE]  
->   Jos KP-raporttimallin sarakeasettelun oletusarvoa ei määritetty, sarakkeet on määritettävä manuaalisesti.   
+> Jos KP-raporttimallin sarakeasettelun oletusarvoa ei määritetty, sarakkeet on määritettävä manuaalisesti.
+
+### <a name="to-copy-an-existing-account-schedule"></a>Olemassa olevan KP-raporttimallin kopioiminen
+[!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen vakioversion KP-raporttimallit perustuvat vakiotalousraportteihin, jotka eivät ehkä vastaa liiketoimintasi tarpeita. Voit nopeasti luoda omia talousraportteja kopioimalla olemassa olevan KP-raporttimallin.
+1. Valitse **KP-raporttimallit**-ikkunassa KP-raporttimalli ja valitse sitten **Kopioi KP-raporttimalli** -toiminto.
+2. Täytä **Kopioi KP-raporttimalli** -ikkunassa tarvittavat kentät ja valitse sitten **OK**-painike.
 
 ### <a name="to-create-a-column-that-calculates-percentages"></a>Prosenttilukuja laskevan sarakkeen luominen  
 Joskus haluat ehkä sisällyttää KP-raporttimalliin sarakkeen, joka laskee prosenttiluvut kokonaissummasta. Jos esimerkiksi eri rivit jakavat myynnin dimensioittain, voit lisätä sarakkeen, joka ilmoittaa kunkin rivin prosenttiosuuden kokonaissummasta.
