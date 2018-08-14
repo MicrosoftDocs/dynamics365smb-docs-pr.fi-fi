@@ -266,6 +266,7 @@
 ## [Varastonimikkeiden siirtäminen sijaintien välillä](inventory-how-transfer-between-locations.md)
 ## [Nimikkeiden varaaminen](inventory-how-to-reserve-items.md)
 ## [Sarja- ja eränumeroiden käsitteleminen](inventory-how-work-item-tracking.md)
+## [Nimikkeiden estäminen](inventory-how-block-items.md)
 ## [Vastuupaikkojen käyttäminen](inventory-responsibility-centers.md)
 
 # [Projektinhallinta](projects-manage-projects.md)
@@ -390,7 +391,7 @@
 ## [Rakennetiedot: Nimikkeen seuranta](design-details-item-tracking.md)
 ## [Rakenteen tiedot: Yleisen päiväkirjan kirjausrivi](design-details-general-journal-post-line.md)
 
-# Paikalliset toiminnot
+# [Paikalliset toiminnot](about-localization.md)
 ## [Australia](LocalFunctionality/Australia/australia-local-functionality.md)  
 ## [Itävalta](LocalFunctionality/Austria/austria-local-functionality.md)
 ## [Belgia](LocalFunctionality/Belgium/belgium-local-functionality.md)
