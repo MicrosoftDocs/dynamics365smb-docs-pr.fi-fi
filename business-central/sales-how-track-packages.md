@@ -9,20 +9,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
-ms.date: 08/23/2017
+ms.date: 07/19/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c1dc918a775f050c51e7b83092d5f2f6ba0b83b1
+ms.sourcegitcommit: 42deec3d94209a7963e596e7deb5584fccd6db7f
+ms.openlocfilehash: 9e50d9da53077f2baa136ca614734adbd332c1be
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 07/19/2018
 
 ---
 # <a name="track-packages"></a>Kollien seuraaminen
-Osa kuljetusliikkeistä tarjoaa Internet-palveluja, joiden avulla voi seurata kuljetusliikkeelle luovutettuja paketteja. Jos käytät yhtä tai useampaa tällaista kuljetusliikettä, voit määrittää tiettyjä perustietoja ohjelmaan. Jälkeenpäin voit käyttää kirjattujen toimitusten automaattista seurantaominaisuutta. Lisätietoja on kohdassa [Kuljetusliikkeiden määrittäminen](sales-how-to-set-up-shipping-agents.md).
+Osa kuljetusliikkeistä tarjoaa Internet-palveluja, joiden avulla voi seurata kuljetusliikkeelle luovutettuja paketteja. Jos käytät yhtä tai useampaa tällaista kuljetusliikettä, voit määrittää tiettyjä perustietoja ohjelmaan. Jälkeenpäin voit käyttää kirjattujen toimitusten automaattista seurantaominaisuutta. Lisätietoja on kohdassa [Kuljetusliikkeiden määrittäminen](sales-how-to-set-up-shipping-agents.md).  
+
+> [!NOTE]
+> Tämä toiminto ei ole tällä hetkellä käytössä [!INCLUDE[d365fin](includes/d365fin_md.md)]:ssä. Lisätietoja on usein kysyttyjen kysymysten kohdassa [Miksi osa Dynamics NAV:ssa käyttämistäni käyttöliittymän osista ei näy Business Centralissa?](https://docs.microsoft.com/en-us/dynamics365/business-central/across-faq#why-are-some-ui-elements-that-i-used-in-dynamics-nav-not-visible-in-).
 
 ## <a name="to-track-a-package"></a>Paketin seuraaminen
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Myyntitoimitukset** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Kirjatut myyntitoimitukset** ja valitse sitten aiheeseen liittyvä linkki.
 2. Avaa käsiteltävä toimitus.
 3. Anna **Kollin seurantanro** -kentässä kollinnumero, jonka olet saanut kuljetusliikkeeltä.
 4. Valitse **Seuraa kollia** -toiminto.

@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 09/08/2017
+ms.date: 07/23/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f5b69dce5426f828572fa57e73c03ac35332e101
+ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
+ms.openlocfilehash: 745da790218ee57e4fb44b8c0bab2bce504eda3b
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 07/30/2018
 
 ---
 
@@ -47,6 +47,7 @@ Vaikka kustannukset kirjattaisiin automaattisesti pääkirjanpitoon, on tarpeen 
 |Varaa varaston nimikkeitä tai saapuvia nimikkeitä myyntitilauksiin, ostotilauksiin, huoltotilauksiin, kokoonpanotilauksiin tai tuotantotilauksiin.|[Nimikkeiden varaaminen](inventory-how-to-reserve-items.md)|
 |Määritä sarja- tai eränumerot lähtevän tai saapuvan asiakirjan tai päiväkirjan riville esimerkiksi silloin, kun nimikkeitä on seurattava tuotepalautusten vuoksi.|[Sarja- ja eränumeroiden käsitteleminen](inventory-how-work-item-tracking.md)|
 |Etsi esimerkiksi palautustilanteissa, missä sarja- tai eränumeroita käytettiin toimitusketjussa.|[Nimikeseurannan nimikkeiden jäljittäminen](inventory-how-to-trace-item-tracked-items.md)|
+|Estä nimikkeiden vienti myynti- tai ostoriveille tai sen kirjaaminen mihinkään tapahtumaan.|[Nimikkeiden estäminen](inventory-how-block-items.md)|
 |Hallitse myyntitoimistojen, osto-osastojen tai tehtaan suunnittelutoimistojen liiketoimintatoiminnoissa eri sijainneissa.|[Vastuupaikkojen käyttäminen](inventory-responsibility-centers.md)|
 
 ## <a name="see-also"></a>Katso myös  
@@ -57,5 +58,4 @@ Vaikka kustannukset kirjattaisiin automaattisesti pääkirjanpitoon, on tarpeen 
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

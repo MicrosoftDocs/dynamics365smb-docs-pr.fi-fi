@@ -107,7 +107,7 @@ Päivämääriä ja aikoja voi määrittää kaikissa päivämääräkentissä. 
 |koodi|Tulos|  
 |--------------|----------------|  
 |t|Tämä on tämän päivän päivämäärä (tietokoneen järjestelmäpäivämäärä).|  
-|w|Tämä on sovelluksessa määritettävä käsittelypäivämäärä. Lisätietoja käsittelypäivämäärän muuttamisesta on kohdassa [Perusasetusten muuttaminen](ui-change-basic-settings.md). Haluat ehkä käyttää käsittelypäivämäärää, jos sellaisia tapahtumia on paljon, joissa on jokin muu kuin tämän päivän päivämäärä.|  
+|k|Tämä on sovelluksessa määritettävä käsittelypäivämäärä. Lisätietoja käsittelypäivämäärän muuttamisesta on kohdassa [Perusasetusten muuttaminen](ui-change-basic-settings.md). Haluat ehkä käyttää käsittelypäivämäärää, jos sellaisia tapahtumia on paljon, joissa on jokin muu kuin tämän päivän päivämäärä.|  
 
 <!--Onprem ## Closing Date  
  When you close a fiscal year, you can use closing dates to indicate that an entry is a closing entry. A closing date technically is between two dates, for example between Dec 31 and Jan 1.  
@@ -145,7 +145,7 @@ Päivämääriä ja aikoja voi määrittää kaikissa päivämääräkentissä. 
 |11 12|11-nykyinen kuukausi-nykyinen vuosi 12:00:00|  
 |1112 12 |11-12-nykyinen vuosi 12:00:00|  
 |t tai tänään|tämän päivän päivämäärä 00:00:00|  
-|a aika|tämän päivän pvm tämänhetkinen aika|  
+|t aika|tämän päivän pvm tämänhetkinen aika|  
 |t 10:30:00|tämän päivän päivämäärä 10:30:00|  
 |t 3:3:3|tämän päivän päivämäärä 03:03:03|  
 |k tai käsittelypvm|käsittelypvm 00:00:00|  

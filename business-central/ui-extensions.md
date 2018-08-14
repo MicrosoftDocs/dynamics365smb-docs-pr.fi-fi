@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 07/07/2017
+ms.date: 07/09/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: 45ae07cd542d53ea71af0a3009ea57e09340fc0c
+ms.sourcegitcommit: d7664360941313da6ea0b797ef00df2e9810ad62
+ms.openlocfilehash: 0baa6494bb9d41514122b06037020140a8c2c79f
 ms.contentlocale: fi-fi
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 07/09/2018
 
 ---
 # <a name="customizing-business-central-using-extensions"></a>Business Central -sovelluksen mukauttaminen laajennusten avulla
@@ -31,7 +31,7 @@ Laajennuksia hallitaan **Laajennusten hallinta** -ikkunassa. Tämä ikkuna löyt
 >   Jos sinulla on mielestäsi laajennuksen käyttöoikeus muttet löydä sen toimintoja, tarkista **Laajennusten hallinta** -ikkuna. Jos laajennusta ei mainita ikkunassa, voit asentaa sen seuraavassa osassa kerrotulla tavalla.  
 
 ## <a name="installing-an-extension"></a>Laajennuksen asentaminen
-Uusia laajennuksia on saatavana kauppapaikasta osoitteessa [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1). Kaupassa on nähtävänä kaikki [!INCLUDE[d365fin](includes/d365fin_md.md)]in saatavilla olevat laajennukset, ja voit hankkia sieltä muiden Microsoftin tuotteiden sovelluksia, laajennuksia ja sisältöpaketteja. Määritä soveltuvat suodattimet, tutustu kunkin laajennuksen tietoihin ja hae laajennus [!INCLUDE[d365fin](includes/d365fin_md.md)]iin.  
+Uusia laajennuksia on saatavana kauppapaikasta osoitteessa [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?src=dynamics365website&product=dynamics-365-business-central). Kaupassa on nähtävänä kaikki [!INCLUDE[d365fin](includes/d365fin_md.md)]in saatavilla olevat laajennukset, ja voit hankkia sieltä muiden Microsoftin tuotteiden sovelluksia, laajennuksia ja sisältöpaketteja. Määritä soveltuvat suodattimet, tutustu kunkin laajennuksen tietoihin ja hae laajennus [!INCLUDE[d365fin](includes/d365fin_md.md)]iin.  
 > [!NOTE]  
 >   Kirjaudu sivustoon [AppSource.microsoft.com](https://appsource.microsoft.com/) [!INCLUDE[d365fin](includes/d365fin_md.md)]issa käyttämäsi sähköpostitilin tiedoilla. Saman sähköpostitilin käyttäminen myös muissa palveluissa ja tuotteissa takaa sujuvan käyttökokemuksen.  
 

@@ -12,10 +12,10 @@ ms.search.keywords: workflow, Odata, Power App, SOAP
 ms.date: 05/09/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 4dd987ee51cd2b5d8575d6d97ad21d00ec85739a
+ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
+ms.openlocfilehash: b8c9f05335c76884ba0d61451b0730d64bd1bfce
 ms.contentlocale: fi-fi
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 07/30/2018
 
 ---
 # <a name="using-included365finincludesd365finmdmd-in-an-automated-workflow"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen automaattisessa työnkulussa
@@ -60,7 +60,7 @@ Olet nyt muodostanut yhteyden Business Central -tietoihin ja olet valmis aloitta
 11. Flow pyytää valitsemaan yrityksen [!INCLUDE[d365fin_md](includes/d365fin_md.md)] -vuokraajasta. Koska seuraavat vaiheet eivät vaikuta Flow'n vaiheisiin, saatat joutua määrittämään yrityksen useita kertoja [!INCLUDE[d365fin_md](includes/d365fin_md.md)] Flow -mallissa.
 
 > [!NOTE]  
-> [!INCLUDE[d365fin_md](includes/d365fin_md.md)] Flow -malli integroituu [!INCLUDE[d365fin_md](includes/d365fin_md.md)] -perustyönkulkumoduuliin. Tämä tarkoittaa sitä, että aina kun jokin näistä malleista luo Flow'n, vastaava työnkulku luodaan [!INCLUDE[d365fin_md](includes/d365fin_md.md)]issa. Lisätietoja on kohdassa [Työnkulku](across-workflow.md).
+> [!INCLUDE[d365fin_md](includes/d365fin_md.md)] Flow -malli integroituu [!INCLUDE[d365fin_md](includes/d365fin_md.md)] -perustyönkulkumoduuliin. Tämä tarkoittaa sitä, että aina kun jokin näistä malleista luo Flow'n, vastaava työnkulku luodaan [!INCLUDE[d365fin_md](includes/d365fin_md.md)]issa. Työnkulun luova henkilö on lisäksi määritettävä hyväksyjäksi asetusten ohjatussa määritysoppaassa. Lisätietoja on kohdassa [Työnkulku](across-workflow.md).
 
 Lisätietoja on kohdassa [Flow-ohjeistus](https://docs.microsoft.com/en-us/flow/getting-started).
 

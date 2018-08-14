@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 07/06/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 1d48a4cd8d805870527249c414285867c83a6de9
+ms.sourcegitcommit: d7664360941313da6ea0b797ef00df2e9810ad62
+ms.openlocfilehash: 1a8fd4f75fc1562985412b7e478066aa425c9425
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 07/09/2018
 
 ---
 # <a name="setting-up-workflow-notifications"></a>Työnkulkuilmoitusten määrittäminen
@@ -26,7 +26,7 @@ Monet työnkulun vastaukset ilmoittavat käyttäjälle toimia edellyttävistä t
 >  [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman yleinen versio tukee ilmoituksia sähköpostina ja sisäisinä muistiinpanoina.  
 
 > [!IMPORTANT]  
->  Kaikki työnkulun ilmoitukset lähetetään työjonon kautta. Varmista, että ratkaisussa on työjono. Lisätietoja on kohdassa [Tehtävien aikatauluttaminen työjonojen avulla](admin-job-queues-schedule-tasks.md).
+>  Kaikki työnkulun ilmoitukset lähetetään työjonon kautta. Varmista, että asennuksen työjono on määritetty käsittelemään työnkulun ilmoituksia ja että **Käynnistä automaattisesti palvelimelta** -valintaruutu on valittu. Lisätietoja on kohdassa [Tehtävien aikatauluttaminen työjonojen avulla](admin-job-queues-schedule-tasks.md).
 
 Työnkulun ilmoitusten osatekijöitä määritetään seuraavissa paikoissa:  
 

@@ -61,7 +61,7 @@ Kun toimittajat ovat kertoneet sinulle myöntämänsä laskualennukset, syötä 
 
     Jatka uuden ostolaskun alennusehtojen määrittämiseen.
 4. Valitse **Toimittajan kortti** -ikkunassa **Laskualennukset**-toiminto. **Toimittajien laskualennukset** -ikkuna aukeaa.
-5. Syötä **Valuutan koodi** -kenttään sen valuutan koodi, johon rivin laskualennuksen ehdot kohdistetaan. Jätä kenttä tyhjäksi, jos laskualennuksen ehdot määritetään Yhdysvaltojen dollareina.
+5. Syötä **Valuutan koodi** -kenttään sen valuutan koodi, johon rivin laskualennuksen ehdot kohdistetaan. Jätä kenttä tyhjäksi, jos laskualennuksen ehtojen määritys tapahtuu valuutassa EUR.
 6. Syötä **Vähimmäissumma**-kenttään laskun vähimmäissumma, joka oikeuttaa alennukseen.
 7. Syötä **Alennus-%**-kohtaan laskun alennus prosentteina laskun summasta.
 8. Toista vaiheet 5–7 jokaiselle valuutalle, jossa toimittaja saa eri laskualennuksen.

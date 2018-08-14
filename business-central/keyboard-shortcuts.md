@@ -11,10 +11,10 @@ ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 05/18/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 4fceff1a6cf728608a49182a9704f187d31767fe
-ms.openlocfilehash: f0e7b7a560bacb3791524b94d721f413b3c72310
+ms.sourcegitcommit: 42deec3d94209a7963e596e7deb5584fccd6db7f
+ms.openlocfilehash: 2695ebc582ee2c161b566522bffd62f534fbc013
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/28/2018
+ms.lasthandoff: 07/19/2018
 
 ---
 
@@ -91,6 +91,22 @@ Päivämääräkenttää määrittäessäsi voit syöttää päivämäärän man
 |Enter|Valitse kohdistettu päivä.|
 |Ctrl+End<br />(Cmd+End)|Sulje kalenteri ja poista nykyinen päivämäärä.|
 |Esc|Sulje kalenteri ilman valintaa, säilytä nykyinen päivämäärä.|
+
+
+## <a name="keyboard-shortcuts-in-the-report-preview"></a>Raportin esikatselun pikanäppäimet
+
+|Paina näitä näppäimiä<br />(macOS)|Tehtävä|
+|-----------------|-------|
+|Nuoli alas|Vieritä sivua alas.|  
+|Ylänuoli|Vieritä sivua ylös.|
+|Oikea nuoli|Vieritä oikealle, kun sivua on lähennetty niin ettei koko sivu ole näkyvissä. |
+|Vasen nuoli|Vieritä vasemmalle, kun sivua on lähennetty niin ettei koko sivu ole näkyvissä. |
+|Ctrl+0 (nolla)<br />(Cmd+0)|Sovittaa koko sivun ikkunaan. |
+|Ctrl+Home<br />(Cmd + Home)|Siirry raportin ensimmäiselle sivulle.|
+|Ctrl+End<br />(Cmd + Home)|Siirry raportin viimeiselle sivulle.|
+|Sivu alas<br />(Fn+alanuoli)|Siirry raportissa seuraavalle sivulle.|
+|Page Upbr />(Fn+ylänuoli)|Siirry raportissa edelliselle sivulle.|
+
 
 <!--
 ## Keyboard shortcuts in list (shown as tiles)

@@ -63,7 +63,7 @@ Kun olet määrittänyt asiakkaat, joille myönnetään laskun alennuksia, mää
 Jatka uuden myyntilaskun alennusehtojen määrittämiseen.
 
 1. Valitse **Asiakkaan kortti** -ikkunassa **Laskualennukset**-toiminto. **Asiakkaan laskualennukset** -ikkuna aukeaa.
-2. Syötä **Valuutan koodi** -kenttään sen valuutan koodi, johon rivin laskualennuksen ehdot kohdistetaan. Jätä kenttä tyhjäksi, jos laskualennuksen ehdot määritetään Yhdysvaltojen dollareina.
+2. Syötä **Valuutan koodi** -kenttään sen valuutan koodi, johon rivin laskualennuksen ehdot kohdistetaan. Jätä kenttä tyhjäksi, jos laskualennuksen ehtojen määritys tapahtuu valuutassa EUR.
 3. Syötä **Vähimmäissumma**-kenttään laskun vähimmäissumma, joka oikeuttaa alennukseen.
 4. Syötä **Alennus-%**-kohtaan laskun alennus prosentteina laskun summasta.
 5. Toista vaiheet 5–7 jokaiselle valuutalle, jossa asiakas saa eri laskualennuksen.

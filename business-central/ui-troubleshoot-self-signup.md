@@ -10,10 +10,10 @@ ms.workload: na
 ms.date: 03/16/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
-ms.openlocfilehash: 62bb5421667ad53d619d0529d04cf8803890a6aa
+ms.sourcegitcommit: d7664360941313da6ea0b797ef00df2e9810ad62
+ms.openlocfilehash: de07dac85b9e24f50eb60570630feb6199089ec4
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/02/2018
+ms.lasthandoff: 07/09/2018
 
 ---
 # <a name="troubleshooting-self-service-sign-up"></a>Itsepalvelun rekisteröitymisen vianmääritys
@@ -37,26 +37,30 @@ Jos yrität rekisteröityä käyttämällä henkilökohtaista sähköpostiosoite
 | Jos Office 365 -tili on rekisteröity tuetussa maassa ja olet rekisteröitymässä [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmaan eri maassa, näyttöön tulee rekisteröitymisen yhteydessä seuraavan tyyppinen viesti:<br /><br />**Toiminto ei onnistunut. Microsoft ei vielä tue maatasi tai aluettasi.**| Organisaation Office 365 -tilaus on rekisteröity tietyssä maassa Office 365:n hallintaportaalissa. [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman rekisteröitymisessä käytetään nykyisen selaimen kieltä ja kielialuetta. Tämän vuoksi saatat saada virhesanoman, vaikka sijaintisi olisi tuettu maa. Pyydä IT-järjestelmänvalvojaa tarkistamaan [Office 365:n hallintaportaalin](https://portal.office.com/adminportal/home#/companyprofile) organisaatioprofiilissa määritetty maa. Saatat joutua käyttämään eri tiliä [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmassa.|
 
 ## <a name="regional-availability"></a>Aluekohtainen saatavuus
-[!INCLUDE[d365fin](includes/d365fin_md.md)] on tällä hetkellä saatavana seuraavilla markkinoilla:
+Luettelo tuetuista markkinoista on kohdassa [Microsoft Dynamics 365:n kansainvälinen saatavuus](https://docs.microsoft.com/en-us/dynamics365/get-started/availability) ja [Paikalliset toiminnot](about-localization.md) -saapumissivulla.
 
-| Eurooppa | Pohjois-Amerikka |
+<!-- [!INCLUDE[d365fin](includes/d365fin_md.md)] is currently available in the following markets:
+
+| Europe | North America |
 | --- | --- |
-| Australia | Kanada |
-| Itävalta | |
-| Belgia | Yhdysvallat |
-| Tanska | |
-| Saksa | |
-| Suomi | |
-| Ranska | |
-| Italia | |
-| Alankomaat | |
-| Uusi-Seelanti | |
-| Espanja | |
-| Ruotsi | |
-| Sveitsi | |
-| Iso-Britannia | |
+| Australia | Canada |
+| Austria | |
+| Belgium | United States |
+| Denmark | |
+| Germany | |
+| Finland | |
+| France | |
+| Italy | |
+| Netherlands | |
+| New Zealand | |
+| Spain | |
+| Sweden | |
+| Switzerland | |
+| United Kingdom | |
+-->
 
 ## <a name="see-also"></a>Katso myös
 [Tervetuloa [!INCLUDE[d365fin](includes/d365fin_long_md.md)]iin!](index.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[Paikalliset toiminnot](about-localization.md)  
 

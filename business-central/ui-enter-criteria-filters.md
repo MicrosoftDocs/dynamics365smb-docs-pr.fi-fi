@@ -51,8 +51,8 @@ Pikasuodattimen avulla voit lisätä suodattimia kaikille sivuille. Pikasuodatin
   </TR>
   <TR>
     <TD>man</TD>
-    <TD>@&#42;valm&#42;</TD>
-    <TD>Kaikki tietueet, jotka sisältävät tekstin <b>mies</b> ja kirjainkokoa huomioimatta.</TD>
+    <TD>@&#42;man&#42;</TD>
+    <TD>Kaikki tietueet, jotka sisältävät tekstin <b>man</b> ja kirjainkokoa huomioimatta.</TD>
   </TR>
   <TR>
     <TD>se</TD>
@@ -60,24 +60,24 @@ Pikasuodattimen avulla voit lisätä suodattimia kaikille sivuille. Pikasuodatin
     <TD>Kaikki tietueet, jotka sisältävät tekstin <b>se</b> ja kirjainkokoa huomioimatta.</TD>
   </TR>
   <TR>
-    <TD>Valm&#42;</TD>
-    <TD>Alussa <b>Valm</b> ja kirjainkoolla on merkitystä.</TD>
-    <TD>Kaikki tietueet, jotka alkavat tekstillä <b>Mies</b>.</TD>
+    <TD>Man&#42;</TD>
+    <TD>Alussa <b>Man</b> ja kirjainkoolla on merkitystä.</TD>
+    <TD>Kaikki tietueet, jotka alkavat tekstillä <b>Man</b>.</TD>
   </TR>
   <TR>
     <TD>'man'</TD>
     <TD>Täsmällinen teksti ja kirjainkoolla on merkitystä.</TD>
-    <TD>Kaikki tietueet, jotka vastaavat täsmälleen tekstiä <b>mies</b>.</TD>
+    <TD>Kaikki tietueet, jotka vastaavat täsmälleen tekstiä <b>man</b>.</TD>
   </TR>
   <TR>
     <TD>@man* </TD>
     <TD>Alkaa ja kirjainkoolla ei ole merkitystä.</TD>
-    <TD>Kaikki tietueet, jotka alkavat tekstillä <b>mies</b>.</TD>
+    <TD>Kaikki tietueet, jotka alkavat tekstillä <b>man</b>.</TD>
   </TR>
     <TR>
-    <TD>@&#42;valm</TD>
+    <TD>@&#42;man</TD>
     <TD>Päättyy ja kirjainkoolla ei ole merkitystä.</TD>
-    <TD>Kaikki tietueet, jotka päättyvät tekstiin <b>mies</b>.</TD>
+    <TD>Kaikki tietueet, jotka päättyvät tekstiin <b>man</b>.</TD>
   </TR>
 </TABLE>
 
