@@ -7,8 +7,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
-ms.date: 07/20/2018
+ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan, application area, experience
+ms.date: 08/15/2018
 ms.author: edupont
 ms.translationtype: HT
 ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
@@ -56,6 +56,7 @@ Jos sinulla on Microsoftin CustomerSource-sivuston käyttöoikeus, voit käyttä
 [!INCLUDE[d365fin](includes/d365fin_md.md)] on saatavana vain tietyillä markkina-alueilla, mutta uusia maita lisätään Microsoftin tai kumppanien johtamina lokalisointeina neljännesvuosittain. Lisätietoja on kohdassa [Tuetut maat ja käännökset](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
 
 ## <a name="why-are-some-ui-elements-that-i-used-in-dynamics-nav-not-visible-in-included365finincludesd365finmdmd"></a>Miksi jotkin käyttöliittymän osat, joita käytin Dynamics NAV:ssa, eivät näy [!INCLUDE[d365fin](includes/d365fin_md.md)]:ssa?
+
 [!INCLUDE[d365fin](includes/d365fin_md.md)]:n sovellusaluejärjestelmässä ja käyttökokemuksen vaihtoehdoissa voit näyttää tai piilottaa tuotteen halutut osat ostetun suunnitelman (Essential tai Premium) ja yrityksesi tarpeiden mukaisesti.
 
 Näitä ominaisuuksia on käytetty tuotteen käyttöliittymän yksinkertaistamiseen [!INCLUDE[d365fin](includes/d365fin_md.md)] -vakioversiossa. Esimerkiksi kentät, joita ei usein käytetä, kuten **Faksinro**, on poistettu, ja luetteloiden ja korttien värinauhoissa kaksinkertaiset toiminnot on poistettu ja useimmiten käytettävät tehtävät nostetaan esiin. Joitakin täydellisiä ominaisuuksia, kuten kommentteja, optimoidaan tällä hetkellä web-asiakasohjelmalle ja siksi eivät ole käytettävissä [!INCLUDE[d365fin](includes/d365fin_md.md)]:ssa.
