@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Node Name="" DisplayName="Ohje" Page="product-get-started.html">
+  <Node Name="" DisplayName="Aloitusopas" Page="across-get-started.html">
+    <Node Name="" DisplayName="Yritystoimintojen yleiskatsaus" Page="across-business-functionality.html"/>
+    <Node Name="" DisplayName="Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä" Page="upload-data.html"/>
+    <Node Name="" DisplayName="Business Central -sovelluksen hakeminen mobiililaitteeseen" Page="install-mobile-app.html"/>
+    <Node Name="" DisplayName="Synkronoiminen Microsoft Outlookin kontaktien kanssa" Page="admin-synchronize-outlook-contacts.html"/>
+    <Node Name="" DisplayName="Business Central -sovelluksen käyttäminen yrityssähköpostina Outlookissa" Page="admin-outlook.html"/>
+    <Node Name="" DisplayName="Yritystietojen ottaminen käyttöön Power BI:tä varten" Page="admin-powerbi.html"/>
+    <Node Name="" DisplayName="Business Central -sovelluksen käyttäminen Power BI -tietolähteenä" Page="across-how-use-financials-data-source-powerbi.html"/>
+    <Node Name="" DisplayName="Business Central -sovelluksen mukauttaminen laajennusten avulla" Page="ui-extensions.html"/>
+  </Node>
+  <Node Name="" DisplayName="Vihjeet ja vinkit" Page="ui-work-product.html">
+    <Node Name="" DisplayName="Business Central -sovelluksen käyttäminen" Page="ui-work-product.html"/>
+    <Node Name="" DisplayName="Etsi sivua tai raporttia -toiminnon käyttäminen" Page="ui-search.html"/>
+    <Node Name="" DisplayName="Perusasetusten muuttaminen" Page="ui-change-basic-settings.html"/>
+    <Node Name="" DisplayName="Toimintaohje: Roolikeskuksen vaihtaminen" Page="change-role.html"/>
+    <Node Name="" DisplayName="Business Central -sovelluksen mukauttaminen" Page="ui-customizing-overview.html"/>
+    <Node Name="" DisplayName="Business Central -sovelluksen arvoehdotusten salliminen" Page="ui-let-system-suggest-values.html"/>
+    <Node Name="" DisplayName="Raportin tulostaminen" Page="ui-work-report.html"/>
+    <Node Name="" DisplayName="Yleisiä tehtäviä käsitteleviä videoita" Page="across-videos.html"/>
+  </Node>
+  <Node Name="" DisplayName="Business Central -sovelluksen määrittäminen" Page="setup.html">
+    <Node Name="" DisplayName="Asetukset ja hallinto" Page="admin-setup-and-administration.html">
+      <Node Name="" DisplayName="Muutosten kirjaaminen lokiin" Page="across-log-changes.html"/>
+      <Node Name="" DisplayName="Uusien yritysten luominen" Page="about-new-company.html"/>
+      <Node Name="" DisplayName="Käyttäjät, profiilit ja roolikeskukset" Page="admin-users-profiles-roles.html"/>
+      <Node Name="" DisplayName="Toimintaohje: Käyttäjien ja käyttöoikeuksien hallinta" Page="ui-how-users-permissions.html"/>
+      <Node Name="" DisplayName="Työjonojen käyttäminen tehtävien aikatauluttamiseen" Page="admin-job-queues-schedule-tasks.html"/>
+      <Node Name="" DisplayName="Toimintaohje: verkkopalvelun julkaiseminen" Page="across-how-publish-web-service.html"/>
+    </Node>
+    <Node Name="" DisplayName="Rahoituksen määrittäminen" Page="finance-setup-finance.html">
+      <Node Name="" DisplayName="Maksutapojen määrittäminen" Page="finance-payment-methods.html"/>
+      <Node Name="" DisplayName="Kirjausryhmien määrittäminen" Page="finance-posting-groups.html"/>
+      <Node Name="" DisplayName="Toimintaohje: Maksutoleranssien ja maksualennustoleranssien käsitteleminen" Page="finance-payment-tolerance-and-payment-discount-tolerance.html"/>
+      <Node Name="" DisplayName="Uuden tilikauden avaaminen" Page="finance-how-open-new-fiscal-year.html"/>
+      <Node Name="" DisplayName="Arvolisäveron määrittäminen" Page="finance-setup-vat.html"/>
+      <Node Name="" DisplayName="Toimintaohje: Valuutan vaihtokurssien päivittäminen" Page="finance-how-update-currencies.html"/>
+      <Node Name="" DisplayName="Tilikartan määrittäminen" Page="finance-setup-chart-accounts.html"/>
+      <Node Name="" DisplayName="Kassavirta-analyysin määrittäminen" Page="finance-setup-cash-flow-analyses.html"/>
+      <Node Name="" DisplayName="Käteisasiakkaiden määrittäminen" Page="finance-how-to-set-up-cash-customers.html"/>
+      <Node Name="" DisplayName="Toimintaohje: Intrastat-raportoinnin määrittäminen" Page="finance-how-setup-report-intrastat.html"/>
+      <Node Name="" DisplayName="Toimintaohje: Konsolidoitu alust. tulos/tase -raportin käyttäminen" Page="accross-how-consolidated-company-reporting.html"/>
+    </Node>
+    <Node Name="" DisplayName="Pankkitoiminnan määrittäminen" Page="bank-setup-banking.html">
+      <Node Name="" DisplayName="Toimittajan pankkitilien määrittäminen" Page="bank-how-setup-bank-accounts.html"/>
+      <Node Name="" DisplayName="Toimintaohje: Pankkitietojen muuntopalvelun määrittäminen" Page="bank-how-setup-bank-data-conversion-service.html"/>
+    </Node>
+    <Node Name="" DisplayName="Myynnin määrittäminen" Page="sales-setup-sales.html">
+      <Node Name="" DisplayName="Toimintaohje: Uusien asiakkaiden rekisteröiminen" Page="sales-how-register-new-customers.html"/>
+      <Node Name="" DisplayName="Toimintaohje: Asiakasmaksujen ottaminen käyttöön maksupalvelujen kautta" Page="sales-how-enable-payment-service-extensions.html"/>
+      <Node Name="" DisplayName="Toimintaohje: Erikoismyyntihintojen ja -alennusten kirjaaminen" Page="sales-how-record-sales-price-discount-payment-agreements.html"/>
+      <Node Name="" DisplayName="Toimintaohje: Myyjien määrittäminen" Page="sales-how-setup-salespeople.html"/>
+      <Node Name="" DisplayName="Toimintaohje: Asiakirjan lähetysprofiilien määrittäminen" Page="sales-how-setup-document-send-profiles.html"/>
+      <Node Name="" DisplayName="Toimintaohje: Asiakirjojen lähettäminen sähköpostitse" Page="ui-how-send-documents-email.html"/>
+      <Node Name="" DisplayName="Toimintaohje: ALV-rekisteröintinumeroiden tarkistaminen" Page="sales-how-to-verify-vat-registration-numbers.html"/>
+      <Node Name="" DisplayName="Kuljetusliikkeiden määrittäminen" Page="sales-how-to-set-up-shipping-agents.html"/>
+    </Node>
+    <Node Name="" DisplayName="Ostojen määrittäminen" Page="purchasing-setup-purchasing.html">
+      <Node Name="" DisplayName="Toimintaohje: Uusien toimittajien rekisteröiminen" Page="purchasing-how-register-new-vendors.html"/>
+      <Node Name="" DisplayName="Toimintaohje: Erikoisostohintojen ja -alennusten kirjaaminen" Page="purchasing-how-record-purchase-price-discount-payment-agreements.html"/>
+      <Node Name="" DisplayName="Toimittajien priorisointi" Page="purchasing-how-prioritize-vendors.html"/>
+      <Node Name="" DisplayName="Ostajien määrittäminen" Page="purchasing-how-setup-purchasers.html"/>
+    </Node>
+    <Node Name="" DisplayName="Varaston määrittäminen" Page="inventory-setup-inventory.html">
+      <Node Name="" DisplayName="Toimintaohje: Yleisten varastotietojen määrittäminen" Page="inventory-how-setup-general.html"/>
+      <Node Name="" DisplayName="Toimintaohje: Vastuupaikkojen käyttäminen" Page="inventory-responsibility-centers.html"/>
+      <Node Name="" DisplayName="Sijaintien määrittäminen" Page="inventory-how-setup-locations.html"/>
+      <Node Name="" DisplayName="Toimintaohje: Uusien nimikkeiden rekisteröiminen" Page="inventory-how-register-new-items.html"/>
+      <Node Name="" DisplayName="Varastointiyksiköiden määrittäminen" Page="inventory-how-to-set-up-stockkeeping-units.html"/>
+      <Node Name="" DisplayName="Toimintaohje: Nimikkeiden luokitteleminen" Page="inventory-how-categorize-items.html"/>
+    </Node>
+    <Node Name="" DisplayName="Projektinhallinnan määrittäminen" Page="projects-setup-projects.html">
+      <Node Name="" DisplayName="Toimintaohje: Resurssien määrittäminen" Page="projects-how-setup-resources.html"/>
+      <Node Name="" DisplayName="Aikaraporttien määrittäminen" Page="projects-how-setup-time-sheets.html"/>
+      <Node Name="" DisplayName="Projektien määrittäminen" Page="projects-how-setup-jobs.html"/>
+    </Node>
+    <Node Name="" DisplayName="Käyttöomaisuuden määrittäminen" Page="fa-setup.html">
+      <Node Name="" DisplayName="Toimintaohje: Käyttöomaisuuden yleisten tietojen määrittäminen" Page="fa-how-setup-general.html"/>
+      <Node Name="" DisplayName="Toimintaohje: Käyttöomaisuuden poiston määrittäminen" Page="fa-how-setup-depreciation.html"/>
+      <Node Name="" DisplayName="Toimintaohje: Käyttöomaisuuden vakuutuksen määrittäminen" Page="fa-how-setup-insurance.html"/>
+      <Node Name="" DisplayName="Toimintaohje: Käyttöomaisuuden kunnossapidon määrittäminen" Page="fa-how-setup-maintenance.html"/>
+    </Node>
+    <Node Name="" DisplayName="Varastoinninhallinnan määrittäminen" Page="warehouse-setup-warehouse.html">
+      <Node Name="" DisplayName="Rakennetiedot: f. varaston yleiskuvaus" Page="design-details-warehouse-overview.html"/>
+      <Node Name="" DisplayName="Varastopaikkojen määrittäminen" Page="warehouse-how-to-set-up-bin-types.html"/>
+      <Node Name="" DisplayName="Toimintaohje: Varastopaikkojen luominen" Page="warehouse-how-to-create-individual-bins.html"/>
+      <Node Name="" DisplayName="Toimintaohje: Varastopaikan sisällön luominen" Page="warehouse-how-to-set-up-bin-contents.html"/>
+      <Node Name="" DisplayName="Hyllytysmallien määrittäminen" Page="warehouse-how-to-set-up-put-away-templates.html"/>
+      <Node Name="" DisplayName="Varastotyöntekijöiden määrittäminen" Page="warehouse-how-to-set-up-warehouse-employees.html"/>
+      <Node Name="" DisplayName="Sijaintien määrittäminen varastopaikkojen käyttämistä varten" Page="warehouse-how-to-set-up-locations-to-use-bins.html"/>
+      <Node Name="" DisplayName="Olemassa olevien sijaintien muuntaminen fyysisen varaston sijainneiksi" Page="warehouse-how-to-convert-existing-locations-to-warehouse-locations.html"/>
+      <Node Name="" DisplayName="Fyysisten perusvarastojen ja toimintoalueiden määrittäminen" Page="warehouse-how-to-set-up-basic-warehouses-with-operations-areas.html"/>
+      <Node Name="" DisplayName="Toimintaohje: Nimikkeiden ja sijaintien määrittäminen ohjattua hyllytystä ja poimintaa varten" Page="warehouse-how-to-set-up-items-for-directed-put-away-and-pick.html"/>
+      <Node Name="" DisplayName="Toimintaohje: Varaston laskeminen, muuttaminen tai uudelleenluokitus" Page="inventory-how-count-adjust-reclassify.html"/>
+      <Node Name="" DisplayName="Toimintaohje: Automaattisen irtotavaran erottelun ottaminen käyttöön ohjatulla hyllytyksellä ja poiminnalla" Page="warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.html"/>
+      <Node Name="" DisplayName="Toimintaohje: FEFO-poiminnan ottaminen käyttöön" Page="warehouse-picking-by-fefo.html"/>
+      <Node Name="" DisplayName="Toimintaohje: ADCS (Automated Data Capture Systems) -järjestelmän ottaminen käyttöön" Page="warehouse-use-automated-data-capture-systems-adcs.html"/>
+      <Node Name="" DisplayName="Fyysisten varastojen järjesteleminen uudelleen" Page="warehouse-how-to-restructure-warehouses.html"/>
+    </Node>
+    <Node Name="" DisplayName="Tuotannon määrittäminen" Page="production-configure-production-processes.html">
+      <Node Name="" DisplayName="Kuinka luoda tuotantosolun kalenterit" Page="production-how-to-create-work-center-calendars.html"/>
+      <Node Name="" DisplayName="Toimintaohje: Tuotantosolujen ja kuormituskeskusten määrittäminen" Page="production-how-to-set-up-work-and-machine-centers.html"/>
+      <Node Name="" DisplayName="Uusien reititysten luominen" Page="production-how-to-create-routings.html"/>
+      <Node Name="" DisplayName="Uusien tuotannon tuoterakenteiden luominen" Page="production-how-to-create-production-boms.html"/>
+      <Node Name="" DisplayName="Toiminnan tuotoksen mukaisen komponenttien materiaalioton ottaminen käyttöön" Page="production-how-to-flush-components-according-to-operation-output.html"/>
+      <Node Name="" DisplayName="Toimintaohje: Tuotantoerän mittayksiköiden käyttäminen" Page="production-how-to-use-the-manufacturing-batch-unit-of-measure.html"/>
+      <Node Name="" DisplayName="Toimintaohje: Tuotantoperheiden käsitteleminen" Page="production-how-work-family.html"/>
+      <Node Name="" DisplayName="Toimintaohje: Vakioreititysrivien määrittäminen" Page="production-how-set-up-standard-routing-lines.html"/>
+      <Node Name="" DisplayName="Toimintaohje: Tuotanto alihankintana" Page="production-how-to-subcontract-manufacturing.html"/>
+    </Node>
+    <Node Name="" DisplayName="Huoltohallinnon määrittäminen" Page="service-setup-service.html">
+      <Node Name="" DisplayName="Vakiohuoltokoodien määrittäminen" Page="service-how-setup-service-coding.html"/>
+      <Node Name="" DisplayName="Toimintaohje: huoltoprosessien määrittäminen" Page="service-setup-service-processes.html"/>
+      <Node Name="" DisplayName="Toimintaohje: Vian raportoinnin määrittäminen" Page="service-how-setup-fault-reporting.html"/>
+      <Node Name="" DisplayName="Toimintaohje: Huoltotarjousten määrittäminen" Page="service-how-setup-service-offerings.html"/>
+      <Node Name="" DisplayName="Toimintaohje: Vianetsinnän määrittäminen:" Page="service-how-setup-troubleshooting.html"/>
+      <Node Name="" DisplayName="Toimintaohje: Resurssien kohdistamisen määrittäminen" Page="service-how-setup-resource-allocation.html"/>
+      <Node Name="" DisplayName="Toimintaohje: Huollon hintojen ja lisäkustannusten määrittäminen" Page="service-how-setup-service-costs-pricing.html"/>
+      <Node Name="" DisplayName="Toimintaohje: Huoltonimikkeiden ja huoltonimikkeen komponenttien määrittäminen" Page="service-how-setup-service-items.html"/>
+      <Node Name="" DisplayName="Toimintaohje: Työ- ja huoltotuntien määrittäminen" Page="service-how-setup-work-service-hours.html"/>
+      <Node Name="" DisplayName="Toimintaohje: Huoltotilausten ja -korjausten tilan määrittäminen" Page="service-order-repair-status.html"/>
+      <Node Name="" DisplayName="Toimintaohje: Lainatavaraohjelman määrittäminen" Page="service-how-setup-loaner-program.html"/>
+      <Node Name="" DisplayName="Toimintaohje: Huoltosopimusten määrittäminen" Page="service-how-setup-service-contracts.html"/>
+    </Node>
+    <Node Name="" DisplayName="Poistotavat" Page="fa-depreciation-methods.html"/>
+    <Node Name="" DisplayName="Toimintaohje: Sähköpostin määrittäminen" Page="madeira-how-setup-email.html"/>
+    <Node Name="" DisplayName="Toimintaohje: Numerosarjan luominen" Page="ui-create-number-series.html"/>
+    <Node Name="" DisplayName="Toimintaohje: Laajennetun nimiketekstin määrittäminen" Page="ui-how-define-ext-text.html"/>
+    <Node Name="" DisplayName="Peruskalenterin määrittäminen" Page="across-how-to-assign-base-calendars.html"/>
+    <Node Name="" DisplayName="Monimutkaisten sovellusalueiden määrittäminen parhaiden käytäntöjen avulla" Page="set-up-complex-application-areas-using-best-practices.html">
+      <Node Name="" DisplayName="Asetukset - parhaat käytännöt: toimitusten suunnittelu" Page="setup-best-practices-supply-planning.html"/>
+      <Node Name="" DisplayName="Parhaiden käytäntöjen määrittäminen: Arvostusmenetelmät" Page="setup-best-practices-costing-method.html"/>
+    </Node>
+  </Node>
+  <Node Name="" DisplayName="Rahoitus" Page="finance.html">
+    <Node Name="" DisplayName="Myyntisaamisten hallinta" Page="receivables-manage-receivables.html">
+      <Node Name="" DisplayName="Maksujen kohdistaminen automaattisesti ja pankkitilien täsmäyttäminen" Page="receivables-apply-payments-auto-reconcile-bank-accounts.html"/>
+      <Node Name="" DisplayName="Toimintaohje: Asiakkaan maksujen täsmäyttäminen manuaalisesti maksamattomien myyntiasiakirjojen luettelosta" Page="receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.html"/>
+      <Node Name="" DisplayName="Toimintaohje: Asiakkaan maksujen kohdistaminen manuaalisesti" Page="receivables-how-apply-sales-transactions-manually.html"/>
+      <Node Name="" DisplayName="Toimintaohje: Avointen saldojen periminen" Page="receivables-collect-outstanding-balances.html"/>
+      <Node Name="" DisplayName="Toimintaohje: Kaupan lisäkustannusten huomiointi nimikekulujen avulla" Page="payables-how-assign-item-charges.html"/>
+      <Node Name="" DisplayName="Toimintaohje: Maksutoleranssien ja maksualennustoleranssien käsitteleminen" Page="finance-payment-tolerance-and-payment-discount-tolerance.html"/>
+    </Node>
+    <Node Name="" DisplayName="Ostovelkojen hallinta" Page="payables-manage-payables.html">
+      <Node Name="" DisplayName="Maksujen suorittaminen" Page="payables-make-payments.html"/>
+      <Node Name="" DisplayName="Maksujen kohdistaminen automaattisesti ja pankkitilien täsmäyttäminen" Page="receivables-apply-payments-auto-reconcile-bank-accounts.html"/>
+      <Node Name="" DisplayName="Toimintaohje: Toimittajamaksujen täsmäyttäminen manuaalisesti" Page="payables-how-apply-purchase-transactions-manually.html"/>
+      <Node Name="" DisplayName="Toimintaohje: Kaupan lisäkustannusten huomiointi nimikekulujen avulla" Page="payables-how-assign-item-charges.html"/>
+    </Node>
+    <Node Name="" DisplayName="Ennakkomaksujen laskuttaminen" Page="finance-invoice-prepayments.html">
+      <Node Name="" DisplayName="Toimintaohje: Ennakkomaksujen määrittäminen" Page="finance-set-up-prepayments.html"/>
+      <Node Name="" DisplayName="Yhdistettyjen ennakkolaskujen luominen" Page="finance-how-to-create-prepayment-invoices.html"/>
+      <Node Name="" DisplayName="Ennakkomaksujen korjaaminen" Page="finance-how-to-correct-prepayments.html"/>
+    </Node>
+    <Node Name="" DisplayName="Pankkitilien hallinta" Page="bank-manage-bank-accounts.html">
+      <Node Name="" DisplayName="Maksujen kohdistaminen automaattisesti ja pankkitilien täsmäyttäminen" Page="receivables-apply-payments-auto-reconcile-bank-accounts.html"/>
+      <Node Name="" DisplayName="Toimintaohje: Pankkitilien täsmäyttäminen erikseen" Page="bank-how-reconcile-bank-accounts-separately.html"/>
+      <Node Name="" DisplayName="Toimintaohje: Pankkivarojen siirtäminen" Page="bank-how-transfer-bank-funds.html"/>
+    </Node>
+    <Node Name="" DisplayName="Konsernitapahtumien hallinta" Page="intercompany-manage.html">
+      <Node Name="" DisplayName="Toimintaohje: Konsernin määrittäminen" Page="intercompany-how-setup.html"/>
+      <Node Name="" DisplayName="Toimintaohje: Konsernin asiakirjojen ja päiväkirjojen käyttäminen" Page="intercompany-how-work-documents-journals.html"/>
+      <Node Name="" DisplayName="Toimintaohje: Konsernin Saapuneet- ja Lähtevät-kansion hallinta" Page="intercompany-how-manage-intercompany-inbox.html"/>
+    </Node>
+    <Node Name="" DisplayName="Kustannuslaskenta" Page="finance-manage-cost-accounting.html">
+      <Node Name="" DisplayName="Termit kustannuslaskennassa" Page="finance-terminology-in-cost-accounting.html"/>
+      <Node Name="" DisplayName="Tietoja kustannuslaskennasta" Page="finance-about-cost-accounting.html"/>
+      <Node Name="" DisplayName="Kustannuslaskennan määrittäminen" Page="finance-set-up-cost-accounting.html"/>
+      <Node Name="" DisplayName="Kustannustapahtumien siirtäminen ja kirjaaminen" Page="finance-transfer-and-post-cost-entries.html"/>
+      <Node Name="" DisplayName="Kustannusten määrittäminen ja kohdistaminen" Page="finance-define-and-allocate-costs.html"/>
+      <Node Name="" DisplayName="Kustannusbudjettien luominen" Page="finance-create-cost-budgets.html"/>
+    </Node>
+    <Node Name="" DisplayName="Varaston kustannusten hallinta" Page="finance-manage-inventory-costs.html">
+      <Node Name="" DisplayName="Tietoja varaston arvostuksesta" Page="finance-learn-about-costing.html"/>
+      <Node Name="" DisplayName="Varastonarvostuksen ja kustannuslaskennan määrittäminen" Page="finance-set-up-inventory-valuation-and-costing.html"/>
+      <Node Name="" DisplayName="Toimintaohje: Varaston uudelleenarvostus" Page="inventory-how-revalue-inventory.html"/>
+      <Node Name="" DisplayName="Toimintaohje: Nimikekustannusten muokkaaminen" Page="inventory-how-adjust-item-costs.html"/>
+      <Node Name="" DisplayName="Toimintaohje: Varaston ja tuotannon kustannusten käsitteleminen" Page="finance-handle-inventory-and-manufacturing-costs.html"/>
+      <Node Name="" DisplayName="Vakiokustannusten päivittäminen" Page="finance-how-to-update-standard-costs.html"/>
+      <Node Name="" DisplayName="Kustannukset raportointi ja täsmäyttäminen pääkirjanpidon kanssa" Page="finance-report-costs-and-reconcile-with-the-general-ledger.html"/>
+      <Node Name="" DisplayName="Rakennetiedot: varaston arvostus" Page="design-details-inventory-costing.html"/>
+    </Node>
+    <Node Name="" DisplayName="Pääkirjanpito ja aitoustodistus" Page="finance-general-ledger.html"/>
+    <Node Name="" DisplayName="Dimensioiden käyttäminen" Page="finance-dimensions.html"/>
+    <Node Name="" DisplayName="Uusien budjettien luominen" Page="finance-how-create-budgets.html"/>
+    <Node Name="" DisplayName="Tapahtumien kirjaaminen suoraan pääkirjanpitoon" Page="finance-how-post-transactions-directly.html"/>
+    <Node Name="" DisplayName="Toimintaohje: Kirjausten peruuttaminen" Page="finance-how-reverse-journal-posting.html"/>
+    <Node Name="" DisplayName="Toimintaohje: Kustannusten ja tulojen kohdistaminen" Page="year-allocate-costs-income.html"/>
+    <Node Name="" DisplayName="Toimintaohje: Kaupan lisäkustannusten huomiointi nimikekulujen avulla" Page="payables-how-assign-item-charges.html"/>
+    <Node Name="" DisplayName="Toimintaohje: Työntekijöiden kulujen kirjaaminen ja hyvittäminen" Page="finance-how-record-reimburse-employee-expenses.html"/>
+    <Node Name="" DisplayName="Toimintaohje: Tuottojen ja kulujen siirtäminen" Page="finance-how-defer-revenue-expenses.html"/>
+    <Node Name="" DisplayName="Toimintaohje: palkkatapahtumien tuominen" Page="finance-how-import-payroll-transactions.html"/>
+    <Node Name="" DisplayName="Toimintaohje: ALV:n raportointi veroviranomaisille" Page="finance-how-report-vat.html"/>
+    <Node Name="" DisplayName="Toimintaohje: Myynnin ja ostojen ALV:n käsittely" Page="finance-work-with-vat.html"/>
+    <Node Name="" DisplayName="Toimintaohje: ALV-summia sisältävien huoltosopimusten muuntaminen" Page="service-how-to-convert-service-contracts.html"/>
+    <Node Name="" DisplayName="Rahoituslaskelmien analysointi Excelissä" Page="finance-analyze-excel.html"/>
+    <Node Name="" DisplayName="Yrityksen kassavirtojen analysoiminen" Page="finance-analyze-cash-flow.html"/>
+    <Node Name="" DisplayName="Vuosien ja kausien sulkeminen" Page="year-close-years-periods.html">
+      <Node Name="" DisplayName="Kirjausjaksojen määrittäminen" Page="finance-how-specify-posting-periods.html"/>
+      <Node Name="" DisplayName="Jaksojen päättäminen" Page="year-how-complete-period-end-processes.html"/>
+      <Node Name="" DisplayName="Toimintaohje: Valuutan vaihtokurssien päivittäminen" Page="finance-how-update-currencies.html"/>
+      <Node Name="" DisplayName="Toimintaohje: Kustannusten ja tulojen kohdistaminen" Page="year-allocate-costs-income.html"/>
+      <Node Name="" DisplayName="Toimintaohje: ALV:n raportointi veroviranomaisille" Page="finance-how-report-vat.html"/>
+      <Node Name="" DisplayName="Sulkemista edeltävien raporttien valmisteleminen" Page="year-prepare-preclose-reports.html"/>
+      <Node Name="" DisplayName="Kirjojen sulkeminen" Page="year-close-books.html"/>
+      <Node Name="" DisplayName="Tilinpäätöslaskelmien valmisteleminen" Page="year-prepare-close-statement.html"/>
+    </Node>
+  </Node>
+  <Node Name="" DisplayName="Business Intelligence" Page="bi.html">
+    <Node Name="" DisplayName="Todellisten summien analysointi budjetoituihin summiin nähden" Page="bi-how-analyze-actual-versus-budget.html"/>
+    <Node Name="" DisplayName="KP-raporttimallien käyttäminen" Page="bi-how-work-account-schedule.html"/>
+    <Node Name="" DisplayName="Toimintaohje: KP-raporttimalleihin perustuvan KPI-verkkopalvelun asettaminen ja julkaiseminen" Page="bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.html"/>
+    <Node Name="" DisplayName="Analysoi tiedot dimensioiden mukaan" Page="bi-how-analyze-data-dimension.html"/>
+    <Node Name="" DisplayName="Uusien myynnin analyysiraporttien luominen" Page="bi-how-create-analysis-views-reports.html"/>
+    <Node Name="" DisplayName="Toimintaohje: Raporttien luominen XBRL-kielellä" Page="bi-create-reports-with-xbrl.html"/>
+  </Node>
+  <Node Name="" DisplayName="Myynti" Page="sales-manage-sales.html">
+    <Node Name="" DisplayName="Toimintaohje: Tarjousten tekeminen" Page="sales-how-make-offers.html"/>
+    <Node Name="" DisplayName="Toimintaohje: Myynnin laskutus" Page="sales-how-invoice-sales.html"/>
+    <Node Name="" DisplayName="Toimintaohje: Tuotteiden myyminen" Page="sales-how-sell-products.html"/>
+    <Node Name="" DisplayName="Toimintaohje: Toistuvien myynti- ja ostorivien luominen" Page="sales-how-work-standard-lines.html"/>
+    <Node Name="" DisplayName="Toimintaohje: Suoratoimitusten tekeminen" Page="sales-how-drop-shipment.html"/>
+    <Node Name="" DisplayName="Erikoistilausten luominen" Page="sales-how-to-create-special-orders.html"/>
+    <Node Name="" DisplayName="Ohjeet: Korjaa tai peruuta maksamattomat myyntilaskut" Page="sales-how-correct-cancel-sales-invoice.html"/>
+    <Node Name="" DisplayName="Toimintaohje: myynnin palautuksen tai peruutuksen käsittely" Page="sales-how-process-sales-returns-cancellations.html"/>
+    <Node Name="" DisplayName="Toimintaohje: Puitemyyntitilausten käyttäminen" Page="sales-how-to-create-blanket-sales-orders.html"/>
+    <Node Name="" DisplayName="Toimitusten yhdistäminen yhteen laskuun" Page="sales-how-to-combine-shipments-on-a-single-invoice.html"/>
+    <Node Name="" DisplayName="Toimituksen lupaamisen päivämäärän laskeminen" Page="sales-how-to-calculate-order-promising-dates.html"/>
+    <Node Name="" DisplayName="Kollien seuraaminen" Page="sales-how-track-packages.html"/>
+  </Node>
+  <Node Name="" DisplayName="Ostaminen" Page="purchasing-manage-purchasing.html">
+    <Node Name="" DisplayName="Toimintaohje: Ostojen kirjaus" Page="purchasing-how-record-purchases.html"/>
+    <Node Name="" DisplayName="Toimintaohje: Tarjousten pyytäminen" Page="purchasing-how-request-quotes.html"/>
+    <Node Name="" DisplayName="Toimintaohje: Nimikkeiden ostaminen myyntiin" Page="purchasing-how-purchase-products-sale.html"/>
+    <Node Name="" DisplayName="Ohjeet: Korjaa tai peruuta maksamattomat myyntilaskut" Page="purchasing-how-correct-cancel-unpaid-purchase-invoices.html"/>
+    <Node Name="" DisplayName="Toimintaohje: Vastaanottojen yhdistäminen yhteen laskuun" Page="purchasing-how-to-combine-receipts.html"/>
+    <Node Name="" DisplayName="Toimintaohje: tavaran palautuksen tai peruutuksen käsittely" Page="purchasing-how-process-purchase-returns-cancellations.html"/>
+    <Node Name="" DisplayName="Ostojen päivämäärälaskenta" Page="purchasing-date-calculation-for-purchases.html"/>
+  </Node>
+  <Node Name="" DisplayName="Vaihto-omaisuus" Page="inventory-manage-inventory.html">
+    <Node Name="" DisplayName="Toimintaohje: Uusien nimikkeiden rekisteröiminen" Page="inventory-how-register-new-items.html"/>
+    <Node Name="" DisplayName="Toimintaohje: Tuoterakenteen käyttäminen" Page="inventory-how-work-BOMs.html"/>
+    <Node Name="" DisplayName="Toimintaohje: Nimikkeiden luokitteleminen" Page="inventory-how-categorize-items.html"/>
+    <Node Name="" DisplayName="Toimintaohje: Nimikkeen määritteiden käsitteleminen" Page="inventory-how-work-item-attributes.html"/>
+    <Node Name="" DisplayName="Toimintaohje: Ei-varastoitavien nimikkeiden käsitteleminen" Page="inventory-how-work-nonstock-items.html"/>
+    <Node Name="" DisplayName="Varaston laskeminen, muuttaminen ja uudelleenluokitus" Page="inventory-how-count-adjust-reclassify.html"/>
+    <Node Name="" DisplayName="Nimikkeiden saatavuuden tarkasteleminen" Page="inventory-how-availability-overview.html"/>
+    <Node Name="" DisplayName="Toimintaohje: Varastonimikkeiden siirtäminen sijaintien välillä" Page="inventory-how-transfer-between-locations.html"/>
+    <Node Name="" DisplayName="Toimintaohje: Nimikkeiden varaaminen" Page="inventory-how-to-reserve-items.html"/>
+    <Node Name="" DisplayName="Toimintaohje: Sarja- ja eränumeroiden käsitteleminen" Page="inventory-how-work-item-tracking.html"/>
+    <Node Name="" DisplayName="Toimintaohje: Vastuupaikkojen käyttäminen" Page="inventory-responsibility-centers.html"/>
+  </Node>
+  <Node Name="" DisplayName="Projektinhallinta" Page="projects-manage-projects.html">
+    <Node Name="" DisplayName="Toimintaohje: Projektien luominen" Page="projects-how-create-jobs.html"/>
+    <Node Name="" DisplayName="Toimintaohje: Resurssien käyttäminen projekteissa" Page="projects-how-use-resources.html"/>
+    <Node Name="" DisplayName="Toimintaohje: Aikaraporttien käyttäminen projekteissa" Page="projects-how-use-time-sheets.html"/>
+    <Node Name="" DisplayName="Toimintaohje: Projektibudjettien hallinta" Page="projects-how-manage-budgets.html"/>
+    <Node Name="" DisplayName="Toimintaohje: Projektien käytön kirjaaminen" Page="projects-how-record-job-usage.html"/>
+    <Node Name="" DisplayName="Toimintaohje: Projektin tarvikkeiden hallinta" Page="projects-how-manage-project-supplies.html"/>
+    <Node Name="" DisplayName="Tietoja KET-menetelmistä" Page="projects-understanding-wip.html"/>
+    <Node Name="" DisplayName="Toimintaohje: Projektin edistymisen ja suorituskyvyn valvonta" Page="projects-how-monitor-progress-performance.html"/>
+    <Node Name="" DisplayName="Toimintaohje: Projektien laskuttaminen" Page="projects-how-invoice-jobs.html"/>
+  </Node>
+  <Node Name="" DisplayName="Käyttöomaisuus" Page="fa-manage.html">
+    <Node Name="" DisplayName="Toimintaohje: Käyttöomaisuuden hankinta" Page="fa-how-acquire.html"/>
+    <Node Name="" DisplayName="Toimintaohje: Käyttöomaisuuden kunnossapito" Page="fa-how-maintain.html"/>
+    <Node Name="" DisplayName="Toimintaohje: Käyttöomaisuuden vakuuttaminen" Page="fa-how-insure.html"/>
+    <Node Name="" DisplayName="Toimintaohje: Käyttöomaisuuden siirtäminen, jakaminen tai yhdistäminen" Page="fa-how-trans-split-combine.html"/>
+    <Node Name="" DisplayName="Toimintaohje: Käyttöomaisuuden uudelleenarvostus" Page="fa-how-revalue.html"/>
+    <Node Name="" DisplayName="Toimintaohje: Käyttöomaisuuden poisto tai kuolettaminen" Page="fa-how-depreciate-amortize.html"/>
+    <Node Name="" DisplayName="Toimintaohje: Käyttöomaisuuden luovuttaminen tai poistaminen käytöstä" Page="fa-how-dispose-retire.html"/>
+    <Node Name="" DisplayName="Toimintaohje: Käyttöomaisuuden budjettien hallinta" Page="fa-how-manage-budgets.html"/>
+  </Node>
+  <Node Name="" DisplayName="Kontaktienhallinta" Page="marketing-relationship-management.html">
+    <Node Name="" DisplayName="Kontaktienhallinnan määrittäminen" Page="marketing-setup-marketing.html"/>
+    <Node Name="" DisplayName="Kontaktien hallinta" Page="marketing-contacts.html"/>
+    <Node Name="" DisplayName="Segmenttien hallinta" Page="marketing-segments.html"/>
+    <Node Name="" DisplayName="Vuorovaikutusten tallentaminen" Page="marketing-interactions.html"/>
+    <Node Name="" DisplayName="Myyntimahdollisuuksien hallinta" Page="marketing-manage-sales-opportunities.html"/>
+    <Node Name="" DisplayName="Dynamics 365 for Sales -sovelluksessa luotujen asiakkaiden ja myynnin hallinta" Page="marketing-integrate-dynamicscrm.html"/>
+  </Node>
+  <Node Name="" DisplayName="Henkilöstöhallinto" Page="hr-manage-human-resources.html">
+    <Node Name="" DisplayName="Toimintaohje: Työntekijöiden rekisteröinti" Page="hr-how-register-employees.html"/>
+    <Node Name="" DisplayName="Toimintaohje: Työntekijöiden poissaolojen hallinta" Page="hr-how-manage-absence.html"/>
+  </Node>
+  <Node Name="" DisplayName="Suunnittelu" Page="production-planning.html">
+    <Node Name="" DisplayName="Tietoja toimintojen suunnittelusta" Page="production-about-planning-functionality.html"/>
+    <Node Name="" DisplayName="Toimintaohje: Tuotanto alihankintana" Page="production-how-to-subcontract-manufacturing.html"/>
+    <Node Name="" DisplayName="Suunnittelu sijainteja käyttämällä tai ilman niitä" Page="production-planning-with-without-locations.html"/>
+    <Node Name="" DisplayName="Ennusteen luominen" Page="production-how-to-create-a-forecast.html"/>
+    <Node Name="" DisplayName="Tuotantotilausten luominen myyntitilauksista" Page="production-how-to-create-production-orders-from-sales-orders.html"/>
+    <Node Name="" DisplayName="Projektitilausten suunnitteleminen" Page="production-how-to-plan-project-orders.html"/>
+    <Node Name="" DisplayName="Toimintaohje: Uuden kysynnän tilauskohtainen suunnittelu" Page="production-how-to-plan-for-new-demand.html"/>
+    <Node Name="" DisplayName="Toimintaohje: Kokonaisvaltaisen suunnittelun, tuotanto-ohjelman tai tarvelaskennan suorittaminen" Page="production-how-to-run-mps-and-mrp.html"/>
+    <Node Name="" DisplayName="Toimintaohje: Tuotantotilausten suora uudelleensuunnittelu tai päivittäminen" Page="production-how-to-replan-refresh-production-orders.html"/>
+    <Node Name="" DisplayName="Toimintaohje: Kysynnän ja tarjonnan välisten suhteiden seuraaminen" Page="production-how-track-demand-supply.html"/>
+    <Node Name="" DisplayName="Suunnitteluehdotusten muokkaaminen graafisessa näkymässä" Page="production-how-to-modify-planning-suggestions-in-a-graphical-view.html"/>
+  </Node>
+  <Node Name="" DisplayName="Kokoonpanon hallinta" Page="assembly-assemble-items.html">
+    <Node Name="" DisplayName="Tietoja Kokoonpano tilausta varten- ja Kokoonpano varastoon -toiminnoista" Page="assembly-assemble-to-order-or-assemble-to-stock.html"/>
+    <Node Name="" DisplayName="Kokoonpano tilausta varten -myynnin tarjous" Page="assembly-how-to-quote-an-assemble-to-order-sale.html"/>
+    <Node Name="" DisplayName="Nimikkeiden kokoaminen" Page="assembly-how-to-assemble-items.html"/>
+    <Node Name="" DisplayName="Kokoonpano tilausta varten -nimikkeiden myyminen" Page="assembly-how-to-sell-items-assembled-to-order.html"/>
+    <Node Name="" DisplayName="Varastonimikkeiden myyminen kokoonpano tilausta varten -virroissa" Page="assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.html"/>
+    <Node Name="" DisplayName="Kokoonpano tilausta varten -nimikkeiden ja varastonimikkeiden myyminen yhdessä" Page="assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.html"/>
+    <Node Name="" DisplayName="Kokoonpanon kirjauksen kumoaminen" Page="assembly-how-to-undo-assembly-posting.html"/>
+    <Node Name="" DisplayName="Toimintaohje: Tuoterakenteen käyttäminen" Page="inventory-how-work-BOMs.html"/>
+    <Node Name="" DisplayName="Rakennetiedot: kokoonpanotilauksen kirjaus" Page="design-details-assembly-order-posting.html"/>
+  </Node>
+  <Node Name="" DisplayName="Tuotanto" Page="production-manage-manufacturing.html">
+    <Node Name="" DisplayName="Tietoja tuotantotilauksista" Page="production-about-production-orders.html"/>
+    <Node Name="" DisplayName="Toimintaohje: Tuotantotilausten luominen:" Page="production-how-to-create-production-orders.html"/>
+    <Node Name="" DisplayName="Toimintaohje: Tuotanto alihankintana" Page="production-how-to-subcontract-manufacturing.html"/>
+    <Node Name="" DisplayName="Toimintaohje: Yhden vapautetun tuotantotilausrivin kulutuksen ja tuotoksen kirjaaminen." Page="production-how-to-register-consumption-and-output.html"/>
+    <Node Name="" DisplayName="Toimintaohje: Kulutuksen eräkirjaus" Page="production-how-to-post-consumption.html"/>
+    <Node Name="" DisplayName="Toimintaohje: Tuotos- ja suoritusaikojen eräkirjaus" Page="production-how-to-post-output-quantity.html"/>
+    <Node Name="" DisplayName="Toimintaohje: Hukkatavaran kirjaaminen" Page="production-how-to-post-scrap.html"/>
+    <Node Name="" DisplayName="Toimintaohje: Tuotantosolujen ja kuormitusryhmien kuormituksen tarkasteleminen" Page="production-how-to-view-the-load-on-work-centers.html"/>
+    <Node Name="" DisplayName="Kapasiteettien kirjaaminen" Page="production-how-to-post-capacities.html"/>
+    <Node Name="" DisplayName="Tietoja valmiin tuotantotilauksen kustannuksista" Page="finance-about-finished-production-order-costs.html"/>
+  </Node>
+  <Node Name="" DisplayName="Varastoinninhallinta" Page="warehouse-manage-warehouse.html">
+    <Node Name="" DisplayName="Nimikkeiden vastaanotto" Page="warehouse-how-receive-items.html"/>
+    <Node Name="" DisplayName="Nimikkeiden laituroiminen" Page="warehouse-how-to-cross-dock-items.html"/>
+    <Node Name="" DisplayName="Nimikkeiden hyllyttäminen" Page="warehouse-put-away-items.html"/>
+    <Node Name="" DisplayName="Nimikkeiden siirtäminen" Page="warehouse-move-items.html"/>
+    <Node Name="" DisplayName="Nimikkeiden poiminta" Page="warehouse-pick-items.html"/>
+    <Node Name="" DisplayName="Toimintaohje: Nimikkeiden toimittaminen" Page="warehouse-how-ship-items.html"/>
+  </Node>
+  <Node Name="" DisplayName="Service Management" Page="service-service.html">
+    <Node Name="" DisplayName="Huollon suunnittelu" Page="service-plan-service.html"/>
+    <Node Name="" DisplayName="Huoltosopimusten toteuttaminen" Page="service-fulfill-service-contracts.html"/>
+    <Node Name="" DisplayName="Huollon toimittaminen" Page="service-deliver-service.html"/>
+  </Node>
+  <Node Name="" DisplayName="Yleiset liiketoimintatoiminnot" Page="ui-across-business-areas.html">
+    <Node Name="" DisplayName="Toimintaohje: Laajennetun nimiketekstin määrittäminen" Page="ui-how-define-ext-text.html"/>
+    <Node Name="" DisplayName="Yleisten päiväkirjojen käyttäminen" Page="ui-work-general-journals.html"/>
+    <Node Name="" DisplayName="Toimintaohje: Asiakirjojen lähettäminen sähköpostitse" Page="ui-how-send-documents-email.html"/>
+    <Node Name="" DisplayName="Raporttien käsittely" Page="ui-work-report.html"/>
+    <Node Name="" DisplayName="Raporttien ja asiakirjojen asettelujen hallinta" Page="ui-manage-report-layouts.html"/>
+    <Node Name="" DisplayName="Business Central -sovelluksen muutosten kirjaaminen lokiin" Page="across-log-changes.html"/>
+    <Node Name="" DisplayName="Toimintaohje: Käyttäjien ja käyttöoikeuksien hallinta" Page="ui-how-users-permissions.html"/>
+    <Node Name="" DisplayName="Business Central -sovelluksen mukauttaminen laajennusten avulla" Page="ui-extensions.html"/>
+    <Node Name="" DisplayName="Saapuvat asiakirjat" Page="across-income-documents.html">
+      <Node Name="" DisplayName="Toimintaohje: Saapuvien asiakirjojen määrittäminen" Page="across-how-setup-income-documents.html"/>
+      <Node Name="" DisplayName="Saapuvien asiakirjojen käsitteleminen" Page="across-process-income-documents.html"/>
+    </Node>
+    <Node Name="" DisplayName="Työnkulku" Page="across-workflow.html">
+      <Node Name="" DisplayName="Työnkulkujen määrittäminen" Page="across-set-up-workflows.html"/>
+      <Node Name="" DisplayName="Työnkulkujen käyttäminen" Page="across-use-workflows.html"/>
+    </Node>
+    <Node Name="" DisplayName="Sähköinen tiedonsiirto" Page="across-data-exchange.html">
+      <Node Name="" DisplayName="Tietoja tiedonvaihto-kehyksestä" Page="across-about-the-data-exchange-framework.html"/>
+      <Node Name="" DisplayName="Tiedonsiirron määrittäminen" Page="across-set-up-data-exchange.html"/>
+      <Node Name="" DisplayName="Tietojen vaihtaminen" Page="across-exchange-data.html"/>
+    </Node>
+    <Node Name="" DisplayName="Käyttäjätehtävien määrittäminen" Page="across-user-tasks.html"/>
+  </Node>
+  <Node Name="" DisplayName="Liiketoimintaprosessien vaihekuvaukset" Page="walkthrough-business-process-walkthroughs.html">
+    <Node Name="" DisplayName="Vaihekuvaus: Myyntikampanjan suorittaminen" Page="walkthrough-conducting-a-sales-campaign.html"/>
+    <Node Name="" DisplayName="Vaihekuvaus: Myynnin ennakkomaksujen määrittäminen ja laskuttaminen" Page="walkthrough-setting-up-and-invoicing-sales-prepayments.html"/>
+    <Node Name="" DisplayName="Vaihekuvaus: Ostojen hyväksyntä -työnkulun määrittäminen ja käyttäminen" Page="walkthrough-setting-up-and-using-a-purchase-approval-workflow.html"/>
+    <Node Name="" DisplayName="Vaihekuvaus: Vastaanotto ja hyllytys fyysisen varastoinnin perusmäärityksissä" Page="walkthrough-picking-and-shipping-in-basic-warehousing.html"/>
+    <Node Name="" DisplayName="Vaihekuvaus: Vastaanotto ja hyllytys laajennetuissa varastomäärityksissä" Page="walkthrough-receiving-and-putting-away-in-advanced-warehousing.html"/>
+    <Node Name="" DisplayName="Vaihekuvaus: Toimitusten manuaalinen suunnittelu" Page="walkthrough-planning-supplies-manually.html"/>
+    <Node Name="" DisplayName="Vaihekuvaus: Toimitusten automaattinen suunnittelu" Page="walkthrough-planning-supplies-automatically.html"/>
+    <Node Name="" DisplayName="Vaihekuvaus: pakettien myynti, kokoaminen ja toimitus" Page="walkthrough-selling-assembling-and-shipping-kits.html"/>
+    <Node Name="" DisplayName="Vaihekuvaus: Projektinhallinta Projektit-sovellusalueen avulla" Page="walkthrough-managing-projects-with-jobs.html"/>
+    <Node Name="" DisplayName="Vaihekuvaus: Projektin keskeneräisen työn laskeminen" Page="walkthrough-calculating-work-in-process-for-a-job.html"/>
+    <Node Name="" DisplayName="Vaihekuvaus: Poiminta ja toimitus fyysisen varastoinnin perusmäärityksissä" Page="walkthrough-picking-and-shipping-in-basic-warehousing.html"/>
+    <Node Name="" DisplayName="Vaihekuvaus: Sarja-/eränumeroiden jäljitys" Page="walkthrough-tracing-serial-lot-numbers.html"/>
+  </Node>
+  <Node Name="" DisplayName="Rakennetiedot" Page="design-details-application-design.html">
+    <Node Name="" DisplayName="Rakennetiedot: dimensioyhdistelmä-tapahtumat" Page="design-details-dimension-set-entries.html"/>
+    <Node Name="" DisplayName="Rakennetiedot: tarjonnan suunnittelu" Page="design-details-supply-planning.html"/>
+    <Node Name="" DisplayName="Rakennetiedot: varaston arvostus" Page="design-details-inventory-costing.html"/>
+    <Node Name="" DisplayName="Rakennetiedot: f. varaston hallinta" Page="design-details-warehouse-management.html"/>
+    <Node Name="" DisplayName="Rakennetiedot: nimikkeen seuranta" Page="design-details-item-tracking.html"/>
+    <Node Name="" DisplayName="Rakenteen tiedot: Yleisen päiväkirjan kirjausrivi" Page="design-details-general-journal-post-line.html"/>
+  </Node>
+  <Node Name="" DisplayName="Paikalliset toiminnot" Page="index.html">
+    <Node Name="" DisplayName="Australia" Page="LocalFunctionality/Australia/australia-local-functionality.html"/>
+    <Node Name="" DisplayName="Itävalta" Page="LocalFunctionality/Austria/austria-local-functionality.html"/>
+    <Node Name="" DisplayName="Belgia" Page="LocalFunctionality/Belgium/belgium-local-functionality.html"/>
+    <Node Name="" DisplayName="Kanada" Page="LocalFunctionality/Canada/canada-local-functionality.html"/>
+    <Node Name="" DisplayName="Tanska" Page="LocalFunctionality/Denmark/denmark-local-functionality.html"/>
+    <Node Name="" DisplayName="Suomi" Page="LocalFunctionality/Finland/finland-local-functionality.html"/>
+    <Node Name="" DisplayName="Ranska" Page="LocalFunctionality/France/france-local-functionality.html"/>
+    <Node Name="" DisplayName="Saksa" Page="LocalFunctionality/Germany/germany-local-functionality.html"/>
+    <Node Name="" DisplayName="Islanti" Page="LocalFunctionality/Iceland/iceland-local-functionality.html"/>
+    <Node Name="" DisplayName="Italia" Page="LocalFunctionality/Italy/italy-local-functionality.html"/>
+    <Node Name="" DisplayName="Meksiko" Page="LocalFunctionality/Mexico/mexico-local-functionality.html"/>
+    <Node Name="" DisplayName="Alankomaat" Page="LocalFunctionality/Netherlands/netherlands-local-functionality.html"/>
+    <Node Name="" DisplayName="Uusi-Seelanti" Page="LocalFunctionality/NewZealand/new-zealand-local-functionality.html"/>
+    <Node Name="" DisplayName="Norja" Page="LocalFunctionality/Norway/norway-local-functionality.html"/>
+    <Node Name="" DisplayName="Venäjä" Page="LocalFunctionality/Russia/russia-local-functionality.html"/>
+    <Node Name="" DisplayName="Espanja" Page="LocalFunctionality/Spain/spain-local-functionality.html"/>
+    <Node Name="" DisplayName="Ruotsi" Page="LocalFunctionality/Sweden/sweden-local-functionality.html"/>
+    <Node Name="" DisplayName="Sveitsi" Page="LocalFunctionality/Switzerland/switzerland-local-functionality.html"/>
+    <Node Name="" DisplayName="Iso-Britannia" Page="LocalFunctionality/UnitedKingdom/united-kingdom-local-functionality.html"/>
+    <Node Name="" DisplayName="Yhdysvallat" Page="LocalFunctionality/UnitedStates/united-states-local-functionality.html"/>
+  </Node>
+</Node>
