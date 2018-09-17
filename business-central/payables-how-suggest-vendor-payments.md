@@ -13,10 +13,10 @@ ms.search.keywords: vendor payment, creditor, debt, balance due, AP
 ms.date: 05/15/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: 02f063daf5afeea85832c8a322183b3db120d8d2
+ms.sourcegitcommit: eb17659fc78865acae6c7cb969adf715eb858882
+ms.openlocfilehash: 442f19dadefe01f9df2402bb5dc6ad0f4a3cb786
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 09/17/2018
 
 ---
 # <a name="suggest-vendor-payments"></a><span data-ttu-id="b65c7-103">Ehdota toimittajamaksuja</span><span class="sxs-lookup"><span data-stu-id="b65c7-103">Suggest Vendor Payments</span></span>
@@ -29,10 +29,9 @@ ms.lasthandoff: 05/17/2018
 
 > [!IMPORTANT]  
 >   <span data-ttu-id="b65c7-109">Jos haluat käyttää maksualennuksia ja olet antanut käytettävissä olevan summan, summaa käytetään</span><span class="sxs-lookup"><span data-stu-id="b65c7-109">If you want to take advantage of payment discounts, and have entered an available amount, the amount will be used for:</span></span>  
-
-* <span data-ttu-id="b65c7-110">priorisoiduissa erääntyvissä toimittajatapahtumissa tärkeysjärjestyksessä</span><span class="sxs-lookup"><span data-stu-id="b65c7-110">Prioritized overdue vendor entries first in order of priority.</span></span>  
-* <span data-ttu-id="b65c7-111">erääntyneissä toimittajatapahtumissa, joita ei ole priorisoitu</span><span class="sxs-lookup"><span data-stu-id="b65c7-111">Overdue vendor entries that are not prioritized.</span></span>  
-* <span data-ttu-id="b65c7-112">avoimissa toimittajatapahtumissa, joissa voi käyttää maksualennuksia, toimittajanumeron mukaan järjestettynä.</span><span class="sxs-lookup"><span data-stu-id="b65c7-112">Open vendor entries that qualify for payment discounts, arranged by vendor number.</span></span>  
+    * <span data-ttu-id="b65c7-110">priorisoiduissa erääntyvissä toimittajatapahtumissa tärkeysjärjestyksessä</span><span class="sxs-lookup"><span data-stu-id="b65c7-110">Prioritized overdue vendor entries first in order of priority.</span></span>   
+    * <span data-ttu-id="b65c7-111">erääntyneissä toimittajatapahtumissa, joita ei ole priorisoitu</span><span class="sxs-lookup"><span data-stu-id="b65c7-111">Overdue vendor entries that are not prioritized.</span></span>  
+    * <span data-ttu-id="b65c7-112">avoimissa toimittajatapahtumissa, joissa voi käyttää maksualennuksia, toimittajanumeron mukaan järjestettynä.</span><span class="sxs-lookup"><span data-stu-id="b65c7-112">Open vendor entries that qualify for payment discounts, arranged by vendor number.</span></span>  
 
 ## <a name="to-use-the-suggest-vendor-payments-function"></a><span data-ttu-id="b65c7-113">Ehdota toimittajamaksuja -toiminnon käyttäminen</span><span class="sxs-lookup"><span data-stu-id="b65c7-113">To use the Suggest Vendor Payments function</span></span>
 1. <span data-ttu-id="b65c7-114">Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Maksupäiväkirjat** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="b65c7-114">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journals**, and then choose the related link.</span></span>  
