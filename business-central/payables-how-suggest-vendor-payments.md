@@ -29,10 +29,9 @@ Maksuehdotuksia voi hyödyntää täysimääräisesti, kun toimittajat on ensin 
 
 > [!IMPORTANT]  
 >   Jos haluat käyttää maksualennuksia ja olet antanut käytettävissä olevan summan, summaa käytetään  
-
-* priorisoiduissa erääntyvissä toimittajatapahtumissa tärkeysjärjestyksessä  
-* erääntyneissä toimittajatapahtumissa, joita ei ole priorisoitu  
-* avoimissa toimittajatapahtumissa, joissa voi käyttää maksualennuksia, toimittajanumeron mukaan järjestettynä.  
+    * priorisoiduissa erääntyvissä toimittajatapahtumissa tärkeysjärjestyksessä   
+    * erääntyneissä toimittajatapahtumissa, joita ei ole priorisoitu  
+    * avoimissa toimittajatapahtumissa, joissa voi käyttää maksualennuksia, toimittajanumeron mukaan järjestettynä.  
 
 ## <a name="to-use-the-suggest-vendor-payments-function"></a>Ehdota toimittajamaksuja -toiminnon käyttäminen
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Maksupäiväkirjat** ja valitse sitten aiheeseen liittyvä linkki.  
