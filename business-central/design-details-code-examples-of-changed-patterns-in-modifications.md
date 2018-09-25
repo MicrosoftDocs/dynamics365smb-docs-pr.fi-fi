@@ -1,6 +1,6 @@
 ---
-title: "Rakennetiedot – kysynnän ja tarjonnan sulkeminen | Microsoft Docs"
-description: "Kun tarjonnan tasapainotusmenetelmät on suoritettu, tulos voi olla jokin kolmesta vaihtoehdosta."
+title: "Rakennetiedot - koodiesimerkkejä muuttuneista kuvioista muutoksissa | Microsoft Docs"
+description: "Koodiesimerkit näyttävät dimensiokoodin muokkauksen muuttuneet mallit ja siirron viiteen erilaiseen skenaarioon. Se vertaa koodiesimerkkejä aiemmissa versioissa koodiesimerkkeihin Business Centralissa."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,41 +10,190 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 08/13/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2be48e11d562f469ab9ef5ac156fdeb46ea51107
+ms.sourcegitcommit: ded6baf8247bfbc34063f5595d42ebaf6bb300d8
+ms.openlocfilehash: a20a40e0f2d7198ce8af71298093893f16df5299
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 08/13/2018
 
 ---
-# <a name="design-details-closing-demand-and-supply"></a>Rakennetiedot: kysynnän ja tarjonnan sulkeminen
-Kun tarjonnan tasapainotusmenetelmät on suoritettu, tulos voi olla jokin seuraavista kolmesta vaihtoehdosta:  
+# <a name="design-details-code-examples-of-changed-patterns-in-modifications"></a>Rakennetiedot: koodiesimerkkejä muuttuneista kuvioista muutoksissa
+Tämän ohjeaiheen koodiesimerkit näyttävät dimensiokoodin muokkauksen muuttuneet mallit ja siirron viiteen erilaiseen skenaarioon. Se vertaa koodiesimerkkejä aiemmissa versioissa koodiesimerkkeihin Business Centralissa.
 
--   Vaadittu kysyntätapahtumien määrä ja päivämäärä on kohdattu ja niiden suunnittelu voidaan sulkea,. Tarjontatapahtuma on yhä avoinna ja se voi kattaa seuraavan kysynnän, joten täsmäytys voi alkaa nykyisestä tarjontatapahtumasta ja seuraavasta kysynnästä.  
+## <a name="posting-a-journal-line"></a>Päiväkirjarivin kirjaus  
+Tärkeimmät muutokset ovat seuraavat:  
+  
+- Päiväkirjarivin dimensiotaulukot poistetaan.  
+  
+- Dimensioyhdistelmän tunnus luodaan **Dimensioyhdistelmän tunnus** -kentässä.  
+  
+**Aiemmat versiot**  
+  
+```  
+ResJnlLine."Qty. per Unit of Measure" :=   
+  SalesLine."Qty. per Unit of Measure";  
+  
+TempJnlLineDim.DELETEALL;  
+TempDocDim.RESET;  
+TempDocDim.SETRANGE(  
+  "Table ID",DATABASE::"Sales Line");  
+TempDocDim.SETRANGE(  
+  "Line No.",SalesLine."Line No.");  
+DimMgt.CopyDocDimToJnlLineDim(  
+  TempDocDim,TempJnlLineDim);  
+ResJnlPostLine.RunWithCheck(  
+  ResJnlLine,TempJnlLineDim);  
+  
+```  
+  
+ **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
+  
+```  
+  
+ResJnlLine."Qty. per Unit of Measure" :=   
+  SalesLine."Qty. per Unit of Measure";  
+  
+ResJnlLine."Dimension Set ID" :=   
+  SalesLine." Dimension Set ID ";  
+ResJnlPostLine.Run(ResJnlLine);  
+  
+```  
+  
+## <a name="posting-a-document"></a>Asiakirjan kirjaus  
+ Kun kirjaat asiakirjan [!INCLUDE[d365fin](includes/d365fin_md.md)] -järjestelmään, asiakirjan dimensioita ei tarvitse kopioida.  
+  
+ **Aiemmat versiot**  
+  
+```  
+DimMgt.MoveOneDocDimToPostedDocDim(  
+  TempDocDim,DATABASE::"Sales Line",  
+  "Document Type",  
+  "No.",  
+  SalesShptLine."Line No.",  
+  DATABASE::"Sales Shipment Line",  
+  SalesShptHeader."No.");  
+```  
+  
+ **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
+  
+```  
+SalesShptLine."Dimension Set ID”  
+  := SalesLine."Dimension Set ID”  
+```  
+  
+## <a name="editing-dimensions-from-a-document"></a>Dimensioiden muokkaaminen asiakirjasta  
+ Voit muokata asiakirjan dimensioita. Voit esimerkiksi muokata myyntitilausriviä.  
+  
+ **Aiemmat versiot**  
+  
+```  
+Table 37, function ShowDimensions:  
+TESTFIELD("Document No.");  
+TESTFIELD("Line No.");  
+DocDim.SETRANGE("Table ID",DATABASE::"Sales Line");  
+DocDim.SETRANGE("Document Type","Document Type");  
+DocDim.SETRANGE("Document No.","Document No.");  
+DocDim.SETRANGE("Line No.","Line No.");  
+DocDimensions.SETTABLEVIEW(DocDim);  
+DocDimensions.RUNMODAL;  
+```  
+  
+ **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
+  
+```  
+Table 37, function ShowDimensions:  
+"Dimension ID" :=   
+  DimSetEntry.EditDimensionSet(  
+    "Dimension ID");  
+```  
+  
+## <a name="showing-dimensions-from-posted-entries"></a>Näytetään dimensiot lähetetyistä kirjauksista  
+ Dimensiot voidaan näyttää kirjatuista tapahtumista, kuten myynnin toimitusriveistä.  
+  
+ **Aiemmat versiot**  
+  
+```  
+Table 111, function ShowDimensions:  
+TESTFIELD("No.");  
+TESTFIELD("Line No.");  
+PostedDocDim.SETRANGE(  
+  "Table ID",DATABASE::"Sales Shipment Line");  
+PostedDocDim.SETRANGE(  
+  "Document No.","Document No.");  
+PostedDocDim.SETRANGE("Line No.","Line No.");  
+PostedDocDimensions.SETTABLEVIEW(PostedDocDim);  
+PostedDocDimensions.RUNMODAL;  
+```  
+  
+ **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
+  
+```  
+Table 111, function ShowDimensions:  
+DimSetEntry.ShowDimensionSet(  
+  "Dimension ID");  
+```  
+  
+## <a name="getting-default-dimensions-for-a-document"></a>Oletusdimensioiden noutaminen asiakirjalle  
+ Voit hakea oletusdimensiot asiakirjalle, kuten myyntitilausriville.  
+  
+ **Aiemmat versiot**  
+  
+```  
+Table 37, function CreateDim()  
+SourceCodeSetup.GET;  
+TableID[1] := Type1;  
+No[1] := No1;  
+TableID[2] := Type2;  
+No[2] := No2;  
+TableID[3] := Type3;  
+No[3] := No3;  
+"Shortcut Dimension 1 Code" := '';  
+"Shortcut Dimension 2 Code" := '';  
+DimMgt.GetPreviousDocDefaultDim(  
+  DATABASE::"Sales Header","Document Type",  
+  "Document No.",0,  
+  DATABASE::Customer,  
+  "Shortcut Dimension 1 Code",  
+  "Shortcut Dimension 2 Code");  
+DimMgt.GetDefaultDim(  
+  TableID,No,SourceCodeSetup.Sales,  
+  "Shortcut Dimension 1 Code",  
+  "Shortcut Dimension 2 Code");  
+IF "Line No." <> 0 THEN  
+  DimMgt.UpdateDocDefaultDim(  
+    DATABASE::"Sales Line","Document Type",  
+    "Document No.","Line No.",  
+    "Shortcut Dimension 1 Code",  
+    "Shortcut Dimension 2 Code");  
+```  
+  
+ **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
+  
+```  
+Table 37, function CreateDim()  
+SourceCodeSetup.GET;  
+TableID[1] := Type1;  
+No[1] := No1;  
+TableID[2] := Type2;  
+No[2] := No2;  
+TableID[3] := Type3;  
+No[3] := No3;  
+"Shortcut Dimension 1 Code" := '';  
+"Shortcut Dimension 2 Code" := '';  
+GetSalesHeader;  
+"Dimension ID" :=  
+  DimMgt.GetDefaultDimID(  
+    TableID,No,SourceCodeSetup.Sales,  
+    "Shortcut Dimension 1 Code",  
+    "Shortcut Dimension 2 Code",  
+    SalesHeader."Dimension ID",  
+    DATABASE::"Sales Header");
 
--   Toimitustilausta ei voi muokata niin, että se kattaa koko kysynnän. Kysyntätapahtuma on edelleen avoinna. Siinä on jokin katteeton määrä, joka voidaan kattaa seuraavalla tuotantotapahtumalla. Nykyinen tarjontatapahtuma siis suljetaan ja täsmäytystoiminto alkaa alusta nykyisestä kysynnästä ja seuraavasta tarjontatapahtumasta.  
-
--   Kaikki kysyntä on otettu huomioon; kysyntää ei ole myöhemmin (tai kysyntää ei ole lainkaan). Jos olemassa on ylimääräistä tarjontaa, se voidaan vähentää (tai peruuttaa) ja sitten sulkea. On mahdollista, että myöhempänä ketjussa on lisää tarjontatapahtumia ja myös ne tulisi peruuttaa.  
-
- Viimeiseksi suunnittelujärjestelmä luo tilauksen seurantalinkin tarjonnan ja kysynnän välille.  
-
-## <a name="creating-the-planning-line-suggested-action"></a>Suunnittelurivin luonti (ehdotettu toimenpide)  
- Jos toimitustilauksen korjaamista ehdotetaan jollakin toiminnolla, kuten uusi, muuta määrä, aikatauluta uudelleen, aikatauluta uudelleen ja muuta määrää tai peruuta, suunnittelujärjestelmä luo suunnittelurivin suunnittelutyökirjassa. Tilauksen seurannasta johtuen suunnitteluriviä ei luoda vain tarjontatapahtuman lopuksi mutta myös siinä tapauksessa, jos kysyntätapahtuma suljetaan, vaikka tarjontatapahtuma on yhä avoinna ja siihen saattaa kohdistua muita muutoksia seuraavan kysyntätapahtuman käsittelyn yhteydessä. Tämä tarkoittaa sitä, että jos suunnittelurivi on luotu ensimmäisenä, sitä voidaan muuttaa uudelleen.  
-
- Tuotantotilausten käsittelyn aikaista tietokantayhteyden käyttöä voi minimoida ylläpitämällä suunnittelurivejä kolmella tasolla ja pyrkimällä käyttämään vähiten kuormittava ylläpitotasoa.  
-
--   Luo vain suunnittelurivi nykyisellä eräpäivällä ja määrällä, mutta ilman reititystä ja komponentteja.  
-
--   Sisällytä reititys: suunniteltu reititys asetellaan aloitus- ja lopetuspäivämäärät ja kellonajat mukaan lukien. Tämä on vaativaa tietokannan käyttöoikeuksia ajatellen. Kun haluat määrittää loppupäivämäärän ja eräpäivän, tämä on ehkä laskettava, vaikka tarjontatapahtumaa ei ole suljettu (jos kyseessä on aikataulutus eteenpäin).  
-
--   Sisällytä tuoterakenteen purku: tämä voi odottaa hetkeä ennen tarjontatapahtuman sulkemista.  
-
- Tämä päättää suunnittelujärjestelmän suorittaman kysynnän ja tarjonnan lataamisen, priorisoinnin ja täsmäytyksen kuvaukset. Järjestelmän on varmistettava yhdessä tämän tarjonnan suunnittelutehtävän kanssa, että jokaisen suunnitellun nimikkeen vaadittava varastotaso säilytetään sen uusintatilauskäytännön mukaisesti.  
+```  
 
 ## <a name="see-also"></a>Katso myös  
- [Rakennetiedot: kysynnän ja tarjonnan täsmäytys](design-details-balancing-demand-and-supply.md)   
- [Rakennetiedot: suunnittelujärjestelmän keskeiset käsitteet](design-details-central-concepts-of-the-planning-system.md)   
- [Rakennetiedot: Tarjonnan suunnittelu](design-details-supply-planning.md)
-
+[Rakennetiedot: Dimensioyhdistelmätapahtumat](design-details-dimension-set-entries.md)   
+[Rakennetiedot: taulukkorakenne](design-details-table-structure.md)   
+[Rakennetiedot: koodiyksikön 408 dimension hallinta](design-details-codeunit-408-dimension-management.md)

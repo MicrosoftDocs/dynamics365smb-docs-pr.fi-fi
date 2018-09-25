@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 05/27/2018
+ms.date: 07/31/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: 6ff186cadae5771f131a128b3d3e977800925670
+ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
+ms.openlocfilehash: f8dd92a5a7398ddce64dd4fce0ce9323014a29a0
 ms.contentlocale: fi-fi
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 08/06/2018
 
 ---
 # <a name="changing-which-features-are-displayed"></a>Näytettävien ominaisuuksien muuttaminen
@@ -36,7 +36,7 @@ Seuraavassa taulukossa on luettelo nyt käytettävissä olevista kokemuksista.
 | **Premium** |Näyttää kaikkien liiketoimintojen toiminnot ja kentät myös valmistukselle ja huoltohallinnolle.|
 
 > [!NOTE]  
-> [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmassa valitut käyttökokemukset riippuvat ratkaisun käyttöoikeudesta, jota kutsutaan palvelupaketiksi. Lisätietoja **Essential**- ja **Premium**-palvelupaketeista on Microsoft Dynamics 365:n markkinointisivuston kohdassa [Business Central](https://go.microsoft.com/fwlink/?linkid=870242). Katso myös [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen käyttöoikeusopas](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409).
+> [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmassa valitut käyttökokemukset riippuvat ratkaisun käyttöoikeudesta, jota kutsutaan palvelupaketiksi. Lisätietoja **Essential**- ja **Premium**-palvelupaketeista on Microsoft Dynamics 365:n markkinointisivuston kohdassa [Business Central](https://go.microsoft.com/fwlink/?linkid=870242). Katso myös [[!INCLUDE[d365fin](includes/d365fin_md.md)] Sovelluksen käyttöoikeusopas](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409).
 
 > [!IMPORTANT]  
 > Kaikki ratkaisun tavalliset käyttäjät täytyy liittää samaan suunnitelmaan (Essential tai Premium) ennen kyseisen käyttökokemuksen valitsemista yritykselle. Näin ollen yksi käyttäjä ei voi käyttää Premium-ominaisuuksia, jos vähintään yksi käyttäjä voi käyttää vain Essential-ominaisuuksia. Tämä ei koske erikoiskäyttäjiä, joiden tyyppi on ryhmän jäsen, sisäinen järjestelmänvalvoja, ulkoinen kirjanpitäjä tai delegoitu järjestelmänvalvoja, joille voidaan määrittää eri suunnitelma kuin muille ratkaisun käyttäjille.
@@ -69,5 +69,4 @@ Voit nyt siirtyä valitsemaan uuden käyttökokemuksen.
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen käyttöoikeusopas](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 
