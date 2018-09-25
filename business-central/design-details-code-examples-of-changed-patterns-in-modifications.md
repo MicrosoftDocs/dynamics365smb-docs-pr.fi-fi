@@ -1,6 +1,6 @@
 ---
-title: "Rakennetiedot – kysynnän ja tarjonnan sulkeminen | Microsoft Docs"
-description: "Kun tarjonnan tasapainotusmenetelmät on suoritettu, tulos voi olla jokin kolmesta vaihtoehdosta."
+title: "Rakennetiedot - koodiesimerkkejä muuttuneista kuvioista muutoksissa | Microsoft Docs"
+description: "Koodiesimerkit näyttävät dimensiokoodin muokkauksen muuttuneet mallit ja siirron viiteen erilaiseen skenaarioon. Se vertaa koodiesimerkkejä aiemmissa versioissa koodiesimerkkeihin Business Centralissa."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,41 +10,190 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 08/13/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2be48e11d562f469ab9ef5ac156fdeb46ea51107
+ms.sourcegitcommit: ded6baf8247bfbc34063f5595d42ebaf6bb300d8
+ms.openlocfilehash: a20a40e0f2d7198ce8af71298093893f16df5299
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 08/13/2018
 
 ---
-# <a name="design-details-closing-demand-and-supply"></a><span data-ttu-id="09cc2-103">Rakennetiedot: kysynnän ja tarjonnan sulkeminen</span><span class="sxs-lookup"><span data-stu-id="09cc2-103">Design Details: Closing Demand and Supply</span></span>
-<span data-ttu-id="09cc2-104">Kun tarjonnan tasapainotusmenetelmät on suoritettu, tulos voi olla jokin seuraavista kolmesta vaihtoehdosta:</span><span class="sxs-lookup"><span data-stu-id="09cc2-104">When the supply balancing procedures have been performed, there are three possible end situations:</span></span>  
+# <a name="design-details-code-examples-of-changed-patterns-in-modifications"></a><span data-ttu-id="68163-104">Rakennetiedot: koodiesimerkkejä muuttuneista kuvioista muutoksissa</span><span class="sxs-lookup"><span data-stu-id="68163-104">Design Details: Code Examples of Changed Patterns in Modifications</span></span>
+<span data-ttu-id="68163-105">Tämän ohjeaiheen koodiesimerkit näyttävät dimensiokoodin muokkauksen muuttuneet mallit ja siirron viiteen erilaiseen skenaarioon.</span><span class="sxs-lookup"><span data-stu-id="68163-105">This topic provides code examples to show changed patterns in dimension code modification and migration for five different scenarios.</span></span> <span data-ttu-id="68163-106">Se vertaa koodiesimerkkejä aiemmissa versioissa koodiesimerkkeihin Business Centralissa.</span><span class="sxs-lookup"><span data-stu-id="68163-106">It compares the code examples in earlier versions to the code examples in Business Central.</span></span>
 
--   <span data-ttu-id="09cc2-105">Vaadittu kysyntätapahtumien määrä ja päivämäärä on kohdattu ja niiden suunnittelu voidaan sulkea,.</span><span class="sxs-lookup"><span data-stu-id="09cc2-105">The required quantity and date of the demand events have been met and the planning for them can be closed.</span></span> <span data-ttu-id="09cc2-106">Tarjontatapahtuma on yhä avoinna ja se voi kattaa seuraavan kysynnän, joten täsmäytys voi alkaa nykyisestä tarjontatapahtumasta ja seuraavasta kysynnästä.</span><span class="sxs-lookup"><span data-stu-id="09cc2-106">The supply event is still open and may be able to cover the next demand, so the balancing procedure can start over with the current supply event and the next demand.</span></span>  
+## <a name="posting-a-journal-line"></a><span data-ttu-id="68163-107">Päiväkirjarivin kirjaus</span><span class="sxs-lookup"><span data-stu-id="68163-107">Posting a Journal Line</span></span>  
+<span data-ttu-id="68163-108">Tärkeimmät muutokset ovat seuraavat:</span><span class="sxs-lookup"><span data-stu-id="68163-108">Key changes are listed as follows:</span></span>  
+  
+- <span data-ttu-id="68163-109">Päiväkirjarivin dimensiotaulukot poistetaan.</span><span class="sxs-lookup"><span data-stu-id="68163-109">Journal line dimension tables are removed.</span></span>  
+  
+- <span data-ttu-id="68163-110">Dimensioyhdistelmän tunnus luodaan **Dimensioyhdistelmän tunnus** -kentässä.</span><span class="sxs-lookup"><span data-stu-id="68163-110">A dimension set ID is created in the **Dimension Set ID** field.</span></span>  
+  
+<span data-ttu-id="68163-111">**Aiemmat versiot**</span><span class="sxs-lookup"><span data-stu-id="68163-111">**Earlier Versions**</span></span>  
+  
+```  
+ResJnlLine."Qty. per Unit of Measure" :=   
+  SalesLine."Qty. per Unit of Measure";  
+  
+TempJnlLineDim.DELETEALL;  
+TempDocDim.RESET;  
+TempDocDim.SETRANGE(  
+  "Table ID",DATABASE::"Sales Line");  
+TempDocDim.SETRANGE(  
+  "Line No.",SalesLine."Line No.");  
+DimMgt.CopyDocDimToJnlLineDim(  
+  TempDocDim,TempJnlLineDim);  
+ResJnlPostLine.RunWithCheck(  
+  ResJnlLine,TempJnlLineDim);  
+  
+```  
+  
+ **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
+  
+```  
+  
+ResJnlLine."Qty. per Unit of Measure" :=   
+  SalesLine."Qty. per Unit of Measure";  
+  
+ResJnlLine."Dimension Set ID" :=   
+  SalesLine." Dimension Set ID ";  
+ResJnlPostLine.Run(ResJnlLine);  
+  
+```  
+  
+## <a name="posting-a-document"></a><span data-ttu-id="68163-112">Asiakirjan kirjaus</span><span class="sxs-lookup"><span data-stu-id="68163-112">Posting a Document</span></span>  
+ <span data-ttu-id="68163-113">Kun kirjaat asiakirjan [!INCLUDE[d365fin](includes/d365fin_md.md)] -järjestelmään, asiakirjan dimensioita ei tarvitse kopioida.</span><span class="sxs-lookup"><span data-stu-id="68163-113">When you post a document in [!INCLUDE[d365fin](includes/d365fin_md.md)], you no longer have to copy the document dimensions.</span></span>  
+  
+ <span data-ttu-id="68163-114">**Aiemmat versiot**</span><span class="sxs-lookup"><span data-stu-id="68163-114">**Earlier Versions**</span></span>  
+  
+```  
+DimMgt.MoveOneDocDimToPostedDocDim(  
+  TempDocDim,DATABASE::"Sales Line",  
+  "Document Type",  
+  "No.",  
+  SalesShptLine."Line No.",  
+  DATABASE::"Sales Shipment Line",  
+  SalesShptHeader."No.");  
+```  
+  
+ **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
+  
+```  
+SalesShptLine."Dimension Set ID”  
+  := SalesLine."Dimension Set ID”  
+```  
+  
+## <a name="editing-dimensions-from-a-document"></a><span data-ttu-id="68163-115">Dimensioiden muokkaaminen asiakirjasta</span><span class="sxs-lookup"><span data-stu-id="68163-115">Editing Dimensions from a Document</span></span>  
+ <span data-ttu-id="68163-116">Voit muokata asiakirjan dimensioita.</span><span class="sxs-lookup"><span data-stu-id="68163-116">You can edit dimensions from a document.</span></span> <span data-ttu-id="68163-117">Voit esimerkiksi muokata myyntitilausriviä.</span><span class="sxs-lookup"><span data-stu-id="68163-117">For example, you can edit a sales order line.</span></span>  
+  
+ <span data-ttu-id="68163-118">**Aiemmat versiot**</span><span class="sxs-lookup"><span data-stu-id="68163-118">**Earlier Versions**</span></span>  
+  
+```  
+Table 37, function ShowDimensions:  
+TESTFIELD("Document No.");  
+TESTFIELD("Line No.");  
+DocDim.SETRANGE("Table ID",DATABASE::"Sales Line");  
+DocDim.SETRANGE("Document Type","Document Type");  
+DocDim.SETRANGE("Document No.","Document No.");  
+DocDim.SETRANGE("Line No.","Line No.");  
+DocDimensions.SETTABLEVIEW(DocDim);  
+DocDimensions.RUNMODAL;  
+```  
+  
+ **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
+  
+```  
+Table 37, function ShowDimensions:  
+"Dimension ID" :=   
+  DimSetEntry.EditDimensionSet(  
+    "Dimension ID");  
+```  
+  
+## <a name="showing-dimensions-from-posted-entries"></a><span data-ttu-id="68163-119">Näytetään dimensiot lähetetyistä kirjauksista</span><span class="sxs-lookup"><span data-stu-id="68163-119">Showing Dimensions from Posted Entries</span></span>  
+ <span data-ttu-id="68163-120">Dimensiot voidaan näyttää kirjatuista tapahtumista, kuten myynnin toimitusriveistä.</span><span class="sxs-lookup"><span data-stu-id="68163-120">You can show dimensions from posted entries, such as sales shipment lines.</span></span>  
+  
+ <span data-ttu-id="68163-121">**Aiemmat versiot**</span><span class="sxs-lookup"><span data-stu-id="68163-121">**Earlier Versions**</span></span>  
+  
+```  
+Table 111, function ShowDimensions:  
+TESTFIELD("No.");  
+TESTFIELD("Line No.");  
+PostedDocDim.SETRANGE(  
+  "Table ID",DATABASE::"Sales Shipment Line");  
+PostedDocDim.SETRANGE(  
+  "Document No.","Document No.");  
+PostedDocDim.SETRANGE("Line No.","Line No.");  
+PostedDocDimensions.SETTABLEVIEW(PostedDocDim);  
+PostedDocDimensions.RUNMODAL;  
+```  
+  
+ **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
+  
+```  
+Table 111, function ShowDimensions:  
+DimSetEntry.ShowDimensionSet(  
+  "Dimension ID");  
+```  
+  
+## <a name="getting-default-dimensions-for-a-document"></a><span data-ttu-id="68163-122">Oletusdimensioiden noutaminen asiakirjalle</span><span class="sxs-lookup"><span data-stu-id="68163-122">Getting Default Dimensions for a Document</span></span>  
+ <span data-ttu-id="68163-123">Voit hakea oletusdimensiot asiakirjalle, kuten myyntitilausriville.</span><span class="sxs-lookup"><span data-stu-id="68163-123">You can get default dimensions for a document, such as a sales order line.</span></span>  
+  
+ <span data-ttu-id="68163-124">**Aiemmat versiot**</span><span class="sxs-lookup"><span data-stu-id="68163-124">**Earlier Versions**</span></span>  
+  
+```  
+Table 37, function CreateDim()  
+SourceCodeSetup.GET;  
+TableID[1] := Type1;  
+No[1] := No1;  
+TableID[2] := Type2;  
+No[2] := No2;  
+TableID[3] := Type3;  
+No[3] := No3;  
+"Shortcut Dimension 1 Code" := '';  
+"Shortcut Dimension 2 Code" := '';  
+DimMgt.GetPreviousDocDefaultDim(  
+  DATABASE::"Sales Header","Document Type",  
+  "Document No.",0,  
+  DATABASE::Customer,  
+  "Shortcut Dimension 1 Code",  
+  "Shortcut Dimension 2 Code");  
+DimMgt.GetDefaultDim(  
+  TableID,No,SourceCodeSetup.Sales,  
+  "Shortcut Dimension 1 Code",  
+  "Shortcut Dimension 2 Code");  
+IF "Line No." <> 0 THEN  
+  DimMgt.UpdateDocDefaultDim(  
+    DATABASE::"Sales Line","Document Type",  
+    "Document No.","Line No.",  
+    "Shortcut Dimension 1 Code",  
+    "Shortcut Dimension 2 Code");  
+```  
+  
+ **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
+  
+```  
+Table 37, function CreateDim()  
+SourceCodeSetup.GET;  
+TableID[1] := Type1;  
+No[1] := No1;  
+TableID[2] := Type2;  
+No[2] := No2;  
+TableID[3] := Type3;  
+No[3] := No3;  
+"Shortcut Dimension 1 Code" := '';  
+"Shortcut Dimension 2 Code" := '';  
+GetSalesHeader;  
+"Dimension ID" :=  
+  DimMgt.GetDefaultDimID(  
+    TableID,No,SourceCodeSetup.Sales,  
+    "Shortcut Dimension 1 Code",  
+    "Shortcut Dimension 2 Code",  
+    SalesHeader."Dimension ID",  
+    DATABASE::"Sales Header");
 
--   <span data-ttu-id="09cc2-107">Toimitustilausta ei voi muokata niin, että se kattaa koko kysynnän.</span><span class="sxs-lookup"><span data-stu-id="09cc2-107">The supply order cannot be modified to cover all of the demand.</span></span> <span data-ttu-id="09cc2-108">Kysyntätapahtuma on edelleen avoinna. Siinä on jokin katteeton määrä, joka voidaan kattaa seuraavalla tuotantotapahtumalla.</span><span class="sxs-lookup"><span data-stu-id="09cc2-108">The demand event is still open, with some uncovered quantity that may be covered by the next supply event.</span></span> <span data-ttu-id="09cc2-109">Nykyinen tarjontatapahtuma siis suljetaan ja täsmäytystoiminto alkaa alusta nykyisestä kysynnästä ja seuraavasta tarjontatapahtumasta.</span><span class="sxs-lookup"><span data-stu-id="09cc2-109">Thus the current supply event is closed, so the balancing act can start over with the current demand and the next supply event.</span></span>  
+```  
 
--   <span data-ttu-id="09cc2-110">Kaikki kysyntä on otettu huomioon; kysyntää ei ole myöhemmin (tai kysyntää ei ole lainkaan).</span><span class="sxs-lookup"><span data-stu-id="09cc2-110">All of the demand has been covered; there is no subsequent demand (or there has been no demand at all).</span></span> <span data-ttu-id="09cc2-111">Jos olemassa on ylimääräistä tarjontaa, se voidaan vähentää (tai peruuttaa) ja sitten sulkea.</span><span class="sxs-lookup"><span data-stu-id="09cc2-111">If there is any surplus supply, it may be decreased (or canceled) and then closed.</span></span> <span data-ttu-id="09cc2-112">On mahdollista, että myöhempänä ketjussa on lisää tarjontatapahtumia ja myös ne tulisi peruuttaa.</span><span class="sxs-lookup"><span data-stu-id="09cc2-112">It is possible that additional supply events exist further along in the chain, and they should also be canceled.</span></span>  
-
- <span data-ttu-id="09cc2-113">Viimeiseksi suunnittelujärjestelmä luo tilauksen seurantalinkin tarjonnan ja kysynnän välille.</span><span class="sxs-lookup"><span data-stu-id="09cc2-113">Last, the planning system will create an order tracking link between the supply and the demand.</span></span>  
-
-## <a name="creating-the-planning-line-suggested-action"></a><span data-ttu-id="09cc2-114">Suunnittelurivin luonti (ehdotettu toimenpide)</span><span class="sxs-lookup"><span data-stu-id="09cc2-114">Creating the Planning Line (Suggested Action)</span></span>  
- <span data-ttu-id="09cc2-115">Jos toimitustilauksen korjaamista ehdotetaan jollakin toiminnolla, kuten uusi, muuta määrä, aikatauluta uudelleen, aikatauluta uudelleen ja muuta määrää tai peruuta, suunnittelujärjestelmä luo suunnittelurivin suunnittelutyökirjassa.</span><span class="sxs-lookup"><span data-stu-id="09cc2-115">If any action – New, Change Quantity, Reschedule, Reschedule and Change Quantity, or Cancel – is suggested to revise the supply order, the planning system creates a planning line in the planning worksheet.</span></span> <span data-ttu-id="09cc2-116">Tilauksen seurannasta johtuen suunnitteluriviä ei luoda vain tarjontatapahtuman lopuksi mutta myös siinä tapauksessa, jos kysyntätapahtuma suljetaan, vaikka tarjontatapahtuma on yhä avoinna ja siihen saattaa kohdistua muita muutoksia seuraavan kysyntätapahtuman käsittelyn yhteydessä.</span><span class="sxs-lookup"><span data-stu-id="09cc2-116">Due to order tracking, the planning line is created not only when the supply event is closed, but also if the demand event is closed, even though the supply event is still open and may be subject to additional changes when the next demand event is processed.</span></span> <span data-ttu-id="09cc2-117">Tämä tarkoittaa sitä, että jos suunnittelurivi on luotu ensimmäisenä, sitä voidaan muuttaa uudelleen.</span><span class="sxs-lookup"><span data-stu-id="09cc2-117">This means that when first created, the planning line may be changed again.</span></span>  
-
- <span data-ttu-id="09cc2-118">Tuotantotilausten käsittelyn aikaista tietokantayhteyden käyttöä voi minimoida ylläpitämällä suunnittelurivejä kolmella tasolla ja pyrkimällä käyttämään vähiten kuormittava ylläpitotasoa.</span><span class="sxs-lookup"><span data-stu-id="09cc2-118">To minimize database access when handling production orders, the planning line can be maintained in three levels, while aiming to perform the least demanding maintenance level:</span></span>  
-
--   <span data-ttu-id="09cc2-119">Luo vain suunnittelurivi nykyisellä eräpäivällä ja määrällä, mutta ilman reititystä ja komponentteja.</span><span class="sxs-lookup"><span data-stu-id="09cc2-119">Create only the planning line with the current due date and quantity but without the routing and components.</span></span>  
-
--   <span data-ttu-id="09cc2-120">Sisällytä reititys: suunniteltu reititys asetellaan aloitus- ja lopetuspäivämäärät ja kellonajat mukaan lukien.</span><span class="sxs-lookup"><span data-stu-id="09cc2-120">Include routing: the planned routing is laid out including calculation of starting and ending dates and times.</span></span> <span data-ttu-id="09cc2-121">Tämä on vaativaa tietokannan käyttöoikeuksia ajatellen.</span><span class="sxs-lookup"><span data-stu-id="09cc2-121">This is demanding in terms of database accesses.</span></span> <span data-ttu-id="09cc2-122">Kun haluat määrittää loppupäivämäärän ja eräpäivän, tämä on ehkä laskettava, vaikka tarjontatapahtumaa ei ole suljettu (jos kyseessä on aikataulutus eteenpäin).</span><span class="sxs-lookup"><span data-stu-id="09cc2-122">To determine the ending and due dates, it may be necessary to calculate this even if the supply event has not been closed (in the case of forward scheduling).</span></span>  
-
--   <span data-ttu-id="09cc2-123">Sisällytä tuoterakenteen purku: tämä voi odottaa hetkeä ennen tarjontatapahtuman sulkemista.</span><span class="sxs-lookup"><span data-stu-id="09cc2-123">Include BOM explosion: this can wait until just before the supply event is closed.</span></span>  
-
- <span data-ttu-id="09cc2-124">Tämä päättää suunnittelujärjestelmän suorittaman kysynnän ja tarjonnan lataamisen, priorisoinnin ja täsmäytyksen kuvaukset.</span><span class="sxs-lookup"><span data-stu-id="09cc2-124">This concludes the descriptions of how demand and supply is loaded, prioritized, and balanced by the planning system.</span></span> <span data-ttu-id="09cc2-125">Järjestelmän on varmistettava yhdessä tämän tarjonnan suunnittelutehtävän kanssa, että jokaisen suunnitellun nimikkeen vaadittava varastotaso säilytetään sen uusintatilauskäytännön mukaisesti.</span><span class="sxs-lookup"><span data-stu-id="09cc2-125">In integration with this supply planning activity, the system must ensure that the required inventory level of each planned item is maintained according to its reordering policies.</span></span>  
-
-## <a name="see-also"></a><span data-ttu-id="09cc2-126">Katso myös</span><span class="sxs-lookup"><span data-stu-id="09cc2-126">See Also</span></span>  
- <span data-ttu-id="09cc2-127">[Rakennetiedot: kysynnän ja tarjonnan täsmäytys](design-details-balancing-demand-and-supply.md) </span><span class="sxs-lookup"><span data-stu-id="09cc2-127">[Design Details: Balancing Demand and Supply](design-details-balancing-demand-and-supply.md) </span></span>  
- <span data-ttu-id="09cc2-128">[Rakennetiedot: suunnittelujärjestelmän keskeiset käsitteet](design-details-central-concepts-of-the-planning-system.md) </span><span class="sxs-lookup"><span data-stu-id="09cc2-128">[Design Details: Central Concepts of the Planning System](design-details-central-concepts-of-the-planning-system.md) </span></span>  
- [<span data-ttu-id="09cc2-129">Rakennetiedot: Tarjonnan suunnittelu</span><span class="sxs-lookup"><span data-stu-id="09cc2-129">Design Details: Supply Planning</span></span>](design-details-supply-planning.md)
-
+## <a name="see-also"></a><span data-ttu-id="68163-125">Katso myös</span><span class="sxs-lookup"><span data-stu-id="68163-125">See Also</span></span>  
+<span data-ttu-id="68163-126">[Rakennetiedot: Dimensioyhdistelmätapahtumat](design-details-dimension-set-entries.md) </span><span class="sxs-lookup"><span data-stu-id="68163-126">[Design Details: Dimension Set Entries](design-details-dimension-set-entries.md) </span></span>  
+<span data-ttu-id="68163-127">[Rakennetiedot: taulukkorakenne](design-details-table-structure.md) </span><span class="sxs-lookup"><span data-stu-id="68163-127">[Design Details: Table Structure](design-details-table-structure.md) </span></span>  
+[<span data-ttu-id="68163-128">Rakennetiedot: koodiyksikön 408 dimension hallinta</span><span class="sxs-lookup"><span data-stu-id="68163-128">Design Details: Codeunit 408 Dimension Management</span></span>](design-details-codeunit-408-dimension-management.md)

@@ -110,7 +110,6 @@
 ### [Varaston laskeminen, muuttaminen tai uudelleenluokitus](inventory-how-count-adjust-reclassify.md)
 ### [Irtotavaran ohjatulla hyllytyksellä ja poiminnalla tapahtuvan automaattisen erottelun ottaminen käyttöön](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md)
 ### [FEFO-poiminnan ottaminen käyttöön](warehouse-picking-by-fefo.md)
-### [ADCS (Automated Data Capture Systems) -järjestelmän ottaminen käyttöön](warehouse-use-automated-data-capture-systems-adcs.md)
 ### [Fyysisten varastojen uudelleenjärjestely](warehouse-how-to-restructure-warehouses.md)
 ## [Tuotannon määrittäminen](production-configure-production-processes.md)
 ### [Tuotantosolun kalenterien luominen](production-how-to-create-work-center-calendars.md)
