@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
 ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
@@ -43,7 +43,6 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 |Voit määrittää ja käyttää työnkulkuja, jotka yhdistävät eri käyttäjien tai järjestelmän suorittamia tehtäviä, kuten automaattisia kirjauksia. Uusien asiakirjojen luontiin ja kirjaukseen liittyvien hyväksyntöjen pyytäminen ja antaminen ovat tyypillisiä työnkulun osavaiheita.|[Työnkulku](across-workflow.md)|
 |Mahdollista käyttäjille tietojen vaihtaminen ulkoisten lähteiden kanssa, kuten sähköisten asiakirjojen lähettämisessä ja vastaanottamisessa sekä pankkitiedostojen tuonnissa ja viennissä, että valuutan vaihtokurssien päivittämisessä.|[Sähköinen tiedonsiirto](across-data-exchange.md)|
 |Kirjaa ulkoiset asiakirjat [!INCLUDE[d365fin](includes/d365fin_md.md)]issa liitteineen ja luo sitten manuaalisesti liittyvät asiakirjat tai muunna tiedostot automaattisesti sähköisiksi asiakirjoiksi.|[Saapuvat asiakirjat](across-income-documents.md)|
-
 
 ## <a name="see-also"></a>Katso myös
 [Hallinta](admin-setup-and-administration.md)  
