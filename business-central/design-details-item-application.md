@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 11/23/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 12fa67c9e0c161d99faab376c440f6299fa8aa52
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 9628976ace37f672f86e23b365e49a7ce2f49aea
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-item-application"></a><span data-ttu-id="5ece6-103">Rakennetiedot: Nimikkeen kohdistus</span><span class="sxs-lookup"><span data-stu-id="5ece6-103">Design Details: Item Application</span></span>
@@ -22,7 +22,7 @@ ms.lasthandoff: 03/22/2018
 
 <span data-ttu-id="5ece6-106">Lisäksi suoritetaan nimikkeen kohdistus kustannuksen vastaanottajan linkittämiseksi sen kustannuksen lähteeseen kustannuksen siirron suorittamiseksi arvostusmenetelmän mukaisesti.</span><span class="sxs-lookup"><span data-stu-id="5ece6-106">In addition, an item application is made to link the cost recipient to its cost source to provide cost forwarding according to the costing method.</span></span> <span data-ttu-id="5ece6-107">Lisätietoja on kohdassa [Rakennetiedot: Arvostusmenetelmät](design-details-costing-methods.md).</span><span class="sxs-lookup"><span data-stu-id="5ece6-107">For more information, see [Design Details: Costing Methods](design-details-costing-methods.md).</span></span>  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="5ece6-108"> suorittaa kahdenlaisia nimikkeen kohdistuksia.</span><span class="sxs-lookup"><span data-stu-id="5ece6-108"> makes two types of item application.</span></span>  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="5ece6-108">suorittaa kahdenlaisia nimikkeen kohdistuksia.</span><span class="sxs-lookup"><span data-stu-id="5ece6-108"> makes two types of item application.</span></span>  
 
 |<span data-ttu-id="5ece6-109">Sovelluksen tyyppi</span><span class="sxs-lookup"><span data-stu-id="5ece6-109">Application type</span></span>|<span data-ttu-id="5ece6-110">Description</span><span class="sxs-lookup"><span data-stu-id="5ece6-110">Description</span></span>|  
 |----------------------|---------------------------------------|  
@@ -237,7 +237,7 @@ ms.lasthandoff: 03/22/2018
 * <span data-ttu-id="5ece6-524">Haluat ohittaa kirjauksen yhteydessä automaattisesti nimikkeen arvostusmenetelmän perusteella luodun kohdistuksen.</span><span class="sxs-lookup"><span data-stu-id="5ece6-524">You want to overrule the application created automatically when posting, according to the item’s costing method.</span></span>  
 * <span data-ttu-id="5ece6-525">Palauta nimike, jolle on jo manuaalisesti kohdistettu myynti, ilman **Hae peruutettavat kirjatut asiakirjarivit** -toiminnon käyttämistä. Kohdistus on tämän vuoksi peruutettava.</span><span class="sxs-lookup"><span data-stu-id="5ece6-525">You have to return an item to which a sale has already been manually applied, without using the **Get Posted Document Lines to Reverse** function, and you must therefore undo the application.</span></span>  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="5ece6-526"> tarjoaa ominaisuuden nimikkeen kohdistusten analysointiin ja korjaamiseen.</span><span class="sxs-lookup"><span data-stu-id="5ece6-526"> offers a feature for analyzing and correcting item applications.</span></span> <span data-ttu-id="5ece6-527">Tämä työ tehdään **Kohdistustyökirja**-ikkunassa.</span><span class="sxs-lookup"><span data-stu-id="5ece6-527">This work is performed in the **Application Worksheet** window.</span></span>  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="5ece6-526">tarjoaa ominaisuuden nimikkeen kohdistusten analysointiin ja korjaamiseen.</span><span class="sxs-lookup"><span data-stu-id="5ece6-526"> offers a feature for analyzing and correcting item applications.</span></span> <span data-ttu-id="5ece6-527">Tämä työ tehdään **Kohdistustyökirja**-ikkunassa.</span><span class="sxs-lookup"><span data-stu-id="5ece6-527">This work is performed in the **Application Worksheet** window.</span></span>  
 
 ## <a name="see-also"></a><span data-ttu-id="5ece6-528">Katso myös</span><span class="sxs-lookup"><span data-stu-id="5ece6-528">See Also</span></span>  
 [<span data-ttu-id="5ece6-529">Rakennetiedot: Nimikkeen kohdistuksen tunnettu ongelma</span><span class="sxs-lookup"><span data-stu-id="5ece6-529">Design Details: Known Item Application Issue</span></span>](design-details-inventory-zero-level-open-item-ledger-entries.md)  

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2de1fcf3cab37be18d881cea73ac4e522fce803b
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: d342fa6139e80e60aa3149776d7e5f658f6c31aa
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="disregard-payment-discounts"></a><span data-ttu-id="82871-103">Maksualennusten ohittaminen</span><span class="sxs-lookup"><span data-stu-id="82871-103">Disregard Payment Discounts</span></span>

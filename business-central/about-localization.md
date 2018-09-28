@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: availability, localization
-ms.date: 07/06/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7664360941313da6ea0b797ef00df2e9810ad62
-ms.openlocfilehash: ffe2c700ed409a0881c94ddfd0157cf32141c60f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6271cc49358c4f31edfdfdda60e87655a53eea50
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/09/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="local-functionality-in-included365finlongincludesd365finlongmdmd"></a><span data-ttu-id="1646c-103">[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]in paikalliset toiminnot</span><span class="sxs-lookup"><span data-stu-id="1646c-103">Local Functionality in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]</span></span>
@@ -48,7 +48,7 @@ ms.lasthandoff: 07/09/2018
 |        | <span data-ttu-id="1646c-145">Uusi-Seelanti</span><span class="sxs-lookup"><span data-stu-id="1646c-145">New Zealand</span></span> | [<span data-ttu-id="1646c-146">Uusi-Seelannin paikalliset toiminnot</span><span class="sxs-lookup"><span data-stu-id="1646c-146">New Zealand Local Functionality</span></span>](localfunctionality/newzealand/new-zealand-local-functionality.md) |
 
 ### <a name="other-countries"></a><span data-ttu-id="1646c-147">Muut maat</span><span class="sxs-lookup"><span data-stu-id="1646c-147">Other Countries</span></span>
-[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="1646c-148"> on saatavana myös muilla markkina-alueilla lokalisointisovellusten kautta.</span><span class="sxs-lookup"><span data-stu-id="1646c-148"> is also available in other markets through localization apps.</span></span> <span data-ttu-id="1646c-149">Jos Microsoftin kumppani on kehittänyt maassasi käytettävän lokalisointisovelluksen, löydät sen [AppSourcesta](https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/).</span><span class="sxs-lookup"><span data-stu-id="1646c-149">If a Microsoft partner has developed a localization app for your country, you can find it in [AppSource](https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/).</span></span>
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="1646c-148">on saatavana myös muilla markkina-alueilla lokalisointisovellusten kautta.</span><span class="sxs-lookup"><span data-stu-id="1646c-148"> is also available in other markets through localization apps.</span></span> <span data-ttu-id="1646c-149">Jos Microsoftin kumppani on kehittänyt maassasi käytettävän lokalisointisovelluksen, löydät sen [AppSourcesta](https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/).</span><span class="sxs-lookup"><span data-stu-id="1646c-149">If a Microsoft partner has developed a localization app for your country, you can find it in [AppSource](https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/).</span></span>
 
 ## <a name="see-also"></a><span data-ttu-id="1646c-150">Katso myös</span><span class="sxs-lookup"><span data-stu-id="1646c-150">See Also</span></span>
 [<span data-ttu-id="1646c-151">Käytön aloittaminen</span><span class="sxs-lookup"><span data-stu-id="1646c-151">Getting Started</span></span>](product-get-started.md)  

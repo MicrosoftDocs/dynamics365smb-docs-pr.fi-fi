@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 01/02/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: 0b387e6f1f0daf48a0244d0f840dd314d5c53289
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ca150adf827def5a2d66dad0b04f362c278917f6
 ms.contentlocale: fi-fi
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="finland-local-functionality"></a><span data-ttu-id="f5744-103">Suomen paikalliset toiminnot</span><span class="sxs-lookup"><span data-stu-id="f5744-103">Finland Local Functionality</span></span>

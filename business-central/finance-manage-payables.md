@@ -12,17 +12,17 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: article
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
-ms.date: 06/01/2018
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 1682db5bd62f980e8789613cd2ca4169f98e839d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 558d9cc314dec5ec8daaae42adf6b7efd443274b
 ms.contentlocale: fi-fi
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="managing-payables"></a><span data-ttu-id="1a2b4-103">Ostovelkojen hallinta</span><span class="sxs-lookup"><span data-stu-id="1a2b4-103">Managing Payables</span></span>
-[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="1a2b4-104"> sisältää kaiken, mitä tarvitset ostoreskontran tehokkaaseen hallintaan.</span><span class="sxs-lookup"><span data-stu-id="1a2b4-104"> has what you need to effectively manage accounts payable.</span></span>  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="1a2b4-104">sisältää kaiken, mitä tarvitset ostoreskontran tehokkaaseen hallintaan.</span><span class="sxs-lookup"><span data-stu-id="1a2b4-104"> has what you need to effectively manage accounts payable.</span></span>  
 
 ## <a name="payments"></a><span data-ttu-id="1a2b4-105">Maksut</span><span class="sxs-lookup"><span data-stu-id="1a2b4-105">Payments</span></span>
 <span data-ttu-id="1a2b4-106">Sen avulla on helppo priorisoida maksut, ottaa huomioon erääntymismaksut ja käsitelle aikaisin suoritettujen maksujen alennukset.</span><span class="sxs-lookup"><span data-stu-id="1a2b4-106">It's easy to prioritize payments, account for penalties for overdue payments, and handle discounts for early payments.</span></span>
@@ -32,7 +32,7 @@ ms.lasthandoff: 06/01/2018
 <span data-ttu-id="1a2b4-108">Voit kohdistaa maksut sulkemaan laskut maksun kirjaamisen yhteydessä tai kirjaamisen jälkeen.</span><span class="sxs-lookup"><span data-stu-id="1a2b4-108">You can apply payments to close invoices when you post the payment, or after you post the payment.</span></span> <span data-ttu-id="1a2b4-109">Toimittajalle (**toimittajakortissa**) määritetty **Kohdistustapa** määrittää, kohdistetaanko maksu manuaalisesti vai automaattisesti.</span><span class="sxs-lookup"><span data-stu-id="1a2b4-109">The **Application Method** specified for the vendor (on the **Vendor Card**) determines whether you apply the payment manually, or automatically.</span></span> <span data-ttu-id="1a2b4-110">Voit aina kohdistaa tapahtumia manuaalisesti.</span><span class="sxs-lookup"><span data-stu-id="1a2b4-110">You can always apply transactions manually.</span></span> <span data-ttu-id="1a2b4-111">Jos toimittajan kohdistustapa on **Kohdista vanhimpaan** etkä määritä asiakirjaa, johon maksu kohdistetaan, maksu kohdistetaan toimittajan vanhimpaan avoinna olevaan tapahtumaan.</span><span class="sxs-lookup"><span data-stu-id="1a2b4-111">However, if the application method for the vendor is **Apply to Oldest**, and you do not specify a document to apply the payment to, the payment is applied to the oldest open entry for the vendor.</span></span>
 
 ## <a name="suggest-vendor-payments"></a><span data-ttu-id="1a2b4-112">Ehdota toimittajamaksuja</span><span class="sxs-lookup"><span data-stu-id="1a2b4-112">Suggest Vendor Payments</span></span>
-[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="1a2b4-113"> voi ehdottaa eri maksuja toimittajille, kuten maksuja, jotka erääntyvät pian, ja maksuja, joista voi saada alennuksen.</span><span class="sxs-lookup"><span data-stu-id="1a2b4-113"> can suggest various payments to vendors, such as payments that will be due soon, or payments where a discount is available.</span></span> <span data-ttu-id="1a2b4-114">Maksuehdotus voi ottaa huomioon summan, jonka määrität saatavilla olevina varoina maksuihin, ja kelpoisuuden maksualennuksiin.</span><span class="sxs-lookup"><span data-stu-id="1a2b4-114">The payment suggestion can consider an amount that you specify as available funds for payment, and eligibility for payment discounts.</span></span>
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="1a2b4-113">voi ehdottaa eri maksuja toimittajille, kuten maksuja, jotka erääntyvät pian, ja maksuja, joista voi saada alennuksen.</span><span class="sxs-lookup"><span data-stu-id="1a2b4-113"> can suggest various payments to vendors, such as payments that will be due soon, or payments where a discount is available.</span></span> <span data-ttu-id="1a2b4-114">Maksuehdotus voi ottaa huomioon summan, jonka määrität saatavilla olevina varoina maksuihin, ja kelpoisuuden maksualennuksiin.</span><span class="sxs-lookup"><span data-stu-id="1a2b4-114">The payment suggestion can consider an amount that you specify as available funds for payment, and eligibility for payment discounts.</span></span>
 
 ## <a name="issue-checks"></a><span data-ttu-id="1a2b4-115">Sekkien myöntäminen</span><span class="sxs-lookup"><span data-stu-id="1a2b4-115">Issue Checks</span></span>
 [!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="1a2b4-116">issa sekit voi myöntää toimittajille manuaalisesti ja sähköisesti.</span><span class="sxs-lookup"><span data-stu-id="1a2b4-116"> lets you issue checks to vendors manually and electronically.</span></span> <span data-ttu-id="1a2b4-117">Kumpikin tehdään **Maksupäiväkirjat**-ikkunassa, jossa voit myös mitätöidä sekkejä ja tarkastella sekkitapahtumia.</span><span class="sxs-lookup"><span data-stu-id="1a2b4-117">You do both in the **Payment Journals** window, where you can also void checks and view check ledger entries.</span></span>

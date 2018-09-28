@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 595e6fb7cc8239ea33cf57aadfd8b0f3419323e5
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 2be3a29ad88c46f8b96b9f4bed34602da35fbcb7
 ms.contentlocale: fi-fi
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="viewing-list-data-in-power-bi-reports-in-business-central"></a><span data-ttu-id="85950-103">Power BI -raporttien luettelotietojen tarkasteleminen Business Central -sovelluksessa</span><span class="sxs-lookup"><span data-stu-id="85950-103">Viewing List Data in Power BI Reports in Business Central</span></span> 

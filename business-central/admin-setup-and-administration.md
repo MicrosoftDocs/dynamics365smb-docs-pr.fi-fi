@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 0/07/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: c1675921c82ddf00f6a00f94bb38bd594a9a0089
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: d03fc2fb97f9abd85b42566616d8aa7f39ee29bb
 ms.contentlocale: fi-fi
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="administration"></a><span data-ttu-id="741a5-104">Hallinta</span><span class="sxs-lookup"><span data-stu-id="741a5-104">Administration</span></span>
@@ -52,5 +52,4 @@ ms.lasthandoff: 06/28/2018
 [<span data-ttu-id="741a5-144">Käytön aloittaminen</span><span class="sxs-lookup"><span data-stu-id="741a5-144">Getting Started</span></span>](product-get-started.md)    
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 
