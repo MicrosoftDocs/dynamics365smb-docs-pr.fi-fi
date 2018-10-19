@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory valuation, costing
-ms.date: 08/07/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3152e16f5f4ebba4a20d4905def77d45e3f051ab
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 9c2bdec641a78a13d75ed8d1b3379a74f7af353a
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="adjust-item-costs"></a>Nimikekustannusten muuttaminen
@@ -37,7 +37,7 @@ Jos käytät Keskiarvo-arvostusmenetelmää, nimikkeen yksikkökustannus lasketa
 Kustannusten muuttamistoiminto käsittelee vain arvotapahtumia, joita ei ole vielä muutettu. Jos toiminto kohtaa tilanteen, jossa muutetut saapuvat kustannukset on siirrettävä niihin liittyviin lähteviin tapahtumiin, luodaan uusia muutosarvotapahtumia, jotka perustuvat alkuperäisten arvotapahtumien tietoihin, mutta sisältävät muutossumman. Kustannusten muuttamistoiminto käyttää muutostapahtumassa alkuperäisen arvotapahtuman kirjauspäivämäärää, ellei päivämäärä ole suljetulla varastokaudella. Siinä tapauksessa ohjelma käyttää seuraavan avoimen varastokauden aloituspäivämäärää. Jos varastokausia ei käytetä, **Pääkirjanpidon asetukset** -ikkunan **Ensimm. sallittu kirjauspvm** -kentässä oleva päivämäärä määrittää, milloin muutostapahtuma kirjataan.
 
 ## <a name="to-adjust-item-costs-manually"></a>Nimikekustannusten muokkaaminen manuaalisesti
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Muuta kustannuksia - Nimiketapahtumat** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Muuta kustannuksia - Nimiketapahtumat** ja valitse sitten liittyvä linkki.
 2. Määritä **Muuta kustannuksia - Nimiketapahtumat** -ikkunassa nimikkeet, joiden kustannuksia muutetaan.
 3. Valitse **OK**-painike.
 
@@ -46,7 +46,7 @@ Jos välitöntä yksikkökustannusta on muutettava useissa nimikkeissä, voit k�
 
  Eräajo muuttaa nimikekortin **Yksikköhinta**-kentän sisällön. Eräajo muuttaa kentän sisällön samalla tavalla kaikille nimikkeille tai valituille nimikkeille. Eräajo kertoo kentässä olevan arvon määrittämälläsi muutoskertoimella.  
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Muuta nimikkeen kustannuksia tai hintoja** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Muuta nimikekustannuksia tai -hintoja** ja valitse sitten liittyvä linkki.  
 2. Määritä **Muuta kenttää** -kentässä muutettava nimikkeen tai varastointiyksikön kortin kenttä.  
 3. Määritä **Muutoskerroin**-kentässä kerroin, jonka mukaan arvoa muutetaan. Syötä esimerkiksi **1,5**, kun haluat suurentaa arvoa 50 %:lla.  
 4. Määritä **Nimike**-pikavälilehdessä määritettävät suodattimet, kuten se, mitä nimikkeitä eräajossa käsitellään.  

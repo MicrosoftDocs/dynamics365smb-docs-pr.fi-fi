@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 05/06/2018
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
-ms.openlocfilehash: 399b1a4331431a6472ecebaad41489092d117cfa
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: f23993964f0803f2153c2d190a23532113e5ddd2
 ms.contentlocale: fi-fi
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -37,14 +37,14 @@ Jos haluat määrittää ALV-laskelmat itse tai jos haluat lisätietoja kustakin
 Avustetun ALV-asetusten asennus oppaan käyttö on suositeltavaa määritettäessä ALV:tä [!INCLUDE[d365fin](includes/d365fin_md.md)]issa.
 
 Avaa avustettu asennusopas seuraavasti:
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake ja anna **Asetusten ohjattu määritys**.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asetusten ohjattu määritys**.  
 2. Valitse **Määritä ALV**.
 
 ## <a name="to-set-up-vat-registration-numbers-for-your-country-or-region"></a>Oman maan tai alueen ALV-rekisteröintinumeroiden määrittäminen
 Voit auttaa varmistamaan, että annettavat ALV-rekisteröintinumerot ovat kelvollisia, määrittämällä niiden maiden tai alueiden ALV-rekisteröintinumeroiden muodot, joissa sinulla on liiketoimintaa. [!INCLUDE[d365fin](includes/d365fin_md.md)] näyttää virhesanoman, kun joku tekee virheen tai käyttää muotoa, jota ei hyväksytä maassa tai alueella.
 
 ALV-rekisteröintinumeroiden määritysohjeet:
-1. Valitse ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") -kuvake ja kirjoita **Maat/alueet**.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maat/alueet**.
 2. Valitse ensin maa tai alue ja sitten **ALV-rekisteröintinron muodot** -toiminto.
 3. Määritä muoto **Muodot**-kenttään antamalla vähintään yksi seuraavista merkeistä:  
 
@@ -62,7 +62,7 @@ Käytä koodeja, jotka on helppo muistaa ja jotka kuvaavat liiketoiminnan kirjau
 
 Liiketoiminnan ALV-kirjausryhmä määritetään seuraavasti:
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Liiketoim. ALV-kirjausryhmä** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Liiketoim. ALV-kirjausryhmä** ja valitse sitten liittyvä linkki.  
 2. Täytä tarvittavat kentät.
 
 Liiketoiminnan ALV-kirjausryhmien oletusarvot luodaan linkittämällä ne liiketoiminnan kirjausryhmiin. [!INCLUDE[d365fin](includes/d365fin_md.md)] määrittää automaattisesti liiketoiminnan ALV-kirjausryhmän koodin, kun määrität liiketoiminnan kirjausryhmän asiakkaaseen, toimittajaan tai pääkirjanpidon tiliin.
@@ -73,7 +73,7 @@ Olisi hyvä käyttää koodeja, jotka on helppo muistaa ja joissa on viittaus AL
 
 Liiketoiminnan ALV-kirjausryhmä määritetään seuraavasti:
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Tuotteen ALV-kirjausryhmät** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tuotteen ALV-kirjausryhmät** ja valitse sitten liittyvä linkki.  
 2. Täytä tarvittavat kentät.
 
 ## <a name="to-combine-vat-posting-groups-in-vat-posting-setups"></a>ALV-kirjausryhmien yhdistäminen ALV-kirjausasetuksissa
@@ -83,7 +83,7 @@ Voit määrittää niin monta yhdistelmää kuin haluat. Jos haluat ryhmitellä 
 
 ALV-kirjausasetukset yhdistetään seuraavasti:
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **ALV-kirjausten asetukset** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **ALV-kirjausten asetukset** ja valitse sitten liittyvä linkki.
 2. Täytä tarvittavat kentät.
 
 ## <a name="to-assign-vat-posting-groups-by-default-to-multiple-entities"></a>ALV-kirjausryhmien määrittäminen oletusarvoisesti useille objekteille
@@ -98,18 +98,18 @@ Liiketoiminnan tai tuotteen ALV-kirjausryhmä määritetään, kun valitse asiak
 Seuraavissa osissa käsitellään ALV-kirjausryhmien määrittämistä yksittäisille objekteille.
 
 ### <a name="to-assign-vat-posting-groups-to-individual-general-ledger-accounts"></a>ALV-kirjausryhmien määrittäminen yksittäisille pääkirjanpidon tileille
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Tilikartta** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tilikartta** ja valitse sitten liittyvä linkki.  
 2. Avaa valitun tilin **KP-tilin** kortti.  
 3. Valitse **Kirjaus**-pikavälilehden **Yleinen kirjaustyyppi** -kentässä joko **Myynti** tai **Osto**.  
 5. Valitse myynti- tai ostotilillä käytettävät ALV-kirjausryhmät.  
 
 ### <a name="to-assign-vat-business-posting-groups-to-customers-and-vendors"></a>Liiketoiminnan ALV-kirjausryhmien määrittäminen asiakkaille ja toimittajille  
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Asiakas** tai **Toimittaja** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asiakas** tai **Toimittaja** ja valitse sitten liittyvä linkki.  
 2. Laajenna **Laskutus**-pikavälilehti **Asiakas**- tai **Toimittaja**-kortissa.  
 3. Valitse liiketoiminnan ALV-kirjausryhmä.  
 
 ### <a name="to-assign-vat-product-posting-groups-to-individual-items-and-resources"></a>Tuotteen ALV-kirjausryhmien määritetään yksittäisille nimikkeille ja resursseille  
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Nimike** tai **Toimittaja** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimike** tai **Resurssi** ja valitse sitten liittyvä linkki.  
 2. Tee jompikumpi seuraavista toimista:  
 
 * Laajenna **Nimike**-kortin **Hinta ja kirjaus** -pikavälilehti ja valitse sitten **Näytä lisää**. **Tuotteen ALV-kirjausryhmä** -kenttä avautuu.  
@@ -120,12 +120,12 @@ Seuraavissa osissa käsitellään ALV-kirjausryhmien määrittämistä yksittäi
 Veroviranomaiset voivat muuttaa ALV:n kirjausvaatimuksia. **ALV-ilmoitusmallit** ja **ALV-ilmoitusten nimet** voivat auttaa tulevien muutosten valmistelemisessa. Niiden avulla siirtyminen uusiin vaatimuksiin on sujuva. Voit käyttää ALV-ilmoitusmalleja, kun määrität laskelmien määrittämisessä käytettäviä ALV-ilmoituksen sisältäviä kenttiä. Voit luoda uuden ALV-ilmoitusmallin, kun vaatimukset muuttuvat. Esimerkiksi yksi malli voi laskea tämän vuoden ALV:n nykyisten vaatimusten ja toinen malli seuraavan vuoden vaatimusten perusteella. Mallien avulla voi myös ylläpitää ALV-ilmoitusten muotojen historiaa esimerkiksi niin, että voit katsoa, miten edellisen vuoden ALV laskettiin.
 
 ## <a name="how-to-define-and-preview-vat-statements"></a>ALV-ilmoitusten määrittäminen ja esikatselu
-ALV-ilmoitusten avulla voi laskea ALV-laskelman summan tietyltä kaudelta, esimerkiksi neljännesvuoden ajalta. Kun ALV-ilmoitus on määritetty, voit esikatsella sitä ja varmistaa, että se täyttää tarpeet. 
+ALV-ilmoitusten avulla voi laskea ALV-laskelman summan tietyltä kaudelta, esimerkiksi neljännesvuoden ajalta. Kun ALV-ilmoitus on määritetty, voit esikatsella sitä ja varmistaa, että se täyttää tarpeet.
 
 Voit määrittää ALV-ilmoituksen seuraavien vaiheiden avulla:
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **ALV-ilmoitukset** ja valitse sitten aiheeseen liittyvä linkki.  
-2. Valitse **Nimi**-kenttä ja valitse sitten **ALV-ilmoitusten nimet** -sivulla **Uusi** . 
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **ALV-ilmoitukset** ja valitse sitten liittyvä linkki.  
+2. Valitse **Nimi**-kenttä ja valitse sitten **ALV-ilmoitusten nimet** -ikkunassa **Uusi** .
 3. Täytä vaaditut kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!Tip]
@@ -147,19 +147,19 @@ Voit tarvittaessa määrittää myös, miten ALV-lauseet käännetään muille k
 Voit muokata tai poistaa ALV-lauseen, ja muutokset näkyvät luodussa raportissa. [!INCLUDE[d365fin](includes/d365fin_md.md)] ei kuitenkaan säilytä muutoshistoriaa. Raportissa ALV-lauseen kuvaukset tulostetaan ja näytetään raportin kaikille riveille ALV-summan ja ALV-perusteen summan rinnalla. Jos ALV-lausetta ei ole määritetty millekään myyntiasiakirjan riville, koko osa jätetään pois raporttia tulostettaessa.
 
 ### <a name="to-set-up-vat-clauses"></a>ALV-lauseiden määrittäminen
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **ALV-lauseet** ja valitse sitten aiheeseen liittyvä linkki.  
-2. Luo **ALV-lauseet**-sivulla uusi rivi.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **ALV-lauseet** ja valitse sitten liittyvä linkki.  
+2. Luo **ALV-lauseet**-ikkunassa uusi rivi.  
 3. Kirjoita lauseen tunnus **Koodi**-kenttään. Lause määritetään tällä koodilla ALV-kirjausryhmiin.  
 4. Kirjoita **Kuvaus**-kenttään teksti, jonka haluat näkyvän asiakirjoissa, joihin ALV voi sisältyä. Voit tarvittaessa kirjoittaa lisätekstin **Kuvaus 2** -kenttään. Teksti näkyy uusilla riveillä.  
 5. Valinnainen: ALV-lauseen voi määrittää ALV-kirjausryhmään heti valitsemalla ensin **Asetukset** ja sitten lauseen. Jos halua odottaa, voit määrittää lauseen myöhemmin ALV-kirjausten asetukset -sivulla.  
 6. Valinnainen: Valitsemalla **Käännökset** toiminnon voit määrittää, miten ALV-lause käännetään.
 
 ### <a name="to-assign-a-vat-clause-to-a-vat-posting-setup"></a>ALV-lauseen määrittäminen ALV-kirjausryhmään
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **ALV-kirjausten asetukset** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **ALV-kirjausten asetukset** ja valitse sitten liittyvä linkki.  
 2. Valitse **ALV-lause**-sarakkeessa lause, jota käytetään kussakin ALV-kirjauksen asetuksissa, joihin sitä sovelletaan.  
 
 ### <a name="to-specify-translations-for-vat-clauses"></a>ALV-lauseiden käännösten määrittäminen
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **ALV-lauseet** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **ALV-lauseet** ja valitse sitten liittyvä linkki.  
 2. Valitse **Käännökset**-toiminto.  
 3. Valitse **Kielikoodi**-kentässä kieli, jolle käännetään.  
 4. Kirjoita kuvausten käännökset **Kuvaus**- ja **Kuvaus 2** -kenttiin. Tämä teksti näkyy käännetyissä ALV-raporttiasiakirjoissa.  
@@ -168,9 +168,9 @@ Voit muokata tai poistaa ALV-lauseen, ja muutokset näkyvät luodussa raportissa
 Tuonnin ALV -ominaisuudella kirjataan asiakirja, jossa koko summaa on ALV:tä. Tämä on tarpeellista, jos saat veroviranomaisilta laskun tuontitavaroiden arvonlisäverosta.  
 
 Määritä tuonnin ALV:n koodit seuraavasti:  
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Tuotteen ALV-kirjausryhmät** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tuotteen ALV-kirjausryhmät** ja valitse sitten liittyvä linkki.  
 2. Määritä Tuotteen ALV-kirjausryhmät -sivulla uusi tuotteen ALV-kirjausryhmä tuonnin ALV:tä varten.  
-3. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **ALV-kirjausten asetukset** ja valitse sitten aiheeseen liittyvä linkki.  
+3. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **ALV-kirjausten asetukset** ja valitse sitten liittyvä linkki.  
 4. Luo ALV-kirjausten asetukset -sivulla uusi rivi tai käytä aiemmin luotua liiketoiminnan ALV-kirjausryhmää yhdessä tuonnin ALV:tä varten luodun uuden tuotteen ALV-kirjausryhmän kanssa.  
 5. Valitse **ALV-laskennan tyyppi** -kentässä **Täysi ALV**.  
 6. Anna **Ostojen ALV-tili** -kentässä se pääkirjanpidon tili, jota käytetään tuonnin ALV:n kirjaamiseen. Kaikki muut tilit ovat valinnaisia.  
@@ -178,7 +178,7 @@ Määritä tuonnin ALV:n koodit seuraavasti:
 ## <a name="to-verify-vat-registration-numbers"></a>ALV-numeroiden tarkistaminen
 On tärkeää, että käytössäsi olevat asiakkaiden, toimittajien ja yhteystietojen ALV-rekisteröintinumerot ovat oikeita. Yritykset esimerkiksi joskus muuttavat verovelkatilaansa, ja joissakin maissa veroviranomaiset voivat pyytää raportteja, kuten EU-myyntiluetteloraportin, joissa on luettelo liiketoiminnassasi käyttämistäsi ALV-rekisteröintinumeroista.
 
-Euroopan komission sivustossa on julkinen ja maksuton ALV-tietojen vaihtojärjestelmä (VIES-palvelu). [!INCLUDE[d365fin](includes/d365fin_md.md)]ia käytettäessä sivustoon siirtyminen ei ole tarpeellista, sillä voit tarkistaa sovelluksessa VIES-palvelusta asiakkaiden, toimittajien ja yhteystietojen ALV-numerot asiakkaan, toimittajan ja yhteystiedon kortista. Voit myös seurata kyseisiä ALV-numeroita. [!INCLUDE[d365fin](includes/d365fin_md.md)]in palvelun nimi on **EU:n ALV-nron tarkistuspalvelun määritys**. Palvelua voi käyttää **Palvelun yhteydet** -sivulla ja sen käytön voi aloittaa heti. Palveluyhteys on maksuton eikä kirjautumista tarvita.
+Euroopan komission sivustossa on julkinen ja maksuton ALV-tietojen vaihtojärjestelmä (VIES-palvelu). [!INCLUDE[d365fin](includes/d365fin_md.md)]ia käytettäessä sivustoon siirtyminen ei ole tarpeellista, sillä voit tarkistaa sovelluksessa VIES-palvelusta asiakkaiden, toimittajien ja yhteystietojen ALV-numerot asiakkaan, toimittajan ja yhteystiedon kortista. Voit myös seurata kyseisiä ALV-numeroita. [!INCLUDE[d365fin](includes/d365fin_md.md)]in palvelun nimi on **EU:n ALV-nron tarkistuspalvelun määritys**. Palvelua voi käyttää **Palvelun yhteydet** -ikkunassa ja sen käytön voi aloittaa heti. Palveluyhteys on maksuton eikä kirjautumista tarvita.
 
 > [!Note]
 > Voit ottaa käyttöön EU:n ALV-nron tarkistuspalvelun, jos sinulla on järjestelmänvalvojan käyttöoikeudet.
@@ -236,12 +236,12 @@ Ennen ALV:n muutostyökalun määrittämistä sinun on tehtävä seuraavat valmi
 * Tietojen varmuuskopiointi.
 
 ### <a name="to-set-up-the-vat-rate-change-tool"></a>Määritä ALV-prosentin muutostyökalu  
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **ALV-prosenttimuutoksen asetukset** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **ALV-prosenttimuutoksen asetukset** ja valitse sitten liittyvä linkki.  
 2. Valitse **Päätiedot**-, **Päiväkirjat**- ja **Asiakirjat**-pikavälilehdissä kirjausryhmän arvo tarvittavien kenttien asetusluettelosta.  
 
 ### <a name="to-set-up-product-posting-group-conversion"></a>Määritä tuotteiden ALV-kirjausryhmien muunnos  
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **ALV-prosenttimuutoksen asetukset** ja valitse sitten aiheeseen liittyvä linkki.  
-2. Valitse **ALV-prosenttimuutoksen asetukset** -ikkunan **Kotisivu**-välilehden **Käsittely**-ryhmässä joko **Tuotteen ALV-kirjausryhmän muunto** tai **Yleisen tuotteen kirjausryhmän muunto**.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **ALV-prosenttimuutoksen asetukset** ja valitse sitten liittyvä linkki.  
+2. Valitse **ALV-prosenttimuutoksen asetukset** -ikkunassa **Kotisivu**-välilehden **Käsittely**-ryhmässä joko **Tuotteen ALV-kirjausryhmän muunto** tai **Yleisen tuotteen kirjausryhmän muunto**.  
 3. Anna **Koodista** -kentässä nykyinen kirjausryhmä.  
 4. Syötä uusi kirjausryhmä **Koodiin**-kenttään.  
 
@@ -254,7 +254,7 @@ ALV-prosentin muutostyökalun avulla voit hallita muutoksia ALV:n vakiokorvaukse
 > [!IMPORTANT]  
 >  Testaa muunto ennen ALV-prosentin muutosta. Voit tehdä sen seuraavien ohjeiden mukaisesti, mutta muista poistaa **Suorita muuntaminen**- ja **ALV-prosentin muutostyökalu valmis** -valintaruutujen valinta. Testimuunnoksen aikana **ALV-prosentin muutoslokin tapahtuma** -taulukon **Muunnettu**-kenttä tyhjennetään ja **ALV-prosentin muutoslokin tapahtuma** -taulukon **Muunnospvm** -kenttä on tyhjä. Kun muuntaminen on valmis, voit tarkastella testimuutoksen tulokset valitsemalla **ALV-prosentin muutoslokin tapahtumat**. Tarkista jokainen tapahtuma ennen muuntamista. Tarkista erityisesti tapahtumat, jotka käyttävät vanhaa ALV-prosenttia.     
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **ALV-prosentin muutos** ja valitse sitten **ALV-prosenttimuutoksen asetukset**.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **ALV-prosenttimuutos**, ja valitse sitten **ALV-prosenttimuutoksen asetukset** -linkki.  
 2. Varmista, että olet jo määrittänyt tuotteen ALV-kirjausryhmän muunnoksen tai yleisen tuotteen kirjausryhmän muunnoksen.  
 3. Valitse **Suorita muuntaminen** -valintaruutu.  
 

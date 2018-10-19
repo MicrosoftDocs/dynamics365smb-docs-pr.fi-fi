@@ -9,17 +9,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: API, extension, Cognitive Services, image, computer vision, attribute, tag, recognition
-ms.date: 06/12/2018
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 3331849cf94c70d0597ae5f37d3109451947c9fc
-ms.openlocfilehash: f40f51ffec0d052e26bcaf34c928ef63e9adde4d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 9a2d7999f3a4ecc3a597b6641ee1db69d754de4c
 ms.contentlocale: fi-fi
-ms.lasthandoff: 06/20/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
-# <a name="the-image-analyzer-extension-for-microsoft-business-central"></a>Microsoft Business Central -sovelluksen kuvan analysointilaajennus
+# <a name="the-image-analyzer-extension"></a>Kuvan analysointilaajennus
 Kuvan analysointilaajennus havaitsee Microsoftin kognitiivisten palveluiden konenäön ohjelmointirajapinnan tehokkaalla kuva-analytiikalla määritteet nimikkeille ja kontaktihenkilöille tuoduissa kuvissa, mikä helpottaa kuvien tarkastelua ja määrittämistä. Nimikkeiden määritteet voivat ilmaista esimerkiksi, onko kyse pöydästä vai autosta ja onko se sininen vai punainen. Kontaktihenkilöiden määritteet voivat ilmaista sukupuolen tai iän.
 
 Kuvan analysointitoiminto ehdottaa määritteitä konenäön ohjelmointirajapinnan löytämien tunnisteiden ja luotettavuustasoon perusteella. Se ehdotta oletusarvoisesti määritteitä vain, jos sen luottamus määritteen oikeellisuuteen on vähintään 80 %. Voit määrittää tarvittaessa jonkin toisen luotettavuustason. Lisätietoja tunnisteiden ja luotettavuustason määrittämisestä on ohjeaiheessa [Konenäön ohjelmointirajapinta](https://go.microsoft.com/fwlink/?linkid=851476).  
@@ -28,7 +28,7 @@ Kuvan analysointitoiminto on maksuton [!INCLUDE[d365fin](includes/d365fin_md.md)
 
 Kun laajennus on otettu käyttöön, kuvan analysointitoiminto suoritetaan aina, kun tuot nimikkeeseen tai kontaktihenkilöön kuvan. Näet määritteet, luottamustason ja tiedot heti ja voit määrittää, miten kutakin määritettä käsitellään. Jos toit kuvia ennen kuvan analysointilaajennuksen käyttöönottoa, sinun on siirryttävä nimikkeeseen tai kontaktikortteihin ja valittava **Analysoi kuva** -toiminto.  
 
-## <a name="privacy-notice"></a>Tietosuojatiedot 
+## <a name="privacy-notice"></a>Tietosuojatiedot
 Tämä laajennus käyttää Microsoftin kognitiivisten palveluiden konenäön ohjelmointirajapintaa. Sen yhdenmukaisuussitoumusten tasot voivat olla erilaiset kuin [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksessa. Jos otat käyttöön kuvan analysointilaajennuksen, asiakastiedot, kuten kontaktin kuva ja nimikkeen kuva, lähetetään konenäön ohjelmointirajapinnalle. Kun asennat tämän laajennuksen, suostut siihen, että tämä rajoitettu määrä tietoja lähetetään konenäön ohjelmointirajapinnalle. Ota huomioon, että voit poistaa kuvan analysointilaajennuksen käytöstä tai poistaa sen asennuksen milloin tahansa, kun haluat keskeyttää tämän toiminnon käytön. Lisätietoja on [Microsoftin luottamuskeskuksessa](https://go.microsoft.com/fwlink/?linkid=851463).
 
 ## <a name="requirements"></a>Tarpeet
@@ -47,17 +47,17 @@ Kuvan analysointilaajennus sisältyy [!INCLUDE[d365fin](includes/d365fin_md.md)]
 1. Ota kuvan analysointilaajennus käyttöön jollakin seuraavista tavoista:
 
 * Avaa nimikkeen tai kontaktin kortti. Valitse ilmoituspalkissa **Analysoi kuvia** ja noudata sitten asetusten ohjattua määritystä.  
-* Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Palvelun yhteydet** ja valitse sitten **Kuva-analyysin asetukset**. Valitse **Ota kuvan analysointitoiminto käytötön** -valintaruutu ja noudata sitten asetusten ohjattua määritystä.  
+* Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Palvelun yhteydet** ja valitse sitten **Kuva-analyysin asetukset**. Valitse **Ota kuvan analysointitoiminto käytötön** -valintaruutu ja noudata sitten asetusten ohjattua määritystä.  
 
     > [!TIP]  
-    > **Kuva-analyysin asetukset** -sivulla voi muuttaa myös määrite-ehdotusten luotettavuustasoa. Jos esimerkiksi haluat käyttää suurempaa luotettavuustasoa, voit antaa korkeamman prosenttiluvun.
+    > **Kuva-analyysin asetukset** -ikkunassa voi muuttaa myös määrite-ehdotusten luotettavuustasoa. Jos esimerkiksi haluat käyttää suurempaa luotettavuustasoa, voit antaa korkeamman prosenttiluvun.
 
 ## <a name="to-analyze-an-image-of-an-item"></a>Nimikkeen kuvan analysointi
 Seuraavaksi kerrotaan, miten analysoidaan kuva, joka oli tuotu ennen kuvan analysointilaajennuksen käyttöönottoa.  
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Nimikkeet** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten liittyvä linkki.  
 2. Valitse ensin nimike ja sitten **Analysoi kuva**-toiminto.  
-3. **Kuvan analysoinnin määritteet** -sivulla on esillä havaitut määritteet, luotettavuustaso ja muita tietoja määritteestä. Määritä **suoritettavan toiminnon** vaihtoehdoilla, mitä määritteellä tehdään.  
+3. **Kuvan analysoinnin määritteet** -ikkunassa on esillä havaitut määritteet, luotettavuustaso ja muita tietoja määritteestä. Määritä **suoritettavan toiminnon** vaihtoehdoilla, mitä määritteellä tehdään.  
 
     > [!TIP]  
     > Voit lisätä määritteen nimen nimikkeen kuvaukseen valitsemalla **Lisää nimikkeen kuvaukseen**. Tämä on kätevä esimerkiksi lisättäessä tietoja nopeasti.  
@@ -65,7 +65,7 @@ Seuraavaksi kerrotaan, miten analysoidaan kuva, joka oli tuotu ennen kuvan analy
 ## <a name="to-analyze-a-picture-of-a-contact-person"></a>Kontaktihenkilön kuvan analysointi
 Seuraavaksi kerrotaan, miten analysoidaan kuva, joka oli tuotu ennen kuvan analysointilaajennuksen käyttöönottoa.  
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Kontaktit** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kontaktit** ja valitse sitten liittyvä linkki.  
 2. Valitse ensin kontaktihenkilö ja sitten **Analysoi kuva**-toiminto.  
 3. Arvioi **Profiilikysely**-pikavälilehdessä ehdotukset ja tee tarvittavat korjaukset.  
 
@@ -75,7 +75,7 @@ Jos analyysi ehdottaa määritettä, jota et halua nähdä, voit asettaa määri
 ## <a name="to-use-your-own-account-for-the-computer-vision-api"></a>Oman tilin käyttäminen konenäön ohjelmointirajapintana
 Voit käyttää konenäön ohjelmointirajapintana myös omaa tiliäsi, jos haluat esimerkiksi analysoida rajoituksen ylittävän määrän kuvia.  
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Palvelun yhteydet** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kuvan analysointitoiminnon asetukset** ja valitse sitten liittyvä linkki.  
 2. Anna konenäön ohjelmointirajapinnan mukana toimitettu **API:n URI** ja **API-avain**.  
 
     > [!NOTE]  
@@ -84,11 +84,11 @@ Voit käyttää konenäön ohjelmointirajapintana myös omaa tiliäsi, jos halua
 ## <a name="to-see-how-many-analyses-you-have-left-in-the-current-period"></a>Kuluvan jakson jäljellä olevien analyysien näyttäminen
 Voit tarkistaa, kuinka monta analyysia olet kuluvalla jaksolla tehnyt ja kuinka monta voit vielä tehdä.  
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Palvelun yhteydet** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kuvan analysointitoiminnon asetukset** ja valitse sitten liittyvä linkki.  
 2. **Rajatyyppi**, **Raja-arvo** ja **Suoritetut analyysit** sisältävät hyödyllisiä käyttötietoja.  
 
 ## <a name="to-stop-using-the-image-analyzer-extension"></a>Kuvan analysointilaajennuksen käytön lopettaminen
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Palvelun yhteydet** ja valitse sitten **Kuvan analysointitoiminnon asetukset**.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Palvelun yhteydet** ja valitse sitten **Kuvan analysointitoiminnon asetukset**.  
 2. Poista **Ota kuvan analysointitoiminto käyttöön** valintaruudun valinta.  
 
 ## <a name="see-also"></a>Katso myös

@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e1b6b57448264bddee9bdfc4a81a2f926a7938c7
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 2441c41c6bb28691a855ac4b5d50359b95b23f7d
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Vaihekuvaus: Vastaanotto ja hyllytys fyysisen varastoinnin perusmäärityksissä
@@ -62,7 +62,7 @@ Tämän vaihekuvauksen ohjeiden noudattamisen edellytykset:
 -   CRONUS Finland Oy on asennettu.  
 -   Tee itsestäsi fyysisen varaston työntekijä HOPEISESSA sijainnissa tekemällä seuraavat toimet:  
 
-    1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Varaston työntekijät** ja valitse sitten aiheeseen liittyvä linkki.  
+    1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varaston työntekijät** ja valitse sitten liittyvä linkki.  
     2.  Valitse **Käyttäjätunnus**-kenttä ja valitse oma käyttäjätilisi **Käyttäjät**-ikkunasta.  
     3.  Kirjoita **Sijaintikoodi**-kenttään HOPEA.  
     4.  Valitse **Oletus**-kenttä.  
@@ -75,7 +75,7 @@ Ellen on CRONUS Finland Oy:n varastopäällikkö ja hän luo ostotilauksen, joss
 
 ### <a name="to-set-up-the-location"></a>Sijainnin määrittäminen  
 
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Sijainnit** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sijainnit** ja valitse sitten liittyvä linkki.  
 2.  Avaa asianmukaisen HOPEA sijainnin kortti.  
 3.  Valitse **Vaadi hyllytys** -valintaruutu.  
 
@@ -95,7 +95,7 @@ Ostotilaukset ovat yleisin saapuvien lähdeasiakirjojen tyyppi.
 
 ### <a name="to-create-the-purchase-order"></a>Ostotilausten luominen  
 
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Ostotilaukset** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostotilaukset** ja valitse sitten liittyvä linkki.  
 2.  Valitse **Uusi**-toiminto.  
 3.  Luo ostotilaus toimittajalle 10000 (23.1.) käsittelypäivämääränä seuraavien ostontilausrivien kanssa.  
 
@@ -118,7 +118,7 @@ Voit hallita **Varastohyllytys**-ikkunassa kaikkia tietyn lähdeasiakirjan saapu
 
 ### <a name="to-receive-and-put-the-items-away"></a>Nimikkeiden vastaanottaminen ja hyllyttäminen  
 
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Varaston hyllytykset** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varaston hyllytykset** ja valitse sitten liittyvä linkki.  
 2.  Valitse **Uusi**-toiminto.  
 3.  Valitse ensin **Lähdeasiakirja**-kenttä ja sitten **Ostotilaus**.  
 4.  Valitse **Lähteen nro** -kentässä toimittajalta 10000 tehdyn oston rivi ja valitse sitten **OK**.  

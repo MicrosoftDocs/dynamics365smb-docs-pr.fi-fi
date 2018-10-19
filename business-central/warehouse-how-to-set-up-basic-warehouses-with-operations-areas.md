@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ca194b2aeaf906c498ac541448ffac0f691fdd1b
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e10a823d856dd02311b990da5d22fe7f87730d51
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-basic-warehouses-with-operations-areas"></a>Fyysisten perusvarastojen ja toimintoalueiden määrittäminen
@@ -43,13 +43,13 @@ Seuraavat toimet perustuvat perusvarastoinnin aktiviteettien määrittämiseen t
 >  Seuraavassa toimenpiteessä sijaintikorttien **Var.paikka pakollinen** -asetuskenttä valitaan ennakkoehtona, koska sitä pidetään fyysisen varastoinnin hallinnan perustana kaikilla tasoilla.  
 
 ## <a name="to-enable-inventory-documents-for-internal-operation-activities"></a>Ota käyttöön sisäisten toimintojen varaston asiakirjat  
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Sijainnit** ja valitse sitten aiheeseen liittyvä linkki.
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sijainnit** ja valitse sitten liittyvä linkki.
 2. Avaa määritettävä sijaintikortti.  
 3.  Valitse **Fyysinen varasto** -pikavälilehdessä **Vaadi hyllytys** -valintaruutu. Se osoittaa, että kun varastopaikkakoodin sisältävä lähtevä tai sisäinen lähdeasiakirja vapautetaan, varaston hyllytys- tai varastosiirtoasiakirja voidaan luoda.  
 4.  Valitse **Vaadi poiminta** -valintaruutu. Se osoittaa, että kun varastopaikkakoodin sisältävä lähtevä tai sisäinen lähdeasiakirja luodaan, myös varaston poiminta- tai varastosiirtoasiakirja on luotava.  
 
 ## <a name="to-define-a-default-bin-structure-in-the-production-area"></a>Varastopaikan oletusrakenteen määrittäminen tuotantoalueella  
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Sijainnit** ja valitse sitten aiheeseen liittyvä linkki.
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sijainnit** ja valitse sitten liittyvä linkki.
 2. Avaa määritettävä sijainti.  
 3.  Anna **Varastopaikat**-pikavälilehden **Avoin tuotannon var.paik.koodi** -kentässä tuotantoalueen sen varastopaikan koodi, jossa on paljon komponentteja, joita koneenkäyttäjä voi kuluttaa pyytämättä varastoinin toimintoa niiden tuomiseksi varastopaikkaan. Tähän varastopaikkaan sijoitetuille nimikkeille määritetään yleensä automaattinen kirjaus tai materiaalinotto. Tämä tarkoittaa, että **Materiaalinottotapa**-kenttä sisältää arvon **Eteenpäin** tai **Taaksepäin**.  
 4. Anna **Tuotannon valm.var.paik.koodi** -kentässä tuotantoalueen sen varastopaikan koodi, johon tässä sijainnissa tuotantoon poimitut osat oletuksena sijoitetaan ennen niiden kuluttamista. Tähän varastopaikkaan sijoitetuille nimikkeille määritetään yleensä manuaalinen kulutuskirjaus. Tämä tarkoittaa, että **Materiaalinottotapa**-kenttä sisältää arvon **Manuaalinen** tai **Poiminta + Eteenpäin** tai **Poiminta + Taaksepäin** fyysisen varastoinnin poiminnoille ja varastosiirroille.  
@@ -73,13 +73,13 @@ Kun poiminnan ja toimituksen myyntirivin määriä kootaan tilaukseen, varaston 
 Lisätietoja on kohdassa [Kokoonpanon hallinta](assembly-assemble-items.md).
 
 ### <a name="to-set-up-that-an-inventory-movement-is-automatically-created-when-the-inventory-pick-for-the-assembly-item-is-created"></a>Automaattisesti luotavan varastosiirron luominen, kun varasto poiminta luodaan kokoonpanon nimikkeelle
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Kokoonpanon asetukset** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kokoonpanon asetukset** ja valitse sitten liittyvä linkki.
 2. Valitse **Luo varaston siirrot automaattisesti** -valintaruutu.
 
 ### <a name="to-set-up-the-bin-in-the-assembly-area-where-components-are-placed-by-default-before-they-can-be-consumed-in-assembly"></a>Komponenttien oletusvarastopaikan kokoonpanoalueen määrittäminen, ennen kuin ne voidaan kuluttaa kokoonpanossa
 Tämän kentän arvo lisätään automaattisesti kokoonpanorivien **Varastopaikkakoodi**-kenttään, kun tämä sijainti lisätään kokoonpanorivin **Sijaintikoodi**-kenttään.
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Sijainnit** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sijainnit** ja valitse sitten liittyvä linkki.
 2. Avaa määritettävä sijainti.
 3. Täytä **Kokoonpanoon-varastop.koodi**-kenttä.
 
@@ -91,7 +91,7 @@ Varastopaikkakoodit, jotka on määritetty sijaintikortteihin, määrittävät o
 > [!NOTE]
 > Asennus on mahdollista vain paikoissa, joissa Var.paikka pakollinen -kenttä on valittuna.
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Sijainnit** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sijainnit** ja valitse sitten liittyvä linkki.
 2. Avaa määritettävä sijainti.
 3. Täytä **Kokoonpanosta-varastop.koodi**-kenttä.
 
@@ -112,7 +112,7 @@ Jos **Kok. til.ltoimit. -var.p.koodi** on tyhjä, **Kokoonpanosta-varastop.koodi
 
 Sama varastopaikkakoodi kopioidaan puolestaan varaston poimintarivin **Varastopaikkakoodi**-kenttään, joka hallitsee tilaukselle kootun määrän toimitusta. Lisätietoja on ohjeaiheen [Nimikkeiden poiminta varaston poiminnoissa](warehouse-how-to-pick-items-with-inventory-picks.md) kohdassa Kokoonpano tilausta varten -nimikkeiden käsitteleminen varaston poiminnoissa.
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Sijainnit** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sijainnit** ja valitse sitten liittyvä linkki.
 2. Avaa määritettävä sijainti.
 3. Täytä **Kok. til.ltoimit. -var.p.koodi** -kenttä.
 
@@ -128,7 +128,7 @@ Erillisen varastopaikan tekeminen tuottaa samantapaisen toiminnan kuin varastopa
 > [!Caution]
 > Erikoisvarastopaikoissa olevat nimikkeet eivät ole suojattuja, kun ne on kerätty ja kulutettu tuotantokomponentteina Varaston poiminta -ikkunan kautta.
 
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Sijainnit** ja valitse sitten aiheeseen liittyvä linkki. Avaa sijainti, jonka haluat päivittää.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sijainnit** ja valitse sitten liittyvä linkki. Avaa sijainti, jonka haluat päivittää.  
 2.  Valitse **Varastopaikat**-toiminto.  
 3.  Valitse **Erityinen** -kenttä jokaiselle varastopaikalle, jolle haluat käyttää yksinomaan tiettyjä sisäisiä operaatioita ja joille haluat varata määriä sisäiselle operaatiolle, kun se on sijoitettu sinne.  
 

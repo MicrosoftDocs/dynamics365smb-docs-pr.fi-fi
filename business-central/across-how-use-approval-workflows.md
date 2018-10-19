@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
-ms.date: 01/25/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 0b83fbb4ec39a1a7596fd788e5dad985bacb30c2
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 4a153d8cd4ceccea2d7d410702df4ba2ec760cf9
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="use-approval-workflows"></a>Hyväksymistyönkulkujen käyttäminen
@@ -31,7 +31,7 @@ Ostoasiakirjojen, myyntiasiakirjojen, maksupäiväkirjojen, asiakaskorttien ja n
 Hyväksynnän käyttäjä suorittaa seuraavan tehtävän.
 
 1. Valitse tietueen ikkunassa **Lähetä hyväksymispyyntö** -toiminto.
-2. Kun haluat nähdä kaikki hyväksymispyynnöt, valitse ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") -kuvake, syötä **Hyväksymispyyntötapahtumat** ja valitse liittyvä linkki.  
+2. Jos haluat nähdä kaikki hyväksyntäpyynnöt, valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Hyväksymispyyntötapahtumat** ja valitse sitten liittyvä linkki.  
 
 Hyväksyntämerkinnän tila muuttuu **Luotu** -tilasta**Avoin**-tilaksi. Tietueen, kuten esimerkiksi ostolaskun, tila päivitetään **Avoin**-tilasta **Odottaa hyväksyntää** -tilaksi. Tietue pysyy lukittuna käsittelyltä, kunnes hyväksyjät ovat hyväksyneet tietueen.
 
@@ -51,7 +51,7 @@ Hyväksymisoikeudet omaava hyväksynnän käyttäjä suorittaa seuraavan tehtäv
 
 Voit käsitellä hyväksymispyynnöt **Hyväksyttävät pyynnöt** -ikkunassa esimerkiksi silloin, kun haluat hyväksyä kerralla useita pyyntöjä. Vaihtoehtoisesti voit käsitellä liittyvän tietueen, kuten **Ostolasku**-ikkunan, jokaisen pyynnön valitsemalla vastaanottamasi ilmoituksen linkin.
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Hyväksyttävät pyynnöt** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Hyväksyttävät pyynnöt** ja valitse sitten liittyvä linkki.
 2. Valitse yksi tai useampi rivi tietueesta tai tietueista, jonka haluat hyväksyä tai hylätä.
 3. Valitse **Hyväksy**-, **Hylkää**- tai **Delegoi**-toiminto.
 
@@ -66,7 +66,7 @@ Hyväksymisoikeudet omaava hyväksynnän käyttäjä suorittaa seuraavan tehtäv
 
 Työnkulun tukkiutumisen tai asiakirjojen kasaantumisen estämiseksi hyväksyjä ja hyväksynnän valvoja voi delegoida hyväksymispyynnöt sijaiselle. Korvaava voi olla joko nimetty korvaaja, suora hyväksyjä tai hyväksynnän järjestelmänvalvoja, tässä järjestyksessä. Tätä toimintoa käytetään yleensä, kun alkuperäinen hyväksyjä on poissa töistä eikä pysty käsittelemään pyyntöjä ennen eräpäivää.
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Hyväksyttävät pyynnöt** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Hyväksyttävät pyynnöt** ja valitse sitten liittyvä linkki.
 2. Valitse vähintään yksi pyyntörivi, jonka haluat delegoida sijaiselle, ja valitse sitten **Delegoi**-toiminto.
 
 Ilmoitus hyväksyttävästä pyynnöstä lähetetään sijaiselle.
@@ -78,7 +78,7 @@ Hyväksynnän työnkulun käyttäjiä on muistutettava säännöllisin väliajoi
 
 **Lähetä ilmoituksia myöhässä olevista hyväksynnöistä** -toiminto tarkistaa kaikki avoimet myöhässä olevat hyväksyntäpyynnöt. Toiminto lähettää luettelon kaikista myöhässä olevista hyväksynnöistä jokaiselle hyväksyjälle, jolla on vähintään yksi myöhässä oleva hyväksyntämerkintä. Ilmoitus lähetetään myös hyväksyjän esimiehelle ja kaikille myöhässä olevien hyväksyntöjen pyytäjille. Tästä on apua, jos hyväksyntä on siirrettävä sijaiselle.
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Erääntyneiden hyväksymispyyntöjen työnkulku** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Erääntyneet hyväksyntäpyynnöt** ja valitse sitten liittyvä linkki.
 2. Valitse **Myöhässä olevat hyväksyntäpyynnöt** -ikkunassa **Lähetä erääntyneiden hyväksyntöjen ilmoitukset** -toiminto.
 
 ## <a name="see-also"></a>Katso myös

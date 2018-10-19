@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/31/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: bf7b58fad1aa587079b51b505e9d757bb66f39c9
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: dea237fa837b34e565d9df6156ae6bbfb8508ee6
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="put-items-away-with-warehouse-put-aways"></a>Nimikkeiden hyllyttäminen ja fyysisen varaston hyllytykset
@@ -29,7 +29,7 @@ Fyysisen varastoinnin määritysten mukaan ohjelma ottaa rivit käyttöön hylly
 Tässä ohjeaiheessa kuvattujen fyysisen varaston hyllytysten luonnin vakiotapojen lisäksi voit luoda hyllytyksen liittyvästä kirjatusta fyysisen varaston vastaanotosta. Tämä on kätevää, jos olet poistanut hyllytysrivit tai jos käytät ohjattua hyllytystä ja poimintaa ja olet päättänyt olla käyttämättä hyllytystyökirjaa, koska voit luoda tai uudelleenluoda vastaanottorivien hyllytysohjeet.  
 
 ## <a name="to-put-items-away-without-directed-put-away-and-pick"></a>Nimikkeiden hyllytys ilman ohjattua hyllytystä ja poimintaa  
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Hyllytykset** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Hyllytykset** ja valitse sitten liittyvä linkki.  
 2.  Avaa varastohyllytys, joka on valmis käsiteltäväksi.  
 
     Voit lajitella hyllytysrivejä eri kriteerien mukaan, esimerkiksi nimikkeen, hyllynumeron tai eräpäivän mukaan ja näin optimoida hyllytysprosessin.  
@@ -37,7 +37,7 @@ Tässä ohjeaiheessa kuvattujen fyysisen varaston hyllytysten luonnin vakiotapoj
 4.  Kun olet saanut nimikkeiden hyllytyksen valmiiksi, tallenna toiminnon valmistuminen ja määritä nimikkeet poimittaviksi valitsemalla **Rekisteröi hyllytys** -toiminto.  
 
 ## <a name="to-put-items-away-with-directed-put-away-and-pick"></a>Nimikkeiden hyllytys ohjatun hyllytyksen ja poiminnan avulla  
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Hyllytykset** ja valitse sitten aiheeseen liittyvä linkki.
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Hyllytykset** ja valitse sitten liittyvä linkki.
     Jos hyllytysohjeet on luotu, ikkunassa näkyy fyysisen varastoinnin hyllytys.  
 2.  Avaa varastohyllytys, jota haluat käsitellä.  
 3.  Jos fyysinen varastointi edellyttää sitä, kirjoita käyttäjätunnuksesi **Yleinen**-pikavälilehteen, kun aloitat tietyn hyllytyksen käsittelyn.  
@@ -65,7 +65,7 @@ Kun hyllytysmallin ehtoja vastaavia varastopaikkoja on useita, ohjelma käyttä�
 ## <a name="to-create-a-put-away-from-a-posted-receipt"></a>Luo hyllytys kirjatusta vastaanotosta  
  Jos sijainnissa käytetään sekä hyllytyskäsittelyä että vastaanoton käsittelyä ja olet poistanut hyllytysrivit tai jos käytät ohjattua hyllytystä ja poimintaa ja olet päättänyt olla käyttämättä hyllytystyökirjaa, voit luoda tai uudelleenluoda kirjattujen vastaanottorivien hyllytysohjeet.
 
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Kirjatut fyysisen varastoinnin vastaanotot** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kirjatut f.var. vast.otot** ja valitse sitten liittyvä linkki.  
 2.  Valitse kirjattu vastaanotto, joka täytyy ehkä hyllyttää.  
 3.  Valitse **Kortti**-toiminto.  
 

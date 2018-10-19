@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, to-do, relationship, prospect
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 7bab8449c957048e49b84eed53647e2921123fe7
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b531cfcb024444e098363725a4e0098d4651396b
 ms.contentlocale: fi-fi
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-job-responsibilities-for-contact-persons"></a>Kontaktihenkilöiden vastuualueiden määrittäminen
@@ -27,7 +27,7 @@ Kontaktien vastuualueiden käyttäminen on kaksivaiheinen prosessi. Ensin määr
 ## <a name="to-define-a-job-responsibility-code"></a>vastuualueen koodin määrittäminen
 Vastuualueen koodi määrittää työn tyypin tai luokan. Se voi olla esimerkiksi MARKKINOINTI tai OSTO. Vastuualueen koodeja voi olla useita. Voit määrittää vastuualueen **Vastuualueet**-ikkunassa.
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Vastuualueet** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Vastuualueet** ja valitse sitten liittyvä linkki.
 2. Valitse **Uusi**-toiminto. Täytä sitten koodi ja kuvaus. Koodi voi olla enintään 11 merkkiä pitkä. Se voi sisältää numeroita ja kirjaimia.
 
 ## <a name="to-assign-job-responsibilities-to-a-contact-person"></a>Vastuualueiden määrittäminen kontaktihenkilöille

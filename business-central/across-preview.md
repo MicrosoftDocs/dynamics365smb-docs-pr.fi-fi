@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox
-ms.date: 06/28/2018
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: 0829c825ec0635a20c040fe17cd3e7cfc667ffd7
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 50d1429a58b878766c76ed97f65936db78191ee0
 ms.contentlocale: fi-fi
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="access-to-the-included365finlongincludesd365finlongmdmd-preview"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] -esikatselun käyttöoikeus
@@ -39,7 +39,7 @@ Lisätietoja on kohdassa [Suunnittelutoiminnon käyttäminen](https://docs.micro
 
 ### <a name="to-create-a-sandbox-environment"></a>Sandbox-ympäristön luominen
 1.  Kirjaudu [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman tuotanto- tai esikatseluesiintymään.  
-2.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Sandbox-ympäristö** ja valitse liittyvä linkki.
+2.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sandbox-ympäristö** ja valitse sitten liittyvä linkki.
 3.  Valitse **Luo**. Esiin tulevassa välilehdessä voit määrittää sandbox-ympäristön asetukset valmiiksi.
 
     > [!Note]

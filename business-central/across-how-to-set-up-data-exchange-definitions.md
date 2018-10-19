@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/21/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 4828da068f1e17d031300948e930c9685a2f274d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 7c4ea5244379c5a7fcf45f1b3ea2b3a3b36280bb
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-data-exchange-definitions"></a>Tietojenvaihtomääritysten määrittäminen
@@ -92,8 +92,8 @@ Tietojenvaihtomäärityksen luominen muodostuu kahdesta tehtävästä:
     |**Sarakkeen nro**|Määritä määrä, joka kuvaa sarakkeen sijaintia tiedostorivillä.<br /><br /> Määritä XML-tiedostojen osalta luku, joka ilmaisee tiedostossa olevien tietojen elementin tyyppiä.|  
     |**Nimi**|Määritä sarakkeen nimi.<br /><br /> Määritä XML-tiedostojen osalta merkintä, joka merkitsee siirrettävät tiedot.|  
     |**Tietotyyppi**|Määritä, onko vaihdettavat tiedot tyyppiä **Teksti**, **Päivämäärä** vai **Desimaali**.|  
-    |**Tietojen muoto**|Määritä tietomuoto, jos sellainen on. Esimerkiksi **-kk-pp-vvvv**, jos tietotyyppi on **Päivämäärä**. **Huomautus:** Määritä tietojen muoto vientiä varten [!INCLUDE[d365fin](includes/d365fin_md.md)]in mukaan. Määritä tietojen muoto vientiä varten .NET Frameworkin mukaan. Lisätietoja on kohdassa [Vakiomuotoiset päivämäärä- ja aikamerkkijonot](http://go.microsoft.com/fwlink/?LinkID=323466)|  
-    |**Tietojen muotoilun maa-asetus**|Määritä tiedontallennusmuototapa, jos sellainen on. Esimerkiksi **fi-fi**, jos tietotyyppi on **Desimaali**, jotta varmistetaan, että pilkkua käytetään erottimena suomalaisen muodon mukaisesti. Lisätietoja on kohdassa [Vakiomuotoiset päivämäärä- ja aikamerkkijonot](http://go.microsoft.com/fwlink/?LinkID=323466) **Huomautus:** Tätä kenttää käytetään vain tuonnissa.|  
+    |**Tietojen muoto**|Määritä tietomuoto, jos sellainen on. Esimerkiksi **-kk-pp-vvvv**, jos tietotyyppi on **Päivämäärä**. **Huomautus:** Määritä tietojen muoto vientiä varten [!INCLUDE[d365fin](includes/d365fin_md.md)]in mukaan. Määritä tietojen muoto vientiä varten .NET Frameworkin mukaan. Lisätietoja on kohdassa [Vakiomuotoiset päivämäärä- ja aikamerkkijonot](https://go.microsoft.com/fwlink/?LinkID=323466)|  
+    |**Tietojen muotoilun maa-asetus**|Määritä tiedontallennusmuototapa, jos sellainen on. Esimerkiksi **fi-fi**, jos tietotyyppi on **Desimaali**, jotta varmistetaan, että pilkkua käytetään erottimena suomalaisen muodon mukaisesti. Lisätietoja on kohdassa [Vakiomuotoiset päivämäärä- ja aikamerkkijonot](https://go.microsoft.com/fwlink/?LinkID=323466) **Huomautus:** Tätä kenttää käytetään vain tuonnissa.|  
     |**Pituus**|Määritä kiinteäleveyksisten rivien pituudet, jotka käsittävät sarakkeen, jos tiedosto on tyyppiä **Kiinteä teksti**.|  
     |**Kuvaus**|Kirjoita sarakkeen kuvaus tiedoksi.|  
     |**Polku**|Määritä elementin sijainti liittyvässä XML-kaavassa.|  

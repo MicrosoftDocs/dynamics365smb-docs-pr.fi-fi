@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: inventory, periods
-ms.date: 08/07/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d302483ca2d66870670aaa0914533472a807d04f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e6873ca2e4f4ab082bddad90f1ab59edb34a2a63
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="work-with-inventory-periods"></a>Varastokausien käsitteleminen
@@ -29,7 +29,7 @@ Seuraavissa luvuissa kerrotaan, miten
 * varastokausia avataan uudelleen.  
 
 ## <a name="to-create-an-inventory-period"></a>Varastokauden luominen  
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Varastokaudet** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varastokaudet** ja valitse sitten liittyvä linkki.  
 2. Luo uusi rivi.  
 3. Syötä **Lopetuspvm**-kenttään viimeinen päivämäärä, jonka haluat varastokaudelle määrittää. Kun kausi suljetaan, et voi enää kirjata ennen tätä päivämäärää tapahtuneita varaston muutoksia.  
 4. Anna **Nimi**-kenttään kuvaava nimi. Valitse **OK**-painike.  
@@ -61,7 +61,7 @@ Tällöin kaikki lähtevät transaktiot, kuten myyntitilausten, lähtevien siirt
 Kun varastokausi on suljettu kerran, et voi poistaa sitä. Voit kuitenkin avata sen uudelleen, jos haluat sallia kirjaukset ennen varastokauden lopetuspäivämäärää. Kauden avaaminen uudelleen avaa myös kaikki varastokaudet, joilla on avattua kautta myöhäisemmät lopetuspäivämäärät.  
 
 ### <a name="to-reopen-an-inventory-period"></a>Avaa varastokausi uudelleen  
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Varastokaudet** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varastokaudet** ja valitse sitten liittyvä linkki.  
 2. Valitse uudelleen avattava varastokausi.  
 3. Valitse **Avaa kausi uudelleen** -toiminto. Vahvista, että haluat avata kauden uudelleen.  
 4. Kaikki varastojaksot, joiden lopetuspäivämäärät ovat valittua myöhäisemmät, avataan uudelleen.  

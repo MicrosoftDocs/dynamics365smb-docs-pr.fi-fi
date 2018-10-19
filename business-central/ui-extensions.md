@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 07/09/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7664360941313da6ea0b797ef00df2e9810ad62
-ms.openlocfilehash: 0baa6494bb9d41514122b06037020140a8c2c79f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e3c0dfdc1eb1739a1d756fcb359c99e51ceec1e7
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/09/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="customizing-business-central-using-extensions"></a>Business Central -sovelluksen mukauttaminen laajennusten avulla
@@ -25,7 +25,7 @@ Kun käynnistät [!INCLUDE[d365fin](includes/d365fin_md.md)]in ensimmäisen kerr
 Microsoft tarjoaa esimerkiksi laajennuksen, joka mahdollistaa integroinnin PayPal Payments Standard -ohjelman kanssa. Tämä laajennus asennetaan oletusarvoisesti.
 Mutta jos käytettävissä on toinen laajennus, joka avulla voi suorittaa integroinnin toiseen maksujärjestelmään, voit asentaa uuden laajennuksen ja valita sen jälkeen käytettävän palvelun näistä kahdesta.  
 
-Laajennuksia hallitaan **Laajennusten hallinta** -ikkunassa. Tämä ikkuna löytyy kotisivulta. Voit myös valita oikeassa yläkulmassa **Etsi sivua tai raporttia** -kuvakkeen ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake"), kirjoittaa **Laajennus** ja valita sitten liittyvän linkin.  
+Laajennuksia hallitaan **Laajennusten hallinta** -ikkunassa. Tämä ikkuna löytyy kotisivulta. Vaihtoehtoisesti voit valita **Etsi sivua tai raporttia** -kuvakkeen ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") oikeassa yläkulmassa. Syötä **Laajennus** ja valitse sitten liittyvä linkki.  
 
 > [!NOTE]  
 >   Jos sinulla on mielestäsi laajennuksen käyttöoikeus muttet löydä sen toimintoja, tarkista **Laajennusten hallinta** -ikkuna. Jos laajennusta ei mainita ikkunassa, voit asentaa sen seuraavassa osassa kerrotulla tavalla.  
@@ -35,7 +35,7 @@ Uusia laajennuksia on saatavana kauppapaikasta osoitteessa [AppSource.microsoft.
 > [!NOTE]  
 >   Kirjaudu sivustoon [AppSource.microsoft.com](https://appsource.microsoft.com/) [!INCLUDE[d365fin](includes/d365fin_md.md)]issa käyttämäsi sähköpostitilin tiedoilla. Saman sähköpostitilin käyttäminen myös muissa palveluissa ja tuotteissa takaa sujuvan käyttökokemuksen.  
 
-Kauppaan pääsee myös suoraan [!INCLUDE[d365fin](includes/d365fin_md.md)]ista. Tällä hetkellä asennettuna olevat laajennukset näkyvät **Laajennusten hallinta** -ikkunassa. Voit avata **Laajennuskauppa**-sivun, jolla näkyvät AppSource-sivustossa tällä hetkellä käytettävissä olevat [!INCLUDE[d365fin](includes/d365fin_md.md)]in laajennukset. Jos valitset *Lisää sovelluksia* -linkin, sinut siirretään osoitteeseen [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).  
+Kauppaan pääsee myös suoraan [!INCLUDE[d365fin](includes/d365fin_md.md)]ista. Tällä hetkellä asennettuna olevat laajennukset näkyvät **Laajennusten hallinta** -ikkunassa. Voit avata **Laajennuskauppa**-ikkunan, jolla näkyvät AppSource-sivustossa tällä hetkellä käytettävissä olevat [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen laajennukset. Jos valitset *Lisää sovelluksia* -linkin, sinut siirretään osoitteeseen [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).  
 
 Kun valitset laajennuksen, voit lukea tietoja laajennuksesta ja hakea lisätietoja käyttämällä laajennuksen Ohje-toimintoa. Kun haluat noutaa laajennuksen, sinun on hyväksyttävä käyttöehdot. Jos noudat laajennuksen AppSource-sivustosta, sinut kirjataan sisään [!INCLUDE[d365fin](includes/d365fin_md.md)]iin asennuksen viimeistelemiseksi.  
 
@@ -64,6 +64,7 @@ Microsoft tarjoaa seuraavat laajennukset:
 * [Maksut ja täsmäytykset](ui-extensions-payments-reconciliation-formats-dk.md)  
 * [C5-tietojen siirto](ui-extensions-c5-data-migration.md)  
 * [Olennaiset liiketoimintanäkemykset](ui-extensions-essential-business-insights.md)  
+* [Myöhästyneen maksun ennusteet](ui-extensions-late-payment-prediction.md  )
 
 > [!NOTE]  
 >  Uudet laajennukset eivät ole saatavana AppSourcessa heti, kun ilmoitamme päivityksestä. Voit tarkkailla laajennuksia osoitteessa [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).

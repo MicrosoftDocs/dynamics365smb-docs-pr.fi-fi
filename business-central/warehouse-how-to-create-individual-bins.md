@@ -10,26 +10,26 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/07/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2e7388bb03ce47f3ef7fe232c5c5d8e7b43c23d1
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 7d5b2ce28f1eaebfca26c2db3801b44ff5278e78
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-bins"></a>Varastopaikkojen luominen
 Tehokkain tapa luoda fyysisen varaston varastopaikkoja on luoda samankaltaisten varastopaikkojen ryhmiä varastopaikan luontityökirjassa, mutta varastopaikkoja voi luoda myös yksittäin sijainnin kortista. Voit luoda varastopaikkoja myös automaattisesti **Var.paikan luontityökirja** -ikkunassa.  
 
 ## <a name="to-create-a-bin-from-the-location-card"></a>Varastopaikan luonti sijaintikortista  
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Sijainnit** ja valitse aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sijainnit** ja valitse liittyvä linkki.  
 2.  Valitse ensin sijainti, josta haluat luoda varastopaikan, ja sitten **Varastopaikat**-toiminto.  
 3. Valitse **Uusi**-toiminto.
 4. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-create-bins-individually-in-the-bin-creation-worksheet"></a>Varastopaikkojen luominen yksittäin varastopaikan luontityökirjassa  
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Var.paikan luontityökirja** ja valitse aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Var.paikan luontityökirja** ja valitse sitten liittyvä linkki.  
 2.  Täytä jokaisella rivillä kentät, jotka tarvitaan luotavien varastopaikkojen nimeämiseen ja kuvailemiseen.  
 3.  Valitse **Luo varastopaikat** -toiminto.  
 
@@ -41,7 +41,7 @@ Ennen kuin aloitat varastopaikkojen automaattisen luonnin, sinun on päätettäv
 
 Voit käyttää **Var.paikan luontityökirja** -ikkunaa, jos sinut on määritetty varastotyöntekijäksi varastopaikkojen sijaintipaikkaan. Lisätietoja on kohdassa [Varastotyöntekijöiden määrittäminen](warehouse-how-to-set-up-warehouse-employees.md).    
 
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Var.paikan luontityökirja** ja valitse aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Var.paikan luontityökirja** ja valitse liittyvä linkki.  
 2.  Valitse **Laske varastopaikat** -toiminto.
 3. Valitse **Laske varastopaikat** -ikkunan **Varastopaikkamallin koodi** -kentässä varastopaikkamalli, jota haluat käyttää luotavien varastopaikkojen mallina.
 4.  Täytä kuvaus varastopaikoille, joita olet luomassa.  

@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 03/16/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 7013cfa615174953660aa291abd62fa327e6f3ab
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6923414d6e1fb56a48c3715eaa1c2fa3c4ee9f69
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Business Central -sovelluksen käyttäminen yrityssähköpostina Outlookissa
@@ -50,7 +50,7 @@ Voit muokata Asiakirjalinkit-apuohjelmassa asiakirjaa ja suorittaa sille toimint
 ## <a name="adding-the-add-ins-manually"></a>Apuohjelmien lisääminen manuaalisesti
 Joissakin tapauksissa apuohjelmia ei lisätä automaattisesti Outlookiin. Vaikka sinä tai kollegasi suoritti avustetun asennusoppaan yrityksen puolesta, [!INCLUDE[d365fin](includes/d365fin_md.md)] ei ehkä näy Outlookissa. Jos tämä ongelma esiintyy, voit lisätä [!INCLUDE[d365fin](includes/d365fin_md.md)]in apuohjelmat manuaalisesti.  
 
-Tarkista ensin, että voit käyttää apuohjelmia Office 365 -tililläsi. Avaa vain Outlook Web Access selaimessa ja lisää `/owa/#path=/options/manageapps` osoiteriville URL-osoitteena. **Apuohjelmien hallinta** -sivu avautuu, ja voit ottaa [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttöön Outlookissa. Kun siirryt takaisin Outlookiin, [!INCLUDE[d365fin](includes/d365fin_md.md)]in pitäisi olla käytettävissä.  
+Tarkista ensin, että voit käyttää apuohjelmia Office 365 -tililläsi. Avaa vain Outlook Web Access selaimessa ja lisää `/owa/#path=/options/manageapps` osoiteriville URL-osoitteena. **Apuohjelmien hallinta** -ikkuna avautuu, ja voit ottaa [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttöön Outlookissa. Kun siirryt takaisin Outlookiin, [!INCLUDE[d365fin](includes/d365fin_md.md)]in pitäisi olla käytettävissä.  
 
 Voit varmistaa myös Outlookin työpöytäversiossa, että [!INCLUDE[d365fin](includes/d365fin_md.md)] on mainittu **Apuohjelmien hallinta** -ikkunassa.  
 

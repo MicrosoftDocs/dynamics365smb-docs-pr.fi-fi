@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 30d515822fd3e1ca3bf5b83e2bbc4e0841bea9cc
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 2a3ff313d9c6e8bac1169daba590d2e38c312d87
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Kenttien lisääminen Word-raporttiasetteluun
@@ -33,7 +33,7 @@ Raportin tietojoukko voi sisältää kenttiä, joissa näkyvät otsikot, tiedot 
   
 2.  Näytä **Kehittäjä**-välilehti Microsoft Wordin valintanauhassa.  
   
-     Oletuksena on, että **Kehittäjä**-välilehti ei ole näkyvissä valintanauhassa. Lisätietoja on kohdassa [Valintanauhan Kehitystyökalut-välilehden näyttäminen](http://go.microsoft.com/fwlink/?LinkID=389631).  
+     Oletuksena on, että **Kehittäjä**-välilehti ei ole näkyvissä valintanauhassa. Lisätietoja on kohdassa [Valintanauhan Kehitystyökalut-välilehden näyttäminen](https://go.microsoft.com/fwlink/?LinkID=389631).  
   
 3.  Valitse **Kehittäjä**-välilehdellä **XML-yhdistäminen-ruutu**.  
   
@@ -107,7 +107,7 @@ Seuraavassa taulukossa on yksinkertaistettu yhteenveto mukautetun XML-osan XML-k
 |`..</DataItem1>`<br /><br /> `</WordReportXmlPart>`|Elementin sulkeminen.|  
   
 ### <a name="custom-xml-part-in-word"></a>Mukautettu XML-osa Wordissa  
- Word -ohjelmassa mukautettu XML-osa avataan **XML-yhdistäminen**-ruudussa ja elementit yhdistetään ruudun avulla Word-asiakirjassa. **XML-yhdistäminen**-ruutua voi käyttää **Kehitystyökalut**-välilehdessä. (Lisätietoja on kohdassa [Valintanauhan Kehitystyökalut-välilehden näyttäminen](http://go.microsoft.com/fwlink/?LinkID=389631)).  
+ Word -ohjelmassa mukautettu XML-osa avataan **XML-yhdistäminen**-ruudussa ja elementit yhdistetään ruudun avulla Word-asiakirjassa. **XML-yhdistäminen**-ruutua voi käyttää **Kehitystyökalut**-välilehdessä. (Lisätietoja on kohdassa [Valintanauhan Kehitystyökalut-välilehden näyttäminen](https://go.microsoft.com/fwlink/?LinkID=389631)).  
   
  **XML-yhdistäminen**-ruudun elementit näkyvät rakenteessa, joka vastaa XML-lähdettä. Otsikkokentät ryhmitellään yleisen **Otsikot**-elementin alle, tietokohteet ja sarakkeet järjestetään hierarkkiseen rakenteeseen, joka vastaa XML-tietolähdettä ja sarakkeet ovat aakkosjärjestyksessä. Elementit tunnistetaan nimen perusteella. Tämän nimen määrittää ADD INCLUDE<!--[!INCLUDE[nav_dev_short](../../includes/nav_dev_short_md.md)]-->in raportin tietojoukon suunnittelutoiminnon nimiominaisuus.  
   

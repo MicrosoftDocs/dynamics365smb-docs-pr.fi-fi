@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7a519025bd7bed4bb2974c3e7fb5f044ac35dcf4
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e2e937aee7defcc5226a3238652f88261004920c
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="plan-for-new-demand-order-by-order"></a>Uuden kysynnän tilauskohtainen suunnittelu
@@ -26,14 +26,14 @@ Voit siirtyä **Tilauksen suunnittelu** -ikkunaan kahdella tavalla kohdistuksen 
 
 
 ## <a name="to-plan-for-new-production-order-demand"></a>Suunnittele uuden tuotantotilauksen kysyntä  
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Suunnitellut tuotantotilaukset** ja valitse sitten aiheeseen liittyvä linkki. (Voit suorittaa nämä suunnitellun, sitovan suunnittelun tai vapautetun tuotantotilauksen vaiheet.)
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Suunnitellut tuotantotilaukset** ja valitse sitten liittyvä linkki. (Voit suorittaa nämä suunnitellun, sitovan suunnittelun tai vapautetun tuotantotilauksen vaiheet.)
 2.  Avaa suunniteltava tuotantotilaus ja valitse **Suunnittelu**-toiminto.  
 3.  Valitse **Tilauksen suunnittelu** -ikkunassa **Laske suunnitelma** -toiminto.  
 
 Ikkunassa näkyvät suunnittelurivit on suodatettu  **Tuotantokysyntä**-suodatuksella – toisin sanoen ikkunassa näkyvät kaikkien tuotantotilausten täyttämätöntä kysyntää sisältävät komponenttirivit. Järjestelmä ei näytä ainoastaan käsiteltävän tuotantotilauksen kysyntää, sillä on riskialtista suunnitella tuotantotilaus ilman käsitystä mahdollisten aikaisempien komponenttirivien kysynnästä. Käsiteltävän tuotantotilauksen suunnittelurivit on laajennettu.  
 
 ## <a name="to-plan-for-any-new-demand"></a>Kaiken uuden kysynnän suunnitteleminen  
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Tilauksen suunnittelu** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tilauksen suunnittelu** ja valitse sitten liittyvä linkki.  
 2.  Valitse **Tilauksen suunnittelu** -ikkunassa **Laske suunnitelma** -toiminto.
 3.  Napsauta **Kysyntäpvm**-kentän päivämäärän edellä olevaa **Laajenna (+)**-painiketta, niin saat näkyviin kaikki suunnittelurivit, jotka vastaavat täyttämätöntä kysyntää sisältäviä kysyntärivejä.  
 4.  Ikkunan alaosassa on tietokenttiä, joissa on kutakin laajennettua suunnitteluriviä (kysyntäriviä) koskevia tietoja:  
@@ -85,7 +85,7 @@ Ikkunassa näkyvät suunnittelurivit on suodatettu  **Tuotantokysyntä**-suodatu
 >   Jos kirjoitat päivämäärän, joka on myöhäisempi kuin kysyntäpäivämäärä, näyttöön tulee varoitussanoma.  
 
 ## <a name="to-make-supply-orders"></a>Toimitustilausten tekeminen  
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Suunnitellut tuotantotilaukset** ja valitse sitten aiheeseen liittyvä linkki. Voit suorittaa nämä suunnitellun, sitovasti suunnitellun tai vapautetustn tuotantotilauksen vaiheet.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Suunnitellut tuotantotilaukset** ja valitse sitten liittyvä linkki. Voit suorittaa nämä suunnitellun, sitovasti suunnitellun tai vapautetustn tuotantotilauksen vaiheet.  
 2.  Avaa suunniteltava tuotantotilaus ja valitse **Suunnittelu**-toiminto.  
 3.  Siirrä kohdistin halutulle suunnitteluriville ja valitse sitten **Tee tilaukset** -toiminto.  
 4.  Valitse **Tee toimitustilaukset** -ikkunan **Tilauksen suunnittelu** -pikavälilehden **Tee tilaukset** -kentässä jokin seuraavista vaihtoehdoista.  

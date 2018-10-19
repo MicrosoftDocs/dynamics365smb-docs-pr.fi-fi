@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 04/03/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: f2b672feed3065791ad5976591c694c6435843f8
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0e0ac36bb83709b766d234e34297c2b721daabad
 ms.contentlocale: fi-fi
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="using-included365finlongmdincludesd365finlongmdmd-as-power-bi-data-source-for-building-reports"></a>[!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]in käyttö Power BI:n tietolähteenä raportteja luotaessa
@@ -27,7 +27,7 @@ Sinulla on oltava kelvollinen [!INCLUDE[d365fin_long_md](includes/d365fin_long_m
 2. Valitse **Nouda tiedot** -ikkunassa ensin **Online Services**, sitten **Microsoft Dynamics 365 Business Central** ja lopuksi **Muodosta yhteys** -painike.
 3. Power BI avaa ohjatun toiminnon, joka auttaa [yhteyden muodostusprosessissa](across-how-to-connect-powerbi-dynamics-365-content-packs-help.md). Sinua pyydetään kirjatumaan palveluun. Valitse ensin **Kirjaudu sisään** ja sitten tili, johon haluat kirjautua. Valitse sama tili, jolla kirjaudut [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]iin.
 4. Jatka valitsemalla **Muodosta yhteys**. Ohjatussa Power BI -toiminnossa on luettelo Microsoft [!INCLUDE[d365fin](includes/d365fin_md.md)]in yrityksistä ja tietolähteistä. Nämä tietolähteet viittaavat kaikkiin verkkopalveluihin, jotka on julkaistu kullekin yritykselle Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]issa.
-5. Voit vaihtoehtoisesti luoda uuden verkkopalvelun URL-osoitteen [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]issa käyttämällä **Luo tietojoukko** -toimintoa **WWW-palvelut**-sivulla tai asetusten ohjattua **Määritä raportointi** -määritystä tai valitsemalla **Muokkaa Excelissä** -toiminnon jossakin luettelossa.
+5. Voit vaihtoehtoisesti luoda uuden verkkopalvelun URL-osoitteen [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] -sovelluksessa käyttämällä **Luo tietojoukko** -toimintoa **WWW-palvelut**-ikkunassa tai asetusten ohjattua **Määritä raportointi** -määritystä tai valitsemalla **Muokkaa Excelissä** -toiminnon jossakin luettelossa.
 6. Määritä tietomalliin lisättävät tiedot ja valitse sitten **Lataa**-painike.
 7. Lisää uusia Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]- tai muita tietoja Power BI -tietomalliin toistamalla edellä olevat vaiheet.
 

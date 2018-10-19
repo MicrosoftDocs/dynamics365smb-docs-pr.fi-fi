@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 75e170f10927844ca37a001812e78e062e88c451
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 8e0668e39891f6e0924afd8d9ec3ee39af95e587
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="work-with-blanket-sales-orders"></a>Puitemyyntitilausten käyttäminen
@@ -30,7 +30,7 @@ Esimerkki puitetilauksen käytöstä: Asiakas soittaa ja tilaa nimikettä 1 000 
 > Puiteostotilaukset toimivat samoin kuin puitemyyntitilaukset. Näissä ohjeissa ei käsitellä puiteostotilauksia.
 
 ## <a name="to-create-a-blanket-sales-order"></a>Uuden puitemyyntitilauksen luominen  
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Puitemyyntitilaukset** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Puitemyyntitilaukset** ja valitse sitten liittyvä linkki.  
 2. Valitse **Uusi**-toiminto.  
 3. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Jätä **Tilauspvm**-kenttä tyhjäksi. Kun puitetilauksesta luodaan erillisiä myyntitilauksia, ohjelma määrittää myyntitilauksen tilauspäivämääräksi todellisen käsittelypäivämäärän.
@@ -58,7 +58,7 @@ Seuraava koskee myyntitilauksia sen jälkeen, kun ne on luotu puitemyyntitilauks
 ## <a name="to-view-the-status-of-a-blanket-purchase-order"></a>Puiteostotilausten tilan katsominen  
 Voit nähdä puiteostotilauksen tilan **Ostopuitetilauksen tilastot** -ikkunassa. Tällä voi olla merkitystä, kun aletaan laskuttaa tilausta, joka luotiin puiteostotilauksesta.  
 
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Puiteostotilaukset** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Puitemyyntitilaukset** ja valitse sitten liittyvä linkki.  
 2.  Valitse ensin puiteostotilaus ja valitse sitten **Tilastot**-toiminto.  
 3.  **Ostopuitetilauksen tilastot** -ikkunan **Yleinen**-pikavälilehdessä voit tarkastella koko tilauksen yhteenvetotietoja puiteostotilauksen rivien eri **Määrä-kenttien** yhteismäärän perusteella.  
 
@@ -70,7 +70,7 @@ Voit nähdä puiteostotilauksen tilan **Ostopuitetilauksen tilastot** -ikkunassa
 ## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>Kirjaamattomien ja kirjattujen puitemyyntitilausrivien näyttäminen   
 Linkki puitemyyntitilauksen ja alkuperäisen myyntiasiakirjan, sekä kaikkien muiden myyntiasiakirjojen välillä säilytetään kirjaamisen jälkeen luettelona kirjatuista ja kirjaamattomista myyntitilauksen laskuriveistä.  
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Puitemyyntitilaukset** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Puitemyyntitilaukset** ja valitse sitten liittyvä linkki.
 2. Avaa tarkasteltava puitemyyntitilaus.
 3. Näytä kirjaamattomat tapahtumat valitsemalla ensin kyseinen rivi, sitten **Rivi**-toiminto ja lopuksi **Kirjaamattomat rivit** -toiminto. Valitse yksi seuraavista vaihtoehdoista.  
 

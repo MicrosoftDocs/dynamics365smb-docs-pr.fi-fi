@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4598d059d40e231de0230b43fe7863759005db70
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: c8f020547cb48e288c1e1defac14993fab6bb21f
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="copy-data-to-new-companies"></a>Tietojen kopioiminen uusiin yrityksiin
@@ -24,7 +24,7 @@ Voit kopioida yleisesti käytettyjä arvoja olemassa olevasta yrityksestä uutee
 
 ## <a name="to-copy-data-to-a-new-company-using-rapidstart-services"></a>Kopioi tiedot uudelle yritykselle RapidStart Services -palvelun avulla  
 1. Avaa uusi yritys  
-2. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Määritystyökirja** ja valitse sitten aiheeseen liittyvä linkki.  
+2. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Määritystyökirja** ja valitse sitten liittyvä linkki.  
 3. Valitse **Kopioi tiedot yrityksestä**.  
 4. Valitse **Kopioi yrityksen tiedot** -ikkunan **Kopioi kohteesta** -kentässä yritys, josta kopioidaan. Valitse sitten **OK**-painike.  
 5. Valitse taulukko yhdestä määrityspaketeista, jotka olet tuonut. Valitse sitten **Kopioi tiedot** -toiminto.

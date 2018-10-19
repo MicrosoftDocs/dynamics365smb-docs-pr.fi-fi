@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 12/21/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ce3a69f82d68cd2ded4b1a5b036a32761d377199
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 39a44f4b608bca436adedb16c800c96a046d5644
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="track-document-lines"></a>Asiakirjarivien seuranta
@@ -25,7 +25,7 @@ Voit tarkastella asiakirjoja, jotka liittyvät myynti- ja ostotilausriveihin, my
 ## <a name="to-track-documents-related-to-a-sales-order-line"></a>Myyntitilausriviin liittyvien asiakirjojen seuranta
 Seuraavassa kuvataan, miten seuranta tehdään myyntitilausriviltä. Vaiheet ovat samanlaiset osto- ja puitetilausriveille.
 
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Myyntitilaukset** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten liittyvä linkki.  
 2.  Avaa myyntitilaus, josta haluat seurata.  
 3.  Valitse rivi ja valitse sitten **Asiakirjarivin seuranta** -toiminto.
 4. Valitse **Asiakirjarivien seuranta** -ikkunassa tarkasteltava asiakirja. Valitse sitten **Näytä**-toiminto, jos haluat nähdä liittyvän rivin.

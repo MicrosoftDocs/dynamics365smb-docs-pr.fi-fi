@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contacts, profiles
 ms.author: edupont
-ms.date: 05/09/2018
+ms.date: 10/01/2018
 ms.translationtype: HT
-ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
-ms.openlocfilehash: 00cfce8b467040a4de419c1b59a258c0eacf0b9a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6a69a5de1ac0d6e2d238415204ec95fad9af7b9b
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -24,7 +24,7 @@ Voit määrittää kyselyprofiileja niille kyselyille, joita haluat käyttää, 
 Voit saada ohjelman vastaamaan automaattisesti joihinkin kysymyksiin kontakti-, asiakas- tai toimittajatietojen pohjalta.  
 
 ## <a name="to-add-a-profile-questionnaire"></a>Profiilikyselyjen lisääminen
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Kyselyn asetukset** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kyselyn asetukset** ja valitse sitten liittyvä linkki.  
 2.  Valitse **Kotisivu**-välilehden **Uusi**-ryhmässä **Uusi**.  
 3.  Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 

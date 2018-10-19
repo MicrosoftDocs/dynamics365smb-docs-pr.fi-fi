@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 04de6e83dadace8844eca569f0162f827af0bb7c
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: f629216f08ae10667fac1726c97c4d55a90d3a88
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-jobs"></a>Projektien määrittäminen
@@ -25,32 +25,32 @@ Määritä **Projektienhallinnan asetukset** -ikkunassa projektin tiettyjen toim
 Määritä yksittäisissä projektikorteissa projektinimikkeiden hinnat, projektin resurssit ja KP-tilit. Määritä myös projektin kirjausryhmät.
 
 ## <a name="to-set-general-information-for-jobs"></a>Projektien yleistietojen määrittäminen
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Projektienhallinnan asetukset** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektienhallinnan asetukset** ja valitse sitten liittyvä linkki.
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
->   **Käytä käyttölinkkiä** -valintaruutu on varsin monimutkainen. Seuraavassa osassa kerrotaan siitä enemmän.
+>   **Käytä käyttölinkkiä oletusarvoisesti** -valintaruutu on varsin monimutkainen. Seuraavassa osassa kerrotaan siitä enemmän.
 
 ## <a name="to-set-up-job-usage-tracking"></a>Projektin käytön seurannan määrittäminen
 Kun suoritat työtä, haluat ehkä tietää, miten käyttöäsi seurataan suunnitelmaasi. Voit tehdä tämän helposti luomalla linkin työsuunnittelurivien ja toteutuneen käytön välille. Tämän avulla voi seurata kustannuksia ja helposti nähdä, miten paljon työtä on vielä jäljellä. Oletusarvon mukaan työn suunnittelurivin tyyppi on **Budjetti**, mutta käyttämällä rivin tyyppiä **Sekä budjetti että laskutettava** on samanlainen vaikutus.
 
-Jos valitset **Käytä käyttölinkkiä** -valintaruudun, voit tarkastella tietoja projektin suunnittelurivillä. Voit määrittää resurssin, nimikkeen tai pääkirjanpidon tilin määrän ja ilmaista projektipäiväkirjaan siirrettävän määrän. Projektin suunnittelurivin **Jäljellä oleva määrä** -kenttä osoittaa projektipäiväkirjaan siirrettävän ja kirjattavan jäljellä olevan määrän.
+Jos valitset **Käytä käyttölinkkiä oletusarvoisesti** -valintaruudun, voit tarkastella tietoja projektin suunnittelurivillä. Voit määrittää resurssin, nimikkeen tai pääkirjanpidon tilin määrän ja ilmaista projektipäiväkirjaan siirrettävän määrän. Projektin suunnittelurivin **Jäljellä oleva määrä** -kenttä osoittaa projektipäiväkirjaan siirrettävän ja kirjattavan jäljellä olevan määrän.
 
-Kun **Käytä käyttölinkkiä** -valintaruutu on valittuna ja projektin suunnittelurivin tyyppi on **Laskutettava**, Financial luo **Budjetti**-tyyppisen projektin suunnittelurivin päiväkirjarivin kirjaamisen jälkeen.
+Kun **Käytä käyttölinkkiä oletusarvoisesti** -valintaruutu on valittuna ja projektin suunnittelurivin tyyppi on **Laskutettava**, Financial luo **Budjetti**-tyyppisen projektin suunnittelurivin päiväkirjarivin kirjaamisen jälkeen.
 
 > [!NOTE]  
->   Jos projektikortin **Käytä käyttölinkkiä** -valintaruutu on valittu ja päiväkirjarivin **Rivityyppi**-kenttä on tyhjä, **Budjetti**-tyyppiset projektin uudet suunnittelurivit luodaan projektipäiväkirjan rivien kirjaamisen yhteydessä. Jos projektikortin **Käytä käyttölinkkiä** -valintaruutua ei ole valittu ja projektipäiväkirjan rivin **Rivityyppi**-kenttä on tyhjä, uusia projektin suunnittelurivejä ei luoda projektipäiväkirjan rivien kirjaamisen yhteydessä. Lisätietoja on kohdassa [Projektien käytön kirjaaminen](projects-how-record-job-usage.md).
+>   Jos projektikortin **Käytä käyttölinkkiä oletusarvoisesti** -valintaruutu on valittu ja päiväkirjarivin **Rivityyppi**-kenttä on tyhjä, **Budjetti**-tyyppiset projektin uudet suunnittelurivit luodaan projektipäiväkirjan rivien kirjaamisen yhteydessä. Jos projektikortin **Käytä käyttölinkkiä oletusarvoisesti** -valintaruutua ei ole valittu ja projektipäiväkirjan rivin **Rivityyppi**-kenttä on tyhjä, uusia projektin suunnittelurivejä ei luoda projektipäiväkirjan rivien kirjaamisen yhteydessä. Lisätietoja on kohdassa [Projektien käytön kirjaaminen](projects-how-record-job-usage.md).
 
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Projektienhallinnan asetukset** ja valitse sitten aiheeseen liittyvä linkki.
-2. Valitse **Käytä käyttölinkkiä** -valintaruutu tai poista sen valinta.
+2. Valitse **Käytä käyttölinkkiä oletusarvoisesti** -valintaruutu tai poista sen valinta.
 
 > [!NOTE]  
->   Voit määrittää yksittäisten projektikorttien **Käytä käyttölinkkiä** -valintaruudulle eri asetukset. Tässä tapauksessa kyseisen projektin asetus korvaa yllä kuvatun yleisen oletusasetuksen.
+>   Voit määrittää yksittäisten projektikorttien **Käytä käyttölinkkiä oletusarvoisesti** -valintaruudulle eri asetukset. Tässä tapauksessa kyseisen projektin asetus korvaa yllä kuvatun yleisen oletusasetuksen.
 
 ## <a name="to-set-up-prices-for-job-resources"></a>Projektin resurssien hintojen määrittäminen
 Voit määrittää projektin resursseja varten tietyt hinnat. Tähän käytetään **Projektiresurssien hinnat** -ikkunaa.
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Projektit** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektit** ja valitse sitten liittyvä linkki.  
 2. Valitse asianmukainen projekti ja valitse sitten **Resurssi**-toiminto.
 3. Täytä **Projektiresurssien hinnat** -ikkunassa tarvittavat kentät.
 
@@ -64,7 +64,7 @@ Resurssin **Yksikköhinta**-kentän arvoa käytetään projektin suunnittelurive
 ## <a name="to-set-up-prices-for-job-items"></a>Projektinimikkeiden hintojen määrittäminen
 Voit määrittää projektin nimikkeille tietyt hinnat. Tähän käytetään **Projektinimikkeiden hinnat** -ikkunaa.
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Projektit** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektit** ja valitse sitten liittyvä linkki.  
 2. Valitse asianmukainen projekti ja valitse sitten **Nimike**-toiminto.
 3. Täytä **Projektinimikkeiden hinnat** -ikkunassa tarvittavat kentät.
 
@@ -78,7 +78,7 @@ Nimikkeen **Yksikköhinta**-kentän arvoa käytetään projektin suunnittelurive
 ## <a name="to-set-up-prices-for-job-general-ledger-accounts"></a>Kirjanpitotilin hintojen määrittäminen
 Määritä hinnat projektin kirjanpidon kuluille. Tähän käytetään **Projektin kirjanpitotilin hinnat** -ikkunaa.
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Projektit** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektit** ja valitse sitten liittyvä linkki.  
 2. Valitse asianmukainen projekti ja valitse sitten **KP-tili**-toiminto.  
 3. Täytä **Projektin kirjanpitotilin hinnat** -ikkunassa tarvittavat kentät.
 
@@ -92,7 +92,7 @@ Yksi näkökulma projektien suunnittelussa on sen päättäminen, mitä kirjaust
 > [!NOTE]  
 >   Tarvittavat tilikartat tulee määrittää Tilikartta-taulukossa ennen kirjausryhmien määrittämistä. Lisätietoja on kohdassa [Tilikartan määrittäminen tai muuttaminen](finance-setup-chart-accounts.md).  
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Projektienhallinnan asetukset** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektin kirjausryhmät** ja valitse sitten liittyvä linkki.  
 2. Valitse **Uusi**-toiminto ja täytä kentät seuraavassa taulukossa kuvatulla tavalla.  
 
 | Summakentät | Kuvaus |

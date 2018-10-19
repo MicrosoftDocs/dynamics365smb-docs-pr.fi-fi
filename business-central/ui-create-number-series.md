@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: numbers, numbering
-ms.date: 03/27/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ea9b4a6310df319df06d02c53b9d6156caaee24f
-ms.openlocfilehash: 4d7e554300f0b445816ef9dd7fb81ea54fd25bf7
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6a61d7b07b2e04259bb4db386b651c4711ac7b09
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-number-series"></a>Numerosarjojen luominen
@@ -50,13 +50,13 @@ Kun uuden asiakirjan tai kortin, jolla on jo numerosarja, vastaava **Numerosarja
 > Jos manuaalinen numerointi on otettava käyttöön esimerkiksi uusissa korteissa, jotka luoneessa tietojen siirtoprosessissa **Nro**-kenttä on oletusarvoisesti piilotettu, siirry **Varastonhallinnan asetukset** -ikkunaan ja valitse **Nimikenrot**-kenttä. Voit nyt avata ja määrittää liittyvien numerosarjojen asetuksiksi **Manuaaliset nrot**.
 
 ## <a name="to-create-a-new-number-series"></a>Uuden numerosarjan luominen
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Nrosarja** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nrosarja** ja valitse sitten liittyvä linkki.
 2. Valitse **Uusi**-toiminto.
 3. Täytä tarvittavat uuden rivin kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-set-up-where-a-number-series-is-used"></a>Numerosarjan käyttökohteen määrittäminen
 Seuraavaksi selitetään, miten myyntialueen numerosarja määritetään. Myös muut alueet määritetään vastaavasti.
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Nrosarja** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myynti ja myyntisaamiset** ja valitse sitten liittyvä linkki.
 2. Valitse **Myynnit ja myyntisaamiset** -ikkunan **Numerosarja**-pikavälilehdessä sopiva numerosarja kullekin myyntikortille tai -asiakirjalle.
 
 Valitulla numerolla täytetään kyseisen kortin tai asiakirjan **Nro**-kenttä numerosarjarivillä tehtyjen asetusten mukaisesti.
@@ -64,7 +64,7 @@ Valitulla numerolla täytetään kyseisen kortin tai asiakirjan **Nro**-kenttä 
 ## <a name="to-create-relationships-between-number-series"></a>Numerosarjojen suhteiden luonti
 Jos tietylle perustiedolle tai tapahtumalle on luotu useampia numerosarjoja, näiden koodien välille voidaan luoda suhteita. Tämä toiminto auttaa koodien valinnassa kun käytetään numeroa.
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Nrosarja** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nrosarja** ja valitse sitten liittyvä linkki.
 2. Valitse numerosarjoja sisältävä rivi, jolle haluat luoda suhteita. Valitse sitten **Suhteet**.
 3. Kirjoita **Sarjakoodi**-kenttään sen numerosarjan koodi, johon haluat luoda suhteen vaiheessa 2 valitusta sarjasta.
 4. Lisää rivi kullekin valittuun numerosarjaan liitettävälle koodille.

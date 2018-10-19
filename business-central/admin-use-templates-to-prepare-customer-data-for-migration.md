@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/07/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3cfc53c1ea3c8d30f65b2d475a8dab052519e81e
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 8724bf11537b384ae88960e40f24f1d9dbbbd484
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="prepare-to-migrate-customer-data"></a>Asiakastietojen siirtämisen valmisteleminen
@@ -44,7 +44,7 @@ Kun valitset olemassa olevan tietomalliin, sinun tulee arvioida, ovatko uudelle 
 > [!TIP]  
 >  Tietomallien avulla voit luoda myös uusia tilien kortteja nopeasti. Käytä niitä nopeampaa ja vaivattomampaa tietojen luomista varten. Lisätietoja on ohjeaiheessa [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md).
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Määritysmallit** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Määritysmallit** ja valitse sitten liittyvä linkki.  
 2. Valitse **Määritä malliluettelo** -ikkunassa luettelosta tietomalli ja valitse sitten **Muokkaa**-toiminto.  
 
 Jos oletusmallit eivät vastaa tarpeitasi, voit luoda uusia malleja tai lisätä olemassa olevaan malliin kenttiä. Jos oletusmallit ovat riittäviä, voit käyttää niitä tai luoda tietueita päätietomallien perusteella.
@@ -75,7 +75,7 @@ Kukin malli sisältää otsikon ja rivit. Kun olet luonut mallin, voit määritt
 ## <a name="to-export-to-a-template-in-excel"></a>Mallin vieminen Exceliin
 Voit luoda Excel-työkirjan malliksi, joka perustuu olemassa olevan tietokannan taulukon rakenteeseen nopeasti. Mallin avulla voit kerätä yhteen asiakastiedot yhdenmukaisessa muodossa myöhempää tuontia varten [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmaan.
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Määritystyökirja** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Määritystyökirja** ja valitse sitten liittyvä linkki.
 2. Lisää taulukko luetteloon tai valitse aiemmin luotu taulukko. Lisätietoja on kohdassa [Yrityksen määrittämisen hallinta työkirjassa](admin-how-to-manage-company-configuration-in-a-worksheet.md).
 3. Määritä kentät taulukosta, jonka haluat sisällyttää malliin.
 4. Valitse **Vie malliin** -toiminto.
@@ -100,11 +100,11 @@ Voit käyttää tietorakennetta, joka sisältyy tietomalleihin, muuntaaksesi tie
 
 Seuraavissa vaiheissa esitellään, miten nimikekortti luodaan nimiketietomallista. Voit luoda tietueen mistä tahansa tietomallista käyttäen samaa menettelyä.  
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Määritysmallit** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Määritysmallit** ja valitse sitten liittyvä linkki.  
 2. Valitse **nimikemalli** ja valitse sitten **Muokkaa**-toiminto. Lisätietoja on Tietomallin luominen -osassa.
 3. Valitse **Luo instanssi** -toiminto. Ohjelma luo nimikkeen kortin.  
 4. Valitse **OK**-painike.  
-5. Voit tarkistaa uuden nimikekortin valitsemalla ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvakkeen, kirjoittamalla **Nimikkeet** ja valitsemalla sitten aiheeseen liittyvän linkin.  
+5. Jos haluat tarkistaa uuden nimikkeen kortin, valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten liittyvä linkki.  
 6. Avaa uusi nimikkeen kortti.  
 7. Laajenna eri pikavälilehdet ja varmista, että niihin on syötetty oikeat tiedot.  
 

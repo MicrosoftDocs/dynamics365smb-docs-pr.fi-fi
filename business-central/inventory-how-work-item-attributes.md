@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: categories, search words, facets
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 92ee1838f977ed7a9faed32f5ad6eac6fa4626c3
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 3e099dde3ab51a2757bf42ffd4c3044c8007ee0a
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="work-with-item-attributes"></a>Nimikkeen määritteiden käsitteleminen
@@ -23,10 +23,10 @@ Kun asiakkaat tekevät kyselyjä nimikkeestä kirjeenvaihdon tai integroidun ver
 Voit myös määrittää nimikkeen määritteitä nimikeluokkiin, jotka kohdistetaan nimikeluokkia käyttäviin nimikkeisiin. Lisätietoja on kohdassa [Nimikkeen luokitteleminen](inventory-how-categorize-items.md).
 
 > [!Tip]  
-> Jos liität nimikkeisiin kuvia, kuvan analysointilaajennus havaitsee kuvassa olevat määritteet. Lisäksi se ehdottaa määritteitä, ja voit päättää, määritetäänkö ne. Laajennusta voi käyttää heti, kun olet ottanut sen käyttöön. Lisätietoja on kohdassa [Microsoft Business Central -sovelluksen kuvan analysointilaajennus](ui-extensions-image-analyzer.md).
+> Jos liität nimikkeisiin kuvia, kuvan analysointilaajennus havaitsee kuvassa olevat määritteet. Lisäksi se ehdottaa määritteitä, ja voit päättää, määritetäänkö ne. Laajennusta voi käyttää heti, kun olet ottanut sen käyttöön. Lisätietoja on kohdassa [Kuvan analysointilaajennus](ui-extensions-image-analyzer.md).
 
 ## <a name="to-create-item-attributes"></a>Nimikkeen määritteiden luominen
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Nimikkeen määritteet** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeen määritteet** ja valitse sitten liittyvä linkki.
 2. Valitse **Nimikkeen määritteet** -ikkunassa **Uusi**-toiminto.
 3. Täytä **Nimikkeen määrite** -ikkunassa tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -34,12 +34,12 @@ Voit myös määrittää nimikkeen määritteitä nimikeluokkiin, jotka kohdiste
 >   Jos valitset **Tyyppi**-kentässä **Asetus**, voit valita **Nimikkeen määritteen arvot** -toiminnon ja luoda nimikkeen määritteelle arvot. Lisätietoja on "Arvojen luominen nimikkeen määritteille, joiden tyyppi on Asetus" -osassa.  
 
 ## <a name="to-create-values-for-item-attributes-of-type-option"></a>Arvojen luominen nimikkeen määritteille, joiden tyyppi on Asetus
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Nimikkeen määritteet** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeen määritteet** ja valitse sitten liittyvä linkki.
 2. Valitse **Nimikkeen määritteet** -ikkunassa nimikkeen määrite, jonka tyyppi on **Asetus** ja jolle haluat määrittää arvot. Valitse sitten **Nimikkeen määritteen arvot** -toiminto.
 3. Täytä **Nimikkeen määritteen arvot** -ikkunassa tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-item-attributes-to-items"></a>Nimikkeen määritteiden määrittäminen nimikkeille
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Nimikkeet** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten liittyvä linkki.
 2. Valitse **Nimikkeet**-ikkunassa nimike, jolle haluat määrittää nimikkeen määritteet. Valitse sitten **Määritteet**-toiminto.
 3. Valitse **Nimikkeen määritteiden arvot** -ikkunassa **Uusi**-toiminto.
 4. Valitse **Määrite**-kentässä valintapainike ja valitse aiemmin määritetty nimikkeen määrite. Vaihtoehtoisesti voit valita **Uusi**-toiminnon ja luoda ensin uuden nimikkeen määritteen "Nimikkeen määritteiden luominen" -osassa esitetyllä tavalla.
@@ -48,7 +48,7 @@ Voit myös määrittää nimikkeen määritteitä nimikeluokkiin, jotka kohdiste
 7. Toista vaiheet 4–6 kaikille niille nimikkeen määritteille, jotka haluat määrittää nimikkeeseen.
 
 ## <a name="to-assign-item-attributes-to-item-categories"></a>Nimikkeen määritteiden määrittäminen nimikeluokille
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Nimikekategoriat** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikeluokat** ja valitse sitten liittyvä linkki.
 2. Valitse **Nimikeluokat**-ikkunassa nimikeluokka, jolle haluat määrittää nimikkeen määritteet. Valitse sitten **Muokkaa**-toiminto.
 3. Valitse **Nimikeluokkakortti**-ikkunan **Määritteet**-pikavälilehdessä **Uusi**-toiminto.
 4. Valitse **Määrite**-kentässä valintapainike ja valitse aiemmin määritetty nimikkeen määrite. Vaihtoehtoisesti voit valita **Uusi**-toiminnon ja luoda ensin uuden nimikkeen määritteen "Nimikkeen määritteen luominen" -osassa esitetyllä tavalla.
@@ -59,7 +59,7 @@ Voit myös määrittää nimikkeen määritteitä nimikeluokkiin, jotka kohdiste
 >   Päänimikeluokkien nimikkeen määritteet periytyvät alinimikeluokille. Tämä osoitetaan **Peritty kohteesta** -kentässä **Määritteet**-pikavälilehdessä. Lisätietoja on kohdassa [Nimikkeiden luokitteleminen](inventory-how-categorize-items.md).
 
 ## <a name="to-filter-by-item-attributes"></a>Suodattaminen nimikkeen määritteiden mukaan
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Nimikkeet** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten liittyvä linkki.
 2. Valitse **Nimikkeet**-ikkunassa **Suodata määritteiden mukaan** -toiminto.
 3. Valitse **Suodata nimikkeet määritteen mukaan** -ikkunassa **Määrite**-kentän valintapainike. Valitse sitten nimikkeen määrite.
 4. Valitse **Arvo**-kentässä ensin valintapainike ja sitten määritteen arvo, jonka mukaan nimikkeet suodatetaan.

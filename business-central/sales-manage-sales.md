@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
-ms.openlocfilehash: 6351f2b8a79afa201192addc4960bda6d59448eb
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6c8c3f39d782a33896e531c4bfdf95b589458f99
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/02/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="sales"></a>Myynti
@@ -34,16 +34,17 @@ Myyntiasiakirjat voidaan lähettää sähköpostin liitteenä PDF-tiedostoina. S
 
 Voit ottaa hyväksymistyönkulun käyttöön kaikissa myyntiprosesseissa esimerkiksi silloin, kun pyydät talouspäälliköltä hyväksyntää isolle myynnille tiettyä asiakasta varten. Lisätietoja on kohdassa [Työnkulkujen käyttäminen](across-use-workflows.md).
 
-Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aiheisiin.
+Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisiin.
 
-| Toiminta | Katso |
+| Vastaanottaja | Katso |
 | --- | --- |
+|Luo asiakkaan kortti jokaiselle asiakkaalle, jolle myyt.|[Uusien asiakkaiden rekisteröinti](sales-how-register-new-customers.md)|
 | Luo myyntitarjous, jos tarjoat tuotteita siirtokelpoisilla ehdoilla ennen tarjouksen muuntamista myyntilaskuksi. |[Myyntitarjousten tekeminen](sales-how-make-offers.md) |
 | Luot myyntilaskun tallentaaksesi sopimuksesi asiakkaan kanssa ja myydäksesi määrätyt tuotteet määrätyillä toimitus- ja maksuehdoilla. |[Myynnin laskutus](sales-how-invoice-sales.md) |
 | Käsittele osittaista toimitusta tai suoratoimitusta käsittelevä myyntitilaus. |[Tuotteiden myyminen](sales-how-sell-products.md) |
 |Määritä vakiomyynti- tai -ostorivit, jotka voit lisätä nopeasti asiakirjoihin, kuten toistuviin täydennystilauksiin.|[Toistuvien myynti- ja ostorivien luominen](sales-how-work-standard-lines.md)|  
 | Linkitä myyntitilaus ostotilaukseen, jotta voit myydä suoratoimituksen nimikkeen, joka toimitetaan suoraan toimittajaltasi asiakkaallesi. |[Suoratoimitusten tekeminen](sales-how-drop-shipment.md) |
-|Ei-varastoitava nimike on toimitettava toimittajalta fyysiseen varastoon, jotta voit toimittaa nimikkeen asiakkaallesi.|[Erikoistilausten luominen](sales-how-to-create-special-orders.md)|
+|Luettelonimike on toimitettava toimittajalta fyysiseen varastoon, jotta voit toimittaa nimikkeen asiakkaallesi.|[Erikoistilausten luominen](sales-how-to-create-special-orders.md)|
 | Suorita toiminto maksamattomalle kirjatulle myyntilaskulle hyvityslaskun automaattiseksi luomiseksi ja joko peruuta myyntilasku tai luo se uudelleen, jotta voit tehdä korjauksia. |[Maksamattomien myyntilaskujen korjaaminen tai peruuttaminen](sales-how-correct-cancel-sales-invoice.md) |
 | Luo myyntihyvityslasku palauttamaan vastaamaan määrätty kirjattu myyntilasku heijastamaan sitä, mitä tuotteita asiakas palauttaa toimittajalle ja minkä maksusumman palautat. |[Myynnin palautusten tai peruutusten käsittely](sales-how-process-sales-returns-cancellations.md) |
 |Voit hallita asiakkaan suurta määrää koskevaa ostositoumusta, joka toimitetaan useassa erässä tietyn ajan kuluessa.|[Puitemyyntitilausten käyttäminen](sales-how-to-create-blanket-sales-orders.md)|
@@ -61,5 +62,4 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

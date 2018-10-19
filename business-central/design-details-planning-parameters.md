@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 05/04/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
-ms.openlocfilehash: d5606d6e8714c96a675f4d5f4074e431aa818ec7
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: a108de9d4fe537f2d014c705583b910dc7be66a7
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-planning-parameters"></a>Rakennetiedot: suunnittelun parametrit
@@ -80,25 +80,25 @@ Rationaalinen toimitussuunnitelma saadaan, kun suunnittelija hienosäätää suu
 
 Uudelleenajoitusjakson, puskuriajan ja erän koontijakson ajoitus perustuu tarjonnan päivämäärään. Aikaväli perustuu suunnittelun alkupäivämäärään seuraavassa kuvassa esitetyllä tavalla.  
 
-![Aikavälin elementit](media/supply_planning_5_time_bucket_elements.png "supply_planning_5_time_bucket_elements")  
+![Aikavälin elementit](media/supply_planning_5_time_bucket_elements.png "Aikavälin elementit")  
 
 Seuraavassa esimerkissä mustat nuolet kuvaavat olemassa olevaa tarjontaa (ylöspäin) ja kysyntää (alaspäin). Punaiset, vihreät ja oranssit nuolet ovat suunnitteluehdotuksia.  
 
 **Esimerkki 1**: muutettu päivämäärä on uudelleenajoitusjakson ulkopuolella, joka aiheuttaa olemassa olevan tarjonnan peruutuksen. Uutta tarjontaa on ehdotettu kattamaan kysyntää erän koontijaksossa.  
 
-![Uudelleenajoitusjakso, Erän koontijakso](media/supply_planning_5_recheduling_period_lot_accumulation_period.png "supply_planning_5_recheduling_period_lot_accumulation_period")  
+![Uudelleenajoitusjakso ja erän koontijakso](media/supply_planning_5_recheduling_period_lot_accumulation_period.png "Uudelleenajoitusjakso ja erän koontijakso")  
 
 **Esimerkki 2**: muutettu päivämäärä on uudelleenajoitusjaksolla, joka aiheuttaa olemassa olevan tarjonnan uudelleenajoittamisen. Uutta tarjontaa on ehdotettu kattamaan kysyntää erän koontijakson ulkopuolella.  
 
-![Uudelleenajoitusjakso, Erän koontijakso, Aikataul. uud.](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "supply_planning_5_recheduling_period_lot_accum_period_reschedule")  
+![Uudelleenajoitusjakso, erän koontijakso ja aikatauluttaminen uudelleen](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "Uudelleenajoitusjakso, erän koontijakso ja aikatauluttaminen uudelleen")  
 
 **Esimerkki 3**: puskuriajalla on kysyntää ja tarjonnan määrä erän koontijaksolla vastaa tarjonnan määrää. Seuraava kysyntä on katteeton ja uutta tarjontaa esitetään.  
 
-![Puskuriaika, Erän koontijakso](media/supply_planning_5_dampener_period_lot_accumulation_period.png "supply_planning_5_dampener_period_lot_accumulation_period")  
+![Puskuriaika ja erän koontijakso](media/supply_planning_5_dampener_period_lot_accumulation_period.png "Puskuriaika ja erän koontijakso")  
 
 **Esimerkki 4**: puskuriajalla on kysyntää ja tarjonta pysyy samalla päivämäärällä. Nykyisen tarjonnan määrä ei kuitenkaan riitä kattamaan kysyntää erän koontijaksolla, joten järjestelmä ehdottaa muuta määrä -toimenpidettä olemassa olevalle toimitustilaukselle.  
 
-![Puskuriaika, Erän koontijakso, Muuta määrä](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "supply_planning_5_dampener_period_lot_accum_period_change_qty")  
+![Puskuriaika, erän koontijakso ja muutosmäärä](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Puskuriaika, erän koontijakso ja muutosmäärä")  
 
 **Oletusarvot:** **Aikaväli**-kentän ja kolmen uudelleenjärjestelyjakson kentän oletusarvo on tyhjä. **Puskuriaika**-kenttää lukuun ottamatta arvo on muissa kentissä 0D (nolla päivää). Jos **Puskuriaika**-kenttä on tyhjä, käytetään **Tuotannon asetukset** -ikkunassa olevan **Oletuspuskuriaika**-kentän arvoa.  
 

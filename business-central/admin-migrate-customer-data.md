@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/07/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ce50ff8213e85a8343a93eb80bbbc381eaa8e350
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0a1a2a100fbbd0d21c3934802b624e370592bd9e
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="migrate-customer-data"></a>Asiakastietojen siirtäminen
@@ -39,8 +39,8 @@ Ennen kuin aloitat, varmista, että olet RapidStart Services -palvelun käyttö�
 >   
 > Taulukoita, joilla on poikkeavat ensisijaiset avaimet tai kenttiä, joilla on poikkeavat tietotyypit ei myöskään voi tuoda. Tietoja ei voi tuoda, jos esimerkiksi määrityspaketissa on taulukko **50000 Asiakas**, jonka ensisijainen avain on **Code20**, ja kohdetietokannassa on taulukko **50000 Asiakkaan pankkitili**,jonka ensisijainen avain on **Code20 + Code 20**.  
 
-1. Avaa uusi yritys  
-2. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Määrityspaketit** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Avaa uusi yritys.  
+2. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Määrityspaketit** ja valitse sitten liittyvä linkki.  
 3. Valitse **Tuo paketti** -toiminto. Siirry tuotavaan rapidstart-paketin tiedostoon ja valitse **Avaa**-toiminto. Tuonnin aikana paketin sisältö puretaan ja paketin tietue luodaan.  
 
     Kun tuonti on valmis, näet niiden määritystaulukoiden määrän, jotka on tuotu **Taulukoiden määrä** -kentästä.  
@@ -57,7 +57,7 @@ Jos valitut taulukot eivät vastaa tarpeitasi, voit luoda uusia tietojen siirtot
 ## <a name="to-create-a-data-migration-file"></a>Luo siirtotiedosto
 Voit luoda uuden tietojen siirron tiedostoja ja mukauttaa niitä liiketoiminnan tukemiseksi. Huomaa, että tiedostoa voi kuitenkin käyttää vain sellaisen kentän siirtämisessä, jonka **FieldClass**-ominaisuuden arvoksi on määritetty **Normaali**.  
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Määrityspaketti** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Määrityspaketti** ja valitse sitten liittyvä linkki.  
 2. Valitse ja avaa paketti, jota haluat käyttää tietojen siirtämisessä. Valitse sitten **Hae taulukot** -toiminto. **Hae pakettitaulukko** -ikkuna avautuu.  
 3. Anna **TableID**-kentässä taulukkonumero tai valitse taulukko luettelosta, esimerkiksi taulukko 18, **Asiakas**. **Taulukon nimi** -kenttä täytetään automaattisesti.  
 4. Valitse uusi siirtotaulukko ja valitse sitten **Taulukot**-välilehdessä **Kentät**-toiminto. **Siirtokentät** -ikkuna avautuu.  
@@ -73,7 +73,7 @@ Uusi siirtotaulukko luodaan.
 ## <a name="to-export-data-migration-files"></a>Vie siirtotiedostot.
 Kun olet määrittänyt taulukot, joihin haluat siirtää asiakastietoja, voit viedä tiedostot.  
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Määrityspaketit** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Määrityspaketit** ja valitse sitten liittyvä linkki.  
 2. Valitse ja avaa paketti, jota haluat käyttää vientiä varten.
 3. Valitse vietävä taulukko tai vietävät taulukot ja valitse sitten **Vie Exceliin** -toiminto.
 4. Tallenna viety Excel-tiedosto.  
@@ -94,7 +94,7 @@ Kun Excelistä tai RapidStart-paketista tuodut tiedot kohdistetaan, [!INCLUDE[d3
 
 Seuraavissa toimenpiteissä sinun tulisi tarkastaa ennalta mitkä arvot haluat säilyttää siirtoprosessin aikana. Seuraavien vaiheiden suorittaminen edellyttää tietojen siirtotiedostoja (.xlsx), jotka on viety [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmasta. Lisätietoja on siirtotiedostojen viennin osassa.
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Määrityspaketit** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Määrityspaketit** ja valitse sitten liittyvä linkki.
 2. Avaa kyseisen yrityksen määrityspaketti.  
 3. Valitse taulukko, johon haluat yhdistää arvoja ja valitse sitten **Taulukot**-välilehden **Kentät**-toiminto.  
 4. Valitse jokaiselle yhdistettävälle kentälle **Yhdistämismääritys**-toiminto.  
@@ -112,7 +112,7 @@ Seuraavassa esimerkissä kuvataan, kuinka [!INCLUDE[d365fin](includes/d365fin_md
 3. Kun käytät tietoja, vastaavuusmääritys, joka on annettu **Myyjä/ostaja**-taulukon **Koodi**-kenttään, otetaan huomioon **Myyjäkoodi**- ja **Ostajakoodi**-kentissä.
 
 ## <a name="to-add-additional-values-to-included365finincludesd365finmdmd"></a>Uusien arvojen lisääminen [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmaan  
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Määrityspaketit** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Määrityspaketit** ja valitse sitten liittyvä linkki.  
 2. Valitse taulukko, johon haluat lisätä arvoja, ja valitse sitten **Taulukot**-pikavälilehden **Kentät**-toiminto.  
 3. Kentille, joille haluat [!INCLUDE[d365fin](includes/d365fin_md.md)]:n sallivan lisäarvoja siirron aikana, valitse **Luo puuttuvat koodit** -valintaruutu.  
 4. Tuo asiakkaan tiedot. Lisätietoja on Asiakastietojen tuominen -osassa.

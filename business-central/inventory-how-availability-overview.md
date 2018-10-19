@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
-ms.date: 08/15/2017
+ms.date: 10/01/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: b3626db626e3c07498ad2a45733acf205d0ec906
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 440a6bdb3203ba1f4a9eddec3a9a88a47ce7917f
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="view-the-availability-of-items"></a>Nimikkeiden saatavuuden tarkasteleminen
@@ -40,7 +40,7 @@ Voit tarkastella kaikkien nimikkeiden saatavuutta sijainneittain sekä kunkin ni
 ## <a name="to-view-the-availability-of-an-item-according-to-when-it-will-be-received-or-shipped"></a>Voit tarkastella nimikkeen saatavuutta sen vastaanotto- tai toimituspäivän mukaan.
 Voit tarkastella nimikkeen saatavuutta **Saatavuus tapahtumittain** -ikkunassa näytettävien suunniteltujen nimiketapahtumien perusteella.
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Nimikkeet** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten liittyvä linkki.
 2. Avaa sen nimikkeen kortti, jonka saatavuuden haluat näyttää.
 3. Valitse **Nimikkeen saatavuus** -toiminto ja sitten **Tapahtuma**-toiminto.
 
@@ -50,7 +50,7 @@ Voit tarkastella nimikkeen saatavuutta **Saatavuus tapahtumittain** -ikkunassa n
 ## <a name="to-view-the-availability-of-an-item-in-different-periods"></a>Nimikkeen saatavuuden tarkastelu eri jaksoissa
 Nimikkeen saatavuutta määritettynä aikajaksolla voit tarkastella **Nimikk. saatavuus jaksoittain** -ikkunassa.
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Nimikkeet** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten liittyvä linkki.
 2. Avaa sen nimikkeen kortti, jonka saatavuuden haluat näyttää.
 3. Valitse **Nimikkeen saatavuus** -toiminto ja sitten **Jakso**-toiminto.
 
@@ -60,7 +60,7 @@ Nimikkeen saatavuutta määritettynä aikajaksolla voit tarkastella **Nimikk. sa
 ## <a name="to-view-the-availability-of-an-item-at-the-locations-where-it-is-stored"></a>Nimikkeen saatavuuden tarkastelu kaikissa sen varastointipaikoissa
 Voit tarkastella nimikkeen saatavuutta kaikissa paikoissa, jossa sitä varastoidaan **Nimikkeen saatavuus sijainnin mukaan** -ikkunassa.
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Nimikkeet** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten liittyvä linkki.
 2. Avaa sen nimikkeen kortti, jonka saatavuuden haluat näyttää.
 3. Valitse **Nimikkeen saatavuus** -toiminto ja sitten **Sijainti**-toiminto.
 
@@ -71,7 +71,7 @@ Voit tarkastella nimikkeen saatavuutta kaikissa paikoissa, jossa sitä varastoid
 ## <a name="to-view-the-availability-of-all-items-by-the-location-where-they-are-stored"></a>Kaikkien nimikkeiden saatavuuden tarkastelu kaikissa niiden varastointipaikoissa
 Voit tarkastella kaikkien nimikkeidesi saatavuutta kaikissa sijainneissa **Nimikkeet sijainneittain** -ikkunassa.
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Nimikkeet** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten liittyvä linkki.
 2. Valitse **Nimikkeet sijainneittain** -toiminto.
 
     **Nimikkeet sijainneittain** -ikkunassa näyttää kussakin sijainnissa olevan saldon nimikkeelle.

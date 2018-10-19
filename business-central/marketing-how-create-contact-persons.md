@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 05/09/2018
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
-ms.openlocfilehash: 38f42e4d44dd38fe70816035711e00561fd9e777
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0371e226de78c8c3894b47e5bebaf0aaf422666c
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-contact-persons"></a>Kontaktihenkilöiden luominen
@@ -24,7 +24,7 @@ Voit luoda kontaktikortin jokaiselle yhteyshenkilölle, joka työskentelee sella
 >   Ennen uuden kontaktin luomista kannattaa ehkä tarkistaa **Inheritance**-Periytyminen**Kontaktienhallinnan asetukset**-ikkunasta. Periytymisen määrittäminen mahdollistaa kontaktihenkilöille yhteisten kontaktiyritysten tietojen, kuten osoitetietojen, kopioimisen automaattisesti kontaktiyrityksestä kontaktihenkilöön aina, kun luot tallennettuun kontaktiyritykseen kontaktihenkilön.
 
 ## <a name="to-create-a-contact-card-for-a-person"></a>Luo henkilön kontaktikortti
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Kontaktit** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kontaktit** ja valitse sitten liittyvä linkki.
 2. Valitse **Uusi**-toiminto.
 3. Valitse **Nro**-kenttään kontaktin numero.
 

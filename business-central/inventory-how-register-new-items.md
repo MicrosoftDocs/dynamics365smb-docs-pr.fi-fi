@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 08/31/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ea9b4a6310df319df06d02c53b9d6156caaee24f
-ms.openlocfilehash: ac7664480d5a2db4642ecc2cb830c4d7022fb53b
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0e008e9664ebc449acab49e32d2c6efd7d1a0b6f
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="register-new-items"></a>Uusien nimikkeiden rekisteröiminen
@@ -23,17 +23,19 @@ Nimikkeet ovat muiden tuotteiden ohella liiketoimintasi perusta; ne ovat siis ta
 
 Nimikekortti sisältää tiedot, jotka tarvitaan nimikkeiden ostamista, tallentamista, myymistä ja toimittamista varten.
 
-Nimikekortin tyyppi voi olla **Varasto** tai **Palvelu**, jolloin voidaan määritellä, onko nimike fyysinen yksikkö vai työaikayksikkö. Lukuun ottamatta kenttiä, jotka liittyvät nimikkeen fyysisiin osa-alueisiin, kaikki nimikkeen kortin kentät toimivat samalla tavalla varastonimikkeille ja palveluille. Lisätietoja nimikkeen myymisestä on kohdassa [Tuotteiden myyminen](sales-how-sell-products.md) tai [Myynnin laskuttaminen](sales-how-invoice-sales.md).
+Nimikkeen kortin tyyppi voi olla **Varasto**, **Huolto** tai **Muu kuin huolto**. Se määrittää, onko nimike fyysisen varasto yksikkö, työn aikayksikkö vai fyysinen yksikkö, jota ei seurata varastossa. Lisätietoja on kohdassa [Tietoja nimiketyypeistä](inventory-about-item-types.md).
 
 Nimike voi olla tuoterakenteessa päänimike, jonka alla on alinimikkeitä. [!INCLUDE[d365fin](includes/d365fin_md.md)]in tuoterakenne voi olla joko kokoonpanon tuoterakenne tai tuotannon tuoterakenne sen mukaan, miten sitä käytetään. Lisätietoja on kohdassa [Tuoterakenteen käyttäminen](inventory-how-work-BOMs.md).
 
-> [!NOTE]  
->   Jos eri nimiketyypeillä on nimikemalleja, ikkuna avautuu, kun luot uuden nimikekortin, jossa voit valita sopivan mallin. Jos vain yksi nimikemalli on olemassa, uudet nimikekortit käyttävät aina kyseistä mallia.
-
 Jos ostat saman nimikkeen useammalta kuin yhdeltä toimittajalta, voit yhdistää kyseiset toimittajat nimikkeen korttiin. Toimittajat näkyvät sitten **Nimikkeen toimittajaluettelo** -ikkunassa, jossa voit valita kätevästi vaihtoehtoisen toimittajan.
 
+Nimikkeet, joita tarjoat asiakkaille, mutta joita et halua ylläpitää järjestelmässäsi ennen kuin niitä myydään, voidaan määrittää luettelonimikkeiksi. Luettelonimikkeitä ei tule sekoittaa tavallisiin nimikkeisiin, joiden tyyppi on **Muu kuin varasto** Lisätietoja on kohdassa [Luettelonimikkeiden käsitteleminen](inventory-how-work-nonstock-items.md).  
+
+> [!NOTE]  
+> Jos eri nimiketyypeillä on nimikemalleja, ikkuna avautuu, kun luot uuden nimikekortin, jossa voit valita sopivan mallin. Jos vain yksi nimikemalli on olemassa, uudet nimikekortit käyttävät aina kyseistä mallia.
+
 ## <a name="to-create-a-new-item-card"></a>Uuden nimikekortin luominen
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Nimikkeet** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten liittyvä linkki.  
 2. Valitse **Nimikkeet**-ikkunassa **Uusi**-toiminto.
 
     Jos vain yksi nimikemalli on olemassa, uusi nimikekortti avautuu. Kortissa on kenttiä, jotka on täytetty mallin tiedoilla.
@@ -64,7 +66,7 @@ Nimikemalli lisätään nimikemallien luetteloon niin, että sen avulla voit luo
 ## <a name="to-set-up-multiple-vendors-for-an-item"></a>Useiden toimittajien määrittäminen nimikkeille  
 Jos ostat saman nimikkeen useammalta kuin yhdeltä toimittajalta, sinun tulee syöttää tietoja kustakin nimikkeen toimittajasta, esimerkiksi hinnat, toimitusaika ja alennukset.  
 
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Nimikkeet** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten liittyvä linkki.  
 2.  Valitse ensin käsiteltävä nimike ja sitten **Muokkaa**-toiminto.  
 3.  Valitse **Toimittajat**-toiminto.  
 4.  Valitse **Toimittajan nro** -kenttä, ja valitse toimittaja, jonka haluat määrittää nimikkeelle.  

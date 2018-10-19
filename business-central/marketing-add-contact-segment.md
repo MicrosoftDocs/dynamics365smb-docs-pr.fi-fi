@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect, contact, client, customer
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 0a7de9af414851d3bdcfe1a8be4d3de13929bca0
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: fd6ff4b937b059980bf7fb6a41f000edc1ab1fcf
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="add-contacts-to-segments"></a>Kontaktien lisääminen segmentteihin
 Kun olet luonut segmentin ja syöttänyt sen perustiedot, haluat ehkä lisätä segmenttiin kontakteja. Voit tehdä tämän täyttämällä rivit **Segmentti**-ikkunassa manuaalisesti, mutta nopeampi ja helpompi tapa on käyttää **Lisää kontakteja**-toimintoa.
 
 ## <a name="to-add-a-contact-to-a-segment"></a>Kontaktin lisääminen segmenttiin:
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Segmentit** ja valita sitten aiheeseen liittyvän linkin.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Segmentit** ja valitse sitten liittyvä linkki.  
 2. Valitse segmentti ja valitse sitten **Lisää kontakteja** -toiminto. **Lisää kontakteja** -eräajo-ikkuna avautuu.
 3. Määritä **Kontakti**-osassa suodattimet, joiden tietojen mukaan kontaktit valitaan.
 

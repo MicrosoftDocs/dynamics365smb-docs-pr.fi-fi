@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: fd7acef0c0c4a132eb0975f6e145ef861703afba
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 5a10b42849f283cdd77c1f754d039dbcd7515f8a
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="post-scrap-manually"></a>Hukkatavaran kirjaaminen manuaalisesti
@@ -26,7 +26,7 @@ Jos käsittelyn aikana on tuotettu hukkatavaraa, se voidaan kirjata myös tuotos
 > Hukkatavaran määrä ei lisää tuotosmäärää.  
 
 ## <a name="to-post-scrap-manually"></a>Hukkatavaran kirjaaminen manuaalisesti  
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Tuotospäiväkirja** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tuotospäiväkirja** ja valitse sitten liittyvä linkki.  
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Syötä **Hylätyn tavaran määrä** -kenttään hukkatavaran määrä.  
 4. Syötä **Hukkatavarakoodi**-kenttään hukkatavaran koodi.  

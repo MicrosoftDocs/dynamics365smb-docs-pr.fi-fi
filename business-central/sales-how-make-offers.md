@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
-ms.date: 08/08/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
-ms.openlocfilehash: 9773b849007b5c9eed52f7223338954a64583cb8
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: a234dee68d9c083e1ca9f72eec86e2ba1239398c
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/02/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="make-sales-quotes"></a>Myyntitarjousten tekeminen
@@ -26,7 +26,7 @@ Kun neuvottelet asiakkaan kanssa, voit muuttaa ja lähettää myyntitarjouksen u
 Voit täyttää myyntitarjouksen asiakkaan kentät kahdella tavalla sen mukaan, onko asiakas jo rekisteröity. Katso vaiheet 2 ja 3 seuraavassa menettelyssä.
 
 ## <a name="to-create-a-sales-quote"></a>Myyntitarjousten luominen
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Myyntitarjoukset** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitarjoukset** ja valitse sitten liittyvä linkki.
 2. Syötä **Asiakas**-kenttään nykyisen asiakkaan nimi.
 
    Muut **Myyntitarjous**-ikkunan kentät sisältävät valitun asiakkaan vakiotiedot. Jos asiakasta ei ole rekisteröity, toimi seuraavasti:
@@ -39,14 +39,16 @@ Voit täyttää myyntitarjouksen asiakkaan kentät kahdella tavalla sen mukaan, 
    Myyntitarjouksen useat kentät täytetään nyt tiedoilla, jotka olet määrittänyt uuden asiakkaan kortissa.  
 8. Täytä tarvittaessa jäljellä olevat kentät **Myyntitarjous**-ikkunassa. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-Voit nyt täyttää asiakkaille myytävien tuotteiden tai KP-tilille kirjattavan asiakastapahtuman myyntitilauksen rivit.   
+    Voit nyt täyttää asiakkaille myytävien tuotteiden tai KP-tilille kirjattavan asiakastapahtuman myyntitilauksen rivit.   
 
-Jos olet määrittänyt toistuvien myyntien rivin asiakkaalle, kuten kuukausittainen täydennystilaus, voit lisätä nämä rivit tilaukseen valitsemalla **Nouda toistuvat myyntirivit** -toiminto.  
+    Jos olet määrittänyt toistuvien myyntien rivin asiakkaalle, kuten kuukausittainen täydennystilaus, voit lisätä nämä rivit tilaukseen valitsemalla **Nouda toistuvat myyntirivit** -toiminto.  
+
 9. Valitse **Rivit**-pikavälilehden **Tyyppi**-kentässä sen tuotteen, kulun tai tapahtuman tyyppi, jonka kirjaat myyntirivin asiakkaalle.
 10. Valitse **Nro**-kenttään kirjattava tietue **Tyyppi**-kentän arvon mukaan.
 
- Jätä **Nro**-kenttä tyhjäksi seuraavissa tapauksissa: -Jos rivi on tarkoitettu kommentille. Kirjoita kommentti **Kuvaus**-kenttään.
- -Jos rivi on tarkoitettu ei-varastoitavalle nimikkeelle. Valitse **Valitse ei-varastoitavat nimikkeet** -toiminto. Lisätietoja on kohdassa [Ei-varastoitavien nimikkeiden käsitteleminen](inventory-how-work-nonstock-items.md).
+    Jätä **Nro**-kenttä tyhjäksi seuraavissa tapauksissa:
+    - Jos rivi on tarkoitettu kommentille. Kirjoita kommentti **Kuvaus**-kenttään.
+    - Jos rivi on tarkoitettu luettelonimikkeelle. Valitse **Valitse luettelonimikkeet** -toiminto. Lisätietoja on kohdassa [Luettelonimikkeiden käsitteleminen](inventory-how-work-nonstock-items.md).
 
 11. Ilmoita **Määrä**-kentässä, kuinka monta tuote-, kulu- tai tapahtumayksikköä rivi kirjaa asiakkaalle.
 
@@ -59,12 +61,16 @@ Jos olet määrittänyt toistuvien myyntien rivin asiakkaalle, kuten kuukausitta
 12. Jos haluat antaa alennuksen, anna prosentti **Rivialennus-%**-kentässä. **Rivisumma**-kentän arvo päivittyy vastaavasti.  
 
     Jos nimikkeiden erikoishinnat on määritetty asiakkaan tai nimikkeen kortin **Myyntihinnat ja myyntirivien alennukset**-pikavälilehdellä, myyntiriviin hinta ja summa päivittyvät automaattisesti, jos sovitut hinnan ehdot täyttyvät. Lisätietoja on kohdassa [Myyntihinnan, alennuksen ja maksusopimusten tallentaminen](sales-how-record-sales-price-discount-payment-agreements.md).  
-13. Toista vaiheet 9–12 jokaiselle tuotteelle, jonka haluat tarjota asiakkaalle.  
+13. Toista vaiheet 9–12 jokaiselle tuotteelle, jonka haluat tarjota asiakkaalle.
 
     Rivien kokonaissummat lasketaan automaattisesti samalla, kun rivejä luodaan ja muokataan.  
 14. Syötä **Laskun alennussumma** -kenttään summa, joka vähennetään **Yhteensä sis. ALV:n** -kentässä olevasta arvosta.
 
     Jos asiakkaalle on määritetty laskualennukset, määritetty prosenttiluvun arvo lisätään automaattisesti **Asiakkaan laskun alennus-%** -kenttään, jos ehdot täyttyvät. Liittyvä summa lisätään **Laskun alennussumma ilman ALV:a** -kenttään. Lisätietoja on kohdassa [Myyntihinnan, alennuksen ja maksusopimusten tallentaminen](sales-how-record-sales-price-discount-payment-agreements.md).
+
+    > [!TIP]
+    > Jos haluat, että **Tarjouksen voimassaolon päättymispäivä** -kohtaan täytetään automaattisesti tietty päivien määrä tarjouksen luonnin jälkeen, täytä **Tarjouksen voimassaolon laskenta** -kenttä **Myynti ja myyntisaamiset** -ikkunassa. 
+
 15. Kun myyntitarjouksen rivit ovat valmiit, valitse **Lähetä sähköpostitse** -toiminto.
 16. Täytä **Lähetä sähköpost** -ikkunassa jäljellä olevat kentät ja tarkista upotettu myyntitarjous. Lisätietoja on kohdassa [Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md).
 17. Jos asiakas hyväksyy tarjouksen, valitse **Luo lasku**- tai **Tee tilaus** -toiminto.

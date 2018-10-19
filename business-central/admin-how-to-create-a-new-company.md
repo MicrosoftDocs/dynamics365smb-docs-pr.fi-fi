@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/06/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7bf300745543ef476c6dfd7d58dc50457e694cdb
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 3b213e85e6b162e875a31f0ab69e3e1f4af9653f
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-a-new-company"></a>Uuden yrityksen luominen
@@ -28,7 +28,7 @@ Määrityspakettien esimerkit, mukaan lukien maa-/aluekohtaiset tiedostot, sisä
 
 ## <a name="to-use-the-sample-basicconfig-configuration-package"></a>BASICCONFIG-esimerkkimäärityspaketin käyttäminen  
 1. Avaa CRONUS Finland Oy -yritys. Lisätietoja on kohdassa [Perusasetusten muuttaminen](ui-change-basic-settings.md).
-2. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Määrityspaketit** ja valitse sitten aiheeseen liittyvä linkki.  
+2. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Määrityspaketit** ja valitse sitten liittyvä linkki.  
 3. Valitse BASICCONFIG-paketti luettelosta ja valitse sitten **Vie paketti** -toiminto.  
 
 Luo seuraavan menettelyn avulla uusi yritys ja käytä BASICCONFIG-pakettia prosessin osana.  

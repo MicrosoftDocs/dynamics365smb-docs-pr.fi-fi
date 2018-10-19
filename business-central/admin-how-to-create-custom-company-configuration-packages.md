@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/05/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7feaa0e41cf5800ffd51d5807a90f6929492804e
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e26174fcf723e13ef5a9ed0b386006c0439e1c7a
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-custom-company-configuration-packages"></a>Yrityksen mukautettujen määrityspakettien luominen
@@ -39,7 +39,7 @@ Toinen vaihtoehto olisi luoda paketti, joka sisältää taulukot, jotka määrit
 -   ALV-kirjausten asetukset  
 -   Varastokirjauksien asetukset  
 
-Näet asetustaulukoiden täydellisen luettelon valitsemalla ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvakkeen, syöttämällä **Asetukset** ja valitsemalla sitten aiheeseen liittyvän linkin.  
+Jos haluat nähdä asetustaulukoiden täydellisen luettelon, valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asetukset** ja valitse sitten liittyvä linkki.  
 
 ## <a name="to-create-a-custom-company-configuration-package"></a>Yrityksen mukautetun määrityspaketin luominen  
 1.  Luo uusi [!INCLUDE[d365fin](includes/d365fin_md.md)]. ***EI MAHDOLLISTA - linkki Uuden vuokraajan luominen -ohjeeseen***.   

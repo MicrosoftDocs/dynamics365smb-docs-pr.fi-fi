@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 91928287d24c2b6199ea243bdc00e48e136adcfd
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 77c6711c619d8f54597648a5addcdf831a6ef8a5
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-service-quotes"></a>Huoltotarjousten luominen
@@ -25,7 +25,7 @@ Huoltotarjoukset voidaan mieltää huoltotilausten pohjaksi. Ne ovatkin itse asi
 Voit käyttää huoltotarjousta huoltotilauksen luonnoksena ja muuntaa tarjouksen sitten huoltotilaukseksi.  
   
 ## <a name="to-create-a-service-quote"></a>Huoltotarjousten luominen  
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Huoltotarjoukset** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltotarjoukset** ja valitse sitten liittyvä linkki.  
 2. Luo uusi huoltotarjous.  
 3. Valitse **Nro**-kenttään numero huoltotarjoukselle. Vaihtoehtoisesti jos olet määrittänyt huoltotarjouksille numerosarjan **Huoltohallinnon asetukset**-ikkunassa, voit painaa Enter, jolloin ohjelma syöttää seuraavan saatavilla olevan huoltotarjouksen numeron.  
 4. Syötä **Asiakasnro** -kentässä  asiamukainen asiakas luettelosta.  

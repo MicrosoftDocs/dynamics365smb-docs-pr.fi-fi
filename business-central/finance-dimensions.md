@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 01/25/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 349a4d54a95999e3e2c2b19cc2a40c2dd1afd445
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 13e1cd1e772ed01b6503a30ef940054b0973f70f
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="working-with-dimensions"></a>Dimensioiden käyttäminen
@@ -56,7 +56,7 @@ Voit määrittää myös joitakin globaaleja dimensioita ja pikadimensioita:
 ### <a name="setting-up-default-dimensions-for-customers-vendors-and-other-accounts"></a>Oletusdimensioiden määrittäminen asiakkaille, toimittajille ja muille tileille
 Voit määrittää oletusdimension tietylle tilille. Dimensio kopioidaan päiväkirjaan tai asiakirjaan, kun lisäät tilinumeron riville, mutta voit tarvittaessa poistaa koodin rivillä tai muuttaa sitä. Voit määrittää myös dimension, jota tarvitaan tietyn tyyppisen tilitapahtuman kirjaamiseen.  
 
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Dimensiot** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Dimensiot** ja valitse sitten liittyvä linkki.  
 2.  Valitse ensin **Dimensiot**-ikkunassa sopiva dimensio ja sitten **Tilityypin oletusdimensio** -toiminto.  
 4.  Täytä rivi kutakin uutta oletusdimensiota varten, jonka haluat määrittää. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -72,7 +72,7 @@ Voit määrittää oletusdimension tietylle tilille. Dimensio kopioidaan päivä
 ### <a name="to-set-up-default-dimension-priorities"></a>Oletus dimensioprioriteettien luominen  
 Eri tilityypeille, esimerkiksi asiakas- ja nimiketileille, voi olla määritelty erilaiset oletusdimensiot. Siten ohjelma voi ehdottaa tapahtumalle useampaa kuin yhtä oletusdimensiota. Jotta sellaisia ristiriitatilanteita ei syntyisi, voit soveltaa eri lähteisiin prioriteettisääntöjä.  
 
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Oletusdimensioprioriteetit** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Oletusdimensioprioriteetit** ja valitse sitten liittyvä linkki.  
 2.  Kirjoita **Oletusdimensioprioriteetit**-ikkunassa **Lähdekoodi**-kenttään sen tapahtumataulukon lähdekoodi, johon oletusdimension prioriteetteja sovelletaan.  
 3.  Täytä rivi kutakin oletusdimension prioriteettia varten, jonka haluat valitulle lähdekoodille.
 4.  Toista vaiheet kullekin lähdekoodille, jolle haluat määrittää oletusdimension prioriteetit.  
@@ -83,7 +83,7 @@ Eri tilityypeille, esimerkiksi asiakas- ja nimiketileille, voi olla määritelty
 ### <a name="to-set-up-dimension-combinations"></a>Dimensioiden kombinaatioiden luominen  
 Kun haluat estää sellaisten tapahtumien kirjauksen, joissa on väärät tai keskenään ristiriitaiset dimensiot, voit lukita tai rajoittaa tiettyjä kahden kombinaation yhdistelmiä. Lukittu dimensioyhdistelmä tarkoittaa, että et voi kirjata molempia dimensioita samaan tapahtumaan, riippumatta dimension arvoista. Rajoitettu dimensioyhdistelmä sallii molempien dimensioiden kirjaamisen samaan tapahtumaan, mutta vain tiettyjen dimension arvoyhdistelmien osalta.
 
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Dimension kombinaatiot** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Dimension kombinaatiot** ja valitse sitten liittyvä linkki.  
 2.  Valitse **Dimension kombinaatiot**-ikkunassa dimensioyhdistelmän kentässä ja valitse jokin seuraavista vaihtoehdoista:  
 
     |Kenttä|Description|
@@ -163,7 +163,7 @@ Globaalit dimensiot ovat aina yrityskohtaisia ja yrityksen nimeämiä. Voit tark
 
 Tapahtumaikkunasta näet, onko tapahtumille globaaleja dimensioita. Kaksi globaalia dimensiota eroavat muista siinä, että niitä voi käyttää suodattimena missä tahansa [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman osassa.  
 
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Tilikartta** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tilikartta** ja valitse sitten liittyvä linkki.  
 2.  Valitse **Tilikartta**-ikkunassa **Tapahtumakirjaukset**-toiminto.  
 3.  Jos haluat nähdä vain merkitykselliset tapahtumat, määritä ikkunassa vähintään yksi suodatin.  
 4.  Jos haluat nähdä tapahtuman kaikki dimensiot, valitse ensin tapahtuma ja sitten **Dimensiot**-toiminto.  

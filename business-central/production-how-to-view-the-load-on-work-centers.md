@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e2256067a3a7abf253276b61a26b075c04bf8e70
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: dd1bfde6dcffffa65ab58591d891a9f8b179a7eb
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="view-load-on-work-and-machine-centers"></a>Tuotantosolujen ja kuormituskeskusten kuormituksen tarkasteleminen
 Voit tarkastella **Tuotantosolukortti**- ja **Kuormitusryhmän kortti** -ikkunoissa suunniteltujen ja vapautettujen tuotantotilausten seurauksena syntyvää tuotannon kuormitusta.    
 
 ## <a name="to-view-the-load-on-work-centers"></a>Tuotantosolujen kuormituksen näyttäminen  
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Tuotantosolut** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Työkeskukset** ja valitse sitten liittyvä linkki.  
 2.  Avaa luettelossa käsiteltävä **Tuotantosolukortti** ja valitse sitten **Kuormitus**-toiminto.  
 
 Valitse jakso **Vaihtoehdot**-pikavälilehden **Näyttöperuste**- ja **Näyttömuoto**-kenttien avulla.  

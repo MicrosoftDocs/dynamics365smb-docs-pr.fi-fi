@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 825e901b4126dc1ba317527862eb459559ecb538
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: f930a9a2e303c0dcc0a3604cc43b919690d6f96f
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Vaihekuvaus: Ostojen hyväksyntä -työnkulun määrittäminen ja käyttäminen
@@ -58,7 +58,7 @@ Sinun on luotava paikalliseen tietokoneeseen ja [!INCLUDE[d365fin](includes/d365
 7.  Sulje **Paikalliset käyttäjät ja ryhmät** -ikkuna.  
 
 ### <a name="to-add-alicia-as-a-user-in-included365finincludesd365finmdmd"></a>Alicia lisääminen [!INCLUDE[d365fin](includes/d365fin_md.md)]iin käyttäjänä  
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Käyttäjät** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttäjät** ja valitse sitten liittyvä linkki.  
 2.  Valitse **Windows-käyttäjät** -ikkunan **Koti**-välilehden **Uusi**-ryhmässä **Uusi**.  
 3.  Anna -**Käyttäjän kortti** -ikkunan **Käyttäjänimi**-kenttään Alicia.  
 4.  Valitse **Windows-käyttäjänimi**-kentässä AssistEdit.  
@@ -72,7 +72,7 @@ Sinun on luotava paikalliseen tietokoneeseen ja [!INCLUDE[d365fin](includes/d365
 Käyttämällä Windows-käyttäjää, joka on juuri luotu, määritä Alicia hyväksyjäkäyttäjäksi, jonka hyväksyjä olet itse. Aseta hyväksyntäoikeutesi ja määritä, miten ja milloin sinulle ilmoitetaan hyväksymispyynnöt.  
 
 ### <a name="to-set-up-yourself-and-alicia-as-approval-users"></a>Määritä itsesi ja Alicia hyväksyjäkäyttäjiksi  
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Hyväksynnän käyttäjäasetukset** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Hyväksynnän käyttäjäasetukset** ja valitse sitten liittyvä linkki.  
 2.  Valitse **Hyväksynnän käyttäjäasetukset** -ikkunan **Koti**-välilehden **Uusi**-ryhmässä **Uusi**.  
 
     > [!NOTE]  
@@ -103,7 +103,7 @@ Määritä, miten ja milloin ilmoitetaan hyväksymispyynnöt.
  Luo ostotilauksen hyväksymisen työnkulku kopioimalla vaiheet ostotilauksen hyväksymisen työnkulun mallista. Jätä ennalleen nykyisen työnkulun vaiheet ja ota työnkulku käyttöön.  
 
 ### <a name="to-create-and-enable-a-purchase-order-approval-workflow"></a>Ostotilauksen hyväksymisen työnkulun luominen ja lähettäminen  
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Työnkulut** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Työnkulut** ja valitse sitten liittyvä linkki.  
 2.  Valitse **Työnkulut**-ikkunan **Toiminnot**-välilehden **Yleiset**-ryhmässä **Luo työnkulku mallista**.  
 3.  Valitse **Toiminnot**-välilehden **Yleiset**-ryhmässä **Luo työnkulku mallista**. **Työnkulkumallit**-ikkuna avautuu.  
 4.  Valitse työnkulkumalli nimeltä Ostotilauksen hyväksymistyönkulku ja valitse sitten **OK**.  
@@ -115,7 +115,7 @@ Määritä, miten ja milloin ilmoitetaan hyväksymispyynnöt.
 Varmista, että järjestelmäsi työjono on määritetty käsittelemään työnkulun ilmoituksia.  
 
 ### <a name="to-start-the-notify-job-queue"></a>Käynnistä ILMOITA-työjono  
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Työjonot** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Työjonot** ja valitse sitten liittyvä linkki.  
 2.  Valitse **Työjonot**-ikkunassa ILMOITA-työjonon rivi ja valitse sitten **Kotisivu**-välilehden **Käsittely**-ryhmässä **Käynnistä työjono**.  
 
 ## <a name="using-the-approval-workflow"></a>Hyväksymisen työnkulun käyttäminen  
@@ -133,7 +133,7 @@ Voit kirjautua [!INCLUDE[d365fin](includes/d365fin_md.md)]iin eri käyttäjänä
 
 ### <a name="to-request-approval-of-a-purchase-order-as-alicia"></a>Pyydä hyväksyntä ostotilaukseen, Aliciana  
 
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Ostotilaukset** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostotilaukset** ja valitse sitten liittyvä linkki.  
 2.  Valitse rivi, jossa on ostotilaus 104001. Valitse sitten **Koti**-välilehdessä **Hallinta**-ryhmässä **Muokkaa**.  
 3.  Valitse **Ostotilaus**-ikkunan **Toiminnot**-välilehden **Hyväksyntä**-ryhmässä **Lähetä hyväksymispyyntö**.  
 

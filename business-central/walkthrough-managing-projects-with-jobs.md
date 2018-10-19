@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/07/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d84006db69beee153aeecdd38ecfcae197c1ad9f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 11c1f56847102ed5f1b323a54bdcfb263c0fdda9
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Vaihekuvaus: Projektinhallinta Projektit-sovellusalueen avulla
@@ -76,7 +76,7 @@ Tämä vaihekuvaus keskittyy suunnittelu- ja konsulttiyritykseen CRONUS Finland 
 
 ### <a name="to-prepare-the-sample-data"></a>Esimerkkitietojen valmisteleminen  
 
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Resurssit** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Resurssit** ja valitse sitten liittyvä linkki.  
 2.  Luo uusi resurssin kortti valitsemalla **Uusi**-toiminto.  
 3.  Anna **Yleiset**-pikavälilehdessä seuraavat tiedot:  
 
@@ -99,7 +99,7 @@ Tämä vaihekuvaus keskittyy suunnittelu- ja konsulttiyritykseen CRONUS Finland 
 
 ### <a name="to-create-a-job-journal-batch"></a>Luo uusi päiväkirjan erä.  
 
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Projektipäiväkirjat** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektipäiväkirjat** ja valitse sitten liittyvä linkki.  
 2.  Valitse **Projektipäiväkirja**-ikkunassa **Erän nimi**-kenttä. **Projektipäiväkirjan erät** -ikkuna avautuu.  
 3.  Valitse **Uusi**-toiminto, jos haluat luoda uuden rivin, jolla ovat seuraavat tiedot:  
 
@@ -114,7 +114,7 @@ Tämä vaihekuvaus keskittyy suunnittelu- ja konsulttiyritykseen CRONUS Finland 
 
 ### <a name="to-set-up-a-job"></a>Projektin määrittäminen  
 
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Projektit** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektit** ja valitse sitten liittyvä linkki.  
 2.  Luo uusi kortti valitsemalla **Uusi**-toiminto.  
 3.  Anna **Yleiset**-pikavälilehdessä seuraavat tiedot:  
 
@@ -235,7 +235,7 @@ Tämä vaihekuvaus keskittyy suunnittelu- ja konsulttiyritykseen CRONUS Finland 
 
 ### <a name="to-calculate-remaining-usage"></a>Jäljellä olevan käytön laskeminen  
 
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Projektipäiväkirjat** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektipäiväkirjat** ja valitse sitten liittyvä linkki.  
 2.  Avaa **Projektipäiväkirjan erät** -luettelo napsauttamalla **Projektipäiväkirja**-ikkunan **Erän nimi** -kentässä. Valitse **Tricia**-projektipäiväkirjan erä.  
 3.  Valitse **Laske jäljellä oleva käyttö** -toiminto.  
 4.  Valitse **Laske projektin jäljellä oleva käyttö** -kentän **Projektitehtävä**-pikavälilehdessä **Projektinro**-kenttä ja valitse sitten asianmukainen projektin numero, tyypillisesti projekti J00010.  
@@ -251,7 +251,7 @@ Tämä vaihekuvaus keskittyy suunnittelu- ja konsulttiyritykseen CRONUS Finland 
 
 ### <a name="to-create-a-job-sales-invoice"></a>Projektin myyntilaskun luominen  
 
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Projektit** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektit** ja valitse sitten liittyvä linkki.  
 2.  Valitse ensin aiemmin luotu projekti ja sitten **Luo projektin myyntilasku** -toiminto.  
 3.  Tyhjennä **Projektitehtävä**-pikavälilehden **Projektitehtävänro**-kentässä kaikki suodattimet, jotta työ voidaan laskuttaa. Valitse **Projektinro**-kentässä asianmukainen projekti.  
 4.  Anna **Vaihtoehdot**-pikavälilehdessä kirjauspäivämäärä ja määritä, haluatko luoda yhden laskun tehtävää kohti vai yhden laskun kaikille tehtäville.  
@@ -261,7 +261,7 @@ Tämä vaihekuvaus keskittyy suunnittelu- ja konsulttiyritykseen CRONUS Finland 
 
 ### <a name="to-post-a-new-sales-invoice"></a>Uuden myyntilaskun kirjaaminen  
 
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Myyntilaskut** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntilaskut** ja valitse sitten liittyvä linkki.  
 2.  Avaa sen asiakkaan lasku, jonka asiakkaan numero on 01445544. Suunnitteluriveiltä lisätyt tiedot tulevat näkyviin.  
 3.  Valitse **Kirjaa**-toiminto. Vahvista kirjaus valitsemalla **Kyllä**.  
 
@@ -275,7 +275,7 @@ Tämä vaihekuvaus keskittyy suunnittelu- ja konsulttiyritykseen CRONUS Finland 
 
 ### <a name="to-open-the-statistics-window"></a>Tilasto-ikkunan tuominen näkyviin  
 
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Projektit** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektit** ja valitse sitten liittyvä linkki.  
 2.  Valitse **Tilastot**-toiminto. Voit tarkastella yksityiskohtaisia tietoja projektihinnoista, kustannuksista ja paikallisista ja ulkomaisista valuuttojen voitoista.  
 3.  Valitse **Sulje**-painike **Projektin tilastot** -ikkunan sulkemiseksi.  
 
@@ -284,7 +284,7 @@ Tämä vaihekuvaus keskittyy suunnittelu- ja konsulttiyritykseen CRONUS Finland 
 
 ### <a name="to-manage-fixed-pricing-in-jobs"></a>Kiinteän hinnoittelun hallinta projekteissa  
 
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Projektit** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektit** ja valitse sitten liittyvä linkki.  
 2.  Valitse ensin **Espoo**-projektinumero ja sitten **Projektitehtävärivit**- toiminto.  
 3.  Valitse rivi 1120 ja napsauta **Aikataulu (kokonaiskustannus)** -kentässä hiiren kakkospainikkeella **Siirtyminen**.  
 
@@ -306,7 +306,7 @@ Tämä vaihekuvaus keskittyy suunnittelu- ja konsulttiyritykseen CRONUS Finland 
 
 ### <a name="to-enter-hours-in-the-job-journal"></a>Tuntien lisääminen projektipäiväkirjaan  
 
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Projektipäiväkirjat** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektipäiväkirjat** ja valitse sitten liittyvä linkki.  
 2.  Lisää seuraavat tiedot uudelle riville:  
 
     -   **Rivityyppi**: **(tyhjä)**  
@@ -365,7 +365,7 @@ Tämä vaihekuvaus keskittyy suunnittelu- ja konsulttiyritykseen CRONUS Finland 
 
 ### <a name="to-copy-a-job"></a>Projektin kopioiminen  
 
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Projektit** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektit** ja valitse sitten liittyvä linkki.  
 2.  Luo uusi projekti valitsemalla **Uusi**-toiminto. Anna seuraavat tiedot:  
 
     -   **Kuvaus**: **10 kokoushuoneen sisustaminen**  
@@ -390,7 +390,7 @@ Tämä vaihekuvaus keskittyy suunnittelu- ja konsulttiyritykseen CRONUS Finland 
 
 ### <a name="to-set-up-a-new-account"></a>Uuden tilin luominen  
 
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Tilikartta** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tilikartta** ja valitse sitten liittyvä linkki.  
 2.  Luo uusi kortti valitsemalla **Tilikartta**-ikkunassa **Uusi**.  
 3.  Lisää seuraavat tiedot uuteen **KP-tilin korttiin**:  
 

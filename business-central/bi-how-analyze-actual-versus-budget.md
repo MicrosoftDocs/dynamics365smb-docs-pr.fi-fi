@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 01/25/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 900a14c46a6e5c027b3cf8888bb59765902e50cb
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 17a6368e5a25ad12db05825b863ce29cd329cd39
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="analyze-actual-amounts-versus-budgeted-amounts"></a>Todellisten summien analysointi budjetoituihin summiin nähden
@@ -27,7 +27,7 @@ Budjetoitujen summia analysointia varten on ensin luotava KP-budjetteja. Lisäti
 ## <a name="to-view-a-gl-budget"></a>KP-budjetin tarkastelu
 Budjetissa, jossa on dimensioita, voi suodattaa tapahtumia ja siten tarkastella tiettyjä budjetteja.
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **KP-budjetit** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KP-budjetit** ja valitse sitten liittyvä linkki.
 2. Avaa **KP-budjetit** -ikkunassa talousarvio, jota haluat tarkastella.  
 3. Täyttämällä ikkunan yläosan kentät määrität, mitä näytetään. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -43,7 +43,7 @@ Budjetissa, jossa on dimensioita, voi suodattaa tapahtumia ja siten tarkastella 
 ## <a name="to-view-actual-and-budgeted-amounts-for-all-accounts"></a>Todellisten ja budjetoitujen summien tarkastelu kaikkien tilien osalta  
 Pääkirjanpidon budjettien tarkastelu ja niiden vertaaminen todellisiin lukuihin useilla [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman osa-alueilla.
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Tilikartta** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tilikartta** ja valitse sitten liittyvä linkki.  
 2. Valitse **Tilikartta** -ikkunassa **KP-saldo/-budjetti**-toiminto.
 3. Täyttämällä ikkunan yläosan kentät määrität, mitä näytetään.  
 4. Valitse kenttä nähdäksesi määrityksen, josta näkyvä summa muodostuu.  
@@ -59,7 +59,7 @@ Vasemmanpuoleisimmisssa sarakkeissa on tilikartta. Oikealla olevista viidestä s
 ## <a name="to-view-actual-and-budgeted-amounts-for-several-periods"></a>Useiden jaksojen todellisten ja budjetoitujen summien tarkastelu  
 Sen sijaan että tarkastelisit todellisia ja budjetoituja summia kaikkien tilien osalta yhdeltä kaudelta, voit tarkastella useita yhden tilin kausia.  
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Tilikartta** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tilikartta** ja valitse sitten liittyvä linkki.  
 2. Valitse **Tilikartta**-ikkunassa haluamasi KP-tili ja valitse sitten **KP-tilin saldo/budjetti** -toiminto.  
 3. Täyttämällä ikkunan yläosan kentät määrität, mitä näytetään.   
 4. Valitse kenttä nähdäksesi näkyvän summan määrityksen.  

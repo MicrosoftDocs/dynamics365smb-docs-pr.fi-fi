@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/18/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 015a5ff634e179dff4b51d6387a59f78ae666bc7
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: a5282d20a1d9add984a70bc63e93fb32c3278f30
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-electronic-document-sending-and-receiving"></a>Sähköisten asiakirjojen vastaanottamisen ja lähettämisen määrittäminen
@@ -83,7 +83,7 @@ Ohjeaihe sisältää seuraavat toimintosarjat:
 
     |Kenttä|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Kansainvälisen standardin koodi**|Määritä UNECERec20-standardin mukainen mittayksikkö, jota käytät sähköisten asiakirjojen lähettämisessä.<br /><br /> Jos esimerkiksi lähetät sähköisiä laskuja PEPPOL-formaatissa, tämän kentän arvoa käytetään täyttämään **InvoicedQuantity**-elementin **unitCode** -määrite tiedoston **InvoiceLine** -solmussa. **Huomautus:** Jos myyntirivin **Mittayksikkö**-kenttä on tyhjä, UNECERe20-standardin mukainen Kappale" \(H87\) -arvo täytetään oletusarvoisesti. Lisätietoja mittayksiköistä ja kelvollisten mittayksikkökoodien luettelo on asiakirjassa [Recommendation No. 20\-Units of Measure used in International Trade](http://www.unece.org/fileadmin/DAM/cefact/recommendations/rec20/rec20_rev3_Annex2e.pdf).|  
+    |**Kansainvälisen standardin koodi**|Määritä UNECERec20-standardin mukainen mittayksikkö, jota käytät sähköisten asiakirjojen lähettämisessä.<br /><br /> Jos esimerkiksi lähetät sähköisiä laskuja PEPPOL-formaatissa, tämän kentän arvoa käytetään täyttämään **InvoicedQuantity**-elementin **unitCode** -määrite tiedoston **InvoiceLine** -solmussa. **Huomautus:** Jos myyntirivin **Mittayksikkö**-kenttä on tyhjä, UNECERe20-standardin mukainen Kappale" \(H87\) -arvo täytetään oletusarvoisesti. Lisätietoja mittayksiköistä ja kelvollisten mittayksikkökoodien luettelo on asiakirjassa [Recommendation No. 20\-Units of Measure used in International Trade](https://www.unece.org/fileadmin/DAM/cefact/recommendations/rec20/rec20_rev3_Annex2e.pdf).|  
 
 ### <a name="to-set-up-customers-for-electronic-document-sending"></a>Asiakkaiden määrittäminen sähköisten asiakirjojen lähettämistä ja vastaanottamista varten  
 1. Syötä **Etsi**-ruudussa **Asiakkaat** ja valitse sitten vastaava linkki.  

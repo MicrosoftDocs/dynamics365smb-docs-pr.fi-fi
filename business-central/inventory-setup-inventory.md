@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 01/12/2018
+ms.date: 10/01/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 62eee7532e457721430cb31519b5acb23e95bfcb
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 8e4033412560e8dc847397c4399e12985490bf78
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="setting-up-inventory"></a>Varaston määrittäminen
@@ -31,7 +31,8 @@ Kun olet määrittänyt varaston, voit hallita nimiketapahtumien liittyviä eril
 | Määritä yleiset varastoasetukset, kuten numerosarjat ja sijaintien käyttötapa. |[Yleisten varastotietojen määrittäminen](inventory-how-setup-general.md) |
 |Määritä tehokas jakelumallin, joka sisältää liikekumppaneille tai työntekijöille määritetyn eri sijaintien ja vastuupaikkojen yhdistelmän.|[Vastuupaikkojen käyttäminen](inventory-responsibility-centers.md)|
 | Järjestele varastonhallinta usealle sijainnille, mukaan lukien siirtoreitit. |[Sijaintien määrittäminen](inventory-how-register-new-items.md) |
-| Luo niille varastonimikkeille nimikekortit, joilla käyt kauppaa. |[Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md) |
+| Luo nimikkeen kortteja varasto- tai huoltonimikkeille tai muille kuin varastonimikkeille, joilla käyt kauppaa. |[Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md) |
+|Lisätietoja **Tyyppi**-kentän täyttämisestä nimikkeen korteissa liiketoiminnan tarkoituksen mukaan.|[Tietoja nimiketyypeistä](inventory-about-item-types.md)| 
 |Määritä nimikkeelle useita vaihtoehtoisia mittayksiköitä, joita voit esimerkiksi myynti-, osto- tai tuotantotapahtumissa.|[Nimikkeen mittayksiköiden määrittäminen](inventory-how-setup-units-of-measure.md)|
 |Täydennä nimike kortteja tallentamalla niihin tietoja nimikkeestä tietyn sijainnin ja/tai tietyn varianttikoodin perusteella.|[Varastointiyksiköiden määrittäminen](inventory-how-to-set-up-stockkeeping-units.md)|
 | Kun määrität nimikkeitä luokkiin ja annat niille määritteitä, nimikkeiden etsiminen helpottuu. |[Nimikkeiden luokitteleminen](inventory-how-categorize-items.md) |

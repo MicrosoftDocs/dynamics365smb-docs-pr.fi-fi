@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/16/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2f836cbceb3bd7580c3cbc48315a040e8338748b
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: f14191eb0a7b7564f5079a53bd90dfc39f176326
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-reports-with-xbrl"></a>Luo raportteja XBRL-linkityksellä.
@@ -66,7 +66,7 @@ Kun olet tuonut tai päivittänyt taksonomian, mallien riveille tulee antaa kaik
 
 XBRL-rivit määritellään linkittämällä taksonomiatiedot pääkirjanpitosi tietoihin.  
 
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **XBRL-taksonomiat** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **XBRL-taksonomiat** ja valitse sitten liittyvä linkki.  
 2.  Valitse **XBRL-taksonomiat**-ikkunassa luokitus luettelosta.  
 3.  Valitse **Rivit**-toiminto.  
 4.  Valitse rivi ja täytä kentät.   
@@ -83,7 +83,7 @@ XBRL-rivit määritellään linkittämällä taksonomiatiedot pääkirjanpitosi 
  ## <a name="to-import-an-xbrl-taxonomy"></a>XBRL-taksonomian tuominen  
 Ensimmäinen vaihe XBRL-toiminnon käytössä on se, että tuot taksonomian yrityksesi tietokantaan. Taksonomia koostuu yhdestä tai useammasta mallista ja joistakin linkkikannoista. Kun olet tuonut sekä malli(t) että linkkikannat ja kohdistanut linkkikannat malliin, voit määrittää rivit ja kohdistaa oikeat KP-tilit oikeisiin taksonomian riveihin.  
 
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **XBRL-taksonomiat** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **XBRL-taksonomiat** ja valitse sitten liittyvä linkki.  
 2.  Luo **XBRL-taksonomiat**-ikkunassa uusi rivi ja kirjoita taksonomian nimi ja kuvaus.  
 3.  Valitse ensin **Mallit** ja lisää sitten mallin kuvaus.  
 4.  Tuo malli valitsemalla **XBRL-mallit**-ikkunassa ensin **Tuo**-toiminto ja sitten kansio ja XSD-tiedosto. Valitse **Avaa**-painike.  
@@ -97,7 +97,7 @@ Ensimmäinen vaihe XBRL-toiminnon käytössä on se, että tuot taksonomian yrit
 ## <a name="to-update-an-xbrl-taxonomy"></a>XBRL-taksonomian päivittäminen  
 Kun taksonomia muuttuu tulee nykyinen taksonomia päivittää sen mukaiseksi. Syy päivitykseen voi olla muutos mallissa, linkkikannassa tai uusi linkkikanta. Taksonomian päivittämisen jälkeen tulee vain linkittää rivit muuttuneiden ja uusien rivien kohdalla.  
 
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **XBRL-taksonomiat** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **XBRL-taksonomiat** ja valitse sitten liittyvä linkki.  
 2.  Valitse **XBRL-taksonomiat**-ikkunassa **Mallit**-toiminto.  
 3.  Voit päivittää mallin valitsemalla ensin päivitettävän mallin ja sitten **Tuo**-toiminnon.  
 4.  Päivitä tai lisää uusi linkkikanta valitsemalla **Linkkikannat**-toiminnon.  

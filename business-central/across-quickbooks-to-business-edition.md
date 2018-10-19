@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, import, migrate, data, transfer, QuickBooks, customize
-ms.date: 09/25/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 4fceff1a6cf728608a49182a9704f187d31767fe
-ms.openlocfilehash: a2e2140a6a86391272882d4fbe8bf9e9b2cc5ae2
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: badf86b9fefad8019b6bee5b8edcbaa1aebf8a6d
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -34,7 +34,7 @@ Lue lisää QuickBooks-sovellukseen sopivasta laajennuksesta:
 * [QuickBooks Online -tietojen siirtolaajennus](ui-extensions-quickbooks-online-data-migration.md)
 
 ## <a name="ready-now"></a>Oletko valmis aloittamaan?
-Jos olet valmis aloittamaan käytön nyt, valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Asetusten ohjattu määritys** ja valitse sitten liittyvä linkki. Valitse **Siirrä liiketoimintatiedot** ja noudata oppaan ohjeita.
+Jos olet valmis aloittamaan käytön nyt, valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita **Asetusten ohjattu määritys** ja valitse sitten liittyvä linkki. Valitse **Siirrä liiketoimintatiedot** ja noudata oppaan ohjeita.
 
 ## <a name="see-also"></a>Katso myös
 [Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md)  

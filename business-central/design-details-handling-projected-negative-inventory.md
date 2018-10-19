@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 19d7e142ebe10926b2caa6da2ddf6faae486bebd
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 25a2017fd91f09a9d7725c68ffaa0df48a041294
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-handling-projected-negative-inventory"></a>Rakennetiedot: suunnitellun negatiivisen varaston käsittely
@@ -28,28 +28,20 @@ Jälkitilauspiste ilmaisee ennakkokysynnän nimikkeen läpimenoajan aikana. Kun 
 
  Seuraavassa kuvassa tarjonta D vastaa hätätilausta negatiivisen varaston muuttamiseksi.  
 
- ![](media/nav_app_supply_planning_2_negative_inventory.png "NAV_APP_supply_planning_2_negative_inventory")  
+ ![Hätätilanteen suunnitteluehdotus negatiivisen varaston välttämiseksi](media/nav_app_supply_planning_2_negative_inventory.png "Hätätilanteen suunnitteluehdotus negatiivisen varaston välttämiseksi")  
 
 1.  Tarjonta **A**, alunperin suunniteltu varasto, on jälkitilauspisteen alapuolella.  
-
 2.  Luodaan uusi eteenpäin aikataulutettu tarjonta (**C**).  
 
      (Määrä = enimmäisvarasto – suunniteltu varastotaso)  
-
 3.  Tarjonta **A** on suljettu kysynnän **B** johdosta, jota ei täysin katettu.  
 
      (Tarjonta **B** voi yrittää aikatauluttaa tarjontaa C, mutta se ei tapahdu aikavälikäsitteen mukaisesti.)  
-
 4.  Uusi tarjonta (**D**) on luotu kattamaan jäljellä olevan määrän kysynnässä **B**.  
-
 5.  Kysyntä **B** on suljettu (luodaan muistutusta suunniteltuun varastoon).  
-
 6.  Uusi tarjonta **D** on suljettu.  
-
 7.  Suunniteltu varasto on valittuna; uusintatilauspistettä ei ole ylitetty.  
-
 8.  Tarjonta **C** on suljettu (kysyntää ei enää ole).  
-
 9. Lopullinen tarkastus: avoimia varaston tason muistutuksia ei ole olemassa.  
 
 > [!NOTE]  

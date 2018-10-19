@@ -9,16 +9,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/09/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: a1ab45cb40669beb901da59469a02bd58b86d3ac
-ms.openlocfilehash: 8782fae0935a609cb991fe869907d9cd8fceccd9
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 79e532dd8cba1daf34362f7050d320778b23c85f
 ms.contentlocale: fi-fi
-ms.lasthandoff: 04/09/2018
+ms.lasthandoff: 09/28/2018
 
 ---
-# <a name="the-microsoft-pay-extension-to-included365finincludesd365finlongmdmd"></a>[!INCLUDE[d365fin](includes/d365fin_long_md.md)]in Microsoft Pay -laajennus
+# <a name="the-microsoft-pay-extension"></a>Microsoft Pay -laajennus
 Asiakkaat vaativat jatkuvasti yhä korkeatasoisempaa asiakaspalvelua sekä tuotteen laadun että toimituksen ja maksupalvelujen osalta. Voit parantaa asiakaspalvelun tasoa Microsoft Pay -palvelun avulla.
 
 Microsoft Pay -laajennus lisää Microsoft Pay -linkin myyntiasiakirjoihin, joten asiakkaiden on helppo maksaa Microsoft Pay -palvelun avulla. Voit sitten voit lähettää asiakirjojat sähköpostitse, mikä parantaa asiakaspalvelua ja nopeuttaa asiakkaiden maksujen saapumista pankkitilille.

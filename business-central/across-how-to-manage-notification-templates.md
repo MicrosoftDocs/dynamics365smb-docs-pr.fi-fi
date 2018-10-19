@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d6c7637527c9a93024ee62dbdd32ba63d665661d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 31a6cd72e7e7c3fda27803a995b7282c8a2c3751
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="manage-notification-templates"></a>Ilmoitusmallien hallinta
@@ -27,7 +27,7 @@ Työnkulun käyttäjille lähetetään ilmoituksia suoritettavista osavaiheista 
  [!INCLUDE[d365fin](includes/d365fin_md.md)]in yleisessä versiossa on kolme ilmoitusmallia. Yksi niistä on tarkoitettu hyväksyntäpyynnöille, yksi uusista tietueista ilmoittamiseen ja yksi myöhässä olevista hyväksyntäpyynnöistä ilmoittamiseen. Kolmen ennalta määritetyn ilmoitusmallin ilmoitusmenetelmänä voi käyttää **sähköpostia** ja **muistiinpanoa**. Jos haluat tarkastella näiden kolmen ilmoitusmallin sisältöä, katso lisätietoja tämän ohjeaiheen kohdasta "Ilmoitusmallien sisältö".
 
 ## <a name="to-create-a-new-notification-template"></a>Uuden ilmoitusmallin luominen  
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Ilmoitusmallit** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ilmoitusmallit** ja valitse sitten liittyvä linkki.  
 2.  Valitse **Ilmoitusmallit**-ikkunassa **Uusi**-toiminto.  
 3.  Täytä kentät seuraavassa taulukossa kuvatulla tavalla.  
 
@@ -40,7 +40,7 @@ Työnkulun käyttäjille lähetetään ilmoituksia suoritettavista osavaiheista 
     |**Oletus**|Määritä, käytetäänkö ilmoitusmallia oletuksena.|  
 
 ## <a name="to-modify-a-notification-template"></a>Ilmoitusmallin muokkaaminen  
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Ilmoitusmallit** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ilmoitusmallit** ja valitse sitten liittyvä linkki.  
 2.  Valitse **Ilmoitusmallit**-ikkunassa muokattava ilmoitusmalli.  
 3.  Valitse **Vie mallin sisältö** -toiminto.  
 4.  Valitse **Vie tiedosto** -ikkunassa **Tallenna**-painike. Nimeä HTML-tiedosto ja tallenna se sopivaan paikkaan.  

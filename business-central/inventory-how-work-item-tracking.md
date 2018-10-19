@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 04/17/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
-ms.openlocfilehash: 2e764a915f1c4b258f0163f355653be81924ba96
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b31619fd1d76be71af9408f1c20be35846cef114
 ms.contentlocale: fi-fi
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="work-with-serial-and-lot-numbers"></a>Sarja- ja eränumeroiden käsitteleminen
@@ -55,13 +55,14 @@ Jos käytät **Nimikkeen seurantarivit** -ikkunaa pitkään tai teet paljon muut
 ## <a name="to-set-up-item-tracking-codes"></a>Nimikkeen seurantakoodien määrittäminen
 Nimikkeen seurantakoodi kuvastaa niitä asioita, jotka yritys on ottanut huomioon koskien sarja-/eränumeroiden käyttöä nimikkeiden kohdalla, jotka kulkevat varaston läpi.  
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Nimikkeen seurantakoodit** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeen seurantakoodit** ja valitse sitten liittyvä linkki.  
 2. Valitse **Uusi**-toiminto.
 3. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Määritä sarja- ja eränroseurannan tavat valitsemalla **Sarjanro**- ja/tai **Eränro**-pikavälilehteä.  
 
 > [!NOTE]  
->   Jos haluat seurata tiettyjä nimikkeitä tai tiettyjä eriä koko niiden elinkaaren ajana, sinun on valittava vastaavasti joko **SN-kohtainen seuranta**- tai **Eräkohtainen seuranta** -kenttä. Tällöin tämän nimikeseurannan koodin mukaista nimikkeen lähtevää yksikköä käsiteltäessä tulee aina määrittää, mitä olemassa olevaa sarjanumeroa tai mitä olemassa olevaa eränumeroa käsitellään. Tämä tarkoittaa sitä, että nimikkeen yksikköä myytäessä se tulee olla kohdistettu tiettyyn sarjanumeroiden tai eränumeroiden pooliin varastossa. Toisin sanoen nimikkeelle varastoon tullessa määritellyn sarjanumeron tai eränumeron tulee seurata kyseistä nimiketyyppiä ulos varastosta.  
+>  Jos haluat seurata tiettyjä nimikkeitä tai tiettyjä eriä koko niiden elinkaaren ajana, sinun on valittava vastaavasti joko **SN-kohtainen seuranta**- tai **Eräkohtainen seuranta** -kenttä. Tällöin tämän nimikeseurannan koodin mukaista nimikkeen lähtevää yksikköä käsiteltäessä tulee aina määrittää, mitä olemassa olevaa sarjanumeroa tai mitä olemassa olevaa eränumeroa käsitellään. Tämä tarkoittaa sitä, että nimikkeen yksikköä myytäessä se tulee olla kohdistettu tiettyyn sarjanumeroiden tai eränumeroiden pooliin varastossa. Toisin sanoen nimikkeelle varastoon tullessa määritellyn sarjanumeron tai eränumeron tulee seurata kyseistä nimiketyyppiä ulos varastosta.
+  
 Koska kyseinen asetuskenttä kattaa kaikki mahdolliset nimikkeen transaktiot, myös yksittäisiin saapuvien/lähtevien kentät valitaan. Yksittäisillä saapuvilla/lähtevillä kentillä ei ole kuitenkaan mitään tekemistä varastossa kohdistuksen kanssa – ne ainoastaan määrittelevät yrityksen tehtävienhallintaa koskien sitä, milloin määritellään nimikeseurantanumeroita.  
 
 ### <a name="to-set-up-expiration-rules-for-serial-or-lot-numbers"></a>Vanhentumissääntöjen määrittäminen sarja-/eränumeroille  
@@ -77,7 +78,7 @@ Voit haluta määrittää tiettyjen nimikkeiden osalta erityisiä vanhenemispäi
 
 ### <a name="to-set-up-warranties-for-serial-or-lot-numbers"></a>Takuiden määrittäminen sarja-/eränumeroille  
 Voit haluta määrittää tiettyjen nimikkeiden osalta erityisiä takuita nimikkeen seurantakoodille. Tämän ominaisuuden avulla voit seurata sitä, milloin varastossa olevien tiettyjen sarja-/eränumeroiden takuut menevät umpeen.        
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Nimikkeen seurantakoodit** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeen seurantakoodit** ja valitse sitten liittyvä linkki.  
 
 1. Valitse ensin aiemmin luotu nimikkeen seurantakoodi ja valitse sitten **Muokkaa**-toiminto.  
 2.  Määritä **Sekalainen**-pikavälilehden **Takuun laskentakaava** -kentän arvo ja valitse sitten valintaruudut seuraavasti.  
@@ -100,7 +101,7 @@ Jos sinun täytyy linkittää erityistietoja erityiseen nimikkeen seurantanumero
 6. Valitse **Estetty** -valintaruutu sulkeaksesi sarja-/eränumerot pois kaikista transaktioista.  
 
 ## <a name="to-modify-existing-serial-or-lot-number-information"></a>Aiemmin luotujen sarja- tai eränumerotietojen muokkaaminen  
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Nimikkeet** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten liittyvä linkki.  
 2. Valitse nimike, jolla on nimikkeen seurantakoodi ja sarja- tai eränumerotietoja.
 3. Valitse **Nimikkeen kortti** -ikkunassa ensin **Tapahtumat**-toiminto ja sitten **Tapahtumakirjaukset**.
 4. Valitse **Eränro** tai **Sarjanumero** -kenttä. Jos nimikkeen seurantanumerolla on tietoja, **Eränumeron tietoluettelo**- tai **Sarjanumeron tietoluettelo** -ikkuna avautuu.  
@@ -117,7 +118,7 @@ Tarkat säännöt siitä, miten nimikeseurantanumeroita käsitellään yritykses
 > [!NOTE]  
 >  Jotta nimikeseurannan numeroita voitaisiin käyttää varastoaktiviteeteissa **Erän seuranta f.varastointi**- ja **SN F.varastoinnin seuranta** -määrityskentät täytyy olla valittuina, sillä ne määrittävät erityisperiaatteet varastoaktiviteettien sarja- ja eränumeroiden käsittelylle.  
 
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Ostotilaukset** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostotilaukset** ja valitse sitten liittyvä linkki.  
 2.  Valitse ensin asiakirja ja sitten **Rivit**-pikavälilehdessä **Rivi**-toiminto. Valitse lopuksi **Nimikkeen seurantarivit**.  
 
     Voit määrittää sarja- tai eränumeroita seuraavilla tavoilla:  
@@ -199,7 +200,7 @@ Eri sijaintien välillä siirrettävien sarja- ja eränumeroiden käsittelyn men
 Tulee ottaa huomioon, että siirtotilaus on ainutlaatuinen siinä suhteessa, että sekä toimitus että vastaanotto tehdään samalle siirtoriville. Tästä johtuen joudutaan käyttämään samaa **Nimikkeen seurantarivit** -ikkunaa. Tämä tarkoittaa, että nimikkeen seurantanumerot, jotka toimitettiin yhdestä paikasta, täytyy vastaanottaa muuttumattomana seuraavassa paikassa.  
 
  Tarkat säännöt siitä, miten nimikeseurantanumeroita käsitellään yrityksessäsi löytyvät  **Nimikkeen seurantakoodi** -taulukon asetuksista.    
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Siirtotilaukset** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Siirtotilaukset** ja valitse sitten liittyvä linkki.  
 2.  Avaa siirtotilaus, jonka haluat käsitellä. Valitse **Rivit**-pikavälilehdessä ensin **Rivi**-toiminto, sitten **Nimikkeen seurantarivit** -toiminto ja lopuksi **Toimitus**-toiminto.  
 3.  Kohteen **nimikkeen seurantarivit**-ikkunassa voit määrittää sarja-/eränumeroita kuten mille mulle tahansa lähtevälle nimiketapahtumalle.  
 
@@ -222,7 +223,7 @@ Toiminto tukee seuraavia lähteviä prosesseja:
 
 Näissä tilanteissa, olemassa olevat nimikkeen seurantarivit kopioidaan automaattisesti laskulle/hyvityslaskulle, mutta **Nimikkeen seurantarivit** -ikkuna ei salli sinun muuttaa sarja/eränumeroita - vain määriä voidaan muuttaa. Vain määriä voidaan muuttaa.  
 
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Ostolaskut** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostolaskut** ja valitse sitten liittyvä linkki.  
 2.  Avaa ostolasku nimikkeille, jotka ostetaan sarja- tai eränumeroiden perusteella.  
 3.  Valitse ostolaskun rivin **Rivit**-pikavälilehdessä **Hae vast.oton rivit** -toiminto.  
 4.  Valitse **Hae vast.oton rivit** -ikkunassa vastaanottorivi, jolla on nimikkeen seurantarivejä, ja valitse sitten **OK**.  
@@ -237,7 +238,7 @@ Kenttien sisältöä **Sarjanro** **Eränro** ei voida muuttaa. Voit kuitenkin p
 ## <a name="to-reclassify-serial-or-lot-numbers"></a>Erä- tai sarjanumeroiden uudelleenluokittelu  
 Nimikkeiden seurannan uudelleenluokittelu tarkoittaa erä- tai sarjanumeron muuttamista uudeksi erä- tai sarjanumeroksi tai vanhentumispäivämäärän muuttamista uudeksi vanhentumispäivämääräksi. Jos käsittelet eriä, voit myös yhdistää useita eriä yhdeksi eräksi. Voit suorittaa nämä tehtävät nimikkeen uudelleenluokituspäiväkirjassa.
 
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Nimikkeen uudell.luokit. pvk** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeen uudell.luokit. pvk** ja valitse sitten liittyvä linkki.  
 2.  Täytä rivi asianmukaisilla tiedoilla. Lisätietoja on kohdassa [Varaston laskeminen, muuttaminen ja uudelleenluokitus](inventory-how-count-adjust-reclassify.md).
 3.  Valitse **Nimikkeen seurantarivit** -toiminto.  
 4.  Napsauta **Sarjanro**- tai **Eränro**-kentässä olevaa AssistButtonia ja valitse nykyinen sarja- tai eränumero.  

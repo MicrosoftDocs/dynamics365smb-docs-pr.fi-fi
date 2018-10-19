@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/04/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 47fbadb76b56d202bc422167d5cefe5b721d0615
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 5ff369b1d9ef8bb4986d4be0d885d4088205f570
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-base-calendars"></a>Peruskalenterien määrittäminen
 Peruskalenterin voi määrittää yritykselle ja sen liikekumppaneille, esimerkiksi asiakkaille, toimittajille tai sijainneille. Toimituksen ja vastaanoton päivämäärät lasketaan tuleville myyntitilaus-, ostotilaus-, siirtotilaus- ja tuotantotilausriveille kalenteriin määritettyjen työpäivien mukaisesti. Päätehtävä uuden peruskalenterin määrittämisessä on käytettävien, muiden kuin työpäivien eritteleminen ja määritteleminen.  
 
 ## <a name="to-set-up-a-base-calendar"></a>Peruskalenterin määrittäminen  
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Peruskalenteri** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Peruskalenteri** ja valitse sitten liittyvä linkki.  
 2.  Valitse **Uusi**-toiminto.  
 3.  Täytä **Koodi**-kenttä.  
 4. Valitse **Ylläpidä peruskalenterin muutokset** -toiminto.
@@ -66,7 +66,7 @@ Kun esimerkiksi peruskalenterissa on tavallisesti luetteloitu kaikki lauantait e
 
 Seuraavassa menettelyssä käytetään esimerkkinä sijainnin tapausta. Huomaa, että tässä vaiheessa sijainnille on jo määritelty peruskalenteri.
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Sijainnit** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sijainnit** ja valitse sitten liittyvä linkki.
 2. Avaa päivitettävä sijainti ja valitse sitten **Muokattu kalenteri** -kenttä. Huomaa, että kalenteri on valittava **Peruskalenterin koodi** -kentässä.
 3. Valitse avautuvassa **Räätälöidyt kalenteritapahtumat** -ikkunassa **Ylläpidä räätälöityjä kalenterimuutoksia** -toimintoja.
 4. Lisää räätälöityjen kalenteritapahtumien rivit **Räätälöity kalenterimuutos** -ikkunassa.
@@ -102,7 +102,7 @@ Peruskalenterit määritetään omalle yritykselle, asiakkaille, toimittajille, 
 -   **Sijainti**-kortissa peruskalenteri määritetään **Fyysinen varasto** -pikavälilehdessä.  
 -   **Kuljetusliikkeet**-ikkunassa oleva peruskalenteri määritetään **Kuljetusliikkeen palvelut** -ikkunassa.  
 
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Asiakkaat** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asiakkaat** ja valitse sitten liittyvä linkki.  
 2.  Avaa **Asiakkaan** kortti, jolle haluat määrittää peruskalenterin.  
 3.  Valitse **Toimitus**-pikavälilehden **Peruskalenterin koodi** -kentässä peruskalenteri, jonka haluat määrittää.  
 

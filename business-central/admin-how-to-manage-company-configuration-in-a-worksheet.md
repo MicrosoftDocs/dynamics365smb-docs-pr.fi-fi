@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/06/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: cc2c7d5ecbff5d7cd0109c56e3c76ca137564d30
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: d52c54b18ccb7794f7556919e20b23df65c95acd
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>Yrityksen määrittämisen hallinta työkirjassa
@@ -30,7 +30,7 @@ Seuraavissa ohjeissa näytetään, miten voit lisätä ja mukauttaa kokoonpanosi
 
 ## <a name="to-open-the-configuration-worksheet"></a>Avaa määritystyökirja  
 1.  Avaa [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmassa yritys, joka on määrityksen pohjana, ja avaa sitten sen RapidStart Services -palvelun käyttöönottajien roolikeskus.  
-2.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Määritystyökirja** ja valitse sitten aiheeseen liittyvä linkki.  
+2.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Määritystyökirja** ja valitse sitten liittyvä linkki.  
 
 ## <a name="to-add-a-table-to-the-worksheet"></a>Taulukon lisääminen työkirjaan  
 1.  Valitse **Määritä työkirja** -ikkunassa **Muokkaa luetteloa** -toiminto.  

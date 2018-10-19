@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: check, bank transfer, cash, PayPal
-ms.date: 06/15/2017
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 996469413f23d6620e0464313b90c5c771f38f86
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 9583d69f91963d8ee6a69e7145930c1f6c2df955
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="defining-payment-methods"></a>Maksutapojen määrittäminen
@@ -23,7 +23,7 @@ Maksutavat linkitetään toimittajiin. Näin määritetään, miten tietyltä to
 
 ## <a name="to-set-up-a-payment-methods"></a>Maksutapojen määrittäminen
 [!INCLUDE[d365fin](includes/d365fin_md.md)]issa on määritetty valmiiksi useita maksutapoja. Voit määrittää uuden maksutavan **Maksutavat**-ikkunassa, jonka voit etsiä hakutoiminnolla tai avaamalla **Maksutapa**-kentän toimittajan tai asiakkaan kortista.
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Maksutavat** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maksutavat** ja valitse sitten liittyvä linkki.
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="see-also"></a>Katso myös

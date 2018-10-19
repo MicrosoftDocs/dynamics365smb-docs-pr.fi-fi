@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, cost, service order
-ms.date: 08/22/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5125a0d0b298487130588146f1307379f465da0e
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 39d917ffcfb342aaea04b3668e032d548ef17ec9
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -28,7 +28,7 @@ Tarpeen mukaan voit määrittää hinnoitteluryhmiä ja liittää niitä ajanjak
 ## <a name="to-set-up-a-service-price-group"></a>Huoltohintaryhmien määrittäminen
 Voit määrittää huoltonimikkeitä sisältäviä ryhmiä, joissa haluat käyttää samoja erikoishuoltohinnoittelua. Huoltohintaryhmiä määritellään huoltonimikeriveillä oleville huoltonimikkeille. Huoltohintaryhmiä voidaan liittää myös huoltonimikeryhmiin.  
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Huoltohintaryhmät** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltohintaryhmät** ja valitse sitten liittyvä linkki.  
 2. Luo uusi huoltohintaryhmä.  
 3. Täytä **Koodi**- ja **Kuvaus**-kentät.  
 4. Valitse **Asetukset**-toiminto.  
@@ -40,7 +40,7 @@ Voit määrittää huoltonimikkeitä sisältäviä ryhmiä, joissa haluat käytt
 ## <a name="to-set-up-a-service-price-adjustment-group"></a>Huoltohintamuutoksen ryhmien määrittäminen  
 Voit muuttaa huoltonimikkeiden huoltohinnoittelua määrittämällä hinnan muutosryhmän. Voit määrittää esimerkiksi hinnanmuutosryhmiä, jotka muuttavat rahdin tai varaosien hintaa.  
   
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Huoltohintamuutoksen ryhmät** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltohintamuutoksen ryhmät** ja valitse sitten liittyvä linkki.  
 2. Luo uusi huoltohintamuutoksen ryhmä.  
 3. Täytä **Koodi**- ja **Kuvaus**-kentät.  
 4. ANna **Tyyppi**-kentässä säädettävän tapahtuman tyyppi.  
@@ -58,11 +58,11 @@ Voit muuttaa huoltonimikkeiden huoltohinnoittelua määrittämällä hinnan muut
 Kun käsittelet huoltonimikkeitä ja -tilauksia, on ehkä rekisteröitävä lisäkustannuksia, kuten matkakulut tietyille huoltoalueille tai aloitusmaksut. Kun luot huoltotilauksen, voit lisätä nämä kustannukset ja **Kustannus**-tyypin rivi lisätään tilaukseen. Jos puolestaan haluat kohdistaa kustannukset kaikkiin huoltotilauksiin, voit määrittää oletuskustannuksen. Voit esimerkiksi haluta aina käyttää aloitusmaksua.
   
 ### <a name="to-set-up-service-costs"></a>Huoltokustannusten määrittäminen
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Huoltokustannukset** ja valitse sitten aiheeseen liittyvä linkki. 
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltokustannukset** ja valitse sitten liittyvä linkki. 
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ### <a name="to-specify-a-default-cost-for-service-orders"></a>Huoltotilausten oletuskustannusten määrittäminen
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Huollon asetukset** ja valitse sitten aiheeseen liittyvä linkki. 
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huollon asetukset** ja valitse sitten liittyvä linkki. 
 2. Valitse **Huoltotilauksen aloituspalkkio** -kentässä sopiva palvelukustannus.
 
 ## <a name="see-also"></a>Katso myös

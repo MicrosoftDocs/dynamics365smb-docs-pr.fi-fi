@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/19/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 545ad2e348ba4acc3a1c4cde741acaa2a9b824ed
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: c6e661d36363a35248785a9f97620b2ca7ccf177
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Tuotantosolujen ja kuormituskeskusten määrittäminen
@@ -33,7 +33,7 @@ Saatavuus tallennetaan kalenteritapahtumiin. Tuotantokalenteri on määritettäv
 ## <a name="to-set-up-a-work-center"></a>Tuotantosolun määrittäminen
 Seuraavaksi käsitellään ennen kaikkea tuotantosolun määrittämiseen. Kuormitusryhmän kalenterin määrittämisen vaiheet ovat vastaavanlaiset **Reitityksen asetukset** -pikavälilehteä lukuun ottamatta.  
 
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Tuotantosolut** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Työkeskukset** ja valitse sitten liittyvä linkki.  
 2.  Valitse **Uusi**-toiminto.  
 3. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Valitse tarvittaessa **Tuotantosoluryhmä**-kentässä ylätason resurssiryhmä, johon tuotantosolu kuuluu. Valitse avattavassa luettelossa **Uusi**-toiminto.  
@@ -89,7 +89,7 @@ Voit tehdä **Kapasiteettirajoitetut resurssit** -ikkunassa määritykset, jotka
 
 Kun suunnitellaan kapasiteettirajoitettuja resursseja, järjestelmä varmistaa, että resurssia ei ole kuormitettu enempää kuin sille määritetty kapasiteetti osoittaa (kriittinen kuormitus). Tämä tehdään määrittämällä jokaiselle toiminnolle lähin mahdollinen aika. Jos ajankohta ei ole tarpeeksi suuri koko toiminnon suorittamiseksi, toiminto jaetaan kahdeksi tai useammaksi osaksi, jotka sijoitetaan lähimpiin käytettävissä oleviin ajankohtiin.
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Kapasiteettirajoitetut resurssit** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kapasiteettirajoitetut resurssit** ja valitse sitten liittyvä linkki.
 2. Valitse **Uusi**-toiminto.
 3. Täytä tarvittavat kentät.
 

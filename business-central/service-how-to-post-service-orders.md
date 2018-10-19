@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 01c30041e9034b87b39d80972865b180dd4a97d2
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 2b62ab8062c5c93bbf67b6949397d18556b8cf78
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="post-service-orders-and-credit-memos"></a>Huoltotilausten ja hyvityslaskujen kirjaaminen
@@ -28,9 +28,9 @@ Jos huoltotilauksia on runsaasti, voit säästää aikaa kirjaamalla ne samalla 
 > Ennen huoltoasiakirjan kirjaamista mahdolliset virheet ja puuttuvat tiedot kannattaa tarkistaa **Testiraportti**-toiminnolla. Jos virheitä löytyy, ongelmat on korjattava. Voit tarkistaa korjauksen tulostamalla uuden testiraportin ja kirjata sitten asiakirjan.
   
 ## <a name="to-post-a-service-order"></a>Huoltotilauksien kirjaaminen    
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Huoltotilaukset** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltotilaukset** ja valitse sitten liittyvä linkki.  
 2. Avaa haluamasi huoltotilaus.  
-3. Valitse **Huoltotilaus**-sivulla jompikumpi seuraavista toimista.  
+3. Valitse **Huoltotilaus**-ikkunassa jompikumpi seuraavista toimista.  
   
     |**Toiminto**|**Tulos**|  
     |------------------|----------------|  
@@ -53,7 +53,7 @@ Voit kirjata kulutuksen vain, jos rivillä on toimitettu määrä, jota ei ole l
 Ohjelma luo tilauksen kirjauksen yhteydessä vastaavat tapahtumat ja kirjatut asiakirjat. Se myös päivittää huoltotilausasiakirjan asianmukaiset kentät.  
 
 ## <a name="to-batch-post-service-orders"></a>Huoltotilauksien eräkirjaaminen
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Huoltotilaukset** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltotilaukset** ja valitse sitten liittyvä linkki.  
 2. Valitse **Kirjaa erä** -toiminto.  
 3.  Voit asettaa suodatuksen valitsemaan tiettyjä huoltotilausnumeroita tai tietyn tilausnumeroiden välin eräajon käsiteltäväksi.  
 4.  Käynnistä eräajo valitsemalla **OK**.  
@@ -61,7 +61,7 @@ Ohjelma luo tilauksen kirjauksen yhteydessä vastaavat tapahtumat ja kirjatut as
 ## <a name="to-post-a-service-credit-memo"></a>Huollon hyvityslaskujen kirjaaminen  
 Kun olet luonut huoltohyvityslaskun ja täyttänyt sen, voit kirjata hyvityslaskun. Jos ohjelma löytää hyvityslaskusta virheitä tai puuttuvia tietoja kirjauksen aikana, prosessi pysähtyy virhesanomaan.  
    
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Huollon hyvityslaskut** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huollon hyvityslaskut** ja valitse sitten liittyvä linkki.  
 2. Luo uusi huollon hyvityslasku. Valitse **Kotisivu**-välilehden **Uusi**-ryhmässä **Uusi**.  
 3. Täytä kentät tarpeen mukaan.  
 4. Valitse **Toiminnot**-välilehden **Kirjaus**-ryhmässä **Kirjaa**. Jos haluat tulostaa hyvityslaskun kirjaamisen yhteydessä, valitse edellisen sijaan **Kirjaa ja tulosta**.  
@@ -74,7 +74,7 @@ Kun olet luonut huoltohyvityslaskun ja täyttänyt sen, voit kirjata hyvityslask
 ## <a name="to-post-consumption-from-a-service-order"></a>Kulutuksen kirjaaminen huoltotilauksesta  
 Seuraavassa ohjeessa neuvotaan, miten kirjataan nimikkeet, resurssitunnit ja/tai kulut, joita käytetään huoltotoimenpiteessä, jota ei laskuteta asiakkaalta. Huomaa, että voit kirjata kulutetut nimikkeet, tunnit tai kustannukset vain sellaista kirjattua toimitusta, jolla ei ole kirjattuaj laskuja tai kulutusta.  
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Huoltotilaukset** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltotilaukset** ja valitse sitten liittyvä linkki.  
 2. Avaa huoltotilaus, jonka kulutuksen haluat kirjata.  
 3. Valitse huoltonimike. Valitse ensin **Toiminnot**, sitten **Tilaus** ja lopuksi **Huoltorivit**.  
 4. Etsi tarvittavat tapahtumat ja määritä **Laskutettava määrä** -kentässä määrät, joiden kulutuksen kirjaat. Määrä ei voi olla suurempi kuin jo toimitettu määrä ja jäljellä oleva määrä, mutta jota ei ole laskutettu tämän toimituksen osalaskutuksen jälkeen.  
@@ -91,7 +91,7 @@ Huollon tietojen määrityksen jälkeen voit muuttaa ja kirjata käytettyjen nim
   
 Seuraavassa ohjeessa neuvotaan, miten kirjataan toimitus huoltorivin nimikkeille, jotka ovat sijainneissa, joissa ei vaadita varastonhallintaa.  
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Huoltotilaus** ja valitse sitten aiheeseen liittyvä linkki. 2. Valitse valitun huoltotilauksen ikkunassa **Toiminnot**, **Tilaus**, **Huoltorivit**.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltotilaus** ja valitse sitten liittyvä linkki. 2. Valitse valitun huoltotilauksen ikkunassa **Toiminnot**, **Tilaus**, **Huoltorivit**.  
 3. Etsi pakolliset tapahtumat **Huoltorivit**-ikkunassa ja määritä kirjattava määrä **Toimitettava määrä** -kenttään.  
   
    > [!NOTE]  
@@ -108,7 +108,7 @@ Lisätietoja huoltorivinimikkeiden toimituksesta laajennetussa varastomäärityk
 ## <a name="to-undo-posted-consumption"></a>Kirjatun kulutuksen kumoaminen  
 Voit peruuttaa kulutuksen huoltotilauksissa. Syynä voi olla esimerkiksi vahingossa tehty kirjaus.  
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Kirjatut huoltotoimitukset** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kirjatut huoltotoimitukset** ja valitse sitten liittyvä linkki.  
 2. Avaa kirjattu huoltotoimitus, jolle on kirjattu virheellinen kulutus.  
 3. Valitse ensin **Toiminnot**, sitten **Toimitus** ja lopuksi **Huoltotoimitusrivit**.  
 4. Valitse ensin virheellisen kulutuksen sisältävät rivit ja sitten **Kumoa kulutus** -toiminto.  
@@ -126,7 +126,7 @@ Jos huoltotilaukset ovat työn alla huomattavan ajan ennen niiden kirjausta, voi
   
 Seuraavassa ohjeessa neuvotaan, miten toimitus kirjataan suoraan huoltotilauksesta paikoissa, joissa ei ole varastonhallintaa. Jos sijainti on määritetty niin, että fyysisen varaston käsittely on pakollinen, toimituksen kirjaus tapahtuu eri fyysisen varastoinnin asiakirjassa sijainnin asetusten mukaan.
   
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Huoltotilaukset** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltotilaukset** ja valitse sitten liittyvä linkki.  
 2. Avaa huoltotilaus ja valitse sitten **Huoltorivit**-toiminto.  
 4. Täytä kirjattavien rivien **Toimitettava määrä**-, **Laskutettava määrä**- ja **Kulutettava määrä** -kentät sen mukaan, miten rivit kirjataan.  
 5. Valitse **Kirjaa**-toiminto.

@@ -8,13 +8,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/057/2018
+ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 26729b9ced13d6727437db91d464d7a42907b0a1
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: bb055a2520af17d5b1b9aa2239ade210016bd2ac
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="working-with-included365finincludesd365finmdmd"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen
@@ -28,7 +28,7 @@ Seuraava taulukko sisältää joitakin yleisiä toimintoja ja linkkejä niitä k
 | --- | --- |
 | Muuta perusasetuksia, kuten yritystä, käsittelypäivämäärää ja roolikeskusta. |[Perusasetusten muuttaminen](ui-change-basic-settings.md) |
 | Etsi tietty sivu tai raportti. |[Etsi sivua tai raporttia -toiminnon käyttäminen](ui-search.md) |
-| Suodata näkymien, raporttien tai toimintojen tiedot käyttämällä erikoissymboleita ja -merkkejä. |[Suodattimen ehtojen antaminen](ui-enter-criteria-filters.md) |
+| Suodata näkymien, raporttien tai toimintojen tiedot käyttämällä erikoissymboleita ja -merkkejä. |[Tietojen hakeminen, suodattaminen ja lajitteleminen](ui-enter-criteria-filters.md) |
 | lisätietoja tietojen lajittelemisesta. |[Tietojen lajittelu](ui-sorting.md) |
 | Näytä tai käsittele tiettyjen päivämäärävälien tiedot. |[Päivämääräalueiden syöttäminen](ui-enter-date-ranges.md) |
 | Lisätietoja siitä, mitkä kentät on täytettävä. |[Pakollisten kenttien havaitseminen](ui-mandatory-fields.md) |
@@ -43,11 +43,15 @@ Seuraava taulukko sisältää joitakin yleisiä toimintoja ja linkkejä niitä k
 |Lue lisää toiminnoista ja ominaisuuksista, joiden avulla [!INCLUDE[d365fin](includes/d365fin_md.md)] on valmis toimintarajoitteisia käyttäjiä varten.|[Helppokäyttötoiminnot ja pikanäppäimet](ui-accessibility.md)|
 |Katso video toiminnoista, joiden avulla aloittaminen on helppoa.|[Yleisiä tehtäviä käsitteleviä videoita](across-videos.md)|  
 
+## <a name="getting-around-in-business-central"></a>Business Central -sovelluksen käyttäminen
+Seuraavassa on lyhyt video [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen käyttämisestä.
+
+> [!VIDEO https://www.youtube.com/embed/zqz03iMihx0]
+
 ## <a name="see-also"></a>Katso myös
 [Käytön aloittaminen](product-get-started.md)  
 [Business Central -sovelluksen määrittäminen](setup.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

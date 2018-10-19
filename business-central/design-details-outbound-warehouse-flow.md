@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2f84b46027aa04b50de2a8d4573ce4633fd59fcf
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 068ed0057b6c12beebfa35951b6c1ffbd6ac556b
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Rakennetiedot: lähtevän fyysisen varastoinnin virta
@@ -47,8 +47,6 @@ Lisäksi olemassa on seuraavat sisäiset lähdeasiakirjat, jotka toimivat kuten 
 |N|Kirjaa poiminta ja lähetyksen fyysisen varastoinnin toimituksen asiakirjasta|||X|4/5/6|  
 |P|Poiminnan kirjaaminen fyysisen varastoinnin poiminta-asiakirjasta ja toimituksen kirjaaminen fyysisen varastoinnin toimituksen asiakirjasta||X|X|4/5/6|  
 
- Katso lisätietoja kohdasta [Rakennetiedot: lähtevän fyysisen varastoinnin virta]().  
-
  Lähestymistavan valinta riippuu yrityksen hyväksytyistä käytänteistä ja niiden organisatorisen monimutkaisuuden tasosta. Menetelmän A käyttäminen, eli poiminta ja toimitus tilausriviltä on sopivaa yksinkertaisilla prosesseilla toimivassa tilauskohtaisessa ympäristössä, jossa käytetään yksinkertaista varastopaikkarakennetta. Muissa tilauskohtaisissa yrityksissä, joissa yhden tilausrivin nimikkeet saattavat saapua useammasta kuin yhdestä varastopaikasta tai jos varastotyöntekijät eivät voi työskennellä tilausasiakirjojen kanssa, erillisten poiminta-asiakirjojen käyttö on tarkoituksenmukaista, menetelmä B. Kun yrityksen poiminta- ja toimitusprosessit sisältävät useita tilauksen käsittelyjä ja vaativat täten suurempaa hallintaa ja yleiskuvaa, yritys saattaa valita varaston toimitusasiakirjan ja varaston poiminta-asiakirjan käytön poiminta ja toimitustöiden erottamiseksi, menetelmät C ja D.  
 
  Menetelmissä A, B ja C poiminnan ja toimituksen toiminnot yhdistetään yhteen vaiheeseen, kun vastaava asiakirja kirjataan toimitetuksi. Menetelmässä D poiminta rekisteröidään ensin ja sitten toimitus kirjataan myöhemmin eri asiakirjasta.  
@@ -56,7 +54,7 @@ Lisäksi olemassa on seuraavat sisäiset lähdeasiakirjat, jotka toimivat kuten 
 ## <a name="basic-warehouse-configurations"></a>Fyysisen varastoinnin perusmääritykset  
  Seuraavassa kaaviossa kuvataan lähtevät fyysisen varaston virrat asiakirjatyypeittäin fyysisen varastoinnin perusmäärityksissä. Kaavion luvut vastaavat vaiheita kaavion osa-alueiden mukaan.  
 
- ![Lähtevien virta fyysisen varastoinnin perusmäärityksissä](media/design_details_warehouse_management_outbound_basic_flow.png "design_details_warehouse_management_outbound_basic_flow")  
+ ![Varaston perusmääritysten lähtevä virta](media/design_details_warehouse_management_outbound_basic_flow.png "Varaston perusmääritysten lähtevä virta")  
 
 ### <a name="1-release-source-document--create-inventory-pick-or-movement"></a>1: Vapauta lähdeasiakirja / Luo varastopoiminta tai siirto  
  Kun lähdeasiakirjoista vastaava käyttäjä, kuten myyntitilausten käsittelijä tai tuotannon suunnittelija, on valmis lähtevää fyysisen varastoinnin toimintoa varten, hän vapauttaa lähdeasiakirjan osoittaakseen varastotyöntekijöille, että myydyt nimikkeet tai osat voidaan poimia ja sijoittaa määritettyihin varastopaikkoihin. Vaihtoehtoisesti käyttäjä voi luoda varaston poiminta- tai siirtoasiakirjat yksittäisille tilausriveille push-muodossa ja tiettyihin lokeroihin ja käsittelymääriin perustuen.  
@@ -78,7 +76,7 @@ Lisäksi olemassa on seuraavat sisäiset lähdeasiakirjat, jotka toimivat kuten 
 ## <a name="advanced-warehouse-configurations"></a>laajennetut varastomääritykset  
  Seuraavassa kaaviossa kuvataan lähtevät fyysisen varaston virrat asiakirjatyypeittäin laajennetuissa varastomäärityksissä. Kaavion luvut vastaavat vaiheita kaavion osa-alueiden mukaan.  
 
- ![Laajennettujen varastomääritysten lähtevien virta](media/design_details_warehouse_management_outbound_advanced_flow.png "design_details_warehouse_management_outbound_advanced_flow")  
+ ![Laajennettujen varastomääritysten saapuva virta](media/design_details_warehouse_management_outbound_advanced_flow.png "Laajennettujen varastomääritysten saapuva virta")  
 
 ### <a name="1-release-source-document"></a>1: Vapauta lähdeasiakirja  
  Kun lähdeasiakirjoista vastaava käyttäjä, kuten myyntitilausten käsittelijä tai tuotannon suunnittelija, on valmis lähtevää fyysisen varastoinnin toimintoa varten, hän vapauttaa lähdeasiakirjan osoittaakseen varastotyöntekijöille, että myydyt nimikkeet tai osat voidaan poimia ja sijoittaa määritettyihin varastopaikkoihin.  

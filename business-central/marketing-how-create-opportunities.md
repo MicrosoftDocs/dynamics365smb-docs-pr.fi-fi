@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8d0a3cd974742e9b5745ca3ca08fa582dff1522a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 95eb483d261ac4e1f55071ff5d33951ad1fa2a3f
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-sales-opportunities"></a>Myyntimahdollisuuksien luominen
@@ -27,7 +27,7 @@ Voit luoda mahdollisuuksia **Mahdollisuusluettelo**-ikkunassa. Yleensä mahdolli
 Ennen mahdollisuuksien luomista sinun täytyy määrittää myyntisyklit. Lisätietoja on kohdassa [Mahdollisuuden myyntisyklien ja syklin vaiheiden määrittäminen](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## <a name="to-create-an-opportunity-from-a-salesperson"></a>Mahdollisuuden luominen myyjästä
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Myyjät** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyjät** ja valitse sitten liittyvä linkki.
 2. Valitse luettelosta myyjä, jolle haluat luoda mahdollisuuden.
 3. Valitse **Mahdollisuudet**-toiminto ja valitse sitten **Luettelo**.
 4. Valitse **Uusi** ja täytä sitten tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -35,7 +35,7 @@ Ennen mahdollisuuksien luomista sinun täytyy määrittää myyntisyklit. Lisät
 
 
 ## <a name="to-create-an-opportunity-from-a-contact"></a>Mahdollisuuden luominen kontaktista
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Kontaktit** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kontaktit** ja valitse sitten liittyvä linkki.
 2. Valitse luettelosta kontakti, jolle haluat luoda mahdollisuuden.
 3. Tee jompikumpi seuraavista toimista:
    * Valitse **Luo mahdollisuus** -toiminto.

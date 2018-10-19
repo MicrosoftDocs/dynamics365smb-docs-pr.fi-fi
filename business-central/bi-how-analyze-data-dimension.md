@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 01/25/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 94d783a806b56e972f16ebe1e0d383582cd72126
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 5176b7c04c09b9357041ec4fed5ed37c385d13ce
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 #  <a name="analyze-data-by-dimensions"></a>Analysoi tiedot mittojen mukaan
@@ -30,7 +30,7 @@ Analysoimalla tietoja dimensioittain saat liiketoiminnasta selkeän kuvan ja voi
 ## <a name="to-set-up-an-analysis-view"></a>Analyysinäkymän luominen  
 Analyysissa dimensioittain näkyy valittu dimensioyhdistelmä. Voit tallentaa ja hakea jokaisen määrittelemäsi analyysin. Analyysin määrityksen tiedot tallentuvat **analyysinäkymän** korttiin, jotta tulevien analyysien laatiminen olisi yksinkertaisempaa.  
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Analyysinäkymät** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Analyysinäkymät** ja valitse sitten liittyvä linkki.  
 2. Valitse **Analyysinäkymän luettelo** -ikkunassa **Uusi**-toiminto.
 3. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Jos haluat lisätä muita dimensiokoodeja neljän **Dimensiot**-pikavälilehden koodin lisäksi, valitse **Suodatin**-toiminto, täytä kentät ja valitse **OK**.  
@@ -42,7 +42,7 @@ Voit tarkastella pääkirjanpidon summia **Varastoanalyysi dimensioittain** -mat
 - Vasemmanpuoleisimmisssa sarakkeissa oleva tieto perustuu otsikon **Näytä riveinä** -kentässä tekemääsi valintaan.  
 - Oikeanpuoleisissa sarakkeissa oleva tieto perustuu otsikon **Näytä sarakkeina** -kentässä tekemääsi valintaan.  
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Analyysi dimensioittain** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Analyysi dimensioittain** ja valitse sitten liittyvä linkki.  
 2. Valitse haluamasi analyysinäkymä ja valitse sitten **Muokkaa analyysinäkymää** -toiminto.
 3. Täyttämällä **Analyysi dimensioittain** -ikkunan yläosan kentät määrität, mitä näytetään.
 4. 5. Voit näyttää matriisi-ikkunassa näkyvän summan määrityksen napsauttamalla summaa.  
@@ -61,7 +61,7 @@ Summat, jotka näkyvät **Analyysi dimensioittain** -ikkunassa, kuvaavat yrityks
 
 Seuraavan menettelyn avulla voit päivittää analyysinäkymän **Analyysi dimensioittain** -ikkunassa. Vaiheet ovat samanlaiset **Analyysinäkymän kortti** ja **Analyysinäkymän luettelo** -ikkunoissa.  
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Analyysi dimensioittain** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Analyysi dimensioittain** ja valitse sitten liittyvä linkki.  
 2. Valitse **Analyysi dimensioittain** -ikkunassa **Analyysinäkymän koodi** -kenttä.  
 3. Valitse asianomaisen analyysinäkymän rivi.  
 4. Valitse **Päivitä**-toiminto.  

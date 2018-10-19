@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5b47a898b7e1d574abaf521e917f780fd105c4a8
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: fa9f014519994ccd69200d8a015efb77bfbcb4fc
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-loading-the-inventory-profiles"></a>Rakennetiedot: varastoprofiilien lataaminen
@@ -82,7 +82,7 @@ Voit lajitella useita kysynnän ja tarjonnan lähteitä, kun suunnittelujärjest
  Varmuusvarasto on varaston määrä, joka on asetettu sivuun ja jonka avulla tasapainotetaan kysynnän epävarmuutta täytön läpimenoaikana. Se voidaan kuitenkin kuluttaa, jos se on otettava kysynnän täyttämiseksi. Tällöin suunnittelujärjestelmä varmistaa, että varmuusvarasto korvataan nopeasti, ehdottamalla toimitustilausta varmuusvarastomäärän täydentämistä varten päivämääränä, jolloin se kulutetaan. Tällä suunnittelurivillä näkyy poikkeusvaroituksen kuvake. Se kertoo suunnittelijalle, että puuttuvan määrän poikkeustilaus on kuluttanut varmuusvaraston osittain tai kokonaan.  
 
 ## <a name="forecast-demand-is-reduced-by-sales-orders"></a>Myyntitilaukset vähentävät ennustettua kysyntää  
- Tuotantoennuste ilmaisee tulevan ennakkokysynnän. Kun todellinen tarve syötetään, yleensä myyntitilausten tuotettujen nimikkeiden kuluttaa ennuste.  
+ Kysyntäennuste ilmaisee tulevan ennakkokysynnän. Kun todellinen tarve syötetään, yleensä myyntitilausten tuotettujen nimikkeiden kuluttaa ennuste.  
 
  Myyntitilaukset eivät pienennä itse ennustetta; se pysyy samana. Suunnittelun laskennassa käytettyjä ennustemääriä kuitenkin vähennetään (myyntitilausten määrillä) ennen kuin jäljellä oleva määrä, jos sitä on, siirtyy kysynnän varastoprofiiliin. Kun suunnittelujärjestelmä tutkii kauden todellista myyntiä, sekä avoimet myyntitilaukset että toimitetun myynnin nimiketapahtumat, ellei niitä ole johdettu puitetilauksesta.  
 

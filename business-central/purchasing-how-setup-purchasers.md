@@ -10,25 +10,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchasing agent
-ms.date: 03/29/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2d27c275bc5a811dcde5e5b338469d97b0630092
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: d3fd3e614ae636db8a2be0364892cceb104fe878
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-purchasers"></a>Ostajien määrittäminen
 Jos yrityksessäsi työskentelee useita ostajia, ne voidaan määrittää ikkunaan, ja kullekin voidaan määritellä koodi. Tämän jälkeen koodeja voi käyttää valmistelemaan tilastoja ja suodattamaan tietoja tulostetuissa raporteissa.
 
 ## <a name="to-set-up-purchasers"></a>Ostajien määrittäminen
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Myyjät/ostajat** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyjät/ostajat** ja valitse sitten liittyvä linkki.
 2. Valitse **Myyjät/ostajat**-ikkunassa **Uusi**-toiminto.
 3. Täytä **Myyjät/ostajat**-ikkunassa tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-purchasers-to-vendors"></a>Ostajien määrittäminen toimittajiin
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Toimittajat** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Toimittajat** ja valitse sitten liittyvä linkki.
 2. Avaa sen toimittajan toimittajan kortti, jolle määritetään ostaja.
 3. Valitse **Ostajan koodi** -kentässä sopiva ostajan koodi ja sulje ikkuna.
 

@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customization, personalization
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
-ms.openlocfilehash: 2a7ab137a9bf8ec3580e718053f8e67320e3af5a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6027ba17868aca0a6571e059c9d157c542d12823
 ms.contentlocale: fi-fi
-ms.lasthandoff: 08/06/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="managing-saved-settings-on-reports"></a>Raporttien tallennettujen asetusten hallinta
@@ -35,12 +35,12 @@ Jos sinulla on tarvittavat oikeudet, voit tarkastella, luoda ja muokata yritykse
 
 ## <a name="create-and-modify-saved-settings-for-all-users"></a>Kaikkien käyttäjien tallennettujen asetusten luominen ja muokkaaminen
 Voit hallita tallennettuja asetuksia sivun **1560 Raporttien asetukset** -kohdassa. Sivun voi avata kahdella tavalla:
--   Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Raportin asetukset** ja valitse sitten aiheeseen liittyvä linkki.
+-   Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Raportin asetukset** ja valitse sitten liittyvä linkki.
 -   Avaa raportti, valitse haku **Käytetyt oletusarvot:** -ruudun vierestä, valitse **Valitse koko luettelosta**.
 
 Sivulla näkyvät kaikki olemassa olevat kaikkien käyttäjien tallennusasetukset. Jos sarakkeessa **Määritetty** on käyttäjänimi, vain kyseinen käyttäjä voi käyttää liittyvään raporttiin tallennettuja asetuksia. Jos valintamerkki on **Jaa kaikkien käyttäjien kanssa** -sarakkeessa, kaikki käyttäjät voivat käyttää tallennettuja asetuksia raporttia varten.
 
-**Raporttiasetukset** -sivulla voit:
+**Raporttiasetukset** -ikkunassa voit:
 -   Valita **Uusi** luodaksesi alusta uuden tallennetun tapahtuma-asetuksen.
 -   Valita tallennettujen asetusten tapahtuman luettelosta ja valita **Kopioi** luodaksesi kopion.
 -   Valita tallennettujen asetusten tapahtuman luettelosta **Muokkaa** muokataksesi tallennettujen asetusten merkintää.

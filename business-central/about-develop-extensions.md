@@ -1,7 +1,6 @@
 ---
 title: Dynamics 365 Business Central -sovelluksen mukauttaminen | Microsoft Docs
 description: Business Centralin sovellusten ja laajennusten luominen, esitteleminen ja markkinoiminen.
-services: project-madeira
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-business-central
@@ -10,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 04/12/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: 69f660f8a19bd1fd9cb39a79d5be7977e68d3a47
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: fc926afbf0c1442bb610531b28507fbb2c1b1cf4
 ms.contentlocale: fi-fi
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="extending-included365finlongincludesd365finlongmdmd"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] -järjestelmän laajentaminen
@@ -38,7 +37,7 @@ Tuo omat [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] -palvelut to Micr
 **Yksittäisinä sovelluksina** – joilla tuot toimialaosaamisesi markkinoille.  
 **Paketoituina konsultointipalveluina** – joilla tuot markkinoille valmiita aktivointipaketteja markkinoille.
 
-Uusien kehitystyökalujen avulla voit rakentaa laajennuksia [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] -käyttäjille. Voit halutessasi tutustua uusiin työkaluihin tai katsoa lisätietoja laajennusversiosta 2.0 osoitteessa [aka.ms/GetStartedWithApps](http://aka.ms/GetStartedWithApps).  
+Uusien kehitystyökalujen avulla voit rakentaa laajennuksia [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] -käyttäjille. Voit halutessasi tutustua uusiin työkaluihin tai katsoa lisätietoja laajennusversiosta 2.0 osoitteessa [aka.ms/GetStartedWithApps](https://aka.ms/GetStartedWithApps).  
 
 Tietoja sovelluksista ja konsulttipalveluista, jotka ovat tällä hetkellä käytettävissä [Microsoft AppSourcessa](https://appsource.microsoft.com/en-us/marketplace/consulting-services?country=US&page=1).
 
@@ -71,9 +70,9 @@ Lisätietoja Microsoft AppSourcen konsultointipalveluiden tarjoomasta löydät s
 ## <a name="the-ready-to-go-program"></a>Ready to Go -ohjelma
 Ready to Go -on suunniteltu tukemaan sinua, kun tuot Microsoft [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] -tarjouksia Microsoft Appsourceen. Ohjelman sisältö: 
 
-- [Verkkokursseja](http://aka.ms/ReadyToGoOnlineLearning)
-- [Koulutusta ja työpajoja](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-ready-to-go#the-ready-to-go-coaching)
-- [Microsoft Collaborate -ympäristön](http://aka.ms/Collaborate)
+- [Verkkokursseja](https://aka.ms/ReadyToGoOnlineLearning)
+- [Koulutusta ja työpajoja](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-ready-to-go)
+- [Microsoft Collaborate -ympäristön](https://aka.ms/Collaborate)
 
 Lisätietoja siitä, miten voit rakentaa [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] -tarjooman [Ready to Go -ohjelmassa](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-ready-to-go). Jos sinulla on kysymyksiä tai palautetta **Ready to Go** -ohjelmasta, voit [ottaa meihin hteyttä ](mailto:dyn365bep@microsoft.com). 
 

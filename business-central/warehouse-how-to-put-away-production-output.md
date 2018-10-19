@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/16/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a7918a962f3349c68cd7245e9b12f83975aee5ac
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 9092100816c58fe2882c61214a5008e27591d4f5
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="put-away-production-or-assembly-output"></a>Tuotannon tai kokoonpanon tuotoksen hyllyttäminen
@@ -29,14 +29,14 @@ Jos laajennetut varastomääritykset edellyttävät sijainnissa sekä hyllytykse
 Tuotoksen hyllytyksen luonnin ensimmäinen vaihe on saapuvan varastoinnin pyynnön luonti. Tämä pyyntö ilmaisee fyysiselle varastolle, että tuotanto- tai kokoonpanotilauksen tuotos on valmis hyllytettäväksi.
 
 ## <a name="to-create-the-inbound-warehouse-request"></a>Saapuvan f. varastoinnin pyyntö  
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Vapautettu tuotantotilaus** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Vapautettu tuotantotilaus** ja valitse sitten liittyvä linkki.  
 2.  Valitse hyllytystä odottavassa tuotantotilauksessa **Luo saapuva f. var. pyyntö** -toiminto.  
 
 > [!NOTE]  
 >  Voit luoda saapuvan fyysisen varastoinnin pyynnön myös valitsemalla **Luo saapuva pyyntö** -valintaruudun, kun päivität tuotantotilauksen. Lisätietoja on kohdassa [Tuotantotilausten päivittäminen tai uudelleensuunnitteleminen](production-how-to-replan-refresh-production-orders.md).  
 
 ## <a name="to-put-output-away-with-an-inventory-put-away"></a>Nimikkeiden hyllyttäminen varastohyllytyksen avulla  
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Varastohyllytys** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varaston hyllytys** ja valitse sitten liittyvä linkki.  
 2.  Luo uusi varaston hyllytys. Lisätietoja on kohdassa [Nimikkeiden hyllyttäminen varaston hyllytyksillä](warehouse-how-to-put-items-away-with-inventory-put-aways.md).
 3.  Voit tarkastella tuotantotilauksen tuotosta valitsemalla ensin **Hae lähdedokumentit** -toiminnon ja sitten vapautetun tuotantotilauksen.  
 4.  Kirjoita hyllytysriveille halutut tiedot.
@@ -49,7 +49,7 @@ Kun kirjaat varastohyllytyksen, oletuksena on, että kaikki toiminnot kirjataan 
 Jos vain viimeisen toiminnon asetus- tai ajoaika on kirjattava, määritä viimeisen toiminnon tuotoksen määräksi 0. Vaihtoehtoisesti voit jättää viimeisen rivin kirjaamatta yksinkertaisesti poistamalla sen.  
 
 ## <a name="to-put-output-away-with-a-warehouse-internal-put-away"></a>Tuotoksen hyllytys sisäisen hyllytyksen tai siirron avulla
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **F.var. sisäinen hyllytys** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **F.var. sisäinen hyllytys** ja valitse sitten liittyvä linkki.  
 2. Valitse **Uusi**-toiminto.
 3. Kirjoita uuden sisäisen hyllytyksen otsikkoon ainakin **Sijaintikoodi**-kentän arvo.  
 4. Täytä rivi jokaiselle nimikkeelle, jonka haluat siirtää fyysiseen varastoon. Vain **Nimikkeen nro**- ja **Määrä**-kenttien arvot on määritettävä.  
@@ -64,7 +64,7 @@ Jos vain viimeisen toiminnon asetus- tai ajoaika on kirjattava, määritä viime
 >  Kun fyysisen varastoinnin sijainti on määritetty käyttämään ohjattua hyllytystä ja poimintaa, varasto on linkitetty valmistus-toimintoon tuotannon oletusvarastopaikkojen kautta: saapuvat ja lähtevät tuotannon varastopaikat ja avoin tuotannon varastopaikka, jotka voit määrittää **Varastopaikat** -pikavälilehdestä sijainti-kortissa. Kun kirjaat tuotantotilauksen tuotoksen, ohjelma sijoittaa tuotoksen automaattisesti **lähtevään tuotannon varastopaikkaan**. Tuotannon tuotoksen hyllytys tapahtuu muuten edellä kuvatulla tavalla, paitsi että nimikkeen oletusvarastopaikan käytön asemesta nimikkeet siirretään tai hyllytetään **lähtevästä tuotannon varastopaikasta** nimikkeen oletusvarastopaikkaan.  
 
 ## <a name="to-manually-specify-a-bin-to-store-items-from-production-output"></a>Määrittele manuaalisesti varastopaikka, jonne tallennat tuotannon tuotoksen nimikkeitä  
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Siirtotyökirja** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Siirtotyökirja** ja valitse sitten liittyvä linkki.  
 2.  Täytä Siirtotyökirja-ikkunassa otsikon tiedot ja luo rivi kullekin nimikkeelle, jonka haluat siirtää fyysiseen varastoon.  
 3.  Täytä sekä **Var.paikasta**- että **Varastopaikkakoodiin**-kentät ja kirjoita määrä **Määrä**-kenttään.  
 4.  Voit täyttää työkirjan rivit sijainnin varastopaikkojen koko sisällöllä tai suodatetulla sisällöllä valitsemalla **Hae var.paikan sisältö** -toiminnon.  

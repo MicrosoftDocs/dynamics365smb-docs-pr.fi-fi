@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f005baaeed8a3469258db5f2cde594291b384ba2
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 3188b2d711fe983526e5ee87a7a3901b16d6eb35
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a>Suunnitteluehdotusten muokkaaminen graafisessa näkymässä
@@ -37,7 +37,7 @@ Kun valitset **Tallenna muutokset** **Nimikkeen saatavuus aikajanalla** -ikkunas
 Seuraavassa ohjeessa neuvotaan, miten tarjontaehdotuksia voi muokata vetämällä ja pudottamalla. Vaihtoehtona, voit muuttaa **Eräpäivä**- ja **Määrä**-kenttiä **Tapahtumamuutokset**-pikavälilehdessä ja nähdä muutokset heti graafisesti **Aikajana**-pikavälilehdellä **Suunnittelutyökirja** -ikkunassa.  
 
 ## <a name="to-modify-suggested-supply-orders-in-the-graphical-view"></a>Muokkaa ehdotetut toimitustilaukset graafisessa näkymässä  
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Nimikkeen saatavuus aikajanalla** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeen saatavuus aikajanalla** ja valitse sitten liittyvä linkki.  
 
     **Nimikkeen saatavuus aikajanalla** -ikkuna näyttää auetessaan nimikkeen numeron, sijainnin ja variantin valitulla suunnittelurivillä, joka on esitäytetty **Asetukset**-pikavälilehden kenttien mukaisesti. **Aikajana**-pikavälilehdessä näkyy graafinen esitys nimikkeen suunnitellusta varastosta, mukaan lukien suunnitteluehdotuksista.  
 

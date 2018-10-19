@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales rep
-ms.date: 07/18/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 42deec3d94209a7963e596e7deb5584fccd6db7f
-ms.openlocfilehash: d7da3f54cfa3e5b7f3d012248ccfe1166604f2e8
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 24a32d3f1d0883f00dfaaef7924d821a039ca307
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/19/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-salespeople"></a>Myyjien määrittäminen
@@ -23,7 +23,7 @@ Useat yritykset haluavat seurata yksittäisen työntekijän suoritusta perustana
 Kun olet määrittänyt myyjän **Myyjät**-ikkunassa, voit valita luomasi myyjän **Myyjäkoodi**-kenttään kaikissa asiaankuuluvissa tietueissa. Näitä ovat esimerkiksi KP-tili, asiakas, toimittaja ja kampanjoiden kortit. Kun tämän jälkeen kirjaat tai määrität esimerkiksi laskuja, hyvityslaskuja, päiväkirjan rivejä tai viivästyskulutoimenpiteitä, myyjäkoodi siirtyy tuloksena saataviin tapahtumakirjauksiin.
 
 ## <a name="to-set-up-a-salesperson-code"></a>Myyjäkoodin määrittäminen
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Myyjät** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyjät** ja valitse sitten liittyvä linkki.
 2. Valitse **Myyjät**-ikkunassa **Uusi**-toiminto.
 
 Voit käyttää myyjiä erilaisissa asiakkuudenhallinta- ja markkinointitöissä. Voit esimerkiksi määrittää tehtäviä myyjille siten, että tehtävät sisältyvät niihin myyntimahdollisuuksiin, jotka on määritetty myyjälle. Lisätietoja on ohjeaiheessa [Mahdollisuuden myyntisyklien ja syklin vaiheiden määrittäminen](marketing-how-setup-opportunity-sales-cycles-stages.md).

@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/16/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c9dbffe821389fd237823acd110dd7e0c1ed908f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 72b130e1329b5fd1eee97d2c89b7b70fc606a659
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Vaihekuvaus: Myyntikampanjan suorittaminen
@@ -62,7 +62,7 @@ Kampanja voi olla mikä tahansa toimi, jossa on mukana useita kontakteja. Kampan
 
 ### <a name="to-set-up-a-campaign"></a>Kampanjan määrittäminen  
 
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Kampanjat** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kampanjat** ja valitse sitten liittyvä linkki.  
 2.  Luo uusi kampanja valitsemalla **Uusi**-toiminto. Paina kampanjan kortissa Enter, jos haluat, että kampanjanumero lisätään automaattisesti.  
 3.  Lisää kampanjan kuvaus **Kuvaus**-kenttään. Kuvaus voi olla esimerkiksi **FUTURUS-messut**.  
 4.  Napsauta **Tilakoodi**-kenttää ja valitse tilakoodi näkyviin tulevassa **Kampanjan tila** -luettelossa.  
@@ -148,11 +148,11 @@ Kampanja voi olla mikä tahansa toimi, jossa on mukana useita kontakteja. Kampan
 
 9. Liitteet lähetetään. Kun prosessi on valmis, valitse **OK** -painike viestille, joka ilmoittaa, että segmentti on kirjattu lokiin.  
 
-     Kirjeet tulostetaan automaattisesti ja segmentti kirjataan lokiin. Koska segmentti on kirjattu lokiin, ei ole enää segmenttien luettelossa, vaan siirretty luetteloon lokiin kirjatuista segmenteistä. Saat luettelon näkyviin valitsemalla ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoittamalla **Lokiin kirjatut segmentit** ja valitsemalla sitten aiheeseen liittyvän linkin.  
+     Kirjeet tulostetaan automaattisesti ja segmentti kirjataan lokiin. Koska segmentti on kirjattu lokiin, ei ole enää segmenttien luettelossa, vaan siirretty luetteloon lokiin kirjatuista segmenteistä. Jos haluat nähdä kyseisen luettelon, valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Lokiin kirjatut segmentit** ja valitse sitten liittyvä linkki.  
 
 10. Kun segmentti kirjataan lokiin, jokainen lähetetty kirje tallennetaan vuorovaikutuksena, jossa voit tarkastella lokia.  
 
-     Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Vuorovaikutuslokin tapahtumat** ja valitse sitten aiheeseen liittyvä linkki. Jokaiselle lähetetylle kirjeelle on olemassa merkintä.  
+     Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Vuorovaikutuslokin tapahtumat** ja valitse sitten liittyvä linkki. Jokaiselle lähetetylle kirjeelle on olemassa merkintä.  
 
 ### <a name="to-send-an-email-message-to-a-contact"></a>Lähetä sähköpostiviesti yhteyshenkilölle  
 
@@ -165,7 +165,7 @@ Kampanja voi olla mikä tahansa toimi, jossa on mukana useita kontakteja. Kampan
 7.  Valitse **Luo seurantasegmentti** -valintaruutu.  
 8.  Valitse **OK**-painike.  
 
-     Kirjeet lähetetään automaattisesti sähköpostilla ja segmentti kirjataan lokiin. Koska segmentti on kirjattu lokiin, ei ole enää segmenttien luettelossa, vaan tallennettu luetteloon lokiin kirjatuista segmenteistä. Saat luettelon näkyviin valitsemalla ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoittamalla **Lokiin kirjatut segmentit** ja valitsemalla sitten aiheeseen liittyvän linkin.  
+     Kirjeet lähetetään automaattisesti sähköpostilla ja segmentti kirjataan lokiin. Koska segmentti on kirjattu lokiin, ei ole enää segmenttien luettelossa, vaan tallennettu luetteloon lokiin kirjatuista segmenteistä. Jos haluat nähdä kyseisen luettelon, valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Lokiin kirjatut segmentit** ja valitse sitten liittyvä linkki.  
 
 ## <a name="registering-campaign-responses"></a>Kampanjareaktioiden rekisteröiminen  
  Mahdolliset asiakkaat vastaavat kirjeeseen seuraavien kahden viikon aikana. Markkinointipäällikkö haluaa pitää kirjaa vastauksista ja kirjata nämä vuorovaikutukset ohjelmaan.  

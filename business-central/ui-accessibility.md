@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 12/04/2017
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: ee889296e1a2ef7dcbb8350363fadbf1589844b5
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 65f34ae7fe1665bbe8336e6fe959ac109486531e
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="accessibility-and-keyboard-shortcuts-in-included365finincludesd365finmdmd"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)]in helppokäyttötoiminnot ja pikanäppäimet
@@ -63,7 +63,7 @@ Tässä ohjeaiheessa on tietoja toiminnoista, jotka helpottavat [!INCLUDE[d365fi
 [!INCLUDE[d365fin](includes/d365fin_md.md)] tukee erilaisia käyttöä helpottavia tekniikoita, kuten suurta kontrasti, näytönlukuohjelmia ja puheentunnistusohjelmistoja. Jotkin käyttöä helpottavat tekniikat eivät ehkä toimi hyvin tiettyjen [!INCLUDE[d365fin](includes/d365fin_md.md)]:n sivuelementtien kanssa.  
 
 ## <a name="for-more-accessibility-information"></a>Lisätietoja helppokäyttötoiminnoista  
-Lisätietoja Microsoftin tuotteiden helppokäyttötoiminnoista ja käyttöä helpottavista tekniikoista on [Microsoftin helppokäyttötoimintojen](http://go.microsoft.com/fwlink/?LinkId=262160) sivustossa.
+Lisätietoja Microsoftin tuotteiden helppokäyttötoiminnoista ja käyttöä helpottavista tekniikoista on [Microsoftin helppokäyttötoimintojen](https://go.microsoft.com/fwlink/?LinkId=262160) sivustossa.
 
 ## <a name="see-also"></a>Katso myös
 [Käytön aloittaminen](product-get-started.md)  

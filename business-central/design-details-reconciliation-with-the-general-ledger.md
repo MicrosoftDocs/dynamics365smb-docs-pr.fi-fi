@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, reconciliation, general ledger, inventory
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 813af57a2e1de62ce038990116f9cf92f741a78d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 67392093b4643b6083514859655ce3adc61d1d5b
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Rakennetiedot: täsmäytys pääkirjanpidon kanssa
@@ -84,16 +84,16 @@ Seuraavassa taulukossa esitetään, kuinka työkeskus on määritetty työkeskus
     1. Tilapäistilit on selvitetty. (Myynti)  
     2. Myytyjen tuotteiden kustannus (MTK) kirjataan. (Myynti)  
 
-        ![Myynnin KP-tilikirjausten tulokset](media/design_details_inventory_costing_3_gl_posting_sales.png "design_details_inventory_costing_3_GL_posting_sales")  
+        ![Myynnin KP-tilikirjausten tulokset](media/design_details_inventory_costing_3_gl_posting_sales.png "Myynnin KP-tilikirjausten tulokset")  
 5. Käyttäjä kirjaa kulutukseksi 150 lenkkiä, joka on yhden ketjun tuottamisessa käytettyjen lenkkien määrä. (Materiaalin kulutus)  
 
-    ![Materiaalin KP-tilikirjausten tulokset](media/design_details_inventory_costing_3_gl_posting_material.png "design_details_inventory_costing_3_GL_posting_material")  
+    ![Materiaalin KP-tilikirjausten tulokset](media/design_details_inventory_costing_3_gl_posting_material.png "Materiaalin KP-tilikirjausten tulokset")  
 6. Tuotantosolulta meni 60 minuuttia ketjun tekemiseen. Käyttäjä kirjaa muunnoksen kustannukset. (Kulutus, kapasiteetti)  
 
     1. Välittömät kustannukset tiliöidään. (Kulutus, kapasiteetti)  
     2. Välilliset kustannukset lasketaan ja tiliöidään. (Kulutus, kapasiteetti)  
 
-        ![Kapasiteetin KP-tilikirjausten tulokset](media/design_details_inventory_costing_3_gl_posting_capacity.png "design_details_inventory_costing_3_GL_posting_capacity")  
+        ![Kapasiteetin KP-tilikirjausten tulokset](media/design_details_inventory_costing_3_gl_posting_capacity.png "Kapasiteetin KP-tilikirjausten tulokset")  
 7. Käyttäjä kirjaa yhden ketjun oletetut kustannukset. (Tuotto)  
 8. Käyttäjä tekee tuotantotilauksen valmiiksi ja suorittaa **Muuta kustannuksia - Nimiketapahtumat** -eräajon. (Tuotto)  
 
@@ -102,7 +102,7 @@ Seuraavassa taulukossa esitetään, kuinka työkeskus on määritetty työkeskus
     3. Välilliset kustannukset (yleiskustannukset) siirretään välillisten kustannusten tililtä varastotilille. (Tuotto)  
     4. Tuloksena on erosumma 157,00 (PVA). Varianssit lasketaan vain vakiokustannuksen omaaville nimikkeille. (Tuotto)  
 
-        ![Tuotosten KP-tilikirjausten tulokset](media/design_details_inventory_costing_3_gl_posting_output.png "design_details_inventory_costing_3_GL_posting_output")  
+        ![Tuotoksen KP-tilikirjausten tulokset](media/design_details_inventory_costing_3_gl_posting_output.png "Tuotoksen KP-tilikirjausten tulokset")  
 
         > [!NOTE]  
         >  Yksinkertaisuuden vuoksi näytetään vain yksi vaihtelutili. Todellisuudessa on olemassa viisi erilaista tiliä:  
@@ -115,7 +115,7 @@ Seuraavassa taulukossa esitetään, kuinka työkeskus on määritetty työkeskus
 
 9. Käyttäjä määrittää ketjun hinnaksi 140,00 (PVA) aiemman 150,00 (PVA):n sijaan. (Muutos/uudelleenarvostus/pyöristys/siirto)  
 
-    ![Muutosten KP-tilikirjausten tulokset](media/design_details_inventory_costing_3_gl_posting_adjustment.png "design_details_inventory_costing_3_GL_posting_adjustment")  
+    ![Muutosten KP-tilikirjausten tulokset](media/design_details_inventory_costing_3_gl_posting_adjustment.png "Muutosten KP-tilikirjausten tulokset")  
 
 Saat lisätietoja tilityyppien välisestä suhteesta ja erityyppisistä arvotapahtumista kohdasta [Rakennetiedot: pääkirjanpidon tilit](design-details-accounts-in-the-general-ledger.md).  
 

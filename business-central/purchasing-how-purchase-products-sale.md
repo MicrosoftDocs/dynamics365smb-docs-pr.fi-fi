@@ -8,17 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supply planning, sales demand, replenish
-ms.date: 06/19/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 3331849cf94c70d0597ae5f37d3109451947c9fc
-ms.openlocfilehash: 322f55f9233e89e6e6b5a710520b3e5931d9c44a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: a268ec469f7781e77d7e4438a3b18c95e9304d4d
 ms.contentlocale: fi-fi
-ms.lasthandoff: 06/20/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="purchase-items-for-a-sale"></a>Nimikkeiden ostaminen myyntiin
-Voit luoda myyntitilausten ja myyntilaskujen toiminnoilla nopeasti ostoasiakirjoja myynnin edellyttämille puuttuville nimikemäärille. Voit käyttää asiakirjan tyypin mukaan kahta eri toimintoa.  
+Voit luoda myyntitilausten ja myyntilaskujen toiminnoilla nopeasti ostoasiakirjoja myynnin edellyttämille puuttuville nimikemäärille. Voit käyttää asiakirjan tyypin mukaan kahta eri toimintoa.
+
+> [!Note]
+> Näiden toimintojen avulla täydennetään oman varaston myyntinimikkeitä. Jos haluat ostaa nimikkeitä suoratoimitusta varten toimittajalta asiakkaalle, sinun on luotava suoratoimitus. Lisätietoja on kohdassa [Suoratoimitusten tekeminen](sales-how-drop-shipment.md).   
 
 |Toiminto|Description|
 |--------|-----------|
@@ -28,7 +31,7 @@ Voit luoda myyntitilausten ja myyntilaskujen toiminnoilla nopeasti ostoasiakirjo
 ## <a name="to-create-one-or-more-purchase-orders-from-a-sales-order"></a>Vähintään yhden ostotilauksen luominen myyntitilauksesta
 Voit luoda ostotilauksen kullekin myyntitilauksen nimikkeen määrälle, joka ei ole käytettävissä **Luo ostotilauksia** -toiminnolla.
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Myyntitilaukset** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten liittyvä linkki.
 2. Avaa myyntitilaus, johon haluat ostaa nimikkeitä.
 3. Valitse **Luo ostotilaukset** -toiminto.
 
@@ -51,7 +54,7 @@ Voit luoda yhden ostolaskun yhdelle tai usealle myyntiasiakirjan riville valitse
 > [!NOTE]  
 >   Tällä toiminnolla luodaan ostolasku täsmälleen valitussa myyntiasiakirjassa olevalle nimikemäärälle. Voit muuttaa oston määrää muokkaamalla ostolasku sen jälkeen, kun se on luotu.  
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Myyntitilaukset** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten liittyvä linkki.
 2. Avaa myyntilasku, johon haluat ostaa nimikkeitä.
 3. Valitse yksi tai useampi myyntilaskun rivi, joita haluat käyttää ostolaskuun. Voit käyttää kaikkia myyntilaskurivejä valitsemalla kaikki rivit tai jättämällä kaikki rivit valitsematta.
 4. Valitse **Luo ostolasku** -toiminto.

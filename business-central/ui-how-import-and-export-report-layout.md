@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5f66e2f3a40bb3ac680838f1e74416d3876f3979
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e32cbdc9bc5f61a054972be4c5bcc409ada961a0
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="import-and-export-a-report-or-document-layout"></a>Raporttien tai asiakirjojen asettelun tuonti ja vienti
@@ -27,7 +27,7 @@ Voit tuoda ja viedä olemassa olevan mukautetun raporttiasettelun tiedostona tie
   
 ### <a name="to-export-a-report-layout-to-a-file"></a>Raporttiasettelun vienti tiedostoon  
   
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Raporttiasetteluvalinta** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Raporttiasetteluvalinta** ja valitse sitten liittyvä linkki.  
   
 2.  Valitse raportille rivi, joka sisältää mukautetun asettelun, jonka haluat viedä ja valitse sitten **Kotisivu**-välilehden **Käsittely**-ryhmässä **Mukautetut asettelut**.  
   
@@ -41,7 +41,7 @@ Voit tuoda ja viedä olemassa olevan mukautetun raporttiasettelun tiedostona tie
   
      Word-raporttiasettelutiedoston tiedostotyypin on oltava .docx. RDLC-raporttiasettelutiedoston on oltava .rdlc- tai RDL-tiedostotyyppiä.  
   
-2.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Raporttiasetteluvalinta** ja valitse sitten aiheeseen liittyvä linkki.  
+2.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Raporttiasetteluvalinta** ja valitse sitten liittyvä linkki.  
   
 3.  Valitse raportille rivi, jolle haluat tuoda raporttiasettelun ja valitse sitten **Kotisivu**-välilehden **Käsittely**-ryhmässä **Mukautetut asettelut**.  
   

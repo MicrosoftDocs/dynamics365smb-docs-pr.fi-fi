@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 416fe8425d2b21f1f1f72b2f159bb6a863bc1d8b
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 883446d479af1432f569410a9412e1291e60477d
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-searching-for-dimension-combinations"></a>Rakennetiedot: dimensioyhdistelmien etsiminen
@@ -26,7 +26,7 @@ Kun suljet ikkunan dimensioyhdistelmän muokkaamisen jälkeen, [!INCLUDE[d365fin
 ### <a name="example-1"></a>Esimerkki 1  
  Seuraava kaavio esittelee hakupuun ja kuusi dimensiosarjaa. Kaaviossa näkyy vain erottava dimensioyhdistelmä.  
 
- ![Dimension puurakenne](media/nav2013_dimension_tree.png "NAV2013_Dimension_Tree")  
+ ![Esimerkki dimensiopuun rakenteesta](media/nav2013_dimension_tree.png "Esimerkki dimensiopuun rakenteesta")  
 
  Seuraavassa taulukossa kuvataan koko dimensiosarjan kirjausten luettelo, joka muodostaa kunkin dimensiosarjan.  
 
@@ -45,7 +45,7 @@ Kun suljet ikkunan dimensioyhdistelmän muokkaamisen jälkeen, [!INCLUDE[d365fin
 
  [!INCLUDE[d365fin](includes/d365fin_md.md)] varmistaa ensin päivittämällä **Dimensioyhdistelmän puusolmu** -taulukon, että hakupuu näyttää samalta kuin seuraavassa kaaviossa. Dimensioyhdistelmästä 7 tulee dimensioyhdistelmän 5 alitaso.  
 
- ![NAV2013-dimensiopuu, esimerkki 2](media/nav2013_dimension_tree_example2.png "NAV2013_Dimension_Tree_Example2")  
+ ![Esimerkki dimensiopuun rakenteesta NAV 2013:ssa](media/nav2013_dimension_tree_example2.png "Esimerkki dimensiopuun rakenteesta NAV 2013:ssa")  
 
 ### <a name="finding-dimension-set-id"></a>Dimensioyhdistelmän tunnuksen etsiminen  
  Käsitteellisellä tasolla hakupuun **Päätunnus**, **Dimensio** ja **Dimensioarvo** yhdistetään ja niitä käytetään perusavaimena, koska [!INCLUDE[d365fin](includes/d365fin_md.md)] kulkee puussa samassa järjestyksessä kuin dimensiotapahtumat. GET-toimintoa (tietue) käytetään etsimään dimensiosarjan tunnusta. Seuraava koodiesimerkki osoittaa, kuinka löydetään dimensiosarjan tunnus, kun dimensioarvoja on kolme.  

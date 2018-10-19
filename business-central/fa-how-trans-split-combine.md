@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 08374662c35dfbdab85097b628a0e0691d75e794
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 1a1db22bc990fc6438a11515f87f930be1eff252
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="transfer-split-or-combine-fixed-assets"></a>Käyttöomaisuuserien siirtäminen, jakaminen tai yhdistäminen
@@ -26,12 +26,12 @@ Käyttöomaisuus on ehkä siirrettävä toiselle osastolle esimerkiksi silloin, 
 
 1. Määritä uusi käyttöomaisuuserä. Syötä uusi osasto **Osastokoodi**-kenttään.
 2. Liitä käyttöomaisuuden poistokirja uuteen käyttöomaisuuteen. Lisätietoja on kohdassa [Käyttöomaisuuden hankinta](fa-how-acquire.md).
-3. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **KO:n uudelleenluokituspäiväkirjat** ja valitse sitten aiheeseen liittyvä linkki.
+3. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KO:n uudelleenluokituspäiväkirjat** ja valitse sitten liittyvä linkki.
 4. Luo uudelleenluokittelupäiväkirjan, jonka **KO-nro**-kentässä on alkuperäinen käyttöomaisuuserä ja **Uusi KO-nro** -kentässä on uusi siirrettävä käyttöomaisuuserä.  
 5. Valitse **Uudelleenluokita** -toiminto.
 
     Rivit luodaan nyt käyttöomaisuuden KP-päiväkirjaan käyttämällä mallia ja erää, jotka olet määrittänyt **KO-päiväkirjan asetukset** -ikkunassa määritellyn poistokirjan osalta. Lisätietoja on kohdassa [Käyttöomaisuuden poiston määrittäminen](fa-how-setup-depreciation.md).
-6. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **KO - KP-päiväkirjat** ja valitse sitten aiheeseen liittyvä linkki.    
+6. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KO - KP-päiväkirjat** ja valitse sitten liittyvä linkki.    
 7. Valitse **Käyttöomaisuuden KP-päiväkirja** -ikkunassa **Kirjaa**-toiminto ja kirjaa vaiheissa 4 ja 5 suoritettu uudelleenluokittelu.
 
 Jos yhdelle omaisuuserälle on kirjattu hankintameno, käyttöomaisuuden uudelleenluokituspäiväkirjaa voidaan käyttää jakamaan hankintameno usean omaisuuserän kesken.  
@@ -41,7 +41,7 @@ Voit jakaa yhden käyttöomaisuuserän useiksi käyttöomaisuuseriksi esimerkiks
 
 1. Määritä kaksi uutta käyttöomaisuuserää. Syötä uusi osasto **Osastokoodi**-kenttään.
 2. Liitä käyttöomaisuuden poistokirjat uusiin käyttöomaisuuseriin. Lisätietoja on kohdassa [Käyttöomaisuuden hankinta](fa-how-acquire.md).
-3. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **KO:n uudelleenluokituspäiväkirjat** ja valitse sitten aiheeseen liittyvä linkki.
+3. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KO:n uudelleenluokituspäiväkirjat** ja valitse sitten liittyvä linkki.
 4. Luo kaksi uudelleenluokittelupäiväkirjan riviä, yksi kullekin uudelle käyttöomaisuuserälle.
 5. Anna ensimmäisellä rivillä toinen käyttöomaisuuserä **Uusi KO-nro** -kentässä ja 25 **Uudell.luokita hankintameno-%** -kentässä.
 6. Anna toisella rivillä kolmas käyttöomaisuuserä **Uusi KO-nro** -kentässä ja 40 **Uudell.luokita hankintameno-%** -kentässä.
@@ -49,24 +49,24 @@ Voit jakaa yhden käyttöomaisuuserän useiksi käyttöomaisuuseriksi esimerkiks
 8. Valitse **Uudelleenluokita** -toiminto.
 
     Rivit luodaan nyt käyttöomaisuuden KP-päiväkirjaan käyttämällä mallia ja erää, jotka olet määrittänyt **KO-päiväkirjan asetukset** -ikkunassa määritellyn poistokirjan osalta. Lisätietoja on kohdassa [Käyttöomaisuuden poiston määrittäminen](fa-how-setup-depreciation.md).    
-9. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **KO - KP-päiväkirjat** ja valitse sitten aiheeseen liittyvä linkki.
+9. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KO - KP-päiväkirjat** ja valitse sitten liittyvä linkki.
 10. Valitse **Käyttöomaisuuden KP-päiväkirja** -ikkunassa **Kirjaa**-toiminto ja kirjaa vaiheissa 4–8 suoritettu uudelleenluokittelu.
 
 ## <a name="to-combine-two-fixed-assets-into-one"></a>Kahden käyttöomaisuuserän yhdistäminen yhdeksi eräksi
 Voit yhdistää useita käyttöomaisuuseriä yhdeksi käyttöomaisuuseräksi esimerkiksi silloin, kun siirrät jaetut käyttöomaisuuserät yhteen osastoon. Jos olet kirjannut siirrettävän käyttöomaisuuserän hankintamenot ja poiston, nämä arvot voidaan yhdistää yhdeksi käyttöomaisuuseräksi.
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **KO:n uudelleenluokituspäiväkirjat** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KO:n uudelleenluokituspäiväkirjat** ja valitse sitten liittyvä linkki.
 2. Luo uudelleenluokittelupäiväkirjan, jonka **KO-nro**-kentässä on siirrettävä tai yhdistettäv käyttöomaisuuserä ja **Uusi KO-nro** -kentässä on käyttöomaisuuserä, jonka kanssa se yhdistetään.
 3. Jätä **Uudell.luokita hankintameno-%** -kenttä tyhjäksi ja siirrä/yhdistä kaikki hankintamenot.    
 4. Valitse **Uudelleenluokita hankintameno**- ja **Uudelleenluokita poisto** -valintaruutu.
 5. Valitse **Toiminnot**-välilehdessä **Uudelleenluokita**.
 
     Rivit luodaan nyt käyttöomaisuuden KP-päiväkirjaan käyttämällä mallia ja erää, jotka olet määrittänyt **KO-päiväkirjan asetukset** -ikkunassa määritellyn poistokirjan osalta. Lisätietoja on kohdassa [Käyttöomaisuuden poiston määrittäminen](fa-how-setup-depreciation.md).   
-6. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **KO - KP-päiväkirjat** ja valitse sitten aiheeseen liittyvä linkki.
+6. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KO - KP-päiväkirjat** ja valitse sitten liittyvä linkki.
 7. Valitse **Käyttöomaisuuden KP-päiväkirja** -ikkunassa **Kirjaa**-toiminto ja kirjaa vaiheissa 2–5 suoritettu uudelleenluokittelu.
 
 ## <a name="to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification"></a>Muutetun poistokirjan arvojen tarkasteleminen käyttöomaisuuden uudelleenluokittelun vuoksi
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **KO-kirjanpitoarvo 02** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KO-kirjanpitoarvo 02** ja valitse sitten liittyvä linkki.
 2. Täytä tarvittavat kentät.
 3. Valitse **Tulosta**- tai **Esikatsele**-painike.  
 

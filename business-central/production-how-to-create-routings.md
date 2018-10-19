@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/04/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 0fd098170ac96b03f6f1da64b8de23b3f500c565
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0b274e23b03c06c395df6b91033174425cda679b
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-routings"></a>Uusien reititysten luominen
@@ -32,7 +32,7 @@ Seuraavat toimet on oltava tehtynä ennen reitityksen määrittämistä:
 - Tuotantoresurssit on määritetty. Lisätietoja on kohdassa [Tuotantosolujen ja kuormituskeskusten määrittäminen](production-how-to-set-up-work-and-machine-centers.md).
 
 ## <a name="to-create-a-routing"></a>Reitityksen luominen  
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Reititykset** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Reititykset** ja valitse sitten liittyvä linkki.  
 2.  Valitse **Uusi**-toiminto.  
 3. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Valitse **Tyyppi**-kentässä **Sarja**, jos haluat laskea tuotantoreitityksen kentän **Operaation nro** arvon mukaan. -kentässä.   
@@ -63,7 +63,7 @@ Reitityslinkkejä luomalla komponentteja voidaan liittää tiettyihin toimintoih
 
 Toinen tästä seuraava tärkeä etu on se, että linkitetyt komponentit ja toiminnot voidaan näyttää loogisena prosessirakenteena kirjattaessa tuotosta ja kulutusta **Tuotantopäiväkirja**-ikkunassa.  
 
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Reititykset** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Reititykset** ja valitse sitten liittyvä linkki.  
 2.  Avaa reititys, joka sisältää linkitettävät operaatiot.  
 
     Varmista, että reitityksen tila on **Kehityksen alla**.  
@@ -94,7 +94,7 @@ Kun nyt luodaan ja/tai päivitetään tuotantotilaus, joka käyttää yllä käs
 ## <a name="to-assign-personnel-tools-and-quality-measures-to-routing-operations"></a>Henkilöstön, työkalujen ja laatutoimien määrittäminen reititystoimintoihin
 Jos operaatiolle vaaditaan henkilöstöä, jolla on pätevyyttä, erikoistietämystä tai erityisvaltuutus, kyseisen henkilöstön voi määritellä operaatiolle. Voit määrittää toimintoon myös työkaluja ja laatuvaatimuksia. Tässä toimintaohjeessa käsitellään henkilöstön määrittämistä. Muiden toimintotyyppien tietoja koskevat vastaavanlaiset ohjeet.
 
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Reititykset** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Reititykset** ja valitse sitten liittyvä linkki.  
 2.  Avaa käsiteltävä reititys.  
 3.  Valitse **Rivit** -pikavälilehdessä ensin käsiteltävä rivi ja sitten **Henkilöstö**-toiminto.  
 4.  Täytä **Reititys henkilöstö** -ikkunan kentät.  
@@ -103,7 +103,7 @@ Jos operaatiolle vaaditaan henkilöstöä, jolla on pätevyyttä, erikoistietäm
 ## <a name="to-create-a-new-versions-of-a-routing"></a>Reititysten uusien versioiden luominen  
 Versioperiaate mahdollistaa useiden reititysversioiden hallitsemisen. Reititysversion rakenne vastaa reititysversion otsikosta ja reititysversion riveistä koostuvan reitityksen rakennetta. Peruseron määrittää aloituspäivämäärä.  
 
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Reititykset** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Reititykset** ja valitse sitten liittyvä linkki.  
 2.  Valitse ensin kopioitava reititys ja sitten **Versiot**-toiminto.  
 3. Valitse **Reititysversiot**-ikkunassa **Uusi**-toiminto.
 4. Täytä tarvittavat kentät.

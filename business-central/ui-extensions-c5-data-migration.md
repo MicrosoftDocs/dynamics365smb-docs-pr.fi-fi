@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
-ms.date: 04/09/208
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: fa6779ee8fb2bbb453014e32cb7f3cf8dcfa18da
-ms.openlocfilehash: 698bde6949c6053501881d07135586810fc81bdd
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: a10c05116e97cdf000bd46258a9d67f4c9910c90
 ms.contentlocale: fi-fi
-ms.lasthandoff: 04/11/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
-# <a name="the-c5-data-migration-extension-for-business-central"></a>C5-tietojen siirron laajennus Business Central -sovellusta varten
+# <a name="the-c5-data-migration-extension"></a>Tietojen siirron C5-laajennus
 Tämän laajennuksen avulla on helppo siirtää asiakkaita, toimittajia, nimikkeitä ja pääkirjanpidon tilejä Microsoft Dynamcis C5 2012 -versiosta [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmaan. Voit siirtää myös pääkirjanpidon tilien vanhat tapahtumat.
 
 > [!Note]
@@ -30,6 +30,7 @@ Tämän laajennuksen avulla on helppo siirtää asiakkaita, toimittajia, nimikke
 Seuraavat kunkin objektit tiedot siirretään:
 
 **Asiakkaat**
+* Kontaktit  
 * Sijainti
 * Maa
 * Asiakkaan dimensiota (osasto, tuotantosolu, tarkoitus)
@@ -47,6 +48,7 @@ Jos siirrät tilit, myös seuraavat tiedot siirretään:
 * Avoimet tapahtumat (asiakastapahtumat)
 
 **Toimittajat**
+* Kontaktit
 * Sijainti
 * Maa
 * Toimittajan dimensiot (osasto, tuotantosolu, tarkoitus)
@@ -75,6 +77,7 @@ Jos siirrät tilit, myös seuraavat tiedot siirretään:
 * Mittayksiköt
 * Nimikkeen seurantakoodi
 * Asiakkaan hintaryhmä
+* Kokoonpanon tuoterakenteet
 
 Jos siirrät tilit, myös seuraavat tiedot siirretään:
 
@@ -97,32 +100,34 @@ Jos siirrät tilit, myös seuraavat tiedot siirretään:
 Tietojen siirtäminen C5:stä ja tuominen [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmasta edellyttää vain seuraavien vaiheiden suorittamista:  
 
 1. Voit viedä tiedot C5:stä käyttämällä **Vie tietokanta** -toimintoa. Pakkaa sitten viennin kansio.  
-2. Valitse [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmassa ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake. Valitse **Tietojen siirto** ja valitse sitten **Tietojen siirto**.  
+2. Valitse [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksessa ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tietojen siirto** ja valitse **Tietojen siirto**.  
 3. Suorita asetusten ohjatun määrityksen oppaan vaiheet. Varmista, että valitset tietolähteeksi **Tuo Microsoft Dynamcis C5 2012 -versiosta** -kohdan.  
 
 > [!Note]
 > Yritykset lisäävät usein kenttiä, joiden avulla C5 voidaan mukauttaa toimialan vaatimusten mukaisesti. [!INCLUDE[d365fin](includes/d365fin_md.md)] ei siirrä mukautettujen kenttien tietoja. Siirto epäonnistuu myös, jos mukautettuja kenttiä on enemmän kuin 10.
 
 ## <a name="viewing-the-status-of-the-migration"></a>Siirron tilan tarkasteleminen
-Voit valvoa siirron onnistumista **Tietojen siirron yleiskuvaus** -sivulla. Sivulla on tietoja esimerkiksi siirrettävien objektien määrästä, siirron tilasta, siirrettyjen nimikkeiden määrästä ja siirron onnistumisesta. Sivulla on tietoja myös virheiden määrästä. Voit tarkastella sivulla virheitä ja mahdollisesti siirtyä sivulta korjaamaan objektin ongelmat. Lisätietoja on tämän aiheen seuraavassa osassa.  
+Voit valvoa siirron onnistumista **Tietojen siirron yleiskuvaus** -ikkunassa. Sivulla on tietoja esimerkiksi siirrettävien objektien määrästä, siirron tilasta, siirrettyjen nimikkeiden määrästä ja siirron onnistumisesta. Sivulla on tietoja myös virheiden määrästä. Voit tarkastella sivulla virheitä ja mahdollisesti siirtyä sivulta korjaamaan objektin ongelmat. Lisätietoja on tämän aiheen seuraavassa osassa.  
 
 > [!Note]
 > Päivitä sivu, jotta siirron tulokset näkyvät sivulla.
 
 ## <a name="how-to-avoid-double-posting"></a>Miten voit välttää kaksinkertaisen kirjauksen
 Voit välttää kaksinkertaisen kirjaamisen pääkirjanpitoon, käyttämällä seuraavia vastatilejä avoimille tapahtumille:  
-  
+
 * Toimittajia varten käytetään ostoreskontratiliä toimittajan kirjausryhmästä.  
 * Asiakkaita varten käytetään myyntireskontratiliä asiakkaan kirjausryhmästä.  
 * Nimikkeille luodaan yleinen kirjausasetus, missä oikaisutili on tili, joka on määritetty varastotiliksi varaston kirjausasetuksissa.  
 
 ## <a name="correcting-errors"></a>Virheiden korjaaminen
-Jos siirrossa tapahtuu virheitä, **Tila**-kentän arvoksi tulee **Valmis (löytyi virheitä)**. **Virheiden määrä** -kenttä osoittaa virheiden määrän. Voit tarkastella virheluetteloa, kun avaat **Tietojen siirron virheet** -sivun valitsemalla seuraavat kohdat:  
+Jos siirrossa tapahtuu virheitä, **Tila**-kentän arvoksi tulee **Valmis (löytyi virheitä)**. **Virheiden määrä** -kenttä osoittaa virheiden määrän. Voit tarkastella virheluetteloa, kun avaat **Tietojen siirron virheet** -ikkunan valitsemalla seuraavat kohdat:  
 
 * Objektin **Virheiden määrä** -kentässä oleva luku.  
 * Objekti ja sen jälkeen **Näytä virheet** -toiminto.  
 
-Voit korjata virheen **Tietojen siirron virheet** -sivulla valitsemalla virhesanoman ja valitsemalla sitten **Muokkaa tietuetta**. Näyttöön avautuu sivu, joka sisältää objektin siirretyt tiedot. Kun olet korjannut yhden tai useita virheitä, voit siirtää korjaamasi objektit valitsemalla **Siirrä**. Koko siirtoprosessia ei siis tarvitse käynnistää uudelleen.  
+Voit korjata virheen **Tietojen siirron virheet** -ikkunassa valitsemalla virhesanoman ja valitsemalla sitten **Muokkaa tietuetta**. Näyttöön avautuu objektin siirretyt tiedot. Jos korjattavia virheitä on paljon, voit muokata luettelossa olevia objekteja **Korjaa virheet joukkotoimintona** -kohdan avulla. Jos virheen aiheuttaja on liittyvä merkintä, yksittäiset tietueet on avattava tästä huolimatta. Esimerkiksi toimittajaa ei siirretä, jos toimittajan jonkin yhteyshenkilön sähköpostiosoite on virheellisessä muodossa.
+
+Kun olet korjannut yhden tai useita virheitä, voit siirtää korjaamasi objektit valitsemalla **Siirrä**. Koko siirtoprosessia ei siis tarvitse käynnistää uudelleen.  
 
 > [!Tip]
 > Jos olet korjannut useita virheitä, voit valita useita siirrettäviä rivejä valitsemalla **Valitse lisää** -toiminnon. Jos virheitä ei tarvitse korjata, voit valita ne ja valita sitten **Ohita valinnat**.
@@ -145,5 +150,5 @@ Voit pysäyttää tietojen siirron valitsemalla **Pysäytä kaikki siirrot**. Jo
 
 ## <a name="see-also"></a>Katso myös
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]in mukauttaminen laajennusten avulla](ui-extensions.md)  
-[Käytön aloittaminen](product-get-started.md) 
+[Käytön aloittaminen](product-get-started.md)
 

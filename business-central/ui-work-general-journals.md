@@ -1,31 +1,39 @@
 ---
 title: "Kirjaaminen suoraan pääkirjanpitoon yleisten päiväkirjojen avulla| Microsoft Docs"
-description: "Tutustu, miten yleisiä päiväkirjoja käytetään rahoitustapahtumien kirjaamisessa pääkirjanpitotileille sekä muille tileille, kuten pankki- ja toimittajatileille."
-author: SorenGP
+description: "Tutustu siihen, miten päiväkirjoja käytetään rahoitustapahtumien kirjaamisessa pääkirjanpitotileille sekä muille tileille, kuten pankki- ja toimittajatileille."
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/23/2018
-ms.author: sgroespe
+ms.date: 10/01/2018
+ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 090a0141583795757a0d59b358ba4d553100d976
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 892d96dfa5d0fc960150f127ffa779cf6819c5a2
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="working-with-general-journals"></a>Yleisten päiväkirjojen käyttäminen
-Useimmat rahoitustapahtumat kirjataan pääkirjanpitoon erityisten yritysasiakirjojen, kuten ostolaskujen ja myyntitilausten välityksellä. Liiketoiminnan aktiviteeteille, joihin ei liity [!INCLUDE[d365fin](includes/d365fin_md.md)]-asiakirjaa, kuten pienille kuluille tai käteissuorituksille voi luoda liittyvät tapahtumat kirjaamalla päiväkirjarivit **Yleinen päiväkirja** -ikkunassa. Lisätietoja on kohdassa [Tapahtumien kirjaaminen suoraan pääkirjanpitoon](finance-how-post-transactions-directly.md).
+
+Useimmat rahoitustapahtumat kirjataan pääkirjanpitoon erityisten yritysasiakirjojen, kuten ostolaskujen ja myyntitilausten välityksellä. Voit myös prosessoida liiketoimintaktiviteetteja, kuten ostoja, maksamista tai työntekijöiden kulujen hyvitystä kirjaamalla päiväkirjarivejä [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen eri päiväkirjoihin.  
+
+Useimmat päiväkirjat perustuvat *yleiseen päiväkirjaan* ja voit käsitellä kaikki tapahtumat **Yleinen päiväkirja** -ikkunassa. Lisätietoja on kohdassa [Tapahtumien kirjaaminen suoraan pääkirjanpitoon](finance-how-post-transactions-directly.md).  
 
 Voit esimerkiksi kirjata työntekijöiden itse maksamat liiketoimintaan liittyvät kulut myöhemmin hyvitettäväksi. Lisätietoja on kohdassa [Työntekijöiden kulujen kirjaaminen ja hyvittäminen](finance-how-record-reimburse-employee-expenses.md).
 
+Useimmissa tapauksissa kuitenkin käyttää tietyille tapahtumille tarkoitettuja päiväkirjoja, kuten **maksupäiväkirjaa** maksujen rekisteröinnissä. Lisätietoja on kohdassa [Maksujen ja hyvitysten tallentaminen maksupäiväkirjaan](payables-how-post-payments-refunds.md).  
+
 Yleisiä päiväkirjoja käytetään rahoitustapahtumien kirjaamisessa suoraan pääkirjanpitotileille sekä muille tileille, kuten pankki-, asiakas-, toimittaja- ja työntekijätileille. Yleisen päiväkirjan avulla kirjaaminen luo aina tapahtumia kirjanpitotileille. Näin tapahtuu silloinkin, kun kirjataan esimerkiksi päiväkirjan rivi asiakkaan tilille, koska tapahtuma kirjataan pääkirjanpidon myyntisaamisten tilille kirjausryhmän kautta.
+
+[!INCLUDE[journal-showhide-columns-inline-tip](includes/journal-showhide-columns-inline-tip.md)]  
 
 Päiväkirjaan lisäämäsi tiedot ovat väliaikaisia, ja niitä voi muuttaa niiden ollessa päiväkirjassa. Kun kirjaat päiväkirjan, tiedot siirretään yksittäisten tilien tapahtumiin, missä niitä ei voi muuttaa. Voit kuitenkin peruuttaa kirjattujen tapahtumien kohdistuksen tai kirjata peruuttavia tai korjaavia tapahtumia. Lisätietoja on kohdassa [Kirjauksien peruuttaminen](finance-how-reverse-journal-posting.md).
 
 ## <a name="using-journal-templates-and-batches"></a>Päiväkirjan mallit ja erien käyttäminen
+
 Yleisen päiväkirjan malleja on useita. Kullakin päiväkirjamallilla on määritetty ikkuna, jossa on erityistoimintoja sekä näitä toimintoja varten tarvittavat kentät. Näitä ikkunoita ovat esimerkiksi **Maksujen täsmäytyskirjauskansio**, jossa käsitellään pankkimaksuja, ja **Maksupäiväkirja**, jossa maksetaan toimittajille tai maksetaan hyvitykset työntekijöille. Lisätietoja on kohdissa [Maksujen suorittaminen](payables-make-payments.md) ja [Asiakkaan maksujen täsmäyttäminen manuaalisesti](receivables-how-apply-sales-transactions-manually.md).
 
 Voit määrittää kullekin päiväkirjan mallille oman henkilökohtaisen päiväkirjan päiväkirjan eränä. Voit esimerkiksi määrittää maksupäiväkirjalle oman päiväkirjan erän, jolle on määritetty henkilökohtainen asettelu ja asetukset. Seuraava vihje on esimerkki päiväkirjan mukauttamisesta.
@@ -34,7 +42,7 @@ Voit määrittää kullekin päiväkirjan mallille oman henkilökohtaisen päiv�
 > Jos valitset **Yleisen päiväkirjan erät** -ikkunan erän rivillä olevan **Ehdota vastasummaa** -valintaruudun, esimerkiksi saman asiakirjanumeron yleisen päiväkirjan rivien **Summa**-kenttään esitäytetään automaattisesti arvo, joka vaaditaan asiakirjan täsmäyttämiseksi. Lisätietoja on ohjeaiheessa [[!INCLUDE[d365fin](includes/d365fin_md.md)] saa ehdottaa arvoja](ui-let-system-suggest-values.md).
 
 ## <a name="understanding-main-accounts-and-balancing-accounts"></a>Päätilit ja vastatilit
-Jos olet määrittänyt päiväkirjan erille oletusvastatilit **Yleiset päiväkirjat** -sivulla, vastatili täytetään automaattisesti, kun täytät **Tilinro**-kentän. Muussa tapauksessa täytä sekä **Tilinro**-kenttä että **Vastatilin nro** -kenttä manuaalisesti. Positiivinen summa **Summa**-kentässä veloitetaan päätililtä ja hyvitetään vastatilille. Negatiivinen summa hyvitetään päätilille ja veloitetaan vastatililtä.
+Jos olet määrittänyt päiväkirjan erille oletusvastatilit **Yleiset päiväkirjat** -ikkunassa, vastatili täytetään automaattisesti, kun täytät **Tilinro**-kentän. Muussa tapauksessa täytä sekä **Tilinro**-kenttä että **Vastatilin nro** -kenttä manuaalisesti. Positiivinen summa **Summa**-kentässä veloitetaan päätililtä ja hyvitetään vastatilille. Negatiivinen summa hyvitetään päätilille ja veloitetaan vastatililtä.
 
 > [!NOTE]  
 >   ALV lasketaan erikseen päätiliä varten ja vastatiliä varten, joten niillä voi olla eri ALV-prosentit.
@@ -85,9 +93,8 @@ Kuten toistuvien tapahtumien päiväkirjassa, sinun tarvitsee syöttää kohdist
 
 Jos Toistotapa-kenttään toistuvien tapahtumien päiväkirjassa on asetettu **Saldo** tai **Vasta-saldo**, ohjelma ei huomioi mitään dimension arvokoodeja toistuvassa päiväkirjassa, kun tili on nollattu. Jos siis kohdistat toistuvan rivin useampaan dimension arvoon **Kohdistukset**-ikkunassa, syntyy vain yksi vastakirjaus. Jos kohdistat toistuvan rivin, jolla on dimension arvon koodi, et voi syöttää samaa koodia **Kohdistukset**-ikkunaan. Jos teet niin, dimension arvot ovat virheellisiä.
 
-####<a name="example-allocating-rent-payments-to-different-departments"></a>Esimerkki: Vuokramaksujen kohdistaminen eri osastoihin
+#### <a name="example-allocating-rent-payments-to-different-departments"></a>Esimerkki: Vuokramaksujen kohdistaminen eri osastoihin
 Jos maksat vuokraa joka kuukausi, olet syöttänyt vuokrasumman kassatilille toistuvien tapahtumien päiväkirjan rivillä. **Kohdistukset**-ikkunassa voit jakaa kulun useamman osaston (Osasto-dimension) kesken osastojen pinta-alaneliöiden mukaan. Laskenta perustuu kunkin rivin kohdistusprosenttiin. Voit syöttää erilaisia tilejä jokaiselle eri kohdistusriville (jos myös vuokra jaetaan useammalle tilille) tai voit syöttää saman tilin erilaisilla dimension arvokoodeilla Osasto-dimension jokaisella rivillä.
-
 
 ## <a name="working-with-standard-journals"></a>Vakiopäiväkirjojen käyttäminen
 Kun olet luonut päiväkirjan rivejä, joita todennäköisesti käytät myös vastaisuudessa, voit tallentaa rivit vakiopäiväkirjana, ennen kuin kirjaat rivit päiväkirjaan. Tämä toiminto koskee nimikepäiväkirjoja sekä yleisiä päiväkirjoja.
@@ -96,7 +103,7 @@ Kun olet luonut päiväkirjan rivejä, joita todennäköisesti käytät myös va
 >   Vaikka seuraavassa puhutaan nimikepäiväkirjasta, samat tiedot koskevat myös yleistä päiväkirjaa.
 
 ### <a name="to-save-a-standard-journal"></a>Tallentaminen vakiopäiväkirjana
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Nimikepäiväkirjat** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikepäiväkirjat** ja valitse sitten liittyvä linkki.
 2. Lisää koodi yhdelle tai usealle päiväkirjariville.
 3. Valitse ne päiväkirjan rivit, joita haluat käyttää uudelleen.
 4. Valitse **Tallenna vakiopäiväkirjana** -toiminto.
@@ -111,7 +118,7 @@ Kun olet luonut päiväkirjan rivejä, joita todennäköisesti käytät myös va
 Kun olet tallentanut vakionimikepäiväkirjan, ohjelma siirtyy takaisin Nimikepäiväkirja-ikkunaan, jossa voit kirjata rivit. Tämän jälkeen voit kirjata samat tai vastaavat rivit vaivattomasti aina, kun tilanne sitä edellyttää.
 
 ### <a name="to-reuse-a-standard-journal"></a>Vakiopäiväkirjan käyttäminen uudelleen
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Nimikepäiväkirjat** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikepäiväkirjat** ja valitse sitten liittyvä linkki.
 2. Valitse **Hae vakiopäiväkirjat** -toiminto.
 
     Näkyviin tulee Vakionimikepäiväkirjat-ikkuna, jossa on kaikkien luotujen vakionimikepäiväkirjojen koodit ja kuvaukset.
@@ -145,7 +152,7 @@ Kaikissa asiakirjan numeroinneissa täytyy ottaa huomioon niihin liittyvät kohd
 
 Seuraavat toimenpiteet perustuvat **Yleinen päiväkirja** -ikkunaan, mutta niitä sovelletaan kaikkiin muihin päiväkirjoihin, jotka perustuvat yleiseen päiväkirjaan, kuten **Maksupäiväkirja**-ikkuna.
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Yleiset päiväkirjat** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Yleiset päiväkirjat** ja valitse sitten liittyvä linkki.
 2. Kun olet valmis kirjaamaan päiväkirjan, valitse **Numeroi asiakirjanumerot uudelleen** -toiminto.
 
 **Asiakirjanumero**-kentän arvoja muutetaan tarvittaessa siten, että yksittäisten tai ryhmitettyjen päiväkirjojen rivien asiakirjanumerot ovat peräkkäisessä järjestyksessä. Voit kirjata päiväkirjan, kun asiakirjat on numeroitu uudelleen.

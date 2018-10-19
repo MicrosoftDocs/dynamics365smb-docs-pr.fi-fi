@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/07/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 314732d3f622aede09342d7246e28b4a910d08d9
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 50b77f4c6e333f3024f2261eb0c6df42b3e535d0
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-prepayment-invoices"></a>Ennakkomaksulaskujen luominen
@@ -27,7 +27,7 @@ Kun olet luonut myynti- tai ostotilauksen, voit luoda ennakkomaksun laskun. Voit
 Seuraavaksi käsitellään myyntitilausten ennakkomaksun laskuttamista. Ostotilausten vaiheet ovat vastaavanlaiset.  
 
 ## <a name="to-create-a-prepayment-invoice"></a>Ennakkomaksulaskun luominen  
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Myyntitilaukset** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten liittyvä linkki.  
 2. Luo uusi myyntitilaus. Lisätietoja on kohdassa [Tuotteiden myyminen](sales-how-sell-products.md).  
 
     **Ennakkomaksu**-pikavälilehden **Ennakkomaksuprosentti**-kenttä täytetään automaattisesti, jos asiakaskortissa on oletusennakkomaksuprosentti. Kentän sisältöä voidaan muuttaa. Ennakkomaksun osuus kopioidaan otsikosta vain niille riveille, jotka eivät kopioi ennakkomaksun vakio-osuutta nimikkeeltä.  

@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
-ms.date: 02/19/2018
+ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
-ms.openlocfilehash: 5508b9336b0e6bffcc47632b95eac3691ab3891c
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ddffef784a80227ea28b193779b4aead7c3b691a
 ms.contentlocale: fi-fi
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="getting-ready-for-doing-business"></a>Valmistautuminen liiketoimintaan
@@ -26,11 +26,11 @@ Pääset liiketoiminnassa alkuun tutustumalla **Liiketoiminnan tuki** -ikkunaan,
 Roolikeskuksen siirtymispalkin alareunassa on **Asennus ja laajennukset** -valikko. Ruudussa on luettelo avustetuista asennuksista, joiden avulla pääset alkuun. Kun olet siirtänyt olemassa olevasta taloustietojen järjestelmästä tiedot, kuten toimittajat, asiakkaat ja nimikkeet, olet valmis aloittamaan. Voit käyttää tarvittaessa myös toista avustettua asennusta. Jos alueella ei ole asetuksen ohjattua määritystä, valitse **Manuaalinen asennus** -toiminto. Pääset tällä tavoin ikkunoihin, joissa voit täyttää kaikkien alueiden asennuskentät manuaalisesti. Lisätietoja on myös ohjeaiheessa [[!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittäminen](setup.md)
 
 > [!NOTE]  
->   Käytettävissä olevien asennusoppaiden, laajennusten ja palvelujen luettelo vaihtelee yritykselle valitun käyttäjäkokemuksen mukaan. **Basic**-kokemuksen valikoima on suppeampi kuin **Essential**-kokemuksen valikoima. Ensimmäisellä kirjautumiskerralla käytössä on Basic-kokemus. Lisätietoja on kohdassa [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md).
+>   Käytettävissä olevien asennusoppaiden, laajennusten ja palvelujen luettelo vaihtelee yritykselle valitun käyttäjäkokemuksen mukaan. **Essential**-kokemuksen valikoima on suppeampi kuin **Premium**-kokemuksen valikoima. Ensimmäisellä kirjautumiskerralla käytössä on Essential-kokemus. Lisätietoja on kohdassa [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md).
 
-**Avustettu asennus** -ikkunassa on seuraava **Perus**-kokemus:
+**Avustettu asennus** -ikkunassa on seuraava **Essential**-kokemus:
 
-| Avustettu määritys | Kuvaus |
+| Asetusten ohjattu määritys | Description |
 | --- | --- |
 | Määritä oma yritys |Luo uuden kokeiluyrityksen, jossa voit antaa tietoja ja kokeilla [!INCLUDE[d365fin](includes/d365fin_md.md)]ia. Jos kävit läpi Käytön aloittaminen -esittelyn, tämä on luultavasti jo **valmis**. |
 | Siirrä yritystiedot |Tämän avulla voit tuoda aiemmin luodut yritystiedot, kuten toimittajat, asiakkaat ja nimikkeet, Excel- tai Quickbooks-ohjelmasta. |
@@ -60,7 +60,7 @@ Jos sinun on lisättävä uusia käyttäjiä, voit tehdä sen Office 365:n halli
 [!INCLUDE[d365fin](includes/d365fin_md.md)]issa on työkaluvihjeitä, jotka auttavat eri liiketoimintaprosessien suorittamisessa. Jokainen työkaluvihje sisältää **Ohjeet**-linkin. Sen avulla voit siirtyä tuotteen ohjeisiin. Oikeassa yläkulmassa oleva kysymysmerkki vie myös tuotteen ohjeisiin.
 
 ## <a name="next-steps"></a>Seuraavat vaiheet
-Voit jatkaa luomalla uusia myynti- tai ostoasiakirjoja siirrettyjen tietojen perusteella. Voit luoda nopeasti myyntitarjouksen, myyntilaskun, myyntitilauksen, ostolaskun tai maksurekisteröinnin **kotisivun** **Oma yritys** -osassa.
+Voit jatkaa luomalla uusia myynti- tai ostoasiakirjoja siirrettyjen tietojen perusteella. Voit luoda nopeasti myyntitarjouksen, myyntilaskun, myyntitilauksen, ostolaskun tai maksurekisteröinnin **Koti**-ikkunan **Oma yritys** -osassa.
 
 ## <a name="see-also"></a>Katso myös
 [Käytön aloittaminen](product-get-started.md)  

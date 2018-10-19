@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/14/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3f99d23f2e4a43aeb1face2f39dd6384ff672214
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0f1800674e6f5561dc48eadde132f56b06500f98
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="reserve-items"></a>Nimikkeiden varaaminen
@@ -26,7 +26,7 @@ Jokaisella nimikkeiden varaamista varten avatulla **Varaus**-ikkunan rivillä on
 
 ## <a name="to-reserve-items-for-sales"></a>Nimikkeiden varaaminen myyntiä varten
 Seuraavaksi käsitellään, miten nimikkeitä varataan myyntitilauksesta. Samat ohjeet koskevat osto-, huolto- ja kokoonpanotilauksia.  
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Myyntitilaukset** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten liittyvä linkki.  
 2.  Valitse myyntitilauksen **Rivit**-pikavälilehdessä **Varaa**-toiminto. **Varaustapahtumat**-ikkuna aukeaa.  
 3. Napsauta riviä, jolta haluat varata nimikkeet.  
 4. Valitse yksi seuraavista toiminnoista.  
@@ -44,7 +44,7 @@ Seuraavaksi käsitellään, miten nimikkeitä varataan myyntitilauksesta. Samat 
 Tuotantotilauksille voi varata nimikkeitä. Tuotantotilauksen rivit eli päänimike ja tuotantotilauksen komponentit on erotettava toisistaan.
 
 Seuraavassa toimenpiteessä käytetään sitovasti suunniteltua tuotantotilausta.   
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Sitovasti suun. tuotantotil.** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sitovasti suun. tuotantotil.** ja valitse sitten liittyvä linkki.  
 2. Avaa sitovasti suunniteltu tuotantotilaus, jolle haluat varata päänimikkeitä.  
 3. Valitse vapautettavan tuotantotilauksen rivi.  
 4. Valitse **Rivit**-pikavälilehdessä **Varaa**-toiminto.
@@ -56,7 +56,7 @@ Ohjelma on nyt varannut määrän, joka oli syötetty sitovasti suunnitellun tuo
 Tuotantotilauksille voi varata nimikkeitä. Tuotantotilauksen rivit eli päänimike ja tuotantotilauksen komponentit on erotettava toisistaan.
 
 Seuraavassa toimenpiteessä käytetään sitovasti suunniteltua tuotantotilausta.    
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Sitovasti suun. tuotantotil.** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sitovasti suun. tuotantotil.** ja valitse sitten liittyvä linkki.  
 2. Avaa sitovasti suunniteltu tuotantotilaus, jolle haluat varata komponenttinimikkeitä.  
 3. Valitse käsiteltävän tuotantotilauksen rivi.  
 4. Valitse **Rivit**-pikavälilehdessä ensin **Rivi** ja sitten **Komponentit**.  
@@ -86,7 +86,7 @@ Nimikeseurannassa olevien nimikkeiden lähtevien asiakirjojen, kuten myyntitilau
 Tätä kutsutaan määritetyksi varaukseksi, koska varataan erään X kuuluvan nimikkeen X määrästä. Jos varataan vain nimikkeen X määristä, kyseessä on normaali, määrittämätön varaus. Lisätietoja on kohdassa [Rakennetiedot: Nimikkeen seuranta ja varaukset](design-details-item-tracking-and-reservations.md).
 
 Seuraava toimenpide perustuu myyntitilaukseen.    
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Myyntitilaukset** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten liittyvä linkki.  
 2. Luo myyntitilausrivi nimikeseurannassa olevalle nimikkeelle.  
 3. Määritä sarja- ja eränumerot myyntitilausriville. Lisätietoja on kohdassa [Sarja- ja eränumeroiden käsitteleminen](inventory-how-work-item-tracking.md).
 4. Valitse myyntitilausrivillä **Varaa**-toiminto.  

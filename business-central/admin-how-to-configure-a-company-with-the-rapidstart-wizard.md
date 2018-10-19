@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/06/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 264788142ab4f2a84df3e1c9da6e39503a7e820f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 27b50b9471c8dccb7da8750bbd57e34774ff6115
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="configure-a-company-with-the-rapidstart-wizard"></a>Yrityksen ja ohjatun RapidStart-toiminnon määrittäminen
@@ -41,7 +41,7 @@ Seuraavassa toimenpiteessä olet antanut asiakkaalle määrityspaketin, joka sit
     >  Muuta vain roolikeskustasi, kun yrityksen määritykset ovat valmiit. Jos harkittavia ja muokattavia asetustietoja on lisää, jatka työskentelyä ensimmäiseksi määritystyökirjan parissa. Palaa sitten ohjattuun toimintoon ja päivitä roolikeskuksen profiili tai valitse **Täydelliset asetukset** -toiminto.
 
 7. Valitse **OK**-painike.  
-8. Voit varmistaa, että määritystiedot on otettu käyttöön uudessa yrityksessä, kun valitset ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvakkeen, syötät **yrityksen tiedot** ja valitset aiheeseen liittyvän linkin.
+8. Voit varmistaa, että määritystiedot on otettu käyttöön uudessa yrityksessä, kun valitset ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvakkeen, syötät **yrityksen tiedot** ja valitset aiheeseen liittyvän linkin.
 
 **Yrityksen tiedot** -ikkunassa on tietoja, jotka olet määrittänyt.   
 

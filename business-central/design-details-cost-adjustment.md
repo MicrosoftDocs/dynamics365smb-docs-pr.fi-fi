@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 23/23/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ad76465ab30202981fed0d7593b9ce25b2510918
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: f8f5959c25800c1a8d5ee7ed88f4e7a8599ce20a
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-cost-adjustment"></a>Rakennetiedot: kustannuksen muutos
@@ -63,9 +63,9 @@ Tätä tunnistustoimintoa käytetään muunnoksen skenaarioissa, tuotannossa ja 
 
 Tilaustason toimintoa käytetään havaitsemaan kokoonpanotiliöinnin määrittämisessä. Seuraavassa kaaviossa esitetään sopeuttamiskirjauksen rakenne:  
 
-![Sopeuttamiskirjauksen rakenne](media/design_details_assembly_posting_3.png "design_details_assembly_posting_3")  
+![Kustannusmuutoksen tapahtumavirta](media/design_details_assembly_posting_3.png "Kustannusmuutoksen tapahtumavirta")  
 
-Katso lisätietoja kohdasta [Rakennetiedot: kokoonpanotilauksen kirjaus](design-details-assembly-order-posting.md).  
+Lisätietoja on kohdassa [Rakennetiedot: Kokoonpanotilauksen kirjaus](design-details-assembly-order-posting.md).  
 
 ## <a name="manual-versus-automatic-cost-adjustment"></a>Manuaalinen kustannusten muuttaminen verrattuna automaattiseen kustannusten muuttamiseen  
 Kustannusten muuttaminen voidaan tehdä kahdella tavalla:  

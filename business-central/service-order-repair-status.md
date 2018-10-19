@@ -10,24 +10,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: bc804db29ec89904101f48b625770f730abb13d9
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 366bf200b78e4927b1c202340dd84af09d32c1a5
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-statuses-for-service-orders-and-repairs"></a>Huoltotilausten ja -korjausten tilan määrittäminen
 Sinun on määritettävä korjauksen tilan vaihtoehdot, jotka ilmaisevat huoltotilauksissa olevien huoltonimikkeiden korjauksen edistymisen ja ylläpidon. Sinun on määritettävä vähintään yhdeksän korjauksen tilan vaihtoehtoa, jotka ilmaisevat tilanteet tai suoritettavat toimenpiteet huoltonimikkeiden huoltamisen aikana.  
 
 Voit määrittää huoltotilauksen tilavaihtoehtojen prioriteettitasot. Prioriteetteja on neljä: Matala, Melko matala, Melko korkea ja Korkea.  
-  
+
 Kun huoltotilauksessa olevan huoltonimikkeen korjauksen tilaa muutetaan, ohjelma päivittää huoltotilauksen tilan. Kunkin huoltonimikkeen korjauksen tila on linkitetty huoltotilauksen tilaan. Jos huoltonimikkeet on linkitetty kahteen tai useampaan huoltotilauksen tilan vaihtoehtoon, ohjelma valitsee huoltotilauksen tilan, jolla on korkein prioriteetti.  
 
 ## <a name="to-set-up-a-repair-status"></a>Korjauksen tilan määrittäminen  
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Korjauksen tila** ja valitse sitten aiheeseen liittyvä linkki. 2. Luo uusi korjauksen tila.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Korjauksen tila** ja valitse sitten liittyvä linkki.
+2. Luo uusi korjauksen tila.  
 3. Täytä **Koodi**- ja **Kuvaus**-kentät.  
 4. Valitse **Huoltotilauksen tila** -kentässä tilauksen tila, johon korjaus linkitetään. Valitsemasi huoltotilauksen tilan prioriteetti näkyy **Prioriteetti**-kentässä.  
 5. Valitse korjauksen tila. Voit valita vain yhden tilan.  
@@ -36,11 +37,11 @@ Kun huoltotilauksessa olevan huoltonimikkeen korjauksen tilaa muutetaan, ohjelma
 8. Valitse **Työn alla -tila sallittu**-, **Valmis-tila sallittu**- ja **Estossa-tila sallittu**-valintaruudut samalla tavoin.
   
 ## <a name="to-set-up-service-status-priorities"></a>Huoltotilan prioriteettien määrittäminen  
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Huoltotilauksen tila** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltotilauksen tila** ja valitse sitten liittyvä linkki.  
 2. Valitse huoltotilauksen tila, jolle haluat määrittää prioriteetin.  
 3. Valitse **Prioriteetti**-kentässä kyseisen huoltotilauksen tilan prioriteetti. Toista tämä vaihe kunkin tilan kohdalla.  
-  
+
 ## <a name="see-also"></a>Katso myös  
-[Tietoja huoltotilauksen tilasta ja korjauksen tilasta]()  
+[Huoltotilauksen tila ja korjauksen tila](service-service-order-status-and-repair-status.md)  
 [Huoltohallinnon määrittäminen](service-setup-service.md)  
 

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/31/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8c0fd365ddcacf08a3fa49d70d5ebd0233ff5014
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b31591784c927f67f541d997f54e97ef696f63bb
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="put-items-away-with-inventory-put-aways"></a>Nimikkeiden hyllyttäminen varastohyllytyksen avulla
@@ -31,11 +31,11 @@ Varastohyllytyksen voi luoda kolmella tavalla:
 ## <a name="to-request-an-inventory-put-away-by-releasing-the-source-document"></a>Pyydä varaston hyllytys vapauttamalla lähdeasiakirja
 Jos kyseessä on ostotilaus, myyntipalautustilaus, saapuva siirtotilaus tai kokoonpanotilaus, voit luoda fyysisen varastoinnin pyynnön vapauttamalla tilauksen. Seuraavaksi käsitellään, miten se tehdään ostotilauksesta.  
 
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Ostotilaukset** ja valitse sitten aiheeseen liittyvä linkki.
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostotilaukset** ja valitse sitten liittyvä linkki.
 2. Valitse ensin vapautettava ostotilaus ja sitten **Vapauta**-toiminto.  
 
     Tuotantotilausten fyysisen varastoinnin pyyntö luodaan luomalla saapuva pyyntö vapautetusta tuotantotilauksesta.  
-3.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Vapautetut tuotantotilaukset** ja valitse sitten aiheeseen liittyvä linkki.  
+3.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Vapautettu tuotantotilaukset** ja valitse sitten liittyvä linkki.  
 4. Valitse **Luo saapuva f. var. pyyntö** -toiminto.  
 
 > [!NOTE]  
@@ -45,7 +45,7 @@ Kun fyysisen varastoinnin pyyntö on luotu, varastossa hyllytystä tekevä työn
 
 ## <a name="to-create-an-inventory-put-away-based-on-the-source-document"></a>Varastohyllytyksen lähdeasiakirjasta luominen
 Nyt kun pyyntö on luotu, varastotyöntekijä voi luoda uuden varastohyllytyksen vapautetun lähdeasiakirjan perusteella.   
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Varastohyllytys** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varaston hyllytys** ja valitse sitten liittyvä linkki.  
 2. Valitse **Uusi**-toiminto.  
 3. Valitse **Lähdeasiakirja**-kentässä hyllytettävän lähdeasiakirjan tyyppi.  
 4. Valitse **Lähteen nro** -kentässä lähdeasiakirja.  
@@ -58,7 +58,7 @@ Nyt kun pyyntö on luotu, varastotyöntekijä voi luoda uuden varastohyllytyksen
 3. Valitse **OK**-painike. Uusi varaston hyllytys on luotu.
 
 ## <a name="to-create-multiple-inventory-put-aways-with-a-batch-job"></a>Useiden varastohyllytysten luominen eräajon avulla  
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Luo var. hyllytys/poiminta** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Luo var. hyllytys/poiminta** ja valitse sitten liittyvä linkki.  
 2.  **F.var. pyyntö** -pikavälilehdessä voit käyttää **Lähdeasiakirja**- ja **Lähdenro**-kenttiä ja suodattaa tietyn tyyppisiä asiakirjoja (esim. luoda poimintoja vain myyntitilaukselle) tai asiakirjanumerovälejä.  
 3.  Valitse **Asetukset**-pikavälilehdessä **Luo varaston hyllytys** -valintaruutu.
 4.  Valitse **OK**-painike. Määritetyt varastohyllytykset luodaan.

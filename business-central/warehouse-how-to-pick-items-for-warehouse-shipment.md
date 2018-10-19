@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/21/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e58c5da8b1364b2c9035188c847176f1ea0aaf73
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 420aac30c9b9a76c8874e6697cfa0e105bb1744a
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="pick-items-for-warehouse-shipment"></a>Nimikkeiden poiminta fyysisen varastoinnin toimitusta varten
@@ -40,7 +40,7 @@ Voit myös luoda fyysisen varastoinnin poiminta-asiakirjat push muodissa **F.var
 >  Lisätietoja kokoonpanotilausten komponenttien poiminnasta yleensä (mukaan lukien tilanteet, joissa kokoonpanon nimike ei eräänny myyntitoimituksen yhteydessä) on kohdassa [Poiminta tuotantoon tai kokoonpanoon](warehouse-how-to-pick-for-production.md).  
 
 ## <a name="to-pick-items-for-warehouse-shipment"></a>Poimi fyysisen varastoinnin toimituksen nimikkeitä  
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Poiminnat** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poiminnat** ja valitse sitten liittyvä linkki.  
 
     Jos sinun pitää käsitellä tiettyä poimintaa, valitse poiminta luettelosta tai etsi sinulle määritetyt poiminnat suodattamalla luetteloa. Avaa poiminnan kortti.  
 2.  Jos **Määritetty käyttäjätunnus** -kenttä on tyhjä, syötä tunnuksesi tarvittaessa itse.  

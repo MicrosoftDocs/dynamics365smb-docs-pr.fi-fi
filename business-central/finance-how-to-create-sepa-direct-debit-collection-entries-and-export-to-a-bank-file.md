@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: direct-debit, collection, payment, sepa
-ms.date: 08/21/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 769d37db4547e292f12ac95f814f450b489792d4
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: f714037a087084ee1c8effa7432db1e4c6ae5862
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-sepa-direct-debit-collection-entries-and-export-to-a-bank-file"></a>SEPA-suoraveloitusperintätapahtumien luominen ja vieminen pankkitiedostoon
@@ -24,7 +24,7 @@ Jos haluat ohjata pankin siirtämään maksusumman asiakkaan pankkitililtä yrit
 >  Kun maksut kerätään SEPA-suoraveloituksen avulla, myyntilaskun valuutan on oltava EURO.  
 
 ### <a name="to-create-a-direct-debit-collection"></a>Suoraveloitusperinnän luominen  
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Suoraveloitusperinnät** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Suoraveloitusperinnät** ja valitse sitten liittyvä linkki.  
 2. Valitse **Suoraveloitusperinnät**-ikkunan **Koti**-välilehden **Uusi**-ryhmässä **Luo suoraveloitusperintä**.  
 3. Täytä **Luo suoraveloitusperintä** -ikkunan kentät seuraavassa taulukossa kuvatulla tavalla.  
 

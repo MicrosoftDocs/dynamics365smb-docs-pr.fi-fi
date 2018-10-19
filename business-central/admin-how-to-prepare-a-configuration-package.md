@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/06/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f9076b4cd565c9d814563549f2afb5b4b5d222da
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ea07eff2d0eb17a76d132484d2210ad0c54053a5
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="prepare-a-configuration-package"></a>Määrityspaketin valmisteleminen
@@ -32,7 +32,7 @@ Varmista, että olet RapidStart Services -palvelun käyttöönottajien roolikesk
 >  Tietokannasta, jolla on eri rakenne kuin kohdetietokanta, voi tuoda määrityspaketin. Mitään määrityspaketissa olevia taulukoita tai kenttiä, joita ei löydy kohdetietokannasta, ei kuitenkaan tuoda. Taulukoita, joilla on poikkeavat ensisijaiset avaimet tai kenttiä, joilla on poikkeavat tietotyypit ei myöskään voi tuoda. Tietoja ei voi tuoda, jos esimerkiksi määrityspaketissa on taulukko **50 000, asiakas**, jonka ensisijainen avain on **Code20**, ja kohdetietokannassa on taulukko **50 000, asiakkaan pankkitili**,jonka ensisijainen avain on **Code20 + Code 20**.  
 
 ## <a name="to-create-a-configuration-package"></a>Luo määrityspaketti  
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Määrityspaketit** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Määrityspaketit** ja valitse sitten liittyvä linkki.  
 2. Valitse **Uusi**-toiminto.  
 3. Täytä loput **Yleinen**-pikavälilehden kentät asianmukaisella tavalla. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Sulje määrityskyselyt, kokoonpanomallit ja määritystyökirjojen taulukot valitsemalla **Jätä määritystaulukot pois** -valintaruutu. Muutoin nämä taulukot lisätään pakettitaulukoiden luetteloon automaattisesti, kun viet paketin.  
@@ -79,7 +79,7 @@ Voit tallentaa tiedoston nimellä, joka on sinulle merkityksellinen, mutta et vo
 ### <a name="to-copy-a-configuration-package"></a>Kopioi paketin kokoonpano  
 Kun olet luonut paketin, joka täyttää suurimman osan tarpeistasi, voit käyttää sitä perustana luodaksesi vastaavia paketteja. Tämä voi nopeuttaa täytäntöönpanoaikaa, ja se parantaa RapidStart Services -palvelun toistettavuutta.
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Määrityspaketit** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Määrityspaketit** ja valitse sitten liittyvä linkki.  
 2. Valitse paketti luettelosta ja valitse sitten **Kopioi paketti** -toiminto.  
 3. Anna **Uusi pakettikoodi** -kentässän uuden paketin koodi.  
 4. Valitse **Kopioi tiedot** -valintaruutu, jos haluat myös kopioida tietokannan tiedot olemassa olevasta paketista.  
@@ -88,7 +88,7 @@ Kun olet luonut paketin, joka täyttää suurimman osan tarpeistasi, voit käytt
 ## <a name="to-customize-a-configuration-package"></a>Määrityspaketin mukauttaminen
 Käytä määritystyökirjaa kerätäksesi ja luokitellaksesi tietoja, joita haluat käyttää, jotta voit määrittää uuden yrityksen ja järjestää taulukot loogisesti. Työkirjan muotoilu perustuu yksinkertaiseen hierarkiaan: alueet sisältävät ryhmiä, jotka sisältävät taulukoita. Alueet ja ryhmät ovat valinnaisia, mutta ne ovat tarpeen, jos haluat ottaa käyttöön yleiskuvan määritysprosessista RapidStart Services -palvelun roolikeskuksessa.
 
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Määritystyökirja** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Määritystyökirja** ja valitse sitten liittyvä linkki.  
 2.  Valitse **Rivityyppi**-kentässä **Alue**. Anna **Nimi**-kentässä kuvaava nimi.  
 3.  Valitse **Rivityyppi**-kentässä **Ryhmä**. Anna **Nimi**-kentässä kuvaava nimi.  
 4.  Valitse **Rivityyppi**-kentässä **Taulukko**. Valitse **Taulukon tunnus** -kentässä taulukko, jonka haluat sisällyttää työkirjaan.  
@@ -105,7 +105,7 @@ Kun olet määrittänyt taulukot, jotka haluat käsitellä osana kokoonpanoa, vo
 > [!NOTE]  
 >  Voit myös luoda paketin suoraan ja lisätä taulukot siihen. Lisätietoja on Määrityspaketin luominen -osassa.
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Määritystyökirja** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Määritystyökirja** ja valitse sitten liittyvä linkki.
 2. Valitse määritystyökirjassa rivi tai rivit määrityspakettiin määrittämistä varten. Vailtse sitten **Määritä paketti** -toiminto.  
 3.  Valitse paketti luettelosta tai valitse **Uusi**-toiminto, jos haluat luoda uuden paketin. Valitse sitten **OK**-painike.  
 
@@ -115,7 +115,7 @@ Kun olet määrittänyt taulukot, jotka haluat käsitellä osana kokoonpanoa, vo
 ## <a name="to-review-or-customize-existing-database-data"></a>Olemassa olevien tietokantatietojen tarkistaminen tai mukauttaminen
 Kun luot kokoonpanonpaketin ratkaisua varten, voit tarkastella ja mukauttaa käytettävissä olevia tietokannan tietoja vastaamaan asiakkaan tarpeita. Tietokannan taulukolla on oltava siihen liittyvä sivu.  
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Määritystyökirja** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Määritystyökirja** ja valitse sitten liittyvä linkki.
 2. Etsi määritystyökirjasta taulukot, joiden tietoja haluat tarkastella tai muokata.  
 
     > [!NOTE]  
@@ -128,7 +128,7 @@ Kun luot kokoonpanonpaketin ratkaisua varten, voit tarkastella ja mukauttaa käy
 Kun olet tarkistanut ja testannut kaikki asetustiedot, voit jatkaa tietojen kopioimiseen tuotantoympäristöön. Luo uusi yritys samaan tietokantaan.
 
 1. Avaa ja alusta uusi yritys.  
-2. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Määritystyökirja** ja valitse sitten aiheeseen liittyvä linkki.  
+2. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Määritystyökirja** ja valitse sitten liittyvä linkki.  
 3. Valitse **Kopioi tiedot yrityksestä** -toiminto.  
 4. Valitse **Kopioi yrityksen tiedot** -ikkunassa **Kopiointilähde**-kenttä. **Yritykset**-ikkuna aukeaa:  
 5. Valitse yritys, josta tiedot kopioidaan, ja valitse sitten **OK**-painike. Määritystyökirjassa valittujen taulukoiden luettelo tulee esiin. Tähän luetteloon sisältyvät vain ne taulukot, jotka sisältävät tietueita.

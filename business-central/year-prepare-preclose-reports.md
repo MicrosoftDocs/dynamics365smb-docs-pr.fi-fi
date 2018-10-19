@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 17b01bdec7f5b785b22ad7c295e1c1c3002a4b70
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 94fe194350eeb7e83ce443452cf876f6e498ca27
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="using-pre-closing-reports"></a>Sulkemista edeltävien raporttien käyttäminen
@@ -35,7 +35,7 @@ Seuraavassa taulukossa on luettelo raporteista, joista voi olla hyötyä tässä
 | Kirjanpitotilien saldot ja nettomuutokset sisältävän alustavan saldoraportin tulostaminen. |Alustava tulos/tase |
 | Konsolidoidun yrityksen alustavan saldon tulostaminen. |Konsolidoitu alust. tulos/tase |
 
-Voit avata raportin valitsemalla ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") -kuvake, kirjoita nimi sellaisena kuin se näkyy taulukossa ja valitse aiheeseen liittyvä linkki.
+Jos haluat nähdä kaikki raportin, valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvakkeen, kirjoita taulukossa oleva nimi ja valitse sitten liittyvä linkki.
 
 ## <a name="see-also"></a>Katso myös
 [Vuosien ja jaksojen sulkeminen](year-close-years-periods.md)  

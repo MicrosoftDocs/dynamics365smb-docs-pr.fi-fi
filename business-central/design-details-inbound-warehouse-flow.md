@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 75f6883961f62b82ec751306693dd29a031b409c
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: fda754e366dab52ee2632fa9e959c8cd717e25b9
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Rakennetiedot: saapuvan fyysisen varastoinnin virta
@@ -53,7 +53,7 @@ Menetelmissä A, B ja C vastaanoton ja hyllytyksen toiminnot yhdistetään yhtee
 ## <a name="basic-warehouse-configurations"></a>Fyysisen varastoinnin perusmääritykset  
 Seuraavassa kaaviossa kuvataan saapuvat fyysisen varastoinnin virrat asiakirjatyypeittäin fyysisen varastoinnin perusmäärityksissä. Kaavion luvut vastaavat vaiheita kaavion osa-alueiden mukaan.  
 
-![Fyysisen varastoinnin perusmääritysten saapuva virta](media/design_details_warehouse_management_inbound_basic_flow.png "design_details_warehouse_management_inbound_basic_flow")  
+![Varaston perusmääritysten saapuva virta](media/design_details_warehouse_management_inbound_basic_flow.png "Varaston perusmääritysten saapuva virta")  
 
 ### <a name="1-release-source-document--create-inventory-put-away"></a>1: Vapauta lähdeasiakirjasta / luo varaston hyllytys  
 Kun nimikkeet vastaanotetaan fyysiseen varastointiin, lähdeasiakirjan vapautukset, kuten ostotilauksen tai lähtevän siirtotilauksen, vastaanottava käyttäjä tiedottaa varastotyöntekijöille, että vastaanotetut nimikkeet voidaan hyllyttää. Vaihtoehtoisesti käyttäjä voi luoda varaston hyllytysasiakirjat yksittäisille tilausriveille push-muodossa ja tiettyihin lokeroihin ja käsittelymääriin perustuen.  
@@ -69,10 +69,10 @@ Kaikkien osittain tai kokonaan hyllytettyjen nimikkeiden rivin osalta varastoty�
 
 Positiiviset nimiketapahtumat luodaan, varastotapahtumat luodaan ja hyllytyspyyntö poistetaan, jos käsittely on suorittu loppuun. Esimerkiksi **Vastaanotettu määrä** -kenttä saapuvan lähdeasiakirjan rivillä päivitetään. Luodaan kirjatun vastaanoton asiakirja, joka vastaa esimerkiksi ostotilausta ja vastaanotettuja nimikkeitä.  
 
-## <a name="advanced-warehouse-configurations"></a>laajennetut varastomääritykset  
+## <a name="advanced-warehouse-configurations"></a>Laajennetut varastomääritykset  
 Seuraavassa kaaviossa kuvataan saapuva fyysisen varastoinnin virta asiakirjatyypeittäin laajennetuissa varastomäärityksissä. Kaavion luvut vastaavat vaiheita kaavion osa-alueiden mukaan.  
 
-![Saapuva virta laajennetuissa varastomäärityksissä](media/design_details_warehouse_management_inbound_advanced_flow.png "design_details_warehouse_management_inbound_advanced_flow")  
+![Laajennettujen varaastomääritysten saapuva virta](media/design_details_warehouse_management_inbound_advanced_flow.png "Laajennettujen varaastomääritysten saapuva virta")  
 
 ### <a name="1-release-source-document"></a>1: Vapauta lähdeasiakirja  
 Kun nimikkeet vastaanotetaan fyysiseen varastointiin, lähdeasiakirjan vapautukset, kuten ostotilauksen tai lähtevän siirtotilauksen, vastaanottava käyttäjä tiedottaa varastotyöntekijöille, että vastaanotetut nimikkeet voidaan hyllyttää.  

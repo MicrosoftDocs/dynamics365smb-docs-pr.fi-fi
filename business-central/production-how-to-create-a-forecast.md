@@ -1,6 +1,6 @@
 ---
-title: Tuotantoennusteen luominen | Microsoft Docs
-description: Voit luoda myynti- ja tuotantoennusteita **Tuotantoennuste**-ikkunassa.
+title: "Kysyntäennusteen luominen | Microsoft Docs"
+description: "Voit luoda myynti- ja tuotantoennusteita **Kysyntäennuste**-ikkunassa."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/04/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ce71f1a0bd744cfdf62bb71f59829ec09155af32
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: d0f4d314a33c86d169d6e2dae0b859b879702e5d
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
-# <a name="create-a-production-forecast"></a>Tuotantoennusteen luominen
-Voit luoda myynti- ja tuotantoennusteita **Tuotantoennuste**-ikkunassa.  
+# <a name="create-a-demand-forecast"></a>Kysyntäennusteen luominen
+Voit luoda myynti- ja tuotantoennusteita **Kysyntäennuste**-ikkunassa.  
 
 Ennustetoimintojen avulla käyttäjä voi luoda ennakoitua kysyntää; toteutunut kysyntä on peräisin myynti- ja tuotantotilauksista. Tuotanto-ohjelmaa luotaessa ennuste nettoutetaan myynti- ja tuotantotilauksiin verraten. Ennusteen *Komponentti*-vaihtoehto määrittää, minkä tyyppiset vaatimukset nettouttamisessa otetaan huomioon. Jos ennuste koskee myyntinimikettä, ennuste nettoutetaan vain myyntitilauksiin verraten. Jos kyseessä ovat komponentit, ennuste nettoutetaan vain tuotantotilausten komponenttien ei-itsenäiseen kysyntään verraten.  
 
@@ -34,7 +34,7 @@ Ennustetoimintoja voidaan käyttää joko yhdistettyjen tai erillisten myynti- t
 
 Tuotannon suunnittelija muokkaakin myyntiennustetta useimmiten tuotannon edellytysten mukaisesti, mutta siten, että myyntiennuste kuitenkin täyttyy.  
 
-Voit luoda ennusteita manuaalisesti **Tuotantoennuste**-ikkunassa. Järjestelmässä voi olla useita erinimisiä ja erityyppisiä ennusteita. Ennusteita voi tarvittaessa kopioida ja muokata. Muistathan, että vain yksi ennuste kerrallaan kelpaa suunnittelun pohjaksi.  
+Voit luoda ennusteita manuaalisesti **Kysyntäennuste**-ikkunassa. Järjestelmässä voi olla useita erinimisiä ja erityyppisiä ennusteita. Ennusteita voi tarvittaessa kopioida ja muokata. Muistathan, että vain yksi ennuste kerrallaan kelpaa suunnittelun pohjaksi.  
 
 Ennusteessa on joukko tietueita, joista jokaisessa on nimikkeen numero, ennustepäivämäärä ja ennustettava määrä. Nimikkeen ennuste kattaa tietyn jakson, jonka määrittävät ennustepäivämäärä sekä seuraavan (myöhäisemmän) ennustetietueen ennustepäivämäärä. Suunnittelun kannalta ennustettavan määrän pitäisi olla käytettävissä kysyntäjakson alussa.  
 
@@ -49,16 +49,16 @@ Koska komponenttiennuste on suunniteltu määrittämään päänimikkeen vaihtoe
  Ennustejakso on kelvollinen alkamispäivämäärästä seuraavan ennusteen alkamispäivämäärään saakka. Aikaväli-ikkunassa on useita vaihtoehtoja, joiden avulla voit lisätä kysynnän tiettyyn jakson päivämäärään. Sen vuoksi ennustejakson pituutta ei kannatakaan muuttaa, jos aloituspäivämäärän kaikkia ennustetapahtumia ei ole tarkoitus siirtää tämän jakson alkamispäivämäärään.  
 
 ## <a name="forecast-by-locations"></a>Ennusteet sijainnin mukaan  
-Sijainti voidaan ilmaista tuotannon asetuksissa. Huomaathan kuitenkin, että jos sijaintiperustaisia ennusteita tarkastellaan erillään muista, kokonaisennuste ei välttämättä ole totuudenmukainen.
+Jos haluat suodattaa ennusteen sijainnin mukaan suunnitelman laskemisen yhteydessä, voit osoittaa sen tuotannon asetuksissa. Huomaathan kuitenkin, että jos sijaintiperustaisia ennusteita tarkastellaan erillään muista, kokonaisennuste ei välttämättä ole totuudenmukainen.
 
-## <a name="to-create-a-production-forecast"></a>Tuotantoennusteen luominen
+## <a name="to-create-a-demand-forecast"></a>Kysyntäennusteen luominen
 
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Tuotantoennuste** ja valitse sitten aiheeseen liittyvä linkki.  
-2.  Valitse **Yleinen**-pikavälilehden **Tuotantoennusteen nimi** -kentässä ennuste. Ennusteita voi olla useita erinimisiä ja -tyyppisiä.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kysyntäennuste** ja valitse sitten liittyvä linkki.  
+2.  Valitse **Yleinen**-pikavälilehden **Kysyntäennusteen nimi** -kentässä ennuste. Ennusteita voi olla useita erinimisiä ja -tyyppisiä.  
 3.  Valitse **Sijaintisuodatus**-kentässä sijainti, jota tämä ennuste koskee.  
-4.  Valitse **Ennusteen tyyppi** -kentässä **Myyntinimike**,  **Komponentti** tai **Molemmat**. Jos valitset **Myyntinimike** tai **Komponentti**, voit muokata määrää jakson mukaan. Jos valitset **Molemmat**, määrää ei voi muuttaa, mutta voit valita alanuolipainikkeen ja tarkastella tuotantoennustetapahtumia.  
+4.  Valitse **Ennusteen tyyppi** -kentässä **Myyntinimike**,  **Komponentti** tai **Molemmat**. Jos valitset **Myyntinimike** tai **Komponentti**, voit muokata määrää jakson mukaan. Jos valitset **Molemmat**, määrää ei voi muuttaa, mutta voit valita alanuolipainikkeen ja tarkastella kysyntäennustetapahtumia.  
 5.  Määritä **Pvm-suodatus**, jos haluat rajoittaa näkyvien tietojen määrää.  
-6.  Syötä **Tuotantoennustematriisi**-pikavälilehteen useiden jaksojen **myyntinimikkeiden** ennustemäärät tai **komponentin** ennuste.  
+6.  Syötä **Kysyntäennustematriisi**-pikavälilehteen useiden jaksojen **myyntinimikkeiden** ennustemäärät tai **komponentin** ennuste.  
 7.  Määritä **Matriisivaihtoehdot**-pikavälilehdessä aikaväli **Näyttöperuste**-kenttään, kun haluat muuttaa sarakkeissa näkyvän jakson. Mahdollisia aikavälejä ovat **Päivä**, **Viikko**, **Kuukausi**, **Vuosineljännes**, **Vuosi** tai taloushallinnossa määritetty **Kirjanpitojakso**.  
 
     > [!NOTE]  
@@ -67,7 +67,7 @@ Sijainti voidaan ilmaista tuotannon asetuksissa. Huomaathan kuitenkin, että jos
 8.  Valitse **Näyttömuoto**-kentässä, miten aikavälin ennustemäärät näytetään. Jos valitset **Nettomuutos**, aikaväliltä näytetään saldon nettomuutos. Jos valitset **Saldo pvm:ttäin**, ikkunassa näkyy aikavälin viimeisen päivän saldo.  
 
 > [!NOTE]  
->  Voit myös muokata olemassa olevaa ennustetta. Valitse **Tuotantoennustematriisi**-ikkunassa **Kopioi tuotantoennuste** -toiminto ja lisää aiemmin luodun ennusteen tiedot **Tuotantoennuste**-ikkunaan. Sen jälkeen voit tehdä tarvittavat muutokset määriin.  
+>  Voit myös muokata olemassa olevaa ennustetta. Valitse **Kysyntäennustematriisi**-ikkunassa **Kopioi kysyntäennuste** -toiminto ja lisää aiemmin luodun ennusteen tiedot **Kysyntäennuste**-ikkunaan. Sen jälkeen voit tehdä tarvittavat muutokset määriin.  
 
 ## <a name="see-also"></a>Katso myös  
 [Tuotannon määrittäminen](production-configure-production-processes.md)  

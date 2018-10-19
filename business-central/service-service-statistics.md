@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/04/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 30f93593985140abd49c6cd4f90a992da793b164
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 5af0da45b27c70bc2b25fbad22f83479e9543432
 ms.contentlocale: fi-fi
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -87,7 +87,7 @@ Sopimuksen voitto- tai tappiotapahtumia luodaan, kun sopimustarjous muunnetaan h
 |**Sop. voitto/tappio (syyt)**|Sopimusten voiton/tappion tarkastelu syykoodeittain|  
 |**Sop. voitto/tappio (vast.paik)**|Sopimusten voiton/tappion tarkastelu vastuupaikoittain|  
 
-1. Valitse ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") -kuvake, kirjoita näytettävän sivun nimi ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä näytettävän sivun nimi ja valitse sitten liittyvä linkki.  
 2. Täytä suodatusehdot, joita haluat käyttää. Valitse esimerkiksi **Sop. voitto/tappio (syyt)** -ikkunassa **Syykoodin suodatus** -kohdan arvo.  
 3. Valitse **Näytä matriisi** -toiminto.
 

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/23/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 25dd4bf914a4bf971e329b48fddac03f7536b00f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 1ac3aab6063abc247e05b4ae966ee6b99e81bf23
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="cross-dock-items"></a>Nimikkeiden laiturointi
@@ -43,14 +43,14 @@ Ohjelma ei ylläpidä erillisiä tietueita nimikkeistä, jotka on laituroitu, va
 
     Jos käytät alueita, luo alue laiturointivarastopaikoille ja valitse **Laiturointivar.paikan alue** -kenttä. Lisätietoja on kohdassa [Sijaintien määrittäminen varastopaikkojen käyttämistä varten](warehouse-how-to-set-up-locations-to-use-bins.md).  
 
-2.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Sijainti** ja valitse sitten aiheeseen liittyvä linkki.  
+2.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sijainti** ja valitse sitten liittyvä linkki.  
 3.  Valitse **Sijainti**-ikkunassa ensin sijainti, jolle haluat määrittää fyysisen varaston laiturointia varten ja sitten **Muokkaa**-toiminto.  
 4.  Valitse **Fyysinen varasto** -pikavälilehdessä **Käytä laiturointia** -valintaruutu ja täytä **Laituroinnin eräpvm lask.** -kenttään jakso, jonka ajalta laiturointimahdollisuuksia etsitään.
 
     **Käytä laiturointia** -vaihtoehto on käytettävissä vain, jos **Vaadi vastaanotto**-, **Vaadi toimitus**-, **Vaadi poiminta**- ja **Vaadi hyllytys** -kenttiin on asetettu valintamerkki.  
 
 5.  Jos käytät varastopaikkoja, täytä sijaintikortin **Varastopaikat**-pikavälilehden **Laiturointivar.paikan koodi** -kenttään sen varastopaikan koodi, jota haluaisit käyttää oletusarvoisena laiturointivarastopaikkana.  
-6.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Varastointiyksikkö** ja valitse aiheeseen liittyvä linkki.  
+6.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varastointiyksikkö** ja valitse sitten liittyvä linkki.  
 7.  Valitse kunkin laituroitavan nimikkeen tai varastointiyksikön kohdalla ensin nimike ja sitten **Muokkaa**-toiminto.
 8. Valitse **Varastointiyksikön kortti** -ikkunassa **Käytä laiturointia** -valintaruutu.  
 
@@ -58,7 +58,7 @@ Ohjelma ei ylläpidä erillisiä tietueita nimikkeistä, jotka on laituroitu, va
 >  Laiturointi on mahdollista sijainnissa vain, jos sijainnissa on määritetty fyysisen varastoinnin vastaanoton ja hyllytyksen käsittely pakolliseksi.  
 
 ## <a name="to-cross-dock-items-without-viewing-the-opportunities"></a>Nimikkeiden laituroiminen ilman mahdollisuuksien tarkastelua  
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **F.var. vast.otot** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Fyysisen varaston vastaanotot** ja valitse sitten liittyvä linkki.  
 2.  Luo varaston vastaanotot nimikkeelle, joka on saapunut ja voidaan ehkä laituroida. Lisätietoja on kohdassa [Nimikkeiden vastaanottaminen](warehouse-how-receive-items.md).  
 3.  Täytä **Vastaanotettava määrä** -kenttä ja valitse sitten **Laske laiturointi** -toiminto.  
 
@@ -75,7 +75,7 @@ Ohjelma ei ylläpidä erillisiä tietueita nimikkeistä, jotka on laituroitu, va
 7.  Rekisteröi laituroidut nimikkeet hyllytetyiksi ja poimintaan käytettäviksi valitsemalla **Rekisteröi**-toiminto.  
 
 ## <a name="to-cross-dock-items-after-viewing-the-opportunities"></a>Nimikkeiden laiturointi mahdollisuuksien tarkastelemisen jälkeen  
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **F.var. vast.otot** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Fyysisen varaston vastaanotot** ja valitse sitten liittyvä linkki.  
 2.  Luo varaston vastaanotot nimikkeelle, joka on saapunut ja joka voidaan ehkä laituroida. Lisätietoja on kohdassa [Nimikkeiden vastaanottaminen](warehouse-how-receive-items.md).  
 
     Haluat tarkastella lähdeasiakirjan rivejä, joilla pyydetään nimikettä, ennen vastaanoton kirjaamista.  

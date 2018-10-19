@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/07/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f58f7572c2991bd4b30dca5e0c48499b36538f77
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 82b61f468b7b0f5f8a5f8406b6df369db41a6ded
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-planning-supplies-automatically"></a>Vaihekuvaus: Toimitusten automaattinen suunnittelu
 Suunnittelutyökirjan ajolla ja tarvelaskennan ajolla viitataan päätuotantoaikataulun laskentaan (MPS) ja materiaalien tarvelaskentaan (MRP), joka perustuu todelliseen ja ennustettuun kysyntään.  
 
--   Tuotanto-ohjelma tarkoittaa todelliseen tarpeeseen ja tuotantoennusteeseen perustuvaa tuotanto-ohjelman laskentaa. Tuotanto-ohjelman laskenta tehdään lopullisille nimikkeille, joilla on ennuste ja/tai myyntitilauksen rivi. Näitä nimikkeitä kutsutaan tuotanto-ohjelmanimikkeiksi, ja ne tunnistetaan dynaamisesti laskennan alkaessa.  
--   MRP tarkoittaa komponenttien todelliseen tarpeeseen ja komponenttitason tuotantoennusteeseen perustuvaa materiaalitarpeen laskentaa. Tarvelaskenta tehdään vain nimikkeille, jotka eivät ole tuotanto-ohjelmanimikkeitä. Tuotanto-ohjelman yleistavoitteena on tuottaa aikavaiheistetut, viralliset nimikekohtaiset suunnitelmat, jotta oikeaa tuotetta voidaan toimittaa oikea määrä oikeaan aikaan ja oikeassa paikassa.  
+-   Tuotanto-ohjelma tarkoittaa todelliseen tarpeeseen ja kysyntäennusteeseen perustuvaa tuotanto-ohjelman laskentaa. Tuotanto-ohjelman laskenta tehdään lopullisille nimikkeille, joilla on ennuste ja/tai myyntitilauksen rivi. Näitä nimikkeitä kutsutaan tuotanto-ohjelmanimikkeiksi, ja ne tunnistetaan dynaamisesti laskennan alkaessa.  
+-   MRP tarkoittaa komponenttien todelliseen tarpeeseen ja komponenttitason kysyntäennusteeseen perustuvaa materiaalitarpeen laskentaa. Tarvelaskenta tehdään vain nimikkeille, jotka eivät ole tuotanto-ohjelmanimikkeitä. Tuotanto-ohjelman yleistavoitteena on tuottaa aikavaiheistetut, viralliset nimikekohtaiset suunnitelmat, jotta oikeaa tuotetta voidaan toimittaa oikea määrä oikeaan aikaan ja oikeassa paikassa.  
 
  Tuotanto-ohjelmassa ja tarvelaskennassa käytetään identtisiä suunnittelualgoritmeja. Suunnittelualgoritmeissa käytetään verkotusta, aiemmin luotuja toimitustilauksia ja toimenpideviestejä. Suunnittelujärjestelmä selvittää, mitä nyt tai vastaisuudessa tarvitaan (kysyntä) sekä mitä on käsivarastossa ja mitä tulossa (tarjonta). Kun nämä määrät yhdistetään, suunnittelutyökirjassa tulee näkyviin toimenpidesanomia. Toimenpidesanomissa ehdotetaan luomaan uusi toimitustilaus, muuttamaan toimitustilausta (määrää tai päivämäärää) tai peruuttamaan aiemmin luotu toimitustilaus. Toimitustilaukset voivat olla tuotantotilauksia, ostotilauksia tai siirtotilauksia. Lisätietoja on ohjeaiheessa [Rakenteen tiedot: Toimitusten suunnittelu](design-details-supply-planning.md)  
 
@@ -73,7 +73,7 @@ Suunnittelutyökirjan ajolla ja tarvelaskennan ajolla viitataan päätuotantoaik
 
 ### <a name="to-change-selected-planning-parameters"></a>Vaihda valitut suunnitteluparametrit  
 
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Varastointiyksiköt** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varastointiyksiköt** ja valitse sitten liittyvä linkki.  
 2.  Avaa nimikkeen 1100 (Etupyörä) SININEN varastointiyksikön kortti.  
 3.  Täytä **Suunnittelu**-pikavälilehden kentät seuraavassa taulukossa kuvatulla tavalla.  
 
@@ -90,7 +90,7 @@ Suunnittelutyökirjan ajolla ja tarvelaskennan ajolla viitataan päätuotantoaik
 
 ### <a name="to-create-the-sales-order"></a>Myyntitilauksen luominen  
 
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Myyntitilaukset** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten liittyvä linkki.  
 2.  Valitse **Uusi**-toiminto.  
 3.  Täytä **Myyntitilaus**-ikkunan kentät seuraavassa taulukossa kuvatulla tavalla.  
 
@@ -102,7 +102,7 @@ Suunnittelutyökirjan ajolla ja tarvelaskennan ajolla viitataan päätuotantoaik
 
 ### <a name="to-create-a-regenerative-plan-to-fulfill-demand-at-location-blue"></a>Uudelleensuunnittelun luominen SININEN-sijainnin kysynnän täyttämiseksi  
 
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Suunnittelutyökirja** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Suunnittelutyökirja** ja valitse sitten liittyvä linkki.  
 2.  Valitse **Laske uudelleensuunnittelu** -toiminto.  
 3.  Täytä **Laske suunn. - Suunn.työk.** -ikkunan kentät seuraavassa taulukossa kuvatulla tavalla.  
 
@@ -125,7 +125,7 @@ Suunnittelutyökirjan ajolla ja tarvelaskennan ajolla viitataan päätuotantoaik
 
 ### <a name="to-calculate-mrp-to-include-underlying-component-needs"></a>Laske tarvelaskenta sisällyttäen pohjana olevat osat  
 
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Suunnittelutyökirja** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Suunnittelutyökirja** ja valitse sitten liittyvä linkki.  
 2.  Valitse **Laske uudelleensuunnittelu** -toiminto.  
 3.  Täytä **Laske suunn. - Suunn.työk.** -ikkunan kentät seuraavassa taulukossa kuvatulla tavalla.  
 
@@ -219,7 +219,7 @@ Suunnittelutyökirjan ajolla ja tarvelaskennan ajolla viitataan päätuotantoaik
 
 3.  Hyväksy saatavuusvaroitus ja valitse **Kyllä**. Uusi kysyntämäärä kirjataan.  
 4.  Seuraavaksi on tarpeen oikaista nykyinen toimitussuunnitelma.  
-5.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Suunnittelutyökirja** ja valitse sitten aiheeseen liittyvä linkki.  
+5.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Suunnittelutyökirja** ja valitse sitten liittyvä linkki.  
 6.  Valitse **Laske nettomuutossuunnitelma** -toiminto.  
 7.  Täytä **Laske suunn. - Suunn.työk.** -ikkunan kentät seuraavassa taulukossa kuvatulla tavalla.  
 

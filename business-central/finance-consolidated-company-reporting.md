@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.date: 07/14/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9309868cbcee8fb969c318acfb6ce8844e78b687
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 035eb85050ec6feb9e65ee924ebf4dbd2064e5ba
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -55,7 +55,7 @@ Jos konsolidoinnissa on käytettävä lisäasetuksia, voit määrittää konsoli
 Voit määrittää [!INCLUDE[d365fin](includes/d365fin_md.md)]issa konsolidoitavien yritysten luettelon, tarkistaa laskentatiedot ennen konsolidointia, tuoda tiedostoja ja luoda konsolidointiraportteja.  
 
 1. Kirjaudu konsolidoituun yritykseen.
-2. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Liiketoimintayksiköt** ja valitse sitten liittyvä linkki.  
+2. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Liiketoimintayksiköt** ja valitse sitten liittyvä linkki.  
 3. Valitse **Uusi** ja täytä sitten tarvittavat kentät.  
 
 Jos liiketoimintayksikkösi käyttää ulkomaan valuuttaa, sinun on määritettävä konsolidoinnissa käytettävä valuuttakurssi. Sinun täytyy myös syöttää konsolidointitiedot liiketoimintayksikön KP-tileistä. Nämä prosessit käsitellään seuraavissa osissa.
@@ -63,7 +63,7 @@ Jos liiketoimintayksikkösi käyttää ulkomaan valuuttaa, sinun on määritett�
 ### <a name="to-prepare-general-ledger-accounts-for-consolidation"></a>Kirjanpitotilien valmisteleminen konsolidointia varten
 Jos liiketoimintayksikön tilikartta poikkeaa konsolidoidun yrityksen tilikartasta, kirjanpitotilit on valmisteltava konsolidointia varten. Voit määrittää tilit, joihin debet- ja kreditsummat kirjataan, ja menetelmän, jolla valuutat muunnetaan konsolidoidussa yrityksessä. Tästä on hyötyä esimerkiksi silloin, jos raportti suoritetaan usein.
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Tilikartta** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tilikartta** ja valitse sitten liittyvä linkki.  
 2. Avaa tilin kortti ja täytä **Konsolidointi**-pikavälilehden kentät.
 
 ### <a name="to-specify-exchange-rates-for-consolidations"></a>Valuutan vaihtokurssien määrittäminen konsolidoiduissa yrityksissä
@@ -82,9 +82,9 @@ Seuraavassa taulukossa käsitellään tileillä käytettäviä vaihtokurssimenet
 
 Liiketoimintayksiköiden vaihtokurssit määritetään seuraavasti:
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Liiketoimintayksiköt** ja valitse sitten liittyvä linkki.  
-2. Valitse ensin **Liiketoimintayksiköiden luettelo** -sivulla liiketoimintayksikkö ja sitten **Keskikurssi (manuaalinen)** -toiminto.   
-3. **Muuta vaihtokurssi** -sivun **Suhteellinen vaihtokurssi** -kentän sisältö on kopioitu **Valuutan vaihtokurssi** -taulukosta. Sisältöön voi kuitenkin tehdä muutoksia. Sulje sivu.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Liiketoimintayksiköt** ja valitse sitten liittyvä linkki.  
+2. Valitse ensin **Liiketoimintayksiköiden luettelo** -ikkunassa liiketoimintayksikkö ja sitten **Keskikurssi (manuaalinen)** -toiminto.   
+3. Näkyviin tulevan **Muuta vaihtokurssi** -ikkunan **Suhteellinen vaihtokurssi** -kentän sisältö on kopioitu **Valuutan vaihtokurssi** -taulukosta. Sisältöön voi kuitenkin tehdä muutoksia. Sulje ikkuna. Sulje sivu.  
 4. Valitse **Loppukurssi**-toiminto.  
 5. Anna vaihtokurssi **Suhteellinen vaihtokurssisumma** -kentässä
 
@@ -108,7 +108,7 @@ Jos omistat osan yrityksestä, voit sisällyttää kustakin tapahtumasta sen pro
 Voit testata tiedot, ennen kuin siirrät ne konsolidoituun yritykseen. [!INCLUDE[d365fin](includes/d365fin_md.md)] etsii eroavaisuuksia liiketoimintayksiköiden tietojen ja konsolidoidun yrityksen tietojen välillä. Tarkistettavia kohteita ovat esimerkiksi erot tilinumeroiden tai dimensiokoodien välillä. Virheet on korjattava ennen raportin suorittamista. Voit testata tietokannan. Jos tuot tietoja XML-tiedostosta, voit testata myös tiedoston.   
 
 1. Avaa konsolidoitu yritys.  
-2. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Liiketoimintayksiköt** ja valitse sitten liittyvä linkki.  
+2. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Liiketoimintayksiköt** ja valitse sitten liittyvä linkki.  
 3. Tee jompikumpi seuraavista toimista:  
 
     * Testaa tiedosto valitsemalla **Testaa tiedosto** -toiminto, antamalla testattavan tiedoston nimen ja valitsemalla **Tulosta**.  

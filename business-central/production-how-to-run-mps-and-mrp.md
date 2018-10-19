@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/26/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 41a8ba231eb6fb9eaebe2168294ded0b0378fd81
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 4fe4c7eaf412bd6219b51a06f989c5a8508c4410
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="run-full-planning-mps-or-mrp"></a>Kokonaisvaltaisen suunnittelun, tuotanto-ohjelman tai tarvelaskennan suorittaminen
 Suunnittelutyökirjan suorittaminen ja tarvelaskennan suorittaminen tarkoitetaan tuotanto-ohjelman ja materiaalitarpeen laskemista todellisen ja ennustetun tarpeen perusteella. Suunnittelujärjestelmä voi laskea tuotanto-ohjelman tai tarvelaskennan pyydettäessä, tai se voi laskea molemmat samanaikaisesti.  
 
--   Tuotanto-ohjelma tarkoittaa todelliseen tarpeeseen ja tuotantoennusteeseen perustuvaa tuotanto-ohjelman laskentaa. Tuotanto-ohjelman laskenta tehdään lopullisille nimikkeille, joilla on ennuste ja/tai myyntitilauksen rivi. Näitä nimikkeitä kutsutaan tuotanto-ohjelmanimikkeiksi, ja ne tunnistetaan dynaamisesti laskennan alkaessa.  
--   MRP tarkoittaa komponenttien todelliseen tarpeeseen ja komponenttitason tuotantoennusteeseen perustuvaa materiaalitarpeen laskentaa. Tarvelaskenta tehdään vain nimikkeille, jotka eivät ole tuotanto-ohjelmanimikkeitä. Tuotanto-ohjelman yleistavoitteena on tuottaa aikavaiheistetut, viralliset nimikekohtaiset suunnitelmat, jotta oikeaa tuotetta voidaan toimittaa oikea nimike ja oikea määrä oikeaan aikaan ja oikeassa paikassa.  
+-   Tuotanto-ohjelma tarkoittaa todelliseen tarpeeseen ja kysyntäennusteeseen perustuvaa tuotanto-ohjelman laskentaa. Tuotanto-ohjelman laskenta tehdään lopullisille nimikkeille, joilla on ennuste ja/tai myyntitilauksen rivi. Näitä nimikkeitä kutsutaan tuotanto-ohjelmanimikkeiksi, ja ne tunnistetaan dynaamisesti laskennan alkaessa.  
+-   MRP tarkoittaa komponenttien todelliseen tarpeeseen ja komponenttitason kysyntäennusteeseen perustuvaa materiaalitarpeen laskentaa. Tarvelaskenta tehdään vain nimikkeille, jotka eivät ole tuotanto-ohjelmanimikkeitä. Tuotanto-ohjelman yleistavoitteena on tuottaa aikavaiheistetut, viralliset nimikekohtaiset suunnitelmat, jotta oikeaa tuotetta voidaan toimittaa oikea nimike ja oikea määrä oikeaan aikaan ja oikeassa paikassa.  
 
 Tuotanto-ohjelmassa ja tarvelaskennassa käytetään identtisiä suunnittelualgoritmeja. Suunnittelualgoritmit liittyvät nettouttamiseen, aiempien täydennystilausten uudelleenkäyttöön ja toimenpideviesteihin. Suunnittelujärjestelmä selvittää, mitä nyt tai vastaisuudessa tarvitaan (kysyntä) sekä mitä on käsivarastossa ja mitä tulossa (tarjonta). Kun nämä määrät nettoutetaan, [!INCLUDE[d365fin](includes/d365fin_md.md)] näyttää toimenpideviestejä. Toimenpideviestit ovat ehdotuksia, jotka kehottavat luomaan uuden tilauksen, muuttamaan tilausta (määrää tai päivämäärää) tai peruuttamaan jo tilauksessa olevan tilauksen. Tilauksella tarkoitetaan ostotilauksia, kokoonpanotilauksia, tuotantotilauksia ja siirtotilauksia.
 
@@ -35,7 +35,7 @@ Suunnitelmasta saadaan asianmukaisia tuloksia sen mukaan, kuinka nimikkeen korti
 
 -   **Laske uudelleensuunnittelu:** Tämä toiminto käsittelee tai uudistaa materiaalisuunnitelman. Prosessin aluksi kaikki ladatut suunnitellut toimitustilaukset poistetaan. Tietokannan kaikki nimikkeet suunnitellaan uudelleen.  
 -   **Laske nettomuutossuunnitelma**: Tämä toiminto käsittelee nettomuutossuunnitelman. Kun nimikkeitä käsitellään nettomuutossuunnitelmassa kahden tyyppisistä muutoksista:  
-    - **Kysynnän/tarjonnan muutokset:** Tällaisia muutoksia ovat myyntitilausten, tuotantoennusteiden, tuotantotilausten, kokoonpanotilausten ja ostotilausten määrien muutokset. Myös suunnittelematon varastotason muutos katsotaan määrän muutokseksi.  
+    - **Kysynnän/tarjonnan muutokset:** Tällaisia muutoksia ovat myyntitilausten, kysyntäennusteiden, tuotantotilausten, kokoonpanotilausten ja ostotilausten määrien muutokset. Myös suunnittelematon varastotason muutos katsotaan määrän muutokseksi.  
     - **Suunnitteluparametrien muutokset**: Tällaisia muutoksia ovat varmuusvaraston, uusintatilauspisteen, reitityksen ja tuoterakenteen muutokset sekä aikavälin ja toimitusajan laskennan muutokset.  
 -   **Hae toimenpideviestit**: Tänä toiminto toimii lyhyen aikavälin suunnittelutyökaluna. Se tuottaa toimenpideviestejä, jotka ilmoittavat käyttäjälle edellisen uudelleensuunnittelun tai nettomuutossuunnittelun laskemisen jälkeen tehdyistä muutoksista.  
 
@@ -47,13 +47,13 @@ Jokaisen suunnitellun menetelmän kanssa, [!INCLUDE[d365fin](includes/d365fin_md
 >  Hae toimenpideviestit -suunnitelma voidaan suorittaa nettomuutossuunnittelu- ja uudelleensuunnitteluajojen välissä. Tällöin saadaan välitön käsitys aikataulumuutosten vaikutuksista. Tätä suunnitelmaa ei kuitenkaan ole tarkoitettu nettomuutossuunnittelun tai uudelleensuunnittelun korvaajaksi.  
 
 ## <a name="to-calculate-the-planning-worksheet"></a>Suunnittelutyökirjan laskeminen  
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Suunnittelutyökirjat** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Suunnittelutyökirjat** ja valitse sitten liittyvä linkki.  
 2.  Avaa **Laske suunnitelma** -ikkuna valitsemalla **Laske uudelleensuunnittelu** -toiminto.  
 3.  Täytä **Vaihtoehdot**-pikavälilehden kentät seuraavassa taulukossa kuvatulla tavalla.  
 
     |Kenttä|Kuvaus|  
     |---------------------------------|---------------------------------------|  
-    |**Tuotanto-ohjelma**|Valitse tämä, jos haluat käynnistää tuotanto-ohjelman laskennan. Tässä ajossa otetaan huomioon nimikkeet, joilla on avoimia myyntitilauksia ja/tai tuotantoennusteita.|  
+    |**Tuotanto-ohjelma**|Valitse tämä, jos haluat käynnistää tuotanto-ohjelman laskennan. Tässä ajossa otetaan huomioon nimikkeet, joilla on avoimia myyntitilauksia tai kysyntäennusteita.|  
     |**Tarvelaskenta**|Valitse tämä, jos haluat käynnistää materiaalitarpeiden suunnittelun laskennan. Tässä ajossa otetaan huomioon nimikkeet, joilla on riippuvuusedellytyksiä. Yleensä tuotanto-ohjelma ja tarvelaskenta suoritetaan samanaikaisesti. Tuotanto-ohjelman ja tarvelaskennan samanaikainen suorittaminen edellyttää, että **Yhdistetty tuot-ohj/tarvelask.** -valintaruutu on valittuna **Tuotannon asetukset** -ikkunan **Suunnittelu**-pikavälilehdessä.|  
     |**Aloituspvm**|Varastosaatavuus arvioidaan tämän päivämäärän perusteella. Jos nimikkeen käsivarastomäärä alittaa uusintatilauspisteen, järjestelmä aikatauluttaa täydennystilauksen ennakkotilauksena tämän päivämäärän perusteella. Jos nimikkeen määrä alittaa varmuusvaraston määrän (aloituspäivänä), järjestelmä aikatauluttaa takautuvasti täydennystilauksen, jonka eräpäivä on sunnittelun aloituspäivämäärä.|  
     |**Lopetuspvm**|Tämä on suunnitteluhorisontin päättymispäivämäärä. Kysyntää ja tarjontaa ei lasketa tätä päivämäärää edemmäs. Jos nimikkeen uusintatilausväli ulottuu lopetuspäivämäärän jälkeiselle ajalle, kyseisen nimikkeen suunnitteluhorisontin voimassaoloaika on Tilauspvm- ja Uusintatilausväli-arvojen summa.<br /><br /> Suunnitteluhorisontti tarkoittaa aikaa, jonka suunnitelma kattaa. Jos horisontti on liian lyhyt, pitkän toimitusajan nimikkeiden tilaukset myöhästyvät. Jos horisontti on liian pitkä, sellaisia tietoja tarkistetaan ja käsitellään liian kauan, jotka todennäköisesti ehtivät muuttua, ennen kuin niitä tarvitaan. Tuotantoa varten voi määrittää toisen ja ostoja varten toisen, pidemmän suunnitteluhorisontin, vaikka tämä ei olekaan välttämätöntä. Ostojen ja tuotannon suunnitteluhorisontit täytyy määrittää siten, että ne kattavat komponenttien kumulatiivisen toimitusajan.|  

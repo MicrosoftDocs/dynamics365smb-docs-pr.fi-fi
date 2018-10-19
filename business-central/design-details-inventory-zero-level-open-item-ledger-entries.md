@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 11/23/2017
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e25721b0c79a87f4201314a0f3556f969a110e18
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e114142be1708447931fb475074245b57564f6b3
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-known-item-application-issue"></a>Rakennetiedot: Nimikkeen kohdistuksen tunnettu ongelma
@@ -36,8 +36,6 @@ Artikkelin alussa kerrotaan ongelman tyypilliset oireet. Tämän jälkeen käsit
      |333|28.1.2018|Myynti|Myyntitoimitus|102043|TESTI|SININEN|-1|-10|-1|-1|Kyllä|  
      |334|28.1.2018|Myynti|Myyntitoimitus|102043|TESTI|SININEN|1|10|1|1|Kyllä|  
 
-<!--![Why is inventory zero 1](media/helene/TechArticleInventoryZero1.png "Whyisinventoryzero\_1")-->
-
 ## <a name="basics-of-item-application"></a>Nimikkeen kohdistuksen perusteet  
  Nimikkeen kohdistustapahtuma luodaan jokaiselle varastotapahtumalle, jotta kustannusten vastaanottaja voidaan linkittää kustannusten vastaanottajan kustannuslähteeseen. Näin kustannus voidaan välittää edelleen arvostusmenetelmän mukaisesti. Katso lisätiedot kohdasta [Rakennetiedot: nimikkeen kohdistus](design-details-item-application.md).  
 
@@ -56,7 +54,7 @@ Artikkelin alussa kerrotaan ongelman tyypilliset oireet. Tämän jälkeen käsit
 
  Seuraavassa kaaviossa näytetään, miten määrän kohdistukset tehdään.  
 
-![Miksi varasto on nolla 2](media/helene/TechArticleInventoryZero2.png "Whyisinventoryzero\_2")
+![Prosessi kustannusmuutoksesta ostoista myyntiin](media/helene/TechArticleInventoryZero2.png "Prosessi kustannusmuutoksesta ostoista myyntiin")
 
  Huomaa, että nimiketapahtuma 1 (osto) on sekä nimikkeen toimittaja että kohdistetun nimiketapahtuman kustannuslähde, nimiketapahtuma 2 (myynti).  
 
@@ -72,7 +70,6 @@ Seuraavassa kaaviossa näytetään, miten kustannusten kohdistukset tehdään.
 |---------|------------|----------|-------------|------------|--------|-------------|--------|------------------------|-----------------|------------------|----|  
 |333|28.1.2018|Myynti|Myyntitoimitus|102043|TESTI|SININEN|-1|-10|-1|-1|Kyllä|  
 |334|28.1.2018|Myynti|Myyntitoimitus|102043|TESTI|SININEN|1|10|1|1|Kyllä|  
-<!--![Why is inventory zero 3](media/helene/TechArticleInventoryZero3.png "Whyisinventoryzero\_3")-->
 
  Huomaa, että saapuva nimiketapahtuma 3 (myyntipalautus) on alkuperäisen lähtevän nimiketapahtuman (myynti) kustannusten vastaanottaja.  
 
@@ -81,7 +78,7 @@ Seuraavassa kaaviossa näytetään, miten kustannusten kohdistukset tehdään.
 
  Seuraavassa kaaviossa esitetään kustannusvirta.  
 
-![Miksi varasto on nolla 4](media/helene/TechArticleInventoryZero4.png "Whyisinventoryzero\_4")
+![Prosessi kustannusmuutoksesta myynnistä myyntipalautukseen](media/helene/TechArticleInventoryZero4.png "Prosessi kustannusmuutoksesta myynnistä myyntipalautukseen")
 
  Huomaa, että kustannus ohjataan edelleen nimiketapahtumalle 2 (myynti), tämän jälkeen nimiketapahtumalle 3 (myyntipalautus) ja lopulta nimiketapahtumalle 4 (myynti 2).  
 
@@ -94,7 +91,7 @@ Seuraavassa kaaviossa näytetään, miten kustannusten kohdistukset tehdään.
 
  Seuraavassa kaaviossa näytetään, miten nimikkeen kohdistukset tehdään kummassakin skenaariossa.  
 
-![Miksi varasto on nolla 6](media/helene/TechArticleInventoryZero6.png "Whyisinventoryzero\_6")  
+![Kustannusmuutosten prosessi tapahtuu molempiin suuntiin](media/helene/TechArticleInventoryZero6.png "Kustannusmuutosten prosessi tapahtuu molempiin suuntiin")  
 
  Huomaa, että kustannuksen kohdistus (siniset nuolet) tehdään, jotta voidaan varmistaa nimiketapahtuman 2 (myyntipalautus) liittäminen samoihin kustannuksiin, joihin sen peruuttama nimiketapahtuma 1 (myynti 1) on liitetty. Määrän kohdistusta (punaiset nuolet) ei tehdä.  
 
@@ -115,7 +112,6 @@ Seuraavassa kaaviossa näytetään, miten kustannusten kohdistukset tehdään.
 |---------|------------|----------|-------------|------------|--------|-------------|--------|------------------------|-----------------|------------------|----|---------|
 |333|28.1.2018|Myynti|Myyntitoimitus|102043|TESTI|SININEN|-1|-10|-1|-1|Kyllä|Ei|  
 |334|28.1.2018|Myynti|Myyntitoimitus|102043|TESTI|SININEN|1|10|1|1|Kyllä|**Kyllä**|  
-<!--![Why is inventory zero 7](media/helene/TechArticleInventoryZero7.png "Whyisinventoryzero\_7")-->
 
 -   Hae **Kirjattu myyntitoimitus** -ikkunassa **Kohdistus nimiketapahtumasta** -kenttä ja tarkista, onko kenttä täytetty. Jos on, tarkista, mihin nimiketapahtumaan palautusvastaanoton kustannus on kohdistettu.  
 

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 90fa2b52444d057149b39da87f5dfab6d91e8681
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 681540708d9807aafebcf5701232a282a189e47b
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="updating-report-or-document-layouts"></a>Raportin tai asiakirjan asettelujen päivittäminen
@@ -30,7 +30,7 @@ Kaikkia raportin tietojoukon muutoksia ei voi päivittää automaattisesti rapor
   
 ## <a name="to-update-one-or-more-custom-report-layouts"></a>Vähintään yhden mukautetun raportin asettelun päivittäminen  
   
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Raporttiasettelut** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Raporttiasettelut** ja valitse sitten liittyvä linkki.  
   
 2.  Jos haluat päivittää tietyn raportin, valitse ensin asettelu luettelosta **Raporttiasettelut**-ikkunassa ja sitten **Päivitä asettelu** -toiminto. Jos sen sijaan haluat päivittää yrityksen kaikki mukautetut raporttiasettelut, valitse **Päivitä kaikki asettelut** -toiminto.  
 
@@ -38,7 +38,7 @@ Jos virheitä ei ilmene, päivitykset otetaan käyttöön raporttiasetteluissa. 
 
 ## <a name="to-test-custom-report-layout-updates"></a>Mukautettujen raporttiasetteluiden päivitysten testaaminen  
   
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Raporttiasetteluvalinta** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Raporttiasetteluvalinta** ja valitse sitten liittyvä linkki.  
   
 2.  Valitse **Raporttiasetteluvalinta**-ikkunassa **Testiasettelun päivitykset** -toiminto.  
   

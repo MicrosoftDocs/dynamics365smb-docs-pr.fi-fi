@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, bank data conversion service, funds transfer
-ms.date: 06/08/2018
+ms.date: 10/02/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
-ms.openlocfilehash: 5bf6e0c961e35b2fdb23eb1ba470da0f5c098d81
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: a83bb50c640adafede77524c6982107e1140a27b
 ms.contentlocale: fi-fi
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-the-bank-data-conversion-service"></a>Pankkitietojen muuntopalvelun määrittäminen
@@ -32,7 +32,7 @@ Pankkitiedostojen tuontia ja vientiä varten on määritettävä oma pankkitili 
 >   Pankkitietojen muuntopalvelu saattaa rajoittaa rivimäärää, joka voidaan viedä yhdessä tiedostossa. Näyttöön tulee virhesanoma, jos raja ylitetään. On suositeltavaa, että tiliotetiedostot sisältävät enintään 1 000 riviä, koska pankkitietojen muuntopalvelun käsittelyaika saattaa muuten kasvaa merkittävästi.
 
 ## <a name="to-sign-your-company-up-for-the-bank-data-conversion-service"></a>Yrityksen määrittäminen pankkitietojen muuntopalvelun käyttäjäksi
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Pankkitiet. muuntopalvelun asetukset** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pankkitiet. muuntopalvelun asetukset** ja valitse sitten liittyvä linkki.  
 2. **Pankkitiet. muuntopalvelun asetukset** -ikkuna avautuu ja siinä on kolme esitäytettyä kenttää sisältäen pankkitietojen muuntopalvelun tarjoajan asiaankuuluvat URL-osoitteet.
 
     > [!NOTE]  
@@ -40,7 +40,8 @@ Pankkitiedostojen tuontia ja vientiä varten on määritettävä oma pankkitili 
 3. Valitse **Rekisteröitymisen URL-osoite** -kentässä selaimen painike palveluntarjoajan rekisteröitymissivun avaamiseksi.  
 4. Kirjoita pankkitietojen palvelujen tarjoajan rekisteröitymissivu, kirjoita yrityksesi rekisteröitymistä vastaava käyttäjänimi ja salasana ja suorita rekisteröitymisprosessi palveluntarjoajan ohjeiden mukaisesti.
 
-  Yrityksesi on nyt rekisteröitynyt pankkitietojen muuntopalveluun. Jatka antamalla käyttäjänimi ja salasana, jotka olet määrittänyt palvelulle vastaavissa [!INCLUDE[d365fin](includes/d365fin_md.md)]in määrityskentissä.
+    Yrityksesi on nyt rekisteröitynyt pankkitietojen muuntopalveluun. Jatka antamalla käyttäjänimi ja salasana, jotka olet määrittänyt palvelulle vastaavissa [!INCLUDE[d365fin](includes/d365fin_md.md)]in määrityskentissä.
+
 5. Kirjoita **Pankkitiet. muuntopalvelun asetukset** -ikkunassa **Käyttäjänimi**-kenttään sama arvo, jonka kirjoitit kirjautumisnimeksi palveluntarjoajan sivulla vaiheessa 4.
 6. Kirjoita **Salasana**-kenttään sama arvo, jonka kirjoitit **Salasana**-kenttään palveluntarjoajan sivulla vaiheessa 4.
 
@@ -48,9 +49,9 @@ Pankkitiedostojen tuontia ja vientiä varten on määritettävä oma pankkitili 
 > Sisäänkirjaustiedot salataan automaattisesti.
 
 ## <a name="to-view-or-update-the-list-of-currently-supported-bank-data-formats"></a>Tällä hetkellä tuettujen pankin tietomuotojen luettelon tarkastelu tai päivitys
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Pankkitiet. muuntopalvelun asetukset** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pankkitiet. muuntopalvelun asetukset** ja valitse sitten liittyvä linkki.
 2. Valitse **Pankkitiet. muuntopalvelun asetukset** -ikkunassa **Pankin nimi - tietojen muuntoluettelo** -toiminto, jolloin avautuu muuntopalvelun tukemien pankin tietomuotojen luettelo.
-3. Valitse **Pankin nimi - tietojen muuntamisen luettelo** -sivulla **Päivitä pankkien nimien luettelo** -toiminto.
+3. Valitse **Pankin nimi - tietojen muuntamisen luettelo** -ikkunassa **Päivitä pankkien nimien luettelo** -toiminto.
 
 Pankkitietojen muuntopalvelun tukemien pankin tietomuotojen luettelo on nyt päivitetty. Tämä on luettelo pankin nimistä suodatettuna maan/alueen mukaan, jotka voit valita **Pankin nimi - tietojen muuntaminen** -kentän **Pankkitilin kortti** -ikkunassa.
 

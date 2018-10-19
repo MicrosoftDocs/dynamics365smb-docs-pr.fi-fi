@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: resource, skill, service, zones
-ms.date: 08/22/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6dc4a059cb3bca46910a4a4be43a5940a5652c8f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 7ce128aa32d650cf756117ab46987167d9a3781a
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -30,29 +30,29 @@ Resurssien kohdistaminen edellyttää seuraavia määrityksiä:
 * Näytetäänkö resurssin taidot ja alueet sekä näytetäänkö varoitus, jos joku valitsee resurssin, jonka ei täytä vaatimuksia tai joka ei ole asiakkaan alueella.  
 
 ## <a name="to-set-up-skills"></a>Taitojen määrittäminen
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Taidot** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Taidot** ja valitse sitten liittyvä linkki.  
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-assign-skills-to-service-items-and-resources"></a>Taitojen määrittäminen huoltonimikkeille ja resursseille
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Huoltonimikkeet** tai **Resurssit** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltonimikkeet** tai **Resurssit** ja valitse sitten liittyvä linkki.  
 2. Avaa huoltonimikkeen tai resurssin kortti ja valitse sitten jokin seuraavista:  
   
     * Valitse huoltonimikkeille **Resurssin taidot**.  
     * Valitse resursseille **Taidot**.  
 
 ## <a name="to-set-up-zones"></a>Alueiden määrittäminen
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Alueet** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Alueet** ja valitse sitten liittyvä linkki.  
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-assign-zones-to-customers-and-resources"></a>Alueiden määrittäminen asiakkaille ja resursseille 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Asiakkaat** tai **Resurssit** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asiakkaat** tai **Resurssit** ja valitse sitten liittyvä linkki.  
 2. Avaa huoltonimikkeen tai resurssin kortti ja valitse sitten jokin seuraavista:  
   
     * Valitse asiakkaille alue **Huoltoalueen koodi** -kentässä.  
     * Valitse resursseille **Huoltoalueet**-toiminto.  
 
 ## <a name="to-specify-what-to-show-when-a-resource-is-chosen"></a>Resurssin valinnan yhteydessä näytettävien tietojen määrittäminen
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Huollon asetukset** ja valitse sitten aiheeseen liittyvä linkki. 
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huollon asetukset** ja valitse sitten liittyvä linkki. 
 2. Valitse **Resurssin taitojen vaihtoehto** -kentässä jokin seuraavassa taulukossa käsiteltävistä vaihtoehdoista.  
   
     |**Vaihtoehto**|**Kuvaus**|  
@@ -64,14 +64,14 @@ Resurssien kohdistaminen edellyttää seuraavia määrityksiä:
 ## <a name="to-update-resource-capacity"></a>Resurssikapasiteetin päivittäminen  
 Resurssien kapasiteetti on ehkä muutettava.  
   
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Resurssikapasiteetti** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Resurssikapasiteetti** ja valitse sitten liittyvä linkki.  
 2. Valitse ensin resurssi ja sitten **Aseta kapasiteetti** -toiminto.  
 3. Tee muutokset ja valitse sitten **Päivitä kapasiteetti**.  
 
 ## <a name="to-update-skills-for-items-service-items-or-service-item-groups"></a>Nimikkeiden, huoltonimikkeiden tai huoltonimikeryhmien taitojen päivittäminen
 Jos haluat muuttaa nimikkeille määritettyjä taitokoodeja (vaikkapa **kpl** eikä **PC**), voit tehdä muutoksen joko nimikkeelle, huoltonimikkeelle tai huoltonimikeryhmän kaikille nimikkeille.  
   
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Nimikkeet**, **Huoltonimike** tai **Huoltonimikeryhmä**ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** tai **Huoltonimike** tai **Huoltonimikeryhmä** ja valitse sitten liittyvä linkki.  
 2. Valitse ensin päivitettävä objekti ja sitten **Resurssin taidot** -toiminto.  
 3. Valitse sopiva taitokoodi sen rivin **Taitokoodi**-kentässä, jolla muutettava koodi on.  
 4.  Jos nimikkeellä on siihen liittyviä huoltonimikkeitä, näyttöön tulee valintaruutu, jossa on kaksi vaihtoehtoa.  

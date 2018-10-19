@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 01/25/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: f127cef1af857b5f50f5e14c7376941151b57e91
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6f6703976d6ad0011ecb1dba75d918cae00dee95
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 #  <a name="create-analysis-reports"></a>Analyysiraporttien luominen
@@ -61,7 +61,7 @@ Analyysin parametrit näkyvät analyysiraportissa sarakkeina. Voit määrittää
 
 Malli sisältää joukon rivejä, joista jokainen vastaa analyysiraportissa näkyviä analyysisarakkeita. Kun määrität sarakkeen, liitä analyysin tyyppikoodi riviin. Analyysin tyyppikoodi määrittää lähdetietojen tyypin nimiketapahtumissa, joihin analyysi perustuu. Lähdetiedot sisältävät kustannukset, myyntisumman tai määrän ja niihin liittyvät arvotapahtumat. Voit määrittää haluamasi määrän sarakkeen malleja ja luoda sen jälkeen niiden avulla uusia analyysiraportteja.    
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Myynnin sarakemallit** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myynnin sarakemallit** ja valitse sitten liittyvä linkki.  
 2. Valitse ensimmäinen tyhjä rivi ja täytä tarvittavat kentät.
 3. Valitse **Sarakkeet**-toiminto.  
 4. Valitse Sarakkeet ja määritä analyysiraporttiin sisällytettävät sarakkeet täyttämällä **Analysointisarakkeet**-ikkunan kentät.  
@@ -78,7 +78,7 @@ Analyysin objektit näkyvät analyysiraportissa riveillä. Voit määrittää an
 
 Malli sisältää joukon rivejä, jotka vastaavat analyysiraportissa näkyviä rivejä. Rivi voi tarkoittaa yhtä nimikettä tai nimikkeiden aluetta, yhtä asiakasta tai asiakkaiden aluetta, yhtä toimittajaa tai toimittajien aluetta tai yhtä ryhmää tai ryhmien aluetta. Voit myös luoda riville kaavan, joka laskee muut rivit yhteen. Voit määrittää haluamasi määrän rivimalleja ja luoda niiden avulla sen jälkeen uusia analyysiraportteja.    
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Myynnin rivimallit** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myynnin rivimallit** ja valitse sitten liittyvä linkki.  
 2. Valitse ensimmäinen tyhjä rivi ja täytä tarvittavat kentät.
 3. Valitse **Rivit**-toiminto.  
 4. Valitse Rivit ja luo **Analyysin rivit** -ikkunassa rivejä niitä nimikkeitä, asiakkaita, toimittajia tai myyjiä varten, joiden luvut haluat näyttää analyysiraportissa. Täytä **Tyyppi**-, **Alue**- ja **Kuvaus**-kenttä.  
@@ -91,7 +91,7 @@ Seuraava toimenpide perustuu myynnin analyysiraportteihin. Vaiheet ovat samanlai
 
 Analyysiraporttien avulla voit analysoida myynnin dynamiikkaa tunnuslukujen mukaan, jotka valitset, esimerkiksi liikevaihto, sekä summat että määrät, katetuotto tai todellisen myynnin edistyminen budjettiin verraten. Raportin avulla voit myös analysoida keskimääräisiä myyntihintojasi ja arvioida myyntihenkilöstösi myyntituloksia.  
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Myynnin analyysiraportit** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myynnin analyysiraportit** ja valitse sitten liittyvä linkki.  
 2. Valitse **Analyysiraportti - Myynti** -ikkunassa **Uusi**-toiminto.
 3. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Valitse **Muokkaa analyysiraporttia** -toiminto.

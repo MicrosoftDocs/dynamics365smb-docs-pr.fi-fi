@@ -10,37 +10,37 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3e412c6fe82b3ee5640329c523b19d68f849f93a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 9a1661d71bd28009a0c0b83a50e27cae3c833ea7
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-planning-assignment-table"></a>Rakennetiedot: suunnittelun kohdistustaulukko
 Kaikki nimikkeet tulee suunnitella, mutta nimikkeelle ei ole syytä laskea suunnitelmaa ellei kysyntä- tai tarjontakuvio ole muuttunut edellisen suunnitelman laskemisen jälkeen.  
-  
+
 Jos käyttäjä on kirjoittanut uuden myyntitilauksen tai muuttanut olemassa olevaa, suunnitelman uudelleen laskeminen on tarpeellista. Muita syitä ovat muutos ennusteeseen tai haluttu varmuusvaraston määrä. Tuoterakenteen muuttaminen komponentin lisäyksellä tai poistolla ilmaisisi todennäköisesti muutosta, mutta vain komponenttinimikkeelle.  
-  
+
 Useiden sijaintien kohdalla, määritys tapahtuu nimikkeen tasolla sijaintiyhdistelmää kohti. Jos esimerkiksi myyntitilaus on luotu vain yhdessä sijainnissa, ohjelma määrittää suunnittelulle tässä tietyssä sijainnissa olevan nimikkeen.  
-  
+
 Syy valita nimikkeitä suunnittelua varten on järjestelmän toimintaseikka. Jos nimikkeen kysyntä–tarjonta-mallissa ei ole tapahtunut muutosta, suunnittelujärjestelmä ei ehdota toimenpiteitä. Ilman suunnittelun tehtävää järjestelmän on suoritettava laskennat kaikille nimikkeille suunnitelmaa ja järjestelmän resurssit kuluttavaa tilannetta määritettäessä.  
-  
+
 **Suunnittelun tehtävä**-taulukko valvoo kysynnän ja toimituksen tapahtumia ja määrittää sopivat nimikkeet suunnittelua varten. Seuraavia tapahtumia tarkkaillaan:  
-  
+
 * Uusi myyntitilaus, ennuste, komponentti, ostotilaus, tuotantotilaus, kokoonpanotilaus tai siirtotilaus.  
 * Nimikkeen, määrän, sijainnin, variantin tai päivämäärän muutos myyntitilauksessa, ennusteessa, komponentissa, ostotilauksessa, tuotantotilauksessa, kokoonpanotilauksessa tai siirtotilauksessa.  
 * Myyntitilauksen, ennusteen, komponentin, ostotilauksen, tuotantotilauksen, kokoonpanotilauksen tai siirtotilauksen peruutus.  
 * Muiden kuin suunniteltujen nimikkeiden kulutus.  
 * Muiden kuin suunniteltujen nimikkeiden tuotos.  
 * Varaston suunnittelemattomat muutokset.  
-  
+
 Näiden suorien tarjonta-kysyntä-siirtojen osalta tilausten seuranta- ja toimenpiteiden viestitysjärjestelmä ylläpitää Suunnittelun tehtävä -taulukkoa ja ilmoittaa suunnittelun syyn toimenpideviestinä.  
-  
+
 Seuraavat muutokset päätiedoissa voivat myös aiheuttaa suunnittelun epätasapainon:  
-  
+
 * Tilan muutos hyväksytyksi tuotannon tuoterakenteen otsikossa (kaikille tätä otsikkoa käyttäville nimikkeille).  
 * Poistettu rivi (alinimike).  
 * Tilan muutos hyväksytyksi reitityksen otsikossa (kaikille tätä reititystä käyttäville nimikkeille).  
@@ -51,19 +51,19 @@ Seuraavat muutokset päätiedoissa voivat myös aiheuttaa suunnittelun epätasap
 * Tuotannon tuoterakenteen nro (ja kaikki vanhan tuoterakenteen viitteen alikohteet).  
 * Reititysnro  
 * Uusintatilauskäytäntö.  
-  
+
 Näissä tapauksissa uusi suunnittelun määrityksen hallinta -toiminto ylläpitää taulukkoa ja määrittää suunnittelun syyksi nettomuutoksen.  
-  
+
 Seuraavat muutokset eivät aiheuta suunnittelutehtävää:  
-  
+
 * Kalenterit  
 * Muut suunnitteluparametrit nimikkeen kortilla:  
-  
+
 Tuotanto-ohjelman ja tarvelaskennan laskentaa koskevat seuraavat rajoitukset:  
-  
-* Tuotanto-ohjelma: suunnittelujärjestelmä tarkistaa, että nimikkeellä on tuotantoennuste tai myyntitilaus. Jos ei ole, nimike ei kuulu suunnitelmaan.  
+
+* Tuotanto-ohjelma: suunnittelujärjestelmä tarkistaa, että nimikkeellä on kysyntäennuste tai myyntitilaus. Jos ei ole, nimike ei kuulu suunnitelmaan.  
 * Tarvelaskenta: jos suunnittelujärjestelmä havaitsee, että tuotanto-ohjelman suunnittelurivi tai tuotanto-ohjelman toimitustilaus täydentää nimikettä, nimike jätetään pois suunnittelusta. Kaikki kysyntä asiaankuuluvista osista on kuitenkin mukana.  
-  
+
 ## <a name="see-also"></a>Katso myös  
 [Rakennetiedot: kysynnän ja tarjonnan täsmäytys](design-details-balancing-demand-and-supply.md)   
 [Rakennetiedot: uusintatilauskäytäntöjen käsittely](design-details-handling-reordering-policies.md)   

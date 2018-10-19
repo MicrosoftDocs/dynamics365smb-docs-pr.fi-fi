@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 07/03/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 021eac95fe22cfb37a6eaf851a5da11fd3ce9d30
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ea247c762749c108ede8679bb622f71d2dd67f51
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="record-special-purchase-prices-and-discounts"></a>Erikoisostohintojen ja -alennusten kirjaaminen
@@ -34,7 +34,7 @@ Voit määrittää seuraavat kaksi ostoalennustyyppiä:
 Koska ostorivin alennukset ja ostohinnat perustuvat nimikkeen ja toimittajan yhdistelmään, voit lisätä tämän määrityksen myös nimikkeen kortista, jossa säännöt ja arvot on määritetty. Lisätietoja on ohjeaiheessa [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md).
 
 ## <a name="to-set-up-a-special-purchase-price-for-a-vendor"></a>Tietyn ostohinnan määrittäminen toimittajalle
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Toimittajat** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Toimittajat** ja valitse sitten liittyvä linkki.
 2. Avaa asianmukainen toimittajan kortti ja valitse **Hinnat**-toiminto.
 
     **Ostotyyppi**-kenttään täytetään **toimittajan** tiedot ja **Ostokoodi**-kenttään täytetään toimittajan numero.
@@ -42,7 +42,7 @@ Koska ostorivin alennukset ja ostohinnat perustuvat nimikkeen ja toimittajan yhd
 4. Täytä jokaisen sellaisen yhdistelmän rivi, jonka toimittaja myöntää sinulle ostorivialennuksen.
 
 ## <a name="to-set-up-a-line-discount-for-a-vendor"></a>Rivialennuksen määrittäminen toimittajalle
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Toimittajat** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Toimittajat** ja valitse sitten liittyvä linkki.
 2. Avaa asianmukainen toimittajan kortti ja valitse **Rivialennukset**-toiminto.
 
     **Ostotyyppi**-kenttään täytetään **toimittajan** tiedot ja **Ostokoodi**-kenttään täytetään toimittajan numero.
@@ -52,7 +52,7 @@ Koska ostorivin alennukset ja ostohinnat perustuvat nimikkeen ja toimittajan yhd
 ## <a name="to-set-up-an-invoice-discount-for-a-vendor"></a>Laskualennuksen määrittäminen toimittajalle
 Kun toimittajat ovat kertoneet sinulle myöntämänsä laskualennukset, syötä laskun alennuskoodi toimittajien kortteihin ja määritä kunkin koodin ehdot.
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Toimittajat** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Toimittajat** ja valitse sitten liittyvä linkki.
 2. Avaa sen toimittajan kortti, jolle myönnetään laskun alennuksia.
 3. Valitse **Laskualennuksen koodi** -kentässä asianmukaisille laskualennuksen ehdoille koodi, jonka avulla toimittajan laskualennukset lasketaan.
 
@@ -73,7 +73,7 @@ Kun kirjaat ostolaskun, joka sisältää yhden tai useamman alennuksen, voit val
 
 Ennen kuin voit tehdä tämän, sinun on täytynyt määrittää tarpeelliset tilit alennussummien kirjaamiseksi tilikartassa. Tarkista myös, että olet syöttänyt oikeat tilinumerot yleisiin kirjauksien asetuksiin **Oston rivialennustili** ja **Oston laskualennustili** -kentissä.
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Ostojen ostovelkojen asetukset** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostojen ja ostovelkojen asetukset** ja valitse sitten liittyvä linkki.
 2. Valitse **Alennuksen kirjaus** -kentässä jokin seuraavista alennusten kirjausperiaatteista.
 
 |**Alennuksen kirjauksen periaate**|**Laskualennus**|**Rivialennus**|  

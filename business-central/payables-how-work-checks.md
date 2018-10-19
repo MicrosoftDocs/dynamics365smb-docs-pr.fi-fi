@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 06/06/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
-ms.openlocfilehash: bcd0e21bc40b63c99f37618ae3406395b3c31b10
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 572831f99559a65c490dcb93e13fba3bdfc57688
 ms.contentlocale: fi-fi
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="make-check-payments"></a>Sekkimaksujen suorittaminen
@@ -37,7 +37,7 @@ Voit tulostaa sivulle enintään 10 laskua sekin talonkia kohti. Jos sekki koske
 ## <a name="to-pay-a-vendor-invoice-with-a-computer-check"></a>Maksaaksesi toimittajalaskun tietokonesekillä
 Seuraavassa kuvataan, miten toimittajalle maksetaan sekillä. Vaiheet ovat samankaltaiset kuin hyvitettäessä asiakkaalle sekkimaksuna.
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Maksupäiväkirjat** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maksupäiväkirjat** ja valitse sitten liittyvä linkki.
 2. Täytä maksupäiväkirjan rivit. Lisätietoja on ohjeaiheessa [Maksujen ja hyvitysten kirjaaminen](payables-how-post-payments-refunds.md).
 3. Valitse **Maksutavan koodi** -kentässä **Sekki**.
 4. Valitse **Pankkimaksun tyyppi** -kentässä **Tietokonesekki**.
@@ -61,7 +61,7 @@ Voit peruuttaa kirjaamattomat sekit niiden tulostamisen jälkeen **Maksupäiväk
 ## <a name="to-void-checks"></a>Sekkien mitätöiminen
 Kun sekkimaksu on kirjattu, voit peruuttaa (mitätöidä) sekit vain tuloksena syntyvistä pankkitapahtumista.
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Pankkitilit** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pankkitilit** ja valitse sitten liittyvä linkki.
 2. Valitse oikea pankkitili, valitse **Muokkaa**-toiminto ja valitse sitten **Sekkitapahtumat**-toiminto.
 3. Valitse **Sekkitapahtumat**-ikkunassa **Mitätöi sekki** -toiminto.
 4. Valitse **Mitätöi vain sekki** -valintaruutu.
@@ -69,7 +69,7 @@ Kun sekkimaksu on kirjattu, voit peruuttaa (mitätöidä) sekit vain tuloksena s
 
 ## <a name="to-view-a-summary-of-posted-checks"></a>Voit tarkastella kirjattujen sekkien yhteenvetoa
 Jos haluat tarkistaa kirjatuttuja sekkejä, esimerkiksi yhdelle toimittajalle maksetut useat sekit, voit käyttää **Pankkitili – sekin tiedot** -raporttia.
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Pankkitili – sekin tiedot** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pankkitili - Sekin tiedot** ja valitse sitten liittyvä linkki.
 2. Aseta haluamasi suodattimet ja valitse sitten **Esikatselu**-painike.
 
 ## <a name="see-also"></a>Katso myös

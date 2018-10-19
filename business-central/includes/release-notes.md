@@ -1,8 +1,5 @@
 > [!IMPORTANT]
-> **Dynamics 365 – huhtikuun 2018 julkaisutiedot**
 >
-> Haluatko tietoja tulevista ja juuri julkaistuista yrityssovellustemme tai ympäristömme ominaisuuksista?
+> Haluatko tietoja tulevista ja juuri julkaistuista Dynamics 365 Business Central -sovelluksen ominaisuuksista?
 >
-> [Lataa huhtikuun 2018 julkaisutiedot](https://go.microsoft.com/fwlink/?linkid=870424). Olemme koonneet kaikki tarvittavat tiedot yhteen PDF-tiedostoon, jota voit käyttää suunnittelun apuna.  
->
-> **Tulossa pian**: Päivitämme julkaisutietojen PDF-tiedostoa sitä mukaa kuin ominaisuuksia julkaistaan ja tiedot löytyvät myös verkkosivuiltamme. 
+> [Tutustu julkaisutietojen uusimpaan versioon](https://docs.microsoft.com/en-us/business-applications-release-notes/october18/dynamics365-business-central/). Se sisältää kaikki tiedot. Julkaisutiedot löytyvät jopa yhtenä PDF-tiedostona, jota voi käyttää apuna suunnittelussa.  

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/21/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 54f554e2e0acf657fdf77caa863ff4e028734418
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ebd644745ed7d914bdccfe59ecc3924ed1b542a5
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="ship-items"></a>Nimikkeiden toimittamimen
@@ -29,7 +29,7 @@ Kun toimitat nimikkeitä fyysisestä varastosta, johon määritetty toimituksen 
 
 ## <a name="to-ship-items-with-a-sales-order"></a>Nimikkeiden toimittaminen myyntitilauksella
 Seuraavaksi käsitellään, miten nimikkeitä vastaanotetaan ostotilauksella. Vaiheet ovat samankaltaiset ostopalautustilaukset, huoltotilauksille ja lähtevät siirtotilauksille.  
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Myyntitilaukset** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten liittyvä linkki.
 2. Avaa aiemmin luotu myyntitilaus tai luo uusi myyntitilaus. Lisätietoja on kohdassa [Tuotteiden myyminen](sales-how-sell-products.md).
 3. Anna **Toimitettava määrä** -kenttään vastaanotettu määrä.
 
@@ -41,7 +41,7 @@ Luo ensin toimitusasiakirjan lähdeasiakirjasta. Poimi sitten toimitukseen mää
 
 ### <a name="to-create-a-warehouse-shipment"></a>Fyysisen varaston toimituksen luominen
 Yleensä toimituksesta vastaava työntekijä luo fyysisen varastoinnin toimituksen.
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Fyysisen varaston toimitukset** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Fyysisen varaston toimitukset** ja valitse sitten liittyvä linkki.  
 2.  Valitse **Uusi**-toiminto.  
 
     Täytä **Yleinen**-pikavälilehden kentät. Kun haet lähdeasiakirjan rivit, ohjelma kopioi otsikon tiedot kullekin riville.  
@@ -74,12 +74,12 @@ Kun olet hakenut rivit, jotka haluat toimittaa, aloita seuraavassa kuvatulla tav
 
 ### <a name="to-pick-and-ship"></a>Poiminta ja lähettäminen
 Yleensä poiminnasta vastuussa oleva varastotyöntekijä luo poiminta-asiakirjan tai avaa jo luodun poiminta-asiakirjan.
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Fyysisen varaston toimitukset** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Fyysisen varaston toimitukset** ja valitse sitten liittyvä linkki.
 2. Valitse ensin poimittava fyysisen varastoinnin toimitus ja sitten **Luo poiminta** -toiminto.
 3. Täytä pyyntöikkunan kentät ja valitse sitten **OK**. Määritetty fyysisen varastoinnin poiminta-asiakirja luodaan.
 
     Vaihtoehtoisesti voit avata aiemmin luodun fyysisen varaston poiminnan.
-4. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Poiminnat** ja valitse sitten aiheeseen liittyvä linkki. Valitse varastoinnin poiminta, jota haluat työstää.
+4. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poiminnat** ja valitse sitten liittyvä linkki. Valitse varastoinnin poiminta, jota haluat työstää.
 
     Jos fyysisessä varastoinnissa käytetään varastopaikkoja, poimintarivit on muunnettu "ota ja aseta" -toimintoriveiksi.
 

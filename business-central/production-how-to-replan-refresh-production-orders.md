@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 356c8e6d87fd54be3be376ec4320d3a9aa26d834
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 605de1d0acbbe345c3568fd4328d3e649feaef9f
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="replan-or-refresh-production-orders-directly"></a>Tuotantotilausten suora uudelleensuunnittelu tai päivittäminen
@@ -35,7 +35,7 @@ Tuotantotilausrivit voidaan syöttää joko manuaalisesti tai voidaan käyttää
 > Jos päivitystoimintoa käytetään laskemaan tuotantotilausrivit uudelleen, ohjelma poistaa vanhat tuotantotilausrivit ja laskee uudet rivit.  
 
 ## <a name="to-replan-a-production-order"></a>Tuotantotilauksen uudelleensuunnittelu  
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Sitovasti suunn. tuotantotil.** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sitovasti suun. tuotantotil.** ja valitse sitten liittyvä linkki.  
 2.  Avaa uudelleensuunniteltava tuotantotilausrivi.  
 3.  Valitse **Rivit**-pikavälilehdessä ensin **Rivit**-toiminto ja sitten **Komponentit**-toiminto.  
 4.  Lisää komponentti, joka on tuotantonimeke (osakokoonpano).  
@@ -65,7 +65,7 @@ Tuotantotilausrivit voidaan syöttää joko manuaalisesti tai voidaan käyttää
 ## <a name="to-refresh-a-production-order"></a>Tuotantotilauksen päivittäminen  
 Jos olet muuttanut tuotantotilausrivejä, komponentteja tai reititysrivejä, myös tuotantotilauksen tiedot on päivitettävä. Seuraavassa toimenpiteessä komponentit lasketaan sitovasti suunnitellulle tuotantotilaukselle. Reititysrivejä koskevat vaiheet ovat samanlaisia.
 
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Sitovasti suun. tuotantotil.** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sitovasti suun. tuotantotil.** ja valitse sitten liittyvä linkki.  
 2.  Valitse **Uusi**-toiminto. Lisätietoja on kohdassa [Tuotantotilausten luominen](production-how-to-create-production-orders.md).  
 3.  Valitse **Päivitä**-toiminto.
 4. Valitse **Päivitä tuotantotilaus** -ikkunassa jokin seuraavista vaihtoehdoista:

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9424a8ba632cf43628ad37dce963e3f1641e593d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 24ca91f224a198ec462081ced06ddfe0e9db6cf4
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Kassavirta-analyysin määrittäminen
@@ -30,7 +30,7 @@ Jos tarvitset apua käteisvarojen käytöstä päättämiseen, tutustu Kirjanpit
 Tässä ohjeaiheessa kerrotaan, mistä kaavioiden tiedot saadaan ja (tarvittaessa) miten kaavioiden käyttö aloitetaan.  
 
 ## <a name="the-cash-cycle-and-income--expense-charts"></a>Käyttöpääomasykli- ja Tulot ja kulut -kaaviot
-Tilikarttaan ja KP-raporttimalleihin perustuvat **Käyttöpääomasykli**- ja **Tulot ja kulut** -kaaviot ovat käyttövalmiita. Tilit, joista tiedot haetaan, ja KP-raporttimalli laskevat myynnin ja saamisten välisen suhteen. Valmiina on joitakin tilejä ja KP-raporttimalleja. Voit käyttää niitä sellaisenaan, muuttaa niitä ja lisää uusia. Jos lisäät KP-tilejä tilikarttaan esimerkiksi tuomalla ne QuickBooksista, sinun yhdistettävä ne tileihin seuraavan nimisten KP-raporttimallien **KP-raporttimallit**-sivulla:  
+Tilikarttaan ja KP-raporttimalleihin perustuvat **Käyttöpääomasykli**- ja **Tulot ja kulut** -kaaviot ovat käyttövalmiita. Tilit, joista tiedot haetaan, ja KP-raporttimalli laskevat myynnin ja saamisten välisen suhteen. Valmiina on joitakin tilejä ja KP-raporttimalleja. Voit käyttää niitä sellaisenaan, muuttaa niitä ja lisää uusia. Jos lisäät KP-tilejä tilikarttaan esimerkiksi tuomalla ne QuickBooksista, sinun yhdistettävä ne tileihin seuraavan nimisten KP-raporttimallien **KP-raporttimallit**-ikkunassa:  
 
 | KP-raporttimallin nimi | Käyttökohde |
 | --- | --- |
@@ -67,14 +67,14 @@ Voit käyttää avustettua asennusopasta seuraavissa toiminnoissa:
 
 1. Valitse Kirjanpitäjä-roolikeskuksen **Kassavirtaennuste**-kaaviossa **Avaa avustettu määritys** -toiminto.  
 2. Täytä kentät oppaan kussakin vaiheessa.  
-3. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Kassavirtaennuste** ja valitse sitten aiheeseen liittyvä linkki.
+3. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kassavirtaennuste** ja valitse sitten liittyvä linkki.
 4. Valitse **Kassavirtaennuste**-ikkunassa **Laske ennuste uudelleen** -toiminto.  
 
 Voit käyttää manuaalista prosessia seuraavasti:  
 
 1. Etsi Kirjanpitäjä-roolikeskuksessa **Kassavirran asetukset** ja valitse sitten vastaava linkki.  
 2. Laajenna **Cortana Intelligence**-pikavälilehti ja valitse sitten **Cortana Intelligence käytössä** -valintaruutu.  
-3. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Kassavirtaennuste** ja valitse sitten aiheeseen liittyvä linkki.
+3. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kassavirtaennuste** ja valitse sitten liittyvä linkki.
 4. Valitse **Kassavirtaennuste**-ikkunassa **Laske ennuste uudelleen** -toiminto.  
 
 > [!TIP]  
@@ -88,7 +88,7 @@ Voit myös luoda oman ennakoivan verkkopalvelun **Microsoft Business Central -so
 3. Kirjaudu työtilaan Microsoft-tilin avulla ja kopioi malli.  
 4. Aja malli ja julkaise se verkkopalveluna.  
 5. Kirjoita API:n URL-osoite ja API-avain muistiin. Näitä tunnistetietoja käytetään kassavirran asetuksissa.  
-6. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Kassavirran asetukset** ja valitse sitten aiheeseen liittyvä linkki.  
+6. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kassavirran asetukset** ja valitse sitten liittyvä linkki.  
 7. Laajenna **Cortana Intelligence** -pikavälilehti ja täytä sitten kentät.  
 
 ## <a name="see-also"></a>Katso myös

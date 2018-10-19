@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/18/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: b191b5e8fbe0a60a32d32bd2dc1ca0cca07c06e4
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 75f0fd760978b0efc4ab86b8d17a815280a09799
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="service-posting"></a>Huollon kirjaus
@@ -49,7 +49,7 @@ Kun kirjaat huoltolaskun, huoltotoimituksen tai huollon hyvityslaskun, asiakirja
 
 Seuraavassa ohjeessa käytetään esimerkkinä kirjattua huoltolaskua, mutta samaa menettelyä voidaan käyttää kirjattuihin toimituksiin sekä palvelu- ja hyvityslaskuihin.  
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Kirjattu huoltolasku** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kirjattu huoltolasku** ja valitse sitten liittyvä linkki.  
 2. Avaa kirjattu huoltolasku, jonka haluat nähdä.  
 3. Valitse **Tilastot**-toiminto, jos haluat yleiskuvan kirjatusta laskusta.  
 

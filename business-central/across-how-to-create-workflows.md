@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: cab6546e152ad91c1b3264fa8bd10c0fd668636d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 9c442957947b2c7a0abc730db824ddbcb29708d6
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-workflows"></a>Työnkulkujen luominen
@@ -29,10 +29,10 @@ Kun luot työnkulkuja, voit kopioida vaiheet aiemmin luoduista työnkuluista tai
 Jos liiketoimintaskenaario edellyttää työnkulun tapahtumia tai vastauksia, joita ei ole tuettu, Microsoft-kumppanin on toteutettava se mukauttamalla sovelluksen koodia.  
   
 > [!NOTE]  
->  Kaikki työnkulun osavaiheiden ilmoitukset lähetetään työjonon kautta. Varmista, että asennuksen työjono on määritetty käsittelemään työnkulun ilmoituksia ja **Käynnistä automaattisesti NAS:stä** -valintaruutu on valittuna. Lisätietoja on kohdassa [Käytä työjonoja ajoitustehtäviin](admin-job-queues-schedule-tasks.md).  
+>  Kaikki työnkulun osavaiheiden ilmoitukset lähetetään työjonon kautta. Varmista, että asennuksen työjono on määritetty käsittelemään työnkulun ilmoituksia ja **Käynnistä automaattisesti NAS:stä** -valintaruutu on valittuna. Lisätietoja on kohdassa [Tehtävien aikatauluttaminen työjonojen avulla](admin-job-queues-schedule-tasks.md).  
 
 ## <a name="to-create-a-workflow"></a>Työnkulun luominen  
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Työnkulut** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Työnkulut** ja valitse sitten liittyvä linkki.  
 2. Valitse **Uusi**-toiminto. **Työnkulku**-ikkuna avautuu.  
 3. Syötä **Koodi**-kenttään enintään 20 merkkiä pitkä työnkulun tunniste.  
 4. Voit luoda työnkulun työnkulkumallista valitsemalla **Työnkulut**-ikkunassa **Luo työnkulku mallista** -toiminnon. Lisätietoja on kohdassa [Työnkulkujen luominen työnkulkumalleista](across-how-to-create-workflows-from-workflow-templates.md).  
@@ -91,7 +91,7 @@ Jos liiketoimintaskenaario edellyttää työnkulun tapahtumia tai vastauksia, jo
 >  Älä ota työnkulkua käyttöön, ennen kuin olet varma, että työnkulku on valmis ja siihen liittyvät osavaiheet voi aloittaa.  
 
 > [!TIP]  
->  Voit tarkastella työnkulussa käytettävien taulukoiden väliset suhteet valitsemalla ![Esti sivu tai raportti](media/ui-search/search_small.png "Esti sivu tai raportti -kuvake") -kuvake ja kirjoittamalla sitten **Työnkulku – taulukon suhteet**.  
+>  Jos haluat nähdä työnkulussa käytettävien taulukoiden väliset suhteet, valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake ja syötä **Työnkulku - taulukon suhteet**.  
 
 ## <a name="see-also"></a>Katso myös  
 [Työnkulkujen luominen työnkulkumalleista](across-how-to-create-workflows-from-workflow-templates.md)   

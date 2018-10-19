@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: direct shipment
-ms.date: 01/25/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4840cde44374f17dcbd2befb167bfdf6110fe6fe
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0fc9fee94f06b2452fa38a0a754f054a0ed16a0d
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="make-drop-shipments"></a>Suoratoimitusten tekeminen
@@ -49,14 +49,15 @@ Voit ohjeistaa toimittajaa toimittamaan nimikkeet asiakkaalle esimerkiksi lähet
 ## <a name="to-post-a-drop-shipment"></a>Kirjaa suoratoimitus
 Kun toimittaja toimittaa nimikkeet, voit kirjata myyntitilauksen toimitetuksi. Voit kirjata myös ostotilauksen, mutta vain **Vastaanotto**-vaihtoehdon kanssa niin kauan, kunnes myyntitilaus on laskutettu.
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Myyntitilaukset** ja valitse sitten aiheeseen liittyvä linkki.
-2. Avaa "Myyntitilauksen luominen suoratoimitukselle" -osassa luomasi myyntitilaus.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten liittyvä linkki.
+2. Avaa Myyntitilauksen luominen suoratoimitukselle -osassa luomasi myyntitilaus.
 3. Määritä **Toimitettava määrä** -kentässä toimitettava tilausmäärä, joka voi olla koko tai osittainen tilausmäärä.
 4. Valitse **Kirjaa**- tai **Kirjaa ja lähetä** -toiminto.
 5. Valitse **Toimitus**-vaihtoehto, kun haluat laskuttaa myöhemmin, tai **Toimitus ja lasku** -vaihtoehto, kun haluat laskuttaa heti.
 
 ## <a name="see-also"></a>Katso myös
-[Erikoistilausten luominen](sales-how-to-create-special-orders.md)|  
+[Erikoistilausten luominen](sales-how-to-create-special-orders.md)  
+[Nimikkeiden ostaminen myyntiin](purchasing-how-purchase-products-sale.md)  
 [Tuotteiden myyminen](sales-how-sell-products.md)  
 [Ostojen kirjaus](purchasing-how-record-purchases.md)  
 [Myynti](sales-manage-sales.md)  

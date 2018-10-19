@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/16/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7aa7cd50e7670998962acf8c33bfef8755e7b354
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 012e050722f97d43a8ee59fde2566969245e4ca9
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="find-your-warehouse-assignments"></a>Fyysisen varaston varausten etsiminen
 Etsi fyysisen varaston varaukset avaamalla valitun nimikkeen kortin ikkuna. Jos fyysisen varastoinnin ohjeita on luotu, Ota- ja Aseta-rivit ovat näkyvillä ja voit alkaa käsitellä tehtävää. Joissakin varastoissa esimies on voinut määrittää erityisiä ohjeita kullekin työntekijälle. Lisätietoja on kohdassa [Varastotyöntekijöiden määrittäminen](warehouse-how-to-set-up-warehouse-employees.md).
 
 ## <a name="to-find-an-instruction-assigned-to-you"></a>Sinulle määritellyn ohjeen etsiminen  
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Fyysisen varaston hyllytykset**, **Fyysisen varaston poiminnat** tai **F. var. siirto** ja valitse sitten aiheeseen liittyvä linkki.
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Fyysisen varaston hyllytykset**, **Fyysisen varaston keräilyt** tai **Fyysisen varaston siirto** ja valitse liittyvä linkki.
 
     Kaikkien fyysisten varastosijaintien määritykset näkyvät näissä kolmessa ikkunassa.  
 

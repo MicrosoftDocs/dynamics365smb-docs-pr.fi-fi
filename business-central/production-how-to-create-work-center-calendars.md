@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/14/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a22dc01284fc0edca46d1f733f0bef83e61adbde
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: d45b76e137dd2e8da752be489d16ac536da265e1
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-shop-calendars"></a>Tuotantokalentereiden määrittäminen
@@ -27,7 +27,7 @@ Tuotantosolun tai kuormituskeskuksen kalenterin laskemisen perustaksi on ensin m
 Seuraavaksi käsitellään tuotantosolun kalenterien määrittämistä. Kuormitusryhmän kalenterit määritetään vastaavasti.  
 
 ## <a name="to-create-work-shifts"></a>Työvuorojen luominen  
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Työvuorot** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Työvuorot** ja valitse sitten liittyvä linkki.  
 2.  Anna tyhjälle riville **Koodi**-kenttään numero työvuoron tunnisteeksi (esimerkiksi **1**).  
 3.  Kirjoita työvuoron kuvaus **Kuvaus**-kenttään, esimerkiksi **1. vuoro**.  
 4.  Voit täyttää myös toisen tai kolmannen työvuoron rivit.  
@@ -35,7 +35,7 @@ Seuraavaksi käsitellään tuotantosolun kalenterien määrittämistä. Kuormitu
 Vaikka tuotantosolussa ei työskenneltäisi eri vuoroissa, syötä ainakin yksi työvuoron koodin.  
 
 ## <a name="to-set-up-a-shop-calendar"></a>Tuotantokalenterin määrittäminen  
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Tuotantokalenterit** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tuotantokalenterit** ja valitse sitten liittyvä linkki.  
 2.  Anna tyhjälle riville **Koodi**-kenttään numero tuotantokalenterin tunnisteeksi (esimerkiksi 1).  
 3.  Kirjoita tuotantokalenterin kuvaus **Kuvaus**-kenttään.  
 4.  Valitse **Työpäivät**-toiminto.
@@ -70,7 +70,7 @@ Tuotantokalenteri voidaan nyt liittää tuotantosoluun, ja tuotantosolun kalente
 
 ## <a name="to-calculate-a-work-center-calendar"></a>Tuotantosolun kalenterin laskeminen  
 
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Tuotantosolut** ja valitse sitten aiheeseen liittyvä linkki.
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Työkeskukset** ja valitse sitten liittyvä linkki.
 2. Avaa tuotantosolu, jonka haluat päivittää.  
 3. Valitse **Tuotantokalenterin koodi** -kentässä, mitä tuotantokalenteria käytetään tuotantosolun kalenterin pohjana.  
 4. Valitse **Kalenteri**-toiminto.  

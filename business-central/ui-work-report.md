@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report
-ms.date: 07/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
-ms.openlocfilehash: 560760b1f895ed69c2e7fd80ccf451763e87d19b
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ceccc02c841044803337ac53f378451d8f315484
 ms.contentlocale: fi-fi
-ms.lasthandoff: 08/06/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="working-with-reports"></a>Raporttien käsittely
-Raportti kerää tietoja määritettyjen ehtojen perusteella. Tiedot järjestetään raporttiin helposti luettavassa ja tulostettavassa muodossa. Sovelluksesta voi käyttää monenlaisia raportteja. Raporteissa on yleensä avattuna olevan sivun sisältöön liittyviä tietoja. Esimerkiksi **Asiakas**-sivun raportit koskevat 10 suurinta asiakasta, myyntitilastoja jne.
+Raportti kerää tietoja määritettyjen ehtojen perusteella. Tiedot järjestetään raporttiin helposti luettavassa ja tulostettavassa muodossa. Sovelluksesta voi käyttää monenlaisia raportteja. Raporteissa on yleensä avattuna olevan sivun sisältöön liittyviä tietoja. Esimerkiksi **Asiakas**-ikkunan raportit koskevat 10 suurinta asiakasta, myyntitilastoja jne.
 
-Voit etsiä raportteja **Raportteja** -välilehdeltä valituilta sivuilta tai voit käyttää hakua ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") etsiäksesi raportteja nimen perusteella.
+Voit etsiä raportteja valittujen sivujen **Raportit**-välilehdessä tai käyttää ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") hakua, kun haluat etsiä raportteja nimen mukaan.
 
 
 ## <a name="specifying-the-data-to-include-in-the-report"></a>Määrittää raporttiin sisällytettävät tiedot

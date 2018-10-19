@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank file export, re-export, bank transfer, AMC, bank data conversion service, funds transfer
-ms.date: 04/26/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: db28ad9a4adb45514b1d1287d269d8daefe64865
-ms.openlocfilehash: 68a35c3bbedd0d0f09a9e43269260e98dfa02a59
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 456b7bcad13972943ad130f505b29a926ccaf221
 ms.contentlocale: fi-fi
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="export-payments-to-a-bank-file"></a>Maksujen vienti pankkitiedostoon
@@ -30,7 +30,7 @@ Voit tarkastella maksupäiväkirjasta vietyjä maksutiedostoja **Hyvityksen siir
 ## <a name="to-export-payments-to-a-bank-file"></a>Maksujen vienti pankkitiedostoon
 Seuraavassa kuvataan, miten toimittajalle maksetaan sekillä. Vaiheet ovat samankaltaiset kuin hyvitettäessä asiakkaalle sekkimaksuna.
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Maksupäiväkirjat** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maksupäiväkirjat** ja valitse sitten liittyvä linkki.
 2. Täytä maksupäiväkirjan rivit. Lisätietoja on ohjeaiheessa [Maksujen ja hyvitysten kirjaaminen](payables-how-post-payments-refunds.md).
 
 > [!NOTE]  
@@ -72,7 +72,7 @@ Voit viedä maksutiedostot uudelleen **Hyvityksen siirron rekisterit** -ikkunast
 > [!NOTE]  
 >   Viedyt sähköiset rahansiirtotiedostot eivät näy **Hyvityksen siirron rekisterit** -ikkunassa eikä niitä voi viedä uudelleen.
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Hyvityksen siirron rekisterit** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Hyvityksen siirron rekisterit** ja valitse sitten liittyvä linkki.
 2. Valitse ensin uudelleenvietävä maksun vienti ja sitten **Vie maksut uudelleen tiedostoon** -toiminto.
 
 ## <a name="see-also"></a>Katso myös

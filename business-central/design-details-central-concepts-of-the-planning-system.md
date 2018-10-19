@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 11/14/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e8eca3562639c864cb514b71c070d0fca4128d79
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e7b5bb42d17791b699bced46b027c43104029ef4
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Rakennetiedot: suunnittelujärjestelmän keskeiset käsitteet
 Suunnittelutoiminnot on sisällytetty eräajoon, joka ensin valitsee asiaankuuluvat nimikkeet ja ajanjaksot, jotka suunnitellaan. Eräajo kutsuu koodiyksikköä kunkin nimikkeen alatason koodin (tuotantorakenteen positio) mukaisesti ja laskee suunnitelman täsmäyttämällä tarjonta- ja kysyntäjoukot ja ehdottaa käyttäjälle mahdollisia toimintatapoja. Ehdotetut toimenpiteet ilmestyvät riveinä suunnittelutaulukkoon tai tilaustaulukkoon.  
 
-![Suunnittelutyökirja](media/NAV_APP_supply_planning_1_planning_worksheet.png "NAV_APP_supply_planning_1_planning_worksheet")  
+![Suunnittelutyökirja-ikkunan sisältö](media/NAV_APP_supply_planning_1_planning_worksheet.png "Suunnittelutyökirja-ikkunan sisältö")  
 
 Yrityksen suunnittelijan, kuten ostaja tai tuotantosuunnittelija, oletetaan olevan suunnittelujärjestelmän käyttäjä. Suunnittelujärjestelmä auttaa käyttäjää suorittamaan laajat, mutta melko suoraviivaiset suunnitelman laskelmat. Tämän jälkeen käyttäjä voi keskittyä ratkaisemaan vaikeampia ongelmia, kuten esimerkiksi poikkeustilanteiden hallintaa.  
 
@@ -57,7 +57,7 @@ Esimerkiksi, jos käyttäjä syöttää tai muuttaa myyntitilausta, dynaaminen t
 
 Näin ollen dynaamista tilausten seurantaa voidaan pitää työkaluna, joka auttaa käyttäjää arvioimaan tilausehdotusten hyväksymistä. Tarjontapuolelta käyttäjä voi nähdä, että mikä kysyntä on luonut tarjonnan ja kysyntäpuolelta, minkä tarjonnan tulisi kattaa kysyntä.  
 
-![](media/NAV_APP_supply_planning_1_dynamic_order_tracking.png "NAV_APP_supply_planning_1_dynamic_order_tracking")  
+![Esimerkki dynaamisesta tilausten seurannasta](media/NAV_APP_supply_planning_1_dynamic_order_tracking.png "Esimerkki dynaamisesta tilausten seurannasta")  
 
 Lisätietoja on kohdassa [Rakennetiedot: varaus, tilauksen seuranta ja toimenpiteiden viestitys](design-details-reservation-order-tracking-and-action-messaging.md).  
 
@@ -70,11 +70,11 @@ Suunnittelujärjestelmä käsittelee nimikkeen koko kysyntä- ja tarjontamallin 
 
 Dynaaminen tilausseuranta luo kysynnän ja tarjonnan väliset linkit tietojen kirjoituksen aikana saapumisjärjestyksen perusteella. Tämän vuoksi prioriteetit saattavat muuttua. Esimerkiksi ensin kirjoitettu myyntitilaus, jonka eräpäivä on seuraavassa kuussa, saatetaan linkittää varaston tarjontaan, kun taas seuraava huomenna erääntyvä myyntitilaus voi aiheuttaa toimenpideviestin uuden ostotilauksen luomiseksi, kuten alla on esitetty.  
 
-![](media/NAV_APP_supply_planning_1_dynamic_order_tracking_graph.png "NAV_APP_supply_planning_1_dynamic_order_tracking_graph")  
+![Esimerkki tilausten seurannasta toimitusten suunnittelussa 1](media/NAV_APP_supply_planning_1_dynamic_order_tracking_graph.png "Esimerkki tilausten seurannasta toimitusten suunnittelussa 1")  
 
 Sen sijaan suunnittelujärjestelmä käsittelee tietyn nimikkeen kaiken kysynnän ja tarjonnan priorisoidussa järjestyksessä eräpäivien ja tilaustyyppien mukaan eli tarpeen/saapumisjärjestyksen perusteella. Se poistaa kaikki dynaamisesti luodut tilauksen seurantalinkit ja luo ne uudelleen eräpäivän prioriteetin mukaisesti. Kun suunnittelujärjestelmän käyttö lopetetaan, se on ratkaissut kysynnän ja tarjonnan välisen epätasapainon. Tämä osoitetaan myös alla olevassa kuvassa.  
 
-![](media/NAV_APP_supply_planning_1_planning_graph.png "NAV_APP_supply_planning_1_planning_graph")  
+![Esimerkki tilausten seurannasta toimitusten suunnittelussa 2](media/NAV_APP_supply_planning_1_planning_graph.png "Esimerkki tilausten seurannasta toimitusten suunnittelussa 2")  
 
 Suunnitteluajon jälkeen Toimenpideviestitapahtuma-taulukossa ei ole toimenpideviestejä, koska ne on korvattu suunnittelutyökirjassa ehdotetuilla toimenpiteillä  
 
@@ -88,7 +88,7 @@ Laskentajärjestys on tärkeä suunnitelman muodostuksessa, koska sen avulla ty�
 ### <a name="item-priority--low-level-code"></a>Nimikkeen prioriteetti/alatason koodi  
 Valmistusympäristössä valmiiden, myytävien nimikkeiden kysyntä aiheuttaa valmiin nimikkeen koostavien komponenttien johdettua kysyntää. Materiaalilasku-rakenne kontrolloi osan rakennetta ja voi kattaa useita puolivalmiiden nimikkeiden tasoja. Yhden nimikkeen suunnittelu yhdellä tasolla aiheuttaa epäsuoran kysynnän seuraavan tason komponenteille ja niin edelleen. Lopulta tämä johtaa ostettujen nimikkeiden epäsuoraan kysyntään. Näin ollen suunnittelujärjestelmä suunnittelee nimikkeille niiden tuoterakenteen hierarkian luokituksen määräämässä järjestyksessä alkaen loppuneista myytävissä olevista nimikkeistä ylätasolla ja jatkuen alas tuoterakenteen läpi alemman tason nimikkeisiin (alatason koodin mukaisesti).  
 
-![](media/NAV_APP_supply_planning_1_BOM_planning.png "NAV_APP_supply_planning_1_BOM_planning")  
+![Tuoterakenteen suunnittelu](media/NAV_APP_supply_planning_1_BOM_planning.png "Tuoterakenteen suunnittelu")  
 
 Luvut osoittavat missä järjestyksessä järjestelmä tekee ehdotuksia toimitustilauksiin huipputasolla ja olettaen, että käyttäjä hyväksyy nämä ehdotukset, missä tahansa alemman tason nimikkeissä myös.  
 
@@ -101,7 +101,7 @@ Tätä tuetaan varastointiyksiköiden käytön kanssa silloin, kun yksittäisen 
 
 Periaatteessa mikä tahansa nimike voidaan käsitellä missä tahansa sijainnissa mutta ohjelman suhtautuminen sijaintikäsitteeseen on melko tarkka. Esimerkiksi myyntitilausta yhdessä sijainnissa ei voida täyttää jollakin toisessa sijainnissa olevalla varastomäärällä. Varaston määrä tulee ensin siirtää myyntitilauksessa määritettyyn sijaintiin.  
 
-![](media/NAV_APP_supply_planning_1_SKU_planning.png "NAV_APP_supply_planning_1_SKU_planning")  
+![Varastointiyksiköiden suunnittelu](media/NAV_APP_supply_planning_1_SKU_planning.png "Varastointiyksiköiden suunnittelu")  
 
 Lisätietoja on kohdassa [Rakennetiedot: siirrot suunnittelussa](design-details-transfers-in-planning.md).  
 
@@ -110,10 +110,10 @@ Pyydetty tai käytettävissä oleva päivämäärä edustaa annetun varastointiy
 
 Lisätietoja on ohjeaiheessa [Rakennetiedot: tilausten priorisointi](design-details-prioritizing-orders.md).  
 
-## <a name="production-forecasts-and-blanket-orders"></a>Tuotantoennusteet ja puitetilaukset  
+## <a name="demand-forecasts-and-blanket-orders"></a>Kysyntäennusteet ja puitetilaukset  
 Sekä ennustukset ja puitetilaukset esittävät odotettavissa olevaa kysyntää. Kestotilaus, joka kattaa asiakkaan suunnitellut ostot tietyltä aikajaksolta, vähentää yleisennusteen epävarmuutta. Kestotilaus on asiakkaan määrittämä ennuste määrittämättömien ennusteiden lisäksi, kuten kuvattu alla.  
 
-![](media/NAV_APP_supply_planning_1_forecast_and_blanket.png "NAV_APP_supply_planning_1_forecast_and_blanket")  
+![Suunnittelu ennusteiden avulla](media/NAV_APP_supply_planning_1_forecast_and_blanket.png "Suunnittelu ennusteiden avulla")  
 
 Lisätietoja on kohdan [Rakennetiedot: varastoprofiilien lataaminen](design-details-loading-the-inventory-profiles.md) osassa Myyntitilaukset vähentävät ennustettua kysyntää.  
 
@@ -202,7 +202,7 @@ Suunnittelujärjestelmä sisällyttää kuitenkin edelleen varatut määrät suu
 
 Seuraavassa kuvassa esitetään, kuinka varaukset voivat estää kaikista todennäköisimmän suunnitelman.  
 
-![](media/NAV_APP_supply_planning_1_reservations.png "NAV_APP_supply_planning_1_reservations")  
+![Suunnittelu varausten avulla](media/NAV_APP_supply_planning_1_reservations.png "Suunnittelu varausten avulla")  
 
 Lisätietoja on kohdassa [Rakennetiedot: varaus, tilauksen seuranta ja toimenpiteiden viestitys](design-details-reservation-order-tracking-and-action-messaging.md).  
 
@@ -217,7 +217,7 @@ Varoituksen tiedot näytetään **Ei-seuratut suunnitteluelementit** -ikkunassa,
 -   Poikkeus  
 -   Huomautus  
 
-![](media/NAV_APP_supply_planning_1_warnings.png "NAV_APP_supply_planning_1_warnings")  
+![Suunnittelutyökirjan varoitukset](media/NAV_APP_supply_planning_1_warnings.png "Suunnittelutyökirjan varoitukset")  
 
 ### <a name="emergency"></a>Hätä  
 Hätä-varoitus tulee näkyviin kahdessa tilanteessa:  
@@ -254,7 +254,7 @@ Laske suunnitelma -pyyntösivulla käyttäjä voi valita **Pysäytä ja Näytä 
 
 Jos kenttää ei ole valittu, Laske suunnitelma -eräajo jatkaa suoritusta loppuun asti. Virheet eivät keskeytä eräajoa. Jos virheitä ilmenee, ohjelma tuo eräajon jälkeen näkyviin sanoman, jossa ilmoitetaan kuinka useaan nimikkeeseen virheet vaikuttavat. Tämän jälkeen avautuu **Suunnittelun virheloki** -ikkuna, jossa on lisätietoja virheestä ja linkit vaikutusalueeseen kuuluviin asiakirjoihin tai asetuskortteihin.  
 
-![](media/NAV_APP_supply_planning_1_error_log.png "NAV_APP_supply_planning_1_error_log")  
+![Suunnittelutyökirjan virhesanomat](media/NAV_APP_supply_planning_1_error_log.png "Suunnittelutyökirjan virhesanomat")  
 
 ## <a name="planning-flexibility"></a>Suunnittelun joustavuus  
 Ei ole aina käytännöllistä suunnitella olemassa olevaa toimitustilausta, kuten silloin, kun tuotanto on käynnistynyt tai henkilöstöä on palkattu lisää tiettynä päivänä työn suorittamiseksi. Kaikilla toimitustilauksen riveillä on Suunnittelun joustavuus -kenttä, jolla on kaksi valintaa: Rajaton tai Ei mitään. Tämän kentän avulla osoitetaan, voiko suunnittelujärjestelmä muuttaa olemassa olevan tilauksen. Jos kentän arvoksi on asetettu Ei mitään, suunnittelujärjestelmä ei yritä muuttaa toimitustilauksen riviä.  

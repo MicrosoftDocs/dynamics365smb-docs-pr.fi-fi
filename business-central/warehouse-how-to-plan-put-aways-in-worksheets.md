@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/16/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d9e299ff00dae0d07a1f1b924bdef798655357d0
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: f6ef554270c9e2bdef8074b65ba6e3f0de4bd45c
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Hyllytysten suunnitteleminen työkirjoissa
@@ -33,7 +33,7 @@ Jos et valitse tätä kenttää, ohjelma luo automaattisesti hyllytysohjeita vas
 > 2.  Jatka prosessia niin monessa hyllytyksessä kuin haluat siihen asti, kun olet poistanut kaikki rivit, joiden parissa haluat työskennellä työkirjassa. Napsauta nyt **Hyllytystyökirjat** ja jatka suunnittelua.  
 
 ## <a name="to-plan-instructions-in-the-put-away-worksheet"></a>Ohjeiden suunnittelu hyllytystyökirjassa  
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Hyllytystyökirja** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Hyllytystyökirja** ja valitse liittyvä linkki.  
 2.  Valitse **Hae f. varastoinnin asiakirjat** -toiminto. Näyttöön tulee **Hyllytyksen valinta** -ikkuna.  
 
     Näet kaikki kirjatut vastaanotot ja rekisteröidyt sisäiset hyllytykset, jotka on lähetetty eteenpäin hyllytys-funktioon, mukaan lukien ne, joille hyllytysohjeita on jo luotu. Asiakirjat, joissa on hyllytysrivejä, joita ei ole täysin hyllytetty ja rekisteröity, ei näytetä tässä luettelossa.  

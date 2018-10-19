@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/07/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 89fa84f814f3d7f53a842b1d675bf8143416b4d5
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b3df27011c482905b0b59ff03570449ac8df3cba
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Nimiketapahtumien poistaminen ja uudelleenkohdistaminen
@@ -43,7 +43,7 @@ Jos et tehdä uudelleenkohdistusta, kuten korjata kiinteää kohdistusta, asiaki
     - Kohdistustyökirja ei voi tehdä kohdistusta seuraavassa tilanteessa: Jos varastossa ei ole tarpeeksi kohdistettavaa määrää, kohdistustyökirja ei voi tehdä kohdistusta, jos yrität kohdistaa varaston vähennystapahtumaa, jolla ei ole nimikeseurannan tietoja, sellaiseen varaston lisäystapahtumaan, jolla on nimikeseurannan tiedot.
 
 ## <a name="to-remove-an-item-application-by-using-the-application-worksheet"></a>Nimikkeen kohdistuksen ja kohdistustyökirjan poistaminen  
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Kohdistustyökirja** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kohdistustyökirja** ja valitse liittyvä linkki.  
 2.  **Kohdistustyökirja**-ikkuna aukeaa näyttäen kaikkia nimikkeitä koskevat nimiketapahtumat.  
 3.  Syötä suodattimet **Yleinen**-pikavälilehdelle, jotta on helpompi löytää nimiketapahtumat, joille haluat muuttaa sovelluksen.  
 4.  Valitse ensin nimiketapahtuma ja sitten **Kohdistetut tapahtumat** -toiminto. **Näytä kohdistetut tapahtumat - Kohdistetut tapahtumat** -ikkuna avautuu ja ikkunassa näkyvä valittuun tapahtumaan kohdistetut nimiketapahtumat.  
@@ -59,7 +59,7 @@ Jos et tehdä uudelleenkohdistusta, kuten korjata kiinteää kohdistusta, asiaki
 >  **Et voi suorittaa tätä toimintoa, koska käyttäjä <user> on peruuttanut nimikkeen <item> kohdistuksen kohdistustyökirjassa.**  
 
 ## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>Nimikkeen kohdistuksen ja kohdistustyökirjan luominen  
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Kohdistustyökirja** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kohdistustyökirja** ja valitse liittyvä linkki.  
 2.  **Kohdistustyökirja**-ikkuna aukeaa näyttäen kaikkia nimikkeitä koskevat nimiketapahtumat.  
 3.  Voit kohdistaa työkirjan avaamisen jälkeen poistetut tapahtumat uudelleen valitsemalla uudelleenkohdistettavan nimiketapahtuman. Valitse **Toiminnot**-välilehden **Funktiot**-ryhmässä **Käytä uudelleen**.  
 

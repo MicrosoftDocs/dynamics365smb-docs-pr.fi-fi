@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2fc2ef2528a1edc85c0a7694c1afc5bec7a0065a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e532893b1823ef84256403fb7bf5ef9fabd59f2e
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-staying-under-the-overflow-level"></a>Rakennetiedot: sallitun ylityksen alapuolella pysytteleminen
@@ -24,7 +24,7 @@ Kun Enimmäismäärä- ja Kiinteä uusintatil. määrä -käytäntöjä käytet�
 
 *Huomio: arvioitu varastomäärä [xx] on korkeampi kuin sallittu ylitys [xx] [xx] eräpäivänä [xx].*  
 
-![Varaston ylivuototaso](media/supplyplanning_2_overflow1_new.png "supplyplanning_2_overflow1_new")  
+![Varaston ylivuototaso](media/supplyplanning_2_overflow1_new.png "Varaston ylivuototaso")  
 
 ##  <a name="calculating-the-overflow-level"></a>Lasketaan sallittua ylitystä  
 Ylitystaso lasketaan eri tavoin riippuen suunnitteluasetuksista.  
@@ -100,7 +100,7 @@ Tässä tilanteessa asiakas muuttaa myyntitilauksen arvosta 70 kappaletta arvoks
 ### <a name="resulting-planning-lines"></a>Tuloksena suunnittelurivit  
  Järjestelmä luo yhden suunnittelurivin (varoitus) oston vähentämiseksi 30 yksiköllä 90 yksiköstä 60 yksikköön, jotta arvioitu varasto on 100 sallitun ylityksen mukaan.  
 
-![Suunnittelu ylivuototason mukaisesti](media/nav_app_supply_planning_2_overflow2.png "nav_app_supply_planning_2_overflow2")  
+![Suunnittelu ylivuototason mukaisesti](media/nav_app_supply_planning_2_overflow2.png "Suunnittelu ylivuototason mukaisesti")  
 
 > [!NOTE]  
 >  Ilman ylivuototoimintoa varoitusta ei luoda, jos oletetun varaston taso ylittää enimmäisvaraston. Tämä voi aiheuttaa tarpeettoman tarjonnan, joka on 30.  

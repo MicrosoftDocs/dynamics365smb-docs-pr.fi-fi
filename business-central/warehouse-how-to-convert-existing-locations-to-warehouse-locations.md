@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e519a1628342f7c4711b3266f53ac857d4865e71
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: c97e6995a0e27d0eebcadf5b783cd9aa56cb5fde
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="convert-existing-locations-to-warehouse-locations"></a>Aiemmin luotujen sijaintien muuntaminen fyysisen varaston sijainneiksi
@@ -30,7 +30,7 @@ Voit luoda alueet ja varastopaikat ennen muunnosta tai sen jälkeen. Ainoa varas
 >  Tyhjennä kaikki negatiiviset varastot ja mahdolliset avoimet fyysisen varastoinnin asiakirjat ennen kuin konvertoit fyysisen varaston käsittelyn sijainnin ja aja raportti määrittääksesi negatiivisen varaston nimikkeet ja avoimen fyysisen varaston asiakirjat tässä sijainnissa. Lisätietoa on kohdassa Negatiivisen varaston tarkistus.  
 
 ## <a name="to-enable-an-existing-location-to-operate-as-a-warehouse-location"></a>Aiemmin luodun sijainnin valmisteleminen fyysisen varastoinnin sijainniksi  
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Luo fyys. var. sijainti** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Luo fyysisen varaston sijainti** ja valitse sitten liittyvä linkki.  
 2.  Määritä **Sijaintikoodi**-kentässä sijainti, jossa haluat ottaa käyttöön fyysisen varaston käsittelyn.  
 3.  Määritä **Muutosvarastopaikan koodi** -kentässä varastopaikka sijainnissa, johon synkronoimattomat fyysisen varastoinnin tapahtumat tallennetaan. Lisätietoja on ohjeaiheen [Varaston laskeminen, muuttaminen ja uudelleenluokitus](inventory-how-count-adjust-reclassify.md) kohdassa Muutettujen fyysisen varastoinnin tapahtumien ja liittyvien nimiketapahtumien synkronointi.  
 

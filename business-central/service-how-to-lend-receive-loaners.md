@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/28/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 068031b480cb2d43df2c6682de70902ce672581b
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 9010858c33b7b58b3b4d7f2523785e846e307ff0
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="lend-and-receive-loaners"></a>Lainatavaroiden lainaaminen ja vastaanottaminen
 Asiakkaille voi lainata lainatavaroita väliaikaisesti niiden huoltonimikkeiden tilalle, jotka olet vastaanottanut huollettavaksi.  
   
 ## <a name="to-lend-a-loaner-item"></a>Lainanimikkeiden lainaaminen    
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Huoltotilaukset** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltotilaukset** ja valitse sitten liittyvä linkki.  
 2. Avaa haluamasi huoltotilauksen kortti.  
 3. Napsauta huoltonimikeriviä, jolla lainatavaralla korvattava huoltonimike on.  
 4. Määritä **Lainatavaranro** -kenttään sopiva lainanimike.  
@@ -32,7 +32,7 @@ Asiakkaille voi lainata lainatavaroita väliaikaisesti niiden huoltonimikkeiden 
 ## <a name="to-receive-a-loaner"></a>Lainatavaroiden vastaanottaminen  
 Kun asiakkaalta vastaanotetaan lainatavara, vastaanotto tulee rekisteröidä. Tämä tehdään **Huoltotilaus**-, **Kirjattu huoltotoimitus**- ja **Lainatavarakortti**-ikkunoissa. Seuraavassa kuvataan, miten lainatavaroita vastaanotetaan **Huoltotilaus**-ikkunassa.  
   
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Huoltotilaukset** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltotilaukset** ja valitse sitten liittyvä linkki.  
 2. Avaa haluamasi huoltotilaus.  
 3. Valitse vastaanotettavan lainatavaran huoltonimikerivi.  
 4. Valitse ensin **Toiminnot**, sitten **Toiminnot** ja lopuksi **Ota vastaan lainatavara**.  
@@ -40,7 +40,7 @@ Kun asiakkaalta vastaanotetaan lainatavara, vastaanotto tulee rekisteröidä. T�
 ## <a name="to-register-loaner-comments"></a>Lainatavaroiden kommenttien rekisteröiminen  
 **Yleinen huoltokommenttilomake** -ikkunaa voidaan käyttää rekisteröimään kommentteja rekisteröidyille lainatavaroille.  
   
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjota **Lainatavarat** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Lainatavarat** ja valitse sitten liittyvä linkki.  
 2. Avaa haluamasi lainatavaran kortti.  
 3. Valitse **Kommentit**-toiminto. **Yleinen vikojen huoltokommenttilomake** -ikkuna avautuu.  
 4. Napsauta **Asiakirjan pvm** -kenttää ja syötä päivämäärä.  

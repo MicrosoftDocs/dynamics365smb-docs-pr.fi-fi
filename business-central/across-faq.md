@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan, application area, experience
-ms.date: 08/15/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
-ms.openlocfilehash: 4c20da1a46879ddc342250a0e074b0f8097a64ab
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 55e1dd3f9f7a85867f5609190c4766839326ca7a
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/30/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="frequently-asked-questions"></a>Usein kysytyt kysymykset
@@ -26,7 +26,7 @@ Tässä osassa on vastauksia [!INCLUDE[d365fin](includes/d365fin_md.md)]iin reki
 Jos yrität rekisteröityä käyttämällä henkilökohtaista sähköpostiosoitetta, saat viestin, jossa pyydetään käyttämään työ- tai opiskelupaikan antamaa sähköpostiosoitetta. Lisätietoja on kohdassa [Itsepalvelun rekisteröitymisen vianmääritys](ui-troubleshoot-self-signup.md).  
 
 ## <a name="do-i-have-to-buy-office-365"></a>Onko minun ostettava Office 365?
-Nro Jos kuitenkin haluat käyttää Office 365:een täysin integroitua [!INCLUDE[d365fin](includes/d365fin_md.md)]ia, voit rekisteröityä käyttämään Office 365 -kokeiluversiota maksutta kuukauden ajan [täällä](https://products.office.com/try).  
+Ei. Jos kuitenkin haluat käyttää Office 365:een täysin integroitua [!INCLUDE[d365fin](includes/d365fin_md.md)]ia, voit rekisteröityä käyttämään Office 365 -kokeiluversiota maksutta kuukauden ajan [täällä](https://products.office.com/try).  
 
 ## <a name="what-is-the-integration-with-office-365-about"></a>Mitä Office 365 -integraatio tarkoittaa?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] on täysin integroitu Office 365:een, joten voit siirtyä vapaasti Office 365 -sovellusten ja [!INCLUDE[d365fin](includes/d365fin_md.md)]in välillä sovellusten käynnistysohjelman avulla. Voit esimerkiksi avata [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietoja Excelissä, tulostaa raportteja Wordin avulla ja käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietoja Outlookissa. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen yrityssähköpostina Outlookissa](admin-outlook.md).  
@@ -55,15 +55,8 @@ Jos sinulla on Microsoftin CustomerSource-sivuston käyttöoikeus, voit käyttä
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] on saatavana vain tietyillä markkina-alueilla, mutta uusia maita lisätään Microsoftin tai kumppanien johtamina lokalisointeina neljännesvuosittain. Lisätietoja on kohdassa [Tuetut maat ja käännökset](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
 
-## <a name="why-are-some-ui-elements-that-i-used-in-dynamics-nav-not-visible-in-included365finincludesd365finmdmd"></a>Miksi jotkin käyttöliittymän osat, joita käytin Dynamics NAV:ssa, eivät näy [!INCLUDE[d365fin](includes/d365fin_md.md)]:ssa?
-
-[!INCLUDE[d365fin](includes/d365fin_md.md)]:n sovellusaluejärjestelmässä ja käyttökokemuksen vaihtoehdoissa voit näyttää tai piilottaa tuotteen halutut osat ostetun suunnitelman (Essential tai Premium) ja yrityksesi tarpeiden mukaisesti.
-
-Näitä ominaisuuksia on käytetty tuotteen käyttöliittymän yksinkertaistamiseen [!INCLUDE[d365fin](includes/d365fin_md.md)] -vakioversiossa. Esimerkiksi kentät, joita ei usein käytetä, kuten **Faksinro**, on poistettu, ja luetteloiden ja korttien värinauhoissa kaksinkertaiset toiminnot on poistettu ja useimmiten käytettävät tehtävät nostetaan esiin. Joitakin täydellisiä ominaisuuksia, kuten kommentteja, optimoidaan tällä hetkellä web-asiakasohjelmalle ja siksi eivät ole käytettävissä [!INCLUDE[d365fin](includes/d365fin_md.md)]:ssa.
-
-Näin ollen tiettyjä käyttöliittymän osia, jotka näkyvät Dynamics NAV -vakioversiossa, ei näytetä [!INCLUDE[d365fin](includes/d365fin_md.md)]:ssa. Kyseisillä komponenteilla on tällä hetkellä #Advanced-sovellusaluetunniste.
-
-Jos haluat, että [!INCLUDE[d365fin](includes/d365fin_md.md)] -ratkaisusi sisältää samat käyttöliittymän osat kuin Dynamics NAV -ratkaisusi, sinun on tehtävä muutamia vaiheita kehitysympäristössä, jotta saat #Advanced-ohjausobjektit esiin laajennuksen kautta. Lisätietoja on kohdassa [Sovellusalueiden laajentaminen](/dynamics365/dev-itpro/developer/devenv-extending-application-areas).
+## <a name="why-does-help-describe-functionality-that-i-cannot-access"></a>Miksi ohjeessa kerrotaan toiminnoista, joita en voi käyttää?
+Jos **Yrityksen tiedot** -ikkunan käyttökokemusasetukseksi on määritetty **Essential**, valmistuksen ja huoltohallinnan toimintojen käyttöliittymän elementit eivät näy, koska ne vaativat **Premium**-käyttökokemuksen. Seuraava tekstimuistiinpano lisätään näiden toimintoalueiden ylätason ohjeaiheisiin. Lisätietoja on kohdassa [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md).    
 
 ## <a name="see-also"></a>Katso myös
 [Käytön aloittaminen](product-get-started.md)  

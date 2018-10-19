@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7f90612764872875077de1dbe250b3d59582372f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 72b668ac5ecf2d6444be68b7c678f8a08bca9796
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-assembly-order-posting"></a>Rakennetiedot: kokoonpanotilauksen kirjaus
@@ -33,14 +33,14 @@ Seuraavat lokitiliöinnit tapahtuvat kokoonpanotilauksen tiliöinnin aikana:
 
 Seuraavassa kaaviossa esitetään nimikkeen ja lähteenä olevan pääkirjan kirjausten rakenne, jotka ovat seurausta kokoonpanotilauksen tiliöinnistä.  
 
-![Resurssi- ja kapasiteettikustannukset](media/design_details_assembly_posting_1.png "design_details_assembly_posting_1")  
+![Kokoonpanotilauksen kirjauksesta johtuvat nimike-, resurssi- ja kapasiteettitapahtumat](media/design_details_assembly_posting_1.png "Kokoonpanotilauksen kirjauksesta johtuvat nimike-, resurssi- ja kapasiteettitapahtumat")  
 
 > [!NOTE]  
 >  Kuormitusryhmät ja tuotantosolut on sisällytetty sen kuvaamiseksi, että kapasiteettitapahtumat luodaan sekä tuotannosta että kokoonpanosta.  
 
 Seuraavassa kaaviossa esitetään, kuinka kokoonpanotiedot kulkevat pääkirjaan tiliöinnin aikana:  
 
-![Tietojen kulku kirjauksen aikana](media/design_details_assembly_posting_2.png "design_details_assembly_posting_2")  
+![Kokoonpanoon liittyvän tapahtuman prosessi kirjauksen aikana](media/design_details_assembly_posting_2.png "Kokoonpanoon liittyvän tapahtuman prosessi kirjauksen aikana")  
 
 ## <a name="posting-sequence"></a>Järjestyksen kirjaaminen  
 Kokoonpanotilauksen tiliöinti tapahtuu seuraavassa järjestyksessä:  
@@ -71,7 +71,7 @@ Tilaustason havainnointitoimintoa käytetään muunto-, tuotanto- ja kokoonpanos
 
 Seuraavassa kaaviossa esitetään sopeuttamiskirjauksen rakenne ja kuinka kokoonpanokustannukset määritellään.  
 
-![Sopeuttamiskirjauksen rakenne](media/design_details_assembly_posting_3.png "design_details_assembly_posting_3")  
+![Kokoonpanoon liittyvän tapahtuman prosessi kustannuksen muutoksen aikana](media/design_details_assembly_posting_3.png "Kokoonpanoon liittyvän tapahtuman prosessi kirjauksen aikana")  
 
 ### <a name="performing-the-adjustment"></a>Muutoksen suorittaminen  
 Havaittujen materiaali- ja resurssikustannusten määritysten laajennus kokoonpanon tuotantokirjauksiin suoritetaan **Määritä kustannukset – nimikekirjaukset** eräajossa. Se sisältää Suorita monitasoinen muutos -toiminnon, joka muodostuu seuraavista kahdesta elementistä:  
@@ -79,7 +79,7 @@ Havaittujen materiaali- ja resurssikustannusten määritysten laajennus kokoonpa
 -   Suorita kokoonpanotilauksen muutos – joka välittää kustannuksen materiaalin ja resurssien käytöstä kokoonpanon tuotos-tapahtumaan. Alla olevan algoritmin rivit 5 ja 6 vastaavat tästä.  
 -   Suorita yhden tason muutokset – joka välittää yksittäisten nimikkeiden kustannukset niiden arvostusmenetelmällä. Alla olevan algoritmin rivit 9 ja 10 vastaavat tästä.  
 
-![Kokoonpanon muutosalgoritmi](media/design_details_assembly_posting_4.jpg "design_details_assembly_posting_4")  
+![Kustannusmuutoksen algoritmin yhteenveto kokoonpanon kirjausta varten](media/design_details_assembly_posting_4.jpg "Kustannusmuutoksen algoritmin yhteenveto kokoonpanon kirjausta varten")  
 
 > [!NOTE]  
 >  Tee WIP-sopeutukset -elementti riveillä 7 ja 8 on vastuussa tuotantomateriaalin ja kapasiteetin käytön eteenpäin toimittamisesta keskeneräisten tuotantotilausten tuotantoon. Tätä ei käytetä, kun kokoonpanotilauksen kustannuksia muutetaan, sillä KET ei koske kokoonpanoa.  

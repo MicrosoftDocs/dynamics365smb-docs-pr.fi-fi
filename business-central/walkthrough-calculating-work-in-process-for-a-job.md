@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a8d77f57072be841a521271efa7f0fd643363b8a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 640e2eb135b1329cf6a29e4067d5cff22f54d379
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Vaihekuvaus: Projektin keskeneräisen työn laskeminen
@@ -59,7 +59,7 @@ Voit laatia projektien avulla yrityksen resurssien käyttöön liittyviä aikata
 
 ### <a name="to-calculate-wip"></a>Keskeneräisen työn laskeminen  
 
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Projektit** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektit** ja valitse sitten liittyvä linkki.  
 2.  Valitse **Projektit**-luettelossa ensin **Karjaa**-projekti ja sitten **Muokkaa**-toiminto. Työkortti avataan muokkaustilassa.  
 
      Keskeneräinen työ voidaan laskea kustannusarvon, myyntiarvon, myynnin kulujen, valmistumisen prosenttiosuuden ja valmiin sopimuksen perusteella. Tässä esimerkissä CRONUS käyttää kustannusarvomenetelmää.  
@@ -91,7 +91,7 @@ Voit laatia projektien avulla yrityksen resurssien käyttöön liittyviä aikata
 
 ### <a name="to-review-wip-warnings"></a>Tarkastele KET-varoituksia  
 
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Projektin KET-ohjaamo** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektin KET-ohjaamo** ja valitse sitten liittyvä linkki.  
 2.  Valitse ensin **Karjaa**-projekti ja sitten **Näytä varoitukset** -toiminto.  
 3.  Tarkastele **Projektin KET-varoitukset** -ikkunassa työhön liittyvää varoitusta.  
 
@@ -128,7 +128,7 @@ Voit laatia projektien avulla yrityksen resurssien käyttöön liittyviä aikata
      Projektin **KET-kirjanpitotapahtumat** -ikkunassa näkyy, että keskeneräinen työ on kirjattu pääkirjanpitoon.  
 
 8.  Sulje ikkuna.  
-9. Avaa **Karjaa**-kohteen **Projekti-**kortti.  
+9. Avaa **Karjaa**-kohteen **Projekti-** kortti.  
 10. Huomaa, että **Keskeneräiset työt ja tuloutus** -pikavalintalehden **Kirjattu**-sarakkeen **Tuloutettu kustannusten kirjanpitosumma** -kenttä on nyt täytetty, mikä ilmaisee, että kyseinen KET on kirjattu pääkirjanpitoon onnistuneesti.  
 11. Sulje kortti valitsemalla **OK**-painike.  
 
