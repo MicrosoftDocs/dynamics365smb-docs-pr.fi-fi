@@ -63,7 +63,7 @@ Voit kopioida niin monta riviä kuin näkymässä on. Jos esimerkiksi haluat kop
 ## <a name="must-i-have-the-exact-same-number-of-columns-when-pasting-rows"></a>Onko sarakkeita oltava täsmälleen sama määrä, kun rivejä liitetään?
 Kyllä. Jos kopioit [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksesta, Excelistä tai toisesta taulukkolähteestä, liitettävien rivien määrän on oltava täsmälleen sama kuin sarakkeiden määrä.
 
-## <a name="why-do-i-get-errors-when-pasting-rows"></a>Milloin rivien liittämisen yhteydessä voi tulla virhesanomia? 
+## <a name="why-do-i-get-errors-when-pasting-rows"></a>Milloin rivien liittämisen yhteydessä voi tulla virhesanomia?
 Jos liittäminen tehdään [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovellukseen, jokainen rivi tarkistetaan. Näin varmistetaan, että kaikkien sarakkeiden arvot ovat sallittuja. Jos sarakkeessa on arvo, joka ei ole sallittu, liittäminen pysäytetään ja näyttöön tulee virhesanoma. Tämän voi välttää varmistamalla ennen liittämistä, että sarakkeissa on sallitut arvot.
 
 
