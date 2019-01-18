@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/08/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7664360941313da6ea0b797ef00df2e9810ad62
-ms.openlocfilehash: 1a8fd4f75fc1562985412b7e478066aa425c9425
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 53b063598cf21ca5b5de72d953995b48a17d64a2
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/09/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="setting-up-workflow-notifications"></a>Työnkulkuilmoitusten määrittäminen
@@ -30,17 +30,17 @@ Monet työnkulun vastaukset ilmoittavat käyttäjälle toimia edellyttävistä t
 
 Työnkulun ilmoitusten osatekijöitä määritetään seuraavissa paikoissa:  
 
-1.  Hyväksynnän työnkulkujen ilmoitusten vastaanottajat määritetään täyttämällä rivi **Hyväksynnän käyttäjäasetukset** -ikkunassa kullekin työnkulkuun osallistuvalle käyttäjälle. Jos esimerkiksi käyttäjä 2 on määritetty **Hyväksyjän tunnus** -kentän Käyttäjä 1 -rivillä, hyväksyntäpyyntöilmoitus lähetetään käyttäjälle 1. Lisätietoja on kohdassa [Hyväksynnän käyttäjien määrittäminen](across-how-to-set-up-approval-users.md).  
-2.  Täyttämällä **Ilmoitusaikataulu**-ikkuna kullekin työnkulun käyttäjälle määritetään se, milloin ja miten käyttäjät saavat työnkulun ilmoituksia. Lisätietoja on kohdassa [Ilmoitusten vastaanoton ajankohdan ja tavan määrittäminen](across-how-to-specify-when-and-how-to-receive-notifications.md).  
-3.  Ilmoitusten yleinen sisältö ja asettelu määritetään **Ilmoitusmallit**-ikkunassa määrittämällä ilmoitusmallit (koskee myös ilmoituksia myöhässä olevista työnkulun vastauksista). Voit käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]in oletusmalleja.  
-4.  Työnkulun ilmoituksen erityinen sisältö ja säännöt määritetään silloin, kun luot kyseistä työnkulkua. Se tehdään valitsemalla **Työnkulun vastausvaihtoehdot** -ikkunassa asetuksia ilmoitusta edustavalle työnkulun vastaukselle. Lisätietoja on kohdan [Työnkulkujen luominen](across-how-to-create-workflows.md) vaiheessa 9.  
+1.  Hyväksynnän työnkulkujen ilmoitusten vastaanottajat määritetään täyttämällä rivi **Hyväksynnän käyttäjäasetukset** -sivulla kullekin työnkulkuun osallistuvalle käyttäjälle. Jos esimerkiksi käyttäjä 2 on määritetty **Hyväksyjän tunnus** -kentän Käyttäjä 1 -rivillä, hyväksyntäpyyntöilmoitus lähetetään käyttäjälle 1. Lisätietoja on kohdassa [Hyväksynnän käyttäjien määrittäminen](across-how-to-set-up-approval-users.md).  
+2.  Täyttämällä **Ilmoitusaikataulu**-sivu kullekin työnkulun käyttäjälle määritetään se, milloin ja miten käyttäjät saavat työnkulun ilmoituksia. Lisätietoja on kohdassa [Ilmoitusten vastaanoton ajankohdan ja tavan määrittäminen](across-how-to-specify-when-and-how-to-receive-notifications.md).  
+3.  Voit halutessasi mukauttaa sähköposti-ilmoituksen sisältöä muokkaamalla raportin 1320 sähköposti-ilmoitusta. Lisätietoja on kohdassa [Raportin tai asiakirjan mukautetun asettelun luominen ja muokkaaminen](ui-how-create-custom-report-layout.md).  
+4.  Työnkulun ilmoituksen erityinen sisältö ja säännöt määritetään silloin, kun luot kyseistä työnkulkua. Se tehdään valitsemalla **Työnkulun vastausvaihtoehdot** -sivulla asetuksia ilmoitusta edustavalle työnkulun vastaukselle. Lisätietoja on kohdan [Työnkulkujen luominen](across-how-to-create-workflows.md) vaiheessa 9.  
 
 ## <a name="see-also"></a>Katso myös  
  [Hyväksynnän käyttäjien määrittäminen](across-how-to-set-up-approval-users.md)   
  [Työnkulun käyttäjien määrittäminen](across-how-to-set-up-workflow-users.md)   
  [Ilmoitusten vastaanoton ajankohdan ja tavan määrittäminen](across-how-to-specify-when-and-how-to-receive-notifications.md)   
  [Työnkulkujen luominen](across-how-to-create-workflows.md)   
- [Ilmoitusmallien hallinta](across-how-to-manage-notification-templates.md)   
+ [Raporttien tai asiakirjojen mukautetun asettelun luominen ja muokkaaminen](ui-how-create-custom-report-layout.md)   
  [Tehtävien aikatauluttaminen työjonojen avulla](admin-job-queues-schedule-tasks.md)   
  [Sähköpostin määrittäminen](admin-how-setup-email.md)   
  [Vaihekuvaus: Ostojen hyväksyntätyönkulun määrittäminen ja käyttäminen](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   

@@ -11,14 +11,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e2cbddbfe4d184468b778455d4b75f49b0f23b67
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2ed7c083b4315f374a81ec5f97ce5e872c11f071
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="receive-and-convert-electronic-documents"></a>Sähköisten asiakirjojen vastaanottaminen ja muuntaminen
-[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman yleinen versio tukee sähköisten laskujen ja hyvityslaskujen vastaanottamista PEPPOL-muodossa. Suurimmat document exchange -palveluiden tarjoajat tukevat tätä muotoa. Jotta voisit saada laskun toimittajalta sähköisenä PEPPOL-asiakirjana, asiakirja on muunnettava Saapuvat asiakirjat -ikkunassa [!INCLUDE[d365fin](includes/d365fin_md.md)]in ostolaskuksi tai päiväkirjan riviksi.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman yleinen versio tukee sähköisten laskujen ja hyvityslaskujen vastaanottamista PEPPOL-muodossa. Suurimmat document exchange -palveluiden tarjoajat tukevat tätä muotoa. Jotta voisit saada laskun toimittajalta sähköisenä PEPPOL-asiakirjana, asiakirja on muunnettava Saapuvat asiakirjat -sivulla [!INCLUDE[d365fin](includes/d365fin_md.md)]in ostolaskuksi tai päiväkirjan riviksi.
 
  Kauppakumppaneiden sähköisten asiakirjojen suoran vastaanottamisen lisäksi voit saada sähköisiä asiakirjoja OCR-palvelusta, joka on muuntanut PDF- tai kuvatiedostoja sähköisiksi asiakirjoiksi.  
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 09/28/2018
 > [!NOTE]  
 >  Kun muunnat OCR-palvelusta vastaanotettuja sähköisiä asiakirjoja tai päiväkirjarivejä [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmassa, monta lähdeasiakirjan riviä yhdistetään yhdelle riville. Yhden rivin tyypiksi tulee KP-tili, ja **Kuvaus**- ja (KP-tilin) **Nro**-kentät ovat tyhjiä. **Summa**-kentän arvo on sama kuin kaikkien lähdeasiakirjan rivien kokonaissumma ilman ALV:tä.  
 >   
->  Varmistaaksesi, että **Kuvaus** ja **Nro**-kentät on täytetty, voit valita **Linkitä teksti tiliin** -painikkeen **Saapuvat asiakirjat** -ikkunassa määrittääksesi, että tietty laskun teksti yhdistetään aina tiettyyn debet- tai kredit-tiliin pääkirjanpidossa. Jatkossa toimittajan tai asiakkaan sähköisestä asiakirjasta luotujen asiakirjan tai päiväkirjan rivien **Kuvaus**-kenttä täytetään kyseisellä tekstillä ja kyseisin tilin KP-tilin **Nro**-kentällä .  
+>  Varmistaaksesi, että **Kuvaus** ja **Nro**-kentät on täytetty, voit valita **Linkitä teksti tiliin** -painikkeen **Saapuvat asiakirjat** -sivulla määrittääksesi, että tietty laskun teksti yhdistetään aina tiettyyn debet- tai kredit-tiliin pääkirjanpidossa. Jatkossa toimittajan tai asiakkaan sähköisestä asiakirjasta luotujen asiakirjan tai päiväkirjan rivien **Kuvaus**-kenttä täytetään kyseisellä tekstillä ja kyseisin tilin KP-tilin **Nro**-kentällä .  
 >   
 >  KP-tiliin yhdistämisen sijasta voit myös yhdistää pankkitiliin. Tämä on käytännöllistä esimerkiksi sähköisille asiakirjoille, jotka on jo maksettu, johon haluat luoda yleisen päiväkirjarivin, joka on valmis kirjattavajsu pankkitilille.  
 
@@ -45,11 +45,11 @@ ms.lasthandoff: 09/28/2018
 
 2.  Valitse rivi sille saapuvalle asiakirjatietueelle, joka edustaa uutta saapuvaa sähköistä laskua, ja valitse sitten **Koti**-välilehden **Hallinta**-ryhmästä **Muokkaa**.  
 
-     Aiheeseen liittyvä XML-tiedosto liitetään **Saapuvan asiakirjan kortti** -ikkunaan, ja useimmat sen kentät on esitäytetty sähköisen laskun tiedoilla. Lisätietoja on kohdassa [Saapuvien asiakirjatietueiden luominen](across-how-create-income-document-records.md).  
+     Aiheeseen liittyvä XML-tiedosto liitetään **Saapuvan asiakirjan kortti** -sivulla, ja useimmat sen kentät on esitäytetty sähköisen laskun tiedoilla. Lisätietoja on kohdassa [Saapuvien asiakirjatietueiden luominen](across-how-create-income-document-records.md).  
 
 3.  Valitse **Tiedonsiirron tyyppi** -kentässä **PEPPOL-lasku** tai **OCR-lasku** sähköisen asiakirjan lähteen mukaan.  
 
-4.  Toimittajalaskun tekstin liittäminen tiettyyn debet-tiliin tehdään valitsemalla **Toiminnot**-välilehden **Yleinen**-ryhmässä **Linkitä teksti tiliin** ja täyttämällä sitten **Tekstin yhdistäminen tiliin** -ikkunan tiedot.  
+4.  Toimittajalaskun tekstin liittäminen tiettyyn debet-tiliin tehdään valitsemalla **Toiminnot**-välilehden **Yleinen**-ryhmässä **Linkitä teksti tiliin** ja täyttämällä sitten **Tekstin yhdistäminen tiliin** -sivun tiedot.  
 
 5.  Valitse **Toiminnot**-välilehden **Yleiset**-ryhmästä **Luo asiakirja**.  
 

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f9f93fcf80524f18c9ff83b74d64231d1a033bae
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 80c2912836d8f11a8e3cf869b9412ad9ed66ca54
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-inventory-posting"></a>Rakennetiedot: varaston kirjaus
@@ -29,7 +29,7 @@ Jokainen varastotapahtuma, kuten tavaran vastaanotto tai myyntitoimitus, kirjaa 
 
  Määrän kirjausten osalta nimikkeen kohdistustapahtumat ovat olemassa varaston arvon lisäyksen linkittämiseksi varaston arvon laskun kanssa. Tämän avulla kustannuslaskentaohjelma lähettää kustannukset arvon nousuista liittyviin arvon laskuihin ja päinvastoin. Katso lisätiedot kohdasta [Rakennetiedot: nimikkeen kohdistus](design-details-item-application.md).  
 
- Nimiketapahtumat, arvotapahtumat ja nimikkeen kohdistustapahtumat luodaan nimikepäiväkirjarivin kirjauksen seurauksena joko epäsuorasti tilausrivin kirjauksella tai epäsuorasti nimikkeen päiväkirjaikkunassa.  
+ Nimiketapahtumat, arvotapahtumat ja nimikkeen kohdistustapahtumat luodaan nimikepäiväkirjarivin kirjauksen seurauksena joko epäsuorasti tilausrivin kirjauksella tai epäsuorasti nimikkeen päiväkirjasivulla.  
 
  Varastokirjanpitoon luodut arvotapahtumat kirjataan säännöllisin väliajoin pääkirjanpitoon dynaamisesti kahden kirjanpidon täsmäyttämiseksi varainhoidon valvonnan vuoksi. Lisätietoja on kohdassa [Rakennetiedot: täsmäytys pääkirjanpidon kanssa](design-details-reconciliation-with-the-general-ledger.md).  
 

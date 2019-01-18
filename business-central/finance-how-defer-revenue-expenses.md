@@ -13,10 +13,10 @@ ms.search.keywords: postpone
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2e7bb4a1e4dff97167c7648d5b1c4c8250d6819b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9a21f4e54dc5afd8144d0990a9f9bcc30401a82c
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="defer-revenues-and-expenses"></a>Tuottojen ja kulujen siirtäminen
@@ -36,12 +36,12 @@ Valitse kummallekin siirtotyypille **Tase** **Tyyppi**-kenttään. Anna tileille
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Siirtomallit** ja valitse sitten liittyvä linkki.
 2. Valitse **Uusi**-toiminto.
 3. Täytä tarvittavat kentät.
-4. Määritä **Laskentamenetelmä**-kenttään, miten **Siirron aikataulu** -ikkunan kunkin jakson **Summa**-kentän arvo lasketaan. Voit valita seuraavista vaihtoehdoista:
+4. Määritä **Laskentamenetelmä**-kenttään, miten **Siirron aikataulu** -sivun kunkin jakson **Summa**-kentän arvo lasketaan. Voit valita seuraavista vaihtoehdoista:
 
    * **Tasapoisto**: Jaksoittaiset siirtosummat lasketaan jaksojen lukumäärän mukaan. Ne jaetaan jakson pituuden mukaan.
    * **Tasan jaksoittain**: Jaksoittaiset siirtosummat lasketaan jaksojen lukumäärän mukaan. Ne jaetaan tasan kaikille jaksoille.
    * **Päivät jaksoittain**: Jaksoittaiset siirtosummat lasketaan jakson päivien lukumäärän mukaan.
-   * **Käyttäjän määrittämä**: Jaksottaisia siirtosummia ei lasketa. Siirron aikataulu -ikkunan kunkin jakson **Summa**-kenttä on täytettävä manuaalisesti. Lisätietoja on Siirron aikataulun muuttaminen myyntilaskusta -osassa.
+   * **Käyttäjän määrittämä**: Jaksottaisia siirtosummia ei lasketa. Siirron aikataulu -sivun kunkin jakson **Summa**-kenttä on täytettävä manuaalisesti. Lisätietoja on Siirron aikataulun muuttaminen myyntilaskusta -osassa.
 5. Määritä **Jakson kuvaus**-kenttään kuvaus, joka näytetään siirron kirjauksen tapahtumissa. Voit syöttää tyypillisille arvoille seuraavat paikanvaraajien koodit. Ne lisätään automaattisesti, kun jakson kuvaus näytetään.
 
    * %1 = jakson kirjauspäivämäärän päivän numero
@@ -67,7 +67,7 @@ Esimerkki: Kirjauspäivämäärä on 6.2.2016. Jos syötät Kulut siirretty: %4 
 
     Huomaa, että heti, kun laskuriville on syötetty nimike (tai resurssi tai KP-tili), ohjelma syöttää **Siirron koodi** -kenttään määritetyn siirtomallin koodin.
 3. Valitse **Siirron aikataulu** -toiminto.
-4. Muuta **Siirron aikataulu** -ikkunan otsikon tai rivin arvojen asetuksia. Voit esimerkiksi siirtää summan lisäkirjanpitojaksoon.
+4. Muuta **Siirron aikataulu** -sivun otsikon tai rivin arvojen asetuksia. Voit esimerkiksi siirtää summan lisäkirjanpitojaksoon.
 5. Valitse **Laske aikataulu** -toiminto.
 6. Valitse **OK**-painike. Myyntilaskun siirron aikataulu päivitetään. Liittyvää siirtomallia ei muuteta.
 
@@ -75,8 +75,8 @@ Esimerkki: Kirjauspäivämäärä on 6.2.2016. Jos syötät Kulut siirretty: %4 
 > [!NOTE]  
 >   Tämän menettelytavan vaiheet ovat samat kuin kulujen siirtojen kirjausten esikatselun vaiheet.
 
-1. Valitse **Myyntilasku** -ikkunassa **Esikatsele kirjaus** -toiminto.
-2. Valitse **Esikatsele kirjaus** -ikkunassa **KP-tapahtuma**-toiminto ja valitse sitten **Näytä aiheeseen liittyvät tapahtumat** -toiminto.
+1. Valitse **Myyntilasku**-sivulla **Esikatsele kirjaus** -toiminto.
+2. Valitse **Esikatsele kirjaus** -sivulla **KP-tapahtuma**-toiminto ja valitse sitten **Näytä aiheeseen liittyvät tapahtumat** -toiminto.
 
 Tietylle siirtotilille, kuten Ansaitsematon tulo -tilille, kirjattavat KP-tapahtumat merkitään kuvauksella, joka annettiin siirtomallin **Jakson kuvaus** -kenttään. Esimerkki: Siirretyt kulut: helmikuu 2016.
 
@@ -85,7 +85,7 @@ Tietylle siirtotilille, kuten Ansaitsematon tulo -tilille, kirjattavat KP-tapaht
 >   Tämän menettelytavan vaiheet ovat samat kuin Ostojen siirron yhteenveto -raportin tarkastelun vaiheet.
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myynnin siirron yhteenveto** ja valitse sitten liittyvä linkki.
-2. Syötä **Myynnin siirron yhteenveto** -ikkunan **Saldon tilanne** -kenttään päivämäärä, johon asti siirretyt tuotot näytetään.
+2. Syötä **Myynnin siirron yhteenveto** -sivun **Saldon tilanne** -kenttään päivämäärä, johon asti siirretyt tuotot näytetään.
 3. Valitse **Esikatsele**-painike.
 
 ## <a name="see-also"></a>Katso myös

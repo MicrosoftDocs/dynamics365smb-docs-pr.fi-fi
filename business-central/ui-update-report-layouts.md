@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 681540708d9807aafebcf5701232a282a189e47b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b4c3d7350ee6557a68c7efd087a463277aec7fd3
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="updating-report-or-document-layouts"></a>Raportin tai asiakirjan asettelujen päivittäminen
@@ -32,17 +32,17 @@ Kaikkia raportin tietojoukon muutoksia ei voi päivittää automaattisesti rapor
   
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Raporttiasettelut** ja valitse sitten liittyvä linkki.  
   
-2.  Jos haluat päivittää tietyn raportin, valitse ensin asettelu luettelosta **Raporttiasettelut**-ikkunassa ja sitten **Päivitä asettelu** -toiminto. Jos sen sijaan haluat päivittää yrityksen kaikki mukautetut raporttiasettelut, valitse **Päivitä kaikki asettelut** -toiminto.  
+2.  Jos haluat päivittää tietyn raportin, valitse ensin asettelu luettelosta **Raporttiasettelut**-sivulla ja sitten **Päivitä asettelu** -toiminto. Jos sen sijaan haluat päivittää yrityksen kaikki mukautetut raporttiasettelut, valitse **Päivitä kaikki asettelut** -toiminto.  
 
 Jos virheitä ei ilmene, päivitykset otetaan käyttöön raporttiasetteluissa. Jos virheitä esiintyy, järjestelmä näyttää viestin, joka sisältää virheet. Päivityksen jälkeen mukautettua raporttiasettelua on muokattava virheen korjaamiseksi. Lisätietoja on kohdassa [Virheiden korjaaminen](ui-update-report-layouts.md#FixErrors).  
 
 ## <a name="to-test-custom-report-layout-updates"></a>Mukautettujen raporttiasetteluiden päivitysten testaaminen  
   
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Raporttiasetteluvalinta** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Raporttiasetteluvalinta** ja valitse sitten liittyvä linkki.  
   
-2.  Valitse **Raporttiasetteluvalinta**-ikkunassa **Testiasettelun päivitykset** -toiminto.  
+2.  Valitse **Raporttiasetteluvalinta**-sivulla **Testiasettelun päivitykset** -toiminto.  
   
- Raporttiasettelujen muutokset testataan, mutta niitä ei käytetä varsinaisissa raporttiasetteluissa. **Raporttiasettelun päivitysloki** -ikkuna aukeaa, jossa näytetään jokaiselle raporttiasettelulle tulevat päivitykset sekä niiden tila. Jos raporttiasettelulla on virheitä, voit avata raporttiasettelun suoraan viestistä muokkaamista varten. Lisätietoja on kohdassa [Virheiden korjaaminen](ui-update-report-layouts.md#FixErrors).  
+ Raporttiasettelujen muutokset testataan, mutta niitä ei käytetä varsinaisissa raporttiasetteluissa. **Raporttiasettelun päivitysloki** -sivu avautuu, ja siinä näytetään jokaiselle raporttiasettelulle tulevat päivitykset sekä niiden tila. Jos raporttiasettelulla on virheitä, voit avata raporttiasettelun suoraan viestistä muokkaamista varten. Lisätietoja on kohdassa [Virheiden korjaaminen](ui-update-report-layouts.md#FixErrors).  
   
 ##  <a name="UpdateLimitations"></a> Mukautettujen raporttiasetteluiden päivittämisen rajoitukset  
  Automaattinen päivitys voi tehdä monenlaisia muutoksia mukautettuihin raporttiasetteluihin, kuten jos asettelussa käytettävä kenttä on poistettu raportin tietojoukosta. Seuraavia muutoksia raportin tietojoukkoon automaattinen päivitys ei kuitenkaan käsittele.  

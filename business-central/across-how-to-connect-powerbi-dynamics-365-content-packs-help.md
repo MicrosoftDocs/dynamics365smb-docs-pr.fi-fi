@@ -12,10 +12,10 @@ ms.date: 10/01/2018
 ms.author: solsen
 redirect_url: admin-powerbi
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: 0196bff5dedb878884fd3d6e0208022faa968dfd
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 48c57e03f4679ea05792304fe13bdf896be2f1e3
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="connecting-power-bi-to-dynamics-365-business-central-content-packs"></a>Power BI- ja Dynamics 365 Business Central -sisältöpakettien yhdistäminen
@@ -29,7 +29,7 @@ Sinulla on oltava kelvollinen Dynamics 365- ja Power BI -tili. Sinun on ladattav
 
 Aloittaminen voi olla mahdollista myös Dynamics 365 Business Editionista. Valitse roolikeskuksen Power BI -roolikeskuksessa **Raporttivalinta**. Valitse valintanauhassa joko **Palvelu** tai **Oma organisaatio**. Kun jompikumpi vaihtoehto valitaan, siirry joko Power BI:n organisaatiovalikoimaan tai Power BI:n palvelukirjastoon, joka voidaan myös suodattaa näyttämään vain [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]iin liittyvät sisältöpaketit.
 
-2. Valitse **Palvelut**-ruudussa **Hae**. Avautuvassa ikkunassa näkyy **AppSource** **Power BI -sovellusten sovellukset**.  
+2. Valitse **Palvelut**-ruudussa **Hae**. Avautuvalla sivulla näkyy **AppSource** ja **Power BI -sovellusten sovellukset**.  
 ![Sisältöpakettien valitseminen verkkopalveluista](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-online-services-get.png)
 3. Valitse ensin **Sovellukset** **Power BI -sovellusten sovellukset** -välilehdessä ja sitten käytettävä **Microsoft Dynamics 365 Business Central** -sisältöpaketti. Valitse lopuksi **Hae se nyt**.  
 ![Dynamics 365 Business Central -sovelluksen ja Hae se nyt -vaihtoehdon valitseminen](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-dynamics365-for-financials-get-it-now.png)

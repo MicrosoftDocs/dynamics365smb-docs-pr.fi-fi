@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/23/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b51486a1daed9f6896424c1eefb55688aec8d16e
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2b1eae5f8562999f3fca227b6de6778ef1c5374e
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="calculate-order-promising-dates"></a>Toimituksen lupaamisen päivämäärien laskeminen
-Yrityksen on voitava ilmoittaa asiakkailleen tilauksen toimituksen päivämäärät. Voit tehdä tämän **Toimituksen lupaamisen rivit** -ikkunassa myyntitilauksen riviltä.  
+Yrityksen on voitava ilmoittaa asiakkailleen tilauksen toimituksen päivämäärät. Voit tehdä tämän **Toimituksen lupaamisen rivit** -sivulla myyntitilauksen riviltä.  
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] laskee heti nimikkeen tunnettujen ja oletettujen päivämäärien perusteella toimitus- ja lähetyspäivämäärät, jotka voidaan sitten luvata asiakkaalle.  
 
@@ -61,8 +61,8 @@ Kun [!INCLUDE[d365fin](includes/d365fin_md.md)] laskee asiakkaan toimituspäivä
 
 Jos asiakas ei pyydä tiettyä toimituspäivämäärää, toimituspäivämääräksi määritetään käsittelypäivämäärä. Saatavuus perustuu tähän päivämäärään. Jos nimike on varastossa, [!INCLUDE[d365fin](includes/d365fin_md.md)] ajoittaa tilauksen toimitusajankohdan tulevaisuuteen. Tämä toteutetaan seuraavilla kaavoilla:  
 
-- Toimituspvm + Lähtevä f.var. + Suunniteltu toimituspvm + Käsittelyaika = Pvm  
-- Suunniteltu toimituspvm + Toimitusaika = Suunniteltu toimituspvm  
+- Toimituspvm + Lähtevä f.var. käsittelyaika= Suunniteltu toimituspvm  
+- Suunniteltu lähetyspvm + Toimitusaika = Suunniteltu toimituspvm  
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] tarkistaa sitten, onko laskettu toimituspäivä mahdollinen laskemalla ajassa taaksepäin, milloin nimikkeen on oltava saatavissa, jotta luvattu päivämäärä toteutuisi. Tämä toteutetaan seuraavilla kaavoilla:  
 
@@ -71,11 +71,11 @@ Jos asiakas ei pyydä tiettyä toimituspäivämäärää, toimituspäivämäär�
 
 Toimituspäivää käytetään saatavuuden tarkistuksessa. Jos nimike on saatavana kyseisenä päivänä, [!INCLUDE[d365fin](includes/d365fin_md.md)] vahvistaa, että pyydetty tai luvattu toimitus voidaan tehdä suunniteltuna toimituspäivämääränä. Se onnistuu määrittämällä pyydetty luvattu toimituspäivämäärä suunnitelluksi toimituspäivämääräksi. Jos nimike ei ole saatavana, se palauttaa tyhjän päivämäärän ja tilausten käsittelijä voi käyttää CTP-toiminnallisuutta.  
 
-Perustuen uusiin päivämääriin ja kellonaikoihin, kaikki liittyvät päivämäärät lasketaan kaavoilla, jotka on lueteltu aiemmin tässä osassa. CTP-laskenta kestää kauemmin, mutta se antaa tarkan päivämäärän, jona asiakas voi odottaa nimikkeen toimitusta. CTP-arvosta lasketut päivämäärät näkyvät **Toimituksen lupaamisen rivit** -ikkunan **Suunniteltu toimituspvm**- ja **Aikaisin lähetyspvm** -kentissä.  
+Perustuen uusiin päivämääriin ja kellonaikoihin, kaikki liittyvät päivämäärät lasketaan kaavoilla, jotka on lueteltu aiemmin tässä osassa. CTP-laskenta kestää kauemmin, mutta se antaa tarkan päivämäärän, jona asiakas voi odottaa nimikkeen toimitusta. CTP-arvosta lasketut päivämäärät näkyvät **Toimituksen lupaamisen rivit** -sivun **Suunniteltu toimituspvm**- ja **Aikaisin lähetyspvm** -kentissä.  
 
 Tilausten käsittelijä päättää CTP-prosessin hyväksymällä päivämäärät. Tämä tarkoittaa sitä, että nimikkeelle luodaan suunnittelutyökirjan rivi ja varaustapahtuma ennen laskettuja päivämääriä sen varmistamiseksi, että tilaus voidaan toteuttaa.  
 
-**Toimituksen lupaamisen rivit** -ikkunassa suoritettavan ulkoisen toimituksen lupaamisen lisäksi voit luvata tuoterakenteen nimikkeille myös sisäisiä tai ulkoisia päivämääriä. Lisätietoja on kohdassa [Nimikkeiden saatavuuden tarkasteleminen](inventory-how-availability-overview.md).
+**Toimituksen lupaamisen rivit** -sivulla suoritettavan ulkoisen toimituksen lupaamisen lisäksi voit luvata tuoterakenteen nimikkeille myös sisäisiä tai ulkoisia päivämääriä. Lisätietoja on kohdassa [Nimikkeiden saatavuuden tarkasteleminen](inventory-how-availability-overview.md).
 
 ## <a name="to-set-up-order-promising"></a>Toimituksen lupaamisen määrittäminen  
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Toimituksen lupaamisen asetuk.** ja valitse sitten liittyvä linkki.  
@@ -90,11 +90,11 @@ Tilausten käsittelijä päättää CTP-prosessin hyväksymällä päivämäär�
     |**v**|Vuosi|  
 
     Esimerkiksi "3vi" osoittaa offset-ajan olevan kolme viikkoa. Voit osoittaa nykyistä aikayksikköä kirjoittamalla etuliitteeksi "n" mille tahansa edellä mainituista koodeista. Jos haluat offset-ajan olevan esimerkiksi nykyinen kuukausi, kirjoita **nk**.  
-3. Syötä **Toimituksen lupaamisen nrot** -kenttään numerosarja napsauttamalla AssistButtonia ja valitsemalla rivi **Nrosarjat**-ikkunan luettelosta.  
-4. Syötä **Toimituksen lupaamisen malli** -kenttään toimituksen lupaamisen malli napsauttamalla AssistButtonia ja valitsemalla rivi **Hankintalistan mallien luett.** -ikkunan luettelosta.  
-5. Syötä **Toimituk. lupaamisen työkirja** -kenttään hankintalista napsauttamalla kenttää ja valitsemalla rivi **Hankintalistojen nimet** -ikkunan luettelosta.
+3. Anna **Toimituksen lupaamisen nrot** -kenttään numerosarja valitsemalla rivi **Nrosarjat**-sivun luettelosta.  
+4. Anna **Toimituksen lupaamisen malli** -kenttään toimituksen lupaamisen malli valitsemalla rivi **Hankintalistan mallien luett.** -sivun luettelosta.  
+5. Anna **Toimituk. lupaamisen työkirja** -kenttään hankintalista valitsemalla rivi **Hankintalistojen nimet** -sivun luettelosta.
 
-### <a name="to-enter-inbound-warehouse-handling-time-in-the-inventory-setup-window"></a>Saapuvan fyysisen varastoinnin käsittelyajan syöttäminen varastonhallinnan asetuksiin  
+### <a name="to-enter-inbound-warehouse-handling-time-in-the-inventory-setup-page"></a>Saapuvan fyysisen varastoinnin käsittelyajan antaminen varastonhallinnan asetussivulla  
 Jos haluat ohjelman sisällyttävän saapuvan fyysisen varastoinnin käsittelyajan ostorivin toimituksen lupaamisen laskentaan, voit määrittää sen oletusarvoksi varastolle ja sijainnille.    
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varastonhallinnan asetukset** ja valitse sitten liittyvä linkki.  
 2. Syötä **Yleinen**-pikavälilehden **Saapuva f. var. käsittelyaika** -kenttään päivien lukumäärä, jonka haluat ohjelman sisällyttävän tilauksen lupaamisen laskentaan.  
@@ -108,9 +108,9 @@ Jos haluat ohjelman sisällyttävän saapuvan fyysisen varastoinnin käsittelyaj
 3.  Syötä **Fyysinen varasto**-pikavälilehden **Saapuva f. var. käsittelyaika** -kenttään päivien lukumäärä, jonka haluat ohjelman sisällyttävän tilauksen lupaamisen laskentaan.  
 
 > [!NOTE]  
->  Jos jätät **Saapuva f. var. käsittelyaika** -kentän tyhjäksi, laskennassa käytetään **Varastonhallinnan asetukset** -ikkunassa olevaa arvoa.
+>  Jos jätät **Saapuva f. var. käsittelyaika** -kentän tyhjäksi, laskennassa käytetään **Varastonhallinnan asetukset** -sivulla olevaa arvoa.
 
-### <a name="to-enter-outbound-warehouse-handling-time-in-the-inventory-setup-window"></a>Lähtevän fyysisen varastoinnin käsittelyajan syöttäminen varastonhallinnan asetuksiin  
+### <a name="to-enter-outbound-warehouse-handling-time-in-the-inventory-setup-page"></a>Lähtevän fyysisen varastoinnin käsittelyajan antaminen varastonhallinnan asetussivulla  
 Jos haluat määrittää lähtevän fyysisen varastoinnin käsittelyajan sisällytettäväksi myyntirivin toimituksen lupaamisen laskentaan, voit määrittää tämän oletusarvoksi varastolle.
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varastonhallinnan asetukset** ja valitse sitten liittyvä linkki.  
@@ -125,7 +125,7 @@ Jos haluat määrittää lähtevän fyysisen varastoinnin käsittelyajan sisäll
 3.  Syötä **Fyysinen varasto**-pikavälilehden **Lähtevä f. var. käsittelyaika** -kenttään päivien lukumäärä, jonka haluat ohjelman sisällyttävän tilauksen lupaamisen laskentaan.  
 
 > [!NOTE]  
->  Jos jätät **Lähtevä f. var. käsittelyaika** -kentän tyhjäksi, laskennassa käytetään **Varastonhallinnan asetukset** -ikkunassa olevaa arvoa.
+>  Jos jätät **Lähtevä f. var. käsittelyaika** -kentän tyhjäksi, laskennassa käytetään **Varastonhallinnan asetukset** -sivulla olevaa arvoa.
 
 ## <a name="to-make-an-item-critical"></a>Nimikkeen määritteleminen kriittiseksi  
 Nimike on merkittävä kriittiseksi, ennen kuin sen voi sisällyttää toimituksen lupaamislaskentaan. Tämä asetus varmistaa, etteivät ei-kriittiset nimikkeet aiheuta turhia toimituksen lupaamislaskutoimituksia.   

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f6ef554270c9e2bdef8074b65ba6e3f0de4bd45c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: e0674c0c308cd83de8a6977e05445c22009f513c
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Hyllytysten suunnitteleminen työkirjoissa
@@ -29,12 +29,12 @@ Jos et valitse tätä kenttää, ohjelma luo automaattisesti hyllytysohjeita vas
 > [!NOTE]  
 >  Riippumatta sijaintikortin **Käytä hyllytystyökirjaa** -kentän tilasta, voit saada hyllytysohjerivejä (kirjattuja vastaanottorivejä) hyllytystyökirjaan tekemällä seuraavaa:  
 >   
->  1.  Paina **F. varastoinnin hyllytys** -ikkunassa Ctrl+D. Nyt voit poistaa koko hyllytysohjeen tai valita rivit käsiteltäviksi työkirjassa ja poistaa ne.  
+>  1.  Paina **F. varastoinnin hyllytys** -sivulla näppäinyhdistelmää Ctrl+D. Nyt voit poistaa koko hyllytysohjeen tai valita rivit käsiteltäviksi työkirjassa ja poistaa ne.  
 > 2.  Jatka prosessia niin monessa hyllytyksessä kuin haluat siihen asti, kun olet poistanut kaikki rivit, joiden parissa haluat työskennellä työkirjassa. Napsauta nyt **Hyllytystyökirjat** ja jatka suunnittelua.  
 
 ## <a name="to-plan-instructions-in-the-put-away-worksheet"></a>Ohjeiden suunnittelu hyllytystyökirjassa  
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Hyllytystyökirja** ja valitse liittyvä linkki.  
-2.  Valitse **Hae f. varastoinnin asiakirjat** -toiminto. Näyttöön tulee **Hyllytyksen valinta** -ikkuna.  
+2.  Valitse **Hae f. varastoinnin asiakirjat** -toiminto. Näyttöön tulee **Hyllytyksen valinta** -sivu.  
 
     Näet kaikki kirjatut vastaanotot ja rekisteröidyt sisäiset hyllytykset, jotka on lähetetty eteenpäin hyllytys-funktioon, mukaan lukien ne, joille hyllytysohjeita on jo luotu. Asiakirjat, joissa on hyllytysrivejä, joita ei ole täysin hyllytetty ja rekisteröity, ei näytetä tässä luettelossa.  
 
@@ -54,7 +54,7 @@ Jos et valitse tätä kenttää, ohjelma luo automaattisesti hyllytysohjeita vas
     > [!NOTE]  
     >  Poistettavat rivit poistetaan vain kyseisestä työkirjasta, ei hyllytyksen valintaluettelosta.  
 
-7.  Valitse **Luo hyllytys** -toiminto. Näyttöön tulevassa **Luo asiakirja** -ikkunassa voit lisätä lisätietoja luotavaan hyllytykseen:  
+7.  Valitse **Luo hyllytys** -toiminto. Näyttöön tulevalla **Luo asiakirja** -sivulla voi lisätä lisätietoja luotavaan hyllytykseen:  
 
     -   Hyllytyksen voi määritellä tietylle työntekijälle.  
     -   Hyllytysohjerivit voidaan lajitella samoin kuin työkirjassa tai varastopaikan luokittelun mukaan. Kun järjestelet varastopaikan luokittelun mukaisesti, Ota-rivit tulevat ensimmäisiksi, koska useimmilla vastaanoton varastopaikoille on varastopaikan luokittelu 0, ja Aseta-rivit tulevat viimeisiksi alkaen varastopaikoista, joilla on alin varastopaikan luokittelu. Jos olet järjestänyt fyysisen varaston niin, että samanlaisen varastopaikan luokittelun varastopaikat ovat vierekkäin, rivien järjesteleminen tällä tavalla säästää lopulta työvaiheita varaston työntekijöiltä.  

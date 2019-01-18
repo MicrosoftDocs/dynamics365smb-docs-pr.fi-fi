@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: a107203cf81b149b920944db1fabace6e434221a
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 4c50c2b6a81eccfe07d41c2527547b7694aca4e7
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="creating-cost-budgets"></a>Kustannusbudjettien luominen
@@ -24,14 +24,14 @@ Budjetointi kustannuslaskennassa muistuttaa pääkirjanpidon budjetointia. Kusta
 
 Kustannusbudjetti luodaan tietylle aikajaksolle, esimerkiksi tilikaudelle. Kustannusbudjetteja voi määrittää niin monta kuin tarvitaan. Voit luoda uuden kusannusbudjeti manuaalisesti tai tuomalla kustannusbudjetin tai kopioimalla aiemmin luodun kustannusbudjetin talousarvion perustaksi. Lisätietoja on kohdassa [KP-budjettien luominen](finance-how-create-budgets.md).
 
-Voit luoda ja analysoida kustannusbudjetteja seuraavissa ikkunoissa. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake ja etsi ikkuna. Lue sitten kunkin ikkunan työkaluvihje.
+Voit luoda ja analysoida kustannusbudjetteja seuraavilla sivuilla. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake ja etsi sivu. Lue sitten kunkin sivun työkaluvihje.
 
 |Vastaanottaja|Katso|  
 |--------|---------|  
 |Siirrä budjetit pääkirjanpidosta.|**Kopioi KP-budjetti kustannuslaskentaan** -eräajo|  
 |Kopioi kustannusbudjetit.|**Kopioi budjetin kustannukset** -eräajo|  
-|Kohdista budjetit.|**Kustannusten kohdistaminen** -ikkuna|  
-|Katso kustannusbudjetin rekisterit ja kustannusbudjettitapahtumat.|**Kustannusbudjettirekisterit** -ikkuna|  
+|Kohdista budjetit.|**Kustannusten kohdistaminen** -sivu|  
+|Katso kustannusbudjetin rekisterit ja kustannusbudjettitapahtumat.|**Kustannusbudjettirekisterit** -sivu|  
 |Tulosta kustannusbudjettivertailut eri raporttien avulla.|**Kustannuslaskennan saldo/budjetti** -raportti<br /><br /> **Kustannuslaskelma/budjetti** -raportti<br /><br /> **Kustannusbudjetti kustannuspaikoittain** -raportti<br /><br /> **Kustannusbudjetti kustannuskohteittain** -raportti|  
 
 ## <a name="see-also"></a>Katso myös  

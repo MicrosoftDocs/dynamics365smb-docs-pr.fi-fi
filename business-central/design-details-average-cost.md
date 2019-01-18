@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5c87d33bbf9d97f53e033c663532052c8aeddee9
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 97bc83c402cd8bbdc34f05035dfa6c680c2e635e
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-average-cost"></a>Rakennetiedot: keskimääräinen kustannus
@@ -23,7 +23,7 @@ Nimikkeen keskimääräiskustannukset on laskettu kausittain painotetulla keskia
  Arvostuspäivämäärä määritetään automaattisesti.  
 
 ## <a name="setting-up-average-cost-calculation"></a>Määritetään keskimääräiskustannuslaskelma  
- Seuraavassa taulukossa kuvataan kaksi kenttää **Varastonhallinnan asetukset** -ikkunassa, jotka täytyy täyttää, jotta keskimääräiskustannuslaskelma on mahdollinen.  
+ Seuraavassa taulukossa kuvataan kaksi kenttää **Varastonhallinnan asetukset** -sivulla, jotka täytyy täyttää, jotta keskimääräiskustannuslaskelma on mahdollinen.  
 
 |Kenttä|Kuvaus|  
 |---------------------------------|---------------------------------------|  
@@ -33,7 +33,7 @@ Nimikkeen keskimääräiskustannukset on laskettu kausittain painotetulla keskia
 > [!NOTE]  
 >  Voit käyttää tilikaudella vain yhtä keskimääräistä kustannuksen jaksoa ja yhtä keskimääräisten kustannusten laskentatyyppiä.  
 >   
->  **Kirjanpitojaksot**-ikkunassa näkyy mikä keskimääräiskustannuskausi ja mikä keskimääräiskustannuslaskutyyppi on voimassa kullakin kaudella, liittyen kuhunkin kirjanpitokauteen.  
+>  **Kirjanpitojaksot**-sivulla näkyy mikä keskimääräiskustannuskausi ja mikä keskimääräiskustannuslaskutyyppi on voimassa kullakin kaudella, liittyen kuhunkin kirjanpitokauteen.  
 
 ## <a name="calculating-average-cost"></a>Keskimääräisen kustannuksen laskeminen  
  Kun kirjaat tapahtuman nimikkeelle, joka käyttää keskimääräistä kustannusmenetelmää, ohjelma luo merkinnän **Keskim. kust. muutoksen tulopaikka** -taulukossa. Tämä sisältää tapahtuman nimikenumeron, varianttikoodin ja sijaintikoodin. Tapahtuma sisältää myös **Arvostuspvm** -kentän, joka määrittää keskimääräisen kustannuksen jakson viimeisen päivämäärän, jona tapahtuma kirjattiin.  
@@ -51,7 +51,7 @@ Nimikkeen keskimääräiskustannukset on laskettu kausittain painotetulla keskia
  Laskettu keskimääräinen kustannus kohdistetaan tämän jälkeen varaston vähennyksiin nimikkeelle (tai nimikkeelle, sijainnille ja variantille) joiden kirjauspäivämäärät ovat keskimääräisellä kustannusjaksolla. Jos on olemassa varaston arvon nousuja, jotka kohdistettiin kiinteästi varaston arvon laskuihin keskimääräisellä kustannusjaksolla, tällöin laskettu keskimääräinen kustannus siirretään kasvusta vähennykseen.  
 
 ### <a name="example-average-cost-period--day"></a>Esimerkki: keskimääräisen kustannusjakso = päivä  
- Seuraavassa esimerkissä kuvataan yhden päivän keskimääräiskustannusjaksoon perustuvan keskimääräiskustannusten laskennan vaikutus. **Varastonhallinnan asetukset** -ikkunan **Keskim. kust. laskentatyyppi** -kentän arvoksi on asetettu **Nimike**.  
+ Seuraavassa esimerkissä kuvataan yhden päivän keskimääräiskustannusjaksoon perustuvan keskimääräiskustannusten laskennan vaikutus. **Varastonhallinnan asetukset** -sivun **Keskim. kust. laskentatyyppi** -kentän arvoksi on asetettu **Nimike**.  
 
  Seuraavassa taulukossa esitetään nimikkeen pääkirjan kirjaukset esimerkkinä olevalle keskimääräiskustannusnimikkeelle, NIMIKE1, ennen kuin **Muuta kustannuksia - Nimiketapahtumat** -eräajo on ajettu.  
 
@@ -88,7 +88,7 @@ Nimikkeen keskimääräiskustannukset on laskettu kausittain painotetulla keskia
 |02-03-20|Myynti|-1|-100.00|6|  
 
 ### <a name="example-average-cost-period--month"></a>Esimerkki: keskimääräinen kustannusjakso = kuukausi  
- Seuraavassa esimerkissä kuvataan kuukauden keskimääräiskustannusjaksoon perustuvan keskimääräiskustannusten laskennan vaikutus. **Varastonhallinnan asetukset** -ikkunan **Keskim. kust. laskentatyyppi** -kentän arvoksi on asetettu **Nimike**.  
+ Seuraavassa esimerkissä kuvataan kuukauden keskimääräiskustannusjaksoon perustuvan keskimääräiskustannusten laskennan vaikutus. **Varastonhallinnan asetukset** -sivun **Keskim. kust. laskentatyyppi** -kentän arvoksi on asetettu **Nimike**.  
 
  Jos keskimääräinen kustannusjakso on yksi kuukausi, tällöin jokaiselle nimikenumeron, varianttikoodin, sijaintikoodin ja arvostuspäivämäärän yhdistelmälle luodaan vain yksi tapahtuma.  
 

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
-ms.openlocfilehash: e63179eb2d791a84141bdf46a632e4b7df6c554e
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 54857d668cdceb9cc1d4e035a496d621b1d9459b
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/30/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="enable-picking-items-by-fefo"></a>FEFO-poiminnan ottaminen käyttöön
@@ -40,7 +40,7 @@ Jos kahdella erä-/sarjanumeroidulla nimikkeellä on sama vanhentumispäivämä�
 <br /><br />
 Kun sarja- tai eränumeroituja nimikkeitä poimitaan ohjattua hyllytystä ja poimintaa varten määritetyissä sijainneissa, FEFO poimii vain tyyppiä *Poiminta* olevien varastopaikkojen määrät.  
 <br /><br />
-Ota varastosiirrot käyttöön FEFO:n mukaan joko **Varaston siirto** -ikkunassa tai **Siirtotyökirja** -ikkunassa ja jätä **Varastopaikasta** -kenttä tyhjäksi.  
+Ota varastosiirrot käyttöön FEFO:n mukaan joko **Varaston siirto**- tai **Siirtotyökirja**-sivulla ja jätä **Varastopaikasta**-kenttä tyhjäksi.  
 <br /><br />
 Jos **Tiukka vanhentumisen kirj.** -kenttä on valittuna, poimintaan sisällytetään vain ne kohteet, jotka eivät ole vanhentuneet. Tämä pätee myös silloin, kun et käytä poimintaa FEFO-periaatteen mukaan.
 

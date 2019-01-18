@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 50ac9cbb946fedc687eb5ea1373c99d68f3d322b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ae88a455552c7194422d07e6e666bd81b7eab101
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-expected-cost-posting"></a>Rakennetiedot: oletetun kustannuksen kirjaus
@@ -27,12 +27,12 @@ Oletetut kustannukset kuvaavat esimerkiksi arviota ostetun nimikkeen kustannukse
 > [!NOTE]  
 >  Oletettuja kustannuksia hallitaan vain nimiketapahtumille. Oletetut kustannukset eivät ole aineettomia tapahtumatyyppejä, kuten kapasiteetti ja nimikekulut.  
 
- Jos vain osa varaston arvon lisäyksestä on kirjattu, pääkirjanpidon varastoarvo ei muutu, ellet ole valinnut **Oletettu kust. kirjaus KP:toon** -valintaruutua **Varastonhallinnan asetukset** -ikkunassa. Tässä tapauksessa oletettu kustannus kirjataan väliaikaisille tileille vastaanottohetkellä. Kun vastaanotto on laskutettu kokonaan, väliaikaiset tilit täsmätään ja todellinen kustannus kirjataan varastotilille.  
+ Jos vain osa varaston arvon lisäyksestä on kirjattu, pääkirjanpidon varastoarvo ei muutu, ellet ole valinnut **Oletettu kust. kirjaus KP:toon** -valintaruutua **Varastonhallinnan asetukset** -sivulla. Tässä tapauksessa oletettu kustannus kirjataan väliaikaisille tileille vastaanottohetkellä. Kun vastaanotto on laskutettu kokonaan, väliaikaiset tilit täsmätään ja todellinen kustannus kirjataan varastotilille.  
 
  Laskutetussa arvotapahtumassa näkyy väliaikaisten tilien täsmäyttämiseksi kirjattu oletettu kustannussumma. Tämä tukee täsmäytystä ja jäljitystä.  
 
 ## <a name="example"></a>Esimerkki  
- Seuraavassa esimerkissä näytetään oletetut kustannukset, jos **Automaattinen kustann. kirjaus** -valintaruutu ja **Oletettu kust. kirjaus KP:toon** -valintaruutu on valittu **Varastonhallinnan asetukset** -ikkunassa.  
+ Seuraavassa esimerkissä näytetään oletetut kustannukset, jos **Automaattinen kustann. kirjaus** -valintaruutu ja **Oletettu kust. kirjaus KP:toon** -valintaruutu on valittu **Varastonhallinnan asetukset** -sivulla.  
 
  Kirjaa ostotilaus vastaanotetuksi. Oletetut kustannukset ovat LCY 95.00.  
 

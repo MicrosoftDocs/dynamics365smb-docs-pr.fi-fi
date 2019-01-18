@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: dea237fa837b34e565d9df6156ae6bbfb8508ee6
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 53bf1355c9f7b1d5727e6e63f89a7d2db56cfc48
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="put-items-away-with-warehouse-put-aways"></a>Nimikkeiden hyllyttäminen ja fyysisen varaston hyllytykset
@@ -72,7 +72,7 @@ Kun hyllytysmallin ehtoja vastaavia varastopaikkoja on useita, ohjelma käyttä�
     Jos **Asiakirjan tila** -kenttä on tyhjä, vastaanottoa ei ole hyllytetty ollenkaan. Muutoin kenttä ilmaisee, että vastaanotto hyllytetään osittain tai kokonaan.  
 
 4.  Jos vastaanotto on hyllytetty osittain tai sitä ei ole hyllytetty lainkaan, valitse **Luo hyllytys** -toiminto.  
-5.  Täytä eräajon pyyntöikkuna haluamasi kaltaisen hyllytyksen luomista varten ja valitse **OK**-painike.   
+5.  Täytä eräajon pyyntösivu haluamasi kaltaisen hyllytyksen luomista varten ja valitse **OK**-painike.   
 
 ## <a name="see-also"></a>Katso myös  
 [Varastoinninhallinta](warehouse-manage-warehouse.md)  

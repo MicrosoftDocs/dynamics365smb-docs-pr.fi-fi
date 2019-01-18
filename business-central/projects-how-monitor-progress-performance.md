@@ -11,10 +11,10 @@ ms.search.keywords: project management, KPI, work in process, work in progress
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 065f6cc5dc11af1a9cddf2b3eed2b20e99912960
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 79e5a1e34fbd6c119be52deec60bba494fdd2671
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="monitor-job-progress-and-performance"></a>Projektin edistymisen ja suorituskyvyn valvonta
@@ -40,7 +40,7 @@ Voit luoda projektin KET-menetelmän, joka kuvastaa organisaatiosi tarpeita. Luo
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektin KET-menetelmät** ja valitse sitten liittyvä linkki.  
 2. Valitse **Uusi**-toiminto ja täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-3. Sulje ikkuna.   
+3. Sulje sivu.   
 4. Jos haluat tehdä tästä uudesta menetelmästä oletusmenetelmän, valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektienhallinnan asetukset** ja valitse sitten liittyvä linkki.  
 5. Valitse **Oletus KET-menetelmä** -kentässä menetelmä luettelosta.
 
@@ -49,14 +49,14 @@ Kun luot uuden projektin, määritä, mihin projektin KET-menetelmään se kohdi
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektit** ja valitse sitten liittyvä linkki.
 2. Valitse **Uusi**-toiminto. Lisätietoja on kohdassa [Projektien luominen](projects-how-create-jobs.md).  
-3. Valitse **Projektikortti**-ikkunan **KET-menetelmä**-kentässä KET-menetelmä luettelosta. Vaikka oletusmenetelmä olisi määritetty, voit valita tarvittaessa toisen vaihtoehdon.  
+3. Valitse **Projektikortti**-sivun **KET-menetelmä**-kentässä KET-menetelmä luettelosta. Vaikka oletusmenetelmä olisi määritetty, voit valita tarvittaessa toisen vaihtoehdon.  
 
 ## <a name="to-calculate-wip"></a>Keskeneräisen työn laskeminen
 Voit määrittää tasetileille kirjattavan KET-summan kauden lopussa suoritettavaa raportointia varten. Tähän käytetään **Laske projektin KET** -erätyötä.  
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Laske projektin KET** ja valitse sitten liittyvä linkki.  
 2. Valitse **Laske KET** -toiminto.
-3. Täytä **Laske projektin KET** -ikkunassa tarvittavat kentät.
+3. Täytä **Laske projektin KET** -sivulla tarvittavat kentät.
 4. Valitse **OK**-painike.  
 
 > [!NOTE]  
@@ -66,7 +66,7 @@ Voit määrittää tasetileille kirjattavan KET-summan kauden lopussa suoritetta
 Kun keskeneräinen työ on laskettu, voit kirjata sen tasetileille jakson lopun raportointia varten. Tähän käytetään **Kirjaa projektin KET kirjanpitoon** -erätyötä.
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kirjaa projektin KET kirjanpitoon** ja valitse sitten liittyvä linkki.  
-2. Täytä **Kirjaa projektin KET kirjanpitoon** -ikkunassa tarvittavat kentät.  
+2. Täytä **Kirjaa projektin KET kirjanpitoon** -sivulla tarvittavat kentät.  
 3. Valitse **OK**-painike.
 
 ## <a name="to-view-job-usage-estimates-and-post-updates"></a>Projektin käytön arvioiden tarkasteleminen ja päivitysten kirjaaminen
@@ -79,7 +79,7 @@ Näin voit seurata ja vertailla alkuperäisiä arvioita todellisiin tuloksiin. V
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektipäiväkirjat** ja valitse sitten liittyvä linkki.  
 2. Valitse asianmukaisen projektin päiväkirja ja valitse sitten **Laske jäljellä oleva käyttö** -toiminto.  
-3. Syötä **Laske projektin jäljellä oleva käyttö** -ikkunassa päiväkirjaan lisättävä asiakirjan numero ja kirjauspäivämäärä. Valitse sitten **OK**-painike.  
+3. Anna **Laske projektin jäljellä oleva käyttö** -sivulla päiväkirjaan lisättävä asiakirjan numero ja kirjauspäivämäärä. Valitse sitten **OK**-painike.  
 4. Päivitä tarvittavat muutokset päiväkirjaan.  
 5. Valitse **Kirjaa**.
 
@@ -89,7 +89,7 @@ Kaikki projekteihin liittyvät tapahtumat on tallennettu projektirekistereihin j
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektirekisterit** ja valitse sitten liittyvä linkki.
 2. Valitse asianmukainen rekisteri ja valitse sitten **Projektikirjaukset**-toiminto.
 
-**Projektitapahtumat**-ikkunassa voit tarkastella mihin tahansa projektiin liittyviä tapahtumia.  
+**Projektitapahtumat**-sivulla voi tarkastella mihin tahansa projektiin liittyviä tapahtumia.  
 
 ## <a name="see-also"></a>Katso myös
 [Projektien hallinta](projects-manage-projects.md)

@@ -13,16 +13,16 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: bdb2f5d98d22f861ce3fed0d8c72ae7992a80fdb
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a0c8cc9444c1b6979843beff55cc9e792ec188d0
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-service-invoices-or-credit-memos"></a>Huoltolaskujen ja hyvityslaskujen luominen
 Huoltotilausten laskuttamisen helppous on yksi [!INCLUDE[d365fin](includes/d365fin_md.md)]:n tärkeimmistä ominaisuuksista. Voit lähettää laskun asiakkaille milloin tahansa tai voit luoda laskut jaksoittain.  
   
-Laskun voi luoda suoraan **Huoltosopimus**-ikkunassa. Järjestelmän voi myös määrittää niin, että huoltoteknikko voi luoda laskun kentällä, vaikka palvelua ei olisikaan liitetty sopimukseen tai tilaukseen.  
+Laskun voi luoda suoraan **Huoltosopimus**-sivulla. Järjestelmän voi myös määrittää niin, että huoltoteknikko voi luoda laskun kentällä, vaikka palvelua ei olisikaan liitetty sopimukseen tai tilaukseen.  
 
 ## <a name="to-invoice-a-service-contract-from-the-service-contract-page"></a>Huoltosopimuksen laskuttaminen Huoltosopimus -ikkunassa   
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Luo huoltosopimuslaskuja** ja valitse sitten liittyvä linkki.  
@@ -62,7 +62,7 @@ Tavallisesti kun kirjaat huoltotilauksen **Lasku**- tai **Toimitus ja lasku** -v
 3. Syötä **Nro** -kentässä.  
   
     > [!NOTE]  
-    >  Vaihtoehtoisesti jos olet määrittänyt huoltolaskuille numerosarjan **Huoltohallinnon asetukset**-ikkunassa, voit painaa Enter, jolloin ohjelma syöttää seuraavan saatavilla olevan laskunumeron.  
+    >  Vaihtoehtoisesti jos olet määrittänyt huoltolaskuille numerosarjan **Huoltohallinnon asetukset**-sivulla, voit painaa Enter, jolloin ohjelma syöttää seuraavan saatavilla olevan laskunumeron.  
   
 4. Syötä **Asiakasnro** -kentässä asiakkaan tunnus. Valitse asiamukainen asiakas luettelosta.  
   
@@ -87,7 +87,7 @@ Voit laskuttaa asiakkaalta eri huoltotilauksissa toimitettua huoltoa. Ohjelma lu
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltolaskut** ja valitse sitten liittyvä linkki.  
 2. Täytä tarvittaessa rivin muut kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-3. Valitse **Hae palautustoimitusrivit** -toiminto. **Hae huoltotoimitusrivit** -ikkunassa näkyy kaikki asiakkaan toimitetut rivit, joita ei ole laskutettu.  
+3. Valitse **Hae palautustoimitusrivit** -toiminto. **Hae huoltotoimitusrivit** -sivulla näkyy kaikki asiakkaan toimitetut rivit, joita ei ole laskutettu.  
 4. Lisää huoltotoimituksen rivit laskuun valitsemalla ensin laskutetun huollon rivit ja sitten **OK**.  
 
 ## <a name="to-create-a-service-credit-memo"></a>Uuden huollon hyvityslaskun luominen  

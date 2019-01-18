@@ -1,6 +1,6 @@
 ---
 title: "Arkistoitujen työnkulun osavaiheen ilmentymien tarkasteleminen | Microsoft Docs"
-description: "Kaikki valmiit työnkulun osavaiheen ilmentymät tallennetaan **Arkistoidut työnkulun osavaiheen ilmentymät** -ikkunaan."
+description: "Kaikki valmiit työnkulun osavaiheen ilmentymät tallennetaan **Arkistoidut työnkulun osavaiheen ilmentymät** -sivulle."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,26 +13,26 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 32962687b1f1ba9e49ae89e295f1e665fe05f871
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3967e6f4d58e7294eef28d7229974c3e08c87ee0
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="view-archived-workflow-step-instances"></a>Arkistoitujen työnkulun osavaiheen ilmentymien tarkasteleminen
-Kaikki valmiit työnkulun osavaiheen ilmentymät tallennetaan **Arkistoidut työnkulun osavaiheen ilmentymät** -ikkunaan.  
+Kaikki valmiit työnkulun osavaiheen ilmentymät tallennetaan **Arkistoidut työnkulun osavaiheen ilmentymät** -sivulle.  
 
- **Työnkulku**-ikkunassa voit luoda työnkulun luetteloimalla liittyvät toimet riveillä. Jokainen vaihe koostuu työnkulun tapahtumasta, jota valvotaan tapahtuman ehtojen mukaan, ja työnkulun vastauksesta, jota valvotaan vastausvaihtoehtojen mukaan. Työnkulku määritetään täyttämällä työnkulkurivien kentät tapahtumien kiinteistä luetteloista ja vastausarvot, jotka edustavat sovelluskoodin tukemia skenaarioita. Lisätietoja on kohdassa [Työnkulkujen luominen](across-how-to-create-workflows.md).  
+ Voit luoda **Työnkulku**-sivulla työnkulun mainitsemalla liittyvät toimet riveillä. Jokainen vaihe koostuu työnkulun tapahtumasta, jota valvotaan tapahtuman ehtojen mukaan, ja työnkulun vastauksesta, jota valvotaan vastausvaihtoehtojen mukaan. Työnkulku määritetään täyttämällä työnkulkurivien kentät tapahtumien kiinteistä luetteloista ja vastausarvot, jotka edustavat sovelluskoodin tukemia skenaarioita. Lisätietoja on kohdassa [Työnkulkujen luominen](across-how-to-create-workflows.md).  
 
 ## <a name="to-view-archived-workflow-step-instances"></a>Arkistoitujen työnkulun osavaiheen instanssien tarkasteleminen  
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Työnkulut** ja valitse sitten liittyvä linkki.  
 2.  Avaa työnkulku, jonka arkistoituja työnkulun osavaiheen instansseja haluat tarkastella.  
-3.  Valitse **Työnkulku**-ikkunassa **Arkistoidut työnkulun osavaiheen ilmentymät** action.  
+3.  Valitse **Työnkulku**-sivulla **Arkistoidut työnkulun osavaiheen ilmentymät** -toiminto.  
 
-    **Arkistoidut työnkulun osavaiheen ilmentymät** -ikkuna avautuu, jossa näkyvät valitun työnkulun arkistoidut työnkulun osavaiheen ilmentymät.  
+    **Arkistoidut työnkulun osavaiheen ilmentymät** -sivu avautuu, ja siinä näkyvät valitun työnkulun arkistoidut työnkulun osavaiheen ilmentymät.  
 4.  Vaihtoehtoisesti voit valita ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvakkeen, syöttää **Arkistoidut työnkulun osavaiheen ilmentymät** ja valita sitten liittyvän linkin.  
 
-**Arkistoidut työnkulun osavaiheen ilmentymät** -ikkuna avautuu, jossa näkyvät kaikki arkistoidut työnkulun osavaiheen ilmentymät. **Työnkulun koodi** -kentässä näet, mihin työnkulkuun arkistoitu työnkulun osavaiheen instanssi kuului.  
+**Arkistoidut työnkulun osavaiheen ilmentymät** -sivu avautuu, ja siinä näkyvät kaikki arkistoidut työnkulun osavaiheen ilmentymät. **Työnkulun koodi** -kentässä näet, mihin työnkulkuun arkistoitu työnkulun osavaiheen instanssi kuului.  
 
 ## <a name="see-also"></a>Katso myös  
  [Työnkulkujen poistaminen](across-how-to-delete-workflows.md)   

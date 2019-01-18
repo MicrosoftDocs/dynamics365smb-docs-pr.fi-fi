@@ -14,10 +14,10 @@ ms.date: 11/13/2018
 ms.author: sgroespe
 redirect_url: finance-set-up-cost-accounting
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 3eb90611939dce2134d9413812918c2afb82c083
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 616fcbe937e556c17e8beb79f68bc961ea8bbe18
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-cost-objects"></a>Kustannuskohteiden määrittäminen
@@ -27,7 +27,7 @@ Kustannuskohteet ovat yrityksen projekteja, tuotteita tai palveluja. Kustannusko
 * Luo uusi kustannuskohteen kaavio, joka on riippumaton pääkirjanpidosta, tai lisää uusi kustannuskohde nykyiseen kustannuskohteiden kaavioon. Sinun on luotava kukin kustannuskohde erikseen.  
 
 ## <a name="to-transfer-dimension-values-from-the-general-ledger-to-the-chart-of-cost-objects"></a>Siirrä dimensioarvot pääkirjanpidosta kustannuskohdekaavioon  
-1.  Määritä dimensio kustannuskohteen dimensioksi **Päivitä KL-dimensiot** -ikkunassa. Vain tämän dimension arvot siirretään.  
+1.  Määritä dimensio kustannuskohteen dimensioksi **Päivitä KL-dimensiot** -sivulla. Vain tämän dimension arvot siirretään.  
 2.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kustannuskohdekartta** ja valitse sitten liittyvä linkki.  
 3.  Valitse **Nouda kustannuskohteet dimensiosta** -toiminto, jolla dimensioarvot siirretään kustannuskohdekaavioon. Toiminto siirtää kohdassa 1 määritetyt dimensioarvot.  
 
@@ -36,10 +36,10 @@ Kustannuskohteet ovat yrityksen projekteja, tuotteita tai palveluja. Kustannusko
 
 Kustannuskohdekaavio sisältää nyt kaikki pääkirjanpidossa määritetyt dimensioarvot, mukaan lukien otsikot ja välisummat.  
 
-## <a name="to-create-new-cost-objects-in-the-chart-of-cost-objects-window"></a>Uuden kustannuskohteen luominen Kustannuskohdekartta-ikkunassa  
-Voit määrittää ja ylläpitää kustannuskohteita joko **Kustannuskohteen kortti** -kortissa tai **Kustannuskohdekartta**-ikkunassa. Tässä toimenpiteessä määrität kustannuskohteet **Kustannuskohdekartta**-ikkunassa.  
+## <a name="to-create-new-cost-objects-in-the-chart-of-cost-objects-page"></a>Uuden kustannuskohteen luominen Kustannuskohdekartta-sivulla  
+Voit määrittää ja ylläpitää kustannuskohteita joko **Kustannuskohteen kortti** -kortissa tai **Kustannuskohdekartta**-sivulla. Tässä toimenpiteessä määrität kustannuskohteet **Kustannuskohdekartta**-sivulla.  
 
-1.  Avaa **Kustannuskohdekartta**-ikkuna muokkaustilassa.  
+1.  Avaa **Kustannuskohdekartta**-sivu muokkaustilassa.  
 2.  Syötä kustannuskohdekoodi **Koodi**-kenttään. Kaikilla kustannuskohteilla on oltava koodi.  
 3.  Syötä kustannuskohteen nimi **Nimi**-kenttään.  
 4.  Valitse avattava nuoli **Rivityyppi**-kentässä määrittämään kustannuskohteen tarkoitus.  

@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fafe6aa28b61960ea028755f3308155aa1633b60
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d0a7088e436def55b3c7ddc3115065c66686b7fb
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Vaihekuvaus: Toimitusten manuaalinen suunnittelu
-Tässä vaihekuvauksessa käsitellään toimitustilausten suunnitteluprosessia uuden kysynnän täyttämiseksi. Voit aloittaa tarjonnan suunnittelun tietyin välein, esimerkiksi joka aamu tai joka maanantai, tai kun myynti tai tuotanto ilmoittaa ne kysyntätyypin mukaan. Tässä vaihekuvauksessa käytetään **Tilauksen suunnittelu** -ikkunaa. Se on yksinkertainen toimitusten suunnittelutyökalu, joka perustuu parametripohjaisen automaattisen suunnittelun asemesta manuaaliseen päätöksentekoon.  
+Tässä vaihekuvauksessa käsitellään toimitustilausten suunnitteluprosessia uuden kysynnän täyttämiseksi. Voit aloittaa tarjonnan suunnittelun tietyin välein, esimerkiksi joka aamu tai joka maanantai, tai kun myynti tai tuotanto ilmoittaa ne kysyntätyypin mukaan. Tässä vaihekuvauksessa käytetään **Tilauksen suunnittelu** -sivua. Se on yksinkertainen toimitusten suunnittelutyökalu, joka perustuu parametripohjaisen automaattisen suunnittelun asemesta manuaaliseen päätöksentekoon.  
 
 ## <a name="about-this-walkthrough"></a>Tietoja tästä vaihekuvauksesta  
  Tässä vaihekuvauksessa käsitellään seuraavia tehtäviä:  
@@ -48,30 +48,30 @@ Tässä vaihekuvauksessa käsitellään toimitustilausten suunnitteluprosessia u
 ## <a name="story"></a>Taustatietoja  
  Pienen teollisuusyhtiön tuotantosuunnittelija Karl aikoo suunnitella tuotanto- ja ostotilaukset uuden myyntikysynnän täyttämiseksi.  
 
- Koska tuotteissa ei ole useaa tuoterakennetasoa eikä tilauksia ole paljon, Karl luo toimitustilaukset manuaalisesti **Tilauksen suunnittelu** -ikkunassa yksi tuotetaso kerrallaan.  
+ Koska tuotteissa ei ole useaa tuoterakennetasoa eikä tilauksia ole paljon, Karl luo toimitustilaukset manuaalisesti **Tilauksen suunnittelu** -sivulla yksi tuotetaso kerrallaan.  
 
  Monimutkaisemmissa tuotantoympäristöissä suunnittelutyökirjaa käytetään toimitusten suunnitteluun, joka perustuu nimikeparametreihin, kuten uudelleenajoitusjaksoon, toimitusajan varmistukseen ja uusintatilauspisteeseen, sekä kaikkien tuotetasojen yhdistetyn kysynnän erälaskentaan.  
 
 ## <a name="setting-up-the-sample-data"></a>Esimerkkitietojen määrittäminen  
  Tavallisessa CRONUS-esimerkkiyrityksessä on tällä hetkellä paljon suunnittelematonta kysyntää. Tämän vaihekuvauksen suunnittelutehtävien aikana realistisesta liiketoimintojen työnkulusta täytyy poiketa. Siitä poiketaan jättämällä huomiotta kysyntä, jonka eräpäivät ovat lähellä, ja käyttämällä sen sijaan kysyntää, jonka eräpäivät ovat myöhäisempiä.  
 
-## <a name="using-the-order-planning-window"></a>Tilauksen suunnittelu -ikkunan käyttäminen  
+## <a name="using-the-order-planning-page"></a>Tilauksen suunnittelu -sivun käyttäminen  
 
 <!-- 
-The **Order Planning** window can be accessed from several different locations on the **Departments** menu in the navigation pane:  
+The **Order Planning** page can be accessed from several different locations on the **Departments** menu in the navigation pane:  
 
 -   Manufacturing, Planning  
 -   Sales & Marketing, Order Processing  
 -   Purchase, Planning  
--   In addition, you can open this window for a specific production order by choosing **Planning** on the **Navigate** tab in the **Order** group.
+-   In addition, you can open this page for a specific production order by choosing **Planning** on the **Navigate** tab in the **Order** group.
 
 -->  
 
-### <a name="to-use-the-order-planning-window"></a>Tilauksen suunnittelu -ikkunan käyttäminen  
+### <a name="to-use-the-order-planning-page"></a>Tilauksen suunnittelu -sivun käyttäminen  
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tilauksen suunnittelu** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Tilauksen suunnittelu** ja valitse sitten liittyvä linkki.  
 
-     Kun **Tilauksen suunnittelu** -ikkuna aukeaa, suunnitelma on laskettava, jotta uusi, edellisen laskennan jälkeinen kysyntä tulee näyttöön.  
+     Kun **Tilauksen suunnittelu** -sivu avautuu, suunnitelma on laskettava, jotta uusi, edellisen laskennan jälkeinen kysyntä tulee näyttöön.  
 
 2.  Valitse **Laske suunnitelma** -toiminto.  
 
@@ -79,9 +79,9 @@ The **Order Planning** window can be accessed from several different locations o
 
      Kunkin kysyntärivin tarvittu määrä lasketaan kokonaissaatavuuden perusteella. Nämä laskelmat tehdään tilauskohtaisesti. Toisin sanoin ensin lasketaan kysyntärivin sisältävä tilaus, jolla on varhaisin eräpäivä tai lähetyksen päivämäärä. Tämän jälkeen muut kysyntärivit lasketaan samassa järjestyksessä eräpäivästä ja lähetyksen päivämäärästä riippumatta.  
 
-3.  Varmista, että **Tilauksen suunnittelu** -ikkuna on suurennettu ja että sarakkeen kenttien kokoa on muutettu siten, että kaikki oletuskenttänimet näkyvät.  
+3.  Varmista, että **Tilauksen suunnittelu** -sivu on suurennettu ja että sarakkeen kenttien kokoa on muutettu siten, että kaikki oletuskenttänimet näkyvät.  
 
-     Kun laskutoimitukset on suoritettu, täyttämätön kysyntä näkyy ikkunassa supistettuina tilauksen otsikkoriveinä, jotka on lajiteltu varhaisimman mahdollisen kysyntäpäivämäärän mukaan.  
+     Kun laskutoimitukset on suoritettu, täyttämätön kysyntä näkyy sivulla supistettuina tilauksen otsikkoriveinä, jotka on lajiteltu varhaisimman mahdollisen kysyntäpäivämäärän mukaan.  
 
      Huomaa, että CRONUSilla on useita tilauksia, joissa on täyttämätöntä kysyntää. Jokainen lihavoitu suunnittelurivi vastaa tilausta &mdash; myyntitilausta tai tuotantotilausta &mdash; ja mukana on vähintään yksi tilausrivi, jossa saatavuus on riittämätön.  
 
@@ -98,7 +98,7 @@ The **Order Planning** window can be accessed from several different locations o
 
 1.  Laajenna ensimmäinen rivi (napsauta plusmerkkiä).  
 2.  Valitse ensimmäinen kysyntärivi, jossa on nimike **LSU-15**, ja valitse sitten **Näytä asiakirja** -toiminto.  
-3.  Siirry takaisin **Tilauksen suunnittelu** -ikkunaan sulkemalla avattu tuotantotilaus.  
+3.  Siirry takaisin **Tilauksen suunnittelu** -sivulle sulkemalla avattu tuotantotilaus.  
 4.  Valitse **Täydennysjärjestelmä**-kentässä **Osto**.  
 
      Oletusarvo on nimikkeen kortti (tai varastoyksikön kortti), mutta sen voi vaihtaa yhdeksi kolmesta vaihtoehdosta:  
@@ -118,13 +118,13 @@ The **Order Planning** window can be accessed from several different locations o
     >  Jos komponenteille on määritetty toimittajan oletusnumero nimikkeen kortteihin, rivit on määritetty ennalta.  
 
 6.  Valitse **Tarjonta kohteesta** -kenttä.  
-7.  Valitse **Nimikkeen toimittajaluettelo** -ikkunassa **Uusi**-toiminto ja valitse toimittaja **30000**.  
-8.  Valitse **OK**-painike palataksesi **Tilauksen suunnittelu** -ikkunaan.  
+7.  Valitse **Nimikkeen toimittajaluettelo** -sivulla **Uusi**-toiminto ja valitse toimittaja **30000**.  
+8.  Valitse **OK**-painike palataksesi **Tilauksen suunnittelu** -sivulle.  
 9. Kopioi toimittajan numero **30000** tämän tuotantotilauksen kaiutinkomponenttien muihin riveihin.  
 
      Nyt voit luoda ostotilauksen.  
 
-10. Valitse **Tee tilaukset** -toiminto. **Tee toimitustilaukset** -ikkuna avautuu.  
+10. Valitse **Tee tilaukset** -toiminto. **Tee toimitustilaukset** -sivu avautuu.  
 11. Valitse **Tee tilaukset** -kentän **Tilauksen suunnittelu** -pikavälilehdessä **Aktiivinen tilaus**.  
 12. Valitse **Vaihtoehdot**-pikavälilehden **Luo ostotilaus** -kentästä **Tee ostotilaukset**.  
 13. Luo ostotilaukset tilauksen kaikille komponenteille valitsemalla **OK**.  
@@ -144,15 +144,15 @@ The **Order Planning** window can be accessed from several different locations o
      Näkyviin tulevat nimikkeen määritetty täydennysjärjestelmä ja oletustoimittaja.  
 
     > [!NOTE]  
-    >  Ikkunan alaosassa on neljä tietokenttää. **Varhaisin mahdollinen päivämäärä** -kentässä näkyy, että tarvittavat kymmenen kappaletta tulevat saataville saapuvassa toimitustilauksessa yhdeksän päivää nykyisen eräpäivän jälkeen. Jos tämä on asiakkaalle liian myöhäinen ajankohta, **Siirtoon saatavilla** -kentässä näkyy, että nimikettä on 13 kappaletta toisessa sijainnissa. Tätä tavaraa varten on tarkoitus laatia suunnitelma.  
+    >  Sivun alaosassa on neljä tietokenttää. **Varhaisin mahdollinen päivämäärä** -kentässä näkyy, että tarvittavat kymmenen kappaletta tulevat saataville saapuvassa toimitustilauksessa yhdeksän päivää nykyisen eräpäivän jälkeen. Jos tämä on asiakkaalle liian myöhäinen ajankohta, **Siirtoon saatavilla** -kentässä näkyy, että nimikettä on 13 kappaletta toisessa sijainnissa. Tätä tavaraa varten on tarkoitus laatia suunnitelma.  
 
-3.  Avaa **Hae vaihtoehtoinen tarjonta** -ikkuna napsauttamalla **Siirtoon saatavilla** -kentän hakupainiketta.  
+3.  Avaa **Hae vaihtoehtoinen tarjonta** -sivu napsauttamalla **Siirtoon saatavilla** -kentän hakupainiketta.  
 4.  Varaa kymmenen saatavilla olevaa nimikettä valitsemalla **OK**.  
 
     > [!NOTE]  
     >  Siirto VIHREÄ-sijainnista on vaihdettu ehdotetun oston tilalle kysyntäriville. **Tee tilaukset** -toiminto luo siirtotilauksen VIHREÄ-sijainnista vaadittuun sijaintiin. **Korvaavia olemassa** -kenttä toimii samalla tavalla.  
 
-5.  Valitse **Tee tilaukset** -toiminto. **Tee toimitustilaukset** -ikkuna avautuu.  
+5.  Valitse **Tee tilaukset** -toiminto. **Tee toimitustilaukset** -sivu avautuu.  
 6.  Valitse **Tee tilaukset** -kentän **Tilauksen suunnittelu** -pikavälilehdessä **Aktiivinen tilaus**.  
 7.  Valitse **Vaihtoehdot**-pikavälilehden **Luo siirtotilaus** -kentässä **Tee siirtotilaukset** -vaihtoehto.  
 8.  Luo siirtotilaus myyntitilauksen toimittamista varten valitsemalla **OK**.  
@@ -168,26 +168,26 @@ The **Order Planning** window can be accessed from several different locations o
 
      Tämä kysyntä on myyntirivi, mutta nimikkeelle on määritetty täydennysjärjestelmäksi **Tuotantotilaus**. Lisää ylimääräinen kello kunkin polkupyörän komponenttitarpeeseen.  
 
-2.  Avaa **Suunnittelu komponentit**-ikkuna valitsemalla **Komponentit**-toiminto.  
+2.  Avaa **Suunnittelukomponentit**-sivu valitsemalla **Komponentit**-toiminto.  
 3.  Vaihda Kello-nimikkeen rivillä **Määrä per** -kentän arvo **1** arvoksi **2**.  
-4.  Harkitse suunnitteluvaihtoehtoja **Tilauksen suunnittelu** -ikkunassa. Tässä tilanteessa vaihtoehtoisia toimitustapoja &mdash; siirtoa tai korvaavaa tai myöhempää toimitusta &mdash; ei ole. Ehdotettu toimitustilaus, tuotantotilaus, on luotava.  
+4.  Harkitse suunnitteluvaihtoehtoja **Tilauksen suunnittelu** -sivulla. Tässä tilanteessa vaihtoehtoisia toimitustapoja &mdash; siirtoa tai korvaavaa tai myöhempää toimitusta &mdash; ei ole. Ehdotettu toimitustilaus, tuotantotilaus, on luotava.  
 5.  Luo tuotantotilaus valitsemalla **Tee tilaukset** -toiminto.  
 
-     Huomaa, että myyntitilauksen **1001** suunnitteluriviä ei enää ole **Tilauksen suunnittelu** -ikkunassa. Alustava myyntikysyntä on täytetty.  
+     Huomaa, että myyntitilauksen **1001** suunnitteluriviä ei enää ole **Tilauksen suunnittelu** -sivulla. Alustava myyntikysyntä on täytetty.  
 
-6.  Sulje **Tilauksen suunnittelu** -ikkuna.  
+6.  Sulje **Tilauksen suunnittelu** -sivu.  
 
-     Tässä vaiheessa kaikki suunnittelutehtävät voitaisiin jäädä suorittamaan tähän näkymään. Nyt kuitenkin omaksutaan tuotantosuunnittelijan rooli, siirrytään äsken luotuun tuotantotilaukseen ja käytetään **Tilauksen suunnittelu** -ikkunaa.  
+     Tässä vaiheessa kaikki suunnittelutehtävät voitaisiin jäädä suorittamaan tähän näkymään. Nyt kuitenkin omaksutaan tuotantosuunnittelijan rooli, siirrytään äsken luotuun tuotantotilaukseen ja käytetään **Tilauksen suunnittelu** -sivua.  
 
  Tuotantosuunnittelijan täytyy nyt suunnitella tietty tuotantotilaus.  
 
 ### <a name="to-plan-a-specific-production-order"></a>Tietyn tuotantotilauksen suunnitteleminen  
 
 1.  Avaa tuotantotilaus **101001** (kymmenen polkupyörää), joka luotiin aiemmin **Tee tilaukset**-toiminnolla.  
-2.  Avaa **Tuot.til. komponentit** -ikkunassa ja varmista, että ylimääräinen kello näkyy tuotantotilauksessa.  
+2.  Avaa **Tuot.til. komponentit** -sivu ja varmista, että ylimääräinen kello näkyy tuotantotilauksessa.  
 3.  Valitse **Suunnittelu**-toiminto.  
 
-     **Tilauksen suunnittelu** -ikkuna avautuu näkymään, joka on suodatetaan aina tiettyyn tuotannon kysyntään. Myyntikysyntä ei ole näkyvissä. Suunnitelma on laskettava, ennen kuin lisäkysyntä tulee näkyviin.  
+     **Tilauksen suunnittelu** -sivu avautuu näkymään, joka suodatetaan aina tiettyyn tuotannon kysyntään. Myyntikysyntä ei ole näkyvissä. Suunnitelma on laskettava, ennen kuin lisäkysyntä tulee näkyviin.  
 
 4.  Valitse **Laske suunnitelma** -toiminto.  
 
@@ -207,11 +207,11 @@ The **Order Planning** window can be accessed from several different locations o
 
      Ennen kuin painat **OK**-painiketta, huomioi teksti **Tilauksen suunnittelu**-pikavälilehdessä. Tämä teksti on tärkeä, koska polkupyörän tuoterakenteessa tiedetään olevan joitakin tuotettuja komponentteja eli alikokoonpanoja, joilla voisi olla kysyntää, kun luot tämän tuotantotilauksen.  
 
-7.  Valitse **Tee toimitustilaukset** -ikkunan **Tee tilaukset**-kentässä **Kaikki rivit** ja valitse sitten **OK**, jos haluat luoda tuotantotilaukset tilauksen toiselle tuotetasolle.  
+7.  Valitse **Tee toimitustilaukset** -sivun **Tee tilaukset**-kentässä **Kaikki rivit** ja valitse sitten **OK**, jos haluat luoda tuotantotilaukset tilauksen toiselle tuotetasolle.  
 
      Huomaa, että tuotantotilauksella 101001 ei enää ole ylätason tuotantokysyntää. Se merkitsee, että alikokoonpanojen alustava tuotantokysyntä on otettu huomioon suunnittelussa.  
 
-     Suunnitelma lasketaan uudelleen **Tilauksen suunnittelu** -ikkunassa, jotta polkupyörän rakenne voidaan suunnitella.  
+     Suunnitelma lasketaan uudelleen **Tilauksen suunnittelu** -sivulla, jotta polkupyörän rakenne voidaan suunnitella.  
 
 8.  Laske suunnitelma uudelleen upotetun ohjetekstin ohjeiden mukaisesti valitsemalla **Laske suunnitelma**.  
 
@@ -227,9 +227,9 @@ The **Order Planning** window can be accessed from several different locations o
 
      Sanomassa ilmoitetaan, että kaikki vaaditut nimikkeet on nyt toimitettu. Varmista sitovasti suunnitellut tuotantotilaukset, jotka on luotu.  
 
-13. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sitovasti suun. tuotantotil.** ja valitse sitten liittyvä linkki.  
+13. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Sitovasti suun. tuotantotil.** ja valitse sitten liittyvä linkki.  
 
-     Tarkista **Sitovasti suunn. tuotantotil.** -ikkunassa, miten yksittäisten tilausten aloitus- ja päättymisajat on ajoitettu tuoterakenteen mukaan. Alimman tason komponentit tuotetaan ensin. Monitasoisten tilausten suunnitteleminen onkin tärkeää, kuten tässä suunnittelun työnkulussa on havainnollistettu.  
+     Tarkista **Sitovasti suunn. tuotantotil.** -sivulla, miten yksittäisten tilausten aloitus- ja päättymisajat on ajoitettu tuoterakenteen mukaan. Alimman tason komponentit tuotetaan ensin. Monitasoisten tilausten suunnitteleminen onkin tärkeää, kuten tässä suunnittelun työnkulussa on havainnollistettu.  
 
 ## <a name="see-also"></a>Katso myös  
  [Liiketoimintaprosessien vaihekuvaukset](walkthrough-business-process-walkthroughs.md)   

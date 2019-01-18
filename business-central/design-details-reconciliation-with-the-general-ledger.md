@@ -13,10 +13,10 @@ ms.search.keywords: design, reconciliation, general ledger, inventory
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 67392093b4643b6083514859655ce3adc61d1d5b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9655a65fe6a5e6f90ba2c0f1a00c6c8f2cc977ad
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Rakennetiedot: täsmäytys pääkirjanpidon kanssa
@@ -35,7 +35,7 @@ Pääkirjan kirjausten tiliöintipäivät on määritetty vastaavan arvokirjauks
 Tämän **Kirjaa varaston kustannus KP:oon** -eräajon suoritus saattaa aiheuttaa virheitä, koska dimension asetukset puuttuvat tai ne eivät ole yhteensopivia. Jos dimension asetuksissa havaitaan virheitä eräajon aikana, eräajo ohittaa nämä virheet ja käyttää arvotapahtuman dimensioita. Muiden virheiden kohdalla eräajo jättää arvotapahtumat kirjaamatta ja listaa ne raportin lopussa osassa **Ohitetut tapahtumat**. Voit kirjata nämä tapahtumat korjattuasi ensin virheet. Saat virheluettelon näkyviin ennen eräajoa, kun suoritat **Kirjaa varaston kustannukset kirjanpitoon - Testaa** -raportin. Tämä raportti luetteloi kaikki testikirjauksen aikana havaitut virheet. Voit korjata virheet ja suorittaa sitten varaston kustannusten kirjauksen eräajon niin, että tapahtumia ei ohiteta.  
 
 ## <a name="automatic-cost-posting"></a>Automaattinen kustann. kirjaus  
-Voit määrittää pääkirjanpidon kustannusten kirjaamisen automaattiseksi varastotapahtuman kirjaamisen yhteydessä valitsemalla **Varastonhallinnan asetukset** -ikkunan **Automaattinen kustann. kirjaus** -valintaruudun. Pääkirjan kirjauksen tiliöintipäivä on sama kuin nimikkeen pääkirjan kirjauksen tiliöintipäivä.  
+Voit määrittää pääkirjanpidon kustannusten kirjaamisen automaattiseksi varastotapahtuman kirjaamisen yhteydessä valitsemalla **Varastonhallinnan asetukset** -sivun **Automaattinen kustann. kirjaus** -valintaruudun. Pääkirjan kirjauksen tiliöintipäivä on sama kuin nimikkeen pääkirjan kirjauksen tiliöintipäivä.  
 
 ## <a name="account-types"></a>Tilityypit  
 Täsmäytyksessä varastoarvot kirjataan taseen varastotilille. Sama summa, mutta kumousmerkillä, tiliöidään asianmukaiseen tasapainotustiliin. Yleensä vastatili on tuloslaskelmatili. Kun kirjaat kulutukseen tai tuotokseen liittyvän välittömän kustannuksen, vastatili on tasetili. Nimiketapahtuman ja arvotapahtuman tyyppi määrittää sen, mille kirjanpitotilille kirjaus tehdään.  
@@ -45,7 +45,7 @@ Kirjaustyyppi määrittää sen, mihin pääkirjan tiliin tiliöinti tehdään. 
 ### <a name="example"></a>Esimerkki  
 Seuraavassa esimerkissä kuvataan polkupyörän ketju, joka on valmistettu ostetuista lenkeistä. Tämä esimerkki osoittaa, miten eri pääkirjanpidon tilityyppejä käytetään tavallisessa skenaariossa.  
 
-**Varastonhallinnan asetukset** -ikkunassa on valittu **Oletettu kust. kirjaus KP:oon** -valintaruutu ja seuraavat asetukset on määritetty.  
+**Varastonhallinnan asetukset** -sivulla on valittu **Oletettu kust. kirjaus KP:oon** -valintaruutu ja seuraavat asetukset on määritetty.  
 
 Seuraavassa taulukossa esitetään, kuinka lenkki on määritetty nimikekortissa.  
 

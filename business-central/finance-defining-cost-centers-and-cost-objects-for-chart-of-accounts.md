@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: 
 ms.date: 10/01/2018
 ms.author: sgroespe
+redirect_url: finance-set-up-cost-accounting
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5da3967e99bf8a1d5628159a542885ffd1113a02
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: b3ca863a9f4969046695e0cec16fedf6f5ac7aec
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="defining-cost-centers-and-cost-objects-for-chart-of-accounts"></a>Kustannuspaikkojen ja kustannuskohteiden määrittäminen tilikarttaan
@@ -39,11 +40,10 @@ Voit määrittää kunkin pääkirjanpidon tilin dimension oletusarvot **Oletusd
 |Kustannuskohde|Ei koodia|Koodi pakollinen|  
 
 > [!NOTE]  
->  Varmista, että kirjanpitoon ennalta määritetty kustannuspaikka ja kustannusobjekti siirretään automaattisesti kustannuslaskentaan, valitsemalla **Tarkista KP-kirjaukset** -valintaruutu Kustannuslaskennan asetukset -ikkunassa.  
+>  Varmista, että kirjanpitoon ennalta määritetty kustannuspaikka ja kustannusobjekti siirretään automaattisesti kustannuslaskentaan, valitsemalla **Tarkista KP-kirjaukset** -valintaruutu Kustannuslaskennan asetukset -sivulla.  
 
 ## <a name="see-also"></a>Katso myös  
 [Kustannuslaskenta](finance-manage-cost-accounting.md)  
-[Kustannuspaikkojen määrittäminen](finance-how-to-set-up-cost-centers.md)   
-[Kustannuskohteiden määrittäminen](finance-how-to-set-up-cost-objects.md)  
+[Kustannuslaskennan määrittäminen](finance-set-up-cost-accounting.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
 

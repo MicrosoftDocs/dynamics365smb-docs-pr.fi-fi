@@ -13,10 +13,10 @@ ms.search.keywords: design, transfer, sku, locations, warehouse
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fc3f1c3d8a8baab17695c22afb00c35413504ce8
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: dbf1658893d5210c38994302ae817afa7349884a
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-transfers-in-planning"></a>Rakennetiedot: siirrot suunnittelussa
@@ -33,7 +33,7 @@ Siirtotilaus on pitkälti samanlainen kuin kaikki muut ohjelman tilaukset. Taust
 
 Yksi olennainen asia, joka erottaa siirtojen suunnittelun osto- ja tuotantotilauksista on, että siirtorivi kuvaa kysyntää ja tarjontaa samaan aikaan. Lähtevä osa, joka lähetetään vanhasta sijainnista, on kysyntä. Tuleva osa, joka tulee vastaanottaa uudessa sijainnissa, on tämän sijainnin tarjonta.  
 
-![Siirtotilaus-ikkunan sisältö](media/nav_app_supply_planning_7_transfers3.png "Siirtotilaus-ikkunan sisältö")  
+![Siirtotilaus-sivun sisältö](media/nav_app_supply_planning_7_transfers3.png "Siirtotilaus-sivun sisältö")  
 
 Tämä tarkoittaa sitä, että kun järjestelmä muuttaa siirron tarjontapuolta, sen on tehtävä samanlainen muutos kysyntäpuoleen.  
 
@@ -64,7 +64,7 @@ Siirtotason koodi on sisäinen kenttä. Sen arvo lasketaan ja tallennetaan autom
 
 Siirtotason koodi on 0, kun kyseessä ovat täydennysjärjestelmän osto- tai tuotantotilausten varastointiyksiköt. Ensimmäisellä siirtotasolla koodi on -1, toisella -2 jne. Yllä kuvatussa siirtoketjussa tasot olisivat täten -1 PUNAISELLE ja -2 VIHREÄLLE seuraavassa kuvassa esitetyllä tavalla.  
 
-![Varastointiyksikön kortti -ikkunan sisältö](media/nav_app_supply_planning_7_transfers6.gif "Varastointiyksikön kortti -ikkunan sisältö")  
+![Varastointiyksikön kortti -sivun sisältö](media/nav_app_supply_planning_7_transfers6.gif "Varastointiyksikön kortti -sivun sisältö")  
 
 Kun varastointiyksikköä päivitetään, suunnittelujärjestelmä tunnistaa varastointiyksiköt, kun täydennysjärjestelmä on Siirto ja kehäviittaukset on määritetty.  
 
@@ -135,7 +135,7 @@ Tässä esimerkissä se tarkoittaa, että:
 * Lopetuspvm + Saapuva käsittely = Vast.ott. pvm  
 
 ## <a name="safety-lead-time"></a>Toimitusajan varmistus  
-Oletusarvoista varmuusläpimenoaikaa tuotantoasetukset - ikkunassa sekä liittyvää varmuusläpimenoaika -kenttää nimikkeen kortissa ei oteta huomioon siirtotilauksen laskelmassa. Toimitusajan varmistus vaikuttaa kuitenkin yhä kokonaissuunnitelmaan, kuten se vaikuttaa täydennystilaukseen (osto tai tuotanto) siirtoketjun alussa, kun nimikkeet sijoitetaan paikkaan, josta ne siirretään.  
+Oletusarvoista varmuusläpimenoaikaa tuotantoasetukset -sivulla sekä liittyvää varmuusläpimenoaika -kenttää nimikkeen kortissa ei oteta huomioon siirtotilauksen laskelmassa. Toimitusajan varmistus vaikuttaa kuitenkin yhä kokonaissuunnitelmaan, kuten se vaikuttaa täydennystilaukseen (osto tai tuotanto) siirtoketjun alussa, kun nimikkeet sijoitetaan paikkaan, josta ne siirretään.  
 
 ![Siirron eräpäivän elementit](media/nav_app_supply_planning_7_transfers14.png "Siirron eräpäivän elementit")  
 

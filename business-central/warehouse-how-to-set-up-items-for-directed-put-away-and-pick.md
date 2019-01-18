@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 37c8f69f7cac8155bf45ab02dc8908249a0ace71
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0f69cfc3257de42aacf01c26090230350f83dfba
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-items-and-locations-for-directed-put-away-and-pick"></a>Nimikkeiden ja sijaintien määrittäminen ohjattua hyllytystä ja poimintaa varten
@@ -27,9 +27,9 @@ Kun otat ohjatun hyllytyksen ja poiminnan käyttöön fyysisen varastoinnin sija
 2.  Avaa ohjattua hyllytystä ja poimintaa varten määritettävän nimikkeen kortti.
 3. Määritä nimikkeen kortin **F. varastointi** -pikavälilehden kenttien avulla, miten nimikettä käsitellään fyysisessä varastoinnissa.  
 4.  Valitse **Mittayksiköt**-toiminto.
-5. Täytä **Mittayksiköt**-yksikössä kentät määrittämään eri mittayksiköt, joita nimikkeen tapahtumissa voidaan käyttää. Niitä ovat esimerkiksi myös mittayksikön korkeus, leveys, pituus, tilavuus ja paino.
+5. Täytä **Mittayksiköt**-sivulla kentät määrittämään eri mittayksiköt, joita nimikkeen tapahtumissa voidaan käyttää. Niitä ovat esimerkiksi myös mittayksikön korkeus, leveys, pituus, tilavuus ja paino.
 6. Valitse **Varastopaikan sisältö** -toiminto.
-7. Määritä **Varastopaikan sisältö** -ikkunassa sijainti ja varastopaikka, johon nimike on liitettävä. **Oletusarvo**-kenttä ei ole käytössä, kun sijainnissa on käytössä ohjattu hyllytys ja poiminta.  
+7. Määritä **Varastopaikan sisältö** -sivulla sijainti ja varastopaikka, johon nimike on liitettävä. **Oletusarvo**-kenttä ei ole käytössä, kun sijainnissa on käytössä ohjattu hyllytys ja poiminta.  
 
 ## <a name="to-activate-directed-put-away-and-pick-functionality"></a>Nimikkeiden hyllytys ilman ohjattua hyllytystä ja poimintaa  
 Ohjatun hyllytyksen ja poiminnan avulla voit käyttää laajennettuja varastomääritystoimintoja, jotka tehostavat varastointia ja parantavat tietojen luotettavuutta. Jotta voisit käyttää tätä toimintoa, tietyt fyysisen varastoinnin sijainnin parametrit on määritettävä ensin.  
@@ -53,7 +53,7 @@ D. Nyt voit määrittää alueet, jos haluat käyttää alueita fyysisessä vara
 ## <a name="to-set-up-a-zone-in-your-warehouse"></a>Alueen määrittäminen fyysiseen varastoon  
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sijainnit** ja valitse sitten liittyvä linkki.  
 2.  Valitse sijainti, johon haluat määrittää alueen, ja avaa sijaintikortti. Valitse sitten **Alueet**-toiminto.  
-3.  Täytä **Vyöhykkeet**-ikkunassa tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3.  Täytä **Alueet**-sivulla tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 Kun muutat jotakin alueen parametria, kaikki tämän jälkeen alueella luodut varastopaikat saavat uuden ominaisuuden, mutta alkuperäisiä varastopaikkoja ei muuteta.  
 

@@ -11,10 +11,10 @@ ms.search.keywords: planning, design
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: a108de9d4fe537f2d014c705583b910dc7be66a7
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 72b22b1370fcd5d2a92b9ed3c6c645d279ee72f3
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-planning-parameters"></a>Rakennetiedot: suunnittelun parametrit
@@ -40,9 +40,9 @@ Jälkitilausehdotukset julkaistaan yleensä vain, kun arvioitu käytettävissä 
 Uusintatilauspistekäytännöt (**Kiinteä uusintatil. määrä** ja **Maksimimäärä**) käyttävät **Aikaväli**-kenttää, jossa varastomäärä tarkistetaan kunkin aikavälin jälkeen. Ensimmäinen ajanjakso alkaa suunnittelun alkamispäivämääränä.  
 
 > [!NOTE]  
->  Suunnittelujärjestelmä ei ota huomioon aikavälien laskennassa työkalentereita, jotka on määritetty **Yritystiedot**- tai **Sijaintikortti**-ikkunan **Peruskalenterin koodi** -kentässä.  
+>  Suunnittelujärjestelmä ei ota huomioon aikavälien laskennassa työkalentereita, jotka on määritetty **Yritystiedot**- ja **Sijaintikortti**-sivujen **Peruskalenterin koodi** -kentässä.  
 
-Oletusarvoinen varmuusläpimenoaika **Tuotannon asetukset** -ikkunassa, tulee olla asetettuna vähintään yhteen päivään. Kysynnän eräpäivä voi olla tiedossa, mutta ei kellonaika. Suunnitteluaikataulut vastaavat nettokysyntää taantuvasti ja jos varmuusläpimenoaikaa ei ole määritetty, tavarat voivat saapua liian myöhään vastatakseen kysyntää.  
+Oletusarvoinen varmuusläpimenoaika **Tuotannon asetukset** -sivulla, tulee olla asetettuna vähintään yhteen päivään. Kysynnän eräpäivä voi olla tiedossa, mutta ei kellonaika. Suunnitteluaikataulut vastaavat nettokysyntää taantuvasti ja jos varmuusläpimenoaikaa ei ole määritetty, tavarat voivat saapua liian myöhään vastatakseen kysyntää.  
 
 Kolme uudelleentilausjakson kenttää, **Uudelleenajoitusjakso**, **Erän koontijakso** ja **Puskuriaika**, ottavat myös osaa uudelleentilauksen ajankohdan määrittämiseen. Lisätietoja on kohdassa Uusintatilauksen ajankohdan ja määrän optimointi.  
 
@@ -100,7 +100,7 @@ Seuraavassa esimerkissä mustat nuolet kuvaavat olemassa olevaa tarjontaa (ylös
 
 ![Puskuriaika, erän koontijakso ja muutosmäärä](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Puskuriaika, erän koontijakso ja muutosmäärä")  
 
-**Oletusarvot:** **Aikaväli**-kentän ja kolmen uudelleenjärjestelyjakson kentän oletusarvo on tyhjä. **Puskuriaika**-kenttää lukuun ottamatta arvo on muissa kentissä 0D (nolla päivää). Jos **Puskuriaika**-kenttä on tyhjä, käytetään **Tuotannon asetukset** -ikkunassa olevan **Oletuspuskuriaika**-kentän arvoa.  
+**Oletusarvot:** **Aikaväli**-kentän ja kolmen uudelleenjärjestelyjakson kentän oletusarvo on tyhjä. **Puskuriaika**-kenttää lukuun ottamatta arvo on muissa kentissä 0D (nolla päivää). Jos **Puskuriaika**-kenttä on tyhjä, käytetään **Tuotannon asetukset** -sivulla olevan **Oletuspuskuriaika**-kentän arvoa.  
 
 ## <a name="modify-the-supply-orders"></a>Toimitustilausten muuttaminen  
 Kun tilausehdotuksen määrä on laskettu, yksi tai usea tilauksen määrite voi muuttaa sitä. Esimerkiksi enimmäistilausmäärä on suurempi tai yhtä suuri kuin vähimmäistilausmäärä, joka on suurempi tai yhtä suuri kuin tilauskerrannainen.  

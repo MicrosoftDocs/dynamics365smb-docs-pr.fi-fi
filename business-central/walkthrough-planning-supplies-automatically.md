@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 82b61f468b7b0f5f8a5f8406b6df369db41a6ded
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 778f182d12959e0332d538c0471a8c2e0d1613a1
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-planning-supplies-automatically"></a>Vaihekuvaus: Toimitusten automaattinen suunnittelu
@@ -68,7 +68,7 @@ Suunnittelutyökirjan ajolla ja tarvelaskennan ajolla viitataan päätuotantoaik
 
 1.  Avaa nimikkeen 1001 (Retkipyörä) kortti.  
 2.  Valitse **Luo varastointiyksikkö** -toiminto.  
-3.  Älä muuta **Luo varastointiyksikkö** -ikkunan asetuksia tai suodattimia vaan valitse **OK**.  
+3.  Älä muuta **Luo varastointiyksikkö** -sivun asetuksia tai suodattimia vaan valitse **OK**.  
 4.  Toista vaiheet 1-3 nimikkeille numerovälillä 1100-1300.  
 
 ### <a name="to-change-selected-planning-parameters"></a>Vaihda valitut suunnitteluparametrit  
@@ -90,9 +90,9 @@ Suunnittelutyökirjan ajolla ja tarvelaskennan ajolla viitataan päätuotantoaik
 
 ### <a name="to-create-the-sales-order"></a>Myyntitilauksen luominen  
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Myyntitilaukset** ja valitse sitten liittyvä linkki.  
 2.  Valitse **Uusi**-toiminto.  
-3.  Täytä **Myyntitilaus**-ikkunan kentät seuraavassa taulukossa kuvatulla tavalla.  
+3.  Täytä **Myyntitilaus**-sivun kentät seuraavassa taulukossa kuvatulla tavalla.  
 
     |Tilausasiakkaan nimi|Lähetyksen pvm|Nimikkeen nro|Sijainti|määrä.|  
     |----------------------------|-------------------|--------------|--------------|--------------|  
@@ -104,7 +104,7 @@ Suunnittelutyökirjan ajolla ja tarvelaskennan ajolla viitataan päätuotantoaik
 
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Suunnittelutyökirja** ja valitse sitten liittyvä linkki.  
 2.  Valitse **Laske uudelleensuunnittelu** -toiminto.  
-3.  Täytä **Laske suunn. - Suunn.työk.** -ikkunan kentät seuraavassa taulukossa kuvatulla tavalla.  
+3.  Täytä **Laske suunn. - Suunn.työk.** -sivulla kenttä seuraavassa taulukossa kuvatulla tavalla.  
 
     |Laske suunnitelma|Aloituspvm|Lopetuspvm|Näytä tulokset:|Rajoita kokonaisarvoksi|  
     |--------------------|-------------------|-----------------|-------------------|---------------------|  
@@ -117,17 +117,17 @@ Suunnittelutyökirjan ajolla ja tarvelaskennan ajolla viitataan päätuotantoaik
      Varmista seuraavaksi, että tämä suunnittelurivi vastaa Tuotantoyhtymän myyntitilausta. Tämä onnistuu **Tilauksen seuranta** -toiminnolla, joka linkittää kysynnän dynaamisesti suunniteltuun toimitukseen.  
 
 5.  Valitse ensin uusi suunnittelurivi ja sitten **Tilauksen seuranta** -toiminto.  
-6.  Valitse **Tilauksen seuranta** -ikkunassa **Näytä**-toiminto.  
+6.  Valitse **Tilauksen seuranta** -sivulla **Näytä**-toiminto.  
 
      Näyttöön tulee viiden retkipyörän myyntitilaus asiakasnumerolle 10000 5.2.2013 esitetyn mukaisesti.  
 
-7.  Sulje **Myyntitilaus**- ja **Tilauksen seuranta** -ikkunat.  
+7.  Sulje **Myyntitilaus**- ja **Tilauksen seuranta** -sivut.  
 
 ### <a name="to-calculate-mrp-to-include-underlying-component-needs"></a>Laske tarvelaskenta sisällyttäen pohjana olevat osat  
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Suunnittelutyökirja** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Suunnittelutyökirja** ja valitse sitten liittyvä linkki.  
 2.  Valitse **Laske uudelleensuunnittelu** -toiminto.  
-3.  Täytä **Laske suunn. - Suunn.työk.** -ikkunan kentät seuraavassa taulukossa kuvatulla tavalla.  
+3.  Täytä **Laske suunn. - Suunn.työk.** -sivulla kenttä seuraavassa taulukossa kuvatulla tavalla.  
 
     |Laske|Aloituspvm|Lopetuspvm|Näytä tulokset:|Rajoita kokonaisarvoiksi:|  
     |---------------|-------------------|-----------------|-------------------|----------------------|  
@@ -140,7 +140,7 @@ Suunnittelutyökirjan ajolla ja tarvelaskennan ajolla viitataan päätuotantoaik
 ## <a name="analyzing-the-planning-result"></a>Suunnittelun tulosten analysoiminen  
  Karl analysoi ehdotetut määrät. Hän siirtyy valituille suunnitteluriveille ja tarkistaa nimikkeen suunnitteluparametrit sekä tilauksen seurannan merkinnät.  
 
- Huomaa **Suunnittelutyökirja** -ikkunan **Eräpäivä**-sarakkeessa, että ehdotetut toimitustilaukset ajoitetaan taaksepäin myyntitilauksen eräpäivästä 5.2.2014. Aikajana alkaa tuotantotilauksen ylimmästä suunnittelurivistä, joka liittyy viimeisteltyjen retkipyörien tuotantoon. Aikajana päättyy alimmaiseen suunnitteluriviin yhteen alimman tason nimikkeeseen, 1255, Takaistukka, eräpäivä 3.3.2014, liittyvän ostotilauksen kohdalla. Kuten nimikkeen 1251 suunnittelurivi, takarenkaan akseli, tämä rivi edustaa ostotilauksen osia, jotka erääntyvät tuotetun päänimikkeen aloituspäivämääränä, osakokoonpanonimike 1250, joka puolestaan erääntyy 3.2.2014. Voit nähdä koko laskentataulukossa, että kaikki taustalla olevat nimikkeet erääntyvät päätietueidensa aloituspäivänä.  
+ Huomaa **Suunnittelutyökirja** -sivun **Eräpäivä**-sarakkeessa, että ehdotetut toimitustilaukset ajoitetaan taaksepäin myyntitilauksen eräpäivästä 5.2.2014. Aikajana alkaa tuotantotilauksen ylimmästä suunnittelurivistä, joka liittyy viimeisteltyjen retkipyörien tuotantoon. Aikajana päättyy alimmaiseen suunnitteluriviin yhteen alimman tason nimikkeeseen, 1255, Takaistukka, eräpäivä 3.3.2014, liittyvän ostotilauksen kohdalla. Kuten nimikkeen 1251 suunnittelurivi, takarenkaan akseli, tämä rivi edustaa ostotilauksen osia, jotka erääntyvät tuotetun päänimikkeen aloituspäivämääränä, osakokoonpanonimike 1250, joka puolestaan erääntyy 3.2.2014. Voit nähdä koko laskentataulukossa, että kaikki taustalla olevat nimikkeet erääntyvät päätietueidensa aloituspäivänä.  
 
  Nimikkeen 1300, Ketjun kokoonpano, ehdotetaan kymmentä kappaletta. Tämä poikkeaa viidestä kappaleesta, joita odotamme myyntitilauksen täyttämiseksi. Siirry tarkastelemaan tilauksen seurantatapahtumia.  
 
@@ -148,26 +148,26 @@ Suunnittelutyökirjan ajolla ja tarvelaskennan ajolla viitataan päätuotantoaik
 
 1.  Valitse ensin nimikkeen 1300 suunnittelurivi ja sitten **Tilauksen seuranta** -toiminto.  
 
-     **Tilauksen seuranta** -ikkunan kahdella rivillä näkyy, että viittä kappaletta seurataan suunnitteluriviltä (ensimmäinen tilauksen seurannan rivi) myyntitilaukseen 1001 (toinen tilauksen seurannan rivi). Suunnittelurivillä ehdotetut viisi kappaletta eivät liity asiakirjariveihin, vaan ne on määritetty suunnitteluparametrin, ennusteen tai puitetilauksen perusteella. Tällaisten ei-seurattujen määrien summa on **Tilauksen seuranta** -ikkunan **Ei seurattu määrä** -kentässä.  
+     **Tilauksen seuranta** -sivun kahdella rivillä näkyy, että viittä kappaletta seurataan suunnitteluriviltä (ensimmäinen tilauksen seurannan rivi) myyntitilaukseen 1001 (toinen tilauksen seurannan rivi). Suunnittelurivillä ehdotetut viisi kappaletta eivät liity asiakirjariveihin, vaan ne on määritetty suunnitteluparametrin, ennusteen tai puitetilauksen perusteella. Tällaisten ei-seurattujen määrien summa on **Tilauksen seuranta** -sivun **Ei seurattu määrä** -kentässä.  
 
 2.  Valitse **Ei seurattu määrä** -kenttä.  
 
-     **Ei-seurattu suunnitteluelementti** -ikkunassa näkyy, että nimike 1300 käyttää suunnitteluparametria Vähimmäistilausmäärä, jonka arvo on 10,00. Siksi suunnittelurivin kokonaismäärä on kymmenen kappaletta, mutta vain viittä voidaan seurata kysyntään. Toiset viisi kappaletta ovat ei-seurattu määrä, jolla täytetään suunnitteluparametrin edellytykset. Siirry suunnittelun parametrien tarkasteluun.  
+     **Ei-seurattu suunnitteluelementti** -sivulla näkyy, että nimike 1300 käyttää suunnitteluparametria Vähimmäistilausmäärä, jonka arvo on 10,00. Siksi suunnittelurivin kokonaismäärä on kymmenen kappaletta, mutta vain viittä voidaan seurata kysyntään. Toiset viisi kappaletta ovat ei-seurattu määrä, jolla täytetään suunnitteluparametrin edellytykset. Siirry suunnittelun parametrien tarkasteluun.  
 
 ### <a name="to-check-the-planning-parameter"></a>Tarkista suunnitteluparametri  
 
-1.  Valitse **Ei-seuratut suunnitteluelementit** -ikkunassa nimikkeen 1300 tilauksen seurantarivi.  
+1.  Valitse **Ei-seuratut suunnitteluelementit** -sivulla nimikkeen 1300 tilauksen seurantarivi.  
 2.  Valitse ensin **Nimikenro**-kenttä ja sitten **Lisäasetukset**-toiminto.  
-3.  Valitse **Nimikeluettelo**-ikkunassa **Varastointiyksiköt**-toiminto.  
-4.  Avaa **Varastointiyksikön luettelo** -ikkunassa SININEN varastointiyksikön kortti.  
+3.  Valitse **Nimikeluettelo**-sivulla **Varastointiyksiköt**-toiminto.  
+4.  Avaa **Varastointiyksikön luettelo** -sivulla SININEN varastointiyksikön kortti.  
 5.  Huomaa, että **Suunnittelu**-pikavälilehden **Vähimmäistilausmäärä**-kentässä on arvo 10.  
-6.  Sulje kaikki ikkunat **Suunnittelutyökirja**-ikkunaa lukuun ottamatta.  
+6.  Sulje kaikki sivut **Suunnittelutyökirja**-sivua lukuun ottamatta.  
 
 ### <a name="to-view-more-order-tracking-entries"></a>Tarkastele lisää tilauksen seurantatapahtumia  
 
 1.  Valitse ensin nimikkeen 1110 (Vanne) suunnittelurivi ja sitten **Tilauksen seuranta** -toiminto.  
 
-     **Tilauksen seuranta** -ikkunassa näkyy, että viisi vannetta tarvitaan kutakin tuotantotilausta varten eteen ja taakse.  
+     **Tilauksen seuranta** -sivulla näkyy, että viisi vannetta tarvitaan kutakin tuotantotilausta varten eteen ja taakse.  
 
      Sama tilauksen seuranta koskee nimikkeiden 1120, 1160 ja 1170 suunnittelurivejä. Nimikkeen 1120 kunkin renkaan tuotannon tuotantorakenteen **Määrä per** -kentän arvo on 50 kappaletta, joten kokonaistarve on 100.  
 
@@ -175,11 +175,11 @@ Suunnittelutyökirjan ajolla ja tarvelaskennan ajolla viitataan päätuotantoaik
 
 2.  Valitse ensin nimikkeen 1150 suunnittelurivi ja sitten **Tilauksen seuranta** -toiminto.  
 
-     **Tilauksen seuranta** -ikkunassa näkyy, että viisi yksikköä on jäljitetty etupyörään ja yksi yksikkö on seurannan ulkopuolella. Siirry tarkastelemaan ei-seurattua määrää.  
+     **Tilauksen seuranta** -sivulla näkyy, että viisi yksikköä on jäljitetty etupyörään ja yksi yksikkö on seurannan ulkopuolella. Siirry tarkastelemaan ei-seurattua määrää.  
 
 3.  Valitse **Ei seurattu määrä** -kenttä.  
 
-     **Ei-seuratut suunnitteluelementit** -ikkunassa näkyy, että nimike 1150 käyttää suunnitteluparametria Tilauskerrannainen, jonka arvo on 2,00. Tämä määrittää, että nimikettä on tilattava määrä, joka on jaollinen luvulla 2. Viittä lähinnä oleva kahdella jaollinen luku on kuusi.  
+     **Ei-seuratut suunnitteluelementit** -sivulla näkyy, että nimike 1150 käyttää suunnitteluparametria Tilauskerrannainen, jonka arvo on 2,00. Tämä määrittää, että nimikettä on tilattava määrä, joka on jaollinen luvulla 2. Viittä lähinnä oleva kahdella jaollinen luku on kuusi.  
 
      Saman tilauksen seuranta koskee etukeskiön komponentteja 1151 ja 1155. Jokainen tarve lasketaan kuitenkin kertomalla hävikkiprosentti, joka on määritetty nimikkeelle 1150 nimikkeen kortin **Hukkaprosentti** -kentässä.  
 
@@ -192,14 +192,14 @@ Suunnittelutyökirjan ajolla ja tarvelaskennan ajolla viitataan päätuotantoaik
 
 1.  Valitse **Hyväksy toimenpideviesti** -valintaruutu kaikille suunnitteluriveille, joilla on Poikkeus-tyyppinen varoitus.  
 2.  Valitse **Toteuta toimenpideviesti** -toiminto.  
-3.  Täytä **Toteuta toim.pideviesti - Suun.** -ikkunan kentät seuraavassa taulukossa kuvatulla tavalla.  
+3.  Täytä **Toteuta toim.pideviesti - Suun.** -sivun kentät seuraavassa taulukossa kuvatulla tavalla.  
 
     |Tuotantotilaus|Ostotilaus|Siirtotilaus|  
     |----------------------|--------------------|--------------------|  
     |Sitovasti suunniteltu|Tee ostotilaukset|Tee siirtotilaukset|  
 
 4.  Luo kaikki ehdotetut toimitustilaukset automaattisesti valitsemalla **OK**.  
-5.  Sulje tyhjä **Suunnittelutyökirja**-ikkuna.  
+5.  Sulje tyhjä **Suunnittelutyökirja**-sivu.  
 
  Toimitussuunnitelman alkuperäinen laskenta, analyysi ja luonti SININEN-sijainnin kysynnälle helmikuun ensimmäisellä viikolla on nyt valmis. Seuraavassa osassa toinen asiakas tilaa kymmenen retkipyörää, ja Karlin on laskettava suunnitelma uudelleen.  
 
@@ -211,7 +211,7 @@ Suunnittelutyökirjan ajolla ja tarvelaskennan ajolla viitataan päätuotantoaik
 ### <a name="to-create-the-new-sales-demand-and-replan-accordingly"></a>Myynnin kysynnän luominen ja uudelleensuunnittelu  
 
 1.  Valitse **Uusi**-toiminto.  
-2.  Täytä **Myyntitilaus**-ikkunan kentät seuraavassa taulukossa kuvatulla tavalla.  
+2.  Täytä **Myyntitilaus**-sivun kentät seuraavassa taulukossa kuvatulla tavalla.  
 
     |Tilausasiakkaan nimi|Lähetyksen pvm|Nimikkeen nro|Sijainti|määrä.|  
     |----------------------------|-------------------|--------------|--------------|--------------|  
@@ -219,9 +219,9 @@ Suunnittelutyökirjan ajolla ja tarvelaskennan ajolla viitataan päätuotantoaik
 
 3.  Hyväksy saatavuusvaroitus ja valitse **Kyllä**. Uusi kysyntämäärä kirjataan.  
 4.  Seuraavaksi on tarpeen oikaista nykyinen toimitussuunnitelma.  
-5.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Suunnittelutyökirja** ja valitse sitten liittyvä linkki.  
+5.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Suunnittelutyökirja** ja valitse sitten liittyvä linkki.  
 6.  Valitse **Laske nettomuutossuunnitelma** -toiminto.  
-7.  Täytä **Laske suunn. - Suunn.työk.** -ikkunan kentät seuraavassa taulukossa kuvatulla tavalla.  
+7.  Täytä **Laske suunn. - Suunn.työk.** -sivulla kenttä seuraavassa taulukossa kuvatulla tavalla.  
 
     |Laske suunnitelma|Aloituspvm|Lopetuspvm|Näytä tulokset:|Rajoita kokonaisarvoksi|  
     |--------------------|-------------------|-----------------|-------------------|---------------------|  
@@ -244,20 +244,20 @@ Suunnittelutyökirjan ajolla ja tarvelaskennan ajolla viitataan päätuotantoaik
 
 1.  Valitse ensin nimikkeen 1250 suunnittelurivi ja sitten **Tilauksen seuranta** -toiminto.  
 
-     Seitsemän **Tilauksen seuranta** -ikkunan riviä näyttää, että viittä ja kymmentä kappaletta seurataan takarenkaan kautta retkipyöriin vastaavasti kahdessa myyntitilauksessa.  
+     Seitsemän **Tilauksen seuranta** -sivun riviä näyttää, että viittä ja kymmentä kappaletta seurataan takarenkaan kautta retkipyöriin vastaavasti kahdessa myyntitilauksessa.  
 
      Viimeiset viisi kappaletta ovat seurannan ulkopuolella. Siirry analysoimaan.  
 
 2.  Valitse **Ei seurattu määrä** -kenttä.  
 
-     **Ei-seurattu suunnitteluelementti** -ikkunassa näkyy, että nimike 1250 käyttää suunnitteluparametria Tilauskerrannainen, jonka arvo on 10,00. Tämän vuoksi suunnittelurivin arvo on yhteensä 20 kappaletta; todellinen tarve on siis pyöristetty ylöspäin lähimpään 10:llä jaolliseen lukuun. Toiset viisi kappaletta ovat ei-seurattu määrä, jolla täytetään suunnitteluparametrin edellytykset.  
+     **Ei-seurattu suunnitteluelementti** -sivulla näkyy, että nimike 1250 käyttää suunnitteluparametria Tilauskerrannainen, jonka arvo on 10,00. Tämän vuoksi suunnittelurivin arvo on yhteensä 20 kappaletta; todellinen tarve on siis pyöristetty ylöspäin lähimpään 10:llä jaolliseen lukuun. Toiset viisi kappaletta ovat ei-seurattu määrä, jolla täytetään suunnitteluparametrin edellytykset.  
 
-3.  Sulje kaikki ikkunat **Suunnittelutyökirja**-ikkunaa lukuun ottamatta.  
+3.  Sulje kaikki sivut **Suunnittelutyökirja**-sivua lukuun ottamatta.  
 
 ### <a name="to-view-an-existing-order"></a>Olemassa olevan tilauksen tarkasteleminen  
 
 1.  Valitse nimikkeen 1250 suunnittelurivin **Viitatun tilauksen numero** -kentässä.  
-2.  Takakeskiön **Sitovasti suun. tuotantotil.**-ikkuna. Olemassa oleva kymmenen kappaleen tilaus, johon olet luonut ensimmäisen suunnitteluajon, avautuu.  
+2.  Takakeskiön **Sitovasti suun. tuotantotil.**-sivulla. Olemassa oleva kymmenen kappaleen tilaus, johon olet luonut ensimmäisen suunnitteluajon, avautuu.  
 3.  Sitovasti suunnitellut tuotantotilaukset  
 
  Olet nyt käynyt läpi vaihekuvauksen, jossa havainnollistettiin, miten suunnittelujärjestelmässä havaitaan kysyntä automaattisesti, lasketaan toimitustilaukset kysynnän ja suunnitteluparametrien mukaan ja luodaan automaattisesti erilaisia toimitustilauksia sopivia päivämääriä ja määriä käyttäen.  

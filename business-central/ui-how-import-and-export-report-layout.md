@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e32cbdc9bc5f61a054972be4c5bcc409ada961a0
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 27818c45c68f37c052a39eeaeaf0fe6c2c871af9
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="import-and-export-a-report-or-document-layout"></a>Raporttien tai asiakirjojen asettelun tuonti ja vienti
@@ -31,7 +31,7 @@ Voit tuoda ja viedä olemassa olevan mukautetun raporttiasettelun tiedostona tie
   
 2.  Valitse raportille rivi, joka sisältää mukautetun asettelun, jonka haluat viedä ja valitse sitten **Kotisivu**-välilehden **Käsittely**-ryhmässä **Mukautetut asettelut**.  
   
-3.  Valitse **Raporttiasettelut** -ikkunassa raporttiasettelu, jonka haluat viedä tiedostoon, ja valitse sitten **Kotisivu**-välilehden **Käsittely**-ryhmässä **Vie asettelu**.  
+3.  Valitse **Raporttiasettelut** -sivulla raporttiasettelu, jonka haluat viedä tiedostoon, ja valitse sitten **Kotisivu**-välilehden **Käsittely**-ryhmässä **Vie asettelu**.  
   
 4.  Valitse **Vie tiedosto** -valintaikkunassa **Tallenna** ja tallenna tiedosto sitten uuteen paikkaan tietokoneelle tai verkkoon.  
   
@@ -45,7 +45,7 @@ Voit tuoda ja viedä olemassa olevan mukautetun raporttiasettelun tiedostona tie
   
 3.  Valitse raportille rivi, jolle haluat tuoda raporttiasettelun ja valitse sitten **Kotisivu**-välilehden **Käsittely**-ryhmässä **Mukautetut asettelut**.  
   
-4.  Valitse **Raporttiasettelut** -ikkunassa raporttiasettelu, johon haluat tuoda tiedoston, ja valitse sitten **Kotisivu**-välilehden **Käsittely**-ryhmässä **Tuo asettelu**.  
+4.  Valitse **Raporttiasettelut** -sivulla raporttiasettelu, johon haluat tuoda tiedoston, ja valitse sitten **Kotisivu**-välilehden **Käsittely**-ryhmässä **Tuo asettelu**.  
   
 5.  Valitse **Tuo**-valintaruudussa asiakirja, joka määrittää raporttiasettelun ja valitse sitten **Avaa**.  
   

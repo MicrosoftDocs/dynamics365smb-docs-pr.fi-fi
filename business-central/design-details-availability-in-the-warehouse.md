@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 90d25c9c5c5687109387c548a273f4457691e151
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5fd4bedcef6fcec79b1b2c8744c7c08d8170d97e
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Rakennetiedot: saatavuus varastossa
@@ -32,7 +32,7 @@ Järjestelmän on valvottava varaston nimikkeiden saatavuutta jatkuvasti, jotta 
 ## <a name="quantity-available-to-pick"></a>Saatavilla oleva poimintamäärä  
  Jos poiminta-algoritmi ei esimerkiksi ota huomioon nimikkeiden määriä, jotka on varattu odottavalle myyntitilauksen toimitukselle, nämä nimikkeet saatetaan poimia toiselle myyntitilaukselle, joka toimitetaan aiemmin ja tämä estää ensimmäisen myynnin täyttämisen. Tämä tilanne vältetään, kun poiminta-algoritmi vähentää muille lähteville asiakirjoille varatut määrät, olemassa olevien poiminta-asiakirjojen määrät ja määrät, jotka on jo poimittu, mutta joita ei ole vielä toimitettu tai kulutettu.  
 
- Tulos näytetään **Saatav. ol. määrä poimittav.** -kentässä **Poimintatyökirja** -ikkunassa, jossa kenttä lasketaan dynaamisesti. Arvo lasketaan myös silloin, kun käyttäjä luo fyysisen varastoinnin poiminnat suoraan lähteville asiakirjoille. Tällaiset lähtevät asiakirjat voisivat olla myyntitilauksia, tuotantomenekkiä tai saapuvia siirtoja, joiden tulos näkyy liittyvissä määräkentissä, kuten **Käsiteltävä määrä**.  
+ Tulos näytetään **Saatav. ol. määrä poimittav.** -kentässä **Poimintatyökirja**-sivulla, jossa kenttä lasketaan dynaamisesti. Arvo lasketaan myös silloin, kun käyttäjä luo fyysisen varastoinnin poiminnat suoraan lähteville asiakirjoille. Tällaiset lähtevät asiakirjat voisivat olla myyntitilauksia, tuotantomenekkiä tai saapuvia siirtoja, joiden tulos näkyy liittyvissä määräkentissä, kuten **Käsiteltävä määrä**.  
 
 > [!NOTE]  
 >  Varausten prioriteettiin liittyen varattava määrä vähennetään poimittavissa olevasta määrästä. Esimerkiksi, jos poimintalokeroissa käytettävissä oleva määrä on 5 yksikköä, mutta 100 yksikköä on hyllytyslokeroissa, ja kun yrität varata enemmän kuin 5 yksikköä toiselle tilaukselle, järjestelmä näyttää virheilmoituksen, koska poimintalokeroissa on oltava tämä lisämäärä.  
@@ -58,9 +58,9 @@ Järjestelmän on valvottava varaston nimikkeiden saatavuutta jatkuvasti, jotta 
 -   Määrä kokoonpanon valmisteluvarastopaikoissa  
 -   Muutosvarastopaikoissa oleva määrä  
 
- Tulos näkyy **Saatavilla oleva kokonaismäärä** -kenttään **Varaus**-ikkunassa.  
+ Tulos näkyy **Saatavilla oleva kokonaismäärä** -kenttään **Varaus**-sivulla.  
 
- Varausrivillä oleva määrä, jota ei ole mahdollista varata, koska se on varattu varastossa, näytetään **F.var. kohdistettu määrä** -kentässä **Varaus** -ikkunassa.  
+ Varausrivillä oleva määrä, jota ei ole mahdollista varata, koska se on varattu varastossa, näytetään **F.var. kohdistettu määrä** -kentässä **Varaus**-sivulla.  
 
 ### <a name="calculating-the-quantity-available-to-reserve"></a>Lasketaan varattavissa olevaa määrää  
  Varattava määrä lasketaan seuraavasti:  

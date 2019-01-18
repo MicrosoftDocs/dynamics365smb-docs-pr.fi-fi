@@ -5,16 +5,14 @@ author: bholtorf
 ms.service: dynamics365-business-central
 ms.author: bholtorf
 ms.custom: na
-ms.date: 10/01/2018
+ms.date: 11/06/2018
 ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
 ms.topic: article
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ec3efb324420956763c9db272c12c22241b86e55
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 313ebe68ae1963e22bc17d53a7c41ae8f090de60
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 
@@ -31,7 +29,7 @@ Seuraavassa taulukossa on esimerkkejä pyyntötyypeistä, joihin voit vastata.
 |Pyynnön tyyppi|Kuvaus ja ehdotettu vastaus|
 |-----|-----|
 |Siirrettävyyttä koskevat pyynnöt|Tietojen kohde voi tehdä tietojen siirrettävyyttä koskevan pyynnön. Se tarkoittaa, että tietojen kohteen henkilökohtaiset tiedot on vietävä järjestelmästä jäsennetyssä ja yleisesti käytössä olevassa muodossa. Voit vastata näihin pyyntöihin viemällä henkilökohtaiset tiedot Excel-tiedostoon tai RapidStart-määrityspakettiin **tietosuojatyökalun** avulla. Excelin avulla voit muokata henkilökohtaisia tietoja ja tallentaa ne yleisesti käytössä olevassa konekielisessä muodossa, kuten .csv- tai .xml-muodossa. RapidStart-määrityspakettien avulla voit määrittää päätietotaulukot ja niiden henkilökohtaisia tietoja sisältävät liittyvät taulukot. <br><br> **Huomautus:** Tietoja vietäessä on määritettävä luottamuksellisuuden vähimmäistaso. Vienti sisältää vähimmäistason sitä ylempien tasojen tiedot. Esimerkiksi jos haluat viedä tiedot, jotka on luokiteltu henkilökohtaisiksi, tuontiin kuuluvat myös tiedot, jotka luokitellaan luottamuksellisiksi. <br><br>Kun viedään tietojen kohteeseen liittyviä tietoja, **Tietosuojatyökalu** tietojen kohteen ja tietojen kohteeseen liittyvien tietojen suoria suhteita. **Tietosuojatyökalu** ei automaattisesti vie tietojen kohteeseen epäsuorasti liittyviä tietoja tai muita tietoja. Esimerkiksi Kontakti-taulukko liittyy suoraan Kontaktiprofiilin vastaukset -taulukkoon, joka edelleen liittyy suoraan Profiilikysymykset-tietoihin. Jos haluat viedä myös Profiilikysymykset-taulukon tiedot, sinun on lisättävä tämä taulukko manuaalisesti rivinä, jonka **Tietosuojatyökalu** luo asianmukaisten suodattamien avulla.|
-|Poistopyynnöt|Tietojen kohde voi pyytää henkilökohtaisten tietojensa poistamista. Henkilökohtaiset tiedot voi poistaa useilla eri tavoilla mukautusominaisuuksien avulla. Käyttäjän on kuitenkin tehtävä päätös ja toteutus. Joissakin tapauksissa tietoja halutaan muokata suoraan. Esimerkiksi yhteyshenkilö voidaan poistaa ja tämän jälkeen suorittaa Poista peruutettu vuorovaikutus -eräajo yhteyshenkilön vuorovaikutusten poistamiseksi. <br><br> **Huomautus:** Jos **Myyntien ja myyntisaamisten asetukset**- tai **Ostojen ja ostovelkojen asetukset** -ikkunoiden **Salli asiakirjan poisto ennen** -kenttään on määritetty päivämäärä, sitä on ehkä muutettava, jotta tulostetut kirjatut myynti- ja ostoasiakirjat voidaan poistaa, koska niiden kirjauspäivämäärä saattaa olla kyseinen päivämäärä tai sitä aiempi päivämäärä.|
+|Poistopyynnöt|Tietojen kohde voi pyytää henkilökohtaisten tietojensa poistamista. Henkilökohtaiset tiedot voi poistaa useilla eri tavoilla mukautusominaisuuksien avulla. Käyttäjän on kuitenkin tehtävä päätös ja toteutus. Joissakin tapauksissa tietoja halutaan muokata suoraan. Esimerkiksi yhteyshenkilö voidaan poistaa ja tämän jälkeen suorittaa Poista peruutettu vuorovaikutus -eräajo yhteyshenkilön vuorovaikutusten poistamiseksi. <br><br> **Huomautus:** Jos **Myyntien ja myyntisaamisten asetukset**- tai **Ostojen ja ostovelkojen asetukset** -sivujen **Salli asiakirjan poisto ennen** -kenttään on määritetty päivämäärä, sitä on ehkä muutettava, jotta tulostetut kirjatut myynti- ja ostoasiakirjat voidaan poistaa, koska niiden kirjauspäivämäärä saattaa olla kyseinen päivämäärä tai sitä aiempi päivämäärä.|
 |Korjauspyynnöt|Tietojen kohde voi pyytää virheellisten henkilökohtaisten tietojen korjaamista. Sen voi tehdä usealla tavalla. Joissakin tapauksissa voit viedä luettelot Exceliin, joukkomuokata useita tietueita nopeasti ja tuoda sitten päivitetyt tiedot. Lisätietoja on kohdassa [Liiketoimintatietojen vieminen Exceliin](about-export-data.md). Voit muokata henkilökohtaisia tietoja sisältäviä kenttiä myös manuaalisesti. Tiedot voivat olla esimerkiksi asiakaskortin asiakasta koskevia tietoja. Tapahtumatietueet, kuten yleiset tapahtumat, asiakastapahtumat ja verotapahtumat, ovat tärkeitä toiminnanohjausjärjestelmän eheyden kannalta. Jos liiketoimintatapahtumatietueisiin tallennetaan henkilökohtaisia tietoja, tietojen muokkaamisessa kannattaa käyttää mukautusominaisuuksia.|
 
 ## <a name="restrict-data-processing-for-a-data-subject"></a>Tietojen kohteen tietojen käsittelyn rajoittaminen

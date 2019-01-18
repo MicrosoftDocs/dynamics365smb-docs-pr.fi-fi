@@ -13,10 +13,10 @@ ms.search.keywords: VAT, sales, purchases,
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0abbc8f6d7aa80a7a89296568d9a4ecb0ead0f5f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9d6f3cf74582283e633d9c3347def5289aeb8f88
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Myynnin ja ostojen ALV:n käsitteleminen
@@ -39,7 +39,7 @@ Jos kenttää ei valita, ohjelma täyttää **Yksikköhinta**- ja **Rivisummat**
 
 Voit määrittää **Hinnat sisältävät ALV:n** -valinnan oletusarvoksi kaikille tietyn asiakkaan myyntiasiakirjoille **asiakkaan** kortin **Hinnat sisältävät ALV:n** -kentässä. Voit myös määrittää, sisältävätkö nimikehinnat ALV:n. Normaalisti nimikkeen kortin sisältämät nimikehinnat eivät sisällä ALV:tä. Ohjelma määrittää **nimikkeen** kortin **Hinnat sisältävät ALV:n** -kentän perusteella yksikköhinnan myyntiasiakirjoja varten.  
 
-Seuraavassa taulukossa on yleiskuva siitä, kuinka ohjelma laskee yksikköhinnat myyntiasiakirjoja varten silloin, kun hintoja ei ole määritetty **Myyntihinnat**-ikkunassa:  
+Seuraavassa taulukossa on yleiskuva siitä, kuinka ohjelma laskee yksikköhinnat myyntiasiakirjoja varten silloin, kun hintoja ei ole määritetty **Myyntihinnat**-sivulla:  
 
 |**Hinta sisältää ALV:n -kenttä nimikkeen kortissa**|**Hinnat sisältävät ALV:n -kenttä myyntiotsikossa**|**Suoritettava toiminto**|  
 |-----------------------------------------------|----------------------------------------------------|--------------------------|  
@@ -56,8 +56,8 @@ Vaikka olet ehkä määrittänyt vähintään yhden yhdistelmän tuonnin ALV:n k
 Jos maksualennus on laskettu ALV:n sisältävän laskusumman perusteella, ALV-summan maksualennusosa peruutetaan, kun maksualennus annetaan. Huomaa, että **Muutos maksualennusten osalta** -kenttä tulee aktivoida sekä pääkirjanpidon asetuksissa (yleisesti) että ALV-kirjausasetuksissa (erityisille liiketoiminnan ALV-kirjausryhmien ja tuotteen ALV-kirjausryhmien yhdistelmille).  
 
 #### <a name="to-manually-enter-vat-in-sales-documents"></a>Jos haluat lisätä ALV-summat manuaalisesti, tee seuraavat toimet  
-1. Määritä **Pääkirjanpidon asetukset** -ikkunassa ohjelman laskeman summan ja manuaalisen summan **Maksimi sallittu ALV-ero**.  
-2. Lisää **Myyntien ja myyntisaamisten asetukset** -ikkunassa valintamerkki **Salli ALV-ero** -kenttään.  
+1. Määritä **Pääkirjanpidon asetukset** -sivulla ohjelman laskeman summan ja manuaalisen summan **Maksimi sallittu ALV-ero**.  
+2. Lisää **Myyntien ja myyntisaamisten asetukset** -sivulla valintamerkki **Salli ALV-ero** -kenttään.  
 
 #### <a name="to-adjust-vat-for-a-sales-document"></a>Myyntiasiakirjan ALV:n muuttaminen:  
 1. Avaa käsiteltävä myyntitilaus.  
@@ -71,11 +71,11 @@ Jos maksualennus on laskettu ALV:n sisältävän laskusumman perusteella, ALV-su
 Voit oikaista ALV-summia myös at yleisessä päiväkirjassa sekä myynti- ja ostopäiväkirjoissa. Näin on ehkä toimittava esimerkiksi silloin, kun lisäät päiväkirjaan toimittajan laskun ja [!INCLUDE[d365fin](includes/d365fin_md.md)]in laskema ALV-summa eroaa toimittajan laskun ALV-summasta.  
 
 #### <a name="before-you-manually-enter-vat-on-a-general-journal"></a>Ennen kuin syötät manuaalisesti ALV:n yleisen päiväkirjaan  
-1. Määritä **Pääkirjanpidon asetukset** -ikkunassa ohjelman laskeman summan ja manuaalisen summan **Maksimi sallittu ALV-ero**.  
-2. Valitse **Yleisen päiväkirjan mallit** -ikkunassa käsiteltävän päiväkirjan **Salli ALV-ero** -valintaruutu.  
+1. Määritä **Pääkirjanpidon asetukset** -sivulla ohjelman laskeman summan ja manuaalisen summan **Maksimi sallittu ALV-ero**.  
+2. Valitse **Yleisen päiväkirjan mallit** -sivulla käsiteltävän päiväkirjan **Salli ALV-ero** -valintaruutu.  
 
 #### <a name="before-you-manually-enter-vat-on-sales-and-purchase-journals"></a>Ennen kuin voit manuaalisesti lisätä ALV:n myynti- ja ostopäiväkirjoihin, sinun on tehtävä seuraavat toimet:  
-1. Valitse **Ostojen ja ostovelkojen asetukset** -ikkunassa **Salli ALV-ero** -valintaruutu.  
+1. Valitse **Ostojen ja ostovelkojen asetukset** -sivulla **Salli ALV-ero** -valintaruutu.  
 2. Kun olet tehnyt edellä kuvatut asetukset, voit oikaista yleisen päiväkirjan rivin **ALV-summa**-kentän tai myynti- tai ostopäiväkirjan rivin **Vastatilin ALV-summa** -kentän. [!INCLUDE[d365fin](includes/d365fin_md.md)] tarkistaa, että ero ei ole suurempi kuin määritetty enimmäisarvo.  
   
     > [!NOTE]  
@@ -117,7 +117,7 @@ Kun myyt tavaroita toisen EU-maan/alueen asiakkaalle, sinun on lähetettävä as
    Sertifikaatti luodaan, kun päivität **Tila**-kentän arvoksi **Pakollinen**, **Vastaanotettu** tai **Ei vastaanotettu**.  
   
     > [!TIP]  
-    >  Voit käyttää **Tarjontasertifikaatti**-ikkunaa nähdäksesi kaikkien niiden kirjattujen toimitusten tilan, joille on luotu tarjontasertifikaatti.  
+    >  Voit käyttää **Tarjontasertifikaatti**-sivua nähdäksesi kaikkien niiden kirjattujen toimitusten tilan, joille on luotu tarjontasertifikaatti.  
 
 5. Valitse **Tulosta tarjontasertifikaatti**.  
   
@@ -130,15 +130,15 @@ Kun myyt tavaroita toisen EU-maan/alueen asiakkaalle, sinun on lähetettävä as
 3. Valitse **Tulosta tarjontasertifikaatti** -toiminto.  
 
     > [!NOTE]  
-    >  Vaihtoehtoisesti voit tulostaa todistuksen **Tarjontatodistus** -ikkunassa.  
+    >  Vaihtoehtoisesti voit tulostaa todistuksen **Tarjontasertifikaatti**-sivulla.  
 
 4. Jotta voit sisällyttää tiedot sertifikaatin toimitusasiakirjan riveiltä, valitse **Tulosta rivitiedot** -valintaruutu.  
 5. Valitse **Luo tarjontasertifikaatit, jos niitä ei ole luotu** -valintaruutu, jos haluat, että [!INCLUDE[d365fin](includes/d365fin_md.md)] luo sertifikaatit kirjatuille toimituksille, joilla ei niitä ole suorittamishetkellä. Kun valitset valintaruudun, kaikille niille kirjatuille toimituksille luodaan uudet sertifikaatit, joilla ei ole sertifikaatteja valitulla alueella.  
 6. Suodatusasetukset ovat oletusarvon mukaan toimitusasiakirjalle, jonka olet valinnut. Täytä suodatintiedot valitaksesi tietty tarjontatodistus, jonka haluat tulostaa.  
-7. Valitse **Tarjontasertifikaatti**-ikkunassa **Tulosta**-toiminto, jos haluat tulostaa raportin, tai **Esikatselu**-toiminto, jos haluat katsoa sitä näytössä.  
+7. Valitse **Tarjontasertifikaatti**-sivulla **Tulosta**-toiminto, jos haluat tulostaa raportin, tai **Esikatselu**-toiminto, jos haluat katsoa sitä näytössä.  
 
     > [!Note]  
-    > **Tarjontasertifikaatin tila** -kenttä ja **Tulostettu**-kenttä päivitetään toimitukselle **Tarjontasertifikaatit**-ikkunassa.  
+    > Toimituksen **Tarjontasertifikaatin tila** -kenttä ja **Tulostettu**-kenttä päivitetään **Tarjontasertifikaatit**-sivulla.  
 
 8. Lähetä tulostettu tarjontasertifikaatti asiakkaalle allekirjoitettavaksi.  
 
@@ -153,7 +153,7 @@ Kun myyt tavaroita toisen EU-maan/alueen asiakkaalle, sinun on lähetettävä as
 
    Jos asiakas ei palauta allekirjoitettua tarjontatodistusta, valitse **Ei vastaanotettu**. Tämän jälkeen sinun on lähetettävä asiakkaalle uusi lasku, joka sisältää ALV:n, koska veroviranomainen ei hyväksy alkuperäistä laskua.  
 
-Voit tarkastella sertifikaattiryhmiä aloittamalla **Tarjontasertifikaatit** -ikkunasta ja päivitä sitten avointen sertifikaattien tila, kun vastaanotat ne asiakkaalta. Tästä voi olla hyötyä, jos haluat etsiä kaikki tietyn tilan omaavat sertifikaatit, esimerkiksi **Pakollinen**, ja joille haluat päivittää tilaksi **Ei vastaanotettu**.  
+Voit tarkastella sertifikaattiryhmiä aloittamalla **Tarjontasertifikaatit**-sivulta ja päivitä sitten avointen sertifikaattien tila, kun vastaanotat ne asiakkaalta. Tästä voi olla hyötyä, jos haluat etsiä kaikki tietyn tilan omaavat sertifikaatit, esimerkiksi **Pakollinen**, ja joille haluat päivittää tilaksi **Ei vastaanotettu**.  
 
 ### <a name="to-update-the-status-of-a-group-of-certificates-of-supply"></a>Tilauksen tarjontasertifikaattien ryhmän tilan päivittäminen  
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tarjontasertifikaatit** ja valitse sitten liittyvä linkki.  
@@ -166,7 +166,7 @@ Voit tarkastella sertifikaattiryhmiä aloittamalla **Tarjontasertifikaatit** -ik
    Voit muokata päivämäärän vastaamaan päivämäärää, jolloin vastaanotit allekirjoitetun tarjontasertifikaatin. Voit myös lisätä linkin allekirjoitettuun sertifikaattiin käyttämällä [!INCLUDE[d365fin](includes/d365fin_md.md)]in asiakirjojen vakiolinkitystä.  
 
     > [!NOTE]  
-    >  Et voi luoda uutta tarjontasertifikaattia **Tarjontasertifikaatit**-ikkunassa, kun siirryt siihen tällä menetelmällä. Voit luoda sertifikaatin toimitukselle, jota ei asetettu vaatimaan sitä avaamalla kirjatun myyntitoimituksen, ja käyttämällä yhtä kahdesta yllä kuvatusta toimenpiteestä:  
+    >  Et voi luoda uutta tarjontasertifikaattia **Tarjontasertifikaatit**-sivulla, kun siirryt siihen tällä menetelmällä. Voit luoda sertifikaatin toimitukselle, jota ei asetettu vaatimaan sitä avaamalla kirjatun myyntitoimituksen, ja käyttämällä yhtä kahdesta yllä kuvatusta toimenpiteestä:  
     >   
     > * Tarjontasertifikaatin luominen manuaalisesti  
     > * Tarjontasertifikaatin tulostaminen.

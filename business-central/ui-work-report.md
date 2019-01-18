@@ -13,14 +13,14 @@ ms.search.keywords: task, process, report
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ceccc02c841044803337ac53f378451d8f315484
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 706464cf1b9a264f7575156c7835540ce3c254b0
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="working-with-reports"></a>Raporttien käsittely
-Raportti kerää tietoja määritettyjen ehtojen perusteella. Tiedot järjestetään raporttiin helposti luettavassa ja tulostettavassa muodossa. Sovelluksesta voi käyttää monenlaisia raportteja. Raporteissa on yleensä avattuna olevan sivun sisältöön liittyviä tietoja. Esimerkiksi **Asiakas**-ikkunan raportit koskevat 10 suurinta asiakasta, myyntitilastoja jne.
+Raportti kerää tietoja määritettyjen ehtojen perusteella. Tiedot järjestetään raporttiin helposti luettavassa ja tulostettavassa muodossa. Sovelluksesta voi käyttää monenlaisia raportteja. Raporteissa on yleensä avattuna olevan sivun sisältöön liittyviä tietoja. Esimerkiksi **Asiakas**-sivun raportit koskevat 10 suurinta asiakasta, myyntitilastoja jne.
 
 Voit etsiä raportteja valittujen sivujen **Raportit**-välilehdessä tai käyttää ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") hakua, kun haluat etsiä raportteja nimen mukaan.
 
@@ -58,7 +58,7 @@ Valikkorivin avulla voi
 
 -   siirtyä sivuilla
 -   lähentää ja loitontaa
--   muuttaa ikkunan koon sopivaksi
+-   muuttaa sivulle sopivaksi
 -   Valitse teksti
 
     Voit kopioida raportista tekstiä ja liittää sen toisaalle, kuten [!INCLUDE[d365fin](includes/d365fin_md.md)]in sivulle tai Microsoft Wordiin.  Aseta hiiri aloituskohtaan, pidä hiiren painike painettuna ja valitse sitten sanat, lauseet tai kappaleet hiirtä siirtämällä. Voit sitten painaa hiiren kakkospainiketta ja valita **Kopioi**. Voit liittää valitun tekstin valitsemaasi paikkaan.

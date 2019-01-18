@@ -13,16 +13,16 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 9c442957947b2c7a0abc730db824ddbcb29708d6
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b8085f02f30d28ed1362ee6cea32d398c86b1694
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-workflows"></a>Työnkulkujen luominen
 Voit luoda työnkulkuja, jotka yhdistävät eri käyttäjien suorittamia liiketoimintaprosessin tehtäviä. Järjestelmätehtäviä (kuten automaattinen kirjaus) voidaan sisällyttää työnkulkuihin, joita käyttäjän tehtävät edeltävät tai seuraavat. Uusien tietueiden luontiin liittyvien hyväksyntöjen pyytäminen ja antaminen ovat tyypillisiä työnkulun osavaiheita.  
 
-Voit luoda **Työnkulku**-ikkunassa työnkulun mainitsemalla liittyvät toimet riveillä. Jokainen vaihe koostuu työnkulun tapahtumasta, jota valvotaan tapahtuman ehtojen mukaan, ja työnkulun vastauksesta ja vastausvaihtoehdoista. Työnkulku määritetään täyttämällä työnkulkurivien kentät tapahtumien kiinteistä luetteloista ja vastausarvot, jotka edustavat sovelluskoodin tukemia skenaarioita.  
+Voit luoda **Työnkulku**-sivulla työnkulun mainitsemalla liittyvät toimet riveillä. Jokainen vaihe koostuu työnkulun tapahtumasta, jota valvotaan tapahtuman ehtojen mukaan, ja työnkulun vastauksesta ja vastausvaihtoehdoista. Työnkulku määritetään täyttämällä työnkulkurivien kentät tapahtumien kiinteistä luetteloista ja vastausarvot, jotka edustavat sovelluskoodin tukemia skenaarioita.  
 
 Kun luot työnkulkuja, voit kopioida vaiheet aiemmin luoduista työnkuluista tai työnkulkumalleista. Työnkulkumallit ovat yleisen [!INCLUDE[d365fin](includes/d365fin_md.md)] -version työnkulkuja, joita ei voi muokata. Työnkulkumallien koodit, jotka Microsoft on lisännyt, sisältävät etuliitteen "MS-", kuten "MS-PIW". Lisätietoja on kohdassa [Työnkulkujen luominen työnkulkumalleista](across-how-to-create-workflows-from-workflow-templates.md).  
 
@@ -33,25 +33,25 @@ Jos liiketoimintaskenaario edellyttää työnkulun tapahtumia tai vastauksia, jo
 
 ## <a name="to-create-a-workflow"></a>Työnkulun luominen  
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Työnkulut** ja valitse sitten liittyvä linkki.  
-2. Valitse **Uusi**-toiminto. **Työnkulku**-ikkuna avautuu.  
-3. Syötä **Koodi**-kenttään enintään 20 merkkiä pitkä työnkulun tunniste.  
-4. Voit luoda työnkulun työnkulkumallista valitsemalla **Työnkulut**-ikkunassa **Luo työnkulku mallista** -toiminnon. Lisätietoja on kohdassa [Työnkulkujen luominen työnkulkumalleista](across-how-to-create-workflows-from-workflow-templates.md).  
+2. Valitse **Uusi**-toiminto. **Työnkulku**-sivu avautuu.  
+3. Anna **Koodi**-kentässä enintään 20 merkkiä pitkä työnkulun tunniste.  
+4. Voit luoda työnkulun työnkulkumallista valitsemalla **Työnkulut**-sivulla **Luo työnkulku mallista** -toiminnon. Lisätietoja on kohdassa [Työnkulkujen luominen työnkulkumalleista](across-how-to-create-workflows-from-workflow-templates.md).  
 5. Syötä **Kuvaus**-kenttään työnkulun kuvaus.  
 6. Määritä **Luokka**-kentässä, mihin luokkaan työnkulku kuuluu.  
 7. Määritä **Kun - tapahtuma** -kentässä tapahtuma, jonka on tapahduttava, jotta työnkulun vaihe käynnistyy.  
 
-    Kun valitset kentän, **Työnkulkutapahtumat**-ikkuna avautuu. Valinta tehdään tässä ikkunassa kaikista olemassa olevista työnkulun tapahtumista.  
+    Kun valitset kentän, **Työnkulkutapahtumat**-sivu avautuu. Valinta tehdään tällä sivulla kaikista olemassa olevista työnkulun tapahtumista.  
 8. Määritä **Ehto**-kentässä vähintään yksi ehto, jonka on toteuduttava, ennen kuin **Kun - tapahtuma**-kentän tapahtuma voi tapahtua.  
 
-    Kun valitset kentän, **Tapahtuman ehdot** -ikkuna avautuu, jossa voit valita suodatinten luettelosta kentät, jotka liittyvät ehtoina kyseiseen tapahtumaan. Voit lisätä uusia suodatuskenttiä, joita haluat käyttää tapahtuman ehtoina. Voit määrittää tapahtuman ehtosuodattimet aivan kuin asetat suodattimet raportin pyyntösivuilla.  
+    Kun valitset kentän, **Tapahtuman ehdot** -sivu avautuu, jossa voit valita suodatinten luettelosta kentät, jotka liittyvät ehtoina kyseiseen tapahtumaan. Voit lisätä uusia suodatuskenttiä, joita haluat käyttää tapahtuman ehtoina. Voit määrittää tapahtuman ehtosuodattimet aivan kuin asetat suodattimet raportin pyyntösivuilla.  
 
-    Jos työnkulun tapahtuma on muutos tietyssä tietueen kentässä, myös **tapahtuma edellytykset** -ikkuna avautuu, jossa voit valita kentän ja muutoksen tyyppi.  
+    Jos työnkulun tapahtuma on muutos tietyssä tietueen kentässä, myös **tapahtuma edellytykset** -sivu avautuu, jossa voit valita kentän ja muutoksen tyyppi.  
 
-    1.  Voit määrittää tapahtuman kentän muutoksen **tapahtuman ehdot** ikkunassa **kenttä** kentässä valitsemalla kentän, joka muuttuu.  
+    1.  Voit määrittää tapahtuman kentän muutoksen **Tapahtuman ehdot** -sivulla **Kenttä**-kentässä valitsemalla kentän, joka muuttuu.  
     2.  **Operaattori** -kentässä, valitse joko **Pienentynyt**, **Suurentunut** tai **Muuttunut**.  
 9. Määritä **Sitten - vastaus** -kentässä vastaus, joka seuraa, kun työnkulun tapahtuma toteutuu.  
 
-     Kun valitset kentän, **Työnkulun vastaukset** -ikkuna avautuu. Voit valita tässä ikkunassa kaikki olemassa olevat työnkulun vastaukset ja määrittää vastausvaihtoehdot valitulle vastaukselle.  
+     Kun valitset kentän, **Työnkulun vastaukset** -sivu avautuu. Voit valita tällä sivulla kaikki olemassa olevat työnkulun vastaukset ja määrittää vastausvaihtoehdot valitulle vastaukselle.  
 10. Määritä **Valitun vastauksen vaihtoehdot** -pikavälilehdessä työnkulun vastauksen asetukset valitsemalla arvoja eri kenttiin, jotka näkyvät, seuraavasti:  
 
     1.  Määritä työnkulun vastauksen asetukset, johon sisältyy ilmoitusten lähettäminen, täyttämällä kentät seuraavassa taulukossa kuvatulla tavalla.  
@@ -67,7 +67,7 @@ Jos liiketoimintaskenaario edellyttää työnkulun tapahtumia tai vastauksia, jo
         |----------------------------------|---------------------------------------|  
         |**Eräpäivän kaava**|Määritä, kuinka monen päivän kuluessa lähettämisestä hyväksyntäpyyntö on ratkaistava.|  
         |**Delegoi seuraavan jälkeen:**|Määritä, milloin, jos ollenkaan, hyväksyntäpyyntö delegoidaan automaattisesti korvaajalle. Voit valita automaattisen delegoinnin yhden, kahden tai viiden päivän päähän hyväksynnän pyynnöstä.|  
-        |**Hyväksyjän tyyppi**|Määritä, kuka on hyväksyjä, käyttäen hyväksyntäkäyttäjien ja työnkulun käyttäjien määritystä.<br /><br /> Käytettävissä ovat seuraavat vaihtoehdot:<br /><br /> -   **Myyjä/ostaja** määrittää, että **Myyjän/ostajan koodi** -kenttään **Hyväksynnän käyttäjäasetukset** -ikkunassa määritetty käyttäjä määrittää hyväksyjän. Hyväksymispyyntötapahtumat luodaan sitten **Hyväksyjän rajatyyppi** -kentän arvon mukaan.<br />     Lisätietoja on kohdassa [Hyväksynnän käyttäjien määrittäminen](across-how-to-set-up-workflow-users.md).|  
+        |**Hyväksyjän tyyppi**|Määritä, kuka on hyväksyjä, käyttäen hyväksyntäkäyttäjien ja työnkulun käyttäjien määritystä.<br /><br /> Käytettävissä ovat seuraavat vaihtoehdot:<br /><br /> -   **Myyjä/ostaja** määrittää, että **Myyjän/ostajan koodi** -kenttään **Hyväksynnän käyttäjäasetukset** -sivulla määritetty käyttäjä määrittää hyväksyjän. Hyväksymispyyntötapahtumat luodaan sitten **Hyväksyjän rajatyyppi** -kentän arvon mukaan.<br />     Lisätietoja on kohdassa [Hyväksynnän käyttäjien määrittäminen](across-how-to-set-up-workflow-users.md).|  
         |**Näytä vahvistussanoma**|Määritä, näytetäänkö vahvistussanoma käyttäjille, kun he pyytävät hyväksyntää.|  
         |**Hyväksyjän rajatyyppi**|Määritä, kuinka hyväksyjien hyväksyntärajat vaikuttavat silloin, kun hyväksyjille luodaan hyväksyntäpyyntöjä. Hyväksytyllä hyväksyjällä tarkoitetaan hyväksyjää, jonka hyväksyntäraja on suurempi kuin pyynnön arvo.<br /><br /> Käytettävissä ovat seuraavat vaihtoehdot:<br /><br /> 1. **Hyväksyjäketju** määrittää, että hyväksyntäpyynnöt luodaan kaikille pyytäjän hyväksyjille ensimmäiseen hyväksyttyyn hyväksyjään saakka.<br />2. **Suora hyväksyjä** määrittää, että hyväksyntäpyyntö luodaan vain pyytäjän lähimmälle hyväksyjälle hänen hyväksyntärajastaan riippumatta.<br />3. **Ensimmäinen hyväksytty hyväksyjä** määrittää, että hyväksyntäpyyntö luodaan vain pyytäjän ensimmäiselle hyväksytylle hyväksyjälle.<br />|  
     3.  Määritä työnkulun vastauksen asetukset, johon sisältyy päiväkirjarivien luominen, täyttämällä kentät seuraavassa taulukossa kuvatulla tavalla.  

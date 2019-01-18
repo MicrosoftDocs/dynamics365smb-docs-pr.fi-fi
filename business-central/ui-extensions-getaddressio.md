@@ -11,10 +11,10 @@ ms.search.keywords: GetAddress.io, postcodes, postal, address, extension
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: de76d937535fcad44538fcea557233263fa049fd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: af4be20798af59f01c870885b7e167fcb94d6bab
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -26,8 +26,8 @@ Ison-Britannian postinumeroiden GetAddress.io-laajennus säästää aikaa ja est
 
     > [!NOTE]  
     >   **Etsi osoite postinumeron mukaan** -vaihtoehdon voi valita vain, jossa **Maa- tai aluekoodi -kenttä** on tyhjä tai jos siinä on valittu **GB**.
-2. Anna **Postinumerohaku**-ikkunan **Postinumero**-kenttään postinumero tai valitse se.  
-3. Valitse osoite **Osoitevalinta**-ikkunassa.  
+2. Anna **Postinumerohaku**-sivun **Postinumero**-kenttään postinumero tai valitse se.  
+3. Valitse osoite **Osoitevalinta**-sivulla.  
 
 > [!TIP]  
 >   Jos tiedät kadun numeron, voit suodattaa osoitteita antamalla koko numeron tai sen osan **Toimituspiste**-kentässä.

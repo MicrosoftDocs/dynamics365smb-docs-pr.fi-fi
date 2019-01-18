@@ -15,10 +15,10 @@ ms.search.keywords: user setup
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 240250a30c4dd0292fdd3ee19e591c8485098ea0
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: c7aa965f952a4d03ea5c74fe09e59c076a87275a
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="specify-posting-periods"></a>Kirjausjaksojen määrittäminen
@@ -26,10 +26,10 @@ Voit määrittää kirjausjaksojen avulla, milloin käyttäjät voivat tehdä ki
 
 ## <a name="to-specify-posting-periods"></a>Kirjausjaksojen määrittäminen
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pääkirjanpidon asetukset** ja valitse sitten liittyvä linkki.  
-2. Määritä jakso **Pääkirjanpidon asetukset** -ikkunassa antamalla päivämäärät **Ensimm. sallittu kirjauspvm**- ja **Viimeinen sallittu kirjauspvm** -kenttiin.  
+2. Määritä jakso **Pääkirjanpidon asetukset** -sivulla antamalla päivämäärät **Ensimm. sallittu kirjauspvm**- ja **Viimeinen sallittu kirjauspvm** -kenttiin.  
 
 > [!NOTE]  
->   Nämä kirjausjaksot koskevat yritystä ja kaikki käyttäjiä. Voit sallia poikkeukset määrittämällä eri kirjausjaksot tietyille käyttäjille **Käyttäjäasetukset**-ikkunassa. Nämä kirjausjaksot ohittavat **Pääkirjanpidon asetukset** -ikkunassa määritetyt jaksot. Lisätietoja on ohjeaiheen [Käyttäjien ja käyttöoikeuksien hallinta](ui-how-users-permissions.md) kohdassa Käyttäjän aikarajoitusten määrittäminen.
+>   Nämä kirjausjaksot koskevat yritystä ja kaikki käyttäjiä. Voit sallia poikkeukset määrittämällä eri kirjausjaksot tietyille käyttäjille **Käyttäjäasetukset**-sivulla. Nämä kirjausjaksot ohittavat **Pääkirjanpidon asetukset** -sivulla määritetyt jaksot. Lisätietoja on ohjeaiheen [Käyttäjien ja käyttöoikeuksien hallinta](ui-how-users-permissions.md) kohdassa Käyttäjän aikarajoitusten määrittäminen.
 
 ## <a name="see-also"></a>Katso myös
 [Rahoitus](finance.md)  

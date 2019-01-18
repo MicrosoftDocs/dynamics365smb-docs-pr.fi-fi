@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 72b668ac5ecf2d6444be68b7c678f8a08bca9796
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: a3c8910ad937ec4283ce0803f787a4fe6aed071d
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-assembly-order-posting"></a>Rakennetiedot: kokoonpanotilauksen kirjaus
@@ -53,7 +53,7 @@ Seuraava taulukko luonnostelee toimintasarjat.
 |Toiminto|Description|  
 |------------|-----------------|  
 |Alusta kirjaus|1.  Suorita alustavat tarkastukset.<br />2.  Lisää kirjausnumero ja muokkaa kokoonpanotilauksen otsikkoa.<br />3.  Vapauta kokoonpanotilaus.|  
-|Kirjaus|<ol><li>Luo kirjatun kokoonpanotilauksen otsikko.</li><li>Kopioi kommenttirivit.</li><li>Kirjaa kokoonpanotilauksen rivit (kulutus):<br /><br /> <ol><li>Luo tilaikkuna kokoonpanon kulutuksen laskemiseksi.</li><li>Nouda jäljellä oleva määrä, jota käytetään nimikepäiväkirjarivin perustana.</li><li>Tyhjennä käytetyt määrät ja jäljellä olevat määrät.</li><li>Nimike-tyypin kokoonpanotilaus-rivit:<br /><br /> <ol><li>Täytä kunkin päiväkirjarivin kentät.</li><li>Siirrä varaukset nimikepäivän kirjariville.</li><li>Kirjaa nimikepäiväkirjarivi luodaksesi nimiketapahtumat.</li><li>Luo fyysisen varastoinnin päiväkirjarivit ja kirjaa ne.</li></ol></li><li>Resurssi-tyypin kokoonpanotilaus-rivit:<br /><br /> <ol><li>Täytä kunkin päiväkirjarivin kentät.</li><li>Kirjaa nimikepäiväkirjarivi. Tämä luo kapasiteettitapahtumat.</li><li>Luo ja kirjaa resurssipäiväkirjan rivi.</li></ol></li><li>Siirrä kentän arvot kokoonpanotilausriviltä juuri luodulle ja kirjatulle kokoonpanoriville.</li></ol></li><li>Kirjaa kokoonpanotilauksen otsikko (tuotos):<br /><br /> <ol><li>Täytä kunkin päiväkirjarivin kentät.</li><li>Siirrä varaukset nimikepäivän kirjariville.</li><li>Kirjaa nimikepäiväkirjarivi luodaksesi nimiketapahtumat.</li><li>Luo fyysisen varastoinnin päiväkirjarivit ja kirjaa ne.</li><li>Tyhjennä kokoonpanomäärät ja jäljellä olevat määrät.</li></ol></li></ol>|  
+|Kirjaus|<ol><li>Luo kirjatun kokoonpanotilauksen otsikko.</li><li>Kopioi kommenttirivit.</li><li>Kirjaa kokoonpanotilauksen rivit (kulutus):<br /><br /> <ol><li>Luo tilasivu kokoonpanon kulutuksen laskemiseksi.</li><li>Nouda jäljellä oleva määrä, jota käytetään nimikepäiväkirjarivin perustana.</li><li>Tyhjennä käytetyt määrät ja jäljellä olevat määrät.</li><li>Nimike-tyypin kokoonpanotilaus-rivit:<br /><br /> <ol><li>Täytä kunkin päiväkirjarivin kentät.</li><li>Siirrä varaukset nimikepäivän kirjariville.</li><li>Kirjaa nimikepäiväkirjarivi luodaksesi nimiketapahtumat.</li><li>Luo fyysisen varastoinnin päiväkirjarivit ja kirjaa ne.</li></ol></li><li>Resurssi-tyypin kokoonpanotilaus-rivit:<br /><br /> <ol><li>Täytä kunkin päiväkirjarivin kentät.</li><li>Kirjaa nimikepäiväkirjarivi. Tämä luo kapasiteettitapahtumat.</li><li>Luo ja kirjaa resurssipäiväkirjan rivi.</li></ol></li><li>Siirrä kentän arvot kokoonpanotilausriviltä juuri luodulle ja kirjatulle kokoonpanoriville.</li></ol></li><li>Kirjaa kokoonpanotilauksen otsikko (tuotos):<br /><br /> <ol><li>Täytä kunkin päiväkirjarivin kentät.</li><li>Siirrä varaukset nimikepäivän kirjariville.</li><li>Kirjaa nimikepäiväkirjarivi luodaksesi nimiketapahtumat.</li><li>Luo fyysisen varastoinnin päiväkirjarivit ja kirjaa ne.</li><li>Tyhjennä kokoonpanomäärät ja jäljellä olevat määrät.</li></ol></li></ol>|  
 
 > [!IMPORTANT]  
 >  Kokoonpanon tuotos kirjataan todellisena kustannuksena, toisin kuin tuotannon tuotos, joka kirjataan oletettuna kustannuksena.  

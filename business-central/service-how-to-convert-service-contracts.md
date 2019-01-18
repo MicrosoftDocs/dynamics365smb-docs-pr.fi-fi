@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ac8340eae21d4af2ad8853c1e6412f410953480c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3c34f2b456df88b043b7b90a739f363b892dd48d
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="convert-service-contracts-that-include-vat-amounts"></a>ALV-summia sisältävien huoltosopimusten muuntaminen
@@ -49,7 +49,7 @@ Seuraavassa ohjeessa neuvotaan, miten luodaan hyvityslasku, joka sisältää vai
 ### <a name="to-create-contract-expiration-dates-in-contract-lines"></a>Luo sopimuksen vanhentumispäivämäärät sopimusriveille  
 Seuraavassa ohjeessa neuvotaan, miten luodaan uusia sopimuksia käyttämällä sopimuksen vanhentumispäiviä huoltosopimusriveillä.  
 
-1. Määritä **Huoltosopimus**-ikkunassa sopimuksen vanhenemispäivämääräksi **30.06.2017**.  
+1. Määritä **Huoltosopimus**-sivulla sopimuksen vanhenemispäivämääräksi **30.06.2017**.  
 2. Valitse **Luo hyvityslasku** -toiminto, niin hyvityslasku luodaan automaattisesti aikavälille heinäkuusta 2017 joulukuuhun 2017.  
 3. Koska sopimus on vanhentunut, sinun on luotava uusi sopimus uudella ALV-arvolla ajalle 1. heinäkuuta 2017 ja 31. joulukuuta 2017.  
 
@@ -59,7 +59,7 @@ Seuraavassa ohjeessa neuvotaan, miten luodaan uusi hyvityslasku käyttäen **Hae
 1. Aja ALV-kannan muutostyökalu 1. heinäkuuta 2017. Yleinen tuotteen kirjausryhmä tai ALV-tuotteen kirjausryhmä muutetaan. Lisätietoja on kohdassa [Myynnin ja ostojen ALV:n käsitteleminen](finance-work-with-vat.md).  
 2. ALV-muutostyökalun suorittamisen jälkeen, kirjoita huoltosopimuksen vanhenemispäivämäärä. Nyt voit poistaa huoltosopimuksen rivin ja luoda uuden rivin, joka on samanlainen kuin vanha.  
 3. Luo uusi lasku kaudelle Tammikuu 2017 - Joulukuu 2012 uudella ALV-prosentilla.  
-4. Luo toinen hyvityslasku **Huollon hyvityslaskut** -ikkunassa valitsemalla **Uusi** luodaksesi uuden huollon hyvityslaskun.  
+4. Luo toinen hyvityslasku **Huollon hyvityslaskut** -sivulla valitsemalla **Uusi** luodaksesi uuden huollon hyvityslaskun.  
 5. Valitse **Hae enn. maksetut sop.tapaht** -toiminto.  
 6. Kun muuntaminen on valmis, ALV- ja huoltotapahtumasyötteet ovat oikeat.  
 

@@ -11,10 +11,10 @@ ms.search.keywords: undo, credit memo, return
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0945ffb9a8eb9482883d5c524b0d7f7eea46b5b2
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1c1bcb570f06719cfbb8930667a2f2847003d93c
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Myynnin palautusten tai peruutusten käsittely
@@ -38,10 +38,10 @@ Oikean varaston arvostuksen säilyttämistä varten palautetut nimikkeet viedä�
 
 Todellisten kustannusten peruuttamisen automaattista määrittämistä varten on kaksi toimintoa.   
 
-|Toiminto|Kuvaus|  
+|Toiminto|Description|  
 |------------------|---------------------------------------|  
-|**Myyntipalautustilaus**-ikkunan **Hae peruutettavat kirjatut asiakirjarivit** -toiminto|Kopioi vähintään yhden myyntipalautustilaukseksi käännettävän kirjatun asiakirjan rivit. Lisätietoja on kohdassa Myyntipalautustilauksen ja liittyvän myyntihyvityslaskun luominen vähintään yhdelle kirjatulle myyntilaskulle.|  
-|**Myyntihyvityslasku**- ja **Myyntipalautustilaus**-ikkunoiden **Kopioi asiakirja** -toiminto|Kopioi sekä otsikon että yhden kirjatun asiakirjan rivit peruutusta varten.<br /><br /> Edellyttää, että **Todellisen kust. peruutt. pakollinen** -valintaruutu on valittuna **Myyntien ja myyntisaamisten asetukset** -ikkunassa.|
+|**Myyntipalautustilaus**-sivun **Hae peruutettavat kirjatut asiakirjarivit** -toiminto|Kopioi vähintään yhden myyntipalautustilaukseksi käännettävän kirjatun asiakirjan rivit. Lisätietoja on kohdassa Myyntipalautustilauksen ja liittyvän myyntihyvityslaskun luominen vähintään yhdelle kirjatulle myyntilaskulle.|  
+|**Myyntihyvityslasku**- ja **Myyntipalautustilaus**-sivujen **Kopioi asiakirja** -toiminto|Kopioi sekä otsikon että yhden kirjatun asiakirjan rivit peruutusta varten.<br /><br /> Edellyttää, että **Todellisen kust. peruutt. pakollinen** -valintaruutu on valittuna **Myyntien ja myyntisaamisten asetukset** -sivulla.|
 
 Jos haluat määrittää todellisten kustannusten peruuttamisen manuaalisesti, sinun on valittava **Kohdistus nimiketapahtumasta** -kenttä joltakin palautusasiakirjariviltä ja valittava sitten alkuperäisen myyntitapahtuman numero. Tämä linkittää myyntihyvityslaskun tai myyntipalautustilauksen alkuperäiseen myyntitapahtumaan ja varmistaa, että nimike arvostetaan alkuperäisissä yksikkökustannuksissa.
 
@@ -49,17 +49,17 @@ Lisätietoja on ohjeaiheessa [Rakenteen tiedot: Varaston arvostus](design-detail
 
 ## <a name="to-create-a-sales-credit-memo-from-a-posted-sales-invoice"></a>Myyntihyvityslaskun luominen kirjatusta myyntilaskusta
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kirjatut myyntilaskut** ja valitse liittyvä linkki.  
-2. Valitse **Kirjatut myyntilaskut** -ikkunassa kirjattu myyntilasku, jonka haluat peruuttaa, ja valitse sitten **Luo korjaava hyvityslasku** -toiminto.
+2. Valitse **Kirjatut myyntilaskut** -sivulla kirjattu myyntilasku, jonka haluat peruuttaa, ja valitse sitten **Luo korjaava hyvityslasku** -toiminto.
 
     Ostohyvityslaskun otsikossa on tietoja kirjatusta myyntilaskusta. Voit muokata sitä esimerkiksi palautussopimusta vastaavilla uusilla tiedoilla.  
 3. Muokkaa sopimuksen mukaan rivien tietoja, kuten palautettujen nimikkeiden määrää tai hyvitettävää summaa.
 4. Valitse **Kohdista tapahtumat** -toiminto.
-5. Valitse **Kohdista asiakastapahtumat** -ikkunassa rivi, joka sisältää myyntihyvityslaskuun kohdistettavan kirjatun myyntiasiakirjan. Valitse sitten **Kohdistetaan tunnisteeseen** -toiminto.
+5. Valitse **Kohdista asiakastapahtumat** -sivulla rivi, joka sisältää myyntihyvityslaskuun kohdistettavan kirjatun myyntiasiakirjan. Valitse sitten **Kohdistetaan tunnisteeseen** -toiminto.
 
     Myyntihyvityslaskun tunniste näkyy **Kohdistetaan tunnisteeseen** -kentässä.
 6. Anna **Kohdistettava summa** -kenttään kohdistettava summa, jos se on pienempi kuin alkuperäinen summa.  
 
-    **Kohdista asiakastapahtumat** -ikkunan alaosassa näkyy kokonaissumma, joka kohdistetaan kaikkien mukaan kuuluvien tapahtumien peruuttamiseksi, kun **Saldo**-kentän arvo on nolla.
+    **Kohdista asiakastapahtumat** -sivun alaosassa näkyy kokonaissumma, joka kohdistetaan kaikkien mukaan kuuluvien tapahtumien peruuttamiseksi, kun **Saldo**-kentän arvo on nolla.
 7. Valitse **OK**-painike. Kun myyntihyvityslasku kirjataan, se kohdistetaan kirjattuihin myyntiasiakirjoihin.
 
     Kun olet luonut tai muokannut ostohyvityslaskun rivejä, ja vähintään yksi sovellusalue on määritetty, voit kirjata myyntihyvityslaskun.   
@@ -74,8 +74,8 @@ Kirjatut myyntiasiakirjat, jotka kohdistettiin hyvityslaskuun, on nyt peruutettu
 2. Avaa uusi tyhjä myyntihyvityslasku valitsemalla **Uusi**-toiminto.
 3. Syötä **Asiakas**-kenttään nykyisen asiakkaan nimi.
 4. Valitse **Kopioi asiakirja** -toiminto.
-5. Valitse **Kopioi myyntiasiakirja** -ikkunan **Asiakirjan tyyppi** -kentässä **Kirjattu lasku**.
-6. Valitse **Asiakirjanro**-kenttä, jos haluat avata **Kirjatut myyntilaskut** -ikkunan, ja valitse sitten kirjattu myyntilasku, joka sisältää peruutettavat rivit.
+5. Valitse **Kopioi myyntiasiakirja** -sivun **Asiakirjan tyyppi** -kentässä **Kirjattu lasku**.
+6. Valitse **Asiakirjanro**-kenttä, jos haluat avata **Kirjatut myyntilaskut** -sivun, ja valitse sitten kirjattu myyntilasku, joka sisältää peruutettavat rivit.
 7. Valitse **Laske rivit uudelleen** -valintaruutu, jos haluat päivittää kopioidut kirjatut myyntilaskurivit nimikkeen hinta- ja yksikkökustannusten muutoksilla, jotka ovat tapahtuneet laskun kirjaamisen jälkeen.
 8. Valitse **OK**-painike. Kopioidut laskurivit lisätään myyntihyvityslaskuun.
 9. Täytä myyntihyvityslasku tämän ohjeaiheen "Myyntihyvityslaskun luominen kirjatusta myyntilaskusta" -osassa esitetyllä tavalla.
@@ -87,15 +87,15 @@ Kirjatut myyntiasiakirjat, jotka kohdistettiin hyvityslaskuun, on nyt peruutettu
 4. Täytä **Rivit**-pikavälilehdessä rivit manuaalisesti. Jos kopioit tiedot muista asiakirjoista, rivit täytetään automaattisesti:
 
     - Voit kopioida vähintään yhden kirjatun asiakirjarivin vähintään yhdestä kirjatusta asiakirjasta **Hae peruutettavat kirjatut asiakirjarivit** -toiminnolla. Tämä toiminto peruuttaa aina todelliset kustannukset kirjatusta asiakirjarivistä. Tätä toimintoa käsitellään seuraavissa vaiheissa.    
-    - Voit kopioida aiemmin luodun asiakirjan palautustilaukseen **Kopioi asiakirja** -toiminnolla. Käytä tätä toimintoa, kun kopioit koko asiakirjan. Se voi olla kirjattu asiakirja tai asiakirja, jota ei ole vielä kirjattu. Voit peruuttaa tällä toiminnolla todelliset kustannukset vain silloin, kun **Todellisen kust. peruutt. pakollinen** -valintaruutu on valittu**Myyntien ja saamisten asetukset** -ikkunassa.  
+    - Voit kopioida aiemmin luodun asiakirjan palautustilaukseen **Kopioi asiakirja** -toiminnolla. Käytä tätä toimintoa, kun kopioit koko asiakirjan. Se voi olla kirjattu asiakirja tai asiakirja, jota ei ole vielä kirjattu. Voit peruuttaa tällä toiminnolla todelliset kustannukset vain silloin, kun **Todellisen kust. peruutt. pakollinen** -valintaruutu on valittu **Myyntien ja saamisten asetukset** -sivulla.  
 
 5. Valitse **Hae peruutettavat kirjatut asiakirjarivit** -toiminto.
-6. Valitse **Kirjatut myyntiasiakirjarivit** -ikkunan yläosassa **Näytä vain peruutettavat rivit** -valintaruutu, jos haluat nähdä vain palauttamattomia määriä sisältävät rivit. Jos kirjattu myyntilaskun määrä on jo palautettu, et ehkä halua palauttaa uuden myyntipalautusasiakirjan määrää.
+6. Valitse **Kirjatut myyntiasiakirjarivit** -sivun yläosassa **Näytä vain peruutettavat rivit** -valintaruutu, jos haluat nähdä vain palauttamattomia määriä sisältävät rivit. Jos kirjattu myyntilaskun määrä on jo palautettu, et ehkä halua palauttaa uuden myyntipalautusasiakirjan määrää.
 
     > [!NOTE]  
     >  Tämä kenttä toimii vain kirjattujen toimitusten ja kirjattujen laskutusrivien kohdalla. Se ei toimi kirjattujen palautusten tai kirjattujen hyvityslaskurivien kohdalla.
 
-    Ikkunan vasemmalla puolella on luettelossa eri asiakirjatyyppejä. Suluissa oleva luku ilmoittaa, kuinka monta asiakirjaa kyseistä asiakirjatyyppiä varten on käytettävissä.
+    Sivun vasemmalla puolella on luettelossa eri asiakirjatyyppejä. Suluissa oleva luku ilmoittaa, kuinka monta asiakirjaa kyseistä asiakirjatyyppiä varten on käytettävissä.
 
 7. Valitse **Asiakirjatyyppisuodatin**-kentässä kirjattujen asiakirjarivien tyyppi, jota haluat käyttää.  
 8. Valitse uuteen asiakirjaan kopioitavat rivit.  
@@ -119,28 +119,28 @@ Kirjatut myyntiasiakirjat, jotka kohdistettiin hyvityslaskuun, on nyt peruutettu
 
     -   Jos kirjattu asiakirjarivi sisältää nimikkeen seurantarivejä, ohjelma täyttää **Kohdistus nimiketapahtumasta** -kenttään kirjattujen nimikkeen seurantarivien soveltuvien nimiketapahtumien numerot.  
 
-     Kun kopioit kirjatusta laskusta tai kirjatusta hyvityslaskusta, ohjelma kopioi kaikki asiakirjan kirjaushetkellä kelvolliset laskualennukset ja rivialennuksen kirjatusta asiakirjarivistä uuteen asiakirjariviin. Huomaa kuitenkin, että jos **Lask. laskun alennus** -asetus on määritettynä **Myyntien ja myyntisaamisten asetukset** -ikkunassa, laskun alennus lasketaan uudelleen, kun kirjaat uuden asiakirjarivin. Uuden rivin rivisumma voikin tämän vuoksi poiketa kirjatun asiakirjarivin rivisummasta laskun alennuksen uuden laskennan tuloksen mukaan.  
+     Kun kopioit kirjatusta laskusta tai kirjatusta hyvityslaskusta, ohjelma kopioi kaikki asiakirjan kirjaushetkellä kelvolliset laskualennukset ja rivialennuksen kirjatusta asiakirjarivistä uuteen asiakirjariviin. Huomaa kuitenkin, että jos **Lask. laskun alennus** -asetus on määritettynä **Myyntien ja myyntisaamisten asetukset** -sivulla, laskun alennus lasketaan uudelleen, kun kirjaat uuden asiakirjarivin. Uuden rivin rivisumma voikin tämän vuoksi poiketa kirjatun asiakirjarivin rivisummasta laskun alennuksen uuden laskennan tuloksen mukaan.  
 
      > [!NOTE]  
      >  Jos osa kirjatun asiakirjarivin määrää on jo peruutettu (palautettu), myyty tai kulutettu, ohjelma luo rivin vain varastossa olevalle määrälle tai määrälle, jota ei ole palautettu. Jos kirjatun asiakirjarivin koko määrä on peruutettu (palautettu), ohjelma ei luo uutta asiakirjariviä.  
      >   
      >  Jos kirjatun asiakirjan tavaravirta on sama kuin uuden asiakirjan tavaravirta, ohjelma yksinkertaisesti luo alkuperäisen kirjatun asiakirjarivin kopion uuteen asiakirjaan. **Kohdistus nimiketapahtumasta** -kenttää ei täytetä, koska tässä tapauksessa todellisten kustannusten peruuttaminen ei ole mahdollista. Jos esimerkiksi käytät **Hae peruutettavat kirjatut asiakirjarivit** -toimintoa kirjatun myyntihyvityslaskurivin hakemisessa uuteen myyntihyvityslaskuun, ohjelma kopioi vain alkuperäisen kirjatun hyvityslaskurivin uuteen hyvityslaskuun.  
 
-10. Valitse **Myyntipalautustilaus**-ikkunan kunkin rivin **Palautuksen syykoodi** -kentässä palautuksen syy.
+10. Valitse **Myyntipalautustilaus**-sivun kunkin rivin **Palautuksen syykoodi** -kentässä palautuksen syy.
 11. Valitse **Kirjaa**-toiminto.
 
 ## <a name="to-create-a-replacement-sales-order-from-a-sales-return-order"></a>Korvaavan myyntitilauksen luominen myyntipalautustilauksesta
 Voit hyvittää asiakkaalle myymäsi nimikkeen vaihtamalla nimikkeen. Voit vaihtaa nimikkeen samaan tai eri nimikkeeseen. Tällainen tilanne voi syntyä esimerkiksi silloin, kun olet toimittanut asiakkaalle vahingossa väärän nimikkeen.  
 
-1. Tee korvaavalle nimikkeelle aktiivisen palautuskäsittelyn **Myyntipalautustilaus**-ikkunan tyhjällä rivillä negatiivinen tapahtuma lisäämällä negatiivinen summa **Määrä**-kenttään.  
+1. Tee korvaavalle nimikkeelle aktiivisen palautuskäsittelyn **Myyntipalautustilaus**-sivun tyhjällä rivillä negatiivinen tapahtuma lisäämällä negatiivinen summa **Määrä**-kenttään.  
 2. Valitse **Siirrä negatiiviset rivit** -toiminto.
-3. Täytä **Siirrä negat. myyntirivit**-ikkunassa tarvittavat kentät.
-4. Valitse **OK**-painike. Ohjelma poistaa vaihdettavan nimikkeen negatiivisen rivin myyntipalautustilauksesta ja sisällyttää sen uuteen **Myyntitilaus**-ikkunaan. Lisätietoja on kohdassa [Tuotteiden myyminen](sales-how-sell-products.md).
+3. Täytä **Siirrä negat. myyntirivit** -sivulla tarvittavat kentät.
+4. Valitse **OK**-painike. Ohjelma poistaa vaihdettavan nimikkeen negatiivisen rivin myyntipalautustilauksesta ja sisällyttää sen uudelle **Myyntitilaus**-sivulle. Lisätietoja on kohdassa [Tuotteiden myyminen](sales-how-sell-products.md).
 
 ## <a name="to-create-return-related-documents-from-a-sales-return-order"></a>Palautuksiin liittyvien asiakirjojen luonti myyntipalautustilauksesta
 Voit luoda korvaavia myyntitilauksia, ostopalautustilauksia ja korvaavia ostotilauksia automaattisesti myyntipalautuskäsittelyn aikana. Tämä on kätevää esimerkiksi silloin, kun haluat käsitellä nimikkeitä, joilla on toimittajan myöntämä takuu.
 
-1. Valitse aktiivisen palautuskäsittelun **Myyntipalautustilaus**-ikkunassa **Luo palautuksiin liittyvät asiakirjat** -toiminto.
+1. Valitse aktiivisen palautuskäsittelyn **Myyntipalautustilaus**-sivulla **Luo palautuksiin liittyvät asiakirjat** -toiminto.
 2. Anna **Toimittajan nro** -kentässä toimittajan numero, jos haluat toimittajan asiakirjat automaattisesti.
 3. Jos palautettu nimike on palautettava toimittajalle, valitse **Luo ostopalautustilaus** -valintaruutu.
 4. Jos palautettu nimike on tilattava toimittajalta, valitse  **Luo ostotilaus** -valintaruutu.
@@ -151,7 +151,7 @@ Voit veloittaa asiakkaaltasi täydennysmaksun kattamaan nimikkeen palauttamisest
 
 Voit kirjata tämän kasvaneen kustannuksen nimikekuluna hyvityslaskuun tai palautustilaukseen ja määritellä sen kirjattuun toimitukseen. Seuraavassa se käsitellään myyntipalautustilauksen osalta, mutta samat vaiheet koskevat myös myyntihyvityslaskua.
 
-1. Avaa aktiivisen palautuskäsittelyn **Myyntipalautustilaus**-ikkuna.
+1. Avaa aktiivisen palautuskäsittelyn **Myyntipalautustilaus**-sivu.
 2. Valitse uuden rivin **Tyyppi**-kentässä **Kulu (nimike)**.  
 3. Täytä kentät samoin kuin muutkin nimikekulurivit. Lisätietoja on kohdassa [Kaupan lisäkustannusten huomiointi nimikekulujen avulla](payables-how-assign-item-charges.md)  
 
@@ -169,7 +169,7 @@ Voit kirjata tämän alennushinnan nimikekuluna hyvityslaskuun tai palautustilau
      Voit haluta luoda erityisen nimikekulunumeron myyntialennuksille.  
 6.  Syötä **Määrä**-kenttään **1**.  
 7.  Syötä **Yksikköhinta**-kenttään myyntialennuksen summa.  
-8.  Määritä myyntialennus nimikekuluksi kirjatun toimituksen nimikkeille. Lisätietoja on kohdassa [Kaupan lisäkustannusten huomiointi nimikekulujen avulla](payables-how-assign-item-charges.md) Kun olet määrittänyt alennuksen, siirry takaisin **Myyntihyvityslasku**-ikkunaan.  
+8.  Määritä myyntialennus nimikekuluksi kirjatun toimituksen nimikkeille. Lisätietoja on kohdassa [Kaupan lisäkustannusten huomiointi nimikekulujen avulla](payables-how-assign-item-charges.md) Kun olet määrittänyt alennuksen, siirry takaisin **Hyvityslasku**-sivulle.  
 
 Kun kirjaat myyntipalautustilauksen, ohjelma lisää myyntialennuksen asianmukaisen myyntitapahtuman summaan. Tällä tavoin voit ylläpitää täsmällistä varaston arvostusta.
 
@@ -180,7 +180,7 @@ Kun vastaanotat nimikkeet varastollesi, kirjaa asianmukaiset myyntipalautustilau
 
 Sitten kun olet valmis laskuttamaan asiakasta, voit luoda myyntihyvityslaskun ja kopioida automaattisesti kirjatut palautusvastaanottorivit tähän asiakirjaan, sen sijaan että laskuttaisit jokaisen myyntipalautustilauksen erikseen. Sen jälkeen voit kirjata myyntihyvityslaskun ja laskuttaa kaikki avoimet myyntipalautustilaukset kätevästi kerralla.  
 
-**Asiakaskortti**-ikkunan **Tee koontilasku** -valintaruutu on valittava, jotta palautusvastaanottoja voidaan yhdistää.  
+**Asiakaskortti**-sivun **Tee koontilasku** -valintaruutu on valittava, jotta palautusvastaanottoja voidaan yhdistää.  
 
 ### <a name="to-manually-combine-return-receipts"></a>Palautusvastaanottojen yhdistäminen manuaalisesti  
 
@@ -201,7 +201,7 @@ Sitten kun olet valmis laskuttamaan asiakasta, voit luoda myyntihyvityslaskun ja
 Voit yhdistää palautusvastaanotot automaattisesti. Voit myös kirjata hyvityslaskut automaattisesti  **Yhdistä palautusvastaanotot** -toiminnolla.  
 
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Yhdistä palautusvastaanotot** ja valitse sitten liittyvä linkki.
-2. Valitse soveltuvat palautusvastaanotot täyttämällä kentät **Yhdistä palautusvastaanotot** -ikkunassa.
+2. Valitse soveltuvat palautusvastaanotot täyttämällä kentät **Yhdistä palautusvastaanotot** -sivulla.
 3. Valitse **Kirjaa hyvityslaskut** -valintaruutu. Muussa tapauksessa saatavat ostohyvityslaskut on kirjattava manuaalisesti.
 4.  Valitse **OK**-painike.  
 

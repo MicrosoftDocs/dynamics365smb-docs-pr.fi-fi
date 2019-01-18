@@ -13,10 +13,10 @@ ms.search.keywords: cancel, undo, correct
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2833a18275e396a04f78b5707d885bfbd5946218
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 8f73492e70d4d30a73030953eb235f586954867e
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="process-purchase-returns-or-cancellations"></a>Ostopalautusten tai peruutusten käsittely
@@ -40,10 +40,10 @@ Oikean varaston arvostuksen säilyttämistä varten palautetut nimikkeet poimita
 
 Todellisten kustannusten peruuttamisen automaattista määrittämistä varten on kaksi toimintoa.  
 
-|Toiminto|Kuvaus|  
+|Toiminto|Description|  
 |------------------|---------------------------------------|  
-|**Ostopalautustilaus**-ikkunan **Hae peruutettavat kirjatut asiakirjarivit** -toiminto|Kopioi vähintään yhden ostopalautustilaukseksi peruutettavan kirjatun asiakirjan rivit. Lisätietoja on kohdassa Ostopalautustilauksen ja liittyvän ostohyvityslaskun luominen vähintään yhdelle kirjatulle ostolaskulle.|  
-|**Ostohyvityslasku**- ja **Ostopalautustilaus**-ikkunoiden **Kopioi asiakirja** -toiminto|Kopioi sekä otsikon että yhden kirjatun asiakirjan rivit peruutusta varten.<br /><br /> Edellyttää, että **Todellisen kust. peruutt. pakollinen** -valintaruutu on valittuna **Ostojen ja ostovelkojen asetukset** -ikkunassa.|
+|**Ostopalautustilaus**-sivun **Hae peruutettavat kirjatut asiakirjarivit** -toiminto|Kopioi vähintään yhden ostopalautustilaukseksi peruutettavan kirjatun asiakirjan rivit. Lisätietoja on kohdassa Ostopalautustilauksen ja liittyvän ostohyvityslaskun luominen vähintään yhdelle kirjatulle ostolaskulle.|  
+|**Ostohyvityslasku**- ja **Ostopalautustilaus**-sivujen **Kopioi asiakirja** -toiminto|Kopioi sekä otsikon että yhden kirjatun asiakirjan rivit peruutusta varten.<br /><br /> Edellyttää, että **Todellisen kust. peruutt. pakollinen** -valintaruutu on valittuna **Ostojen ja ostovelkojen asetukset** -sivulla.|
 
 Jos haluat määrittää todellisten kustannusten peruuttamisen manuaalisesti, sinun on valittava **Kohdistus nimiketapahtumasta** -kenttä joltakin palautusasiakirjariviltä ja valittava sitten alkuperäisen ostotapahtuman numero. Tämä linkittää ostohyvityslaskun tai ostopalautustilauksen alkuperäiseen ostotapahtumaan ja varmistaa, että nimike arvostetaan alkuperäisissä yksikkökustannuksissa.
 
@@ -51,15 +51,15 @@ Lisätietoja on ohjeaiheessa [Rakenteen tiedot: Varaston arvostus](design-detail
 
 ## <a name="to-create-a-purchase-credit-memo-from-a-posted-purchase-invoice"></a>Ostohyvityslaskun luominen kirjatusta ostolaskusta
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kirjatut ostolaskut** ja valitse sitten liittyvä linkki.  
-2. Valitse **Kirjatut ostolaskut** -ikkunassa kirjattu ostolasku, jonka haluat peruuttaa, ja valitse sitten **Luo korjaava hyvityslasku** -toiminto.
+2. Valitse **Kirjatut ostolaskut** -sivulla kirjattu ostolasku, jonka haluat peruuttaa, ja valitse sitten **Luo korjaava hyvityslasku** -toiminto.
 
     Useimpiin ostohyvityslaskun otsikon kenttiin täytetään kirjatun ostolaskun tiedot. Voit muokata kaikkia kenttiä, kuten esimerkiksi palautussopimusta vastaavia uusia tietoja.
 3. Muokkaa sopimuksen mukaan rivien tietoja, kuten palautettujen nimikkeiden määrää tai hyvitettävää summaa.
 4. Valitse **Kohdista tapahtumat** -toiminto.
-5. Valitse **Kohdista toimittajatapaht.** -ikkunassa rivi, joka sisältää ostohyvityslaskuun kohdistettavan kirjatun ostoasiakirjan. Valitse sitten **Kohdistetaan tunnisteeseen** -toiminto. Ostohyvityslaskun numero lisätään **Kohdistetaan tunnisteeseen** -kenttään.
+5. Valitse **Kohdista toimittajatapaht.** -sivulla rivi, joka sisältää ostohyvityslaskuun kohdistettavan kirjatun ostoasiakirjan. Valitse sitten **Kohdistetaan tunnisteeseen** -toiminto. Ostohyvityslaskun numero lisätään **Kohdistetaan tunnisteeseen** -kenttään.
 6. Syötä **Kohdistettava summa** -kenttään kohdistettava summa, jos se on pienempi kuin alkuperäinen summa.
 
-    **Kohdista toimittajatapaht.** -ikkunan alaosassa näkyy kokonaissumma, joka kohdistetaan kaikkien mukaan kuuluvien tapahtumien peruuttamiseksi, kun **Saldo**-kentän arvo on nolla.
+    **Kohdista toimittajatapahtumat** -sivun alaosassa näkyy kokonaissumma, joka kohdistetaan kaikkien mukaan kuuluvien tapahtumien peruuttamiseksi, kun **Saldo**-kentän arvo on nolla.
 7. Valitse **OK**-painike. Kun ostohyvityslasku kirjataan, se kohdistetaan määritettyihin kirjattuihin ostoasiakirjoihin.
 
     Kun olet luonut tarvittavat ostohyvityslaskun rivit tai muokannut niitä ja yksi tai useita sovelluksia on määritetty, voit siirtyä kirjaamaan ostohyvityslaskun.
@@ -74,8 +74,8 @@ Ostohyvityslasku poistetaan ja korvataan uudella kirjattujen ostohyvityslaskujen
 2. Avaa uusi tyhjä ostohyvityslasku valitsemalla **Uusi**-toiminto.
 3. Syötä **Toimittaja**-kenttään nykyisen toimittajan nimi.
 4. Valitse **Kopioi asiakirja** -toiminto.
-5. Valitse **Kopioi ostoasiakirja** -ikkunan **Asiakirjan tyyppi** -kentässä **Kirjattu lasku**.
-6. Valitse **Asiakirjanro**-kenttä, jos haluat avata **Kirjatut ostolaskut** -ikkunan, ja valitse sitten kirjattu ostolasku, joka sisältää peruutettavat rivit.
+5. Valitse **Kopioi ostoasiakirja** -sivun **Asiakirjan tyyppi** -kentässä **Kirjattu lasku**.
+6. Valitse **Asiakirjanro**-kenttä, jos haluat avata **Kirjatut ostolaskut** -sivun, ja valitse sitten kirjattu ostolasku, joka sisältää peruutettavat rivit.
 7. Valitse **Laske rivit uudelleen** -valintaruutu, jos haluat päivittää kopioidut kirjatut ostolaskurivit nimikkeen hinta- ja yksikkökustannusten muutoksilla, jotka ovat tapahtuneet laskun kirjaamisen jälkeen.
 8. Valitse **OK**-painike. Kopioidut laskurivit lisätään ostohyvityslaskuun.
 9. Täytä ostohyvityslasku tämän ohjeaiheen "Ostohyvityslaskun luominen kirjatusta ostolaskusta" -osassa esitetyllä tavalla.
@@ -87,15 +87,15 @@ Ostohyvityslasku poistetaan ja korvataan uudella kirjattujen ostohyvityslaskujen
 4. Täytä **Rivit**-pikavälilehdessä rivit manuaalisesti. Jos kopioit tiedot muista asiakirjoista, rivit täytetään automaattisesti:
 
     - Voit kopioida vähintään yhden kirjatun asiakirjarivin vähintään yhdestä kirjatusta asiakirjasta **Hae peruutettavat kirjatut asiakirjarivit** -toiminnolla. Tämä toiminto peruuttaa aina todelliset kustannukset kirjatusta asiakirjarivistä. Tätä toimintoa käsitellään seuraavissa vaiheissa.    
-    - Voit kopioida aiemmin luodun asiakirjan palautustilaukseen **Kopioi asiakirja** -toiminnolla. Käytä tätä toimintoa, kun kopioit koko asiakirjan. Se voi olla kirjattu asiakirja tai asiakirja, jota ei ole vielä kirjattu. Voit peruuttaa tällä toiminnolla todelliset kustannukset vain silloin, kun **Todellisen kust. peruutt. pakollinen** -valintaruutu on valittu**Myyntien ja saamisten asetukset** -ikkunassa.  
+    - Voit kopioida aiemmin luodun asiakirjan palautustilaukseen **Kopioi asiakirja** -toiminnolla. Käytä tätä toimintoa, kun kopioit koko asiakirjan. Se voi olla kirjattu asiakirja tai asiakirja, jota ei ole vielä kirjattu. Voit peruuttaa tällä toiminnolla todelliset kustannukset vain silloin, kun **Todellisen kust. peruutt. pakollinen** -valintaruutu on valittu **Myyntien ja saamisten asetukset** -sivulla.  
 
 4. Valitse **Hae peruutettavat kirjatut asiakirjarivit** -toiminto.
-5. Valitse **Kirjatut ostoasiakirjarivit** -ikkunan yläosassa **Näytä vain peruutettavat rivit** -valintaruutu, jos haluat nähdä vain palauttamattomia määriä sisältävät rivit. Jos esimerkiksi kirjattu ostolaskun määrä on jo palautettu, et ehkä halua sisällyttää määrää uuteen ostopalautusasiakirjaan.
+5. Valitse **Kirjatut ostoasiakirjarivit** -sivun yläosassa **Näytä vain peruutettavat rivit** -valintaruutu, jos haluat nähdä vain palauttamattomia määriä sisältävät rivit. Jos esimerkiksi kirjattu ostolaskun määrä on jo palautettu, et ehkä halua sisällyttää määrää uuteen ostopalautusasiakirjaan.
 
     > [!NOTE]  
     >  Tämä kenttä toimii vain kirjattujen vastaanottojen ja kirjattujen laskutusrivien kohdalla. Se ei toimi kirjattujen palautusten tai kirjattujen hyvityslaskurivien kohdalla.  
 
-    Ikkunan vasemmalla puolella on luettelossa eri asiakirjatyyppejä. Suluissa oleva luku ilmoittaa, kuinka monta asiakirjaa kyseistä asiakirjatyyppiä varten on käytettävissä.
+    Sivun vasemmalla puolella on luettelossa eri asiakirjatyyppejä. Suluissa oleva luku ilmoittaa, kuinka monta asiakirjaa kyseistä asiakirjatyyppiä varten on käytettävissä.
 
 6. Valitse **Asiakirjatyyppisuodatin**-kentässä kirjattujen asiakirjarivien tyyppi, jota haluat käyttää.  
 7. Valitse uuteen asiakirjaan kopioitavat rivit.  
@@ -119,21 +119,21 @@ Ostohyvityslasku poistetaan ja korvataan uudella kirjattujen ostohyvityslaskujen
 
     -   Jos kirjattu asiakirjarivi sisältää nimikkeen seurantarivejä, ohjelma täyttää **Kohdista nimiketapahtumaan** -kenttään kirjattujen nimikkeen seurantarivien soveltuvien nimiketapahtumien numerot.  
 
-     Kun kopioit kirjatusta laskusta tai kirjatusta hyvityslaskusta, ohjelma kopioi kaikki asiakirjan kirjaushetkellä kelvolliset laskualennukset ja rivialennuksen kirjatusta asiakirjarivistä uuteen asiakirjariviin. Huomaa kuitenkin, että jos **Lask. laskun alennus** -asetus on määritettynä **Ostojen ja ostovelkojen asetukset** -ikkunassa, laskun alennus lasketaan uudelleen, kun kirjaat uuden asiakirjarivin. Uuden rivin rivisumma voikin tämän vuoksi poiketa kirjatun asiakirjarivin rivisummasta laskun alennuksen uuden laskennan tuloksen mukaan.  
+     Kun kopioit kirjatusta laskusta tai kirjatusta hyvityslaskusta, ohjelma kopioi kaikki asiakirjan kirjaushetkellä kelvolliset laskualennukset ja rivialennuksen kirjatusta asiakirjarivistä uuteen asiakirjariviin. Huomaa kuitenkin, että jos **Lask. laskun alennus** -asetus on määritettynä **Ostojen ja ostovelkojen asetukset** -sivulla, laskun alennus lasketaan uudelleen, kun kirjaat uuden asiakirjarivin. Uuden rivin rivisumma voikin tämän vuoksi poiketa kirjatun asiakirjarivin rivisummasta laskun alennuksen uuden laskennan tuloksen mukaan.  
 
     > [!NOTE]  
     >  Jos osa kirjatun asiakirjarivin määrää on jo peruutettu (palautettu), myyty tai kulutettu, ohjelma luo rivin vain varastossa olevalle määrälle tai määrälle, jota ei ole palautettu. Jos kirjatun asiakirjarivin koko määrä on peruutettu (palautettu), ohjelma ei luo uutta asiakirjariviä.  
     >   
     >  Jos kirjatun asiakirjan tavaravirta on sama kuin uuden asiakirjan tavaravirta, ohjelma yksinkertaisesti luo alkuperäisen kirjatun asiakirjarivin kopion uuteen asiakirjaan. **Kohdistus nimiketapahtumasta** -kenttää ei täytetä, koska tässä tapauksessa todellisten kustannusten peruuttaminen ei ole mahdollista. Jos esimerkiksi käytät **Hae peruutettavat kirjatut asiakirjarivit** -toimintoa kirjatun ostohyvityslaskurivin hakemisessa uuteen ostohyvityslaskuun, vain alkuperäinen kirjattu hyvityslaskurivi kopioidaan uuteen hyvityslaskuun.  
 
-8. Valitse **Ostopalautustilaus**-ikkunan kunkin rivin **Palautuksen syykoodi** -kentässä palautuksen syy.
+8. Valitse **Ostopalautustilaus**-sivun kunkin rivin **Palautuksen syykoodi** -kentässä palautuksen syy.
 9. Valitse **Kirjaa**-toiminto.
 
 ## <a name="to-create-a-replacement-purchase-order-from-a-purchase-return-order"></a>Korvaavan ostotilauksen luominen ostopalautustilauksesta
 Voit sopia toimittajan kanssa, että toimittaja hyvittää ostetun nimikkeen vaihtamalla sen. Vaihdettava nimike voi olla joko sama nimike tai kokonaan eri nimike. Tällainen tilanne voi ilmetä, kun toimittaja on toimittanut epähuomiossa väärän nimikkeen.  
-1.  Tee korvaavalle nimikkeelle aktiivisen palautuskäsittelyn **Ostopalautustilaus**-ikkunan tyhjällä rivillä negatiivinen tapahtuma lisäämällä negatiivinen summa **Määrä**-kenttään.  
+1.  Tee korvaavalle nimikkeelle aktiivisen palautuskäsittelyn **Ostopalautustilaus**-sivun tyhjällä rivillä negatiivinen tapahtuma lisäämällä negatiivinen summa **Määrä**-kenttään.  
 2. Valitse **Siirrä negatiiviset rivit** -toiminto.  
-3. Täytä **Siirrä negatiiviset ostorivit**-ikkunassa tarvittavat kentät.
+3. Täytä **Siirrä negat. ostorivit** -sivulla tarvittavat kentät.
 4. Valitse **OK**-painike. Negatiivinen rivi poistetaan ostopalautustilauksesta ja uusi ostotilaus luodaan. Lisätietoja on kohdassa [Ostojen kirjaaminen](purchasing-how-record-purchases.md).  
 
 ## <a name="to-create-a-purchase-allowance"></a>Ostoalennuksen luominen  
@@ -150,7 +150,7 @@ Tämän alennetun ostokustannuksen voi kirjata nimikekuluna hyvityslaskuun tai p
     Voit haluta luoda erityisen nimikekulunumeron koskemaan ostoalennuksia.  
 6.  Syötä **Määrä**-kenttään **1**.  
 7.  Syötä **Välitön yksikkökustannus** -kenttään ostoalennuksen summa.  
-8.  Määritä ostoalennus nimikekuluna kirjatussa vastaanotossa oleville nimikkeille. Lisätietoja on kohdassa [Kaupan lisäkustannusten huomiointi nimikekulujen avulla](payables-how-assign-item-charges.md) Kun olet määrittänyt alennuksen, siirry takaisin **Ostohyvityslasku**-ikkunaan.
+8.  Määritä ostoalennus nimikekuluna kirjatussa vastaanotossa oleville nimikkeille. Lisätietoja on kohdassa [Kaupan lisäkustannusten huomiointi nimikekulujen avulla](payables-how-assign-item-charges.md) Kun olet määrittänyt alennuksen, siirry takaisin **Ostohyvityslasku**-sivulle.
 
 Kun kirjaat ostopalautustilauksen, ostoalennus lisätään liittyvän ostotapahtuman summaan. Tällä tavoin voit ylläpitää täsmällistä varaston arvostusta.  
 

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.date: 10/01/2018
+ms.date: 11/21/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 560ea1ce0b93a596afb6c37bda7b438115614606
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 790af74199922a1ce711b1262f2756f5c7788fb2
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="general-business-functionality"></a>Yleiset liiketoimintatoiminnot
@@ -28,11 +28,13 @@ Seuraava taulukko sisältää nämä yleiset liiketoiminta-alueet ja linkit niit
 
 | Vastaanottaja | Katso |
 | --- | --- |
-|Lisää tietoja tileihin, asiakkaiden kortteihin tai myyntitilauksiin ja jaa muille käyttäjille tietoja sopimuksista, kuten erikoishinnoista tai toimitustavasta.|[Kommenttien lisääminen kortteihin ja asiakirjoihin](across-how-use-comments.md)| 
+|Lisää tietoja tileihin, asiakkaiden kortteihin tai myyntitilauksiin ja jaa muille käyttäjille tietoja sopimuksista, kuten erikoishinnoista tai toimitustavasta.|[Kommenttien lisääminen kortteihin ja asiakirjoihin](across-how-use-comments.md)|
 |Näytä myynti- ja ostotilausriveihin liittyvät keskeneräiset, kirjatut tai arkistoidut asiakirjat.|[Asiakirjarivien seuranta](across-how-to-track-document-lines.md)|
 | Voit kertoa liiketoiminta-asiakirjojen sisällön nopeasti liiketoimintakumppaneille. Asiakirjat voivat sisältää esimerkiksi asiakkaiden myyntiasiakirjojen maksutietoja. |[Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md) |
+|Voit arkistoida myynti- ja ostotilauksia, tarjouksia, palautustilauksia ja puitetilauksia. Voit myös käyttää arkistoitua asiakirjaa ja luoda uudelleen asiakirjan, josta ne arkistoitiin.|[Asiakirjojen arkistointi](across-how-to-archive-documents.md)|
 | Määritä vakiotekstikoodit, jotta voit laajentaa vakiotekstiä lisäämällä rivejä, ja määritä lisärivien käytön ehdot. |[Laajennetun nimiketekstin lisääminen](ui-how-define-ext-text.md) |
 |Luo tehtäviä, jotka muistuttavat sinua tekemättömistä töistä. Voit luoda tehtäviä itsellesi, mutta voit määrittää tehtäviä myös muille. Samoin joku toinen käyttäjä organisaatiossa voi määrittää tehtäviä sinulle.|[Käyttäjätehtävien määrittäminen](across-user-tasks.md)|
+|Voit liittää kuvia, asiakirjoja ja muita tiedostotyyppejä kaikkiin kortteihin, kuten nimike- ja työkorttiin. Voit liittää tiedostoja myös kaiken tyyppisiin myynti- ja ostoasiakirjoihin.|[Tiedostojen liittäminen kortteihin ja asiakirjoihin](across-attach-document-master-data.md)|
 |Järjestelmän avulla tehtävät voi suorittaa nopeammin ja tarkemmin niin, että kentät tai rivit täytetään tiedoilla, jotka muussa tapauksessa olisi laskettava ja syötettävä manuaalisesti.|[Business Central -sovelluksen arvoehdotusten salliminen](ui-let-system-suggest-values.md)|
 |Kirjaa ulkoiset asiakirjat liitteineen ja luo sitten manuaalisesti liittyvät asiakirjat tai muunna tiedostot automaattisesti sähköisiksi asiakirjoiksi.|[Saapuvat asiakirjat](across-income-documents.md)|
 |Voit määrittää ja käyttää työnkulkuja, jotka yhdistävät eri käyttäjien tai järjestelmän suorittamia tehtäviä, kuten automaattisia kirjauksia. Uusien asiakirjojen luontiin ja kirjaukseen liittyvien hyväksyntöjen pyytäminen ja antaminen ovat tyypillisiä työnkulun osavaiheita.|[Työnkulku](across-workflow.md)|

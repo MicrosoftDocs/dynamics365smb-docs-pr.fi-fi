@@ -1,6 +1,6 @@
 ---
 title: Huoltotilausten luominen | Microsoft Docs
-description: "**Huoltotilaus**-ikkunassa voidaan luoda asiakirjoja, joihin syötetään tietoja asiakkaan pyynnöstä tehtävästä huoltonimikkeiden huollosta (korjauksesta tai ylläpidosta)."
+description: "**Huoltotilaus**-sivulla voidaan luoda asiakirjoja, joihin syötetään tietoja asiakkaan pyynnöstä tehtävästä huoltonimikkeiden huollosta (korjauksesta tai ylläpidosta)."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 92cfc39fffeb616e69dcd4b32a83b44197c6fa27
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: feef01ffa2afa33a91b5db26c94842699c215dab
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-service-orders"></a>Huoltotilausten luominen
-**Huoltotilaus**-ikkunassa voidaan luoda asiakirjoja, joihin syötetään tietoja asiakkaan pyynnöstä tehtävästä huoltonimikkeiden huollosta (korjauksesta tai ylläpidosta).  
+**Huoltotilaus**-sivulla voidaan luoda asiakirjoja, joihin syötetään tietoja asiakkaan pyynnöstä tehtävästä huoltonimikkeiden huollosta (korjauksesta tai ylläpidosta).  
 
 Kun luot huoltotilauksen, sinun tarvitsee vain täyttää muutama kenttä. Jotkut kentät ovat valinnaisia, ja monet täytetään automaattisesti silloin, kun täytät kohteeseen liittyvät kentät.  
 
@@ -29,11 +29,11 @@ Kun luot huoltotilauksen, sinun tarvitsee vain täyttää muutama kenttä. Jotku
 2. Luo uusi huoltotilaus.  
 3. Valitse **Nro**-kenttään numero huoltotilaukselle.  
 
-     Vaihtoehtoisesti jos olet määrittänyt huoltotilauksille numerosarjan **Huoltohallinnon asetukset**-ikkunassa, voit painaa Enter, jolloin ohjelma syöttää seuraavan saatavilla olevan huoltotilauksen numeron.  
+     Vaihtoehtoisesti jos olet määrittänyt huoltotilauksille numerosarjan **Huoltohallinnon asetukset**-sivulla, voit painaa Enter, jolloin ohjelma syöttää seuraavan saatavilla olevan huoltotilauksen numeron.  
 
 4. Syötä **Asiakasnro** -kentässä asiamukainen asiakas luettelosta. Ohjelma täyttää automaattisesti asiakkaaseen liittyvät kentät tiedoilla **Asiakas** -taulukosta.  
 
-5. **Huoltohallinnon asetukset** -ikkunan **Pakolliset kentät** -pikavälilehden asetusten mukaan **Huoltotilauksen tyyppi** -kenttä ja **Myyjäkoodi**-kenttä on ehkä täytettävä.  
+5. **Huoltohallinnon asetukset** -sivun **Pakolliset kentät** -pikavälilehden asetusten mukaan **Huoltotilauksen tyyppi** -kenttä ja **Myyjäkoodi**-kenttä on ehkä täytettävä.  
 6. Muiden kenttien täyttäminen on valinnaista.  
 7. Rekisteröi huoltonimikerivit.  
 
@@ -45,7 +45,7 @@ Huoltotilauksia voidaan luoda huoltonimikkeiden ylläpitoa varten automaattisest
 3. Täytä **Asetukset**-pikavälilehdessä **Aloituspvm**- ja **Lopetuspvm**-kenttiin aloituspäivämäärä ja lopetuspäivämäärä sen mukaan, mille jaksolle haluat luoda sopimushuoltotilaukset. Eräajo luo huoltotilauksia, jotka sisältävät huoltonimikkeitä palvelusopimuksille, joiden seuraavat suunnitellut huoltopäivämäärät ovat tänä määräaikana.  
 
     > [!NOTE]  
-    >  Ohjelmassa on rajoitus sille, miten monta päivää voi käyttää päivämäärävälinä jokaisena kertana, kun tämä eräajo suoritetaan. Tämä raja asetetaan **Sopim. huoltotil. maksimi päivät** -kentässä **Huoltohallinnon Asetukset** -ikkunassa.  
+    >  Ohjelmassa on rajoitus sille, miten monta päivää voi käyttää päivämäärävälinä jokaisena kertana, kun tämä eräajo suoritetaan. Tämä raja asetetaan **Sopim. huoltotil. maksimi päivät** -kentässä **Huoltohallinnon Asetukset** -sivulla.  
 
 4. Valitse **Toiminto** -kentässä  **Luo huoltotilaus**.  
 
@@ -65,9 +65,9 @@ Voit esimerkiksi tarkistaa ja katsoa, onko nimikettä, joka sinun tulee täyttä
 2. Tee jompikumpi seuraavista toimista:  
 
     * Jos kyse on tietystä tilauksesta, valitse ensin tilaus ja sitten **Kysynnän yleiskuvaus** -toiminto.  
-    * Jos on kaikista tilauksista, valitse **Näytä asiakirja**. Avautuu **Huoltotilaus**-ikkuna.  
+    * Jos on kaikista tilauksista, valitse **Näytä asiakirja**. **Huoltotilaus**-sivu avautuu.  
 
-3. Laajenna nimikeryhmittelyä **Kysynnän yleiskuvaus** -ikkunassa ja näytä nimikkeen saatavuustiedot. Voit esimerkiksi katsoa varastossa olevien nimikkeiden määrän. Näet myös, jos ja milloin kohde on käytettävissä, jos se on jälkitoimituksessa, eli lähdetyyppi = osto tai onko se varattu.
+3. Laajenna nimikeryhmittely **Kysynnän yleiskuvaus** -sivulla ja näytä nimikkeen saatavuustiedot. Voit esimerkiksi katsoa varastossa olevien nimikkeiden määrän. Näet myös, jos ja milloin kohde on käytettävissä, jos se on jälkitoimituksessa, eli lähdetyyppi = osto tai onko se varattu.
 
 ## <a name="to-reserve-an-item-for-a-service-order"></a>Varaa huoltotilauksen nimike
 Jos huoltotilauksen nimikkeen saatavuus on varmistettava, voit varata nimikkeen.
@@ -75,8 +75,8 @@ Jos huoltotilauksen nimikkeen saatavuus on varmistettava, voit varata nimikkeen.
 1. Syötä **Etsi**-ruudussa **Huoltotilaukset** ja valitse sitten vastaava linkki.  
 2. Valitse ensin huoltotilaus ja sitten **Muokkaa**.  
 3. Valitse ensin **Toiminnot**, sitten **Tilaus** ja lopuksi **Huoltorivit**.  
-4. Valitse **Huoltorivit**-ikkunassa varattava nimike ja valitse sitten **Varaa**-toiminto.  
-5. Valitse **Varaus**-ikkunassa **Varaa nykyiseltä riviltä**.
+4. Valitse **Huoltorivit**-sivulla varattava nimike ja valitse sitten **Varaa**-toiminto.  
+5. Valitse **Varaus**-sivulla **Varaa nykyiseltä riviltä**.
 
 ## <a name="to-insert-lines-based-on-standard-service-codes"></a>Rivien lisääminen vakiohuoltokoodien perusteella  
 Jos olet määrittänyt vakiohuoltokoodit ja liittänyt ne huoltonimikeryhmiin, voit lisätä vakiohuoltokoodeihin linkitettyjä vakiorivejä huoltoasiakirjoihin. Lisätietoja on kohdassa [Vakiohuoltokoodien määrittäminen](service-how-setup-service-coding.md).   
@@ -85,21 +85,21 @@ Jos olet määrittänyt vakiohuoltokoodit ja liittänyt ne huoltonimikeryhmiin, 
 2. Luo uusi huoltotilaus.  
 3. Täytä tarvittavat kentät.  
 4. Syötä huoltonimikeriveille pakolliset tiedot.  
-5. Valitse ensin sen huoltonimikkeen rivi, jolle haluat luoda huoltorivejä ja sitten **Hae vakiohuoltokoodit**. Ohjelma avaa **Huoltonimikeryhmän vakiokoodit** -ikkunan ja riveillä määritetyn huoltonimikeryhmän vakiokoodit.  
+5. Valitse ensin sen huoltonimikkeen rivi, jolle haluat luoda huoltorivejä ja sitten **Hae vakiohuoltokoodit**. Ohjelma avaa **Huoltonimikeryhmän vakiokoodit** -sivun ja riveillä määritetyn huoltonimikeryhmän vakiokoodit.  
 6. Valitse sopiva koodi ja anna vakiohuoltorivit valitsemalla **OK**.  
 
 > [!NOTE]  
->  Jos asiakirjan huoltonimikerivin **Huoltonimikeryhmän koodi** -kenttä on tyhjä, huoltonimike ei kuulu mihinkään huoltonimikeryhmään. Tällöin **Huoltonimikeryhmän vakiokoodit** -ikkunassa on kaikkien ohjelmassa määritettyjen vakiohuoltokoodien luettelo. Valitse luettelosta asiakirjaan lisättävät vakiohuoltorivit. Voit myös valita tietylle huoltonimikeryhmälle liitettyjen vakiohuoltokoodien luettelosta. Voit katsella luetteloa valitsemalla koodin **Huoltonimikeryhmän koodi** -kentässä **Huoltonimikeryhmän vakiokoodit** -ikkunassa.  
+>  Jos asiakirjan huoltonimikerivin **Huoltonimikeryhmän koodi** -kenttä on tyhjä, huoltonimike ei kuulu mihinkään huoltonimikeryhmään. Tällöin **Huoltonimikeryhmän vakiokoodit** -sivulla on kaikkien ohjelmassa määritettyjen vakiohuoltokoodien luettelo. Valitse luettelosta asiakirjaan lisättävät vakiohuoltorivit. Voit myös valita tietylle huoltonimikeryhmälle liitettyjen vakiohuoltokoodien luettelosta. Voit katsella luetteloa valitsemalla koodin **Huoltonimikeryhmän koodi** -kentässä **Huoltonimikeryhmän vakiokoodit** -sivulla.  
 
 ## <a name="to-register-internal-or-public-comments"></a>Sisäisten tai julkisten kommenttien rekisteröiminen
 Voit antaa lisätietoja lisäämällä huoltotilauksiin ja huoltotarjouksiin tulostettavia kommentteja. Voit kirjoittaa enintään 80 merkkiä (välilyönnit mukaan lukien). Jos tekstiä on kirjoitettava enemmän, valitse toinen rivi. Rekisteröi kommentti valitsemalla ensin rivi ja sitten **Kommentit**-toiminto.  
 
 ## <a name="to-delete-invoiced-service-orders"></a>Laskutettujen huoltotilausten poistaminen  
-Tilaukset poistetaan ohjelmasta automaattisesti sen jälkeen, kun ne on laskutettu kokonaan. Kun lasku on kirjattu, vastaava tapahtuma luodaan **Kirjatut huoltolaskut** -ikkunassa. Kirjattua asiakirjaa voi katsella **Kirjattu huoltolasku** -ikkunassa.  
+Tilaukset poistetaan ohjelmasta automaattisesti sen jälkeen, kun ne on laskutettu kokonaan. Kun lasku on kirjattu, vastaava tapahtuma luodaan **Kirjatut huoltolaskut** -sivulla. Kirjattua asiakirjaa voi katsella **Kirjattu huoltolasku** -sivulla.  
 
-Ohjelma ei poista huoltotilauksia automaattisesti, jos tilauksen kokonaismäärä on kirjattu **Huoltolasku**-ikkunassa itse huoltotilauksen sijaan. Tällöin sinun on ehkä poistettava laskutetut tilaukset, joita ei poistettu. Voit tehdä sen suorittamalla **Poista laskutetut huoltotilaukset** -eräajon.  
+Ohjelma ei poista huoltotilauksia automaattisesti, jos tilauksen kokonaismäärä on kirjattu **Huoltolasku**-sivulla eikä huoltotilauksessa. Tällöin sinun on ehkä poistettava laskutetut tilaukset, joita ei poistettu. Voit tehdä sen suorittamalla **Poista laskutetut huoltotilaukset** -eräajon.  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poista laskutetut huoltotilaukset** ja valitse sitten liittyvä linkki. **Poista laskutetut huoltotilaukset** -eräajon pyyntöikkuna aukeaa.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poista laskutetut huoltotilaukset** ja valitse sitten liittyvä linkki. **Poista laskutetut huoltotilaukset** -eräajon pyyntösivu avautuu.  
 2. Voit valita poistettavat tilaukset määrittämällä **Nro**-, **Asiakasnro**- ja **Laskutusasiakkaan nro** -kenttien suodattimet. -kentät.  
 3. Valitse **OK**.  
 

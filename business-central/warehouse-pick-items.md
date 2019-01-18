@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4258d6b2edea44dbf86b649ffb4c515473421a55
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 6a51a509ae1281d7c6bfe19e5276b516982a5fa5
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="pick-items"></a>Nimikkeiden poiminta
@@ -27,9 +27,9 @@ Jos haluat järjestää ja kirjata poimintatoiminnot varastoasiakirjoihin, lisä
 > [!NOTE]
 > Vaikka asetuksen nimenä on **Vaadi poiminta**, voit silti kirjata toimituksia suoraan lähdeasiakirjasta sijainnista, jossa olet valinnut tämän valintaruudun.
 
-Jos sijainti on määritetty edellyttämään poimintakäsittelyä mutta ei toimituskäsittelyä, voit järjestää **Varaston poiminta** -ikkunassa poimintatiedot ja tulostaa ne, antaa poiminnan tuloksen sekä kirjata poimintatiedot, mikä puolestaan kirjaa nimikkeiden toimituksen. Jos poimitaan komponentteja tuotantotilausta varten, poiminnan kirjaus kirjaa myös kulutuksen.
+Jos sijainti on määritetty edellyttämään poimintakäsittelyä mutta ei toimituskäsittelyä, voit järjestää **Varaston poiminta** -sivulla poimintatiedot ja tulostaa ne, antaa poiminnan tuloksen sekä kirjata poimintatiedot, mikä puolestaan kirjaa nimikkeiden toimituksen. Jos poimitaan komponentteja tuotantotilausta varten, poiminnan kirjaus kirjaa myös kulutuksen.
 
-Jos sijainti on määritetty edellyttämään sekä poiminta- että toimituskäsittelyä ja olet lisännyt valintamerkit sijaintikortin **Vaadi poiminta**- ja **Vaadi toimitus** -kenttiin, voit käsitellä poiminnan **F. varastoinnin poiminta** -ikkunassa. Fyysisen varastoinnin poiminta toimii muuten samoin kuin varaston poiminta, mutta poimintatietojen kirjauksen asemesta poiminta rekisteröidään. Tämä rekisteröintiprosessi ei kirjaa toimitusta, sillä se vain valmistelee nimikkeet toimitusta varten. Varastopäällikkönä voit järjestää poimintatiedot poimintatyökirjojen avulla ennen yksittäisten fyysisen varastoinnin poimintaohjeiden luontia.
+Jos sijainti on määritetty edellyttämään sekä poiminta- että toimituskäsittelyä ja olet lisännyt valintamerkit sijaintikortin **Vaadi poiminta**- ja **Vaadi toimitus** -kenttiin, voit käsitellä poiminnan **F. varastoinnin poiminta** -sivulla. Fyysisen varastoinnin poiminta toimii muuten samoin kuin varaston poiminta, mutta poimintatietojen kirjauksen asemesta poiminta rekisteröidään. Tämä rekisteröintiprosessi ei kirjaa toimitusta, sillä se vain valmistelee nimikkeet toimitusta varten. Varastopäällikkönä voit järjestää poimintatiedot poimintatyökirjojen avulla ennen yksittäisten fyysisen varastoinnin poimintaohjeiden luontia.
 
 Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aiheisiin.   
 

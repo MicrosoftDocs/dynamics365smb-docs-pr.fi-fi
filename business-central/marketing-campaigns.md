@@ -11,10 +11,10 @@ ms.search.keywords: marketing, campaign, promo, prospect
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4c3f0f612c13d9fe84cffc4862641301795bcebd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 66d8bda9082754c4278a47e44529a30dea8eb39c
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="managing-marketing-campaigns"></a>Markkinointikampanjoiden hallinta
@@ -23,7 +23,7 @@ Vahvan markkinointisuunnitelman avulla yritys voi tunnistaa, houkutella ja säil
 Jokainen kampanja koostuu eri toiminnoista tai tehtävistä. Voit yhdistää toiminnoissa useita tehtäviä, kuten kutakin vaihetta koskeva tehtävän. Toiminnon tehtävät liittyvät toisiinsa päivämääräkaavan avulla. Yksittäiset tehtävät voidaan määrittää vain myyjille. Toiminnot voidaan määrittää mahdollisuuksille, myyjille, myyjäryhmille tai kontakteille. Lisätietoja on ohjeaiheessa [Mahdollisuuden myyntisyklien ja syklin vaiheiden määrittäminen](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## <a name="defining-individual-campaigns"></a>Yksittäisten kampanjoiden määrittäminen
-Ennen kampanjan luomista on määritettävä *kampanjan tilakoodit*. Näiden koodien avulla kampanjoiden hallinta on helpompaa, koska kampanjalle määritetään tila. Kun kampanja etenee, näet nopeasti, missä vaiheessa kampanja on ja mikä on seuraava vaihe. Kampanjan tilakoodit määritetään **Kampanjan tila** -ikkunassa.
+Ennen kampanjan luomista on määritettävä *kampanjan tilakoodit*. Näiden koodien avulla kampanjoiden hallinta on helpompaa, koska kampanjalle määritetään tila. Kun kampanja etenee, näet nopeasti, missä vaiheessa kampanja on ja mikä on seuraava vaihe. Kampanjan tilakoodit määritetään **Kampanjan tila** -sivulla.
 
 Voit luoda jokaiselle seurattavalle kampanjalle kampanjan kortin. Näiden korttien avulla voit myös tarkastella kampanjoiden yleistietoja.
 Voit poistaa kampanjatapahtumia, esimerkiksi jos tapahtumassa on kyse toiminnosta, jotka on peruutettu. Vain peruutettuja kampanjatapahtumia voi poistaa.
@@ -32,7 +32,7 @@ Voit poistaa kampanjatapahtumia, esimerkiksi jos tapahtumassa on kyse toiminnost
 Kampanjan luomisen jälkeen voit luoda kampanjassa käytettävät segmentit, jotka määrittävät kampanjan kohdeyleisön. Lisätietoja on myös kohdassa [Segmenttien hallinta](marketing-segments.md).
 
 ### <a name="registering-discount-percentages"></a>Alennusprosenttien rekisteröiminen
-Kun olet asettanut **kampanjan**, päättänyt mitä segmenttejä haluat kampanjan kattavan ja asettanut Aloitus- ja Lopetuspvm:t, rekisteröit alennus -%, jonka asiakkaat saavat yksittäisille nimikkeille Myyntirivialennukset -ikkunassa. Voit rekisteröidä myös rivien yksittäisten nimikkeiden myyntihinnat **Myyntihinnat**-ikkunassa. Voit käyttää molempia ikkunoita kampanjan kortista.
+Kun olet asettanut kampanjan, päättänyt mitä segmenttejä haluat kampanjan kattavan ja määrittänyt aloitus- ja loputuspäivämäärät, rekisteröit alennusprosentin, jonka asiakkaat saavat yksittäisille nimikkeille **Myyntirivialennukset**-sivulla. Voit rekisteröidä myös rivien yksittäisten nimikkeiden myyntihinnat **Myyntihinnat**-sivulla. Voit käyttää molempia sivuja kampanjan kortista.
 
  Kun olet asettanut myyntihinnat/rivialennukset ja kampanjakortin segmentit, sinun tulee aktivoida ne niin, että kampanjan hinnat/alennukset tulevat esille myös riveille.
 

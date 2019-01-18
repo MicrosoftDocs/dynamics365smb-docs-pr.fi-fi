@@ -12,10 +12,10 @@ ms.search.keywords: API, extension, Cognitive Services, image, computer vision, 
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 9a2d7999f3a4ecc3a597b6641ee1db69d754de4c
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 803d755a7caa470b97bf606f0f8916d0135d047e
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 
@@ -50,14 +50,14 @@ Kuvan analysointilaajennus sisältyy [!INCLUDE[d365fin](includes/d365fin_md.md)]
 * Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Palvelun yhteydet** ja valitse sitten **Kuva-analyysin asetukset**. Valitse **Ota kuvan analysointitoiminto käytötön** -valintaruutu ja noudata sitten asetusten ohjattua määritystä.  
 
     > [!TIP]  
-    > **Kuva-analyysin asetukset** -ikkunassa voi muuttaa myös määrite-ehdotusten luotettavuustasoa. Jos esimerkiksi haluat käyttää suurempaa luotettavuustasoa, voit antaa korkeamman prosenttiluvun.
+    > **Kuva-analyysin asetukset** -sivulla voi muuttaa myös määrite-ehdotusten luotettavuustasoa. Jos esimerkiksi haluat käyttää suurempaa luotettavuustasoa, voit antaa korkeamman prosenttiluvun.
 
 ## <a name="to-analyze-an-image-of-an-item"></a>Nimikkeen kuvan analysointi
 Seuraavaksi kerrotaan, miten analysoidaan kuva, joka oli tuotu ennen kuvan analysointilaajennuksen käyttöönottoa.  
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten liittyvä linkki.  
 2. Valitse ensin nimike ja sitten **Analysoi kuva**-toiminto.  
-3. **Kuvan analysoinnin määritteet** -ikkunassa on esillä havaitut määritteet, luotettavuustaso ja muita tietoja määritteestä. Määritä **suoritettavan toiminnon** vaihtoehdoilla, mitä määritteellä tehdään.  
+3. **Kuvan analysoinnin määritteet** -sivulla on esillä havaitut määritteet, luotettavuustaso ja muita tietoja määritteestä. Määritä **suoritettavan toiminnon** vaihtoehdoilla, mitä määritteellä tehdään.  
 
     > [!TIP]  
     > Voit lisätä määritteen nimen nimikkeen kuvaukseen valitsemalla **Lisää nimikkeen kuvaukseen**. Tämä on kätevä esimerkiksi lisättäessä tietoja nopeasti.  

@@ -11,10 +11,10 @@ ms.search.keywords: remove, delete
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 473b2fb8f20b30ce49265e6891a99291b663f6a8
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 3da4de9eee04f240d88d4128fefe273999f20cfc
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="unsubscribe-remove-or-reset-included365finincludesd365finmdmd"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)]in tilauksen peruuttaminen, poistaminen tai palauttaminen
@@ -38,7 +38,7 @@ Jos haluat sulkea tilisi, tällä hetkellä sinun on otettava yhteyttä [!INCLUD
 Jos olet rekisteröitynyt [!INCLUDE[d365fin](includes/d365fin_md.md)]iin käyttämällä muuta kuin Office 365 -yritystiliä, sinulla ei ole Office 365 -järjestelmänvalvojaa. Sen sijaan sinun on peruutettava tilaus ottamalla yhteyttä [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen peruutustiimiin. Lähetä sähköpostiviesti osoitteeseen cancelbusinesscentra@microsoft.com. Lisää viestiin tunnistamista varten oman [!INCLUDE[d365fin](includes/d365fin_md.md)]-vuokraajan nimi. Helpoin tapa tehdä tämä on kopioida [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman aloitussivun URL-osoite.  
 
 ## <a name="resetting-your-included365finincludesd365finmdmd-experience"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)]in tietojen palauttaminen
-Jos olet lisännyt tietoja maksuttomaan [!INCLUDE[d365fin](includes/d365fin_md.md)] -kokeiluun ja haluat aloittaa uudelleen, voit luoda uuden yrityksen ja palauttaa sitten ensimmäisen yrityksen. Jos avaat **Yritykset**-ikkunan, voit luoda kopion nykyisestä yrityksestä, kirjautua ulos ja kirjautua sitten uudelleen sisään uuteen yritykseen. Tämän jälkeen voit palauttaa alkuperäisen yrityksen.  
+Jos olet lisännyt tietoja maksuttomaan [!INCLUDE[d365fin](includes/d365fin_md.md)] -kokeiluun ja haluat aloittaa uudelleen, voit luoda uuden yrityksen ja palauttaa sitten ensimmäisen yrityksen. Jos avaat **Yritykset**-sivun, voit luoda kopion nykyisestä yrityksestä, kirjautua ulos ja kirjautua sitten uudelleen sisään uuteen yritykseen. Tämän jälkeen voit palauttaa alkuperäisen yrityksen.  
 > [!NOTE]  
 >   Kun palautat yrityksen, joka on jaettu muiden organisaation henkilöiden kanssa, varmista, että kukaan henkilöistä ei ole kirjautuneena yrityksen palautuksen yhteydessä.  
 

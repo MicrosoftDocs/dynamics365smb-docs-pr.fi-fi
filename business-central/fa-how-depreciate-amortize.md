@@ -11,10 +11,10 @@ ms.search.keywords: write down
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e12432b4823bfa1477d385d73a5a938cba4cee0d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: cfd4753fc2fd2454e83c5a63e1e0ffe220d2fe17
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Käyttöomaisuuden poisto tai kuolettaminen
@@ -41,9 +41,9 @@ Indeksointia käytetään muuttamaan arvoja yleisten hintatason muutosten mukaan
 3. Valitse **OK**-painike.  
 
     Eräajo laskee poiston ja luo rivejä käyttöomaisuuden KP-päiväkirjaan.  
-4. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KO - KP-päiväkirjat** ja valitse sitten liittyvä linkki.  
+4. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **KO - KP-päiväkirjat** ja valitse sitten liittyvä linkki.  
 
-    **Käyttöomaisuuden KP-päiväkirja** -ikkunan **Poistopäivien lukumäärä** -kentän avulla nähdään, kuinka monta poistopäivää on laskettu.  
+    **Käyttöomaisuuden KP-päiväkirja** -sivun **Poistopäivien lukumäärä** -kentän avulla nähdään, kuinka monta poistopäivää on laskettu.  
 5. Valitse **Kirjaa**-toiminto.  
 
 ## <a name="to-post-depreciation-manually-from-the-fixed-asset-gl-journal"></a>Poistojen kirjaaminen manuaalisesti käyttöomaisuuden KP-päiväkirjasta
@@ -81,18 +81,18 @@ Kun täytät poistokirjaan kirjattavat päiväkirjarivit, voit monistaa rivit er
 5. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KO-päiväkirjat** ja valitse sitten liittyvä linkki.  
 
     > [!NOTE]  
-    >   **Käyttöomaisuuspäiväkirja**-ikkuna sisältää uusia rivejä eri poistokirjoille monistusluettelon mukaan.  
+    >   **Käyttöomaisuuspäiväkirja**-sivu sisältää uusia rivejä eri poistokirjoille monistusluettelon mukaan.  
 6. Tarkista rivit tai muokkaa niitä ja valitse sitten **Kirjaa**-toiminto.  
 
     > [!NOTE]  
     >   Toinen tapa monistaa tapahtuma erilliseen kirjaan on syöttää poistokirjan koodi **Monista poistokirjaan** -kenttään silloin, kun päiväkirjariviä täytetään.  
 
-Tapahtumia voidaan kopioida poistokirjasta toiseen käyttämällä **Kopioi poistokirja** -eräajoa. Eräajo luo päiväkirjarivejä päiväkirjan erään, jonka olet määrittänyt **KO-päiväkirjan asetukset** -ikkunassa poistokirjalle, johon haluat kopioida. Katso lisätietoja seuraavasta menettelystä.  
+Tapahtumia voidaan kopioida poistokirjasta toiseen käyttämällä **Kopioi poistokirja** -eräajoa. Eräajo luo päiväkirjarivejä päiväkirjan erään, jonka olet määrittänyt **KO-päiväkirjan asetukset** -sivulla poistokirjalle, johon haluat kopioida. Katso lisätietoja seuraavasta menettelystä.  
 
 ## <a name="to-copy-fixed-asset-ledger-entries-between-depreciation-books"></a>Käyttöomaisuustapahtumien kopioiminen poistokirjojen välillä
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poistokirjat** ja valitse sitten liittyvä linkki.  
 2. Avaa poistokirjan kortti ja valitse **Kopioi poistokirja** -toiminto.  
-3. Täytä **Kopioi poistokirja** -ikkunassa tarvittavat kentät.  
+3. Täytä **Kopioi poistokirja** -sivun kentät tarvittaessa.  
 4. Valitse **OK**-painike.  
 
 Kopioidut rivit luodaan joko käyttöomaisuuden KP-päiväkirjassa tai käyttöomaisuuspäiväkirjassa sen mukaisesti, onko kopioitava poistokirja integroitu pääkirjanpitoon.  

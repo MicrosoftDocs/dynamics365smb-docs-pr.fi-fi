@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c771db9256edfb6cc82f8d7a16a1fdd307d030b7
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: cd83ddd7dcda539327167e34489c227cd1fdb70e
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-costing-methods"></a>Rakennetiedot: arvostusmenetelmät
@@ -41,7 +41,7 @@ Arvostusmenetelmä määrittää, siirretäänkö todellinen vai budjetoitu arvo
 |Yleiset ominaisuudet|Helppo ymmärtää|Perustuu jakson vaihtoehtoihin: **päivä**/**viikko**/**kuukausi**/**vuosineljännes**/**kirjanpitojakso**.<br /><br /> Voidaan laskea nimikekohtaisesti tai nimikkeen/sijainnin/variantin mukaan.|Helppo käyttää, mutta vaatii pätevää kunnossapitoa|Vaatii nimikeseurantaa sekä saapuvissa että lähtevissä tapahtumissa.<br /><br /> Yleensä käytetään sarjoitettuja nimikkeitä|  
 |Sovellus/muutos|Sovellus seuraa **jäljellä olevaa määrää**.<br /><br /> Säätäminen välittää kustannukset määrän kohdistuksen mukaisesti.|Sovellus seuraa **jäljellä olevaa määrää**.<br /><br /> Kustannukset lasketaan ja siirretään edelleen **arvostuspäivämäärän** mukaan.|Sovellus seuraa **jäljellä olevaa määrää**.<br /><br /> Sovellus perustuu FIFO-käytäntöön.|Kaikki sovellukset ovat kiinteitä.|  
 |Uudelleenarvostus|Uudelleen arvostaa vain laskutetut määrät.<br /><br /> Voidaan suorittaa nimikekohtaisesti tai tapahtumakohtaisesti.<br /><br /> Voidaan suorittaa ajassa taaksepäin.|Uudelleen arvostaa vain laskutetut määrät.<br /><br /> Voidaan suorittaa vain nimikettä kohden.<br /><br /> Voidaan suorittaa ajassa taaksepäin.|Uudelleen arvostaa laskutetut ja laskuttamattomat määrät.<br /><br /> Voidaan suorittaa nimikekohtaisesti tai tapahtumakohtaisesti.<br /><br /> Voidaan suorittaa ajassa taaksepäin.|Uudelleen arvostaa vain laskutetut määrät.<br /><br /> Voidaan suorittaa nimikekohtaisesti tai tapahtumakohtaisesti.<br /><br /> Voidaan suorittaa ajassa taaksepäin.|  
-|Sekalaista|Jos asetat varaston arvon vähennyksen takautuvasti, olemassa olevia tapahtumia EI kohdisteta uudelleen oikean FIFO-kustannusvirran luomiseksi.|Jos asetat varaston arvon nousun tai vähennyksen takautuvasti, keskimääräinen kustannus lasketaan uudelleen ja kaikki liittyvät tapahtumat oikaistaan.<br /><br /> Jos vaihdat jaksoa tai laskentatyyppiä, kaikkia liittyviä tapahtumia on muutettava.|Voit päivittää ja vyöryttää vakiokustannukset säännöllisesti **Vakiotyökirja**-ikkunan avulla.<br /><br /> EI tueta varastoyksikkökohtaisesti.<br /><br /> Historiallisia tietueita ei ole olemassa standardikustannuksille.|Voit käyttää tietyn nimikkeen seurantaa ilman Spesifinen-arvostusmenetelmän käyttöä. Kustannukset eivät seuraa eränumeroa, vaan valitun arvostusmenetelmän kustannusten oletusta.|  
+|Sekalaista|Jos asetat varaston arvon vähennyksen takautuvasti, olemassa olevia tapahtumia EI kohdisteta uudelleen oikean FIFO-kustannusvirran luomiseksi.|Jos asetat varaston arvon nousun tai vähennyksen takautuvasti, keskimääräinen kustannus lasketaan uudelleen ja kaikki liittyvät tapahtumat oikaistaan.<br /><br /> Jos vaihdat jaksoa tai laskentatyyppiä, kaikkia liittyviä tapahtumia on muutettava.|Voit päivittää ja vyöryttää vakiokustannukset säännöllisesti **Vakiotyökirja**-sivun avulla.<br /><br /> EI tueta varastoyksikkökohtaisesti.<br /><br /> Historiallisia tietueita ei ole olemassa standardikustannuksille.|Voit käyttää tietyn nimikkeen seurantaa ilman Spesifinen-arvostusmenetelmän käyttöä. Kustannukset eivät seuraa eränumeroa, vaan valitun arvostusmenetelmän kustannusten oletusta.|  
 
 ## <a name="example"></a>Esimerkki  
  Tässä osassa on esimerkkejä siitä, miten erilaiset arvostusmenetelmät vaikuttavat varaston arvoon.  

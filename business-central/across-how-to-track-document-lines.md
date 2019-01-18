@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 39a44f4b608bca436adedb16c800c96a046d5644
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2325aafc22db4ab737e63a261b836076cc3fde20
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="track-document-lines"></a>Asiakirjarivien seuranta
@@ -28,7 +28,7 @@ Seuraavassa kuvataan, miten seuranta tehdään myyntitilausriviltä. Vaiheet ova
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten liittyvä linkki.  
 2.  Avaa myyntitilaus, josta haluat seurata.  
 3.  Valitse rivi ja valitse sitten **Asiakirjarivin seuranta** -toiminto.
-4. Valitse **Asiakirjarivien seuranta** -ikkunassa tarkasteltava asiakirja. Valitse sitten **Näytä**-toiminto, jos haluat nähdä liittyvän rivin.
+4. Valitse **Asiakirjarivien seuranta** -sivulla tarkasteltava asiakirja. Valitse sitten **Näytä**-toiminto, jos haluat nähdä liittyvän rivin.
 5. Voit tarkastella valitun asiakirjan koko asiakirjaa valitsemalla **Näytä asiakirja** -toiminto.
 
 ## <a name="see-also"></a>Katso myös

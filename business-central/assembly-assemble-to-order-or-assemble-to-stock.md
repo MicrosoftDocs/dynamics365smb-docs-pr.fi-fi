@@ -13,10 +13,10 @@ ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e09bc15f21acbcdf55908064b9867728a7870fb4
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 1000447ed0f547fea9fc349900631b0a5f0ce107
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Tietoja Kokoonpano tilausta varten- ja Kokoonpano varastoon -toiminnoista
@@ -38,7 +38,7 @@ Käytät yleensä *Kokoonpano tilausta varten* nimikkeille, joita et halua varas
 
 Kokoonpano tilausta varten -käsittelyssä nimike kootaan vastauksena myyntitilaukseen ja kahdenvälisenä kokoonpanotilauksen ja myyntitilauksen välisenä linkkinä.  
 
-Kun syötät myyntiriville kokoonpano tilausta varten nimikkeen, kokoonpanotilaus luodaan automaattisesti otsikolla, joka perustuu myyntiriviin ja riveillä, jotka perustuvat nimikkeen kokoonpanon tuoterakenteeseen kerrottuna tilausmäärällä. Voit käyttää **Kokoonpano tilausta varten -rivit** -ikkunaa nähdäksesi linkitetyt kokoonpanotilausrivit tukeaksesi muokkaamaan kokoonpanon nimikettä ja toimituspäivää, joka perustuu osan saatavuustietoihin. Lisätietoja on kohdassa [Kokoonpano tilausta varten -nimikkeiden myyminen](assembly-how-to-sell-items-assembled-to-order.md).  
+Kun syötät myyntiriville kokoonpano tilausta varten nimikkeen, kokoonpanotilaus luodaan automaattisesti otsikolla, joka perustuu myyntiriviin ja riveillä, jotka perustuvat nimikkeen kokoonpanon tuoterakenteeseen kerrottuna tilausmäärällä. Voit käyttää **Kokoonpano tilausta varten -rivit** -sivua nähdäksesi linkitetyt kokoonpanotilausrivit tukeaksesi muokkaamaan kokoonpanon nimikettä ja toimituspäivää, joka perustuu osan saatavuustietoihin. Lisätietoja on kohdassa [Kokoonpano tilausta varten -nimikkeiden myyminen](assembly-how-to-sell-items-assembled-to-order.md).  
 
 > [!NOTE]  
 >  Vaikka se ei ole osa oletusprosessia, voit myydä varastomääriä kokoonpano tilausta varten -määrillä. Lisätietoja on kohdassa [Varastonimikkeiden myyminen Kokoonpano tilausta varten -työnkuluissa](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md).  

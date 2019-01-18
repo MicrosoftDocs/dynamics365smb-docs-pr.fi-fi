@@ -13,23 +13,23 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e10a823d856dd02311b990da5d22fe7f87730d51
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 04b1e87cb41df19559d85cf02eabbf6aaec0011a
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-basic-warehouses-with-operations-areas"></a>Fyysisten perusvarastojen ja toimintoalueiden määrittäminen
 Jos sellaisen fyysisen varaston perusmäärityksissä, jonka sijainnit käyttävät **Var.paikka pakollinen** -asetuskenttää ja mahdollisesti myös **Vaadi poiminta**- ja **Vaadi hyllytys** -asetuskenttää, on sisäisiä toimintoalueita, kuten tuotanto tai kokoonpano, sisäisten toimintoalueiden fyysisen varastoinnin toimintojen tallentamisessa on käytettävä seuraavia fyysisen varastoinnin perusasiakirjoja:  
 
-- **Varastonsiirto**-ikkuna.  
-- **Varaston poiminta** -ikkuna.  
-- **Varaston hyllytys** -ikkuna.
+- **Varaston siirtoluettelo** -sivu.  
+- **Varaston poiminta** -sivu.  
+- **Var. hyllytysluettelo** -sivu.
 
 > [!NOTE]
 > Vaikka asetusten nimenä on **Vaadi poiminta** ja **Vaadi hyllytys**, voit silti kirjata vastaanottoja ja toimituksia suoraan lähdeasiakirjoista sijainneissa, joissa olet valinnut nämä valintaruudut.  
 
-Käyttääksesi näitä ikkunoita sisäisillä toiminnoilla, kuten osien poiminta ja siirto tuotantoon, sinun täytyy tehdä joitakin tai kaikki asetusvaiheet sen mukaan, kuinka paljon ohjausta tarvitset:  
+Käyttääksesi näitä sivuja sisäisillä toiminnoilla, kuten osien poiminta ja siirto tuotantoon, sinun täytyy tehdä joitakin tai kaikki asetusvaiheet sen mukaan, kuinka paljon ohjausta tarvitset:  
 
 - Ota käyttöön varaston poiminta-, siirto- ja hyllytysasiakirjat.  
 - Määritä oletusarvoiset varastopaikan rakenteet osille ja valmiille nimikkeille, jotka tulevat ja lähtevät toiminnan resursseista.  
@@ -59,14 +59,14 @@ Seuraavat toimet perustuvat perusvarastoinnin aktiviteettien määrittämiseen t
 
 5. Anna **Varastopaikat**-pikavälilehdeb **Valm. tuot.nim. var.paik.koodi** -kentässä tuotantoalueen sen varastopaikan koodi, josta lopulliset nimikkeet oletusasetuksena otetaan, kun prosessiin liittyy varastoinnin toiminto. Fyysisen varastoinnin perusmäärityksissä toiminto kirjataan varaston hyllytyksenä tai varastosiirtona.  
 
-Nyt oletusvarastopaikkakoodilla varustetut tuotantotilauksen komponenttirivit vaativat, että eteenpäin siirretyt komponentit sijoitetaan niihin. Kunnes kyseisen varastopaikan komponentit on kulutettu loppuun, tästä varastopaikasta voidaan poimia tai kuluttaa muiden komponenttien kysynnän mukaisesti, koska varastopaikat ovat yhä saatavana olevaa varastopaikan sisältöä. Jotta varmistat, että varastopaikan sisältö on käytettävissä vain komponenttitarpeeseen, joka käyttää kyseistä tuotannon valmisteluvarastopaikkaa, sinun on valittava **Erityinen**-kenttä kyseisen varastopaikkakoodin rivillä **Varastopaikat**-ikkunassa, jonka avaat sijaintikortista.
+Nyt oletusvarastopaikkakoodilla varustetut tuotantotilauksen komponenttirivit vaativat, että eteenpäin siirretyt komponentit sijoitetaan niihin. Kunnes kyseisen varastopaikan komponentit on kulutettu loppuun, tästä varastopaikasta voidaan poimia tai kuluttaa muiden komponenttien kysynnän mukaisesti, koska varastopaikat ovat yhä saatavana olevaa varastopaikan sisältöä. Jotta varmistat, että varastopaikan sisältö on käytettävissä vain komponenttitarpeeseen, joka käyttää kyseistä tuotannon valmisteluvarastopaikkaa, sinun on valittava **Erityinen**-kenttä kyseisen varastopaikkakoodin rivillä **Varastopaikat**-sivulla, jonka avaat sijaintikortista.
 
 Tämä työnkulkukaavio näyttää, miten tuotantotilauksen osarivien**Varastopaikkakoodi**-kenttä täytetään asetusten mukaisesti.  
 
 ![Varastopaikkojen vuokaavio](media/binflow.png "BinFlow")    
 
 ## <a name="to-define-a-default-bin-structure-in-the-assembly-area"></a>Varastopaikan oletusrakenten määrittäminen kokoonpanoalueella
-Kokoonpanotilausten osia ei voi poimia tai kirjata varastopoiminnan kanssa. Käytä sen sijaan **Varaston siirto** -ikkunaa. Lisätietoja on kohdassa [Komponenttien siirtäminen fyysisen perusvarastoinnin toiminta-alueelle](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
+Kokoonpanotilausten osia ei voi poimia tai kirjata varastopoiminnan kanssa. Käytä sen sijaan **Varaston siirto** -sivua. Lisätietoja on kohdassa [Komponenttien siirtäminen fyysisen perusvarastoinnin toiminta-alueelle](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
 
 Kun poiminnan ja toimituksen myyntirivin määriä kootaan tilaukseen, varaston poimintarivejä luotaessa on noudatettava tiettyjä sääntöjä. Lisätietoja on ohjeaiheen [Nimikkeiden poiminta varaston poiminnoissa](warehouse-how-to-pick-items-with-inventory-picks.md) kohdassa Kokoonpano tilausta varten -nimikkeiden käsitteleminen varaston poiminnoissa.
 
@@ -119,16 +119,16 @@ Sama varastopaikkakoodi kopioidaan puolestaan varaston poimintarivin **Varastopa
 ## <a name="to-create-dedicated-component-bins"></a>Osien erityisvarastopaikkojen luominen
 Voit määrittää, että varastopaikan määrät suojataan nykyistä tarkoitusta lukuun ottamatta kaikilta muiden tarpeiden poiminnoilta.
 
-Erityisvarastopaikoissa olevat määrät voidaan edelleen varata. Näin ollen erityisvarastopaikkojen määrät sisällytetään **Varaus**-ikkunan **Saatavilla oleva kokonaismäärä** -kenttään.
+Erityisvarastopaikoissa olevat määrät voidaan edelleen varata. Näin ollen erityisvarastopaikkojen määrät sisällytetään **Varaus**-sivun **Saatavilla oleva kokonaismäärä** -kenttään.
 
-Esimerkiksi tuotantosolu on määritetty **Tuotannon valmisteluvarastopaikkakoodi** -kentän varastopaikkakoodilla. Oletusvarastopaikkakoodilla varustetut tuotantotilauksen komponenttirivit vaativat, että eteenpäin siirretyt komponentit sijoitetaan niihin. Kunnes kyseisen varastopaikan komponentit on kulutettu loppuun, tästä varastopaikasta voidaan poimia tai kuluttaa muiden komponenttien kysynnän mukaisesti, koska varastopaikat ovat yhä saatavana olevaa varastopaikan sisältöä. Voit varmistaa, että vain kyseistä tuotannon valmisteluvarastopaikkaa käyttävä komponenttitarve voi käyttää sen sisältöä valitsemalla **Erityinen**-kentän kyseisen varastopaikkakoodin rivillä sijaintikortista avattavassa **Varastopaikat**-ikkunassa.
+Esimerkiksi tuotantosolu on määritetty **Tuotannon valmisteluvarastopaikkakoodi** -kentän varastopaikkakoodilla. Oletusvarastopaikkakoodilla varustetut tuotantotilauksen komponenttirivit vaativat, että eteenpäin siirretyt komponentit sijoitetaan niihin. Kunnes kyseisen varastopaikan komponentit on kulutettu loppuun, tästä varastopaikasta voidaan poimia tai kuluttaa muiden komponenttien kysynnän mukaisesti, koska varastopaikat ovat yhä saatavana olevaa varastopaikan sisältöä. Jotta varmistat, että varastopaikan sisältö on käytettävissä vain komponenttitarpeeseen, joka käyttää kyseistä tuotannon valmisteluvarastopaikkaa, sinun on valittava **Erityinen**-kenttä kyseisen varastopaikkakoodin rivillä **Varastopaikat**-sivulla, jonka avaat sijaintikortista.
 
 Erillisen varastopaikan tekeminen tuottaa samantapaisen toiminnan kuin varastopaikkatyyppien käyttö, joka on mahdollista vain laajennetussa varastoinnissa. Lisätietoja on kohdassa [Varastopaikkojen määrittäminen](warehouse-how-to-set-up-bin-types.md).
 
 > [!Caution]
-> Erikoisvarastopaikoissa olevat nimikkeet eivät ole suojattuja, kun ne on kerätty ja kulutettu tuotantokomponentteina Varaston poiminta -ikkunan kautta.
+> Erikoisvarastopaikoissa olevat nimikkeet eivät ole suojattuja, kun ne on kerätty ja kulutettu tuotantokomponentteina Varaston poiminta -sivun kautta.
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sijainnit** ja valitse sitten liittyvä linkki. Avaa sijainti, jonka haluat päivittää.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Sijainnit** ja valitse sitten liittyvä linkki. Avaa sijainti, jonka haluat päivittää.  
 2.  Valitse **Varastopaikat**-toiminto.  
 3.  Valitse **Erityinen** -kenttä jokaiselle varastopaikalle, jolle haluat käyttää yksinomaan tiettyjä sisäisiä operaatioita ja joille haluat varata määriä sisäiselle operaatiolle, kun se on sijoitettu sinne.  
 

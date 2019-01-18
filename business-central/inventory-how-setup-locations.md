@@ -13,10 +13,10 @@ ms.search.keywords: warehouse, distribution center
 ms.date: 10/01/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 503655e65b7df83c89e52d76a22396b672b2d28e
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 828979bf181f1cd7f7a66d2c7c8ac8a2700b732b
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-locations"></a>Sijaintien määrittäminen
@@ -27,7 +27,7 @@ Voit sitten luoda asiakirjarivejä tietylle sijainnille, tarkastella saatavuutta
 ## <a name="to-create-a-location-card"></a>Sijaintikortin luominen
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sijainnit** ja valitse sitten liittyvä linkki.
 2. Valitse **Uusi**-toiminto.
-3. Täytä **Sijaintikortti**-ikkunassa tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Täytä **Sijaintikortti**-sivulla tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Toista vaiheet 2 ja 3 jokaiselle sijainnille, jossa haluat pitää varastoa.
 
 > [!NOTE]  
@@ -35,9 +35,9 @@ Voit sitten luoda asiakirjarivejä tietylle sijainnille, tarkastella saatavuutta
 
 ## <a name="to-create-a-transfer-route"></a>Siirtoreittien luominen
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Siirtoreitit** ja valitse sitten liittyvä linkki.
-2. Voit myös valita **Siirtoreitit**-toiminnon mistä tahansa **Sijaintikortti**-ikkunasta.
+2. Voit myös valita **Siirtoreitit**-toiminnon miltä tahansa **Sijaintikortti**-sivulta.
 3. Valitse **Uusi**-toiminto.
-4. Täytä **Sijaintikortti**-ikkunassa tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. Täytä **Sijaintikortti**-sivulla tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Voit nyt siirtää varastonimikkeitä sijaintien välillä. Lisätietoja on kohdassa [Varastonimikkeiden siirtäminen sijantien välillä](inventory-how-transfer-between-locations.md).    
 

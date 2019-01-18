@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f14191eb0a7b7564f5079a53bd90dfc39f176326
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: e187a6d66804066f68af910c75d74f639e852446
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-reports-with-xbrl"></a>Luo raportteja XBRL-linkityksellä.
@@ -53,7 +53,7 @@ Taksonomia voi koostua perustaksonomiasta, esim. US-gaap tai IAS, sekä yhdestä
 ## <a name="linkbases"></a>Linkkikannat  
  XBRL Spec. 2:ssa taksonomia kuvataan useassa XML-tiedostossa. Ensisijainen XML-tiedosto on itse taksonomian mallitiedosto (.xsd-tiedosto), joka sisältää vain järjestelemättömän luettelon raportoitavista elementeistä tai tiedoista. Tämän lisäksi yleensä käytetään joitakin linkkikantatiedostoja (.xml). Linkkikantatiedostot sisältävät dataa, joka täydentää raakaa taksonomiaa (.xsd -tiedosto). Linkkikantatiedostoja on kuutta tyyppiä, joista neljällä on merkitystä Tuotenimi XBRL:lle. Nämä ovat:  
 
--   Tunnus linkkikanta: Tämä linkkikanta sisältää tunnukset tai nimet tai etiketit elementeille. Tiedosto voi sisältää etikettejä useilla kielillä, jotka on määritetty XML-ominaisuudessa ’lang’. XML-kielitunniste sisältää yleensä kaksikirjaimisen lyhenteen, ja vaikka lyhenteen arvaaminen on melko helppoa sillä ei ole mitään yhteyttä Windows –kieleen tai kielikoodeihin, joita on käytetty demodatassa. Eli kun käyttäjä tarkastelee tietyn taksonomian kieliä, hän näkee kaikki tunnukset taksonomia ensimmäiselle elementille eli hän näkee esimerkin kaikista kielistä. Taksonomialla voi olla useita liitettyjä linkkikantoja, kunhan nämä linkkikannat sisältävät eri kielet.  
+-   Tunnus linkkikanta: Tämä linkkikanta sisältää tunnukset tai nimet tai etiketit elementeille. Tiedosto voi sisältää etikettejä useilla kielillä, jotka on määritetty XML-ominaisuudessa ’lang’. XML-kielitunniste sisältää yleensä kaksikirjaimisen lyhenteen, ja vaikka lyhenteen arvaaminen on melko helppoa sillä ei ole mitään yhteyttä Windowsin kielikoodiin tai kielikoodeihin, joita on käytetty demodatassa. Eli kun käyttäjä tarkastelee tietyn taksonomian kieliä, hän näkee kaikki tunnukset taksonomia ensimmäiselle elementille eli hän näkee esimerkin kaikista kielistä. Taksonomialla voi olla useita liitettyjä linkkikantoja, kunhan nämä linkkikannat sisältävät eri kielet.  
 
 -   Esityslinkkikanta: Tämä linkkikanta sisältää tietoa elementtien rakenteesta, tai tarkemmin; kuinka taksonomian julkaisija ehdottaa, että ohjelma esittää taksonomian käyttäjälle. Linkkikanta sisältää linkkejä, jotka yhdistävät kaksi elementtiä pää- ja alaelementiksi. Kun kaikkia näitä linkkejä käytetään, elementit voidaan esittää hierarkisesti. Huomaa, että esityslinkkikanta käsittelee juuri tätä: elementtien esittämistä käyttäjälle.  
 
@@ -67,7 +67,7 @@ Kun olet tuonut tai päivittänyt taksonomian, mallien riveille tulee antaa kaik
 XBRL-rivit määritellään linkittämällä taksonomiatiedot pääkirjanpitosi tietoihin.  
 
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **XBRL-taksonomiat** ja valitse sitten liittyvä linkki.  
-2.  Valitse **XBRL-taksonomiat**-ikkunassa luokitus luettelosta.  
+2.  Valitse **XBRL-taksonomiat**-sivulla luokitus luettelosta.  
 3.  Valitse **Rivit**-toiminto.  
 4.  Valitse rivi ja täytä kentät.   
 5.  Saat tarkat tiedot täytettävistä tiedoista valitsemalla **Tiedot**-toiminnon.  
@@ -83,11 +83,11 @@ XBRL-rivit määritellään linkittämällä taksonomiatiedot pääkirjanpitosi 
  ## <a name="to-import-an-xbrl-taxonomy"></a>XBRL-taksonomian tuominen  
 Ensimmäinen vaihe XBRL-toiminnon käytössä on se, että tuot taksonomian yrityksesi tietokantaan. Taksonomia koostuu yhdestä tai useammasta mallista ja joistakin linkkikannoista. Kun olet tuonut sekä malli(t) että linkkikannat ja kohdistanut linkkikannat malliin, voit määrittää rivit ja kohdistaa oikeat KP-tilit oikeisiin taksonomian riveihin.  
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **XBRL-taksonomiat** ja valitse sitten liittyvä linkki.  
-2.  Luo **XBRL-taksonomiat**-ikkunassa uusi rivi ja kirjoita taksonomian nimi ja kuvaus.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **XBRL-taksonomiat** ja valitse sitten liittyvä linkki.  
+2.  Luo **XBRL-taksonomiat**-sivulla uusi rivi ja kirjoita taksonomian nimi ja kuvaus.  
 3.  Valitse ensin **Mallit** ja lisää sitten mallin kuvaus.  
-4.  Tuo malli valitsemalla **XBRL-mallit**-ikkunassa ensin **Tuo**-toiminto ja sitten kansio ja XSD-tiedosto. Valitse **Avaa**-painike.  
-5.  Tuo linkkikanta valitsemalla **XBRL-mallit**-ikkunassa ensin **Linkkikannat**-toiminto ja sitten kansio ja XML-tiedosto. Valitse **Avaa**-painike.  
+4.  Tuo malli valitsemalla **XBRL-mallit**-sivulla ensin **Tuo**-toiminto ja sitten kansio ja XSD-tiedosto. Valitse **Avaa**-painike.  
+5.  Tuo linkkikanta valitsemalla **XBRL-mallit**-sivulla ensin **Linkkikannat**-toiminto ja sitten kansio ja XML-tiedosto. Valitse **Avaa**-painike.  
 6.  Nyt voit kohdistaa linkkikannan malliin tai odottaa. Toista kunnen olet tuonut kaikki linkkikannat.  
 7. Kohdista linkkikanta malliin valitsemalla **Kohdista taksonomiaan** -toiminto.  
 
@@ -97,8 +97,8 @@ Ensimmäinen vaihe XBRL-toiminnon käytössä on se, että tuot taksonomian yrit
 ## <a name="to-update-an-xbrl-taxonomy"></a>XBRL-taksonomian päivittäminen  
 Kun taksonomia muuttuu tulee nykyinen taksonomia päivittää sen mukaiseksi. Syy päivitykseen voi olla muutos mallissa, linkkikannassa tai uusi linkkikanta. Taksonomian päivittämisen jälkeen tulee vain linkittää rivit muuttuneiden ja uusien rivien kohdalla.  
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **XBRL-taksonomiat** ja valitse sitten liittyvä linkki.  
-2.  Valitse **XBRL-taksonomiat**-ikkunassa **Mallit**-toiminto.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **XBRL-taksonomiat** ja valitse sitten liittyvä linkki.  
+2.  Valitse **XBRL-taksonomiat**-sivulla **Mallit**-toiminto.  
 3.  Voit päivittää mallin valitsemalla ensin päivitettävän mallin ja sitten **Tuo**-toiminnon.  
 4.  Päivitä tai lisää uusi linkkikanta valitsemalla **Linkkikannat**-toiminnon.  
 5.  Valitse asianmukainen linkkikanta tai luo uusi rivi painamalla Ctrl + N. Valitse linkkikannan tyyppi tai lisää kuvaus.  

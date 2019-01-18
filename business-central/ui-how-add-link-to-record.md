@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c2e70ad534a28cf5062e9e54a2dfbd3af6afaa39
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 8927d2ca670b3faa38cd03ea10ae524e595721ad
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="adding-links-to-websites-documents-or-programs-on-records"></a>Sivustojen, asiakirjojen tai ohjelmien linkkien lisääminen tietueissa
@@ -26,7 +26,7 @@ Kyse voi olla myös esimerkiksi tulostettujen laskujen vastaanottamisesta toimit
 
 1.  Avaa tietue, johon haluat liittää linkin (esimerkiksi asiakaskortti tai myyntitilaus). Jos haluat liittää linkin tietylle riville, kuten päiväkirjan riville, valitse kyseinen rivi.  
 
-2.  Avaa **Linkit**-toiminnolla **Linkit**-ikkuna, jossa kaikki tietueeseen tällä hetkellä lisätyt linkit näkyvät.
+2.  Avaa **Linkit**-toiminnolla **Linkit**-sivut, joissa kaikki tietueeseen tällä hetkellä lisätyt linkit näkyvät.
 
 3. Lisää uusi linkki valitsemalla **+uusi**.
 
@@ -43,7 +43,7 @@ Kyse voi olla myös esimerkiksi tulostettujen laskujen vastaanottamisesta toimit
 
 ## <a name="to-delete-a-link-from-a-record"></a>Linkin poistaminen tietueesta  
 
-Poista linkki valitsemalla **Linkit**-ikkunassa ensin **...** ja sitten **Poista**.
+Poista linkki valitsemalla **Linkit**-sivulla ensin **...** ja sitten **Poista**.
 
 Jos poistat yksittäisen tietueen, kuten myyntitilausrivin, myyntitilauksen tai asiakkaan, kaikki tietueeseen liitetyt linkit poistetaan. Jos sen sijaan poistat tietueita käyttämällä eräajoa, kuten **Poista laskutetut myyntitilaukset**, linkit säilyvät tietokantaan tallennettuina. Voit poistaa linkit tietokannasta suorittamalla **Poista orvot tietuelinkit** -koodiyksikön. Jos haluat tehdä näin, valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poista orvot tietuelinkit** ja valitse sitten liittyvä linkki.   
 
@@ -51,7 +51,7 @@ Jos poistat yksittäisen tietueen, kuten myyntitilausrivin, myyntitilauksen tai 
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Deletion**, and then choose the related link.  
 
-2.  In the **Data Deletion** window, choose **Tasks**, and then choose **Delete Orphaned Record Links**.  -->
+2.  On the **Data Deletion** page, choose **Tasks**, and then choose **Delete Orphaned Record Links**.  -->
 
 ## <a name="see-also"></a>Katso myös  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  

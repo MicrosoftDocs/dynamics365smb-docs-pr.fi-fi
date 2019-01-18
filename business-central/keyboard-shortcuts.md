@@ -11,17 +11,17 @@ ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 3df0235b477d2dc1085ed0b2a622d0e1b96c8a78
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 549f66a584e7994cba6d7b99ee25a04c8cb8960b
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
 # <a name="keyboard-shortcuts"></a>Pikanäppäimet
-Tässä artikkelissa käsitellään yleisesti [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] -ohjelman joitakin pikanäppäinyhdistelmiä.
+Tässä artikkelissa käsitellään yleisesti [!INCLUDE[prodshort](includes/prodshort.md)] -ohjelman joitakin pikanäppäinyhdistelmiä.
 
-[Pikanäppäinten helposti tulostettava muistilappu](keyboard-shortcuts-cheatsheet.md)
+[Pikanäppäinten helposti tulostettava luettelo](keyboard-shortcuts-cheatsheet.md)
 
 ## <a name="overview"></a>Yleiskuvaus
 Pikanäppäimet ovat helppokäyttötoimintoja. Ne auttavat ja tehostavat sivun eri alueiden ja elementtien välillä siirtymistä.
@@ -35,14 +35,17 @@ Useimmat pikanäppäimet ovat samoja sekä Windows- että macOS-käyttöjärjest
 ##  <a name="Keyboard"></a> Yleiset pikanäppäimet
 Seuraavassa taulukossa kuvataan pikanäppäimet, joiden avulla voi käyttää sivun eri elementtejä, kuten toimintoja, avattavia luetteloita ja hakuja, ja siirtyä niiden välillä. Lisätietoja luettelon tietueiden välillä siirtymisessä käytettävistä pikanäppäimistä on seuraavassa osassa.
 
-|Paina näitä näppäimiä|Tehtävä|  
+|Paina näitä näppäimiä<br />(macOS)|Tehtävä|  
 |----------------|-----------|  
-|Alt+Q|Avaa **Kerro, mitä haluat tehdä** -ruutu. Sen avulla voit etsiä sivun, raportin tai toiminnon nykyisellä sivulla tai artikkelin dokumentaatiossa.|
+|Alt+Q<br />(Ctrl+Alt+Q)|Avaa **Kerro, mitä haluat tehdä** -ruutu. Sen avulla voit etsiä sivun, raportin tai toiminnon nykyisellä sivulla tai artikkelin dokumentaatiossa.|
+|Alt+ylänuoli|Näyttää taulukokon kentän tai sarakeotsikon työkaluvihjeen. Jos kentässä on tarkistusvirheitä, tarkistusvirhe tulee näkyviin näppäinyhdistelmällä Alt+ylänuoli. Sulje työkaluvihje painamalla Esc-näppäintä tai näppäinyhdistelmää Alt+ylänuoli.|
 |Sarkain|Siirrä kohdistus sivun seuraavaan ohjausobjektiin tai elementtiin, kuten toimintoon, painikkeeseen, kenttään tai luettelon otsikkoon.|
 |Vaihto+Sarkain|Siirrä kohdistus sivun edelliseen ohjausobjektiin tai elementtiin, kuten toimintoon, painikkeeseen, kenttään tai luettelon otsikkoon.|   
 |Enter|Ota kohdistettu elementti tai ohjausobjekti käyttöön tai käytä sitä.|   
 |Alt+alanuoli|Avaa avattava luettelo tai hae kentän arvo.|    
 |Alt+Oikea nuoli|Näet tapahtumat, joiden perusteella kentän arvo laskettiin.|  
+|F5|Tietojen päivitys nykyisellä sivulla.|Voit varmistaa tällä tavoin, että sivulla näkyvät tiedot sisältävät kaikki muiden oman työskentelysi aikana tekemät muutokset.|
+|Ctrl+F5|[!INCLUDE[prodshort](includes/prodshort.md)] -sovellus ladataan uudelleen.|Tämä vastaa selaimen päivittämistä tai sivun uudelleen avaamista.|
 |Esc|Sulje nykyinen sivu tai avattava luettelo.|
 
 
@@ -126,7 +129,7 @@ Päivämääräkenttää määrittäessäsi voit syöttää päivämäärän man
 |Ylänuoli|Vieritä sivua ylös.|
 |Oikea nuoli|Vieritä oikealle, kun sivua on lähennetty niin ettei koko sivu ole näkyvissä. |
 |Vasen nuoli|Vieritä vasemmalle, kun sivua on lähennetty niin ettei koko sivu ole näkyvissä. |
-|Ctrl+0 (nolla)<br />(Cmd+0)|Sovittaa koko sivun ikkunaan. |
+|Ctrl+0 (nolla)<br />(Cmd+0)|Sovittaa koko sivun näkyviin. |
 |Ctrl+Home<br />(Cmd + Home)|Siirry raportin ensimmäiselle sivulle.|
 |Ctrl+End<br />(Cmd + Home)|Siirry raportin viimeiselle sivulle.|
 |Sivu alas<br />(Fn+alanuoli)|Siirry raportissa seuraavalle sivulle.|

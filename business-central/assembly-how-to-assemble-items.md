@@ -13,10 +13,10 @@ ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 00830a8b1c55e67642f39378a13d34bd53d67a86
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 89f878f4049b09cbaa413bc38b97039a07646d9d
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="assemble-items"></a>Kokoa nimikkeet
@@ -44,18 +44,18 @@ Tässä toimenpiteessä luot kokoonpanotilauksen varastoon (eli ilman myyntitila
 
 ## <a name="to-assemble-an-item"></a>Kokoa nimike  
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kokoonpanotilaukset** ja valitse sitten liittyvä linkki.  
-2.  Valitse **Uusi**-toiminto. **Uusi kokoonpanotilaus** -ikkuna aukeaa.  
+2.  Valitse **Uusi**-toiminto. **Uusi kokoonpanotilaus**-sivu avautuu.  
 3.  Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Valitse **Nimikenro**-kentässä kokoonpanon nimike, jota haluat käsitellä. Kenttä on suodatettu näyttämään vain ne kohteet, jotka on määritetty kokoonpanolle, joka tarkoittaa sitä, että niille on määritetty kokoonpanon tuoterakenne.  
 5.  Määritä **Määrä**-kentässä, miten monta nimikkeen yksikköä haluat koottavan.  
 
     > [!NOTE]  
-    >  Jos vähintään yksi komponentti ei ole saatavana syötetyn kokoonpanon nimikkeen määrän täyttämiseksi määritettynä eräpäivänä, **Kokoonpanon saatavuus** -ikkuna avautuu automaattisesti ja näyttää niiden kokoonpanon nimikkeiden yksityiskohtaiset tiedot, jotka ovat käytettävissä kokoonpanoa varten komponentin saatavuuden perusteella. Lisätietoja on kohdassa [Nimikkeiden saatavuuden tarkasteleminen](inventory-how-availability-overview.md).  Kun suljet ikkunan, kokoonpanotilaus luodaan liittyvien komponenttirivien saatavuushälytyksillä.  
+    >  Jos vähintään yksi komponentti ei ole saatavana syötetyn kokoonpanon nimikkeen määrän täyttämiseksi määritettynä eräpäivänä, **Kokoonpanon saatavuus** -sivu avautuu automaattisesti ja näyttää niiden kokoonpanon nimikkeiden yksityiskohtaiset tiedot, jotka ovat käytettävissä kokoonpanoa varten komponentin saatavuuden perusteella. Lisätietoja on kohdassa [Nimikkeiden saatavuuden tarkasteleminen](inventory-how-availability-overview.md). Kun suljet sivun, kokoonpanotilaus luodaan liittyvien komponenttirivien saatavuushälytyksillä.  
 
     Kokoonpanotilauksen riveille täytetään automaattisesti kokoonpanon tuoterakenteen sisältö, sekä rivien määrät kokoonpanotilauksen otsikon mukaisesti.  
 
     > [!NOTE]  
-    >  Jos **Kokoonpanon saatavuus** -ikkuna avautui kokoonpanotilauksen otsikon täyttämisen yhteydessä, kaikkien kokoonpanotilausrivien **Käytettävissä oleva varoitus** -kentässä on arvo **Kyllä** ja linkki yksityiskohtaisiin saatavuustietoihin. Lisätietoja on kohdassa Tarkasta saatavuus. Voit ratkaista osan saatavuusongelman lykkäämällä aloituspäivämäärää, korvaamalla osan toisella nimikkeellä tai valitsemalla käytettävissä olevan korvaavan nimikkeen, jos sellainen on määritetty.  
+    >  Jos **Kokoonpanon saatavuus** -sivu avautui kokoonpanotilauksen otsikon täyttämisen yhteydessä, kaikkien kokoonpanotilausrivien **Käytettävissä oleva varoitus** -kentässä on arvo **Kyllä** ja linkki yksityiskohtaisiin saatavuustietoihin. Lisätietoja on kohdassa Tarkasta saatavuus. Voit ratkaista osan saatavuusongelman lykkäämällä aloituspäivämäärää, korvaamalla osan toisella nimikkeellä tai valitsemalla käytettävissä olevan korvaavan nimikkeen, jos sellainen on määritetty.  
 
 6.  Määritä **Kokoonpantava määrä** -kentässä, miten monta kokoonpanon nimikkeen yksikköä haluat kirjata tuotoksena, kun seuraavan kerran kirjaat kokoonpanotilauksen. Tämä määrä voi olla alhaisempi kuin **Määrä**-kentän arvo, niin että se vastaa osittaista tuotoksen kirjausta.  
 

@@ -1,6 +1,6 @@
 ---
 title: Ilmoitusmallien hallinta | Microsoft Docs
-description: "Työnkulun käyttäjille lähetetään ilmoituksia suoritettavista osavaiheista sekä työnkulun osavaiheiden tilasta. Ilmoituksen vastaanottaja ja lähetysaika asetetaan määrittämällä hyväksynnän käyttäjät, käyttäjien ilmoitusaikataulu sekä tarvittavat työnkulun vastaukset. Lisätietoja on kohdassa [Työnkulkuilmoitusten määrittäminen](across-setting-up-workflow-notifications.md)."
+description: "Työnkulun käyttäjille lähetetään ilmoituksia suoritettavista osavaiheista sekä työnkulun osavaiheiden tilasta. Ilmoituksen vastaanottaja ja lähetysaika asetetaan määrittämällä hyväksynnän käyttäjät, käyttäjien ilmoitusaikataulu sekä tarvittavat työnkulun vastaukset."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/08/2018
 ms.author: sgroespe
+redirect_url: across-how-to-specify-when-and-how-to-receive-notifications
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 31a6cd72e7e7c3fda27803a995b7282c8a2c3751
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6c84e5e9e0284249ee7be3f92a82cca2a2fbb3d5
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="manage-notification-templates"></a>Ilmoitusmallien hallinta
@@ -28,7 +29,7 @@ Työnkulun käyttäjille lähetetään ilmoituksia suoritettavista osavaiheista 
 
 ## <a name="to-create-a-new-notification-template"></a>Uuden ilmoitusmallin luominen  
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ilmoitusmallit** ja valitse sitten liittyvä linkki.  
-2.  Valitse **Ilmoitusmallit**-ikkunassa **Uusi**-toiminto.  
+2.  Valitse **Ilmoitusmallit**-sivulla **Uusi**-toiminto.  
 3.  Täytä kentät seuraavassa taulukossa kuvatulla tavalla.  
 
     |Kenttä|Description|  
@@ -41,9 +42,9 @@ Työnkulun käyttäjille lähetetään ilmoituksia suoritettavista osavaiheista 
 
 ## <a name="to-modify-a-notification-template"></a>Ilmoitusmallin muokkaaminen  
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ilmoitusmallit** ja valitse sitten liittyvä linkki.  
-2.  Valitse **Ilmoitusmallit**-ikkunassa muokattava ilmoitusmalli.  
+2.  Valitse **Ilmoitusmallit**-sivulla muokattava ilmoitusmalli.  
 3.  Valitse **Vie mallin sisältö** -toiminto.  
-4.  Valitse **Vie tiedosto** -ikkunassa **Tallenna**-painike. Nimeä HTML-tiedosto ja tallenna se sopivaan paikkaan.  
+4.  Valitse **Vie tiedosto** -sivulla **Tallenna**-painike. Nimeä HTML-tiedosto ja tallenna se sopivaan paikkaan.  
 5.  Napsauta tiedostoa hiiren kakkospainikkeella, valitse **Avaa sovelluksessa** ja valitse sitten sopiva ohjelma.  
 
     > [!NOTE]  
@@ -51,14 +52,14 @@ Työnkulun käyttäjille lähetetään ilmoituksia suoritettavista osavaiheista 
 6.  Muokkaa ilmoitusmallin sisältöä lisäämällä, muuttamalla tai poistamalla parametrimuuttujia. Tallenna tekemäsi muutokset. Lisätietoja on kohdassa "Ilmoitusmallien sisältö".  
 
     Jatka tuomalla muokattu sisältö takaisin samaan tai uuteen ilmoitusmalliin.  
-7.  Jos haluat muokata vietyä ilmoitusmallia, valitse **Ilmoitusmallit**-ikkunassa sama malli, jonka valitsit vaiheessa 2.  
+7.  Jos haluat muokata vietyä ilmoitusmallia, valitse **Ilmoitusmallit**-sivulla sama malli, jonka valitsit vaiheessa 2.  
 
     Jos haluat tuoda muokatun mallin sisällön uuteen ilmoitusmalliin, seuraa kohdan "Uuden ilmoitusmallin luominen" ohjeita ja valitse uusi ilmoitusmalli.  
 8.  Valitse **Tuo mallin sisältö** -toiminto.  
 9. Jos muokkaat olemassa olevaa ilmoitusmallia, valitse **Kyllä** sanomassa, joka liittyy olemassa olevan mallin korvaamiseen.  
-10. Valitse **Valitse tuotava tiedosto** -ikkunassa HTML-tiedosto, jota muokkasit vaiheessa 6 , ja valitse sitten **Avaa**-painike.  
+10. Valitse **Valitse tuotava tiedosto** -sivulla HTML-tiedosto, jota muokkasit vaiheessa 6 , ja valitse sitten **Avaa**-painike.  
 
-Muokattu sisältö on nyt päivitetty **Ilmoitusmallit**-ikkunan aiemmin luotuun tai uuteen ilmoitusmalliin.  
+Muokattu sisältö on nyt päivitetty **Ilmoitusmallit**-sivun aiemmin luotuun tai uuteen ilmoitusmalliin.  
 
 ### <a name="content-of-the-notification-templates"></a>Ilmoitusmallien sisältö  
 Kolmen ilmoitusmallityypin (**Uusi tietue**, **Hyväksyntä** ja **Myöhässä**) sisällöt poikkeavat toisistaan.  

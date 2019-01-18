@@ -13,14 +13,14 @@ ms.search.keywords: project management
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f629216f08ae10667fac1726c97c4d55a90d3a88
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: fc4c413fcb02cda2e0eb2b8caf7af721a26dfe1b
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-jobs"></a>Projektien määrittäminen
-Määritä **Projektienhallinnan asetukset** -ikkunassa projektin tiettyjen toimintojen asetukset.
+Määritä **Projektienhallinnan asetukset** -sivulla projektin tiettyjen toimintojen asetukset.
 
 Määritä yksittäisissä projektikorteissa projektinimikkeiden hinnat, projektin resurssit ja KP-tilit. Määritä myös projektin kirjausryhmät.
 
@@ -48,25 +48,25 @@ Kun **Käytä käyttölinkkiä oletusarvoisesti** -valintaruutu on valittuna ja 
 >   Voit määrittää yksittäisten projektikorttien **Käytä käyttölinkkiä oletusarvoisesti** -valintaruudulle eri asetukset. Tässä tapauksessa kyseisen projektin asetus korvaa yllä kuvatun yleisen oletusasetuksen.
 
 ## <a name="to-set-up-prices-for-job-resources"></a>Projektin resurssien hintojen määrittäminen
-Voit määrittää projektin resursseja varten tietyt hinnat. Tähän käytetään **Projektiresurssien hinnat** -ikkunaa.
+Voit määrittää projektin resursseja varten tietyt hinnat. Tähän käytetään **Projektiresurssien hinnat** -sivua.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektit** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Projektit** ja valitse sitten liittyvä linkki.  
 2. Valitse asianmukainen projekti ja valitse sitten **Resurssi**-toiminto.
-3. Täytä **Projektiresurssien hinnat** -ikkunassa tarvittavat kentät.
+3. Täytä **Projektiresurssien hinnat** -sivulla tarvittavat kentät.
 
 **Projektitehtävän nro**-, **Työtyyppi**-, **Valuutan koodi**-, **Rivialennus-%**- ja **Yksikkökustannustekijä**-kentän valinnaisia tietoja käytetään projektin suunnitteluriveillä ja käyttöpäiväkirjoissa, kun tämä resurssi syötetään ja lisätään projektiin.  
 
 Resurssin **Yksikköhinta**-kentän arvoa käytetään projektin suunnitteluriveillä ja projektipäiväkirjoissa, kun tämä resurssi, resurssiryhmään liitetty resurssi tai mikä tahansa resurssi määritetään.  
 
 > [!NOTE]  
->   Tämä hinta ohittaa aina aiemmin määritetyissä **Resurssihinta tai Resurssiryhmän hinnat** -ikkunassa olevat hinnat.
+>   Tämä hinta ohittaa aina aiemmin määritetyissä **Resurssihinta / resurssiryhmän hinta** -sivulla olevat hinnat.
 
 ## <a name="to-set-up-prices-for-job-items"></a>Projektinimikkeiden hintojen määrittäminen
-Voit määrittää projektin nimikkeille tietyt hinnat. Tähän käytetään **Projektinimikkeiden hinnat** -ikkunaa.
+Voit määrittää projektin nimikkeille tietyt hinnat. Tähän käytetään **Projektinimikkeiden hinnat** -sivua.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektit** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Projektit** ja valitse sitten liittyvä linkki.  
 2. Valitse asianmukainen projekti ja valitse sitten **Nimike**-toiminto.
-3. Täytä **Projektinimikkeiden hinnat** -ikkunassa tarvittavat kentät.
+3. Täytä **Projektinimikkeen hinnat** -sivulla tarvittavat kentät.
 
 **Projektitehtävän nro**-, **Valuutan koodi**- ja **Rivialennus-%**-kentän valinnaisia tietoja käytetään projektin suunnitteluriveillä ja projektipäiväkirjoissa, kun kyseessä oleva nimike syötetään tai lisätään projektiin.  
 
@@ -76,11 +76,11 @@ Nimikkeen **Yksikköhinta**-kentän arvoa käytetään projektin suunnittelurive
 >   Tämä hinta ohittaa aina nimikkeiden normaalin asiakashinnan (parhaan hinnan mekanismi). Jos haluat käyttää säännöllisiä asiakashintamekanismeja, älä luo projektille projektinimikkeiden hintoja.
 
 ## <a name="to-set-up-prices-for-job-general-ledger-accounts"></a>Kirjanpitotilin hintojen määrittäminen
-Määritä hinnat projektin kirjanpidon kuluille. Tähän käytetään **Projektin kirjanpitotilin hinnat** -ikkunaa.
+Määritä hinnat projektin kirjanpidon kuluille. Tähän käytetään **Projektin kirjanpitotilin hinnat** -sivua.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektit** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Projektit** ja valitse sitten liittyvä linkki.  
 2. Valitse asianmukainen projekti ja valitse sitten **KP-tili**-toiminto.  
-3. Täytä **Projektin kirjanpitotilin hinnat** -ikkunassa tarvittavat kentät.
+3. Täytä **Projektin kirjanpitotilin hinnat** -sivulla tarvittavat kentät.
 
 **Projektitehtävän nro**-, **Valuutan koodi**-, **Rivialennus-%**-, **Yksikkökustannustekijä**- ja **Yksikkökustannus**-kentän valinnaisia tietoja käytetään projektin suunnitteluriveillä ja projektipäiväkirjoissa, kun tämä kirjapitotili syötetään ja lisätään projektiin.  
 

@@ -13,10 +13,10 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: baaa62e11f9abfac900d5fe6abb14cec9fafdacf
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 702ebfd345c7f2e09f7d84105d7d0a3e76f0550f
 ms.contentlocale: fi-fi
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="business-intelligence"></a>Business Intelligence
@@ -25,7 +25,7 @@ Yritykset hankkivat päivittäisessä toiminnassaan valtavia määriä tietoja. 
 Dimensiotoiminnallisuudella on tärkeä osa liiketoimintatietojen kannalta. Dimensio on tieto, jonka voi lisätä tapahtumaan eräänlaiseksi merkiksi. Tämän tiedon avulla voi yhdistää ryhmiksi tapahtumia, joilla on samoja ominaisuuksia, kuten asiakkaita, alueita, tuotteita tai myyjiä, sekä noutaa nämä ryhmät helposti analysoitavaksi. Dimensioita voi käyttää esimerkiksi analyysinäkymien määrityksessä sekä KP-raporttimallien luonnissa. Lisätietoja on kohdassa [Dimensioiden käyttäminen](finance-dimensions.md).
 
 > [!TIP]
-> Tapahtumatietoja voi analysoida nopeasti dimensioiden mukaan suodattamalla tilikarttojen loppusummat ja kaikkien **Tapahtumat**-ikkunoiden tapahtumat dimensioittain. Hae **Määritä dimension suodatus** -toiminto.  
+> Tapahtumatietoja voi analysoida nopeasti dimensioiden mukaan suodattamalla tilikarttojen loppusummat ja kaikkien **Tapahtumat**-sivujen tapahtumat dimensioittain. Hae **Määritä dimension suodatus** -toiminto.  
 
 Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisiin.  
 

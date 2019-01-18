@@ -11,10 +11,10 @@ ms.search.keywords: accountant, accounting, troubleshoot
 ms.date: 10/23/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
-ms.openlocfilehash: e4f739e13123054527bf3116aec2c8c4133537e6
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0ebd99e9097e4c701038f3b8be7a07d1e80a4b31
 ms.contentlocale: fi-fi
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="troubleshooting-include-d365acclongincludesd365acclongmdmd"></a>[!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]in vianmääritys
@@ -44,7 +44,7 @@ Syy voi olla esimerkiksi jokin seuraavista:
   Asiakkaalla voi olla [!INCLUDE [d365fin](includes/d365fin_md.md)]:ssä useita liiketoimintayksiköitä tai yrityksiä, eivätkä kaikki yritykset aina sisälly kutsuun. Varmista yhdessä asiakkaan kanssa, että sinulla on kaikkien niiden yritysten käyttöoikeudet, joita asiakas haluaa sinun käsittelevän.  
 
 ## <a name="why-doesnt-the-data-refresh-in-my-dashboard"></a>Miksi koontinäytön tiedot eivät päivity?
-Kun lisäät asiakkaat tai pyydät tietojen päivittämistä, [!INCLUDE [d365acc](includes/d365acc_md.md)] noutaa tiedot. Sinun on kuitenkin päivitettävä näyttö itse valitsemalla esimerkiksi Näytä kaikki yritykset uudelleen -toiminnon, päivittämällä selainikkunan tai poistumalla koontinäytöstä ja palaamalla siihen takaisin. Tämä on tunnettu ongelma, jota korjataan parhaillaan myöhempää päivitystä varten.  
+Kun lisäät asiakkaat tai pyydät tietojen päivittämistä, [!INCLUDE [d365acc](includes/d365acc_md.md)] noutaa tiedot. Sinun on kuitenkin päivitettävä sivu itse valitsemalla esimerkiksi Näytä kaikki yritykset uudelleen -toiminnon, päivittämällä selaimen sivu tai poistumalla koontinäytöstä ja palaamalla siihen takaisin. Tämä on tunnettu ongelma, jota korjataan parhaillaan myöhempää päivitystä varten.  
 
 ## <a name="see-also"></a>Katso myös
 [[!INCLUDE[d365acc](includes/d365acc_md.md)]in käytön aloittaminen](get-started.md)  

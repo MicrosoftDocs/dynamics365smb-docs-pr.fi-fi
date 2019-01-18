@@ -11,16 +11,16 @@ ms.workload: na
 ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: bb055a2520af17d5b1b9aa2239ade210016bd2ac
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 1924ed56ebf31debbccbc6f94724a6ca93eeb7a6
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="working-with-included365finincludesd365finmdmd"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen
 Kun tehdään liiketoimintaan liittyviä tehtäviä, voit käsitellä tietoja eri tavoin, kuten tietueiden luominen ja tietojen syöttäminen, tietojen lajittelu ja suodatus, kirjalliset huomautukset ja tietojen lähettäminen muihin sovelluksiin.
 
-Voit esimerkiksi säätää minkä tahansa ikkunan kokoa ja sijaintia, laajentaa sarakkeita ja kasvattaa sarakeotsikoiden korkeutta ja muuttaa sarakkeiden tietojen lajittelua. Ja jos haluat tarkastella kaikkia luettelosivun tai asiakirjarivien sarakkeita vaakavierityspalkin avulla, huomaat, että pystysuuntainen kiinnitysruutu estää tiettyjä sarakkeita vierittymästä.
+Voit esimerkiksi säätää minkä tahansa sivun kokoa ja sijaintia, laajentaa sarakkeita ja kasvattaa sarakeotsikoiden korkeutta ja muuttaa sarakkeiden tietojen lajittelua. Ja jos haluat tarkastella kaikkia luettelosivun tai asiakirjarivien sarakkeita vaakavierityspalkin avulla, huomaat, että pystysuuntainen kiinnitysruutu estää tiettyjä sarakkeita vierittymästä.
 
 Seuraava taulukko sisältää joitakin yleisiä toimintoja ja linkkejä niitä käsitteleviin ohjeaiheisiin.
 

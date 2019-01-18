@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 40ca8e4a86a74f449a980f06060488cdb117d3c7
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 1670b102aa0eba91952391ac3daa563a651de859
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-item-tracking-and-reservations"></a>Rakennetiedot: nimikkeen seuranta ja varaukset
@@ -44,15 +44,15 @@ Pääero erityisen ja yleisen varauksen välillä on määritetty sarja- ja erä
 |**Määrätty**|Sarja- tai eränumero.|Sarja- tai eränumero.|  
 |**Epäspesifinen**|Sarja- tai eränumero.|Ei sarja- tai eränumeroa.|  
   
-Kun varastomääriä varataan lähtevästä asiakirjarivistä nimikkeelle, jolle on määritetty nimikkeen seurantanumerot ja tietyn nimikkeen seuranta, **Varaus**-ikkuna johtaa sinut eri työnkulkujen läpi sarja- tai eränumeroiden tarpeesta riippuen.  
+Kun varastomääriä varataan lähtevästä asiakirjarivistä nimikkeelle, jolle on määritetty nimikkeen seurantanumerot ja tietyn nimikkeen seuranta, **Varaus**-sivu johtaa sinut eri työnkulkujen läpi sarja- tai eränumeroiden tarpeesta riippuen.s  
   
 ## <a name="specific-reservation"></a>Erityisvaraus  
-Kun valitset lähtevän asiakirjarivin **Varaa**-kohdan, näyttöön tulee valintaikkuna, jossa kysytään, haluatko varata tiettyjä sarja- tai eränumeroita. Jos valitset **Kyllä**, näkyville avautuu luettelo kaikista asiakirjariville määritetyistä sarja- tai eränumeroista. **Varaus**-ikkuna avautuu, kun olet valinnut yhden eränumerosarjoista, ja voit sitten varata valittujen eränumerojen tai sarjanumeroiden joukosta tyypillisessä muodossa.  
+Kun valitset lähtevän asiakirjarivin **Varaa**-kohdan, näyttöön tulee valintaikkuna, jossa kysytään, haluatko varata tiettyjä sarja- tai eränumeroita. Jos valitset **Kyllä**, näkyville avautuu luettelo kaikista asiakirjariville määritetyistä sarja- tai eränumeroista. **Varaus**-sivu avautuu, kun olet valinnut yhden eränumerosarjoista, ja voit sitten varata valittujen eränumerojen tai sarjanumeroiden joukosta tyypillisessä muodossa.  
   
-Jos joitakin tietyn nimikkeen seurantanumeroita, joita yrität varata, pidetään määrittämättömissä varauksissa, **Varaus**-ikkunan alareunassa oleva viesti ilmoittaa, kuinka monia varatusta kokonaismäärästä on pidossa määrittämättömissä varauksissa ja ovatko ne vielä käytettävissä.  
+Jos joitakin tietyn nimikkeen seurantanumeroita, joita yrität varata, pidetään määrittämättömissä varauksissa, **Varaus**-sivun alareunassa oleva viesti ilmoittaa, kuinka monia varatusta kokonaismäärästä on pidossa määrittämättömissä varauksissa ja ovatko ne vielä käytettävissä.  
   
 ## <a name="nonspecific-reservation"></a>Määrittämätön varaus  
-Jos valitset avautuvassa valintaikkunassa **Ei**, **Varaus**-ikkuna avautuu ja voit varata kaikista varaston sarja- tai eränumeroista.  
+Jos valitset avautuvassa valintaikkunassa **Ei**, **Varaus**-sivu avautuu ja voit varata kaikista varaston sarja- tai eränumeroista.  
   
 Varausjärjestelmän rakenteen vuoksi epätarkan varauksen asettaminen nimikeseurannassa olevaan nimikkeeseen aiheuttaa sen, että järjestelmän on valittava tietyt nimiketapahtumat joita vastaan varataan. Koska nimiketapahtumissa on nimikkeen seurantanumerot, varaus varaa epäsuorasti tietyt sarja- tai eränumerot, vaikka sinulla ei ollut aikomusta. Varausjärjestelmä yrittää käsitellä tilanteen järjestämällä ei-spesifiset varaustapahtumat uudelleen ennen kirjausta.  
   
@@ -81,7 +81,7 @@ Tarve syntyy esimerkiksi silloin, kun tilauksen käsittelijä on ensin tehnyt mi
 ### <a name="reserve-specific-serial-or-lot-numbers"></a>Varaa tietyt sarja- tai eränumerot  
 Tässä liiketoimintaskenaariossa myöhäinen sidonta -toiminnallisuus varmistaa, että tietyn epäspesifisesti tällä hetkellä varatun sarja- tai eränumeron varausta yrittävä käyttäjä voi tehdä näin. Epäspesifinen varaus kierrätetään varaushetkellä sarja- tai eränumeron vapauttamiseksi tietylle pyynnölle.  
   
-Uudelleenjärjestely tapahtuu automaattisesti, mutta upotettu apu (Help) näytetään **Varaus**-ikkunan alareunassa ja siinä näkyy seuraava teksti:  
+Uudelleenjärjestely tapahtuu automaattisesti, mutta upotettu apu (Help) näytetään **Varaus**-sivun alareunassa ja siinä näkyy seuraava teksti:  
   
 **Varatun kokonaismäärän osuus XX on epäspesifistä. Se saattaa olla saatavilla.**  
   

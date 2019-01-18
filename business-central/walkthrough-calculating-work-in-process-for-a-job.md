@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 640e2eb135b1329cf6a29e4067d5cff22f54d379
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 95264e2f011ab22a4c83343e933bfcf69b38948a
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Vaihekuvaus: Projektin keskeneräisen työn laskeminen
@@ -45,7 +45,7 @@ Voit laatia projektien avulla yrityksen resurssien käyttöön liittyviä aikata
 ## <a name="calculating-wip"></a>Keskeneräisen työn laskeminen  
  CRONUS on aloittanut pitkän projektin, joka on nyt laajennettu raportointikausien yli. Marianne, projektiryhmän jäsen, laskee keskeneräiset työt (KET) varmistaakseen, että yhtiön tilinpäätös on tarkka.  
 
- Näiden toimien aikana Marianne valitsee tietyn joukon tehtäviä, jotka sisällytetään KET-laskentaan. **Projektitehtävärivit**-ikkunassa hän voi määrittää nämä rivit **KET - Yhteensä** -sarakkeeseen.  
+ Näiden toimien aikana Marianne valitsee tietyn joukon tehtäviä, jotka sisällytetään KET-laskentaan. **Projektitehtävärivit**-sivulla hän voi määrittää nämä rivit **KET - Yhteensä** -sarakkeeseen.  
 
  Seuraavassa taulukossa kuvaillaan nämä kolme asetusta.  
 
@@ -77,10 +77,10 @@ Voit laatia projektien avulla yrityksen resurssien käyttöön liittyviä aikata
     |1310|Pois suljettu|  
 
 5.  Valitse ensin **KET**-toiminto ja sitten **Laske KET**-toiminto.  
-6.  **Laske projektin KET** -ikkunassa voit valita projektin, jonka keskeneräinen työ on tarkoitus laskea. Varmista **Projekti**-pikavälilehdessä, että **Karjaa** on valittuna **Nro** -kentässä.  
+6.  **Laske projektin KET** -sivulla voi valita projektin, jonka keskeneräinen työ on tarkoitus laskea. Varmista **Projekti**-pikavälilehdessä, että **Karjaa** on valittuna **Nro** -kentässä.  
 7.  Anna **Kirjauspvm**-kentässä päivämäärä, joka käsittelypäivämäärän jälkeen.
 8.  Anna **Asiakirjan nro** -kenttään **1**. Tämä luo asiakirjan, johon voit viitata myöhemmin jäljitettävyyttä varten.  
-9. Suorita eräajo valisemalla **OK**. Näyttöön tulee sanoma. Jatka valitsemalla **OK**-painike. Sulje **Projektitehtävärivit**-ikkuna.  
+9. Suorita eräajo valisemalla **OK**. Näyttöön tulee sanoma. Jatka valitsemalla **OK**-painike. Sulje **Projektitehtävärivit**-sivu.  
 
     > [!NOTE]  
     >  Sanoma on, että KET-laskentaan liittyy varoituksia. Tarkastele varoitukset uudelleen seuraavassa toimenpiteessä.  
@@ -93,7 +93,7 @@ Voit laatia projektien avulla yrityksen resurssien käyttöön liittyviä aikata
 
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektin KET-ohjaamo** ja valitse sitten liittyvä linkki.  
 2.  Valitse ensin **Karjaa**-projekti ja sitten **Näytä varoitukset** -toiminto.  
-3.  Tarkastele **Projektin KET-varoitukset** -ikkunassa työhön liittyvää varoitusta.  
+3.  Tarkastele **Projektin KET-varoitukset** -sivulla työhön liittyvää varoitusta.  
 
  Tämän kirjanpitojakson jälkeen Mariannen täytyy laskea keskeneräinen työ uudelleen, jotta tähän mennessä valmistunut työ voidaan laskea mukaan.  
 
@@ -101,10 +101,10 @@ Voit laatia projektien avulla yrityksen resurssien käyttöön liittyviä aikata
 
 1.  Avaa KET-laskenta valitsemalla **Projekti**-kortissa **KET-tapahtumat**-toiminto.  
 
-     Tässä ikkunassa näkyvät **Projektin KET-tapahtumat**, jotka projektille on viimeksi laskettu, vaikka keskeneräistä työtä ei vielä ole kirjattu pääkirjanpitoon.  
+     Tällä sivulla näkyvät **Projektin KET-tapahtumat**, jotka projektille on viimeksi laskettu, vaikka keskeneräistä työtä ei vielä ole kirjattu pääkirjanpitoon.  
 
-2.  Voit seurata menetelmän ohjeita, joissa kerrotaan, kuinka voit laskea KET: n laskeaksesi KET:n uudelleen. **KET-tapahtumat**-ikkunaan luodaan uusi tapahtuma aina, kun keskeneräinen työ lasketaan.  
-3.  Sulje ikkuna.  
+2.  Voit seurata menetelmän ohjeita, joissa kerrotaan, kuinka voit laskea KET: n laskeaksesi KET:n uudelleen. **KET-tapahtumat**-sivulle luodaan uusi tapahtuma aina, kun keskeneräinen työ lasketaan.  
+3.  Sulje sivu.  
 
 > [!NOTE]  
 >  Vain keskeneräinen työ ja tuloutus lasketaan. Sitä ei kirjata pääkirjanpitoon. Nämä toimet edellyttävät, että suoritat **Kirjaa KET kirjanpitoon** -eräajon, kun olet laskenut keskeneräisen työn ja tuloutuksen.
@@ -116,18 +116,18 @@ Voit laatia projektien avulla yrityksen resurssien käyttöön liittyviä aikata
 
 1.  Valitse **Projektit**-luettelosta rivi, jossa on **Karjaa**-projekti.  
 2.  Valitse ensin **KET**-toiminto ja sitten **Kirjaa KET kirjanpitoon** -toiminto.  
-3.  Valitse **Kirjaa projektin KET kirjanpitoon** -ikkunan **Projekti**-pikavälilehdessä **Karjaa** **Nro** -kentässä.  
+3.  Valitse **Kirjaa projektin KET kirjanpitoon** -sivun **Projekti**-pikavälilehden **Nro**-kentästä **Karjaa**. -kentässä.  
 4.  Lisää **Vaihtoehdot**-pikavälilehden **Peruutusasiakirjan numero** -kenttään **1**.  
 5.  Kirjaa KET pääkirjanpitoon valitsemalla **OK**.  
-6.  Valitse **OK**-painike vahvistusikkunan sulkemiseksi.  
+6.  Sulje vahvistussivu valitsemalla **OK**.  
 
-     Kun kirjaus on valmis, voit tarkastella tietoja **KET KP-tapahtumat** -ikkunassa.  
+     Kun kirjaus on valmis, voit tarkastella tietoja **KET KP-tapahtumat** -sivulla.  
 
 7.  Valitse **Projektit**-luettelossa ensin **Karjaa**-projekti ja sitten **KET-kirjanpitotapahtumat**-toiminto.  
 
-     Projektin **KET-kirjanpitotapahtumat** -ikkunassa näkyy, että keskeneräinen työ on kirjattu pääkirjanpitoon.  
+     Projektin **KET-kirjanpitotapahtumat** -sivulla näkyy, että keskeneräinen työ on kirjattu pääkirjanpitoon.  
 
-8.  Sulje ikkuna.  
+8.  Sulje sivu.  
 9. Avaa **Karjaa**-kohteen **Projekti-** kortti.  
 10. Huomaa, että **Keskeneräiset työt ja tuloutus** -pikavalintalehden **Kirjattu**-sarakkeen **Tuloutettu kustannusten kirjanpitosumma** -kenttä on nyt täytetty, mikä ilmaisee, että kyseinen KET on kirjattu pääkirjanpitoon onnistuneesti.  
 11. Sulje kortti valitsemalla **OK**-painike.  
@@ -139,16 +139,16 @@ Voit laatia projektien avulla yrityksen resurssien käyttöön liittyviä aikata
 
 1.  Valitse **Projektit**-luettelosta **Karjaa**-projekti.  
 2.  Valitse ensin **KET**-toiminto ja sitten **Kirjaa KET kirjanpitoon** -toiminto.  
-3.  Valitse **Kirjaa projektin KET kirjanpitoon** -ikkunan **Projekti**-pikavälilehdessä **Karjaa** **Nro** -kentässä.  
+3.  Valitse **Kirjaa projekti KET kirjanpitoon** -sivun **Projekti**-pikavälilehden **Nro**-kentästä **Karjaa**. -kentässä.  
 4.  Lisää **Vaihtoehdot**-pikavälilehden **Peruutusasiakirjan numero** -kenttään **1**.  
 5.  Valitse **Peruutuksen kirjauspäivämäärä** -kentässä alkuperäinen kirjauspäivämäärä. Sen tulee olla sama päivämäärä, jota on käytetty, kun KET on laskettu ensimmäistä kertaa.  
 6.  Valitse **Vain peruutus** -valintaruutu. Tällöin aiemmin kirjattu keskeneräinen työ peruutetaan, mutta uutta keskeneräistä työtä ei kirjata pääkirjanpitoon.  
-7.  Valitse **OK**-painike eräajon suorittamiseksi, ja valitse sitten **OK**-painike sulkeaksesi vahvistusikkunan.  
+7.  Valitse **OK**-painike eräajon suorittamiseksi ja valitse sitten **OK**-painike sulkeaksesi vahvistussivun.  
 8.  Avaa **Karjaa**-kohteen **projektikortti**.  
 9. Varmista **Keskeneräiset työt ja tuloutus** -pikavälilehdessä, ettei kirjattuja KET-tapahtumia ole.  
-10. Sulje tämä ikkuna.  
+10. Sulje tämä sivu.  
 11. Valitse **Projektit**-luettelossa ensin **Karjaa**-projekti, sitten **KET**-toiminto ja lopuksi **KET-kirjanpitotapahtumat**-toiminto. KET-tapahtumissa on valittuna **Peruutettu**-valintaruutu.  
-12. Sulje tämä ikkuna.  
+12. Sulje tämä sivu.  
 13. Voit siirtyä takaisin projektin **Projektitehtävärivit**-kohtaan, liittää mukaan projektin osat, jotka olisivat kuuluneet keskeneräiseen työhön, tehdä laskutoimitukset uudelleen ja kirjata uuden arvon pääkirjanpitoon.  
 
     > [!NOTE]  

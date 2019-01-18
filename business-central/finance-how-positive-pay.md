@@ -13,10 +13,10 @@ ms.search.keywords: check, clearing
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: dc63da7f3363ef45028a0b185c27aa468e02db6d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 61f3d3fcd093c9fca4e23481ff3b527714b85379
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="export-a-positive-pay-file"></a>Positive Pay -tiedoston vienti
@@ -28,17 +28,17 @@ Kun viet toimittajan tiedot, sekin numeron ja maksun summan sisältävän Positi
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pankkitilit** ja valitse sitten liittyvä linkki.
 2. Avaa sen pankin kortti, jossa haluat käyttää Positive Pay -toimintoa.
 3. Kirjoita **Positive Pay -vientikoodi** -kenttään POSPAYBANK.
-4. Sulje ikkuna.
+4. Sulje sivu.
 
 ## <a name="to-export-a-positive-pay-file"></a>Positive Pay -tiedoston vienti
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pankkitilit** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Pankkitilit** ja valitse sitten liittyvä linkki.
 2. Valitse pankkitili, johon haluat viedä Positive Pay -tiedoston.
 3. Valitse **Positive Pay, vienti** -toiminto.
 
-    **Positive Pay, vienti** -ikkuna avautuu ja näkyvissä on maksut, jotka on tehty pankkitilille edellisen latauspäivän jälkeen (**Edellinen latauspvm**- ja **Edellinen latausaika** -kentät).
+    **Positive Pay, vienti** -sivu avautuu ja näkyvissä on maksut, jotka on tehty pankkitilille edellisen latauspäivän jälkeen (**Edellinen latauspvm**- ja **Edellinen latausaika** -kentät).
 4. Määrittää**Latauksen katkaisupvm** -kenttää päivämäärä, jota edeltäviä maksuja ei sisällytetä vientitiedostoon.
 5. Valitse **Vie**-toiminto.
-6. Valitse **Vie tiedosto** -ikkunassa **Tallenna**-painike ja tallenna tiedosto sopivaan paikkaan.
+6. Valitse **Vie tiedosto** -sivulla **Tallenna**-painike ja tallenna tiedosto sopivaan paikkaan.
 7. Lataa tiedosto sähköisen pankin sivustoon.
 8. Kirjoita muistiin tai kopioi vahvistusnumero, joka näkyy, kun tiedoston lataus on onnistunut.
 
@@ -48,7 +48,7 @@ Vietyjen Positive Pay -tietueiden näyttäminen
 2. Valitse pankkitili, jonka Positive Pay -vientitietueet haluat näyttää.
 3. Valitse **Positive Pay -tapahtumat** -toiminto.
 
-    Kaikki pankkitilin Positive Pay -vientitietueet näkyvät **Positive Pay -tapahtumat** -ikkunassa.
+    Kaikki pankkitilin Positive Pay -vientitietueet näkyvät **Positive Pay -tapahtumat** -sivulla.
 4. Anna kunkin vientitietueen **Vahvistusnumero**-kenttään numero, jonka sait, kun tiedoston lataus pankkiin onnistui.
 5. Voit tarkastella liittyviä maksurivejä valitsemalla **Positive Pay -tapahtuman tiedot** -toiminnon.
 
@@ -58,7 +58,7 @@ Positive Pay -tiedostojen uudelleenvienti
 2. Valitse pankkitili, johon haluat viedä Positive Pay -tiedostot uudelleen.
 3. Valitse **Positive Pay -tapahtumat** -toiminto.
 4. Valitse uudelleenvietävä Positive Pay -vientitiedoston rivi.
-5. Valitse **Positive Pay -tapahtumat** -ikkunassa **Vie Positive Pay -maksu uudelleen tiedostoon** -toiminto.
+5. Valitse **Positive Pay -tapahtumat** -sivulla **Vie Positive Pay -maksu uudelleen tiedostoon** -toiminto.
 
 ## <a name="see-also"></a>Katso myös
 [Rahoitus](finance.md)  

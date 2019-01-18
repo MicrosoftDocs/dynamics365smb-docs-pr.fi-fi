@@ -11,27 +11,27 @@ ms.search.keywords: write down
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2244fa1eb4af58eea7381da937bed7fafe3d9f6c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d417db84cf45356925cf52a36ba08e478b8ee6b9
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Käyttöomaisuuden poiston määrittäminen
  Rahoituslaskelmien ja tuloveropalautusten valmistelussa voi käyttää useita poistomenetelmiä. Monet suuret yritykset käyttävät tasapoistoja rahoituslaskelmissaan, koska sen avulla voidaan yleensä raportoida suurempia tuloja. Tuloverotarkoituksia varten monet yritykset käyttävät kuitenkin degressiivistä poistomenetelmää. Lisätietoja on kohdassa [Poistotavat](fa-depreciation-methods.md).
 
- Kun olet luonut asianmukaiset poistokirjat, kuhunkin käyttöomaisuuserään tulee liittää yksi tai usea poistokirja. Käyttöomaisuuteen liitettyä poistokirjaa kutsutaan käyttöomaisuuden poistokirjaksi. Samaan tapaan liitettyjen poistokirjojen ikkuna on nimeltään **KO:n poistokirjat**.
+ Kun olet luonut asianmukaiset poistokirjat, kuhunkin käyttöomaisuuserään tulee liittää yksi tai usea poistokirja. Käyttöomaisuuteen liitettyä poistokirjaa kutsutaan käyttöomaisuuden poistokirjaksi. Samaan tapaan liitettyjen poistokirjojen sivu on nimeltään **KO:n poistokirjat**.
 
 ## <a name="to-create-a-depreciation-book"></a>Poistokirjan luominen
 Käyttöomaisuuden poistokirjaan voidaan määrittää, miten käyttöomaisuus poistetaan. Useiden erilaisten poistomenetelmien hallitsemiseksi voidaan määrittää useita poistokirjoja.  
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poistokirjat** ja valitse sitten liittyvä linkki.
-2. Valitse **Poistokirjaluettelo**-ikkunassa **Uusi**-toiminto.
-3. Täytä **Poistokirjakortti**-ikkunassa tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Valitse **Poistokirjaluettelo**-sivulla **Uusi**-toiminto.
+3. Täytä **Poistokirjakortti**-sivun kentät tarvittaessa. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
-    >   Voit tallentaa käyttöomaisuustapahtumat **Käyttöomaisuuden KP-päiväkirja**- tai **Käyttöomaisuuspäiväkirja**-ikkunaan sen mukaan, koskevatko tapahtumat talousraportointia vai sisäistä hallintaa. Määritä seuraavan vaiheen mukaisesti eri käyttöomaisuustoiminnoissa oletusarvoisesti käytettävien päiväkirjojen tyypit.
-4. Valitse **Integrointi**-pikavälilehdessä niiden käyttöomaisuustoimintojen valintaruudut, jotka haluat kirjata **Käyttöomaisuuden KP-päiväkirja** -ikkunan avulla.
+    >   Voit tallentaa käyttöomaisuustapahtumat **Käyttöomaisuuden KP-päiväkirja**- tai **Käyttöomaisuuspäiväkirja**-sivulle sen mukaan, koskevatko tapahtumat talousraportointia vai sisäistä hallintaa. Määritä seuraavan vaiheen mukaisesti eri käyttöomaisuustoiminnoissa oletusarvoisesti käytettävien päiväkirjojen tyypit.
+4. Valitse **Integrointi**-pikavälilehdessä niiden käyttöomaisuustoimintojen valintaruudut, jotka haluat kirjata **Käyttöomaisuuden KP-päiväkirja** -sivun avulla.
 5. Toista vaiheet 2–4 jokaisen sellaisen poisto- tai kirjaustavan kohdalla, jonka haluat liittää käyttöomaisuuserään poistokirjana.
 
 ## <a name="to-assign-a-depreciation-book-to-a-fixed-asset"></a>Poistokirjan liittäminen käyttöomaisuuteen
@@ -49,8 +49,8 @@ Jos haluat määrittää poistokirjan moneen käyttöomaisuuteen, voit luoda **L
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttöomaisuus** ja valitse sitten liittyvä linkki.
 2. Valitse käyttöomaisuus, jolle haluat määrittää ja liittää poistokirjan. Valitse sitten **Muokkaa**-toiminto.
-3. Valitse **Poistokirjakortti**-ikkunassa **Luo KO:n poistokirjat** -toiminto.
-4. Täytä **Luo KO:n poistokirjat** -ikkunan **Poistokirja**-kenttä.
+3. Valitse **Poistokirjakortti**-sivulla **Luo KO:n poistokirjat** -toiminto.
+4. Täytä **Luo KO:n poistokirjat** -sivun **Poistokirja**-kenttä.
 5. Valitse ensin **Kopioi KO:sta nro** -kenttä ja valitse sen käyttöomaisuuserän numero, jota haluat käyttää pohjana uusien käyttöomaisuuspoistokirjojen luomisessa.
 
     Jos tämä kenttä täytetään, uusien KO-poistokirjojen poistokentissä on samat tiedot kuin kopioitavan KO-poistokirjan vastaavissa kentissä. Jätä kenttä tyhjäksi, jos haluat luoda uusia KO:n poistokirjoja, joissa on tyhjiä poistokenttiä.  
@@ -62,10 +62,10 @@ Kunkin poistokirjan osalta on määritettävä, miten [!INCLUDE[d365fin](include
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poistokirjat** ja valitse sitten liittyvä linkki.  
 2. Valitse poistokirja, jonka. Valitse sitten **KO:n kirjaustyypin asetukset** -toiminto.
-3. Täytä **KO:n kirjaustyypin asetukset** -ikkunassa tarvittavat kentät.
+3. Täytä **KO:n kirjaustyypin asetukset** -sivulla tarvittavat kentät.
 
     > [!NOTE]  
-    >   **KO:n kirjaustyypin asetukset** -ikkunaan ei voi lisätä rivejä tai poistaa niitä. Ainoastaan olemassa olevia rivejä voi muuttaa.
+    >   **KO:n kirjaustyypin asetukset** -sivulla ei voi lisätä rivejä eikä poistaa niitä. Ainoastaan olemassa olevia rivejä voi muuttaa.
 
 On hyvin suositeltavaa, ettei niiden poistokirjojen asetuksia muuteta, joiden osalta on jo kirjattu tapahtumia. Muutokset eivät vaikuta jo kirjattuihin tapahtumiin, mikä tekee poistokirjatilastoista harhaanjohtavia.
 
@@ -74,7 +74,7 @@ Kunkin poistokirjan osalta määritellään mallien ja erien oletusasetukset. Vo
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poistokirjat** ja valitse sitten liittyvä linkki.  
 2. Valitse poistokirja, jolle haluat määrittää oletuspäiväkirjat. Valitse sitten **KO-päiväkirjan asetukset** -toiminto.  
-3. Jos haluat, että jokaisella käyttäjällä on oletusasetukset, valitse **Käyttäjätunnus**-kenttä, jotta voit tehdä valinnan **Käyttäjät**-ikkunassa.  
+3. Jos haluat, että jokaisella käyttäjällä on oletusasetukset, valitse **Käyttäjätunnus**-kenttä, jotta voit tehdä valinnan **Käyttäjät**-sivulla.  
 4. Valitse muille kentille oletusarvoisesti käytettävä päiväkirjamalli tai -erä.  
 
 ## <a name="see-also"></a>Katso myös

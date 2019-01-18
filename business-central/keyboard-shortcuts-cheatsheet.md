@@ -11,39 +11,20 @@ ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f5c679a962b8eab2742c5224ea86c7329c4a2a09
+ms.sourcegitcommit: 400865a0e94ea04c534a56fcb25eb8dc039411e1
+ms.openlocfilehash: 39c32033f377654abda42dedff4a0a2edafa6621
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/01/2018
 
 ---
 
-# <a name="pc-keyboard-shortcuts-quick-reference"></a>Tietokoneen pikanäppäinten pikaopas
+# <a name="keyboard-shortcuts-quick-reference"></a>Pikanäppäinten pikaopas
 
-
-|||||  
-|----------------|-----------|----------------|-----------|    
-|**Yleiset**||**Siirtyminen ja rivien valitseminen**||
-|Alt+Q|Avaa **Kerro, mitä haluat tehdä**|Ctrl+A|Valitse kaikki|
-|Sarkain|Siirrä kohdistus seuraavaan ohjausobjektiin|Home/End|Siirry ensimmäiseen/viimeiseen kenttään|
-|Vaihto+Sarkain|Siirrä kohdistus edelliseen ohjausobjektiin|Ctrl+Home/End|Siirry ensimmäiselle/viimeiselle riville|   
-|Alt+alanuoli|Avaa avattava luettelo tai haku|Ctrl+ylä-/alanuoli|Siirry menettämättä valintaa|
-|Alt+Oikea nuoli|Katso lasketun arvon tapahtumat|Ctrl+välilyönti|Vaihda rivin valintaa| 
-|Esc|Sulje nykyinen sivu tai avattava luettelo.|Vaihto+Ctrl+Home/End|Laajenna valintaa ensimmäiselle/viimeiselle riville| 
-|||Ctrl+Enter|Kohdistus luettelon ulkopuolella|
-|||||
-|**Kopioiminen ja liittäminen**||**Hakeminen, suodattaminen ja lajitteleminen**||
-|Ctrl+A|Valitse kaikki|F3|Vaihda hakuun|
-|Ctrl+Home/End|Valitse luettelosta ensimmäinen/viimeinen rivi|Shift+F3|Vaihda suodatinruutuun: kohdistus kenttäsuodattimissa|
-|Home/End|Siirry ensimmäiseen/viimeiseen kenttään|Ctrl+Shift+F3|Vaihda kokonaisarvojen suodattimiin: kohdistus kokonaisarvojen suodattimissa|
-|Ctrl/Vaihto+napsautus|Lisää rivit valintaan |Alt+F3|Suodata valitun solun arvon mukaan|
-|Ctrl+ylä-/alanuoli|Siirrä kohdistus ylä-/alapuolella olevaan riviin|Vaihto+Alt+F3|Lisää valittuun kenttään suodatin|
-|Ctrl+välilyönti|Laajentaa valinnan sisältämään rivin, jolla on kohdistus|Ctrl+Alt+Vaihto+F3|Nollaa suodattimet|
-|Vaihto+ylä-/alanuoli|Lisää rivi valinnan ylä-/alapuolelle|**Raportin esikatselu**||
-|Vaihto+sivu ylös/alas|Kaikkien näkyvissä olevien rivien lisääminen nykyisen valinnan ala-/yläpuolelle|Ylös/alas|Vieritä sivua ylös ja alas
-|Ctrl+C|Kopioi rivit|Oikea/vasen|Vieritä oikealle/vasemmalle |
-|Ctrl+V|Liitä rivit|Ctrl+0 (nolla)|Sovita sivu ikkunaan |
-|F8|Kopioi yläpuolella oleva kenttä nykyiselle riville|Ctrl+Home/End|Siirry ensimmäiselle/viimeiselle sivulle|
-|||Sivu ylös/alas|Siirry edelliselle/seuraavalle sivulle|
-
+||||  
+|----------------|-----------|----------------| 
+|**Yleiset**|Alt+Q<br />Alt+Ylänuoli<br />Sarkain<br />Vaihto+Sarkain<br />Alt+alanuoli<br />Alt+Oikea nuoli<br />F5/Ctrl+F5<br />Esc|Avaa **Kerro**<br />Avaa työkaluvihje tai tarkistusvirhe<br />Siirrä kohdistus seuraavaan ohjausobjektiin<br />Siirrä kohdistus edelliseen ohjausobjektiin<br />Avaa avattava luettelo tai haku<br />Katso lasketun arvon tapahtumat<br />Päivitä tai lataa sivu uudelleen<br />Sulje nykyinen sivu tai avattava luettelo.|
+|**Siirtyminen ja rivien valitseminen**| Home/End<br />Ctrl+Home/End <br />Ctrl+ylä-/alanuoli<br />Ctrl+A <br />Ctrl+välilyönti<br />Ctrl/Vaihto+napsautus<br />Ctrl+Vaihto+Home/End<br />Vaihto+ylä-/alanuoli<br />Vaihto+sivu ylös/alas<br />Ctrl+Enter| Siirry ensimmäiseen/viimeiseen kenttään<br />Siirry ensimmäiselle/viimeiselle riville<br />Siirry menettämättä valintaa<br />Valitse kaikki<br />Vaihda rivin valintaa<br /> Lisää rivit valintaan<br />Laajenna valintaa ensimmäiselle/viimeiselle riville<br />Lisää rivi valinnan ylä-/alapuolelle<br />Kaikkien näkyvissä olevien rivien lisääminen valinnan ala-/yläpuolelle<br />Kohdistus luettelon ulkopuolella|
+|**Kopioiminen ja liittäminen**|Ctrl+C<br />Ctrl+V<br />F8|Kopioi rivit<br />Liitä rivit<br />Kopioi yläpuolella oleva kenttä nykyiselle riville|
+|**Hakeminen, suodattaminen ja lajitteleminen**|F3<br />Shift+F3<br />Ctrl+Shift+F3<br />Alt+F3<br />Vaihto+Alt+F3<br />Ctrl+Alt+Vaihto+F3|Vaihda hakuun<br />Vaihda suodatinruutuun: kohdistus kenttäsuodattimissa<br />Vaihda suodatinruutuun: kohdistus yhteissummasuodattimissa<br />Suodata valitun solun arvon mukaan<br />Lisää valittuun kenttään suodatin<br />Nollaa suodattimet|
+|**Raportin esikatselu**|Ylös/alas<br />Oikea/vasen<br />Ctrl+Home/End<br />Sivu ylös/alas|Vieritä sivua ylös ja alas<br />Vieritä oikealle/vasemmalle <br />Siirry ensimmäiselle/viimeiselle sivulle<br />Siirry edelliselle/seuraavalle sivulle|
 

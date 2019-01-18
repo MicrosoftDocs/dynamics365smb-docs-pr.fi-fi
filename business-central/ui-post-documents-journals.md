@@ -12,10 +12,10 @@ ms.workload: na
 ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d1d10605991f215971a5562c9cde54ced59f9107
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 139cc2d43dbebb3c6c2f386b2977ba67bbe438d6
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="post-documents-and-journals"></a>Asiakirjojen ja päiväkirjojen kirjaaminen
@@ -30,7 +30,7 @@ Seuraavassa taulukossa esitellään liittyvät tehtävät ja linkit tehtäviä k
 | Tietoja ostoasiakirjojen kirjaamisesta. |[Ostojen kirjaaminen](ui-post-purchases.md) |
 | Tietoja myyntiasiakirjojen kirjaamisesta. |[Myynnin kirjaaminen](ui-post-sales.md) |
 | Tietoja yleisten päiväkirjojen kirjaamisesta. |[Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md) |
-| Esikatsele ikkunassa syöttöjä, jotka luodaan kirjaamisen yhteydessä. |[Kirjaustulosten esikatselu](ui-how-preview-post-results.md) |
+| Esikatsele sivulla tapahtumia, jotka luodaan kirjaamisen yhteydessä. |[Kirjaustulosten esikatselu](ui-how-preview-post-results.md) |
 | Esikatsele raportissa syöttöjä, jotka luodaan kirjaamisen yhteydessä. |[Testiraporttien tarkastelu ennen kirjausta](ui-how-view-test-reports-posting.md) |
 
 ## <a name="see-also"></a>Katso myös

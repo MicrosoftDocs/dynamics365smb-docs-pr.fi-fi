@@ -13,10 +13,10 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7b125edfcfd5e03882568b8ab6eb264418f15bef
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 8ecd532a043ad53b7a1d5d6c38e87a7102407003
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="closing-years-and-periods"></a>Vuosien ja kausien sulkeminen
@@ -26,6 +26,7 @@ Seuraava taulukko sisältää yleiskuvauksen tehtävistä, joita yleensä suorit
 
 | Vastaanottaja | Katso |
 | --- | --- |
+| Määritä tilikausi ja jaa se ajanjaksoiksi, joiden mukaan taloudellisesta tuloksesta raportoidaan. | [Kirjanpitojaksojen ja tilikausien käyttäminen](finance-accounting-periods-and-fiscal-years.md)|
 | Määritä järjestelmänlaajuiset ja käyttäjäkohtaiset kirjauspäivämäärävälit. Liiketoimintatarpeittesi mukaan haluat ehkä rajoittaa käyttäjän kirjauspäivämääräalueet kauden lopussa suoritettavan prosessin alussa tai sen jälkeen. |[Kirjausjaksojen määrittäminen](finance-how-specify-posting-periods.md) |
 | Saat yleiskuvauksen kauden lopussa tavallisesti suoritettavista toimenpiteistä, kuten kaikkien asiakirjojen ja päiväkirjojen kirjaaminen ja KP-raporttimallien ajaminen. |[Jaksojen päättäminen](year-how-complete-period-end-processes.md) |
 | Valuutan vaihtokurssien päivittäminen sekä kirjattujen asiakas-, toimittaja- ja pankkitilitapahtumien vaihtokurssien muuttaminen. |[Valuutan vaihtokurssien päivittäminen](finance-how-update-currencies.md) |

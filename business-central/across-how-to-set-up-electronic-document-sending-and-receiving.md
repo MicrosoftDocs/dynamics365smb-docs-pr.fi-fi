@@ -8,23 +8,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 10/04/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: a5282d20a1d9add984a70bc63e93fb32c3278f30
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 42b56cee413dbb08f3421e95afe49c8ea1aaac03
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-electronic-document-sending-and-receiving"></a>Sähköisten asiakirjojen vastaanottamisen ja lähettämisen määrittäminen
 Sähköpostin liitetiedostojen lähettämisen sijaan liiketoiminta-asiakirjoja voi lähettää ja vastaanottaa sähköisesti. Sähköisellä asiakirjalla tarkoitetaan sitä, että liiketoiminta-asiakirjaa (kuten toimittajan laskua) vastaava standardinmukainen tiedosto voidaan vastaanottaa ja muuntaa ostolaskuksi [!INCLUDE[d365fin](includes/d365fin_md.md)]issa. Document exchange -palveluiden ulkoinen palveluntarjoaja suorittaa kahden liikekumppanin välisen sähköisten asiakirjojen vaihdon. [!INCLUDE[d365fin](includes/d365fin_md.md)]in yleinen versio tukee sähköisten laskujen ja hyvityslaskujen lähettämistä ja vastaanottamista PEPPOL-muodossa. Suurimmat asiakirjojen vaihtopalveluiden tarjoajat tukevat tätä muotoa. Tavallisin document exchange -palveluiden tarjoaja on esimääritetty, ja se on valmis määritettäväksi yrityksellesi.  
 
-Ulkoinen OCR (Optical Character Recognition) -palvelu voi luoda saapuvia asiakirjoja vastaavista PDF- tai kuvatiedostoista sähköisiä asiakirjoja, jotka voit sitten muuntaa tiedostotietueiksi [!INCLUDE[d365fin](includes/d365fin_md.md)]issa samalla tavalla kuin teet sähköisille PEPPOL-asiakirjoille. Kun esimerkiksi saat PDF-muotoisen laskun toimittajalta, voit lähettää sen OCR-palveluun **Saapuvat asiakirjat** -ikkunasta. Saat tiedoston muutamassa sekunnissa takaisin sähköisenä laskuna, jonka voit muuntaa toimittajan ostolaskuksi. Jos lähetät tiedoston OCR-palveluun sähköpostitse, uusi saapuvan asiakirjan tietue luodaan automaattisesti, kun saat sähköisen asiakirjan takaisin.  
+Ulkoinen OCR (Optical Character Recognition) -palvelu voi luoda saapuvia asiakirjoja vastaavista PDF- tai kuvatiedostoista sähköisiä asiakirjoja, jotka voit sitten muuntaa tiedostotietueiksi [!INCLUDE[d365fin](includes/d365fin_md.md)]issa samalla tavalla kuin teet sähköisille PEPPOL-asiakirjoille. Kun esimerkiksi saat PDF-muotoisen laskun toimittajalta, voit lähettää sen OCR-palveluun **Saapuvat asiakirjat** -sivulta. Saat tiedoston muutamassa sekunnissa takaisin sähköisenä laskuna, jonka voit muuntaa toimittajan ostolaskuksi. Jos lähetät tiedoston OCR-palveluun sähköpostitse, uusi saapuvan asiakirjan tietue luodaan automaattisesti, kun saat sähköisen asiakirjan takaisin.  
 
-Sähköinen **PEPPOL**-asiakirjaformaatti on määritelty ennalta, jotta voit lähettää laskuja ja hyvityslaskuja PEPPOL-muodossa. Aluksi on määritettävä joitakin perustietoja, kuten yrityksen tiedot, asiakkaat, nimikkeet ja mittayksiköt. Näitä käytetään liiketoimintakumppanien ja kohteiden tunnistamisessa, kun [!INCLUDE[d365fin](includes/d365fin_md.md)] -kentissä olevat tiedot muunnetaan lähtevän tiedoston elementeiksi. Lopuksi sinun on valittava **Sähköinen asiakirjamuoto** -ikkunassa muoto jokaiselle asiakkaalle, jolle lähetät PEPPOL-muotoisia sähköisiä asiakirjoja. Lisätietoja on kohdassa [Sähköisten asiakirjojen lähettäminen](sales-how-to-send-electronic-documents.md).  
+Sähköinen **PEPPOL**-asiakirjaformaatti on määritelty ennalta, jotta voit lähettää laskuja ja hyvityslaskuja PEPPOL-muodossa. Aluksi on määritettävä joitakin perustietoja, kuten yrityksen tiedot, asiakkaat, nimikkeet ja mittayksiköt. Näitä käytetään liiketoimintakumppanien ja kohteiden tunnistamisessa, kun [!INCLUDE[d365fin](includes/d365fin_md.md)] -kentissä olevat tiedot muunnetaan lähtevän tiedoston elementeiksi. Lopuksi sinun on valittava **Sähköinen asiakirjamuoto** -sivulla muoto jokaiselle asiakkaalle, jolle lähetät PEPPOL-muotoisia sähköisiä asiakirjoja. Lisätietoja on kohdassa [Sähköisten asiakirjojen lähettäminen](sales-how-to-send-electronic-documents.md).  
 
-**PEPPOL - Lasku**- ja **PEPPOL – Hyvityslasku** -tietojenvaihdon määritelmät ovat määritelty ennalta, jotta voit vastaanottaa sähköisiä laskuja ja hyvityslaskuja PEPPOL-muodossa. Aluksi on määritettävä joitakin perustietoja, kuten yrityksen tiedot, toimittajat, nimikkeet ja mittayksiköt. Näitä käytetään liiketoimintakumppanien ja kohteiden tunnistamisessa, kun saapuvassa asiakirjatiedostossa olevien elementtien tiedot muunnetaan [!INCLUDE[d365fin](includes/d365fin_md.md)] -kentiksi. Lopuksi sinun on valittava **Saapuvat asiakirjat** -ikkunassa tiedonsiirtomääritys jokaiselle saapuvalle sähköiselle asiakirjalle, jonka haluat muuntaa [!INCLUDE[d365fin](includes/d365fin_md.md)]in ostoasiakirjaksi.  
+**PEPPOL - Lasku**- ja **PEPPOL – Hyvityslasku** -tietojenvaihdon määritelmät ovat määritelty ennalta, jotta voit vastaanottaa sähköisiä laskuja ja hyvityslaskuja PEPPOL-muodossa. Aluksi on määritettävä joitakin perustietoja, kuten yrityksen tiedot, toimittajat, nimikkeet ja mittayksiköt. Niiden avulla tunnistetaan liikekumppaneja ja nimikkeitä, kun saapuvassa asiakirjatiedostossa olevien elementtien tiedot muunnetaan [!INCLUDE[d365fin](includes/d365fin_md.md)]in kentiksi. Lopuksi sinun on valittava **Saapuvat asiakirjat** -sivulla tiedonsiirtomääritys jokaiselle saapuvalle sähköiselle asiakirjalle, jonka haluat muuntaa [!INCLUDE[d365fin](includes/d365fin_md.md)]in ostoasiakirjaksi.  
 
 **OCR – Lasku** -tiedonsiirtomääritys on valmiiksi määritetty, joten voit vastaanottaa OCR-palvelussa luotuja sähköisiä asiakirjoja. Saat esimerkiksi laskun sähköisenä OCR-tiedostona, kun asetat master-päivämäärän ja sitten käsittelet asiakirjan kuin vastaanottaessasi sähköisen PEPPOL-asiakirjan. Lisätietoja on kohdassa [PDF- ja kuvatiedostojen muuntaminen sähköisiksi asiakirjoiksi OCR-palvelun avulla](across-how-use-ocr-pdf-images-files.md).  
 
@@ -67,7 +67,7 @@ Ohjeaihe sisältää seuraavat toimintosarjat:
 
     |Kenttä|Description|  
     |---------------------------------|---------------------------------------|  
-    |**ALV-suunnitelma**|Määritä kansallinen, ALV-numeroita jakava viranomainen maalle tai alueelle, joka liittyy sähköisten asiakirjojen lähettämiseen.<br /><br /> Jos esimerkiksi lähetät sähköisiä laskuja PEPPOL-formaatissa, tämän kentän arvoa käytetään täyttämään **EndPointID** -elementin **SchemeID**-määrite tiedoston **AccountingSupplierParty** ja **AccountingCustomerParty** -solmuissa.<br /><br /> **ALV-suunnitelma**-kenttää käytetään vain, jos **Yritystiedot**-ikkunan **GLN**-kenttä on tyhjä. **Huomautus:** **Maat/alueet**-ikkunassa olevan **Koodi**-kentän arvon on noudatettava ISO 3166-1:Alpha2 -standardin vaatimuksia.|  
+    |**ALV-suunnitelma**|Määritä kansallinen, ALV-numeroita jakava viranomainen maalle tai alueelle, joka liittyy sähköisten asiakirjojen lähettämiseen.<br /><br /> Jos esimerkiksi lähetät sähköisiä laskuja PEPPOL-formaatissa, tämän kentän arvoa käytetään täyttämään **EndPointID** -elementin **SchemeID**-määrite tiedoston **AccountingSupplierParty** ja **AccountingCustomerParty** -solmuissa.<br /><br /> **ALV-suunnitelma**-kenttää käytetään vain, jos **Yritystiedot**-sivun **GLN**-kenttä on tyhjä. **Huomautus:** **Maat\/alueet**-sivulla olevan **Koodi**-kentän arvon on noudatettava ISO 3166\-1:Alpha2 -standardin vaatimuksia.|  
 
 ### <a name="to-set-up-items-for-electronic-document-sending-and-receiving"></a>Kohteiden määrittäminen sähköisten asiakirjojen lähettämistä ja vastaanottamista varten  
 1. Syötä **Etsi**-ruudussa **Nimikkeet** ja valitse sitten vastaava linkki.  
@@ -100,7 +100,7 @@ Ohjeaihe sisältää seuraavat toimintosarjat:
 ### <a name="to-select-the-peppol-electronic-document-format-for-electronic-document-sending"></a>PEPPOL-formaatin valitseminen asiakirjojen lähettämistä varten  
 1. Kirjoita **Haku**-ruutuun **Asiakirjan lähetysprofiilit** ja valitse aiheeseen liittyvä linkki.  
 2. Avaa joko aiemmin luotu asiakirjan lähetysprofiili tai luo uusi. Lisätietoja on kohdassa [Asiakirjan lähetysprofiilien määrittäminen](sales-how-setup-document-send-profiles.md).  
-3. Valitse **Asiakirjan lähetyksen profiili** -ikkunassa ensin **Sähköinen muoto**, sitten PEPPOL-rivi ja lopuksi **OK**.  
+3. Valitse **Asiakirjan lähetyksen profiili** -sivulla ensin **Sähköinen muoto**, sitten PEPPOL-rivi ja lopuksi **OK**.  
 4. Valitse **Sähköinen asiakirja** -kentässä **Kyllä (Document Exchange -palvelun kautta)**.  
 
     > [!NOTE]  
@@ -126,11 +126,11 @@ Ohjeaihe sisältää seuraavat toimintosarjat:
 
      Jos vastaanotettava asiakirja on hyvityslasku, valitse **PEPPOLCREDITMEMO**.  
 
-    Voit nyt vastaanottaa sähköisen asiakirjan aloittamalla tietojen muuntamisen **Saapuvat asiakirjat** -ikkunassa. Lisätietoja on kohdassa [Sähköisten asiakirjojen vastaanottaminen ja muuntaminen](purchasing-how-to-receive-and-convert-electronic-documents.md).  
+    Voit nyt vastaanottaa sähköisen asiakirjan aloittamalla tietojen muuntamisen **Saapuvat asiakirjat** -sivulla. Lisätietoja on kohdassa [Sähköisten asiakirjojen vastaanottaminen ja muuntaminen](purchasing-how-to-receive-and-convert-electronic-documents.md).  
 
 ### <a name="to-set-up-the-gl-account-to-use-on-new-purchase-invoice-lines-for-non-identifiable-items-and-non-items"></a>Kirjanpitotilin määrittäminen käyttämään uusia ostolaskun rivejä tunnistamattomille kohteille ja ei-kohteille  
-1. Avaa **Haku**-ruudusta **Ostot & Saatavat** ja valitse liittyvä linkki.  
-2. Lisää soveltuvat arvot **Tietojen vaihtaminen**-pikalomakkeen kenttään seuraavassa taulukossa kuvatulla tavalla.  
+1. Avaa **Haku**-ruudusta **Ostojen ja ostovelkojen asetukset** ja valitse liittyvä linkki.  
+2. Täytä **Oletustilit**-pikalomakkeen kenttä seuraavassa taulukossa kuvatulla tavalla.  
 
     |Kenttä|Description|  
     |---------------------------------|---------------------------------------|  

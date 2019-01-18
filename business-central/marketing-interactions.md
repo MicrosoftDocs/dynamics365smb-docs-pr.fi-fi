@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6fb3c1a19626c4cfa078f030a387e314ae2e0480
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6fa95883e30b7912ed2b6b22f40cbcd5af339f31
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="managing-interactions-with-contacts"></a>Kontaktien kanssa tapahtuvien vuorovaikutusten hallinta
@@ -30,7 +30,7 @@ Asiakkuudenhallinnan alueella voit tallentaa kaikki vuorovaikutukset, joita sinu
 
 ##  <a name="setting-up-interaction-templates"></a>Vuorovaikutusmallien määrittäminen
 Ennen kun voit luoda ja tallentaa vuorovaikutuksia, sinun täytyy määrittää vuorovaikutusmallit. Ennen vuorovaikutusten luomista on määritettävä, mihin vuorovaikutusmalleihin ne perustuvat. Vuorovaikutusmalli on malli, joka määrittää vuorovaikutuksen perusominaisuudet.
-Voit määrittää vuorovaikutusmallin **Vuorovaikutusmallit**-ikkunassa.
+Voit määrittää vuorovaikutusmallin **Vuorovaikutusmallit**-sivulla.
 
 Kun olet syöttänyt vuorovaikutusmallin tiedot, voit luoda liitteen (esimerkiksi Microsoft Word -asiakirjan). Toista vaiheet ja luo niin monta vuorovaikutusmallia kuin haluat.  
 
@@ -41,13 +41,13 @@ Vuorovaikutuksia voi tallentaa kahdella tavalla:
 * Voit tallentaa vuorovaikutukset automaattisesti, kun teet toimenpiteitä sovelluksessa (esimerkiksi tulostat laskun tai tarjouksen). Lisätietoja on ohjeaiheessa [Kontaktien kanssa tapahtuvien vuorovaikutusten tallennus automaattisesti](marketing-auto-record-interactions.md).
 
 ## <a name="viewing-and-managing-recorded-interactions"></a>Tallennettujen vuorovaikutusten tarkasteleminen ja hallinta
-Voit tarkastella kaikkia tallennettuja vuorovaikutuksia, joita ei ole poistettu, **Vuorovaikutuslokin tapahtumat** -ikkunassa. Voit avata ikkunan seuraavasti:
+Voit tarkastella kaikkia tallennettuja vuorovaikutuksia, joita ei ole poistettu, **Vuorovaikutuslokin tapahtumat** -sivulla. Voit avata sivun seuraavasti:
 
 * **Etsi sivua tai raporttia** -kuvakkeen avulla, kun haluat hakea **Vuorovaikutuslokin tapahtumat** -kohdasta.
 * Valitsemalla kontaktin tai segmentin **Vuorovaikutuslokin tapahtumat** -toiminnon.
-  **Vuorovaikutuslokin tapahtuma** -ikkuna sisältää manuaalisesti luomasi vuorovaikutukset sekä sovelluksen automaattisesti tallentamat vuorovaikutukset.
+  **Vuorovaikutuslokin tapahtuma** -sivu sisältää manuaalisesti luomasi vuorovaikutukset sekä sovelluksen automaattisesti tallentamat vuorovaikutukset.
 
-Tässä ikkunassa voit
+Tällä sivulla voit
 
 * tarkastella vuorovaikutusten tilaa
 * merkitä vuorovaikutukset peruutetuiksi.

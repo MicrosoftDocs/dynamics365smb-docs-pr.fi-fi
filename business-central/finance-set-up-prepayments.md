@@ -12,10 +12,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b4469b91f8bb377e4fef5700063d6085ac700605
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 7dc774654b35ce9b08885fd4ad18539e3ce5ebd5
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-prepayments"></a>Ennakkomaksujen määrittäminen
@@ -29,24 +29,24 @@ Koska ennakkoon maksettu summa kuuluu ostajalle siihen asti, kunnes hän on vast
 
 ## <a name="to-add-prepayment-accounts-to-the-general-posting-setup"></a>Ennakkomaksutilien lisääminen yleisiin kirjausasetuksiin  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Yleiset kirjausasetukset** ja valitse sitten liittyvä linkki.
-2. Täytä **Yleiset kirjausasetukset** -ikkunassa seuraavat kentät:  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Yleiset kirjausasetukset** ja valitse sitten liittyvä linkki.
+2. Täytä **Yleiset kirjausasetukset** -sivulla seuraavat kentät:  
 
     - **Myynnin ennakkomaksutili**  
     - **Ostojen ennakkomaksutili**  
 
-Jos et ole vielä määrittänyt ennakkomaksujen pääkirjanpitotilejä, voit tehdä sen **KP-tilin luettelo** -ikkunassa.  
+Jos et ole vielä määrittänyt ennakkomaksujen pääkirjanpitotilejä, voit tehdä sen **KP-tilin luettelo** -sivulla.  
 
 ## <a name="to-set-up-number-series-for-prepayment-documents"></a>Ennakkomaksuasiakirjojen numerosarjojen määrittäminen  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntien ja myyntisaamisten asetukset** ja valitse sitten liittyvä linkki.
-2. Täytä seuraavat kentät **Myyntien ja myyntisaamisten asetukset** -ikkunassa.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Myyntien ja myyntisaamisten asetukset** ja valitse sitten liittyvä linkki.
+2. Täytä seuraavat kentät **Myyntien ja myyntisaamisten asetukset** -sivulla.  
 
    - **Kirjattujen ennakkomaksulaskujen nrot**
    - **Kirjattujen ennakkomaksun hyvityslaskujen nrot**
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostojen ja ostovelkojen asetukset** ja valitse sitten liittyvä linkki.
-2. Täytä **Ostojen ostovelkojen asetukset** -ikkunassa seuraavat kentät:
+2. Täytä **Ostojen ostovelkojen asetukset** -sivulla seuraavat kentät:
 
     - **Kirjattujen ennakkomaksulaskujen nrot**
     - **Kirjattujen ennakkomaksun hyvityslaskujen nrot**
@@ -59,7 +59,7 @@ Voit määrittää nimikkeelle oletusennakkomaksuprosentin kaikkia asiakkaita, t
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten liittyvä linkki.
 2. Valitse ensin nimike ja sitten **Ennakkomaksuprosentit**-toiminto.  
-3. Täytä tarvittavat kentät **Myynnin ennakkomaksuprosentit** -ikkunassa. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Täytä tarvittavat kentät **Myynnin ennakkomaksuprosentit** -sivulla. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Voit määrittää asiakkaalle tai toimittajalle yhden kaikkia nimikkeitä ja kaikentyyppisiä myyntirivejä koskevan oletusennakkomaksuprosentin. Voit antaa sen asiakkaan tai toimittajan kortissa.
 

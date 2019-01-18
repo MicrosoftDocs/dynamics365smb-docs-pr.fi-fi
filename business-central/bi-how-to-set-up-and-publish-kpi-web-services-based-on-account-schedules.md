@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 9e7adbe575df0b9253ead53ca2a5c782fa27e064
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 89ea440851c359db7e08d4f0265a647cb9424330
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-and-publish-kpi-web-services-based-on-account-schedules"></a>KP-raporttimalleihin perustuvan KPI-verkkopalvelun määrittäminen ja julkaiseminen
-Voit määrittää **KP-raporttimallin KPI-verkkopalvelun asetukset** -ikkunassa, miten KP-raporttimallin KPI-tiedot näytetään ja mihin tiettyihin KP-raporttimalleihin KPI:t perustuvat. Kun valitset **Julkaise verkkopalvelu** -painikkeen, määritellyt KP-raporttimallin KPI-tiedot lisätään julkaistujen verkkopalveluiden luetteloon **Verkkopalvelut**-ikkunassa.  
+Voit määrittää **KP-raporttimallin KPI-verkkopalvelun asetukset** -sivulla, miten KP-raporttimallin KPI-tiedot näytetään ja mihin tiettyihin KP-raporttimalleihin KPI:t perustuvat. Kun valitset **Julkaise verkkopalvelu** -painikkeen, määritellyt KP-raporttimallin KPI-tiedot lisätään julkaistujen verkkopalveluiden luetteloon **Verkkopalvelut**-sivulla.  
 
 ## <a name="to-set-up-and-publish-a-kpi-web-service-that-is-based-on-account-schedules"></a>KP-raporttimalleihin perustuvan KPI-verkkopalvelun määrittäminen ja julkaiseminen  
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KP-raporttimallin KPI-verkkopalvelun asetukset** ja valitse sitten liittyvä linkki.  
@@ -28,11 +28,11 @@ Voit määrittää **KP-raporttimallin KPI-verkkopalvelun asetukset** -ikkunassa
 
     |Kenttä|Kuvaus|  
     |---------------------------------|---------------------------------------|  
-    |**Ennustettujen arvojen alku**|Määritä, missä vaiheessa ennustetut arvot näytetään KP-raporttimallin KPI-kuvaajassa.<br /><br /> Ennustetut arvot haetaan pääkirjanpidon budjetista, jonka valitset **KP-budjetin nimi** -kentässä. **Huomautus:** Jos haluat saada ennustettuja lukuja tietyn päivämäärän jälkeen osoittavat KPI-tiedot ja toteutuneet luvut ennen päivämäärää, voit muuttaa **Ensimm. sallittu kirjauspvm** -kenttää **Pääkirjanpidon asetukset** -ikkunassa. Lisätietoja on kohdassa Ensimm. sallittu kirjauspvm.|  
+    |**Ennustettujen arvojen alku**|Määritä, missä vaiheessa ennustetut arvot näytetään KP-raporttimallin KPI-kuvaajassa.<br /><br /> Ennustetut arvot haetaan pääkirjanpidon budjetista, jonka valitset **KP-budjetin nimi** -kentässä. **Huomautus:** Jos haluat saada ennustettuja lukuja tietyn päivämäärän jälkeen osoittavat KPI-tiedot ja toteutuneet luvut ennen päivämäärää, voit muuttaa **Ensimm. sallittu kirjauspvm** -kenttää **Pääkirjanpidon asetukset** -sivulla. Lisätietoja on kohdassa Ensimm. sallittu kirjauspvm.|  
     |**KP-budjetin nimi**|Määritä sen pääkirjanpidon budjetin nimi, joka tarjoaa ennustettuja arvoja KP-raporttimallin KPI-verkkopalveluun.|  
     |**Jakso**|Määritä ajanjakso, jolle KP-raporttimallin KPI-verkkopalvelu perustuu.|  
     |**Näyttöperuste**|Määritä, millä aikavälillä KP-raporttimallin KPI-tiedot näytetään.|  
-    |**Verkkopalvelun nimi**|Määritä KP-raporttimallin KPI-verkkopalvelun nimi.<br /><br /> Tämä nimi näkyy **Palvelun nimi** -kentässä **Verkkopalvelut** -ikkunassa.|  
+    |**Verkkopalvelun nimi**|Määritä KP-raporttimallin KPI-verkkopalvelun nimi.<br /><br /> Tämä nimi näkyy **Palvelun nimi** -kentässä **Verkkopalvelut**-sivulla.|  
 
     Määritä vähintään yksi KP-raporttimalli, jonka haluat julkaista KPI-verkkopalveluna edellisen taulukon asetusten mukaisesti.  
 
@@ -46,10 +46,10 @@ Voit määrittää **KP-raporttimallin KPI-verkkopalvelun asetukset** -ikkunassa
 4.  Toista vaihe 3 kaikille KP-raporttimalleille, joille haluat KP-raporttimallin KPI-verkkopalvelun perustuvan.  
 5.  Tarkastele tai muokkaa valittua KP-raporttimallia valitsemalla **KP-raporttimalli**-välilehdessä **Muokkaa KP-raporttimallia** -toiminnon.  
 6.  Voit tarkastella luomiasi KP-raporttimallin KPI-tietoja valitsemalla **KP-raporttimallin KPI-verkkopalvelu** -toiminnon.  
-7.  Julkaise KP-raporttimalli KPI-verkkopalveluna valitsemalla **Julkaise verkkopalvelu** -toiminto. Verkkopalvelu lisätään julkaistujen verkkopalveluiden luetteloon **Verkkopalvelut** -ikkunassa.  
+7.  Julkaise KP-raporttimalli KPI-verkkopalveluna valitsemalla **Julkaise verkkopalvelu** -toiminto. Verkkopalvelu lisätään julkaistujen verkkopalveluiden luetteloon **Verkkopalvelut**-sivulla.  
 
 > [!NOTE]  
->  Voit myös julkaista KPI-verkkopalvelun osoittamalla **KP-raporttimallin KPI-verkkopalvelun asetukset** -ikkunan objektia **Verkkopalvelut** -ikkunassa. Lisätietoja on kohdassa [Verkkopalvelun julkaiseminen](across-how-publish-web-service.md).  
+>  Voit myös julkaista KPI-verkkopalvelun osoittamalla **KP-raporttimallin KPI-verkkopalvelun asetukset** -sivukohdetta **Verkkopalvelut**-sivulla. Lisätietoja on kohdassa [Verkkopalvelun julkaiseminen](across-how-publish-web-service.md).  
 
 ## <a name="see-also"></a>Katso myös  
 [Business Intelligence](bi.md)  

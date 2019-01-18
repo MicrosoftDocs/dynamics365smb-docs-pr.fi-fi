@@ -14,10 +14,10 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-handling-reordering-policies
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5084c8a49972ea51600867d90acedc2698609732
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: f8d4cfbbdab6285f65611c81aaf728a8c129c729
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-fixed-reorder-qty"></a>Rakennetiedot: Kiinteä uusintatil. määrä
@@ -37,7 +37,7 @@ Kiinteä uusintatilausmäärän menettely liittyy tyypillisten C-nimikkeiden var
  Tilauksen muokkaajien, minimitilausmäärä, maksimitilausmäärä ja tilauksen moninkertaistaminen, ei tulisi näytellä isoa roolia, kun käytetään kiinteää jälkitilausmäärätapaa. Koska suunnittelujärjestelmä ottaa edelleen nämä muuttujat huomioon ja vähentää määrän määritettyyn enimmäistilausmäärään (ja luo kaksi toimitusta tai useampia kokonaistilausmäärän saavuttamiseksi), kasvata tilausta määritettyyn vähimmäistoimituksen määrään tai pyöristä tilausmäärä ylös määritetyn tilauskerrannaisen kattamiseksi.  
 
 ## <a name="combines-with-calendars"></a>Yhdistäminen kalentereihin  
- Ennen kuin uusintatilauspisteen täyttämiseen ehdotetaan uutta toimitustilausta, suunnittelujärjestelmä tarkistaa, onko tilaus ajoitettu **Yritystiedot**- ja **Sijaintikortti**-ikkunoiden **Peruskalenterin koodi** -kentässä määritettyjen kalenterien mukaiselle ei-työskentelypäivälle.  
+ Ennen kuin uusintatilauspisteen täyttämiseen ehdotetaan uutta toimitustilausta, suunnittelujärjestelmä tarkistaa, onko tilaus ajoitettu **Yritystiedot**- ja **Sijaintikortti**-sivujen **Peruskalenterin koodi** -kentässä määritettyjen kalenterien mukaiselle ei-työskentelypäivälle.  
 
  Jos suunniteltu päivämäärä ei ole työpäivä, suunnittelujärjestelmä siirtää tilauksen seuraavalle työpäivälle. Tämä voi johtaa tilaukseen, joka täyttää uusintatilauspisteen, mutta ei täytä mitään tiettyä kysyntää. Suunnittelujärjestelmä luo ylimääräisen tarjonnan vastaamaan epätasapainoiseen kysyntään.  
 

@@ -13,21 +13,21 @@ ms.search.keywords: resources, allocation, status, repairs
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 014ede5232017bb090fa6cd33816064a6c4b99b8
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 932abf3ee69f429c322fe82e150fa7a8f4aef8e8
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="allocation-status-and-repair-status-of-service-items"></a>Huoltonimikkeen kohdistuksen tila ja korjauksen tila
-Huoltonimikkeiden korjauksen tilalla ja huoltonimikkeiden kohdistustapahtumien kohdistuksen tilalla on tietty yhteys Huoltohallinnossa. Kohdistuksen tila muuttuu silloin kun huoltonimikkeen korjauksen tila muutetaan **Valmiiksi** tai **Osittain huolletuksi** ja kun huoltotarjous muunnetaan huoltotilaukseksi. Huoltonimikkeen korjauksen tila muuttuu, kun peruutat huoltonimikkeen kohdistuksen tai kohdistat sen toiseen resurssiin. Voit tarkastella huoltonimikkeiden korjauksen tilaa **Huoltotehtävät** -ikkunassa ja voit päivittää korjauksen tilan **Korjauksen tilakoodi** -kentässä **Huoltonimikkeen työkirja** -ikkunassa. Voit tarkastella kohdistuksen tilaa **Tila** -kentäässä **Resurssin kohdistukset** -ikkunassa.  
+Huoltonimikkeiden korjauksen tilalla ja huoltonimikkeiden kohdistustapahtumien kohdistuksen tilalla on tietty yhteys Huoltohallinnossa. Kohdistuksen tila muuttuu silloin kun huoltonimikkeen korjauksen tila muutetaan **Valmiiksi** tai **Osittain huolletuksi** ja kun huoltotarjous muunnetaan huoltotilaukseksi. Huoltonimikkeen korjauksen tila muuttuu, kun peruutat huoltonimikkeen kohdistuksen tai kohdistat sen toiseen resurssiin. Voit tarkastella huoltonimikkeiden korjauksen tilaa **Huoltotehtävät** -sivulla ja voit päivittää korjauksen tilan **Korjauksen tilakoodi** -kentässä **Huoltonimikkeen työkirja** -sivulla. Voit tarkastella kohdistuksen tilaa **Tila**-kentässä **Resurssin kohdistukset** -sivulla.  
   
 ## <a name="changing-repair-status"></a>Korjauksen tilan muuttaminen  
 Kun huoltonimikerivillä olevan huoltonimikkeen korjauksen tilaa muutetaan, ohjelma etsii huoltonimikkeelle vastaavaa kohdistustapahtumaa, jolla on tilana **Aktiivinen**. Jos tällainen kohdistustapahtuma löytyy, ohjelma päivittää sen tilan jollakin seuraavista tavoista:  
   
 * Jos korjauksen tila muutetaan **Valmiiksi**, ohjelma muuttaa kohdistuksen tilan **Aktiivisesta** **Valmiiksi**.  
 * Jos korjauksen tila muutetaan **Osittain huolletuksi** (osa huollosta on suoritettu loppuun) tai **Lykätyksi** (mitään huoltoa ei ole tehty), ohjelma muuttaa kohdistuksen tilan **Aktiivisesta** **Uudelleenkohdistamista tarvitaan** -tilaksi.  
-* Kun huoltotilauksen kohdistustapahtuma on luotu (eli resursseja ei ole kohdistettu), ohjelma asettaa **Resurssin kohdistus** -ikkunan **Tila**-kentän arvoksi **Ei-aktiivinen**.  
+* Kun huoltotilauksen kohdistustapahtuma on luotu (eli resursseja ei ole kohdistettu), ohjelma asettaa **Resurssin kohdistus** -sivun **Tila**-kentän arvoksi **Ei-aktiivinen**.  
 * Ohjelma asettaa kohdistustapahtuman tilaksi  **Peruutettu**, kun kohdistat viitatun huoltonimikkeen uudelleen huoltotilauksen kohdistustapahtumaan. Se tarkoittaa, että kohdistettu resurssi tai resurssiryhmä ei ole yrittänyt suorittaa huoltotehtävää.  
   
 Kohdistuksen tila kuvastaa, milloin huoltoprosessi on päättynyt, tai milloin toista resurssia tarvitaan huoltonimikkeen huollon loppuun suorittamiseksi.  

@@ -1,6 +1,6 @@
 ---
 title: Reititysten luominen | Microsoft Docs
-description: "Reititys sisältää perustiedot tuotettavan nimikkeen prosessivaatimuksista. Kun nimikkeelle luodaan tuotantotilaus, reititys ohjaa toimintojen aikatauluja tuotantotilauksen **Tuotantotilaus reititys** -ikkunassa näkyvällä tavalla."
+description: "Reititys sisältää perustiedot tuotettavan nimikkeen prosessivaatimuksista. Kun nimikkeelle luodaan tuotantotilaus, reititys ohjaa toimintojen aikatauluja tuotantotilauksen **Tuotantotilaus reititys** -sivulla näkyvällä tavalla."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0b274e23b03c06c395df6b91033174425cda679b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d6f64c04f6451701bbbac23e82678c5649a7df56
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-routings"></a>Uusien reititysten luominen
@@ -24,7 +24,7 @@ Tuotantoyritykset käyttävät reitityksiä tuotantoprosessin näyttämiseen ja 
 
 Reititys on prosessiaikataulutuksen, kapasiteettiaikataulutuksen sekä materiaalitarpeitten ja tuotantoasiakirjojen aikataulutetun määrittelyn perusta.  
 
-Reititykset määritetään tuotannon tuoterakenteissa tuotannon loppunimikkeeseen. Reititys sisältää perustiedot tuotettavan nimikkeen prosessivaatimuksista. Kun nimikkeelle luodaan tuotantotilaus, reititys ohjaa toimintojen aikatauluja tuotantotilauksen **Tuotantotilaus reititys** -ikkunassa näkyvällä tavalla.  
+Reititykset määritetään tuotannon tuoterakenteissa tuotannon loppunimikkeeseen. Reititys sisältää perustiedot tuotettavan nimikkeen prosessivaatimuksista. Kun nimikkeelle luodaan tuotantotilaus, reititys ohjaa toimintojen aikatauluja tuotantotilauksen **Tuotantotilaus reititys** -sivulla näkyvällä tavalla.  
 
 Seuraavat toimet on oltava tehtynä ennen reitityksen määrittämistä:  
 
@@ -61,7 +61,7 @@ Seuraavat toimet on oltava tehtynä ennen reitityksen määrittämistä:
 ## <a name="to-create-routing-links"></a>Reitityslinkkien luominen
 Reitityslinkkejä luomalla komponentteja voidaan liittää tiettyihin toimintoihin niin, että suhde säilyy, vaikka tuotannon tuoterakennetta ja/tai reititystä muokattaisiin. Reitityslinkit mahdollistavat myös komponenttien materiaalinoton juuri oikeaan aikaan eli linkitetyn toiminnon alkaessa - eikä silloin, kun koko tilaus vapautetaan. Lisätietoja on kohdassa [Komponenttien materiaalinotto toiminnan tuotoksen mukaan](production-how-to-flush-components-according-to-operation-output.md).  
 
-Toinen tästä seuraava tärkeä etu on se, että linkitetyt komponentit ja toiminnot voidaan näyttää loogisena prosessirakenteena kirjattaessa tuotosta ja kulutusta **Tuotantopäiväkirja**-ikkunassa.  
+Toinen tästä seuraava tärkeä etu on se, että linkitetyt komponentit ja toiminnot voidaan näyttää loogisena prosessirakenteena kirjattaessa tuotosta ja kulutusta **Tuotantopäiväkirja**-sivulla.  
 
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Reititykset** ja valitse sitten liittyvä linkki.  
 2.  Avaa reititys, joka sisältää linkitettävät operaatiot.  
@@ -89,7 +89,7 @@ Toinen tästä seuraava tärkeä etu on se, että linkitetyt komponentit ja toim
     > [!NOTE]  
     >  Voit ottaa aiemmin luodun tuotantotilauksen reitityslinkit käyttöön päivittämällä tuotantotilauksen. Lisätietoja on kohdassa [Tuotantotilausten luominen](production-how-to-create-production-orders.md).  
 
-Kun nyt luodaan ja/tai päivitetään tuotantotilaus, joka käyttää yllä käsiteltyjä tuotannon tuoterakennetta ja reititystä, komponentit linkitetään valittuihin toimintoihin. Tämä on näkyvissä **Tuot. til.komponentit**-ikkunassa tuotantotilauksen kohdalla. Määritettyjä reitityslinkkien koodeja voidaan myös lisätä ja poistaa tässä ikkunassa koska tahansa.
+Kun nyt luodaan ja/tai päivitetään tuotantotilaus, joka käyttää yllä käsiteltyjä tuotannon tuoterakennetta ja reititystä, komponentit linkitetään valittuihin toimintoihin. Tämä on näkyvissä **Tuot. til.komponentit**-sivulla tuotantotilauksen kohdalla. Määritettyjä reitityslinkkien koodeja voidaan myös lisätä ja poistaa tällä sivulla koska tahansa.
 
 ## <a name="to-assign-personnel-tools-and-quality-measures-to-routing-operations"></a>Henkilöstön, työkalujen ja laatutoimien määrittäminen reititystoimintoihin
 Jos operaatiolle vaaditaan henkilöstöä, jolla on pätevyyttä, erikoistietämystä tai erityisvaltuutus, kyseisen henkilöstön voi määritellä operaatiolle. Voit määrittää toimintoon myös työkaluja ja laatuvaatimuksia. Tässä toimintaohjeessa käsitellään henkilöstön määrittämistä. Muiden toimintotyyppien tietoja koskevat vastaavanlaiset ohjeet.
@@ -97,15 +97,15 @@ Jos operaatiolle vaaditaan henkilöstöä, jolla on pätevyyttä, erikoistietäm
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Reititykset** ja valitse sitten liittyvä linkki.  
 2.  Avaa käsiteltävä reititys.  
 3.  Valitse **Rivit** -pikavälilehdessä ensin käsiteltävä rivi ja sitten **Henkilöstö**-toiminto.  
-4.  Täytä **Reititys henkilöstö** -ikkunan kentät.  
-5.  Valitse **OK**-painike ikkunan sulkemiseksi. Syötetyt arvot kopioidaan ja määritellään operaatiolle.    
+4.  Täytä **Reititys henkilöstö** -sivun kentät.  
+5.  Poistu sivulta valitsemalla **OK**-painike. Syötetyt arvot kopioidaan ja määritellään operaatiolle.    
 
 ## <a name="to-create-a-new-versions-of-a-routing"></a>Reititysten uusien versioiden luominen  
 Versioperiaate mahdollistaa useiden reititysversioiden hallitsemisen. Reititysversion rakenne vastaa reititysversion otsikosta ja reititysversion riveistä koostuvan reitityksen rakennetta. Peruseron määrittää aloituspäivämäärä.  
 
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Reititykset** ja valitse sitten liittyvä linkki.  
 2.  Valitse ensin kopioitava reititys ja sitten **Versiot**-toiminto.  
-3. Valitse **Reititysversiot**-ikkunassa **Uusi**-toiminto.
+3. Valitse **Reititysversiot**-sivulla **Uusi**-toiminto.
 4. Täytä tarvittavat kentät.
 5.  Anna **Versiokoodi**-kentässä version yksilöivä tunniste. Kaikenlaisten numero- ja kirjainyhdistelmien käyttö on sallittua.  
 

@@ -13,10 +13,10 @@ ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 4b9fa6fb99ec68982a2869be2085de0588d76c85
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 83545421ec7539b214788d08d4f4b33c4bdb71d7
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="undo-assembly-posting"></a>Kokoonpanon kirjauksen kumoaminen
@@ -44,7 +44,7 @@ Seuraavassa ohjeessa neuvotaan, miten perutaan jo kirjattuja kokoonpanotilauksia
 ## <a name="to-undo-posting-of-an-assembly-order"></a>Kumoa kokoonpanotilauksen kirjaus  
 1.  Jos haluat peruuttaa kokonaan tai osittain kirjatun kokoonpanotilauksen, valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kirjatut kokoonpanotilaukset** ja valitse liittyvä linkki.  
 
-    Avautuvassa **Kirjatut kokoonpanotilaukset** -ikkunassa esitetään yksi tai useampi kirjattu kokoonpanotilaus, joka on kirjattu kyseisestä kokoonpanotilauksesta. Jokainen osittainen kirjaus luo erillisen kirjatun kokoonpanotilauksen.  
+    Avautuvassa **Kirjatut kokoonpanotilaukset** -sivulla esitetään yksi tai useampi kirjattu kokoonpanotilaus, joka on kirjattu kyseisestä kokoonpanotilauksesta. Jokainen osittainen kirjaus luo erillisen kirjatun kokoonpanotilauksen.  
 2.  Avaa kumottava kirjattu kokoonpanotilaus ja valitse sitten **Kumoa kokoonpano** -toiminto.  
 
     Jos kirjattu kokoonpanotilaus, jonka haluat kumota, liittyy kokonaan kirjattuun poistettuun kokoonpanotilaukseen, voit luoda sen uudelleen uudelleenkäsittelyä varten.  

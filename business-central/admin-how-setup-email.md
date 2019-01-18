@@ -12,14 +12,14 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 5bede56db06b7bac991f3f910c11e1dae61c7463
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9eb056bc98298a31833d205862d2d9bfeba04218
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-email-manually-or-using-the-assisted-setup"></a>Sähköpostin määrittäminen manuaalisesti tai asetusten ohjatun määrityksen käyttäminen
-Jos haluat lähettää ja vastaanottaa sähköpostiviestejä [!INCLUDE[d365fin](includes/d365fin_md.md)]issa, **SMTP-sähköpostiasetukset**-ikkunan kentät on täytettävä.
+Jos haluat lähettää ja vastaanottaa sähköpostiviestejä [!INCLUDE[d365fin](includes/d365fin_md.md)]issa, **SMTP-sähköpostiasetukset**-sivun kentät on täytettävä.
 
 > [!NOTE]  
 >   Sen sijaan että kirjoittaisit SMTP-palvelimen tiedot, voit käyttää toimintoa, joka hakee nämä tiedot Office 365 -tilauksesta.
@@ -31,7 +31,7 @@ Voit joko määrittää sähköpostin manuaalisesti tai voit käyttää hyväkse
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Vaihtoehtoisesti voit lisätä Office 365 -tilauksessa määritetyt tiedot valitsemalla **Käytä Office 365 Server -asetuksia** -toiminnon.
 4. Kun kaikki kentät on täytetty oikein, valitse **Testisähköpostin asetukset** -toiminto.
-5. Kun testi onnistuu, sulje ikkuna.
+5. Kun testi onnistuu, sulje sivu.
 
 ## <a name="see-also"></a>Katso myös  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  

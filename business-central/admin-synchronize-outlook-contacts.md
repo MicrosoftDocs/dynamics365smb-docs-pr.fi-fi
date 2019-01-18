@@ -11,10 +11,10 @@ ms.search.keywords: contacts, Office 365
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: fa6779ee8fb2bbb453014e32cb7f3cf8dcfa18da
-ms.openlocfilehash: b535255be4b751744ae8c459bdc3d87cd1271dee
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5e4bd35edea680c46cb0df753b50916b1aeb93be
 ms.contentlocale: fi-fi
-ms.lasthandoff: 04/11/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="synchronize-contacts-in-business-central-with-contacts-in-microsoft-outlook"></a>Business Centralin kontaktien synkronisointi Microsoft Outlookin yhteystietojen kanssa
@@ -23,9 +23,9 @@ Näet samat kontaktit [!INCLUDE[d365fin](includes/d365fin_md.md)]:ssa kuin Outlo
 Kiinteä Outlook-kansio helpottaa yhteystietojen löytämistä ja voit asettaa suodattimen synkronoidaksesi vain ne kontaktit [!INCLUDE[d365fin](includes/d365fin_md.md)]:sta, jotka haluat nähdä Outlookissa. Kun yhteyshenkilön synkronointi on käytössä, voit aloittaa synkronoinnin manuaalisesti tai määrittää automaattisen synkronoinnin, joka säilyttää synkronoinnin aikataulun mukaisesti.  
 
 ## <a name="set-up-synchronization"></a>Synkronoinnin määritys
-Määrität, miten haluat synkronoida Outlookin yhteystiedot [!INCLUDE[d365fin](includes/d365fin_md.md)]:n **Exchangen synkronointiasetukset** -ikkunassa. Tämä edellyttää, että [!INCLUDE[d365fin](includes/d365fin_md.md)] -käyttäjäprofiilissasi määritetään oma Office 365 -sähköpostitilisi. Voit tarkistaa tämän **Käyttäjät**-luettelossa oman käyttäjäprofiilisi **Office 365 -todennus** -osassa.  
+Määrität, miten haluat synkronoida Outlookin yhteystiedot [!INCLUDE[d365fin](includes/d365fin_md.md)]:n **Exchangen synkronointiasetukset** -sivulla. Tämä edellyttää, että [!INCLUDE[d365fin](includes/d365fin_md.md)] -käyttäjäprofiilissasi määritetään oma Office 365 -sähköpostitilisi. Voit tarkistaa tämän **Käyttäjät**-luettelossa oman käyttäjäprofiilisi **Office 365 -todennus** -osassa.  
 
-Tarkista sitten **Exchangen synkronointiasetukset** -ikkunassa, että yhteys Exchangeen toimii ja määritä synkronointi. Avaa **Kontaktin synkronointiasetukset** -ikkuna ja käynnistä synkronointi. Voit myös asettaa suodattimen sille, mitkä kontaktit synkronoidaan [!INCLUDE[d365fin](includes/d365fin_md.md)]:n ja Outlookin välillä. Voit esimerkiksi asettaa suodattimen nimen, tyypin, yrityksen tai vastaavan tiedon perusteella. Voi myös muuttaa sen kansion oletusnimeä, johon yhteystiedot synkronoidaan Outlookissa. Oletusnimi on *Business Central*.  
+Tarkista sitten **Exchangen synkronointiasetukset** -sivulla, että yhteys Exchangeen toimii ja määritä synkronointi. Avaa **Kontaktin synkronointiasetukset** -sivu ja käynnistä synkronointi. Voit myös asettaa suodattimen sille, mitkä kontaktit synkronoidaan [!INCLUDE[d365fin](includes/d365fin_md.md)]:n ja Outlookin välillä. Voit esimerkiksi asettaa suodattimen nimen, tyypin, yrityksen tai vastaavan tiedon perusteella. Voi myös muuttaa sen kansion oletusnimeä, johon yhteystiedot synkronoidaan Outlookissa. Oletusnimi on *Business Central*.  
 
 Kun tämä synkronointi on määritetty, tekemäsi muutokset kontaktiin joko Outlookissa tai [!INCLUDE[d365fin](includes/d365fin_md.md)]:ssa synkronoidaan aina molempiin sovelluksiin.  
 

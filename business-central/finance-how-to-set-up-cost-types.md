@@ -10,13 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost types, general ledger, accounts
-ms.date: 10/01/2018
+ms.date: 11/13/2018
 ms.author: sgroespe
+redirect_url: finance-set-up-cost-accounting
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 37800664c79e501f1cf5dc41c12be6197fcb6bfd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2846967648f5c0e0b6015c7990a941642fc27323
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-cost-types"></a>Kustannustyyppien määrittäminen
@@ -34,12 +35,12 @@ Kustannustyyppikartta vastaa pääkirjanpidon tilikarttaa. Voit määrittää ku
     > [!IMPORTANT]  
     >  **Rekisteröi kustannustyypit tilikartassa** -toiminto päivittää tilikartan ja kustannustyyppukaavion välisen suhteen. **Nro**-kenttä on täytetty ja vahvistettu, että jokaiselle KP-tilille on liitetty vain yksi kustannuslaji. Toiminto suoritetaan automaattisesti ennen KP-tapahtumien siirtämistä kustannuslaskentaan.  
 
-## <a name="to-set-up-new-cost-types-in-the-chart-of-cost-types-window"></a>Uuden kustannustyypin määrittäminen Kustannustyyppikartta-ikkunassa  
-1.  Avaa **Kustannustyyppikartta**-ikkuna muokkaustilassa.  
+## <a name="to-set-up-new-cost-types-in-the-chart-of-cost-types-page"></a>Uuden kustannustyypin määrittäminen Kustannustyyppikartta-sivulla  
+1.  Avaa **Kustannustyyppikartta**-sivu muokkaustilassa.  
 2.  Täytä kentät tarvittaessa ohjeiden mukaan. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
-    >  Voit määrittää ja ylläpitää kustannustyyppejä joko **Kustannustyypin kortti** -kortissa tai **Kustannustyyppikartta**-ikkunassa. Tässä toimenpiteessä määrität kustannustyypit **Kustannustyyppikartta**-ikkunassa.
+    >  Voit määrittää ja ylläpitää kustannustyyppejä joko **Kustannustyypin kortti**- tai **Kustannustyyppikartta**-sivulla. Tässä toimenpiteessä määrität kustannustyypit **Kustannustyyppikartta**-sivulla.
 
 3.  Kun olet luonut kaikki kustannustyypit, valitse **Sisennä kustannustyypit** -toiminto. Valitse valintaikkunassa **Kyllä**.  
 4.  Linkitä uusi kustannustyyppi vastaavalle pääkirjanpidon tilille.  
@@ -48,7 +49,7 @@ Kustannustyyppikartta vastaa pääkirjanpidon tilikarttaa. Voit määrittää ku
     >  Jos olet antanut määritelmiä **Loppusumma**-rivien **Summausväli**-kentissä ennen **Sisennä kustannustyypit** -toiminnon suorittamista, määritelmät on annettava uudelleen, koska toiminto korvaa kaikki **Loppusumma**-kenttien arvot.  
 
 ## <a name="to-update-cost-types"></a>Päivitä kustannustyypit  
-1.  Valitse **Kustannuslaskennan asetukset** -ikkunassa, haluatko kustannustyyppikaavion päivittyvän automaattisesti, kun tilikarttaa muutetaan.  
+1.  Valitse **Kustannuslaskennan asetukset** -sivulla, haluatko kustannustyyppikaavion päivittyvän automaattisesti, kun tilikarttaa muutetaan.  
 2.  Voit tehdä **Tasaa KP-tili** -kentässä valinnan seuraavista vaihtoehdoista:  
 
 - **Ei tasausta** - Vastaavaa muutosta ei tehdä kustannustyyppikaaviossa, kun tilikarttaa muutetaan.  
@@ -57,7 +58,6 @@ Kustannustyyppikartta vastaa pääkirjanpidon tilikarttaa. Voit määrittää ku
 
 ## <a name="see-also"></a>Katso myös  
 [Kustannuslaskenta](finance-manage-cost-accounting.md)  
-[Pääkirjanpitotilien ja kustannustyyppien välisen suhteen määrittäminen](finance-defining-the-relationship-between-cost-types-and-general-ledger-accounts.md)   
 [Kustannuspaikkojen ja kustannuskohteiden määrittäminen tilikarttaan](finance-defining-cost-centers-and-cost-objects-for-chart-of-accounts.md)   
 [Kustannustyypin, kustannuspaikan ja kustannusobjektin saldot](finance-balances-between-cost-type-cost-center-and-cost-object.md)   
 [Kustannuslaskennan määrittäminen](finance-set-up-cost-accounting.md)   

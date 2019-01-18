@@ -13,16 +13,16 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0a1a2a100fbbd0d21c3934802b624e370592bd9e
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 69630c095da4072f31f678895ee73ab74cc8cdad
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="migrate-customer-data"></a>Asiakastietojen siirtäminen
 Voit siirtää aiemmin luodun asiakkaan tiedot aiemmin luodusta ERP-järjestelmästä [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmaan RapidStart Services -palvelun tietojen siirto-työkalujen avulla. Voit käyttää Excel-tiedostoja tiedonkuljettajana. Voit siirtää tiedot manuaalisesti kirjoittamalla ne suoraan yrityksen.
 
-**Siirron yleiskuvaus**- ja **Määritä työkirja** -ikkunat mahdollistavat toimintojen käyttämisen ja kaikkien tietojen siirtoon liittyvien tehtävien suorittamiseen näkymissä. On suositeltavaa siirtää yksi taulukkoo kerrallaan tietojen riippuvuuksien käsittelemiseksi. Siirrossa käytetään myös päätietotaulukoita, jotka sisältävät tietoja asiakkaista, toimittajista, nimikkeistä, kontakteista ja pääkirjanpidosta.  
+**Siirron yleiskuvaus**- ja **Määritä työkirja** -sivut mahdollistavat toimintojen käyttämisen ja kaikkien tietojen siirtoon liittyvien tehtävien suorittamiseen näkymissä. On suositeltavaa siirtää yksi taulukkoo kerrallaan tietojen riippuvuuksien käsittelemiseksi. Siirrossa käytetään myös päätietotaulukoita, jotka sisältävät tietoja asiakkaista, toimittajista, nimikkeistä, kontakteista ja pääkirjanpidosta.  
 
 ## <a name="to-import-configuration-packages"></a>Määrityspakettien tuominen
 Kun luot uuden yhtiön, voit tuoda yrityksen asetukset uudelle yritykselle. Voit tuoda asetukset .rapidstart-tiedostosta, joka toimittaa paketin sisällön pakatussa muodossa. Vastaava joukko oletustietojen siirtotaulukoita tuodaan. Tietojoukko sisältää pää- ja asetustietotaulukot. Ensimmäinen tehtäväsi tietojen siirrossa on arvioida, vastaavatko siirron oletusasetukset uuden yrityksen tarpeita.
@@ -58,9 +58,9 @@ Jos valitut taulukot eivät vastaa tarpeitasi, voit luoda uusia tietojen siirtot
 Voit luoda uuden tietojen siirron tiedostoja ja mukauttaa niitä liiketoiminnan tukemiseksi. Huomaa, että tiedostoa voi kuitenkin käyttää vain sellaisen kentän siirtämisessä, jonka **FieldClass**-ominaisuuden arvoksi on määritetty **Normaali**.  
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Määrityspaketti** ja valitse sitten liittyvä linkki.  
-2. Valitse ja avaa paketti, jota haluat käyttää tietojen siirtämisessä. Valitse sitten **Hae taulukot** -toiminto. **Hae pakettitaulukko** -ikkuna avautuu.  
+2. Valitse ja avaa paketti, jota haluat käyttää tietojen siirtämisessä. Valitse sitten **Hae taulukot** -toiminto. **Hae pakettitaulukko** -sivu avautuu.  
 3. Anna **TableID**-kentässä taulukkonumero tai valitse taulukko luettelosta, esimerkiksi taulukko 18, **Asiakas**. **Taulukon nimi** -kenttä täytetään automaattisesti.  
-4. Valitse uusi siirtotaulukko ja valitse sitten **Taulukot**-välilehdessä **Kentät**-toiminto. **Siirtokentät** -ikkuna avautuu.  
+4. Valitse uusi siirtotaulukko ja valitse sitten **Taulukot**-välilehdessä **Kentät**-toiminto. **Siirtokentät**-sivu avautuu.  
 5. Tyhjennä **Sisällytä kenttä** -valintaruutu kaikilta kentiltä, joita ei tuoda. Valitse sitten **Aseta sisällytetty**- tai **Tyhjennä sisällytetty** -toiminto.  
 
 > [!IMPORTANT]  
@@ -100,7 +100,7 @@ Seuraavissa toimenpiteissä sinun tulisi tarkastaa ennalta mitkä arvot haluat s
 4. Valitse jokaiselle yhdistettävälle kentälle **Yhdistämismääritys**-toiminto.  
 5. Kirjoita **Vanha arvo** -kenttään arvo, jota haluat muuttaa. Kirjoita **Uusi arvo** -kenttään arvo, joksi haluat muuttaa vanhan arvon. Valitse **OK**-painike.  
 6. Tuo asiakkaan tiedot. Lisätietoja on Asiakastietojen tuominen -osassa.
-7. Katso onko **Pakettivirheiden määrä** -kentässä ilmoitettu virheitä. Jos niitä on, poraudu alaspäin, jotta saat virheet näkyviin. **Määritä pakettitietueet** -ikkuna avautuu.
+7. Katso onko **Pakettivirheiden määrä** -kentässä ilmoitettu virheitä. Jos niitä on, poraudu alaspäin, jotta saat virheet näkyviin. **Määritä pakettitietueet** -sivu avautuu.
 8. Valitse **Näytä virhe** -toiminto. Näyttöön avautuu seuraava virhe: **<option> ei ole kelvollinen vaihtoehto. Kelvolliset vaihtoehdot ovat <valid option list>**. Valitse **OK**-painike.  
 9. Voit ottaa määrittämäsi yhdistämismäärityksen käyttöön valitsemalla **Käytä tietoja** -toiminnon.  
 
@@ -134,7 +134,7 @@ Kun olet vienyt siirtotaulukon, seuraava vaihe on asiakkaan vanhoja tietojen ant
 
 Jos haluat apua XML:n käytössä, ota käyttöön Excel-valintanauhan **Kehittäjä**-välilehti. Valitse sitten **Lähde**-toiminto, jos haluat nähdä siirtotaulukon XML-mallin Excelin esittämällä tavalla.
 
-Seuraavassa toimenpide perustuu Excel-taulukkoon, jonka olet luonut siirtoa varten. Lisätietoja on Siirtotaulukoiden vieminen -kohdassa.
+Seuraavassa toimenpide perustuu Excel-taulukkoon, jonka olet luonut siirtoa varten. Lisätietoja on siirtotiedostojen viennin osassa.
 
 > [!IMPORTANT]  
 > Älä muuta sarakkeita Excel-työkirjoissa. Jos niitä on siirretty, muutettu tai poistettu, laskentataulukkoa ei voi tuoda [!INCLUDE[d365fin](includes/d365fin_md.md)]iin.
@@ -151,7 +151,7 @@ Olet nyt valmis siirtämään tietojen siirto-tiedostoja, jotka sisältävät as
 ## <a name="to-import-customer-data"></a>Tuo asiakkaan tietoja
 Kun asiakkaan tiedot on syötetty siirron tiedostoihin Excelissä, voit tuoda tiedostot [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmaan.
 
-1. Avaa **Määritä pakettikortti** -ikkuna.
+1. Avaa **Määritä pakettikortti** -sivu.
 2. Valitse taulukko, johon haluat tuoda tiedot, ja valitse sitten **Taulukot**-välilehden **Tuo Excelistä** -toiminto.
 3. Etsi ja avaa tiedosto, josta haluat tuoda tiedot [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmaan.
 
@@ -163,21 +163,21 @@ Asiakkaan tiedot on tarkistettava, ennen kuin voit käyttää tietueita [!INCLUD
 > [!NOTE]  
 >  Useimmissa tapauksissa tietokantaan ei luoda virheellisiä tietoja. Sovelluksen toiminta voidaan kuitenkin joskus estää, jos tuotu siirtotaulukko sisältää virheitä.  
 
-1. Tarkista **Siirron yleiskuvaus** -ikkunan **Siirtovirheiden määrä**-kentästä tuonnin aikana tapahtuneet virheet.  
+1. Tarkista **Siirron yleiskuvaus** -sivun **Siirtovirheiden määrä**-kentästä tuonnin aikana tapahtuneet virheet.  
 2. Jos virheitä löytyy, valitse siirtotaulukko ja valitse sitten **Taulukot**-välilehden **Virheet**-toiminto. **Virheellinen**-valintaruutu on merkittynä jokaiselle tietueelle, jossa on virhe.  
 3. Tarkastele virheitä valitsemalla rivi ja valitsemalla sitten **Näytä virhe**-toiminto.  
 
     **Virheteksti**-kenttä sisältää virheen syyn. **Kentän seloste** -kenttä sisältää virheen sisältävän kentän selosteen.  
-4.  Voit korjata virheen tai tehdä päivityksen valitsemalla **Siirron yleiskuvaus** -ikkuna. Valitse **Siirtotietueet**-toiminto ja korjaa virheellinen tietue **Siirtotietueet**-ikkunassa.  
+4.  Voit korjata virheen tai tehdä päivityksen valitsemalla **Siirron yleiskuvaus** -sivu. Valitse **Siirtotietueet**-toiminto ja korjaa virheellinen tietue **Siirtotietueet**-sivulla.  
 
-Kun olet tehnyt korjauksen, tietue poistetaan tietueiden luettelosta **Tiedonsiirtovirheet**-ikkunassa.  
+Kun olet tehnyt korjauksen, tietue poistetaan tietueiden luettelosta **Tiedonsiirtovirheet**-sivulla.  
 
 Olet nyt valmis soveltamaan asiakkaan tietoja tietokantaan.  
 
 ## <a name="to-apply-customer-data"></a>Käytä asiakkaan tietoja
 Kun olet tuonut kaikki tietojen siirtotietueet, jotka ovat voimassa ja joissa ei ole virheitä, voit käyttää tietueita [!INCLUDE[d365fin](includes/d365fin_md.md)] -tietokannassa.  
 
-1. Avaa **Määrityspaketit**-ikkuna.  
+1. Avaa **Määrityspaketit**-sivu.  
 2. Valitse tietojen siirtotiedostolle taulukko, jota haluat käyttää, ja valitse sitten **Käytä tietoja** -toiminto.
 
 Näet tietokantatietueita, jotka on luotu **Tietokantatietueiden määrä** -kentässä. Varmista, että luodut tiedot olivat oikeat, valitsemalla **Tietokantatietueiden määrä** -kentän linkki.  

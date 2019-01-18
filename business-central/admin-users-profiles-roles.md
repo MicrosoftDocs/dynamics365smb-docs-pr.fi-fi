@@ -4,17 +4,14 @@ description: "Tässä ohjeaiheessa kerrotaan, miten Business Central -sovellukse
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: profiles, users
-ms.date: 10/01/2018
+ms.date: 10/24/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 1a94d023424c6eceb93af6e9ca89a90a3a94e996
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 7ecd8a5ad2b321d4d1683047e70ede90c7ce229f
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="understanding-users-profiles-and-role-centers"></a>Tietoja käyttäjistä, profiileista ja roolikeskuksista
@@ -29,6 +26,11 @@ Käyttäjiä voi lisätä [!INCLUDE[d365fin](includes/d365fin_md.md)] online -ve
 
 Tämän jälkeen järjestelmänvalvoja voi määrittää käyttöoikeudet kullekin käyttäjälle ja käyttäjäryhmälle. Lisätietoja on kohdassa [Käyttäjien ja käyttöoikeuksien hallinta](ui-how-users-permissions.md).  
 
+Käyttäjän tehokkaimmat käyttöoikeudet SUPER-käyttöoikeusjoukko. Jokaisella yrityksellä on oltava ainakin yksi käyttäjä, jolla on tämä käyttöoikeusjoukko. Parhaan käytännön mukaista on kuitenkin antaa jokaiselle käyttäjälle hänen [!INCLUDE[prodshort](includes/prodshort.md)]in käyttötarpeitaan vastaavat käyttöoikeudet. Tämä auttaa varmistamaan, että käyttäjillä on vain niiden tietojen käyttöoikeus, joita he tarvitsevat esimerkiksi työssään.  
+
+> [!TIP]
+> On parhaan käytännön mukaista varmistaa, että Office 365:n järjestelmänvalvojalla on myös [!INCLUDE[prodshort](includes/prodshort.md)]in SUPER-käyttöoikeusjoukko, koska se helpottaa hallintatehtäviä, kuten integraation määrittämistä muiden sovellusten kanssa.
+
 ### <a name="users-of-on-premises-deployments"></a>Paikallisten käyttöönottojen käyttäjät
 
 Järjestelmänvalvoja voi valita käyttäjille [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen paikallisten käyttöönottojen eri tunnistetietojen mekanismeista. Kun olet luonut käyttäjän, annat eri tietoja riippuen tunnistetiedoista, joita käytät tietyssä [!INCLUDE[server](includes/server.md)] -ilmentymässä. Lisätietoja on [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen kehittäjän ja ITPro-sisällön järjestelmänvalvojan osan [Todennus ja tunnistetietotyypit](/dynamics365/business-central/dev-itpro/administration/users-credential-types) -kohdassa.  
@@ -42,6 +44,46 @@ Profiilit ovat niiden [!INCLUDE[d365fin](includes/d365fin_md.md)] -käyttäjien 
 > [!NOTE]  
 >  Et voi lisätä, muokata tai poistaa profiileja nykyisessä [!INCLUDE[d365fin](includes/d365fin_md.md)] online -versiossa.  
 
+### <a name="CreateProfile"></a> Profiilin luonti
+
+1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Profiililuettelo** ja valitse sitten aiheeseen liittyvä linkki.  
+
+2.  Avaa **Uusi profiilikortti** -sivu valitsemalla **Profiililuettelo**-sivulla **Uusi**-toiminto.  
+
+3.  Anna **Profiilin tunnus** -kentässä nimi, joka kuvaa käyttäjien tarkoitettua roolia.  
+
+4.  Kirjoita **Kuvaus**-kenttään profiilitunnuksen kuvaus, esimerkiksi **Tilausten käsittelijä**.  
+
+5.  Määritä **Roolikeskuksen tunnus** -kenttäään profiiliin liitettävä roolikeskus.  
+
+Olemassa olevan profiilin muokkaaminen tapahtuu samalla tavalla. Ainoa ero on, että **Profiililuettelo**-sivulla valitaan olemassa oleva profiili **Uusi**-toiminnon sijaan.  
+
+
+### <a name="copy-a-profile"></a>Profiilin kopioiminen
+Profiilin kopioiminen voi säästää aikaa, jos haluat käyttää profiilissa samanlaisia asetuksia, ja haluat muuttaa vain joitakin asetuksia.
+
+1.  Avaa kopioitava profiili ja valitse sitten **Kopioi profiili** -toiminto.
+
+2.  Syötä **Uuden profiilin tunnus** -kenttään sen profiilin nimi, jonka haluat kopioida.
+
+3.  Määritä **Uuden profiilin alue** -kenttään jokin seuraavista arvoista:
+
+    - **Järjestelmä**, kun haluat määrittää uuden profiilin kaikkien sovellusta käyttävien vuokraajatietokantojen käytettäväksi.
+    - **Vuokraaja**, kun haluat määrittää profiilin vain nykyisen vuokraajatietokannan käytettäväksi.
+4. Valitse **OK**-painike, kun olet valmis.
+
+### <a name="ExportImportProfile"></a>Profiilien vienti ja tuonti
+
+Voit viedä profiileja XML-tiedostoina [!INCLUDE[d365fin](includes/d365fin_md.md)] -tietokantaan ja tuoda niitä tietokannasta. Profiilin vieminen ja tuominen voi säästää aikaa, kun määrität käyttöliittymää. Voit käyttää aiemmin luotua profiilimääritystä sen sijaan, että määrittäisit profiilin alusta alkaen. Jos profiili on määritetty [!INCLUDE[d365fin](includes/d365fin_md.md)] -tietokannassa ja haluat käyttää sen tai osan samasta profiilimäärityksestä uudelleen toisessa tietokannassa, voit viedä profiilin XML-tiedostoon. Tämän jälkeen voit tuoda profiilin XML-tiedoston toiseen tietokantaan.
+
+-   Voit viedä profiilin joko valitsemalla **Vie profiilit** -toiminto **Profiililuettelo**- tai **Profiilikortti**-sivulla tai etsimällä sen ja avaamalla **Vie profiilit** -sivun. Tallenna XML-tiedosto tietokoneelle tai verkkoon.
+
+-   Voit tuoda profiilin joko valitsemalla **Tuo profiilit** -toiminto **Profiililuettelo**-sivulla tai etsimällä sen ja avaamalla **Tuo profiilit** -sivun. 
+
+    > [!NOTE]  
+    >  Et voi tuoda profiilia, joka on jo tietokannassa, vaikka XML-tiedosto olisi eriniminen tai sillä olisi eri sisältö. Poista olemassa oleva profiili ennen kuin tuot uuden profiilin.
+
+
 ## <a name="configuration-and-personalization"></a>Kokoonpano ja mukautus
 <!--The concept of UI customization in [!INCLUDE[d365fin](includes/d365fin_md.md)] is divided in two:  
 
@@ -50,6 +92,7 @@ Profiilit ovat niiden [!INCLUDE[d365fin](includes/d365fin_md.md)] -käyttäjien 
 -   Personalization, performed by users  
 
 The administrator configures the user interface for multiple users by customizing the user interface for a profile that the users are assigned to.  -->
+
 Käyttäjät voivat mukauttaa henkilökohtaisen versionsa käyttöliittymää mukauttamalla käyttöliittymää oman kirjautumistunnuksensa osalta. Järjestelmänvalvoja voi poistaa tämän mukautuksen. Lisätietoja on kohdassa [Työtilan mukauttaminen](ui-personalization-user.md).  
 
 ## <a name="see-also"></a>Katso myös  

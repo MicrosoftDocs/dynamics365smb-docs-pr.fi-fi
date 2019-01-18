@@ -11,10 +11,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 34262b070ea19b5f109c9194d6a91ef048132e6b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 319a59c865b7883cf7de5c35d9ebce5c30de0f76
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-opportunity-sales-cycles-and-cycle-stages"></a>Mahdollisuuden myyntisyklien ja syklin vaiheiden määrittäminen
@@ -25,13 +25,13 @@ Mahdollisuuden myyntisyklien ottaminen käyttöön sisältää myyntisyklin mä�
 Tässä ohjeaiheessa kerrotaan, miten tehtävät ja toiminnot määritetään ja miten toiminnoille määritetään tehtäviä. Lisätietoja on kohdassa Tehtäviä sisältävien toimintojen määrittäminen.
 
 ## <a name="to-set-up-opportunity-sales-cycle-codes"></a>Mahdollisuuden myyntisyklin koodien määrittäminen
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntisyklit** ja valitse sitten liittyvä linkki. Kaikki olemassa olevat myyntisyklit sisältävä **Myyntisyklit**-ikkuna avautuu.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntisyklit** ja valitse sitten liittyvä linkki. Kaikki olemassa olevat myyntisyklit sisältävä **Myyntisyklit**-sivu avautuu.
 2. Valitse **Uusi**-toiminto ja täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Toista nämä vaiheet ja luo niin monta myyntijaksoa kuin haluat. Kun olet määrittänyt mahdollisuuden myyntikoodit, haluat ehkä määrittää kunkin syklin eri vaiheet.
 
 ## <a name="to-define-opportunity-sales-cycle-stages"></a>Mahdollisuuden myyntisyklin vaiheiden määrittäminen
-1. Valitse **Myyntisyklit**-ikkunassa mahdollisuuden myyntisykli, jolle haluat määrittää vaiheet. Valitse sitten **Vaiheet**-toiminto. **Myyntisyklin vaiheet** -ikkuna avautuu.
+1. Valitse **Myyntisyklit**-sivulla mahdollisuuden myyntisykli, jolle haluat määrittää vaiheet. Valitse sitten **Vaiheet**-toiminto. **Myyntisyklin vaiheet** -sivu avautuu.
 2. Valitse **Uusi**-toiminto, kun haluat syöttää myyntisykliin uuden vaiheen.
 
 Toista nämä vaiheet ja määritä myyntisyklille niin monta vaihetta kuin haluat.
@@ -54,13 +54,13 @@ Kun ole määrittänyt tehtävän, voit määrittää sen myyntimahdollisuudelle
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Mahdollisuudet** ja valitse sitten liittyvä linkki.
 2. Valitse ensin mahdollisuus ja sitten **Tehtävät**-toiminto.
-3. Valitse **Tehtäväluettelo**-ikkunassa **Luo tehtävä** -toiminto.
-4.  Täytä **Luo tehtävä** -ikkunassa tarvittavat kentät.
+3. Valitse **Tehtäväluettelo**-sivulla **Luo tehtävä** -toiminto.
+4.  Täytä **Luo tehtävä** -sivulla tarvittavat kentät.
 
     Huomaa, että **Mahdollisuus**-kenttä on määritetty automaattisesti kyseiselle mahdollisuudelle.
 5. Valitse **OK**-painike.
-6. Valitse **Tehtäväluettelo**-ikkunassa ensin uusi tehtävä ja sitten **Määritä aktiviteetit** -toiminto.
-7. Täytä **Määritä aktiviteetti** -ikkunassa tarvittavat kentät ja valitse sitten **OK**-painike.
+6. Valitse **Tehtäväluettelo**-sivulla ensin uusi tehtävä ja sitten **Määritä aktiviteetit** -toiminto.
+7. Täytä **Määritä aktiviteetti** -sivulla tarvittavat kentät ja valitse sitten **OK**-painike.
 
 ## <a name="see-also"></a>Katso myös
 [Myyntimahdollisuuksien käsitteleminen](marketing-processing-sales-opportunities.md)  

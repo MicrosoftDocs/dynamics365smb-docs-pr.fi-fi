@@ -13,10 +13,10 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f0bdc88cb2d52ed8e1558fb140f904f792e539ff
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: c8f086e0dc7479ece62ab28b64f9553ba2d13b82
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="close-accounting-periods"></a>Kirjanpitojakson päättäminen
@@ -24,7 +24,7 @@ Kun tilikausi on ohi, sinun täytyy päättää tilikauteen sisältyvät kirjanp
 
 ## <a name="to-close-accounting-periods"></a>Kirjanpitojakson päättäminen
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kirjanpitojaksot** ja valitse sitten liittyvä linkki.
-2. Valitse **Kirjanpitojaksot**-ikkunassa **Sulje vuosi** -toiminto.
+2. Valitse **Kirjanpitojaksot**-sivulla **Sulje vuosi** -toiminto.
 
     Jos avoinna on useita tilikausia, niistä valitaan automaattisesti ensimmäinen suljettavaksi. Näyttöön tulee sanoma, jossa näkyy suljettava kausi ja jossa selostetaan sulkemisen seuraukset.
 3. Sulje vuosi valitsemalla **Kyllä** -painike.

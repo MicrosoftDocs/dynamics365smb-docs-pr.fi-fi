@@ -8,26 +8,27 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 05/15/2018
+ms.date: 11/23/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 4bc9199b879c23115082b07a81d6da5a0b46e60d
-ms.openlocfilehash: 00e0d0a131b586d3aee39b3d08064defff81814a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: c7f0af8d3535f558567cd40c841909cd151ce313
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/31/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="add-clients-to-your-dashboard-in-include-d365acclongincludesd365acclongmdmd"></a>Asiakkaiden lisääminen koontinäyttöön [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)] -sovelluksessa
 [!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]
 
-Voit lisätä asiakkaan **Asiakkaat**-ikkunassa, jonka voit avata valitsemalla **Hallitse asiakkaita** -toiminnon valintanauhassa. Valitse vain **Uusi** ja täytä sitten tarvittavat kentät.  
+Voit lisätä asiakkaan **Asiakkaat**-sivulla, jonka voit avata valitsemalla **Hallitse asiakkaita** -toiminnon valintanauhassa. Valitse vain **Uusi** ja täytä sitten tarvittavat kentät.  
 
-![Asiakkaan lisääminen](./media/accountant-add-client/manage-client.png)
+> [!div class="mx-imgBorder"]
+> ![Asiakkaan lisääminen](./media/accountant-add-client/manage-client.png)
 
 Kunkin asiakaskortin tiedot määrität sinä itse, ja voit myös muuttaa niitä tarvittaessa. **Asiakkaan URL-osoite** -kenttä on kuitenkin erityisen tärkeä – sitä tarvitaan asiakkaan [!INCLUDE [d365fin](includes/d365fin_md.md)]iin pääsyyn. Valintanauhan **Tarkista asiakkaan URL-osoite** -toiminnon avulla voit tarkistaa, että linkki on annettu oikein. URL-osoite, joka on syötettävä, osoittaa asiakkaan [!INCLUDE [d365fin](includes/d365fin_md.md)] -sovellukseen ja sisältää tämän toimialueen osoitteen. Jos toimialueeksi on määritetty esimerkiksi MyBusiness.com, linkki [!INCLUDE [d365fin](includes/d365fin_md.md)] -sovellukseen on *https://businesscentral.dynamics.com/mybusiness.com?redirectedfromsignup=1*.  
 
 > [!NOTE]
->  Ennen toikokuun 2018 päivitystä määritetyn URL-osoitteen alussa olevan asiakkaan yrityksen nimen muoto oli erilainen. Toukokuun 2018 päivityksen jälkeen muoto on ```https://businesscentral.dynamics.com/clientdomain?redirectedfromsignup=1```, jossa ```clientdomain``` edustaa asiakkaan toimialuetta.  
+>  Ennen toikokuun 2018 päivitystä määritetyn URL-osoitteen alussa olevan asiakkaan yrityksen nimen muoto oli erilainen. Nykyisessä [!INCLUDE [d365fin](includes/d365fin_md.md)] -versiossa muoto on ```https://businesscentral.dynamics.com/clientdomain?redirectedfromsignup=1```, jossa ```clientdomain``` viittaa asiakkaan toimialueeseen.  
 
 Asiakkaan URL-osoitetta käytetään, kun valitset **Siirry yritykseen** -valikkovaihtoehdon [!INCLUDE [d365acc](includes/d365acc_md.md)] -koontinäytössä.  
 

@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 4eddb7fb118f7e410448cebf4497857532f936db
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 651ec85ead0859b5be34e624c47331292958e4db
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Vaihekuvaus: Vastaanotto ja hyllytys laajennetuissa varastomäärityksissä
@@ -32,7 +32,7 @@ Lisätietoja on kohdassa [Rakennetiedot: Saapuvan fyysisen varastoinnin virta](d
 Seuraavassa vaihekuvauksessa kuvataan edellisen taulukon menetelmää D.  
 
 ## <a name="about-this-walkthrough"></a>Tietoja tästä vaihekuvauksesta  
-Jos sijainti on määritetty laajennetuissa varastomäärityksissä edellyttämään vastaanoton käsittelyä hyllytyksen käsittelyn lisäksi, sinun on tallennettava ja kirjattava useiden saapuvien tilausten nimikkeiden vastaanotto **F. varastoinnin vastaanotto** -ikkunassa. Kun fyysisen varastoinnin vastaanotto kirjataan, yksi tai useampia fyysisen varaston hyllytysasiakirjoja luodaan opastamaan varastotyöntekijöitä ottamaan vastaanotetut nimikkeet ja asettamaan ne osoitetuille paikoille varastopaikan asetusten mukaisesti tai muihin varastopaikkoihin. Nimikkeiden tarkka sijoitus tallennetaan, kun varastoinnin hyllytys rekisteröidään. Saapuva lähdeasiakirja voi olla ostotilaus, myyntipalautustilaus, saapuva siirtotilaus, kokoonpano tai tuotantotilaus jonka tuotos odottaa hyllytystä. Jos vastaanotto on luotu saapuvasta tilauksesta, kuitille voidaan noutaa useampia kuin yksi saapuva lähdeasiakirja. Tällä menetelmällä voit rekisteröidä useita kohteita eri tulevista tilauksista yhdellä vastaanotolla.  
+Jos sijainti on määritetty laajennetuissa varastomäärityksissä edellyttämään vastaanoton käsittelyä hyllytyksen käsittelyn lisäksi, sinun on tallennettava ja kirjattava useiden saapuvien tilausten nimikkeiden vastaanotto **F. varastoinnin vastaanotto** -sivulla. Kun fyysisen varastoinnin vastaanotto kirjataan, yksi tai useampia fyysisen varaston hyllytysasiakirjoja luodaan opastamaan varastotyöntekijöitä ottamaan vastaanotetut nimikkeet ja asettamaan ne osoitetuille paikoille varastopaikan asetusten mukaisesti tai muihin varastopaikkoihin. Nimikkeiden tarkka sijoitus tallennetaan, kun varastoinnin hyllytys rekisteröidään. Saapuva lähdeasiakirja voi olla ostotilaus, myyntipalautustilaus, saapuva siirtotilaus, kokoonpano tai tuotantotilaus jonka tuotos odottaa hyllytystä. Jos vastaanotto on luotu saapuvasta tilauksesta, kuitille voidaan noutaa useampia kuin yksi saapuva lähdeasiakirja. Tällä menetelmällä voit rekisteröidä useita kohteita eri tulevista tilauksista yhdellä vastaanotolla.  
 
 Tässä vaihekuvauksessa käsitellään seuraavia tehtäviä.  
 
@@ -55,8 +55,8 @@ Tämän vaihekuvauksen ohjeiden noudattamisen edellytykset:
 -   CRONUS Finland Oy on asennettu.  
 -   Voit tehdä itsestäsi fyysisen varaston työntekijän VALKOISESSA sijainnissa tekemällä seuraavat toimet:  
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varaston työntekijät** ja valitse sitten liittyvä linkki.  
-2.  Valitse ensin **Käyttäjätunnus**-kenttä ja valitse oma käyttäjätilisi **Käyttäjät**-ikkunassa.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Varaston työntekijät** ja valitse sitten liittyvä linkki.  
+2.  Valitse ensin **Käyttäjätunnus**-kenttä ja valitse oma käyttäjätilisi **Käyttäjät**-sivulla.  
 3.  Kirjoita **Sijaintikoodi**-kenttään VALKOINEN.  
 4.  Valitse **Oletus**-kenttä.  
 
@@ -64,7 +64,7 @@ Tämän vaihekuvauksen ohjeiden noudattamisen edellytykset:
 Ellen on CRONUS Finland Oy:n varastopäällikkö, ja hän luo kaksi ostotilausta lisänimikkeille toimittajilta 10 000 ja 20 000 toimitettavaksi VALKOISEEN varastoon. Kun toimitukset saapuvat fyysiseen varastoon, toimittajien 10000 ja 20000 nimikkeiden vastaanottamisesta vastaava Sammy käyttää suodatinta luomaan vastaanoton rivejä ostotilauksille, jotka saapuvat kahdelta toimittajalta. Sammy kirjaa nimikkeet vastaanotetuiksi varastossa yhteen fyysisen varastoinnin vastaanottoon ja asettaa kohteet käytettäviksi myyntiin tai muuhun kysyntään. Varastotyöntekijä Juha ottaa nimikkeet vastaanottavasta varastopaikasta ja hyllyttää ne. Hän sijoittaa kaikki yksiköt oletusvarastopaikkoihin, lukuun ottamatta neljääkymmentä sadasta vastaanotetusta saranasta, jotka hän hyllyttää kokoonpano-osastolle jakamalla hyllytyksen rivin. Kun Juha rekisteröi hyllytyksen, varastopaikan sisältö päivitetään ja nimikkeet tuodaan varastosta keräiltäviksi.  
 
 ## <a name="reviewing-the-white-location-setup"></a>Tarkistaa VALKOINEN-sijainnin asetuksia  
-**Sijaintikortti**-ikkunan asetuksissa määritellään yrityksen varaston työnkulut.  
+**Sijaintikortti**-sivun asetuksissa määritellään yrityksen varaston työnkulut.  
 
 ### <a name="to-review-the-location-setup"></a>Sijainnin asetusten tarkistaminen  
 
@@ -111,7 +111,7 @@ Ostotilaukset ovat yleisin saapuvien lähdeasiakirjojen tyyppi.
     VALKOINEN-varastoon on saapunut nimikkeiden toimitukset toimittajilta 10000 ja 20000, ja Sammy alkaa käsitellä ostovastaanottoja.  
 
 ## <a name="receiving-the-items"></a>Nimikkeiden vastaanotto  
-Voit hallita **F. varastoinnin vastaanotto** -ikkunassa useita lähdeasiakirjojen, kuten ostotilausten, saapuvia tilauksia.  
+Voit hallita **F. varastoinnin vastaanotto** -sivulla useita lähdeasiakirjojen, kuten ostotilausten, saapuvia tilauksia.  
 
 ### <a name="to-receive-the-items"></a>Nimikkeiden vastaanotto  
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Fyysisen varaston vastaanotot** ja valitse sitten liittyvä linkki.  
@@ -122,14 +122,14 @@ Voit hallita **F. varastoinnin vastaanotto** -ikkunassa useita lähdeasiakirjoje
 6.  Kirjoita **Kuvaus**-kenttään **Toimittajat 10000 ja 20000**.  
 7.  Valitse **Muokkaa**-toiminto.  
 8.  Anna **Osto**-pikavälilehden **Tavarantoimittajan nrosuodatus** -kentässä **10000&#124;20000**.  
-9. Valitse **Aja**-toiminto. Fyysisen varastoinnin vastaanottoon tulee neljä riviä, jotka edustavat määritettyjen toimittajien ostotilausrivejä. **Vastaanotettava määrä** -kenttä on täytetty, koska et valinnut **Älä täytä käsiteltävää määrää** -valintaruutua **Suod. lähdeasiakirj. saamisek.** -ikkunassa.  
+9. Valitse **Aja**-toiminto. Fyysisen varastoinnin vastaanottoon tulee neljä riviä, jotka edustavat määritettyjen toimittajien ostotilausrivejä. **Vastaanotettava määrä** -kenttä on täytetty, koska et valinnut **Älä täytä käsiteltävää määrää** -valintaruutua **Suod. lähdeasiakirj. saamisek.** -sivulla.  
 10. Jos puolestaan haluat käyttää suodatinta aiemmin tässä osassa kuvatulla tavalla, valitse ensin **Hae lähdeasiakirja** -toiminto ja sitten kyseisten toimittajien ostotilaukset.  
 11. Valitse ensin **Kirjaa vast.otto** -toiminto ja sitten **Kyllä**.  
 
     Luodaan positiivisia nimiketapahtumia, jotka heijastavat kirjattuja apuohjelmien tavaran vastaanottoja toimittajilta 10000 ja 20000, ja nimikkeet ovat valmiita hyllyttäviksi vastaanoton varastopaikan varastossa.  
 
 ## <a name="putting-the-items-away"></a>Nimikkeiden hyllyttäminen  
-Voit hallita **Kirjaa vast.otto** -ikkunassa tietyn, useita lähdeasiakirjoja kattavan fyysisen varastoinnin vastaanoton asiakirjan hyllytyksiä. Kuten kaikkia fyysisen varaston toimintojen asiakirjoja, kutakin varaston hyllytyksen nimikettä edustaa Ota-rivi ja Aseta-rivi. Seuraavassa menettelyssä Ota-rivien varastopaikkakoodi on oletusarvoinen vastaanoton varastopaikka VALKOINEN-sijainnissa, W-08-0001.  
+Voit hallita **Kirjaa vast.otto** -sivulla tietyn, useita lähdeasiakirjoja kattavan fyysisen varastoinnin vastaanoton asiakirjan hyllytyksiä. Kuten kaikkia fyysisen varaston toimintojen asiakirjoja, kutakin varaston hyllytyksen nimikettä edustaa Ota-rivi ja Aseta-rivi. Seuraavassa menettelyssä Ota-rivien varastopaikkakoodi on oletusarvoinen vastaanoton varastopaikka VALKOINEN-sijainnissa, W-08-0001.  
 
 ### <a name="to-put-the-items-away"></a>Nimikkeiden hyllyttäminen  
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Hyllytykset** ja valitse sitten liittyvä linkki.  
@@ -139,7 +139,7 @@ Voit hallita **Kirjaa vast.otto** -ikkunassa tietyn, useita lähdeasiakirjoja ka
 
     Varastotyöntekijälle ilmoitetaan, että kokoonpano-osastolle tarvitaan 40 saranaa. Hän jakaa yhden Aseta-rivin määrittääkseen toisen Aseta-rivin lokerolle W-02-0001 kokoonpano-osastolla, johon hän asettaa vastaanotettujen saranoiden osan.  
 
-3.  Valitse **F.varastoinnin hyllytys** -ikkunassa toinen rivi, joka on nimikkeen 70200 Aseta-rivi.  
+3.  Valitse **F.varastoinnin hyllytys** -sivulla toinen rivi, joka on nimikkeen 70200 Aseta-rivi.  
 4.  Muuta **Käsiteltävä määrä** -kentän 100 arvoksi 60.  
 5.  Valitse **Rivit**-pikavälilehdessä **Toiminnot** ja valitse sitten **Jaa rivi**. **Käsiteltävä määrä** -kentässä nimikkeelle 70200 lisätään uusi rivi, jossa on arvo 40.  
 6.  Kirjoita **Varastopaikkakoodi**-kenttään W-02-0001. **Aluekoodi**-kenttä täytetään automaattisesti.  

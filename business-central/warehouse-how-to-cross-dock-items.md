@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 1ac3aab6063abc247e05b4ae966ee6b99e81bf23
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 8cf67f83434f135226eaa677cd64d86090a0ab0f
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="cross-dock-items"></a>Nimikkeiden laiturointi
@@ -44,7 +44,7 @@ Ohjelma ei ylläpidä erillisiä tietueita nimikkeistä, jotka on laituroitu, va
     Jos käytät alueita, luo alue laiturointivarastopaikoille ja valitse **Laiturointivar.paikan alue** -kenttä. Lisätietoja on kohdassa [Sijaintien määrittäminen varastopaikkojen käyttämistä varten](warehouse-how-to-set-up-locations-to-use-bins.md).  
 
 2.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sijainti** ja valitse sitten liittyvä linkki.  
-3.  Valitse **Sijainti**-ikkunassa ensin sijainti, jolle haluat määrittää fyysisen varaston laiturointia varten ja sitten **Muokkaa**-toiminto.  
+3.  Valitse **Sijainti**-sivulla ensin sijainti, jolle haluat määrittää fyysisen varaston laiturointia varten ja sitten **Muokkaa**-toiminto.  
 4.  Valitse **Fyysinen varasto** -pikavälilehdessä **Käytä laiturointia** -valintaruutu ja täytä **Laituroinnin eräpvm lask.** -kenttään jakso, jonka ajalta laiturointimahdollisuuksia etsitään.
 
     **Käytä laiturointia** -vaihtoehto on käytettävissä vain, jos **Vaadi vastaanotto**-, **Vaadi toimitus**-, **Vaadi poiminta**- ja **Vaadi hyllytys** -kenttiin on asetettu valintamerkki.  
@@ -52,7 +52,7 @@ Ohjelma ei ylläpidä erillisiä tietueita nimikkeistä, jotka on laituroitu, va
 5.  Jos käytät varastopaikkoja, täytä sijaintikortin **Varastopaikat**-pikavälilehden **Laiturointivar.paikan koodi** -kenttään sen varastopaikan koodi, jota haluaisit käyttää oletusarvoisena laiturointivarastopaikkana.  
 6.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varastointiyksikkö** ja valitse sitten liittyvä linkki.  
 7.  Valitse kunkin laituroitavan nimikkeen tai varastointiyksikön kohdalla ensin nimike ja sitten **Muokkaa**-toiminto.
-8. Valitse **Varastointiyksikön kortti** -ikkunassa **Käytä laiturointia** -valintaruutu.  
+8. Valitse **Varastointiyksikön kortti** -sivulla **Käytä laiturointia** -valintaruutu.  
 
 > [!NOTE]  
 >  Laiturointi on mahdollista sijainnissa vain, jos sijainnissa on määritetty fyysisen varastoinnin vastaanoton ja hyllytyksen käsittely pakolliseksi.  
@@ -81,10 +81,10 @@ Ohjelma ei ylläpidä erillisiä tietueita nimikkeistä, jotka on laituroitu, va
     Haluat tarkastella lähdeasiakirjan rivejä, joilla pyydetään nimikettä, ennen vastaanoton kirjaamista.  
 3.  Valitse **Laske laiturointi** -toiminto.  
 
-    **Laiturointimahdollisuudet**-ikkuna sisältää tärkeimmät tiedot riveistä, joilla pyydetään nimikettä. Näitä tietoja ovat esimerkiksi asiakirjan tyyppi, pyydetty määrä ja eräpäivä. Näiden tietojen avulla voit päättää, kuinka paljon laituroidaan, mihin nimikkeet sijoitetaan laiturointialueella tai miten niitä ryhmitellään.  
+    **Laiturointimahdollisuudet**-sivu sisältää tärkeimmät tiedot riveistä, joilla pyydetään nimikettä. Näitä tietoja ovat esimerkiksi asiakirjan tyyppi, pyydetty määrä ja eräpäivä. Näiden tietojen avulla voit päättää, kuinka paljon laituroidaan, mihin nimikkeet sijoitetaan laiturointialueella tai miten niitä ryhmitellään.  
 
 4.  Valitsemalla **Täytä laiturointimäärä automaattisesti** toiminnot, näet, vastaanottorivien määrät lasketaan. Kun muutat nimikkeiden määrää **Laituroitava määrä** -kentässä jokaisella rivillä, laskelma päivitetään, kun teet muutoksia. Tämä ei tarkoita sitä, että tietty toimitus tai tuotantotilaus tosiasiassa vastaanottaa laituroitaviksi ehdotetut nimikkeet, koska tämä menettely on tarkoitettu vain testaamista varten. Prosessista voi kuitenkin olla hyötyä useita mittayksikköjä käytettäessä.  
-5.  Jos haluat varata nimikemäärän tietylle tilausriville, siirrä osoitin kyseiselle riville ja valitse **Varaa**-toiminto. Voit nyt varata **Varaus**-ikkunassa nimikettä tilaukseen saatavilla olevan määrän. Tämä varaus on kuin mikä tahansa muu varaus, eikä sillä ole suurempaa prioriteettia, koska se luotiin laituroinnin yhteydessä. Lisätietoja on kohdassa [Nimikkeiden varaaminen](inventory-how-to-reserve-items.md).   
+5.  Jos haluat varata nimikemäärän tietylle tilausriville, siirrä osoitin kyseiselle riville ja valitse **Varaa**-toiminto. Voit nyt varata **Varaus**-sivulla nimikettä tilaukseen saatavilla olevan määrän. Tämä varaus on kuin mikä tahansa muu varaus, eikä sillä ole suurempaa prioriteettia, koska se luotiin laituroinnin yhteydessä. Lisätietoja on kohdassa [Nimikkeiden varaaminen](inventory-how-to-reserve-items.md).   
 6.  Kun olet saanut uudelleenlaskennan tai varaamisen valmiiksi, tuo korjattu laskennan vastaanottorivi **Laituroitava määrä** -kenttään valitsemalla **OK** tai valitse **Peruuta**, jos haluat palata fyysisen varastoinnin vastaanottoon, jossa voit laskea laituroinnin uudelleen.  
 7.  Kirjaa nyt vastaanotto, niin voit jatkaa hyllytysohjeeseen osan ”Nimikkeiden laituroiminen ilman mahdollisuuksien tarkastelua” vaiheissa 3 - 7.  
 

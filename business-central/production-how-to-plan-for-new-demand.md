@@ -1,6 +1,6 @@
 ---
 title: Tilauskohtainen suunnittelu | Microsoft Docs
-description: "Tämä suunnittelutehtävä voidaan suorittaa **Tilauksen suunnittelu** -ikkunassa, jossa näkyvät kaikki uusi kysyntä, saatavuustiedot sekä tarjontaa koskevat ehdotukset. Ikkunan tietojen ja työkalujen avulla voidaan suunnitella tehokkaasti myynti- ja komponenttirivien synnyttämä kysyntä sekä luoda erityyppisiä toimitustilauksia suoraan."
+description: "Tämä suunnittelutehtävä voidaan suorittaa **Tilauksen suunnittelu** -sivulla, jossa näkyvät kaikki uusi kysyntä, saatavuustiedot sekä tarjontaa koskevat ehdotukset. Ikkunan tietojen ja työkalujen avulla voidaan suunnitella tehokkaasti myynti- ja komponenttirivien synnyttämä kysyntä sekä luoda erityyppisiä toimitustilauksia suoraan."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,30 +13,30 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e2e937aee7defcc5226a3238652f88261004920c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: cee1e18d0c6c7fd8b37815d44c35f91ef5ef227c
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="plan-for-new-demand-order-by-order"></a>Uuden kysynnän tilauskohtainen suunnittelu
-Tämä suunnittelutehtävä voidaan suorittaa **Tilauksen suunnittelu** -ikkunassa, jossa näkyvät kaikki uusi kysyntä, saatavuustiedot sekä tarjontaa koskevat ehdotukset. Ikkunan tietojen ja työkalujen avulla voidaan suunnitella tehokkaasti myynti- ja komponenttirivien synnyttämä kysyntä sekä luoda erityyppisiä toimitustilauksia suoraan.  
+Tämä suunnittelutehtävä voidaan suorittaa **Tilauksen suunnittelu** -sivulla, jossa näkyvät kaikki uusi kysyntä, saatavuustiedot sekä tarjontaa koskevat ehdotukset. Ikkunan tietojen ja työkalujen avulla voidaan suunnitella tehokkaasti myynti- ja komponenttirivien synnyttämä kysyntä sekä luoda erityyppisiä toimitustilauksia suoraan.  
 
-Voit siirtyä **Tilauksen suunnittelu** -ikkunaan kahdella tavalla kohdistuksen mukaan: tilauksesta, jonka nimenomaisesti haluat suunnitella, tai erätilasta, koska haluat suunnitella kaikkea uutta kysyntää varten.  
+Voit siirtyä **Tilauksen suunnittelu** -sivulle kahdella tavalla kohdistuksen mukaan: tilauksesta, jonka nimenomaisesti haluat suunnitella, tai erätilasta, koska haluat suunnitella kaikkea uutta kysyntää varten.  
 
 
 ## <a name="to-plan-for-new-production-order-demand"></a>Suunnittele uuden tuotantotilauksen kysyntä  
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Suunnitellut tuotantotilaukset** ja valitse sitten liittyvä linkki. (Voit suorittaa nämä suunnitellun, sitovan suunnittelun tai vapautetun tuotantotilauksen vaiheet.)
 2.  Avaa suunniteltava tuotantotilaus ja valitse **Suunnittelu**-toiminto.  
-3.  Valitse **Tilauksen suunnittelu** -ikkunassa **Laske suunnitelma** -toiminto.  
+3.  Valitse **Tilauksen suunnittelu** -sivulla **Laske suunnitelma** -toiminto.  
 
-Ikkunassa näkyvät suunnittelurivit on suodatettu  **Tuotantokysyntä**-suodatuksella – toisin sanoen ikkunassa näkyvät kaikkien tuotantotilausten täyttämätöntä kysyntää sisältävät komponenttirivit. Järjestelmä ei näytä ainoastaan käsiteltävän tuotantotilauksen kysyntää, sillä on riskialtista suunnitella tuotantotilaus ilman käsitystä mahdollisten aikaisempien komponenttirivien kysynnästä. Käsiteltävän tuotantotilauksen suunnittelurivit on laajennettu.  
+Sivulla näkyvät suunnittelurivit on suodatettu **Tuotantokysyntä**-suodatuksella – toisin sanoen sivulla näkyvät kaikkien tuotantotilausten täyttämätöntä kysyntää sisältävät komponenttirivit. Järjestelmä ei näytä ainoastaan käsiteltävän tuotantotilauksen kysyntää, sillä on riskialtista suunnitella tuotantotilaus ilman käsitystä mahdollisten aikaisempien komponenttirivien kysynnästä. Käsiteltävän tuotantotilauksen suunnittelurivit on laajennettu.  
 
 ## <a name="to-plan-for-any-new-demand"></a>Kaiken uuden kysynnän suunnitteleminen  
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tilauksen suunnittelu** ja valitse sitten liittyvä linkki.  
-2.  Valitse **Tilauksen suunnittelu** -ikkunassa **Laske suunnitelma** -toiminto.
+2.  Valitse **Tilauksen suunnittelu** -sivulla **Laske suunnitelma** -toiminto.
 3.  Napsauta **Kysyntäpvm**-kentän päivämäärän edellä olevaa **Laajenna (+)**-painiketta, niin saat näkyviin kaikki suunnittelurivit, jotka vastaavat täyttämätöntä kysyntää sisältäviä kysyntärivejä.  
-4.  Ikkunan alaosassa on tietokenttiä, joissa on kutakin laajennettua suunnitteluriviä (kysyntäriviä) koskevia tietoja:  
+4.  Sivun alaosassa on tietokenttiä, joissa on kutakin laajennettua suunnitteluriviä (kysyntäriviä) koskevia tietoja.  
 
     |Asetus|Description|  
     |----------------------------------|---------------------------------------|  
@@ -62,12 +62,12 @@ Ikkunassa näkyvät suunnittelurivit on suodatettu  **Tuotantokysyntä**-suodatu
 
 6.  Voit etsiä **Tarjonta kohteesta** -kentässä luettelon ja valita kohteen, josta tarjonta tulee:  
 
-    - Jos täydennysjärjestelmä on **Osto**, kentän hakupainike etsii arvon **Nimikkeen toimittajaluettelo** -ikkunasta.  
-    - Jos täydennysjärjestelmä on **Siirto**, kentän hakupainike etsii arvon **Sijaintiluettelo**-ikkunasta.  
+    - Jos täydennysjärjestelmä on **Osto**, kentän hakupainike etsii arvon **Nimikkeen toimittajaluettelo** -sivulta.  
+    - Jos täydennysjärjestelmä on **Siirto**, kentän hakupainike etsii arvon **Sijaintiluettelo**-sivulta.  
 
     Jos nimikettä on toisessa sijainnissa, ikkunan alaosan **Siirtoon saatavilla** -kentässä on arvo. Voit tällöin valita sijainnin, josta nimikettä toimitetaan, kun teet siirtotilauksen.  
 
-    Jos tarvittavalle nimikkeelle on olemassa korvaava nimike, ikkunan alaosan **Korvaavia olemassa** -kentässä lukee **Kyllä** ja korvaava nimike voidaan etsiä ja valita **Nimikekorvaustapahtumat**-ikkunasta.  
+    Jos tarvittavalle nimikkeelle on olemassa korvaava nimike, sivun alaosan **Korvaavia olemassa** -kentässä lukee **Kyllä** ja korvaava nimike voidaan etsiä ja valita **Nimikekorvaustapahtumat**-sivulta.  
 
 7.  Lisää **Varaa**-kenttään valintamerkki, jos haluat tehdä varauksen parhaillaan luotavan toimitustilauksen ja kysynnän luoneen kysyntärivin (myyntirivin tai komponenttirivin) välille. Kenttä on oletusarvoisesti tyhjä.  
 
@@ -75,11 +75,11 @@ Ikkunassa näkyvät suunnittelurivit on suodatettu  **Tuotantokysyntä**-suodatu
     >  Valintamerkki voidaan lisätä vain, jos nimikkeen kortin **Varaa**-kentässä on arvo **Valinnainen** tai **Aina**.  
 
 8.  **Tilattava määrä** -kenttään voit antaa määrän, joka siirretään luotavaan toimitustilaukseen.   
-    Kentässä on oletusarvona on sama määrä kuin **Tarvittu määrä** -kentässä. Nimikettä voidaan kuitenkin tilata enemmän tai vähemmän sen mukaan, mitä tiedetään yleisestä kysyntätilanteesta. Jos esimerkiksi huomaat **Tilauksen suunnittelu** -ikkunassa, että samalle ostonimikkeelle on useita toisiinsa liittymättömiä kysyntärivejä, jotka ovat erääntymässä samoihin aikoihin, voit yhdistää rivit määrittämällä tarvittavan kokonaismäärän yhden rivin **Tilattava määrä** -kenttään ja poistamalla muut nimikkeen suunnittelurivit.  
+    Kentässä on oletusarvona on sama määrä kuin **Tarvittu määrä**-kentässä. Nimikettä voidaan kuitenkin tilata enemmän tai vähemmän sen mukaan, mitä tiedetään yleisestä kysyntätilanteesta. Jos esimerkiksi huomaat **Tilauksen suunnittelu**-sivulla, että samalle ostonimikkeelle on useita toisiinsa liittymättömiä kysyntärivejä, jotka ovat erääntymässä samoihin aikoihin, voit yhdistää rivit määrittämällä tarvittavan kokonaismäärän yhden rivin **Tilattava määrä** -kenttään ja poistamalla muut nimikkeen suunnittelurivit.  
 
 9.  **Eräpäivä**- ja **Tilauspvm**-kenttiin voit antaa päivämäärät, joita käytetään luoduissa toimitustilauksissa.  
 
-    Nämä kaksi kenttää liittyvät toisiinsa **Oletustoimitusajan varmistus** -kentän mukaan, joka löytyy **Tuotannon asetukset** -ikkunasta. Oletusarvo on, että eräpäivä on sama kuin kysyntäpäivämäärä, mutta tätä voidaan haluttaessa muuttaa.  
+    Nämä kaksi kenttää liittyvät toisiinsa **Oletustoimitusajan varmistus** -kentän mukaan, joka löytyy **Tuotannon asetukset** -sivulta. Oletusarvo on, että eräpäivä on sama kuin kysyntäpäivämäärä, mutta tätä voidaan haluttaessa muuttaa.  
 
 > [!NOTE]  
 >   Jos kirjoitat päivämäärän, joka on myöhäisempi kuin kysyntäpäivämäärä, näyttöön tulee varoitussanoma.  
@@ -88,24 +88,24 @@ Ikkunassa näkyvät suunnittelurivit on suodatettu  **Tuotantokysyntä**-suodatu
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Suunnitellut tuotantotilaukset** ja valitse sitten liittyvä linkki. Voit suorittaa nämä suunnitellun, sitovasti suunnitellun tai vapautetustn tuotantotilauksen vaiheet.  
 2.  Avaa suunniteltava tuotantotilaus ja valitse **Suunnittelu**-toiminto.  
 3.  Siirrä kohdistin halutulle suunnitteluriville ja valitse sitten **Tee tilaukset** -toiminto.  
-4.  Valitse **Tee toimitustilaukset** -ikkunan **Tilauksen suunnittelu** -pikavälilehden **Tee tilaukset** -kentässä jokin seuraavista vaihtoehdoista.  
+4.  Valitse **Tee toimitustilaukset** -sivun **Tilauksen suunnittelu** -pikavälilehden **Tee tilaukset** -kentässä jokin seuraavista vaihtoehdoista.  
 
     |Asetus|Description|  
     |----------------------------------|---------------------------------------|  
     |**Aktiivinen rivi**|Toimitustilaus tehdään vain sille riville, jolla kohdistin on.|  
     |**Aktiivinen tilaus**|Tee toimitustilaukset sen tilauksen kaikille riveille, jossa kohdistin on.|  
-    |**Kaikki rivit**|Toimitustilaukset tehdään kaikille **Tilauksen suunnittelu** -ikkunan riveille.|  
+    |**Kaikki rivit**|Toimitustilaukset tehdään kaikille **Tilauksen suunnittelu** -sivun riveille.|  
 
 5.  Määritä **Vaihtoehdot**-pikavälilehdessä, millaisia toimitustilauksista tai hankintalistan riveistä tehdään.  
 
     > [!NOTE]  
-    >  **Tee toimitustilaukset** -ikkunassa viimeksi tehdyt asetukset tallennetaan käyttäjätietoihin niin, että ne säilyvät samoina ikkunan seuraavaa käyttökertaa varten.  
+    >  **Tee toimitustilaukset** -sivulla viimeksi tehdyt asetukset tallennetaan käyttäjätietoihin niin, että ne säilyvät samoina sivun seuraavaa käyttökertaa varten.  
 
 6.  Valitse **OK**, niin ohjelma luo ehdotetut toimitustilaukset tai hankintalistan rivit.  
 
-Kysyntä on nyt täytetty luomalla sitä vastaavat toimitustilaukset. Työnkulun tarkemmat yksityiskohdat **Tilauksen suunnittelu** -ikkunaa käytettäessä määräytyvät yrityksen sisäisten käytäntöjen mukaan.  
+Kysyntä on nyt täytetty luomalla sitä vastaavat toimitustilaukset. Työnkulun tarkemmat yksityiskohdat **Tilauksen suunnittelu** -sivua käytettäessä määräytyvät yrityksen sisäisten käytäntöjen mukaan.  
 
-Kun **Tilauksen suunnittelu** -ikkunan suunnitelma on valmis (nimikkeelle on esimerkiksi määritetty vaihtoehtoinen hankintatapa), voidaan siirtyä luomaan toimitustilaukset yhdelle suunnitteluriville tai useille suunnitteluriveille.  
+Kun **Tilauksen suunnittelu** -sivun suunnitelma on valmis (nimikkeelle on esimerkiksi määritetty vaihtoehtoinen hankintatapa), voidaan siirtyä luomaan toimitustilaukset yhdelle suunnitteluriville tai useille suunnitteluriveille.  
 
 > [!NOTE]  
 >  Luodut toimitustilaukset saattavat synnyttää uuden, ei-itsenäisen kysynnän, esimerkiksi osakomponentin tuotantotilaustarpeen. Etsi ja käsittele tällainen kysyntä valitsemalla **Laske suunnitelma** -toiminto uudelleen, ennen kuin siirryt luettelossa eteenpäin.  

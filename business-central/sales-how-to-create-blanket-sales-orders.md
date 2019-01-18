@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8e0668e39891f6e0924afd8d9ec3ee39af95e587
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4989933a0034e5d496e09824ad0ca621a2373825
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-blanket-sales-orders"></a>Puitemyyntitilausten käyttäminen
@@ -42,7 +42,7 @@ Esimerkki puitetilauksen käytöstä: Asiakas soittaa ja tilaa nimikettä 1 000 
 2.  Kun olet valmis luomaan tilauksia, valitse ensin **Tee tilaus** -toiminto ja sitten **Kyllä**. Näyttöön tulee sanoma, jossa kerrotaan puitetilauksen määrityksestä tilausnumeroon. Huomaa, että puitetilausta ei ole poistettu.  
 3.  Valitse **OK**-painike.  
 4.  Voit tuoda edellisten vaiheiden tulokset näkyviin valitsemalla ensin **Rivi**-toiminnon, sitten **Kirjaamattomat rivit** -toiminnon ja lopuksi **Tilaukset**-toiminnon.  
-5.  Valitse ensin oikea myyntitilaus **Myyntirivit**-ikkunassa, sitten **Rivit**-toiminto ja lopuksi **Näytä asiakirja** -toiminto.  
+5.  Valitse ensin oikea myyntitilaus **Myyntirivit**-sivulla, sitten **Rivit**-toiminto ja lopuksi **Näytä asiakirja** -toiminto.  
 
 Seuraava koskee myyntitilauksia sen jälkeen, kun ne on luotu puitemyyntitilauksista.  
 
@@ -53,14 +53,14 @@ Seuraava koskee myyntitilauksia sen jälkeen, kun ne on luotu puitemyyntitilauks
 - Jos myyntitilauksia ei luoda suoraan puitetilauksesta, mutta se liittyy puitetilaukseen, myyntitilauksen ja puitetilauksen välille voidaan muodostaa linkki syöttämällä liittyvän puitetilauksen numero myyntitilausrivin **Puitetilauksen nro** -kenttään.  
 - Kun myyntitilaus on luotu puitetilauksen rivien kokonaismäärällä, muita myyntitilauksia ei voi luoda samalle riville. Käyttäjät eivät voi syöttää määrää **Toimitettava määrä** -kenttään. Jos puitetilaukseen täytyy kuitenkin lisätä määriä, voit kasvattaa **Määrä**-kentän arvoa. Sen jälkeen voit luoda lisätilauksia.  
 - Laskutettu puitemyyntitilaus säilytetään järjestelmässä, kunnes se poistetaan yksittäisiä puitemyyntitilauksia poistettaessa tai suoritettaessa **Poista virheelliset puitemyyntitilaukset** -eräajo.  
-- Jos asiakas on tallennettu myös kontaktina Markkinointi-kohdistusalueeseen ja jos olet määrittänyt puitemyyntitilauksille vuorovaikutusmallin koodin  **Kontaktienhallinnan asetukset** -ikkunassa, ohjelma tallentaa vuorovaikutuksen automaattisesti, kun tulostat puitemyyntitilauksen valitsemalla Vuorovaikutuslokin tapahtuma -taulukossa **Tulosta**.
+- Jos asiakas on tallennettu myös kontaktina Markkinointi-kohdistusalueeseen ja jos olet määrittänyt puitemyyntitilauksille vuorovaikutusmallin koodin **Kontaktienhallinnan asetukset** -sivulla, ohjelma tallentaa vuorovaikutuksen automaattisesti, kun tulostat puitemyyntitilauksen valitsemalla Vuorovaikutuslokin tapahtuma -taulukossa **Tulosta**.
 
 ## <a name="to-view-the-status-of-a-blanket-purchase-order"></a>Puiteostotilausten tilan katsominen  
-Voit nähdä puiteostotilauksen tilan **Ostopuitetilauksen tilastot** -ikkunassa. Tällä voi olla merkitystä, kun aletaan laskuttaa tilausta, joka luotiin puiteostotilauksesta.  
+Voit nähdä puiteostotilauksen tilan **Ostopuitetilauksen tilastot** -sivulla. Tällä voi olla merkitystä, kun aletaan laskuttaa tilausta, joka luotiin puiteostotilauksesta.  
 
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Puitemyyntitilaukset** ja valitse sitten liittyvä linkki.  
 2.  Valitse ensin puiteostotilaus ja valitse sitten **Tilastot**-toiminto.  
-3.  **Ostopuitetilauksen tilastot** -ikkunan **Yleinen**-pikavälilehdessä voit tarkastella koko tilauksen yhteenvetotietoja puiteostotilauksen rivien eri **Määrä-kenttien** yhteismäärän perusteella.  
+3.  **Ostopuitetilauksen tilastot** -sivun **Yleinen**-pikavälilehdessä voit tarkastella koko tilauksen yhteenvetotietoja puiteostotilauksen rivien eri **Määrä-kenttien** yhteismäärän perusteella.  
 
     - **Laskutus**-pikavälilehdessä voit tarkastella yhteenvetotietoja puiteostotilauksen rivien **Laskutettava määrä** -kenttien yhteismäärän perusteella.  
     - **Toimitus**-pikavälilehdessä voit tarkastella yhteenvetotietoja puiteostotilauksen rivien **Vastaanotettava määrä** -kenttien yhteismäärän perusteella.  
@@ -120,7 +120,7 @@ Linkki puitemyyntitilauksen ja alkuperäisen myyntiasiakirjan, sekä kaikkien mu
     <td>Valittuun riviin liitetyt kirjatut hyvityslaskut.</td>
     </tr>
     </table>
-5. Näytä tapahtuma valitsemalla **Näytä asiakirja** -toiminto **Myyntirivit**-ikkunassa.
+5. Näytä tapahtuma valitsemalla **Näytä asiakirja** -toiminto **Myyntirivit**-sivulla.
 
 ## <a name="see-also"></a>Katso myös
 [Myynti](sales-manage-sales.md)  

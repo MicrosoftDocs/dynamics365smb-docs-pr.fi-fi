@@ -11,21 +11,21 @@ ms.search.keywords: payment journal, print check, vendor payment, customer refun
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8f8db0bd6d12d4a633fe4ea33c732f231d798b3d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 605c4ad4043d8b7c4b5603a4821e683f63d4a33d
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="record-payments-and-refunds-in-the-payment-journal"></a>Maksujen ja hyvitysten tallentaminen maksupäiväkirjaan
 
-Kirjaat maksut toimittajille tai hyvitykset asiakkaille **Maksupäiväkirja**-ikkunassa. Kun kirjaat maksupäiväkirjan rivin, maksettu summa kirjataan määritetyn järjestelmän pankkitilille. Sinun on tehtävä sitten todellinen rahan siirto liittyvältä pankkitililtä muutaman vaiheen kautta.  
+Kirjaat maksut toimittajille tai hyvitykset asiakkaille **Maksupäiväkirja**-sivulla. Kun kirjaat maksupäiväkirjan rivin, maksettu summa kirjataan määritetyn järjestelmän pankkitilille. Sinun on tehtävä sitten todellinen rahan siirto liittyvältä pankkitililtä muutaman vaiheen kautta.  
 
 Maksupäiväkirja on yleinen päiväkirja, joka on tarkoitettu erityisesti maksujen tekemiseen. Voit nopeasti lisätä rivejä manuaalisesti, antaa [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen ehdottaa toimittajamaksuja ja kohdistaa maksun kirjattuihin asiakirjoihin. Vaikka olet tekemässä maksuja, voit syöttää **Asiakirjan summa** -kenttään positiivisen summan. Päiväkirjan rivin asiakirjan tyypistä riippuen summa voidaan muuttaa negatiiviseksi summaksi taustalla olevissa tapahtumissa. Näin päiväkirjan rivien lisääminen manuaalisesti on helpompaa. Jos haluat syöttää negatiivisia summia, voit mukauttaa maksupäiväkirjan niin, että näkyvissä on **Summa**-kenttä.  
 
 - Maksujen kohdistaminen laskuihin tai hyvityslaskuihin
 
-    Jos täytät **Kohdistetaan asiakirjaan nro** -kenttään maksettavan laskun tai hyvityslaskun, kyseinen asiakirja määritetään maksettavaksi, kun päiväkirja kirjataan. Tätä kutsutaan kohdistukseksi. Vaihtoehtona maksun kirjaamisen aikana voit käyttää **Kohdista toimittajatapahtumat**- tai **Kohdista asiakastapahtumat** -ikkunaa, kun olet tehnyt maksun kirjaamisen. Lisätietoja on esim. ohjeartikkelissa [Toimittajamaksujen täsmäyttäminen manuaalisesti](payables-how-apply-purchase-transactions-manually.md).  
+    Jos täytät **Kohdistetaan asiakirjaan nro** -kenttään maksettavan laskun tai hyvityslaskun, kyseinen asiakirja määritetään maksettavaksi, kun päiväkirja kirjataan. Tätä kutsutaan kohdistukseksi. Vaihtoehtona maksun kirjaamisen aikana voit käyttää **Kohdista toimittajatapahtumat**- tai **Kohdista asiakastapahtumat** -sivua, kun olet tehnyt maksun kirjaamisen. Lisätietoja on esim. ohjeartikkelissa [Toimittajamaksujen täsmäyttäminen manuaalisesti](payables-how-apply-purchase-transactions-manually.md).  
 
 - Ehdotettujen maksujen hakeminen toimittajille tai työntekijöille 
 
@@ -33,14 +33,14 @@ Maksupäiväkirja on yleinen päiväkirja, joka on tarkoitettu erityisesti maksu
 
 - Sekkien tulostaminen ja maksujen lähettäminen sähköisesti pankkiin
 
-    Maksun suorituksen kirjaamisen lisäksi voit käyttää myös **Maksupäiväkirja**-ikkunaa siirtämään maksun pankin lisäkäsittelyä varten. Lisätietoja on kohdissa [Sekkimaksujen suorittaminen](payables-how-work-checks.md) ja [Sähköisten maksujen suorittaminen](payables-how-export-payments-bank-file.md).  
+    Maksun suorituksen kirjaamisen lisäksi voit käyttää myös **Maksupäiväkirja**-sivua siirtämään maksun pankin lisäkäsittelyä varten. Lisätietoja on kohdissa [Sekkimaksujen suorittaminen](payables-how-work-checks.md) ja [Sähköisten maksujen suorittaminen](payables-how-export-payments-bank-file.md).  
 
 ## <a name="to-make-payments-in-the-payment-journal"></a>Maksujen tekeminen maksupäiväkirjaan 
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maksupäiväkirjat** ja valitse sitten liittyvä linkki.
 2. Avaa päiväkirjaerä, joka on varattu maksuja varten.
 3. Jos tiedät, kenelle olet maksamassa maksun tai hyvityksen, täytä kentät manuaalisesti. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Voit myös kohdistaa maksun liittyvään laskuun tai hyvityslaskuun valitsemalla **Kohdistetaan asiakirjaan nro** -kentän **Kohdista toimittajatapahtumat** -ikkunassa, valitsemalla asianmukaisen laskun tai hyvityslaskun ja valitsemalla sitten **OK**-painikkeen.
+4. Voit myös kohdistaa maksun liittyvään laskuun tai hyvityslaskuun valitsemalla **Kohdistetaan asiakirjaan nro** -kentän **Kohdista toimittajatapahtumat** -sivulla, valitsemalla asianmukaisen laskun tai hyvityslaskun ja valitsemalla sitten **OK**-painikkeen.
 
     Monet kentät, kuten **Asiakirjan summa** ja **Eräpäivä**, täytetään nyt valitun asiakirjan tiedoilla.
 5. Vaihtoehtoisesti voit käyttää **Ehdota toimittajamaksuja** -toimintoa. Myös kaikki kohdistustiedot ja summat syötetään päiväkirjariveille. Lisätietoja on kohdassa [Toimittajamaksujen ehdottaminen](payables-how-suggest-vendor-payments.md).

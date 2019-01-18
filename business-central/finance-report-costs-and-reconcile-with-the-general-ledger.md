@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e8072a9e21349f3a8e8f9d21f5b011bae72a69e0
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 1b2a83ddbac54d5034b043c3124f698613be4642
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="reporting-costs-and-reconciling-with-the-general-ledger"></a>Kustannukset raportointi ja täsmäyttäminen pääkirjanpidon kanssa
@@ -31,7 +31,7 @@ Kirjanpitojaksojen lopussa (kuukausittain, vuosittain tai muulla aikavälillä) 
 |Valittujen nimikkeiden varaston arvon tarkastelu, mukaan lukien todellinen ja oletettu kustannus määritettynä päivämääränä.|**Varaston arvostus - Kust. määr.** -raportti|  
 |Raportin käyttäminen kustannusvarianssien analysoimiseksi tai myytyjen tuotteiden kustannusosuuksien selvittämiseksi.|**Kustannusjakaumien erittely** -raportti|  
 |Nimiketapahtumiin liittyvien arvotapahtumien kausittainen kirjaaminen varastotapahtumista niihin liittyville pääkirjanpidon tileille näiden kahden kirjanpidon täsmäyttämiseksi.|[Varaston kustannusten täsmäyttäminen pääkirjanpitoon](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
-|Varastotapahtumien ja pääkirjanpidon välisen täsmäytyksen tarkistaminen yhdessä ikkunassa.|[Varaston kustannusten täsmäyttäminen pääkirjanpitoon](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
+|Varastotapahtumien ja pääkirjanpidon välisen täsmäytyksen tarkistaminen yhdellä sivulla.|[Varaston kustannusten täsmäyttäminen pääkirjanpitoon](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
 |Tasetileille kirjattavan KET-summan määrittäminen kauden lopussa suoritettavaa raportointia varten.|[Projektin edistymisen ja suorituskyvyn valvonta](projects-how-monitor-progress-performance.md)|
 
 ## <a name="see-also"></a>Katso myös  

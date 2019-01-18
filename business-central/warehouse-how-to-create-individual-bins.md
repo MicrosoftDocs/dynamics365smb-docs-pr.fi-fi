@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 7d5b2ce28f1eaebfca26c2db3801b44ff5278e78
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4df1de7eca8127c5ae2c46e04fecc5ca0f2c8302
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-bins"></a>Varastopaikkojen luominen
-Tehokkain tapa luoda fyysisen varaston varastopaikkoja on luoda samankaltaisten varastopaikkojen ryhmiä varastopaikan luontityökirjassa, mutta varastopaikkoja voi luoda myös yksittäin sijainnin kortista. Voit luoda varastopaikkoja myös automaattisesti **Var.paikan luontityökirja** -ikkunassa.  
+Tehokkain tapa luoda fyysisen varaston varastopaikkoja on luoda samankaltaisten varastopaikkojen ryhmiä varastopaikan luontityökirjassa, mutta varastopaikkoja voi luoda myös yksittäin sijainnin kortista. Voit luoda varastopaikkoja myös automaattisesti **Var.paikan luontityökirja** -sivulla.  
 
 ## <a name="to-create-a-bin-from-the-location-card"></a>Varastopaikan luonti sijaintikortista  
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sijainnit** ja valitse liittyvä linkki.  
@@ -39,13 +39,13 @@ Ennen kuin aloitat varastopaikkojen automaattisen luonnin, sinun on päätettäv
 > [!NOTE]  
 >  Kun varastopaikkaa on käytetty, sitä ei voi poistaa kuin tyhjänä. Mutta jos haluat joskus käyttää muuta varastopaikan nimeämisjärjestelmää, voit käyttää uudelleenluokittelupäiväkirjaa "siirtääksesi" nimikkeet uuteen varastopaikkajärjestelmään. Tämä prosessi on kuitenkin manuaalinen ja se vie aikaa, joten parasta on määrittää varastopaikat oikein alusta lähtien.  
 
-Voit käyttää **Var.paikan luontityökirja** -ikkunaa, jos sinut on määritetty varastotyöntekijäksi varastopaikkojen sijaintipaikkaan. Lisätietoja on kohdassa [Varastotyöntekijöiden määrittäminen](warehouse-how-to-set-up-warehouse-employees.md).    
+Voit käyttää **Var.paikan luontityökirja** -sivua, jos sinut on määritetty varastotyöntekijäksi varastopaikkojen sijaintipaikkaan. Lisätietoja on kohdassa [Varastotyöntekijöiden määrittäminen](warehouse-how-to-set-up-warehouse-employees.md).    
 
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Var.paikan luontityökirja** ja valitse liittyvä linkki.  
 2.  Valitse **Laske varastopaikat** -toiminto.
-3. Valitse **Laske varastopaikat** -ikkunan **Varastopaikkamallin koodi** -kentässä varastopaikkamalli, jota haluat käyttää luotavien varastopaikkojen mallina.
+3. Valitse **Laske varastopaikat** -sivun **Varastopaikkamallin koodi** -kentässä varastopaikkamalli, jota haluat käyttää luotavien varastopaikkojen mallina.
 4.  Täytä kuvaus varastopaikoille, joita olet luomassa.  
-5.  Luo varastopaikkakoodit täyttämällä **Numerosta**- ja **Numeroon**-kentät ikkunassa näkyvissä kolmessa luokassa: **Hylly**, **Osio** ja **Taso**. Varastopaikkakoodi voi sisältää enintään 20 merkkiä.  
+5.  Luo varastopaikkakoodit täyttämällä **Numerosta**- ja **Numeroon**-kentät sivulla näkyvissä kolmessa luokassa: **Hylly**, **Osio** ja **Taso**. Varastopaikkakoodi voi sisältää enintään 20 merkkiä.  
 
     > [!NOTE]  
     >  Merkkien lukumäärä, jonka olet syöttänyt kolmeen luokkaan kummankin kentän osalta (esimerkiksi kolmeen **Numerosta**-kenttiin syöttämäsi merkit), sekä kenttien mahdolliset erottimet voivat olla yhteensä korkeintaan 20 merkkiä.  

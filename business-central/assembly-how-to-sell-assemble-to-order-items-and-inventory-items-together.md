@@ -13,10 +13,10 @@ ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 42f4d0f07e23bfc8fd2ab79fdf315df21a90c9b3
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 2f71dbbb4e7e4af19829f08243371bea1998b093
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="sell-assemble-to-order-items-and-inventory-items-together"></a>Kokoonpano tilausta varten -nimikkeiden ja varastonimikkeiden myyminen yhdessä
@@ -31,7 +31,7 @@ Samanlainen joustavuus on olemassa, kun myyt tilaukseen koottavia nimikkeitä, j
 >  Seuraavassa toimenpiteessä ei tehdä myyntitilauksen vakiovaiheita, jotka on tehtävä ennen kuin luot kokoonpanotilauksen määrälle, joka ei ole käytettävissä.
 
 ## <a name="to-sell-assemble-to-order-items-and-inventory-items-together"></a>Myy kokoonpano tilausta varten -nimikkeitä ja varastonimikkeitä yhdessä  
-1.  Anna varastoon kokoonpantavan nimikkeen myyntitilausrivin **Määrä**-kenttään, määrä, joka on suurempi kuin varasto. **Tarkista saatavuus** -ikkuna tulee näyttöön. Lisätietoja on kohdassa [Nimikkeiden saatavuuden tarkasteleminen](inventory-how-availability-overview.md).
+1.  Anna varastoon kokoonpantavan nimikkeen myyntitilausrivin **Määrä**-kenttään, määrä, joka on suurempi kuin varasto. **Tarkista saatavuus** -sivu avautuu. Lisätietoja on kohdassa [Nimikkeiden saatavuuden tarkasteleminen](inventory-how-availability-overview.md).
 2.  Kiinnitä huomiota **Määrä yhteensä** -kenttään (negatiivinen arvo), joka syötetään seuraavassa vaiheessa.  
 3.  Anna **Kokoonpantava määrä tilausta varten** -kentässä arvo edellisestä vaiheesta.  
 4.  Tee muutokset kokoonpanon komponentteihin. Lisätietoja on kohdassa [Kokoonpano tilausta varten -nimikkeiden myyminen](assembly-how-to-sell-items-assembled-to-order.md).  

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 79d4ac247abe75fab8a7c935d31fc236383747cc
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 05404279ee0967b1ffd48e010cdf1f9dcac157d9
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="delete-workflows"></a>Työnkulkujen poistaminen
@@ -25,14 +25,14 @@ Voit poistaa työnkulun, jos olet varma, ettei sitä enää käytetä. Kaikkien 
 > [!CAUTION]  
 >  Kun poistat työnkulun, kaikki työnkulun tiedot menetetään.  
 
- **Työnkulku**-ikkunassa voit luoda työnkulun luetteloimalla liittyvät toimet riveillä. Jokainen vaihe koostuu työnkulun tapahtumasta, jota valvotaan tapahtuman ehtojen mukaan, ja työnkulun vastauksesta, jota valvotaan vastausvaihtoehtojen mukaan. Työnkulku määritetään täyttämällä työnkulkurivien kentät tapahtumien kiinteistä luetteloista ja vastausarvot, jotka edustavat sovelluskoodin tukemia skenaarioita. Lisätietoja on kohdassa [Työnkulkujen luominen](across-how-to-create-workflows.md).  
+ Voit luoda **Työnkulku**-sivulla työnkulun mainitsemalla liittyvät toimet riveillä. Jokainen vaihe koostuu työnkulun tapahtumasta, jota valvotaan tapahtuman ehtojen mukaan, ja työnkulun vastauksesta, jota valvotaan vastausvaihtoehtojen mukaan. Työnkulku määritetään täyttämällä työnkulkurivien kentät tapahtumien kiinteistä luetteloista ja vastausarvot, jotka edustavat sovelluskoodin tukemia skenaarioita. Lisätietoja on kohdassa [Työnkulkujen luominen](across-how-to-create-workflows.md).  
 
 ## <a name="to-delete-a-workflow"></a>Työnkulun poistaminen  
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Työnkulut** ja valitse sitten liittyvä linkki.  
 2.  Valitse työnkulku, jonka haluat poistaa.  
 3.  Valitse **Poista**-toiminto.  
 4.  Voit myös avata työnkulun, jonka haluat poistaa.  
-5.  Valitse **Työnkulku**-ikkunassa **Poista**-toiminto.  
+5.  Valitse **Työnkulku**-sivulla **Poista**-toiminto.  
 
 ## <a name="see-also"></a>Katso myös  
  [Työnkulkujen luominen](across-how-to-create-workflows.md)   

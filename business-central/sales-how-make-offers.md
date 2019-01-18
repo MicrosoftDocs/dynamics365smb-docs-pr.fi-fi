@@ -12,10 +12,10 @@ ms.search.keywords: rfq
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: a234dee68d9c083e1ca9f72eec86e2ba1239398c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9cf65b029527dfd046223e82b92b57a48d43bb19
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="make-sales-quotes"></a>Myyntitarjousten tekeminen
@@ -29,15 +29,15 @@ Voit täyttää myyntitarjouksen asiakkaan kentät kahdella tavalla sen mukaan, 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitarjoukset** ja valitse sitten liittyvä linkki.
 2. Syötä **Asiakas**-kenttään nykyisen asiakkaan nimi.
 
-   Muut **Myyntitarjous**-ikkunan kentät sisältävät valitun asiakkaan vakiotiedot. Jos asiakasta ei ole rekisteröity, toimi seuraavasti:
+   Muut **Myyntitarjous**-sivun kentät sisältävät valitun asiakkaan vakiotiedot. Jos asiakasta ei ole rekisteröity, toimi seuraavasti:
 3. Syötä **Asiakas**-kenttään uuden asiakkaan nimi.
 4. Valitse uuden asiakkaan rekisteröimisen valintaikkunassa **Kyllä**-painike.
-5. Valitse **Valitse uuden asiakkaan malli** -ikkunassa malli uuden asiakkaan kortin perusteella ja valitse sitten **OK**-painike.
+5. Valitse **Valitse uuden asiakkaan malli** -sivulla malli uuden asiakkaan kortin perusteella ja valitse sitten **OK**-painike.
 6. Uuden asiakkaan kortissa näkyy valitun asiakasmallin tiedot. Täytä jäljellä olevat kentät. Lisätietoja on kohdassa [Uusien asiakkaiden rekisteröinti](sales-how-register-new-customers.md).  
-7. Kun olet määrittänyt asiakaskortin, valitse **OK**-painike palataksesi **Myyntitarjous**-ikkunaan.
+7. Kun olet määrittänyt asiakaskortin, valitse **OK**-painike palataksesi **Myyntitarjous**-sivulle.
 
    Myyntitarjouksen useat kentät täytetään nyt tiedoilla, jotka olet määrittänyt uuden asiakkaan kortissa.  
-8. Täytä tarvittaessa jäljellä olevat kentät **Myyntitarjous**-ikkunassa. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+8. Täytä tarvittaessa jäljellä olevat kentät **Myyntitarjous**-sivulla. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     Voit nyt täyttää asiakkaille myytävien tuotteiden tai KP-tilille kirjattavan asiakastapahtuman myyntitilauksen rivit.   
 
@@ -69,10 +69,10 @@ Voit täyttää myyntitarjouksen asiakkaan kentät kahdella tavalla sen mukaan, 
     Jos asiakkaalle on määritetty laskualennukset, määritetty prosenttiluvun arvo lisätään automaattisesti **Asiakkaan laskun alennus-%** -kenttään, jos ehdot täyttyvät. Liittyvä summa lisätään **Laskun alennussumma ilman ALV:a** -kenttään. Lisätietoja on kohdassa [Myyntihinnan, alennuksen ja maksusopimusten tallentaminen](sales-how-record-sales-price-discount-payment-agreements.md).
 
     > [!TIP]
-    > Jos haluat, että **Tarjouksen voimassaolon päättymispäivä** -kohtaan täytetään automaattisesti tietty päivien määrä tarjouksen luonnin jälkeen, täytä **Tarjouksen voimassaolon laskenta** -kenttä **Myynti ja myyntisaamiset** -ikkunassa. 
+    > Jos haluat, että **Tarjouksen voimassaolon päättymispäivä** -kohtaan täytetään automaattisesti tietty päivien määrä tarjouksen luonnin jälkeen, täytä **Tarjouksen voimassaolon laskenta** -kenttä **Myynti ja myyntisaamiset** -sivulla. 
 
 15. Kun myyntitarjouksen rivit ovat valmiit, valitse **Lähetä sähköpostitse** -toiminto.
-16. Täytä **Lähetä sähköpost** -ikkunassa jäljellä olevat kentät ja tarkista upotettu myyntitarjous. Lisätietoja on kohdassa [Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md).
+16. Täytä **Lähetä sähköpost** -sivulla jäljellä olevat kentät ja tarkista upotettu myyntitarjous. Lisätietoja on kohdassa [Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md).
 17. Jos asiakas hyväksyy tarjouksen, valitse **Luo lasku**- tai **Tee tilaus** -toiminto.
 
 Myyntitarjous on poistettu tietokannasta. Myyntilasku tai -tilaus luodaan myyntitarjouksen tietojen perusteella, jossa voit käsitellä myynnin. Myyntilaskun tai myyntitilauksen **Tarjouksen nro** -kenttä määrittää sen myyntitarjouksen numeron, josta tilaus on muunnettu. Lisätietoja on kohdassa [Myynnin laskuttaminen](sales-how-invoice-sales.md) tai [Tuotteiden myyminen](sales-how-sell-products.md).

@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e114142be1708447931fb475074245b57564f6b3
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0bb558fe24d8c5bc717ef72e8c94ba0154a06a55
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-known-item-application-issue"></a>Rakennetiedot: Nimikkeen kohdistuksen tunnettu ongelma
@@ -102,7 +102,7 @@ Seuraavassa kaaviossa näytetään, miten kustannusten kohdistukset tehdään.
 
  Tunnista ongelma skenaariossa 1 seuraavasti:  
 
--   Hae **Kirjattu myyntihyvityslasku**- tai **Kirjattu palautusvastaanotto** -ikkunassa **Kohdistus \-nimiketapahtumasta** -kenttä ja tarkista, onko kenttä täytetty. Jos on, tarkista, mihin nimiketapahtumaan palautusvastaanoton kustannus on kohdistettu.  
+-   Hae **Kirjattu myyntihyvityslasku**- tai **Kirjattu palautusvastaanotto** -sivulla **Kohdistus \-nimiketapahtumasta** -kenttä ja tarkista, onko kenttä täytetty. Jos on, tarkista, mihin nimiketapahtumaan palautusvastaanoton kustannus on kohdistettu.  
 
  Tunnista ongelma skenaariossa 2 jommallakummalla tavalla:  
 
@@ -113,10 +113,10 @@ Seuraavassa kaaviossa näytetään, miten kustannusten kohdistukset tehdään.
 |333|28.1.2018|Myynti|Myyntitoimitus|102043|TESTI|SININEN|-1|-10|-1|-1|Kyllä|Ei|  
 |334|28.1.2018|Myynti|Myyntitoimitus|102043|TESTI|SININEN|1|10|1|1|Kyllä|**Kyllä**|  
 
--   Hae **Kirjattu myyntitoimitus** -ikkunassa **Kohdistus nimiketapahtumasta** -kenttä ja tarkista, onko kenttä täytetty. Jos on, tarkista, mihin nimiketapahtumaan palautusvastaanoton kustannus on kohdistettu.  
+-   Hae **Kirjattu myyntitoimitus** -sivulla **Kohdistus nimiketapahtumasta** -kenttä ja tarkista, onko kenttä täytetty. Jos on, tarkista, mihin nimiketapahtumaan palautusvastaanoton kustannus on kohdistettu.  
 
 > [!NOTE]  
->  Kustannusten kohdistuksia ei voi tunnistaa **Kohdistetut nimiketapahtumat** -ikkunassa, koska siinä näkyvät vain määrän kohdistukset.  
+>  Kustannusten kohdistuksia ei voi tunnistaa **Kohdistetut nimiketapahtumat** -sivulla, koska siinä näkyvät vain määrän kohdistukset.  
 
  Tunnista mukana olevat kustannusten kohdistukset seuraavasti molemmissa skenaarioissa:  
 
@@ -138,7 +138,7 @@ Seuraavassa kaaviossa näytetään, miten kustannusten kohdistukset tehdään.
  Huomaa, että saapuvan nimiketapahtuman 334 kustannukset on kohdistettu lähtevään nimiketapahtumaan 333.  
 
 ## <a name="workaround-for-the-issue"></a>Ongelman ratkaisu  
- Kirjaa **Nimikepäiväkirja**-ikkunassa kyseisen nimikkeen seuraavat rivit:  
+ Kirjaa **Nimikepäiväkirja**-sivulla kyseisen nimikkeen seuraavat rivit:  
 
 -   Positiivinen muutos, kun avoin lähtevä nimiketapahtuma suljetaan.  
 

@@ -11,10 +11,10 @@ ms.search.keywords: sandbox, demo, develop
 ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 3110168e904cc6944a5f05a3a4cc7325425d3fe9
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6a13eca9f8ad83b82e4b281c9564bdfd0c66f4fb
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 [!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
@@ -40,7 +40,7 @@ Tarvitse sandbox-ympäristön luontia varten [!INCLUDE[d365fin](includes/d365fin
 6. Roolikeskuksen yläreunaan avautuvassa ilmoituksessa ilmoitetaan, että kyse on sandbox-ympäristöstä. Ympäristön tyyppi näkyy myös asiakasohjelman otsikkopalkissa.
 ![Sandbox-ympäristön roolikeskuksen ilmoitus](./media/across-sandbox/sandbox-rolecenter-notification.png)  
 Sandbox-ympäristöön on luotu täysin uusi vuokraaja. Vuokraajaan on ladattu CRONUS-yrityksen oletusesittelytiedot. Mitään tietoja ei kopioida tai muutoin siirretä tuotantoympäristöstä sandbox-ympäristön luonnin aikana.
-7.  Voit palata koska tahansa **Sandbox-ympäristö**-ikkunaan ja palauttaa sandbox-ympäristön alkuasetuksiin.
+7.  Voit palata koska tahansa **Sandbox-ympäristö**-sivulle ja palauttaa sandbox-ympäristön alkuasetuksiin.
 > [!NOTE]  
 >  Sandbox-ympäristön palauttaminen alkuasetuksiin poistaa sen kokonaan, ja voit luoda sen uudelleen oletusesittelytiedoilla.  
 
@@ -58,7 +58,7 @@ Sandbox-ympäristössä on otettu käyttöön asiakasohjelman suunnittelutoimint
 ![Asiakasohjelman suunnittelutoiminto](./media/across-sandbox/sandbox-inclient-designer.png)
 
 ### <a name="enable-the-advanced-user-experience"></a>Käyttäjäkokemuksen lisätoimintojen ottaminen käyttöön
-[!INCLUDE[d365fin](includes/d365fin_md.md)]in lisätoiminnot (kaikki toiminnot) voi ottaa käyttöön kokeiltavaksi sandbox-ympäristön vuokraajassa määrittämällä **Kokemus**-kentän **Yrityksen tiedot** -ikkunassa.
+[!INCLUDE[d365fin](includes/d365fin_md.md)]in lisätoiminnot (kaikki toiminnot) voi ottaa käyttöön kokeiltavaksi sandbox-ympäristön vuokraajassa määrittämällä **Kokemus**-kentän **Yrityksen tiedot** -sivulla.
 
 ![Sandbox-ympäristön lisäasetukset](./media/across-sandbox/sandbox-advanced.png)
 

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b2d32111fe1b5510f7c1dc2412627d5df9e7ccc3
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2bd235844f191c52f3f5d3e34b43c4fdf75fb464
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Vaihekuvaus: pakettien myynti, kokoaminen ja toimitus
@@ -81,8 +81,8 @@ Tee seuraavat toimet ennen tämän vaihekuvauksen tehtävien suorittamista:
 -   Asenna [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 -   Tee itsestäsi fyysisen varaston työntekijä VALKOISESSA sijainnissa tekemällä seuraavat toimet:  
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varaston työntekijät** ja valitse sitten liittyvä linkki.  
-2.  Valitse ensin **Käyttäjätunnus**-kenttä ja valitse oma käyttäjätilisi **Käyttäjät**-ikkunassa.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Varaston työntekijät** ja valitse sitten liittyvä linkki.  
+2.  Valitse ensin **Käyttäjätunnus**-kenttä ja valitse oma käyttäjätilisi **Käyttäjät**-sivulla.  
 3.  Kirjoita **Sijaintikoodi**-kenttään VALKOINEN.  
 4.  Valitse **Oletus**-kenttä.  
 
@@ -101,7 +101,7 @@ Valmistele VALKOINEN-sijainti kokoonpanon käsittelyä varten seuraavasti:
 Poista sisäisten prosessien oletusläpimenoaika seuraavasti:  
 
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tuotannon asetukset** ja valitse sitten liittyvä linkki.  
-2.  Poista **Tuotannon asetukset** -ikkunan **Suunnittelu**-pikavälilehden **Oletus toimitusajan varmistus** -kentän arvo.  
+2.  Poista **Tuotannon asetukset** -sivun **Suunnittelu**-pikavälilehden **Oletus toimitusajan varmistus** -kentän arvo.  
 
 Luo varasto kokoonpanon osille noudattamalla näiden vaihekohtaisten ohjeiden osaa "Esimerkkitietojen valmisteleminen".  
 
@@ -151,10 +151,10 @@ Kun myyntitilaus on myöhemmin kirjattu kokonaan laskutetuksi, myyntitilaus ja l
 
     Synkronoi seuraavaksi uuden fyysisen varastoinnin tapahtumat varaston kanssa.  
 
-5.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikepäiväkirjat** ja valitse sitten liittyvä linkki. **Nimikepäiväkirja**-ikkuna avautuu.  
+5.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikepäiväkirjat** ja valitse sitten liittyvä linkki. **Nimikepäiväkirja**-sivu avautuu.  
 6.  Valitse **Toiminnot**-välilehden **Funktiot**-ryhmässä **Laske f.var. muutos**.  
-7.  Valitse **Laske f. var. muutos** -ikkunassa **OK**.  
-8.  Valitse **Nimikepäiväkirja**-ikkunan **Toiminnot**-välilehden **Toiminnot**-ryhmässä **Kirjaa** ja valitse sitten **Kyllä**.  
+7.  Valitse **Laske f. var. muutos** -sivulla **OK**.  
+8.  Valitse **Nimikepäiväkirja**-sivun **Toiminnot**-välilehden **Toiminnot**-ryhmässä **Kirjaa** ja valitse sitten **Kyllä**.  
 
 ### <a name="creating-the-assembly-items"></a>Kokoonpanon nimikkeiden luominen  
 
@@ -221,7 +221,7 @@ Kun myyntitilaus on myöhemmin kirjattu kokonaan laskutetuksi, myyntitilaus ja l
     > [!NOTE]  
     >  B-sarjan myyntitilausrivillä on seuraava saatavuusongelma:  
     >   
-    >  -   Kokoonpano-osaa 80210 ei ole käytettävissä. Tämä tarkoittaa, että tuotepaketin B kolmea määritettyä yksikköä ei voi koota, minkä osoittaa **0** **Kokoonpanon saatavuus**-ikkunan **Mahdollista koota** -kentässä.  
+    >  -   Kokoonpano-osaa 80210 ei ole käytettävissä. Tämä tarkoittaa, että tuotepaketin B kolmea määritettyä yksikköä ei voi koota, minkä osoittaa **0** **Kokoonpanon saatavuus**-sivun **Mahdollista koota** -kentässä.  
     >   
     >  A-sarjan myyntitilausrivillä on seuraava saatavuusongelma:  
     >   
@@ -231,7 +231,7 @@ Kun myyntitilaus on myöhemmin kirjattu kokonaan laskutetuksi, myyntitilaus ja l
 
 4.  Valitse myyntitilausrivi kolmelle B-sarjan yksikölle.  
 5.  Valitse ensin **Rivit**-pikavalintalehdessä **Rivi**, sitten **Kokoonpano tilausta varten** ja lopuksi **Kokoonpano tilausta varten -rivit**.  
-6.  Anna **Kokoonpano tilausta varten -rivit** -ikkunan **Määrä per** -kentässä nimikkeen 80114 kokoonpanon tilausrivillä arvo **2**.  
+6.  Anna **Kokoonpano tilausta varten -rivit** -sivun **Määrä per** -kentässä nimikkeen 80014 kokoonpanon tilausrivillä arvo **2**.  
 7.  Valitse nimikkeen 80210 kokoonpanon tilausrivillä **Nro** -kenttä ja valitse sen sijaan nimike 80209.  
 8.  Luo uusi kokoonpanotilaus, jolla on seuraavat tiedot.  
 
@@ -239,7 +239,7 @@ Kun myyntitilaus on myöhemmin kirjattu kokonaan laskutetuksi, myyntitilaus ja l
     |----------|---------|------------------|  
     |Vaihtoehto|80203|1|  
 
-9. Sulje **Kokoonpano tilausta varten -rivit** -ikkuna.  
+9. Sulje **Kokoonpano tilausta varten -rivit** -sivu.  
 
     Päivitä seuraavaksi paketin B yksikköhinta juuri suorittamasi mukautuksen mukaan. Huomaa nykyinen arvo kentässä **Yksikköhinta Ilman ALV**.  
 
@@ -247,7 +247,7 @@ Kun myyntitilaus on myöhemmin kirjattu kokonaan laskutetuksi, myyntitilaus ja l
 11. Valitse **Kyllä**-painike. Huomaa suurentunut arvo kentässä **Yksikköhinta Ilman ALV**.  
 12. Valitse myyntitilausrivi viidelletoista A-sarjan yksikölle.  
 13. Valitse ensin **Rivit**-pikavalintalehdessä **Rivi**, sitten **Kokoonpano tilausta varten** ja lopuksi **Kokoonpano tilausta varten -rivit**.  
-14. Luo **Kokoonpano tilausta varten -rivit** -ikkunassa uusi kokoonpanotilauksen rivi, jolla on seuraavat tiedot.  
+14. Luo **Kokoonpano tilausta varten -rivit** -sivulla uusi kokoonpanotilauksen rivi, jolla on seuraavat tiedot.  
 
     |Tyyppi|Nro|Määrä per|  
     |----------|---------|------------------|  
@@ -264,7 +264,7 @@ Kun myyntitilaus on myöhemmin kirjattu kokonaan laskutetuksi, myyntitilaus ja l
 
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Suunnittelutyökirja** ja valitse sitten liittyvä linkki.  
 2.  Valitse **Toiminto**-välilehden **Funktiot**-ryhmässä **Laske uudelleensuunnittelu**.  
-3.  Määritä **Laske suunnitelma** -ikkunassa seuraavat suodattimet.  
+3.  Määritä **Laske suunnitelma** -sivulla seuraavat suodattimet.  
 
     |Aloituspvm|Lopetuspvm|Nro|  
     |-------------------|-----------------|---------|  
@@ -275,7 +275,7 @@ Kun myyntitilaus on myöhemmin kirjattu kokonaan laskutetuksi, myyntitilaus ja l
     Tarvittavalle kymmenen yksikön kokoonpanotilaukselle luodaan uusi suunnittelurivi, jonka eräpäivä on 27.1. Sitä ei tarvitse muuttaa, joten voit nyt luoda tilauksen.  
 
 5.  Valitse **Toiminnot**-välilehden **Funktiot**-ryhmässä **Toteuta toimenpideviesti**.  
-6.  Valitse **Toteuta toim.pideviesti** -ikkunan **Kokoonpanotilaus**-kentässä ja valitse sitten **Tee kokoonpanotilaukset**.  
+6.  Valitse **Toteuta toim.pideviesti** -sivun **Kokoonpanotilaus**-kenttä ja valitse sitten **Tee kokoonpanotilaukset**.  
 7.  Valitse **OK**-painike.  
 
 ### <a name="assembling-and-shipping-the-first-ato-quantity"></a>Ensimmäisen ATO-määrän kokoaminen ja toimitus  
@@ -311,14 +311,14 @@ Kun myyntitilaus on myöhemmin kirjattu kokonaan laskutetuksi, myyntitilaus ja l
 
     Palaa toimitustehtävien suorittamiseen.  
 
-8.  Avaa **F.var. toimitusrivit** -ikkuna.  
+8.  Avaa **F.var. toimitusrivit** -sivu.  
 
     Huomaa, että **Määrä poimittu** -kenttä on edelleen tyhjä kaikilla riveillä. Tämä johtuu siitä, että edelleenkään ei ole poimittu toimitettavia nimikkeitä, vaan pelkästään osia, jotka tarvitaan ATO-määrien kokoamiseen.  
 
     Siirry liittyvän kokoonpanotilauksen tarkistukseen.  
 
 9. Valitse toimitusrivi kolmelle B-sarjan yksikölle.  
-10. Valitse **Rivit**-pikavälilehdessä **Rivi** ja valitse sitten **Kokoonpano tilausta varten**. **Kokoonpanotilaus** -ikkuna avautuu.  
+10. Valitse **Rivit**-pikavälilehdessä **Rivi** ja valitse sitten **Kokoonpano tilausta varten**. **Kokoonpanotilaus**-sivu avautuu.  
 
     Huomaa, että monet kokoonpanotilauksen kentät eivät ole käytettävissä, koska tilaus on linkitetty myyntitilaukseen.  
 
@@ -330,7 +330,7 @@ Kun myyntitilaus on myöhemmin kirjattu kokonaan laskutetuksi, myyntitilaus ja l
 
     **Kokoonpantava määrä** -kenttää voi muokata sitä varten, jos haluat toimittaa suoraan varastosta uusien nimikkeiden kokoamisen sijaan. Lisätietoja on ohjeaiheen [Tietoja Kokoonpano tilausta varten- tai Kokoonpano varastoon -toiminnoista](assembly-assemble-to-order-or-assemble-to-stock.md) kohdassa Skenaarioiden yhdistelmä.  
 
-12. Palaa **F.var. toimitus** -ikkunaan sulkemalla **Kokoonpanotilaus**-ikkuna.  
+12. Palaa **F.var. toimitus** -sivulle sulkemalla **Kokoonpanotilaus**-sivu.  
 13. Anna tuotepaketin B kolmen yksikön toimitusrivillä **Toimitettava määrä** -kenttään **3**.  
 14. Valitse **Toiminnot**-välilehden **Kirjaus**-ryhmässä **Kirjaa toimitus** ja valitse sitten **Toimita**.  
 
@@ -356,15 +356,15 @@ Kun myyntitilaus on myöhemmin kirjattu kokonaan laskutetuksi, myyntitilaus ja l
     Tallenna seuraavaksi kokoonpanotilaus on valmiiksi.  
 
 3.  Valitse **Navigoi**-välilehden **Fyysinen varasto** -ryhmässä **Kokoonpano tilausta varten: f. var. toimitusrivi**.  
-4.  Anna **Kokoonpano tilausta varten: f. var. toimitusrivi** -ikkunan **Toimitettava määrä** -kentässä arvo **5** ja sulje sitten ikkuna.  
+4.  Anna **Kokoonpano tilausta varten: f. var. toimitusrivi** -sivun **Toimitettava määrä** -kentässä arvo **5** ja sulje sitten sivu.  
 
-    Huomaa **Kokoonpanotilaus**-ikkunassa, että **Kokoonpantava määrä**- ja **Kulutettava määrä** -kentät on nyt täytetty toimitukseen kirjatuilla tuotos- ja kulutusmäärillä, jotka kirjataan toimitukseen.  
+    Huomaa **Kokoonpanotilaus**-sivulla, että **Kokoonpantava määrä**- ja **Kulutettava määrä** -kentät on nyt täytetty toimitukseen kirjatuilla tuotos- ja kulutusmäärillä, jotka kirjataan toimitukseen.  
 
-5.  Sulje **Kokoonapnotilaus** -ikkuna.  
+5.  Sulje **Kokoonpanotilaus**-sivu.  
 
 ### <a name="assembling-the-ats-quantity"></a>ATS-määrän kokoonpano  
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kokoonpanotilaukset** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Kokoonpanotilaukset** ja valitse sitten liittyvä linkki.  
 2.  Avaa kokoonpanotilaus tuotepaketin A kymmenen yksikön tilausta varten.  
 
     Huomaa, että **Kokoonpantava määrä** -kenttään on täytetty oletettu määrä.  
@@ -415,9 +415,9 @@ Kun myyntitilaus on myöhemmin kirjattu kokonaan laskutetuksi, myyntitilaus ja l
 
     Palaa varastotoimitukseen ja suorita viimeinen kokoonpanotehtävä.  
 
-8.  Avaa **F.var. toimitus** -ikkuna.  
+8.  Avaa **F.var. toimitusrivit** -sivu.  
 
-    Huomaa, että **F.var. toimitus** -ikkunan tuotepaketin A kymmenen yksikön rivin **Toimitettava määrä**- ja **Määrä poimittu** -kenttien arvo on nyt **10**.  
+    Huomaa, että **F.var. toimitus** -sivun tuotepaketin A kymmenen yksikön rivin **Toimitettava määrä**- ja **Määrä poimittu** -kenttien arvo on nyt **10**.  
 
 9. Valitse **Toiminnot**-välilehden **Kirjaus**-ryhmässä **Kirjaa toimitus** ja valitse sitten **Toimita**.  
 

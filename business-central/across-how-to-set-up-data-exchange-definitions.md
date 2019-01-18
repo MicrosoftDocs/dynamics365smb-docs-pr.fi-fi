@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 7c4ea5244379c5a7fcf45f1b3ea2b3a3b36280bb
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5d90eefb7fe765681a50b906f237e48b67beb935
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-data-exchange-definitions"></a>Tietojenvaihtomääritysten määrittäminen
@@ -22,7 +22,7 @@ Voit määrittää [!INCLUDE[d365fin](includes/d365fin_md.md)]in vaihtamaan tiet
 
 Datatiedoston tai tietovirran tietojenvaihtomäärityksen luonnin valmisteluun voit käyttää liittyvää XML-rakennetta. Sen avulla voit määrittää **Sarakkeen määritykset** -pikalomakkeeseen sisällytettävät tietoelementit. Katso vaihe 6 kohdassa "Tiedoston rivien ja sarakkeiden muotoilun kuvaileminen". Lisätietoja on kohdassa [XML-rakenteiden käyttäminen tiedonsiirtomääritysten valmistelussa](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
 
-Tiedonsiirtomääritykset määritetään yleensä **Tiedonsiirtomääritys**-ikkunassa. Vaihtokurssien päivityspalvelun tiedonsiirtomääritysten määrittäminen aloitetaan kuitenkin yksinkertaistetussa **Vaihtokurssin päivitysasetusten kortti** -ikkunassa.  
+Tiedonsiirtomääritykset määritetään yleensä **Tiedonsiirtomääritys**-sivulla. Vaihtokurssien päivityspalvelun tiedonsiirtomääritysten määrittäminen aloitetaan kuitenkin yksinkertaistetussa **Vaihtokurssin päivitysasetusten kortti** -sivulla.  
 
 > [!NOTE]  
 >  Jos muunnettava tiedosto on XML-muodossa, tämän ohjeaiheen termi *sarake* on tulkittava *tietoa sisältäväksi XML-elementiksi*.  
@@ -36,8 +36,8 @@ Tämä ohjeaihe sisältää seuraavat menettelyt:
 ## <a name="to-create-a-data-exchange-definition"></a>Tietojenvaihtomääritysten määrittäminen  
 Tietojenvaihtomäärityksen luominen muodostuu kahdesta tehtävästä:  
 
-1. Kuvaa tiedoston rivien ja sarakkeiden muotoilu **Tiedonsiirtomääritys**-ikkunassa.  
-2. Kohdista **Tiedonsiirron vastaavuus** -ikkunassa datatiedoston sarakkeet [!INCLUDE[d365fin](includes/d365fin_md.md)]in kenttiin.  
+1. Kuvaa tiedoston rivien ja sarakkeiden muotoilu **Tiedonsiirtomääritys**-sivulla.  
+2. Kohdista **Tiedonsiirron vastaavuus** -sivulla datatiedoston sarakkeet [!INCLUDE[d365fin](includes/d365fin_md.md)]in kenttiin.  
 
      Tämä kuvataan seuraavissa menettelytavoissa.  
 
@@ -84,7 +84,7 @@ Tietojenvaihtomäärityksen luominen muodostuu kahdesta tehtävästä:
      Jatka kuvailemalla datatiedoston sarakkeiden muotoilu **Sarakkeen määritykset**-pikalomakkeessa täyttämällä kentät alla olevan taulukon mukaisesti. Voit käyttää apuna rakennetiedostoa (esimerkiksi .XSD-tiedostoa), jolloin datatiedosto esitäyttää pikalomakkeeseen tarvittavat elementit. Lisätietoja on kohdassa [XML-rakenteiden käyttäminen tiedonsiirtomääritysten valmistelussa](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
 
 6. Valitse **Sarakkeen määritykset** -pikalomakkeessa **Hae tiedostorakenne**.  
-7. Valitse liittyvä rakennetiedosto **Hae tiedostorakenne** -ikkunassa ja valitse sitten **OK**. **Sarakkeen määritykset** -pikalomakkeen rivit täytetään datatiedoston rakenteen mukaisesti.  
+7. Valitse liittyvä rakennetiedosto **Hae tiedostorakenne** -sivulla ja valitse sitten **OK**. **Sarakkeen määritykset** -pikalomakkeen rivit täytetään datatiedoston rakenteen mukaisesti.  
 8. Muokkaa **Sarakkeen**-pikalomakkeen kenttiä tai täytä ne seuraavassa taulukossa kuvatulla tavalla.  
 
     |Kenttä|Kuvaus|  
@@ -105,10 +105,10 @@ Tietojenvaihtomäärityksen luominen muodostuu kahdesta tehtävästä:
  Seuraavaksi on päätettävä, mitkä datatiedoston sarakkeet tai XML-elementit ja [!INCLUDE[d365fin](includes/d365fin_md.md)]in kentät yhdistetään.  
 
 > [!NOTE]  
->  Erityinen kartoitus riippuu vaihdettavan tiedoston liiketoimintatarkoituksesta ja paikallisista variaatioista. Jopa SEPA-pankkistandardissa on paikallisia vaihteluita. [!INCLUDE[d365fin](includes/d365fin_md.md)] tukee SEPA CAMT -tiliotetiedostojen tuontia ilman lisätoimia. Siitä on osoituksena **SEPA CAMT** -tiedonsiirtomäärityksen tietuekoodi **Tiedonsiirtomääritykset**-ikkunassa. Lisätietoja SEPA CAMT -tuelle ominaisista kenttien yhdistämismäärityksistä on kohdassa [Kenttien yhdistämismääritykset SEPA CAMT -tiedostoja tuotaessa](across-field-mapping-when-importing-sepa-camt-files.md).  
+>  Erityinen kartoitus riippuu vaihdettavan tiedoston liiketoimintatarkoituksesta ja paikallisista variaatioista. Jopa SEPA-pankkistandardissa on paikallisia vaihteluita. [!INCLUDE[d365fin](includes/d365fin_md.md)] tukee SEPA CAMT -tiliotetiedostojen tuontia ilman lisätoimia. Siitä on osoituksena **SEPA CAMT** -tiedonsiirtomäärityksen tietuekoodi **Tiedonsiirtomääritykset**-sivulla. Lisätietoja SEPA CAMT -tuelle ominaisista kenttien yhdistämismäärityksistä on kohdassa [Kenttien yhdistämismääritykset SEPA CAMT -tiedostoja tuotaessa](across-field-mapping-when-importing-sepa-camt-files.md).  
 
 #### <a name="to-map-columns-in-the-data-file-to-fields-in-included365finincludesd365finmdmd"></a>Datatiedoston sarakkeiden yhdistäminen [!INCLUDE[d365fin](includes/d365fin_md.md)]in kenttiin  
-1. Valitse **Rivin määritykset** -pikalomakkeessa rivi, jonka kenttiin haluat yhdistää sarakkeita, ja valitse sitten **Kenttien yhdistämismääritys**. **Tiedonsiirron vastaavuus** -ikkuna avautuu.  
+1. Valitse **Rivin määritykset** -pikalomakkeessa rivi, jonka kenttiin haluat yhdistää sarakkeita, ja valitse sitten **Kenttien yhdistämismääritys**. **Tiedonsiirron vastaavuus** -sivu avautuu.  
 2. Määritä kohdistus **Yleinen**-pikavälilehdellä täyttämällä seuraavassa taulukossa kuvatut kentät.  
 
     |Kenttä|Kuvaus|  
@@ -124,7 +124,7 @@ Tietojenvaihtomäärityksen luominen muodostuu kahdesta tehtävästä:
 
     |Kenttä|Kuvaus|  
     |---------------------------------|---------------------------------------|  
-    |**Sarakkeen nro**|Määritä se tiedoston sarake, jonka haluat määrittää kartoitusta varten.<br /><br /> Voit valita vain sarakkeita, joilla on rivi **Tiedonsiirtomääritykset**-ikkunan **Sarakkeen määritykset** -pikavälilehdessä.|  
+    |**Sarakkeen nro**|Määritä se tiedoston sarake, jonka haluat määrittää kartoitusta varten.<br /><br /> Voit valita vain sarakkeita, joilla on rivi **Tiedonsiirtomääritykset**-sivun **Sarakkeen määritykset** -pikavälilehdessä.|  
     |**Kentän tunnus**|Määritä, mihin kenttään **Sarakkeen nro** -kentän sarake yhdistetään.<br /><br /> Voit valita vain **Yleinen**-pikavälilehden **Taulukko**-kenttään määrittämäsi taulukon kenttiä.|  
     |**Valinnainen**|Määritä, että kartta ohitetaan, jos kenttä on tyhjä. **Huomautus:** Jos et valitse tätä valintaruutua, järjestelmä ilmoittaa vientivirheestä, jos kenttä on tyhjä. **Huomautus:** Tätä kenttää käytetään vain viennissä.|  
     |**Kohdetaulukon tunnus**|Näkyvissä vain, kun **Käytä väliaikaisena taulukkona** -valintaruutu on valittu.<br /><br /> Määritä taulukko, johon **Sarakeotsikko**-kentän arvo yhdistetään, kun tietojen tuonnissa käytetään väliaikaista taulukkoa.|  
@@ -147,8 +147,8 @@ Kun olet luonut tietojenvaihtomäärityksen tietylle datatiedostolle, voit vied�
 
 ### <a name="to-import-an-existing-data-exchange-definition"></a>Olemassa olevan tietojenvaihtomäärityksen tuominen  
 1. Tallenna XML-tiedosto, joka edustaa tietojenvaihtomääritystä tarvittavassa paikassa.  
-2. Kirjoita **Haku**-ruutuun **Tiedonsiirtomääritykset** ja valitse aiheeseen liittyvä linkki.  
-3. Valitse **Uusi**-toiminto. **Tiedonsiirtomääritys**-ikkuna avautuu.  
+2. Kirjoita **Haku**-ruutuun **Tietojenvaihtomääritykset** ja valitse aiheeseen liittyvä linkki.  
+3. Valitse **Uusi**-toiminto. **Tiedonsiirtomääritys**-sivu avautuu.  
 4. Valitse **Tuo tiedonsiirtomääritys** -toiminto.  
 5. Valitse vaiheessa 1 tallennettu tiedosto.  
 

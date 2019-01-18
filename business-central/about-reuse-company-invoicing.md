@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 917887deae163a76b233e1635344e537806f6215
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3e2357766d514f30e42869a4f10ede1e66a6fec1
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="using-the-same-office-365-account-in-included365finincludesd365finlongmdmd-and-microsoft-invoicing"></a>Saman Office 365 -tilin käyttäminen [!INCLUDE[d365fin](includes/d365fin_long_md.md)]:ssä ja Microsoft Invoicingissa
@@ -32,7 +32,7 @@ Tämän vuoksi sinun on kirjauduttava [!INCLUDE[d365fin](includes/d365fin_md.md)
 ### <a name="to-rename-your-company"></a>Yrityksen nimeäminen uudelleen
 1.  Kirjaudu [!INCLUDE[d365fin](includes/d365fin_md.md)]:een.  
 2.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Yritykset** ja valitse sitten liittyvä linkki.  
-3.  Valitse **Omat yritykset** -ikkunassa **Muokkaa luetteloa** -painike.  
+3.  Valitse **Omat yritykset** -sivulla **Muokkaa luetteloa** -painike.  
 4.  Vaihda *Oma yritys* -merkinnän nimi.  
 
     Odota useita minuutteja. Taustalla olevaan tietokantaa tehdä muutoksia, ja kestää jonkin aikaa.

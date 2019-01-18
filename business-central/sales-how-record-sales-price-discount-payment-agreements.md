@@ -11,10 +11,10 @@ ms.search.keywords: special price, alternate price, pricing
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ad6a72c7a0cd523ec9215df1093c69864f866028
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 92b853c0d897ac5d93cbabc435b71bbf420d28a5
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Erikoismyyntihintojen ja -alennusten kirjaaminen
@@ -62,8 +62,8 @@ Kun olet määrittänyt asiakkaat, joille myönnetään laskun alennuksia, mää
 
 Jatka uuden myyntilaskun alennusehtojen määrittämiseen.
 
-1. Valitse **Asiakkaan kortti** -ikkunassa **Laskualennukset**-toiminto. **Asiakkaan laskualennukset** -ikkuna aukeaa.
-2. Syötä **Valuutan koodi** -kenttään sen valuutan koodi, johon rivin laskualennuksen ehdot kohdistetaan. Jätä kenttä tyhjäksi, jos laskualennuksen ehtojen määritys tapahtuu valuutassa EUR.
+1. Valitse **Asiakkaan kortti** -sivulla **Laskualennukset**-toiminto. **Asiakkaan laskualennukset** -sivu avautuu.
+2. Anna **Valuutan koodi** -kenttään sen valuutan koodi, johon rivin laskualennuksen ehdot kohdistetaan. Jätä kenttä tyhjäksi, jos laskualennuksen ehtojen määritys tapahtuu valuutassa EUR.
 3. Syötä **Vähimmäissumma**-kenttään laskun vähimmäissumma, joka oikeuttaa alennukseen.
 4. Syötä **Alennus-%**-kohtaan laskun alennus prosentteina laskun summasta.
 5. Toista vaiheet 5–7 jokaiselle valuutalle, jossa asiakas saa eri laskualennuksen.
@@ -73,23 +73,23 @@ Laskualennus on nyt määritetty ja liitetty kyseiselle asiakkaalle. Kun valitse
 ## <a name="to-work-with-sales-invoice-discounts-and-service-charges"></a>Myyntilaskualennukset ja palvelumaksujen käyttäminen
 Kun käytät laskualennuksia, laskusumman suuruus määrää annettavan alennuksen suuruuden.  
 
-Voit myös lisätä **Asiakkaan laskualennukset** -ikkunassa tietyn summan ylittäville laskuille palvelumaksuja.  
+Voit lisätä **Asiakkaan laskualennukset** -sivulla tietyn summaisille laskuille myös palvelumaksuja.  
 
 Ennen kuin myynneissä voi käyttää laskualennuksia, ohjelmaan täytyy syöttää tiettyjä tietoja. Täytyy päättää:  
 
 - ketkä asiakkaat saavat tämän tyyppisen alennuksen.  
 - mitä alennusprosentteja käytetään.  
 
-Jos haluat, että laskualennukset lasketaan automaattisesti, voit määrittää sen **Myyntien ja myyntisaamisten asetukset** -ikkunassa.  
+Jos haluat, että laskualennukset lasketaan automaattisesti, voit määrittää sen **Myyntien ja myyntisaamisten asetukset** -sivulla.  
 
 Voit määrittää jokaiselle asiakkaalle erikseen, annetaanko tälle laskualennuksia, jos tarve on tyydytetty (eli jos laskusumma on tarpeeksi suuri). Laskualennusehdot voi määrittää paikallisena valuuttana kotimaisille asiakkaille ja ulkomaan valuuttana ulkomaisille asiakkaille.  
 
-Voit linkittää alennusprosentit tiettyihin laskusummiin **Asiakkaan laskualennukset** -ikkunoissa. Voit syöttää mitä tahansa prosenttilukuja kussakin ikkunassa. Jokainen asiakas voi olla erillisessä ikkunassa, tai samaan ikkunaan voi linkittää useita asiakkaita.  
+Voit linkittää alennusprosentit tiettyihin laskusummiin **Asiakkaan laskualennukset** -sivuilla. Voit syöttää mitä tahansa prosenttilukuja kullakin sivulla. Jokainen asiakas voi olla erillisellä sivulla, tai samalle sivulle voi linkittää useita asiakkaita.  
 
 Spesifiseen laskusummaan voi linkittää alennusprosentin lisäksi (tai sen sijaan) palvelumaksusumman.  
 
 > [!TIP]  
->  Ennen kuin näitä tietoja aletaan syöttää ohjelmaan, olisi hyvä tehdä luonnos alennusrakenteesta, jota haluat käyttää. Tällä tavalla on helpompi nähdä, ketkä asiakkaat voi linkittää samaan laskualennusikkunaan. Mitä vähemmän ikkunoita täytyy määrittää, sitä nopeampaa perustietojen syöttäminen on.  
+>  Ennen kuin näitä tietoja aletaan syöttää ohjelmaan, olisi hyvä tehdä luonnos alennusrakenteesta, jota haluat käyttää. Tällä tavalla on helpompi nähdä, ketkä asiakkaat voi linkittää samaan laskualennussivulle. Mitä vähemmän sivuja on määritettävä, sitä nopeampaa perustietojen antaminen on.  
 
 ## <a name="best-price-calculation"></a>Parhaan hinnan laskenta
 Kun olet kirjannut myynnin ja ostojen erikoishinnat ja rivialennukset, [!INCLUDE[d365fin](includes/d365fin_md.md)] varmistaa, että nimikekaupan tuotto on aina optimaalinen laskemalla automaattisesti parhaan hinnan myynti- ja ostoasiakirjoille sekä projekti- ja nimikepäiväkirjan riville.
@@ -114,17 +114,17 @@ Paras hinta on tietyn päivän alhaisin sallittu hinta, jolla on suurin sallittu
 Jos erikoishintaa ei voi laskea rivin nimikkeelle, joko viimeinen välitön kustannus tai nimikekortin yksikköhinta lisätään.
 
 ## <a name="to-copy-sales-prices"></a>Myyntihintojen kopioiminen  
-Jos haluat kopioida myyntihintoja, kuten jonkin yksittäisen asiakkaan hintoja koko asiakashintaryhmälle, sinun tulee ajaa **Ehdota myyntihinta työkirja**  eräajo. Eräajon löytää **Myyntihintatyökirja**-ikkunasta.    
+Jos haluat kopioida myyntihintoja, kuten jonkin yksittäisen asiakkaan hintoja koko asiakashintaryhmälle, sinun tulee ajaa **Ehdota myyntihinta työkirja**  eräajo. Eräajo sijaitsee **Myyntihintatyökirja**-sivulla.    
 
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntihinnan työkirja** ja valitse liittyvä linkki.  
 2.  Valitse **Ehdota myyntihintaa työkirjalle**. -toiminto.  
 3.  Täytä **Myyntihinnat**-pikavälilehden kenttiin kopioitavien, alkuperäisten myyntihintojen **Myynnin tyyppi** ja **Myyntikoodi**.  
-4.  Täytä pyyntöikkunan yläosassa **Myynnin tyyppi** ja **Myyntikoodi** tyypillä ja nimellä, joihin haluat kopioida myyntihinnat.  
+4.  Täytä pyyntösivun yläosassa **Myynnin tyyppi** ja **Myyntikoodi** tyypillä ja nimellä, joihin haluat kopioida myyntihinnat.  
 5.  Jos haluat eräajon luovan uusia hintoja, lisää rasti **Luo uudet hinnat** -kenttään.  
-6.  Napsauta **OK** täyttääksesi rivit **Myyntihintatyökirja**-ikkunassa ehdotetuilla uusilla hinnoilla ja ilmaistaksesi, että hinnat ovat voimassa valitulle **Myynnin tyypille**.  
+6.  Napsauta **OK** täyttääksesi rivit **Myyntihintatyökirja**-sivulla ehdotetuilla uusilla hinnoilla ja ilmaistaksesi, että hinnat ovat voimassa valitulle **myyntityypille**.  
 
 > [!NOTE]  
->  Tämä eräajo luo ainoastaan ehdotuksia eikä se ota ehdotettuja muutoksia käyttöön. Jos olet tyytyväinen ehdotuksiin ja haluat ottaa ne käyttöön eli syöttää ne **Myyntihinnat**-taulukkoon, voit käyttää **Ota käyttöön hinnan muutos** -eräajoa, joka löytyy valitsemalla **Myyntihinnan työkirja** -ikkunan **Toiminnot**-välilehden Toiminnot **ryhmän**-ryhmästä.
+>  Tämä eräajo luo ainoastaan ehdotuksia eikä se ota ehdotettuja muutoksia käyttöön. Jos olet tyytyväinen ehdotuksiin ja haluat ottaa ne käyttöön eli antaa ne **Myyntihinnat**-taulukkoon, voit käyttää **Ota käyttöön hinnan muutos** -eräajoa, joka löytyy valitsemalla **Myyntihinnan työkirja** -sivun **Toiminnot**-välilehden **Toiminnot**-ryhmästä.
 
 ## <a name="see-also"></a>Katso myös
 [Myynnin määrittäminen](sales-setup-sales.md)  

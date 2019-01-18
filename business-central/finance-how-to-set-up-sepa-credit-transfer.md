@@ -10,15 +10,16 @@ ms.workload: na
 ms.search.keywords: sepa, credit, transfer, payment,
 ms.date: 10/01/2018
 ms.author: sgroespe
+redirect_url: finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 64abd01caa2a2f6845bb3d54c7721333a0a360b3
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 103ebe376d3384eab119617b903f9a803f248462
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-sepa-credit-transfer"></a>SEPA-hyvityksen siirron määrittäminen
-Voit viedä maksuja **Maksupäiväkirja**-ikkunasta tiedostoon siirrettäväksi verkkopankkiisi liittyvien tilisiirtojen käsittelemiseksi. [!INCLUDE[d365fin](includes/d365fin_md.md)] tukee SEPA-hyvitysten siirtomuotoa, mutta maa- tai aluekohtaisesti voi olla käytettävissä muita sähköisiä maksumuotoja.  
+Voit viedä maksuja **Maksupäiväkirja**-sivulta tiedostoon siirrettäväksi verkkopankkiisi liittyvien tilisiirtojen käsittelemiseksi. [!INCLUDE[d365fin](includes/d365fin_md.md)] tukee SEPA-hyvitysten siirtomuotoa, mutta maa- tai aluekohtaisesti voi olla käytettävissä muita sähköisiä maksumuotoja.  
 
 Jos haluat ottaa käyttöön sellaisten pankkitiedostomuotojen viennin, joita [!INCLUDE[d365fin](includes/d365fin_md.md)] ei tue suoraan, voit määrittää tiedonsiirtomäärityksen tiedonsiirtokehyksen avulla. Lisätietoja on kohdassa [Tietojenvaihtomääritysten määrittäminen](across-how-to-set-up-data-exchange-definitions.md).  
 
@@ -26,7 +27,7 @@ Ennen kuin voit käsitellä maksun sähköisesti viemällä maksutiedostot SEPA-
 
 * Määritä kyseinen pankkitilin käsittelemään SEPA-hyvityksen siirtomuoto  
 * Määritä toimittajan kortit, jotta voit käsitellä maksut viemällä tiedostot SEPA-hyvityksen siirtomuotoon  
-* Määritä liittyvä yleisen päiväkirja erä ottamaan käyttöön maksujen vienti **Maksupäiväkirja**-ikkunasta  
+* Määritä liittyvä yleisen päiväkirja erä ottamaan käyttöön maksujen vienti **Maksupäiväkirja**-sivulta  
 * Yhdistä vähintään yhden maksutyypin tiedonsiirtomääritys liittyvään maksutapaan  
 
 ### <a name="to-set-up-a-bank-account-for-sepa-credit-transfer"></a>Pankkitilin määrittäminen SEPA-hyvityksen siirtoa varten  
@@ -45,21 +46,19 @@ Ennen kuin voit käsitellä maksun sähköisesti viemällä maksutiedostot SEPA-
 3. Valitse **Maksu**-pikavälilehden **Maksutavan koodi** -kentässä **PANKKI**.  
 4. Valitse **Ensisijainen pankkitili** -kentässä pankki, johon rahat siirretään, kun ne käsitellään verkkopankissasi.  
 
-     **Ensisijainen pankkitili** -kentän arvo kopioidaan **Maksupäiväkirja**-ikkunan **Vastaanottajan pankkitili** -kenttään.  
+     **Ensisijainen pankkitili** -kentän arvo kopioidaan **Maksupäiväkirja**-sivun **Vastaanottajan pankkitili** -kenttään.  
 
 ### <a name="to-set-the-payment-journal-up-to-export-payment-files"></a>Maksupäiväkirjan määrittäminen maksutiedostojen vientiä varten  
 1. Syötä **Etsi**-ruudussa **Maksupäiväkirjat** ja valitse sitten vastaava linkki.  
 2. Avaa maksupäiväkirja, jota käytät maksujen käsittelyyn viemällä tiedostot SEPA-hyvitys siirtomuodossa.  
 3. Valitse **Erän nimi** -kentässä avattava luettelon painike.  
-4. Valitse **Yleisen päiväkirjan erät** -ikkunan **Kotisivun**-välilehden **Hallinta**-ryhmässä **Muokkaa luetteloa**.  
+4. Valitse **Yleisen päiväkirjan erät** -sivun **Kotisivun**-välilehden **Hallinta**-ryhmässä **Muokkaa luetteloa**.  
 5. Valitse sen maksupäiväkirjan rivillä, jonka avulla viet maksut, **Salli maksun vienti** -valintaruutu.  
 
 ### <a name="to-connect-the-data-exchange-definition-for-one-or-more-payment-types-with-the-relevant-payment-method-or-methods"></a>Vähintään yhden maksutyypin tiedonsiirtomäärityksen yhdistäminen liittyvään maksutapaan  
-1. Syötä **Etsi**-ruudussa **Maksutavat** ja valitse sitten vastaava linkki.  
-2. Valitse **Maksutavat** -ikkunassa ensin maksutapa, jolla maksut viedään, ja sitten **Maksun vientirivin määritys** -kenttä.  
-3. Valitse **Maksun vientirivin määritykset** -ikkunassa koodi, jonka määritit **Rivimääritykset**-pikavälilehden **Koodi**-kentässä ohjeaiheen [Tiedonsiirtomääritysten määrittäminen](across-how-to-set-up-data-exchange-definitions.md) kohdan Tiedoston rivien ja sarakkeiden muotoilun kuvaaminen vaiheessa 4.  
-
-    Suoraveloitusvaltakirja lisätään automaattisesti **Suoraveloitusvaltakirjan tunnus** -kenttään, kun luot myyntilaskun vaiheessa 2 valitulle asiakkaalle. Lisätietoja on kohdassa [Toistuvien myynti- ja ostorivien luominen](sales-how-work-standard-lines.md).  
+1. Anna **Haku**-ruudussa **Maksutavat** ja valitse sitten vastaava linkki.  
+2. Valitse **Maksutavat**-sivulla ensin maksutapa, jolla maksut viedään, ja sitten **Maksun vientirivin määritys** -kenttä.  
+3. Valitse **Maksun vientirivin määritykset** -sivulla koodi, jonka määritit **Rivimääritykset**-pikavälilehden **Koodi**-kentässä ohjeaiheen [Tiedonsiirtomääritysten määrittäminen](across-how-to-set-up-data-exchange-definitions.md) kohdan Tiedoston rivien ja sarakkeiden muotoilun kuvaaminen vaiheessa 4.  
 
 ## <a name="see-also"></a>Katso myös  
 [Maksujen kerääminen SEPA-suoraveloitusperintänä](finance-collect-payments-with-sepa-direct-debit.md)  

@@ -13,10 +13,10 @@ ms.search.keywords: project management, capacity, staff
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c9c1ec39fcec950037193b15d04ab8dde994ff63
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 362f335fa313dce9a4e75c962ef6f5a2f01ec5fd
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-resources"></a>Resurssien määrittäminen
@@ -45,29 +45,29 @@ Resurssien kapasiteetti on määritettävä työkalenteriin jaksoittaisena saata
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Resurssit** ja valitse sitten liittyvä linkki.
 2. Avaa asianmukainen resurssikortti ja valitse **Resurssikapasiteetti**-toiminto.
-3. **Resurssikapasiteettimatriisi**-pikavälilehden sarakkeissa näytettävä jakson pituus, kuten **Päivä**, määritetään **Resurssikapasiteetti**-ikkunan **Näyttöperuste**-kentässä.
+3. **Resurssikapasiteettimatriisi**-pikavälilehden sarakkeissa näytettävä jakson pituus, kuten **Päivä**, määritetään **Resurssikapasiteetti**-sivun **Näyttöperuste**-kentässä.
 4. Kullekin rivin resurssille määritetään kunkin kauden käytettävät tunnit jakson sarakkeisiin.
 5. Vaihtoehtoisesti resurssin viikoittaisen kapasiteetin tiedot, kuten alkamis- ja päättymispäivämäärän, voi määrittää valitsemalla **Aseta kapasiteetti** -toiminnon.
-6. Täytä **Resurssin kapasiteetti asetuk.**-ikkunan rivillä tarvittavat kentät.
-7. Valitse **Päivitä kapasiteetti** -toiminto. **Resurssikapasiteetti**-ikkunaan päivitetään syötetty kapasiteetti.
-8. Sulje ikkuna.
+6. Täytä **Resurssin kapasiteetti asetuk.**-sivun rivillä tarvittavat kentät.
+7. Valitse **Päivitä kapasiteetti** -toiminto. **Resurssikapasiteetti**-sivulle päivitetään annettu kapasiteetti.
+8. Sulje sivu.
 
 ## <a name="to-set-up-alternate-resource-costs"></a>Vaihtoehtoisten resurssikustannusten määrittäminen
 Resurssikortissa määritettyjen kustannusten lisäksi voit määrittää kullekin resurssille vaihtoehtoiset kustannukset. Jos esimerkiksi maksat työntekijälle suurempaa tuntipalkkaa ylityöstä, ylityöpalkalle voi määrittää resurssikustannuksen. Resurssille määritetty vaihtoehtoinen kustannus ohittaa resurssikortissa olevan kustannuksen silloin, kun resurssia käytetään resurssipäiväkirjassa.
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Resurssit** ja valitse sitten liittyvä linkki.  
 2. Valitse resurssi, jolle haluat määrittää vähintään yhden vaihtoehtoisen kustannuksen. Valitse sitten **Kustannukset**-toiminto.  
-3. Täytä **Resurssikustannukset**-ikkunan rivillä tarvittavat kentät.  
+3. Täytä **Resurssikustannukset**-sivun rivillä tarvittavat kentät.  
 4. Toista vaihe 3 kaikkien määritettävien vaihtoehtoisten resurssikustannusten kohdalla.
 
-**Huomautus**. Voit määrittää kaikki resursseja ja resurssiryhmiä koskevia resurssikustannuksia avaamalla **Resurssikustannukset**-ikkunan ja täyttämällä sen kentät.
+**Huomautus**. Voit määrittää kaikki resursseja ja resurssiryhmiä koskevia resurssikustannuksia avaamalla **Resurssikustannukset**-sivun ja täyttämällä sen kentät.
 
 ## <a name="to-set-up-alternate-resource-prices"></a>Vaihtoehtoisten resurssihintojen määrittäminen
 Resurssikortissa määritetyn hinnan lisäksi voit määrittää kullekin resurssille vaihtoehtoiset hinnat. Vaihtoehtoiset hinnat voivat olla ehdollisia. Ne voivat riippua siitä, minkä projekti- tai työtyypin yhteydessä resurssia käytetään.
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Resurssit** ja valitse sitten liittyvä linkki.
 2. Valitse resurssi, jolle haluat määrittää vähintään yhden vaihtoehtoisen hinnan. Valitse sitten **Hinnat**-toiminto.
-3. Täytä **Resurssihinnat**-ikkunan rivillä tarvittavat kentät.
+3. Täytä **Resurssihinnat**-sivun rivillä tarvittavat kentät.
 4. Toista vaihe 3 kaikkien määritettävien vaihtoehtoisten resurssihintojen kohdalla.
 
 ## <a name="see-also"></a>Katso myös

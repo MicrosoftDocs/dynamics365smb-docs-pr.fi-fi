@@ -13,10 +13,10 @@ ms.search.keywords: write down
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 5e8aa531697dcdc6f629312c0569c5628b3f5755
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4a6bc27850b84928641f5de7c364fb150fcb4481
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="depreciation-methods"></a>Poistotavat
@@ -52,7 +52,7 @@ Jos annat poistojakson (poistovuosien tai poistokuukausien lukumäärän tai poi
 
 Jäljellä oleviksi poistopäiviksi lasketaan poistopäivien lukumäärä miinus poiston aloituspäivän ja viimeisen käyttöomaisuustapahtuman päivän välisten päivien lukumäärä.  
 
-Kirjanpitoarvoa voidaan vähentää kirjatulla arvonkorotuksella, arvonalennuksella, mukautettu 1- tai mukautettu 2 -summilla riippuen siitä, onko **Sisällytä poistolaskentaan** -kentästä poistettu aktivointi ja onko **Kirjanpitoarvon osa** -kenttä aktivoitu **KO:n kirjaustyypin asetukset** -ikkunassa. Laskenta takaa sen, että käyttöomaisuudelle tehdään kokonaispoisto poiston lopetuspäivämääränä.  
+Kirjanpitoarvoa voidaan vähentää kirjatulla arvonkorotuksella, arvonalennuksella, mukautettu 1- tai mukautettu 2 -summilla riippuen siitä, onko **Sisällytä poistolaskentaan** -kentästä poistettu aktivointi ja onko **Kirjanpitoarvon osa** -kenttä aktivoitu **KO:n kirjaustyypin asetukset** -sivulla. Laskenta takaa sen, että käyttöomaisuudelle tehdään kokonaispoisto poiston lopetuspäivämääränä.  
 
 ### <a name="fixed-yearly-percentage"></a>Kiinteä vuosittainen prosentti
 Jos syötät kiinteän vuosittaisen prosentin, ohjelma käyttää poistosumman laskemiseen seuraavaa laskukaavaa:  
@@ -90,7 +90,7 @@ Poistosumma lasketaan seuraavalla kaavalla:
 
 Poistopohjaksi lasketaan kirjanpitoarvo vähennettynä kirjatulla poistolla nykyisen tilikauden aloituspäivämäärästä lähtien.  
 
-Kirjattu poistosumma voi sisältää tapahtumia, joilla on eri kirjaustyyppejä (arvonalennus, mukautettu 1 ja mukautettu 2), jotka on kirjattu nykyisen tilikauden aloituspäivämäärästä lähtien. Nämä kirjaustyypit sisältyvät kirjattuun poistosummaan, jos **Poistotyyppi**- ja **Osa kirjanpitoarvosta** -kentissä **KO:n kirjaustyypin asetukset** -ikkunassa on rasti.  
+Kirjattu poistosumma voi sisältää tapahtumia, joilla on eri kirjaustyyppejä (arvonalennus, mukautettu 1 ja mukautettu 2), jotka on kirjattu nykyisen tilikauden aloituspäivämäärästä lähtien. Nämä kirjaustyypit sisältyvät kirjattuun poistosummaan, jos **Poistotyyppi**- ja **Osa kirjanpitoarvosta** -kentissä **KO:n kirjaustyypin asetukset** -sivulla on valintamerkki.  
 
 ### <a name="example---declining-balance-1-depreciation"></a>Esimerkki - Menojäännöspoisto 1 -poisto
 Käyttöomaisuuden hankintameno on PVA 100 000. **Menojäännöspoisto-%** -kentässä on arvo 25. **Laske poisto** -eräajo suoritetaan kaksi kertaa vuodessa.  
@@ -167,10 +167,10 @@ MJP1/TP on lyhenne Menojäännöspoiston 1 ja Tasapoiston yhdistelmästä. Laske
 
 Voit laskea menojäännöspoiston käyttämällä eri prosentteja.  
 
-Jos tätä menetelmää käytetään, **KO-poistokirjat**-ikkunaan tulee syöttää arvioitu elinikä ja menojäännöspoistoprosentti.  
+Jos tätä menetelmää käytetään, **KO-poistokirjat** -sivulla on annettava arvioitu käyttöikä ja menojäännöspoistoprosentti  
 
 ### <a name="example---db1-sl-depreciation"></a>Esimerkki - MJP1/TP-poisto
-Käyttöomaisuuden hankintameno on PVA 100 000. **KO-poistokirjat** -ikkunassa **Menojäännöspoisto-%** -kentässä on 25 ja **Poistovuosien lukumäärä** -kentässä on 8. **Laske poisto** -eräajo suoritetaan kaksi kertaa vuodessa.  
+Käyttöomaisuuden hankintameno on PVA 100 000. **KO-poistokirjat** -sivun **Menojäännöspoisto-%** -kentässä on 25 ja **Poistovuosien lukumäärä** -kentässä on 8. **Laske poisto** -eräajo suoritetaan kaksi kertaa vuodessa.  
 
 Käyttöomaisuustapahtumat näyttävät seuraavalta:  
 
@@ -219,21 +219,21 @@ Tässä käytetään tasapoistosummaa, koska se on suurempi.
 ## <a name="user-defined-depreciation"></a>Käyttäjän määrittämä poisto
 Ohjelmassa on ominaisuus, joka mahdollistaa käyttäjäkohtaisten poistomenetelmien määrittämisen.  
 
-Käyttäjäkohtaisessa menetelmässä käytetään **Poistotaulukot**-ikkunaa, johon tulee syöttää poistoprosentti kullekin jaksolle (kuukaudelle, vuosineljännekselle tai kirjanpitojaksolle).  
+Käyttäjäkohtaisessa menetelmässä käytetään **Poistotaulukot**-sivu, johon tulee syöttää poistoprosentti kullekin jaksolle (kuukaudelle, vuosineljännekselle tai kirjanpitojaksolle).  
 
 Poistosumman laskennan kaava on:  
 
 Poistosumma = (Poisto-% x Poistopäivien lkm x Poistopohja) / (100 x 360)  
 
 ### <a name="depreciation-based-on-number-of-units"></a>Yksiköiden lukumäärään perustuvat poistot
-Tätä käyttäjäkohtaista menetelmää voidaan käyttää myös poistoissa, jotka perustuvat yksiköiden lukumäärään, esimerkiksi sellaisten tuotantokoneiden kohdalla, joiden eliniän kapasiteetti on vakio. **Poistotaulukot**-ikkunaan voidaan syöttää yksiköiden lukumäärä, joka voidaan tuottaa kullakin ajanjaksolla (kuukaudessa, neljännesvuodessa, vuodessa tai kirjanpitojakson aikana).  
+Tätä käyttäjäkohtaista menetelmää voidaan käyttää myös poistoissa, jotka perustuvat yksiköiden lukumäärään, esimerkiksi sellaisten tuotantokoneiden kohdalla, joiden eliniän kapasiteetti on vakio. **Poistotaulukot**-sivulle voidaan syöttää yksiköiden lukumäärä, joka voidaan tuottaa kullakin ajanjaksolla (kuukaudessa, neljännesvuodessa, vuodessa tai kirjanpitojakson aikana).  
 
 ### <a name="to-set-up-user-defined-depreciation-methods"></a>Käyttäjäkohtaisten poistomenetelmien määrittäminen
-**Poistotaulukon kortti** -ikkunassa voidaan määrittää käyttäjäkohtaiset poistomenetelmät. Voit esimerkiksi määrittää poiston yksiköiden määrän perusteella.  
+**Poistotaulukon kortti** -sivulla voidaan määrittää käyttäjäkohtaiset poistomenetelmät. Voit esimerkiksi määrittää poiston yksiköiden määrän perusteella.  
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poistotaulukot** ja valitse sitten liittyvä linkki.  
-2. Valitse **Poistotaulukkoluettelo**-ikkunassa **Uusi**-toiminto.  
-3. Täytä **Poistotaulukon kortti** -ikkunassa tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. Valitse **Poistotaulukkoluettelo**-sivulla **Uusi**-toiminto.  
+3. Täytä **Poistotaulukon kortti** -sivulla tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ### <a name="example---user-defined-depreciation"></a>Esimerkki - käyttäjän määrittämä poisto
 Käytä poistomenetelmää, joka mahdollistaa poistojen tekemisen käyttöomaisuuseriin nopeutetusti tuloverotarkoituksia varten.  
@@ -257,7 +257,7 @@ Hankintameno on 100 000 PVA ja poistoaika on viisi vuotta. Poisto lasketaan vuos
 
 * Poiston aloituspvm  
 
-Jos käytät käyttäjäkohtaista menetelmää, **Ens. käyttäjäkoht. poistopvm**- ja **Poiston aloituspvm**-kenttä tulee olla täytettynä **KO-poistokirjat**-ikkunassa. **Ens. käyttäjäkoht. poistopvm** -kenttää ja **Poistotaulukot**-ikkunan **Jakson pituus** -kentän sisältöä käytetään määrittämään poistolaskennassa käytettäviä aikavälejä. Näin varmistetaan, että ohjelma käynnistyy käyttämällä kaikkien omaisuuserien kohdalla määritettyä prosenttilukua samana päivänä. **Poiston aloituspvm** -kenttää käytetään laskemaan poistopäivien lukumäärä.  
+Jos käytät käyttäjäkohtaista menetelmää, **Ens. käyttäjäkoht. poistopvm**- ja **Poiston aloituspvm**-kenttä tulee olla täytettynä **KO-poistokirjat**-sivulla. **Ens. käyttäjäkoht. poistopvm** -kenttää ja **Poistotaulukot**-sivun **Jakson pituus** -kentän sisältöä käytetään määrittämään poistolaskennassa käytettäviä aikavälejä. Näin varmistetaan, että ohjelma käynnistyy käyttämällä kaikkien omaisuuserien kohdalla määritettyä prosenttilukua samana päivänä. **Poiston aloituspvm** -kenttää käytetään laskemaan poistopäivien lukumäärä.  
 
 Edellisessä esimerkissä sekä **Ens. käyttäjäkoht. poistopvm**- ja **Poiston aloituspvm** -kentissä on 1.1.01. Jos kuitenkin **Ens. käyttäjäkoht. poistopvm** -kentässä oli 1.1.10 ja **Poiston aloituspvm** -kentässä oli 1.4.11, tuloksena olisi:  
 
@@ -273,7 +273,7 @@ Edellisessä esimerkissä sekä **Ens. käyttäjäkoht. poistopvm**- ja **Poisto
 * Poiston aloituspvm  
 
 ## <a name="half-year-convention-depreciation"></a>Poisto puolivuotissopimusta käyttämällä
-Puolivuotissopimus-menetelmää käytetään vain, jos **KO-poistokirja**-ikkunan **Käytä puolivuotissopimusta** -kenttään on lisätty rasti.  
+Puolivuotissopimus-menetelmää käytetään vain, jos **KO-poistokirja**-sivun **Käytä puolivuotissopimusta** -kentässä on valintamerkki.  
 
 Tätä poistomenetelmää voidaan käyttää yhdessä seuraavien ohjelman poistomenetelmien kanssa:  
 
@@ -284,7 +284,7 @@ Tätä poistomenetelmää voidaan käyttää yhdessä seuraavien ohjelman poisto
 Kun käytetään Puolivuotissopimusta, käyttöomaisuudelle tehdään kuuden kuukauden poisto ensimmäisenä tilikautena **Poiston aloituspvm** -kentän sisällöstä huolimatta.  
 
 > [!NOTE]  
->   Käyttöomaisuuden arvioitu ikä, joka on jäljellä ensimmäisen tilikauden jälkeen, on aina puoli vuotta silloin, kun käytetään Puolivuotissopimus-menetelmää. Jotta Puolivuotissopimus-menetelmää voitaisiin käyttää oikein, **KO-poistokirja**-ikkunan **Poiston lopetuspvm** -kentässä on aina oltava päivämäärä, joka on tasan kuusi kuukautta ennen sen tilikauden viimeistä päivämäärä, jolloin käyttöomaisuudelle tehdään kokonaispoisto.  
+>   Käyttöomaisuuden arvioitu ikä, joka on jäljellä ensimmäisen tilikauden jälkeen, on aina puoli vuotta silloin, kun käytetään Puolivuotissopimus-menetelmää. Jotta Puolivuotissopimus-menetelmää voitaisiin käyttää oikein, **KO-poistokirja**-sivun **Poiston lopetuspvm** -kentässä tulee aina olla päivämäärä, joka on tasan kuusi kuukautta ennen sen tilikauden viimeistä päivämäärä, jolloin käyttöomaisuudelle tehdään kokonaispoisto.  
 
 ### <a name="example---half-year-convention-depreciation"></a>Esimerkki – Poisto puolivuotissopimusta käyttämällä
 Käyttöomaisuuden hankintameno on PVA 100 000. **Poiston aloituspvm** on 1.3.10. Arvioitu käyttöikä on viisi vuotta, joten **Poiston lopetuspvm** -kohdan arvon on oltava 30.6.15. **Laske poisto** -eräajo suoritetaan vuosittain. Tämä esimerkki perustuu kalenteritilikauteen.  
@@ -304,7 +304,7 @@ Käyttöomaisuustapahtumat näyttävät seuraavalta:
 * Poiston aloituspvm  
 
 ## <a name="example---db1sl-depreciation-using-half-year-convention"></a>Esimerkki – MJP1/TP-poisto puolivuotissopimusta käyttämällä
-Käyttöomaisuuden hankintameno on PVA 100 000. **Poiston aloituspvm** on 1.11.10. Arvioitu käyttöikä on viisi vuotta, joten **Poiston lopetuspvm** -kohdan arvon on oltava 30.6.15. **KO-poistokirjat**-ikkunan **Menojäännöspoisto-%**-kentässä on arvo 40. **Laske poisto** -eräajo suoritetaan vuosittain. Tämä esimerkki perustuu kalenteritilikauteen.  
+Käyttöomaisuuden hankintameno on PVA 100 000. **Poiston aloituspvm** on 1.11.10. Arvioitu käyttöikä on viisi vuotta, joten **Poiston lopetuspvm** -kohdan arvon on oltava 30.6.15. **KO-poistokirjat**-sivun **Menojäännöspoisto-%**-kentässä on 40. **Laske poisto** -eräajo suoritetaan vuosittain. Tämä esimerkki perustuu kalenteritilikauteen.  
 
 Käyttöomaisuustapahtumat näyttävät seuraavalta:  
 

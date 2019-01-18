@@ -12,17 +12,17 @@ ms.search.keywords: essential, basic, user interface, application area, experien
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b24ef5c8750bef5ac2b5475a48a5807838162c69
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9b9422fbbfec61fb4d5812ed02e2b76e74b6f8c8
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="changing-which-features-are-displayed"></a>Näytettävien ominaisuuksien muuttaminen
 [!INCLUDE[d365fin](includes/d365fin_md.md)] on suunniteltu auttamaan liiketoiminnan käytännön asioissa toimialasta riippumatta. [!INCLUDE[d365fin](includes/d365fin_md.md)]in ydintä ovat talousraportointi sekä myynti- ja ostoprosessit. Voit lisätä siihen kokemuksia liiketoiminnan tarpeiden mukaan lisäämällä laajennuksia AppSourcesta tai muuttamalla yrityksen Kokemus-asetusta. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md) tai alla olevassa Toimintojen näyttäminen tai piilottaminen käyttäjäkokemuksen valinnan avulla -osassa.
 
 ## <a name="choosing-a-user-experience-to-show-or-hide-features"></a>Ominaisuuksien näyttäminen tai piilottaminen valitsemalla käyttäjäkokemus
-Käyttäjäkokemus määrittää, kuinka suurta osaa [!INCLUDE[d365fin](includes/d365fin_md.md)]in perustoiminnoista voit työtovereittesi kanssa käyttää. Voit valita yrityksen käyttökokemuksen **Yrityksen tiedot** -ikkunan **Kokemus**-kentässä.
+Käyttäjäkokemus määrittää, kuinka suurta osaa [!INCLUDE[d365fin](includes/d365fin_md.md)]in perustoiminnoista voit työtovereittesi kanssa käyttää. Voit valita yrityksen käyttökokemuksen **Yrityksen tiedot** -sivun **Kokemus**-kentässä.
 
 > [!NOTE]  
 > Tämä asetus koskee kaikki yrityksen käyttäjiä. Käyttäjät voivat lisäksi mukauttaa omaa kokemustaan muuttamalla sivun asettelua ja sisältöä. Lisätietoja on kohdassa [Työtilan ja sivujen mukauttaminen](ui-personalization-user.md).  
@@ -43,21 +43,21 @@ Seuraavassa taulukossa on luettelo nyt käytettävissä olevista kokemuksista.
 ## <a name="enabling-premium-features-after-upgrading-a-plan"></a>Premium-ominaisuuksien käyttöönotto suunnitelman päivittämisen jälkeen
 Käyttäjille määritetään suunnitelmat Office 365 -hallintakeskuksessa samassa yhteydessä kuin Business Central -käyttäjiä määritetään. Lisätietoja on kohdassa [Käyttäjien lisääminen Office 365 for Businessiin](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc).
 
-Voit sitten määrittää, mitkä käyttökokemuksen toiminnot ja ikkunat ovat käyttäjien käytettävisssä, määrittämällä käyttöoikeusjoukkoja. Lisätietoja on kohdassa [Käyttäjien ja käyttöoikeuksien hallinta](ui-how-users-permissions.md).
+Voit sitten määrittää, mitkä käyttökokemuksen toiminnot ja sivut ovat käyttäjien käytettävissä, määrittämällä käyttöoikeusjoukkoja. Lisätietoja on kohdassa [Käyttäjien ja käyttöoikeuksien hallinta](ui-how-users-permissions.md).
 
 ### <a name="to-update-plan-changes-in-users-groups"></a>Suunnitelman muutoksien päivittäminen käyttäjäryhmissä
 Kun olet tehnyt muutoksia käyttäjien suunnitelmiin Office 365 -hallintakeskuksessa (kuten määrittänyt enemmän käyttäjiä Premium-suunnitelmaan), sinun tulee tehdä muutoksia myös [!INCLUDE[d365fin](includes/d365fin_md.md)]:ssa.
 
 1. Kirjaudu sisään järjestelmänvalvojana.
 2. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttäjät** ja valitse sitten liittyvä linkki.
-3. Valitse **Käyttäjät**-ikkunassa **Päivitä kaikki käyttäjäryhmät**-toiminto.
+3. Vaihtoehtoisesti voit valita **Käyttäjät**-sivulla **Päivitä kaikki käyttäjäryhmät** -toiminnon.
 
 Käyttäjien suunnitelmien ja heidän määriteltyjen käyttäjäryhmiensä uudet tiedot päivitetään nyt suunnitelman muutoksien mukaisesti.
 
 ### <a name="to-select-the-premium-experience"></a>Premium-käyttäjäkokemuksen valinta
 Voit nyt siirtyä valitsemaan uuden käyttökokemuksen.
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Yrityksen tiedot** ja valitse sitten liittyvä linkki.
-2. Valitse **Yrityksen tiedot** -ikkunan **Käyttäjäkokemus**-pikavälilehden **Kokemus**-kentässä Premium.
+2. Valitse **Yrityksen tiedot** -sivun **Käyttäjäkokemus**-pikavälilehden **Kokemus**-kentässä Premium.
 
 ## <a name="help-assumes-premium-experience"></a>Ohje käsittelee Premium-käyttäjäkokemusta
 [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen käyttäjän dokumentaation kaikkien toimintojen kuvauksissa käsitellään **Premium**-käyttökokemusta. Tämä tarkoittaa sitä, että kuvaukset sisältävät käyttöliittymän kaikki elementit. Valmistuksen ja huoltohallinnon toimintojen alueiden ylätason ohjeaiheisiin lisätyssä tekstimuistiinpanossa kerrotaan, että vaatimuksena on **Premium**-käyttökokemus.

@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 36c68048c384f4ccfef6c811ac288b306351ce2f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3f5521102ebcf4ad6b5bcb88c862106fd6b85f3f
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-special-orders"></a>Erikoistilausten luominen
@@ -32,9 +32,9 @@ Ennen kuin tätä ominaisuutta voi käyttää, tilaukselle tarpeelliset asiakas-
     Luo seuraavaksi ostotilaus hankintalistasta.  
 4. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Hankintalista** ja valitse sitten liittyvä linkki.  
 5. Valitse ensin **Erikoistilaus**-toiminto ja sitten **Hae myyntitilaukset** -toiminto.  
-6.  Näytä **Hae myyntitilaukset** -ikkunassa tulokset, joissa **Asiakirjan nro.** on myyntitilauksen numero. Valitse **OK**-painike. Ohjelma luo nimikkeelle hankintalistan rivin.  
+6.  Näytä **Hae myyntitilaukset** -sivulla tulokset, joissa **Asiakirjan nro.** on myyntitilauksen numero. Valitse **OK**-painike. Ohjelma luo nimikkeelle hankintalistan rivin.  
 7.  Valitse hankintalistarivin  **Toimenpideviesti**-kentässä **Uusi**.  
-8.  Valitse **Hankintalista**-ikkunassa **Toteuta toimenpideviesti** -toiminto. **Toteuta toim.pideviesti - hank** -ikkuna avautuu. Valitse **OK**-painike.  
+8.  Valitse **Hankintalista**-sivulla **Toteuta toimenpideviesti** -toiminto. **Toteuta toim.pideviesti - hank** -sivu avautuu. Valitse **OK**-painike.  
 
     Näyttöön tulee ikkuna, jossa ilmoitetaan, että ostotilaukset on luotu. Valitse **OK**-painike.  
 

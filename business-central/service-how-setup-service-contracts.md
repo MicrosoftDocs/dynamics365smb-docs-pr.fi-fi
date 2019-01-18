@@ -13,10 +13,10 @@ ms.search.keywords: service, cost, service order
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 35dcecb6b3510101026202cb6548aa936d74b25c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a965721aef3769aa1e794c0edb9ffa48faf99541
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -45,7 +45,7 @@ Seuraavat on määritettävä, ennen kuin sopimuksia voi käyttää:
 2. Luo uusi huoltosopimusmalli.  
 3. Valitse **Nro**-kenttään sopimusmallin numero.  
   
-     Vaihtoehtoisesti, jos olet määrittänyt sopimusmalleille numerosarjan **Huoltohallinnon asetukset** -ikkunaan, voit painaa Enter-painiketta, niin ohjelma lisää seuraavan saatavilla olevan sopimusmallin numeron. Täytä muut kentät tarpeen mukaan.  
+     Vaihtoehtoisesti, jos olet määrittänyt sopimusmalleille numerosarjan **Huoltohallinnon asetukset** -sivulla, voit painaa Enter-painiketta, niin ohjelma lisää seuraavan saatavilla olevan sopimusmallin numeron. Täytä muut kentät tarpeen mukaan.  
   
 4. Täytä **Lasku**-pikavälilehden **Huoltosop. tilir.koodi** -kenttään **laskutuskausi** ja muut tiedot. Täytä muut kentät tarpeen mukaan.  
 5. Lisää sopimusalennukset valitsemalla **Huoltoalennukset**-toiminto.  

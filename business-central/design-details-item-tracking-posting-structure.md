@@ -13,10 +13,10 @@ ms.search.keywords: design, item tracking, posting, inventory
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: bde0b129455dbdd7cbc91bd50b6d993abf727100
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: b2cb135991a067b86b7c5579e0386ffd199aefcf
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-item-tracking-posting-structure"></a>Rakennetiedot: nimikkeen seurannan kirjauksen rakenne
@@ -24,7 +24,7 @@ Varaston arvostustoiminnon hyödyntämiseksi ja yksinkertaisen ja vakaan ratkais
   
 Tilausverkon yksiköiden ja tilausverkon ulkopuolisten yksiköiden nimikkeen seurantanumerot on määritetty **Varaustapahtuma**-taulukossa (T337). Historiatietoihin liittyvät nimikkeen seurantanumerot noudetaan suoraan nimiketapahtumista, jotka liittyvät kyseiseen tapahtumaan. Tämä tarkoittaa sitä, että nimiketapahtumat vaikuttavat kirjatun tilausrivin nimikeseurannan määrityksiin.  
   
-**NImikkeenseurantarivit** -ikkuna vastaanottaa tietoja kohteesta T337 ja nimikkeen pääkirjan kirjauksista ja näyttää ne väliaikaistaulukon välityksellä, **Seurantaerittely** (T336). T336 sisältää myös väliaikaiset tiedot kohteessa **Nimikkeenseurantarivien ikkuna** koskien nimikkeenseurantamääriä, jotka ovat jäljellä laskutusta varten.  
+**Nimikkeenseurantarivit**-sivu vastaanottaa tietoja kohteesta T337 ja nimikkeen pääkirjan kirjauksista ja näyttää ne väliaikaistaulukon välityksellä, **Seurantaerittely** (T336). T336 sisältää myös väliaikaiset tiedot **Nimikkeenseurantarivit-sivulla** koskien nimikkeenseurantamääriä, jotka ovat jäljellä laskutusta varten.  
   
 ## <a name="one-to-many-relation"></a>Yhden suhde moneen  
 **Nimikekirjauksen suhde** -taulukko, jota käytetään yhdistämään tiliöity asiakirjan rivi liittyviin nimikkeen pääkirjan kirjauksiin, käsittää kaksi pääosaa:  

@@ -8,20 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: tasks, work
-ms.date: 10/01/2018
+ms.date: 10/03/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 17a37dd74565266c748439bf4ee5eecfa8e8c7ea
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 27a1fcc2bb0efd79e95f10c78dbae54869c59703
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="add-comments-to-cards-and-documents"></a>Kommenttien lisääminen kortteihin ja asiakirjoihin
 Voit lisätä tietoja KP-tileihin, asiakkaiden kortteihin tai myyntitilauksiin ja jakaa muille käyttäjille tietoja poikkeuksista tai erikoissopimuksista.
-Käytännössä kaikissa korteissa ja asiakirjoissa on **Kommentit**-toiminto. Se avaa **Kommenttilomake**-ikkunan, jossa voi kirjoittaa ja lukea kommentteja. Asiakirjoissa voi lisätä kommentteja myös yksittäisille riveille.
+Käytännössä kaikissa korteissa ja asiakirjoissa on **Kommentit**-toiminto. Se avaa **Kommenttilomake**-sivun, jossa voi kirjoittaa ja lukea kommentteja. Asiakirjoissa voi lisätä kommentteja myös yksittäisille riveille.
 
 Jatkuvien asiakirjojen kommentit siirretään liittyvään kirjattuun asiakirjaan. Esimerkiksi myyntitilauksen kommentti siirretään tuloksena saatavaan kirjattuun myyntitoimitukseen.
+
+Voit määrittää myös, haluatko, että kommentit siirretään yhdestä asiakirjatyypistä toiseen asiakirjatulostyyppiin, kuten myyntitilauksesta myyntilaskuun. Voit tehdä tämän **Myynnit ja myyntisaamiset**- ja **Ostot ja ostovelat** -sivuilla.
 
 > [!NOTE]
 > Kommentteja ei tulosteta raportteihin tai ulkoisiin asiakirjoihin.
@@ -32,7 +34,7 @@ Seuraavassa kerrotaan, miten kommentti lisätään nimikkeen korttiin. Vaiheet o
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten liittyvä linkki.
 2. Avaa oikea nimikkeen kortti.
 3. Valitse **Kommentit**-toiminto.
-4. Syötä **Kommenttilomake**-ikkunaan mikä tahansa teksti ja valitse sitten **OK**-painike.
+4. Kirjoita **Kommenttilomake**-sivulla tekstiä ja valitse sitten **OK**-painike.
 
 ## <a name="see-also"></a>Katso myös
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  

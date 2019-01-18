@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b2c0c5ecf8d99d0d49abdc4056289be00219b07a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 59db444b6ce498d987d4aeb4361e119001acd2a3
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-segments"></a>Segmenttien luominen
@@ -27,7 +27,7 @@ Voit luoda segmenttejä, kun haluat luoda kontaktiryhmän - jos esimerkiksi halu
 2. Valitse **Uusi**-toiminto.
 3. Syötä **Yleiset**-osan **Nro**-kenttään segmentin numero.
 
-    Jos olet määrittänyt segmenteille numerosarjan **Kontaktienhallinnan asetukset** -ikkunassa, voit valita seuraavan saatavilla olevan segmenttinumeron painamalla Enter-näppäintä.
+    Jos olet määrittänyt segmenteille numerosarjan **Kontaktienhallinnan asetukset** -sivulla, voit valita seuraavan saatavilla olevan segmenttinumeron painamalla Enter-näppäintä.
 4. Täytä otsikon muut kentät.
 
 Nyt voit lisätä segmenttiin kontakteja. Lisätietoja on ohjeaiheessa [Kontaktien lisääminen segmentteihin](marketing-add-contact-segment.md).

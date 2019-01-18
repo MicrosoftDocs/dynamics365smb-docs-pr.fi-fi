@@ -11,10 +11,10 @@ ms.workload: na
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 44648f9d9cfd9ad2e1ea3589031b6560f4a4dcfb
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 587817f68dd731c1ea3e23617e405d0c9493fdd6
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-bills-of-material"></a>Tuoterakenteen käyttäminen
@@ -51,16 +51,16 @@ Kokoonpanon tuoterakenteen luomisessa on kaksi osaa:
 1. Määritä uusi nimike. Lisätietoja on ohjeaiheessa [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md).
 
     Jatka antamalla kokoonpanon tuoterakenteen osat tai resurssit.  
-2. Valitse kokoonpanonimikkeen **Nimikekortti**-ikkunassa ensin **Kokoonpano**-toiminto ja sitten **Kokoonpanon tuoterakenne** -toiminto.
-3. Täytä **Kokoonpanon tuoterakenne** -ikkunassa tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Valitse kokoonpanonimikkeen **Nimikekortti**-sivulla ensin **Kokoonpano**-toiminto ja sitten **Kokoonpanon tuoterakenne** -toiminto.
+3. Täytä **Kokoonpanon tuoterakenne** -sivulla tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-view-the-components-of-an-assembly-item-indented-according-to-the-bom-structure"></a>Kokoonpanonimikkeen osien näyttäminen tuoterakenteen perusteella sisennettyinä
-Voit avata **Kokoonpanon tuoterakenne** -ikkunassa erillisen ikkunan, joka näyttää osat ja resursseja sisennettynä kokoonpanonimikkeen alle niiden tuoterakenteen mukaisen sijainnin perusteella.
+Voit avata **Kokoonpanon tuoterakenne** -sivulla erillisen sivun, joka näyttää osat ja resursseja sisennettynä kokoonpanonimikkeen alle niiden tuoterakenteen mukaisen sijainnin perusteella.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten liittyvä linkki.
-2. Avaa kokoonpanonimikkeen kortti. (**Nimikkeet**-ikkunan **Kokoonpanon tuoterakenne** -kentässä on **Kyllä**.)
-3. Valitse **Nimikekortti**-ikkunassa ensin **Kokoonpano**-toiminto ja sitten **Kokoonpanon tuoterakenne** -toiminto.
-4. Valitse **Kokoonpanon tuoterakenne** -ikkunassa **Näytä tuoterakenne** -toiminto.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Nimikkeet** ja valitse sitten liittyvä linkki.
+2. Avaa kokoonpanonimikkeen kortti. (**Nimikkeet**-sivun **Kokoonpanon tuoterakenne** -kentässä on **Kyllä**.)
+3. Valitse **Nimikekortti**-sivulla ensin **Kokoonpano**-toiminto ja sitten **Kokoonpanon tuoterakenne** -toiminto.
+4. Valitse **Kokoonpanon tuoterakenne** -sivulla **Näytä tuoterakenne** -toiminto.
 
 ## <a name="to-replace-the-assembly-item-with-its-components-on-document-lines"></a>Kokoonpanon korvaaminen sen osilla asiakirjariveillä
 Voit käyttää missä tahansa kokoonpanonimikkeen sisältävässä myynti- ja ostoasiakirjassa erikoistoimintoa, jolla voit korvata kokoonpanonimikkeen rivin uusilla kokoonpanon komponenttien riveillä. Tämä toiminto on kätevä esimerkiksi silloin, kun haluat myydä komponentit kokoonpanonimikettä vastaavana tuotepakettina.
@@ -75,19 +75,19 @@ Seuraava toimenpide perustuu myyntilaskuun. Samoja vaiheet koskeva myös muita m
 
 Kaikki kokoonpanonimikkeen myyntilaskurivin kentät poistetaan **Nimike**- ja **Kuvaus**-kenttiä lukuun ottamatta. Valmiit myyntilaskurivit lisätään komponenteille ja mahdollisille resursseille, joista kokoonpanonimike koostuu.
 
-**Huomautus**: Pura tuoterakenne -toimintoa voi käyttää myös **Kokoonpanon tuoterakenne** -ikkunassa.
+**Huomautus**: Pura tuoterakenne -toimintoa voi käyttää myös **Kokoonpanon tuoterakenne** -sivulla.
 
 ## <a name="to-calculate-the-standard-cost-of-an-assembly-item"></a>Kokoonpanonimikkeen vakiokustannusten laskeminen
 Lasket kokoonpano-nimikkeen yksikkökustannuksen vyöryttämällä jokaisen osan yksikkökustannuksen ja resurssin nimikkeen kokoonpanon tuoterakenteessa.
 
-Voit myös laskea ja päivittää yhden tai usean nimikkeen vakiokustannukset **Vakiokust. työkirja** -ikkunassa. Lisätietoja on kohdassa [Vakiokustannusten päivittäminen](finance-how-to-update-standard-costs.md).  
+Voit myös laskea ja päivittää yhden tai usean nimikkeen vakiokustannukset **Vakiokust. työkirja** -sivulla. Lisätietoja on kohdassa [Vakiokustannusten päivittäminen](finance-how-to-update-standard-costs.md).  
 
 Kokoonpanon tuoterakenteen yksikkökustannus on aina yhtä suuri kuin sen komponenttien (mukaan lukien muut kokoonpanon tuoterakenteet) ja mahdollisten resurssien yhteenlasketut yksikkökustannukset.
 
 1. Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Nimikkeet** ja valitse sitten aiheeseen liittyvä linkki.
-2. Avaa kokoonpanonimikkeen kortti. (**Nimikkeet**-ikkunan **Kokoonpanon tuoterakenne** -kentässä on **Kyllä**.)
-3. Valitse **Nimikekortti**-ikkunassa ensin **Kokoonpano**-toiminto ja sitten **Kokoonpanon tuoterakenne** -toiminto.
-4. Valitse **Kokoonpanon tuoterakenne** -ikkunassa **Laske vakiokustannus** -toiminto.
+2. Avaa kokoonpanonimikkeen kortti. (**Nimikkeet**-sivun **Kokoonpanon tuoterakenne** -kentässä on **Kyllä**.)
+3. Valitse **Nimikekortti**-sivulla ensin **Kokoonpano**-toiminto ja sitten **Kokoonpanon tuoterakenne** -toiminto.
+4. Valitse **Kokoonpanon tuoterakenne** -sivulla **Laske vakiokustannus** -toiminto.
 5. Valitse ensin jokin seuraavista vaihtoehdoista ja sitten **OK**.
 
 |Asetus |Description |

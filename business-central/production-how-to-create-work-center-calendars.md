@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d45b76e137dd2e8da752be489d16ac536da265e1
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 55cefad889557df37d8869926ee7e200cd145d03
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-shop-calendars"></a>Tuotantokalentereiden määrittäminen
@@ -39,7 +39,7 @@ Vaikka tuotantosolussa ei työskenneltäisi eri vuoroissa, syötä ainakin yksi 
 2.  Anna tyhjälle riville **Koodi**-kenttään numero tuotantokalenterin tunnisteeksi (esimerkiksi 1).  
 3.  Kirjoita tuotantokalenterin kuvaus **Kuvaus**-kenttään.  
 4.  Valitse **Työpäivät**-toiminto.
-5.  Määritä **Tuotantokalenterin työpäivät** -ikkunassa koko työviikko sekä kunkin päivän alkamis- ja päättymisaika.  
+5.  Määritä **Tuotantokalenterin työpäivät** -sivulla koko työviikko sekä kunkin päivän alkamis- ja päättymisaika.  
 
     Valitse **Työvuoron koodi** -kentässä jokin työvuoro, jonka olet määrittänyt aiemmin. Lisää rivi jokaiselle työpäivälle ja jokaiselle vuorolle. Esimerkki:  
 
@@ -55,10 +55,10 @@ Vaikka tuotantosolussa ei työskenneltäisi eri vuoroissa, syötä ainakin yksi 
 
     Viikonpäivät, joita ei määritetä tuotantokalenteriin (esimerkiksi lauantai ja sunnuntai) tulkitaan ei-työpäiviksi, ja niiden käytettävissä oleva kapasiteetti on tuotantosolun kalenterissa nolla.  
 
-    Kun viikon kaikki työpäivät on määritetty, voit sulkea **Tuotantokalenterin työpäivät** -ikkunan ja antaa sitten lomapäivät:  
+    Kun viikon kaikki työpäivät on määritetty, voit sulkea **Tuotantokalenterin työpäivät** -sivun ja antaa sitten lomapäivät.  
 
-6.  Valitse **Tuotantokalenterit**-ikkunassa ensin tuotantokalenteri ja sitten **Lomapäivät**-toiminto.
-7. Määritä **Tuotantokalenterin lomapäivät** ikkunassa vuoden kaikki lomapäivät antamalla kunkin loman alkamispäivämäärä ja -aika sekä päättymispäivämäärä ja -aika omille riveilleen. Esimerkki:  
+6.  Valitse **Tuotantokalenterit**-sivulla ensin tuotantokalenteri ja sitten **Lomapäivät**-toiminto.
+7. Määritä **Tuotantokalenterin lomapäivät** -sivulla vuoden kaikki lomapäivät antamalla kunkin loman alkamispäivämäärä ja -aika sekä päättymispäivämäärä ja -aika omille riveilleen. Esimerkki:  
 
     04.07.04 0:00:00 23:59:00 Kesäloma  
     05.07.14 0:00:00 23:59:00 Kesäloma  
@@ -74,12 +74,12 @@ Tuotantokalenteri voidaan nyt liittää tuotantosoluun, ja tuotantosolun kalente
 2. Avaa tuotantosolu, jonka haluat päivittää.  
 3. Valitse **Tuotantokalenterin koodi** -kentässä, mitä tuotantokalenteria käytetään tuotantosolun kalenterin pohjana.  
 4. Valitse **Kalenteri**-toiminto.  
-5. Valitse **Tuotantosolun kalenteri** -ikkunassa **Näytä matriisi** -toiminto.  
+5. Valitse **Tuotantosolun kalenteri** -sivulla **Näytä matriisi** -toiminto.  
 
-    Matriisi-ikkunan vasemmassa reunassa on kaikkien määritettyjen tuotantosolujen luettelo. Oikeassa reunassa on kalenteri, jossa näkyvät käytettävissä olevat kapasiteettiarvot työpäivittäin määritettynä mittayksikkönä, esimerkiksi **480** (minuuttia). Kukin rivi edustaa yhden tuotantosolun kalenteria.  
+    Matriisisivun vasemmassa reunassa on kaikkien määritettyjen tuotantosolujen luettelo. Oikeassa reunassa on kalenteri, jossa näkyvät käytettävissä olevat kapasiteettiarvot työpäivittäin määritettynä mittayksikkönä, esimerkiksi **480** (minuuttia). Kukin rivi edustaa yhden tuotantosolun kalenteria.  
 
     > [!NOTE]  
-    >  Voit tarkastella myös viikko- tai kuukausikohtaisia kapasiteettiarvoja muuttamalla valintaa **Tuotantosolun kalenteri** -ikkunan **Näyttöperuste**-kentässä.  
+    >  Voit tarkastella myös viikko- tai kuukausikohtaisia kapasiteettiarvoja muuttamalla valintaa **Tuotantosolun kalenteri** -sivun **Näyttöperuste**-kentässä.  
 
     Ilmaistaksesi, että uusi tuotantokalenterin rivi on valitussa tuotantosolussa, se on ensin laskettava.  
 
@@ -97,13 +97,13 @@ Järjestelmä luo (tai päivittää) kalenteritapahtumat, joista näkyy käytett
 Laskettu tuotantosolun kalenteri määrittelee nyt, milloin ja kuinka paljon kapasiteettia on saatavilla tässä tuotantosolussa. Tämä ohjaa tuotantosolussa suoritettavaa toimintojen yksityiskohtaista aikataulutusta.  
 
 ## <a name="to-record-work-center-absence"></a>Tuotantosolun poissaolojen tallentaminen  
-1.  Valitse **Tuotantosolun kalenteri** -ikkunassa **Näytä matriisi** -toiminto.
-2. Valitse **Tuotantosolun kalenterimatriisi** -ikkunassa tuotantosolu ja kalenteripäivä, jolle poissaolo halutaan merkitä, ja valitse sitten **Poissaolo**-toiminto.  
-3.  Määritä **Poissaolo**-ikkunaan poissaolon alkamis- ja päättymisaika kyseisenä päivänä sekä poissaolon kuvaus esimerkiksi seuraavalla tavalla: Esimerkki:  
+1.  Valitse **Tuotantosolun kalenteri** -sivulla **Näytä matriisi** -toiminto.
+2. Valitse **Tuotantosolun kalenterimatriisi** -sivulla tuotantosolu ja kalenteripäivä, jolle poissaolo halutaan merkitä, ja valitse sitten **Poissaolo**-toiminto.  
+3.  Määritä **Poissaolo**-sivulla poissaolon alkamis- ja päättymisaika kyseisenä päivänä sekä poissaolon kuvaus esimerkiksi seuraavalla tavalla: Esimerkki:  
 
     25.01.01 08:00 10:00 Huolto  
 
-4.  Valitse ensin **Päivitä**-toiminto ja sulje sitten **Poissaolo**-ikkuna.  
+4.  Valitse ensin **Päivitä**-toiminto ja sulje sitten **Poissaolo**-sivu.  
 
 Valitun päivän kapasiteetti on nyt pienentynyt kalenteriin merkityn poissaoloajan verran.  
 

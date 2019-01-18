@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 22c79e4a878f474b29831d86b613a80184395d99
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a52a95bf3fc96b89e664041e3d2b289b6042c046
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="configure-new-companies"></a>Uusien yritysten määrittäminen
@@ -38,7 +38,7 @@ Kaikki taulukot, jotka olet määrittänyt uuden yrityksen sisällyttämistä va
 ## <a name="to-apply-package-data"></a>Käytä paketin tietoja  
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Määritystyökirja** ja valitse sitten liittyvä linkki.  
 2. Valitse taulukko, jonka tietoja haluat muokata, ja valitse sitten **Käytä tietoja** -toiminto. Vahvista sovellus valitsemalla **Kyllä**-painike.
-3. Varmista, että tiedot on nyt tietokannassa ja sovelluksen suoritus onnistui palaamalla **Määritä työkirja** -ikkunaan ja valitsemalla **Tietokannan tiedot** -toiminto.  
+3. Varmista, että tiedot on nyt tietokannassa ja sovelluksen suoritus onnistui palaamalla **Määritä työkirja** -sivulle ja valitsemalla **Tietokannan tiedot** -toiminto.  
 
 > [!NOTE]  
 >  Kun otat tiedot käyttöön, näet ne vain tietokannassa. Se ei enää ole paketissa.  
@@ -46,9 +46,9 @@ Kaikki taulukot, jotka olet määrittänyt uuden yrityksen sisällyttämistä va
 ## <a name="to-modify-and-apply-package-data"></a>Muokkaa ja käytä paketin tietoja  
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Määritystyökirja** ja valitse sitten liittyvä linkki.  
 2. Valitse taulukko, jonka tietoja haluat muokata, ja valitse sitten **Paketin tiedot** -toiminto.  
-3. Tee muutokset **Määritä pakettitietueet** -ikkunassa. Voit esimerkiksi poistaa vaihtoehdot, jotka eivät ole käytettävissä.  
+3. Tee muutokset **Määritä pakettitietueet** -sivulla. Voit esimerkiksi poistaa vaihtoehdot, jotka eivät ole käytettävissä.  
 4. Valitse **Käytä tietoja** -toiminto ja sitten **OK**-painike.  
-5. Varmista, että tiedot on nyt tietokannassa ja sovelluksen suoritus onnistui palaamalla **Määritä työkirja** -ikkunaan ja valitsemalla **Tietokannan tiedot** -toiminto.  
+5. Varmista, että tiedot on nyt tietokannassa ja sovelluksen suoritus onnistui palaamalla **Määritä työkirja** -sivulle ja valitsemalla **Tietokannan tiedot** -toiminto.  
 
 ## <a name="to-locate-and-identify-a-configuration-error"></a>Etsi ja tunnista määritysvirhe  
 Ohjelmassa on tietyn tyyppisiä virheitä, jotka voivat ilmetä, kun tietoja lisätään tietokantaan. Yleisin virhe on vaadittujen liittyvien taulukoiden sisällyttämättä jättäminen. Korjaa tällaiset virheet määritystyökirjassa.
@@ -58,7 +58,7 @@ Ohjelmassa on tietyn tyyppisiä virheitä, jotka voivat ilmetä, kun tietoja lis
 
     Virheitä sisältävät taulukot näkyvät korostettuna. Pakettivirheiden määrä näkyy **Pakettivirheiden määrä** -kentässä.  
 
-3. Valitse **Pakettivirheiden määrä** -kenttä ja avaa **Määritä pakettitietueet** -ikkuna, joka sisältää virheelliset tietueet.  
+3. Valitse **Pakettivirheiden määrä** -kenttä ja avaa **Määritä pakettitietueet** -sivu, joka sisältää virheelliset tietueet.  
 
 ### <a name="to-fix-an-error"></a>Korjaa virhe  
 1. Avaa yritys, johon määrityspaketti perustuu.  

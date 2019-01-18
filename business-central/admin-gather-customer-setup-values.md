@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0282f0ae3ca2b11ff8cd01adf69054d8c805e7ae
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9231f63266ba030bbf4b3ca41641d5210bcd49b8
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="gather-customer-setup-values"></a>Asiakkaan asetusarvojen kerääminen
@@ -32,7 +32,7 @@ Kun asiakas täyttää kyselyn, voit tuoda tiedoston asiakkaan uuteen [!INCLUDE[
 ## <a name="to-create-a-configuration-questionnaire"></a>Määrityskyselylomakkeen luominen
 Kyselylomakkeen avulla voit selvittää kokoonpanon laajuuden ja tarpeet. Voit luoda uuden kyselyn tai muokata olemassa olevaa kyselyä lisäämällä uusia kysymyksiä tai kysymysalueita.  
 
- Voit luoda kyselyjä vain asetustyypin taulukoille. Voit käyttää työkalua esimerkiksi seuraavien ikkunoiden tietojen määrittämisessä:  
+ Voit luoda kyselyjä vain asetustyypin taulukoille. Voit käyttää työkalua esimerkiksi seuraavien sivujen tietojen määrittämisessä:  
 
 -   Yrityksen tiedot  
 -   Käyttöomaisuuden asetukset  
@@ -50,9 +50,9 @@ Kyselylomakkeen avulla voit selvittää kokoonpanon laajuuden ja tarpeet. Voit l
 >  Jos haluat nähdä asetustaulukoiden täydellisen luettelon, valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asetukset** ja valitse sitten liittyvä linkki. Määritä tietueiden tietojen siirron laajuus käyttämällä siirtotoimintoa. Lisätietoja on ohjeaiheessa [Asiakastietojen siirtäminen](admin-migrate-customer-data.md).  
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Määrityskysely** ja valitse sitten liittyvä linkki.  
-2. Valitse **Uusi**-toiminto. **Määrityskysely**-ikkuna avautuu.  
-3. Valitse **Kysymysalueet**-toiminto. **Kysymysalueet**-ikkuna avautuu.  
-4. Valitse **Uusi**-toiminto. **Määrityskysymysalue**-ikkuna avautuu.  
+2. Valitse **Uusi**-toiminto. **Määrityskysely**-sivu avautuu.  
+3. Valitse **Kysymysalueet**-toiminto. **Kysymysalueet**-sivu avautuu.  
+4. Valitse **Uusi**-toiminto. **Määrityskysymysalue**-sivu avautuu.  
 5. Anna **Taulukon tunnus** -kenttään sen taulukon tunnus, johon haluat kerätä tiedot. **Taulukon nimi** -kenttä täytetään automaattisesti.  
 6. Valitse **Päivitä kysymykset** -toiminto. Taulukon kukin kenttä lisätään kyselyyn kysymysmerkki nimen jälkeen.
 
@@ -94,10 +94,10 @@ Yleinen vahvistustehtävä tarkistaa, että tekstijonoja ei kirjoiteta päiväm�
 > [!NOTE]  
 >  Yleensä määrityskyselylomakkeen asetusten tarkistaminen on manuaalinen prosessi. Alueellisten muotoilujen ristiriidat voidaan kuitenkin tarkistaa. Lisäksi saadaan virheilmoituksia, jos [!INCLUDE[d365fin](includes/d365fin_md.md)] -tietokannan rakenne ei vastaa siirtotietokannan rakennetta.  
 
-1. Valitse **Määrityskyselylomake**-ikkunassa asianmukainen kyselylomake ja valitse sitten **Kysymysalueet**-toiminto.  
+1. Valitse **Määrityskyselylomake**-sivulla asianmukainen kyselylomake ja valitse sitten **Kysymysalueet**-toiminto.  
 2. Avaa asianmukainen kysymysalue.  
 3. Tarkista jokaisen kysymyksen kohdalla, että **Vastaus**-kentän arvo vastaa **Vastausvaihtoehto**-kentässä määritettyä muotoa. Tarkista, että yrityksen osoite on tekstimuodossa.  
-4. Jos löydät virheitä, voit tehdä vianmäärityksen ja tehdä korjaukset Excelissä viemällä kyselylomakkeen ja tuomalla sen takaisin. Vaihtoehtoisesti voit korjata virheet suoraan [!INCLUDE[d365fin](includes/d365fin_md.md)]'ssa, kun arvioit vastauksia **Määrityskysymysalue**-ikkunassa.  
+4. Jos löydät virheitä, voit tehdä vianmäärityksen ja tehdä korjaukset Excelissä viemällä kyselylomakkeen ja tuomalla sen takaisin. Vaihtoehtoisesti voit korjata virheet suoraan [!INCLUDE[d365fin](includes/d365fin_md.md)]'ssa, kun arvioit vastauksia **Määrityskysymysalue**-sivulla.  
 5. Toista nämä vaiheet kullekin kysymysalueelle.  
 
 Kun tarkistus on tehty, tiedot ovat valmiita käyttöön tietokantaa varten.  
@@ -105,7 +105,7 @@ Kun tarkistus on tehty, tiedot ovat valmiita käyttöön tietokantaa varten.
 ## <a name="to-apply-answers-from-the-configuration-questionnaire"></a>Määrityskyselylomakkeen vastausten käyttäminen
 Kun olet tuonut määrityskyselylomakkeen tiedot ja vahvistanut ne, voit siirtää tai käyttää asetustietoja vastaaviin taulukoihin [!INCLUDE[d365fin](includes/d365fin_md.md)] -tietokannassa.  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Määrityskysely** ja valitse sitten liittyvä linkki. **Määrityskysely**-ikkuna avautuu.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Määrityskysely** ja valitse sitten liittyvä linkki. **Määrityskysely**-sivu avautuu.  
 2. Valitse määrityskyselylomake luettelosta ja valitse sitten **Muokkaa luetteloa** -toiminto.  
 3. Voit käyttää vastauksia jommalla kummalla tavalla.  
 
@@ -113,7 +113,7 @@ Kun olet tuonut määrityskyselylomakkeen tiedot ja vahvistanut ne, voit siirtä
 - Käytä vastauksia vain tietyssä **kysymysalueessa** valitsemalla **Kysymysalueet**-toiminto. Valitse luettelosta **Kysymysalue** ja valitse sitten **Käytä vastauksia** -toiminto.  
 
 ### <a name="to-verify-that-answers-have-been-applied-successfully"></a>Varmista, että vastaukset on kohdistettu onnistuneesti  
-1. Tarkista [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman eri toiminta-alueiden asetusikkunat. Jos haluat etsiä ikkunan, valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä asetusikkunan nimi ja valitse sitten liittyvä linkki.  
+1. Tarkista [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman eri toiminta-alueiden asetussivut. Jos haluat etsiä sivun, valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna asetussivun nimi ja valitse sitten liittyvä linkki.  
 2. Varmista, että kentät on täytetty oikeilla tiedoilla määrityskyselylomakkeen eri kysymysalueilta.  
 
 Olet nyt määrittänyt asetukset asiakkaan yrityksen tietoihin ja sääntöihin.

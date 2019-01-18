@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f8f5959c25800c1a8d5ee7ed88f4e7a8599ce20a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ace9e09a1f57310e93bb86422c492383690bc04b
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-cost-adjustment"></a>Rakennetiedot: kustannuksen muutos
@@ -71,7 +71,7 @@ Lisätietoja on kohdassa [Rakennetiedot: Kokoonpanotilauksen kirjaus](design-det
 Kustannusten muuttaminen voidaan tehdä kahdella tavalla:  
 
 * Manuaalisesti suorittamalla **Muuta kustannuksia - Nimiketapahtumat** -eräajon. Voit suorittaa tämän eräajon kaikille nimikkeille tai vain tietyille nimikkeille tai nimikeluokille. Tämä eräajo muuttaa varaston niiden nimikkeiden kustannuksia, joille on tehty lähtevä tapahtuma, kuten osto. Keskiarvo-arvostusmenetelmää käyttävien nimikkeiden eräajo suorittaa myös oikaisun, jos luodaan lähteviä tapahtumia.  
-* Automaattisesti säätämällä kustannukset joka kerta, kun kirjaat varastotapahtuman ja kun suoritat tuotantotilauksen loppuun. Kustannusten sopeuttaminen on käytössä vain tietylle nimikkeelle tai nimikkeille, joita tiliöinti koskee. Tämä määritetään **Varastonhallinnan asetukset** -ikkunan **Automaattinen kustannusten muuttaminen** -valintaruudun valinnan yhteydessä.  
+* Automaattisesti säätämällä kustannukset joka kerta, kun kirjaat varastotapahtuman ja kun suoritat tuotantotilauksen loppuun. Kustannusten sopeuttaminen on käytössä vain tietylle nimikkeelle tai nimikkeille, joita tiliöinti koskee. Tämä määritetään **Varastonhallinnan asetukset** -sivun **Automaattinen kustannusten muuttaminen** -valintaruudun valinnan yhteydessä.  
 
 On hyvän käytännön mukaista suorittaa kustannuksen muuttaminen automaattisesti kirjauksen yhteydessä, koska yksikkökustannukset päivitetään useammin ja tämän vuoksi tarkemmin. Haittana on se, että tietokannan toimintaan voidaan vaikuttaa suorittamalla kustannusten sopeuttaminen niin usein.  
 
@@ -79,7 +79,7 @@ Koska nimikkeen yksikkökustannuksen pitäminen ajan tasalla on tärkeää, on s
 
 Muutosprosessi ja sen seuraukset ovat samat, suoritettiin kustannusten muutos manuaalisesti tai automaattisesti. [!INCLUDE[d365fin](includes/d365fin_md.md)] laskee saapuvien tapahtumien arvon ja siirtää tämän kustannuksen mihin tahansa lähteviin tapahtumiin, kuten myynnit tai menekki, joita on sovellettu saapuviin tapahtumiin. Kustannusten sopeuttaminen luo arvokirjauksia, jotka sisältävät sopeuttamissummia ja summia, jotka kompensoivat pyöristystä.  
 
-Uusissa sopeuttamis- ja pyöristysarvokirjauksissa on liittyvän laskun tiliöintipäivä. Poikkeuksen muodostavat arvotapahtumat, jotka osuvat suljetulle kirjanpitojaksolle tai varastokaudelle tai jos kirjauspäivämäärä on aiemmin kuin **Ensimm. sallittu kirjauspvm** -kentän päivämäärä **Pääkirjanpidon asetukset** -ikkunassa. Jos näin tapahtuu, eräajo määrittää kirjauspäivämääräksi seuraavan avoimen jakson ensimmäisen päivämäärän.  
+Uusissa sopeuttamis- ja pyöristysarvokirjauksissa on liittyvän laskun tiliöintipäivä. Poikkeuksen muodostavat arvotapahtumat, jotka osuvat suljetulle kirjanpitojaksolle tai varastokaudelle tai jos kirjauspäivämäärä on aiemmin kuin **Ensimm. sallittu kirjauspvm** -kentän päivämäärä **Pääkirjanpidon asetukset** -sivulla. Jos näin tapahtuu, eräajo määrittää kirjauspäivämääräksi seuraavan avoimen jakson ensimmäisen päivämäärän.  
 
 ## <a name="adjust-cost---item-entries-batch-job"></a>Muuta kustann. - Nimiketapaht. -eräajo  
 Kun **Muuta kustannuksia - Nimiketapahtumat** -eräajo suoritetaan, se voidaan suorittaa kaikille nimikkeille tai vain tietyille nimikkeille tai luokille.  
@@ -143,7 +143,7 @@ Myöhemmin kirjaat liittyvän oston nimikekulun 2,00 PVA, laskutettu 10.2.2000. 
 |01-15-20|[COGS-tili]|7290||2,00|8|  
 
 ## <a name="automatic-cost-adjustment"></a>Automaattinen kustannusten muuttaminen  
-Voit määrittää kustannusten muutoksen automaattiseksi varastotapahtuman kirjaamisen yhteydessä käyttämällä **Varastonhallinnan asetukset** -ikkunan **Automaattinen kustannusten muuttaminen** -kenttää. Tämän kentän avulla voit valita, millainen ajanjakso nykyistä käsittelypäivämäärää edeltävältä ajalta sisällytetään automaattiseen kustannusten muuttamiseen. Käytettävissä ovat seuraavat vaihtoehdot.  
+Voit määrittää kustannusten muutoksen automaattiseksi varastotapahtuman kirjaamisen yhteydessä käyttämällä **Varastonhallinnan asetukset** -sivun **Automaattinen kustannusten muuttaminen** -kenttää. Tämän kentän avulla voit valita, millainen ajanjakso nykyistä käsittelypäivämäärää edeltävältä ajalta sisällytetään automaattiseen kustannusten muuttamiseen. Käytettävissä ovat seuraavat vaihtoehdot.  
 
 |Asetus|Description|  
 |----------------------------------|---------------------------------------|  

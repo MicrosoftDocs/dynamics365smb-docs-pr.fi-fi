@@ -12,17 +12,18 @@ ms.workload: na
 ms.search.keywords: relationship, client, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
+redirect_url: marketing-create-contact-companies
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 07c56f109ee2e4c348c0f654ceadc4018174c0d5
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9125e31ce579b6cda55aee8a79cb299e3c4d75a0
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-a-customer-vendor-or-bank-account-from-a-contact"></a>Asiakkaan, toimittajan tai pankkitilin luominen kontaktista
 Haluat ehkä tallentaa jotkin aiemmin luoduista kontakteistasi asiakkaina, toimittajina tai pankkitileinä. Kun asiakas, toimittaja tai pankkitili luodaan kontaktista, voit käyttää aiemmin luotuja tietoja. Kun luot asiakkaan, toimittajan tai pankkitilin tällä tavalla, se synkronisoidaan kontaktin kanssa. Synkronoimisen avulla kontaktien ja asiakkaiden, toimittajien tai pankkitilien yhteiset tiedot säilyvät samoina.
 
-Ennen kuin voit tallentaa kontakteja tällä tavalla, asiakkaiden, toimittajien ja pankkitilien liikesuhteen koodi on määritettävä **Kontaktienhallinnan asetukset** -ikkunassa. Jos tallennat kontakteja pankkitileinä, määritä myös pankkitilien numerosarjat **Pääkirjanpidon asetukset** -ikkunassa.
+Ennen kuin voit tallentaa kontakteja tällä tavalla, asiakkaiden, toimittajien ja pankkitilien liikesuhteen koodi on määritettävä **Kontaktienhallinnan asetukset** -sivulla. Jos tallennat kontakteja pankkitileinä, määritä myös pankkitilien numerosarjat **Pääkirjanpidon asetukset** -sivulla.
 
 ## <a name="to-create-a-contact-as-a-customer-vendor-or-bank-account"></a>Kontaktin luominen asiakkaana, toimittajana tai pankkitilinä.
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kontaktit** ja valitse sitten liittyvä linkki.

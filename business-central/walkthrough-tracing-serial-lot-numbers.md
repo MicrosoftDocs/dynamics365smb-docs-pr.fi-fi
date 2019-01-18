@@ -13,18 +13,18 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c426e8cb53833fd521f4ecad7def166534b0befe
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 13638a1bc96bc61fb2d2b3d925a861f1085fe275
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-tracing-serial-lot-numbers"></a>Vaihekuvaus: Sarja-/eränumeroiden jäljitys
 Kun virheellisiä tuotteita havaitaan, virheet on tunnistettava ja virheellisten nimikkeiden lähtö yrityksestä on estettävä. Jos virheellisiä nimikkeitä on jo lähetetty, on selvitettävä, kuka vastaanotti kyseiset nimikkeet ja pitääkö ne kutsua takaisin.  
 
-Vikojenhallinnan ensimmäinen tehtävä on tutkia mistä viallisten nimikkeiden olivat peräisin ja missä niitä käytettiin. Tämä tutkimus perustuu historiatietoihin ja se helpottaa hakua nimikeseurantatapahtumista **Nimikkeen jäljitys** -ikkunan avulla.  
+Vikojenhallinnan ensimmäinen tehtävä on tutkia mistä viallisten nimikkeiden olivat peräisin ja missä niitä käytettiin. Tämä tutkimus perustuu historiatietoihin ja se helpottaa hakua nimikeseurantatapahtumista **Nimikkeen jäljitys** -sivun avulla.  
 
-Toisessa vaiheessa määritetäänkö, onko jäljitettyjä nimikkeitä käytetty suunnitteluun avoimissa asiakirjoissa, kuten kirjaamattomissa myyntitilauksissa tai kulutuspäiväkirjoissa. Tämä työ tehdään **Navigoi**-ikkunassa. Navigoi-toiminnon avulla voit etsiä kaikenlaisia tietokantatietueita.  
+Toisessa vaiheessa määritetäänkö, onko jäljitettyjä nimikkeitä käytetty suunnitteluun avoimissa asiakirjoissa, kuten kirjaamattomissa myyntitilauksissa tai kulutuspäiväkirjoissa. Tämä työ tehdään **Navigoi**-sivulla. Navigoi-toiminnon avulla voit etsiä kaikenlaisia tietokantatietueita.  
 
 ## <a name="about-this-walkthrough"></a>Tietoja tästä vaihekuvauksesta  
 Tässä vaihekuvauksessa kuvataan, miten virheelliset nimikkeet määritetään. Lisäksi selvitetään, mikä toimittaja toimitti virheelliset nimikkeet ja missä niitä on käytetty, joten tilaukset voidaan pysäyttää tai kutsua takaisin.  
@@ -59,7 +59,7 @@ Myyntiosastolta kerrotaan laatupäällikölle, että palautetun kilpapyörän (n
 
 Nimikkeen jäljityksen ensimmäisen tehtävän tulokset ilmaisevat, mitkä kilpapyörän rungot olivat viallisia ja miltä toimittajalta ne ovat peräisin. Myöhemmin saman jäljitysprosessin aikana laatupäällikön on etsittävät kaikki myydyt kilpapyörät, joihin käytettiin viallisesta erästä peräisin olevia kilpapyörän runkoja, jotta nämä tilaukset voidaan pysäyttää tai kutsua takaisin. Lopuksi laatupäällikön on etsittävä kaikki avoimet asiakirjat, joissa viallista erää käytetään, jotta niissä ei suoriteta enempää tapahtumia.  
 
-Vianhallinnan kaksi ensimmäistä tehtävää tehdään **Nimikkeen jäljitys** -ikkunassa. Viimeinen tehtävä tehdään **Navigoi**- ja **Nimikkeen jäljitys** -ikkunoissa.  
+Vianhallinnan kaksi ensimmäistä tehtävää tehdään **Nimikkeen jäljitys** -sivulla. Viimeinen tehtävä tehdään **Navigoi**- ja **Nimikkeen jäljitys** -sivuilla.  
 
 ## <a name="prepare-sample-data"></a>Esimerkkitietojen valmisteleminen  
 Sinun on luotava seuraavat uudet kohteet:  
@@ -80,7 +80,7 @@ Seuraavaksi näille kahdelle nimikkeelle luodaan osto-, tuotanto- ja myyntitilau
     |Kilpapyörän runko|KPL|RAAKA-AINE|ALV25|RAAKA-AINE|T.ERÄTKKKI|  
 
     > [!NOTE]  
-    >  Syötä perusmittayksikkö valitsemalla **Uusi** -painike ja valitse sitten **PSC** **Nimikkeen mittayksiköt** -ikkunassa.  
+    >  Syötä perusmittayksikkö valitsemalla **Uusi** -painike ja valitse sitten **PSC** **Nimikkeen mittayksiköt** -sivulla.  
 
 4.  Muiden kenttien oletusarvot voidaan hyväksyä, tai niitä ei tarvitse täyttää.  
 5.  Luo ensimmäisen uuden nimikkeen (2000) kortti valitsemalla **OK**.  
@@ -92,17 +92,17 @@ Seuraavaksi näille kahdelle nimikkeelle luodaan osto-, tuotanto- ja myyntitilau
     |Kilpapyörä|KPL|VÄH.MYYNTI|ALV25|VALMIS|Tuotantotilaus|SNROKAIKKI|  
 
     > [!NOTE]  
-    >  Syötä perusmittayksikkö valitsemalla **Uusi** -painike ja valitse sitten **PSC** **Nimikkeen mittayksiköt** -ikkunassa.  
+    >  Syötä perusmittayksikkö valitsemalla **Uusi** -painike ja valitse sitten **PSC** **Nimikkeen mittayksiköt** -sivulla.  
 
     Määritä seuraavaksi nimikkeen tuotannon asetukset.
 
 9. Anna **Täydennys**-pikavälilehden **Reititysnro**-kenttään **1000**.  
 10. Valitse ensin **Tuotannon tuoterakenteen nro**-kenttä ja sitten **Lisäasetukset**.  
-11. Valitse **Tuotannon tuoterak. luettelo** -ikkunassa ensimmäinen rivi, **1000**, ja valitse sitten **Muokkaa**.  
-12. Muuta **Tuotannon tuoterakenne** -ikkunan **Tila**-kentän arvoksi **Kehityksen alla**.  
+11. Valitse **Tuotannon tuoterak. luettelo** -sivulla ensimmäinen rivi, **1000**, ja valitse sitten **Muokkaa**.  
+12. Muuta **Tuotannon tuoterakenne** -sivun **Tila**-kentän arvoksi **Kehityksen alla**.  
 13. Siirry tyhjälle riville, kirjoita **2000** **Nro**-kenttään ja **1** **Määrä per** -kenttään.  
 14. Muuta **Tila**-kentän arvoksi jälleen **Hyväksytty**.  
-15. Valitse **OK**-painike lisätäksesi tuoterakenteen nimikkeen korttiin, ja sulje **Tuotannon tuoterakenne** -ikkuna.  
+15. Valitse **OK**-painike lisätäksesi tuoterakenteen nimikkeen korttiin, ja sulje **Tuotannon tuoterakenne** -sivu.  
 
     Osta seuraavaksi kilpapyörän runkoja Pyöräliike Oy:ltä.  
 
@@ -116,7 +116,7 @@ Seuraavaksi näille kahdelle nimikkeelle luodaan osto-, tuotanto- ja myyntitilau
     |2000|10|ERÄ1|  
 
 4.  Anna eränumero valitsemalla **Nimikkeen seurantarivit** -toiminto.  
-5.  Täytä **Nimikkeen seurantarivit** -ikkunassa **Eränro**- ja **Määrä (perus)** -kentät ja sulje ikkuna.  
+5.  Täytä **Nimikkeen seurantarivit** -sivulla **Eränro**- ja **Määrä (perus)** -kentät ja sulje sivu.  
 6.  Anna **Toimittajan laskunro** -kentässä arvo.  
 7.  Valitse ensin **Kirjaa**-toiminto, sitten **Vastaanota ja laskuta** -asetus ja lopuksi **OK**.  
 
@@ -130,7 +130,7 @@ Seuraavaksi näille kahdelle nimikkeelle luodaan osto-, tuotanto- ja myyntitilau
     |2000|11|ERÄ2|  
 
 11. Anna eränumero valitsemalla **Rivit** -pikavälilehden **Rivi**-ryhmässä **Nimikkeen seurantarivit** -toiminto.  
-12. Täytä **Nimikkeen seurantarivit** -ikkunassa **Eränro**- ja **Määrä (perus)** -kentät ja sulje ikkuna.  
+12. Täytä **Nimikkeen seurantarivit** -sivulla **Eränro**- ja **Määrä (perus)** -kentät ja sulje sivu.  
 13. Anna **Toimittajan laskunro** -kentässä arvo.  
 14. Valitse ensin **Kirjaa**-toiminto, sitten **Vastaanota ja laskuta** -asetus ja lopuksi **OK**.  
 
@@ -148,13 +148,13 @@ Seuraavaksi näille kahdelle nimikkeelle luodaan osto-, tuotanto- ja myyntitilau
 
 4.  Täytä rivi valitsemalla ensin **Päivitä tuotantotilaus** -toiminto ja sitten **OK**.  
 5.  Anna sarjanumerot valitsemalla **Nimikkeen seurantarivit** -toiminto.  
-6.  Täytä **Nimikkeen seurantarivit** -ikkunassa **Sarjanumero**- ja **Määrä (perus)** -kentät ja sulje ikkuna.  
+6.  Täytä **Nimikkeen seurantarivit** -sivulla **Sarjanro**- ja **Määrä (perus)** -kentät ja sulje sivu.  
 
     Seuraavaksi on tarpeen kirjata ERÄ1:n kilpapyörän runkojen kulutus.  
-7.  Valitse **Vapautettu tuotantotilaus** -ikkunassa **Tuotantopäiväkirja** -toiminto.  
-8.  Valitse ensin **Tuotantopäiväkirja**-ikkunassa nimikkeen 2000 kulutusrivi ja sitten **Nimikkeen seurantarivit** -toiminto.
-9. Valitse **Nimikkeen seurantarivit** -ikkunassa ensin **Eränro**-kenttä ja sitten **ERÄ1** ja lopuksi **OK**.  
-10. Älä muuta muita **Tuotantopäiväkirja**-ikkunan oletusasetuksia. Valitse sitten **Kirjaa**-toiminto.  
+7.  Valitse **Vapautettu tuotantotilaus** -sivulla **Tuotantopäiväkirja** -toiminto.  
+8.  Valitse ensin **Tuotantopäiväkirja**-sivulla nimikkeen 2000 kulutusrivi ja sitten **Nimikkeen seurantarivit** -toiminto.
+9. Valitse **Nimikkeen seurantarivit** -sivulla ensin **Eränro**-kenttä ja sitten **ERÄ1** ja lopuksi **OK**.  
+10. Älä muuta muita **Tuotantopäiväkirja**sivun oletusasetuksia. Valitse sitten **Kirjaa**-toiminto.  
 
     Tuota seuraavaksi kaksi kilpapolkupyörää lisää, Snro3 ja Snro4.  
 
@@ -168,13 +168,13 @@ Seuraavaksi näille kahdelle nimikkeelle luodaan osto-, tuotanto- ja myyntitilau
     |1002|2|Snro4|  
 
 14. Täytä rivi valitsemalla **Päivitä tuotantotilaus**-toiminto.  
-15. Anna sarjanumerot valitsemalla ensin **Nimikkeen seurantarivit**-toiminto ja sitten numerot kahdelta **Sarjanumero**-kentän riviltä **Nimikkeiden seurantarivit** -ikkunassa.  
+15. Anna sarjanumerot valitsemalla ensin **Nimikkeen seurantarivit**-toiminto ja sitten numerot kahdelta **Sarjanumero**-kentän riviltä **Nimikkeiden seurantarivit** -sivulla.  
 
     Seuraavaksi on tarpeen kirjata ERÄ1:n kilpapyörän runkojen kulutus.  
-16. Valitse **Vapautettu tuotantotilaus** -ikkunassa **Tuotantopäiväkirja** -toiminto.  
-17. Valitse ensin **Tuotantopäiväkirja**-ikkunassa nimikkeen 2000 kulutusrivi ja sitten **Nimikkeen seurantarivit** -toiminto.
-18. Valitse **Nimikkeen seurantarivit** -ikkunassa ensin **Eränro**-kenttä ja sitten **ERÄ1** ja lopuksi **OK**.  
-19. Älä muuta muita **Tuotantopäiväkirja**-ikkunan oletusasetuksia. Valitse sitten **Kirjaa**-toiminto.  
+16. Valitse **Vapautettu tuotantotilaus** -sivulla **Tuotantopäiväkirja** -toiminto.  
+17. Valitse ensin **Tuotantopäiväkirja**-sivulla nimikkeen 2000 kulutusrivi ja sitten **Nimikkeen seurantarivit** -toiminto.
+18. Valitse **Nimikkeen seurantarivit** -sivulla ensin **Eränro**-kenttä ja sitten **ERÄ1** ja lopuksi **OK**.  
+19. Älä muuta muita **Tuotantopäiväkirja**sivun oletusasetuksia. Valitse sitten **Kirjaa**-toiminto.  
 
     Olet nyt tuottanut neljä kilpapyörää Snro1 - Snro4 ja kuluttanut neljä kymmenestä kilpapyörän rungosta ERÄ1:stä. Kumpaankin tuotantotilaukseen kulutettiin kaksi runkoa.  
 
@@ -190,7 +190,7 @@ Seuraavaksi näille kahdelle nimikkeelle luodaan osto-, tuotanto- ja myyntitilau
     |--------------|----------|----------|----------------|  
     |Tinayhtymä Oy|1002|1|Snro1|  
 
-3.  Anna sarjanumero valitsemalla ensin **Nimikkeen seurantarivit**-toiminto ja sitten numero **Sarjanumero**-kentän riviltä **Nimikkeiden seurantarivit** -ikkunassa.  
+3.  Anna sarjanumero valitsemalla ensin **Nimikkeen seurantarivit**-toiminto ja sitten numero **Sarjanumero**-kentän riviltä **Nimikkeiden seurantarivit** -sivulla.  
 4.  Valitse ensin **Kirjaa**-toiminto, sitten **Toimitus ja lasku** -asetus ja lopuksi **OK**.  
 
     Myy seuraavaksi kilpa-pyörä SN2 ja Tuotantoyhtymä Oyj:lle.  
@@ -202,7 +202,7 @@ Seuraavaksi näille kahdelle nimikkeelle luodaan osto-, tuotanto- ja myyntitilau
     |--------------|----------|----------|----------------|  
     |Cannon Group PLC.|1002|1|Snro2|  
 
-7.  Anna sarjanumero valitsemalla ensin **Nimikkeen seurantarivit**-toiminto ja sitten numero **Sarjanumero**-kentän riviltä **Nimikkeiden seurantarivit** -ikkunassa.  
+7.  Anna sarjanumero valitsemalla ensin **Nimikkeen seurantarivit**-toiminto ja sitten numero **Sarjanumero**-kentän riviltä **Nimikkeiden seurantarivit** -sivulla.  
 8.  Valitse ensin **Kirjaa**-toiminto, sitten **Toimitus ja lasku** -asetus ja lopuksi **OK**.  
 
     Lopuksi on tarpeen myydä kilpapyörän runkoja erikseen. Tuotantoyhtymä Oyj tilaa lisäksi neljä erillistä kilpapyörän runkoa omaa tuotantolinjaansa varten.  
@@ -214,7 +214,7 @@ Seuraavaksi näille kahdelle nimikkeelle luodaan osto-, tuotanto- ja myyntitilau
     |--------------|----------|----------|----------------|  
     |Cannon Group PLC.|2000|5|ERÄ1|  
 
-11. Anna sarjanumero valitsemalla ensin **Rivit**-pikavälilehden **Rivi**-ryhmässä **Nimikkeen seurantarivit** -toiminto ja sitten numero **Sarjanumero**-kentän riviltä **Nimikkeiden seurantarivit** -ikkunassa.  
+11. Anna sarjanumero valitsemalla ensin **Rivit**-pikavälilehden **Rivi**-ryhmässä **Nimikkeen seurantarivit** -toiminto ja sitten numero **Sarjanumero**-kentän riviltä **Nimikkeiden seurantarivit** -sivulla.  
 
     > [!NOTE]  
     >  Älä kirjaa viimeistä myyntitilausta (joka on viidelle kilpapyörän rungolle).  
@@ -225,8 +225,8 @@ Seuraavaksi näille kahdelle nimikkeelle luodaan osto-, tuotanto- ja myyntitilau
  Myyntiosastolta kerrotaan laatupäällikölle, että palautetun kilpapyörän (nimike 1002) eränumero on Snro1. Käyttämällä näitä perustietoja hän voi määrittää, missä valmista kilpapyörää on viimeksi käytetty, tässä tapauksessa Selangorian Ltd.:hen lähtevässä toimituksessa. Sitten laatupäällikön täytyy jäljittää taaksepäin ensimmäiseen alkuperään saadakseen tietää, mistä eränumerosta viallinen kilpakehys on peräisin, ja kuka oli sen toimittaja.  
 
 ### <a name="to-determine-which-lot-included-the-faulty-frame-and-who-supplied-it"></a>Virheellisen rungon erän ja toimittajan määrittäminen  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeen jäljitys** ja valitse sitten liittyvä linkki.  
-2.  Kirjoita **Nimikkeen jäljitys** -ikkunan **Sarjanron suodatus** -kenttään **Snro1** ja lisää **Nimikesuodatus**-kenttään **1002**.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Nimikkeen jäljitys** ja valitse sitten liittyvä linkki.  
+2.  Kirjoita **Nimikkeen jäljitys** -sivulla **Sarjanron suodatus** -kenttään **Snro1** ja lisää **Nimikesuodatus**-kenttään **1002**.  
 3.  Säilytä **Näytä komponentit** -kentän oletusarvo **Vain nimikeseuranta**. Säilytä myös **Jäljitystapa**-kentän oletusjäljitystapa **Käytöstä alkuperään**.  
 4.  Valitse **Jäljitys**-toiminto.  
 
@@ -248,16 +248,16 @@ Seuraavaksi näille kahdelle nimikkeelle luodaan osto-, tuotanto- ja myyntitilau
     > [!NOTE]  
     >  Älä muokkaa jäljityksen tuloksia muutoin, sillä niitä käytetään seuraavassa osassa.  
 
-     Ensimmäinen virheenhallinnan **Nimikkeen jäljitys** -ikkunassa toteutettavista tehtävistä on nyt valmis. Laatupäällikön on nyt määritettävä, onko ERÄ1:stä peräisin olevia kilpapyörän runkoja käytetty muissa kirjatuissa asiakirjoissa.  
+     Nyt virheenhallinnan ensimmäinen **Nimikkeen jäljitys** -sivulla toteutettavista tehtävistä on valmis. Laatupäällikön on nyt määritettävä, onko ERÄ1:stä peräisin olevia kilpapyörän runkoja käytetty muissa kirjatuissa asiakirjoissa.  
 
 ## <a name="tracing-from-origin-to-usage"></a>Jäljittäminen alkuperästä käyttöön  
  Laatupäällikkö on selvittänyt, että virheellinen kilpapyörän runkoerä on peräisin ERÄ1:stä. Hänen on nyt määritettävä, onko virheellisiä runkoja käytetty muualla, jotta nämä kilpapyörät voidaan pysäyttää tai kutsua takaisin.  
 
- Yksi tapa valmistella tämä jäljitystehtävä **Nimikkeen jäljitys** -ikkunassa on, että syötät manuaalisesti arvon ERÄ1 **Eränro suodatus** -kenttään ja arvon 2000 **Nimikesuodatus**-kenttään. Tässä vaihekuvauksessa käytetään kuitenkin **Jäljitä vastapuoli - riviltä** -funktiota.  
+ Yksi tapa valmistella tämä jäljitystehtävä **Nimikkeen jäljitys** sivulla on, että anna manuaalisesti arvon ERÄ1 **Eränro suodatus** -kenttään ja arvon 2000 **Nimikesuodatus**-kenttään. Tässä vaihekuvauksessa käytetään kuitenkin **Jäljitä vastapuoli - riviltä** -funktiota.  
 
 ### <a name="to-find-all-usage-of-the-faulty-lot"></a>Virheellisen erän kaikkien käyttökohteiden etsiminen  
 
-1.  Valitse **Nimikkeen jäljitys** -ikkunassa ostovastaanoton rivi, viimeinen jäljitysrivi ja lopuksi **Jäljitä vastapuoli - Riviltä**.  
+1.  Valitse **Nimikkeen jäljitys** -sivulla ostovastaanoton rivi, viimeinen jäljitysrivi ja lopuksi **Jäljitä vastapuoli - Riviltä**.  
 
     Jäljityksen tulos perustuu nyt ostovastaanoton, ERÄ1:n ja nimikkeen 2000 suodattimiin. Jäljitys toteutetaan **Alkuperästä käyttöön**-jäljitystavalla.  
 
@@ -271,17 +271,17 @@ Seuraavaksi näille kahdelle nimikkeelle luodaan osto-, tuotanto- ja myyntitilau
 
     Samalla laatupäällikkö havaitsee kolmelta viimeiseltä jäljitysriviltä, että kahden muun nimikkeen, Snro3 ja Snro4, tuotannossa on käytetty ERÄ1:n kilpapyörän runkoja. Hän estää näiden valmiiden tuotteiden toimituksen varastosta.  
 
-    Nyt toinen virheenhallinnan **Nimikkeen jäljitys** -ikkunassa toteutettavista tehtävistä on valmis. Koska **Nimikkeen jäljitys** -ikkuna perustuu vain kirjattuihin tapahtumiin, laatupäällikön on varmistettava **Navigoi**-ikkunan avulla, ettei ERÄ1-arvoa ole käytetty kirjaamattomissa asiakirjoissa.  
+    Nyt toinen virheenhallinnan **Nimikkeen jäljitys** -sivulla toteutettavista tehtävistä on valmis. Koska **Nimikkeen jäljitys** -sivu perustuu vain kirjattuihin tapahtumiin, laatupäällikön on **Navigoi**-sivun avulla varmistettava, ettei ERÄ1:tä ole käytetty kirjaamattomissa asiakirjoissa.  
 
 ## <a name="finding-all-records-of-a-seriallot-number"></a>Sarja-/eränumeron kaikkien tietueiden etsiminen  
- **Nimikkeen jäljitys** -ikkunan kanssa laatu-ohjain havaitsi, että LOT1 sisälsi viallisia kilpa-kehyksiä, jotka toimittaja on toimittanut ja kirjatun tapahtuman, jossa niitä on käytetty. Hänen on nyt selvitettävä, sisältyykö ERÄ1 mihinkään avoimeen asiakirjaan integroimalla jäljitystulos **Navigoi**-ikkunaan, jossa hän voi suorittaa haun kaikista tietokantatietueista.  
+ **Nimikkeen jäljitys** -sivun avulla laatu-ohjain havaitsi, että LOT1 sisälsi viallisia kilpakehyksiä, jotka toimittaja on toimittanut, ja kirjatun tapahtuman, jossa niitä on käytetty. Hänen on nyt selvitettävä, sisältyykö ERÄ1 mihinkään avoimeen asiakirjaan integroimalla jäljitystulos **Navigoi**-sivulle, jossa hän voi suorittaa haun kaikista tietokantatietueista.  
 
 ### <a name="to-find-all-occurrences-of-lot1-in-non-posted-records-such-as-open-orders"></a>ERÄ1:n kaikkien esiintymien etsiminen avoimista tilauksista ja muista kirjaamattomista tietueista  
 
-1.  Valitse **Nimikkeen jäljitys** -ikkunassa ensimmäisen jäljitysrivin eli ERÄ1:n ostovastaanoton osoitin.  
+1.  Valitse **Nimikkeen jäljitys** -sivulla ensimmäisen jäljitysrivin eli ERÄ1:n ostovastaanoton osoitin.  
 2.  Valitse **Navigoi**-toiminto.  
 
-    **Navigoi**-ikkuna sisältää valmiiksi ERÄ1:n jäljitystuloksiin perustuvat hakusuodattimet. Laatupäällikkö havaitsee, että suurin osa tietueista kuuluu **Nimikkeen jäljitys** -ikkunassa määritettyihin asiakirjoihin. Esimerkiksi Tuotantotilaus-tyypin viimeinen navigointirivi viittaa kahteen vapautettuun tuotantotilaukseen, joissa käytettiin ERÄ1:stä peräisin olevia kilpapyörän runkoja.  
+    **Navigoi**-sivu sisältää valmiiksi ERÄ1:n jäljitystuloksiin perustuvat hakusuodattimet. Laatupäällikkö havaitsee, että suurin osa tietueista kuuluu **Nimikkeen jäljitys** -sivulla määritettyihin asiakirjoihin. Esimerkiksi Tuotantotilaus-tyypin viimeinen navigointirivi viittaa kahteen vapautettuun tuotantotilaukseen, joissa käytettiin ERÄ1:stä peräisin olevia kilpapyörän runkoja.  
 
     Sen sijaan **Myyntirivi**-tyypin toinen navigointirivi on kirjaamaton asiakirjarivi. Laatupäällikkö tutustuu tämän rivin tietoihin.  
 
@@ -289,7 +289,7 @@ Seuraavaksi näille kahdelle nimikkeelle luodaan osto-, tuotanto- ja myyntitilau
 
     Tässä laatupäällikkö näkee yhden avoimen myyntirivin, joka sisältää virheellisiä kilpapyörän runkoja. Hän ehdottaa välittömästi myyntiosastolle, että tämä tilaus peruutetaan ja uusi, virheettömiin runkoihin perustuva tuotantotilaus luodaan.  
 
- **Navigoi**-ikkunan ja **Nimikkeen jäljitys** -ikkunan integrointia käsittelevä vaihekuvaus on nyt käyty läpi.  
+ **Navigoi**- ja **Nimikkeen jäljitys** -sivujen käytön integrointia vikojen hallinnassa käsittelevä vaihekuvaus on nyt käyty läpi.  
 
 ## <a name="see-also"></a>Katso myös
 [Sarja- ja eränumeroiden käsitteleminen](inventory-how-work-item-tracking.md)  

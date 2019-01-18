@@ -12,16 +12,16 @@ ms.search.keywords: reject, delegate, request
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 4a153d8cd4ceccea2d7d410702df4ba2ec760cf9
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3b4b4a6d544b594f439b675b88176d942d8cf325
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="use-approval-workflows"></a>Hyväksymistyönkulkujen käyttäminen
 Jos organisaatiosi henkilön pitää hyväksyä tietue, kuten ostoasiakirja tai asiakaskortti, hänelle lähetetään hyväksyntäpyyntö työnkulun osana. Hyväksyjä saa työnkulun määrityksen mukaan ilmoituksen siitä, että tietue odottaa hänen hyväksyntäänsä.
 
-Hyväksyntätyönkulut määritetään **Työnkulku**-ikkunassa. Lisätietoja on kohdassa [Työnkulkujen määrittäminen](across-set-up-workflows.md).
+Hyväksyntätyönkulut määritetään **Työnkulku**-sivulla. Lisätietoja on kohdassa [Työnkulkujen määrittäminen](across-set-up-workflows.md).
 
 Tässä ohjeaiheessa kuvattujen hyväksyntätyönkulkujen lisäksi voit suorittaa useita muita työnkulun tehtäviä. Lisätietoja on kohdassa [Työnkulkujen käyttäminen](across-use-workflows.md).
 
@@ -30,7 +30,7 @@ Ostoasiakirjojen, myyntiasiakirjojen, maksupäiväkirjojen, asiakaskorttien ja n
 ## <a name="to-request-approval-of-a-record"></a>Tietueen hyväksynnän pyytäminen
 Hyväksynnän käyttäjä suorittaa seuraavan tehtävän.
 
-1. Valitse tietueen ikkunassa **Lähetä hyväksymispyyntö** -toiminto.
+1. Valitse tietueen sivulla **Lähetä hyväksymispyyntö** -toiminto.
 2. Jos haluat nähdä kaikki hyväksyntäpyynnöt, valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Hyväksymispyyntötapahtumat** ja valitse sitten liittyvä linkki.  
 
 Hyväksyntämerkinnän tila muuttuu **Luotu** -tilasta**Avoin**-tilaksi. Tietueen, kuten esimerkiksi ostolaskun, tila päivitetään **Avoin**-tilasta **Odottaa hyväksyntää** -tilaksi. Tietue pysyy lukittuna käsittelyltä, kunnes hyväksyjät ovat hyväksyneet tietueen.
@@ -42,14 +42,14 @@ Hyväksymisoikeudet omaava hyväksynnän käyttäjä suorittaa seuraavan tehtäv
 
 Tilanne voi toisinaan edellyttää, että asiakkaan täytyy tehdä muutoksia tilaukseen, joka on lähetetty hyväksyttäväksi. Tällöin voit peruuttaa hyväksyntäprosessin ja tehdä tarvittavat muutokset tilaukseen, ennen kuin pyydät hyväksyntää uudelleen.
 
-- Valitse tietueen näyttävässä ikkunassa **Peruuta hyväksymispyyntö** -toiminto.
+- Valitse tietueen näyttävällä sivulla **Peruuta hyväksymispyyntö** -toiminto.
 
 Kun hyväksyntäpyyntö on peruutettu, siihen liittyvän hyväksyntämerkinnän tilaksi tulee **Peruutettu**. Tietueen tila muuttuu **Odottaa hyväksyntää** -tilasta**Avoin**-tilaksi. Tämän jälkeen hyväksyntäprosessi voi alkaa uudelleen.
 
 ## <a name="to-approve-or-reject-requests-for-approval"></a>Hyväksymispyyntöjen hyväksyminen tai hylkääminen
 Hyväksymisoikeudet omaava hyväksynnän käyttäjä suorittaa seuraavan tehtävän.
 
-Voit käsitellä hyväksymispyynnöt **Hyväksyttävät pyynnöt** -ikkunassa esimerkiksi silloin, kun haluat hyväksyä kerralla useita pyyntöjä. Vaihtoehtoisesti voit käsitellä liittyvän tietueen, kuten **Ostolasku**-ikkunan, jokaisen pyynnön valitsemalla vastaanottamasi ilmoituksen linkin.
+Voit käsitellä hyväksymispyynnöt **Hyväksyttävät pyynnöt** -sivulla esimerkiksi silloin, kun haluat hyväksyä kerralla useita pyyntöjä. Vaihtoehtoisesti voit käsitellä liittyvän tietueen, kuten **Ostolasku**-sivun, jokaisen pyynnön valitsemalla vastaanottamasi ilmoituksen linkin.
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Hyväksyttävät pyynnöt** ja valitse sitten liittyvä linkki.
 2. Valitse yksi tai useampi rivi tietueesta tai tietueista, jonka haluat hyväksyä tai hylätä.
@@ -79,7 +79,7 @@ Hyväksynnän työnkulun käyttäjiä on muistutettava säännöllisin väliajoi
 **Lähetä ilmoituksia myöhässä olevista hyväksynnöistä** -toiminto tarkistaa kaikki avoimet myöhässä olevat hyväksyntäpyynnöt. Toiminto lähettää luettelon kaikista myöhässä olevista hyväksynnöistä jokaiselle hyväksyjälle, jolla on vähintään yksi myöhässä oleva hyväksyntämerkintä. Ilmoitus lähetetään myös hyväksyjän esimiehelle ja kaikille myöhässä olevien hyväksyntöjen pyytäjille. Tästä on apua, jos hyväksyntä on siirrettävä sijaiselle.
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Erääntyneet hyväksyntäpyynnöt** ja valitse sitten liittyvä linkki.
-2. Valitse **Myöhässä olevat hyväksyntäpyynnöt** -ikkunassa **Lähetä erääntyneiden hyväksyntöjen ilmoitukset** -toiminto.
+2. Valitse **Myöhässä olevat hyväksyntäpyynnöt** -sivulla **Lähetä erääntyneiden hyväksyntöjen ilmoitukset** -toiminto.
 
 ## <a name="see-also"></a>Katso myös
 [Myynti](sales-manage-sales.md)    

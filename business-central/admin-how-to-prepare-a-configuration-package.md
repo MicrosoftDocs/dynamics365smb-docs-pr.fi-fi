@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ea07eff2d0eb17a76d132484d2210ad0c54053a5
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ea4a7671788ba5c4bd251a83dab1f2616cfbe706
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="prepare-a-configuration-package"></a>Määrityspaketin valmisteleminen
@@ -36,10 +36,10 @@ Varmista, että olet RapidStart Services -palvelun käyttöönottajien roolikesk
 2. Valitse **Uusi**-toiminto.  
 3. Täytä loput **Yleinen**-pikavälilehden kentät asianmukaisella tavalla. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Sulje määrityskyselyt, kokoonpanomallit ja määritystyökirjojen taulukot valitsemalla **Jätä määritystaulukot pois** -valintaruutu. Muutoin nämä taulukot lisätään pakettitaulukoiden luetteloon automaattisesti, kun viet paketin.  
-5. Valitse **Hae taulukot** -toiminto. **Hae pakettitaulukot** -eräajon ikkuna avautuu.  
-6. Valitse **Valitse taulukot** -kenttä. **Määrityksen valinta** -ikkuna avautuu.  
+5. Valitse **Hae taulukot** -toiminto. **Hae pakettitaulukot** -eräajon sivu avautuu.  
+6. Valitse **Valitse taulukot** -kenttä. **Määrityksen valinta** -sivu avautuu.  
 7. Valitse **Valitse kaikki** -toiminto, jos haluat lisätä kaikki taulukot pakettiin, tai valitse luettelosta kaikkien lisättävien taulukoiden **Valittu**-valintaruutu.
-8. Valitse **OK**-painike. Valitsemiesi taulukoiden määrä ilmaistaan **Valitse taulukot** -kentässä. Määritä lisäasetukset ja paina **OK** -painiketta. [!INCLUDE[d365fin](includes/d365fin_md.md)] -taulukoiden rivejä lisätään **Määrityspaketti**-ikkunassa.  
+8. Valitse **OK**-painike. Valitsemiesi taulukoiden määrä ilmaistaan **Valitse taulukot** -kentässä. Määritä lisäasetukset ja paina **OK** -painiketta. [!INCLUDE[d365fin](includes/d365fin_md.md)] -taulukoiden rivejä lisätään **Määrityspaketti**-sivulle.  
 
     > [!NOTE]  
     >  Voi tehdä tämän myös määritystyökirjassa. Valitse pakettiin sisällytettävät taulukot ja valitse sitten **Määritä paketti** -toiminto.
@@ -64,13 +64,13 @@ Kun olet hienosäätänyt sisällytettävät kentät taulukosta, voit tarkistaa 
 ### <a name="to-include-a-template-for-application-to-a-table"></a>Sisällytä malli taulukon sovellukseen  
 Voit määrittää tietyille päätietoja sisältäville taulukoille mallin, johon tiedot kohdistetaan. Malli voi sisältää pakolliset kentät, jotka halutaan ottaa käyttöön kaikissa perustiedoissa ja joiden ei koskaan haluta vaihtelevan. Voit esimerkiksi luoda mallin, jota voi käyttää asiakkaiden tietojen käsittelyssä. Malli voi sisältää kaikki pakolliset kentät, mikä puolestaan mahdollistaa standardoidun tiedon johdonmukaisen tuonnin. Tiedot, joita ei voida standardoida (kuten asiakkaan nimi), käsitellään asiakastietojen tuonnin yhteydessä.
 
-1. Valitse **Määritä pakettikortti** -ikkunassa taulukko ja valitse sitten **Tietomalli**-kenttä. Näyttöön tulee taulukkoon perustuva malliluettelo.
+1. Valitse **Määritä pakettikortti** -sivulla taulukko ja valitse sitten **Tietomalli**-kenttä. Näyttöön tulee taulukkoon perustuva malliluettelo.
 2. Valitse malli ja sitten **OK**-painike.  
 
 Kun paketti on valmis, noudata seuraavaa menettelyä, jonka mukaan paketti tallennetaan tiedostoon. voit sitten antaa paketin asiakkaalle tai kumppanille käytettäväksi.
 
 ### <a name="to-save-and-export-a-configuration-package"></a>Tallenna ja vie kokoonpanopaketti  
-- Valitse **Määritä pakettikortti** -ikkunassa **Vie paketti** -toiminto.  
+- Valitse **Määritä pakettikortti** -sivulla **Vie paketti** -toiminto.  
 
 Paketti luodaan .rapidstart-tiedostosssa, joka toimittaa paketin sisällön pakatussa muodossa. Määrityskyselyt, määritysmallit ja määritystyökirja lisätään pakettiin automaattisesti, ellet ole jättänyt niitä erityisesti ulkopuolelle.  
 
@@ -121,18 +121,18 @@ Kun luot kokoonpanonpaketin ratkaisua varten, voit tarkastella ja mukauttaa käy
     > [!NOTE]  
     >  Varmista, että jokaiseen taulukkoon on määritetty sivun tunnus. Tämä arvo on täytetty automaattisesti vakiomuotoisissa [!INCLUDE[d365fin](includes/d365fin_md.md)] -taulukoissa. Mukautetuille taulukoille on annettava tunnus.
 
-3. Valitse **Tietokantatiedot**-toiminto. Liittyvän sivun ikkuna avautuu.
+3. Valitse **Tietokantatiedot**-toiminto. Liittyvän sivun sivu avautuu.
 4. Tarkastele käytettävissä olevia tietoja Muokkaa sitä tarpeen mukaan poistamalla epäolennaiset tietueet tai lisäämällä uusia.    
 
 ## <a name="to-copy-data-from-a-test-environment-to-a-production-environment"></a>Tietojen kopioiminen testiympäristöstä tuotantoympäristöön  
 Kun olet tarkistanut ja testannut kaikki asetustiedot, voit jatkaa tietojen kopioimiseen tuotantoympäristöön. Luo uusi yritys samaan tietokantaan.
 
 1. Avaa ja alusta uusi yritys.  
-2. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Määritystyökirja** ja valitse sitten liittyvä linkki.  
+2. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Määritystyökirja** ja valitse sitten liittyvä linkki.  
 3. Valitse **Kopioi tiedot yrityksestä** -toiminto.  
-4. Valitse **Kopioi yrityksen tiedot** -ikkunassa **Kopiointilähde**-kenttä. **Yritykset**-ikkuna aukeaa:  
+4. Valitse **Kopioi yrityksen tiedot** -sivulla **Kopiointilähde**-kenttä. **Yritykset**-sivu avautuu.  
 5. Valitse yritys, josta tiedot kopioidaan, ja valitse sitten **OK**-painike. Määritystyökirjassa valittujen taulukoiden luettelo tulee esiin. Tähän luetteloon sisältyvät vain ne taulukot, jotka sisältävät tietueita.
-6. Valitse taulukot, joista haluat kopioida tietoja, ja valitse sitten **Kopioi tiedot** -toiminto. Valitse **Kopioi yrityksen tiedot** -ikkunassa **OK**.  
+6. Valitse taulukot, joista haluat kopioida tietoja, ja valitse sitten **Kopioi tiedot** -toiminto. Valitse **Kopioi yrityksen tiedot** -sivulla **OK**.  
 
 ## <a name="see-also"></a>Katso myös  
 [Asiakkaan asetusarvojen kerääminen](admin-gather-customer-setup-values.md)  

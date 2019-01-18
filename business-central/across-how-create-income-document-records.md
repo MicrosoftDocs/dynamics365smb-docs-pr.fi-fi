@@ -13,14 +13,14 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: de7ad97401529b4dd05bc40daf16df0fe7cd6fb1
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 33ca7a06aa8c903bb6f65af298748417ac460f63
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-incoming-document-records"></a>Saapuvien asiakirjatietueiden luominen
-**Saapuvat asiakirjat** -ikkunassa voit käyttää erilaisia toimintoja, joilla voit tarkistaa kulutositteita, hallita OCR-tehtäviä ja muuntaa saapuvia asiakirjatiedostoja manuaalisesti tai automaattisesti sekä siirtää niistä tietoja asiakirjoihin tai kirjanpitoriveille. Ulkoisia tiedostoja voi liittää missä tahansa prosessin vaiheessa myös kirjattuihin asiakirjoihin ja muodostuviin toimittaja-, asiakas- ja pääkirjamerkintöihin.
+**Saapuvat asiakirjat** -sivulla voit käyttää erilaisia toimintoja, joilla voit tarkistaa kulutositteita, hallita OCR-tehtäviä ja muuntaa saapuvia asiakirjatiedostoja manuaalisesti tai automaattisesti sekä siirtää niistä tietoja asiakirjoihin tai kirjanpitoriveille. Ulkoisia tiedostoja voi liittää missä tahansa prosessin vaiheessa myös kirjattuihin asiakirjoihin ja muodostuviin toimittaja-, asiakas- ja pääkirjamerkintöihin.
 
 Voit tallentaa ulkoisen asiakirjan [!INCLUDE[d365fin](includes/d365fin_md.md)]issa luomalla tai suorittamalla ensin saapuvan tiedostotietueen. Voit tehdä tämän manuaalisesti tai ottaa valokuvan ulkoisesta asiakirjasta ja luoda sitten saapuva asiakirjatietue, johon on liitetty kuvatiedosto.
 
@@ -40,7 +40,7 @@ Jos hyväksyt saapuvan asiakirjatietueen, saapuvan asiakirjan rivin **Vapautettu
 
 1. Valitse sovellusriviltä **luo saapuva asiakirja kamerasta** ruutu ja siirry sitten vaiheeseen 4.
 2. Voit myös valita sovellusrivin, valita asetukset-painikkeen, valita **saapuvat asiakirjat**, ja valita sitten **kaikki**.
-3. Valitse **Saapuvat asiakirjat** -ikkunassa ellipsipainike ja valitse sitten **Luo kamerasta**. Tabletin tai puhelimen kamera ativoituu.
+3. Valitse **Saapuvat asiakirjat** -sivulla ellipsipainike ja valitse sitten **Luo kamerasta**. Tabletin tai puhelimen kamera ativoituu.
 4. Ota valokuva asiakirjasta, kuten tavaran vastaanotto, jonka haluat käsitellä saapuvana asiakirjana,ja valitse sitten **OK**.
 
     Luo uuden saapuvan asiakirjan tietueen ja liittää kuvan.
@@ -51,7 +51,7 @@ Jos hyväksyt saapuvan asiakirjatietueen, saapuvan asiakirjan rivin **Vapautettu
 
 1. Voit valita sovellusrivin, valita asetukset-painikkeen, valita **saapuvat asiakirjat**, ja valita sitten **kaikki**.
 2. Avaa aiemmin luotu saapuvan asiakirjan tietue kortti.
-3. Valitse **Saapuva asiakirja** -ikkunassa ellipsipainike ja valitse sitten **Liitä kuva kamerasta**. Tabletin tai puhelimen kamera ativoituu.
+3. Valitse **Saapuva asiakirja** -sivulla ellipsipainike ja valitse sitten **Liitä kuva kamerasta**. Tabletin tai puhelimen kamera ativoituu.
 4. Ota valokuva asiakirjasta, kuten tavaran vastaanotto, jonka haluat käsitellä saapuvana asiakirjana,ja valitse sitten **OK**.
 
     Kuva liitetään saapuvan asiakirjan tietueeseen.
@@ -59,11 +59,11 @@ Jos hyväksyt saapuvan asiakirjatietueen, saapuvan asiakirjan rivin **Vapautettu
 ## <a name="to-create-an-incoming-document-record-manually"></a>Saapuvan asiakirjatietueen luominen manuaalisesti
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Saapuvat asiakirjat** ja valitse sitten liittyvä linkki.
 2. Valitse **Luo tiedostosta** -toiminto.  
-3. **Lisää tiedosto** -ikkunassa valitse tiedosto ja valitse sitten **Avaa**. Tiedosto liitetään automaattisesti.
+3. **Lisää tiedosto** -sivulla valitse tiedosto ja valitse sitten **Avaa**. Tiedosto liitetään automaattisesti.
 4. Vaihtoehtoisesti voit valita **Uusi**-toiminnon.
 5. Voit liittää tiedoston valitsemalla **Liitä tiedosto** -toiminto.
-6. Valitse **Lisää tiedosto** -ikkunassa tiedosto, joka vastaa kyseistä saapuvaa asiakirjaa, ja valitse sitten **Avaa**.
-7. Täytä **Saapuva asiakirja** -ikkunassa tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+6. Valitse **Lisää tiedosto** -sivulla tiedosto, joka vastaa kyseistä saapuvaa asiakirjaa, ja valitse sitten **Avaa**.
+7. Täytä **Saapuva asiakirja** -sivulla tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="see-also"></a>Katso myös
 [Saapuvien asiakirjojen käsitteleminen](across-process-income-documents.md)  

@@ -12,14 +12,14 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: finance-collect-payments-with-sepa-direct-debit
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 0ba40eb247c1edb2b4d8c7437bf60790545799ee
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: c5d14102299140fd93ec586d0ef6165d1408505d
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-sepa-direct-debit"></a>SEPA-suoraveloituksen määrittäminen
-**Suoraveloitusperinnät** -ikkunasta voit viedä sähköiseen pankkiisi ohjeita, jotka ohjaavat pankkiasi suorittamaan suoraveloituksen asiakkaan pankkitililtä omalle pankkitilillesi. [!INCLUDE[d365fin](includes/d365fin_md.md)] tukee SEPA-suoraveloitusmuotoa, mutta maassasi tai alueellasi saattaa olla käytettävissä muita sähköisten maksujen muotoja.  
+**Suoraveloitusperinnät**-sivulla voi viedä sähköiseen pankkiin ohjeita, jotka ohjaavat pankkiasi suorittamaan suoraveloituksen asiakkaan pankkitililtä omalle pankkitilille. [!INCLUDE[d365fin](includes/d365fin_md.md)] tukee SEPA-suoraveloitusmuotoa, mutta maassasi tai alueellasi saattaa olla käytettävissä muita sähköisten maksujen muotoja.  
 
 Jos haluat ottaa käyttöön sellaisten pankkitiedostomuotojen viennin, joita [!INCLUDE[d365fin](includes/d365fin_md.md)] ei tue sellaisenaan, voit määrittää tietojen siirtomäärityksen käyttämällä tiedonsiirtokehystä. Lisätietoja on kohdassa [Tietojenvaihtomääritysten määrittäminen](across-how-to-set-up-data-exchange-definitions.md).  
 
@@ -47,8 +47,8 @@ Ennen kuin voit käsitellä asiakkaan maksuja sähköisesti viemällä suoravelo
     > [!NOTE]  
     >  Älä anna arvoa **Vastatilin nro** -kenttään.  
 
-4. Valitse **OK**-painike **Maksutavat** -ikkunan sulkemiseksi.  
-5. Syötä **Etsi**-ruudussa **Asiakkaat** ja valitse sitten vastaava linkki.  
+4. Valitse **OK**-painike **Maksutavat**-sivun sulkemiseksi.  
+5. Anna **Etsi**-ruudussa **Asiakkaat** ja valitse sitten vastaava linkki.  
 6. Avaa asiakkaan kortti asiakkaalle, jolle haluat määrittää SEPA-suoraveloitusperinnän.  
 7. Valitse **Maksutavan koodi** -kenttä ja sitten maksutavan koodi, jonka määritit vaiheessa 3.  
 8. Toista vaiheet 6–7 kaikille asiakkaille, joille haluat määrittää SEPA-suoraveloitusperinnän.  
@@ -57,8 +57,8 @@ Ennen kuin voit käsitellä asiakkaan maksuja sähköisesti viemällä suoravelo
 1. Syötä **Etsi**-ruudussa **Asiakkaat** ja valitse sitten vastaava linkki.  
 2. Avaa asiakkaan kortti, jonka haluat määrittää SEPA-suoraveloituksille.  
 3. Valitse **Pankkitilit**-toiminto.  
-4. Valitse **Asiakkaan pankkitililuettelo** -ikkunassa asiakkaan pankkitili, jota käytät suoraveloitukseen ja valitse sitten **Koti**-välilehden **Käsittely**-ryhmässä **Suoraveloitusvaltakirja**.  
-5. Täytä **Suoraveloitusvaltakirjat** -ikkunan kentät seuraavassa taulukossa kuvatulla tavalla.  
+4. Valitse **Asiakkaan pankkitililuettelo** -sivulla asiakkaan pankkitili, jota käytät suoraveloitukseen, ja valitse sitten **Koti**-välilehden **Käsittely**-ryhmässä **Suoraveloitusvaltakirja**.  
+5. Täytä **Suoraveloitusvaltakirjat**-sivun kentät seuraavassa taulukossa kuvatulla tavalla.  
 
     |Kenttä|Kuvaus|  
     |---------------------------------|---------------------------------------|  

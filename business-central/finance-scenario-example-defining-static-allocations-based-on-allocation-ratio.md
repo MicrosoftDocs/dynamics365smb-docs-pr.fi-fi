@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: 
 ms.date: 10/01/2018
 ms.author: sgroespe
+redirect_url: finance-define-and-allocate-costs
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 036aa1f317c1b1de7fc1548e03d40eca8c25be89
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d35fd5de7a0583c3864268d0749384322bf947ed
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="scenario-example-defining-static-allocations-based-on-allocation-ratio"></a>Esimerkkiskenaario: Kohdistamissuhteeseen perustuvan staattisen kohdistamisen määrittäminen
@@ -29,8 +30,8 @@ Tässä aiheessa kuvataan, miten määrittää kolmen uuden kohdistuskohteen kus
 
 ## <a name="to-define-the-allocation-source-prod-cost-center-on-the-general-fasttab"></a>Määritä varauksen lähde TUOT kustannuspaikka yleisessä pikavälilehdessä  
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kustannusten kohdistaminen** ja valitse sitten liittyvä linkki.  
-2.  Valitse **Kustannusten kohdistaminen** -ikkunassa **Uusi**-toiminto.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Kustannusten kohdistaminen** ja valitse sitten liittyvä linkki.  
+2.  Valitse **Kustannusten kohdistaminen** -sivulla **Uusi**-toiminto.  
 3.  Paina **Tunnus**-kentässä Enter tai kirjoita tunnus.  
 4.  Syötä **Taso**-kenttään **1**.  
 5.  Syötä arvot **Voimassaolo alkaa**- ja **Voimassaolo päättyy** -kenttiin.  
@@ -59,8 +60,5 @@ Tässä aiheessa kuvataan, miten määrittää kolmen uuden kohdistuskohteen kus
 >  [!INCLUDE[d365fin](includes/d365fin_md.md)] laskee automaattisesti **Prosentti**-kenttään prosenttiarvon, joka määräytyy kaikkien niiden kolmen kohdistussuhteen mukaan, jotka syötetty **Osuus**-kenttään kaikilla kolmella rivillä.  
 
 ## <a name="see-also"></a>Katso myös  
-[Kohdistuksen lähteen ja sen tavoitteiden määrittäminen.](finance-how-to-set-up-allocation-source-and-targets.md)   
 [Kustannusten määrittäminen ja kohdistaminen](finance-define-and-allocate-costs.md)   
-[Esimerkkiskenaario: Myytyihin nimikkeisiin perustuvien dynaamisten kohdistusten määrittäminen](finance-scenario-example-defining-dynamic-allocations-based-on-items-sold.md)   
-[Kustannusten määrittäminen ja kohdistaminen](finance-define-and-allocate-costs.md)
 

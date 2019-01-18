@@ -12,18 +12,18 @@ ms.search.keywords: warehouse, stock
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d6df6884ef5cf8fce96ec1f5bc5ca91bdbd3ede7
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0e9b610d54f955c3dec9cba6b2327a74663288a2
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="reconcile-inventory-costs-with-the-general-ledger"></a>Varaston kustannusten täsmäyttäminen pääkirjanpitoon
 Kun kirjaat varastotapahtumia, kuten myyntitoimituksia, ostolaskuja tai varaston muutoksia, muuttuneet nimikekustannukset kirjataan niiden arvotapahtumiin. Jotta varastoarvon muutos päivittyisi talouskirjoihin, varastokustannukset kirjataan automaattisesti pääkirjanpidon liittyviin varastotileihin. Ohjelma kirjaa jokaista itse kirjaamaasi varastotapahtumaa kohti sopivan arvon varastotilille, muutostilille ja myytyjen tuotteiden kustannusten tilille pääkirjanpidossa.
 
-**Varastonhallinnan asetukset** -ikkunan **Automaattinen kustann. kirjaus** -kenttä määrittää automaattisen kustannusten kirjauksen.
+**Varastonhallinnan asetukset** -sivun **Automaattinen kustann. kirjaus** -kenttä määrittää automaattisen kustannusten kirjauksen.
 
-Vaikka kustannukset kirjattaisiin automaattisesti pääkirjanpitoon, on tarpeen varmistaa, että tavaroiden kustannukset välitetään oikealle lähtevälle transaktioille. Tämä on erityisen tärkeää, kun myyt tavaroita ennen näiden tavaroiden oston laskutusta. Tätä kutsutaan kustannusmuutokseksi. Nimikekustannukset muutetaan automaattisesti, kun kirjaat nimiketapahtumia, mutta voit muuttaa niitä myös manuaalisesti. Lisätietoja on kohdassa [Nimikekustannuksien muuttaminen](inventory-how-adjust-item-costs.md).
+Vaikka kustannukset kirjattaisiin automaattisesti pääkirjanpitoon, on tarpeen varmistaa, että tavaroiden kustannukset välitetään liitetään lähtevälle tapahtumalle. Tämä on erityisen tärkeää, kun myyt tavaroita ennen näiden tavaroiden oston laskutusta. Tätä kutsutaan kustannusmuutokseksi. Nimikekustannukset muutetaan automaattisesti, kun kirjaat nimiketapahtumia, mutta voit muuttaa niitä myös manuaalisesti. Lisätietoja on kohdassa [Nimikekustannuksien muuttaminen](inventory-how-adjust-item-costs.md).
 
 ## <a name="to-post-inventory-costs-manually"></a>Varaston kustannusten kirjaus manuaalisesti
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kirjaa varaston kustannus KP:oon** ja valitse sitten liittyvä linkki.
@@ -37,7 +37,7 @@ Saat virheluettelon näkyviin ennen kirjauksen eräajon ajoa, kun suoritat **Kir
 Jos haluat yleiskuvauksen niistä arvoista, jotka pääkirjanpitoon voi kirjata ilman kirjauksen suoritusta, voit suorittaa **Kirjaa varaston kustannus KP:oon** -eräajon. Arvoja ei tällöin oikeasti kirjata pääkirjanpitoon. Voit tehdä tämän poistamalla valintaruudun valinnan **Kirjaa** -kentässä pyyntösivulla. Näin eräajoa suoritettaessa tuotetaan raportti, jossa on arvot, jotka ovat valmiita kirjattaviksi kirjanpitoon, mutta joita ei ole kirjattu.
 
 ## <a name="to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger"></a>Varastotapahtumien ja pääkirjanpidon välisen täsmäytyksen tarkistaminen
-**Varasto - Kirjanpidon täsmäytys** -ikkunan sisältö:
+**Varasto - Kirjanpidon täsmäytys** -sivun sisältö:
 
 - osoittaa täsmäytyserot vertaamalla kirjanpidon ja varastokirjausten (arvotapahtumat) tallennuksia
 - näyttää varastokirjausten arvotapahtumien täsmäyttämättömät kustannussummat siten, että ne näyttävät olevan linkitetty vastaaviin varastoon liittyviin kirjanpidon tileihin, ja vertaa näitä summia kirjanpidossa samoille tileille tallennettuihin kokonaissummiin
@@ -57,11 +57,11 @@ Ruudukossa äärimmäisenä vasemmalla olevassa **Nimi**-sarakkeessa on erilaise
 
 **Ero**-sarakkeessa on **KP yhteensä**- ja **Yhteensä**-kenttien summien ero.
 
-Voit antaa **Varasto - Kirjanpidon täsmäytys** -ikkunan yläosassa suodattimia, jotka rajaavat esimerkiksi haettavien tietojen ajanjaksoa.
+**Varasto - Kirjanpidon täsmäytys** -sivun yläosassa voit asettaa suodattimia, jotka rajaavat esimerkiksi haettavien tietojen ajanjaksoa.
 
 Jos valitse **Näytä varoitus** -valintaruudun ja jos varaston kokonaissummien ja pääkirjanpidon kokonaissummien välillä on eroja, ohjelma tuo ruudukon **Varoitus**-kenttään sanomia, joissa on erojen selitykset. Jos napsautat Varoitus-kenttää, ohjelma antaa lisätietoja varoituksen merkityksestä.
 
-Kun olet määrittänyt kaikki tarvittavat suodattimet, valitse **Näytä matriisi** -toiminto. Ohjelma laskee tiedot ja tuo näyttöön matriisi-ikkunan.
+Kun olet määrittänyt kaikki tarvittavat suodattimet, valitse **Näytä matriisi** -toiminto. Ohjelma laskee tiedot ja tuo näyttöön matriisisivun.
 
 Ruudukon äärimmäisenä vasemmalla olevassa sarakkeessa näkyvät varastoon liittyvät pääkirjanpidon tilityypit. Seuraavina ruudukossa näkyvät näiden tilityyppien laskutetut, laskuttamattomat (väliaikaiset) ja KET-varaston kokonaissummat. Nämä kokonaissummat arvotapahtumien perusteella.
 

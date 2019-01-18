@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2441c41c6bb28691a855ac4b5d50359b95b23f7d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0ba61572a237e177b763b7b8a2e13ca7ec93eea4
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Vaihekuvaus: Vastaanotto ja hyllytys fyysisen varastoinnin perusmäärityksissä
@@ -32,7 +32,7 @@ Lisätietoja on kohdassa [Rakennetiedot: Saapuvan fyysisen varastoinnin virta](d
 Seuraavassa vaihekuvauksessa kuvataan edellisen taulukon menetelmää B.  
 
 ## <a name="about-this-walkthrough"></a>Tietoja tästä vaihekuvauksesta  
-Jos fyysisen varastoinnin perusmääritykset määrittävät sijainnin edellyttämään hyllytyksen muttei vastaanoton käsittelyä, saapuvien lähdeasiakirjojen hyllytys- ja vastaanottotiedot tallennetaan ja kirjataan **Varastohyllytys**-ikkunassa. Saapuva lähdeasiakirja voi olla ostotilaus, myyntipalautustilaus, saapuva siirtotilaus tai tuotantotilaus jonka tuotos odottaa hyllytystä.
+Jos fyysisen varastoinnin perusmääritykset määrittävät sijainnin edellyttämään hyllytyksen muttei vastaanoton käsittelyä, saapuvien lähdeasiakirjojen hyllytys- ja vastaanottotiedot tallennetaan ja kirjataan **Varastohyllytys**-sivulla. Saapuva lähdeasiakirja voi olla ostotilaus, myyntipalautustilaus, saapuva siirtotilaus tai tuotantotilaus jonka tuotos odottaa hyllytystä.
 
 > [!NOTE]
 > Vaikka asetusten nimenä on **Vaadi poiminta** ja **Vaadi hyllytys**, voit silti kirjata vastaanottoja ja toimituksia suoraan lähdeasiakirjoista sijainneissa, joissa olet valinnut nämä valintaruudut.  
@@ -62,8 +62,8 @@ Tämän vaihekuvauksen ohjeiden noudattamisen edellytykset:
 -   CRONUS Finland Oy on asennettu.  
 -   Tee itsestäsi fyysisen varaston työntekijä HOPEISESSA sijainnissa tekemällä seuraavat toimet:  
 
-    1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varaston työntekijät** ja valitse sitten liittyvä linkki.  
-    2.  Valitse **Käyttäjätunnus**-kenttä ja valitse oma käyttäjätilisi **Käyttäjät**-ikkunasta.  
+    1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Varaston työntekijät** ja valitse sitten liittyvä linkki.  
+    2.  Valitse ensin **Käyttäjätunnus**-kenttä ja valitse oma käyttäjätilisi **Käyttäjät**-sivulla.  
     3.  Kirjoita **Sijaintikoodi**-kenttään HOPEA.  
     4.  Valitse **Oletus**-kenttä.  
 
@@ -71,7 +71,7 @@ Tämän vaihekuvauksen ohjeiden noudattamisen edellytykset:
 Ellen on CRONUS Finland Oy:n varastopäällikkö ja hän luo ostotilauksen, jossa on 10 yksikköä LS-75-nimikettä ja 30 yksikköä LS-81-nimikettä, toimittajalta 10000 toimitettavaksi HOPEISEEN varastoon. Kun toimitus saapuu varastoon, varastotyöntekijä Joakim hyllyttää nimikkeitä niille määritettyihin oletusvarastopaikkoihin. Kun Joakim kirjaa hyllytyksen, nimikkeet kirjataan vastaanotetuksi varastoon, ja ne ovat käytettävissä myyntiä tai muita kysyntää varten.  
 
 ## <a name="setting-up-the-location"></a>Sijainnin määrittäminen  
- **Sijaintikortti**-ikkunan asetuksissa määritellään yrityksen varaston työnkulut.  
+ **Sijaintikortti**-sivun asetuksissa määritellään yrityksen varaston työnkulut.  
 
 ### <a name="to-set-up-the-location"></a>Sijainnin määrittäminen  
 
@@ -84,7 +84,7 @@ Ellen on CRONUS Finland Oy:n varastopäällikkö ja hän luo ostotilauksen, joss
 4.  Valitse **Varastopaikat**-toiminto.  
 5.  Valitse varastopaikan S-01-0001 ensimmäinen rivi ja valitse sitten **Sisältö**-toiminto.  
 
-    Huomaa **Varastopaikan sisältö** -ikkunassa, että nimike LS-75 on jo määritetty sisällöksi varastopaikassa S-01-0001.  
+    Huomaa **Varastopaikan sisältö** -sivulla, että nimike LS-75 on jo määritetty sisällöksi varastopaikassa S-01-0001.  
 
 6.  Valitse **Uusi**-toiminto.  
 7.  Valitse **Kiinteä**- ja **Oletus**-kentät.  
@@ -114,7 +114,7 @@ Ostotilaukset ovat yleisin saapuvien lähdeasiakirjojen tyyppi.
     Kaiuttimien toimitus toimittajalta 10000 on saapunut HOPEISEEN varastoon, ja John ryhtyy hyllyttämään niitä.  
 
 ## <a name="receiving-and-putting-the-items-away"></a>Nimikkeiden vastaanottaminen ja hyllyttäminen  
-Voit hallita **Varastohyllytys**-ikkunassa kaikkia tietyn lähdeasiakirjan saapuvia varastotoimintoja, kuten ostotilausta.  
+Voit hallita **Varastohyllytys**-sivulla kaikkia tietyn lähdeasiakirjan saapuvia varastotoimintoja, kuten ostotilausta.  
 
 ### <a name="to-receive-and-put-the-items-away"></a>Nimikkeiden vastaanottaminen ja hyllyttäminen  
 

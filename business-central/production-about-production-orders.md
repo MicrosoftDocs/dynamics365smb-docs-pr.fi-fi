@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7172c271d2bd25d79294a637dec83a8a0fb834dc
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1c534f16c1e69840912e42c30bbcae2d6496b373
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="about-production-orders"></a>Tietoja tuotantotilauksista
@@ -40,7 +40,7 @@ Tuotantotilaukset toimivat lähtökohtana
 -   valmistuneen tuotannon seurannassa.  
 
 ## <a name="production-order-creation"></a>Tuotantotilausten luominen  
-Tuotantotilauksia voi luoda manuaalisesti tilaus kerrallaan **Tuotantotilaus**-ikkunassa, mutta niitä voi luoda myös **Myyntitilaus suunnittelu**- tai **Tilauksen suunnittelu** -ikkunassa. **Suunnittelutyökirja**-ikkunassa luodaan useita tilauksia.  
+Tuotantotilauksia voi luoda manuaalisesti tilaus kerrallaan **Tuotantotilaus**-sivulla, mutta niitä voi luoda myös **Myyntitilauksen suunnittelu**- tai **Tilauksen suunnittelu** -sivuilla. **Suunnittelutyökirja**-sivulla luodaan useita tilauksia.  
 
 Seuraavien kohteiden tietoja käytetään tuotantotilausten luonnissa:  
 
@@ -54,8 +54,8 @@ Seuraavien kohteiden tietoja käytetään tuotantotilausten luonnissa:
 Tuotantotilaukset varataan ja niitä seurataan automaattisesti lähteeseen, kun  
 
 -   ne luodaan **suunnittelutyökirjasta**  
--   ne luodaan **Myyntitilaus suunnittelu** -ikkunan tilaustoiminnolla  
--   ne luodaan **Tilauksen suunnittelu** -ikkunassa  
+-   ne luodaan **Myyntitilauksen suunnittelu** -sivun tilaustoiminnolla  
+-   ne luodaan **Tilauksen suunnittelu** -sivulla  
 -   niissä käytetään tuotantotilausten **Uudelleensuunnittele**-toimintoa.  
 
 Lisätietoja on kohdassa [Kysynnän ja tarjonnan välisten suhteiden seuranta](production-how-track-demand-supply.md).
@@ -63,7 +63,7 @@ Lisätietoja on kohdassa [Kysynnän ja tarjonnan välisten suhteiden seuranta](p
 Muilla keinoilla luotuja tuotantotilauksia ei varata eikä seurata automaattisesti.   
 
 ## <a name="production-order-status"></a>Tuotantotilauksen tila  
-Tuotantotilauksen tilan avulla hallitaan tuotantotilauksen toimintaa ohjelmassa. Tilauksen tila määrittää tuotannon muodon ja sisällön. Tuotantotilaukset näkyvät tilansa mukaisesti eri ikkunoissa. Tuotantotilauksen tilaa ei voi muuttaa manuaalisesti; sen sijaan täytyy käyttää **Muuta tilaa** -toimintoa.  
+Tuotantotilauksen tilan avulla hallitaan tuotantotilauksen toimintaa ohjelmassa. Tilauksen tila määrittää tuotannon muodon ja sisällön. Tuotantotilaukset näkyvät tilansa mukaisesti eri sivuilla. Tuotantotilauksen tilaa ei voi muuttaa manuaalisesti; sen sijaan täytyy käyttää **Muuta tilaa** -toimintoa.  
 
 ### <a name="simulated-production-order"></a>Simuloitu tuotantotilaus  
 Seuraavat ominaisuudet tekevät simuloidusta tuotantotilauksesta yksilöllisen:  

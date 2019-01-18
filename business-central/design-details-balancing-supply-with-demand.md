@@ -14,10 +14,10 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 51555bbfbd7fec6ca46bc1b2e6b02382288a41bc
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 037ba35395ba84d4f943b0a45a7fb43c24b34385
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-balancing-supply-with-demand"></a>Rakennetiedot: tarjonnan täsmäytys kysynnällä
@@ -59,7 +59,7 @@ Yleisesti koko tarjonnalla on suunnittelun joustavuus, jota rajoittaa jokaisen e
 
     -   Se kuvaa varastoa (aina päivänä nolla).  
     -   Sillä on tilausten välinen linkki toiseen kysyntään.  
-    -   Se on aikavälin määrittämän uudelleenaikataulutuksen ikkunan ulkopuolella.  
+    -   Se on aikavälin määrittämän uudelleenaikataulutussivun ulkopuolella.  
     -   Voit käyttää myös paremmin sopivaa tarjontaa.  
     -   Toisaalta käyttäjä voi päättää, että aikataulutusta ei suoriteta uudelleen, koska:  
     -   Toimitustilaus on jo sidottu edellisen päivän toiseen kysyntään.  
@@ -68,7 +68,7 @@ Yleisesti koko tarjonnalla on suunnittelun joustavuus, jota rajoittaa jokaisen e
 -   **Aikatauluta uudelleen sisään**: olemassa olevan toimitustilauksen päivämäärä voidaan aikatauluttaa sisään lukuun ottamatta seuraavia olosuhteita:  
 
     -   Se on linkitetty suoraan johonkin toiseen kysyntään.  
-    -   Se on aikavälin määrittämän uudelleenaikataulutuksen ikkunan ulkopuolella.  
+    -   Se on aikavälin määrittämän uudelleenaikataulutussivun ulkopuolella.  
 
 > [!NOTE]  
 >  Kun suunnitellaan uusintatilauspistettä käyttävää nimikettä, toimitustilaus voidaan ajoittaa tarvittaessa, Tämä on normaalia eteenpäin ajastetuille toimitustilauksille, jotka uusintatilauspiste käynnistää.  

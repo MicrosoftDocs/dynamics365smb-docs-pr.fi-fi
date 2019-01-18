@@ -11,14 +11,14 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.date: 11/19/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b66a33d652d4229a32ed4672774e5b2bc2ed8833
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 353662322e36a564f30bc911f056817cafa7440c
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="changing-basic-settings"></a>Perusasetusten muuttaminen
-[**Omat asetukset**](https://businesscentral.dynamics.com?page=9176 "Siirry suoraan Business Central -sovelluksen käyttäjäasetusten sivulle") -ikkunassa voi tarkastella ja muuttaa [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen perusasetuksia. Tekemäsi muutokset vaikuttavat vain omaan työtilaasi; ei muiden käyttäjien työtiloihin.  
+[**Omat asetukset**](https://businesscentral.dynamics.com?page=9176 "Siirry suoraan Business Central -sovelluksen käyttäjäasetusten sivulle") -sivulla voi tarkastella ja muuttaa [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen perusasetuksia. Tekemäsi muutokset vaikuttavat vain omaan työtilaasi; ei muiden käyttäjien työtiloihin.  
 
 ## <a name="role-center"></a> Roolikeskus
 Roolikeskus edustaa kotisivua eli aloitussivua, joka on suunniteltu organisaation tiettyä roolia varten. Roolisi mukaan roolikeskus antaa yleiskuvan yrityksestäsi, osastostasi tai henkilökohtaisista tehtävistäsi. Se auttaa myös siirtymään päivittäisten tehtävien välillä ja löytämään työt, jotka on määritetty sinulle.
@@ -30,7 +30,7 @@ Roolikeskus edustaa kotisivua eli aloitussivua, joka on suunniteltu organisaatio
 ### <a name="to-change-role-center"></a>Roolikeskuksen vaihtaminen
 Oletusroolikeskus on **Liiketoimintajohtaja**, mutta voit valita tarvittaessa toisen roolikeskuksen.
 1. Valitse oikeassa yläkulmassa **Asetukset**-kuvake ![Asetukset](media/ui-experience/settings_icon_small.png "Roolikeskuksen Asetukset-kuvake") ja valitse sitten **Omat asetukset**.
-2. Valitse **Omat asetukset** -ikkunan **Roolikeskus**-kenttään roolikeskus, jonka haluat valita vakioroolikeskukseksi. Valitse esimerkiksi **Kirjanpitäjä**.
+2. Valitse **Omat asetukset** -sivun **Roolikeskus**-kenttään roolikeskus, jonka haluat valita vakioroolikeskukseksi. Valitse esimerkiksi **Kirjanpitäjä**.
 3. Valitse **OK**-painike.
 
 ## <a name="company"></a>Oma yritys
@@ -39,7 +39,7 @@ Yritystoiminnot [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietojen säilön�
 Oletusyrityksen nimi on CRONUS, ja se sisältää vain esittelytietoja.
 
 > [!TIP]  
->   Jos haluat, että yritys näkyy sovelluksessa toisella nimellä (esimerkiksi roolikeskuksessa), määritä **Nimi**-kenttä **Yritystiedot**-ikkunassa tai **Näyttönimi**-kenttä **Yritykset**-ikkunassa.  
+>   Jos haluat, että yritys näkyy sovelluksessa toisella nimellä (esimerkiksi roolikeskuksessa), määritä **Nimi**-kenttä **Yritystiedot**-sivulla tai **Näyttönimi**-kenttä **Yritykset**-sivulla.  
 
 ## <a name="work-date"></a>Käsittelypvm
 Oletuskäsittelypäivä on yleensä kuluvan päivän päivämäärä. Saatat joutua muuttamaan käsittelypäivämäärän väliaikaisesti, jotta voit suorittaa tehtäviä, kuten sellaisten tapahtumien täydentäminen, joiden päivämäärä ei ole kuluvan päivän päivämäärä.

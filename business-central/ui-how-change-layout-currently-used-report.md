@@ -13,10 +13,10 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 98a2e773dbde6ba4ba0493e2b0dc7b632bbea4d0
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a68c26e94aa4adda7c1f546e57331a741dcfe94b
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="change-which-layout-is-currently-used-on-a-report"></a>Raportissa tällä hetkellä käytettävän asettelun muuttaminen
@@ -26,8 +26,8 @@ Raporttiin käytettävissä olevien asettelujen mukaan voit valita valmiin RDLC-
 
 ## <a name="to-change-the-layout-that-is-used-on-a-report"></a>Raportissa käytetyn asettelun muuttaminen
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Raporttiasetteluvalinta** ja valitse sitten liittyvä linkki.  
-   **Raporttiasetteluvalinta**-ikkunassa näkyvät kaikki raportit, jotka ovat käytettävissä yritykselle, joka on määritetty Yritys-kentässä ikkunan yläosassa. Valittu asettelu -kenttä määrittää tällä hetkellä raportissa käytetyn asettelun.
-2. Aseta **Yritys**-kenttä ikkunan yläosassa yritykseksi, joka sisältää raportin.
+   **Raporttiasetteluvalinta**-sivulla on luettelo kaikista raporteista, joita voi käyttää sivun yläosan Yritys-kentässä määritetyssä yrityksessä. Valittu asettelu -kenttä määrittää tällä hetkellä raportissa käytetyn asettelun.
+2. Määritä **Yritys**-kenttä sivun yläosassa yritykseksi, joka sisältää raportin.
 3. Voit muuttaa raportin käyttämää asettelua valitsemalla raportin rivin luettelosta ja asettamalla **Valittu asettelu** -kentän arvoksi yhden seuraavista vaihtoehdoista:
    * RDLC (valmis), käyttää raportissa valmista RDLC-raporttiasettelua.
    * Word (valmis), käyttää raportissa valmista Word-raporttiasettelua.
@@ -40,10 +40,10 @@ Raporttiin käytettävissä olevien asettelujen mukaan voit valita valmiin RDLC-
 Lisätoimia ei vaadita, jos valitsit valmiin RDLC- tai Word-raporttiasettelun ja asettelua käytetään, kun raportti suoritetaan seuraavan kerran.
 
 ## <a name="to-specify-a-custom-layout-on-a-report"></a>Mukautetun asettelun määrittäminen raportille
-1. Voit määrittää **Mukautetut raporttiasettelut** -ikkunassa raportille käytettävän mukautetun asettelun. Jos **Mukautetut raporttiasettelut** -ikkuna ei ole avoinna, valitse hakupainike **Raporttiasettelun kuvaus** -kentässä.
-2. Valitse **Mukautetut raporttiasettelut** -ikkunassa rivi mukautetulle asettelulle, jota haluat käyttää, ja sulje ikkuna.
+1. Voit määrittää **Mukautetut raporttiasettelut** -sivulla raportille käytettävän mukautetun asettelun. Jos **Mukautetut raporttiasettelut** -sivu ei ole avoinna, valitse hakupainike **Raporttiasettelun kuvaus** -kentässä.
+2. Valitse **Mukautetut raporttiasettelut** -sivulla rivi mukautetulle asettelulle, jota haluat käyttää, ja sulje sivu.
 
-Palaa **Raporttiasetteluvalinta**-ikkunaan. Valitun mukautetun asettelun nimi näkyy **Mukautetun asettelun kuvaus** -kentässä. Mukautettua asettelua käytetään seuraavan kerran, kun suoritat raportin.
+Palaa **Raporttiasetteluvalinta**-sivulle. Valitun mukautetun asettelun nimi näkyy **Mukautetun asettelun kuvaus** -kentässä. Mukautettua asettelua käytetään seuraavan kerran, kun suoritat raportin.
 
 ## <a name="see-also"></a>Katso myös
 [Raporttiasetteluiden hallinta](ui-manage-report-layouts.md)  

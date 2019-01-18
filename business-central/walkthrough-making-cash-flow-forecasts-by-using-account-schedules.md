@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 59264fada4455f3f0a40ba225d45159d2fb77194
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 652a151ff50c8492b3dc7df5d17c04ff2d00faad
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Vaihekuvaus: tehdään kassavirtaennusteita käyttäen KP-raporttimalleja
@@ -50,8 +50,8 @@ KP-raporttimalli koostuu kassavirran KP-raporttimallin nimestä, jossa on sarja 
 
 ### <a name="to-set-up-a-new-account-schedule-name"></a>Uuden KP-raporttimallin nimen määrittäminen  
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KP-raporttimallit** ja valitse sitten liittyvä linkki.  
-2.  Valitse **KP-raporttimallien nimet** -ikkunassa **Uusi**-toiminto ja luo uuden kassavirran KP-raporttimallin nimi.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **KP-raporttimallit** ja valitse sitten liittyvä linkki.  
+2.  Valitse **KP-raporttimallien nimet** -sivulla **Uusi**-toiminto ja luo uuden kassavirran KP-raporttimallin nimi.  
 3.  Syötä **Nimi**-kenttään **Ennuste**.  
 4.  Kirjoita **Kuvaus**-kenttään **Kassavirtaennuste**.  
 5.  Älä täytä **Sarakeasettelun oletusarvo**- ja **Analyysinäkymän nimi** -kenttiä.  
@@ -61,8 +61,8 @@ Kun KP-raporttimallin nimi on määritetty, Ken määrittää jokaisen rivin, jo
 
 ### <a name="to-set-up-account-schedule-lines"></a>Määritä KP-raporttimallin rivit  
 
-1.  Valitse **KP-raporttimallien nimet** -ikkunassa uusi **Ennuste**-KP-raporttimallin nimi, jonka loit. Valitse **Kotisivu**-välilehden **Käsittely**-ryhmässä **Muokkaa KP-raporttimallia**.  
-2.  Anna **KP-raporttimallien nimet** -ikkunassa kukin rivi täsmälleen seuraavassa taulukossa esitetyllä tavalla.  
+1.  Valitse **KP-raporttimallien nimet** -sivulla uusi **Ennuste**-KP-raporttimallin nimi, jonka loit. Valitse **Kotisivu**-välilehden **Käsittely**-ryhmässä **Muokkaa KP-raporttimallia**.  
+2.  Anna **KP-raporttimallien nimet** -sivulla kukin rivi täsmälleen seuraavassa taulukossa esitetyllä tavalla.  
 
     > [!NOTE]  
     >  Käyttämällä **Lisää kassavirtatilit** -toimintoa, voit nopeasti merkitä kassavirtatilit kassavairtatilikartallta ja kopioida ne KP-raporttimallin riveille.  
@@ -79,12 +79,12 @@ Ken on nyt valmis määrittämään sarakeasettelun KP-raporttimallin nimeen.
 
 ### <a name="to-assign-the-column-layout-to-the-account-schedule-name"></a>Määritä sarakeasettelu KP-raporttimallin nimeen.  
 
-1.  Valitse **KP-raporttimallien nimet** -ikkunan **Nimi**-kentässä **Ennuste**.  
+1.  Valitse **KP-raporttimallien nimet** -sivun **Nimi**-kentässä **Ennuste**.  
 2.  Valitse **Sarakeasettelun oletusarvo** -kentässä **Kassavirta**-sarakeasettelu oletussarakeasetteluksi.  
 
 ### <a name="to-view-and-print-the-cash-flow-forecast"></a>Tarkastele ja tulosta kassavirtaennuste  
-1.  Valitse **KP-raporttimallien nimet** -ikkunassa **Yleiskuvaus** ja tarkastele kassavirtaennustetta.  
-2.  **KP-raporttimallin yleiskuvaus** -ikkunassa voit valita summan ja näyttää sitten kassavirran tuotantoennustetapahtumat, joista summa muodostuu. Lisäksi voit tarkastella laskentakaavaa, jota käytetään summan laskemisessa. Voit myös suodattaa määrät dimension ja päivämäärän mukaan.  
+1.  Valitse **KP-raporttimallien nimet** -sivulla **Yleiskuvaus** ja tarkastele kassavirtaennustetta.  
+2.  **KP-raporttimallin yleiskuvaus** -sivulla voit valita summan ja näyttää sitten kassavirran tuotantoennustetapahtumat, joista summa muodostuu. Lisäksi voit tarkastella laskentakaavaa, jota käytetään summan laskemisessa. Voit myös suodattaa määrät dimension ja päivämäärän mukaan.  
 3.  Tulosta kassavirtaennuste valitsemalla **Tulosta**-toiminto.  
 
 ## <a name="see-also"></a>Katso myös  

@@ -13,10 +13,10 @@ ms.search.keywords: payment application, payment processing, match payments
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f7e67357a0ba5e4a57a98d74831b2b3a392cff7d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: cb62661da68e1fd5255e285288de5089e8547b64
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="reconcile-vendor-payments-manually"></a>Toimittajamaksujen täsmäyttäminen manuaalisesti
@@ -27,32 +27,32 @@ Kun lähetät maksukuitin toimittajalle tai saat hyvityksen toimittajalta, pää
 
 Voit kohdistaa toimittajatapahtumia seuraavilla kolmella tavalla:
 
-* syöttämällä tiedot niille tarkoitettuihin ikkunoihin, kuten **Maksupäiväkirja**- ja **Maksujen täsmäytyskirjauskansio** -ikkunaan
+* antamalla tiedot soveltuvilla sivuilla, kuten **Maksupäiväkirja**- ja **Maksujen täsmäytyskirjauskansio** -sivuilla.
 * ostohyvityslaskuasiakirjoista
 * toimittajatapahtumista sen jälkeen, kun ostoasiakirjat on kirjattu, mutta ei kohdistettu.
 
 > [!NOTE]  
 >   Jos toimittajan kortin **Kohdistustapa**-kentässä on **Kohdista vanhimpaan**, maksut kohdistetaan automaattisesti vanhimpaan avoimeen kredit-tapahtumaan, jos tapahtumaa, johon kohdistetaan, ei määritetä manuaalisesti. Jos asiakkaan kohdistustapa on **Manuaalinen**, tapahtumat on kohdistettava manuaalisesti.
 
-Voit kohdistaa toimittajan maksut manuaalisesti liittyviin ostoasiakirjoihin, kun kirjaat maksut **Maksupäiväkirja**-ikkunassa. Lisätietoja maksupäiväkirjan täyttämisestä on kohdassa [Maksujen suorittaminen](payables-make-payments.md).
+Voit kohdistaa toimittajan maksut manuaalisesti liittyviin ostoasiakirjoihin, kun kirjaat maksut **Maksupäiväkirja**-sivulla. Lisätietoja maksupäiväkirjan täyttämisestä on kohdassa [Maksujen suorittaminen](payables-make-payments.md).
 
-Voit kohdistaa toimittajan maksuja ja asiakkaan maksuja myös sen jälkeen, kun maksut näkyvät negatiivisina pankkitapahtumina pankissa. **Maksujen täsmäytyskirjauskansio** -ikkunassa voit käyttää pankin tiliotteen tuonnin, automaattisen kohdistuksen ja pankkitilin täsmäytyksen toimintoja. Lisätietoja on kohdassa [Maksujen täsmäyttäminen käyttämällä automaattista kohdistusta](receivables-how-reconcile-payments-auto-application.md).
+Voit kohdistaa toimittajan maksuja ja asiakkaan maksuja myös sen jälkeen, kun maksut näkyvät negatiivisina pankkitapahtumina pankissa. **Maksujen täsmäytyskirjauskansio** -sivulla voit käyttää pankin tiliotteen tuonnin, automaattisen kohdistuksen ja pankkitilin täsmäytyksen toimintoja. Lisätietoja on kohdassa [Maksujen täsmäyttäminen käyttämällä automaattista kohdistusta](receivables-how-reconcile-payments-auto-application.md).
 
 ## <a name="to-apply-a-payment-to-a-single-or-multiple-vendor-ledger-entries"></a>Maksun kohdistaminen yhteen tai useaan toimittajatapahtumaan
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maksupäiväkirja** ja valitse sitten liittyvä linkki.
-2. Syötä **Maksupäiväkirja**-ikkunassa ensimmäiselle päiväkirjariville asianmukaiset tiedot maksutapahtumasta.
+2. Syötä **Maksupäiväkirja**-sivulla ensimmäiselle päiväkirjariville asianmukaiset tiedot maksutapahtumasta.
 3. Voit kohdistaa yhden toimittajatapahtuman seuraavasti:
-   1. Valitse **Kohdistetaan asiakirjaan nro** -kentässä, joka avaa **Kohdista toimittajatapaht.** -ikkunan.
-   2. Valitse **Kohdista toimittajatapaht.** -ikkunassa tapahtuma, johon maksu kohdistetaan.
+   1. Avaa **Kohdista toimittajatapahtumat** -sivu valitsemalla **Kohdistetaan asiakirjaan nro** -kentässä kenttä.
+   2. Valitse **Kohdista toimittajatapahtumat** -sivulla tapahtuma, johon maksu kohdistetaan.
    3. Määritä tapahtumaan kohdistettava summa rivin **Kohdistettava summa** -kenttään.
 4. Vaihtoehtoisesti voit kohdistaa useita toimittajatapahtumia seuraavasti:
 
    1. Valitse **Kohdista tapahtumat** -toiminto.
-   2. Valitse **Kohdista toimittajatapaht.** -ikkunassa rivit, joilla oleville tapahtumille maksu kohdistetaan.
+   2. Valitse **Kohdista toimittajatapaht.** -sivulla rivit, joilla oleville tapahtumille maksu kohdistetaan.
    3. Valitse **Aseta kohdistustunniste** -toiminto.  
    4. Määritä yksittäiseen tapahtumaan kohdistettava summa kunkin rivin **Kohdistettava summa** -kenttään.
 
-      Jos summaa ei määritetä, ohjelma kohdistaa automaattisesti enimmäissumman. **Kohdista toimittajatapaht.** -ikkunan alaosan Kohdistettu summa -kentästä voi tarkistaa summan sekä sen, täsmääkö kohdistus.
+      Jos summaa ei määritetä, ohjelma kohdistaa automaattisesti enimmäissumman. **Kohdista toimittajatapaht.** -sivun alaosan Kohdistettu summa -kentästä voi tarkistaa summan sekä sen, täsmääkö kohdistus.
 5. Valitse **OK**-painike.
 6. Valitse **Kirjaa**-toiminto, kun haluat kirjata maksupäiväkirjan.
 
@@ -68,32 +68,32 @@ Voit kohdistaa toimittajan maksuja ja asiakkaan maksuja myös sen jälkeen, kun 
    3. Valitse **Aseta kohdistustunniste** -toiminto.  
    4. Määritä yksittäiseen tapahtumaan kohdistettava summa kunkin rivin **Kohdistettava summa** -kenttään.
 
-       Jos summaa ei määritetä, ohjelma kohdistaa automaattisesti enimmäissumman. **Kohdista toimittajatapaht.** -ikkunan alaosan **Kohdistettu summa** -kentästä voi tarkistaa summan sekä sen, täsmääkö kohdistus.
+       Jos summaa ei määritetä, ohjelma kohdistaa automaattisesti enimmäissumman. **Kohdista toimittajatapaht.** -sivun alaosan **Kohdistettu summa** -kentästä voi tarkistaa summan sekä sen, täsmääkö kohdistus.
 6. Valitse **OK**-painike.  
-   **Ostohyvityslasku**-ikkunassa näkyy tapahtuma, jonka olet valinnut **Kohdistetaan asiakirjatyyppiin**- ja **Kohdistetaan asiakirjaan nro** -kentissä. Ikkunassa näkyy myös kirjattava hyvityslaskun summa sekä mahdolliset maksualennukset.
+   **Ostohyvityslasku**-sivulla näkyy tapahtuma, jonka olet valinnut **Kohdistetaan asiakirjatyyppiin**- ja **Kohdistetaan asiakirjaan nro** -kentissä. Sivulla näkyy myös kirjattava hyvityslaskun summa sekä mahdolliset maksualennukset.
 7. Kirjaa ostohyvityslasku valitsemalla **Kirjaa**-painike.
 
 ## <a name="to-apply-posted-vendor-ledger-entries"></a>Kirjattujen toimittajatapahtumien kohdistus:
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Toimittajat** ja valitse sitten liittyvä linkki.
 2. Avaa asianmukainen toimittaja, jolla on aiemmin kirjattuja tapahtumia.
 3. Valitse **Tapahtumakirjaukset**-toiminto ja valitse sitten **Kohdista tapahtumat** -toiminto.
-4. **Kohdista toimittajatapaht.** -ikkunassa näkyvät toimittajan avoimet tapahtumat.
+4. **Kohdista toimittajatapaht.** -sivulla näkyvät toimittajan avoimet tapahtumat.
 5. Valitse rivi, jolla kohdistettava tapahtuma on.
 6. Valitse **Aseta kohdistustunniste** -toiminto.
 
     **Kohdistetaan tunnisteeseen** -kentässä on näkyvissä kolme tähteä, jos työskentelet yhden käyttäjän järjestelmässä, tai käyttäjätunnuksesi, jos työskentelet useamman käyttäjän järjestelmässä.  
 7. Määritä yksittäiseen tapahtumaan kohdistettava summa kunkin rivin **Kohdistettava summa** -kenttään.
 
-    Jos summaa ei määritetä, ohjelma kohdistaa automaattisesti enimmäissumman. Summan voi tarkistaa **Kohdista toimittajatapaht.** -ikkunan **Kohdistettu summa** -kentästä.
+    Jos summaa ei määritetä, ohjelma kohdistaa automaattisesti enimmäissumman. Summan voi tarkistaa **Kohdista toimittajatapaht.** -sivun **Kohdistettu summa** -kentästä.
 8. Valitse **Kirjaa kohdistus** -toiminto.  
 
-    Näyttöön tulee **Kirjaa kohdistus** -ikkuna, joka sisältää kohdistettavan tapahtuman asiakirjanumeron sekä viimeksi kirjatun tapahtuman kirjauspäivämäärän.
+    Näyttöön avautuu **Kirjaa kohdistus** -sivu, joka sisältää kohdistettavan tapahtuman asiakirjanumeron sekä viimeksi kirjatun tapahtuman kirjauspäivämäärän.
 9. Kirjaa sovellus valitsemalla **OK**.
 
 ## <a name="to-apply-vendor-ledger-entries-in-different-currencies-to-one-another"></a>Eri valuutoissa olevien toimittajatapahtumien kohdistaminen toisiinsa:
 Jos ostat toimittajalta yhdessä valuutassa ja maksat maksun toisessa valuutassa, maksu voidaan silti kohdistaa maksun laskuun.
 
-Jos tapahtuma (tapahtuma 1) kohdistetaan eri valuuttaa käyttävään tapahtumaan (tapahtuma 2), tapahtuman 2 summien muuntamisessa käytettävä vaihtokurssi etsitään tapahtuman 1 kirjauspäivämäärän mukaan. Vaihtokurssi löytyy **Valuutan vaihtokurssit** -ikkunasta. Siinä tapauksessa toimittajatapahtumien kohdistus on otettava käyttöön eri valuutoissa. Lisätietoja on kohdassa [Tapahtumakirjausten kohdistamisen ottaminen käyttöön eri valuutoissa](finance-how-enable-application-ledger-entries-different-currencies.md).
+Jos tapahtuma (tapahtuma 1) kohdistetaan eri valuuttaa käyttävään tapahtumaan (tapahtuma 2), tapahtuman 2 summien muuntamisessa käytettävä vaihtokurssi etsitään tapahtuman 1 kirjauspäivämäärän mukaan. Vaihtokurssi löytyy **Valuutan vaihtokurssit** -sivulta. Siinä tapauksessa toimittajatapahtumien kohdistus on otettava käyttöön eri valuutoissa. Lisätietoja on kohdassa [Tapahtumakirjausten kohdistamisen ottaminen käyttöön eri valuutoissa](finance-how-enable-application-ledger-entries-different-currencies.md).
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maksupäiväkirja** ja valitse sitten liittyvä linkki.
 2. Avaa haluamasi päiväkirja ja täytä ensimmäinen tyhjä päiväkirjan rivi valuuttakoodilla.
@@ -103,7 +103,7 @@ Jos tapahtuma (tapahtuma 1) kohdistetaan eri valuuttaa käyttävään tapahtumaa
 6. Kirjaa maksupäiväkirja.
 
 > [!IMPORTANT]  
->   Kun erivaluuttaisia tapahtumia kohdistetaan toisiinsa, tapahtumat muunnetaan paikalliseen valuuttaan (USD). Vaikka asianmukaisten valuuttojen vaihtokurssit ovat kiinteät (esimerkiksi Yhdysvaltain dollarin ja euron välillä), pieniä jäännössummia saattaa esiintyä, kun ohjelma muuntaa nämä ulkomaan valuutat USD:ksi. Ohjelma kirjaa nämä pienet jäännössummat voitoiksi ja tappioiksi **Valuutat**-ikkunan **Realisoitun. val.voitt. tili**- ja **Realisoitun. val.tapp. tili** -kentissä määritetyille tileille. **Summa (USD)** -kenttää muokataan myös asianmukaisten toimittajatapahtumien mukaan.
+>   Kun erivaluuttaisia tapahtumia kohdistetaan toisiinsa, tapahtumat muunnetaan paikalliseen valuuttaan (USD). Vaikka asianmukaisten valuuttojen vaihtokurssit ovat kiinteät (esimerkiksi Yhdysvaltain dollarin ja euron välillä), pieniä jäännössummia saattaa esiintyä, kun ohjelma muuntaa nämä ulkomaan valuutat USD:ksi. Nämä pienet jäännössummat kirjataan voitoiksi ja tappioiksi **Valuutat**-sivun **Realisoitun. val.voitt. tili**- ja **Realisoitun. val.tapp. tili** -kentissä määritetyille tileille. **Summa (USD)** -kenttää muokataan myös asianmukaisten toimittajatapahtumien mukaan.
 
 ## <a name="to-unapply-an-application-of-vendor-entries"></a>Toimittajan tapahtumien kohdistuksen peruuttaminen
 Kun tehdään virheellinen kohdistus, ohjelma luo ja kirjaa korjaavat tapahtumat (eli tapahtumat, jotka ovat alkuperäisten tapahtumien kanssa identtisiä mutta joiden summakentässä on vastakkainen etumerkki) kaikille tapahtumille, myös kaikille kohdistuksesta johdetuille KP-kirjauksille, kuten maksualennuksille ja valuuttavoitoille- tai tappioille. Ohjelma avaa uudelleen kohdistuksen sulkemat tapahtumat.

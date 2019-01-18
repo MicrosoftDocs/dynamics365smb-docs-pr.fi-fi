@@ -13,10 +13,10 @@ ms.search.keywords: postpone
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f1311d566a8166a8a8720bb09789f42c65a1b6e7
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 4cf8738c7bab09f7bcf900baae54731b6772e7e9
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="create-gl-budgets"></a>KP-budjettien luominen
@@ -34,11 +34,11 @@ Voit käsitellä kustannusbudjetteja samalla tavoin kustannuslaskennassa. Lisät
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KP-budjetit** ja valitse sitten liittyvä linkki.  
 2. Valitse **Muokkaa luetteloa** -toiminto ja täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Valitse **Muokkaa budjettia** -toiminto.
-4. Täyttämällä **Budjetti**-ikkunan yläosan kentät määrität, mitä näytetään.  
+4. Täyttämällä **Budjetti**-sivun yläosan kentät määrität, mitä näytetään.  
 
-    Näytössä näkyvät vain ne tapahtumat, joilla on **Budjetin nimi** -kentässä annettu nimi. Koska budjetin nimi on juuri luotu, suodatinta vastaavia tapahtumia ei ole. Tämän vuoksi ikkuna on tyhjä.  
-5. Jos haluat lisätä summan, napsauta solua matriisissa. **KP-budjetin tapahtumat** -ikkuna avautuu.  
-6. Luo uusi rivi ja määritä **Summa**-kentän arvo. Sulje **KP-budjetin tapahtumat** -ikkuna.  
+    Näytössä näkyvät vain ne tapahtumat, joilla on **Budjetin nimi** -kentässä annettu nimi. Koska budjetin nimi on juuri luotu, suodatinta vastaavia tapahtumia ei ole. Tämän vuoksi sivu on tyhjä.  
+5. Jos haluat lisätä summan, napsauta solua matriisissa. **KP-budjetin tapahtumat** -sivu avautuu.  
+6. Luo uusi rivi ja määritä **Summa**-kentän arvo. Sulje **KP-budjetin tapahtumat** -sivu.  
 7. Toista vaiheet 5 ja 6, kunnes olet määrittänyt kaikki budjettisummat.  
 
 > [!NOTE]  

@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
+redirect_url: marketing-setup-contacts
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 3b6ed1ffe162f0bdb4d1af1dd84c34c6f0de91bb
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4f036800f7d9e83fdeacb827bb195f1f36b6a38e
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-alternative-addresses-for-contacts"></a>Vaihtoehtoisten osoitteiden määrittäminen kontakteille
@@ -24,16 +25,16 @@ Voit liittää vaihtoehtoisen osoitteen (esimerkiksi kesämökin osoitteen), joh
 
 ## <a name="to-assign-an-alternate-address"></a>Vaihtoehtoisen osoitteen määrittäminen
 1. Avaa kontakti.
-2. Valitse **Vaihtoehtoinen osoite** -toiminto ja valitse sitten **Kortti**. **Kontaktin vaiht.eht.osoit.luet** -ikkuna avautuu.
-3. Anna uusi vaihtoehtoinen osoite ja täytä **Kontaktin vaihtoehtoinen osoite** -ikkunan kentät.
+2. Valitse **Vaihtoehtoinen osoite** -toiminto ja valitse sitten **Kortti**. **Kontaktin vaiht.eht.osoit.luet** -sivu avautuu.
+3. Syötä uusi vaihtoehtoinen osoite ja täytä **Kontaktin vaihtoehtoinen osoite** -sivun kentät.
 
 Toista nämä vaiheet ja määritä niin monta vaihtoehtoista osoitetta kuin haluat. Voit määrittää jokaiselle vaihtoehtoiselle osoitteelle vähintään yhden päivämäärävälin.
 
-Voit määrittää vaihtoehtoisia osoitteita myös kontaktiluetteloikkunassa samalla tavoin.
+Voit liittää vaihtoehtoisia osoitteita myös kontaktiluettelosivulla noudattaen samaa menettelytapaa.
 
 ## <a name="to-assign-an-alternate-address-date-range"></a>Vaihtoehtoisten osoitteiden päivämäärävälien määrittäminen
 1. Avaa kontakti.
-2. Valitse ensin **Vaihtoehtoinen osoite** ja valitse sitten **Pvm-väli**. **Kontaktin vaih.eht.osoit.välit** -ikkuna avautuu.
+2. Valitse ensin **Vaihtoehtoinen osoite** ja valitse sitten **Pvm-väli**. **Kontaktin vaih.eht.osoit.välit** -sivu avautuu.
 3. Valitse **Uusi**-toiminto.
 4. Valitse **Kont. vaiht.eht. osoitt. koodi** -kentässä tämän kontaktin vaihtoehtoinen osoite. Täytä sitten **Aloituspvm**- ja **Lopetuspvm**-kentät.
 

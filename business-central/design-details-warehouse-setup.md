@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 574bca49a01d23cdbf3ea9cda3b2c67f39ee9d05
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0c813187ee6d11fcdb729cb64048386238406528
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-warehouse-setup"></a>Rakennetiedot: f. varaston asetus
@@ -93,7 +93,7 @@ Laajennetussa varastoinnin varastopaikat voidaan määrittää kapasiteettiarvoi
 
 Voit määrittää jokaiseen nimikkeen korttiin nimikkeelle mittayksikön, kuten kappaletta, kuormalavaa, litraa, grammaa tai laatikkoa. Nimikkeellä voi olla myös perusmittayksikkö, jolle voidaan määrittää siihen perustuvia suurempia mittayksiköitä. Voi esimerkiksi määrittää kuormalavan vastaamaan 16 kappaletta niin, että myöhempi perustuu perusmittayksikköön.  
 
-Jos haluat määrittää tietyn nimikkeen tallennettavan enimmäismäärän tietyssä varastopaikassa ja nimikkeellä on useampi kuin yksi mittayksikkö, sinun on asetettava enimmäismäärä jokaiselle nimikkeen kortin mittayksikölle. Jos nimike on vastaavasti määritetty käsiteltäväksi kappaleina ja kuormalavoina, myös nimikkeen **Varastopaikan sisältö** -ikkunan **Enimmäismäärä**-kentän on oltava kappaleina ja kuormalavoina. Muussa tapauksessa kyseisen varastopaikan sallittua määrää ei lasketa oikein.  
+Jos haluat määrittää tietyn nimikkeen tallennettavan enimmäismäärän tietyssä varastopaikassa ja nimikkeellä on useampi kuin yksi mittayksikkö, sinun on asetettava enimmäismäärä jokaiselle nimikkeen kortin mittayksikölle. Jos nimike on vastaavasti määritetty käsiteltäväksi kappaleina ja kuormalavoina, myös nimikkeen **Varastopaikan sisältö** -sivun **Enimmäismäärä**-kentän on oltava kappaleina ja kuormalavoina. Muussa tapauksessa kyseisen varastopaikan sallittua määrää ei lasketa oikein.  
 
 Ennen kuin asetat lokerossa olevan lokeron sisällön kapasiteettirajoitukset, sinun on ensin varmistettava, että nimikkeen mittayksikkö ja dimensiot on määritetty nimikkeen kortissa.  
 

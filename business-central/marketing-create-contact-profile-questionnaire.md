@@ -11,10 +11,10 @@ ms.search.keywords: contacts, profiles
 ms.author: edupont
 ms.date: 10/01/2018
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6a69a5de1ac0d6e2d238415204ec95fad9af7b9b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: edd2cae058d31e8f65d43ef14a5a96a294adf8d1
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -42,7 +42,7 @@ Kun olet luonut kyselyn, sinun on luotava kontaktin luokituksia luokitellaksesi 
 > Jos syötät kysymyksen, johon ohjelma vastaa automaattisesti, napsauta <STRONG>Rivi</STRONG>, <STRONG>Kysymyskortti</STRONG>, niin voit syöttää ne kriteerit, joita ohjelma käyttää vastatessaan kysymykseen automaattisesti.
 
 ## <a name="the-automatic-classification-of-contacts"></a>Kontaktien automaattinen luokittelu
-Voit saada ohjelman luokittelemaan kontaktisi automaattisesti asiakkaan, toimittajan tai kontaktitietojen mukaan, kun määrittelet automaattisesti vastattuja profiilikysymyksiä **Profiilikyselyjen asetukset** -ikkunassa.  
+Voit saada ohjelman luokittelemaan kontaktisi automaattisesti asiakkaan, toimittajan tai kontaktitietojen mukaan, kun määrittelet automaattisesti vastattuja profiilikysymyksiä **Profiilikyselyjen asetukset** -sivulla.  
 
 > [!NOTE]
 > Asiakastietoihin perustuva luokittelu voidaan liittää vain sellaisiin kontakteihin, jotka on tallennettu asiakkaina, ja toimittajatietoihin perustuva luokittelu voidaan liittää vain sellaisiin kontakteihin, jotka on tallennettu toimittajina. Automaattista luokittelua ei päivitetä automaattisesti. Haluat siten ehkä päivittää profiilikyselyjäsi, sen jälkeen kun olet päivittänyt ne asiakas-, toimittaja- tai kontaktitiedot, joille profiilikysely perustuu.  
@@ -73,13 +73,13 @@ Voit luokitella kontaktisi sen mukaan, kuinka paljon he ostivat sinulta:
 <td><p>kontaktit, jotka ovat ostaneet 100 000 - 499 999 PVA</p></td>
 </tr>
 <tr class="odd">
-<td><p>C</p></td>
+<td><p>S</p></td>
 <td><p>kontaktit, jotka ovat ostaneet enintään 99 999 PVA</p></td>
 </tr>
 </tbody>
 </table>
 
-Jotta voisit tehdä tämän, täytä **Profiilikyselyjen asetukset** -ikkuna seuraavalla tavalla:
+Jotta voisit tehdä tämän, täytä **Profiilikyselyjen asetukset** -sivu seuraavalla tavalla:
 
 
 <table>
@@ -104,34 +104,34 @@ Jotta voisit tehdä tämän, täytä **Profiilikyselyjen asetukset** -ikkuna seu
 <td><p>Kysymys</p></td>
 <td><p>ABC-luokittelu</p></td>
 <td><p>Lisää rasti napsauttamalla</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
 </tr>
 <tr class="even">
 <td><p>Vastaus</p></td>
-<td><p>A</p></td>
-<td><p> </p></td>
+<td><p>L</p></td>
+<td><p> </p></td>
 <td><p>500,000</p></td>
-<td><p> </p></td>
+<td><p> </p></td>
 </tr>
 <tr class="odd">
 <td><p>Vastaus</p></td>
 <td><p>B</p></td>
-<td><p> </p></td>
-<td><p>100 000</p></td>
-<td><p>499 999</p></td>
+<td><p> </p></td>
+<td><p>100,000</p></td>
+<td><p>499,999</p></td>
 </tr>
 <tr class="even">
 <td><p>Vastaus</p></td>
-<td><p>N</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+<td><p>S</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
 <td><p>99 999</p></td>
 </tr>
 </tbody>
 </table>
 
-Täytä sitten **Profiilikyselyn yksityiskohdat** -ikkuna seuraavalla tavalla:
+Täytä sitten **Profiilikyselyn yksityiskohdat** -sivu seuraavalla tavalla:
 <table>
 <colgroup>
 <col style="width: 50%" />

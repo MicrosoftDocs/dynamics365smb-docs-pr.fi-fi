@@ -13,14 +13,14 @@ ms.search.keywords: project management, consumption
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e73d4aa2928f7d0f5cc04e938ca887f7403f00d1
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: f1b3864eadd616273c3a4a7d061623dab701d01e
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="record-usage-for-jobs"></a>Projektien käytön kirjaaminen
-**Projektin suunnittelurivit** -ikkunassa voit tarkastella ja tallentaa projektin eri osien käyttötietoja, jotka päivitetään automaattisesti, kun muokkaat ja siirrät tietoja projektin ja projektipäiväkirjan tai projektin laskujen välillä. Tämä edellyttää, että työ on määritetty siten, että **Käytä käyttölinkkiä oletusarvoisesti** on käytössä. Lisätietoja on kohdassa [Projektien määrittäminen](projects-how-setup-jobs.md).  
+**Projektin suunnittelurivit** -sivulla voi tarkastella ja tallentaa projektin eri osien käyttötietoja, jotka päivitetään automaattisesti, kun muokkaat ja siirrät tietoja projektin ja projektipäiväkirjan tai projektin laskujen välillä. Tämä edellyttää, että työ on määritetty siten, että **Käytä käyttölinkkiä oletusarvoisesti** on käytössä. Lisätietoja on kohdassa [Projektien määrittäminen](projects-how-setup-jobs.md).  
 
 Voit syöttää esimerkiksi tyyppiä **Budjetti** oleville suunnitteluriveille resurssin määrän ja osoittaa, mikä määrä siirretään projektipäiväkirjaan. Jos suunnittelurivin tyyppi on **Laskutettava**, voit syöttää resurssin määrän ja määrittää laskulle siirrettävän määrän. Vertaamalla määrää, joka on siirretty päiväkirjaan tai jäljellä olevan määrän laskuun, voit tarkistaa nopeasti käyttötiedot.
 
@@ -34,10 +34,10 @@ Seuraavassa kuvataan, miten todelliset (laskutettavat) tai budjetoidut projektih
 
     **Jäljellä oleva määrä** -kentässä näkyy määrä, joka on jäljellä projektin valmiiksi suorittamista ja päiväkirjaan siirtämistä varten.  
 5. Valitse **Luo projektipäiväkirjan rivit** -toiminto.
-6. Täytä **Projektin siirron projektisuunnittelurivi** -ikkunassa kenttiä tarpeen mukaan ja valitse sitten **OK**-painike. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+6. Täytä **Projektin siirron projektisuunnittelurivi** -sivulla kenttiä tarpeen mukaan ja valitse sitten **OK**-painike. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 7. Valitse **Avaa projektipäiväkirja** -toiminto.  
-8. Valitse **Projektipäiväkirja**-ikkunassa asianmukainen rivi ja valitse sitten **Kirjaa**-toiminto.
-9. Tarkista **Projektin suunnittelurivit** -ikkunassa kirjattu käyttö **Määrä**-, **Jäljellä oleva määrä**- ja **Päiväkirjaan siirrettävä määrä** -kentän avulla.  
+8. Valitse **Projektipäiväkirja**-sivulla asianmukainen rivi ja valitse sitten **Kirjaa**-toiminto.
+9. Tarkista **Projektin suunnittelurivit** -sivulla kirjattu käyttö **Määrä**-, **Jäljellä oleva määrä**- ja **Päiväkirjaan siirrettävä määrä** -kentän avulla.  
 10. Kirjaa lisäkäyttö toistamalla vaiheet 3–8.  
 
 ## <a name="to-record-usage-for-a-job-planning-line-of-type-billable"></a>Käytön kirjaaminen Laskutettava-tyypin projektin suunnitteluriville
@@ -50,21 +50,21 @@ Seuraavassa tehtävässä kirjaat myös käytön, mutta **Laskutettava**-tyyppis
 
     **Laskutettava määrä** -kentässä näkyy määrä, joka on jäljellä projektin valmiiksi suorittamista ja laskuttamista varten.  
 5. Valitse **Luo myyntilasku** -toiminto.
-6. Täytä **Siirrä projekti myyntilaskuun** -ikkunan tarvittavat kentät ja valitse sitten **OK**-painike.
-7. Valitse **Projektin suunnittelurivit** -ikkunassa asianmukainen rivi ja valitse sitten **Kirjaa**-toiminto.
+6. Täytä **Siirrä projekti myyntilaskuun** -sivulla tarvittavat kentät ja valitse sitten **OK**-painike.
+7. Valitse **Projektin suunnittelurivit** -sivulla asianmukainen rivi ja valitse sitten **Kirjaa**-toiminto.
 8. Tarkista kirjattu käyttö **Määrä**-, **Laskutettava määrä**- ja **Laskuun siirrettävä määrä** -kentän avulla. Jos myyntilasku on kirjattu, käytä myös **Laskutettu määrä** -kenttää.
 9. Kirjaa lisäkäyttö toistamalla vaiheet 3–8.  
 10. Voit tarkastella liittyvää kirjattua myyntilaskua valitsemalla **Myyntilaskut/hyvityslaskut** -toiminnon.  
-11. Valitse **Projektin laskut** -ikkunassa asianmukainen lasku ja valitse sitten **Avaa myyntilasku/hyvityslasku** -toiminto.         
+11. Valitse **Projektin laskut** -sivulla asianmukainen lasku ja valitse sitten **Avaa myyntilasku/hyvityslasku** -toiminto.         
 
 ## <a name="to-create-job-journal-lines-from-job-planning-lines"></a>Luo projektipäiväkirjan rivit projektin suunnitteluriveistä
 Kun olet valmis kirjaamaan projektien taloustiedot, luo kirjattavat projektipäiväkirjan rivit.
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektit** ja valitse sitten liittyvä linkki.  
 2. Valitse asianmukainen avoin projekti ja valitse sitten **Projektin suunnittelurivit** -toiminto.  
-3. Syötä **Projektin suunnittelurivit** -ikkunan asianmukaisen projektin suunnittelurivin **Päiväkirjaan siirrettävä määrä** -kenttään projektipäiväkirjaan siirrettävä määrä.  
+3. Anna **Projektin suunnittelurivit** -sivulla asianmukaisen projektin suunnittelurivin **Päiväkirjaan siirrettävä määrä** -kenttään projektipäiväkirjaan siirrettävä määrä.  
 4. Valitse **Luo projektipäiväkirjan rivit** -toiminto.
-5. Täytä **Projektin siirron projektisuunnittelurivi** -ikkunassa tarvittavat kentät.  
+5. Täytä **Projektin siirron projektisuunnittelurivi** -sivulla tarvittavat kentät.  
 6. Valitse **OK**-painike. Projektipäiväkirjan rivit luodaan.
 7. Tarkista siirto avaamalla asianmukainen projektipäiväkirjan erä ja tarkastamalla tapahtumat.  
 8. Kun projektipäiväkirjan rivit ovat valmiit, valitse **Kirjaa**-toiminto.  
@@ -83,7 +83,7 @@ Kun olet kirjannut projektipäiväkirjan rivit, näkyvissä ovat suunnittelurivi
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektipäiväkirjat** ja valitse sitten liittyvä linkki.  
 2. Valitse asianmukaisen projektin päiväkirja ja valitse sitten **Tapahtumakirjaukset**-toiminto.  
-3. Valitse **Projektitapahtumat**-ikkunassa **Näytä linkitetyt projektin suunnittelurivit** -toiminto.
+3. Valitse **Projektitapahtumat**-sivulla **Näytä linkitetyt projektin suunnittelurivit** -toiminto.
 
 ## <a name="see-also"></a>Katso myös
 [Projektinhallinta](projects-manage-projects.md)  

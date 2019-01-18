@@ -8,23 +8,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting year, fiscal period
-ms.date: 10/01/2018
+ms.date: 11/21/2018
 ms.author: edupont
+redirect_url: finance-accounting-periods-and-fiscal-years
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 9424b2dfe3a61ace4f02897f0240cc6e4f78070e
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: cb523f1ee5b8bfafa63fc41284da6450f205967e
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="open-a-new-fiscal-year-and-create-accounting-periods"></a>Uuden tilikauden avaaminen ja kirjanpitojaksojen luominen
 Ennen uuden tilikauden kirjaamista sinun täytyy avata tilikausi ja määrittää sen kirjanpitojaksot.  
 
-Tilikausi ja kalenterivuosi eivät ole samat monissa yrityksissä. Tilikausia voidaan mitata muilla aikayksiköillä, kuten kuukausina tai neljännesvuosina. Voit määrittää liiketoiminnan tarpeita vastaavat tilikaudet **Luo tilikausi** -ikkunassa. Kuitenkin   
+Tilikausi ja kalenterivuosi eivät ole samat monissa yrityksissä. Tilikausia voidaan mitata muilla aikayksiköillä, kuten kuukausina tai neljännesvuosina. Voit määrittää liiketoiminnan tarpeita vastaavat tilikaudet **Luo tilikausi** -sivulla. Kuitenkin   
 
 ## <a name="to-open-a-new-fiscal-year"></a>Uuden tilikauden avaaminen
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kirjanpitojaksot** ja valitse sitten liittyvä linkki.
-2. Valitse **Kirjanpitojaksot**-ikkunassa **Luo vuosi** -toiminto.
+2. Valitse **Kirjanpitojaksot**-sivulla **Luo vuosi** -toiminto.
 3. Määritä tilikauden rakenne täyttämällä tiedot kenttiin.
 
     Tilikausi koostuu yleensä kahdestatoista kuukauden pituisesta jaksosta, mutta voit jakaa sen myös toisin.

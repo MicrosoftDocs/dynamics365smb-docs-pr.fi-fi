@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: personalize, customize
 ms.date: 10/01/2018
 ms.author: solsen
+redirect_url: admin-how-set-up-colored-indicator-on-cues
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e4ceaeae1a37a521d2d5bd22ab711757283e6321
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 366d762fbfbd2a61253b087577ef2810194e2c35
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="set-up-a-colored-indicator-on-cues"></a>Pinojen värillisen ilmaisimen määrittäminen
@@ -24,13 +25,13 @@ Voit määrittää pinot, jotka näkyvät roolikeskuksessa, kun haluat sisällyt
 
 Ilmaisin näkyy värillisenä palkkina pinon ruudun yläreunassa. Se antaa visuaalisen signaalin pinon toiminnan tilasta, joka voi ilmaista suotuisia tai epäsuotuisia olosuhteita ja kehottaa käyttäjää toimimaan. Esimerkiksi, jos pino näyttää myyntilaskujen jatkuvan, voit määrittää ilmaisimen näkymään vihreänä (hyvä), kun jatkuva myyntilaskujen määrä on alle 10, ja se muuttuu punaiseksi (epäsuotuisa) kun summa on yli 20.
 
-**Pinon asetukset** -ikkunasta voit asettaa ilmaisimet kaikille pinoille, jotka ovat saatavilla yhtiön tietokannassa.
+**Pinon asetukset** -sivulla voi määrittää ilmaisimet kaikille pinoille, jotka ovat saatavilla yhtiön tietokannassa.
 
 Jotta voit määrittää ilmaisimen, sinun on määritettävä korkeintaan kaksi raja-arvoa, jotka määrittävät kolme arvoaluetta (matala, keskisuuri ja korkea), joihin voit käyttää eri värejä (tai tyyliä).
 
 ## <a name="to-set-up-colored-indicators-on-cues"></a>Värillisten ilmaisinten määrittäminen pinoissa
 1. Valitse **Toimenpiteet**-kohdan roolikeskuksessa **Määritä pinot**.  
-   **Pinon asetukset** -ikkuna aukeaa. Ikkunassa on lueteltu ilmaisimet, jotka on tällä hetkellä asetettu pinoissa.
+   **Pinon asetukset** -sivu avautuu. Sivulla on lueteltu ilmaisimet, jotka on tällä hetkellä asetettu pinoissa.
 2. Voit muokata ilmaisinta muokkaamalla kenttiä ja muokkaamalla esimerkiksi eri rajojen arvoja.  
 
 Seuraava taulukko sisältää värit, jotka vastaavat **Matalan alueen tyyli**-, **Keskialueen tyyli**- ja **Korkean alueen tyyli** -kenttää.

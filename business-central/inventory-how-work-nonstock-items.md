@@ -12,10 +12,10 @@ ms.search.keywords: non-inventoriable
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: feef36443adef82329fe47573dd05cc6941b9d87
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: c65d498fb63668a6cd83f61303ae99c54d0a2452
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-catalog-items"></a>Luettelonimikkeiden käsitteleminen
@@ -25,8 +25,8 @@ Voit tarjota asiakkaille tiettyjä nimikkeitä, joita et halua ylläpitää jär
 * Valitse luettelonimike **Nimike**-tyyppiseltä myyntitilausriviltä, jolla on tyhjä **Nro**-kenttä. Nimikekortti luodaan automaattisesti luettelonimikkeelle.
 
 > [!NOTE]  
-> Luettelonimikettä ei voi valita **Myyntilasku**-ikkunassa.<br /><br />
-> Voit valita luettelonimikkeen **Myyntitarjous**-ikkunassa, mutta luettelonimikettä ei muunneta normaaliksi nimikkeeksi, jos käytössä on **Tee tilaus** -toiminto.
+> Luettelonimikettä ei voi valita **Myyntilasku**-sivulla.<br /><br />
+> Voit valita luettelonimikkeen **Myyntitarjous**-sivulla, mutta luettelonimikettä ei muunneta normaaliksi nimikkeeksi, jos käytössä on **Tee tilaus** -toiminto.
 
 Luettelonimikkeellä on yleensä sen toimittavan toimittajan nimikenumero. Voit ottaa luettelonimikkeen kortin muuntamisen käyttöön normaalin nimikkeen kortille määrittämällä ensin, miten toimittajan nimikenumerointi muunnetaan omaksi nimikenumeroinniksesi.   
 
@@ -49,7 +49,7 @@ Voit ottaa luettelonimikkeen kortin muuntamisen käyttöön normaalin nimikkeen 
 ## <a name="to-convert-a-catalog-item-to-a-normal-item"></a>Luettelonimikkeen muuntaminen normaaliksi nimikkeeksi
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Luettelonimikkeet** ja valitse sitten liittyvä linkki.
 2. Avaa sen luettelonimikkeen kortti, jonka haluat muuntaa normaaliksi nimikkeeksi.
-3. Valitse **Luettelonimikkeen kortti**-ikkunassa **Luo nimike** -toiminto.
+3. Valitse **Luettelonimikkeen kortti**-sivulla **Luo nimike** -toiminto.
 
 Luodaan uusi nimikekortti, johon on täytetty luettelonimikkeen tiedot, ja asiaankuuluva nimikemalli. Tämän jälkeen voit täyttää uuden nimikekortin kentät tai muokata niitä tarvittaessa. Lisätietoja on ohjeaiheessa [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md).
 
@@ -60,7 +60,7 @@ Luodaan uusi nimikekortti, johon on täytetty luettelonimikkeen tiedot, ja asiaa
 4. Valitse ensin **Rivi**-toiminto ja sitten **Valitse luettelonimikkeet** -toiminto.
 
     Luettelonimike muunnetaan normaaliksi nimikkeeksi. Luodaan uusi nimikekortti, johon on täytetty luettelonimikkeen tiedot, ja asiaankuuluva nimikemalli.
-5. Valitse **Luettelonimikkeet**-ikkunassa luettelonimike, jonka haluat myydä, ja valitse sitten **OK**-painike.
+5. Valitse **Luettelonimikkeet**-sivulla luettelonimike, jonka haluat myydä, ja valitse sitten **OK**-painike.
 6. Kun myyntitilaus on valmis, valitse **Kirjaa**-toiminto.
 
 Tämän jälkeen voit täyttää uuden nimikekortin kentät tai muokata niitä tarvittaessa. Lisätietoja on ohjeaiheessa [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md).

@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 605de1d0acbbe345c3568fd4328d3e649feaef9f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2fec578da84a190535e5ebf74972aee8ff7e3b7a
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="replan-or-refresh-production-orders-directly"></a>Tuotantotilausten suora uudelleensuunnittelu tai päivittäminen
@@ -41,7 +41,7 @@ Tuotantotilausrivit voidaan syöttää joko manuaalisesti tai voidaan käyttää
 4.  Lisää komponentti, joka on tuotantonimeke (osakokoonpano).  
 5.  Valitse tuotantotilauksessa **Uudelleensuunnittele**-toiminto.  
 
-    Siirry **Uudelleensuunnittele tuot.til.** -ikkunaan määrittämään, mitä uudelleensuunnitellaan ja miten se tehdään.  
+    Siirry **Uudelleensuunnittele tuot.til.** -sivulle määrittämään, mitä uudelleensuunnitellaan ja miten se tehdään.  
 6.  Valitse **Aikataulutuksen suunta** -kentässä jokin seuraavista vaihtoehdoista:  
 
     |Asetus|Description|  
@@ -68,7 +68,7 @@ Jos olet muuttanut tuotantotilausrivejä, komponentteja tai reititysrivejä, my�
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sitovasti suun. tuotantotil.** ja valitse sitten liittyvä linkki.  
 2.  Valitse **Uusi**-toiminto. Lisätietoja on kohdassa [Tuotantotilausten luominen](production-how-to-create-production-orders.md).  
 3.  Valitse **Päivitä**-toiminto.
-4. Valitse **Päivitä tuotantotilaus** -ikkunassa jokin seuraavista vaihtoehdoista:
+4. Valitse **Päivitä tuotantotilaus** -sivulla jokin seuraavista vaihtoehdoista:
 
     |Asetus|Description|  
     |----------------------------------|---------------|---------------------------------------|  

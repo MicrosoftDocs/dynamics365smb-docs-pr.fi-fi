@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 36e7d2f3d43a966cd97fba3c92f3fd20b6b1c585
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4d4aaa82077d3628bbf75a9bc169d73ecc651884
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-production-orders-from-sales-orders"></a>Tuotantotilausten luominen myyntitilauksista
@@ -26,7 +26,7 @@ Voit luoda tuotettujen nimikkeiden tuotantotilaukset suodaan myyntitilauksista.
 
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten liittyvä linkki.  
 2.  Valitse myyntitilaus, jolle haluat luoda tuotantotilauksen.  
-3.  Valitse **Suunnittelu**-toiminto. **Myyntitilaus suunnittelu** -ikkunassa voit tarkastella myyntitilausnimikkeen saatavuutta.  
+3.  Valitse **Suunnittelu**-toiminto. **Myyntitilaus suunnittelu** -sivulla voi tarkastella myyntitilausnimikkeen saatavuutta.  
 4.  Valitse **Luo tuotantotilaus** -toiminto.  
 5.  Valitse tila ja tilaustyyppi.  
 6.  Valitse **Kyllä**luodaksesi tuotantotilauksen.

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8a04784a354a3f44c3a12c75d16ebc166e7a8c47
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 06233abf9eef229ac86ee31857352af1de5e34e2
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="restructure-warehouses"></a>Fyysisten varastojen uudelleenjärjestely
@@ -56,9 +56,9 @@ Olet nyt tyhjentänyt varastopaikat, joissa nimikkeet olivat. Nimikkeiden oletus
 
     1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sijainnit** ja valitse sitten liittyvä linkki.  
     2.  Valitse ensin sijainnin rivi ja sitten **Varastopaikat**-toiminto.  
-    3.  Anna **Varastopaikat**-ikkunan **Varastopaikkatyypin koodi** -kentässä koodi **QC** jokaiselle vanhalle varastopaikalle, jonka tyhjensit edellisen toimenpiteen vaiheessa 3.  
+    3.  Anna **Varastopaikat**-sivun **Varastopaikkatyypin koodi** -kentässä koodi **QC** jokaiselle vanhalle varastopaikalle, jonka tyhjensit edellisen toimenpiteen vaiheessa 3.  
 
-Olet nyt poistanut fyysisen varastoinnin virrasta varastopaikat ja luokitellut ne uudestaan QC-varastopaikoiksi. QC-varastopaikoiissa ei ole aktiviteetti-kenttiä **Varastopaikkatyypit** -ikkunassa valittuna ja näin ollen niitä ei huomioida nimikevirrassa. Lisätietoja on kohdassa [Varastopaikkojen määrittäminen](warehouse-how-to-set-up-bin-types.md).  
+Olet nyt poistanut fyysisen varastoinnin virrasta varastopaikat ja luokitellut ne uudestaan QC-varastopaikoiksi. QC-varastopaikoissa ei ole aktiviteetti-kenttiä **Varastopaikkatyypit**-sivulla valittuna ja näin ollen niitä ei huomioida nimikevirrassa. Lisätietoja on kohdassa [Varastopaikkojen määrittäminen](warehouse-how-to-set-up-bin-types.md).  
 
 ## <a name="to-delete-a-bin"></a>Varastopaikan poistaminen  
 
@@ -69,11 +69,11 @@ Olet nyt poistanut fyysisen varastoinnin virrasta varastopaikat ja luokitellut n
 
 Jos napsautat **Kyllä**-painiketta, varastopaikka poistetaan käytöstä tulevaisuudessa, mutta varastopaikan koodi säilyy samana kaikissa fyysisen varastoinnin tapahtumissa.  
 
-Jos haluat nimetä varastopaikan uudelleen, niin että myös kaikki varastopaikkaan tietueet nimetään uudelleen (tietueisiin kuuluvat varastopaikan sisältö, fyysisen varastoinnin toimintorivit, rekisteröidyt fyysisen varastoinnin toimintorivit, fyysisen varastoinnin työkirjarivit, fyysisen varastoinnin vastaanottorivit, kirjatut fyysisen varastoinnin vastaanottorivit, fyysisen varastoinnin toimitusrivit, kirjatut fyysisen varastoinnin toimitusrivit ja fyysisen varastoinnin tapahtumat), voit tehdä sen **Varastopaikat**-ikkunassa.  
+Jos haluat nimetä varastopaikan uudelleen, niin että myös kaikki varastopaikkaan tietueet nimetään uudelleen (tietueisiin kuuluvat varastopaikan sisältö, fyysisen varastoinnin toimintorivit, rekisteröidyt fyysisen varastoinnin toimintorivit, fyysisen varastoinnin työkirjarivit, fyysisen varastoinnin vastaanottorivit, kirjatut fyysisen varastoinnin vastaanottorivit, fyysisen varastoinnin toimitusrivit, kirjatut fyysisen varastoinnin toimitusrivit ja fyysisen varastoinnin tapahtumat), voit tehdä sen **Varastopaikat**-sivulla.  
 
 ## <a name="to-rename-a-bin-and-change-the-bin-code-in-all-records"></a>Varastopaikan nimeäminen uudelleen ja varastopaikkakoodin muuttaminen kaikkiin tietueisiin  
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sijainnit** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Sijainnit** ja valitse sitten liittyvä linkki.  
 2.  Valitse sijainti, jonka varastopaikan haluat nimetä uudelleen tai jossa haluat muuttaa varastopaikkakoodia, ja valitse sitten **Varastopaikat**-toiminto.  
 3.  Valitse se varastopaikka, jota haluat muuttaa. Syötä uusi varastopaikan koodi **Koodi**-kentässä.  
 4.  Valitse **Kyllä**-painike.  

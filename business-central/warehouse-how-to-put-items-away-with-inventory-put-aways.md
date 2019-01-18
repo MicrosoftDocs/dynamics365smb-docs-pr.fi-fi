@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b31591784c927f67f541d997f54e97ef696f63bb
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 410439c6a7b0aacc31f1a191b9b4540d0aa6a5e8
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="put-items-away-with-inventory-put-aways"></a>Nimikkeiden hyllyttäminen varastohyllytyksen avulla
@@ -24,7 +24,7 @@ Kun sijainti on määritetty edellyttämään hyllytyskäsittelyä mutta ei vast
 
 Varastohyllytyksen voi luoda kolmella tavalla:  
 
-- Luo hyllytys kahdessa vaiheessa luomalla ensin varastopyyntö lähdeasiakirjasta. Tämä toimii signaalina varastolle, että lähdeasiakirja odottaa hyllytystä.  Varaston hyllytys voidaan sitten luoda **Varaston hyllytys** -ikkunassa lähdeasiakirjan perusteella.  
+- Luo hyllytys kahdessa vaiheessa luomalla ensin varastopyyntö lähdeasiakirjasta. Tämä toimii signaalina varastolle, että lähdeasiakirja odottaa hyllytystä.  Varaston hyllytys voidaan sitten luoda **Varaston hyllytys** -sivulla lähdeasiakirjan perusteella.  
 - Luomalla varastohyllytys suoraan lähdeasiakirjasta.  
 - Voit luoda varastohyllytyksen usealle asiakirjalle yhdellä kertaa eräajon avulla.  
 
@@ -59,13 +59,13 @@ Nyt kun pyyntö on luotu, varastotyöntekijä voi luoda uuden varastohyllytyksen
 
 ## <a name="to-create-multiple-inventory-put-aways-with-a-batch-job"></a>Useiden varastohyllytysten luominen eräajon avulla  
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Luo var. hyllytys/poiminta** ja valitse sitten liittyvä linkki.  
-2.  **F.var. pyyntö** -pikavälilehdessä voit käyttää **Lähdeasiakirja**- ja **Lähdenro**-kenttiä ja suodattaa tietyn tyyppisiä asiakirjoja (esim. luoda poimintoja vain myyntitilaukselle) tai asiakirjanumerovälejä.  
+2.  Pyyntösivun **F.var. pyyntö** -pikavälilehdessä voit käyttää **Lähdeasiakirja**- ja **Lähdenro**-kenttiä ja suodattaa tietyn tyyppisiä asiakirjoja (esim. luoda poimintoja vain myyntitilaukselle) tai asiakirjanumerovälejä.  
 3.  Valitse **Asetukset**-pikavälilehdessä **Luo varaston hyllytys** -valintaruutu.
 4.  Valitse **OK**-painike. Määritetyt varastohyllytykset luodaan.
 
 ## <a name="to-record-the-inventory-put-away"></a>Varastohyllytyksen kirjaaminen  
-1. Avaa aiemmin luodun hyllytysasiakirjan valitsemalla sen **Varaston hyllytykset** -ikkunassa.  
-2. Hyllytysrivien **Varastopaikkakoodi**-kentän varastopaikka, johon nimikkeet on hyllytettävä, ehdotetaan nimikkeen oletusvarastopaikan mukaan. Voit tarvittaessa muuttaa varastopaikkaa tässä ikkunassa.  
+1. Avaa aiemmin luodun hyllytysasiakirjan valitsemalla sen **Varaston hyllytykset** -sivulla.  
+2. Hyllytysrivien **Varastopaikkakoodi**-kentän varastopaikka, johon nimikkeet on hyllytettävä, ehdotetaan nimikkeen oletusvarastopaikan mukaan. Voi muuttaa tarvittaessa varastopaikkaa tällä sivulla.  
 3. Suorita hyllytys ja syötä tiedot koskien todellisia hyllytysmääriä **Käsiteltävä määrä** -kentässä.
 
     Jos yhden rivin nimikkeet on asetettava useaan varastopaikkaan esimerkiksi siksi, että määritetty varastopaikka on täynnä, käytä **Rivit**-pikavälilehden **Jaa rivi** -toimintoa. Lisätietoja rivien jakamisesta on kohdassa [Varastotoimintorivien jakaminen](warehouse-how-to-split-warehouse-activity-lines.md).  

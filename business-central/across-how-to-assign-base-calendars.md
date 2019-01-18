@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 5ff369b1d9ef8bb4986d4be0d885d4088205f570
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2b1820a65fd1e9cd4e41828caddd737e79a2a45b
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-base-calendars"></a>Peruskalenterien määrittäminen
@@ -27,7 +27,7 @@ Peruskalenterin voi määrittää yritykselle ja sen liikekumppaneille, esimerki
 2.  Valitse **Uusi**-toiminto.  
 3.  Täytä **Koodi**-kenttä.  
 4. Valitse **Ylläpidä peruskalenterin muutokset** -toiminto.
-5. Voit merkitä **Peruskalenterin muutokset** -ikkunan **Toistamisjärjestelmä**-kentässä tietyn päivämäärän tai päivän toistuvaksi ei-työskentelypäiväksi. Valittavat vaihtoehdot ovat **Vuosittain toistuva** ja **Viikoittain toistuva**.  
+5. Voit merkitä **Peruskalenterin muutokset** -sivun **Toistamisjärjestelmä**-kentässä tietyn päivämäärän tai päivän toistuvaksi ei-työskentelypäiväksi. Valittavat vaihtoehdot ovat **Vuosittain toistuva** ja **Viikoittain toistuva**.  
 
     Jos valitset **Vuosittain toistuva** -vaihtoehdon, asianmukainen päivämäärä on syötettävä myös **Pvm**-kenttään.  
 
@@ -37,10 +37,10 @@ Kun teet tapahtuman, **Ei työskentely** -kenttä on valittuna. Voit valita vali
  Kun palaat peruskalenterin korttiin, huomaat, että ohjelma on päivittänyt automaattisesti tekemäsi vapaapäivätapahtumat. Nämä tapahtumat näkyvät nyt punaisina ja **Ei työskentely** -kenttä on valittuna.  
 
 > [!NOTE]  
->  Uutta peruskalenteria määritettäessä kalenterista voi valita ja kopioida rivejä. Tämä tehdään asianmukaisessa **Peruskalenterin muutokset** -ikkunassa.  
+>  Uutta peruskalenteria määritettäessä kalenterista voi valita ja kopioida rivejä. Tämä tehdään asianmukaisessa **Peruskalenterin muutokset** -sivulla.  
 
 > [!IMPORTANT]  
->  Mikä tahansa toimittajalle tai sijainnille määritetty peruskalenteri vaikuttaa siihen, kuinka päivämäärät lasketaan ja pyöristetään työpäiviin.
+>  Toimittajalle tai sijainnille määritetyt peruskalenterit vaikuttavat siihen, kuinka päivämäärät lasketaan ja pyöristetään työpäiviin.
 Määrittää päivämääräkaavan ajalle, joka kuluu nimikkeen täydentämiseen. Sen avulla lasketaan **Suun. vast.otto pvm** -kentän arvo eteenpäin laskettaessa ja **Tilauspvm**-kentän arvo taaksepäin laskettaessa. Lisätietoja on kohdassa Toimitusajan laskenta.
 
 ## <a name="lead-time-calculation"></a>Toimitusajan laskenta
@@ -57,7 +57,7 @@ Toimittajalle tai sijainnille määritetyt peruskalenterit vaikuttavat siihen, k
 > [!Important]
 > Jos sijainnissa käytettävä kalenteri on hyvin erilainen kuin toimittajien käyttämät kalenterit, on tärkeää määrittää näille toimittajille erityiset kalenterit, joiden avulla toimittajille voidaan laskea parhaat mahdolliset toimitusajat. Lisätietoja toimittajan kalenterien määrittämisestä on kohdassa Peruskalenterin määrittäminen.
 
-**Toimitusajan laskenta** -kentän sisältö kopioidaan nimikkeen kortista tai varastointiyksikön kortista, jos nimikkeelle on määritelty toimitusaika, tai **Nimikkeen toimittajaluettelo** -ikkunassa, jos toimitusaika on määritetty toimittajalle.
+**Toimitusajan laskenta** -kentän sisältö kopioidaan nimikkeen kortista tai varastointiyksikön kortista, jos nimikkeelle on määritelty toimitusaika, tai **Nimikkeen toimittajaluettelo** -sivulla, jos toimitusaika on määritetty toimittajalle.
 
 ## <a name="to-customize-a-calendar"></a>Kalenterin räätälöiminen
 Päätehtävä peruskalenterin räätälöimisessä yrityksellesi tai yhdelle sen liiketoimintakumppaneista on syöttää kaikki työskentely- ja ei-työskentelypäivätilan muutokset.
@@ -68,7 +68,7 @@ Seuraavassa menettelyssä käytetään esimerkkinä sijainnin tapausta. Huomaa, 
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sijainnit** ja valitse sitten liittyvä linkki.
 2. Avaa päivitettävä sijainti ja valitse sitten **Muokattu kalenteri** -kenttä. Huomaa, että kalenteri on valittava **Peruskalenterin koodi** -kentässä.
-3. Valitse avautuvassa **Räätälöidyt kalenteritapahtumat** -ikkunassa **Ylläpidä räätälöityjä kalenterimuutoksia** -toimintoja.
+3. Valitse avautuvassa **Räätälöidyt kalenteritapahtumat** -sivulla **Ylläpidä räätälöityjä kalenterimuutoksia** -toimintoja.
 4. Lisää räätälöityjen kalenteritapahtumien rivit **Räätälöity kalenterimuutos** -ikkunassa.
 
     Kun annat rivin, **Ei työskentely** -valintaruutu on valittuna. Voit poistaa valintaruudun valinnan, jos haluat muuttaa tilan työpäiväksi.
@@ -79,7 +79,7 @@ Seuraavassa menettelyssä käytetään esimerkkinä sijainnin tapausta. Huomaa, 
 
 5. Valitse **OK**-painike.
 
-Päivämäärätapahtumat näkyvät **Räätälöidyt kalenteritapahtumat** -ikkunassa päivitettyinä tekemiesi muutosten mukaisesti.
+**Räätälöidyt kalenteritapahtumat** -sivulla päivämäärätapahtumat näkyvät päivitettyinä tekemiesi muutosten mukaisesti.
 
 Huomaat sijaintikortissa, että **Muokattu kalenteri** -kenttään on **Kyllä**, joka ilmaisee, että mukautettu kalenteri on määritetty.
 
@@ -100,7 +100,7 @@ Peruskalenterit määritetään omalle yritykselle, asiakkaille, toimittajille, 
 -   **Yritystiedot**- ja **Asiakas**-korteissa peruskalenteri määritetään  **Toimitus**-pikavälilehdessä.  
 -   **Toimittaja**-kortissa peruskalenteri määritetään **Vastaanotto**-pikavälilehdessä.  
 -   **Sijainti**-kortissa peruskalenteri määritetään **Fyysinen varasto** -pikavälilehdessä.  
--   **Kuljetusliikkeet**-ikkunassa oleva peruskalenteri määritetään **Kuljetusliikkeen palvelut** -ikkunassa.  
+-   **Kuljetusliikkeet**-sivulla oleva peruskalenteri määritetään **Kuljetusliikkeen palvelut** -sivulla.  
 
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asiakkaat** ja valitse sitten liittyvä linkki.  
 2.  Avaa **Asiakkaan** kortti, jolle haluat määrittää peruskalenterin.  

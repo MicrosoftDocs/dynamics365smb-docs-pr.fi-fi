@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 4fe4c7eaf412bd6219b51a06f989c5a8508c4410
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3cb3c77600ef8e83612bb144f1ddfc3abed0eff1
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="run-full-planning-mps-or-mrp"></a>Kokonaisvaltaisen suunnittelun, tuotanto-ohjelman tai tarvelaskennan suorittaminen
@@ -27,7 +27,7 @@ Suunnittelutyökirjan suorittaminen ja tarvelaskennan suorittaminen tarkoitetaan
 
 Tuotanto-ohjelmassa ja tarvelaskennassa käytetään identtisiä suunnittelualgoritmeja. Suunnittelualgoritmit liittyvät nettouttamiseen, aiempien täydennystilausten uudelleenkäyttöön ja toimenpideviesteihin. Suunnittelujärjestelmä selvittää, mitä nyt tai vastaisuudessa tarvitaan (kysyntä) sekä mitä on käsivarastossa ja mitä tulossa (tarjonta). Kun nämä määrät nettoutetaan, [!INCLUDE[d365fin](includes/d365fin_md.md)] näyttää toimenpideviestejä. Toimenpideviestit ovat ehdotuksia, jotka kehottavat luomaan uuden tilauksen, muuttamaan tilausta (määrää tai päivämäärää) tai peruuttamaan jo tilauksessa olevan tilauksen. Tilauksella tarkoitetaan ostotilauksia, kokoonpanotilauksia, tuotantotilauksia ja siirtotilauksia.
 
-Suunnittelumoduulin kysynnän ja tarjonnan välille luodut linkit ja niihin liittyvää toimitusta voidaan seurata **Tilauksen seuranta** -ikkuna. Lisätietoja on kohdassa [Kysynnän ja tarjonnan välisten suhteiden seuranta](production-how-track-demand-supply.md).   
+Suunnittelumoduulin kysynnän ja tarjonnan välille luodut linkit ja niihin liittyvää toimitusta voidaan seurata **Tilauksen seuranta** -sivu. Lisätietoja on kohdassa [Kysynnän ja tarjonnan välisten suhteiden seuranta](production-how-track-demand-supply.md).   
 
 Suunnitelmasta saadaan asianmukaisia tuloksia sen mukaan, kuinka nimikkeen kortit, tuotannon tuoterakenteet ja reititykset on määritetty.  
 
@@ -48,17 +48,17 @@ Jokaisen suunnitellun menetelmän kanssa, [!INCLUDE[d365fin](includes/d365fin_md
 
 ## <a name="to-calculate-the-planning-worksheet"></a>Suunnittelutyökirjan laskeminen  
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Suunnittelutyökirjat** ja valitse sitten liittyvä linkki.  
-2.  Avaa **Laske suunnitelma** -ikkuna valitsemalla **Laske uudelleensuunnittelu** -toiminto.  
+2.  Avaa **Laske suunnitelma** -sivu valitsemalla **Laske uudelleensuunnittelu** -toiminto.  
 3.  Täytä **Vaihtoehdot**-pikavälilehden kentät seuraavassa taulukossa kuvatulla tavalla.  
 
     |Kenttä|Kuvaus|  
     |---------------------------------|---------------------------------------|  
     |**Tuotanto-ohjelma**|Valitse tämä, jos haluat käynnistää tuotanto-ohjelman laskennan. Tässä ajossa otetaan huomioon nimikkeet, joilla on avoimia myyntitilauksia tai kysyntäennusteita.|  
-    |**Tarvelaskenta**|Valitse tämä, jos haluat käynnistää materiaalitarpeiden suunnittelun laskennan. Tässä ajossa otetaan huomioon nimikkeet, joilla on riippuvuusedellytyksiä. Yleensä tuotanto-ohjelma ja tarvelaskenta suoritetaan samanaikaisesti. Tuotanto-ohjelman ja tarvelaskennan samanaikainen suorittaminen edellyttää, että **Yhdistetty tuot-ohj/tarvelask.** -valintaruutu on valittuna **Tuotannon asetukset** -ikkunan **Suunnittelu**-pikavälilehdessä.|  
+    |**Tarvelaskenta**|Valitse tämä, jos haluat käynnistää materiaalitarpeiden suunnittelun laskennan. Tässä ajossa otetaan huomioon nimikkeet, joilla on riippuvuusedellytyksiä. Yleensä tuotanto-ohjelma ja tarvelaskenta suoritetaan samanaikaisesti. Tuotanto-ohjelman ja tarvelaskennan samanaikainen suorittaminen edellyttää, että **Yhdistetty tuot-ohj/tarvelask.** -valintaruutu on valittuna **Tuotannon asetukset** -sivun **Suunnittelu**-pikavälilehdessä.|  
     |**Aloituspvm**|Varastosaatavuus arvioidaan tämän päivämäärän perusteella. Jos nimikkeen käsivarastomäärä alittaa uusintatilauspisteen, järjestelmä aikatauluttaa täydennystilauksen ennakkotilauksena tämän päivämäärän perusteella. Jos nimikkeen määrä alittaa varmuusvaraston määrän (aloituspäivänä), järjestelmä aikatauluttaa takautuvasti täydennystilauksen, jonka eräpäivä on sunnittelun aloituspäivämäärä.|  
     |**Lopetuspvm**|Tämä on suunnitteluhorisontin päättymispäivämäärä. Kysyntää ja tarjontaa ei lasketa tätä päivämäärää edemmäs. Jos nimikkeen uusintatilausväli ulottuu lopetuspäivämäärän jälkeiselle ajalle, kyseisen nimikkeen suunnitteluhorisontin voimassaoloaika on Tilauspvm- ja Uusintatilausväli-arvojen summa.<br /><br /> Suunnitteluhorisontti tarkoittaa aikaa, jonka suunnitelma kattaa. Jos horisontti on liian lyhyt, pitkän toimitusajan nimikkeiden tilaukset myöhästyvät. Jos horisontti on liian pitkä, sellaisia tietoja tarkistetaan ja käsitellään liian kauan, jotka todennäköisesti ehtivät muuttua, ennen kuin niitä tarvitaan. Tuotantoa varten voi määrittää toisen ja ostoja varten toisen, pidemmän suunnitteluhorisontin, vaikka tämä ei olekaan välttämätöntä. Ostojen ja tuotannon suunnitteluhorisontit täytyy määrittää siten, että ne kattavat komponenttien kumulatiivisen toimitusajan.|  
-    |**Pysäytä ja näytä ensimmäinen virhe**|Valitse, jos haluat suunnitteluajon keskeytyvän heti, kun siinä ilmenee virhe. Samalla näyttöön tulee sanoma, jossa on tietoja (ensimmäisestä) virheestä. Virhetilanteessa vain ennen virheen ilmenemistä tehdyt onnistuneet suunnittelurivit esitetään suunnittelutyökirjassa. Jos et ole lisännyt valintamerkkiä tähän kenttään, **Laske suunnitelma** -eräajoa jatketaan mahdollisista virheistä huolimatta loppuun saakka. Jos virheitä ilmenee, ohjelma tuo eräajon jälkeen näkyviin sanoman, jossa ilmoitetaan virheiden vaikutusalueeseen kuuluvien nimikkeiden määrä. Jos virheitä ilmenee, ohjelma tuo eräajon jälkeen näkyviin sanoman, jossa ilmoitetaan virheiden vaikutusalueeseen kuuluvien nimikkeiden määrä. Näkyviin tulee sitten **Suunnittelun virheloki** -ikkuna, jossa on lisätietoja virheestä ja linkit virheen vaikutusalueeseen kuuluvien nimikkeiden kortteihin.|  
-    |**Käytä ennustetta**|Valitse ennuste, jonka haluat ohjelman sisällyttävän kysyntään suunnittelueräajon yhteydessä. Oletusennuste määritetään  **Tuotannon asetukset** -ikkunan **Suunnittelu**-pikavälilehdessä.|  
+    |**Pysäytä ja näytä ensimmäinen virhe**|Valitse, jos haluat suunnitteluajon keskeytyvän heti, kun siinä ilmenee virhe. Samalla näyttöön tulee sanoma, jossa on tietoja (ensimmäisestä) virheestä. Virhetilanteessa vain ennen virheen ilmenemistä tehdyt onnistuneet suunnittelurivit esitetään suunnittelutyökirjassa. Jos et ole lisännyt valintamerkkiä tähän kenttään, **Laske suunnitelma** -eräajoa jatketaan mahdollisista virheistä huolimatta loppuun saakka. Jos virheitä ilmenee, ohjelma tuo eräajon jälkeen näkyviin sanoman, jossa ilmoitetaan virheiden vaikutusalueeseen kuuluvien nimikkeiden määrä. Jos virheitä ilmenee, ohjelma tuo eräajon jälkeen näkyviin sanoman, jossa ilmoitetaan virheiden vaikutusalueeseen kuuluvien nimikkeiden määrä. Näkyviin tulee sitten **Suunnittelun virheloki** -sivu, jossa on lisätietoja virheestä ja linkit virheen vaikutusalueeseen kuuluvien nimikkeiden kortteihin.|  
+    |**Käytä ennustetta**|Valitse ennuste, jonka haluat ohjelman sisällyttävän kysyntään suunnittelueräajon yhteydessä. Oletusennuste määritetään **Tuotannon asetukset** -sivun **Suunnittelu**-pikavälilehdessä.|  
     |**Sulje ennuste pois ennen**|Tässä kentässä voit määrittää, kuinka suuri valitun ennusteen osa suunnitteluajoon sisällytetään. Tämä tehdään lisäämällä päivämäärä, jota edeltävää ennustettua kysyntää ei oteta mukaan. Tällä tavoin voit jättää vanhat tiedot pois.|  
     |**Noudata suunnitteluparametreja poikkeusvaroituksille**|Tämä kenttä on oletusarvoisesti piilotettuna.<br /><br /> Tarjontaa suunnitteluriveillä, joilla on varoituksia, ei yleensä muokata suunnitteluparametrien mukaan. Suunnittelujärjestelmä ehdottaa sen sijaan vain toimitusmäärää, joka kattaa kysyntämäärän täsmällisesti. Voit kuitenkin määrittää suunnitteluriveille tiettyjä suunnitteluparametreja, joihin liittyy tiettyjä varoituksia.<br /><br />|  
 
@@ -66,7 +66,7 @@ Jokaisen suunnitellun menetelmän kanssa, [!INCLUDE[d365fin](includes/d365fin_md
 5.  Valitse **OK**-painike. Eräajo suoritetaan ja suunnittelurivit täytetään suunnittelutyökirjaan.  
 
 ## <a name="to-perform-action-messages"></a>Suorita toimenpideviestit  
-1.  Valitse **Suunnittelutyökirja**-ikkunassa **Toteuta toimenpideviesti** -toiminto.  
+1.  Valitse **Suunnittelutyökirja**-sivulla **Toteuta toimenpideviesti** -toiminto.  
 2.  Määritä **Asetukset**-pikavälilehdessä, miten toimitukset luodaan. Täytä tilikentät seuraavassa taulukossa kuvatulla tavalla.  
 
     |Kenttä|Kuvaus|  

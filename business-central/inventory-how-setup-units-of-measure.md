@@ -13,10 +13,10 @@ ms.search.keywords: UOM
 ms.date: 10/01/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b920a3edfab41409cd8d7cf3f5e463f66268e953
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 376e34074c6ee216b7a9062a42404a8123758598
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-item-units-of-measure"></a>Nimikkeen mittayksikön määrittäminen
@@ -30,7 +30,7 @@ Jos nimike varastoidaan yhtä mittayksikköä ja tuotetaan toista mittayksikkö�
 ## <a name="to-set-up-a-unit-of-measure"></a>Mittayksikön määrittäminen
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten liittyvä linkki.
 2. Avaa nimikkeen kortti, jolle haluat määrittää vaihtoehtoisen mittayksikön.
-3. Valitse **Mittayksiköt**-toiminto. Näyttöön tulee **Nimikkeen mittayksiköt** -ikkuna.
+3. Valitse **Mittayksiköt**-toiminto. Näyttöön tulee **Nimikkeen mittayksiköt** -sivu.
 4. Jos nimikekortin **Perusmittayksikkö**-kenttä on täytetty, kyseinen mittayksikkö on jo määritetty.
 5. Valitse **Uusi**-toiminto. Uusi tyhjä rivi lisätään.
 6. Syötä mittayksikön nimi **Koodi**-kentässä. Vaihtoehtoisesti voit valita kenttään tietokannassa olevat mittayksikön koodit.
@@ -49,12 +49,12 @@ Kun myyt nimikkeitä ulkomaisille asiakkaille, voit haluta määrittää mittayk
 5. Toista vaiheet 2–4 niiden mittayksikön koodien ja kielien osalta, joille haluat antaa käännöksen.
 
 ## <a name="to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions"></a>Oletusmittayksikön koodien määrittäminen myynti- ja ostotapahtumille
-Jos ostat tai myyt tavallisesti eri yksiköissä kuin perusmittayksiköissä, voit määrittää erillisiä mittayksiköitä ostoille ja myynneille. Tehdäksesi näin **Nimikkeen mittayksiköt**-ikkunassa tulee määrittää mittayksiköitä.
+Jos ostat tai myyt tavallisesti eri yksiköissä kuin perusmittayksiköissä, voit määrittää erillisiä mittayksiköitä ostoille ja myynneille. Tehdäksesi näin **Nimikkeen mittayksiköt** -sivulla tulee määrittää mittayksiköitä.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Nimikkeet** ja valitse sitten liittyvä linkki.
 2. Avaa sen nimikkeen kortti, jolle haluat määrittää myynnin tai oston oletusmittayksikön koodin.
-3. Avaa myynnin osalta **Laskutus**-pikavälilehden **Myynnin mittayksikkö** -kentässä **Nimikkeen mittayksiköt** -ikkuna.
-4. Avaa oston osalta **Täydennys**-pikavälilehden **Oston mittayksikkö** -kentässä **Nimikkeen mittayksiköt** -ikkuna.
+3. Avaa myynnin osalta **Laskutus**-pikavälilehden **Myynnin mittayksikkö** -kentässä **Nimikkeen mittayksiköt** -sivu.
+4. Avaa oston osalta **Täydennys**-pikavälilehden **Oston mittayksikkö** -kentässä **Nimikkeen mittayksiköt** -sivu.
 5. Valitse myynnin tai oston oletusmittayksiköksi määritettävä koodi ja valitse sitten **OK**.
 
 ## <a name="see-also"></a>Katso myös

@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 75f0fd760978b0efc4ab86b8d17a815280a09799
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: b5dba16cae1e767c867544cfae21e12ac7d0f933
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="service-posting"></a>Huollon kirjaus
@@ -23,7 +23,7 @@ Huollon kirjaustoiminnon avulla voit käsitellä asiakirjoja tehokkaasti ja yll�
 > [!NOTE]  
 >  Seuraavassa ohjeessa neuvotaan, miten huoltokirjauksia tehdään riippumatta siitä, miten kohteita käsitellään fyysisessä varastossa.  
 >   
->  Jos fyysisen varaston käsittely ei ole pakollista sijainnissa, tee kirjaustoiminnot suoraan **Huoltorivit**-ikkunassa. Sijainneissa, joissa käytetään fyysisen varaston käsittelyä, kuvatut kirjaustoiminnot (toimitusta ja kulutusta lukuun ottamatta) suoritetaan suoraan muuttuvien fyysisen varaston toimitustoimintojen kautta asetusten perusteella. Lisätietoja on kohdassa [Nimikkeiden poiminta varastopoiminnalla](warehouse-how-to-pick-items-with-inventory-picks.md).  
+>  Jos fyysisen varaston käsittely ei ole pakollista sijainnissa, tee kirjaustoiminnot suoraan **Huoltorivit**-sivulla. Sijainneissa, joissa käytetään fyysisen varaston käsittelyä, kuvatut kirjaustoiminnot (toimitusta ja kulutusta lukuun ottamatta) suoritetaan suoraan muuttuvien fyysisen varaston toimitustoimintojen kautta asetusten perusteella. Lisätietoja on kohdassa [Nimikkeiden poiminta varastopoiminnalla](warehouse-how-to-pick-items-with-inventory-picks.md).  
 
 ## <a name="ship"></a>Toimitus  
 Toimitusvaihtoehdon avulla voit rekisteröidä ohjelmassa nimikkeet ja huoltotilauksen riveille huollon suorituksen jälkeen syötetyt ajat. Ohjelma luo kirjatun toimituksen ja päivittää varastomoduulin ja muut [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman moduulit sen mukaan, mitä nimikkeitä on otettu varastosta ja lähetetty asiakkaalle. Ohjelma tuottaa erityisesti nimiketapahtumia, arvotapahtumia, huoltotapahtumia ja takuutapahtumia.  
@@ -42,10 +42,10 @@ Toimita- ja kuluta -vaihtoehdon avulla voit rekisteröidä ja kirjata nimikkeit�
 > [!NOTE]  
 >  Huollon kirjausprosessi mahdollistaa osittaisen kirjauksen. Voit luoda myös osittaisen toimituksen tai osittaisen laskun täyttämällä **Toimitettava määrä**- ja  **Laskutettava määrä** -kentät huoltotilausten yksittäisillä huoltoriveillä ennen kirjausta. Huomaa, että laskua ei voi luoda jollekin, jota ei ole toimitettu. Tämä tarkoittaa sitä, että ennen laskutusta on täytynyt rekisteröidä toimitus, tai täytyy valita yhtäaikainen toimitus ja laskutus.  
 
-Kirjauksen jälkeen voit katsella kirjattuja huoltoasiakirjoja niitä vastaavista ikkunoista **Kirjattu huoltotoimitus** ja **Kirjattu huoltolasku**. Luodut kirjatut tapahtumat ovat näkyvissä erilaisissa kirjattuja tapahtumia (**KP-tapahtumia**, **nimiketapahtumia**, **fyysisen varaston tapahtumia**, **huoltotapahtumia**, **projektitapahtumia**, **takuutapahtumia** jne.) sisältävissä ikkunoissa.  
+Kirjauksen jälkeen voit katsella kirjattuja huoltoasiakirjoja niitä vastaavilta sivuilta **Kirjattu huoltotoimitus** ja **Kirjattu huoltolasku**. Luodut kirjatut tapahtumat ovat näkyvissä erilaisissa kirjattuja tapahtumia, kuten **KP-tapahtumia**, **nimiketapahtumia**, **fyysisen varaston tapahtumia**, **huoltotapahtumia**, **projektitapahtumia** ja **takuutapahtumia**, sisältävillä sivuilla.  
 
 ## <a name="to-view-information-about-a-posted-service-document"></a>Kirjattujen huoltoasiakirjojen tarkasteleminen  
-Kun kirjaat huoltolaskun, huoltotoimituksen tai huollon hyvityslaskun, asiakirjan tiedot siirretään **Kirjattu huoltolasku**-, **Kirjattu huoltotoimitus**- tai **Kirjattu huollon hyvityslasku** -ikkunaan. Et voi syöttää mitään näihin ikkunoihin tai muuttaa tai poistaa niistä mitään. Näissä ikkunoissa voi tulostaa toimituksen, laskun tai hyvityslaskun.  
+Kun kirjaat huoltolaskun, huoltotoimituksen tai huollon hyvityslaskun, asiakirjan tiedot siirretään **Kirjattu huoltolasku**-, **Kirjattu huoltotoimitus**- tai **Kirjattu huollon hyvityslasku** -sivulle. Et voi lisätä mitään näille sivuille etkä muuttaa tai poistaa niiltä mitään. Voit tulostaa toimituksen, laskun tai hyvityslaskun näillä sivuilla.  
 
 Seuraavassa ohjeessa käytetään esimerkkinä kirjattua huoltolaskua, mutta samaa menettelyä voidaan käyttää kirjattuihin toimituksiin sekä palvelu- ja hyvityslaskuihin.  
 
@@ -53,7 +53,7 @@ Seuraavassa ohjeessa käytetään esimerkkinä kirjattua huoltolaskua, mutta sam
 2. Avaa kirjattu huoltolasku, jonka haluat nähdä.  
 3. Valitse **Tilastot**-toiminto, jos haluat yleiskuvan kirjatusta laskusta.  
 
-    Avaa **Huoltotilaustilastot**-ikkuna. Ikkunassa on muun muassa seuraavat kirjatun asiakirjan tiedot: määrä, summa, ALV, kustannus, tuotto ja asiakkaan luottoraja.
+    Avaa **Huoltotilaustilastot**-sivu. Sivulla on muun muassa seuraavat kirjatun asiakirjan tiedot: määrä, summa, ALV, kustannus, tuotto ja asiakkaan luottoraja.
 
 ## <a name="see-also"></a>Katso myös  
 [Huoltotilausten kirjaaminen](service-how-to-post-service-orders.md)   

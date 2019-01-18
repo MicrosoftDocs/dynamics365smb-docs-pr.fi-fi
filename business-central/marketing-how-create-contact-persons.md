@@ -10,30 +10,31 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
+redirect_url: marketing-create-contact-persons
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0371e226de78c8c3894b47e5bebaf0aaf422666c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1bcba95f33a504d5c87fbc27671184d71aa6468f
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-contact-persons"></a>Kontaktihenkilöiden luominen
 Voit luoda kontaktikortin jokaiselle yhteyshenkilölle, joka työskentelee sellaisessa yrityksissä, jonka kanssa yrityksesi on vuorovaikutuksessa. Jokaiselle kontaktiyritykselle voit luoda niin monta kontaktihenkilöä kuin haluat. Voit luoda kontaktikortteja myös niille henkilöille, jotka haluat tallentaa itsenäisinä.
 
 > [!TIP]  
->   Ennen uuden kontaktin luomista kannattaa ehkä tarkistaa **Inheritance**-Periytyminen**Kontaktienhallinnan asetukset**-ikkunasta. Periytymisen määrittäminen mahdollistaa kontaktihenkilöille yhteisten kontaktiyritysten tietojen, kuten osoitetietojen, kopioimisen automaattisesti kontaktiyrityksestä kontaktihenkilöön aina, kun luot tallennettuun kontaktiyritykseen kontaktihenkilön.
+>   Ennen uuden kontaktin luomista kannattaa ehkä tarkistaa **Periytyminen**-asetukset **Kontaktienhallinnan asetukset** -sivulla. Periytymisen määrittäminen mahdollistaa kontaktihenkilöille yhteisten kontaktiyritysten tietojen, kuten osoitetietojen, kopioimisen automaattisesti kontaktiyrityksestä kontaktihenkilöön aina, kun luot tallennettuun kontaktiyritykseen kontaktihenkilön.
 
 ## <a name="to-create-a-contact-card-for-a-person"></a>Luo henkilön kontaktikortti
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kontaktit** ja valitse sitten liittyvä linkki.
 2. Valitse **Uusi**-toiminto.
 3. Valitse **Nro**-kenttään kontaktin numero.
 
-    Jos olet määrittänyt kontakteille numerosarjan **Kontaktienhallinnan asetukset**-ikkunassa, voit myös painaa Enter-näppäintä, jolloin ohjelma syöttää seuraavan saatavilla olevan kontaktinumeron. Lisätietoja on kohdassa [Numerosarjojen luominen](ui-create-number-series.md).
+    Jos olet määrittänyt kontakteille numerosarjan **Kontaktienhallinnan asetukset**-sivulla, voit myös painaa Enter-näppäintä, jolloin ohjelma syöttää seuraavan saatavilla olevan kontaktinumeron. Lisätietoja on kohdassa [Numerosarjojen luominen](ui-create-number-series.md).
 4. Valitse **Tyyppi**-kentästä **Henkilö**.
 5. Täytä muut kontaktin kortin kentät.
 
 > [!NOTE]  
->   **Kontaktienhallinnan asetukset** -ikkunan **Periytyminen**-osassa valittujen kenttien sisältö kopioidaan yrityksestä kyseisen yrityksen henkilöille.
+>   **Kontaktienhallinnan asetukset** -sivun **Periytyminen**-osassa valittujen kenttien sisältö kopioidaan yrityksestä kyseisen yrityksen henkilöille.
 
 ## <a name="see-also"></a>Katso myös
 [Kontaktienhallinnan määrittäminen](marketing-setup-marketing.md)  

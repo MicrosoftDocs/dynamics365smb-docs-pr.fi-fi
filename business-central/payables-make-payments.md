@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 10/01/2018
+ms.date: 12/07/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b22144fff3051ef35b9e3baf6e12ecd56ee12c49
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1ad5e15ef1214fb37250dcd4b04d13ab073ac21a
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="making-payments"></a>Maksujen suorittaminen
 
-Kun suoritat maksut toimittajille tai asiakkaille tai hyvityksiä työntekijöille, kirjaat liittyvät maksurivit **Maksupäiväkirja**-ikkunaan. Maksukirjauskansio on yleinen kirjauskansio, joka on tarkoitettu maksujen tekemiseen. Se sisältää useita tehokkaita toimintoja, kuten **Ehdota toimittajamaksuja** -toiminnon, joka etsii toimittajat, joilla on erääntyneitä maksuja, ja **Toimittaja - Eräänt.yht.veto** -raportin, joka näyttää toimittajan erääntyneiden maksujen yleiskatsauksen.  
+Kun suoritat maksut toimittajille tai asiakkaille tai hyvityksiä työntekijöille, kirjaat liittyvät maksurivit **Maksupäiväkirja**-sivulle. Maksukirjauskansio on yleinen kirjauskansio, joka on tarkoitettu maksujen tekemiseen. Se sisältää useita tehokkaita toimintoja, kuten **Ehdota toimittajamaksuja** -toiminnon, joka etsii toimittajat, joilla on erääntyneitä maksuja, ja **Toimittaja - Eräänt.yht.veto** -raportin, joka näyttää toimittajan erääntyneiden maksujen yleiskatsauksen.  
 
 Voit aloittaa maksujen luomisprosessin toimittajille, asiakkaille ja työntekijöille luetteloista, korteista ja tapahtumista. Jokaisella sivulla on painike, joka aloittaa maksuprosessin ja auttaa täyttämään maksukirjauskansion.  
 
@@ -33,9 +33,9 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 
 | Vastaanottaja | Katso |
 | --- | --- |
-|Ymmärrä yleiseen päiväkirjaan perustuvan **Maksupäiväkirja**-ikkunan perustoiminnot, joiden avulla voit valmistella kirjaavasi maksut toimittajille tai työntekijöille.|[Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md)|
+|Ymmärrä yleiseen päiväkirjaan perustuvan **Maksupäiväkirja**-sivun perustoiminnot, joiden avulla voit valmistella kirjaavasi maksut toimittajille tai työntekijöille.|[Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md)|
 |Kirjaa maksut toimittajille tai työntekijöille ja hyvitykset asiakkaille. Valinnaisesti voit kohdistaa maksut liittyviin maksamattomiin laskuihin/hyvityslaskuihin ja sulkea ne maksettuina.|[Maksujen ja hyvitysten kirjaaminen](payables-how-post-payments-refunds.md)|
-| Käytä **Maksupäiväkirja**-ikkunan toimintoa ehdottaaksesi toimittajan maksuja valittujen ehtojen, kuten eräpäivän, alennuskelpoisuuden ja maksuvalmiutesi, mukaan. |[Ehdota toimittajamaksuja](payables-how-suggest-vendor-payments.md) |
+| Käytä **Maksupäiväkirja**-sivun toimintoa ehdottaaksesi toimittajan maksuja valittujen ehtojen, kuten eräpäivän, alennuskelpoisuuden ja maksuvalmiutesi, mukaan. |[Ehdota toimittajamaksuja](payables-how-suggest-vendor-payments.md) |
 | Myönnä sekkejä toimittajan maksuille tai asiakkaan hyvityksille joko tulosteina tai tietokonesekkeinä. Mitätöi sekit ennen kirjaamista tai sen jälkeen. |[Sekkimaksujen suorittaminen](payables-how-work-checks.md) |
 |Suorita sähköisiä maksuja viemällä maksut pankkitiedostoon, joka ladataan pankkiin käsiteltäväksi. Tämä tiedosto voi olla Pohjois-Amerikassa myös sähköinen rahansiirtotiedosto (EFT). |[Sähköisten maksujen suorittaminen](payables-how-export-payments-bank-file.md)|
 |Suorita sähköiset maksut EU:n SEPA-tilisiirtostandardin mukaisesti.|[Maksujen suorittaminen pankkitietojen muunnospalvelulla tai SEPA-tilisiirrolla](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)|

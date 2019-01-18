@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6739a7fc1400e9c1cfbc276c0a9ebeb3f95467b2
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 35eaf9776508d608a48aaa38e6d83ae879cd05af
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Vaihekuvaus: Poiminta ja toimitus fyysisen varastoinnin perusmäärityksissä
@@ -32,7 +32,7 @@ Katso lisätietoja kohdasta [Rakennetiedot: lähtevän fyysisen varastoinnin vir
 Seuraavassa vaihekuvauksessa kuvataan edellisen taulukon menetelmää B.  
 
 ## <a name="about-this-walkthrough"></a>Tietoja tästä vaihekuvauksesta  
-Jos sijainnit on määritetty fyysisen varastoinnin perusmäärityksissä edellyttämään poimintakäsittelyä mutta ei toimituskäsittelyä, **Varaston poiminta** -ikkunaa on käytettävä lähtevien lähdeasiakirjojen poiminta- ja toimitustietojen tallennuksessa ja kirjaamisessa. Lähtevä lähdeasiakirja voi olla myyntitilaus, ostopalautustilaus, lähtevä siirtotilaus tai tuotantotilaus komponenttitarpeella.  
+Jos sijainnit on määritetty fyysisen varastoinnin perusmäärityksissä edellyttämään poimintakäsittelyä mutta ei toimituskäsittelyä, **Varaston poiminta** -sivua on käytettävä lähtevien lähdeasiakirjojen poiminta- ja toimitustietojen tallennuksessa ja kirjaamisessa. Lähtevä lähdeasiakirja voi olla myyntitilaus, ostopalautustilaus, lähtevä siirtotilaus tai tuotantotilaus komponenttitarpeella.  
 
 Tässä vaihekuvauksessa käsitellään seuraavia tehtäviä:  
 
@@ -56,7 +56,7 @@ Tämän vaihekuvauksen ohjeiden noudattamisen edellytykset:
 -   Tee itsestäsi fyysisen varaston työntekijä HOPEISESSA sijainnissa tekemällä seuraavat toimet:  
 
     1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varaston työntekijät** ja valitse sitten liittyvä linkki.  
-    2.  Valitse **Käyttäjätunnus**-kenttä ja valitse oma käyttäjätilisi **Käyttäjät**-ikkunasta.  
+    2.  Valitse ensin **Käyttäjätunnus**-kenttä ja valitse oma käyttäjätilisi **Käyttäjät**-sivulla.  
     3.  Kirjoita **Sijaintikoodi**-kenttään HOPEA.  
     4.  Valitse **Oletus**-kenttä.  
 
@@ -73,10 +73,10 @@ Tämän vaihekuvauksen ohjeiden noudattamisen edellytykset:
     3.  Valitse ensin **Kirjaa** -toiminto ja sitten **Kyllä**.  
 
 ## <a name="story"></a>Taustatietoja  
-Ellen, CRONUSIN varastopäällikkö, määrittää HOPEISEEN fyysiseen varastoon perustason poimintakäsittelyn, jossa varastotyöntekijät käsittelevät lähtevät tilaukset erikseen. Susanna, tilausten käsittelijä luo myyntitilauksen LS-81-nimikkeen 30 yksikön toimituksesta asiakkaalle 10000 HOPEISESTA varastosta. Johnin, varastotyöntekijän, täytyy varmistaa, että lähetys on valmisteltu ja toimitettu asiakkaalle. John hallitsee kaikkia **Varaston poiminta** -ikkunassa olevia tehtäviä, jotka viittaavat automaattisesti varastopaikkoihin, joissa LS-81 on tallennettu.  
+Ellen, CRONUSIN varastopäällikkö, määrittää HOPEISEEN fyysiseen varastoon perustason poimintakäsittelyn, jossa varastotyöntekijät käsittelevät lähtevät tilaukset erikseen. Susanna, tilausten käsittelijä luo myyntitilauksen LS-81-nimikkeen 30 yksikön toimituksesta asiakkaalle 10000 HOPEISESTA varastosta. Johnin, varastotyöntekijän, täytyy varmistaa, että lähetys on valmisteltu ja toimitettu asiakkaalle. John hallitsee kaikkia **Varaston poiminta** -sivulla olevia tehtäviä, jotka viittaavat automaattisesti varastopaikkoihin, joissa LS-81 on tallennettu.  
 
 ## <a name="setting-up-the-location"></a>Sijainnin määrittäminen  
-**Sijaintikortti**-ikkunan asetuksissa määritellään yrityksen varaston työnkulut.  
+**Sijaintikortti**-sivun asetuksissa määritellään yrityksen varaston työnkulut.  
 
 ### <a name="to-set-up-the-location"></a>Sijainnin määrittäminen  
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sijainnit** ja valitse sitten liittyvä linkki.  
@@ -102,7 +102,7 @@ Myyntitilaukset ovat yleisin lähtevien lähdeasiakirjojen tyyppi.
     John etenee nimikkeiden poimintaan ja toimitukseen.  
 
 ## <a name="picking-and-shipping-items"></a>Nimikkeiden poiminta ja toimitus  
-**Varaston poiminta** -ikkunassa voit hallita kaikkia tietyn lähdeasiakirjan lähteviä varastointiaktiviteetteja, kuten myyntitilaus.  
+**Varaston poiminta** -sivulla voit hallita kaikkia tietyn lähdeasiakirjan lähteviä varastointiaktiviteetteja, kuten myyntitilaus.  
 
 ### <a name="to-pick-and-ship-items"></a>Nimikkeiden poiminta ja lähettäminen  
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varaston poiminnat** ja valitse sitten liittyvä linkki.  

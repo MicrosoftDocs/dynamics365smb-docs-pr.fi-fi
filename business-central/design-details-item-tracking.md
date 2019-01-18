@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 11/12/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: bdf0ab2dc31a9060bb50088e57eece26ee671985
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 1dce0ea658a2083c3d896fe6324751f63aabce06
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-item-tracking"></a>Rakennetiedot: nimikkeen seuranta
@@ -28,7 +28,7 @@ Kohteen seurantajärjestelmän tulisi tarjota yritykselle helpon tavan käsitell
 [Rakennetiedot: nimikkeen seurannan rakenne](design-details-item-tracking-design.md)  
 [Rakennetiedot: nimikkeen seurannan kirjauksen rakenne](design-details-item-tracking-posting-structure.md)  
 [Rakennetiedot: aktiivisen nimikkeen seurantatapahtumat verrattuna historiallisen nimikkeen seurantatapahtumiin](design-details-active-versus-historic-item-tracking-entries.md)  
-[Rakennetiedot: nimikkeen seurantarivit -ikkuna](design-details-item-tracking-lines-window.md)  
+[Rakennetiedot: Nimikkeen seurantarivit -sivu](design-details-item-tracking-lines-window.md)  
 [Rakennetiedot: nimikkeen seurannan saatavuus](design-details-item-tracking-availability.md)  
 [Rakennetiedot: nimikkeen seuranta ja suunnittelu](design-details-item-tracking-and-planning.md)  
 [Rakennetiedot: nimikkeen seuranta ja varaukset](design-details-item-tracking-and-reservations.md)  

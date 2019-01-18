@@ -11,10 +11,10 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6f6703976d6ad0011ecb1dba75d918cae00dee95
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ecee2f3b5be33bb12f6ca742c0a28720fee6e427
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 #  <a name="create-analysis-reports"></a>Analyysiraporttien luominen
@@ -41,9 +41,9 @@ Sen jälkeen voit määrittää seuraavanlaiset sarakkeet:
 - Edellisen kuukauden myynti prosentteina.  
 
 ## <a name="setting-up-line-and-column-layouts"></a>Rivi- ja sarakeasettelujen määrittäminen  
- **Analyysiraportti**-ikkunan avulla voit katsella eri rivi- ja sarakeasetteluja sen mukaan, mitä olet määrittänyt. Rivit tai rivimallit määritetään **Analyysirivimallit**-ikkunassa. Tässä ikkunassa voit määrittää raportin nimen ja raportin riveillä näkyvät objektit. Sarakkeet määritetään **Analyysisarakkeen mallit** -ikkunassa. Tässä ikkunassa voit määrittää sarakkeen mallin nimen ja raportissa sarakkeina esitettävät analyysin parametrit. **Analyysisarakkeen mallit** -ikkunassa jokainen rivi vastaa raportin saraketta. Huomaa, että analyysin rivit ja sarakkeet ovat riippumattomia toisistaan.  
+ **Analyysiraportti**-sivun avulla voit katsella eri rivi- ja sarakeasetteluja sen mukaan, mitä olet määrittänyt. Rivit tai rivimallit määritetään **Analyysirivimallit**-sivulla. Voit määrittää tällä sivulla raportin nimen ja raportin riveillä näkyvät objektit. Sarakkeet määritetään **Analyysisarakkeen mallit** -sivulla. Voit määrittää tällä sivulla sarakkeen mallin nimen ja raportissa sarakkeina esitettävät analyysin parametrit. **Analyysisarakkeen mallit** -sivulla jokainen rivi vastaa raportin saraketta. Huomaa, että analyysin rivit ja sarakkeet ovat riippumattomia toisistaan.  
 
-Ohjelma yhdistää raportin tuloksen **Analyysiraportti**-ikkunassa määrittämiesi rivien ja sarakkeiden perusteella käyttämällä esimerkiksi seuraavanlaista matriisia:  
+Ohjelma yhdistää raportin tuloksen **Analyysiraportti**-sivulla määrittämiesi rivien ja sarakkeiden perusteella käyttämällä esimerkiksi seuraavanlaista matriisia:  
 
 | |Kuluvan kuukauden myynti|Edellisen kuukauden myynti|Edellisen kuukauden myynti (%)|  
 |-|-|-|-|  
@@ -64,10 +64,10 @@ Malli sisältää joukon rivejä, joista jokainen vastaa analyysiraportissa näk
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myynnin sarakemallit** ja valitse sitten liittyvä linkki.  
 2. Valitse ensimmäinen tyhjä rivi ja täytä tarvittavat kentät.
 3. Valitse **Sarakkeet**-toiminto.  
-4. Valitse Sarakkeet ja määritä analyysiraporttiin sisällytettävät sarakkeet täyttämällä **Analysointisarakkeet**-ikkunan kentät.  
+4. Määritä analyysiraporttiin sisällytettävät sarakkeet täyttämällä **Analysointisarakkeet**-sivun kentät.  
 
     > [!NOTE]  
-    >   Kun määrität sarakkeen, täytä **Analyysin tyyppikoodi** -kenttä (kaikkien saraketyyppien osalta lukuun ottamatta tyyppiä **Kaava**). Määritä analyysin tyyppikoodi **Analyysityypit**-ikkunassa.  
+    >   Kun määrität sarakkeen, täytä **Analyysin tyyppikoodi** -kenttä (kaikkien saraketyyppien osalta lukuun ottamatta tyyppiä **Kaava**). Määritä analyysin tyyppikoodi **Analyysityypit**-sivulla.  
     Jos lisäksi valitset **Tapahtumakirjauksen tyyppi** -kentässä **Nimiketapahtumat**, ohjelma kopioi todelliset luvut nimiketapahtumasta. Jos valitset **Nimikkeiden budjettitapahtumat**, ohjelma kopioi budjetoidut luvut budjetista.  
 5.  Tallenna muutokset valitsemalla **OK**-painike.  
 
@@ -81,7 +81,7 @@ Malli sisältää joukon rivejä, jotka vastaavat analyysiraportissa näkyviä r
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myynnin rivimallit** ja valitse sitten liittyvä linkki.  
 2. Valitse ensimmäinen tyhjä rivi ja täytä tarvittavat kentät.
 3. Valitse **Rivit**-toiminto.  
-4. Valitse Rivit ja luo **Analyysin rivit** -ikkunassa rivejä niitä nimikkeitä, asiakkaita, toimittajia tai myyjiä varten, joiden luvut haluat näyttää analyysiraportissa. Täytä **Tyyppi**-, **Alue**- ja **Kuvaus**-kenttä.  
+4. Luo **Analyysin rivit** -sivulla rivejä niitä nimikkeitä, asiakkaita, toimittajia tai myyjiä varten, joiden luvut haluat näyttää analyysiraportissa. Täytä **Tyyppi**-, **Alue**- ja **Kuvaus**-kenttä.  
 
 > [!NOTE]  
 >   Voit myös luoda useita yksittäisiä rivejä jokaista nimikettä, asiakasta ja niin edelleen kohti. Valitse Toiminnot ja sitten haluamasi lisäysvaihtoehto, jolloin ohjelma täyttää rivin kaikki asiaankuuluvat kentät. Sen jälkeen voit tarvittaessa muokata rivejä manuaalisesti. Voit halutessasi muokata rivejä manuaalisesti. Voit lisätä rivejä valitsemalla **Lisää nimikkeet** tai **Lisää nimikeryhmät** -toiminnon.  
@@ -92,13 +92,13 @@ Seuraava toimenpide perustuu myynnin analyysiraportteihin. Vaiheet ovat samanlai
 Analyysiraporttien avulla voit analysoida myynnin dynamiikkaa tunnuslukujen mukaan, jotka valitset, esimerkiksi liikevaihto, sekä summat että määrät, katetuotto tai todellisen myynnin edistyminen budjettiin verraten. Raportin avulla voit myös analysoida keskimääräisiä myyntihintojasi ja arvioida myyntihenkilöstösi myyntituloksia.  
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myynnin analyysiraportit** ja valitse sitten liittyvä linkki.  
-2. Valitse **Analyysiraportti - Myynti** -ikkunassa **Uusi**-toiminto.
+2. Valitse **Analyysiraportti - Myynti** -sivulla **Uusi**-toiminto.
 3. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Valitse **Muokkaa analyysiraporttia** -toiminto.
-5. Valitse **Myynnin analyysiraportti** -ikkunassa **Näytä matriisi** -toiminto.  
+5. Valitse **Myynnin analyysiraportti** -sivulla **Näytä matriisi** -toiminto.  
 
 > [!NOTE]  
->   Rivi- ja sarakemallien yhdistelmien muodostaminen raporttien luontia varten sekä yksilöivien nimien määrittäminen niille on vapaavalintaista. Jos teet näin, sinun ei tarvitse valita rivi- ja sarakemalleja **Myynnin analyysiraportti** -ikkunassa, jos valitset raportin nimen. Kun raportin nimi on valittu, voidaan rivi- ja sarakemalleja muuttaa itsenäisesti. Alkuperäinen yhdistelmä voidaan sitten myöhemmin palauttaa valitsemalla raportin nimi uudelleen.
+>   Rivi- ja sarakemallien yhdistelmien muodostaminen raporttien luontia varten sekä yksilöivien nimien määrittäminen niille on vapaavalintaista. Jos teet näin, sinun ei tarvitse valita rivi- ja sarakemalleja **Myynnin analyysiraportti** -sivulla jos valitset raportin nimen. Kun raportin nimi on valittu, voidaan rivi- ja sarakemalleja muuttaa itsenäisesti. Alkuperäinen yhdistelmä voidaan sitten myöhemmin palauttaa valitsemalla raportin nimi uudelleen.
 
 ## <a name="see-also"></a>Katso myös
 [Business Intelligence](bi.md)  

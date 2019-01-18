@@ -12,10 +12,10 @@ ms.search.keywords: machinery, buildings
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: fac857ae94152104ea6640782a5f315424b739e7
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3e610461a78ec2a4cebb60350236e17fe3d7e9cf
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="setting-up-fixed-assets"></a>Käyttöomaisuuden määrittäminen
@@ -27,9 +27,9 @@ Ennen käyttöomaisuuserien käsittelyä on määritettäviä muutamia toimintoj
 Seuraavassa taulukossa on linkkejä lisätietoihin. Kun olet määrittänyt nämä toiminnot, voit aloittaa erilaisten aktiviteettien käytön. Lisätietoja on kohdassa [Käyttöomaisuus](fa-manage.md).  
 
 > [!NOTE]  
->   Voit tallentaa käyttöomaisuustapahtumat **Käyttöomaisuuden KP-päiväkirja**- tai **Käyttöomaisuuspäiväkirja**-ikkunaan sen mukaan, koskevatko tapahtumat talousraportointia vai sisäistä hallintaa. Käyttöomaisuuden ohje sisältää tietoja vain **Käyttöomaisuuden KP-päiväkirja** -ikkunan käyttämisestä.  
+>   Voit tallentaa käyttöomaisuustapahtumat **Käyttöomaisuuden KP-päiväkirja**- tai **Käyttöomaisuuspäiväkirja**-sivulla sen mukaan, koskevatko tapahtumat talousraportointia vai sisäistä hallintaa. Käyttöomaisuuden ohje sisältää tietoja vain **Käyttöomaisuuden KP-päiväkirja** -sivun käyttämisestä.  
 
-Kun otat käyttöomaisuusaktiviteetin käyttöön **Poistokirjakortti**-ikkunan **KP-integrointi**-osassa, **Käyttöomaisuuden KP-päiväkirja** -ikkunaa käytetään kyseisen aktiviteetin tapahtumien kirjaamisessa.
+Kun otat käyttöomaisuusaktiviteetin käyttöön **Poistokirjakortti**-sivun **KP-integrointi**-osassa, **Käyttöomaisuuden KP-päiväkirja** -sivua käytetään kyseisen aktiviteetin tapahtumien kirjaamisessa.
 
 Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisiin.  
 

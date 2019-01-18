@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ac7b80c3ada7a5dd27fc74d3d8be5e38f1552725
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 7b753f291ebc4fefee523430e1b10d091e86cd0e
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="move-items-ad-hoc-in-basic-warehouse-configurations"></a>Nimikkeiden suunnittelematon siirtäminen fyysisen varastoinnin perusmäärityksissä
@@ -22,11 +22,11 @@ Voit joskus joutua siirtämään nimikkeitä sisäisissä varastopaikoissa ilman
 
 Fyysisen varaston perusmäärityksissä eli sijainneissa, joissa käytetään **Var.paikka pakollinen** -asetuskenttiä ja mahdollisesti **Vaadi poiminta**- ja **Vaadi hyllytys** -asetuskenttiä, voi rekisteröidä ad hoc -varastosiirrot ilman lähdeasiakirjoja seuraavilla tavoilla:  
 
-- **Sisäinen liikkuvuus** -ikkunan avulla.  
-- **Nimikkeen uudellenluokituspvk** -ikkunan avulla  
+- **Sisäinen siirto** -sivulla.  
+- **Nimikkeen uudellenluokituspvk** -sivulla.  
 
 > [!NOTE]  
->  Fyysisen varaston laajennetuissa määrityksissä eli sijainneissa, joissa **Ohjattu hyllytys ja poiminta** -asetuskenttä on käytössä, nimikkeet siirretään varastopaikasta toiseen ad hoc **Var.siirtotyökirja**-, **Sisäinen f. var. poiminta**- tai **Sisäinen f.var. hyllytys** -ikkunan avulla.  
+>  Fyysisen varaston laajennetuissa määrityksissä eli sijainneissa, joissa **Ohjattu hyllytys ja poiminta** -asetuskenttä on käytössä, nimikkeet siirretään varastopaikasta toiseen ad hoc **Var.siirtotyökirja**-, **Sisäinen f. var. poiminta**- tai **Sisäinen f.var. hyllytys** -sivujen avulla.  
 
 ## <a name="to-move-items-as-an-internal-movement"></a>Siirrä kohteita sisäisenä siirtona  
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sisäinen siirto** ja valitse sitten liittyvä linkki.  
@@ -36,7 +36,7 @@ Fyysisen varaston perusmäärityksissä eli sijainneissa, joissa käytetään **
     Jos sijainti on määritetty oletussijainniksi fyysisen varaston työntekijälle, sijaintikoodi lisätään automaattisesti.  
 4.  Anna **Varastopaikkakoodiin**-kentässä sen varastopaikan koodi, johon haluat siirtää nimikkeen. Tämä voi olla esimerkiksi tuotantotarkoituksissa sijainnin kortissa tai tuotantosolussa määritetty avoin tuotannon varastopaikka.  
 5.  Anna **Eräpäivä**-kentässä päivämäärä, jona varaston siirron on oltava valmis.  
-6.  Valitse **Rivit**-pikavälilehdessä **Nimikenro**, jolloin **Var.paikkojen sisältöluettelo** -ikkuna avautuu, ja valitse sitten siirrettävä nimike sen saatavuuden perusteella varastopaikoissa. Voit myös valita **Hae var.paikan sisältö** -toiminnon, jos haluat täyttää sisäiset siirtorivit suodattimien perusteella. Lisätietoja on **Hae var.paikan sisältö** toiminnon työkaluvihjeessä.   
+6.  Valitse **Rivit**-pikavälilehdessä **Nimikenro**, jolloin **Var.paikkojen sisältöluettelo** -sivu avautuu, ja valitse sitten siirrettävä nimike sen saatavuuden perusteella varastopaikoissa. Voit myös valita **Hae var.paikan sisältö** -toiminnon, jos haluat täyttää sisäiset siirtorivit suodattimien perusteella. Lisätietoja on **Hae var.paikan sisältö** toiminnon työkaluvihjeessä.   
 
     Kun olet valinnut kohteen, **Varastopaikkakoodista** -kenttä täytetään automaattisesti valitun varastopaikan sisällön perusteella, mutta voit muuttaa sen toiseen varastopaikkaan, jossa nimike on saatavilla.  
 
@@ -54,7 +54,7 @@ Fyysisen varaston perusmäärityksissä eli sijainneissa, joissa käytetään **
     > [!NOTE]  
     >  Kun olet luonut varastosiirron, sisiäisen siirron rivit poistetaano.  
 
-    Suorita muut ad hoc -siirrot **Varastosiirto** -ikkunassa samalla tavalla kuin mitä tekisit liikkeelle, joka perustuu lähdeasiakirjoihin. Lisätietoja on esimerkiksi kohdassa [Komponenttien siirtäminen toiminta-alueelle fyysisen varaston perusmäärityksissä](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)  
+    Suorita muut ad hoc -siirrot **Varastosiirto**-sivulla samalla tavalla kuin mitä tekisit liikkeelle, joka perustuu lähdeasiakirjoihin. Lisätietoja on esimerkiksi kohdassa [Komponenttien siirtäminen toiminta-alueelle fyysisen varaston perusmäärityksissä](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)  
 
 ## <a name="to-move-items-with-the-item-reclassification-journal"></a>Siirrä nimikkeet nimikkeiden uudelleenluokituspäiväkirjan kanssa
 Fyysisen varastoinnin siirtoasiakirjojen käytön sijaan voit kirjata nimikkeiden siirron luokittelemalla niiden varastopaikkakoodit uudelleen. Lisätietoja on kohdassa [Varaston laskeminen, muuttaminen ja uudelleenluokitus](inventory-how-count-adjust-reclassify.md).   

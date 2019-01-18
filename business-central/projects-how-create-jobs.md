@@ -13,10 +13,10 @@ ms.search.keywords: project management, task
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8c7af2db512927f575f62d40265ea2def6b7dc2c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5db9709500ce20bc09e2dc651ae6b7aa763c0e5f
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-jobs"></a>Projektien luominen
@@ -42,7 +42,7 @@ Luo projektikortti ja luo sitten projektikortille työtehtävä ja projektin suu
 >   Jos projektissa käytetään aikaraportteja, myös vastuussa oleva henkilö on määritettävä. Tämä henkilö voi hyväksyä työhön liittyvien työntekijätehtävien tuntilomakkeet. Lisätietoja on kohdassa [Aikaraporttien määrittäminen](projects-how-setup-time-sheets.md).
 
 ## <a name="to-create-tasks-for-a-job"></a>Luo projektille tehtäviä
-Projektin luomisen keskeinen osa on määrittää siihen liittyvät tehtävät. Se tehdään lisäämällä **Projektikortti**-ikkunan **Tehtävät**-pikavälilehteen yksi tehtävä riville. Jokaisella projektilla on oltava vähintään yksi tehtävä.
+Projektin luomisen keskeinen osa on määrittää siihen liittyvät tehtävät. Se tehdään lisäämällä **Projektikortti**-sivun **Tehtävät**-pikavälilehteen yksi tehtävä riville. Jokaisella projektilla on oltava vähintään yksi tehtävä.
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektit** ja valitse sitten liittyvä linkki.
 2. Avaa asianmukaisen projektin projektikortti.
@@ -67,7 +67,7 @@ Projektin suunnittelurivin tyyppi voi olla jokin seuraavista tyypeistä.
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektit** ja valitse sitten liittyvä linkki.
 2. Avaa sopiva projektikortti.
 3. Valitse projektitehtävä, jonka **Projektitehtävätyyppi**-kentän arvo on **Kirjaus**. Valitse sitten **Projektin suunnittelurivit** -toiminto.  
-4. Täytä **Projektin suunnittelurivit** -ikkunan uuden rivin tarvittavat kentät.
+4. Täytä **Projektin suunnittelurivit** -sivun uuden rivin tarvittavat kentät.
 5. Toista vaiheet 3 ja 4 kaikille projektitehtävässä tarvittaville suunnitteluriveille.
 
 ## <a name="see-also"></a>Katso myös

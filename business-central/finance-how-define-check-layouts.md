@@ -13,10 +13,10 @@ ms.search.keywords: print check, customize
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d8546cd2f713416e50474848e783d61b4b1dc810
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 743cf7ecbed4157dc9283a97baa956e69ec0c6b5
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="define-check-layouts"></a>Sekkien asetteluiden määrittäminen
@@ -26,7 +26,7 @@ Sekit suunnitellaan tulostettavaksi sekä Yhdysvaltojen että Kanadan sekkikuvam
 
 ## <a name="to-define-check-layouts"></a>Sekkien asetteluiden määrittäminen
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Raporttivalintojen pankkitili** ja valitse sitten liittyvä linkki.
-2. Valitse **Raporttivalinta - Pankkitili** -ikkunan **Käyttö**-kentässä **Sekki**.
+2. Valitse **Raporttivalinta - Pankkitili** -sivun **Käyttö**-kentässä **Sekki**.
 3. Valitse jompikumpi seuraavista raportin tunnuksista:
 
 | Raportin tunnus | Raportin nimi | Kuvaus |
@@ -35,7 +35,7 @@ Sekit suunnitellaan tulostettavaksi sekä Yhdysvaltojen että Kanadan sekkikuvam
 | 10401 |Sekki (talonki/talonki/sekki) |Tämä raportti on suunniteltu tulostamaan sekit muodossa talonki/talonki/sekki. |
 | 10411 |Sekki (talonki/sekki/talonki) |Tämä raportti on suunniteltu tulostamaan sekit muodossa sekki/talonki/sekki. |
 
-Kun olet määrittänyt sekkien asettelut, voit tulostaa sekit **Maksupäiväkirja**-ikkunassa. Lisätietoja on kohdassa [Sekkien käyttäminen](payables-how-work-checks.md).
+Kun olet määrittänyt sekkien asettelut, voit tulostaa sekit **Maksupäiväkirja**-sivulla. Lisätietoja on kohdassa [Sekkien käyttäminen](payables-how-work-checks.md).
 
 ## <a name="see-also"></a>Katso myös
 [Ostovelkojen hallinta](payables-manage-payables.md)  

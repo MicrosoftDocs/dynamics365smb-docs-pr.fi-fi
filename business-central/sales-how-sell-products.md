@@ -11,10 +11,10 @@ ms.search.keywords: trade
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 1cd0b5b48993820cc37b53ce6202bb02e4cf0f1b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 615002593edbb459b448ba75f98601e37cf59792
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="sell-products"></a>Tuotteiden myyminen
@@ -45,17 +45,17 @@ Voit täyttää myyntitilauksen asiakkaan kentät kahdella tavalla sen mukaan, o
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten liittyvä linkki.
 2. Syötä **Asiakas**-kenttään nykyisen asiakkaan nimi.
 
-    Muut **Myyntitilaus**-ikkunan kentät täytetään nyt valitun asiakkaan vakiotiedoilla. Jos asiakasta ei ole rekisteröity, toimi seuraavasti:
+    Muut **Myyntitilaus**-sivun kentät täytetään nyt valitun asiakkaan vakiotiedoilla. Jos asiakasta ei ole rekisteröity, toimi seuraavasti:
 3. Syötä **Asiakas**-kenttään uuden asiakkaan nimi.
 4. Valitse uuden asiakkaan rekisteröimisen valintaikkunassa **Kyllä**-painike.
-5. Valitse **Valitse uuden asiakkaan malli** -ikkunassa malli uuden asiakkaan kortin perusteella ja valitse sitten **OK**-painike.
+5. Valitse **Valitse uuden asiakkaan malli** -sivulla malli uuden asiakkaan kortin perusteella ja valitse sitten **OK**-painike.
 
     Uuden asiakkaan kortti avautuu esitäytettynä valitun asiakasmallin tiedoilla. **Nimi**-kenttään esitäytetään myyntitilaukseen syöttämäsi uuden asiakkaan nimi.
 6. Jatka täyttämällä asiakkaan kortin jäljellä olevat kentät. Lisätietoja on kohdassa [Uusien asiakkaiden rekisteröinti](sales-how-register-new-customers.md).  
-7. Kun olet määrittänyt asiakaskortin, valitse **OK**-painike palataksesi **Myyntitilaus**-ikkunaan.
+7. Kun olet määrittänyt asiakaskortin, valitse **OK**-painike palataksesi **Myyntitilaus**-sivulle.
 
     Myyntitilauksen useat kentät täytetään nyt tiedoilla, jotka olet määrittänyt uuden asiakkaan kortissa.
-8. Täytä tarvittaessa jäljellä olevat kentät **Myyntitilaus**-ikkunassa. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+8. Täytä tarvittaessa jäljellä olevat kentät **Myyntitilaus**-sivulla. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
     > Jos asiakas maksaa heti, esimerkiksi luottokortilla tai PayPal-maksuna, täytä **Maksutavan koodi** -kenttä. Maksu kirjataan sitten heti, kun kirjaat myyntitilauksen laskutettuna. Jos valitset käteismaksun, maksu kirjataan määritetylle vastatilille.
@@ -80,10 +80,10 @@ Voit täyttää myyntitilauksen asiakkaan kentät kahdella tavalla sen mukaan, o
 
     Rivien kokonaissummat lasketaan automaattisesti samalla, kun rivejä luodaan ja muokataan.
 14. Uuden asiakkaan kortissa näkyy valitun asiakasmallin tiedot. Täytä jäljellä olevat kentät. Lisätietoja on kohdassa [Uusien asiakkaiden rekisteröinti](sales-how-register-new-customers.md).  
-15. Kun olet määrittänyt asiakaskortin, palaa **Myyntitilaus**-ikkunaan valitsemalla **OK**.
+15. Kun olet määrittänyt asiakaskortin, valitse **OK**-painike palataksesi **Myyntitilaus**-sivulle.
 
     Myyntitilauksen useat kentät täytetään nyt tiedoilla, jotka olet määrittänyt uuden asiakkaan kortissa.
-16. Täytä tarvittaessa jäljellä olevat kentät **Myyntitilaus**-ikkunassa. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+16. Täytä tarvittaessa jäljellä olevat kentät **Myyntitilaus**-sivulla. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     Voit nyt täyttää asiakkaille myytävien tuotteiden tai KP-tilille kirjattavan asiakastapahtuman myyntitilauksen rivit.   
 

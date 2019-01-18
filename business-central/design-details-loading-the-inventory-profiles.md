@@ -14,10 +14,10 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fa9f014519994ccd69200d8a015efb77bfbcb4fc
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 10d41fd87408a4dfe8d1b5de368c1a32a45e489b
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-loading-the-inventory-profiles"></a>Rakennetiedot: varastoprofiilien lataaminen
@@ -45,7 +45,7 @@ Voit lajitella useita kysynnän ja tarjonnan lähteitä, kun suunnittelujärjest
  Suunnittelujärjestelmä hallinnoi tätä ajamalla läpi varaston profiilin. Kun uusi yhdistelmä löytyy, ohjelma luo todellisen yhdistelmän tiedot sisältävän sisäisen ohjaustietueen. Ohjelma liittää SKU:n kontrollitietueena ja ulkoisena lenkkinä. Tämän vuoksi asetetaan asianmukaiset parametrit variantin ja sijainnin mukaan ja ohjelma voi jatkaa sisempään silmukkaan.  
 
 > [!NOTE]  
->  Ohjelma ei vaadi käyttäjää kirjamaan SKU-tietuetta, kun tämä syöttää kysynnän ja/tai tarjonnan tietylle variantin ja sijainnin yhdistelmälle. Jos annetulla yhdistelmällä ei ole varastointiyksikköä, ohjelma luo oman väliaikaisen varastointiyksikön tietueen nimikekortin tietojen perusteella. Jos Sijainti pakollinen -asetuksen arvo on Kyllä Varastonhallinnan asetukset -ikkunassa, tällöin on luotava varastointiyksikkö tai Komponentit sijainnissa -asetuksen arvoksi on muutettava Kyllä. Katso lisätiedot kohdasta [Rakennetiedot: kysyntä tyhjä-sijainnissa](design-details-demand-at-blank-location.md).  
+>  Ohjelma ei vaadi käyttäjää kirjamaan SKU-tietuetta, kun tämä syöttää kysynnän ja/tai tarjonnan tietylle variantin ja sijainnin yhdistelmälle. Jos annetulla yhdistelmällä ei ole varastointiyksikköä, ohjelma luo oman väliaikaisen varastointiyksikön tietueen nimikekortin tietojen perusteella. Jos Sijainti pakollinen -asetuksen arvo on Kyllä Varastonhallinnan asetukset -sivulla, tällöin on luotava varastointiyksikkö tai Komponentit sijainnissa -asetuksen arvoksi on muutettava Kyllä. Katso lisätiedot kohdasta [Rakennetiedot: kysyntä tyhjä-sijainnissa](design-details-demand-at-blank-location.md).  
 
 ## <a name="seriallot-numbers-are-loaded-by-specification-level"></a>Erittelytaso lataa sarja-/eränumerot  
  Määritteet sarja-/eränumeroiden lomakkeella ladataan varastoprofiileihin yhdessä niihin kohdistetun kysynnän ja tarjonnan kanssa.  

@@ -13,18 +13,18 @@ ms.search.keywords: marketing, campaign, promo, prospect, contact, client, custo
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fd6ff4b937b059980bf7fb6a41f000edc1ab1fcf
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ba4ed0971711a1f7a827ec4ea4e42f2013a51cfd
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="add-contacts-to-segments"></a>Kontaktien lisääminen segmentteihin
-Kun olet luonut segmentin ja syöttänyt sen perustiedot, haluat ehkä lisätä segmenttiin kontakteja. Voit tehdä tämän täyttämällä rivit **Segmentti**-ikkunassa manuaalisesti, mutta nopeampi ja helpompi tapa on käyttää **Lisää kontakteja**-toimintoa.
+Kun olet luonut segmentin ja syöttänyt sen perustiedot, haluat ehkä lisätä segmenttiin kontakteja. Voit tehdä tämän täyttämällä rivit **Segmentti**-sivulla manuaalisesti, mutta nopeampi ja helpompi tapa on käyttää **Lisää kontakteja**-toimintoa.
 
 ## <a name="to-add-a-contact-to-a-segment"></a>Kontaktin lisääminen segmenttiin:
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Segmentit** ja valitse sitten liittyvä linkki.  
-2. Valitse segmentti ja valitse sitten **Lisää kontakteja** -toiminto. **Lisää kontakteja** -eräajo-ikkuna avautuu.
+2. Valitse segmentti ja valitse sitten **Lisää kontakteja** -toiminto. **Lisää kontakteja** -eräajosivu avautuu.
 3. Määritä **Kontakti**-osassa suodattimet, joiden tietojen mukaan kontaktit valitaan.
 
 Anna lisää suodattimia jäljellä olevissa osissa ja valitse sitten **OK**-painike.
@@ -32,10 +32,10 @@ Anna lisää suodattimia jäljellä olevissa osissa ja valitse sitten **OK**-pai
 Jos olet lisännyt kontakteja vahingossa ja haluat siirtyä edelliseen vaiheeseen, valitse **Takaisin**-toiminto.
 
 ## <a name="to-refine-the-number-of-contacts"></a>Kontaktien lukumäärän määrittäminen uudelleen
-Kun olet valinnut yhteen segmenttiin tulevat kontaktit, haluat ehkä poistaa joitakin niistä. Voit tehdä sen manuaalisesti poistamalla kontaktit riveiltä **Segmentti**-ikkunassa. Helpompi ja nopeampi tapa on käyttää **Tarkenna kontakteja** -toimintoa.
+Kun olet valinnut yhteen segmenttiin tulevat kontaktit, haluat ehkä poistaa joitakin niistä. Voit tehdä sen manuaalisesti poistamalla kontaktit riveiltä **Segmentti**-sivulla. Helpompi ja nopeampi tapa on käyttää **Tarkenna kontakteja** -toimintoa.
 
 1. Avaa segmentti.
-2. Valitse **Kontaktit** ja valitse sitten **Tarkenna kontakteja** -toiminto. Näyttöön avautuu **Poista kontaktit - Määritä uud.** -ikkuna.
+2. Valitse **Kontaktit** ja valitse sitten **Tarkenna kontakteja** -toiminto. Näyttöön avautuu **Poista kontaktit - Määritä uud.** -sivu.
 3. Syötä **Kontakti**-osassa suodattimet, joiden avulla segmentistä poistettavien kontaktien valinnassa käytettävät tiedot määritetään.
 4. Lisätä suodattimia tarvittaessa ja valitse sitten **OK**-painike.
 
@@ -44,10 +44,10 @@ Voit tarkentaa segmenttiä niin monta kertaa kuin haluat. Valitse **Takaisin**-t
 Saat näkyviin luettelon käyttämistäsi segmentointikriteereistä valitsemalla **Yleistä**-osan **Kriteeritoimenpiteiden lkm** -kenttä.
 
 ## <a name="to-reduce-the-number-of-contacts"></a>Kontaktien lukumäärän vähentäminen
-Kun olet valinnut yhteen segmenttiin tulevat kontaktit, haluat ehkä poistaa joitakin niistä. Voit tehdä tämän poistamalla manuaalisesti Segmentti -ikkunan riveillä, mutta on nopeampi ja helpompi käyttää Vähennä kontakteja -funktiota määrittämään, mitkä kontaktit poistetaan, ja käyttää Tarkenna kontakteja -funktiota määrittämän, mitkä kontaktit säilytetään.
+Kun olet valinnut yhteen segmenttiin tulevat kontaktit, haluat ehkä poistaa joitakin niistä. Voit tehdä tämän poistamalla manuaalisesti Segmentti -sivun riveillä, mutta on nopeampi ja helpompi käyttää Vähennä kontakteja -funktiota määrittämään, mitkä kontaktit poistetaan, ja käyttää Tarkenna kontakteja -funktiota määrittämän, mitkä kontaktit säilytetään.
 
 1. Avaa segmentti.
-2. Valitse ensin Kontaktit ja sitten **Vähennä kontakteja** -toiminto. Näyttöön tulee **Poista kontaktit - Vähennä** -ikkuna.
+2. Valitse ensin Kontaktit ja sitten **Vähennä kontakteja** -toiminto. Näyttöön avautuu **Poista kontaktit - Vähennä** -sivu.
 3. Syötä **Kontakti**-osassa suodattimet, joiden avulla segmentistä poistettavien kontaktien valinnassa käytettävät tiedot määritetään.
 4. Lisätä suodattimia tarvittaessa ja valitse sitten **OK**-painike.
 

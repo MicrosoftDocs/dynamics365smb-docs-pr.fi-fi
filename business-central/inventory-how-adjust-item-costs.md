@@ -13,10 +13,10 @@ ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory 
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 9c2bdec641a78a13d75ed8d1b3379a74f7af353a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: bb320750002681d11bb3ec4aa196a55884b73da7
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="adjust-item-costs"></a>Nimikekustannusten muuttaminen
@@ -34,11 +34,11 @@ Jos käytössä on FIFO-arvostusmenetelmä, nimikkeen yksikkökustannus on nimik
 
 Jos käytät Keskiarvo-arvostusmenetelmää, nimikkeen yksikkökustannus lasketaan kussakin vaiheessa keskimääräisenä yksikkökustannuksena oston jälkeen. Varastonarvostus olettaa, että kaikki vaihto-omaisuus myydään samanaikaisesti. Jos nimike käyttää tätä arvostusmenetelmää, voit tarkastella sitä tapahtumahistoriaa, josta keskimääräinen kustannus lasketaan, valitsemalla nimikkeen kortissa **Yksikkökustannus**-kentän.
 
-Kustannusten muuttamistoiminto käsittelee vain arvotapahtumia, joita ei ole vielä muutettu. Jos toiminto kohtaa tilanteen, jossa muutetut saapuvat kustannukset on siirrettävä niihin liittyviin lähteviin tapahtumiin, luodaan uusia muutosarvotapahtumia, jotka perustuvat alkuperäisten arvotapahtumien tietoihin, mutta sisältävät muutossumman. Kustannusten muuttamistoiminto käyttää muutostapahtumassa alkuperäisen arvotapahtuman kirjauspäivämäärää, ellei päivämäärä ole suljetulla varastokaudella. Siinä tapauksessa ohjelma käyttää seuraavan avoimen varastokauden aloituspäivämäärää. Jos varastokausia ei käytetä, **Pääkirjanpidon asetukset** -ikkunan **Ensimm. sallittu kirjauspvm** -kentässä oleva päivämäärä määrittää, milloin muutostapahtuma kirjataan.
+Kustannusten muuttamistoiminto käsittelee vain arvotapahtumia, joita ei ole vielä muutettu. Jos toiminto kohtaa tilanteen, jossa muutetut saapuvat kustannukset on siirrettävä niihin liittyviin lähteviin tapahtumiin, luodaan uusia muutosarvotapahtumia, jotka perustuvat alkuperäisten arvotapahtumien tietoihin, mutta sisältävät muutossumman. Kustannusten muuttamistoiminto käyttää muutostapahtumassa alkuperäisen arvotapahtuman kirjauspäivämäärää, ellei päivämäärä ole suljetulla varastokaudella. Siinä tapauksessa ohjelma käyttää seuraavan avoimen varastokauden aloituspäivämäärää. Jos varastokausia ei käytetä, **Pääkirjanpidon asetukset** -sivun **Ensimm. sallittu kirjauspvm** -kentässä oleva päivämäärä määrittää, milloin muutostapahtuma kirjataan.
 
 ## <a name="to-adjust-item-costs-manually"></a>Nimikekustannusten muokkaaminen manuaalisesti
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Muuta kustannuksia - Nimiketapahtumat** ja valitse sitten liittyvä linkki.
-2. Määritä **Muuta kustannuksia - Nimiketapahtumat** -ikkunassa nimikkeet, joiden kustannuksia muutetaan.
+2. Määritä **Muuta kustannuksia - Nimiketapahtumat** -sivulla nimikkeet, joiden kustannuksia muutetaan.
 3. Valitse **OK**-painike.
 
 ## <a name="to-make-general-changes-in-the-direct-unit-cost"></a>Yleisten muutosten tekeminen välittömään yksikkökustannukseen

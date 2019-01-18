@@ -12,10 +12,10 @@ ms.search.keywords: consolidation, subsidiaries, consolidate
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 035eb85050ec6feb9e65ee924ebf4dbd2064e5ba
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4208616e0d4d865a2cc113cd888abde8285dc202
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -83,8 +83,8 @@ Seuraavassa taulukossa käsitellään tileillä käytettäviä vaihtokurssimenet
 Liiketoimintayksiköiden vaihtokurssit määritetään seuraavasti:
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Liiketoimintayksiköt** ja valitse sitten liittyvä linkki.  
-2. Valitse ensin **Liiketoimintayksiköiden luettelo** -ikkunassa liiketoimintayksikkö ja sitten **Keskikurssi (manuaalinen)** -toiminto.   
-3. Näkyviin tulevan **Muuta vaihtokurssi** -ikkunan **Suhteellinen vaihtokurssi** -kentän sisältö on kopioitu **Valuutan vaihtokurssi** -taulukosta. Sisältöön voi kuitenkin tehdä muutoksia. Sulje ikkuna. Sulje sivu.  
+2. Valitse ensin **Liiketoimintayksiköiden luettelo** -sivulla liiketoimintayksikkö ja sitten **Keskikurssi (manuaalinen)** -toiminto.   
+3. **Muuta vaihtokurssi** -sivun **Suhteellinen vaihtokurssi** -kentän sisältö on kopioitu **Valuutan vaihtokurssi** -taulukosta. Sisältöön voi kuitenkin tehdä muutoksia. Sulje sivu.  
 4. Valitse **Loppukurssi**-toiminto.  
 5. Anna vaihtokurssi **Suhteellinen vaihtokurssisumma** -kentässä
 

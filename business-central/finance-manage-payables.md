@@ -16,10 +16,10 @@ ms.date: 10/01/2018
 ms.author: bholtorf
 redirect_url: finance-set-up-cost-accounting
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 1682db5bd62f980e8789613cd2ca4169f98e839d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: abf7e9cf01c8d394a022e384584e32e78c754639
 ms.contentlocale: fi-fi
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="managing-payables"></a>Ostovelkojen hallinta
@@ -36,10 +36,10 @@ Voit kohdistaa maksut sulkemaan laskut maksun kirjaamisen yhteydessä tai kirjaa
 [!INCLUDE[d365fin](includes/d365fin_md.md)] voi ehdottaa eri maksuja toimittajille, kuten maksuja, jotka erääntyvät pian, ja maksuja, joista voi saada alennuksen. Maksuehdotus voi ottaa huomioon summan, jonka määrität saatavilla olevina varoina maksuihin, ja kelpoisuuden maksualennuksiin.
 
 ## <a name="issue-checks"></a>Sekkien myöntäminen
-[!INCLUDE[d365fin](includes/d365fin_md.md)]issa sekit voi myöntää toimittajille manuaalisesti ja sähköisesti. Kumpikin tehdään **Maksupäiväkirjat**-ikkunassa, jossa voit myös mitätöidä sekkejä ja tarkastella sekkitapahtumia.
+[!INCLUDE[d365fin](includes/d365fin_md.md)]issa sekit voi myöntää toimittajille manuaalisesti ja sähköisesti. Kumpikin tehdään **Maksupäiväkirjat**-sivulla, jossa voit myös mitätöidä sekkejä ja tarkastella sekkitapahtumia.
 
 ## <a name="export-payments-to-a-bank-file"></a>Maksujen vienti pankkitiedostoon
-Kun olet valmis maksamaan toimittajille, voit viedä tiedoston päiväkirjan riveiltä **Maksupäiväkirja**-ikkunassa maksutietojen kanssa. Voit sitten ladata tiedoston verkkopankkiin rahansiirtojen käsittelyä varten.
+Kun olet valmis maksamaan toimittajille, voit viedä tiedoston päiväkirjan riveiltä **Maksupäiväkirja**-sivulla maksutietojen kanssa. Voit sitten ladata tiedoston verkkopankkiin rahansiirtojen käsittelyä varten.
 
 Jos et halua kirjata viedyn maksun maksupäiväkirjan riviä, koska odotat esimerkiksi pankin vahvistavan tapahtuman, voit poistaa päiväkirjan rivin. Kun luot myöhemmin maksupäiväkirjan rivin, jolla maksetaan jäljellä oleva laskun summa, **Viety summa yhteensä** -kenttä näyttää, kuinka paljon maksun summasta on jo viety. Saat lisätietoja viedystä kokonaissummasta valitsemalla **Hyvityksen siirron rekisterimerkinnät** -painikkeen.
 

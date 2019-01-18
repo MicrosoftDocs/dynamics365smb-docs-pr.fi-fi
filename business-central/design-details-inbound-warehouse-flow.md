@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fda754e366dab52ee2632fa9e959c8cd717e25b9
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9e7990c907360a1ba7fb445e3eeefeb026315f9e
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Rakennetiedot: saapuvan fyysisen varastoinnin virta
@@ -62,7 +62,7 @@ Kun nimikkeet vastaanotetaan fyysiseen varastointiin, lähdeasiakirjan vapautuks
 Kun saapuva lähdeasiakirja vapautetaan, fyysisen varastoinnin saapuva pyyntö luodaan automaattisesti. Se sisältää viittauksia lähdeasiakirjan tyyppiin ja numeroon, eikä se ei näy käyttäjälle.  
 
 ### <a name="3-create-inventory-put-away"></a>3: Luo varaston hyllytys.  
-Nimikkeiden vastaanottamisesta vastuussa oleva varastotyöntekijä noutaa pull-muodossa **Varastohyllytys**-ikkunassa odottavat lähdeasiakirjarivit, jotka perustuvat saapuviin fyysisen varastoinnin pyyntöihin. Vaihtoehtoisesti, varaston hyllytysrivit on jo luotu push-muodossa sen käyttäjän toimesta, joka on vastuussa lähdeasiakirjasta.  
+Nimikkeiden vastaanottamisesta vastuussa oleva varastotyöntekijä noutaa pull-muodossa **Varastohyllytys**-sivulla odottavat lähdeasiakirjarivit, jotka perustuvat saapuviin fyysisen varastoinnin pyyntöihin. Vaihtoehtoisesti, varaston hyllytysrivit on jo luotu push-muodossa sen käyttäjän toimesta, joka on vastuussa lähdeasiakirjasta.  
 
 ### <a name="4-post-inventory-put-away"></a>4: Kirjaa Var. hyllytys  
 Kaikkien osittain tai kokonaan hyllytettyjen nimikkeiden rivin osalta varastotyöntekijä täyttää **Määrä**-kentän ja kirjaa sitten varastohyllytyksen. Lähdeasiakirjat, jotka liittyvät varastopoistoon, on lähetetty vastaanotettuina.  
@@ -81,7 +81,7 @@ Kun nimikkeet vastaanotetaan fyysiseen varastointiin, lähdeasiakirjan vapautuks
 Kun saapuva lähdeasiakirja vapautetaan, fyysisen varastoinnin saapuva pyyntö luodaan automaattisesti. Se sisältää viittauksia lähdeasiakirjan tyyppiin ja numeroon, eikä se ei näy käyttäjälle.  
 
 ### <a name="3-create-warehouse-receipt"></a>3: Luo f. varastoinnin vastaanotto  
-Nimikkeiden vastaanottamisesta vastuussa oleva käyttäjä noutaa **F. varastoinnin vastaanotto** -ikkunassa odottavat lähdeasiakirjarivit, jotka perustuvat saapuvaan fyysisen varastoinnin pyyntöön. Useita lähdeasiakirjan rivejä voidaan yhdistää yhdessä varaston kuittiasiakirjassa.  
+Nimikkeiden vastaanottamisesta vastuussa oleva käyttäjä noutaa **F. varastoinnin vastaanotto** -sivulla odottavat lähdeasiakirjarivit, jotka perustuvat saapuvaan fyysisen varastoinnin pyyntöön. Useita lähdeasiakirjan rivejä voidaan yhdistää yhdessä varaston kuittiasiakirjassa.  
 
 Käyttäjä täyttää **Käsiteltävä määrä** -kentän ja valitsee tarvittaessa vastaanottavan alueen ja varastopaikan.  
 
@@ -106,7 +106,7 @@ Kun hyllytyksiä suunnitellaan ja ne määritetään varastotyöntekijöille, k�
 Hyllytyksen suorittava varastotyöntekijä luo fyysisen varastoinnin hyllytysasiakirjan kirjatun fyysisen varastoinnin vastaanoton perusteella. Vaihtoehtoisesti fyysisen varastoinnin hyllytysasiakirja luodaan ja kohdistetaan varastotyöntekijään push-menetelmällä.  
 
 ### <a name="9-register-warehouse-put-away"></a>9: Rekisteröi F.var. hyllytysrivit  
-Kaikkien osittain tai kokonaan hyllytettyjen nimikkeiden rivin osalta varastotyöntekijä täyttää **Määrä**-kentän **F.varastoinnin hyllytys** -ikkunassa ja rekisteröi sitten fyysisen varaston hyllytyksen.  
+Kaikkien osittain tai kokonaan hyllytettyjen nimikkeiden rivin osalta varastotyöntekijä täyttää **Määrä**-kentän **F.varastoinnin hyllytys** -sivulla ja rekisteröi sitten fyysisen varaston hyllytyksen.  
 
 Fyysisen varastoinnin tapahtumat luodaan ja fyysisen varastoinnin hyllytysrivit poistetaan, jos ne käsitellään kokonaan. Fyysisen varastoinnin hyllytysasiakirja pysyy avoimena niin kauan, kunnes liittyvän kirjatun fyysisen varastoinnin vastaanoton koko määrä on rekisteröity. **Määrä hyllytetty** -kenttä varastokuitin tilausriveillä on päivitetty.  
 

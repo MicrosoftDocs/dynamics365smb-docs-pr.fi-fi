@@ -11,17 +11,17 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6923414d6e1fb56a48c3715eaa1c2fa3c4ee9f69
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6ced619dc9a43f7db0b4d78bf3de08a6dac27653
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Business Central -sovelluksen käyttäminen yrityssähköpostina Outlookissa
 [!INCLUDE[d365fin](includes/d365fin_md.md)] esittelee mahdollisuuden hallita liiketoiminnallisia vuorovaikutuksia asiakkaiden ja toimittajien kanssa suoraan Microsoft Outlookista. [!INCLUDE[d365fin](includes/d365fin_md.md)]in Outlook-apuohjelmien avulla voit tarkastella asiakkaisiin ja toimittajiin liittyviä taloustietoja sekä luoda ja lähettää talousasiakirjoja, kuten tarjouksia ja laskuja.  
 
 ## <a name="getting-the-add-in"></a>Apuohjelman hakeminen
-[!INCLUDE[d365fin](includes/d365fin_md.md)]issa yksi aloitusasetusten ohjatun määrityksen vaiheista on **Harjoita liiketoimintaa Office 365:ssä** -ikkuna. Kun valitset ikkunassa **Määritä Outlookissa**, sinun on määritettävä Office 365:n käyttäjänimi ja salasana. [!INCLUDE[d365fin](includes/d365fin_md.md)]in apuohjelmat lisätään tämän jälkeen automaattisesti Outlookiin.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]issa yksi aloitusasetusten ohjatun määrityksen vaiheista on **Harjoita liiketoimintaa Office 365:ssä** -sivu. Kun valitset sivulla **Määritä Outlookissa**, sinun on määritettävä Office 365:n käyttäjänimi ja salasana. [!INCLUDE[d365fin](includes/d365fin_md.md)]in apuohjelmat lisätään tämän jälkeen automaattisesti Outlookiin.  
 
 Kun sitten avaat Outlookin, näet Business Central -sovelluksen järjestelmänvalvojan lähettämän sähköpostiviestin. Outlookin valintanauhaan lisätään uusi apuohjelma, ja apuohjelman valintanauha näkyy Outlook Web Access -ohjelmassa heti sähköpostiviestin perustekstin yläpuolella. Apuohjelma päivitetään ajoittain ja saat ilmoituksen, kun uusi versio on valmiina Outlookissa.  
 
@@ -35,7 +35,7 @@ Kun tiedot on syötetty, voit kirjata tarjouksen. Tämän jälkeen voit lähett�
 
 Jos vastaavasti saat sähköpostia toimittajalta, voit käsitellä toimittajia ja ostolaskuja apuohjelman avulla.  
 
-Joskus haluat nähdä enemmän kenttiä kuin lisäohjelmassa on. Näin voi tapahtua esimerkiksi silloin, kun haluat täyttää laskun rivejä. Saat lisää työskentelytilaa, kun avaat apuohjelman erillisessä ikkunassa. Se on yhä osa Outlookia, mutta käytettävissä on enemmän tilaa. Muutokset tallennetaan automaattisesti samalla, kun syötät asiakirjan tietoja ponnahdusikkunaan. Kun asiakirjan tiedot on annettu, voit valita **OK**-painikkeen. Kun apuohjelman kehys valitaan, Outlook päivittää ponnahdusikkunaan tekemäsi muutokset automaattisesti asiakirjaan.  
+Joskus haluat nähdä enemmän kenttiä kuin lisäohjelmassa on. Näin voi tapahtua esimerkiksi silloin, kun haluat täyttää laskun rivejä. Saat lisää työskentelytilaa, kun avaat apuohjelman erillisellä sivulla. Se on yhä osa Outlookia, mutta käytettävissä on enemmän tilaa. Muutokset tallennetaan automaattisesti samalla, kun syötät asiakirjan tietoja ponnahdusikkunaan. Kun asiakirjan tiedot on annettu, voit valita **OK**-painikkeen. Kun apuohjelman kehys valitaan, Outlook päivittää ponnahdusikkunaan tekemäsi muutokset automaattisesti asiakirjaan.  
 
 ## <a name="creating-invoices-from-your-meeting-appointments"></a>Laskujen luominen kokouksen tapaamisista
 Joissakin yrityksissä kaikki laskutettavat tapaamiset kirjataan Outlookin kalenteriin. Voit luoda [!INCLUDE[d365fin](includes/d365fin_md.md)]issa asiakkaalle laskun suodaan kalenterinimikkeestä: Avaa ensin tapaaminen ja sitten [!INCLUDE[d365fin](includes/d365fin_md.md)]in apuohjelma. Etsi aiemmin luodut tiedot tai luo lasku tai muu myyntiasiakirja suoraan sovelluksessa.  
@@ -50,9 +50,9 @@ Voit muokata Asiakirjalinkit-apuohjelmassa asiakirjaa ja suorittaa sille toimint
 ## <a name="adding-the-add-ins-manually"></a>Apuohjelmien lisääminen manuaalisesti
 Joissakin tapauksissa apuohjelmia ei lisätä automaattisesti Outlookiin. Vaikka sinä tai kollegasi suoritti avustetun asennusoppaan yrityksen puolesta, [!INCLUDE[d365fin](includes/d365fin_md.md)] ei ehkä näy Outlookissa. Jos tämä ongelma esiintyy, voit lisätä [!INCLUDE[d365fin](includes/d365fin_md.md)]in apuohjelmat manuaalisesti.  
 
-Tarkista ensin, että voit käyttää apuohjelmia Office 365 -tililläsi. Avaa vain Outlook Web Access selaimessa ja lisää `/owa/#path=/options/manageapps` osoiteriville URL-osoitteena. **Apuohjelmien hallinta** -ikkuna avautuu, ja voit ottaa [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttöön Outlookissa. Kun siirryt takaisin Outlookiin, [!INCLUDE[d365fin](includes/d365fin_md.md)]in pitäisi olla käytettävissä.  
+Tarkista ensin, että voit käyttää apuohjelmia Office 365 -tililläsi. Avaa vain Outlook Web Access selaimessa ja lisää `/owa/#path=/options/manageapps` osoiteriville URL-osoitteena. **Apuohjelmien hallinta** -sivu avautuu, ja voit ottaa [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttöön Outlookissa. Kun siirryt takaisin Outlookiin, [!INCLUDE[d365fin](includes/d365fin_md.md)]in pitäisi olla käytettävissä.  
 
-Voit varmistaa myös Outlookin työpöytäversiossa, että [!INCLUDE[d365fin](includes/d365fin_md.md)] on mainittu **Apuohjelmien hallinta** -ikkunassa.  
+Voit varmistaa myös Outlookin työpöytäversiossa, että [!INCLUDE[d365fin](includes/d365fin_md.md)] on mainittu **Apuohjelmien hallinta** -sivulla.  
 
 Jos [!INCLUDE[d365fin](includes/d365fin_md.md)]ia ei voi edelleenkään käyttää, sinun on haettava kummassakin tapauksessa apuohjelman kokoonpanotiedostot. Pyydä lisätietoja Office 365:n järjestelmänvalvojalta.
 

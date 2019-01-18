@@ -13,10 +13,10 @@ ms.search.keywords: direct shipment
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0fc9fee94f06b2452fa38a0a754f054a0ed16a0d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 68af9892db003a2200bd0ceb9b9fa839952dce36
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="make-drop-shipments"></a>Suoratoimitusten tekeminen
@@ -36,7 +36,7 @@ Myytävän nimikkeen suoratoimitus valmistellaan luomalla ostotilaus normaalisti
 1. Luo ostotilaus. Älä täytä riveillä olevia kenttiä. Lisätietoja on kohdassa [Ostojen kirjaaminen](purchasing-how-record-purchases.md).
 2. Valitse **Tilausasiakkaan nro** -kenttään asiakas, jolle myydään.
 3. Valitse **Suoratoimitukset**-toiminto ja valitse sitten **Hae myyntitilaus** -toiminto.
-4. Valitse **Myyntiluettelo**-ikkunassa myyntitilaus, jota valmisteltiin "Myyntitilauksen luominen suoratoimitusta varten" -osassa.
+4. Valitse **Myyntiluettelo**-sivulla myyntitilaus, jota valmisteltiin "Myyntitilauksen luominen suoratoimitusta varten" -osassa.
 5. Valitse **OK**-painike.
 
 Myyntitilauksen rivin tiedot lisätään ostotilauksen riville/riveille.

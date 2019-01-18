@@ -13,18 +13,18 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 3188b2d711fe983526e5ee87a7a3901b16d6eb35
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4de53621a71569579fa05092dca36d8301098ffe
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a>Suunnitteluehdotusten muokkaaminen graafisessa näkymässä
 Tyypillinen suunnittelun tehtävä on muuttaa tai lisätä suunnittelutyökirjan rivejä ehdotettujen toimitustilausten muokkaamiseksi ennen kuin ne suoritetaan **Toteuta toimenpideviesti** -toiminnolla. Vaihtoehtona suunnittelutyökirjassa on graafinen esitys.
 
-Voit muokata **Nimikkeen saatavuus aikajanalla** -ikkunassa tiettyjä toimitustilauksia ja ehdotuksia muuttamalla määrää vetämällä elementtejä x-akselilla tai muuttamalla eräpäivää vetämällä elementtejä y-akselilla.  
+Voit muokata **Nimikkeen saatavuus aikajanalla** -sivulla tiettyjä toimitustilauksia ja ehdotuksia muuttamalla määrää vetämällä elementtejä x-akselilla tai muuttamalla eräpäivää vetämällä elementtejä y-akselilla.  
 
- **Nimikkeen saatavuus aikajanalla** -ikkunassa ja **Suunnittelutyökirja** -ikkunassa voi tehdä seuraavat muutokset:  
+ **Nimikkeen saatavuus aikajanalla** -sivulla ja **Suunnittelutyökirja**-sivulla voi tehdä seuraavat muutokset:  
 
 -   Muokkaa ehdotettua toimitustilausta, joka on olemassa vain suunnittelurivinä.  
 -   Muokkaa olemassa olevaa toimitustilausta, jonka muuttamista suunnitttelujärjestelmä ehdottaa.  
@@ -32,14 +32,14 @@ Voit muokata **Nimikkeen saatavuus aikajanalla** -ikkunassa tiettyjä toimitusti
 
 Lisätietoja näytettävistä suunnitteluriveistä on **Tapahtumamuutokset**-välilehden Kuvaus-kentässä.  
 
-Kun valitset **Tallenna muutokset** **Nimikkeen saatavuus aikajanalla** -ikkunassa, muutokset, jotka olet tehnyt, kopioidaan suunnittelu- tai hankintalistapöytäkirjaan. Voit nyt toteuttaa muutokset **Toteuta toim.pidviesti - Suun.** -toiminnoissa  
+Kun valitset **Tallenna muutokset** **Nimikkeen saatavuus aikajanalla** -sivulla, muutokset, jotka olet tehnyt, kopioidaan suunnittelu- tai hankintalistapöytäkirjaan. Voit nyt toteuttaa muutokset **Toteuta toim.pidviesti - Suun.** -toiminnoissa  
 
-Seuraavassa ohjeessa neuvotaan, miten tarjontaehdotuksia voi muokata vetämällä ja pudottamalla. Vaihtoehtona, voit muuttaa **Eräpäivä**- ja **Määrä**-kenttiä **Tapahtumamuutokset**-pikavälilehdessä ja nähdä muutokset heti graafisesti **Aikajana**-pikavälilehdellä **Suunnittelutyökirja** -ikkunassa.  
+Seuraavassa ohjeessa neuvotaan, miten tarjontaehdotuksia voi muokata vetämällä ja pudottamalla. Vaihtoehtona, voit muuttaa **Eräpäivä**- ja **Määrä**-kenttiä **Tapahtumamuutokset**-pikavälilehdessä ja nähdä muutokset heti graafisesti **Aikajana**-pikavälilehdellä **Suunnittelutyökirja** -sivulla.  
 
 ## <a name="to-modify-suggested-supply-orders-in-the-graphical-view"></a>Muokkaa ehdotetut toimitustilaukset graafisessa näkymässä  
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeen saatavuus aikajanalla** ja valitse sitten liittyvä linkki.  
 
-    **Nimikkeen saatavuus aikajanalla** -ikkuna näyttää auetessaan nimikkeen numeron, sijainnin ja variantin valitulla suunnittelurivillä, joka on esitäytetty **Asetukset**-pikavälilehden kenttien mukaisesti. **Aikajana**-pikavälilehdessä näkyy graafinen esitys nimikkeen suunnitellusta varastosta, mukaan lukien suunnitteluehdotuksista.  
+    **Nimikkeen saatavuus aikajanalla** -sivu näyttää auetessaan nimikkeen numeron, sijainnin ja variantin valitulla suunnittelurivillä, joka on esitäytetty **Asetukset**-pikavälilehden kenttien mukaisesti. **Aikajana**-pikavälilehdessä näkyy graafinen esitys nimikkeen suunnitellusta varastosta, mukaan lukien suunnitteluehdotuksista.  
 
 2.  Varmista, että  **Sisällytä suunnitteluehdotukset** -kenttä on valittuna.  
 3.  Etsi ehdotettu toimitustilaus, jota haluat muokata. Voit määrittää muokattavia osia vihreän ympyrän ja levykuvakeen avulla. Lisätietoja eri symboleista on kohdassa Symbolit ja kuvakkeet Aikajana-pikavälilehdellä.  
@@ -53,7 +53,7 @@ Seuraavassa ohjeessa neuvotaan, miten tarjontaehdotuksia voi muokata vetämäll�
     |**Automaattinen tarjonnan muuttaminen**|Optimoi uuden toimituksen, jonka olet luonut kaaviossa varmistamalla, että sen tuloksena on nollavarasto ennen seuraava toimitusta.|  
     |**Poista tarjonta**|Poistaa elementin **Aikajana**-pikavälilehdelä ja poistaa suunnittelurivin, kun valitset **Tallenna muutokset**. Kuvake muuttuu levyksi, jossa on punainen risti, kun tarjonta on poistettu.<br /><br /> **HUOMAUTUS:** Voit poistaa vain toimenpideviestin tyypin tarjonnan **Uusi**. Kun olet valinnut **Tallenna muutokset**, sinun on poistettava manuaalisesti kyseinen suunnittelurivi suunnittelun tai hankinnan työkirjasta.|  
 
-7.  Valitse **Lataa uudelleen** -toiminto, jos haluat palauttaa kaikki muutokset, jotka olet tehnyt **Nimikkeen saatavuus aikajanalla** -ikkunan edellisen avaamisen tai **Lataa uudelleen** -valinnan jälkeen.  
+7.  Valitse **Lataa uudelleen** -toiminto, jos haluat palauttaa kaikki muutokset, jotka olet tehnyt **Nimikkeen saatavuus aikajanalla** -sivun edellisen avaamisen tai **Lataa uudelleen** -valinnan jälkeen.  
 8. Kun elementit sijoitetaan haluamallasi tavalla kaavioon, valitse **Tallenna muutokset** kopioidaksesi muokatun määrän ja päivämäärämuutokset suunnittelu- tai hankintariveille, jotka edustavat graafisia elementtejä.  
 
 Toteuttaaksesi tarjonnan tuotantosuunnitelmien muutokset sinun täytyy seurata suunnittelun tai hankintalistan tuloksena olevia toimenpideviestejä. Lisätietoja on ohjeaiheessa Toteuta toim.pidviesti - Suun.

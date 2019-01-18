@@ -14,10 +14,10 @@ ms.date: 11/13/2018
 ms.author: sgroespe
 redirect_url: finance-set-up-cost-accounting
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 7362518cbade8132fb07f49e7b2e9be67c4bce29
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 252ebf514635ada8e07bfb1e950d0cff156d0bfc
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-cost-centers"></a>Kustannuspaikkojen määrittäminen
@@ -27,7 +27,7 @@ Kustannuspaikat ovat osastoja, jotka vastaavat tuloista ja menoista. Kustannuspa
 -   Luo uusi kustannuspaikan kaavio, joka on riippumaton pääkirjanpidosta, tai lisää uusi kustannuspaikka nykyiseen kustannuspaikan kaavioon. Sinun on luotava kukin kustannuspaikka erikseen.  
 
 ## <a name="to-transfer-dimension-values-in-the-general-ledger-to-the-chart-of-cost-centers"></a>Siirrä dimensioarvot pääkirjanpidosta kustannuspaikkakaavioon  
-1.  Määritä dimensio kustannuspaikan dimensioksi **Päivitä kustannuslaskennan dimensiot** -ikkunassa. Vain tämän dimension arvot siirretään.  
+1.  Määritä dimensio kustannuspaikan dimensioksi **Päivitä kustannuslaskennan dimensiot** -sivulla. Vain tämän dimension arvot siirretään.  
 2.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kustannuspaikkakartta** ja valitse sitten liittyvä linkki.  
 3.  Valitse **Toiminnot**-välilehden **Funktiot**-ryhmässä **Nouda kustannuspaikat dimensiosta**, jolloin dimensioarvot siirretään kustannuspaikkakaavioon. Toiminto siirtää kohdassa 1 määritetyt dimensioarvot.  
 
@@ -36,10 +36,10 @@ Kustannuspaikat ovat osastoja, jotka vastaavat tuloista ja menoista. Kustannuspa
 
 Kustannuspaikkakaavio sisältää nyt kaikki pääkirjanpidossa määritetyt dimensioarvot, mukaan lukien otsikot ja välisummat.  
 
-## <a name="to-create-new-cost-centers-in-the-chart-of-cost-centers-window"></a>Uuden kustannuspaikan luominen Kustannuspaikkakartta-ikkunassa  
-Voit määrittää ja ylläpitää kustannuspaikkoja joko **Kustannuspaikan kortti** -kortissa tai **Kustannuspaikkakartta**-ikkunassa. Tässä toimenpiteessä määrität kustannuspaikat **Kustannuspaikkakartta**-ikkunassa.  
+## <a name="to-create-new-cost-centers-in-the-chart-of-cost-centers-page"></a>Uuden kustannuspaikan luominen Kustannuspaikkakartta-sivulla  
+Voit määrittää ja ylläpitää kustannuspaikkoja joko **Kustannuspaikan kortti** -kortissa tai **Kustannuspaikkakartta**-sivulla. Tässä toimenpiteessä määrität kustannuspaikat **Kustannuspaikkakartta**-sivulla.  
 
-1. Avaa **Kustannuspaikkakartta**-ikkuna muokkaustilassa.  
+1. Avaa **Kustannuspaikkakartta**-sivu muokkaustilassa.  
 2. Syötä kustannuspaikkakoodi **Koodi**-kenttään. Kaikilla kustannuspaikoilla on oltava koodi.  
 3. Syötä kustannuspaikan nimi **Nimi**-kenttään.  
 4. Määritä kustannuspaikan tarkoitus valitsemalla avattava nuoli **Rivityyppi**-kentässä.  

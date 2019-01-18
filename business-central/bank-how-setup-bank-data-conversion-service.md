@@ -11,18 +11,18 @@ ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, 
 ms.date: 10/02/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: a83bb50c640adafede77524c6982107e1140a27b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: f46d085eac89743c095b5fd7d73353a5ff248f65
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-the-bank-data-conversion-service"></a>Pankkitietojen muuntopalvelun määrittäminen
 Yleiset palvelut on yhdistetty [!INCLUDE[d365fin](includes/d365fin_md.md)]iin ja valmis otettavaksi käyttöön. Sen avulla maksutiedot muunnetaan mihin tahansa pankkisi vaatimaan tietomuotoon. Tätä kutsutaan [!INCLUDE[d365fin](includes/d365fin_md.md)]issa pankkitietojen muuntopalveluksi.
 
-Voit viedä maksurivit **Maksupäiväkirja**-ikkunasta tiedostoon tai tietovirtaan, joka ladataan pankkiin automaattista käsittelyä varten. Sähköisiä maksuja ei siis tarvitse tehdä yksitellen. Lisätietoja on kohdassa [Maksujen vieminen pankkitiedostoon](payables-how-export-payments-bank-file.md).
+Voit viedä maksurivit **Maksupäiväkirja**-sivulta tiedostoon tai tietovirtaan, joka ladataan pankkiin automaattista käsittelyä varten. Sähköisiä maksuja ei siis tarvitse tehdä yksitellen. Lisätietoja on kohdassa [Maksujen vieminen pankkitiedostoon](payables-how-export-payments-bank-file.md).
 
-Voit tuoda tiliotetiedostot **Maksujen täsmäytyskirjauskansio** -ikkunaan muuntamalla pankin lähettämän tiedoston pankkitietojen muuntopalvelussa tietovirraksi, jonka [!INCLUDE[d365fin](includes/d365fin_md.md)] voi tuoda. Lisätietoja on kohdassa [Maksujen kohdistaminen automaattisesti ja pankkitilien täsmäyttäminen](receivables-apply-payments-auto-reconcile-bank-accounts.md).
+Voit tuoda tiliotetiedostot **Maksujen täsmäytyskirjauskansio** -sivulle muuntamalla pankin lähettämän tiedoston pankkitietojen muuntopalvelussa tietovirraksi, jonka [!INCLUDE[d365fin](includes/d365fin_md.md)] voi tuoda. Lisätietoja on kohdassa [Maksujen kohdistaminen automaattisesti ja pankkitilien täsmäyttäminen](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 Tiliotteet voi tuoda pankkitietojen muuntopalvelun lisäksi myös Envestnet Yodlee -pankkisyötepalvelun avulla. Lisätietoja on kohdassa [Envestnet Yodlee -pankkisyötepalvelun määrittäminen](bank-how-setup-bank-statement-service.md).
 
@@ -33,7 +33,7 @@ Pankkitiedostojen tuontia ja vientiä varten on määritettävä oma pankkitili 
 
 ## <a name="to-sign-your-company-up-for-the-bank-data-conversion-service"></a>Yrityksen määrittäminen pankkitietojen muuntopalvelun käyttäjäksi
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pankkitiet. muuntopalvelun asetukset** ja valitse sitten liittyvä linkki.  
-2. **Pankkitiet. muuntopalvelun asetukset** -ikkuna avautuu ja siinä on kolme esitäytettyä kenttää sisältäen pankkitietojen muuntopalvelun tarjoajan asiaankuuluvat URL-osoitteet.
+2. **Pankkitiet. muuntopalvelun asetukset** -sivu avautuu ja siinä on kolme esitäytettyä kenttää sisältäen pankkitietojen muuntopalvelun tarjoajan asiaankuuluvat URL-osoitteet.
 
     > [!NOTE]  
     >   CRONUS Finland Oy -esittelytietokannassa Käyttäjänimi- ja Salasana-kenttä esitäytetään kirjautumisen esittelytiedoilla, jotka vaihdat yrityksen todellisiksi tiedoiksi, kun rekisteröidyt pankkitietojen muunnospalveluun.
@@ -42,7 +42,7 @@ Pankkitiedostojen tuontia ja vientiä varten on määritettävä oma pankkitili 
 
     Yrityksesi on nyt rekisteröitynyt pankkitietojen muuntopalveluun. Jatka antamalla käyttäjänimi ja salasana, jotka olet määrittänyt palvelulle vastaavissa [!INCLUDE[d365fin](includes/d365fin_md.md)]in määrityskentissä.
 
-5. Kirjoita **Pankkitiet. muuntopalvelun asetukset** -ikkunassa **Käyttäjänimi**-kenttään sama arvo, jonka kirjoitit kirjautumisnimeksi palveluntarjoajan sivulla vaiheessa 4.
+5. Kirjoita **Pankkitiet. muuntopalvelun asetukset** -sivulla **Käyttäjänimi**-kenttään sama arvo, jonka kirjoitit kirjautumisnimeksi palveluntarjoajan sivulla vaiheessa 4.
 6. Kirjoita **Salasana**-kenttään sama arvo, jonka kirjoitit **Salasana**-kenttään palveluntarjoajan sivulla vaiheessa 4.
 
 > [!NOTE]  
@@ -50,10 +50,10 @@ Pankkitiedostojen tuontia ja vientiä varten on määritettävä oma pankkitili 
 
 ## <a name="to-view-or-update-the-list-of-currently-supported-bank-data-formats"></a>Tällä hetkellä tuettujen pankin tietomuotojen luettelon tarkastelu tai päivitys
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pankkitiet. muuntopalvelun asetukset** ja valitse sitten liittyvä linkki.
-2. Valitse **Pankkitiet. muuntopalvelun asetukset** -ikkunassa **Pankin nimi - tietojen muuntoluettelo** -toiminto, jolloin avautuu muuntopalvelun tukemien pankin tietomuotojen luettelo.
-3. Valitse **Pankin nimi - tietojen muuntamisen luettelo** -ikkunassa **Päivitä pankkien nimien luettelo** -toiminto.
+2. Valitse **Pankkitiet. muuntopalvelun asetukset** -sivulla **Pankin nimi - tietojen muuntoluettelo** -toiminto, jolloin avautuu muuntopalvelun tukemien pankin tietomuotojen luettelo.
+3. Valitse **Pankin nimi - tietojen muuntamisen luettelo** -sivulla **Päivitä pankkien nimien luettelo** -toiminto.
 
-Pankkitietojen muuntopalvelun tukemien pankin tietomuotojen luettelo on nyt päivitetty. Tämä on luettelo pankin nimistä suodatettuna maan/alueen mukaan, jotka voit valita **Pankin nimi - tietojen muuntaminen** -kentän **Pankkitilin kortti** -ikkunassa.
+Pankkitietojen muuntopalvelun tukemien pankin tietomuotojen luettelo on nyt päivitetty. Tämä on luettelo pankin nimistä suodatettuna maan/alueen mukaan, jotka voit valita **Pankin nimi - tietojen muuntaminen** -kentän **Pankkitilin kortti** -sivulla.
 
 > [!NOTE]  
 >   Tuettujen pankin tietomuotojen päivitys tapahtuu myös silloin, kun valitset tai kirjoitat arvon **Pankin nimi - tietojen muuntaminen** -kenttään pankkitilillä.

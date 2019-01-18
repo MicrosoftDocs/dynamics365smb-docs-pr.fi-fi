@@ -13,10 +13,10 @@ ms.search.keywords: posting setup, initialize
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4237bba8b7b3464242cacfcdbba954c321e5e04a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 732b69df44681d3cc63391bc87c0645ed7e5e1a5
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="setting-up-posting-groups"></a>Kirjausryhmien määrittäminen
@@ -32,21 +32,21 @@ Seuraavissa taulukoissa käsitellään kutakin kirjausryhmätyyppiä.
 
 | yleiset kirjausryhmät | Kuvaus |
 | --- | --- |
-| Yleiset liiketoiminnan kirjausryhmät |Liittämällä tämän ryhmän asiakkaisiin ja toimittajiin voi määrittää, kenelle myyt ja keneltä ostat. Määritä nämä asetukset **Yleiset liiketoim. kirj.ryhmät** -ikkunassa. Mieti määrityksiä tehdessäsi, kuinka monta ryhmää tarvitset myyntien ja ostojen erittelemiseen. Voit esimerkiksi ryhmitellä asiakkaat ja toimittajat maantieteellisen alueen tai liiketoiminnan tyypin mukaan. |
-| Yleiset tuotteen kirjausryhmät |Liittämällä tämän ryhmän nimikkeisiin ja resursseihin voit määrittää, mitä myyt ja mitä ostat. Määritä nämä asetukset **Yleiset tuotteen kirjausryhmät** -ikkunassa. Mieti määrityksiä tehdessäsi, kuinka monta ryhmää tarvitse erittelemään tuotteiden (nimikkeiden ja resurssien) mukaisen myynnin ja nimikkeiden mukaiset ostot. Jaa nämä ryhmät esimerkiksi raaka-aineiden, resurssien ja kapasiteetin mukaan. |
-| Yleiset kirjausasetukset |Yhdistä liiketoiminnan ja tuotteen kirjausryhmiä ja valitse tilit, joille kirjaukset tehdään. Kullekin liiketoiminnan ja tuotteen kirjausryhmien yhdistelmälle voi määrittää eri joukon pääkirjanpidon tilejä. Saman nimikkeen myynnin voi siis esimerkiksi kirjata eri myyntitileille pääkirjanpidossa, sillä asiakkaille on määritetty eri liiketoiminnan kirjausryhmät. Tee nämä määritykset **Yleiset kirjausasetukset** -ikkunassa. |
+| Yleiset liiketoiminnan kirjausryhmät |Liittämällä tämän ryhmän asiakkaisiin ja toimittajiin voi määrittää, kenelle myyt ja keneltä ostat. Määritä nämä asetukset **Yleiset liiketoim. kirj.ryhmät** -sivulla. Mieti määrityksiä tehdessäsi, kuinka monta ryhmää tarvitset myyntien ja ostojen erittelemiseen. Voit esimerkiksi ryhmitellä asiakkaat ja toimittajat maantieteellisen alueen tai liiketoiminnan tyypin mukaan. |
+| Yleiset tuotteen kirjausryhmät |Liittämällä tämän ryhmän nimikkeisiin ja resursseihin voit määrittää, mitä myyt ja mitä ostat. Määritä nämä asetukset **Yleiset tuotteen kirjausryhmät** -sivulla. Mieti määrityksiä tehdessäsi, kuinka monta ryhmää tarvitse erittelemään tuotteiden (nimikkeiden ja resurssien) mukaisen myynnin ja nimikkeiden mukaiset ostot. Jaa nämä ryhmät esimerkiksi raaka-aineiden, resurssien ja kapasiteetin mukaan. |
+| Yleiset kirjausasetukset |Yhdistä liiketoiminnan ja tuotteen kirjausryhmiä ja valitse tilit, joille kirjaukset tehdään. Kullekin liiketoiminnan ja tuotteen kirjausryhmien yhdistelmälle voi määrittää eri joukon pääkirjanpidon tilejä. Saman nimikkeen myynnin voi siis esimerkiksi kirjata eri myyntitileille pääkirjanpidossa, sillä asiakkaille on määritetty eri liiketoiminnan kirjausryhmät. Tee nämä määritykset **Yleiset kirjausasetukset** -sivulla. |
 
-| erityiset kirjausryhmät | Kuvaus |
+| erityiset kirjausryhmät | Description |
 | --- | --- |
-| Asiakkaan kirjausryhmät |Määritä tilit, joita käytetään, kun kirjaat myyntireskontran tapahtumia. Jos käytät varastoa, jossa on myyntisaatavia, asiakkaille määritetty yleinen liiketoiminnan kirjausryhmä ja varastonimikkeelle määritetty yleinen tuotteen kirjausryhmä määrittävät, mille tileille myyntitilausrivin tapahtumat kirjataan. Määritä nämä asetukset **Asiakkaan kirjausryhmät** -ikkunassa. |
-| Toimittajan kirjausryhmät |Määritä, mihin ostovelkatilien, palveluveloitustilien ja maksualennustilien tapahtumat kirjataan. Tämä muistuttaa asiakkaan kirjausryhmiä. Määritä nämä asetukset **Toimittajan kirjausryhmät** -ikkunassa. |
-| Varaston kirjausryhmät |Määrittää taseen varastotilit. Nämä tilit ovat kätevä tapa järjestää varasto, sillä voit erotella nimikkeet kirjausryhmien mukaan raportteja luotaessa. Määritä nämä asetukset **Varaston kirjausryhmät** -ikkunassa. |
-| Pankkitilin kirjausryhmät |Määritä pankkitilien tilit. Tämä esimerkiksi yksinkertaistaa tapahtumien jäljittämistä ja pankkitilin täsmäyttämistä. Määritä nämä asetukset **Pankkitilin kirjausryhmät** -ikkunassa. |
-| Käyttöomaisuuden kirjausryhmät |Määritä erilaisten kulujen ja kustannusten tilit. Näitä kuluja ja kustannuksia ovat esimerkiksi hankintamenot, kokonaispoistosummat, hankintamenot luovutettaessa, kokonaispoistot luovutettaessa, voitot luovutettaessa, tappiot luovutettaessa, ylläpitokulut ja poistokustannukset. Määritä nämä asetukset **KO:n kirjausryhmät** -ikkunassa. |
+| Asiakkaan kirjausryhmät |Määritä tilit, joita käytetään, kun kirjaat myyntireskontran tapahtumia. Jos käytät varastoa, jossa on myyntisaatavia, asiakkaille määritetty yleinen liiketoiminnan kirjausryhmä ja varastonimikkeelle määritetty yleinen tuotteen kirjausryhmä määrittävät, mille tileille myyntitilausrivin tapahtumat kirjataan. Määritä nämä asetukset **Asiakkaan kirjausryhmät** -sivulla. |
+| Toimittajan kirjausryhmät |Määritä, mihin ostovelkatilien, palveluveloitustilien ja maksualennustilien tapahtumat kirjataan. Tämä muistuttaa asiakkaan kirjausryhmiä. Määritä nämä asetukset **Toimittajan kirjausryhmät** -sivulla. |
+| Varaston kirjausryhmät |Määrittää taseen varastotilit. Nämä tilit ovat kätevä tapa järjestää varasto, sillä voit erotella nimikkeet kirjausryhmien mukaan raportteja luotaessa. Määritä nämä asetukset **Varaston kirjausryhmät** -sivulla. |
+| Pankkitilin kirjausryhmät |Määritä pankkitilien tilit. Tämä esimerkiksi yksinkertaistaa tapahtumien jäljittämistä ja pankkitilin täsmäyttämistä. Määritä nämä asetukset **Pankkitilin kirjausryhmät** -sivulla. |
+| Käyttöomaisuuden kirjausryhmät |Määritä erilaisten kulujen ja kustannusten tilit. Näitä kuluja ja kustannuksia ovat esimerkiksi hankintamenot, kokonaispoistosummat, hankintamenot luovutettaessa, kokonaispoistot luovutettaessa, voitot luovutettaessa, tappiot luovutettaessa, ylläpitokulut ja poistokustannukset. Määritä nämä asetukset **KO:n kirjausryhmät** -sivulla. |
 
-| Verokirjausryhmä | Kuvaus |
+| Verokirjausryhmä | Description |
 | --- | --- |
-| Liiketoiminnan verokirjausryhmät |Määrittää, miten asiakkaiden ja toimittajien arvonlisävero lasketaan ja kirjataan. Määritä nämä asetukset **Liiketoiminnan verokirjausryhmät** -ikkunassa. Mieti määrityksiä tehdessäsi, kuinka monta ryhmää tarvitset. Siihen voi vaikuttaa esimerkiksi paikallinen lainsäädäntö ja se, käytkö sekä kotimaan- että ulkomaankauppaa. |
+| Liiketoiminnan verokirjausryhmät |Määrittää, miten asiakkaiden ja toimittajien arvonlisävero lasketaan ja kirjataan. Määritä nämä asetukset **Liiketoiminnan verokirjausryhmät** -sivulla. Mieti määrityksiä tehdessäsi, kuinka monta ryhmää tarvitset. Siihen voi vaikuttaa esimerkiksi paikallinen lainsäädäntö ja se, käytkö sekä kotimaan- että ulkomaankauppaa. |
 | Tuotteen verokirjausryhmät |Ilmoita, mitä verolaskelmia on tehtävä nimike- tai resurssityypeille, joita ostat tai myyt. |
 | Verokirjausten asetukset |Yhdistä liiketoiminnan verokirjausryhmät ja tuotteen verokirjausryhmät. Kun täytät yleisen päiväkirjarivin, ostorivin tai myyntirivin, käytettävät tilit tunnistetaan yhdistelmän avulla. |
 
@@ -73,7 +73,7 @@ Kun luot myyntiasiakirjan, myyntiotsikko käyttää asiakaskortin tietoja ja myy
 Kirjausajankohta määräytyy asetusten mukaan. Esimerkiksi jaksoittaiset toiminnot, kuten varaston kustannusten kirjaus- tai kustannusnimikkeiden muutostapahtumat, vaikuttavat ajoitukseen.
 
 ## <a name="copying-posting-setup-lines"></a>Kirjausasetusrivien kopioiminen
-Mitä enemmän tuotteen ja liiketoiminnan kirjausryhmiä on luotu, sitä enemmän rivejä näkyy Yleiset kirjausasetukset -ikkunassa. Yrityksen yleisten kirjausasetusten määrittäminen voi siis vaatia paljon tietojen syöttämistä. Vaikka liiketoiminnan ja tuotteen kirjausryhmiä saattaa olla useita, eri yhdistelmillä voi kuitenkin kirjata samoille pääkirjanpidon tileille. Manuaalisia vientejä voi rajoittaa kopioimalla pääkirjanpidon tilit aiemmin luodulta riviltä **Yleiset kirjausasetukset** -ikkunassa.
+Mitä enemmän tuotteen ja liiketoiminnan kirjausryhmiä on luotu, sitä enemmän rivejä näkyy Yleiset kirjausasetukset -sivulla. Yrityksen yleisten kirjausasetusten määrittäminen voi siis vaatia paljon tietojen syöttämistä. Vaikka liiketoiminnan ja tuotteen kirjausryhmiä saattaa olla useita, eri yhdistelmillä voi kuitenkin kirjata samoille pääkirjanpidon tileille. Manuaalisia vientejä voi rajoittaa kopioimalla pääkirjanpidon tilit aiemmin luodulta riviltä **Yleiset kirjausasetukset** -sivulla.
 
 ## <a name="see-also"></a>Katso myös .
 [Pääkirjanpito ja tilikartta](finance-general-ledger.md)  

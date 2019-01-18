@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
-ms.date: 10/01/2018
+ms.date: 10/17/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 37875f3b09887176211f33538268706f11406fcf
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a5fe5e467d693fc98f604cfc85be47488374541a
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="invoice-sales"></a>Myynnin laskutus
@@ -42,15 +42,15 @@ Voit täyttää myyntilaskun asiakkaan kentät kahdella tavalla sen mukaan, onko
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntilaskut** ja valitse sitten liittyvä linkki.  
 2. Syötä **Asiakas**-kenttään nykyisen asiakkaan nimi.
 
-   Muut **Myyntilasku**-ikkunan kentät sisältävät vakiotietoja valitusta asiakkaasta. Jos asiakasta ei ole rekisteröity, toimi seuraavasti:
+   Muut **Myyntilasku**-sivun kentät sisältävät vakiotietoja valitusta asiakkaasta. Jos asiakasta ei ole rekisteröity, toimi seuraavasti:
 3. Syötä **Asiakas**-kenttään uuden asiakkaan nimi.
 4. Valitse uuden asiakkaan rekisteröimisen valintaikkunassa **Kyllä**-painike.
-5. Valitse **Valitse uuden asiakkaan malli** -ikkunassa malli uuden asiakkaan kortin perusteella ja valitse sitten **OK**-painike.
+5. Valitse **Valitse uuden asiakkaan malli** -sivulla malli uuden asiakkaan kortin perusteella ja valitse sitten **OK**-painike.
 6. Uuden asiakkaan kortissa näkyy valitun asiakasmallin tiedot. Täytä jäljellä olevat kentät. Lisätietoja on kohdassa [Uusien asiakkaiden rekisteröinti](sales-how-register-new-customers.md).  
-7. Kun olet määrittänyt asiakaskortin, valitse **OK**-painike palataksesi **Myyntilasku**-ikkunaan.
+7. Kun olet määrittänyt asiakaskortin, valitse **OK**-painike palataksesi **Myyntilasku**-sivulle.
 
    Myyntilaskun useat kentät täytetään nyt tiedoilla, jotka olet määrittänyt uuden asiakkaan kortissa.  
-8. Täytä tarvittaessa jäljellä olevat kentät **Myyntilasku**-ikkunassa. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+8. Täytä tarvittaessa jäljellä olevat kentät **Myyntilasku**-sivulla. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
     > Jos asiakas maksaa heti, esimerkiksi käteisellä tai PayPal-maksuna, täytä **Maksutavan koodi** -kenttä. Maksu kirjataan sitten heti, kun kirjaat myyntilaskun. Jos valitset käteismaksun, maksu kirjataan määritetylle vastatilille.
@@ -93,7 +93,7 @@ Nyt järjestelmässä luodaan liittyvä nimike ja asiakastapahtumat. Myyntilasku
 
 Voit saada maksun ja rekisteröidä maksun eri tavoilla liiketoimintatarpeistasi riippuen: manuaalisesti, automaattisesti tai maksupalveluiden avulla.  
 
-Voit käsitellä maksut suoraan asiakkaan kortissa tai asiakastapahtumissa. Hae asiakkaan maksamattomien laskujen yleiskatsaus **Rekisteröi asiakkaan maksut** -toiminnon avulla. Merkitse sitten lasku osittain tai kokonaan maksetuksi. Tämä maksun täsmäytys käsittelee asiakkaan maksut kohdistamalla pankkitilille vastaanotetut summat niihin liittyviin maksamattomiin myyntilaskuihin ja kirjaamalla maksut sen jälkeen. Lisätietoja on kohdassa [Maksujen täsmäyttäminen yksitellen](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-register-customer-payments-individually).  
+Voit käsitellä maksut suoraan asiakkaan kortista. Hae asiakkaan maksamattomien laskujen yleiskatsaus **Rekisteröi asiakkaan maksut** -toiminnolla. Merkitse sitten lasku osittain tai kokonaan maksetuksi. Tämä maksun täsmäytys käsittelee asiakkaan maksut kohdistamalla pankkitilille vastaanotetut summat niihin liittyviin maksamattomiin myyntilaskuihin ja kirjaamalla maksut sen jälkeen. Lisätietoja on kohdassa [Maksujen täsmäyttäminen yksitellen](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-register-customer-payments-individually).  
 
 Yritysympäristöissä, joissa asiakas maksaa jonkin aikaa toimituksen jälkeen maksuehtojen mukaisesti, kirjattu myyntilaskun pysyy avoimena (maksamattomana), kunnees myyntireskontraosasto vahvistaa, että maksu on vastaanotettu ja kohdistaa maksun kirjattuun myyntilaskuun. Tämä voidaan tehdä manuaalisesti tai automaattisesti. Lisätietoja on kohdissa [Asiakkaan maksujen täsmäyttäminen manuaalisesti](receivables-how-apply-sales-transactions-manually.md) ja [Maksujen täsmäyttäminen käyttämällä automaattista kohdistusta](receivables-how-reconcile-payments-auto-application.md).  
 

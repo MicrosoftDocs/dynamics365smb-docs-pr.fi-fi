@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 27b50b9471c8dccb7da8750bbd57e34774ff6115
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 4dd595fabbf8e4cd2a3eef73a934922dfea92858
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="configure-a-company-with-the-rapidstart-wizard"></a>Yrityksen ja ohjatun RapidStart-toiminnon määrittäminen
@@ -43,7 +43,7 @@ Seuraavassa toimenpiteessä olet antanut asiakkaalle määrityspaketin, joka sit
 7. Valitse **OK**-painike.  
 8. Voit varmistaa, että määritystiedot on otettu käyttöön uudessa yrityksessä, kun valitset ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvakkeen, syötät **yrityksen tiedot** ja valitset aiheeseen liittyvän linkin.
 
-**Yrityksen tiedot** -ikkunassa on tietoja, jotka olet määrittänyt.   
+**Yrityksen tiedot** -sivulla on tietoja, jotka olet määrittänyt.   
 
 Olet nyt määrittänyt yrityksen ja ottanut tiedot käyttöön sitä varten.  
 

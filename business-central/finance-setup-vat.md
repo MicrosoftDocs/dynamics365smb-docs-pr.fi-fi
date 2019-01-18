@@ -11,10 +11,10 @@ ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f23993964f0803f2153c2d190a23532113e5ddd2
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5f22880f56cd2834c9bd92061f166cd457bc58c1
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -125,7 +125,7 @@ ALV-ilmoitusten avulla voi laskea ALV-laskelman summan tietyltä kaudelta, esime
 Voit määrittää ALV-ilmoituksen seuraavien vaiheiden avulla:
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **ALV-ilmoitukset** ja valitse sitten liittyvä linkki.  
-2. Valitse **Nimi**-kenttä ja valitse sitten **ALV-ilmoitusten nimet** -ikkunassa **Uusi** .
+2. Valitse **Nimi**-kenttä ja valitse sitten **ALV-ilmoitusten nimet** -sivulla **Uusi** .
 3. Täytä vaaditut kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!Tip]
@@ -148,7 +148,7 @@ Voit muokata tai poistaa ALV-lauseen, ja muutokset näkyvät luodussa raportissa
 
 ### <a name="to-set-up-vat-clauses"></a>ALV-lauseiden määrittäminen
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **ALV-lauseet** ja valitse sitten liittyvä linkki.  
-2. Luo **ALV-lauseet**-ikkunassa uusi rivi.  
+2. Luo **ALV-lauseet**-sivulla uusi rivi.  
 3. Kirjoita lauseen tunnus **Koodi**-kenttään. Lause määritetään tällä koodilla ALV-kirjausryhmiin.  
 4. Kirjoita **Kuvaus**-kenttään teksti, jonka haluat näkyvän asiakirjoissa, joihin ALV voi sisältyä. Voit tarvittaessa kirjoittaa lisätekstin **Kuvaus 2** -kenttään. Teksti näkyy uusilla riveillä.  
 5. Valinnainen: ALV-lauseen voi määrittää ALV-kirjausryhmään heti valitsemalla ensin **Asetukset** ja sitten lauseen. Jos halua odottaa, voit määrittää lauseen myöhemmin ALV-kirjausten asetukset -sivulla.  
@@ -178,7 +178,7 @@ Määritä tuonnin ALV:n koodit seuraavasti:
 ## <a name="to-verify-vat-registration-numbers"></a>ALV-numeroiden tarkistaminen
 On tärkeää, että käytössäsi olevat asiakkaiden, toimittajien ja yhteystietojen ALV-rekisteröintinumerot ovat oikeita. Yritykset esimerkiksi joskus muuttavat verovelkatilaansa, ja joissakin maissa veroviranomaiset voivat pyytää raportteja, kuten EU-myyntiluetteloraportin, joissa on luettelo liiketoiminnassasi käyttämistäsi ALV-rekisteröintinumeroista.
 
-Euroopan komission sivustossa on julkinen ja maksuton ALV-tietojen vaihtojärjestelmä (VIES-palvelu). [!INCLUDE[d365fin](includes/d365fin_md.md)]ia käytettäessä sivustoon siirtyminen ei ole tarpeellista, sillä voit tarkistaa sovelluksessa VIES-palvelusta asiakkaiden, toimittajien ja yhteystietojen ALV-numerot asiakkaan, toimittajan ja yhteystiedon kortista. Voit myös seurata kyseisiä ALV-numeroita. [!INCLUDE[d365fin](includes/d365fin_md.md)]in palvelun nimi on **EU:n ALV-nron tarkistuspalvelun määritys**. Palvelua voi käyttää **Palvelun yhteydet** -ikkunassa ja sen käytön voi aloittaa heti. Palveluyhteys on maksuton eikä kirjautumista tarvita.
+Euroopan komission sivustossa on julkinen ja maksuton ALV-tietojen vaihtojärjestelmä (VIES-palvelu). [!INCLUDE[d365fin](includes/d365fin_md.md)]ia käytettäessä sivustoon siirtyminen ei ole tarpeellista, sillä voit tarkistaa sovelluksessa VIES-palvelusta asiakkaiden, toimittajien ja yhteystietojen ALV-numerot asiakkaan, toimittajan ja yhteystiedon kortista. Voit myös seurata kyseisiä ALV-numeroita. [!INCLUDE[d365fin](includes/d365fin_md.md)]in palvelun nimi on **EU:n ALV-nron tarkistuspalvelun määritys**. Palvelua voi käyttää **Palvelun yhteydet** -sivulla ja sen käytön voi aloittaa heti. Palveluyhteys on maksuton eikä kirjautumista tarvita.
 
 > [!Note]
 > Voit ottaa käyttöön EU:n ALV-nron tarkistuspalvelun, jos sinulla on järjestelmänvalvojan käyttöoikeudet.
@@ -241,7 +241,7 @@ Ennen ALV:n muutostyökalun määrittämistä sinun on tehtävä seuraavat valmi
 
 ### <a name="to-set-up-product-posting-group-conversion"></a>Määritä tuotteiden ALV-kirjausryhmien muunnos  
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **ALV-prosenttimuutoksen asetukset** ja valitse sitten liittyvä linkki.  
-2. Valitse **ALV-prosenttimuutoksen asetukset** -ikkunassa **Kotisivu**-välilehden **Käsittely**-ryhmässä joko **Tuotteen ALV-kirjausryhmän muunto** tai **Yleisen tuotteen kirjausryhmän muunto**.  
+2. Valitse **ALV-prosenttimuutoksen asetukset** -ikkunan **Kotisivu**-välilehden **Käsittely**-ryhmässä joko **Tuotteen ALV-kirjausryhmän muunto** tai **Yleisen tuotteen kirjausryhmän muunto**.  
 3. Anna **Koodista** -kentässä nykyinen kirjausryhmä.  
 4. Syötä uusi kirjausryhmä **Koodiin**-kenttään.  
 

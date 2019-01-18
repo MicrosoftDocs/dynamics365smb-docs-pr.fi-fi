@@ -1,6 +1,6 @@
 ---
 title: "Fyysisen varaston määritysten etsiminen | Microsoft Docs"
-description: "Etsi fyysisen varaston varaukset avaamalla valitun nimikkeen kortti-ikkuna. Jos fyysisen varastoinnin ohjeita on luotu, Ota- ja Aseta-rivit ovat näkyvillä ja voit alkaa käsitellä tehtävää. Joissakin varastoissa esimies on voinut määrittää erityisiä ohjeita kullekin työntekijälle."
+description: "Etsi fyysisen varaston varaukset avaamalla valitun nimikkeen korttisivu. Jos fyysisen varastoinnin ohjeita on luotu, Ota- ja Aseta-rivit ovat näkyvillä ja voit alkaa käsitellä tehtävää. Joissakin varastoissa esimies on voinut määrittää erityisiä ohjeita kullekin työntekijälle."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,22 +13,22 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 012e050722f97d43a8ee59fde2566969245e4ca9
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 8dafcb427cac506209e0858791f4c47a98d72a2e
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="find-your-warehouse-assignments"></a>Fyysisen varaston varausten etsiminen
-Etsi fyysisen varaston varaukset avaamalla valitun nimikkeen kortin ikkuna. Jos fyysisen varastoinnin ohjeita on luotu, Ota- ja Aseta-rivit ovat näkyvillä ja voit alkaa käsitellä tehtävää. Joissakin varastoissa esimies on voinut määrittää erityisiä ohjeita kullekin työntekijälle. Lisätietoja on kohdassa [Varastotyöntekijöiden määrittäminen](warehouse-how-to-set-up-warehouse-employees.md).
+Etsi fyysisen varaston varaukset avaamalla valitun nimikkeen korttisivu. Jos fyysisen varastoinnin ohjeita on luotu, Ota- ja Aseta-rivit ovat näkyvillä ja voit alkaa käsitellä tehtävää. Joissakin varastoissa esimies on voinut määrittää erityisiä ohjeita kullekin työntekijälle. Lisätietoja on kohdassa [Varastotyöntekijöiden määrittäminen](warehouse-how-to-set-up-warehouse-employees.md).
 
 ## <a name="to-find-an-instruction-assigned-to-you"></a>Sinulle määritellyn ohjeen etsiminen  
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Fyysisen varaston hyllytykset**, **Fyysisen varaston keräilyt** tai **Fyysisen varaston siirto** ja valitse liittyvä linkki.
 
-    Kaikkien fyysisten varastosijaintien määritykset näkyvät näissä kolmessa ikkunassa.  
+    Kaikkien fyysisten varastosijaintien määritykset näkyvät näillä kolmella sivulla.  
 
 2. Lajittele kohteet sijainnin mukaan. Näet nyt sinulle määritetyt ohjeet.  
-3. Lisää merkintä yhdelle riville, jolla on nimikirjaimesi **Määritetty käyttäjätunnus** -kentässä, ja valitse **OK**. Hyllytystehtävä tulee näkyviin ikkunaan, ja **Yleinen**-pikavälilehden **Määritetty käyttäjätunnus** -kentässä on nimikirjaimesi.  
+3. Lisää merkintä yhdelle riville, jolla on nimikirjaimesi **Määritetty käyttäjätunnus** -kentässä, ja valitse **OK**. Hyllytystehtävä tulee näkyviin sivulle, ja **Yleinen**-pikavälilehden **Määritetty käyttäjätunnus** -kentässä on nimikirjaimesi.  
 
 Otsikon **Määritetty käyttäjätunnus** -kenttää voi käyttää vaatimaan työtehtäviä, jollei varastonjohtaja määrittele erityisohjeita yksittäisille työntekijöille. Syötä yksinkertaisesti käyttäjätunnuksesi fyysisen varastoinnin otsikkoon ennen kuin alat työskennellä jonkin ohjeen parissa. Työkaverisi voivat sitten työskennellä muiden ohjeiden parissa, jotta fyysisessä varastoinnissa vältettäisiin päällekkäinen työ.  
 

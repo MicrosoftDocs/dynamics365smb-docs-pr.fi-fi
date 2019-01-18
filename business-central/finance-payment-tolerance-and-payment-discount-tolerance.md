@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8e4f7c35b53a284fe6f7937298377674bafb0b63
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: abbfa389e38e60b7b5470f1f390d370f8d43c6b5
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Maksutoleranssien ja maksualennustoleranssien käsitteleminen
@@ -45,16 +45,16 @@ Toleranssi päivillä ja summilla sallii laskun sulkemisen vaikka maksu ei täys
 
 Määrittääksesi toleranssin sinun tulee määrittää useita toleranssitilejä, sekä maksualennustoleranssin että maksutoleranssin kirjaustavat ja sitten ajaa **Muuta maksutoleranssia** -eräajo  
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Yleiset kirjausasetukset** ja valitse sitten liittyvä linkki.  
-2. Määritä **Yleiset kirjausasetukset** -ikkunassa debet- ja kredit-myynnin maksutoleranssitili sekä debet- ja kredit-ostojen maksutoleranssitili.  
+2. Määritä **Yleiset kirjausasetukset** -sivulla debet- ja kredit-myynnin maksutoleranssin tili ja debet- ja kredit-ostojen maksutoleranssin tili.  
 3. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asiakkaan kirjausryhmät** ja valitse sitten liittyvä linkki.    
-4. Määritä **Asiakkaan kirjausryhmät** -ikkunassa debet- ja kredit-maksutoleranssitili. Lisätietoja on kohdassa [Kirjausryhmien määrittäminen](finance-posting-groups.md).  
+4. Määritä **Asiakkaan kirjausryhmät** -sivulla debet- ja kredit-maksutoleranssitili. Lisätietoja on kohdassa [Kirjausryhmien määrittäminen](finance-posting-groups.md).  
 5. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Toimittajan kirjausasetukset** ja valitse sitten liittyvä linkki.  
-6. Määritä **Toimittajan kirjausryhmät** -ikkunassa debet- ja kredit-maksutoleranssitili.  
-7. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pääkirjanpidon asetukset** ja valitse sitten liittyvä linkki.  
-8. Avaa **Pääkirjanpidon asetukset** -ikkuna.  
+6. Määritä **Toimittajan kirjausryhmät** -sivulla debet- ja kredit-maksutoleranssitili.  
+7. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Pääkirjanpidon asetukset** ja valitse sitten liittyvä linkki.  
+8. Avaa **Pääkirjanpidon asetukset** -sivu.  
 9. Täytä **Kohdistus** -pikavälilehdessä **Maksualennustoler. kirjaaminen**-, **Maksualennuksen ylityskausi**- ja **Maksutoleranssin kirjaus** -kentät.   
 10. Valitse **Muuta maksutoleranssia** -toiminto.
-11. Täytä **Muuta maksutoleranssia** -ikkunassa **Maksutoleranssi %**- ja **Maksimi maksutoleranssisumma** -kentät ja valitse **OK**.
+11. Täytä **Muuta maksutoleranssia** -sivulla **Maksutoleranssi %**- ja **Maksimi maksutoleranssisumma** -kentät ja valitse **OK**.
 
 > [!IMPORTANT]  
 >  Nyt olet määrittänyt maksutoleranssin vain paikalliselle valuutalle. Jos haluat, että [!INCLUDE[d365fin](includes/d365fin_md.md)] käsittelevän maksujen, hyvityslaskujen ja hyvitysten toleransseja ulkomaan valuuttana, sinun on tehtävä **Muuta maksutoleranssia** -eräajo **Valuuttakoodi**-kentän arvolla.  
@@ -68,11 +68,11 @@ Määrittääksesi toleranssin sinun tulee määrittää useita toleranssitilej�
 
 ## <a name="to-enable-or-disable-payment-tolerance-warnings"></a>Maksutoleranssivaroitusten ottaminen käyttöön tai poistaminen käytöstä
 Maksutoleranssivaroitus ilmestyy, kun kirjaat kohdistuksen, jonka saldo mahtuu sallittuun toleranssiin. Voit sitten päättää kuinka kirjaat ja dokumentoit saldon.    
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pääkirjanpidon asetukset** ja valitse sitten liittyvä linkki.  
-2. Voit ottaa varoituksen käyttöön lisäämällä **Pääkirjanpidon asetukset** -ikkunan **Kohdistus**-pikavälilehden **Maksutoleranssin varoitus** -valintaruutuun valintamerkin. Ottaaksesi varoituksen pois päältä, poista ruksi  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Pääkirjanpidon asetukset** ja valitse sitten liittyvä linkki.  
+2. Voit ottaa varoituksen käyttöön lisäämällä **Pääkirjanpidon asetukset** -sivun **Kohdistus**-pikavälilehden **Maksutoleranssin varoitus** -valintaruutuun valintamerkin. Ottaaksesi varoituksen pois päältä, poista ruksi  
 
 > [!NOTE]  
->  Oletusarvon mukainen vaihtoehto **Maksutoleranssin varoitus** -ikkunassa on **Jätä saldo jäljelläolevaksi summaksi**. Oletusarvon mukainen vaihtoehto **Maksualennustoler. varoitus** -ikkunalle on **Älä hyväksy myöhästynyttä maksualennusta**.
+>  Oletusarvon mukainen vaihtoehto **Maksutoleranssin varoitus** -sivulla on **Jätä saldo jäljelläolevaksi summaksi**. Oletusarvon mukainen vaihtoehto **Maksualennustoler. varoitus** -sivulle on **Älä hyväksy myöhästynyttä maksualennusta**.
 
 ## <a name="to-block-payment-tolerance-for-customers"></a>Maksutoleranssin estäminen asiakkailta  
 Oletusarvo maksutoleranssiasetukselle on sallittu. Estääksesi tietyn asiakkaan tai toimittajan maksutoleranssin sinun tulee estää toleranssi kyseisen asiakkaan tai toimittajan kortilta Seuraavaksi kerrotaan, miten se tehdään asiakkaalle. Toimittajaa koskevat vaiheet ovat samanlaisia.
@@ -86,7 +86,7 @@ Oletusarvo maksutoleranssiasetukselle on sallittu. Estääksesi tietyn asiakkaan
 ## <a name="example-1---tolerance-calculations-for-a-single-document"></a>Esimerkki 1 – Yksittäisen asiakirjan toleranssilaskennat
 Seuraavassa muutamia esimerkkejä oletetuista toleranssilaskelmista ja kirjauksista, erilaisissa tilanteissa.  
 
-**Pääkirjanpidon asetukset** -ikkunassa on seuraavat asetukset:
+**Pääkirjanpidon asetukset** -sivulla on seuraavat asetukset:
 - Maksutoleranssin ylityskausi: 5P  
 - Maksimi maksutoleranssi: 5  
 
@@ -155,7 +155,7 @@ Normaalit kohdistussäännöt
 ## <a name="example-2---tolerance-calculations-for-multiple-documents"></a>Esimerkki 2 – Useiden asiakirjojen toleranssilaskelmat
 Seuraavassa on muutamia esimerkkejä oletetuista toleranssilaskelmista ja kirjauksista, erilaisissa tilanteissa. Nämä esimerkit rajoittuvat vain tilanteisiin, joissa kaikki kohdistettavat tapahtumat suljetaan.  
 
-**Pääkirjanpidon asetukset** -ikkunassa on seuraavat asetukset:
+**Pääkirjanpidon asetukset** -sivulla on seuraavat asetukset:
 - Maksutoleranssin ylityskausi 5P  
 - Maksimi maksutoleranssi 5  
 

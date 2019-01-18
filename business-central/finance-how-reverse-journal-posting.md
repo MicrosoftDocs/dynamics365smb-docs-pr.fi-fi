@@ -13,10 +13,10 @@ ms.search.keywords: reimbursement
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: beed335b93ef9211e4fc53c25f97b3fed6137348
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: cc624d52ce61cea4a8e92bb7d37e07ad8c769393
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="reverse-postings"></a>Kirjausten peruuttaminen
@@ -31,10 +31,10 @@ Jos olet tehnyt virheellinen negatiivisen määräkirjauksen, kuten kirjannut os
 Jos olet tehnyt virheellinen positiivisen määräkirjauksen, kuten kirjannut ostopalautustilaukselle väärän määrän toimitetuksi mutta ei laskutetuksi, voit kumota kirjauksen.   
 
 ## <a name="to-reverse-the-journal-posting-of-a-general-ledger-entry"></a>Pääkirjanpidon tapahtuman päiväkirjakirjauksen peruuttaminen
-Tapahtumia voi peruuttaa kaikista **Tapahtumakirjaukset**-ikkunoista. Seuraava menettely perustuu **Pääkirjanpidon tapahtumat** -ikkunaan.
+Tapahtumia voi peruuttaa kaikista **Tapahtumakirjaukset**-sivuilta. Seuraava menettely perustuu **Pääkirjanpidon tapahtumat** -sivuun.
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pääkirjanpidon tapahtumat** ja valitse sitten liittyvä linkki.
 2. Valitse ensin peruutettava tapahtuma ja sitten **Peruuta tapahtuma** -toiminto. Huomaa, että sen on oltava peräisin päiväkirjan kirjauksesta.
-3. Valitse **Peruuta tapahtumat** -ikkunassa käsiteltävä tapahtuma ja valitse sitten **Peruuta**-toiminto.
+3. Valitse **Peruuta tapahtumat** -sivulla käsiteltävä tapahtuma ja valitse sitten **Peruuta**-toiminto.
 4. Valitse vahvistusviestissä **Kyllä**.
 
 ## <a name="to-undo-a-quantity-posting-on-a-posted-purchase-receipt"></a>Kirjatun ostovastaanoton määrän kirjauksen kumoaminen  
@@ -62,7 +62,7 @@ Tapahtumia voi peruuttaa kaikista **Tapahtumakirjaukset**-ikkunoista. Seuraava m
 
     Palaa nyt ostopalautustilaukseen ja tee kirjaus uudelleen.  
 
-5.  Kirjoita muistiin numero, joka on **Kirjattu palautustoimitus** -ikkunan **Palautustilauksen nro** -kentässä.  
+5.  Kirjoita muistiin numero, joka on **Kirjattu palautustoimitus** -sivun **Palautustilauksen nro** -kentässä.  
 6.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostopalautustilaus** ja valitse sitten liittyvä linkki.  
 7.  Avaa kyseinen palautustilaus ja valitse **Avaa uudelleen** -toiminto.  
 8.  Korjaa tapahtuma **Määrä**-kentässä ja kirjaa ostopalautustilaus uudelleen.  

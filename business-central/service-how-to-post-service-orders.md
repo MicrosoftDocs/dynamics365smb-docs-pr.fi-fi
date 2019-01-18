@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2b62ab8062c5c93bbf67b6949397d18556b8cf78
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a6554708a40b50275a88a0c414be51cc99ccda85
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="post-service-orders-and-credit-memos"></a>Huoltotilausten ja hyvityslaskujen kirjaaminen
@@ -28,9 +28,9 @@ Jos huoltotilauksia on runsaasti, voit säästää aikaa kirjaamalla ne samalla 
 > Ennen huoltoasiakirjan kirjaamista mahdolliset virheet ja puuttuvat tiedot kannattaa tarkistaa **Testiraportti**-toiminnolla. Jos virheitä löytyy, ongelmat on korjattava. Voit tarkistaa korjauksen tulostamalla uuden testiraportin ja kirjata sitten asiakirjan.
   
 ## <a name="to-post-a-service-order"></a>Huoltotilauksien kirjaaminen    
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltotilaukset** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Huoltotilaukset** ja valitse sitten liittyvä linkki.  
 2. Avaa haluamasi huoltotilaus.  
-3. Valitse **Huoltotilaus**-ikkunassa jompikumpi seuraavista toimista.  
+3. Valitse **Huoltotilaus**-sivulla jompikumpi seuraavista toimista.  
   
     |**Toiminto**|**Tulos**|  
     |------------------|----------------|  
@@ -91,13 +91,13 @@ Huollon tietojen määrityksen jälkeen voit muuttaa ja kirjata käytettyjen nim
   
 Seuraavassa ohjeessa neuvotaan, miten kirjataan toimitus huoltorivin nimikkeille, jotka ovat sijainneissa, joissa ei vaadita varastonhallintaa.  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltotilaus** ja valitse sitten liittyvä linkki. 2. Valitse valitun huoltotilauksen ikkunassa **Toiminnot**, **Tilaus**, **Huoltorivit**.  
-3. Etsi pakolliset tapahtumat **Huoltorivit**-ikkunassa ja määritä kirjattava määrä **Toimitettava määrä** -kenttään.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltotilaus** ja valitse sitten liittyvä linkki. 2. Valitse valitun huoltotilauksen sivulla **Toiminnot**, **Tilaus**, **Huoltorivit**.  
+3. Etsi pakolliset tapahtumat **Huoltorivit**-sivulla ja määritä kirjattava määrä **Toimitettava määrä** -kenttään.  
   
    > [!NOTE]  
    >  Toimitettavan määrän arvo riippuu siitä, kirjataanko toimitus kokonaan vai osittain. Jos toimitus tehdään kokonaan, **Toimitettava määrä** -kentän arvon ja **Määrä**-kentän arvon on oltava sama. Kun kirjaat osittaisen toimituksen, sinun on määritettävä ensimmäiseksi toimitettava määrä. Jos olet jo toimittanut osan tilauksen huollosta, tee huomautus **Toimitettu määrä** -kentän arvoon. **Toimitettava määrä** -kenttään syötettävä enimmäismäärä on toimittamattomien yksiköiden määrä.  
   
-4. Valitse **Toiminnot**, **Kirjaus**, **Kirjaa**. Valitse avautuvassa ikkunassa **Toimitus**.  
+4. Valitse **Toiminnot**, **Kirjaus**, **Kirjaa**. Valitse avautuvalla sivulla **Toimitus**.  
   
 [!INCLUDE[d365fin](includes/d365fin_md.md)] luo tapahtumat (takuu-, nimike-, huolto- tai kirjanpitotapahtuma), luo kirjatun huoltotoimitusasiakirjan ja päivittää huoltotilauksen huoltorivien kentät.  
   

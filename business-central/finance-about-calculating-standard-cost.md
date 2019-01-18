@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 9dfe8a2b30a2a11969d8d7937998611613602ae7
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: be73736f4c56ea78ef2bb2b736b76db0569312ec
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="about-calculating-standard-cost"></a>Tietoja standardikustannuksen laskemisesta
@@ -81,7 +81,7 @@ Jokaiselle koneelle/tuotantosolulle määritetään kunkin aikatyypin kustannuks
 > [!NOTE]  
 >  On tärkeää huomata, että ajoajan kustannukset kohdistetaan jokaiseen tuotettavaan nimikeyksikköön ja asetuskustannukset kohdistetaan jokaiseen erään. Sen vuoksi kunkin toiminnon reitityksen asetusajan kustannukset on jaettava eräkoon mukaan. Eräkoko määritetään nimikekortin **Tilaaminen**-pikavälilehden kentässä.  
 
-Jos haluat määrittää määritysajan reitityksen suunnittelulle mutta et sisällyttää tätä kulua vakiokustannusten laskentaan, tyhjennä **Tuotannon asetukset** -ikkunan **Kust. sisältävät asetuksen** -kentän valinta.  
+Jos haluat määrittää määritysajan reitityksen suunnittelulle mutta et sisällyttää tätä kulua vakiokustannusten laskentaan, tyhjennä **Tuotannon asetukset** -sivun **Kust. sisältävät asetuksen** -kentän valinta.  
 
 Yksitasoisena tämä on valmiin tuotantonimikkeen tuotannossa tarvittava työkustannus. Se määritetään tuotantonimikkeen reitityksessä. Monitasoisena tämä on päänimikkeen tuoterakenteeseen sisällytettyjen yksittäisten tuotettujen nimikkeiden kapasiteettikustannus.  
 

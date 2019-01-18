@@ -13,14 +13,14 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 1962bd9d74f7b4d9600de11f85d1e312f6fb8c09
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1fcec3051fdabae818528742fba5d9ca57a721c8
 ms.contentlocale: fi-fi
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="managing-interactions-for-segments"></a>Segmenttien vuorovaikutusten hallinta
-**Segmentti**-ikkuna on tietynlainen työkirja, jossa voit
+**Segmentti**-sivu on tietynlainen työkirja, jossa voit
 
 * luoda segmenttejä
 * tallentaa ne segmentointikriteerit, joita olet käyttänyt valitessasi kontakteja
@@ -35,14 +35,14 @@ Segmenttejä voi luoda usealla eri tavalla:
 * Voit käyttää tallennettuja segmentointikriteerejä uudelleen.
 
 ## <a name="interactions"></a>Vuorovaikutukset
-**Segmentti**-ikkunassa voit luoda vuorovaikutuksia useammalle kontaktille samanaikaisesti. Voit esimerkiksi liittää segmentin Microsoft Word -asiakirjan kanssa, jolloin voit lähettää kirjeen kaikille segmentin kontakteille.
+**Segmentti**-sivulla voi luoda vuorovaikutuksia useammalle kontaktille samanaikaisesti. Voit esimerkiksi liittää segmentin Microsoft Word -asiakirjan kanssa, jolloin voit lähettää kirjeen kaikille segmentin kontakteille.
 
 Voit määritellä segmentin vuorovaikutuksen tiedot **segmentin** otsikossa. Voit esimerkiksi päättää, mitä vuorovaikutusmallia käytät kaikille kontakteille, määritellä kuvauksen, määritellä yhteydenpidon tyypin ja niin edelleen. Voit kuitenkin muuttaa näitä tietoja segmentin rivillä jokaisen yksittäisen kontaktin osalta, esimerkiksi määrittämällä toisen kuvauksen juuri tietylle kontaktille sopivaksi. Jos olet merging segmenttiä Microsoft Word -asiakirjan kanssa, saat yhdelle tai useammalle segmentin kontaktille lähetettävän asiakirjan persoonalliseksi esimerkiksi lisäämällä kontaktikohtaisia kommentteja asiakirjaan.
 
 ## <a name="logging"></a>Lokiin kirjaaminen
-Kun valitset **Segmentti**-ikkunassa **Loki**, sovellus tallentaa yhteydenpidot **Vuorovaikutuslokin tapahtuma** -ikkunaan ja kirjaa segmentin lokiin. Kun olet kirjannut segmentin lokiin, löydät sen vain **Lokiin kirjatut segmentit** -ikkunasta.
+Kun valitset **Segmentti**-sivulla **Loki**, sovellus tallentaa yhteydenpidot **Vuorovaikutuslokin tapahtuma** -sivulle ja kirjaa segmentin lokiin. Kun olet kirjannut segmentin lokiin, löydät sen vain **Lokiin kirjattu segmentti** -sivulla.
 
-**Lokiin kirjatut segmentit** -ikkunassa voit päättää luoda seurantasegmentin, joka sisältää samat kontaktit kuin lokiin kirjattu segmentti.
+**Lokiin kirjatut segmentit** -sivulla voi päättää luoda seurantasegmentin, joka sisältää samat kontaktit kuin lokiin kirjattu segmentti.
 
 ## <a name="see-also"></a>Katso myös
 [Segmenttien luominen](marketing-how-create-segment.md)  

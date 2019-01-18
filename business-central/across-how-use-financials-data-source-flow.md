@@ -9,17 +9,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: workflow, Odata, Power App, SOAP
-ms.date: 10/01/2018
+ms.date: 10/16/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f7ae293942318c682202a84f0a54ae8b0516c77b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6f79bd9a5e3f79d4366a1a43411fe39942ac4e4f
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="using-included365finincludesd365finmdmd-in-an-automated-workflow"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen automaattisessa työnkulussa
-Voit käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietoja työnkulun osana Microsoft Flow'ssa.  
+Voit käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietoja työnkulun osana Microsoft Flow'ssa.
+
+> [!NOTE]
+> Microsoft Flow'n lisäksi voi käyttää työnkulkutoimintoa [!INCLUDE[d365fin](includes/d365fin_md.md)]issa. Huomaa, että vaikka kyse on erillisistä työnkulkujärjestelmistä, jokainen Microsoft Flow'ssa luotu Flow-malli lisätään työnkulkumallien luetteloon [!INCLUDE[d365fin](includes/d365fin_md.md)]issa. Lisätietoja on kohdassa [Työnkulku](across-workflow.md).  
 
 > [!NOTE]  
 >   Sinulla on oltava kelvollinen [!INCLUDE[d365fin](includes/d365fin_md.md)]- ja Flow-tili.  
@@ -28,7 +31,7 @@ Voit käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietoja työnkulun
 1. Siirry selaimessa osoitteeseen [flow.microsoft.com](https://flow.microsoft.com/en-us/) ja kirjaudu sisään.
 2. Valitse sivun yläosan valintanauhassa **Omat Flow't**.
 3. Flow'n voi luoda kahdella tavalla: **Luo mallista** ja **Luo tyhjästä mallista**. Malli on ennalta määritetty Flow, joka on luotu käyttäjälle.  Mallin käyttö on helppoa: valitse malli ja luo yhteys jokaiseen mallin käyttämään palveluun. Tyhjän mallin avulla voit luoda uuden Flow'n alusta alkaen.
-4. Voit luoda mallin tyhjästä valitsemalla **Omat Flow't** -ikkunassa **Luo tyhjästä mallista** -asetus.
+4. Voit luoda mallin tyhjästä valitsemalla **Omat Flow't** -sivulla **Luo tyhjästä mallista** -asetus.
 5. Etsi Connector for **Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]**.
 6. Valitse käytettävissä olevien käynnistimien luettelosta jokin [!INCLUDE[d365fin](includes/d365fin_md.md)] -käynnistin:  
     *Kun asiakkaan hyväksyntää on pyydetty*  
@@ -58,9 +61,6 @@ Olet nyt muodostanut yhteyden Business Central -tietoihin ja olet valmis aloitta
     *Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] yleisen päiväkirjan erän hyväksyntäpyyntö*  
     *Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] yleisen päiväkirjan rivien hyväksyntäpyyntö*.  
 11. Flow pyytää valitsemaan yrityksen [!INCLUDE[d365fin_md](includes/d365fin_md.md)] -vuokraajasta. Koska seuraavat vaiheet eivät vaikuta Flow'n vaiheisiin, saatat joutua määrittämään yrityksen useita kertoja [!INCLUDE[d365fin_md](includes/d365fin_md.md)] Flow -mallissa.
-
-> [!NOTE]  
-> [!INCLUDE[d365fin_md](includes/d365fin_md.md)] Flow -malli integroituu [!INCLUDE[d365fin_md](includes/d365fin_md.md)] -perustyönkulkumoduuliin. Tämä tarkoittaa sitä, että aina kun jokin näistä malleista luo Flow'n, vastaava työnkulku luodaan [!INCLUDE[d365fin_md](includes/d365fin_md.md)]issa. Työnkulun luova henkilö on lisäksi määritettävä hyväksyjäksi asetusten ohjatussa määritysoppaassa. Lisätietoja on kohdassa [Työnkulku](across-workflow.md).
 
 Lisätietoja on kohdassa [Flow-ohjeistus](https://docs.microsoft.com/en-us/flow/getting-started).
 

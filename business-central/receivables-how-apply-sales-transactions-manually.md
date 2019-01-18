@@ -11,30 +11,30 @@ ms.search.keywords: payment process, cash receipt
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ca7052fd5353ec93f6544aa7a9056fb492b638e2
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5f685ca69d9cf434e04e0c5205626eb24af3b5be
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="reconcile-customer-payments-manually"></a>Täsmäytä asiakkaan maksut manuaalisesti
 Kun asiakkaalta saadaan kassaanmaksu tai asiakkaalle tehdään käteishyvitys, on päätettävä, kohdistetaanko maksu tai hyvitys yhteen vai useaan avoimeen debet- tai kredit-tapahtumaan sen sulkemiseksi. Voit määrittää kohdistettavan summan. Voit esimerkiksi kohdistaa osamaksut asiakastapahtumiin. Asiakastapahtumat sulkeminen varmistaa, että tiedot, kuten asiakkaan tilastotiedot, tiliotteet ja viivästyskulut, ovat oikein.
 
 > [!NOTE]  
->   Punainen fontti **Asiakastapahtumat**-ikkunassa ilmaisee, että liittyvä maksu on myöhässä. Jos erääntyneistä maksuista tulee ongelma, niitä voidaan vähentää. Voit ottaa käyttöön **Myöhäisten maksujen ennusteet** -laajennuksen, joka käyttää Azure Machine Learning -ratkaisussa luodun ennakoivan mallin. Sen avulla voi ennustaa maksujen ajoituksen. Näiden ennusteiden avulla voit vähentää avoimia myyntisaatavia ja tarkentaa perintästrategiaa. Jos maksun ennustetaan olevan myöhässä, voit esimerkiksi muuttaa asiakkaan maksuehtoja tai maksutapaa. Lisätietoja on kohdassa [Myöhästyneiden maksujen ennusteet](ui-extensions-late-payment-prediction.md).  
+>   Punainen fontti **Asiakastapahtumat**-sivulla ilmaisee, että liittyvä maksu on myöhässä. Jos erääntyneistä maksuista tulee ongelma, niitä voidaan vähentää. Voit ottaa käyttöön **Myöhäisten maksujen ennusteet** -laajennuksen, joka käyttää Azure Machine Learning -ratkaisussa luodun ennakoivan mallin. Sen avulla voi ennustaa maksujen ajoituksen. Näiden ennusteiden avulla voit vähentää avoimia myyntisaatavia ja tarkentaa perintästrategiaa. Jos maksun ennustetaan olevan myöhässä, voit esimerkiksi muuttaa asiakkaan maksuehtoja tai maksutapaa. Lisätietoja on kohdassa [Myöhästyneiden maksujen ennusteet](ui-extensions-late-payment-prediction.md).  
 
 Voit kohdistaa asiakastapahtumia eri tavoilla:
 
-* antamalla tiedot soveltuvissa ikkunoissa, kuten **Kassapäiväkirja**- ja **Maksujen täsmäytyskirjauskansio** -ikkunoissa
+* antamalla tiedot soveltuvilla sivuilla, kuten **Kassapäiväkirja**- ja **Maksujen täsmäytyskirjauskansio** -sivuilla.
 * myyntihyvityslaskuasiakirjoista
 * asiakastapahtumista sen jälkeen, kun myyntiasiakirjat on kirjattu, mutta ei kohdistettu.
 
 > [!NOTE]  
 >   Jos asiakkaan kortin **Kohdistustapa**-kentän arvo on **Kohdista vanhimpaan**, maksut kohdistetaan automaattisesti vanhimpaan avoimeen kredit-tapahtumaan, ellei tapahtumaa määritetä manuaalisesti. Jos kohdistustapa on **Manuaalinen**, tapahtumat kohdistetaan aina manuaalisesti.
 
-Voit kohdistaa asiakkaan maksut manuaalisesti **Kassapäiväkirja**-ikkunassa. Kassapäiväkirja on yleisen päiväkirjan tyyppi, joten sitä voidaan käyttää kirjaamaan myyntitapahtumia yleinen päiväkirja -, pankki-, asiakas-, toimittaja- ja käyttöomaisuustileille. Voit kohdistaa maksun yhteen tai useampaan debet-tapahtumaan, kun kirjaat maksun, tai tehdä kohdistuksen myöhemmin kirjatuista tapahtumista.
+Voit kohdistaa asiakkaan maksut manuaalisesti **Kassapäiväkirja**-sivulla. Kassapäiväkirja on yleisen päiväkirjan tyyppi, joten sitä voidaan käyttää kirjaamaan myyntitapahtumia yleinen päiväkirja -, pankki-, asiakas-, toimittaja- ja käyttöomaisuustileille. Voit kohdistaa maksun yhteen tai useampaan debet-tapahtumaan, kun kirjaat maksun, tai tehdä kohdistuksen myöhemmin kirjatuista tapahtumista.
 
-Voit kohdistaa asiakas- ja toimittajamaksuja myös **Maksujen täsmäytyskirjauskansio** -ikkunassa pankin tiliotteen tuonti-, automaattisen kohdistamis- ja pankkitilin täsmäyttämistoiminnoilla. Lisätietoja on kohdassa [Maksujen täsmäyttäminen käyttämällä automaattista kohdistusta](receivables-how-reconcile-payments-auto-application.md). Vaihtoehtoisesti voit täsmäyttää asiakasmaksut **Maksurekisteröinti**-ikkunan maksamattomien myyntiasiakirjojen luettelon perusteella. Lisätietoja on kohdassa [Asiakasmaksujen täsmäyttäminen maksamattomien myyntiasiakirjojen luettelosta](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md).
+Voit kohdistaa asiakas- ja toimittajamaksuja myös **Maksujen täsmäytyskirjauskansio** -sivulla pankin tiliotteen tuonti-, automaattisen kohdistamis- ja pankkitilin täsmäyttämistoiminnoilla. Lisätietoja on kohdassa [Maksujen täsmäyttäminen käyttämällä automaattista kohdistusta](receivables-how-reconcile-payments-auto-application.md). Vaihtoehtoisesti voit täsmäyttää asiakasmaksut **Maksurekisteröinti**-sivun maksamattomien myyntiasiakirjojen luettelon perusteella. Lisätietoja on kohdassa [Asiakasmaksujen täsmäyttäminen maksamattomien myyntiasiakirjojen luettelosta](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md).
 
 ## <a name="to-fill-and-post-a-cash-receipt-journal"></a>Kassapäiväkirjan täyttäminen ja kirjaaminen
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kassapäiväkirja** ja valitse sitten liittyvä linkki.
@@ -59,12 +59,12 @@ Voit kohdistaa asiakas- ja toimittajamaksuja myös **Maksujen täsmäytyskirjaus
 4. Syötä **Asiakirjatyyppi**-kenttään **Maksu**.
 5. Syötä **Tilityyppi**-kenttään **Asiakas**.
 6. Syötä **Vastatilin tyyppi** -kenttään **Pankkitili**.
-7. Avaa **Kohdista asiakastapahtumat** -ikkuna valitsemalla **Kohdistetaan asiakirjaan nro** -kentässä kenttä.
-8. Valitse **Kohdista asiakastapahtumat** -ikkunassa tapahtuma, johon maksu kohdistetaan.
+7. Avaa **Kohdista asiakastapahtumat** -sivu valitsemalla **Kohdistetaan asiakirjaan nro** -kentässä kenttä.
+8. Valitse **Kohdista asiakastapahtumat** -sivulla tapahtuma, johon maksu kohdistetaan.
 9. Syötä tapahtumaan kohdistettava summa **Kohdistettava summa** -kenttään. Jos summaa ei määritetä, käytetään enimmäissummaa.
 
-    **Kohdista asiakastapahtumat** -ikkunan alaosan **Kohdistettu summa** -kentässä on tietty summa sekä tieto siitä, täsmääkö kohdistus.  
-10. Valitse **OK**-painike. **Kassapäiväkirja**-ikkunassa näkyy nyt tapahtuma, jonka olet antanut **Kohdistetaan asiakirjatyyppiin**- ja **Kohdistetaan asiakirjaan nro** -kenttiin.
+    **Kohdista asiakastapahtumat** -sivun alaosan **Kohdistettu summa** -kentässä on tietty summa sekä tieto siitä, täsmääkö kohdistus.  
+10. Valitse **OK**-painike. **Kassapäiväkirja**-sivulla näkyy nyt tapahtuma, jonka olet antanut **Kohdistetaan asiakirjatyyppiin**- ja **Kohdistetaan asiakirjaan nro** -kenttiin.
 11. Kirjaa kassapäiväkirja.
 
 ## <a name="to-apply-a-payment-to-multiple-customer-ledger-entries"></a>Maksun kohdistaminen useaan asiakastapahtumaan:
@@ -79,7 +79,7 @@ Voit kohdistaa asiakas- ja toimittajamaksuja myös **Maksujen täsmäytyskirjaus
 9. Valitse rivit, joiden tapahtumiin tapahtuma kohdistetaan, ja valitse sitten **Aseta kohdistustunniste** -toiminto.  
 10. Määritä yksittäiseen tapahtumaan kohdistettava summa kunkin rivin **Kohdistettava summa** -kenttään. Jos summaa ei määritetä, käytetään enimmäissummaa.
 
-    **Kohdista asiakastapahtumat** -ikkunan alaosan **Kohdistettu summa** -kentässä on tietty summa sekä tieto siitä, täsmääkö kohdistus.  
+    **Kohdista asiakastapahtumat** -sivun alaosan **Kohdistettu summa** -kentässä on tietty summa sekä tieto siitä, täsmääkö kohdistus.  
 11. Valitse **OK**-painike.
 12. Kirjaa kassapäiväkirja.
 
@@ -89,8 +89,8 @@ Voit kohdistaa asiakas- ja toimittajamaksuja myös **Maksujen täsmäytyskirjaus
 3. Jos haluat kohdistaa hyvityslaskun yksittäiseen asiakastapahtumaan kirjauksen yhteydessä, valitse **Kohdistetaan asiakirjaan nro** -kentässä tapahtuma, johon haluat kohdistaa maksun.
 4. Määritä tapahtumaan kohdistettava summa rivin **Kohdistettava summa** -kenttään.  
 
-    Jos summaa ei määritetä, ohjelma kohdistaa automaattisesti enimmäissumman. **Kohdista asiakastapahtumat** -ikkunan alaosan **Kohdistettu summa** -kentässä on tietty summa sekä tieto siitä, täsmääkö kohdistus.    
-5. Valitse **OK**-painike. **Myyntihyvityslasku**-ikkunassa näkyy nyt tapahtuma, jonka olet antanut **Kohdistetaan asiakirjatyyppiin**- ja **Kohdistetaan asiakirjaan nro** -kentissä. -ikkunassa näkyy nyt kirjattava hyvityslaskun summa sekä mahdolliset maksualennukset.
+    Jos summaa ei määritetä, ohjelma kohdistaa automaattisesti enimmäissumman. **Kohdista asiakastapahtumat** -sivun alaosan **Kohdistettu summa** -kentässä on tietty summa sekä tieto siitä, täsmääkö kohdistus.    
+5. Valitse **OK**-painike. **Myyntihyvityslasku**-sivulla näkyy nyt tapahtuma, jonka olet antanut **Kohdistetaan asiakirjatyyppiin**- ja **Kohdistetaan asiakirjaan nro** -kentissä. -ikkunassa näkyy nyt kirjattava hyvityslaskun summa sekä mahdolliset maksualennukset.
 6. Kirjaa hyvityslasku.
 
 ## <a name="to-apply-a-credit-memo-to-multiple-customer-ledger-entries"></a>Hyvityslaskun kohdistaminen useaan asiakastapahtumaan:
@@ -100,20 +100,20 @@ Voit kohdistaa asiakas- ja toimittajamaksuja myös **Maksujen täsmäytyskirjaus
 4. Valitse rivit, joiden tapahtumiin tapahtuma kohdistetaan, ja valitse sitten **Aseta kohdistustunniste** -toiminto.
 5. Määritä yksittäiseen tapahtumaan kohdistettava summa kunkin rivin **Kohdistettava summa** -kenttään. Jos summaa ei määritetä, käytetään enimmäissummaa.  
 
-    **Kohdista asiakastapahtumat** -ikkunan alaosan **Kohdistettu summa** -kentässä on tietty summa sekä tieto siitä, täsmääkö kohdistus.  
-6. Valitse **OK**-painike. **Myyntihyvityslasku**-ikkunassa näkyy nyt kirjattava hyvityslaskun summa sekä mahdolliset maksualennukset.
+    **Kohdista asiakastapahtumat** -sivun alaosan **Kohdistettu summa** -kentässä on tietty summa sekä tieto siitä, täsmääkö kohdistus.  
+6. Valitse **OK**-painike. **Myyntihyvityslasku**-sivulla näkyy nyt kirjattava hyvityslaskun summa sekä mahdolliset maksualennukset.
 7. Kirjaa hyvityslasku.
 
 ## <a name="to-apply-posted-customer-ledger-entries"></a>Kirjattujen asiakastapahtumien kohdistaminen:
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asiakkaat** ja valitse sitten liittyvä linkki.
 2. Avaa sen asiakkaan kortti, jonka tapahtumia haluat kohdistaa.
 3. Valitse **Tapahtumakirjaukset**-toiminto ja valitse sitten sen tapahtuman rivi, johon tapahtuma kohdistetaan.
-4. Valitse **Kohdista tapahtumat** -toiminto. Näyttöön avautuu **Kohdista asiakastapahtumat** -ikkuna, jossa näkyvät asiakkaan avoimet tapahtumat.
+4. Valitse **Kohdista tapahtumat** -toiminto. Näyttöön avautuu **Kohdista asiakastapahtumat** -sivu, jossa näkyvät asiakkaan avoimet tapahtumat.
 5. Valitse rivit, joiden tapahtumiin tapahtuma kohdistetaan, ja valitse sitten **Aseta kohdistustunniste** -toiminto.
 6. Määritä yksittäiseen tapahtumaan kohdistettava summa kunkin rivin **Kohdistettava summa** -kenttään. Jos summaa ei määritetä, käytetään enimmäissummaa.  
 
-    Tietty summa näkyy **Kohdista asiakastapahtumat** -ikkunan alaosan **Kohdistettu summa** -kentässä.  
-7. Valitse **Kirjaa kohdistus** -toiminto. Näyttöön avautuu **Kirjaa kohdistus** -ikkuna, joka sisältää kohdistettavan tapahtuman asiakirjanumeron sekä viimeksi kirjatun tapahtuman kirjauspäivämäärän.  
+    Tietty summa näkyy **Kohdista asiakastapahtumat** -sivun alaosan **Kohdistettu summa** -kentässä.  
+7. Valitse **Kirjaa kohdistus** -toiminto. Näyttöön avautuu **Kirjaa kohdistus** -sivu, joka sisältää kohdistettavan tapahtuman asiakirjanumeron sekä viimeksi kirjatun tapahtuman kirjauspäivämäärän.  
 8. Kirjaa sovellus valitsemalla **OK**.
 
     Jos kirjatun kohdistuksen tuloksena on suljettuja asiakastapahtumia, näiden tapahtumien **Avoin**-kentässä ei enää ole valintamerkkiä.    
@@ -122,12 +122,12 @@ Voit kohdistaa asiakas- ja toimittajamaksuja myös **Maksujen täsmäytyskirjaus
 **Avaa**-valintaruutua, joka sijaitsee sen tapahtumakirjausluettelon rivillä, joka sisältää kokonaan kohdistetun tapahtumakirjauksen, ei ole valittu.  
 
 > [!NOTE]  
->   Kun valitset tapahtuman **Kohdista asiakastapahtumat** -ikkunassa tai useita tapahtumia määrittämällä **Kohdistetaan tunnisteeseen** -kohdan arvon, päiväkirjarivin **Kohdistettu summa** -kentässä näytetään valittujen kirjattujen tapahtumien jäljellä oleva yhteissumma, ellei kentässä ole jo arvoa. Jos asiakkaan kortin **Kohdistustapa**-kentässä valitaan **Kohdista vanhimpaan**, sovellus tekee kohdistuksen automaattisesti.
+>   Kun valitset tapahtuman **Kohdista asiakastapahtumat** -sivulla tai useita tapahtumia määrittämällä **Kohdistetaan tunnisteeseen** -kohdan arvon, päiväkirjarivin **Kohdistettu summa** -kentässä näytetään valittujen kirjattujen tapahtumien jäljellä oleva yhteissumma, ellei kentässä ole jo arvoa. Jos asiakkaan kortin **Kohdistustapa**-kentässä valitaan **Kohdista vanhimpaan**, sovellus tekee kohdistuksen automaattisesti.
 
 ## <a name="to-apply-customer-ledger-entries-in-different-currencies-to-one-another"></a>Erivaluuttaisten asiakastapahtumien kohdistaminen toisiinsa:
 Jos asiakkaalle myydään yhdessä valuutassa ja maksu vastaanotetaan toisessa valuutassa, maksu voidaan kohdistaa laskuun.  
 
-Jos tapahtuma (tapahtuma 1) kohdistetaan eri valuuttaa käyttävään tapahtumaan (tapahtuma 2), tapahtuman 2 summien muuntamisessa käytettävä vaihtokurssi etsitään tapahtuman 1 kirjauspäivämäärän mukaan. Vaihtokurssi löytyy **Valuutan vaihtokurssit** -ikkunasta.  
+Jos tapahtuma (tapahtuma 1) kohdistetaan eri valuuttaa käyttävään tapahtumaan (tapahtuma 2), tapahtuman 2 summien muuntamisessa käytettävä vaihtokurssi etsitään tapahtuman 1 kirjauspäivämäärän mukaan. Vaihtokurssi löytyy **Valuutan vaihtokurssit** -sivulta.  
 
 Asiakastapahtumien kohdistaminen eri valuutoissa on otettava käyttöön. Lisätietoja on kohdassa [Tapahtumakirjausten kohdistamisen ottaminen käyttöön eri valuutoissa](finance-how-enable-application-ledger-entries-different-currencies.md).  
 
@@ -139,7 +139,7 @@ Asiakastapahtumien kohdistaminen eri valuutoissa on otettava käyttöön. Lisät
 6. Kirjaa myyntipäiväkirja.  
 
 > [!IMPORTANT]  
->   Kun erivaluuttaisia tapahtumia kohdistetaan, tapahtumat muunnetaan paikallista valuuttaa (USD) käyttäen. Vaikka valuuttojen vaihtokurssit ovat kiinteät (esimerkiksi Yhdysvaltain dollarin ja euron välillä), pieniä jäännössummia saattaa esiintyä, kun ulkomaan valuutat muunnetaan Yhdysvaltain dollariksi. Nämä pienet jäännössummat kirjataan voitoiksi ja tappioiksi **Valuutat**-ikkunan **Realisoitun. val.voitt. tili**- ja **Realisoitun. val.tapp. tili** -kentissä määritetyille tileille. **Summa (USD)** -kenttää muokataan myös toimittajatapahtumien mukaan.  
+>   Kun erivaluuttaisia tapahtumia kohdistetaan, tapahtumat muunnetaan paikallista valuuttaa (USD) käyttäen. Vaikka valuuttojen vaihtokurssit ovat kiinteät (esimerkiksi Yhdysvaltain dollarin ja euron välillä), pieniä jäännössummia saattaa esiintyä, kun ulkomaan valuutat muunnetaan Yhdysvaltain dollariksi. Nämä pienet jäännössummat kirjataan voitoiksi ja tappioiksi **Valuutat**-sivun **Realisoitun. val.voitt. tili**- ja **Realisoitun. val.tapp. tili** -kentissä määritetyille tileille. **Summa (USD)** -kenttää muokataan myös toimittajatapahtumien mukaan.  
 
 ## <a name="to-correct-an-application-of-customer-entries"></a>Asiakkaan tapahtumien kohdistuksen korjaaminen
 Kun kohdistus korjataan, ohjelma luo ja kirjaa korjaavat tapahtumat (eli tapahtumat, jotka ovat alkuperäisten tapahtumien kanssa identtisiä mutta joiden summakentässä on vastakkainen etumerkki) kaikille tapahtumille, myös kaikille kohdistuksesta johdetuille KP-kirjauksille, kuten maksualennuksille ja valuuttavoitoille tai tappioille. Ohjelma avaa uudelleen kohdistuksen sulkemat tapahtumat.  

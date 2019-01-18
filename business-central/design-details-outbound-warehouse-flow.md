@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 068ed0057b6c12beebfa35951b6c1ffbd6ac556b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d2ea80352352cfac83ebce97fee9d4f312e00348
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Rakennetiedot: lähtevän fyysisen varastoinnin virta
@@ -66,7 +66,7 @@ Lisäksi olemassa on seuraavat sisäiset lähdeasiakirjat, jotka toimivat kuten 
  Kun lähtevä lähdeasiakirja vapautetaan, fyysisen varastoinnin lähtevä pyyntö luodaan automaattisesti. Se sisältää viittauksia lähdeasiakirjan tyyppiin ja numeroon, eikä se ei näy käyttäjälle.  
 
 ### <a name="3-create-inventory-pick-or-movement"></a>3: Luo varastopoiminta tai siirto  
- Varastotyöntekijä noutaa pull-muodossa **Varaston poiminta** $ tai **Varaston siirto** -ikkunassa odottavat lähdeasiakirjarivit, jotka perustuvat lähteviin fyysisen varastoinnin pyyntöihin. Vaihtoehtoisesti, varaston poiminnan rivit on jo luotu push-muodossa sen käyttäjän toimesta, joka on vastuussa lähdeasiakirjasta.  
+ Varastotyöntekijä noutaa pull-muodossa **Varaston poiminta**- tai **Varaston siirto** -sivuilla odottavat lähdeasiakirjarivit, jotka perustuvat lähteviin fyysisen varastoinnin pyyntöihin. Vaihtoehtoisesti, varaston poiminnan rivit on jo luotu push-muodossa sen käyttäjän toimesta, joka on vastuussa lähdeasiakirjasta.  
 
 ### <a name="4-post-inventory-pick-or-register-inventory-movement"></a>4: Kirjaa varaston poiminta tai rekisteröi varastosiirto  
  Kaikkien osittain tai kokonaan poimittujen tai siirrettyjen nimikkeiden rivin osalta varastotyöntekijä täyttää **Määrä**-kentän ja kirjaa sitten varaston poiminnan tai rekisteröi varastosiirron. Lähdeasiakirjat, jotka liittyvät varaston poimintaan, on tiliöity lähetettyinä tai käytettyinä. Lähdeasiakirjoja, jotka liittyvät varaston kehitykseen, ei ole lähetetty.  
@@ -85,7 +85,7 @@ Lisäksi olemassa on seuraavat sisäiset lähdeasiakirjat, jotka toimivat kuten 
  Kun saapuva lähdeasiakirja vapautetaan, fyysisen varastoinnin lähtevä pyyntö luodaan automaattisesti. Se sisältää viittauksia lähdeasiakirjan tyyppiin ja numeroon, eikä se ei näy käyttäjälle.  
 
 ### <a name="3-create-warehouse-shipment"></a>3: Luo fyysisen varaston toimitus  
- Vastuussa oleva toimitustyöntekijä noutaa **F.var. toimitus**-ikkunassa odottavat lähdeasiakirjarivit, jotka perustuvat lähtevän fyysisen varastoinnin pyyntöön. Useita lähdeasiakirjan rivejä voidaan yhdistää yhdessä varaston lähetysasiakirjassa.  
+ Vastuussa oleva toimitustyöntekijä noutaa **F.var. toimitus** -sivulla odottavat lähdeasiakirjarivit, jotka perustuvat lähtevän fyysisen varastoinnin pyyntöön. Useita lähdeasiakirjan rivejä voidaan yhdistää yhdessä varaston lähetysasiakirjassa.  
 
 ### <a name="4-release-shipment--create-warehouse-pick"></a>4: Vapauta toimitus / luo varaston poiminta  
  Toimituksesta vastaava työntekijä, vapauttaa varastotoimitukset niin, että varastotyöntekijät voivat luoda tai koordinoida varastopoiminnat kyseiseen toimitukseen.  
@@ -109,7 +109,7 @@ Lisäksi olemassa on seuraavat sisäiset lähdeasiakirjat, jotka toimivat kuten 
  Poiminnan suorittava varastotyöntekijä luo fyysisen varastoinnin poiminta-asiakirjan vapautetun lähdeasiakirjan perusteella. Vaihtoehtoisesti fyysisen varastoinnin poiminta-asiakirja luodaan ja kohdistetaan varastotyöntekijään push-menetelmällä.  
 
 ### <a name="9-register-warehouse-pick"></a>9: Rekisteröi f. varastoinnin poiminta  
- Kaikkien osittain tai kokonaan poimittujen nimikkeiden rivin osalta varastotyöntekijä täyttää **Määrä**-kentän **F.varastoinnin poiminta**-ikkunassa ja rekisteröi sitten fyysisen varaston poiminnan.  
+ Kaikkien osittain tai kokonaan poimittujen nimikkeiden rivin osalta varastotyöntekijä täyttää **Määrä**-kentän **F.varastoinnin poiminta** -sivulla ja rekisteröi sitten fyysisen varaston poiminnan.  
 
  Fyysisen varastoinnin tapahtumat luodaan ja fyysisen varastoinnin poimintarivit poistetaan, jos ne käsitellään kokonaan. Fyysisen varastoinnin poiminta-asiakirja pysyy avoimena niin kauan, kunnes liittyvän fyysisen varastoinnin toimituksen koko määrä on rekisteröity. **Määrä poimittu**-kenttä varaston lähetysriveillä on päivitetty sen mukaisesti.  
 

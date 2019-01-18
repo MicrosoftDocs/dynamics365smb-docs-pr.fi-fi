@@ -11,10 +11,10 @@ ms.search.keywords: design, items, ledger entries, posting, inventory
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 12fa67c9e0c161d99faab376c440f6299fa8aa52
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5165cb97d73562d9614a955269ebdcbdc2ff33e4
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-item-application"></a>Rakennetiedot: Nimikkeen kohdistus
@@ -189,7 +189,7 @@ Seuraavassa taulukossa esitetään täsmällisen kustannusten kumoamisen vaikutu
 Kun **Muuta kustannuksia - Nimiketapahtumat** -eräajo suoritetaan, ostotapahtuman nimikeveloituksen vuoksi nousseet kustannukset välitetään myyntitapahtumalle (tapahtuma numero 2). Myyntikirjaus lähettää sitten edelleen nämä kasvaneet kustannukset myynnin kredit-kirjaukseen (kirjausnumero 3). Lopputulos on se, että kustannukset on kumottu oikein.  
 
 > [!NOTE]  
->  Kun käsittelet palautuksia tai hyvityslaskuja ja olet määrittänyt **Todellisen kust. peruutt. pakollinen** -kentän joko **Ostojen ja ostovelkojen asetukset** - tai **Myyntien ja myyntisaamisten asetukset** -ikkunassa tilanteesi mukaisesti, [!INCLUDE[d365fin](includes/d365fin_md.md)] täyttää kohdistustapahtumakentät automaattisesti, kun käytät **Kopioi asiakirja** -toimintoa. Jos käytät **Hae peruutettavat kirjatut asiakirjarivit** -toimintoa, tällöin kentät täytetään aina automaattisesti.  
+>  Kun käsittelet palautuksia tai hyvityslaskuja ja olet määrittänyt **Todellisen kust. peruutt. pakollinen** -kentän joko **Ostojen ja ostovelkojen asetukset**- tai **Myyntien ja myyntisaamisten asetukset** -sivulla tilanteesi mukaisesti, [!INCLUDE[d365fin](includes/d365fin_md.md)] täyttää kohdistustapahtumakentät automaattisesti, kun käytät **Kopioi asiakirja** -toimintoa. Jos käytät **Hae peruutettavat kirjatut asiakirjarivit** -toimintoa, tällöin kentät täytetään aina automaattisesti.  
 
 > [!NOTE]  
 >  Jos kirjaat tapahtuman, jolla on kiinteä kohdistus ja kohdistettava nimiketapahtuma on suljettu (eli jäljellä oleva määrä on nolla), tällöin vanha kohdistus kumotaan automaattisesti ja nimiketapahtuma kohdistetaan uudelleen käyttämällä määrittämääsi kiinteää kohdistusta.  
@@ -237,7 +237,7 @@ Nimikkeen yksikkökustannuksen laskentatavan mukaan nimikkeen virheellinen kohdi
 * Haluat ohittaa kirjauksen yhteydessä automaattisesti nimikkeen arvostusmenetelmän perusteella luodun kohdistuksen.  
 * Palauta nimike, jolle on jo manuaalisesti kohdistettu myynti, ilman **Hae peruutettavat kirjatut asiakirjarivit** -toiminnon käyttämistä. Kohdistus on tämän vuoksi peruutettava.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] tarjoaa ominaisuuden nimikkeen kohdistusten analysointiin ja korjaamiseen. Tämä työ tehdään **Kohdistustyökirja**-ikkunassa.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] tarjoaa ominaisuuden nimikkeen kohdistusten analysointiin ja korjaamiseen. Tämä työ tehdään **Kohdistustyökirja**-sivulla.  
 
 ## <a name="see-also"></a>Katso myös  
 [Rakennetiedot: Nimikkeen kohdistuksen tunnettu ongelma](design-details-inventory-zero-level-open-item-ledger-entries.md)  

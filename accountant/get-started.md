@@ -4,17 +4,14 @@ description: Tutustu Dynamics 365:n Accountant Hubiin.
 author: edupont04
 ms.service: dynamics365-accountant
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 05/15/2018
+ms.date: 11/23/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 4bc9199b879c23115082b07a81d6da5a0b46e60d
-ms.openlocfilehash: bb700a7c65721efb7c1322420a4929eb7adc4433
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0c4dadb15c9756c49f94839236766432844088c8
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/31/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="get-started-with-include-d365acclongincludesd365acclongmdmd"></a>Aloita [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]in käyttö
@@ -29,13 +26,15 @@ Saat [!INCLUDE [d365acc](includes/d365acc_md.md)]in käyttöoikeuden rekisteröi
 
 ## <a name="working-with-individual-clients"></a>Yksittäisten asiakkaiden tietojen käsitteleminen
 Koontinäytössä esitetään kunkin asiakkaan tärkeimmät tiedot.  
-![Accountant Hub](./media/accountant-get-started/accountant-dashboard-tasks.png)
+
+> [!div class="mx-imgBorder"]
+> ![Accountant Hub](./media/accountant-get-started/accountant-dashboard.png)
 
 **Asiakkaan nimi** -sarakkeessa näytetään asiakkaiden nimet ja **Yrityksen nimi** sarakkeessa näkyvät kaikki yritykset, jos asiakkaalla on useita yrityksiä [!INCLUDE [d365fin_long](includes/d365fin_long_md.md)]issa. Näet kenttien avulla myös sinulle asiakkaan yrityksessä määritetyt tehtävät – mukaan lukien erääntyneet tehtävät.  
 
 Koontinäyttöä voi mukauttaa näyttämään haluamasi arvopisteet lisäämällä tai poistamalla sarakkeita. Voit esimerkiksi haluta nähdä erääntyvät verot, asiakkaan avoimet myyntiasiakirjat tai tulevalla viikolla erääntyvät ostolaskut. Voit määrittää näkymän omiin tarpeisiisi sopivaksi. Jos sinulla on useita asiakkaita, voit lajitella näkymän suodattimien avulla.  
 
-Asiakkaan nimen vieressä olevat kolme pistettä (...) avaavat pikavalikon:
+Asiakkaan nimen vieressä olevat kolme pistettä avaavat lyhytvalikon:
 
 - Päivitä nykyinen yritys ja hae asiakkaan tuoreet tiedot  
 - Siirry asiakkaan [!INCLUDE [d365fin](includes/d365fin_md.md)]iin  
@@ -54,37 +53,41 @@ Saat lisätietoja asiakkaiden tiedoista valitsemalla sen yrityksen nimen, josta 
 * Erääntyneet ostolaskut  
 * Erääntyneet myyntilaskut  
 
-![Asiakasyrityksen tiedot kirjanpitäjän koontinäytössä](./media/accountant-get-started/accountant-company-details.png)
+> [!div class="mx-imgBorder"]
+> ![Asiakasyrityksen tiedot kirjanpitäjän koontinäytössä](./media/accountant-get-started/accountant-company-details.png)
 
 Olet nyt kirjautunut asiakkaan [!INCLUDE [d365fin](includes/d365fin_md.md)]iin ja näkemäsi tiedot ovat reaaliaikaisesti päivittyviä tietoja. Jos haluat tarkastella esimerkiksi erääntyneen ostolaskun tietoja, valitse linkki, joka siirtää sinut asiakasyritykseen.  
 
 > [!TIP]
->  Voit avata ennalta määritettyjä Excel-työkirjoja valintanauhan **Raportit**-välilehdessä. Excel-työkirjat on suunniteltu tulostettaviksi tärkeitä taloustietoja sisältäviksi laskelmiksi ja raporteiksi, mutta niitä voi myös muokata omia tarpeita vastaaviksi. Lisätietoja on [!INCLUDE [d365fin](includes/d365fin_md.md)]:n ohjeen kohdassa [Rahoituslaskelmien analysointi Microsoft Excelissä](/dynamics365/business-central/finance-analyze-excel?toc=/dynamics365/accountants/toc.json).  
+> Voit avata ennalta määritettyjä Excel-työkirjoja valintanauhan **Raportit**-välilehdessä. Excel-työkirjat on suunniteltu tulostettaviksi tärkeitä taloustietoja sisältäviksi laskelmiksi ja raporteiksi, mutta niitä voi myös muokata omia tarpeita vastaaviksi. Lisätietoja on [!INCLUDE [d365fin](includes/d365fin_md.md)]:n ohjeen kohdassa [Rahoituslaskelmien analysointi Microsoft Excelissä](/dynamics365/business-central/finance-analyze-excel?toc=/dynamics365/accountants/toc.json).  
 
 Sulje muussa tapauksessa tietoruutu ja jatka seuraavaan asiakkaaseen.  
 
 ## <a name="assigned-tasks"></a>Määritetyt tehtävät
-Voit määrittää tehtäviä asiakkaan [!INCLUDE [d365fin](includes/d365fin_md.md)]:ssä itselle ja muille; lisäksi muut voivat määrittää tehtäviä sinulle. [!INCLUDE [d365acc](includes/d365acc_md.md)]:n koontinäyttö antaa yleiskuvan kullekin asiakkaalle määritetyistä tehtävistä. Saat käyttöösi myös luettelon kaikista määritetyistä tehtävistä valitsemalla vasemmassa siirtymisruudussa **Omat käyttäjätehtävät**.  
+Voit määrittää tehtäviä asiakkaan [!INCLUDE [d365fin](includes/d365fin_md.md)]:ssä itselle ja muille; lisäksi muut voivat määrittää tehtäviä sinulle. [!INCLUDE [d365acc](includes/d365acc_md.md)]:n koontinäyttö antaa yleiskuvan kullekin asiakkaalle määritetyistä tehtävistä. Saat käyttöösi myös luettelon kaikista määritetyistä tehtävistä valitsemalla **Aloitus**-sivulla **Omat käyttäjätehtävät**.  
 
 Asiakasyrityksessä on myös pinoja, jotka kutsuvat sinulle kyseisessä asiakkaassa määritetyt tehtävät.
 
-![Asiakasyrityksessä kirjanpitäjälle määritetyt tehtävät](./media/accountant-get-started/accountant-company-details-tasks.png)
+> [!div class="mx-imgBorder"]
+> ![Asiakasyrityksessä kirjanpitäjälle määritetyt tehtävät](./media/accountant-get-started/accountant-company-details-tasks.png)
 
 ### <a name="my-user-tasks"></a>Omat käyttäjätehtävät
 [!INCLUDE [d365acc](includes/d365acc_md.md)]in **Omat käyttäjätehtävät** -luettelo auttaa päivän tehtävien priorisoinnissa, sillä siinä on lisätietoja kaikista asiakkaiden sinulle määrittämistä tehtävistä.  
 
-![Luettelo minulle ulkoisena kirjanpitäjänä määritetyistä tehtävistä](./media/accountant-get-started/accountant-tasklist.png)
+> [!div class="mx-imgBorder"]
+> ![Luettelo minulle ulkoisena kirjanpitäjänä määritetyistä tehtävistä](./media/accountant-get-started/accountant-tasklist.png)
 
 Voit tehdä lajittelun esimerkiksi määräpäivän mukaan tai minkä tahansa sellaisen tietotyypin mukaan, joka auttaa päivän priorisoinnissa. Luettelossa näkyy oletusarvoisesti kaikki sinulle määritetyt tehtävät, mutta määrittää suodattimet näyttämään esimerkiksi vain korkean prioriteetin tehtävät.
 
-Voit poimia tehtävän yksinkertaisesti valitsemalla sen odottavien käyttäjätehtävien luettelosta. Valintanauhan **Siirry tehtäväkohteeseen** -linkki avaa ikkunan, jossa voit suorittaa työn.  
+Voit poimia tehtävän yksinkertaisesti valitsemalla sen odottavien käyttäjätehtävien luettelosta. Valintanauhan **Siirry tehtäväkohteeseen** -linkki avaa sivun, jossa voit suorittaa työn.  
 
-Kun tehtävä on suoritetty, voit merkitä sen valmiiksi.  
+Kun tehtävä on suoritettu, voit merkitä sen valmiiksi.  
 
 ## <a name="see-also"></a>Katso myös
+
 [Asiakkaiden lisääminen [!INCLUDE[d365acc](includes/d365acc_md.md)]](add-client.md)in koontinäyttöön  
 [Tervetuloa [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]iin!](index.md)  
-[Rahoituslaskelmien analysointi Microsoft Excelissä](/dynamics365/business-central/finance-analyze-excel?toc=/dynamics365/accountants/toc.json)   
+[Rahoituslaskelmien analysointi Microsoft Excel](/dynamics365/business-central/finance-analyze-excel?toc=/dynamics365/accountants/toc.json):issä  
 [Kirjanpitäjän käyttökokemukset [!INCLUDE[d365fin](includes/d365fin_md.md)]issa](/dynamics365/business-central/finance-accounting?toc=/dynamics365/accountants/toc.json)  
 [Dynamics 365 – Accountant Hub Microsoft.comissa](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
 

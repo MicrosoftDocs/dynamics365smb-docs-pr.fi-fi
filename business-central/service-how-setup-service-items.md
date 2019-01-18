@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e946bab348aeee1b65b85165b2d9d553736813ba
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: e82aa86668da5999117eea636ee29d8fde2cc09e
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-service-items-and-service-item-components"></a>Huoltonimikkeiden ja huoltonimikkeen komponenttien määrittäminen
@@ -39,11 +39,11 @@ Huoltonimikeryhmiä määritetään **Nimike**-kortin nimikkeille ja **Huoltonim
 7. Jos haluat rekisteröidä ryhmän nimikkeen huoltonimikkeiksi silloin, kun ne myydään, valitse **Luo huoltonimike** -kenttä.  
 
 ## <a name="to-set-up-service-item-components"></a>Huoltonimikkeen komponenttien määrittäminen
-Huoltonimike voi koostua useista komponenteista, jotka voidaan korvata varaosilla nimikettä huollettaessa. Nämä komponentit määritetään **Huoltonimikk. komponenttiluet.** -ikkunassa. Jos lisäksi haluat määrittää komponentteja huoltonimikkeille, jotka ovat tuoterakenteita, tuoterakennenimikkeet voidaan kopioida ja luoda huoltonimikkeen komponentteina.
+Huoltonimike voi koostua useista komponenteista, jotka voidaan korvata varaosilla nimikettä huollettaessa. Nämä komponentit määritetään **Huoltonimikk. komponenttiluet.** -sivulla. Jos lisäksi haluat määrittää komponentteja huoltonimikkeille, jotka ovat tuoterakenteita, tuoterakennenimikkeet voidaan kopioida ja luoda huoltonimikkeen komponentteina.
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltonimikkeet** ja valitse sitten liittyvä linkki.
 2. Avaa huoltonimike, jolle haluat määrittää komponentteja.  
-3. Valitse **Komponentit**-toiminto. Näyttöön tulee **Huoltonimikk. komponenttiluet.** -ikkuna.  
+3. Valitse **Komponentit**-toiminto. Näyttöön tulee **Huoltonimikk. komponenttiluet.** -sivu.  
 4. Uuden ryhmän lisääminen  
 5. Valitse **Tyyppi** -kentässä **Huoltonimike**, jos itse komponentti on rekisteröity huoltonimike. Muutoin valitse **Nimike**.  
 6. Valitse **Nro**-kenttään nimike tai huoltonimike, joka on huoltonimikkeen komponentti.  
@@ -51,13 +51,13 @@ Huoltonimike voi koostua useista komponenteista, jotka voidaan korvata varaosill
 ## <a name="to-set-up-service-item-components-from-a-bom"></a>Huoltonimikkeen komponenttien määrittäminen tuoterakenteista
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltonimikkeet** ja valitse sitten liittyvä linkki.  
 2. Avaa huoltonimike, jolle haluat määrittää komponentteja huoltorakenteesta.  
-3. Valitse **Komponentit**-toiminto. **Huoltonimikk. komponenttiluet.** -ikkuna avautuu.  
+3. Valitse **Komponentit**-toiminto. Näyttöön tulee **Huoltonimikk. komponenttiluet.** -sivu.  
 4. Valitse **Kopioi tuoterakenteesta** -toiminto.  
 
     Jos nimike, johon huoltonimike on linkitetty, on tuoterakenne, ohjelma luo automaattisesti komponentteja kaikille tuoterakenteessa oleville nimikkeille.  
 
 ## <a name="to-set-up-a-service-shelf"></a>Huoltohyllyn määrittäminen
-Voit määrittää huoltohyllyjä, jotka ilmaisevat, mihin huoltonimikkeet varastoidaan. Huoltohyllyt määritetään huoltonimikkeille **Huoltotilaus**- ja **Huoltonimikkeen työkirja** -ikkunoissa.  
+Voit määrittää huoltohyllyjä, jotka ilmaisevat, mihin huoltonimikkeet varastoidaan. Huoltohyllyt määritetään huoltonimikkeille **Huoltotilaus**- ja **Huoltonimikkeen työkirja** -sivuilla.  
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltohyllyt** ja valitse sitten liittyvä linkki.
 2. Täytä tarvittavat kentät.

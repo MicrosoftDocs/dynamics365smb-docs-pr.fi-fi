@@ -11,10 +11,10 @@ ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 4696fa95b82a0deb0ba9642ef796160f25a57afc
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3dfc2d9edbb72de196238748ab90ce8dd4990adb
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="collect-outstanding-balances"></a>Avointen saldojen perintä
@@ -23,7 +23,7 @@ Myyntisaamisten hallintaan kuuluu sen tarkistaminen, onko erääntyneet summat m
 Muistutusten avulla voit muistuttaa asiakkaita erääntyneistä summista. Niiden avulla voit myös laskea viivästyskuluja, kuten korkoja tai lisämaksuja, ja sisällyttää ne muistutukseen. Käytä viivästyskululaskuja, jos haluat veloittaa asiakkailta korkoja tai maksuja muistuttamatta erääntyneistä summista.
 
 ## <a name="reminders"></a>Muistutukset
-Ennen kuin voit luoda muistutuksia, sinun on määritettävä muistutusehdot ja määritettävä ne asiakkaille. Kullakin muistutusehdolla on ennalta määritetyt muistutustasot. Kukin muistutustaso sisältää muistutuksen lähettämisajankohtaa koskevat säännöt, esimerkiksi kuinka monta päivää laskun eräpäivän tai edellisen muistutuksen päivämäärän jälkeen muistutus lähetetään. **Viivästyskuluehdot**-ikkunan sisältö määrittää, lasketaanko muistutukseen korot.  
+Ennen kuin voit luoda muistutuksia, sinun on määritettävä muistutusehdot ja määritettävä ne asiakkaille. Kullakin muistutusehdolla on ennalta määritetyt muistutustasot. Kukin muistutustaso sisältää muistutuksen lähettämisajankohtaa koskevat säännöt, esimerkiksi kuinka monta päivää laskun eräpäivän tai edellisen muistutuksen päivämäärän jälkeen muistutus lähetetään. **Viivästyskuluehdot**-sivu määrittää, lasketaanko muistutukseen korot.  
 
 Voit ajaa **Luo muistutukset** -eräajon säännöllisin väliajoin ja luoda näin muistutukset kaikille asiakkaille, joilla on erääntyneitä saldoja, tai voit luoda muistutuksen tietylle asiakkaalle manuaalisesti ja antaa ohjelman laskea ja täyttää sen rivit automaattisesti.  
 
@@ -46,7 +46,7 @@ Viivästyskululaskujen luomisen jälkeen voit muokata niitä. Kunkin viivästysk
 Kun olet luonut viivästyskululaskut ja tehnyt tarvittavat muutokset, voit joko tulostaa testiraportteja tai lähettää viivästyskululaskut – yleensä sähköpostina.
 
 ## <a name="multiple-interest-rates"></a>Useita korkoprosentteja
-Kun määrität viivästyskuluehdot ja muistutusehdot viivästysmaksulle, voit määrittää useita korkoprosentteja. Viivästysmaksu siis lasketaan eri kausille eri korkoprosentin mukaan. Jos useita korkoprosentteja ei ole määritetty, korkoprosentti ja kausi määritetään **Viivästyskuluehdot**- ja **Muistutusehdot**-ikkunoissa laskennan koko kaudelle. Lisätietoja on kohdassa [Useiden korkoprosenttien määrittäminen](finance-how-to-set-up-multiple-interest-rates.md).  
+Kun määrität viivästyskuluehdot ja muistutusehdot viivästysmaksulle, voit määrittää useita korkoprosentteja. Viivästysmaksu siis lasketaan eri kausille eri korkoprosentin mukaan. Jos useita korkoprosentteja ei ole määritetty, korkoprosentti ja kausi määritetään **Viivästyskuluehdot**- ja **Muistutusehdot**-sivuilla laskennan koko kaudelle. Lisätietoja on kohdassa [Useiden korkoprosenttien määrittäminen](finance-how-to-set-up-multiple-interest-rates.md).  
 
 ## <a name="to-send-the-customer-statement-report"></a>Asiakkaan tilioteraportin lähettäminen
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asiakkaan tiliote** ja valitse sitten liittyvä linkki.
@@ -68,20 +68,20 @@ Kun asiakkaalle luodaan ensimmäinen muistutus, ohjelma käyttää tason 1 asetu
 
 Jos luot enemmän muistutuksia kuin mille olet määrittänyt tasoja, ohjelma käyttää ylimmän tason ehtoja. Luotavien muistutusten enimmäismäärä määräytyy muistutusehtojen **Muistutusten enimmäislukumäärä** -kentän mukaan.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Muistutusehdot** ja valitse sitten liittyvä linkki.  
-2. Valitse **Muistutusehdot**-ikkunassa rivi, jonka ehdoille haluat määrittää tasoja, ja valitse sitten **Tasot**-toiminto.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Muistutusehdot** ja valitse sitten liittyvä linkki.  
+2. Valitse **Muistutusehdot**-sivulla rivi, jonka ehdoille haluat määrittää tasoja, ja valitse sitten **Tasot**-toiminto.  
 3. Täytä tarvittavat kentät.  
 
-    Kutakin muistutustasoa varten voit määrittää yksittäisiä ehtoja, joihin voi sisältyä lisämaksuja sekä paikallisena valuuttana että ulkomaan valuuttana. Kullekin **Muistutustasot**-ikkunan koodille voi määrittää useita ulkomaan valuutoissa olevia lisämaksuja.
+    Kutakin muistutustasoa varten voit määrittää yksittäisiä ehtoja, joihin voi sisältyä lisämaksuja sekä paikallisena valuuttana että ulkomaan valuuttana. Kullekin **Muistutustasot**-sivun koodille voi määrittää useita ulkomaan valuutoissa olevia lisämaksuja.
 4. Valitse **Valuutat**-toiminto.
-5. Määritä **Muistutustason valuutat** -ikkunassa jokaiselle muistutustason koodille ja vastaavalle muistutustason numerolle valuutan koodi ja lisämaksu.
+5. Määritä **Muistutustason valuutat** -sivulla jokaiselle muistutustason koodille ja vastaavalle muistutustason numerolle valuutan koodi ja lisämaksu.
 
     > [!NOTE]  
-    > Kun luot muistutuksia ulkomaan valuuttana, tässä määritettäviä ulkomaan valuutan ehtoja käytetään muistutusten luontiin. Jos ulkomaan valuuttojen ehtoja ei ole määritetty, käytetään **Muistutustasot**-ikkunassa määritettyjä PVA:n muistutusehtoja ja ne muunnetaan soveltuvaan valuuttaan.
+    > Kun luot muistutuksia ulkomaan valuuttana, tässä määritettäviä ulkomaan valuutan ehtoja käytetään muistutusten luontiin. Jos ulkomaan valuuttojen ehtoja ei ole määritetty, käytetään **Muistutustasot**-sivulla määritettyjä PVA:n muistutusehtoja ja ne muunnetaan soveltuvaan valuuttaan.
 
     Voit määrittää kutakin muistutustasoa varten tekstin, joka tulostetaan ennen muistutuksen merkintöjä (**Aloitusteksti**) tai niiden jälkeen (**Lopetusteksti**).
 
-6. Valitse tilanteen mukaan joko **Aloitusteksti**- tai **Lopetusteksti**-toiminto ja täytä **Muistutusteksti**-ikkunan tiedot.
+6. Valitse tilanteen mukaan joko **Aloitusteksti**- tai **Lopetusteksti**-toiminto ja täytä **Muistutusteksti**-sivun tiedot.
 7. Voit lisätä liittyviä arvoja automaattisesti muistutustekstiin käyttämällä seuraavia paikkamerkkejä **Teksti**-kentässä.  
 
 |Paikkamerkki|Arvo|  
@@ -110,12 +110,12 @@ Kun olet määrittänyt muistutusehdot sekä lisätasot ja tekstin, määritä j
 Muistutus on vastaava kuin lasku. Kun luot muistutuksen, muistutuksen otsikko ja vähintään yksi muistutusrivi on oltava lisättynä. Voit luoda toiminnolla muistutuksia kaikille asiakkaille automaattisesti.
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Muistutukset** ja valitse sitten liittyvä linkki.
-2. Valitse **Muistutus**-ikkunassa **Luo muistutuksia** -toiminto.
-3. Täytä **Luo muistutukset** -ikkunassa kentät, joilla määrität, miten muistutukset luodaan ja kenelle ne luodaan.
+2. Valitse **Muistutus**-sivulla **Luo muistutuksia** -toiminto.
+3. Täytä **Luo muistutukset** -sivulla kentät, joilla määrität, miten muistutukset luodaan ja kenelle ne luodaan.
 4. Valitse **OK**-painike.
 
 ## <a name="to-create-a-reminder-manually"></a>Muistutusten luominen manuaalisesti
-Voit täyttää **Muistutus**-ikkunassa **Yleiset**-pikavälilehden tiedot manuaalisesti, jonka jälkeen rivit täytetään automaattisesti.
+Voit täyttää **Muistutus**-sivulla **Yleiset**-pikavälilehden tiedot manuaalisesti, jonka jälkeen rivit täytetään automaattisesti.
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Muistutukset** ja valitse sitten liittyvä linkki.
 2. Valitse **Uusi**-toiminto.
@@ -134,21 +134,21 @@ On monta tapaa määrittää teksti, joka näkyy tulostetussa muistutuksessa. Jo
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Muistutukset** ja valitse sitten liittyvä linkki.
 2. Avaa sopiva muistutus ja valitse sitten **Päivitä muistutusteksti** -toiminto.
-3. Anna **Päivitä muistutusteksti** -ikkunan **Muistutustaso**-kentässä tarvittava taso.
-3. Napsauta **OK** päivittääksesi alku- ja lopputekstit.
+3. Anna **Päivitä muistutusteksti** -sivun **Muistutustaso**-kentässä tarvittava taso.
+3. Päivitä aloitus- ja lopputekstit valitsemalla **OK**.
 
 ## <a name="to-issue-a-reminder"></a>Muistutuksen lähettäminen
 Kun olet luonut muistutukset ja tehnyt tarvittavat muutokset, voit joko tulostaa testiraportteja tai lähettää muistutukset.
 
-Kun lähetät muistutuksen, tiedot siirretään erilliseen lähetettyjen muistutusten ikkunaan. Samalla muistutuksen tapahtumat kirjataan. Jos muistutukseen on laskettu korkoja tai lisämaksuja, tapahtumat kirjataan asiakastapahtumiin ja pääkirjanpitoon.
+Kun lähetät muistutuksen, tiedot siirretään erilliseen lähetettyjen muistutusten sivulle. Samalla muistutuksen tapahtumat kirjataan. Jos muistutukseen on laskettu korkoja tai lisämaksuja, tapahtumat kirjataan asiakastapahtumiin ja pääkirjanpitoon.
 
-Kun muistutus lähetetään, tapahtumat kirjataan **Muistutusehdot**-ikkunan määritysten mukaan. Tämän määrityksen mukaisesti korko ja/tai lisämaksut joko kirjataan asiakkaan tilille ja pääkirjanpitoon tai ei. **Asiakkaan kirjausryhmät** -ikkunan asetukset määrittävät, mille tileille kirjataan.
+Kun muistutus lähetetään, tapahtumat kirjataan **Muistutusehdot**-sivun määritysten mukaan. Tämän määrityksen mukaisesti korko ja/tai lisämaksut joko kirjataan asiakkaan tilille ja pääkirjanpitoon tai ei. **Asiakkaan kirjausryhmät** -sivun asetukset määrittävät, mille tileille kirjataan.
 
-Viivästyskululaskun jokaiselle asiakastapahtumalle luodaan tapahtuma **Muistutus/Viivästyskululasku** -ikkunaan.
+Viivästyskululaskun jokaiselle asiakastapahtumalle luodaan tapahtuma **Muistutus-/viivästyskulutapah.**-sivulle.
 
-Jos **Kirjaa korko**- tai **Kirjaa lisämaksu** -valintaruudut on valittu **Muistutusehdot**-ikkunassa, myös seuraavat tapahtumat luodaan:
+Jos **Kirjaa korko**- tai **Kirjaa lisämaksu** -valintaruudut on valittu **Muistutusehdot**-sivulla, myös seuraavat tapahtumat luodaan:
 
-- Yksi tapahtuma **Asiakastapahtumat**-ikkunassa
+- Yksi tapahtuma **Asiakastapahtumat**-sivulla
 - Yksi myyntisaamistapahtuma liittyvällä KP-tilillä
 - Yksi korkotapahtuma ja/tai yksi lisämaksutapahtuma liittyvällä KP-tilillä
 
@@ -156,7 +156,7 @@ Lisäksi muistutuksen lähettämisestä voi seurata ALV-tapahtumia.
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Muistutukset** ja valitse sitten liittyvä linkki.
 2. Valitse ensin soveltuva muistutus ja sitten **Lähetä**-toiminto.
-3. Täytä **Lähetä muistutukset** -ikkunassa tarvittavat kentät.
+3. Täytä **Lähetä muistutukset** -sivulla tarvittavat kentät.
 4. Valitse **OK**-painike.
 
 Muistutus on joko tulostettu lähettäväksi määritettyyn sähköpostiin PDF-liitteenä.
@@ -182,15 +182,15 @@ Lisäksi jokainen Viivästyskuluehdot-taulukon koodi on linkitetty alitaulukkoon
 2. Täytä tarvittavat kentät.  
 3. Voit käyttää useita viivästyskuluehtoyhdistelmä, kun määrität kullekin koodin.
 
-    Voit määrittää kullekin viivästyskuluehdolle yksittäisiä ehtoja, joihin voi sisältyä lisämaksuja sekä paikallisena valuuttana että ulkomaan valuuttana. Kullekin **Viivästyskuluehdot**-ikkunan koodille voi määrittää useita lisämaksuja ulkomaan valuuttana.
+    Voit määrittää kullekin viivästyskuluehdolle yksittäisiä ehtoja, joihin voi sisältyä lisämaksuja sekä paikallisena valuuttana että ulkomaan valuuttana. Kullekin **Viivästyskuluehdot**-sivun koodille voi määrittää useita lisämaksuja ulkomaan valuuttana.
 4. Valitse **Valuutat**-toiminto.
-5. Määritä **Lisäkuluehtojen valuutat** -ikkunassa kullekin ehdolle valuutan koodi ja lisämaksu.
+5. Määritä **Lisäkuluehtojen valuutat** -sivulla kullekin ehdolle valuutan koodi ja lisämaksu.
 
     > [!NOTE]  
-    > Kun luot viivästyskuluja ulkomaan valuuttana, tässä määritettäviä ulkomaan valuutan ehtoja käytetään viivästyskululaskujen luomiseen. Jos ulkomaan valuuttojen viivästyskuluehtoja ei ole määritetty, käytetään **Viivästyskuluehdot**-ikkunassa määritettyjä PVA:n viivästyskuluehtoja ja ne muunnetaan liittyvään valuuttaan.
+    > Kun luot viivästyskuluja ulkomaan valuuttana, tässä määritettäviä ulkomaan valuutan ehtoja käytetään viivästyskululaskujen luomiseen. Jos ulkomaan valuuttojen viivästyskuluehtoja ei ole määritetty, käytetään **Viivästyskuluehdot**-sivulla määritettyjä PVA:n viivästyskuluehtoja ja ne muunnetaan liittyvään valuuttaan.
 
     Voit määrittää jokaiselle viivästyskuluehdolle tekstiä, joka tulostetaan ennen viivästyskululaskun tapahtumia (**Aloitusteksti**) tai tapahtumien jälkeen (**Lopputeksti**).  
-6. Valitse tilanteen mukaan joko **Aloitusteksti**- tai **Lopetusteksti**-toiminto ja täytä **Viivästyskuluteksti**-ikkunan tiedot.
+6. Valitse tilanteen mukaan joko **Aloitusteksti**- tai **Lopetusteksti**-toiminto ja täytä **Viivästyskuluteksti**-sivun tiedot.
 7. Voit lisätä liittyviä arvoja automaattisesti viivästyskulutekstiin käyttämällä seuraavia paikkamerkkejä **Teksti**-kentässä.
 
 |Paikkamerkki|Arvo|  
@@ -211,7 +211,7 @@ Viivästyskululasku on samanlainen kuin tavallinen lasku. Voit täyttää otsiko
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Viivästyskululaskut** ja valitse sitten liittyvä linkki.  
 2. Valitse **Uusi**-toiminto ja täytä tarvittavat kentät.  
 3. Valitse **Ehdota lisäkululaskurivejä** -toiminto.
-4. Määritä suodatin **Ehdota lisäkululaskurivejä** -ikkunan **Asiakastapahtuma**-pikavälilehdessä, jos haluat luoda viivästyskululaskuja vain tietyille tapahtumille.  
+4. Määritä suodatin **Ehdota lisäkululaskurivejä** -sivun **Asiakastapahtuma**-pikavälilehdessä, jos haluat luoda viivästyskululaskuja vain tietyille tapahtumille.  
 5.  Aloita eräajo valitsemalla **OK**.  
 
 ## <a name="to-update-finance-charge-memo-texts"></a>Viivästyskululaskutekstien päivitys  
@@ -219,19 +219,19 @@ Joskus voit haluta muuttaa viivästyskuluehtoihin määrittämiäsi alku- ja lop
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Viivästyskululasku** ja valitse sitten liittyvä linkki.  
 2. Avaa viivästyskululaskun, jonka tekstiä haluat muuttaa, ja valitse sitten **Päivitä lisäkulun teksti** -toiminto.
-3. Voit määrittää **Päivitä lisäkulun teksti** -ikkunassa suodattimen, jos haluat päivittää useita laskuja.
+3. Voit määrittää **Päivitä lisäkulun teksti** -sivulla suodattimen, jos haluat päivittää useita laskuja.
 4. Päivitä aloitus- ja lopputekstit valitsemalla **OK**.  
 
 ## <a name="to-issue-finance-charge-memos"></a>Viivästyskululaskujen lähettäminen
 Kun olet luonut viivästyskululaskut ja tehnyt tarvittavat muutokset, voit joko tulostaa testiraportteja tai lähettää viivästyskululaskut.
 
-Kun muistutus lähetetään, tapahtumat kirjataan **Viivästyskuluehdot**-ikkunan määritysten mukaan. Tämän määrityksen mukaisesti korko ja/tai lisämaksut joko kirjataan asiakkaan tilille ja pääkirjanpitoon tai ei. **Asiakkaan kirjausryhmät** -ikkunan asetukset määrittävät, mille tileille kirjataan.
+Kun muistutus lähetetään, tapahtumat kirjataan **Viivästyskuluehdot**-sivun määritysten mukaan. Tämän määrityksen mukaisesti korko ja/tai lisämaksut joko kirjataan asiakkaan tilille ja pääkirjanpitoon tai ei. **Asiakkaan kirjausryhmät** -sivun asetukset määrittävät, mille tileille kirjataan.
 
-Viivästyskululaskun jokaiselle asiakastapahtumalle luodaan tapahtuma **Muistutus/Viivästyskululasku** -ikkunaan.
+Viivästyskululaskun jokaiselle asiakastapahtumalle luodaan tapahtuma **Muistutus-/viivästyskulutapah.**-sivulle.
 
-Jos **Kirjaa korko**- tai **Kirjaa lisämaksu** -valintaruudut on valittu **Viivästyskuluehdot**-ikkunassa, myös seuraavat tapahtumat luodaan:
+Jos **Kirjaa korko**- tai **Kirjaa lisämaksu** -valintaruudut on valittu **Viivästyskuluehdot**-sivulla, myös seuraavat tapahtumat luodaan:
 
-- Yksi tapahtuma **Asiakastapahtumat**-ikkunassa
+- Yksi tapahtuma **Asiakastapahtumat**-sivulla
 - Yksi myyntisaamistapahtuma liittyvällä KP-tilillä
 - Yksi korkotapahtuma ja/tai yksi lisämaksutapahtuma liittyvällä KP-tilillä
 
@@ -239,16 +239,16 @@ Lisäksi viivästyskululaskun lähettämisen seurauksena voi olla ALV-tapahtumia
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Viivästyskululaskut** ja valitse sitten liittyvä linkki.
 2. Valitse ensin soveltuva lasku ja sitten **Lähetä**-toiminto.
-3. Täytä **Lähetä viivästyskululaskut** -ikkunassa tarvittavat kentät.
+3. Täytä **Lähetä viivästyskululaskut** -sivulla tarvittavat kentät.
 4. Valitse **OK**-painike.
 
 Viivästyskululasku on joko tulostettu tai lähetetty määritettyyn sähköpostiin PDF-liitteenä.
 
 ## <a name="to-view-reminder-and-finance-charge-entries"></a>Muistutus-/Viivästyskulutapahtumien katsominen  
-Kun lähetät muistutuksen, muistutustapahtuma luodaan **Muistutus-/viivästyskulutap.** -ikkunaan kullekin asiakastapahtuman sisältävälle muistutusriville. Voit sitten hakea tietyn asiakkaan muistutustapahtumien yleiskuvauksen.    
+Kun lähetät muistutuksen, muistutustapahtuma luodaan **Muistutus-/viivästyskulutap.**-sivulle kullekin asiakastapahtuman sisältävälle muistutusriville. Voit sitten hakea tietyn asiakkaan muistutustapahtumien yleiskuvauksen.    
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asiakkaat** ja valitse sitten liittyvä linkki.  
 2. Avaa kyseessä olevan asiakkaan kortti ja valitse **Tapahtumakirjaukset**-toiminto.
-3. Valitse **Asiakastapahtumat**-ikkunassa tapahtumarivi, jonka muistutukset haluat nähdä, ja valitse sitten **Muistutus-/viivästyskulutapah.** -toiminto.
+3. Valitse **Asiakastapahtumat**-sivulla tapahtumarivi, jonka muistutukset haluat nähdä, ja valitse sitten **Muistutus-/viivästyskulutapah.**-toiminto.
 
 ## <a name="see-also"></a>Katso myös
 [Myyntisaamisten hallinta](receivables-manage-receivables.md)  

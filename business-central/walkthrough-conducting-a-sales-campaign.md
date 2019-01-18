@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 72b130e1329b5fd1eee97d2c89b7b70fc606a659
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1922c9c2112006b302851301224818f803d9f4e2
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Vaihekuvaus: Myyntikampanjan suorittaminen
@@ -65,7 +65,7 @@ Kampanja voi olla mikä tahansa toimi, jossa on mukana useita kontakteja. Kampan
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kampanjat** ja valitse sitten liittyvä linkki.  
 2.  Luo uusi kampanja valitsemalla **Uusi**-toiminto. Paina kampanjan kortissa Enter, jos haluat, että kampanjanumero lisätään automaattisesti.  
 3.  Lisää kampanjan kuvaus **Kuvaus**-kenttään. Kuvaus voi olla esimerkiksi **FUTURUS-messut**.  
-4.  Napsauta **Tilakoodi**-kenttää ja valitse tilakoodi näkyviin tulevassa **Kampanjan tila** -luettelossa.  
+4.  Napsauta **Tilakoodi**-kenttää ja valitse tilakoodi avautuvalla **Kampanjan tila** -sivulla.  
 5.  Täytä kampanjan **Aloituspvm**- ja **Lopetuspvm**-kenttien tiedot asiaankuuluvalla tavalla.  
 
 ## <a name="selecting-the-target-audience"></a>Kohderyhmän valitseminen  
@@ -83,16 +83,16 @@ Kampanja voi olla mikä tahansa toimi, jossa on mukana useita kontakteja. Kampan
 
      Käytä suodattimia lisätäksesi kontakteja sinun tarkoituksiisi parhaiten sopivien ehtojen mukaan. Kontakteja lisätään suodatinten avulla esimerkiksi kontaktihenkilön vastuualueen tai kontaktiyrityksen liikesuhteen tai toimialan perusteella. Valitse kontaktit tässä vaihekuvauksessa valitsemalla **Vastuualue**-suodatin.  
 
-4.  Avaa **Lisää kontakteja** -suodatin valitsemalla **Segmentti**-ikkunassa **Lisää kontakteja**.  
+4.  Avaa **Lisää kontakteja** -suodatin valitsemalla **Segmentti**-sivulla **Lisää kontakteja**.  
 5.  Valitse **Vastuualue**-pikavälilehdessä **Tehtävän vastuualuekoodi** -asetukseksi **Osto**-suodatin ja valitse **OK**.  
 
-     **Segmentti**-ikkunassa on nyt luettelo lisäämääsi suodattimeen perustuvista kontakteista. **Yleiset**-pikavälilehden **Rivien lukumäärä** -kentässä näkyy niiden kontaktien määrä, otka täyttävät nämä ehdot.  
+     **Segmentti**-sivulla on nyt luettelo lisäämääsi suodattimeen perustuvista kontakteista. **Yleiset**-pikavälilehden **Rivien lukumäärä** -kentässä näkyy niiden kontaktien määrä, otka täyttävät nämä ehdot.  
 
     > [!NOTE]  
     >  Voit tallentaa segmentin kriteerin myöhempää käyttöä varten.
 
-    1.  Valitse **Segmentti**-ikkunassa ensin **Segmentti**-toiminto ja sitten **Tallenna kriteeri** -toiminto.  
-    2.  Anna **Tallenna segmentin kriteeri** -ikkunassa segmentin koodi. Syötä **Kuvaus**-kenttään segmentointikriteerien kuvaus.
+    1.  Valitse **Segmentti**-sivulla ensin **Segmentti**-toiminto ja sitten **Tallenna kriteeri** -toiminto.  
+    2.  Anna **Tallenna segmentin kriteeri** -sivulla segmentin koodi. Syötä **Kuvaus**-kenttään segmentointikriteerien kuvaus.
     3.  Valitse **OK**-painike.  
 
 ## <a name="mining-the-data"></a>Tietojen louhinta  
@@ -100,15 +100,15 @@ Kampanja voi olla mikä tahansa toimi, jossa on mukana useita kontakteja. Kampan
 
 ### <a name="to-remove-contacts-from-the-segment"></a>Kontaktien poistaminen segmentistä  
 
-1.  Avaa **Poista kontaktit - Vähennä** -ikkuna valitsemalla **Segmentti**-ikkunassa ensin **Kontaktit**-toiminto ja sitten **Vähennä kontakteja** -toiminto.  
+1.  Avaa **Poista kontaktit - Vähennä** -sivu valitsemalla **Segmentti**-sivulla ensin **Kontaktit**-toiminto ja sitten **Vähennä kontakteja** -toiminto.  
 2.  Valitse **Liikesuhde**-pikavälilehdessä **Liikesuhteen koodi** -asetukseksi **MAHD.**-suodatin ja valitse **OK**.  
 
-     Karsittu kontaktien luettelo näkyy nyt **Segmentti**-ikkunassa. **Rivien lukumäärä** -kentässä näkyy niiden kontaktien määrä, jotka ovat nyt näiden kriteerien mukaisia.  
+     Karsittu kontaktien luettelo näkyy nyt **Segmentti**-sivulla. **Rivien lukumäärä** -kentässä näkyy niiden kontaktien määrä, jotka ovat nyt näiden kriteerien mukaisia.  
 
     > [!NOTE]  
     >  Jos kontaktien ryhmän poistaminen täytyy syystä tai toisesta peruuttaa, voit käyttää **Mene takaisin** -toimintoa. Et toisin sanoen voi kumota viimeistä segmentointia.  
     >   
-    >  Valitse **Segmentti**-ikkunassa ensin **Segmentti**-toiminto ja sitten **Takaisin**-toiminto.  
+    >  Valitse **Segmentti**-sivulla ensin **Segmentti**-toiminto ja sitten **Takaisin**-toiminto.  
     >   
     >  Yhteystiedot, jotka olet juuri poistanut lisätään takaisin yhteystietojen luetteloon.  
 
@@ -117,7 +117,7 @@ Kampanja voi olla mikä tahansa toimi, jossa on mukana useita kontakteja. Kampan
 
 ### <a name="to-link-a-segment-to-the-campaign"></a>Segmentin yhdistäminen kampanjaan  
 
-1.  Valitse kampanja, johon segmentti on tarkoitus yhdistää, napsauttamalla **Segmentti**-ikkunan **Kampanja**-pikavälilehdessä **Kampanjan Nro**-kenttää. Kampanja voi olla esimerkiksi **CP0001**.  
+1.  Valitse kampanja, johon segmentti on tarkoitus yhdistää, valitsemalla **Segmentti**-sivun **Kampanja**-pikavälilehdessä **Kampanjan Nro**-kenttä. Kampanja voi olla esimerkiksi **CP0001**.  
 2.  Koska tämä segmentti on kampanjan kohde, valitse **Kampanjan kohde** -valintaruutu.  
 
 ## <a name="sending-letters-and-email-messages-to-contacts"></a>Kirjeet ja sähköpostiviestit lähetetään yhteystiedoille  
@@ -132,7 +132,7 @@ Kampanja voi olla mikä tahansa toimi, jossa on mukana useita kontakteja. Kampan
     > [!NOTE]  
     >  Tässä mallissa on useita liiteasiakirjoja, joista jokainen on kirjoitettu eri kielellä. Mukana ovat esimerkiksi englanti ja tanska.  
 
-4.  Avaa **Segmentin vuorovaikutuskielet** -ikkuna napsauttamalla **Kielikoodi (oletus)** -kentän alanuolta. Valitse kielikoodi ja sitten **OK**-painike.  
+4.  Avaa **Segmentin vuorovaikutuskielet** -sivu valitsemalla **Kielikoodi (oletus)** -kenttä. Valitse kielikoodi ja sitten **OK**-painike.  
 5.  Voit näyttää asiakirjan valitulla kielellä. Valitse ensin **Liite**-toiminto ja sitten **Avaa**-toiminto.  
 
      Vastaa viestiin, jossa pyydetään lupaa käynnistää Word valitsemalla **Salli tämä käyttöliittymän istunto** -vaihtoehto.  
@@ -160,7 +160,7 @@ Kampanja voi olla mikä tahansa toimi, jossa on mukana useita kontakteja. Kampan
 2.  Kirjoita **Aihe (oletus)** -kenttään esimerkiksi **Kiitos messukäynnistä**.  
 3.  Valitse **Yhteydenpidon tyyppi** -kentässä **Sähköposti**.  
 4.  Määritä kieliasetukset, kuten edellä.  
-5.  Valitse **Loki**-toiminto. **Lokin segmentti**-luetteloikkuna aukeaa.  
+5.  Valitse **Loki**-toiminto. **Lokin segmentti** -sivu avautuu.  
 6.  Liitteet lähetetään sähköpostitse, kun valitset **Lähetä liitteitä** -valintaruudun.  
 7.  Valitse **Luo seurantasegmentti** -valintaruutu.  
 8.  Valitse **OK**-painike.  
@@ -174,12 +174,12 @@ Kampanja voi olla mikä tahansa toimi, jossa on mukana useita kontakteja. Kampan
 
 ### <a name="to-register-campaign-responses"></a>Kampanjareaktioiden rekisteröiminen  
 
-1.  Valitse **Segmentti**-ikkunan **Vuorovaikutus**-pikavälilehti.  
+1.  Valitse **Segmentti**-sivun **Vuorovaikutus**-pikavälilehti.  
 2.  Valitse **Vuorovaikutusmallin koodi** -kenttä.  
 
      Kampanjareaktioiden tallentamista varten ei ole vuorovaikutusmallia. Luo siksi uusi työtuntimalli.  
 
-3.  Valitse **Vuorovaikutusmallit**-ikkunassa **Uusi**-toiminto.  
+3.  Valitse **Vuorovaikutusmallit**-sivulla **Uusi**-toiminto.  
 4.  Lisää **Koodi**-kenttään **REAKT.** ja **Kuvaus**-kenttään **Kampanjareaktiot**.  
 5.  Valitse **OK**-painike.  
 6.  Valitse tämä vuorovaikutusmalli **Vuorovaikutusmallin koodi** -kentässä ja vahvista sanoma, jossa kysytään, haluatko päivittää segmenttirivit samalla vuorovaikutusmallin koodilla.  
@@ -190,10 +190,10 @@ Kampanja voi olla mikä tahansa toimi, jossa on mukana useita kontakteja. Kampan
 9. Valitse **Kampanjareaktio**-kenttä ja vahvista seuraava sanoma.  
 
      Kirjaa segmentti lokiin sen varmistamiseksi, että vuorovaikutukset tulevat kirjatuiksi:  
-10. Valitse **Segmentti**-ikkunassa **Loki**-toiminto.  
-11. Poista **Lokin segmentti** -ikkunan **Lähetä liitteet** -valintaruudun valinta, valitse **OK** ja vahvista näkyviin tuleva sanoma.  
+10. Valitse **Segmentti**-sivulla **Loki**-toiminto.  
+11. Poista **Lokin segmentti** -sivun **Lähetä liitteet** -valintaruudun valinta, valitse **OK** ja vahvista näkyviin tuleva sanoma.  
 
-     Kun segmentti on kirjattu lokiin, ohjelma luo kampanjalle automaattisesti tapahtuman **Kampanjan tapahtumat** -ikkunaan näiden toimien kirjaamista varten.  
+     Kun segmentti on kirjattu lokiin, ohjelma luo kampanjalle automaattisesti tapahtuman **Kampanjan tapahtumat** -sivulle näiden toimien kirjaamista varten.  
 
 ## <a name="see-also"></a>Katso myös  
 [Kontaktienhallinta](marketing-relationship-management.md)  

@@ -11,10 +11,10 @@ ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c75b9eef5716379f6545494c20cbe6c7b34c1edd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 729524ce2145b4e167fb49671045b298affb862b
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -26,7 +26,7 @@ Käytössä on seuraavat raportit:
 * **EU-myyntiluettelo** Euroopan unionin (EU:n) myyntiluettelo sisältää arvolisävero- eli ALV-summat, jotka olet kerännyt EU-maissa sijaitseville ALV-rekisteröidyille asiakkaille suuntautuneesta myynnistä.  
 * **ALV-palautus**-raportti sisältää kaikissa sellaisissa maissa toimiville asiakkaille suuntautuneen myynnin ja ostojen ALV:n, joissa käytetään arvonlisäveroa.
 
-Jos haluat tarkastella täydellistä ALV-tapahtumahistoriaa, jokainen ALV:n sisältävä kirjaus luo tapahtuman **ALV-tapahtumat**-ikkunassa. Näitä tapahtumia käytetään laskettaessa ALV-laskelmasi summaa (maksu tai palautus) tietyltä kaudelta. Jos haluat tarkastella ALV-tapahtumia, valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **ALV-tapahtumat** ja valitse sitten liittyvä linkki.
+Jos haluat tarkastella täydellistä ALV-tapahtumahistoriaa, jokainen ALV:n sisältävä kirjaus luo tapahtuman **ALV-tapahtumat**-sivulla. Näitä tapahtumia käytetään laskettaessa ALV-laskelmasi summaa (maksu tai palautus) tietyltä kaudelta. Jos haluat tarkastella ALV-tapahtumia, valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **ALV-tapahtumat** ja valitse sitten liittyvä linkki.
 
 ## <a name="about-the-ec-sales-list-report"></a>Tietoja EU-myyntiluettelo-raportista
 Isossa-Britanniassa kaikkien tavaroita ja palveluja ALV-rekisteröidyille asiakkaille, myös muiden EU-maiden asiakkaille, myyvien yritysten on lähetettävä EU-myyntiluettelo-raportin sähköinen versio XML-muodossa HMRC (Her Majesty's Revenue and Customs) -viraston sivuston kautta. EU-myyntiluettelo-raportti toimii vain EU-maiden kohdalla.
@@ -39,7 +39,7 @@ Raportti sisältää yhden rivin kullekin asiakastapahtumalle ja näyttää koko
 
 B2B-tuotteet ja -palvelut määrittävät, onko kyse myydystä tavarasta tai palvelusta, jota voi hallita ALV-kirjausasetusten **EU-palvelu**-asetuksella. B2B-kolmikantakaupan tuotteet ilmaisevat, onko kyse kaupankäynnistä kolmannen osapuolen kanssa, jolloin niitä voi hallita myyntiasiakirjojen, kuten myyntitilausten, laskujen ja hyvityslaskujen, **EU-kolmikantakauppa**-asetuksella.  
 
-Kun veroviranomainen on tarkistanut raporttisi, yrityksesi yhteyshenkilö saa viranomaiselta sähköpostiviestin. [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksessa yhteyshenkilö määritetään **Yritystiedot**-ikkunassa. Ennen kuin lähetät raportin, varmista, että olet valinnut yhteyshenkilön.
+Kun veroviranomainen on tarkistanut raporttisi, yrityksesi yhteyshenkilö saa viranomaiselta sähköpostiviestin. [!INCLUDE[d365fin](includes/d365fin_md.md)]issa yhteyshenkilö määritetään **Yritystiedot**-sivulla. Ennen kuin lähetät raportin, varmista, että olet valinnut yhteyshenkilön.
 
 ## <a name="about-the-vat-return-report"></a>Tietoja ALV-palautusraportista
 Voit lähettää tällä raportilla osto- ja myyntiasiakirjoissa olevan ALV:n. Näitä asiakirjoja ovat esimerkiksi osto- ja myyntitilaukset, laskut ja hyvityslaskut. Tiedot ovat raportissa samassa muodossa kuin tulli- ja veroviranomaisille tehtävässä yhteenvetoilmoituksessa.  
@@ -80,7 +80,7 @@ Jotta voisit ilmoittaa arvonlisäveron viranomaiselle sähköisesti, [!INCLUDE[d
     >   [!INCLUDE[d365fin](includes/d365fin_md.md)] vahvistaa, että raportti on määritetty oikein. Jos tarkistus epäonnistuu, virheet näkyvät **Virheet ja varoitukset** -kohdassa ja voit tehdä näiden tietojen perusteella tarvittavat korjaukset. Jos kyse on [!INCLUDE[d365fin](includes/d365fin_md.md)]in puuttuvasta asetuksesta, voit yleensä avata korjaukseen tarvittavat tiedot sisältävän sivun napsauttamalla sanomaa.  
 5. Raportin voit lähettää **Lähetä** -toiminnolla.  
 
-Kun lähetät raportin, [!INCLUDE[d365fin](includes/d365fin_md.md)] valvoo palvelua ja pitää kirjaa yhteydenpidosta. **Tila**-kenttä ilmaisee raportin kulun prosessissa. Kun viranomainen on esimerkiksi käsitellyt raporttisi, sen tilaksi tulee **Onnistui**. Jos veroviranomaiselle lähetetyssä raportissa on virheitä, sen tilaksi muutetaan **Epäonnistui**. Voit tarkastella virheitä **Virheet ja varoitukset** -kohdassa, korjata virheet ja lähettää raportin uudelleen. Voit tarkastella luetteloa kaikista EY-myyntiluetteloraporteistasi **EU-myyntiluetteloraportit**-ikkunassa.  
+Kun lähetät raportin, [!INCLUDE[d365fin](includes/d365fin_md.md)] valvoo palvelua ja pitää kirjaa yhteydenpidosta. **Tila**-kenttä ilmaisee raportin kulun prosessissa. Kun viranomainen on esimerkiksi käsitellyt raporttisi, sen tilaksi tulee **Onnistui**. Jos veroviranomaiselle lähetetyssä raportissa on virheitä, sen tilaksi muutetaan **Epäonnistui**. Voit tarkastella virheitä **Virheet ja varoitukset** -kohdassa, korjata virheet ja lähettää raportin uudelleen. Voit tarkastella luetteloa kaikista EY-myyntiluetteloraporteistasi **EU-myyntiluetteloraportit**-sivulla.  
 
 ## <a name="viewing-communications-with-your-tax-authority"></a>Veroviranomaisen ja yrityksen välisen viestintähistorian tarkastelu
 Joissakin maissa tapahtuu viestinvaihtoa veroviranomaiselle raporttien lähettämisen yhteydessä. Näet ensimmäisen ja viimeisen lähettämäsi tai vastaanottamasi sanoman valitsemalla **Lataa lähetysviesti** ja **Lataa vastausviesti** -toiminnon.  

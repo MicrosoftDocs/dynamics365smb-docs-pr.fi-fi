@@ -11,24 +11,24 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: fae1b2937a3c06fc947dd3dbec529826322d035c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ad0f99509ff1a191c62dd1c3a6d569c9884ea851
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Käytä työjonoja ajoitustehtäviin
 [!INCLUDE[d365fin](includes/d365fin_md.md)]:n työjonojen avulla käyttäjät voivat ajoittaa ja suorittaa tiettyjä raportteja ja koodiyksiköitä. Voit määrittää töitä suoritettavaksi yhtä aikaa tai toistuvasti. Esimerkiksi **Myyjä - Myyntitilasto** -raportti saatetaan haluta suorittaa viikoittain myyjän viikkokohtaisen myynnin seurantaa varten. **Käsittele huoltosähköpostijono** -koodiyksikkö voidaan taas suorittaa päivittäin ja varmistaa näin, että huoltotilauksiin liittyvät odottavat sähköpostit lähetetään asiakkaille ajallaan.  
 
 ## <a name="add-jobs-to-the-job-queue"></a>Töiden lisääminen työjonoon
-**Työjonon tapahtumat** -ikkunassa on luettelo kaikista aiemmin luoduista töistä. Jos lisäät uuden aikataulutettavan työjonotapahtuman tiedot, sinun on ilmoitettava minkä tyyppisen objektin, kuten raportin tai codeunitin, haluat suorittaa, sekä suoritettavan objektin nimen ja tunnuksen. Voit myös lisätä parametrit, joilla määritetään työjonotapahtuman käytös. Voit esimerkiksi lisätä parametrin vain kirjattujen myyntitilausten lähettämistä varten. Sinulla tulee olla tietyn raportin tai koodiyksikön suoritusoikeus tai muutoin järjestelmä palauttaa virheen, kun työjonoa suoritetaan.  
+**Työjonon tapahtumat** -sivulla on luettelo kaikista aiemmin luoduista töistä. Jos lisäät uuden aikataulutettavan työjonotapahtuman tiedot, sinun on ilmoitettava minkä tyyppisen objektin, kuten raportin tai codeunitin, haluat suorittaa, sekä suoritettavan objektin nimen ja tunnuksen. Voit myös lisätä parametrit, joilla määritetään työjonotapahtuman käytös. Voit esimerkiksi lisätä parametrin vain kirjattujen myyntitilausten lähettämistä varten. Sinulla tulee olla tietyn raportin tai koodiyksikön suoritusoikeus tai muutoin järjestelmä palauttaa virheen, kun työjonoa suoritetaan.  
 
 Vaihtoehtoisesti voit määrittää suodattimen **Työjonoluokan suodatin** -kentässä. Luettelon töitä voi ryhmitellä työjonoluokkien avulla.
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] suorittaa työt automaattisesti kullekin työjonotapahtumalle määritetyn aikataulun mukaan. Työjonotapahtuman voi myös käynnistää, pysäyttää ja asettaa pitoon manuaalisesti.
 
 ### <a name="log-files"></a>Lokitiedostot
-Virheet näkyvät **Työjonon lokitapahtumat** -ikkunassa, jonka voi avata valintanauhasta. Voit myös määrittää vian työjonon virheissä. Työjonon suorituksen yhteydessä luodut tiedot tallennetaan tietokantaan.  
+Virheet näkyvät **Työjonon lokitapahtumat** -sivulla, jonka voi avata valintanauhasta. Voit myös määrittää vian työjonon virheissä. Työjonon suorituksen yhteydessä luodut tiedot tallennetaan tietokantaan.  
 
 ### <a name="background-posting-with-job-queues"></a>Taustakirjaus työjonojen avulla
 Työjonot ovat tehokas väline liiketoiminnan prosessien suorituksen ajoittamiseen. Esille voi tulla instanssi, jossa useat käyttäjät yrittävät kirjata myyntitilauksia samanaikaisesti, mutta käsittelyssä voi olla vain yksi tilaus kerrallaan. Määrittämällä taustakirjausrutiinin, voit sijoittaa kirjauksia jonoon taustalla käsittelyä varten.  
@@ -46,7 +46,7 @@ Työjonot ovat tehokas väline liiketoiminnan prosessien suorituksen ajoittamise
 > [!NOTE]  
 >  Kun aikataulutat asiakirjan kirjaamisen ja kirjausprosessi alkaa, kirjausrutiini määritetään automaattisesti aikakatkaistavaksi kahden tunnin kuluessa, jos kirjausrutiini lopettaa vastaamisen jostakin syystä.  
 
-Voit määrittää tällaisen työjonon käytön **Myyntien ja myyntisaamisten asetukset**- tai **Ostot ja ostovelat** -ikkunassa. Valitse **Taustakirjaus**-pikavälilehdessä **Kirjaa asiakirjat työjonon kautta** -valintaruutu ja täytä tarvittavat tiedot. Voit myös suorittaa täällä kaikki kyseisen koodin työjonotapahtumat **Työjonoluokan koodi** -kentän avulla. Voit käyttää esimerkiksi **Mkirjaus**-luokkaa suodattamaan kaikki myyntitilaukset, jotka vastaavat mitä tahansa työjonoa, jolla on sama luokkakoodi.  
+Voit määrittää tällaisen työjonon käytön **Myyntien ja myyntisaamisten asetukset**- tai **Ostot ja ostovelat** -sivulla. Valitse **Taustakirjaus**-pikavälilehdessä **Kirjaa asiakirjat työjonon kautta** -valintaruutu ja täytä tarvittavat tiedot. Voit myös suorittaa täällä kaikki kyseisen koodin työjonotapahtumat **Työjonoluokan koodi** -kentän avulla. Voit käyttää esimerkiksi **Mkirjaus**-luokkaa suodattamaan kaikki myyntitilaukset, jotka vastaavat mitä tahansa työjonoa, jolla on sama luokkakoodi.  
 
 > [!IMPORTANT]  
 >  Jos määrität asiakirjat kirjaavan ja tulostavan työn ja tulostimessa avautuu valintaikkuna, kuten tunnistetietojen pyyntö tai tulostimen musteen loppumisesta ilmoittava varoitus, asiakirja kirjataan mutta sitä ei tulosteta. Vastaava työjonotapahtuma aikakatkaistaan lopulta, ja **Tila**-kentän arvoksi määritetään **Virhe**. Näin ollen suosittelemme, että et käytä tulostimen asetuksia, jotka edellyttävät vuorovaikutusta tulostimen näytön valintaruutujen kanssa taustakirjausten yhteydessä.  

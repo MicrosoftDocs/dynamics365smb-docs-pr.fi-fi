@@ -13,10 +13,10 @@ ms.search.keywords: customize, personalize, personalization, hide columns, remov
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 78eea4df6f25772063cef5770eb1dcb433bee012
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 15d7e4aac7989f95f7becc8aa8ed96381a7dc2de
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="managing-personalization-as-an-administrator"></a>Mukautuksen hallinta järjestelmänvalvojana
@@ -30,11 +30,11 @@ Voit estää sivujen mukauttamisen kaikilta tiettyyn profiiliin kuuluvilta käyt
 
 ## <a name="clear-user-personalizations"></a>Käyttäjän mukautusten tyhjentäminen
 
-Mukautetun sivun muutosten tyhjentäminen palauttaa sivun mukautuksia edeltävän alkuperäisen asettelun. Käyttäjien sivulle tekemät mukautukset voi tyhjentää kahdella tavalla: käyttämällä **Poista käyttäjän mukautus**- tai **Käyttäjän mukautuskortti** -ikkunaa.
+Mukautetun sivun muutosten tyhjentäminen palauttaa sivun mukautuksia edeltävän alkuperäisen asettelun. Käyttäjien sivulle tekemät mukautukset voi tyhjentää kahdella tavalla: käyttämällä **Poista käyttäjän mukautus** -sivua tai käyttämällä **Käyttäjän mukautuskortti** -sivua.
 
 ### <a name="clear-user-personalizations-by-using-the-delete-user-personalization-page"></a>Käyttäjän mukautusten tyhjentäminen Poista käyttäjän mukautus -sivun avulla
 
-Voit tyhjentää **Poista käyttäjän mukautus** -ikkunassa mukautukset kultakin käyttäjältä sivukohtaisesti.
+Voit tyhjentää **Poista käyttäjän mukautus** -sivulla mukautukset kultakin käyttäjältä sivukohtaisesti.
 
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poista käyttäjän mukautus** ja valitse sitten liittyvä linkki.
 
@@ -49,11 +49,11 @@ Voit tyhjentää **Poista käyttäjän mukautus** -ikkunassa mukautukset kultaki
 
 ### <a name="clear-user-personalizations-by-using-the-user-personalization-card-page"></a>Käyttäjän mukautusten tyhjentäminen Käyttäjän mukautuskortti -sivun avulla
 
-Voit tyhjentää **Käyttäjän mukautuskortti** -ikkunassa tietyn käyttäjän kaikki mukautukset. Tämä edellyttää taulukon 2000000072 **Profiili** kirjoitusoikeuksia.
+Voit tyhjentää **Käyttäjän mukautuskortti** -sivulla tietyn käyttäjän kaikki mukautukset. Tämä edellyttää taulukon 2000000072 **Profiili** kirjoitusoikeuksia.
 
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttäjän mukautus** ja valitse sitten liittyvä linkki.
 
-    **Käyttäjän mukautus** -ikkunassa on luettelo kaikista käyttäjistä, joilla mahdollisesti on mukautettuja sivuja. Jos käyttäjä ei löydy luettelosta, kyseisellä käyttäjällä ei ole mukautettuja sivuja.
+    **Käyttäjän mukautus** -sivulla on luettelo kaikista käyttäjistä, joilla mahdollisesti on mukautettuja sivuja. Jos käyttäjä ei löydy luettelosta, kyseisellä käyttäjällä ei ole mukautettuja sivuja.
 
 2. Valitse ensin käyttäjä luettelossa ja sitten **Muokkaa**-toiminto.
 

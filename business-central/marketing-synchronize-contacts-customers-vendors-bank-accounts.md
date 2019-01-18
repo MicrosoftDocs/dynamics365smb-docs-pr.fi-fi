@@ -12,17 +12,18 @@ ms.workload: na
 ms.search.keywords: relationship, CRM, integration, couple
 ms.date: 10/01/2018
 ms.author: edupont
+redirect_url: marketing-create-contact-companies
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f377236158ae1035fd40dd15342d76822aa91ac8
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 84cb3a6a96826ad5e3d1824ed5182dfcd972d0b3
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="synchronizing-contacts-with-customers-vendors-and-bank-accounts"></a>Kontaktien synkronoiminen asiakkaiden, toimittajien ja pankkitilien kanssa
 Jos jotkin kontakteistasi ovat myös asiakkaita, toimittajia tai pankkitilejä, voit synkronisoida kontaktin tiedot liittyvän asiakkaan, toimittajan tai pankkitilin kanssa. Synkronoimisen avulla kontaktien ja asiakkaiden, toimittajien tai pankkitilien yhteiset tiedot säilyvät samoina.  
 
-Ennen kun synkronisoit kontaktisi asiakkaiden, toimittajien tai pankkitilien kanssa, sinun täytyy määrittää liikesuhdekoodi asiakkaille, toimittajille ja pankkitileille **Kontaktienhallinnan asetukset** -ikkunassa. Lisätietoja on kohdassa [Kontaktien hallinnan määrittäminen](marketing-setup-marketing.md).
+Ennen kun synkronisoit kontaktisi asiakkaiden, toimittajien tai pankkitilien kanssa, sinun täytyy määrittää liikesuhdekoodi asiakkaille, toimittajille ja pankkitileille **Kontaktienhallinnan asetukset** -sivulla. Lisätietoja on kohdassa [Kontaktien hallinnan määrittäminen](marketing-setup-marketing.md).
 
 ## <a name="different-ways-to-synchronize-contacts-with-customers-vendors-and-bank-accounts"></a>Erilaisia tapoja, joilla kontaktit voidaan synkronoida asiakkaiden, toimittajien ja pankkitilien kanssa
 Voit synkronisoida kontaktejasi asiakkaiden, toimittajien ja/tai pankkitilien kanssa kolmella tavalla:

@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 65f34ae7fe1665bbe8336e6fe959ac109486531e
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: bdb9eab2c23d8f1eacafd77433f621275c3dfdf1
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="accessibility-and-keyboard-shortcuts-in-included365finincludesd365finmdmd"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)]in helppokäyttötoiminnot ja pikanäppäimet
@@ -51,7 +51,7 @@ Tässä ohjeaiheessa on tietoja toiminnoista, jotka helpottavat [!INCLUDE[d365fi
 ##  <a name="Navigation"></a> Siirtyminen  
  Voit siirtyä valintanauhan välilehtien ja toimintojen, siirtymispalkin elementtien sekä muiden [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman sivujen ja raporttien välillä näppäimistön avulla. Voit siirtää kohdistuksen yhdestä välilehdestä, toiminnosta tai ohjausobjektista toiseen painamalla sarkainnäppäintä, jos haluat siirtyä eteenpäin. Jos haluat siirtyä taaksepäin, paina näppäinyhdistelmään vaihto+sarkain.  
 
- Voit siirtyä sarkaimella järjestyksessä pääselainikkunan ja esimerkiksi vahvistusta pyytävän valintaikkunan tai kirjautumisikkunan välillä.  
+ Voit siirtyä sarkaimella järjestyksessä pääselainsivun ja esimerkiksi vahvistusta pyytävän valintaikkunan tai kirjautumissivun välillä.  
 
 ##  <a name="Headings"></a> Otsikot  
  [!INCLUDE[d365fin](includes/d365fin_md.md)]:n sisällön HTML-lähde käyttää tunnisteita, jotka auttavat helppokäyttötoimintojen käyttäjiä ymmärtämään sivun rakennetta ja sisältöä. Esimerkiksi luettelosivuilla sarakkeet määritetään TH.-tunnisteilla ja sarakeotsikot määritetään tunnisteen sisällä olevalla TITLE-määritteellä. Otsikkotunnisteet (H1, H2, H3 ja H4) sisältävät elementtien, kuten pikavälilehtien, tietoruutujen ja kenttien, selosteet.  

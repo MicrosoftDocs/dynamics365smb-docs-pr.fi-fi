@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d52c54b18ccb7794f7556919e20b23df65c95acd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: e00b99c963669bb8a8577d8277082e5656d45d66
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>Yrityksen määrittämisen hallinta työkirjassa
@@ -30,10 +30,10 @@ Seuraavissa ohjeissa näytetään, miten voit lisätä ja mukauttaa kokoonpanosi
 
 ## <a name="to-open-the-configuration-worksheet"></a>Avaa määritystyökirja  
 1.  Avaa [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmassa yritys, joka on määrityksen pohjana, ja avaa sitten sen RapidStart Services -palvelun käyttöönottajien roolikeskus.  
-2.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Määritystyökirja** ja valitse sitten liittyvä linkki.  
+2.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Määritystyökirja** ja valitse sitten liittyvä linkki.  
 
 ## <a name="to-add-a-table-to-the-worksheet"></a>Taulukon lisääminen työkirjaan  
-1.  Valitse **Määritä työkirja** -ikkunassa **Muokkaa luetteloa** -toiminto.  
+1.  Valitse **Määritä työkirja** -sivulla **Muokkaa luetteloa** -toiminto.  
 2.  Valitse ensimmäisen rivin **Rivityyppi**-kentässä **Taulukko**.  
 4.  Valitse **Taulukon tunnus** -kentässä taulukko, johon haluat lisätä määrityksesi.  
 5.  Kirjoita **Sivun tunnus** -kenttään taulukkoon liittyvän sivun tunnus. Tämä arvo on täytetty automaattisesti vakiomuotoisissa taulukoissa. Mukautetuille taulukoille on annettava tunnus.
@@ -53,7 +53,7 @@ Seuraavissa ohjeissa näytetään, miten voit lisätä ja mukauttaa kokoonpanosi
 10. Voit poistaa taulukkotietojen kaksoiskappaleet, joita voi syntyä **Hae liittyvät taulukot** -toiminnossa, valitsemalla **Poista rivien kaksoiskappaleet** -toiminto. Tämä poistaa päällekkäisiä taulukoita, joilla on sama pakettikoodi.  
 
 ## <a name="to-add-multiple-tables-to-the-configuration-worksheet"></a>Useiden taulukoiden lisääminen määritystyökirjaan.  
-1. Valitse **Hae taulukot** -toiminto. **Hae määritystaulukot** -eräajon ikkuna avautuu.  
+1. Valitse **Hae taulukot** -toiminto. **Nouda määritystaulukot** -eräajon sivu avautuu.  
 2. Määritä **Asetukset**-pikavälilehdessä määritykseen lisättävien taulukoiden tyypit seuraavassa taulukossa kuvatulla tavalla.
 
     |Asetus|Description|  
@@ -73,7 +73,7 @@ Seuraavissa ohjeissa näytetään, miten voit lisätä ja mukauttaa kokoonpanosi
     > - Suhde on ehdollinen.  
     > Esimerkki: Jos saat liittyvät taulukot **Asiakas**-taulukolle, tällöin **Sijainti**-taulukkoa ei lisätä, koska se liittyy **Asiakas**-taulukkoon vain ehdollisesti, jos **Asiakas**-taulukon **Sijaintikoodi**-kenttä täytetään.  
     > - Liittyvä taulukko on suodatettu.  
-    > Esimerkki: liittyvän taulukon kentässä on WHERE-lause. Syy tähän on, että suhteisiin liittyvät tiedot on tallennettu **Kenttä**-virtuaalitaulukkoon ja ne eivät ole suorituskyvystä johtuen käytettävissä ikkunoissa, kuten määritystyökirja.  
+    > Esimerkki: liittyvän taulukon kentässä on WHERE-lause. Syy tähän on, että suhteisiin liittyvät tiedot on tallennettu **Kenttä**-virtuaalitaulukkoon ja ne eivät ole suorituskyvystä johtuen käytettävissä sivulla kuten määritystyökirja.  
     > Lisää tällaiset monimutkaisia suhteita sisältävät liittyvät taulukot manuaalisesti Taulukon lisääminen työkirjaan -osan vaiheen 4 ohjeiden mukaisesti.
 
 7. Poista taulukoita taulukkoluettelon taulukoita valitsemalla taulukko, jonka haluat poistaa, ja valitsemalla sitten **Poista**-toiminto.  

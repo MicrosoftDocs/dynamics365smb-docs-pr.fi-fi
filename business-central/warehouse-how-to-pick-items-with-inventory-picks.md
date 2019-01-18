@@ -13,23 +13,23 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 816482c6966f3b492cd79b67ac39a33a11cd3d88
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4537dbb31768ff681dd71775c3813d23caba599b
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="pick-items-with-inventory-picks"></a>Nimikkeiden poiminta varastopoiminnalla
-Kun sijainti on määritetty edellyttämään poimintakäsittelyä mutta ei toimituskäsittelyä, lähdeasiakirjojen poiminta- ja toimitustiedot kirjataan **Varaston poiminta** -ikkunassa. Lähtevä lähdeasiakirja voi olla myyntitilaus, ostopalautustilaus, lähtevä siirtotilaus tai tuotantotilaus, jonka osat ovat valmiina poimittaviksi.
+Kun sijainti on määritetty vaatimaan poiminnan prosessointia, mutta ei toimituksen prosessointia, käytä **Varaston poiminta** -sivua lähdeasiakirjan poiminnan ja toimituksen tietojen tallennuksessa ja kirjaamisessa. Lähtevä lähdeasiakirja voi olla myyntitilaus, ostopalautustilaus, lähtevä siirtotilaus tai tuotantotilaus, jonka osat ovat valmiina poimittaviksi.
 
 > [!NOTE]  
-> Kokoonpanotilausten osia ei voi poimia tai kirjata varastopoiminnan kanssa. Käytä sen sijaan **Varaston siirto** -ikkunaa. Lisätietoja on kohdassa [Komponenttien siirtäminen fyysisen perusvarastoinnin toiminta-alueelle](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
+> Kokoonpanotilausten osia ei voi poimia tai kirjata varastopoiminnan kanssa. Käytä sen sijaan **Varaston siirto** -sivua. Lisätietoja on kohdassa [Komponenttien siirtäminen fyysisen perusvarastoinnin toiminta-alueelle](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
 
 >  Kun poiminnan ja toimituksen myyntirivin määriä kootaan tilaukseen, varaston poimintarivejä luotaessa on noudatettava tiettyjä sääntöjä. Lisätietoja on kohdassa Kokoonpano tilausta varten -nimikkeiden käsitteleminen varaston poiminnoissa.  
 
 Varaston poiminnan voi luoda kolmella tavalla:  
 
-- Luo poiminta kahdessa vaiheessa pyytämällä ensin varastopoiminta vapauttamalla lähdeasiakirja. Tämä ilmoittaa fyysiseen varastoon, että lähdeasiakirja on valmiina poimintaa varten. Varaston poiminta voidaan sitten luoda **Varaston poiminta** -ikkunassa lähdeasiakirjan perusteella.  
+- Luo poiminta kahdessa vaiheessa pyytämällä ensin varastopoiminta vapauttamalla lähdeasiakirja. Tämä ilmoittaa fyysiseen varastoon, että lähdeasiakirja on valmiina poimintaa varten. Varaston poiminta voidaan sitten luoda **Varaston poiminta** -sivulla lähdeasiakirjan perusteella.  
 - Luomalla varastopoiminta suoraan lähdeasiakirjasta.  
 - Voit luoda varastopoiminnat useammalle asiakirjalle yhdellä kertaa käyttämällä eräajoa.  
 
@@ -70,7 +70,7 @@ Nyt kun pyyntö on luotu, varastotyöntekijä voi luoda uuden varaston poiminnan
 
 ## <a name="to-record-the-inventory-picks"></a>Varaston poimintojen kirjaaminen  
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varaston poiminta** ja valitse sitten liittyvä linkki.  
-2. Poimintarivien **Varastopaikkakoodi**-kentässä varastopaikka, josta nimikkeet on poimittava, ehdotetaan nimikkeen oletusvarastopaikan mukaan. Voi muuttaa var.paikkaa tässä ikkunassa jos tarpeen.  
+2. Poimintarivien **Varastopaikkakoodi**-kentässä varastopaikka, josta nimikkeet on poimittava, ehdotetaan nimikkeen oletusvarastopaikan mukaan. Voi muuttaa tarvittaessa varastopaikkaa tällä sivulla.  
 3. Suorita poiminta ja annan todellisia hyllytysmääriä koskevat tiedot **Käsiteltävä määrä** -kentässä.
 
     Jos yhden rivin nimikkeet on poimittava useasta varastopaikasta esimerkiksi siksi, että niitä ei ole saatavilla määritetyssä varastopaikassa, käytä **Rivit**-pikavälilehden **Jaa rivi** -toimintoa. Lisätietoja rivien jakamisesta on kohdassa [Varastotoimintorivien jakaminen](warehouse-how-to-split-warehouse-activity-lines.md).  
@@ -87,11 +87,11 @@ Jos varaston poiminnan nimikkeet eivät ole saatavissa, voit poistaa nämä vara
 >  Jos varaston poimintariveillä on sarja-/eränumeroita, jotka eivät ole saatavissa, näitä rivejä ei saa poistaa. Sinun on sen sijaan muutettava **Käsiteltävä määrä** -kentän arvoksi nolla, kirjattava toteutuneet poiminnat ja poistettava sitten varaston poiminta-asiakirja. Tämä varmistaa, että näiden sarja-/eränumeroiden varaston poimintarivit voidaan myöhemmin luoda uudelleen myyntitilauksesta.  
 
 ## <a name="handling-assemble-to-order-items-with-inventory-picks"></a>Kokoonpano tilausta varten -nimikkeiden käsitteleminen varaston poiminnoissa
-**Varaston poiminta** -ikkunassa voi myös poimia ja toimittaa myyntiin nimikkeitä, jotka on koottava ennen toimitusta. Lisätietoja on kohdassa [Kokoonpano tilausta varten -nimikkeiden myyminen](assembly-how-to-sell-items-assembled-to-order.md).
+**Varaston poiminta** -sivulla voi myös poimia ja toimittaa myyntiin nimikkeitä, jotka on koottava ennen toimitusta. Lisätietoja on kohdassa [Kokoonpano tilausta varten -nimikkeiden myyminen](assembly-how-to-sell-items-assembled-to-order.md).
 
 Toimitettavat nimikkeet eivät ole paikalla, kunnes ne kootaan ja kirjataan kokoonpanoalueen varastopaikan tuotokseksi. Tämä tarkoittaa, että kokoonpano tilausta varten -nimikkeiden poiminta toimitusta varten noudattaa eritystä virtaa. Varastopaikasta varastotyöntekijät vievät kokoonpanon nimikkeet toimituslaituriin ja kirjaavat sitten varastopoiminnan. Kirjattu varaston poiminta kirjaa sitten kokoonpanon tuotoksen, komponentin kulutuksen ja myyntitoimituksen.
 
-Voit määrittää [!INCLUDE[d365fin](includes/d365fin_md.md)]in luomaan varaston siirron automaattisesti, kun varastopoiminta luodaan kokoonpanon nimikkeelle. Tämä toiminta otetaan käyttöön valitsemalla **Luo siirrot automaattisesti** -kenttä **Kokoonpanon asetukset** -ikkunassa. Lisätietoja on kohdassa [Komponenttien siirtäminen fyysisen perusvarastoinnin toiminta-alueelle](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
+Voit määrittää [!INCLUDE[d365fin](includes/d365fin_md.md)]in luomaan varaston siirron automaattisesti, kun varastopoiminta luodaan kokoonpanon nimikkeelle. Tämä toiminta otetaan käyttöön valitsemalla **Luo siirrot automaattisesti** -kenttä **Kokoonpanon asetukset** -sivulla. Lisätietoja on kohdassa [Komponenttien siirtäminen fyysisen perusvarastoinnin toiminta-alueelle](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
 
 Myyntinimikkeiden varaston poimintarivit luodaan eri tavalla sen mukaan, onko tilaukseen koottu mitään, joitakin vai kaikki myyntirivin määrille määritetyt määrät.
 
@@ -101,7 +101,7 @@ Kokoonpano tilausta varten -myynnissä, jossa myyntitilauksen koko määrä koot
 
 Jos sijainnin kokoonpanon tuotoksen virta on määritetty, **Kok. til.ltoimit. -var.p.koodi** -kentän arvo tai **Kokoonpanosta-varastop.koodi** -kentän arvo lisätään tässä järjestyksessä varaston poimintarivin **Varastopaikan koodi** -kenttään.
 
-Jos myyntitilausriville ei ole määritetty varastopaikkakoodia eikä sijainnille kokoonpanon tuotoksen virtaa, varaston poimintarivin **Varastopaikan koodi** -kenttä on tyhjä. Varastotyöntekijän on avattava **Varastopaikan sisältö** -ikkuna ja valittava varastopaikka, johon kokoonpanon nimikkeet kootaan.
+Jos myyntitilausriville ei ole määritetty varastopaikkakoodia eikä sijainnille kokoonpanon tuotoksen virtaa, varaston poimintarivin **Varastopaikan koodi** -kenttä on tyhjä. Varastotyöntekijän on avattava **Varastopaikan sisältö** -sivu ja valittava varastopaikka, johon kokoonpanon nimikkeet kootaan.
 
 Yhdistelmätilanteissa, joissa osa määrästä on koottava ensin ja toinen poimittava varastosta, luodaan vähintään kaksi varaston toimitusriviä. Yksi poimintarivi on kokoonpano tilausta varten -määrälle. Toinen poimintarivi riippuu siitä, mistä varastopaikoista voidaan saada jäljellä oleva määrä. Kahden rivin varastopaikkakoodit on täytetty eri tavoin kahden vastaavan myyntityypin mukaan. Lisätietoja on ohjeaiheen [Tietoja Kokoonpano tilausta varten- tai Kokoonpano varastoon -toiminnoista](assembly-assemble-to-order-or-assemble-to-stock.md) kohdassa Skenaarioiden yhdistelmä.
 

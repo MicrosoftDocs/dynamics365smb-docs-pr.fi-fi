@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5e732e27921f632c3e15b1d832d7295d32f4b8a2
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: aa0d6b76bdf4a7078d7b2e3846d1bdfa3cf08528
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="putting-items-away"></a>Nimikkeiden hyllyttäminen
@@ -24,9 +24,9 @@ Varaston hyllytystoiminto nimikkeiden vastaanoton tai tuotoksen jälkeen suorite
 
 Jos haluat järjestää ja kirjata hyllytystiedot fyysisen varastoinnin asiakirjojen avulla, lisää valintamerkki sijaintikortin **Vaadi hyllytys** -kenttään. Tämä tarkoittaa, että kun saapuvan lähdeasiakirjan kautta on tulossa nimikkeitä fyysisen varastoinnin sijaintiin, järjestelmä hallitsee näiden nimikkeiden hyllytystä. Saapuva lähdeasiakirja voi olla ostotilaus, myyntipalautustilaus, saapuva siirtotilaus tai tuotantotilaus, jonka tuotos odottaa hyllytystä.  
 
-Jos sijainti on asetettu käyttämään hyllytyskäsittelyä mutta ei vastaanoton käsittelyä, voit käyttää **Varaston hyllytys** -ikkunaa hyllytyksen tietojen järjestämiseen, tulostaa sen, antaa varsinaisen hyllytyksen tuloksen ja kirjata hyllytystiedot, mikä puolestaan kirjaa myös lähdeasiakirjan vastaanottotiedot. Tuotantotilauksen yhteydessä kirjausprosessi kirjaa tilauksen tuotoksen ja päättää tuotantotilauksen.
+Jos sijainti on asetettu käyttämään hyllytyskäsittelyä mutta ei vastaanoton käsittelyä, voit käyttää **Varaston hyllytys** -sivua hyllytyksen tietojen järjestämiseen, tulostaa sen, antaa varsinaisen hyllytyksen tuloksen ja kirjata hyllytystiedot, mikä puolestaan kirjaa myös lähdeasiakirjan vastaanottotiedot. Tuotantotilauksen yhteydessä kirjausprosessi kirjaa tilauksen tuotoksen ja päättää tuotantotilauksen.
 
-Jos sijainnissa on määritetty pakolliseksi sekä vastaanoton että hyllytyksen käsittely eli olet lisännyt valintamerkit sijaintikortin **Vaadi vastaanotto**- ja **Vaadi hyllytys** -kenttiin, nimikkeiden hyllytykseen käytetään eri prosessia. Tällöin hyllytyksen käsittelyyn käytetään **F. varastoinnin hyllytys** -ikkunaa Fyysisen varastoinnin hyllytys toimii muuten samoin kuin varastohyllytys, mutta hyllytystietojen kirjauksen asemesta hyllytys rekisteröidään. Huomaa, että fyysisen varastoinnin hyllytyksen rekisteröinti ei kirjaa nimikkeiden vastaanottoa. Se vain päivittää varastopaikan sisällön. Varastopäällikkönä voit järjestää hyllytystiedot hyllytystyökirjojen avulla ennen yksittäisten fyysisen varastoinnin hyllytysohjeiden luontia.
+Jos sijainnissa on määritetty pakolliseksi sekä vastaanoton että hyllytyksen käsittely eli olet lisännyt valintamerkit sijaintikortin **Vaadi vastaanotto**- ja **Vaadi hyllytys** -kenttiin, nimikkeiden hyllytykseen käytetään eri prosessia. Tällöin hyllytyksen käsittelyyn käytetään **F. varastoinnin hyllytys** -sivua. Fyysisen varastoinnin hyllytys toimii muuten samoin kuin varastohyllytys, mutta hyllytystietojen kirjauksen asemesta hyllytys rekisteröidään. Huomaa, että fyysisen varastoinnin hyllytyksen rekisteröinti ei kirjaa nimikkeiden vastaanottoa. Se vain päivittää varastopaikan sisällön. Varastopäällikkönä voit järjestää hyllytystiedot hyllytystyökirjojen avulla ennen yksittäisten fyysisen varastoinnin hyllytysohjeiden luontia.
 
 Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aiheisiin.   
 

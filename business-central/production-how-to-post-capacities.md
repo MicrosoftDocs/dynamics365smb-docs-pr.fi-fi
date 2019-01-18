@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fad67a87a2b78a0e3b550599b82ceabc7a7f2afe
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 80f47bc3af8b26e2a58bca739f2b4f629b9d5dc0
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="post-capacities"></a>Kapasiteettien kirjaaminen
@@ -31,11 +31,11 @@ Kapasiteettipäiväkirjaan kirjataan kulutetut kapasiteetit, joita ei ole määr
 6.  Kirjaa kapasiteetit valitsemalla **Kirjaa**-toiminto.  
 
 ## <a name="to-view-work-center-ledger-entries"></a>Tuotantosolutapahtumien näyttäminen  
-Voit tarkastella **Tuotantosolukortti**- ja **Kuormitusryhmän kortti** -ikkunoissa valmiiden tuotantotilausten tuloksena kirjattuja kapasiteetteja.    
+Voit tarkastella **Tuotantosolukortti**- ja **Kuormitusryhmän kortti** -sivuilla valmiiden tuotantotilausten tuloksena kirjattuja kapasiteetteja.    
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Työkeskukset** ja valitse sitten liittyvä linkki.  
 2.  Avaa käsiteltävä **Tuotantosolukortti** luettelossa ja valitse sitten **Kapasiteettitapahtumat**-toiminto.  
 
-**Kapasiteettitapahtumat**-ikkunassa näkyvät tuotantosolun kirjatut tapahtumat siinä järjestyksessä kuin ne on kirjattu.   
+**Kapasiteettitapahtumat**-sivulla näkyvät tuotantosolun kirjatut tapahtumat siinä järjestyksessä kuin ne on kirjattu.   
 
 ## <a name="see-also"></a>Katso myös  
 [Tuotanto](production-manage-manufacturing.md)    

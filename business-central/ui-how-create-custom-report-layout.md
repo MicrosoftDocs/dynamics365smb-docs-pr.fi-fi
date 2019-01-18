@@ -13,10 +13,10 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 77995eab6166a33d8a98a821d40aceaea9f4bc00
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 39e4c310e3de5f16066408b96b54042c44c753fd
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-and-modify-a-custom-report-or-document-layout"></a>Raporttien tai asiakirjojen mukautetun asettelun luominen ja muokkaaminen
@@ -28,20 +28,20 @@ Oletusarvon mukaan raportilla on valmis raporttiasettelu, joka voi olla RDLC-rap
 Jos haluat luoda mukautetun asettelun, voit joko kopioida aiemmin mukautetun asettelun tai lisätä uuden mukautetun asettelun, joka useimmissa tapauksissa perustuu valmiiseen asetteluun. Kun lisäät uuden mukautetun asettelun, voit lisätä RDLC-raporttiasettelutyypin, Word-raporttiasettelutyypin tai molemmat. Uusi mukautettu asettelu perustuu automaattisesti raportin valmiiseen asetteluun, jos sellainen on käytettävissä. Jos tyypille ei ole sisäänrakennettua asettelua, järjestelmä luo uuden tyhjän asettelun ja sinun on muokattava ja luotava alusta alkaen. Lisätietoja RDLC- ja Word-raporttiasettelusta sekä valmiista ja mukautetuista asetteluista ja muista ominaisuuksista on ohjeaiheessa [Raporttiasetteluiden hallinta](ui-manage-report-layouts.md).  
 
 ## <a name="to-create-a-custom-layout"></a>Mukautetun asettelun luonti
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Raporttiasetteluvalinta** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Raporttiasetteluvalinta** ja valitse sitten liittyvä linkki.
 
-    **Raporttiasetteluvalinta**-ikkunassa on luettelo kaikista raporteista, joita voi käyttää ikkunan yläosan **Yritys**-kentässä määritetyssä yrityksessä.
+    **Raporttiasetteluvalinta**-sivulla on luettelo kaikista raporteista, joita voi käyttää sivun yläosan **Yritys**-kentässä määritetyssä yrityksessä.
 2. Aseta **Yritys**-kenttä yritykselle jolle haluat luoda raporttiasettelun.
 3. Valitse sen raportin rivi, johon haluat luoda asettelun, ja valitse sitten **Mukautetut asettelut** -toiminto.  
-   **Mukautetut raporttiasettelut** -ikkunassa näkyvät kaikki mukautetut asettelut, jotka ovat käytettävissä valitussa raportissa.
+   **Mukautetut raporttiasettelut** -sivulla näkyvät kaikki mukautetut asettelut, jotka ovat käytettävissä valitussa raportissa.
 4. Jos haluat luoda kopion aiemmin luodusta mukautetusta asettelusta, valitse luettelossa ensin aiemmin luotu mukautettu asettelu ja valitse **Kopioi** -toiminto.  
-   Mukautetun asettelun kopio näkyy **Mukautetut raporttiasettelut** -ikkunassa, jonka **Kuvaus**-kentässä on sana *Kopio*.
+   Mukautetun asettelun kopio näkyy **Mukautetut raporttiasettelut** -sivulla, jonka **Kuvaus**-kentässä on sana *Kopio*.
 5. Jos haluat lisätä uuden mukautetun asettelun, joka perustuu valmiiseen asetteluun, toimi seuraavasti:  
-   1. Valitse **Uusi**-toiminto. **Lisää raportin valmis asettelu** -ikkuna avautuu. **Tunnus**- ja **Nimi**-kentät täytetään automaattisesti.
+   1. Valitse **Uusi**-toiminto. **Lisää raportin valmis asettelu** -sivu avautuu. **Tunnus**- ja **Nimi**-kentät täytetään automaattisesti.
    2. Voit lisätä mukautetun Word-raporttiasettelun tyypin valitsemalla **Lisää Word-asettelu** -valintaruutu.
    3. Voit lisätä mukautetun RDLC-raporttiasettelun tyypin valitsemalla **Lisää RDLC-asettelu** -valintaruutu.
    4. Valitse **OK**-painike.  
-      Uudet mukautetut asettelut näkyvät **Mukautetut raporttiasettelut** -ikkunassa. Jos uusi asettelu perustuu valmiiseen asetteluun, sitten siinä on sanat **valmiin asettelun kopio** **Kuvaus**-kentässä. Jos valmista asettelua ei ole saatavilla, uudessa asettelussa on sanat **uusi asettelu** **Kuvaus**-kentässä. Tämä osoittaa, että mukautettu asettelu on tyhjä.
+      Uudet mukautetut asettelut näkyvät **Mukautetut raporttiasettelut** -sivulla. Jos uusi asettelu perustuu valmiiseen asetteluun, sitten siinä on sanat **valmiin asettelun kopio** **Kuvaus**-kentässä. Jos valmista asettelua ei ole saatavilla, uudessa asettelussa on sanat **uusi asettelu** **Kuvaus**-kentässä. Tämä osoittaa, että mukautettu asettelu on tyhjä.
 6. Oletusarvon mukaan **Yrityksen nimi** -kenttä on tyhjä, joten mukautettu asettelu ovat käytettävissä kaikissa yrityksen raporteissa. Voit asettaa mukautetun asettelun vain tietyn yrityksen käytettäväksi valitsemalla **Muokkaa** ja määrittämällä sitten **Yrityksen nimi** -kenttään haluamasi yritys.
 
 Mukautettu asettelu on luotu. Voit nyt muokata mukautettua asettelua tarpeen mukaan.
@@ -50,8 +50,8 @@ Mukautettu asettelu on luotu. Voit nyt muokata mukautettua asettelua tarpeen muk
 Voit muokata raporttiasettelua viemällä raporttiasettelun ensin tiedostona tietokone- tai verkkosijaintiin ja avaamalla sitten viedyn asiakirjan Wordissa ja tekemällä muutokset. Kun olet tehnyt haluamasi muutokset, voit tuoda raporttiasettelun.
 
 ### <a name="to-modify-a-custom-layout"></a>Mukautetun asettelun muokkaaminen
-1.  Voit viedä mukautetun asettelun **Mukautetut raporttiasettelut** -ikkunassa. Jos ikkuna ei ole vielä avoinna, etsi ja avaa **Raporttiasetteluvalinta**-ikkunassa, valitse raportti, jossa muokattava asettelu on, ja valitse sitten **Mukautetut asettelut** -toiminto.  
-2.  Valitse **Mukautetut raporttiasettelut** -ikkunassa ensin muokattava raportti ja sitten **Vie asettelu** -toiminto. Tallenna raporttiasetteluasiakirja sitten tietokone- tai verkkosijaintiin valitsemalla **Tallenna** tai **Tallenna nimellä**.  
+1.  Voit viedä mukautetun asettelun **Mukautetut raporttiasettelut** -sivulla. Jos sivu ei ole vielä avoinna, etsi ja avaa **Raporttiasetteluvalinta**-sivu, valitse raportti, jossa muokattava asettelu on, ja valitse sitten **Mukautetut asettelut** -toiminto.  
+2.  Valitse **Mukautetut raporttiasettelut** -sivulla ensin muokattava raportti ja sitten **Vie asettelu** -toiminto. Tallenna raporttiasetteluasiakirja sitten tietokone- tai verkkosijaintiin valitsemalla **Tallenna** tai **Tallenna nimellä**.  
 
 3.  Avaa juuri tallentamasi raporttiasettelu ja tee muutokset.
 
@@ -61,7 +61,7 @@ Voit muokata raporttiasettelua viemällä raporttiasettelun ensin tiedostona tie
 
       Muista tallentaa muutokset, kun olet valmis.
 
-4.  Palaa **Mukautetut raporttiasettelut** -ikkunaan, valitse viety ja muokattu raporttiasettelu ja valitse lopuksi **Tuo asettelu** -toiminto.  
+4.  Palaa **Mukautetut raporttiasettelut** -sivulle, valitse viety ja muokattu raporttiasettelu ja valitse lopuksi **Tuo asettelu** -toiminto.  
 
 5. Etsi ja valitse raporttiasetteluasiakirja valitsemalla **Tuo**-valintaruudussa ensin **Valitse** ja sitten **Avaa**.
 
@@ -71,7 +71,11 @@ Voit tehdä yleisiä muotoilu- ja asettelumuutoksia, kuten vaihtaa tekstin fonti
 Jos olet suunnittelemassa Wordin raporttiasettelua alusta tai lisäämässä uusia tietokenttiä, aloita lisäämällä taulukko, jossa on rivejä ja sarakkeita, jotka ovat lopulta tietokenttiä.
 
 > [!TIP]  
->  Näytä taulukon ruudukko siten, että näet taulukon solujen rajat. Muista piilottaa ruudukko, kun lopetat muokkauksen. Voit näyttää tai piilottaa ruudukot valitsemalla taulukon ja valitsemalla **Asettelu**-kohdan alta **Taulukko**-välilehdellä **Näytä ruudukko**.  
+>  Näytä taulukon ruudukko siten, että näet taulukon solujen rajat. Muista piilottaa ruudukko, kun lopetat muokkauksen. Voit näyttää tai piilottaa ruudukot valitsemalla taulukon ja valitsemalla **Asettelu**-kohdan alta **Taulukko**-välilehdellä **Näytä ruudukko**. 
+
+### <a name="embedding-fonts-in-word-layouts-for-consistency"></a>Fonttien upottaminen Word-asetteluihin yhdenmukaisuuden vuoksi 
+
+Upottamalla fontit Word-asiakirjaan voit varmistaa, että raportit näkyvät ja tulostuvat aiotuilla fonteilla riippumatta siitä, missä käyttäjä avaa tai tulostaa raportit. Huomaa kuitenkin, että fonttien upottaminen voi suurentaa merkittävästi Word-tiedostojen kokoa. Lisätietoja fonttien upottamisesta Wordiin on kohdassa [Fonttien upottaminen Wordissa, PowerPointissa tai Excelissä](https://support.office.com/en-us/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc). 
 
 ###  <a name="RemoveField"></a> Otsikko- ja tietokenttien poistaminen Word-asetteluissa  
  Raportin otsikko- ja tietokentät sisältyvät Wordin sisällön ohjausobjekteihin. Seuraavassa kuvassa on esitetty sisällön ohjausobjekti, kun se on valittuna Word-asiakirjassa.  
@@ -90,6 +94,8 @@ Jos olet suunnittelemassa Wordin raporttiasettelua alusta tai lisäämässä uus
 
 ### <a name="adding-data-fields"></a>Tietokenttien lisääminen
 Tietokenttien lisääminen raportin tietojoukosta on kuitenkin lisäasetus ja edellyttää tietoja raportin tietojoukosta. Lisätietoja tieto-, otsikko- ja kuvakenttien lisäämisestä on kohdassa [Kenttien lisääminen Word-raporttiasetteluun](ui-how-add-fields-word-report-layout.md).  
+
+### 
 
 
 ## <a name="see-also"></a>Katso myös

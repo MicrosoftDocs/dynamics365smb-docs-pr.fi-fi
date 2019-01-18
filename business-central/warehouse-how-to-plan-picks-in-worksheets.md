@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 46c19e9fc255c34cfce6e547173f14f548785a0b
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 30a6832c0672677106fdb41c9a38a73dae296aa5
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="plan-picks-in-worksheets"></a>Poimintojen suunnitteleminen työkirjoissa
@@ -42,8 +42,8 @@ Jos järjestelet eräpäivän mukaan, voit valita poistavasi työkirjasta kaikki
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poimintatyökirja** ja valitse sitten liittyvä linkki.  
 2.  Valitse **Hae f. varastoinnin asiakirjat.** -toiminto.  
 3.  Valitse toimitukset, joille haluat valmistella poiminnan. Rivejä voi nyt järjestellä tiettyyn pisteeseen asti, mutta tässä tekemääsi järjestystä ei siirretä poimintaohjeeseen. Voit myös poistaa joitain rivejä tehokkaamman poiminnan tekemiseksi. Esimerkiksi jos on useita rivejä, joilla on nimikkeitä laiturointivarastopaikoissa, voit haluta luoda poiminnan kaikille riveille, jotka liittyvät kyseisiin riveihin. Laituroidut nimikkeet toimitetaan (muiden toimituksissa olevien nimikkeiden kanssa), ja näin laiturointivarastopaikkoihin tulee tilaa uusille saapuville nimikkeille.  
-4.  Valitse **Luo poiminta** -toimina ja täytä **Luo poiminta** -pyyntöikkunan tiedot. Tässä pyytämäsi järjestely lajittelee luomasi poimintarivit. Voit esimerkiksi luoda yhden poiminnan kullekin alueelle ja järjestellä rivit varastopaikan luokittelulla jokaisessa poiminnassa.  
-5.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poiminnat** ja valitse sitten liittyvä linkki. **Poiminnat**-ikkuna aukeaa.  
+4.  Valitse **Luo poiminta** -toimina ja täytä **Luo poiminta** -pyyntösivun tiedot. Tässä pyytämäsi järjestely lajittelee luomasi poimintarivit. Voit esimerkiksi luoda yhden poiminnan kullekin alueelle ja järjestellä rivit varastopaikan luokittelulla jokaisessa poiminnassa.  
+5.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poiminnat** ja valitse sitten liittyvä linkki. **Poiminnat**-sivu avautuu.  
 6.  Löydät juuri luomasi poimintatehtävän valitsemalla poiminnan, jonka numero on suurin.  
 7.  Poiminnassa voit silti tarpeen mukaan muuttaa määriteltyä käyttäjätunnusta ja tapaa, jolla rivit järjestellään.  
 8.  Tulosta poimintaohjeet valitsemalla **Tulosta**.  

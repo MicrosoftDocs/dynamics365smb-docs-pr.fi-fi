@@ -13,10 +13,10 @@ ms.search.keywords: money flow, expense and income, liquidity, cash receipts min
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 24ca91f224a198ec462081ced06ddfe0e9db6cf4
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: fbac12ea35916a1ae577341054f4b80522de9df8
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Kassavirta-analyysin määrittäminen
@@ -30,7 +30,7 @@ Jos tarvitset apua käteisvarojen käytöstä päättämiseen, tutustu Kirjanpit
 Tässä ohjeaiheessa kerrotaan, mistä kaavioiden tiedot saadaan ja (tarvittaessa) miten kaavioiden käyttö aloitetaan.  
 
 ## <a name="the-cash-cycle-and-income--expense-charts"></a>Käyttöpääomasykli- ja Tulot ja kulut -kaaviot
-Tilikarttaan ja KP-raporttimalleihin perustuvat **Käyttöpääomasykli**- ja **Tulot ja kulut** -kaaviot ovat käyttövalmiita. Tilit, joista tiedot haetaan, ja KP-raporttimalli laskevat myynnin ja saamisten välisen suhteen. Valmiina on joitakin tilejä ja KP-raporttimalleja. Voit käyttää niitä sellaisenaan, muuttaa niitä ja lisää uusia. Jos lisäät KP-tilejä tilikarttaan esimerkiksi tuomalla ne QuickBooksista, sinun yhdistettävä ne tileihin seuraavan nimisten KP-raporttimallien **KP-raporttimallit**-ikkunassa:  
+Tilikarttaan ja KP-raporttimalleihin perustuvat **Käyttöpääomasykli**- ja **Tulot ja kulut** -kaaviot ovat käyttövalmiita. Tilit, joista tiedot haetaan, ja KP-raporttimalli laskevat myynnin ja saamisten välisen suhteen. Valmiina on joitakin tilejä ja KP-raporttimalleja. Voit käyttää niitä sellaisenaan, muuttaa niitä ja lisää uusia. Jos lisäät KP-tilejä tilikarttaan esimerkiksi tuomalla ne QuickBooksista, sinun yhdistettävä ne tileihin seuraavan nimisten KP-raporttimallien **KP-raporttimallit**-sivulla:  
 
 | KP-raporttimallin nimi | Käyttökohde |
 | --- | --- |
@@ -68,14 +68,14 @@ Voit käyttää avustettua asennusopasta seuraavissa toiminnoissa:
 1. Valitse Kirjanpitäjä-roolikeskuksen **Kassavirtaennuste**-kaaviossa **Avaa avustettu määritys** -toiminto.  
 2. Täytä kentät oppaan kussakin vaiheessa.  
 3. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kassavirtaennuste** ja valitse sitten liittyvä linkki.
-4. Valitse **Kassavirtaennuste**-ikkunassa **Laske ennuste uudelleen** -toiminto.  
+4. Valitse **Kassavirtaennuste**-sivulla **Laske ennuste uudelleen** -toiminto.  
 
 Voit käyttää manuaalista prosessia seuraavasti:  
 
 1. Etsi Kirjanpitäjä-roolikeskuksessa **Kassavirran asetukset** ja valitse sitten vastaava linkki.  
 2. Laajenna **Cortana Intelligence**-pikavälilehti ja valitse sitten **Cortana Intelligence käytössä** -valintaruutu.  
-3. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kassavirtaennuste** ja valitse sitten liittyvä linkki.
-4. Valitse **Kassavirtaennuste**-ikkunassa **Laske ennuste uudelleen** -toiminto.  
+3. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Kassavirtaennuste** ja valitse sitten liittyvä linkki.
+4. Valitse **Kassavirtaennuste**-sivulla **Laske ennuste uudelleen** -toiminto.  
 
 > [!TIP]  
 >   Mieti, miten pitkiä jaksoja palvelun laskelmissa käytetään. Mitä enemmän tietoja on käytettävissä, sitä tarkempia ennusteet ovat. Varo myös suuria jaksovaihteluita. Ne vaikuttavat myös ennusteisiin. Jos Cortana Intelligence ei löydä riittävästi tietoja tai tiedot ovat kovin erilaisia, palvelu ei voi tehdä ennustetta.  

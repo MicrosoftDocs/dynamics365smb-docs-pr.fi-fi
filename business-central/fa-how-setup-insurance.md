@@ -13,10 +13,10 @@ ms.search.keywords: policy, coverage
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 16098723fed40fbe26b9ba238e7fe5bf339003f5
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1acb95e72ded81520272b250138005d36759d634
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-fixed-asset-insurance"></a>Käyttöomaisuuserän määrittäminen
@@ -38,11 +38,11 @@ Voit ryhmitellä vakuutussopimukset luokkiin, esimerkiksi vakuutukset varkauksia
 Vakuutuskorttiin voi kerätä tietoja kustakin vakuutussopimuksesta.  
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Vakuutus** ja valitse sitten liittyvä linkki.  
-2. Luo uusi vakuutuskortti valitsemalla **Vakuutus**-ikkunassa **Uusi**-toiminto.  
+2. Luo uusi vakuutuskortti valitsemalla **Vakuutus**-sivulla **Uusi**-toiminto.  
 3. Täytä tarvittavat kentät.
 
 ## <a name="to-set-up-insurance-journal-templates"></a>Vakuutuspäiväkirjamallien määrittäminen
-[!INCLUDE[d365fin](includes/d365fin_md.md)] luo automaattisesti vakuutuspäiväkirjan mallin, kun avaat **Vakuutuspäiväkirja**-ikkunan ensimmäisen kerran, mutta voit määrittää myös lisää päiväkirjamalleja. Lisätietoja on kohdassa [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] luo automaattisesti vakuutuspäiväkirjan mallin, kun avaat **Vakuutuspäiväkirja**-sivun ensimmäisen kerran, mutta voit määrittää myös lisää päiväkirjamalleja. Lisätietoja on kohdassa [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md).  
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Vakuutuspäiväkirjan mallit** ja valitse sitten liittyvä linkki.  
 2. Täytä tarvittavat kentät.
@@ -52,7 +52,7 @@ Vakuutuspäiväkirjan mallin alla voidaan määrittää eriä. Päiväkirjaerän
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Vakuutuspäiväkirjan mallit** ja valitse sitten liittyvä linkki.  
 2. Valitse vakuutuspäiväkirjamalli ja valitse sitten **Erät**-toiminto.
-3. Täytä **Vakuutuspäiväkirjan erät** -ikkunassa tarvittavat kentät.
+3. Täytä **Vakuutuspäiväkirjan erät** -sivulla tarvittavat kentät.
 
 > [!NOTE]  
 >   Numeroilla on päiväkirjan nimissä erityistehtävä. Jos päiväkirjamallin nimessä tai päiväkirjaerän nimessä on numero, numero suurenee automaattisesti yhdellä joka kerta, kun päiväkirja kirjataan. Esimerkiksi jos **Nimi**-kenttään syötetään HH1, päiväkirjan nimi muuttuu HH2:ksi sen jälkeen, kun päiväkirja, jonka nimi on HH1, on kirjattu.

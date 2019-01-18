@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 10/22/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2a3ff313d9c6e8bac1169daba590d2e38c312d87
+ms.sourcegitcommit: 78c689aafe31cdec7be1e1740422f781352bbd3c
+ms.openlocfilehash: 5293b5298a2084c8cd36ae4dcc60beda75f5014e
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 10/25/2018
 
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Kenttien lisääminen Word-raporttiasetteluun
@@ -101,7 +101,7 @@ Seuraavassa taulukossa on yksinkertaistettu yhteenveto mukautetun XML-osan XML-k
 |------------------|-----------------|  
 |`<?xml version="1.0" encoding="utf-16"?>`|Otsikko|  
 |`<WordReportXmlPart xmlns="urn:microsoft-dynamics-365/report/<reportname>/<id>/"`|XML-nimitilan määritys. `<reportname>` on raportille määritetty nimi. `<id>` on raportille määritetty tunnus.|  
-|`..<Labels>`<br /><br /> `....<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`<br /><br /> `....<LabelName>LabelCaption</LabelName>`<br /><br /> `..</Labels>`|Sisältää kaikki raportin otsikot.<!--OnPren The element includes labels that are related to columns that have the [IncludeCaption Property](../FullExperience/Name%20Property-duplicate.md).--><br />-   Sarakkeisiin liittyvien otsikkoelementtien muoto on `<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`<!--OnPrem where `ColumnName` is determined by the column's Name Property.-->.<br />-  Otsikkoelementtien muoto on `<LabelName>LabelName</LableName`<!--OnPrem where LabelName is determined by the label's Name Property.-->.<br />-   Otsikot ovat aakkosjärjestyksessä.|  
+|`..<Labels>`<br /><br /> `....<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`<br /><br /> `....<LabelName>LabelCaption</LabelName>`<br /><br /> `..</Labels>`|Sisältää kaikki raportin otsikot.<!--OnPren The element includes labels that are related to columns that have the [IncludeCaption Property](../FullExperience/Name%20Property-duplicate.md).--><br />-   Sarakkeisiin liittyvien otsikkoelementtien muoto on `<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`<!--OnPrem where `ColumnName` is determined by the column's Name Property.-->.<br />-  Otsikkoelementtien muoto on `<LabelName>LabelName</LabelName`<!--OnPrem where LabelName is determined by the label's Name Property.-->.<br />-   Otsikot ovat aakkosjärjestyksessä.|  
 |`..<DataItem1>`<br /><br /> `....<DataItem1Column1>DataItem1Column1</DataItem1Column1>`|Ylimmän tason tietokohde ja sarakkeet. Sarakkeet ovat aakkosjärjestyksessä.<!--OnPrem <br /><br /> The element names and values are determined by the [Name Property-duplicate](../FullExperience/Name%20Property-duplicate.md) of the data item or column.-->|  
 |`....<DataItem2>`<br /><br /> `......<DataItem2Column1>DataItem2Column1</DataItem2Column1>`<br /><br /> `....</DataItem2>`<br /><br /> `....<DataItem3>`<br /><br /> `......<DataItem3Column1>DataItem3Column1</DataItem3Column1>`<br /><br /> `....</DataItem3>`|Tietojen kohteet ja sarakkeet, jotka sisältyvät ylimmän tason tietokohteeseen. Sarakkeet näkyvät aakkosjärjestyksessä vastaavien tietojen kohdassa.|  
 |`..</DataItem1>`<br /><br /> `</WordReportXmlPart>`|Elementin sulkeminen.|  
@@ -125,3 +125,4 @@ Seuraavassa taulukossa on yksinkertaistettu yhteenveto mukautetun XML-osan XML-k
   
 ## <a name="see-also"></a>Katso myös  
  [Raporttien mukautetun asettelun luominen ja muokkaaminen](ui-how-create-custom-report-layout.md)   
+

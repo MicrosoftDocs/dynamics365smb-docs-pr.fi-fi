@@ -13,10 +13,10 @@ ms.search.keywords: multiple currencies
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 7d22d0849e2212d5f3586935601c6dee73f4e10b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 23940bd1e5fd29dc92e8285c08679135889701e9
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="update-currency-exchange-rates"></a>Valuutan vaihtokurssien päivittäminen
@@ -24,7 +24,7 @@ Kaikille valuutoille täytyy määrittää koodi, jos yritys ostaa tai myy käyt
 
 Yritysten toiminnan ollessa yhä useamman maan/alueen laajuista niiden on entistä tärkeämpää pystyä tarkistamaan ja raportoimaan taloustiedot useana valuuttana. Ohjelma tukee usean valuutan käyttöä. Ohjelman sisällä pääkirjanpito määritetään käyttäen paikallista valuuttaa (PVA) ja toinen valuutta määritetään lisävaluutaksi, jolle asetetaan ajantasainen vaihtokurssi.  
 
- Määrittämällä toisen valuutan lisäraportointivaluutaksi [!INCLUDE[d365fin](includes/d365fin_md.md)] kirjaa summat automaattisesti sekä paikallisena valuuttana että lisäraportointivaluuttana kuhunkin KP-tapahtumaan sekä muihin tapahtumiin, kuten ALV-tapahtumiin. Kun KP-tapahtumien summat lasketaan lisäraportointivaluuttana, oikea vaihtokurssi etsitään **Valuutan vaihtokurssit** -ikkunan tietoja avulla.  
+ Määrittämällä toisen valuutan lisäraportointivaluutaksi [!INCLUDE[d365fin](includes/d365fin_md.md)] kirjaa summat automaattisesti sekä paikallisena valuuttana että lisäraportointivaluuttana kuhunkin KP-tapahtumaan sekä muihin tapahtumiin, kuten ALV-tapahtumiin. Kun KP-tapahtumien summat lasketaan lisäraportointivaluuttana, oikea vaihtokurssi etsitään **Valuutan vaihtokurssit** -sivun tietoja avulla.  
 
 > [!WARNING]  
 >  Lisäraportointivaluutta-toimintoa EI saa käyttää rahoituslaskelmien käännösten perustana. Tällä työkalulla ei pysty kääntämään ulkomaisten tytäryritysten tilinpäätöksiä osana yrityksen konsolidointia. Lisäraportointivaluutta antaa ainoastaan mahdollisuuden laatia raportteja muuta valuuttaa käyttäen, ikään kuin tämä valuutta olisi yrityksen paikallinen valuutta.
@@ -39,21 +39,21 @@ Lisäraportointivaluutan käyttäminen voi helpottaa yrityksen raportointiproses
 
 - Yritys haluaa esittää raporttinsa oman paikallisen valuuttansa lisäksi myös laajemmin kansainvälisesti käytetyssä valuutassa.  
 
-Monet Pääkirjanpito-sovellusalueen raportit perustuvat KP-tapahtumiin. Voit näyttää raportin taloudelliset tiedot lisäraportointivaluuttana valitsemalla vain **Näytä lisäraportointivaluuttana** -kentän kyseisessä KP-raportti-ikkunassa.  
+Monet Pääkirjanpito-sovellusalueen raportit perustuvat KP-tapahtumiin. Voit näyttää raportin taloudelliset tiedot lisäraportointivaluuttana valitsemalla vain **Näytä lisäraportointivaluuttana** -kentän kyseisessä KP-raportti-sivulla.  
 
 ## <a name="to-set-up-a-currency-exchange-rate-service"></a>Valuutanvaihdon kurssipalvelun määrittäminen
 Voit pitää valuutan vaihtokurssit ajan tasalla ulkoisen palvelun, kuten FloatRatesin avulla.
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Valuutanvaihtokurssipalvelut** ja valitse sitten liittyvä linkki.
 2. Valitse **Uusi**-toiminto.
-3. Täytä tarvittavat kentät **Valuutanvaihtokurssipalvelut**-ikkunassa. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Täytä tarvittavat kentät **Valuutanvaihtokurssipalvelut**-sivulla. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Ota palvelu käyttöön valitsemalla **Käytössä**.
 
 ## <a name="to-update-currency-exchange-rates-through-a-service"></a>Valuutan vaihtokurssien päivittäminen palvelun avulla
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Valuutat** ja valitse sitten liittyvä linkki.
 2. Valitse **Päivitä valuutan vaihtokurssit** -toiminto.
 
-**Valuutat**-ikkunan **Vaihtokurssi**-kentän arvo päivittyy uusimman valuutan vaihtokurssin mukaan.
+**Valuutat**-sivun **Vaihtokurssi**-kentän arvo päivittyy uusimman valuutan vaihtokurssin mukaan.
 
 ## <a name="see-also"></a>Katso myös
 [Vuosien ja jaksojen sulkeminen](year-close-years-periods.md)  

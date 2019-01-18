@@ -13,10 +13,10 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0a5eaa15fdfbc1d578d755b246b0304030a82b1c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: cd555cc389ff7d9e306645475ef042f7ee9bc934
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="post-the-year-end-closing-entry"></a>Vuositilinpäätöstapahtuman kirjaaminen
@@ -24,7 +24,7 @@ Kun olet luonut vuositilinpäätöstapahtuman tai -tapahtumat **Sulje tuloslaske
 
 ## <a name="to-post-the-year-end-closing-entry"></a>Kirjaa vuositilinpäätöstapahtuma
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Yleinen päiväkirja** ja valitse sitten liittyvä linkki.
-2. Valitse **Yleinen päiväkirja** -ikkunassa **Erän nimi** kenttää ja valitse erä, joka sisältää tilinpäätöstapahtumat.
+2. Valitse **Yleinen päiväkirja** -sivulla **Erän nimi** kentässä erä, joka sisältää tilinpäätöstapahtumat.
 3. Tarkista tapahtumat.
 4. Kirjaa päiväkirja valitsemalla **Kirjaa**-toiminto.
 

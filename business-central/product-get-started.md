@@ -11,10 +11,10 @@ ms.search.keywords: setup wizard
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 4eed11706d890a1b83af7fcb70fe1457a787ba3a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b30a97ad3f7c03b1c42e5cd845698337899a0294
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]in käytön aloittaminen
@@ -39,14 +39,14 @@ Lisätietoja on aiheessa [[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttä
 Kun olet valmis aloittamaan käytön ja haluat tutustua tiettyihin [!INCLUDE[d365fin](includes/d365fin_md.md)]in tukemiin liiketoimintaprosesseihin, lisätietoja on kohdassa [Liiketoiminnan toiminnallisuudet](across-business-functionality.md). Yleiskatsaus nykyisistä ja tulevista toiminnoista on sivustossa [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68).  
 
 ## <a name="the-role-centers"></a>Roolikeskukset
-Roolikeskus-ikkuna perustuu roolikeskeiseen rakenteeseen, jonka ansiosta voit käyttää nopeasti työssä tarvittavia liiketoimintaprosesseja ja BI-työkaluja. Kirjanpitäjä voi esimerkiksi seurata maksuja ja hyväksymisiä sekä tarkastella rahoituksen suorituskykykaavioita. Tutustu eri roolikeskuksiin valitsemalla oikeassa yläkulmassa **Asetukset**-kuvake ![Asetukset](media/ui-experience/settings_icon_small.png "Roolikeskuksen Asetukset-kuvake"). Valitse sitten **Omat asetukset** ja lopuksi roolikeskus, johon haluat tutustua. Ota muutos käyttöön kirjautumalla uudelleen sisään. Lisätietoja on kohdassa [Perusasetusten muuttaminen](ui-change-basic-settings.md).
+Roolikeskussivu perustuu roolikeskeiseen rakenteeseen, jonka ansiosta voit käyttää nopeasti työssä tarvittavia liiketoimintaprosesseja ja BI-työkaluja. Kirjanpitäjä voi esimerkiksi seurata maksuja ja hyväksymisiä sekä tarkastella rahoituksen suorituskykykaavioita. Tutustu eri roolikeskuksiin valitsemalla oikeassa yläkulmassa **Asetukset**-kuvake ![Asetukset](media/ui-experience/settings_icon_small.png "Roolikeskuksen Asetukset-kuvake"). Valitse sitten **Omat asetukset** ja lopuksi roolikeskus, johon haluat tutustua. Ota muutos käyttöön kirjautumalla uudelleen sisään. Lisätietoja on kohdassa [Perusasetusten muuttaminen](ui-change-basic-settings.md).
 
-Jokaisessa roolikeskuksessa on **Asennus ja laajennukset** -painike. Saat käyttöösi luettelon avustetuista asennuksista, joiden avulla pääset alkuun määrittämällä valitut alueet nopeasti. Jos alueella ei ole avustettua asennusta, valitse **Manuaalinen asennus** -toiminto. Pääset tällä tavoin ikkunoihin, joissa voit täyttää kaikkien alueiden asennuskentät manuaalisesti. Lisätietoja on myös ohjeaiheessa [[!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittäminen](setup.md)  
+Jokaisessa roolikeskuksessa on **Asennus ja laajennukset** -painike. Saat käyttöösi luettelon avustetuista asennuksista, joiden avulla pääset alkuun määrittämällä valitut alueet nopeasti. Jos alueella ei ole asetuksen ohjattua määritystä, valitse **Manuaalinen asennus** -toiminto. Pääset tällä tavoin sivuille, joissa voit täyttää kaikkien alueiden asennuskentät manuaalisesti. Lisätietoja on myös ohjeaiheessa [[!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittäminen](setup.md)  
 
 > [!NOTE]  
 >   Käytettävissä olevien asennusoppaiden, laajennusten ja palvelujen luettelo vaihtelee yritykselle valitun käyttäjäkokemuksen mukaan. **Essential**-kokemuksen valikoima on suppeampi kuin **Premium**-kokemuksen valikoima. Ensimmäisellä kirjautumiskerralla käytössä on Essential-kokemus. Lisätietoja on kohdassa [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md).  
 
-**Avustettu asennus** -ikkunassa on seuraava **Essential**-kokemus:
+**Asetusten ohjattu määritys** -sivulla on seuraava **Essential**-kokemus:
 
 | Asetusten ohjattu määritys | Description |
 | --- | --- |

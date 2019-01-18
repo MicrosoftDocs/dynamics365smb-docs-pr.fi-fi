@@ -1,6 +1,6 @@
 ---
 title: "Varaston ja tuotannon kustannusten käsitteleminen | Microsoft Docs"
-description: "Vaikka useat kustannuslaskennan toiminnot (kuten tapahtuman kohdistus ja automaattinen kustannusten muuttaminen) tapahtuvat taustalla olevissa prosesseissa ilman käyttäjän toimia, useat kentät, ikkunat ja raportit on tarkoitettu käyttäjille, jotka hallitsevat nimikkeiden tai toimintojen kustannuksia suoraan tai epäsuorasti."
+description: "Vaikka useat kustannuslaskennan toiminnot (kuten tapahtuman kohdistus ja automaattinen kustannusten muuttaminen) tapahtuvat taustalla olevissa prosesseissa ilman käyttäjän toimia, useat kentät, sivut ja raportit on tarkoitettu käyttäjille, jotka hallitsevat nimikkeiden tai toimintojen kustannuksia suoraan tai epäsuorasti."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 463902077313b09391c42f4d44fde11be08bdd02
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 27c036dac88bce71ecfefa064d05ac3cdd8e8225
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="handling-inventory-and-manufacturing-costs"></a>Varaston ja tuotannon kustannusten käsitteleminen
-Vaikka useat kustannuslaskennan toiminnot (kuten tapahtuman kohdistus ja automaattinen kustannusten muuttaminen) tapahtuvat taustalla olevissa prosesseissa ilman käyttäjän toimia, useat kentät, ikkunat ja raportit on tarkoitettu käyttäjille, jotka hallitsevat nimikkeiden tai toimintojen kustannuksia suoraan tai epäsuorasti.  
+Vaikka useat kustannuslaskennan toiminnot (kuten tapahtuman kohdistus ja automaattinen kustannusten muuttaminen) tapahtuvat taustalla olevissa prosesseissa ilman käyttäjän toimia, useat kentät, sivut ja raportit on tarkoitettu käyttäjille, jotka hallitsevat nimikkeiden tai toimintojen kustannuksia suoraan tai epäsuorasti.  
 
  Nimikekulujen liittäminen ostoasiakirjoihin on esimerkki epäsuorasta kustannuslaskentatehtävästä. Kokoonpanon tai tuotannon tuoterakenteen yksikkökustannuksen päivittäminen on esimerkki suorahkosta kustannuslaskentatehtävästä.  
 

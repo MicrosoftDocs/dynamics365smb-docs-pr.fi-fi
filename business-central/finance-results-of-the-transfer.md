@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: general ledger, transfer, cost entries
 ms.date: 10/01/2018
 ms.author: sgroespe
+redirect_url: finance-transfer-and-post-cost-entries
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: bc693bf3f3339b54a5d8d8847beb06c3fc018a0f
+ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
+ms.openlocfilehash: 0e17ff5ad60014cba6ce866c9ddae848b1239167
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/20/2018
 
 ---
 # <a name="results-of-transferring-general-ledger-entries-to-cost-entries"></a>Tulokset siirrettäessä pääkirjanpidon tapahtumat kustannustapahtumiin
@@ -38,8 +39,5 @@ Kun pääkirjanpidon tapahtumia siirretään kustannustapahtumiin, [!INCLUDE[d36
 **Kustannusrekisteri**-taulukkoon [!INCLUDE[d365fin](includes/d365fin_md.md)] luo merkinnän lähteen siirtämisestä pääkirjanpidosta. Tapahtuma kirjaa siirrettyjen pääkirjanpidon tapahtumien ensimmäisen ja viimeisen tapahtumanumeron sekä luotujen kustannustapahtumien ensimmäisen ja viimeisen tapahtumanumeron.  
 
 ## <a name="see-also"></a>Katso myös  
-[Pääkirjanpidon tapahtumien siirtäminen kustannustapahtumiin](finance-how-to-transfer-general-ledger-entries-to-cost-entries.md)   
-[Kriteerit pääkirjanpidon tapahtumien siirtämiseksi kustannustapahtumiin](finance-criteria-for-transferring-general-ledger-entries-to-cost-entries.md)   
-[Automaattinen siirto ja yhdistetyt tapahtumat](finance-automatic-transfer-combined-entries.md)   
-[Kustannustapahtumien siirtäminen ja kirjaaminen](finance-transfer-and-post-cost-entries.md)  
+[Kustannustapahtumien siirtäminen ja kirjaaminen](finance-transfer-and-post-cost-entries.md)   
 

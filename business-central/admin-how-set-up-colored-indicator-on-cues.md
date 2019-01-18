@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f68bd92456ccab6d4bade8f5545d5c715a0c35bd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 33b0271c85d97abb8cd4a65c8c9ab9ddd354674b
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a>Pinojen värillisen ilmaisimen määrittäminen yrityskäyttäjille tai yksittäisille käyttäjille
@@ -24,20 +24,20 @@ Järjestelmänvalvojana voit määrittää pinot, jotka näkyvät käyttäjien R
   
 Ilmaisin näkyy värillisenä palkkina pinon ruudun yläreunassa. Se antaa visuaalisen signaalin pinon toiminnan tilasta, joka voi ilmaista suotuisia tai epäsuotuisia olosuhteita ja kehottaa käyttäjää toimimaan. Esimerkiksi, jos pino näyttää myyntilaskujen jatkuvan, voit määrittää ilmaisimen näkymään vihreänä (hyvä), kun jatkuva myyntilaskujen määrä on alle 10, ja se muuttuu punaiseksi (epäsuotuisa) kun summa on yli 20.  
   
-**Pinon asetukset** -ikkunasta voit asettaa ilmaisimet kaikille pinoille, jotka ovat saatavilla yhtiön tietokannassa. Voit määrittää ilmaisimia, joita käytetään kaikkiin yrityksen käyttäjiin tai vain yksittäiseen käyttäjään. **Pinon asetukset** -ikkunan ilmaisimen asetukset toimivat ilmaisimen oletusasetuksina. Jos käyttäjät voivat käyttää **Loppukäyttäjän pinon asetukset** -ikkunaa, he voivat mukauttaa **Pinon asetukset** -ikkunassa määritettäviä ilmaisinasetuksia.  
+**Pinon asetukset** -sivulla voi määrittää ilmaisimet kaikille pinoille, jotka ovat saatavilla yhtiön tietokannassa. Voit määrittää ilmaisimia, joita käytetään kaikkiin yrityksen käyttäjiin tai vain yksittäiseen käyttäjään. **Pinon asetukset** -sivun ilmaisimen asetukset toimivat ilmaisimen oletusasetuksina. Jos käyttäjät voivat käyttää **Loppukäyttäjän pinon asetukset** -sivua, he voivat mukauttaa **Pinon asetukset** -sivulla määritettäviä ilmaisinasetuksia.  
   
 Jotta voit määrittää ilmaisimen, sinun on määritettävä korkeintaan kaksi raja-arvoa, jotka määrittävät kolme arvoaluetta (matala, keskisuuri ja korkea), joihin voit käyttää eri värejä (tai tyyliä).  
   
 ### <a name="to-set-up-colored-indicators-on-cues"></a>Värillisten ilmaisinten määrittäminen pinoissa  
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pinon asetukset** ja valitse sitten liittyvä linkki.  
   
-     **Pinon asetukset** -ikkuna aukeaa. Ikkunassa on luettelo ilmaisimista, jotka on tällä hetkellä määritetty pinoissa. Kaikkia yrityksen käyttäjiä koskevissa ilmaisimissa on tyhjä **Käyttäjänimi**-kenttä. Tiettyä käyttäjää koskevat ilmaisimet sisältävät käyttäjän nimen **Käyttäjänimi**-kentässä.  
+     **Pinon asetukset** -sivu avautuu. Sivulla on luettelo ilmaisimista, jotka on tällä hetkellä määritetty pinoissa. Kaikkia yrityksen käyttäjiä koskevissa ilmaisimissa on tyhjä **Käyttäjänimi**-kenttä. Tiettyä käyttäjää koskevat ilmaisimet sisältävät käyttäjän nimen **Käyttäjänimi**-kentässä.  
   
     > [!NOTE]  
     >  Jos asetat yrityksen laajuisen ilmaisimen ja käyttäjä muokkaa ilmaisinta myöhemmin, tälle käyttäjälle näkyy luettelossa erillinen ilmaisimen merkintä.  
   
 2. Valitse **Muokkaa luetteloa** -toiminto.  
-3. Voit määrittää ilmaisimen pinolle, jota ei ole ikkunan luettelossa, valitsemalla **Uusi**-toiminnon ja täyttämällä sitten seuraavaksi käsiteltävät kentät. Jos haluat muokata olemassa olevaa ilmaisinta, siirry seuraavaan vaiheeseen.  
+3. Voit määrittää ilmaisimen pinolle, jota ei ole sivun luettelossa, valitsemalla **Uusi**-toiminnon ja täyttämällä sitten seuraavaksi käsiteltävät kentät. Jos haluat muokata olemassa olevaa ilmaisinta, siirry seuraavaan vaiheeseen.  
   
     |  Kenttä  |  Description  |    
     |---------|---------------|  

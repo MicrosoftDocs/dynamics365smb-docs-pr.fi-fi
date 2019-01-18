@@ -13,10 +13,10 @@ ms.search.keywords: transportation, added cost, landed cost
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: dac33cefa38e82c1fa34d1f8eeeffbfad7518ab4
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: e2a7c5f34471bb76aed708d6a6e4ff36feaf39c7
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Kaupan lisäkustannusten huomiointi nimikekulujen avulla
@@ -41,7 +41,7 @@ Nimikekulun voi määrittää sekä osto- että myyntiasiakirjoissa kahdella tav
 Nimikekulunumeroita käytetään erottelemaan eri tyyppisiä nimikekuluja, joita yrityksessäsi käytetään ostoasiakirjoille.
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikekulut** ja valitse sitten liittyvä linkki.
-2. Luo uusi rivi valitsemalla **Nimikekulut**-ikkunassa **Uusi**-toiminto.
+2. Luo uusi rivi valitsemalla **Nimikekulut**-sivulla **Uusi**-toiminto.
 3. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item"></a>Nimikekulun määrittäminen suoraan nimikkeen ostolaskuun
@@ -58,9 +58,9 @@ Jos tiedät nimikekulun nimikkeen ostolaskua kirjatessa, toimi seuraavasti.
     Varsinainen määritys tehdään seuraavissa vaiheissa. **Määriteltävä määrä** -kentän arvo näkyy punaisella fontilla, kunnes nimikekulu on määritetty kokonaan.
 8. Valitse **Rivit**-välilehdessä **Nimikekulujen määritys** toiminto.
 
-    Avautuvassa **Nimikekulujen määritys** -ikkunassa näkyy yksi rivi kutakin ostolaskun Nimike-tyypin riviä. Voit määrittää nimikekululle vähintään yhdelle laskuriville käyttämällä toimintoa, joka määrittää ja jakaa sen puolestasi. Vaihtoehtoisesti voit täyttää **Määritettävä määrä** -kentän manuaalisesti. Seuraavissa vaiheissa kerrotaan, miten kuvataan, miten nimikekulujen määrityksen ehdotustoimintoa käytetään.
+    Avautuvassa **Nimikekulujen määritys** -sivulla näkyy yksi rivi kutakin ostolaskun Nimike-tyypin riviä. Voit määrittää nimikekululle vähintään yhdelle laskuriville käyttämällä toimintoa, joka määrittää ja jakaa sen puolestasi. Vaihtoehtoisesti voit täyttää **Määritettävä määrä** -kentän manuaalisesti. Seuraavissa vaiheissa kerrotaan, miten kuvataan, miten nimikekulujen määrityksen ehdotustoimintoa käytetään.
 
-9. Valitse **Nimikekulun määritys** -ikkunassa **Ehdota nimikk. kulumääritystä** -toiminto.
+9. Valitse **Nimikekulun määritys** -sivulla **Ehdota nimikk. kulumääritystä** -toiminto.
 10. Jos Nimike-tyyppisiä laskurivejä on useita, valitse yksi neljästä jakeluvaihtoehdosta.  
 
 Jos nimikekulu on määritetty kokonaan, ostolaskun **Määriteltävä määrä** -kentän arvo on nolla.
@@ -70,8 +70,8 @@ Nimikekulu on nyt määritetty ostolaskuun. Kun kirjaat ostolaskun vastaanoton, 
 ## <a name="to-assign-an-item-charge-from-a-separate-invoice-to-the-purchase-invoice-for-the-item"></a>Nimikekulun määrittäminen erillisestä laskusta nimikkeen ostolaskuun
 Jos vastaanotit nimikekulun laskun alkuperäisen laskun vastaanoton kirjaamisen jälkeen, toimi seuraavasti.
 1. Toista Nimikekulun määrittäminen suoraan nimikkeen ostolaskuun -kohdan vaiheet 1–8.
-2. Valitse **Nimikekulujen määritys** -ikkunassa **Hae vastaanoton rivit** -toiminto.
-3. Valitse **Oston vast.otto rivit** -ikkunassa sen nimikkeen kirjattu oston vastaanotto, johon haluat määrittää nimikekulun, ja valitse sitten **OK**-painike.
+2. Valitse **Nimikekulujen määritys** -sivulla **Hae vastaanoton rivit** -toiminto.
+3. Valitse **Oston vast.otto rivit** -sivulla sen nimikkeen kirjattu oston vastaanotto, johon haluat määrittää nimikekulun, ja valitse sitten **OK**-painike.
 4. Valitse **Ehdota nimikk. kulumääritystä** -toiminto.
 
 Erillisen ostolaskun nimikekulu on nyt määritetty kirjatun oston vastaanoton nimikkeelle, joten nimikkeen varastoarvo päivitetään nimikekulun kustannuksella.

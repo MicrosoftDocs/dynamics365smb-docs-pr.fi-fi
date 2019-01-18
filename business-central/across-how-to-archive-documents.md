@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6b1b23c062fdb1c4558a292c7aa454ae24ff3c71
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4827e25d97127faf691b96df9868320bb47dee39
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="archive-documents"></a>Asiakirjojen arkistointi
@@ -27,7 +27,7 @@ Voit määrittää myynti- ja ostotilausten, tarjousten, puitetilausten ja palau
 
 Seuraavassa kuvataan, miten myyntiasiakirjojen automaattinen arkistointi määritetään. Vaiheet ovat samankaltaiset ostoasiakirjoille.
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntien ja myyntisaamisten asetukset** ja valitse sitten liittyvä linkki.
-2. Täytä kentät **Myyntien ja myyntisaamisten asetukset** -ikkunassa seuraavasti.
+2. Täytä kentät **Myyntien ja myyntisaamisten asetukset** -sivulla seuraavasti.
 
 |Kenttä|Description|
 |-----|-----------|
@@ -42,7 +42,7 @@ Seuraavassa kuvataan, miten myyntitilaus arkistoidaan. Vaiheet ovat samankaltais
 2.  Avaa myyntitilaus, jonka haluat arkistoida.  
 3.  Valitse **Arkistoi asiakirja** -toiminto.
 
-Myyntitilaus on arkistoitu. Voit tarkastella sitä **Arkistoidut myyntitilaukset** -ikkunassa. Ikkunassa voit myös luoda uudelleen myyntitilauksen, josta se arkistoitiin.
+Myyntitilaus on arkistoitu. Voit tarkastella sitä **Arkistoidut myyntitilaukset** -sivulla. Ikkunassa voit myös luoda uudelleen myyntitilauksen, josta se arkistoitiin.
 
 ## <a name="to-recreate-a-sales-order-from-the-archive"></a>Myyntitilauksen luominen uudelleen arkistosta
 Seuraavassa kuvataan, miten myyntitilaus luodaan uudelleen. Vaiheet ovat samankaltaiset kaikille tilauksille, puitetilauksille, palautustilauksille ja tarjouksille.
@@ -50,13 +50,13 @@ Seuraavassa kuvataan, miten myyntitilaus luodaan uudelleen. Vaiheet ovat samanka
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Arkistoidut myyntitilaukset** ja valitse sitten liittyvä linkki.
 2.  Valitse arkistoitu myyntitilaus, joka luodaan uudelleen, ja valitse sitten **Palauta**-toiminto.  
 
-Myyntitilaus luodaan ja lisätään **Myyntitilaukset**-ikkunaan.
+Myyntitilaus luodaan ja lisätään **Myyntitilaukset**-sivulle.
 
 ## <a name="to-delete-archived-sales-orders"></a>Arkistoitujen myyntitilausten poistaminen
 Seuraavassa kuvataan, miten arkistoidut myyntitilaukset poistetaan. Vaiheet ovat samanlaiset muille arkistoiduille myynti- ja ostoasiakirjoille.
 
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poista arkistoidut myyntitilausversiot** ja valitse sitten liittyvä linkki.  
-2.  Valitse **Poista arkistoidut myyntitilausversiot** -ikkunassa sopivat suodattimet.  
+2.  Valitse **Poista arkistoidut myyntitilausversiot** -sivulla sopivat suodattimet.  
 3.  Valitse **OK**-painike.
 
 ## <a name="see-also"></a>Katso myös

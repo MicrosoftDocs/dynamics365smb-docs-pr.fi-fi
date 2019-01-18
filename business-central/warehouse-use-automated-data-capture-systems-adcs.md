@@ -8,16 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 10/04/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b7887206991a6e31994e3efc4942c7b1254bb805
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4d378e4407ce0023ab0f089f7a8a218605c4cf7d
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
-# <a name="enable-automated-data-capture-systems-adcs"></a>ADCS (Automated Data Capture Systems) -järjestelmän ottaminen käyttöön
+# <a name="use-automated-data-capture-systems-adcs"></a>ADCS (Automated Data Capture System) -järjestelmä
+
+> [!NOTE]
+> [!INCLUDE[d365fin](includes/d365fin_md.md)] -vakioversiossa ADCS toimii vain paikallisissa käyttöönotoissa. Microsoft-kumppani voi kuitenkin mahdollistaa verkkokäyttöönotot esimerkiksi PowerAppsin avulla.
+
 Automaattista tiedonkeruujärjestelmää (ADCS) voidaan käyttää rekisteröimään kaikki nimikkeiden siirrot fyysisessä varastossa ja rekisteröimään kaikki päiväkirjatoiminnot, joihin sisältyvät määrän muutokset fyysisen varastoinnin nimikepäiväkirjassa, inventoinneissa ja uudelleenluokitteluissa.  
 
 ADCS:n käyttöön on annettava kullekin nimikkeelle, joka on tallennettu varastoon, nimikkeen tunnus. Sinun täytyy myös määrittää pienoislomakkeet, kannettavat toiminnot, tiedon siirrot, ja määrittää eritysasetukset kentille, jotka määrittävät ADCS-asetuksia. Voit määrittää käytetäänkö ADCS:ää varaston sijaintikortissa.
@@ -38,22 +42,22 @@ ADCS:n käytössä on määritettävä, mitkä fyysisen varaston sijainnit käyt
 
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sijainnit** ja valitse liittyvä linkki.
 2.  Valitse luettelosta fyysinen varasto, jossa haluat ottaa käyttöön ADCS-järjestelmä, ja valitse sitten **Muokkaa**-toiminto.
-3. Valitse **Sijainnin kortti** -ikkunassa **Käytä ADCS** -valintaruutu.  
+3. Valitse **Sijainnin kortti** -sivulla **Käytä ADCS** -valintaruutu.  
 
 ## <a name="to-specify-an-item-to-use-adcs"></a>Nimikkeen määrittäminen käyttämään ADCS-järjestelmää  
 Kullekin varastonimikkeelle, jota haluat käyttää ADCS:n kanssa, on määritettävä tunnuskoodia, joka yhdistää sen nimikkeen numeroon. Esimerkiksi nimikkeen viivakoodia voi käyttää tunnuskoodina. Nimikkeellä voi olla myös useita tunnuskoodeja. Saatat pitää tätä hyödyllisenä siinä tapauksessa, että nimike on käytettävissä eri mittayksiköissä, kuten kappaleissa ja kuormalavoissa. Määritä tässä tapauksessa jokaiselle tunnuskoodi.    
 
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten liittyvä linkki.  
 2.  Valitse luettelosta nimike, joka on osa ADCS-ratkaisua, ja valitse sitten **Muokkaa**-toiminto.
-3. Valitse **Nimikkeen kortti** -ikkunassa **Tunnisteet**-toiminto.
-4. Valitse **Nimiketunnisteet**-ikkunassa **Uusi**-toiminto.
+3. Valitse **Nimikkeen kortti** -sivulla **Tunnisteet**-toiminto.
+4. Valitse **Nimiketunnisteet**-sivulla **Uusi**-toiminto.
 5. Määritä **Koodi**-kentässä nimikkeen tunnus. Tunnus voi olla esimerkiksi nimikkeen viivakoodinumero.  
 
     Voit myös kirjoittaa **Varianttikoodi** ja **Mittayksikkö** -koodi.  
 
 6. Syötä tarvittaessa jokaiselle nimikkeelle useita koodeja.
 7. Valitse **OK**-painike.  
-8.  Voit tarkastella tietoja avaamalla **Nimiketunnisteet**-ikkuna valitsemalla **Tunnistimen koodi** -kenttä.
+8.  Voit tarkastella tietoja avaamalla **Nimiketunnisteet**-sivu valitsemalla **Tunnistimen koodi** -kenttä.
 
 ## <a name="to-add-an-adcs-user"></a>ADCS-käyttäjän lisääminen  
 Voit lisätä minkä tahansa käyttäjän Automated Data Capture System (ADCS) -järjestelmän käyttäjäksi. Kun teet tämän, käyttäjän on myös annettava salasana. Voit myös antaa yhteyden, joka määrittää ADCS-käyttäjän fyysisen varastoinnin työntekijäksi. ADCS-käyttäjän salasana voi olla eri kuin käyttäjän Windows-kirjautumissalasana. Lisätietoja on kohdassa [Käyttäjien ja käyttöoikeuksien hallinta](ui-how-users-permissions.md).

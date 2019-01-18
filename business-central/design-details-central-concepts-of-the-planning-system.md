@@ -13,16 +13,16 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e7b5bb42d17791b699bced46b027c43104029ef4
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: afbc6454fd133cfc5d2a40ffc12220b9cbf0f6dd
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Rakennetiedot: suunnittelujärjestelmän keskeiset käsitteet
 Suunnittelutoiminnot on sisällytetty eräajoon, joka ensin valitsee asiaankuuluvat nimikkeet ja ajanjaksot, jotka suunnitellaan. Eräajo kutsuu koodiyksikköä kunkin nimikkeen alatason koodin (tuotantorakenteen positio) mukaisesti ja laskee suunnitelman täsmäyttämällä tarjonta- ja kysyntäjoukot ja ehdottaa käyttäjälle mahdollisia toimintatapoja. Ehdotetut toimenpiteet ilmestyvät riveinä suunnittelutaulukkoon tai tilaustaulukkoon.  
 
-![Suunnittelutyökirja-ikkunan sisältö](media/NAV_APP_supply_planning_1_planning_worksheet.png "Suunnittelutyökirja-ikkunan sisältö")  
+![Suunnittelutyökirja-sivun sisältö](media/NAV_APP_supply_planning_1_planning_worksheet.png "Suunnittelutyökirja-sivun sisältö")  
 
 Yrityksen suunnittelijan, kuten ostaja tai tuotantosuunnittelija, oletetaan olevan suunnittelujärjestelmän käyttäjä. Suunnittelujärjestelmä auttaa käyttäjää suorittamaan laajat, mutta melko suoraviivaiset suunnitelman laskelmat. Tämän jälkeen käyttäjä voi keskittyä ratkaisemaan vaikeampia ongelmia, kuten esimerkiksi poikkeustilanteiden hallintaa.  
 
@@ -53,7 +53,7 @@ Lisätietoja on kohdassa [Rakennetiedot: tilausten käsittely ennen suunnittelun
 ## <a name="dynamic-order-tracking-pegging"></a>Dynaaminen tilausseuranta (tarvekohdistus)  
 Dynaaminen tilausseuranta, joka luo samanaikaisesti toimenpideviestit suunnittelutyökirjassa, ei ole osa tarjonnan suunnittelujärjestelmää [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmassa Tämä toiminto linkittää reaaliaikaisesti kysynnän ja määrät, jotka voisivat kattaa sen, jos uusi kysyntä tai tarjonta luodaan tai sitä muutetaan.  
 
-Esimerkiksi, jos käyttäjä syöttää tai muuttaa myyntitilausta, dynaaminen tilausten seurantajärjestelmä etsii sopivan tarjonnan kysynnän kattamiseksi. Tämä voi olla lähtöisin varastosta tai odotetusta toimitustilauksesta (kuten osto- tai tuotantotilauksesta). Kun tarjonnan lähde löytyy, järjestelmä luo linkin kysynnän ja tarjonnan välille ja näyttää sen vain luku -tilassa olevissa ikkunoissa, joita voi käyttää asiaan kuuluvilta asiakirjariveiltä. Jos asianmukaista tarjontaa ei löydy, dynaaminen tilausten seurantajärjestelmä luo suunnittelutyökirjaan toimenpideviestejä, joiden tarjontasuunnitelman ehdotukset kuvaavat dynaamista täsmäytystä. Näin ollen dynaaminen tilausten seurantajärjestelmä tarjoaa hyvin yksinkertaisen suunnittelujärjestelmän, joka voi auttaa sekä suunnittelijaa että muita rooleja sisäisessä toimitusketjussa.  
+Esimerkiksi, jos käyttäjä syöttää tai muuttaa myyntitilausta, dynaaminen tilausten seurantajärjestelmä etsii sopivan tarjonnan kysynnän kattamiseksi. Tämä voi olla lähtöisin varastosta tai odotetusta toimitustilauksesta (kuten osto- tai tuotantotilauksesta). Kun tarjonnan lähde löytyy, järjestelmä luo linkin kysynnän ja tarjonnan välille ja näyttää sen vain luku -tilassa olevilla sivuilla, joita voi käyttää asiaan kuuluvilta asiakirjariveiltä. Jos asianmukaista tarjontaa ei löydy, dynaaminen tilausten seurantajärjestelmä luo suunnittelutyökirjaan toimenpideviestejä, joiden tarjontasuunnitelman ehdotukset kuvaavat dynaamista täsmäytystä. Näin ollen dynaaminen tilausten seurantajärjestelmä tarjoaa hyvin yksinkertaisen suunnittelujärjestelmän, joka voi auttaa sekä suunnittelijaa että muita rooleja sisäisessä toimitusketjussa.  
 
 Näin ollen dynaamista tilausten seurantaa voidaan pitää työkaluna, joka auttaa käyttäjää arvioimaan tilausehdotusten hyväksymistä. Tarjontapuolelta käyttäjä voi nähdä, että mikä kysyntä on luonut tarjonnan ja kysyntäpuolelta, minkä tarjonnan tulisi kattaa kysyntä.  
 
@@ -158,7 +158,7 @@ Tilauskohtainen linkki kysynnän ja tarjonnan välillä on toinen määritetyypp
 ### <a name="specific-attributes"></a>Tietyt attribuutit  
 Eräät kysynnän määritteet ovat erityisiä ja ne on kohdistettava tarkalleen vastaavan tarjonnan mukaan. Seuraavat kaksi erityisominaisuutta on olemassa:  
 
--   Pyydetyt sarja- tai eränumerot, jotka edellyttävät tiettyä sovellusta. ( Nimikkeen käyttämälle nimikkeen seurantakoodille on valittu **SN-kohtainen seuranta** tai **Eräkohtainen seuranta** -valintaruutu on valittu **Nimikk. seurantakoodin kortti** -ikkunassa.)  
+-   Pyydetyt sarja- tai eränumerot, jotka edellyttävät tiettyä sovellusta. ( Nimikkeen käyttämälle nimikkeen seurantakoodille on valittu **SN-kohtainen seuranta** tai **Eräkohtainen seuranta** -valintaruutu on valittu **Nimikk. seurantakoodin kortti** -sivulla.)  
 -   Manuaalisesti tai automaattisesti tietylle kysynnälle toimitustilauksiin luodut linkit (tilausten väliset linkit).  
 
 Näiden määritteiden osalta suunnittelujärjestelmä soveltaa seuraavia sääntöjä:  
@@ -211,7 +211,7 @@ Ensimmäinen suunnittelutaulukon sarake on varoituskenttiä varten. Kaikki epät
 
 Tarjontaa suunnitteluriveillä, joilla on varoituksia, ei tavallisesti muokata suunnitteluparametrien mukaan. Suunnittelujärjestelmä ehdottaa sen sijaan vain toimitusmäärää, joka kattaa kysyntämäärän täsmällisesti. Järjestelmä voidaan kuitenkin määrittää noudattamaan tiettyjä suunnittelurivien suunnitteluparametreja, joihin liittyy tiettyjä varoituksia. Lisätietoja on seuraavien erätöiden vaihtoehtojen kuvauksissa: **Laske suunn. - Suunn.työk.** ja **Laske suun. - hankintatyök.** .  
 
-Varoituksen tiedot näytetään **Ei-seuratut suunnitteluelementit** -ikkunassa, jossa näkyvät myös niiden yksiköiden tilauksen seurantalinkit, jotka eivät ole tilauksia. Varoitustyyppejä on kolme:  
+Varoituksen tiedot näytetään **Ei-seuratut suunnitteluelementit** -sivulla, jossa näkyvät myös niiden yksiköiden tilauksen seurantalinkit, jotka eivät ole tilauksia. Varoitustyyppejä on kolme:  
 
 -   Hätä  
 -   Poikkeus  
@@ -252,7 +252,7 @@ Huomautus-varoitus tulee näkyviin kolmessa tilanteessa:
 ## <a name="error-logs"></a>Virhelokit  
 Laske suunnitelma -pyyntösivulla käyttäjä voi valita **Pysäytä ja Näytä ensimmäinen virhe**-kentän, jotta suunnitelman ajo pysähtyy, kun se kohtaa ensimmäisen virheen. Samalla näyttöön tulee sanoma, jossa on tietoja virheestä. Virhetilanteessa vain ennen virheen ilmenemistä tehdyt onnistuneet suunnittelurivit esitetään suunnittelutyökirjassa.  
 
-Jos kenttää ei ole valittu, Laske suunnitelma -eräajo jatkaa suoritusta loppuun asti. Virheet eivät keskeytä eräajoa. Jos virheitä ilmenee, ohjelma tuo eräajon jälkeen näkyviin sanoman, jossa ilmoitetaan kuinka useaan nimikkeeseen virheet vaikuttavat. Tämän jälkeen avautuu **Suunnittelun virheloki** -ikkuna, jossa on lisätietoja virheestä ja linkit vaikutusalueeseen kuuluviin asiakirjoihin tai asetuskortteihin.  
+Jos kenttää ei ole valittu, Laske suunnitelma -eräajo jatkaa suoritusta loppuun asti. Virheet eivät keskeytä eräajoa. Jos virheitä ilmenee, ohjelma tuo eräajon jälkeen näkyviin sanoman, jossa ilmoitetaan kuinka useaan nimikkeeseen virheet vaikuttavat. Tämän jälkeen avautuu **Suunnittelun virheloki** -sivu, jossa on lisätietoja virheestä ja linkit vaikutusalueeseen kuuluviin asiakirjoihin tai asetuskortteihin.  
 
 ![Suunnittelutyökirjan virhesanomat](media/NAV_APP_supply_planning_1_error_log.png "Suunnittelutyökirjan virhesanomat")  
 
@@ -264,10 +264,10 @@ Käyttäjä voi manuaalisesti määrittää kentän, kuitenkin joissa tapauksiss
 Lisätietoja tämän kentän käytöstä on kohdassa [Rakennetiedot: siirrot suunnittelussa](design-details-transfers-in-planning.md).  
 
 ## <a name="order-planning"></a>Tilauksen suunnittelu  
-**Tilausten suunnittelu** -ikkunassa esitelty perustyökalu tarjonnan suunnitteluun on suunniteltu manuaaliseen päätöstentekoon. Se ei ota huomioon mitään suunnitteluparametreja ja sitä ei näin ollen käsitellä tarkemmin tässä asiakirjassa. Katso lisätietoja Tilauksen suunnittelu -ominaisuudesta [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman ohjeesta  
+**Tilausten suunnittelu** -sivulla esitelty perustyökalu tarjonnan suunnitteluun on suunniteltu manuaaliseen päätöstentekoon. Se ei ota huomioon mitään suunnitteluparametreja ja sitä ei näin ollen käsitellä tarkemmin tässä asiakirjassa. Katso lisätietoja Tilauksen suunnittelu -ominaisuudesta [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman ohjeesta  
 
 > [!NOTE]  
->  Ei ole suositeltavaa käyttää Tilauksen suunnittelu -toimintoa, jos yrityksessä jo käytetään suunnitelussa suunnittelutyökirjaa tai hankintalistaa. **Tilauksen suunnittelu** -ikkunan kautta luotuja toimitustilauksia voidaan muuttaa tai poistaa automaattisten suunnitteluajojen aikana. Tämä johtuu siitä, että automaattisissa suunnitteluajoissa käytetään suunnitteluparametreja, joita Tilauksen suunnittelu -ikkunassa manuaalisen suunnitelman laatinut käyttäjä ei välttämättä ole ottanut huomioon.  
+>  Ei ole suositeltavaa käyttää Tilauksen suunnittelu -toimintoa, jos yrityksessä jo käytetään suunnitelussa suunnittelutyökirjaa tai hankintalistaa. **Tilauksen suunnittelu** -sivun kautta luotuja toimitustilauksia voidaan muuttaa tai poistaa automaattisten suunnitteluajojen aikana. Tämä johtuu siitä, että automaattisissa suunnitteluajoissa käytetään suunnitteluparametreja, joita Tilauksen suunnittelu -sivulla manuaalisen suunnitelman laatinut käyttäjä ei välttämättä ole ottanut huomioon.  
 
 ##  <a name="finite-loading"></a>Rajallinen kuormittaminen  
 [!INCLUDE[d365fin](includes/d365fin_md.md)] on tavallinen ERP-järjestelmä, ei lähetyksen tai työnohjauksen ohjausjärjestelmä. Se suunnittelee resurssien käytön tarjoamalla karkean aikataulun, mutta se ei luo ja ylläpidä automaattisesti tarkkoja aikatauluja prioriteetteihin tai optimointisääntöihin perustuen.  

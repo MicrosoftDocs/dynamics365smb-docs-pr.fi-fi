@@ -13,10 +13,10 @@ ms.search.keywords: repair, service
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: aef3d672bf01425a36bdd599e18d9ee9dac73b2d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 7fa3763f50549d418b0189604c170448b70c01b9
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-fixed-asset-maintenance"></a>Käyttöomaisuuden huollon määrittäminen
@@ -33,12 +33,12 @@ Jos kunnossapidolle määritetään kentät, kunnossapitokuluja voi kirjata käy
 Kun kunnossapitokustannuksia kirjataan (yleisestä päiväkirjasta), **Kunnossapitokoodi**-kenttään tallennetaan suoritetun kunnossapidon tyyppi, kuten rutiinihuolto tai korjaus.
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kunnossapito** ja valitse sitten liittyvä linkki.
-2. Määritä **Kunnossapito**-ikkunassa erityyppisten kunnossapitotöiden koodit.
+2. Määritä **Kunnossapito**-sivulla erityyppisten kunnossapitotöiden koodit.
 
 ## <a name="to-set-up-maintenance-expense-accounts"></a>Kunnossapitokustannusten tilien määrittäminen
-Voit kirjata kunnossapitokustannuksia, kun syötät ensin tilinumeron **KO-kirjausryhmät**-ikkunaan.
+Voit kirjata kunnossapitokustannuksia, kun annat ensin tilinumeron **KO-kirjausryhmät**-sivulla.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KO:n kirjausryhmät** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **KO:n kirjausryhmät** ja valitse sitten liittyvä linkki.
 2. Täytä **Kunnossapitokustannusten tili** -kenttä kunkin kirjausryhmän osalta.
 
 > [!NOTE]  

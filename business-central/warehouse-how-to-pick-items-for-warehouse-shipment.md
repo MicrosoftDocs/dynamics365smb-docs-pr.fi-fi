@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 420aac30c9b9a76c8874e6697cfa0e105bb1744a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b09a740ccd0054418c597285ebe65827827ad9de
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="pick-items-for-warehouse-shipment"></a>Nimikkeiden poiminta fyysisen varastoinnin toimitusta varten
@@ -26,9 +26,9 @@ Fyysisen varastoinnin poiminta-asiakirjaa voi luoda alusta alkaen, koska poimint
 
 Voit luoda fyysisen varastoinnin poiminta-asiakirjoja pull muodissa avaamalla tyhjän varastotoimitusasiakirjan, tunnistamalla lähdeasiakirjat, jotka on luovutettu lähetettäväksi ja luomalla sitten varastonpoimintarivit kyseisille toimituksille. Voit käyttää **Hae lähdedokumentit** tai **Käytä suodatinta hakeaksesi lähdedokumentit** funktiota tunnistaaksesi lähdeasiakirjat, jotka ovat valmiita toimitusta varten.
 
-Voit myös käyttää **Poimintatyökirja**-ikkunaa ottaaksesi ja luodaksesi poimintarivejä erätilassa. Lisätietoja on kohdassa [Poimintojen suunnitteleminen työkirjassa](warehouse-how-to-plan-picks-in-worksheets.md).  
+Voit myös käyttää **Poimintatyökirja**-sivua ottaaksesi ja luodaksesi poimintarivejä erätilassa. Lisätietoja on kohdassa [Poimintojen suunnitteleminen työkirjassa](warehouse-how-to-plan-picks-in-worksheets.md).  
 
-Voit myös luoda fyysisen varastoinnin poiminta-asiakirjat push muodissa **F.var. toimitusrivit** -ikkunassa valitsemalla **Luo poiminta**.  
+Voit myös luoda fyysisen varastoinnin poiminta-asiakirjat push-muodossa **F.var. toimitusrivit** -sivulla valitsemalla **Luo poiminta**.  
 
 > [!NOTE]  
 >  Toimitettavaa myyntitilausta varten kokoonpantavien nimikkeiden fyysisen varastoinnin toimituksessa noudatetaan samoja vaiheita kuin tavallisen fyysisen varastoinnin poiminnoissa toimitusta varten, kuten tässä ohjeaiheessa on kuvattu. Poimittavien rivien määrä toimitettavan määrän mukaan voi kuitenkin olla monta yhteen, koska poimittavana ovat komponentit eikä kokoonpanon nimike.  
@@ -52,7 +52,7 @@ Voit myös luoda fyysisen varastoinnin poiminta-asiakirjat push muodissa **F.var
 
 4.  Kun olet suorittanut poiminnan ja sijoittanut nimikkeet toimitusalueelle tai toimitusvarastopaikkaan, valitse **Rekisteröi poiminta** -toiminta.  
 
-Toimituksesta vastaava voi nyt tuoda nimikkeet toimitusalueelle ja kirjata toimituksen, mukaan lukien liittyvän lähdeasiakirjan, **F.var. toimitus** -ikkunassa. Lisätietoja on kohdassa [Nimikkeiden toimittaminen](warehouse-how-ship-items.md).   
+Toimituksesta vastaava voi nyt tuoda nimikkeet toimitusalueelle ja kirjata toimituksen, mukaan lukien liittyvän lähdeasiakirjan, **F.var. toimitus** -sivulla. Lisätietoja on kohdassa [Nimikkeiden toimittaminen](warehouse-how-ship-items.md).   
 
 Sen lisäksi, että voit tässä ohjeaiheessa kuvatulla tavalla suorittaa poiminnan lähdeasiakirjojen mukaisesti, voit ottaa ja asettaa nimikkeitä varastopaikkojen välillä lähdeasiakirjoihin viittaamatta. Lisätietoja on kohdassa [Poimiminen ja hyllyttäminen ilman lähdeasiakirjaa](warehouse-how-to-create-put-aways-from-internal-put-aways.md).  
 
@@ -63,7 +63,7 @@ Muiden fyysisen varastoinnin toimitusrivien **Toimitettava määrä** -kentän a
 
 Kun kokoonpanosta vastaavat työntekijät saavat valmiiksi osien kokoamisen tai koko Kokoonpano tilausta varten -määrän, he tallentavat sen fyysisen varaston toimitusrivin **Toimitettava määrä** -kenttään ja valitsevat sitten **Kirjaa toimitus** -toiminnon. Tuloksena on, että vastaavan kokoonpanon tuotos kirjataan, mukaan lukien osien kulutus. Määrän myyntitoimitus on kirjattu myyntitilaukseen.
 
-Valitse kokoonpanotilauksen **Kokoonpano tilausta varten: f. var. toimitusrivi**, kun haluat käyttää fyysisen varastoinnin toimitusriviä. Tämä on kätevä niiden työntekijöiden kannalta, jotka eivät yleensä käytä **Fyysisen varastoinnin toimituksen** -ikkunaa.
+Valitse kokoonpanotilauksen **Kokoonpano tilausta varten: f. var. toimitusrivi**, kun haluat käyttää fyysisen varastoinnin toimitusriviä. Tämä on kätevä niiden työntekijöiden kannalta, jotka eivät yleensä käytä **Fyysisen varastoinnin toimituksen** -sivua.
 
 Kun varastotoimitus on lähetetty, myyntitilauksen rivin kentät päivitetään varaston edistymisen näyttämiseksi. Seuraavat kentät päivitetään lisäksi näyttämään kuinka monta kokoonpanoa tilausta varten on vielä koottava ja toimitettava:
 

@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 60628167a50977d7486c86d9730378f8d2527786
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: bdb9d8c0d47fe53e9e5ea310a83854e69f545d9e
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="subcontract-manufacturing"></a>Tuotanto alihankintana
@@ -46,7 +46,7 @@ Lisätietoja on kohdassa [Reititysten luominen](production-how-to-create-routing
 ## <a name="calculate-subcontracting-worksheets-and-create-subcontract-purchase-orders"></a>Alihankintatyökirjan laskeminen ja alihankkijan ostotilausten luominen  
 Kun alihankintatyökirja on laskettu, käsiteltävä asiakirja, tässä tapauksessa ostotilaus, luodaan.  
 
-**Alihankintatyökirja** -ikkunassa toimii kuin **Suunnittelutyökirja** laskemalla tarvittavan tarjonnan, tässä tapauksessa ostotilaukset, jotka tarkistat ja luot työkirjan perusteella käyttäen **Toteuta toimenpideviesti** -funktiota.  
+**Alihankintatyökirja** -sivu toimii kuin **Suunnittelutyökirja** laskemalla tarvittavan tarjonnan, tässä tapauksessa ostotilaukset, jotka tarkistat ja luot työkirjan perusteella käyttäen **Toteuta toimenpideviesti** -funktiota.  
 
 > [!NOTE]  
 >  Vai sellaisia tuotantotilauksia voi avata ja käyttää alihankintatyökirjasta, joiden tila on **Vapautettu**.  
@@ -54,10 +54,10 @@ Kun alihankintatyökirja on laskettu, käsiteltävä asiakirja, tässä tapaukse
 ### <a name="to-calculate-the-subcontracting-worksheet"></a>Alihankintatyökirjan laskeminen  
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Alihankintatyökirja** ja valitse liittyvä linkki.  
 2.  Voit laskea työkirjan valitsemalla **Laske alihankinnat** -toiminto.  
-3.  Määritä **Laske alihankinnat** -ikkunassa suodattimet alihankintatoimintoja tai toiminnot suorittavia tuotantosoluja varten vain olennaisten tuotantotilausten laskemiseksi.  
+3.  Määritä **Laske alihankinnat** -sivulla suodattimet alihankintatoimintoja tai toiminnot suorittavia tuotantosoluja varten vain olennaisten tuotantotilausten laskemiseksi.  
 4.  Valitse **OK**-painike.  
 
-    Tarkista **Alihankintatyökirja**-ikkunan rivien tiedot. Tämän työkirjan tiedot ovat peräisin tuotantotilauksesta ja tuotantotilauksen reititysriveistä, ja ne tulevat näkyviin ostotilaukseen, kun kyseinen asiakirja luodaan. Voit poistaa rivin työkirjasta alkuperäisiä tietoja muuttamatta samalla tavalla kuin muistakin työkirjoista. Tiedot tulevat uudelleen näkyviin, kun seuraavan kerran suoritat **Laske alihankinnat** -toiminnon.  
+    Tarkista **Alihankintatyökirja**-sivun rivien tiedot. Tämän työkirjan tiedot ovat peräisin tuotantotilauksesta ja tuotantotilauksen reititysriveistä, ja ne tulevat näkyviin ostotilaukseen, kun kyseinen asiakirja luodaan. Voit poistaa rivin työkirjasta alkuperäisiä tietoja muuttamatta samalla tavalla kuin muistakin työkirjoista. Tiedot tulevat uudelleen näkyviin, kun seuraavan kerran suoritat **Laske alihankinnat** -toiminnon.  
 
 ### <a name="to-create-the-subcontract-purchase-order"></a>Luo alihankkijan ostotilaus  
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Alihankintatyökirja** ja valitse liittyvä linkki.  

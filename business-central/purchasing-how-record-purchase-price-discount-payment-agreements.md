@@ -11,10 +11,10 @@ ms.search.keywords: special price, alternate price, pricing
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ea247c762749c108ede8679bb622f71d2dd67f51
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0a718c45256a1e7cc7fbde794491814f1c26dd4a
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="record-special-purchase-prices-and-discounts"></a>Erikoisostohintojen ja -alennusten kirjaaminen
@@ -60,7 +60,7 @@ Kun toimittajat ovat kertoneet sinulle myöntämänsä laskualennukset, syötä 
     >   Laskualennuksen koodit löytyvät olemassa olevien toimittajien korteista. Näin voit nopeasti liittää laskualennusten ehtoja toimittajiin poimimalla sellaisten toimittajien nimet, joilla on samat ehdot.
 
     Jatka uuden ostolaskun alennusehtojen määrittämiseen.
-4. Valitse **Toimittajan kortti** -ikkunassa **Laskualennukset**-toiminto. **Toimittajien laskualennukset** -ikkuna aukeaa.
+4. Valitse **Toimittajakortti** -sivulla **Laskualennukset**-toiminto. **Toimittajien laskualennukset** -sivu avautuu.
 5. Syötä **Valuutan koodi** -kenttään sen valuutan koodi, johon rivin laskualennuksen ehdot kohdistetaan. Jätä kenttä tyhjäksi, jos laskualennuksen ehtojen määritys tapahtuu valuutassa EUR.
 6. Syötä **Vähimmäissumma**-kenttään laskun vähimmäissumma, joka oikeuttaa alennukseen.
 7. Syötä **Alennus-%**-kohtaan laskun alennus prosentteina laskun summasta.
@@ -88,7 +88,7 @@ Jos olet sopinut laskualennusehdoista joidenkin toimittajien kanssa, voit syött
 
  Ennen kuin ostojen yhteydessä voidaan käyttää laskun alennuksia, sinun täytyy määrittää toimittajat, jotka tarjoavat sinulle alennuksia.  
 
- Voit linkittää alennusprosentit tiettyihin laskusummiin **Myyjän laskualennukset** -ikkunoissa. Voit syöttää mitä tahansa prosenttilukuja kussakin ikkunassa. Jokainen toimittaja voi olla erillisessä ikkunassa, tai samaan ikkunaan voi linkittää useita toimittajia.  
+ Voit linkittää alennusprosentit tiettyihin laskusummiin **Toimittajien laskualennukset** -sivuilla. Voit syöttää mitä tahansa prosenttilukuja kullakin sivulla. Jokainen toimittaja voi olla erillisellä sivulla tai samalle sivulle voi linkittää useita toimittajia.  
 
  Spesifiseen laskusummaan voi linkittää alennusprosentin lisäksi (tai sen sijaan) palvelumaksusumman.  
 
@@ -97,7 +97,7 @@ Jos olet sopinut laskualennusehdoista joidenkin toimittajien kanssa, voit syött
  [!INCLUDE[d365fin](includes/d365fin_md.md)] voi laskea laskualennukset automaattisesti tarjouksille, puitetilauksille, tilauksille, laskuille tai hyvityslaskuille.  
 
 > [!TIP]  
->  Ennen kuin näitä tietoja aletaan syöttää ohjelmaan, olisi hyvä tehdä luonnos alennusrakenteesta, jota haluat käyttää. Tällä tavalla on helpompi nähdä, mitkä toimittajat voidaan linkittää samaan laskualennusikkunaan. Mitä vähemmän ikkunoita täytyy määrittää, sitä nopeampaa perustietojen syöttäminen on.
+>  Ennen kuin näitä tietoja aletaan syöttää ohjelmaan, olisi hyvä tehdä luonnos alennusrakenteesta, jota haluat käyttää. Tällä tavalla on helpompi nähdä, mitkä toimittajat voidaan linkittää samalle laskualennussivulle. Mitä vähemmän sivuja täytyy määrittää, sitä nopeampaa perustietojen syöttäminen on.
 
 ## <a name="best-price-calculation"></a>Parhaan hinnan laskenta
 Kun olet kirjannut myynnin ja ostojen erikoishinnat ja rivialennukset, [!INCLUDE[d365fin](includes/d365fin_md.md)] varmistaa, että nimikekaupan tuotto on aina optimaalinen laskemalla automaattisesti parhaan hinnan myynti- ja ostoasiakirjoille sekä projekti- ja nimikepäiväkirjan riville.

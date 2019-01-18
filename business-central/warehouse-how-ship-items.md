@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ebd644745ed7d914bdccfe59ecc3924ed1b542a5
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 75cf101f7f67bdd54d6e364468fd5e4354a089af
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="ship-items"></a>Nimikkeiden toimittamimen
@@ -50,22 +50,22 @@ Yleensä toimituksesta vastaava työntekijä luo fyysisen varastoinnin toimituks
 
     > [!NOTE]  
     >  Jos haluat toimittaa nimikkeitä, joiden fyysisen varastoinnin luokkakoodi ei ole sama kuin asiakirjan otsikon **Varastopaikkakoodi**-kentässä olevan varastopaikan luokkakoodi, poista otsikon **Varastopaikkakoodi**-kentän sisältö ennen lähdeasiakirjan rivien hakemista nimikkeitä varten.  
-3.  Valitse **Hae lähdeasiakirjat** -toiminto. **Lähdeasiakirjat**-ikkuna avautuu.
+3.  Valitse **Hae lähdeasiakirjat** -toiminto. Näyttöön tulee **Lähdeasiakirjat**-sivu.
 
-    Voit käyttää uuden tai avoimen fyysisen varastoinnin toimituksen **Suod. lähdeasiakirj. saamisek.** -ikkunaa hakiessasi toimitettavat nimikkeet määrittävän vapautetun lähdeasiakirjan rivit.
+    Voit käyttää uuden tai avoimen fyysisen varastoinnin toimituksen **Suod. lähdeasiakirj. saamisek.** -sivua hakiessasi toimitettavat nimikkeet määrittävän vapautetun lähdeasiakirjan rivit.
 
     1. Valitse **Käytä suodat. kun haet lähd.d** -toiminto.  
     2. Määritä uusi suodatin antamalla kuvaileva koodi **Koodi**-kenttään ja valitse **Muokkaa**-toiminto.  
     3. Määritä ne lähdeasiakirjan rivien tyypit, jotka haluat hakea, täyttämällä soveltuvat suodatinkentät.  
     4. Valitse **Aja**-toiminto.  
 
-    Kaikki julkaistut lähdeasiakirjan rivit, jotka täyttävät suodatusehdot, on nyt lisätty **F.var. toimitus** -ikkunassa, josta aktivoit suodatustoiminnon.  
+    Kaikki julkaistut lähdeasiakirjan rivit, jotka täyttävät suodatusehdot, on nyt lisätty **F.var. toimitus** -sivulla, josta aktivoit suodatustoiminnon.  
 
-    Määrittämäsi suodatinyhdistelmät tallennetaan **Suod. lähdeasiakirj. saamisek.** -ikkunaan tulevaa käyttöä varten. Voit tehdä niin monta suodatinyhdistelmää kuin haluat. Voit muuttaa ehtoja milloin tahansa valitsemalla **Muokkaa**-toiminnon.
+    Määrittämäsi suodatinyhdistelmät tallennetaan **Suod. lähdeasiakirj. saamisek.** -sivulle tulevaa käyttöä varten. Voit tehdä niin monta suodatinyhdistelmää kuin haluat. Voit muuttaa ehtoja milloin tahansa valitsemalla **Muokkaa**-toiminnon.
 
 4.  Valitse lähdeasiakirjat, joiden osalta haluat toimittaa nimikkeitä, ja valitse sitten **OK**.  
 
-Lähdeasiakirjojen rivit näkyvät **F.var. toimitus** -ikkunassa. **Toimitettava määrä** -kenttään on jo täytetty jokaisen rivin avoimen määrä, mutta määrää voi muuttaa tarpeen mukaan. Jos olet poistanut **Yleinen**-pikavälilehden **Varastopaikkakoodi**-kentän sisällön ennen rivien hakemista, kirjoita kullekin toimitusriville soveltuva varastopaikkakoodi.  
+Lähdeasiakirjojen rivit näkyvät **Fyysisen varaston toimitus** -sivulla. **Toimitettava määrä** -kenttään on jo täytetty jokaisen rivin avoimen määrä, mutta määrää voi muuttaa tarpeen mukaan. Jos olet poistanut **Yleinen**-pikavälilehden **Varastopaikkakoodi**-kentän sisällön ennen rivien hakemista, kirjoita kullekin toimitusriville soveltuva varastopaikkakoodi.  
 
 > [!NOTE]  
 >  Et voi toimittaa enempää nimikkeitä kuin lähdeasiakirjan rivin **Avoin määrä** -kentässä oleva määrä ilmaisee. Voit toimittaa enemmän nimikkeitä hakemalla toisen lähdeasiakirjan, jossa on rivi nimikkeelle. Se onnistuu hakemalla nimikkeen sisältävät lähdeasiakirjat suodatintoiminnon avulla.  
@@ -76,7 +76,7 @@ Kun olet hakenut rivit, jotka haluat toimittaa, aloita seuraavassa kuvatulla tav
 Yleensä poiminnasta vastuussa oleva varastotyöntekijä luo poiminta-asiakirjan tai avaa jo luodun poiminta-asiakirjan.
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Fyysisen varaston toimitukset** ja valitse sitten liittyvä linkki.
 2. Valitse ensin poimittava fyysisen varastoinnin toimitus ja sitten **Luo poiminta** -toiminto.
-3. Täytä pyyntöikkunan kentät ja valitse sitten **OK**. Määritetty fyysisen varastoinnin poiminta-asiakirja luodaan.
+3. Täytä pyyntösivun kentät ja valitse sitten **OK**. Määritetty fyysisen varastoinnin poiminta-asiakirja luodaan.
 
     Vaihtoehtoisesti voit avata aiemmin luodun fyysisen varaston poiminnan.
 4. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poiminnat** ja valitse sitten liittyvä linkki. Valitse varastoinnin poiminta, jota haluat työstää.

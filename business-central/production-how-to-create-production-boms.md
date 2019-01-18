@@ -1,6 +1,6 @@
 ---
 title: Tuotannon tuoterakenteiden luominen | Microsoft Docs
-description: "Tuotannon tuoterakenne sisältää perustiedot päänimikkeen tuotannossa käytettävistä komponenteista ja osakokoonpanoista. Kun päänimikkeelle luodaan tuotantotilaus, tuotannon tuoterakenne ohjaa materiaalitarpeiden laskentaa **Tuot.til. komponentit** -ikkunassa näkyvällä tavalla."
+description: "Tuotannon tuoterakenne sisältää perustiedot päänimikkeen tuotannossa käytettävistä komponenteista ja osakokoonpanoista. Kun päänimikkeelle luodaan tuotantotilaus, tuotannon tuoterakenne ohjaa materiaalitarpeiden laskentaa **Tuot.til. komponentit** -sivulla näkyvällä tavalla."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6f1c27e93dedb12b3b4895cbfc9a22d255fa2120
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 319ec70a1beef3d96a87448934ae8263f21bd1b4
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-production-boms"></a>Tuotannon tuoterakenteiden luominen
-Tuotannon tuoterakenne sisältää perustiedot päänimikkeen tuotannossa käytettävistä komponenteista ja osakokoonpanoista. Kun päänimikkeelle luodaan tuotantotilaus, tuotannon tuoterakenne ohjaa materiaalitarpeiden laskentaa **Tuot.til. komponentit** -ikkunassa näkyvällä tavalla.
+Tuotannon tuoterakenne sisältää perustiedot päänimikkeen tuotannossa käytettävistä komponenteista ja osakokoonpanoista. Kun päänimikkeelle luodaan tuotantotilaus, tuotannon tuoterakenne ohjaa materiaalitarpeiden laskentaa **Tuot.til. komponentit** -sivulla näkyvällä tavalla.
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] tukee myös kokoonpanon tuoterakenteita. Voit käyttää kokoonpanotilauksia, kun teet komponenteista loppunimikkeitä yksinkertaisella prosessilla. Tämä prosessi voidaan toteutetaan vähintään yhdellä perusresurssilla, joka ei ole kuormituskeskus eikä tuotantosolu, tai ilman resursseja. Kokoonpanoprosessi voi olla esimerkiksi kahden viinipullon ja yhden kahvipaketin valinta ja niiden pakkaaminen lahjaksi. Lisätietoja on ohjeaiheen [Tuoterakenteen käyttäminen](inventory-how-work-BOMs.md) kohdassa Kokoonpanon tuoterakenteet tai tuotannon tuoterakenteet.  
 

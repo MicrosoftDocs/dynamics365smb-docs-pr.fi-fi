@@ -13,10 +13,10 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 17a6368e5a25ad12db05825b863ce29cd329cd39
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b21354a29c275013b7832459daec392efa6d751d
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="analyze-actual-amounts-versus-budgeted-amounts"></a>Todellisten summien analysointi budjetoituihin summiin nähden
@@ -28,14 +28,14 @@ Budjetoitujen summia analysointia varten on ensin luotava KP-budjetteja. Lisäti
 Budjetissa, jossa on dimensioita, voi suodattaa tapahtumia ja siten tarkastella tiettyjä budjetteja.
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KP-budjetit** ja valitse sitten liittyvä linkki.
-2. Avaa **KP-budjetit** -ikkunassa talousarvio, jota haluat tarkastella.  
-3. Täyttämällä ikkunan yläosan kentät määrität, mitä näytetään. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Avaa **KP-budjetit** -sivulla talousarvio, jota haluat tarkastella.  
+3. Täyttämällä sivun yläosan kentät määrität, mitä näytetään. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
 >   Jos olet valinnut **Jakso**-vaihtoehdon joko **Näytä riveinä**- tai **Näytä sarakkeina** -kentässä, täytä **Näyttöperuste**-kenttä. Jos et ole valinnut **Jakso**-vaihtoehtoa **Näytä riveinä**- tai **Näytä sarakkeina** -kentässä, määritä asianmukainen jakso **Pvm-suodatus**-kentässä.  
 
 > [!NOTE]  
->   Vain ne KP-budjetin tapahtumat, joissa on **Suodattimet**-pikavälilehdessä määrittämäsi suodatinkoodit, sisällytetään laskentaan. Budjettitapahtumia, joissa on eri suodatinkoodit tai joissa ei ole suodatinkoodeja ollenkaan, ei sisällytetä. Niin kauan kuin suodatin on näkyvissä ikkunassa, budjetissa näkyvät vain ne budjettitapahtumat, joissa on nämä suodattimen koodit.  
+>   Vain ne KP-budjetin tapahtumat, joissa on **Suodattimet**-pikavälilehdessä määrittämäsi suodatinkoodit, sisällytetään laskentaan. Budjettitapahtumia, joissa on eri suodatinkoodit tai joissa ei ole suodatinkoodeja ollenkaan, ei sisällytetä. Niin kauan kuin suodatin on näkyvissä sivulla, budjetissa näkyvät vain ne budjettitapahtumat, joissa on nämä suodattimen koodit.  
 
 > [!TIP]  
 >   Jos budjettia on tarpeen muokata, voit muokata budjetin tapahtumia. Valitse summa, niin saat näkyviin sen perusteena olevat KP-budjetin tapahtumat.
@@ -44,24 +44,24 @@ Budjetissa, jossa on dimensioita, voi suodattaa tapahtumia ja siten tarkastella 
 Pääkirjanpidon budjettien tarkastelu ja niiden vertaaminen todellisiin lukuihin useilla [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman osa-alueilla.
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tilikartta** ja valitse sitten liittyvä linkki.  
-2. Valitse **Tilikartta** -ikkunassa **KP-saldo/-budjetti**-toiminto.
-3. Täyttämällä ikkunan yläosan kentät määrität, mitä näytetään.  
+2. Valitse **Tilikartta**-sivulla **KP-saldo/-budjetti**-toiminto.
+3. Täyttämällä sivun yläosan kentät määrität, mitä näytetään.  
 4. Valitse kenttä nähdäksesi määrityksen, josta näkyvä summa muodostuu.  
 
 > [!NOTE]  
->   Suodattimia, jotka määritit ikkunan otsikossa, käytetään sekä KP-tapahtumissa että budjettitapahtumissa.
+>   Suodattimia, jotka määritit sivun otsikossa, käytetään sekä KP-tapahtumissa että budjettitapahtumissa.
 
 Vasemmanpuoleisimmisssa sarakkeissa on tilikartta. Oikealla olevista viidestä sarakkeesta neljässä ensimmäisessä on kunkin tilin todelliset ja budjetoidut debet- ja kreditsummat. Viidennessä sarakkeessa on todellisen ja budjetoidun summan välinen suhde KP-tilillä.  
 
 > [!TIP]  
->   Käyttämällä **Näyttöperuste**-kenttää **KP-saldo/budjetti**-ikkunassa voit valita jakson pituuden. **Näyttömuoto**-kentän avulla voit valita tavan, jolla summat lasketaan (**Nettomuutos** tai **Saldo pvm:ttäin**). Valitse **Edellinen jakso** tai **Seuraava jakso** -toiminto ja muuta jaksoa.  
+>   Käyttämällä **Näyttöperuste**-kenttää **KP-saldo/budjetti**-sivulla voit valita jakson pituuden. **Näyttömuoto**-kentän avulla voit valita tavan, jolla summat lasketaan (**Nettomuutos** tai **Saldo pvm:ttäin**). Valitse **Edellinen jakso** tai **Seuraava jakso** -toiminto ja muuta jaksoa.  
 
 ## <a name="to-view-actual-and-budgeted-amounts-for-several-periods"></a>Useiden jaksojen todellisten ja budjetoitujen summien tarkastelu  
 Sen sijaan että tarkastelisit todellisia ja budjetoituja summia kaikkien tilien osalta yhdeltä kaudelta, voit tarkastella useita yhden tilin kausia.  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tilikartta** ja valitse sitten liittyvä linkki.  
-2. Valitse **Tilikartta**-ikkunassa haluamasi KP-tili ja valitse sitten **KP-tilin saldo/budjetti** -toiminto.  
-3. Täyttämällä ikkunan yläosan kentät määrität, mitä näytetään.   
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Tilikartta** ja valitse sitten liittyvä linkki.  
+2. Valitse **Tilikartta**-sivulla haluamasi KP-tili ja valitse sitten **KP-tilin saldo/budjetti** -toiminto.  
+3. Täyttämällä sivun yläosan kentät määrität, mitä näytetään.   
 4. Valitse kenttä nähdäksesi näkyvän summan määrityksen.  
 
 ## <a name="see-also"></a>Katso myös
