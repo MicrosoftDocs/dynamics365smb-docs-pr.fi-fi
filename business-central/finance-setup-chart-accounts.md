@@ -11,35 +11,35 @@ ms.search.keywords: COA, cha of acc
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fd943924120667256809fac0300be1c30cfeb493
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9ed8bc069fc702a1b2d8d893531baca5eab7a903
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
-# <a name="setting-up-or-changing-the-chart-of-accounts"></a><span data-ttu-id="c9bc1-103">Tilikartan määrittäminen tai muuttaminen</span><span class="sxs-lookup"><span data-stu-id="c9bc1-103">Setting Up or Changing the Chart of Accounts</span></span>
-<span data-ttu-id="c9bc1-104">Tilikartta näyttää ne kirjanpidon tilit, joihin on tallennettu taloustietoja.</span><span class="sxs-lookup"><span data-stu-id="c9bc1-104">The chart of accounts shows the ledger accounts that store your financial data.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="c9bc1-105">sisältää tilikartan, joka on valmis tukemaan liiketoimintaasi.</span><span class="sxs-lookup"><span data-stu-id="c9bc1-105"> includes a standard chart of accounts that is ready to support your business.</span></span>
-<span data-ttu-id="c9bc1-106">Voit kuitenkin muuttaa oletustilejä ja lisätä uusia tilejä.</span><span class="sxs-lookup"><span data-stu-id="c9bc1-106">However, you can change the default accounts, and you can add new accounts.</span></span>  
+# <a name="setting-up-or-changing-the-chart-of-accounts"></a><span data-ttu-id="b1f9b-103">Tilikartan määrittäminen tai muuttaminen</span><span class="sxs-lookup"><span data-stu-id="b1f9b-103">Setting Up or Changing the Chart of Accounts</span></span>
+<span data-ttu-id="b1f9b-104">Tilikartta näyttää ne kirjanpidon tilit, joihin on tallennettu taloustietoja.</span><span class="sxs-lookup"><span data-stu-id="b1f9b-104">The chart of accounts shows the ledger accounts that store your financial data.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="b1f9b-105">sisältää tilikartan, joka on valmis tukemaan liiketoimintaasi.</span><span class="sxs-lookup"><span data-stu-id="b1f9b-105">includes a standard chart of accounts that is ready to support your business.</span></span>
+<span data-ttu-id="b1f9b-106">Voit kuitenkin muuttaa oletustilejä ja lisätä uusia tilejä.</span><span class="sxs-lookup"><span data-stu-id="b1f9b-106">However, you can change the default accounts, and you can add new accounts.</span></span>  
 
-## <a name="adding-or-changing-accounts"></a><span data-ttu-id="c9bc1-107">Tilien lisääminen tai muuttaminen</span><span class="sxs-lookup"><span data-stu-id="c9bc1-107">Adding or Changing Accounts</span></span>
-<span data-ttu-id="c9bc1-108">Voit avata kunkin tilin KP-tilin tilikartasta ja lisätä tai muuttaa asetuksia.</span><span class="sxs-lookup"><span data-stu-id="c9bc1-108">From the chart of accounts, you can open each G/L account and add or change settings.</span></span>
+## <a name="adding-or-changing-accounts"></a><span data-ttu-id="b1f9b-107">Tilien lisääminen tai muuttaminen</span><span class="sxs-lookup"><span data-stu-id="b1f9b-107">Adding or Changing Accounts</span></span>
+<span data-ttu-id="b1f9b-108">Voit avata kunkin tilin KP-tilin tilikartasta ja lisätä tai muuttaa asetuksia.</span><span class="sxs-lookup"><span data-stu-id="b1f9b-108">From the chart of accounts, you can open each G/L account and add or change settings.</span></span>
 
 > [!NOTE]  
->   <span data-ttu-id="c9bc1-109">Voit poistaa pääkirjanpitotilin.</span><span class="sxs-lookup"><span data-stu-id="c9bc1-109">You can delete a general ledger account.</span></span> <span data-ttu-id="c9bc1-110">Ennen sen poistamista seuraavien on kuitenkin toteuduttava:</span><span class="sxs-lookup"><span data-stu-id="c9bc1-110">However, before you delete it, the following must be true:</span></span>  
+>   <span data-ttu-id="b1f9b-109">Voit poistaa pääkirjanpitotilin.</span><span class="sxs-lookup"><span data-stu-id="b1f9b-109">You can delete a general ledger account.</span></span> <span data-ttu-id="b1f9b-110">Ennen sen poistamista seuraavien on kuitenkin toteuduttava:</span><span class="sxs-lookup"><span data-stu-id="b1f9b-110">However, before you delete it, the following must be true:</span></span>  
 
-* <span data-ttu-id="c9bc1-111">Tilin saldon tulee olla nolla.</span><span class="sxs-lookup"><span data-stu-id="c9bc1-111">The balance on the account must be zero.</span></span>  
-* <span data-ttu-id="c9bc1-112">**Salli KP-tilin poisto ennen** -kenttä on määritettävä **Pääkirjanpidon asetukset** -ikkunassa. Tilillä ei saa olla tapahtumakirjauksia kyseisenä päivänä tai sen jälkeen.</span><span class="sxs-lookup"><span data-stu-id="c9bc1-112">The **Allow G/L Acc. Deletion Before** field must be set in the **General Ledger Setup** window, and the account must not have ledger entries on or after that date.</span></span>  
-* <span data-ttu-id="c9bc1-113">Jos **Tarkista KP-tilin käyttö** -kenttä on valittu **Pääkirjanpidon asetukset** -ikkunassa, tiliä ei voi käyttää kirjausryhmässä tai kirjauksen asetuksissa.</span><span class="sxs-lookup"><span data-stu-id="c9bc1-113">If the **Check G/L Account Usage** field in the **General Ledger Setup** window is selected, then the account must not be used in any posting groups or posting setup.</span></span>  
+* <span data-ttu-id="b1f9b-111">Tilin saldon tulee olla nolla.</span><span class="sxs-lookup"><span data-stu-id="b1f9b-111">The balance on the account must be zero.</span></span>  
+* <span data-ttu-id="b1f9b-112">**Salli KP-tilin poisto ennen** -kenttä on määritettävä **Pääkirjanpidon asetukset** -sivulla. Tilillä ei saa olla tapahtumakirjauksia kyseisenä päivänä tai sen jälkeen.</span><span class="sxs-lookup"><span data-stu-id="b1f9b-112">The **Allow G/L Acc. Deletion Before** field must be set on the **General Ledger Setup** page, and the account must not have ledger entries on or after that date.</span></span>  
+* <span data-ttu-id="b1f9b-113">Jos **Tarkista KP-tilin käyttö** -kenttä on valittu **Pääkirjanpidon asetukset** -sivulla, tiliä ei voi käyttää kirjausryhmässä tai kirjauksen asetuksissa.</span><span class="sxs-lookup"><span data-stu-id="b1f9b-113">If the **Check G/L Account Usage** field on the **General Ledger Setup** page is selected, then the account must not be used in any posting groups or posting setup.</span></span>  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="c9bc1-114">estää tilikartassa tarvittavia tietoja sisältävän pääkirjanpitotilin poistamisen.</span><span class="sxs-lookup"><span data-stu-id="c9bc1-114"> will prevent you from deleting a general ledger account that stores data that is needed in the chart of accounts.</span></span>  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="b1f9b-114">estää tilikartassa tarvittavia tietoja sisältävän pääkirjanpitotilin poistamisen.</span><span class="sxs-lookup"><span data-stu-id="b1f9b-114">will prevent you from deleting a general ledger account that stores data that is needed in the chart of accounts.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="c9bc1-115">Katso myös</span><span class="sxs-lookup"><span data-stu-id="c9bc1-115">See Also</span></span>
-[<span data-ttu-id="c9bc1-116">Pääkirjanpito ja tilikartta</span><span class="sxs-lookup"><span data-stu-id="c9bc1-116">The General Ledger and the Chart of Accounts</span></span>](finance-general-ledger.md)  
-[<span data-ttu-id="c9bc1-117">Pankkitilien hallinta</span><span class="sxs-lookup"><span data-stu-id="c9bc1-117">Managing Bank Accounts</span></span>](bank-manage-bank-accounts.md)  
-[<span data-ttu-id="c9bc1-118">Dimensioiden käyttäminen</span><span class="sxs-lookup"><span data-stu-id="c9bc1-118">Working with Dimensions</span></span>](finance-dimensions.md)  
-<span data-ttu-id="c9bc1-119">[Tietojen tuominen muita talousjärjestelmistä](across-import-data-configuration-packages.md)(across-import-data-configuration-packages.md)</span><span class="sxs-lookup"><span data-stu-id="c9bc1-119">[Importing Data from Other Finance Systems](across-import-data-configuration-packages.md)(across-import-data-configuration-packages.md)</span></span>  
-[<span data-ttu-id="c9bc1-120">KP-raporttimallien käyttäminen</span><span class="sxs-lookup"><span data-stu-id="c9bc1-120">Work with Account Schedules</span></span>](bi-how-work-account-schedule.md)  
-<span data-ttu-id="c9bc1-121">[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="c9bc1-121">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+## <a name="see-also"></a><span data-ttu-id="b1f9b-115">Katso myös</span><span class="sxs-lookup"><span data-stu-id="b1f9b-115">See Also</span></span>
+[<span data-ttu-id="b1f9b-116">Pääkirjanpito ja tilikartta</span><span class="sxs-lookup"><span data-stu-id="b1f9b-116">The General Ledger and the Chart of Accounts</span></span>](finance-general-ledger.md)  
+[<span data-ttu-id="b1f9b-117">Pankkitilien hallinta</span><span class="sxs-lookup"><span data-stu-id="b1f9b-117">Managing Bank Accounts</span></span>](bank-manage-bank-accounts.md)  
+[<span data-ttu-id="b1f9b-118">Dimensioiden käyttäminen</span><span class="sxs-lookup"><span data-stu-id="b1f9b-118">Working with Dimensions</span></span>](finance-dimensions.md)  
+<span data-ttu-id="b1f9b-119">[Tietojen tuominen muita talousjärjestelmistä](across-import-data-configuration-packages.md)(across-import-data-configuration-packages.md)</span><span class="sxs-lookup"><span data-stu-id="b1f9b-119">[Importing Data from Other Finance Systems](across-import-data-configuration-packages.md)(across-import-data-configuration-packages.md)</span></span>  
+[<span data-ttu-id="b1f9b-120">KP-raporttimallien käyttäminen</span><span class="sxs-lookup"><span data-stu-id="b1f9b-120">Work with Account Schedules</span></span>](bi-how-work-account-schedule.md)  
+<span data-ttu-id="b1f9b-121">[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="b1f9b-121">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
 

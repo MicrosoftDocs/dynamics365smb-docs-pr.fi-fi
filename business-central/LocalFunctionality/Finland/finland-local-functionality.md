@@ -10,28 +10,33 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 10/12/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ca150adf827def5a2d66dad0b04f362c278917f6
+ms.sourcegitcommit: 78cb55d0c53db5b0a8252ffae6316a537be25459
+ms.openlocfilehash: d00d9f4e7c1e0cf74d3f80b810fa1d28be0b0be6
 ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 10/15/2018
 
 ---
-# <a name="finland-local-functionality"></a><span data-ttu-id="f5744-103">Suomen paikalliset toiminnot</span><span class="sxs-lookup"><span data-stu-id="f5744-103">Finland Local Functionality</span></span>
-<span data-ttu-id="f5744-104">Seuraavissa ohjeaiheissa kerrotaan [!INCLUDE[d365fin](../../includes/d365fin_md.md)] -ohjelman suomalaisen version erityisistä paikallisista toiminnoista.</span><span class="sxs-lookup"><span data-stu-id="f5744-104">The following topics describe local functionality that is unique to the Finnish version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].</span></span>  
+# <a name="finland-local-functionality"></a><span data-ttu-id="9845e-103">Suomen paikalliset toiminnot</span><span class="sxs-lookup"><span data-stu-id="9845e-103">Finland Local Functionality</span></span>
+<span data-ttu-id="9845e-104">Seuraavissa ohjeaiheissa kerrotaan [!INCLUDE[d365fin](../../includes/d365fin_md.md)] -ohjelman suomalaisen version erityisistä paikallisista toiminnoista.</span><span class="sxs-lookup"><span data-stu-id="9845e-104">The following topics describe local functionality that is unique to the Finnish version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].</span></span>  
 
-## <a name="in-this-section"></a><span data-ttu-id="f5744-105">Tämän osan sisältö</span><span class="sxs-lookup"><span data-stu-id="f5744-105">In This Section</span></span>  
- [<span data-ttu-id="f5744-106">Automaattiset tilikoodit</span><span class="sxs-lookup"><span data-stu-id="f5744-106">Automatic Account Codes</span></span>](automatic-account-codes.md)  
-  [<span data-ttu-id="f5744-107">Verkkopankkitoiminta Suomessa</span><span class="sxs-lookup"><span data-stu-id="f5744-107">Electronic Banking in Finland</span></span>](electronic-banking-in-finland.md)  
-  [<span data-ttu-id="f5744-108">Poistoerojen kirjaaminen</span><span class="sxs-lookup"><span data-stu-id="f5744-108">Posting Depreciation Differences</span></span>](posting-depreciation-differences.md)  
-  [<span data-ttu-id="f5744-109">SEPA-hyvityksen siirron maksut</span><span class="sxs-lookup"><span data-stu-id="f5744-109">SEPA Credit Transfer Payments</span></span>](sepa-credit-transfer-payments.md)  
-  [<span data-ttu-id="f5744-110">ALV-yhteenvetoilmoitus Suomessa</span><span class="sxs-lookup"><span data-stu-id="f5744-110">VAT-VIES Declaration in Finland</span></span>](vat-vies-declaration-in-finland.md)
+## <a name="in-this-section"></a><span data-ttu-id="9845e-105">Tämän osan sisältö</span><span class="sxs-lookup"><span data-stu-id="9845e-105">In This Section</span></span>  
+[<span data-ttu-id="9845e-106">Automaattiset tilikoodit</span><span class="sxs-lookup"><span data-stu-id="9845e-106">Automatic Account Codes</span></span>](automatic-account-codes.md)  
+[<span data-ttu-id="9845e-107">Maksualennusten ohittaminen</span><span class="sxs-lookup"><span data-stu-id="9845e-107">Disregard Payment Discounts</span></span>](how-to-disregard-payment-discounts.md)  
+[<span data-ttu-id="9845e-108">Verkkopankkitoiminta Suomessa</span><span class="sxs-lookup"><span data-stu-id="9845e-108">Electronic Banking in Finland</span></span>](electronic-banking-in-finland.md)  
+[<span data-ttu-id="9845e-109">Maksutiedostojen luominen</span><span class="sxs-lookup"><span data-stu-id="9845e-109">Generate Payment Files</span></span>](how-to-generate-payment-files.md)  
+[<span data-ttu-id="9845e-110">Poistoerojen kirjaaminen</span><span class="sxs-lookup"><span data-stu-id="9845e-110">Posting Depreciation Differences</span></span>](posting-depreciation-differences.md)  
+[<span data-ttu-id="9845e-111">Suomen Intrastat-raporttien tulostaminen</span><span class="sxs-lookup"><span data-stu-id="9845e-111">Print Finnish Intrastat Reports</span></span>](how-to-print-finnish-intrastat-reports.md)  
+[<span data-ttu-id="9845e-112">ALV-tietojen tulostaminen laskuihin</span><span class="sxs-lookup"><span data-stu-id="9845e-112">Print VAT Information on Invoices</span></span>](how-to-print-vat-information-on-invoices.md)  
+[<span data-ttu-id="9845e-113">SEPA-hyvityksen siirron maksut</span><span class="sxs-lookup"><span data-stu-id="9845e-113">SEPA Credit Transfer Payments</span></span>](sepa-credit-transfer-payments.md)  
+[<span data-ttu-id="9845e-114">Automaattisten tilin kirjausryhmien määrittäminen</span><span class="sxs-lookup"><span data-stu-id="9845e-114">Set Up Automatic Account Posting Groups</span></span>](how-to-set-up-automatic-account-posting-groups.md)  
+[<span data-ttu-id="9845e-115">Pankin viitetiedostojen määrittäminen</span><span class="sxs-lookup"><span data-stu-id="9845e-115">Set Up Bank Reference Files</span></span>](how-to-set-up-bank-reference-files.md)  
+[<span data-ttu-id="9845e-116">ALV-yhteenvetoilmoitus Suomessa</span><span class="sxs-lookup"><span data-stu-id="9845e-116">VAT-VIES Declaration in Finland</span></span>](vat-vies-declaration-in-finland.md)
 
-## <a name="see-also"></a><span data-ttu-id="f5744-111">Katso myös</span><span class="sxs-lookup"><span data-stu-id="f5744-111">See Also</span></span>
-<span data-ttu-id="f5744-112">[[!INCLUDE[d365fin](../../includes/d365fin_md.md)] -ohjelman käyttäminen](../../ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="f5744-112">[Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)</span></span>     
+## <a name="see-also"></a><span data-ttu-id="9845e-117">Katso myös</span><span class="sxs-lookup"><span data-stu-id="9845e-117">See Also</span></span>
+<span data-ttu-id="9845e-118">[[!INCLUDE[d365fin](../../includes/d365fin_md.md)] -ohjelman käyttäminen](../../ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="9845e-118">[Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)</span></span>     
 
 ## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
- 
 
