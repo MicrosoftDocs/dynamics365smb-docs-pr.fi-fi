@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 10/01/2018
+ms.date: 12/21/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 5165cb97d73562d9614a955269ebdcbdc2ff33e4
+ms.sourcegitcommit: 5801fcc1284edfe1b8578518c084455c336d5a40
+ms.openlocfilehash: 772702717a250e7068e93d362bc09a5ba719defe
 ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 12/27/2018
 
 ---
 # <a name="design-details-item-application"></a>Rakennetiedot: Nimikkeen kohdistus
@@ -94,7 +94,7 @@ Voit tehdä kiinteän kohdistuksen asiakirjarivien **Kohdista nimiketapahtumaan*
 Seuraava esimerkki, jossa kuvataan sellaisen nimikkeen vaikutus ostopalautuksen kiinteään sovellukseen, joka käyttää FIFO-kustannuslaskentamenetelmää, perustuu seuraavaan skenaarioon:  
 
 1. Tapahtumassa 1 käyttäjä kirjaa oston hintaan 10,00 (PVA).  
-2. Kirjauksessa 2 käyttäjä kirjaa oston hintaan 20,00 (PVA).  
+2. Tapahtumassa 2 käyttäjä kirjaa oston hintaan 20,00 (PVA).  
 3. Tapahtumassa 3 käyttäjä kirjaa ostopalautuksen. Käyttäjä tekee toiselle ostolle kiinteän kohdistuksen antamalla nimiketapahtuman numeron ostopalautustilauksen rivin **Kohdista nimiketapahtumaan** -kenttään.  
 
 Seuraavassa taulukossa käsitellään skenaariosta aiheutuvat nimiketapahtumat.  
@@ -111,7 +111,7 @@ Seuraavassa taulukossa esitetään nimikkeen käyttökirjaus, joka johtuu kiinte
 
 |Kirjauspäivämäärä|Saapuvan nimiketapahtuman nro|Lähtevän nimiketapahtuman nro|Määrä|Nimiketapahtuman nro|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
-|01-06-20|1|3|10|3|  
+|01-06-20|2|3|10|3|  
 
 Tämän jälkeen toisen oston kustannus 20,00 PVA siirtyy ostopalautukselle oikein.  
 

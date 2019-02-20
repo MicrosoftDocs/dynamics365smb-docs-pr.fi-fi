@@ -1,6 +1,6 @@
 ---
 title: Asiakkaiden hallinta Dynamics 365 for Salesissa| Microsoft Docs
-description: "Voit tehdä Business Central -sovelluksessa tietojen yhdistämismäärityksen Dynamics 365 for Salesilla, jolloin saavutetaan liidistä tuottoon -prosessin saumaton integrointi ja synkronointi."
+description: "Voit tehdä Business Centralissa tietojen yhdistämismäärityksen Dynamics 365 for Salesilla, jolloin saavutetaan liidistä tuottoon -prosessin saumaton integrointi ja synkronointi."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-business-central
@@ -8,18 +8,21 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: integration, synchronize, map
-ms.date: 10/01/2018
+ms.search.keywords: integration, synchronize, map, Sales
+ms.date: 01/24/2019
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 65466039efae2b18821fb03b6465f4c8c5e18f68
+ms.sourcegitcommit: c129dd63b3aabeeac15c6684f961e04bd2b08a2a
+ms.openlocfilehash: bba9fb9a83856cea43e4f4215e7c148b713252a9
 ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 01/24/2019
 
 ---
-# <a name="managing-customers-and-sales-created-in-dynamics-365-for-sales"></a>Dynamics 365 for Sales -sovelluksessa luotujen asiakkaiden ja myynnin hallinta
-Jos käytät Dynamics 365 for Sales -sovellusta (Sales) asiakassuhteissa, voit käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovellusta tilausten käsittelyyn ja talousasioissa. Tällä tavoin saavutetaan saumaton integrointi liidistä tuottoon.
+# <a name="integrating-with-dynamics-365-for-sales"></a>Dynamics 365 for Sales -integrointi
+Jos käytät Dynamics 365 for Salesia asiakassuhteissa, voit käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]ia tilausten käsittelyyn ja talousasioissa. Tällä tavoin saavutetaan saumaton integrointi liidistä tuottoon.
+
+> [!NOTE]
+> Tässä ohjeaiheessa oletetaan, että sekä [!INCLUDE[d365fin](includes/d365fin_md.md)] että integroitu Sales-ratkaisu otetaan käyttöön SaaS-ympäristössä. Verkkoversion ja paikallisen version yhdistäminen on mahdollista, mutta siihen tarvitaan erikoismääritys. Lisätietoja on kohdassa [Paikallisen Dynamics 365 for Salesin integroinnin valmistelu](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
 
 Kun sovellus on määritetty integroitavaksi Sales-sovelluksen kanssa, voit käyttää Sales-sovelluksen tietoja [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksesta ja toisin päin tietyissä tilanteissa. Tämän integroinnin ansiosta voit käsitellä ja synkronoida molemmille palveluille yhteisiä tietotyyppejä, kuten asiakkaita, kontakteja ja myyntitietoja, sekä pitää tiedot ajan tasalla molemmissa palveluissa.  
 
@@ -144,7 +147,8 @@ Tämä voi toimia myös, jos alkuperäinen myyntitilaus sisältää käsin lisä
 Jos alkuperäisen myyntitilauksen kuvaus on hyvin pitkä, sitä varten luodaan [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen myyntitilaukseen lisämyyntitilausrivi, jonka tyyppi on Kommentti.
 
 ## <a name="see-also"></a>Katso myös
-[Kontaktienhallinta](marketing-relationship-management.md)  
+[Paikallisen Dynamics 365 for Salesin integroinnin valmistelu](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration)  
+[Liikesuhteiden hallinta](marketing-relationship-management.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md)  
 [Käyttäjien ja käyttöoikeuksien hallinta](ui-how-users-permissions.md)    

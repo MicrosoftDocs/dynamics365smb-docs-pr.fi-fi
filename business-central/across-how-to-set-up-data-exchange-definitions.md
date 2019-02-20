@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/26/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 5d90eefb7fe765681a50b906f237e48b67beb935
+ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
+ms.openlocfilehash: 0a8172f0c8770235291e7b9a29663f15932f38b4
 ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 11/29/2018
 
 ---
 # <a name="set-up-data-exchange-definitions"></a>Tietojenvaihtomääritysten määrittäminen
@@ -50,7 +50,7 @@ Tietojenvaihtomäärityksen luominen muodostuu kahdesta tehtävästä:
     |---------------------------------|---------------------------------------|  
     |**Koodi**|Anna koodi, jonka avulla tietojenvaihtomääritys tunnistetaan.|  
     |**Nimi**|Anna tietojenvaihtomäärityksen nimi.|  
-    |**Tiedostotyyppi**|Määritä, minkälaiselle tiedostolle tietojenvaihtomääritystä käytetään. Voit valita kolmesta tiedostotyypistä:<br /><br /> -   **XML**: sisällön kerroksittaiset merkkijonot ja merkinnät, joita ympäröivät toimintoa osoittavat tunnisteet.<br />-   **Muuttuva teksti**: Tietueiden pituus on muuttuva, ja ne erotetaan merkillä, kuten pilkulla tai puolipisteellä. Tunnetaan myös nimellä *eroteltu tiedosto*.<br />-   **Kiinteä teksti**: tietueilla on sama pituus pad-merkkejä käytettäessä ja jokainen tietue on erillisellä rivillä. Tunnetaan myös nimellä *kiinteäleveyksinen tiedosto*.|  
+    |**Tiedostotyyppi**|Määritä, minkälaiselle tiedostolle tietojenvaihtomääritystä käytetään. Valittavana on neljä tiedostotyyppiä:<br /><br /> -   **XML**: sisällön kerroksittaiset merkkijonot ja merkinnät, joita ympäröivät toimintoa osoittavat tunnisteet.<br />-   **Muuttuva teksti**: Tietueiden pituus on muuttuva, ja ne erotetaan merkillä, kuten pilkulla tai puolipisteellä. Tunnetaan myös nimellä *eroteltu tiedosto*.<br />-   **Kiinteä teksti**: tietueilla on sama pituus pad-merkkejä käytettäessä ja jokainen tietue on erillisellä rivillä. Tunnetaan myös nimellä *kiinteäleveyksinen tiedosto*.<br />- **Json**: JavaScriptin kerrostettu komentosarjasisältö.|  
     |**Tyyppi**|Määritä, minkälaiselle aktiviteetille tietojenvaihtomääritystä käytetään (esimerkiksi **Maksun vienti**).|  
     |**Tietoja käsittelevä Codeunit**|Määritä koodiyksikkö, joka siirtää tietoa [!INCLUDE[d365fin](includes/d365fin_md.md)]in taulukoihin ja taulukoista pois.|  
     |**Tarkistuksen Codeunit**|Määritä koodiyksikkö, jonka avulla tiedot tarkistetaan ennalta määritettyjen liiketoimintasääntöjen mukaan.|  

@@ -10,17 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 01/31/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 13638a1bc96bc61fb2d2b3d925a861f1085fe275
+ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
+ms.openlocfilehash: a37561ebf8b9572f69e0ce3c3b83613b98a1098f
 ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 01/31/2019
 
 ---
 # <a name="walkthrough-tracing-serial-lot-numbers"></a>Vaihekuvaus: Sarja-/eränumeroiden jäljitys
-Kun virheellisiä tuotteita havaitaan, virheet on tunnistettava ja virheellisten nimikkeiden lähtö yrityksestä on estettävä. Jos virheellisiä nimikkeitä on jo lähetetty, on selvitettävä, kuka vastaanotti kyseiset nimikkeet ja pitääkö ne kutsua takaisin.  
+
+**Huomautus**: Tämä vaihekuvaus on suoritettava esittely-yrityksessä siten, että asetuksena on **Täydellinen arviointi - Kaikki mallitiedot**, joka on käytettävissä Sandbox-ympäristössä. Lisätietoja on kohdassa [Sandbox-ympäristön luominen](across-how-create-sandbox-environment.md).
+
+Kun virheellisiä tuotteita havaitaan, on tarpeen määrittää virheet ja estää virheellisiä nimikkeitä lähtemästä yrityksestä. Jos virheellisiä nimikkeitä on jo lähetetty, on selvitettävä, kuka vastaanotti kyseiset nimikkeet ja pitääkö ne kutsua takaisin.  
 
 Vikojenhallinnan ensimmäinen tehtävä on tutkia mistä viallisten nimikkeiden olivat peräisin ja missä niitä käytettiin. Tämä tutkimus perustuu historiatietoihin ja se helpottaa hakua nimikeseurantatapahtumista **Nimikkeen jäljitys** -sivun avulla.  
 

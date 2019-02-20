@@ -11,10 +11,10 @@ ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 549f66a584e7994cba6d7b99ee25a04c8cb8960b
+ms.sourcegitcommit: 3f158d7ed56445d6d2acf2ef8e5e9ab8e7487531
+ms.openlocfilehash: 5b7c5282a89a1dfb39f3e94feab8e00d2373f8af
 ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -52,7 +52,7 @@ Seuraavassa taulukossa kuvataan pikanäppäimet, joiden avulla voi käyttää si
 ## <a name="keyboard-shortcuts-in-lists"></a>Luettelon pikanäppäimet
 
 Seuraavassa taulukossa kuvataan luettelosivulla käytettävät pikanäppäimet. Pikanäppäintoiminto on hieman erilainen riippuen siitä, näytetäänkö sivu luettelo- vai ruutunäkymässä.
-<!-- 
+<!--
 > [!Note]
 > In the table that follows, the term *actionable field* refers to a field on which you can do something, like change a value or link to another page. In general, the shortcuts will skip over fields that display information that you cannot change from the list (in other words, fields that are read-only).
 -->
@@ -61,7 +61,7 @@ Seuraavassa taulukossa kuvataan luettelosivulla käytettävät pikanäppäimet. 
 
 |Paina näitä näppäimiä<br />(macOS)|Luettelonäkymän toiminnot |Ruutunäkymän toiminnot |Huomautukset|
 |-----------------|-------|-------|-------|
-|Ylänuoli|Siirry saman sarakkeen ylemmän rivin kenttään.| Siirry saman sarakkeen ylemmän rivin ruutuun.  |  | 
+|Ylänuoli|Siirry saman sarakkeen ylemmän rivin kenttään.| Siirry saman sarakkeen ylemmän rivin ruutuun.  |  |
 |Nuoli alas|Siirry saman sarakkeen alemman rivin kenttään. |Siirry saman sarakkeen alemman rivin ruutuun. | |
 |Oikea nuoli|Siirry vain luku -luettelossa saman rivin seuraavaan oikealla olevaan kenttään.<br /><br />Siirry muokattavassa luettelossa oikealle nykyisestä kentästä.| Siirry saman rivin seuraavaan oikealla olevaan ruutuun. ||
 |Vasen nuoli|Siirry vain luku -luettelossa saman rivin edelliseen vasemmalla olevaan kenttään. <br /><br />Siirry muokattavassa luettelossa vasemmalle nykyisestä kentästä.| Siirry saman rivin edelliseen vasemmalla olevaan ruutuun. ||
@@ -71,7 +71,7 @@ Seuraavassa taulukossa kuvataan luettelosivulla käytettävät pikanäppäimet. 
 |End<br />(Fn+oikea nuoli)|Siirry rivin viimeiseen kenttään.|Siirry rivin viimeiseen ruutuun.||
 |Sivu ylös<br />(Fn+ylänuoli)|Vierittää näkymän nykyisten rivien yläpuolella olevat rivit näkyviin. |Vierittää näkymän nykyisten ruutujen yläpuolella olevat ruutujoukot näkyviin. ||
 |Sivu alas<br />(Fn+alanuoli)|Vierittää näkymän nykyisten rivien alapuolella olevat rivit näkyviin.|Vierittää näkymän nykyisten ruutujen alapuolella olevat ruutujoukot näkyviin.||
-|Enter<br />(Fn+alanuoli)|Avaa tähän kenttään liittyvä tietue.|Avaa tietueen.| Käytetään vain, jos korttisivu on liitetty tietueeseen.|
+|Enter|Avaa tähän kenttään liittyvä tietue.|Avaa tietueen.| Käytetään vain, jos korttisivu on liitetty tietueeseen.|
 |Ctrl+Enter|Siirrä kohdistus seuraavaan luettelon ulkopuolella olevaan elementtiin.|Siirrä kohdistus seuraavaan luettelon ulkopuolella olevaan elementtiin.||
 
 ### <a name="CopyRows"></a>Valitseminen, kopioiminen ja liittäminen
@@ -104,7 +104,7 @@ Seuraavassa taulukossa kuvataan luettelosivulla käytettävät pikanäppäimet. 
 |Vaihto+Alt+F3|Avaa suodatinruudun ja lisää luettelon valittuun sarakkeeseen suodattimen. Uusi suodatin on valittuna. Voit siis alkaa kirjoittaa suodatusehtoja heti.<br /><br /> Tämä on sama toiminto kuin **Suodatin**-kohdan valitseminen sarakkeen otsikosta. valikko. Näyttää suodatinruudun, lisää suodattimen, määrittää kohdistuksen niin, että käyttäjä voi kirjoittaa arvon, jonka mukaan suodattaminen tehdään.<br /><br />Jos kentässä on jo suodatin, uusi suodatin lisätään. |
 |Ctrl+Vaihto+Alt+F3|Nollaa suodattimet. Tämä on sama toiminto kuin **Nollaa suodattimet** -kohta suodatinruudussa. Se otetaan käyttöön kentässä ja kokonaisarvojen suodattimessa.<br /><br /> Suodattimiksi palautetaan nykyisen näkymän oletussuodattimet. Jos nykyinen näkymä on **Kaikki**, tämä vastaa palaamista kaikki tietueet sisältävään suodattamattomaan näkymään. |
 |Ctrl+Enter|Palauttaa suodatinruudun luettelon.|
- 
+
 ## <a name="a-namecalendarshortcuts-keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"/> Pikanäppäimet kalenterissa (päivämäärän valitsin)
 Päivämääräkenttää määrittäessäsi voit syöttää päivämäärän manuaalisesti tai avata kalenterin (päivämäärän valitsin), jonka avulla voit valita haluamasi päivämäärän. Seuraavassa taulukossa kuvataan kalenterin pikanäppäimet.
 

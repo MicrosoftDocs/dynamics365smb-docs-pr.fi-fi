@@ -11,13 +11,13 @@ ms.search.keywords: user log, user activity, tracking
 ms.date: 11/14/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 2a95e770f0b78732723ba0d9db5d343a3ed3a97f
+ms.sourcegitcommit: 59afb06e9d43bdadc5ceacf563a9e6faf7439b7b
+ms.openlocfilehash: bc56e07a540c24f53b88651ad2b2ff5e1e56a571
 ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 12/05/2018
 
 ---
-# <a name="logging-changes-in-business-central"></a>Business Central -sovelluksen muutosten kirjaaminen lokiin
+# <a name="auditing-changes-in-business-central"></a>Business Centralin tilintarkastuksen muutokset
 
 Voit ottaa muutoslokin käyttöön [!INCLUDE[d365fin](includes/d365fin_md.md)]issa, joten saat käyttöösi toimintojen historian. Loki perustuu seuraamiesi taulukoiden tietoihin tehtyihin muutoksiin. **Muutoslokin tapahtumat** -sivulla tapahtumat järjestetään aikajärjestykseen. Sivulla näkyy muutokset, jotka tehdään määritettyjen taulukoiden kenttiin. Muutosloki kerää kaikki taulukkoon tehdyt muutokset.
 

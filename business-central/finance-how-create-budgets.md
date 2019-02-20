@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
-ms.date: 10/01/2018
+ms.date: 01/07/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 4cf8738c7bab09f7bcf900baae54731b6772e7e9
+ms.sourcegitcommit: a98027c3ef3171491f84197897f93cbed4e288c2
+ms.openlocfilehash: ca0648c3c3ccbfb02c910a063e6ac199e7b4b6d4
 ms.contentlocale: fi-fi
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 01/07/2019
 
 ---
 # <a name="create-gl-budgets"></a>KP-budjettien luominen
@@ -42,9 +42,16 @@ Voit käsitellä kustannusbudjetteja samalla tavoin kustannuslaskennassa. Lisät
 7. Toista vaiheet 5 ja 6, kunnes olet määrittänyt kaikki budjettisummat.  
 
 > [!NOTE]  
->  **Suodattimet** -pikavälilehdessä voit suodattaa budjettitietoja sen mukaan, mitä budjettidimensioita olet luonut budjetin nimen alle.   
+>  **Suodattimet** -pikavälilehdessä voit suodattaa budjettitietoja sen mukaan, mitä budjettidimensioita olet luonut budjetin nimen alle.
+
+## <a name="exporting-and-importing-gl-budgets-with-excel"></a>KP-budjettien vieminen ja tuominen Excelissä
+Niin kuin käytännössä kaikkia muitakin sivuja voit viedä budjettisivujen tiedot Exceliin lisäkäsittelyä tai -analyysia varten. Lisätietoja on kohdassa [Liiketoimintatietojen vieminen Exceliin](about-export-data.md).
+
+> [!NOTE]
+> Tilikartassa, johon KP-budjetit perustuvat, on Otsikko-tilityypin rivejä, joissa ilmoitetaan otsikon alla olevien rivien määrä. Kun viet KP-budjetin, kaikkien rivien tiedot viedään tilityypistä riippumatta. Kuitenkin vain Kirjaus-tilityypin rivien tiedot voida tuoda takaisin. Näin ollen: <br /><br /> **Kun tuot KP-budjetin, kaikki Otsikko-riveillä olevat arvot poistetaan.** <br /><br /> Tällä tavoin estetään virheelliset yhteissummat sen jälkeen, kun Excelissä luotuja tai muokattuja tietoja on tuotu.<br /><br /> **Esimerkkitilanne**: Tiedät, että uudet budjetoidut palkkakustannukset tulevat olemaan PVA:na 1 200 000. Haluat, että palkkaosaston budjetissa on tietyt kolme (Kirjaus-tilityypin) riviä: kokoaikaiset työntekijät, osa-aikaiset työntekijät ja satunnaiset työntekijät. Nämä kolme riviä ryhmitellään Palkat-otsikkorivin kohdalle.<br /><br />Lisää 1 200 000 Otsikko-riville, vie budjetti Exceliin ja lähetä se sitten palkkaosastolle ja pyydä heitä jakamaan PVA 1 200 000.<br /><br /> Palkkaosasto jakaa summan kolmelle kirjaustilille. Kun tuot KP-budjetin takaisin, uudet Excel-tiedot on täytetty kolmelle tilille. Niiden summa on PVA 1 200 000 ja otsikkorivi on tyhjä.
 
 ## <a name="see-also"></a>Katso myös
+[Liiketoimintatietojen vienti Exceliin](about-export-data.md)  
 [Rahoitus](finance.md)  
 [Business Intelligence](bi.md)  
 [Rahoituksen määrittäminen](finance-setup-finance.md)  

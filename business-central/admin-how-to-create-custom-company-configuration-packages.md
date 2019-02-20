@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 12/07/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 868972e4d53d858834ba5985a3de3ffa1d4dcc6b
+ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
+ms.openlocfilehash: a51628085e640cc2e5f022272eccb89d5cec38b7
 ms.contentlocale: fi-fi
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 12/11/2018
 
 ---
 # <a name="create-custom-company-configuration-packages"></a>Yrityksen mukautettujen määrityspakettien luominen
@@ -39,11 +39,10 @@ Toinen vaihtoehto olisi luoda paketti, joka sisältää taulukot, jotka määrit
 -   ALV-kirjausten asetukset  
 -   Varastokirjauksien asetukset  
 
-Jos haluat nähdä asetustaulukoiden täydellisen luettelon, valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asetukset** ja valitse sitten liittyvä linkki.  
+Jos haluat nähdä asetustaulukoiden täydellisen luettelon, valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita **Manuaalinen määritys** ja valitse sitten liittyvä linkki.  
 
 ## <a name="to-create-a-custom-company-configuration-package"></a>Yrityksen mukautetun määrityspaketin luominen  
-1.  Luo uusi [!INCLUDE[d365fin](includes/d365fin_md.md)]. ***EI MAHDOLLISTA - linkki Uuden vuokraajan luominen -ohjeeseen***.   
-2.  Luo uusi yritys toimialan tai ratkaisun mallin. Lisätietoja on ohjeaiheessa [Uuden yrityksen luominen](admin-how-to-create-a-new-company.md).  
+1.  Luo uusi yritys. Lisätietoja on kohdassa [Uusien yritysten luominen Business Centralissa](about-new-company.md).  
 3.  Määritä uuden yrityksen asetukset tarvitsemallasi tavalla. Täydennä kaikki pakolliset asetustaulukot.  
 4.  Avaa uusi yritys.
 5. Avaa **Määritystyökirja**-sivu.  

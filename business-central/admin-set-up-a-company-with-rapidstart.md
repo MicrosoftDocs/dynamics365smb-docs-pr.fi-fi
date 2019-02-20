@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 12/07/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 16f444fa31e3d63a7d61567667184facf2c3a7d6
+ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
+ms.openlocfilehash: d7476674407dd505fafa8e82f3bfecc3aa5a5fee
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 12/11/2018
 
 ---
 # <a name="setting-up-a-company-with-rapidstart-services"></a>Yrityksen määrittäminen RapidStart Services -palvelun avulla
@@ -44,7 +44,8 @@ Voit käyttää seuraavia osia nopeuttaaksesi yrityksen määrittämistä:
 |Ota määritetty paketti käyttöön asiakkaalle käyttöönottoa varten.|[Kokoonpanojen käyttäminen uusissa yrityksissä](admin-apply-configuration-to-new-companies.md)|
 |Määritä ja tarkista asiakkaan asetusarvot kaikilla keskeisillä alueilla, kuten yrityksen tiedoissa, pääkirjanpidossa, varastossa, myynnissä tai valmistuksessa.|[Asiakkaan asetusarvojen kerääminen](admin-gather-customer-setup-values.md)|  
 |Määritä malleja käyttävät keskeiset päätietotietueet, jotta voit valmistella nykyisten asiakastietojen siirron.|[Asiakastietojen siirtämisen valmisteleminen](admin-use-templates-to-prepare-customer-data-for-migration.md)|  
-|Määritä taulukot ja kentät, vahvista aiemmin luotu asiakastietokanta ja siirrä tiedot [!INCLUDE[d365fin](includes/d365fin_md.md)] -tietokantaan.|[Asiakastietojen siirtäminen](admin-migrate-customer-data.md)|  
+|Määritä taulukot ja kentät, vahvista aiemmin luotu asiakastietokanta ja siirrä tiedot [!INCLUDE[d365fin](includes/d365fin_md.md)] -tietokantaan.|[Asiakastietojen siirtäminen](admin-migrate-customer-data.md)|
+|Valmistele yritysmääritysten uudelleenkäyttö muissa yrityksissä.|[Yrityksen mukautettujen määrityspakettien luominen](admin-how-to-create-custom-company-configuration-packages.md)|
 |Etsi ratkaisuja tunnettuihin ongelmiin RapidStart Services -työkaluista.|[Vihjeet ja vinkit: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)|  
 
 ## <a name="see-also"></a>Katso myös  

@@ -11,10 +11,10 @@ ms.search.keywords: design, inventory, costing
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 857bb571566f6c20faa5074ef0c81d4ca1f6033b
+ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
+ms.openlocfilehash: 830c14eb96557f8852d0a4758922503fe0179b58
 ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/29/2018
 
 ---
 # <a name="design-details-inventory-costing"></a>Rakennetiedot: varaston arvostus
@@ -38,6 +38,7 @@ Varaston arvostus, jota kutsutaan myös kustannuslaskennaksi, käsittelee liiket
 [Rakennetiedot: tuotantotilauksen kirjaus](design-details-production-order-posting.md)  
 [Rakennetiedot: Kokoonpanotilauksen kirjaus](design-details-assembly-order-posting.md)  
 [Rakennetiedot: täsmäytys pääkirjanpidon kanssa](design-details-reconciliation-with-the-general-ledger.md)  
-[Rakennetiedot: pääkirjanpidon tilit](design-details-accounts-in-the-general-ledger.md)  
+[Rakennetiedot: pääkirjanpidon tilit](design-details-accounts-in-the-general-ledger.md)
+[Rakennetiedot: varaston arvostus](design-details-inventory-valuation.md)  
 [Rakennetiedot: uudelleenarvostus](design-details-revaluation.md)
 

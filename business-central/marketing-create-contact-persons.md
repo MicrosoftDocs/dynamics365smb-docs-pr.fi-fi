@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2018
+ms.date: 12/07/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
-ms.openlocfilehash: 341cd12db4ca130539a2ba2838c3aa95a96cb6ab
+ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
+ms.openlocfilehash: 80ab4bd8fe9a5c74f52a334cf8c4a0a297c01bd9
 ms.contentlocale: fi-fi
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 12/11/2018
 
 ---
 # <a name="creating-contact-persons"></a>Kontaktihenkilöiden luominen
@@ -26,15 +26,22 @@ Saattaa myös olla niin, että osa tuotteita koskevista julkaisuista on käänne
 
 Tallentamalla mahdollisimman paljon kontaktihenkilöä koskevia tietoja voit varmistaa, että kaikki yrityksen ryhmät löytävät tarvittavat tiedot.
 
-Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisiin.
+Voit luoda kontaktikortin jokaiselle yhteyshenkilölle, joka työskentelee sellaisessa yrityksissä, jonka kanssa yrityksesi on vuorovaikutuksessa. Jokaiselle kontaktiyritykselle voit luoda niin monta kontaktihenkilöä kuin haluat. Voit luoda kontaktikortteja myös niille henkilöille, jotka haluat tallentaa itsenäisinä.
 
-| Vastaanottaja | Katso |
-| --- | --- |
-| Määritä kontaktihenkilön tiedot. |[Kontaktihenkilöiden luominen](marketing-how-create-contact-persons.md) |
-| Määritä kontaktin vaihtoehtoinen osoite. |[Vaihtoehtoisten osoitteiden määrittäminen](marketing-how-assign-alternate-address.md) |
-| Kuvaile yrityksen kontaktin liikesuhdetta. |[Vastuualueiden määrittäminen kontakteille](marketing-job-responsibilities.md) |
-| Määritä kontaktien organisaatiotaso. |[Kontaktihenkilöiden organisaatiotasojen määrittäminen](marketing-organizational-levels.md) |
-| Postitusryhmien määrittäminen kontakteille |[Postitusryhmien määrittäminen kontaktille](marketing-mailing-groups.md) |
+> [!TIP]  
+>   Ennen uuden kontaktin luomista kannattaa ehkä tarkistaa **Periytyminen**-asetukset **Kontaktienhallinnan asetukset** -sivulla. Periytymisen määrittäminen mahdollistaa kontaktihenkilöille yhteisten kontaktiyritysten tietojen, kuten osoitetietojen, kopioimisen automaattisesti kontaktiyrityksestä kontaktihenkilöön aina, kun luot tallennettuun kontaktiyritykseen kontaktihenkilön.
+
+## <a name="to-create-a-contact-card-for-a-person"></a>Luo henkilön kontaktikortti
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kontaktit** ja valitse sitten liittyvä linkki.
+2. Valitse **Uusi**-toiminto.
+3. Valitse **Nro**-kenttään kontaktin numero.
+
+    Jos olet määrittänyt kontakteille numerosarjan **Kontaktienhallinnan asetukset**-sivulla, voit myös painaa Enter-näppäintä, jolloin ohjelma syöttää seuraavan saatavilla olevan kontaktinumeron. Lisätietoja on kohdassa [Numerosarjojen luominen](ui-create-number-series.md).
+4. Valitse **Tyyppi**-kentästä **Henkilö**.
+5. Täytä muut kontaktin kortin kentät.
+
+> [!NOTE]  
+>   **Kontaktienhallinnan asetukset** -sivun **Periytyminen**-osassa valittujen kenttien sisältö kopioidaan yrityksestä kyseisen yrityksen henkilöille.
 
 ## <a name="see-also"></a>Katso myös
 [Kontaktiyrityksen luominen](marketing-create-contact-companies.md)  

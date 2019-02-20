@@ -9,10 +9,10 @@ ms.date: 11/06/2018
 ms.reviewer: na
 ms.topic: article
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 313ebe68ae1963e22bc17d53a7c41ae8f090de60
+ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
+ms.openlocfilehash: f7a217bd61b185586c71d5982d783840dd7ffd2e
 ms.contentlocale: fi-fi
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 11/29/2018
 
 ---
 
@@ -47,8 +47,8 @@ Työpaikkojen ja oppilaitosten tietosuoja -sivulla voit myös sulkea tilisi. Kan
 Voit edelleen merkitä henkilöitä estetyiksi tietosuojan vuoksi ja viedä, muokata tai poistaa tapahtumia tässä artikkelissa esitetyllä tavalla.  
 
 ## <a name="exporting-data-from-tables-not-classified-by-data-subject"></a>Tietojen vieminen taulukoista, joita ei ole luokiteltu tietojen aiheen mukaan
-Jos vietävänä on tietoja (kuten Profiilin vastaukset -taulukon tiedot), joiden luokittelu ei mahdollista automaattista vientiä, toimi seuraavasti: 
--   Varmista, haluatko viedä nämä lisätiedot tai onko ne pakko viedä, jos tiedot eivä tliity kontaktiin eli tiedoilla ja kontaktilla ei ole suoraa suhdetta 
+Jos vietävänä on tietoja (kuten Profiilin vastaukset -taulukon tiedot), joiden luokittelu ei mahdollista automaattista vientiä, toimi seuraavasti:
+-   Varmista, haluatko viedä nämä lisätiedot tai onko ne pakko viedä, jos tiedot eivä tliity kontaktiin eli tiedoilla ja kontaktilla ei ole suoraa suhdetta
 -   Lisää tämä taulukko ja suhde manuaalisesti RapidStart-pakettiin ja vie ne suoraan RapidStart-paketista. RapidStart-paketti on luotu juuri sitä varten, että voit käyttää sitä tämänkaltaisissa tilanteissa.
 
 ## <a name="handling-data-about-minors"></a>Alaikäisiä koskevien tietojen käsitteleminen

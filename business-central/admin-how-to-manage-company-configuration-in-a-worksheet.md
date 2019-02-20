@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 12/07/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: e00b99c963669bb8a8577d8277082e5656d45d66
+ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
+ms.openlocfilehash: 1ba27ee0ac252bbe1fd47b900654980df5b18fdf
 ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 12/11/2018
 
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>Yrityksen määrittämisen hallinta työkirjassa
@@ -107,6 +107,22 @@ Kun olet lisännyt kaikki tarvittavat taulukot kokoonpanopakettiin, määritä, 
 
     > [!NOTE]  
     >  Taulukot säilytetään paketissa, vaikka ne poistetaan työkirjasta.  
+
+## <a name="to-review-and-customize-existing-database-data"></a>Aiemmin luotujen tietokantatietojen tarkistaminen ja mukauttaminen
+Kun luot kokoonpanonpaketin ratkaisua varten, voit tarkastella ja mukauttaa käytettävissä olevia tietokannan tietoja vastaamaan asiakkaan tarpeita. Tietokannan taulukolla on oltava siihen liittyvä sivu.  
+
+## <a name="to-customize-data-in-the-database"></a>Mukauta tiedot tietokantaan  
+
+1.  Etsi **Määritystyökirja** -sivulta taulukot, joiden tietoja haluat tarkastella tai muokata.  
+
+    > [!NOTE]  
+    >  Varmista, että jokaiseen taulukkoon on määritetty sivun tunnus. Tämä arvo on täytetty automaattisesti vakiomuotoisissa [!INCLUDE[d365fin](includes/d365fin_md.md)] -taulukoissa. Mukautetuille taulukoille tunnus on kuitenkin annettava.  
+
+2.  Valitse **Tietokantatiedot**-toiminto.  
+
+     Sivun [!INCLUDE[d365fin](includes/d365fin_md.md)] -sivu avautuu.  
+
+3.  Tarkastele käytettävissä olevia tietoja Muokkaa sitä tarpeen mukaan poistamalla epäolennaiset tietueet tai lisäämällä uusia.
 
 ## <a name="see-also"></a>Katso myös  
 [Määritä yrityksen konfigurointi](admin-set-up-company-configuration.md)  

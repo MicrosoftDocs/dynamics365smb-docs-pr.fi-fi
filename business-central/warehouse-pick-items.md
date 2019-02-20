@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 01/22/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 6a51a509ae1281d7c6bfe19e5276b516982a5fa5
+ms.sourcegitcommit: 5d6d2d9527e81a92987f6b8fcdbe8e087c3c537a
+ms.openlocfilehash: 6e9c21dcec2932bcc2b93648289699d6d062bf78
 ms.contentlocale: fi-fi
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 01/22/2019
 
 ---
 # <a name="pick-items"></a>Nimikkeiden poiminta
@@ -38,7 +38,8 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 |Kirjaa nimikkeiden toimitus suoraan lähtevään tilausasiakirjaan, koska varastointitoimintoja ei ole. (Samalla toimitaan tavoin myyntitilausten, lähtevien siirtotilausten ja palautustoimitusten kohdalla.)|[Nimikkeiden lähettäminen](warehouse-how-ship-items.md)|  
 |Poimi nimikkeitä tilauskohtaisesti ja kirjaa toimitus samassa perusvarastointimäärityksen toiminnossa.  |[Nimikkeiden poiminta varastopoiminnalla](warehouse-how-to-pick-items-with-inventory-picks.md)|
 |Poimi nimikkeitä tilauksia varten laajennetussa varastointimäärityksessä.|[Nimikkeiden poiminta fyysisen varaston poiminnassa](warehouse-how-to-pick-items-for-warehouse-shipment.md)|  
-|Poimi komponentteja tuotantoa tai kokoonpanoa varten fyysisen varastoinnin perusmäärityksessä tai laajennetussa varastointimäärityksessä.|[Poiminta tuotantoon tai kokoonpanoon](warehouse-how-to-pick-for-production.md)|  
+|Poimi komponentteja tuotantoa tai kokoonpanoa varten perusvarastointimäärityksessä.|[Tuotanto- tai kokoonpanopoiminta perusvarastointimäärityksissä](warehouse-how-to-pick-for-production.md)|
+|Poimi komponentteja tuotantoa tai kokoonpanoa laajennetussa varastointimäärityksessä.|[Tuotanto- tai kokoonpanopoiminta laajennetuissa varastointimäärityksissä](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)|  
 |Suunnittele optimoituja poimintaohjeita toimituksille niin, että varastotyöntekijöiden ei tarvitse käsitellä suoraan kirjattuja toimituksia.|[Poimintojen suunnitteleminen työkirjoissa](warehouse-how-to-plan-picks-in-worksheets.md)|  
 |Poimi nimikkeitä teknisesti erityistarkoituksia varten esimerkiksi silloin, kun tuotantoyksikkö tarvitsee lisää komponentteja. Tällöin nimikkeet eivät teknisesti poistu varastosta.|[Poimiminen ja hyllyttäminen ilman lähdeasiakirjaa](warehouse-how-to-create-put-aways-from-internal-put-aways.md)|
 |Lisätietoja siitä, miten nimikkeitä poimitaan automaattisesti vanhentumispäivän perusteella esimerkiksi silloin, kun kyse on helposti pilaantuvista tuotteista.|[FEFO-poiminta](warehouse-picking-by-fefo.md)|

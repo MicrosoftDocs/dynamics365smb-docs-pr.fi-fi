@@ -3,20 +3,20 @@ title: "Talousprosessien määrittäminen| Microsoft Docs"
 description: "Lisätietoja tehtävistä, joilla määritetään liiketoiminnan taloushallinto laskentatoimen, tilintarkastuksen tai kirjanpidon tarpeita varten."
 services: project-madeira
 documentationcenter: 
-author: edupont04
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 11/15/2018
-ms.author: edupont
+ms.date: 12/19/2018
+ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
-ms.openlocfilehash: c52121b89a08b78750c8b46377b2bf47c7a948df
+ms.sourcegitcommit: aa1e7b13cf6cc56df1a6922a9b123e7cc19580c6
+ms.openlocfilehash: 377e7f8eb3cb78adf68e3f4167a215d8f027f972
 ms.contentlocale: fi-fi
-ms.lasthandoff: 11/20/2018
+ms.lasthandoff: 12/19/2018
 
 ---
 # <a name="setting-up-finance"></a>Rahoituksen määrittäminen
@@ -36,6 +36,8 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 | Määritä, miten myynnistä kerätyt arvonlisäverosummat raportoidaan veroviranomaisille. |[Arvonlisäveron laskemisen ja kirjaustapojen määrittäminen](finance-setup-vat.md)|
 |Valmistele ei-realisoituneen ALV:n käsittely kassaperusteisen kirjanpidon yhteydessä.|[Ei-realisoituneen arvonlisäveron määrittäminen kassaperusteista kirjanpitoa varten](finance-setup-unrealized-vat.md)|
 | Määritä myynti- ja ostotoiminnot käsittelemään maksut ulkomaan valuuttana.|[Tapahtumakirjausten kohdistamisen ottaminen käyttöön eri valuutoissa](finance-how-enable-application-ledger-entries-different-currencies.md)
+|Määritä ainakin yksi lisävaluutta, jotta summat raportoidaan automaattisesti sekä PVA:na että lisäraportointivaluuttana kussakin KP-tapahtumassa ja muissa tapahtumissa.|[Lisäraportointivaluutan määrittäminen](finance-how-setup-additional-currencies.md)|
+|Säädä lisävaluutta-arvoja säännöllisesti vaihtokurssien vaihtelun vuoksi.|[Valuutan vaihtokurssien päivittäminen](finance-how-update-currencies.md)|
 |Määritä useita korkoprosentteja käytettäväksi kauppatapahtumien viivästyneissä maksuissa eri jaksoilla.|[Useiden korkoprosenttien määrittäminen](finance-how-to-set-up-multiple-interest-rates.md)|
 |Valmistele laskujen summien automaattinen pyöristys laskujen luonnin yhteydessä.|[Laskun pyöristyksen määrittäminen](finance-set-up-invoice-rounding.md)|
 | Lisää aiemmin luotuun tilikarttaan uusia tilejä. |[Tilikartan määrittäminen](finance-setup-chart-accounts.md) |
@@ -43,6 +45,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 |Ota käyttöön sellaisen asiakkaan laskutus, jota ei ole määritetty järjestelmässä.|[Käteisasiakkaiden määrittäminen](finance-how-to-set-up-cash-customers.md)|
 | Intrastat-raportoinnin määrittäminen ja raportin lähettäminen viranomaisille | [Intrastat-ilmoituksen määrittäminen ja raportoiminen](finance-how-setup-report-intrastat.md)|
 |Valmistele Konsolidoitu alust. tulos/tase -raportti kirjanpitäjän roolikeskuksessa, sillä sen avulla saa yleiskäsityksen useiden yritysten taloudellisesta tilanteesta.|[Usean yrityksen kirjanpitotietojen konsolidoiminen](finance-consolidated-company-reporting.md)|
+|Varmista, että tapahtuma kohdistetaan yleisessä päiväkirjassa useisiin eri tileihin päiväkirjan kirjauksen yhteydessä. Kohdistuksen voi tehdä määrän, prosentin tai summan mukaan.|[Kohdistustunnusten käyttäminen yleisissä päiväkirjoissa](ui-how-use-allocation-keys-general-journals.md)|
 
 ## <a name="see-also"></a>Katso myös
 [Rahoitus](finance.md)  

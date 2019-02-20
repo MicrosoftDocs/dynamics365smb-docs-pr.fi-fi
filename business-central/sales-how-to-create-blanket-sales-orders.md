@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 12/20/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 4989933a0034e5d496e09824ad0ca621a2373825
+ms.sourcegitcommit: 5801fcc1284edfe1b8578518c084455c336d5a40
+ms.openlocfilehash: ac2582e48d03738974d5db51841e1efdf4c0a316
 ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 12/27/2018
 
 ---
 # <a name="work-with-blanket-sales-orders"></a>Puitemyyntitilausten käyttäminen
@@ -27,7 +27,7 @@ Puitetilauksen jokainen erillinen toimitus voidaan määrittää tilausriviksi, 
 Esimerkki puitetilauksen käytöstä: Asiakas soittaa ja tilaa nimikettä 1 000 yksikköä. Asiakas haluaa, että nimikkeet toimitetaan 250 yksikön viikkoerissä seuraavan kuukauden aikana.
 
 > [!NOTE]
-> Puiteostotilaukset toimivat samoin kuin puitemyyntitilaukset. Näissä ohjeissa ei käsitellä puiteostotilauksia.
+> Puiteostotilaukset toimivat samoin kuin puitemyyntitilaukset. Nämä ohjeet koskevat vain puitemyyntitilauksia.
 
 ## <a name="to-create-a-blanket-sales-order"></a>Uuden puitemyyntitilauksen luominen  
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Puitemyyntitilaukset** ja valitse sitten liittyvä linkki.  
@@ -38,7 +38,7 @@ Esimerkki puitetilauksen käytöstä: Asiakas soittaa ja tilaa nimikettä 1 000 
 
 ## <a name="to-create-a-sales-order-from-a-blanket-sales-order"></a>Myyntitilauksen luominen puitemyyntitilauksesta  
 
-1.  Voit luoda tilauksen mille tahansa puitekokoonpanotilauksen riveille poistamalla kaikkien niiden rivien **Toimitettava määrä** -kentän määrä, joita ET halua toimittaa tällä kertaa.  
+1.  Voit luoda tilauksen mille tahansa puitemyyntitilauksen riveille poistamalla kaikkien niiden rivien **Toimitettava määrä** -kentän määrä, joita et halua toimittaa tällä kertaa.  
 2.  Kun olet valmis luomaan tilauksia, valitse ensin **Tee tilaus** -toiminto ja sitten **Kyllä**. Näyttöön tulee sanoma, jossa kerrotaan puitetilauksen määrityksestä tilausnumeroon. Huomaa, että puitetilausta ei ole poistettu.  
 3.  Valitse **OK**-painike.  
 4.  Voit tuoda edellisten vaiheiden tulokset näkyviin valitsemalla ensin **Rivi**-toiminnon, sitten **Kirjaamattomat rivit** -toiminnon ja lopuksi **Tilaukset**-toiminnon.  
@@ -55,17 +55,17 @@ Seuraava koskee myyntitilauksia sen jälkeen, kun ne on luotu puitemyyntitilauks
 - Laskutettu puitemyyntitilaus säilytetään järjestelmässä, kunnes se poistetaan yksittäisiä puitemyyntitilauksia poistettaessa tai suoritettaessa **Poista virheelliset puitemyyntitilaukset** -eräajo.  
 - Jos asiakas on tallennettu myös kontaktina Markkinointi-kohdistusalueeseen ja jos olet määrittänyt puitemyyntitilauksille vuorovaikutusmallin koodin **Kontaktienhallinnan asetukset** -sivulla, ohjelma tallentaa vuorovaikutuksen automaattisesti, kun tulostat puitemyyntitilauksen valitsemalla Vuorovaikutuslokin tapahtuma -taulukossa **Tulosta**.
 
-## <a name="to-view-the-status-of-a-blanket-purchase-order"></a>Puiteostotilausten tilan katsominen  
-Voit nähdä puiteostotilauksen tilan **Ostopuitetilauksen tilastot** -sivulla. Tällä voi olla merkitystä, kun aletaan laskuttaa tilausta, joka luotiin puiteostotilauksesta.  
+## <a name="to-view-the-status-of-a-blanket-sales-order"></a>Puitemyyntitilauksen tilan katsominen  
+Voit nähdä puitemyyntitilauksen tilan **Puitemyyntitilauksen tilastot** -sivulla. Tällä voi olla merkitystä, kun aletaan laskuttaa tilausta, joka luotiin puitemyyntitilauksesta.  
 
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Puitemyyntitilaukset** ja valitse sitten liittyvä linkki.  
-2.  Valitse ensin puiteostotilaus ja valitse sitten **Tilastot**-toiminto.  
-3.  **Ostopuitetilauksen tilastot** -sivun **Yleinen**-pikavälilehdessä voit tarkastella koko tilauksen yhteenvetotietoja puiteostotilauksen rivien eri **Määrä-kenttien** yhteismäärän perusteella.  
+2.  Valitse ensin puitemyyntitilaus ja valitse sitten **Tilastot**-toiminto.  
+3.  Voit tarkastella **Puitemyyntitilauksen tilastot** -sivun **Yleinen**-pikavälilehdessä koko tilauksen yhteenvetotietoja puitemyyntitilauksen rivien eri **Määrä-kenttien** yhteismäärän perusteella.  
 
-    - **Laskutus**-pikavälilehdessä voit tarkastella yhteenvetotietoja puiteostotilauksen rivien **Laskutettava määrä** -kenttien yhteismäärän perusteella.  
-    - **Toimitus**-pikavälilehdessä voit tarkastella yhteenvetotietoja puiteostotilauksen rivien **Vastaanotettava määrä** -kenttien yhteismäärän perusteella.  
-    - **Ennakkomaksu**-pikavälilehdessä voit tarkastella yhteenvetotietoja mahdollisista ennakkoon maksetuista summista.  
-    - **Toimittaja**-pikavälilehdessä voit tarkastella toimittajaa koskevia perustietoja.    
+- Voit tarkastella **Laskutus**-pikavälilehdessä yhteenvetotietoja puitemyyntitilauksen rivien **Laskutettava määrä** -kenttien yhteismäärän perusteella.  
+- Voit tarkastella **Toimitus**-pikavälilehdessä yhteenvetotietoja puitemyyntitilauksen rivien **Vastaanotettava määrä** -kenttien yhteismäärän perusteella.  
+- **Ennakkomaksu**-pikavälilehdessä voit tarkastella yhteenvetotietoja mahdollisista ennakkoon maksetuista summista.  
+- **Toimittaja**-pikavälilehdessä voit tarkastella toimittajaa koskevia perustietoja.    
 
 ## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>Kirjaamattomien ja kirjattujen puitemyyntitilausrivien näyttäminen   
 Linkki puitemyyntitilauksen ja alkuperäisen myyntiasiakirjan, sekä kaikkien muiden myyntiasiakirjojen välillä säilytetään kirjaamisen jälkeen luettelona kirjatuista ja kirjaamattomista myyntitilauksen laskuriveistä.  
@@ -74,56 +74,27 @@ Linkki puitemyyntitilauksen ja alkuperäisen myyntiasiakirjan, sekä kaikkien mu
 2. Avaa tarkasteltava puitemyyntitilaus.
 3. Näytä kirjaamattomat tapahtumat valitsemalla ensin kyseinen rivi, sitten **Rivi**-toiminto ja lopuksi **Kirjaamattomat rivit** -toiminto. Valitse yksi seuraavista vaihtoehdoista.  
 
-    <table>
-    <tr>
-    <th>Asetus</th>
-    <th>Description</th>
-    </tr>
-    <tr>
-    <td>**Tilaukset**</td>
-    <td>Määrittää avoimet tilaukset, jotka on merkitty liittyviksi valittuun riviin.</td>
-    </tr>
-    <tr>
-    <td>**Laskut**</td>
-    <td>Määrittää avoimet laskut, jotka on merkitty liittyviksi valittuun riviin. Avoimet laskut on liitetty manuaalisesti puitetilaukseen syöttämällä puitetilauksen numero myyntilaskuriville.</td>
-    </tr>
-    <tr>
-    <td>**Palautustilaukset**</td>
-    <td>Määrittää avoimet palautustilaukset, jotka on merkitty liittyviksi valittuun riviin.</td>
-    </tr>
-    <tr>
-    <td>**Hyvityslaskut**</td>
-    <td>Määrittää avoimet hyvityslaskut, jotka on merkitty liittyviksi valittuun riviin.</td>
-    </tr>
-    </table>
+    |Asetus|Description|
+    |--|--|
+    |**Tilaukset**|Määrittää avoimet tilaukset, jotka on merkitty liittyviksi valittuun riviin.|
+    |**Laskut**|Määrittää avoimet laskut, jotka on merkitty liittyviksi valittuun riviin. Avoimet laskut on liitetty manuaalisesti puitetilaukseen syöttämällä puitetilauksen numero myyntilaskuriville.|
+    |**Palautustilaukset**|Määrittää avoimet palautustilaukset, jotka on merkitty liittyviksi valittuun riviin.|
+    |**Hyvityslaskut**|Määrittää avoimet hyvityslaskut, jotka on merkitty liittyviksi valittuun riviin.|
+
 4. Näytä kirjatut tapahtumat valitsemalla ensin kyseinen rivi, sitten **Rivi**-toiminto ja lopuksi **Kirjatut rivit** -toiminto. Valitse yksi seuraavista vaihtoehdoista.  
 
-    <table>
-    <tr>
-    <th>Asetus</th>
-    <th>Description</th>
-    </tr>
-    <tr>
-    <td>**Toimitukset**</td>
-    <td>Valittuun riviin liitetyt kirjatut toimitukset.</td>
-    </tr>
-    <tr>
-    <td>**Laskut**</td>
-    <td>Valittuun riviin liitetyt kirjatut laskut.</td>
-    </tr>
-    <tr>
-    <td>**Palautusvast.otot**</td>
-    <td>Valittuun riviin liitetyt kirjatut palautusvastaanotot.</td>
-    </tr>
-    <tr>
-    <td>**Hyvityslaskut**</td>
-    <td>Valittuun riviin liitetyt kirjatut hyvityslaskut.</td>
-    </tr>
-    </table>
+    |Asetus|Description|
+    |---|----|
+    |**Toimitukset**|Valittuun riviin liitetyt kirjatut toimitukset.|
+    |**Laskut**|Valittuun riviin liitetyt kirjatut laskut.|
+    |**Palautusvast.otot**|Valittuun riviin liitetyt kirjatut palautusvastaanotot.|
+    |**Hyvityslaskut**|Valittuun riviin liitetyt kirjatut hyvityslaskut.|
+
 5. Näytä tapahtuma valitsemalla **Näytä asiakirja** -toiminto **Myyntirivit**-sivulla.
 
 ## <a name="see-also"></a>Katso myös
-[Myynti](sales-manage-sales.md)  
+[Myynti](sales-manage-sales.md)
+[Puitekokoonpanotilausten luominen](assembly-how-to-create-blanket-assembly-orders.md)  
 [Myynnin määrittäminen](sales-setup-sales.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
 

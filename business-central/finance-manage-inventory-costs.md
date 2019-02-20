@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 11/15/2018
+ms.date: 11/27/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
-ms.openlocfilehash: d24998281a7e718c5f4ae648eba1a338512eefcb
+ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
+ms.openlocfilehash: d5f5885055aa1094e4172d4a4e327ff1e940f799
 ms.contentlocale: fi-fi
-ms.lasthandoff: 11/20/2018
+ms.lasthandoff: 11/29/2018
 
 ---
 # <a name="managing-inventory-costs"></a>Varaston kustannusten hallinta
@@ -29,6 +29,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 |**Tehtävä**|**Katso**|  
 |------------|-------------|  
 |[!INCLUDE[d365fin](includes/d365fin_md.md)]in varaston kustannuslaskennan toiminnot. Ohjeaihe sisältää käsitteellisiä tietoja toimintoja koskevista periaatteista ja määrityksistä.|[Tietoja varaston arvostuksesta](finance-learn-about-costing.md)|  
+|Lisätietoja kustannuslaskentajärjestelmän kaikista mekanismeista.|[Rakennetiedot: Varaston arvostus](design-details-inventory-costing.md)|
 |Varastokausien käyttäminen yrityksen varaston arvon pitkäaikaisessa hallinnassa määrittämällä lyhyempiä kausia, jotka voi sulkea kirjaamista varten tilikauden edetessä.|[Varastokausien käsitteleminen](finance-how-to-work-with-inventory-periods.md)|
 |Vakiokustannusten komponenttien ja valmiiden tuotteiden arvostuksen perustana käyttämisen syyt teollisuusyhtiöissä.|[Tietoja standardikustannuksen laskemisesta](finance-about-calculating-standard-cost.md)|
 |Määritä varastokaudet, arvostusmenetelmät ja pyöristystavat.|[Varastonarvostuksen ja kustannuslaskennan määrittäminen](finance-set-up-inventory-valuation-and-costing.md)|
@@ -38,7 +39,6 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 |Kokoonpanon ja tuotannon tuoterakenteiden komponenttien vakiokustannukset on päivitettävä säännöllisesti ja uudet kustannukset on vyörytettävä päänimikkeelle.|[Vakiokustannusten päivittäminen](finance-how-to-update-standard-costs.md)|
 |Voit tarkastella ja muuttaa manuaalisesti tietyn nimikkeen kohdistustapahtumia, jotka on luotu automaattisesti varastotapahtumien yhteydessä.|[Nimiketapahtumien poistaminen ja uudelleenkohdistaminen](finance-how-to-remove-and-reapply-item-entries.md)|
 |Kauden lopun hallinta- ja raportointitehtävien toteuttaminen. Näitä tehtäviä ovat esimerkiksi varaston arvon laskeminen ja kustannusten kirjaaminen pääkirjanpitoon.|[Kustannusten raportointi ja täsmäyttäminen pääkirjanpidon kanssa](finance-report-costs-and-reconcile-with-the-general-ledger.md)|
-|Lisätietoja kustannuslaskentajärjestelmän kaikista mekanismeista.|[Rakennetiedot: Varaston arvostus](design-details-inventory-costing.md)|  
 
 ## <a name="see-also"></a>Katso myös  
  [Rahoitus](finance.md)  

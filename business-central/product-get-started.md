@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 10/01/2018
+ms.date: 12/03/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: b30a97ad3f7c03b1c42e5cd845698337899a0294
+ms.sourcegitcommit: 3f158d7ed56445d6d2acf2ef8e5e9ab8e7487531
+ms.openlocfilehash: 15c54c7c6514ce275ff242d620df7404f9f2fee4
 ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 # <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]in käytön aloittaminen
@@ -36,12 +36,12 @@ Käteviä vihjeitä on seuraavissa kohdissa:
 
 Lisätietoja on aiheessa [[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md).  
 
-Kun olet valmis aloittamaan käytön ja haluat tutustua tiettyihin [!INCLUDE[d365fin](includes/d365fin_md.md)]in tukemiin liiketoimintaprosesseihin, lisätietoja on kohdassa [Liiketoiminnan toiminnallisuudet](across-business-functionality.md). Yleiskatsaus nykyisistä ja tulevista toiminnoista on sivustossa [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68).  
+Kun olet valmis aloittamaan käytön ja haluat tutustua tiettyihin [!INCLUDE[d365fin](includes/d365fin_md.md)]in tukemiin liiketoimintaprosesseihin, lisätietoja on kohdassa [Liiketoiminnan toiminnallisuudet](across-business-functionality.md). Nykyisten ja suunniteltujen ominaisuuksien yleiskatsaus on julkaisutiedoissa kohdassa [Microsoft Dynamics 365 Business Centralin julkaisutiedot](https://go.microsoft.com/fwlink/?linkid=2047422).  
 
 ## <a name="the-role-centers"></a>Roolikeskukset
 Roolikeskussivu perustuu roolikeskeiseen rakenteeseen, jonka ansiosta voit käyttää nopeasti työssä tarvittavia liiketoimintaprosesseja ja BI-työkaluja. Kirjanpitäjä voi esimerkiksi seurata maksuja ja hyväksymisiä sekä tarkastella rahoituksen suorituskykykaavioita. Tutustu eri roolikeskuksiin valitsemalla oikeassa yläkulmassa **Asetukset**-kuvake ![Asetukset](media/ui-experience/settings_icon_small.png "Roolikeskuksen Asetukset-kuvake"). Valitse sitten **Omat asetukset** ja lopuksi roolikeskus, johon haluat tutustua. Ota muutos käyttöön kirjautumalla uudelleen sisään. Lisätietoja on kohdassa [Perusasetusten muuttaminen](ui-change-basic-settings.md).
 
-Jokaisessa roolikeskuksessa on **Asennus ja laajennukset** -painike. Saat käyttöösi luettelon avustetuista asennuksista, joiden avulla pääset alkuun määrittämällä valitut alueet nopeasti. Jos alueella ei ole asetuksen ohjattua määritystä, valitse **Manuaalinen asennus** -toiminto. Pääset tällä tavoin sivuille, joissa voit täyttää kaikkien alueiden asennuskentät manuaalisesti. Lisätietoja on myös ohjeaiheessa [[!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittäminen](setup.md)  
+Jokaisessa roolikeskuksessa on **Asennus ja laajennukset** -painike. Saat käyttöösi luettelon avustetuista asennuksista, joiden avulla pääset alkuun määrittämällä valitut alueet nopeasti. Jos alueella ei ole asetuksen ohjattua määritystä, valitse **Manuaalinen asennus** -toiminto. Pääset tällä tavoin sivuille, joissa voit täyttää kaikkien alueiden asennuskentät manuaalisesti. Lisätietoja on myös kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittäminen](setup.md)  
 
 > [!NOTE]  
 >   Käytettävissä olevien asennusoppaiden, laajennusten ja palvelujen luettelo vaihtelee yritykselle valitun käyttäjäkokemuksen mukaan. **Essential**-kokemuksen valikoima on suppeampi kuin **Premium**-kokemuksen valikoima. Ensimmäisellä kirjautumiskerralla käytössä on Essential-kokemus. Lisätietoja on kohdassa [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md).  
@@ -69,9 +69,17 @@ Harkitsetko tilaamista? Voit vaihtaa helposti esimerkkiyrityksestä käyttämä�
 
 Voit luoda yrityksen kokeilukäyttöä varten siirtymällä oikeassa yläkulmassa **Omat asetukset** -valikkoon ja vaihtamalla yrityksen **Omaksi yritykseksi**. Muutos otetaan käyttöön, kun kirjaudut ensin ulos [!INCLUDE[d365fin](includes/d365fin_md.md)]ista ja sitten takaisin sisään. Avustettu asennusopas auttaa yrityksen perustietojen antamisessa. Kun nämä tiedot on annettu, tutustu roolikeskukseen ja etsi **Asetusten ohjattu määritys** -toiminto.  
 
-Vaihtoehtoisesti voit etsiä [!INCLUDE[d365fin](includes/d365fin_md.md)] -kumppanin [täältä](https://www.microsoft.com/en-us/solution-providers/search).
+Vaihtoehtoisesti voit etsiä [!INCLUDE[d365fin](includes/d365fin_md.md)] -kumppanin [täältä](https://www.microsoft.com/en-us/solution-providers/search).  
 
-## <a name="ready-to-subscribe"></a>Oletko valmis tilaukseen?
+## <a name="getting-answers-to-questions"></a>Vastauksia kysymyksiin
+
+Jos et ole varma, miten jotakin tehdään [!INCLUDE[d365fin](includes/d365fin_md.md)]issa, löydät toivottavasti vastauksen joko lukemalla sen kentän työkaluvihjeen, josta et ole varma, tai lukemalla työkaluvihjeen *Lisätietoja*-linkin sisällön. Voit hakea myös ohjeita valitsemalla liittyvän linkin Ohje-valikossa.  
+
+Kaikki [!INCLUDE[d365fin](includes/d365fin_md.md)]in kentät kuvaillaan työkaluvihjeissä. Saat työkaluvihjeen käyttöösi valitsemalla kentän nimen. Valitse esimerkiksi sivulla, kuten **Asiakaskortti**, kentän nimi ja lue työkaluvihje. Jos kyse on luettelosta, kuten **Asiakkaat**, tai asiakirjan, kuten myyntitilauksen, rivistä, sinun on valittava sarakkeen nimen oikealla puolella olevasta avattavasta valikosta **Lisätietoja**-vaihtoehto.  
+
+Jos sinulla on lisää kysymyksiä, kysy asiaa yhteisöltä tai ota yhteys jälleenmyyntikumppaniin. Lisätietoja on kohdassa [Mistä saan tarvittaessa lisätietoja?](across-faq.md#where-do-i-go-if-i-have-questions).  
+
+## <a name="ready-to-subscribe"></a>Oletko valmis tilaamaan?
 Aina kun kirjaudut sovellukseen kokeilujakson aikana, jäljellä oleva aika näkyy yläreunassa olevassa sinisessä palkissa. Jos päätät tehdä tilauksen, voit etsiä [!INCLUDE[d365fin](includes/d365fin_md.md)] -kumppanin [täältä](https://www.microsoft.com/en-us/solution-providers/search). Voit ottaa yhteyttä myös [[!INCLUDE[d365fin](includes/d365fin_md.md)] -myyntiryhmään](https://go.microsoft.com/fwlink/?linkid=828707).  
 
 ## <a name="other-dynamics-365-apps"></a>Muut Dynamics 365 -sovellukset
@@ -86,7 +94,7 @@ Jos olet kirjanpitäjä, voit rekisteröityä [!INCLUDE[d365acc_long](includes/d
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen Outlookin yrityssähköpostina](admin-outlook.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]in hakeminen mobiililaitteeseen](install-mobile-app.md)  
 [Dynamics 365:n dokumentaatio](https://docs.microsoft.com/en-us/dynamics365/)  
-[Business Central Roadmap](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)  
+[Microsoft Dynamics 365 Business Centraliin julkaisutiedot](https://go.microsoft.com/fwlink/?linkid=2047422)  
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
