@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> <span data-ttu-id="1689c-101">Maan tai alueen mukaan lisäasetukset voivat olla välttämättömiä.</span><span class="sxs-lookup"><span data-stu-id="1689c-101">Depending on your country or region, additional setup may be required.</span></span> <span data-ttu-id="1689c-102">Lisätietoja on liittyvien artikkeleiden luettelossa kohdassa [Katso myös](#see-also).</span><span class="sxs-lookup"><span data-stu-id="1689c-102">For more information, see the list of related articles in the [See Also](#see-also) section.</span></span>  
