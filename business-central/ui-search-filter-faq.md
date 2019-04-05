@@ -10,15 +10,14 @@ ms.workload: na
 ms.search.keywords: keyboarding, productivity, how do i, filter pane
 ms.date: 10/01/2018
 ms.author: mikebc
+ms.openlocfilehash: a4bcdca8ecff80d8d47bf9c198cd69a71f09cd2a
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 5d6d2d9527e81a92987f6b8fcdbe8e087c3c537a
-ms.openlocfilehash: 099a2a800cb71e7a0b8dd02901928b43dfa199ca
-ms.contentlocale: fi-fi
-ms.lasthandoff: 01/22/2019
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852054"
 ---
-
-# <a name="about-searching-and-filtering-in-included365finincludesd365finmdmd"></a>Tietoja hakemisesta ja suodattamisesta [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksessa
+# <a name="searching-and-filtering-faq"></a>Usein kysyttyjen kysymysten haku ja suodatus
 Tässä artikkelissa on vastauksia hakemiseen ja suodattamiseen liittyviin yleisiin kysymyksiin.
 
 ## <a name="is-there-a-difference-between-searching-and-filtering"></a>Onko hakemisella ja suodattamisella eroa?
@@ -30,7 +29,7 @@ Kyllä.
 Hakemista ja suodattamista voi käyttää tehokkaasti myös ilman hiirtä. Käytettävissä on useita pikanäppäimiä, joiden avulla toimintoja voi käyttää nopeasti. Lisätietoja on kohdassa [Pikanäppäimet](keyboard-shortcuts.md#KeyboardFilter).
 
 ## <a name="is-the-filter-pane-available-on-all-lists"></a>Onko suodatinruutu käytettävissä kaikissa luetteloissa?
-Suodatinruutu on käytettävissä sivuilla, joissa luettelo on sivun ensisijainen sisältö. Tällaisia ovat esimerkiksi työkirjat ja luettelosivut, kuten siirtymispalkin avulla käytettävät luettelot. Suodatinruutu ei ole vielä käytettävissä upotetuissa luetteloissa, kuten myyntitilausten myyntiriveillä tai dynaamisten sarakkeiden luetteloissa (joita kutsutaan usein matriisisivuiksi). 
+Suodatinruutu on käytettävissä sivuilla, joissa luettelo on sivun ensisijainen sisältö. Tällaisia ovat esimerkiksi työkirjat ja luettelosivut, kuten siirtymispalkin avulla käytettävät luettelot. Suodatinruutu ei ole vielä käytettävissä upotetuissa luetteloissa, kuten myyntitilausten myyntiriveillä tai dynaamisten sarakkeiden luetteloissa (joita kutsutaan usein matriisisivuiksi).
 
 ## <a name="how-can-i-save-my-filters"></a>Miten voin tallentaa suodattimeni?
 
@@ -57,4 +56,3 @@ Paikallinen järjestelmänvalvoja voi muuttaa hakujen aikarajaa suuremmaksi muut
 ## <a name="see-also"></a>Katso myös .
 [Käytön aloittaminen](product-get-started.md)  
 [Luetteloiden lajitteleminen ja suodattaminen sekä luetteloista hakeminen](ui-enter-criteria-filters.md)
-

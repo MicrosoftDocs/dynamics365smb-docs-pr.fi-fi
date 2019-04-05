@@ -1,23 +1,23 @@
 ---
-title: "Vaihekuvaus – pakettien myynti, kokoaminen ja toimitus | Microsoft Docs"
-description: "Just-In-Time -varastoinnin ja kyvyn mukauttaa tuotteet asiakkaan vaatimusten mukaisiksi tukemiseksi kokoonpanotilauksia voidaan automaattisesti luoda ja linkittää heti kun myyntitilausrivi on luotu. Linkki myyntikysynnän ja kokoonpanotarjonnan välillä mahdollistaa myyntitilauksen käsittelijöille kokoonpanonimikkeen mukauttamisen sekä toimituspäivien lupaamisen osan saatavuuden mukaan. Lisäksi linkitetyn myyntitilauksen toimitukseen kirjataan automaattisesti kokoonpanon kulutus ja tuotos."
+title: Vaihekuvaus – pakettien myynti, kokoaminen ja toimitus | Microsoft Docs
+description: Just-In-Time -varastoinnin ja kyvyn mukauttaa tuotteet asiakkaan vaatimusten mukaisiksi tukemiseksi kokoonpanotilauksia voidaan automaattisesti luoda ja linkittää heti kun myyntitilausrivi on luotu. Linkki myyntikysynnän ja kokoonpanotarjonnan välillä mahdollistaa myyntitilauksen käsittelijöille kokoonpanonimikkeen mukauttamisen sekä toimituspäivien lupaamisen osan saatavuuden mukaan. Lisäksi linkitetyn myyntitilauksen toimitukseen kirjataan automaattisesti kokoonpanon kulutus ja tuotos.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
+ms.openlocfilehash: 4cbefdb46c6ba09dad64650123d6459135aa7afe
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
-ms.openlocfilehash: b1c0f2549420bec5efc8f224f88f46d8c5874968
-ms.contentlocale: fi-fi
-ms.lasthandoff: 01/31/2019
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852698"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Vaihekuvaus: pakettien myynti, kokoaminen ja toimitus
 
@@ -27,7 +27,7 @@ Just-In-Time -varastoinnin ja kyvyn mukauttaa tuotteet asiakkaan vaatimusten muk
 
 Erityinen toiminto koskee tilausta varten kokoonpantujen määrien toimitusta sekä perus- että edistyneissä fyysisen varaston määritystiedoissa. Kun kokoonpanon työntekijät saavat valmiiksi osien kokoamisen tai koko Kokoonpano tilausta varten -määrän, he tallentavat sen laajennetuissa määrityksissä **Toimitettava määrä** -kenttään ja valitsevat sitten **Kirjaa toimitus**. Tulos on, että vastaavan kokoonpanon tuotos kirjataan osien kulutuksen kanssa, ja linkitetylle myyntitilaukselle kirjataan toimitettu määrä. Tässä vaihekuvauksessa kuvataan laajennettu varastoprosessi.  
 
-Kun fyysisen varaston perusmääritysten kokoonpano tilausta varten -määrä on toimitusvalmis, varastotyöntekijä kirjaa varastopoiminnan myyntitilausriveille. Tämä luo varastosiirron osille ja kirjaa kokoonpanon tuotoksen ja myyntitilauksen toimituksen. Lisätietoja on Varaston poiminta -ohjeaiheen kohdassa Kokoonpano tilausta varten -nimikkeiden käsitteleminen varaston poiminnoissa.  
+Kun fyysisen varaston perusmääritysten kokoonpano tilausta varten -määrä on toimitusvalmis, varastotyöntekijä kirjaa varastopoiminnan myyntitilausriveille. Tämä luo varastosiirron osille ja kirjaa kokoonpanon tuotoksen ja myyntitilauksen toimituksen. Lisätietoja on kohdassa [Kokoonpano tilausta varten -nimikkeiden käsitteleminen varaston poiminnoissa](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).  
 
 ## <a name="about-this-walkthrough"></a>Tietoja tästä vaihekuvauksesta  
 Tässä vaihekuvauksessa käsitellään seuraavia tehtäviä:  
@@ -106,7 +106,7 @@ Poista sisäisten prosessien oletusläpimenoaika seuraavasti:
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tuotannon asetukset** ja valitse sitten liittyvä linkki.  
 2.  Poista **Tuotannon asetukset** -sivun **Suunnittelu**-pikavälilehden **Oletus toimitusajan varmistus** -kentän arvo.  
 
-Luo varasto kokoonpanon osille noudattamalla näiden vaihekohtaisten ohjeiden osaa "Esimerkkitietojen valmisteleminen".  
+Luo kokoonpanon komponenttien varasto kohdan [Esimerkkitietojen valmisteleminen](walkthrough-selling-assembling-and-shipping-kits.md#setting-up-the-sample-data) mukaisesti.  
 
 ## <a name="story"></a>Taustatietoja  
 23. tammikuuta myyntitilausten käsittelijä Sanna ottaa Laitekauppa-yritykseltä tilauksen kolmesta tuotepaketti B:stä, joka on ATO-nimike. Kaikki kolme yksikköä on mukautettu, ja niissä on oltava tehokas grafiikkakorttti ja ylimääräistä RAM-muistia. Levyasemat päivitetään DVD-asemiksi, koska CD-asemia ei ole saatavilla. Sanna tietää, että yksiköt voidaan koota heti, joten hän jättää ehdotetuksi toimituspäiväksi tammikuun 23. päivän.  
@@ -135,7 +135,7 @@ Sammy pakkaa kymmenen ATS-yksikköä viidellä ATO-yksiköllä, jotka Linda koko
 
 Kun myyntitilaus on myöhemmin kirjattu kokonaan laskutetuksi, myyntitilaus ja linkitetyt kokoonpanotilaukset poistetaan.  
 
-## <a name="setting-up-the-sample-data"></a>Esimerkkitietojen määrittäminen  
+## <a name="prepare-sample-data"></a>Esimerkkitietojen valmisteleminen  
 
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **F. var. nimikepvk:t** ja valitse sitten liittyvä linkki.  
 2.  Valitse **Erän nimi** -kenttä, ja valitse sitten oletuspäiväkirja.  
@@ -431,7 +431,7 @@ Kun myyntitilaus on myöhemmin kirjattu kokonaan laskutetuksi, myyntitilaus ja l
 
     Huomaa, että **Toimitettu määrä** -kenttä sisältää täyden määrän kummallakin rivillä.  
 
-    Kun Laitekauppa maksaa 18 CRONUKSELTA vastaanotettua tietokonetta, myyntitilaus ja sen linkitetyt kokoonpanotilaukset poistetaan.  
+    Kun Laitekauppa maksaa 18 tietokoneen vastaanotosta CRONUSista, myyntitilaus ja sen linkitetyt kokoonpanotilaukset poistetaan.  
 
 ## <a name="see-also"></a>Katso myös  
  [Tietoja Kokoonpano tilausta varten- ja Kokoonpano varastoon -toiminnoista](assembly-assemble-to-order-or-assemble-to-stock.md)   
@@ -443,4 +443,3 @@ Kun myyntitilaus on myöhemmin kirjattu kokonaan laskutetuksi, myyntitilaus ja l
  [Rakennetiedot: sisäisen fyysisen varastoinnin virta](design-details-internal-warehouse-flows.md)   
  [Rakennetiedot: lähtevän fyysisen varastoinnin virta](design-details-outbound-warehouse-flow.md)   
  [Vaihekuvaus: Toimitusten automaattinen suunnittelu](walkthrough-planning-supplies-automatically.md)
-

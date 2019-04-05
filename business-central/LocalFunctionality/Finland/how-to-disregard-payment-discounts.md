@@ -1,23 +1,23 @@
 ---
 title: Maksualennusten ohittaminen
-description: "Käytä maksualennusten ohittamistoimintoa kokonaissumman yhteydessä, kun haluat hyväksyä maksut seuraavien ehtojen täyttyessä:"
+description: 'Käytä maksualennusten ohittamistoimintoa kokonaissumman yhteydessä, kun haluat hyväksyä maksut seuraavien ehtojen täyttyessä:'
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: d342fa6139e80e60aa3149776d7e5f658f6c31aa
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2de1fcf3cab37be18d881cea73ac4e522fce803b
-ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826591"
 ---
 # <a name="disregard-payment-discounts"></a>Maksualennusten ohittaminen
 Käytä maksualennusten ohittamistoimintoa kokonaissumman yhteydessä, kun haluat hyväksyä maksut seuraavien ehtojen täyttyessä:  
@@ -40,4 +40,3 @@ Käytä maksualennusten ohittamistoimintoa kokonaissumman yhteydessä, kun halua
 [Maksutapojen määrittäminen](../../finance-payment-methods.md)  
 [Maksutoleranssien ja maksualennustoleranssien käsitteleminen](../../finance-payment-tolerance-and-payment-discount-tolerance.md)     
 [Pankin viitetiedostojen määrittäminen](how-to-set-up-bank-reference-files.md)
-

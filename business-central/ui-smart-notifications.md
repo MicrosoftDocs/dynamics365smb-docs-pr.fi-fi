@@ -1,8 +1,8 @@
 ---
-title: "Älykkäiden ilmoitusten käyttäminen ja niiden esiintymisen määrittäminen | Microsoft Docs"
-description: "Voit saada ilmoituksia, joilla ilmoitetaan tilan muutoksista tai tapahtumista, kuten erääntyneestä saldosta tai pienestä varastosta."
+title: Älykkäiden ilmoitusten käyttäminen ja niiden esiintymisen määrittäminen | Microsoft Docs
+description: Voit saada ilmoituksia, joilla ilmoitetaan tilan muutoksista tai tapahtumista, kuten erääntyneestä saldosta tai pienestä varastosta.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,14 +11,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2018
 ms.author: bholtorf
+ms.openlocfilehash: ea0429a42447a980cf9d23f0f3b70d7c57efa184
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fa37e68f0544325e75e3869c61e00cde0d71a520
-ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852147"
 ---
-# <a name="smart-notifications"></a>Älykkäät ilmoitukset
+# <a name="managing-notifications"></a>Ilmoitusten hallinta
 [!INCLUDE[d365fin](includes/d365fin_md.md)] voi auttaa työskentelemään älykkäämmin ilmoittamalla tietyistä tapahtumista tai tilamuutoksesta esimerkiksi silloin, kun olet laskuttamassa asiakasta, jolla on erääntynyttä saldoa, tai kun käytettävissä oleva varasto on pienempi kuin myytävä määrä. Nämä ilmoitukset näytetään hienovaraisina vihjeinä käsiteltävän tehtävän kontekstissa. Voit ohittaa ilmoituksen tai tarkastella sitä lähemmin.  
 
 Jos tarkastelet ilmoituksen tietoja, voit ratkaista asian tekemällä toimenpiteitä, kuten esimerkiksi ottaa yhteyttä asiakkaaseen tai ostaa lisää nimikkeitä. Valitset suoritettavat tehtävät, ja [!INCLUDE[d365fin](includes/d365fin_md.md)] antaa niitä koskevia neuvoja ja suosituksia.  
@@ -38,4 +38,3 @@ Ilmoitusten ottaminen käyttöön tai niiden poistaminen käytöstä sekä ehtoj
 
 ## <a name="see-also"></a>Katso myös
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

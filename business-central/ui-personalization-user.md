@@ -1,8 +1,8 @@
 ---
 title: Sivujen mukauttaminen | Microsoft Docs
-description: "Lisätietoja käyttöliittymän mukauttamisesta omaan työskentelytapaan sopivaksi."
+description: Lisätietoja käyttöliittymän mukauttamisesta omaan työskentelytapaan sopivaksi.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,15 +12,16 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: 65bd6d24395990d2b92b7eeea0c7b208f7311eef
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: df4c40e38b3f7784f9f7603cddbfd9ac8681d952
-ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852307"
 ---
 # <a name="personalizing-your-workspace"></a>Työtilan mukauttaminen
-<!--NAV in the Web client--> Voit *mukauttaa* työtilan työskentelyysi ja valintoihisi sopivaksi muuttamalla sivujen ulkoasua siten, että vain tarvitsemasi tiedot näkyvät siellä, missä niitä tarvitset. Mukauttamalla tehdyt muutokset koskevat vain omaa näkymääsi; muut käyttäjät eivät siis näe mukautuksiasi.
+<!--NAV in the Web client-->
+Voit *mukauttaa* työtilan työskentelyysi ja valintoihisi sopivaksi muuttamalla sivujen ulkoasua siten, että vain tarvitsemasi tiedot näkyvät siellä, missä niitä tarvitset. Mukauttamalla tehdyt muutokset koskevat vain omaa näkymääsi; muut käyttäjät eivät siis näe mukautuksiasi.
 
 Sivun tyypin ja sen sisällön perusteella voit
 
@@ -29,7 +30,10 @@ Sivun tyypin ja sen sisällön perusteella voit
 -   muuttaa luettelon sarakkeiden kiinnitysruutua. Kiinnitysruutu lukitsee vähintään yhden sarakkeen luettelon vasemmalle puolelle siten, että se näkyy myös silloin, kun näkymää vieritetään vaakasuunnassa.
 -   Muokkaa luettelon sarakkeiden leveyttä.
 -   siirtää ja poistaa jonoja (ruutuja)
--   siirtää ja poistaa osia. Osat ovat osia tai alueita sivulla ja niissä on esimerkiksi useita kenttiä, toinen sivu, kaavio tai ruutuja.  
+-   siirtää ja poistaa osia. Osat ovat osia tai alueita sivulla ja niissä on esimerkiksi useita kenttiä, toinen sivu, kaavio tai ruutuja.
+
+> [!NOTE]
+> Sen lisäksi mitä käyttäjät voivat mukauttaa, järjestelmänvalvojat ja superkäyttäjät voivat ohittaa käyttäjien mukautukset ja määrittää, mitä ominaisuuksia kaikki tai tietyt yritykset voivat käyttää. Lisätietoja on kohdassa [Business Centralin mukauttaminen](ui-customizing-overview.md). 
 
 ## <a name="to-personalize-a-page"></a>Sivun mukauttaminen
 
@@ -79,4 +83,3 @@ Seuraavat seikat auttavat ymmärtämään mukauttamista entistä paremmin.
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Perusasetusten muuttaminen](ui-change-basic-settings.md)  
 [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md)  
-

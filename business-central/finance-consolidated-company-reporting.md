@@ -1,7 +1,7 @@
 ---
 title: Usean yrityksen tietojen konsolidointi | Microsoft Docs
-description: "Hae yhteenvetonäkymä kaikkien yritystesi taloudellisesta tilanteesta."
-documentationcenter: 
+description: Hae yhteenvetonäkymä kaikkien yritystesi taloudellisesta tilanteesta.
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,16 +9,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.date: 10/01/2018
+ms.date: 03/11/2019
 ms.author: bholtorf
+ms.openlocfilehash: feda9d1f681c40746db488027fdd8ae1d06a4d94
+ms.sourcegitcommit: 2b2c3b488a610a5d3b51fc8218c40b0b732fddf3
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 4208616e0d4d865a2cc113cd888abde8285dc202
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "832595"
 ---
-
 # <a name="consolidating-financial-data-from-multiple-companies"></a>Usean yrityksen kirjanpitotietojen konsolidoiminen
 Jos sinulla on useita [!INCLUDE[d365fin](includes/d365fin_md.md)]-yrityksiä, kirjanpitäjän roolikeskuksen Konsolidoitu alust. tulos/tase -raportti antaa yleiskuvan liiketoiminnan taloudellisesta tilanteesta.  
 
@@ -50,13 +49,16 @@ Käytä asetusten ohjattua määritystä seuraavasti:
 2. Valitse **Määritä konsolidoinnin raportointi** ja tee vaiheet asetusten ohjatun määrityksen mukaisesti.
 
 ## <a name="to-do-an-advanced-consolidation-setup"></a>Konsolidoinnin lisäasetukset
-Jos konsolidoinnissa on käytettävä lisäasetuksia, voit määrittää konsolidoinnin manuaalisesti. Sinulla voi esimerkiksi olla yrityksiä, jotka omistat vain osittain, tai et ehkä halua sisällyttää tiettyjä yrityksiä konsolidointiin. Voit määrittää konsolidoidun yrityksen samalla tavalla kuin muutkin yritykset. Lisätietoja on ohjeaiheessa [Valmistautuminen liiketoimintaan](ui-get-ready-business.md).  
+Jos konsolidoinnissa on käytettävä lisäasetuksia, voit määrittää konsolidoinnin manuaalisesti. Sinulla voi esimerkiksi olla yrityksiä, jotka omistat vain osittain, tai et ehkä halua sisällyttää tiettyjä yrityksiä konsolidointiin. Konsolidoitu yritys määritetään samalla tavalla kuin muutkin yritykset. Lisätietoja on ohjeaiheessa [Valmistautuminen liiketoimintaan](ui-get-ready-business.md).  
 
 Voit määrittää [!INCLUDE[d365fin](includes/d365fin_md.md)]issa konsolidoitavien yritysten luettelon, tarkistaa laskentatiedot ennen konsolidointia, tuoda tiedostoja ja luoda konsolidointiraportteja.  
 
 1. Kirjaudu konsolidoituun yritykseen.
 2. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Liiketoimintayksiköt** ja valitse sitten liittyvä linkki.  
-3. Valitse **Uusi** ja täytä sitten tarvittavat kentät.  
+3. Valitse **Uusi** ja täytä sitten tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+> [!IMPORTANT]
+> Kun täytät **Aloituspvm**- ja **Lopetuspvm** -kentät, varmista, että noudata kenttiä, varmista, että noudatat liiketoimintayksikön eikä emoyrityksen tilikausien GAAP-sääntöjä.
 
 Jos liiketoimintayksikkösi käyttää ulkomaan valuuttaa, sinun on määritettävä konsolidoinnissa käytettävä valuuttakurssi. Sinun täytyy myös syöttää konsolidointitiedot liiketoimintayksikön KP-tileistä. Nämä prosessit käsitellään seuraavissa osissa.
 
@@ -120,7 +122,31 @@ Kun olet testannut tiedot, voit siirtää ne konsolidoituun yritykseen.
 1. Kirjaudu konsolidoituun yritykseen.  
 2. Valitse **kirjanpitäjän roolikeskuksessa** **Suorita konsolidointi** -toiminto.  
 3. Täytä vaaditut kentät.  
-4. Valitse **Jossa**-kentässä ensin **Yrityksen nimi** ja sitten konsolidoitu yritys **on**-kentässä.  
+4. Valitse **Jossa**-kentässä ensin **Yrityksen nimi** ja sitten konsolidoitu yritys **on**-kentässä.
+
+## <a name="to-eliminate-repeated-transactions"></a>Toistuvien tapahtumien estäminen
+Kaikkien yritysten konsolidoinnin jälkeen on etsittävä tapahtumat, jotka on tallennettu useaan yritykseen. Ne on sen jälkeen poistettava kirjaamalla eliminointitapahtumat.
+
+Sisäisten liiketapahtumien eliminointien käsittely on manuaalinen prosessi. Toimi seuraavasti:
+1. Etsi tapahtumat, joita on mahdollisesti muutettava, ja anna ne eliminoivat yleisen päiväkirjan rivit.
+2. **Sis. liiketapaht. eliminoinnit** -raportin suorittaminen auttaa arvioimaan yleisen päiväkirjan rivien vaikutuksen ennen kirjaamista.
+3. Kirjaa muutostapahtumat.
+
+**Sis. liiketapaht. eliminoinnit** raportissa näkyy alustava saldon, jolla voit simuloida tapahtumien poistamisen seuraukset vertaamalla konsolidoidun yrityksen tapahtumia yleiseen päiväkirjaan lisättyihin eliminointeihin.
+
+Ennen kuin liiketoimintayksikkö voidaan sisällyttää eräajoon, se on luotava **Liiketoimintayksiköt** -sivulla ja **Konsolidoi**-kenttä on valittava.
+
+Jokainen tili on omalla rivillään (noudattaen tilikartan rakennetta). Tiliä ei ole näkyvissä, jos rivin kaikki summat ovat 0. Jokaisesta tilistä näkyy seuraavat tiedot:
+
+* Tilinumero
+* Tilin nimi.
+* Jos olet valinnut vähintään yhden liiketoimintayksikön koodin pyyntösivun **Liiketoimintayksikön koodi** -kentässä, niin konsolidoidun yrityksen kokonaissumma näkyy siten, että siitä on vähennetty valitut liiketoimintayksiköt ja poistot. Jos et ole täyttänyt **Liiketoimintayksikön koodi** -kenttää, konsolidoidun yrityksen kokonaissumma näkyy siten että siitä on vähennetty poistot.
+* Jos olet valinnut liiketoimintayksikön koodin pyyntösivun **Liiketoimintayksikön koodi** -kentässä, kokonaissumma on liiketoimintayksiköstä tuotujen tapahtumien kokonaissumma. Jos et ole täyttänyt **Liiketoimintayksikön koodi** -kenttää, kokonaissumma on konsolidoidun yrityksen kirjattujen poistojen kokonaissumma.
+* Konsolidoidun yrityksen kokonaissumma, mukaan lukien kaikki liiketoimintayksiköt ja kaikki kirjatut eliminoinnit.
+* Konsolidoidussa yrityksessä tehtävät poistot, siis tapahtumat siinä yleisessä päiväkirjassa, joka on valittu pyyntösivulla.
+* Yleisestä päiväkirjasta kopioitu kirjausteksti.
+* Konsolidoidun yrityksen kokonaissumma poistojen jälkeen (jos ne on kirjattu).
+
 
 ## <a name="to-export-and-import-consolidated-data-between-databases"></a>Konsolidoitujen tietojen vieminen ja tuominen tietokantojen välillä
 Jos liiketoimintayksikön tiedot ovat toisessa tietokannassa, tiedot on vietävä tiedostoon, ennen kuin ne voidaan sisällyttää konsolidointiin. Jokainen yritys täytyy viedä erikseen. Tähän tarkoitukseen ohjelma käyttää **Konsolidoinnin vienti** -eräajoa.  
@@ -138,4 +164,3 @@ Viedyt tapahtumat sisältävät seuraavat kentät: **Tilinro**, **Kirjauspvm** j
 [Konsernitapahtumien hallinta](intercompany-manage.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Liiketoimintatietojen vienti Exceliin](about-export-data.md)
-

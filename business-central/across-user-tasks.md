@@ -1,6 +1,6 @@
 ---
-title: "Tehtävien määrittäminen ja hallinta| Microsoft Docs"
-description: "Tietoja tehtävien määrittämisestä käyttäjille, kuten esimerkiksi kirjanpitäjälle, Business Central -sovelluksessa"
+title: Tehtävien määrittäminen ja hallinta| Microsoft Docs
+description: Tietoja tehtävien määrittämisestä käyttäjille, kuten esimerkiksi kirjanpitäjälle, Business Central -sovelluksessa
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.workload: na
 ms.search.keywords: tasks, work
 ms.date: 10/01/2018
 ms.author: edupont
+ms.openlocfilehash: 492eeda86a392320c8b8205d3faa76416a9cf6fb
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: b225eb16a3cfa0d70f03fde01051c8ea6a956454
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852353"
 ---
-# <a name="defining-user-tasks"></a>Käyttäjätehtävien määrittäminen
+# <a name="define-user-tasks"></a>Käyttäjätehtävien määrittäminen
 Voit luoda [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmassa tehtäviä, jotka muistuttavat sinua tekemättömistä töistä. Voit luoda tehtäviä itsellesi, mutta voit määrittää tehtäviä myös muille. Samoin joku toinen käyttäjä organisaatiossa voi määrittää tehtäviä sinulle.  
 
 ## <a name="managing-user-tasks"></a>Käyttäjätehtävien hallinta
@@ -41,4 +41,3 @@ Jos haluat poistaa kaikki tai osan käyttäjätehtävistä joukkotoiminnon avull
 ## <a name="see-also"></a>Katso myös
 [Sivun tai raportin etsiminen](ui-search.md)  
 [Kirjanpitäjän käyttökokemukset [!INCLUDE[d365fin](includes/d365fin_md.md)]issa](finance-accounting.md)  
-

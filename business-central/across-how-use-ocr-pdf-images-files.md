@@ -1,7 +1,7 @@
 ---
-title: "PDF-tiedostojen muuntaminen sähköisiksi laskuiksi OCR:n avulla| Microsoft Docs"
-description: "Kuvaa, miten PDF- tai kuvatiedostot voidaan muuntaa sähköisiksi asiakirjoiksi OCR-palvelun avulla."
-documentationcenter: 
+title: PDF-tiedostojen muuntaminen sähköisiksi laskuiksi OCR:n avulla| Microsoft Docs
+description: Kuvaa, miten PDF- tai kuvatiedostot voidaan muuntaa sähköisiksi asiakirjoiksi OCR-palvelun avulla.
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 10/01/2018
+ms.date: 03/12/2019
 ms.author: sgroespe
+ms.openlocfilehash: d7d8d3d89eb72aed3bcd86e51a025c19ce55a116
+ms.sourcegitcommit: 3291f0d92c1f2af3bbbefb90d53af4db72fe1a93
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 7d74ae2b6ce94d1aa0e30a3234436a940aaa6219
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "836110"
 ---
 # <a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>PDF- ja kuvatiedostojen muuntaminen sähköisiksi asiakirjoiksi OCR-palvelun avulla
 Ulkoinen OCR (Optical Character Recognition) -palvelu voi luoda liikekumppaneilta vastaanotetuista PDF- tai kuvatiedostoista sähköisiä asiakirjoja, jotka voit muuntaa tiedostotietueiksi [!INCLUDE[d365fin](includes/d365fin_md.md)]issa. Kun esimerkiksi saat PDF-muotoisen laskun toimittajalta, voit lähettää sen OCR-palveluun **Saapuvat asiakirjat** -sivulta. Tämä kuvataan ensimmäisessä menettelytavassa.
@@ -25,7 +25,7 @@ Jos et halua lähettää tiedostoa **Saapuneet asiakirjat** -sivulta, voit lähe
 
 Jonkin sekunnin kuluttua saat tiedoston takaisin OCR-palvelusta sähköisenä laskuna, jonka voit muuntaa toimittajan ostolaskuksi. Tämä kuvataan kolmannessa menettelytavassa.
 
-Koska OCR perustuu optiseen tunnistukseen, OCR-palvelu tulkitsee todennäköisesti PDF- tai kuvatiedostojesi merkit väärin, kun se käsittelee ensimmäistä kertaa esimerkiksi tietyn toimittajan asiakirjoja. Se ei ehkä tulkitse yrityksen logoa toimittajan nimeksi, tai se voi tulkita tositteen kokonaissumman väärin sen asettelun vuoksi. Voit välttää näiden virheiden aiheuttamat seuraukset korjaamalla virheet **Saapuneet asiakirjat** -sivun erillisessä versiossa. Sitten korjaukset lähettää takaisin OCR-palveluun opettamaan se tulkitsemaan merkkejä oikein seuraavalla kerralla, kun se käsittelee PDF- tai kuva-asiakirjaa samalta toimittajalta. Lisätietoja on osassa "OCR-palvelun kouluttaminen välttämään virheet".
+Koska OCR perustuu optiseen tunnistukseen, OCR-palvelu tulkitsee todennäköisesti PDF- tai kuvatiedostojesi merkit väärin, kun se käsittelee ensimmäistä kertaa esimerkiksi tietyn toimittajan asiakirjoja. Se ei ehkä tulkitse yrityksen logoa toimittajan nimeksi, tai se voi tulkita tositteen kokonaissumman väärin sen asettelun vuoksi. Voit välttää näiden virheiden aiheuttamat seuraukset korjaamalla virheet **Saapuneet asiakirjat** -sivun erillisessä versiossa. Sitten korjaukset lähettää takaisin OCR-palveluun opettamaan se tulkitsemaan merkkejä oikein seuraavalla kerralla, kun se käsittelee PDF- tai kuva-asiakirjaa samalta toimittajalta. Lisätietoja on kohdassa [OCR-palvelun kouluttaminen välttämään virheitä](across-how-use-ocr-pdf-images-files.md#to-train-the-ocr-service-to-avoid-errors).
 
 Tiedostojen liikenne OCR-palvelun kanssa sisään ja ulos käsitellään erillisinä työjonotapahtumana, jotka luodaan automaattisesti, kun otat liittyvän palveluyhteyden käyttöön. Lisätietoja on kohdassa [Saapuvien asiakirjojen määrittäminen](across-how-setup-income-documents.md).
 
@@ -45,7 +45,7 @@ Lähetä sähköpostiohjelmasta OCR-palveluntarjoajalle sähköpostiviesti PDF- 
 Koska tiedostolla ei ole tulevaa asiakirjatietuetta, uusi tietue luodaan automaattisesti **Saapuvat asiakirjat** -sivulla, kun vastaanotat sähköisen asiakirjan OCR-palvelusta. Lisätietoja on kohdassa [Saapuvien asiakirjatietueiden luominen](across-how-create-income-document-records.md).
 
 > [!NOTE]  
->   Jos käytät Tablet PC:tä tai puhelinta, voit lähettää tiedoston OCR-palvelun heti kun olet ottanut valokuvan asiakirjasta tai voit luoda saapuvan asiakirjan suoraan. Lisätietoja on ohjeaiheen [Saapuvien tietueiden luominen](across-how-create-income-document-records.md) kohdassa Saapuvien asiakirjatietueiden luominen ottamalla valokuva.
+>   Jos käytät Tablet PC:tä tai puhelinta, voit lähettää tiedoston OCR-palvelun heti kun olet ottanut valokuvan asiakirjasta tai voit luoda saapuvan asiakirjan suoraan. Lisätietoja on kohdassa [Saapuvien asiakirjatietueiden luominen valokuva ottamalla](across-how-create-income-document-records.md#to-create-an-incoming-document-record-by-taking-a-photo).
 
 ## <a name="to-receive-the-resulting-electronic-document-from-the-ocr-service"></a>Tuloksena olevan vastaanotettavan sähköisen asiakirjan vastaanottaminen OCR-palvelusta.
 Työjonotapahtuma, joka määritetään OCR-palvelun käyttöönoton yhteydessä, vastaanottaa **Saapuvat asiakirjat** -sivulle automaattisesti sähköisen asiakirjan, jonka OCR-palvelu luo PDF- tai kuvatiedostosta.
@@ -56,7 +56,7 @@ Jos et käytä työjonoa tai haluat vastaanottaa OCR-asiakirjan työjonon aikata
 >   Jos OCR-palvelun määrityksissä vaaditaan käsiteltyjen asiakirjojen manuaalinen vahvistus, **OCR-tila**-kentän arvo on **Odottaa vahvistusta**. Kirjaudu tällöin OCR-palvelun verkkosivustoon seuraavien ohjeiden mukaan ja vahvista OCR-asiakirja.
 
 1. Valitse **OCR-tila**-kentässä **Odottaa vahvistusta** -hyperlinkki.
-2. Kirjaudu OCR-palvelun verkkosivustoon OCR-palvelutilin tunnistetietojen avulla. Näitä tunnistetietoja käytetään myös palvelun määrittämisessä. Lisätietoja on kohdan [Saapuvan asiakirjan määrittäminen](across-how-setup-income-documents.md) osassa OCR-palvelun määrittäminen.
+2. Kirjaudu OCR-palvelun verkkosivustoon OCR-palvelutilin tunnistetietojen avulla. Näitä tunnistetietoja käytetään myös palvelun määrittämisessä. Lisätietoja on kohdassa [OCR-palvelun määrittäminen](across-how-setup-income-documents.md#to-set-up-an-ocr-service).
 
     Näkyviin tulevat OCR-asiakirjan tiedot, joissa näkyvät sekä PDF- tai kuvatiedoston lähdesisältö että tuloksena olevan OCR-kentän arvot.
 3. Voit tarkistaa eri kenttien arvoja ja manuaalisesti muokata tai syöttää niiden kenttien arvoja, jotka OCR-palvelu on merkinnyt epävarmoiksi.
@@ -69,15 +69,13 @@ Voit nyt jatkaa asiakirjatietueiden luomista vastaanotetuille sähköisille asi
 Seuraavassa kuvataan, miten ostolaskutietue luodaan toimittajan laskusta, joka on vastaanotettu sähköisenä asiakirjana OCR-palvelusta. Menettelytapa on sama kuin esimerkiksi silloin, kun yleisen päiväkirjan rivi luodaan kulutositteesta tai myyntipalautustilaus asiakkaasta.
 
 > [!NOTE]  
->   **Kuvaus**- ja **Nro**-kenttä täytetään luoduilla asiakirjariveillä vain, jos OCR-asiakirjasta löytynyt teksti on ensin linkitetty kahteen [!INCLUDE[d365fin](includes/d365fin_md.md)]in kenttään. Voit tehdä tämän yhdistämismäärityksen nimiketyyppisten asiakirjarivien nimikkeen ristiviittauksena. Voit käyttää myös Tekstin yhdistäminen tiliin -toimintoa. Lisätietoja on kohdassa Saapuvan asiakirjan tekstin yhdistäminen tiettyyn toimittajaan, kirjanpitoon tai pankkitiliin.
-
-Voit linkittää asiakirjan nimikenumerot toimittajan nimikkeiden kuvauksiin avaamalla kunkin nimikkeen kortin, valitsemalla **Viittaukset**-toiminnon ja määrittämällä sitten nimikkeen ja toimittajan kuvausten väliset viittaukset. Lisätietoja on nimikorttien **Ristiviittaukset**-toiminnon työkaluvihjeessä.
+>   **Kuvaus**- ja **Nro**-kenttä täytetään luoduilla asiakirjariveillä vain, jos OCR-asiakirjasta löytynyt teksti on ensin linkitetty kahteen [!INCLUDE[d365fin](includes/d365fin_md.md)]in kenttään. Voit tehdä tämän yhdistämismäärityksen nimiketyyppisten asiakirjarivien nimikkeen ristiviittauksena. Lisätietoja on kohdassa [Nimikkeen viittausten käyttäminen](inventory-how-use-item-cross-refs.md). Voit käyttää myös Tekstin yhdistäminen tiliin -toimintoa. Lisätietoja on kohdassa [Saapuvan asiakirjan tekstin yhdistäminen tiettyyn toimittajaan, kirjanpitoon tai pankkitiliin](across-how-use-ocr-pdf-images-files.md#to-map-text-on-an-incoming-document-to-a-specific-vendor-account).
 
 1. Valitse ensin saapuvan asiakirjan rivi ja sitten **Luo asiakirja** -toiminto.
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)]iin luodaan ostolasku OCR-palvelusta vastaanotetun toimittajan sähköisen laskun tietojen perusteella. Tiedot lisätään uuteen ostolaskuun sen yhdistämismäärityksen perusteella, jonka olet määrittänyt ristiviittaukseksi tai tekstin ja tilin yhdistämiselle.
 
-Vahvistusvirheet (jotka yleensä liittyvät [!INCLUDE[d365fin](includes/d365fin_md.md)]in vääriin tai puuttuviin perustietoihin) näkyvät **Virheet ja varoitukset** -pikavälilehdessä. Lisätietoja on "Virheiden käsitteleminen vastaanotettaessa sähköisiä asiakirjoja" -osassa.
+Vahvistusvirheet (jotka yleensä liittyvät [!INCLUDE[d365fin](includes/d365fin_md.md)]in vääriin tai puuttuviin perustietoihin) näkyvät **Virheet ja varoitukset** -pikavälilehdessä. Lisätietoja on kohdassa [Virheiden käsitteleminen vastaanotettaessa sähköisiä asiakirjoja](across-how-use-ocr-pdf-images-files.md#to-handle-errors-when-receiving-electronic-documents).
 
 ### <a name="to-map-text-on-an-incoming-document-to-a-specific-vendor-account"></a>Saapuvan asiakirjan tekstin yhdistäminen tietyn toimittajan tiliin
 Saapuvissa asiakirjoissa käytetään yleensä **Linkitä teksti tiliin** -toimintoa, kun määritetään, että OCR-palvelusta vastaanotetun toimittajan laskun tietty teksti on linkitetty tiettyyn toimittajan tiliin. Jatkettaessa mikä tahansa saapuvan asiakirjan kuvauksen osa, joka on olemassa linkitettynä tekstinä, tarkoittaa sitä, että **Nro**-kenttä tuloksena saatavassa asiakirjassa tai päiväkirjariveillä, joiden tyyppi on KP-tili, täytetään kyseisen toimittajan tiedoilla.
@@ -124,4 +122,3 @@ Koska OCR perustuu optiseen tunnistukseen, OCR-palvelu tulkitsee todennäköises
 [Saapuvat asiakirjat](across-income-documents.md)  
 [Osto](purchasing-manage-purchasing.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

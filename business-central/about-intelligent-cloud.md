@@ -1,6 +1,6 @@
 ---
-title: "Älykäs pilvi | Microsoft Docs"
-description: "Hanki tiedoistasi pilvikopio, niin voit muodostaa yhteyden älykkääseen pilveen."
+title: Älykäs pilvi | Microsoft Docs
+description: Hanki tiedoistasi pilvikopio, niin voit muodostaa yhteyden älykkääseen pilveen.
 author: bmeier94
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,17 +11,16 @@ ms.reviewer: edupont
 ms. search.keywords: cloud, edge
 ms.date: 10/01/2018
 ms.author: bmeier
+ms.openlocfilehash: 932b6f45ed4f8704b48873518ba2b096efc33e7a
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0abf01698e25ae04a2e34696fb2443ff7d413a26
-ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852123"
 ---
+# <a name="your-access-to-the-intelligent-cloud-with-includeprodshortincludesprodshortmd"></a>Älykkään pilven käyttäminen [!INCLUDE[prodshort](includes/prodshort.md)] -sovelluksen avulla
 
-# <a name="your-access-to-the-intelligent-cloud-with-includeprodlongincludesprodlongmd"></a>Älykkään pilven käyttäminen [!INCLUDE[prodlong](includes/prodlong.md)] -sovelluksen avulla
-
-[!INCLUDE[prodshort](includes/prodshort.md)] online -käyttäjällä on älykkääseen pilveen perustuvien skenaarioiden täydet käyttöoikeudet. Niitä ovat esimerkiksi tietojen muokkaaminen Excelissä, muutosten siirtäminen takaisin [!INCLUDE[prodshort](includes/prodshort.md)] -sovellukseen ja tietojen tarkasteleminen Power BI:ssä. Niin kauan kun [!INCLUDE[prodshort](includes/prodshort.md)] on ensisijaisesti pilvipalvelu, myös asiakkaat, joiden on suoritettava työt kokonaan paikallisesti tai pilvessä älykkään yhteyden avulla, voivat tehdä niin.  
+[!INCLUDE[prodshort](includes/prodshort.md)] online -käyttäjällä on älykkääseen pilveen perustuvien skenaarioiden täydet käyttöoikeudet. Niitä ovat esimerkiksi tietojen muokkaaminen Excelissä, muutosten siirtäminen takaisin [!INCLUDE[prodshort](includes/prodshort.md)]iin ja tietojen tarkasteleminen Power BI:ssä. Niin kauan kun [!INCLUDE[prodshort](includes/prodshort.md)] on ensisijaisesti pilvipalvelu, myös asiakkaat, joiden on suoritettava työt kokonaan paikallisesti tai pilvessä älykkään yhteyden avulla, voivat tehdä niin.  
 
 Jos olet kiinnostunut [!INCLUDE[prodshort](includes/prodshort.md)] -sovelluksesta, voit rekisteröityä pilvikäyttöönoton oletusratkaisun ilmaista kokeilua varten. Vaihtoehtoisesti voit tehdä töitä kumppanin kanssa ja ottaa [!INCLUDE[prodshort](includes/prodshort.md)] -sovelluksen käyttöön paikallisesti omassa laitteessasi. Tämä jälkeen voit muodostaa yhteyden pilveen pilvivuokraajan kautta. Tuloksena paikallisesti käyttöönotetun [!INCLUDE[prodshort](includes/prodshort.md)] -sovelluksen tiedot replikoidaan älykkään pilven skenaarioiden pilveen.  
 
@@ -41,7 +40,7 @@ KPI-kaavioiden vieressä on tietoja mahdollisista ongelma-alueista, kuten erää
 > [!div class="mx-imgBorder"]
 > ![Älykkään pilven tiedot](media/across-intelligent-cloud/intelligentcloudinsights.png "Näyttää älykkään pilven tiedot Business Central -sovelluksessa")
 
-Sivu myös muodostaa yhteyden Power BI -ratkaisuun, jolloin käytettävissä on entistäkin enemmän tietoja.
+Sivu myös muodostaa yhteyden Power BI:hin, jolloin käytettävissä on entistäkin enemmän tietoja.
 
 ## <a name="viewing-intelligent-cloud-insights-on-premises"></a>Älykkään pilven tietojen tarkasteleminen paikallisesti
 
@@ -53,4 +52,3 @@ Kun Dynamics 365 -jälleenmyyntikumppani on hankkinut oikean käyttöoikeuden, j
 [Business Central -sovelluksen älykkään pilven laajennus](ui-extensions-intelligent-cloud.md)  
 [Tietojen replikointilaajennus](ui-extensions-data-replication.md)  
 [Yhteyden muodostaminen älykkääseen pilveen](/dynamics365/business-central/dev-itpro/administration/about-intelligent-edge)  
-

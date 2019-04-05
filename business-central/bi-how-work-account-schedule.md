@@ -1,6 +1,6 @@
 ---
-title: "Luo taloudellisia raportteja KP-raporttimalleja käyttäen"
-description: "Kuvailee, miten KP-raporttimalleja voidaan käyttää erilaisten näkymien ja raporttien luomiseen taloushallinnon suorituskykytietojen analysointia varten."
+title: Luo taloudellisia raportteja KP-raporttimalleja käyttäen
+description: Kuvailee, miten KP-raporttimalleja voidaan käyttää erilaisten näkymien ja raporttien luomiseen taloushallinnon suorituskykytietojen analysointia varten.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 10/16/2018
+ms.date: 03/01/2019
 ms.author: edupont
+ms.openlocfilehash: 6c6ffd488dc903c2a1142727ce205975e27091b2
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 854cadb176bc79a8506ccff3c13a1e579eb43e85
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852514"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Talousraportoinnin valmisteleminen KP-raporttimallien ja tililuokkien avulla
 Saat KP-raporttimallien avulla tietoja tilikarttaan sisältyvistä kirjanpitotiedoista. KP-raporttimallit analysoivat kirjanpitotilien lukuja ja vertaavat pääkirjanpidon tapahtumia pääkirjanpidon budjettitapahtumiin. Tulokset näkyvät roolikeskuksen kaavioissa, kuten kassavirtakaaviossa, ja raporteissa, kuten Tuloslaskelma- ja Tase-raporteissa.
@@ -36,7 +36,7 @@ Voit myös vertailla KP-raporttimalleja ja sarakeasetteluja kaavojen avulla. Tä
 * määrittää useita raportin asetteluita sekä tulostaa raportit käyttäen nykyisiä lukuja.
 
 ## <a name="account-categories"></a>Tililuokat
-Tililuokkien avulla voit muuttaa rahoituslaskelmien asettelua. Kun olet määrittänyt tililuokat **KP-tilin luokat** -sivulla ja valinnut **Luo KP-raporttimallit** -toiminnon, tärkeimpien rahoituslaskelmien perustana olevat KP-raporttimallit päivitetään. Kun seuraavan kerran suoritat toisen näistä raporteista, esimerkiksi Tase-raportin, uudet kokonaissummat ja korvaustapahtumat lisätään muutosten perusteella. Lisätietoja on kohdan [Tietoja pääkirjanpidosta ja tilikartasta](finance-general-ledger.md) Tililuokat-osassa.  
+Tililuokkien avulla voit muuttaa rahoituslaskelmien asettelua. Kun olet määrittänyt tililuokat **KP-tilin luokat** -sivulla ja valinnut **Luo KP-raporttimallit** -toiminnon, tärkeimpien rahoituslaskelmien perustana olevat KP-raporttimallit päivitetään. Kun seuraavan kerran suoritat toisen näistä raporteista, esimerkiksi Tase-raportin, uudet kokonaissummat ja korvaustapahtumat lisätään muutosten perusteella. Lisätietoja on kohdassa [Tililuokat](finance-general-ledger.md#account-categories).  
 
 ## <a name="to-create-a-new-account-schedule"></a>Uuden KP-raporttimallin luominen  
 KP-raporttimallien käyttäminen kirjanpitotilien lukujen analysoimista varten tai pääkirjanpidon tapahtumien vertaamiseksi pääkirjanpidon budjettitapahtumiin. Voit esimerkiksi tarkastella KP-tapahtumien prosenttiosuuksia budjettitapahtumista.
@@ -50,7 +50,7 @@ KP-raporttimallien käyttäminen kirjanpitotilien lukujen analysoimista varten t
 3. Voit vaihtoehtoisesti valita **Kopioi KP-raporttimalli**-toiminnon, täyttää kaksi kenttä ja valitse lopuksi **OK**.
 4. Täytä tarvittavat kentät. Valitse **Sarakeasettelun oletusarvo** -kentässä aiemmin luotu asettelu. Voit muokata sitä tarvittaessa myöhemmin.
 
-    Sarakeasettelujen avulla voi määrittää sarakkeet eri parametrien avulla, taloustiedot näytetään riveillä näiden parametrien perusteella. Voit esimerkiksi suunnitella sarakeasettelun, jossa on neljä saraketta ja jonka avulla voit verrata nettomuutosta ja saldoa samalta kaudelta tältä ja edelliseltä vuodelta. Lisätietoja on kohdassa Sarakeasettelun muokkaaminen.
+    Sarakeasettelujen avulla voi määrittää sarakkeet eri parametrien avulla, taloustiedot näytetään riveillä näiden parametrien perusteella. Voit esimerkiksi suunnitella sarakeasettelun, jossa on neljä saraketta ja jonka avulla voit verrata nettomuutosta ja saldoa samalta kaudelta tältä ja edelliseltä vuodelta. Lisätietoja on kohdassa [Sarakeasettelun muokkaaminen](bi-how-work-account-schedule.md#to-edit-a-column-layout).
 
 5. Valitse **Muokkaa KP-raporttimallia** -toiminto.
 6. Luo kullekin sellaiselle taloushallinnon elementille rivi, jonka haluat nähdä raportissa. Voit esimerkiksi luoda yhden rivin nykyisille vastaaville ja toisen rivin käyttöomaisuudelle. Esimerkkejä on CRONUS-esittely-yrityksen KP-raporttimalleissa.
@@ -199,4 +199,3 @@ Jos haluat laskea tavallisten jaksojen mukaan, syötä kaava sen sijaan **Vertai
 [Rahoituksen määrittäminen](finance-setup-finance.md)  
 [Pääkirjanpito ja tilikartta](finance-general-ledger.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
-

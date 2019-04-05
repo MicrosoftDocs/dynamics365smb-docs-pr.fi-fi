@@ -1,6 +1,6 @@
 ---
-title: "Business Central -sovelluksen määritystehtävien yleiskatsaus | Microsoft Docs"
-description: "Tässä ohjeaiheessa kerrotaan tehtävistä, jolla Business Central asennetaan, alustetaan ja määritetään omia tarpeita vastaavaksi."
+title: Business Central -sovelluksen määritystehtävien yleiskatsaus | Microsoft Docs
+description: Tässä ohjeaiheessa kerrotaan tehtävistä, jolla Business Central asennetaan, alustetaan ja määritetään omia tarpeita vastaavaksi.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: configure, initialize
 ms.date: 10/01/2018
 ms.author: edupont
+ms.openlocfilehash: 3085ef58adf25ae7212ac17894fa54e5c2f8794e
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 2c766654faad241f57cd4a99648bb349e4258857
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852077"
 ---
 # <a name="setting-up-included365finincludesd365finmdmd"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen määrittäminen
 [!INCLUDE[d365fin](includes/d365fin_md.md)] sisältää vakiomääritykset useimmille liiketoimintaprosesseille. Voit muuttaa määritykset yrityksen tarpeita vastaaviksi.
@@ -40,7 +40,17 @@ Tietyt joko yleiset tai erityiset liiketoimintaprosessien toiminnot voidaan mä�
 | Määritä käyttöomaisuuden vakuuttaminen, kunnossapito ja poistot sekä tapa, jolla käyttöomaisuuden kustannukset kirjataan yrityskirjoihin. |[Käyttöomaisuuden määrittäminen](fa-setup.md) |
 |Määritä varastointiprosessien yleiset säännöt ja arvot sekä sijaintikohtainen käsittely.|[Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md)|
 |Valmistele tuotannon tuoterakenteet ja reititykset määrittämään loppunimikkeiden tuotantotapa. Valmistele myös kuormituskeskukset tai tuotantosolut suorittamaan tarvittavat toiminnot.|[Tuotannon määrittäminen](production-configure-production-processes.md)|
+|Muodosta vakiohuollot, oireet ja vikakoodit sekä määritä huoltonimikkeet, resurssit ja dokumentaatio, joiden avulla asiakkaille voidaan tarjota huoltoa.|[Huoltohallinnon määrittäminen](service-setup-service.md)|
 |Lisätietoja parhaista käytännöistä, kun nimikkeitä määritetään varaston arvostusta ja tuotantosuunnittelua varten.|[Monimutkaisten sovellusalueiden määrittäminen parhaiden käytäntöjen avulla](set-up-complex-application-areas-using-best-practices.md)|
+|Paranna toteutuksen laatua ja lyhennä käyttöönottoa käyttämällä työkaluja, jolla uusi yritys määritetään ohjattujen toimintojen, mallien, työkirjojen ja asiakaskyselyjen avulla.|[Yrityksen määrittäminen RapidStart Servicesin avulla](admin-set-up-a-company-with-rapidstart.md)|
+|Asiakas-, toimittaja-, varasto- ja pankkitilitietojen siirtäminen toisesta järjestelmästä [!INCLUDE[d365fin](includes/d365fin_md.md)]iin|[Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md).|
+|Voit tarkastella Business Centralin Outlook-apuohjelmien avulla asiakkaisiin ja toimittajiin liittyviä taloustietoja tai luoda ja lähettää talousasiakirjoja, kuten tarjouksia ja laskuja.|[Business Central -sovelluksen käyttäminen yrityssähköpostina Outlookissa](admin-outlook.md)|
+|Saat lisätietoja Business Central -tiedoista Power BI:n ja Business Centralin sisältöpakettien avulla.|[Yritystietojen ottaminen käyttöön Power BI:tä varten](admin-powerbi.md)|
+|Käytä Business Central -tietoja Microsoft Flow -työnkulun osana.|[Business Central -sovelluksen käyttäminen automaattisessa työnkulussa](across-how-use-financials-data-source-flow.md)|
+|Ota Business Central -tiedot käytötön PowerAppsin tietolähteenä.|[Yhteyden muodostaminen Business Central -tietoihin yrityssovelluksen luomista varten PowerApps-sovellusten avulla](across-how-use-financials-data-source-powerapps.md)|
+|Käytä erityisiä Quickbooksin siirto-oppaita.|[Vaihtaminen QuickBooks-sovelluksesta Business Centraliin](across-quickbooks-to-business-edition.md)|
+|Käytä Business Central -tietoja mobiililaitteella.|[Business Central -sovelluksen hakeminen mobiililaitteeseen](install-mobile-app.md)|
+|Massalaskuta Bookingsissa luodut tapaamiset.|[Microsoft Bookingsin massalaskutus](finance-bookings.md)|
 |[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman sisäisen ja ulkoisen sähköpostiviestinnän mahdollistavan SMTP-palvelimen määrittäminen| [Sähköpostin määrittäminen manuaalisesti tai asetusten ohjatun määrityksen käyttäminen](admin-how-setup-email.md)|
 | Määritä tietueille, kuten korteille, asiakirjoille ja päiväkirjan riville, yksilölliset tunnuskoodit, joilla tietueita voi seurata järjestelmässä. |[Numerosarjojen luominen](ui-create-number-series.md) |
 |Määritä ja liitä peruskalenteri yrityksellesi ja sen liiketoimintakumppaneille, esimerkiksi asiakkaille, toimittajille tai sijainneille. Toimituksen ja vastaanoton päivämäärät lasketaan tuleville myyntitilaus-, ostotilaus-, siirtotilaus- ja tuotantotilausriveille kalenteriin määritettyjen työpäivien mukaisesti.|[Peruskalenterien määrittäminen](across-how-to-assign-base-calendars.md)|  
@@ -64,5 +74,3 @@ Joidenkin alueiden edellytyksenä on, että käyttäjä on [!INCLUDE[d365fin](in
 [Käytön aloittaminen](product-get-started.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
-

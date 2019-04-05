@@ -1,8 +1,8 @@
 ---
-title: "Samaan organisaatioon kuuluvien yritysten keskinäiset tapahtumat| Microsoft Docs"
-description: "Voit yksinkertaistaa konsernitoiminnoilla samaan organisaatioon kuuluvien yritysten välisiä liiketoimintaprosesseja ja tapahtumia."
+title: Samaan organisaatioon kuuluvien yritysten keskinäiset tapahtumat| Microsoft Docs
+description: Voit yksinkertaistaa konsernitoiminnoilla samaan organisaatioon kuuluvien yritysten välisiä liiketoimintaprosesseja ja tapahtumia.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 10/01/2018
+ms.date: 03/18/2018
 ms.author: sgroespe
+ms.openlocfilehash: 1d707aeec37b3c6c0ee027d0266e9cc386fb5d3a
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8c68e4bd69c854ecd99cfb833c941066d9a805da
-ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852100"
 ---
 # <a name="managing-intercompany-transactions"></a>Konsernitapahtumien hallinta
 Organisaatio saattaa koostua useasta yrityksestä, mutta siinä ei välttämättä ole samaa määrää laskenta- ja hallintotyöryhmiä. Konsernitoimintojen ansiosta liiketoiminta tytäryhtiöiden ja sisäisten kumppaniorganisaatioiden on samanlaista kuin ulkoisten toimittajien ja asiakkaiden kanssa toimiminen. Konsernin tapahtumien tiedot lisätään asianmukaisiin asiakirjoihin vain kerran. Voit käyttää itsellesi tuttua toimintoa, esimerkiksi myyntisaamisten ja ostovelkojen hallintaa. Tilikartan ja dimensioiden linkitystoiminto auttaa varmistamaan, että tiedot näkyvät oikeissa paikoissa.  
@@ -35,7 +35,9 @@ Kun lisäät tapahtuman, yksittäisten tilijoukkojen tilejä ei tarvitse määri
 
  Kun olet määrittänyt liiketoimintakumppanit asiakkaiksi ja toimittajiksi järjestelmässä sekä luonut heille konsernikumppanin koodit, on mahdollista vaihtaa konsernin osto- ja myyntiasiakirjoja, kuten nimikkeitä ja nimikekuluja. Konsernitoiminto sallii konsernin tapahtumat eri tietokantojen välillä, esimerkiksi eri maissa ja eri alueilla, sekä eri valuutat, erilaiset tilikartat, eri dimensiot ja erilaiset nimikenumeroinnit.  
 
-Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aiheisiin.
+Kirjanpitotietojen konsolidoiminen voi olla erityisen tärkeää konsernin sisäisissä prosesseissa. Lisätietoja on kohdassa [Usean yrityksen kirjanpitotietojen konsolidoiminen](finance-consolidated-company-reporting.md).
+
+Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisiin.
 
  |Vastaanottaja |Katso|
  |---|---|
@@ -50,5 +52,3 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
-

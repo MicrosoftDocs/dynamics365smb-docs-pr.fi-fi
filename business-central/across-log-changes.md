@@ -1,6 +1,6 @@
 ---
-title: "Käyttäjätoimien seuraaminen muutoslokissa | Microsoft Docs"
-description: "Voit aktivoida käyttäjälokin niin, että saat historiatiedot kaikista seurattujen taulukoiden tietoihin tehdyistä muutoksista."
+title: Käyttäjätoimien seuraaminen muutoslokissa | Microsoft Docs
+description: Voit aktivoida käyttäjälokin niin, että saat historiatiedot kaikista seurattujen taulukoiden tietoihin tehdyistä muutoksista.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: user log, user activity, tracking
 ms.date: 11/14/2018
 ms.author: edupont
+ms.openlocfilehash: 2a71909faf66c13a0923a10bfc12369127642875
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 59afb06e9d43bdadc5ceacf563a9e6faf7439b7b
-ms.openlocfilehash: bc56e07a540c24f53b88651ad2b2ff5e1e56a571
-ms.contentlocale: fi-fi
-ms.lasthandoff: 12/05/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852882"
 ---
 # <a name="auditing-changes-in-business-central"></a>Business Centralin tilintarkastuksen muutokset
 
@@ -41,7 +41,6 @@ Kun olet määrittänyt muutoslokin, aktivoinut sen ja muuttanut tietoja, voit t
 ## <a name="see-also"></a>Katso myös
 [Perusasetusten muuttaminen](ui-change-basic-settings.md)  
 [Lajittelu](ui-sorting.md)  
-[Etsi sivua tai raporttia -toiminnon käyttäminen](ui-search.md)  
+[Kerro, mitä haluat tehdä -toiminnon käyttäminen toimintojen ja tietojen etsimisessä](ui-search.md)  
 [Käyttäjien ja käyttöoikeuksien hallinta](ui-how-users-permissions.md)    
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
-

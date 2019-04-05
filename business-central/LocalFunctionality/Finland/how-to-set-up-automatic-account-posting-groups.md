@@ -1,23 +1,23 @@
 ---
-title: "Automaattisten tilin kirjausryhmien määrittäminen"
-description: "Voit käyttää automaattisia tilikoodeja automaattisen tilin kirjausryhmän luonnin jälkeen."
+title: Automaattisten tilin kirjausryhmien määrittäminen
+description: Voit käyttää automaattisia tilikoodeja automaattisen tilin kirjausryhmän luonnin jälkeen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 45415e51baad649c04d27445d457919ddbea395c
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 761368f36c0ae0f271ef335d54fa880eecf398d8
-ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826601"
 ---
 # <a name="set-up-automatic-account-posting-groups"></a>Automaattisten tilin kirjausryhmien määrittäminen
 Voit käyttää automaattisia tilikoodeja automaattisen tilin kirjausryhmän luonnin jälkeen.  
@@ -49,4 +49,3 @@ Voit käyttää automaattisia tilikoodeja automaattisen tilin kirjausryhmän luo
  [Automaattiset tilikoodit](automatic-account-codes.md)   
  [Kirjausryhmien määrittäminen](../../finance-posting-groups.md)  
  [Rahoitus](../../finance.md)
-

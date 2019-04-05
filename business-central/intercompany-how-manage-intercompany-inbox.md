@@ -1,8 +1,8 @@
 ---
-title: "Saapuvien ja lähtevien konsernitapahtumien käsitteleminen| Microsoft Docs"
-description: "Konsernikumppaneilta vastaanotetut konsernitapahtumat näkyvät konsernin Saapuneet-kansiossa, jossa voit käsitellä niitä manuaalisesti tai automaattisesti."
+title: Saapuvien ja lähtevien konsernitapahtumien käsitteleminen| Microsoft Docs
+description: Konsernikumppaneilta vastaanotetut konsernitapahtumat näkyvät konsernin Saapuneet-kansiossa, jossa voit käsitellä niitä manuaalisesti tai automaattisesti.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: incoming document
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: c7bf0c1c22d2f43220d9b101a1a54757add900e9
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 8432eea92738682bbdab55f8c3f6dae16f401149
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "853279"
 ---
 # <a name="manage-the-intercompany-inbox-and-outbox"></a>Konsernin Saapuneet- ja Lähtevät-kansion hallinta
 Kaikki konsernikumppaneilta sähköisesti vastaanotetut konsernitapahtumat näkyvät konsernin Saapuneet-kansiossa.  
@@ -43,7 +43,7 @@ Voit suodattaa **Näytä tapahtuman lähde** -kentän avulla **Konsernin Saapune
 #### <a name="returned-from-intercompany-partner"></a>Konsernikumppanin palauttama  
  Jos konsernikumppani hylkää tapahtuman, ainoa mahdollinen vaihtoehto on tapahtuman peruuttaminen Saapuneet-kansiossa. Tämän jälkeen sinun täytyy luoda korjausrivejä tai peruuttaa päiväkirja tai asiakirja omassa yrityksessä.  
 
-## <a name="re-creating-inbox-entries"></a>Saapuneet-kansion tapahtumien luominen uudelleen  
+## <a name="recreating-inbox-entries"></a>Saapuneet-kansion tapahtumien luominen uudelleen  
  Jos olet hyväksynyt tapahtuman Saapuneet-kansiossa ja kirjaamisen asemesta poistanut asiakirjan tai päiväkirjan, voit luoda tapahtuman uudelleen Saapuneet-kansioon ja hyväksyä sen toistamiseen.  
 
 ## <a name="getting-an-overview-of-intercompany-transactions-for-a-period"></a>Konsernin tapahtumien jaksokohtaisen yleiskuvauksen tarkasteleminen  
@@ -105,4 +105,3 @@ Seuraavissa ohjeissa neuvotaan, kuinka Saapuneet-kansion tapahtumia voi luoda uu
 [Rahoituksen määrittäminen](finance-setup-finance.md)  
 [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

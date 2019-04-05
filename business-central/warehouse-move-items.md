@@ -1,34 +1,36 @@
 ---
-title: "Nimikkeiden siirtäminen | Microsoft Docs"
-description: "Varaston nimikkeitä pitää joskus siirtää varastopaikasta toiseen päivittäisten varastotapahtumien ja varaston nimikevirran tukemiseksi. Jotkut liikkeet tapahtuvat suorassa suhteessa sisäisiin toimintoihin, kuten tuotantotilaus, jonka komponentit täytyy toimittaa tai lopulliset nimikkeet hyllyttää. Muut siirrot tapahtuvat vain fyysisen varastoinnin tilan optimointina tai ad-hoc-siirtoina toimintoihin ja toiminnoista."
+title: Nimikkeiden siirtäminen | Microsoft Docs
+description: Varaston nimikkeitä pitää joskus siirtää varastopaikasta toiseen päivittäisten varastotapahtumien ja varaston nimikevirran tukemiseksi. Jotkut liikkeet tapahtuvat suorassa suhteessa sisäisiin toimintoihin, kuten tuotantotilaus, jonka komponentit täytyy toimittaa tai lopulliset nimikkeet hyllyttää. Muut siirrot tapahtuvat vain fyysisen varastoinnin tilan optimointina tai ad-hoc-siirtoina toimintoihin ja toiminnoista.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 383a6e6fae8c197bd8df845d212aa80f0b70fea6
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6efb709151ea98b5c8d89d67138b52bac5751c56
-ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852560"
 ---
 # <a name="moving-items"></a>Nimikkeiden siirtäminen
 Nimikkeiden siirtäminen fyysisessä varastossa on varastotoiminto, joka suoritetaan eri tavoilla sen mukaan, miten varastoinninhallintajärjestelmän ominaisuudet on määritetty. Määritysten monimutkaisuus voi vaihdella: ominaisuusluettelossa ei ole varastotoimintoja lainkaan, tilauskohtaisessa fyysisen varastoinnin perusmäärityksissä käsittelytoimintoja on vain muutama toiminto, kun laajennetuissa varastomäärityksissä kaikki varastotoiminnot tehdään ohjatun työnkulun mukaisesti. Lisätietoja on kohdassa [Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md).
 
-Nimikkeitä on ehkä siirrettävä samassa fyysisessä varastosijainnissa varastopaikasta toiseen päivittäisten varastotapahtumien ja varaston nimikevirran tukemiseksi. Jotkut liikkeet tapahtuvat suorassa suhteessa sisäisiin toimintoihin, kuten tuotantotilaus, jonka komponentit täytyy toimittaa tai lopulliset nimikkeet hyllyttää. Muut siirrot tapahtuvat fyysisen varastoinnin tilan optimointina tai suunnittelemattomina siirtoina toimintoihin ja toiminnoista pois.
+Nimikkeitä on ehkä siirrettävä samassa fyysisessä varastosijainnissa varastopaikasta toiseen päivittäisten varastotapahtumien ja varaston nimikevirran tukemiseksi. Jotkut liikkeet tapahtuvat suorassa suhteessa sisäisiin toimintoihin, kuten tuotantotilaus, jonka komponentit täytyy toimittaa tai lopulliset nimikkeet hyllyttää. Muut siirrot tapahtuvat vain fyysisen varastoinnin tilan optimointina tai ad-hoc-siirtoina toimintoihin ja toiminnoista.
+
+Muita siirtotehtäviä ovat poiminnan tai tuotannon varastopaikkojen kausittainen täydennys sekä varastopaikan sisällön muuttaminen.
 
 Nimikkeiden siirtäminen toiseen sijaintiin vaikuttaa nimiketapahtumiin, joten ne on tehtävä siirtotilauksen avulla. Lisätietoja on kohdassa [Varastonimikkeiden siirtäminen sijantien välillä](inventory-how-transfer-between-locations.md).  
 
-Muita siirtotehtäviä ovat poiminnan tai tuotannon varastopaikkojen kausittainen täydennys sekä varastopaikan sisällön muuttaminen.  
+Varastoon liittyvät tehtävät (nimikkeiden inventointi, muuttaminen ja uudelleenluokittelu) voivat koskea varastointitehtäviä, jotka on suoritettava varastotapahtumissa, ennen kuin ne voidaan synkronoida liittyviin nimiketapahtumiin. Lisätietoja on kohdassa [Varaston laskeminen, muuttaminen ja uudelleenluokitus](inventory-how-count-adjust-reclassify.md)  
 
- Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aiheisiin.   
+ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisiin.   
 
 |**Tehtävä**|**Katso**|  
 |------------|-------------|  
@@ -46,4 +48,3 @@ Muita siirtotehtäviä ovat poiminnan tai tuotannon varastopaikkojen kausittaine
 [Kokoonpanon hallinta](assembly-assemble-items.md)    
 [Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

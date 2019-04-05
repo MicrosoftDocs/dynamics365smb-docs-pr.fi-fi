@@ -1,6 +1,6 @@
 ---
-title: "Tietojen kopioiminen ja liittäminen"
-description: "Kopioi kentät ja rivit Business Central -sivuilta ja liitä ne toisaalle."
+title: Tietojen kopioiminen ja liittäminen
+description: Kopioi kentät ja rivit Business Central -sivuilta ja liitä ne toisaalle.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,15 +10,14 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: 6f731940714a754275611026749afa4d79a94443
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e924eeb10e98b81035837ca498ec4f1a7b28bf60
-ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "853069"
 ---
-
-# <a name="copying-and-pasting-in-included365finincludesd365finmdmd"></a>Kopioiminen ja liittäminen [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksessa
+# <a name="copying-and-pasting"></a>Kopioiminen ja liittäminen
 Voit kopioida yhden rivin tai useita rivejä luettelosta tai yhden kentän sivulta ja liittää kopioidut kohteet samalle sivulle, toiselle sivulle tai ulkoiseen asiakirjaan (kuten Microsoft Excel -asiakirjaan tai Outlook-sähköpostiin). Jos haluat kopioida, paina näppäimiä CTRL+C (cmd+C macOS-käyttöjärjestelmässä). Jos haluat liittää, paina näppäimiä CTRL+V (cmd+V macOS-käyttöjärjestelmässä).
 
 Kopioimiseen ja liittämiseen on useita muita pikanäppäimiä nopeaa tietojen syöttämistä varten. Lisätietoja on kohdassa [Pikanäppäimet](keyboard-shortcuts.md#CopyRows).
@@ -43,7 +42,7 @@ Valitse tyhjä rivi ja paina näppäimiä Crtl+V. Jos haluat korvata olemassa ol
 
 <!-- Rows are pasted directly where your cursor is located. If you paste into an empty line, any existing subsequent lines will be moved after the pasted lines. If you paste into an existing line or lines, this will be overwritten.-->
 
-## <a name="can-i-paste-rows-into-an-outlook-email-or-onenote"></a>Voinko liittää rivejä Outlook-sähköpostiviestiin tai OneNote-asiakirjaan?
+## <a name="can-i-paste-rows-into-an-outlook-email-or-onenote"></a>Voinko liittää rivejä Outlook-sähköpostiviestiin tai OneNoteen?
 Kyllä. Tämä liitetään muotoiltuna taulukkona, joka säilyttää [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksessa nähnyt sisennykset, numeerisen tasauksen ja värit.
 
 ## <a name="does-copy-and-paste-work-with-tiles"></a>Voiko kopioimista ja liittämistä käyttää ruutujen kanssa?
@@ -72,4 +71,3 @@ Jos liittäminen tehdään [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluk
 [Käytön aloittaminen](product-get-started.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Usein kysytyt kysymykset](across-faq.md)  
-

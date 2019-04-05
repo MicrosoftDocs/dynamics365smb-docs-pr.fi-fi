@@ -1,6 +1,6 @@
 ---
-title: "Konsernitapahtuman kirjauksen määrittäminen| Microsoft Docs"
-description: "Luo konsernitoimittajat ja -asiakkaat konsernikumppaneina ja määritä konsernin tilikartta."
+title: Konsernitapahtuman kirjauksen määrittäminen| Microsoft Docs
+description: Luo konsernitoimittajat ja -asiakkaat konsernikumppaneina ja määritä konsernin tilikartta.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 10/01/2018
+ms.date: 03/11/2019
 ms.author: sgroespe
+ms.openlocfilehash: a549dd926894e8c14a5f57437ca9402e2ddde5d1
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 7d6e72ed68f2ab28ebd4daef423304a945a719ed
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852537"
 ---
 # <a name="set-up-intercompany"></a>Konsernin tietojen määrittäminen
 Jos haluat lähettää yhdestä yrityksestä tapahtuman (kuten myyntipäiväkirjan rivin), jolle luodaan automaattisesti vastaava tapahtuma (kuten ostopäiväkirjan rivi) kumppaniyrityksessä, yrityksillä on oltava yhteinen tilikartta ja dimensiojoukko konsernin tapahtumia varten. Konsernin tilikartta voi olla esimerkiksi pääyrityksen tilikartan yksinkertaistettu versio. Jokainen yritys määrittää oman tilikarttansa vastaavuuden konsernin jaetun tilikartan kanssa ja myös omien dimensioidensa vastaavuuden konsernin dimensioiden kanssa.  
@@ -24,7 +24,7 @@ Jokaiselle kumppaniyritykselle on myös määritettävä konsernikumppanin koodi
 
 Jos luot tai vastaanotat konsernin rivejä, joissa on nimikkeitä, voit joko käyttää omia nimikenumeroja tai määrittää kumppanin nimikenumerot kullekin soveltuvalle nimikkeelle. Nimikenumeron voi määrittää joko nimikkeen kortin **Toimittajan nimikenro**- tai **Yleinen nimikenro** -kenttään. Voit käyttää myös **Nimikeviittaus**-toimintoa: Voit linkittää nimikenumerot nimikkeiden konsernikumppanien kuvauksiin avaamalla kunkin nimikkeen kortin, valitsemalla **Viittaukset**-toiminnon ja määrittämällä sitten nimikkeen ja konsernikumppanin kuvausten väliset viittaukset.  
 
-Jos suorittamiisi konsernin myyntitapahtumiin sisältyy resursseja, täytä kunkin asiaankuuluvan resurssin kortin **Kons.kump. oston KP-tilinro** -kenttä. Tämä on konsernin kirjanpitotilin numero, jolle tämän resurssin summa kirjataan kumppaniyrityksessä. Lisätietoja on ohjeaiheessa  
+Jos suorittamiisi konsernin myyntitapahtumiin sisältyy resursseja, täytä kunkin asiaankuuluvan resurssin kortin **Kons.kump. oston KP-tilinro** -kenttä. Tämä on konsernin kirjanpitotilin numero, jolle tämän resurssin summa kirjataan kumppaniyrityksessä. Lisätietoja on kohdassa [Resurssien määrittäminen](projects-how-setup-resources.md).
 
 ## <a name="to-set-up-companies-for-intercompany-transactions"></a>Konsernitapahtumien yritysten määrittäminen
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Yrityksen tiedot** ja valitse sitten liittyvä linkki.  
@@ -45,9 +45,9 @@ Jos suorittamiisi konsernin myyntitapahtumiin sisältyy resursseja, täytä kunk
 ## <a name="to-set-up-intercompany-charts-of-accounts"></a>Konsernin tilikartan määrittäminen
 Konsernikumppanien väliset tapahtumat ovat mahdollisia vasta, kun konsernikumppanit ovat sopineet yhteisestä tilikartasta. Käyttäjän täytyy sopia konsernikumppanien kanssa tilinumeroista, joita kaikki osapuolet käyttävät konsernin tapahtumia luotaessa. Konsernin emoyritys voi esimerkiksi luoda yksinkertaistetun version omasta tilikartastaan, viedä kyseisen tilikartan tietokannasta XML-tiedostoon ja jakaa sen muille konsernin yrityksille.  
 
-Jos oma yritys on emoyhtiö ja sen tarkoitus määrittää konsernin viitekehyksenä käyttämä konsernin tilikartta, noudata kohdan Konsernin tilikartan määrittäminen ohjeita.  
+Jos oma yritys on emoyhtiö ja sen tarkoitus oin määrittää konsernin viitekehyksenä käyttämä konsernin tilikartta, noudata kohdan [Konsernin tilikartan määrittäminen](intercompany-how-setup.md#to-set-up-the-defining-intercompany-chart-of-accounts) ohjeita.  
 
-Jos oma yritys on tytäryhtiö ja olet vastaanottanut konsernin yleisen tilikartan XML-tiedostona, noudata kohdan Konsernin tilikartan tuominen ohjeita.  
+Jos oma yritys on tytäryhtiö, ja olet vastaanottanut konsernin yleisen tilikartan XML-tiedostona, noudata kohdan [Konsernin tilikartan tuominen](intercompany-how-setup.md#to-import-the-intercompany-chart-of-accounts) ohjeita.  
 
 ### <a name="to-set-up-the-defining-intercompany-chart-of-accounts"></a>Määrittävän konsernin tilikartan määrittäminen
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Konsernin tilikartta** ja valitse sitten liittyvä linkki.
@@ -84,17 +84,17 @@ Kun lisäät kirjanpitotilin **Vastatilin nro** -kenttään sille konsernin rivi
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tilikartta** ja valitse sitten liittyvä linkki.  
 2. Anna konsernitapahtumissa käytettävän KP-tilin rivin **Konsernikumppanin KP-oletustili** -kentässä konsernin kirjanpitotili, jonka kumppani kirjaa kun kirjaat KP-tilin riville.  
-3. Toista vaihe 3 kaikkien sellaisten tilien osalta, joita lisäät usein konsernin päiväkirjan tai asiakirjan riville **Vastatilin nro** -kenttään.
+3. Toista vaihe 2 kaikkien sellaisten tilien osalta, joita lisäät usein konsernin päiväkirjan tai asiakirjan riville **Vastatilin nro** -kenttään.
 
 ## <a name="to-set-up-intercompany-dimensions"></a>Konsernin dimensioiden määrittäminen
 Jos oman yrityksen ja konsernikumppanien välillä halutaan siirtää tapahtumia, joihin on linkitetty dimensioita, kaikkien on hyväksyttävä käytettävät dimensiot. Konsernin emoyritys voi esimerkiksi luoda yksinkertaistetun version omasta dimensiojoukostaan, viedä kyseiset konsernin dimensiot XML-tiedostoon ja jakaa tiedoston muille konsernin yrityksille. Jokainen tytäryhtiö tuo tämän jälkeen XML-tiedoston **Konsernin dimensiot** -sivulle ja linkittää konsernin dimensiot oman **Dimensiot**-sivunsa dimensioihin.  
 
-Jos oma yritys on emoyhtiö ja sen on tarkoitus määrittää konsernin viitekehyksenä käyttämä konsernin dimensiojoukko, noudata kohdan Konsernin dimensioiden määrittäminen ohjeita.
+Jos oma yritys on emoyhtiö ja sen on tarkoitus määrittää konsernin viitekehyksenä käyttämä konsernin dimensiojoukko, noudata kohdan [Konsernin dimensioiden määrittäminen](intercompany-how-setup.md#to-define-the-intercompany-dimensions) ohjeita.
 
-Jos oma yritys on tytäryhtiö ja on vastaanottanut konsernin viitekehyksenä käytettävät konsernin dimensiot, noudata kohdan Konsernin dimensioiden tuominen ohjeita.
+Jos oma yritys on tytäryhtiö, ja olet vastaanottanut konsernin viitekehyksenä käytettävät konsernin dimensiot, noudata kohdan [Konsernin dimensioiden tuominen](intercompany-how-setup.md#to-import-the-intercompany-dimensions) ohjeita.
 
 ### <a name="to-define-the-intercompany-dimensions"></a>Konsernin dimensioiden määrittäminen
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Konsernin dimensiot** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Konsernin dimensiot** ja valitse sitten liittyvä linkki.  
 2. Lisää **Konsernin dimensiot** -sivulla kukin dimensio sivun riville.
 
     Jos konsernin dimensiot muistuttavat läheisesti yrityksen omia dimensioita, voit täyttää sivun automaattisesti valitsemalla **Kopioi dimensioista** -toiminnon. Rivejä voi tämän jälkeen muokata.  
@@ -133,4 +133,3 @@ Jos konsernin dimensioilla on samoja koodeja kuin yrityksen dimensioluettelon va
 [Rahoituksen määrittäminen](finance-setup-finance.md)  
 [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

@@ -1,8 +1,8 @@
 ---
-title: "Liiketoiminta-alueiden välillä käytettävät yleiset toiminnot | Microsoft Docs"
-description: "Tutustu Business Central -sovelluksen liiketoiminta-alueiden välillä käytettäviin toimintoihin ja ominaisuuksiin."
+title: Liiketoiminta-alueiden välillä käytettävät yleiset toiminnot | Microsoft Docs
+description: Tutustu Business Central -sovelluksen liiketoiminta-alueiden välillä käytettäviin toimintoihin ja ominaisuuksiin.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,19 +10,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.date: 11/21/2018
+ms.date: 03/13/2019
 ms.author: sgroespe
+ms.openlocfilehash: ac385409d72fea4ee43f7549a86da3516a299608
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
-ms.openlocfilehash: 6a42e8039d4b13deac72caf178f67113e582ed36
-ms.contentlocale: fi-fi
-ms.lasthandoff: 12/11/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "853092"
 ---
 # <a name="general-business-functionality"></a>Yleiset liiketoimintatoiminnot
 [!INCLUDE[d365fin](includes/d365fin_md.md)] sisältää omat toiminnot tavallisille liiketoiminta-alueille, kuten rahoitus ja myynti. Lisätietoja on kohdassa [Liiketoiminnan toiminnallisuus](across-business-functionality.md).
 
 Voit käyttää liiketoiminta-aluekohtaisten tehtävien tukena erilaisia yleisiä liiketoimintatoimintoja, kuten lisätekstin määrittämistä asiakirjariveille ja liittyvien liiketoimintatehtävien järjestämistä työnkuluiksi.
+
+> [!NOTE]
+> Tässä osassa kuvattujen liiketoimintatoimintojen lisäksi voit käyttää järjestelmää muilla yleisillä käyttöliittymän toiminnoilla. Lisätietoja on kohdassa [Business Centralin käyttäminen](ui-work-product.md).
 
 Seuraava taulukko sisältää nämä yleiset liiketoiminta-alueet ja linkit niitä kuvaaviin ohjeaiheisiin.
 
@@ -35,7 +38,10 @@ Seuraava taulukko sisältää nämä yleiset liiketoiminta-alueet ja linkit niit
 | Määritä vakiotekstikoodit, jotta voit laajentaa vakiotekstiä lisäämällä rivejä, ja määritä lisärivien käytön ehdot. |[Laajennetun nimiketekstin lisääminen](ui-how-define-ext-text.md) |
 |Luo tehtäviä, jotka muistuttavat sinua tekemättömistä töistä. Voit luoda tehtäviä itsellesi, mutta voit määrittää tehtäviä myös muille. Samoin joku toinen käyttäjä organisaatiossa voi määrittää tehtäviä sinulle.|[Käyttäjätehtävien määrittäminen](across-user-tasks.md)|
 |Voit liittää kuvia, asiakirjoja ja muita tiedostotyyppejä kaikkiin kortteihin, kuten nimike- ja työkorttiin. Voit liittää tiedostoja myös kaiken tyyppisiin myynti- ja ostoasiakirjoihin.|[Tiedostojen liittäminen kortteihin ja asiakirjoihin](across-attach-document-master-data.md)|
-|Käsittele Business Central -tietoja Excelissä.|[Liiketoimintatietojen vienti Exceliin](about-export-data.md)| 
+|Käsittele Business Central -tietoja Excelissä.|[Liiketoimintatietojen vienti Exceliin](about-export-data.md)|
+|Selvitä, mitä tapahtuu, kun valitset **Kirjaa**-toiminnon.|[Asiakirjojen ja päiväkirjojen kirjaaminen](ui-post-documents-journals.md)|
+|Saat lisätietoja yleisten päiväkirjojen käyttämisestä. Niitä käytetään tehtäessä kirjauksia kirjanpitotileille sekä muille tileille, kuten pankki-, asiakas-, toimittaja- ja käyttöomaisuustileille. |[Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md) |
+| Voit aikatauluttaa raportin suorituksen tietylle päivämäärälle ja kellonajalle. |[Suoritettavan raportin aikatauluttaminen](ui-work-report.md#ScheduleReport) |
 |Järjestelmän avulla tehtävät voi suorittaa nopeammin ja tarkemmin niin, että kentät tai rivit täytetään tiedoilla, jotka muussa tapauksessa olisi laskettava ja syötettävä manuaalisesti.|[Business Central -sovelluksen arvoehdotusten salliminen](ui-let-system-suggest-values.md)|
 |Kirjaa ulkoiset asiakirjat liitteineen ja luo sitten manuaalisesti liittyvät asiakirjat tai muunna tiedostot automaattisesti sähköisiksi asiakirjoiksi.|[Saapuvat asiakirjat](across-income-documents.md)|
 |Voit määrittää ja käyttää työnkulkuja, jotka yhdistävät eri käyttäjien tai järjestelmän suorittamia tehtäviä, kuten automaattisia kirjauksia. Uusien asiakirjojen luontiin ja kirjaukseen liittyvien hyväksyntöjen pyytäminen ja antaminen ovat tyypillisiä työnkulun osavaiheita.|[Työnkulku](across-workflow.md)|
@@ -46,4 +52,3 @@ Seuraava taulukko sisältää nämä yleiset liiketoiminta-alueet ja linkit niit
 [Hallinta](admin-setup-and-administration.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

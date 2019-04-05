@@ -4,14 +4,14 @@
     <Node Name="" DisplayName="Yritystoimintojen yleiskatsaus" Page="across-business-functionality.html"/>
     <Node Name="" DisplayName="Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä" Page="upload-data.html"/>
     <Node Name="" DisplayName="Business Central -sovelluksen hakeminen mobiililaitteeseen" Page="install-mobile-app.html"/>
-    <Node Name="" DisplayName="Synkronoiminen Microsoft Outlookin kontaktien kanssa" Page="admin-synchronize-outlook-contacts.html"/>
+    <Node Name="" DisplayName="Kontaktien synkronointi Microsoft Outlookissa" Page="admin-synchronize-outlook-contacts.html"/>
     <Node Name="" DisplayName="Business Central -sovelluksen käyttäminen yrityssähköpostina Outlookissa" Page="admin-outlook.html"/>
     <Node Name="" DisplayName="Yritystietojen ottaminen käyttöön Power BI:tä varten" Page="admin-powerbi.html"/>
-    <Node Name="" DisplayName="Business Central -sovelluksen käyttäminen Power BI -tietolähteenä" Page="across-how-use-financials-data-source-powerbi.html"/>
+    <Node Name="" DisplayName="Business Centralin käyttäminen Power BI -tietolähteenä" Page="across-how-use-financials-data-source-powerbi.html"/>
     <Node Name="" DisplayName="Business Central -sovelluksen mukauttaminen laajennusten avulla" Page="ui-extensions.html"/>
   </Node>
   <Node Name="" DisplayName="Vihjeet ja vinkit" Page="ui-work-product.html">
-    <Node Name="" DisplayName="Business Central -sovelluksen käyttäminen" Page="ui-work-product.html"/>
+    <Node Name="" DisplayName="Business Centralin käyttäminen" Page="ui-work-product.html"/>
     <Node Name="" DisplayName="Etsi sivua tai raporttia -toiminnon käyttäminen" Page="ui-search.html"/>
     <Node Name="" DisplayName="Perusasetusten muuttaminen" Page="ui-change-basic-settings.html"/>
     <Node Name="" DisplayName="Toimintaohje: Roolikeskuksen vaihtaminen" Page="change-role.html"/>
@@ -278,7 +278,7 @@
     <Node Name="" DisplayName="Segmenttien hallinta" Page="marketing-segments.html"/>
     <Node Name="" DisplayName="Vuorovaikutusten tallentaminen" Page="marketing-interactions.html"/>
     <Node Name="" DisplayName="Myyntimahdollisuuksien hallinta" Page="marketing-manage-sales-opportunities.html"/>
-    <Node Name="" DisplayName="Dynamics 365 for Sales -sovelluksessa luotujen asiakkaiden ja myynnin hallinta" Page="marketing-integrate-dynamicscrm.html"/>
+    <Node Name="" DisplayName="Dynamics 365 for Salesissa luotujen asiakkaiden ja myynnin hallinta" Page="marketing-integrate-dynamicscrm.html"/>
   </Node>
   <Node Name="" DisplayName="Henkilöstöhallinto" Page="hr-manage-human-resources.html">
     <Node Name="" DisplayName="Toimintaohje: Työntekijöiden rekisteröinti" Page="hr-how-register-employees.html"/>
@@ -341,7 +341,7 @@
     <Node Name="" DisplayName="Raporttien ja asiakirjojen asettelujen hallinta" Page="ui-manage-report-layouts.html"/>
     <Node Name="" DisplayName="Business Central -sovelluksen muutosten kirjaaminen lokiin" Page="across-log-changes.html"/>
     <Node Name="" DisplayName="Toimintaohje: Käyttäjien ja käyttöoikeuksien hallinta" Page="ui-how-users-permissions.html"/>
-    <Node Name="" DisplayName="Business Central -sovelluksen mukauttaminen laajennusten avulla" Page="ui-extensions.html"/>
+    <Node Name="" DisplayName="Business Centralin mukauttaminen laajennusten avulla" Page="ui-extensions.html"/>
     <Node Name="" DisplayName="Saapuvat asiakirjat" Page="across-income-documents.html">
       <Node Name="" DisplayName="Toimintaohje: Saapuvien asiakirjojen määrittäminen" Page="across-how-setup-income-documents.html"/>
       <Node Name="" DisplayName="Saapuvien asiakirjojen käsitteleminen" Page="across-process-income-documents.html"/>

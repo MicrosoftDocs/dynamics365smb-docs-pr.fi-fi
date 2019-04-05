@@ -1,8 +1,8 @@
 ---
 title: Taloushallinto| Microsoft Docs
-description: "Lisätietoja tehtävistä, joilla määritetään liiketoiminnan taloushallinto laskentatoimen, tilintarkastuksen tai kirjanpidon tarpeita varten."
+description: Lisätietoja tehtävistä, joilla määritetään liiketoiminnan taloushallinto laskentatoimen, tilintarkastuksen tai kirjanpidon tarpeita varten.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 10/01/2018
+ms.date: 03/11/2019
 ms.author: edupont
+ms.openlocfilehash: d095e710d33882cc39772c35a495b39e08e0c729
+ms.sourcegitcommit: 2b2c3b488a610a5d3b51fc8218c40b0b732fddf3
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: e4cda1f4770117065d1650a0c51dbd46fdf8baac
-ms.contentlocale: fi-fi
-ms.lasthandoff: 05/17/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "832526"
 ---
 # <a name="finance"></a>Rahoitus
 [!INCLUDE[d365fin](includes/d365fin_md.md)] sisältää useimpien taloushallinnon prosessien vakiomäärityksen. Voit muuttaa määritystä omaa liiketoimintaasi vastaavaksi. Lisätietoja on kohdassa [Rahoituksen määrittäminen](finance-setup-finance.md).
@@ -33,7 +33,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 |Saat asiakkaat lähettämään maksun ennen toimitusta tai lähetät itse maksun toimittajille, ennen kuin he toimittavat sinulle.|[Ennakkomaksujen laskuttaminen](finance-invoice-prepayments.md)|
 | Täsmäytä pankkitilejä ja siirrä varoja pankkitilien välillä. |[Pankkitilien hallinta](bank-manage-bank-accounts.md) |
 |Määritä konsernikumppanit ja käsittele tapahtumat manuaalisesti tai automaattisesti samaan yhtiöön kuuluvien yritysten välillä.|[Konsernitapahtumien hallinta](intercompany-manage.md)|
-|Yhdistää useiden yritysten pääkirjanpidon tapahtumat yhteen virtuaaliseen konsolidoituun yritykseen talousanalyysiä varten.|[Usean yrityksen kirjanpitotietojen konsolidoiminen](finance-consolidated-company-reporting.md)|
+|Yhdistä useiden yritysten pääkirjanpidon tapahtumat yhteen virtuaaliseen konsolidoituun yritykseen talousanalyysia varten.|[Usean yrityksen kirjanpitotietojen konsolidoiminen](finance-consolidated-company-reporting.md)|
 |Analysoi liiketoiminnan kustannuksia kohdistamalla toimintojen, osastojen, toimintojen ja projektien toteutuneet ja budjetoidut kustannukset kustannuspaikkoihin.|[Kustannuslaskenta](finance-manage-cost-accounting.md)|
 |Varaston ja tuotannon kustannusten hallinta, kustannusten raportointi ja kustannusten täsmäyttäminen pääkirjanpitoon.|[Varaston kustannusten hallinta](finance-manage-inventory-costs.md)|
 | Tietoja pääkirjanpidosta ja tilikartasta. |[Pääkirjanpito ja aitoustodistus](finance-general-ledger.md) |
@@ -58,10 +58,8 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 [Osto](purchasing-manage-purchasing.md)  
 [Kirjanpitokausien sulkeminen](year-close-years-periods.md)  
 [Projektien hallinta](projects-manage-projects.md)    
-[Tietojen tuominen muita talousjärjestelmistä](across-import-data-configuration-packages.md)(across-import-data-configuration-packages.md)  
+[Tietojen tuominen muita talousjärjestelmistä](across-import-data-configuration-packages.md)  
 [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
-

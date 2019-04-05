@@ -1,8 +1,8 @@
 ---
-title: "Raportin suorituksen ajoittaminen tietylle päivämäärälle ja kellonajalle | Microsoft Docs"
-description: "Tutustu, miten raportti lisätään työjonoon ja ajoitetaan käsiteltäväksi tiettynä päivänä ja tiettyyn kellonaikaan."
+title: Raportin suorituksen ajoittaminen tietylle päivämäärälle ja kellonajalle | Microsoft Docs
+description: Tutustu, miten raportti lisätään työjonoon ja ajoitetaan käsiteltäväksi tiettynä päivänä ja tiettyyn kellonaikaan.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,23 +12,32 @@ ms.workload: na
 ms.search.keywords: task, process, report
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: 98d51b10d3ca415a463b58405cb3c4f2449b75ad
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 706464cf1b9a264f7575156c7835540ce3c254b0
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852422"
 ---
-# <a name="working-with-reports"></a>Raporttien käsittely
+# <a name="working-with-reports-and-batch-jobs"></a>Raporttien ja eräajojen käsitteleminen
 Raportti kerää tietoja määritettyjen ehtojen perusteella. Tiedot järjestetään raporttiin helposti luettavassa ja tulostettavassa muodossa. Sovelluksesta voi käyttää monenlaisia raportteja. Raporteissa on yleensä avattuna olevan sivun sisältöön liittyviä tietoja. Esimerkiksi **Asiakas**-sivun raportit koskevat 10 suurinta asiakasta, myyntitilastoja jne.
+
+Eräajot toimivat käytännössä samalla tavoin kuin raportit, mutta niiden tarkoitus on suorittaa prosessi. Esimerkiksi **Luo muistutukset** -erätyö luo muistutusasiakirjoja asiakkaille, joilla on erääntyneitä maksuja.  
+
+> [!NOTE]
+> Tässä ohjeaiheessa viitataan pääsiassa raportteihin, mutta vastaavat tiedot koskevat myös erätöitä.
 
 Voit etsiä raportteja valittujen sivujen **Raportit**-välilehdessä tai käyttää ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") hakua, kun haluat etsiä raportteja nimen mukaan.
 
 
-## <a name="specifying-the-data-to-include-in-the-report"></a>Määrittää raporttiin sisällytettävät tiedot
+## <a name="specifying-the-data-to-include-in-the-report"></a>Raporttiin sisällytettävien tietojen määrittäminen
 Raportissa avautuu ensimmäisenä sivu, johon voi tyypillisesti määrittää erilaisia vaihtoehtoja ja suodattimia. Raportin sisältö määrittyy näiden tietojen mukaan. Sivua kutsutaan raporttipyyntösivuksi. Raporttipyyntösivun avulla voit esimerkiksi luoda raportin tietylle asiakkaalle, tietylle aikavälille tai vaihtaa raportin tietojen järjestystä. Tässä on esimerkki raporttipyyntösivusta:
 
 ![Raporttiasetukset](media/report_options.png "Raporttiasetukset")
+
+> [!Caution]
+> Pyyntösivun **Näytä tulokset** -osassa on raporttien yleinen suodatustoiminto. Nämä suodattimet ovat valinnaisia.<br /><br /> Osa raporteista ohittaa nämä suodattimet, joten raportin tulos sama riippumatta siitä, mikä suodatin on määritetty **Näytä tulokset** -osassa. Eri raporteissa ohitettavista kentistä ei ole mahdollista luoda luetteloa, joten sinun on kokeiltava erilaisten suodattimien käyttöä.<br /><br />
+**Esimerkki**: kun käytät **Luo muistutukset** -erätyötä, **Viimeksi lähetetyn muist. taso** -kohdan **Asiakastapahtumat**-kenttä ohitetaan, koska kyseissä työssä käytetään kiinteitä suodattimia.
 
 ### <a name="SavedSettings"></a>Tallennettujen asetusten käyttäminen
 Joissakin raporteissa, riippuen siitä, kuinka ne on suunniteltu, raporttisivuun voi kuulua **Tallennetut asetukset** -osio, joka sisältää yhden tai useamman merkinnän **Käytä saatua oletusarvoa** -ruudussa. Tämän ruudun merkinnät ovat nimeltään *Tallennetut asetukset*. Tallennettu asetus on periaatteessa valmis vaihtoehto- ja suodatinryhmä, jota voit käyttää raportteihin ennen raportin esikatselu tai sen lähettämistä tiedostoon. **Viimeksi käytetyt asetukset ja suodattimet** -kirjaus on aina saatavilla. Tämä merkintä määrittää raportin käyttämään niitä asetuksia ja suodattimia, joita käytettiin, kun katsoit raporttia edellisen kerran.
@@ -47,7 +56,7 @@ Voit lisätä muita suodattimia asettamalla niitä **Lisää**-ruuduista. Jos k�
 
 Voit määrittää suodatusehdot etsimään täsmällistä vastaavuutta, osittaista vastaavuutta, arvoalueita ja muuta sen mukaan, mitä tyyppistä kenttää suodatat. Neuvoja suodattimien määrittämiseen löytyy ohjeaiheessa:
 -   [Suodattaminen](ui-enter-criteria-filters.md#FilterCriteria)
--   [Päivämääräalueiden syöttäminen](ui-enter-date-ranges.md)
+-   [Kalenterin päivämäärien ja aikojen käsitteleminen](ui-enter-date-ranges.md)
 
 ## <a name="previewing-a-report"></a>Raportin esikatselu
 Voit avata raportin selaimeen katsottavaksi valitsemalla **Esikatselu**. Valikkorivi tulee näkyviin, kun osoitat jotakin kohtaa raportissa.  
@@ -88,4 +97,3 @@ Raportin asettelu määrittää, mitä raportissa näytetään, miten se on jär
 [Tulostimen valinnan määrittäminen raporteille](ui-specify-printer-selection-reports.md)  
 [Raporttien ja asiakirjojen asettelujen hallinta](ui-manage-report-layouts.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

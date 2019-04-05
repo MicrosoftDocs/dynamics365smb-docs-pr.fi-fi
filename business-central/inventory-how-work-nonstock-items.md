@@ -1,7 +1,7 @@
 ---
 title: Luettelonimikkeiden luominen ja hallinta | Microsoft Docs
-description: "Tässä artikkelissa kerrotaan, miten sellaisilla nimikkeillä käydään kauppaa, jotka ovat kuuluvat toimittajien nimikeluetteloon, mutta eivät omaan nimikeluetteloosi."
-documentationcenter: 
+description: Tässä artikkelissa kerrotaan, miten sellaisilla nimikkeillä käydään kauppaa, jotka ovat kuuluvat toimittajien nimikeluetteloon, mutta eivät omaan nimikeluetteloosi.
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: non-inventoriable
-ms.date: 10/01/2018
+ms.date: 03/12/2019
 ms.author: sgroespe
+ms.openlocfilehash: 780aabb1bcd37cfd912f84da7b956a146a918eef
+ms.sourcegitcommit: 3291f0d92c1f2af3bbbefb90d53af4db72fe1a93
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: c65d498fb63668a6cd83f61303ae99c54d0a2452
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "836133"
 ---
 # <a name="work-with-catalog-items"></a>Luettelonimikkeiden käsitteleminen
 Voit tarjota asiakkaille tiettyjä nimikkeitä, joita et halua ylläpitää järjestelmässäsi ennen kuin niitä myydään. Kun haluat alkaa ylläpitää tällaisia nimikkeitä järjestelmässäsi, voit muuntaa ne normaaleiden nimikkeiden korteiksi kahdella eri tavalla.
@@ -66,11 +66,10 @@ Luodaan uusi nimikekortti, johon on täytetty luettelonimikkeen tiedot, ja asiaa
 Tämän jälkeen voit täyttää uuden nimikekortin kentät tai muokata niitä tarvittaessa. Lisätietoja on ohjeaiheessa [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md).
 
 > [!NOTE]  
->   Toimittajalle luodaan automaattisesti nimikkeen viittaustietue nimikkeelle, jonka numero on toimittajan nimikenumeron ja uuden nimikenumeron välissä.
+>   Toimittajalle luodaan automaattisesti nimikkeen viittaustietue nimikkeelle, jonka numero on toimittajan nimikenumeron ja uuden nimikenumeron välissä. Lisätietoja on kohdassa [Nimikkeen viittausten käyttäminen](inventory-how-use-item-cross-refs.md).
 
 ## <a name="see-also"></a>Katso myös
 [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md)  
 [Erikoistilausten luominen](sales-how-to-create-special-orders.md)|  
 [Vaihto-omaisuus](inventory-manage-inventory.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

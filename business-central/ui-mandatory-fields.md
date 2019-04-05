@@ -1,8 +1,8 @@
 ---
-title: "Prosessien suorittamiseen tarvittavat pakolliset kentät | Microsoft Docs"
-description: "Tutustu punaisella tähtimerkillä merkittyihin kenttien. Tämä merkintä osoittaa, että ne ovat pakollisia ja ne on täytettävä, jotta prosessit voidaan suorittaa."
+title: Prosessien suorittamiseen tarvittavat pakolliset kentät | Microsoft Docs
+description: Tutustu punaisella tähtimerkillä merkittyihin kenttien. Tämä merkintä osoittaa, että ne ovat pakollisia ja ne on täytettävä, jotta prosessit voidaan suorittaa.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,14 +11,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2018
 ms.author: solsen
+ms.openlocfilehash: 6778536df70ef70b1e3e67e956768b0a474acd89
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 01e517daea89c5371f95df963831ab8f8d9bf523
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "853233"
 ---
-# <a name="mandatory-fields"></a>Pakolliset kentät
+# <a name="detecting-mandatory-fields"></a>Pakollisten kenttien havaitseminen
 Kun annat tietoja [!INCLUDE[d365fin](includes/d365fin_md.md)]in sivuilla, tietyt kentät on merkitty punaisella tähdellä. Punainen tähti tarkoittaa, että kenttä on täytettävä, jotta tietty kenttää käyttävä prosessi voidaan suorittaa, kuten kentässä olevaa arvoa käyttävän tapahtuman kirjaus.
 
 Vaikka kentässä on punainen tähti, et joudu täyttämään kenttää ennen kuin jatkat muihin kenttiin tai suljet sivun. Punainen tähti toimii vain muistutuksena siitä, että sinua estetään suorittamasta tiettyä prosessia.
@@ -30,5 +30,3 @@ Vaikka kentässä on punainen tähti, et joudu täyttämään kenttää ennen ku
 
 ## <a name="see-also"></a>Katso myös
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-
-

@@ -1,25 +1,25 @@
 ---
-title: "Vaihekuvaus – Sarja- ja eränumeroiden jäljittäminen | Microsoft Docs"
-description: "Kun virheellisiä tuotteita havaitaan, on tarpeen määrittää virheet ja estää virheellisiä nimikkeitä lähtemästä yrityksestä. Jos virheellisiä nimikkeitä on jo lähetetty, on selvitettävä, kuka vastaanotti kyseiset nimikkeet ja pitääkö ne kutsua takaisin."
+title: Vaihekuvaus – Sarja- ja eränumeroiden jäljittäminen | Microsoft Docs
+description: Kun virheellisiä tuotteita havaitaan, on tarpeen määrittää virheet ja estää virheellisiä nimikkeitä lähtemästä yrityksestä. Jos virheellisiä nimikkeitä on jo lähetetty, on selvitettävä, kuka vastaanotti kyseiset nimikkeet ja pitääkö ne kutsua takaisin.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
+ms.openlocfilehash: e6354b57e14af89c0c998447ff09d43e3902d0b4
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
-ms.openlocfilehash: a37561ebf8b9572f69e0ce3c3b83613b98a1098f
-ms.contentlocale: fi-fi
-ms.lasthandoff: 01/31/2019
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "853161"
 ---
-# <a name="walkthrough-tracing-serial-lot-numbers"></a>Vaihekuvaus: Sarja-/eränumeroiden jäljitys
+# <a name="walkthrough-tracing-seriallot-numbers"></a>Vaihekuvaus: Sarja-/eränumeroiden jäljitys
 
 **Huomautus**: Tämä vaihekuvaus on suoritettava esittely-yrityksessä siten, että asetuksena on **Täydellinen arviointi - Kaikki mallitiedot**, joka on käytettävissä Sandbox-ympäristössä. Lisätietoja on kohdassa [Sandbox-ympäristön luominen](across-how-create-sandbox-environment.md).
 
@@ -50,7 +50,7 @@ Tässä vaihekuvauksessa havainnollistetaan seuraavien käyttäjäroolien tehtä
 Tämän vaihekuvauksen ohjeiden noudattamisen edellytykset:  
 
 -   [!INCLUDE[d365fin](includes/d365fin_md.md)] -yritys.  
--   Voit luoda uusia nimikkeitä ja useita liiketoimintatapahtumia noudattamalla osan Esimerkkitietojen valmisteleminen ohjeita, jäljempänä tässä vaihekuvauksessa.  
+-   Voit luoda uusia nimikkeitä ja useita liiketoimintatapahtumia noudattamalla kohdan [Esimerkkitietojen valmisteleminen](walkthrough-tracing-serial-lot-numbers.md#prepare-sample-data) ohjeita.  
 
 ## <a name="story"></a>Taustatietoja  
 Laatupäällikkö Riku käsittelee nimikkeen 1002, Kilpapyörä, myyntipalautusta. Asiakas Tinayhtymä Oy lähetti valituksen, jonka mukaan kilpapyörän rungon hitsaussaumat ovat murtuneet. Laadunvalvontainsinöörit ovat vahvistaneet, että palautetun pyörän runko on vioittunut. Laatupäällikön on nyt määritettävä seuraavat seikat:  
@@ -298,4 +298,3 @@ Seuraavaksi näille kahdelle nimikkeelle luodaan osto-, tuotanto- ja myyntitilau
 [Sarja- ja eränumeroiden käsitteleminen](inventory-how-work-item-tracking.md)  
 [Nimikeseurannan nimikkeiden jäljittäminen](inventory-how-to-trace-item-tracked-items.md)  
 [Liiketoimintaprosessien vaihekuvaukset](walkthrough-business-process-walkthroughs.md)  
-

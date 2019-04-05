@@ -1,6 +1,6 @@
 ---
-title: "Tallennettujen asetusten käyttäminen raporteissa ja niiden muokkaaminen | Microsoft Docs"
-description: "Ohjeaiheessa kerrotaan ennalta määritetyistä asetuksista ja suodattimista, joilla raportti mukautetaan ja luodaan oikeita tietoja."
+title: Tallennettujen asetusten käyttäminen raporteissa ja niiden muokkaaminen | Microsoft Docs
+description: Ohjeaiheessa kerrotaan ennalta määritetyistä asetuksista ja suodattimista, joilla raportti mukautetaan ja luodaan oikeita tietoja.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: customization, personalization
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: cbbb072c4be3ec41684e426451c394cfa978c390
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 9fd086831c0d145570d87c33c62a003c166aca87
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "853115"
 ---
 # <a name="managing-saved-settings-on-reports"></a>Raporttien tallennettujen asetusten hallinta
 Raportteja ajettaessa käyttäjä saa tyypillisesti näkyviin sivun, jolla voi määrittää tietyt luodun raportin tietojen muuttamisessa tarvittavat asetukset ja suodattimet. Sivua kutsutaan raporttipyyntösivuksi. Raportti voi sisältää vähintään yhdet *tallennetut asetukset*, joita voidaan käyttää pyyntösivun raportissa. *Tallennetut asetukset* ovat periaatteessa ennalta määritettyjä asetuksia ja suodattimia. Tallennettujen asetusten käyttäminen on nopea ja helppo tapa oikeiden tietojen sisältämien raporttien luomista varten. Lisätietoja siitä, miten tallennettuja asetuksia käytetään kohdassa [Tallennettujen asetusten käyttäminen](ui-work-report.md#SavedSettings).
 
 Jos sinulla on tarvittavat oikeudet, voit tarkastella, luoda ja muokata yrityksen kaikkien käyttäjien raporttien tallennettuja asetuksia. Voit määrittää raportin tallennetut asetukset yksittäisille käyttäjille tai yrityksen kaikille käyttäjille.
 
-<!-- 
+<!--
 ## Apply saved settings to a report
 1. Open the report.
 
@@ -53,5 +53,4 @@ Sivulla näkyvät kaikki olemassa olevat kaikkien käyttäjien tallennusasetukse
 > Raporttien tallennettujen asetusten ominaisuus on käytettävissä vain [SaveValues-ominaisuudessa](https://docs.microsoft.com/en-us/dynamics-nav/savevalues-property), joissa arvoksi on määritetty `Yes`. **SaveValues** -ominaisuus määritetään kehitysympäristössä.  
 
 ## <a name="see-also"></a>Katso myös
-[Raporttien käsittely](ui-work-report.md)  
-
+[Raporttien ja eräajojen käsitteleminen](ui-work-report.md)  
