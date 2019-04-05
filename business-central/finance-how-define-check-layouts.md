@@ -1,8 +1,8 @@
 ---
-title: "Sekin asettelun määrittäminen| Microsoft Docs"
+title: Sekin asettelun määrittäminen| Microsoft Docs
 description: Voit suunnitella ja tulostaa sekkisi eri muodoissa standardinmukaisia vaatimuksia noudattaen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,35 +12,34 @@ ms.workload: na
 ms.search.keywords: print check, customize
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 743cf7ecbed4157dc9283a97baa956e69ec0c6b5
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795956"
 ---
-# <a name="define-check-layouts"></a><span data-ttu-id="9aaa8-103">Sekkien asetteluiden määrittäminen</span><span class="sxs-lookup"><span data-stu-id="9aaa8-103">Define Check Layouts</span></span>
-<span data-ttu-id="9aaa8-104">Voit suunnitella omat sekit, joiden avulla pystyt noudattamaan paikallisten viranomaisten määrittämiä standardeja.</span><span class="sxs-lookup"><span data-stu-id="9aaa8-104">You can design your checks to conform with the standards set by the local authorities.</span></span> <span data-ttu-id="9aaa8-105">Sekkikuvat voidaan tulostaa englannin-, ranskan ja espanjankielisinä.</span><span class="sxs-lookup"><span data-stu-id="9aaa8-105">Check images can be printed in English, French, or Spanish.</span></span>
+# <a name="define-check-layouts"></a><span data-ttu-id="8b433-103">Sekkien asetteluiden määrittäminen</span><span class="sxs-lookup"><span data-stu-id="8b433-103">Define Check Layouts</span></span>
+<span data-ttu-id="8b433-104">Voit suunnitella omat sekit, joiden avulla pystyt noudattamaan paikallisten viranomaisten määrittämiä standardeja.</span><span class="sxs-lookup"><span data-stu-id="8b433-104">You can design your checks to conform with the standards set by the local authorities.</span></span> <span data-ttu-id="8b433-105">Sekkikuvat voidaan tulostaa englannin-, ranskan ja espanjankielisinä.</span><span class="sxs-lookup"><span data-stu-id="8b433-105">Check images can be printed in English, French, or Spanish.</span></span>
 
-<span data-ttu-id="9aaa8-106">Sekit suunnitellaan tulostettavaksi sekä Yhdysvaltojen että Kanadan sekkikuvamuodoissa joko muodossa sekki-talonki-sekki tai talonki-talonki-sekki.</span><span class="sxs-lookup"><span data-stu-id="9aaa8-106">Checks are designed to print in both the United States and Canadian check image formats in either a check-stub-check format or a stub-stub-check format.</span></span>
+<span data-ttu-id="8b433-106">Sekit suunnitellaan tulostettavaksi sekä Yhdysvaltojen että Kanadan sekkikuvamuodoissa joko muodossa sekki-talonki-sekki tai talonki-talonki-sekki.</span><span class="sxs-lookup"><span data-stu-id="8b433-106">Checks are designed to print in both the United States and Canadian check image formats in either a check-stub-check format or a stub-stub-check format.</span></span>
 
-## <a name="to-define-check-layouts"></a><span data-ttu-id="9aaa8-107">Sekkien asetteluiden määrittäminen</span><span class="sxs-lookup"><span data-stu-id="9aaa8-107">To define check layouts</span></span>
-1. <span data-ttu-id="9aaa8-108">Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Raporttivalintojen pankkitili** ja valitse sitten liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="9aaa8-108">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Selections Bank Account**, and then choose the related link.</span></span>
-2. <span data-ttu-id="9aaa8-109">Valitse **Raporttivalinta - Pankkitili** -sivun **Käyttö**-kentässä **Sekki**.</span><span class="sxs-lookup"><span data-stu-id="9aaa8-109">On the **Report Selection - Bank Acc.** page, in the **Usage** field, select **Check**.</span></span>
-3. <span data-ttu-id="9aaa8-110">Valitse jompikumpi seuraavista raportin tunnuksista:</span><span class="sxs-lookup"><span data-stu-id="9aaa8-110">Select one of the following report IDs.</span></span>
+## <a name="to-define-check-layouts"></a><span data-ttu-id="8b433-107">Sekkien asetteluiden määrittäminen</span><span class="sxs-lookup"><span data-stu-id="8b433-107">To define check layouts</span></span>
+1. <span data-ttu-id="8b433-108">Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Raporttivalintojen pankkitili** ja valitse sitten liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="8b433-108">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Selections Bank Account**, and then choose the related link.</span></span>
+2. <span data-ttu-id="8b433-109">Valitse **Raporttivalinta - Pankkitili** -sivun **Käyttö**-kentässä **Sekki**.</span><span class="sxs-lookup"><span data-stu-id="8b433-109">On the **Report Selection - Bank Acc.** page, in the **Usage** field, select **Check**.</span></span>
+3. <span data-ttu-id="8b433-110">Valitse jompikumpi seuraavista raportin tunnuksista:</span><span class="sxs-lookup"><span data-stu-id="8b433-110">Select one of the following report IDs.</span></span>
 
-| <span data-ttu-id="9aaa8-111">Raportin tunnus</span><span class="sxs-lookup"><span data-stu-id="9aaa8-111">Report ID</span></span> | <span data-ttu-id="9aaa8-112">Raportin nimi</span><span class="sxs-lookup"><span data-stu-id="9aaa8-112">Report Name</span></span> | <span data-ttu-id="9aaa8-113">Kuvaus</span><span class="sxs-lookup"><span data-stu-id="9aaa8-113">Description</span></span> |
+| <span data-ttu-id="8b433-111">Raportin tunnus</span><span class="sxs-lookup"><span data-stu-id="8b433-111">Report ID</span></span> | <span data-ttu-id="8b433-112">Raportin nimi</span><span class="sxs-lookup"><span data-stu-id="8b433-112">Report Name</span></span> | <span data-ttu-id="8b433-113">Kuvaus</span><span class="sxs-lookup"><span data-stu-id="8b433-113">Description</span></span> |
 | --- | --- | --- |
-| <span data-ttu-id="9aaa8-114">1401</span><span class="sxs-lookup"><span data-stu-id="9aaa8-114">1401</span></span> |<span data-ttu-id="9aaa8-115">Sekki</span><span class="sxs-lookup"><span data-stu-id="9aaa8-115">Check</span></span> |<span data-ttu-id="9aaa8-116">Tämä on oletusraportti.</span><span class="sxs-lookup"><span data-stu-id="9aaa8-116">This is the default report.</span></span> |
-| <span data-ttu-id="9aaa8-117">10401</span><span class="sxs-lookup"><span data-stu-id="9aaa8-117">10401</span></span> |<span data-ttu-id="9aaa8-118">Sekki (talonki/talonki/sekki)</span><span class="sxs-lookup"><span data-stu-id="9aaa8-118">Check (Stub/Stub/Check)</span></span> |<span data-ttu-id="9aaa8-119">Tämä raportti on suunniteltu tulostamaan sekit muodossa talonki/talonki/sekki.</span><span class="sxs-lookup"><span data-stu-id="9aaa8-119">This report is designed to print checks in a stub/stub/check format.</span></span> |
-| <span data-ttu-id="9aaa8-120">10411</span><span class="sxs-lookup"><span data-stu-id="9aaa8-120">10411</span></span> |<span data-ttu-id="9aaa8-121">Sekki (talonki/sekki/talonki)</span><span class="sxs-lookup"><span data-stu-id="9aaa8-121">Check (Stub/Check/Stub)</span></span> |<span data-ttu-id="9aaa8-122">Tämä raportti on suunniteltu tulostamaan sekit muodossa sekki/talonki/sekki.</span><span class="sxs-lookup"><span data-stu-id="9aaa8-122">This report is designed to print checks in a check/stub/check format.</span></span> |
+| <span data-ttu-id="8b433-114">1401</span><span class="sxs-lookup"><span data-stu-id="8b433-114">1401</span></span> |<span data-ttu-id="8b433-115">Sekki</span><span class="sxs-lookup"><span data-stu-id="8b433-115">Check</span></span> |<span data-ttu-id="8b433-116">Tämä on oletusraportti.</span><span class="sxs-lookup"><span data-stu-id="8b433-116">This is the default report.</span></span> |
+| <span data-ttu-id="8b433-117">10401</span><span class="sxs-lookup"><span data-stu-id="8b433-117">10401</span></span> |<span data-ttu-id="8b433-118">Sekki (talonki/talonki/sekki)</span><span class="sxs-lookup"><span data-stu-id="8b433-118">Check (Stub/Stub/Check)</span></span> |<span data-ttu-id="8b433-119">Tämä raportti on suunniteltu tulostamaan sekit muodossa talonki/talonki/sekki.</span><span class="sxs-lookup"><span data-stu-id="8b433-119">This report is designed to print checks in a stub/stub/check format.</span></span> |
+| <span data-ttu-id="8b433-120">10411</span><span class="sxs-lookup"><span data-stu-id="8b433-120">10411</span></span> |<span data-ttu-id="8b433-121">Sekki (talonki/sekki/talonki)</span><span class="sxs-lookup"><span data-stu-id="8b433-121">Check (Stub/Check/Stub)</span></span> |<span data-ttu-id="8b433-122">Tämä raportti on suunniteltu tulostamaan sekit muodossa sekki/talonki/sekki.</span><span class="sxs-lookup"><span data-stu-id="8b433-122">This report is designed to print checks in a check/stub/check format.</span></span> |
 
-<span data-ttu-id="9aaa8-123">Kun olet määrittänyt sekkien asettelut, voit tulostaa sekit **Maksupäiväkirja**-sivulla.</span><span class="sxs-lookup"><span data-stu-id="9aaa8-123">When you have set up check layouts, you can print checks from the **Payment Journal** page.</span></span> <span data-ttu-id="9aaa8-124">Lisätietoja on kohdassa [Sekkien käyttäminen](payables-how-work-checks.md).</span><span class="sxs-lookup"><span data-stu-id="9aaa8-124">For more information, see [Work with Checks](payables-how-work-checks.md).</span></span>
+<span data-ttu-id="8b433-123">Kun olet määrittänyt sekkien asettelut, voit tulostaa sekit **Maksupäiväkirja**-sivulla.</span><span class="sxs-lookup"><span data-stu-id="8b433-123">When you have set up check layouts, you can print checks from the **Payment Journal** page.</span></span> <span data-ttu-id="8b433-124">Lisätietoja on kohdassa [Sekkien käyttäminen](payables-how-work-checks.md).</span><span class="sxs-lookup"><span data-stu-id="8b433-124">For more information, see [Work with Checks](payables-how-work-checks.md).</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="9aaa8-125">Katso myös</span><span class="sxs-lookup"><span data-stu-id="9aaa8-125">See Also</span></span>
-[<span data-ttu-id="9aaa8-126">Ostovelkojen hallinta</span><span class="sxs-lookup"><span data-stu-id="9aaa8-126">Managing Payables</span></span>](payables-manage-payables.md)  
-<span data-ttu-id="9aaa8-127">[Pankkitilien hallinta](bank-manage-bank-accounts.md) </span><span class="sxs-lookup"><span data-stu-id="9aaa8-127">[Managing Bank Accounts](bank-manage-bank-accounts.md) </span></span>  
-[<span data-ttu-id="9aaa8-128">Kauden lopun prosessien viimeisteleminen</span><span class="sxs-lookup"><span data-stu-id="9aaa8-128">Completing Period-End Processes</span></span>](year-how-complete-period-end-processes.md)  
-<span data-ttu-id="9aaa8-129">[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="9aaa8-129">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
-[<span data-ttu-id="9aaa8-130">Yleiset liiketoimintatoiminnot</span><span class="sxs-lookup"><span data-stu-id="9aaa8-130">General Business Functionality</span></span>](ui-across-business-areas.md)
-
+## <a name="see-also"></a><span data-ttu-id="8b433-125">Katso myös</span><span class="sxs-lookup"><span data-stu-id="8b433-125">See Also</span></span>
+[<span data-ttu-id="8b433-126">Ostovelkojen hallinta</span><span class="sxs-lookup"><span data-stu-id="8b433-126">Managing Payables</span></span>](payables-manage-payables.md)  
+<span data-ttu-id="8b433-127">[Pankkitilien hallinta](bank-manage-bank-accounts.md) </span><span class="sxs-lookup"><span data-stu-id="8b433-127">[Managing Bank Accounts](bank-manage-bank-accounts.md) </span></span>  
+[<span data-ttu-id="8b433-128">Kauden lopun prosessien viimeisteleminen</span><span class="sxs-lookup"><span data-stu-id="8b433-128">Completing Period-End Processes</span></span>](year-how-complete-period-end-processes.md)  
+<span data-ttu-id="8b433-129">[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="8b433-129">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+[<span data-ttu-id="8b433-130">Yleiset liiketoimintatoiminnot</span><span class="sxs-lookup"><span data-stu-id="8b433-130">General Business Functionality</span></span>](ui-across-business-areas.md)

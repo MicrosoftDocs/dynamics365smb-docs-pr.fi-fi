@@ -1,0 +1,36 @@
+---
+title: Kokeilujakson jatkaminen | Microsoft Docs
+description: Jos tarvitset lisää aikaa, ennen kuin päätät tehdä tilauksen, voit jatkaa kokeilujaksoa.
+services: project-madeira
+documentationcenter: ''
+author: bholtorf
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: ''
+ms.date: 01/16/2018
+ms.author: bholtorf
+ms.openlocfilehash: 95a00ec61db3b65b2be729bf0b68da7af960d6ab
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795621"
+---
+# <a name="need-more-time-to-decide-whether-to-subscribe"></a><span data-ttu-id="5e337-103">Tarvitsetko lisää aikaa, ennen kuin päätät tilauksen tekemisestä?</span><span class="sxs-lookup"><span data-stu-id="5e337-103">Need More Time to Decide Whether to Subscribe?</span></span>
+<span data-ttu-id="5e337-104">Liiketoimintasovellusta valittaessa on oltava tarkkana, ja tiedämme, että [!INCLUDE[d365fin](includes/d365fin_md.md)]in kaikkiin ominaisuuksiin tutustuminen vie aikaa.</span><span class="sxs-lookup"><span data-stu-id="5e337-104">It's important to make the right decision when choosing a business application, and we know that it can take time to explore all of the corners in [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span> <span data-ttu-id="5e337-105">Jos tarvitset arviontiin lisäaikaa, voit jatkaa itse kokeilujaksoa 30 päivällä.</span><span class="sxs-lookup"><span data-stu-id="5e337-105">If you need more time to finish your evaluation you can extend the trial period yourself for another 30 days.</span></span> <span data-ttu-id="5e337-106">Kun kokeilujakson päättyminen on lähellä, kirjautumisen yhteydessä näkyy ilmoitus asiasta.</span><span class="sxs-lookup"><span data-stu-id="5e337-106">When the expiration date for your trial period is approaching we will display a notification to alert you when you sign in.</span></span> <span data-ttu-id="5e337-107">Ilmoituksessa on linkki **kokeilujakson jatkamisen** oppaaseen, jonka avulla voit jatkaa kokeilujaksoa.</span><span class="sxs-lookup"><span data-stu-id="5e337-107">The notification contains a link to the **Extend Trial Period** guide that you can use to extend your trial period.</span></span> <span data-ttu-id="5e337-108">30 päivän lisäjakso alkaa heti, kun valitset oppaassa **Jatka kokeilujaksoa**.</span><span class="sxs-lookup"><span data-stu-id="5e337-108">The extra 30 days start the moment you choose **Extend Trial** in the guide.</span></span>
+
+<span data-ttu-id="5e337-109">Kokeilujaksoa voi kuitenkin jatkaa itse vain kerran.</span><span class="sxs-lookup"><span data-stu-id="5e337-109">Extending the trial period yourself is a one time-thing though.</span></span> <span data-ttu-id="5e337-110">Et siis voi jatkaa sitä itse kahdesti.</span><span class="sxs-lookup"><span data-stu-id="5e337-110">You cannot extend it twice, at least not yourself.</span></span> <span data-ttu-id="5e337-111">Jos olet jo jatkanut kokeilujaksoa itse, Microsoft-kumppani voi jatkaa sitä uudelleen puolestasi.</span><span class="sxs-lookup"><span data-stu-id="5e337-111">If you have already extended the period, your Microsoft partner can extend it for you again.</span></span> <span data-ttu-id="5e337-112">Sekin on kuitenkin mahdollista vain kerran.</span><span class="sxs-lookup"><span data-stu-id="5e337-112">That's also a one-time thing.</span></span> <span data-ttu-id="5e337-113">Jos et tee vielä yhteistyötä kumppanin kanssa, voit etsiä sellaisen seuraavan linkin avulla: [Ota yhteyttä kumppaniin](https://go.microsoft.com/fwlink/?linkid=2038439).</span><span class="sxs-lookup"><span data-stu-id="5e337-113">If you are not already working with a partner, the following link will help you find one: [Contact a partner](https://go.microsoft.com/fwlink/?linkid=2038439).</span></span>
+
+## <a name="what-happens-if-my-trial-period-is-expired"></a><span data-ttu-id="5e337-114">Mitä tapahtuu, jos kokeilujakso päättyy?</span><span class="sxs-lookup"><span data-stu-id="5e337-114">What happens if my trial period is expired?</span></span>
+<span data-ttu-id="5e337-115">Jos ensimmäisen 30 päivän kokeilujakso päättyy, voit jatkaa sitä itse, jonka jälkeen kaikki toimii tavalliseen tapaan.</span><span class="sxs-lookup"><span data-stu-id="5e337-115">If your first 30-day trial period is expired, you can extend it yourself and things will be business as usual.</span></span> <span data-ttu-id="5e337-116">Sinun tarvitsee vain kirjautua esittely-yritykseen ja käynnistää **kokeilujakson jatkamisen** opas ilmoituksesta.</span><span class="sxs-lookup"><span data-stu-id="5e337-116">Just sign in to the demonstration company and start the **Extend Trial Period** guide from the notification.</span></span> <span data-ttu-id="5e337-117">Jos olet luonut oman yrityksen, kirjaudu ulos ja kirjaudu sitten uudelleen sisään kyseisen yrityksen tunnistetiedoilla.</span><span class="sxs-lookup"><span data-stu-id="5e337-117">If you have created your own company, sign out and then sign in again with the credentials for that company.</span></span> <span data-ttu-id="5e337-118">Jos jatkettu kokeilujakso on päättynyt, voit [tilata](https://go.microsoft.com/fwlink/?linkid=828659) [!INCLUDE[d365fin](includes/d365fin_md.md)]in 90 päivän kuluessa ja jatkaa luomasi yrityksen käyttöä.</span><span class="sxs-lookup"><span data-stu-id="5e337-118">If your extended trial period is expired, you can [subscribe](https://go.microsoft.com/fwlink/?linkid=828659) to [!INCLUDE[d365fin](includes/d365fin_md.md)] within 90 days and continue working in the company you created.</span></span> <span data-ttu-id="5e337-119">Yritys ja sen tiedot poistetaan 90 päivän kuluttua.</span><span class="sxs-lookup"><span data-stu-id="5e337-119">After 90 days we will delete your company and data.</span></span> 
+
+## <a name="to-extend-your-trial-period"></a><span data-ttu-id="5e337-120">Kokeilujakson laajentaminen</span><span class="sxs-lookup"><span data-stu-id="5e337-120">To extend your trial period</span></span>
+1. <span data-ttu-id="5e337-121">Kirjaudu [!INCLUDE[d365fin](includes/d365fin_md.md)]iin.</span><span class="sxs-lookup"><span data-stu-id="5e337-121">Sign in to [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span>
+2. <span data-ttu-id="5e337-122">Valitse työtilan yläosassa olevassa ilmoituksessa **Jatka kokeilujaksoa**.</span><span class="sxs-lookup"><span data-stu-id="5e337-122">In the notification at the top of the workspace, choose **Extend Trial**.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="5e337-123">Katso myös</span><span class="sxs-lookup"><span data-stu-id="5e337-123">See Also</span></span>
+[<span data-ttu-id="5e337-124">Uusien yritysten luominen</span><span class="sxs-lookup"><span data-stu-id="5e337-124">Creating New Companies</span></span>](about-new-company.md)  
+[<span data-ttu-id="5e337-125">Esikatselun käyttäminen</span><span class="sxs-lookup"><span data-stu-id="5e337-125">Access to a Preview</span></span>](across-preview.md)  
