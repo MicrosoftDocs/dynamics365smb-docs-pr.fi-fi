@@ -1,6 +1,6 @@
 ---
-title: "Käytön aloittaminen | Microsoft Docs"
-description: "Lisätietoja pienille ja keskisuurille organisaatioille tarkoitetusta liiketoiminnan Business Central -hallintaratkaisun toiminnoista ja käyttötilanteista."
+title: Käytön aloittaminen | Microsoft Docs
+description: Lisätietoja pienille ja keskisuurille organisaatioille tarkoitetusta liiketoiminnan Business Central -hallintaratkaisun toiminnoista ja käyttötilanteista.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: setup wizard
 ms.date: 12/03/2018
 ms.author: edupont
+ms.openlocfilehash: 5386dc4158dbd1e944eac75f4339ca2295a92fd2
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 3f158d7ed56445d6d2acf2ef8e5e9ab8e7487531
-ms.openlocfilehash: 15c54c7c6514ce275ff242d620df7404f9f2fee4
-ms.contentlocale: fi-fi
-ms.lasthandoff: 12/04/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795626"
 ---
 # <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]in käytön aloittaminen
 [!INCLUDE[d365fin](includes/d365fin_md.md)] on pienille ja keskisuurille organisaatioille tarkoitettu liiketoiminnan hallintaratkaisu, joka automatisoi ja selkeyttää liiketoiminnan prosesseja sekä auttaa liiketoiminnan hallinnassa. Rekisteröityminen on helppoa, ja voit siirtää aiemmin luodut yritystiedot vanhojen tietojen järjestelmästä. Jos tarvitset apua tilaukseen liittyvissä asioissa, etsi [!INCLUDE[d365fin](includes/d365fin_md.md)] -kumppani [täältä](https://www.microsoft.com/en-us/solution-providers/search).  
@@ -85,7 +85,7 @@ Aina kun kirjaudut sovellukseen kokeilujakson aikana, jäljellä oleva aika näk
 ## <a name="other-dynamics-365-apps"></a>Muut Dynamics 365 -sovellukset
 Voit tutustua muita Dynamics 365 -sovelluksia käsittelevään sisältöön valitsemalla [Dynamics 365](https://docs.microsoft.com/dynamics365) -linkin tämän sivun yläosassa olevassa sinisessä palkissa. Lisätietoja on myös [Dynamics 365 Business Central -sivustossa](https://dynamics.microsoft.com/en-us/business-central/overview/).  
 
-Jos olet kirjanpitäjä, voit rekisteröityä [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]iin, jolloin pääset käyttävään sujuvaa [!INCLUDE[d365fin](includes/d365fin_md.md)] -integraatiota…. Lisätietoja on kohdassa [Tervetuloa käyttämään ohjelmaa Dynamics 365 – Accountant Hub](/dynamics365/accountants/index).
+Jos olet kirjanpitäjä, voit rekisteröityä [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]iin, jolloin pääset käyttävään sujuvaa [!INCLUDE[d365fin](includes/d365fin_md.md)] -integraatiota…. Lisätietoja on kohdassa [Tervetuloa Dynamics 365 – Accountant Hubiin](/dynamics365/accountants/index).
 
 ## <a name="see-also"></a>Katso myös
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
@@ -94,9 +94,8 @@ Jos olet kirjanpitäjä, voit rekisteröityä [!INCLUDE[d365acc_long](includes/d
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen Outlookin yrityssähköpostina](admin-outlook.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]in hakeminen mobiililaitteeseen](install-mobile-app.md)  
 [Dynamics 365:n dokumentaatio](https://docs.microsoft.com/en-us/dynamics365/)  
-[Microsoft Dynamics 365 Business Centraliin julkaisutiedot](https://go.microsoft.com/fwlink/?linkid=2047422)  
+[Microsoft Dynamics 365 Business Centralin julkaisutiedot](https://go.microsoft.com/fwlink/?linkid=2047422)  
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
  
-

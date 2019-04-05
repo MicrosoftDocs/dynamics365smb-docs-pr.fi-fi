@@ -1,23 +1,23 @@
 ---
 title: Varaston kustannusten hallinta | Microsoft Docs
-description: "Kustannushallinta, jota kutsutaan myös \"arvostukseksi\", käsittelee liiketoiminnan toimintokustannusten tallennusta ja raportointia. Se sisältää tuotanto- ja varastointikustannusten eli nimikkeiden arvon raportoinnin.."
+description: Kustannushallinta, jota kutsutaan myös "arvostukseksi", käsittelee liiketoiminnan toimintokustannusten tallennusta ja raportointia. Se sisältää tuotanto- ja varastointikustannusten eli nimikkeiden arvon raportoinnin..
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/27/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
 ms.openlocfilehash: d5f5885055aa1094e4172d4a4e327ff1e940f799
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/29/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795730"
 ---
 # <a name="managing-inventory-costs"></a>Varaston kustannusten hallinta
 Kustannushallinta, jota kutsutaan myös arvostukseksi, käsittelee liiketoimintakustannusten kirjaamista ja raportointia. Se sisältää tuotanto- ja varastointikustannusten eli nimikkeiden arvon raportoinnin..   
@@ -46,4 +46,3 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
  [Myynti](sales-manage-sales.md)   
  [Osto](purchasing-manage-purchasing.md)  
  [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

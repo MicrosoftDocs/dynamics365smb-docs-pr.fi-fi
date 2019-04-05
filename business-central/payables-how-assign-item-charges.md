@@ -1,8 +1,8 @@
 ---
-title: "Nimikekulujen määrittäminen myyntiin ja ostoihin| Microsoft Docs"
-description: "Jos haluat, että varastonimikkeisiin liittyy lisäkustannuksia, kuten nimikkeiden ostamisessa ja myynnissä syntyvät rahti-, käsittely-, vakuutus- ja kuljetuskulut, voit käyttää nimikekuluominaisuutta."
+title: Nimikekulujen määrittäminen myyntiin ja ostoihin| Microsoft Docs
+description: Jos haluat, että varastonimikkeisiin liittyy lisäkustannuksia, kuten nimikkeiden ostamisessa ja myynnissä syntyvät rahti-, käsittely-, vakuutus- ja kuljetuskulut, voit käyttää nimikekuluominaisuutta.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: transportation, added cost, landed cost
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 0bf5ab953315048bfa10dc1ffb70c07d8305b4e1
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: e2a7c5f34471bb76aed708d6a6e4ff36feaf39c7
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795503"
 ---
 # <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Kaupan lisäkustannusten huomiointi nimikekulujen avulla
 Voit varmistaa oikean arvostuksen liittämällä varastonimikkeisiin lisäkustannukset, kuten nimikkeiden ostamisessa ja myynnissä syntyvät rahti-, käsittely-, vakuutus- ja kuljetuskulut. Ostoissa ostetun nimikkeen kokonaiskustannukset koostuvat toimittajan ostohinnasta ja kaikista suorista lisänimikekuluista, jotka voidaan määritellä yksittäisiin vastaanottoihin tai palautustoimituksiin. Myynnissä Myytyjen nimikkeiden lähetyskulujen tietäminen voi olla yritykselle yhtä tärkeää kuin ostettujen nimikkeiden kokonaiskustannusten tietäminen.
@@ -69,7 +69,7 @@ Nimikekulu on nyt määritetty ostolaskuun. Kun kirjaat ostolaskun vastaanoton, 
 
 ## <a name="to-assign-an-item-charge-from-a-separate-invoice-to-the-purchase-invoice-for-the-item"></a>Nimikekulun määrittäminen erillisestä laskusta nimikkeen ostolaskuun
 Jos vastaanotit nimikekulun laskun alkuperäisen laskun vastaanoton kirjaamisen jälkeen, toimi seuraavasti.
-1. Toista Nimikekulun määrittäminen suoraan nimikkeen ostolaskuun -kohdan vaiheet 1–8.
+1. Toista kohdan [Nimikekulun määrittäminen suoraan nimikkeen ostolaskuun](payables-how-assign-item-charges.md#to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item) vaiheet 1–8.
 2. Valitse **Nimikekulujen määritys** -sivulla **Hae vastaanoton rivit** -toiminto.
 3. Valitse **Oston vast.otto rivit** -sivulla sen nimikkeen kirjattu oston vastaanotto, johon haluat määrittää nimikekulun, ja valitse sitten **OK**-painike.
 4. Valitse **Ehdota nimikk. kulumääritystä** -toiminto.
@@ -81,4 +81,3 @@ Erillisen ostolaskun nimikekulu on nyt määritetty kirjatun oston vastaanoton n
 [Ostojen kirjaus](purchasing-how-record-purchases.md)  
 [Myynnin laskutus](sales-how-invoice-sales.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
-

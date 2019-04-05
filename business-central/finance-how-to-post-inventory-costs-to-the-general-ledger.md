@@ -1,7 +1,7 @@
 ---
-title: "Varaston kustannusten kirjaaminen pääkirjanpitoon| Microsoft Docs"
-description: "Tässä ohjeaiheessa käsitellään fyysisten tuotteiden, joilla käydään kauppaa, hallintaa, kuten varaston käsittelyä fyysisessä varastossa."
-documentationcenter: 
+title: Varaston kustannusten kirjaaminen pääkirjanpitoon| Microsoft Docs
+description: Tässä ohjeaiheessa käsitellään fyysisten tuotteiden, joilla käydään kauppaa, hallintaa, kuten varaston käsittelyä fyysisessä varastossa.
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: warehouse, stock
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 0e9b610d54f955c3dec9cba6b2327a74663288a2
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796334"
 ---
 # <a name="reconcile-inventory-costs-with-the-general-ledger"></a>Varaston kustannusten täsmäyttäminen pääkirjanpitoon
 Kun kirjaat varastotapahtumia, kuten myyntitoimituksia, ostolaskuja tai varaston muutoksia, muuttuneet nimikekustannukset kirjataan niiden arvotapahtumiin. Jotta varastoarvon muutos päivittyisi talouskirjoihin, varastokustannukset kirjataan automaattisesti pääkirjanpidon liittyviin varastotileihin. Ohjelma kirjaa jokaista itse kirjaamaasi varastotapahtumaa kohti sopivan arvon varastotilille, muutostilille ja myytyjen tuotteiden kustannusten tilille pääkirjanpidossa.
@@ -75,4 +75,3 @@ Valitsemalla kokonaissummakentän summan voit tarkastella varastoraportin tapaht
 [Myynti](sales-manage-sales.md)    
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)
-

@@ -1,8 +1,8 @@
 ---
-title: "Maksujen ja täsmäytysten (DK) laajennuksen käyttäminen | Microsoft Docs"
-description: "Tämän laajennuksen avulla on helppo viedä esimuotoiltuja tiedostoja, jotka täyttävät pankin sähköisiä lähetyksiä koskevat vaatimukset."
+title: Maksujen ja täsmäytysten (DK) laajennuksen käyttäminen | Microsoft Docs
+description: Tämän laajennuksen avulla on helppo viedä esimuotoiltuja tiedostoja, jotka täyttävät pankin sähköisiä lähetyksiä koskevat vaatimukset.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,14 +12,13 @@ ms.workload: na
 ms. search.keywords: extension, bank, formats
 ms.date: 10/01/2018
 ms.author: bholtorf
+ms.openlocfilehash: c8b829a69547ae8791e763e399012649dc750359
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: a39aeebdd75c1511739eb575205b1c7c34c9df11
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795767"
 ---
-
 # <a name="the-payments-and-reconciliations-dk-extension"></a>Maksujen ja täsmäytysten (DK) laajennus
 Tee nopeita ja virheettömiä maksuja tuomalla tiedostot, jotka on muotoiltu erityisesti toimittajan tai pankin kanssa tapahtuvia siirtoja varten. Nämä tiedostot nopeuttavat maksu- ja täsmäytysprosesseja ja eliminoivat virheet, joita voi tapahtua tietojen manuaalisessa syöttämisessä pankin sivustossa.  
 
@@ -106,4 +105,3 @@ Seuraavassa taulukossa ovat [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelma
 [SEPA-suoraveloitusmaksujen kirjaaminen](finance-how-to-post-sepa-direct-debit-payment-receipts.md)  
 [Maksujen kerääminen SEPA-suoraveloitusperintänä](finance-collect-payments-with-sepa-direct-debit.md)  
 [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md)  
-

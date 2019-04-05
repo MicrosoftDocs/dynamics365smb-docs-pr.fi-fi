@@ -1,6 +1,6 @@
 ---
-title: "Myyntipalautusten tai -peruutusten käsitteleminen | Microsoft Docs"
-description: "Ohjeaiheessa kerrotaan, miten luodaan myyntihyvityslasku joko suoraan tai myyntipalautustilauken kautta käsittelemään sellaisten nimikkeiden tai palvelujen palautus, peruutus tai hyvitys, joiden maksun olet vastaanottanut."
+title: Myyntipalautusten tai -peruutusten käsitteleminen | Microsoft Docs
+description: Ohjeaiheessa kerrotaan, miten luodaan myyntihyvityslasku joko suoraan tai myyntipalautustilauken kautta käsittelemään sellaisten nimikkeiden tai palvelujen palautus, peruutus tai hyvitys, joiden maksun olet vastaanottanut.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 46ea7cb3402f65d897cc8519a062ebbf8fb9b383
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 1c1bcb570f06719cfbb8930667a2f2847003d93c
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795673"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Myynnin palautusten tai peruutusten käsittely
 Jos asiakas haluaa palauttaa nimikkeitä tai saada hyvitystä nimikkeistä tai palveluista, jotka olet myynyt ja joista olet saanut maksun, sinun on luotava ja kirjattava myyntihyvityslasku, joka määrittää pyydetyn muutoksen. Voit sisällyttää oikeat myyntilaskun tiedot luomalla myyntihyvityslaskun suoraan kirjatusta myyntilaskusta. Vaihtoehtoiesti voi luoda uuden myyntihyvityslaskun, johon laskun tiedot on kopioitu.
 
-Jos myyntipalautuskäsittelyä, kuten nimikkeen käsittelyn varastoasiakirjoja, on hallittava paremmin tai jos haluat paremman yleiskuvan, kun useiden myyntiasiakirjojen nimikkeitä vastaanotetaan yhtenä myyntipalautuksena, voit luoda myyntipalautustilauksia. Myyntipalautustilaus lähettää automaattisesti liittyvän myyntihyvityslaskun ja tarvittaessa muut palautukseen liittyvät asiakirjat, kuten korvaavan myyntitilauksen. Lisätietoja on kohdassa Myyntipalautustilauksen luominen vähintään yhden kirjatun myyntiasiakirjan perusteella.
+Jos myyntipalautuskäsittelyä, kuten nimikkeen käsittelyn varastoasiakirjoja, on hallittava paremmin tai jos haluat paremman yleiskuvan, kun useiden myyntiasiakirjojen nimikkeitä vastaanotetaan yhtenä myyntipalautuksena, voit luoda myyntipalautustilauksia. Myyntipalautustilaus lähettää automaattisesti liittyvän myyntihyvityslaskun ja tarvittaessa muut palautukseen liittyvät asiakirjat, kuten korvaavan myyntitilauksen. Lisätietoja on kohdassa [Myyntipalautustilauksen luominen vähintään yhden kirjatun myyntiasiakirjan perusteella](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-return-order-based-on-one-or-more-a-posted-sales-documents).
 
 > [!NOTE]  
 >   Jos kirjattua myyntilaskua ei ole vielä maksettu, voit peruuttaa tapahtumat käyttämällä kirjatun myyntilaskun **Korjaa**- tai **Peruuta**-toimintoa. Nämä toiminnot toimivat vain maksamattomille laskuille, eivätkä ne tue osittaisia palautuksia tai peruutuksia. Lisätietoja on kohdassa [Maksamattomien myyntilaskujen korjaaminen tai peruuttaminen](sales-how-correct-cancel-sales-invoice.md).
@@ -40,7 +40,7 @@ Todellisten kustannusten peruuttamisen automaattista määrittämistä varten on
 
 |Toiminto|Description|  
 |------------------|---------------------------------------|  
-|**Myyntipalautustilaus**-sivun **Hae peruutettavat kirjatut asiakirjarivit** -toiminto|Kopioi vähintään yhden myyntipalautustilaukseksi käännettävän kirjatun asiakirjan rivit. Lisätietoja on kohdassa Myyntipalautustilauksen ja liittyvän myyntihyvityslaskun luominen vähintään yhdelle kirjatulle myyntilaskulle.|  
+|**Myyntipalautustilaus**-sivun **Hae peruutettavat kirjatut asiakirjarivit** -toiminto|Kopioi vähintään yhden myyntipalautustilaukseksi käännettävän kirjatun asiakirjan rivit. Lisätietoja on kohdassa [Myyntipalautustilauksen luominen vähintään yhden kirjatun myyntilaskun perusteella](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-return-order-based-on-one-or-more-a-posted-sales-documents).|  
 |**Myyntihyvityslasku**- ja **Myyntipalautustilaus**-sivujen **Kopioi asiakirja** -toiminto|Kopioi sekä otsikon että yhden kirjatun asiakirjan rivit peruutusta varten.<br /><br /> Edellyttää, että **Todellisen kust. peruutt. pakollinen** -valintaruutu on valittuna **Myyntien ja myyntisaamisten asetukset** -sivulla.|
 
 Jos haluat määrittää todellisten kustannusten peruuttamisen manuaalisesti, sinun on valittava **Kohdistus nimiketapahtumasta** -kenttä joltakin palautusasiakirjariviltä ja valittava sitten alkuperäisen myyntitapahtuman numero. Tämä linkittää myyntihyvityslaskun tai myyntipalautustilauksen alkuperäiseen myyntitapahtumaan ja varmistaa, että nimike arvostetaan alkuperäisissä yksikkökustannuksissa.
@@ -78,9 +78,9 @@ Kirjatut myyntiasiakirjat, jotka kohdistettiin hyvityslaskuun, on nyt peruutettu
 6. Valitse **Asiakirjanro**-kenttä, jos haluat avata **Kirjatut myyntilaskut** -sivun, ja valitse sitten kirjattu myyntilasku, joka sisältää peruutettavat rivit.
 7. Valitse **Laske rivit uudelleen** -valintaruutu, jos haluat päivittää kopioidut kirjatut myyntilaskurivit nimikkeen hinta- ja yksikkökustannusten muutoksilla, jotka ovat tapahtuneet laskun kirjaamisen jälkeen.
 8. Valitse **OK**-painike. Kopioidut laskurivit lisätään myyntihyvityslaskuun.
-9. Täytä myyntihyvityslasku tämän ohjeaiheen "Myyntihyvityslaskun luominen kirjatusta myyntilaskusta" -osassa esitetyllä tavalla.
+9. Täytä myyntihyvityslasku kohdan [Myyntihyvityslaskun luominen kirjatusta myyntilaskusta](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-credit-memo-from-a-posted-sales-invoice) mukaisesti.
 
-## <a name="to-create-a-sales-return-order-based-on-one-or-more-a-posted-sales-documents"></a>Myyntipalautustilauksen luominen vähintään yhden kirjatun myyntiasiakirjan perusteella
+## <a name="to-create-a-sales-return-order-based-on-one-or-more-posted-sales-documents"></a>Myyntipalautustilauksen luominen vähintään yhden kirjatun myyntiasiakirjan perusteella
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntipalautustilaukset** ja valitse sitten liittyvä linkki.
 2. Valitse **Uusi**-toiminto.  
 3. Täytä **Yleiset**-pikavälilehdessä tarvittavat kentät.
@@ -220,4 +220,3 @@ Voit myös poistaa manuaalisesti yksittäiset myyntipalautustilaukset.
 [Myynnin määrittäminen](sales-setup-sales.md)  
 [Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

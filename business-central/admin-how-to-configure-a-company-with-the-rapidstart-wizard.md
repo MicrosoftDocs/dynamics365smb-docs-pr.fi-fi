@@ -1,23 +1,23 @@
 ---
-title: "Yrityksen ja ohjatun RapidStart-toiminnon määrittäminen | Microsoft Docs"
-description: "Voit nopeasti määrittää uuden yrityksen, jonka olet luonut käyttämällä RapidStart Services -palvelun ohjattua määritystoimintoa."
+title: Yrityksen ja ohjatun RapidStart-toiminnon määrittäminen | Microsoft Docs
+description: Voit nopeasti määrittää uuden yrityksen, jonka olet luonut käyttämällä RapidStart Services -palvelun ohjattua määritystoimintoa.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 63120671100b7caac7f3cb08bd3fbbcd1d29ff5c
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 4dd595fabbf8e4cd2a3eef73a934922dfea92858
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795842"
 ---
 # <a name="configure-a-company-with-the-rapidstart-wizard"></a>Yrityksen ja ohjatun RapidStart-toiminnon määrittäminen
 Voit nopeasti määrittää uuden yrityksen, jonka olet luonut käyttämällä RapidStart Services -palvelun ohjattua määritystoimintoa.
@@ -33,7 +33,7 @@ Seuraavassa toimenpiteessä olet antanut asiakkaalle määrityspaketin, joka sit
 
     1. Käytä määritystä valitsemalla **Käytä pakettia** -toiminto. Tämä tuo kokoonpanopaketin ja käyttää paketin tietokantatietoja samanaikaisesti.  
 
-    2. Tarkista määritykset sen jälkeen, kun ne on otettu käyttöön. Tämän vaihtoehdon avulla voit tarkistella määritystietoja ja yhteistyökumppanin toimittamia kyselylomakkeita sekä tuoda joitakin perustietoja, joita yrityksesi tarvitsee. Valitse **Määritystyökirja**-toiminto. Lisätietoja on Määrityskyselylomakkeen viimeisteleminen -osan kohdassa [Asiakkaan asetusarvojen kerääminen](admin-gather-customer-setup-values.md).  
+    2. Tarkista määritykset sen jälkeen, kun ne on otettu käyttöön. Tämän vaihtoehdon avulla voit tarkistella määritystietoja ja yhteistyökumppanin toimittamia kyselylomakkeita sekä tuoda joitakin perustietoja, joita yrityksesi tarvitsee. Valitse **Määritystyökirja**-toiminto. Lisätietoja on kohdassa [Määrityskyselyn viimeisteleminen](admin-gather-customer-setup-values.md#to-complete-the-configuration-questionnaire).  
 
 6. Laajenna **Vaihe 5**-pikavälilehti. Määritä, minkä roolikeskuksen haluat uuden yrityksen oletusvalinnaksi.  
 
@@ -51,4 +51,3 @@ Olet nyt määrittänyt yrityksen ja ottanut tiedot käyttöön sitä varten.
 [Kokoonpanojen käyttäminen uusissa yrityksissä](admin-apply-configuration-to-new-companies.md)  
 [Yrityksen määrittäminen RapidStart Services -palvelun avulla](admin-set-up-a-company-with-rapidstart.md)  
 [Hallinta](admin-setup-and-administration.md)
-

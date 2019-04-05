@@ -1,23 +1,23 @@
 ---
-title: "Laskun pyöristyksen määrittäminen | Microsoft Docs"
-description: "Voit pyöristää laskujen summat, kun luot laskuja. Paikalliset määräykset tai tavat voivat lisäksi edellyttää laskun pyöristystä tietyllä tavalla (esimerkiksi niin, että summa on jaollinen luvulla 0,05)."
+title: Laskun pyöristyksen määrittäminen | Microsoft Docs
+description: Voit pyöristää laskujen summat, kun luot laskuja. Paikalliset määräykset tai tavat voivat lisäksi edellyttää laskun pyöristystä tietyllä tavalla (esimerkiksi niin, että summa on jaollinen luvulla 0,05).
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 2cd31544c029d66b838bbbdf27bebdcc73252014
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795766"
 ---
 # <a name="set-up-invoice-rounding"></a>Laskun pyöristyksen määrittäminen
 Jos laskujen summat on pyöristettävä laskuja luotaessa, voit käyttää automaattista pyöristystoimintoa. Kun lasku pyöristetään, lisätään lisärivi, joka sisältää pyöristyssumman ja joka kirjataan muiden laskurivien kanssa.
@@ -65,4 +65,3 @@ Laskun pyöristystoiminto on aktivoitava, jotta voit varmistaa myynti- ja ostola
 ## <a name="see-also"></a>Katso myös  
 [Myynnin laskutus](sales-how-invoice-sales.md)  
 [Ostojen kirjaus](purchasing-how-record-purchases.md)
-

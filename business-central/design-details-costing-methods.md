@@ -1,23 +1,23 @@
 ---
-title: "Rakennetiedot – Arvostusmenetelmät | Microsoft Docs"
-description: "Arvostusmenetelmä määrittää, siirretäänkö todellinen tai budjetoitu arvo pääomaan ja käytetäänkö sitä kustannuslaskennassa. Kirjauspäivämäärän ja järjestyksen kanssa arvostusmenetelmä vaikuttaa myös siihen, miten kustannusvirta tallennetaan."
+title: Rakennetiedot – Arvostusmenetelmät | Microsoft Docs
+description: Arvostusmenetelmä määrittää, siirretäänkö todellinen tai budjetoitu arvo pääomaan ja käytetäänkö sitä kustannuslaskennassa. Kirjauspäivämäärän ja järjestyksen kanssa arvostusmenetelmä vaikuttaa myös siihen, miten kustannusvirta tallennetaan.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: cd83ddd7dcda539327167e34489c227cd1fdb70e
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795001"
 ---
 # <a name="design-details-costing-methods"></a>Rakennetiedot: arvostusmenetelmät
 Arvostusmenetelmä määrittää, siirretäänkö todellinen vai budjetoitu arvo pääomaan ja käytetäänkö sitä kustannuslaskennassa. Yhdessä kirjauspäivämäärän ja järjestyksen kanssa arvostusmenetelmä vaikuttaa myös siihen, miten kustannusvirta tallennetaan. Seuraavia menetelmiä tuetaan kohteessa [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
@@ -159,4 +159,3 @@ Arvostusmenetelmä määrittää, siirretäänkö todellinen vai budjetoitu arvo
  [Rakennetiedot: Nimikkeen kohdistus](design-details-item-application.md) [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)  
  [Rahoitus](finance.md)  
  [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
-

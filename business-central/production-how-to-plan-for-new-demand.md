@@ -1,23 +1,23 @@
 ---
 title: Tilauskohtainen suunnittelu | Microsoft Docs
-description: "Tämä suunnittelutehtävä voidaan suorittaa **Tilauksen suunnittelu** -sivulla, jossa näkyvät kaikki uusi kysyntä, saatavuustiedot sekä tarjontaa koskevat ehdotukset. Ikkunan tietojen ja työkalujen avulla voidaan suunnitella tehokkaasti myynti- ja komponenttirivien synnyttämä kysyntä sekä luoda erityyppisiä toimitustilauksia suoraan."
+description: Tämä suunnittelutehtävä voidaan suorittaa **Tilauksen suunnittelu** -sivulla, jossa näkyvät kaikki uusi kysyntä, saatavuustiedot sekä tarjontaa koskevat ehdotukset. Ikkunan tietojen ja työkalujen avulla voidaan suunnitella tehokkaasti myynti- ja komponenttirivien synnyttämä kysyntä sekä luoda erityyppisiä toimitustilauksia suoraan.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: cee1e18d0c6c7fd8b37815d44c35f91ef5ef227c
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795768"
 ---
 # <a name="plan-for-new-demand-order-by-order"></a>Uuden kysynnän tilauskohtainen suunnittelu
 Tämä suunnittelutehtävä voidaan suorittaa **Tilauksen suunnittelu** -sivulla, jossa näkyvät kaikki uusi kysyntä, saatavuustiedot sekä tarjontaa koskevat ehdotukset. Ikkunan tietojen ja työkalujen avulla voidaan suunnitella tehokkaasti myynti- ja komponenttirivien synnyttämä kysyntä sekä luoda erityyppisiä toimitustilauksia suoraan.  
@@ -75,7 +75,7 @@ Sivulla näkyvät suunnittelurivit on suodatettu **Tuotantokysyntä**-suodatukse
     >  Valintamerkki voidaan lisätä vain, jos nimikkeen kortin **Varaa**-kentässä on arvo **Valinnainen** tai **Aina**.  
 
 8.  **Tilattava määrä** -kenttään voit antaa määrän, joka siirretään luotavaan toimitustilaukseen.   
-    Kentässä on oletusarvona on sama määrä kuin **Tarvittu määrä**-kentässä. Nimikettä voidaan kuitenkin tilata enemmän tai vähemmän sen mukaan, mitä tiedetään yleisestä kysyntätilanteesta. Jos esimerkiksi huomaat **Tilauksen suunnittelu**-sivulla, että samalle ostonimikkeelle on useita toisiinsa liittymättömiä kysyntärivejä, jotka ovat erääntymässä samoihin aikoihin, voit yhdistää rivit määrittämällä tarvittavan kokonaismäärän yhden rivin **Tilattava määrä** -kenttään ja poistamalla muut nimikkeen suunnittelurivit.  
+    Kentässä on oletusarvona on sama määrä kuin **Tarvittu määrä** -kentässä. Nimikettä voidaan kuitenkin tilata enemmän tai vähemmän sen mukaan, mitä tiedetään yleisestä kysyntätilanteesta. Jos esimerkiksi huomaat **Tilauksen suunnittelu**-sivulla, että samalle ostonimikkeelle on useita toisiinsa liittymättömiä kysyntärivejä, jotka ovat erääntymässä samoihin aikoihin, voit yhdistää rivit määrittämällä tarvittavan kokonaismäärän yhden rivin **Tilattava määrä** -kenttään ja poistamalla muut nimikkeen suunnittelurivit.  
 
 9.  **Eräpäivä**- ja **Tilauspvm**-kenttiin voit antaa päivämäärät, joita käytetään luoduissa toimitustilauksissa.  
 
@@ -119,4 +119,3 @@ Kun **Tilauksen suunnittelu** -sivun suunnitelma on valmis (nimikkeelle on esime
 [Rakennetiedot: Toimitusten suunnittelu](design-details-supply-planning.md)   
 [Parhaiden käytäntöjen määrittäminen: Toimitusten suunnittelu](setup-best-practices-supply-planning.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

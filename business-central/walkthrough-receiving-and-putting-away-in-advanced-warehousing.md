@@ -1,21 +1,21 @@
 ---
-title: "Vastaanotto ja hyllytys laajennetussa fyysisessä varastoinnissa | Microsoft Docs"
-description: "Business Central -sovelluksessa vastaanoton ja hyllytyksen saapuvat prosessit voidaan suorittaa neljällä tavalla eri toimintojen avulla varastotason monimutkaisuuden mukaan."
+title: Vastaanotto ja hyllytys laajennetussa fyysisessä varastoinnissa | Microsoft Docs
+description: Business Central -sovelluksessa vastaanoton ja hyllytyksen saapuvat prosessit voidaan suorittaa neljällä tavalla eri toimintojen avulla varastotason monimutkaisuuden mukaan.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
 ms.openlocfilehash: 8d9ce13690a1db0e06d3ea204b0c95ac7cb21d33
-ms.contentlocale: fi-fi
-ms.lasthandoff: 01/31/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795346"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Vaihekuvaus: Vastaanotto ja hyllytys laajennetuissa varastomäärityksissä
 
@@ -159,4 +159,3 @@ Voit hallita **Kirjaa vast.otto** -sivulla tietyn, useita lähdeasiakirjoja katt
  [Rakennetiedot: saapuvan fyysisen varastoinnin virta](design-details-inbound-warehouse-flow.md)   
  [Vaihekuvaus: Vastaanotto ja hyllytys fyysisen varastoinnin perusmäärityksissä](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)   
  [Liiketoimintaprosessien vaihekuvaukset](walkthrough-business-process-walkthroughs.md)
-

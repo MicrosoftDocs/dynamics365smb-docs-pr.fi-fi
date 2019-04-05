@@ -1,18 +1,18 @@
 ---
-title: "Käyttäjien ja roolien hallinta | Microsoft Docs"
-description: "Tässä ohjeaiheessa kerrotaan, miten Business Central -sovelluksen käyttäjiä ja roolikeskuksia hallitaan."
+title: Käyttäjien ja roolien hallinta | Microsoft Docs
+description: Tässä ohjeaiheessa kerrotaan, miten Business Central -sovelluksen käyttäjiä ja roolikeskuksia hallitaan.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: profiles, users
 ms.date: 10/24/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 7ecd8a5ad2b321d4d1683047e70ede90c7ce229f
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796002"
 ---
 # <a name="understanding-users-profiles-and-role-centers"></a>Tietoja käyttäjistä, profiileista ja roolikeskuksista
 
@@ -99,4 +99,3 @@ Käyttäjät voivat mukauttaa henkilökohtaisen versionsa käyttöliittymää mu
 [Käyttäjien ja käyttöoikeuksien hallinta](ui-how-users-permissions.md)  
 [Mukautuksen hallinta järjestelmänvalvojana](ui-personalization-manage.md)  
 [Työtilan mukauttaminen](ui-personalization-user.md)  
-

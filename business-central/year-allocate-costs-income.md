@@ -1,8 +1,8 @@
 ---
-title: "Kustannusten ja tulojen kohdistustehtävien yleiskatsaus | Microsoft Docs"
-description: "Tässä ohjeaiheessa kerrotaan tehtävistä, joilla voi kohdistaa yleisen päiväkirjan tapahtuman useille eri tileille päiväkirjan kirjaamisen yhteydessä."
+title: Kustannusten ja tulojen kohdistustehtävien yleiskatsaus | Microsoft Docs
+description: Tässä ohjeaiheessa kerrotaan tehtävistä, joilla voi kohdistaa yleisen päiväkirjan tapahtuman useille eri tileille päiväkirjan kirjaamisen yhteydessä.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 0c761db3f76d1fff05dd75a08a586f52386b5b88
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795501"
 ---
 # <a name="allocate-costs-and-income"></a>Kohdista kustannukset ja tulot
 Voit kohdistaa yleisen päiväkirjan tapahtuman useille eri tileille päiväkirjan kirjaamisen yhteydessä. Kohdistamisen voi tehdä kolmella eri tavalla:
@@ -57,4 +57,3 @@ Voit kohdistaa toistuvan yleisen päiväkirjan tapahtuman useille eri tileille p
 [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md)    
 [Asiakirjojen ja päiväkirjojen kirjaaminen](ui-post-documents-journals.md)    
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

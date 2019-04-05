@@ -1,8 +1,8 @@
 ---
-title: "Tapahtumien esikatselu ennen asiakirjan tai päiväkirjan kirjaamista | Microsoft Docs"
-description: "Voit varmistaa, että asiakirjojen ja päiväkirjojen tapahtumat ovat oikein, ennen kuin kirjaat ne pääkirjanpitoon."
+title: Tapahtumien esikatselu ennen asiakirjan tai päiväkirjan kirjaamista | Microsoft Docs
+description: Voit varmistaa, että asiakirjojen ja päiväkirjojen tapahtumat ovat oikein, ennen kuin kirjaat ne pääkirjanpitoon.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2018
 ms.author: solsen
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 18c650a9f4c7fe1fa8daf8d9bac0949d90e3fc4f
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796377"
 ---
 # <a name="preview-posting-results"></a>Kirjaustulosten esikatselu
 Voit valita jokaiselle asiakirjalle ja päiväkirjalle **Esikatsele kirjausta** -painikkeen. Sen avulla voit tarkastella eri tapahtumatyyppejä, joita luodaan asiakirjan tai päiväkirjan kirjaamisen yhteydessä.
@@ -31,5 +31,4 @@ Voit valita jokaiselle asiakirjalle ja päiväkirjalle **Esikatsele kirjausta** 
 ## <a name="see-also"></a>Katso myös
 [Asiakirjojen ja päiväkirjojen kirjaaminen](ui-post-documents-journals.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-
 

@@ -1,6 +1,6 @@
 ---
-title: "Maksujen täsmäyttäminen eron tilille siirron toiminnolla | Microsoft Docs"
-description: "Tässä ohjeaiheessa kerrotaan, miten käsitellään maksut, joita ei voi kohdistaa asiakirjaan esimerkiksi silloin, kun summat eivät ole samat vaihtokurssin vuoksi."
+title: Maksujen täsmäyttäminen eron tilille siirron toiminnolla | Microsoft Docs
+description: Tässä ohjeaiheessa kerrotaan, miten käsitellään maksut, joita ei voi kohdistaa asiakirjaan esimerkiksi silloin, kun summat eivät ole samat vaihtokurssin vuoksi.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipts
-ms.date: 10/01/2018
+ms.date: 03/05/2019
 ms.author: sgroespe
+ms.openlocfilehash: 7d952f46d5e688fe1b86077723a0482c91995661
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 519696376cba2e494ad83b3e1bce442de8299884
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796013"
 ---
 # <a name="reconcile-payments-that-cannot-be-applied-automatically"></a>Niiden maksujen täsmäyttäminen, joita ei voi kohdistaa automaattisesti
 Joskus pankkitilillä käsitellään maksuja, joita ei voi kohdistaa liittyvään avoimeen asiakas-, toimittaja- tai pankkitapahtumaan. Syy voi olla se, että [!INCLUDE[d365fin](includes/d365fin_md.md)]issa ei ole asiakirjaa, johon maksu voitaisiin kohdistaa, tai [!INCLUDE[d365fin](includes/d365fin_md.md)]in liittyvä asiakirja sisältää eri summan kuin tapahtuman summa esimerkiksi valuuttamuutoksen vuoksi. Kaikki niiden maksujen tapahtumien summat, joita ei ole vielä kohdistettu, näkyvät **Maksujen täsmäytyskirjauskansio** -sivun **Ero**-kentässä. Siellä näkyvät esimerkiksi summat, joita ei voi kohdistaa edellä mainittujen syiden vuoksi.
@@ -30,7 +30,7 @@ Voit täsmäyttää tällaiset maksut valitsemalla **Siirrä erotus tilille** ja
 > [!TIP]  
 >   Vastaavan toiminnon avulla voit määrittää automaattisen täsmäytyksen toistuville maksuille, joita ei voi kohdistaa liittyviin avoimiin asiakas-, toimittaja- tai pankkitapahtumiin. Lisätietoja on kohdassa [Toistuvien maksujen tekstin yhdistäminen tileihin automaattisen täsmäytyksen suorittamiseksi](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
 
-## <a name="to-reconcile-payments-that-cannot-be-applied"></a>Niiden maksujen täsmäyttäminen, joita ei voi kohdistaa
+## <a name="to-reconcile-payments-that-cannot-be-applied-automatically"></a>Niiden maksujen täsmäyttäminen, joita ei voi kohdistaa automaattisesti
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maksujen täsmäytyskirjauskansiot** ja valitse sitten liittyvä linkki.
 2. Avaa maksun täsmäytyksen päiväkirja. Lisätietoja on kohdassa [Maksujen täsmäyttäminen käyttämällä automaattista kohdistusta](receivables-how-reconcile-payments-auto-application.md).
 3. Valitse **Siirrä erotus tilille**. **Siirrä erotus tilille** -sivu avautuu.
@@ -47,4 +47,3 @@ Jos **Ero**-kentän arvo on pienempi kuin **Tapahtuman summa** -kentän arvon, s
 [Myyntisaamisten hallinta](receivables-manage-receivables.md)  
 [Myynti](sales-manage-sales.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

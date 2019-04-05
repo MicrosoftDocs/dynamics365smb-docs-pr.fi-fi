@@ -1,23 +1,23 @@
 ---
-title: "Vakiokustannusten päivittäminen | Microsoft Docs"
-description: "Komponenttien vakiokustannukset on päivitettävä säännöllisesti ja uudet kustannukset on vyörytettävä päänimikkeelle."
+title: Vakiokustannusten päivittäminen | Microsoft Docs
+description: Komponenttien vakiokustannukset on päivitettävä säännöllisesti ja uudet kustannukset on vyörytettävä päänimikkeelle.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 88e715ddd2c60c3eb780ffe71d80676fdea00209
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795923"
 ---
 # <a name="update-standard-costs"></a>Vakiokustannusten päivittäminen
 Komponenttien vakiokustannukset on päivitettävä säännöllisesti ja uudet kustannukset on vyörytettävä päänimikkeelle. Prosessi sisältää yleensä seuraavat neljä vaihetta:  
@@ -45,6 +45,5 @@ Lisätietoja on kohdassa [Tietoja vakiokustannusten laskennasta](finance-about-c
 ## <a name="see-also"></a>Katso myös  
  [Tietoja standardikustannuksen laskemisesta](finance-about-calculating-standard-cost.md)   
  [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)   
- [Rakennetiedot: arvostusmenetelmät](design-details-costing-methods.md) [[Rahoitus](finance.md)]  
+ [Rakennetiedot: arvostusmenetelmät](design-details-costing-methods.md) [Rahoitus](finance.md)  
  [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
-

@@ -1,23 +1,23 @@
 ---
-title: "Suunnitteluehdotusten muokkaaminen graafisessa näkymässä | Microsoft Docs"
-description: "Tyypillinen suunnittelun tehtävä on muuttaa tai lisätä suunnittelutyökirjan rivejä ehdotettujen toimitustilausten muokkaamiseksi ennen kuin ne suoritetaan **Toteuta toimenpideviesti** -toiminnolla. Vaihtoehtona suunnittelutyökirjassa on graafinen esitys."
+title: Suunnitteluehdotusten muokkaaminen graafisessa näkymässä | Microsoft Docs
+description: Tyypillinen suunnittelun tehtävä on muuttaa tai lisätä suunnittelutyökirjan rivejä ehdotettujen toimitustilausten muokkaamiseksi ennen kuin ne suoritetaan **Toteuta toimenpideviesti** -toiminnolla. Vaihtoehtona suunnittelutyökirjassa on graafinen esitys.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 35b8694710f031d99e4cfb6b5e0927266d7559b9
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 4de53621a71569579fa05092dca36d8301098ffe
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796032"
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a>Suunnitteluehdotusten muokkaaminen graafisessa näkymässä
 Tyypillinen suunnittelun tehtävä on muuttaa tai lisätä suunnittelutyökirjan rivejä ehdotettujen toimitustilausten muokkaamiseksi ennen kuin ne suoritetaan **Toteuta toimenpideviesti** -toiminnolla. Vaihtoehtona suunnittelutyökirjassa on graafinen esitys.
@@ -42,7 +42,7 @@ Seuraavassa ohjeessa neuvotaan, miten tarjontaehdotuksia voi muokata vetämäll�
     **Nimikkeen saatavuus aikajanalla** -sivu näyttää auetessaan nimikkeen numeron, sijainnin ja variantin valitulla suunnittelurivillä, joka on esitäytetty **Asetukset**-pikavälilehden kenttien mukaisesti. **Aikajana**-pikavälilehdessä näkyy graafinen esitys nimikkeen suunnitellusta varastosta, mukaan lukien suunnitteluehdotuksista.  
 
 2.  Varmista, että  **Sisällytä suunnitteluehdotukset** -kenttä on valittuna.  
-3.  Etsi ehdotettu toimitustilaus, jota haluat muokata. Voit määrittää muokattavia osia vihreän ympyrän ja levykuvakeen avulla. Lisätietoja eri symboleista on kohdassa Symbolit ja kuvakkeet Aikajana-pikavälilehdellä.  
+3.  Etsi ehdotettu toimitustilaus, jota haluat muokata. Voit määrittää muokattavia osia vihreän ympyrän ja levykuvakeen avulla. Lisätietoja eri symboleista on kohdassa [Symbolit ja kuvakkeet Aikajana-pikavälilehdellä](production-how-to-modify-planning-suggestions-in-a-graphical-view.md#symbols-and-icons-on-the-timeline-fasttab).  
 4.  Vie osoitin vihreän ympyrän päälle, kunnes se laajenee ja osoitin muuttuu siirtomuotoiseksi (neljä nuolta).  
 5.  Pitämällä hiiripainiketta alhaalla vetäessäsi osoitinta ylös tai alas voit muokata määrää. Pitämällä hiiripainiketta alhaalla vetäessäsi osoitinta vasemmalle tai oikealle voit muokata eräpäivää.  
 6.  Sen lisäksi että elementtejä voi siirtää vetämällä ja pudottamalla, voit muokata suunnitteluehdotuksia avattavan valikon toiminnoilla. Voit käyttää ehdotetun toimituselementin vihreän ympyrän avattavaa valikko ja valita jonkin seuraavista toiminnoista  
@@ -99,4 +99,3 @@ Aiemmin mainittujen näppäimistötoimintojen lisäksi voit käyttää myös **A
 [Rakennetiedot: Toimitusten suunnittelu](design-details-supply-planning.md)   
 [Parhaiden käytäntöjen määrittäminen: Toimitusten suunnittelu](setup-best-practices-supply-planning.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

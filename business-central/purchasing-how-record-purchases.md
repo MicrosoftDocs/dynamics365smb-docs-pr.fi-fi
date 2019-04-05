@@ -1,7 +1,7 @@
 ---
 title: Ostolaskun luominen ja ostojen kirjaaminen | Microsoft Docs
-description: "Tässä ohjeaiheessa kerrotaan, miten varasto- tai palvelunimikkeitä ostetaan luomalla ja kirjaamalla ostolaskuja tai -tilauksia."
-documentationcenter: 
+description: Tässä ohjeaiheessa kerrotaan, miten varasto- tai palvelunimikkeitä ostetaan luomalla ja kirjaamalla ostolaskuja tai -tilauksia.
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: procurement
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: cc0a5e88342e9f4c7493cf9d3390c248e6dd36b9
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795925"
 ---
 # <a name="record-purchases"></a>Ostojen kirjaus
 Voit luoda ostolaskun tai -tilauksen ostojen kustannusten tallentamiseksi ja ostoreskontran seuraamiseksi. Jos haluat hallita varastoa, myös ostolaskuja ja -tilauksia käytetään varastotasojen dynaamiseen päivittämiseen, jotta voit minimoida varaston kustannukset ja tarjota parempaa asiakaspalvelua. Ostokustannukset, kuten palvelukulut, ja varastoarvot, jotka aiheutuvat ostolaskujen tai -tilausten kirjaamisesta, vaikuttavat tuottolukuihin ja muihin talouden KPI-arvoihin roolikeskuksessasi.
@@ -79,4 +79,3 @@ Osto vaikuttaa nyt varastoon ja taloustietueisiin, ja myyjän maksu on aktivoitu
 [Uusien toimittajien rekisteröiminen](purchasing-how-register-new-vendors.md)  
 [Suoratoimitusten valmisteleminen](sales-how-drop-shipment.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

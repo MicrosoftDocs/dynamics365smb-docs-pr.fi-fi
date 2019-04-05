@@ -1,7 +1,7 @@
 ---
 title: Myyntitarjouksen luominen asiakkaalle | Microsoft Docs
-description: "Ohjeaiheessa käsitellään, miten luodaan myyntitarjous- tai tarjouspyyntöasiakirja kirjaamaan asiakkaalle tehty tarjous tuotteiden myynnistä tietyin ehdoin."
-documentationcenter: 
+description: Ohjeaiheessa käsitellään, miten luodaan myyntitarjous- tai tarjouspyyntöasiakirja kirjaamaan asiakkaalle tehty tarjous tuotteiden myynnistä tietyin ehdoin.
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: rfq
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 9cf65b029527dfd046223e82b92b57a48d43bb19
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795601"
 ---
 # <a name="make-sales-quotes"></a>Myyntitarjousten tekeminen
 Luot myyntitarjouksen tallentaaksesi tarjouksen asiakkaalle myydäksesi määrätyt tuotteet määrätyillä toimitus- ja maksuehdoilla. Voit lähettää myyntitarjouksen asiakkaalle kommunikoidaksenne tarjouksesta. Voit lähettää asiakirjan sähköpostitse PDF-liitteenä. Sähköpostin perusteksti voidaan esitäyttää tarjouksen yhteenvedolla. Lisätietoja on kohdassa [Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md).
@@ -82,4 +82,3 @@ Myyntitarjous on poistettu tietokannasta. Myyntilasku tai -tilaus luodaan myynti
 [Myynnin määrittäminen](sales-setup-sales.md)  
 [Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

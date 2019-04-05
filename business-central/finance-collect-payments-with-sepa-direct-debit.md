@@ -1,23 +1,23 @@
 ---
 title: Business Central -sovelluksen SEPA-suoraveloitus | Microsoft Docs
-description: "Voit periä maksut suoraan asiakkaan pankkitililtä SEPA-muodon mukaisesti."
+description: Voit periä maksut suoraan asiakkaan pankkitililtä SEPA-muodon mukaisesti.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/15/2018
 ms.author: sgroespe
+ms.openlocfilehash: f917bed9eedf3c0aa8227d9c207de5e38f60a791
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: c732702808f807396702cef9ef0a1a22354ead15
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795770"
 ---
-# <a name="collecting-payments-with-sepa-direct-debit"></a>Maksujen periminen SEPA-suoraveloituksena
+# <a name="collect-payments-with-sepa-direct-debit"></a>Maksujen kerääminen SEPA-suoraveloitusperintänä.
 Asiakkaan suostumuksella voit kerätä maksut suoraan asiakkaan pankkitililtä SEPA-muodon mukaisesti.  
 
  Määritä ensin pankkitiedoston vientimuoto, joka ohjaa pankkia suorittamaan suoraveloituksen. Määritä sitten asiakkaan maksutapa. Määritä lopuksi asiakkaasi kanssa sovitun mukainen suoraveloitusvaltakirja, jolla heidän maksunsa peritään tietyllä sopimusjaksolla.  
@@ -61,7 +61,7 @@ Ennen kuin voit käsitellä asiakkaan maksuja sähköisesti viemällä suoravelo
     >  Älä anna arvoa **Vastatilin nro** -kenttään.  
 
 4. Valitse **OK**-painike **Maksutavat**-sivun sulkemiseksi.  
-5. Syötä **Etsi**-ruudussa **Asiakkaat** ja valitse sitten vastaava linkki.  
+5. Anna **Etsi**-ruudussa **Asiakkaat** ja valitse sitten vastaava linkki.  
 6. Avaa asiakkaan kortti asiakkaalle, jolle haluat määrittää SEPA-suoraveloitusperinnän.  
 7. Valitse **Maksutavan koodi** -kenttä ja sitten maksutavan koodi, jonka määritit vaiheessa 3.  
 8. Toista vaiheet 6–7 kaikille asiakkaille, joille haluat määrittää SEPA-suoraveloitusperinnän.  
@@ -96,7 +96,7 @@ Ennen kuin voit käsitellä asiakkaan maksuja sähköisesti viemällä suoravelo
 
 ### <a name="to-create-a-direct-debit-collection"></a>Suoraveloitusperinnän luominen  
 
- 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Suoraveloitusperinnät** ja valitse sitten liittyvä linkki.  
+ 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Suoraveloitusperinnät** ja valitse sitten liittyvä linkki.  
  2. Valitse **Suoraveloitusperinnät**-sivun **Koti**-välilehden **Uusi**-ryhmässä **Luo suoraveloitusperintä**.  
  3. Täytä **Luo suoraveloitusperintä**-sivun kentät seuraavassa taulukossa kuvatulla tavalla.  
 
@@ -158,4 +158,3 @@ Ennen kuin voit käsitellä asiakkaan maksuja sähköisesti viemällä suoravelo
 
 ## <a name="see-also"></a>Katso myös  
 [Myyntisaamisten hallinta](receivables-manage-receivables.md)
-

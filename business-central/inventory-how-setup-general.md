@@ -1,8 +1,8 @@
 ---
-title: "Yleisten varastonhallinnan asetusten määrittäminen| Microsoft Docs"
-description: "Ohjeaiheessa kerrotaan, miten yleiset varastonhallinnan asetukset, kuten numerosarjat ja sijainnit, määritetään varastorakennuksen ja varaston hallintaa varten."
+title: Yleisten varastonhallinnan asetusten määrittäminen| Microsoft Docs
+description: Ohjeaiheessa kerrotaan, miten yleiset varastonhallinnan asetukset, kuten numerosarjat ja sijainnit, määritetään varastorakennuksen ja varaston hallintaa varten.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: warehouse, stock
 ms.date: 11/06/2018
 ms.author: SorenGP
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: dd7d3c34aca37bb60a81df3e461bdc19176c4b64
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796182"
 ---
 # <a name="set-up-general-inventory-information"></a>Yleisten varastotietojen määrittäminen
 Yleiset varastoasetukset määritetään **Varastonhallinnan asetukset** -sivulla.
@@ -35,4 +35,3 @@ Jos haluat sisällyttää fyysisen varastoinnin käsittelyajan ostorivin toimitu
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)
-

@@ -1,6 +1,6 @@
 ---
-title: "Kommenttien lisääminen kortteihin ja asiakirjoihin | Microsoft Docs"
-description: "Lisää tietoja tileihin, asiakkaiden kortteihin tai myyntitilauksiin ja jaa muille käyttäjille tietoja sopimuksista, kuten erikoishinnoista tai toimitustavasta."
+title: Kommenttien lisääminen kortteihin ja asiakirjoihin | Microsoft Docs
+description: Lisää tietoja tileihin, asiakkaiden kortteihin tai myyntitilauksiin ja jaa muille käyttäjille tietoja sopimuksista, kuten erikoishinnoista tai toimitustavasta.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: tasks, work
 ms.date: 10/03/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 27a1fcc2bb0efd79e95f10c78dbae54869c59703
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795969"
 ---
 # <a name="add-comments-to-cards-and-documents"></a>Kommenttien lisääminen kortteihin ja asiakirjoihin
 Voit lisätä tietoja KP-tileihin, asiakkaiden kortteihin tai myyntitilauksiin ja jakaa muille käyttäjille tietoja poikkeuksista tai erikoissopimuksista.
@@ -39,4 +39,3 @@ Seuraavassa kerrotaan, miten kommentti lisätään nimikkeen korttiin. Vaiheet o
 ## <a name="see-also"></a>Katso myös
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)
-

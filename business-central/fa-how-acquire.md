@@ -1,8 +1,8 @@
 ---
-title: "Käyttöomaisuuden hankinta| Microsoft Docs"
-description: "Voit määrittää käyttöomaisuuserän, liittää poistokirjan ja kirjata käyttöomaisuuserän hankintakustannuksen."
+title: Käyttöomaisuuden hankinta| Microsoft Docs
+description: Voit määrittää käyttöomaisuuserän, liittää poistokirjan ja kirjata käyttöomaisuuserän hankintakustannuksen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchase fixed asset
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 56062eb42db00408031cff5438cc2b9276011d27
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 2839753f888dfd76e17672c36b15da47a344900f
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795654"
 ---
 # <a name="acquire-fixed-assets"></a>Hankittu käyttöomaisuus
 Kunkin käyttöomaisuuserän osalta tulee määrittää kortti, joka sisältää tietoja kyseisestä käyttöomaisuuserästä. Voit määrittää rakennuksia tai tuotantolaitoksia pääkäyttöomaisuuseräksi. Voit myös ryhmitellä niitä eri tavoin, kuten esimerkiksi luokan, osaston ja sijainnin mukaan. Kullekin käyttöomaisuuserälle on määritettävä ja liitettävä poistokirja ennen hankintaa.
@@ -29,12 +29,12 @@ Jäännösarvo on käyttöomaisuuden jäljellä oleva arvo silloin, kun käyttö
 Indeksointia käytetään muuttamaan arvoja yleisten hintatason muutosten mukaan. Tee **Indeksimuutos KO:teen** -eräajoa voidaan käyttää laskemaan hankintamenot vaihtokustannuksilla.
 
 ## <a name="to-create-a-fixed-asset-and-acquire-it-automatically"></a>Käyttöomaisuuden luominen ja hankinta automaattisesti
-Seuraavassa kuvataan, miten käyttöomaisuuserä luodaan ja miten se hankitaan **Käyttöomaisuuden avustettu hankinta** -sivun avulla vaaditun käyttöomaisuuserän KP-päiväkirjarivien luomista ja kirjaamista varten. Voit myös luoda ja kirjata päiväkirjarivit manuaalisesti. Lisätietoja on "Käyttöomaisuuden hankinnan kirjaaminen manuaalisesti käyttöomaisuuden KP-päiväkirjan avulla" -osassa.
+Seuraavassa kuvataan, miten käyttöomaisuuserä luodaan ja miten se hankitaan **Käyttöomaisuuden avustettu hankinta** -sivun avulla vaaditun käyttöomaisuuserän KP-päiväkirjarivien luomista ja kirjaamista varten. Voit myös luoda ja kirjata päiväkirjarivit manuaalisesti. Lisätietoja on kohdassa [Käyttöomaisuuden hankinnan kirjaaminen manuaalisesti käyttöomaisuuden KP-päiväkirjan avulla](fa-how-acquire.md#to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal).
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttöomaisuus** ja valitse sitten liittyvä linkki.  
 2. Valitse **Uusi**-toiminto ja täytä tarvittaessa **Yleinen**-pikavälilehden kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Täytä **Poistokirja**-pikavälilehden kentät tarvittaessa. Tässä vaiheessa poistokirja liitetään käyttöomaisuuteen.  
-4. Jos käyttöomaisuuteen on liitettävä useita poistokirjoja, valitse **Lisää poistokirjoja** -toiminto. Lisätietoja on kohdan [Käyttöomaisuuden poiston määrittäminen](fa-how-setup-depreciation.md) osassa Poistokirjan lisääminen käyttöomaisuuteen.
+4. Jos käyttöomaisuuteen on liitettävä useita poistokirjoja, valitse **Lisää poistokirjoja** -toiminto. Lisätietoja on kohdassa [Käyttöomaisuuden poistokirjan määrittäminen](fa-how-setup-depreciation.md#to-assign-a-depreciation-book-to-a-fixed-asset).
 
     Kun kaikki käyttöomaisuuden hankinnassa vaadittavat kentät on täytetty, sivun yläosaan tulee näkyviin **Nyt voit hankkia käyttöomaisuuden. Hanki** -ilmoitus.
 5. Valitse ilmoituksen **Hanki**-toiminto.
@@ -59,7 +59,7 @@ Sekä pääkäyttöomaisuuserä että kaikki sen komponentit tulee määrittää
 7. Valitse **Salli kirj. Pääkäyttöom.eriin** -valintaruutu.
 
 ## <a name="to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal"></a>Käyttöomaisuuden hankinnan kirjaaminen manuaalisesti käyttöomaisuuden KP-päiväkirjan kanssa
-Seuraavassa kerrotaan, miten käyttöomaisuus hankitaan manuaalisesti luomalla ja kirjaamalla rivit **Käyttöom. KP-päiväkirja** -sivulla. Voit hankkia käyttöomaisuuden myös automaattisesti **Käyttöomaisuuden avustettu hankinta** -sivun avulla. Lisätietoja on "Käyttöomaisuuden luominen ja hankinta automaattisesti" -osan vaiheessa 5.
+Seuraavassa kerrotaan, miten käyttöomaisuus hankitaan manuaalisesti luomalla ja kirjaamalla rivit **Käyttöom. KP-päiväkirja** -sivulla. Voit hankkia käyttöomaisuuden myös automaattisesti **Käyttöomaisuuden avustettu hankinta** -sivun avulla. Lisätietoja on kohdan [Käyttöomaisuuden luominen ja hankinta automaattisesti](fa-how-acquire.md#to-create-a-fixed-asset-and-acquire-it-automatically) vaiheessa 5.
 
 > [!NOTE]  
 >   Voit kirjata hankintamenon myös hyvityksinä. Muista tällöin, että **Summa**-kentän arvon edessä on oltava hyvityksen osoittava miinusmerkki.
@@ -91,7 +91,7 @@ Voit peruuttaa useiden käyttöomaisuuserien tapahtumakirjaukset kerralla **Peru
 Jäännösarvon voi kirjata käyttöomaisuuden KP-päiväkirjasta yhdessä hankintamenon kanssa.    
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Peruuta KO -tapahtumia** ja valitse sitten liittyvä linkki.
-2. Luo hankinnan kirjauskansiorivi. Lisätietoja on "Käyttöomaisuuden hankinnan kirjaaminen manuaalisesti käyttöomaisuuden KP-päiväkirjan avulla" -osassa.
+2. Luo hankinnan kirjauskansiorivi. Lisätietoja on kohdassa [Käyttöomaisuuden hankinnan kirjaaminen manuaalisesti käyttöomaisuuden KP-päiväkirjan avulla](fa-how-acquire.md#to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal).
 3. Syötä jäännösarvosumma hyvityksenä (miinusmerkillä varustettuna) **Jäännösarvo**-kenttään.
 4. Valitse **Kirjaa**-toiminto.
 
@@ -104,4 +104,3 @@ Jäännösarvon voi kirjata käyttöomaisuuden KP-päiväkirjasta yhdessä hanki
 [Rahoitus](finance.md)  
 [Käytön aloittaminen](product-get-started.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

@@ -1,8 +1,8 @@
 ---
-title: "Dimensioiden käyttäminen| Microsoft Docs"
-description: "Voit käyttää dimensioita tapahtumien luokitteluun esimerkiksi osasto- tai projektikohtaisesti, jonka ansiosta tietojen seuranta ja analysointi helpottuu."
+title: Dimensioiden käyttäminen| Microsoft Docs
+description: Voit käyttää dimensioita tapahtumien luokitteluun esimerkiksi osasto- tai projektikohtaisesti, jonka ansiosta tietojen seuranta ja analysointi helpottuu.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: analysis, history, track
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: ac8d1f84c3daacbee931d559e6f67f4351df73c5
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796301"
 ---
 # <a name="working-with-dimensions"></a>Dimensioiden käyttäminen
 Voit yksinkertaistaa asiakirjojen, kuten myyntitilausten, analysointia dimensioiden avulla. Dimensiot ovat tapahtumia luokittelevia määritteitä ja arvoja, joita voi seurata ja analysoida. Dimensioiden avulla voit esimerkiksi ilmaista, mistä projektista tai osastosta tapahtuma on lähtöisin.  
@@ -176,4 +176,3 @@ Tapahtumasivulla näet, onko tapahtumille globaaleja dimensioita. Kaksi globaali
 [Rahoitus](finance.md)  
 [Tietojen analysointi dimensioiden mukaan](bi-how-analyze-data-dimension.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
-

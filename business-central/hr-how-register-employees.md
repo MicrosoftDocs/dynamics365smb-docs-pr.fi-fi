@@ -1,8 +1,8 @@
 ---
-title: "Työntekijöiden määrittäminen ja tietojen muokkaaminen| Microsoft Docs"
-description: "Artikkelissa käsitellään, miten uusi henkilöstö rekisteröidään tai nykyisen henkilökunnan tietoja muokataan."
+title: Työntekijöiden määrittäminen ja tietojen muokkaaminen| Microsoft Docs
+description: Artikkelissa käsitellään, miten uusi henkilöstö rekisteröidään tai nykyisen henkilökunnan tietoja muokataan.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
 ms.date: 10/01/2018
 ms.author: SorenGP
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 74750011c638cf3733e20d7ab996887108bc2159
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795994"
 ---
 # <a name="register-employees"></a>Työntekijöiden rekisteröiminen
 Henkilöstöhallinnan toimintojen käyttämiseksi sinun on rekisteröitävä kukin työntekijä luomalla heille kortti, joka sisältää kaikki perus- ja lisätiedot.
@@ -61,4 +61,3 @@ Vaihtoehtoisten osoitteiden avulla voit jäljittää työntekijöittesi sijainte
 [Rahoitus](finance.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md)
-

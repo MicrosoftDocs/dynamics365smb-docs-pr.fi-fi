@@ -1,6 +1,6 @@
 ---
-title: "Kontaktihenkilöiden luominen| Microsoft Docs"
-description: "Tässä ohjeaiheessa kerrotaan tehtävistä, joilla luodaan henkilölle, kuten prospektille tai toimittajalle, kontaktin kortti helpottamaan suhteen määrittämistä ja räätälöimään viestintää."
+title: Kontaktihenkilöiden luominen| Microsoft Docs
+description: Tässä ohjeaiheessa kerrotaan tehtävistä, joilla luodaan henkilölle, kuten prospektille tai toimittajalle, kontaktin kortti helpottamaan suhteen määrittämistä ja räätälöimään viestintää.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 12/07/2018
+ms.date: 02/26/2019
 ms.author: jswymer
+redirect_url: marketing-create-contact-companies
+ms.openlocfilehash: 871e2c2fe75d5c14299651ab278aee9140430d19
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
-ms.openlocfilehash: 80ab4bd8fe9a5c74f52a334cf8c4a0a297c01bd9
-ms.contentlocale: fi-fi
-ms.lasthandoff: 12/11/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795279"
 ---
 # <a name="creating-contact-persons"></a>Kontaktihenkilöiden luominen
 Voit luoda yhteyshenkilön määrittämällä yhteystietokortin henkilölle. Voit luoda aiemmin luoduista yrityksistä yhteyshenkilötítä, tai voit luoda riippumatomia yhteyshenkilöitä.
@@ -44,8 +45,6 @@ Voit luoda kontaktikortin jokaiselle yhteyshenkilölle, joka työskentelee sella
 >   **Kontaktienhallinnan asetukset** -sivun **Periytyminen**-osassa valittujen kenttien sisältö kopioidaan yrityksestä kyseisen yrityksen henkilöille.
 
 ## <a name="see-also"></a>Katso myös
-[Kontaktiyrityksen luominen](marketing-create-contact-companies.md)  
-[Kontaktihenkilöiden luominen](marketing-create-contact-persons.md)  
+[Kontaktien luominen](marketing-create-contact-companies.md)  
 [Liiketoimintakontaktien luokittelu profiilikyselyiden avulla](marketing-create-contact-profile-questionnaire.md)  
 [Business Central -sovelluksen käyttäminen](ui-work-product.md)
-

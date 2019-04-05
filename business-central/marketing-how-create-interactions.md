@@ -1,8 +1,8 @@
 ---
 title: Vuorovaikutusten luominen kontakteille ja segmenteille| Microsoft Docs
-description: "Tässä ohjeaiheessa kerrotaan, miten vuorovaikutukset luodaan Business Central -sovelluksessa asiakkaiden ja segmenttien kanssa käydylle viestinnälle. Kyse voi olla esimerkiksi suoramainonnasta."
+description: Tässä ohjeaiheessa kerrotaan, miten vuorovaikutukset luodaan Business Central -sovelluksessa asiakkaiden ja segmenttien kanssa käydylle viestinnälle. Kyse voi olla esimerkiksi suoramainonnasta.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: fc88c43e7e404c715893e11a10f0ca5fb794163a
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 250e56b8bb2ced4745536092bf7cd4f3fa797dee
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796226"
 ---
 # <a name="create-interactions-on-contacts-and-segments"></a>Vuorovaikutusten luominen kontakteille ja segmenteille
 Voit luoda vuorovaikutuksia, kun haluat tallentaa kaikki vuorovaikutukset ja kaiken yhteydenpidon (esimerkiksi postin), joita sinulla on kontaktiesi ja segmenttiesi kanssa.
@@ -53,6 +53,4 @@ Jos olet valinnut **Luo seurantasegmentti** -valintaruudun, ohjelma luo automaat
 [Vuorovaikutusten tallentaminen](marketing-interactions.md)  
 [Kontaktien hallinta](marketing-contacts.md)  
 [Myyntimahdollisuuksien hallinta](marketing-manage-sales-opportunities.md)  
-[Kontaktienhallinnan määrittäminen](marketing-setup-marketing.md)  
-[Business Central -sovelluksen käyttäminen](ui-work-product.md)
-
+[Business Centralin käyttäminen](ui-work-product.md)

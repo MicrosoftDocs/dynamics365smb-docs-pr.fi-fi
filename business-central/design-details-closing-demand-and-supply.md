@@ -1,8 +1,8 @@
 ---
-title: "Rakennetiedot – kysynnän ja tarjonnan sulkeminen | Microsoft Docs"
-description: "Tässä ohjeaiheessa on ehdotuksia siitä, mitä voit tehdä tarjonnan tasapainotusmenetelmien suorittamisen jälkeen."
+title: Rakennetiedot – kysynnän ja tarjonnan sulkeminen | Microsoft Docs
+description: Tässä ohjeaiheessa on ehdotuksia siitä, mitä voit tehdä tarjonnan tasapainotusmenetelmien suorittamisen jälkeen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: design, planning, example, closing, supply
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
+ms.openlocfilehash: 73ddbe9746d7681d11e61f10037bf26f792acffa
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6cacf967295944ba720c20203700db30d9ec45c4
-ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796101"
 ---
 # <a name="design-details-closing-demand-and-supply"></a>Rakennetiedot: kysynnän ja tarjonnan sulkeminen
 Kun tarjonnan tasapainotusmenetelmät on suoritettu, tulos voi olla jokin seuraavista kolmesta vaihtoehdosta:  
@@ -44,4 +44,3 @@ Tämä päättää suunnittelujärjestelmän suorittaman kysynnän ja tarjonnan 
 [Rakennetiedot: kysynnän ja tarjonnan täsmäytys](design-details-balancing-demand-and-supply.md)   
 [Rakennetiedot: suunnittelujärjestelmän keskeiset käsitteet](design-details-central-concepts-of-the-planning-system.md)   
 [Rakennetiedot: Tarjonnan suunnittelu](design-details-supply-planning.md)
-

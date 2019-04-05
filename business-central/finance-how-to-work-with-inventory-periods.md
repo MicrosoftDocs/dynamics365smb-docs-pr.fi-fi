@@ -1,8 +1,8 @@
 ---
-title: "Varastokausien käyttäminen | Microsoft Docs"
-description: "Määrittämällä varastokauden voi hallita aikajaksoa, jolloin henkilöt voivat kirjata muutoksia varastoon."
+title: Varastokausien käyttäminen | Microsoft Docs
+description: Määrittämällä varastokauden voi hallita aikajaksoa, jolloin henkilöt voivat kirjata muutoksia varastoon.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: inventory, periods
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 1aae1d32b86000ea8a5f867f1ee4c07d8bc1ff09
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796097"
 ---
 # <a name="work-with-inventory-periods"></a>Varastokausien käsitteleminen
 Varastokaudet määrittävät aikajakson, jolloin voit kirjata varastoon muutoksia. Lopetuspäivämäärä määrittää, milloin varastokausi loppuu. Kun suljet varastokauden, et voi enää kirjata varastoon odotettuja tai laskutettuja muutoksia ennen tätä lopetuspäivämäärää. Et voi kirjata varastoon uusia arvoja ennen lopetuspäivämäärää. Jos suljetulla kaudella on avoimia nimiketapahtumia eli positiivisia määriä, joita ei ole vielä kohdistettu lähteviin transaktioihin, voit yhä kohdistaa lähteviä määriä näihin transaktioihin, vaikka kausi on suljettu.  
@@ -71,4 +71,3 @@ Kun varastokausi on suljettu kerran, et voi poistaa sitä. Voit kuitenkin avata 
 [Rahoitus](finance.md)  
 [Vaihto-omaisuus](inventory-manage-inventory.md)  
 [Financialsin käyttäminen](ui-work-product.md)
-

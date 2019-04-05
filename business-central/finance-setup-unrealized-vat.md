@@ -1,6 +1,6 @@
 ---
-title: "Ei-realisoituneen arvonlisäveron määrittäminen | Microsoft Docs"
-description: "Jos käytät kassaperusteista kirjanpitoa, voit määrittää, miten myynnin ja ostojen ei-realisoitunut ALV käsitellään."
+title: Ei-realisoituneen arvonlisäveron määrittäminen | Microsoft Docs
+description: Jos käytät kassaperusteista kirjanpitoa, voit määrittää, miten myynnin ja ostojen ei-realisoitunut ALV käsitellään.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,13 @@ ms.workload: na
 ms.search.keywords: cash, VAT, unrealized, cash-based
 ms.date: 11/15/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 1a460bed4be049ddd1eff7c33ae43c70e65ab403
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795332"
 ---
-
 # <a name="set-up-unrealized-vat-for-cash-based-accounting"></a>Ei-realisoituneen arvonlisäveron määrittäminen kassaperusteista kirjanpitoa varten
 Jos käytät kassaperusteista kirjanpitoa, voit määrittää [!INCLUDE[d365fin](includes/d365fin_md.md)]in käsittelemään ei-realisoidun arvonlisäveron.
 
@@ -51,4 +50,3 @@ Käytä ei-realisoituneen arvonlisäveron tilejä seuraavasti:
 
 ## <a name="see-also"></a>Katso myös
 [Arvolisäveron määrittäminen](finance-setup-vat.md)
-

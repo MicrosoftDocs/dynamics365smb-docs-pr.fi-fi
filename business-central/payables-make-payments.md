@@ -1,6 +1,6 @@
 ---
-title: "Toimittajille suoritettavien maksujen hallintatehtävien yleiskatsaus| Microsoft Docs"
-description: "Tässä ohjeaiheessa kerrotaan toimittajille tai luotonantajille suoritettavien maksujen hallintatehtävistä, kuten maksurivien kirjaamisesta ja erääntyvän saldon yleiskatsauksen hakemisesta."
+title: Toimittajille suoritettavien maksujen hallintatehtävien yleiskatsaus| Microsoft Docs
+description: Tässä ohjeaiheessa kerrotaan toimittajille tai luotonantajille suoritettavien maksujen hallintatehtävistä, kuten maksurivien kirjaamisesta ja erääntyvän saldon yleiskatsauksen hakemisesta.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 12/07/2018
+ms.date: 02/08/2019
 ms.author: edupont
+ms.openlocfilehash: f2ff92af7dbf6c751cde795d3546d90c8d76a62b
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 1ad5e15ef1214fb37250dcd4b04d13ab073ac21a
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795289"
 ---
 # <a name="making-payments"></a>Maksujen suorittaminen
 
@@ -40,7 +40,6 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 |Suorita sähköisiä maksuja viemällä maksut pankkitiedostoon, joka ladataan pankkiin käsiteltäväksi. Tämä tiedosto voi olla Pohjois-Amerikassa myös sähköinen rahansiirtotiedosto (EFT). |[Sähköisten maksujen suorittaminen](payables-how-export-payments-bank-file.md)|
 |Suorita sähköiset maksut EU:n SEPA-tilisiirtostandardin mukaisesti.|[Maksujen suorittaminen pankkitietojen muunnospalvelulla tai SEPA-tilisiirrolla](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)|
 | Maksaa toimittajalle käteisellä tai sekillä ja kirjaa maksu, kun lasku kirjataan. |[Ostolaskujen selvittäminen viipymättä](finance-how-to-settle-purchase-invoices-promptly.md) |
-|Hyvitä työntekijöiden liiketoimintaan liittyvät henkilökohtaiset kulut suorittamalla maksu työntekijän pankkitilille.|[Työntekijöiden kulujen kirjaaminen ja hyvittäminen](finance-how-record-reimburse-employee-expenses.md)|
 | Varmista lähettämällä toimittaja-, sekki- ja maksutiedot sisältävä tiedosto, että pankki vahvistaa vain tarkistetut sekit ja summat. |[Positive Pay -tiedoston vienti](finance-how-positive-pay.md) |
 
 ## <a name="see-also"></a>Katso myös
@@ -48,4 +47,3 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 [Osto](purchasing-manage-purchasing.md)  
 [Myyntisaamisten hallinta](receivables-manage-receivables.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
-

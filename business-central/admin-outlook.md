@@ -1,6 +1,6 @@
 ---
-title: "Business Central -sovelluksen käyttäminen Outlookin kanssa | Microsoft Docs"
-description: "Tämä palvelu integroituu kattavasti Office 365:n kanssa, joten voit hallita kaikkea yrityksen asiakkaiden ja toimittajien kanssa tapahtuvaa viestintää suoraan Outlookissa."
+title: Business Central -sovelluksen käyttäminen Outlookin kanssa | Microsoft Docs
+description: Tämä palvelu integroituu kattavasti Office 365:n kanssa, joten voit hallita kaikkea yrityksen asiakkaiden ja toimittajien kanssa tapahtuvaa viestintää suoraan Outlookissa.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
 ms.date: 12/10/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
 ms.openlocfilehash: a91f2d34cd023994dcd8eb67a9360d50d2cf3747
-ms.contentlocale: fi-fi
-ms.lasthandoff: 12/11/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795681"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Business Central -sovelluksen käyttäminen yrityssähköpostina Outlookissa
 [!INCLUDE[d365fin](includes/d365fin_md.md)] esittelee mahdollisuuden hallita liiketoiminnallisia vuorovaikutuksia asiakkaiden ja toimittajien kanssa suoraan Microsoft Outlookista. [!INCLUDE[d365fin](includes/d365fin_md.md)]in Outlook-apuohjelmien avulla voit tarkastella asiakkaisiin ja toimittajiin liittyviä taloustietoja sekä luoda ja lähettää talousasiakirjoja, kuten tarjouksia ja laskuja.  
@@ -64,4 +64,3 @@ Jos [!INCLUDE[d365fin](includes/d365fin_md.md)]ia ei voi edelleenkään käyttä
 [Rahoitus](finance.md)  
 [Myynti](sales-manage-sales.md)  
 [Osto](purchasing-manage-purchasing.md)  
-

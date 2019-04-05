@@ -1,23 +1,23 @@
 ---
-title: "Rakennetiedot – Kustannuskomponentit | Microsoft Docs"
-description: "Kustannuskomponentit ovat erityyppisiä kustannuksia, jotka muodostavat varaston arvon kasvun tai vähennyksen."
+title: Rakennetiedot – Kustannuskomponentit | Microsoft Docs
+description: Kustannuskomponentit ovat erityyppisiä kustannuksia, jotka muodostavat varaston arvon kasvun tai vähennyksen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 72538ae86b81ff80154c787ea9306fef7978d1c1
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e1410e2511b2f1dd27e80ea23d6e08b2b5063158
-ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795440"
 ---
 # <a name="design-details-cost-components"></a>Rakennetiedot: kustannuskomponentit
 Kustannuskomponentit ovat erityyppisiä kustannuksia, jotka muodostavat varaston arvon nousun tai laskun.  
@@ -47,4 +47,3 @@ Kustannuskomponentit ovat erityyppisiä kustannuksia, jotka muodostavat varaston
  [Rakennetiedot: Vaihtelu](design-details-variance.md) [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)  
  [Rahoitus](finance.md)  
  [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
-

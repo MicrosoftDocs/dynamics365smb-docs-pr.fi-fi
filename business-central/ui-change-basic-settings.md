@@ -1,6 +1,6 @@
 ---
 title: Perusasetusten tarkasteleminen ja muokkaaminen | Microsoft Docs
-description: "Tietoja siitä, miten joitakin perusasetuksia voi muuttaa. Tällaisia perusasetuksia ovat esimerkiksi roolikeskus, yritys ja käsittelypäivämäärä."
+description: Tietoja siitä, miten joitakin perusasetuksia voi muuttaa. Tällaisia perusasetuksia ovat esimerkiksi roolikeskus, yritys ja käsittelypäivämäärä.
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
 ms.date: 11/19/2018
 ms.author: solsen
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 353662322e36a564f30bc911f056817cafa7440c
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795509"
 ---
 # <a name="changing-basic-settings"></a>Perusasetusten muuttaminen
 [**Omat asetukset**](https://businesscentral.dynamics.com?page=9176 "Siirry suoraan Business Central -sovelluksen käyttäjäasetusten sivulle") -sivulla voi tarkastella ja muuttaa [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen perusasetuksia. Tekemäsi muutokset vaikuttavat vain omaan työtilaasi; ei muiden käyttäjien työtiloihin.  
@@ -65,4 +65,3 @@ Valitsemalla tämän linkin voit tarkastella tai muuttaa ilmoituksia, joita saat
 ## <a name="see-also"></a>Katso myös
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md)  
-

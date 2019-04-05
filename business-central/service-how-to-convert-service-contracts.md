@@ -1,21 +1,21 @@
 ---
 title: Huoltosopimusten muuntaminen | Microsoft Docs
-description: "Koska ALV:n muutostyökalu ei voi muuntaa huoltosopimuksia, nämä sopimukset on muunnettava manuaalisesti. Tässä aiheessa kuvataan useita vaihtoehtoisia menetelmiä, joita voit käyttää palvelusopimuksen muuntamista varten."
+description: Koska ALV:n muutostyökalu ei voi muuntaa huoltosopimuksia, nämä sopimukset on muunnettava manuaalisesti. Tässä aiheessa kuvataan useita vaihtoehtoisia menetelmiä, joita voit käyttää palvelusopimuksen muuntamista varten.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 3c34f2b456df88b043b7b90a739f363b892dd48d
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795284"
 ---
 # <a name="convert-service-contracts-that-include-vat-amounts"></a>ALV-summia sisältävien huoltosopimusten muuntaminen
 Koska ALV:n muutostyökalu ei voi muuntaa huoltosopimuksia, nämä sopimukset on muunnettava manuaalisesti. Tässä aiheessa kuvataan useita vaihtoehtoisia menetelmiä, joita voit käyttää palvelusopimuksen muuntamista varten.  
@@ -68,4 +68,3 @@ Seuraavassa ohjeessa neuvotaan, miten luodaan uusi hyvityslasku käyttäen **Hae
 [Rahoitus](finance.md)  
 [ALV:n raportointi veroviranomaisille](finance-how-report-vat.md)  
 [Myynnin ja ostojen ALV:n käsitteleminen](finance-work-with-vat.md)  
-

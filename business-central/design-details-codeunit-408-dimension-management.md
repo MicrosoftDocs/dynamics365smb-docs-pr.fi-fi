@@ -1,23 +1,23 @@
 ---
-title: "Rakennetiedot – Koodiyksikön 408 dimension hallinta | Microsoft Docs"
-description: "Koodiyksikkö 408, dimension hallinta on toimintokirjasto, joka käsittelee yleiset dimensioihin liittyvät tehtävät, kuten kopioinnin taulukosta toiseen tai yhdestä asiakirjasta toiseen."
+title: Rakennetiedot – Koodiyksikön 408 dimension hallinta | Microsoft Docs
+description: Koodiyksikkö 408, dimension hallinta on toimintokirjasto, joka käsittelee yleiset dimensioihin liittyvät tehtävät, kuten kopioinnin taulukosta toiseen tai yhdestä asiakirjasta toiseen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 95d4afc18b0be620df2f4b2067a093237c7c4df2
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 34d4314357aa590304885585016124100ead4ca3
-ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "794945"
 ---
 # <a name="design-details-codeunit-408-dimension-management"></a>Rakennetiedot: koodiyksikön 408 dimension hallinta
 Koodiyksikkö 408, dimension hallinta on toimintokirjasto, joka käsittelee yleiset dimensioihin liittyvät tehtävät, kuten kopioinnin taulukosta toiseen tai yhdestä asiakirjasta toiseen. Tässä ohjeaiheessa luetellaan Microsoft Dynamics NAV 2013 Rs:ssa muutetut toiminnot ja määritetään toimintoihin tehdyt muutokset. Monet toiminnot on poistettu, koska dimensiotaulukoiden välillä ei tarvitse kopioida.  
@@ -35,7 +35,7 @@ Koodiyksikkö 408, dimension hallinta on toimintokirjasto, joka käsittelee ylei
  Alla luetellaan toiminnot, jotka on poistettu 408-koodiyksikön dimensioyhdistelmän tapahtumat -ominaisuudesta.  
 
 > [!CAUTION]  
->  Kun sovelluksen koodia päivitetään Microsoft Dynamics NAV 2009:stä tai sitä aiemmasta versiosta Microsoft Dynamics NAV 2016:een, seuraavat toiminnot eivät ole käytettävissä Microsoft Dynamics NAV:ssa. Jos olet tehnyt mukautuksia, jotka käyttävät yhtä tai useampaa seuraavista toiminnoista, mukautuksesi on päivitettävä vastaavasti.
+>  Kun sovelluksen koodia päivitetään Microsoft Dynamics NAV 2009:stä tai sitä aiemmasta versiosta Microsoft Dynamics NAV 2016:een, seuraavat toiminnot eivät ole käytettävissä Microsoft Dynamics NAV 2016. Jos olet tehnyt mukautuksia, jotka käyttävät yhtä tai useampaa seuraavista toiminnoista, mukautuksesi on päivitettävä vastaavasti.
 
  InsertJnlLineDim  
 
@@ -193,4 +193,3 @@ Koodiyksikkö 408, dimension hallinta on toimintokirjasto, joka käsittelee ylei
  [Rakennetiedot: dimensioyhdistelmien etsiminen](design-details-searching-for-dimension-combinations.md)   
  [Rakennetiedot: taulukkorakenne](design-details-table-structure.md)   
  [Rakennetiedot: koodiesimerkkejä muuttuneista kuvioista muutoksissa](design-details-code-examples-of-changed-patterns-in-modifications.md)
-

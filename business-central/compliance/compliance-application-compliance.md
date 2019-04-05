@@ -1,22 +1,22 @@
 ---
 title: Sovelluksen yhteensopivuus | Microsoft Docs
-description: "Tässä sisällössä on tietoja sovelluksen Business Centralia koskevasta yhteensopivuudesta."
+description: Tässä sisällössä on tietoja sovelluksen Business Centralia koskevasta yhteensopivuudesta.
 author: sorenfriisalexandersen
-documentationcenter: 
+documentationcenter: ''
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: soalex
-ms.translationtype: HT
-ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
 ms.openlocfilehash: cda5dc10951981a5d2e496c6cd27bb84b875ede0
-ms.contentlocale: fi-fi
-ms.lasthandoff: 12/14/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795648"
 ---
 # <a name="application-compliance"></a>Sovelluksen yhteensopivuus
 Tässä sisällössä on tietoja sovelluksen [!INCLUDE[d365fin](../includes/d365fin_md.md)]ia koskevasta yhteensopivuudesta, kuten kansainvälisistä tilinpäätösstandardeista, paikallisista toiminnoista ja GDPR-asetuksesta. Luotettava liiketoiminnan hallintaratkaisu on tärkeää liiketoiminnan tehokkuuden kannalta. Business Centralin avulla yritykset pystyvät yksinkertaistamaan liiketoimintaprosessejaan samalla, kun ne pystyvät yhdenmukaisesti ja kustannustehokkaasti toimimaan koko ajan lisääntyvän säätelyn ja raportointivaatimusten mukaisesti.
@@ -96,4 +96,3 @@ Microsoft on muodostamassa lokalisoituja Business Centralin versioita joissakin 
 
  ## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
  
-

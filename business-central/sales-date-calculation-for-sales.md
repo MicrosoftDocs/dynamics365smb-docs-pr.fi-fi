@@ -1,23 +1,23 @@
 ---
-title: "Myynnin päivämäärälaskenta | Microsoft Docs"
-description: "Ohjelma laskee automaattisesti päivämäärän, jolloin nimike on tilattava sen saamiseksi tietyn päivän varastoon. Tämä on päivämäärä, jolloin voi odottaa tiettynä päivänä tilattujen nimikkeiden olevan valmiita poimittaviksi."
+title: Myynnin päivämäärälaskenta | Microsoft Docs
+description: Ohjelma laskee automaattisesti päivämäärän, jolloin nimike on tilattava sen saamiseksi tietyn päivän varastoon. Tämä on päivämäärä, jolloin voi odottaa tiettynä päivänä tilattujen nimikkeiden olevan valmiita poimittaviksi.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 7de382530c1872155903bfa015866cf99a9f5566
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: cc73a03c44896bda5d1fdf789a8b349f796c6e58
-ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795605"
 ---
 # <a name="date-calculation-for-sales"></a>Myynnin päivämäärälaskenta
 [!INCLUDE[d365fin](includes/d365fin_md.md)] laskee automaattisesti varhaisimman mahdollisen päivämäärän, jolloin myyntitilausrivin nimike voidaan toimittaa.
@@ -47,4 +47,3 @@ Jos myyntitilausrivillä ei ole pyydettyä toimituspäivämäärää, tai jos to
  [Ostojen päivämäärälaskenta](purchasing-date-calculation-for-purchases.md)   
  [Toimituksen lupaamisen päivämäärien laskeminen](sales-how-to-calculate-order-promising-dates.md)  
  [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

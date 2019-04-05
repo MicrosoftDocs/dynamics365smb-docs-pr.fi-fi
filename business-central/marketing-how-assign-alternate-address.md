@@ -1,8 +1,8 @@
 ---
-title: "Toisen kontaktin osoitteen määrittäminen| Microsoft Docs"
-description: "Tässä ohjeaiheessa kerrotaan, miten kontakteille tai prospekteille määritetään vaihtoehtoinen osoite, jonne voidaan joskus lähettää tietoja."
+title: Toisen kontaktin osoitteen määrittäminen| Microsoft Docs
+description: Tässä ohjeaiheessa kerrotaan, miten kontakteille tai prospekteille määritetään vaihtoehtoinen osoite, jonne voidaan joskus lähettää tietoja.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-setup-contacts
+ms.openlocfilehash: d069a22603a969220a62e2c7458cb6259cfbc630
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 4f036800f7d9e83fdeacb827bb195f1f36b6a38e
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795240"
 ---
 # <a name="set-up-alternative-addresses-for-contacts"></a>Vaihtoehtoisten osoitteiden määrittäminen kontakteille
 Voit liittää vaihtoehtoisen osoitteen (esimerkiksi kesämökin osoitteen), johon kontakteille joskus lähetetään postia ja tietoa. Voit määrittää myös vähintään yhden päivämäärävälin jokaiseen vaihtoehtoiseen osoitteeseen, jonka olet antanut kontakteillesi määrittämään, milloin osoite on voimassa.
@@ -43,4 +43,3 @@ Toista nämä vaiheet ja luo niin monta päivämääräväliä kuin haluat.
 ## <a name="see-also"></a>Katso myös
 [Kontaktiyritysten luominen](marketing-create-contact-companies.md)  
 [Business Central -sovelluksen käyttäminen](ui-work-product.md)
-

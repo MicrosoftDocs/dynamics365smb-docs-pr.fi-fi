@@ -1,23 +1,23 @@
 ---
-title: "Ohjatun hyllytyksen ja poiminnan määrittäminen | Microsoft Docs"
-description: "Kun otat ohjatun hyllytyksen ja poiminnan käyttöön fyysisen varastoinnin sijainnissa, voit tehostaa fyysistä varastointia uusien toimintojen avulla."
+title: Ohjatun hyllytyksen ja poiminnan määrittäminen | Microsoft Docs
+description: Kun otat ohjatun hyllytyksen ja poiminnan käyttöön fyysisen varastoinnin sijainnissa, voit tehostaa fyysistä varastointia uusien toimintojen avulla.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 0f69cfc3257de42aacf01c26090230350f83dfba
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796057"
 ---
 # <a name="set-up-items-and-locations-for-directed-put-away-and-pick"></a>Nimikkeiden ja sijaintien määrittäminen ohjattua hyllytystä ja poimintaa varten
 Kun otat ohjatun hyllytyksen ja poiminnan käyttöön fyysisen varastoinnin sijainnissa, voit tehostaa fyysistä varastointia uusien toimintojen avulla. Jotta hyötyisit mahdollisimman paljon näistä toiminnoista, anna ohjelmalle nimikkeistä lisätietoja, joiden avulla ohjelma voi laskea tehokkaimman fyysisen varastoinnin aktiviteettien suoritustavan. Katso lisätietoja kohdasta [Rakennetiedot: Fyysisen varastoinnin asetukset](design-details-warehouse-setup.md).
@@ -71,4 +71,3 @@ Lisäksi on luotava hyllytysmallit ja laskentajaksot. Lisätietoja on ohjeaihees
 [Kokoonpanon hallinta](assembly-assemble-items.md)    
 [Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
-

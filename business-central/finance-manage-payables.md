@@ -1,11 +1,11 @@
 ---
 title: Ostovelkojen hallinta| Microsoft Docs
-description: "Yleiskatsaus tavoista, joilla hallitaan ostovelkoja, kuten toimittajamaksuja, lainoja, velkaa ja erääntyvää saldoa."
+description: Yleiskatsaus tavoista, joilla hallitaan ostovelkoja, kuten toimittajamaksuja, lainoja, velkaa ja erääntyvää saldoa.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 manager: edupont
-editor: 
+editor: ''
 ms.service: dynamics365-business-central
 ms.workload: na
 ms.tgt_pltfrm: na
@@ -15,12 +15,12 @@ ms.search.keywords: vendor payment, creditor, debt, balance due, AP
 ms.date: 10/01/2018
 ms.author: bholtorf
 redirect_url: finance-set-up-cost-accounting
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: abf7e9cf01c8d394a022e384584e32e78c754639
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795261"
 ---
 # <a name="managing-payables"></a>Ostovelkojen hallinta
 [!INCLUDE[d365fin](includes/d365fin_md.md)] sisältää kaiken, mitä tarvitset ostoreskontran tehokkaaseen hallintaan.  
@@ -54,4 +54,3 @@ Jos odotat maksujen kirjaamista, kunnes pankki vahvistaa tapahtumien käsittelyn
 [Maksutavat](finance-payment-methods.md)  
 [Rahoitus](finance.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

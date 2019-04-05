@@ -1,21 +1,21 @@
 ---
-title: "Sähköisen tiedonvaihdon määrittäminen | Microsoft Docs"
-description: "Voit käyttää ulkoista OCR-palvelua PDF- tai kuvatiedostojen muuntamiseen sähköisiksi asiakirjoiksi."
+title: Sähköisen tiedonvaihdon määrittäminen | Microsoft Docs
+description: Voit käyttää ulkoista OCR-palvelua PDF- tai kuvatiedostojen muuntamiseen sähköisiksi asiakirjoiksi.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/26/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
 ms.openlocfilehash: 0a8172f0c8770235291e7b9a29663f15932f38b4
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/29/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795878"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Tietojenvaihtomääritysten määrittäminen
 Voit määrittää [!INCLUDE[d365fin](includes/d365fin_md.md)]in vaihtamaan tiettyjen taulukoiden tietoja ulkoisten tiedostojen kanssa. Tällöin voit esimerkiksi lähettää ja vastaanottaa sähköisiä asiakirjoja sekä tuoda ja viedä pankkitietoja tai muita tietoja, kuten palkanlaskennan tietoja, vaihtokursseja ja tuoteluetteloita. Lisätietoja on kohdassa [Sähköinen tiedonsiirto](across-data-exchange.md).  
@@ -55,7 +55,7 @@ Tietojenvaihtomäärityksen luominen muodostuu kahdesta tehtävästä:
     |**Tietoja käsittelevä Codeunit**|Määritä koodiyksikkö, joka siirtää tietoa [!INCLUDE[d365fin](includes/d365fin_md.md)]in taulukoihin ja taulukoista pois.|  
     |**Tarkistuksen Codeunit**|Määritä koodiyksikkö, jonka avulla tiedot tarkistetaan ennalta määritettyjen liiketoimintasääntöjen mukaan.|  
     |**Codeunit luetaan/kirjoitetaan**|Määritä koodiyksikkö, joka työstää tuodut tiedot ennen kartoitusta ja viedyt tiedot kartoituksen jälkeen.|  
-    |**XMLportia luetaan/kirjoitetaan**|Määritä XMLport, jonka kautta tuot tiedosto tai palvelu syötetään ennen kartoitusta, ja jonka kautta viedyt tiedot ovat olemassa, kun ne kirjoitetaan tiedostoon tai palveluun kartoituksen jälkeen.|  
+    |**XMLportia luetaan/kirjoitetaan**|Määritä XMLportin, jonka kautta tuotava tiedosto tai palvelu vastaanotetaan ennen yhdistämistä ja jonka kautta viedyt tiedot lähetetään, kun ne kirjoitetaan tiedostoon tai palveluun yhdistämisen jälkeen.|  
     |**Ulk. tietoja käsittelevä Codeunit**|Määritä koodiyksikkö, joka siirtää ulkoiset tiedot tiedonsiirtokehykseen ja siitä pois.|  
     |**Käyttäjäpalautteen Codeunit**|Määritä koodiyksikkö, joka tekee erilaisia puhdistustoimia (esimerkiksi merkitsee rivit viedyiksi ja poistaa tilapäiset tietueet) yhdistämisen jälkeen|  
     |**Tiedoston koodaus**|Määritä tiedoston koodaus. **Huomautus:** Tätä kenttää käytetään vain tuonnissa.|  
@@ -160,4 +160,3 @@ Kun olet luonut tietojenvaihtomäärityksen tietylle datatiedostolle, voit vied�
 [Maksujen suorittaminen pankkitietojen muunnospalvelulla tai SEPA-hyvityksen siirrolla](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
 [Saapuvat asiakirjat](across-income-documents.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)  
-

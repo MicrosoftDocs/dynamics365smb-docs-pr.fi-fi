@@ -1,21 +1,21 @@
 ---
 title: avaa nimiketapahtumat
-description: "Lisätietoja siitä, miksi varastomäärä on nolla, vaikka avoimia nimiketapahtumia on olemassa."
+description: Lisätietoja siitä, miksi varastomäärä on nolla, vaikka avoimia nimiketapahtumia on olemassa.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 0bb558fe24d8c5bc717ef72e8c94ba0154a06a55
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796067"
 ---
 # <a name="design-details-known-item-application-issue"></a>Rakennetiedot: Nimikkeen kohdistuksen tunnettu ongelma
 Tässä artikkelissa kerrotaan ongelmasta, jossa varastomäärä on nolla, vaikka [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmassa on avoimia nimiketapahtumia.  
@@ -151,4 +151,3 @@ Seuraavassa kaaviossa näytetään, miten kustannusten kohdistukset tehdään.
 ## <a name="see-also"></a>Katso myös  
 [Rakennetiedot: Nimikkeen kohdistus](design-details-item-application.md)   
 [Rakennetiedot: Varaston arvostus](design-details-inventory-costing.md)  
-

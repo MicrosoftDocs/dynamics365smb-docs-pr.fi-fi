@@ -1,23 +1,23 @@
 ---
-title: "Määrityspaketin valmisteleminen | Microsoft Docs"
-description: "Kun määrität uuden yrityksen, taulukon suhteet tunnistetaan ja käsitellään. Tiedot tuodaan ja otetaan käyttöön oikeassa järjestyksessä. Dimensiotaulukot tuodaan myös, jos ne on sisällytetty määrityspakettiin."
+title: Määrityspaketin valmisteleminen | Microsoft Docs
+description: Kun määrität uuden yrityksen, taulukon suhteet tunnistetaan ja käsitellään. Tiedot tuodaan ja otetaan käyttöön oikeassa järjestyksessä. Dimensiotaulukot tuodaan myös, jos ne on sisällytetty määrityspakettiin.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: b1dbe67852e197ab52aff58131576ffd6b9c49c4
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: ea4a7671788ba5c4bd251a83dab1f2616cfbe706
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795637"
 ---
 # <a name="prepare-a-configuration-package"></a>Määrityspaketin valmisteleminen
 Kun määrität uuden yrityksen, taulukon suhteet tunnistetaan ja käsitellään. Tiedot tuodaan ja otetaan käyttöön oikeassa järjestyksessä. Dimensiotaulukot tuodaan myös, jos ne on sisällytetty määrityspakettiin.  
@@ -93,7 +93,7 @@ Käytä määritystyökirjaa kerätäksesi ja luokitellaksesi tietoja, joita hal
 3.  Valitse **Rivityyppi**-kentässä **Ryhmä**. Anna **Nimi**-kentässä kuvaava nimi.  
 4.  Valitse **Rivityyppi**-kentässä **Taulukko**. Valitse **Taulukon tunnus** -kentässä taulukko, jonka haluat sisällyttää työkirjaan.  
 
-Voit nyt liittää taulukot tiettyihin määrityspaketteihin, jotka olet luonut tai aiot luoda. Lisätietoja on Taulukon määrittäminen määrityspakettiin -osassa.
+Voit nyt liittää taulukot tiettyihin määrityspaketteihin, jotka olet luonut tai aiot luoda. Lisätietoja on kohdassa [Taulukon määrittäminen määrityspakettiin](admin-how-to-prepare-a-configuration-package.md#to-assign-a-table-to-a-configuration-package).
 
 ## <a name="to-work-with-promoted-tables"></a>Toimi ylemmän tason taulukoiden kanssa  
 1. Valitse **Ylätasolle siirretty taulukko** -valintaruutu. Se osoittaa taulukon, esimerkiksi **KP-tili** -taulukon, jota tyypillinen asiakas käyttää usein määritysprosessin aikana. Kun taulukossa on tämä määritys, asiakas voi helposti suodattaa työkirjansa nähdäkseen vain luettelon ylemmän tason taulukoista, joka tarvitsee huomiota.  
@@ -103,9 +103,9 @@ Voit nyt liittää taulukot tiettyihin määrityspaketteihin, jotka olet luonut 
 Kun olet määrittänyt taulukot, jotka haluat käsitellä osana kokoonpanoa, voit helposti määrittää taulukot kokoonpanopaketteihin. Voit määritellä taulukon vain yhdelle paketille. Seuraavassa toimenpiteessä määritetään paketti määritystyökirjasta.  
 
 > [!NOTE]  
->  Voit myös luoda paketin suoraan ja lisätä taulukot siihen. Lisätietoja on Määrityspaketin luominen -osassa.
+>  Voit myös luoda paketin suoraan ja lisätä taulukot siihen. Lisätietoja on kohdassa [Määrityspaketin luominen](admin-how-to-prepare-a-configuration-package.md#to-create-a-configuration-package).
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Määritystyökirja** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Määritystyökirja** ja valitse sitten liittyvä linkki.
 2. Valitse määritystyökirjassa rivi tai rivit määrityspakettiin määrittämistä varten. Vailtse sitten **Määritä paketti** -toiminto.  
 3.  Valitse paketti luettelosta tai valitse **Uusi**-toiminto, jos haluat luoda uuden paketin. Valitse sitten **OK**-painike.  
 
@@ -139,4 +139,3 @@ Kun olet tarkistanut ja testannut kaikki asetustiedot, voit jatkaa tietojen kopi
 [Määritä yrityksen konfigurointi](admin-set-up-company-configuration.md)  
 [Yrityksen määrittäminen RapidStart Services -palvelun avulla](admin-set-up-a-company-with-rapidstart.md)  
 [Hallinta](admin-setup-and-administration.md)
-

@@ -1,7 +1,7 @@
 ---
-title: "Asiakirjakohtaisen sähköpostisisällön määrittäminen | Microsoft Docs"
-description: "Voit määrittää sähköpostiviestin perustekstiin lisättävän sisällön, kuten PayPal-linkin. Voit myös liittää asiakirjoja sähköpostiviesteihin."
-documentationcenter: 
+title: Asiakirjakohtaisen sähköpostisisällön määrittäminen | Microsoft Docs
+description: Voit määrittää sähköpostiviestin perustekstiin lisättävän sisällön, kuten PayPal-linkin. Voit myös liittää asiakirjoja sähköpostiviesteihin.
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 591ec86980240b8ffcfda0cf51debe571e327299
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: a800f24f86227afc2ab45ffcb6d1aaffd608e69e
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795944"
 ---
 # <a name="send-documents-by-email"></a>Asiakirjojen lähettäminen sähköpostitse
 Voit kertoa liiketoiminta-asiakirjojen sisällön, kuten esimerkiksi asiakkaiden myyntiasiakirjojen maksutiedot, liiketoimintakumppaneille nopeasti Raporttiasettelu-toiminnolla. Voit määrittää asiakirjakohtaisen sisällön, joka lisätään sähköpostien perustekstiin automaattisesti. Lisätietoja on kohdassa [Raporttien ja asiakirjojen asettelujen hallinta](ui-manage-report-layouts.md).
@@ -57,7 +57,7 @@ Seuraavassa kerrotaan, miten kirjattu myyntilasku lähetetään sähköpostivies
 7. Luotu lasku on liitetty **Liite**-kenttään oletusarvoisesti PDF-tiedostona. Valitse valintapainike, kun haluat avata tiedoston tai liittää toisen tiedoston.
 8. Kirjoita **Runkoteksti**-kenttään lyhyt viesti vastaanottajalle.
 
-    Jos asiakirjakohtainen sähköpostin perusteksti on määritetty **Raporttivalinta - Myynti** -sivulla, **Perusteksti**-kenttä täytetään automaattisesti. Lisätietoja on tämän ohjeaiheen Asiakirjakohtaisen sähköpostin perustekstin määrittäminen myyntilaskuille -osassa.
+    Jos asiakirjakohtainen sähköpostin perusteksti on määritetty **Raporttivalinta - Myynti** -sivulla, **Perusteksti**-kenttä täytetään automaattisesti. Lisätietoja on kohdassa [Asiakirjakohtaisen sähköpostin perustekstin määrittäminen myyntilaskuille](ui-how-send-documents-email.md#to-set-up-a-document-specific-email-body-for-sales-invoices).
 9. Valitse **OK**-painike, kun haluat lähettää sähköpostiviestin.
 
 > [!NOTE]  
@@ -68,4 +68,3 @@ Seuraavassa kerrotaan, miten kirjattu myyntilasku lähetetään sähköpostivies
 [Sähköpostin määrittäminen](admin-how-setup-email.md)  
 [Myynnin laskutus](sales-how-invoice-sales.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

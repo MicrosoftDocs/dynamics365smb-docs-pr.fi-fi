@@ -1,30 +1,30 @@
 ---
-title: "Komponenttien poiminta tuotantoon fyysisen varaston perusmäärityksissä | Microsoft Docs"
-description: "Kun fyysisen varastoinnin sijainnissa on pakollinen poiminnan käsittely mutta ei pakollista toimituksen käsittelyä, voit järjestää ja kirjata komponenttien poiminnan **Varaston poiminta** -sivun avulla."
+title: Komponenttien poiminta tuotantoon fyysisen varaston perusmäärityksissä | Microsoft Docs
+description: Kun fyysisen varastoinnin sijainnissa on pakollinen poiminnan käsittely mutta ei pakollista toimituksen käsittelyä, voit järjestää ja kirjata komponenttien poiminnan **Varaston poiminta** -sivun avulla.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 01/22/2019
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: c4616282a204077665a9dfb7e8e59ee51f2846ce
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
-ms.openlocfilehash: 115bd8ef6d4069674f1d04878d0ec704214383ce
-ms.contentlocale: fi-fi
-ms.lasthandoff: 01/22/2019
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795750"
 ---
 # <a name="pick-for-production-or-assembly-in-basic-warehouse-configurations"></a>Tuotanto- tai kokoonpanopoiminta perusvarastointimäärityksissä
 Tuotantoon tai koonpanotilauksiin poimittujen komponenttien hyllytystapa määräytyy sen mukaan, miten fyysinen varasto on määritetty sijaintina. Lisätietoja on kohdassa [Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md).
 
 Jos fyysisen varaston perusmäärityksissä sijainti edellyttää poiminnan käsittelyä mutta ei toimituksen käsittelyä, voit järjestää ja kirjata komponenttien poiminnan **Varaston poiminta** -sivulla.  
 
-Fyysisen varaston perusmäärityksissä poiminta kokoonpanotilauksiin on tehtävä **Varastosiirto**-sivulla. Lisätietoja on ohjeaiheen [Nimikkeiden poiminta varaston poiminnoissa](warehouse-how-to-pick-items-with-inventory-picks.md) kohdassa Kokoonpano tilausta varten -nimikkeiden käsitteleminen varaston poiminnoissa.  
+Fyysisen varaston perusmäärityksissä poiminta kokoonpanotilauksiin on tehtävä **Varastosiirto**-sivulla. Lisätietoja on kohdassa [Kokoonpano tilausta varten -nimikkeiden käsitteleminen varaston poiminnoissa](warehouse-how-to-pick-for-production.md#handling-assemble-to-order-items-with-inventory-picks).  
 
 Fyysisen varaston laajennetuissa määrityksissä, joissa sijanneille on määritettävä sekä poiminnat että toimitukset, komponentit tuodaan tuotanto- tai kokoonpanotilauksiin **F.varastoinnin poiminta** -sivulla. Lisätietoja on kohdassa [Tuotanto- tai kokoonpanopoiminta laajennetuissa varastointimäärityksissä](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).
 
@@ -80,4 +80,3 @@ Tämä työnkulkukaavio näyttää, miten tuotantotilauksen osarivien**Varastopa
 [Kokoonpanon hallinta](assembly-assemble-items.md)    
 [Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

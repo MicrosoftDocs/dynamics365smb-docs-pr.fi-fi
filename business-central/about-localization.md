@@ -1,6 +1,6 @@
 ---
 title: Business Centralin paikalliset toiminnot | Microsoft Docs
-description: "Lisätietoja Dynamics 365 Business Centralin paikallisesta käytöstä ja säädösten noudattamisesta"
+description: Tutustu Dynamics 365 Business Centralin paikalliseen saatavuuteen ja säädösten noudattamiseen.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: availability, localization
 ms.date: 12/06/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 9d0836083f4e8506efbd077f9b0cd733b6dbf623
 ms.openlocfilehash: c7b581f7524199c33959756e858476aa9bbaac15
-ms.contentlocale: fi-fi
-ms.lasthandoff: 02/01/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796271"
 ---
 # <a name="local-functionality-in-included365finlongincludesd365finlongmdmd"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]in paikalliset toiminnot
 [!INCLUDE[d365fin](includes/d365fin_md.md)]in yhdistetty lokalisaatiostrategia sisältää sekä Microsoftin että kumppanin vetämät mallit. Tässä osassa on kuvaukset niissä maissa käytettävistä toiminnoista, joissa säädösten noudattaminen ja muut paikalliset toiminnot saadaan Microsoftin avulla.  
@@ -33,7 +33,7 @@ Saat lisätietoja kunkin maan paikallisista toiminnoista valitsemalla sopivan li
 |        | Tanska | [Denmark Local Functionality](localfunctionality/denmark/denmark-local-functionality.md) |
 |        | Saksa | [Saksan paikalliset toiminnot](localfunctionality/germany/germany-local-functionality.md) |
 |        | Suomi | [Suomen paikalliset toiminnot](localfunctionality/finland/finland-local-functionality.md) |
-|        | Ranska | [France Local Functionality](localfunctionality/france/france-local-functionality.md) |
+|        | Ranska | [Ranskan paikalliset toiminnot](localfunctionality/france/france-local-functionality.md) |
 |        | Islanti | [Islannin paikalliset toiminnot](localfunctionality/iceland/iceland-local-functionality.md) |
 |        | Italia | [Italian paikalliset toiminnot](localfunctionality/italy/italy-local-functionality.md) |
 |        | Alankomaat | [Alankomaiden paikalliset toiminnot](localfunctionality/netherlands/netherlands-local-functionality.md) |
@@ -58,4 +58,3 @@ Saat lisätietoja kunkin maan paikallisista toiminnoista valitsemalla sopivan li
 [Yhteensopivuus](compliance/compliance-overview.md)  
 [Microsoft Dynamics 365:n kansainvälinen saatavuus](https://docs.microsoft.com/en-us/dynamics365/get-started/availability)  
 [Lokalisointiratkaisun kehittäminen](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization)  
-

@@ -1,23 +1,23 @@
 ---
-title: "Varastopaikan täydennyksen laskeminen | Microsoft Docs"
-description: "Kun sijainti on määritetty käyttämään ohjattua hyllytystä ja poimintaa, hyllytysmallin sijainnin painopisteet otetaan huomioon kun vastaanottoja hyllytetään."
+title: Varastopaikan täydennyksen laskeminen | Microsoft Docs
+description: Kun sijainti on määritetty käyttämään ohjattua hyllytystä ja poimintaa, hyllytysmallin sijainnin painopisteet otetaan huomioon kun vastaanottoja hyllytetään.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 9708b248eb9e9f8f1f0e14f9b8d9f02ea84767fa
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795117"
 ---
 # <a name="calculate-bin-replenishment"></a>Laske var.paikan täydennys
 Kun sijainti on määritetty käyttämään ohjattua hyllytystä ja poimintaa, hyllytysmallin sijainnin painopisteet otetaan huomioon kun vastaanottoja hyllytetään. Prioriteetteja ovat varastopaikan sisällön pienin ja suurin määrä, joka on vahvistettu tietylle varastopaikalle, sekä varastopaikan luokittelut. Tästä seuraa, että jos nimikkeitä saapuu tasaiseen tahtiin, eniten käytetyt poimintavarastopaikat täyttyvät samalla, kun niitä tyhjennetään.  
@@ -55,4 +55,3 @@ Seuraavan kerran kun lasket varastopaikan täydennystä, ohjelma luo uudelleen p
 [Kokoonpanon hallinta](assembly-assemble-items.md)    
 [Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

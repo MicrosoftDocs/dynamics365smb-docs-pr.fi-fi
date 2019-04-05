@@ -1,23 +1,23 @@
 ---
-title: "Tuotantosolujen ja kuormituskeskusten määrittäminen | Microsoft Docs"
-description: "**Tuotantosolukorttiin** kootaan tuotantoresurssin kiinteät arvot ja vaatimukset. Nämä tiedot ohjaavat tuotantosolussa tapahtuvan tuotannon tuotosta."
+title: Tuotantosolujen ja kuormituskeskusten määrittäminen | Microsoft Docs
+description: '**Tuotantosolukorttiin** kootaan tuotantoresurssin kiinteät arvot ja vaatimukset. Nämä tiedot ohjaavat tuotantosolussa tapahtuvan tuotannon tuotosta.'
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/08/2019
 ms.author: sgroespe
+ms.openlocfilehash: 2b2db4a7750a9313cc5970ef480518cdbbdca959
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 12d192338fc683cd1de8aa8092b781a559872df1
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795367"
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Tuotantosolujen ja kuormituskeskusten määrittäminen
 Ohjelmassa erotetaan kolme eri kapasiteettityyppiä. Tyypit on järjestelty hierarkkisesti. Jokaiseen tasoon kuuluu alatasoja.  
@@ -48,22 +48,22 @@ Seuraavaksi käsitellään ennen kaikkea tuotantosolun määrittämiseen. Kuormi
 
 9.  Määritä **Yksikkökustannuslaskenta**-kentässä, käytetäänkö yllä olevan laskennan perustana käytettyä aikaa ( **Aika**) vai tuotettujen yksiköiden määrää ( **Yksiköt**).  
 10.  Lisää **Spesifinen yksikkökustannus** -kenttään valintamerkki, jos haluat määrittää tuotantosolun yksikkökustannuksen sitä käyttävällä reititysrivillä. Tämä saattaa olla järkevää sellaisten operaatioiden kohdalla, joiden kapasiteettikustannukset eroavat huomattavasti tuotantosolun normaaleista kustannuksista.  
-11.  Valitse **Materiaalinottotapa**-kentässä, lasketaanko ja kirjataanko tämän tuotantosolun tuotoksen kirjaus manuaalisesti vai automaattisesti jommallakummalla seuraavista menetelmistä:  
+11.  Valitse **Materiaalinottotapa**-kentässä, lasketaanko ja kirjataanko tämän tuotantosolun tuotoksen kirjaus manuaalisesti vai automaattisesti jommallakummalla seuraavista menetelmistä:
 
-    |Asetus|Kuvaus|  
-    |----------------------------------|---------------------------------------|  
-    |**Manuaalinen**|Kulutus kirjataan manuaalisesti tuotospäiväkirjaan tai tuotantopäiväkirjaan.|
-    |**Eteenpäin**|Kulutus lasketaan ja kirjataan automaattisesti, kun tuotantotilaus vapautetaan.|  
-    |**Taaksepäin**|Kulutus lasketaan ja kirjataan automaattisesti, kun tuotantotilaus on valmis.|  
+|Asetus|Kuvaus|
+|------|-----------|
+|**Manuaalinen**|Kulutus kirjataan manuaalisesti tuotospäiväkirjaan tai tuotantopäiväkirjaan.|
+|**Eteenpäin**|Kulutus lasketaan ja kirjataan automaattisesti, kun tuotantotilaus vapautetaan.|
+|**Taaksepäin**|Kulutus lasketaan ja kirjataan automaattisesti, kun tuotantotilaus on valmis.|
 
-    > [!NOTE]  
-    >  Tässä ja **nimikkeen** kortissa valittua materiaalinottotapaa voidaan muuttaa yksittäisten operaatioiden kohdalla vaihtamalla asetus reititysriveillä.
+> [!NOTE]
+> Tässä ja **nimikkeen** kortissa valittua materiaalinottotapaa voidaan muuttaa yksittäisten operaatioiden kohdalla vaihtamalla asetus reititysriveillä.
 
 12.  Anna **Mittayksikön koodi** -kenttään ajan yksikkö, jota käytetään tämän tuotantosolun kustannuslaskennassa ja kapasiteettisuunnittelussa.
     Jotta kulutusta voitaisiin jatkuvasti tarkkailla, ensin tulee määrittää mittaustapa. Syötettävät yksiköt ovat perusyksiköitä. Esimerkiksi käsittelyaikaa mitataan tunneissa ja minuuteissa.
 
-    > [!NOTE]  
-    > Jos valitset yksiköksi Päivää, muista, että yksi päivä tarkoittaa 24:ää tuntia, ei 8:aa tuntia (työpäivää).
+> [!NOTE]  
+> Jos valitset yksiköksi Päivää, muista, että yksi päivä tarkoittaa 24:ää tuntia, ei 8:aa tuntia (työpäivää).
 
 13.  Määritä **Kapasiteetti**-kentässä, onko tuotantosolussa samanaikaisesti useita työntekijöitä tai koneita. Jos käyttämääsi [!INCLUDE[d365fin](includes/d365fin_md.md)] -järjestelmään ei ole asennettu Kuormitusryhmä-toimintoa, kentän arvon on oltava **1**.  
 14.  Anna **Tehokkuus**-kenttään tuotantosolun todellinen tuotos prosenttiosuutena oletetusta vakiotuotoksesta. Jos annat arvoksi **100**, tämä tarkoittaa, että tuotantosolun todellinen tuotos on sama kuin vakiotuotos.  
@@ -106,4 +106,3 @@ Kun suunnitellaan kapasiteettirajoitettuja resursseja, järjestelmä varmistaa, 
 [Vaihto-omaisuus](inventory-manage-inventory.md)  
 [Osto](purchasing-manage-purchasing.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

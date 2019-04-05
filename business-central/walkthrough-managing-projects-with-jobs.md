@@ -1,23 +1,23 @@
 ---
-title: "Vaihekuvaus – Projektinhallinta Projektit-sovellusalueen avulla | Microsoft Docs"
-description: "Tässä vaihekuvauksessa esitellään töiden projektinhallintatoiminnot. Projektien avulla voit laatia yrityksen resurssien käyttöön liittyviä aikatauluja ja seurata tietyn projektin resursseihin liittyviä kustannuksia. Projekteissa kuluu esimerkiksi työntekijöiden työtunteja, koneiden käyttötunteja ja varastonimikkeitä, joita täytyy seurata projektin edetessä."
+title: Vaihekuvaus – Projektinhallinta Projektit-sovellusalueen avulla | Microsoft Docs
+description: Tässä vaihekuvauksessa esitellään töiden projektinhallintatoiminnot. Projektien avulla voit laatia yrityksen resurssien käyttöön liittyviä aikatauluja ja seurata tietyn projektin resursseihin liittyviä kustannuksia. Projekteissa kuluu esimerkiksi työntekijöiden työtunteja, koneiden käyttötunteja ja varastonimikkeitä, joita täytyy seurata projektin edetessä.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 1f228296cfa750670e1270a100755e67885c783a
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795175"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Vaihekuvaus: Projektinhallinta Projektit-sovellusalueen avulla
 Tässä vaihekuvauksessa esitellään projektitöiden projektinhallintatoiminnot. Projektien avulla voit laatia yrityksen resurssien käyttöön liittyviä aikatauluja ja seurata tietyn projektin resursseihin liittyviä kustannuksia. Projekteissa kuluu esimerkiksi työntekijöiden työtunteja, koneiden käyttötunteja ja varastonimikkeitä, joita täytyy seurata projektin edetessä.  
@@ -67,7 +67,7 @@ Tässä vaihekuvauksessa esitellään projektitöiden projektinhallintatoiminnot
 -   Luo esimerkkitietoja noudattamalla seuraavan osan toimintaohjeita.  
 
 ## <a name="story"></a>Taustatietoja  
-Tämä vaihekuvaus keskittyy suunnittelu- ja konsulttiyritykseen CRONUS Finland Oy, joka suunnittelee ja varustaa uusia infrastruktuureja, kuten konferenssisaleja ja toimistoja huonekaluineen, tarvikkeineen ja varastoineen. Sen useimmat työt projektisuuntautuneita. Thomas on CRONUKSEN projektipäällikkö. Käynnissä olevien CRONUSIN käynnistämien projektien ansiosta hän saa yleiskuvan jokaisesta meneillään olevasta ja valmiista projektista. Hän järjestää tavallisesti kaupat asiakkaiden kanssa ja lisää projektin ydintiedot, joita olivat tehtävä- ja suunnittelurivit sekä hinnat, [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmaan. Hän toteaa, että tietojen luominen, ylläpitäminen ja tarkistaminen on suoraviivaista. Thomas pitää myös tavasta, jolla [!INCLUDE[d365fin](includes/d365fin_md.md)] mahdollistaa töiden kopioinnin ja maksamisen osamaksuina.
+Tämä vaihekuvaus keskittyy suunnittelu- ja konsulttiyritykseen CRONUS Finland Oy, joka suunnittelee ja varustaa uusia infrastruktuureja, kuten konferenssisaleja ja toimistoja huonekaluineen, tarvikkeineen ja varastoineen. Sen useimmat työt projektisuuntautuneita. Thomas on projektipäällikkö yrityksessä CRONUS. Käynnissä olevien kohteen CRONUS käynnistämien projektien ansiosta hän saa yleiskäsityksen jokaisesta meneillään olevasta ja valmiista projektista. Hän järjestää tavallisesti kaupat asiakkaiden kanssa ja lisää projektin ydintiedot, joita olivat tehtävä- ja suunnittelurivit sekä hinnat, [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmaan. Hän toteaa, että tietojen luominen, ylläpitäminen ja tarkistaminen on suoraviivaista. Thomas pitää myös tavasta, jolla [!INCLUDE[d365fin](includes/d365fin_md.md)] mahdollistaa töiden kopioinnin ja maksamisen osamaksuina.
 
  Projektitiimin jäsen Marianne, joka työskentelee Thomasin alaisena, on projektin päivittäinen vastuuhenkilö. Hän kirjoittaa oman työn lisäksi teknikoiden suorittaman työn jokaisen tehtävän kohdalle. Hän kirjaa nimikkeet, jotka he ovat käyttäneet ja kustannukset, jotka he ovat aiheuttaneet.  
 
@@ -128,7 +128,7 @@ Tämä vaihekuvaus keskittyy suunnittelu- ja konsulttiyritykseen CRONUS Finland 
     -   **KET-menetelmä**: **Kustannusarvo**  
 
 5.  Kirjoita kuluvan päivän päivämäärä **Kesto**-pikavälilehden **Aloituspvm**- ja **Lopetuspvm**-kenttiin. Nämä päivämäärät helpottavat valuuttamuunnosten tekemistä, kun projekti laskutetaan.  
-6.  Vahvista **Ulkomaankauppa**-pikavälilehdessä, että valuuttakoodi on **USD**. Jos valitset **Laskun valuutan koodi** -kentässä USD, projekti laskutetaan Yhdysvaltain dollareina ja vain suunnitellaan CRONUSIN paikallisena valuuttana.  
+6.  Vahvista **Ulkomaankauppa**-pikavälilehdessä, että valuuttakoodi on **USD**. Jos valitset **Laskun valuutan koodi** -kentässä USD, projekti laskutetaan Yhdysvaltain dollareina ja suunnitellaan vain CRONUSin paikallisen valuutan mukaan.  
 
  Voit mukauttaa asiakkaiden hinnoittelun työkohtaiseksi sopimuksissa, jotka olet määrittänyt. Seuraavassa toimenpiteessä projektipäällikkö määrittää kustannukset Mariannen ajasta, määrittää tarvittavan ohjelmiston hinnan ja lisää matkakustannukset, jotka asiakas on suostunut maksamaan.  
 
@@ -280,7 +280,7 @@ Tämä vaihekuvaus keskittyy suunnittelu- ja konsulttiyritykseen CRONUS Finland 
 3.  Valitse **Sulje**-painike **Projektin tilastot** -sivun sulkemiseksi.  
 
 ## <a name="handling-fixed-prices"></a>Kiinteiden hintojen käsitteleminen  
- CRONUKSEN kanssa on tehty sopimus kokoushuoneiden määrittämiseksi. Projektipäällikkö Thomas tarvitsee hyvän yleiskäsityksen projektin edellyttämistä tehtävistä sekä kuhunkin tehtävään liittyvistä budjetoiduista ja kertyneistä kustannuksista. Tarkoitus on myös selvittää projektin sopimuksenmukainen kokonaishinta sekä tähän mennessä laskutettu summa. Asiakkaan kanssa on päästy sopimukseen projektin kiinteästä hinnoittelusta.  
+ CRONUS kanssa on tehty sopimus kokoushuoneiden määrittämiseksi. Projektipäällikkö Thomas tarvitsee hyvän yleiskäsityksen projektin edellyttämistä tehtävistä sekä kuhunkin tehtävään liittyvistä budjetoiduista ja kertyneistä kustannuksista. Tarkoitus on myös selvittää projektin sopimuksenmukainen kokonaishinta sekä tähän mennessä laskutettu summa. Asiakkaan kanssa on päästy sopimukseen projektin kiinteästä hinnoittelusta.  
 
 ### <a name="to-manage-fixed-pricing-in-jobs"></a>Kiinteän hinnoittelun hallinta projekteissa  
 
@@ -386,7 +386,7 @@ Tämä vaihekuvaus keskittyy suunnittelu- ja konsulttiyritykseen CRONUS Finland 
      Kahden työn hintoja, työn tehtävärivejä ja töiden suunnittelurivejä vertaamalla näet, että tiedot on kopioitu oikein.  
 
 ## <a name="making-payments-by-installments"></a>Maksujen suorittaminen osamaksuina  
- CRONUS on juuri ottanut hoitaakseen suuren projektin, joka kestää vuoden. Koska siihen täytyy kohdistaa huomattava määrä resursseja, asiakkaalta halutaan ennakkomaksu, maksu projektin puolivälissä ja lopullinen maksu projektin valmistuessa.  
+ CRONUS on juuri ottanut hoitaakseen suuren projektin, joka kestää kokonaisen vuoden. Koska siihen täytyy kohdistaa huomattava määrä resursseja, asiakkaalta halutaan ennakkomaksu, maksu projektin puolivälissä ja lopullinen maksu projektin valmistuessa.  
 
 ### <a name="to-set-up-a-new-account"></a>Uuden tilin luominen  
 
@@ -485,4 +485,3 @@ Tämä vaihekuvaus keskittyy suunnittelu- ja konsulttiyritykseen CRONUS Finland 
  [Edistymisen ja suorituskyvyn valvonta](projects-how-monitor-progress-performance.md)   
  [Projektien laskuttaminen](projects-how-invoice-jobs.md)  
  [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

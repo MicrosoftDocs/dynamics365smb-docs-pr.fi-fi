@@ -1,23 +1,23 @@
 ---
-title: "Huoltonimikkeiden ja huoltonimikkeen komponenttien määrittäminen | Microsoft Docs"
-description: "Lisätietoja määrityksistä, jotka on tehtävä ennen huoltonimikkeiden käyttöä. Esimerkiksi oletusarvot, kuten vastausaika, sopimusalennusprosentti ja huoltohintaryhmä, on määritettävä."
+title: Huoltonimikkeiden ja huoltonimikkeen komponenttien määrittäminen | Microsoft Docs
+description: Lisätietoja määrityksistä, jotka on tehtävä ennen huoltonimikkeiden käyttöä. Esimerkiksi oletusarvot, kuten vastausaika, sopimusalennusprosentti ja huoltohintaryhmä, on määritettävä.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: e82aa86668da5999117eea636ee29d8fde2cc09e
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795769"
 ---
 # <a name="set-up-service-items-and-service-item-components"></a>Huoltonimikkeiden ja huoltonimikkeen komponenttien määrittäminen
 Huoltonimikkeiden käyttöä varten on määritettävä seuraavat asetukset
@@ -65,4 +65,3 @@ Voit määrittää huoltohyllyjä, jotka ilmaisevat, mihin huoltonimikkeet varas
 ## <a name="see-also"></a>Katso myös
 [Vakiohuoltokoodien määrittäminen](service-how-setup-service-coding.md)   
 [Vianmäärityksen määrittäminen](service-how-setup-troubleshooting.md)
-

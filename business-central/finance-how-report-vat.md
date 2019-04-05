@@ -1,6 +1,6 @@
 ---
-title: "ALV-ilmoitusten lähettäminen veroviranomaisille| Microsoft Docs"
-description: "Lisätietoja sellaisten ilmoitusten valmistelusta, joissa mainitaan myynnin tai myynnin ja ostojen arvonlisävero tiettynä kautena, ilmoituksen lähettämisestä veroviranomaisille."
+title: ALV-ilmoitusten lähettäminen veroviranomaisille| Microsoft Docs
+description: Lisätietoja sellaisten ilmoitusten valmistelusta, joissa mainitaan myynnin tai myynnin ja ostojen arvonlisävero tiettynä kautena, ilmoituksen lähettämisestä veroviranomaisille.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,13 @@ ms.workload: na
 ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 729524ce2145b4e167fb49671045b298affb862b
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795714"
 ---
-
 # <a name="how-to-report-vat-to-a-tax-authority"></a>Toimintaohje: ALV:n raportointi veroviranomaisille
 Tässä ohjeaiheessa käsitellään [!INCLUDE[d365fin](includes/d365fin_md.md)]in raportteja, joilla voit lähettää myynnin ja ostojen arvolisäverosummia koskevat tiedot alueesi veronviranomaisille.
 
@@ -117,4 +116,3 @@ Seuraavassa taulukossa kuvataan koodiyksiköt, jotka sinun on luotava raporttias
 [Myynnin ja ostojen ALV:n käsitteleminen](finance-work-with-vat.md)  
 [Myynnin määrittäminen](sales-setup-sales.md)  
 [Myynnin laskutus](sales-how-invoice-sales.md)  
-

@@ -1,8 +1,8 @@
 ---
 title: Kokoonpanon kirjauksen kumoaminen | Microsoft Docs
-description: "Voit joutua joskus kumoamaan kirjatun kokoonpanotilauksen, jos esimerkiksi tilaukseen kirjattiin virheitä, jotka on korjattava, tai jos kyseistä kirjausta ei olisi pitänyt tehdä lainkaan ja se on palautettava."
+description: Voit joutua joskus kumoamaan kirjatun kokoonpanotilauksen, jos esimerkiksi tilaukseen kirjattiin virheitä, jotka on korjattava, tai jos kyseistä kirjausta ei olisi pitänyt tehdä lainkaan ja se on palautettava.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 83545421ec7539b214788d08d4f4b33c4bdb71d7
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795953"
 ---
 # <a name="undo-assembly-posting"></a>Kokoonpanon kirjauksen kumoaminen
 Voit joutua joskus kumoamaan kirjatun kokoonpanotilauksen, jos esimerkiksi tilaukseen kirjattiin virheitä, jotka on korjattava, tai jos kyseistä kirjausta ei olisi pitänyt tehdä lainkaan ja se on palautettava.
@@ -63,4 +63,3 @@ Kokoonpanotilauksen **Peruutettu**-otsikkokentän arvoksi tulee **Kyllä**. Koko
 [Vaihto-omaisuus](inventory-manage-inventory.md)  
 [Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

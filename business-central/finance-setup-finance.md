@@ -1,8 +1,8 @@
 ---
-title: "Talousprosessien määrittäminen| Microsoft Docs"
-description: "Lisätietoja tehtävistä, joilla määritetään liiketoiminnan taloushallinto laskentatoimen, tilintarkastuksen tai kirjanpidon tarpeita varten."
+title: Talousprosessien määrittäminen| Microsoft Docs
+description: Lisätietoja tehtävistä, joilla määritetään liiketoiminnan taloushallinto laskentatoimen, tilintarkastuksen tai kirjanpidon tarpeita varten.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 12/19/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: aa1e7b13cf6cc56df1a6922a9b123e7cc19580c6
 ms.openlocfilehash: 377e7f8eb3cb78adf68e3f4167a215d8f027f972
-ms.contentlocale: fi-fi
-ms.lasthandoff: 12/19/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796103"
 ---
 # <a name="setting-up-finance"></a>Rahoituksen määrittäminen
 [!INCLUDE[d365fin](includes/d365fin_md.md)] sisältää useimpien rahoitusprosessien vakiomääritykset, mikä nopeuttaa käytön aloittamista. Voit tarvittaessa muuttaa määrityksiä liiketoiminnan tarpeiden mukaisesti. Voit määrittää esimerkiksi roolikeskuksessa avustetun asennusoppaan avulla sijaintiin sopivan arvonlisäveron.  
@@ -56,4 +56,3 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

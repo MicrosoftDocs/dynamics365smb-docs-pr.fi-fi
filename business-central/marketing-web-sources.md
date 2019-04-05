@@ -1,8 +1,8 @@
 ---
-title: "Kontaktiyritysten verkkopalvelujen määrittäminen| Microsoft Docs"
-description: "Voit määrittää internet- tai verkkolähteet ja määrittää ne kontaktiyritykseen. Tämä auttaa ilmaisemaan, miten haluat etsiä kontakteja koskevia tietoja."
+title: Kontaktiyritysten verkkopalvelujen määrittäminen| Microsoft Docs
+description: Voit määrittää internet- tai verkkolähteet ja määrittää ne kontaktiyritykseen. Tämä auttaa ilmaisemaan, miten haluat etsiä kontakteja koskevia tietoja.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: internet
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-setup-contacts
+ms.openlocfilehash: 22b9f0be189fa24f366c1ffa20934d2d8e7e8fc5
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: d7a02a85e65a663bc304becd8392e949d485f13a
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795772"
 ---
 # <a name="set-up-web-sources-for-contact-companies"></a>Kontaktiyritysten verkkolähteiden määrittäminen
 Voit käyttää verkkolähteitä (esimerkiksi hakukoneita ja verkkosivustoja) kontaktiyrityksissä silloin, kun haluat ilmaista, mistä aiot hakea tietoa kontakteistasi Internetissä. Kun liität verkkolähteitä, määritä, mitä hakukonetta ja hakusanaa sovellus käyttää hakiessaan pyydettyjä tietoja.
@@ -47,6 +47,5 @@ Toista nämä vaiheet ja luo niin monta verkkolähdettä kuin haluat.
 Voit liittää verkkolähteitä myös **Kontaktiluettelo**-sivulla noudattaen samaa menettelytapaa.
 
 ## <a name="see-also"></a>Katso myös
-[Kontaktiyrityksen luominen](marketing-create-contact-companies.md)  
+[Kontaktien luominen](marketing-create-contact-companies.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

@@ -1,6 +1,6 @@
 ---
 title: Myyntilaskun tai myyntitilauksen luominen | Microsoft Docs
-description: "Tässä ohjeaiheessa kerrotaan, miten luodaan kauppakirja tai myyntilasku tai myyntitilaus kirjaamaan asiakkaan kanssa tehty sopimus tuotteiden myynnistä tietyin ehdoin."
+description: Tässä ohjeaiheessa kerrotaan, miten luodaan kauppakirja tai myyntilasku tai myyntitilaus kirjaamaan asiakkaan kanssa tehty sopimus tuotteiden myynnistä tietyin ehdoin.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
 ms.date: 10/17/2018
 ms.author: sgroespe
+ms.openlocfilehash: c7f689a078051516f6db14b311f5f97481808a8f
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: a5fe5e467d693fc98f604cfc85be47488374541a
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795148"
 ---
 # <a name="invoice-sales"></a>Myynnin laskutus
 Luo myyntilasku tai -tilaus tallentaaksesi sopimuksesi asiakkaan kanssa ja myydäksesi määrätyt tuotteet määrätyillä toimitus- ja maksuehdoilla.  
@@ -95,7 +95,7 @@ Voit saada maksun ja rekisteröidä maksun eri tavoilla liiketoimintatarpeistasi
 
 Voit käsitellä maksut suoraan asiakkaan kortista. Hae asiakkaan maksamattomien laskujen yleiskatsaus **Rekisteröi asiakkaan maksut** -toiminnolla. Merkitse sitten lasku osittain tai kokonaan maksetuksi. Tämä maksun täsmäytys käsittelee asiakkaan maksut kohdistamalla pankkitilille vastaanotetut summat niihin liittyviin maksamattomiin myyntilaskuihin ja kirjaamalla maksut sen jälkeen. Lisätietoja on kohdassa [Maksujen täsmäyttäminen yksitellen](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-register-customer-payments-individually).  
 
-Yritysympäristöissä, joissa asiakas maksaa jonkin aikaa toimituksen jälkeen maksuehtojen mukaisesti, kirjattu myyntilaskun pysyy avoimena (maksamattomana), kunnees myyntireskontraosasto vahvistaa, että maksu on vastaanotettu ja kohdistaa maksun kirjattuun myyntilaskuun. Tämä voidaan tehdä manuaalisesti tai automaattisesti. Lisätietoja on kohdissa [Asiakkaan maksujen täsmäyttäminen manuaalisesti](receivables-how-apply-sales-transactions-manually.md) ja [Maksujen täsmäyttäminen käyttämällä automaattista kohdistusta](receivables-how-reconcile-payments-auto-application.md).  
+Yritysympäristöissä, joissa asiakas maksaa jonkin aikaa toimituksen jälkeen maksuehtojen mukaisesti, kirjattu myyntilaskun pysyy avoimena (maksamattomana), kunnees myyntireskontraosasto vahvistaa, että maksu on vastaanotettu ja kohdistaa maksun kirjattuun myyntilaskuun. Tämä voidaan tehdä manuaalisesti tai automaattisesti. Lisätietoja on kohdissa [Asiakkaan maksujen täsmäyttäminen kassapäiväkirjan avulla tai asiakastapahtumista](receivables-how-apply-sales-transactions-manually.md) ja [Maksujen täsmäyttäminen käyttämällä automaattista kohdistusta](receivables-how-reconcile-payments-auto-application.md).  
 
 Yritysympäristöissä, joissa asiakas maksaa heti (esimerkiksi PayPal-maksuna tai käteisenä) maksu kirjataan heti, kun kirjaat myyntilaskun. Toisin sanoen kirjattu myyntilaskun suljetaan kokonaan kohdistettuna. Valitset myyntitilauksen **Maksutavan koodi** -kentässä asianmukaisen koodin. Katso vaihe 8. Elektronisissa maksuissa, kuten PayPal-maksuissa, sinun täytyy myös täyttää **Maksupalvelu**-kenttä. Lisätietoja on kohdassa [Asiakasmaksujen ottaminen käyttöön maksupalvelujen kautta](sales-how-enable-payment-service-extensions.md).  
 
@@ -106,6 +106,5 @@ Voit luoda jopa suoraan maksettavia laskuja rekisteröimättömille asiakkaille,
 [Myynnin määrittäminen](sales-setup-sales.md)  
 [Vaihto-omaisuus](inventory-manage-inventory.md)  
 [Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md)  
-[Joukkolaskutus Business Central -sovelluksen Microsoft Bookings -ratkaisusta ](finance-bookings.md)  
+[Joukkolaskutus Business Centralin Microsoft Bookingsista ](finance-bookings.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

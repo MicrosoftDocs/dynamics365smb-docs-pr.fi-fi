@@ -1,8 +1,8 @@
 ---
-title: "Kontaktien vastuualueiden määrittäminen| Microsoft Docs"
-description: "Voit määrittää vastuualueen koodin ja määrittää sen sitten kontaktille ilmaisemaan tehtävät, joista kontakti vastaa omassa yrityksessään. Vastuualueena voi olla esimerkiksi IT tai tuotanto."
+title: Kontaktien vastuualueiden määrittäminen| Microsoft Docs
+description: Voit määrittää vastuualueen koodin ja määrittää sen sitten kontaktille ilmaisemaan tehtävät, joista kontakti vastaa omassa yrityksessään. Vastuualueena voi olla esimerkiksi IT tai tuotanto.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: task, to-do, relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-setup-contacts
+ms.openlocfilehash: 62d8f733dbfdb6b3da78368e553deef1ea208072
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: b580518771ce9b599e5516ecbb1c25cc5dc5d9f4
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795228"
 ---
 # <a name="set-up-job-responsibilities-for-contact-persons"></a>Kontaktihenkilöiden vastuualueiden määrittäminen
 Voit lisätä kontaktihenkilöiden vastuualueiden tietoja, kun haluat osoittaa, mistä kontaktihenkilö vastaa yrityksessä (esimerkiksi IT, hallinto tai tuotanto). Voit käyttää näitä tietoja kontaktien tietojen syöttämisessä.
@@ -42,10 +42,8 @@ Toista nämä vaiheet ja luo niin monta vastuualuetta kuin haluat. Voit liittä�
 
 Kontaktille liittämiesi vastuualueiden lukumäärä näkyy **Yhteyshenkilö**-sivun **Segmentointi**-osan **Vastuualueiden lkm** -kentässä.
 
-Kun olet liittänyt vastuualueita kontakteihisi, voit käyttää näitä tietoja valitessasi kontakteja segmentteihisi. Lisätietoja on ohjeaiheessa [Kontaktien lisääminen segmentteihin](marketing-add-contact-segment.md).
+Kun olet liittänyt vastuualueita kontakteihisi, voit käyttää näitä tietoja valitessasi kontakteja segmentteihisi. Lisätietoja on kohdassa [Kontaktien lisääminen segmentteihin](marketing-add-contact-segment.md).
 
 ## <a name="see-also"></a>Katso myös
-[Kontaktihenkilöiden luominen](marketing-create-contact-persons.md)  
-[Kontaktiyrityksen luominen](marketing-create-contact-companies.md)  
-[Business Central -sovelluksen käyttäminen](ui-work-product.md)
-
+[Kontaktien luominen](marketing-create-contact-companies.md)  
+[Business Centralin käyttäminen](ui-work-product.md)

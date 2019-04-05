@@ -1,6 +1,6 @@
 ---
 title: Monikielisyys ja lokalisointi | Microsoft Docs
-description: "Tutustu, miten kieli ja kielialue vaikuttavat Business Central -sovelluksen käyttökokemukseen."
+description: Tutustu, miten kieli ja kielialue vaikuttavat Business Central -sovelluksen käyttökokemukseen.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: language, locale, localization, culture
 ms.date: 11/19/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 218b1b825501d64bef9d65640f922e690df3108f
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795853"
 ---
 # <a name="changing-language-and-locale"></a>Kielen ja kielialueen muuttaminen
 
@@ -52,4 +52,3 @@ Kielen vaihtaminen on helppoa: siirry selainsivun alareunaan ja valitse vasemmas
 ## <a name="see-also"></a>Katso myös  
 [Perusasetusten muuttaminen](ui-change-basic-settings.md)  
 [Käytön aloittaminen](product-get-started.md)  
-

@@ -1,5 +1,5 @@
 ---
-title: "Business Central -sovelluksen käyttäminen mobiililaitteessa | Microsoft Docs"
+title: Business Central -sovelluksen käyttäminen mobiililaitteessa | Microsoft Docs
 description: Voit tarkastella ja muokata Business Central -tietoja puhelimessa tai tabletissa.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -10,14 +10,13 @@ ms.workload: na
 ms.search.keywords: phone, tablet
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 8e69b29eff604a78151b6a6f3ad3564abb04a5b2
 ms.openlocfilehash: 4f38251e53e40d57829f7b00592d8b2920e2dea1
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/29/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795678"
 ---
-
 # <a name="getting-business-central-on-your-mobile-device"></a>Business Central -sovelluksen hakeminen mobiililaitteeseen
 Voit käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietoja mobiililaitteella. Voit siirtyä liiketoimintatiedoissa, käyttää erilaisia toimintoja, kuten lähettää tietoja Exceliin ja Office 365:een, tarkastella päivitettyjä kaavioita ja tunnuslukuja, lähettää myyntitarjouksia ja -laskuja sähköpostitse sekä ottaa kameralla kuvia ja liittää niitä. Noudattamalla seuraavia ohjeita voit ladata sovelluksen ja aloittaa.
 
@@ -33,4 +32,3 @@ Voit nyt käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]ia sekä tarkaste
 ## <a name="see-also"></a>Katso myös
 [Käytön aloittaminen](product-get-started.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
-

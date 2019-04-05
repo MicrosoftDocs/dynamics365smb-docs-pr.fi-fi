@@ -1,8 +1,8 @@
 ---
-title: "Ostojen määritystehtävien yleiskatsaus | Microsoft Docs"
-description: "Ohjeaiheessa kerrotaan tehtävistä, joilla määritetään yrityksen hallintakäytäntöjä, ja määritetään ostoprosessit."
+title: Ostojen määritystehtävien yleiskatsaus | Microsoft Docs
+description: Ohjeaiheessa kerrotaan tehtävistä, joilla määritetään yrityksen hallintakäytäntöjä, ja määritetään ostoprosessit.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 267f55c59f910633932c35a36e792a5fbfb0f4a2
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3409a5f847ddaeae4e96126f364ec300ac2b90d6
-ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795435"
 ---
 # <a name="setting-up-purchasing"></a>Ostojen määrittäminen
 Ennen ostoprosessien hallinnan aloittamista on määritettävä yrityksen ostokäytäntöjen säännöt ja arvot.
@@ -38,4 +38,3 @@ Maksumenetelmiä ja valuuttoja sekä muita rahoitukseen liittyviä ostoasetuksia
 ## <a name="see-also"></a>Katso myös
 [Osto](purchasing-manage-purchasing.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

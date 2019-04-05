@@ -1,73 +1,48 @@
 ---
-title: Saat esikatselun uusista markkinoista
-description: "Lue lisää Business Central -sovelluksen esikatseluiden käyttöoikeudesta."
-author: bholtorf
+title: Kokeilu- ja esiversiot
+description: Lue lisää Business Central -sovelluksen esikatseluiden käyttöoikeudesta.
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox
-ms.date: 10/01/2018
-ms.author: bholtorf
+ms.date: 02/25/2019
+ms.author: edupont
+ms.openlocfilehash: 2178070d1659daa71aad72f75ce724eefd06420d
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 50d1429a58b878766c76ed97f65936db78191ee0
-ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795985"
 ---
-# <a name="access-to-the-included365finlongincludesd365finlongmdmd-preview"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] -esikatselun käyttöoikeus
-[!INCLUDE[d365fin](includes/d365fin_md.md)] on saatavissa uusissa maissa keväästä 2018 alkaen. Jotta varmistamme, että [!INCLUDE[d365fin](includes/d365fin_md.md)] on juuri oikea ratkaisu asiakkaille, tarjoamme palvelusta esikatseluversion kevään julkaisussa. Tanskan esikatselu tuli käyttöön tammikuussa 2018. Se on pian käytettävissä myös muilla markkinoilla.  
+# <a name="included365finlongincludesd365finlongmdmd-trials-and-previews"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]in kokeilu- ja esiversiot
+
+[!INCLUDE[d365fin](includes/d365fin_md.md)] on saatava yhä useammassa maassa eri puolilla maailmaa. Jos haluat lisätietoja [!INCLUDE [prodshort](includes/prodshort.md)], voit rekisteröityä maksuttomaan kokeiluversioon. Jos taas olet kumppani, voit luoda sandbox-ympäristöihin esiversioita, jotka voit sitten jakaa prospektien ja asiakkaiden kanssa.  
 
 ## <a name="getting-started-with-previews-and-sandboxes"></a>Esikatseluiden ja sandbox-ympäristöjen käytön aloittaminen
-Esikatselut ja sandbox-ympäristöt ovat erinomainen tapa aloittaa [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttö. Esikatseluesiintymä sisältää toimintoja, jotka ovat lisäyksiä nykyiseen versioon. Esikatseluiden avulla kumppanit ja asiakkaat voivat kokeilla julkaisua odottavia toimintoja ja antaa niistä palautetta. Vaikka esikatselut on tarkoitettu ensisijaisesti kumppaneille, asiakkaat voivat myös käyttää niitä rajoitetun ajanjakson ajan. [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen nykyinen esikatselu sisältää suurimman osan Dynamics NAV 2018:n ominaisuuksista. Niiden määrittäminen vaatii yleensä kumppanin apua.
 
-Voit aloittaa esikatselun käytön siirtymällä [tälle sivulla](https://go.microsoft.com/fwlink/?linkid=866045) ja kirjoittamalla työsähköpostiosoitteen. Saat lisätietoja [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksesta ja sen tarjoamista ominaisuuksista tämän sivuston dokumentaatiosta.
+Sandbox-ympäristöihin perustuvat esiversiot ovat erinomainen tapa aloittaa [!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttö. Esikatseluesiintymä sisältää toimintoja, jotka ovat lisäyksiä nykyiseen versioon. Kumppanina voit antaa asiakkaille kokeiluversioita, jotka perustuvat nykyisiin toimintoihin ja mukautuksiin, sekä esiversioita tulevista ominaisuuksista. Tällaisten esiversioiden avulla voit kokeilla tulevia ominaisuuksia ja antaa niistä palautetta.  
+
+<!--To get started with a preview, go to [this page](https://go.microsoft.com/fwlink/?linkid=866045) and provide your work email address. To learn more about [!INCLUDE[d365fin](includes/d365fin_md.md)] and the capabilities it offers, refer to the documentation here on this site.-->
 
 Voit ajatella sandbox-ympäristöä muuna kuin tuotantoympäristönä, jota voi käyttää tuotannon tai [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen esikatseluesiintymän lisäksi. Sandbox-ympäristön avulla voi turvallisesti luoda ja testata laajennuksia ja kehittää uusia toimintoja palvelun mukauttamista varten niin, että tuotannon tai esikatseluesiintymien tiedot tai asetukset eivät muutu. Juuri nyt asiakkaat, joilla on tuotanto- tai esikatseluversio, voivat käyttää sandbox-ympäristöä.
 
-Saat lisätietoja sandbox-ympäristön käytön aloittamisesta alla olevista ohjeista.
+Lisätietoja sandbox-ympäristön käytön aloittamisesta on kohdassa [Sandbox-ympäristön luominen](across-how-create-sandbox-environment.md).  
 
-## <a name="creating-a-sandbox-environment"></a>Sandbox-ympäristön luominen
-Sandbox-ympäristön käyttö edellyttää [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen tilauksen. Kutakin tilausta kohden voi olla vain yksi sandbox-ympäristö.
-
-### <a name="advanced-functionality-available-in-a-sandbox-environment"></a>Sandbox-ympäristön käytettävissä olevat lisätoiminnot
-Sandbox-ympäristöt sisältävät asiakasohjelman suunnittelutoiminnon. Se mahdollistaa sivujen suunnittelemisen vedä ja pudota -käyttöliittymän avulla ja laajennusten luomisen asiakasohjelmassa lisäämällä ja järjestämällä kenttiä.
-
-Lisätietoja on kohdassa [Suunnittelutoiminnon käyttäminen](https://docs.microsoft.com/en-us/dynamics-nav/developer/devenv-inclient-designer).
-
-### <a name="to-create-a-sandbox-environment"></a>Sandbox-ympäristön luominen
-1.  Kirjaudu [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman tuotanto- tai esikatseluesiintymään.  
-2.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sandbox-ympäristö** ja valitse sitten liittyvä linkki.
-3.  Valitse **Luo**. Esiin tulevassa välilehdessä voit määrittää sandbox-ympäristön asetukset valmiiksi.
-
-    > [!Note]
-    > Jos ponnahdusikkunoiden esto on käytössä selaimessa, vaihda sen asetukset sallimaan *.businesscentral.dynamics.com*-osoitteen URL-osoitteet.  
-
-4.  Kun sandbox-ympäristö on valmis, näyttöön tulee aloitussivu.  
-5.  Jos haluat lukea sandbox-ympäristössä kokeiltavista skenaarioista, kuten esimerkiksi laajennusten kehittämisestä, valitse **Lisätietoja**-linkki. Muussa tapauksessa valitse **Sulje** ja jatka [!INCLUDE[d365fin](includes/d365fin_md.md)] -sanbox-esiintymän roolikeskukseen.  
-6.  Roolikeskuksen yläreunaan avautuvassa ilmoituksessa ilmoitetaan, että kyse on sandbox-ympäristöstä. Ympäristön tyyppi näkyy myös asiakasohjelman otsikkopalkissa.
-
-    > [!Note]
-    > Sandbox-ympäristö sisältää kuvitteellisen CRONUS-yrityksen esittelytiedot. Mitään tietoja ei kopioida tai muutoin siirretä tuotantoympäristöstä.  
-
-7.  Voit palata koska tahansa Sandbox-ympäristöt-sivulle ja palauttaa sandbox-ympäristön alkuasetuksiin.
-
-    > [!Note]
-    > Sandbox-ympäristön palauttaminen alkuasetuksiin poistaa sen kokonaan. Tämän jälkeen se luodaan uudelleen oletusesittelytietojen avulla.  
-
-8.  Voit siirtyä tuotanto- ja sandbox-ympäristön välillä Dynamics 365 -valikon tai Dynamics-kotisivun avulla.
-
-    > [!Note]
-    > Järjestelmänvalvoja tai toinen käyttäjä voi rajata tai jopa estää sandbox-ympäristön käyttöoikeuden käyttämällä [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman vakiotietoturvaominaisuuksien, kuten käyttäjäkortin, käyttäjäryhmien tai käyttöoikeusjoukkojen avulla.  
+> [!NOTE]
+> Sandbox-ympäristö sisältää kuvitteellisen CRONUS-yrityksen esittelytiedot. Mitään tietoja ei kopioida tai muutoin siirretä tuotantoympäristöstä.  
 
 ### <a name="building-new-solutions-and-intellectual-property"></a>Uusien ratkaisujen kehittäminen ja immateriaalioikeudet
-[!INCLUDE[d365fin](includes/d365fin_md.md)] sisältää joukon kehitystyökaluja ja nykyaikaisen ympäristön, jossa voi kehittää omia lisäsovelluksia ja upottaa ratkaisuja [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman yhteydenmuodostusta tai laajentamista varten.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] sisältää työkaluja, joiden avulla voit ottaa käyttöön omat lisäosat ja upottaa toimintoja, joiden avulla lisätään toimialakohtaisia kokonaisvaltaisia käyttökokemuksia tai integroidaan kolmannen osapuolen ratkaisuja. Voit esimerkiksi kehittää ohjelmointirajapinnan avulla yhdistetyn sovelluksen, jolla vaihdetaan tietoja [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman ja palkkasovelluksen välillä. Yhdistetyt sovellukset voivat käyttää myös laajennuksia ja luoda sivuja, joita käytetään asetuksissa, määrityksissä tai sovelluskohtaisten toimintojen tukemisessa. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman sovellusten kehittäminen](https://aka.ms/getstartedwithapps).
+[!INCLUDE[d365fin](includes/d365fin_md.md)] sisältää joukon kehitystyökaluja ja nykyaikaisen ympäristön, jossa voi kehittää omia lisäsovelluksia ja upottaa ratkaisuja [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman yhteydenmuodostusta tai laajentamista varten.  
+
+Voit esimerkiksi kehittää ohjelmointirajapinnan avulla yhdistetyn sovelluksen, jolla vaihdetaan tietoja [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman ja palkkasovelluksen välillä. Yhdistetyt sovellukset voivat käyttää myös laajennuksia ja luoda sivuja, joita käytetään asetuksissa, määrityksissä tai sovelluskohtaisten toimintojen tukemisessa. Lisätietoja on kohdassa [Liiketoiminnan kasvattaminen Dynamics 365 Business Centralin avulla](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-welcome).
 
 ## <a name="see-also"></a>Katso myös
+
 [Käytön aloittaminen](product-get-started.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[Sandbox-ympäristön valitseminen Dynamics 365 Business Centralin kehittämiseen](/dynamics365/business-central/dev-itpro/developer/devenv-sandbox-overview)  
+[Business Centralin hallintakeskus](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center)  
 
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

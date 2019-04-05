@@ -1,8 +1,8 @@
 ---
 title: Segmenttien ja liittyvien vuorovaikutusten seuranta| Microsoft Docs
-description: "Saat lisätietoja kontaktiryhmien määrittämisestä segmenttejä luomalla ja segmenttien vuorovaikutusten määrittämisestä."
+description: Saat lisätietoja kontaktiryhmien määrittämisestä segmenttejä luomalla ja segmenttien vuorovaikutusten määrittämisestä.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 1fcec3051fdabae818528742fba5d9ca57a721c8
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796361"
 ---
 # <a name="managing-interactions-for-segments"></a>Segmenttien vuorovaikutusten hallinta
 **Segmentti**-sivu on tietynlainen työkirja, jossa voit
@@ -35,9 +35,9 @@ Segmenttejä voi luoda usealla eri tavalla:
 * Voit käyttää tallennettuja segmentointikriteerejä uudelleen.
 
 ## <a name="interactions"></a>Vuorovaikutukset
-**Segmentti**-sivulla voi luoda vuorovaikutuksia useammalle kontaktille samanaikaisesti. Voit esimerkiksi liittää segmentin Microsoft Word -asiakirjan kanssa, jolloin voit lähettää kirjeen kaikille segmentin kontakteille.
+**Segmentti**-sivulla voi luoda vuorovaikutuksia useammalle kontaktille samanaikaisesti. Voit esimerkiksi yhdistää segmentin Microsoft Word -asiakirjaan, jolloin voit lähettää kirjeen kaikille segmentin kontakteille.
 
-Voit määritellä segmentin vuorovaikutuksen tiedot **segmentin** otsikossa. Voit esimerkiksi päättää, mitä vuorovaikutusmallia käytät kaikille kontakteille, määritellä kuvauksen, määritellä yhteydenpidon tyypin ja niin edelleen. Voit kuitenkin muuttaa näitä tietoja segmentin rivillä jokaisen yksittäisen kontaktin osalta, esimerkiksi määrittämällä toisen kuvauksen juuri tietylle kontaktille sopivaksi. Jos olet merging segmenttiä Microsoft Word -asiakirjan kanssa, saat yhdelle tai useammalle segmentin kontaktille lähetettävän asiakirjan persoonalliseksi esimerkiksi lisäämällä kontaktikohtaisia kommentteja asiakirjaan.
+Voit määritellä segmentin vuorovaikutuksen tiedot **segmentin** otsikossa. Voit esimerkiksi päättää, mitä vuorovaikutusmallia käytät kaikille kontakteille, määritellä kuvauksen, määritellä yhteydenpidon tyypin ja niin edelleen. Voit kuitenkin muuttaa näitä tietoja segmentin rivillä jokaisen yksittäisen kontaktin osalta, esimerkiksi määrittämällä toisen kuvauksen juuri tietylle kontaktille sopivaksi. Jos olet yhdistämässä segmenttiä Microsoft Word -asiakirjan kanssa, saat yhdelle tai useammalle segmentin kontaktille lähetettävän asiakirjan persoonalliseksi esimerkiksi lisäämällä kontaktikohtaisia kommentteja asiakirjaan.
 
 ## <a name="logging"></a>Lokiin kirjaaminen
 Kun valitset **Segmentti**-sivulla **Loki**, sovellus tallentaa yhteydenpidot **Vuorovaikutuslokin tapahtuma** -sivulle ja kirjaa segmentin lokiin. Kun olet kirjannut segmentin lokiin, löydät sen vain **Lokiin kirjattu segmentti** -sivulla.
@@ -52,4 +52,3 @@ Kun valitset **Segmentti**-sivulla **Loki**, sovellus tallentaa yhteydenpidot **
 [Myyntimahdollisuuksien hallinta](marketing-manage-sales-opportunities.md)  
 [Kontaktien luonti ja hallinta](marketing-contacts.md)  
 [Business Central -sovelluksen käyttäminen](ui-work-product.md)
-

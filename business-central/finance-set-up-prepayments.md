@@ -1,18 +1,18 @@
 ---
-title: "Ennakkomaksujen määrittäminen | Microsoft Docs"
-description: "Ennakkomaksut ovat maksuja, jotka on laskutettu ja kirjattu myynti- tai ostoennakkomaksun tilaukseen ennen lopullista laskutusta. Esimerkiksi ennen tilattujen nimikkeiden valmistamista voidaan edellyttää talletuksen tekemistä, tai ennen nimikkeiden toimittamista asiakkaalle voidaan edellyttää maksun suorittamista. Ennakkomaksutoimintojen avulla voit laskuttaa ja kerätä asiakkailta edellytettyjä talletuksia tai suorittaa talletuksia toimittajille. Näin voit varmistaa, että kaikki maksut kirjataan laskua vastaan."
+title: Ennakkomaksujen määrittäminen | Microsoft Docs
+description: Ennakkomaksut ovat maksuja, jotka on laskutettu ja kirjattu myynti- tai ostoennakkomaksun tilaukseen ennen lopullista laskutusta. Esimerkiksi ennen tilattujen nimikkeiden valmistamista voidaan edellyttää talletuksen tekemistä, tai ennen nimikkeiden toimittamista asiakkaalle voidaan edellyttää maksun suorittamista. Ennakkomaksutoimintojen avulla voit laskuttaa ja kerätä asiakkailta edellytettyjä talletuksia tai suorittaa talletuksia toimittajille. Näin voit varmistaa, että kaikki maksut kirjataan laskua vastaan.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: prepayment
 ms.date: 12/04/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 3f158d7ed56445d6d2acf2ef8e5e9ab8e7487531
 ms.openlocfilehash: 3038fc256ec45b8eb51abe3f71b7fcc7d273b353
-ms.contentlocale: fi-fi
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795661"
 ---
 # <a name="set-up-prepayments"></a>Ennakkomaksujen määrittäminen
 Jos haluat, että asiakkaat lähettävät maksun ennen kuin toimitat heille tilauksen tai jos toimittaja haluaa maksun ennen kuin toimitus lähetetään sinulle, voit käyttää Ennakkomaksu-toimintoa. Voit laskuttaa ja periä toiminnolla asiakkailta edellytettäviä talletuksia tai suorittaa talletuksia toimittajille sekä varmistaa, että kaikki osamaksut kohdistetaan laskuun. Lisätietoja on kohdassa [Ennakkomaksulaskujen luominen](finance-how-to-create-prepayment-invoices.md).
@@ -84,4 +84,3 @@ Toisin sanoin asiakaskortin ennakkomaksuprosenttia käytetään vain, jos nimikk
 [Tietoja pääkirjanpidosta ja tilikartasta](finance-general-ledger.md)  
 [Rahoitus](finance.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

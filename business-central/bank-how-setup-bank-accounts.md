@@ -1,8 +1,8 @@
 ---
-title: "Pankkitilien määrittäminen| Microsoft Docs"
-description: "Voit täsmäyttää pankkitilit pankin tiliotteiden avulla."
+title: Pankkitilien määrittäminen| Microsoft Docs
+description: Voit täsmäyttää pankkitilit pankin tiliotteiden avulla.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 3b52026643eee4fa2eb4625c99c881789e0373ed
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796245"
 ---
 # <a name="set-up-bank-accounts"></a>Pankkitilien määrittäminen
 [!INCLUDE[d365fin](includes/d365fin_md.md)] seuraa pankkitapahtumia pankkitilien avulla. Tilit voidaan määrittää käyttämään paikallista valuuttaa tai ulkomaan valuuttaa. Kun olet määrittänyt pankkitilit, voit myös käyttää Sekin tulostus -vaihtoehtoa.
@@ -52,4 +52,3 @@ ms.lasthandoff: 11/26/2018
 [Pankkitoiminnan määrittäminen](bank-setup-banking.md)  
 [Pankkitilien hallinta](bank-manage-bank-accounts.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

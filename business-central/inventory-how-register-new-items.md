@@ -1,7 +1,7 @@
 ---
 title: Tavaroiden tai palvelujen nimikekorttien luominen| Microsoft Docs
-description: "Nimikekortit luodaan tunteina myytäville palveluille ja varastosta myytäville fyysisille tuotteille, kuten kokoonpanonimikkeille, valmiille tavaroille, komponenteille tai raaka-aineille."
-documentationcenter: 
+description: Nimikekortit luodaan tunteina myytäville palveluille ja varastosta myytäville fyysisille tuotteille, kuten kokoonpanonimikkeille, valmiille tavaroille, komponenteille tai raaka-aineille.
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 4611072a7612feafec5466ee5092ad7938eeb2dc
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795393"
 ---
 # <a name="register-new-items"></a>Uusien nimikkeiden rekisteröiminen
 Nimikkeet ovat muiden tuotteiden ohella liiketoimintasi perusta; ne ovat siis tavaroita ja palveluja, joilla käyt kauppaa. Jokainen nimike on rekisteröitävä nimikekorttina.
@@ -81,4 +81,3 @@ Toimittajat näkyvät nyt nimikkeen kortissa avattavassa **Nimikkeen toimittajal
 [Osto](purchasing-manage-purchasing.md)  
 [Myynti](sales-manage-sales.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

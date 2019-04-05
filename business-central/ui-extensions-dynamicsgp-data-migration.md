@@ -1,7 +1,7 @@
 ---
-title: "Tietojen siirtäminen Dynamics GP:stä tietojen siirron laajennuksella | Microsoft Docs"
-description: "Voit siirtää asiakkaita, toimittajia, varastonimikkeitä, pääkirjanpidon tilejä sekä avoimia ostoreskontran ja myyntireskontran tapahtumia Dynamics GP:stä Business Centraliin Dynamics GP:n tietojen siirron laajennuksella."
-documentationcenter: 
+title: Tietojen siirtäminen Dynamics GP:stä tietojen siirron laajennuksella | Microsoft Docs
+description: Voit siirtää asiakkaita, toimittajia, varastonimikkeitä, pääkirjanpidon tilejä sekä avoimia ostoreskontran ja myyntireskontran tapahtumia Dynamics GP:stä Business Centraliin Dynamics GP:n tietojen siirron laajennuksella.
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 34a6789780fb3d55c0a97b29408dca659992f781
 ms.openlocfilehash: 1441e15785b159f7a8c13ee59c8ebea4c32512dc
-ms.contentlocale: fi-fi
-ms.lasthandoff: 01/30/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795271"
 ---
 # <a name="the-dynamics-gp-data-migration-extension"></a>Dynamics GP:n tietojen siirron laajennus 
 Tämän laajennuksen avulla on helppo siirtää asiakkaita, toimittajia, varastonimikkeitä, pääkirjanpidon tilejä sekä avoimia ostoreskontran ja myyntireskontran tapahtumia Dynamics GP:stä [!INCLUDE[prodshort](includes/prodshort.md)] -sovellukseen. Jos yrityksessä on käytössä Dynamics GP, voit viedä soveltuvat tietueet ja lisätä tiedot [!INCLUDE[prodshort](includes/prodshort.md)] -sovellukseen avaamalla avustetun asennusoppaan. Siirtolaajennusta voi käyttää kaikkien tuettujen Microsoft Dynamics GP -versioiden kanssa. Lisätietoja on kohdassa [Tietojen tuominen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md).
@@ -60,4 +60,3 @@ Dynamics GP:n ohjatun tietojen siirtotoiminnon viimeinen näytössä oleva asetu
 ## <a name="see-also"></a>Katso myös
 [Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md)  
 [[!INCLUDE[prodshort](includes/prodshort.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md)  
-

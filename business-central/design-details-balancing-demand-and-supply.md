@@ -1,23 +1,23 @@
 ---
-title: "Rakennetiedot – kysynnän ja tarjonnan täsmäyttäminen | Microsoft Docs"
-description: "Suunnittelujärjestelmän priorisoitujen tavoitteiden ymmärtäminen edellyttää suunnittelujärjestelmän toiminnan ymmärtämistä. Tärkeimmät tavoitteet pyrkivät varmistamaan, että kaikki kysyntä täytetään riittävällä tarjonnalla ja että kaikki tarjonta palvelee tarkoitusta."
+title: Rakennetiedot – kysynnän ja tarjonnan täsmäyttäminen | Microsoft Docs
+description: Suunnittelujärjestelmän priorisoitujen tavoitteiden ymmärtäminen edellyttää suunnittelujärjestelmän toiminnan ymmärtämistä. Tärkeimmät tavoitteet pyrkivät varmistamaan, että kaikki kysyntä täytetään riittävällä tarjonnalla ja että kaikki tarjonta palvelee tarkoitusta.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/14/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: ec4746addfa3fad5d43ffe5579f7fd172e257dfb
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795140"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Rakennetiedot: kysynnän ja tarjonnan täsmäytys
 Suunnittelujärjestelmän priorisoitujen tavoitteiden ymmärtäminen edellyttää suunnittelujärjestelmän toiminnan ymmärtämistä. Tärkeimmät tavoitteet pyrkivät varmistamaan seuraavat seikat:  
@@ -293,4 +293,3 @@ Tämä päättää suunnittelujärjestelmän suorittaman kysynnän ja tarjonnan 
  [Rakennetiedot: suunnittelujärjestelmän keskeiset käsitteet](design-details-central-concepts-of-the-planning-system.md)   
  [Rakennetiedot: uusintatilauskäytäntöjen käsittely](design-details-handling-reordering-policies.md)   
  [Rakennetiedot: Tarjonnan suunnittelu](design-details-supply-planning.md)
-

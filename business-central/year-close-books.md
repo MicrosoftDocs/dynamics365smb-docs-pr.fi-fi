@@ -1,8 +1,8 @@
 ---
-title: "Kirjojen sulkemistehtävien yleiskatsaus | Microsoft Docs"
-description: "Tutustu prosesseihin, jolla tilikauden tai -jakson kirjat suljetaan, ja mitä tapahtuu, kun kirjat suljetaan vuoden lopussa."
+title: Kirjojen sulkemistehtävien yleiskatsaus | Microsoft Docs
+description: Tutustu prosesseihin, jolla tilikauden tai -jakson kirjat suljetaan, ja mitä tapahtuu, kun kirjat suljetaan vuoden lopussa.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 6894fad3654f204d79144946776b36dcb2d43665
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796240"
 ---
 # <a name="closing-the-books"></a>Kirjojen sulkeminen
 Kun olet varmistanut, että kaikki tilit ovat ajan tasalla, ja kohdistanut kustannukset ja tulot, voit sulkea tilikauden tai kirjanpitojakson kirjat.
@@ -56,4 +56,3 @@ Voit tehdä kirjauksia edelliselle tilikaudelle myös tuloslaskelmatilien sulkem
 ## <a name="see-also"></a>Katso myös
 [Uuden tilikauden avaaminen](finance-how-open-new-fiscal-year.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

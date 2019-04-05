@@ -1,23 +1,23 @@
 ---
-title: "Komponenttien siirtäminen toiminta-alueelle fyysisen varastoinnin perusmäärityksissä | Microsoft Docs"
-description: "Jos fyysisen varaston sijainnissa on nimikkeen käsittelytoimintoja, nimikkeitä on ehkä siirrettävä sisäisten varastopaikkojen välillä vastaamaan sisäisiä lähdeasiakirjoja, kuten sijainnin tuotantoa, kokoonpanoa tai huoltotilauksia."
+title: Komponenttien siirtäminen toiminta-alueelle fyysisen varastoinnin perusmäärityksissä | Microsoft Docs
+description: Jos fyysisen varaston sijainnissa on nimikkeen käsittelytoimintoja, nimikkeitä on ehkä siirrettävä sisäisten varastopaikkojen välillä vastaamaan sisäisiä lähdeasiakirjoja, kuten sijainnin tuotantoa, kokoonpanoa tai huoltotilauksia.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: a5f103ae832231be521e9faf1d9024cbbb393c33
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: afbc3bbfa0ef8d655ef66aab219bcd7bcfb930b2
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795538"
 ---
 # <a name="move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Komponenttien siirtäminen toiminta-alueelle fyysisen varastoinnin perusmäärityksissä
 Jos fyysisen varaston sijainnissa on nimikkeen käsittelytoimintoja, nimikkeitä on ehkä siirrettävä sisäisten varastopaikkojen välillä vastaamaan sisäisiä lähdeasiakirjoja, kuten sijainnin tuotantoa, kokoonpanoa tai huoltotilauksia.  
@@ -44,7 +44,7 @@ Myös varastotyöntekijä voi luoda sen valitsemalla kyseisen julkaistun kokoonp
 > [!NOTE]  
 >  Jos siirto koskee kokoonpanotilausta, jossa nimike on koottu myyntitilaukseen, voit määrittää, että varastosiirtoasiakirja luodaan automaattisesti varaston poiminta-asiakirjan luonnin yhteydessä. Poiminta-asiakirja tallentaa valmiin kokoonpanon nimikkeen ja kirjaa toimituksen. Voit määrittää tämän valitsemalla **Luo siirrot automaattisesti** -kentän **Kokoonpanon asetukset** -sivulla  
 >   
->  Lisätietoja kokoonpanotilauksista ja fyysisen varastoinnin perusmäärityksistä on ohjeaiheen [Kokoonpano- tai tuotantopoiminta](warehouse-how-to-pick-for-production.md) kohdassa Kokoonpano tilausta varten -nimikkeiden käsitteleminen varaston poiminnoissa.  
+>  Lisätietoja kokoonpanotilauksista ja perusvarastointimäärityksistä on kohdassa [Kokoonpano tilausta varten -nimikkeiden käsitteleminen varaston poiminnoissa](warehouse-how-to-pick-for-production.md#handling-assemble-to-order-items-with-inventory-picks).  
 
 Tässä toimenpiteessä kuvataan, miten voit luoda varastosiirron **Varastosiirto**-sivulla viittaamalla vapautettuun kokoonpanotilaukseen lähdeasiakirjana. Menettely on sama kun siirrät tuotantotilausten ja huoltotilausten osia.  
 
@@ -79,4 +79,3 @@ Tässä toimenpiteessä kuvataan, miten voit luoda varastosiirron **Varastosiirt
 [Kokoonpanon hallinta](assembly-assemble-items.md)    
 [Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

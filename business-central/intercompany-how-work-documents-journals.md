@@ -1,6 +1,6 @@
 ---
-title: "Konsernin asiakirjojen ja päiväkirjojen kirjaaminen| Microsoft Docs"
-description: "Tapahtumien kirjaaminen yhdessä konsernikumppanien kanssa konsernin asiakirjojen avulla."
+title: Konsernin asiakirjojen ja päiväkirjojen kirjaaminen| Microsoft Docs
+description: Tapahtumien kirjaaminen yhdessä konsernikumppanien kanssa konsernin asiakirjojen avulla.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 1573335edd2c3a52074b4a15ab66f86d4f2616ce
-ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795837"
 ---
 # <a name="work-with-intercompany-documents-and-journals"></a>Konserniasiakirjojen ja -päiväkirjojen käyttäminen
 Voit kirjata tapahtumat konsernikumppanien kanssa konsernin asiakirjojen tai päiväkirjojen avulla. Kun kirjaat konsernin asiakirja- tai päiväkirjarivin omassa yrityksessä, vastaava asiakirja- ja päiväkirjarivi luodaan konsernin Lähtevät-kansioon kumppanille lähettämistä varten. Kumppaniyritys voi sitten kirjata vastaavan tapahtuman omassa yrityksessään ilman, että tiedot on annettava uudelleen.
@@ -58,4 +58,3 @@ Kyseiset tapahtumat kirjataan omaan yritykseen ja päiväkirjaan. Lisäksi vasta
 [Rahoituksen määrittäminen](finance-setup-finance.md)  
 [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

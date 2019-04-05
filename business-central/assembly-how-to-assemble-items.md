@@ -1,8 +1,8 @@
 ---
 title: Nimikkeiden kokoaminen | Microsoft Docs
-description: "Jos nimikkeen kortin **Täydennysjärjestelmä**-kenttä sisältää **kokoonpanon**, nimikkeen toimituksen oletustapa on koota nimike määritetyistä komponenteista ja mahdollisesti määritetyn resurssin toimesta."
+description: Jos nimikkeen kortin **Täydennysjärjestelmä**-kenttä sisältää **kokoonpanon**, nimikkeen toimituksen oletustapa on koota nimike määritetyistä komponenteista ja mahdollisesti määritetyn resurssin toimesta.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 12/17/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: aa1e7b13cf6cc56df1a6922a9b123e7cc19580c6
 ms.openlocfilehash: 10b8021bd688e3f699a73d6a95f511b9a26b8341
-ms.contentlocale: fi-fi
-ms.lasthandoff: 12/19/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795835"
 ---
 # <a name="assemble-items"></a>Kokoa nimikkeet
 Jos nimikkeen kortin **Täydennysjärjestelmä**-kenttä sisältää **kokoonpanon**, nimikkeen toimituksen oletustapa on koota nimike määritetyistä komponenteista ja mahdollisesti määritetyn resurssin toimesta.  
@@ -75,4 +75,3 @@ Kun kirjaus on onnistunut, kokoonpanon nimike kirjatataan sijaintikoodiin ja mah
 [Vaihto-omaisuus](inventory-manage-inventory.md)  
 [Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

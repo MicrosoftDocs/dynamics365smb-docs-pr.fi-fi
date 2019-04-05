@@ -1,7 +1,7 @@
 ---
-title: "Työnkulun käyttäjien määrittäminen | Microsoft Docs"
-description: "Työnkuluissa jäseninä olevat käyttäjät on määritettävä ennen kuin voit luoda työnkulun. On esimerkiksi pakollista määritellä ne henkilöt, jotka saavat ilmoituksen toimia työnkulun osavaiheilla."
-documentationcenter: 
+title: Työnkulun käyttäjien määrittäminen | Microsoft Docs
+description: Työnkuluissa jäseninä olevat käyttäjät on määritettävä ennen kuin voit luoda työnkulun. On esimerkiksi pakollista määritellä ne henkilöt, jotka saavat ilmoituksen toimia työnkulun osavaiheilla.
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 8f205520d1028b3de176a720b363ff9c019634df
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795972"
 ---
 # <a name="set-up-workflow-users"></a>Työnkulun käyttäjien määrittäminen
 Työnkuluissa jäseninä olevat käyttäjät on määritettävä, ennen kuin voit luoda työnkulun. On esimerkiksi pakollista määritellä ne henkilöt, jotka saavat ilmoituksen toimia työnkulun osavaiheilla.  
@@ -51,4 +51,3 @@ Työnkulun käyttäjät, jotka toimivat hyväksynnän pyytäjinä ja hyväksyjin
 [Työnkulkujen käyttäminen](across-use-workflows.md)   
 [Vaihekuvaus: Ostojen hyväksyntätyönkulun määrittäminen ja käyttäminen](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
 [Työnkulku](across-workflow.md)   
-

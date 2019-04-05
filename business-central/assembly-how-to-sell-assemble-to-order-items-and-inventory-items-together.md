@@ -1,8 +1,8 @@
 ---
-title: "Kokoonpano tilausta varten -nimikkeiden ja varastonimikkeiden myyminen yhdessä | Microsoft Docs"
-description: "Jos kokoonpanon nimike on määritetty Kokoonpano varastoon -toimintoa varten, myyntitilauksen oletusprosessi olettaa, että nimike on jo koottu ja se voidaan poimia varastosta, jos sitä on saatavana. Mutta jos osa määrästä (tai koko määrä) ei ole saatavilla, voit luoda joustavasti kokoonpanotilauksen jäljellä olevalle määrälle."
+title: Kokoonpano tilausta varten -nimikkeiden ja varastonimikkeiden myyminen yhdessä | Microsoft Docs
+description: Jos kokoonpanon nimike on määritetty Kokoonpano varastoon -toimintoa varten, myyntitilauksen oletusprosessi olettaa, että nimike on jo koottu ja se voidaan poimia varastosta, jos sitä on saatavana. Mutta jos osa määrästä (tai koko määrä) ei ole saatavilla, voit luoda joustavasti kokoonpanotilauksen jäljellä olevalle määrälle.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 2f71dbbb4e7e4af19829f08243371bea1998b093
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795171"
 ---
 # <a name="sell-assemble-to-order-items-and-inventory-items-together"></a>Kokoonpano tilausta varten -nimikkeiden ja varastonimikkeiden myyminen yhdessä
 Jos kokoonpanon nimikkeen kortin **Kokoonpanokäytäntö**-kenttä sisältää **Kokoonpano varastoon** -kohdan, myyntitilauksen oletusprosessi olettaa, että nimike on jo koottu ja se voidaan poimia varastosta, jos sitä on saatavana. Tämän vuoksi yhtään kokoonpanotilausta ei luoda automaattisesti ja linkitetä myyntitilauksen riviin. Jos koko (tai osa) määrästä ei ole saatavana, voit luoda kokoonpanotilauksen jäljellä olevalle määrälle täyttämällä myyntitilausrivin **Kokoonpantava määrä tilausta varten** -kenttään arvon. Tällä tavalla voit määrittää nimikkeen kokoonpanon tilausta varten, vaikka se on määritetty kokoonpantavaksi varastoon.  
@@ -46,4 +46,3 @@ Samanlainen joustavuus on olemassa, kun myyt tilaukseen koottavia nimikkeitä, j
 [Vaihto-omaisuus](inventory-manage-inventory.md)  
 [Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

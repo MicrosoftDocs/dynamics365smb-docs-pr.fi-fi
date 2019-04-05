@@ -1,6 +1,6 @@
 ---
-title: "Maksutapojen määrittäminen | Microsoft Docs"
-description: "Voit määrittää myynti- ja ostolaskuille maksutavan, kuten sekin, pankkisiirron, käteisen tai PayPal-maksun."
+title: Maksutapojen määrittäminen | Microsoft Docs
+description: Voit määrittää myynti- ja ostolaskuille maksutavan, kuten sekin, pankkisiirron, käteisen tai PayPal-maksun.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: check, bank transfer, cash, PayPal
 ms.date: 11/22/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 8cac52a1cdd4e614c6e2ef8c027e5cf499926f9d
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795431"
 ---
 # <a name="defining-payment-methods"></a>Maksutapojen määrittäminen
 Maksutavat määrittävät, miten asiakkaiden halutaan ensisijaisesti maksavan ja miten haluat maksaa toimittajille. Maksutapa voi olla asiakas- tai toimittajakohtainen, Tyypillisiä maksutapoja ovat esimerkiksi **pankki**, **käteinen**, **sekki** tai **tili**. 
@@ -39,4 +39,3 @@ Palautusten hyvityslaskut ovat kuitenkin poikkeuksia, sillä rahavirrat kulkevat
 ## <a name="see-also"></a>Katso myös
 [Rahoitus](finance.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
-

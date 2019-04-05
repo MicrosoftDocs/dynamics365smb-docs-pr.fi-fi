@@ -1,23 +1,23 @@
 ---
-title: "Asiakastietojen siirtäminen | Microsoft Docs"
-description: "Voit siirtää aiemmin luodun asiakkaan tiedot aiemmin luodusta ERP-järjestelmästä Business Central -sovellukseen RapidStart Services -palvelun avulla. Voit käyttää Excelin .xlsx-tiedostoja tiedonkuljettajana. Voit siirtää tiedot manuaalisesti kirjoittamalla ne suoraan yrityksen."
+title: Asiakastietojen siirtäminen | Microsoft Docs
+description: Voit siirtää aiemmin luodun asiakkaan tiedot aiemmin luodusta ERP-järjestelmästä Business Central -sovellukseen RapidStart Services -palvelun avulla. Voit käyttää Excelin .xlsx-tiedostoja tiedonkuljettajana. Voit siirtää tiedot manuaalisesti kirjoittamalla ne suoraan yrityksen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 4dae4dbfc06b5040eba09df94fe13e7fce7b1940
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 69630c095da4072f31f678895ee73ab74cc8cdad
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "794957"
 ---
 # <a name="migrate-customer-data"></a>Asiakastietojen siirtäminen
 Voit siirtää aiemmin luodun asiakkaan tiedot aiemmin luodusta ERP-järjestelmästä [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmaan RapidStart Services -palvelun tietojen siirto-työkalujen avulla. Voit käyttää Excel-tiedostoja tiedonkuljettajana. Voit siirtää tiedot manuaalisesti kirjoittamalla ne suoraan yrityksen.
@@ -92,14 +92,14 @@ Kun Excelistä tai RapidStart-paketista tuodut tiedot kohdistetaan, [!INCLUDE[d3
 
 - Jos samat määritykset tehdään suoraan kentälle ja liittyvään taulukkoon, mutta uudet arvot eivät ole samat, suoraan kenttään tehty määritys on etusijalla viittaavan kentän sisältävään taulukkoon tehtyyn määritykseen verrattuna.  
 
-Seuraavissa toimenpiteissä sinun tulisi tarkastaa ennalta mitkä arvot haluat säilyttää siirtoprosessin aikana. Seuraavien vaiheiden suorittaminen edellyttää tietojen siirtotiedostoja (.xlsx), jotka on viety [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmasta. Lisätietoja on siirtotiedostojen viennin osassa.
+Seuraavissa toimenpiteissä sinun tulisi tarkastaa ennalta mitkä arvot haluat säilyttää siirtoprosessin aikana. Seuraavien vaiheiden suorittaminen edellyttää tietojen siirtotiedostoja (.xlsx), jotka on viety [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmasta. Lisätietoja on kohdassa [Tietojen siirtotiedostojen vieminen](admin-migrate-customer-data.md#to-export-data-migration-files).
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Määrityspaketit** ja valitse sitten liittyvä linkki.
 2. Avaa kyseisen yrityksen määrityspaketti.  
 3. Valitse taulukko, johon haluat yhdistää arvoja ja valitse sitten **Taulukot**-välilehden **Kentät**-toiminto.  
 4. Valitse jokaiselle yhdistettävälle kentälle **Yhdistämismääritys**-toiminto.  
 5. Kirjoita **Vanha arvo** -kenttään arvo, jota haluat muuttaa. Kirjoita **Uusi arvo** -kenttään arvo, joksi haluat muuttaa vanhan arvon. Valitse **OK**-painike.  
-6. Tuo asiakkaan tiedot. Lisätietoja on Asiakastietojen tuominen -osassa.
+6. Tuo asiakkaan tiedot. Lisätietoja on kohdassa [Asiakastietojen tuominen](admin-migrate-customer-data.md#to-import-customer-data).
 7. Katso onko **Pakettivirheiden määrä** -kentässä ilmoitettu virheitä. Jos niitä on, poraudu alaspäin, jotta saat virheet näkyviin. **Määritä pakettitietueet** -sivu avautuu.
 8. Valitse **Näytä virhe** -toiminto. Näyttöön avautuu seuraava virhe: **<option> ei ole kelvollinen vaihtoehto. Kelvolliset vaihtoehdot ovat <valid option list>**. Valitse **OK**-painike.  
 9. Voit ottaa määrittämäsi yhdistämismäärityksen käyttöön valitsemalla **Käytä tietoja** -toiminnon.  
@@ -115,7 +115,7 @@ Seuraavassa esimerkissä kuvataan, kuinka [!INCLUDE[d365fin](includes/d365fin_md
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Määrityspaketit** ja valitse sitten liittyvä linkki.  
 2. Valitse taulukko, johon haluat lisätä arvoja, ja valitse sitten **Taulukot**-pikavälilehden **Kentät**-toiminto.  
 3. Kentille, joille haluat [!INCLUDE[d365fin](includes/d365fin_md.md)]:n sallivan lisäarvoja siirron aikana, valitse **Luo puuttuvat koodit** -valintaruutu.  
-4. Tuo asiakkaan tiedot. Lisätietoja on Asiakastietojen tuominen -osassa.
+4. Tuo asiakkaan tiedot. Lisätietoja on kohdassa [Asiakastietojen tuominen](admin-migrate-customer-data.md#to-import-customer-data).
 
 ## <a name="to-clean-up-and-process-data-before-applying-data"></a>Voit tyhjentää ja käsitellä tietoja ennen tietojen käyttämistä
 Joissakin tapauksissa haluat ehkä tyhjentää asiakkaan tiedot ja käsitellä ne ennen kuin kohdistat ne tietokantaan. Voit tehdä tämän korjaamalla ongelmat **Määrityspaketti – käsittely** -eräajon avulla seuraavasti:  
@@ -134,7 +134,7 @@ Kun olet vienyt siirtotaulukon, seuraava vaihe on asiakkaan vanhoja tietojen ant
 
 Jos haluat apua XML:n käytössä, ota käyttöön Excel-valintanauhan **Kehittäjä**-välilehti. Valitse sitten **Lähde**-toiminto, jos haluat nähdä siirtotaulukon XML-mallin Excelin esittämällä tavalla.
 
-Seuraavassa toimenpide perustuu Excel-taulukkoon, jonka olet luonut siirtoa varten. Lisätietoja on siirtotiedostojen viennin osassa.
+Seuraavassa toimenpide perustuu Excel-taulukkoon, jonka olet luonut siirtoa varten. Lisätietoja on kohdassa [Tietojen siirtotiedostojen vieminen](admin-migrate-customer-data.md#to-export-data-migration-files).
 
 > [!IMPORTANT]  
 > Älä muuta sarakkeita Excel-työkirjoissa. Jos niitä on siirretty, muutettu tai poistettu, laskentataulukkoa ei voi tuoda [!INCLUDE[d365fin](includes/d365fin_md.md)]iin.
@@ -187,4 +187,3 @@ Asiakkaan yritystietokanta on nyt valmiiksi asetettu ja perustiedot tuodaan. Seu
 ## <a name="see-also"></a>Katso myös  
 [Yrityksen määrittäminen RapidStart Services -palvelun avulla](admin-set-up-a-company-with-rapidstart.md)  
 [Hallinta](admin-setup-and-administration.md)
-

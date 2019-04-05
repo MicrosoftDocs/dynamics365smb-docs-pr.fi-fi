@@ -1,6 +1,6 @@
 ---
-title: "Tilikartan määrittäminen"
-description: "Voit muuttaa tilikartan oletustilejä ja lisätä uusia tilejä."
+title: Tilikartan määrittäminen
+description: Voit muuttaa tilikartan oletustilejä ja lisätä uusia tilejä.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: COA, cha of acc
 ms.date: 12/10/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
 ms.openlocfilehash: 962f0b81d39e8e79fb7273ee93417b01be8d9e5a
-ms.contentlocale: fi-fi
-ms.lasthandoff: 12/11/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796392"
 ---
 # <a name="setting-up-or-changing-the-chart-of-accounts"></a>Tilikartan määrittäminen tai muuttaminen
 Tilikartta näyttää ne kirjanpidon tilit, joihin on tallennettu taloustietoja. [!INCLUDE[d365fin](includes/d365fin_md.md)] sisältää tilikartan, joka on valmis tukemaan liiketoimintaasi.
@@ -37,9 +37,8 @@ Voit avata kunkin tilin KP-tilin tilikartasta ja lisätä tai muuttaa asetuksia.
 [Pääkirjanpito ja tilikartta](finance-general-ledger.md)  
 [Pankkitilien hallinta](bank-manage-bank-accounts.md)  
 [Dimensioiden käyttäminen](finance-dimensions.md)  
-[Tietojen tuominen muita talousjärjestelmistä](across-import-data-configuration-packages.md)(across-import-data-configuration-packages.md)  
+[Tietojen tuominen muita talousjärjestelmistä](across-import-data-configuration-packages.md)  
 [KP-raporttimallien käyttäminen](bi-how-work-account-schedule.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
-

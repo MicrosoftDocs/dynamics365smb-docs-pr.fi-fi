@@ -1,8 +1,8 @@
 ---
-title: "Markkinoinnin ja kontaktien hallinnan määrittäminen| Microsoft Docs"
-description: "Voit määrittää markkinoinnin ja kontaktien hallinnan Business Centralissa optimoimaan prospektien tai asiakkaiden suhteita sekä parantamaan kampanjoita ja tarjouksia."
+title: Markkinoinnin ja kontaktien hallinnan määrittäminen| Microsoft Docs
+description: Voit määrittää markkinoinnin ja kontaktien hallinnan Business Centralissa optimoimaan prospektien tai asiakkaiden suhteita sekä parantamaan kampanjoita ja tarjouksia.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
-ms.date: 12/07/2018
+ms.date: 02/26/2019
 ms.author: jswymer
+redirect_url: marketing-setup-contacts
+ms.openlocfilehash: e2fa7fc0c5f2e89f592dca84a89e5e5f551b0d28
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 955d436970f922bd7c36ee6d837e75dea9847dd8
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795291"
 ---
 # <a name="setting-up-relationship-management"></a>Kontaktienhallinnan määrittäminen
 Ennen kuin aloitat kontaktien ja markkinoinnin käsittelemisen, määritä, miten markkinoinnissa hallitaan tiettyjä kontakteihin liittyviä asioita. Voit määrittää esimerkiksi sen, synkronoidaanko kontaktin kortti asiakkaan, toimittajan vai pankkitilin kortin kanssa, miten numerosarjat määritetään tai millainen vakiotervehdys kontakteille lähetetään.
@@ -48,7 +49,7 @@ Lisätietoja on ohjeaiheessa [Kontaktien kanssa tapahtuvien vuorovaikutusten tal
 ## <a name="synchronizing-contacts-with-customers-and-more"></a>Kontaktien synkronoiminen esimerkiksi asiakkaiden kanssa
 Kun haluat synkronisoida kontaktikortin asiakas-, toimittaja- ja pankkitilikortin kanssa, sinun täytyy valita liikesuhdekoodi asiakkaille, toimittajille ja pankkitileille. Voit esimerkiksi linkittää kontaktin olemassa olevaan asiakkaaseen vain, jos olet valinnut asiakkaille liikesuhdekoodin **Kontaktienhallinnan asetukset** -sivulla.
 
-Lisätietoja on kohdassa [Kontaktien synkronoiminen asiakkaiden, toimittajien ja pankkitilien kanssa](marketing-synchronize-contacts-customers-vendors-bank-accounts.md).
+Lisätietoja on kohdassa [Kontaktien synkronoiminen asiakkaiden, toimittajien ja pankkitilien kanssa](marketing-synchronize-contacts-customers-vendors-bank-accounts/Synchronizing Contacts With Customers, Vendors, and Bank Accounts).
 
 ## <a name="assigning-a-number-series-to-contacts-and-opportunities"></a>Numerosarjojen määrittäminen kontakteihin ja mahdollisuuksiin
 Voit määrittää numerosarjan kontakteille ja mahdollisuuksille. Jos olet määrittänyt numerosarjat kontakteille kontaktin luomisen yhteydessä, ja painat Enter-näppäintä kontaktin kortin Nro-kentässä, ohjelma syöttää automaattisesti seuraavan käytettävissä olevan kontaktinumeron.
@@ -61,4 +62,3 @@ Voit valita, että ohjelma hakee kopioita automaattisesti aina kun luot kontakti
 ## <a name="see-also"></a>Katso myös
 [Kontaktien hallinta](marketing-contacts.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
-

@@ -1,8 +1,8 @@
 ---
 title: Kokoonpano tilausta varten -nimikkeiden myyminen | Microsoft Docs
-description: "Jos kyse on kokoonpano tilausta varten -määritetystä nimikkeestä, nimikkeen ei odoteta olevan varastossa ja se on koottava myyntitilauksen mukaisesti. Kun syötät nimikkeen myyntitilausriville, kokoonpanotilaus luodaan automaattisesti ja linkitetään myyntitilaukseen."
+description: Jos kyse on kokoonpano tilausta varten -määritetystä nimikkeestä, nimikkeen ei odoteta olevan varastossa ja se on koottava myyntitilauksen mukaisesti. Kun syötät nimikkeen myyntitilausriville, kokoonpanotilaus luodaan automaattisesti ja linkitetään myyntitilaukseen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 5540c45eefb1272c5dfa5c790586f6b33b4f4848
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795958"
 ---
 # <a name="sell-items-assembled-to-order"></a>Kokoonpano tilausta varten -nimikkeiden myyminen
 Jos kokoonpanon nimikkeen kortin **Kokoonpanokäytäntö**-kenttä sisältää **Kokoonpano tilausta varten** -kohdan, nimikettä ei oleteta olevan varastossa, vaan se on koottava myyntitilausta varten. Kun syötät nimikkeen myyntitilausriville, kokoonpanotilaus luodaan automaattisesti ja linkitetään myyntitilaukseen.  
@@ -35,7 +35,7 @@ Tässä toimenpiteessä käsittelet asiakkaan pyytämien määrittelyjen mukaan 
 2.  Luo myyntitilaus. Lisätietoja on kohdassa [Tuotteiden myyminen](sales-how-sell-products.md).  
 3.  Valitse **Nro**-kenttään nimike, jolle on määritetty kokoonpano tilausta varten.  
 4.  Määritä **Sijaintikoodi**-kentässä sijainti, josta nimike myydään. Kokoonpanoprosessi tapahtuu kyseisessä sijainnissa.  
-5.  Määritä **Quantity**-kentässä, miten monta yksikköä haluat myytävän.  
+5.  Määritä **Määrä**-kentässä, miten monta yksikköä haluat myytävän.  
 
     > [!NOTE]  
     >  Jos vähintään yksi pyydetyn kokoonpanon nimikkeen määrän komponenteista ei ole saatavana, näyttöön avautuu yksityiskohtaisia saatavuustietoja sisältävä varoitussivu. Lisätietoja on kohdassa Kokoonpanon saatavuus.  
@@ -65,4 +65,3 @@ Tässä toimenpiteessä käsittelet asiakkaan pyytämien määrittelyjen mukaan 
 [Vaihto-omaisuus](inventory-manage-inventory.md)  
 [Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

@@ -1,24 +1,24 @@
 ---
-title: "Rakennetiedot – varastoprofiilien lataaminen | Microsoft Docs"
-description: "Voit lajitella useita kysynnän ja tarjonnan lähteitä, kun suunnittelujärjestelmä järjestää ne kahdella aikajanalle, joita kutsutaan varastoprofiileiksi."
+title: Rakennetiedot – varastoprofiilien lataaminen | Microsoft Docs
+description: Voit lajitella useita kysynnän ja tarjonnan lähteitä, kun suunnittelujärjestelmä järjestää ne kahdella aikajanalle, joita kutsutaan varastoprofiileiksi.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 10d41fd87408a4dfe8d1b5de368c1a32a45e489b
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795201"
 ---
 # <a name="design-details-loading-the-inventory-profiles"></a>Rakennetiedot: varastoprofiilien lataaminen
 Voit lajitella useita kysynnän ja tarjonnan lähteitä, kun suunnittelujärjestelmä järjestää ne kahdella aikajanalle, joita kutsutaan varastoprofiileiksi.  
@@ -103,4 +103,3 @@ Voit lajitella useita kysynnän ja tarjonnan lähteitä, kun suunnittelujärjest
  [Rakennetiedot: suunnittelujärjestelmän keskeiset käsitteet](design-details-central-concepts-of-the-planning-system.md)   
  [Rakennetiedot: tarjonnan suunnittelu](design-details-supply-planning.md)   
  [Rakennetiedot: suunnittelun parametrit](design-details-planning-parameters.md)
-

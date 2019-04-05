@@ -1,21 +1,21 @@
 ---
-title: "Rakennetiedot – Dimensioyhdistelmien etsiminen | Microsoft Docs"
-description: "Kun suljet sivun dimensioyhdistelmän muokkaamisen jälkeen, Business Central arvioi, onko muokattu dimensiojoukko olemassa. Jos yhdistelmää ei ole olemassa, järjestelmän luo uuden ja palauttaa dimensioyhdistelmän tunnuksen."
+title: Rakennetiedot – Dimensioyhdistelmien etsiminen | Microsoft Docs
+description: Kun suljet sivun dimensioyhdistelmän muokkaamisen jälkeen, Business Central arvioi, onko muokattu dimensiojoukko olemassa. Jos yhdistelmää ei ole olemassa, järjestelmän luo uuden ja palauttaa dimensioyhdistelmän tunnuksen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 02/11/2019
 ms.author: sgroespe
+ms.openlocfilehash: 499ac8e6e42eeafa12ddee650661200ff876805f
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 1814d6e34fc2ab2d0c64a26ba85fa19074be4dda
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796139"
 ---
 # <a name="design-details-searching-for-dimension-combinations"></a>Rakennetiedot: dimensioyhdistelmien etsiminen
 Kun suljet sivun dimensioyhdistelmän muokkaamisen jälkeen, [!INCLUDE[d365fin](includes/d365fin_md.md)] arvioi, onko muokattu dimensiojoukko olemassa. Jos yhdistelmää ei ole olemassa, järjestelmän luo uuden ja palauttaa dimensioyhdistelmän tunnuksen.  
@@ -60,7 +60,7 @@ EXIT(DimSet.ID);
 
 ```  
 
- Jotta [!INCLUDE[d365fin](includes/d365fin_md.md)] voisi kuitenkin edelleen nimetä dimension ja dimensioarvon uudelleen, taulukkoa 348 **Dimensioarvo** laajennetaan **Dimensioarvon tunnus** -kokonaisluku-kentällä. Tämä taulukko muuntaa kenttäparin **Dimensio** ja **Dimension arvo** kokonaislukuarvoksi. Kun nimeät dimension ja dimension arvon, kokonaislukuarvoa ei muuteta.  
+ Jotta [!INCLUDE[d365fin](includes/d365fin_md.md)] voisi kuitenkin edelleen nimetä dimension ja dimensioarvon uudelleen, taulukkoa 349 **Dimensioarvo** laajennetaan **Dimensioarvon tunnus** -kokonaislukukentällä. Tämä taulukko muuntaa kenttäparin **Dimensio** ja **Dimension arvo** kokonaislukuarvoksi. Kun nimeät dimension ja dimension arvon, kokonaislukuarvoa ei muuteta.  
 
 ```  
 DimSet."Parent ID" := 0;  // 'root'  
@@ -79,4 +79,3 @@ EXIT(DimSet.ID);
  [Rakennetiedot: taulukkorakenne](design-details-table-structure.md)   
  [Rakennetiedot: Koodiyksikön 408 dimension hallinta](design-details-codeunit-408-dimension-management.md)   
  [Rakennetiedot: koodiesimerkkejä muuttuneista kuvioista muutoksissa](design-details-code-examples-of-changed-patterns-in-modifications.md)
-

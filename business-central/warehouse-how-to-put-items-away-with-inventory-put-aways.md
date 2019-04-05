@@ -1,23 +1,23 @@
 ---
-title: "Nimikkeiden hyllyttäminen varastohyllytyksen avulla | Microsoft Docs"
-description: "Kun sijanti on asetettu vaatimaan hyllytysprosessia mutta ei vastaanottoprosessia, sinun tulee käyttää **Varastohyllytys** -asiakirjaa kirjataksesi hyllytys ja vastaanotto tietoja lähdeasiakirjoillesi. Saapuva lähdeasiakirja voi olla ostotilaus, myyntipalautustilaus, saapuva siirtotilaus tai tuotantilaus jonka tuotos odottaa hyllytystä."
+title: Nimikkeiden hyllyttäminen varastohyllytyksen avulla | Microsoft Docs
+description: Kun sijanti on asetettu vaatimaan hyllytysprosessia mutta ei vastaanottoprosessia, sinun tulee käyttää **Varastohyllytys** -asiakirjaa kirjataksesi hyllytys ja vastaanotto tietoja lähdeasiakirjoillesi. Saapuva lähdeasiakirja voi olla ostotilaus, myyntipalautustilaus, saapuva siirtotilaus tai tuotantilaus jonka tuotos odottaa hyllytystä.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 410439c6a7b0aacc31f1a191b9b4540d0aa6a5e8
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795483"
 ---
 # <a name="put-items-away-with-inventory-put-aways"></a>Nimikkeiden hyllyttäminen varastohyllytyksen avulla
 Kun sijainti on määritetty edellyttämään hyllytyskäsittelyä mutta ei vastaanottokäsittelyä, lähdeasiakirjojen hyllytys- ja vastaanottotiedot tallennetaan ja kirjataan **Varastohyllytys**-asiakirjaan. Saapuva lähdeasiakirja voi olla ostotilaus, myyntipalautustilaus, saapuva siirtotilaus tai kokoonpano- tai tuotantotilaus, jonka tuotos odottaa hyllytystä.  
@@ -80,4 +80,3 @@ Kirjausprosessi kirjaa vastaanoton (tai tuotantotilauksille tuotoksen) lähdeasi
 [Kokoonpanon hallinta](assembly-assemble-items.md)    
 [Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
-

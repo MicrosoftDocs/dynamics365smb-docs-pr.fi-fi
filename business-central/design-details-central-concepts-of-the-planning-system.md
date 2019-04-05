@@ -1,23 +1,23 @@
 ---
-title: "Rakennetiedot – suunnittelujärjestelmän keskeiset käsitteet| Microsoft Docs"
-description: "Nämä suunnittelutoiminnot sisältyvät ensimmäisen eräajoon, joka valitsee liittyvät nimikkeet ja kauden suunnittelua varten sekä ehdottaa sitten käyttäjille mahdollisia toimia kysyntä- ja tarjontatilanteen sekä nimikkeen suunnitteluparametrien perusteella."
+title: Rakennetiedot – suunnittelujärjestelmän keskeiset käsitteet| Microsoft Docs
+description: Nämä suunnittelutoiminnot sisältyvät ensimmäisen eräajoon, joka valitsee liittyvät nimikkeet ja kauden suunnittelua varten sekä ehdottaa sitten käyttäjille mahdollisia toimia kysyntä- ja tarjontatilanteen sekä nimikkeen suunnitteluparametrien perusteella.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 06dc378a045f9217cd54a53fef9747fbd9c7ba1b
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: afbc6454fd133cfc5d2a40ffc12220b9cbf0f6dd
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795999"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Rakennetiedot: suunnittelujärjestelmän keskeiset käsitteet
 Suunnittelutoiminnot on sisällytetty eräajoon, joka ensin valitsee asiaankuuluvat nimikkeet ja ajanjaksot, jotka suunnitellaan. Eräajo kutsuu koodiyksikköä kunkin nimikkeen alatason koodin (tuotantorakenteen positio) mukaisesti ja laskee suunnitelman täsmäyttämällä tarjonta- ja kysyntäjoukot ja ehdottaa käyttäjälle mahdollisia toimintatapoja. Ehdotetut toimenpiteet ilmestyvät riveinä suunnittelutaulukkoon tai tilaustaulukkoon.  
@@ -237,7 +237,7 @@ Varmuusvaraston tason alittaminen aiheuttaa poikkeuksen, koska näin ei pitäisi
 Yleisesti ottaen poikkeukselliset tilausehdotukset varmistavat, että arvioitu käytettävissä oleva varasto ei ole koskaan varmuusvaraston tasoa alhaisempi. Tämä tarkoittaa sitä, että ehdotettu määrä riittää kattamaan vain varmuusvaraston ottamatta suunnitteluparametreja huomioon. Kuitenkin joissakin tilanteissa tilausmääritteet otetaan huomioon.  
 
 > [!NOTE]  
->  Suunnittelujärjestelmä on saattanut käyttää varmuusvaraston tarkoituksellisesti ja täydentää sen välittömästi. Lisätietoja on kohdan [Rakennetiedot: varastoprofiilien lataaminen](design-details-loading-the-inventory-profiles.md) osassa Varmuusvarastoa voidaan käyttää.
+>  Suunnittelujärjestelmä on saattanut käyttää varmuusvaraston tarkoituksellisesti ja täydentää sen välittömästi. Lisätietoja on ohjeaiheessa [Varmuusvarastoa voidaan käyttää](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).
 
 ### <a name="attention"></a>Huomautus  
 Huomautus-varoitus tulee näkyviin kolmessa tilanteessa:  
@@ -289,4 +289,3 @@ Tämä täydentää keskeisten konseptien luonnoksen, joka liittyy [!INCLUDE[d36
 [Rakennetiedot: suunnittelun kohdistustaulukko](design-details-planning-assignment-table.md)   
 [Rakennetiedot: uusintatilauskäytäntöjen käsittely](design-details-handling-reordering-policies.md)   
 [Rakennetiedot: kysynnän ja tarjonnan täsmäytys](design-details-balancing-demand-and-supply.md)
-

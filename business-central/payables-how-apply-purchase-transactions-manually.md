@@ -1,8 +1,8 @@
 ---
-title: "Toimittajamaksujen täsmäyttäminen manuaalisesti| Microsoft Docs"
-description: "Voit käsitellä tai täsmäyttää toimittajamaksut tai palautukset manuaalisesti kohdistamalla summan ainakin yhteen avoimeen toimittajatapahtumaan."
+title: Toimittajamaksujen täsmäyttäminen maksukirjauskansiolla tai toimittajatapahtumista| Microsoft Docs
+description: Voit käsitellä tai täsmäyttää toimittajamaksut tai palautukset manuaalisesti kohdistamalla summan ainakin yhteen avoimeen toimittajatapahtumaan.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,14 +12,14 @@ ms.workload: na
 ms.search.keywords: payment application, payment processing, match payments
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: e8c740bd32aeceb273f3accbda7b912350c9be12
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: cb62661da68e1fd5255e285288de5089e8547b64
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795882"
 ---
-# <a name="reconcile-vendor-payments-manually"></a>Toimittajamaksujen täsmäyttäminen manuaalisesti
+# <a name="reconcile-vendor-payments-with-the-payment-journal-or-from-vendor-ledger-entries"></a>Toimittajamaksujen täsmäyttäminen maksukirjauskansiolla tai toimittajatapahtumista
 Kun lähetät maksukuitin toimittajalle tai saat hyvityksen toimittajalta, päätä, kohdistetaanko maksu tai hyvitys yhteen avoimeen debet- tai kredit-tapahtumaan vai useaan tällaiseen tapahtumaan. Voit määrittää tarkasti summan, jota käytetään maksukuitin tai hyvityksen kohdistuksessa, eli toimittajapahtumat kohdistetaan tällöin vain osittain. Kaikki toimittajatapahtumat täytyy sulkea (kohdistaa), jotta toimittajatilastot sekä tiliotteiden ja viivästyskulujen raportit ovat virheettömiä.
 
 > [!NOTE]  
@@ -123,4 +123,3 @@ Kun tehdään virheellinen kohdistus, ohjelma luo ja kirjaa korjaavat tapahtumat
 [Ostovelat](payables-manage-payables.md)  
 [Osto](purchasing-manage-purchasing.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

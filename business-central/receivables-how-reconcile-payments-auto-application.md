@@ -1,8 +1,8 @@
 ---
-title: "Maksujen täsmäyttäminen automaattisen kohdistuksen avulla | Microsoft Docs"
-description: "Tässä ohjeaiheessa kerrotaan, miten maksut tai kassaanmaksut voidaan kohdistaa automaattisella kohdistustoiminnolla liittyviin avoimiin tapahtumiin ja maksut täsmäyttää."
+title: Maksujen täsmäyttäminen automaattisen kohdistuksen avulla | Microsoft Docs
+description: Tässä ohjeaiheessa kerrotaan, miten maksut tai kassaanmaksut voidaan kohdistaa automaattisella kohdistustoiminnolla liittyviin avoimiin tapahtumiin ja maksut täsmäyttää.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 693373c91fcc2bc8d0ef4eb3acea99dd13d9eaa0
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796275"
 ---
 # <a name="reconcile-payments-using-automatic-application"></a>Maksujen täsmäyttäminen käyttämällä automaattista kohdistusta
 **Maksujen täsmäytyskirjauskansio** -sivu määrittää tulevat tai lähtevät maksut, jotka on tallennettu tapahtumina verkkopankkitilille ja jotka voit kohdistaa niihin liittyviin avoimiin asiakas-, toimittaja- ja pankkitilitapahtumiin. Päiväkirjan rivit täytetään tuomalla pankin tiliote syötteenä tai tiedostona.
@@ -77,4 +77,3 @@ Voit verrata **Pankkitilin saldo kirjauksen jälkeen** -kentän ja **Tiliotteen 
 [Myyntisaamisten hallinta](receivables-manage-receivables.md)  
 [Myynti](sales-manage-sales.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

@@ -1,21 +1,21 @@
 ---
 title: Komponenttien hallinta tuoterakenteiden avulla| Microsoft Docs
-description: "Kokoonpanon tai tuotannon tuoterakenteella voi määrittää komponentit tai resurssit, joita tarvitaan kyseisen tuoterakenteen nimikkeen kokoamiseen."
-documentationcenter: 
+description: Kokoonpanon tai tuotannon tuoterakenteella voi määrittää komponentit tai resurssit, joita tarvitaan kyseisen tuoterakenteen nimikkeen kokoamiseen.
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: c838fe39720cd8eaee654fe8933aa1a46ffdfbaf
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 587817f68dd731c1ea3e23617e405d0c9493fdd6
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795731"
 ---
 # <a name="work-with-bills-of-material"></a>Tuoterakenteen käyttäminen
 Tuoterakenteilla voi jäsentää päänimikkeet, jotka resurssien tai kuormituskeskusten on koottava tai tuotettava komponenteista. Kokoonpanon tuoterakennetta voidaan käyttää myös päänimikkeen myyntiin komponenteista koostuvana tuotepakettina.
@@ -42,7 +42,7 @@ Kokoonpanon tuoterakenteet sisältävät yleensä nimikkeitä, mutta ne voivat s
 
 Kokoonpanon tuoterakenteessa voi olla useita tasoja. Toisin sanoen kokoonpanon tuoterakenteen komponentti voi olla itsessään kokoonpanonimike. Siinä tapauksessa kokoonpanon tuoterakennerivillä olevassa **Kokoonpanon tuoterakenne** -kentässä on **Kyllä**.
 
-Erikoisvaatimukset koskevat kokoonpanon tuoterakenteiden nimikkeiden saatavuutta. Lisätietoja on ohjeaiheen [Nimikkeiden saatavuuden tarkasteleminen](inventory-how-availability-overview.md) kohdassa Nimikkeen saatavuuden tarkastelu sen mukaan, miten sitä käytetään kokoonpanon tuoterakenteessa.
+Erikoisvaatimukset koskevat kokoonpanon tuoterakenteiden nimikkeiden saatavuutta. Lisätietoja on kohdassa [Nimikkeen saatavuuden tarkastelu sen mukaan, miten sitä käytetään kokoonpanon tuoterakenteessa](inventory-how-availability-overview.md#to-view-the-availability-of-an-item-by-its-use-in-assembly-or-production-boms).
 
 Kokoonpanon tuoterakenteen luomisessa on kaksi osaa:
 - uuden nimikkeen määrittäminen
@@ -104,4 +104,3 @@ Kokoonpanon tuoterakenteen muodostavien nimikkeiden kustannukset kopioidaan osan
 [Nimikkeiden saatavuuden tarkasteleminen](inventory-how-availability-overview.md)     
 [Vaihto-omaisuus](inventory-manage-inventory.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

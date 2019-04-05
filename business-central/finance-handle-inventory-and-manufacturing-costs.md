@@ -1,23 +1,23 @@
 ---
-title: "Varaston ja tuotannon kustannusten käsitteleminen | Microsoft Docs"
-description: "Vaikka useat kustannuslaskennan toiminnot (kuten tapahtuman kohdistus ja automaattinen kustannusten muuttaminen) tapahtuvat taustalla olevissa prosesseissa ilman käyttäjän toimia, useat kentät, sivut ja raportit on tarkoitettu käyttäjille, jotka hallitsevat nimikkeiden tai toimintojen kustannuksia suoraan tai epäsuorasti."
+title: Varaston ja tuotannon kustannusten käsitteleminen | Microsoft Docs
+description: Vaikka useat kustannuslaskennan toiminnot (kuten tapahtuman kohdistus ja automaattinen kustannusten muuttaminen) tapahtuvat taustalla olevissa prosesseissa ilman käyttäjän toimia, useat kentät, sivut ja raportit on tarkoitettu käyttäjille, jotka hallitsevat nimikkeiden tai toimintojen kustannuksia suoraan tai epäsuorasti.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 27c036dac88bce71ecfefa064d05ac3cdd8e8225
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795162"
 ---
 # <a name="handling-inventory-and-manufacturing-costs"></a>Varaston ja tuotannon kustannusten käsitteleminen
 Vaikka useat kustannuslaskennan toiminnot (kuten tapahtuman kohdistus ja automaattinen kustannusten muuttaminen) tapahtuvat taustalla olevissa prosesseissa ilman käyttäjän toimia, useat kentät, sivut ja raportit on tarkoitettu käyttäjille, jotka hallitsevat nimikkeiden tai toimintojen kustannuksia suoraan tai epäsuorasti.  
@@ -40,4 +40,3 @@ Vaikka useat kustannuslaskennan toiminnot (kuten tapahtuman kohdistus ja automaa
 ## <a name="see-also"></a>Katso myös  
 [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)
 [Rakennetiedot: Varaston arvostus](design-details-inventory-costing.md)
-

@@ -1,8 +1,8 @@
 ---
-title: "Tietoja pääkirjanpidosta ja aitoustodistuksesta| Microsoft Docs"
-description: "Tämä artikkeli sisältää tietoja pääkirjanpidosta, tilikartasta ja tililuokista."
+title: Tietoja pääkirjanpidosta ja aitoustodistuksesta| Microsoft Docs
+description: Tämä artikkeli sisältää tietoja pääkirjanpidosta, tilikartasta ja tililuokista.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: analysis, history, track
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 40363e1ef9deeda6b39e2d554c5c3dc3a85334b8
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796095"
 ---
 # <a name="understanding-the-general-ledger-and-the-coa"></a>Pääkirjanpito ja aitoustodistus
 Pääkirjanpito sisältää taloustiedot ja tilikartta näyttää tilit, joihin kaikki pääkirjanpidon tapahtumat kirjataan. [!INCLUDE[d365fin](includes/d365fin_md.md)] sisältää tilikartan, joka on valmis tukemaan liiketoimintaasi.
@@ -65,4 +65,3 @@ Kun luot seuraavan kerran KP-raporttimalleja, tiliotteessa näkyy käteisvarojen
 [Rahoitus](finance.md)  
 [Tilikartan määrittäminen tai muuttaminen](finance-setup-chart-accounts.md)  
 [Business Intelligence](bi.md)  
-

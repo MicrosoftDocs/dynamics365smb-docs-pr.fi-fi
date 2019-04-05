@@ -1,6 +1,6 @@
 ---
-title: "Määritteiden määrittäminen ja niiden määrittäminen nimikkeille| Microsoft Docs"
-description: "Tässä ohjeaiheessa kerrotaan, miten esimerkiksi hakusanoina käytettävät nimikkeiden määritearvot määritetään ja miten ne sitten määritetään nimikkeille ja nimikeluokille."
+title: Määritteiden määrittäminen ja niiden määrittäminen nimikkeille| Microsoft Docs
+description: Tässä ohjeaiheessa kerrotaan, miten esimerkiksi hakusanoina käytettävät nimikkeiden määritearvot määritetään ja miten ne sitten määritetään nimikkeille ja nimikeluokille.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: categories, search words, facets
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 9441bee71c6025deed419dec59d3bacf3bdf5e41
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: fb063e388828f9ea099388ea07d8d54971088b42
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795292"
 ---
 # <a name="work-with-item-attributes"></a>Nimikkeen määritteiden käsitteleminen
 Kun asiakkaat tekevät kyselyjä nimikkeestä kirjeenvaihdon tai integroidun verkkokaupan avulla, he voivat tehdä kyselyjä ominaisuuksien, kuten korkeuden ja vuosimallin, perusteella. Voit auttaa asiakasta määrittämällä nimikkeisiin erilaisia nimikkeen määritteen arvoja, joita voidaan käyttää nimikkeiden haussa.
@@ -31,7 +31,7 @@ Voit myös määrittää nimikkeen määritteitä nimikeluokkiin, jotka kohdiste
 3. Täytä **Nimikkeen määrite** -sivulla tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
->   Jos valitset **Tyyppi**-kentässä **Asetus**, voit valita **Nimikkeen määritteen arvot** -toiminnon ja luoda nimikkeen määritteelle arvot. Lisätietoja on "Arvojen luominen nimikkeen määritteille, joiden tyyppi on Asetus" -osassa.  
+>   Jos valitset **Tyyppi**-kentässä **Asetus**, voit valita **Nimikkeen määritteen arvot** -toiminnon ja luoda nimikkeen määritteelle arvot. Lisätietoja on kohdassa [Arvojen luominen nimikkeen määritteille, joiden tyyppi on Asetus](inventory-how-work-item-attributes.md#to-create-values-for-item-attributes-of-type-option).  
 
 ## <a name="to-create-values-for-item-attributes-of-type-option"></a>Arvojen luominen nimikkeen määritteille, joiden tyyppi on Asetus
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Nimikkeen määritteet** ja valitse sitten liittyvä linkki.
@@ -42,16 +42,16 @@ Voit myös määrittää nimikkeen määritteitä nimikeluokkiin, jotka kohdiste
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Nimikkeet** ja valitse sitten liittyvä linkki.
 2. Valitse **Nimikkeet**-sivulla nimike, jolle haluat määrittää nimikkeen määritteet. Valitse sitten **Määritteet**-toiminto.
 3. Valitse **Nimikkeen määritteen arvot** -sivulla **Uusi**-toiminto.
-4. Valitse **Määrite**-kentässä valintapainike ja valitse aiemmin määritetty nimikkeen määrite. Vaihtoehtoisesti voit valita **Uusi**-toiminnon ja luoda ensin uuden nimikkeen määritteen "Nimikkeen määritteiden luominen" -osassa esitetyllä tavalla.
+4. Valitse **Määrite**-kentässä valintapainike ja valitse aiemmin määritetty nimikkeen määrite. Vaihtoehtoisesti voit valita **Uusi**-toiminnon ja luoda ensin uuden nimikkeen määritteen kohdassa [Nimikkeen määritteiden luominen](inventory-how-work-item-attributes.md#to-create-item-attributes) esitetyllä tavalla.
 5. Anna **Arvo**-kentässä nimikkeen määritteen arvo, kuten 2010, kun kyseessä on **Mallivuosi**-määrite.
-6. Valitse **Asetus**-tyyppisille nimikkeen määritteille **Arvo**-kentän valintapainike. Valitse sitten nimikkeen määritteen arvo. Vaihtoehtoisesti voit valita **Uusi**-toiminnon ja luoda ensin uuden nimikkeen määritteen arvon "Arvojen luominen nimikkeen määritteille, joiden tyyppi on Asetus" -osassa esitetyllä tavalla.
+6. Valitse **Asetus**-tyyppisille nimikkeen määritteille **Arvo**-kentän valintapainike. Valitse sitten nimikkeen määritteen arvo. Vaihtoehtoisesti voit valita **Uusi**-toiminnon ja luoda ensin uuden nimikkeen määritteen arvon kohdassa [Arvojen luominen nimikkeen määritteille, joiden tyyppi on Asetus](inventory-how-work-item-attributes.md#to-assign-item-attributes-to-items) esitetyllä tavalla.
 7. Toista vaiheet 4–6 kaikille niille nimikkeen määritteille, jotka haluat määrittää nimikkeeseen.
 
 ## <a name="to-assign-item-attributes-to-item-categories"></a>Nimikkeen määritteiden määrittäminen nimikeluokille
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Nimikeluokat** ja valitse sitten liittyvä linkki.
 2. Valitse **Nimikeluokat**-sivulla nimikeluokka, jolle haluat määrittää nimikkeen määritteet. Valitse sitten **Muokkaa**-toiminto.
 3. Valitse **Nimikeluokkakortti**-sivun **Määritteet**-pikavälilehdessä **Uusi**-toiminto.
-4. Valitse **Määrite**-kentässä valintapainike ja valitse aiemmin määritetty nimikkeen määrite. Vaihtoehtoisesti voit valita **Uusi**-toiminnon ja luoda ensin uuden nimikkeen määritteen "Nimikkeen määritteen luominen" -osassa esitetyllä tavalla.
+4. Valitse **Määrite**-kentässä valintapainike ja valitse aiemmin määritetty nimikkeen määrite. Vaihtoehtoisesti voit valita **Uusi**-toiminnon ja luoda ensin uuden nimikkeen määritteen kohdassa [Nimikkeen määritteiden luominen](inventory-how-work-item-attributes.md#to-create-item-attributes) esitetyllä tavalla.
 5. Valitse **Oletusarvo**-kentässä valintapainike ja valitse nimikkeen määritteen arvo.
 6. Toista vaiheet 4 ja 5 kaikille niille nimikkeen määritteille, jotka haluat määrittää nimikeluokkaan.
 
@@ -80,4 +80,3 @@ Voit myös määrittää nimikkeen määritteitä nimikeluokkiin, jotka kohdiste
 [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md)  
 [Vaihto-omaisuus](inventory-manage-inventory.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

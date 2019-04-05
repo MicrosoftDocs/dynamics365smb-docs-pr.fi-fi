@@ -1,8 +1,8 @@
 ---
-title: "Poistomenetelmät| Microsoft Docs"
-description: "Lisätietoja eri tavoista käyttöomaisuuden poistojen tai arvonalennusten toteuttamiseen."
+title: Poistomenetelmät| Microsoft Docs
+description: Lisätietoja eri tavoista käyttöomaisuuden poistojen tai arvonalennusten toteuttamiseen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: write down
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 4a6bc27850b84928641f5de7c364fb150fcb4481
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796074"
 ---
 # <a name="depreciation-methods"></a>Poistotavat
 Saatavilla olevia poistomenetelmiä on kahdeksan:  
@@ -357,4 +357,3 @@ Kun käyttöomaisuuden KP-päiväkirjan B1:een syötetään tapahtuma ja **Käyt
 [Rahoitus](finance.md)  
 [Käytön aloittaminen](product-get-started.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

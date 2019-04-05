@@ -1,21 +1,21 @@
 ---
 title: XML-malleihin perustuvien XMLports-kohteiden luominen | Microsoft Docs
-description: "Voit määrittää tiedonsiirtokehyksen XML-mallien avulla."
+description: Voit määrittää tiedonsiirtokehyksen XML-mallien avulla.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 91f21f3b6382aee410ea1de51f371999ac86281c
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: fbbf44cd7a98598ed25dadeb4d6e3a8d37a0bfb0
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795970"
 ---
 # <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>XML-mallien käyttäminen tietojenvaihtomääritysten valmisteluun
 Voit ottaa XML-tiedostojen tietojen tuonnin ja viennin käyttöön [!INCLUDE[d365fin](includes/d365fin_md.md)]in tiedonsiirtokehyksessä määrittämällä [!INCLUDE[d365fin](includes/d365fin_md.md)]in kanssa vaihdettavat tietoelementit XML-mallien avulla. Se tehdään **XML-mallin tarkastelutoiminto** -sivulla lataamalla XML-rakennetiedosto, valitsemalla sopivat tietoelementit ja käynnistämällä joko tietojen vaihdon määritys tai XMLport.  
@@ -34,7 +34,7 @@ Voit ottaa XML-tiedostojen tietojen tuonnin ja viennin käyttöön [!INCLUDE[d36
 
 -   XML-rakenteeseen perustuvan XMLportin luominen  
 
--   XMLportin tuominen Objektien suunnittelu -sovellukseen  
+-   XMLportin tuominen objektien suunnitteluohjelmaan  
 
 ### <a name="to-load-an-xml-schema-file"></a>XML-rakennetiedoston lataaminen  
 
@@ -69,7 +69,7 @@ Voit ottaa XML-tiedostojen tietojen tuonnin ja viennin käyttöön [!INCLUDE[d36
     |Kenttä|Kuvaus|  
     |---------------------------------|---------------------------------------|  
     |**XML-mallin koodi**|Määritä vaiheessa 5 lataamasi XML-rakennetiedosto "XML-rakenteen lataaminen" -osiossa.|  
-    |**Uuden XMLportin numero**|Määritä sen XMLporttien määrä, joka luodaan tästä XML-kaavasta, kun valitset **Luo XMLport** -ikkunassa.|  
+    |**Uuden XMLportin numero**|Määritä niiden XMLporttien määrä, jotka luodaan tästä XML-kaavasta, kun valitset **Luo XMLport** -toiminnon.|  
 
      Rivit on nyt täytettä solmuilla, jotka edustavat kaikki XML-kaavan elementtejä. XML-mallin mukaan pakolliset elementtien solmut valitaan oletusarvoisesti.  
 
@@ -117,19 +117,18 @@ Voit ottaa XML-tiedostojen tietojen tuonnin ja viennin käyttöön [!INCLUDE[d36
 
 1.  Anna **Etsi**-ruudussa **XML-mallit** ja valitse sitten liittyvä linkki.  
 
-2.  Valitse soveltuva XML-rakenne ja sitten **Kotisivun**-välilehden **Käsittely**-ryhmässä **Avaa XML-mallin tarkastelutoiminto**.  
+2.  Valitse oikea XML-rakenne ja sitten **Koti**-välilehden **Prosessi**-ryhmästä **Avaa XML-rakenteen tarkastelu**.  
 
 3.  Määritä **Uuden XMLportin numero** -kentässä numero, joka annetaan uudelle XMLport-objektille luonnin yhteydessä.  
 
 4.  Varmista, että tarvittavat solmut ovat valittuina. Lisätietoja on ohjeen kohdassa "Solmujen valitseminen ja tyhjentäminen XML-rakenteessa".  
 
-5.  Valitse **Kotisivu**-välilehdellä **Käsittely**-ryhmässä **Luo XMLport** ja tallenna objekti sitten .txt-tiedostona oikeaan paikkaan.  
+5.  Valitse **Kotisivu**-välilehden **Käsittely**-ryhmässä **Luo XMLport** ja tallenna objekti sitten .txt-tiedostona oikeaan paikkaan.  
 
 6. Tuo uusi XMLport [!INCLUDE[d365fin](includes/d365fin_md.md)]in kehitysympäristöön ja käännä se.
 
 ## <a name="see-also"></a>Katso myös  
 [Tietojenvaihtomääritysten määrittäminen](across-how-to-set-up-data-exchange-definitions.md)   
 [Maksujen vienti pankkitiedostoon](payables-how-export-payments-bank-file.md)   
-[Maksujen kerääminen SEPA-suoraveloituksena](finance-collect-payments-with-sepa-direct-debit.md)   
-[Tietoja tiedonsiirtokehyksestä](across-about-the-data-exchange-framework.md)
-
+[Maksujen kerääminen SEPA-suoraveloitusperintänä](finance-collect-payments-with-sepa-direct-debit.md)   
+[Tietoja tiedonvaihto-kehyksestä](across-about-the-data-exchange-framework.md)

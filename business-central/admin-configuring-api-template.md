@@ -1,8 +1,8 @@
 ---
-title: "API-mallien määrittäminen | Microsoft Docs"
-description: "Kuvaa vaiheet, jotka sinun täytyy käydä läpi,l jotta voit määrittää Dynamics 365 Business Centralin API-malleja."
+title: API-mallien määrittäminen | Microsoft Docs
+description: Kuvaa vaiheet, jotka sinun täytyy käydä läpi, jotta voit määrittää Dynamics 365 Business Centralin ohjelmointirajapintamalleja.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,14 +12,13 @@ ms.workload: na
 ms.search.keywords: API templates, configuring templates
 ms.date: 10/01/2018
 ms.author: solsen
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 7420bd1b8c1c246b608910a35a47ac025eec6b8b
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796151"
 ---
-
 # <a name="configuring-api-templates"></a>API-mallien määritys
 [!INCLUDE[d365fin_md](includes/d365fin_md.md)]:n API-kirjasto on taustalla olevien objektien yksinkertaistettu esitys. Sovelluksen kaiki ominaisuudet eivät näy liittyvän API:n kautta. **API-asetukset** -sivulla voidaan määrittää malleja, joita käytetään täyttämään objektin tyhjät ominaisuudet, kun luot POST-toiminnon API:n kautta 
 

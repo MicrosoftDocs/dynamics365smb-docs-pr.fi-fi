@@ -1,6 +1,6 @@
 ---
-title: "Ongelmien vianmääritys itsepalvelun rekisteröitymisen avulla | Microsoft Docs"
-description: "Lisätietoja yleistä syistä, minkä vuoksi Business Central -sovellukseen rekisteröityminen ei onnistu ja miten nämä ongelmat voidaan kiertää."
+title: Ongelmien vianmääritys itsepalvelun rekisteröitymisen avulla | Microsoft Docs
+description: Lisätietoja yleistä syistä, minkä vuoksi Business Central -sovellukseen rekisteröityminen ei onnistu ja miten nämä ongelmat voidaan kiertää.
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2018
 ms.author: edupont
+ms.openlocfilehash: 1774492a94b271843ff5ae5bdd11ad285f48c7a3
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7664360941313da6ea0b797ef00df2e9810ad62
-ms.openlocfilehash: de07dac85b9e24f50eb60570630feb6199089ec4
-ms.contentlocale: fi-fi
-ms.lasthandoff: 07/09/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795558"
 ---
 # <a name="troubleshooting-self-service-sign-up"></a>Itsepalvelun rekisteröitymisen vianmääritys
 [!INCLUDE[d365fin](includes/d365fin_md.md)]iin rekisteröityminen on helppoa ja nopeaa. Voit luoda ilmaisen tilin myös silloin, jos organisaatio on olemassa. Tässä artikkelissa kerrotaan ongelmista, joita rekisteröitymisen aikana voi ilmetä.
@@ -63,4 +63,3 @@ Luettelo tuetuista markkinoista on kohdassa [Microsoft Dynamics 365:n kansainvä
 [Tervetuloa [!INCLUDE[d365fin](includes/d365fin_long_md.md)]iin!](index.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Paikalliset toiminnot](about-localization.md)  
-

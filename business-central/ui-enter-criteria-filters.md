@@ -1,6 +1,6 @@
 ---
-title: "Luetteloiden lajitteleminen ja suodattaminen sekä luetteloista hakeminen | Microsoft Docs"
-description: "Voit tehostaa luetteloiden käsittelemistä hakemalla tietoja, lajittelemalla sarakkeita ja tarkentamalla tuloksia tehokkaiden suodatussymboleiden ja pikanäppäinten avulla."
+title: Luetteloiden lajitteleminen ja suodattaminen sekä luetteloista hakeminen | Microsoft Docs
+description: Voit tehostaa luetteloiden käsittelemistä hakemalla tietoja, lajittelemalla sarakkeita ja tarkentamalla tuloksia tehokkaiden suodatussymboleiden ja pikanäppäinten avulla.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 5d6d2d9527e81a92987f6b8fcdbe8e087c3c537a
 ms.openlocfilehash: c6eb9465d07b702e545347cad5acf0a42f01d1de
-ms.contentlocale: fi-fi
-ms.lasthandoff: 01/22/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796035"
 ---
 # <a name="sorting-searching-and-filtering-lists"></a>Luetteloiden lajitteleminen ja suodattaminen sekä luetteloista hakeminen
 Luettelossa olevien tietueiden skannaamista, etsimistä ja rajaamista voi helpottaa muutamilla keinoilla. Näitä keinoja ovat esimerkiksi lajitteleminen, etsiminen ja suodattaminen. Voit käyttää samanaikaisesti joitakin keinoja tai kaikkia keinoja, kun haluat etsiä tai analysoida tiedot nopeasti.
@@ -164,7 +164,7 @@ Kun syötät kriteerejä, voit käyttää kaikkia numeroita ja kirjaimia, joita 
 |`23..`|Päivästä 23 nykyistä kuukautta nykyistä vuotta klo 00:00:00 ajan loppuun asti|  
 |`22..23`|Päivästä 22 nykyistä kuukautta nykyistä vuotta klo 0:00:00 päivään 23 nykyistä kuukautta nykyistä vuotta klo 23:59:59|  
 
-### <a name="124-eitheror"></a>(&#124;) joko/tai  
+### <a name="124-eitheror"></a>(&#124;) Joko/tai  
 
 |Esimerkkimuoto|Näkyvät tietueet|  
 |-----------------------|-----------------------|  
@@ -251,7 +251,7 @@ Kun syötät suodatusehtoja, voit kirjoittaa myös sanoja, joilla on erityinen t
 > Organisaatio voi käyttää mukautettuja tunnuksia. Järjestelmänvalvojalta saa lisätietoja käytettävissä olevista tunnuksista ja mukautettujen tunnusten lisäämisestä. Teknisiä lisätietoja on kohdassa [Suodatuksen tunnusten lisääminen](/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens)
 
 
-### <a name="me-or-userid-records-assigned-to-you"></a>(%me tai %userid) Sinulle liitetyt tietueet
+### <a name="me-or-userid-records-assigned-to-you"></a>(%me tai %userid) Sinulle määritetyt tietueet
 
 Käytä `%me`- tai `%userid`-tunnusta suodattaessasi kenttiä, jotka sisältävät käyttäjätunnuksen. Tällainen kenttä on esimerkiksi **Liitetty käyttäjätunnukseen**, jossa näytetään kaikki käyttäjälle liitetyt kentät.
 
@@ -287,4 +287,3 @@ Käytä `%myvendors`-tunnusta toimittajan **Nro**-kentässä, kun haluat näytt�
 ## <a name="see-also"></a>Katso myös
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Hakemista ja suodattamista koskevat yleiset kysymykset](ui-search-filter-faq.md)
-

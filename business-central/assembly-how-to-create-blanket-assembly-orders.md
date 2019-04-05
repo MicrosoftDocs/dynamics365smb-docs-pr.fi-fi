@@ -1,8 +1,8 @@
 ---
 title: Puitekokoonpanotilauksien luominen | Microsoft Docs
-description: "Jos nimikkeen kortin **Täydennysjärjestelmä**-kenttä sisältää **kokoonpanon**, nimikkeen toimituksen oletustapa on koota nimike määritetyistä komponenteista ja mahdollisesti määritetyn resurssin toimesta."
+description: Jos nimikkeen kortin **Täydennysjärjestelmä**-kenttä sisältää **kokoonpanon**, nimikkeen toimituksen oletustapa on koota nimike määritetyistä komponenteista ja mahdollisesti määritetyn resurssin toimesta.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 12/20/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 5801fcc1284edfe1b8578518c084455c336d5a40
 ms.openlocfilehash: 8796ccf6ce73ded327fad35573a2268e249fb7a7
-ms.contentlocale: fi-fi
-ms.lasthandoff: 12/27/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796106"
 ---
 # <a name="create-blanket-assembly-orders"></a>Puitekokoonpanotilausten luominen
 Voit mukauttaa kokoonpanonimikettä asiakkaan pyynnöstä myyntiprosessin kokoonpanon hallinnan avulla. Lisätietoja on kohdassa [Kokoonpano tilausta varten -nimikkeiden myyminen](assembly-how-to-sell-items-assembled-to-order.md).  
@@ -49,4 +49,3 @@ Linkitetty puitekokoonpanotilaus ja kaikki muokkaukset on linkitetty uuteen myyn
 [Vaihto-omaisuus](inventory-manage-inventory.md)  
 [Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

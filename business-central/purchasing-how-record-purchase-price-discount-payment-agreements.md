@@ -1,6 +1,6 @@
 ---
 title: Toimittajien erikoishinnat, vaihtoehtoiset hinnat ja alennukset | Microsoft Docs
-description: "Voit määrittää eri hintoja tai vaihtoehtoisia hintoja ja alennussopimuksia ja käyttää niitä sitten toimittajien ostoasiakirjoissa."
+description: Voit määrittää eri hintoja tai vaihtoehtoisia hintoja ja alennussopimuksia ja käyttää niitä sitten toimittajien ostoasiakirjoissa.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: ffdb6c4abc4c3a14714c84c8b53798ab8dcee7f2
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 0a718c45256a1e7cc7fbde794491814f1c26dd4a
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796163"
 ---
 # <a name="record-special-purchase-prices-and-discounts"></a>Erikoisostohintojen ja -alennusten kirjaaminen
 Eri hinta- ja alennussopimukset, joita käytetään ostettaessa eri toimittajilta, täytyy määrittää, jotta sovittuja sääntöjä ja arvoja sovelletaan toimittajille luotaviin ostoasiakirjoihin.
 
-Kun olet kirjannut myynnin ja ostojen erikoishinnat ja rivialennukset, [!INCLUDE[d365fin](includes/d365fin_md.md)] varmistaa, että nimikekaupan tuotto on aina optimaalinen laskemalla automaattisesti parhaan hinnan myynti- ja ostoasiakirjoille sekä työ- ja nimikepäiväkirjan riville. Lisätietoja on osiossa Parhaan hinnan laskenta.
+Kun olet kirjannut myynnin ja ostojen erikoishinnat ja rivialennukset, [!INCLUDE[d365fin](includes/d365fin_md.md)] varmistaa, että nimikekaupan tuotto on aina optimaalinen laskemalla automaattisesti parhaan hinnan myynti- ja ostoasiakirjoille sekä projekti- ja nimikepäiväkirjan riville. Lisätietoja on kohdassa [Parhaan hinnan laskenta](purchasing-how-record-purchase-price-discount-payment-agreements.md#best-price-calculation).
 
 Ostoriveille lisätään erikoisostohinta, jos tietty toimittajan, nimikkeen, vähimmäismäärän, mittayksikön sekä aloitus- ja lopetuspäivämäärän yhdistelmä on olemassa.
 
@@ -125,4 +125,3 @@ Jos erikoishintaa ei voi laskea rivin nimikkeelle, joko viimeinen välitön kust
 [Ostojen määrittäminen](purchasing-setup-purchasing.md)  
 [Osto](purchasing-manage-purchasing.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

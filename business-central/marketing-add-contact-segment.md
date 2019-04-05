@@ -1,8 +1,8 @@
 ---
-title: "Kontaktien määrittäminen segmentissä| Microsoft Docs"
-description: "Kun olet luonut segmentin, voit lisätä segmenttiin kontakteja esimerkiksi tiettyihin asiakkaisiin kohdistettuina markkinointikampanjoiden osana."
+title: Kontaktien määrittäminen segmentissä| Microsoft Docs
+description: Kun olet luonut segmentin, voit lisätä segmenttiin kontakteja esimerkiksi tiettyihin asiakkaisiin kohdistettuina markkinointikampanjoiden osana.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect, contact, client, customer
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: ba4ed0971711a1f7a827ec4ea4e42f2013a51cfd
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795577"
 ---
 # <a name="add-contacts-to-segments"></a>Kontaktien lisääminen segmentteihin
 Kun olet luonut segmentin ja syöttänyt sen perustiedot, haluat ehkä lisätä segmenttiin kontakteja. Voit tehdä tämän täyttämällä rivit **Segmentti**-sivulla manuaalisesti, mutta nopeampi ja helpompi tapa on käyttää **Lisää kontakteja**-toimintoa.
@@ -58,4 +58,3 @@ Voit vähentää segmentin kontakteja niin monta kertaa kuin haluat. Valitse **T
 [Segmenttien hallinta](marketing-segments.md)  
 [Myyntimahdollisuuksien hallinta](marketing-manage-sales-opportunities.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
-

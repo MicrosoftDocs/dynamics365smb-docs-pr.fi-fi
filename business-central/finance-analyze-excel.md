@@ -1,6 +1,6 @@
 ---
-title: "Taloudellisten yleiskatsausten käsittely Excelissä | Microsoft Docs"
-description: "Lisätietoja raporttien avaamisesta Microsoft Excelissä, jotta analysointi toimii Business Central -sovelluksessa paremmin."
+title: Taloudellisten yleiskatsausten käsittely Excelissä | Microsoft Docs
+description: Lisätietoja raporttien avaamisesta Microsoft Excelissä, jotta analysointi toimii Business Central -sovelluksessa paremmin.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 10/01/2018
 ms.author: edupont
+ms.openlocfilehash: acd894ede7ad497311a793fb7153333a9a35e1cb
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3ef371dda59142f38aa50159ecf305880d34529b
-ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795764"
 ---
 # <a name="analyzing-financial-statements-in-microsoft-excel"></a>Rahoituslaskelmien analysointi Microsoft Excelissä
 Voit tarkastella [!INCLUDE[d365fin](includes/d365fin_md.md)]issa tunnuslukuja ja saada yleiskuvan yrityksen taloustilanteesta. Voit myös avata luettelot Excelissä tietojen analysointia varten. Voit lisäksi vielä raskaita raportteja, kuten taseita ja tuloslaskelmia, Exceliin, analysoida tietoja ja tulostaa raportit.  
@@ -46,4 +46,3 @@ Saat apuohjelman ansiosta uusimmat tiedot [!INCLUDE[d365fin](includes/d365fin_md
 [Rahoituksen määrittäminen](finance-setup-finance.md)  
 [Pääkirjanpito ja tilikartta](finance-general-ledger.md)  
 [Business Central -sovelluksen käyttäminen](ui-work-product.md)  
-

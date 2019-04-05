@@ -1,8 +1,8 @@
 ---
-title: "Kirjausryhmän määrittäminen| Microsoft Docs"
-description: "Yleiskatsaus kirjausryhmistä, joiden avulla voit säästää aikaa ja välttää virheitä tapahtumia kirjattaessa."
+title: Kirjausryhmän määrittäminen| Microsoft Docs
+description: Yleiskatsaus kirjausryhmistä, joiden avulla voit säästää aikaa ja välttää virheitä tapahtumia kirjattaessa.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: posting setup, initialize
-ms.date: 10/01/2018
+ms.date: 03/05/2019
 ms.author: bholtorf
+ms.openlocfilehash: d62742e7dbee8a4f050d95444b66fa06521b707b
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 732b69df44681d3cc63391bc87c0645ed7e5e1a5
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795247"
 ---
 # <a name="setting-up-posting-groups"></a>Kirjausryhmien määrittäminen
 Kirjausryhmät yhdistävät objektit, kuten asiakkaat, toimittajat, nimikkeet, resurssit sekä myynti- ja ostoasiakirjoja pääkirjanpidon tileille. Ne säästävät aikaa ja auttavat välttämään virheitä tapahtumia kirjattaessa. Tapahtuman arvot viedään kyseisen objektin kirjausryhmässä määritetylle tilille. Kirjausryhmiä varten tarvitaan vain tilikartta. Lisätietoja on kohdassa [Tilikartan määrittäminen](finance-setup-chart-accounts.md).  
@@ -38,9 +38,9 @@ Seuraavissa taulukoissa käsitellään kutakin kirjausryhmätyyppiä.
 
 | erityiset kirjausryhmät | Description |
 | --- | --- |
-| Asiakkaan kirjausryhmät |Määritä tilit, joita käytetään, kun kirjaat myyntireskontran tapahtumia. Jos käytät varastoa, jossa on myyntisaatavia, asiakkaille määritetty yleinen liiketoiminnan kirjausryhmä ja varastonimikkeelle määritetty yleinen tuotteen kirjausryhmä määrittävät, mille tileille myyntitilausrivin tapahtumat kirjataan. Määritä nämä asetukset **Asiakkaan kirjausryhmät** -sivulla. |
+| Asiakkaan kirjausryhmät |Määritä tilit, joita käytetään, kun kirjaat myyntireskontran tapahtumia. Jos käytät varastoa, jossa on myyntisaatavia, asiakkaille määritetty yleinen liiketoiminnan kirjausryhmä ja varastonimikkeelle määritetty yleinen tuotteen kirjausryhmä määrittävät, mille tileille myyntitilausrivin tapahtumat kirjataan. Lisätietoja on edellä olevan **Yleiset kirjausryhmät** -kohdan kohdissa Yleiset liiketoiminnan kirjausryhmät ja Yleiset tuotteen kirjausryhmät. Määritä nämä asetukset **Asiakkaan kirjausryhmät** -sivulla. |
 | Toimittajan kirjausryhmät |Määritä, mihin ostovelkatilien, palveluveloitustilien ja maksualennustilien tapahtumat kirjataan. Tämä muistuttaa asiakkaan kirjausryhmiä. Määritä nämä asetukset **Toimittajan kirjausryhmät** -sivulla. |
-| Varaston kirjausryhmät |Määrittää taseen varastotilit. Nämä tilit ovat kätevä tapa järjestää varasto, sillä voit erotella nimikkeet kirjausryhmien mukaan raportteja luotaessa. Määritä nämä asetukset **Varaston kirjausryhmät** -sivulla. |
+| Varaston kirjausryhmät |Määritä varaston kirjausryhmät, jotka sitten määritetään soveltuville nimiketileille **Varastokirjauksien asetukset** -sivulla. Kun kirjaat nimikettä koskevia tapahtumia, järjestelmää tekee kirjaa KP-tilille, joka on määritetty nimikkeeseen linkitetylle varaston kirjausryhmän ja sijainnin yhdistelmälle. Varaston kirjausryhmät ovat myös kätevä tapa järjestää varasto, sillä voit erotella nimikkeet kirjausryhmien mukaan, kun luot raportteja. Määritä nämä asetukset **Varaston kirjausryhmät** -sivulla. |
 | Pankkitilin kirjausryhmät |Määritä pankkitilien tilit. Tämä esimerkiksi yksinkertaistaa tapahtumien jäljittämistä ja pankkitilin täsmäyttämistä. Määritä nämä asetukset **Pankkitilin kirjausryhmät** -sivulla. |
 | Käyttöomaisuuden kirjausryhmät |Määritä erilaisten kulujen ja kustannusten tilit. Näitä kuluja ja kustannuksia ovat esimerkiksi hankintamenot, kokonaispoistosummat, hankintamenot luovutettaessa, kokonaispoistot luovutettaessa, voitot luovutettaessa, tappiot luovutettaessa, ylläpitokulut ja poistokustannukset. Määritä nämä asetukset **KO:n kirjausryhmät** -sivulla. |
 
@@ -79,4 +79,3 @@ Mitä enemmän tuotteen ja liiketoiminnan kirjausryhmiä on luotu, sitä enemmä
 [Pääkirjanpito ja tilikartta](finance-general-ledger.md)  
 [Rahoituksen määrittäminen](finance-setup-finance.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

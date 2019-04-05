@@ -1,23 +1,23 @@
 ---
-title: "Rakennetiedot – sisäisen fyysisen varastoinnin virrat | Microsoft Docs"
-description: "Nimikkeiden kulku binien välillä yrityksen sijaintikeskuksissa osien poimintaan ja loppunimikkeiden poistoon kokoonpano- tai tuotantotilauksissa ja tilapäisissä liikkeissä, kuten binin täydentämisissä ilman suhdetta lähdedokumentteihin."
+title: Rakennetiedot – sisäisen fyysisen varastoinnin virrat | Microsoft Docs
+description: Nimikkeiden kulku binien välillä yrityksen sijaintikeskuksissa osien poimintaan ja loppunimikkeiden poistoon kokoonpano- tai tuotantotilauksissa ja tilapäisissä liikkeissä, kuten binin täydentämisissä ilman suhdetta lähdedokumentteihin.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: b728815592975091a683eb96f87b1a632da62567
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796359"
 ---
 # <a name="design-details-internal-warehouse-flows"></a>Rakennetiedot: sisäisen fyysisen varastoinnin virta
 Nimikkeiden kulku varastopaikkojen välillä yrityksen sijaintikeskuksissa kokoonpano- tai tuotantotilauksien komponentteja poimittaessa ja loppunimikkeitä hyllytettäessä sekä suunnittelemattomissa siirroissa, kuten varastopaikkojen täydennyksissä, ilman suhdetta lähdeasiakirjoihin. Liittyvien toimenpiteiden laajuus ja luonne vaihtelee perus- ja kehittyneen varastoinnin välillä.  
@@ -120,4 +120,3 @@ Nimikkeiden kulku varastopaikkojen välillä yrityksen sijaintikeskuksissa kokoo
 
 ## <a name="see-also"></a>Katso myös  
  [Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)
-

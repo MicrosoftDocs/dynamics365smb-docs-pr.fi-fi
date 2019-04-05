@@ -1,8 +1,8 @@
 ---
 title: Myyntimahdollisuuksien luominen| Microsoft Docs
-description: "Tässä artikkelissa kerrotaan, miten Business Central -sovelluksessa luodaan mahdollisuuksia myyjästä tai kontaktista."
+description: Tässä artikkelissa kerrotaan, miten Business Central -sovelluksessa luodaan mahdollisuuksia myyjästä tai kontaktista.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: d4b5b39826da539f3c87f1ba0d9ad27662598665
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795755"
 ---
 # <a name="create-sales-opportunities"></a>Myyntimahdollisuuksien luominen
 Voit luoda mahdollisuuksia kontaktiesi myynneille. Kaikki mahdollisuudet täytyy liittää myyjään/ostajaan, ja mahdollisuuteen täytyy sisältyä kontakti.
@@ -46,4 +46,3 @@ Ennen mahdollisuuksien luomista sinun täytyy määrittää myyntisyklit. Lisät
 [Myynti](sales-manage-sales.md)  
 [Kontaktien luonti ja hallinta](marketing-contacts.md)  
 [Business Central -sovelluksen käyttäminen](ui-work-product.md)
-

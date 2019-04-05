@@ -1,21 +1,21 @@
 ---
-title: "Asetusten parhaat käytännöt – Suunnitteluparametrit | Microsoft Docs"
-description: "Suunnittelu-pikavälilehti nimikkeen kortissa on yrityksen toimitusketjun keskus. Oikeiden suunnitteluparametrien määrittäminen on erittäin tärkeää kustannustehokkaan varastonhallinnan ja hyvän asiakaspalvelun vuoksi."
+title: Asetusten parhaat käytännöt – Suunnitteluparametrit | Microsoft Docs
+description: Suunnittelu-pikavälilehti nimikkeen kortissa on yrityksen toimitusketjun keskus. Oikeiden suunnitteluparametrien määrittäminen on erittäin tärkeää kustannustehokkaan varastonhallinnan ja hyvän asiakaspalvelun vuoksi.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: b8a5f4dcfa9a4e3f728c8de3786e7d5716ac82c7
 ms.openlocfilehash: 69344bcc4004ce29a58e8475235a97cf9196605d
-ms.contentlocale: fi-fi
-ms.lasthandoff: 10/04/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795791"
 ---
 # <a name="setup-best-practices-planning-parameters"></a>Asetukset - parhaat käytännöt: suunnitteluparametrit
 **Suunnittelu**-pikavälilehti nimikkeen kortissa on yrityksen toimitusketjun keskus. Oikeiden suunnitteluparametrien määrittäminen on erittäin tärkeää kustannustehokkaan varastonhallinnan ja hyvän asiakaspalvelun vuoksi.  
@@ -45,4 +45,3 @@ ms.lasthandoff: 10/04/2018
  [Rakennetiedot: Toimitusten suunnittelu](design-details-supply-planning.md)   
  [Monimutkaisten sovellusalueiden määrittäminen parhaiden käytäntöjen avulla](set-up-complex-application-areas-using-best-practices.md)  
  [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

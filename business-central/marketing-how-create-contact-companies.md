@@ -1,8 +1,8 @@
 ---
 title: Kontaktiyritysten luominen| Microsoft Docs
-description: "Tässä ohjeaiheessa kerrotaan, miten luodaan kontakti kullekin sellaiselle uudelle yritykselle tai mahdolliselle yritykselle, joiden kanssa olet vuorovaikutuksessa tai joihin sinulla on liikesuhde."
+description: Tässä ohjeaiheessa kerrotaan, miten luodaan kontakti kullekin sellaiselle uudelle yritykselle tai mahdolliselle yritykselle, joiden kanssa olet vuorovaikutuksessa tai joihin sinulla on liikesuhde.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,22 +13,20 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-create-contact-companies
+ms.openlocfilehash: ff585f1a96d509ef317aaaf3671bc91ca46a430a
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: d607b23f5cd41db8551a61b68be6bf265e85d328
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796412"
 ---
-# <a name="create-contact-companies"></a>Kontaktiyritysten luominen:
+# <a name="create-contacts"></a>Kontaktien luominen
 Voit luoda kontaktin jokaiselle uudelle yritykselle (esimerkiksi asiakkaalle, toimittajalle, mahdolliselle asiakkaalle, pankille, lakiasiantoimistolle ja konsultille), jonka kanssa yrityksesi on vuorovaikutuksessa.
 
 Kontaktin voi luoda joko alusta alkaen tai aiemmin luodusta asiakkaasta, toimittajasta tai pankkitilistä.
 
-Ennen uuden kontaktin luomista kannattaa ehkä tarkistaa asetukset **Kontaktienhallinnan asetukset** -sivulla. Lisätietoja on kohdassa [Kontaktien hallinnan määrittäminen](marketing-setup-marketing.md).
-
 ## <a name="create-a-company-contact-from-scratch"></a>Yrityksen kontaktin luominen alusta alkaen
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kontaktit** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Kontaktit** ja valitse sitten liittyvä linkki.
 2. Valitse **Uusi**-toiminto.
 3. Syötä **Nro**-kenttään kontaktin numero.
 
@@ -61,4 +59,3 @@ Jos olet jo määrittänyt useita asiakkaita, toimittajia ja pankkitilejä ohjel
 [Postitusryhmien liittäminen kontaktiin](marketing-mailing-groups.md#AssignMailGroupContact)  
 [Kontaktihenkilöiden luominen](marketing-create-contact-persons.md)  
 [Business Central -sovelluksen käyttäminen](ui-work-product.md)
-

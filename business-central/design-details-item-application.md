@@ -1,6 +1,6 @@
 ---
-title: "Rakennetiedot – Nimikkeen kohdistus | Microsoft Docs"
-description: "Tässä ohjeaiheessa käsitellään varaston määrän ja arvon tallentamista varastotapahtuman kirjauksen yhteydessä."
+title: Rakennetiedot – Nimikkeen kohdistus | Microsoft Docs
+description: Tässä ohjeaiheessa käsitellään varaston määrän ja arvon tallentamista varastotapahtuman kirjauksen yhteydessä.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
 ms.date: 12/21/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 5801fcc1284edfe1b8578518c084455c336d5a40
 ms.openlocfilehash: 772702717a250e7068e93d362bc09a5ba719defe
-ms.contentlocale: fi-fi
-ms.lasthandoff: 12/27/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795481"
 ---
 # <a name="design-details-item-application"></a>Rakennetiedot: Nimikkeen kohdistus
 Kun kirjaat varastotapahtuman, määrän kirjaus tallennetaan nimiketapahtumiin ja arvon kirjaus arvotapahtumiin. Lisätietoja on ohjeaiheessa [Rakenteen tiedot: Varaston kirjaus](design-details-inventory-posting.md).  
@@ -248,4 +248,3 @@ Nimikkeen yksikkökustannuksen laskentatavan mukaan nimikkeen virheellinen kohdi
 [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)  
 [Rahoitus](finance.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
-

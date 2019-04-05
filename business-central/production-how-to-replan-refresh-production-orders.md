@@ -1,21 +1,21 @@
 ---
-title: "Toimintaohje: Tuotantotilausten suora uudelleensuunnittelu tai päivittäminen| Microsoft Docs"
-description: "Tuotantotilauksen rivit sisältävät nimikkeet, jotka tuotetaan tuotantotilauksessa."
+title: 'Toimintaohje: Tuotantotilausten suora uudelleensuunnittelu tai päivittäminen| Microsoft Docs'
+description: Tuotantotilauksen rivit sisältävät nimikkeet, jotka tuotetaan tuotantotilauksessa.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 2fec578da84a190535e5ebf74972aee8ff7e3b7a
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796096"
 ---
 # <a name="replan-or-refresh-production-orders-directly"></a>Tuotantotilausten suora uudelleensuunnittelu tai päivittäminen
 Tuotantotilausten **Uudelleensuunnittelu**-toimintoa käytetään yleensä sen jälkeen, kun alemman tason tuotantotilauksiin vaikuttavia komponentteja on lisätty tai muutettu. Toiminto laskee komponentti- ja reititysriveille tehdyt muutokset. Toiminto vaikuttaa myös tuotannon tuoterakenteen alitasoihin, joille saatetaan luoda uusia tuotantotilauksia.  
@@ -93,4 +93,3 @@ Jos olet muuttanut tuotantotilausrivejä, komponentteja tai reititysrivejä, my�
 [Rakennetiedot: Toimitusten suunnittelu](design-details-supply-planning.md)   
 [Parhaiden käytäntöjen määrittäminen: Toimitusten suunnittelu](setup-best-practices-supply-planning.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

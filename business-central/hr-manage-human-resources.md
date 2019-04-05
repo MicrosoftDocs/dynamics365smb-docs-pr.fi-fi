@@ -1,8 +1,8 @@
 ---
-title: "Henkilöstöhallinnon toimintojen käyttäminen| Microsoft Docs"
-description: "Voit rekisteröidä uutta henkilöstöä, muokata tietoja nykyisestä henkilöstöstä sekä tallentaa poissaolot ja analysoida niitä."
+title: Henkilöstöhallinnon toimintojen käyttäminen| Microsoft Docs
+description: Voit rekisteröidä uutta henkilöstöä, muokata tietoja nykyisestä henkilöstöstä sekä tallentaa poissaolot ja analysoida niitä.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 209a36d19d38f62aa94f77f8ef33b849c078dd67
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
-ms.openlocfilehash: a0254dad989b361883dd62f1f798686452941538
-ms.contentlocale: fi-fi
-ms.lasthandoff: 04/18/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796214"
 ---
 # <a name="manage-human-resources"></a>Henkilöstöresurssien hallinta
 Voit luoda tarkat työntekijätietueet [!INCLUDE[d365fin](includes/d365fin_md.md)]issa. Voit rekisteröidä ja ylläpitää työntekijöiden tietoja, kuten työsopimuksia, luottamuksellisia tietoja, pätevyystietoja ja työntekijäkontakteja.
@@ -37,4 +37,3 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 [Rahoitus](finance.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md)        
-

@@ -1,8 +1,8 @@
 ---
-title: "Intrastat-ilmoituksen määrittäminen ja raportoiminen| Microsoft Docs"
-description: "Opi määrittämään Intrastat-raportointiominaisuudet ja raportoimaan muiden EU-maissa toimivien yritysten kanssa käyty kauppa."
+title: Intrastat-ilmoituksen määrittäminen ja raportoiminen| Microsoft Docs
+description: Opi määrittämään Intrastat-raportointiominaisuudet ja raportoimaan muiden EU-maissa toimivien yritysten kanssa käyty kauppa.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: b75d709933cd9d147a9b5e0862a88a44a300f3c1
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795680"
 ---
 # <a name="how-to-set-up-and-report-intrastat"></a>Toimintaohje: Intrastat-ilmoituksen määrittäminen ja raportoiminen
 Kaikkien Euroopan unionin alueen yritysten täytyy raportoida kaupastaan muiden EU-maiden/alueiden kanssa. Tavaran liikkuminen on raportoitava kotimaan/-alueen tilastoviranomaisille kuukausittain ja raportti on toimitettava veroviranomaisille. Ohjelmassa tätä kutsutaan Intrastat-raportoinniksi. **Intrastat-ilmoitus**-sivulla voi täyttää jaksottaiset Intrastat-ilmoitukset.  
@@ -122,4 +122,3 @@ Koska Intrastat-raportti on lähetettävä joka kuukausi ja luot uuden päiväki
 
 ## <a name="see-also"></a>Katso myös
 [Taloushallinto](finance.md)
-

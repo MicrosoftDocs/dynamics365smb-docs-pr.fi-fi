@@ -1,23 +1,23 @@
 ---
 title: Varastopaikkojen luominen | Microsoft Docs
-description: "Tehokkain tapa luoda fyysisen varaston varastopaikkoja on luoda samankaltaisten varastopaikkojen ryhmiä varastopaikan luontityökirjassa, mutta varastopaikkoja voi luoda myös yksittäin."
+description: Tehokkain tapa luoda fyysisen varaston varastopaikkoja on luoda samankaltaisten varastopaikkojen ryhmiä varastopaikan luontityökirjassa, mutta varastopaikkoja voi luoda myös yksittäin.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/22/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: c129dd63b3aabeeac15c6684f961e04bd2b08a2a
 ms.openlocfilehash: 7dc7fb43c465cc2098ceacb6f5906303fefd1f9d
-ms.contentlocale: fi-fi
-ms.lasthandoff: 01/24/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "794977"
 ---
 # <a name="create-bins"></a>Varastopaikkojen luominen
 Tehokkain tapa luoda fyysisen varaston varastopaikkoja on luoda samankaltaisten varastopaikkojen ryhmiä varastopaikan luontityökirjassa, mutta varastopaikkoja voi luoda myös yksittäin sijainnin kortista. Voit luoda varastopaikkoja myös automaattisesti **Var.paikan luontityökirja** -sivulla.  
@@ -79,4 +79,3 @@ Prosessi toistetaan toisen varastopaikkasarjan osalta, siihen asti kun fyysiseen
 [Kokoonpanon hallinta](assembly-assemble-items.md)    
 [Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

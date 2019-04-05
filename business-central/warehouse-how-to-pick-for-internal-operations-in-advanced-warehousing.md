@@ -1,23 +1,23 @@
 ---
-title: "Poiminta sisäisissä toiminnoissa laajennetuissa varastomäärityksissä | Microsoft-asiakirjat"
-description: "Jos sijainti on määritetty laajennetuissa varastomäärityksissä käyttämään sekä poimintaa että toimitusta, tuotannon ja kokoonpanon toimintojen komponentteja voi poimia **F.varastoinnin poiminta** -sivulla."
+title: Poiminta sisäisissä toiminnoissa laajennetuissa varastomäärityksissä | Microsoft-asiakirjat
+description: Jos sijainti on määritetty laajennetuissa varastomäärityksissä käyttämään sekä poimintaa että toimitusta, tuotannon ja kokoonpanon toimintojen komponentteja voi poimia **F.varastoinnin poiminta** -sivulla.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/22/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 5d6d2d9527e81a92987f6b8fcdbe8e087c3c537a
 ms.openlocfilehash: bb4941c948c2e4479ec36fdebee11f1d75e62c68
-ms.contentlocale: fi-fi
-ms.lasthandoff: 01/22/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795215"
 ---
 # <a name="pick-for-production-or-assembly-in-advanced-warehouse-configurations"></a>Tuotanto- tai kokoonpanopoiminta laajennetuissa varastointimäärityksissä
 Jos sijainti on määritetty laajennetuissa varastomäärityksissä käyttämään sekä poimintaa että toimitusta, tuotannon ja kokoonpanon toimintojen komponentteja voi poimia **F.varastoinnin poiminta** -sivulla.  
@@ -63,4 +63,3 @@ Tämä työnkulkukaavio näyttää, miten tuotantotilauksen osarivien**Varastopa
 [Kokoonpanon hallinta](assembly-assemble-items.md)    
 [Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

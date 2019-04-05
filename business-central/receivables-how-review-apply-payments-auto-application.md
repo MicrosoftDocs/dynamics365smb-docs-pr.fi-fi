@@ -2,7 +2,7 @@
 title: Automaattisesti kohdistettujen maksujen tarkistaminen ja maksujen kohdistaminen uudelleen manuaalisesti | Microsoft Docs
 description: Kun maksut on kohdistettu automaattisesti, voit tarkastella maksun kaikkia tapahtumia ja kohdistaa manuaalisesti uudelleen virheellisesti kohdistetut maksut.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: payment process, reconcile payment, expenses, cash receipts
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 4ac7d32decd6c6ba7161398836f70c847f4b4436
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795836"
 ---
 # <a name="review-or-apply-payments-manually-after-automatic-application"></a>Maksujen tarkasteleminen tai kohdistaminen automaattisen kohdistuksen jälkeen
 Voit avata kullekin **Maksujen täsmäytyskirjauskansio** -sivulla maksua esittävälle päiväkirjan riville **Maksun kohdistus** -sivun ja tarkastella kaikkia mahdollisia avoimia maksuja ja yksityiskohtaisia tietoja merkintöjen täsmäytyksestä, joihin maksujen kohdistus perustuu. Tässä voit kohdistaa maksuja manuaalisesti tai kohdistaa uudelleen maksuja, joka kohdistettiin automaattisesti väärään merkintään. Lisätietoja automaattisesta kohdistuksesta on kohdassa [Maksujen täsmäyttäminen käyttämällä automaattista kohdistusta](receivables-how-reconcile-payments-auto-application.md).
@@ -55,4 +55,3 @@ Siksi on suositeltavaa etsiä ulkomaan valuuttakoodit **Valuuttakoodi**-kentäst
 [Myyntisaamisten hallinta](receivables-manage-receivables.md)  
 [Myynti](sales-manage-sales.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

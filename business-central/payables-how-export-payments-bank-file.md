@@ -1,6 +1,6 @@
 ---
-title: "Maksujen vienti sähköiseen maksutiedostoon| Microsoft Docs"
-description: "Voit tehdä toimittajamaksuja ottamalla käyttöön pankkitietojen muuntopalvelun, viemällä pankkitiedoston ja lataamalla tiedoston sähköiselle pankkitilille varojen siirtoa varten."
+title: Maksujen vienti sähköiseen maksutiedostoon| Microsoft Docs
+description: Voit tehdä toimittajamaksuja ottamalla käyttöön pankkitietojen muuntopalvelun, viemällä pankkitiedoston ja lataamalla tiedoston sähköiselle pankkitilille varojen siirtoa varten.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.keywords: bank file export, re-export, bank transfer, AMC, bank data c
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 14015c089e3cd6db19a12fe4eed72d523f3aefc5
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795368"
 ---
 # <a name="export-payments-to-a-bank-file"></a>Maksujen vienti pankkitiedostoon
 Kun olet valmis suorittamaan maksut toimittajille tai hyvitykset työntekijöille, voit viedä tiedoston ja päiväkirjan rivien maksutiedot **Maksupäiväkirja**-sivulla. Voit sitten ladata tiedoston pankkiin kyseisten rahansiirtojen käsittelyä varten.
@@ -81,4 +81,3 @@ Voit viedä maksutiedostot uudelleen **Hyvityksen siirron rekisterit** -sivulla.
 [Ostovelat](payables-manage-payables.md)  
 [Ostojen määrittäminen](purchasing-setup-purchasing.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

@@ -1,23 +1,23 @@
 ---
 title: Reititysten luominen | Microsoft Docs
-description: "Reititys sisältää perustiedot tuotettavan nimikkeen prosessivaatimuksista. Kun nimikkeelle luodaan tuotantotilaus, reititys ohjaa toimintojen aikatauluja tuotantotilauksen **Tuotantotilaus reititys** -sivulla näkyvällä tavalla."
+description: Reititys sisältää perustiedot tuotettavan nimikkeen prosessivaatimuksista. Kun nimikkeelle luodaan tuotantotilaus, reititys ohjaa toimintojen aikatauluja tuotantotilauksen **Tuotantotilaus reititys** -sivulla näkyvällä tavalla.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 6eb16bd42357646a9e88c4799a3f110be0e294eb
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: d6f64c04f6451701bbbac23e82678c5649a7df56
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796230"
 ---
 # <a name="create-routings"></a>Uusien reititysten luominen
 Tuotantoyritykset käyttävät reitityksiä tuotantoprosessin näyttämiseen ja ohjaamiseen.
@@ -43,11 +43,11 @@ Seuraavat toimet on oltava tehtynä ennen reitityksen määrittämistä:
 6.  Täytä **Operaation nro** -kenttään ensimmäisen operaation numero (esimerkiksi **10**).  
 7.  Määritä **Tyyppi**-kentässä käytettävän resurssin tyyppi (esimerkiksi **Tuotantosolu**).  
 8.  Valitse **Nro**-kenttään käytettävä resurssi (tai kirjoita numero kenttään).  
-9.  Määritä **Reitityslinkin koodi** -kenttään koodi, joka liittää komponentin tiettyyn toimintoon. Lisätietoja on kohdassa Reitityslinkkien luominen.
-10.  Anna **Ajoaika**- ja **Asetusaika**-kenttiin toiminnon suorittamiseen tarvittavat prosessiajat.  
+9.  Määritä **Reitityslinkin koodi** -kenttään koodi, joka liittää komponentin tiettyyn toimintoon. Lisätietoja on kohdassa [Reitityslinkkien luominen](production-how-to-create-routings.md#to-create-routing-links).
+10.  Anna **Ajoaika**- ja **Asetusaika**-kenttiin toiminnon suorittamiseen tarvittavat prosessiajat.
 
-    > [!NOTE]  
-    >  Asetusaika lasketaan tuotantotilausta kohden, ajoaika tuotettavaa nimikettä kohden.  
+    > [!NOTE]
+    > Asetusaika lasketaan tuotantotilausta kohden, ajoaika tuotettavaa nimikettä kohden.  
 
 11.  Määritä **Samanaikaiset kapasiteetit** -kentässä, kuinka monta valitun resurssin yksikköä toiminnon suorittamiseen käytetään. Jos esimerkiksi yhteen pakkaustoimintoon on kohdistettu kaksi työntekijää, ajoaika puolitetaan.  
 12.  Jatka rivien täyttämistä, kunnes kaikki nimikkeen tuottamiseen tarvittavat toiminnot on määritetty.  
@@ -126,4 +126,3 @@ Version voimassaoloajan määrittää **Aloituspvm**-kenttä.
 [Vaihto-omaisuus](inventory-manage-inventory.md)  
 [Osto](purchasing-manage-purchasing.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

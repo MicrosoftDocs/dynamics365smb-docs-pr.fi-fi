@@ -1,8 +1,8 @@
 ---
-title: "Rakennetiedot – nimikkeen seurannan kirjauksen rakenne | Microsoft Docs"
-description: "Lisätietoja nimiketapahtumien käyttämisestä nimikkeen seurantanumeroiden ensisijaisina lähteinä."
+title: Rakennetiedot – nimikkeen seurannan kirjauksen rakenne | Microsoft Docs
+description: Lisätietoja nimiketapahtumien käyttämisestä nimikkeen seurantanumeroiden ensisijaisina lähteinä.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: design, item tracking, posting, inventory
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: b2cb135991a067b86b7c5579e0386ffd199aefcf
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796201"
 ---
 # <a name="design-details-item-tracking-posting-structure"></a>Rakennetiedot: nimikkeen seurannan kirjauksen rakenne
 Varaston arvostustoiminnon hyödyntämiseksi ja yksinkertaisen ja vakaan ratkaisun saavuttamiseksi nimikkeen seurantanumeroiden ensisijaisena lähteenä käytetään nimiketapahtumia.  

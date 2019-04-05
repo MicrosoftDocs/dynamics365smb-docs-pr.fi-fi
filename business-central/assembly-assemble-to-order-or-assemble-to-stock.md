@@ -1,8 +1,8 @@
 ---
 title: Tietoja Kokoonpano tilausta varten- ja Kokoonpano varastoon -toiminnoista | Microsoft Docs
-description: "Kokoonpanonimikkeet voidaan toimittaa joko kokoamalla ne tilauksen yhteydessä tai kokoamalla ne varastoon odottamaan myyntitilausta."
+description: Kokoonpanonimikkeet voidaan toimittaa joko kokoamalla ne tilauksen yhteydessä tai kokoamalla ne varastoon odottamaan myyntitilausta.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 1000447ed0f547fea9fc349900631b0a5f0ce107
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796007"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Tietoja Kokoonpano tilausta varten- ja Kokoonpano varastoon -toiminnoista
 Kokoonpanon osat voidaan toimittaa seuraavaan kahteen prosessiin:  
@@ -91,4 +91,3 @@ Kun syötät myyntiriville kokoonpano tilausta varten nimikkeen, kokoonpanotilau
 [Vaihto-omaisuus](inventory-manage-inventory.md)  
 [Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

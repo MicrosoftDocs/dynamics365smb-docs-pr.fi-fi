@@ -1,8 +1,8 @@
 ---
-title: "Nimikkeen mittayksikön määrittäminen| Microsoft Docs"
-description: "Voit määrittää nimikkeelle useita mittayksiköitä, joten voit kohdistaa mittayksiköt nimikkeeseen."
+title: Nimikkeen mittayksikön määrittäminen| Microsoft Docs
+description: Voit määrittää nimikkeelle useita mittayksiköitä, joten voit kohdistaa mittayksiköt nimikkeeseen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: UOM
 ms.date: 10/01/2018
 ms.author: SorenGP
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 376e34074c6ee216b7a9062a42404a8123758598
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796386"
 ---
 # <a name="set-up-item-units-of-measure"></a>Nimikkeen mittayksikön määrittäminen
 Voit määrittää useita mittayksiköitä, jotka on määritetty kohteelle niin, että voit kohdistaa nimikkeen mittayksiköt seuraaviin tarkoituksiin:
@@ -63,4 +63,3 @@ Jos ostat tai myyt tavallisesti eri yksiköissä kuin perusmittayksiköissä, vo
 [Ostojen hallinta](purchasing-manage-purchasing.md)  
 [Myynnin hallinta](sales-manage-sales.md)    
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

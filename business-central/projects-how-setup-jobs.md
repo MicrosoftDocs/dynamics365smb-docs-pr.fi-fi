@@ -1,8 +1,8 @@
 ---
-title: "Projektihintojen ja projektin kirjausryhmien määrittäminen| Microsoft Docs"
-description: "Tässä ohjeaiheessa kerrotaan, miten yleiset projektitiedot määritetään, sekä määritetään projektin nimikkeiden, resurssien sekä KP-tilien ja projektien kirjausryhmien hinnat."
+title: Projektihintojen ja projektin kirjausryhmien määrittäminen| Microsoft Docs
+description: Tässä ohjeaiheessa kerrotaan, miten yleiset projektitiedot määritetään, sekä määritetään projektin nimikkeiden, resurssien sekä KP-tilien ja projektien kirjausryhmien hinnat.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: project management
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: fc4c413fcb02cda2e0eb2b8caf7af721a26dfe1b
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "794956"
 ---
 # <a name="set-up-jobs"></a>Projektien määrittäminen
 Määritä **Projektienhallinnan asetukset** -sivulla projektin tiettyjen toimintojen asetukset.
@@ -120,4 +120,3 @@ Yksi näkökulma projektien suunnittelussa on sen päättäminen, mitä kirjaust
 [Osto](purchasing-manage-purchasing.md)         
 [Myynti](sales-manage-sales.md)      
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
-

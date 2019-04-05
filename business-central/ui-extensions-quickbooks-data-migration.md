@@ -1,6 +1,6 @@
 ---
-title: "QuickBooksin siirtolaajennuksen käyttäminen | Microsoft Docs"
-description: "Tässä ohjeaiheessa käsitellään, miten laajennuksella tuodaan asiakkaita, toimittajia, nimikkeitä ja tilejä QuickBooks Desktopista Business Central -sovellukseen."
+title: QuickBooksin siirtolaajennuksen käyttäminen | Microsoft Docs
+description: Tässä ohjeaiheessa käsitellään, miten laajennuksella tuodaan asiakkaita, toimittajia, nimikkeitä ja tilejä QuickBooks Desktopista Business Centraliin.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,19 +10,18 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
 ms.openlocfilehash: e5cb755b6a15070410c42328ccf08b784928f3ca
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/29/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795579"
 ---
-
 # <a name="the-quickbooks-data-migration-extension"></a>QuickBooks-tietojen siirtolaajennus
 Tämän laajennuksen avulla asiakkaat, toimittajat, nimikkeet ja tilit on helppo siirtää QuickBooksista [!INCLUDE[d365fin](includes/d365fin_md.md)]iin. Jos yrityksessä on käytössä QuickBooks, voit viedä tarpeelliset tiedot ja ladata ne sitten [!INCLUDE[d365fin](includes/d365fin_md.md)]iin avaamalla avustetun asennusoppaan.  
 Lisätietoja on kohdassa [Tietojen tuominen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md).
 
-## <a name="data-from-quickbooks-desktop"></a>QuickBooks Desktopin tiedot
+## <a name="data-from-quickbooks-desktop"></a>Tietoja QuickBooks Desktopista
  
 Voit tuoda seuraavat tiedot QuickBooks Onlinesta Business Centraliin:
 
@@ -66,4 +65,3 @@ Tarkista pääkirjanpidon tilien alkusaldot. QuickBooks ei tallenna kaikkien til
 ## <a name="see-also"></a>Katso myös
 [Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md)  
-

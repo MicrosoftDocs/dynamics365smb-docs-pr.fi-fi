@@ -1,6 +1,6 @@
 ---
 title: Business Central -sovelluksen peruuttaminen | Microsoft Docs
-description: "Tässä ohjeaiheessa kerrotaan, miten Business Central voidaan poistaa."
+description: Tässä ohjeaiheessa kerrotaan, miten Business Central voidaan poistaa.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: remove, delete
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 3da4de9eee04f240d88d4128fefe273999f20cfc
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796031"
 ---
 # <a name="unsubscribe-remove-or-reset-included365finincludesd365finmdmd"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)]in tilauksen peruuttaminen, poistaminen tai palauttaminen
 Jos haluat lopettaa [!INCLUDE[d365fin](includes/d365fin_md.md)]:n käytön, voit sulkea tilisi tai pyytää poistamaan käyttöoikeuden tilistäsi. Suoritettavat vaiheet ovat erilaisia, jos käytössäsi maksuton kokeilu tai jos sinulla on kuukausittainen tilaus osana Office 365 -tiliä.  
@@ -32,10 +32,10 @@ Käyttäjätilejä ja käyttöoikeustiedostoja hallitaan kohdassa [Office-portaa
 ## <a name="closing-your-free-trial-of-included365finincludesd365finmdmd"></a>Maksuttoman [!INCLUDE[d365fin](includes/d365fin_md.md)] -kokeilun sulkeminen
 Jos rekisteröit maksuttoman kokeilun mutta et halua jatkaa [!INCLUDE[d365fin](includes/d365fin_md.md)] -käyttöä, voit sulkea tilisi milloin tahansa. On suositeltavaa viedä kaikki omat tiedot, ennen kuin suljet tilin.  
 
-Jos haluat sulkea tilisi, tällä hetkellä sinun on otettava yhteyttä [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen peruutustiimiin. Lähetä sähköpostiviesti osoitteeseen cancelbusinesscentra@microsoft.com. Lisää viestiin tunnistamista varten oman [!INCLUDE[d365fin](includes/d365fin_md.md)]-vuokraajan nimi. Helpoin tapa tehdä tämä on kopioida [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman aloitussivun URL-osoite.  
+Jos haluat sulkea tilisi, tällä hetkellä sinun on otettava yhteyttä [!INCLUDE[d365fin](includes/d365fin_md.md)]in peruutustiimiin. Lähetä sähköpostiviesti osoitteeseen cancelbusinesscentra@microsoft.com. Lisää viestiin tunnistamista varten oman [!INCLUDE[d365fin](includes/d365fin_md.md)]-vuokraajan nimi. Helpoin tapa tehdä tämä on kopioida [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman aloitussivun URL-osoite.  
 
 ## <a name="unsubscribing-from-included365finincludesd365finmdmd-without-office-365"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)]in tilauksen peruuttaminen ilman Office 365:tä
-Jos olet rekisteröitynyt [!INCLUDE[d365fin](includes/d365fin_md.md)]iin käyttämällä muuta kuin Office 365 -yritystiliä, sinulla ei ole Office 365 -järjestelmänvalvojaa. Sen sijaan sinun on peruutettava tilaus ottamalla yhteyttä [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen peruutustiimiin. Lähetä sähköpostiviesti osoitteeseen cancelbusinesscentra@microsoft.com. Lisää viestiin tunnistamista varten oman [!INCLUDE[d365fin](includes/d365fin_md.md)]-vuokraajan nimi. Helpoin tapa tehdä tämä on kopioida [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman aloitussivun URL-osoite.  
+Jos olet rekisteröitynyt [!INCLUDE[d365fin](includes/d365fin_md.md)]iin käyttämällä muuta kuin Office 365 -yritystiliä, sinulla ei ole Office 365 -järjestelmänvalvojaa. Sen sijaan sinun on peruutettava tilaus ottamalla yhteyttä [!INCLUDE[d365fin](includes/d365fin_md.md)]in peruutustiimiin. Lähetä sähköpostiviesti osoitteeseen cancelbusinesscentra@microsoft.com. Lisää viestiin tunnistamista varten oman [!INCLUDE[d365fin](includes/d365fin_md.md)]-vuokraajan nimi. Helpoin tapa tehdä tämä on kopioida [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman aloitussivun URL-osoite.  
 
 ## <a name="resetting-your-included365finincludesd365finmdmd-experience"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)]in tietojen palauttaminen
 Jos olet lisännyt tietoja maksuttomaan [!INCLUDE[d365fin](includes/d365fin_md.md)] -kokeiluun ja haluat aloittaa uudelleen, voit luoda uuden yrityksen ja palauttaa sitten ensimmäisen yrityksen. Jos avaat **Yritykset**-sivun, voit luoda kopion nykyisestä yrityksestä, kirjautua ulos ja kirjautua sitten uudelleen sisään uuteen yritykseen. Tämän jälkeen voit palauttaa alkuperäisen yrityksen.  
@@ -51,4 +51,3 @@ Jos haluat piilottaa [!INCLUDE[d365fin](includes/d365fin_md.md)]in sovellusten k
 [Liiketoimintatietojen vienti Exceliin](about-export-data.md)  
 [Office-portaali](https://portal.office.com)  
 [Mikä on kokeilujakson pituus ja miten kokeilu peruutetaan?](https://community.dynamics.com/business/b/financials/archive/2016/11/28/how-long-is-the-trial-period-and-how-do-i-cancel)  
-

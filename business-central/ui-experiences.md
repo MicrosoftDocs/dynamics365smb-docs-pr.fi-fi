@@ -1,7 +1,7 @@
 ---
-title: "Lisätoiminnot näyttävän tai piilottavan käyttäjäkokemuksen valitseminen | Microsoft Docs"
-description: "Tietoja siitä, miten Essential- ja Basic-käyttäjäkokemus tarkoittaa käyttöliittymässä, sovellusalueilla ja yrityksessä."
-documentationcenter: 
+title: Lisätoiminnot näyttävän tai piilottavan käyttäjäkokemuksen valitseminen | Microsoft Docs
+description: Tietoja siitä, miten Essential- ja Basic-käyttäjäkokemus tarkoittaa käyttöliittymässä, sovellusalueilla ja yrityksessä.
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,17 +9,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 02/04/2019
+ms.date: 03/01/2019
 ms.author: edupont
+ms.openlocfilehash: bec47d64f2ba038e1c3b7288ce466e2f212b2b19
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: ce612d546349d05883016646fe14a35553c2f55a
-ms.openlocfilehash: 3317df5f54a359e5b143d5b288a378a350d49440
-ms.contentlocale: fi-fi
-ms.lasthandoff: 02/04/2019
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795088"
 ---
 # <a name="changing-which-features-are-displayed"></a>Näytettävien ominaisuuksien muuttaminen
-[!INCLUDE[d365fin](includes/d365fin_md.md)] on suunniteltu auttamaan liiketoiminnan käytännön asioissa toimialasta riippumatta. [!INCLUDE[d365fin](includes/d365fin_md.md)]in ydintä ovat talousraportointi sekä myynti- ja ostoprosessit. Voit lisätä siihen kokemuksia liiketoiminnan tarpeiden mukaan lisäämällä laajennuksia AppSourcesta tai muuttamalla yrityksen Kokemus-asetusta. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md) tai alla olevassa Toimintojen näyttäminen tai piilottaminen käyttäjäkokemuksen valinnan avulla -osassa.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] on suunniteltu auttamaan liiketoiminnan käytännön asioissa toimialasta riippumatta. [!INCLUDE[d365fin](includes/d365fin_md.md)]in ydintä ovat talousraportointi sekä myynti- ja ostoprosessit. Voit lisätä siihen kokemuksia liiketoiminnan tarpeiden mukaan lisäämällä laajennuksia AppSourcesta tai muuttamalla yrityksen Kokemus-asetusta. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)]in mukauttaminen laajennusten avulla](ui-extensions.md) tai [Toimintojen näyttäminen tai piilottaminen käyttäjäkokemuksen valinnan avulla](ui-experiences.md#choosing-a-user-experience-to-show-or-hide-features).
 
 ## <a name="choosing-a-user-experience-to-show-or-hide-features"></a>Ominaisuuksien näyttäminen tai piilottaminen valitsemalla käyttäjäkokemus
 Käyttäjäkokemus määrittää, kuinka suurta osaa [!INCLUDE[d365fin](includes/d365fin_md.md)]in perustoiminnoista voit työtovereittesi kanssa käyttää. Voit valita yrityksen käyttökokemuksen **Yrityksen tiedot** -sivun **Kokemus**-kentässä.
@@ -35,7 +35,7 @@ Seuraavassa taulukossa on luettelo nyt käytettävissä olevista kokemuksista.
 | **Premium** |Näyttää kaikkien liiketoimintojen toiminnot ja kentät myös valmistukselle ja huoltohallinnolle.|
 
 > [!NOTE]  
-> [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmassa valitut käyttökokemukset riippuvat ratkaisun käyttöoikeudesta, jota kutsutaan palvelupaketiksi. Lisätietoja **Essential**- ja **Premium**-palvelupaketeista on Microsoft Dynamics 365:n markkinointisivuston kohdassa [Business Central](https://go.microsoft.com/fwlink/?linkid=870242). Katso myös [[!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen käyttöoikeusopas](https://go.microsoft.com/fwlink/?linkid=2068931) (edellyttää CustomerSourcen tai PartnerSourcen käyttöoikeutta).
+> [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmassa valitut käyttökokemukset riippuvat ratkaisun käyttöoikeudesta, jota kutsutaan palvelupaketiksi. Lisätietoja **Essential**- ja **Premium**-palvelupaketeista on Microsoft Dynamics 365:n markkinointisivuston kohdassa[ Business Central](https://go.microsoft.com/fwlink/?linkid=870242). Katso myös [[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttöoikeusopas](https://go.microsoft.com/fwlink/?linkid=2068931) (edellyttää CustomerSourcen tai PartnerSourcen käyttöoikeutta).
 
 > [!IMPORTANT]  
 > Kaikki ratkaisun tavalliset käyttäjät täytyy liittää samaan suunnitelmaan (Essential tai Premium) ennen kyseisen käyttökokemuksen valitsemista yritykselle. Näin ollen yksi käyttäjä ei voi käyttää Premium-ominaisuuksia, jos vähintään yksi käyttäjä voi käyttää vain Essential-ominaisuuksia. Tämä ei koske erikoiskäyttäjiä, joiden tyyppi on ryhmän jäsen, sisäinen järjestelmänvalvoja, ulkoinen kirjanpitäjä tai delegoitu järjestelmänvalvoja, joille voidaan määrittää eri suunnitelma kuin muille ratkaisun käyttäjille.
@@ -71,4 +71,3 @@ Voit nyt siirtyä valitsemaan uuden käyttökokemuksen.
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen käyttöoikeusopas](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

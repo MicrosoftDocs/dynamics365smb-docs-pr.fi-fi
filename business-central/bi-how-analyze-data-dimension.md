@@ -1,8 +1,8 @@
 ---
 title: Analysoi tietoja dimensioiden mukaan | Microsoft Docs
-description: "Tässä osassa kuvataan eri liiketoiminnan tietojen analysointi dimensioiden mukaan."
+description: Tässä osassa kuvataan eri liiketoiminnan tietojen analysointi dimensioiden mukaan.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 11/13/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: bfb5ce68e4570f4d96a4216ea01f9d1ecc3bc623
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795461"
 ---
 #  <a name="analyze-data-by-dimensions"></a>Analysoi tiedot mittojen mukaan
 Talousanalyysissä dimensio on tieto, jonka voi lisätä tapahtumaan eräänlaiseksi merkiksi. Tämän tiedon avulla voi yhdistää ryhmiksi tapahtumia, joilla on samoja ominaisuuksia, kuten asiakkaita, alueita, tuotteita tai myyjiä, sekä noutaa nämä ryhmät helposti analysoitavaksi. Dimensioita voi käyttää päiväkirjojen tapahtumissa, asiakirjoissa ja budjeteissa. Dimensiotermi kuvaa, miten analysointi tapahtuu. Esimerkiksi kaksidimensioinen analyysi voisi olla myynti per alue. Käyttämällä tapahtumaa luodessasi useita dimensiota voit luoda monimutkaisia analyysejä, kuten myynti per myyntikampanja per asiakasryhmä per alue. Lisätietoja on kohdassa [Dimensioiden käyttäminen](finance-dimensions.md).
@@ -81,4 +81,3 @@ Seuraavan menettelyn avulla voit päivittää analyysinäkymän **Analyysi dimen
 [Pääkirjanpito ja tilikartta](finance-general-ledger.md)  
 [Dimensioiden käyttäminen](finance-dimensions.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
-

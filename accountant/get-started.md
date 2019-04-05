@@ -1,5 +1,5 @@
 ---
-title: "Dynamics 365:n käyttökokemus kirjanpitäjille | Microsoft Docs"
+title: Dynamics 365:n käyttökokemus kirjanpitäjille | Microsoft Docs
 description: Tutustu Dynamics 365:n Accountant Hubiin.
 author: edupont04
 ms.service: dynamics365-accountant
@@ -7,22 +7,22 @@ ms.topic: article
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 11/23/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 0c4dadb15c9756c49f94839236766432844088c8
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795256"
 ---
 # <a name="get-started-with-include-d365acclongincludesd365acclongmdmd"></a>Aloita [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]in käyttö
 [!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]
 
 Kaikkien yritysten on pidettävä kirjanpitoa ja hyväksyttävä se. Jotkin yritykset käyttävät ulkoista kirjanpitäjää, ja joillain yrityksillä on oma kirjanpitäjä. Jos olet kirjanpitäjä, jolla on useita asiakkaita, voit käyttää [!INCLUDE [d365acc](includes/d365acc_md.md)]ia koontinäyttönä ja saada sen avulla paremman yleiskuvan asiakkaistasi.  
 
-Saat [!INCLUDE [d365acc](includes/d365acc_md.md)]in käyttöoikeuden rekisteröitymällä [Dynamics 365 – Accountant Hubista osoitteessa Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
+Saat [!INCLUDE [d365acc](includes/d365acc_md.md)]in käyttöoikeuden rekisteröitymällä [Dynamics 365 – Accountant Hubista Microsoft.comissa](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants).  
 
 > [!TIP]
->  Kun olet rekisteröitynyt [!INCLUDE [d365acc](includes/d365acc_md.md)] -sovellukseen, sinun on määritettävä työsähköpostiosoitteesi, esimerkiksi <em>me@accountant.com</em>. Suosittelemme, että käytät samaa sähköpostiosoitetta työskennellessäsi asiakkaidesi [!INCLUDE [d365fin_long](includes/d365fin_long_md.md)] -ympäristöissä, jotta voit vaihtaa asiakkaiden välillä helposti. Sähköpostiosoitteen on oltava Active Directoryyn perustuva työsähköpostiosoite.
+>  Kun rekisteröidyt [!INCLUDE [d365acc](includes/d365acc_md.md)]in käyttäjäksi, sinun on määritettävä työsähköpostiosoite, kuten<em>me@accountant.com</em> . Suosittelemme, että käytät samaa sähköpostiosoitetta työskennellessäsi asiakkaidesi [!INCLUDE [d365fin_long](includes/d365fin_long_md.md)] -ympäristöissä, jotta voit vaihtaa asiakkaiden välillä helposti. Sähköpostiosoitteen on oltava Active Directoryyn perustuva työsähköpostiosoite.
 
 ## <a name="working-with-individual-clients"></a>Yksittäisten asiakkaiden tietojen käsitteleminen
 Koontinäytössä esitetään kunkin asiakkaan tärkeimmät tiedot.  
@@ -90,4 +90,3 @@ Kun tehtävä on suoritettu, voit merkitä sen valmiiksi.
 [Rahoituslaskelmien analysointi Microsoft Excel](/dynamics365/business-central/finance-analyze-excel?toc=/dynamics365/accountants/toc.json):issä  
 [Kirjanpitäjän käyttökokemukset [!INCLUDE[d365fin](includes/d365fin_md.md)]issa](/dynamics365/business-central/finance-accounting?toc=/dynamics365/accountants/toc.json)  
 [Dynamics 365 – Accountant Hub Microsoft.comissa](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
-

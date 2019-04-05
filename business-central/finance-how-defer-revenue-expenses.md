@@ -1,8 +1,8 @@
 ---
-title: "Tuottojen ja kulujen siirtäminen| Microsoft Docs"
-description: "Jos haluat tulouttaa tuoton tai kulun jaksoon, joka on eri kuin se, jonka aikana tapahtuma on kirjattu, voit siirtää tai lykätä ne automaattisesti tietyn aikataulun mukaan."
+title: Tuottojen ja kulujen siirtäminen| Microsoft Docs
+description: Jos haluat tulouttaa tuoton tai kulun jaksoon, joka on eri kuin se, jonka aikana tapahtuma on kirjattu, voit siirtää tai lykätä ne automaattisesti tietyn aikataulun mukaan.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: postpone
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 9a21f4e54dc5afd8144d0990a9f9bcc30401a82c
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796098"
 ---
 # <a name="defer-revenues-and-expenses"></a>Tuottojen ja kulujen siirtäminen
 Jos haluat tulouttaa tuoton tai kulun jaksoon, joka on eri kuin se, jonka aikana tapahtuma on kirjattu, käytä toimintoja, jotka siirtävät tuotot ja kulut automaattisesti tietyn aikataulun mukaan.
@@ -51,7 +51,7 @@ Valitse kummallekin siirtotyypille **Tase** **Tyyppi**-kenttään. Anna tileille
    * %5 = jakson kirjauspäivämäärän kirjanpitojakson nimi
    * %6 = jakson kirjauspäivämäärän tilikausi
 
-Esimerkki: Kirjauspäivämäärä on 6.2.2016. Jos syötät Kulut siirretty: %4 %6, näytettävä kuvaus on Kulut siirretty: helmikuu 2016.
+Esimerkki: Kirjauspäivämäärä on 6.2.2016. Jos annat Kulut siirretty: %4 %6, näytettävä kuvaus on Kulut siirretty: helmikuu 2016.
 
 ## <a name="to-assign-a-deferral-template-to-an-item"></a>Siirtomallin määrittäminen nimikkeelle
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Siirtomallit** ja valitse sitten liittyvä linkki.
@@ -93,4 +93,3 @@ Tietylle siirtotilille, kuten Ansaitsematon tulo -tilille, kirjattavat KP-tapaht
 [Rahoituksen määrittäminen](finance-setup-finance.md)  
 [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

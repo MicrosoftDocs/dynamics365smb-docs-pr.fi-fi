@@ -1,8 +1,8 @@
 ---
-title: "Ostotilauksen linkittäminen myyntitilaukseen suoratoimitusta varten | Microsoft Docs"
-description: "Tässä artikkelissa kerrotaan, miten ostotilaukseen linkitetty myyntitilaus luodaan. Näin toimitus voidaan tehdä suoraan toimittajalta asiakkaalle."
+title: Ostotilauksen linkittäminen myyntitilaukseen suoratoimitusta varten | Microsoft Docs
+description: Tässä artikkelissa kerrotaan, miten ostotilaukseen linkitetty myyntitilaus luodaan. Näin toimitus voidaan tehdä suoraan toimittajalta asiakkaalle.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: direct shipment
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 77bed1563a5c0187e78f7e7013dfed4a723d7702
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 68af9892db003a2200bd0ceb9b9fa839952dce36
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795737"
 ---
 # <a name="make-drop-shipments"></a>Suoratoimitusten tekeminen
 Suoratoimitus on nimikkeen toimitus yhdeltä toimittajistasi suoraan yhdelle asiakkaistasi.
@@ -36,7 +36,7 @@ Myytävän nimikkeen suoratoimitus valmistellaan luomalla ostotilaus normaalisti
 1. Luo ostotilaus. Älä täytä riveillä olevia kenttiä. Lisätietoja on kohdassa [Ostojen kirjaaminen](purchasing-how-record-purchases.md).
 2. Valitse **Tilausasiakkaan nro** -kenttään asiakas, jolle myydään.
 3. Valitse **Suoratoimitukset**-toiminto ja valitse sitten **Hae myyntitilaus** -toiminto.
-4. Valitse **Myyntiluettelo**-sivulla myyntitilaus, jota valmisteltiin "Myyntitilauksen luominen suoratoimitusta varten" -osassa.
+4. Valitse **Myyntiluettelo**-sivulla myyntitilaus, jota valmisteltiin kohdassa [Myyntitilauksen luominen suoratoimitusta varten](sales-how-drop-shipment.md#to-create-a-sales-order-for-drop-shipment).
 5. Valitse **OK**-painike.
 
 Myyntitilauksen rivin tiedot lisätään ostotilauksen riville/riveille.
@@ -49,8 +49,8 @@ Voit ohjeistaa toimittajaa toimittamaan nimikkeet asiakkaalle esimerkiksi lähet
 ## <a name="to-post-a-drop-shipment"></a>Kirjaa suoratoimitus
 Kun toimittaja toimittaa nimikkeet, voit kirjata myyntitilauksen toimitetuksi. Voit kirjata myös ostotilauksen, mutta vain **Vastaanotto**-vaihtoehdon kanssa niin kauan, kunnes myyntitilaus on laskutettu.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten liittyvä linkki.
-2. Avaa Myyntitilauksen luominen suoratoimitukselle -osassa luomasi myyntitilaus.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Myyntitilaukset** ja valitse sitten liittyvä linkki.
+2. Avaa kohdassa [Myyntitilauksen luominen suoratoimitukselle]() luomasi myyntitilaus.
 3. Määritä **Toimitettava määrä** -kentässä toimitettava tilausmäärä, joka voi olla koko tai osittainen tilausmäärä.
 4. Valitse **Kirjaa**- tai **Kirjaa ja lähetä** -toiminto.
 5. Valitse **Toimitus**-vaihtoehto, kun haluat laskuttaa myöhemmin, tai **Toimitus ja lasku** -vaihtoehto, kun haluat laskuttaa heti.
@@ -63,4 +63,3 @@ Kun toimittaja toimittaa nimikkeet, voit kirjata myyntitilauksen toimitetuksi. V
 [Myynti](sales-manage-sales.md)  
 [Vaihto-omaisuus](inventory-manage-inventory.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

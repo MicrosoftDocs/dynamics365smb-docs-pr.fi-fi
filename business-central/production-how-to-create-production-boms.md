@@ -1,28 +1,28 @@
 ---
 title: Tuotannon tuoterakenteiden luominen | Microsoft Docs
-description: "Tuotannon tuoterakenne sisältää perustiedot päänimikkeen tuotannossa käytettävistä komponenteista ja osakokoonpanoista. Kun päänimikkeelle luodaan tuotantotilaus, tuotannon tuoterakenne ohjaa materiaalitarpeiden laskentaa **Tuot.til. komponentit** -sivulla näkyvällä tavalla."
+description: Tuotannon tuoterakenne sisältää perustiedot päänimikkeen tuotannossa käytettävistä komponenteista ja osakokoonpanoista. Kun päänimikkeelle luodaan tuotantotilaus, tuotannon tuoterakenne ohjaa materiaalitarpeiden laskentaa **Tuot.til. komponentit** -sivulla näkyvällä tavalla.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: cbcfe46f547a40112f465fbdac6511bc5a2f510a
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 319ec70a1beef3d96a87448934ae8263f21bd1b4
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795423"
 ---
 # <a name="create-production-boms"></a>Tuotannon tuoterakenteiden luominen
 Tuotannon tuoterakenne sisältää perustiedot päänimikkeen tuotannossa käytettävistä komponenteista ja osakokoonpanoista. Kun päänimikkeelle luodaan tuotantotilaus, tuotannon tuoterakenne ohjaa materiaalitarpeiden laskentaa **Tuot.til. komponentit** -sivulla näkyvällä tavalla.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] tukee myös kokoonpanon tuoterakenteita. Voit käyttää kokoonpanotilauksia, kun teet komponenteista loppunimikkeitä yksinkertaisella prosessilla. Tämä prosessi voidaan toteutetaan vähintään yhdellä perusresurssilla, joka ei ole kuormituskeskus eikä tuotantosolu, tai ilman resursseja. Kokoonpanoprosessi voi olla esimerkiksi kahden viinipullon ja yhden kahvipaketin valinta ja niiden pakkaaminen lahjaksi. Lisätietoja on ohjeaiheen [Tuoterakenteen käyttäminen](inventory-how-work-BOMs.md) kohdassa Kokoonpanon tuoterakenteet tai tuotannon tuoterakenteet.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] tukee myös kokoonpanon tuoterakenteita. Voit käyttää kokoonpanotilauksia, kun teet komponenteista loppunimikkeitä yksinkertaisella prosessilla. Tämä prosessi voidaan toteutetaan vähintään yhdellä perusresurssilla, joka ei ole kuormituskeskus eikä tuotantosolu, tai ilman resursseja. Kokoonpanoprosessi voi olla esimerkiksi kahden viinipullon ja yhden kahvipaketin valinta ja niiden pakkaaminen lahjaksi. Lisätietoja on kohdassa [Kokoonpanon tuoterakenteet tai tuotannon tuoterakenteet](inventory-how-work-boms.md#assembly-boms-or-production-boms).  
 
 Seuraavat toimet on oltava tehtynä ennen reitityksen määrittämistä:  
 
@@ -44,7 +44,7 @@ Seuraavat toimet on oltava tehtynä ennen reitityksen määrittämistä:
     > [!NOTE]  
     >  Tämä hukkaprosentti viittaa komponentteihin, jotka joutuvat hukkatavaraksi tuotannon aikana (varastosta poimittaessa), kun taas reititysrivien hukkaprosentti viittaa hukkatavaraksi ennen varastointia joutuvaan tuotokseen.  
 
-9.  Määritä **Reitityslinkin koodi** -kenttään koodi, joka liittää komponentin tiettyyn toimintoon. Lisätietoja on ohjeaiheen [Uusien reititysten luominen](production-how-to-create-routings.md) kohdassa Reitityslinkkien luominen.
+9.  Määritä **Reitityslinkin koodi** -kenttään koodi, joka liittää komponentin tiettyyn toimintoon. Lisätietoja on kohdassa [Reitityslinkkien luominen](production-how-to-create-routings.md#to-create-routing-links).
 10. Voit kopioida rivit tuotannon tuoterakenteesta valitse aiemmin luodut rivit **Kopioi tuoterakenne** -toiminnolla.  
 11.  Hyväksy tuotannon tuoterakenne.  
 12.  Voit nyt liittää uuden tuotannon tuoterakenteen kyseisen päänimikkeen korttiin. Lisätietoja on ohjeaiheessa [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md).  
@@ -99,4 +99,3 @@ Tuotannon tuoterakenteelle tarvitaan seitsemänkymmentä metalliosaa, joiden dim
 [Vaihto-omaisuus](inventory-manage-inventory.md)  
 [Osto](purchasing-manage-purchasing.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

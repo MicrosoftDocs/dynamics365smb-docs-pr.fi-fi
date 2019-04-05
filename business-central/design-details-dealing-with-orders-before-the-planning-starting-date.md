@@ -1,8 +1,8 @@
 ---
-title: "Rakennetiedot – tilausten käsittely ennen suunnittelun aloituspäivää | Microsoft Docs"
-description: "Tässä ohjeaiheessa käsitellään sääntöjä, joita suunnittelu käyttää jäädytetyn alueen tilauksiin."
+title: Rakennetiedot – tilausten käsittely ennen suunnittelun aloituspäivää | Microsoft Docs
+description: Tässä ohjeaiheessa käsitellään sääntöjä, joita suunnittelu käyttää jäädytetyn alueen tilauksiin.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: planning, frozen, design serial, lot
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
+ms.openlocfilehash: 9fee9eff60b441ef2d4782a77a6fbbbe8b01af03
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4fc4afa14f9f2a989fae0b1ca8ee0e61fe24fd21
-ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795859"
 ---
 # <a name="design-details-dealing-with-orders-before-the-planning-starting-date"></a>Rakennetiedot: tilausten käsittely ennen suunnittelun aloituspäivää
 Voit estää mahdottomien ja sen vuoksi hyödyttömien ehdotusten näkymisen toimitussuunnitelmassa niin, että suunnittelujärjestelmä pitää suunnittelun alkupäivämäärää aiemman jakson jäädytetyksi alueeksi, joka ei sisällä suunnitelmia. Seuraava sääntö pätee jäädytettyyn alueeseen:  
@@ -42,4 +42,3 @@ Jos sarja-/eränumerot vaaditaan tai tilausten välinen linkki on olemassa, suun
 [Rakennetiedot: kysynnän ja tarjonnan täsmäytys](design-details-balancing-demand-and-supply.md)   
 [Rakennetiedot: suunnittelujärjestelmän keskeiset käsitteet](design-details-central-concepts-of-the-planning-system.md)   
 [Rakennetiedot: Tarjonnan suunnittelu](design-details-supply-planning.md)
-

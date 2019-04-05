@@ -1,8 +1,8 @@
 ---
-title: "Käyttöomaisuuden kunnossapito| Microsoft Docs"
-description: "Voit pitää kunnossapitokirjaa kaikista käyttöomaisuudelle tehdyistä korjauksista ja huolloista."
+title: Käyttöomaisuuden kunnossapito| Microsoft Docs
+description: Voit pitää kunnossapitokirjaa kaikista käyttöomaisuudelle tehdyistä korjauksista ja huolloista.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: repair, service
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: af2b52e9bed7661e33945187d45c986ebd9e41f1
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: c19838a8db1200595cb18456884afed9bd35d859
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "794954"
 ---
 # <a name="maintain-fixed-assets"></a>Käyttöomaisuuden ylläpito
 Kunnossapitokulut ovat ajoittaisia rutiinikustannuksia, jotka aiheutuvat käyttöomaisuuden arvon säilyttämisestä. Toisin kuin pääoman kohentaminen, kunnossapito ei lisää arvoa.
@@ -43,7 +43,7 @@ Kunnossapito, kuten huoltokäynti, voidaan tallentaa sen suorittamisen yhteydess
 7. Valitse **Syötä KO-vastatili** -toiminto. Toinen päiväkirjan rivi luodaan vastatilille, joka on määritetty kunnossapidon kirjaamista varten.
 
     > [!NOTE]  
-    >   Vaihe 7 toimii vain, jos seuraavat arvot on määritetty: Käyttöomaisuuden kirjausryhmän **KO:n kirjausryhmän kortti** -sivun **Kunnossapitotili**-kenttä sisältää pääkirjanpidon debet-tilin ja **Kunnossapidon vastatili** -kenttä sisältää sen pääkirjanpitotilin, jolle arvonkorotuksen vastatilitapahtumat kirjataan. Lisätietoja on kohdan [Käyttöomaisuuden yleisten tietojen määrittäminen](fa-how-setup-general.md) osassa Käyttöomaisuuden kirjausryhmien määrittäminen.
+    >   Vaihe 7 toimii vain, jos seuraavat arvot on määritetty: Käyttöomaisuuden kirjausryhmän **KO:n kirjausryhmän kortti** -sivun **Kunnossapitotili**-kenttä sisältää pääkirjanpidon debet-tilin ja **Kunnossapidon vastatili** -kenttä sisältää sen pääkirjanpitotilin, jolle arvonkorotuksen vastatilitapahtumat kirjataan. Lisätietoja on kohdassa [Käyttöomaisuuden kirjausryhmien määrittäminen](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).
 8. Valitse **Kirjaa**-toiminto.
 
 ## <a name="to-follow-up-on-fixed-assets-service-visits"></a>Käyttöomaisuuden huoltokäyntien seuraaminen
@@ -90,4 +90,3 @@ Voit tutkia kunnossapitokustannuksia myös tarkastelemalla kunnossapitotapahtumi
 [Rahoitus](finance.md)  
 [Käytön aloittaminen](product-get-started.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

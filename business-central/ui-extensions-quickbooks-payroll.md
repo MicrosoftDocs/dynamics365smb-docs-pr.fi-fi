@@ -1,8 +1,8 @@
 ---
-title: "QuickBooks Payroll -tiedoston tuontilaajennuksen käyttäminen | Microsoft Docs"
-description: "Tässä ohjeaiheessa kerrotaan, miten laajennuksella voi tuoda palkkatapahtumat QuickBooksista."
+title: QuickBooks Payroll -tiedoston tuontilaajennuksen käyttäminen | Microsoft Docs
+description: Tässä ohjeaiheessa kerrotaan, miten laajennuksella voi tuoda palkkatapahtumat QuickBooksista.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, salary, wage
 ms.date: 01/09/2019
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 79729b42b660399893aebe1116c80ef3b3209042
 ms.openlocfilehash: ac68f8a4d67224ad55b1c34ff9b2e4ffa2c372aa
-ms.contentlocale: fi-fi
-ms.lasthandoff: 01/15/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795412"
 ---
 # <a name="the-quickbooks-payroll-file-import-extension"></a>QuickBooks Payroll -tiedoston tuontilaajennus
 QuickBooks Payroll -tiedoston tuontilaajennuksella voi tuoda palkanlaskentatapahtumia QuickBooksista pääkirjanpidon tileille [!INCLUDE[d365fin](includes/d365fin_md.md)]issa. Tämä on kätevää esimerkiksi siirryttäessä QuickBooksista [!INCLUDE[d365fin](includes/d365fin_md.md)]iin tai silloin, kun palkanlaskenta ulkoistetaan mutta haluat kuitenkin seurata sitä [!INCLUDE[d365fin](includes/d365fin_md.md)]issa.
@@ -31,4 +31,3 @@ Lisätietoja on kohdassa [Palkkatapahtumien tuominen](finance-how-import-payroll
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]in mukauttaminen laajennusten avulla](ui-extensions.md)    
 [Rahoitus](finance.md)    
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

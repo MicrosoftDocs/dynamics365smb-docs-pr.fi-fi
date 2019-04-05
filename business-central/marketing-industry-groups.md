@@ -1,8 +1,8 @@
 ---
-title: "Toimialaryhmien määrittäminen kontaktiyrityksille| Microsoft Docs"
-description: "Tässä ohjeaiheessa kerrotaan, miten toimialaryhmä määritetään ja miten sille sitten määritetään kontaktiryhmä, kuten vähittäistavarakauppa tai autoteollisuus."
+title: Toimialaryhmien määrittäminen kontaktiyrityksille| Microsoft Docs
+description: Tässä ohjeaiheessa kerrotaan, miten toimialaryhmä määritetään ja miten sille sitten määritetään kontaktiryhmä, kuten vähittäistavarakauppa tai autoteollisuus.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-setup-contacts
+ms.openlocfilehash: 61d1385691a0ed2bdc11745e98b14fa57e50475a
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 96be04b6226fb44fd3e910e547a1d2590352b04d
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796110"
 ---
 # <a name="set-up-industry-groups-for-contact-companies"></a>Kontaktiyritysten toimialaryhmien määrittäminen
 Toimialaryhmien avulla osoitetaan, minkä tyyppiseen toimialaryhmään (esimerkiksi vähittäistavarakauppa ja autoteollisuus) kontaktit kuuluvat.
@@ -45,9 +45,8 @@ Toista nämä vaiheet ja luo niin monta toimialaryhmää kuin haluat. Voit luoda
 
 Kontaktille määritettyjen toimialaryhmien lukumäärä näkyy **Kontakti**-sivun **Segmentointi**-osan **Toimialaryhmien lkm** -kentässä.
 
-Kun olet liittänyt toimialaryhmiä kontakteihisi, voit käyttää näitä tietoja valitessasi kontakteja segmentteihisi. Lisätietoja on ohjeaiheessa [Kontaktien lisääminen segmentteihin](marketing-add-contact-segment.md).
+Kun olet liittänyt toimialaryhmiä kontakteihisi, voit käyttää näitä tietoja valitessasi kontakteja segmentteihisi. Lisätietoja on kohdassa [Kontaktien lisääminen segmentteihin](marketing-add-contact-segment.md).
 
 ## <a name="see-also"></a>Katso myös
-[Kontaktiyrityksen luominen](marketing-create-contact-companies.md)  
+[Kontaktien luominen](marketing-create-contact-companies.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

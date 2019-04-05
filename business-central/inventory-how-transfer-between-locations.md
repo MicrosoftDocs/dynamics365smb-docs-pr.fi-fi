@@ -1,6 +1,6 @@
 ---
-title: "Nimikkeiden siirtäminen varastosijaintien välillä| Microsoft Docs"
-description: "Tässä ohjeaiheessa kerrotaan, miten varastonimikkeitä siirretään varastosta toiseen joko uudelleenluokituspäiväkirjan tai siirtotilausten avulla."
+title: Nimikkeiden siirtäminen varastosijaintien välillä| Microsoft Docs
+description: Tässä ohjeaiheessa kerrotaan, miten varastonimikkeitä siirretään varastosta toiseen joko uudelleenluokituspäiväkirjan tai siirtotilausten avulla.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: move, warehouse
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: SorenGP
+ms.openlocfilehash: bf0687d5b3000dde609c1eca29a0f2534d384ada
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: b3cbf41f5c803eb8d992d67e9e880759c247298e
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795408"
 ---
 # <a name="transfer-inventory-between-locations"></a>Varastonimikkeiden siirtäminen sijaintien välillä
 Varastonimikkeitä siirretään sijaintien välillä luomalla siirtotilauksia. Vaihtoehtoisesti voit käyttää uudelleenluokituspäiväkirjaa.
@@ -25,7 +25,7 @@ Siirtotilauksissa lähtevä siirto toimitetaan yhdestä sijainnista vastaanotett
 Uudelleenluokituspäiväkirjaan voit yksinkertaisesti täyttää **Sijaintikoodi**- ja **Uusi sijaintikoodi** -kentät. Kun teet kirjauksen päiväkirjaan, nimiketapahtumat oikaistaan kyseisissä sijainneissa. Varastotoimintoja ei hallita tällä menetelmällä.
 
 > [!NOTE]  
->   Jos varastoon on kirjattu nimikkeitä ilman sijaintikoodia esimerkiksi silloin, kun käytössä oli vain yksi varasto, et voi siirtää kyseisiä nimikkeitä siirtotilauksilla. Sen sijaan sinun on käytettävä uudelleenluokittelupäiväkirjaa ja luokiteltava nimikkeet uudelleen tyhjästä sijaintikoodista todelliseen sijaintikoodiin.  Lisätietoja on Nimikkeiden siirtäminen uudelleenluokituspäiväkirjan avulla -kohdan vaiheessa 3.
+>   Jos varastoon on kirjattu nimikkeitä ilman sijaintikoodia esimerkiksi silloin, kun käytössä oli vain yksi varasto, et voi siirtää kyseisiä nimikkeitä siirtotilauksilla. Sen sijaan sinun on käytettävä uudelleenluokittelupäiväkirjaa ja luokiteltava nimikkeet uudelleen tyhjästä sijaintikoodista todelliseen sijaintikoodiin.  Lisätietoja on kohdan [Nimikkeiden siirtäminen uudelleenluokituspäiväkirjan avulla](inventory-how-transfer-between-locations.md#to-transfer-items-with-the-item-reclassification-journal) vaiheessa 3.
 
 Sijainnit ja siirtoreitit on määritettävä, jotta nimikkeitä voi siirtää. Lisätietoja on kohdassa [Sijaintien määrittäminen](inventory-how-setup-locations.md).
 
@@ -62,4 +62,3 @@ Sijainnit ja siirtoreitit on määritettävä, jotta nimikkeitä voi siirtää. 
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)
-

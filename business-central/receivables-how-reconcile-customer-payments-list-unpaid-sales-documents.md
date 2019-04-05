@@ -1,6 +1,6 @@
 ---
 title: Maksujen kohdistaminen maksamattomiin myyntiasiakirjoihin | Microsoft Docs
-description: "Asiakkaiden maksamat summat kohdistetaan liittyviin myyntiasiakirjoihin ja asiakas-, pääkirjanpito- ja pankkitapahtumat päivitetään kirjaamalla maksu."
+description: Asiakkaiden maksamat summat kohdistetaan liittyviin myyntiasiakirjoihin ja asiakas-, pääkirjanpito- ja pankkitapahtumat päivitetään kirjaamalla maksu.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipts, customer payment
-ms.date: 10/17/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: b437246b22583e8e040bef78811765297ae2e675
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: e00d7bb259ad8a8a494016746179b428b7975a8f
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795306"
 ---
-# <a name="reconcile-customer-payments-manually-from-a-list-of-unpaid-sales-documents"></a>Asiakkaan maksujen täsmäyttäminen manuaalisesti maksamattomien myyntiasiakirjojen luettelosta
+# <a name="reconcile-customer-payments-from-a-list-of-unpaid-sales-documents"></a>Asiakkaan maksujen täsmäyttäminen maksamattomien myyntiasiakirjojen luettelosta
 Kun asiakkaat ovat suorittaneet maksuja sähköiselle pankkitilille, sinun täytyy kohdistaa jokainen maksettu summa vastaavaan myyntiasiakirjaan ja kirjata maksu sitten ja päivittää asiakkaan, yleisen päiväkirjan ja pankkitilin tapahtumat. Voit saada maksun ja rekisteröidä maksun eri tavoilla liiketoimintatarpeistasi riippuen: manuaalisesti, automaattisesti tai maksupalveluiden avulla.  
 
 > [!NOTE]  
@@ -54,7 +54,7 @@ Maksutiedot kirjataan asiakirjoille, joita edustavat ne rivit, joiden **Maksu su
 
 Maksutapahtumat kirjataan pääkirjanpitoon, pankkiin ja asiakastileille. Kukin maksu kohdistetaan siihen liittyvään myyntiasiakirjaan.  
 
-## <a name="to-reconcile-lump-payments"></a>Kokonaismaksujen täsmäyttäminen
+## <a name="to-reconcile-lump-sum-payments"></a>Kokonaismaksujen täsmäyttäminen
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maksurekisteröinti** ja valitse sitten liittyvä linkki.
 2. Valitse **Maksu suoritettu** -valintaruutu riveille, jotka edustavat saman asiakkaan kirjattuja asiakirjoja, joista kokonaissumma on suoritettu.  
 
@@ -69,15 +69,15 @@ Maksutapahtumat kirjataan pääkirjanpitoon, pankkiin ja asiakastileille. Kukin 
 4. Syötä **Vastaanotettu summa** -kenttään niiden useiden rivien summat, jotka ovat yhteensä kokonaissumman suuruiset.  
 
     > [!TIP]  
-    >   Yritä kirjata mahdollisimman monta täyttää maksua kokonaissumman kanssa. Kirjoita summia, jotka ovat samat kuin **Jäljellä oleva summa** -kentän summa mahdollisimman monella rivillä.  
+    > Yritä kirjata mahdollisimman monta täyttää maksua kokonaissumman kanssa. Kirjoita summia, jotka ovat samat kuin **Jäljellä oleva summa** -kentän summa mahdollisimman monella rivillä.  
 5. Toista vaiheet 2-4 muille riveille, jotka edustavat saman asiakkaan kirjattuja asiakirjoja, joista kokonaissumma on suoritettu.  
 6. Valitse **Kirjaa kokonaismaksuna** -toiminto. Syötetyt maksutiedot kirjataan asiakirjoille, joita edustavat ne rivit, joiden **Maksu suoritettu** -valintaruutu on valittuna.  
 
 Maksutapahtumat kirjataan pääkirjanpitoon, pankkiin ja asiakastileille. Kukin maksu kohdistetaan siihen liittyvään myyntiasiakirjaan.  
 
-Jos pankissa suoritettua maksua ei kuitenkaan esitetä minkään rivin avulla **Maksurekisteröinti**-sivulla, liittyvää asiakirjaa ei ehkä ole vielä kirjattu. Tässä tapauksessa voit löytää asiakirjan hakutoiminnon avulla nopeasti ja kirjata sen maksukäsittelyä varten. Lisätietoja on kohdassa Tietyn myyntiasiakirjan etsiminen, jota ei ole laskutettu kokonaan.  
+Jos pankissa suoritettua maksua ei kuitenkaan esitetä minkään rivin avulla **Maksurekisteröinti**-sivulla, liittyvää asiakirjaa ei ehkä ole vielä kirjattu. Tässä tapauksessa voit löytää asiakirjan hakutoiminnon avulla nopeasti ja kirjata sen maksukäsittelyä varten. Lisätietoja on kohdassa [Tietyn myyntiasiakirjan etsiminen, jota ei ole laskutettu kokonaan](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-find-a-specific-sales-document-that-is-not-fully-invoiced).  
 
-Jos pankissa suoritettua maksua ei kuitenkaan esitetä minkään asiakirjan avulla [!INCLUDE[d365fin](includes/d365fin_md.md)]issa, avaa esitäytetty yleinen päiväkirja **Maksurekisteröinti**-sivulla ja kirjaa maksu suoraan vastatilille kohdistamatta maksua asiakirjaan. Vaihtoehtoisesti voit haluta tallentaa maksun päiväkirjaan ennen kuin maksun alkuperä on ratkaistu. Lisätietoja on kohdassa "Maksun kirjaaminen tai lähettäminen ilman aiheeseen liittyvää asiakirjaa" -osassa.  
+Jos pankissa suoritettua maksua ei kuitenkaan esitetä minkään asiakirjan avulla [!INCLUDE[d365fin](includes/d365fin_md.md)]issa, avaa esitäytetty yleinen päiväkirja **Maksurekisteröinti**-sivulla ja kirjaa maksu suoraan vastatilille kohdistamatta maksua asiakirjaan. Vaihtoehtoisesti voit haluta tallentaa maksun päiväkirjaan ennen kuin maksun alkuperä on ratkaistu. Lisätietoja on kohdassa [Maksun kirjaaminen tai lähettäminen ilman aiheeseen liittyvää asiakirjaa](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-record-or-post-a-payment-without-a-related-document),  
 
 ## <a name="to-process-customer-payments-with-discounts-manually"></a>Alennettujen maksujen käsittely manuaalisesti
 Jos olet sopinut asiakkaan kanssa maksualennuksesta, sitten maksusummat voivat olla pienempiä kuin laskun summat, jos maksu suoritetaan ennen sovitun alennuksen päivämäärää.  
@@ -187,4 +187,3 @@ Jos jätät päiväkirjarivin kirjaamatta, se lisätään **Kirjaamaton saldo** 
 [Myyntisaamisten hallinta](receivables-manage-receivables.md)  
 [Myynti](sales-manage-sales.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

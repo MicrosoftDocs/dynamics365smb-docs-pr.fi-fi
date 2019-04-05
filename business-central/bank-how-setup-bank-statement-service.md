@@ -1,8 +1,8 @@
 ---
-title: "Yodlee -pankkisyötteiden määrittäminen| Microsoft Docs"
-description: "Voit muuntaa maksutiedot mihin tahansa tietomuotoon, jota pankkisi edellyttää ja ottaa käyttöön pankkitiedostojen tuonnin tai viennin."
+title: Yodlee -pankkisyötteiden määrittäminen| Microsoft Docs
+description: Voit muuntaa maksutiedot mihin tahansa tietomuotoon, jota pankkisi edellyttää ja ottaa käyttöön pankkitiedostojen tuonnin tai viennin.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
-ms.date: 10/01/2018
+ms.date: 02/26/2019
 ms.author: sgroespe
+ms.openlocfilehash: ea1641dd475d28fb02dda354bbf287d508e96854
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 30c0e6ebface6ccfd65cab6bd2ce97a09044ff42
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796333"
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Envestnet Yodlee -pankkisyötepalvelun määrittäminen
 Voit tuoda pankistasi sähköisiä tiliotteita ja täyttää nopeasti **Maksujen täsmäytyskirjauskansio** -sivun maksujen kohdistamiseksi ja pankkitilin täsmäyttämiseksi. Lisätietoja on kohdassa [Maksujen kohdistaminen automaattisesti ja pankkitilien täsmäyttäminen](receivables-apply-payments-auto-reconcile-bank-accounts.md).
@@ -25,7 +25,8 @@ Voit tuoda pankistasi sähköisiä tiliotteita ja täyttää nopeasti **Maksujen
 Envestnet Yodlee -pankkisyötepalvelu on asennettu [!INCLUDE[d365fin](includes/d365fin_md.md)]iin laajennuksena. Se on valmis käyttöönottoa varten. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md).
 
 > [!NOTE]
-> Envestnet Yodlee Bank Feeds -palvelua tuetaan vain Yhdysvalloissa, Kanadassa ja Isossa-Britanniassa.
+> Envestnet Yodlee Bank Feeds -palvelua tuetaan vain Yhdysvalloissa, Kanadassa ja Isossa-Britanniassa.<br /><br />
+> Toimintoa tuetaan vain Business Centralin verkkoversiossa. Jos haluat käyttää tätä toimintoa paikallisesti, sinun on hankittava yhteistili Envestnet Yodleelta.
 
 Kun olet ottanut pankkisyötepalvelun käyttöön, pankkitili on linkitettävä siihen verkkopankkitiliin, josta syöte tulee. Voit linkittää pankkitilit verkkopankkitileihin seuraavissa erilaisissa skenaarioissa:
 
@@ -46,8 +47,11 @@ Kun pankkisyötepalvelu on otettu käyttöön, voit määrittää pankkitilille 
 
 Pankkisyötepalvelu otetaan käyttöön, kun linkität pankkitilin siihen liittyvään verkkopankkitiliin. Tutustu seuraaviin toimiin.  
 
+> [!NOTE]
+> Jos käytät **Yrityksen asennus** -asetusten ohjattua määritystä, voit ottaa palvelun käyttöön valitsemalla **Käytä pankin syötepalvelua** -valintaruudun. Lisätietoja on kohdassa [Uusien yritysten luominen Business Centralissa](about-new-company.md).
+
 ## <a name="to-create-a-new-linked-bank-account"></a>Uuden linkitetyn pankkitilin luominen
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pankkitilit** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Pankkitilit** ja valitse sitten liittyvä linkki.
 2. Valitse asianmukainen pankkitili ja valitse sitten **Luo uusi linkitetty pankkitili**. Hetken kuluttua näyttöön avautuu **Pankkitilin linkitys** -sivu.
 
     > [!NOTE]  
@@ -120,4 +124,3 @@ Jos **Pankkitililuettelo**-sivun linkitetyissä pankkitileissä esiintyy ongelmi
 [Maksujen kohdistaminen automaattisesti ja pankkitilien täsmäyttäminen](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

@@ -1,7 +1,7 @@
 ---
-title: Asiakkaiden hallinta Dynamics 365 for Salesissa| Microsoft Docs
-description: "Voit tehdä Business Centralissa tietojen yhdistämismäärityksen Dynamics 365 for Salesilla, jolloin saavutetaan liidistä tuottoon -prosessin saumaton integrointi ja synkronointi."
-documentationcenter: 
+title: Asiakkaiden hallinta Dynamics 365 for Salesin avulla| Microsoft Docs
+description: Voit tehdä Dynamics 365 for Salesissa tietojen yhdistämismäärityksen Business Centralissa, jolloin saavutetaan liidistä tuottoon -prosessin saumaton integrointi ja synkronointi.
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,15 +11,15 @@ ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.date: 01/24/2019
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: c129dd63b3aabeeac15c6684f961e04bd2b08a2a
 ms.openlocfilehash: bba9fb9a83856cea43e4f4215e7c148b713252a9
-ms.contentlocale: fi-fi
-ms.lasthandoff: 01/24/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796324"
 ---
-# <a name="integrating-with-dynamics-365-for-sales"></a>Dynamics 365 for Sales -integrointi
-Jos käytät Dynamics 365 for Salesia asiakassuhteissa, voit käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]ia tilausten käsittelyyn ja talousasioissa. Tällä tavoin saavutetaan saumaton integrointi liidistä tuottoon.
+# <a name="integrating-with-dynamics-365-for-sales"></a>Integrointi Dynamics 365 for Salesin kanssa
+Jos käytät Dynamics 365 for Salesia asiakassuhteissa, voit käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]ia tilausten käsittelyyn ja talousasioissa. Tällä tavoin saavutetaan saumaton integrointi liidistä tuottoon -prosessiin.
 
 > [!NOTE]
 > Tässä ohjeaiheessa oletetaan, että sekä [!INCLUDE[d365fin](includes/d365fin_md.md)] että integroitu Sales-ratkaisu otetaan käyttöön SaaS-ympäristössä. Verkkoversion ja paikallisen version yhdistäminen on mahdollista, mutta siihen tarvitaan erikoismääritys. Lisätietoja on kohdassa [Paikallisen Dynamics 365 for Salesin integroinnin valmistelu](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
@@ -31,7 +31,7 @@ Esimerkiksi myyjä voi käyttää Sales-sovelluksessa [!INCLUDE[d365fin](include
 Ja päinvastoin, [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen tilausten käsittelijät voivat käsitellä Sales-sovelluksesta automaattisesti tai manuaalisesti siirrettyjä myyntitilausten erityisominaisuuksia. Erityisominaisuudet voivat olla esimerkiksi sallittujen myyntitilausrivien automaattinen luominen ja kirjaaminen Sales-sovellukseen käsin lisättyinä tuotteina syötetyille nimikkeille tai resursseille. Lisätietoja on Erityisten myyntitilausten tietojen käsittelminen -osassa.
 
 > [!IMPORTANT]  
-> [!INCLUDE[d365fin](includes/d365fin_md.md)] integroituu vain Dynamics 365 for Sales -sovellukseen. Dynamics 365:n muut sovellukset tai ratkaisut, jotka muuttavat Sales-sovelluksen vakiotyönkulkua tai tietomallia (kuten Project Service Automation), voivat katkaista [!INCLUDE[d365fin](includes/d365fin_md.md)]- ja Sales-sovelluksen integroinnin.
+> [!INCLUDE[d365fin](includes/d365fin_md.md)] integroituu vain Dynamics 365 for Salesin kanssa. Dynamics 365:n muut sovellukset tai ratkaisut, jotka muuttavat Sales-sovelluksen vakiotyönkulkua tai tietomallia (kuten Project Service Automation), voivat katkaista [!INCLUDE[d365fin](includes/d365fin_md.md)]- ja Sales-sovelluksen integroinnin.
 
 ## <a name="standard-sales-entity-mapping-for-synchronization"></a>Synkronoinnin Myynti-entiteetin yhdistämismääritys
 Myynti-entiteetit, kuten tilit, integroidaan vastaavien [!INCLUDE[d365fin](includes/d365fin_md.md)] -tietuetyyppien, kuten asiakkaiden, kanssa. Voit käyttää Sales-sovelluksen tietoja sen jälkeen, kun [!INCLUDE[d365fin](includes/d365fin_md.md)] -tietueiden ja Myynti-entiteettitietueiden väliset yhdistämismääritykset (eli yhdistämiset) on määritetty. Voit määrittää yhdistämisen esimerkiksi tietyn [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen asiakkaan ja vastaavan Sales-sovelluksen tilin välille.
@@ -76,7 +76,7 @@ Seuraavassa taulukossa esitetään säännöt, jotka ohjaavat Business Central -
 
 |Sivupöytä|Sääntö|
 |-----|----|
-|Asiakkaat|Ennen kuin asiakas voidaan synkronoida, asiakkaalle määritetyn myyjän on oltava kytkettynä Sales-sovelluksen käyttäjään. Varmista, että synkronoit myyjät ja Sales-sovelluksen käyttäjät, ennen kuin synkronoit asiakkaat ja Sales-sovelluksen tilit, kun ASIAKKAAT - Dynamics 365 for Sales -synkronointityö suoritetaan ja se määritetään uusien tietueiden luomista varten. <br /> <br />ASIAKKAAT – Dynamics 365 for Sales -synkronointityö synkronoi vain ne Sales-sovelluksen tilit, joiden suhteen tyyppi on Asiakas.|
+|Asiakkaat|Ennen kuin asiakas voidaan synkronoida, asiakkaalle määritetyn myyjän on oltava kytkettynä Sales-sovelluksen käyttäjään. Varmista, että synkronoit myyjät ja Sales-sovelluksen käyttäjät, ennen kuin synkronoit asiakkaat ja Sales-sovelluksen tilit, kun ASIAKKAAT - Dynamics 365 for Sales -synkronointityö suoritetaan ja se määritetään uusien tietueiden luomista varten. <br /> <br />ASIAKKAAT – Dynamics 365 for Sales -synkronointityö synkronoi vain Sales-tilit, joiden suhdetyyppi on Asiakas.|
 |Kontaktit|Vain ne Sales-sovelluksen kontaktit, jotka on määritetty tiliin, luodaan Business Centralissa. Myyjän koodin arvo määrittää yhdistetyn entiteetin omistajan Sales-sovelluksessa.|
 |Valuutat|Valuutat kytketään tapahtumavaluuttoihin Sales-sovelluksessa ISO-koodien perusteella. Vain valuuttoja, joilla on standardi ISO-koodi, kytketään ja synkronoidaan tapahtumanvaluuttojen kanssa.|
 |Mittayksiköt|Mittayksiköt synkronoidaan yksikköryhmien kanssa Sales-sovelluksessa. Yksikköryhmälle voi määrittää vain yhden mittayksikön.|
@@ -89,7 +89,7 @@ Seuraavassa taulukossa esitetään säännöt, jotka ohjaavat Business Central -
 |Kirjatut myyntilaskut|Kirjatut myyntilaskut synkronoidaan myyntilaskujen kanssa. Ennen laskun synkronointia kannattaa synkronoida kaikki muut entiteetit, jotka voivat vaikuttaa laskuun. Niitä voivat olla esimerkiksi myyjät ja hinnastot. Laskun otsikossa oleva myyjän koodin arvo määrittää yhdistetyn entiteetin omistajan Sales-sovelluksessa.|
 
 ## <a name="setting-up-the-connection"></a>Yhteyden määrittäminen
-Voit käynnistää aloitussivulta asetusten ohjatun **Microsoft Dynamics 365 -yhteyden määrittäminen** -määrittämisen, joka auttaa yhteyden määrittämisessä. Kun yhteys on muodostettu, Sales-sovelluksen tietueet on yhdistetty saumattomasti [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen tietueisiin.  
+Voit käynnistää aloitussivulta asetusten ohjatun **Microsoft Dynamics 365 -yhteyden määrityksen**, joka auttaa yhteyden määrittämisessä. Kun yhteys on muodostettu, Sales-sovelluksen tietueet on yhdistetty saumattomasti [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen tietueisiin.  
 
 > [!NOTE]  
 >   Seuraavaksi käsitellään asetusten ohjattua määritystä. Voit halutessasi suorittaa samat tehtävät manuaalisesti **Sales-yhteyden määritys** -sivulla.
@@ -102,12 +102,12 @@ Asennusopas käyttää hallinnollista tiliä nykyisen Sales-ratkaisun tuonnissa.
 * järjestelmänvalvoja  
 * ratkaisun mukauttaja.  
 
-Lisätietoja on artikkelissa [Käyttäjien luominen ja Microsoft Dynamics 365 (online) -käyttöoikeusroolien määrittäminen](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles) ja kohdassa [Käyttäjien ja käyttöoikeuksien hallinta](ui-how-users-permissions.md).  
+Lisätietoja on kohdissa [Käyttäjien luominen ja Microsoft Dynamics 365 (online) -käyttöoikeusroolien määrittäminen](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles) ja [Käyttäjien ja käyttöoikeuksien hallinta](ui-how-users-permissions.md).  
 
 Tätä tiliä käytetään vain asennuksen aikana. Kun ratkaisu on tuotu [!INCLUDE[d365fin](includes/d365fin_md.md)]iin, tiliä ei enää tarvita.
 
 ### <a name="setting-up-the-user-account-for-synchronization"></a>Synkronoinnin käyttäjätilin määrittäminen
-Integraatiota varten tarvitaan jaettu käyttäjätili. Niinpä sinun on luotava Office 365 -tilauksessa erillinen käyttäjä, jota käytetään kahden palvelun välillä tapahtumaan synkronointiin. Tämän tilin on oltava jo kelvollinen Sales-sovelluksen käyttäjä, mutta tilille ei tarvitse määrittää käyttöoikeusrooleja, koska asennusopas tekee sen puolestasi. Tämä käyttäjätili on määritettävä asennusoppaassa ainakin kerran sen perusteella, kuinka laajan synkronoinnin haluat ottaa käyttöön. Lisätietoja on artikkelissa [Käyttäjien luominen ja Microsoft Dynamics 365 (online) -käyttöoikeusroolien määrittäminen](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles).
+Integraatiota varten tarvitaan jaettu käyttäjätili. Niinpä sinun on luotava Office 365 -tilauksessa erillinen käyttäjä, jota käytetään kahden palvelun välillä tapahtumaan synkronointiin. Tämän tilin on oltava jo kelvollinen Sales-sovelluksen käyttäjä, mutta tilille ei tarvitse määrittää käyttöoikeusrooleja, koska asennusopas tekee sen puolestasi. Tämä käyttäjätili on määritettävä asennusoppaassa ainakin kerran sen perusteella, kuinka laajan synkronoinnin haluat ottaa käyttöön. Lisätietoja on kohdassa [Käyttäjien luominen Microsoft Dynamics 365 (online) -sovelluksessa ja käyttöoikeusroolien määrittäminen](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles).
 
 Jos otat käyttöön *tuotteen saatavuuden*, integrointiin käytettävällä käyttäjätilillä on oltava verkkopalvelun käyttöoikeusavain. Se on kaksivaiheinen toiminto. Sinun on valittava kyseisen tilin [!INCLUDE[d365fin](includes/d365fin_md.md)]-sivulla **Muuta verkkopalvelun käyttöoikeusavainta** -painike ja määritettävä Sales-yhteyden asennusoppaassa kyseinen käyttäjä OData-verkkopalvelun käyttäjäksi.
 
@@ -137,17 +137,17 @@ Valitse avustetun asennusoppaan lopussa **Suorita täysi synkronointi** -toimint
 
 Voit tarkistaa täyden synkronoinnin yksittäisten töiden etenemistä, porautua alaspäin **Työjonon tapahtuman tila**-, **Integrointitaulukkoon – projektin tila**- tai **Integrointitaulukosta – projektin tila** -kentissä **Täyden CRM-synkronoinnin tarkistus** -sivulla.
 
-**Microsoft Dynamics 365 -yhteyden määritys** -sivulla voi katsoa koska tahansa tietoja täydestä synkronoinnista. Voit avata sieltä myös **Integrointitaulukon yhdistämismääritykset** -sivun, jossa on tietoja synkronoitavista [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen ja yhdistetyn Sales-ratkaisun taulukoista.
+Saat **Microsoft Dynamics 365 -yhteyden määritys** -sivulla koska tahansa tietoja täydestä synkronoinnista. Voit avata sieltä myös **Integrointitaulukon yhdistämismääritykset** -sivun, jossa on tietoja synkronoitavista [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen ja yhdistetyn Sales-ratkaisun taulukoista.
 
 ## <a name="handling-special-sales-order-data"></a>Erityisen myyntitilauksen tietojen käsitteleminen
-Sales-sovelluksen myyntitilaukset siirretään automaattisesti [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovellukseen, jos valitset **Luo myyntitilaukset automaattisesti** -valintaruudun **Microsoft Dynamics 365 -yhteyden määrittäminen** -sivulla. Näissä myyntitilauksissa alkuperäisen tilauksen **Nimi**-kenttä siirretään ja yhdisetään myyntitilauksen **Ulkoisen asiakirjan numero** -kenttään [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksessa.
+Salesin myyntitilaukset siirretään automaattisesti [!INCLUDE[d365fin](includes/d365fin_md.md)]iin, jos valitset **Luo myyntitilaukset automaattisesti** -valintaruudun **Microsoft Dynamics 365 -yhteyden määrittäminen** -sivulla. Näissä myyntitilauksissa alkuperäisen tilauksen **Nimi**-kenttä siirretään ja yhdisetään myyntitilauksen **Ulkoisen asiakirjan numero** -kenttään [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksessa.
 
 Tämä voi toimia myös, jos alkuperäinen myyntitilaus sisältää käsin lisättyjä tuotteita eli nimikkeitä tai resursseja, joita ei ole rekisteröity kumpaankaan tuotteeseen. Tällöin tulee antaa **Käsin lisätyn tuotteen tyyppi**- ja **Käsin lisätyn tuotteen numero** -kentät **Myynnin ja myyntisaamisten asetukset** -sivulla. Tällöin ei-rekisteröity tuotemyynti yhdistetään talousanalyysissa tiettyyn nimike-/resurssinumeroon.
 
 Jos alkuperäisen myyntitilauksen kuvaus on hyvin pitkä, sitä varten luodaan [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen myyntitilaukseen lisämyyntitilausrivi, jonka tyyppi on Kommentti.
 
 ## <a name="see-also"></a>Katso myös
-[Paikallisen Dynamics 365 for Salesin integroinnin valmistelu](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration)  
+[Integroinnin valmistelu paikalliseen Dynamics 365 for Salesiin](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration)  
 [Liikesuhteiden hallinta](marketing-relationship-management.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md)  
@@ -155,4 +155,3 @@ Jos alkuperäisen myyntitilauksen kuvaus on hyvin pitkä, sitä varten luodaan [
 [Organisaation ja käyttäjien perehdyttäminen Dynamics 365 (online) -ratkaisuun](/dynamics365/customer-engagement/admin/onboard-your-organization-and-users-to-dynamics-365-online)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

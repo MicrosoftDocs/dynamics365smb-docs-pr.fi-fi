@@ -1,23 +1,23 @@
 ---
-title: "Asiakastietojen siirtämisen valmisteleminen | Microsoft Docs"
-description: "Kun olet tuonut ja ottanut käyttöön asetustiedot uuteen tietokantaan, voit aloittaa siirtämään asiakkaan nykyiset päätiedot, kuten nimikkeiden ja asiakkaiden numerot ja nimet. Varmista, että tiedot luodaan nopeasti ja tarkasti uudessa yrityksessä käyttämällä malleja tietojen järjestämiseen."
+title: Asiakastietojen siirtämisen valmisteleminen | Microsoft Docs
+description: Kun olet tuonut ja ottanut käyttöön asetustiedot uuteen tietokantaan, voit aloittaa siirtämään asiakkaan nykyiset päätiedot, kuten nimikkeiden ja asiakkaiden numerot ja nimet. Varmista, että tiedot luodaan nopeasti ja tarkasti uudessa yrityksessä käyttämällä malleja tietojen järjestämiseen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 11/07/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 7861925cc318a7d23c612bc640e6d7e60bc5eed3
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: dbc38deef740c6da31f93feb788b8dc5d62f25fe
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "794952"
 ---
 # <a name="prepare-to-migrate-customer-data"></a>Asiakastietojen siirtämisen valmisteleminen
 Kun olet tuonut ja ottanut käyttöön asetustiedot uuteen tietokantaan, voit aloittaa siirtämään asiakkaan nykyiset päätiedot, kuten nimikkeiden ja asiakkaiden numerot ja nimet. Varmista, että tiedot luodaan nopeasti ja tarkasti uudessa yrityksessä käyttämällä malleja tietojen järjestämiseen.  
@@ -115,7 +115,7 @@ Voit käyttää tietorakennetta, joka sisältyy tietomalleihin, muuntaaksesi tie
 Seuraavissa vaiheissa esitellään, miten nimikekortti luodaan nimiketietomallista. Voit luoda tietueen mistä tahansa tietomallista käyttäen samaa menettelyä.  
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Määritysmallit** ja valitse sitten liittyvä linkki.  
-2. Valitse **nimikemalli** ja valitse sitten **Muokkaa**-toiminto. Lisätietoja on Tietomallin luominen -osassa.
+2. Valitse **nimikemalli** ja valitse sitten **Muokkaa**-toiminto. Lisätietoja on kohdassa [Tietomallin luominen](admin-use-templates-to-prepare-customer-data-for-migration.md#to-create-a-new-data-template).
 3. Valitse **Luo instanssi** -toiminto. Ohjelma luo nimikkeen kortin.  
 4. Valitse **OK**-painike.  
 5. Jos haluat tarkistaa uuden nimikkeen kortin, valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten liittyvä linkki.  
@@ -140,4 +140,3 @@ Valitun asiakkaan mallin oletusarvot lisätään asiakaskorttiin.
 [Yrityksen määrittäminen RapidStart Services -palvelun avulla](admin-set-up-a-company-with-rapidstart.md)  
 [Hallinta](admin-setup-and-administration.md)  
 [Uusien asiakkaiden rekisteröinti](sales-how-register-new-customers.md)
-

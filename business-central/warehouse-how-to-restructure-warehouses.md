@@ -1,23 +1,23 @@
 ---
-title: "Fyysisten varastojen järjesteleminen uudelleen | Microsoft Docs"
-description: "Haluat ehkä järjestellä fyysisen varaston uudelleen käyttämällä uusia varastopaikan koodeja ja uusia varastopaikan ominaispiirteitä."
+title: Fyysisten varastojen järjesteleminen uudelleen | Microsoft Docs
+description: Haluat ehkä järjestellä fyysisen varaston uudelleen käyttämällä uusia varastopaikan koodeja ja uusia varastopaikan ominaispiirteitä.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 06233abf9eef229ac86ee31857352af1de5e34e2
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "794984"
 ---
 # <a name="restructure-warehouses"></a>Fyysisten varastojen uudelleenjärjestely
 Haluat ehkä järjestellä fyysisen varaston uudelleen käyttämällä uusia varastopaikan koodeja ja uusia varastopaikan ominaispiirteitä. Tällaista toimintoa ei suoriteta kovin usein, mutta eteen voi tulla tilanteita, jolloin uudelleenluokittelu on tarpeen, jotta saavutettaisiin tai ylläpidettäisiin tehokkaampaa toimintaa. Esimerkiksi:  
@@ -90,4 +90,3 @@ Jos haluat nimetä varastopaikan uudelleen, niin että myös kaikki varastopaikk
 [Kokoonpanon hallinta](assembly-assemble-items.md)    
 [Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

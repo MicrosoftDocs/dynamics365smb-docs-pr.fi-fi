@@ -1,23 +1,22 @@
 ---
-title: "Business Central -sovelluksen sähköiset asiakirjat | Microsoft Docs"
-description: "Sähköisten asiakirjojen lähettämisen ja vastaanottamisen esittely Business Central -sovelluksessa."
+title: Business Central -sovelluksen sähköiset asiakirjat | Microsoft Docs
+description: Sähköisten asiakirjojen lähettämisen ja vastaanottamisen esittely Business Central -sovelluksessa.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 147a7e41d490167fceb76ff89de1f6c628223914
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796388"
 ---
-
 # <a name="exchanging-data-electronically"></a>Sähköinen tiedonsiirto
 Voit siirtää liiketoiminta-asiakirjoja, pankkitiedostoja, vaihtokursseja ja muita datatiedostoja liikekumppaneille tiedonsiirtokehyksen avulla.
 
@@ -35,9 +34,9 @@ Jotta voisit vastaanottaa esimerkiksi laskun toimittajalta sähköisenä PEPPOL-
 ## <a name="bank-files"></a>Pankkitiedostot  
  Pankkitietojen vaihtoon tarkoitetut ERP-järjestelmien tiedostomuodot vaihtelevat tiedoston toimittajan sekä maan/alueen mukaan. [!INCLUDE[d365fin](includes/d365fin_md.md)]in yleinen versio tukee SEPA (Single Euro Payments Area) -pankkitiedostojen tuontia ja vientiä sekä ulkoisen palveluntarjoajan (AMC Consult) pankkitietojen muuntopalvelua. Muiden sähköisten asiakirjojamuotojen tuki saadaan käyttämällä tietojen vaihtamiskehystä.  
 
-Jos haluat viedä SEPA-tilisiirtoja, valitse **Maksupäiväkirja**-sivulla **Vie maksut tiedostoon** -painike ja lataa sitten tiedosto pankin käsiteltäväksi. Aluksi on määritettävä joitakin perustietoja, kuten pankkitili, toimittajat ja maksutavat. SEPA-pankkitietojen muunnon ja viennin suorittavat määritetty koodiyksikkö ja XMLport-objekti, joita edustaa**SEPA-tilisiirto** (pankin vienti-/tuontimääritys). Vaihtoehtoisesti voit määrittää, että pankkitietojen muuntopalvelu suorittaa viennin. Tätä vaihtoehtoa edustaa **Pankkitietojen muuntopalvelu – tilisiirto** -tietojenvaihtomääritys.  
+Jos haluat viedä SEPA-tilisiirtoja, valitse **Maksupäiväkirja**-sivulla **Vie maksut tiedostoon** -painike ja lataa sitten tiedosto pankin käsiteltäväksi. Aluksi on määritettävä joitakin perustietoja, kuten pankkitili, toimittajat ja maksutavat. SEPA-pankkitietojen muunnon ja viennin suorittavat määritetty codeunit ja XMLport, joita edustaa **SEPA-tilisiirto** (pankin vienti-/tuontimääritys). Vaihtoehtoisesti voit määrittää, että pankkitietojen muuntopalvelu suorittaa viennin. Tätä vaihtoehtoa edustaa **Pankkitietojen muuntopalvelu – tilisiirto** -tietojenvaihtomääritys.  
 
-Jos haluat viedä SEPA-suoraveloitusohjeita, valitse **Suoraveloitusperinnät**-sivulla **Vie suoraveloitustiedosto** -painike ja lähetä ohjeet pankillesi, joka kerää tarvittavat asiakasmaksut automaattisesti. Aluksi on määritettävä pankkitilit, asiakkaat, suoraveloitustoimeksiannot sekä maksutavat. SEPA-pankkitietojen muunnon ja viennin suorittavat määritetty koodiyksikkö ja XMLport-objekti, joita edustaa**SEPA-suoraveloitus** (pankin vienti-/tuontimääritys).  
+Jos haluat viedä SEPA-suoraveloitusohjeita, valitse **Suoraveloitusperinnät**-sivulla **Vie suoraveloitustiedosto** -painike ja lähetä ohjeet pankillesi, joka kerää tarvittavat asiakasmaksut automaattisesti. Aluksi on määritettävä pankkitilit, asiakkaat, suoraveloitustoimeksiannot sekä maksutavat. SEPA-pankkitietojen muunnon ja viennin suorittavat määritetty codeunit ja XMLport, joita edustaa **SEPA-suoraveloitus** (pankin vienti-/tuontimääritys).  
 
 Jos haluat tuoda SEPA-tiliotteita, valitse Tuo tiliote -painike **Maksujen täsmäytyskirjauskansio**- ja **Pankkitilin täsmäytys** -sivuilla ja jatka viemällä tiliotemerkintä manuaalisesti tai automaattisesti maksuihin tai pankkitapahtumamerkintöihin. Aluksi on määritettävä pankkitilit. SEPA-pankkitietojen tuonnin ja muunnon suorittaa tietojen vaihtamiskehys (jota edustaa **SEPA CAMT** -tietojenvaihtomääritys). Vaihtoehtoisesti voit määrittää, että pankkitietojen muuntopalvelu suorittaa tuonnin. Tätä vaihtoehtoa edustaa **Pankkitietojen muuntopalvelu – tiliote** -tietojenvaihtomääritys.  
 
@@ -46,7 +45,7 @@ Jos haluat tuoda SEPA-tiliotteita, valitse Tuo tiliote -painike **Maksujen täsm
 ## <a name="currency-exchange-rates"></a>Valuutan vaihtokurssit  
 Voit määrittää ulkoisen palvelun pitämään valuutan vaihtokurssit ajan tasalla. Päivitetyt valuuttakurssit määrittävä palvelu otetaan käyttöön tietojenvaihtomäärityksen avulla. Näin ollen **Valuutanvaihtokurssin päivitysasetusten kortti** -sivu on tiivistetty näkymä kyseessä olevan tiedonsiirtomäärityksen **Tiedonsiirtomääritys**-sivulta.  
 
-Voit valmistella kaikille XML-tiedostojen tiedonsiirroille tiedonsiirtoasetukset lataamalla liittyvän XML-rakennetiedoston **XML-mallin tarkastelutoiminto** -sivulla. Voit valita ikkunassa tietoelementit, joita haluat vaihtaa [!INCLUDE[d365fin](includes/d365fin_md.md)]in kanssa. Tämän jälkeen voit joko käynnistää tiedonsiirtomäärityksen tai luoda XMLport-objektin.  
+Voit valmistella kaikille XML-tiedostojen tiedonsiirroille tiedonsiirtoasetukset lataamalla liittyvän XML-rakennetiedoston **XML-mallin tarkastelutoiminto** -sivulla. Voit valita ikkunassa tietoelementit, joita haluat vaihtaa [!INCLUDE[d365fin](includes/d365fin_md.md)]in kanssa. Tämän jälkeen voit joko käynnistää tiedonsiirtomäärityksen tai luoda XMLportin.  
 
 Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisiin.  
 
@@ -63,4 +62,3 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 [Tiedonsiirto](across-exchange-data.md)  
 [Saapuvat asiakirjat](across-income-documents.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)
-

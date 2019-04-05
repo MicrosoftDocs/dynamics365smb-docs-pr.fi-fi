@@ -1,8 +1,8 @@
 ---
-title: "Vakiohuoltokoodien määrittäminen | Microsoft Docs"
-description: "Lisätietoja usein tehtävien huoltotoimintojen koodien määrittämisestä."
+title: Vakiohuoltokoodien määrittäminen | Microsoft Docs
+description: Lisätietoja usein tehtävien huoltotoimintojen koodien määrittämisestä.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,14 +12,13 @@ ms.workload: na
 ms.search.keywords: service, service item, service order, repairs, maintenance
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: b9bf54d61ba71281a7069a6977ad1264637eba46
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795641"
 ---
-
 # <a name="set-up-standard-service-codes"></a>Vakiohuoltokoodien määrittäminen
 Kun suoritat tavallisen huollon, sinun on usein luotava samat tiedot sisältävät huoltoasiakirjat ja huoltorivit. Voit helpottaa näiden rivien luontia määrittämällä vakiohuoltokoodit, joilla on valmiiksi määritettyjä rivejä. Kun valitset koodin huoltoasiakirjassa, rivit annetaan automaattisesti. Voit määrittää haluamasi määrän vakiohuoltokoodeja, ja kullakin koodilla voi olla rajoittamaton määrä erilaisia linkitettyjä huoltorivejä, kuten nimike, resurssi, kustannus tai vakioteksti. Kunkin vakiohuoltokoodin huoltorivit luodaan **Vakiohuoltokoodi** -kortissa. Voit määrittää vakiohuoltokoodit sitten huoltonimikeryhmiin **Huoltonimikeryhmän vakiokoodit** -sivulla. Kun luot myöhemmin huoltoasiakirjan, voit lisätä huoltorivejä **Hae vakiohuoltokoodit** -toiminnolla.  
   
@@ -37,4 +36,4 @@ Kun suoritat tavallisen huollon, sinun on usein luotava samat tiedot sisältäv�
 3. Täytä tähän huoltokoodiin linkitetyt huoltorivit.  
 
 ## <a name="see-also"></a>Katso myös
-[Service Management](service-service.md)
+[Huoltohallinto](service-service.md)

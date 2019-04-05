@@ -1,24 +1,24 @@
 ---
-title: "Sarja- ja eränumeroiden määrittäminen nimikkeille seurantaa varten | Microsoft Docs"
-description: "Voit lisätä sarja- ja eränumeroita mihin tahansa lähtevään tai saapuvaan asiakirjaan, ja sen kirjatut nimikeseurantatapahtumat näkyvät niihin liittyvissä nimiketapahtumissa."
+title: Sarja- ja eränumeroiden määrittäminen nimikkeille seurantaa varten | Microsoft Docs
+description: Voit lisätä sarja- ja eränumeroita mihin tahansa lähtevään tai saapuvaan asiakirjaan, ja sen kirjatut nimikeseurantatapahtumat näkyvät niihin liittyvissä nimiketapahtumissa.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 3c8e58ae653d1e8fca520fc8f3e876df67f50950
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 7200b074670f9c4541b0b7ae1d2f4e1159a7ff27
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795197"
 ---
 # <a name="work-with-serial-and-lot-numbers"></a>Sarja- ja eränumeroiden käsitteleminen
-Voit määrittää sarja- ja eränumeroita mihin tahansa lähtevään tai saapuvaan asiakirjaan, ja sen kirjatut nimikeseurantatapahtumat näkyvät niihin liittyvissä nimiketapahtumissa. Käsittely tehdään **Nimikkeen seurantarivit** -sivulla.
+Voit määrittää sarja- ja eränumeroita mihin tahansa lähtevään tai saapuvaan asiakirjaan, ja sen kirjatut nimikeseurantatapahtumat näkyvät niihin liittyvissä nimiketapahtumissa. Työ suoritetaan **Nimikkeen seurantarivit** -sivulla, joka avataan saapuvasta tai lähtevästä asiakirjasta.
 
 **Nimikkeen seurantarivit** -sivun yläosassa olevassa määräkenttien taulukossa näkyy rivillä määritettävien nimikkeen seurantanumeroiden määrät ja summat. Määrien on vastattava asiakirjarivejä. Sen osoituksena **Määrittelemätön**-kentässä on 0.
 
@@ -62,7 +62,7 @@ Nimikkeen seurantakoodi kuvastaa niitä asioita, jotka yritys on ottanut huomioo
 
 > [!NOTE]  
 >  Jos haluat seurata tiettyjä nimikkeitä tai tiettyjä eriä koko niiden elinkaaren ajana, sinun on valittava vastaavasti joko **SN-kohtainen seuranta**- tai **Eräkohtainen seuranta** -kenttä. Tällöin tämän nimikeseurannan koodin mukaista nimikkeen lähtevää yksikköä käsiteltäessä tulee aina määrittää, mitä olemassa olevaa sarjanumeroa tai mitä olemassa olevaa eränumeroa käsitellään. Tämä tarkoittaa sitä, että nimikkeen yksikköä myytäessä se tulee olla kohdistettu tiettyyn sarjanumeroiden tai eränumeroiden pooliin varastossa. Toisin sanoen nimikkeelle varastoon tullessa määritellyn sarjanumeron tai eränumeron tulee seurata kyseistä nimiketyyppiä ulos varastosta.
-  
+
 Koska kyseinen asetuskenttä kattaa kaikki mahdolliset nimikkeen transaktiot, myös yksittäisiin saapuvien/lähtevien kentät valitaan. Yksittäisillä saapuvilla/lähtevillä kentillä ei ole kuitenkaan mitään tekemistä varastossa kohdistuksen kanssa – ne ainoastaan määrittelevät yrityksen tehtävienhallintaa koskien sitä, milloin määritellään nimikeseurantanumeroita.  
 
 ### <a name="to-set-up-expiration-rules-for-serial-or-lot-numbers"></a>Vanhentumissääntöjen määrittäminen sarja-/eränumeroille  
@@ -75,6 +75,7 @@ Voit haluta määrittää tiettyjen nimikkeiden osalta erityisiä vanhenemispäi
     |---------------------------------|---------------------------------------|  
     |**Tiukka vanhentumisen kirj.**|Määrittää, että nimikeseurantanumerolle varastoon tullessa määritettyä vanhentumispäivämäärää tulee noudattaa silloin, kun numero poistuu varastosta.|  
     |**Man. vanh.pvm tap. tarvitaan**|Määrittää, että nimikkeen seurantariville vanhentumispäivämäärä pitää syöttää manuaalisesti.|  
+    |**Ohita vanhentumispäivämäärät**|Määrittää, ettet halua laskea vanhentumispäivämääriä. |  
 
 ### <a name="to-set-up-warranties-for-serial-or-lot-numbers"></a>Takuiden määrittäminen sarja-/eränumeroille  
 Voit haluta määrittää tiettyjen nimikkeiden osalta erityisiä takuita nimikkeen seurantakoodille. Tämän ominaisuuden avulla voit seurata sitä, milloin varastossa olevien tiettyjen sarja-/eränumeroiden takuut menevät umpeen.        
@@ -108,7 +109,7 @@ Jos sinun täytyy linkittää erityistietoja erityiseen nimikkeen seurantanumero
 5. Valitse ensin kortti ja sitten **Eränumerotietojen tai sarjanumerotietojen kortti** -toiminto.  
 6. Muokkaa lyhyttä kuvaustekstiä, kommenttitietuetta tai **Suljettu**-kenttää.  
 
-Et voi muuttaa sarja- tai eränumeroita tai määriä. Tehdäksesi näin sinun tulee uudelleenluokitella kyseinen nimiketapahtuma. Lisätietoja on kohdassa Erä- tai sarjanumeroiden uudelleenluokittelu.
+Et voi muuttaa sarja- tai eränumeroita tai määriä. Tehdäksesi näin sinun tulee uudelleenluokitella kyseinen nimiketapahtuma. Lisätietoja on kohdassa [Erä- tai sarjanumeroiden uudelleenluokittelu](inventory-how-work-item-tracking.md#to-reclassify-serial-or-lot-numbers).
 
 ## <a name="to-assign-serial-or-lot-numbers-during-an-inbound-transaction"></a>Sarja-/Eränumeroiden määritteleminen saapuvien transaktioiden aikana  
 Yritykset voivat haluta seurata nimikkeitään siitä lähtien, kun ne saapuvat yritykseen. Tässä tilanteessa ostotilaus on usein keskeinen asiakirja, vaikkakin nimikeseurantaa voidaan käsitellä missä tahansa saapuvassa asiakirjassa, ja sen kirjatut tapahtumat voivat näkyä niihin liittyvissä nimiketapahtumissa.  
@@ -146,7 +147,7 @@ Kun asiakirja kirjataan, nimikeseurantatapahtumat viedään niihin liittyviin ni
 ## <a name="to-assign-a-serial-or-lot-number-during-an-outbound-transaction"></a>Sarja- tai eränumeroiden määritteleminen lähtevän tapahtuman aikana  
 Ohjelmassa on kaksi tapaa lisätä sarja- ja eränumerot lähteviin tapahtumiin:  
 
--   Valitseminen olemassa olevista sarja-/eränumeroista. Tätä mahdollisuutta käytetään silloin, kun nimikkeen seurantanumerot on jo määritelty saapuvan transaktion aikana. Lisätietoja on kohdassa Valinta aiemmin luoduista sarja- ja eränumeroista.
+-   Valitseminen olemassa olevista sarja-/eränumeroista. Tätä mahdollisuutta käytetään silloin, kun nimikkeen seurantanumerot on jo määritelty saapuvan transaktion aikana. Lisätietoja on kohdassa [Olemassa olevista sarja- ja eränumeroista valitseminen](inventory-how-work-item-tracking.md#to-select-from-existing-serial-or-lot-numbers).
 -   Sarja-/eränumeroiden määritteleminen lähtevien transaktioiden aikana. Tätä käytetään, kun nimikkeen seurantanumeroita ei määritetä nimikkeisiin ennen kuin ne myydään ja ne ovat valmiita toimitettaviksi.  
 
 Nimikkeen seurantanumeroiden eri säännöt määritetään **Nimikk. seurantakoodin kortti** -sivulla.  
@@ -268,4 +269,3 @@ Nimikkeiden seurannan uudelleenluokittelu tarkoittaa erä- tai sarjanumeron muut
 [Rakennetiedot: Nimikkeen seuranta ja varaukset](design-details-item-tracking-and-reservations.md)  
 [Nimikkeiden varaaminen](inventory-how-to-reserve-items.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

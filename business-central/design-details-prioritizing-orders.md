@@ -1,8 +1,8 @@
 ---
-title: "Rakennetiedot – tilausten priorisointi | Microsoft Docs"
-description: "Lisätietoja kysynnän ja tarjonnan vaatimusten priorisoinnista."
+title: Rakennetiedot – tilausten priorisointi | Microsoft Docs
+description: Lisätietoja kysynnän ja tarjonnan vaatimusten priorisoinnista.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: design, priority, prioritize, order, sku, demand, supply
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
+ms.openlocfilehash: 1d58a02bdfe4810d1116d20866d3b435bc7341bc
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6e09ad64750493f99210d47516410d8471a83011
-ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796371"
 ---
 # <a name="design-details-prioritizing-orders"></a>Rakennetiedot: tilausten priorisointi
 Pyydetty tai käytettävissä oleva päivämäärä edustaa annetun varastointiyksikön korkeinta prioriteettia. Tämän päivän kysyntä tulee käsitellä ennen seuraavan viikon kysyntää. Mutta tämän kokonaisprioriteetin lisäksi suunnittelujärjestelmä suosittelee myös kysynnän tyyppiä, joka olisi täytettävä ennen toisen kysynnän täyttämistä. Vastaavasti se ehdottaa mitä tarjontalähdettä olisi sovellettava ennen muiden tarjontalähteiden käyttämistä. Tämä tehdään tilauksen prioriteettien mukaan.  
@@ -60,4 +60,3 @@ Riippumatta kysynnän ja tarjonnan määrittämistä prioriteeteista, nykyinen t
 [Rakennetiedot: kysynnän ja tarjonnan täsmäytys](design-details-balancing-demand-and-supply.md)   
 [Rakennetiedot: suunnittelujärjestelmän keskeiset käsitteet](design-details-central-concepts-of-the-planning-system.md)   
 [Rakennetiedot: Tarjonnan suunnittelu](design-details-supply-planning.md)
-

@@ -1,6 +1,6 @@
 ---
-title: "Toistuvien maksujen tekstin yhdistämisen tiliin määrittäminen | Microsoft Docs"
-description: "Linkitä maksujen teksti tiettyihin tileihin siten, että maksut kirjataan tileille, kun kirjaat maksujen täsmäytyskirjauskansion."
+title: Toistuvien maksujen tekstin yhdistämisen tiliin määrittäminen | Microsoft Docs
+description: Linkitä maksujen teksti tiettyihin tileihin siten, että maksut kirjataan tileille, kun kirjaat maksujen täsmäytyskirjauskansion.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account linking, direct payment posting, automatic payment processing, reconcile payment, recurring expense, recurring cash receipt
-ms.date: 10/01/2018
+ms.date: 03/05/2019
 ms.author: sgroespe
+ms.openlocfilehash: 357febcb3984db658c0742f013aff65301ae6f42
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 492ab7550a82f291566c0170ae42ba46de0ad292
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795189"
 ---
 # <a name="map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Toistuvien maksujen tekstin yhdistäminen tileihin automaattisen täsmäytyksen suorittamiseksi
 **Tekstin yhdistäminen tiliin** -sivulla, joka avataan **Maksujen täsmäytyskirjauskansio** -sivulta, voit määrittää maksujen tekstin kohdistukset ja tietyt debet-, kredit- ja kirjanpidon vastatilit siten, että nämä maksut kirjataan tietyille tileille, jotta nämä maksut kirjataan tietyille tileille, kun kirjaat maksun täsmäytyksen päiväkirjan.
 
-Vastaava toiminto on käytettävissä, kun maksujen täsmäytyskirjauskansion rivien ylimääräisiä summia täsmäytetään ad hoc. Lisätietoja on kohdassa [Niiden maksujen täsmäyttäminen, joita ei voi kohdistaa automaattisesti](receivables-how-reconcile-payments-cannot-apply-auto.md).
+Vastaava toiminto on käytettävissä, kun maksujen täsmäytyskirjauskansion rivien ylimääräisiä summia täsmäytetään tapauskohtaisesti. Lisätietoja on kohdassa [Niiden maksujen täsmäyttäminen, joita ei voi kohdistaa automaattisesti](receivables-how-reconcile-payments-cannot-apply-auto.md).
 
 Maksuja, jotka perustuvat tekstistä tiliin yhdistämiseen, ei käytetä avoimiin tapahtumiin vaan ne kirjataan tietyille tileille pankkitilitapahtumien lisäksi. Näin ollen tekstin ja tilin välinen yhdistäminen sopii toistuviin saatuihin tuloihin tai kuluihin, kuten usein tapahtuvat auton polttoaineen ostot tai pankin kulut ja korko, jotka tapahtuvat pankin tiliotteessa säännöllisesti ja jotka eivät tarvitse niihin liittyvää liiketoiminta-asiakirjaa. Lisätietoja on tämän ohjeaiheen “Esimerkki – tekstin ja tilin yhdistäminen polttoaineen kuluissa” -osassa.
 
@@ -55,13 +55,9 @@ Kirjataksesi aina Shell-huoltoasemilla kertyneet polttoainekulut kirjanpitoon po
 | --- | --- | --- | --- | --- |
 | Hylly |TYHJÄ |8510 |KP-tili |TYHJÄ |
 
-> [!TIP]  
->   Lisätietoja kenttien ja sarakkeiden käsittelemisestä on ohjeaineessa [[!INCLUDE[d365fin](includes/d365fin_long_md.md)]in käyttäminen](ui-work-product.md). Lisätietoja tiettyjen sivujen löytämisestä on kohdassa [Haku](ui-search.md).
-
 ## <a name="see-also"></a>Katso myös
 [Myyntisaamisten hallinta](receivables-manage-receivables.md)  
 [Myynti](sales-manage-sales.md)  
 [Envestnet Yodlee -pankkisyötepalvelun määrittäminen](bank-how-setup-bank-statement-service.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]in mukauttaminen laajennusten avulla](ui-extensions.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

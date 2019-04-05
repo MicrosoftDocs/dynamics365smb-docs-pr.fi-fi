@@ -1,8 +1,8 @@
 ---
 title: Kohdistuksen tila ja korjauksen tila | Microsoft Docs
-description: "Lisätietoja huoltonimikkeiden korjauksen tilan ja niiden kohdistustapahtumien kohdistuksen tilan välisestä suhteesta."
+description: Lisätietoja huoltonimikkeiden korjauksen tilan ja niiden kohdistustapahtumien kohdistuksen tilan välisestä suhteesta.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: resources, allocation, status, repairs
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 932abf3ee69f429c322fe82e150fa7a8f4aef8e8
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796282"
 ---
 # <a name="allocation-status-and-repair-status-of-service-items"></a>Huoltonimikkeen kohdistuksen tila ja korjauksen tila
 Huoltonimikkeiden korjauksen tilalla ja huoltonimikkeiden kohdistustapahtumien kohdistuksen tilalla on tietty yhteys Huoltohallinnossa. Kohdistuksen tila muuttuu silloin kun huoltonimikkeen korjauksen tila muutetaan **Valmiiksi** tai **Osittain huolletuksi** ja kun huoltotarjous muunnetaan huoltotilaukseksi. Huoltonimikkeen korjauksen tila muuttuu, kun peruutat huoltonimikkeen kohdistuksen tai kohdistat sen toiseen resurssiin. Voit tarkastella huoltonimikkeiden korjauksen tilaa **Huoltotehtävät** -sivulla ja voit päivittää korjauksen tilan **Korjauksen tilakoodi** -kentässä **Huoltonimikkeen työkirja** -sivulla. Voit tarkastella kohdistuksen tilaa **Tila**-kentässä **Resurssin kohdistukset** -sivulla.  
@@ -71,5 +71,4 @@ Uusi kohdistustapahtuma sisältää uuden resurssin ja sen tila on **Aktiivinen*
 ## <a name="see-also"></a>Katso myös  
 [Resurssien kohdistamisen määrittäminen](service-how-setup-resource-allocation.md)  
 [Resurssien kohdistaminen](service-how-to-allocate-resources.md)  
-
 

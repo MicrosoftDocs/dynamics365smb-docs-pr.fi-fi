@@ -1,8 +1,8 @@
 ---
-title: "Myynnin ja ostojen ALV:n käsittely | Microsoft Docs"
-description: "Tässä ohjeaiheessa käsitellään, miten ALV-laskelmat koskevat kaikkia myynti- ja ostotapahtumia, kuten EU-maissa ja EU:n alueella kirjatun ALV:n oikaisua. Tässä ohjeaiheessa kerrotaan, miten se tehdään."
+title: Myynnin ja ostojen ALV:n käsittely | Microsoft Docs
+description: Tässä ohjeaiheessa käsitellään, miten ALV-laskelmat koskevat kaikkia myynti- ja ostotapahtumia, kuten EU-maissa ja EU:n alueella kirjatun ALV:n oikaisua. Tässä ohjeaiheessa kerrotaan, miten se tehdään.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 9d6f3cf74582283e633d9c3347def5289aeb8f88
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795832"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Myynnin ja ostojen ALV:n käsitteleminen
-Jos maasi tai alueesi edellyttää arvonlisäveron (ALV:n) laskemista myynti- ja ostotapahtumille siten, että voit ilmoittaa summat veroviranomaiselle, voit määrittää [!INCLUDE[d365fin](includes/d365fin_md.md)]in laskemaan ALV:n automaattisesti myynti- ja ostoasiakirjoissa. Lisätietoja on kohdassa [Arvolisäveron laskelmien ja kirjausmenetelmien määrittäminen] (finance-setup-vat.md).
+Jos maasi tai alueesi edellyttää arvonlisäveron (ALV:n) laskemista myynti- ja ostotapahtumille siten, että voit ilmoittaa summat veroviranomaiselle, voit määrittää [!INCLUDE[d365fin](includes/d365fin_md.md)]in laskemaan ALV:n automaattisesti myynti- ja ostoasiakirjoissa. Lisätietoja on kohdassa [Arvolisäveron laskelmien ja kirjausmenetelmien määrittäminen](finance-setup-vat.md).
 
 Jotkin arvolisäveroon liittyvät tehtävät voidaan tehdä manuaalisesti. Kirjattu summa on ehkä oikaistava, jos havaitset, että toimittaja käyttää toista pyöristysmenetelmää.
 
@@ -174,4 +174,3 @@ Voit tarkastella sertifikaattiryhmiä aloittamalla **Tarjontasertifikaatit**-siv
 ## <a name="see-also"></a>Katso myös  
 [Arvonlisäveron laskemisen ja kirjaustapojen määrittäminen](finance-setup-vat.md)   
 [Toimintaohje: ALV:n raportointi veroviranomaisille](finance-how-report-vat.md)   
-

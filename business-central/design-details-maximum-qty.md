@@ -1,24 +1,24 @@
 ---
-title: "Rakennetiedot – Enimmäismäärä | Microsoft Docs"
-description: "Maksimimääräohjeet on tapa ylläpitää varastoa käyttämällä jälkitilauspistettä."
+title: Rakennetiedot – Enimmäismäärä | Microsoft Docs
+description: Maksimimääräohjeet on tapa ylläpitää varastoa käyttämällä jälkitilauspistettä.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-handling-reordering-policies
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 21ae51ecf28458f9b09be6461243f31641a0aaef
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795190"
 ---
 # <a name="design-details-maximum-qty"></a>Rakennetiedot: enimmäismäärä
 Enimmäismääräkäytäntö on tapa ylläpitää varastoa uudelleentilauspisteen avulla.  
@@ -43,4 +43,3 @@ Enimmäismääräkäytäntö on tapa ylläpitää varastoa uudelleentilauspistee
  [Rakennetiedot: suunnittelun parametrit](design-details-planning-parameters.md)   
  [Rakennetiedot: uusintatilauskäytäntöjen käsittely](design-details-handling-reordering-policies.md)   
  [Rakennetiedot: Tarjonnan suunnittelu](design-details-supply-planning.md)
-

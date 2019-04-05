@@ -1,23 +1,23 @@
 ---
-title: "Toimituksen lupaamisen päivämäärän laskeminen | Microsoft Docs"
-description: "Toimituksen lupaamisen toiminto on työkalu, jolla lasketaan aikaisin mahdollinen päivämäärä, jolloin nimike on saatavilla toimitettavaksi tai lähetettäväksi. Toiminnolla luodaan myös hankintarivejä hyväksymillesi päivämäärille."
+title: Toimituksen lupaamisen päivämäärän laskeminen | Microsoft Docs
+description: Toimituksen lupaamisen toiminto on työkalu, jolla lasketaan aikaisin mahdollinen päivämäärä, jolloin nimike on saatavilla toimitettavaksi tai lähetettäväksi. Toiminnolla luodaan myös hankintarivejä hyväksymillesi päivämäärille.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/23/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 2b1eae5f8562999f3fca227b6de6778ef1c5374e
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795266"
 ---
 # <a name="calculate-order-promising-dates"></a>Toimituksen lupaamisen päivämäärien laskeminen
 Yrityksen on voitava ilmoittaa asiakkailleen tilauksen toimituksen päivämäärät. Voit tehdä tämän **Toimituksen lupaamisen rivit** -sivulla myyntitilauksen riviltä.  
@@ -147,4 +147,3 @@ Nimike on merkittävä kriittiseksi, ennen kuin sen voi sisällyttää toimituks
 [Myynti](sales-manage-sales.md)  
 [Ostojen päivämäärälaskenta](purchasing-date-calculation-for-purchases.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

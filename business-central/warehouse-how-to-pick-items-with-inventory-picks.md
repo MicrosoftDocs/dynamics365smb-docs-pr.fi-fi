@@ -1,23 +1,23 @@
 ---
 title: Nimikkeiden poiminta varaston poiminnoissa | Microsoft Docs
-description: "Kun sijainti on määritetty vaatimaan poiminnan prosessointia, mutta ei toimituksen prosessointia, sinun on käytettävä varaston poiminnan asiakirjoja lähdeasiakirjan poiminnan ja toimituksen tietojen tallennuksessa ja kirjaamisessa."
+description: Kun sijainti on määritetty vaatimaan poiminnan prosessointia, mutta ei toimituksen prosessointia, sinun on käytettävä varaston poiminnan asiakirjoja lähdeasiakirjan poiminnan ja toimituksen tietojen tallennuksessa ja kirjaamisessa.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 4537dbb31768ff681dd71775c3813d23caba599b
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796234"
 ---
 # <a name="pick-items-with-inventory-picks"></a>Nimikkeiden poiminta varastopoiminnalla
 Kun sijainti on määritetty vaatimaan poiminnan prosessointia, mutta ei toimituksen prosessointia, käytä **Varaston poiminta** -sivua lähdeasiakirjan poiminnan ja toimituksen tietojen tallennuksessa ja kirjaamisessa. Lähtevä lähdeasiakirja voi olla myyntitilaus, ostopalautustilaus, lähtevä siirtotilaus tai tuotantotilaus, jonka osat ovat valmiina poimittaviksi.
@@ -112,4 +112,3 @@ Yhdistelmätilanteissa, joissa osa määrästä on koottava ensin ja toinen poim
 [Kokoonpanon hallinta](assembly-assemble-items.md)    
 [Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

@@ -1,8 +1,8 @@
 ---
-title: "Yleiskuvaus huoltosopimusten suorittamiseen tarvittavista tehtävistä | Microsoft Docs"
-description: "Lisätietoja tehtävistä, joilla hallitaan asiakkaiden kanssa tehtyjä huoltosopimuksia."
+title: Yleiskuvaus huoltosopimusten suorittamiseen tarvittavista tehtävistä | Microsoft Docs
+description: Lisätietoja tehtävistä, joilla hallitaan asiakkaiden kanssa tehtyjä huoltosopimuksia.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: contract, agreement, configure
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 167610e56db0d6de5a1f84a57c132a842a30b010
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796216"
 ---
 # <a name="fulfilling-service-contracts"></a>Huoltosopimusten toteuttaminen 
 Huoltohallinnon liiketoiminnan voi määrittää luomalla yrityksen ja asiakkaan väliset vakiosopimukset, jotka kuvaavat huollon tason ja odotukset. Voit luoda tarvittavat tiedot sisältäviä huoltomalleja. Näitä tietoja ovat esimerkiksi asiakas, sopimuksen alkamispäivä ja laskutuskausi.  
@@ -37,4 +37,3 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 [Huollon toimittaminen](service-deliver-service.md)  
 [Huoltohallinnon määrittäminen](service-setup-service.md)  
 [Huoltosopimusten ja huoltosopimustarjousten luominen](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
-

@@ -1,6 +1,6 @@
 ---
-title: "Käyttöomaisuuden poisto tai kuoletus| Microsoft Docs"
-description: "Määritä, miten toteutat käyttöomaisuutesi arvonalennukset, poistot tai kuoletukset."
+title: Käyttöomaisuuden poisto tai kuoletus| Microsoft Docs
+description: Määritä, miten toteutat käyttöomaisuutesi arvonalennukset, poistot tai kuoletukset.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 4f11e194d020254a7e5274f2eb08f1719ffa6439
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: cfd4753fc2fd2454e83c5a63e1e0ffe220d2fe17
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795219"
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Käyttöomaisuuden poisto tai kuolettaminen
 Poistoja käytetään jakamaan käyttöomaisuuden, esimerkiksi koneiden ja laitteiden, kustannuksia niiden poistoajalle. Jokaisen käyttöomaisuuserän osalta tulee määrittää, miten sille tehdään poistoja.  
@@ -50,7 +50,7 @@ Indeksointia käytetään muuttamaan arvoja yleisten hintatason muutosten mukaan
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttöom. KP-päiväkirja** ja valitse sitten liittyvä linkki.  
 2. Luo alkuperäisen päiväkirjan rivi ja täytä kentät tarpeen mukaan.  
 3. Valitse **KO:n kirjaustyyppi** -kentässä **Poisto**.  
-4. Valitse **Syötä KO-vastatili** -toiminto. Toinen päiväkirjan rivi luodaan vastatilille, joka on määritetty poiston kirjaamista varten. Lisätietoja on kohdan [Käyttöomaisuuden yleisten tietojen määrittäminen](fa-how-setup-general.md) osassa Käyttöomaisuuden kirjausryhmien määrittäminen.  
+4. Valitse **Syötä KO-vastatili** -toiminto. Toinen päiväkirjan rivi luodaan vastatilille, joka on määritetty poiston kirjaamista varten. Lisätietoja on kohdassa [Käyttöomaisuuden kirjausryhmien määrittäminen](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).
 5. Valitse **Kotisivu**-välilehdessä **Kirjaa**, jolloin päiväkirja kirjataan.  
 
 Jos summien kohdistamiseksi eri osastoille tai projekteille on määritetty käyttöomaisuuden kohdistusavaimia, summat kohdistetaan kirjaamisen aikana. Lisätietoja on kohdassa [Käyttöomaisuuden yleisten tietojen määrittäminen](fa-how-setup-general.md).  
@@ -65,7 +65,7 @@ Jos useat osastot käyttävät käyttöomaisuuserää, jaksottaiset poistot void
 5. Valitse **Kotisivu**-välilehdessä **Kirjaa**, jolloin päiväkirja kirjataan.  
 
 ## <a name="use-duplication-lists-to-prepare-to-post-to-multiple-depreciation-books"></a>Valmistele useiden poistokirjojen kirjaaminen monistusluetteloiden avulla
-Kun täytät poistokirjaan kirjattavat päiväkirjarivit, voit monistaa rivit erilliseen päiväkirjaan, josta ne voidaan kirjata eri poistokirjaan. Lisätietoja on "Tapahtumien kirjaaminen eri poistokirjoihin" -osassa.
+Kun täytät poistokirjaan kirjattavat päiväkirjarivit, voit monistaa rivit erilliseen päiväkirjaan, josta ne voidaan kirjata eri poistokirjaan. Lisätietoja on kohdassa [Tapahtumien kirjaaminen eri poistokirjoihin](fa-how-depreciate-amortize.md#to-post-entries-to-different-depreciation-books).
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poistokirjat** ja valitse sitten liittyvä linkki.  
 2. Avaa poistokirja ja valitse **Osa monistusluettelosta** -valintaruutu.  
@@ -102,4 +102,3 @@ Kopioidut rivit luodaan joko käyttöomaisuuden KP-päiväkirjassa tai käyttöo
 [Käyttöomaisuuden määrittäminen](fa-setup.md)  
 [Rahoitus](finance.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
-

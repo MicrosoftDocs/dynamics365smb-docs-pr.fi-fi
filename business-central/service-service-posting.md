@@ -1,21 +1,21 @@
 ---
 title: Huollon kirjaaminen | Microsoft Docs
-description: "Huollon kirjaustoiminnon avulla voit käsitellä asiakirjoja tehokkaasti ja ylläpitää onnistunutta asiakkaiden huoltomenettelyä. Tämän ominaisuuden avulla ohjelma voi luoda ja päivittää kirjattuja asiakirjoja, luoda tapahtumia huoltoalueella sekä muissa moduuleissa asianmukaisen päivityksen varmistamiseksi."
+description: Huollon kirjaustoiminnon avulla voit käsitellä asiakirjoja tehokkaasti ja ylläpitää onnistunutta asiakkaiden huoltomenettelyä. Tämän ominaisuuden avulla ohjelma voi luoda ja päivittää kirjattuja asiakirjoja, luoda tapahtumia huoltoalueella sekä muissa moduuleissa asianmukaisen päivityksen varmistamiseksi.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: b5dba16cae1e767c867544cfae21e12ac7d0f933
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796131"
 ---
 # <a name="service-posting"></a>Huollon kirjaus
 Huollon kirjaustoiminnon avulla voit käsitellä asiakirjoja tehokkaasti ja ylläpitää onnistunutta asiakkaiden huoltomenettelyä. Tämän ominaisuuden avulla ohjelma voi luoda ja päivittää kirjattuja asiakirjoja, luoda tapahtumia huoltoalueella sekä muissa moduuleissa asianmukaisen päivityksen varmistamiseksi.  
@@ -58,4 +58,3 @@ Seuraavassa ohjeessa käytetään esimerkkinä kirjattua huoltolaskua, mutta sam
 ## <a name="see-also"></a>Katso myös  
 [Huoltotilausten kirjaaminen](service-how-to-post-service-orders.md)   
 [Huoltotilausten luominen](service-how-to-create-service-orders.md)
-

@@ -1,26 +1,30 @@
 ---
 title: Myynti- ja ostoasiakirjojen arkistointi | Microsoft Docs
-description: "Voit arkistoida myynti- ja ostotilauksia, tarjouksia, palautustilauksia ja puitetilauksia. Voit myös käyttää arkistoitua asiakirjaa ja luoda uudelleen asiakirjan, josta ne arkistoitiin."
+description: Voit arkistoida myynti- ja ostotilauksia, tarjouksia, palautustilauksia ja puitetilauksia. Voit myös käyttää arkistoitua asiakirjaa ja luoda uudelleen asiakirjan, josta ne arkistoitiin.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 02/14/2018
 ms.author: sgroespe
+ms.openlocfilehash: 2f05313d30aede255e4ef49065f0189d649ce93c
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 4827e25d97127faf691b96df9868320bb47dee39
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796164"
 ---
 # <a name="archive-documents"></a>Asiakirjojen arkistointi
-Voit arkistoida myynti- ja ostotilauksia, tarjouksia, palautustilauksia ja puitetilauksia. Voit myös käyttää arkistoitua asiakirjaa ja luoda uudelleen asiakirjan, josta ne arkistoitiin.
+Voit arkistoida osto- ja myyntitilauksia, tarjouksia, palautustilauksia ja puitetilauksia esimerkiksi siksi, että haluat tallentaa asiakirjan kopion käytettäväksi myöhemmin uudelleen. Voit arkistoida myynti- tai ostoasiakirjan useita kertoja ja tallentaa kullakin kerralla erilaisen arkistoidun version.
+
+Jos kyse on asiakirjoista, joiden alkuperäinen versio on vielä olemassa eikä sitä ole kirjattu, voit korvata alkuperäisen asiakirjan arkistoidulla versiolla **Palauta**-toiminnolla. Tämä on kätevää, jos asiakirjaan halutaan palauttaa aiempi sisältö.
+
+Jos kyse on arkistoiduista asiakirjoista, joiden alkuperäinen versio on poistettu, voit käyttää sisällön uudelleen ainoastaan kopioimalla tiedot esimerkiksi **Kopioi asiakirja** -toiminnolla.   
 
 ## <a name="to-set-up-automatic-document-archiving"></a>Asiakirjojen automaattisen arkistoinnin määrittäminen  
 Voit määrittää myynti- ja ostotilausten, tarjousten, puitetilausten ja palautustilausten automaattisen arkistoinnin ennen asiakirjojen poistamista.
@@ -42,15 +46,15 @@ Seuraavassa kuvataan, miten myyntitilaus arkistoidaan. Vaiheet ovat samankaltais
 2.  Avaa myyntitilaus, jonka haluat arkistoida.  
 3.  Valitse **Arkistoi asiakirja** -toiminto.
 
-Myyntitilaus on arkistoitu. Voit tarkastella sitä **Arkistoidut myyntitilaukset** -sivulla. Ikkunassa voit myös luoda uudelleen myyntitilauksen, josta se arkistoitiin.
+Myyntitilaus on arkistoitu. Voit tarkastella sitä **Arkistoidut myyntitilaukset** -sivulla.
 
-## <a name="to-recreate-a-sales-order-from-the-archive"></a>Myyntitilauksen luominen uudelleen arkistosta
-Seuraavassa kuvataan, miten myyntitilaus luodaan uudelleen. Vaiheet ovat samankaltaiset kaikille tilauksille, puitetilauksille, palautustilauksille ja tarjouksille.
+## <a name="to-restore-a-non-posted-sales-order-from-the-archive"></a>Kirjaamattomien myyntitilausten palauttaminen arkistosta
+Seuraavaksi käsitellään menetelmä, jolla arkistoidun myyntitilauksen sisältö tuodaan takaisin alkuperäiseen myyntitilaukseen. Tämä on mahdollista vain, jos alkuperäistä tiedostoa ei ole kirjattu. Vaiheet ovat samankaltaiset kaikille tilauksille, puitetilauksille, palautustilauksille ja tarjouksille.
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Arkistoidut myyntitilaukset** ja valitse sitten liittyvä linkki.
-2.  Valitse arkistoitu myyntitilaus, joka luodaan uudelleen, ja valitse sitten **Palauta**-toiminto.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Arkistoidut myyntitilaukset** ja valitse sitten liittyvä linkki.
+2. Valitse palautettava arkistoitu myyntitilaus tai sen versio ja valitse sitten **Palauta**-toiminto.  
 
-Myyntitilaus luodaan ja lisätään **Myyntitilaukset**-sivulle.
+Alkuperäisen myyntitilauksen sisältö korvataan valitun arkistoidun version sisällöllä.
 
 ## <a name="to-delete-archived-sales-orders"></a>Arkistoitujen myyntitilausten poistaminen
 Seuraavassa kuvataan, miten arkistoidut myyntitilaukset poistetaan. Vaiheet ovat samanlaiset muille arkistoiduille myynti- ja ostoasiakirjoille.
@@ -64,4 +68,3 @@ Seuraavassa kuvataan, miten arkistoidut myyntitilaukset poistetaan. Vaiheet ovat
 [Myynti](sales-manage-sales.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

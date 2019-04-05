@@ -1,6 +1,6 @@
 ---
-title: "KET-menetelmän määrittäminen ja projektin edistymisen seuranta| Microsoft Docs"
-description: "Tässä artikkelissa kerrotaan, miten keskeneräisen työn (KET) menetelmä luodaan ja miten KET lasketaan, kun projektien taloudellinen arvo arvioidaan projektin ollessa kesken."
+title: KET-menetelmän määrittäminen ja projektin edistymisen seuranta| Microsoft Docs
+description: Tässä artikkelissa kerrotaan, miten keskeneräisen työn (KET) menetelmä luodaan ja miten KET lasketaan, kun projektien taloudellinen arvo arvioidaan projektin ollessa kesken.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: project management, KPI, work in process, work in progress
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 79e5a1e34fbd6c119be52deec60bba494fdd2671
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796238"
 ---
 # <a name="monitor-job-progress-and-performance"></a>Projektin edistymisen ja suorituskyvyn valvonta
 Projektin edetessä kulutetaan materiaaleja, resursseja ja muita kuluja, ja nämä on kirjattava projektiin. Keskeneräinen työ (KET) on ominaisuus, jonka avulla voit arvioida kirjanpidossa olevien projektien taloudellisen arvon projektin ollessa meneillään. Monissa tapauksissa saatat kirjata projektille kuluja ennen projektin laskuttamista. Kun projektista on kirjattu vain kuluja, rahoituslaskelma on epätarkka. Lisätietoja on kohdassa [Tietoja KET-menetelmistä](projects-understanding-wip.md).
@@ -98,4 +98,3 @@ Kaikki projekteihin liittyvät tapahtumat on tallennettu projektirekistereihin j
 [Osto](purchasing-manage-purchasing.md)         
 [Myynti](sales-manage-sales.md)      
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
-

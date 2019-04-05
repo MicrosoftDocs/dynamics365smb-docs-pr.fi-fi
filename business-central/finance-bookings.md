@@ -1,6 +1,6 @@
 ---
 title: Varausten laskuttaminen Business Central -sovelluksessa | Microsoft Docs
-description: "Lisätietoja Microsoft Bookingsista tehtävästä massalaskutuksesta Business Central -sovelluksessa."
+description: Lisätietoja Microsoft Bookingsista tehtävästä massalaskutuksesta Business Centralissa.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: invoicing, bookings
 ms.date: 01/07/2019
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: a98027c3ef3171491f84197897f93cbed4e288c2
 ms.openlocfilehash: 65542f3855eff3a5ed117bff3247adbf05def6e2
-ms.contentlocale: fi-fi
-ms.lasthandoff: 01/07/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796136"
 ---
 # <a name="bulk-invoicing-for-microsoft-bookings-in-included365finincludesd365finmdmd"></a>Microsoft Bookingsin massalaskutus [!INCLUDE[d365fin](includes/d365fin_md.md)]issa
 Voit käyttää tapaamisten massalaskutusta, jos yrityksesi käyttää Office 365:n Bookings-sovellusta. [!INCLUDE[d365fin](includes/d365fin_md.md)]in **Laskuttamattomat varaukset** -sivulla esitetään luettelo yrityksen valmiista varauksista. Tällä sivulla voit valita nopeasti tapaamiset, jotka haluat laskuttaa ja joille haluat luoda luonnoslaskut tarjotuista palveluista.  
@@ -43,4 +43,3 @@ Bookings-tapaamisten laskuttamisen tuki on yksinkertaisempi kuin myyntitarjouste
 [Myynnin laskutus](sales-how-invoice-sales.md)  
 [Myynnin määrittäminen](sales-setup-sales.md)  
 [Microsoft Bookings](https://products.office.com/en-us/business/scheduling-and-booking-app)  
-

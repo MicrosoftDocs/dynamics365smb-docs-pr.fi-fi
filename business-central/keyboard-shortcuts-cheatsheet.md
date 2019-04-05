@@ -1,6 +1,6 @@
 ---
-title: "Pikanäppäinten pikaopas"
-description: "Suosituimmat pikanäppäimet sisältävä tulostettava viitetaulukko."
+title: Pikanäppäinten pikaopas
+description: Suosituimmat pikanäppäimet sisältävä tulostettava viitetaulukko.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,13 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 3f158d7ed56445d6d2acf2ef8e5e9ab8e7487531
 ms.openlocfilehash: f0a88ccadd5107130150e5cadda3e3e5d1cee4bf
-ms.contentlocale: fi-fi
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795375"
 ---
-
 # <a name="keyboard-shortcuts-quick-reference"></a>Pikanäppäinten pikaopas
 
 ||||  
@@ -27,4 +26,3 @@ ms.lasthandoff: 12/04/2018
 |**Kopioiminen ja liittäminen**|Ctrl+C<br />Ctrl+V<br />F8|Kopioi rivit<br />Liitä rivit<br />Kopioi yläpuolella oleva kenttä nykyiselle riville|
 |**Hakeminen, suodattaminen ja lajitteleminen**|F3<br />Shift+F3<br />Ctrl+Shift+F3<br />Alt+F3<br />Vaihto+Alt+F3<br />Ctrl+Alt+Vaihto+F3|Vaihda hakuun<br />Vaihda suodatinruutuun: kohdistus kenttäsuodattimissa<br />Vaihda suodatinruutuun: kohdistus yhteissummasuodattimissa<br />Suodata valitun solun arvon mukaan<br />Lisää valittuun kenttään suodatin<br />Nollaa suodattimet|
 |**Raportin esikatselu**|Ylös/alas<br />Oikea/vasen<br />Ctrl+Home/End<br />Sivu ylös/alas|Vieritä sivua ylös ja alas<br />Vieritä oikealle/vasemmalle <br />Siirry ensimmäiselle/viimeiselle sivulle<br />Siirry edelliselle/seuraavalle sivulle|
-

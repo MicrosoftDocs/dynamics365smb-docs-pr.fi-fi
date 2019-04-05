@@ -1,8 +1,8 @@
 ---
-title: "Asiakirjojen ja päiväkirjojen kirjaamisen yleiskatsaus | Microsoft Docs"
-description: "Tässä ohjeaiheessa käsitellään kirjaustoimintoja ja tapoja, joilla voit kirjata asiakirjat ja päiväkirjat."
+title: Asiakirjojen ja päiväkirjojen kirjaamisen yleiskatsaus | Microsoft Docs
+description: Tässä ohjeaiheessa käsitellään kirjaustoimintoja ja tapoja, joilla voit kirjata asiakirjat ja päiväkirjat.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2018
 ms.author: solsen
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 139cc2d43dbebb3c6c2f386b2977ba67bbe438d6
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795079"
 ---
 # <a name="post-documents-and-journals"></a>Asiakirjojen ja päiväkirjojen kirjaaminen
 Kirjaaminen on kirjanpitotoiminto, jolla tallennetaan liiketoimintatapahtumia erilaisiin yrityksen päiväkirjoihin.
@@ -36,5 +36,4 @@ Seuraavassa taulukossa esitellään liittyvät tehtävät ja linkit tehtäviä k
 ## <a name="see-also"></a>Katso myös
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-
 

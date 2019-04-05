@@ -1,21 +1,21 @@
 ---
 title: Tietoja vakiokustannusten laskennasta | Microsoft Docs
-description: "Vakiokustannusjärjestelmässä varastoyksikkö määritetään kohtuullisten aiempien tai odotettujen kustannusten perusteella. Tällöin aiempien ja arvioitujen kustannusten tarkastelut muodostavat vakiokustannusten perustan."
+description: Vakiokustannusjärjestelmässä varastoyksikkö määritetään kohtuullisten aiempien tai odotettujen kustannusten perusteella. Tällöin aiempien ja arvioitujen kustannusten tarkastelut muodostavat vakiokustannusten perustan.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: d35fdeae364a113fa1abb1d5828182f761331cee
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: be73736f4c56ea78ef2bb2b736b76db0569312ec
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795556"
 ---
 # <a name="about-calculating-standard-cost"></a>Tietoja standardikustannuksen laskemisesta
 Useat tuotantoyritykset valitsevat vakiokustannusten perustaksi arvostuksen. Tämä pätee myös yrityksiin, jotka tekevät vain kevyitä tuotantotöitä, kuten kokoonpanoa ja varustelua. Vakiokustannusjärjestelmässä varastoyksikkö määritetään kohtuullisten aiempien tai odotettujen kustannusten perusteella. Tällöin aiempien ja arvioitujen kustannusten tarkastelut muodostavat vakiokustannusten perustan. Nämä kustannukset jäädytetään, kunnes niiden muutosta koskeva päätös on tehty. Tuotteen todelliset tuotantokustannukset eroavat väistämättä arvioiduista vakiokustannuksista. Todellisia kustannuksia vertaillaan tietyn nimikkeen vakiokustannuksiin johdon hallintotarkoituksia varten, ja *erot* tunnistetaan ja analysoidaan.  
@@ -96,7 +96,7 @@ Päivitä tai laske kokoonpanon nimikkeiden standardikustannukset käyttäen fun
 Vakiokustannusten päivittäminen tai laskeminen koostuu yleensä seuraavista tehtävistä:  
 
 1.  Päivitetään kustannuksia osa- ja kapasiteettitasolla. Lisätietoja on **Ehdota nimikkeen vakiokust.**- ja **Ehdota kapasiteetin vakiokustannusta** -eräajoissa.  
-2.  Nimikkeiden kokoonpanon ja tuotannon kokonaiskustannusten laskeminen konsolidoimalla ja vyöryttämällä osa- ja kapasiteettikustannukset. Lisätietoja on ohjeaiheen [Tuoterakenteen käyttäminen](inventory-how-work-BOMs.md) kohdassa Kokoonpanon nimikkeen vakiokustannusten laskeminen.  
+2.  Nimikkeiden kokoonpanon ja tuotannon kokonaiskustannusten laskeminen konsolidoimalla ja vyöryttämällä osa- ja kapasiteettikustannukset. Lisätietoja on kohdassa [Kokoonpanon nimikkeen vakiokustannusten laskeminen](inventory-how-work-boms.md#to-calculate-the-standard-cost-of-an-assembly-item).  
 3.  Otetaan edellisten eräajojen aikana syötetyt vakiokustannukset käyttöön. Vakiokustannukset eivät tule voimaan, ennen kuin ne on otettu käyttöön. Lisätietoja on **Ota käyttöön vakiokustannusten muutokset** -eräajossa.  
 4.  Otetaan muutokset käyttöön nimikkeen kortin **Yksikkökustannus**-kentän päivittämistä ja varaston uudelleenarvostuksen suorittamista varten. Lisätietoja on kohdassa [Varaston uudelleenarvostus](inventory-how-revalue-inventory.md).
 
@@ -105,4 +105,3 @@ Vakiokustannusten päivittäminen tai laskeminen koostuu yleensä seuraavista te
  [Tuoterakenteen käyttäminen](inventory-how-work-BOMs.md)   
  [Vakiokustannusten päivittäminen](finance-how-to-update-standard-costs.md)   
  [Rakennetiedot: Varaston arvostus](design-details-inventory-costing.md)
-

@@ -1,23 +1,23 @@
 ---
-title: "Yrityksen konfiguroinnin määrittäminen | Microsoft Docs"
-description: "Toteutusprosessi alkaa Business Central -ratkaisun edellytyksistä. Yhdistä kaikki tämä tieto konfigurointipakettien tietoihin."
+title: Yrityksen konfiguroinnin määrittäminen | Microsoft Docs
+description: Toteutusprosessi alkaa Business Central -ratkaisun edellytyksistä. Yhdistä kaikki tämä tieto konfigurointipakettien tietoihin.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: c96d0c5f188b3fb0df0c5d4578a0bdeed7fc7599
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 518acdc1733a526f1b0b4c5caa3a7644d762b72c
-ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795813"
 ---
 # <a name="set-up-company-configuration"></a>Määritä yrityksen konfigurointi
 Toteutus alkaa Microsoft-kumppanin kanssa. Kumppani on vastuussa määritystietojen tarkistamisesta ja helposti asiakkaan käytettävissä olevan paketin luomisesta. Ennen kuin luot uuden yhtiön, suunnittele, miten se määritetään. Ota huomioon perusasennuksen tiedot ja tietotyypit, joita [!INCLUDE[d365fin](includes/d365fin_md.md)] -ratkaisusi edellyttää. Yhdistä kaikki tämä tieto määrityspakettien tietoihin.
@@ -40,4 +40,3 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 ## <a name="see-also"></a>Katso myös  
 [Yrityksen määrittäminen RapidStart Services -palvelun avulla](admin-set-up-a-company-with-rapidstart.md)  
 [Hallinta](admin-setup-and-administration.md)
-

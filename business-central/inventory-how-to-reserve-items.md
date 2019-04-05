@@ -1,23 +1,23 @@
 ---
 title: Nimikkeiden varaaminen | Microsoft Docs
-description: "Voit varata nimikkeitä myyntitilauksiin, ostotilauksiin ja tuotantotilauksiin. Voit varata nimikkeitä varastossa tai avoimien asiakirjarivien saapuvissa kohteissa."
+description: Voit varata nimikkeitä myyntitilauksiin, ostotilauksiin ja tuotantotilauksiin. Voit varata nimikkeitä varastossa tai avoimien asiakirjarivien saapuvissa kohteissa.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 531489dddc80530b1d2c33a828388a90784db6c0
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: aa7e25f8e1d837dde55ac05812306634c4ac37bf
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796119"
 ---
 # <a name="reserve-items"></a>Nimikkeiden varaaminen
 Voit varata nimikkeitä myyntitilauksiin, ostotilauksiin, huoltotilauksiin, kokoonpanotilauksiin ja tuotantotilauksiin. Voit varata nimikkeitä varastossa tai avoimien asiakirja- tai päiväkirjarivien saapuvissa kohteissa. Käsittely tapahtuu **Varaus**-sivulla.
@@ -38,7 +38,7 @@ Seuraavaksi käsitellään, miten nimikkeitä varataan myyntitilauksesta. Samat 
     |**Peruuta varaus nykyiseltä riviltä**|Nimikkeiden varauksen peruuttaminen asiakirjasta valitsemaltasi riviltä.|
 
 > [!NOTE]  
->  Jos myyntitilauksella on olemassa nimikkeen seurantarivejä, varausjärjestelmä ohjaa erikoistyövaiheiden läpi. Lisätietoja on kohdassa Tietyn erä- tai sarjanumeron varaaminen.  
+>  Jos myyntitilauksella on olemassa nimikkeen seurantarivejä, varausjärjestelmä ohjaa erikoistyövaiheiden läpi. Lisätietoja on kohdassa [Tietyn erä- tai sarjanumeron varaaminen](inventory-how-to-reserve-items.md#to-reserve-a-specific-serial-or-lot-number).  
 
 ## <a name="to-reserve-an-item-for-a-production-order-line"></a>Nimikkeiden varaaminen tuotantotilauksen rivejä varten  
 Tuotantotilauksille voi varata nimikkeitä. Tuotantotilauksen rivit eli päänimike ja tuotantotilauksen komponentit on erotettava toisistaan.
@@ -101,4 +101,3 @@ Seuraava toimenpide perustuu myyntitilaukseen.
 [Rakennetiedot – nimikkeen seuranta ja varaukset](design-details-item-tracking-and-reservations.md)  
 [Sarja- ja eränumeroiden käsitteleminen](inventory-how-work-item-tracking.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

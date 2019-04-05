@@ -1,7 +1,7 @@
 ---
-title: "Päivämäärien ja aikojen syöttäminen Business Central -sovelluksessa | Microsoft Docs"
-description: "Tietoja päivämäärien ja aikojen syöttämisestä sekä erilaisista tuottavuutta lisäävistä vihjeistä, jotka liittyvät esimerkiksi pikakirjoitukseen, lausekkeisiin ja alueisiin. Suodata luettelot tai raportit tiettyyn päivämäärään tai tiettyihin ajanjaksoihin."
-documentationcenter: 
+title: Päivämäärien ja aikojen syöttäminen Business Central -sovelluksessa | Microsoft Docs
+description: Tietoja päivämäärien ja aikojen syöttämisestä sekä erilaisista tuottavuutta lisäävistä vihjeistä, jotka liittyvät esimerkiksi pikakirjoitukseen, lausekkeisiin ja alueisiin. Suodata luettelot tai raportit tiettyyn päivämäärään tai tiettyihin ajanjaksoihin.
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,14 +11,13 @@ ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 54466c381bbeb3653a239920c00dd6f45536d9e3
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795551"
 ---
-
 # <a name="working-with-calendar-dates-and-times"></a>Kalenterin päivämäärien ja aikojen käsitteleminen
 
 [!INCLUDE[d365fin](includes/d365fin_long_md.md)] sisältää useita tapoja päivämäärien ja aikojen syöttämiseen sekä tehokkaita toimintoja, jotka nopeuttavat tietojen syöttämistä ja helpottavat monimutkaisten kalenterilausekkeiden kirjoittamista. Sovelluksessa on useita kohtia, joissa voi syöttää päivämääriä ja aikoja kenttiin. Esimerkiksi myyntitilauksessa voi määrittää lähetyspäivämäärän. Voit syöttää päivämäärät ja ajat luetteloiden tai raportin tietojen suodattamisen yhteydessä ja etsiä vain tiedot, joista olet kiinnostunut.
@@ -372,4 +371,3 @@ Jos mittayksikkö on esimerkiksi Tunnit, numero `5` muunnetaan 5 tunniksi.
 [[!INCLUDE[d365fin](includes/d365fin_long_md.md)]in käyttäminen](ui-work-product.md)  
 [Ostojen päivämäärälaskenta](purchasing-date-calculation-for-purchases.md)  
 [Ehtojen antaminen suodattimiin](ui-enter-criteria-filters.md)  
-

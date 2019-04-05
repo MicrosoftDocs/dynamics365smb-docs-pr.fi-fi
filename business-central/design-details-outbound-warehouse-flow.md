@@ -1,23 +1,23 @@
 ---
-title: "Rakennetiedot – Lähtevän fyysisen varastoinnin virta | Microsoft Docs"
-description: "Varaston lähtevä virta alkaa kysynnällä liittyvistä lähdeasiakirjoista tuoda nimikkeet varastosijainnista, joko lähetettäviksi ulkoiselle osapuolelle tai yrityksen toiseen sijaintiin. Varastotoiminnot suoritetaan varastoalueelta erilaisilla monimutkaisuustasoilla nimikkeiden siirtämiseksi ulos toimituslaitureille."
+title: Rakennetiedot – Lähtevän fyysisen varastoinnin virta | Microsoft Docs
+description: Varaston lähtevä virta alkaa kysynnällä liittyvistä lähdeasiakirjoista tuoda nimikkeet varastosijainnista, joko lähetettäviksi ulkoiselle osapuolelle tai yrityksen toiseen sijaintiin. Varastotoiminnot suoritetaan varastoalueelta erilaisilla monimutkaisuustasoilla nimikkeiden siirtämiseksi ulos toimituslaitureille.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: d2ea80352352cfac83ebce97fee9d4f312e00348
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795339"
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Rakennetiedot: lähtevän fyysisen varastoinnin virta
 Fyysisen varaston lähtevä virta alkaa liittyvien lähdeasiakirjojen pyynnöllä tuoda nimikkeet varastosijainnista lähetettäviksi joko ulkoiselle osapuolelle tai yrityksen toiseen sijaintiin. Varastotoiminnot suoritetaan varastoalueelta erilaisilla monimutkaisuustasoilla nimikkeiden siirtämiseksi ulos toimituslaitureille.  
@@ -118,4 +118,3 @@ Lisäksi olemassa on seuraavat sisäiset lähdeasiakirjat, jotka toimivat kuten 
 
 ## <a name="see-also"></a>Katso myös  
  [Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)
-

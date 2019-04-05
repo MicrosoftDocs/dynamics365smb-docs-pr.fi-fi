@@ -1,23 +1,23 @@
 ---
-title: "Uusien yritysten määrittäminen | Microsoft Docs"
-description: "Voit määrittää ja mukauttaa uuden yrityksen, joka on luotu. Tarkentaaksesi käyttöönottoa jatkat kokoonpanon suorittamista kolmessa vaiheessa."
+title: Uusien yritysten määrittäminen | Microsoft Docs
+description: Voit määrittää ja mukauttaa uuden yrityksen, joka on luotu. Tarkentaaksesi käyttöönottoa jatkat kokoonpanon suorittamista kolmessa vaiheessa.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: b1c953b0a5e1247115b26a8984a632478f80cdda
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: a52a95bf3fc96b89e664041e3d2b289b6042c046
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796416"
 ---
 # <a name="configure-new-companies"></a>Uusien yritysten määrittäminen
 Uusi yritys määritetään ratkaisun käyttöönottoa varten yleensä kolmen vaiheen avulla. Ensimmäisessä vaiheessa tuodaan määrityspaketti, joka on määritystiedot sisältävä .rapidstart-tiedosto. Toisessa vaiheessa muokataan määritystietoja ja käytetään niitä uudessa yrityksessä. Viimeisessä vaiheessa mahdolliset virheet tarkistetaan ja korjataan.  
@@ -71,10 +71,9 @@ Ohjelmassa on tietyn tyyppisiä virheitä, jotka voivat ilmetä, kun tietoja lis
     > [!NOTE]  
     >  Jos tuota saman paketin uudelleen, kaikki aiemmin tekemäsi muutokset voidaan korvata. Tämän vuoksi haluat ehkä lisätä uusia taulukoita uuteen pakettiin ja tuoda sen.  
 
-7. Ota tiedot käyttöön tietokannassa Pakettitietojen muokkaaminen ja käyttäminen -osan ohjeiden mukaan.
+7. Ota tiedot käyttöön tietokannassa kohdassa [Pakettitietojen muokkaaminen ja käyttäminen](admin-how-to-configure-new-companies.md#to-modify-and-apply-package-data) ohjeiden mukaan.
 
 ## <a name="see-also"></a>Katso myös  
 [Kokoonpanojen käyttäminen uusissa yrityksissä](admin-apply-configuration-to-new-companies.md)  
 [Yrityksen määrittäminen RapidStart Services -palvelun avulla](admin-set-up-a-company-with-rapidstart.md)  
 [Hallinta](admin-setup-and-administration.md)
-

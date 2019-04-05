@@ -1,6 +1,6 @@
 ---
-title: "Kerro, mitä haluat tehdä -toimintoon liittyviä usein kysyttyjä kysymyksiä | Microsoft Docs"
-description: "Tässä artikkelissa on vastauksia Kerro, mitä haluat tehdä -toimintoon liittyviin usein kysyttyihin kysymyksiin, joita kumppanit ja asiakkaat esittävät."
+title: Kerro, mitä haluat tehdä -toimintoon liittyviä usein kysyttyjä kysymyksiä | Microsoft Docs
+description: Tässä artikkelissa on vastauksia Kerro, mitä haluat tehdä -toimintoon liittyviin usein kysyttyihin kysymyksiin, joita kumppanit ja asiakkaat esittävät.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: find
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 74cd6b136cf5785237640b124472cd26aeff97de
 ms.openlocfilehash: 70ab7fb07cda5ce9d86b3f39dd14321829e85a52
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/29/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795982"
 ---
 # <a name="tell-me-faq"></a>Kerro, mitä haluat tehdä -toiminnon usein kysytyt kysymykset
 Tässä ohjeaiheessa vastataan kysymyksiin, joita edistyneet käyttäjät usein esittävät uudesta Kerro, mitä haluat tehdä -toiminnosta. Se korvasi aiemman sivun hakutoiminnon, jonka nimi on **Etsi sivut ja raportit**.
@@ -43,4 +43,3 @@ Tämän ohjeen artikkelit näkyvät **Omat asetukset** -kohdassa määritetyllä
 
 ## <a name="see-also"></a>Katso myös  
 [Toimintojen ja tietojen etsiminen](ui-search.md)
-

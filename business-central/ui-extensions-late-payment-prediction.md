@@ -1,6 +1,6 @@
 ---
-title: "Myyntiasiakirjojen myöhästyvien maksujen ennustaminen | Microsoft Docs"
-description: "Käytä ennakoivaa malliamme, kun haluat ennustaa, suoritetaanko laskun maksu ajoissa."
+title: Myyntiasiakirjojen myöhästyvien maksujen ennustaminen | Microsoft Docs
+description: Käytä ennakoivaa malliamme, kun haluat ennustaa, suoritetaanko laskun maksu ajoissa.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 4e47858bf1f7253f8fb8951fe8ea3cb611138852
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796094"
 ---
 # <a name="the-late-payment-prediction-extension"></a>Myöhästyneen maksun ennusteen laajennus  
 Tehokas myyntisaamisten hallinta on tärkeää yrityksen taloudellisen tilanteen yleiskuvan kannalta. Myöhästyneen maksun ennusteen laajennus voi auttaa avointen myyntisaamisten vähentämisessä ja perintästrategian tarkentamisessa ennustamalla, maksetaanko myyntilaskut ajoissa. Jos maksun ennustetaan olevan myöhässä, voit esimerkiksi muuttaa asiakkaan maksuehtoja tai maksutapaa.
@@ -72,4 +72,3 @@ Jos luot oman mallin Azure Machine Learning Studio -sovelluksessa ilman [!INCLUD
 [Azure Machine Learning Studio -dokumentaatio](https://go.microsoft.com/fwlink/?linkid=861765)  
 [Business Central -sovelluksen mukauttaminen laajennusten avulla](ui-extensions.md)  
 [Tervetuloa [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]iin!](index.md)  
-

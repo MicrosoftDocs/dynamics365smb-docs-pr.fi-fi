@@ -1,23 +1,23 @@
 ---
-title: "Rakennetiedot - koodiesimerkkejä muuttuneista kuvioista muutoksissa | Microsoft Docs"
-description: "Koodiesimerkit näyttävät dimensiokoodin muokkauksen muuttuneet mallit ja siirron viiteen erilaiseen skenaarioon. Se vertaa koodiesimerkkejä aiemmissa versioissa koodiesimerkkeihin Business Centralissa."
+title: Rakennetiedot - koodiesimerkkejä muuttuneista kuvioista muutoksissa | Microsoft Docs
+description: Koodiesimerkit näyttävät dimensiokoodin muokkauksen muuttuneet mallit ja siirron viiteen erilaiseen skenaarioon. Se vertaa koodiesimerkkejä aiemmissa versioissa koodiesimerkkeihin Business Centralissa.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 3a5806711b693dadbbaf033ffd769c5eabebe8de
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: ded6baf8247bfbc34063f5595d42ebaf6bb300d8
-ms.openlocfilehash: a20a40e0f2d7198ce8af71298093893f16df5299
-ms.contentlocale: fi-fi
-ms.lasthandoff: 08/13/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795458"
 ---
 # <a name="design-details-code-examples-of-changed-patterns-in-modifications"></a>Rakennetiedot: koodiesimerkkejä muuttuneista kuvioista muutoksissa
 Tämän ohjeaiheen koodiesimerkit näyttävät dimensiokoodin muokkauksen muuttuneet mallit ja siirron viiteen erilaiseen skenaarioon. Se vertaa koodiesimerkkejä aiemmissa versioissa koodiesimerkkeihin Business Centralissa.

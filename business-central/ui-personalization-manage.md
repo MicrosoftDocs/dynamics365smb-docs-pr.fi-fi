@@ -1,8 +1,8 @@
 ---
-title: "Mukautusten hallinta Business Centralin järjestelmänvalvojana | Microsoft Docs"
-description: "Lisätietoja käyttöliittymän mukauttamisesta omaan työskentelytapaan sopivaksi."
+title: Mukautusten hallinta Business Centralin järjestelmänvalvojana | Microsoft Docs
+description: Lisätietoja käyttöliittymän mukauttamisesta omaan työskentelytapaan sopivaksi.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,19 +12,19 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: ad3b4cf3be7031ab1c7c4699bed6020fe09bd2d1
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 15d7e4aac7989f95f7becc8aa8ed96381a7dc2de
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795710"
 ---
 # <a name="managing-personalization-as-an-administrator"></a>Mukautuksen hallinta järjestelmänvalvojana
 <!--NAV in the Web client--> Käyttäjät voivat mukauttaa työtilansa omien mieltymystensä mukaiseksi. Järjestelmänvalvojana voit ohjata ja hallita mukauttamista poistamalla sivujen mukautusmahdollisuus käyttäjiltä ja poistamalla käyttäjien mahdollisesti tekemät mukautukset.
 
 ## <a name="disable-personalization-for-a-profile"></a>Profiilin mukauttamisen poistaminen
 Voit estää sivujen mukauttamisen kaikilta tiettyyn profiiliin kuuluvilta käyttäjiltä.
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Profiilit** ja valitse sitten liittyvä linkki.
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Profiililuettelo** ja valitse sitten liittyvä linkki.
 2.  Valitse luettelossa muokattava profiili.
 3. Valitse **Poista mukauttaminen käytöstä** -valintaruutuja valitse sitten **OK**.
 
@@ -66,4 +66,3 @@ Voit tyhjentää **Käyttäjän mukautuskortti** -sivulla tietyn käyttäjän ka
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Perusasetusten muuttaminen](ui-change-basic-settings.md)  
 [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md)  
-

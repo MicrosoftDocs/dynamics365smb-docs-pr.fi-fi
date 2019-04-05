@@ -1,8 +1,8 @@
 ---
-title: "PayPal Payments Standard -laajennuksen käyttäminen | Microsoft Docs"
-description: "Tässä ohjeaiheessa kerrotaan, miten laajennusten avulla asiakkaille voidaan antaa mahdollisuus suorittaa PayPal-maksuja."
+title: PayPal Payments Standard -laajennuksen käyttäminen | Microsoft Docs
+description: Tässä ohjeaiheessa kerrotaan, miten laajennusten avulla asiakkaille voidaan antaa mahdollisuus suorittaa PayPal-maksuja.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 6aa3eec4afc365789b1fd85d64781593156ba068
-ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795907"
 ---
 # <a name="the-paypal-payments-standard-extension"></a>PayPal Payments Standard -laajennus
 Asiakkaat vaativat jatkuvasti yhä korkeatasoisempaa asiakaspalvelua sekä tuotteen laadun että toimitus- ja maksuvaihtoehtojen osalta. Voit parantaa asiakaspalvelun tasoa PayPal Payments Standard -palvelun avulla.
@@ -40,4 +40,3 @@ Lisätietoja on kohdassa [Asiakkaan maksujen ottaminen käyttöön PayPalin kaut
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]in mukauttaminen laajennusten avulla](ui-extensions.md)  
 [Myynnin määrittäminen](sales-setup-sales.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

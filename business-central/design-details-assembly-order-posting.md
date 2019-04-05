@@ -1,23 +1,23 @@
 ---
-title: "Rakennetiedot – Kokoonpanotilauksen kirjaus | Microsoft Docs"
-description: "Kokoonpanotilauksen kirjaus perustuu samoihin periaatteisiin kuin myyntitilausten ja tuotannon kulutuksen / tuotoksen kirjauksen vastaavat toiminnot. Periaatteet on kuitenkin yhdistetty niin, että kokoonpanotilauksilla on omat kirjauksen käyttöliittymänsä, kuten myyntitilauksille on omansa ja todellinen tapahtuman kirjaus tapahtuu taustalla suorana nimikkeen ja resurssipäiväkirjan kirjauksena, kuten tuotannon kulutukselle, tuotokselle ja kapasiteetille."
+title: Rakennetiedot – Kokoonpanotilauksen kirjaus | Microsoft Docs
+description: Kokoonpanotilauksen kirjaus perustuu samoihin periaatteisiin kuin myyntitilausten ja tuotannon kulutuksen / tuotoksen kirjauksen vastaavat toiminnot. Periaatteet on kuitenkin yhdistetty niin, että kokoonpanotilauksilla on omat kirjauksen käyttöliittymänsä, kuten myyntitilauksille on omansa ja todellinen tapahtuman kirjaus tapahtuu taustalla suorana nimikkeen ja resurssipäiväkirjan kirjauksena, kuten tuotannon kulutukselle, tuotokselle ja kapasiteetille.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: a3c8910ad937ec4283ce0803f787a4fe6aed071d
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795478"
 ---
 # <a name="design-details-assembly-order-posting"></a>Rakennetiedot: kokoonpanotilauksen kirjaus
 Kokoonpanotilauksen kirjaus perustuu samoihin periaatteisiin kuin myyntitilausten ja tuotannon kulutuksen tai tuotoksen kirjauksen vastaavat toiminnot. Periaatteet on kuitenkin yhdistetty niin, että kokoonpanotilauksilla on omat kirjauksen käyttöliittymänsä, kuten myyntitilauksille on omansa ja todellinen tapahtuman kirjaus tapahtuu taustalla suorana nimikkeen ja resurssipäiväkirjan kirjauksena, kuten tuotannon kulutukselle, tuotokselle ja kapasiteetille.  
@@ -118,4 +118,3 @@ Niiden myyntitilausrivien kirjaaminen, joilla osa on varastomäärä ja osa koko
  [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)  
  [Rahoitus](finance.md)  
  [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
-

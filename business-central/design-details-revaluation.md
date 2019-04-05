@@ -1,23 +1,23 @@
 ---
-title: "Rakennetiedot – Uudelleenarvostus | Microsoft Docs"
-description: "Voit uudelleenarvostaa varaston sen arvostuksen perustan perusteella, joka vastaa varaston arvoa parhaiten. Voit myös päivätä uudelleenarvostuksen vanhemmaksi, jolloin myytyjen tuotteiden kustannukset päivitetään oikein nimikkeille, jotka on jo myyty. Vakio-arvostusmenetelmää käyttävät nimikkeet, joita ei ole laskutettu kokonaan, voidaan myös arvostaa uudelleen."
+title: Rakennetiedot – Uudelleenarvostus | Microsoft Docs
+description: Voit uudelleenarvostaa varaston sen arvostuksen perustan perusteella, joka vastaa varaston arvoa parhaiten. Voit myös päivätä uudelleenarvostuksen vanhemmaksi, jolloin myytyjen tuotteiden kustannukset päivitetään oikein nimikkeille, jotka on jo myyty. Vakio-arvostusmenetelmää käyttävät nimikkeet, joita ei ole laskutettu kokonaan, voidaan myös arvostaa uudelleen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: e7afa7b3a13db29207237cd4980ba7f061b38f9e
-ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795128"
 ---
 # <a name="design-details-revaluation"></a>Rakennetiedot: uudelleenarvostus
 Voit uudelleenarvostaa varaston sen arvostusperustan perusteella, joka vastaa varaston arvoa parhaiten. Voit myös päivätä uudelleenarvostuksen vanhemmaksi, jolloin myytyjen tuotteiden kustannukset päivitetään oikein nimikkeille, jotka on jo myyty. Vakio-arvostusmenetelmää käyttävät nimikkeet, joita ei ole laskutettu kokonaan, voidaan myös arvostaa uudelleen.  
@@ -184,4 +184,3 @@ KET-varasto voidaan uudelleenarvioida niin kauan kuin uudelleenarvostuksen päiv
  [Rakennetiedot: Varaston arvostus](design-details-inventory-valuation.md) [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)  
  [Rahoitus](finance.md)  
  [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

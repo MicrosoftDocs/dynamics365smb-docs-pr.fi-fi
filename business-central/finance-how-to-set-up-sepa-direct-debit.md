@@ -1,22 +1,22 @@
 ---
-title: "SEPA-suoraveloituksen määrittäminen | Microsoft Docs"
-description: "Tietoja SEPA-suoraveloituksen määrittämisestä Business Central -sovelluksessa."
+title: SEPA-suoraveloituksen määrittäminen | Microsoft Docs
+description: Tietoja SEPA-suoraveloituksen määrittämisestä Business Central -sovelluksessa.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: finance-collect-payments-with-sepa-direct-debit
+ms.openlocfilehash: 9e2ef9ec3b454e5a9bb5097ba3ed30c5756d2352
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: c5d14102299140fd93ec586d0ef6165d1408505d
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795225"
 ---
 # <a name="set-up-sepa-direct-debit"></a>SEPA-suoraveloituksen määrittäminen
 **Suoraveloitusperinnät**-sivulla voi viedä sähköiseen pankkiin ohjeita, jotka ohjaavat pankkiasi suorittamaan suoraveloituksen asiakkaan pankkitililtä omalle pankkitilille. [!INCLUDE[d365fin](includes/d365fin_md.md)] tukee SEPA-suoraveloitusmuotoa, mutta maassasi tai alueellasi saattaa olla käytettävissä muita sähköisten maksujen muotoja.  
@@ -80,4 +80,3 @@ Ennen kuin voit käsitellä asiakkaan maksuja sähköisesti viemällä suoravelo
 [Tiedonsiirtomääritysten määrittäminen](across-how-to-set-up-data-exchange-definitions.md)
 [Toistuvien myynti- ja ostorivien luominen](sales-how-work-standard-lines.md)
 [Sähköinen tiedonsiirto](across-data-exchange.md)
-

@@ -1,7 +1,7 @@
 ---
-title: "Kuvan analysointilaajennuksen käyttäminen | Microsoft Docs"
-description: "Voit analysoida tällä laajennuksella kontaktihenkilöiden ja nimikkeiden kuvia ja etsiä määritteitä, mikä nopeuttaa niiden määrittämistä Business Central -sovelluksessa."
-documentationcenter: 
+title: Kuvan analysointilaajennuksen käyttäminen | Microsoft Docs
+description: Voit analysoida tällä laajennuksella kontaktihenkilöiden ja nimikkeiden kuvia ja etsiä määritteitä, mikä nopeuttaa niiden määrittämistä Business Central -sovelluksessa.
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,14 +11,13 @@ ms.workload: na
 ms.search.keywords: API, extension, Cognitive Services, image, computer vision, attribute, tag, recognition
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 803d755a7caa470b97bf606f0f8916d0135d047e
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796089"
 ---
-
 # <a name="the-image-analyzer-extension"></a>Kuvan analysointilaajennus
 Kuvan analysointilaajennus havaitsee Microsoftin kognitiivisten palveluiden konenäön ohjelmointirajapinnan tehokkaalla kuva-analytiikalla määritteet nimikkeille ja kontaktihenkilöille tuoduissa kuvissa, mikä helpottaa kuvien tarkastelua ja määrittämistä. Nimikkeiden määritteet voivat ilmaista esimerkiksi, onko kyse pöydästä vai autosta ja onko se sininen vai punainen. Kontaktihenkilöiden määritteet voivat ilmaista sukupuolen tai iän.
 
@@ -95,4 +94,3 @@ Voit tarkistaa, kuinka monta analyysia olet kuluvalla jaksolla tehnyt ja kuinka 
 [Nimikkeen määritteiden käsitteleminen](inventory-how-work-item-attributes.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]in mukauttaminen laajennusten avulla](ui-extensions.md)  
 [Käytön aloittaminen](product-get-started.md)  
-

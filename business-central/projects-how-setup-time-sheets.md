@@ -1,8 +1,8 @@
 ---
-title: "Aikaraporttien ja niiden hyväksymisen määrittäminen| Microsoft Docs"
-description: "Aikaraportit määritetään seuraamaan projekteihin käytettyä aikaa ja resurssien käyttöä, mikä auttaa projektinhallinnan, henkilöstön ja kapasiteetin suhteen."
+title: Aikaraporttien ja niiden hyväksymisen määrittäminen| Microsoft Docs
+description: Aikaraportit määritetään seuraamaan projekteihin käytettyä aikaa ja resurssien käyttöä, mikä auttaa projektinhallinnan, henkilöstön ja kapasiteetin suhteen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 057497cfee69ed91c5d37828ea290749585f93d8
-ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795480"
 ---
 # <a name="set-up-time-sheets"></a>Aikaraporttien määrittäminen
 [!INCLUDE[d365fin](includes/d365fin_md.md)]in aikaraportit käsittelevät aikarekisteröintiä viikoittain seitsemän päivän välein. Voit käyttää niitä projekteissa käytettävän ajan seuraamiseen ja yksinkertaisen resurssin aikarekisteröinnin kirjaamiseen. Ennen kuin voit käyttää aikaraportteja, on määritettävä tavat niiden määrittämiseen ja asetuksiin.
@@ -64,4 +64,3 @@ Kun olet määrittänyt aikaraportit, voit luoda resursseille aikaraportit, mä�
 [Osto](purchasing-manage-purchasing.md)         
 [Myynti](sales-manage-sales.md)      
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
-

@@ -1,23 +1,23 @@
 ---
 title: Nimikkeiden poiminta | Microsoft Docs
-description: "Jos varastotoimintona on nimikkeiden poimiminen ennen nimikkeiden toimitusta tai kulutusta, se voidaan suorittaa eri tavoilla sen mukaan, miten varastoinninhallinnan ominaisuudet on määritetty. [Määritysten](../configure-warehouse-processes.md) monimutkaisuus voi vaihdella: ominaisuusluettelossa ei ole varastotoimintoja lainkaan, tilauskohtaisessa fyysisen varastoinnin perusmäärityksissä käsittelytoimintoja on vain muutama toiminto, kun laajennetuissa varastomäärityksissä kaikki varastotoiminnot tehdään ohjatun työnkulun mukaisesti."
+description: 'Jos varastotoimintona on nimikkeiden poimiminen ennen nimikkeiden toimitusta tai kulutusta, se voidaan suorittaa eri tavoilla sen mukaan, miten varastoinninhallinnan ominaisuudet on määritetty. [Määritysten](../configure-warehouse-processes.md) monimutkaisuus voi vaihdella: ominaisuusluettelossa ei ole varastotoimintoja lainkaan, tilauskohtaisessa fyysisen varastoinnin perusmäärityksissä käsittelytoimintoja on vain muutama toiminto, kun laajennetuissa varastomäärityksissä kaikki varastotoiminnot tehdään ohjatun työnkulun mukaisesti.'
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/22/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 5d6d2d9527e81a92987f6b8fcdbe8e087c3c537a
 ms.openlocfilehash: 6e9c21dcec2932bcc2b93648289699d6d062bf78
-ms.contentlocale: fi-fi
-ms.lasthandoff: 01/22/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796329"
 ---
 # <a name="pick-items"></a>Nimikkeiden poiminta
 Jos varastotoimintona on nimikkeiden poimiminen ennen nimikkeiden toimitusta tai kulutusta, se voidaan suorittaa eri tavoilla sen mukaan, miten varastoinninhallinnan ominaisuudet on määritetty. Määritysten monimutkaisuus voi vaihdella: ominaisuusluettelossa ei ole varastotoimintoja lainkaan, fyysisen varastoinnin perusmääritysten tilausten käsittelyssä on vain yksi tai useita toimintoja ja laajennetuissa varastomäärityksissä kaikki varastotoiminnot on suoritettava ohjatun työnkulun mukaisesti. Lisätietoja on kohdassa [Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md).
@@ -53,4 +53,3 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 [Kokoonpanon hallinta](assembly-assemble-items.md)    
 [Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

@@ -1,26 +1,26 @@
 ---
-title: "RapidStart Services -palvelun roolin käyttöönottajan keskuksen käyttäminen | Microsoft Docs"
-description: "Kun käytössä on RapidStart Services, suosittelemme työn seuraamista ja RapidStart Services -palvelun käyttöönottajan roolikeskuksen käyttämistä, koska se tarjoaa määritystyölle juuri oikean kontekstin."
+title: RapidStart Services -palvelun roolin käyttöönottajan keskuksen käyttäminen | Microsoft Docs
+description: Kun käytössä on RapidStart Services, suosittelemme työn seuraamista ja RapidStart Services -palvelun käyttöönottajan roolikeskuksen käyttämistä, koska se tarjoaa määritystyölle juuri oikean kontekstin.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: c00a3e452e59e27e7edaad1fbefcfc50316254df
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 572dedec9c00369f405bfc6d3eb4031185f7c780
-ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795047"
 ---
 # <a name="use-the-rapidstart-services-implementer-role-center"></a>RapidStart Services -palvelun käyttöönottajan roolikeskuksen käyttäminen
-Kun käytössä on RapidStart Services, suosittelemme RapidStart Services -palvelun käyttöönottajan roolikeskuksen käyttämistä, koska se tarjoaa määritystyölle juuri oikean kontekstin. Lisätietoja on Roolikeskuksen muuttaminen -osassa kohdassa [Perusasetusten muuttaminen](ui-change-basic-settings.md).
+Kun käytössä on RapidStart Services, suosittelemme RapidStart Services -palvelun käyttöönottajan roolikeskuksen käyttämistä, koska se tarjoaa määritystyölle juuri oikean kontekstin. Lisätietoja on kohdassa [Roolikeskuksen vaihtaminen](ui-change-basic-settings.md#to-change-role-center).
 
 Kun jatkat työskentelyä, voit määrittää kunkin taulukon tilan ilmaisemaan etenemisesi prosessissa. [!INCLUDE[d365fin](includes/d365fin_md.md)] pitää seuraa taulukon tilaa roolikeskuksen **Toimenpiteet**-osassa.  
 
@@ -46,4 +46,3 @@ Kun palaat roolikeskukseen, **Toimenpiteet**-osan ruudut päivitetään tehtyjen
 ## <a name="see-also"></a>Katso myös  
 [Yrityksen määrittäminen RapidStart Services -palvelun avulla](admin-set-up-a-company-with-rapidstart.md)  
 [Hallinta](admin-setup-and-administration.md)
-

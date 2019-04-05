@@ -1,24 +1,24 @@
 ---
-title: "Rakennetiedot – Kiinteä uusintatilauksen määrä | Microsoft Docs"
-description: "Kiinteä uudelleenjärjestysmäärän menettely liittyy tyypillisten C-nimikkeiden varaston suunnitteluun (alhaiset varastokustannukset, vanhenemisriski ja/tai useita nimikkeitä) Tätä menetelmää käytetään yleensä silloin, kun tilauspiste vaikuttaa odotettuun kysyntään nimikkeen toimitusajan aikana."
+title: Rakennetiedot – Kiinteä uusintatilauksen määrä | Microsoft Docs
+description: Kiinteä uudelleenjärjestysmäärän menettely liittyy tyypillisten C-nimikkeiden varaston suunnitteluun (alhaiset varastokustannukset, vanhenemisriski ja/tai useita nimikkeitä) Tätä menetelmää käytetään yleensä silloin, kun tilauspiste vaikuttaa odotettuun kysyntään nimikkeen toimitusajan aikana.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-handling-reordering-policies
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: f8d4cfbbdab6285f65611c81aaf728a8c129c729
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795854"
 ---
 # <a name="design-details-fixed-reorder-qty"></a>Rakennetiedot: Kiinteä uusintatil. määrä
 Kiinteä uusintatilausmäärän menettely liittyy tyypillisten C-nimikkeiden varaston suunnitteluun (alhaiset varastokustannukset, vanhenemisriski ja/tai useita nimikkeitä) Tätä menetelmää käytetään yleensä silloin, kun tilauspiste vaikuttaa odotettuun kysyntään nimikkeen toimitusajan aikana.  
@@ -53,4 +53,3 @@ Kiinteä uusintatilausmäärän menettely liittyy tyypillisten C-nimikkeiden var
  [Rakennetiedot: suunnittelun parametrit](design-details-planning-parameters.md)   
  [Rakennetiedot: uusintatilauskäytäntöjen käsittely](design-details-handling-reordering-policies.md)   
  [Rakennetiedot: Tarjonnan suunnittelu](design-details-supply-planning.md)
-

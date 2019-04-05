@@ -1,25 +1,24 @@
 ---
 title: Huoltotilastot | Microsoft Docs
-description: "Saat nopean yleiskuvan koko huoltoasiakirjojen, kuten tilausten, tarjousten, laskujen tai hyvityslaskujen sisällöstä, tietyn huoltorivin tiedoista ja huoltonimikkeistä."
+description: Saat nopean yleiskuvan koko huoltoasiakirjojen, kuten tilausten, tarjousten, laskujen tai hyvityslaskujen sisällöstä, tietyn huoltorivin tiedoista ja huoltonimikkeistä.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 03074e2296c95a2afec9f5852a9c4277efa0a37a
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796406"
 ---
-
 # <a name="viewing-service-statistics"></a>Huoltotilastojen tarkasteleminen
 Voit käyttää tilastoja huoltoasiakirjojen analysoimisessa ja selvittää, miten hyvin hallitse huoltoprosesseja. Voit analysoida huoltosopimuksia, tarjouksia, tilauksia, laskuja ja hyvityslaskuja valitsemalla **Tilastot**-toiminnon. Voit käyttää huoltonimikkeissä ja -sopimuksissa myös **huoltonimikkeen Trendscape-näkymää** tai **sopimuksen Trendscape-näkymää**. Voit tarkastella näissä näkymissä tietyn huoltonimikkeen huoltotapahtumia.   
 
@@ -115,4 +114,3 @@ Voit hakea kirjatun huollon hyvityslaskun rivien tilaston yleiskuvausta **Huollo
 [Huoltotilausten luominen](service-how-to-create-service-orders.md)   
 [Huoltonimikkeiden luominen](service-how-to-create-service-items.md)   
 [Huollon suunnittelu](service-plan-service.md)  
-

@@ -1,7 +1,7 @@
 ---
 title: Tervetuloa | Microsoft Docs
-description: "Lisätietoja asennusoppaista, videoista, ohjeaiheista ja sivuista, jotka auttavat Business Central -sovelluksen käyttöönotossa."
-documentationcenter: 
+description: Lisätietoja asennusoppaista, videoista, ohjeaiheista ja sivuista, jotka auttavat Business Central -sovelluksen käyttöönotossa.
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 10/01/2018
 ms.author: solsen
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 44d81c85b1519c3c916a4e6509121afda5b4d5a2
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795041"
 ---
 # <a name="getting-ready-for-doing-business"></a>Valmistautuminen liiketoimintaan
 Olet juuri aloittanut ensimmäisen yrityksen [!INCLUDE[d365fin](includes/d365fin_md.md)]issa.
@@ -39,7 +39,7 @@ Roolikeskuksen siirtymispalkin alareunassa on **Asennus ja laajennukset** -valik
 | Määritä Officen apuohjelmat |Määrittää [!INCLUDE[d365fin](includes/d365fin_md.md)]in käytettäväksi ja käynnistettäväksi Outlookista. |
 | Määritä hyväksymistyönkulku |Määrittää järjestelmän automaattisesti ilmoittamaan hyväksyjälle, milloin käyttäjä yrittää luoda tai muokata asiakirjojen tiettyjä arvoja (kuten tietyn rajan ylittävää summaa), päiväkirjan rivejä tai kortteja. |
 | Määritä sähköpostin lokiinkirjaus |Määrittää sähköpostikirjeenvaihdon kirjaamisen [!INCLUDE[d365fin](includes/d365fin_md.md)]issa vuorovaikutusten seuraamista varten. |
-| Business Central Connectorin määrittäminen |Määrittää yhteyden Dynamics 365 for Salesiin. Voit synkronoida yhteyden avulla tiedot, kuten yhteyshenkilöiden ja myyntitilausten tiedot. |
+| Business Central Connectorin määrittäminen |Määrittää yhteyden Dynamics 365 for Salesiin. Yhteyden avulla voit synkronoida tiedot, kuten yhteyshenkilöiden ja myyntitilausten tiedot. |
 
 Kun olet suorittanut avustetun asennuksen, sen tilaksi merkitään **Valmis**. Voit suorittaa avustetun asennuksen valitsemalla kolme pistettä, joita kutsutaan myös pikavalikoksi, ja valitsemalla sitten **Käynnistä asennus**.
 
@@ -69,4 +69,3 @@ Voit jatkaa luomalla uusia myynti- tai ostoasiakirjoja siirrettyjen tietojen per
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
  
-

@@ -1,8 +1,8 @@
 ---
-title: "Myyntisyklien myyntimahdollisuuksien käsitteleminen| Microsoft Docs"
-description: "Voit tarkastella, sulkea tai poistaa myyntimahdollisuuksia. Voit myös luoda mahdollisuuksille tarjouksia ja myyntitilauksia sekä siirtää mahdollisuuden myyntisyklin vaiheiden väli."
+title: Myyntisyklien myyntimahdollisuuksien käsitteleminen| Microsoft Docs
+description: Voit tarkastella, sulkea tai poistaa myyntimahdollisuuksia. Voit myös luoda mahdollisuuksille tarjouksia ja myyntitilauksia sekä siirtää mahdollisuuden myyntisyklin vaiheiden väli.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 2eab68abd4c02aa6d42daf751640f47a8fb11d23
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795928"
 ---
 # <a name="process-sales-opportunities"></a>Myyntimahdollisuuksien käsitteleminen
 Mahdollisuuden luomisen jälkeen sen hallinnassa ja valmistumisprosessissa voidaan käyttää useita toimintoja.
@@ -87,4 +87,3 @@ Jos mahdollisuus seuraa myyntisykliä, voit siirtää sitä vaiheittain eteen- t
 [Myynti](sales-manage-sales.md)  
 [Kontaktien luonti ja hallinta](marketing-contacts.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

@@ -1,6 +1,6 @@
 ---
-title: "SEPA-hyvityksen siirron määrittäminen | Microsoft Docs"
-description: "Tietoja SEPA-hyvityksen siirron määrittämisestä Business Central -sovelluksessa."
+title: SEPA-hyvityksen siirron määrittäminen | Microsoft Docs
+description: Tietoja SEPA-hyvityksen siirron määrittämisestä Business Central -sovelluksessa.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.keywords: sepa, credit, transfer, payment,
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer
+ms.openlocfilehash: 6c35fdb6e5e37eb521b6d51050a552e52b66ec5d
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 103ebe376d3384eab119617b903f9a803f248462
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795283"
 ---
 # <a name="set-up-sepa-credit-transfer"></a>SEPA-hyvityksen siirron määrittäminen
 Voit viedä maksuja **Maksupäiväkirja**-sivulta tiedostoon siirrettäväksi verkkopankkiisi liittyvien tilisiirtojen käsittelemiseksi. [!INCLUDE[d365fin](includes/d365fin_md.md)] tukee SEPA-hyvitysten siirtomuotoa, mutta maa- tai aluekohtaisesti voi olla käytettävissä muita sähköisiä maksumuotoja.  
@@ -49,7 +49,7 @@ Ennen kuin voit käsitellä maksun sähköisesti viemällä maksutiedostot SEPA-
      **Ensisijainen pankkitili** -kentän arvo kopioidaan **Maksupäiväkirja**-sivun **Vastaanottajan pankkitili** -kenttään.  
 
 ### <a name="to-set-the-payment-journal-up-to-export-payment-files"></a>Maksupäiväkirjan määrittäminen maksutiedostojen vientiä varten  
-1. Syötä **Etsi**-ruudussa **Maksupäiväkirjat** ja valitse sitten vastaava linkki.  
+1. Anna **Haku**-ruudussa **Maksupäiväkirjat** ja valitse sitten vastaava linkki.  
 2. Avaa maksupäiväkirja, jota käytät maksujen käsittelyyn viemällä tiedostot SEPA-hyvitys siirtomuodossa.  
 3. Valitse **Erän nimi** -kentässä avattava luettelon painike.  
 4. Valitse **Yleisen päiväkirjan erät** -sivun **Kotisivun**-välilehden **Hallinta**-ryhmässä **Muokkaa luetteloa**.  
@@ -65,4 +65,3 @@ Ennen kuin voit käsitellä maksun sähköisesti viemällä maksutiedostot SEPA-
 [Tietojenvaihtomääritysten määrittäminen](across-how-to-set-up-data-exchange-definitions.md)  
 [Toistuvien myynti- ja ostorivien luominen](sales-how-work-standard-lines.md)  
 [Sähköinen tiedonsiirto](across-data-exchange.md)  
-

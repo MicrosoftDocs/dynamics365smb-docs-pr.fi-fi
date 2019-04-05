@@ -1,23 +1,23 @@
 ---
 title: Olemassa olevien sijaintien muuntaminen fyysisen varaston sijainneiksi | Microsoft Docs
-description: "Ottamalla alueet ja varastopaikat käyttöön aiemmin luodussa varastosijainnissa voit tehdä siitä fyysisen varastoinnin sijainnin."
+description: Ottamalla alueet ja varastopaikat käyttöön aiemmin luodussa varastosijainnissa voit tehdä siitä fyysisen varastoinnin sijainnin.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 6f5c798587c832b25ef2ead944fc5f5f8ea89644
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c97e6995a0e27d0eebcadf5b783cd9aa56cb5fde
-ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796272"
 ---
 # <a name="convert-existing-locations-to-warehouse-locations"></a>Aiemmin luotujen sijaintien muuntaminen fyysisen varaston sijainneiksi
 Ottamalla alueet ja varastopaikat käyttöön aiemmin luodussa varastosijainnissa voit tehdä siitä fyysisen varastoinnin sijainnin.  
@@ -32,7 +32,7 @@ Voit luoda alueet ja varastopaikat ennen muunnosta tai sen jälkeen. Ainoa varas
 ## <a name="to-enable-an-existing-location-to-operate-as-a-warehouse-location"></a>Aiemmin luodun sijainnin valmisteleminen fyysisen varastoinnin sijainniksi  
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Luo fyysisen varaston sijainti** ja valitse sitten liittyvä linkki.  
 2.  Määritä **Sijaintikoodi**-kentässä sijainti, jossa haluat ottaa käyttöön fyysisen varaston käsittelyn.  
-3.  Määritä **Muutosvarastopaikan koodi** -kentässä varastopaikka sijainnissa, johon synkronoimattomat fyysisen varastoinnin tapahtumat tallennetaan. Lisätietoja on ohjeaiheen [Varaston laskeminen, muuttaminen ja uudelleenluokitus](inventory-how-count-adjust-reclassify.md) kohdassa Muutettujen fyysisen varastoinnin tapahtumien ja liittyvien nimiketapahtumien synkronointi.  
+3.  Määritä **Muutosvarastopaikan koodi** -kentässä varastopaikka sijainnissa, johon synkronoimattomat fyysisen varastoinnin tapahtumat tallennetaan. Lisätietoja on kohdassa [Muutettujen fyysisen varastoinnin tapahtumien ja liittyvien nimiketapahtumien synkronointi](inventory-how-count-adjust-reclassify.md#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries).  
 
     Käyttämällä määritetylle sijainnille avoimia nimiketapahtumia ohjelma luo fyysisen varastoinnin päiväkirjarivit, joilla on kaikki mahdolliset nimiketapahtumissa olevat Nimikkeen nro-, Varianttikoodi-, Mittayksikön koodi- ja tarvittaessa Eränro- ja Sarjanro-kenttien yhdistelmät. Ohjelma kirjaa sen jälkeen fyysisen varastoinnin päiväkirjarivit. Tämä kirjaus luo fyysisen varastoinnin tapahtumat, jotka sijoittavat varaston fyysisen varastoinnin muutosvarastopaikkaan. Ohjelma määrittää myös sijaintikortin **Muutosvarastopaikan koodi**-kentän arvon.  
 
@@ -51,4 +51,3 @@ Voit luoda alueet ja varastopaikat ennen muunnosta tai sen jälkeen. Ainoa varas
 [Kokoonpanon hallinta](assembly-assemble-items.md)    
 [Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

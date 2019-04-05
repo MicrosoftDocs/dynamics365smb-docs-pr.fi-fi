@@ -1,6 +1,6 @@
 ---
-title: "Myyjän määrittäminen | Microsoft Docs'"
-description: "Voit määrittää on jokaiselle myyjälle tunnuksen, jonka avulla voidaan seurata yksittäisen myyjän tuloksia tai määrittää kontaktille myyjän."
+title: Myyjän määrittäminen | Microsoft Docs'
+description: Voit määrittää on jokaiselle myyjälle tunnuksen, jonka avulla voidaan seurata yksittäisen myyjän tuloksia tai määrittää kontaktille myyjän.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales rep
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: ddc6ab85e0db5065fffc6187c26ba4d67e1a1ee9
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795176"
 ---
 # <a name="set-up-salespeople"></a>Myyjien määrittäminen
 Useat yritykset haluavat seurata yksittäisen työntekijän suoritusta perustana myyntiprovision tai bonuksen laskennalle. Tarkastele esimerkiksi **myyjien provisioiden** raporttia. Yritys voi myös haluta määrittää myyjän kullekin kontaktilleen.
@@ -32,4 +32,3 @@ Voit käyttää myyjiä erilaisissa asiakkuudenhallinta- ja markkinointitöissä
 [Myynnin määrittäminen](sales-setup-sales.md)  
 [Myynti](sales-manage-sales.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
-

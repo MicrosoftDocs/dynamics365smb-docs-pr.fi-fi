@@ -1,8 +1,8 @@
 ---
-title: "Uuden toimittajan rekisteröinti toimittajan kortin luonnin avulla | Microsoft Docs"
-description: "Lisätietoja uuden toimittajan rekisteröinnistä toimittajan kortin luonnin avulla."
+title: Uuden toimittajan rekisteröinti toimittajan kortin luonnin avulla | Microsoft Docs
+description: Lisätietoja uuden toimittajan rekisteröinnistä toimittajan kortin luonnin avulla.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: supplier
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: c8f8620d21b9e2187e968d4015fd0f12446d30c9
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796121"
 ---
 # <a name="register-new-vendors"></a>Uusien toimittajien rekisteröiminen
 Toimittajat tarjoavat tuotteita, jotka myydään. Jokainen toimittaja, jolta ostat, täytyy rekisteröidä toimittajakorttina.
@@ -58,4 +58,3 @@ Jos haluat käyttää tätä toimittajan korttia mallina, kun luot uusia toimitt
 [Osto](purchasing-manage-purchasing.md)  
 [Ostojen kirjaus](purchasing-how-record-purchases.md)   
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
-

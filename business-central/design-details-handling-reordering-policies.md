@@ -1,23 +1,23 @@
 ---
-title: "Rakennetiedot – uusintatilauskäytäntöjen käsittely | Microsoft Docs"
-description: "Yleiskatsaus tehtävistä, joilla määritetään tuotantosuunnittelun uusintatilauskäytäntö."
+title: Rakennetiedot – uusintatilauskäytäntöjen käsittely | Microsoft Docs
+description: Yleiskatsaus tehtävistä, joilla määritetään tuotantosuunnittelun uusintatilauskäytäntö.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/14/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 42fc4a95c572f3afecc3b3a76ba987edd1fdd011
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796049"
 ---
 # <a name="design-details-handling-reordering-policies"></a>Rakennetiedot: uusintatilauskäytäntöjen käsittely
 Uusintatilausväli on määritettävä, jotta nimike voi osallistua tarjonnan suunnitteluun. Seuraavat neljä jälkitilausohjetta on olemassa:  
@@ -298,4 +298,3 @@ Koska toimitustilauksen määrä perustuu todelliseen kysyntään, voi olla jär
 [Rakennetiedot: suunnittelujärjestelmän keskeiset käsitteet](design-details-central-concepts-of-the-planning-system.md)   
 [Rakennetiedot: kysynnän ja tarjonnan täsmäytys](design-details-balancing-demand-and-supply.md)   
 [Rakennetiedot: Tarjonnan suunnittelu](design-details-supply-planning.md)
-

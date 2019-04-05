@@ -1,8 +1,8 @@
 ---
-title: "Yleisen päiväkirjarivin yleiskuvaus | Microsoft Docs"
-description: "Tässä ohjeaiheessa esitellään koodiyksikköön 12, **Yleinen päiväkirja - rivin kirjaus**, tehdyt muutokset. Se on pääkirjanpidon kirjauksen tärkeä sovellusobjekti ja ainoa paikka, jossa lisätään pääkirja-, ALV-, asiakas- ja toimittajatapahtumia."
+title: Yleisen päiväkirjarivin yleiskuvaus | Microsoft Docs
+description: Tässä ohjeaiheessa esitellään koodiyksikköön 12, **Yleinen päiväkirja - rivin kirjaus**, tehdyt muutokset. Se on pääkirjanpidon kirjauksen tärkeä sovellusobjekti ja ainoa paikka, jossa lisätään pääkirja-, ALV-, asiakas- ja toimittajatapahtumia.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: design, general ledger, post
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: db90633823f12650f796735a9a83bec8edb60cb9
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2667b5d6d11172736a5dd6c3f7c810d42e3f2501
-ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795018"
 ---
 # <a name="general-journal-post-line-overview"></a>Yleisen päiväkirjan kirjausrivin yleiskuva
 Koodiyksikkö 12, **Yleinen päiväkirja - rivin kirjaus**, on pääkirjanpidon kirjauksen tärkeä sovellusobjekti ja ainoa paikka, jossa lisätään pääkirja-, ALV- sekä asiakkaan ja toimittajan reskontratapahtumia. Tätä koodiyksikköä käytetään myös Käytä-, Peruuta kohdistus- ja Peruuta-toiminnoissa.  
@@ -48,4 +48,3 @@ Vanhassa arkkitehtuurissa oli seuraavat ominaisuudet:
 ## <a name="see-also"></a>Katso myös  
 [Rakenteen tiedot: Kirjausliittymän rakenne](design-details-posting-interface-structure.md)   
 [Rakenteen tiedot: Kirjausohjelman rakenne](design-details-posting-engine-structure.md)
-

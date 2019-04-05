@@ -1,8 +1,8 @@
 ---
-title: "Rakennetiedot – Siirrot suunnittelussa | Microsoft Docs"
-description: "Tässä ohjeaiheessa käsitellään siirtotilausten käyttöä toimituslähteenä varastomääriä suunniteltaessa."
+title: Rakennetiedot – Siirrot suunnittelussa | Microsoft Docs
+description: Tässä ohjeaiheessa käsitellään siirtotilausten käyttöä toimituslähteenä varastomääriä suunniteltaessa.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: design, transfer, sku, locations, warehouse
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: dbf1658893d5210c38994302ae817afa7349884a
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795963"
 ---
 # <a name="design-details-transfers-in-planning"></a>Rakennetiedot: siirrot suunnittelussa
 Siirtotilaukset ovat myös tarjonnan lähde, kun työskennellään varastointiyksikön tasolla. Kun käytössä on useita sijainteja (fyysisiä varastoja), varastointiyksikön täydennysjärjestelmän arvoksi voi määrittää Siirto. Tällöin sijainnin täydennys tehdään siirtämällä tavaroita toisesta sijainnista. Yrityksillä voi olla useita varastoja ja yhdistettyjä siirtoja, joissa toimitus VIHREÄÄN sijaintiin siirretään KELTAISESTA ja toimitus KELTAISEEN siirretään PUNAISESTA ja niin edelleen. Ketjun alussa on täydennysjärjestelmänä Tuotantotilaus tai Osto.  
@@ -168,4 +168,3 @@ Jos kysyntä muutetaan arvosta 27 arvoon 22, järjestelmä vähentää määrä 
 [Rakennetiedot: suunnittelujärjestelmän keskeiset käsitteet](design-details-central-concepts-of-the-planning-system.md)   
 [Rakennetiedot: kysynnän ja tarjonnan täsmäytys](design-details-balancing-demand-and-supply.md)   
 [Rakennetiedot: Tarjonnan suunnittelu](design-details-supply-planning.md)
-

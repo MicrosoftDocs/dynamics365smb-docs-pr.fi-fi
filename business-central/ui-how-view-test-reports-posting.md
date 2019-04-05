@@ -1,8 +1,8 @@
 ---
 title: Testiraportin tarkastelu ennen myynti- tai ostoasiakirjan kirjaamista | Microsoft Docs
-description: "Voit testata ja arvioida asiakirjan, kuten tilauksen tai hyvityslaskun, ennen kirjaamista ja tarkistaa, ettei siinä ole kirjaamisen estäviä virheitä."
+description: Voit testata ja arvioida asiakirjan, kuten tilauksen tai hyvityslaskun, ennen kirjaamista ja tarkistaa, ettei siinä ole kirjaamisen estäviä virheitä.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2018
 ms.author: solsen
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: cead1a86d50b0fc0e3b2998d748b8edf4a76b735
-ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795436"
 ---
 # <a name="view-test-reports-before-posting"></a>Testiraporttien tarkastelu ennen kirjausta
 Kun olet valmis kirjaamaan asiakirjan, kuten tilauksen, laskun tai hyvityslaskun, voit testata asiakirjan ja varmistaa, ettei kirjausta estäviä ongelmia ole.
@@ -34,5 +34,4 @@ Ohjelma testaa kaikki ostolaskun osat ja esittää tulokset raportissa. Jos rapo
 ## <a name="see-also"></a>Katso myös
 [Asiakirjojen ja päiväkirjojen kirjaaminen](ui-post-documents-journals.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-
 

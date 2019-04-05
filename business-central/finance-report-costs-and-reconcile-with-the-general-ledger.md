@@ -1,23 +1,23 @@
 ---
-title: "Kustannukset raportointi ja täsmäyttäminen pääkirjanpidon kanssa | Microsoft Docs"
-description: "Kirjanpitojaksojen lopussa (kuukausittain, vuosittain tai muulla aikavälillä) suoritetaan joukko kustannustenhallinta- ja auditointitehtäviä, joiden avulla saadaan oikea ja saldoltaan täsmällinen varaston arvo raportoitavaksi taloushallinto-osastolle. Tilintarkastajat ja kustannusten seurantahenkilöstö vastaavat näistä liiketoiminnan kannalta kriittisistä tehtävistä, ja yksittäisiä nimikkeen arvotapahtumia erityisille kirjanpitotileille siirtävän kirjausrutiinin lisäksi heidän käytettävissään on useita raportteja, jäljitystoimintoja ja erityinen täsmäytystyökalu."
+title: Kustannukset raportointi ja täsmäyttäminen pääkirjanpidon kanssa | Microsoft Docs
+description: Kirjanpitojaksojen lopussa (kuukausittain, vuosittain tai muulla aikavälillä) suoritetaan joukko kustannustenhallinta- ja auditointitehtäviä, joiden avulla saadaan oikea ja saldoltaan täsmällinen varaston arvo raportoitavaksi taloushallinto-osastolle. Tilintarkastajat ja kustannusten seurantahenkilöstö vastaavat näistä liiketoiminnan kannalta kriittisistä tehtävistä, ja yksittäisiä nimikkeen arvotapahtumia erityisille kirjanpitotileille siirtävän kirjausrutiinin lisäksi heidän käytettävissään on useita raportteja, jäljitystoimintoja ja erityinen täsmäytystyökalu.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 1b2a83ddbac54d5034b043c3124f698613be4642
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796387"
 ---
 # <a name="reporting-costs-and-reconciling-with-the-general-ledger"></a>Kustannukset raportointi ja täsmäyttäminen pääkirjanpidon kanssa
 Kirjanpitojaksojen lopussa (kuukausittain, vuosittain tai muulla aikavälillä) suoritetaan joukko kustannustenhallinta- ja auditointitehtäviä, joiden avulla saadaan oikea ja saldoltaan täsmällinen varaston arvo raportoitavaksi taloushallinto-osastolle. Tilintarkastajat ja kustannusten seurantahenkilöstö vastaavat näistä liiketoiminnan kannalta kriittisistä tehtävistä, ja yksittäisiä nimikkeen arvotapahtumia erityisille kirjanpitotileille siirtävän kirjausrutiinin lisäksi heidän käytettävissään on useita raportteja, jäljitystoimintoja ja erityinen täsmäytystyökalu.  
@@ -42,4 +42,3 @@ Kirjanpitojaksojen lopussa (kuukausittain, vuosittain tai muulla aikavälillä) 
 [Myynti](sales-manage-sales.md)   
 [Osto](purchasing-manage-purchasing.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

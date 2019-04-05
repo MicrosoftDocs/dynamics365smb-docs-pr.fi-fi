@@ -1,6 +1,6 @@
 ---
-title: "Ison-Britannian postinumeroiden käyttäminen GetAddress.io-laajennuksella | Microsoft Docs"
-description: "Voit noutaa isobritannialaisten asiakkaiden, toimittajien, työntekijöiden ja pankkien osoitteita GetAddress.io-palvelusta."
+title: Ison-Britannian postinumeroiden käyttäminen GetAddress.io-laajennuksella | Microsoft Docs
+description: Voit noutaa isobritannialaisten asiakkaiden, toimittajien, työntekijöiden ja pankkien osoitteita GetAddress.io-palvelusta.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -10,14 +10,13 @@ ms.workload: na
 ms.search.keywords: GetAddress.io, postcodes, postal, address, extension
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: af4be20798af59f01c870885b7e167fcb94d6bab
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795611"
 ---
-
 # <a name="the-getaddressio-uk-postcodes-extension"></a>Ison-Britannian postinumeroiden GetAddress.io-laajennus
 Ison-Britannian postinumeroiden GetAddress.io-laajennus säästää aikaa ja estää virheitä, kun annat objektien, kuten asiakkaiden, toimittajien, pankkitilien ja työntekijöiden, osoitteita. Jos olet esimerkiksi luomassa asiakasta, sinun tarvitsee vain valita postinumero ja [!INCLUDE[d365fin](includes/d365fin_md.md)] näyttää osoiteluettelon. Valitse sopiva osoite, jonka osoitekentät täyttyvät.  
 
@@ -35,4 +34,3 @@ Ison-Britannian postinumeroiden GetAddress.io-laajennus säästää aikaa ja est
 
 ## <a name="see-also"></a>Katso myös
 [Ison-Britannian postinumeroiden GetAddress.io-laajennuksen määrittäminen](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)
-

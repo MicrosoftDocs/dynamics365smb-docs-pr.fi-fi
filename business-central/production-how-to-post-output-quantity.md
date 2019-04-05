@@ -1,23 +1,23 @@
 ---
-title: "Tuotannon tuotos- ja suoritusaikojen eräkirjaus| Microsoft Docs"
-description: "Tuotosmäärä kuvaa työn edistymistä valmiin määrän muodossa."
+title: Tuotannon tuotos- ja suoritusaikojen eräkirjaus| Microsoft Docs
+description: Tuotosmäärä kuvaa työn edistymistä valmiin määrän muodossa.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 7b895978bd55cd6ed7086326036016002519817e
-ms.contentlocale: fi-fi
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796339"
 ---
 # <a name="batch-post-output-and-run-times"></a>Tuotos- ja suoritusaikojen eräkirjaus
 Tuotosmäärä kuvaa työn edistymistä valmiin määrän muodossa.  
@@ -49,4 +49,3 @@ Ajoaika kuvastaa työn edistymistä tarvittavan työajan muodossa.
 [Vaihto-omaisuus](inventory-manage-inventory.md)  
 [Osto](purchasing-manage-purchasing.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

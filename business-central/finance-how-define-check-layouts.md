@@ -1,8 +1,8 @@
 ---
-title: "Sekin asettelun määrittäminen| Microsoft Docs"
+title: Sekin asettelun määrittäminen| Microsoft Docs
 description: Voit suunnitella ja tulostaa sekkisi eri muodoissa standardinmukaisia vaatimuksia noudattaen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: print check, customize
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 743cf7ecbed4157dc9283a97baa956e69ec0c6b5
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795956"
 ---
 # <a name="define-check-layouts"></a>Sekkien asetteluiden määrittäminen
 Voit suunnitella omat sekit, joiden avulla pystyt noudattamaan paikallisten viranomaisten määrittämiä standardeja. Sekkikuvat voidaan tulostaa englannin-, ranskan ja espanjankielisinä.
@@ -43,4 +43,3 @@ Kun olet määrittänyt sekkien asettelut, voit tulostaa sekit **Maksupäiväkir
 [Kauden lopun prosessien viimeisteleminen](year-how-complete-period-end-processes.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)
-

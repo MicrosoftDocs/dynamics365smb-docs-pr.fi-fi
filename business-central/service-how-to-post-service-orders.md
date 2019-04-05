@@ -1,23 +1,23 @@
 ---
 title: Huoltotilausten kirjaaminen | Microsoft Docs
-description: "Kun huoltotilaus on luotu, tarpeelliset tiedot on täytetty ja muutokset tehty, huoltotilauksen voi kirjata. Tilauksessa tulee olla vähintään yksi huoltonimikerivi ja yksi huoltorivi, ennen kuin sen voi kirjata. Jos tilaus sisältää useita huoltorivejä, kaikki rivit kirjataan kerralla."
+description: Kun huoltotilaus on luotu, tarpeelliset tiedot on täytetty ja muutokset tehty, huoltotilauksen voi kirjata. Tilauksessa tulee olla vähintään yksi huoltonimikerivi ja yksi huoltorivi, ennen kuin sen voi kirjata. Jos tilaus sisältää useita huoltorivejä, kaikki rivit kirjataan kerralla.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: a6554708a40b50275a88a0c414be51cc99ccda85
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795644"
 ---
 # <a name="post-service-orders-and-credit-memos"></a>Huoltotilausten ja hyvityslaskujen kirjaaminen
 Kun huoltotilaus on luotu, tarpeelliset tiedot on täytetty ja muutokset tehty, huoltotilauksen voi kirjata. Tilauksessa tulee olla vähintään yksi huoltonimikerivi ja yksi huoltorivi, ennen kuin sen voi kirjata. Jos tilaus sisältää useita huoltorivejä, kaikki rivit kirjataan kerralla.  
@@ -134,4 +134,3 @@ Seuraavassa ohjeessa neuvotaan, miten toimitus kirjataan suoraan huoltotilaukses
 ## <a name="see-also"></a>Katso myös  
 [Kirjaaminen huoltohallinnassa](service-service-posting.md)  
 [Huoltotilauksen luominen](service-how-to-create-service-orders.md)  
-

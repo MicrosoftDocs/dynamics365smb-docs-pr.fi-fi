@@ -1,8 +1,8 @@
 ---
-title: "Ehdota toimittajamaksuja -eräajon käyttäminen| Microsoft Docs"
-description: "Määrittämällä toimittajan maksuasetukset saat ehdotuksia maksuista, joiden eräpäivä on pian tai joissa on käytettävissä alennus."
+title: Ehdota toimittajamaksuja -eräajon käyttäminen| Microsoft Docs
+description: Määrittämällä toimittajan maksuasetukset saat ehdotuksia maksuista, joiden eräpäivä on pian tai joissa on käytettävissä alennus.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 5e13b28e2cf75f061246dab56a9f4b3d4a16e1ce
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795269"
 ---
 # <a name="suggest-vendor-payments"></a>Ehdota toimittajamaksuja
 Voit ehdottaa maksurivejä käyttämällä **Maksupäiväkirja**-sivulla **Ehdota toimittajamaksuja** -eräajoa. Asetusten mukaan ehdotetaan rivejä, kuten pian erääntyviä maksuja tai maksuja, joissa on käytettävissä maksualennus.
@@ -57,4 +57,3 @@ Vaihtoehtoisesti voit luoda maksurivejä manuaalisesti niin, että eräpäivää
 [Maksujen suorittaminen](payables-make-payments.md)  
 [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
-

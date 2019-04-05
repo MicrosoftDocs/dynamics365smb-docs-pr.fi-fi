@@ -1,21 +1,21 @@
 ---
-title: "Poiminta ja toimitus fyysisen varastoinnin perusmäärityksissä | Microsoft Docs"
-description: "Business Central -sovelluksessa noudon ja toimituksen lähtevät prosessit voidaan suorittaa neljällä tavalla käyttämällä eri toimintoja varastotason monimutkaisuudesta riippuen."
+title: Poiminta ja toimitus fyysisen varastoinnin perusmäärityksissä | Microsoft Docs
+description: Business Central -sovelluksessa noudon ja toimituksen lähtevät prosessit voidaan suorittaa neljällä tavalla käyttämällä eri toimintoja varastotason monimutkaisuudesta riippuen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
 ms.openlocfilehash: 1b07a3b064f1bc45a183d0a2d27b810312007a22
-ms.contentlocale: fi-fi
-ms.lasthandoff: 01/31/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795214"
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Vaihekuvaus: Poiminta ja toimitus fyysisen varastoinnin perusmäärityksissä
 
@@ -70,13 +70,13 @@ Tämän vaihekuvauksen ohjeiden noudattamisen edellytykset:
 
         |Tapahtuman tyyppi|Nimikenumero|Sijaintikoodi|Varastopaikan koodi|Määrä|  
         |----------------|-----------------|-------------------|--------------|--------------|  
-        |Posit. muutos|LS_81|HOPEINEN|S-01-0001 **Huomautus:** Nimikkeen CRONUS-oletusvarastopaikka|20|  
+        |Posit. muutos|LS_81|HOPEINEN|S-01-0001 **Huomautus:** Nimikkeen oletusvarastopaikka CRONUSissa|20|  
         |Posit. muutos|LS_81|HOPEINEN|S-01-0002|20|  
 
     3.  Valitse ensin **Kirjaa** -toiminto ja sitten **Kyllä**.  
 
 ## <a name="story"></a>Taustatietoja  
-Ellen, CRONUSIN varastopäällikkö, määrittää HOPEISEEN fyysiseen varastoon perustason poimintakäsittelyn, jossa varastotyöntekijät käsittelevät lähtevät tilaukset erikseen. Susanna, tilausten käsittelijä luo myyntitilauksen LS-81-nimikkeen 30 yksikön toimituksesta asiakkaalle 10000 HOPEISESTA varastosta. Johnin, varastotyöntekijän, täytyy varmistaa, että lähetys on valmisteltu ja toimitettu asiakkaalle. John hallitsee kaikkia **Varaston poiminta** -sivulla olevia tehtäviä, jotka viittaavat automaattisesti varastopaikkoihin, joissa LS-81 on tallennettu.  
+Ellen, CRONUS:n varastopäällikkö, määrittää HOPEISEN varaston Basic-poiminnan käsittelyä varten,jossa varastotyöntekijät käsittelevät lähtevät tilaukset erikseen. Susanna, tilausten käsittelijä luo myyntitilauksen LS-81-nimikkeen 30 yksikön toimituksesta asiakkaalle 10000 HOPEISESTA varastosta. Johnin, varastotyöntekijän, täytyy varmistaa, että lähetys on valmisteltu ja toimitettu asiakkaalle. John hallitsee kaikkia **Varaston poiminta** -sivulla olevia tehtäviä, jotka viittaavat automaattisesti varastopaikkoihin, joissa LS-81 on tallennettu.  
 
 ## <a name="setting-up-the-location"></a>Sijainnin määrittäminen  
 **Sijaintikortti**-sivun asetuksissa määritellään yrityksen varaston työnkulut.  
@@ -131,4 +131,3 @@ Myyntitilaukset ovat yleisin lähtevien lähdeasiakirjojen tyyppi.
  [Rakennetiedot: lähtevän fyysisen varastoinnin virta](design-details-outbound-warehouse-flow.md)   
  [Liiketoimintaprosessien vaihekuvaukset](walkthrough-business-process-walkthroughs.md)  
  [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

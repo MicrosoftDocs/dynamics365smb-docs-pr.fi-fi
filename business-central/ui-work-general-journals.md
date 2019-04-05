@@ -1,20 +1,20 @@
 ---
-title: "Kirjaaminen suoraan pääkirjanpitoon yleisten päiväkirjojen avulla| Microsoft Docs"
-description: "Tutustu siihen, miten päiväkirjoja käytetään rahoitustapahtumien kirjaamisessa pääkirjanpitotileille sekä muille tileille, kuten pankki- ja toimittajatileille."
+title: Kirjaaminen suoraan pääkirjanpitoon yleisten päiväkirjojen avulla| Microsoft Docs
+description: Tutustu siihen, miten päiväkirjoja käytetään rahoitustapahtumien kirjaamisessa pääkirjanpitotileille sekä muille tileille, kuten pankki- ja toimittajatileille.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/27/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: ddcda93c59df3f8390dc3852595d4f07f03648f5
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: f715dc4994fb3507d73f44bc9adc689f6d3f71cb
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795785"
 ---
 # <a name="working-with-general-journals"></a>Yleisten päiväkirjojen käyttäminen
 
@@ -35,7 +35,7 @@ Päiväkirjaan lisäämäsi tiedot ovat väliaikaisia, ja niitä voi muuttaa nii
 
 ## <a name="using-journal-templates-and-batches"></a>Päiväkirjan mallit ja erien käyttäminen
 
-Yleisen päiväkirjan malleja on useita. Kullakin päiväkirjamallilla on määritetty sivu, jossa on erityistoimintoja sekä näitä toimintoja varten tarvittavat kentät. Näitä sivuja ovat esimerkiksi **Maksujen täsmäytyskirjauskansio**, jossa käsitellään pankkimaksuja, ja **Maksupäiväkirja**, jossa maksetaan toimittajille tai maksetaan hyvitykset työntekijöille. Lisätietoja on kohdissa [Maksujen suorittaminen](payables-make-payments.md) ja [Asiakkaan maksujen täsmäyttäminen manuaalisesti](receivables-how-apply-sales-transactions-manually.md).
+Yleisen päiväkirjan malleja on useita. Kullakin päiväkirjamallilla on määritetty sivu, jossa on erityistoimintoja sekä näitä toimintoja varten tarvittavat kentät. Näitä sivuja ovat esimerkiksi **Maksujen täsmäytyskirjauskansio**, jossa käsitellään pankkimaksuja, ja **Maksupäiväkirja**, jossa maksetaan toimittajille tai maksetaan hyvitykset työntekijöille. Lisätietoja on kohdissa [Maksujen suorittaminen](payables-make-payments.md) ja [Asiakkaan maksujen täsmäyttäminen kassapäiväkirjan avulla tai asiakastapahtumista](receivables-how-apply-sales-transactions-manually.md).
 
 Voit määrittää kullekin päiväkirjan mallille oman henkilökohtaisen päiväkirjan päiväkirjan eränä. Voit esimerkiksi määrittää maksupäiväkirjalle oman päiväkirjan erän, jolle on määritetty henkilökohtainen asettelu ja asetukset. Seuraava vihje on esimerkki päiväkirjan mukauttamisesta.
 
@@ -49,7 +49,7 @@ Jos olet määrittänyt päiväkirjan erille oletusvastatilit **Yleiset päiväk
 >   ALV lasketaan erikseen päätiliä varten ja vastatiliä varten, joten niillä voi olla eri ALV-prosentit.
 
 ## <a name="working-with-recurring-journals"></a>Toistuvien tapahtumien päiväkirjojen käyttäminen
-Toistuvien tapahtumien päiväkirja on yleinen päiväkirja, jossa on erityiskenttiä sellaisten tapahtumien hallintaa varten, jotka kirjataan usein vähäisin muutoksin tai ilman muutoksia. Näitä ovat esimerkiksi vuokra, lehtitilaukset, sähkö ja lämmitys. Käyttämällä näitä kenttiä toistuviin tapahtumiin, voit kirjata sekä vakiosummia että muuttuvia summia. Voit myös määrittää automaattiset peruutustapahtumat kirjauspäivämäärän jälkeisenä päivänä. Voit myös käyttää kohdistusavaimia ja jakaa toistuvat tapahtumat eri tileille. Lisätietoja on Toistuvien tapahtumien päiväkirjan summien kohdistaminen useisiin tileihin -osassa.
+Toistuvien tapahtumien päiväkirja on yleinen päiväkirja, jossa on erityiskenttiä sellaisten tapahtumien hallintaa varten, jotka kirjataan usein vähäisin muutoksin tai ilman muutoksia. Näitä ovat esimerkiksi vuokra, lehtitilaukset, sähkö ja lämmitys. Käyttämällä näitä kenttiä toistuviin tapahtumiin, voit kirjata sekä vakiosummia että muuttuvia summia. Voit myös määrittää automaattiset peruutustapahtumat kirjauspäivämäärän jälkeisenä päivänä. Voit myös käyttää kohdistusavaimia ja jakaa toistuvat tapahtumat eri tileille. Lisätietoja on kohdassa [Toistuvien tapahtumien päiväkirjan summien kohdistaminen useisiin tileihin](ui-work-general-journals.md#allocating-recurring-journal-amounts-to-several-accounts).
 
 Toistuvassa päiväkirjassa säännöllisesti kirjattavat tapahtumat tarvitsee syöttää vain kerran. Siten tilit, dimensiot , dimension arvot ym. tiedot jotka syötät, säilyvät päiväkirjassa kirjauksen jälkeen. Jos sinun tarvitsee tehdä muutoksia, voit tehdä niitä jokaisen kirjauksen yhteydessä.
 
@@ -60,7 +60,7 @@ Tämä kenttä määrittää, miten päiväkirjan rivin summaa käsitellään ki
 | --- | --- |
 |Kiinteä|Summa säilyy päiväkirjan rivillä kirjauksen jälkeen.|
 |Muuttuva|Ohjelma poistaa summan päiväkirjan riviltä kirjauksen jälkeen.|
-|Saldo|Rivin tilille kirjattu summa jaetaan niiden tilien kesken, jotka on määritelty riville Yleisen päiväkirjan kohdistus -taulukossa. Tilin saldoksi tulee siten nolla. Muista täyttää **Kohdistus-%**-kenttä **Kohdistukset**-sivulla. Lisätietoja on Toistuvien tapahtumien päiväkirjan summien kohdistaminen useisiin tileihin -osassa.|
+|Saldo|Rivin tilille kirjattu summa jaetaan niiden tilien kesken, jotka on määritelty riville Yleisen päiväkirjan kohdistus -taulukossa. Tilin saldoksi tulee siten nolla. Muista täyttää **Kohdistus-%**-kenttä **Kohdistukset**-sivulla. Lisätietoja on kohdassa [Toistuvien tapahtumien päiväkirjan summien kohdistaminen useisiin tileihin](ui-work-general-journals.md#allocating-recurring-journal-amounts-to-several-accounts).|
 |Muuttuva vastakirjaus|Päiväkirjan rivillä oleva summa säilyy kirjauksen jälkeen, ja vastakirjaus kirjataan seuraavana päivänä.|
 |Muuttuva vastakirjaus|Päiväkirjan rivillä oleva summa poistuu kirjauksen jälkeen, ja vastakirjaus kirjataan seuraavana päivänä.|
 |Vasta-saldo|Rivin tilille kirjattu summa jaetaan niiden tilien kesken, jotka on määritelty riville **Kohdistukset**-sivulla. Tilin saldoksi määritetään nolla ja vastatapahtuma kirjataan seuraavana päivänä.|
@@ -69,7 +69,7 @@ Tämä kenttä määrittää, miten päiväkirjan rivin summaa käsitellään ki
 >  ALV-kentät voidaan täyttää joko toistuvan päiväkirjan rivillä tai kohdistuspäiväkirjan rivillä, mutta ei molemmilla. Siten ne voidaan täyttää **Kohdistukset**-sivulla vain, jos vastaavia kenttiä ei ole täytetty toistuvassa päiväkirjassa.
 
 ### <a name="recurring-frequency-field"></a>Toistotiheys-kenttä
-Tämä kenttä määrittää, kuinka usein päiväkirjarivillä oleva tapahtuma kirjataan. Se on Päivämäärän kaava -kenttä, joka on täytettävä toistuvien tapahtumien päiväkirjan riveille. Lisätietoja on Päivämäärän kaavojen käyttäminen -osassa kohdassa [Tietojen antaminen](ui-enter-data.md).
+Tämä kenttä määrittää, kuinka usein päiväkirjarivillä oleva tapahtuma kirjataan. Se on Päivämäärän kaava -kenttä, joka on täytettävä toistuvien tapahtumien päiväkirjan riveille. Lisätietoja on kohdassa [Päivämäärän kaavojen käyttäminen](ui-enter-date-ranges.md#using-date-formulas).
 
 #### <a name="examples"></a>Esimerkkejä
 Jos päiväkirjan rivi tulee kirjata joka kuukausi, syötä 1K. Jokaisen kirjauksen jälkeen **Kirjauspvm.**-kentässä oleva päivämäärä päivitetään seuraavan kuukauden samaan päivään.
@@ -164,4 +164,3 @@ Seuraavat toimenpiteet perustuvat **Yleinen päiväkirja** -sivuun, mutta niitä
 [Kustannusten ja tulojen kohdistaminen](year-allocate-costs-income.md)  
 [Rahoitus](finance.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

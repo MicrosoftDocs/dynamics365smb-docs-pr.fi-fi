@@ -1,21 +1,21 @@
 ---
-title: "Vaihekuvaus – Myyntikampanjan suorittaminen | Microsoft Docs"
-description: "Kampanja voi olla mikä tahansa toimi, jossa on mukana useita kontakteja. Kampanjan määrittämisen tärkeä osa liittyy kampanjan kohderyhmän valitsemiseen. Tätä tarkoitusta varten Business Central -sovelluksessa luodaan segmentti tai yhteystietoryhmä suodattimien avulla."
+title: Vaihekuvaus – Myyntikampanjan suorittaminen | Microsoft Docs
+description: Kampanja voi olla mikä tahansa toimi, jossa on mukana useita kontakteja. Kampanjan määrittämisen tärkeä osa liittyy kampanjan kohderyhmän valitsemiseen. Tätä tarkoitusta varten Business Central -sovelluksessa luodaan segmentti tai yhteystietoryhmä suodattimien avulla.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 1922c9c2112006b302851301224818f803d9f4e2
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795873"
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Vaihekuvaus: Myyntikampanjan suorittaminen
 Kampanja voi olla mikä tahansa toimi, jossa on mukana useita kontakteja. Kampanjan määrittämisen tärkeä osa liittyy kampanjan kohderyhmän valitsemiseen. Tätä tarkoitusta varten [!INCLUDE[d365fin](includes/d365fin_md.md)]:ssa luodaan segmentti tai yhteystietoryhmä suodattimien avulla.  
@@ -45,7 +45,7 @@ Kampanja voi olla mikä tahansa toimi, jossa on mukana useita kontakteja. Kampan
  Asenna [!INCLUDE[d365fin](includes/d365fin_md.md)] ennen tämän vaihekuvauksen tehtävien suorittamista:  
 
 ## <a name="story"></a>Taustatietoja  
- CRONUSIN myyntiosaston markkinointipäällikkö vastaa kampanjoiden suunnittelemisesta ja toteuttamisesta. Hän tekee myös päätöksiä messuista, joihin yhtiö osallistuu, sekä arvioi kampanjan edistymistä.  
+ CRONUS:n myyntiosaston markkinointipäällikkö vastaa kampanjoiden suunnittelemisesta ja toteuttamisesta. Hän tekee myös päätöksiä messuista, joihin yhtiö osallistuu, sekä arvioi kampanjan edistymistä.  
 
  Markkinointiosaston markkinointityöntekijä huolehtii markkinointiaineiston tuottamisesta, jakamisesta ja sijoittamisesta.  
 
@@ -199,4 +199,3 @@ Kampanja voi olla mikä tahansa toimi, jossa on mukana useita kontakteja. Kampan
 [Kontaktienhallinta](marketing-relationship-management.md)  
  [Liiketoimintaprosessien vaihekuvaukset](walkthrough-business-process-walkthroughs.md)  
  [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

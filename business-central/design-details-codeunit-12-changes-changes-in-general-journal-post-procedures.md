@@ -1,21 +1,21 @@
 ---
-title: "Rakennetiedot – Koodiyksikön 12 muutokset: Päiväkirjakirjausten menettelytapojen muutokset | Microsoft Docs"
-description: "Seuraavat muutokset on toteutettu tässä Business Central -versiossa."
+title: 'Rakennetiedot – Koodiyksikön 12 muutokset: Päiväkirjakirjausten menettelytapojen muutokset | Microsoft Docs'
+description: Seuraavat muutokset on toteutettu tässä Business Central -versiossa.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 6f28cf8e465a6c9f29ddf7bd1ac5db54896802cd
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 09e52a35909c21eaaf9d2eab37b19dc947a2a8dd
-ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795364"
 ---
 # <a name="codeunit-12-changes-changes-in-general-journal-post-procedures"></a>Koodiyksikön 12 muutokset: Päiväkirjakirjausten menettelytapojen muutokset
 Seuraavat muutokset on toteutettu tässä [!INCLUDE[d365fin](includes/d365fin_md.md)] -versiossa.  
@@ -93,7 +93,7 @@ Seuraavat muutokset on toteutettu tässä [!INCLUDE[d365fin](includes/d365fin_md
 ||PostDtldCustLedgEntryUnapply|Lisätty|  
 ||GetDtldCustLedgEntryAccNo|Lisätty|  
 |ZeroTransNoDtldCustLedgEntries|SetZeroTransNo|Siirretty taulukkoon 379 Yksit.kohtainen as.tapahtuma|  
-|AutoEntrForDtldCustLedgEntries||Refactored to PostDtldCustLedgEntryUnapply|  
+|AutoEntrForDtldCustLedgEntries||Refaktoroitu kohteeseen PostDtldCustLedgEntryUnapply|  
 |CustUpdateDebitCredit|UpdateDebitCredit|Siirretty taulukkoon 379 Yksit.kohtainen as.tapahtuma|  
 |ApplyVendLedgEntry|ApplyVendLedgEntry|Päivitetty|  
 ||PrepareTempVendLedgEntry|Lisätty|  
@@ -108,7 +108,7 @@ Seuraavat muutokset on toteutettu tässä [!INCLUDE[d365fin](includes/d365fin_md
 ||PostDtldCustVATAdjustment|Lisätty|  
 ||PostDtldVendVATAdjustment|Lisätty|  
 |ZeroTransNoDtldVendLedgEntries|SetZeroTransNo|Siirretty taulukkoon 380 Yks.koht. toimit. tapahtuma|  
-|AutoEntrForDtldVendLedgEntries||Refactored to PostDtldVendLedgEntryUnapply|  
+|AutoEntrForDtldVendLedgEntries||Refaktoroitu kohteeseen PostDtldVendLedgEntryUnapply|  
 |VendUpdateDebitCredit|UpdateDebitCredit|Siirretty taulukkoon 380 Yks.koht. toimit. tapahtuma|  
 |VendUnrealizedVAT|VendUnrealizedVAT|Päivitetty|  
 ||PostUnrealVATEntry|Lisätty|  
@@ -190,4 +190,3 @@ Seuraavat muutokset on toteutettu tässä [!INCLUDE[d365fin](includes/d365fin_md
 
 ## <a name="see-also"></a>Katso myös  
  [Rakennetiedot: Koodiyksikön 12 muutokset: Yleisten muuttujien linkitys yleisen päiväkirjan kirjausriviin](design-details-codeunit-12-changes-mapping-global-variables-for-general-journal-post-line.md)
-

@@ -1,23 +1,23 @@
 ---
-title: "Peruskalenterien määrittäminen | Microsoft Docs"
-description: "Peruskalenterin voi määritellä yrityksellesi ja sen liiketoimintakumppaneille, esimerkiksi asiakkaille, toimittajille tai sijainneille. Toimituksen ja vastaanoton päivämäärät lasketaan tuleville myyntitilaus-, ostotilaus-, siirtotilaus- ja tuotantotilausriveille kalenteriin määritettyjen työpäivien mukaisesti."
+title: Peruskalenterien määrittäminen | Microsoft Docs
+description: Peruskalenterin voi määritellä yrityksellesi ja sen liiketoimintakumppaneille, esimerkiksi asiakkaille, toimittajille tai sijainneille. Toimituksen ja vastaanoton päivämäärät lasketaan tuleville myyntitilaus-, ostotilaus-, siirtotilaus- ja tuotantotilausriveille kalenteriin määritettyjen työpäivien mukaisesti.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 2b00871f4074af32500678642cae63850956bfce
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 2b1820a65fd1e9cd4e41828caddd737e79a2a45b
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795858"
 ---
 # <a name="set-up-base-calendars"></a>Peruskalenterien määrittäminen
 Peruskalenterin voi määrittää yritykselle ja sen liikekumppaneille, esimerkiksi asiakkaille, toimittajille tai sijainneille. Toimituksen ja vastaanoton päivämäärät lasketaan tuleville myyntitilaus-, ostotilaus-, siirtotilaus- ja tuotantotilausriveille kalenteriin määritettyjen työpäivien mukaisesti. Päätehtävä uuden peruskalenterin määrittämisessä on käytettävien, muiden kuin työpäivien eritteleminen ja määritteleminen.  
@@ -41,7 +41,7 @@ Kun teet tapahtuman, **Ei työskentely** -kenttä on valittuna. Voit valita vali
 
 > [!IMPORTANT]  
 >  Toimittajalle tai sijainnille määritetyt peruskalenterit vaikuttavat siihen, kuinka päivämäärät lasketaan ja pyöristetään työpäiviin.
-Määrittää päivämääräkaavan ajalle, joka kuluu nimikkeen täydentämiseen. Sen avulla lasketaan **Suun. vast.otto pvm** -kentän arvo eteenpäin laskettaessa ja **Tilauspvm**-kentän arvo taaksepäin laskettaessa. Lisätietoja on kohdassa Toimitusajan laskenta.
+Määrittää päivämääräkaavan ajalle, joka kuluu nimikkeen täydentämiseen. Sen avulla lasketaan **Suun. vast.otto pvm** -kentän arvo eteenpäin laskettaessa ja **Tilauspvm**-kentän arvo taaksepäin laskettaessa. Katso [Toimitusajan laskenta](across-how-to-assign-base-calendars.md#lead-time-calculation).
 
 ## <a name="lead-time-calculation"></a>Toimitusajan laskenta
 Toimittajalle tai sijainnille määritetyt peruskalenterit vaikuttavat siihen, kuinka päivämäärät lasketaan ja pyöristetään työpäiviin. Näin ollen ostotilauksen rivien kaksi päivämääräkenttää lasketaan seuraavasti eri olosuhteissa.
@@ -55,7 +55,7 @@ Toimittajalle tai sijainnille määritetyt peruskalenterit vaikuttavat siihen, k
 > Suunniteltuun vastaanotto- ja tilauspäivämäärään vaikuttavan toimitusajan laskennan lisäksi (edellä olevan taulukon mukaisesti) fyysisen varaston käsittelyaika ja toimitusajan varmistus voidaan lisätä seuraavasti laskentakaavoihin, jotka muodostavat **Oletettu vastaanottopvm** -kentän arvon: suunniteltu vastaanottopäivä + toimitusajan varmistus + saapuvan fyysisen varastoinnin käsittelyaika = oletettu vastaanottopäivä.
 
 > [!Important]
-> Jos sijainnissa käytettävä kalenteri on hyvin erilainen kuin toimittajien käyttämät kalenterit, on tärkeää määrittää näille toimittajille erityiset kalenterit, joiden avulla toimittajille voidaan laskea parhaat mahdolliset toimitusajat. Lisätietoja toimittajan kalenterien määrittämisestä on kohdassa Peruskalenterin määrittäminen.
+> Jos sijainnissa käytettävä kalenteri on hyvin erilainen kuin toimittajien käyttämät kalenterit, on tärkeää määrittää näille toimittajille erityiset kalenterit, joiden avulla toimittajille voidaan laskea parhaat mahdolliset toimitusajat. Lisätietoja toimittajan kalenterien määrittämisestä on kohdassa [Peruskalenterin määrittäminen](across-how-to-assign-base-calendars.md#to-assign-a-base-calendar).
 
 **Toimitusajan laskenta** -kentän sisältö kopioidaan nimikkeen kortista tai varastointiyksikön kortista, jos nimikkeelle on määritelty toimitusaika, tai **Nimikkeen toimittajaluettelo** -sivulla, jos toimitusaika on määritetty toimittajalle.
 
@@ -119,4 +119,3 @@ Peruskalenterit määritetään omalle yritykselle, asiakkaille, toimittajille, 
 [Tuotanto](production-manage-manufacturing.md)    
 [Vaihto-omaisuus](inventory-manage-inventory.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

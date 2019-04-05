@@ -1,6 +1,6 @@
 ---
-title: "Asiakkaiden muistuttaminen tai sakottaminen erääntyneistä maksuista| Microsoft Docs"
-description: "Ohjeaiheessa kerrotaan, miten asiakkaalle lähetetään muistutus erääntyvästä maksusta ja miten maksuun lisätään myöhästymismaksu."
+title: Asiakkaiden muistuttaminen tai sakottaminen erääntyneistä maksuista| Microsoft Docs
+description: Ohjeaiheessa kerrotaan, miten asiakkaalle lähetetään muistutus erääntyvästä maksusta ja miten maksuun lisätään myöhästymismaksu.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: f33d8a851c1c5a8f3c464a44ebd1d6319131af09
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 3dfc2d9edbb72de196238748ab90ce8dd4990adb
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795467"
 ---
 # <a name="collect-outstanding-balances"></a>Avointen saldojen perintä
 Myyntisaamisten hallintaan kuuluu sen tarkistaminen, onko erääntyneet summat maksettu ajoissa. Jos asiakkailla on erääntyneitä maksuja, voit aloittaa lähettämällä heille asiakkaan tiliotteen raportin muistutuksena. Vaihtoehtoisesti voit lähettää muistutuksia.
@@ -99,10 +99,10 @@ Jos luot enemmän muistutuksia kuin mille olet määrittänyt tasoja, ohjelma k�
 |%11|Yrityksen nimi|  
 |%12|Muistutuksen otsikon **Lisämaksu riviä kohti** -kentän sisältö|  
 
-Jos kirjoitat kenttään esimerkiksi **Velkasi on %7 %9, joka erääntyy %2**, muistutustekstiksi tulee **Velkasi on 1200,50 PVA, joka erääntyy 2.2.2014.**.
+Jos kirjoitat kenttään esimerkiksi **Velkasi on %9 %7, joka erääntyy %2**, muistutustekstiksi tulee **Velkasi on 1200,50 PVA, joka erääntyy 2.2.2014.**.
 
 > [!NOTE]
-> Eräpäivä lasketaan annetun päivämääräkaavan mukaan. Lisätietoja on Päivämäärän kaavojen käyttäminen -osassa kohdassa [Päivämäärien antaminen](ui-enter-date-ranges.md).
+> Eräpäivä lasketaan annetun päivämääräkaavan mukaan. Lisätietoja on kohdassa [Päivämäärän kaavojen käyttäminen](ui-enter-date-ranges.md#using-date-formulas).
 
 Kun olet määrittänyt muistutusehdot sekä lisätasot ja tekstin, määritä jokin koodeista kussakin asiakkaan kortissa. Lisätietoja on kohdassa [Uusien asiakkaiden rekisteröinti](sales-how-register-new-customers.md).
 
@@ -254,4 +254,3 @@ Kun lähetät muistutuksen, muistutustapahtuma luodaan **Muistutus-/viivästysku
 [Myyntisaamisten hallinta](receivables-manage-receivables.md)  
 [Myynti](sales-manage-sales.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

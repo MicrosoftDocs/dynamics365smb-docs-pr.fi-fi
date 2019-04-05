@@ -1,23 +1,23 @@
 ---
 title: Nimiketapahtumien poistaminen ja uudelleenkohdistaminen | Microsoft Docs
-description: "Voit tarkastella ja muuttaa manuaalisesti tietyn nimikkeen kohdistustapahtumia, jotka on luotu automaattisesti varastotapahtumien yhteydessä."
+description: Voit tarkastella ja muuttaa manuaalisesti tietyn nimikkeen kohdistustapahtumia, jotka on luotu automaattisesti varastotapahtumien yhteydessä.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/27/2018
 ms.author: sgroespe
+ms.openlocfilehash: a05acc754c14342d70ffa7f1e9c003099e949cff
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 4774b278e5e71bd7464b8d7d391d16dab238dc0d
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795160"
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Nimiketapahtumien poistaminen ja uudelleenkohdistaminen
 Voit tarkastella ja muuttaa **Kohdistustyökirja**-sivulla manuaalisesti tietyn nimikkeen kohdistustapahtumia, jotka on luotu automaattisesti varastotapahtumien yhteydessä.  
@@ -80,4 +80,3 @@ Jos et tehdä uudelleenkohdistusta, kuten korjata kiinteää kohdistusta, asiaki
  [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)   
  [Rakennetiedot: Nimikkeen kohdistus](design-details-item-application.md)  
  [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

@@ -1,23 +1,23 @@
 ---
 title: Huoltojen laskujen ja hyvityslaskujen luominen | Microsoft Docs
-description: "Lisätietoja laskuista, joilla huollosta maksetaan."
+description: Lisätietoja laskuista, joilla huollosta maksetaan.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: a0c8cc9444c1b6979843beff55cc9e792ec188d0
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795929"
 ---
 # <a name="create-service-invoices-or-credit-memos"></a>Huoltolaskujen ja hyvityslaskujen luominen
 Huoltotilausten laskuttamisen helppous on yksi [!INCLUDE[d365fin](includes/d365fin_md.md)]:n tärkeimmistä ominaisuuksista. Voit lähettää laskun asiakkaille milloin tahansa tai voit luoda laskut jaksoittain.  
@@ -102,4 +102,3 @@ Huollon hyvityslaskuasiakirjaa käytetään yleensä silloin, kun asiakas palaut
 [Huoltolaskujen kirjaaminen](service-how-to-post-service-orders.md)  
 [Huoltohallinnon määrittäminen](service-setup-service.md)  
 [Huollon kirjaus](service-service-posting.md)  
-

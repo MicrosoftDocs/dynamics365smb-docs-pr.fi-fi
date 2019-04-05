@@ -1,24 +1,24 @@
 ---
-title: "Kustannuspaikkojen määrittäminen | Microsoft Docs"
-description: "Kustannuspaikat ovat osastoja, jotka ovat vastuussa kustannuksista ja tuloista. Kustannuspaikkakaavio vastaa pääkirjanpidon dimensiotietoja."
+title: Kustannuspaikkojen määrittäminen | Microsoft Docs
+description: Kustannuspaikat ovat osastoja, jotka ovat vastuussa kustannuksista ja tuloista. Kustannuspaikkakaavio vastaa pääkirjanpidon dimensiotietoja.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/13/2018
 ms.author: sgroespe
 redirect_url: finance-set-up-cost-accounting
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 252ebf514635ada8e07bfb1e950d0cff156d0bfc
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795154"
 ---
 # <a name="set-up-cost-centers"></a>Kustannuspaikkojen määrittäminen
 Kustannuspaikat ovat osastoja, jotka vastaavat tuloista ja menoista. Kustannuspaikkakaavio vastaa pääkirjanpidon dimensiotietoja. Voit määrittää kustannuspaikkakaavion seuraavilla tavoilla:  
@@ -26,9 +26,9 @@ Kustannuspaikat ovat osastoja, jotka vastaavat tuloista ja menoista. Kustannuspa
 -   Siirrä dimensioarvot pääkirjanpidosta kustannuspaikkakaavioon. Siirron jälkeen voit tehdä tarvittavat muutokset.  
 -   Luo uusi kustannuspaikan kaavio, joka on riippumaton pääkirjanpidosta, tai lisää uusi kustannuspaikka nykyiseen kustannuspaikan kaavioon. Sinun on luotava kukin kustannuspaikka erikseen.  
 
-## <a name="to-transfer-dimension-values-in-the-general-ledger-to-the-chart-of-cost-centers"></a>Siirrä dimensioarvot pääkirjanpidosta kustannuspaikkakaavioon  
+## <a name="to-transfer-dimension-values-in-the-general-ledger-to-the-chart-of-cost-centers"></a>Dimensioarvojen siirtäminen pääkirjanpidosta kustannuspaikkakaavioon  
 1.  Määritä dimensio kustannuspaikan dimensioksi **Päivitä kustannuslaskennan dimensiot** -sivulla. Vain tämän dimension arvot siirretään.  
-2.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kustannuspaikkakartta** ja valitse sitten liittyvä linkki.  
+2.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Kustannuspaikkakartta** ja valitse sitten liittyvä linkki.  
 3.  Valitse **Toiminnot**-välilehden **Funktiot**-ryhmässä **Nouda kustannuspaikat dimensiosta**, jolloin dimensioarvot siirretään kustannuspaikkakaavioon. Toiminto siirtää kohdassa 1 määritetyt dimensioarvot.  
 
     > [!NOTE]  
@@ -40,7 +40,7 @@ Kustannuspaikkakaavio sisältää nyt kaikki pääkirjanpidossa määritetyt dim
 Voit määrittää ja ylläpitää kustannuspaikkoja joko **Kustannuspaikan kortti** -kortissa tai **Kustannuspaikkakartta**-sivulla. Tässä toimenpiteessä määrität kustannuspaikat **Kustannuspaikkakartta**-sivulla.  
 
 1. Avaa **Kustannuspaikkakartta**-sivu muokkaustilassa.  
-2. Syötä kustannuspaikkakoodi **Koodi**-kenttään. Kaikilla kustannuspaikoilla on oltava koodi.  
+2. Anna kustannuspaikkakoodi **Koodi**-kentässä. Kaikilla kustannuspaikoilla on oltava koodi.  
 3. Syötä kustannuspaikan nimi **Nimi**-kenttään.  
 4. Määritä kustannuspaikan tarkoitus valitsemalla avattava nuoli **Rivityyppi**-kentässä.  
 
@@ -59,4 +59,3 @@ Voit määrittää ja ylläpitää kustannuspaikkoja joko **Kustannuspaikan kort
 [Termit kustannuslaskennassa](finance-terminology-in-cost-accounting.md)   
 [Tietoja kustannuslaskennasta](finance-about-cost-accounting.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

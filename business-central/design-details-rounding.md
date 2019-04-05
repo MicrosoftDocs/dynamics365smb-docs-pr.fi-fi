@@ -1,23 +1,23 @@
 ---
-title: "Rakennetiedot – Pyöristys | Microsoft Docs"
-description: "Pyöristyksestä voi jäädä jäännöksiä, kun arvioit varaston vähennyksen kustannuksia, jotka on mitattu eri määristä, kuin vastaava varaston kasvu. Pyöristyksen jäännökset lasketaan kaikille kustannuslaskentamenetelmille, kun suoritat **Muuta kustannuksia - Nimiketapahtumat** -eräajon."
+title: Rakennetiedot – Pyöristys | Microsoft Docs
+description: Pyöristyksestä voi jäädä jäännöksiä, kun arvioit varaston vähennyksen kustannuksia, jotka on mitattu eri määristä, kuin vastaava varaston kasvu. Pyöristyksen jäännökset lasketaan kaikille kustannuslaskentamenetelmille, kun suoritat **Muuta kustannuksia - Nimiketapahtumat** -eräajon.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 2d866fda09934aadf9744f152f3a711193ac23f0
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 231481ed9b8de81fb565e86e9b89c96434545cbf
-ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795159"
 ---
 # <a name="design-details-rounding"></a>Rakennetiedot: pyöristys
 Pyöristyksestä voi jäädä jäännöksiä, kun arvioit varaston vähennyksen kustannuksia, jotka on mitattu eri määristä kuin vastaava varaston kasvu. Pyöristyksen jäännökset lasketaan kaikille kustannuslaskentamenetelmille, kun suoritat **Muuta kustannuksia - Nimiketapahtumat** -eräajon.  
@@ -67,4 +67,3 @@ Pyöristyksestä voi jäädä jäännöksiä, kun arvioit varaston vähennyksen 
  [Rakennetiedot: Arvostusmenetelmät](design-details-costing-methods.md) [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)  
  [Rahoitus](finance.md)  
  [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

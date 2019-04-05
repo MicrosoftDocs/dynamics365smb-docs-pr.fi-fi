@@ -1,6 +1,6 @@
 ---
-title: "Kirjanpidon käyttöomaisuuden määrittäminen| Microsoft Docs"
-description: "Ennen kuin voit käyttää käyttöomaisuutta, sinun tulee määrittää oletusarvoiset KP-tilit, kirjausryhmät, kohdistusavaimet, päiväkirjamallit ja -erät, sekä luokkakoodit."
+title: Kirjanpidon käyttöomaisuuden määrittäminen| Microsoft Docs
+description: Ennen kuin voit käyttää käyttöomaisuutta, sinun tulee määrittää oletusarvoiset KP-tilit, kirjausryhmät, kohdistusavaimet, päiväkirjamallit ja -erät, sekä luokkakoodit.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: ae2f0258dce727be456340f3e6905d0a60208ac2
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795898"
 ---
 # <a name="set-up-general-fixed-assets-information"></a>Käyttöomaisuuden yleisten tietojen määrittäminen
 Ennen kuin voit hallita käyttöomaisuuseriä, sinun on määritettävä oletusarvoiset KP-tilit, kohdistustunnukset, päiväkirjamallit ja -erät käyttöomaisuuden kirjaamista ja uudelleenluokittelua varten. Voit luokitella käyttöomaisuuserät luokkiin, kuten aineellisiin ja aineettomiin.
@@ -123,4 +123,3 @@ Jos käyttöomaisuutta ei ole integroitu käyttöomaisuuden kanssa, ohita työva
 [Rahoitus](finance.md)  
 [Käytön aloittaminen](product-get-started.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

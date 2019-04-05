@@ -1,23 +1,23 @@
 ---
-title: "Ostojen hyväksyntätyönkulun määrittäminen ja käyttäminen | Microsoft Docs"
-description: "Voit automatisoida uusien tai muuttuneiden tietueiden hyväksymisprosessin esimerkiksi asiakirjojen, kirjausrivien ja asiakaskorttien kohdalla luomalla työnkulkuihin hyväksymisvaiheet. Ennen kuin luot hyväksymistyönkulkuja, määritä hyväksyjä ja varahyväksyjä jokaiselle hyväksyjäkäyttäjälle. Voit myös määrittää hyväksyjille rajat niille myynti -ja ostotietueille, joita he saavat hyväksyä. Hyväksymispyynnöt ja muut ilmoitukset voidaan lähettää sähköpostina tai sisäisenä muistiona. Kunkin hyväksyjäkäyttäjän asetuksiin voit määrittää myös milloin he saavat ilmoituksia."
+title: Ostojen hyväksyntätyönkulun määrittäminen ja käyttäminen | Microsoft Docs
+description: Voit automatisoida uusien tai muuttuneiden tietueiden hyväksymisprosessin esimerkiksi asiakirjojen, kirjausrivien ja asiakaskorttien kohdalla luomalla työnkulkuihin hyväksymisvaiheet. Ennen kuin luot hyväksymistyönkulkuja, määritä hyväksyjä ja varahyväksyjä jokaiselle hyväksyjäkäyttäjälle. Voit myös määrittää hyväksyjille rajat niille myynti -ja ostotietueille, joita he saavat hyväksyä. Hyväksymispyynnöt ja muut ilmoitukset voidaan lähettää sähköpostina tai sisäisenä muistiona. Kunkin hyväksyjäkäyttäjän asetuksiin voit määrittää myös milloin he saavat ilmoituksia.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/08/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: d7af9edc0620a61f6e3f114feff3a831e91add57
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795476"
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Vaihekuvaus: Ostojen hyväksyntä -työnkulun määrittäminen ja käyttäminen
 Voit automatisoida uusien tai muuttuneiden tietueiden hyväksymisprosessin esimerkiksi asiakirjojen, kirjausrivien ja asiakaskorttien kohdalla luomalla työnkulkuihin hyväksymisvaiheet. Ennen kuin luot hyväksymistyönkulkuja, määritä hyväksyjä ja varahyväksyjä jokaiselle hyväksyjäkäyttäjälle. Voit myös määrittää hyväksyjille rajat niille myynti -ja ostotietueille, joita he saavat hyväksyä. Hyväksymispyynnöt ja muut ilmoitukset voidaan lähettää sähköpostina tai sisäisenä muistiona. Voit määrittää kunkin hyväksyjäkäyttäjän asetuksiin myös milloin he saavat ilmoituksia.
@@ -40,7 +40,7 @@ Tässä vaihekuvauksessa käsitellään seuraavia tehtäviä:
 Tarvitse tämän vaihekuvauksen loppuun viemiseen CRONUS Finland Oy -esittely-yrityksen.
 
 ## <a name="story"></a>Taustatietoja  
-Sean on CRONUS-superkäyttäjä. Hän luo kaksi hyväksyjää. Yksi on Alicia, joka edustaa ostajaa. Toinen on hän itse edustaen Alician hyväksyjää. Sean antaa itselleen rajaton ostojen hyväksyntä oikeudet ja määrittää, että hän saa ilmoituksia sisäisenä muistiona mahdollisimman pian asian tapahtumasta. Lopuksi Sean luon pyydetyn hyväksynnän työnkulun kopioksi olemassa olevasta ostotilauksen hyväksymisen työnkulusta jättäen kaikki olemassa olevan tapahtuman ehdot ja vastausvaihtoehdot ennalleen ja sitten ottaa työnkulun käyttöön.  
+Sean on superkäyttäjänä CRONUSissa. Hän luo kaksi hyväksyjää. Yksi on Alicia, joka edustaa ostajaa. Toinen on hän itse edustaen Alician hyväksyjää. Sean antaa itselleen rajaton ostojen hyväksyntä oikeudet ja määrittää, että hän saa ilmoituksia sisäisenä muistiona mahdollisimman pian asian tapahtumasta. Lopuksi Sean luon pyydetyn hyväksynnän työnkulun kopioksi olemassa olevasta ostotilauksen hyväksymisen työnkulusta jättäen kaikki olemassa olevan tapahtuman ehdot ja vastausvaihtoehdot ennalleen ja sitten ottaa työnkulun käyttöön.  
 
 Sean testaa hyväksyntätyönkulkua kirjautumalla ensin [!INCLUDE[d365fin](includes/d365fin_md.md)]iin Aliciana ja pyytää ostotilauksen hyväksymistä. Sean sitten kirjautuu omalla tunnuksellaan, näkee huomautuksen hänen Roolikeskuksessa, seuraa linkkiä ostotilauksen hyväksymispyyntöön ja hyväksyy pyynnön.  
 
@@ -120,4 +120,3 @@ Jos liiketoimintaskenaario edellyttää työnkulun tapahtumaa tai vastausta, jok
 [Hyväksymistyönkulkujen käyttäminen](across-how-use-approval-workflows.md)   
 [Työnkulku](across-workflow.md)  
 [Business Central -sovelluksen käyttäminen automaattisessa työnkulussa](across-how-use-financials-data-source-flow.md)
-

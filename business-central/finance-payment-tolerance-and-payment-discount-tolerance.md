@@ -1,23 +1,23 @@
 ---
 title: Maksutoleranssi ja maksualennustoleranssi | Microsoft Docs
-description: "Voit määrittää maksutoleranssin sulkeaksesi laskun, kun maksu ei täysin kata laskun summaa."
+description: Voit määrittää maksutoleranssin sulkeaksesi laskun, kun maksu ei täysin kata laskun summaa.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 83680cb4583cfe24deca310cb9c74ba9ab7b50f1
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: abbfa389e38e60b7b5470f1f390d370f8d43c6b5
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795000"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Maksutoleranssien ja maksualennustoleranssien käsitteleminen
 Voit määrittää maksutoleranssin ja sulkea sen avulla laskun, kun maksu ei täysin kata laskun summaa. Voit määrittää maksualennustoleranssin, jolla voi myöntää maksualennuksen sen jälkeen kun maksualennuspäivämäärä on ohitettu.  
@@ -31,14 +31,14 @@ Yksittäisellä asiakirjalla on sama maksutoleranssi riippumatta siitä kohdiste
 
 *maksualennuspvm < maksupvm (kohdetapahtumalla) <= maksutoleranssipvm*  
 
-Tämä sääntö määrittää myös sen, näytetäänkö varoituksia, kun maksutoleranssia käytetään useissa tiedostoissa. Maksualennuksen toleranssivaroitus näytetään jokaiselle tapahtumalle, joka täyttää päivämääräkriteerin. Lisätietoja on kohdassa Esimerkki 2 – Useiden asiakirjojen toleranssilaskelmat.
+Tämä sääntö määrittää myös sen, näytetäänkö varoituksia, kun maksutoleranssia käytetään useissa tiedostoissa. Maksualennuksen toleranssivaroitus näytetään jokaiselle tapahtumalle, joka täyttää päivämääräkriteerin. Lisätietoja on kohdassa [Esimerkki 2 – Useiden asiakirjojen toleranssilaskelmat](finance-payment-tolerance-and-payment-discount-tolerance.md#example-2---tolerance-calculations-for-multiple-documents).
 
 Voit tuoda näyttöön varoituksen, joka perustuu eri poikkeamatilanteisiin.  
 
 - Ensimmäinen varoitusteksti liittyy maksualennustoleranssiin. Saat tiedon, että voit hyväksyä myöhästyneen maksualennuksen. Sitten voit valita hyväksytkö toleranssin alennuspäivänä.  
 - Toinen varoitusteksti liittyy maksutoleranssiin. Käyttäjälle ilmoitetaan, että kaikki tapahtumat voidaan sulkea, koska ero on pienempi kuin maksimi maksutoleranssi kohdistettaville tapahtumille. Sitten voit valita hyväksytkö toleranssin maksumäärässä.
 
-Lisätietoja on kohdassa Maksutoleranssin varoituksen ottaminen käyttöön tai poistaminen käytöstä.     
+Lisätietoja on kohdassa [Maksutoleranssin varoitusten käyttöönotto tai käytöstäpoisto](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings).     
 
 ## <a name="to-set-up-tolerances"></a>Toleranssien määrittäminen  
 Toleranssi päivillä ja summilla sallii laskun sulkemisen vaikka maksu ei täysin kata laskun summaa, johtuu tämä sitten maksualennuspäivän ylittämisestä, virheellisten tavaroiden aiheuttamasta vähennyksestä tai pienestä virheestä. Tämä pätee myös hyvityksiin ja hyvityslaskuihin.  
@@ -60,9 +60,9 @@ Määrittääksesi toleranssin sinun tulee määrittää useita toleranssitilej�
 >  Nyt olet määrittänyt maksutoleranssin vain paikalliselle valuutalle. Jos haluat, että [!INCLUDE[d365fin](includes/d365fin_md.md)] käsittelevän maksujen, hyvityslaskujen ja hyvitysten toleransseja ulkomaan valuuttana, sinun on tehtävä **Muuta maksutoleranssia** -eräajo **Valuuttakoodi**-kentän arvolla.  
 
 > [!NOTE]  
->  Mikäli haluat saada maksutoleranssivaroituksen joka kerran kun kirjaat kohdistuksen, joka osuu toleranssialueelle, sinun tulee aktivoida maksualennusvaroitus. Lisätietoja on kohdassa Maksutoleranssin varoituksen ottaminen käyttöön tai poistaminen käytöstä.  
+>  Mikäli haluat saada maksutoleranssivaroituksen joka kerran kun kirjaat kohdistuksen, joka osuu toleranssialueelle, sinun tulee aktivoida maksualennusvaroitus. Lisätietoja on kohdassa [Maksutoleranssin varoituksen ottaminen käyttöön tai poistaminen käytöstä](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings).  
 >   
->  Jos haluat poistaa toleranssin käytöstä asiakkaalta tai toimittajalta, toleranssit on estettävä kyseisen asiakkaan tai toimittajan kortissa. Lisätietoja on kohdassa Asiakkaiden maksutoleranssin estäminen.  
+>  Jos haluat poistaa toleranssin käytöstä asiakkaalta tai toimittajalta, toleranssit on estettävä kyseisen asiakkaan tai toimittajan kortissa. Lisätietoja on kohdassa [Asiakkaiden maksutoleranssin estäminen](finance-payment-tolerance-and-payment-discount-tolerance.md#to-block-payment-tolerance-for-customers).  
 >   
 >  Kun määrität toleranssin, [!INCLUDE[d365fin](includes/d365fin_md.md)] tarkastaa onko avoimia tapahtumia ja laskee toleranssin myös näille tapahtumille.
 
@@ -262,4 +262,3 @@ Normaalit kohdistussäännöt
 [Rahoituksen määrittäminen](finance-setup-finance.md)  
 [Myyntisaamisten hallinta](receivables-manage-receivables.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

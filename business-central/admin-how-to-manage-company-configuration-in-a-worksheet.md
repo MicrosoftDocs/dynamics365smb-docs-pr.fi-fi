@@ -1,23 +1,23 @@
 ---
-title: "Yrityksen määrittämisen hallinta työkirjassa | Microsoft Docs"
-description: "Määritykset-työkirja on keskitetty sijainti, jossa voit suunnitella, seurata ja tehdä määrityksiä. Voit luoda taulukon kunkin yrityksen osalta, jonka kanssa toimit tai luoda perusmäärityskirjan, jonka avulla voidaan määrittää useita samankaltaisia yrityksiä."
+title: Yrityksen määrittämisen hallinta työkirjassa | Microsoft Docs
+description: Määritykset-työkirja on keskitetty sijainti, jossa voit suunnitella, seurata ja tehdä määrityksiä. Voit luoda taulukon kunkin yrityksen osalta, jonka kanssa toimit tai luoda perusmäärityskirjan, jonka avulla voidaan määrittää useita samankaltaisia yrityksiä.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 12/07/2018
 ms.author: sgroespe
+ms.openlocfilehash: bd228a418db3b3ee0b3094a0da520dea6139281c
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
-ms.openlocfilehash: 1ba27ee0ac252bbe1fd47b900654980df5b18fdf
-ms.contentlocale: fi-fi
-ms.lasthandoff: 12/11/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796027"
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>Yrityksen määrittämisen hallinta työkirjassa
 Määritykset-työkirja on keskitetty sijainti, jossa voit suunnitella, seurata ja tehdä määrityksiä. Voit luoda taulukon kunkin yrityksen osalta, jonka kanssa toimit tai luoda perusmäärityskirjan, jonka avulla voidaan määrittää useita samankaltaisia yrityksiä.  
@@ -74,7 +74,7 @@ Seuraavissa ohjeissa näytetään, miten voit lisätä ja mukauttaa kokoonpanosi
     > Esimerkki: Jos saat liittyvät taulukot **Asiakas**-taulukolle, tällöin **Sijainti**-taulukkoa ei lisätä, koska se liittyy **Asiakas**-taulukkoon vain ehdollisesti, jos **Asiakas**-taulukon **Sijaintikoodi**-kenttä täytetään.  
     > - Liittyvä taulukko on suodatettu.  
     > Esimerkki: liittyvän taulukon kentässä on WHERE-lause. Syy tähän on, että suhteisiin liittyvät tiedot on tallennettu **Kenttä**-virtuaalitaulukkoon ja ne eivät ole suorituskyvystä johtuen käytettävissä sivulla kuten määritystyökirja.  
-    > Lisää tällaiset monimutkaisia suhteita sisältävät liittyvät taulukot manuaalisesti Taulukon lisääminen työkirjaan -osan vaiheen 4 ohjeiden mukaisesti.
+    > Lisää tällaiset monimutkaisia suhteita sisältävät liittyvät taulukot manuaalisesti kohdan [Taulukon lisääminen työkirjaan](admin-how-to-manage-company-configuration-in-a-worksheet.md#to-add-a-table-to-the-worksheet) vaiheen 4 ohjeiden mukaisesti.
 
 7. Poista taulukoita taulukkoluettelon taulukoita valitsemalla taulukko, jonka haluat poistaa, ja valitsemalla sitten **Poista**-toiminto.  
 
@@ -128,4 +128,3 @@ Kun luot kokoonpanonpaketin ratkaisua varten, voit tarkastella ja mukauttaa käy
 [Määritä yrityksen konfigurointi](admin-set-up-company-configuration.md)  
 [Yrityksen määrittäminen RapidStart Services -palvelun avulla](admin-set-up-a-company-with-rapidstart.md)  
 [Hallinta](admin-setup-and-administration.md)
-

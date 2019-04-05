@@ -1,8 +1,8 @@
 ---
 title: Sovelluksen luominen omista tiedoista| Microsoft Docs
-description: "Voit tehdä Business Central -tiedoistasi tietolähteen ja määrittää verkkopalveluidesi OData-osoitteen, jolla luot PowerApps-sovelluksen avulla yrityssovelluksen."
+description: Voit tehdä Business Central -tiedoistasi tietolähteen ja määrittää verkkopalveluidesi OData-osoitteen, jolla luot PowerApps-sovelluksen avulla yrityssovelluksen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: Odata, Power App, SOAP
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
 ms.openlocfilehash: 5c07daf590fb87d318d2d3dc656e17838f23de8a
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/29/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796125"
 ---
 # <a name="connecting-to-your-business-central-data-to-build-a-business-app-using-powerapps"></a>Yhteyden muodostaminen Business Central -tietoihin yrityssovelluksen luomista varten PowerApps-sovellusten avulla
 Voit käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]-tietoja PowerAppsin tietolähteenä.  
@@ -28,11 +28,11 @@ Voit käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]-tietoja PowerAppsin 
 ## <a name="to-add-included365finincludesd365finmdmd-as-a-data-source-in-powerapps"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)]in lisääminen PowerAppsin tietolähteeksi
 1. Siirry selaimessa osoitteeseen [powerapps.microsoft.com](https://powerapps.microsoft.com/en-us/) ja kirjaudu sisään.
 2. Valitse vasemmassa siirtymisruudussa **Uusi sovellus**.
-3. Valitse editori: joko Windowsin PowerApps Studio tai Verkon PowerApps Studio.
+3. Valitse editoriksi Windowsin PowerApps Studio tai Verkon PowerApps Studio.
 
    Windowsin PowerApps Studio on työpöytäsovellus, jolla luodaan ja julkaistaan PowerApp-sovelluksia. Verkon PowerApps Studio on verkkoratkaisu, jolla luodaan ja julkaistaan PowerApp-sovelluksia.
 4. PowerApp-sovelluksen luonnin seuraavana vaiheena on tietojen valinta. Valitse sivun vasemmassa yläosassa ensin nuolikuvake ja sitten **Uusi yhteys** -asetus.
-5. Valitse käytettävissä olevien yhteyksien luettelosta **Dynamics 365 Business Central**.
+5. Valitse käytettävissä olevien yhteyksien luettelossa **Dynamics 365 Business Central**.
 6. PowerApps näyttää yhteyssivun, joka kysyy sinulta tietoja, jotka on yhdistettävä [!INCLUDE[d365fin](includes/d365fin_md.md)]-tietoihin. Yhteyttä varten on määritettävä ODatan URL-osoite, käyttäjänimi, salasana ja yrityksen nimi.
 
    Voit kopioida *OData URL* -osoitteeksi minkä tahansa [!INCLUDE[d365fin](includes/d365fin_md.md)]in **WWW-palvelut**-sivulla mainitun verkkopalvelun OData V4 URL-osoitteen, kuten `https://mycompany.businesscentral.dynamics.com:7048/MS/ODataV4/`.  
@@ -46,7 +46,7 @@ Voit käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]-tietoja PowerAppsin 
 
    Voit vaihtoehtoisesti luoda uuden verkkopalvelun URL-osoitteen [!INCLUDE[d365fin](includes/d365fin_md.md)]issa käyttämällä **Luo tietojoukko** -toimintoa **WWW-palvelut**-sivulla tai asetusten ohjattua **Määritä raportointi** -määritystä tai valitsemalla **Muokkaa Excelissä** -toiminnon jossakin luettelossa.
 8. Valitse ensin PowerApp-sovelluksessa käytettävä taulukko ja sitten **Yhteys**-painike.
-9. Lisää muita [!INCLUDE[d365fin](includes/d365fin_md.md)]-tietoja Power BI -tietomalliin toistamalla edellä olevat vaiheet.
+9. Lisää muita [!INCLUDE[d365fin](includes/d365fin_md.md)] -tietoja Power BI -tietomalliin toistamalla edellä olevat vaiheet.
 
    > [!NOTE]  
    >    Kun [!INCLUDE[d365fin](includes/d365fin_md.md)] -yhteys on muodostettu, ODatan URL-osoitetta, käyttäjänimeä tai salasanaa ei enää kysytä.
@@ -58,4 +58,3 @@ Olet nyt muodostanut yhteyden Business Central -tietoihin ja olet valmis aloitta
 [Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittäminen](setup.md)  
 [Rahoitus](finance.md)  
-

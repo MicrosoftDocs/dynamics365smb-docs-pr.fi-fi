@@ -1,23 +1,23 @@
 ---
-title: "KP-raporttimallien KPI-verkkopalvelun määrittäminen ja julkaiseminen | Microsoft Docs"
-description: "Tässä ohjeaiheessa kuvataan, miten KP-raporttimallin KPI-tiedot näytetään tietyissä KP-raporttimalleissa."
+title: KP-raporttimallien KPI-verkkopalvelun määrittäminen ja julkaiseminen | Microsoft Docs
+description: Tässä ohjeaiheessa kuvataan, miten KP-raporttimallin KPI-tiedot näytetään tietyissä KP-raporttimalleissa.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 89ea440851c359db7e08d4f0265a647cb9424330
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795599"
 ---
 # <a name="set-up-and-publish-kpi-web-services-based-on-account-schedules"></a>KP-raporttimalleihin perustuvan KPI-verkkopalvelun määrittäminen ja julkaiseminen
 Voit määrittää **KP-raporttimallin KPI-verkkopalvelun asetukset** -sivulla, miten KP-raporttimallin KPI-tiedot näytetään ja mihin tiettyihin KP-raporttimalleihin KPI:t perustuvat. Kun valitset **Julkaise verkkopalvelu** -painikkeen, määritellyt KP-raporttimallin KPI-tiedot lisätään julkaistujen verkkopalveluiden luetteloon **Verkkopalvelut**-sivulla.  
@@ -57,4 +57,3 @@ Voit määrittää **KP-raporttimallin KPI-verkkopalvelun asetukset** -sivulla, 
 [Rahoituksen määrittäminen](finance-setup-finance.md)  
 [Pääkirjanpito ja tilikartta](finance-general-ledger.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

@@ -1,21 +1,21 @@
 ---
-title: "Tietoja tiedonsiirtokehyksestä | Microsoft Docs"
-description: "Pankkitiedostojen, sähköisten asiakirjojen, valuutanvaihtokurssien ja muiden ERP-järjestelmien tiedostonvaihtomuoto vaihtelee datatiedoston, virran ja maan tai alueen mukaan."
+title: Tietoja tiedonsiirtokehyksestä | Microsoft Docs
+description: Pankkitiedostojen, sähköisten asiakirjojen, valuutanvaihtokurssien ja muiden ERP-järjestelmien tiedostonvaihtomuoto vaihtelee datatiedoston, virran ja maan tai alueen mukaan.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 4c0fdd965f56f811ab9ce3346b3c408702df87bf
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4b63e47d812f3a263848e1d7388b6ca7f7b3eb9f
-ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796117"
 ---
 # <a name="about-the-data-exchange-framework-in-included365finincludesd365finmdmd"></a>Tietoja [!INCLUDE[d365fin](includes/d365fin_md.md)]in tiedonsiirtokehyksestä
 Pankkitiedostojen, sähköisten asiakirjojen, valuutanvaihtokurssien ja muiden ERP-järjestelmien tiedostonvaihtomuoto vaihtelee datatiedoston, virran ja maan tai alueen mukaan. [!INCLUDE[d365fin](includes/d365fin_md.md)] tukee erilaisia pankkitiedostomuotoja ja tietopalvelustandardeja. Käyttämällä tiedonsiirtokehystä voidaan tukea myös muita sähköisiä asiakirjamuotoja. Lisätietoja on kohdassa [Sähköinen tiedonsiirto](across-data-exchange.md).    
@@ -33,4 +33,3 @@ Pankkitiedostojen, sähköisten asiakirjojen, valuutanvaihtokurssien ja muiden E
 [Tiedonsiirto](across-exchange-data.md)  
 [Saapuvat asiakirjat](across-income-documents.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)  
-

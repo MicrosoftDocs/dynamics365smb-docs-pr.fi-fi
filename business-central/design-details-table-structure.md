@@ -1,23 +1,23 @@
 ---
-title: "Rakenteen tiedot – taulukon rakenne | Microsoft Docs"
-description: "Dimensiotapahtumien tallennuksen ja kirjauksen uudelleensuunnittelun ymmärtäminen edellyttää taulukkorakenteen ymmärtämistä."
+title: Rakenteen tiedot – taulukon rakenne | Microsoft Docs
+description: Dimensiotapahtumien tallennuksen ja kirjauksen uudelleensuunnittelun ymmärtäminen edellyttää taulukkorakenteen ymmärtämistä.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 02/11/2019
 ms.author: sgroespe
+ms.openlocfilehash: b2e87b2ef999c04cc4c878d4ad087329d644b709
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 900605cd276698e3e6146d18e36ed18363b6c99c
-ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795371"
 ---
 # <a name="design-details-table-structure"></a>Rakennetiedot: taulukkorakenne
 Dimensiotapahtumien tallennuksen ja kirjauksen uudelleensuunnittelun ymmärtäminen edellyttää taulukkorakenteen ymmärtämistä.  
@@ -26,7 +26,7 @@ Dimensiotapahtumien tallennuksen ja kirjauksen uudelleensuunnittelun ymmärtämi
  Dimensioyhdistelmätapahtumien hallintaa varten on suunniteltu kolme uutta taulukkoa.  
 
 ### <a name="table-480-dimension-set-entry"></a>Taulukko 480 Dimensioyhdistelmän tapahtuma  
- Taulukko 480 **Dimensionasetuskirjaus** on uusi taulukko. Tätä taulukkoa ei voi muuttaa. Kun tiedot on kirjoitettu taulukkoon, et voi poistaa tai muokata niitä. Tietojen poistaminen edellyttää, että tarkistat kaikki dimensioyhdistelmän tunnuksen esiintymät tietokannassa, partner solutions -ratkaisut mukaan lukien.  
+ Tätä taulukkoa ei voi muuttaa. Kun tiedot on kirjoitettu taulukkoon, et voi poistaa tai muokata niitä.
 
 |Kentän nro|Kentän nimi|Tietotyyppi|Kommentti|  
 |---------------|----------------|---------------|-------------|  
@@ -37,8 +37,8 @@ Dimensiotapahtumien tallennuksen ja kirjauksen uudelleensuunnittelun ymmärtämi
 |5|**Dimension nimi**|Teksti 30|CalcField. Taulukon 348 haku.|  
 |6|**Dimensioarvon nimi**|Teksti 30|CalcField. Taulukon 349 haku.|  
 
-#### <a name="table-481-dimension-set-tree-node"></a>Taulukko 481 Dimensioyhdistelmän puusolmu  
- Taulukko 481 **Dimensionasetuksen puusolmu** on uusi taulukko. Tätä taulukkoa ei voi muuttaa. Sitä käytetään hakuun dimensioyhdistelmässä. Jos dimensioyhdistelmää ei löydy, tällöin luodaan uusi yhdistelmä.  
+### <a name="table-481-dimension-set-tree-node"></a>Taulukko 481 Dimensioyhdistelmän puusolmu  
+ Tätä taulukkoa ei voi muuttaa. Sitä käytetään hakuun dimensioyhdistelmässä. Jos dimensioyhdistelmää ei löydy, tällöin luodaan uusi yhdistelmä.  
 
 |Kentän nro|Kentän nimi|Tietotyyppi|Kommentti|  
 |---------------|----------------|---------------|-------------|  
@@ -47,8 +47,8 @@ Dimensiotapahtumien tallennuksen ja kirjauksen uudelleensuunnittelun ymmärtämi
 |3|**Dimensioyhdistelmän tunnus**|Kokonaisluku|AutoIncrement. Käytetään taulukon 480 kentässä 1.|  
 |4|**Käytössä**|Totuusarvo|Epätosi, jos se ei ole käytössä.|  
 
-##### <a name="table-482-reclas-dimension-set-buffer"></a>Taulukko 482 Uudelleenluokita dimensioyhdistelmän puskuri  
- Taulukko 482 **Uudelleenluok. dimensionasetuksen puskuri** on uusi taulukko. Tämän taulukon avulla voit muokata dimensioyhdistelmän tunnusta. Se on pakollinen, kun muokkaat dimensioarvokoodia ja uutta dimensioarvokoodia, esimerkiksi **Nimik. uud.luok.pvk**-taulukossa.  
+### <a name="table-482-reclas-dimension-set-buffer"></a>Taulukko 482 Uudelleenluokita dimensioyhdistelmän puskuri  
+ Taulukkoa käytetään, kun muutat dimensioarvon koodia esimerkiksi nimiketapahtumassa käyttämällä **Nimikkeen uudelleenluokituspäiväkirja** -sivua.  
 
 |Kentän nro|Kentän nimi|Tietotyyppi|Kommentti|  
 |---------------|----------------|---------------|-------------|  
@@ -71,7 +71,7 @@ Dimensiotapahtumien tallennuksen ja kirjauksen uudelleensuunnittelun ymmärtämi
 |---------------|----------------|---------------|-------------|  
 |480|**Dimensioyhdistelmän tunnus**|Kokonaisluku|Viittaukset kenttään 1 taulukossa 480.|  
 
-#### <a name="changes-to-table-83-item-journal-line"></a>Muutokset taulukkoon 83, nimikepäiväkirjan rivi  
+### <a name="changes-to-table-83-item-journal-line"></a>Muutokset taulukkoon 83, nimikepäiväkirjan rivi  
  Kaksi uutta kenttää on lisätty taulukkoon 83, **nimikepäiväkirjarivi**.  
 
 |Kentän nro|Kentän nimi|Tietotyyppi|Kommentti|  
@@ -79,14 +79,14 @@ Dimensiotapahtumien tallennuksen ja kirjauksen uudelleensuunnittelun ymmärtämi
 |480|**Dimensioyhdistelmän tunnus**|Kokonaisluku|Viittaukset kenttään 1 taulukossa 480.|  
 |481|**Uusi dimensioyhdistelmän tunnus**|Kokonaisluku|Viittaukset kenttään 1 taulukossa 480.|  
 
-##### <a name="changes-to-table-349-dimension-value"></a>Muutokset taulukkoon 349, dimensioarvo  
+### <a name="changes-to-table-349-dimension-value"></a>Muutokset taulukkoon 349, dimensioarvo  
  Taulukkoon 349 **Dimensioarvo** on lisätty uusi kenttä.  
 
 |Kentän nro|Kentän nimi|Tietotyyppi|Kommentti|  
 |---------------|----------------|---------------|-------------|  
 |12|**Dimensioarvon tunnus**|Kokonaisluku|AutoIncrement. Käytetään viitteinä taulukossa 480 ja 481.|  
 
-###### <a name="tables-that-get-new-field-480-dimension-set-id"></a>Taulukot, jotka saavat uuden kentän 480 Dimensionasetustunnus.  
+### <a name="tables-that-get-new-field-480-dimension-set-id"></a>Taulukot, jotka saavat uuden kentän 480 Dimensionasetustunnus.  
  Uusi kenttä, 480 **Dimensioyhdistelmän tunnus**, on lisätty seuraaviin taulukoihin. Kirjattua tietoa sisältävien taulukoiden osalta kenttä tarjoaa vain ei muokattavissa olevan näkymän niistä dimensioista, joilla on Poraudu-merkintä. Niiden taulukoiden kohdalla, jota tallentavat työasiakirjoja, kenttä on muokattavissa. Puskuritaulukoissa, joita käytetään sisäisesti, ei tarvita muokattava- tai ei-muokattava-kykyä.  
 
  480-kenttä ei ole muokattavissa seuraavissa taulukoissa.  
@@ -195,4 +195,3 @@ Dimensiotapahtumien tallennuksen ja kirjauksen uudelleensuunnittelun ymmärtämi
  [Rakennetiedot: dimensioyhdistelmien etsiminen](design-details-searching-for-dimension-combinations.md)   
  [Rakennetiedot: Koodiyksikön 408 dimension hallinta](design-details-codeunit-408-dimension-management.md)   
  [Rakennetiedot: koodiesimerkkejä muuttuneista kuvioista muutoksissa](design-details-code-examples-of-changed-patterns-in-modifications.md)
-

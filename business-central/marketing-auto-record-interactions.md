@@ -1,8 +1,8 @@
 ---
-title: "Vuorovaikutusten automaattisen tallennuksen määrittäminen| Microsoft Docs"
-description: "Voit tallentaa automaattisesti asiakkaiden kanssa tapahtuvan viestinnän, jotka liittyvät esimerkiksi myynti-, osto- tai huoltoasiakirjoihin tai puheluihin."
+title: Vuorovaikutusten automaattisen tallennuksen määrittäminen| Microsoft Docs
+description: Voit tallentaa automaattisesti asiakkaiden kanssa tapahtuvan viestinnän, jotka liittyvät esimerkiksi myynti-, osto- tai huoltoasiakirjoihin tai puheluihin.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: marketing, relationship, prospect, contact, client, customer
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 996bf575d463be365b0bbcdbeef319491065b873
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795655"
 ---
 # <a name="recording-interactions-with-contacts-automatically"></a>Kontaktien kanssa tapahtuvien vuorovaikutusten tallentaminen automaattisesti
 Voit määrittää sovelluksen niin, että myynti-, osto- ja huoltoasiakirjojen, kansilehtien, sähköpostien ja puheluiden vuorovaikutukset tallennetaan automaattisesti seuraavasti:
@@ -34,4 +34,3 @@ Jos haluat avata **Vuorovaikutusmallin asetukset** -sivun, valitse ![Lamppu, jok
 ## <a name="see-also"></a>Katso myös
 [Kontaktien kanssa tapahtuvien vuorovaikutusten tallentaminen](marketing-interactions.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
-

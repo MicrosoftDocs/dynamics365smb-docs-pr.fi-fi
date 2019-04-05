@@ -1,8 +1,8 @@
 ---
-title: "Pankkitoiminnan määrittäminen| Microsoft Docs"
-description: "Pankkitilikorttien avulla voit seurata pankkitilejäsi ja määrittää pankkisyötteitä, kuten Yodleen, tietojen vaihtoa varten."
+title: Pankkitoiminnan määrittäminen| Microsoft Docs
+description: Pankkitilikorttien avulla voit seurata pankkitilejäsi ja määrittää pankkisyötteitä, kuten Yodleen, tietojen vaihtoa varten.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 092d8d3f114eac890c97eca520de7b9adbc37108
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9506abc4296b9c414e942c220f6fb40f0884ea32
-ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796003"
 ---
 # <a name="setting-up-banking"></a>Pankkitoiminnan määrittäminen
 Pankkitilikorttien avulla voit seurata kaikkia pankkitilejäsi missä tahansa valuutassa. Kun olet määrittänyt pankkitilit, voit myös käyttää Sekin tulostus -vaihtoehtoa.
@@ -35,4 +35,3 @@ Voit käyttää sähköisiä pankkipalveluita pankin tiliotteiden tuonnissa ja m
 [Myyntisaamisten hallinta](receivables-manage-receivables.md)  
 [Ostovelkojen hallinta](payables-manage-payables.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

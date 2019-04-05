@@ -1,6 +1,6 @@
 ---
-title: "Asiakastapahtumien kohdistaminen maksujen täsmäyttämistä varten | Microsoft Docs"
-description: "Ohjeaiheessa kerrotaan, miten asiakkaan kassaanmaksut tai hyvitykset kohdistetaan vähintään yhteen avoimeen asiakastapahtumaan ja asiakasmaksut täsmäytetään."
+title: Asiakastapahtumien kohdistaminen maksujen täsmäyttämistä varten | Microsoft Docs
+description: Ohjeaiheessa kerrotaan, miten asiakkaan kassaanmaksut tai hyvitykset kohdistetaan vähintään yhteen avoimeen asiakastapahtumaan ja asiakasmaksut täsmäytetään.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,35 +8,35 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipt
-ms.date: 10/01/2018
+ms.date: 02/08/2019
 ms.author: sgroespe
+ms.openlocfilehash: f18cbb872d01daec391ca0c078f842a5cf89d74d
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 5f685ca69d9cf434e04e0c5205626eb24af3b5be
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795960"
 ---
-# <a name="reconcile-customer-payments-manually"></a>Täsmäytä asiakkaan maksut manuaalisesti
+# <a name="reconcile-customer-payments-with-the-cash-receipt-journal-or-from-customer-ledger-entries"></a>Asiakkaan maksujen täsmäyttäminen kassapäiväkirjan avulla tai asiakastapahtumista
 Kun asiakkaalta saadaan kassaanmaksu tai asiakkaalle tehdään käteishyvitys, on päätettävä, kohdistetaanko maksu tai hyvitys yhteen vai useaan avoimeen debet- tai kredit-tapahtumaan sen sulkemiseksi. Voit määrittää kohdistettavan summan. Voit esimerkiksi kohdistaa osamaksut asiakastapahtumiin. Asiakastapahtumat sulkeminen varmistaa, että tiedot, kuten asiakkaan tilastotiedot, tiliotteet ja viivästyskulut, ovat oikein.
 
-> [!NOTE]  
+> [!TIP]  
 >   Punainen fontti **Asiakastapahtumat**-sivulla ilmaisee, että liittyvä maksu on myöhässä. Jos erääntyneistä maksuista tulee ongelma, niitä voidaan vähentää. Voit ottaa käyttöön **Myöhäisten maksujen ennusteet** -laajennuksen, joka käyttää Azure Machine Learning -ratkaisussa luodun ennakoivan mallin. Sen avulla voi ennustaa maksujen ajoituksen. Näiden ennusteiden avulla voit vähentää avoimia myyntisaatavia ja tarkentaa perintästrategiaa. Jos maksun ennustetaan olevan myöhässä, voit esimerkiksi muuttaa asiakkaan maksuehtoja tai maksutapaa. Lisätietoja on kohdassa [Myöhästyneiden maksujen ennusteet](ui-extensions-late-payment-prediction.md).  
 
 Voit kohdistaa asiakastapahtumia eri tavoilla:
 
-* antamalla tiedot soveltuvilla sivuilla, kuten **Kassapäiväkirja**- ja **Maksujen täsmäytyskirjauskansio** -sivuilla.
-* myyntihyvityslaskuasiakirjoista
-* asiakastapahtumista sen jälkeen, kun myyntiasiakirjat on kirjattu, mutta ei kohdistettu.
+* Antamalla tiedot tietyillä sivuilla:
+    * **Maksujen täsmäytyskirjauskansio** -sivu. Lisätietoja on kohdassa [Maksujen kohdistaminen automaattisesti ja pankkitilien täsmäyttäminen](receivables-apply-payments-auto-reconcile-bank-accounts.md).
+    * **Maksurekisteröinti**-sivu. Lisätietoja on kohdassa [Asiakasmaksujen täsmäyttäminen maksamattomien myyntiasiakirjojen luettelosta](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md).
+    * **Kassapäiväkirja**. Tämä käsitellään jäljempänä.
+* Täyttämällä **Kohdistetaan asiakirjaan nro** -kenttä myyntihyvityslaskuasiakirjoissa. Tämä käsitellään jäljempänä.
+* Käyttämällä **Määritä kohdistustunniste** -toimintoa asiakastapahtumassa. Tämä käsitellään jäljempänä.
 
 > [!NOTE]  
 >   Jos asiakkaan kortin **Kohdistustapa**-kentän arvo on **Kohdista vanhimpaan**, maksut kohdistetaan automaattisesti vanhimpaan avoimeen kredit-tapahtumaan, ellei tapahtumaa määritetä manuaalisesti. Jos kohdistustapa on **Manuaalinen**, tapahtumat kohdistetaan aina manuaalisesti.
 
-Voit kohdistaa asiakkaan maksut manuaalisesti **Kassapäiväkirja**-sivulla. Kassapäiväkirja on yleisen päiväkirjan tyyppi, joten sitä voidaan käyttää kirjaamaan myyntitapahtumia yleinen päiväkirja -, pankki-, asiakas-, toimittaja- ja käyttöomaisuustileille. Voit kohdistaa maksun yhteen tai useampaan debet-tapahtumaan, kun kirjaat maksun, tai tehdä kohdistuksen myöhemmin kirjatuista tapahtumista.
-
-Voit kohdistaa asiakas- ja toimittajamaksuja myös **Maksujen täsmäytyskirjauskansio** -sivulla pankin tiliotteen tuonti-, automaattisen kohdistamis- ja pankkitilin täsmäyttämistoiminnoilla. Lisätietoja on kohdassa [Maksujen täsmäyttäminen käyttämällä automaattista kohdistusta](receivables-how-reconcile-payments-auto-application.md). Vaihtoehtoisesti voit täsmäyttää asiakasmaksut **Maksurekisteröinti**-sivun maksamattomien myyntiasiakirjojen luettelon perusteella. Lisätietoja on kohdassa [Asiakasmaksujen täsmäyttäminen maksamattomien myyntiasiakirjojen luettelosta](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md).
-
 ## <a name="to-fill-and-post-a-cash-receipt-journal"></a>Kassapäiväkirjan täyttäminen ja kirjaaminen
+Kassapäiväkirja on yleisen päiväkirjan tyyppi, joten sitä voidaan käyttää kirjaamaan myyntitapahtumia yleinen päiväkirja -, pankki-, asiakas-, toimittaja- ja käyttöomaisuustileille. Voit kohdistaa maksun yhteen tai useampaan debet-tapahtumaan, kun kirjaat maksun, tai tehdä kohdistuksen myöhemmin kirjatuista tapahtumista.
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kassapäiväkirja** ja valitse sitten liittyvä linkki.
 2. Valitse **Muokkaa päiväkirjaa** -toiminto.
 3. Valitse haluamasi erä **Erän nimi** -kentässä.
@@ -159,4 +159,3 @@ Kun kohdistus korjataan, ohjelma luo ja kirjaa korjaavat tapahtumat (eli tapahtu
 [Myyntisaamisten hallinta](receivables-manage-receivables.md)  
 [Myynti](sales-manage-sales.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

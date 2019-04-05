@@ -1,6 +1,6 @@
 ---
 title: Maksamattomien ostolaskujen korjaaminen tai peruuttaminen | Microsoft Docs
-description: "Tässä ohjeaiheessa kerrotaan, miten kirjattua lasku korjataan, peruutetaan tai kumotaan ja miten ostohyvityslasku luodaan automaattisesti."
+description: Tässä ohjeaiheessa kerrotaan, miten kirjattua lasku korjataan, peruutetaan tai kumotaan ja miten ostohyvityslasku luodaan automaattisesti.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: undo, credit memo, return
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 275b81fa2f4170208b166645a9b8778c1e6406a5
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795479"
 ---
 # <a name="correct-or-cancel-unpaid-purchase-invoices"></a>Maksamattomien ostolaskujen korjaaminen tai peruuttaminen
 Voit korjata tai peruuttaa maksamattoman ostolaskun. Tästä on hyötyä, jos haluat korjata kirjoitusvirheen tai muuttaa ostoa tilausprosessin alkuvaiheessa.
@@ -52,4 +52,3 @@ Valitse **Kirjattu ostolasku** -sivulla **Korjaa**- tai **Peruuta**-painike. Kun
 [Osto](purchasing-manage-purchasing.md)  
 [Ostojen kirjaus](purchasing-how-record-purchases.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

@@ -1,23 +1,23 @@
 ---
-title: "Yrityksen määrittäminen RapidStart Services -palvelun avulla | Microsoft Docs"
-description: "Voit määrittää uuden yrityksen Business Central -sovelluksessa RapidStart Services -palvelun kanssa. RapidStart Services on työkalu, joka on suunniteltu lyhentämään käyttöönottoa, parantamaan toteutuksen laatua, esittelemään toistettavia lähestymistapoja toteutuksiin, ja lisäämään tuottavuutta automatisoimalla ja yksinkertaistamalla toistuvia tehtäviä."
+title: Yrityksen määrittäminen RapidStart Services -palvelun avulla | Microsoft Docs
+description: Voit määrittää uuden yrityksen Business Central -sovelluksessa RapidStart Services -palvelun kanssa. RapidStart Services on työkalu, joka on suunniteltu lyhentämään käyttöönottoa, parantamaan toteutuksen laatua, esittelemään toistettavia lähestymistapoja toteutuksiin, ja lisäämään tuottavuutta automatisoimalla ja yksinkertaistamalla toistuvia tehtäviä.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 12/07/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
 ms.openlocfilehash: d7476674407dd505fafa8e82f3bfecc3aa5a5fee
-ms.contentlocale: fi-fi
-ms.lasthandoff: 12/11/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795002"
 ---
 # <a name="setting-up-a-company-with-rapidstart-services"></a>Yrityksen määrittäminen RapidStart Services -palvelun avulla
 Voit määrittää uuden yrityksen [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksessa RapidStart Services -palvelun kanssa. RapidStart Services -palvelun on työkalu, joka on suunniteltu lyhentämään käyttöönottoa, parantamaan toteutuksen laatua, esittelemään toistettavia lähestymistapoja toteutuksiin, ja lisäämään tuottavuutta automatisoimalla ja yksinkertaistamalla toistuvia tehtäviä.  
@@ -52,4 +52,3 @@ Voit käyttää seuraavia osia nopeuttaaksesi yrityksen määrittämistä:
 [Hallinta](admin-setup-and-administration.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittäminen](setup.md)  
 [Monimutkaisten sovellusalueiden määrittäminen parhaiden käytäntöjen avulla](set-up-complex-application-areas-using-best-practices.md)   
-

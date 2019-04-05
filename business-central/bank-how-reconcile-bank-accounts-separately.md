@@ -1,8 +1,8 @@
 ---
-title: "Pankkitilien täsmäyttäminen erikseen| Microsoft Docs"
-description: "Tässä artikkelissa kerrotaan, miten varastoarvo täsmäytetään pääkirjanpidon kanssa."
+title: Pankkitilien täsmäyttäminen erikseen| Microsoft Docs
+description: Tässä artikkelissa kerrotaan, miten varastoarvo täsmäytetään pääkirjanpidon kanssa.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: bank account balance, bank statement
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: feb29e3cee1a55833566657a6a007af8854f98f5
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795030"
 ---
 # <a name="reconcile-bank-accounts-separately"></a>Pankkitilien täsmäyttäminen erikseen
 [!INCLUDE[d365fin](includes/d365fin_md.md)] -pankkitilien täsmäyttäminen pankista saatujen tiliotteiden kanssa: Aloita täyttämällä vasemmanpuoleisessa ruudussa **Pankkitilin täsmäytys** -sivu pankin tiliotteen tiedoilla, jotka sitten täsmäytät oikean puoleisen ruudun pankkitilitapahtumien kanssa. Älykäs tapa täyttää tiliotteen rivit on pankin tiliotteen tuonti tiedostona tai syötteenä.
@@ -100,4 +100,3 @@ Joskus pankin tiliotteessa on koron tai veloitetun maksun summia. Tällaisia pan
 [Pankkitilien hallinta](bank-manage-bank-accounts.md)  
 [Pankkitoiminnan määrittäminen](bank-setup-banking.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

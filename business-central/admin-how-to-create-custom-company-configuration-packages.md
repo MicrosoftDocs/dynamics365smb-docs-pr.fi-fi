@@ -1,23 +1,23 @@
 ---
-title: "Yrityksen mukautettujen määrityspakettien luominen | Microsoft Docs"
-description: "Liiketoimintasi kasvaessa tulet todennäköisesti käyttämään yritystyyppejä, joita käytät useimpien asikkaittesi kanssa. Ottamalla huomioon yrityksen kokoonpanopaketit, jotka ovat käytettävissä uudelleen, voit tehostaa toteutusprosessia."
+title: Yrityksen mukautettujen määrityspakettien luominen | Microsoft Docs
+description: Liiketoimintasi kasvaessa tulet todennäköisesti käyttämään yritystyyppejä, joita käytät useimpien asikkaittesi kanssa. Ottamalla huomioon yrityksen kokoonpanopaketit, jotka ovat käytettävissä uudelleen, voit tehostaa toteutusprosessia.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 12/07/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
 ms.openlocfilehash: a51628085e640cc2e5f022272eccb89d5cec38b7
-ms.contentlocale: fi-fi
-ms.lasthandoff: 12/11/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795875"
 ---
 # <a name="create-custom-company-configuration-packages"></a>Yrityksen mukautettujen määrityspakettien luominen
 Liiketoimintasi kasvaessa tulet todennäköisesti käyttämään yritystyyppejä, joita käytät useimpien asikkaittesi kanssa. Ottamalla huomioon yrityksen kokoonpanopaketit, jotka ovat käytettävissä uudelleen, voit tehostaa toteutusprosessia.  
@@ -54,4 +54,3 @@ Jos haluat nähdä asetustaulukoiden täydellisen luettelon, valitse ![Lamppu, j
 ## <a name="see-also"></a>Katso myös  
 [Yrityksen määrittäminen RapidStart Services -palvelun avulla](admin-set-up-a-company-with-rapidstart.md)  
 [Hallinta](admin-setup-and-administration.md)
-

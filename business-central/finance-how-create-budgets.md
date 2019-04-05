@@ -1,8 +1,8 @@
 ---
 title: KP-budjettien luominen| Microsoft Docs
-description: "Tässä artikkelissa käsitellään, miten luodaan KP-budjetteja ennustamaan erilaisia taloudellisia toimintoja ja miten dimensiot määritetään liiketoimintatietoja varten."
+description: Tässä artikkelissa käsitellään, miten luodaan KP-budjetteja ennustamaan erilaisia taloudellisia toimintoja ja miten dimensiot määritetään liiketoimintatietoja varten.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: postpone
 ms.date: 01/07/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: a98027c3ef3171491f84197897f93cbed4e288c2
 ms.openlocfilehash: ca0648c3c3ccbfb02c910a063e6ac199e7b4b6d4
-ms.contentlocale: fi-fi
-ms.lasthandoff: 01/07/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795906"
 ---
 # <a name="create-gl-budgets"></a>KP-budjettien luominen
 Sinulla voi olla useita budjetteja samalle ajanjaksolle, kun luot budjetit eri nimillä. Määrittele ensin budjetin nimi ja syötä budjettiluvut. Budjetin nimi tulee sitten kaikkiin luomiisi budjettitapahtumiin.  
@@ -57,4 +57,3 @@ Niin kuin käytännössä kaikkia muitakin sivuja voit viedä budjettisivujen ti
 [Rahoituksen määrittäminen](finance-setup-finance.md)  
 [Pääkirjanpito ja tilikartta](finance-general-ledger.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
-

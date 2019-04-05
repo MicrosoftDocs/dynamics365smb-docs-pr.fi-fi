@@ -1,23 +1,23 @@
 ---
-title: "Vaihekuvaus – Projektin keskeneräisen työn laskeminen | Microsoft Docs"
-description: "Projektien avulla voit laatia yrityksen resurssien käyttöön liittyviä aikatauluja ja seurata tietyn projektin resurssien käyttöön liittyviä kustannuksia. Projekteissa kuluu esimerkiksi työntekijöiden työtunteja, koneiden käyttötunteja ja varastonimikkeitä, joita täytyy seurata projektin edetessä."
+title: Vaihekuvaus – Projektin keskeneräisen työn laskeminen | Microsoft Docs
+description: Projektien avulla voit laatia yrityksen resurssien käyttöön liittyviä aikatauluja ja seurata tietyn projektin resurssien käyttöön liittyviä kustannuksia. Projekteissa kuluu esimerkiksi työntekijöiden työtunteja, koneiden käyttötunteja ja varastonimikkeitä, joita täytyy seurata projektin edetessä.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
 ms.openlocfilehash: 396aefb64b4bc4f4555ae3a512656aa3c66bad20
-ms.contentlocale: fi-fi
-ms.lasthandoff: 01/31/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796040"
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Vaihekuvaus: Projektin keskeneräisen työn laskeminen
 
@@ -43,7 +43,7 @@ Voit laatia projektien avulla yrityksen resurssien käyttöön liittyviä aikata
  Asenna [!INCLUDE[d365fin](includes/d365fin_md.md)] tietokoneeseen ennen tämän vaihekuvauksen tehtävien suorittamista.  
 
 ## <a name="story"></a>Taustatietoja  
- Tämä vaihekuvaus keskittyy suunnittelu- ja konsulttiyritykseen CRONUS Finland Oy, joka suunnittelee ja varustaa uusia infrastruktuureja, kuten konferenssisaleja ja toimistoja huonekaluineen, tarvikkeineen ja varastoineen. Suurin osa CRONUS-töistä on projektimaisia, ja projektitiimin jäsen Marianne luo projektien avulla yleiskatsauksen jokaisesta meneillään olevasta projektista, jonka CRONUS on aloittanut. Yleiskatsaus sisältää myös valmistuneet projektit. Jotkut työt voivat olla hyvin pitkiä ja kestää kuukausia. Marianne voi käyttää KET-tiliä tallentaakseen keskeneräisen työn ja seuratakseen kustannuksia projektin aikana.  
+ Tämä vaihekuvaus keskittyy suunnittelu- ja konsulttiyritykseen CRONUS Finland Oy, joka suunnittelee ja varustaa uusia infrastruktuureja, kuten konferenssisaleja ja toimistoja huonekaluineen, tarvikkeineen ja varastoineen. Suurin osa CRONUS -töistä on projektisuuntautuneita, ja projektitiimin jäsen Marianne käyttää töitä yleiskatsauksen luomiseen jokaisesta meneillään olevasta työstä, jonka CRONUS on aloittanut, ja myös valmistuneista töitä. Jotkut työt voivat olla hyvin pitkiä ja kestää kuukausia. Marianne voi käyttää KET-tiliä tallentaakseen keskeneräisen työn ja seuratakseen kustannuksia projektin aikana.  
 
 ## <a name="calculating-wip"></a>Keskeneräisen työn laskeminen  
  CRONUS on aloittanut pitkän projektin, joka on nyt laajennettu raportointikausien yli. Marianne, projektiryhmän jäsen, laskee keskeneräiset työt (KET) varmistaakseen, että yhtiön tilinpäätös on tarkka.  
@@ -166,4 +166,3 @@ Voit laatia projektien avulla yrityksen resurssien käyttöön liittyviä aikata
  [Tietoja KET-menetelmistä](projects-understanding-wip.md)   
  [Etenemisen ja tehokkuuden valvonta](projects-how-monitor-progress-performance.md)  
  [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

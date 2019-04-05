@@ -1,23 +1,23 @@
 ---
-title: "Vaihekuvaus – Toimitusten manuaalinen suunnittelu | Microsoft Docs"
-description: "Tässä vaihekuvauksessa kuvataan toimitustilausten suunnitteluprosessi uuden kysynnän täyttämiseksi. Voit aloittaa tarjonnan suunnittelun tietyin välein, esimerkiksi joka aamu tai joka maanantai, tai kun myynti tai tuotanto ilmoittaa ne kysyntätyypin mukaan."
+title: Vaihekuvaus – Toimitusten manuaalinen suunnittelu | Microsoft Docs
+description: Tässä vaihekuvauksessa kuvataan toimitustilausten suunnitteluprosessi uuden kysynnän täyttämiseksi. Voit aloittaa tarjonnan suunnittelun tietyin välein, esimerkiksi joka aamu tai joka maanantai, tai kun myynti tai tuotanto ilmoittaa ne kysyntätyypin mukaan.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
 ms.openlocfilehash: bed38cf158e5372ff9c4e2f23667fba8af93ec74
-ms.contentlocale: fi-fi
-ms.lasthandoff: 01/31/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795211"
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Vaihekuvaus: Toimitusten manuaalinen suunnittelu
 
@@ -56,7 +56,7 @@ Tässä vaihekuvauksessa käsitellään toimitustilausten suunnitteluprosessia u
  Monimutkaisemmissa tuotantoympäristöissä suunnittelutyökirjaa käytetään toimitusten suunnitteluun, joka perustuu nimikeparametreihin, kuten uudelleenajoitusjaksoon, toimitusajan varmistukseen ja uusintatilauspisteeseen, sekä kaikkien tuotetasojen yhdistetyn kysynnän erälaskentaan.  
 
 ## <a name="setting-up-the-sample-data"></a>Esimerkkitietojen määrittäminen  
- Tavallisessa CRONUS-esimerkkiyrityksessä on tällä hetkellä paljon suunnittelematonta kysyntää. Tämän vaihekuvauksen suunnittelutehtävien aikana realistisesta liiketoimintojen työnkulusta täytyy poiketa. Siitä poiketaan jättämällä huomiotta kysyntä, jonka eräpäivät ovat lähellä, ja käyttämällä sen sijaan kysyntää, jonka eräpäivät ovat myöhäisempiä.  
+ Tavallisessa CRONUS esimerkkiyrityksessä on tällä hetkellä paljon suunnittelematonta kysyntää. Tämän vaihekuvauksen suunnittelutehtävien aikana realistisesta liiketoimintojen työnkulusta täytyy poiketa. Siitä poiketaan jättämällä huomiotta kysyntä, jonka eräpäivät ovat lähellä, ja käyttämällä sen sijaan kysyntää, jonka eräpäivät ovat myöhäisempiä.  
 
 ## <a name="using-the-order-planning-page"></a>Tilauksen suunnittelu -sivun käyttäminen  
 
@@ -86,7 +86,7 @@ The **Order Planning** page can be accessed from several different locations on 
 
      Kun laskutoimitukset on suoritettu, täyttämätön kysyntä näkyy sivulla supistettuina tilauksen otsikkoriveinä, jotka on lajiteltu varhaisimman mahdollisen kysyntäpäivämäärän mukaan.  
 
-     Huomaa, että CRONUSilla on useita tilauksia, joissa on täyttämätöntä kysyntää. Jokainen lihavoitu suunnittelurivi vastaa tilausta &mdash; myyntitilausta tai tuotantotilausta &mdash; ja mukana on vähintään yksi tilausrivi, jossa saatavuus on riittämätön.  
+     Huomaa, että CRONUS -ohjelmalla on useita tilauksia, joissa on täyttämätöntä kysyntää. Jokainen lihavoitu suunnittelurivi vastaa tilausta &mdash; myyntitilausta tai tuotantotilausta &mdash; ja mukana on vähintään yksi tilausrivi, jossa saatavuus on riittämätön.  
 
 4.  Valitse **Näytä kysyntä muodossa** -kentän **Kaikki kysyntä** -suodatin.  
 
@@ -237,4 +237,3 @@ The **Order Planning** page can be accessed from several different locations on 
 ## <a name="see-also"></a>Katso myös  
  [Liiketoimintaprosessien vaihekuvaukset](walkthrough-business-process-walkthroughs.md)   
  [Vaihekuvaus: Toimitusten automaattinen suunnittelu](walkthrough-planning-supplies-automatically.md)
-

@@ -1,21 +1,21 @@
 ---
-title: "Vaihekuvaus – Vastaanotto ja hyllytys fyysisen varastoinnin perusmäärityksissä | Microsoft Docs"
-description: "Business Central -sovelluksessa vastaanoton ja hyllytyksen saapuvat prosessit voidaan suorittaa neljällä tavalla eri toimintojen avulla varastotason monimutkaisuuden mukaan."
+title: Vaihekuvaus – Vastaanotto ja hyllytys fyysisen varastoinnin perusmäärityksissä | Microsoft Docs
+description: Business Central -sovelluksessa vastaanoton ja hyllytyksen saapuvat prosessit voidaan suorittaa neljällä tavalla eri toimintojen avulla varastotason monimutkaisuuden mukaan.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
 ms.openlocfilehash: 2f92a8977905f5507fdcfd26613d422ebf6c23b2
-ms.contentlocale: fi-fi
-ms.lasthandoff: 01/31/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796176"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Vaihekuvaus: Vastaanotto ja hyllytys fyysisen varastoinnin perusmäärityksissä
 
@@ -44,7 +44,7 @@ Tässä vaihekuvauksessa käsitellään seuraavia tehtäviä.
 
 -   HOPEA-sijainnin määrittäminen varastopaikan hyllytykseen.  
 -   HOPEA-sijainnin määrittäminen varastopaikan käsittelyyn.  
--   Oletusvarastopaikan määrittäminen nimikkeelle LS-81. (LS-75 on jo määritetty CRONUSISSA.)  
+-   Oletusvarastopaikan määrittäminen nimikkeelle LS-81. (LS-75 on jo määritetty CRONUSissa.)  
 -   Luo ostotilaus toimittajalle 10000 40 kaiuttimesta.  
 -   Tarkistetaan, että hyllytyksen varastopaikat määritetään ennalta asetusten avulla.  
 -   Ostotilauksen vapauttaminen varaston käsittelyyn.  
@@ -145,4 +145,3 @@ Voit hallita **Varastohyllytys**-sivulla kaikkia tietyn lähdeasiakirjan saapuvi
  [Rakennetiedot: saapuvan fyysisen varastoinnin virta](design-details-inbound-warehouse-flow.md)   
  [Liiketoimintaprosessien vaihekuvaukset](walkthrough-business-process-walkthroughs.md)  
  [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

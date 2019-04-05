@@ -1,24 +1,24 @@
 ---
-title: "Kustannuskohteiden määrittäminen | Microsoft Docs"
-description: "Lisätietoja yleisen päiväkirjan dimensioita muistuttavien kustannuskohteiden määrittämisestä"
+title: Kustannuskohteiden määrittäminen | Microsoft Docs
+description: Lisätietoja yleisen päiväkirjan dimensioita muistuttavien kustannuskohteiden määrittämisestä
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/13/2018
 ms.author: sgroespe
 redirect_url: finance-set-up-cost-accounting
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 616fcbe937e556c17e8beb79f68bc961ea8bbe18
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796237"
 ---
 # <a name="set-up-cost-objects"></a>Kustannuskohteiden määrittäminen
 Kustannuskohteet ovat yrityksen projekteja, tuotteita tai palveluja. Kustannuskohdekaavio vastaa pääkirjanpidon dimensiotietoja. Voit määrittää kustannuskohdekaavion seuraavilla tavoilla:  
@@ -26,9 +26,9 @@ Kustannuskohteet ovat yrityksen projekteja, tuotteita tai palveluja. Kustannusko
 * Siirrä dimensioarvot pääkirjanpidosta kustannuskohdekaavioon. Siirron jälkeen voit tehdä tarvittavat muutokset.  
 * Luo uusi kustannuskohteen kaavio, joka on riippumaton pääkirjanpidosta, tai lisää uusi kustannuskohde nykyiseen kustannuskohteiden kaavioon. Sinun on luotava kukin kustannuskohde erikseen.  
 
-## <a name="to-transfer-dimension-values-from-the-general-ledger-to-the-chart-of-cost-objects"></a>Siirrä dimensioarvot pääkirjanpidosta kustannuskohdekaavioon  
+## <a name="to-transfer-dimension-values-from-the-general-ledger-to-the-chart-of-cost-objects"></a>Dimensioarvojen siirtäminen pääkirjanpidosta kustannuskohdekaavioon  
 1.  Määritä dimensio kustannuskohteen dimensioksi **Päivitä KL-dimensiot** -sivulla. Vain tämän dimension arvot siirretään.  
-2.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kustannuskohdekartta** ja valitse sitten liittyvä linkki.  
+2.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Kustannuskohdekartta** ja valitse sitten liittyvä linkki.  
 3.  Valitse **Nouda kustannuskohteet dimensiosta** -toiminto, jolla dimensioarvot siirretään kustannuskohdekaavioon. Toiminto siirtää kohdassa 1 määritetyt dimensioarvot.  
 
     > [!NOTE]  
@@ -40,7 +40,7 @@ Kustannuskohdekaavio sisältää nyt kaikki pääkirjanpidossa määritetyt dime
 Voit määrittää ja ylläpitää kustannuskohteita joko **Kustannuskohteen kortti** -kortissa tai **Kustannuskohdekartta**-sivulla. Tässä toimenpiteessä määrität kustannuskohteet **Kustannuskohdekartta**-sivulla.  
 
 1.  Avaa **Kustannuskohdekartta**-sivu muokkaustilassa.  
-2.  Syötä kustannuskohdekoodi **Koodi**-kenttään. Kaikilla kustannuskohteilla on oltava koodi.  
+2.  Anna kustannuskohdekoodi **Koodi**-kentässä. Kaikilla kustannuskohteilla on oltava koodi.  
 3.  Syötä kustannuskohteen nimi **Nimi**-kenttään.  
 4.  Valitse avattava nuoli **Rivityyppi**-kentässä määrittämään kustannuskohteen tarkoitus.  
 
@@ -61,4 +61,3 @@ Voit määrittää ja ylläpitää kustannuskohteita joko **Kustannuskohteen kor
 [Termit kustannuslaskennassa](finance-terminology-in-cost-accounting.md)   
 [Tietoja kustannuslaskennasta](finance-about-cost-accounting.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

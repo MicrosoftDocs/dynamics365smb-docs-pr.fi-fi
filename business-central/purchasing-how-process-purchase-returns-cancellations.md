@@ -1,8 +1,8 @@
 ---
-title: "Palautusten tai peruutusten käsitteleminen | Microsoft Docs"
-description: "Tässä ohjeaiheessa kerrotaan, miten ostohyvityslasku luodaan kirjataan, kun haluat palauttaa nimikkeitä toimittajalle tai peruuttaa ostetut palvelut."
+title: Palautusten tai peruutusten käsitteleminen | Microsoft Docs
+description: Tässä ohjeaiheessa kerrotaan, miten ostohyvityslasku luodaan kirjataan, kun haluat palauttaa nimikkeitä toimittajalle tai peruuttaa ostetut palvelut.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cancel, undo, correct
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: eef48d2390a497692b19b0ce6eae6afc654f8d22
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 8f73492e70d4d30a73030953eb235f586954867e
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795272"
 ---
 # <a name="process-purchase-returns-or-cancellations"></a>Ostopalautusten tai peruutusten käsittely
 Jos haluat palauttaa nimikkeitä toimittajalle tai peruuttaa ostamiasi palveluita, voit luoda ja kirjata ostohyvityslaskun, joka määrittää pyydetyn muutoksen alkuperäisen ostolaskun suhteen. Voit sisällyttää oikeat ostolaskun tiedot luomalla ostohyvityslaskun suoraan kirjatusta ostolaskusta. Vaihtoehtoisesti voit luoda uuden ostohyvityslaskun, johon laskun tiedot on kopioitu.
 
-Jos ostopalautuskäsittelyä, kuten nimikkeen käsittelyn varastoasiakirjoja, on hallittava paremmin tai jos haluat paremman yleiskuvan, kun useiden ostoasiakirjojen nimikkeitä lähetetään takaisin yhtenä ostopalautuksena, voit luoda ostopalautustilauksia. Ostopalautustilaus lähettää automaattisesti liittyvän ostohyvityslaskun. Lisätietoja on kohdassa Ostopalautustilauksen luominen vähintään yhden kirjatun ostoasiakirjan perusteella.
+Jos ostopalautuskäsittelyä, kuten nimikkeen käsittelyn varastoasiakirjoja, on hallittava paremmin tai jos haluat paremman yleiskuvan, kun useiden ostoasiakirjojen nimikkeitä lähetetään takaisin yhtenä ostopalautuksena, voit luoda ostopalautustilauksia. Ostopalautustilaus lähettää automaattisesti liittyvän ostohyvityslaskun. Lisätietoja on kohdassa [Ostopalautustilauksen luominen vähintään yhden kirjatun ostoasiakirjan perusteella](purchasing-how-process-purchase-returns-cancellations.md#to-create-a-purchase-credit-memo-from-a-posted-purchase-invoice).
 
 > [!NOTE]  
 >   Jos kirjattua ostolaskua ei ole vielä maksettu, voit käyttää kirjatussa ostolaskussa olevia **Korjaa**- tai **Peruuta**-toimintoja kääntääksesi automaattisesti mukana olevat tapahtumat. Nämä toiminnot toimivat vain maksamattomille laskuille eivätkä ne osittaisia palautuksia tai peruutuksia. Lisätietoja on kohdassa [Maksamattomien ostolaskujen korjaaminen tai peruuttaminen](purchasing-how-correct-cancel-unpaid-purchase-invoices.md).
@@ -42,7 +42,7 @@ Todellisten kustannusten peruuttamisen automaattista määrittämistä varten on
 
 |Toiminto|Description|  
 |------------------|---------------------------------------|  
-|**Ostopalautustilaus**-sivun **Hae peruutettavat kirjatut asiakirjarivit** -toiminto|Kopioi vähintään yhden ostopalautustilaukseksi peruutettavan kirjatun asiakirjan rivit. Lisätietoja on kohdassa Ostopalautustilauksen ja liittyvän ostohyvityslaskun luominen vähintään yhdelle kirjatulle ostolaskulle.|  
+|**Ostopalautustilaus**-sivun **Hae peruutettavat kirjatut asiakirjarivit** -toiminto|Kopioi vähintään yhden ostopalautustilaukseksi peruutettavan kirjatun asiakirjan rivit. Lisätietoja on kohdassa [Ostopalautustilauksen luominen vähintään yhden kirjatun ostolaskun perusteella](purchasing-how-process-purchase-returns-cancellations.md#to-create-a-purchase-return-order-based-on-one-or-more-a-posted-purchase-documents).|  
 |**Ostohyvityslasku**- ja **Ostopalautustilaus**-sivujen **Kopioi asiakirja** -toiminto|Kopioi sekä otsikon että yhden kirjatun asiakirjan rivit peruutusta varten.<br /><br /> Edellyttää, että **Todellisen kust. peruutt. pakollinen** -valintaruutu on valittuna **Ostojen ja ostovelkojen asetukset** -sivulla.|
 
 Jos haluat määrittää todellisten kustannusten peruuttamisen manuaalisesti, sinun on valittava **Kohdistus nimiketapahtumasta** -kenttä joltakin palautusasiakirjariviltä ja valittava sitten alkuperäisen ostotapahtuman numero. Tämä linkittää ostohyvityslaskun tai ostopalautustilauksen alkuperäiseen ostotapahtumaan ja varmistaa, että nimike arvostetaan alkuperäisissä yksikkökustannuksissa.
@@ -78,9 +78,9 @@ Ostohyvityslasku poistetaan ja korvataan uudella kirjattujen ostohyvityslaskujen
 6. Valitse **Asiakirjanro**-kenttä, jos haluat avata **Kirjatut ostolaskut** -sivun, ja valitse sitten kirjattu ostolasku, joka sisältää peruutettavat rivit.
 7. Valitse **Laske rivit uudelleen** -valintaruutu, jos haluat päivittää kopioidut kirjatut ostolaskurivit nimikkeen hinta- ja yksikkökustannusten muutoksilla, jotka ovat tapahtuneet laskun kirjaamisen jälkeen.
 8. Valitse **OK**-painike. Kopioidut laskurivit lisätään ostohyvityslaskuun.
-9. Täytä ostohyvityslasku tämän ohjeaiheen "Ostohyvityslaskun luominen kirjatusta ostolaskusta" -osassa esitetyllä tavalla.
+9. Täytä ostohyvityslasku kohdan [Ostohyvityslaskun luominen kirjatusta ostolaskusta](purchasing-how-process-purchase-returns-cancellations.md#to-create-a-purchase-credit-memo-from-a-posted-purchase-invoice) mukaisesti.
 
-## <a name="to-create-a-purchase-return-order-based-on-one-or-more-a-posted-purchase-documents"></a>Ostopalautustilauksen luominen vähintään yhden kirjatun ostoasiakirjan perusteella
+## <a name="to-create-a-purchase-return-order-based-on-one-or-more-posted-purchase-documents"></a>Ostopalautustilauksen luominen vähintään yhden kirjatun ostoasiakirjan perusteella
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostopalautustilaus** ja valitse sitten liittyvä linkki.  
 2. Valitse **Uusi**-toiminto.  
 3. Täytä **Yleiset**-pikavälilehdessä tarvittavat kentät.
@@ -186,4 +186,3 @@ Kun palautustilaukset yhdistetään hyvityslaskuun ja kirjataan, laskutetuista r
 [Ostojen kirjaus](purchasing-how-record-purchases.md)  
 [Maksamattomien ostolaskujen korjaaminen tai peruuttaminen](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

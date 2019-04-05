@@ -1,6 +1,6 @@
 ---
 title: Business Central -sovelluksen tukemat liiketoiminnan toiminnot | Microsoft Docs
-description: "Tässä ohjeaiheessa on yleiskuvaus kaikista liiketoiminnan toimintojen ominaisuuksista ja osastoista, joita sovellusalueet tukevat. Tällaisia sovellusalueita ovat esimerkiksi taloushallinto, varastonhallinta ja projektinhallinta."
+description: Tässä ohjeaiheessa on yleiskuvaus kaikista liiketoiminnan toimintojen ominaisuuksista ja osastoista, joita sovellusalueet tukevat. Tällaisia sovellusalueita ovat esimerkiksi taloushallinto, varastonhallinta ja projektinhallinta.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: feature overview
 ms.date: 01/22/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
 ms.openlocfilehash: d00f8228d5a617ddf601bb1d4ffaf9f42f13e74a
-ms.contentlocale: fi-fi
-ms.lasthandoff: 01/22/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795456"
 ---
 # <a name="business-functionality"></a>Liiketoiminnan toiminnallisuus
 [!INCLUDE[d365fin](includes/d365fin_md.md)]issa on lähinnä tukkukauppa- ja palvelualalla toimivien PK-yritysten tavallisissa liiketoimintaprosesseissa tarvitsemat toiminnot. Tämän lisäksi tuetaan myös monimutkaisia prosesseja, kuten kokoonpanoa, tuotantoa, huoltoa ja ohjattua varastoinninhallintaa.
@@ -37,7 +37,7 @@ ms.lasthandoff: 01/22/2019
 |Yhdistä myytävät nimikkeet yksinkertaisesti uudeksi nimikkeeksi, kuten tuotepaketiksi.|[Kokoonpanon hallinta](assembly-assemble-items.md)|
 |Määritä tuotannon resurssit ja kapasiteetti, muuta työvaiheiden aikatauluja, siirrä komponentteja tuotantoon ja käynnistä tuotannon työvaiheita.|[Tuotanto](production-manage-manufacturing.md)|
 |Varmista tuotteiden vastaanoton ja toimituksen tehokkuus.|[Varastoinninhallinta](warehouse-manage-warehouse.md)|
-|Ajoita huoltokäyntejä ja määritä huoltotilauksia ja jäljitä varaosia ja tarvikkeita.|[Service Management](service-service.md)|
+|Ajoita huoltokäyntejä ja määritä huoltotilauksia ja jäljitä varaosia ja tarvikkeita.|[Huoltohallinto](service-service.md)|
 |Voit määrittää ja käyttää työnkulkuja, jotka yhdistävät eri käyttäjien tai järjestelmän suorittamia tehtäviä, kuten automaattisia kirjauksia. Uusien asiakirjojen luontiin ja kirjaukseen liittyvien hyväksyntöjen pyytäminen ja antaminen ovat tyypillisiä työnkulun osavaiheita.|[Työnkulku](across-workflow.md)|
 |Mahdollista käyttäjille tietojen vaihtaminen ulkoisten lähteiden kanssa, kuten sähköisten asiakirjojen lähettämisessä ja vastaanottamisessa sekä pankkitiedostojen tuonnissa ja viennissä, että valuutan vaihtokurssien päivittämisessä.|[Sähköinen tiedonsiirto](across-data-exchange.md)|
 |Kirjaa ulkoiset asiakirjat [!INCLUDE[d365fin](includes/d365fin_md.md)]issa liitteineen ja luo sitten manuaalisesti liittyvät asiakirjat tai muunna tiedostot automaattisesti sähköisiksi asiakirjoiksi.|[Saapuvat asiakirjat](across-income-documents.md)|
@@ -47,4 +47,3 @@ ms.lasthandoff: 01/22/2019
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittäminen](setup.md)  
 [Käytön aloittaminen](product-get-started.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
-

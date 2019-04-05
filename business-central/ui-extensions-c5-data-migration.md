@@ -1,8 +1,8 @@
 ---
-title: "C5-tietojen siirtolaajennuksen käyttäminen | Microsoft Docs"
-description: "Voit käyttää tätä laajennusta asiakkaiden, toimittajien, nimikkeiden ja pääkirjanpidon tilien siirtämiseen Microsoft Dynamics C5 2012:sta Business Centraliin."
+title: C5-tietojen siirtolaajennuksen käyttäminen | Microsoft Docs
+description: Voit käyttää tätä laajennusta asiakkaiden, toimittajien, nimikkeiden ja pääkirjanpidon tilien siirtämiseen Microsoft Dynamics C5 2012:sta Business Centraliin.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,14 +12,13 @@ ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
 ms.date: 10/01/2018
 ms.author: bholtorf
+ms.openlocfilehash: e35b4329c8f9b4672591531524c9391e1a8c4868
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 5c89d841cdf0e92af4a3dc497cb9c807798e3924
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795861"
 ---
-
 # <a name="the-c5-data-migration-extension"></a>Tietojen siirron C5-laajennus
 Tämän laajennuksen avulla on helppo siirtää asiakkaita, toimittajia, nimikkeitä ja pääkirjanpidon tilejä Microsoft Dynamcis C5 2012 -versiosta [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmaan. Voit siirtää myös pääkirjanpidon tilien vanhat tapahtumat.
 
@@ -96,6 +95,9 @@ Jos siirrät tilit, myös seuraavat tiedot siirretään:
 > [!Note]
 > Historialliset KP-tapahtumat, joita käsitellään hieman eri tavalla. Kun siirrät tietoja, määrität **Nykyinen jakso** -parametrin. Tämä parametri määrittää, miten KP-tapahtumia käsitellään. Tämän päivämäärän jälkeen tapahtumat siirretään erikseen. Tapahtumat ennen tätä päivämäärää koostetaan tilikohtaisesti ja siirretään yhtenä summana. Esimerkiksi oletetaan, että tapahtumia on vuosina 2015, 2016, 2017 ja 2018, ja määrität 1. tammikuuta 2017 Nykyinen jakso -kenttään. Kunkin tilin tapahtumien 31.12.2016 tai sitä ennen summat kootaan yhteen yleisen päiväkirjan riviin kullekin KP-tilille. Kaikki tapahtumat tämän päivämäärän jälkeen siirretään yksitellen.
 
+## <a name="file-size-requirements"></a>Tiedoston kokovaatimukset
+[!INCLUDE[d365fin](includes/d365fin_md.md)]iin ladattava tiedoston koko saa olla enintään 150 Mt. Jos C5:stä vietävä tiedosto on tätä suurempi, harkitse tietojen siirtämistä useina tiedostoina. Vie C5:stä yhden tai kahden tyyppiset objektit, kuten asiakkaat ja toimittajat, yhteen tiedostoon, nimikkeet toiseen tiedostoon ja niin edelleen. Voit tuoda tiedostot yksitellen [!INCLUDE[d365fin](includes/d365fin_md.md)]iin.
+
 ## <a name="to-migrate-data"></a>Tietojen siirtäminen
 Tietojen siirtäminen C5:stä ja tuominen [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmasta edellyttää vain seuraavien vaiheiden suorittamista:  
 
@@ -148,4 +150,3 @@ Voit pysäyttää tietojen siirron valitsemalla **Pysäytä kaikki siirrot**. Jo
 ## <a name="see-also"></a>Katso myös
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]in mukauttaminen laajennusten avulla](ui-extensions.md)  
 [Käytön aloittaminen](product-get-started.md)
-

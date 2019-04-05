@@ -1,8 +1,8 @@
 ---
-title: "Vuositilinpäätöstapahtuman tarkasteleminen ja kirjaaminen | Microsoft Docs"
-description: "Tässä ohjeaiheessa kerrotaan, miten Sulje tuloslaskelma -eräajossa määritetty päiväkirja avataan. Sen jälkeen käsitellään vuositilinpäätöstapahtuman tarkastelua ja kirjaamista."
+title: Vuositilinpäätöstapahtuman tarkasteleminen ja kirjaaminen | Microsoft Docs
+description: Tässä ohjeaiheessa kerrotaan, miten Sulje tuloslaskelma -eräajossa määritetty päiväkirja avataan. Sen jälkeen käsitellään vuositilinpäätöstapahtuman tarkastelua ja kirjaamista.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: cd555cc389ff7d9e306645475ef042f7ee9bc934
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796296"
 ---
 # <a name="post-the-year-end-closing-entry"></a>Vuositilinpäätöstapahtuman kirjaaminen
 Kun olet luonut vuositilinpäätöstapahtuman tai -tapahtumat **Sulje tuloslaskelma** -eräajolla, sinun on avattava eräajossa määrittämäsi päiväkirja sekä tarkistettava ja kirjattava tapahtumat.
@@ -36,4 +36,3 @@ Kun olet luonut vuositilinpäätöstapahtuman tai -tapahtumat **Sulje tuloslaske
 [Kirjojen sulkeminen](year-close-books.md)  
 [Sulje tuloslaskelma](year-close-income-statement.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

@@ -1,8 +1,8 @@
 ---
-title: "Myyntisaamisten hallintatehtävien yleiskatsaus | Microsoft Docs"
-description: "Ohjeaiheessa kerrotaan tehtävistä, joilla hallitaan myyntisaamisia ja kohdistetaan maksuja asiakas- ja toimittajatapahtumiin."
+title: Myyntisaamisten hallintatehtävien yleiskatsaus | Microsoft Docs
+description: Ohjeaiheessa kerrotaan tehtävistä, joilla hallitaan myyntisaamisia ja kohdistetaan maksuja asiakas- ja toimittajatapahtumiin.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer payment, debtor, balance due, AR
-ms.date: 11/28/2018
+ms.date: 02/08/2019
 ms.author: sgroespe
+ms.openlocfilehash: da253074b383cb81980e6d41eae460b344b7ee31
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
-ms.openlocfilehash: 5621345418f8da0165fa5685fd3b4a50dd43ae9d
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/29/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795127"
 ---
 # <a name="managing-receivables"></a>Myyntisaamisten hallinta
 Säännöllinen vaihe missä tahansa rahoituskierrossa on pankkitilien täsmäyttäminen, mikä edellyttää saapuvien maksujen kohdistamista asiakas- tai toimittajatapahtumiin, jotta myyntilaskut tai ostohyvityslaskut voidaan sulkea maksettuina.
@@ -39,16 +39,14 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 | Toiminta | Katso |
 | --- | --- |
 | Kohdista maksut avoimiin asiakas- tai toimittajatapahtumiin tuodun pankin tiliotetiedoston tai syötteen perusteella. Täsmäytä pankkitili sitten, kun kaikki maksut on kohdistettu. |[Maksujen kohdistaminen automaattisesti ja pankkitilien täsmäyttäminen](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
-|Voit määrittää maksujen tekstin kohdistukset ja tietyt debet-, kredit- ja kirjanpidon vastatilit siten, että nämä maksut kirjataan tietyille tileille, jotta nämä maksut kirjataan tietyille tileille, kun kirjaat maksun täsmäytyksen päiväkirjan.|[Toistuvien maksujen tekstin yhdistäminen tileihin automaattisen täsmäytyksen suorittamiseksi](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)|
-|**Maksun kohdistus** -sivulla näkyvät kaikki maksun avointen tapahtumien ehdokkaat ja tarkastellaksesi yksityiskohtaisia tietoja jokaisen tapahtuman kohdistuksesta joihin maksun kohdistus perustuu.|[Maksujen tarkasteleminen tai kohdistaminen automaattisen kohdistuksen jälkeen](receivables-how-review-apply-payments-auto-application.md)|
-| Kohdista maksut avoimiin asiakasmaksuihin maksamattomien myyntiasiakirjojen luettelon manuaalisen tapahtuman perusteella. |[Asiakkaan maksujen täsmäyttäminen manuaalisesti maksamattomien myyntiasiakirjojen luettelosta](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md) |
-| Kirjaa asiakkaiden kassaanmaksut tai hyvitykset kassapäiväkirjaan ja kohdista asiakastapahtumat päiväkirjasta tai kirjatuista tapahtumakirjauksista. |[Täsmäytä asiakkaan maksut manuaalisesti](receivables-how-apply-sales-transactions-manually.md) |
+| Kohdista maksut asiakastapahtumiin **Maksurekisteröinti**-sivun maksamattomien myyntiasiakirjojen luettelon perusteella. |[Asiakkaan maksujen täsmäyttäminen maksamattomien myyntiasiakirjojen luettelosta](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md) |
+| Kirjaa asiakkaiden kassaanmaksut tai hyvitykset kassapäiväkirjaan ja kohdista asiakastapahtumat päiväkirjasta tai kirjatuista tapahtumakirjauksista. |[Asiakkaan maksujen täsmäyttäminen kassapäiväkirjan avulla tai asiakastapahtumista](receivables-how-apply-sales-transactions-manually.md) |
 | Asiakkaiden muistuttaminen erääntyneistä summista, koron laskeminen ja viivästyskululaskut sekä myyntireskontran hallinta. |[Avointen saldojen perintä](receivables-collect-outstanding-balances.md) |
-| Ennusta, milloin myyntiasiakirjan laskut määritetään myöhästyneiksi. | [Myöhästyneen maksun ennusteen laajennus](ui-extensions-late-payment-prediction.md) |
-|Asiakkaan suostumuksella voit kerätä maksut suoraan asiakkaan pankkitililtä. Tämä on mahdollista vain euroina.|[Maksujen kerääminen SEPA-suoraveloitusperintänä](finance-collect-payments-with-sepa-direct-debit.md)|
+|Asiakkaan suostumuksella voit kerätä maksut suoraan asiakkaan pankkitililtä. Tämä on mahdollista vain euroina.|[Maksujen kerääminen SEPA-suoraveloitusperintänä.](finance-collect-payments-with-sepa-direct-debit.md)|
 |Estä asiakkaan syöttäminen asiakirjoihin tai kirjauksesta esimerkiksi maksukyvyttömyyden vuoksi.|[Asiakkaiden estäminen](receivables-how-block-customers.md)|
 |Varmista. että tiedät toimitettujen nimikkeiden kulut määrittämällä lisätyt nimikekulut, kuten nimikkeiden myynnin jälkeen syntyvät rahti-, käsittely-, vakuutus- ja kuljetuskulut.|[Kaupan lisäkustannusten huomiointi nimikekulujen avulla](payables-how-assign-item-charges.md)|
 |Määritä toleranssi, jonka mukaan järjestelmä sulkee laskun, vaikka maksu ja mahdolliset alennukset eivät täysin vastaa laskun koko summaa.|[Maksutoleranssien ja maksualennustoleranssien käsitteleminen](finance-payment-tolerance-and-payment-discount-tolerance.md)|
+| Ennusta, milloin myyntiasiakirjan laskut määritetään myöhästyneiksi. | [Myöhästyneen maksun ennusteen laajennus](ui-extensions-late-payment-prediction.md) |
 ## <a name="see-also"></a>Katso myös
 [Myynti](sales-manage-sales.md)  
 [Ostovelkojen hallinta](payables-manage-payables.md)  
@@ -56,4 +54,3 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

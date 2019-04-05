@@ -1,8 +1,8 @@
 ---
-title: "Maksujen täsmäytys Envestnet Yodlee -pankkisyötteiden laajennuksella | Microsoft Docs"
-description: "Tässä ohjeaiheessa kerrotaan pankkitilit linkittävästä Envestnet Yodlee -pankkisyötteiden laajennuksesta, joka nopeuttaa maksujen täsmäyttämistä."
+title: Maksujen täsmäytys Envestnet Yodlee -pankkisyötteiden laajennuksella | Microsoft Docs
+description: Tässä ohjeaiheessa kerrotaan pankkitilit linkittävästä Envestnet Yodlee -pankkisyötteiden laajennuksesta, joka nopeuttaa maksujen täsmäyttämistä.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,17 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, stream, bank account link
-ms.date: 10/01/2018
+ms.date: 02/26/2019
 ms.author: sgroespe
+ms.openlocfilehash: 36400b3265517c29f68f7eb59d17d968334e0fb1
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5dddfc8526904a978d742e0987bb1769791e794c
-ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796322"
 ---
 # <a name="the-envestnet-yodlee-bank-feeds-extension"></a>Envestnet Yodlee -pankkisyötteiden laajennus
 Envestnet Yodlee -pankkisyötepalvelun avulla voit täsmäyttää pankkitileille tehdyt maksut nopeasti linkittämällä järjestelmän pankkitilin verkkopankkitiliin. Tämä tarkoittaa sitä, että viimeisin tiliote syötetään automaattisesti tai manuaalisesti täsmäytyskirjauskansioon. Sen avulla varmistetaan, että käsittelet aina viimeisimpiä maksuja, sekä minimoidaan virheen mahdollisuus.
+
+> [!NOTE]
+> Tätä toimintoa tuetaan vain Business Centralin verkkoversiossa. Jos haluat käyttää tätä toimintoa paikallisesti, sinun on hankittava yhteistili Envestnet Yodleelta.
 
 Envestnet Yodlee -pankkisyötepalvelu tarjoaa seuraavat edut:
 
@@ -37,4 +40,3 @@ Lisätietoja on kohdassa [Envestnet Yodlee -pankkisyötepalvelun määrittämine
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]in mukauttaminen laajennusten avulla](ui-extensions.md)    
 [Maksujen kohdistaminen automaattisesti ja pankkitilien täsmäyttäminen](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

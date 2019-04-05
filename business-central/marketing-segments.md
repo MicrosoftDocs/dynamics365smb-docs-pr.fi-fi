@@ -1,8 +1,8 @@
 ---
-title: "Segmenttien hallinta ja sisällytettävien kontaktien valitseminen| Microsoft Docs"
-description: "Tässä ohjeaiheessa kerrotaan tehtävistä, joilla luodaan kontaktiryhmät tiettyjen ehtojen mukaan valitseva segmentti. Kyse voi olla esimerkiksi tietyn kohdetoimialan kontaktit."
+title: Segmenttien hallinta ja sisällytettävien kontaktien valitseminen| Microsoft Docs
+description: Tässä ohjeaiheessa kerrotaan tehtävistä, joilla luodaan kontaktiryhmät tiettyjen ehtojen mukaan valitseva segmentti. Kyse voi olla esimerkiksi tietyn kohdetoimialan kontaktit.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: c49ccda1632eccabb412cfe44f59abd1ed2efc09
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: fab3aed9e8c426d6a8840177f63f74afe808428d
-ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796051"
 ---
 # <a name="managing-segments"></a>Segmenttien hallinta
 Luomalla segmenttejä voit valita kontaktiryhmän tiettyjen ehtojen mukaan. Esimerkiksi segmentti voi olla toimiala, johon kontaktit kuuluvat, tai liikesuhde kontaktien kanssa. Luomalla segmentin voit valita kampanjan kohteeksi haluamasi kontaktit.
@@ -39,4 +39,3 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 [Myyntimahdollisuuksien hallinta](marketing-manage-sales-opportunities.md)  
 [Kontaktien hallinta](marketing-contacts.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

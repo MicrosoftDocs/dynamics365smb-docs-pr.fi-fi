@@ -1,8 +1,8 @@
 ---
 title: Kokoonpanon hallinta | Microsoft Docs
-description: "Tue yrityksiä, jotka toimittavat asiakkailleen tuotteita yhdistämällä osia yksinkertaisilla prosesseilla ilman tuotantotoimintojen tarvetta mutta jonka ominaisuuksilla voi koota aiemmin luotuja ominaisuuksia, kuten myynti, suunnittelu, varaukset ja varastointi, integroivia nimikkeitä."
+description: Tue yrityksiä, jotka toimittavat asiakkailleen tuotteita yhdistämällä osia yksinkertaisilla prosesseilla ilman tuotantotoimintojen tarvetta mutta jonka ominaisuuksilla voi koota aiemmin luotuja ominaisuuksia, kuten myynti, suunnittelu, varaukset ja varastointi, integroivia nimikkeitä.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 12/20/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 5801fcc1284edfe1b8578518c084455c336d5a40
 ms.openlocfilehash: f40c0b422bfde2d3a186b4458c3780932934d497
-ms.contentlocale: fi-fi
-ms.lasthandoff: 12/27/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796022"
 ---
 # <a name="assembly-management"></a>Kokoonpanon hallinta
 Tukeakseen yrityksiä, jotka toimittavat asiakkailleen tuotteita yhdistämällä osia yksinkertaisissa prosesseissa ilman tuotantotoimintojen tarvetta, [!INCLUDE[d365fin](includes/d365fin_md.md)] sisältää ominaisuuksia, jotka kokoavat nimikkeitä, joissa on olemassa olevia ominaisuuksia, kuten myynti, suunnittelu, varaukset, ja varastointi.  
@@ -55,4 +55,3 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

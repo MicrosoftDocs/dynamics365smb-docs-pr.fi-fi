@@ -1,6 +1,6 @@
 ---
-title: "Mahdollisuuden myyntisyklien ja syklin vaiheiden määrittäminen| Microsoft Docs"
-description: "Tässä ohjeaiheessa kerrotaan, miten myynnin vaiheet määritetään ensimmäisestä yhteysotosta sulkemiseen ja miten tällä tavoin luodaan myyntisykli, joka määritetään Business Central -sovelluksen mahdollisuuksille."
+title: Mahdollisuuden myyntisyklien ja syklin vaiheiden määrittäminen| Microsoft Docs
+description: Tässä ohjeaiheessa kerrotaan, miten myynnin vaiheet määritetään ensimmäisestä yhteysotosta sulkemiseen ja miten tällä tavoin luodaan myyntisykli, joka määritetään Business Central -sovelluksen mahdollisuuksille.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: jswymer
+ms.openlocfilehash: 0cd630da56c26ff9b21f94a99217f801bc9d23ba
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 319a59c865b7883cf7de5c35d9ebce5c30de0f76
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796414"
 ---
 # <a name="set-up-opportunity-sales-cycles-and-cycle-stages"></a>Mahdollisuuden myyntisyklien ja syklin vaiheiden määrittäminen
 Myyntisyklit ja myyntisyklin vaiheet on määritettävä ennen myyntimahdollisuuksien käyttöönottoa. Myyntisykli muodostuu vaiheista alkuperäisestä yhteydenotosta aina kaupantekoon asti. Jokaisella vaiheella on tietyt vaatimukset, jotka on täytettävä, esimerkiksi myyntitarjouksen vaatiminen ennen mahdollisuuden siirtämistä seuraavaan vaiheeseen. Voit myös määrittää, voiko vaiheen ohittaa. Voit määrittää tarvittavan määrän myyntisyklejä ja niille haluamasi määrän myyntisyklien vaiheita.
 
 Mahdollisuuden myyntisyklien ottaminen käyttöön sisältää myyntisyklin määrittämisen, syklin eri vaiheiden määrittämisen ja syklin liittämisen mahdollisuuksiin. Liittyvän toiminnon tai tehtävien määrittäminen mahdollisuuteen voi olla myös osa myyntisyklin määrittämistä.
 
-Tässä ohjeaiheessa kerrotaan, miten tehtävät ja toiminnot määritetään ja miten toiminnoille määritetään tehtäviä. Lisätietoja on kohdassa Tehtäviä sisältävien toimintojen määrittäminen.
+Tässä ohjeaiheessa kerrotaan, miten tehtävät ja toiminnot määritetään ja miten toiminnoille määritetään tehtäviä. Lisätietoja on kohdassa [Tehtäviä sisältävien toimintojen määrittäminen](marketing-how-setup-opportunity-sales-cycles-stages.md#to-set-up-activities-with-tasks).
 
 ## <a name="to-set-up-opportunity-sales-cycle-codes"></a>Mahdollisuuden myyntisyklin koodien määrittäminen
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntisyklit** ja valitse sitten liittyvä linkki. Kaikki olemassa olevat myyntisyklit sisältävä **Myyntisyklit**-sivu avautuu.
@@ -66,4 +66,3 @@ Kun ole määrittänyt tehtävän, voit määrittää sen myyntimahdollisuudelle
 [Myyntimahdollisuuksien käsitteleminen](marketing-processing-sales-opportunities.md)  
 [Myynti](sales-manage-sales.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

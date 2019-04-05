@@ -1,23 +1,23 @@
 ---
-title: "Lainatavaroiden määrittäminen | Microsoft Docs"
-description: "Voit määrittää lainatavaroita, joita voit lainata asiakkaille huollossa olevien huoltonimikkeiden tilalle."
+title: Lainatavaroiden määrittäminen | Microsoft Docs
+description: Voit määrittää lainatavaroita, joita voit lainata asiakkaille huollossa olevien huoltonimikkeiden tilalle.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 46e60bcb217178d94eda195045df0db33873a190
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795138"
 ---
 # <a name="set-up-a-loaner-program"></a>Lainatavaraohjelman määrittäminen
 Ajoittain on tarpeen toimittaa asiakkaan käyttöön lainatavara, kunnes huoltohenkilökunta korjaa asiakkaan tavaran. Voit määrittää [!INCLUDE[d365fin](includes/d365fin_md.md)]iin lainatavaraohjelman, lainata nimikkeitä asiakkaille ja seurata nimikkeiden vastaanottoa, kun asiakkaat palauttavat ne. Voit myös lisätä lainatavaroita koskevia kommentteja kahdella tavalla:  
@@ -36,5 +36,4 @@ Ajoittain on tarpeen toimittaa asiakkaan käyttöön lainatavara, kunnes huoltoh
 [Lainatavaroiden lainaaminen ja vastaanottaminen](service-how-to-lend-receive-loaners.md)  
 [Huoltohallinnon määrittäminen](service-setup-service.md)  
 [Huollon toimittaminen](service-deliver-service.md)  
-
 

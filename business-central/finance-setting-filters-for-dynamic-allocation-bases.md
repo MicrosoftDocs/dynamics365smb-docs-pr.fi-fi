@@ -1,24 +1,24 @@
 ---
-title: "Suodattimien määrittäminen dynaamisille kohdistusperusteille | Microsoft Docs"
-description: "Dynaaminen kohdistusmenetelmä on perustuu muutettaviin arvoihin. Esimerkiksi kustannuspaikan työntekijöiden tai kustannuskohteen myytyjen nimikkeiden määrä tietyn ajanjakson aikana. Ohjelmassa on yhdeksän ennalta määritettyä kohdistamisen perustetta ja kaksitoista dynaamista päivämääräväliä. Voit määrittää eri suodattimia kohdistuksen perusteella."
+title: Suodattimien määrittäminen dynaamisille kohdistusperusteille | Microsoft Docs
+description: Dynaaminen kohdistusmenetelmä on perustuu muutettaviin arvoihin. Esimerkiksi kustannuspaikan työntekijöiden tai kustannuskohteen myytyjen nimikkeiden määrä tietyn ajanjakson aikana. Ohjelmassa on yhdeksän ennalta määritettyä kohdistamisen perustetta ja kaksitoista dynaamista päivämääräväliä. Voit määrittää eri suodattimia kohdistuksen perusteella.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/13/2018
 ms.author: sgroespe
 redirect_url: finance-define-and-allocate-costs
-ms.translationtype: HT
-ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
 ms.openlocfilehash: fcf97328900bb21a85be51452b9e86da8398d195
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/20/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796312"
 ---
 # <a name="setting-filters-for-dynamic-allocation-bases"></a>Suodattimien määrittäminen dynaamisen kohdistuksen perusteille.
 Dynaaminen kohdistusmenetelmä on perustuu muutettaviin arvoihin. Esimerkiksi kustannuspaikan työntekijöiden tai kustannuskohteen myytyjen nimikkeiden määrä tietyn ajanjakson aikana. Ohjelmassa on yhdeksän ennalta määritettyä kohdistamisen perustetta ja kaksitoista dynaamista päivämääräväliä. Voit määrittää eri suodattimia kohdistuksen perusteella.  
@@ -40,4 +40,3 @@ Dynaaminen kohdistusmenetelmä on perustuu muutettaviin arvoihin. Esimerkiksi ku
 
 ## <a name="see-also"></a>Katso myös  
 [Kustannusten määrittäminen ja kohdistaminen](finance-define-and-allocate-costs.md)
-

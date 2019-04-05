@@ -1,7 +1,7 @@
 ---
-title: "Tietojen yhdistäminen Flow'hun| Microsoft Docs"
-description: "Voit tehdä Business Central -tiedoistasi tietolähteen ja määrittää verkkopalveluidesi OData-osoitteen, jolla rakennat automaattisen työkulun."
-documentationcenter: 
+title: Tietojen yhdistäminen Flow'hun| Microsoft Docs
+description: Voit tehdä Business Central -tiedoistasi tietolähteen ja määrittää verkkopalveluidesi OData-osoitteen, jolla rakennat automaattisen työkulun.
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: workflow, Odata, Power App, SOAP
 ms.date: 10/16/2018
 ms.author: solsen
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 6f79bd9a5e3f79d4366a1a43411fe39942ac4e4f
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796154"
 ---
 # <a name="using-included365finincludesd365finmdmd-in-an-automated-workflow"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen automaattisessa työnkulussa
 Voit käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietoja työnkulun osana Microsoft Flow'ssa.
@@ -75,4 +75,3 @@ Lisätietoja Microsoft Flow'n vianmäärityksestä on kohdassa [Microsoft Flow -
 [Hyväksynnän käyttäjäasetukset](across-how-to-set-up-approval-users.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittäminen](setup.md)  
 [Rahoitus](finance.md)  
-

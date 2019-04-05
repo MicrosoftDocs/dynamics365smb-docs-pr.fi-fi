@@ -1,8 +1,8 @@
 ---
-title: "Projektiresurssien laskutettavien ja budjetoidun käytön kirjaaminen| Microsoft Docs"
-description: "Tässä ohjeaiheessa kerrotaan, miten projektien nimikkeiden tai resurssien kulutus tai käyttö tallennetaan projektinhallinnan helpottamiseksi."
+title: Projektiresurssien laskutettavien ja budjetoidun käytön kirjaaminen| Microsoft Docs
+description: Tässä ohjeaiheessa kerrotaan, miten projektien nimikkeiden tai resurssien kulutus tai käyttö tallennetaan projektinhallinnan helpottamiseksi.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: project management, consumption
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: f1b3864eadd616273c3a4a7d061623dab701d01e
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795781"
 ---
 # <a name="record-usage-for-jobs"></a>Projektien käytön kirjaaminen
 **Projektin suunnittelurivit** -sivulla voi tarkastella ja tallentaa projektin eri osien käyttötietoja, jotka päivitetään automaattisesti, kun muokkaat ja siirrät tietoja projektin ja projektipäiväkirjan tai projektin laskujen välillä. Tämä edellyttää, että työ on määritetty siten, että **Käytä käyttölinkkiä oletusarvoisesti** on käytössä. Lisätietoja on kohdassa [Projektien määrittäminen](projects-how-setup-jobs.md).  
@@ -91,4 +91,3 @@ Kun olet kirjannut projektipäiväkirjan rivit, näkyvissä ovat suunnittelurivi
 [Osto](purchasing-manage-purchasing.md)         
 [Myynti](sales-manage-sales.md)      
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
-

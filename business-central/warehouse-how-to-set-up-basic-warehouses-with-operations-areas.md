@@ -1,23 +1,23 @@
 ---
-title: "Fyysisten perusvarastojen ja toimintoalueiden määrittäminen | Microsoft Docs"
-description: "Jos sellaisen fyysisen varaston perusmäärityksissä, jonka sijainnit käyttävät **Var.paikka pakollinen** -asetuskenttää ja mahdollisesti myös **Vaadi poiminta**- ja **Vaadi hyllytys** -asetuskenttää, on sisäisiä toimintoalueita, kuten tuotanto tai kokoonpano, sisäisten toimintoalueiden fyysisen varastoinnin toimintojen tallentamisessa on käytettävä kolmea fyysisen perusvarastoinnin asiakirjoja."
+title: Fyysisten perusvarastojen ja toimintoalueiden määrittäminen | Microsoft Docs
+description: Jos sellaisen fyysisen varaston perusmäärityksissä, jonka sijainnit käyttävät **Var.paikka pakollinen** -asetuskenttää ja mahdollisesti myös **Vaadi poiminta**- ja **Vaadi hyllytys** -asetuskenttää, on sisäisiä toimintoalueita, kuten tuotanto tai kokoonpano, sisäisten toimintoalueiden fyysisen varastoinnin toimintojen tallentamisessa on käytettävä kolmea fyysisen perusvarastoinnin asiakirjoja.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: f11719cc9488adf84bca8cd5a23d28caaa75f4bf
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 04b1e87cb41df19559d85cf02eabbf6aaec0011a
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796014"
 ---
 # <a name="set-up-basic-warehouses-with-operations-areas"></a>Fyysisten perusvarastojen ja toimintoalueiden määrittäminen
 Jos sellaisen fyysisen varaston perusmäärityksissä, jonka sijainnit käyttävät **Var.paikka pakollinen** -asetuskenttää ja mahdollisesti myös **Vaadi poiminta**- ja **Vaadi hyllytys** -asetuskenttää, on sisäisiä toimintoalueita, kuten tuotanto tai kokoonpano, sisäisten toimintoalueiden fyysisen varastoinnin toimintojen tallentamisessa on käytettävä seuraavia fyysisen varastoinnin perusasiakirjoja:  
@@ -35,7 +35,7 @@ Käyttääksesi näitä sivuja sisäisillä toiminnoilla, kuten osien poiminta j
 - Määritä oletusarvoiset varastopaikan rakenteet osille ja valmiille nimikkeille, jotka tulevat ja lähtevät toiminnan resursseista.  
 - Tee lähde- ja kohdevarastopaikat, jotka on varattu tietyille työvaiheresursseille, jotta estät nimikkeiden poiminnan lähteviä asiakirjoja varten.
 
-Varastopaikkakoodit, jotka on määritetty sijaintikortteihin, määrittävät oletusarvoisen varaston työnkulun tietyille toiminnoille, kuten osille kokoonpano-osastolla. Lisätoiminnot varmistavat, että tiettyyn varastopaikkaan sijoitettavat nimikkeet eivät ole siirrettävissä tai poimittavissa muihin toimiin. Lisätietoja on kohdassa Eritysvarastopaikkojen luominen.
+Varastopaikkakoodit, jotka on määritetty sijaintikortteihin, määrittävät oletusarvoisen varaston työnkulun tietyille toiminnoille, kuten osille kokoonpano-osastolla. Lisätoiminnot varmistavat, että tiettyyn varastopaikkaan sijoitettavat nimikkeet eivät ole siirrettävissä tai poimittavissa muihin toimiin. Lisätietoja on kohdassa [Eritysvarastopaikkojen luominen](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md#to-create-dedicated-component-bins).
 
 Seuraavat toimet perustuvat perusvarastoinnin aktiviteettien määrittämiseen tuotantoalueella. Vaiheet ovat samankaltaisia muille toiminta-alueille, kuten kokoonpanolle, huoltohallinnolle ja töille.  
 
@@ -142,4 +142,3 @@ Erillisen varastopaikan tekeminen tuottaa samantapaisen toiminnan kuin varastopa
 [Kokoonpanon hallinta](assembly-assemble-items.md)    
 [Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
-

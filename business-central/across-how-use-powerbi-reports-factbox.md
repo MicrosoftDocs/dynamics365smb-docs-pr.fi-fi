@@ -1,8 +1,8 @@
 ---
-title: "Näytä mukautettuja Power BI -raportteja| Microsoft Docs"
-description: "Voit käyttää Power BI -raportteja, kun haluat saada lisätietoja luetteloissa olevista tiedoista."
+title: Mukautettujen Power BI -raporttien näyttäminen| Microsoft Docs
+description: Saat Power BI -raporttien avulla lisätietoja luetteloissa olevista tiedoista.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,18 +12,18 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 10/01/2018
 ms.author: edupont
+ms.openlocfilehash: 2be3a29ad88c46f8b96b9f4bed34602da35fbcb7
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 595e6fb7cc8239ea33cf57aadfd8b0f3419323e5
-ms.contentlocale: fi-fi
-ms.lasthandoff: 06/01/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795360"
 ---
-# <a name="viewing-list-data-in-power-bi-reports-in-business-central"></a>Power BI -raporttien luettelotietojen tarkasteleminen Business Central -sovelluksessa 
+# <a name="viewing-list-data-in-power-bi-reports-in-business-central"></a>Power BI -raporttien luettelotietojen tarkasteleminen Business Centralissa 
 [!INCLUDE[d365fin](includes/d365fin_md.md)]in useilla tärkeillä luettelosivuilla on ohjauselementtinä tietoruutu, jolla saa lisätietoja luettelon tiedoista. Raportti päivitetään ja suodatetaan valitun tapahtuman mukaan, kun siirryt luettelon riveillä. Voit luoda mukautettuja raportteja, joissa tämä ohjausobjekti on esillä. Raportteja luotaessa on kuitenkin noudatettava tiettyjä sääntöjä, jotta ne toimisivat halutulla tavalla.  
 
 > [!NOTE]  
->   Sinulla on oltava kelvollinen [!INCLUDE[d365fin](includes/d365fin_md.md)]- ja Power BI -tili. Sinun on ladattava myös [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/). Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen Power BI -tietolähteenä](across-how-use-financials-data-source-powerbi.md).  
+>   Sinulla on oltava kelvollinen [!INCLUDE[d365fin](includes/d365fin_md.md)]- ja Power BI -tili. Lisäksi sinun on ladattava [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/). Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen Power BI -tietolähteenä](across-how-use-financials-data-source-powerbi.md).  
 
 ## <a name="report-data-set"></a>Raportin tietojoukko
 Kun luot raportin Power BI Desktopissa, sinun on määritettävä tietolähde tai verkkopalvelu, joka sisältää siihen luetteloon liittyvät tiedot, johon haluat liittää raportin. Jos haluat esimerkiksi luoda myyntiluetteloa koskevan raportin, varmista, että tietojoukko sisältää myyntiin liittyviä tietoja.  
@@ -72,8 +72,7 @@ Tässä osassa esitellään tapa, jolla voidaan kiertää tavallisimmat Power BI
 Tarkista, että raportin kooksi on määritetty 325 x 310 kuvapistettä. Tallenna raportti ja päivitä sitten luettelosivu.  
 
 ## <a name="see-also"></a>Katso myös
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen Power BI -tietolähteenä](across-how-use-financials-data-source-powerbi.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen Power BI:n tietolähteenä](across-how-use-financials-data-source-powerbi.md)  
 [Käytön aloittaminen](product-get-started.md)    
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittäminen](setup.md)    
 [Rahoitus](finance.md)  
-

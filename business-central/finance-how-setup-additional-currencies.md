@@ -1,8 +1,8 @@
 ---
-title: "Lisävaluuttojen määrittäminen| Microsoft Docs"
-description: "Pääkirjanpito määritetään käyttämään paikallista valuuttaa (PVA) ja toinen valuutta määritetään lisävaluutaksi, jolle määritetään ajantasainen vaihtokurssi."
+title: Lisävaluuttojen määrittäminen| Microsoft Docs
+description: Pääkirjanpito määritetään käyttämään paikallista valuuttaa (PVA) ja toinen valuutta määritetään lisävaluutaksi, jolle määritetään ajantasainen vaihtokurssi.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: multiple currencies
 ms.date: 01/07/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: a98027c3ef3171491f84197897f93cbed4e288c2
 ms.openlocfilehash: 294ed8019b12287e4b4ad59d46e842e4022a637f
-ms.contentlocale: fi-fi
-ms.lasthandoff: 01/07/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795447"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Lisäraportointivaluutan määrittäminen
 Yritysten toimiessa yhä useammassa maassa tai alueella niiden on entistä tärkeämpää pystyä tarkistamaan ja raportoimaan taloustiedot useana valuuttana.
@@ -125,4 +125,3 @@ Lisäksi kaikissa samantyyppisissä tulevissa tapahtumissa summat kirjataan sek�
 [Valuutan vaihtokurssien päivittäminen](finance-how-update-currencies.md)  
 [Vuosien ja jaksojen sulkeminen](year-close-years-periods.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

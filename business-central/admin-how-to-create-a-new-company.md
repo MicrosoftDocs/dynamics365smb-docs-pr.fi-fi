@@ -1,23 +1,23 @@
 ---
 title: Uuden yrityksen luominen | Microsoft Docs
-description: "RapidStart Services -palvelun käyttämisessä tarvittavat taulukot ja sivut luodaan, mutta niissä ei ole tietoja."
+description: RapidStart Services -palvelun käyttämisessä tarvittavat taulukot ja sivut luodaan, mutta niissä ei ole tietoja.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 49b2bb9a59c5bcd5d414b129acffaedfa0d0eaa1
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795351"
 ---
 # <a name="create-a-new-company"></a>Uuden yrityksen luominen
 Kun haluat käyttää RapidStart Services -palvelua [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmassa, luo ensin uusi yritys, jossa asiakkaan käyttöönotto suoritetaan. Kun luot uuden yhtiön, standardi [!INCLUDE[d365fin](includes/d365fin_md.md)] -taulukot ja sivut luodaan, mutta niissä ei ole tietoja.
@@ -78,4 +78,3 @@ Seuraavassa taulukossa on joitakin asennustaulukoita, joihin siepataan asetustie
 [Kokoonpanojen käyttäminen uusissa yrityksissä](admin-apply-configuration-to-new-companies.md)  
 [Yrityksen määrittäminen RapidStart Services -palvelun avulla](admin-set-up-a-company-with-rapidstart.md)  
 [Hallinta](admin-setup-and-administration.md)
-

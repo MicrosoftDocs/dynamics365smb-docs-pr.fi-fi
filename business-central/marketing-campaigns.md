@@ -1,6 +1,6 @@
 ---
-title: "Markkinointikampanjoiden määrittäminen Business Central -sovelluksessa | Microsoft Docs"
-description: "Ohjeaiheessa käsitellään, miten markkinointikampanjat määritetään ja toteutetaan Business Central -sovelluksessa ja miten ne auttavat tunnistamaan ja houkuttelemaan prospekteja sekä säilyttämään asiakkaita."
+title: Markkinointikampanjoiden määrittäminen Business Central -sovelluksessa | Microsoft Docs
+description: Ohjeaiheessa käsitellään, miten markkinointikampanjat määritetään ja toteutetaan Business Central -sovelluksessa ja miten ne auttavat tunnistamaan ja houkuttelemaan prospekteja sekä säilyttämään asiakkaita.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 66d8bda9082754c4278a47e44529a30dea8eb39c
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795726"
 ---
 # <a name="managing-marketing-campaigns"></a>Markkinointikampanjoiden hallinta
 Vahvan markkinointisuunnitelman avulla yritys voi tunnistaa, houkutella ja säilyttää asiakkaita. Markkinointisuunnitelma sisältää erilaisia kampanjoita ja muita myyntiin ja markkinointiin liittyviä vuorovaikutustapoja. Kampanjan suunnitteluvaiheessa on päätettävä kohteena olevat kontaktit, kampanjan tyyppi (kuten messut tai suoramainonta) ja myyjien tehtävät.
@@ -51,4 +51,3 @@ Myyjät hoitavat kampanjoita, ja sinun onkin luotava kutakin tehtävää vastaa 
 [Segmenttien hallinta](marketing-segments.md)  
 [Myyntimahdollisuuksien hallinta](marketing-manage-sales-opportunities.md)  
 [Business Central -sovelluksen käyttäminen](ui-work-product.md)  
-

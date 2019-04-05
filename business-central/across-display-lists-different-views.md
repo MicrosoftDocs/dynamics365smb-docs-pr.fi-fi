@@ -1,8 +1,8 @@
 ---
-title: "Luetteloissa näytettävän tietomäärän muuttaminen | Microsoft Docs"
-description: "Luettelot voidaan esittää yksityiskohtaisissa näkymissä, joista näet lisätietoja, tai ruutuina, joita on helppo silmäillä."
+title: Luetteloissa näytettävän tietomäärän muuttaminen | Microsoft Docs
+description: Luettelot voidaan esittää yksityiskohtaisissa näkymissä, joista näet lisätietoja, tai ruutuina, joita on helppo silmäillä.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: personalization
 ms.date: 10/01/2018
 ms.author: solsen
+ms.openlocfilehash: 8f196f8df6683b0a7d11e75b8da53861facab0c0
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: dcad65142e4f2c9fc9ab6c5ab01ed4bb057721a0
-ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795486"
 ---
 # <a name="displaying-lists-in-different-ways"></a>Luetteloiden näyttäminen eri tavoilla
 Kaikkien [!INCLUDE[d365fin](includes/d365fin_md.md)]in luetteloiden oikeassa kulmassa on kuvakkeita, joiden avulla voi vaihtaa luettelon näkymää. Luetteloa voi tarkastella yksityiskohtaisena luettelona. Se on vakionäkymä. Voit vaihtaa myös ruutunäkymään, jossa tietystä tietueesta näytetään vähemmän tietoja ja tapahtumat pinotaan ruutuina. Tämä näkymä on erittäin hyödyllinen, kun tarkastellaan useiden tapahtumien yleiskuvausta. Näkymää kannattaa käyttää erityisesti pienissä laitteissa, sillä sen avulla tapahtumaa on helppo napauttaa.
@@ -30,4 +30,3 @@ Voit tuoda kuvan tietylle nimikkeelle siirtymällä **Nimike**-korttiin ja valit
 ## <a name="see-also"></a>Katso myös
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md)  
-

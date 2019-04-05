@@ -1,5 +1,5 @@
 ---
-title: "Maksujen kohdistaminen liittyviin asiakirjoihin ja sekä maksujen kirjaaminen | Microsoft Docs"
+title: Maksujen kohdistaminen liittyviin asiakirjoihin ja sekä maksujen kirjaaminen | Microsoft Docs
 description: Kuvaa, miten kirjataan maksut toimittajille tai hyvitykset asiakkaille.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, customer refund, creditor, debt, balance due, AP
 ms.date: 10/01/2018
 ms.author: edupont
+ms.openlocfilehash: 7b3065dd0528588fec4c05e4e9c391a3beb1cc9a
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 605c4ad4043d8b7c4b5603a4821e683f63d4a33d
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795981"
 ---
 # <a name="record-payments-and-refunds-in-the-payment-journal"></a>Maksujen ja hyvitysten tallentaminen maksupäiväkirjaan
 
@@ -25,9 +25,9 @@ Maksupäiväkirja on yleinen päiväkirja, joka on tarkoitettu erityisesti maksu
 
 - Maksujen kohdistaminen laskuihin tai hyvityslaskuihin
 
-    Jos täytät **Kohdistetaan asiakirjaan nro** -kenttään maksettavan laskun tai hyvityslaskun, kyseinen asiakirja määritetään maksettavaksi, kun päiväkirja kirjataan. Tätä kutsutaan kohdistukseksi. Vaihtoehtona maksun kirjaamisen aikana voit käyttää **Kohdista toimittajatapahtumat**- tai **Kohdista asiakastapahtumat** -sivua, kun olet tehnyt maksun kirjaamisen. Lisätietoja on esim. ohjeartikkelissa [Toimittajamaksujen täsmäyttäminen manuaalisesti](payables-how-apply-purchase-transactions-manually.md).  
+    Jos täytät **Kohdistetaan asiakirjaan nro** -kenttään maksettavan laskun tai hyvityslaskun, kyseinen asiakirja määritetään maksettavaksi, kun päiväkirja kirjataan. Tätä kutsutaan kohdistukseksi. Vaihtoehtona maksun kirjaamisen aikana voit käyttää **Kohdista toimittajatapahtumat**- tai **Kohdista asiakastapahtumat** -sivua, kun olet tehnyt maksun kirjaamisen. Lisätietoja on esimerkiksi kohdassa [Toimittajamaksujen täsmäyttäminen maksukirjauskansiolla tai toimittajatapahtumista](payables-how-apply-purchase-transactions-manually.md)  
 
-- Ehdotettujen maksujen hakeminen toimittajille tai työntekijöille 
+- Ehdotettujen maksujen hakeminen toimittajille tai työntekijöille
 
     **Ehdota toimittajamaksuja**- ja **Ehdota työntekijämaksuja** -toiminnot voivat auttaa sinua täyttämään maksupäiväkirjan rivit automaattisesti toimittajien priorisointien ja eräpäivien mukaan. Lisätietoja on kohdassa [Toimittajamaksujen ehdottaminen](payables-how-suggest-vendor-payments.md). Tätä toimintoa käytettäessä **Kohdistetaan asiakirjaan nro** -kenttä täytetään aina.  
 
@@ -35,7 +35,7 @@ Maksupäiväkirja on yleinen päiväkirja, joka on tarkoitettu erityisesti maksu
 
     Maksun suorituksen kirjaamisen lisäksi voit käyttää myös **Maksupäiväkirja**-sivua siirtämään maksun pankin lisäkäsittelyä varten. Lisätietoja on kohdissa [Sekkimaksujen suorittaminen](payables-how-work-checks.md) ja [Sähköisten maksujen suorittaminen](payables-how-export-payments-bank-file.md).  
 
-## <a name="to-make-payments-in-the-payment-journal"></a>Maksujen tekeminen maksupäiväkirjaan 
+## <a name="to-make-payments-in-the-payment-journal"></a>Maksujen tekeminen maksupäiväkirjaan
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maksupäiväkirjat** ja valitse sitten liittyvä linkki.
 2. Avaa päiväkirjaerä, joka on varattu maksuja varten.
@@ -57,4 +57,3 @@ Maksupäiväkirja on yleinen päiväkirja, joka on tarkoitettu erityisesti maksu
 [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md)  
 [Työtilan mukauttaminen](ui-personalization-user.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
-

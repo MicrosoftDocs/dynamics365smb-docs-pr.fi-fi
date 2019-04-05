@@ -1,23 +1,23 @@
 ---
-title: "Tuotantokalenterien määrittäminen | Microsoft Docs"
-description: "Tuotantosolun kalenterissa määritetään työpäivät ja -tunnit, työvuorot, lomapäivät sekä poissaolot, jotka määräävät tuotantosolun käytettävissä olevan kokonaiskapasiteetin (ajassa mitattuna) solun tehokkuus- ja kapasiteettiarvojen mukaisesti. Tuotantosolun kalenterin luominen ja käyttöönotto edellyttävät useita valmistelutoimenpiteitä:"
+title: Tuotantokalenterien määrittäminen | Microsoft Docs
+description: 'Tuotantosolun kalenterissa määritetään työpäivät ja -tunnit, työvuorot, lomapäivät sekä poissaolot, jotka määräävät tuotantosolun käytettävissä olevan kokonaiskapasiteetin (ajassa mitattuna) solun tehokkuus- ja kapasiteettiarvojen mukaisesti. Tuotantosolun kalenterin luominen ja käyttöönotto edellyttävät useita valmistelutoimenpiteitä:'
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 55cefad889557df37d8869926ee7e200cd145d03
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796220"
 ---
 # <a name="set-up-shop-calendars"></a>Tuotantokalentereiden määrittäminen
 Tuotantosolun tai kuormituskeskuksen kalenterissa määritetään työpäivät ja -tunnit, työvuorot, lomapäivät sekä poissaolot, jotka määräävät tuotantosolun tai kuormituskeskuksen käytettävissä olevan kokonaiskapasiteetin (ajassa mitattuna) tehokkuus- ja kapasiteettiarvojen mukaisesti.
@@ -113,4 +113,3 @@ Valitun päivän kapasiteetti on nyt pienentynyt kalenteriin merkityn poissaoloa
 [Tuotannon määrittäminen](production-configure-production-processes.md)  
 [Tuotanto](production-manage-manufacturing.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
-

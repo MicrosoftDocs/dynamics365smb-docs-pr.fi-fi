@@ -1,24 +1,24 @@
 ---
 title: Ilmoitusmallien hallinta | Microsoft Docs
-description: "Työnkulun käyttäjille lähetetään ilmoituksia suoritettavista osavaiheista sekä työnkulun osavaiheiden tilasta. Ilmoituksen vastaanottaja ja lähetysaika asetetaan määrittämällä hyväksynnän käyttäjät, käyttäjien ilmoitusaikataulu sekä tarvittavat työnkulun vastaukset."
+description: Työnkulun käyttäjille lähetetään ilmoituksia suoritettavista osavaiheista sekä työnkulun osavaiheiden tilasta. Ilmoituksen vastaanottaja ja lähetysaika asetetaan määrittämällä hyväksynnän käyttäjät, käyttäjien ilmoitusaikataulu sekä tarvittavat työnkulun vastaukset.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/08/2018
 ms.author: sgroespe
 redirect_url: across-how-to-specify-when-and-how-to-receive-notifications
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 6c84e5e9e0284249ee7be3f92a82cca2a2fbb3d5
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796274"
 ---
 # <a name="manage-notification-templates"></a>Ilmoitusmallien hallinta
 Työnkulun käyttäjille lähetetään ilmoituksia suoritettavista osavaiheista sekä työnkulun osavaiheiden tilasta. Ilmoituksen vastaanottaja ja lähetysaika asetetaan määrittämällä hyväksynnän käyttäjät, käyttäjien ilmoitusaikataulu sekä tarvittavat työnkulun vastaukset. Lisätietoja on kohdassa [Työnkulkuilmoitusten määrittäminen](across-setting-up-workflow-notifications.md).  
@@ -83,4 +83,3 @@ Parametriarvot lisätään automaattisesti ilmoituksiin ilmoitusmallin tyypin mu
  [Työnkulkujen luominen](across-how-to-create-workflows.md)   
  [Tehtävien aikatauluttaminen työjonojen avulla](admin-job-queues-schedule-tasks.md)   
  [Työnkulku](across-workflow.md)   
-

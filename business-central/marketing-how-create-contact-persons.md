@@ -1,6 +1,6 @@
 ---
-title: "Kontaktihenkilöiden luominen| Microsoft Docs"
-description: "Tässä ohjeaiheessa kerrotaan, miten luodaan kontaktin kortti kullekin sellaiselle uudelle henkilölle tai prospektille, joiden kanssa sinulla on liikesuhde."
+title: Kontaktihenkilöiden luominen| Microsoft Docs
+description: Tässä ohjeaiheessa kerrotaan, miten luodaan kontaktin kortti kullekin sellaiselle uudelle henkilölle tai prospektille, joiden kanssa sinulla on liikesuhde.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-create-contact-persons
+ms.openlocfilehash: 983de37e20b69d6ce5d8630973d8fbac6403a346
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 1bcba95f33a504d5c87fbc27671184d71aa6468f
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795607"
 ---
 # <a name="create-contact-persons"></a>Kontaktihenkilöiden luominen
 Voit luoda kontaktikortin jokaiselle yhteyshenkilölle, joka työskentelee sellaisessa yrityksissä, jonka kanssa yrityksesi on vuorovaikutuksessa. Jokaiselle kontaktiyritykselle voit luoda niin monta kontaktihenkilöä kuin haluat. Voit luoda kontaktikortteja myös niille henkilöille, jotka haluat tallentaa itsenäisinä.
@@ -37,11 +37,9 @@ Voit luoda kontaktikortin jokaiselle yhteyshenkilölle, joka työskentelee sella
 >   **Kontaktienhallinnan asetukset** -sivun **Periytyminen**-osassa valittujen kenttien sisältö kopioidaan yrityksestä kyseisen yrityksen henkilöille.
 
 ## <a name="see-also"></a>Katso myös
-[Kontaktienhallinnan määrittäminen](marketing-setup-marketing.md)  
 [Postitusryhmien määrittäminen kontaktille](marketing-mailing-groups.md#AssignMailGroupContact)  
 [Vastuualueiden määrittäminen kontakteille](marketing-job-responsibilities.md)  
 [Kontaktihenkilöiden organisaatiotasojen määrittäminen](marketing-organizational-levels.md)  
 [Kontaktien synkronoiminen asiakkaiden, toimittajien ja pankkitilien kanssa](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  
 [Liiketoimintakontaktien luokittelu profiilikyselyiden avulla](marketing-create-contact-profile-questionnaire.md)  
 [Business Central -sovelluksen käyttäminen](ui-work-product.md)  
-

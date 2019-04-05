@@ -1,24 +1,24 @@
 ---
-title: "Rakennetiedot – uusintatilauskäytännöt | Microsoft Docs"
-description: "Tässä ohjeaiheessa on yleiskuvaus nimikkeiden täydennyskäytännöistä."
+title: Rakennetiedot – uusintatilauskäytännöt | Microsoft Docs
+description: Tässä ohjeaiheessa on yleiskuvaus nimikkeiden täydennyskäytännöistä.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-handling-reordering-policies
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 4aaef129da953596632b56716eaff2f0c47736f7
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795444"
 ---
 # <a name="design-details-reordering-policies"></a>Rakennetiedot: uusintatilauskäytännöt
 Uusintatilausohjeet määrittävät sen, kuinka paljon tilataan, kun nimikkeitä tarvitaan lisää. Käytössä on neljä erilaista uusintatilaustapaa.  
@@ -100,4 +100,3 @@ Koska toimitustilauksen määrä perustuu todelliseen kysyntään, voi olla jär
 [Rakennetiedot: suunnittelun parametrit](design-details-planning-parameters.md)   
 [Rakennetiedot: uusintatilauskäytäntöjen käsittely](design-details-handling-reordering-policies.md)   
 [Rakennetiedot: Tarjonnan suunnittelu](design-details-supply-planning.md)
-

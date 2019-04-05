@@ -1,6 +1,6 @@
 ---
-title: "Rakennetiedot – Suunnitteluparametrit | Microsoft Docs"
-description: "Tässä ohjeaiheessa kerrotaan, mitä suunnitteluparametreja Business Central -sovelluksessa voi käyttää."
+title: Rakennetiedot – Suunnitteluparametrit | Microsoft Docs
+description: Tässä ohjeaiheessa kerrotaan, mitä suunnitteluparametreja Business Central -sovelluksessa voi käyttää.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: aeafdd37a40d393fbb62501d67b14f3e351ea254
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 72b22b1370fcd5d2a92b9ed3c6c645d279ee72f3
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795723"
 ---
 # <a name="design-details-planning-parameters"></a>Rakennetiedot: suunnittelun parametrit
 Tässä ohjeaiheessa kerrotaan, mitä suunnitteluparametreja [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmassa voi käyttää.  
@@ -44,7 +44,7 @@ Uusintatilauspistekäytännöt (**Kiinteä uusintatil. määrä** ja **Maksimim�
 
 Oletusarvoinen varmuusläpimenoaika **Tuotannon asetukset** -sivulla, tulee olla asetettuna vähintään yhteen päivään. Kysynnän eräpäivä voi olla tiedossa, mutta ei kellonaika. Suunnitteluaikataulut vastaavat nettokysyntää taantuvasti ja jos varmuusläpimenoaikaa ei ole määritetty, tavarat voivat saapua liian myöhään vastatakseen kysyntää.  
 
-Kolme uudelleentilausjakson kenttää, **Uudelleenajoitusjakso**, **Erän koontijakso** ja **Puskuriaika**, ottavat myös osaa uudelleentilauksen ajankohdan määrittämiseen. Lisätietoja on kohdassa Uusintatilauksen ajankohdan ja määrän optimointi.  
+Kolme uudelleentilausjakson kenttää, **Uudelleenajoitusjakso**, **Erän koontijakso** ja **Puskuriaika**, ottavat myös osaa uudelleentilauksen ajankohdan määrittämiseen. Lisätietoja on ohjeaiheessa [Lisätilausten aikataulujen ja määrän optimointi](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder).  
 
 ## <a name="define-how-much-to-reorder"></a>Määritä uusintatilauksen määrä  
 Jos suunnittelujärjestelmä havaitsee uusintatilauksen tarpeen, uusintatilaustapaa käytetään määrittämään, milloin ja kuinka paljon tilataan.  
@@ -57,7 +57,7 @@ Suunnittelujärjestelmä noudattaa tavallisesti tätä logiikka uusintatilaustav
 4. Jos bruttokysyntää on jäljellä enemmän ennen tulevaisuuteen aikataulutetun ehdotuksen päättymispäivämäärää ja tämä kysyntä tuo tällä hetkellä lasketun oletetun saatavilla olevan varaston varmuusvaraston määrän alapuolelle, tilauksen määrää kasvatetaan alijäämän hyvittämiseksi. Ehdotettu tarjontatilaus aikataulutetaan sitten taaksepäin nettokysynnän eräpäivästä, joka on saattanut vahingoittaa varmuusvaraston määrää.  
 5. Jos **Aikaväli**-kenttää ei ole täytetty, vain saman eräpäivän bruttokysyntä lisätään.  
 
-     Kolme uudelleentilausjakson kenttää, **Uudelleenajoitusjakso**, **Erän koontijakso** ja **Puskuriaika**, ottavat myös osaa uudelleentilausmäärien määrittämiseen. Lisätietoja on kohdassa Uusintatilauksen ajankohdan ja määrän optimointi.  
+     Kolme uudelleentilausjakson kenttää, **Uudelleenajoitusjakso**, **Erän koontijakso** ja **Puskuriaika**, ottavat myös osaa uudelleentilausmäärien määrittämiseen. Lisätietoja on ohjeaiheessa [Lisätilausten aikataulujen ja määrän optimointi](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder).  
 
 ### <a name="reordering-policies"></a>Uusintatilauskäytännöt  
 Seuraavat uudelleenjärjestysohjeet vaikuttavat jälkitilattavaan määrään.  
@@ -118,4 +118,3 @@ Jos käytetään **Tilausohjattu**-vaihtoehtoa, suunnittelujärjestelmä analyso
 [Rakennetiedot: uusintatilauskäytäntöjen käsittely](design-details-handling-reordering-policies.md)   
 [Rakennetiedot: kysynnän ja tarjonnan täsmäytys](design-details-balancing-demand-and-supply.md)   
 [Rakennetiedot: suunnittelujärjestelmän keskeiset käsitteet](design-details-central-concepts-of-the-planning-system.md)
-

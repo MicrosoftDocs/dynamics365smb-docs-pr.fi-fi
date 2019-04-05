@@ -1,21 +1,21 @@
 ---
-title: "Rakennetiedot – Fyysisen varastoinnin asetukset | Microsoft Docs"
-description: "Business Central-sovelluksen fyysisen varastoinnin toiminnolla on erilaisia monimutkaisuustasoja, jotka perustuvat valittavissa olevien yksiköiden käyttöoikeuksiin. Varastoratkaisun monimutkaisuuden taso määritellään laajasti binin asetusten mukaisesti sijaintikorteissa, joka vuorostaan on lisenssikontrolloitu niin, että binin määrityskenttien käyttö määritellään lisenssissä."
+title: Rakennetiedot – Fyysisen varastoinnin asetukset | Microsoft Docs
+description: Business Central-sovelluksen fyysisen varastoinnin toiminnolla on erilaisia monimutkaisuustasoja, jotka perustuvat valittavissa olevien yksiköiden käyttöoikeuksiin. Varastoratkaisun monimutkaisuuden taso määritellään laajasti binin asetusten mukaisesti sijaintikorteissa, joka vuorostaan on lisenssikontrolloitu niin, että binin määrityskenttien käyttö määritellään lisenssissä.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 0c813187ee6d11fcdb729cb64048386238406528
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795826"
 ---
 # <a name="design-details-warehouse-setup"></a>Rakennetiedot: f. varaston asetus
 [!INCLUDE[d365fin](includes/d365fin_md.md)]in fyysisen varastoinnin toiminnolla on erilaisia monimutkaisuustasoja, jotka perustuvat valittavissa olevien yksiköiden käyttöoikeuksiin. Varastoratkaisun monimutkaisuuden taso määritellään laajasti binin asetusten mukaisesti sijaintikorteissa, joka vuorostaan on lisenssikontrolloitu niin, että binin määrityskenttien käyttö määritellään lisenssissä. Lisäksi lisenssin sovellusobjektit hallitsevat mitä käyttöliittymäasiakirjaa käytetään tuetuille varastotoiminnoille.  
@@ -37,7 +37,7 @@ Lisätietoja kustakin yksiköstä on kohdassa [[!INCLUDE[d365fin](includes/d365f
 
 Seuraavassa taulukossa käsitellään mitä yksiköitä vaaditaan määrittämään eri fyysisen varastoinnin monimutkaisuustasot, mitkä käyttöliittymäasiakirjat tukevat kutakin tasoa ja mitkä sijaintikoodit heijastavat näitä tasoja [!INCLUDE[d365fin](includes/d365fin_md.md)]in esittelytietokannassa.  
 
-|Monimutkaisuustaso|Kuvaus|Käyttöliittymäasiakirja|CRONUS-sijainti|Yksikön vähimmäisvaatimus|  
+|Monimutkaisuustaso|Description|Käyttöliittymäasiakirja|CRONUS-sijainti|Yksikön vähimmäisvaatimus|  
 |----------------------|---------------------------------------|-----------------|---------------------------------|---------------------------------|  
 |1|Ei määritettyä fyysisen varaston toimintaa.<br /><br /> Vastaanotto-/toimituskirjaus tilauksista.|Tilaus|SININEN|Perusvarasto|  
 |2|Ei määritettyä fyysisen varaston toimintaa.<br /><br /> Vastaanotto-/toimituskirjaus tilauksista.<br /><br /> Lokerokoodi vaaditaan.|Tilaus varastopaikkakoodilla|HOPEINEN|Perusvarasto/lokero|  
@@ -130,4 +130,3 @@ Poistettu malli voidaan kirjata nimikkeelle ja sijainnille. Poistettu malli mä�
 ## <a name="see-also"></a>Katso myös  
 [Rakennetiedot: f. varaston hallinta](design-details-warehouse-management.md)   
 [Rakennetiedot: saatavuus varastossa](design-details-availability-in-the-warehouse.md)
-

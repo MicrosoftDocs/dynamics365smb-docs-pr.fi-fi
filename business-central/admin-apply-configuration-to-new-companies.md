@@ -1,23 +1,23 @@
 ---
-title: "Kokoonpanon käyttäminen uusissa yrityksissä | Microsoft Docs"
-description: "Kun olet luonut määrityspaketin, seuraava vaihe on ottaa paketti käyttöön asiakkaalle täytäntöönpanoa varten. Käytä kokoonpanoa, jossa on uusi tyhjä yritys."
+title: Kokoonpanon käyttäminen uusissa yrityksissä | Microsoft Docs
+description: Kun olet luonut määrityspaketin, seuraava vaihe on ottaa paketti käyttöön asiakkaalle täytäntöönpanoa varten. Käytä kokoonpanoa, jossa on uusi tyhjä yritys.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: c51c3af057e59505ad478b51a40c15605ec0d64b
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
-ms.openlocfilehash: 68a0c21fd79d0fffcb2a7d7eb9aeb161f06fba33
-ms.contentlocale: fi-fi
-ms.lasthandoff: 06/11/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796241"
 ---
 # <a name="apply-configurations-to-new-companies"></a>Kokoonpanojen käyttäminen uusissa yrityksissä
 Kun olet luonut määrityspaketin, seuraava vaihe on ottaa paketti käyttöön asiakkaalle täytäntöönpanoa varten. Käytössä on määrityspaketti uudessa tyhjässä yrityksessä.  
@@ -35,4 +35,3 @@ Kun olet luonut määrityspaketin, seuraava vaihe on ottaa paketti käyttöön a
 ## <a name="see-also"></a>Katso myös  
 [Yrityksen määrittäminen RapidStart Services -palvelun avulla](admin-set-up-a-company-with-rapidstart.md)  
 [Hallinta](admin-setup-and-administration.md)
-

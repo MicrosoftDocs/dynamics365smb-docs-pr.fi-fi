@@ -1,8 +1,8 @@
 ---
 title: Kontaktien kanssa tapahtuvien vuorovaikutusten hallinta| Microsoft Docs
-description: "Voit hallita kaikenlaista viestintää tai vuorovaikutusta yrityksesi ja kontaktiesi välillä, kuten kirjeenvaihtoa, puheluja ja kokouksia."
+description: Voit hallita kaikenlaista viestintää tai vuorovaikutusta yrityksesi ja kontaktiesi välillä, kuten kirjeenvaihtoa, puheluja ja kokouksia.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 6fa95883e30b7912ed2b6b22f40cbcd5af339f31
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795636"
 ---
 # <a name="managing-interactions-with-contacts"></a>Kontaktien kanssa tapahtuvien vuorovaikutusten hallinta
 [!INCLUDE[d365fin](includes/d365fin_md.md)]:ssa kaikentyyppinen yhteydenpito yrityksesi ja kontaktiesi välillä on vuorovaikutusta. Yhteydenpito voi tapahtua esimerkiksi kirjeitse, faksitse, sähköpostitse, puhelimitse jne.
@@ -32,7 +32,7 @@ Asiakkuudenhallinnan alueella voit tallentaa kaikki vuorovaikutukset, joita sinu
 Ennen kun voit luoda ja tallentaa vuorovaikutuksia, sinun täytyy määrittää vuorovaikutusmallit. Ennen vuorovaikutusten luomista on määritettävä, mihin vuorovaikutusmalleihin ne perustuvat. Vuorovaikutusmalli on malli, joka määrittää vuorovaikutuksen perusominaisuudet.
 Voit määrittää vuorovaikutusmallin **Vuorovaikutusmallit**-sivulla.
 
-Kun olet syöttänyt vuorovaikutusmallin tiedot, voit luoda liitteen (esimerkiksi Microsoft Word -asiakirjan). Toista vaiheet ja luo niin monta vuorovaikutusmallia kuin haluat.  
+Kun olet syöttänyt vuorovaikutusmallin tiedot, voit luoda liitteen, kuten Microsoft Word -asiakirjan. Toista vaiheet ja luo niin monta vuorovaikutusmallia kuin haluat.  
 
 ## <a name="creating-interactions"></a>Vuorovaikutusten luominen
 Vuorovaikutuksia voi tallentaa kahdella tavalla:
@@ -58,4 +58,3 @@ Voit poistaa vuorovaikutuslokin tapahtumia, jotka on peruutettu. Voit poistaa vu
 [Kontaktien hallinta](marketing-contacts.md)  
 [Myyntimahdollisuuksien hallinta](marketing-manage-sales-opportunities.md)  
 [Business Central -sovelluksen käyttäminen](ui-work-product.md)  
-

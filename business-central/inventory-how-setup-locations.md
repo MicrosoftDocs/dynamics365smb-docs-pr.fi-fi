@@ -1,8 +1,8 @@
 ---
-title: "Sijaintikortin ja siirtoreittien määrittäminen| Microsoft Docs"
-description: "Jokaisille varastoitavalle varastonimikkeelle luodaan sijaintikortti, kuten varasto tai jakelukeskus. Lisäksi sijaintien välille määritetään siirtoreitit."
+title: Sijaintikortin ja siirtoreittien määrittäminen| Microsoft Docs
+description: Jokaisille varastoitavalle varastonimikkeelle luodaan sijaintikortti, kuten varasto tai jakelukeskus. Lisäksi sijaintien välille määritetään siirtoreitit.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: warehouse, distribution center
 ms.date: 10/01/2018
 ms.author: SorenGP
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 828979bf181f1cd7f7a66d2c7c8ac8a2700b732b
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796184"
 ---
 # <a name="set-up-locations"></a>Sijaintien määrittäminen
 Jos ostat, varastoit tai myyt nimikkeitä useamman varaston avulla, sijaintikortti ja siirtoreitit on määritettävä jokaiselle sijainnille.
@@ -47,4 +47,3 @@ Voit nyt siirtää varastonimikkeitä sijaintien välillä. Lisätietoja on kohd
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)
-

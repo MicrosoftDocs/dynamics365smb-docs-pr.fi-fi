@@ -1,6 +1,6 @@
 ---
-title: "Syitä, miksi sivun mukauttaminen ei onnistu | Microsoft Docs"
-description: "Lisätietoja syistä, miksi sivua ei voi mukauttaa ja miten sivun lukituksen voi avata mukauttamista varten."
+title: Syitä, miksi sivun mukauttaminen ei onnistu | Microsoft Docs
+description: Lisätietoja syistä, miksi sivua ei voi mukauttaa ja miten sivun lukituksen voi avata mukauttamista varten.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: 9923ed478bbe59089363f5d0a494a9e45829e7c2
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
-ms.openlocfilehash: 6b225548e95abacc688a97f1c3f8b5e8472a8f8f
-ms.contentlocale: fi-fi
-ms.lasthandoff: 04/18/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796328"
 ---
 # <a name="why-a-page-is-locked-from-personalizing"></a>Sivun mukauttamisen estäminen lukitsemalla
 Jos avatun sivun **Mukautetaan**-palkissa on lukkokuvake (kuten kuvassa), sivun muuttaminen mukauttamalla on tällä hetkellä estetty.
@@ -33,4 +33,3 @@ Sivu sisältää tällä hetkellä viimeksi tekemäsi muutokset. Jos haluat jatk
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Perusasetusten muuttaminen](ui-change-basic-settings.md)  
 [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md)  
-

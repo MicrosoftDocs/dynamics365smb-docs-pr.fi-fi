@@ -1,8 +1,8 @@
 ---
-title: "Kontaktien postitusryhmien määrittäminen| Microsoft Docs"
-description: "Voit ilmaista postitusryhmien avulla ryhmät, joiden avulla määritetään samat tiedot saavat kontaktiryhmät esimerkiksi markkinointi- tai mainoskampanjaa varten."
+title: Kontaktien postitusryhmien määrittäminen| Microsoft Docs
+description: Voit ilmaista postitusryhmien avulla ryhmät, joiden avulla määritetään samat tiedot saavat kontaktiryhmät esimerkiksi markkinointi- tai mainoskampanjaa varten.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: marketing, campaign, promo, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-setup-contacts
+ms.openlocfilehash: 6c089b772c139d0c0e9465f383ab39bd3c125dca
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 7f40b94cef953b22684ddcc744de0cfbdb8e0f20
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795403"
 ---
 # <a name="set-up-mailing-groups-for-contacts"></a>Kontaktien postitusryhmien määrittäminen
 Postitusryhmien avulla voi määrittää niiden kontaktien ryhmät, joiden haluat vastaanottavan samat tiedot. Voit määrittää esimerkiksi kontaktien postitusryhmän, jolle haluat lähettää ilmoituksen toimiston siirtämisestä, tai toisen ryhmän, jolle haluat lähettää lomalahjoja.
@@ -40,10 +40,8 @@ Toista nämä vaiheet ja liitä niin monta postitusryhmää kuin haluat. Voit li
 
 Kontaktiin liitettyjen postitusryhmien lukumäärä näytetään **Kontakti**-sivun **Segmentointi**-osan **Postitusryhmien lkm** -kentässä.
 
-Kun olet liittänyt postitusryhmät kontakteihisi, voit käyttää näitä tietoja valitessasi kontakteja segmentteihisi. Lisätietoja on ohjeaiheessa [Kontaktien lisääminen segmentteihin](marketing-add-contact-segment.md).
+Kun olet liittänyt postitusryhmät kontakteihisi, voit käyttää näitä tietoja valitessasi kontakteja segmentteihisi. Lisätietoja on kohdassa [Kontaktien lisääminen segmentteihin](marketing-add-contact-segment.md).
 
 ## <a name="see-also"></a>Katso myös
-[Kontaktiyrityksen luominen](marketing-create-contact-companies.md)  
-[Kontaktihenkilöiden luominen](marketing-create-contact-persons.md)  
-[Business Central -sovelluksen käyttäminen](ui-work-product.md)
-
+[Kontaktien luominen](marketing-create-contact-companies.md)  
+[Business Centralin käyttäminen](ui-work-product.md)

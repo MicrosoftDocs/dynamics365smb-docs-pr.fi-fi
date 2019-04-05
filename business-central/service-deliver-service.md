@@ -1,8 +1,8 @@
 ---
-title: "Huollon toimitustehtävien yleiskatsaus | Microsoft Docs"
-description: "Lisätietoja tehtävistä, joita määrittämällä voidaan varmistaa laadukkaan huollon toimitus ja asiakkaiden kanssa tehtyjen sopimusten noudattaminen."
+title: Huollon toimitustehtävien yleiskatsaus | Microsoft Docs
+description: Lisätietoja tehtävistä, joita määrittämällä voidaan varmistaa laadukkaan huollon toimitus ja asiakkaiden kanssa tehtyjen sopimusten noudattaminen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: service, service items, respond, response
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 129d82355771872f4c1385ec2f1dee4965721dd8
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796162"
 ---
 # <a name="delivering-service"></a>Huollon toimittaminen
 [!INCLUDE[d365fin](includes/d365fin_md.md)]:n toiminnot helpottavat huollon toimittamista luotujen sopimusten ja huoltotilausten mukaisesti. Huoltoteknikot ja huollon aikatauluttajat voivat tarkastaa odottavat huoltotilaukset helposti **lähetystaulukosta**. **Lähetystaulukosta** ilmenevät sekä käynnissä olevat että valmiit tilaukset.  
@@ -46,4 +46,3 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 [Huollon suunnittelu](service-plan-service.md)  
 [Huoltosopimusten toteuttaminen](service-fulfill-service-contracts.md)  
 [Projektien hallinta](projects-manage-projects.md)  
-

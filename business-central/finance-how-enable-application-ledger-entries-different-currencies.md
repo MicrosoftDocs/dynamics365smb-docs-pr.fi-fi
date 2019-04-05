@@ -1,8 +1,8 @@
 ---
 title: Eri valuutoissa olevien tapahtumien kohdistaminen| Microsoft Docs
-description: "Jos asiakkaan maksu vastaanotetaan eri valuuttana kuin myytäessä käytetty valuutta, voidaan kirjanpitotapahtumat kohdistaa useana valuuttana."
+description: Jos asiakkaan maksu vastaanotetaan eri valuuttana kuin myytäessä käytetty valuutta, voidaan kirjanpitotapahtumat kohdistaa useana valuuttana.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: multiple currencies, payment, reconcile
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 6d58c088c776a953cb76d102b7deeb3b8d69b42a
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796068"
 ---
 # <a name="enable-application-of-ledger-entries-in-different-currencies"></a>Tapahtumakirjausten kohdistamisen ottaminen käyttöön eri valuutoissa
 Jos ostat toimittajalta yhdessä valuutassa ja maksat maksun toisessa valuutassa, maksu voidaan kohdistaa ostoon.
@@ -51,4 +51,3 @@ Jos eri valuutoissa olevia tapahtumia kohdistetaan, täytyy määrittää KP-til
 [Ostovelkojen hallinta](payables-manage-payables.md)  
 [Myyntisaamisten hallinta](receivables-manage-receivables.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

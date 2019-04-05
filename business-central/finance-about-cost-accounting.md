@@ -1,23 +1,23 @@
 ---
 title: Tietoja kustannuslaskennasta | Microsoft Docs
-description: "Kustannuslaskennan avulla voit ymmärtää käynnissä olevan liiketoiminnan kustannuksia."
+description: Kustannuslaskennan avulla voit ymmärtää käynnissä olevan liiketoiminnan kustannuksia.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: d7eafb21bbcf6c4b446f02b3a33ff6349c2d415d
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5a6e53e18d99b6256d0c519fe716e5d8bbe3a90a
-ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "796046"
 ---
 # <a name="about-cost-accounting"></a>Tietoja kustannuslaskennasta
 Kustannuslaskenta auttaa tiedostamaan liiketoimintaan sisältyviä kustannuksia. Kustannuslaskennan tiedot on suunniteltu analysoimaan:  
@@ -75,4 +75,3 @@ Useimmat raportit ja tilastot perustuvat kirjattuihin kustannustapahtumiin. Voit
  [Rahoitus](finance.md)   
  [Termit kustannuslaskennassa](finance-terminology-in-cost-accounting.md)  
  [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

@@ -1,8 +1,8 @@
 ---
 title: Nimikekustannusten muokkaaminen manuaalisesti| Microsoft Docs
-description: "Voit muuttaa nimikkeen varastonarvostusta FIFO- tai Keskiarvo-arvostusmenetelmällä, esimerkiksi silloin, kun nimikkeen kustannusten muutoksen syynä on jokin muu kuin tapahtuma."
+description: Voit muuttaa nimikkeen varastonarvostusta FIFO- tai Keskiarvo-arvostusmenetelmällä, esimerkiksi silloin, kun nimikkeen kustannusten muutoksen syynä on jokin muu kuin tapahtuma.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory valuation, costing
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 6688b89dc9ef05456bca11fc722514b8bd47b05d
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: bb320750002681d11bb3ec4aa196a55884b73da7
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795022"
 ---
 # <a name="adjust-item-costs"></a>Nimikekustannusten muuttaminen
 Nimikekustannus (varastoarvo) voi muuttua, kun ostat nimikkeen ja myyt sen myöhemmin, koska rahtikulut lisätään ostohintaan nimikkeen myynnin jälkeen. Kustannusten muuttamisella on merkitystä etenkin tilanteissa, jossa tavaroita myydään ennen tavaroiden oston laskuttamista. Jotta oikea varastoarvo on tiedossa, nimikekustannukset on mukautettava säännöllisesti. Näin varmistetaan, että tuottotilastot ovat ajan tasalla ja talouden avaintunnusluvut ovat oikein. Katso lisätietoja kohdasta [Rakennetiedot: kustannuksen muutos](design-details-cost-adjustment.md).
 
-Perussäännön mukaan nimikekortin **Yksikkökustannus**-kentässä olevan arvon perustana on vakiokustannus niiden nimikkeiden osalta, joilla on vakioarvostusmenetelmä. Niiden nimikkeiden osalta, joilla on jokin muista arvostusmenetelmistä, arvon perustana on varastosaldo (laskutetut kustannukset ja oletetut kustannukset) jaettuna saatavilla olevalla määrällä. Lisätietoja on kohdassa Tietoja yksikkökustannuksen laskennasta.
+Perussäännön mukaan nimikekortin **Yksikkökustannus**-kentässä olevan arvon perustana on vakiokustannus niiden nimikkeiden osalta, joilla on vakioarvostusmenetelmä. Niiden nimikkeiden osalta, joilla on jokin muista arvostusmenetelmistä, arvon perustana on varastosaldo (laskutetut kustannukset ja oletetut kustannukset) jaettuna saatavilla olevalla määrällä. Lisätietoja on kohdassa [Tietoja yksikkökustannuksen laskennasta](inventory-how-adjust-item-costs.md#understanding-unit-cost-calculation).
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)]issa nimikkeiden kustannuksia muutetaan automaattisesti aina varastotapahtuman yhteydessä, kuten kirjattaessa nimikkeen ostolaskua.
 
@@ -86,4 +86,3 @@ Perussäännön mukaan nimikekortin **Yksikkökustannus**-kentässä olevan arvo
 [Myynti](sales-manage-sales.md)  
 [Osto](purchasing-manage-purchasing.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

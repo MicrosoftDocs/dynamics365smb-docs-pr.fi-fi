@@ -1,8 +1,8 @@
 ---
-title: "Käyttöomaisuuden vakuuttaminen| Microsoft Docs"
-Description: You can assign a fixed asset to an insurance policy, which is represented by an insurance card.
+title: Käyttöomaisuuden vakuuttaminen| Microsoft Docs
+Description: Voit liittää käyttöomaisuuden vakuutuskirjaan, jota edustaa vakuutuskortti.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: policy, coverage
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: bf30a9b9e783cbd9e54576a76369fc33647b3af3
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 774d578d6dfe0533bfc900f796dfe39383ad869b
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795825"
 ---
 # <a name="insure-fixed-assets"></a>Käyttöomaisuuden vakuuttaminen
 Vakuutuskortti edustaa käyttöomaisuuden vakuutussopimusta. Voit liittää yhteen vakuutussopimukseen yhden käyttöomaisuuserän tai useita käyttöomaisuuseriä.
 
 Voit liittää käyttöomaisuuserän vakuutussopimukseen kirjaamalla vakuutuksen kattavuustapahtuman **Vakuutuspäiväkirja**-sivulta.
 
-Lisäksi voit liittää käyttöomaisuuserän vakuutussopimukseen ja luoda kattavuustapahtumia sen hankintamenon kirjaamisen yhteydessä. Tämä tehdään kirjaamalla käyttöomaisuuserän hankintameno niin, että **Vakuutusnro**-kenttä on täytetty. **Automaattinen vakuutuskirjaus** -valintaruutu **Käyttöomaisuuden asetukset** -sivulla on valittava. Lisätietoja on ohjeaiheen [Käyttöomaisuuden hankinta](fa-how-acquire.md) osassa Käyttöomaisuuden hankinnan kirjaaminen manuaalisesti käyttöomaisuuden KP-päiväkirjan avulla.
+Lisäksi voit liittää käyttöomaisuuserän vakuutussopimukseen ja luoda kattavuustapahtumia sen hankintamenon kirjaamisen yhteydessä. Tämä tehdään kirjaamalla käyttöomaisuuserän hankintameno niin, että **Vakuutusnro**-kenttä on täytetty. **Automaattinen vakuutuskirjaus** -valintaruutu **Käyttöomaisuuden asetukset** -sivulla on valittava. Lisätietoja on kohdassa [Käyttöomaisuuden hankinnan kirjaaminen manuaalisesti käyttöomaisuuden KP-päiväkirjan avulla](fa-how-acquire.md#to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal).
 
 Jos **Automaattinen vakuutuskirjaus** -valintaruutua **Käyttöomaisuuden asetukset** -sivulla ei ole valittu, hankintojen kirjaaminen käyttöomaisuuspäiväkirjasta luo rivit **Vakuutuspäiväkirja**-sivulla. Rivit on tämän jälkeen kirjattava manuaalisesti.
 
@@ -119,4 +119,3 @@ Käyttöomaisuus irrotetaan virheellisestä vakuutussopimuksesta toisella rivill
 [Käyttöomaisuuden määrittäminen](fa-setup.md)  
 [Rahoitus](finance.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
-

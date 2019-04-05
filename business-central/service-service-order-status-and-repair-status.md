@@ -1,23 +1,23 @@
 ---
 title: Huoltotilauksen tila ja korjauksen tila | Microsoft Docs
-description: "Huoltotilaus-sivun Tila-kentällä (huoltotilauksen tilalla) ja Huoltotilaus-sivun Korjauksen tilakoodi -kentällä on tietty yhteys huoltohallinnon kohdistusalueella. Huoltotilauksen tila kuvastaa kaikkien huoltotilauksessa olevien huoltonimikkeiden korjauksen tilaa."
+description: Huoltotilaus-sivun Tila-kentällä (huoltotilauksen tilalla) ja Huoltotilaus-sivun Korjauksen tilakoodi -kentällä on tietty yhteys huoltohallinnon kohdistusalueella. Huoltotilauksen tila kuvastaa kaikkien huoltotilauksessa olevien huoltonimikkeiden korjauksen tilaa.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: a7ef1f214bda9c78113b320ddbd331b5a3e7de33
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795302"
 ---
 # <a name="service-order-status-and-repair-status"></a>Huoltotilauksen tila ja korjauksen tila
 **Huoltotilaus**-sivun **Tila**-kentällä (huoltotilauksen tilalla) ja **Huoltotilaus**-sivun **Korjauksen tilakoodi** -kentällä on tietty yhteys huoltohallinnon kohdistusalueella. Huoltotilauksen tila kuvastaa kaikkien huoltotilauksessa olevien huoltonimikkeiden korjauksen tilaa.  
@@ -65,4 +65,3 @@ Esimerkiksi jos yhdellä huoltonimikkeellä on korjauksen tilana **Alku** (joka 
 ## <a name="see-also"></a>Katso myös  
 [Huoltotilausten ja -korjausten tilan määrittäminen](service-order-repair-status.md)  
 [Huoltohallinnon määrittäminen](service-setup-service.md)  
-

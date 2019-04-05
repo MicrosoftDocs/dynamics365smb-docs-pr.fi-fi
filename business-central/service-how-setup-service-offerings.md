@@ -1,8 +1,8 @@
 ---
-title: "Huoltotarjousten määrittäminen | Microsoft Docs"
-description: "Lisätietoja asiakkaille tarjottavien huoltojen määrittämisestä."
+title: Huoltotarjousten määrittäminen | Microsoft Docs
+description: Lisätietoja asiakkaille tarjottavien huoltojen määrittämisestä.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,14 +12,13 @@ ms.workload: na
 ms.search.keywords: components, service item, service
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 93afb98600552e58640d5aa12fa91efd15afebfb
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 25aea9e2709f0cea32844d60e0dff7ab34c5796b
-ms.contentlocale: fi-fi
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795943"
 ---
-
 # <a name="set-up-service-offerings"></a>Huoltotarjousten määrittäminen
 Huoltohallintoa määritettäessä on päätettävä, mitä huoltoja tarjoat asiakkaille ja mikä kyseisten huoltojen aikataulu on. Palvelu on yhden tai useamman resurssin suorittama työ, joka toimitetaan asiakkaalle. Huolto voi olla esimerkiksi tietokoneen korjaamista. Huoltonimike on huoltoa tarvitseva laite tai nimike, kuten asiakkaalle asennettu korjausta tarvitseva tietokone. Voit määrittää palvelut osaksi toisiinsa liittyviä korjaus- ja huoltonimikkeiden ryhmää.  
   

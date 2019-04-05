@@ -1,6 +1,6 @@
 ---
 title: Kirjanpitojaksojen ja tilikausien luominen | Microsoft Docs
-description: "Ennen uuden tilikauden kirjaamista sinun täytyy avata tilikausi ja määrittää sen kirjanpitojaksot."
+description: Ennen uuden tilikauden kirjaamista sinun täytyy avata tilikausi ja määrittää sen kirjanpitojaksot.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.keywords: accounting year, fiscal period
 ms.date: 11/21/2018
 ms.author: edupont
 redirect_url: finance-accounting-periods-and-fiscal-years
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: cb523f1ee5b8bfafa63fc41284da6450f205967e
-ms.contentlocale: fi-fi
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795846"
 ---
 # <a name="open-a-new-fiscal-year-and-create-accounting-periods"></a>Uuden tilikauden avaaminen ja kirjanpitojaksojen luominen
 Ennen uuden tilikauden kirjaamista sinun täytyy avata tilikausi ja määrittää sen kirjanpitojaksot.  
@@ -39,4 +39,3 @@ Kirjanpitojaksot lisätään sivulle ja niiden **Aloituspvm**- ja **Nimi**-kent�
 [Vuositilinpäätöstapahtuman kirjaaminen](year-how-post-year-end-close-entry.md)  
 [Rahoitus](finance.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

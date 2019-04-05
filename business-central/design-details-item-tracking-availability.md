@@ -1,23 +1,23 @@
 ---
-title: "Rakennetiedot – Nimikeseurannan saatavuus | Microsoft Docs"
-description: "Nimikkeen seurantarivit- ja Nimikeseurannan yhteenveto -sivuilla on dynaamista saatavuustietoa sarja- tai eränumeroista. Tämän tarkoituksena on kasvattaa käyttäjien läpinäkyvyyttä lähtevissä asiakirjoissa, kuten myyntitilaukset, näyttämälle heille, mitkä sarjanumerot tai kuinka monta yksikköä eränumeroita tällä hetkellä on kirjattuna toisiin avoimiin asiakirjoihin."
+title: Rakennetiedot – Nimikeseurannan saatavuus | Microsoft Docs
+description: Nimikkeen seurantarivit- ja Nimikeseurannan yhteenveto -sivuilla on dynaamista saatavuustietoa sarja- tai eränumeroista. Tämän tarkoituksena on kasvattaa käyttäjien läpinäkyvyyttä lähtevissä asiakirjoissa, kuten myyntitilaukset, näyttämälle heille, mitkä sarjanumerot tai kuinka monta yksikköä eränumeroita tällä hetkellä on kirjattuna toisiin avoimiin asiakirjoihin.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/15/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 5d6d2d9527e81a92987f6b8fcdbe8e087c3c537a
 ms.openlocfilehash: bbdda4378b20a50ef159f68c311fd49e68071504
-ms.contentlocale: fi-fi
-ms.lasthandoff: 01/22/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "795620"
 ---
 # <a name="design-details-item-tracking-availability"></a>Rakennetiedot: Nimikkeen seurannan saatavuus
 **Nimikkeen seurantarivit**- ja **Nimikeseurannan yhteenveto** -sivuilla on dynaamista saatavuustietoa sarja- tai eränumeroista. Tämän tarkoituksena on kasvattaa käyttäjien läpinäkyvyyttä lähtevissä asiakirjoissa, kuten myyntitilaukset, näyttämälle heille, mitkä sarjanumerot tai kuinka monta yksikköä eränumeroita tällä hetkellä on kirjattuna toisiin avoimiin asiakirjoihin. Tämä poistaa kaksoiskohdistuksen aiheuttamaa epävarmuutta ja vahvistaa tilausten käsittelijöiden luottamusta siihen, että nimikkeen seurantanumerot ja kirjaamattomien myyntitilausten luvatut päivämäärät voidaan toteuttaa. Katso lisätiedot kohdasta [Rakennetiedot: Nimikkeen seurantarivit -sivu](design-details-item-tracking-lines-window.md).  
@@ -46,4 +46,3 @@ ms.lasthandoff: 01/22/2019
 
 ## <a name="see-also"></a>Katso myös  
  [Rakennetiedot: nimikkeen seuranta](design-details-item-tracking.md)
-
