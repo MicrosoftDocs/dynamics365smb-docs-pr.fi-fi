@@ -1,1 +1,0 @@
-<span data-ttu-id="8cc1d-101">[Kouluttaudu!](https://docs.microsoft.com/en-us/dynamics365/get-started/training/)</span><span class="sxs-lookup"><span data-stu-id="8cc1d-101">Get [training!](https://docs.microsoft.com/en-us/dynamics365/get-started/training/)</span></span>
