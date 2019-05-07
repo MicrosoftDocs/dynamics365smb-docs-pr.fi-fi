@@ -10,18 +10,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ffcd7dbab09b091674f07d54fd88e37b77108a74
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 978bc9a4034e53aad774e6b3f56af387d3f5db98
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826603"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "927730"
 ---
-# <a name="sepa-credit-transfer-payments"></a><span data-ttu-id="43438-103">SEPA-hyvityksen siirron maksut</span><span class="sxs-lookup"><span data-stu-id="43438-103">SEPA Credit Transfer Payments</span></span>
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] <span data-ttu-id="43438-104">sisältää Suomessa käytettäviä lisätoimintoja, joiden avulla voi luoda SEPA (Single Euro Payments Area) -hyvitysten siirtotiedostot ja lähettää toimittajamaksut pankeille.</span><span class="sxs-lookup"><span data-stu-id="43438-104">includes Finnish enhancements to allow you to create Single Euro Payments Area (SEPA) credit transfer files to send vendor payments to banks.</span></span> <span data-ttu-id="43438-105">SEPA-hyvityksen siirto on maksu, joka siirretään Euroopan maksuneuvoston määrittämän tiedostomuodon mukaan.</span><span class="sxs-lookup"><span data-stu-id="43438-105">A SEPA credit transfer is a payment that is transferred according to the file format specified by the European Payments Commission.</span></span>  
+# <a name="sepa-credit-transfer-payments"></a><span data-ttu-id="4ea7a-103">SEPA-hyvityksen siirron maksut</span><span class="sxs-lookup"><span data-stu-id="4ea7a-103">SEPA Credit Transfer Payments</span></span>
+[!INCLUDE[d365fin](../../includes/d365fin_md.md)] <span data-ttu-id="4ea7a-104">sisältää Suomessa käytettäviä lisätoimintoja, joiden avulla voi luoda SEPA (Single Euro Payments Area) -hyvitysten siirtotiedostot ja lähettää toimittajamaksut pankeille.</span><span class="sxs-lookup"><span data-stu-id="4ea7a-104">includes Finnish enhancements to allow you to create Single Euro Payments Area (SEPA) credit transfer files to send vendor payments to banks.</span></span> <span data-ttu-id="4ea7a-105">SEPA-hyvityksen siirto on maksu, joka siirretään Euroopan maksuneuvoston määrittämän tiedostomuodon mukaan.</span><span class="sxs-lookup"><span data-stu-id="4ea7a-105">A SEPA credit transfer is a payment that is transferred according to the file format specified by the European Payments Commission.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="43438-106">Katso myös</span><span class="sxs-lookup"><span data-stu-id="43438-106">See Also</span></span>  
- <span data-ttu-id="43438-107">[Suomen paikalliset toiminnot](finland-local-functionality.md) </span><span class="sxs-lookup"><span data-stu-id="43438-107">[Finland Local Functionality](finland-local-functionality.md) </span></span>  
- [<span data-ttu-id="43438-108">Pankin viitetiedostojen määrittäminen</span><span class="sxs-lookup"><span data-stu-id="43438-108">Set Up Bank Reference Files</span></span>](how-to-set-up-bank-reference-files.md)
+## <a name="see-also"></a><span data-ttu-id="4ea7a-106">Katso myös</span><span class="sxs-lookup"><span data-stu-id="4ea7a-106">See Also</span></span>  
+ <span data-ttu-id="4ea7a-107">[Suomen paikalliset toiminnot](finland-local-functionality.md) </span><span class="sxs-lookup"><span data-stu-id="4ea7a-107">[Finland Local Functionality](finland-local-functionality.md) </span></span>  
+ [<span data-ttu-id="4ea7a-108">Pankin viitetiedostojen määrittäminen</span><span class="sxs-lookup"><span data-stu-id="4ea7a-108">Set Up Bank Reference Files</span></span>](how-to-set-up-bank-reference-files.md)
