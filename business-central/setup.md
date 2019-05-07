@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 10/01/2018
+ms.date: 04/05/2019
 ms.author: edupont
-ms.openlocfilehash: 3085ef58adf25ae7212ac17894fa54e5c2f8794e
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 3139273b09a223c84c452b5fbe2ee8b637a4c493
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852077"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "969830"
 ---
 # <a name="setting-up-included365finincludesd365finmdmd"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen määrittäminen
 [!INCLUDE[d365fin](includes/d365fin_md.md)] sisältää vakiomääritykset useimmille liiketoimintaprosesseille. Voit muuttaa määritykset yrityksen tarpeita vastaaviksi.
@@ -27,7 +27,7 @@ Roolisivulla on avustettuja asennusoppaita, joiden avulla voit määrittää tie
 > [!NOTE]
 > Voit määrittää uuden yrityksen [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksessa RapidStart Services -palvelun kanssa. RapidStart Services -palvelun on työkalu, joka on suunniteltu lyhentämään käyttöönottoa, parantamaan toteutuksen laatua, esittelemään toistettavia lähestymistapoja toteutuksiin, ja lisäämään tuottavuutta automatisoimalla ja yksinkertaistamalla toistuvia tehtäviä. Lisätietoja on kohdassa [Yrityksen määrittäminen RapidStart Services -palvelun avulla](admin-set-up-a-company-with-rapidstart.md).
 
-Tietyt joko yleiset tai erityiset liiketoimintaprosessien toiminnot voidaan määrittää manuaalisesti tai avustetusti. Seuraavassa luettelossa on joitakin manuaalisesti määritettäviä toimintoja.
+Tietyt joko yleiset tai erityiset liiketoimintaprosessien toiminnot voidaan määrittää manuaalisesti tai asetusten ohjattuna määrityksenä. Seuraavassa luettelossa on joitakin manuaalisesti määritettäviä toimintoja.
 
 | Toiminta | Katso |
 | --- | --- |
@@ -58,18 +58,18 @@ Tietyt joko yleiset tai erityiset liiketoimintaprosessien toiminnot voidaan mä�
 Joidenkin alueiden edellytyksenä on, että käyttäjä on [!INCLUDE[d365fin](includes/d365fin_md.md)]-tilauksen järjestelmänvalvoja. Lisätietoja on kohdassa [Hallinta](admin-setup-and-administration.md).  
 
 ## <a name="see-also"></a>Katso myös
+
 [Hallinta](admin-setup-and-administration.md)  
 [Rahoitus](finance.md)  
 [Myynti](sales-manage-sales.md)  
 [Osto](purchasing-manage-purchasing.md)  
-[Vaihto-omaisuus](inventory-manage-inventory.md)    
+[Varasto](inventory-manage-inventory.md)  
 [Projektinhallinta](projects-manage-projects.md)  
-[Käyttöomaisuus](fa-manage.md)    
+[Käyttöomaisuus](fa-manage.md)  
 [Kokoonpanon hallinta](assembly-assemble-items.md)  
 [Tuotanto](production-manage-manufacturing.md)  
 [Varastoinninhallinta](warehouse-manage-warehouse.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
-[Hallinta](admin-setup-and-administration.md)  
 [Uusien yritysten luominen [!INCLUDE[d365fin](includes/d365fin_md.md)]issa](about-new-company.md)  
 [Käytön aloittaminen](product-get-started.md)  
 

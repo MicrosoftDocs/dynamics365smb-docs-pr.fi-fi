@@ -8,19 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 5b7c5282a89a1dfb39f3e94feab8e00d2373f8af
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 423f5098589a0df5613190517fb933d0181360dd
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "795015"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "990128"
 ---
 # <a name="keyboard-shortcuts"></a>Pikanäppäimet
 Tässä artikkelissa käsitellään yleisesti [!INCLUDE[prodshort](includes/prodshort.md)] -ohjelman joitakin pikanäppäinyhdistelmiä.
 
-[Pikanäppäinten helposti tulostettava luettelo](keyboard-shortcuts-cheatsheet.md)
+> [!TIP]
+> Jos haluat nopean tulostettavan yleiskatsauksen suosituimmista pikanäppäimistä, [siirry viiteartikkeliin täällä](keyboard-shortcuts-cheatsheet.md) tai napsauta seuraavaa kuvaa:
+>
+>[ ![Lataa tulostettava versio napsauttamalla hiiren kakkospainiketta ja valitsemalla Tallenna kuva nimellä](media/bckeyboardmap-inline.png) ](media/bckeyboardmap.png#lightbox)
 
 ## <a name="overview"></a>Yleiskuvaus
 Pikanäppäimet ovat helppokäyttötoimintoja. Ne auttavat ja tehostavat sivun eri alueiden ja elementtien välillä siirtymistä.
@@ -34,19 +37,24 @@ Useimmat pikanäppäimet ovat samoja sekä Windows- että macOS-käyttöjärjest
 ##  <a name="Keyboard"></a> Yleiset pikanäppäimet
 Seuraavassa taulukossa kuvataan pikanäppäimet, joiden avulla voi käyttää sivun eri elementtejä, kuten toimintoja, avattavia luetteloita ja hakuja, ja siirtyä niiden välillä. Lisätietoja luettelon tietueiden välillä siirtymisessä käytettävistä pikanäppäimistä on seuraavassa osassa.
 
-|Paina näitä näppäimiä<br />(macOS)|Tehtävä|  
-|----------------|-----------|  
-|Alt+Q<br />(Ctrl+Alt+Q)|Avaa **Kerro, mitä haluat tehdä** -ruutu. Sen avulla voit etsiä sivun, raportin tai toiminnon nykyisellä sivulla tai artikkelin dokumentaatiossa.|
-|Alt+ylänuoli|Näyttää taulukokon kentän tai sarakeotsikon työkaluvihjeen. Jos kentässä on tarkistusvirheitä, tarkistusvirhe tulee näkyviin näppäinyhdistelmällä Alt+ylänuoli. Sulje työkaluvihje painamalla Esc-näppäintä tai näppäinyhdistelmää Alt+ylänuoli.|
-|Sarkain|Siirrä kohdistus sivun seuraavaan ohjausobjektiin tai elementtiin, kuten toimintoon, painikkeeseen, kenttään tai luettelon otsikkoon.|
-|Vaihto+Sarkain|Siirrä kohdistus sivun edelliseen ohjausobjektiin tai elementtiin, kuten toimintoon, painikkeeseen, kenttään tai luettelon otsikkoon.|   
-|Enter|Ota kohdistettu elementti tai ohjausobjekti käyttöön tai käytä sitä.|   
+|Paina näitä näppäimiä<br />(macOS)|Tehtävä|
+|----------------|-----------|
 |Alt+alanuoli|Avaa avattava luettelo tai hae kentän arvo.|    
 |Alt+Oikea nuoli|Näet tapahtumat, joiden perusteella kentän arvo laskettiin.|  
-|F5|Tietojen päivitys nykyisellä sivulla.|Voit varmistaa tällä tavoin, että sivulla näkyvät tiedot sisältävät kaikki muiden oman työskentelysi aikana tekemät muutokset.|
-|Ctrl+F5|[!INCLUDE[prodshort](includes/prodshort.md)] -sovellus ladataan uudelleen.|Tämä vastaa selaimen päivittämistä tai sivun uudelleen avaamista.|
+|Alt+F2|Näytä ja piilota tietoruutu.|
+|Alt+Q<br />(Ctrl+Alt+Q)|Avaa **Kerro, mitä haluat tehdä** -ruutu. Sen avulla voit etsiä sivun, raportin tai toiminnon nykyisellä sivulla tai artikkelin dokumentaatiossa.|
+|Alt+T|Avaa **Omat asetukset** -sivu.|
+|Alt+ylänuoli|Näyttää taulukokon kentän tai sarakeotsikon työkaluvihjeen. Jos kentässä on tarkistusvirheitä, tarkistusvirhe tulee näkyviin näppäinyhdistelmällä Alt+ylänuoli. Sulje työkaluvihje painamalla Esc-näppäintä tai näppäinyhdistelmää Alt+ylänuoli.|
+|Ctrl+Alt+F1|Avaa ja sulje sivun tarkastusruutu Sivun tarkastusruudussa on tietoja sivusta, kuten sen lähdetaulukko, kentät, suodattimet ja laajennukset.<br /><br />Lisätietoja on kohdassa [Tarkastussivut](across-inspect-page.md).|
+|Ctrl+C |Kopioi kentän arvo. Jos kohdistus on kentässä etkä ole valinnut kentässä tekstiä, koko arvo kopioidaan. Jos olet valinnut kentässä tekstiä, vain valittu teksti valitaan.|
+|Ctrl+F1|Avaa sivun Business Central -ohje.|
+|Ctrl+F5|[!INCLUDE[prodshort](includes/prodshort.md)] -sovellus ladataan uudelleen.<br/><br />Tämä vastaa selaimen päivittämistä tai sivun uudelleen avaamista.|
+|F5|Tietojen päivitys nykyisellä sivulla.<br /><br />Voit varmistaa tällä tavoin, että sivulla näkyvät tiedot sisältävät kaikki muiden oman työskentelysi aikana tekemät muutokset.|
+|Ctrl+F12|Vaihtele leveää ja kapeaa asettelua.|
+|Syötä|Ota kohdistettu elementti tai ohjausobjekti käyttöön tai käytä sitä.|
 |Esc|Sulje nykyinen sivu tai avattava luettelo.|
-
+|Sarkain|Siirrä kohdistus sivun seuraavaan ohjausobjektiin tai elementtiin, kuten toimintoon, painikkeeseen, kenttään tai luettelon otsikkoon.|
+|Vaihto+Sarkain|Siirrä kohdistus sivun edelliseen ohjausobjektiin tai elementtiin, kuten toimintoon, painikkeeseen, kenttään tai luettelon otsikkoon.|
 
 ## <a name="keyboard-shortcuts-in-lists"></a>Luettelon pikanäppäimet
 
@@ -55,62 +63,102 @@ Seuraavassa taulukossa kuvataan luettelosivulla käytettävät pikanäppäimet. 
 > [!Note]
 > In the table that follows, the term *actionable field* refers to a field on which you can do something, like change a value or link to another page. In general, the shortcuts will skip over fields that display information that you cannot change from the list (in other words, fields that are read-only).
 -->
+### <a name="general"></a>Yleiset
 
-### <a name="navigateshortcuts"></a> Rivien ja sarakkeiden välillä siirtyminen
+|Paina näitä näppäimiä<br />(macOS)|Luettelonäkymän toiminnot|Ruutunäkymän toiminnot |
+|-----------------|-------|-------|
+|Alt+F7 |Lajittele valittu sarake nousevaan tai laskevaan järjestykseen.|Ei sovellu.|
+|Shift+F10 |Avaa valitulla rivillä käytettävissä olevien asetusten valikko.|Ei sovellu.|
+|Alt+N |Avaa uuden tietueen luontisivu; samalla tavalla valitaan **Uusi**-toiminto. |Sama.|
 
-|Paina näitä näppäimiä<br />(macOS)|Luettelonäkymän toiminnot |Ruutunäkymän toiminnot |Huomautukset|
-|-----------------|-------|-------|-------|
-|Ylänuoli|Siirry saman sarakkeen ylemmän rivin kenttään.| Siirry saman sarakkeen ylemmän rivin ruutuun.  |  |
-|Nuoli alas|Siirry saman sarakkeen alemman rivin kenttään. |Siirry saman sarakkeen alemman rivin ruutuun. | |
-|Oikea nuoli|Siirry vain luku -luettelossa saman rivin seuraavaan oikealla olevaan kenttään.<br /><br />Siirry muokattavassa luettelossa oikealle nykyisestä kentästä.| Siirry saman rivin seuraavaan oikealla olevaan ruutuun. ||
-|Vasen nuoli|Siirry vain luku -luettelossa saman rivin edelliseen vasemmalla olevaan kenttään. <br /><br />Siirry muokattavassa luettelossa vasemmalle nykyisestä kentästä.| Siirry saman rivin edelliseen vasemmalla olevaan ruutuun. ||
+### <a name="navigateshortcuts"></a>Rivien ja sarakkeiden välillä siirtyminen
+
+|Paina näitä näppäimiä<br />(macOS)|Luettelonäkymän toiminnot |Ruutunäkymän toiminnot |
+|-----------------|-------|-------|
+|Ctrl+Home<br />(Fn+vasen nuoli)|Valitse luettelon ensimmäinen rivi; kohdistuu pysyy samassa sarakkeessa.|Siirry ensimmäisen rivin ensimmäiseen ruutuun. |
+|Ctrl+End<br />(Fn+Ctrl+oikea nuoli)|Valitse luettelon viimeinen rivi; kohdistuu pysyy samassa sarakkeessa.|Siirry viimeisen rivin viimeiseen ruutuun.|
+|Kotitalous<br />(Fn+vasen nuoli)|Siirry rivin ensimmäiseen kenttään.|Siirry rivin ensimmäiseen ruutuun.|
+|End<br />(Fn+oikea nuoli)|Siirry rivin viimeiseen kenttään.|Siirry rivin viimeiseen ruutuun.|
+|Syötä|Avaa tähän kenttään liittyvä tietue.<br /><br />Käytetään vain, jos korttisivu on liitetty tietueeseen.|Avaa tietueen.<br /><br />Käytetään vain, jos korttisivu on liitetty tietueeseen.|
+|Ctrl+Enter|Siirrä kohdistus seuraavaan luettelon ulkopuolella olevaan elementtiin.|Siirrä kohdistus seuraavaan luettelon ulkopuolella olevaan elementtiin.|
+|Nuoli alas|Siirry saman sarakkeen alemman rivin kenttään. |Siirry saman sarakkeen alemman rivin ruutuun. |
+|Ylänuoli|Siirry saman sarakkeen ylemmän rivin kenttään.| Siirry saman sarakkeen ylemmän rivin ruutuun.  |
+|Oikea nuoli|Siirry vain luku -luettelossa saman rivin seuraavaan oikealla olevaan kenttään.<br /><br />Siirry muokattavassa luettelossa oikealle nykyisestä kentästä.| Siirry saman rivin seuraavaan oikealla olevaan ruutuun. |
+|Vasen nuoli|Siirry vain luku -luettelossa saman rivin edelliseen vasemmalla olevaan kenttään. <br /><br />Siirry muokattavassa luettelossa vasemmalle nykyisestä kentästä.| Siirry saman rivin edelliseen vasemmalla olevaan ruutuun. |
+|Sivu ylös<br />(Fn+ylänuoli)|Vieritä näkymän nykyisten rivien yläpuolella olevat rivit näkyviin. |Vierittää näkymän nykyisten ruutujen yläpuolella olevat ruutujoukot näkyviin. |
+|Sivu alas<br />(Fn+alanuoli)|Vieritä näkymän nykyisten rivien alapuolella olevat rivit näkyviin.|Vieritä näkymän nykyisten ruutujen alapuolella olevat ruutujoukot näkyviin.|
 |Sarkain|Siirry muokattavassa luettelossa saman rivin seuraavaan oikealla olevaan kenttään.|Ei sovellu.||
-|Vaihto+Sarkain|Siirry muokattavassa luettelossa saman rivin edelliseen vasemmalla olevaan kenttään. | Ei sovellu. ||
-|Kotitalous<br />(Fn+vasen nuoli)|Siirry rivin ensimmäiseen kenttään.|Siirry rivin ensimmäiseen ruutuun.||
-|End<br />(Fn+oikea nuoli)|Siirry rivin viimeiseen kenttään.|Siirry rivin viimeiseen ruutuun.||
-|Sivu ylös<br />(Fn+ylänuoli)|Vierittää näkymän nykyisten rivien yläpuolella olevat rivit näkyviin. |Vierittää näkymän nykyisten ruutujen yläpuolella olevat ruutujoukot näkyviin. ||
-|Sivu alas<br />(Fn+alanuoli)|Vierittää näkymän nykyisten rivien alapuolella olevat rivit näkyviin.|Vierittää näkymän nykyisten ruutujen alapuolella olevat ruutujoukot näkyviin.||
-|Enter|Avaa tähän kenttään liittyvä tietue.|Avaa tietueen.| Käytetään vain, jos korttisivu on liitetty tietueeseen.|
-|Ctrl+Enter|Siirrä kohdistus seuraavaan luettelon ulkopuolella olevaan elementtiin.|Siirrä kohdistus seuraavaan luettelon ulkopuolella olevaan elementtiin.||
+|Vaihto+Sarkain|Siirry muokattavassa luettelossa saman rivin edelliseen vasemmalla olevaan kenttään. | Ei sovellu. |
 
 ### <a name="CopyRows"></a>Valitseminen, kopioiminen ja liittäminen
-|Paina näitä näppäimiä<br />(macOS)|Luettelonäkymän toiminnot |Ruutunäkymän toiminnot |Huomautukset|
-|-----------------|-------|-------|-------|
-|Ctrl+Home<br />(Fn+vasen nuoli)|Valitse luettelon ensimmäinen rivi, kohdistus siirtyy rivin ensimmäiseen kenttään.|Siirry ensimmäisen rivin ensimmäiseen ruutuun. ||
-|Ctrl+End<br />(Fn+Ctrl+oikea nuoli)|Valitse luettelon viimeinen rivi. Kohdistus siirtyy rivin viimeiseen kenttään.|Siirry viimeisen rivin viimeiseen ruutuun.||
-|Ctrl+napsautus<br />(Cmd+napsautus)|Laajentaa valitut rivit, myös valitun rivin.|Ei sovellu.||
-|Vaihto+napsautus|Laajentaa valitut rivit, myös valitun rivin ja kaikki välissä olevat rivit.|Ei sovellu.|Voit käyttää tätä sen jälkeen, kun valinta on laajennettu käyttämällä yhdistelmää Ctrl+ylänuoli tai Ctrl+alanuoli.|
-|Ctrl + Ylänuoli<br />(Ctrl+Cmd+ylänuoli)|Siirrä kohdistus ylempään riviin ja pidä nykyinen rivi valittuna.|Ei sovellu.||
-|Ctrl+ alanuoli<br />(Ctrl+Cmd+alanuoli)|Siirrä kohdistus alempaan riviin ja pidä nykyinen rivi valittuna.|Ei sovellu.||
-|Ctrl+välilyönti<br />(Ctrl+Cmd+välilyönti)|Laajentaa valitut rivit sisältämään rivin, jolla on kohdistus.|Ei sovellu.|Voit käyttää tätä sen jälkeen, kun valinta on laajennettu käyttämällä yhdistelmää Ctrl+ylänuoli tai Ctrl+alanuoli.|
-|Ctrl+A|Valitse kaikki rivit.|Ei sovellu.||
-|Vaihto+ylänuoli|Laajentaa valitut rivit, myös alapuolella olevan rivin.|Ei sovellu.||
-|Vaihto+alanuoli|Laajentaa valitut rivit, myös yläpuolella olevan rivin.|Ei sovellu.||
-|Vaihto+sivu ylös<br />(Vaihto+Fn+ylänuoli)|Laajenna rivien valinta niin, että se sisältää kaikki valittujen rivien yläpuolella olevat näkyvissä olevat rivit.|Ei sovellu.||
-|Vaihto+sivu alas<br />(Vaihto+Fn+alanuoli)|Laajenna rivien valinta niin, että se sisältää kaikki valittujen rivien alapuolella olevat näkyvissä olevat rivit.|Ei sovellu.||
-|Ctrl+C<br />(Cmd+C)|Kopioi valitut rivit leikepöydälle.|Ei sovellu.||
-|Ctrl+V<br />(Cmd+V)|Liitä valitut rivit leikepöydältä nykyiselle sivulle tai ulkoiseen asiakirjaan, kuten Microsoft Excel -asiakirjaan tai Outlook-sähköpostiviestiin.|Ei sovellu.|Tämän voi tehdä vain muokattavissa luetteloissa.|
-|F8|Kopioi kenttä yläpuolella olevan rivin samasta sarakkeesta ja liitä se nykyiselle riville.|Ei sovellu.|Tämän voi tehdä vain muokattavissa luetteloissa. Tämän pikanäppäimen ja Tab-näppäimen avulla voit täyttää nopeasti niiden rivinimikkeiden kentät, joihin haluat samat arvot kuin yllä olevalla rivillä.|
 
-### <a name="KeyboardFilter"></a> Luetteloiden hakemisen ja suodattamisen pikanäppäimet
+|Paina näitä näppäimiä<br />(macOS)|Luettelonäkymän toiminnot |Ruutunäkymän toiminnot |
+|-----------------|-------|-------|
+|Ctrl+napsautus<br />(Cmd+napsautus)|Laajentaa valitut rivit, myös valitun rivin.|Ei sovellu.|
+|Vaihto+napsautus|Laajentaa valitut rivit, myös valitun rivin ja kaikki välissä olevat rivit.<br /><br />Voit käyttää tätä sen jälkeen, kun valinta on laajennettu käyttämällä yhdistelmää Ctrl+ylänuoli tai Ctrl+alanuoli.|Ei sovellu.|
+|Ctrl + Ylänuoli<br />(Ctrl+Cmd+ylänuoli)|Siirrä kohdistus ylempään riviin ja pidä nykyinen rivi valittuna.|Ei sovellu.|
+|Ctrl+ alanuoli<br />(Ctrl+Cmd+alanuoli)|Siirrä kohdistus alempaan riviin ja pidä nykyinen rivi valittuna.|Ei sovellu.|
+|Ctrl+välilyönti<br />(Ctrl+Cmd+välilyönti)|Laajentaa valitut rivit sisältämään rivin, jolla on kohdistus.<br /><br />Voit käyttää tätä sen jälkeen, kun valinta on laajennettu käyttämällä yhdistelmää Ctrl+ylänuoli tai Ctrl+alanuoli.|Ei sovellu.|
+|Ctrl+A|Valitse kaikki rivit.|Ei sovellu.|
+|Vaihto+ylänuoli|Laajentaa valitut rivit, myös alapuolella olevan rivin.|Ei sovellu.|
+|Vaihto+alanuoli|Laajentaa valitut rivit, myös yläpuolella olevan rivin.|Ei sovellu.|
+|Vaihto+sivu ylös<br />(Vaihto+Fn+ylänuoli)|Laajenna rivien valinta niin, että se sisältää kaikki valittujen rivien yläpuolella olevat näkyvissä olevat rivit.|Ei sovellu.|
+|Vaihto+sivu alas<br />(Vaihto+Fn+alanuoli)|Laajenna rivien valinta niin, että se sisältää kaikki valittujen rivien alapuolella olevat näkyvissä olevat rivit.|Ei sovellu.|
+|Ctrl+C<br />(Cmd+C)|Kopioi valitut rivit leikepöydälle.|Ei sovellu.|
+|Ctrl+V<br />(Cmd+V)|Liitä valitut rivit leikepöydältä nykyiselle sivulle tai ulkoiseen asiakirjaan, kuten Microsoft Excel -asiakirjaan tai Outlook-sähköpostiviestiin.<br /><br />Tämän voi tehdä vain muokattavissa luetteloissa.|Ei sovellu.|
+|F8|Kopioi kenttä yläpuolella olevan rivin samasta sarakkeesta ja liitä se nykyiselle riville.<br /><br />Tämän voi tehdä vain muokattavissa luetteloissa. Tämän pikanäppäimen ja Tab-näppäimen avulla voit täyttää nopeasti niiden rivinimikkeiden kentät, joihin haluat samat arvot kuin yllä olevalla rivillä.|Ei sovellu.||
+
+### <a name="KeyboardFilter"></a>Luetteloiden lajitteleminen ja luetteloista hakeminen
 
 |Paina näitä näppäimiä<br />(macOS)|Tehtävä|
 |-----------------|-------|
-|F3|Vaihtaa hakuruutuun.<ul><li>Aktivoi hakuruudun niin, että voit alkaa kirjoittaa hakutekstiä.</li><li>Jos hakuruutu on jo aktivoitu, F3 palauttaa luettelon, eikä tyhjennä hakutekstiä.</li><ul>|  
-|Shift+F3|Avaa ja sulkee suodatinruudun.<ul><li> Jos suodatinruutu ei ole avoinna, Vaihto+F3 avaa sen ja valitsee **+ suodatin** -toiminnon **Luettelon suodatusperuste** -kohdassa. Voit aloittaa kenttäsuodattimen lisäämisen painamalla Enter-näppäintä.</li><li>Jos suodatinruutu on jo auki, Vaihto+F3 sulkee sen. Lisäämiäsi suodattimia ei kuitenkaan tyhjennetä.</li></ul>|
-|Ctrl+Shift+F3|Avaa ja sulkee suodatinruudun.<ul><li> Jos suodatinruutu ei ole avoinna, Ctrl+Vaihto+F3 avaa sen ja valitsee **+ suodatin** -toiminnon **Kokonaisarvojen suodatusperuste** -kohdassa. Voit aloittaa kokonaisarvojen suodattimen lisäämisen painamalla Enter-näppäintä.</li><li>Jos suodatinruutu on jo auki, Ctrl+Vaihto+F3 sulkee sen. Lisäämiäsi suodattimia ei kuitenkaan tyhjennetä.</li></ul>  |
-|Alt+F3|Vaihtaa tämän arvon suodattamiseen.<ul><li>Ottaa käyttöön sarakkeen suodattimen luettelon valitun kentän arvossa. Tämä on sama toiminto kuin **Suodata tähän arvoon** -kohdan valitseminen sarakkeen otsikosta. Se avaa suodatinruudun ja määrittää valitulle arvolle suodattimen samalla, kun luettelon solu pysyy valittuna.</li><li>Jos sarake on jo suodatettu, Alt+F3 tyhjentää kyseisen sarakkeen suodattimen.</li></ul> |
-|Vaihto+Alt+F3|Avaa suodatinruudun ja lisää luettelon valittuun sarakkeeseen suodattimen. Uusi suodatin on valittuna. Voit siis alkaa kirjoittaa suodatusehtoja heti.<br /><br /> Tämä on sama toiminto kuin **Suodatin**-kohdan valitseminen sarakkeen otsikosta. valikko. Näyttää suodatinruudun, lisää suodattimen, määrittää kohdistuksen niin, että käyttäjä voi kirjoittaa arvon, jonka mukaan suodattaminen tehdään.<br /><br />Jos kentässä on jo suodatin, uusi suodatin lisätään. |
-|Ctrl+Vaihto+Alt+F3|Nollaa suodattimet. Tämä on sama toiminto kuin **Nollaa suodattimet** -kohta suodatinruudussa. Se otetaan käyttöön kentässä ja kokonaisarvojen suodattimessa.<br /><br /> Suodattimiksi palautetaan nykyisen näkymän oletussuodattimet. Jos nykyinen näkymä on **Kaikki**, tämä vastaa palaamista kaikki tietueet sisältävään suodattamattomaan näkymään. |
-|Ctrl+Enter|Palauttaa suodatinruudun luettelon.|
+|F3|Vaihtaa hakuruutuun.<ul><li>Aktivoi hakuruudun niin, että voit alkaa kirjoittaa hakutekstiä.</li><li>Jos hakuruutu on jo aktivoitu, F3 palauttaa luettelon, eikä tyhjennä hakutekstiä.</li><ul>|
+|Shift+F3|Avaa ja sulje suodatinruutu.<ul><li> Jos suodatinruutu ei ole avoinna, Vaihto+F3 avaa sen ja valitsee **+ suodatin** -toiminnon **Luettelon suodatusperuste** -kohdassa. Voit aloittaa kenttäsuodattimen lisäämisen painamalla Enter-näppäintä.</li><li>Jos suodatinruutu on jo auki, Vaihto+F3 sulkee sen. Lisäämiäsi suodattimia ei kuitenkaan tyhjennetä.</li></ul>|
+|Ctrl+Shift+F3|Avaa ja sulje suodatinruutu.<ul><li> Jos suodatinruutu ei ole avoinna, Ctrl+Vaihto+F3 avaa sen ja valitsee **+ suodatin** -toiminnon **Kokonaisarvojen suodatusperuste** -kohdassa. Voit aloittaa kokonaisarvojen suodattimen lisäämisen painamalla Enter-näppäintä.</li><li>Jos suodatinruutu on jo auki, Ctrl+Vaihto+F3 sulkee sen. Lisäämiäsi suodattimia ei kuitenkaan tyhjennetä.</li></ul>  |
+|Alt+F3|Vaihda valitun arvon suodatusta.<ul><li>Ottaa käyttöön sarakkeen suodattimen luettelon valitun kentän arvossa. Tämä on sama toiminto kuin **Suodata tähän arvoon** -kohdan valitseminen sarakkeen otsikosta. Se avaa suodatinruudun ja määrittää valitulle arvolle suodattimen samalla, kun luettelon solu pysyy valittuna.</li><li>Jos sarake on jo suodatettu, Alt+F3 tyhjentää kyseisen sarakkeen suodattimen.</li></ul> |
+|Vaihto+Alt+F3|Avaa suodatinruutu ja lisää suodatin luettelon valittuun sarakkeeseen. Uusi suodatin on valittuna. Voit siis alkaa kirjoittaa suodatusehtoja heti.<br /><br /> Tämä on sama toiminto kuin **Suodatin**-kohdan valitseminen sarakkeen otsikosta.<br /><br />Jos kentässä on jo suodatin, uusi suodatin lisätään. |
+|Ctrl+Vaihto+Alt+F3|Nollaa suodattimet. Tämä on sama toiminto kuin **Nollaa suodattimet** -kohta suodatinruudussa. Se otetaan käyttöön kentässä ja kokonaisarvojen suodattimessa.<br /><br /> Suodattimiksi palautetaan nykyisen näkymän oletussuodattimet. Jos nykyinen näkymä on **Kaikki**, tämä on sama kuin palaaminen kaikki tietueet sisältävään suodattamattomaan näkymään. |
+|Ctrl+Enter|Muuta kohdistus suodatinruudusta takaisin luetteloon.|
+
+## <a name="keyboard-shortcuts-in-cards-and-documents"></a>Korttien ja asiakirjojen pikanäppäimet
+
+Seuraavilla pikanäppäimillä voi näyttää ja muokata tietueita korttisivuilla (kuten **Asiakas**) ja asiakirjasivuilla (kuten **Myyntitilaus**).
+
+|Paina näitä näppäimiä<br />(macOS)|Tehtävä|
+|----------------|-----------|
+|Alt+F6|Tiivistä ja laajenna nykyinen pikavälilehti.|
+|Alt+N |Avaa uuden tietueen luontisivu; samalla tavalla valitaan **Uusi**-toiminto. |
+|Alt+Vaihto+N |Sulje nykyinen korttisivu kortti ja luo uusi objekti; samoin valitaan taaksepäin osoittava nuoli ja sitten **Uusi**-toiminto.|
+|Ctrl+ alanuoli|Avaa objektin seuraava tietue.|
+|Ctrl + Ylänuoli |Avaa objektin edellinen tietue.|
+|Ctrl+Shift+F12 |Suurenna asiakirjasivun, kuten myyntitilauksen tai laskun, rivinimikeosa. Muut sivun osat piilotetaan ja rivinimikeosa laajentuu koko työtilaan. Palaa normaalinäyttöön painamalla näppäimiä uudelleen.<br /><br />Lisätietoja on kohdassa [Kohdistaminen rivinimikkeisiin](ui-enter-data.md#Focus).|
+|F6|Siirry seuraavaan pikavälilehteen tai osaan (tai alisivulle).|
+|Shift+F6|Siirry edelliseen pikavälilehteen tai osaan (tai alisivulle).|
+
+## <a name="QuickEntry"></a>Kenttien pikatapahtuman pikanäppäimet
+
+Seuraavat pikanäppäimet koskevat korttien, asiakirjojen ja luettelosivujen pikatapahtumaominaisuutta. Pikanäppäimiä ei voi käyttää luetteloissa, kun luettelo on ruutunäkymässä. Lisätietoja pikatapahtumista on kohdassa [Tietojen syöttämisen helpottaminen pikatapahtuman avulla](ui-enter-data.md#QuickEntry).
+
+|Paina näitä näppäimiä<br />(macOS)|Tehtävä|Huomautukset|
+|-----------------|-------|-------|
+|Syötä|Vahvista nykyisen kentän arvo ja siirry seuraavaan pikatapahtumakenttään.||
+|Vaihto+Enter|Vahvista nykyisen kentän arvo ja siirry edelliseen pikatapahtumakenttään.||
+|Ctrl+Vaihto+Enter|Vahvista nykyisen sarakkeen arvo ja siirry seuraavaan luettelon ulkopuoliseen pikatapahtumakenttään.<br /><br />Tämä pikanäppäin koskee sivulle upotettuja luetteloita, kuten myyntitilauksen rivinimikkeitä. Voit poistua sen avulla nopeasti luettelosta ja jatkaa tietojen lisäämistä sivun muihin kenttiin.|
+
+## <a name="keyboard-shortcuts-in-worksheets"></a>Työkirjojen pikanäppäimet
+
+Seuraavia pikanäppäimiä voi käyttää vain työkirjasivuilla, kuten **nimikepäiväkirjoissa**.
+
+|Paina näitä näppäimiä<br />(macOS)|Tehtävä|  
+|----------------|-----------|  
+|Ctrl+Delete| Poista rivinimike.|
 
 ## <a name="a-namecalendarshortcuts-keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"/> Pikanäppäimet kalenterissa (päivämäärän valitsin)
+
 Päivämääräkenttää määrittäessäsi voit syöttää päivämäärän manuaalisesti tai avata kalenterin (päivämäärän valitsin), jonka avulla voit valita haluamasi päivämäärän. Seuraavassa taulukossa kuvataan kalenterin pikanäppäimet.
 
 |Paina näitä näppäimiä<br />(macOS)|Tehtävä|
 |-----------------|-------|
-|Sivu ylös|Siirry edelliseen kuukauteen.|  
-|Sivu alas|Siirry seuraavaan kuukauteen.|
 |Ctrl+Home|Avaa kalenteri, jos se on suljettu.|
 |Ctrl+Home<br />(Cmd + Home)|Siirry nykyisen kuukauden tähän päivään.|
 |Ctrl+vasen nuoli<br />(Cmd + Vasen nuoli)|Siirry edelliseen päivään.|
@@ -120,41 +168,25 @@ Päivämääräkenttää määrittäessäsi voit syöttää päivämäärän man
 |Enter|Valitse kohdistettu päivä.|
 |Ctrl+End<br />(Cmd+End)|Sulje kalenteri ja poista nykyinen päivämäärä.|
 |Esc|Sulje kalenteri ilman valintaa, säilytä nykyinen päivämäärä.|
+|Sivu alas|Siirry seuraavaan kuukauteen.|
+|Sivu ylös|Siirry edelliseen kuukauteen.|  
 
 ## <a name="a-namereportpreviewshortcutskeyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"/>Raportin esikatselun pikanäppäimet
+
 |Paina näitä näppäimiä<br />(macOS)|Tehtävä|
 |-----------------|-------|
 |Nuoli alas|Vieritä sivua alas.|  
 |Ylänuoli|Vieritä sivua ylös.|
-|Oikea nuoli|Vieritä oikealle, kun sivua on lähennetty niin ettei koko sivu ole näkyvissä. |
-|Vasen nuoli|Vieritä vasemmalle, kun sivua on lähennetty niin ettei koko sivu ole näkyvissä. |
 |Ctrl+0 (nolla)<br />(Cmd+0)|Sovittaa koko sivun näkyviin. |
 |Ctrl+Home<br />(Cmd + Home)|Siirry raportin ensimmäiselle sivulle.|
 |Ctrl+End<br />(Cmd + Home)|Siirry raportin viimeiselle sivulle.|
+|Vasen nuoli|Vieritä vasemmalle, kun sivua on lähennetty niin ettei koko sivu ole näkyvissä. |
+|Oikea nuoli|Vieritä oikealle, kun sivua on lähennetty niin ettei koko sivu ole näkyvissä. |
 |Sivu alas<br />(Fn+alanuoli)|Siirry raportissa seuraavalle sivulle.|
 |Sivu ylös<br />(Fn+ylänuoli)|Siirry raportissa edelliselle sivulle.|
 
-
-<!--
-## Keyboard shortcuts in list (shown as tiles)
-
-The following table describes the keyboard shortcuts that you can use in a list page when the page is shown as a tiles.
-
-
-|Keyboard Shortcut<br />(shortcut in osX)| Action|Remarks|
-|-----------------|-------|-------|
-|Up Arrow|Move to the tile above in the same column|  |   
-|Down Arrow|Move to the tile below in the same column|  |
-|Right Arrow|Move to the next tile in the same row| |
-|Left Arrow|Move to the previous tile in the same row | |
-|Home<br />(Fn+left Arrow)|Move to the first tile in the row|
-|End<br />Fn+right Arrow)|Move to the last tile in the row|
-|Page Up<br />(Fn+up Arrow)|Move up in the same column to the uppermost visible row|
-|Page Down<br />(Fn+down Arrow)|Move down in the same column to the lowermost visible row|
-|Enter<br />(Fn+down Arrow)|Opens the record (when a card page is available).|
--->
-
 ## <a name="see-also"></a>Katso myös .
+
 [Aputoiminnot](ui-accessibility.md)  
 [Käytön aloittaminen](product-get-started.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  

@@ -1,0 +1,1 @@
+Business Centraliin yhdistetty Dynamics NAV -asiakasohjelma

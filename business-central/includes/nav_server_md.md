@@ -1,1 +1,1 @@
-Microsoft Dynamics NAV -palvelin
+Microsoft Dynamics NAV Server

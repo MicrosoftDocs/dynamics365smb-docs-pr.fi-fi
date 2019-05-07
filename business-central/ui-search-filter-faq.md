@@ -4,18 +4,16 @@ description: Vastaa hakemiseen ja suodattamiseen liittyviin usein kysyttyihin ky
 author: mikebcMSFT
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.reviewer: edupont04
 ms.search.keywords: keyboarding, productivity, how do i, filter pane
-ms.date: 10/01/2018
+ms.date: 04/05/2019
 ms.author: mikebc
-ms.openlocfilehash: a4bcdca8ecff80d8d47bf9c198cd69a71f09cd2a
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 0f9f5db0e7031156848a5bd15c711d3108f3490b
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852054"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "969853"
 ---
 # <a name="searching-and-filtering-faq"></a>Usein kysyttyjen kysymysten haku ja suodatus
 Tässä artikkelissa on vastauksia hakemiseen ja suodattamiseen liittyviin yleisiin kysymyksiin.
@@ -36,7 +34,10 @@ Suodatinruutu on käytettävissä sivuilla, joissa luettelo on sivun ensisijaine
 Suodattimet ja esimääritettyjen suodatinten muutokset jäävät muistiin istunnon ajaksi (jolloin olet kirjautuneena), vaikka siirtyisit pois sivulta. Tällä hetkellä suodattimien tallentaminen pysyvästi ei ole mahdollista. Toisin kuin suodattimet, hakutekstiä ei jää muistiin, kun siirryt pois sivulta.
 
 ## <a name="is-this-the-same-as-advanced-filters-and-limit-totals-in-microsoft-dynamics-nav"></a>Onko tämä samanlainen kuin Microsoft Dynamics NAV:n lisäsuodattimien ja kokonaisarvojen rajoituksen toiminto?
-[!INCLUDE[d365fin](includes/d365fin_md.md)] muodostuu näistä suosituista toiminnoista. Sen avulla voi etsiä ja analysoida tietoja nykyaikaisella ja helposti käytettävällä tavalla. [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksessa on enemmän pikanäppäimiä kuin Dynamics NAV -sovelluksessa sekä haun esittely. Tämän vuoksi sen toiminnot ovat entistäkin parempia.
+
+[!INCLUDE[d365fin](includes/d365fin_md.md)] muodostuu näistä suosituista toiminnoista. Sen avulla voi etsiä ja analysoida tietoja nykyaikaisella ja helposti käytettävällä tavalla. [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksessa on enemmän pikanäppäimiä kuin Dynamics NAV -sovelluksessa sekä haun esittely. Tämän vuoksi sen toiminnot ovat entistäkin parempia.  
+
+Katso myös [Onko suodatinruutu käytettävissä raporttien suodattamista varten?](#is-the-filter-pane-available-for-filtering-reports)  
 
 ## <a name="can-i-search-and-filter-using-the-companion-apps-and-outlook-addin"></a>Voinko hakea ja suodattaa kumppanin sovellusten ja Outlook-apuohjelman avulla?
 Erilaisissa näyttökohteissa, kuten mobiililaitteissa tai Outlookissa, voit tehdä hakuja luetteloista mutta useimmiten yksittäisiä kenttiä ei voi suodattaa.
@@ -54,5 +55,6 @@ Hakutoiminnon kestolle on määritetty aikaraja. Muuta ensin hakuehtoja ja tee h
 Paikallinen järjestelmänvalvoja voi muuttaa hakujen aikarajaa suuremmaksi muuttamalla [!INCLUDE[prodshort](includes/prodshort.md)] -palvelimen **Haun aikakatkaisu** -asetusta. Lisätietoja on Business Central -sovelluksen kehittäjät ja IT-ammattilaiset -kohdan [Business Central Server -ratkaisun määrittäminen](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configure-server-instance?#Database) -kohdassa.
 
 ## <a name="see-also"></a>Katso myös .
+
 [Käytön aloittaminen](product-get-started.md)  
-[Luetteloiden lajitteleminen ja suodattaminen sekä luetteloista hakeminen](ui-enter-criteria-filters.md)
+[Luetteloiden lajitteleminen ja suodattaminen sekä luetteloista hakeminen](ui-enter-criteria-filters.md)  

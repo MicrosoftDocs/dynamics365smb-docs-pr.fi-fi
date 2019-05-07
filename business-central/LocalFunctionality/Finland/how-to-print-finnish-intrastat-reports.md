@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a3a8b3546cc1239750a136ae56e0b011f5ee0ee1
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: da56a403d8575df181a059e4d67bc1b1ccae6655
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826589"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "924776"
 ---
 # <a name="print-finnish-intrastat-reports"></a>Suomen Intrastat-raporttien tulostaminen
 Euroopan unionissa olevien yritysten on raportoitava kaupankäyntinsä muiden EU-maiden/alueiden kanssa tiettyjen sääntöjen mukaisesti. Tavaroiden siirrot on raportoitava omien maiden/alueiden Intrastat-viranomaisille.  

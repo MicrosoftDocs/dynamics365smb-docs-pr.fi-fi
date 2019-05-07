@@ -8,17 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2be387c75fc2718efa287c341b2fd6d4425cd531
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: f6e9fb2c37911bb95877ca933f63ae3a4dbacc29
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "795664"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "990269"
 ---
 # <a name="making-payments-with-bank-data-conversion-service-or-sepa-credit-transfer"></a>Maksujen suorittaminen pankkitietojen muunnospalvelulla tai SEPA-tilisiirrolla
-Voit käsitellä **Maksupäiväkirja**-sivulla maksut toimittajille viemällä tiedoston yhdessä maksutietojen kanssa päiväkirjan riveiltä. Voit sitten ladata tiedoston verkkopankkiin, jossa liittyvät rahansiirrot käsitellään. [!INCLUDE[d365fin](includes/d365fin_md.md)] tukee SEPA-hyvitysten siirtomuotoa, mutta maa- tai aluekohtaisesti voi olla käytettävissä muita sähköisiä maksumuotoja.   
+Voit käsitellä **Maksupäiväkirja**-sivulla maksut toimittajille viemällä tiedoston yhdessä maksutietojen kanssa päiväkirjan riveiltä. Voit sitten ladata tiedoston verkkopankkiin, jossa liittyvät rahansiirrot käsitellään. [!INCLUDE[d365fin](includes/d365fin_md.md)] tukee SEPA-hyvitysten siirtomuotoa, mutta maa- tai aluekohtaisesti voi olla käytettävissä muita sähköisiä maksumuotoja.
+
+[!INCLUDE[d365fin](includes/d365fin_md.md)]in yleisessä versiossa asetetaan ja yhdistetään yleiset palvelut pankkitietojen muuntamiseen mihin tahansa pankkisi vaatimaan muotoon. Pohjoisamerikkalaisessa versioissa maksutiedostot voidaan lähettää samalla palvelulla sähköisenä rahansiirtona, joskin prosessi on hieman erilainen. Lisätietoja on kohdan [Maksujen vienti pankkitiedostoon](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#to-export-payments-to-a-bank-file) vaiheessa 6.   
 
  Kun haluat ottaa SEPA-hyvityksen siirrot käyttöön, määritä ensin pankkitili, toimittaja ja yleinen päiväkirja, johon maksupäiväkirja perustuu. Tämän jälkeen maksut valmistellaan toimittajia varten automaattisesti täyttämällä erääntyneet maksut ja määritetyt kirjauspäivämäärät **Maksupäiväkirja**-sivulle.  
 
@@ -78,7 +80,7 @@ Täytä maksupäiväkirja toimittajiin kohdistuvilla erääntyvillä maksuriveil
 ## <a name="exporting-payments-to-a-bank-file"></a>Maksujen vienti pankkitiedostoon
 Kun olet valmis suorittamaan maksut toimittajille tai hyvitykset työntekijöille, voit viedä tiedoston ja päiväkirjan rivien maksutiedot **Maksupäiväkirja**-sivulla. Voit sitten ladata tiedoston pankkiin kyseisten rahansiirtojen käsittelyä varten.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]in yleisessä versiossa asetetaan ja yhdistetään yleiset palvelut pankkitietojen muuntamiseen mihin tahansa pankkisi vaatimaan muotoon. Pohjoisamerikkalaisessa versioissa maksutiedostot voidaan lähettää samalla palvelulla sähköisenä rahansiirtona, joskin prosessi on hieman erilainen. Lisätietoja on kohdan [Maksujen vienti pankkitiedostoon](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#to-export-payments-to-a-bank-file) vaiheessa 6.    
+Pankkitietojen muuntopalvelu on määritetty ja yhdistetty yleisessä [!INCLUDE[d365fin](includes/d365fin_md.md)] -versiossa. Pohjoisamerikkalaisessa versioissa maksutiedostot voidaan lähettää samalla palvelulla sähköisenä rahansiirtona, joskin prosessi on hieman erilainen. Lisätietoja on kohdan [Maksujen vienti pankkitiedostoon](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#to-export-payments-to-a-bank-file) vaiheessa 6.
 
 > [!NOTE]  
 >   Määritä liittyvän pankkitilin sähköinen muoto ennen maksutiedostojen vientiä maksupäiväkirjasta ja ota pankkitietojen muuntopalvelu käyttöön. Lisätietoja on kohdissa [Pankkitilien määrittäminen](bank-how-setup-bank-accounts.md) ja [Pankkitietojen muuntopalvelun määrittäminen](bank-how-setup-bank-data-conversion-service.md). Valitse myös **Salli maksun vienti** -valintaruutu **Yleisen päiväkirjan erät** -sivulla. Lisätietoja on kohdassa [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md).  
