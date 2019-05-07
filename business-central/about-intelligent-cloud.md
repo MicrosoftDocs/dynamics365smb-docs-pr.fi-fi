@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
 ms. search.keywords: cloud, edge
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bmeier
-ms.openlocfilehash: 932b6f45ed4f8704b48873518ba2b096efc33e7a
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 4bd30c2912c8a690431221e7983f5fe53b543322
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852123"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "920911"
 ---
 # <a name="your-access-to-the-intelligent-cloud-with-includeprodshortincludesprodshortmd"></a>Älykkään pilven käyttäminen [!INCLUDE[prodshort](includes/prodshort.md)] -sovelluksen avulla
 
@@ -38,7 +38,7 @@ Yhteyden muodostaminen paikallisesta ratkaisusta älykkääseen pilveen edellytt
 KPI-kaavioiden vieressä on tietoja mahdollisista ongelma-alueista, kuten erääntyneistä maksuista. Valitse tiedot, joita haluat tarkastella.  
 
 > [!div class="mx-imgBorder"]
-> ![Älykkään pilven tiedot](media/across-intelligent-cloud/intelligentcloudinsights.png "Näyttää älykkään pilven tiedot Business Central -sovelluksessa")
+> ![Älykkään pilven tiedot](media/across-intelligent-cloud/intelligentcloudApril19.png "Näyttää älykkään pilven tiedot Business Central -sovelluksessa")
 
 Sivu myös muodostaa yhteyden Power BI:hin, jolloin käytettävissä on entistäkin enemmän tietoja.
 

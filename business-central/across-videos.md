@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: video, library, how to
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 71e92f587ac5697b96aca937e6a6d4b00dc41902
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 685487de30a50defa5fd3908c3b049e639a12843
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "796252"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "928560"
 ---
 # <a name="visit-our-video-library"></a>Vieraile Microsoftin videokirjastossa
-Opastusvideoiden kirjastoa on odotettava vielä jonkin aikaa. [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman uusien parannusten vuoksi myös sisältöä on muutettava niin, että se vastaa tuotetta. 
+Opastusvideoiden kirjastoa on odotettava vielä jonkin aikaa. [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman uusien parannusten vuoksi myös sisältöä on muutettava niin, että se vastaa tuotetta.
 
 Tällä välin tarjolla on kolme videota, joiden avulla käyttöönotto on nopeaa.
 
@@ -30,7 +30,7 @@ Tällä välin tarjolla on kolme videota, joiden avulla käyttöönotto on nopea
 |Aloitus|Tietoja tärkeistä ensimmäisistä vaiheista, jolloin [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmaa kokeillaan tai kun tuote on juuri ostettu. |
 |Hanki tukea|Hanki tietoa siitä, mistä erilaisiin kysymyksiin löytyy vastauksia.|
 
-Videot voit avata usealla tavalla. Kun käynnistät [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman ensimmäisen kerran, voit käynnistää näkyviin tulevan aloitussivun videot. Jos käytössä on jo [!INCLUDE[d365fin](includes/d365fin_md.md)], voit siirtyä kirjastoon **liiketoimintajohtajan** ja **kirjanpitäjän** roolikeskuksista, kun valitset **Tuotevideot**-ruudun. 
+Videot voit avata usealla tavalla. Kun käynnistät [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman ensimmäisen kerran, voit käynnistää näkyviin tulevan aloitussivun videot. Jos käytössä on jo [!INCLUDE[d365fin](includes/d365fin_md.md)], voit siirtyä kirjastoon **liiketoimintajohtajan** ja **kirjanpitäjän** roolikeskuksista, kun valitset **Tuotevideot**-ruudun.
 
 > [!Tip]  
 > Kirjaston videot voivat näkyä pieneltä vaikuttavassa kehyksessä. Voit suurentaa kehystä valitsenakka kaksipäisen nuolikuvakkeen oikeassa yläkulmassa. Videot näkyvät nyt suuremmassa kehyksessä siihen saakka, että pienennät ne.
@@ -42,7 +42,7 @@ Seuraavassa kerrotaan muutama esimerkki päivitettävien videoiden sisällöstä
 
 * Liiketoiminnan tietojen siirtäminen muista taloushallinnon sovelluksista [!INCLUDE[d365fin](includes/d365fin_md.md)]iin  
 * Asiakirjojen ja objektien analysointiin ja seurantaan käytettävien dimensioiden määrittäminen
-* [!INCLUDE[d365fin](includes/d365fin_md.md)]in ja Microsoft Dynamics 365 for Salesin yhdistäminen
+* [!INCLUDE[d365fin](includes/d365fin_md.md)]in ja Dynamics 365 for Salesin yhdistäminen
 * Määritä hyväksymistyönkulut  
 * Power BI:n käyttäminen [!INCLUDE[d365fin](includes/d365fin_md.md)]in kanssa  
 * Määritä sähköposti ja lähetä asiakirjoja suoraan [!INCLUDE[d365fin](includes/d365fin_md.md)]ista  

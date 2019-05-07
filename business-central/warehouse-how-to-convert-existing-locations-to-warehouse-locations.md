@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6f5c798587c832b25ef2ead944fc5f5f8ea89644
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 9996dce18755a48be903fabdfcb381a5d6ee5398
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "796272"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "939198"
 ---
 # <a name="convert-existing-locations-to-warehouse-locations"></a>Aiemmin luotujen sijaintien muuntaminen fyysisen varaston sijainneiksi
 Ottamalla alueet ja varastopaikat käyttöön aiemmin luodussa varastosijainnissa voit tehdä siitä fyysisen varastoinnin sijainnin.  
@@ -37,7 +37,7 @@ Voit luoda alueet ja varastopaikat ennen muunnosta tai sen jälkeen. Ainoa varas
     Käyttämällä määritetylle sijainnille avoimia nimiketapahtumia ohjelma luo fyysisen varastoinnin päiväkirjarivit, joilla on kaikki mahdolliset nimiketapahtumissa olevat Nimikkeen nro-, Varianttikoodi-, Mittayksikön koodi- ja tarvittaessa Eränro- ja Sarjanro-kenttien yhdistelmät. Ohjelma kirjaa sen jälkeen fyysisen varastoinnin päiväkirjarivit. Tämä kirjaus luo fyysisen varastoinnin tapahtumat, jotka sijoittavat varaston fyysisen varastoinnin muutosvarastopaikkaan. Ohjelma määrittää myös sijaintikortin **Muutosvarastopaikan koodi**-kentän arvon.  
 
 4.  Voit tarkastella muutosvarastopaikkaan eräajon aikana lisättyjä nimikkeitä suorittamalla **F. var. muutosvar.paikka** -raportin.  
-5.  Kun **Luo fyys. var. sijainti** -eräajo on valmis, suorita ja kirjaa fyysisen varastoinnin inventointi. Lisätietoja on kohdassa [Varaston laskeminen, muuttaminen ja uudelleenluokitus](inventory-how-count-adjust-reclassify.md).  
+5.  Kun **Luo fyys. var. sijainti** -eräajo on valmis, suorita ja kirjaa fyysisen varastoinnin inventointi. Lisätietoja on kohdassa [Varaston laskeminen, muuttaminen ja uudelleenluokitus päiväkirjojen avulla](inventory-how-count-adjust-reclassify.md).  
 
 > [!NOTE]  
 >  On suositeltavaa suorittaa **Luo fyys. var. sijainti** -eräajo sellaiseen aikaan, ettei se häiritse järjestelmän tavallista käyttöä. Tämä eräajo käsittelee jokaisen **Nimiketapahtuma**-taulukon tapahtuman, ja jos nimiketapahtumia on paljon, eräajo voi kestää useita tunteja.  

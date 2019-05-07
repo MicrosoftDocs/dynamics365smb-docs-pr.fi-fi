@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b0d6f0b27e9a49238ba3fa4209c38ee2e6bb7cda
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: d8a9ba2f4fc819c1da515a0ace7d8641ec54ffc6
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "795489"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "929403"
 ---
-# <a name="count-adjust-and-reclassify-inventory"></a>Varaston laskeminen, muuttaminen ja uudelleenluokitus
+# <a name="count-adjust-and-reclassify-inventory-using-journals"></a>Varaston laskeminen, muuttaminen ja uudelleenluokitus käyttämällä päiväkirjoja
 Vähintään kerran tilikauden aikana tulee suorittaa inventointi (eli laskea kaikki varastossa olevat nimikkeet), jotta nähtäisiin, onko tietokantaan rekisteröity määrä sama kuin varaston fyysinen määrä. Kun varaston fyysinen määrä on tiedossa, se on kirjattava pääkirjanpitoon osana kauden lopun varaston arvostusta.
 
 Vaikka lasket kaikki varaston nimikkeet vähintään kerran vuodessa, voit päättää laskevasi joitain nimikkeitä useammin, koska ne ovat ehkä arvokkaampia tai ne liikkuvat nopeasti varastosta ja ovat suuri osa liiketoimintaa. Voit määrittää tätä varten erityisiä laskentajaksoja. Lisätietoja on kohdassa [Inventoinnin suorittaminen](inventory-how-count-adjust-reclassify.md#to-perform-cycle-counting).
@@ -31,6 +31,10 @@ Jos nimiketapahtumien määritteitä on muutettava, voit käyttää nimikkeen uu
 
 ## <a name="to-perform-a-physical-inventory"></a>Inventoinnin suorittaminen
 Sinun tulee tehdä inventointi (eli laskea saatavilla olevat nimikkeet) nähdäksesi, onko ohjelmaan rekisteröity määrä sama kuin varaston fyysinen määrä, tilikauden lopussa ellei useamminkin. Jos löytyy eroja, ne tulee kirjata nimiketileille ennen varaston arvostusta.
+
+> [!NOTE]
+> Tässä menettelyssä käsitellään inventoinnin tekemistä päiväkirjan avulla **Varastopäiväkirja**-sivulla. Voit tehdä tehtävän myös hyödyntämällä asiakirjoja **Inventointitilaus**- ja **Inventointitallennus**-sivuilla, mikä parantaa hallintaa ja tukee inventoinnin jakamista useiden työntekijöiden kanssa. Lisätietoja on kohdassa [Varastojen laskenta asiakirjoja käyttämällä](inventory-how-count-inventory-with-documents.md).<br /><br />
+> Huomaa, että asiakaspohjaisia toimintoja ei voi käyttää varastopaikoissa tai varastotapahtumissa olevien nimikkeiden inventointiin.
 
 Fyysisen laskentajakson lisäksi täydellinen prosessi käsittää seuraavat kolme tehtävää:
 
@@ -222,6 +226,7 @@ Seuraava esimerkki perustuu sijaintikoodiin. Ohjeet ovat vastaavanlaiset myös m
 Lisätietoja nimikkeiden siirtämisestä siten, että toimitus- ja vastaanottomäärien hallinta säilyy, on kohdassa [Varastonimikkeiden siirtäminen sijaintien välillä](inventory-how-transfer-between-locations.md).
 
 ## <a name="see-also"></a>Katso myös
+[Varastojen laskenta asiakirjoja käyttämällä](inventory-how-count-inventory-with-documents.md)  
 [Varasto](inventory-manage-inventory.md)
 [Varastoinninhallinta](warehouse-manage-warehouse.md)    
 [Myynti](sales-manage-sales.md)  

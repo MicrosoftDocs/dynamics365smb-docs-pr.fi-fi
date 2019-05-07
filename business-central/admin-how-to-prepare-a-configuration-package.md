@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b1dbe67852e197ab52aff58131576ffd6b9c49c4
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: fde77f873897d801e6bf06d55d57e9406f352eed
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "795637"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "941632"
 ---
 # <a name="prepare-a-configuration-package"></a>Määrityspaketin valmisteleminen
-Kun määrität uuden yrityksen, taulukon suhteet tunnistetaan ja käsitellään. Tiedot tuodaan ja otetaan käyttöön oikeassa järjestyksessä. Dimensiotaulukot tuodaan myös, jos ne on sisällytetty määrityspakettiin.  
+Kun määrität uuden yrityksen, taulukon suhteet tunnistetaan ja käsitellään. Tiedot tuodaan ja otetaan käyttöön oikeassa järjestyksessä. Dimensiotaulukot tuodaan myös, jos ne on sisällytetty määrityspakettiin. Lisätietoja on kohdassa [Asiakastietojen tuominen](admin-migrate-customer-data.md#to-import-customer-data). 
 
 Auttaaksesi asiakastasi käyttämään kokoonpano-pakettia haluat ehkä lisätä pakettiin kyselylomakkeen tai useita kyselylomakkeita. Kyselylomake voi auttaa asiakkaita ymmärtämään eri asetusvaihtoehtoja. Yleensä suurille asetustaulukoille luodaan kyselylomakkeet, jolloin asiakas voi vaatia lisää ohjeita siitä, miten voi valita haluamansa asetuksen. Lisätietoja on kohdassa [Asiakkaan asetusarvojen kerääminen](admin-gather-customer-setup-values.md).
 

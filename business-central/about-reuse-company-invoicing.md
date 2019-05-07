@@ -1,21 +1,21 @@
 ---
 title: Invoicing- ja Business Central -sovellusten käyttäminen | Microsoft Docs
 description: Ratkaisu, jonka avulla voi käyttää Microsoft Invoicingia, kun olet rekisteröitynyt Dynamics 365 Business Centraliin.
-author: edupont04
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 11/26/2018
-ms.author: edupont
-ms.openlocfilehash: 95213b7d5881945bb2880e6288eef1b415427ca5
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.search.keywords: Invoicing, Office 365
+ms.date: 04/01/2019
+ms.author: bholtorf
+ms.openlocfilehash: 0173d64e140cfea91bf7f08d821c2d30cf0eb7b3
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "795797"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "911266"
 ---
 # <a name="using-the-same-office-365-account-in-included365finincludesd365finlongmdmd-and-microsoft-invoicing"></a>Saman Office 365 -tilin käyttäminen [!INCLUDE[d365fin](includes/d365fin_long_md.md)]:ssä ja Microsoft Invoicingissa
 Kun rekisteröidyt [!INCLUDE[d365fin](includes/d365fin_md.md)]:n kokeiluversioon, voit siirtyä 30 päivän arviointivaiheeseen, aloittaa tilauksen tai lopettaa [!INCLUDE[d365fin](includes/d365fin_md.md)]:n käytön. Kaikissa näissä tapauksissa Office-portaaliin kirjautumisen jälkeen näkyvissä voi olla **Microsoft Invoicing** -ruutu, jota voi napsauttaa. Se sisältyy Office 365 Business Premium -tilaukseen, joten kaikki Office-portaalin käyttäjät eivät näe ruutua.  
@@ -25,19 +25,21 @@ Jos yrität käyttää Microsoft Invoicingia, saat ilmoituksen, jonka mukaan et 
 Saat samanlaisen ilmoituksen, jos asennat Invoicingin mobiilisovelluksen.  
 
 ## <a name="workaround"></a>Ratkaisu
-Invoicing ja [!INCLUDE[d365fin](includes/d365fin_md.md)] jakavat saman alustan. Tämän vuoksi sinut tunnistetaan [!INCLUDE[d365fin](includes/d365fin_md.md)]:n nykyiseksi käyttäjäksi, kun valitset Business center -ruudussa Invoicing. Syynä on se, että Invoicing ei voi käyttää samaa yritystä kuin [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Invoicing ja [!INCLUDE[d365fin](includes/d365fin_md.md)] jakavat saman alustan. Tämän vuoksi sinut tunnistetaan nykyiseksi [!INCLUDE[d365fin](includes/d365fin_md.md)] -käyttäjäksi, kun Invoicing valitaan Office-portaalissa. Syynä on se, että Invoicing ei voi käyttää samaa yritystä kuin [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Tämän vuoksi sinun on kirjauduttava [!INCLUDE[d365fin](includes/d365fin_md.md)]:een ja nimettävä aiemmin luotu yritys uudelleen. Seuraavaksi sinun on luotava uusi yritys, jota voit käyttää Invoicingissa. Mitään tietoja ei siirretä tai korvata tätä ratkaisua käytettäessä.
 
 ### <a name="to-rename-your-company"></a>Yrityksen nimeäminen uudelleen
-1.  Kirjaudu [!INCLUDE[d365fin](includes/d365fin_md.md)]:een.  
-2.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Yritykset** ja valitse sitten liittyvä linkki.  
-3.  Valitse **Omat yritykset** -sivulla **Muokkaa luetteloa** -painike.  
-4.  Vaihda *Oma yritys* -merkinnän nimi.  
+1. Kirjaudu [!INCLUDE[d365fin](includes/d365fin_md.md)]iin.
+2. Valitse oikeassa yläkulmassa **Asetukset**-kuvake ![Asetukset](media/ui-experience/settings_icon_small.png "Roolikeskuksen Asetukset-kuvake") ja valitse sitten **Omat asetukset**.
+3. Valitse toinen yritys **Yritys**-kentässä.
+4. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Yritykset** ja valitse sitten liittyvä linkki.  
+5. Valitse **Omat yritykset** -sivulla **Muokkaa luetteloa**.  
+6. Vaihda *Oma yritys* -merkinnän nimi.  
 
     Odota useita minuutteja. Taustalla olevaan tietokantaa tehdä muutoksia, ja kestää jonkin aikaa.
-5.  Kun järjestelmä on taas valmis, valitse **Luo uusi yritys** -painike.  
-6.  Määritä avautuvassa valintaikkunassa nimeksi *Oma yritys* ja valitse **Tuotanto - Vain määritystiedot** -vaihtoehto.  
+7.  Kun järjestelmä on taas valmis, valitse **Luo uusi yritys** -painike.  
+8.  Määritä avautuvassa valintaikkunassa nimeksi *Oma yritys* ja valitse **Tuotanto - Vain määritystiedot** -vaihtoehto.  
 
 Myös tämä toiminto kestää useita minuutteja. Kun prosessi on valmis, voi käyttää Invoicingia Office 365 Business Premiumin osana.  
 

@@ -5,15 +5,15 @@ author: bholtorf
 ms.service: dynamics365-business-central
 ms.author: bholtorf
 ms.custom: na
-ms.date: 11/06/2018
+ms.date: 04/01/2019
 ms.reviewer: na
 ms.topic: article
-ms.openlocfilehash: f7a217bd61b185586c71d5982d783840dd7ffd2e
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 3b49df32acdc9530eb56a26538dbc34e245ec1e3
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "795951"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "917380"
 ---
 # <a name="responding-to-requests-about-personal-data"></a>Henkilökohtaisia tietoja koskeviin pyyntöihin vastaaminen  
 Tietojen kohteet voivat pyytää erilaisia henkilökohtaisia tietoja koskevia toimintoja. Esimerkiksi yleisen tietosuoja-asetuksen (GDPR) ansiosta, EU-alueella asuvilla on oikeus pyytää henkilökohtaisten tietojensa vientiä, poistamista ja muokkaamista. Tätä kutsutaan *tietojen kohteen pyynnöksi*. Jos olet luokitellut tietojen luottamuksellisuuden ja olet varma, että ne ovat oikein, järjestelmänvalvoja voi vastata pyyntöihin **käyttäjien, käyttäjäryhmien ja käyttöoikeuksien hallinnan** roolikeskuksen **Tietosuoja**-kohdan määritysten avulla. Jos käytössä on Windows-asiakasohjelma, järjestelmänvalvoja voi käyttää **IT-päällikkö**-roolikeskusta. Lisätietoja tietojen luokittelusta ja tietojen luottamuksellisuuden luokittelusta [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]ssa on kohdissa [Tietojen luokitteleminen](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) ja [Tietojen luottamuksellisuuden luokitteleminen](admin-classifying-data-sensitivity.md).  
@@ -51,7 +51,7 @@ Jos vietävänä on tietoja (kuten Profiilin vastaukset -taulukon tiedot), joide
 -   Lisää tämä taulukko ja suhde manuaalisesti RapidStart-pakettiin ja vie ne suoraan RapidStart-paketista. RapidStart-paketti on luotu juuri sitä varten, että voit käyttää sitä tämänkaltaisissa tilanteissa.
 
 ## <a name="handling-data-about-minors"></a>Alaikäisiä koskevien tietojen käsitteleminen
-Jos yhteyshenkilö on niin nuori, ettei hän voi antaa laillista suostumusta alueen lakien mukaan, voit osoitaa tämän valitsemalla **Yhteyshenkilö**-kortin **Alaikäinen**-valintaruudun. Tällöin **Estetty tietosuojan vuoksi** -valintaruutu valitaan automaattisesti. Kun saat alaikäisen vanhemman tai laillisen huoltajan suostumuksen, voit valita **Vanhemman suostumus vastaanotettu** -valintaruudun, jolloin sisällön esto poistetaan. Voit käsitellä alaikäisten henkilökohtaisia tietoja, mutta et voi käyttää Microsoft Dynamics 365 for Salesin profilointitoimintoja.
+Jos yhteyshenkilö on niin nuori, ettei hän voi antaa laillista suostumusta alueen lakien mukaan, voit osoitaa tämän valitsemalla **Yhteyshenkilö**-kortin **Alaikäinen**-valintaruudun. Tällöin **Estetty tietosuojan vuoksi** -valintaruutu valitaan automaattisesti. Kun saat alaikäisen vanhemman tai laillisen huoltajan suostumuksen, voit valita **Vanhemman suostumus vastaanotettu** -valintaruudun, jolloin sisällön esto poistetaan. Voit käsitellä alaikäisten henkilökohtaisia tietoja, mutta et voi käyttää Dynamics 365 for Salesin profilointitoimintoja.
 
 > [!Note]
 > Muutoslokiin voidaan tallentaa erilaisia tietoja, kuten esimerkiksi milloin **Vanhemman suostumus vastaanotettu** -valintaruutu valittiin ja kuka sen valitsi. Järjestelmänvalvoja voi määrittää tämän **Muutoslokin asetukset** -ohjeiden avulla ja myös valitsemalla **Yhteyshenkilö**-kortin **Vanhemman suostumus vastaanotettu -kohdan lokimuutos** -valintaruudun. Lisätietoja on kohdassa [Muutosten kirjaaminen lokiin](across-log-changes.md)  

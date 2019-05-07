@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 02/26/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: af87183dfd9785bfbe3dd56794682d13a5057ada
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 85975b28dbe19702412a05bb927f3fe59bd8bfc3
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "795967"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "915115"
 ---
 # <a name="creating-and-managing-contacts"></a>Kontaktien luonti ja hallinta
 Yrityksen eri ryhmillä on liikesuhteita erilaisiin yrityksiin. Esimerkiksi myyjä saattaa tavata mahdollisia asiakkaita säännöllisesti ja tallentaa tapaamisten tulokset viikon lopulla.
@@ -30,6 +30,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 | --- | --- |
 | Määritä kontaktien hallinta ennen kontaktien luontia. |[Kontaktien määrittäminen](marketing-setup-contacts.md) |
 | Luo kontaktin kortti jokaiselle uudelle henkilölle tai yritykselle, jonka kanssa yrityksesi on vuorovaikutuksessa (esimerkiksi asiakkaalle ja toimittajalle). |[Kontaktien luominen](marketing-create-contact-companies.md) |
+|Ratkaise ristiriita, kun samalla kontaktilla on ainakin kaksi tietuetta.|[Tietueiden kaksoiskappaleiden yhdistäminen](sales-how-merge-duplicate-records.md)|
 
 ## <a name="see-also"></a>Katso myös
 [Myyntimahdollisuuksien hallinta](marketing-manage-sales-opportunities.md)  

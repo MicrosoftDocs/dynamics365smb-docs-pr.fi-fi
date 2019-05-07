@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e7afa7b3a13db29207237cd4980ba7f061b38f9e
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 2c78322213eaf6e091278e3e5528f82493aba1da
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "795128"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "930210"
 ---
 # <a name="design-details-revaluation"></a>Rakennetiedot: uudelleenarvostus
 Voit uudelleenarvostaa varaston sen arvostusperustan perusteella, joka vastaa varaston arvoa parhaiten. Voit myös päivätä uudelleenarvostuksen vanhemmaksi, jolloin myytyjen tuotteiden kustannukset päivitetään oikein nimikkeille, jotka on jo myyty. Vakio-arvostusmenetelmää käyttävät nimikkeet, joita ei ole laskutettu kokonaan, voidaan myös arvostaa uudelleen.  
@@ -102,7 +102,7 @@ Kun vakio-arvostusmenetelmää käyttävien nimikkeiden uudelleenarvostusmäär�
 Seuraava esimerkki, joka perustuu edellisen esimerkin ketjun valmistukseen, kuvaa, kuinka kolme kirjaustyyppiä luodaan. Se perustuu seuraavaan skenaarioon:  
 
 1.  Käyttäjä kirjaa ostetut lenkit vastaanotetuiksi yksikköhintaan 2,00 (PVA).  
-2.  Käyttäjä kirjaa tämän jälkeen lenkkien uudelleenarvostukseksi uuden yksikkökustannuksen, joka on 30,00 (PVA). Tällöin vakiokustannukseksi tulee 3,00 (PVA).  
+2.  Käyttäjä kirjaa tämän jälkeen lenkkien uudelleenarvostukseksi uuden yksikkökustannuksen, joka on 3,00 (PVA). Tällöin vakiokustannukseksi tulee 3,00 (PVA).  
 3.  Käyttäjä kirjaa lenkkien alkuperäisen oston laskujen perusteella. Ne ovat seuraavat:  
 
     1.  Laskun arvotapahtuma tapahtumatyypillä **Välitön kustannus**.  

@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f374daae5d7135324ef4fc3da4845a992aa0ccb5
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: e16ebdd8fc7b1b147b17d395241b6e67bb008fd1
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "795356"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "911338"
 ---
 # <a name="design-details"></a>Rakennetiedot
 Tässä sisällössä on yksityiskohtaisia teknisiä tietoja [!INCLUDE[d365fin](includes/d365fin_md.md)] monimutkaisista ominaisuuksista.  
@@ -25,12 +25,12 @@ Tässä sisällössä on yksityiskohtaisia teknisiä tietoja [!INCLUDE[d365fin](
 
 |**Tehtävä**|**Katso**|  
 |------------|-------------|  
-|Katso lisätietoja dimensioiden tallennuksen ja kirjauksen suunnittelusta, kuten koodiesimerkkejä dimensiokoodien siirrosta ja päivityksestä.|[Rakennetiedot: dimensioyhdistelmä-tapahtumat](design-details-dimension-set-entries.md)|  
 |Lue kuinka suunnittelujärjestelmä toimii, ja kuinka algoritmeja voidaan muuttaa eri ympäristöjen suunnitteluvaatimuksia vastaaviksi.|[Rakennetiedot: tarjonnan suunnittelu](design-details-supply-planning.md)|  
 |Tietoja kustannuslaskentaohjelman mekanismeista, kuten arvostusmenetelmästä ja kustannusten muuttamisesta sekä niiden laskentaperiaatteista.|[Rakennetiedot: varaston arvostus](design-details-inventory-costing.md)|  
 |Lue lisää laajennetun varastoinnin ja perusvarastoinnin ominaisuuksien keskeisistä periaatteista ja kuinka ne integroituvat muiden toimitusketjun ominaisuuksien kanssa.|[Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)|  
 |Lisätietoja nimikeseurannan historiallisesta ja nykyisestä rakenteesta, ja kuinka se integroituu varausjärjestelmään, ja sisällyttää sarja-/ eränumerot saatavuuslaskelmiin.|[Rakennetiedot: nimikkeen seuranta](design-details-item-tracking.md)|  
-|Tietoja yleisen päiväkirjan kirjausrivi -ominaisuudesta, kuten viimeisimmät yksinkertaistukset koodiyksikkö 12:n suunnitteluun.|[Rakenteen tiedot: Yleisen päiväkirjan kirjausrivi](design-details-general-journal-post-line.md)|  
+|Tietoja yleisen päiväkirjan kirjausrivi -ominaisuudesta, kuten viimeisimmät yksinkertaistukset koodiyksikkö 12:n suunnitteluun.|[Rakenteen tiedot: Yleisen päiväkirjan kirjausrivi](design-details-general-journal-post-line.md)|
+|Katso lisätietoja dimensioiden tallennuksen ja kirjauksen suunnittelusta, kuten koodiesimerkkejä dimensiokoodien siirrosta ja päivityksestä.|[Rakennetiedot: Dimensioyhdistelmä-tapahtumat](design-details-dimension-set-entries.md)| 
 
 ## <a name="see-also"></a>Katso myös  
  [Suunnittelu](production-planning.md)   
@@ -40,4 +40,3 @@ Tässä sisällössä on yksityiskohtaisia teknisiä tietoja [!INCLUDE[d365fin](
  [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
 
  ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-  

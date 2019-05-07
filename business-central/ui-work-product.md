@@ -8,14 +8,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/13/2019
+ms.date: 04/01/2019
 ms.author: solsen
-ms.openlocfilehash: afaab918f2959ee32315988c81dee987499aa05a
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: be056212ecfd610cbd7753a6ffc9babb08100359
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852238"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "926888"
 ---
 # <a name="working-with-included365finincludesd365finmdmd"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen
 Kun tehdään liiketoimintaan liittyviä tehtäviä, voit käsitellä tietoja eri tavoin, kuten tietueiden luominen ja tietojen syöttäminen, tietojen lajittelu ja suodatus, kirjalliset huomautukset ja tietojen lähettäminen muihin sovelluksiin.
@@ -39,7 +39,7 @@ Seuraava taulukko sisältää joitakin yleisiä toimintoja ja linkkejä niitä k
 |Excelin käyttö käytännössä kaikkialta [!INCLUDE[d365fin](includes/d365fin_md.md)]ista|[Tarkastelu ja muokkaus Excelissä](across-work-with-excel.md)|
 |Saat ilmoituksen tietyistä tapahtumista tai tilamuutoksista esimerkiksi silloin, kun olet laskuttamassa asiakasta, jolla on erääntynyttä saldoa.|[Ilmoitusten hallinta](ui-smart-notifications.md)|
 | Muuta perusasetuksia, kuten yritystä, käsittelypäivämäärää ja roolikeskusta. |[Perusasetusten muuttaminen](ui-change-basic-settings.md) |
-| Vaihda käyttöliittymässä näytettävät kentät ja toiminnot vastaamaan yrityksen liiketoimintaprosesseja. |[[!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen mukauttaminen](ui-customizing-overview.md) |
+| Muuta mieltymystesi mukaan sitä, mitä käyttöliittymäelementtejä näytetään ja missä niitä näytetään.|[Työtilan mukauttaminen](ui-personalization-user.md) |
 |Määritä, esikatsele, tulosta tai tallenna raportteja sekä määritä ja suorita eräajoja.|[Raporttien ja eräajojen käsitteleminen](ui-work-report.md)|
 | Hallitse raporttien ja asiakirjojen sisältöä ja muotoa. Voit esimerkiksi määrittää, mitkä tietokentät näkyvät raportissa ja miten ne järjestetään, tekstityylin, kuvia ja muita ominaisuuksia.|[Raporttien ja asiakirjojen asettelujen hallinta](ui-manage-report-layouts.md) |
 |Lue lisää toiminnoista ja ominaisuuksista, joiden avulla [!INCLUDE[d365fin](includes/d365fin_md.md)] on valmis toimintarajoitteisia käyttäjiä varten.|[Helppokäyttötoiminnot ja pikanäppäimet](ui-accessibility.md)|
@@ -55,3 +55,4 @@ Seuraavassa on lyhyt video [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluk
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]

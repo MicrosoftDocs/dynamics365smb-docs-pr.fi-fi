@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 8f27a27941130a56f8ad1c1c5ef22d3e448e455b
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: d3c3a460cd13d0af16e38564d4b2fb0de367ed53
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "796403"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "930993"
 ---
 # <a name="work-with-service-contracts-and-service-contract-quotes"></a>Huoltosopimusten ja huoltosopimustarjousten käyttäminen
 Huoltosopimus voidaan luoda joko manuaalisesti tai huoltosopimustarjouksesta. Huoltosopimustarjousta voidaan käyttää huoltosopimuksen esiasteena, jossa yrityksesi tekee asiakkaalle tarjouksen ja joka tarvitsee asiakkaan hyväksynnän, ennen kuin se voidaan muuntaa huoltosopimukseksi. Tämän vuoksi huoltosopimus ja huoltotarjous luodaan pitkälti samalla tavoin.  

@@ -1,51 +1,51 @@
 ---
 title: Projektihintojen ja projektin kirjausryhmien määrittäminen| Microsoft Docs
 description: Tässä ohjeaiheessa kerrotaan, miten yleiset projektitiedot määritetään, sekä määritetään projektin nimikkeiden, resurssien sekä KP-tilien ja projektien kirjausryhmien hinnat.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management
-ms.date: 10/01/2018
-ms.author: sgroespe
-ms.openlocfilehash: fc4c413fcb02cda2e0eb2b8caf7af721a26dfe1b
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.date: 04/01/2019
+ms.author: edupont
+ms.openlocfilehash: 34dfdb463d3423d823b8f1439361d05296ca3c8a
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "794956"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "918818"
 ---
 # <a name="set-up-jobs"></a>Projektien määrittäminen
-Määritä **Projektienhallinnan asetukset** -sivulla projektin tiettyjen toimintojen asetukset.
 
-Määritä yksittäisissä projektikorteissa projektinimikkeiden hinnat, projektin resurssit ja KP-tilit. Määritä myös projektin kirjausryhmät.
+Määrität projektipäällikkönä projektit, jotka määrittävät jokaisen [!INCLUDE [prodshort](includes/prodshort.md)]issa hallittavan projektin. Määritä **Projektienhallinnan asetukset** -sivulla projektin tiettyjen toimintojen asetukset.
+
+Kullekin projektille määritetään sitten yksittäiset projektikortit, joissa on tietoja projektinimikkeiden hinnoista, projektin resursseista ja KP-tileistä. Määritä myös projektin kirjausryhmät.
 
 ## <a name="to-set-general-information-for-jobs"></a>Projektien yleistietojen määrittäminen
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektienhallinnan asetukset** ja valitse sitten liittyvä linkki.
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-> [!NOTE]  
->   **Käytä käyttölinkkiä oletusarvoisesti** -valintaruutu on varsin monimutkainen. Seuraavassa osassa kerrotaan siitä enemmän.
+> [!NOTE]
+> **Käytä käyttölinkkiä oletusarvoisesti** -kentän vaikutus on varsin monisyinen. Seuraavassa osassa kerrotaan siitä enemmän.
 
-## <a name="to-set-up-job-usage-tracking"></a>Projektin käytön seurannan määrittäminen
+### <a name="to-set-up-job-usage-tracking"></a>Projektin käytön seurannan määrittäminen
+
 Kun suoritat työtä, haluat ehkä tietää, miten käyttöäsi seurataan suunnitelmaasi. Voit tehdä tämän helposti luomalla linkin työsuunnittelurivien ja toteutuneen käytön välille. Tämän avulla voi seurata kustannuksia ja helposti nähdä, miten paljon työtä on vielä jäljellä. Oletusarvon mukaan työn suunnittelurivin tyyppi on **Budjetti**, mutta käyttämällä rivin tyyppiä **Sekä budjetti että laskutettava** on samanlainen vaikutus.
 
-Jos valitset **Käytä käyttölinkkiä oletusarvoisesti** -valintaruudun, voit tarkastella tietoja projektin suunnittelurivillä. Voit määrittää resurssin, nimikkeen tai pääkirjanpidon tilin määrän ja ilmaista projektipäiväkirjaan siirrettävän määrän. Projektin suunnittelurivin **Jäljellä oleva määrä** -kenttä osoittaa projektipäiväkirjaan siirrettävän ja kirjattavan jäljellä olevan määrän.
+Jos valitset **Käytä käyttölinkkiä oletusarvoisesti** -kentän, voit tarkastella tietoja projektin suunnittelurivillä. Voit määrittää resurssin, nimikkeen tai pääkirjanpidon tilin määrän ja ilmaista projektipäiväkirjaan siirrettävän määrän. Projektin suunnittelurivin **Jäljellä oleva määrä** -kenttä osoittaa projektipäiväkirjaan siirrettävän ja kirjattavan jäljellä olevan määrän.
 
-Kun **Käytä käyttölinkkiä oletusarvoisesti** -valintaruutu on valittuna ja projektin suunnittelurivin tyyppi on **Laskutettava**, Financial luo **Budjetti**-tyyppisen projektin suunnittelurivin päiväkirjarivin kirjaamisen jälkeen.
+> [!TIP]  
+> Voit ottaa käyttöön tietyn projektin projektin käytön seurannan tai poistaa sen käytöstä. Yksittäisen projektin kortin **Käytä käyttölinkkiä** -kenttä korvaa **Projektienhallinnan asetukset** -sivun asetuksen.  
 
-> [!NOTE]  
->   Jos projektikortin **Käytä käyttölinkkiä oletusarvoisesti** -valintaruutu on valittu ja päiväkirjarivin **Rivityyppi**-kenttä on tyhjä, **Budjetti**-tyyppiset projektin uudet suunnittelurivit luodaan projektipäiväkirjan rivien kirjaamisen yhteydessä. Jos projektikortin **Käytä käyttölinkkiä oletusarvoisesti** -valintaruutua ei ole valittu ja projektipäiväkirjan rivin **Rivityyppi**-kenttä on tyhjä, uusia projektin suunnittelurivejä ei luoda projektipäiväkirjan rivien kirjaamisen yhteydessä. Lisätietoja on kohdassa [Projektien käytön kirjaaminen](projects-how-record-job-usage.md).
+Kun **Käytä käyttölinkkiä oletusarvoisesti** -valintaruutu on valittuna ja projektin suunnittelurivin tyyppi on **Laskutettava**, **Budjetti**-tyyppisen projektin suunnittelurivi luodaan projektin päiväkirjarivin kirjaamisen jälkeen.
+
+> [!IMPORTANT]
+> Jos projektin käytön seuranta on otettu käyttöön **Projektienhallinnan asetukset** -sivulla tai yksittäisessä projektissa ja päiväkirjarivin **Rivityyppi**-kenttä on tyhjä, **Budjetti**-tyyppiset projektin uudet suunnittelurivit luodaan projektipäiväkirjan rivien kirjaamisen yhteydessä.  
+>  
+> Jos projektin käytön seurantaa *ei* ole otettu käyttöön **Projektienhallinnan asetukset** -sivulla tai yksittäisessä projektissa ja päiväkirjarivin **Rivityyppi**-kenttä on tyhjä, mitään projektin suunnittelurivejä ei luoda projektipäiväkirjan rivien kirjaamisen yhteydessä. Lisätietoja on kohdassa [Projektien käytön kirjaaminen](projects-how-record-job-usage.md).
 
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Projektienhallinnan asetukset** ja valitse sitten aiheeseen liittyvä linkki.
-2. Valitse **Käytä käyttölinkkiä oletusarvoisesti** -valintaruutu tai poista sen valinta.
-
-> [!NOTE]  
->   Voit määrittää yksittäisten projektikorttien **Käytä käyttölinkkiä oletusarvoisesti** -valintaruudulle eri asetukset. Tässä tapauksessa kyseisen projektin asetus korvaa yllä kuvatun yleisen oletusasetuksen.
+2. Valitse **Käytä käyttölinkkiä oletusarvoisesti** -valintaruutu.
 
 ## <a name="to-set-up-prices-for-job-resources"></a>Projektin resurssien hintojen määrittäminen
 Voit määrittää projektin resursseja varten tietyt hinnat. Tähän käytetään **Projektiresurssien hinnat** -sivua.
@@ -114,9 +114,11 @@ Yksi näkökulma projektien suunnittelussa on sen päättäminen, mitä kirjaust
 | **Tuloutetun myynnin tili** |Tulotili, joka sisältää projektin tuloutetut tuotot. Yleensä tili on kredittulotili. |
 
 ## <a name="see-also"></a>Katso myös
+
 [Projektinhallinnan määrittäminen](projects-setup-projects.md)  
+[Video: Projektin luonti Dynamics 365 Business Centralissa](https://www.youtube.com/watch?v=VqaPWr7BWmw)  
 [Projektien hallinta](projects-manage-projects.md)  
 [Rahoitus](finance.md)  
-[Osto](purchasing-manage-purchasing.md)         
-[Myynti](sales-manage-sales.md)      
+[Osto](purchasing-manage-purchasing.md)  
+[Myynti](sales-manage-sales.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  

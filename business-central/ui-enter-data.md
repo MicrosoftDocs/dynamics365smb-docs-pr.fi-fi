@@ -1,6 +1,6 @@
 ---
 title: Kentän tietojen antaminen| Microsoft Docs
-description: Tietojen antamiseen nopeasti ja helposti on useita yleisiä toimintoja.. Tässä ohjeaiheessa kuvataan nämä tietojen syötön perustoiminnot.
+description: Tietoja yleisistä ominaisuuksista, jotka auttavat antamaan tietoja kenttiin.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,27 +8,66 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: f1bd2fb92f787d52c5bbab8c2210b9d424c1ffd5
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 00143454cf0b0da9b111f92bcdb7879c7e6743d2
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852491"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "929071"
 ---
 # <a name="entering-data"></a>Tietojen antaminen
-Tietojen antamiseen nopeasti ja helposti on useita yleisiä toimintoja.. Tässä artikkelissa käsitellään tietojen antamisen perustoiminnot.  
 
-Tämän artikkelin esimerkeissä käytetään esimerkkitietoja.
+Käytettävissä on monia yleisiä ominaisuuksia, jotka helpottavat, nopeuttavat ja tarkentavat tietojen antamista. Tässä artikkelissa käsitellään tietojen antamisen yleisiä ominaisuuksia.  
+
+<!-- The examples in this article use the demonstration data.-->
+
+## <a name="keyboard-shortcuts"></a>Pikanäppäimet
+
+Käytettävissä on useita pikanäppäimiä, joiden ansiosta hiiren käyttö ei ole välttämätöntä ja jotka nopeuttavat tietojen antamista etenkin jos annettavia tietoja on paljon ja jos samat tiedot kirjoitetaan toistuvasti.
+
+Lisätietoja pikanäppäimissä on kohdassa [Pikanäppäimet](keyboard-shortcuts.md). Tässä artikkelissa käsitellään muutamia pikanäppäimiä.
+
+## <a name="QuickEntry"></a>Tietojen syöttämisen helpottaminen pikatapahtuman avulla
+
+Pikatapahtuma on näppäimistön avulla tapahtuvaa tietojen antamista varten suunniteltu ominaisuus. Pikatapahtumia voi käyttää kentissä (kuten korttisivuilla) ja luetteloissa (rivit ja sarakkeet). Siitä on hyötyä, jos kyse on toistuvista kirjoitustehtävistä, joissa on luotava peräkkäin toistuvia tietueita. Tällaisia ovat esimerkiksi myyntitilauserät tai uusien nimikkeiden rekisteröiminen.
+
+Osaat jo ehkä siirtyä sivulla kentästä seuraavaan muokattavaan kenttään sarkainnäppäimellä. Sarkaimen käytön haittapuolena on kuitenkin se, että se siirtyy aina seuraavaan kenttään. <!-- even if the field is non-editable or seldom filled it in.-->Voit muuttaa tätä polkua pikatapahtuman avulla. Pikatapahtuman avulla voit siirtyä Enter-näppäimellä vain haluamiisi kenttiin. Tällä tavoin voit ohittaa kentät, joita ei voi muokata, ja kentät, joita et yleensä täytä. Olet ehkä jo havainnut tämän toiminnan joillakin sivuilla. Tämä johtuu siitä, että sovellus määrittää valmiiksi, mihin kenttiin Enter-näppäimellä siirrytään ja mitkä ohitetaan. Voit mukauttaa pikatapahtumaa mukauttamalla työtilaa ja optimoimalla tietojen antamistavan kullakin sivulla.
+
+### <a name="how-quick-entry-works"></a>Pikatapahtuman toimintaperiaate
+
+Jokainen kenttää voidaan merkitä joko *pikatapahtumaan sisällytetyksi* tai *pikatapahtumasta poissuljetuksi*. Pikatapahtumaan sisällytetyt kentät sisällytetään polkuun, johon Enter-näppäimellä siirrytään, kun taas pikatapahtumasta poissuljettuja kenttiä ei sisällytetä siihen.
+
+Kun tiedot on annettu kenttään, vahvista muutokset Enter-näppäimellä ja siirry samalla seuraavaan kenttään. Jos haluat palata taaksepäin ja siirtyä edelliseen kenttään, paina näppäinyhdistelmää Vaihto+Enter. Lisätietoja pikanäppäimissä on kohdassa [Pikatapahtuman pikanäppäimet](keyboard-shortcuts.md#QuickEntry).
+
+#### <a name="tips-and-tricks"></a>Vihjeitä
+Seuraavassa luettelossa on joitakin hyödyllisiä tietoja pikatapahtumien käyttämisestä.
+
+- Se on käytössä muokattavissa kentissä.
+- Sitä voi käyttää myös sarakkeissa ja riveillä.
+- Se ei estä sivun muiden osien, kuten toimintojen, käyttämistä, sillä niitä voi edelleen käyttää sarkaimella ja Vaihto+Sarkain-näppäinyhdistelmällä.  
+- Pikatapahtumaa voi käyttää myös laajentamattomissa pikavälilehdissä. Jos seuraava pikatapahtumakenttä sijaitsee tiivistetyssä pikavälilehdessä, pikavälilehti laajentuu automaattisesti ja kohdistus on määritetyssä kentässä.
+- Pikatapahtuma on käytettävissä riippumatta siitä, ovatko kentät pakollisia vai eivät. Tämän vuoksi kannattaa varmistaa, että pakolliset kentät sisällytetään pikatapahtumaan.
+- Oletusarvoisesti useimmat kentät sisällytetään automaattisesti pikatapahtumaan. Tämän vuoksi joudutkin luultavasti aluksi sulkemaan kenttiä pois pikatapahtumasta.
+
+### <a name="how-to-change-quick-entry-fields"></a>Pikatapahtumakenttien muuttaminen
+
+Pikatapahtumaan sisällytettyjen tai poissuljettujen kenttien muuttaminen tehdään mukauttamisen avulla.
+
+1. Aloita mukauttaminen valitsemalla ensin ![Asetukset](media/ui-experience/settings_icon_small.png "Roolikeskuksen Asetukset-kuvake") -kuvake ja sitten **Mukauta**.
+2. Valitse muutettava kenttä tai luettelossa vastaava sarakeotsikko ja valitse sitten joko **Sisällytä pikatapahtumaan** tai **Sulje pois pikatapahtumasta**.
+
+Lisätietoja mukauttamisesta on kohdassa [Työtilan mukauttaminen](ui-personalization-user.md).
 
 ## <a name="mandatory-fields"></a>Pakolliset kentät
+
 Kun annat tietoja sivuilla, tietyt kentät on merkitty punaisella tähtimerkillä. Punainen tähti tarkoittaa, että kenttä on täytettävä, jotta tietty kenttää käyttävä prosessi voidaan suorittaa, kuten kentässä olevaa arvoa käyttävän tapahtuman kirjaus.  
 
 Vaikka kentässä on punainen tähti, et joudu täyttämään kenttää ennen kuin jatkat muihin kenttiin tai suljet sivun. Punainen tähti toimii vain muistutuksena siitä, että sinua estetään suorittamasta tiettyä prosessia.  
 
+## <a name="finding-data-as-you-type"></a>Tietojen etsiminen kirjoitettaessa
 
-## <a name="finding-data-as-you-type"></a>Tietojen etsiminen kirjoitettaessa  
  Kun alat kirjoittaa merkkejä kenttään, näyttöön tulee avattava luettelo, joka sisältää kentän mahdollisia arvoja. Luettelon sisältö muuttuu, kun kirjoitat lisää merkkejä, ja voit valita luettelosta haluamasi vaihtoehdon, kun luettelo on näkyvissä.  
 
  Monissa kentissä on alanuolipainike, jonka voi valita. Napsauttamalla tätä painiketta saat näyttöön luettelon arvoista, jotka ovat määritettävissä kyseiseen kenttään. Painikkeella on kaksi eri tehtävää kentän tyypin mukaan:  
@@ -37,32 +76,37 @@ Vaikka kentässä on punainen tähti, et joudu täyttämään kenttää ennen ku
 
 -   Avattava luettelo - Ohjelma näyttää kentän eri vaihtoehdot. Voit valita vain yhden vaihtoehdoista.  
 
-<!--Onprem ## Copy Fields or Lines  
- Depending on the type of writable document, you can copy individual line fields or whole lines to other lines in the document. Read-only data, such as posted entries, cannot be copied.  
+## <a name="copying-and-pasting-fields-and-lines"></a>Kenttien ja rivien kopioiminen ja liittäminen
 
- Several database dependencies are used to determine if fields or lines can be copied. One way to determine these dependencies is to view the shortcut menu. The content of the shortcut menu indicates which copy functions are supported by displaying either of these functions:  
+Voit kopioida yhden rivin tai useita rivejä luettelosta tai yhden kentän sivulta ja liittää kopioidut kohteet samalle sivulle, toiselle sivulle tai ulkoiseen asiakirjaan (kuten Microsoft Excel -asiakirjaan tai Outlook-sähköpostiin). Jos haluat kopioida, paina näppäimiä CTRL+C (cmd+C macOS-käyttöjärjestelmässä). Jos haluat liittää, paina näppäimiä CTRL+V (cmd+V macOS-käyttöjärjestelmässä).
 
--   Copy Cell  
+Kopioi luettelossa kenttä yläpuolella olevan rivin samasta sarakkeesta ja liitä se nykyiselle riville painamalla F8-näppäintä.
 
--   Copy Rows  
+Lisätietoja on kohdassa [Kopioiminen ja liittäminen Business Centralissa](ui-copy-paste.md).
 
--   Paste Rows  
+## <a name="Focus"></a>Kohdistaminen rivinimikkeisiin
 
- For example, database records, such as lines on a sales order, and master data, such as cards on the **Items** page, cannot be duplicated. For this kind of data, the shortcut menu typically has the **Copy Cell** or **Copy Rows**  functions. If the **Paste** function is not available this indicates that you can only paste the data into external documents. Single fields on a sales line, however, can be copied to the same column in other sales lines.  
+Jos käsittelet rivinimikeosan, kuten myyntitilaus- tai laskusivun, sisältäviä asiakirjoja, voit vaihtaa näkymän kohdistuksen rivinimikkeisiin. Käytännössä tämä tarkoittaa rivinimikkeen laajentamista siten, että se täyttää lähes koko työtilan, jolloin sivun muut osat piilotetaan yläreunassa olevia toimintoja lukuun ottamatta. Saat tällä tavoin hyvän yleiskuvan rivinimikkeistä, ja sinulla on enemmän tilaa niiden käsittelemiseen. Tämä on erityisen kätevää silloin, kun käsittelet suuria rivinimikeluetteloita ja tiedot pitäisi antaa nopeasti.
 
- Journal lines are very flexible and can be copied freely in the same journal, indicated by the presence of **Paste** on the shortcut menu.  
+Lisäetuna on mahdollisuus käyttää suodatuksen lisäominaisuuksien, kuten muissakin luetteloissa, mikä helpottaa rivinimikkeiden selaamista ja hakemista.
 
-> [!NOTE]  
->   If you copy a journal line or document line, the fields that are not in your view are not copied to the new line.
+### <a name="switch-the-focus-on-and-off"></a>Kohdistuksen ottaminen käyttöön ja poistaminen käytöstä
 
-#### To copy previous field  
+Jos haluat siirtää kohdistuksen rivinimikkeisiin, tee valinta jossakin rivinimikeosassa ja valitse sitten oikeassa yläkulmassa ![Kohdistustilan kuvake](media/focus-mode.png "Kohdistustilan kuvake") tai paina näppäinyhdistelmää Ctrl+Vaihto+F12.
 
--   To enter the value of the field immediately above the active field, select **Copy Previous** from the shortcut menu.-->
+Voit palata takaisin normaalinäkymään valitsemalla ![Kohdistustilan kuvake](media/focus-mode.png "Kohdistustilan kuvake") tai painamalla uudelleen näppäinyhdistelmää Ctrl+Vaihto+F12.
 
-## <a name="entering-quantities-by-calculation"></a>Määrien antaminen laskutoimituksia käyttämällä  
- Kun syötät lukuja määräkenttiin, kuten nimikepäiväkirjan rivin **Määrä**-kenttään, voit syöttää summan asemesta kaavan. Seuraavassa on esimerkkejä:  
+### <a name="filtering-the-line-items"></a>Rivinimikkeiden suodattaminen
 
-## <a name="examples"></a>Esimerkkejä  
+Aloita suodatus avaamalla suodatinruutu valitsemalla ![Suodatinruutukuvake](media/open-filter-pane-icon.png "Suodatinruutukuvake") luettelon yläreunassa tai painamalla näppäinyhdistelmää **Vaihto+F3**. Voit käyttää suodatinruutua samalla tavoin kuin muitakin luetteloita. Lisätietoja on kohdassa [Suodattaminen](ui-enter-criteria-filters.md#Filtering).
+
+Suodatuksesta on apua erityisesti silloin, kun tarkasteltava ja analysoitava asiakirja on pitkä. Oletetaan esimerkiksi, että avaat kirjatun myyntilaskun ja suodatat rivinimikkeet näyttämään kaikki rivinimikkeet, joilla on yli 5 %:n yksittäinen alennus, tai näytät suodatuksen avulla vain pyörän varusteet, joiden nimi sisältää sanan pro.
+
+## <a name="entering-quantities-by-calculation"></a>Määrien antaminen laskutoimituksia käyttämällä
+
+Kun syötät lukuja määräkenttiin, kuten nimikepäiväkirjan rivin **Määrä**-kenttään, voit syöttää summan asemesta kaavan. Seuraavassa on esimerkkejä:  
+
+### <a name="examples"></a>Esimerkkejä  
 
 -   Jos syötät 19+19, kentän arvoksi lasketaan 38.  
 
@@ -73,6 +117,7 @@ Vaikka kentässä on punainen tähti, et joudu täyttämään kenttää ennen ku
 -   Jos syötät 12/4, kentän arvoksi lasketaan 3.  
 
 ## <a name="entering-negative-numbers"></a>Negatiivisten lukujen syöttäminen
+
 Voit antaa negatiivisia lukuja kahdella tavalla. Numero -20.5 voidaan syöttää seuraavasti:  
 
 -   -20.5  
@@ -85,13 +130,17 @@ Voit antaa negatiivisia lukuja kahdella tavalla. Numero -20.5 voidaan syöttää
  Jos lausekkeen viimeinen merkki on **+** tai **-**, koko lauseke kirjataan kyseisen merkin kanssa. Esimerkiksi **10-20+** johtaa tulokseen 10, ei tulokseen -10.  
 
 ## <a name="entering-dates-and-times"></a>Päivämäärien ja aikojen syöttäminen
+
 Päivämääriä ja aikoja voi määrittää kaikissa päivämääräkentissä. Voit syöttää päivämäärät käyttäen erottimia tai ilman niitä.
 
 > [!NOTE]  
 > Päivämäärien ja kellonaikojen antaminen määräytyy **Alue**-asetusten mukaan. Lisätietoja on kohdassa [Perusasetusten muuttaminen](ui-change-basic-settings.md).  
 
-### <a name="entering-dates"></a>Päivämäärien syöttäminen  
- Päivämäärä-kenttään voi syöttää kaksi, neljä, kuusi tai kahdeksan numeroa:  
+### <a name="entering-dates"></a>Päivämäärien syöttäminen
+
+Voit käyttää päivämääräkentissä joko päivämäärän valitsinta, joilla voit valita päivämäärän kalenterista, tai antaa päivämäärät manuaalisesti. Tässä osassa käsitellään lyhyesti päivämäärien antamista. Lisätietoja on kohdassa [Kalenterin päivämäärien ja aikojen käsitteleminen](ui-enter-date-ranges.md).
+
+Kun päivämäärä annetaan manuaalisesti, voit käyttää kahta, neljää, kuutta tai kahdeksaan numeroa:  
 
 -   Jos syötät vain kaksi numeroa, ohjelma tulkitsee ne kuukaudeksi ja vuodeksi ja lisää käsittelypäivämäärän vuoden.  
 
@@ -99,24 +148,22 @@ Päivämääriä ja aikoja voi määrittää kaikissa päivämääräkentissä. 
 
 -   Jos päivämäärä, jonka haluat syöttää, on välillä 1.1.1930 ja 31.12.2029, voit syöttää vuoden kaksinumeroisena. Muutoin vuosi täytyy syöttää nelinumeroisena.  
 
- Voit myös syöttää päivämäärän viikonpäivänä, jota seuraa viikon numero tai vaihtoehtoisesti vuosi (esimerkiksi Ma25 tai ma25 tarkoittaa maanantaita viikolla 25).  
+Voit myös syöttää päivämäärän viikonpäivänä, jota seuraa viikon numero tai vaihtoehtoisesti vuosi (esimerkiksi Ma25 tai ma25 tarkoittaa maanantaita viikolla 25).  
 
- Tietyn päivämäärän syöttämisen sijaan voit syöttää jommankumman seuraavista koodeista.  
+Tietyn päivämäärän antamisen sijaan voit antaa jonkin seuraavista koodeista.  
 
-|koodi|Tulos|  
+|Koodi|Tulos|  
 |--------------|----------------|  
-|t|Tämä on tämän päivän päivämäärä (tietokoneen järjestelmäpäivämäärä).|  
-|k|Tämä on sovelluksessa määritettävä käsittelypäivämäärä. Lisätietoja käsittelypäivämäärän muuttamisesta on kohdassa [Perusasetusten muuttaminen](ui-change-basic-settings.md). Haluat ehkä käyttää käsittelypäivämäärää, jos sellaisia tapahtumia on paljon, joissa on jokin muu kuin tämän päivän päivämäärä.|  
+|t|Tämä määrittää kuluvan päivän päivämäärän (tietokoneen järjestelmäpäivämäärä).|  
+|p|Tämä määrittää kirjanpitojakson, jossa `p`tarkoittaa ensimmäistä kirjanpitojaksoa, `p2` toista kirjanpitojaksoa ja niin edelleen. |
+|k|Tämä määrittää sovelluksessa määritettävän käsittelypäivämäärän. Lisätietoja käsittelypäivämäärän muuttamisesta on kohdassa [Perusasetusten muuttaminen](ui-change-basic-settings.md). Haluat ehkä käyttää käsittelypäivämäärää, jos sellaisia tapahtumia on paljon, joissa on jokin muu kuin tämän päivän päivämäärä.|
+|n|Tämä määrittää, että `c`:n jälkeinen päivämäärä on sulkemispäivämäärä, kuten `C123101`.|  
 
-<!--Onprem ## Closing Date  
- When you close a fiscal year, you can use closing dates to indicate that an entry is a closing entry. A closing date technically is between two dates, for example between Dec 31 and Jan 1.  
+## <a name="entering-times"></a>Aikojen syöttäminen
 
- To specify that a date is a closing date, put C just before the date: C123101. -->
+Kun syötät aikoja, voit lisätä minkä tahansa erotinmerkin yksiköiden väliin, mutta se ei ole tarpeen. Minuutteja, sekunteja tai AM/PM-merkintää (aamupäivä/iltapäivä) ei tarvitse kirjoittaa.  
 
-## <a name="entering-times"></a>Aikojen syöttäminen  
- Kun syötät aikoja, voit lisätä minkä tahansa erotinmerkin yksiköiden väliin, mutta se ei ole tarpeen. Minuutteja, sekunteja tai AM/PM-merkintää (aamupäivä/iltapäivä) ei tarvitse kirjoittaa.  
-
- Seuraavassa taulukossa on luettelo eri tavoista, joilla aikoja voi syöttää ja miten niitä tulkitaan:  
+Seuraavassa taulukossa on luettelo eri tavoista, joilla aikoja voi syöttää ja miten niitä tulkitaan:  
 
 |Tapahtuma|Tulkinta|  
 |---------------|------------------------|  
@@ -130,10 +177,11 @@ Päivämääriä ja aikoja voi määrittää kaikissa päivämääräkentissä. 
 
  Jos et käytä erotinmerkkiä, jokaiselle aikayksikölle tulee syöttää kaksi numeroa.  
 
-## <a name="entering-datetimes"></a>Päivämäärien ja aikojen syöttäminen  
- Kun syötät päivämääriä ja aikoja, päivämäärän ja ajan väliin on lisättävä tyhjätilamerkki.  
+## <a name="entering-datetimes"></a>Päivämäärien ja aikojen syöttäminen
 
- Seuraavassa taulukossa on luettelo eri tavoista, joilla päivämääriä ja aikoja voi syöttää ja miten niitä tulkitaan:  
+Kun syötät päivämääriä ja aikoja, päivämäärän ja ajan väliin on lisättävä tyhjätilamerkki.  
+
+Seuraavassa taulukossa on luettelo eri tavoista, joilla päivämääriä ja aikoja voi syöttää ja miten niitä tulkitaan:  
 
 |Tapahtuma|Tulkinta|  
 |---------------|------------------------|  
@@ -158,10 +206,11 @@ Päivämääriä ja aikoja voi määrittää kaikissa päivämääräkentissä. 
 |ti 10:30:00|nykyisen viikon tiistai 10:30:00|  
 |ti 3:3:3|nykyisen viikon tiistai 03:03:03|  
 
-## <a name="entering-duration"></a>Keston syöttäminen  
- Kesto syötetään numerona, jota seuraa sen mittayksikkö.  
+## <a name="entering-duration"></a>Keston syöttäminen
 
- Seuraavassa on muutamia esimerkkejä:  
+Kesto syötetään numerona, jota seuraa sen mittayksikkö.  
+
+Seuraavassa on muutamia esimerkkejä:  
 
 |Kesto|Mittayksikkö**|  
 |------------------|-------------------------|  
@@ -192,70 +241,72 @@ Päivämääriä ja aikoja voi määrittää kaikissa päivämääräkentissä. 
 |**Sample expression**|**Entries included**|  
 |---------------------------|--------------------------|  
 |12 15 00&#124;12 01 00..12 10 00|Entries posted either on 12 15 00 or on dates between and including 12 01 00 and 12 10 00.|  
-|..12 14 00&#124;12 30 00..|Entries posted on 12 14 00 or earlier, or entries posted on 12 30 00 or later - that is, all entries except those posted on dates between and including 12 15 00 and 12 29 00.|  -->
+|..12 14 00&#124;12 30 00..|Entries posted on 12 14 00 or earlier, or entries posted on 12 30 00 or later - that is, all entries except those posted on dates between and including 12 15 00 and 12 29 00.|
 
-## <a name="using-date-formulas"></a>Päivämäärän kaavojen käyttäminen  
- Päivämäärän kaava on lyhyt kirjain- ja numeroyhdistelmä, joka kertoo ohjelmalle, miten päivämäärät lasketaan. Voit kirjoittaa päivämäärän kaavoja erilaisiin päivämäärän laskentakenttiin sekä toistuvien päiväkirjojen toistotiheyskenttiin.  
+## Using Date Formulas
+
+ A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.  
 
 > [!NOTE]  
->  Kaikissa tietokaavakentissä yksi päivä sisällytetään automaattisesti edustamaan kuluvaa päivää kauden alkupäivänä. Näin ollen jos määrität esimerkiksi 1V, kausi on kahdeksan päivää, koska tämä päivä lasketaan mukaan. Määritä seitsemän päivän kausi (yksi kokonainen viikko) sisältäen alkamispäivämäärän ja syötä sitten 6D tai 1W-1D.  
+>  In all data formula fields, one day is automatically included to cover today as the day when the period starts. Accordingly, if you enter 1W, for example, then the period is actually eight days because today is included. To specify a period of seven days (one true week) including the period starting date, then you must enter 6D or 1W-1D.  
 
- Seuraavassa on joitakin esimerkkejä päivämäärän kaavojen käytöstä:  
+ Here are some examples of how date formulas can be used:  
 
--   Toistuvien päiväkirjojen toistotiheys-kentän päivämäärän kaava määrittää, kuinka usein päiväkirjan rivin tapahtuma kirjataan.  
+-   The date formula in the recurring frequency field in recurring journals determines how often the entry on the journal line will be posted.  
 
--   Ylityskausi-kentän tietyn tason muistutusta koskeva päivämäärän kaava määrittelee ajanjakson, joka täytyy kulua eräpäivästä (tai edellisen muistutuksen päivämäärästä), ennen kuin muistutus voidaan luoda.  
+-   The date formula in the Grace Period field for a specified reminder level determines the period of time that must pass from the due date (or from the date of the previous reminder) before a reminder will be created.  
 
--   Eräpäivän laskenta -kentän kaava määrittää, miten ohjelma laskee muistutuksen eräpäivän.  
+-   The date formula in the Due Date Calculation field determines how to calculate the due date on the reminder.  
 
- Eräpäivän laskentakaavassa voi olla enintään 20 merkkiä, sekä numeroita että kirjaimia. Voit käyttää seuraavia kirjaimia, jotka ovat aikamääreiden lyhenteitä:  
-
-|||  
-|-|-|  
-|N|Nykyinen|  
-|P|Päivä(t)|  
-|VI|Viikko (viikot)|  
-|K|Kuukausi (kuukaudet)|  
-|Q |Neljännesvuosi|  
-|V|Vuosi (vuodet)|  
-
- Voit rakentaa päivämääräkaavan kolmella eri tavalla:  
-
- Seuraava esimerkki näyttää, miten nykyinen ja numero.  
+ The date calculation formula can contain a maximum of 20 characters, both numbers and letters. You can use the following letters, which are abbreviations for time specifications.  
 
 |||  
 |-|-|  
-|NVI|Nykyinen viikko|  
-|NK|Nykyinen kuukausi|  
+|C|Current|  
+|D|Day(s)|  
+|W|Week(s)|  
+|M|Month(s)|  
+|Q|Quarter(s)|  
+|Y|Year(s)|  
 
- Seuraava esimerkki näyttää, miten numero ja aikayksikkö. Numero ei voi olla suurempi kuin 9999.  
+ You can construct a date formula in three ways.  
 
-|||  
-|-|-|  
-|10P|10 päivää tästä päivästä|  
-|2VI|2 viikkoa tämän päivän jälkeen|  
-
- Seuraava esimerkki näyttää, miten aikayksikkö ja numero.  
-
-|||  
-|-|-|  
-|P10|Kuukauden seuraava 10. päivä|  
-|VIP4|Viikon seuraava 4. päivä (torstai)|  
-
- Seuraavassa esimerkissä näytetään, miten voit yhdistää nämä kolme eri muotoa tarvittaessa:  
+ The following example shows how current plus a time unit.  
 
 |||  
 |-|-|  
-|NK+10P|Nykyinen kuukausi + 10 päivää|  
+|CW|Current week|  
+|CM|Current month|  
 
- Miinus-merkin avulla pystyt ilmaisemaan menneitä päiviä. Esimerkiksi:  
+ The following example shows how a number and a time unit. A number cannot be larger than 9999.  
 
 |||  
 |-|-|  
-|-1 V.|1 vuosi taaksepäin tästä päivästä|  
+|10D|10 days from today|  
+|2W|2 weeks from today|  
 
-<!--OnPrem > [!CAUTION]  
->  If the location uses a base calendar, then the date formula that you enter in, for example, the **Shipping Time** field is interpreted according to the calendar working days. For example, a 1W means seven working days. For more information, see Base Calendar Card.-->  
+ The following example shows how a time unit and a number.  
+
+|||  
+|-|-|  
+|D10|The next 10th day of a month|  
+|WD4|The next 4th day of a week (Thursday)|  
+
+ The following example shows how you can combine these three forms as needed.  
+
+|||  
+|-|-|  
+|CM+10D|Current month + 10 days|  
+
+ The following example shows how you can use a minus sign to indicate a date in the past.  
+
+|||  
+|-|-|  
+|-1Y|1 year ago from today|
+
+[!CAUTION]  
+>  If the location uses a base calendar, then the date formula that you enter in, for example, the **Shipping Time** field is interpreted according to the calendar working days. For example, a 1W means seven working days. For more information, see Base Calendar Card.-->
+
 ## <a name="see-also"></a>Katso myös  
  [Luetteloiden lajitteleminen ja suodattaminen sekä luetteloista hakeminen](ui-enter-criteria-filters.md)  
  [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)

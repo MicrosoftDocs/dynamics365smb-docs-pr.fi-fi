@@ -10,28 +10,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: aaeb98aa5e3c48a92be71546be33b1494a751cb9
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 75f055dcc862f3954aa0c50d6d22643940baa538
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "795058"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "938963"
 ---
-# <a name="creating-contacts"></a>Kontaktien luominen
-Yrityksen työntekijät tapaavat säännöllisesti mahdollisia asiakasyrityksiä, ja tapaamiset johtavat usein liikesuhteisiin. Kun uusi kontakti luodaan, nämä tiedot on tallennettava yhteydenpidon jatkamista varten.
+# <a name="create-contacts"></a>Kontaktien luominen
+Tapaat säännöllisesti muiden yritysten työntekijöitä, jotka voivat kehittyä liikesuhteiksi, kuten asiakassuhteeksi. Kun tällainen uusi kontakti luodaan, kontaktin korttiin on tallennettava mahdollisimman paljon tietoja, jotta yhteydenpitoa voidaan jatkaa.
 
-Tehokkaan yhteydenpidon varmistamiseksi yrityksestä on määritettävä mahdollisimman paljon tietoja. Kun yritys liitetään esimerkiksi sopivaan toimialaryhmään, nämä yritykset sisällytetään kaikkeen soveltuvaan yhteydenpitoon. Voit määrittää myös liikesuhteen, joka kontaktiin on muodostettu. Kontakti voi olla esimerkiksi prospekti, pankki tai alihankkija.
+## <a name="person-or-company"></a>Henkilö tai yritys
+Voit päättää määrittää kontaktin henkilönä tai yrityksenä yleensä sen perusteella, tiedätkö yhteyshenkilön nimen kortin luontihetkellä. Se tehdään täyttämällä **Tyyppi**-kenttä **Kontaktin kortti** -sivulla. Voit ylläpitää kontaktin kortteja myös sekä yritykselle että ainakin yhdelle yrityksen työntekijälle. Tämä tehdään automaattisesti, kun täytät **Yrityksen nimi** -kentän **Henkilö**-tyypin kontaktin kortissa.
 
-> [!NOTE]
-> Voit määrittää **Kontaktin kortti** -sivun **Tyyppi**-kentässä kontaktiksi henkilön tai yrityksen yleensä sen perusteella, tiedätkö yhteyshenkilön nimen kortin luontihetkellä. Molemmissa tyypeissä on samanlaiset toiminnot. Poikkeuksena ovat mahdollisesti määritettävät lisätietotyypit. Voit muuttaa kentän arvoa myöhemmin. Vaihtoehtoisesti voit hallita, mitä tietoja henkilön ja liittyvän yrityksen välillä jaetaan, **Kontaktienhallinnan asetukset** -sivun **Periytyminen**-pikavälilehdessä.
-
-Voit luoda kontaktin jokaiselle uudelle henkilölle tai yritykselle (esimerkiksi asiakkaalle, toimittajalle, mahdolliselle asiakkaalle, pankille, lakiasiantoimistolle ja konsultille), jonka kanssa yrityksesi on vuorovaikutuksessa.
-
-Kontaktin voi luoda kahdella tavalla:
- * Manuaalisesti.
- * Aiemmin luodusta asiakkaasta, toimittajasta tai pankkitilistä.
+Molemmissa tyypeissä on samanlaiset toiminnot. Poikkeuksena ovat tyypin mukaan määritettävät lisätietotyyppivaihtoehdot. Voit esimerkiksi määrittää vastuualueet henkilölle ja toimialaryhmä yritykselle. Tämä ilmaistaan käyttöliittymässä himmentämällä kentät ja toiminnot, jotka eivät ole käytettävissä. Voit muuttaa **Tyyppi**-kentän arvoa myöhemmin. Vaihtoehtoisesti voit hallita, mitä tietoja henkilön ja henkilöön liittyvän yrityksen välillä jaetaan, **Kontaktienhallinnan asetukset** -sivun **Periytyminen**-pikavälilehdessä. Lisätietoja on kohdassa [Kontaktien määrittäminen](marketing-setup-contacts.md).
 
 ## <a name="to-create-a-contact-manually"></a>Kontaktin luominen manuaalisesti
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kontaktit** ja valitse sitten liittyvä linkki.

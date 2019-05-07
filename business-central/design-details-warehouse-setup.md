@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0c813187ee6d11fcdb729cb64048386238406528
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 3b847791283820d8b9996f417e2bae1ca8c0e461
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "795826"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "939368"
 ---
 # <a name="design-details-warehouse-setup"></a>Rakennetiedot: f. varaston asetus
 [!INCLUDE[d365fin](includes/d365fin_md.md)]in fyysisen varastoinnin toiminnolla on erilaisia monimutkaisuustasoja, jotka perustuvat valittavissa olevien yksiköiden käyttöoikeuksiin. Varastoratkaisun monimutkaisuuden taso määritellään laajasti binin asetusten mukaisesti sijaintikorteissa, joka vuorostaan on lisenssikontrolloitu niin, että binin määrityskenttien käyttö määritellään lisenssissä. Lisäksi lisenssin sovellusobjektit hallitsevat mitä käyttöliittymäasiakirjaa käytetään tuetuille varastotoiminnoille.  
@@ -44,7 +44,7 @@ Seuraavassa taulukossa käsitellään mitä yksiköitä vaaditaan määrittämä
 |3 <br /><br /> **Huomautus**: Vaikka asetusten nimenä on **Vaadi poiminta** ja **Vaadi hyllytys**, voit silti kirjata vastaanottoja ja toimituksia suoraan lähdeasiakirjoista sijainneissa, joissa olet valinnut nämä valintaruudut.|F. varaston perustoiminnot tilauskohtaisesti.<br /><br /> Vastaanotto-/toimituskirjaus varaston hyllytyksestä/poiminta-asiakirjoista. <br /><br /> Lokerokoodi vaaditaan.|Varaston hyllytys/varastosiirto/varaston poiminta, varastopaikkakoodilla|(HOPEA + vaadi hyllytys tai vaadi hyllytys)|Perusvarasto/lokero/hyllytys/poiminta|  
 |4|Lisävarastoinnin toiminto useille tilauksille.<br /><br /> Konsolidoitu vastaanotto ja toimituksen kirjaus f. varaston hyllytys/poimintarekisteröintien perusteella.|Fyysisen varastoinnin vastaanotto / fyysisen varastoinnin hyllytys / fyysisen varastoinnin poiminta / fyysisen varastoinnin toimitus / poimintatyökirja|VIHREÄ|Perusvarasto/f. var. vastaanotto/hyllytys/poiminta/f. var. toimitus|  
 |5|Lisävarastoinnin toiminto useille tilauksille.<br /><br /> Konsolidoitu vastaanotto ja toimituksen kirjaus f. varaston hyllytys/poimintarekisteröintien perusteella.<br /><br /> Lokerokoodi vaaditaan.|Fyysisen varastoinnin vastaanotto / fyysisen varastoinnin hyllytys / fyysisen varastoinnin poiminta / fyysisen varastoinnin toimitus / poimintatyökirja / hyllytystyökirja ja varastopaikan koodi|(VIHREÄ + varastopaikka pakollinen)|Perusvarasto/lokero/f. var. vastaanotto/hyllytys/poiminta/f. var. toimitus|  
-|6 <br /><br /> **Huomautus**: Tätä tasoa kutsutaan nimellä VHJ, koska se edellyttää kaikkein laajimman yksikön eli varastoinninhallintajärjestelmän käyttöä.|Lisävarastoinnin toiminto useille tilauksille<br /><br /> Konsolidoitu vastaanotto ja toimituksen kirjaus f. varaston hyllytys/poimintarekisteröintien perusteella<br /><br /> Lokerokoodi vaaditaan.<br /><br /> Alueen/Luokan koodi on valinnainen.<br /><br /> Työnkulun ohjaamat varastotyöntekijät<br /><br /> Varastopaikan täydennyksen suunnittelu<br /><br /> Varastopaikan luokittelu<br /><br /> Varastopaikan asetus kapasiteetin mukaan<br /><br /> Sijoittelu <!-- Hand-held device integration -->|Fyysisen varastoinnin vastaanotto / fyysisen varastoinnin hyllytys / fyysisen varastoinnin poiminta / fyysisen varastoinnin toimitus / fyysisen varaston siirto / poimintatyökirja / hyllytystyökirja / sisäinen fyysisen varaston poiminta / sisäinen fyysisen varastoinnin hyllytys ja varastopaikan/luokan/alueen koodi<br /><br /> Varastopaikan hallinnan erilaiset työkirjat<br /><br /> ADCS-näytöt|VALKOINEN|Perusvarasto/lokero/hyllytys/f. var. vastaanotto/poiminta/f. var. toimitus/varastoinninhallintajärjestelmät/sisäiset poiminnat ja hyllytykset/lokeron määritys/<!-- Automated Data Capture System/ -->lokeron määritys|  
+|6 <br /><br /> **Huomautus**: Tätä tasoa kutsutaan nimellä VHJ, koska se edellyttää kaikkein laajimman yksikön eli varastoinninhallintajärjestelmän käyttöä.|Lisävarastoinnin toiminto useille tilauksille<br /><br /> Konsolidoitu vastaanotto ja toimituksen kirjaus f. varaston hyllytys/poimintarekisteröintien perusteella<br /><br /> Lokerokoodi vaaditaan.<br /><br /> Alueen/Luokan koodi on valinnainen.<br /><br /> Työnkulun ohjaamat varastotyöntekijät<br /><br /> Varastopaikan täydennyksen suunnittelu<br /><br /> Varastopaikan luokittelu<br /><br /> Varastopaikan asetus kapasiteetin mukaan<br /><br /> Sijoittelu  <!-- Hand-held device integration -->|Fyysisen varastoinnin vastaanotto / fyysisen varastoinnin hyllytys / fyysisen varastoinnin poiminta / fyysisen varastoinnin toimitus / fyysisen varaston siirto / poimintatyökirja / hyllytystyökirja / sisäinen fyysisen varaston poiminta / sisäinen fyysisen varastoinnin hyllytys ja varastopaikan/luokan/alueen koodi<br /><br /> Varastopaikan hallinnan erilaiset työkirjat<br /><br /> ADCS-näytöt|VALKOINEN|Perusvarasto/varastopaikka/hyllytys/f. var. vastaanotto/poiminta/f. var. toimitus/varastoinninhallintajärjestelmät/sisäiset poiminnat ja hyllytykset/varastopaikan määritys<!-- Automated Data Capture System/ -->Varastopaikan asetus|  
 
 Esimerkkejä käyttöliittymäasiakirjojen käytöstä kullakin fyysisen varaston monimutkaisuustasolla on kohdassa [Rakennetiedot: saapuvan fyysisen varastoinnin virta](design-details-outbound-warehouse-flow.md).  
 

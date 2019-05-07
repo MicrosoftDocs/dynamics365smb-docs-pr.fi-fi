@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 702ebfd345c7f2e09f7d84105d7d0a3e76f0550f
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 21042f9eb55413a6627dab830091686e06c34acc
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "796050"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "915286"
 ---
 # <a name="business-intelligence"></a>Business Intelligence
 Yritykset hankkivat päivittäisessä toiminnassaan valtavia määriä tietoja. Nämä tiedot voivat kuvata esimerkiksi organisaation myyntilukuja, ostoja, toimintakuluja, työntekijöiden palkkoja ja budjetteja, ja ne voivat olla päätöksentekijöille arvokasta liiketoimintatietoa. [!INCLUDE[d365fin](includes/d365fin_md.md)] sisältää erinäisiä toimintoja, joiden avulla voit kerätä, analysoida ja jakaa yrityksen tietoja.
@@ -42,8 +42,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 [Rahoitus](finance.md)    
 [Business Centralin käyttäminen Power BI -tietolähteenä](across-how-use-financials-data-source-powerbi.md)  
 [Kirjanpitokausien sulkeminen](year-close-years-periods.md)  
-[Tietojen tuominen muita talousjärjestelmistä](across-import-data-configuration-packages.md)  
+[Tietojen tuominen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 

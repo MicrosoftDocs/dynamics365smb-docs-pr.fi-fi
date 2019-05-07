@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 4e47858bf1f7253f8fb8951fe8ea3cb611138852
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 54a7ad407ef3322ec1e02de4b20a934163a21a8e
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "796094"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "935801"
 ---
 # <a name="the-late-payment-prediction-extension"></a>Myöhästyneen maksun ennusteen laajennus  
 Tehokas myyntisaamisten hallinta on tärkeää yrityksen taloudellisen tilanteen yleiskuvan kannalta. Myöhästyneen maksun ennusteen laajennus voi auttaa avointen myyntisaamisten vähentämisessä ja perintästrategian tarkentamisessa ennustamalla, maksetaanko myyntilaskut ajoissa. Jos maksun ennustetaan olevan myöhässä, voit esimerkiksi muuttaa asiakkaan maksuehtoja tai maksutapaa.
@@ -55,7 +55,7 @@ On the **Late Payment Prediction Setup** page you can schedule updates to paymen
 ## <a name="building-your-own-predictive-model"></a>Oman ennakoivan mallin luominen
 Haluatko luoda oman ennakoivan mallin? Voit luoda oman ennakoivan mallin Azure Machine Learning Studion avulla ja käyttää sitä [!INCLUDE[d365fin](includes/d365fin_md.md)]:ssä. Sinun on tilattava Azure Machine Learning, jotta voit käyttää omaa mallia. Lisätietoja on kohdassa [Azure Machine Learning Studio -dokumentaatio](https://go.microsoft.com/fwlink/?linkid=861765).  
 
-Microsoft kuitenkin tarjoaa helpomman tavan oman ennakoivan mallin luomista ja käyttämistä varten. Voit jakaa laskujen tiedot ennakoivan kokeilumme kanssa Azure Machine Learning -sovelluksessa. Luomme ja kehitämme ennakoivan mallin tietojesi perusteella. Jos haluat jakaa tiedot, valitse **Myöhästyneen maksun ennusteen asetus** -sivulla **Luo oma malli** -toiminto. Tämän jälkeen ennusteet perustuvat Microsoftin mallin sijaan omaan malliisi ja omiin tietoihisi.  
+Microsoft kuitenkin tarjoaa helpomman tavan oman ennakoivan mallin luomista ja käyttämistä varten. Voit jakaa laskujen tiedot [Dynamics 365 Business Centralin ennakoivan kokeilun](https://go.microsoft.com/fwlink/?linkid=2086310) kanssa Azure Machine Learning -sovelluksessa. Luomme ja kehitämme ennakoivan mallin tietojesi perusteella. Jos haluat jakaa tiedot, valitse **Myöhästyneen maksun ennusteen asetus** -sivulla **Luo oma malli** -toiminto. Tämän jälkeen ennusteet perustuvat Microsoftin mallin sijaan omaan malliisi ja omiin tietoihisi.  
 
 > [!Note]
 >   Mallin laatu on tärkeä seikka. Kun ennakoiva kokeilumme käyttää tietojasi ja kehittää mallin, se määrittää mallille laadun arvon prosenttiosuutena. Mallin laatu osoittaa, miten tarkkoja mallin ennusteista tulee. Useat tekijät voivat vaikuttaa mallin laatuun. Tällaisia tekijöitä ovat esimerkiksi se, että tietoja ei ole riittävästi tai tiedoissa ei ollut riittävästi muunnoksia. Voit tarkastella tällä hetkellä käytössä olevan mallin laatua **Myöhästyneen maksun ennusteen asetus** -sivulla. Voit myös määrittää mallin laadulle vähimmäisrajan. Mallit, joiden laadun arvo on rajaa pienempi, eivät luo ennusteita.  

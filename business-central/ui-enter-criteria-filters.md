@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: c6eb9465d07b702e545347cad5acf0a42f01d1de
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 5cd8bce29b1973274cda673e22dd07e6b50f830f
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "796035"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "928067"
 ---
 # <a name="sorting-searching-and-filtering-lists"></a>Luetteloiden lajitteleminen ja suodattaminen sekä luetteloista hakeminen
 Luettelossa olevien tietueiden skannaamista, etsimistä ja rajaamista voi helpottaa muutamilla keinoilla. Näitä keinoja ovat esimerkiksi lajitteleminen, etsiminen ja suodattaminen. Voit käyttää samanaikaisesti joitakin keinoja tai kaikkia keinoja, kun haluat etsiä tai analysoida tiedot nopeasti.
@@ -36,7 +36,8 @@ Voit lajitella luettelon joko valitsemalla sarakkeen otsikkotekstin ja vaihtelem
 >   Lajittelua ei tueta kuvissa, BLOB-kentissä ja FlowFilter-suodattimissa, jotka eivät kuulu taulukkoon.  
 
 ## <a name="searching"></a>Hakeminen
-<!--## Searching by using the Quick Filter --> Kunkin luettelosivun yläosassa on ![Hakuluettelo](media/ui-search/search-list.png "Hakuluettelo-kuvake") **Haku**-kuvake, jonka avulla luettelon tietueiden määrää on helppo vähentää. Näin näkyvissä ovat vain tietueet, jotka sisältävät käyttäjää kiinnostavia tietoja.
+<!--## Searching by using the Quick Filter -->
+Kunkin luettelosivun yläosassa on ![Hakuluettelo](media/ui-search/search-list.png "Hakuluettelo-kuvake") **Haku**-kuvake, jonka avulla luettelon tietueiden määrää on helppo vähentää. Näin näkyvissä ovat vain tietueet, jotka sisältävät käyttäjää kiinnostavia tietoja.
 
 Voit aloittaa haun yksinkertaisesti valitsemalla hakukuvakkeen ja kirjoittamalla ruutuun teksti, jota haetaan. Voit syöttää kirjaimia, numeroita ja muita symboleita.
 
@@ -55,27 +56,6 @@ Voit kuitenkin tehdä tarkemman haun seuraavien erikoismerkkien avulla:
 
 Seuraavassa taulukossa on esimerkkejä haun käyttämisestä.
 
-
-<!--
-In search criteria you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.-->
-
-<!--
-The Quick Filter provides an easy access to filter data by entering plain text, but does also provide a lot of search criteria options. Depending on whether you enter plain text or text including symbols, the Quick Filter behaves differently.  
-
-* If you enter plain text in the search criteria, the search criteria is interpreted as a case insensitive search that contains certain text.  
-* If you enter text including symbols in the search criteria, the search criteria is interpreted exactly as you entered it, and the search is case sensitive.
--->
-<!--
-
-|Search Criteria|Interpreted as...|Finds...|
-|---------------|----------------|----------|
-|`man`<br />or <br />`Man`|Contains the text; case insensitive|All records with fields that contain the text **man**, regardless of the case.|
-|`'Man'`|Entire text match; case sensitive.|All records with fields that only contain **Man** exactly.|
-|`Man*`|Starts with the text; case sensitive.|All records with fields that start with the text <b>Man</b> exactly.|
-|`@Man*`|Starts with the text; case insensitive.|All records with fields that start with **man**, regardless of the case.|
-|`@*man`|Ends with the text; case insensitive.|All records that end with **man**, regardless of the case.|
--->
-
 |Hakuehdot|Etsii...|
 |---------------|----------|
 |`man`<br />tai <br />`Man`|Kaikki tietueet, joissa on **man**-tekstin sisältäviä kenttiä kirjankoosta riippumatta. Esimerkiksi **Manchester**, **manual** tai **Sportsman**. |
@@ -87,7 +67,7 @@ The Quick Filter provides an easy access to filter data by entering plain text, 
 > [!TIP]
 > Voit aktivoida hakuruudun ja poistaa aktivoinnin painamalla F3-näppäintä. Lisätietoja on kohdassa [Pikanäppäimet](keyboard-shortcuts.md#KeyboardFilter).
 
-## <a name="filtering"></a>Suodattaminen
+## <a name="Filtering"> </a>Suodattaminen
 Suodattaminen sisältää kehittyneitä ja monipuolisia toimintoja, joiden avulla määritetään luettelossa näkyvät tietueet. Hakemisella ja suodattamisella on kaksi pääeroa, jotka kerrotaan alla olevassa taulukossa.
 
 || **Hakeminen** | **Suodattaminen** |
@@ -98,13 +78,14 @@ Suodattaminen sisältää kehittyneitä ja monipuolisia toimintoja, joiden avull
 Suodattaminen mahdollistaa tiettyjen tilien tai asiakkaiden, päivämäärien, summien ja muiden tietojen tietueiden näyttämisen suodatusehtojen määrittämisen avulla. Näyttöön tulevat tällöin vain ne tietueet, jotka vastaavat määritettyjä ehtoja. Jos määrität ehtoja usealle kentälle, vain kaikkia ehtoja vastaavat tietueet näytetään.
 
 ### <a name="working-in-the-filter-pane"></a>Suodatinruudun käsitteleminen
+
+Avaa suodatinruutu valitsemalla ![Suodatinruutukuvake](media/open-filter-pane-icon.png "Suodatinruutukuvake") luettelon yläreunassa tai painamalla näppäinyhdistelmää **Vaihto+F3**. Voit valita roolikeskuksen luetteloissa sivun otsikon lähellä olevan alanuolen luettelon yläpuolella olevassa siirtymispalkissa ja valita sitten **Näytä suodatinruutu**, kuten tässä:
+
+![Näytä suodatinruutu](media/open-filter-pane.png "Näytä suodatinruutu")
+
 Suodatinruudussa näkyvät luettelon nykyiset suodattimet. Sen avulla voi määrittää omia suodattimia yhdelle tai usealle kentälle. Seuraavassa kuvassa on esimerkki myyntitarjousluettelon suodatinruudusta.
 
 ![Suodatinruudun yleiskatsaus ](media/filter-pane-overview.png "Suodatin-kuvake")
-
-Jos haluat näyttää suodatinruudun, käytä **Vaihto+F3**-pikanäppäimiä. Voit valita roolikeskuksen luetteloissa sivun otsikon lähellä olevan alanuolen luettelon yläpuolella olevassa siirtymispalkissa ja valita sitten **Näytä suodatinruutu**.
-
-![Näytä suodatinruutu](media/open-filter-pane.png "Näytä suodatinruutu")
 
 Suodatinruutu on jaettu kolmeen osaan: **Näkymät**, **Luettelon suodatusperuste** ja **Kokonaisarvojen suodatusperuste**:
 
@@ -137,7 +118,7 @@ Nyt voit kirjoittaa tai valita suodatusehdot ruutuun. Suodatettavan kentän tyyp
 Sarakkeet, joilla on jo suodattimia, löytyvät, kun käytössä on sarakeotsikon ![Suodatus-kuvake](media/ui-search/filter-icon.png "Suodatus-kuvake"). Voit poistaa suodattimen valitsemalla sarakeotsikon ja valitsemalla sitten **Tyhjennä suodatin**.
 
 
-### <a name="entering-filter-criteria-without-the-filter-pane"></a>Suodatusehtojen syöttäminen ilman suodatinruutua
+### <a name="entering-filter-criteria-without-using-the-filter-pane"></a>Suodatusehtojen syöttäminen ilman suodatinruutua
 Voit määrittää yksinkertaisia suodattimia suoraan luettelosta ilman suodatinruutua.
 Kun rivillä on valittu mikä tahansa kenttä, voit näyttää vain saman arvon sisältävät tietueet valitsemalla **Alt+F3**-pikanäppäimet. Tämän jälkeen voit valita toisen kentän ja käyttää samoja pikanäppäimiä, kun haluat jatkaa suodattimien tarkentamista. Jos valittu kenttä on jo suodatettu, **Alt+F3** tyhjentää kyseisen suodattimen.
 
@@ -248,7 +229,7 @@ Kun syötät kriteerejä, voit käyttää kaikkia numeroita ja kirjaimia, joita 
 Kun syötät suodatusehtoja, voit kirjoittaa myös sanoja, joilla on erityinen tarkoitus. Niitä kutsutaan suodatuksen tunnuksiksi. Kun olet syöttänyt tunnussanan, sana korvataan arvolla tai arvoilla, joita se edustaa. Tämä helpottaa suodattamista ja vähentää muille sivuille siirtymistä ja suodattimeen lisättävien arvojen etsimistä. Taulukossa on joitakin tunnuksia, joita voit käyttää suodatusehtoina.
 
 > [!TIP]
-> Organisaatio voi käyttää mukautettuja tunnuksia. Järjestelmänvalvojalta saa lisätietoja käytettävissä olevista tunnuksista ja mukautettujen tunnusten lisäämisestä. Teknisiä lisätietoja on kohdassa [Suodatuksen tunnusten lisääminen](/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens)
+> Organisaatio voi käyttää mukautettuja tunnuksia. Järjestelmänvalvojalta saa lisätietoja käytettävissä olevista tunnuksista ja mukautettujen tunnusten lisäämisestä. Teknisiä tietoja on kohdassa [Suodatuksen tunnusten lisääminen](/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens).
 
 
 ### <a name="me-or-userid-records-assigned-to-you"></a>(%me tai %userid) Sinulle määritetyt tietueet

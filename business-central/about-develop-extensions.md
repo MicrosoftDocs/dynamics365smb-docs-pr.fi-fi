@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 796f48a719b30ce54752eb8ab02386f964c2e7b8
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: e8e2b011dc07657198ebf42663bd404b7850834a
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "853138"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "916997"
 ---
 # <a name="extending-included365finincludesd365finmdmd"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] -järjestelmän laajentaminen
 Microsoft [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]on liiketoiminnan hallintaratkaisu, joka auttaa yrityksiä yhdistämään taloushallinnon, myynnin, palvelun ja toiminnot, jotta voitaisiin virtaviivaistaa liiketoimintaprosesseja, parantaa asiakasviestinnän toimintoja ja tehdä parempia päätöksiä. [!INCLUDE[d365fin](includes/d365fin_md.md)]on käytettävissä pilvessä ja käyttäjille useilla erilaisilla laitteilla, ja on aina ajan tasalla. Tämän nykyaikaisen liiketoiminta-alustan avulla voit nopeasti ja helposti mukauttaa, laajentaa ja luoda sovelluksia, jotta ne sopisivat tarpeisiisi – vähäisellä koodilla tai jopa ilman koodia.  

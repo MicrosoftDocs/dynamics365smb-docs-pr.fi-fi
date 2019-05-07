@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: COA, cha of acc
-ms.date: 12/10/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 962f0b81d39e8e79fb7273ee93417b01be8d9e5a
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 8c75a214691b7d9886958866517afbb1d68b6f60
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "796392"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "920699"
 ---
 # <a name="setting-up-or-changing-the-chart-of-accounts"></a>Tilikartan määrittäminen tai muuttaminen
 Tilikartta näyttää ne kirjanpidon tilit, joihin on tallennettu taloustietoja. [!INCLUDE[d365fin](includes/d365fin_md.md)] sisältää tilikartan, joka on valmis tukemaan liiketoimintaasi.
@@ -37,7 +37,7 @@ Voit avata kunkin tilin KP-tilin tilikartasta ja lisätä tai muuttaa asetuksia.
 [Pääkirjanpito ja tilikartta](finance-general-ledger.md)  
 [Pankkitilien hallinta](bank-manage-bank-accounts.md)  
 [Dimensioiden käyttäminen](finance-dimensions.md)  
-[Tietojen tuominen muita talousjärjestelmistä](across-import-data-configuration-packages.md)  
+[Tietojen tuominen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md)  
 [KP-raporttimallien käyttäminen](bi-how-work-account-schedule.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory valuation, costing
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6688b89dc9ef05456bca11fc722514b8bd47b05d
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: dd48be8b92a03d50bc590d579de940599da6aa7e
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "795022"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "941678"
 ---
 # <a name="adjust-item-costs"></a>Nimikekustannusten muuttaminen
 Nimikekustannus (varastoarvo) voi muuttua, kun ostat nimikkeen ja myyt sen myöhemmin, koska rahtikulut lisätään ostohintaan nimikkeen myynnin jälkeen. Kustannusten muuttamisella on merkitystä etenkin tilanteissa, jossa tavaroita myydään ennen tavaroiden oston laskuttamista. Jotta oikea varastoarvo on tiedossa, nimikekustannukset on mukautettava säännöllisesti. Näin varmistetaan, että tuottotilastot ovat ajan tasalla ja talouden avaintunnusluvut ovat oikein. Katso lisätietoja kohdasta [Rakennetiedot: kustannuksen muutos](design-details-cost-adjustment.md).
@@ -28,7 +28,7 @@ Perussäännön mukaan nimikekortin **Yksikkökustannus**-kentässä olevan arvo
 
 Toiminnolla voi myös muuttaa manuaalisesti vähintään yhden nimikkeen kustannuksia. Tämä on kätevää esimerkiksi silloin, kun tiedät, että nimikkeen kustannukset ovat muuttuneet jonkin muun syyn kuin nimiketapahtuman vuoksi.
 
-Nimikkeen kustannuksia muutetaan FIFO- tai Keskiarvo-arvostusmenetelmällä ohjatussa **Määritä oma yritys** -asetusten määrityksessä tai nimikkeen kortin **Arvostusmenetelmä**-kentässä tehdyn valinnan mukaan. Lisätietoja on ohjeaiheessa [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md).  
+Nimikkeen kustannuksia muutetaan FIFO- tai Keskiarvo-arvostusmenetelmällä ohjatussa **Määritä oma yritys** -määrityksessä tai nimikkeen kortin **Arvostusmenetelmä**-kentässä tehdyn valinnan mukaan. Lisätietoja on ohjeaiheessa [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md).  
 
 Jos käytössä on FIFO-arvostusmenetelmä, nimikkeen yksikkökustannus on nimikkeen vastaanoton todellinen arvo. Varastonarvostuksessa käytetään oletusta, että ensin varastoon sijoitetut nimikkeet myydään ensin.
 

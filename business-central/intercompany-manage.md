@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 03/18/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1d707aeec37b3c6c0ee027d0266e9cc386fb5d3a
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 42a02a5ec6a519b43df1b147cd4ba94006bdcae0
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852100"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "913941"
 ---
 # <a name="managing-intercompany-transactions"></a>Konsernitapahtumien hallinta
 Organisaatio saattaa koostua useasta yrityksestä, mutta siinä ei välttämättä ole samaa määrää laskenta- ja hallintotyöryhmiä. Konsernitoimintojen ansiosta liiketoiminta tytäryhtiöiden ja sisäisten kumppaniorganisaatioiden on samanlaista kuin ulkoisten toimittajien ja asiakkaiden kanssa toimiminen. Konsernin tapahtumien tiedot lisätään asianmukaisiin asiakirjoihin vain kerran. Voit käyttää itsellesi tuttua toimintoa, esimerkiksi myyntisaamisten ja ostovelkojen hallintaa. Tilikartan ja dimensioiden linkitystoiminto auttaa varmistamaan, että tiedot näkyvät oikeissa paikoissa.  

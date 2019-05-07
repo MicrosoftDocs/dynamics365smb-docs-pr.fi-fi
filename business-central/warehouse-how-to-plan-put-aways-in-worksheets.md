@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e0674c0c308cd83de8a6977e05445c22009f513c
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 3bf24a32ba4a411ada744092d594b874c0154588
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "795156"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "930799"
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Hyllytysten suunnitteleminen työkirjoissa
 Jos sijainnissa on määritetty sekä hyllytyksen että vastaanoton käsittely pakolliseksi ja haluat suunnitella hyllytysohjeita useille vastaanotoille – sen asemesta, että työntekijät noudattaisivat ohjelman luomia ohjeita erillisille kirjatuille vastaanotoille – voit käyttää hyllytystyökirjaa.  
@@ -58,7 +58,7 @@ Jos et valitse tätä kenttää, ohjelma luo automaattisesti hyllytysohjeita vas
 
     -   Hyllytyksen voi määritellä tietylle työntekijälle.  
     -   Hyllytysohjerivit voidaan lajitella samoin kuin työkirjassa tai varastopaikan luokittelun mukaan. Kun järjestelet varastopaikan luokittelun mukaisesti, Ota-rivit tulevat ensimmäisiksi, koska useimmilla vastaanoton varastopaikoille on varastopaikan luokittelu 0, ja Aseta-rivit tulevat viimeisiksi alkaen varastopaikoista, joilla on alin varastopaikan luokittelu. Jos olet järjestänyt fyysisen varaston niin, että samanlaisen varastopaikan luokittelun varastopaikat ovat vierekkäin, rivien järjesteleminen tällä tavalla säästää lopulta työvaiheita varaston työntekijöiltä.  
-    -   Voit valita, että ohjeessa eivät näy välissä olevia rivejä, jotka luotiin ohjelman erotellessa suuremman mittayksikön pienemmiksi mittayksiköiksi (lisää rasti **Aseta erottelusuodatin** -kenttään). Lisätietoja on kohdassa [Irtotavaran ohjatulla hyllytyksellä ja poiminnalla tapahtuvan automaattisen erottelun ottaminen käyttöön](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md).  
+    -   Voit valita, että ohjeessa eivät näy välissä olevia rivejä, jotka luotiin ohjelman erotellessa suuremman mittayksikön pienemmiksi mittayksiköiksi (lisää rasti **Aseta erottelusuodatin** -kenttään). Lisätietoja on kohdassa [Irtotavaran ohjatulla hyllytyksellä ja poiminnalla tapahtuvan automaattisen erottelun ottaminen käyttöön](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md)  
     -   Voit valita, että ohjelma ei täytä automaattisesti hyllytysohjeiden **Käsiteltävä määrä** -kenttää.  
     -   Voit tulostaa asiakirjan heti.  
 

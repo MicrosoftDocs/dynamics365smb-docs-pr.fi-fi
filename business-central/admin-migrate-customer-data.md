@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 4dae4dbfc06b5040eba09df94fe13e7fce7b1940
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 3a3e42d9468c9f1a8d23afd8284e210fa7145c3c
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "794957"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "953508"
 ---
 # <a name="migrate-customer-data"></a>Asiakastietojen siirtäminen
 Voit siirtää aiemmin luodun asiakkaan tiedot aiemmin luodusta ERP-järjestelmästä [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmaan RapidStart Services -palvelun tietojen siirto-työkalujen avulla. Voit käyttää Excel-tiedostoja tiedonkuljettajana. Voit siirtää tiedot manuaalisesti kirjoittamalla ne suoraan yrityksen.
@@ -101,7 +101,7 @@ Seuraavissa toimenpiteissä sinun tulisi tarkastaa ennalta mitkä arvot haluat s
 5. Kirjoita **Vanha arvo** -kenttään arvo, jota haluat muuttaa. Kirjoita **Uusi arvo** -kenttään arvo, joksi haluat muuttaa vanhan arvon. Valitse **OK**-painike.  
 6. Tuo asiakkaan tiedot. Lisätietoja on kohdassa [Asiakastietojen tuominen](admin-migrate-customer-data.md#to-import-customer-data).
 7. Katso onko **Pakettivirheiden määrä** -kentässä ilmoitettu virheitä. Jos niitä on, poraudu alaspäin, jotta saat virheet näkyviin. **Määritä pakettitietueet** -sivu avautuu.
-8. Valitse **Näytä virhe** -toiminto. Näyttöön avautuu seuraava virhe: **<option> ei ole kelvollinen vaihtoehto. Kelvolliset vaihtoehdot ovat <valid option list>**. Valitse **OK**-painike.  
+8. Valitse **Näytä virhe** -toiminto. Näyttöön avautuu seuraava virhe: **XX ei ole kelvollinen vaihtoehto. Kelvolliset vaihtoehdot ovat XX**. Valitse **OK**-painike.  
 9. Voit ottaa määrittämäsi yhdistämismäärityksen käyttöön valitsemalla **Käytä tietoja** -toiminnon.  
 
 ### <a name="mapping-example"></a>Yhistämismäärityksen esimerkki  
@@ -153,7 +153,11 @@ Kun asiakkaan tiedot on syötetty siirron tiedostoihin Excelissä, voit tuoda ti
 
 1. Avaa **Määritä pakettikortti** -sivu.
 2. Valitse taulukko, johon haluat tuoda tiedot, ja valitse sitten **Taulukot**-välilehden **Tuo Excelistä** -toiminto.
-3. Etsi ja avaa tiedosto, josta haluat tuoda tiedot [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmaan.
+3. Etsi ja avaa tiedosto, josta haluat tuoda tietoja.
+4. Tarkista tuotavat tiedot **Määrityspaketin tuonnin esikatselu** -sivulla.
+
+    **Määrityspaketin tuonnin esikatselu** -sivulla on yleiskatsaus tuotavan Excel-tiedoston sisällöstä. Se ilmaisee myös, onko määrityspaketti juuri luotu vai onko se päivitetty ja onko määrityspaketin rivit (taulukot) luotu vai aiemmin luodut rivit päivitetty.    
+5. Valitse **Tuo**-toiminto.
 
 Tiedoston tiedot on tuotu määrityspakettitaulukoihin. **Tietokantatietueiden määrä** -kentässä näet tuotujen tietueiden määrän. Lisäksi voit katsella siirtovirheitä.
 

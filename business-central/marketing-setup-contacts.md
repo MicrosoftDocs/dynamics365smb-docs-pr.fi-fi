@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 02/26/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 71c48a677dbc684978271e19d67409dc07143f9d
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: d337da227214c88b8358eb07261f18443d9c5d93
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "795255"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "918145"
 ---
-# <a name="setting-up-contacts"></a>Kontaktien määrittäminen
+# <a name="set-up-contacts"></a>Kontaktien määrittäminen
 Voit antaa kontaktien luomisen yhteydessä tietoja, kuten toimialan, johon kontakti kuuluu, sekä liikesuhteesi kontakteihin.
 
 Ennen kontaktien luomista ja liikesuhteiden tietojen tallentamista on määritettävä koodit, joiden avulla tiedot liitetään kontaktin yrityksiin ja henkilöihin. Koodit voidaan määrittää postitusryhmille, toimialaryhmille, liikesuhteille, verkkolähteille, organisatorisille tasoille ja vastuualueille. Voit määrittää nämä valitsemalla **Uusi**-toiminnon, kun valitse luetteloita kontaktikortissa.  
@@ -151,10 +151,10 @@ Kontaktin kortti voidaan synkronoida linkitetyn asiakkaan, toimittajan tai pankk
 
 Lisätietoja on kohdassa [Kontaktien synkronoiminen asiakkaiden, toimittajien ja pankkitilien kanssa](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-and-bank-accounts).
 
-## <a name="searching-for-duplicate-contacts-when-contacts-are-created"></a>Kontaktien kopioiden etsiminen kontakteja luotaessa
-Voit valita, että ohjelma hakee kopioita automaattisesti aina kun luot kontaktiyrityksen; tai voit valita, että haet kopioita manuaalisesti kontaktien luomisen jälkeen. Voit myös valita, että ohjelma päivittää hakumerkkijonot automaattisesti aina kun muutat kontaktin tietoja tai luot uuden kontaktin. Voit päättää Haun osuma-%:in, siis sen identtisten merkkijonojen prosenttiosuuden, joka kahdella kontaktilla täytyy olla, jotta ohjelma tulkitsee ne kopioiksi.
+## <a name="searching-for-duplicate-contacts"></a>Kontaktien kaksoiskappaleiden hakeminen
+Voit valita, että ohjelma hakee kaksoiskappaleita automaattisesti aina, kun luot kontaktin. Vaihtoehtoisesti voit valita, että haet kaksoiskappaleetmanuaalisesti kontaktien luomisen jälkeen. Voit myös valita, että ohjelma päivittää hakumerkkijonot automaattisesti aina kun muutat kontaktin tietoja tai luot uuden kontaktin. Voit päättää Haun osuma-%:in, siis sen identtisten merkkijonojen prosenttiosuuden, joka kahdella kontaktilla täytyy olla, jotta ohjelma tulkitsee ne kopioiksi. Tämä määritetään **Kontaktienhallinnan asetukset** -sivun **Kopiot**-pikavälilehdessä.
 
-Tämä määritetään **Kontaktienhallinnan asetukset** -sivun **Kopiot**-pikavälilehdessä.
+Jos löydät kontaktin kaksoiskappaleen, voit yhdistää sen säilytettävään kontaktitietueeseen **Yhdistä kaksoiskappale** -sivulla. Lisätietoja on kohdassa [Tietueiden kaksoiskappaleiden yhdistäminen](sales-how-merge-duplicate-records.md).
 
 ## <a name="see-also"></a>Katso myös
 [Kontaktien hallinta](marketing-contacts.md)  

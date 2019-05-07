@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 26fe722a863ada2bcd017e2bc614b976a7119a25
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: f51de349c4b13eaabd185cdb728d59006dfe6db6
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "795063"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "916372"
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Yritystietojen ottaminen käyttöön Power BI:tä varten
 Lisätietojen hakeminen [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietoihin on helppoa Power BI- ja [!INCLUDE[d365fin](includes/d365fin_md.md)] -sisältöpakettien avulla. Power BI hakee tiedot ja muodostaa näiden tietojen perusteella valmiin koontinäytön ja raportit.  
@@ -75,26 +75,26 @@ Jos haluat tuoda [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]in tiet
 - Excel-malli Näytä yritys
 - Power BI -raporttien selitteet
 
-**Microsoft Dynamics 365 Business Central – rahoitus**
+**Microsoft Dynamics 365 Business Central – Finance**
 - PowerBIFinance
 - Excel-malli Näytä yritys
 - Power BI -raporttien selitteet
 
-**Microsoft Dynamics 365 Business Central – työt**
+**Microsoft Dynamics 365 Business Central – Jobs**
 - Projektiluettelo
 - Projektin suunnittelurivit
 - Projektitehtävärivit
 - Power BI -raporttien selitteet
 - Excel-malli Näytä yritys
 
-**Microsoft Dynamics 365 Business Central – myynti**
+**Microsoft Dynamics 365 Business Central – Sales**
 - Myynnin koontinäyttö
 - Excel-malli Näytä yritys
 - Power BI -raporttien selitteet
 
 ## <a name="list-page-reports"></a>Luettelosivun raportit
 
-**Microsoft Dynamics 365 Business Central – asiakasluettelo**
+**Microsoft Dynamics 365 Business Central – Customers List**
 - Asiakaskohtainen nimikemyynti
 - Power BI -nimikkeiden ostoluettelo
 - Power BI -nimikkeiden myyntiluettelo
@@ -103,13 +103,13 @@ Jos haluat tuoda [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]in tiet
 - ExcelTemplateViewCompany
 - Power BI -raporttien selitteet
 
-**Microsoft Dynamics 365 Business Central – kirjanpitotapahtumien luettelo**
+**Microsoft Dynamics 365 Business Central – General Ledger Entries List**
 - Power BI -PK-summaluettelo
 - Power BI -PK-budjettisumma
 - ExcelTemplateViewCompany
 - Power BI -raporttien selitteet
 
-**Microsoft Dynamics 365 Business Central – nimikeluettelo**
+**Microsoft Dynamics 365 Business Central – Items List**
 - Asiakaskohtainen nimikemyynti
 - Power BI -nimikkeiden ostoluettelo
 - Power BI -nimikkeiden myyntiluettelo
@@ -117,23 +117,23 @@ Jos haluat tuoda [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]in tiet
 - ExcelTemplateViewCompany
 - Power BI -raporttien selitteet
 
-**Microsoft Dynamics 365 Business Central – projektiluettelo**
+**Microsoft Dynamics 365 Business Central – Jobs List**
 - Power BI -projektiluettelo
 - ExcelTemplateViewCompany
 - Power BI -raporttien selitteet
 
-**Microsoft Dynamics 365 Business Central – ostolaskuluettelo**
+**Microsoft Dynamics 365 Business Central – Purchase Invoices List**
 - Power BI -ostoluettelo
 - ExcelTemplateViewCompany
 - Power BI -raporttien selitteet
 
-**Microsoft Dynamics 365 Business Central – myyntitilausluettelo**
+**Microsoft Dynamics 365 Business Central – Sales Orders List**
 - Power BI -myyntiluettelo
 - ExcelTemplateViewCompany
 - Power BI -raporttien selitteet
 
 
-**Microsoft Dynamics 365 Business Central – toimittajaluettelo**
+**Microsoft Dynamics 365 Business Central – Vendors List**
 - Power BI -nimikkeiden ostoluettelo
 - Power BI -nimikkeiden myyntiluettelo
 - Power BI -toimittajaluettelo

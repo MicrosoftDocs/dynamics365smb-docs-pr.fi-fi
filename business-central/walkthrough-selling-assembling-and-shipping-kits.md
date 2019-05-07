@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/31/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 4cbefdb46c6ba09dad64650123d6459135aa7afe
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: b717de6bcefc774b3fb92ed440cde9f3597f34ce
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852698"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "929743"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Vaihekuvaus: pakettien myynti, kokoaminen ja toimitus
 
@@ -106,7 +106,7 @@ Poista sisäisten prosessien oletusläpimenoaika seuraavasti:
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tuotannon asetukset** ja valitse sitten liittyvä linkki.  
 2.  Poista **Tuotannon asetukset** -sivun **Suunnittelu**-pikavälilehden **Oletus toimitusajan varmistus** -kentän arvo.  
 
-Luo kokoonpanon komponenttien varasto kohdan [Esimerkkitietojen valmisteleminen](walkthrough-selling-assembling-and-shipping-kits.md#setting-up-the-sample-data) mukaisesti.  
+Luo kokoonpanon komponenttien varasto kohdan [Esimerkkitietojen valmisteleminen](walkthrough-selling-assembling-and-shipping-kits.md#prepare-sample-data) mukaisesti.  
 
 ## <a name="story"></a>Taustatietoja  
 23. tammikuuta myyntitilausten käsittelijä Sanna ottaa Laitekauppa-yritykseltä tilauksen kolmesta tuotepaketti B:stä, joka on ATO-nimike. Kaikki kolme yksikköä on mukautettu, ja niissä on oltava tehokas grafiikkakorttti ja ylimääräistä RAM-muistia. Levyasemat päivitetään DVD-asemiksi, koska CD-asemia ei ole saatavilla. Sanna tietää, että yksiköt voidaan koota heti, joten hän jättää ehdotetuksi toimituspäiväksi tammikuun 23. päivän.  

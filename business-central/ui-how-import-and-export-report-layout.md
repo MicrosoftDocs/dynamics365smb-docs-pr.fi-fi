@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 1705942e9fa2b3b24f14187c0c70db44d31f313c
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 691a8af0a6b3646cc4cf6129fa99a9231bfd2324
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "853046"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "913013"
 ---
 # <a name="import-and-export-a-report-or-document-layout"></a>Raporttien tai asiakirjojen asettelun tuonti ja vienti
 Voit tuoda ja viedä olemassa olevan mukautetun raporttiasettelun tiedostona tietokoneen tai verkon sijainnista ja sijaintiin. Voit esimerkiksi viedä raporttiasettelun ja lähettää sitten tiedoston toiselle henkilölle muokkausta varten. Kyseinen henkilö voi tehdä muutoksia asetteluun ja palauttaa tiedoston sinulle, jotta voit tuoda sen takaisin.  

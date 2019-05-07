@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: SorenGP
-ms.openlocfilehash: 8e4033412560e8dc847397c4399e12985490bf78
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 038e3a9bfdb66a8d714f4f9452f0322623e6ddc4
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "794947"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "934325"
 ---
 # <a name="setting-up-inventory"></a>Varaston määrittäminen
 Ennen varastoaktiviteettien ja varaston arvostuksen hallinnan aloittamista on määritettävä yrityksen varastonhallintakäytäntöjen säännöt ja arvot.
@@ -32,10 +32,11 @@ Kun olet määrittänyt varaston, voit hallita nimiketapahtumien liittyviä eril
 |Määritä tehokas jakelumallin, joka sisältää liikekumppaneille tai työntekijöille määritetyn eri sijaintien ja vastuupaikkojen yhdistelmän.|[Vastuupaikkojen käyttäminen](inventory-responsibility-centers.md)|
 | Järjestele varastonhallinta usealle sijainnille, mukaan lukien siirtoreitit. |[Sijaintien määrittäminen](inventory-how-register-new-items.md) |
 | Luo nimikkeen kortteja varasto- tai huoltonimikkeille tai muille kuin varastonimikkeille, joilla käyt kauppaa. |[Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md) |
-|Lisätietoja **Tyyppi**-kentän täyttämisestä nimikkeen korteissa liiketoiminnan tarkoituksen mukaan.|[Tietoja nimiketyypeistä](inventory-about-item-types.md)| 
+|Lisätietoja **Tyyppi**-kentän täyttämisestä nimikkeen korteissa liiketoiminnan tarkoituksen mukaan.|[Tietoja nimiketyypeistä](inventory-about-item-types.md)|
 |Määritä nimikkeelle useita vaihtoehtoisia mittayksiköitä, joita voit esimerkiksi myynti-, osto- tai tuotantotapahtumissa.|[Nimikkeen mittayksiköiden määrittäminen](inventory-how-setup-units-of-measure.md)|
 |Täydennä nimike kortteja tallentamalla niihin tietoja nimikkeestä tietyn sijainnin ja/tai tietyn varianttikoodin perusteella.|[Varastointiyksiköiden määrittäminen](inventory-how-to-set-up-stockkeeping-units.md)|
 | Kun määrität nimikkeitä luokkiin ja annat niille määritteitä, nimikkeiden etsiminen helpottuu. |[Nimikkeiden luokitteleminen](inventory-how-categorize-items.md) |
+|Tuo useita nimikekuvia samalla kerralla zip-tiedostosta, jossa tiedostot on nimetty nimikenumeroiden mukaan.|[Useiden nimikekuvien tuominen](inventory-how-import-item-pictures.md)|
 
 ## <a name="see-also"></a>Katso myös
 [Varaston hallinta](inventory-manage-inventory.md)  

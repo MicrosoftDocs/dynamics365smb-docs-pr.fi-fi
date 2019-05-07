@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, bank, formats
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: f7efca344ade972c74bf37a52d30f72fa4740624
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: bc93fe469eea824be20942033db0959f8fe643c8
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "796218"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "930187"
 ---
 # <a name="the-tax-file-formats-dk-extension"></a>Verotiedostomuotojen (DK) laajennus
 Jos käyt kauppaa muissa EU-maissa sijaitsevien yritysten, sivuliikkeiden tai tytäryhtiöiden kanssa, niitä koskevien aktiviteettien tiedot on ilmoitettava SKAT- ja Danmarks Statistik -virastoihin. Jos käytät [!INCLUDE[d365fin](includes/d365fin_md.md)]in ALV- ja Intrastat-raportointiominaisuuksia, laajennus varmistaa, että vietävä tiedosto vastaa kyseisten organisaatioiden vaatimuksia. Laajennus lisää MS-ECSL-raportin vientitiedoston ja Intrastat-vientirivien lähetyksen koodiyksiköt ALV-raporttimäärityksiin, joten voit viedä tiedot uudessa muodossa heti.

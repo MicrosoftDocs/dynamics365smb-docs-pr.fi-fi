@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c8f8620d21b9e2187e968d4015fd0f12446d30c9
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 9f388b788e8788049ee30567972090984063cad1
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "796121"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "930353"
 ---
 # <a name="register-new-vendors"></a>Uusien toimittajien rekisteröiminen
 Toimittajat tarjoavat tuotteita, jotka myydään. Jokainen toimittaja, jolta ostat, täytyy rekisteröidä toimittajakorttina.
@@ -54,6 +54,7 @@ Jos haluat käyttää tätä toimittajan korttia mallina, kun luot uusia toimitt
    Toimittajamalli lisätään toimittajamallien luetteloon niin, että sen avulla voit luoda uusia toimittajan kortteja.
 
 ## <a name="see-also"></a>Katso myös
+[Tietueiden kaksoiskappaleiden yhdistäminen](sales-how-merge-duplicate-records.md)  
 [Numerosarjojen luominen](ui-create-number-series.md)  
 [Osto](purchasing-manage-purchasing.md)  
 [Ostojen kirjaus](purchasing-how-record-purchases.md)   

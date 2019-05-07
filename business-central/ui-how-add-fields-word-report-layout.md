@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/22/2018
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 5293b5298a2084c8cd36ae4dcc60beda75f5014e
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 5af662dcef893c04ea83f7051c63c53ec5d1e783
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "796227"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "933930"
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Kenttien lisääminen Word-raporttiasetteluun
 Raportin tietojoukko voi sisältää kenttiä, joissa näkyvät otsikot, tiedot ja kuvat. Tässä ohjeaiheessa käsitellään raportin tietojoukon kenttien lisääminen olemassa olevaan raportin Word-raporttiasetteluun. Lisäät kenttiä käyttämällä raportille mukautettua XML-osaa ja lisäämällä sisällön ohjausobjekteja, jotka on yhdistetty raportin tietojoukon kenttiin. Kenttien lisääminen edellyttää, että tunnet jonkin raportin tietojoukon niin, että voit tunnistaa kentät, jotka haluat lisätä asetteluun.  
@@ -37,11 +37,11 @@ Raportin tietojoukko voi sisältää kenttiä, joissa näkyvät otsikot, tiedot 
   
 3.  Valitse **Kehittäjä**-välilehdellä **XML-yhdistäminen-ruutu**.  
   
-4.  Valitse **XML-yhdistäminen**-ruudun avattavassa **Mukautettu XML-osa** -luettelossa tavallisesti luettelon viimeisenä oleva <!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]-->in raportin mukautettu XML-osa. Mukautetun XML-osan nimen muoto on seuraava:  
+4.  Valitse avattavan **Mukautettu XML-osa** -luettelon **XML-yhdistäminen**-ruudussa mukautettu XML-osa ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> -raporttiin. Tämä raportti on yleensä luettelossa viimeisenä. Mukautetun XML-osan nimen muoto on seuraava:  
   
      urn:microsoft-dynamics-nav/reports/*report_name*/*ID*  
   
-     *report_name* on raportille määritetty nimi<!--OnPrem as specified by the report's [Name Property-duplicate](../FullExperience/nav_dev_long_md.md)]-->.  
+     *report_name* on raportille määritetty nimi.<!--OnPrem as specified by the report's [Name Property-duplicate](../FullExperience/nav_dev_long_md.md)]-->.  
   
      *ID* on raportin tunnusnumero.  
   
@@ -80,7 +80,7 @@ Raportin tietojoukko voi sisältää kenttiä, joissa näkyvät otsikot, tiedot 
  Kuvat kohdistuvat automaattisesti sisällön hallinnan vasempaan yläkulmaan ja niiden koko muuttuu automaattisesti vastaamaan sisällön hallinnan rajoja.  
   
 > [!IMPORTANT]  
->  Voit lisätä vain kuvia, joiden muotoa Word tukee (esimerkiksi .bmp-, .png- ja .jpeg-tiedostotyypit). Jos lisäät sellaisen kuvan, jota Word ei tue, näyttöön avautuu virhesanoma, kun suoritat raportin <!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]-->in asiakasohjelmasta.  
+>  Voit lisätä vain kuvia, joiden muotoa Word tukee (esimerkiksi .bmp-, .png- ja .jpeg-tiedostotyypit). Jos lisäät sellaisen kuvan, jota Word ei tue, näyttöön avautuu virhesanoma, kun suoritat raportin ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> -asiakasohjelmasta.  
   
 #### <a name="to-add-an-image"></a>Kuvan lisääminen  
   
@@ -109,7 +109,7 @@ Seuraavassa taulukossa on yksinkertaistettu yhteenveto mukautetun XML-osan XML-k
 ### <a name="custom-xml-part-in-word"></a>Mukautettu XML-osa Wordissa  
  Word -ohjelmassa mukautettu XML-osa avataan **XML-yhdistäminen**-ruudussa ja elementit yhdistetään ruudun avulla Word-asiakirjassa. **XML-yhdistäminen**-ruutua voi käyttää **Kehitystyökalut**-välilehdessä. (Lisätietoja on kohdassa [Valintanauhan Kehitystyökalut-välilehden näyttäminen](https://go.microsoft.com/fwlink/?LinkID=389631)).  
   
- **XML-yhdistäminen**-ruudun elementit näkyvät rakenteessa, joka vastaa XML-lähdettä. Otsikkokentät ryhmitellään yleisen **Otsikot**-elementin alle, tietokohteet ja sarakkeet järjestetään hierarkkiseen rakenteeseen, joka vastaa XML-tietolähdettä ja sarakkeet ovat aakkosjärjestyksessä. Elementit tunnistetaan nimen perusteella. Tämän nimen määrittää <!--[!INCLUDE[nav_dev_short](../../includes/nav_dev_short_md.md)]-->in raportin tietojoukon suunnittelutoiminnon nimiominaisuus.  
+ **XML-yhdistäminen**-ruudun elementit näkyvät rakenteessa, joka vastaa XML-lähdettä. Otsikkokentät ryhmitellään yleisen **Otsikot**-elementin alle, tietokohteet ja sarakkeet järjestetään hierarkkiseen rakenteeseen, joka vastaa XML-tietolähdettä ja sarakkeet ovat aakkosjärjestyksessä. Elementit tunnistetaan nimen perusteella. Tämän nimen määrittää ADD INCLUDE -raportin raportin tietojoukon suunnittelutoiminnon nimiominaisuus.<!--[!INCLUDE[nav_dev_short](../../includes/nav_dev_short_md.md)]-->.  
   
  Seuraavassa kuvassa on yksinkertainen mukautettu XML-osa edellisestä osasta Word-asiakirjan **XML-yhdistäminen**-ruudusta.  
   

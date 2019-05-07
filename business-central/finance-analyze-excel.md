@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: acd894ede7ad497311a793fb7153333a9a35e1cb
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: b816d7ff9f8446aa81746b980fd47b3b531e1396
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "795764"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "913800"
 ---
 # <a name="analyzing-financial-statements-in-microsoft-excel"></a>Rahoituslaskelmien analysointi Microsoft Excelissä
 Voit tarkastella [!INCLUDE[d365fin](includes/d365fin_md.md)]issa tunnuslukuja ja saada yleiskuvan yrityksen taloustilanteesta. Voit myös avata luettelot Excelissä tietojen analysointia varten. Voit lisäksi vielä raskaita raportteja, kuten taseita ja tuloslaskelmia, Exceliin, analysoida tietoja ja tulostaa raportit.  

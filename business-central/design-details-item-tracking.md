@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/12/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1dce0ea658a2083c3d896fe6324751f63aabce06
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 344c3162ce7f84aa61f9e572f3245d9515cbd81b
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "795157"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "925205"
 ---
 # <a name="design-details-item-tracking"></a>Rakennetiedot: nimikkeen seuranta
 Kun päivän tarjontaketjun tavaravirta monimutkaistuu, nimikkeiden seuraamisesta tulee osallistuville yrityksille tärkeämpää. Nimikkeen tapahtuman virtauksen valvonta on lakisääteinen vaatimus lääketieteellisessä ja kemiallisessa tarjonnassa, mutta muut yritykset saattavat haluta valvoa tuotteita, joilla on takuut tai vanhenemispäivämäärät asiakaspalvelun vuoksi.  

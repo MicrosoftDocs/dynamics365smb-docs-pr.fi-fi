@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 70ab7fb07cda5ce9d86b3f39dd14321829e85a52
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: d04f78b31b9fb0403201cb9e5cb1f98f1ef935e1
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "795982"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "937579"
 ---
 # <a name="tell-me-faq"></a>Kerro, mitä haluat tehdä -toiminnon usein kysytyt kysymykset
 Tässä ohjeaiheessa vastataan kysymyksiin, joita edistyneet käyttäjät usein esittävät uudesta Kerro, mitä haluat tehdä -toiminnosta. Se korvasi aiemman sivun hakutoiminnon, jonka nimi on **Etsi sivut ja raportit**.
@@ -33,7 +33,7 @@ Kerro, mitä haluat tehdä -toiminto kerää laajennusten toiminnot, sivut ja ra
 Sivuhaku on kehittynyt Kerro, mitä haluat tehdä -toiminnoksi, jonka avulla työskentely on nopeampaa. Sivuhaku auttoi vain sivuihin ja raportteihin siirtymisessä. Teknisesti ottaen Kerro, mitä haluat tehdä ei enää perustu MenuSuite-käsitteeseen.
 
 ### <a name="i-use-on-premises-included365finincludesd365finmdmd-does-that-include-tell-me"></a>Käytän paikallista [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovellusta. Sisältääkö se Kerro, mitä haluat tehdä -toiminnon?
-Voit käyttää Kerro, mitä haluat tehdä -toimintoa paikallisesti WWW-asiakasohjelmassa, kun haluat etsiä toimintoja, sivuja ja raportteja. Dokumenttien etsimisessä toimintoa ei voi käyttää. Kun käyttäjät muodostavat yhteyden [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksesta Dynamics NAV -asiakasohjelmaan, käytössä on yhä sivuhaku.
+Voit käyttää Kerro, mitä haluat tehdä -toimintoa paikallisesti verkkoasiakasohjelmassa, kun haluat etsiä toimintoja, sivuja ja raportteja. Ohjeistusta tai sovelluksia ja konsultointipalveluja ei kuitenkaan voi etsiä sen avulla AppSourcessa. Kun käyttäjät muodostavat yhteyden [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksesta Dynamics NAV -asiakasohjelmaan, käytössä on yhä sivuhaku.
 
 ### <a name="is-tell-me-available-for-all-form-factors"></a>Onko Kerro, mitä haluat tehdä -toiminto käytettävissä kaikissa laitemuodoissa?
 Kerro, mitä haluat tehdä -toiminto on käytettävissä vain WWW-asiakasohjelmassa ja Windows-työpöytäsovelluksessa.

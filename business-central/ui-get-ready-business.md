@@ -9,39 +9,26 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: solsen
-ms.openlocfilehash: 44d81c85b1519c3c916a4e6509121afda5b4d5a2
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 73fb2daa84bc34d0fd865e2b95d5ea6dea11336c
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "795041"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "923787"
 ---
 # <a name="getting-ready-for-doing-business"></a>Valmistautuminen liiketoimintaan
 Olet juuri aloittanut ensimmäisen yrityksen [!INCLUDE[d365fin](includes/d365fin_md.md)]issa.
 
 Pääset liiketoiminnassa alkuun tutustumalla **Liiketoiminnan tuki** -sivuun, jossa voit käynnistää avustettuja asennusoppaita, videoita tai valittujen asennustehtävien ohjeaiheita. Voit avata sivun **Liiketoimintajohtaja**-roolikeskuksen kaaviosta valitsemalla avattavassa **Liiketoiminnan tuki** -luettelossa **Näytä määritys- ja ohjeresurssit** -toiminnon. Kun päivität sivun, asennus- ja ohjeresurssit näkyvät kaavion tilalla.
 
-Roolikeskuksen siirtymispalkin alareunassa on **Asennus ja laajennukset** -valikko. Ruudussa on luettelo avustetuista asennuksista, joiden avulla pääset alkuun. Kun olet siirtänyt olemassa olevasta taloustietojen järjestelmästä tiedot, kuten toimittajat, asiakkaat ja nimikkeet, olet valmis aloittamaan. Voit käyttää tarvittaessa myös toista avustettua asennusta. Jos alueella ei ole asetuksen ohjattua määritystä, valitse **Manuaalinen asennus** -toiminto. Pääset tällä tavoin sivuille, joissa voit täyttää kaikkien alueiden asennuskentät manuaalisesti. Lisätietoja on myös kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittäminen](setup.md)
+Roolikeskuksen siirtymispalkin alareunassa on **Asennus ja laajennukset** -valikko. Ruudussa on luettelo asetusten ohjatun määrityksen oppaista, joiden avulla pääset alkuun. Kun olet siirtänyt olemassa olevasta taloustietojen järjestelmästä tiedot, kuten toimittajat, asiakkaat ja nimikkeet, olet valmis aloittamaan. Voit käyttää tarvittaessa myös toista avustettua asennusta. Jos alueella ei ole asetuksen ohjattua määritystä, valitse **Manuaalinen asennus** -toiminto. Pääset tällä tavoin sivuille, joissa voit täyttää kaikkien alueiden asennuskentät manuaalisesti. Lisätietoja on myös kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittäminen](setup.md)
 
 > [!NOTE]  
->   Käytettävissä olevien asennusoppaiden, laajennusten ja palvelujen luettelo vaihtelee yritykselle valitun käyttäjäkokemuksen mukaan. **Essential**-kokemuksen valikoima on suppeampi kuin **Premium**-kokemuksen valikoima. Ensimmäisellä kirjautumiskerralla käytössä on Essential-kokemus. Lisätietoja on kohdassa [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md).
+>   Käytettävissä olevien asetusten ohjattujen määritysoppaiden, laajennusten ja palvelujen luettelo vaihtelee yritykselle valitun käyttäjäkokemuksen mukaan. **Essential**-kokemuksen valikoima on suppeampi kuin **Premium**-kokemuksen valikoima. Ensimmäisellä kirjautumiskerralla käytössä on **Essential**-kokemus. Lisätietoja on kohdassa [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md).
 
-**Asetusten ohjattu määritys** -sivulla on seuraava **Essential**-kokemus:
-
-| Asetusten ohjattu määritys | Description |
-| --- | --- |
-| Määritä oma yritys |Luo uuden kokeiluyrityksen, jossa voit antaa tietoja ja kokeilla [!INCLUDE[d365fin](includes/d365fin_md.md)]ia. Jos kävit läpi Käytön aloittaminen -esittelyn, tämä on luultavasti jo **valmis**. |
-| Siirrä yritystiedot |Tämän avulla voit tuoda aiemmin luodut yritystiedot, kuten toimittajat, asiakkaat ja nimikkeet, Excel- tai Quickbooks-ohjelmasta. |
-| Arvonlisäveron määrittäminen |Tämän avulla voit aloittaa niiden veroryhmien käsittelemisen ja veroaluekoodien määrittämisen, jotka asiakkaille ja toimittajille määritetään myynti- ja ostoasiakirjojen arvonlisäveron automaattista laskemista varten. |
-| Määritä sähköposti |Tämän avulla voit lähettää sähköpostiviestejä suoraan esimerkiksi [!INCLUDE[d365fin](includes/d365fin_md.md)]in myyntitilauksista tai yhteyshenkilöistä. |
-| Määritä Officen apuohjelmat |Määrittää [!INCLUDE[d365fin](includes/d365fin_md.md)]in käytettäväksi ja käynnistettäväksi Outlookista. |
-| Määritä hyväksymistyönkulku |Määrittää järjestelmän automaattisesti ilmoittamaan hyväksyjälle, milloin käyttäjä yrittää luoda tai muokata asiakirjojen tiettyjä arvoja (kuten tietyn rajan ylittävää summaa), päiväkirjan rivejä tai kortteja. |
-| Määritä sähköpostin lokiinkirjaus |Määrittää sähköpostikirjeenvaihdon kirjaamisen [!INCLUDE[d365fin](includes/d365fin_md.md)]issa vuorovaikutusten seuraamista varten. |
-| Business Central Connectorin määrittäminen |Määrittää yhteyden Dynamics 365 for Salesiin. Yhteyden avulla voit synkronoida tiedot, kuten yhteyshenkilöiden ja myyntitilausten tiedot. |
-
-Kun olet suorittanut avustetun asennuksen, sen tilaksi merkitään **Valmis**. Voit suorittaa avustetun asennuksen valitsemalla kolme pistettä, joita kutsutaan myös pikavalikoksi, ja valitsemalla sitten **Käynnistä asennus**.
+Kun olet suorittanut asetusten ohjatun määrityksen, sen tilaksi merkitään **Valmis**. Voit suorittaa asetusten ohjatun määrityksen valitsemalla kolme pistettä, joita kutsutaan myös pikavalikoksi, ja valitsemalla sitten **Käynnistä asennus**.
 
 ## <a name="role-center"></a>Roolikeskus
 Saat roolikeskuksessa yleiskuvan liiketoiminnastasi. Vasemmalla olevan siirtymispalkin avulla voit helposti käsitellä asiakkaita, toimittajia, nimikkeitä jne. Keskellä ovat **toimenpideruudut**. **Toimenpiteet** esittävät nykyiset tiedot. Valitun asiakirjan saa helposti käyttöön toimenpiteitä napsauttamalla tai napauttamalla. **Suorituskykyilmaisimet** voidaan määrittää niin, että ne näyttävät visuaalisesti esimerkiksi kassavirran tai tuottojen ja kulujen valitun kaavion. Voit luoda roolikeskuksessa myös **suosikkiasiakkaiden** luettelon niitä asiakkaita varten, joiden kanssa käyt kauppaa usein tai jotka vaativat erityishuomiota.
@@ -57,7 +44,7 @@ Voit tarkastella ja muokata **Yrityksen asetukset** -kohdassa nykyisen yrityksen
 Jos sinun on lisättävä uusia käyttäjiä, voit tehdä sen Office 365:n hallintaportaalissa. Lisätietoja on kohdassa [Käyttäjien lisääminen Office 365 for Businessiin](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc). Kun käyttäjät on luotu Office 365:ssa, heidät voidaan tuoda **Käyttäjät**-sivulle **Hae käyttäjät Office 365:stä** -toiminnolla. Voit määrittää tämän jälkeen käyttäjien käyttöoikeudet ja järjestää käyttäjät käyttäjäryhmiin. Lisätietoja on kohdassa [Käyttäjien ja käyttöoikeuksien hallinta](ui-how-users-permissions.md).  
 
 ## <a name="getting-help"></a>Ohjeiden saaminen
-[!INCLUDE[d365fin](includes/d365fin_md.md)]issa on työkaluvihjeitä, jotka auttavat eri liiketoimintaprosessien suorittamisessa. Jokainen työkaluvihje sisältää **Ohjeet**-linkin. Sen avulla voit siirtyä tuotteen ohjeisiin. Oikeassa yläkulmassa oleva kysymysmerkki vie myös tuotteen ohjeisiin.
+[!INCLUDE[d365fin](includes/d365fin_md.md)]issa on työkaluvihjeitä, jotka auttavat eri liiketoimintaprosessien suorittamisessa. Voit avata kyseisen sivun ohjeen painamalla kentän työkaluvihjeessä näppäimiä Ctrl+F1 tai valitsemalla **Lisätietoja**-linkin. Oikeassa yläkulmassa oleva kysymysmerkki vie myös tuotteen ohjeisiin.
 
 ## <a name="next-steps"></a>Seuraavat vaiheet
 Voit jatkaa luomalla uusia myynti- tai ostoasiakirjoja siirrettyjen tietojen perusteella. Voit luoda nopeasti myyntitarjouksen, myyntilaskun, myyntitilauksen, ostolaskun tai maksurekisteröinnin **kotisivun** **Oma yritys** -osassa.
@@ -68,4 +55,3 @@ Voit jatkaa luomalla uusia myynti- tai ostoasiakirjoja siirrettyjen tietojen per
 [Käyttäjien ja käyttöoikeuksien hallinta](ui-how-users-permissions.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 98d51b10d3ca415a463b58405cb3c4f2449b75ad
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 65fcba3f0222b324f132115ea7f1ec53b75d983f
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852422"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "921407"
 ---
 # <a name="working-with-reports-and-batch-jobs"></a>Raporttien ja eräajojen käsitteleminen
 Raportti kerää tietoja määritettyjen ehtojen perusteella. Tiedot järjestetään raporttiin helposti luettavassa ja tulostettavassa muodossa. Sovelluksesta voi käyttää monenlaisia raportteja. Raporteissa on yleensä avattuna olevan sivun sisältöön liittyviä tietoja. Esimerkiksi **Asiakas**-sivun raportit koskevat 10 suurinta asiakasta, myyntitilastoja jne.
@@ -50,9 +50,9 @@ Tallennettujen asetusten käyttäminen on nopea ja helppo tapa oikeiden tietojen
 ### <a name="setting-options-and-filters"></a>Asetusvaihtoehdot ja suodattimet
 Jos haluat edelleen rajoittaa tai määritellä tarkasti tietoja, jotka sisältyvät raportin tietoihin, voit määrittää muita asetuksia tai suodattimia.
 
-Suodattimet mahdollistavat tiettyihin kriteereihin perustuvan tiedon näyttämisen. Suodattimet on ryhmitelty sen entiteetin mukaan, johon ne kuuluvat, kuten **Asiakas** yllä olevassa kuvassa. Voit määrittää suodattimen määrittämällä **Missä**-ruudun kenttään, jonka haluat suodattaa ja lisäämällä ehtoja **on:** -ruutuun. Esimerkiksi yllä olevassa kuvassa on yksi suodatin, joka luo raportin asiakkaalle, jonka **nro** on yhtä kuin **01121212**.
+Suodattimet mahdollistavat tiettyihin kriteereihin perustuvan tiedon näyttämisen. Suodattimet on ryhmitelty sen entiteetin mukaan, johon ne kuuluvat, kuten **Asiakas** yllä olevassa kuvassa. Voit määrittää suodattimen määrittämällä **Missä**-ruudun kenttään, jonka haluat suodattaa ja lisäämällä ehtoja **on:** -ruutuun.
 
-Voit lisätä muita suodattimia asettamalla niitä **Lisää**-ruuduista. Jos käytät useampaa kuin yhtä suodatinta, raporttiin sisällytetään vain tulokset, jotka täyttävät kaikkien suodattimien kriteerit.
+Voit lisätä suodattimia täyttämällä **Ja**- ja **on**-ruudut. Jos käytät useampaa kuin yhtä suodatinta, raporttiin sisällytetään vain tulokset, jotka täyttävät kaikkien suodattimien kriteerit.
 
 Voit määrittää suodatusehdot etsimään täsmällistä vastaavuutta, osittaista vastaavuutta, arvoalueita ja muuta sen mukaan, mitä tyyppistä kenttää suodatat. Neuvoja suodattimien määrittämiseen löytyy ohjeaiheessa:
 -   [Suodattaminen](ui-enter-criteria-filters.md#FilterCriteria)
@@ -70,7 +70,7 @@ Valikkorivin avulla voi
 -   muuttaa sivulle sopivaksi
 -   Valitse teksti
 
-    Voit kopioida raportista tekstiä ja liittää sen toisaalle, kuten [!INCLUDE[d365fin](includes/d365fin_md.md)]in sivulle tai Microsoft Wordiin.  Aseta hiiri aloituskohtaan, pidä hiiren painike painettuna ja valitse sitten sanat, lauseet tai kappaleet hiirtä siirtämällä. Voit sitten painaa hiiren kakkospainiketta ja valita **Kopioi**. Voit liittää valitun tekstin valitsemaasi paikkaan.
+    Voit kopioida raportista tekstiä ja liittää sen toisaalle, kuten [!INCLUDE[d365fin](includes/d365fin_md.md)]in sivulle tai Microsoft Wordiin.  Aseta hiiri aloituskohtaan, pidä hiiren painike painettuna ja valitse sitten sanat, lauseet tai kappaleet hiirtä siirtämällä. Voit sitten painaa hiiren kakkospainiketta ja valita **Kopioi**. Voit sitten liittää valitun tekstin valitsemaasi paikkaan.
 -   Panoroi asiakirja
 
     Voit siirtää näkyvissä olevaa raportin aluetta kaikkiin suuntiin, joten saat näkyviin myös raportin muut alueet. Tämä on kätevää, jos olet lähentänyt tekstiin yksityiskohtia tarkastelemaan.  Paina esimerkiksi hiiren painiketta pitkään raportin esikatselussa ja siirrä sitten hiirtä.

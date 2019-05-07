@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: feb29e3cee1a55833566657a6a007af8854f98f5
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 60b3e0d732125f60b092a0e089cabc2b82ad71ef
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "795030"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "932030"
 ---
 # <a name="reconcile-bank-accounts-separately"></a>Pankkitilien täsmäyttäminen erikseen
 [!INCLUDE[d365fin](includes/d365fin_md.md)] -pankkitilien täsmäyttäminen pankista saatujen tiliotteiden kanssa: Aloita täyttämällä vasemmanpuoleisessa ruudussa **Pankkitilin täsmäytys** -sivu pankin tiliotteen tiedoilla, jotka sitten täsmäytät oikean puoleisen ruudun pankkitilitapahtumien kanssa. Älykäs tapa täyttää tiliotteen rivit on pankin tiliotteen tuonti tiedostona tai syötteenä.

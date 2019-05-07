@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 9eb056bc98298a31833d205862d2d9bfeba04218
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: b7f41e3630b818607dee18ad2b8afe6ba5daa3de
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "795879"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "939150"
 ---
 # <a name="set-up-email-manually-or-using-the-assisted-setup"></a>Sähköpostin määrittäminen manuaalisesti tai asetusten ohjatun määrityksen käyttäminen
 Jos haluat lähettää ja vastaanottaa sähköpostiviestejä [!INCLUDE[d365fin](includes/d365fin_md.md)]issa, **SMTP-sähköpostiasetukset**-sivun kentät on täytettävä.
@@ -24,7 +24,7 @@ Jos haluat lähettää ja vastaanottaa sähköpostiviestejä [!INCLUDE[d365fin](
 > [!NOTE]  
 >   Sen sijaan että kirjoittaisit SMTP-palvelimen tiedot, voit käyttää toimintoa, joka hakee nämä tiedot Office 365 -tilauksesta.
 
-Voit joko määrittää sähköpostin manuaalisesti tai voit käyttää hyväksesi avustettua **Sähköpostiasetukset**-määritystä. Lisätietoja on ohjeaiheessa [Valmistautuminen liiketoimintaan](ui-get-ready-business.md).  
+Voit määrittää sähköpostin joko manuaalisesti tai käyttää ohjattua **Sähköpostiasetukset**-määritystä. Lisätietoja on ohjeaiheessa [Valmistautuminen liiketoimintaan](ui-get-ready-business.md).  
 
 ## <a name="to-set-up-email"></a>Sähköpostin määrittäminen
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **SMTP-sähköpostin asetukset** ja valitse sitten liittyvä linkki.

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: inventory, periods
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1aae1d32b86000ea8a5f867f1ee4c07d8bc1ff09
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 309de0c582e125eb4bf5fb5b0c6b901adb1d0bfc
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "796097"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "929239"
 ---
 # <a name="work-with-inventory-periods"></a>Varastokausien käsitteleminen
 Varastokaudet määrittävät aikajakson, jolloin voit kirjata varastoon muutoksia. Lopetuspäivämäärä määrittää, milloin varastokausi loppuu. Kun suljet varastokauden, et voi enää kirjata varastoon odotettuja tai laskutettuja muutoksia ennen tätä lopetuspäivämäärää. Et voi kirjata varastoon uusia arvoja ennen lopetuspäivämäärää. Jos suljetulla kaudella on avoimia nimiketapahtumia eli positiivisia määriä, joita ei ole vielä kohdistettu lähteviin transaktioihin, voit yhä kohdistaa lähteviä määriä näihin transaktioihin, vaikka kausi on suljettu.  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, replenishment, reordering
-ms.date: 11/05/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f44bbe229db6067531e894be9ae768eb909727e7
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 23ab86f4a95a7ed21b0209c4f8028dc10e94b265
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "795457"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "914608"
 ---
 # <a name="design-details-reservation-order-tracking-and-action-messaging"></a>Rakennetiedot: varaus, tilauksen seuranta ja toimenpiteiden viestitys
 Varausjärjestelmä on kokonaisvaltainen ja se sisältää Tilausten seurannan ja toimintaviestinnän keskenään yhteydessä olevat ja rinnakkaiset ominaisuudet.  

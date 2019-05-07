@@ -10,14 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 95d4afc18b0be620df2f4b2067a093237c7c4df2
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+redirect_url: design-details-dimension-set-entries
+ms.openlocfilehash: 1b0238fb26b71310b1f02e15be7d7040832ca644
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "794945"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "938512"
 ---
 # <a name="design-details-codeunit-408-dimension-management"></a>Rakennetiedot: koodiyksikön 408 dimension hallinta
 Koodiyksikkö 408, dimension hallinta on toimintokirjasto, joka käsittelee yleiset dimensioihin liittyvät tehtävät, kuten kopioinnin taulukosta toiseen tai yhdestä asiakirjasta toiseen. Tässä ohjeaiheessa luetellaan Microsoft Dynamics NAV 2013 Rs:ssa muutetut toiminnot ja määritetään toimintoihin tehdyt muutokset. Monet toiminnot on poistettu, koska dimensiotaulukoiden välillä ei tarvitse kopioida.  

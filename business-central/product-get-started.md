@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 12/03/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 5386dc4158dbd1e944eac75f4339ca2295a92fd2
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 80dcc6b46cdb89c846666963baffa6704daade28
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "795626"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "925991"
 ---
 # <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]in käytön aloittaminen
 [!INCLUDE[d365fin](includes/d365fin_md.md)] on pienille ja keskisuurille organisaatioille tarkoitettu liiketoiminnan hallintaratkaisu, joka automatisoi ja selkeyttää liiketoiminnan prosesseja sekä auttaa liiketoiminnan hallinnassa. Rekisteröityminen on helppoa, ja voit siirtää aiemmin luodut yritystiedot vanhojen tietojen järjestelmästä. Jos tarvitset apua tilaukseen liittyvissä asioissa, etsi [!INCLUDE[d365fin](includes/d365fin_md.md)] -kumppani [täältä](https://www.microsoft.com/en-us/solution-providers/search).  
@@ -41,7 +41,7 @@ Kun olet valmis aloittamaan käytön ja haluat tutustua tiettyihin [!INCLUDE[d36
 ## <a name="the-role-centers"></a>Roolikeskukset
 Roolikeskussivu perustuu roolikeskeiseen rakenteeseen, jonka ansiosta voit käyttää nopeasti työssä tarvittavia liiketoimintaprosesseja ja BI-työkaluja. Kirjanpitäjä voi esimerkiksi seurata maksuja ja hyväksymisiä sekä tarkastella rahoituksen suorituskykykaavioita. Tutustu eri roolikeskuksiin valitsemalla oikeassa yläkulmassa **Asetukset**-kuvake ![Asetukset](media/ui-experience/settings_icon_small.png "Roolikeskuksen Asetukset-kuvake"). Valitse sitten **Omat asetukset** ja lopuksi roolikeskus, johon haluat tutustua. Ota muutos käyttöön kirjautumalla uudelleen sisään. Lisätietoja on kohdassa [Perusasetusten muuttaminen](ui-change-basic-settings.md).
 
-Jokaisessa roolikeskuksessa on **Asennus ja laajennukset** -painike. Saat käyttöösi luettelon avustetuista asennuksista, joiden avulla pääset alkuun määrittämällä valitut alueet nopeasti. Jos alueella ei ole asetuksen ohjattua määritystä, valitse **Manuaalinen asennus** -toiminto. Pääset tällä tavoin sivuille, joissa voit täyttää kaikkien alueiden asennuskentät manuaalisesti. Lisätietoja on myös kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittäminen](setup.md)  
+Jokaisessa roolikeskuksessa on **Asennus ja laajennukset** -painike. Saat käyttöösi luettelon asetusten ohjatusta määrityksistä, joiden avulla pääset alkuun määrittämällä valitut alueet nopeasti. Jos alueella ei ole asetuksen ohjattua määritystä, valitse **Manuaalinen asennus** -toiminto. Pääset tällä tavoin sivuille, joissa voit täyttää kaikkien alueiden asennuskentät manuaalisesti. Lisätietoja on myös kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittäminen](setup.md)  
 
 > [!NOTE]  
 >   Käytettävissä olevien asennusoppaiden, laajennusten ja palvelujen luettelo vaihtelee yritykselle valitun käyttäjäkokemuksen mukaan. **Essential**-kokemuksen valikoima on suppeampi kuin **Premium**-kokemuksen valikoima. Ensimmäisellä kirjautumiskerralla käytössä on Essential-kokemus. Lisätietoja on kohdassa [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md).  
@@ -73,7 +73,7 @@ Vaihtoehtoisesti voit etsiä [!INCLUDE[d365fin](includes/d365fin_md.md)] -kumppa
 
 ## <a name="getting-answers-to-questions"></a>Vastauksia kysymyksiin
 
-Jos et ole varma, miten jotakin tehdään [!INCLUDE[d365fin](includes/d365fin_md.md)]issa, löydät toivottavasti vastauksen joko lukemalla sen kentän työkaluvihjeen, josta et ole varma, tai lukemalla työkaluvihjeen *Lisätietoja*-linkin sisällön. Voit hakea myös ohjeita valitsemalla liittyvän linkin Ohje-valikossa.  
+Jos et ole varma, miten jotakin tehdään [!INCLUDE[d365fin](includes/d365fin_md.md)]issa, löydät toivottavasti vastauksen joko lukemalla sen kentän työkaluvihjeen, josta et ole varma, tai lukemalla työkaluvihjeen (käytä pikanäppäintä Ctrl+F1) *Lisätietoja*-linkin sisällön. Voit hakea myös ohjeita valitsemalla liittyvän linkin [Ohje ja tuki -sivulla](product-help-and-support.md).  
 
 Kaikki [!INCLUDE[d365fin](includes/d365fin_md.md)]in kentät kuvaillaan työkaluvihjeissä. Saat työkaluvihjeen käyttöösi valitsemalla kentän nimen. Valitse esimerkiksi sivulla, kuten **Asiakaskortti**, kentän nimi ja lue työkaluvihje. Jos kyse on luettelosta, kuten **Asiakkaat**, tai asiakirjan, kuten myyntitilauksen, rivistä, sinun on valittava sarakkeen nimen oikealla puolella olevasta avattavasta valikosta **Lisätietoja**-vaihtoehto.  
 
@@ -88,14 +88,16 @@ Voit tutustua muita Dynamics 365 -sovelluksia käsittelevään sisältöön vali
 Jos olet kirjanpitäjä, voit rekisteröityä [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]iin, jolloin pääset käyttävään sujuvaa [!INCLUDE[d365fin](includes/d365fin_md.md)] -integraatiota…. Lisätietoja on kohdassa [Tervetuloa Dynamics 365 – Accountant Hubiin](/dynamics365/accountants/index).
 
 ## <a name="see-also"></a>Katso myös
+
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittäminen](setup.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]in mukauttaminen laajennusten avulla](ui-extensions.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen Outlookin yrityssähköpostina](admin-outlook.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]in hakeminen mobiililaitteeseen](install-mobile-app.md)  
+[Ohje- ja tukiresurssit](product-help-and-support.md)  
 [Dynamics 365:n dokumentaatio](https://docs.microsoft.com/en-us/dynamics365/)  
 [Microsoft Dynamics 365 Business Centralin julkaisutiedot](https://go.microsoft.com/fwlink/?linkid=2047422)  
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/training_link_md.md)]  

@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/26/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0a8172f0c8770235291e7b9a29663f15932f38b4
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 382a95a579482a56597ffae053c53dab92f3739a
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "795878"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "914419"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Tietojenvaihtomääritysten määrittäminen
 Voit määrittää [!INCLUDE[d365fin](includes/d365fin_md.md)]in vaihtamaan tiettyjen taulukoiden tietoja ulkoisten tiedostojen kanssa. Tällöin voit esimerkiksi lähettää ja vastaanottaa sähköisiä asiakirjoja sekä tuoda ja viedä pankkitietoja tai muita tietoja, kuten palkanlaskennan tietoja, vaihtokursseja ja tuoteluetteloita. Lisätietoja on kohdassa [Sähköinen tiedonsiirto](across-data-exchange.md).  
 
-Datatiedoston tai tietovirran tietojenvaihtomäärityksen luonnin valmisteluun voit käyttää liittyvää XML-rakennetta. Sen avulla voit määrittää **Sarakkeen määritykset** -pikalomakkeeseen sisällytettävät tietoelementit. Katso vaihe 6 kohdassa "Tiedoston rivien ja sarakkeiden muotoilun kuvaileminen". Lisätietoja on kohdassa [XML-rakenteiden käyttäminen tiedonsiirtomääritysten valmistelussa](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
+Datatiedoston tai tietovirran tietojenvaihtomäärityksen luonnin valmisteluun voit käyttää liittyvää XML-rakennetta. Sen avulla voit määrittää **Sarakkeen määritykset** -pikalomakkeeseen sisällytettävät tietoelementit. Katso vaihe 6 kohdassa [Tiedoston rivien ja sarakkeiden muotoilun kuvaileminen](across-how-to-set-up-data-exchange-definitions.md#to-describe-the-formatting-of-lines-and-columns-in-the-file). Lisätietoja on kohdassa [XML-rakenteiden käyttäminen tiedonsiirtomääritysten valmistelussa](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
 
 Tiedonsiirtomääritykset määritetään yleensä **Tiedonsiirtomääritys**-sivulla. Vaihtokurssien päivityspalvelun tiedonsiirtomääritysten määrittäminen aloitetaan kuitenkin yksinkertaistetussa **Vaihtokurssin päivitysasetusten kortti** -sivulla.  
 
@@ -39,7 +39,10 @@ Tietojenvaihtomäärityksen luominen muodostuu kahdesta tehtävästä:
 1. Kuvaa tiedoston rivien ja sarakkeiden muotoilu **Tiedonsiirtomääritys**-sivulla.  
 2. Kohdista **Tiedonsiirron vastaavuus** -sivulla datatiedoston sarakkeet [!INCLUDE[d365fin](includes/d365fin_md.md)]in kenttiin.  
 
-     Tämä kuvataan seuraavissa menettelytavoissa.  
+Tämä kuvataan seuraavissa menettelytavoissa.  
+
+> [!TIP]
+> Jos haluat nähdä, mitä codeuniteja Microsoft käyttää vakiotuotteen nykyisissä määritelmissä, voit tarkistaa ne kunkin määritelmän **Kentän vastaavuus** -sivun ylätunnisteessa olevasta kolmesta **Codeunit**-kentästä.
 
 #### <a name="to-describe-the-formatting-of-lines-and-columns-in-the-file"></a>Tiedoston rivien ja sarakkeiden muotoilun kuvaaminen  
 1. Kirjoita **Haku**-ruutuun **Tietojenvaihtomääritykset** ja valitse aiheeseen liittyvä linkki.  

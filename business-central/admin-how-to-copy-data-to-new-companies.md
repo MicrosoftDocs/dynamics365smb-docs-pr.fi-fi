@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8fc06a83a4bbf6acb5da076e21169819a6bb07de
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: daf11bb8f219367506cff4fff46caa4f75ec6c86
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "796244"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "938986"
 ---
 # <a name="copy-data-to-new-companies"></a>Tietojen kopioiminen uusiin yrityksiin
 Voit kopioida yleisesti käytettyjä arvoja olemassa olevasta yrityksestä uuteen, niin kauan kuin molemmat yhtiöt ovat samassa tietokannassa. Jos sinulla on esimerkiksi sellaisten oirekoodien vakioluettelo, jotka ovat tavallisia kaikissa huoltohallinnan toteutuksissa, voit kopioida koodeja helposti yritysten välillä.  

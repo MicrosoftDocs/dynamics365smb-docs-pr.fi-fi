@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 02/21/2019
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 72fcf1b698b464cd21107184cd2bb166a8612cae
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: f86c8a3cd93995aaf52a9e7f95065751f8061fd7
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852284"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "916147"
 ---
 # <a name="frequently-asked-questions"></a>Usein kysytyt kysymykset
 
@@ -49,12 +49,15 @@ Jos sinulla on Microsoftin CustomerSource-sivuston käyttöoikeus, voit käyttä
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] myydään kumppanien kautta, joten pyydä teknisissä ongelmissa apua jälleenmyyjäkumppanilta. Jos [!INCLUDE[d365fin](includes/d365fin_md.md)] -kumppani, ei pysty ratkaisemaan ongelmaan, he voivat tehdä tukipyynnön Microsoftille.  
 
-Jos olet rekisteröitynyt kokeiluversioon etkä ole vielä ostanut [!INCLUDE[d365fin](includes/d365fin_md.md)]ia, sinulla ei ole jälleenmyyntikumppania etkä voi ottaa yhteyttä Microsoftin tukeen.  
-
-Voit etsiä Business Central -kumppanin [Ratkaisutoimittajan haku](https://go.microsoft.com/fwlink/?linkid=2038145) -sivulla.  
+Lisätietoja on kohdassa [Ohje ja tuki](product-help-and-support.md).  
 
 ## <a name="why-does-help-describe-functionality-that-i-cannot-access"></a>Miksi ohjeessa kerrotaan toiminnoista, joita en voi käyttää?
-Jos **Yrityksen tiedot** -sivun käyttökokemusasetukseksi on määritetty **Essential**, valmistuksen ja huoltohallinnan toimintojen käyttöliittymän elementit eivät näy, koska ne vaativat **Premium**-käyttökokemuksen. Seuraava tekstimuistiinpano lisätään näiden toimintoalueiden ylätason ohjeaiheisiin. Lisätietoja on kohdassa [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md).  
+Jos **Yrityksen tiedot** -sivun käyttökokemusasetukseksi on määritetty **Essential**, valmistuksen ja huoltohallinnan toimintojen käyttöliittymän elementit eivät näy, koska ne vaativat **Premium**-käyttökokemuksen. Seuraava tekstimuistiinpano lisätään näiden toimintoalueiden ylätason ohjeaiheisiin. Lisätietoja on kohdassa [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md).
+
+## <a name="where-is-the-save-button"></a>Missä tallennuspainike on?
+
+Sivuilla ei ole muista ohjelmista tuttua *tallennuspainiketta*. [!INCLUDE[d365fin](includes/d365fin_md.md)]issa kenttään tehdyt muutokset tallennetaan automaattisesti heti, kun siirryt seuraavaan kenttään tai suljet sivun, mikäli virheitä ei ole. Kun teet muutoksia kenttään tai siirryt toiseen kenttään, sivun oikeassa yläkulmassa on teksti **Tallennetaan**, joka tilalle vaihtuu nopeasti teksti **Tallennettu**, jos virheitä ei ole. Jos tapahtuu virhe, tekstiksi tulee **Ei tallennettu**.
+
 
 ## <a name="what-email-address-can-i-use-with-included365finincludesd365finmdmd"></a>Mitä sähköpostiosoitetta käytetään [!INCLUDE[d365fin](includes/d365fin_md.md)]in kanssa?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] edellyttää työ- tai opiskelupaikan antaman sähköpostiosoitteen käyttämistä rekisteröitymisen yhteydessä. [!INCLUDE[d365fin](includes/d365fin_md.md)] ei tue kuluttajille tarkoitettujen sähköpostipalveluiden ja tietoliikennepalveluiden tarjoajien sähköpostiosoitteita. Näitä ovat esimerkiksi outlook.com, hotmail.com ja gmail.com.  

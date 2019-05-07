@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/19/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2d1fc180b971a7a0003847ea6b5830cc124cf5c7
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: e174b56b8570f541ec10683fc8e44fb844da05c6
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "796062"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "926014"
 ---
 # <a name="design-details-warehouse-overview"></a>Rakennetiedot: f. varaston yleiskuvaus
 Fyysisen varaston jokaisen tapahtuman ja siirron tiedot on voitava jäljittää, jotta nimikkeiden fyysistä käsittelyä voidaan tukea alue- ja varastopaikkatasolla. Tätä hallitaan **F. var. tapahtuma** -taulukossa. Jokainen tapahtuma tallennetaan varastorekisteriin.  

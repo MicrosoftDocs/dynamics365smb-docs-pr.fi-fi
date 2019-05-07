@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 9d6f3cf74582283e633d9c3347def5289aeb8f88
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 1665985ba00b291469146536a69a0dcfe9dec85a
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "795832"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "919512"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Myynnin ja ostojen ALV:n käsitteleminen
 Jos maasi tai alueesi edellyttää arvonlisäveron (ALV:n) laskemista myynti- ja ostotapahtumille siten, että voit ilmoittaa summat veroviranomaiselle, voit määrittää [!INCLUDE[d365fin](includes/d365fin_md.md)]in laskemaan ALV:n automaattisesti myynti- ja ostoasiakirjoissa. Lisätietoja on kohdassa [Arvolisäveron laskelmien ja kirjausmenetelmien määrittäminen](finance-setup-vat.md).
@@ -63,7 +63,7 @@ Jos maksualennus on laskettu ALV:n sisältävän laskusumman perusteella, ALV-su
 1. Avaa käsiteltävä myyntitilaus.  
 2. Valitse **Tilastot**-toiminto.  
 3. Valitse **Laskutus**-pikavälilehti.  
-  
+
     > [!NOTE]  
     >  Riveillä näkyy laskun ALV-kokonaissumma ALV-tunnuksen mukaan ryhmiteltynä. Voit manuaalisesti muuttaa **ALV-summa**-kentän summaa kunkin ALV-tunnuksen rivillä. Kun muokkaat **ALV-summa**-kenttää, ohjelma tarkistaa, ettei ALV:tä ole muutettu enempää kuin määrittämäsi suurimman sallitun eron verran. Jos ero on suurempi kuin **Maksimi sallittu ALV-ero**, näyttöön tulee varoitus, joka ilmoittaa suurimmasta sallitusta erosta. Et voi jatkaa, ennen kuin määrä muutetaan asetettujen rajojen sallimaksi. Valitse **OK** ja lisää uusi **ALV-summa**, joka on sallitun vaihteluvälin sisällä. Jos ALV-ero on sama tai pienempi kuin suurin sallittu ero, ALV jaetaan suhteellisesti asiakirjan sellaisten rivien kanssa, joilla on sama ALV-tunnus.  
 
@@ -77,7 +77,7 @@ Voit oikaista ALV-summia myös at yleisessä päiväkirjassa sekä myynti- ja os
 #### <a name="before-you-manually-enter-vat-on-sales-and-purchase-journals"></a>Ennen kuin voit manuaalisesti lisätä ALV:n myynti- ja ostopäiväkirjoihin, sinun on tehtävä seuraavat toimet:  
 1. Valitse **Ostojen ja ostovelkojen asetukset** -sivulla **Salli ALV-ero** -valintaruutu.  
 2. Kun olet tehnyt edellä kuvatut asetukset, voit oikaista yleisen päiväkirjan rivin **ALV-summa**-kentän tai myynti- tai ostopäiväkirjan rivin **Vastatilin ALV-summa** -kentän. [!INCLUDE[d365fin](includes/d365fin_md.md)] tarkistaa, että ero ei ole suurempi kuin määritetty enimmäisarvo.  
-  
+
     > [!NOTE]  
     > Jos ero on suurempi, avautuva varoitus ilmoittaa suurimman sallitun eron. Jatkaminen edellyttää summan oikaisua. Valitse ensin **OK** ja annan sitten summa, joka on sallitun vaihteluvälin sisällä. Jos ALV-ero on sama tai pienempi kuin suurin sallittu ero, [!INCLUDE[d365fin](includes/d365fin_md.md)] näyttää eron **ALV-ero**-kentässä.  
 
@@ -115,12 +115,12 @@ Kun myyt tavaroita toisen EU-maan/alueen asiakkaalle, sinun on lähetettävä as
     >  Jos **Tarjontasertifikaatti vaaditaan**-valintaruutu ei ole valittuna ALV-kirjausryhmän asetuksissa, järjestelmä luo uuden tietueen ja **Tila**-kentälle asetetaan arvoksi **Ei sovellu**. Voit päivittää kentän vastaamaan oikeita tilatietoja. Tila voidaan muuttaa tarpeen mukaan manuaalisesti arvosta **Ei sovellu** arvoon **Pakollinen** ja arvosta **Pakollinen** arvoon **Ei sovellu**.  
 
    Sertifikaatti luodaan, kun päivität **Tila**-kentän arvoksi **Pakollinen**, **Vastaanotettu** tai **Ei vastaanotettu**.  
-  
+
     > [!TIP]  
     >  Voit käyttää **Tarjontasertifikaatti**-sivua nähdäksesi kaikkien niiden kirjattujen toimitusten tilan, joille on luotu tarjontasertifikaatti.  
 
 5. Valitse **Tulosta tarjontasertifikaatti**.  
-  
+
     > [!Note]  
     >  Voit esikatsella tai tulostaa asiakirjan. Kun valitset **Tulostaa tarjontasertifikaatti** ja tulostat asiakirjan, järjestelmä valitsee **Tulostettu**-valintaruudun automaattisesti. Jos todistuksen tilaa ei ole jo määritetty, se päivitetään arvoon **Pakollinen**. Sisällytä tulostettu sertifikaatti tarvittaessa toimitukseen.  
 

@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: soalex
-ms.openlocfilehash: cda5dc10951981a5d2e496c6cd27bb84b875ede0
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 283fe8bd51cca855f97b682c3b77c3e8805514e6
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "795648"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "912800"
 ---
 # <a name="application-compliance"></a>Sovelluksen yhteensopivuus
 Tässä sisällössä on tietoja sovelluksen [!INCLUDE[d365fin](../includes/d365fin_md.md)]ia koskevasta yhteensopivuudesta, kuten kansainvälisistä tilinpäätösstandardeista, paikallisista toiminnoista ja GDPR-asetuksesta. Luotettava liiketoiminnan hallintaratkaisu on tärkeää liiketoiminnan tehokkuuden kannalta. Business Centralin avulla yritykset pystyvät yksinkertaistamaan liiketoimintaprosessejaan samalla, kun ne pystyvät yhdenmukaisesti ja kustannustehokkaasti toimimaan koko ajan lisääntyvän säätelyn ja raportointivaatimusten mukaisesti.
