@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: dynamics365-business-central
 author: jswymer
 ms.date: 04/01/2019
-ms.openlocfilehash: eb9d4ec76c0dbbd59763f7622ca51137c9563a91
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.openlocfilehash: e747757ec6942ede0e237e013703ebf6d3df189b
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "969876"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1447012"
 ---
 # <a name="inspecting-pages-in-business-central"></a>Business Centralin tarkastussivut
 
@@ -22,7 +22,7 @@ Saat sivun tarkastustoiminnolla tietoja sivusta sekä merkityksellisiä tietoja 
 
 ## <a name="working-with-page-inspection"></a>Sivun tarkastuksen käyttäminen
 
-Jos haluat tarkistaa sivun valitse oikeassa yläkulmassa ensin ![Asetukset-kuvake](media/ui-experience/settings_icon_small.png) ja sitten **Tarkasta**. Vaihtoehtoisesti voit käyttää pikanäppäintä **Ctrl+Alt+F1**.
+Sivun tarkistus aloitetaan **Ohje ja tuki** -sivulla. Valitse ensin kysymysmerkki oikeassa yläkulmassa, sitten **Ohje ja tuki** ja lopuksi **Tarkasta sivut ja tiedot**. Vaihtoehtoisesti voit käyttää pikanäppäintä **Ctrl+Alt+F1**.
 
 **Sivun tarkastus** -ruutu avautuu sivulle. Seuraavassa kuvassa on **Myyntitilaus**-sivun **Sivun tarkastus** -ruutu.
 
@@ -34,7 +34,7 @@ Siirrä kohdistus näppäimillä tai osoitinlaitteella sivun eri elementteihin. 
 
 Lisätietoja sivun tarkastuksessa näytettävistä tiedoista on Business Centralin kehittäjien IT-ammattilaisten ohjeen kohdassa [Sivun tarkastaminen ja vianmääritys](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-inspecting-pages).
 
-Jos odottamasi tiedot eivät näy **Sivun tarkastus** -ruudussa ei näy, käyttöoikeutesi eivät luultavasti ole riittävät. Tätä käsitellään seuraavassa osassa.
+Jos odottamasi tiedot eivät näy **Sivun tarkastus** -ruudussa, käyttöoikeutesi eivät luultavasti ole riittävät. Tätä käsitellään seuraavassa osassa.
 
 ## <a name="controlling-access-to-page-inspection-details"></a>Sivun tarkastustietojen käyttöoikeuksien hallinta
 
