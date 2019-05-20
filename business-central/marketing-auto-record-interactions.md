@@ -13,24 +13,24 @@ ms.search.keywords: marketing, relationship, prospect, contact, client, customer
 ms.date: 04/01/2019
 ms.author: jswymer
 ms.openlocfilehash: 1934467dd789b737fa4dc85c5321a3a79c4bd1bf
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "918659"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1242972"
 ---
-# <a name="recording-interactions-with-contacts-automatically"></a><span data-ttu-id="7fd8d-103">Kontaktien kanssa tapahtuvien vuorovaikutusten tallentaminen automaattisesti</span><span class="sxs-lookup"><span data-stu-id="7fd8d-103">Recording Interactions with Contacts Automatically</span></span>
-<span data-ttu-id="7fd8d-104">Voit määrittää sovelluksen niin, että myynti-, osto- ja huoltoasiakirjojen, kansilehtien, sähköpostien ja puheluiden vuorovaikutukset tallennetaan automaattisesti seuraavasti:</span><span class="sxs-lookup"><span data-stu-id="7fd8d-104">You can set up the application to automatically record interactions for sales, purchase and service documents, cover sheets, e-mails, phone calls, such as:</span></span>
+# <a name="recording-interactions-with-contacts-automatically"></a><span data-ttu-id="5534d-103">Kontaktien kanssa tapahtuvien vuorovaikutusten tallentaminen automaattisesti</span><span class="sxs-lookup"><span data-stu-id="5534d-103">Recording Interactions with Contacts Automatically</span></span>
+<span data-ttu-id="5534d-104">Voit määrittää sovelluksen niin, että myynti-, osto- ja huoltoasiakirjojen, kansilehtien, sähköpostien ja puheluiden vuorovaikutukset tallennetaan automaattisesti seuraavasti:</span><span class="sxs-lookup"><span data-stu-id="5534d-104">You can set up the application to automatically record interactions for sales, purchase and service documents, cover sheets, e-mails, phone calls, such as:</span></span>
 
-* <span data-ttu-id="7fd8d-105">Tulosta myynti- tai ostotarjoukset, -tilaukset, laskut, hyvityslaskut ja kansilehdet.</span><span class="sxs-lookup"><span data-stu-id="7fd8d-105">Print sales or purchase quotes, orders, invoices, credit memos, cover sheets.</span></span>
-* <span data-ttu-id="7fd8d-106">Luo myynnin huoltotilaukset.</span><span class="sxs-lookup"><span data-stu-id="7fd8d-106">Create sales service orders.</span></span>
-* <span data-ttu-id="7fd8d-107">Kirjaa myynnin huoltotilaukset.</span><span class="sxs-lookup"><span data-stu-id="7fd8d-107">Post sales service orders.</span></span>
-* <span data-ttu-id="7fd8d-108">Lähetä sähköpostiviestejä kontakteille.</span><span class="sxs-lookup"><span data-stu-id="7fd8d-108">Send e-mails to your contacts.</span></span>
-* <span data-ttu-id="7fd8d-109">Soita kontakteillesi, jos sinulla on TAPI-yhteensopiva puhelin, ja se on oikein asennettu.</span><span class="sxs-lookup"><span data-stu-id="7fd8d-109">Call your contacts, if you have a TAPI-compliant telephone and the correct installation.</span></span>
+* <span data-ttu-id="5534d-105">Tulosta myynti- tai ostotarjoukset, -tilaukset, laskut, hyvityslaskut ja kansilehdet.</span><span class="sxs-lookup"><span data-stu-id="5534d-105">Print sales or purchase quotes, orders, invoices, credit memos, cover sheets.</span></span>
+* <span data-ttu-id="5534d-106">Luo myynnin huoltotilaukset.</span><span class="sxs-lookup"><span data-stu-id="5534d-106">Create sales service orders.</span></span>
+* <span data-ttu-id="5534d-107">Kirjaa myynnin huoltotilaukset.</span><span class="sxs-lookup"><span data-stu-id="5534d-107">Post sales service orders.</span></span>
+* <span data-ttu-id="5534d-108">Lähetä sähköpostiviestejä kontakteille.</span><span class="sxs-lookup"><span data-stu-id="5534d-108">Send e-mails to your contacts.</span></span>
+* <span data-ttu-id="5534d-109">Soita kontakteillesi, jos sinulla on TAPI-yhteensopiva puhelin, ja se on oikein asennettu.</span><span class="sxs-lookup"><span data-stu-id="5534d-109">Call your contacts, if you have a TAPI-compliant telephone and the correct installation.</span></span>
 
-<span data-ttu-id="7fd8d-110">Voit määrittää näille vuorovaikutuksille automaattisen tallentamisen määrittämällä asiakirjojen ja toimintojen vuorovaikutusmallit **Vuorovaikutusmallin asetukset** -sivulla.</span><span class="sxs-lookup"><span data-stu-id="7fd8d-110">To set up the automatic recording of these interactions, you specify interaction templates for these documents and actions by using the **Interaction Template Setup** page.</span></span>  
-<span data-ttu-id="7fd8d-111">Jos haluat avata **Vuorovaikutusmallin asetukset** -sivun, valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Vuorovaikutusmallin asetukset** ja valitse liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="7fd8d-111">To open the **Interaction Template Setup** page, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Interaction Template Setup**, and then choose the related link.</span></span>
+<span data-ttu-id="5534d-110">Voit määrittää näille vuorovaikutuksille automaattisen tallentamisen määrittämällä asiakirjojen ja toimintojen vuorovaikutusmallit **Vuorovaikutusmallin asetukset** -sivulla.</span><span class="sxs-lookup"><span data-stu-id="5534d-110">To set up the automatic recording of these interactions, you specify interaction templates for these documents and actions by using the **Interaction Template Setup** page.</span></span>  
+<span data-ttu-id="5534d-111">Jos haluat avata **Vuorovaikutusmallin asetukset** -sivun, valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Vuorovaikutusmallin asetukset** ja valitse liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="5534d-111">To open the **Interaction Template Setup** page, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Interaction Template Setup**, and then choose the related link.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="7fd8d-112">Katso myös</span><span class="sxs-lookup"><span data-stu-id="7fd8d-112">See Also</span></span>
-[<span data-ttu-id="7fd8d-113">Kontaktien kanssa tapahtuvien vuorovaikutusten tallentaminen</span><span class="sxs-lookup"><span data-stu-id="7fd8d-113">Recording Interactions With Contacts</span></span>](marketing-interactions.md)  
-<span data-ttu-id="7fd8d-114">[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="7fd8d-114">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+## <a name="see-also"></a><span data-ttu-id="5534d-112">Katso myös</span><span class="sxs-lookup"><span data-stu-id="5534d-112">See Also</span></span>
+[<span data-ttu-id="5534d-113">Kontaktien kanssa tapahtuvien vuorovaikutusten tallentaminen</span><span class="sxs-lookup"><span data-stu-id="5534d-113">Recording Interactions With Contacts</span></span>](marketing-interactions.md)  
+<span data-ttu-id="5534d-114">[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="5534d-114">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  

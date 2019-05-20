@@ -1,1 +1,1 @@
-<span data-ttu-id="cf640-101">Lue lyhyt kuvaus siirtämällä kohdistin kentän päälle.</span><span class="sxs-lookup"><span data-stu-id="cf640-101">Hover over a field to read a short description.</span></span>
+<span data-ttu-id="01300-101">Lue lyhyt kuvaus siirtämällä kohdistin kentän päälle.</span><span class="sxs-lookup"><span data-stu-id="01300-101">Hover over a field to read a short description.</span></span>

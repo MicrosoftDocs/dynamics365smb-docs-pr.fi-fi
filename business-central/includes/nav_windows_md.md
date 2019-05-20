@@ -1,1 +1,1 @@
-<span data-ttu-id="60ec3-101">Business Centraliin yhdistetty Dynamics NAV -asiakasohjelma</span><span class="sxs-lookup"><span data-stu-id="60ec3-101">Dynamics NAV Client connected to Business Central</span></span>
+<span data-ttu-id="65416-101">Business Centraliin yhdistetty Dynamics NAV -asiakasohjelma</span><span class="sxs-lookup"><span data-stu-id="65416-101">Dynamics NAV Client connected to Business Central</span></span>

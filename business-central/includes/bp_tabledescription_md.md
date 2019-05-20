@@ -1,1 +1,1 @@
-<span data-ttu-id="a3744-101">Description</span><span class="sxs-lookup"><span data-stu-id="a3744-101">Description</span></span>
+<span data-ttu-id="ca380-101">Kuvaus</span><span class="sxs-lookup"><span data-stu-id="ca380-101">Description</span></span>
