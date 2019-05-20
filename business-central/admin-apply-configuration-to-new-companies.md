@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 0ed1e040be212f8f59efb5d4b6a41346e6d9b84e
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "922575"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1239473"
 ---
 # <a name="apply-configurations-to-new-companies"></a>Kokoonpanojen käyttäminen uusissa yrityksissä
 Kun olet luonut määrityspaketin, seuraava vaihe on ottaa paketti käyttöön asiakkaalle täytäntöönpanoa varten. Käytössä on määrityspaketti uudessa tyhjässä yrityksessä.  
@@ -28,10 +28,10 @@ Kun olet luonut määrityspaketin, seuraava vaihe on ottaa paketti käyttöön a
 |------------|-------------|  
 |Luo uusi yritys, jossa asiakkaan käyttöönotto suoritetaan.|[Uuden yrityksen luominen](admin-how-to-create-a-new-company.md)|  
 |Tuo uuden yrityksen määrityspaketti ja ota se käyttöön.|[Uusien yritysten määrittäminen](admin-how-to-configure-new-companies.md)|  
-|Voit suorittaa yrityksen määrityksen helposti asetusten ohjatun määrityksen ohjeiden avulla.|[Yrityksen ja ohjatun RapidStart-toiminnon määrittäminen](admin-how-to-configure-a-company-with-the-rapidstart-wizard.md)|
+|Voit suorittaa yrityksen määrityksen helposti asetusten ohjatun määrityksen ohjeiden avulla.|[Yrityksen määrittäminen ohjatulla RapidStart-toiminnolla](admin-how-to-configure-a-company-with-the-rapidstart-wizard.md)|
 |Kopioi yleisesti käytetyt arvot aiemmin määritetystä yrityksestä saman tietokannan uuteen yritykseen.|[Tietojen kopioiminen uusiin yrityksiin](admin-how-to-copy-data-to-new-companies.md)|  
 |Siirrä vanhat tilisaldot juuri määritettyyn yritykseen eräajon avulla. Kohdista sitten tuloksena saatavat päiväkirjatapahtumat.|[Kirjauskansion alkusaldojen luominen](admin-how-to-create-journal-opening-balances.md)|  
 
 ## <a name="see-also"></a>Katso myös  
-[Yrityksen määrittäminen RapidStart Services -palvelun avulla](admin-set-up-a-company-with-rapidstart.md)  
+[Yrityksen määrittäminen RapidStart Servicesin avulla](admin-set-up-a-company-with-rapidstart.md)  
 [Hallinta](admin-setup-and-administration.md)

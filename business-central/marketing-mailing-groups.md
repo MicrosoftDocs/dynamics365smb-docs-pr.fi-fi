@@ -14,11 +14,11 @@ ms.date: 04/01/2019
 ms.author: jswymer
 redirect_url: marketing-setup-contacts
 ms.openlocfilehash: fb9c540819279d042685ad69c790e36e71dcfbed
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "936763"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1238277"
 ---
 # <a name="set-up-mailing-groups-for-contacts"></a>Kontaktien postitusryhmien määrittäminen
 Postitusryhmien avulla voi määrittää niiden kontaktien ryhmät, joiden haluat vastaanottavan samat tiedot. Voit määrittää esimerkiksi kontaktien postitusryhmän, jolle haluat lähettää ilmoituksen toimiston siirtämisestä, tai toisen ryhmän, jolle haluat lähettää lomalahjoja.

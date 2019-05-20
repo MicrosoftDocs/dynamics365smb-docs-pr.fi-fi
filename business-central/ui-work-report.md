@@ -13,11 +13,11 @@ ms.search.keywords: task, process, report
 ms.date: 04/01/2019
 ms.author: jswymer
 ms.openlocfilehash: 65fcba3f0222b324f132115ea7f1ec53b75d983f
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "921407"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250685"
 ---
 # <a name="working-with-reports-and-batch-jobs"></a>Raporttien ja eräajojen käsitteleminen
 Raportti kerää tietoja määritettyjen ehtojen perusteella. Tiedot järjestetään raporttiin helposti luettavassa ja tulostettavassa muodossa. Sovelluksesta voi käyttää monenlaisia raportteja. Raporteissa on yleensä avattuna olevan sivun sisältöön liittyviä tietoja. Esimerkiksi **Asiakas**-sivun raportit koskevat 10 suurinta asiakasta, myyntitilastoja jne.

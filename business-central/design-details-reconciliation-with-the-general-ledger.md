@@ -13,11 +13,11 @@ ms.search.keywords: design, reconciliation, general ledger, inventory
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 2cb3e743dfd28e96a404209f086caa3f9e84be6c
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "928979"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1241687"
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Rakennetiedot: täsmäytys pääkirjanpidon kanssa
 Kun kirjaat varastotapahtumia, kuten myyntitoimituksia, tuotannon tuloksia tai negatiivisia muutoksia, ohjelma kirjaa varaston määrien muutokset nimiketapahtumiin ja varaston arvojen muutokset arvotapahtumiin. Prosessin seuraava vaihe on kirjata varastoarvot pääkirjanpidon varastotileille.  

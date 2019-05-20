@@ -13,11 +13,11 @@ ms.search.keywords: kit, kitting
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: afd3cc767cacac922352072d816fb1fc193eca8d
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "912262"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244237"
 ---
 # <a name="sell-items-assembled-to-order"></a>Kokoonpano tilausta varten -nimikkeiden myyminen
 Jos kokoonpanon nimikkeen kortin **Kokoonpanokäytäntö**-kenttä sisältää **Kokoonpano tilausta varten** -kohdan, nimikettä ei oleteta olevan varastossa, vaan se on koottava myyntitilausta varten. Kun syötät nimikkeen myyntitilausriville, kokoonpanotilaus luodaan automaattisesti ja linkitetään myyntitilaukseen.  

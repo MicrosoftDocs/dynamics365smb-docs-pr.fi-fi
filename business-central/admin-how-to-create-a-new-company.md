@@ -1,6 +1,6 @@
 ---
 title: Uuden yrityksen luominen | Microsoft Docs
-description: RapidStart Services -palvelun käyttämisessä tarvittavat taulukot ja sivut luodaan, mutta niissä ei ole tietoja.
+description: RapidStart Servicesin käyttämisessä tarvittavat taulukot ja sivut luodaan, mutta niissä ei ole tietoja.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -13,14 +13,14 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 8b534af530a7ce6d91a71ca7802938fe3573c2c2
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "932078"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1240790"
 ---
 # <a name="create-a-new-company"></a>Uuden yrityksen luominen
-Kun haluat käyttää RapidStart Services -palvelua [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmassa, luo ensin uusi yritys, jossa asiakkaan käyttöönotto suoritetaan. Kun luot uuden yhtiön, standardi [!INCLUDE[d365fin](includes/d365fin_md.md)] -taulukot ja sivut luodaan, mutta niissä ei ole tietoja.
+Kun haluat käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]in RapidStart Servicesia, luo ensin uusi yritys, jossa asiakkaan käyttöönotto suoritetaan. Kun luot uuden yhtiön, standardi [!INCLUDE[d365fin](includes/d365fin_md.md)] -taulukot ja sivut luodaan, mutta niissä ei ole tietoja.
 
 Voit lisäksi ottaa yrityksessä käyttöön tietyt asetustiedot alustamisen jälkeen. Tiedot esitetään kokoonpanopaketissa, .rapidstart-tiedostossa, joka tarjoaa sisältöä pakatussa muodossa.  
 
@@ -35,7 +35,7 @@ Luo seuraavan menettelyn avulla uusi yritys ja käytä BASICCONFIG-pakettia pros
 
 ## <a name="to-create-a-new-company"></a>Luo uusi yritys  
 1. Luo uusi yritys. Lisätietoa on kohdassa [Uusien yritysten luominen [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmassa](about-new-company.md).
-2. RapidStart Services -palvelun käyttöönottajan roolikeskukseen voi nyt tuoda määrityspaketin, joka vietiin CRONUS Finland Oy -yrityksestä.
+2. RapidStart Servicesin käyttöönottajan roolikeskuksesta voi nyt tuoda määrityspaketin, joka vietiin CRONUS Finland Oy -yrityksestä.
 
 Kun luot uuden yhtiön, joitakin taulukoita täytetään automaattisesti, vaikka yhtiömallia ei ole käytössä. Voit esimerkiksi tarkastella kirjauksen ja erätapahtumien vakiokoodeja **Lähdekoodi**-sivulla. Jos määrität [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman paikallisen version, tarkista tämä taulukko ja ota huomioon mahdolliset ongelmat paikallisen kielen kanssa.
 
@@ -76,5 +76,5 @@ Seuraavassa taulukossa on joitakin asennustaulukoita, joihin siepataan asetustie
 
 ## <a name="see-also"></a>Katso myös  
 [Kokoonpanojen käyttäminen uusissa yrityksissä](admin-apply-configuration-to-new-companies.md)  
-[Yrityksen määrittäminen RapidStart Services -palvelun avulla](admin-set-up-a-company-with-rapidstart.md)  
+[Yrityksen määrittäminen RapidStart Servicesin avulla](admin-set-up-a-company-with-rapidstart.md)  
 [Hallinta](admin-setup-and-administration.md)

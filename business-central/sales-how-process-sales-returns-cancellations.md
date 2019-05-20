@@ -11,11 +11,11 @@ ms.search.keywords: undo, credit memo, return
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: a116dd3394e8aae36661815d72db3a8b13265bcf
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "917765"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251858"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Myynnin palautusten tai peruutusten käsittely
 Jos asiakas haluaa palauttaa nimikkeitä tai saada hyvitystä nimikkeistä tai palveluista, jotka olet myynyt ja joista olet saanut maksun, sinun on luotava ja kirjattava myyntihyvityslasku, joka määrittää pyydetyn muutoksen. Voit sisällyttää oikeat myyntilaskun tiedot luomalla myyntihyvityslaskun suoraan kirjatusta myyntilaskusta. Vaihtoehtoiesti voi luoda uuden myyntihyvityslaskun, johon laskun tiedot on kopioitu.

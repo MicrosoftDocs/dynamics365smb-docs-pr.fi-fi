@@ -13,11 +13,11 @@ ms.search.keywords: project management, consumption
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: c723625bc54c7b885268946f0e7afdf54be20a2b
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "923219"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1253387"
 ---
 # <a name="record-usage-for-jobs"></a>Projektien käytön kirjaaminen
 **Projektin suunnittelurivit** -sivulla voi tarkastella ja tallentaa projektin eri osien käyttötietoja, jotka päivitetään automaattisesti, kun muokkaat ja siirrät tietoja projektin ja projektipäiväkirjan tai projektin laskujen välillä. Tämä edellyttää, että työ on määritetty siten, että **Käytä käyttölinkkiä oletusarvoisesti** on käytössä. Lisätietoja on kohdassa [Projektien määrittäminen](projects-how-setup-jobs.md).  

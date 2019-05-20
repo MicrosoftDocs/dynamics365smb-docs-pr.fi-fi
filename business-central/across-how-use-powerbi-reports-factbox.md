@@ -13,11 +13,11 @@ ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: 29c7b7656632d2103a16025848a6ddc82650353e
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "937892"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1241600"
 ---
 # <a name="viewing-list-data-in-power-bi-reports-in-business-central"></a>Power BI -raporttien luettelotietojen tarkasteleminen Business Centralissa 
 [!INCLUDE[d365fin](includes/d365fin_md.md)]in useilla tärkeillä luettelosivuilla on ohjauselementtinä tietoruutu, jolla saa lisätietoja luettelon tiedoista. Raportti päivitetään ja suodatetaan valitun tapahtuman mukaan, kun siirryt luettelon riveillä. Voit luoda mukautettuja raportteja, joissa tämä ohjausobjekti on esillä. Raportteja luotaessa on kuitenkin noudatettava tiettyjä sääntöjä, jotta ne toimisivat halutulla tavalla.  

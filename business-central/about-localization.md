@@ -11,11 +11,11 @@ ms.search.keywords: availability, localization
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: 68543b9ab74ed713ae0e4db0778c27b1e31c4f77
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "918331"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1241361"
 ---
 # <a name="local-functionality-in-included365finlongincludesd365finlongmdmd"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]in paikalliset toiminnot
 [!INCLUDE[d365fin](includes/d365fin_md.md)]in yhdistetty lokalisaatiostrategia sisältää sekä Microsoftin että kumppanin vetämät mallit. Tässä osassa on kuvaukset niissä maissa käytettävistä toiminnoista, joissa säädösten noudattaminen ja muut paikalliset toiminnot saadaan Microsoftin avulla.  

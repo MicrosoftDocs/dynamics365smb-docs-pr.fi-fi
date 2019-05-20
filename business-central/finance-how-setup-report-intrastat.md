@@ -13,11 +13,11 @@ ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: 57ac1956c2e7b22a04615c4ebd0ab5b502787a93
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "918821"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1240646"
 ---
 # <a name="how-to-set-up-and-report-intrastat"></a>Toimintaohje: Intrastat-ilmoituksen määrittäminen ja raportoiminen
 Kaikkien Euroopan unionin alueen yritysten täytyy raportoida kaupastaan muiden EU-maiden/alueiden kanssa. Tavaran liikkuminen on raportoitava kotimaan/-alueen tilastoviranomaisille kuukausittain ja raportti on toimitettava veroviranomaisille. Ohjelmassa tätä kutsutaan Intrastat-raportoinniksi. **Intrastat-ilmoitus**-sivulla voi täyttää jaksottaiset Intrastat-ilmoitukset.  

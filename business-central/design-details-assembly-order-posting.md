@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: a26cafc11479d7065645947f63fa93d28ddb824f
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "941771"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246015"
 ---
 # <a name="design-details-assembly-order-posting"></a>Rakennetiedot: kokoonpanotilauksen kirjaus
 Kokoonpanotilauksen kirjaus perustuu samoihin periaatteisiin kuin myyntitilausten ja tuotannon kulutuksen tai tuotoksen kirjauksen vastaavat toiminnot. Periaatteet on kuitenkin yhdistetty niin, että kokoonpanotilauksilla on omat kirjauksen käyttöliittymänsä, kuten myyntitilauksille on omansa ja todellinen tapahtuman kirjaus tapahtuu taustalla suorana nimikkeen ja resurssipäiväkirjan kirjauksena, kuten tuotannon kulutukselle, tuotokselle ja kapasiteetille.  

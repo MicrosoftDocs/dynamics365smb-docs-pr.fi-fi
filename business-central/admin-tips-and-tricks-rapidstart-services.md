@@ -1,26 +1,26 @@
 ---
-title: Vihjeet ja vinkit - RapidStart Services | Microsoft Docs
-description: Kun määrität yrityksiä, jotka käyttävät RapidStart Services -palvelua, on joitakin vihjeitä ja vinkkejä, joita voit hyödyntää, auttaaksesi toteutuksen sujumista.
+title: Vihjeitä – RapidStart Services | Microsoft Docs
+description: Kun määrität yrityksiä RapidStart Servicesillä, voit sujuvoittaa käyttöönottoa muutamien vihjeiden avulla.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 03/05/2018
 ms.author: sgroespe
 ms.openlocfilehash: 6a10ab0d2e4658eba4824e44527d45cbf0f33dd8
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "936910"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1243478"
 ---
-# <a name="tips-and-tricks-rapidstart-services"></a>Vihjeet ja vinkit: RapidStart Services
-Kun määrität yrityksiä, jotka käyttävät RapidStart Services -palvelua, on joitakin vihjeitä ja vinkkejä, joita voit hyödyntää, auttaaksesi toteutuksen sujumista.  
+# <a name="tips-and-tricks-rapidstart-services"></a>Vihjeitä: RapidStart Services
+Kun määrität yrityksiä RapidStart Servicesillä, voit sujuvoittaa käyttöönottoa muutamien vihjeiden avulla.  
 
 ## <a name="take-advantage-of-configuration-templates"></a>Hyödyntää kokoonpano-malleja  
 Määritysmallien avulla voit tehostaa toteutusprosessiasi. Niiden avulla voit sisällyttää samankaltaisia asiakkaita segmentteihin ja kehittää toteutusprotokollan, joka käsittelee kaikkia segmentin asiakkaita samalla tavalla. Tällä tavoin voit esimäärittää kunkin segmentin ja jatkaa nopeaa täytäntöönpanoa.  
@@ -40,5 +40,5 @@ Suosittelemme, että siirrät avaussaldot seuraavassa järjestyksessä.
 4.  Siirrä avoimet käyttöomaisuustapahtumat.  
 
 ## <a name="see-also"></a>Katso myös  
-[Yrityksen määrittäminen RapidStart Services -palvelun avulla](admin-set-up-a-company-with-rapidstart.md)  
+[Yrityksen määrittäminen RapidStart Servicesin avulla](admin-set-up-a-company-with-rapidstart.md)  
 [Hallinta](admin-setup-and-administration.md)

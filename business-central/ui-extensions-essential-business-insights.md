@@ -12,11 +12,11 @@ ms.search.keywords: BI, add-in, insight, headline, data
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: 3848005cc0159a52143903362a8f9b5e0efadfa9
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "930965"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249995"
 ---
 # <a name="the-essential-business-insights-extension"></a>Essential-liiketoimintatietojen laajennus
 Olennaisten liiketoimintanäkemysten laajennus etsii kiinnostavia liiketoimintatietoja yrityksen tiedoista ja näyttää ne sanomalehdistä tutuksi tulleiden otsikoiden tyyliin roolikeskuksissa. Näkemykset ovat edellisen viikon, edellisen kuukauden tai kolmen edellisen kuukauden ajalta riippuen siitä, millaisia tietoja laajennus löytää. Näkemykset päivitetään 10 minuutin välein.  

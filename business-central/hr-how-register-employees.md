@@ -13,11 +13,11 @@ ms.search.keywords: personnel, people, employee, staff, HR
 ms.date: 04/01/2019
 ms.author: SorenGP
 ms.openlocfilehash: db891aae40ff3d681173a7ced673a30fcf4e0629
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "934279"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1243892"
 ---
 # <a name="register-employees"></a>Työntekijöiden rekisteröiminen
 Henkilöstöhallinnan toimintojen käyttämiseksi sinun on rekisteröitävä kukin työntekijä luomalla heille kortti, joka sisältää kaikki perus- ja lisätiedot.

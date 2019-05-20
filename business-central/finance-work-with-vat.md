@@ -13,11 +13,11 @@ ms.search.keywords: VAT, sales, purchases,
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: 1665985ba00b291469146536a69a0dcfe9dec85a
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "919512"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1238898"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Myynnin ja ostojen ALV:n käsitteleminen
 Jos maasi tai alueesi edellyttää arvonlisäveron (ALV:n) laskemista myynti- ja ostotapahtumille siten, että voit ilmoittaa summat veroviranomaiselle, voit määrittää [!INCLUDE[d365fin](includes/d365fin_md.md)]in laskemaan ALV:n automaattisesti myynti- ja ostoasiakirjoissa. Lisätietoja on kohdassa [Arvolisäveron laskelmien ja kirjausmenetelmien määrittäminen](finance-setup-vat.md).

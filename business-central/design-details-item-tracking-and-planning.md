@@ -13,11 +13,11 @@ ms.search.keywords: design, item, item ledger, costing
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: ddb2cd65abc96e27486782a1e9c9937858920f7c
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "916418"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1243018"
 ---
 # <a name="design-details-item-application"></a>Rakennetiedot: Nimikkeen kohdistus
 Kun kirjaat varastotapahtuman, määrän kirjaus tallennetaan nimiketapahtumiin ja arvon kirjaus arvotapahtumiin. Lisätietoja on ohjeaiheessa [Rakenteen tiedot: Varaston kirjaus](design-details-inventory-posting.md).  

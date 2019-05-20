@@ -13,11 +13,11 @@ ms.search.keywords: payment process, direct payment posting, reconcile payment, 
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 124b3e82a38af375128353d977cc250aa9f94cf8
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "921653"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251398"
 ---
 # <a name="applying-payments-automatically-and-reconciling-bank-accounts"></a>Maksujen kohdistaminen automaattisesti ja pankkitilien täsmäyttäminen
 Pankin, myyntisaamisten ja ostovelkojen tilit on täsmäytettävä säännöllisesti kohdistamalla pankkiin tallennetut maksut niiden vastaaviin maksamattomiin laskuihin ja hyvityslaskuihin tai muihin avoimiin tapahtumiin [!INCLUDE[d365fin](includes/d365fin_md.md)]issa.  
@@ -26,7 +26,7 @@ Voit suorittaa tämän tehtävän **Maksujen täsmäytyskirjauskansio** -sivulla
 
 Voit täsmäyttää pankkitilejä myös niin, että maksuja ei kohdisteta samanaikaisesti. Voit tehdä tämän **Pankkitilin täsmäytys** -sivulla. Lisätietoja on kohdassa [Pankkitilin täsmäyttäminen erikseen](bank-how-reconcile-bank-accounts-separately.md).   
 
-Voit tuoda pankin tiliotteet pankkisyötteenä määrittämällä ensin Envestnet Yodlee -pankkisyötepalvelun ja linkittämällä sitten pankkitilit liittyviin verkkopankkitileihin. Lisätietoja on kohdassa [Envestnet Yodlee -pankkisyötepalvelun määrittäminen](bank-how-setup-bank-statement-service.md).  
+Voit tuoda pankin tiliotteet pankkisyötteenä määrittämällä ensin Envestnet Yodlee Bank Feeds -palvelun ja linkittämällä sitten pankkitilit liittyviin verkkopankkitileihin. Lisätietoja on kohdassa [Envestnet Yodlee Bank Feeds -palvelun määrittäminen](bank-how-setup-bank-statement-service.md).  
 
 Vaihtoehtoisesti voit käyttää pankkitietojen muuntopalvelua muuntaessasi minkä tahansa muotoisen pankin tiliotteen tietovirraksi, jonka voit tämän jälkeen tuoda [!INCLUDE[d365fin](includes/d365fin_md.md)]iin. Lisätietoja on kohdassa [Pankkitietojen muuntopalvelun määrittäminen](bank-how-setup-bank-data-conversion-service.md).  
 

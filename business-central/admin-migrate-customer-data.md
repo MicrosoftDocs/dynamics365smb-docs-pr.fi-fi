@@ -1,6 +1,6 @@
 ---
 title: Asiakastietojen siirtäminen | Microsoft Docs
-description: Voit siirtää aiemmin luodun asiakkaan tiedot aiemmin luodusta ERP-järjestelmästä Business Central -sovellukseen RapidStart Services -palvelun avulla. Voit käyttää Excelin .xlsx-tiedostoja tiedonkuljettajana. Voit siirtää tiedot manuaalisesti kirjoittamalla ne suoraan yrityksen.
+description: Voit siirtää aiemmin luodun asiakkaan tiedot aiemmin luodusta ERP-järjestelmästä Business Centraliin RapidStart Servicesin avulla. Voit käyttää Excelin .xlsx-tiedostoja tiedonkuljettajana. Voit siirtää tiedot manuaalisesti kirjoittamalla ne suoraan yrityksen.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -13,14 +13,14 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 3a3e42d9468c9f1a8d23afd8284e210fa7145c3c
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "953508"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247161"
 ---
 # <a name="migrate-customer-data"></a>Asiakastietojen siirtäminen
-Voit siirtää aiemmin luodun asiakkaan tiedot aiemmin luodusta ERP-järjestelmästä [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmaan RapidStart Services -palvelun tietojen siirto-työkalujen avulla. Voit käyttää Excel-tiedostoja tiedonkuljettajana. Voit siirtää tiedot manuaalisesti kirjoittamalla ne suoraan yrityksen.
+Voit siirtää aiemmin luodun asiakkaan tiedot aiemmin luodusta ERP-järjestelmästä [!INCLUDE[d365fin](includes/d365fin_md.md)]iin RapidStart Servicesin tietojen siirto-työkalujen avulla . Voit käyttää Excel-tiedostoja tiedonkuljettajana. Voit siirtää tiedot manuaalisesti kirjoittamalla ne suoraan yrityksen.
 
 **Siirron yleiskuvaus**- ja **Määritä työkirja** -sivut mahdollistavat toimintojen käyttämisen ja kaikkien tietojen siirtoon liittyvien tehtävien suorittamiseen näkymissä. On suositeltavaa siirtää yksi taulukkoo kerrallaan tietojen riippuvuuksien käsittelemiseksi. Siirrossa käytetään myös päätietotaulukoita, jotka sisältävät tietoja asiakkaista, toimittajista, nimikkeistä, kontakteista ja pääkirjanpidosta.  
 
@@ -28,9 +28,9 @@ Voit siirtää aiemmin luodun asiakkaan tiedot aiemmin luodusta ERP-järjestelm�
 Kun luot uuden yhtiön, voit tuoda yrityksen asetukset uudelle yritykselle. Voit tuoda asetukset .rapidstart-tiedostosta, joka toimittaa paketin sisällön pakatussa muodossa. Vastaava joukko oletustietojen siirtotaulukoita tuodaan. Tietojoukko sisältää pää- ja asetustietotaulukot. Ensimmäinen tehtäväsi tietojen siirrossa on arvioida, vastaavatko siirron oletusasetukset uuden yrityksen tarpeita.
 
 > [!NOTE]  
->  Et voi nimetä uudelleen tiedostoa, joka ei ole jo RapidStart Services -palvelun määrityspaketti, kuten .rapidstart-määrityspaketin tiedosto, ja sitten yrittää tuoda se. Jos yrität tehdä tämän, saat virheilmoituksen.  
+>  Et voi nimetä uudelleen tiedostoa, joka ei ole jo RapidStart Services kokoonpanopaketti, kuten .rapidstart-kokoonpanopakettitiedosto, ja sitten yrittää tuoda sitä. Jos yrität tehdä tämän, saat virheilmoituksen.  
 
-Ennen kuin aloitat, varmista, että olet RapidStart Services -palvelun käyttöönottajien roolikeskuksen sivulla.
+Ennen kuin aloitat, varmista, että olet RapidStart Servicesin käyttöönottajien roolikeskuksen sivulla.
 
 > [!IMPORTANT]  
 >  Kun yrityksen tietokantojen välillä tuodaan tai viedään määrityspaketteja, tietokantojen tulisi noudattaa samaa rakennetta, jotta kaikki tiedot siirtyvät onnistuneesti. Tämä tarkoittaa, että tietokannoilla tulisi olla sama taulukko- ja kenttärakenne, jossa taulukoilla on samat ensisijaiset avaimet ja kentillä on samat tunnukset ja tietotyypit.  
@@ -189,5 +189,5 @@ Näet tietokantatietueita, jotka on luotu **Tietokantatietueiden määrä** -ken
 Asiakkaan yritystietokanta on nyt valmiiksi asetettu ja perustiedot tuodaan. Seuraavaksi täytäntöönpanoprosessissa on käyttäjien kouluttaminen, prosessien määrittäminen, uusien tietojen luominen, raporttien mukauttaminen jne.
 
 ## <a name="see-also"></a>Katso myös  
-[Yrityksen määrittäminen RapidStart Services -palvelun avulla](admin-set-up-a-company-with-rapidstart.md)  
+[Yrityksen määrittäminen RapidStart Servicesin avulla](admin-set-up-a-company-with-rapidstart.md)  
 [Hallinta](admin-setup-and-administration.md)

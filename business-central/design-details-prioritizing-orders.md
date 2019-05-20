@@ -4,27 +4,26 @@ description: Lisätietoja kysynnän ja tarjonnan vaatimusten priorisoinnista.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, priority, prioritize, order, sku, demand, supply
-ms.date: 04/01/2019
+ms.date: 07/01/2017
 ms.author: sgroespe
-redirect_url: design-details-balancing-demand-and-supply
 ms.openlocfilehash: 06eb5221369d8777330ae844adfb5d87658d591d
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "924208"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1238622"
 ---
 # <a name="design-details-prioritizing-orders"></a>Rakennetiedot: tilausten priorisointi
 Pyydetty tai käytettävissä oleva päivämäärä edustaa annetun varastointiyksikön korkeinta prioriteettia. Tämän päivän kysyntä tulee käsitellä ennen seuraavan viikon kysyntää. Mutta tämän kokonaisprioriteetin lisäksi suunnittelujärjestelmä suosittelee myös kysynnän tyyppiä, joka olisi täytettävä ennen toisen kysynnän täyttämistä. Vastaavasti se ehdottaa mitä tarjontalähdettä olisi sovellettava ennen muiden tarjontalähteiden käyttämistä. Tämä tehdään tilauksen prioriteettien mukaan.  
-
+  
 Ladattu kysyntä ja tarjonta lisätään arvioidun varaston profiiliin seuraavilla prioriteeteilla:  
-
+  
 ## <a name="priorities-on-the-demand-side"></a>Kysyntäpuolen prioriteetit  
 1. Jo toimitettu: nimiketapahtuma  
 2. Ostopalautustilaus  
@@ -35,10 +34,10 @@ Ladattu kysyntä ja tarjonta lisätään arvioidun varaston profiiliin seuraavil
 7. Lähtevä siirtotilaus  
 8. Puitetilaus (jota liittyvä myyntitilaukset eivät ole vielä käyttäneet)  
 9. Ennuste (jota muut myyntitilaukset eivät ole vielä kuluttaneet)  
-
+  
 > [!NOTE]  
 >  Ostopalautuksia ei tavallisesti sisällytetä tarjonnan suunnittelun, ne tulisi aina varata erästä,joka aiotaan palauttaa. Jos se ei ole varattuna, ostopalautukset vaikuttavat saatavuuteen ja ne priorisoidaan erittäin korkealle, jotta vältetään mahdollisuus, että suunnittelujärjestelmä ehdottaa toimitustilausta vain ostopalautuksen käsittelemiseksi.  
-
+  
 ## <a name="priorities-on-the-supply-side"></a>Tarjontapuolen prioriteetit  
 1. Jo varastossa: nimiketapahtuma (suunnittelun joustavuus = ei mitään)  
 2. Myynnin palautustilaus (suunnittelun joustavuus = ei mitään)  
@@ -46,16 +45,16 @@ Ladattu kysyntä ja tarjonta lisätään arvioidun varaston profiiliin seuraavil
 4. Tuotantotilaus  
 5. Kokoonpanotilaus  
 6. Ostotilaus  
-
+  
 ## <a name="priority-related-to-the-state-of-demand-and-supply"></a>Kysynnän ja tarjonnan tilaan liittyvä prioriteetti  
 Riippumatta kysynnän ja tarjonnan määrittämistä prioriteeteista, nykyinen tila suoritusprosessissa määrittää myös prioriteetin. Esimerkiksi varastoinnin aktiviteeteilla on vaikutus ja myyntien tila, osto-, siirto-, kokoonpano- ja tuotantotilaukset otetaan huomioon:  
-
+  
 1. Osittain käsitelty (suunnittelun joustavuus = ei mitään)  
 2. Jo käsittelyssä varastossa (suunnittelun joustavuus = ei mitään)  
 3. Julkaistu - kaikki tilaustyypit (suunnittelun joustavuus = rajoittamaton)  
 4. Sitovasti suunniteltu tuotantotilaus (suunnittelun joustavuus = rajoittamaton)  
 5. Suunniteltu/avoin – kaikki tilaustyypit (suunnittelun joustavuus = rajoittamaton)  
-
+  
 ## <a name="see-also"></a>Katso myös  
 [Rakennetiedot: kysynnän ja tarjonnan täsmäytys](design-details-balancing-demand-and-supply.md)   
 [Rakennetiedot: suunnittelujärjestelmän keskeiset käsitteet](design-details-central-concepts-of-the-planning-system.md)   

@@ -13,11 +13,11 @@ ms.search.keywords: API templates, configuring templates
 ms.date: 04/01/2019
 ms.author: solsen
 ms.openlocfilehash: ef6b6d89ccea59de6a87c062cc6e29a27abe2c88
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "921384"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245476"
 ---
 # <a name="configuring-api-templates"></a>API-mallien määritys
 [!INCLUDE[d365fin_md](includes/d365fin_md.md)]:n API-kirjasto on taustalla olevien objektien yksinkertaistettu esitys. Sovelluksen kaiki ominaisuudet eivät näy liittyvän API:n kautta. **API-asetukset** -sivulla voidaan määrittää malleja, joita käytetään täyttämään objektin tyhjät ominaisuudet, kun luot POST-toiminnon API:n kautta 
@@ -47,5 +47,5 @@ Määritettyä mallia käytetään API:n kautta luotuun uuteen tietueeseen vain 
 [Connect-sovellusten luominen ratkaisulle [!INCLUDE[d365fin_md](includes/d365fin_md.md)]](/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps)  
 [API-liittymien ottaminen käyttöön](/dynamics-nav/enabling-apis-for-dynamics-nav)  
 [API-liittymien päätepisteet](/dynamics-nav/endpoints-apis-for-dynamics)  
-[Yrityksen määrittäminen RapidStart Services -palvelun avulla](admin-set-up-a-company-with-rapidstart.md)  
+[Yrityksen määrittäminen RapidStart Servicesin avulla](admin-set-up-a-company-with-rapidstart.md)  
 [Hallinta](admin-setup-and-administration.md)

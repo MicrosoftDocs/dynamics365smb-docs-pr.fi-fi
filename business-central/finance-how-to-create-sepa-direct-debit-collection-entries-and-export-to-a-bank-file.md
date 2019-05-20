@@ -12,11 +12,11 @@ ms.date: 04/01/2019
 ms.author: sgroespe
 redirect_url: finance-collect-payments-with-sepa-direct-debit
 ms.openlocfilehash: 4032fd0708dcb0d420045563354677c049321f7d
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "939056"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1238967"
 ---
 # <a name="create-sepa-direct-debit-collection-entries-and-export-to-a-bank-file"></a>SEPA-suoraveloitusperintätapahtumien luominen ja vieminen pankkitiedostoon
 Jos haluat ohjata pankin siirtämään maksusumman asiakkaan pankkitililtä yrityksesi tilille, luo suoraveloitusperintätapahtuma, joka säilyttää tiedot asiakkaan pankkitilistä, kyseisestä myyntilaskuista ja suoraveloitusvaltakirjasta. Syntyvästä suoraveloitusperintämerkinnästä viet sitten XML-tiedoston, jonka lähetät tai lataat verkkopankkiin käsittelyä varten. Kaikista maksuista, joita pankki ei voinut käsitellä, tiedotetaan sinulle pankin toimesta. Sinun täytyy sitten manuaalisesti hylätä kyseessä olevat suoraveloitusmerkinnät.  

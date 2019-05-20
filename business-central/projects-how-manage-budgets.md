@@ -13,11 +13,11 @@ ms.search.keywords: project budget, forecast
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: ba7cb69373cb9e311f6ef203edfff0d8e2150ea1
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "925669"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1253344"
 ---
 # <a name="manage-job-budgets"></a>Projektibudjettien hallinta
 Jokaiselle projektille voi määrittää budjetin. Budjettia käytetään projektille kohdistettavien resurssien suunnittelussa. Budjetti voi olla joko yleisluonteinen budjetti, joka sisältää vain vähän tapahtumia, tai se voi sisältää monia tapahtumia, jotka on jaettu toimintotasoille. Voit verrata budjetoituja summia projektipäiväkirjaan kirjattuun todelliseen käyttöön. Kun valvot todellisen ja budjetoidun käytön välisiä eroja, voit hallita suoritettavaa projektia ja parantaa tulevien projektien laatua pienentämällä kustannusten aliarvioinnin riskiä.

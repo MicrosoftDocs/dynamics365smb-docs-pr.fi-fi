@@ -14,11 +14,11 @@ ms.date: 04/01/2019
 ms.author: jswymer
 redirect_url: marketing-create-contact-companies
 ms.openlocfilehash: ccddaa5d1c1a5a31c6b82b99520b90bb28fe64dd
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "937868"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1238392"
 ---
 # <a name="create-a-customer-vendor-or-bank-account-from-a-contact"></a>Asiakkaan, toimittajan tai pankkitilin luominen kontaktista
 Haluat ehkä tallentaa jotkin aiemmin luoduista kontakteistasi asiakkaina, toimittajina tai pankkitileinä. Kun asiakas, toimittaja tai pankkitili luodaan kontaktista, voit käyttää aiemmin luotuja tietoja. Kun luot asiakkaan, toimittajan tai pankkitilin tällä tavalla, se synkronisoidaan kontaktin kanssa. Synkronoimisen avulla kontaktien ja asiakkaiden, toimittajien tai pankkitilien yhteiset tiedot säilyvät samoina.

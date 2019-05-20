@@ -4,21 +4,20 @@ description: Tässä ohjeaiheessa kerrotaan, miten kontakti linkitetään saman 
 services: project-madeira
 documentationcenter: ''
 author: jswymer
-ms.service: dynamics365-business-central
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2019
+ms.date: 06/06/2017
 ms.author: jswymer
-redirect_url: marketing-create-contact-companies
 ms.openlocfilehash: 3db94f55657b08e06a4691b2bd78791da4f26bf5
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "926484"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1238304"
 ---
 # <a name="link-contacts-with-customers-vendors-and-bank-accounts"></a>Kontaktien linkittäminen asiakkaiden, toimittajien ja pankkitilien kanssa
 Jos kontakti ja joko asiakas, toimittaja tai pankkitili ovat samassa yrityksessä, voit linkittää nämä kaksi objektia. Kahden objektin linkittäminen mahdollistaa yhteisten tietojen synkronoimisen. Tällöin ne ovat samat molemmissa paikoissa.

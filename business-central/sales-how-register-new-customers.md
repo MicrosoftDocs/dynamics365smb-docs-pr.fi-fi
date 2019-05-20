@@ -13,11 +13,11 @@ ms.search.keywords: client
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 45fb2f1ac2b9d26e74e625321a64b4a5033880bf
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "917091"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252502"
 ---
 # <a name="register-new-customers"></a>Uusien asiakkaiden rekisteröinti
 Asiakkaat ovat tulonlähteesi. Jokainen asiakas, jolle myyt, on rekisteröitävä asiakaskorttina. Asiakkaan kortit sisältävät tietoja, jotka tarvitaan tuotteiden asiakkaalle myymistä varten. Lisätietoja on kohdissa [Myynnin laskutus](sales-how-invoice-sales.md) ja [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md).  

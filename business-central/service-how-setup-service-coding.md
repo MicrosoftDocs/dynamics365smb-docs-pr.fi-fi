@@ -13,11 +13,11 @@ ms.search.keywords: service, service item, service order, repairs, maintenance
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: dace0edec8dac567a0a10642450eb15644d8fcaa
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "935778"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251490"
 ---
 # <a name="set-up-standard-service-codes"></a>Vakiohuoltokoodien määrittäminen
 Kun suoritat tavallisen huollon, sinun on usein luotava samat tiedot sisältävät huoltoasiakirjat ja huoltorivit. Voit helpottaa näiden rivien luontia määrittämällä vakiohuoltokoodit, joilla on valmiiksi määritettyjä rivejä. Kun valitset koodin huoltoasiakirjassa, rivit annetaan automaattisesti. Voit määrittää haluamasi määrän vakiohuoltokoodeja, ja kullakin koodilla voi olla rajoittamaton määrä erilaisia linkitettyjä huoltorivejä, kuten nimike, resurssi, kustannus tai vakioteksti. Kunkin vakiohuoltokoodin huoltorivit luodaan **Vakiohuoltokoodi** -kortissa. Voit määrittää vakiohuoltokoodit sitten huoltonimikeryhmiin **Huoltonimikeryhmän vakiokoodit** -sivulla. Kun luot myöhemmin huoltoasiakirjan, voit lisätä huoltorivejä **Hae vakiohuoltokoodit** -toiminnolla.  

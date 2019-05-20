@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: jswymer
 ms.openlocfilehash: 5af662dcef893c04ea83f7051c63c53ec5d1e783
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "933930"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1248267"
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Kenttien lisääminen Word-raporttiasetteluun
 Raportin tietojoukko voi sisältää kenttiä, joissa näkyvät otsikot, tiedot ja kuvat. Tässä ohjeaiheessa käsitellään raportin tietojoukon kenttien lisääminen olemassa olevaan raportin Word-raporttiasetteluun. Lisäät kenttiä käyttämällä raportille mukautettua XML-osaa ja lisäämällä sisällön ohjausobjekteja, jotka on yhdistetty raportin tietojoukon kenttiin. Kenttien lisääminen edellyttää, että tunnet jonkin raportin tietojoukon niin, että voit tunnistaa kentät, jotka haluat lisätä asetteluun.  

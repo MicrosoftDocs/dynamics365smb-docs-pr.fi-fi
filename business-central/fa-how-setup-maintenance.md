@@ -13,11 +13,11 @@ ms.search.keywords: repair, service
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: ba01ccb88349a1f1943655949a36e2a21f3ae2de
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "913893"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244491"
 ---
 # <a name="set-up-fixed-asset-maintenance"></a>Käyttöomaisuuden huollon määrittäminen
 Kun haluat hallita käyttöomaisuuden kunnossapitoa, määritä ensin joitakin yleisiä kunnossapitotietoja, kunnossapitokustannusten kirjaustili ja työtyyppien, kuten rutiinihuollon tai korjauksen, kunnossapitokoodit.

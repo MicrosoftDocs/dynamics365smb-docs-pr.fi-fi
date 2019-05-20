@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 814e67d24abd6cfaeed48471ce9fc60b2bdfaab8
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "939322"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244976"
 ---
 # <a name="enable-workflows"></a>Työnkulkujen ottaminen käyttöön
 Kun olet luonut työnkulun ja olet varma, että se on valmis, työnkulku on otettava käyttöön.  

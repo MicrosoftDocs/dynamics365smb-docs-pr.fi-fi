@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: f45c359dcd65a4eae428208a17c392077d24f073
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "921456"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244444"
 ---
 # <a name="managing-data-encryption"></a>Tietojen salauksen hallinta
 [!INCLUDE[d365fin](includes/d365fin_md.md)] -palvelimen tiedot voi salata luomalla uusia salausavaimia tai tuomalla aiemmin luotuja salausavaimia, jotka otetaan käyttöön tietokantayhteyden muodostavassa [!INCLUDE[d365fin](includes/d365fin_md.md)] -palvelininstanssissa.

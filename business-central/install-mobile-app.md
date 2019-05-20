@@ -11,11 +11,11 @@ ms.search.keywords: phone, tablet
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: 48dd62ab962c2a3ee0ad243a9e7d00d953c60dca
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "912387"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244536"
 ---
 # <a name="getting-business-central-on-your-mobile-device"></a>Business Central -sovelluksen hakeminen mobiililaitteeseen
 Voit käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietoja mobiililaitteella. Voit siirtyä liiketoimintatiedoissa, käyttää erilaisia toimintoja, kuten lähettää tietoja Exceliin ja Office 365:een, tarkastella päivitettyjä kaavioita ja tunnuslukuja, lähettää myyntitarjouksia ja -laskuja sähköpostitse sekä ottaa kameralla kuvia ja liittää niitä. Noudattamalla seuraavia ohjeita voit ladata sovelluksen ja aloittaa.

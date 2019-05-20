@@ -11,11 +11,11 @@ ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: e52010384de83d95011cb29a88cad17a5eba817c
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "940108"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247138"
 ---
 # <a name="synchronizing-data-in-business-central-and-dynamics-365-for-sales"></a>Tietojen synkronointi Business Centralissa ja Dynamics 365 for Salesissa
 Kun [!INCLUDE[crm_md](includes/crm_md.md)] ja [!INCLUDE[d365fin](includes/d365fin_md.md)] integroidaan, voit päättää, synkronoidaanko [!INCLUDE[d365fin](includes/d365fin_md.md)] -tietueiden (kuten asiakkaiden, kontaktien ja myyjien) valittujen kenttien tiedot vastaavien [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietueiden (kuten tilien, yhteyshenkilöiden ja käyttäjien) kanssa. Tietueen tyypin mukaan voit synkronoida tietoja [!INCLUDE[crm_md](includes/crm_md.md)]ista [!INCLUDE[d365fin](includes/d365fin_md.md)]iin ja päin vastoin. Lisätietoja on kohdassa [Dynamics 365 for Sales -integrointi](admin-prepare-dynamics-365-for-sales-for-integration.md).  

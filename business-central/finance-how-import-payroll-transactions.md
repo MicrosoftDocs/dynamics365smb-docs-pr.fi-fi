@@ -11,11 +11,11 @@ ms.search.keywords: Ceridian, Quickbooks, salary
 ms.date: 04/01/2019
 ms.author: SorenGP
 ms.openlocfilehash: c483b50e7f1456c06ace27d3893c04a3d59e6ab8
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "924969"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1243823"
 ---
 # <a name="import-payroll-transactions"></a>Tuo palkkatapahtumat
 Jotta palkanmaksut ja liittyvät tapahtumat voidaan käsitellä, palkanlaskennan tarjoajan tekemät rahoitustapahtumat on tuotava ja kirjattava pääkirjanpitoon. Voit tehdä tämän tuomalla ensin palkanlaskennan tarjoajalta saadun csv-tiedoston **Yleinen päiväkirja** -sivulle. Linkitä sitten ulkoiset tilit palkanlaskentatiedostoon soveltuvissa KP-tileissä. Kirjaa lopuksi palkkatapahtumat tilin yhdistämisen perusteella.

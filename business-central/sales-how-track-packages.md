@@ -12,11 +12,11 @@ ms.search.keywords: rfq
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: f6583c75fcc3268b6e081122d1e5bbe2ad60acd8
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "923879"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251559"
 ---
 # <a name="track-packages"></a>Kollien seuraaminen
 Osa kuljetusliikkeistä tarjoaa Internet-palveluja, joiden avulla voi seurata kuljetusliikkeelle luovutettuja paketteja. Jos käytät yhtä tai useampaa tällaista kuljetusliikettä, voit määrittää tiettyjä perustietoja ohjelmaan. Jälkeenpäin voit käyttää kirjattujen toimitusten automaattista seurantaominaisuutta. Lisätietoja on kohdassa [Kuljetusliikkeiden määrittäminen](sales-how-to-set-up-shipping-agents.md).  

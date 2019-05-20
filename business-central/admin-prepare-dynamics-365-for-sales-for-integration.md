@@ -13,11 +13,11 @@ ms.search.keywords: sales, crm, integration, integrating
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: 991d8432c24b1963da019e3c8b665f9ad009d077
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "940099"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247278"
 ---
 # <a name="integrating-with-dynamics-365-for-sales"></a>Integrointi Dynamics 365 for Salesin kanssa
 Myyjää pidetään usein liiketoiminnan eniten ulospäin suuntautuneena tehtävänä. Myyjien voisi kuitenkin olla hyödyllistä tarkastella liiketoimintaa myös sisäisesti, jotta he tiedostaisivat, mitä taustalla tapahtuu. [!INCLUDE[d365fin](includes/d365fin_md.md)]in ja [!INCLUDE[crm_md](includes/crm_md.md)]in integroinnin ansiosta myyjät saavat merkityksellisiä tietoja, joiden avulla he voivat tarkastella [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietoja [!INCLUDE[crm_md](includes/crm_md.md)]ia käyttäessään. Myyntitarjousta valmistellessa voi esimerkiksi olla hyödyllistä tietää, riittääkö varasto tilauksen täyttämiseen. Lisätietoja on kohdassa [Dynamics 365 for Salesin käyttäminen Business Centralista](marketing-integrate-dynamicscrm.md).

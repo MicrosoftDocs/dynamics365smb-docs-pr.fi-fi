@@ -11,11 +11,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 7b9bfeea6a4a3f93559d49319257053aef2f7bec
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "934162"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249084"
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Vaihekuvaus: Myyntikampanjan suorittaminen
 Kampanja voi olla mikä tahansa toimi, jossa on mukana useita kontakteja. Kampanjan määrittämisen tärkeä osa liittyy kampanjan kohderyhmän valitsemiseen. Tätä tarkoitusta varten [!INCLUDE[d365fin](includes/d365fin_md.md)]:ssa luodaan segmentti tai yhteystietoryhmä suodattimien avulla.  

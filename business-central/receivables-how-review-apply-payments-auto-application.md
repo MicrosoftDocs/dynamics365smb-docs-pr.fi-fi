@@ -13,11 +13,11 @@ ms.search.keywords: payment process, reconcile payment, expenses, cash receipts
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 3c175e15c9a1cf1fae4879a520c26232195b289d
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "931888"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251789"
 ---
 # <a name="review-or-apply-payments-manually-after-automatic-application"></a>Maksujen tarkasteleminen tai kohdistaminen automaattisen kohdistuksen jälkeen
 Voit avata kullekin **Maksujen täsmäytyskirjauskansio** -sivulla maksua esittävälle päiväkirjan riville **Maksun kohdistus** -sivun ja tarkastella kaikkia mahdollisia avoimia maksuja ja yksityiskohtaisia tietoja merkintöjen täsmäytyksestä, joihin maksujen kohdistus perustuu. Tässä voit kohdistaa maksuja manuaalisesti tai kohdistaa uudelleen maksuja, joka kohdistettiin automaattisesti väärään merkintään. Lisätietoja automaattisesta kohdistuksesta on kohdassa [Maksujen täsmäyttäminen käyttämällä automaattista kohdistusta](receivables-how-reconcile-payments-auto-application.md).

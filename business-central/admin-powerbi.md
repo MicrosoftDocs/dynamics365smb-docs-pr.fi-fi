@@ -8,27 +8,35 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 04/01/2019
+ms.date: 04/26/2019
 ms.author: edupont
-ms.openlocfilehash: f51de349c4b13eaabd185cdb728d59006dfe6db6
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: a999a9533aa2dd4e8dcadea04e7838305b34ba5b
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "916372"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247494"
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Yritystietojen ottaminen käyttöön Power BI:tä varten
 Lisätietojen hakeminen [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietoihin on helppoa Power BI- ja [!INCLUDE[d365fin](includes/d365fin_md.md)] -sisältöpakettien avulla. Power BI hakee tiedot ja muodostaa näiden tietojen perusteella valmiin koontinäytön ja raportit.  
 
 Sinulla on oltava kelvollinen Dynamics 365- ja Power BI -tili. Lisäksi [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) on ladattava, jos haluat luoda oman Power BI -raportteja. Power BI -sisältöpakettien käyttöä varten tarvitaan niiden taulukoiden käyttöoikeus, joista tiedot noudetaan. Lisätietoja on vaatimuksista on jäljempänä.  
 
+> [!IMPORTANT]
+> Tässä artikkelissa käsitellyt sisältöpaketit on suunniteltu käyttämään Azure Active Directorya todennusmekanismina. Jos käytät paikallista [!INCLUDE [prodshort](includes/prodshort.md)]ia ja jotain muuta todennusmekanismia, Power BI ei voi muodostaa yhteyttä tietoihin.  
+
 Microsoft on julkaissut seuraavat sisältöpaketit:
 
-| Sovellus | Description |
-| --- | --- |
-| Microsoft Business Central | Sisältää koontinäytön, jossa on tärkeitä aikaperusteisia taloustietoja, kuten tulojen ja menojen vertailu, käyttökate ja käyttöpääomasykli.|
-| Microsoft Business Central - CRM | Sisältää koontinäytön, jossa on tärkeitä tietoja myyntimahdollisuuksista ja kontakteista.  |
-| Microsoft Business Central - Myynti | Sisältää koontinäytön, jossa on tärkeitä tietoja myynnistä ja varastosta. |
+- [!INCLUDE [prodlong](includes/prodlong.md)] – CRM  
+- [!INCLUDE [prodlong](includes/prodlong.md)] – asiakasluettelo  
+- [!INCLUDE [prodlong](includes/prodlong.md)] – rahoitus  
+- [!INCLUDE [prodlong](includes/prodlong.md)] – nimikeluettelo  
+- [!INCLUDE [prodlong](includes/prodlong.md)] – projektit  
+- [!INCLUDE [prodlong](includes/prodlong.md)] – projektiluettelo  
+- [!INCLUDE [prodlong](includes/prodlong.md)] – ostolaskut  
+- [!INCLUDE [prodlong](includes/prodlong.md)] – myynti  
+- [!INCLUDE [prodlong](includes/prodlong.md)] – myyntitilausluettelo.  
+- [!INCLUDE [prodlong](includes/prodlong.md)] – toimittajaluettelo  
 
 ## <a name="using-the-dashboards"></a>Koontinäyttöjen käyttäminen
 Kussakin sisältöpaketissa on raportteja, joilla voi porautua tietoihin:
@@ -47,14 +55,14 @@ Sisältöpaketit on määritetty etukäteen niin, että niitä voidaan käyttä�
 1. Valitse **Nouda tiedot** vasemman siirtymisruudun alareunassa.  
 ![Siirtyminen tietoja noudettaessa](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
 
-Voit ehkä aloittaa käyttämisen Dynamics 365 Business Editionista. Valitse roolikeskuksen Power BI -roolikeskuksessa **Raporttivalinta**. Valitse valintanauhassa joko **Palvelu** tai **Oma organisaatio**. Kun jompikumpi vaihtoehto valitaan, siirry joko Power BI:n organisaatiovalikoimaan tai Power BI:n palvelukirjastoon, joka voidaan myös suodattaa näyttämään vain [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]iin liittyvät sisältöpaketit.
+Voit ehkä aloittaa käyttämisen [!INCLUDE [prodshort](includes/prodshort.md)]ista. Valitse roolikeskuksen Power BI -roolikeskuksessa **Raporttivalinta**. Valitse valintanauhassa joko **Palvelu** tai **Oma organisaatio**. Kun jompikumpi vaihtoehto valitaan, siirry joko Power BI:n organisaatiovalikoimaan tai Power BI:n palvelukirjastoon, joka voidaan myös suodattaa näyttämään vain [!INCLUDE[prodshort](includes/prodshort.md)]iin liittyvät sisältöpaketit.
 
 2. Valitse **Palvelut**-ruudussa **Hae**. Avautuvalla sivulla näkyy **AppSource** ja **Power BI -sovellusten sovellukset**.  
 ![Sisältöpakettien valitseminen verkkopalveluista](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-online-services-get.png)
 3. Valitse ensin **Sovellukset** **Power BI -sovellusten sovellukset** -välilehdessä ja sitten käytettävä **Microsoft Dynamics 365 Business Central** -sisältöpaketti. Valitse lopuksi **Hae se nyt**.  
 ![Valitse ensin Dynamics 365 Business Central ja sitten Hae se nyt](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-dynamics365-for-financials-get-it-now.png)
 4. Anna kysyttäessä *yrityksen nimi* [!INCLUDE[d365fin_md](includes/d365fin_long_md.md)]issa. Se ei ole näyttönimi. Yrityksen nimi sijaitsee [!INCLUDE[d365fin_md](includes/d365fin_long_md.md)] -instanssin Yritykset-sivulla.  
-![Valitse ensin Dynamics 365 Business Central ja sitten Hae se nyt](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-connect-to-d365-finance-and-operations-crm.png)
+![Valitse ensin Dynamics 365 Business Central ja sitten Hae se nyt](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-connect-to-d365-business-central-finance.png)
 5. Kun yhteys on muodostettu, koontinäyttö, raportti ja tietojoukko ladataan automaattisesti Power BI -työtilaan. Kun tämä on tehty, ruudut päivittävät tiedot [!INCLUDE[d365fin_md](includes/d365fin_long_md.md)] -yrityksestä.
 ![Valitse ensin Dynamics 365 Business Central ja sitten Hae se nyt](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
 
@@ -68,7 +76,7 @@ Voit ehkä aloittaa käyttämisen Dynamics 365 Business Editionista. Valitse roo
 ## <a name="system-requirements"></a>Järjestelmävaatimukset
 Jos haluat tuoda [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]in tietoja Power BI:hen, sinulla on oltava tietojen noutamiseen käytettävien verkkopalvelujen käyttöoikeudet. Kunkin sisältöpaketin kanssa on käytettävä esimerkiksi seuraavia verkkopalveluja:
 
-## <a name="role-center-reports"></a>Roolikeskuksen raportit
+### <a name="role-center-reports"></a>Roolikeskuksen raportit
 
 **Microsoft Dynamics 365 Business Central – CRM**
 - Myyntimahdollisuudet
@@ -92,7 +100,7 @@ Jos haluat tuoda [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]in tiet
 - Excel-malli Näytä yritys
 - Power BI -raporttien selitteet
 
-## <a name="list-page-reports"></a>Luettelosivun raportit
+### <a name="list-page-reports"></a>Luettelosivun raportit
 
 **Microsoft Dynamics 365 Business Central – Customers List**
 - Asiakaskohtainen nimikemyynti

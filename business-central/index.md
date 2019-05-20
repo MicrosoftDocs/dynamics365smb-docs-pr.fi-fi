@@ -10,11 +10,11 @@ ms.workload: na
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: bcfbd42793e67f306b226c02951fc0227bc095a4
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "920436"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1241323"
 ---
 # <a name="welcome-to-included365finlongincludesd365finlongmdmd"></a>Tervetuloa [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]iin
 [!INCLUDE[d365fin](includes/d365fin_md.md)] on pienille ja keskisuurille organisaatioille tarkoitettu liiketoiminnan hallintaratkaisu, joka automatisoi ja selkeyttää liiketoiminnan prosesseja ja auttaa liiketoiminnan hallinnassa. Yritykset voivat käyttää erittäin mukautettavaa ja monipuolista [!INCLUDE[d365fin](includes/d365fin_md.md)]ia liiketoiminnan osa-alueiden hallintaan, kuten rahoituksen, tuotannon, myynnin, toimituksen, projektinhallinnan ja huollon hallintaan. Yritykset voivat helposti lisätä omalla toiminta-alueella tarpeellisia toimintoja sekä toimintoja, jotka on mukautettu hyvinkin erikoistuneita toimialoja varten.

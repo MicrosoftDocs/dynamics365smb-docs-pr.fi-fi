@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 0f87e3708802898d1b86dfaae31b37cdee37ff74
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "921361"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244628"
 ---
 # <a name="create-custom-company-configuration-packages"></a>Yrityksen mukautettujen määrityspakettien luominen
 Liiketoimintasi kasvaessa tulet todennäköisesti käyttämään yritystyyppejä, joita käytät useimpien asikkaittesi kanssa. Ottamalla huomioon yrityksen kokoonpanopaketit, jotka ovat käytettävissä uudelleen, voit tehostaa toteutusprosessia.  
@@ -52,5 +52,5 @@ Jos haluat nähdä asetustaulukoiden täydellisen luettelon, valitse ![Lamppu, j
 9.  Vie paketti .rapidstart-tiedostona.  
 
 ## <a name="see-also"></a>Katso myös  
-[Yrityksen määrittäminen RapidStart Services -palvelun avulla](admin-set-up-a-company-with-rapidstart.md)  
+[Yrityksen määrittäminen RapidStart Servicesin avulla](admin-set-up-a-company-with-rapidstart.md)  
 [Hallinta](admin-setup-and-administration.md)

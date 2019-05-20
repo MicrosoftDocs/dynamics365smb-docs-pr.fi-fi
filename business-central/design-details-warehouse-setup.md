@@ -11,11 +11,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 3b847791283820d8b9996f417e2bae1ca8c0e461
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "939368"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246310"
 ---
 # <a name="design-details-warehouse-setup"></a>Rakennetiedot: f. varaston asetus
 [!INCLUDE[d365fin](includes/d365fin_md.md)]in fyysisen varastoinnin toiminnolla on erilaisia monimutkaisuustasoja, jotka perustuvat valittavissa olevien yksiköiden käyttöoikeuksiin. Varastoratkaisun monimutkaisuuden taso määritellään laajasti binin asetusten mukaisesti sijaintikorteissa, joka vuorostaan on lisenssikontrolloitu niin, että binin määrityskenttien käyttö määritellään lisenssissä. Lisäksi lisenssin sovellusobjektit hallitsevat mitä käyttöliittymäasiakirjaa käytetään tuetuille varastotoiminnoille.  

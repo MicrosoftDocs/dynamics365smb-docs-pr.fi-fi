@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, tax, report, EC sales list, statement
-ms.date: 04/01/2019
+ms.date: 05/02/2019
 ms.author: bholtorf
-ms.openlocfilehash: c4536dca720be5d52bc860c9acce8d7f903314ff
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: fcc9eda38a54e8e94bd74bfbcc76fe808a119525
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "919073"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1446989"
 ---
-# <a name="how-to-report-vat-to-a-tax-authority"></a>Toimintaohje: ALV:n raportointi veroviranomaisille
+# <a name="report-vat-to-a-tax-authority"></a>ALV:n raportointi veroviranomaisille
 Tässä ohjeaiheessa käsitellään [!INCLUDE[d365fin](includes/d365fin_md.md)]in raportteja, joilla voit lähettää myynnin ja ostojen arvolisäverosummia koskevat tiedot alueesi veronviranomaisille.
 
 Käytössä on seuraavat raportit:
@@ -110,7 +110,7 @@ Seuraavassa taulukossa kuvataan koodiyksiköt, jotka sinun on luotava raporttias
 
 > [!Note]
 > Ota **ALV-raportin versio** -kentän arvo huomioon, kun luot raportin koodiyksiköt. Tässä kentässä on oltava sama versio, joka on tai oli veroviranomaisen vaatimuksena. Voit esimerkiksi kirjoittaa kentän arvoksi **2017** osoittamaan, että raportti noudattaa kyseisenä vuonna voimassa olleita vaatimuksia. Voimassa olevan version saat selville veroviranomaiseltasi.
- 
+
 ## <a name="see-also"></a>Katso myös .
 [Arvonlisäveron laskemisen ja kirjaustapojen määrittäminen](finance-setup-vat.md)  
 [Myynnin ja ostojen ALV:n käsitteleminen](finance-work-with-vat.md)  

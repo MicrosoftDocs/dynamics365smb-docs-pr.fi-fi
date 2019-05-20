@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 53f1c002236877f536a85586d0af912d5e9a85c2
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "918602"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1238254"
 ---
 # <a name="handling-inventory-and-manufacturing-costs"></a>Varaston ja tuotannon kustannusten käsitteleminen
 Vaikka useat kustannuslaskennan toiminnot (kuten tapahtuman kohdistus ja automaattinen kustannusten muuttaminen) tapahtuvat taustalla olevissa prosesseissa ilman käyttäjän toimia, useat kentät, sivut ja raportit on tarkoitettu käyttäjille, jotka hallitsevat nimikkeiden tai toimintojen kustannuksia suoraan tai epäsuorasti.  

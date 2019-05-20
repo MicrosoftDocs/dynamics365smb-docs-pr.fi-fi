@@ -11,11 +11,11 @@ ms.search.keywords: configure, initialize
 ms.date: 04/05/2019
 ms.author: edupont
 ms.openlocfilehash: 3139273b09a223c84c452b5fbe2ee8b637a4c493
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "969830"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251007"
 ---
 # <a name="setting-up-included365finincludesd365finmdmd"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen määrittäminen
 [!INCLUDE[d365fin](includes/d365fin_md.md)] sisältää vakiomääritykset useimmille liiketoimintaprosesseille. Voit muuttaa määritykset yrityksen tarpeita vastaaviksi.
@@ -25,7 +25,7 @@ Esimerkiksi tilikarttaan on kerätty käyttövalmiita kirjaustilejä. Voit tiety
 Roolisivulla on avustettuja asennusoppaita, joiden avulla voit määrittää tiettyjä skenaarioita sekä lisätä ominaisuuksia [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmaan. Lisätietoja siitä, miten käytät kaikkia avustettuja sekä manuaalisia määrityssivuja, on ohjeessa [Valmistautuminen liiketoimintaan](ui-get-ready-business.md).
 
 > [!NOTE]
-> Voit määrittää uuden yrityksen [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksessa RapidStart Services -palvelun kanssa. RapidStart Services -palvelun on työkalu, joka on suunniteltu lyhentämään käyttöönottoa, parantamaan toteutuksen laatua, esittelemään toistettavia lähestymistapoja toteutuksiin, ja lisäämään tuottavuutta automatisoimalla ja yksinkertaistamalla toistuvia tehtäviä. Lisätietoja on kohdassa [Yrityksen määrittäminen RapidStart Services -palvelun avulla](admin-set-up-a-company-with-rapidstart.md).
+> Voit määrittää uuden yrityksen [!INCLUDE[d365fin](includes/d365fin_md.md)]issa RapidStart Servicesin avulla. RapidStart Services on työkalu, joka on suunniteltu lyhentämään käyttöönottoa, parantamaan toteutuksen laatua, esittelemään toistettavia lähestymistapoja toteutuksiin sekä lisäämään tuottavuutta automatisoimalla ja yksinkertaistamalla toistuvia tehtäviä. Lisätietoja on kohdassa [Yrityksen määrittäminen RapidStart Servicesin avulla](admin-set-up-a-company-with-rapidstart.md).
 
 Tietyt joko yleiset tai erityiset liiketoimintaprosessien toiminnot voidaan määrittää manuaalisesti tai asetusten ohjattuna määrityksenä. Seuraavassa luettelossa on joitakin manuaalisesti määritettäviä toimintoja.
 

@@ -1,1 +1,1 @@
-Microsoft Dynamics NAV -palvelimen hallintatyökalu
+Microsoft Dynamics NAV Serverin hallintatyökalu

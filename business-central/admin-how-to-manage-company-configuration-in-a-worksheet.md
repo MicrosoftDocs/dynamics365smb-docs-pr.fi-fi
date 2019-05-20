@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 66b3f7fb4955d66202818a22aaa2a36235c77e9d
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "913408"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245279"
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>Yrityksen määrittämisen hallinta työkirjassa
 Määritykset-työkirja on keskitetty sijainti, jossa voit suunnitella, seurata ja tehdä määrityksiä. Voit luoda taulukon kunkin yrityksen osalta, jonka kanssa toimit tai luoda perusmäärityskirjan, jonka avulla voidaan määrittää useita samankaltaisia yrityksiä.  
@@ -29,8 +29,8 @@ Voit helpottaa työsi seurantaa ja tarkastusta käyttämällä **Määrityspaket
 Seuraavissa ohjeissa näytetään, miten voit lisätä ja mukauttaa kokoonpanosi taulukoiden tietoja.  
 
 ## <a name="to-open-the-configuration-worksheet"></a>Avaa määritystyökirja  
-1.  Avaa [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmassa yritys, joka on määrityksen pohjana, ja avaa sitten sen RapidStart Services -palvelun käyttöönottajien roolikeskus.  
-2.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Määritystyökirja** ja valitse sitten liittyvä linkki.  
+1.  Avaa [!INCLUDE[d365fin](includes/d365fin_md.md)]issa yritys, joka on määrityksen pohjana, ja avaa sitten sen RapidStart Servicesin käyttöönottajien roolikeskus.  
+2.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Määritystyökirja** ja valitse sitten liittyvä linkki.  
 
 ## <a name="to-add-a-table-to-the-worksheet"></a>Taulukon lisääminen työkirjaan  
 1.  Valitse **Määritä työkirja** -sivulla **Muokkaa luetteloa** -toiminto.  
@@ -126,5 +126,5 @@ Kun luot kokoonpanonpaketin ratkaisua varten, voit tarkastella ja mukauttaa käy
 
 ## <a name="see-also"></a>Katso myös  
 [Määritä yrityksen konfigurointi](admin-set-up-company-configuration.md)  
-[Yrityksen määrittäminen RapidStart Services -palvelun avulla](admin-set-up-a-company-with-rapidstart.md)  
+[Yrityksen määrittäminen RapidStart Servicesin avulla](admin-set-up-a-company-with-rapidstart.md)  
 [Hallinta](admin-setup-and-administration.md)

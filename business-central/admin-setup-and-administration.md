@@ -11,25 +11,25 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: c5b76a434403da0d472b1e1fa9430d40ff082220
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "924449"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247184"
 ---
 # <a name="administration"></a>Hallinta
 Yleensä yksi rooli hoitaa yrityksen keskitetyt hallintatehtävät. Tehtävien laajuus voi määräytyä yrityksen koon ja järjestelmänvalvojan vastuualueiden mukaan. Tehtäviin voi sisältyä esimerkiksi työ- ja sähköpostijonojen tietokantasynkronoinnin hallintaa, käyttäjien määritystä ja käyttöliittymän mukautusta.  
 
 Uuden liiketoimintaohjelmiston toimivuuden vuoksi on tärkeää, että annettavat asetusarvot ovat oikein heti alusta alkaen. [!INCLUDE[d365fin](includes/d365fin_md.md)]issa on useita asetusoppaita, jotka helpottavat perustietojen määrittämistä. Lisätietoja on kohdassa [Business Central -sovelluksen määrittäminen](setup.md).
 
-Riippumatta siitä, otatko asetusarvot käyttöön RapidStart Services -palvelussa vai annatko ne manuaalisesti uudessa yrityksessä, voit tukea määrityspäätöksiäsi tietyillä yleisillä suosituksilla sellaisissa määrityskentissä, joiden tiedetään voivan heikentää ratkaisun toimintaa, jos ne määritetään virheellisesti.  
+Riippumatta siitä, käytätkö RapidStart Servicesia ottamaan käyttöön arvoja vai annatko ne manuaalisesti uudelle yritykselle, voit tukea määrityspäätöksiäsi tietyissä sellaisissa määrityskentissä joillain yleisillä suosituksilla, joiden tiedetään aiheuttavan mahdollisesti heikentävän ratkaisun suorituskykyä, jos kenttä määritetään väärin.  
 
 Pääkäyttäjä tai järjestelmänvalvoja voi määrittää tietojen vaihtamiskehyksen, jonka avulla käyttäjät voivat viedä ja tuoda pankki- ja palkanlaskentatiedostojen tietoja esimerkiksi erilaisia kassanhallintaprosesseja varten.
 
 > [!NOTE]
-> Voit määrittää uuden yrityksen [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksessa RapidStart Services -palvelun kanssa. RapidStart Services -palvelun on työkalu, joka on suunniteltu lyhentämään käyttöönottoa, parantamaan toteutuksen laatua, esittelemään toistettavia lähestymistapoja toteutuksiin, ja lisäämään tuottavuutta automatisoimalla ja yksinkertaistamalla toistuvia tehtäviä. Lisätietoja on kohdassa [Yrityksen määrittäminen RapidStart Services -palvelun avulla](admin-set-up-a-company-with-rapidstart.md).
+> Voit määrittää uuden yrityksen [!INCLUDE[d365fin](includes/d365fin_md.md)]issa RapidStart Servicesin avulla. RapidStart Services on työkalu, joka on suunniteltu lyhentämään käyttöönottoa, parantamaan toteutuksen laatua, esittelemään toistettavia lähestymistapoja toteutuksiin sekä lisäämään tuottavuutta automatisoimalla ja yksinkertaistamalla toistuvia tehtäviä. Lisätietoja on kohdassa [Yrityksen määrittäminen RapidStart Servicesin avulla](admin-set-up-a-company-with-rapidstart.md).
 
-Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisiin.   
+Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aiheisiin.   
 
 |**Tehtävä**|**Katso**|  
 |------------|-------------|  

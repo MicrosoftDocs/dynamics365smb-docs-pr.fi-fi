@@ -13,11 +13,11 @@ ms.search.keywords: relationship, prospect
 ms.date: 04/01/2019
 ms.author: jswymer
 ms.openlocfilehash: c3c86d622ca14d07eb19bb293066b0fbfaf74c42
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "928627"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1243041"
 ---
 # <a name="process-sales-opportunities"></a>Myyntimahdollisuuksien käsitteleminen
 Mahdollisuuden luomisen jälkeen sen hallinnassa ja valmistumisprosessissa voidaan käyttää useita toimintoja.

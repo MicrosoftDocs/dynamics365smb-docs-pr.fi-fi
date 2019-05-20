@@ -12,11 +12,11 @@ ms.search.keywords: app, add-in, manifest, customize
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: 869d136498604a61b1f3016efca475b4784c4456
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "910363"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250271"
 ---
 # <a name="customizing-business-central-using-extensions"></a>Business Central -sovelluksen mukauttaminen laajennusten avulla
 Voit muuttaa [!INCLUDE[d365fin](includes/d365fin_md.md)]ia asentamalla laajennuksia, jotka sisältävät lisätoimintoja, muuttavat toimintaa tai mahdollistavat esimerkiksi uusien verkkopalveluiden käyttämisen.
@@ -49,7 +49,7 @@ Jotkin ovat Microsoftin laajennuksia, jotkin [muiden yritysten](ui-extensions-ot
 Microsoft tarjoaa seuraavat laajennukset:  
 
 * [Dynamics GP -tietojen siirto](ui-extensions-dynamicsgp-data-migration.md)  
-* [Envestnet Yodlee -pankkisyötteet](ui-extensions-yodlee-bank-feeds.md)  
+* [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)  
 * [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)  
 * [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)  
 * [QuickBooks-tietojen siirto](ui-extensions-quickbooks-data-migration.md)  
@@ -72,7 +72,7 @@ Microsoft tarjoaa seuraavat laajennukset:
 ## <a name="see-also"></a>Katso myös
 [Dynamics 365 Business Centralin laajentaminen](about-develop-extensions.md)  
 [Muiden toimittajien Business Central -laajennukset](ui-extensions-other.md)  
-[Envestnet Yodlee -pankkisyötepalvelun määrittäminen](bank-how-setup-bank-statement-service.md)  
+[Envestnet Yodlee Bank Feeds -palvelun määrittäminen](bank-how-setup-bank-statement-service.md)  
 [Asiakkaan maksujen ottaminen käyttöön PayPalin kautta](sales-how-enable-payment-service-extensions.md)  
 [Liiketoiminnan tietojen siirtäminen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md)  
 [Ison-Britannian postinumeroiden GetAddress.io-laajennuksen määrittäminen](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)  

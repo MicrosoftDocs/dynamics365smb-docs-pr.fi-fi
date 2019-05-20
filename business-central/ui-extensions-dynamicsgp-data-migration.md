@@ -12,11 +12,11 @@ ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: cf401500c34d8d40acc153a591229684770afa64
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "917474"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250069"
 ---
 # <a name="the-dynamics-gp-data-migration-extension"></a>Dynamics GP:n tietojen siirron laajennus 
 Tämän laajennuksen avulla on helppo siirtää asiakkaita, toimittajia, varastonimikkeitä, pääkirjanpidon tilejä sekä avoimia ostoreskontran ja myyntireskontran tapahtumia Dynamics GP:stä [!INCLUDE[prodshort](includes/prodshort.md)] -sovellukseen. Jos yrityksessä on käytössä Dynamics GP, voit viedä soveltuvat tietueet ja lisätä tiedot [!INCLUDE[prodshort](includes/prodshort.md)] -sovellukseen avaamalla avustetun asennusoppaan. Siirtolaajennusta voi käyttää kaikkien tuettujen Microsoft Dynamics GP -versioiden kanssa. Lisätietoja on kohdassa [Tietojen tuominen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md).

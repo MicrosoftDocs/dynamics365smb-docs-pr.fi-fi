@@ -13,11 +13,11 @@ ms. search.keywords: app, add-in, manifest, customize, budget
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: 6f31f95b521135ce51a8bc9c82dd6b48cec103bf
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "916170"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249558"
 ---
 # <a name="the-sales-and-inventory-forecast-extension"></a>Myynti- ja varastoennustelaajennus
 Varaston hallintaan kuuluvat sekä asiakaspalvelu että kustannusten hallinta. Pieni varasto vaatii vähemmän liikepääomaa, mutta toisaalta varaston loppumiset voivat aiheuttaa myyntimenetyksiä. Myynti- ja varastoennuste -laajennus ennustaa mahdollisen myynnin aiempien tietojen avulla. Se tarjoaa selvän yleiskuvan odotetuista varaston loppumisista. Ennusteen perusteella laajennus auttaa luomaan täydennyspyyntöjä toimittajille, ja säästää näin aikaasi.  

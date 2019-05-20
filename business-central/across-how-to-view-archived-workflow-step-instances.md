@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: a0f0119efb9c1434be5c4544397558d4f87b0d75
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "923245"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1240532"
 ---
 # <a name="view-archived-workflow-step-instances"></a>Arkistoitujen työnkulun osavaiheen ilmentymien tarkasteleminen
 Kaikki valmiit työnkulun osavaiheen ilmentymät tallennetaan **Arkistoidut työnkulun osavaiheen ilmentymät** -sivulle.  

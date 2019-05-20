@@ -11,11 +11,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: f6e9fb2c37911bb95877ca933f63ae3a4dbacc29
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "990269"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1239749"
 ---
 # <a name="making-payments-with-bank-data-conversion-service-or-sepa-credit-transfer"></a>Maksujen suorittaminen pankkitietojen muunnospalvelulla tai SEPA-tilisiirrolla
 Voit käsitellä **Maksupäiväkirja**-sivulla maksut toimittajille viemällä tiedoston yhdessä maksutietojen kanssa päiväkirjan riveiltä. Voit sitten ladata tiedoston verkkopankkiin, jossa liittyvät rahansiirrot käsitellään. [!INCLUDE[d365fin](includes/d365fin_md.md)] tukee SEPA-hyvitysten siirtomuotoa, mutta maa- tai aluekohtaisesti voi olla käytettävissä muita sähköisiä maksumuotoja.

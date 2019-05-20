@@ -13,11 +13,11 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 21042f9eb55413a6627dab830091686e06c34acc
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "915286"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246908"
 ---
 # <a name="business-intelligence"></a>Business Intelligence
 Yritykset hankkivat päivittäisessä toiminnassaan valtavia määriä tietoja. Nämä tiedot voivat kuvata esimerkiksi organisaation myyntilukuja, ostoja, toimintakuluja, työntekijöiden palkkoja ja budjetteja, ja ne voivat olla päätöksentekijöille arvokasta liiketoimintatietoa. [!INCLUDE[d365fin](includes/d365fin_md.md)] sisältää erinäisiä toimintoja, joiden avulla voit kerätä, analysoida ja jakaa yrityksen tietoja.

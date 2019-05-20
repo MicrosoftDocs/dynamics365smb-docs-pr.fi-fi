@@ -12,11 +12,11 @@ ms.search.keywords: reject, delegate, request
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: f7c959a44a7b27df464ce8a4c45567d036dc137f
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "941419"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245545"
 ---
 # <a name="use-approval-workflows"></a>Hyväksymistyönkulkujen käyttäminen
 Jos organisaatiosi henkilön pitää hyväksyä tietue, kuten ostoasiakirja tai asiakaskortti, hänelle lähetetään hyväksyntäpyyntö työnkulun osana. Hyväksyjä saa työnkulun määrityksen mukaan ilmoituksen siitä, että tietue odottaa hänen hyväksyntäänsä.

@@ -13,11 +13,11 @@ ms. search.keywords: extension, migrate, data, C5, import
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: 23d2f6c950786bbd5eb8af0a79ea1351d4e8a3d0
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "919604"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250065"
 ---
 # <a name="the-c5-data-migration-extension"></a>Tietojen siirron C5-laajennus
 Tämän laajennuksen avulla on helppo siirtää asiakkaita, toimittajia, nimikkeitä ja pääkirjanpidon tilejä Microsoft Dynamcis C5 2012 -versiosta [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmaan. Voit siirtää myös pääkirjanpidon tilien vanhat tapahtumat.

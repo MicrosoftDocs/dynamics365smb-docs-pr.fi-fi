@@ -11,11 +11,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 382a95a579482a56597ffae053c53dab92f3739a
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "914419"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245141"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Tietojenvaihtomääritysten määrittäminen
 Voit määrittää [!INCLUDE[d365fin](includes/d365fin_md.md)]in vaihtamaan tiettyjen taulukoiden tietoja ulkoisten tiedostojen kanssa. Tällöin voit esimerkiksi lähettää ja vastaanottaa sähköisiä asiakirjoja sekä tuoda ja viedä pankkitietoja tai muita tietoja, kuten palkanlaskennan tietoja, vaihtokursseja ja tuoteluetteloita. Lisätietoja on kohdassa [Sähköinen tiedonsiirto](across-data-exchange.md).  

@@ -13,11 +13,11 @@ ms.search.keywords: customer payment, debtor, balance due, AR
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 60a28c856609861d9e47877fb093d819afcc044c
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "930869"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252042"
 ---
 # <a name="managing-receivables"></a>Myyntisaamisten hallinta
 Säännöllinen vaihe missä tahansa rahoituskierrossa on pankkitilien täsmäyttäminen, mikä edellyttää saapuvien maksujen kohdistamista asiakas- tai toimittajatapahtumiin, jotta myyntilaskut tai ostohyvityslaskut voidaan sulkea maksettuina.

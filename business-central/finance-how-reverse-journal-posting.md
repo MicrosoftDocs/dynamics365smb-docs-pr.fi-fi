@@ -13,11 +13,11 @@ ms.search.keywords: reimbursement
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: f2767fca96e1f3689fc4806d878381d02622f261
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "938589"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1243731"
 ---
 # <a name="reverse-postings"></a>Kirjausten peruuttaminen
 Voit kumota virheellisen kirjauksen päiväkirjaan valitsemalla tapahtuman luomalla peruutustapahtuman (alkuperäistä tapahtumaa vastaava tapahtuma, jossa summakentässä on vastakkainen etumerkki), jossa on sama asiakirjanumero ja kirjauspäivämäärä kuin alkuperäisessä tapahtumassa. Kun olet peruuttanut tapahtuman, lisää tapahtuma korjattuna.

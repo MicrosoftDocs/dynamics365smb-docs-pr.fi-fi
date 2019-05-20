@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 05/02/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7ebdf239e592faedd1502c8fff50dd91e474352f
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: d92d732b99eedb06eb0185d1227252e1ace95334
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "917717"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1446874"
 ---
 # <a name="reporting-costs-and-reconciling-with-the-general-ledger"></a>Kustannukset raportointi ja täsmäyttäminen pääkirjanpidon kanssa
 Kirjanpitojaksojen lopussa (kuukausittain, vuosittain tai muulla aikavälillä) suoritetaan joukko kustannustenhallinta- ja auditointitehtäviä, joiden avulla saadaan oikea ja saldoltaan täsmällinen varaston arvo raportoitavaksi taloushallinto-osastolle. Tilintarkastajat ja kustannusten seurantahenkilöstö vastaavat näistä liiketoiminnan kannalta kriittisistä tehtävistä, ja yksittäisiä nimikkeen arvotapahtumia erityisille kirjanpitotileille siirtävän kirjausrutiinin lisäksi heidän käytettävissään on useita raportteja, jäljitystoimintoja ja erityinen täsmäytystyökalu.  
@@ -31,7 +31,6 @@ Kirjanpitojaksojen lopussa (kuukausittain, vuosittain tai muulla aikavälillä) 
 |Valittujen nimikkeiden varaston arvon tarkastelu, mukaan lukien todellinen ja oletettu kustannus määritettynä päivämääränä.|**Varaston arvostus - Kust. määr.** -raportti|  
 |Raportin käyttäminen kustannusvarianssien analysoimiseksi tai myytyjen tuotteiden kustannusosuuksien selvittämiseksi.|**Kustannusjakaumien erittely** -raportti|  
 |Nimiketapahtumiin liittyvien arvotapahtumien kausittainen kirjaaminen varastotapahtumista niihin liittyville pääkirjanpidon tileille näiden kahden kirjanpidon täsmäyttämiseksi.|[Varaston kustannusten täsmäyttäminen pääkirjanpitoon](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
-|Varastotapahtumien ja pääkirjanpidon välisen täsmäytyksen tarkistaminen yhdellä sivulla.|[Varaston kustannusten täsmäyttäminen pääkirjanpitoon](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
 |Tasetileille kirjattavan KET-summan määrittäminen kauden lopussa suoritettavaa raportointia varten.|[Projektin edistymisen ja suorituskyvyn valvonta](projects-how-monitor-progress-performance.md)|
 
 ## <a name="see-also"></a>Katso myös  

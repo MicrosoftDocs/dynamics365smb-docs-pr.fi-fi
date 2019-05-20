@@ -11,11 +11,11 @@ ms.search.keywords: feature overview
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: f6eebcc59922e44bd5293e1a2bd9ece58777432b
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "911740"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245187"
 ---
 # <a name="business-functionality"></a>Liiketoiminnan toiminnallisuus
 [!INCLUDE[d365fin](includes/d365fin_md.md)]issa on lähinnä tukkukauppa- ja palvelualalla toimivien PK-yritysten tavallisissa liiketoimintaprosesseissa tarvitsemat toiminnot. Tämän lisäksi tuetaan myös monimutkaisia prosesseja, kuten kokoonpanoa, tuotantoa, huoltoa ja ohjattua varastoinninhallintaa.

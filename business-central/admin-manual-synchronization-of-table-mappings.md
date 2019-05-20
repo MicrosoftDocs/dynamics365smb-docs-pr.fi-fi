@@ -11,11 +11,11 @@ ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: 368bfc191aea4ae00c53d0c7ee892f3cc82c0ff7
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "940126"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245729"
 ---
 # <a name="manually-synchronize-table-mappings"></a>Taulukon yhdistämismääritysten manuaalinen synkronointi
 Integrointitaulukon yhdistämismääritys liittää [!INCLUDE[d365fin](includes/d365fin_md.md)] -taulukon (tietuetyypin), kuten asiakkaan, [!INCLUDE[crm_md](includes/crm_md.md)] -objektiin, kuten tiliin. Integrointitaulukon yhdistämismäärityksen synkronoinnin ansiosta voit synkronoida yhdistetyn [!INCLUDE[d365fin](includes/d365fin_md.md)] -taulukon ja [!INCLUDE[crm_md](includes/crm_md.md)] -objektin kaikkien tietueiden tiedot. Lisäksi taulukon yhdistämismäärityksen mukaan synkronointi voi luoda ja yhdistää uusia tietueita lähteen yhdistämättömien tietueiden kohderatkaisussa.  

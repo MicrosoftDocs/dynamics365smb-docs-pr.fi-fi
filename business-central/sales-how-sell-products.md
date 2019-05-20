@@ -11,11 +11,11 @@ ms.search.keywords: trade
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: a8e2d016cc47192bbb05439fa61bab1f246a53bd
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "924730"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252617"
 ---
 # <a name="sell-products"></a>Tuotteiden myyminen
 Luo myyntitilaus tai -lasku tallentaaksesi sopimuksesi asiakkaan kanssa ja myydäksesi määrätyt tuotteet määrätyillä toimitus- ja maksuehdoilla.

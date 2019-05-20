@@ -11,11 +11,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: a121363d04de0aea69e423df8de5c50c24744061
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "939268"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252180"
 ---
 # <a name="receive-and-convert-electronic-documents"></a>Sähköisten asiakirjojen vastaanottaminen ja muuntaminen
 [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman yleinen versio tukee sähköisten laskujen ja hyvityslaskujen vastaanottamista PEPPOL-muodossa. Suurimmat document exchange -palveluiden tarjoajat tukevat tätä muotoa. Jotta voisit saada laskun toimittajalta sähköisenä PEPPOL-asiakirjana, asiakirja on muunnettava Saapuvat asiakirjat -sivulla [!INCLUDE[d365fin](includes/d365fin_md.md)]in ostolaskuksi tai päiväkirjan riviksi.

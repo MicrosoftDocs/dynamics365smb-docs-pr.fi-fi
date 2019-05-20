@@ -1,6 +1,6 @@
 ---
 title: Microsoft Pay Standard| Microsoft Docs
-description: Lisätietoja Microsoft Pay -laajennuksesta
+description: Antaa tietoja Microsoft Pay -laajennuksesta
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -12,11 +12,11 @@ ms.workload: na
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 61022b690cb2a442eaf6cd27c305ebd874a9474f
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "935824"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249926"
 ---
 # <a name="the-microsoft-pay-extension"></a>Microsoft Pay -laajennus
 Asiakkaat vaativat jatkuvasti yhä korkeatasoisempaa asiakaspalvelua sekä tuotteen laadun että toimituksen ja maksupalvelujen osalta. Voit parantaa asiakaspalvelun tasoa Microsoft Pay -palvelun avulla.
@@ -26,7 +26,7 @@ Microsoft Pay -laajennus lisää Microsoft Pay -linkin myyntiasiakirjoihin, jote
 Microsoft Pay -laajennuksen edut:
 - Asiakkaan maksut saapuvat nopeammin pankkitilille.
 - asiakkailla on useita vaihtoehtoja maksaa laskut.
-- Microsoft Pay on luotettava maksupalvelu, jota asiakkaat käyttävät mieluummin kuin antavat luottokorttitietonsa tuntemattomalla verkkosivulla.
+- Microsoft Pay on luotettava maksupalvelu, jota asiakkaat käyttävät mieluummin kuin antavat luottokorttitietonsa tuntemattomissa sivustoissa.
 - Microsoft Payn avulla maksuja voi käsitellä useilla eri tavoilla. Niitä ovat esimerkiksi luottokorttikäsittely, kuten PayPal ja Stripe.
 - Microsoft Pay -linkki voidaan upottaa jokaiseen lasku automaattisesti tai käyttäjä voi tehdä sen itse.
 - Tämä toiminto on luotu laajennuksena, voit päättää itse, milloin se kannattaa ottaa käyttöön liiketoimintaprosesseissa tai kannattaako sen käyttö lainkaan.

@@ -13,11 +13,11 @@ ms.search.keywords: design, item tracking, posting, inventory
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 884ed0ced1c9e39104cec203bb67346bdf779aeb
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "922477"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1242121"
 ---
 # <a name="design-details-item-tracking-posting-structure"></a>Rakennetiedot: nimikkeen seurannan kirjauksen rakenne
 Varaston arvostustoiminnon hyödyntämiseksi ja yksinkertaisen ja vakaan ratkaisun saavuttamiseksi nimikkeen seurantanumeroiden ensisijaisena lähteenä käytetään nimiketapahtumia.  

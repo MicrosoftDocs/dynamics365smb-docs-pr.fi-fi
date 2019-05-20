@@ -13,11 +13,11 @@ ms.search.keywords: transportation, added cost, landed cost
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: cdce0c18fd2fb4065c75dc71d10434b14120ed9f
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "917067"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1254020"
 ---
 # <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Kaupan lisäkustannusten huomiointi nimikekulujen avulla
 Voit varmistaa oikean arvostuksen liittämällä varastonimikkeisiin lisäkustannukset, kuten nimikkeiden ostamisessa ja myynnissä syntyvät rahti-, käsittely-, vakuutus- ja kuljetuskulut. Ostoissa ostetun nimikkeen kokonaiskustannukset koostuvat toimittajan ostohinnasta ja kaikista suorista lisänimikekuluista, jotka voidaan määritellä yksittäisiin vastaanottoihin tai palautustoimituksiin. Myynnissä Myytyjen nimikkeiden lähetyskulujen tietäminen voi olla yritykselle yhtä tärkeää kuin ostettujen nimikkeiden kokonaiskustannusten tietäminen.

@@ -13,11 +13,11 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 724d51e561997b98315696d8edd324d1b1b6f905
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "917861"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1241273"
 ---
 # <a name="create-incoming-document-records-directly-from-documents-and-entries"></a>Saapuvien asiakirjatietueiden luominen suoraan asiakirjoista ja tapahtumista
 Voit tallentaa ulkoisia liiketoiminta-asiakirjoja [!INCLUDE[d365fin](includes/d365fin_md.md)]iin liittämällä asiakirjatiedostoja soveltuviin saapuviin asiakirjatietueisiin. Vaikka asiakirja (kuten ostolasku) ei olisi ollut alun pitäen saapuva asiakirjatietue, voit silti luoda ja yhdistää siihen saapuvan asiakirjatietueen myöhemmin. Voit myös liittää saapuvia asiakirjatiedostoja kirjattuihin osto- ja myyntiasiakirjoihin sekä toimittaja-, asiakas- ja pääkirjanpidon tapahtumiin käyttämällä **Saapuvat asiakirjatiedostot** -tietoruutua esimerkiksi **Kirjatut ostolaskut**- ja **Toimittajatapahtumat**-sivuilla.

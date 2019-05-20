@@ -13,11 +13,11 @@ ms.search.keywords: procurement, supply, vendor order
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 738cbfece41121eb05aeb598f9ea4367173f29a5
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "918769"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251835"
 ---
 # <a name="purchasing"></a>Ostaminen
 Voit luoda ostolaskun tai -tilauksen ostojen kustannusten tallentamiseksi ja ostoreskontran seuraamiseksi. Jos haluat hallita varastoa, myös ostolaskuja käytetään varastotasojen dynaamiseen päivittämiseen, jotta voit minimoida varaston kustannukset ja tarjota parempaa asiakaspalvelua. Ostokustannukset, sisältäen palvelukulut ja varastoarvot, jotka aiheutuvat tiliöinnin ostolaskuista, vaikuttavat voittolukuihin ja muihin talouden KPI:hin roolikeskuksessasi.

@@ -1,6 +1,6 @@
 ---
 title: Yrityksen ja ohjatun RapidStart-toiminnon määrittäminen | Microsoft Docs
-description: Voit nopeasti määrittää uuden yrityksen, jonka olet luonut käyttämällä RapidStart Services -palvelun ohjattua määritystoimintoa.
+description: Voit määrittää nopeasti uuden yrityksen, jonka olet luonut käyttämällä RapidStart Servicesin ohjattua määritystoimintoa.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -13,19 +13,19 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 3784b8e0cc0c0c07300895ce448ff82f9acc91c9
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "919269"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1239910"
 ---
 # <a name="configure-a-company-with-the-rapidstart-wizard"></a>Yrityksen ja ohjatun RapidStart-toiminnon määrittäminen
-Voit nopeasti määrittää uuden yrityksen, jonka olet luonut käyttämällä RapidStart Services -palvelun ohjattua määritystoimintoa.
+Voit määrittää nopeasti uuden yrityksen, jonka olet luonut käyttämällä RapidStart Servicesin ohjattua määritystoimintoa.
 
-Seuraavassa toimenpiteessä olet antanut asiakkaalle määrityspaketin, joka sitten asennetaan tietokoneeseen. Asiakas avaa uuden yrityksen, jolla ei ole asiakastietoja. Sinun tai asiakkaan tulee seurata vaiheita RapidStart Services -palvelun ohjatussa toiminnossa, jotka on kuvattu tähän menettelyyn, ja antaa perustiedot yrityksestä. Ohjattu toiminto tuo kokoonpanopaketin ja käyttää sitten pakettia yrityksessä.  
+Seuraavassa toimenpiteessä olet antanut asiakkaalle määrityspaketin, joka sitten asennetaan tietokoneeseen. Asiakas avaa uuden yrityksen, jolla ei ole asiakastietoja. Sinä tai yritys seuraa sitten ohjatun RapidStart Services -toiminnon vaiheita, jotka on kuvattu tässä menettelyssä, ja antaa yrityksen perustiedot. Ohjattu toiminto tuo kokoonpanopaketin ja käyttää sitten pakettia yrityksessä.  
 
 ## <a name="to-configure-a-new-company"></a>Määritä uusi yritys  
-1. Valitse RapidStart Services -käyttöönottajan roolikeskuksessa **Ohjattu RapidStart-toiminto** -toiminto.  
+1. Valitse RapidStart Servicesin käyttöönottajan roolikeskuksessa **Ohjattu RapidStart-toiminto**.  
 2. Laajenna **Vaihe 1** -pikavälilehti, joka sisältää uuden yrityksen yleiset tiedot. Kirjoita kenttiin uuden yrityksen tarvittavat tiedot. Ohjelmassa on yksi kenttä, joka on täytettävä, eli **Nimi**. Muut kentät ovat valinnaisia.  
 3. Laajenna **Vaihe 2** -pikavälilehti, joka sisältää uuden yrityksen viestintä- ja yhteystiedot. Kirjoita kenttiin uuden yrityksen tarvittavat tiedot.
 4. Laajenna **Vaihe 3** -pikavälilehti, joka sisältää uuden yrityksen pankkitilin ja maksujen tiedot. Kirjoita kenttiin uuden yrityksen tarvittavat tiedot.  
@@ -49,5 +49,5 @@ Olet nyt määrittänyt yrityksen ja ottanut tiedot käyttöön sitä varten.
 
 ## <a name="see-also"></a>Katso myös  
 [Kokoonpanojen käyttäminen uusissa yrityksissä](admin-apply-configuration-to-new-companies.md)  
-[Yrityksen määrittäminen RapidStart Services -palvelun avulla](admin-set-up-a-company-with-rapidstart.md)  
+[Yrityksen määrittäminen RapidStart Servicesin avulla](admin-set-up-a-company-with-rapidstart.md)  
 [Hallinta](admin-setup-and-administration.md)

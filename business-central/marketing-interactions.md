@@ -12,17 +12,15 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 7ef4416c695543cb93fcf0bed9501bfa4d04985d
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: eedb7a319a11b740f6afa869d162f15c167ccc6d
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "917187"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1446782"
 ---
-# <a name="managing-interactions-with-contacts"></a>Kontaktien kanssa tapahtuvien vuorovaikutusten hallinta
-[!INCLUDE[d365fin](includes/d365fin_md.md)]:ssa kaikentyyppinen yhteydenpito yrityksesi ja kontaktiesi välillä on vuorovaikutusta. Yhteydenpito voi tapahtua esimerkiksi kirjeitse, faksitse, sähköpostitse, puhelimitse jne.
-
-Asiakkuudenhallinnan alueella voit tallentaa kaikki vuorovaikutukset, joita sinulla on kontaktiesi kanssa, jotta voit seurata kontakteihin suuntaamiasi markkinointi- ja myyntiponnistuksia, ja jatkossa parantaa liiketoiminnallista vuorovaikutustasi näiden kontaktien kanssa. Sovelluksen määrittäminen niin, että se tallentaa vuorovaikutukset, sisältää seuraavat tehtävät:
+# <a name="record-interactions-with-contacts"></a>Kontaktien kanssa tapahtuvien vuorovaikutusten tallentaminen
+Sovelluksen määrittäminen niin, että se tallentaa vuorovaikutukset, sisältää seuraavat tehtävät:
 
 * Vuorovaikutusmallien määrittäminen  
 * Vuorovaikutusten luominen kontakteille ja segmenteille  

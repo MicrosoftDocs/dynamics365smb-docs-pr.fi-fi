@@ -12,11 +12,11 @@ ms.search.keywords: API, extension, Cognitive Services, image, computer vision, 
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: fe1673a5d829c9c71a45383b291405e5a5121ae8
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "932767"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250754"
 ---
 # <a name="the-image-analyzer-extension"></a>Kuvan analysointilaajennus
 Kuvan analysointilaajennus havaitsee Microsoftin kognitiivisten palveluiden konenäön ohjelmointirajapinnan tehokkaalla kuva-analytiikalla määritteet nimikkeille ja kontaktihenkilöille tuoduissa kuvissa, mikä helpottaa kuvien tarkastelua ja määrittämistä. Nimikkeiden määritteet voivat ilmaista esimerkiksi, onko kyse pöydästä vai autosta ja onko se sininen vai punainen. Kontaktihenkilöiden määritteet voivat ilmaista sukupuolen tai iän.

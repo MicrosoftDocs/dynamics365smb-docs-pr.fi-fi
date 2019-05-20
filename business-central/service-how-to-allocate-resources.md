@@ -11,11 +11,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: 79f4d6a549716011a5f01b3b8b7d6b065d1af295
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "931095"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251963"
 ---
 # <a name="allocate-resources"></a>Resurssien kohdistaminen
 Huollon toimittavat henkilöt ovat huoltohallinnon tärkein elementti. Voit määrittää [!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittämään henkilöt heille soveltuviin projekteihin. Toimeksiannot voivat perustua henkilön tai huollon sijainnin mukaisiin huoltoalueisiin. Lisäksi resurssit voi ryhmitellä yhteen huoltopyyntöihin vastattaessa. Lisätietoja on kohdassa [Resurssien kohdistamisen määrittäminen](service-how-setup-resource-allocation.md).

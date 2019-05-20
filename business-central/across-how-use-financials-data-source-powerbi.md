@@ -11,11 +11,11 @@ ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: 8dfedbc2685e086f9bdc63706d70327ebb95c2b5
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "919889"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1241046"
 ---
 # <a name="using-included365finlongmdincludesd365finlongmdmd-as-power-bi-data-source-for-building-reports"></a>[!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]in käyttö Power BI:n tietolähteenä raportteja luotaessa
 Voit määrittää [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]in tiedot käytettäviksi Power BI:n tietolähteenä ja tehokkaiden liiketoiminnan tilasta kertovien raporttien luomista varten.  

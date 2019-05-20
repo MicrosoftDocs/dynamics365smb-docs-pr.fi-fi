@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 911e3ebb67aa506055f2738be031443e622f8a1d
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "912872"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246162"
 ---
 # <a name="design-details-item-tracking-and-reservations"></a>Rakennetiedot: nimikkeen seuranta ja varaukset
 Varauksen ja tietyn nimikeseurannan samanaikainen käyttö on epänormaalia, koska ne molemmat luovat kytkennän tarjonnan ja kysynnän välille. Lukuun ottamatta tilanteita, joissa asiakas tai tuotannon suunnittelija pyytää tiettyä erää, jolloin on harvoin järkevää varata varastonimikkeitä, joilla on jo tietyn sovelluksen nimikeseurantanumerot. Vaikka tietyn nimikkeen seurannan vaativia nimikkeitä on mahdollista varata, saatavuuden ristiriitojen välttämiseksi vaaditaan erityistä toiminnallisuutta niiden tilausten käsittelijöiden välillä, jotka pyytävät samoja nimikeseurattuja nimikkeitä.  

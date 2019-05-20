@@ -11,11 +11,11 @@ ms.search.keywords: GetAddress.io, postcodes, postal, address, extension
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: 5c83a5bc7fbe91b9ff0592c5129f5a7dd5887c2c
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "928367"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250041"
 ---
 # <a name="the-getaddressio-uk-postcodes-extension"></a>Ison-Britannian postinumeroiden GetAddress.io-laajennus
 Ison-Britannian postinumeroiden GetAddress.io-laajennus säästää aikaa ja estää virheitä, kun annat objektien, kuten asiakkaiden, toimittajien, pankkitilien ja työntekijöiden, osoitteita. Jos olet esimerkiksi luomassa asiakasta, sinun tarvitsee vain valita postinumero ja [!INCLUDE[d365fin](includes/d365fin_md.md)] näyttää osoiteluettelon. Valitse sopiva osoite, jonka osoitekentät täyttyvät.  

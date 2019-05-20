@@ -14,11 +14,11 @@ ms.date: 04/01/2019
 ms.author: jswymer
 redirect_url: marketing-setup-contacts
 ms.openlocfilehash: 22530c8e1bd3f148f5f158e6210668020c24d387
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "941560"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1238001"
 ---
 # <a name="set-up-alternative-addresses-for-contacts"></a>Vaihtoehtoisten osoitteiden määrittäminen kontakteille
 Voit liittää vaihtoehtoisen osoitteen (esimerkiksi kesämökin osoitteen), johon kontakteille joskus lähetetään postia ja tietoa. Voit määrittää myös vähintään yhden päivämäärävälin jokaiseen vaihtoehtoiseen osoitteeseen, jonka olet antanut kontakteillesi määrittämään, milloin osoite on voimassa.

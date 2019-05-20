@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: 62fd9e94b810887ecb152bba5a58c2f724b4025b
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "913199"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252111"
 ---
 # <a name="create-service-invoices-or-credit-memos"></a>Huoltolaskujen ja hyvityslaskujen luominen
 Huoltotilausten laskuttamisen helppous on yksi [!INCLUDE[d365fin](includes/d365fin_md.md)]:n tärkeimmistä ominaisuuksista. Voit lähettää laskun asiakkaille milloin tahansa tai voit luoda laskut jaksoittain.  

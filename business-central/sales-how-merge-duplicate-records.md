@@ -13,11 +13,11 @@ ms.search.keywords: client
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: c23e34cfe0a1684a4bd5b95b60f56f0e411608ab
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "940105"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251798"
 ---
 # <a name="merge-duplicate-records"></a>Tietueiden kaksoiskappaleiden yhdistäminen
 Kun eri käyttäjät luovat uusia asiakkaan, toimittajan tai kontaktin kortteja ajan mittaan tai kun uusia tietueita luodaan automaattisesti siirron aikana, asiakkaalle, toimittajalle tai kontaktille voi tulla järjestelmään useita tietueita. Voit siinä tapauksessa käyttää säilytettävän tietueen kortin **Yhdistä kaksoiskappale** -sivua. Sivulla on yleiskatsaus kenttäarvoista, joilla on kaksoiskappaleita, ja toimintoja, joilla valitaan, mitkä arvot säilytetään tai hylätään, kun kaksi tietuetta yhdistetään.

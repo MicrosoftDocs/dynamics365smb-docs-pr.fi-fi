@@ -9,11 +9,11 @@ ms.date: 04/01/2019
 ms.reviewer: na
 ms.topic: article
 ms.openlocfilehash: 3b49df32acdc9530eb56a26538dbc34e245ec1e3
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "917380"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244907"
 ---
 # <a name="responding-to-requests-about-personal-data"></a>Henkilökohtaisia tietoja koskeviin pyyntöihin vastaaminen  
 Tietojen kohteet voivat pyytää erilaisia henkilökohtaisia tietoja koskevia toimintoja. Esimerkiksi yleisen tietosuoja-asetuksen (GDPR) ansiosta, EU-alueella asuvilla on oikeus pyytää henkilökohtaisten tietojensa vientiä, poistamista ja muokkaamista. Tätä kutsutaan *tietojen kohteen pyynnöksi*. Jos olet luokitellut tietojen luottamuksellisuuden ja olet varma, että ne ovat oikein, järjestelmänvalvoja voi vastata pyyntöihin **käyttäjien, käyttäjäryhmien ja käyttöoikeuksien hallinnan** roolikeskuksen **Tietosuoja**-kohdan määritysten avulla. Jos käytössä on Windows-asiakasohjelma, järjestelmänvalvoja voi käyttää **IT-päällikkö**-roolikeskusta. Lisätietoja tietojen luokittelusta ja tietojen luottamuksellisuuden luokittelusta [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]ssa on kohdissa [Tietojen luokitteleminen](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) ja [Tietojen luottamuksellisuuden luokitteleminen](admin-classifying-data-sensitivity.md).  

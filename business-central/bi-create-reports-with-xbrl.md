@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 0576f2e7b93040118d2ef31458939d9b9822a6aa
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "922013"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247000"
 ---
 # <a name="create-reports-with-xbrl"></a>Luo raportteja XBRL-linkityksellä.
 XBRL, joka tarkoittaa eXtensible Business Reporting Language, on XML-pohjainen kieli taloudellisten tietojen merkitsemiseen ja yrityskäyttöön, jotta nämä voivat tehokkaasti ja tarkasti käsitellä ja jakaa tietojaan. XBRL-aloite sallii lukuisten ERP-ohjelmistoyritysten ja kansainvälisten kirjanpitojärjestöjen tekemän maailmanlaajuisen taloudellisen raportoinnin. Aloitteen tavoitteena on tarjota standardi pankkien, sijoittajien ja julkishallinnon taloudellisen tiedon raportointiin. Liiketoiminnan raportointi voi olla:  

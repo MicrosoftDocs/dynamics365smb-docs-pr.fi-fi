@@ -11,11 +11,11 @@ ms.search.keywords: tasks, work
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: 5befadf7a162cc2094fbb1ef426e25d02d50e856
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "918168"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1241166"
 ---
 # <a name="define-user-tasks"></a>Käyttäjätehtävien määrittäminen
 Voit luoda [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmassa tehtäviä, jotka muistuttavat sinua tekemättömistä töistä. Voit luoda tehtäviä itsellesi, mutta voit määrittää tehtäviä myös muille. Samoin joku toinen käyttäjä organisaatiossa voi määrittää tehtäviä sinulle.  

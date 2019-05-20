@@ -13,11 +13,11 @@ ms.search.keywords: relationship, prospect
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: d337da227214c88b8358eb07261f18443d9c5d93
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "918145"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1242263"
 ---
 # <a name="set-up-contacts"></a>Kontaktien määrittäminen
 Voit antaa kontaktien luomisen yhteydessä tietoja, kuten toimialan, johon kontakti kuuluu, sekä liikesuhteesi kontakteihin.

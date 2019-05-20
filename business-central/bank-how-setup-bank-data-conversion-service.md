@@ -11,11 +11,11 @@ ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, 
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 38c1ee9b37513b270dcad09238df4f841a961d1a
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "927540"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245022"
 ---
 # <a name="set-up-the-bank-data-conversion-service"></a>Pankkitietojen muuntopalvelun määrittäminen
 Yleiset palvelut on yhdistetty [!INCLUDE[d365fin](includes/d365fin_md.md)]iin ja valmis otettavaksi käyttöön. Sen avulla maksutiedot muunnetaan mihin tahansa pankkisi vaatimaan tietomuotoon. Tätä kutsutaan [!INCLUDE[d365fin](includes/d365fin_md.md)]issa pankkitietojen muuntopalveluksi.
@@ -24,7 +24,7 @@ Voit viedä maksurivit **Maksupäiväkirja**-sivulta tiedostoon tai tietovirtaan
 
 Voit tuoda tiliotetiedostot **Maksujen täsmäytyskirjauskansio** -sivulle muuntamalla pankin lähettämän tiedoston pankkitietojen muuntopalvelussa tietovirraksi, jonka [!INCLUDE[d365fin](includes/d365fin_md.md)] voi tuoda. Lisätietoja on kohdassa [Maksujen kohdistaminen automaattisesti ja pankkitilien täsmäyttäminen](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
-Tiliotteet voi tuoda pankkitietojen muuntopalvelun lisäksi myös Envestnet Yodlee -pankkisyötepalvelun avulla. Lisätietoja on kohdassa [Envestnet Yodlee -pankkisyötepalvelun määrittäminen](bank-how-setup-bank-statement-service.md).
+Tiliotteet voi tuoda pankkitietojen muuntopalvelun lisäksi myös Envestnet Yodlee Bank Feeds -palvelun avulla. Lisätietoja on kohdassa [Envestnet Yodlee Bank Feeds -palvelun määrittäminen](bank-how-setup-bank-statement-service.md).
 
 Pankkitiedostojen tuontia ja vientiä varten on määritettävä oma pankkitili ja toimittajien pankkitilit. Lisätietoja on kohdassa [Pankkitilien määrittäminen](bank-how-setup-bank-accounts.md).
 

@@ -13,11 +13,11 @@ ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory 
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: dd48be8b92a03d50bc590d579de940599da6aa7e
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "941678"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1243340"
 ---
 # <a name="adjust-item-costs"></a>Nimikekustannusten muuttaminen
 Nimikekustannus (varastoarvo) voi muuttua, kun ostat nimikkeen ja myyt sen myöhemmin, koska rahtikulut lisätään ostohintaan nimikkeen myynnin jälkeen. Kustannusten muuttamisella on merkitystä etenkin tilanteissa, jossa tavaroita myydään ennen tavaroiden oston laskuttamista. Jotta oikea varastoarvo on tiedossa, nimikekustannukset on mukautettava säännöllisesti. Näin varmistetaan, että tuottotilastot ovat ajan tasalla ja talouden avaintunnusluvut ovat oikein. Katso lisätietoja kohdasta [Rakennetiedot: kustannuksen muutos](design-details-cost-adjustment.md).

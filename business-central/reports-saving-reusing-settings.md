@@ -11,11 +11,11 @@ ms.search.keywords: customization, personalization
 ms.date: 04/01/2019
 ms.author: jswymer
 ms.openlocfilehash: 3e7b00d54a9c655a77b7b7f4854e59993866427e
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "941513"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251215"
 ---
 # <a name="managing-saved-settings-on-reports"></a>Raporttien tallennettujen asetusten hallinta
 Raportteja ajettaessa käyttäjä saa tyypillisesti näkyviin sivun, jolla voi määrittää tietyt luodun raportin tietojen muuttamisessa tarvittavat asetukset ja suodattimet. Sivua kutsutaan raporttipyyntösivuksi. Raportti voi sisältää vähintään yhdet *tallennetut asetukset*, joita voidaan käyttää pyyntösivun raportissa. *Tallennetut asetukset* ovat periaatteessa ennalta määritettyjä asetuksia ja suodattimia. Tallennettujen asetusten käyttäminen on nopea ja helppo tapa oikeiden tietojen sisältämien raporttien luomista varten. Lisätietoja siitä, miten tallennettuja asetuksia käytetään kohdassa [Tallennettujen asetusten käyttäminen](ui-work-report.md#SavedSettings).

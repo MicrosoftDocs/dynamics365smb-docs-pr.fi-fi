@@ -1,5 +1,5 @@
 ---
-title: Yodlee -pankkisyötteiden määrittäminen| Microsoft Docs
+title: Yodlee Bank Feeds -palvelun määrittäminen| Microsoft Docs
 description: Voit muuntaa maksutiedot mihin tahansa tietomuotoon, jota pankkisi edellyttää ja ottaa käyttöön pankkitiedostojen tuonnin tai viennin.
 services: project-madeira
 documentationcenter: ''
@@ -13,20 +13,20 @@ ms.search.keywords: Yodlee, feed, stream, payment process
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 9fa3911ceeb94d523709d1029db9527b868bc199
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "941817"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246651"
 ---
-# <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Envestnet Yodlee -pankkisyötepalvelun määrittäminen
+# <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Envestnet Yodlee Bank Feeds -palvelun määrittäminen
 Voit tuoda pankistasi sähköisiä tiliotteita ja täyttää nopeasti **Maksujen täsmäytyskirjauskansio** -sivun maksujen kohdistamiseksi ja pankkitilin täsmäyttämiseksi. Lisätietoja on kohdassa [Maksujen kohdistaminen automaattisesti ja pankkitilien täsmäyttäminen](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 > [!NOTE]
-> Envestnet Yodlee -pankkisyötepalvelua tuetaan vain Business Centralin verkkoversiossa. Jos haluat käyttää tätä toimintoa paikallisesti, sinun on hankittava yhteistili Envestnet Yodleelta.<br /><br />
+> Envestnet Yodlee Bank Feeds -palvelua tuetaan vain Business Centralin verkkoversiossa. Jos haluat käyttää tätä toimintoa paikallisesti, sinun on hankittava yhteistili Envestnet Yodleelta.<br /><br />
 > Envestnet Yodlee Bank Feeds -palvelua tuetaan vain Yhdysvalloissa, Kanadassa ja Isossa-Britanniassa.
 
-Envestnet Yodlee -pankkisyötepalvelu on asennettu [!INCLUDE[d365fin](includes/d365fin_md.md)] onlineen laajennuksena. Se on valmis käyttöönottoa varten tuetuissa maissa. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md).
+Envestnet Yodlee Bank Feeds -palvelu on asennettu [!INCLUDE[d365fin](includes/d365fin_md.md)] onlineen laajennuksena. Se on valmis käyttöönottoa varten tuetuissa maissa. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md).
 
 Kun olet ottanut pankkisyötepalvelun käyttöön, pankkitili on linkitettävä siihen verkkopankkitiliin, josta syöte tulee. Voit linkittää pankkitilit verkkopankkitileihin seuraavissa erilaisissa skenaarioissa:
 
@@ -55,7 +55,7 @@ Pankkisyötepalvelu otetaan käyttöön, kun linkität pankkitilin siihen liitty
 2. Valitse asianmukainen pankkitili ja valitse sitten **Luo uusi linkitetty pankkitili**. Hetken kuluttua näyttöön avautuu **Pankkitilin linkitys** -sivu.
 
     > [!NOTE]  
-    > Tällä sivulla näytetään Envestnet Yodlee -pankkisyötepalvelun todellinen verkkosivu. Sivulla näkyvät termit ja toiminnot eivät ehkä vastaa tämän ohjeaiheen ohjeita.  
+    > Tällä sivulla näytetään Envestnet Yodlee Bank Feeds -palvelun todellinen verkkosivu. Sivulla näkyvät termit ja toiminnot eivät ehkä vastaa tämän ohjeaiheen ohjeita.  
 3. Käytä **Verkkopankkitilin linkitys** -sivun **Linkitä tili** -ruudun hakutoimintoa, kun etsit pankin, jossa sinulla on vähintään yksi verkkopankkitili.
 4. Valitse pankin nimi. **Kirjaudu sisään** -ruutu avautuu.
 5. Syötä käyttäjätunnus ja salasana, jota käytät kirjautuessasi verkkopankkiin, ja valitse sitten **Seuraava**-painike.  

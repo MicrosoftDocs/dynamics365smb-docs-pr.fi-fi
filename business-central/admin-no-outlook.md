@@ -12,11 +12,11 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: beadf2b83468da9d453d9be8aaa8a39723ab3309
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "923715"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1243649"
 ---
 # <a name="using-business-central-without-outlook"></a>Business Central -sovelluksen käyttäminen ilman Outlookia
 [!INCLUDE[d365fin](includes/d365fin_md.md)] on integroitu tiiviisti Office 365:n kanssa, ja voit käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]ia Outlookissa yrityssähköpostina. Jos Outlook ei ole käytössä, [!INCLUDE[d365fin](includes/d365fin_md.md)]ia voi käyttää selaimessa tai mobiililaitteessa.  

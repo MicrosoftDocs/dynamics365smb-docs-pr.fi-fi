@@ -11,11 +11,11 @@ ms.search.keywords: analysis, reporting, financial report, business intelligence
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: 382bee236225c1038430bb2243c6c54b56ef772e
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "935944"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1241000"
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Liiketoimintatietojen vienti Exceliin
 Jos haluat käsitellä [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietoja Excelissä, voit avata kaikki luettelot Excelissä ja käsitellä niitä siellä. Jos haluat vastaavasti peruuttaa [!INCLUDE[d365fin](includes/d365fin_md.md)]in tilauksen, voit viedä tiedot Exceliin, jotta ne ovat edelleen käytettävissä.

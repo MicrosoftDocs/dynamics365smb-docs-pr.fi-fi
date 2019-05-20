@@ -13,11 +13,11 @@ ms.search.keywords: design, dimensions, codeunit
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: c6b66ecee87e1fd128733f541d46b97f44af0453
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "935657"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1242742"
 ---
 # <a name="design-details-dimension-set-entries"></a>Rakennetiedot: dimensioyhdistelmä-tapahtumat
 Tässä ohjeistuksessa on yksityiskohtaisia teknisiä tietoja [!INCLUDE[d365fin](includes/d365fin_md.md)]in dimensiotapahtuman tallennus- ja kirjaustoiminnossa käytettävistä käsitteistä ja periaatteista. Ohjeistuksen alussa käsitellään käsitteellisiä yhteenvetoja. Sen jälkeen käsitellään teknistä arkkitehtuuria. Siinä on myös koodiesimerkkejä, joiden avulla voit varautua dimensiokoodin siirtoon ja päivitykseen Dynamics NAV 2013R2:ta edeltävistä versioista.  

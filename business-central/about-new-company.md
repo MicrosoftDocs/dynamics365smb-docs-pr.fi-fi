@@ -11,11 +11,11 @@ ms.search.keywords: company, setup wizard
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: eae262341eb61e40f130caf45bb838a62aa67cf2
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "916568"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245200"
 ---
 # <a name="creating-new-companies-in-included365finincludesd365finmdmd"></a>Uusien yritysten luominen [!INCLUDE[d365fin](includes/d365fin_md.md)]issa
 [!INCLUDE[d365fin](includes/d365fin_md.md)]in liiketoimintayksikölle tai yritykselle kuuluvia liiketoimintatietojen säilöjä kutsutaan *yrityksiksi*. Kun rekisteröidyt [!INCLUDE[d365fin](includes/d365fin_md.md)]iin, saat käyttöösi esimerkkiyrityksen ja tyhjän yrityksen, jonka nimi on *Oma yritys*. Yritysten välillä siirtyminen on helppoa: valitse vain **Omat asetukset** ja siirry toiseen yritykseen. Voit myös luoda uusia yrityksiä [!INCLUDE[d365fin](includes/d365fin_md.md)]issa yrityksen tarpeiden mukaan. Kun luot uuden yrityksen, asetusten ohjattu määritysopas auttaa varmistamaan, että perustoiminnot ovat kohdallaan. Voit tuoda tämän jälkeen tarvittavat tiedot vanhasta järjestelmästä tai toisesta [!INCLUDE[d365fin](includes/d365fin_md.md)]in yrityksestä.  

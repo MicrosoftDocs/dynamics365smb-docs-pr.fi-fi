@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, replenishment
-ms.date: 04/01/2019
+ms.date: 04/24/2019
 ms.author: sgroespe
-ms.openlocfilehash: 35395ad71dbc0717410ed5a910f5bcd0170b1d8c
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: 83f6a24fc066faef49de456e18673f8059a9831d
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "936786"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252249"
 ---
 # <a name="create-recurring-sales-and-purchase-lines"></a>Toistuvien myynti- ja ostorivien luominen
 Jos sinun on usein luotava samankaltaisia tietoja sisältäviä myynti- ja ostorivejä, voit määrittää vakiorivejä ja lisätä ne sitten toistuviin myynti- ja ostoasiakirjoihin, kuten toistuviin täydennystilauksiin.  
@@ -33,14 +33,21 @@ Seuraavissa menettelyissä käsitellään myyntilaskun vakiomyyntirivien käytt�
 > [!NOTE]
 > Vakiomyyntiriveillä ei voi määrittää hintoja, koska esimerkiksi hinnat ja alennukset lasketaan varsinaisissa myyntiasiakirjoissa vakiomyyntirivien lisäämisen jälkeen.
 
-## <a name="to-assign-standard-sales-lines-to-a-customers"></a>Vakiomyyntikoodien määrittäminen asiakkaille
+## <a name="to-assign-standard-sales-lines-to-a-customer"></a>Vakiomyyntikoodien määrittäminen asiakkaalle
 Määritä asiakkaalle vähintään yksi vakiomyyntirivi, jotta näitä rivejä voidaan liittää kyseisen asiakkaan myyntiasiakirjoihin.
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Asiakkaat** ja valitse sitten liittyvä linkki.
 2. Avaa soveltuvan asiakkaan kortti.
 3. Valitse **Toistuvat myyntirivit** -toiminto.
 4. Valitse **Toistuvat myyntirivit** -sivulla niiden toistuvien myyntirivien koodit, joita haluat lisätä asiakkaan myyntiasiakirjoihin.
-5. Täytä muut kentät ja määritä, milloin, miten ja missä toistuvia myyntirivejä käytetään. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+5. Täytä muut kentät ja määritä, milloin, miten ja missä toistuvia myyntirivejä käytetään.
+6. Voit valita neljässä kentässä, miten rivejä lisätään neljään asiakirjatyyppiin valitsemalla jonkin seuraavista asetuksista:
+
+|Asetus|Kuvaus|
+|-|-|
+|**Manuaalinen**|Asiakkaalla olevat toistuvat myyntirivit on valittava ja lisättävä manuaalisesti.|
+|**Automaattinen**|Jos asiakkaalla on useita toistuvia myyntirivejä, saat ilmoituksen siitä, mistä voi valita, mikä rivi lisätään. Jos toistuvia myyntirivejä on vain yksi, se lisätään automaattisesti.|
+|**Kysy aina**|Ilmoitus avautuu ja kaikki aiemmin luodut toistuvat myyntirivit näytetään. Voit sitten valita niistä yhden.
 
 ## <a name="to-insert-recurring-sales-lines-on-a-sales-invoice"></a>Toistuvien myyntirivien lisääminen myyntilaskuun
 Jos asiakkaalla on toistuvia myyntirivejä, voit lisätä niitä kaikenlaisiin myyntiasiakirjoihin, kuten myyntilaskuun. Jos olet aktivoinut kyseisen ilmoituksen, saat ilmoituksen, jos toistuvia myyntirivejä on.

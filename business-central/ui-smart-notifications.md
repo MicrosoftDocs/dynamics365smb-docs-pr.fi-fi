@@ -12,11 +12,11 @@ ms.workload: na
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: c70a8fd066ffd5d312716891aa4cdf7768cd102a
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "926674"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249213"
 ---
 # <a name="managing-notifications"></a>Ilmoitusten hallinta
 [!INCLUDE[d365fin](includes/d365fin_md.md)] voi auttaa työskentelemään älykkäämmin ilmoittamalla tietyistä tapahtumista tai tilamuutoksesta esimerkiksi silloin, kun olet laskuttamassa asiakasta, jolla on erääntynyttä saldoa, tai kun käytettävissä oleva varasto on pienempi kuin myytävä määrä. Nämä ilmoitukset näytetään hienovaraisina vihjeinä käsiteltävän tehtävän kontekstissa. Voit ohittaa ilmoituksen tai tarkastella sitä lähemmin.  

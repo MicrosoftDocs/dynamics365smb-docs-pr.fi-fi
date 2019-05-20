@@ -11,11 +11,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: a1c652c57b3b05e083f88566cf5253aa67dc6b76
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "930005"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1242190"
 ---
 # <a name="about-calculating-standard-cost"></a>Tietoja standardikustannuksen laskemisesta
 Useat tuotantoyritykset valitsevat vakiokustannusten perustaksi arvostuksen. Tämä pätee myös yrityksiin, jotka tekevät vain kevyitä tuotantotöitä, kuten kokoonpanoa ja varustelua. Vakiokustannusjärjestelmässä varastoyksikkö määritetään kohtuullisten aiempien tai odotettujen kustannusten perusteella. Tällöin aiempien ja arvioitujen kustannusten tarkastelut muodostavat vakiokustannusten perustan. Nämä kustannukset jäädytetään, kunnes niiden muutosta koskeva päätös on tehty. Tuotteen todelliset tuotantokustannukset eroavat väistämättä arvioiduista vakiokustannuksista. Todellisia kustannuksia vertaillaan tietyn nimikkeen vakiokustannuksiin johdon hallintotarkoituksia varten, ja *erot* tunnistetaan ja analysoidaan.  

@@ -13,18 +13,18 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: fde77f873897d801e6bf06d55d57e9406f352eed
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "941632"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245857"
 ---
 # <a name="prepare-a-configuration-package"></a>Määrityspaketin valmisteleminen
 Kun määrität uuden yrityksen, taulukon suhteet tunnistetaan ja käsitellään. Tiedot tuodaan ja otetaan käyttöön oikeassa järjestyksessä. Dimensiotaulukot tuodaan myös, jos ne on sisällytetty määrityspakettiin. Lisätietoja on kohdassa [Asiakastietojen tuominen](admin-migrate-customer-data.md#to-import-customer-data). 
 
 Auttaaksesi asiakastasi käyttämään kokoonpano-pakettia haluat ehkä lisätä pakettiin kyselylomakkeen tai useita kyselylomakkeita. Kyselylomake voi auttaa asiakkaita ymmärtämään eri asetusvaihtoehtoja. Yleensä suurille asetustaulukoille luodaan kyselylomakkeet, jolloin asiakas voi vaatia lisää ohjeita siitä, miten voi valita haluamansa asetuksen. Lisätietoja on kohdassa [Asiakkaan asetusarvojen kerääminen](admin-gather-customer-setup-values.md).
 
-Varmista, että olet RapidStart Services -palvelun käyttöönottajien roolikeskuksen sivulla. Lisätietoja on kohdassa [RapidStart Services -palvelun käyttöönottajien roolikeskuksen käyttäminen](admin-how-to-use-the-rapidstart-services-role-center-to-track-progress.md).
+Varmista, että olet RapidStart Servicesin käyttöönottajan roolikeskuksessa. Lisätietoja on kohdassa [RapidStart Servicesin käyttöönottajan roolikeskuksen käyttäminen](admin-how-to-use-the-rapidstart-services-role-center-to-track-progress.md).
 
 > [!IMPORTANT]  
 >  Kun yrityksen tietokantojen välillä tuodaan tai viedään määrityspaketteja, tietokantojen tulisi noudattaa samaa rakennetta, jotta kaikki tiedot siirtyvät onnistuneesti. Tämä tarkoittaa, että tietokannoilla tulisi olla sama taulukko- ja kenttärakenne, jossa taulukoilla on samat ensisijaiset avaimet ja kentillä on samat tunnukset ja tietotyypit.  
@@ -77,7 +77,7 @@ Paketti luodaan .rapidstart-tiedostosssa, joka toimittaa paketin sisällön paka
 Voit tallentaa tiedoston nimellä, joka on sinulle merkityksellinen, mutta et voi vaihtaa tiedoston tunnistetta. Sen on oltava .rapidstart.  
 
 ### <a name="to-copy-a-configuration-package"></a>Kopioi paketin kokoonpano  
-Kun olet luonut paketin, joka täyttää suurimman osan tarpeistasi, voit käyttää sitä perustana luodaksesi vastaavia paketteja. Tämä voi nopeuttaa täytäntöönpanoaikaa, ja se parantaa RapidStart Services -palvelun toistettavuutta.
+Kun olet luonut paketin, joka täyttää suurimman osan tarpeistasi, voit käyttää sitä perustana luodaksesi vastaavia paketteja. Tämä voi nopeuttaa täytäntöönpanoaikaa ja parantaa RapidStart Servicesin toistettavuutta.
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Määrityspaketit** ja valitse sitten liittyvä linkki.  
 2. Valitse paketti luettelosta ja valitse sitten **Kopioi paketti** -toiminto.  
@@ -86,7 +86,7 @@ Kun olet luonut paketin, joka täyttää suurimman osan tarpeistasi, voit käytt
 5. Valitse **OK**-painike.
 
 ## <a name="to-customize-a-configuration-package"></a>Määrityspaketin mukauttaminen
-Käytä määritystyökirjaa kerätäksesi ja luokitellaksesi tietoja, joita haluat käyttää, jotta voit määrittää uuden yrityksen ja järjestää taulukot loogisesti. Työkirjan muotoilu perustuu yksinkertaiseen hierarkiaan: alueet sisältävät ryhmiä, jotka sisältävät taulukoita. Alueet ja ryhmät ovat valinnaisia, mutta ne ovat tarpeen, jos haluat ottaa käyttöön yleiskuvan määritysprosessista RapidStart Services -palvelun roolikeskuksessa.
+Käytä määritystyökirjaa kerätäksesi ja luokitellaksesi tietoja, joita haluat käyttää, jotta voit määrittää uuden yrityksen ja järjestää taulukot loogisesti. Työkirjan muotoilu perustuu yksinkertaiseen hierarkiaan: alueet sisältävät ryhmiä, jotka sisältävät taulukoita. Alueet ja ryhmät ovat valinnaisia, mutta ne ovat tarpeen, jos haluat ottaa käyttöön yleiskuvan määritysprosessista RapidStart Servicesin roolikeskuksessa.
 
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Määritystyökirja** ja valitse sitten liittyvä linkki.  
 2.  Valitse **Rivityyppi**-kentässä **Alue**. Anna **Nimi**-kentässä kuvaava nimi.  
@@ -136,6 +136,6 @@ Kun olet tarkistanut ja testannut kaikki asetustiedot, voit jatkaa tietojen kopi
 
 ## <a name="see-also"></a>Katso myös  
 [Asiakkaan asetusarvojen kerääminen](admin-gather-customer-setup-values.md)  
-[Määritä yrityksen konfigurointi](admin-set-up-company-configuration.md)  
-[Yrityksen määrittäminen RapidStart Services -palvelun avulla](admin-set-up-a-company-with-rapidstart.md)  
+[Yrityksen konfiguroinnin määrittäminen](admin-set-up-company-configuration.md)  
+[Yrityksen määrittäminen RapidStart Servicesin avulla](admin-set-up-a-company-with-rapidstart.md)  
 [Hallinta](admin-setup-and-administration.md)

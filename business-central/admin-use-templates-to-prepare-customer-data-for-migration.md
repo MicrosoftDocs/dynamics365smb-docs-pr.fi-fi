@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 165eddfa28f2a48597d64c4480288e9280124fe7
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "912435"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247231"
 ---
 # <a name="prepare-to-migrate-customer-data"></a>Asiakastietojen siirtämisen valmisteleminen
 Kun olet tuonut ja ottanut käyttöön asetustiedot uuteen tietokantaan, voit aloittaa siirtämään asiakkaan nykyiset päätiedot, kuten nimikkeiden ja asiakkaiden numerot ja nimet. Varmista, että tiedot luodaan nopeasti ja tarkasti uudessa yrityksessä käyttämällä malleja tietojen järjestämiseen.  
@@ -137,6 +137,6 @@ Seuraava toimenpide perustuu uuteen asiakaskorttiin.
 Valitun asiakkaan mallin oletusarvot lisätään asiakaskorttiin.
 
 ## <a name="see-also"></a>Katso myös  
-[Yrityksen määrittäminen RapidStart Services -palvelun avulla](admin-set-up-a-company-with-rapidstart.md)  
+[Yrityksen määrittäminen RapidStart Servicesin avulla](admin-set-up-a-company-with-rapidstart.md)  
 [Hallinta](admin-setup-and-administration.md)  
 [Uusien asiakkaiden rekisteröinti](sales-how-register-new-customers.md)

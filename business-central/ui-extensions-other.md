@@ -12,11 +12,11 @@ ms. search.keywords: app, add-in, manifest, customize
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: f3c08748cb6adc0abe90606ab4182a002dbb6dbf
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "913916"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249840"
 ---
 # <a name="business-central-extensions-by-other-providers"></a>Muiden toimittajien Business Central -laajennukset
 Osoitteessa [AppSource.microsoft.com](https://appsource.microsoft.com/) on [!INCLUDE[d365fin](includes/d365fin_md.md)]in laajennuksia. Jotkin ovat Microsoftin laajennuksia, jotkin muiden yritysten. Muiden kuin Microsoftin julkaisemien laajennusten lisätietoja löytyy kyseisten yritysten verkkosivustoista. Nämä tiedot ovat sivustossa [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).  

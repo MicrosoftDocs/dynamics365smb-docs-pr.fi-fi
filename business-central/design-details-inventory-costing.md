@@ -11,11 +11,11 @@ ms.search.keywords: design, inventory, costing
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: b484cc412084937072f5031185ba8c69078a616a
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "922790"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246407"
 ---
 # <a name="design-details-inventory-costing"></a>Rakennetiedot: varaston arvostus
 Tässä dokumentaatiossa on yksityiskohtaisia teknisiä tietoja [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman varaston arvostuksen toiminnoissa käytettävistä konsepteista ja periaatteista.  

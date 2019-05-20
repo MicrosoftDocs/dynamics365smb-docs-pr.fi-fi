@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: f0bf6da083b69d76c3f2ad75e8fb9b9d6bfdc5d9
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "913036"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1248523"
 ---
 # <a name="plan-picks-in-worksheets"></a>Poimintojen suunnitteleminen työkirjoissa
 Kun fyysisessä varastossa on määritetty pakolliseksi sekä poiminnan että toimituksen käsittely, fyysisessä varastossa voidaan valita, että toimitusasiakirjojen rivejä ei muuteta automaattisesti poimintaohjeiksi, vaan ne määritetään saatavilla oleviksi poimintatyökirjaan.  

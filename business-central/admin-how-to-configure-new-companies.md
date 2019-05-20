@@ -13,18 +13,18 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: ecfa992e5a228225c6ef18ced95e477519ce0fd7
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "925550"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245429"
 ---
 # <a name="configure-new-companies"></a>Uusien yritysten määrittäminen
 Uusi yritys määritetään ratkaisun käyttöönottoa varten yleensä kolmen vaiheen avulla. Ensimmäisessä vaiheessa tuodaan määrityspaketti, joka on määritystiedot sisältävä .rapidstart-tiedosto. Toisessa vaiheessa muokataan määritystietoja ja käytetään niitä uudessa yrityksessä. Viimeisessä vaiheessa mahdolliset virheet tarkistetaan ja korjataan.  
 
 Seuraavissa ohjeissa oletetaan, että olet luonut ja tallentanut kokoonpanopaketin. Lisätietoja on kohdassa [Määrityspaketin valmisteleminen](admin-how-to-prepare-a-configuration-package.md).  
 
-Seuraavissa ohjeissa oletetaan, että että olet alustanut ja avannut uuden yrityksen ja että käytössä on RapidStart Services -palvelun roolikeskus.
+Seuraavissa ohjeissa oletetaan, että olet alustanut ja avannut uuden yrityksen ja että käytössä on RapidStart Servicesin käyttöönottajan roolikeskus.
 
 ## <a name="to-import-a-configuration-package"></a>Tuo paketin kokoonpano  
 1. Avaa uusi yritys [!INCLUDE[d365fin](includes/d365fin_md.md)] -tietokannassa.  
@@ -75,5 +75,5 @@ Ohjelmassa on tietyn tyyppisiä virheitä, jotka voivat ilmetä, kun tietoja lis
 
 ## <a name="see-also"></a>Katso myös  
 [Kokoonpanojen käyttäminen uusissa yrityksissä](admin-apply-configuration-to-new-companies.md)  
-[Yrityksen määrittäminen RapidStart Services -palvelun avulla](admin-set-up-a-company-with-rapidstart.md)  
+[Yrityksen määrittäminen RapidStart Servicesin avulla](admin-set-up-a-company-with-rapidstart.md)  
 [Hallinta](admin-setup-and-administration.md)

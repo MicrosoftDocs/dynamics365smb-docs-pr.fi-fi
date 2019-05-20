@@ -11,11 +11,11 @@ ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: b3fb3d2680cd85da8b2def7e82fbf62c0046fcc3
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "940115"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247419"
 ---
 # <a name="scheduling-a-synchronization-between-business-central-and-dynamics-365-for-sales"></a>Business Centralin ja Dynamics 365 for Salesin synkronoinnin ajoittaminen
 Voit synkronoida [!INCLUDE[d365fin](includes/d365fin_md.md)]in ja [!INCLUDE[crm_md](includes/crm_md.md)]in tietyin väliajoin määrittämällä työt työjonoon. Synkronointityöt synkronoivat [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietueiden tiedot ja [!INCLUDE[crm_md](includes/crm_md.md)]in tietueet, jotka on aiemmin yhdistetty. Jos kyse on vielä yhdistämättömistä tietueista synkronointityöt voivat luoda ja yhdistää uusia tietueita kohdejärjestelmässä synkronointisuunnan ja -sääntöjen mukaisesti. Käytettävissä on heti useita synkronointitöitä. Voit tarkastella niitä **Työjonon tapahtumat** -sivulla. Lisätietoja on kohdassa [Tehtävien aikatauluttaminen työjonojen avulla](admin-job-queues-schedule-tasks.md).
