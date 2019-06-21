@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: c318346c62b7776a550a77a2947173e33d5f17c0
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 3163389cb0818133fba9ab8c55b8d0cf662130f1
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246572"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1620951"
 ---
 # <a name="setting-up-user-accounts-for-integrating-with-dynamics-365-for-sales"></a>Dynamics 365 for Sales -integroinnissa käytettävien käyttäjätilien määrittäminen
 Tässä artikkelissa on yleiskatsaus [!INCLUDE[crm_md](includes/crm_md.md)]in ja [!INCLUDE[d365fin](includes/d365fin_md.md)]in integroinnissa tarvittavien käyttäjätilien määrittämisestä.  
@@ -28,7 +28,7 @@ Tässä artikkelissa on yleiskatsaus [!INCLUDE[crm_md](includes/crm_md.md)]in ja
 [!INCLUDE[d365fin](includes/d365fin_md.md)]in järjestelmänvalvojan käyttäjätili on lisättävä ensin käyttäjänä [!INCLUDE[crm_md](includes/crm_md.md)]iin ja siirrettävä käyttäjä sitten [!INCLUDE[crm_md](includes/crm_md.md)]in järjestelmänvalvojaksi. Järjestelmänvalvojan käyttäjätilillä on oltava [!INCLUDE[crm_md](includes/crm_md.md)]issa myös järjestelmän mukauttajan rooli ja ainakin yksi ei-hallinnollinen käyttäjärooli, kuten myyntipäällikkö.
 
 ## <a name="setting-up-the-user-account-for-the-integration"></a>Käyttäjätilin määrittäminen integrointia varten
-Office 365 -tilauksessa on luotava erillinen käyttäjätili, jota sekä [!INCLUDE[d365fin](includes/d365fin_md.md)] että [!INCLUDE[crm_md](includes/crm_md.md)] voi käyttää tietojen synkronoimiseen. Tällä käyttäjätilillä on voitava kirjautua [!INCLUDE[crm_md](includes/crm_md.md)]iin, joten kyseisellä käyttäjällä on oltava [!INCLUDE[crm_md](includes/crm_md.md)]in käyttöoikeus. Tämän tili on lisäksi oltava ei-vuorovaikutteinen tili [!INCLUDE[crm_md](includes/crm_md.md)]issa. Lisätietoja käyttäjien luomisesta [!INCLUDE[crm_md](includes/crm_md.md)]issa on kohdassa [Tietoturvan, käyttäjien ja tiimien hallinta](http://go.microsoft.com/fwlink/?LinkID=616518). Kun yhteys on määritetty, [!INCLUDE[d365fin](includes/d365fin_md.md)] määrittää käyttäjätilille käyttöoikeusroolin, jota se tarvitsee [!INCLUDE[d365fin](includes/d365fin_md.md)]issa.
+Office 365 -tilauksessa on luotava erillinen käyttäjätili, jota sekä [!INCLUDE[d365fin](includes/d365fin_md.md)] että [!INCLUDE[crm_md](includes/crm_md.md)] voi käyttää tietojen synkronoimiseen. Käyttäjätilin tulee voida kirjatua [!INCLUDE[crm_md](includes/crm_md.md)]iin, mikä tarkoittaa sitä, että tällä käyttäjällä tulee olla [!INCLUDE[crm_md](includes/crm_md.md)] lisenssi ja käyttäjäoikeusrooli määritettynä [!INCLUDE[crm_md](includes/crm_md.md)]ssa, kuten [tässä kuvataan](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#create-a-user-account). Lisätietoja käyttäjien luomisesta [!INCLUDE[crm_md](includes/crm_md.md)]issa on kohdassa [Tietoturvan, käyttäjien ja tiimien hallinta](http://go.microsoft.com/fwlink/?LinkID=616518). Kun yhteys on määritetty, [!INCLUDE[d365fin](includes/d365fin_md.md)] määrittää käyttäjätilin käyttöoikeusroolit, joita se tarvitsee [!INCLUDE[d365fin](includes/d365fin_md.md)]ssa ja tämän tilin voi määrittää [epäinteraktiiviseen käyttötilaan](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#create-a-non-interactive-user-account) [!INCLUDE[crm_md](includes/crm_md.md)]ssä.
 
 ![Asetusten ohjattu määritys osoittaa paikan, johon synkronoinnin käyttäjätiedot annetaan](media/sync-user-setup.png "Visualisointina asetusten ohjattu määrityssivu osoittaa paikan, johon synkronoinnin käyttäjätiedot annetaan")
 

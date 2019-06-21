@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 28ce599b2067faa904f917f8fce7390202c98d7b
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c95dee48b42fe5784c1d7d2fc6a11d5f487c7653
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245755"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621043"
 ---
 # <a name="set-up-a-connection-to-dynamics-365-for-sales"></a>Yhteyden määrittäminen Dynamics 365 for Salesiin
 [!INCLUDE[crm_md](includes/crm_md.md)] -integraatiota varten on määritettävä yhteys [!INCLUDE[d365fin](includes/d365fin_md.md)]in ja [!INCLUDE[crm_md](includes/crm_md.md)]in välille. 
@@ -55,6 +55,9 @@ Asetusten ohjattu **Dynamics 365 for Sales -yhteyden määritys** -opas auttaa m
 |**Ota käyttöön myyntitilauksen integrointi**|Kopioi [!INCLUDE[crm_md](includes/crm_md.md)]issa luodut myyntitilaukset [!INCLUDE[d365fin](includes/d365fin_md.md)]iin. Tätä varten on annettava järjestelmänvalvojan käyttäjätilin tunnistetiedot [!INCLUDE[crm_md](includes/crm_md.md)]issa. Lisätietoja on kohdassa [Myyntitilauksen tietojen käsitteleminen](marketing-integrate-dynamicscrm.md#handling-sales-order-data)|
 |**Ota käyttöön Dynamics 365 for Sales -yhteys**|Ota [!INCLUDE[crm_md](includes/crm_md.md)] -yhteys käyttöön.|
 |**Dynamics 365 SDK -versio**|Tällä on merkitystä vain, jos integrointi tehdään [!INCLUDE[crm_md](includes/crm_md.md)]in paikalliseen versioon. Voit yhdistää tällä Dynamics 365 SDK -versiolla (joka tunnetaan myös nimellä Xrm) [!INCLUDE[d365fin](includes/d365fin_md.md)]in [!INCLUDE[crm_md](includes/crm_md.md)]iin. Version on oltava yhteensopiva sen SDK-version kanssa, jota [!INCLUDE[crm_md](includes/crm_md.md)] käyttää. Lisäksi sen on oltava sama tai uudempi kuin versio, jota [!INCLUDE[crm_md](includes/crm_md.md)] käyttää.|
+
+> [!Note]
+> **Määritä Dynamics 365 for Sales Connection** avustettu määritysten ohje liittää **Integroinnin Järjestelmänvalvoja** ja **Integrointikäyttäjä** turvaroolit integroinnissa käytettyyn käyttäjätiliin. 
 
 ### <a name="to-create-or-maintain-the-connection-manually"></a>Yhteyden luominen tai ylläpitäminen manuaalisesti
 Seuraavaksi käsitellään **Microsoft Dynamics 365 for Sales -yhteyden määritys** -sivun kenttien täyttämistä manuaalisesti. Tällä sivulla hallitaan myös integroinnin asetuksia.
@@ -103,6 +106,10 @@ Seuraavaksi käsitellään **Microsoft Dynamics 365 for Sales -yhteyden määrit
     >  Jos tietojen salaus ei ole käytössä [!INCLUDE[d365fin](includes/d365fin_md.md)]issa, sinulta kysytään, haluatko ottaa sen käyttöön. Ota tietojen salaus käyttöön valitsemalla **Kyllä** ja määritä tarvittavat tiedot. Valitse muussa tapauksessa **Ei**. Voit ottaa tietojen salauksen käyttöön myöhemmin. Lisätietoja on kehittäjän ja IT-ammattilaisen ohjeen kohdassa [Tietojen salaus Dynamics 365 Business Centralissa](/dynamics365/business-central/dev-itpro/developer/devenv-encrypting-data).  
 
 7. Jos [!INCLUDE[crm_md](includes/crm_md.md)]in synkronointia ei ole määritetty, sinulta kysytään, haluatko käyttää oletussynkronointiasetuksia. Valitse **Kyllä** tai **Ei** sen mukaan, haluatko pitää [!INCLUDE[crm_md](includes/crm_md.md)]in ja [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietueet kohdistettuina. 
+
+> [!Note]
+> Jos yrität yhdistää Dynamics 365 for Sales ohjelmaan käyttäen **Microsoft Dynamics 365 for Sales Yhteysasetukset** sivua käyttäen, voit joutua [määrittämään  **Integroinnin Järjestelmänvalvoja** ja **Integrointikäyttäjä** turvallisuusroolit](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user) integraatiossa käytetylle käyttäjätilille. 
+
 
 ### <a name="to-disconnect-from-includecrmmdincludescrmmdmd"></a>[!INCLUDE[crm_md](includes/crm_md.md)] -yhteyden katkaiseminen  
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä -kuvake"), kirjoita **Microsoft Dynamics 365 for Sales -yhteyden määritys** ja valitse sitten liittyvä linkki.

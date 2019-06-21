@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 06/03/2019
 ms.author: jswymer
-ms.openlocfilehash: 00143454cf0b0da9b111f92bcdb7879c7e6743d2
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: d0fac96313b41a0e41ea96ab4fedd25565498f12
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252456"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621158"
 ---
 # <a name="entering-data"></a>Tietojen antaminen
 
@@ -39,7 +39,7 @@ Osaat jo ehkä siirtyä sivulla kentästä seuraavaan muokattavaan kenttään sa
 
 Jokainen kenttää voidaan merkitä joko *pikatapahtumaan sisällytetyksi* tai *pikatapahtumasta poissuljetuksi*. Pikatapahtumaan sisällytetyt kentät sisällytetään polkuun, johon Enter-näppäimellä siirrytään, kun taas pikatapahtumasta poissuljettuja kenttiä ei sisällytetä siihen.
 
-Kun tiedot on annettu kenttään, vahvista muutokset Enter-näppäimellä ja siirry samalla seuraavaan kenttään. Jos haluat palata taaksepäin ja siirtyä edelliseen kenttään, paina näppäinyhdistelmää Vaihto+Enter. Lisätietoja pikanäppäimissä on kohdassa [Pikatapahtuman pikanäppäimet](keyboard-shortcuts.md#QuickEntry).
+Kun tiedot on annettu kenttään, vahvista muutokset Enter-näppäimellä ja siirry samalla seuraavaan kenttään. Jos haluat palata taaksepäin ja siirtyä edelliseen kenttään, paina näppäinyhdistelmää Vaihto+Enter. Lisätietoja oiketeistä, katso [Pikäsyöttö Oikotiet Kentille](keyboard-shortcuts.md#QuickEntry)
 
 #### <a name="tips-and-tricks"></a>Vihjeitä
 Seuraavassa luettelossa on joitakin hyödyllisiä tietoja pikatapahtumien käyttämisestä.
@@ -90,7 +90,7 @@ Jos käsittelet rivinimikeosan, kuten myyntitilaus- tai laskusivun, sisältävi�
 
 Lisäetuna on mahdollisuus käyttää suodatuksen lisäominaisuuksien, kuten muissakin luetteloissa, mikä helpottaa rivinimikkeiden selaamista ja hakemista.
 
-### <a name="switch-the-focus-on-and-off"></a>Kohdistuksen ottaminen käyttöön ja poistaminen käytöstä
+### <a name="switching-the-focus-on-and-off"></a>Kohdituksen Kytkeminen Päälle ja Pois
 
 Jos haluat siirtää kohdistuksen rivinimikkeisiin, tee valinta jossakin rivinimikeosassa ja valitse sitten oikeassa yläkulmassa ![Kohdistustilan kuvake](media/focus-mode.png "Kohdistustilan kuvake") tai paina näppäinyhdistelmää Ctrl+Vaihto+F12.
 

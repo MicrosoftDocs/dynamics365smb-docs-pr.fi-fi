@@ -51,7 +51,7 @@
 ## Pikanäppäimien käyttäminen
 ### [Helppokäyttötoiminnot ja pikanäppäimet](ui-accessibility.md)
 ### [Pikanäppäimet](keyboard-shortcuts.md)
-### [Pikanäppäinten pikaopas](keyboard-shortcuts-cheatsheet.md)
+### [Näppäimistön Pikaohje - Vain PC](keyboard-shortcuts-cheatsheet.md)
 
 # Business Central -sovelluksen määrittäminen
 ## [Yleiskuvaus](setup.md)
@@ -318,7 +318,7 @@
 ## [Sandbox-ympäristön luominen](across-how-create-sandbox-environment.md)
 ## Integrointi Dynamics 365 for Salesin kanssa
 ### [Yleiskuvaus](admin-prepare-dynamics-365-for-sales-for-integration.md)
-### [Dynamics 365 for Sales -integroinnin määrittäminen](admin-setting-up-integration-with-dynamics-sales.md)
+### [Dynamics 365 for Sales -integroinnissa käytettävien käyttäjätilien määrittäminen](admin-setting-up-integration-with-dynamics-sales.md)
 ### [Dynamics 365 for Sales -yhteyden määrittäminen](admin-how-to-set-up-a-dynamics-crm-connection.md)
 ### [Business Centralin ja Dynamics 365 for Salesin synkronointi](admin-synchronizing-business-central-and-sales.md)
 ### [Taulukon yhdistämismääritysten muokkaaminen synkronointia varten](admin-how-to-modify-table-mappings-for-synchronization.md)
@@ -330,11 +330,11 @@
 #### [Yleiskuvaus](ui-extensions.md)
 #### [Laajennusten käyttämisen mukauttaminen](ui-extensions.md)
 #### [Ceridian Payroll](ui-extensions-ceridian-payroll.md)
-#### [Tietojen replikointi](ui-extensions-data-replication.md)
 #### [Dynamics GP -tietojen siirto](ui-extensions-dynamicsgp-data-migration.md)
 #### [Olennaiset liiketoimintanäkemykset](ui-extensions-essential-business-insights.md)
 #### [Kuvan analysointitoiminto](ui-extensions-image-analyzer.md)
-#### [Älykäs pilvi](ui-extensions-intelligent-cloud.md)
+#### [Älykäs pilvi](ui-extensions-data-replication.md)
+#### [Älykäs Pilvipohja](ui-extensions-intelligent-cloud.md)
 #### [Microsoft Pay -maksut](ui-extensions-microsoft-pay-payments.md)
 #### [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)
 #### [QuickBooks-tietojen siirto](ui-extensions-quickbooks-data-migration.md)
@@ -347,6 +347,7 @@
 #### [DK – C5-tietojen siirto](ui-extensions-c5-data-migration.md)
 #### [DK – Verotiedostomuodot](ui-extensions-tax-file-formats-dk.md)
 #### [UK – Ison-Britannian postinumeroiden GetAddress.io](ui-extensions-getaddressio.md)
+#### [Lähetä Maksusuoritustietojen Ohjeet](ui-extensions-send-remittance-advice.md)
 #### [Muiden toimittajien Business Central -laajennukset](ui-extensions-other.md)
 ### [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md)
 ### [Mukautuksen hallinta järjestelmänvalvojana](ui-personalization-manage.md)
@@ -992,11 +993,7 @@
 #### [ALV-raporttien luominen](LocalFunctionality/Germany/how-to-create-vat-reports.md)
 #### [ALV-raporttien korjaaminen](LocalFunctionality/Germany/how-to-correct-vat-reports.md)  
 #### [Myynnin arvonlisäveron etukäteisilmoitus](LocalFunctionality\Germany\how-to-set-up-and-export-sales-vat-advance-notifications.md)
-#### [Myynnin arvonlisäveron etukäteisilmoituksen luominen ja lähettäminen](LocalFunctionality/Germany/how-to-create-and-submit-sales-vat-advance-notifications.md)
-#### [Myynnin arvonlisäveron etukäteisilmoituksen sähköisen lähettäminen ELSTERiin](LocalFunctionality/Germany/electronic-submission-of-sales-vat-advance-notifications-to-elster.md)
 #### [ALV-yhteenvetoilmoituksen tekeminen](LocalFunctionality/Germany/how-to-declare-vat-vies-tax.md)
-#### [ELSTER-siirron yleiskuvaus](LocalFunctionality/Germany/elster-transmission-overview.md)
-#### [Elster-siirtojen käsittelijän virhesanomat](LocalFunctionality/Germany/error-messages-of-the-elstertransferhandler.md)    
 ### Pankkitoiminta ja maksut
 #### [Toimittajan maksuluetteloraporttien tulostaminen](LocalFunctionality/Germany/how-to-print-vendor-payments-list-reports.md)
 ### Perusrahoitus

@@ -12,19 +12,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: soalex
-ms.openlocfilehash: 5dfe57895faa7c37fe49660f748611432fca0ce8
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 1926dec2df0806aa40c2f15a97aff8b841c98243
+ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237735"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1594198"
 ---
 # <a name="finland-local-functionality"></a>Suomen paikalliset toiminnot
 Seuraavissa ohjeaiheissa kerrotaan [!INCLUDE[d365fin](../../includes/d365fin_md.md)] -ohjelman suomalaisen version erityisistä paikallisista toiminnoista.  
 
 ## <a name="feature-availability"></a>Ominaisuuden käytettävyys
 
-* ALV ja vero
+* ALV
     * [Suomen Intrastat-raporttien tulostaminen](how-to-print-finnish-intrastat-reports.md) **Käytettävissä nyt**
     * [ALV-tietojen tulostaminen laskuihin](how-to-print-vat-information-on-invoices.md) **Käytettävissä nyt**
     * [ALV-yhteenvetoilmoitus Suomessa](vat-vies-declaration-in-finland.md) **Käytettävissä nyt**

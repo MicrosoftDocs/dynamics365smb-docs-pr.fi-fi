@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 991d8432c24b1963da019e3c8b665f9ad009d077
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: bbe5041f853af9d58149d446627b0b21fa0e0f12
+ms.sourcegitcommit: 92c7b6c5f0a5d8becbef106ab85258906765bc3e
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247278"
+ms.lasthandoff: 05/13/2019
+ms.locfileid: "1540244"
 ---
 # <a name="integrating-with-dynamics-365-for-sales"></a>Integrointi Dynamics 365 for Salesin kanssa
 Myyjää pidetään usein liiketoiminnan eniten ulospäin suuntautuneena tehtävänä. Myyjien voisi kuitenkin olla hyödyllistä tarkastella liiketoimintaa myös sisäisesti, jotta he tiedostaisivat, mitä taustalla tapahtuu. [!INCLUDE[d365fin](includes/d365fin_md.md)]in ja [!INCLUDE[crm_md](includes/crm_md.md)]in integroinnin ansiosta myyjät saavat merkityksellisiä tietoja, joiden avulla he voivat tarkastella [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietoja [!INCLUDE[crm_md](includes/crm_md.md)]ia käyttäessään. Myyntitarjousta valmistellessa voi esimerkiksi olla hyödyllistä tietää, riittääkö varasto tilauksen täyttämiseen. Lisätietoja on kohdassa [Dynamics 365 for Salesin käyttäminen Business Centralista](marketing-integrate-dynamicscrm.md).
@@ -32,7 +32,7 @@ You must have an Office 365 subscription, and both [!INCLUDE[crm_md](includes/cr
 Seuraavat ohjeet käsittelevät [!INCLUDE[crm_md](includes/crm_md.md)]in ja [!INCLUDE[d365fin](includes/d365fin_md.md)]in integrointia.
 
 > [!Note]  
-> Näitä tehtäviä varten tarvitaan [!INCLUDE[crm_md](includes/crm_md.md)]in ja [!INCLUDE[d365fin](includes/d365fin_md.md)]in **Järjestelmänvalvoja**-käyttöoikeusrooli.  
+> Näiden tehtävien suorittaminen vaatii **Järjestelmänvalvoja** käyttöoikeusroolin [!INCLUDE[crm_md](includes/crm_md.md)]ssa ja [!INCLUDE[d365fin](includes/d365fin_md.md)]ssa  
 
 1. Määritä Office 365:n hallintakeskuksessa käyttäjätili, jolla muodostetaan yhteys [!INCLUDE[crm_md](includes/crm_md.md)]iin ja synkronoidaan tietoja sen kanssa. Lisätietoja on kohdassa [Dynamics 365 for Sales -integroinnin määrittäminen](admin-setting-up-integration-with-dynamics-sales.md).
 

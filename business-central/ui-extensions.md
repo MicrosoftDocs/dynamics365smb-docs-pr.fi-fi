@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
 ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 869d136498604a61b1f3016efca475b4784c4456
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: d03d1aa3910dc73dc61c61bdd66725e8e8af3c66
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250271"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621112"
 ---
 # <a name="customizing-business-central-using-extensions"></a>Business Central -sovelluksen mukauttaminen laajennusten avulla
 Voit muuttaa [!INCLUDE[d365fin](includes/d365fin_md.md)]ia asentamalla laajennuksia, jotka sisältävät lisätoimintoja, muuttavat toimintaa tai mahdollistavat esimerkiksi uusien verkkopalveluiden käyttämisen.
@@ -65,6 +65,7 @@ Microsoft tarjoaa seuraavat laajennukset:
 * [C5-tietojen siirto](ui-extensions-c5-data-migration.md)  
 * [Olennaiset liiketoimintanäkemykset](ui-extensions-essential-business-insights.md)  
 * [Myöhästyneen maksun ennusteet](ui-extensions-late-payment-prediction.md  )
+* [Lähetä Maksusuoritustietojen Ohjeet](ui-extensions-send-remittance-advice.md)
 
 > [!NOTE]  
 >  Uudet laajennukset eivät ole saatavana AppSourcessa heti, kun ilmoitamme päivityksestä. Voit tarkkailla laajennuksia osoitteessa [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).

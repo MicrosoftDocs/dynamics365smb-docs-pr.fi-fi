@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
-ms.date: 04/01/2019
+ms.date: 05/20/2019
 ms.author: sgroespe
-ms.openlocfilehash: fcae17577b448b4271adee299874cf5cad9da79f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c326b280e6539da69831fd4f9610540f1a1e139e
+ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249374"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1594125"
 ---
 # <a name="send-documents-by-email"></a>Asiakirjojen lähettäminen sähköpostitse
 Voit kertoa liiketoiminta-asiakirjojen sisällön, kuten esimerkiksi asiakkaiden myyntiasiakirjojen maksutiedot, liiketoimintakumppaneille nopeasti Raporttiasettelu-toiminnolla. Voit määrittää asiakirjakohtaisen sisällön, joka lisätään sähköpostien perustekstiin automaattisesti. Lisätietoja on kohdassa [Raporttien ja asiakirjojen asettelujen hallinta](ui-manage-report-layouts.md).
@@ -54,7 +54,7 @@ Seuraavassa kerrotaan, miten kirjattu myyntilasku lähetetään sähköpostivies
 4. Valitse **OK**-painike. **Lähetä sähköposti** -sivu avautuu.
 5. Syötä **Vastaanottaja:**-kenttään kelvollinen sähköpostiosoite. Oletusarvo on asiakkaan sähköpostiosoite.
 6. Kirjoita **Aihe**-kenttään kuvaava aiheteksti. Oletusarvo on asiakkaan nimi ja laskun numero.
-7. Luotu lasku on liitetty **Liite**-kenttään oletusarvoisesti PDF-tiedostona. Valitse valintapainike, kun haluat avata tiedoston tai liittää toisen tiedoston.
+7. Luotu lasku on liitetty **Liite**-kenttään oletusarvoisesti PDF-tiedostona.
 8. Kirjoita **Runkoteksti**-kenttään lyhyt viesti vastaanottajalle.
 
     Jos asiakirjakohtainen sähköpostin perusteksti on määritetty **Raporttivalinta - Myynti** -sivulla, **Perusteksti**-kenttä täytetään automaattisesti. Lisätietoja on kohdassa [Asiakirjakohtaisen sähköpostin perustekstin määrittäminen myyntilaskuille](ui-how-send-documents-email.md#to-set-up-a-document-specific-email-body-for-sales-invoices).

@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 05/22/2019
 ms.author: edupont
-ms.openlocfilehash: 99b1b5d5f725a598cc8be77f390d1fcf1c1a4033
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 12763990a6d35f1c993e488e476328d1de05338b
+ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250363"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1594308"
 ---
-# <a name="accessibility-and-keyboard-shortcuts-in-included365finincludesd365finmdmd"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)]in helppokäyttötoiminnot ja pikanäppäimet
+# <a name="accessibility-and-keyboard-shortcuts"></a>Helppokäyttötoiminnot ja pikanäppäimet
 Tässä ohjeaiheessa on tietoja toiminnoista, jotka helpottavat [!INCLUDE[d365fin](includes/d365fin_md.md)]:n käyttöä. [!INCLUDE[d365fin](includes/d365fin_md.md)] tukee seuraavia helppokäyttötoimintoja:  
 
 -   Näppäimistön pikanäppäimet

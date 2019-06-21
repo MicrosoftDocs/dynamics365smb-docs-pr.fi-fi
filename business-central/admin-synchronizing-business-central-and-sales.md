@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: e52010384de83d95011cb29a88cad17a5eba817c
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: a2adf188f616f3a9cbb0e0d3135ee79d238c453b
+ms.sourcegitcommit: 92c7b6c5f0a5d8becbef106ab85258906765bc3e
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247138"
+ms.lasthandoff: 05/13/2019
+ms.locfileid: "1540221"
 ---
 # <a name="synchronizing-data-in-business-central-and-dynamics-365-for-sales"></a>Tietojen synkronointi Business Centralissa ja Dynamics 365 for Salesissa
 Kun [!INCLUDE[crm_md](includes/crm_md.md)] ja [!INCLUDE[d365fin](includes/d365fin_md.md)] integroidaan, voit päättää, synkronoidaanko [!INCLUDE[d365fin](includes/d365fin_md.md)] -tietueiden (kuten asiakkaiden, kontaktien ja myyjien) valittujen kenttien tiedot vastaavien [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietueiden (kuten tilien, yhteyshenkilöiden ja käyttäjien) kanssa. Tietueen tyypin mukaan voit synkronoida tietoja [!INCLUDE[crm_md](includes/crm_md.md)]ista [!INCLUDE[d365fin](includes/d365fin_md.md)]iin ja päin vastoin. Lisätietoja on kohdassa [Dynamics 365 for Sales -integrointi](admin-prepare-dynamics-365-for-sales-for-integration.md).  
@@ -38,7 +38,7 @@ Synkronointia määritettäessä voit yhdistää [!INCLUDE[d365fin](includes/d36
 |Ajoitettu synkronointi|Kaikkien taulukon yhdistämismääritysten kaikkien tietojen muutosten synkronointi.<br /><br /> Voit synkronoida [!INCLUDE[d365fin](includes/d365fin_md.md)]in ja [!INCLUDE[crm_md](includes/crm_md.md)]in tietyin väliajoin määrittämällä työt työjonoon.|[Ajoitettu synkronointi](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)|  
 
 ## <a name="standard-sales-entity-mapping-for-synchronization"></a>Synkronoinnin Myynti-entiteetin yhdistämismääritys
-[!INCLUDE[crm_md](includes/crm_md.md)]in objektit, kuten tilit, on integroitu [!INCLUDE[d365fin](includes/d365fin_md.md)]in vastaaviin objektityyppeihin, kuten asiakkaisiin. [!INCLUDE[crm_md](includes/crm_md.md)]in tietoja käytetään määrittämällä linkkejä [!INCLUDE[d365fin](includes/d365fin_md.md)]in ja [!INCLUDE[crm_md](includes/crm_md.md)]in välille. Tätä sanotaan yhdistämiseksi.
+Kohteet, kuten tilit [!INCLUDE[crm_md](includes/crm_md.md)]ssä yhdistetään samantyyppisiin tietoihin [!INCLUDE[d365fin](includes/d365fin_md.md)]ssa, kuten asiakkaisiin. [!INCLUDE[crm_md](includes/crm_md.md)]in tietoja käytetään määrittämällä linkkejä [!INCLUDE[d365fin](includes/d365fin_md.md)]in ja [!INCLUDE[crm_md](includes/crm_md.md)]in välille. Tätä sanotaan yhdistämiseksi.
 
 Seuraavassa taulukossa on luettelo tavallisista [!INCLUDE[d365fin](includes/d365fin_md.md)]in yhdistämismäärityksistä [!INCLUDE[d365fin](includes/d365fin_md.md)]in ja [!INCLUDE[crm_md](includes/crm_md.md)] välillä.
 
@@ -46,17 +46,17 @@ Seuraavassa taulukossa on luettelo tavallisista [!INCLUDE[d365fin](includes/d365
 |-------------------------------------------|-----|-------------------------|--------------|
 |Myyjä/Ostaja|Käyttäjä|[!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Sales-sovelluksen kontaktin suodatin: **Tila** on **Ei**, **Lisensoitu käyttäjä** on **Kyllä**, Integroinnin käyttäjä -tila on **Ei**|
 |Asiakas|Tili|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] ja [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Sales-sovelluksen tilin suodatin: **Suhteen tyyppi** on **Asiakas** ja **Tila** on **Aktiivinen**.|
-|Kontakti|Kontakti|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] ja [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|[!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen kontaktin suodatin: **Tyyppi** on **henkilö** ja kontakti on määritetty yritykselle. Sales-sovelluksen kontaktin suodatin: Kontakti on liitetty yritykseen ja pääyrityksen tyyppi on **Tili**|
+|Kontakti|Kontakti|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] ja [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|[!INCLUDE[d365fin](includes/d365fin_md.md)] kontaktisuodatus: **Tyyppi** on **Henkilö** ja kontakti on määritetty yritykselle. Sales-sovelluksen kontaktin suodatin: Kontakti on liitetty yritykseen ja pääyrityksen tyyppi on **Tili**|
 |Valuutta|Tapahtumavaluutta|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
 |Mittayksikkö|Yksikköryhmä|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
 |Nimike|Tuote|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] ja [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Sales-sovelluksen kontaktin suodatin: **Tuotteen tyyppi** on **Myyntivarasto**|
 |Resurssi|Tuote|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] ja [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Sales-sovelluksen kontaktin suodatin: **Tuotteen tyyppi** on **Palvelut**|
 |Asiakkaan hintaryhmä|Hinnasto|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
-|Myyntihinta|Tuotehinnasto|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]|[!INCLUDE[d365fin](includes/d365fin_md.md)] -kontaktin suodatin: **Myyntikoodi** ei ole tyhjä, **Myynnin tyyppi** on **Asiakkaan hintaryhmä**|
+|Myyntihinta|Tuotehinnasto|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]|[!INCLUDE[d365fin](includes/d365fin_md.md)] kontaktisuodatin: **Myyntikoodi** ei ole tyhjä, **Myyntityyppi** on **Asiakkaan hintaluokka**|
 |Mahdollisuus|Mahdollisuus|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] ja [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]| |
 |Myyntilaskun otsikko|Lasku|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
 |Myyntilaskurivi|Laskutustuote|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
-|Myyntitilauksen otsikko|Myyntitilaus|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]|[!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen myyntitilauksen otsikon suodatin: **Asiakirjatyyppi** on tilaus, **Tila** on vapautettu|
+|Myyntitilauksen otsikko|Myyntitilaus|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]|[!INCLUDE[d365fin](includes/d365fin_md.md)] Myynnin Ylätunnuksen suodatin: **Dokumenttityyppi** on Järjestys, **Tila** on Vapautettu.|
 |Myyntitilauksen huomautukset|Myyntitilauksen huomautukset|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] ja [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]| |
 
 ### <a name="tip-for-admins-viewing-entity-mappings"></a>Järjestelmänvalvojan vihje: objektin yhdistämismääritysten näyttäminen
@@ -85,7 +85,7 @@ Seuraavassa taulukossa käsitellään sovellusten väliset synkronointisäännö
 |Kontaktit|Vain tiliin liitetyt [!INCLUDE[crm_md](includes/crm_md.md)]in yhteystiedot luodaan [!INCLUDE[d365fin](includes/d365fin_md.md)]issa. Myyjän koodin arvo määrittää yhdistetyn entiteetin omistajan [!INCLUDE[crm_md](includes/crm_md.md)]issa.|
 |Valuutat|Valuutat yhdistetään kytketään tapahtumavaluuttoihin [!INCLUDE[crm_md](includes/crm_md.md)]issa ISO-koodien perusteella. Vain valuuttoja, joilla on standardi ISO-koodi, kytketään ja synkronoidaan tapahtumanvaluuttojen kanssa.|
 |Mittayksiköt|Mittayksiköt synkronoidaan yksikköryhmien kanssa [!INCLUDE[crm_md](includes/crm_md.md)]issa. Yksikköryhmälle voi määrittää vain yhden mittayksikön.|
-|Nimikkeet|Kun nimikkeitä synkronoidaan [!INCLUDE[crm_md](includes/crm_md.md)]in tuotteiden kanssa, [!INCLUDE[d365fin](includes/d365fin_md.md)] luo automaattisesti hinnaston [!INCLUDE[crm_md](includes/crm_md.md)]issa. Synkronointivirheitä välttämiseksi Älä muokkaa tämän hinnaston manuaalisesti.|
+|Nimikkeet|Kun nimikkeitä synkronisoidaan [!INCLUDE[crm_md](includes/crm_md.md)] tuotteiden kanssa [!INCLUDE[d365fin](includes/d365fin_md.md)] luo automaattisesti hintalistan [!INCLUDE[crm_md](includes/crm_md.md)]ssä. Synkronointivirheitä välttämiseksi Älä muokkaa tämän hinnaston manuaalisesti.|
 |Myyjät|Myyjät yhdistetään järjestelmäkäyttäjiin [!INCLUDE[crm_md](includes/crm_md.md)]issa. Käyttäjä on otettava käyttöön ja hänellä on oltava käyttöoikeus. Käyttäjä ei voi olla integroinnin käyttäjä. Huomaa, että tämä taulukko tulee synkronoida ensimmäiseksi, koska sitä käytetään asiakkaiden, kontaktien, mahdollisuuksien ja myyntilaskujen kanssa.|
 |Resurssit|Resurssit synkronoidaan niiden [!INCLUDE[crm_md](includes/crm_md.md)]in tuotteiden kanssa, joiden tyyppi on Palvelu.|
 |Asiakashintaryhmät|Asiakkaan hintaryhmät synkronoidaan myyntihinnastojen kanssa.|

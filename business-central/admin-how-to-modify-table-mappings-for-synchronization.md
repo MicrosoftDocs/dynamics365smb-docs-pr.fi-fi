@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: de924baa494ae00c09dcb7657c050f2d9ae3ba87
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c2b2df393afe7cf27964b1540deddf7760747a9d
+ms.sourcegitcommit: 92c7b6c5f0a5d8becbef106ab85258906765bc3e
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247442"
+ms.lasthandoff: 05/13/2019
+ms.locfileid: "1540198"
 ---
 # <a name="modify-table-mappings-for-synchronization"></a>Taulukon yhdistämismääritysten muokkaaminen synkronointia varten
 Integrointitaulukon yhdistämismääritys liittää [!INCLUDE[d365fin](includes/d365fin_md.md)]in taulukon [!INCLUDE[crm_md](includes/crm_md.md)] -objektin integrointitaulukkoon. Kullakin [!INCLUDE[crm_md](includes/crm_md.md)] -objektilla, jonka kanssa haluat synkronoida vastaavat [!INCLUDE[d365fin](includes/d365fin_md.md)]in tiedot, on oltava vastaava integrointitaulukon yhdistämismääritys. Integrointitaulukon yhdistämismääritys sisältää useita asetuksia, joiden avulla voit määrittää miten [!INCLUDE[d365fin](includes/d365fin_md.md)] -taulukon tietueet ja [!INCLUDE[crm_md](includes/crm_md.md)] -objekti synkronoidaan vastaavissa integroinnin synkronointitöissä.  
@@ -49,7 +49,7 @@ Jos asennat oletussynkronointimäärityksen, kaksi määritysmallia luodaan usei
 
      Tämä malli on luotu kopioimalla sovelluksessa asiakkaille aiemmin luotu määritysmalli. **CRMCUST** luodaan vain, jos aiemmin luotu määritysmalli on olemassa ja mallin **Valuuttakoodi**-kenttä on tyhjä. Jos määritysmallin jossain kentässä on arvo, kyseistä arvoa käytetään [!INCLUDE[crm_md](includes/crm_md.md)]in tilin kentässä määritetyn arvon sijasta. Jos esimerkiksi [!INCLUDE[crm_md](includes/crm_md.md)] -tilin **Maa/alue**-kentässä on *Yhdysvallat* ja määritysmallin **Maa/alue**-kentässä on *Iso-Britannia*, sitten *Iso-Britannia* on myös [!INCLUDE[d365fin](includes/d365fin_md.md)]in asiakkaan **Maa/alue**-arvo.  
 
--   **CRMACCOUNT** luo ja synkronoi uudet [!INCLUDE[crm_md](includes/crm_md.md)]in tilit [!INCLUDE[d365fin](includes/d365fin_md.md)] -tilin perusteella.  
+-   **CRMACCOUNT** luo ja synkronoi uusia käyttäjätilejä [!INCLUDE[crm_md](includes/crm_md.md)]ssa [!INCLUDE[d365fin](includes/d365fin_md.md)] tilin perusteella.  
 
 #### <a name="to-specify-configuration-templates-on-a-table-mapping"></a>Määritysmallien määrittäminen taulukon yhdistämismäärityksessä  
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita **Integrointitaulukon yhdistämismääritykset** ja valitse sitten liittyvä linkki.

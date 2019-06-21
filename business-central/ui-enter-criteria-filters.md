@@ -1,21 +1,21 @@
 ---
 title: Luetteloiden lajitteleminen ja suodattaminen sekä luetteloista hakeminen | Microsoft Docs
 description: Voit tehostaa luetteloiden käsittelemistä hakemalla tietoja, lajittelemalla sarakkeita ja tarkentamalla tuloksia tehokkaiden suodatussymboleiden ja pikanäppäinten avulla.
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 04/01/2019
-ms.author: jswymer
-ms.openlocfilehash: 5cd8bce29b1973274cda673e22dd07e6b50f830f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 06/03/2019
+ms.author: sgroespe
+ms.openlocfilehash: fc9cefd33f6ca11ee4f2936671a84071e142a1bd
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1253951"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621181"
 ---
 # <a name="sorting-searching-and-filtering-lists"></a>Luetteloiden lajitteleminen ja suodattaminen sekä luetteloista hakeminen
 Luettelossa olevien tietueiden skannaamista, etsimistä ja rajaamista voi helpottaa muutamilla keinoilla. Näitä keinoja ovat esimerkiksi lajitteleminen, etsiminen ja suodattaminen. Voit käyttää samanaikaisesti joitakin keinoja tai kaikkia keinoja, kun haluat etsiä tai analysoida tiedot nopeasti.
@@ -41,7 +41,7 @@ Kunkin luettelosivun yläosassa on ![Hakuluettelo](media/ui-search/search-list.p
 
 Voit aloittaa haun yksinkertaisesti valitsemalla hakukuvakkeen ja kirjoittamalla ruutuun teksti, jota haetaan. Voit syöttää kirjaimia, numeroita ja muita symboleita.
 
-### <a name="fine-tune-the-search"></a>Haun viimeisteleminen
+### <a name="fine-tuning-the-search"></a>Haun Hienosäätö
 Yleensä haussa yritetään hakea vastaavuuksia kaikista kentistä. Haussa ei erotella pieniä ja isoja kirjaimia (eli kirjainkoolla ei ole merkitystä) ja haussa otetaan huomioon kentän kaikissa kohdissa (alussa, lopussa tai keskellä) oleva teksti.
 
 Voit kuitenkin tehdä tarkemman haun seuraavien erikoismerkkien avulla:

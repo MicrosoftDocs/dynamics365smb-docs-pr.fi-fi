@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 30396e25dbf251e674744d1ba797c100b5762a46
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 3cc053158581d4fc9b87dc3e505a23ed809c1c8f
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238024"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1620859"
 ---
 # <a name="using-dynamics-365-for-sales-from-business-central"></a>Dynamics 365 for Salesin käyttö Business Centralista
 Jos käytät Dynamics 365 for Salesia asiakassuhteissa, saat käyttöösi saumattoman integroinnin liidistä tuottoon käyttämällä [!INCLUDE[d365fin](includes/d365fin_md.md)]ia taustatehtäviin, kuten tilausten käsittelyyn, varastonhallintaan ja talousasioihin.
@@ -78,7 +78,11 @@ Myyntitilauksen otsikkokenttien, kuten Viimeisin toimituspvm tai Pyydetty toimit
 Vaihtoehtoisesti voit muuntaa [!INCLUDE[crm_md](includes/crm_md.md)]ista aktivoidut myyntitarjoukset manuaalisesti käyttämällä **Käsittele [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksessa** -toimintoa **Myyntitarjoukset – Dynamics 365 for Sales** -sivulla.
 Näissä myyntitarjouksissa alkuperäisen tarjouksen **Nimi**-kenttä siirretään ja yhdistetään myyntitilauksen **Ulkoisen asiakirjan numero** -kenttään [!INCLUDE[d365fin](includes/d365fin_md.md)]issa. Myös tarjouksen **Voimassaolo päättyy** -kenttä siirretään ja yhdistetään myyntitarjouksen **Tarjouksen voimassaolon päättymispäivä** -kenttään [!INCLUDE[d365fin](includes/d365fin_md.md)]issa.  
 
-Myyntitarjouksia muokataan useita kertoja viimeistelyn aikana. Myyntitarjousten manuaalinen ja automaattinen käsittely [!INCLUDE[d365fin](includes/d365fin_md.md)]issa varmistaa, että myyntitarjousten edelliset versiot arkistoidaan ennen uusien myyntitarjousten käsittelyä [!INCLUDE[crm_md](includes/crm_md.md)]ista.  
+Myyntitarjouksia muokataan useita kertoja viimeistelyn aikana. Myyntitarjousten manuaalinen ja automaattinen käsittely [!INCLUDE[d365fin](includes/d365fin_md.md)]issa varmistaa, että myyntitarjousten edelliset versiot arkistoidaan ennen uusien myyntitarjousten käsittelyä [!INCLUDE[crm_md](includes/crm_md.md)]ista. 
+
+## <a name="handling-posted-sales-invoices-customer-payments-and-statistics"></a>Kirjattujen Myyntilaskujen, Asiakkaiden Maksujen ja Tilastojen Käsitteleminen
+Kun myyntitilaus on täytetty, siitä luodaan lasku. Kun laskutat myyntitilauksen voit siirtää myyntilaskun [!INCLUDE[crm_md](includes/crm_md.md)]iin jos valitset **Luo lasku [!INCLUDE[crm_md](includes/crm_md.md)]ssä** kirjattut myyntilaskut sivulla. Kirjatut laskut siirretään [!INCLUDE[crm_md](includes/crm_md.md)]iin Tilassa **Laskutettu**. Kun asiakkaan maksu on vastaanotettu [!INCLUDE[d365fin](includes/d365fin_md.md)]ssa, myyntilasku muuttuu tilaan **Maksettu** ja Tilan syy **Osttainen**, jos maksu on maksettu osittain tai **Valmis**, jos maksu on maksettu kokonaan, kun suoritat **Päivitä tilin tilastot** [!INCLUDE[d365fin](includes/d365fin_md.md)]in asiakassivulla. **Päivitä tilin tiedot** päivittää myös arvot, kuten Saldo ja Kokonaismyynti [!INCLUDE[d365fin](includes/d365fin_md.md)]iin ja Tilin Tiedot Faktalaatikon [!INCLUDE[crm_md](includes/crm_md.md)]iin.
+Vaihtoehtoisesti, voit käyttää ajastettuja töitä (Asiakastilastot ja POSTEDSALESINV-INV) suorittaaksesi nämä prosessit automaattisesti taustalla. 
 
 ## <a name="see-also"></a>Katso myös
 [Integroinnin valmistelu paikalliseen Dynamics 365 for Salesiin](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration)  

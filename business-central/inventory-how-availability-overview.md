@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
-ms.date: 04/01/2019
+ms.date: 06/03/2019
 ms.author: SorenGP
-ms.openlocfilehash: ab3e23f9d3128045e722bf2677b1b687b2218b10
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: f1c7fbe75dfa9767e5a5dfbfbe354fbd3f9448b5
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1243187"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1620997"
 ---
 # <a name="view-the-availability-of-items"></a>Nimikkeiden saatavuuden tarkasteleminen
 Voit saada, liiketoimintaan liittyvän tehtävän kontekstissa, lisätietoja milloin ja mistä nimike on saatavissa, esimerkiksi kun kerrot asiakkaalle toimitusaikataulua.
@@ -26,9 +26,11 @@ Voit tarkastella kaikkien nimikkeiden saatavuutta sijainneittain sekä kunkin ni
 > [!NOTE]  
 >   Sijaintiin perustuvat saatavuusnäkymät edellyttävät, että varastoa pidetään useissa sijainneissa. Lisätietoja on kohdassa [Sijaintien määrittäminen](inventory-how-setup-locations.md).
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen saatavuusluvut näytetään kahdessa eri kentässä, ja kullakin on eri määritelmä:
+Jos käytät varastointitoimintoa, saatavuus vaihtelee varastohuoneen kiintöiden mukaan, kun varastointitoimenpiteitä, kuten noutoja ja siirtoja tapahtuu ja silloin, kun varaston varausjärjestelmät luovat rajoitteita. Varsin monimutkainen algoritmi tarkistaa, että kaikki edellytykset täyttyvät ennen kuin poimintojen määrät määritetään lähteville virroille. Lisätietoja [Lisätietoja: Saatavuus Varastossa](design-details-availability-in-the-warehouse.md)
 
-* **Varastosaldo** -kentässä näytetään päivän todellinen saldo kirjattujen nimiketapahtumien perusteella.
+[!INCLUDE[d365fin](includes/d365fin_md.md)]ssa saatavuusluvut näytetään yleensä kahdessa eri kentässä, joista molemmilla on eri määritelmä:
+
+* **Määrä saataville** kenttä, joissain kohdin nimeltään **Varasto**, näyttää todellisen, tämänpäiväisen määrän, nimikekirjausten perusteella.
 * **Oletettu saatavilla oleva saldo** -kentän arvo on laskennallinen, ja se esittää varastosaldon, johon on lisätty suunnitellut vastaanotot ja josta on vähennetty bruttotarpeet. ([!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen suunnitellut vastaanotot sisältävät ostotilauksilla ja saapuvilla siirtotilauksilla olevat määrät. Bruttotarpeisiin sisältyvät myyntitilauksilla ja lähtevillä siirtotilauksilla olevat määrät).
 
 > [!TIP]  

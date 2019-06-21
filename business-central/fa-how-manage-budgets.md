@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: forecast
-ms.date: 04/01/2019
+ms.date: 05/24/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0e7c7d665dc26a2af365daf6171affb679c22c1a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: dfae781b7ddabd7283868886dd07699bf62be052
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247200"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1620905"
 ---
 # <a name="manage-budgets-for-fixed-assets"></a>Käyttöomaisuuden budjettien hallinta
 Voit määrittää budjetoidun käyttöomaisuuden. Tässä esimerkissä raportteihin voidaan sisällyttää tämän vuoksi mitä tahansa ennakoituja hankintoja ja myyntejä.  
@@ -51,7 +51,7 @@ Jos suunnittelet myyväsi omaisuutta budjettijaksolla, voit syöttää tietoja m
 ## <a name="to-budget-depreciation"></a>Poistojen budjetointi
 Laske tuleva poisto **Käyttöomaisuus - Suunnit. arvo** -raportin avulla. Raportissa näkyvät kirjanpitoarvo ja kumulatiiviset poistot valitun ajanjakson alusta, jakson aikaiset muutokset sekä kirjanpitoarvo ja kumulatiiviset poistot valitun ajanjakson lopusta.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KO:n suunniteltu arvo** ja valitse sitten liittyvä linkki.
+1. Valitse ![Hehkulamppu joka aukaisee Kerro-toiminnon](media/ui-search/search_small.png "Kerro mitä haluat tehdä")kuvake, kirjoita **Käyttöomaisuuden suunniteltu arvo** ja valitse sitten siihen liittyvä linkki.
 2. Täytä tarvittavat kentät.
 3. Kun haluat nähdä kaikkien käyttöomaisuuserien kokonaisarvot, tyhjennä **Tulosta KO-erittäin** -valintaruutu.
 4. Jätä **Käyttöomaisuus**-pikavälilehti tyhjäksi sisällyttääksesi kaikki omaisuuserät. **Budjetoitu käyttöomaisuus** -kenttään syötetään **Ei**, kun budjetoidut käyttöomaisuuserät jätetään huomioimatta, ja **Kyllä**, kun tarkastellaan vain budjetoituja käyttöomaisuuseriä.

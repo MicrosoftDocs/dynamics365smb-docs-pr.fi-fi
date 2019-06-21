@@ -1,6 +1,6 @@
 ---
 title: Älykäs pilvipohjainen | Microsoft Docs
-description: Luo tiedoista pilvikopio älykkään pilven laajennuksen avulla ja muodosta yhteys älykkääseen pilveen.
+description: Käytä Älykäs Pilvipohja laajennusta yhdistääksesi paikallinen ratkaisusi Business Central online-versioon.
 author: edupont04
 manager: edupont
 ms.service: dynamics365-business-central
@@ -11,18 +11,18 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 9139855aa90aa0505f8735660d233475cc42bf91
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 72456035c2412eca65100708890e281f7d49a5be
+ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250202"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1594354"
 ---
 # <a name="intelligent-cloud-base-extension"></a>Älykäs pilvipohjainen laajennus
 
-Laajennuksen avulla voit määrittää älykkään pilven ympäristön ja hallinnoida sitä. Kun älykkään pilven ympäristö on määritetty, voit hallinnoida paikallisesta ratkaisusta [!INCLUDE[prodshort](includes/prodshort.md)] -pilvivuokraajaan siirrettyjä tietojen replikointeja. Tämä laajennus toimii yhdessä tietyn paikallisen ratkaisun tietojen replikointilaajennuksen kanssa. Lisätietoja on kohdassa [Älykkään pilven käyttäminen](about-intelligent-cloud.md).  
+Laajennuksen avulla voit määrittää älykkään pilven ympäristön ja hallinnoida sitä. Kun älykkään pilven ympäristö on määritetty, voit hallinnoida paikallisesta ratkaisusta [!INCLUDE[prodshort](includes/prodshort.md)] -pilvivuokraajaan siirrettyjä tietojen replikointeja. Tämä laajennus toimii yhdessä tietyn paikallisen ratkaisun tietojen replikointilaajennuksen kanssa.Lisätietoja, katso [Älykkäät Tiedot](about-intelligent-cloud.md)  
 
 ## <a name="see-also"></a>Katso myös
 
-[Älykkään pilven käyttäminen](about-intelligent-cloud.md)  
-[Business Central -sovelluksen älykkään pilven laajennus](ui-extensions-data-replication.md)  
+[Älykkäät Tiedot ](about-intelligent-cloud.md)  
+[Tietojen replikointilaajennus](ui-extensions-data-replication.md)  

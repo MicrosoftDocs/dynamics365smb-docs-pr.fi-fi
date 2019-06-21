@@ -10,19 +10,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 06/03/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1175a7fe058de5f8e7876014d8a71227b7cc46d8
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 99d3a5b4048756e71711abf9fa24bef12c12d963
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1243938"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621066"
 ---
 # <a name="design-details-costing-methods"></a>Rakennetiedot: arvostusmenetelmät
-Arvostusmenetelmä määrittää, siirretäänkö todellinen vai budjetoitu arvo pääomaan ja käytetäänkö sitä kustannuslaskennassa. Yhdessä kirjauspäivämäärän ja järjestyksen kanssa arvostusmenetelmä vaikuttaa myös siihen, miten kustannusvirta tallennetaan. Seuraavia menetelmiä tuetaan kohteessa [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
+Arvostusmenetelmä määrittää, siirretäänkö todellinen vai budjetoitu arvo pääomaan ja käytetäänkö sitä kustannuslaskennassa. Kirjauspäivämäärän ja järjestyksen kanssa arvostusmenetelmä vaikuttaa myös siihen, miten kustannusvirta tallennetaan.
 
-|Arvostusmenetelmä|Description|Käyttäminen|  
+> [!NOTE]
+> Et voi muuttaa tuotteen arvostusmenetelmää jos tuotteelle on olemassa nimikekirjaus<br /><br />
+> Lisätietoja tuotteen arvostusmenetelmän muutoksiin erikoistilanteissa julkaistaan pian täällä.
+
+Seuraavia menetelmiä tuetaan kohteessa [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
+
+|Arvostusmenetelmä|Kuvaus|Käyttäminen|  
 |--------------------|---------------------------------------|-----------------|  
 |FIFO|Nimikkeen yksikkökustannus on FIFO-säännön perusteella valitun nimikkeen vastaanoton todellinen arvo.<br /><br /> Varastonarvostuksessa oletetaan, että ensin varastoon sijoitetut nimikkeet myydään ensin.|Liiketoimintaympäristöissä, joissa tuotteen kustannus on vakaa.<br /><br /> (Kun hinnat nousevat, taseessa näkyy suurempi arvo. Tämä tarkoittaa, että verovelat kasvavat, mutta luottoluokitus ja rahanlainauskyky paranevat.)<br /><br /> Nimikkeille, joilla on rajoitettu varastointiaika, koska vanhimmat tavarat täytyy myydä ennen kuin niiden viimeinen myyntipäivä ohitetaan.|  
 |LIFO|Nimikkeen yksikkökustannus on LIFO-säännön perusteella valitun nimikkeen vastaanoton todellinen arvo.<br /><br /> Varastonarvostuksessa oletetaan, että viimeiseksi varastoon sijoitetut nimikkeet myydään ensin.|Ei sallittu monissa maissa/monilla alueilla, koska sitä voidaan käyttää voiton alas painamiseen.<br /><br /> (Kun hinnat nousevat, tuloslaskelman arvo pienenee. Tämä tarkoittaa, että verovelat vähenevät, mutta rahanlainauskyky heikkenee.)|  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 423f5098589a0df5613190517fb933d0181360dd
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 11d63e2745ce35067d87e66c6077d51276f90075
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240577"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621204"
 ---
 # <a name="keyboard-shortcuts"></a>Pikanäppäimet
 Tässä artikkelissa käsitellään yleisesti [!INCLUDE[prodshort](includes/prodshort.md)] -ohjelman joitakin pikanäppäinyhdistelmiä.
@@ -105,8 +105,8 @@ Seuraavassa taulukossa kuvataan luettelosivulla käytettävät pikanäppäimet. 
 |Vaihto+sivu ylös<br />(Vaihto+Fn+ylänuoli)|Laajenna rivien valinta niin, että se sisältää kaikki valittujen rivien yläpuolella olevat näkyvissä olevat rivit.|Ei sovellu.|
 |Vaihto+sivu alas<br />(Vaihto+Fn+alanuoli)|Laajenna rivien valinta niin, että se sisältää kaikki valittujen rivien alapuolella olevat näkyvissä olevat rivit.|Ei sovellu.|
 |Ctrl+C<br />(Cmd+C)|Kopioi valitut rivit leikepöydälle.|Ei sovellu.|
-|Ctrl+V<br />(Cmd+V)|Liitä valitut rivit leikepöydältä nykyiselle sivulle tai ulkoiseen asiakirjaan, kuten Microsoft Excel -asiakirjaan tai Outlook-sähköpostiviestiin.<br /><br />Tämän voi tehdä vain muokattavissa luetteloissa.|Ei sovellu.|
-|F8|Kopioi kenttä yläpuolella olevan rivin samasta sarakkeesta ja liitä se nykyiselle riville.<br /><br />Tämän voi tehdä vain muokattavissa luetteloissa. Tämän pikanäppäimen ja Tab-näppäimen avulla voit täyttää nopeasti niiden rivinimikkeiden kentät, joihin haluat samat arvot kuin yllä olevalla rivillä.|Ei sovellu.||
+|Ctrl+V<br />(Cmd+V)|Liitä valitut rivit leikepöydältä nykyiselle sivulle tai ulkoiseen asiakirjaan, kuten Microsoft Excel -asiakirjaan tai Outlook-sähköpostiviestiin. Tämän voi tehdä vain muokattavissa luetteloissa.|Ei sovellu.|
+|F8|Kopioi kenttä yläpuolella olevan rivin samasta sarakkeesta ja liitä se nykyiselle riville. Tämän voi tehdä vain muokattavissa luetteloissa. Tämän pikanäppäimen ja Tab-näppäimen avulla voit täyttää nopeasti niiden rivinimikkeiden kentät, joihin haluat samat arvot kuin yllä olevalla rivillä.|Ei sovellu.|
 
 ### <a name="KeyboardFilter"></a>Luetteloiden lajitteleminen ja luetteloista hakeminen
 

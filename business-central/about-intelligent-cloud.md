@@ -1,6 +1,6 @@
 ---
-title: Älykäs pilvi | Microsoft Docs
-description: Hanki tiedoistasi pilvikopio, niin voit muodostaa yhteyden älykkääseen pilveen.
+title: Älykkäät tiedot| Microsoft Docs
+description: Ota yhteys älykkäisiin tietoihin Bussiness Centralilla, jopa paikallisesta ratkaisustasi.
 author: bmeier94
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,20 +9,20 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
 ms. search.keywords: cloud, edge
-ms.date: 04/01/2019
+ms.date: 05/20/2019
 ms.author: bmeier
-ms.openlocfilehash: 4bd30c2912c8a690431221e7983f5fe53b543322
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: a625bdb047fe77ca2fb118a41902c5546d38523d
+ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241421"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1594154"
 ---
-# <a name="your-access-to-the-intelligent-cloud-with-includeprodshortincludesprodshortmd"></a>Älykkään pilven käyttäminen [!INCLUDE[prodshort](includes/prodshort.md)] -sovelluksen avulla
+# <a name="intelligent-insights-with-includeprodshortincludesprodshortmd"></a>Älykkäät tiedot tuotteessa [!INCLUDE[prodshort](includes/prodshort.md)]
 
-[!INCLUDE[prodshort](includes/prodshort.md)] online -käyttäjällä on älykkääseen pilveen perustuvien skenaarioiden täydet käyttöoikeudet. Niitä ovat esimerkiksi tietojen muokkaaminen Excelissä, muutosten siirtäminen takaisin [!INCLUDE[prodshort](includes/prodshort.md)]iin ja tietojen tarkasteleminen Power BI:ssä. Niin kauan kun [!INCLUDE[prodshort](includes/prodshort.md)] on ensisijaisesti pilvipalvelu, myös asiakkaat, joiden on suoritettava työt kokonaan paikallisesti tai pilvessä älykkään yhteyden avulla, voivat tehdä niin.  
+[!INCLUDE[prodshort](includes/prodshort.md)] tuotteen verkkoversion käyttäjänä, sinulla on täysi käyttöoikeus skenaarioihin, jotka perustuvat älykkääseen pilveen, kuten koneoppimiseen perustuviin suorituskyvyn mittareihin tai kun tarkastalet tietoja Power BIn kautta.  Niin kauan kun [!INCLUDE[prodshort](includes/prodshort.md)] on ensisijaisesti pilvipalvelu, myös asiakkaat, joiden on suoritettava työt kokonaan paikallisesti tai pilvessä älykkään yhteyden avulla, voivat tehdä niin.  
 
-Jos olet kiinnostunut [!INCLUDE[prodshort](includes/prodshort.md)] -sovelluksesta, voit rekisteröityä pilvikäyttöönoton oletusratkaisun ilmaista kokeilua varten. Vaihtoehtoisesti voit tehdä töitä kumppanin kanssa ja ottaa [!INCLUDE[prodshort](includes/prodshort.md)] -sovelluksen käyttöön paikallisesti omassa laitteessasi. Tämä jälkeen voit muodostaa yhteyden pilveen pilvivuokraajan kautta. Tuloksena paikallisesti käyttöönotetun [!INCLUDE[prodshort](includes/prodshort.md)] -sovelluksen tiedot replikoidaan älykkään pilven skenaarioiden pilveen.  
+Jos olet kiinnostunut tuotteesta [!INCLUDE[prodshort](includes/prodshort.md)], voit rekisteröityä ilmaiselle kokeilujaksolle tai voit työskennellä kumppanin kanssa niin, että [!INCLUDE[prodshort](includes/prodshort.md)] asennetaan valitsemallesi paikalliselle kovalevylle. Voit sitten saada älykkäät tiedot yhdistämällä vuokraajaan pilvipalvelussa. Tuloksena paikallisesti käyttöönotetun [!INCLUDE[prodshort](includes/prodshort.md)] -sovelluksen tiedot replikoidaan älykkään pilven skenaarioiden pilveen.  
 
 Yhteyden muodostaminen paikallisesta ratkaisusta älykkääseen pilveen edellyttää, että järjestelmänvalvoja määrittää tietokantaa koskevat tiedot. Lisätietoja on [!INCLUDE[prodshort](includes/prodshort.md)] -sovelluksen ITPro-sisällön [Yhteyden muodostaminen älykkääseen pilveen](/dynamics365/business-central/dev-itpro/administration/about-intelligent-edge) -kohdassa.  
 
@@ -38,17 +38,21 @@ Yhteyden muodostaminen paikallisesta ratkaisusta älykkääseen pilveen edellytt
 KPI-kaavioiden vieressä on tietoja mahdollisista ongelma-alueista, kuten erääntyneistä maksuista. Valitse tiedot, joita haluat tarkastella.  
 
 > [!div class="mx-imgBorder"]
-> ![Älykkään pilven tiedot](media/across-intelligent-cloud/intelligentcloudApril19.png "Näyttää älykkään pilven tiedot Business Central -sovelluksessa")
+> ![Älykkään pilvipalvelun tiedot](media/across-intelligent-cloud/intelligentcloudApril19.png "Näyttää Älykkään Pilvipalvelun Tiedot -sivun Bussiness Centralissa")
 
 Sivu myös muodostaa yhteyden Power BI:hin, jolloin käytettävissä on entistäkin enemmän tietoja.
 
-## <a name="viewing-intelligent-cloud-insights-on-premises"></a>Älykkään pilven tietojen tarkasteleminen paikallisesti
+## <a name="viewing-intelligent-insights-on-premises"></a>Älykkäiden tietojen tarkastelu paikallisesti
 
 Kun Dynamics 365 -jälleenmyyntikumppani on hankkinut oikean käyttöoikeuden, jonka avulla paikallinen ratkaisu voi muodostaa yhteyden pilveen [!INCLUDE[prodshort](includes/prodshort.md)] -sovelluksen avulla, järjestelmänvalvoja voi määrittää yhteyden. Kun tämä on tehty, voit tarkastella pilven tietoja myös paikallisen sovelluksen avulla. Paikallisesta ratkaisusta riippuen **Älykkään pilven tiedot** -sivu voidaan upottaa kotisivulle tai se voi olla erillinen sivu samalla tavalla kuin [!INCLUDE[prodshort](includes/prodshort.md)] -sovelluksen online-versiossa ja paikallisessa versiossa.  
 
+## <a name="connecting-to-business-central-from-other-dynamics-products"></a>Business Centraliin yhdistäminen muista Dynamics tuotteista
+
+Jos käytät tuettua paikallista versiota, voit yhdistää Business Centraliin internetissä ja saada älykkäitä tietoja paikallisesti. Lisätietoja on [!INCLUDE[prodshort](includes/prodshort.md)] -sovelluksen ITPro-sisällön [Yhteyden muodostaminen älykkääseen pilveen](/dynamics365/business-central/dev-itpro/administration/about-intelligent-edge) -kohdassa.  
+
 ## <a name="see-also"></a>Katso myös
 
-[Tervetuloa käyttämään Business Centralia](index.md)  
+[Tervetuloa Business Centraliin](index.md)  
 [Business Central -sovelluksen älykkään pilven laajennus](ui-extensions-intelligent-cloud.md)  
 [Tietojen replikointilaajennus](ui-extensions-data-replication.md)  
 [Yhteyden muodostaminen älykkääseen pilveen](/dynamics365/business-central/dev-itpro/administration/about-intelligent-edge)  

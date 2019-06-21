@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.reviewer: edupont04
 ms.search.keywords: keyboarding, productivity, how do i, filter pane
-ms.date: 04/05/2019
+ms.date: 06/03/2019
 ms.author: mikebc
-ms.openlocfilehash: 0f9f5db0e7031156848a5bd15c711d3108f3490b
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: bf595cc54fa6d3d105770893864f655f82e04433
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249047"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1620836"
 ---
 # <a name="searching-and-filtering-faq"></a>Usein kysyttyjen kysymysten haku ja suodatus
 Tässä artikkelissa on vastauksia hakemiseen ja suodattamiseen liittyviin yleisiin kysymyksiin.
@@ -21,13 +21,13 @@ Tässä artikkelissa on vastauksia hakemiseen ja suodattamiseen liittyviin yleis
 ## <a name="is-there-a-difference-between-searching-and-filtering"></a>Onko hakemisella ja suodattamisella eroa?
 Kyllä.
 - Hakeminen on yksinkertainen ja laaja toiminto. Se hakee tietueet, jotka sisältävät hakutekstin sivulla näkyvissä kentissä. Kirjainkoolla ei ole merkitystä.
-- Suodattaminen on erittäin joustava toiminto. Se voidaan kohdistaa tiettyihin kenttiin, myös kenttiin, jotka eivät näy sivulla. Se näyttää tietueet, joissa on täsmälleen haettu teksti (kirjainkoko otetaan huomioon). Suodattamista voi muokata tehokkailla hakusymboleilla, tunnuksilla ja kaavoilla. Lisätietoja näiden toimintojen käyttämisestä on kohdassa [Luetteloiden lajitteleminen ja suodattaminen sekä luetteloista hakeminen](ui-enter-criteria-filters.md).
+- Suodattaminen on erittäin mukautuvaa ja sitä voidaan hyödyntää erityisissä kentissä, myös sellaisissa joita ei näy sivulla: se esittää tietuut tarkkoina, kirjainkoon huomioon ottavina osumina, mutta sitä voidaan myös säätää voimakkailla hakusymboleilla, -tunnuksilla ja -kaavoilla. Lisätietoja näiden tietojen käyttämisestä, katso [Lajitteleminen, Hakeminen ja Suodattaminen Listoissa](ui-enter-criteria-filters.md)
 
 ## <a name="is-there-a-keyboard-experience-for-search-and-filter"></a>Voiko hakemista ja suodattamista käyttää näppäimistön avulla?
 Hakemista ja suodattamista voi käyttää tehokkaasti myös ilman hiirtä. Käytettävissä on useita pikanäppäimiä, joiden avulla toimintoja voi käyttää nopeasti. Lisätietoja on kohdassa [Pikanäppäimet](keyboard-shortcuts.md#KeyboardFilter).
 
 ## <a name="is-the-filter-pane-available-on-all-lists"></a>Onko suodatinruutu käytettävissä kaikissa luetteloissa?
-Suodatinruutu on käytettävissä sivuilla, joissa luettelo on sivun ensisijainen sisältö. Tällaisia ovat esimerkiksi työkirjat ja luettelosivut, kuten siirtymispalkin avulla käytettävät luettelot. Suodatinruutu ei ole vielä käytettävissä upotetuissa luetteloissa, kuten myyntitilausten myyntiriveillä tai dynaamisten sarakkeiden luetteloissa (joita kutsutaan usein matriisisivuiksi).
+Suodatinruutu on käytettävissä sivuilla, joissa luettelo on sivun ensisijainen sisältö. Tällaisia ovat esimerkiksi työkirjat ja luettelosivut, kuten siirtymispalkin avulla käytettävät luettelot. Suodatusruutu ei ole vielä tarjolla listoille jotka esitetään osina, kuten Tietoruudulle tai Roolikeskukselle. Kun listä on sisällytetty sivuun, kuten myyntirivi myyntitilauksessa, suodatusruutu on käytettävissä kun tämä rivi kohdistetaan kohdistustila painikkeella. Lisätietoja on kohdassa [Kohdistaminen rivinimikkeisiin](ui-enter-data.md#Focus).
 
 ## <a name="how-can-i-save-my-filters"></a>Miten voin tallentaa suodattimeni?
 
@@ -57,4 +57,4 @@ Paikallinen järjestelmänvalvoja voi muuttaa hakujen aikarajaa suuremmaksi muut
 ## <a name="see-also"></a>Katso myös .
 
 [Käytön aloittaminen](product-get-started.md)  
-[Luetteloiden lajitteleminen ja suodattaminen sekä luetteloista hakeminen](ui-enter-criteria-filters.md)  
+[Lajitteleminen, Hakeminen ja Suodattaminen Listoissa](ui-enter-criteria-filters.md)  

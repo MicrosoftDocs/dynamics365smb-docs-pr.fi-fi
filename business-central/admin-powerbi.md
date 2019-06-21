@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/26/2019
 ms.author: edupont
-ms.openlocfilehash: a999a9533aa2dd4e8dcadea04e7838305b34ba5b
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 79fa8f67a1b2d7ced65f002bd04fc69f61811c5e
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247494"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1620974"
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Yritystietojen ottaminen käyttöön Power BI:tä varten
 Lisätietojen hakeminen [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietoihin on helppoa Power BI- ja [!INCLUDE[d365fin](includes/d365fin_md.md)] -sisältöpakettien avulla. Power BI hakee tiedot ja muodostaa näiden tietojen perusteella valmiin koontinäytön ja raportit.  
 
-Sinulla on oltava kelvollinen Dynamics 365- ja Power BI -tili. Lisäksi [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) on ladattava, jos haluat luoda oman Power BI -raportteja. Power BI -sisältöpakettien käyttöä varten tarvitaan niiden taulukoiden käyttöoikeus, joista tiedot noudetaan. Lisätietoja on vaatimuksista on jäljempänä.  
+Sinulla on oltava kelvollinen [!INCLUDE[prodshort](includes/prodshort.md)]- ja Power BI -tili. Lisäksi [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) on ladattava, jos haluat luoda oman Power BI -raportteja. Power BI -sisältöpakettien käyttöä varten tarvitaan niiden taulukoiden käyttöoikeus, joista tiedot noudetaan. Lisätietoja on vaatimuksista on jäljempänä.  
 
 > [!IMPORTANT]
 > Tässä artikkelissa käsitellyt sisältöpaketit on suunniteltu käyttämään Azure Active Directorya todennusmekanismina. Jos käytät paikallista [!INCLUDE [prodshort](includes/prodshort.md)]ia ja jotain muuta todennusmekanismia, Power BI ei voi muodostaa yhteyttä tietoihin.  
@@ -28,15 +28,8 @@ Sinulla on oltava kelvollinen Dynamics 365- ja Power BI -tili. Lisäksi [Power B
 Microsoft on julkaissut seuraavat sisältöpaketit:
 
 - [!INCLUDE [prodlong](includes/prodlong.md)] – CRM  
-- [!INCLUDE [prodlong](includes/prodlong.md)] – asiakasluettelo  
 - [!INCLUDE [prodlong](includes/prodlong.md)] – rahoitus  
-- [!INCLUDE [prodlong](includes/prodlong.md)] – nimikeluettelo  
-- [!INCLUDE [prodlong](includes/prodlong.md)] – projektit  
-- [!INCLUDE [prodlong](includes/prodlong.md)] – projektiluettelo  
-- [!INCLUDE [prodlong](includes/prodlong.md)] – ostolaskut  
 - [!INCLUDE [prodlong](includes/prodlong.md)] – myynti  
-- [!INCLUDE [prodlong](includes/prodlong.md)] – myyntitilausluettelo.  
-- [!INCLUDE [prodlong](includes/prodlong.md)] – toimittajaluettelo  
 
 ## <a name="using-the-dashboards"></a>Koontinäyttöjen käyttäminen
 Kussakin sisältöpaketissa on raportteja, joilla voi porautua tietoihin:
@@ -88,64 +81,9 @@ Jos haluat tuoda [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]in tiet
 - Excel-malli Näytä yritys
 - Power BI -raporttien selitteet
 
-**Microsoft Dynamics 365 Business Central – Jobs**
-- Projektiluettelo
-- Projektin suunnittelurivit
-- Projektitehtävärivit
-- Power BI -raporttien selitteet
-- Excel-malli Näytä yritys
-
 **Microsoft Dynamics 365 Business Central – Sales**
 - Myynnin koontinäyttö
 - Excel-malli Näytä yritys
-- Power BI -raporttien selitteet
-
-### <a name="list-page-reports"></a>Luettelosivun raportit
-
-**Microsoft Dynamics 365 Business Central – Customers List**
-- Asiakaskohtainen nimikemyynti
-- Power BI -nimikkeiden ostoluettelo
-- Power BI -nimikkeiden myyntiluettelo
-- Myynnin koontinäyttö
-- Power BI -asiakasluettelo
-- ExcelTemplateViewCompany
-- Power BI -raporttien selitteet
-
-**Microsoft Dynamics 365 Business Central – General Ledger Entries List**
-- Power BI -PK-summaluettelo
-- Power BI -PK-budjettisumma
-- ExcelTemplateViewCompany
-- Power BI -raporttien selitteet
-
-**Microsoft Dynamics 365 Business Central – Items List**
-- Asiakaskohtainen nimikemyynti
-- Power BI -nimikkeiden ostoluettelo
-- Power BI -nimikkeiden myyntiluettelo
-- Myynnin koontinäyttö
-- ExcelTemplateViewCompany
-- Power BI -raporttien selitteet
-
-**Microsoft Dynamics 365 Business Central – Jobs List**
-- Power BI -projektiluettelo
-- ExcelTemplateViewCompany
-- Power BI -raporttien selitteet
-
-**Microsoft Dynamics 365 Business Central – Purchase Invoices List**
-- Power BI -ostoluettelo
-- ExcelTemplateViewCompany
-- Power BI -raporttien selitteet
-
-**Microsoft Dynamics 365 Business Central – Sales Orders List**
-- Power BI -myyntiluettelo
-- ExcelTemplateViewCompany
-- Power BI -raporttien selitteet
-
-
-**Microsoft Dynamics 365 Business Central – Vendors List**
-- Power BI -nimikkeiden ostoluettelo
-- Power BI -nimikkeiden myyntiluettelo
-- Power BI -toimittajaluettelo
-- ExcelTemplateViewCompany
 - Power BI -raporttien selitteet
 
 ## <a name="web-services"></a>WWW-palvelut
@@ -158,8 +96,7 @@ Power BI:n koontinäyttö käyttää julkaistuja edellä mainittuja verkkopalvel
 Yleinen virhe on antaa yrityksen näyttönimi yrityksen nimen sijaan. Voit etsiä yrityksen nimen hakusanalla **Yritykset**. Anna sitten yrityksen nimi **Nimi**-kentässä.
 
 ### <a name="incorrect-user-name-and-password"></a>Virheellinen käyttäjänimi ja salasana  
-Yhdistämiseen on käytettävä käyttäjänimeä ja salasanaa, joilla muodostetaan yhteys Microsoft Office 365 -tiliin.  
-
+Power BI järjestelmän käyttäjätunnus ja salasana ovat samat kuin Microsoft Office 365 tilisi.  
 Sisältöpaketit edellyttävät myös, että sinulla Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] -tili. Kun olet antanut tunnistetietosi, järjestelmä havaitsee automaattisesti ne Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] -vuokraajat, joiden käyttöoikeus sinulla on. Jos sinulla ei ole Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] -tilin käyttöoikeutta tai kokeiluversiota, saat virhesanoman.
 
 ### <a name="the-key-didnt-match-any-rows-in-the-table"></a>Avain ei vastannut mitään taulukon riviä

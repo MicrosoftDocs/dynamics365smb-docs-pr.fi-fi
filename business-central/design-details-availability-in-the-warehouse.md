@@ -10,19 +10,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 06/03/2019
 ms.author: sgroespe
-ms.openlocfilehash: 38218c497f7d3892b19d0b594ff3863004f69ac4
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: ab0f0e921fd7a321975330062d19869efc7d8ec7
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246862"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1620928"
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Rakennetiedot: saatavuus varastossa
 Järjestelmän on valvottava varaston nimikkeiden saatavuutta jatkuvasti, jotta lähtevät tilaukset toimitetaan tehokkaasti ja toimitukset saadaan halutussa ajassa.  
 
- Saatavuus vaihtelee riippuen varauksista lokerotasolla, kun varastotoiminnot, kuten poiminnat ja liikkeet ilmenevät ja kun varaston varausjärjestelmä asettaa noudatettavat rajoitukset. Varsin monimutkainen algoritmi tarkistaa, että kaikki edellytykset täyttyvät ennen kuin poimintojen määrät määritetään lähteville virroille.  
+Saatavuus vaihtelee riippuen varauksista lokerotasolla, kun varastotoiminnot, kuten poiminnat ja liikkeet ilmenevät ja kun varaston varausjärjestelmä asettaa noudatettavat rajoitukset. Varsin monimutkainen algoritmi tarkistaa, että kaikki edellytykset täyttyvät ennen kuin poimintojen määrät määritetään lähteville virroille.
+
+Jos yksi tai useampi ehdoista ei täyty, erilaisia virheilmoituksia saattaa ilmestyä, mukaanlukien geneerinen "Ei mitään käsiteltävää." viesti. "Ei mitään käsiteltävää." viesti voi esiintyä monissa tapauksissa, niin lähtevän tai saapuvan virran kanssa, kun suorasti tai epäsuorasti asiaan liittyvä dokumentti sisältää kentän **Käsiteltävä Määrä**
+
+> [!NOTE]
+> Lisätietoja "Ei mitään käsiteltävää" viestin syistä ja sen ratkaisuista julkaistaan pian täällä. viesti.
 
 ## <a name="bin-content-and-reservations"></a>Lokeron sisältö ja varaukset  
  Kaikissa varastoinninhallinnan asennuksissa nimikkeen määrät ovat olemassa sekä fyysisen varastoinnin tapahtumina fyysisen varaston sovellusalueella että nimiketapahtumina varaston sovellusalueella. Nämä kaksi tapahtumatyyppiä sisältävät eri tiedot nimikkeiden sijainnista ja niiden saatavuudesta. Fyysisen varastoinnin tapahtumat määrittävät nimikkeen saatavuuden varastopaikan ja varastopaikan tyypin mukaan. Jälkimmäistä kutsutaan myös varastopaikan sisällöksi. Nimiketapahtumat määrittävät nimikkeen saatavuuden lähtevien asiakirjojen varauksen perusteella.  
@@ -72,4 +77,5 @@ Järjestelmän on valvottava varaston nimikkeiden saatavuutta jatkuvasti, jotta 
  ![Varattavissa varaston kohdistusten mukaisesti](media/design_details_warehouse_management_availability_3.png "Varattavissa varaston kohdistusten mukaisesti")  
 
 ## <a name="see-also"></a>Katso myös  
- [Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)
+ [Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
+ [Nimikkeiden saatavuuden tarkasteleminen](inventory-how-availability-overview.md)
