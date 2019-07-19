@@ -80,7 +80,7 @@
 ### [Pankkitilien määrittäminen](bank-how-setup-bank-accounts.md)
 ### [Envestnet Yodlee Bank Feeds -palvelun määrittäminen](bank-how-setup-bank-statement-service.md)
 ### [Pankkitietojen muuntopalvelun määrittäminen](bank-how-setup-bank-data-conversion-service.md)
-### [Sekkien asetteluiden määrittäminen](finance-how-define-check-layouts.md)
+### [Sekin asettelun valitseminen](finance-how-define-check-layouts.md)
 
 ## Myynnin määrittäminen
 ### [Yleiskuvaus](sales-setup-sales.md)
@@ -90,6 +90,7 @@
 ### [Myyjien määrittäminen](sales-how-setup-salespeople.md)
 ### [Asiakirjan lähetysprofiilien määrittäminen](sales-how-setup-document-send-profiles.md)
 ### [Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md)
+### [Toimitusehtojen määrittäminen](sales-how-set-up-shipment-methods.md)
 ### [Kuljetusliikkeiden määrittäminen](sales-how-to-set-up-shipping-agents.md)
 
 ## Ostojen määrittäminen
@@ -182,7 +183,6 @@
 
 ## Yrityksen määrittäminen RapidStart Servicesin avulla
 ### [Yleiskuvaus](admin-set-up-a-company-with-rapidstart.md)
-### [RapidStart Servicesin käyttöönottajan roolikeskuksen käyttäminen](admin-how-to-use-the-rapidstart-services-role-center-to-track-progress.md)
 ### Yrityksen konfiguroinnin määrittäminen
 #### [Yleiskuvaus](admin-set-up-company-configuration.md)
 #### [Yrityksen määrittämisen hallinta työkirjassa](admin-how-to-manage-company-configuration-in-a-worksheet.md)
@@ -324,30 +324,33 @@
 ### [Taulukon yhdistämismääritysten muokkaaminen synkronointia varten](admin-how-to-modify-table-mappings-for-synchronization.md)
 ### [Taulukon yhdistämismääritysten manuaalinen synkronointi](admin-manual-synchronization-of-table-mappings.md)
 ### [Ajoitettu synkronointi](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
+### [Synkronointivirheiden vianmääritys](admin-troubleshoot-sales-synchronization.md)
 ## Business Central -sovelluksen mukauttaminen
 ### [Yleiskuvaus](ui-customizing-overview.md)
 ### Laajennusten käyttämisen mukauttaminen
 #### [Yleiskuvaus](ui-extensions.md)
 #### [Laajennusten käyttämisen mukauttaminen](ui-extensions.md)
+#### [Business Centralin kirjanpitäjän portaali](ui-extensions-accountant-portal.md)
 #### [Ceridian Payroll](ui-extensions-ceridian-payroll.md)
 #### [Dynamics GP -tietojen siirto](ui-extensions-dynamicsgp-data-migration.md)
+#### [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)
 #### [Olennaiset liiketoimintanäkemykset](ui-extensions-essential-business-insights.md)
 #### [Kuvan analysointitoiminto](ui-extensions-image-analyzer.md)
 #### [Älykäs pilvi](ui-extensions-data-replication.md)
 #### [Älykäs Pilvipohja](ui-extensions-intelligent-cloud.md)
-#### [Microsoft Pay -maksut](ui-extensions-microsoft-pay-payments.md)
+#### [Myöhästyneen maksun ennusteet](ui-extensions-late-payment-prediction.md)
+#### [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)
 #### [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)
 #### [QuickBooks-tietojen siirto](ui-extensions-quickbooks-data-migration.md)
 #### [QuickBooks Online -tietojen siirto](ui-extensions-quickbooks-online-data-migration.md)
-#### [QuickBooks Payroll](ui-extensions-quickbooks-payroll.md)
+#### [Quickbooks Payroll -tiedostojen tuonti](ui-extensions-quickbooks-payroll.md)
 #### [Myynti- ja varastoennuste](ui-extensions-sales-forecast.md)
 #### [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
-#### [Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)
-#### [Business Centralin kirjanpitäjän portaali](ui-extensions-accountant-portal.md)
 #### [DK – C5-tietojen siirto](ui-extensions-c5-data-migration.md)
+#### [DK - Maksut ja täsmäytykset](ui-extensions-payments-reconciliation-formats-dk.md)
 #### [DK – Verotiedostomuodot](ui-extensions-tax-file-formats-dk.md)
 #### [UK – Ison-Britannian postinumeroiden GetAddress.io](ui-extensions-getaddressio.md)
-#### [Lähetä Maksusuoritustietojen Ohjeet](ui-extensions-send-remittance-advice.md)
+#### [US/CA/UK/AU/NZ/ZA - Maksusuositusehdotuksen lähettäminen](ui-extensions-send-remittance-advice.md)
 #### [Muiden toimittajien Business Central -laajennukset](ui-extensions-other.md)
 ### [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md)
 ### [Mukautuksen hallinta järjestelmänvalvojana](ui-personalization-manage.md)
@@ -588,9 +591,9 @@
 ### [Mahdollisuuksien luominen](marketing-how-create-opportunities.md)
 ### [Myyntimahdollisuuksien käsitteleminen](marketing-processing-sales-opportunities.md)
 ## [Markkinointikampanjoiden hallinta](marketing-campaigns.md)
-## Integrointi Dynamics 365 for Salesin kanssa
+## Asiakkaiden kanssa toimiminen Dynamics 365 for Sales -sovelluksen avulla
 ### [Dynamics 365 for Salesin käyttö Business Centralista](marketing-integrate-dynamicscrm.md)
-### [Tietueiden kytkeminen ja synkronoiminen manuaalisesti](admin-how-to-couple-and-synchronize-records-manually.md)
+### [Tietueiden yhdistäminen ja synkronoiminen manuaalisesti](admin-how-to-couple-and-synchronize-records-manually.md)
 ### [Synkronoinnin tilan näyttäminen](admin-how-to-view-synchronization-status.md)
 
 # Henkilöstöhallinto
@@ -1210,6 +1213,73 @@
 #### [Tuo palkkatapahtumat](LocalFunctionality/Norway/how-to-import-payroll-transactions.md)
 #### [Myyntiasiakirjojen KID-numeroiden määrittäminen](LocalFunctionality/Norway/how-to-set-up-kid-numbers-on-sales-documents.md)
 #### [Asiakirjatulostuksen määrittäminen](LocalFunctionality/Norway/how-to-set-up-document-printing.md)
+
+## Venäjä
+### [Yleiskuvaus](LocalFunctionality/Russia/russia-local-functionality.md)
+### Perusrahoitus
+#### [KP-raporttimallien yleiskatsaus](LocalFunctionality/Russia/account-schedules-overview.md)
+#### [Toimintaohje: KP-raporttimallien tuominen ja vieminen](LocalFunctionality/Russia/How-to-Import-and-Export-Account-Schedules.md)
+#### [Toimintaohje: KP-raporttimallin laajennuksen määrittäminen](LocalFunctionality/Russia/How-to-Define-an-Account-Schedule-Extension.md)
+#### [Toimintaohje: KP-raporttimallin vakion määrittäminen](LocalFunctionality/Russia/How-to-Define-an-Account-Schedule-Constant.md)
+#### [KP-raporttimallien käyttäminen](LocalFunctionality/Russia/How-to-Work-with-Account-Schedules.md)
+#### [Pääkirjanpidon yhteydenpito](LocalFunctionality/Russia/general-ledger-correspondence.md)
+#### [Valuutta](LocalFunctionality/Russia/Currency-information-Import-currency-rates.md)
+#### [Toimintaohje: Vastuussa olevien työntekijöiden ja ennakkoilmoitusten määrittäminen](LocalFunctionality/Russia/How-to-Set-Up-Responsible-Employees-and-Advance-Statements.md)
+#### [Ostovelat ja myyntisaamiset](LocalFunctionality/Russia/Payables-and-Receivables.md)
+### Käyttöomaisuus
+#### [Käyttöomaisuus](LocalFunctionality/Russia/fixed-assets.md)
+#### [Toimintaohje: Arvioidun veron laskeminen](LocalFunctionality/Russia/How-to-Calculate-Assessed-Tax.md)
+#### [Poistobonus](LocalFunctionality/Russia/Depreciation-Bonus.md)
+#### [Käyttöomaisuuden kulut](LocalFunctionality/Russia/Fixed-Asset-Charges.md)
+#### [Käyttöomaisuuden ilmainen vastaanotto](LocalFunctionality/Russia/Gratuitous-receipt-of-fixed-assets.md)
+#### [Käyttöomaisuuden varasto](LocalFunctionality/Russia/Fixed-Asset-Inventory.md)
+#### [Käyttöomaisuuden sijainnit ja työntekijät](LocalFunctionality/Russia/Fixed-Asset-Locations-and-Employees.md)
+#### [Käyttöomaisuuden liikevaihto](LocalFunctionality/Russia/Fixed-Asset-Turnover.md)
+#### [Toimintaohje: Tulevien kulukirjauskansioiden luominen](LocalFunctionality/Russia/How-to-Create-Future-Expense-Journals.md)
+#### [Toimintaohje: Käyttöomaisuuden kulun luominen](LocalFunctionality/Russia/How-to-Create-a-Fixed-Asset-Charge.md)
+#### [Toimintaohje: Hyvityslaskun luominen käyttöomaisuuden kululle](LocalFunctionality/Russia/How-to-Create-a-Credit-Memo-for-a-Fixed-Asset-Charge.md)
+#### [Käyttöomaisuuden myynti](LocalFunctionality/Russia/Sale-of-fixed-assets.md)
+#### [Toimintaohje: Käyttöomaisuuden vapautus, seuranta ja arvonalennus](LocalFunctionality/Russia/How-to-Release-Track-Write-Off-Fixed-Assets.md)
+#### [Toimintaohje: Käyttöomaisuuden kulun kirjattujen tapahtumien tarkasteleminen](LocalFunctionality/Russia/How-to-View-Posted-Entries-on-a-Fixed-Asset-Charge.md)
+#### [Toimintaohje: Aineettomien hyödykkeiden tilin määrittäminen](LocalFunctionality/Russia/How-to-Set-Up-an-Intangible-Assets-Account.md)
+#### [Toimintaohje: Käyttöomaisuuden luovuttamiskustannusten tili](LocalFunctionality/Russia/How-to-Account-for-the-Cost-to-Dispose-a-Fixed-Asset.md) 
+#### [Odottamaton käyttöomaisuus](LocalFunctionality/Russia/Undepreciable-Fixed-Assets.md)
+### ALV
+#### [Yleiskuvaus](LocalFunctionality/Russia/VAT.md)
+#### [Toimintaohje: ALV-kirjausten määrittäminen](LocalFunctionality/Russia/How-to-Set-Up-VAT-Ledgers.md)  
+#### [Toimintaohje: ALV-tapahtumien valmisteleminen kirjausta varten](LocalFunctionality/Russia/How-to-Prepare-VAT-Entries-for-Posting.md)  
+#### [ALV-laskelma](LocalFunctionality/Russia/Settlement-VAT.md)  
+#### [Ostojen ja myynnin kirjojen ja ALV-ilmoituksen lataaminen XML-muodossa](LocalFunctionality/Russia/upload-books-purchases-sales-xml-vat-declaration.md)  
+#### [ALV asiakkaan ennakkomaksujen mukaan](LocalFunctionality/Russia/VAT-by-Customer-prepayments.md)  
+#### [ALV:n ottaminen käyttöön uudelleen](LocalFunctionality/Russia/VAT-reinstatement.md)  
+#### [Toimittajan veroedustajan malli](LocalFunctionality/Russia/Vendor-Tax-Agent-scheme.md)  
+### Verotuksen kirjanpito
+#### [Yleiskuvaus](LocalFunctionality/Russia/Tax-Accounting.md)
+#### [Toimintaohje: Verotuksen kirjanpidon määrittäminen](LocalFunctionality/Russia/How-to-Set-Up-Tax-Accounting.md)  
+#### [Verorekisterit](LocalFunctionality/Russia/Tax-Registers.md)  
+#### [Toimintaohje: Verorekisterien luominen](LocalFunctionality/Russia/How-to-Create-Tax-Registers.md)  
+#### [Toimintaohje: Verorekisterin osien määrittäminen](LocalFunctionality/Russia/How-to-Set-Up-Tax-Register-Sections.md) #### [Verojen erot](LocalFunctionality/Russia/Tax-Differences.md)  
+#### [Henkilökohtaisten tuloveromaksujen kirjanpito](LocalFunctionality/Russia/Accounting-for-personal-income-tax-payments.md)  
+#### [KLADR:n lataaminen](LocalFunctionality/Russia/Upload-KLADR.md)  
+#### [Lakisääteiset raportit](LocalFunctionality/Russia/Statutory-Reports.md)
+#### Maksuliikenne
+#### [Maksuliikenne](LocalFunctionality/Russia/bank-management.md)
+### Varasto
+#### [Varasto](LocalFunctionality/Russia/Inventory.md)
+#### [Varastonhallinnan asetukset](LocalFunctionality/Russia/Inventory-Setup.md)
+#### [Nimikeasiakirjat](LocalFunctionality/Russia/Item-Documents.md)
+#### [Nimikkeen pakolliset asetukset](LocalFunctionality/Russia/Item-Obligatory-Acts.md)
+#### [Myyntisaamisten ja ostovelkojen (INV-17) varaston asetukset](LocalFunctionality/Russia/Inventory-Act-of-Receivables-And-Payables-INV-17.md)
+#### [Nimikkeen pääkirjanpidon liikevaihto](LocalFunctionality/Russia/Item-General-Ledger-Turnover.md)
+#### [Toimintaohje: TORG-29 -tavararaportin luominen](LocalFunctionality/Russia/How-to-Create-the-TORG-29-Goods-Report.md)
+### Henkilöstöhallinto
+#### [Henkilöstöhallinto](LocalFunctionality/Russia/Human-Resources.md)
+#### [Palkanlaskenta](LocalFunctionality/Russia/Payroll.md)
+#### [Työntekijän kulujen ja vähennysten muodostaminen](LocalFunctionality/Russia/Establishment-of-charges-and-deductions-to-the-employee.md)
+#### [Poissaolon rekisteröiminen](LocalFunctionality/Russia/Absence-registration.md)
+#### [Irtisanominen](LocalFunctionality/Russia/Dismissal.md)
+#### [Henkilöstöluettelon järjestyksen ja henkilöstön järjestelyn muodostaminen ja muuttaminen](LocalFunctionality/Russia/Forming-and-changing-Staff-List-Order-Staff-Arrangement.md)
+#### [Lomasuunnitelma](LocalFunctionality/Russia/Vacation-planning.md)
 
 ## Espanja
 ### [Yleiskuvaus](LocalFunctionality/Spain/spain-local-functionality.md)

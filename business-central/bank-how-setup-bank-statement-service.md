@@ -10,23 +10,26 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
-ms.date: 04/01/2019
+ms.date: 06/25/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9fa3911ceeb94d523709d1029db9527b868bc199
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 1c27575cd218b4f7c3ac5098eaca96d9ab9a4a1b
+ms.sourcegitcommit: 73e955b8fec819e5212b6ca7d8bfff42fe2d5eb8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246651"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "1702880"
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Envestnet Yodlee Bank Feeds -palvelun määrittäminen
 Voit tuoda pankistasi sähköisiä tiliotteita ja täyttää nopeasti **Maksujen täsmäytyskirjauskansio** -sivun maksujen kohdistamiseksi ja pankkitilin täsmäyttämiseksi. Lisätietoja on kohdassa [Maksujen kohdistaminen automaattisesti ja pankkitilien täsmäyttäminen](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 > [!NOTE]
-> Envestnet Yodlee Bank Feeds -palvelua tuetaan vain Business Centralin verkkoversiossa. Jos haluat käyttää tätä toimintoa paikallisesti, sinun on hankittava yhteistili Envestnet Yodleelta.<br /><br />
+> Envestnet Yodlee Bank Feeds -palvelua tuetaan vain Business Central -sovelluksen online-versiossa. Jos haluat käyttää tätä toimintoa paikallisesti, sinun on hankittava yhteistili Envestnet Yodleelta.<br /><br />
 > Envestnet Yodlee Bank Feeds -palvelua tuetaan vain Yhdysvalloissa, Kanadassa ja Isossa-Britanniassa.
 
-Envestnet Yodlee Bank Feeds -palvelu on asennettu [!INCLUDE[d365fin](includes/d365fin_md.md)] onlineen laajennuksena. Se on valmis käyttöönottoa varten tuetuissa maissa. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md).
+> [!IMPORTANT]
+> Jos haluat teknistä apua Envestnet Yodlee -toimintojen kanssa, ota yhteyttä Microsoft-tukeen. Älä ota yhteyttä Envestnet Yodleen. Lisätietoja on kohdassa [Dynamics 365 Business Central -sovelluksen teknisen tuen määrittäminen](/dynamics365/business-central/dev-itpro/technical-support)
+
+Envestnet Yodlee Bank Feeds -palvelu on asennettu [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen online-versioon laajennuksena. Se on valmis käyttöönottoa varten tuetuissa maissa. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md).
 
 Kun olet ottanut pankkisyötepalvelun käyttöön, pankkitili on linkitettävä siihen verkkopankkitiliin, josta syöte tulee. Voit linkittää pankkitilit verkkopankkitileihin seuraavissa erilaisissa skenaarioissa:
 

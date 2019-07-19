@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 06/06/2019
 ms.author: bholtorf
-ms.openlocfilehash: c95dee48b42fe5784c1d7d2fc6a11d5f487c7653
-ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
+ms.openlocfilehash: dfcb664d352683566df233d6b9b95900f2d76a5a
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "1621043"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629640"
 ---
 # <a name="set-up-a-connection-to-dynamics-365-for-sales"></a>Yhteyden määrittäminen Dynamics 365 for Salesiin
-[!INCLUDE[crm_md](includes/crm_md.md)] -integraatiota varten on määritettävä yhteys [!INCLUDE[d365fin](includes/d365fin_md.md)]in ja [!INCLUDE[crm_md](includes/crm_md.md)]in välille. 
+[!INCLUDE[crm_md](includes/crm_md.md)] -integraatiota varten on määritettävä yhteys [!INCLUDE[d365fin](includes/d365fin_md.md)]in ja [!INCLUDE[crm_md](includes/crm_md.md)]in välille.
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2085501]
 
@@ -30,7 +30,7 @@ Seuraavat tiedot kannattaa olla käsillä ennen sovellusten yhdistämistä:
 * [!INCLUDE[crm_md](includes/crm_md.md)] -sovelluksen URL-osoite. URL-osoitteen löytää nopeasti avaamalla [!INCLUDE[crm_md](includes/crm_md.md)]in, kopioimalla URL-osoitteen ja liittämällä sen sitten [!INCLUDE[d365fin](includes/d365fin_md.md)]in **Dynamics 365 for Sales -URL-osoite** -kenttään. [!INCLUDE[d365fin](includes/d365fin_md.md)] korjaa muotoilun puolestasi.  
 * Vain integroinnissa käytettävän käyttäjätilin käyttäjänimi ja salasana.  
 * Sen tilin käyttäjänimi ja salasana, jolla on järjestelmänvalvojan oikeudet.  
-  
+
 > [!Note]
 > Seuraavat vaiheet koskevat [!INCLUDE[d365fin](includes/d365fin_md.md)]in online-versiota.
 
@@ -38,7 +38,7 @@ Seuraavat tiedot kannattaa olla käsillä ennen sovellusten yhdistämistä:
 Office 365 -todennustyyppiä lukuun ottamatta Dynamics 365 for Sales -yhteys määritetään kaikissa todennustyypeissä **Microsoft Dynamics 365 for Sales -yhteyden määritys** -sivulla. Office 365 -todennuksessa voi käyttää myös ohjattua **Dynamics 365 for Sales -yhteyden määritys** -opasta, joka sisältää tarvittavat tiedot.
 
 ### <a name="to-use-an-assisted-setup-guide"></a>Asetusten ohjatun määrityksen käyttäminen
-Asetusten ohjattu **Dynamics 365 for Sales -yhteyden määritys** -opas auttaa määrittämään yhteyden. Lisäksi se määrittää, otetaanko lisäominaisuudet, kuten tietueiden välinen yhdistäminen, käyttöön. 
+Asetusten ohjattu **Dynamics 365 for Sales -yhteyden määritys** -opas auttaa määrittämään yhteyden. Lisäksi se määrittää, otetaanko lisäominaisuudet, kuten tietueiden välinen yhdistäminen, käyttöön.
 
 1. Valitse ensin **Asennus ja laajennukset** ja valitse sitten **Asetusten ohjattu määritys**.
 2. Käynnistä asetusten ohjattu määritys valitsemalla **Dynamics 365 for Sales -yhteyden määritys**.
@@ -57,7 +57,7 @@ Asetusten ohjattu **Dynamics 365 for Sales -yhteyden määritys** -opas auttaa m
 |**Dynamics 365 SDK -versio**|Tällä on merkitystä vain, jos integrointi tehdään [!INCLUDE[crm_md](includes/crm_md.md)]in paikalliseen versioon. Voit yhdistää tällä Dynamics 365 SDK -versiolla (joka tunnetaan myös nimellä Xrm) [!INCLUDE[d365fin](includes/d365fin_md.md)]in [!INCLUDE[crm_md](includes/crm_md.md)]iin. Version on oltava yhteensopiva sen SDK-version kanssa, jota [!INCLUDE[crm_md](includes/crm_md.md)] käyttää. Lisäksi sen on oltava sama tai uudempi kuin versio, jota [!INCLUDE[crm_md](includes/crm_md.md)] käyttää.|
 
 > [!Note]
-> **Määritä Dynamics 365 for Sales Connection** avustettu määritysten ohje liittää **Integroinnin Järjestelmänvalvoja** ja **Integrointikäyttäjä** turvaroolit integroinnissa käytettyyn käyttäjätiliin. 
+> Asetusten ohjattu määritysopas **Määritä Dynamics 365 for Sales Connection** määrittää käyttäjätilille **Integroinnin järjestelmänvalvoja**- ja **Integroinnin käyttäjä** -käyttöoikeusroolit integrointia varten. 
 
 ### <a name="to-create-or-maintain-the-connection-manually"></a>Yhteyden luominen tai ylläpitäminen manuaalisesti
 Seuraavaksi käsitellään **Microsoft Dynamics 365 for Sales -yhteyden määritys** -sivun kenttien täyttämistä manuaalisesti. Tällä sivulla hallitaan myös integroinnin asetuksia.
@@ -105,10 +105,14 @@ Seuraavaksi käsitellään **Microsoft Dynamics 365 for Sales -yhteyden määrit
     > [!NOTE]  
     >  Jos tietojen salaus ei ole käytössä [!INCLUDE[d365fin](includes/d365fin_md.md)]issa, sinulta kysytään, haluatko ottaa sen käyttöön. Ota tietojen salaus käyttöön valitsemalla **Kyllä** ja määritä tarvittavat tiedot. Valitse muussa tapauksessa **Ei**. Voit ottaa tietojen salauksen käyttöön myöhemmin. Lisätietoja on kehittäjän ja IT-ammattilaisen ohjeen kohdassa [Tietojen salaus Dynamics 365 Business Centralissa](/dynamics365/business-central/dev-itpro/developer/devenv-encrypting-data).  
 
-7. Jos [!INCLUDE[crm_md](includes/crm_md.md)]in synkronointia ei ole määritetty, sinulta kysytään, haluatko käyttää oletussynkronointiasetuksia. Valitse **Kyllä** tai **Ei** sen mukaan, haluatko pitää [!INCLUDE[crm_md](includes/crm_md.md)]in ja [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietueet kohdistettuina. 
+7. Jos [!INCLUDE[crm_md](includes/crm_md.md)]in synkronointia ei ole määritetty, sinulta kysytään, haluatko käyttää oletussynkronointiasetuksia. Valitse **Kyllä** tai **Ei** sen mukaan, haluatko pitää [!INCLUDE[crm_md](includes/crm_md.md)]in ja [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietueet kohdistettuina.
 
 > [!Note]
-> Jos yrität yhdistää Dynamics 365 for Sales ohjelmaan käyttäen **Microsoft Dynamics 365 for Sales Yhteysasetukset** sivua käyttäen, voit joutua [määrittämään  **Integroinnin Järjestelmänvalvoja** ja **Integrointikäyttäjä** turvallisuusroolit](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user) integraatiossa käytetylle käyttäjätilille. 
+> Yhteyden muodostaminen Dynamics 365 for Sales -sovelluksesta **Microsoft Dynamics 365 for Sales -yhteyden määritys** -sivulle voi edellyttää Integroinnin järjestelmänvalvoja- ja Integroinnin käyttäjä -käyttöoikeusroolien määrittämistä integroinnissa käytettävälle tilille. Lisätietoja on kohdassa [Käyttöoikeusroolin määrittäminen käyttäjälle](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).
+
+
+> [!Note]
+> Jos yrität yhdistää Dynamics 365 for Sales ohjelmaan käyttäen **Microsoft Dynamics 365 for Sales Yhteysasetukset** sivua käyttäen, voit joutua [määrittämään  **Integroinnin Järjestelmänvalvoja** ja **Integrointikäyttäjä** turvallisuusroolit](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user) integraatiossa käytetylle käyttäjätilille.
 
 
 ### <a name="to-disconnect-from-includecrmmdincludescrmmdmd"></a>[!INCLUDE[crm_md](includes/crm_md.md)] -yhteyden katkaiseminen  
@@ -116,7 +120,7 @@ Seuraavaksi käsitellään **Microsoft Dynamics 365 for Sales -yhteyden määrit
 2. Poista **Microsoft Dynamics 365 for Sales -yhteyden määritys** -sivun **Käytössä**-valintaruudun valinta.  
 
 <!--## Install the [!INCLUDE[d365fin](includes/d365fin_md.md) Integration Solution
-[!INCLUDE[d365fin](includes/d365fin_md.md)] includes a solution that enables users to access coupled records, such as customers and items, from records in [!INCLUDE[crm_md](includes/crm_md.md)], such as accounts and products. The solution adds a link to the pages in [!INCLUDE[crm_md](includes/crm_md.md)] to open the coupled [!INCLUDE[d365fin](includes/d365fin_md.md)] record. The solution also displays information from [!INCLUDE[d365fin](includes/d365fin_md.md)]on certain entities in [!INCLUDE[crm_md](includes/crm_md.md)], such as accounts. Installing this solution is optional. <!--"Solution" sounds old school. Is it an app, or an add-in, or an extension? 
+[!INCLUDE[d365fin](includes/d365fin_md.md)] includes a solution that enables users to access coupled records, such as customers and items, from records in [!INCLUDE[crm_md](includes/crm_md.md)], such as accounts and products. The solution adds a link to the pages in [!INCLUDE[crm_md](includes/crm_md.md)] to open the coupled [!INCLUDE[d365fin](includes/d365fin_md.md)] record. The solution also displays information from [!INCLUDE[d365fin](includes/d365fin_md.md)]on certain entities in [!INCLUDE[crm_md](includes/crm_md.md)], such as accounts. Installing this solution is optional. <!--"Solution" sounds old school. Is it an app, or an add-in, or an extension?
 
 
 1.  From [!INCLUDE[d365fin](includes/d365fin_md.md)] installation media \(DVD\), copy the DynamicsNAVIntegrationSolution.zip file to your computer.  
@@ -137,11 +141,11 @@ Seuraavaksi käsitellään **Microsoft Dynamics 365 for Sales -yhteyden määrit
 
 5.  Assign the **Business Central Integration User** role to all users who will use the [!INCLUDE[d365fin](includes/d365fin_md.md)] integration solution.  
 
-If you install the [!INCLUDE[d365fin](includes/d365fin_md.md)] integration solution after you have set up the connection to [!INCLUDE[crm_md](includes/crm_md.md)] in [!INCLUDE[d365fin](includes/d365fin_md.md)], you must modify the connection setup to point to the URL.--> 
+If you install the [!INCLUDE[d365fin](includes/d365fin_md.md)] integration solution after you have set up the connection to [!INCLUDE[crm_md](includes/crm_md.md)] in [!INCLUDE[d365fin](includes/d365fin_md.md)], you must modify the connection setup to point to the URL.-->
 
-<!--of the [!INCLUDE[nav_web_md](../developer/includes/nav_web_md.md)]. For more information, see [How to: Set Up a Microsoft Dynamics 365 for Sales Connection]() --> 
+<!--of the [!INCLUDE[nav_web_md](../developer/includes/nav_web_md.md)]. For more information, see [How to: Set Up a Microsoft Dynamics 365 for Sales Connection]() -->
 
-<!-- 
+<!--
 # View Item Availability - Support Matrix
 For most versions of [!INCLUDE[d365fin](includes/d365fin_md.md) and Dynamics 365 for Sales, you can view availability figures for items across the integrated products. The following table shows which version combinations support viewing item availability.
 
@@ -162,4 +166,3 @@ For more information, see [System Requirements for Business Central](../deployme
 
 ## <a name="see-also"></a>Katso myös  
 [Synkronoinnin tilan näyttäminen](admin-how-to-view-synchronization-status.md)  
-

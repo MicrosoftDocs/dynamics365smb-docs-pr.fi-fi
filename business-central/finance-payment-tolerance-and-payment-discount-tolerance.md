@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 06/07/2019
 ms.author: sgroespe
-ms.openlocfilehash: def9338cea3a1998aafac671e304c55f83fdece7
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 7ca4f01d261915e2ecf6416ee1d9e85f50c73fb0
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1242466"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629709"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Maksutoleranssien ja maksualennustoleranssien käsitteleminen
 Voit määrittää maksutoleranssin ja sulkea sen avulla laskun, kun maksu ei täysin kata laskun summaa. Voit määrittää maksualennustoleranssin, jolla voi myöntää maksualennuksen sen jälkeen kun maksualennuspäivämäärä on ohitettu.  
@@ -218,7 +218,7 @@ Jäljellä oleva summa per
 
 Normaalit kohdistussäännöt  
 
-![Useiden maksujen toleranssisäännöt 2](media/multiplePmtTolRules(GracePeriodInv1).gif "Useiden maksujen toleranssisäännöt 2")  
+![Useiden maksujen toleranssisäännöt 2](media/multiplePmtTolRules(GracePeriodInv1-2).gif "Useiden maksujen toleranssisäännöt 2")  
 
 (1) Mikäli maksu osuu tälle välille, kaikki kohdistettavat tapahtumat voidaan sulkea toleranssilla tai ilman sitä.  
 
@@ -229,7 +229,7 @@ Jäljellä oleva summa per
 
 Normaalit kohdistussäännöt  
 
-![Useiden maksujen toleranssisäännöt 3](media/multiplePmtTolRules(GracePeriodInv1-2).gif "Useiden maksujen toleranssisäännöt 3")  
+![Useiden maksujen toleranssisäännöt 3](media/multiplePmtTolRules(GracePeriodInv1).gif "Useiden maksujen toleranssisäännöt 3")  
 
 (1) Mikäli maksu osuu tälle välille, kaikki kohdistettavat tapahtumat voidaan sulkea toleranssilla tai ilman sitä.  
 

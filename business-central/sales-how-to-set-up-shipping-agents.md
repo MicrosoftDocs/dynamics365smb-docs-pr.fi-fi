@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 06/17/2019
 ms.author: sgroespe
-ms.openlocfilehash: e1f6af964dad89a8a311f315f8885aaa94b92427
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 6d931625ef469a0b156d2794de7eda131213f28f
+ms.sourcegitcommit: 6dc83b27ac47f3b39a7b84cfb7446e7f48b8ce63
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252341"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "1632681"
 ---
 # <a name="set-up-shipping-agents"></a>Kuljetusliikkeiden määrittäminen
 Voit määrittää koodin jokaiselle kuljetusliikkeelle, ja syöttää tietoja niistä.  
@@ -39,9 +39,10 @@ Kun olet määrittänyt kuljetusliikkeen palvelun myyntitilausriville, palvelun 
 >  Jos poistat kuljetusliikkeen tilausriviltä, ohjelma poistaa riviltä myös kuljetusliikkeen palvelukoodin. Ohjelma laskee sen jälkeen uudelleen kenttien tiedot, jotka perustuivat osittain kuljetusliikkeiden palveluihin.  
 
 ## <a name="see-also"></a>Katso myös
+[Toimitusehtojen määrittäminen](sales-how-set-up-shipment-methods.md)  
 [Kollien seuraaminen](sales-how-track-packages.md)    
 [Varastoinninhallinta](warehouse-manage-warehouse.md)  
-[Vaihto-omaisuus](inventory-manage-inventory.md)  
+[Varasto](inventory-manage-inventory.md)  
 [Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md)     
 [Kokoonpanon hallinta](assembly-assemble-items.md)    
 [Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  

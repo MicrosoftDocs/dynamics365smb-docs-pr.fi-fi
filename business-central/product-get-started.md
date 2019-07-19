@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 04/01/2019
+ms.date: 06/13/2019
 ms.author: edupont
-ms.openlocfilehash: eae085d430fb7341b8ac62f26033d68d9ea155cf
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 91ade518beb551d7b9c30cef0eef3c5c72b366aa
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1254078"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629939"
 ---
 # <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]in käytön aloittaminen
 [!INCLUDE[d365fin](includes/d365fin_md.md)] on pienille ja keskisuurille organisaatioille tarkoitettu liiketoiminnan hallintaratkaisu, joka automatisoi ja selkeyttää liiketoiminnan prosesseja sekä auttaa liiketoiminnan hallinnassa. Rekisteröityminen on helppoa, ja voit siirtää aiemmin luodut yritystiedot vanhojen tietojen järjestelmästä. Jos tarvitset apua tilaukseen liittyvissä asioissa, etsi [!INCLUDE[d365fin](includes/d365fin_md.md)] -kumppani [täältä](https://www.microsoft.com/en-us/solution-providers/search).  
@@ -23,7 +23,7 @@ ms.locfileid: "1254078"
 Kun olet rekisteröitynyt [!INCLUDE[d365fin](includes/d365fin_md.md)]in esikatseluun, saat käyttöösi käyttää esittely-yrityksen. Esittely-yritys sisältää mallitietoja. Voit kuitenkin luoda esimerkiksi omia myyntiasiakirjoja tai määrittää pankkitilin.  
 
 ## <a name="get-to-know-included365finincludesd365finmdmd"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)]iin tutustuminen
-[!INCLUDE[d365fin](includes/d365fin_md.md)]issa on sekä tuttuja että uusia ominaisuuksia. Esittely-yrityksen visuaaliset opasteet selittävät perustoimintoja sekä auttavat kokeilemaan päivittäisiä tehtäviä, kuten luomaan myyntilaskun ja näyttämään raportin. Jos poistut oppaasta, koska haluat esimerkiksi tutustua [!INCLUDE[d365fin](includes/d365fin_md.md)]in itsenäisesti, voit palata oppaaseen siirtymällä roolikeskukseen ja käynnistämällä Aloitusopas-esittelyn. Jos haluat apua, voit etsiä [!INCLUDE[d365fin](includes/d365fin_md.md)] -kumppanin [täältä](https://www.microsoft.com/en-us/solution-providers/search).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]issa on sekä tuttuja että uusia ominaisuuksia. Esittely-yrityksen visuaaliset opasteet selittävät perustoimintoja sekä auttavat kokeilemaan päivittäisiä tehtäviä, kuten luomaan myyntilaskun ja näyttämään raportin. Jos poistut oppaasta, koska haluat esimerkiksi tutustua [!INCLUDE[d365fin](includes/d365fin_md.md)]in itsenäisesti, voit palata oppaaseen siirtymällä roolikeskukseen ja käynnistämällä Aloitusopas-esittelyn. Jos haluat apua, ota yhteyttä [!INCLUDE[d365fin](includes/d365fin_md.md)] -kumppaniin.  
 
 > [!TIP]  
 > Voit palata roolikeskukseen valitsemalla yrityksen nimen vasemmasta yläkulmasta.
@@ -36,7 +36,11 @@ Käteviä vihjeitä on seuraavissa kohdissa:
 
 Lisätietoja on aiheessa [[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md).  
 
-Kun olet valmis aloittamaan käytön ja haluat tutustua tiettyihin [!INCLUDE[d365fin](includes/d365fin_md.md)]in tukemiin liiketoimintaprosesseihin, lisätietoja on kohdassa [Liiketoiminnan toiminnallisuudet](across-business-functionality.md). Nykyisten ja suunniteltujen ominaisuuksien yleiskatsaus on julkaisutiedoissa kohdassa [Microsoft Dynamics 365 Business Centralin julkaisutiedot](https://go.microsoft.com/fwlink/?linkid=2047422).  
+Kun olet valmis aloittamaan käytön ja haluat tutustua tiettyihin [!INCLUDE[d365fin](includes/d365fin_md.md)]in tukemiin liiketoimintaprosesseihin, lisätietoja on kohdassa [Liiketoiminnan toiminnallisuudet](across-business-functionality.md).
+
+Ennen toimintojen käyttämistä on tehtävä tietyt asetukset. Lisätietoja on myös kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittäminen](setup.md) Huomaa, että jotkin asetusvaiheet saatetaan suorittaa puoliautomaattisesti asetusten ohjattujen määritysoppaiden avulla.
+
+Nykyisten ja suunniteltujen ominaisuuksien yleiskatsaus on julkaisusuunnitelmassa kohdassa [Microsoft Dynamics 365 Business Centralin julkaisusuunnitelma](https://go.microsoft.com/fwlink/?linkid=2047422).  
 
 ## <a name="the-role-centers"></a>Roolikeskukset
 Roolikeskussivu perustuu roolikeskeiseen rakenteeseen, jonka ansiosta voit käyttää nopeasti työssä tarvittavia liiketoimintaprosesseja ja BI-työkaluja. Kirjanpitäjä voi esimerkiksi seurata maksuja ja hyväksymisiä sekä tarkastella rahoituksen suorituskykykaavioita. Tutustu eri roolikeskuksiin valitsemalla oikeassa yläkulmassa **Asetukset**-kuvake ![Asetukset](media/ui-experience/settings_icon_small.png "Roolikeskuksen Asetukset-kuvake"). Valitse sitten **Omat asetukset** ja lopuksi roolikeskus, johon haluat tutustua. Ota muutos käyttöön kirjautumalla uudelleen sisään. Lisätietoja on kohdassa [Perusasetusten muuttaminen](ui-change-basic-settings.md).
@@ -96,7 +100,7 @@ Jos olet kirjanpitäjä, voit rekisteröityä [!INCLUDE[d365acc_long](includes/d
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]in hakeminen mobiililaitteeseen](install-mobile-app.md)  
 [Ohje- ja tukiresurssit](product-help-and-support.md)  
 [Dynamics 365:n dokumentaatio](https://docs.microsoft.com/en-us/dynamics365/)  
-[Microsoft Dynamics 365 Business Centralin julkaisutiedot](https://go.microsoft.com/fwlink/?linkid=2047422)  
+[Microsoft Dynamics 365 Business Centralin julkaisusuunnitelma](https://go.microsoft.com/fwlink/?linkid=2047422)  
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

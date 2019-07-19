@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 04/01/2019
+ms.date: 06/13/2019
 ms.author: edupont
-ms.openlocfilehash: d03d1aa3910dc73dc61c61bdd66725e8e8af3c66
-ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
+ms.openlocfilehash: e1f7d9891be4ae31fc3f98fb768bfddcd38582ca
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "1621112"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629870"
 ---
 # <a name="customizing-business-central-using-extensions"></a>Business Central -sovelluksen mukauttaminen laajennusten avulla
 Voit muuttaa [!INCLUDE[d365fin](includes/d365fin_md.md)]ia asentamalla laajennuksia, jotka sisältävät lisätoimintoja, muuttavat toimintaa tai mahdollistavat esimerkiksi uusien verkkopalveluiden käyttämisen.
@@ -48,24 +48,28 @@ Jotkin ovat Microsoftin laajennuksia, jotkin [muiden yritysten](ui-extensions-ot
 
 Microsoft tarjoaa seuraavat laajennukset:  
 
-* [Dynamics GP -tietojen siirto](ui-extensions-dynamicsgp-data-migration.md)  
-* [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)  
-* [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)  
-* [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)  
-* [QuickBooks-tietojen siirto](ui-extensions-quickbooks-data-migration.md)  
-* [Myynti- ja varastoennuste](ui-extensions-sales-forecast.md)  
-* [Ceridian Payroll](ui-extensions-ceridian-payroll.md)  
-* [Quickbooks Payroll -tiedostojen tuonti](ui-extensions-quickbooks-payroll.md)  
-* [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)  
-* [Ison-Britannian postinumeroiden GetAddress.io](ui-extensions-getaddressio.md)  
-* [QuickBooks Online -tietojen siirto](ui-extensions-quickbooks-online-data-migration.md)  
-* [Kirjanpitäjän portaali](ui-extensions-accountant-portal.md)  
-* [Kuvan analysointitoiminto](ui-extensions-image-analyzer.md)  
-* [Maksut ja täsmäytykset](ui-extensions-payments-reconciliation-formats-dk.md)  
-* [C5-tietojen siirto](ui-extensions-c5-data-migration.md)  
-* [Olennaiset liiketoimintanäkemykset](ui-extensions-essential-business-insights.md)  
-* [Myöhästyneen maksun ennusteet](ui-extensions-late-payment-prediction.md  )
-* [Lähetä Maksusuoritustietojen Ohjeet](ui-extensions-send-remittance-advice.md)
+* [Business Centralin kirjanpitäjän portaali](ui-extensions-accountant-portal.md)
+* [Ceridian Payroll](ui-extensions-ceridian-payroll.md)
+* [Dynamics GP -tietojen siirto](ui-extensions-dynamicsgp-data-migration.md)
+* [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)
+* [Olennaiset liiketoimintanäkemykset](ui-extensions-essential-business-insights.md)
+* [Kuvan analysointitoiminto](ui-extensions-image-analyzer.md)
+* [Älykäs pilvi](ui-extensions-data-replication.md)
+* [Älykäs Pilvipohja](ui-extensions-intelligent-cloud.md)
+* [Myöhästyneen maksun ennusteet](ui-extensions-late-payment-prediction.md)
+* [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)
+* [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)
+* [QuickBooks-tietojen siirto](ui-extensions-quickbooks-data-migration.md)
+* [QuickBooks Online -tietojen siirto](ui-extensions-quickbooks-online-data-migration.md)
+* [Quickbooks Payroll -tiedostojen tuonti](ui-extensions-quickbooks-payroll.md)
+* [Myynti- ja varastoennuste](ui-extensions-sales-forecast.md)
+* [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
+* [DK – C5-tietojen siirto](ui-extensions-c5-data-migration.md)
+* [DK - Maksut ja täsmäytykset](ui-extensions-payments-reconciliation-formats-dk.md)
+* [DK – Verotiedostomuodot](ui-extensions-tax-file-formats-dk.md)
+* [UK – Ison-Britannian postinumeroiden GetAddress.io](ui-extensions-getaddressio.md)
+* [US/CA/UK/AU/NZ/ZA - Maksusuositusehdotuksen lähettäminen](ui-extensions-send-remittance-advice.md)
+* [Muiden toimittajien Business Central -laajennukset](ui-extensions-other.md)
 
 > [!NOTE]  
 >  Uudet laajennukset eivät ole saatavana AppSourcessa heti, kun ilmoitamme päivityksestä. Voit tarkkailla laajennuksia osoitteessa [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).

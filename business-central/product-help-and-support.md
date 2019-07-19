@@ -1,18 +1,18 @@
 ---
 title: Ohje ja tuki
-description: Tuotteen ohjetta, opastusta ja tukea koskevien resurssien löytäminen ja tietoja Business Centralin teknisestä tuesta.
+description: Tuotteen ohjetta, opastusta, vianetsintää koskevia vihjeitä ja tukea sekä tietoja Business Centralin teknisestä tuesta.
 author: edupont04
 ms.reviewer: na
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 04/01/2019
-ms.openlocfilehash: e9051ae5c12a787eb40732ad133e8d21932df50d
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 07/03/2019
+ms.openlocfilehash: 6b19a566ada8e9708bb19a82ded3404b29cf260d
+ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1253675"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "1726951"
 ---
 # <a name="resources-for-help-and-support"></a>Ohje- ja tukiresurssit
 
@@ -47,7 +47,7 @@ Jos käytät [!INCLUDE [prodshort](includes/prodshort.md)]in kokeiluversiota eik
 
 ### <a name="capabilities-coming-soon"></a>Tulossa olevat ominaisuudet
 
-[!INCLUDE[prodshort](includes/prodshort.md)] päivitetään merkittävillä ominaisuuspäivityksellä 6 kuukauden välein ja kuukausittain julkaistavilla palvelupäivityksillä. Voit tarkastella uusimpia julkaisutietoja valitsemalla linkin. Saat myös yleiskuvan tulevista ja äskettäin julkaistuista ominaisuuksista Dynamics 365:n julkaisutiedoista osoitteessa [https://dynamics.microsoft.com/en-us/business-applications/release/](https://dynamics.microsoft.com/en-us/business-applications/release/#release-notes).  
+[!INCLUDE[prodshort](includes/prodshort.md)] päivitetään merkittävillä ominaisuuspäivityksellä 6 kuukauden välein ja kuukausittain julkaistavilla palvelupäivityksillä. Voit tarkastella uusimpia julkaisusuunnitelmia valitsemalla linkin. Saat myös yleiskuvan tulevista ja äskettäin julkaistuista ominaisuuksista Dynamics 365:n julkaisusuunnitelmasta osoitteessa [https://dynamics.microsoft.com/en-us/business-applications/release/](https://dynamics.microsoft.com/en-us/business-applications/release/#release-notes).  
 
 Pidemmän ajan kattavan yleiskuvan saa [!INCLUDE[prodshort](includes/prodshort.md)]in [tulevien toimintojen sivulla](https://dynamics.microsoft.com/roadmap/business-central/), jossa käsitellään tulevien vuosien [!INCLUDE[prodshort](includes/prodshort.md)]in yleiset prioriteetit.  
 

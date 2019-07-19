@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: a2adf188f616f3a9cbb0e0d3135ee79d238c453b
-ms.sourcegitcommit: 92c7b6c5f0a5d8becbef106ab85258906765bc3e
+ms.openlocfilehash: b5a3b83d21390711ff0517df67bf9912ece57f6b
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/13/2019
-ms.locfileid: "1540221"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629617"
 ---
 # <a name="synchronizing-data-in-business-central-and-dynamics-365-for-sales"></a>Tietojen synkronointi Business Centralissa ja Dynamics 365 for Salesissa
 Kun [!INCLUDE[crm_md](includes/crm_md.md)] ja [!INCLUDE[d365fin](includes/d365fin_md.md)] integroidaan, voit päättää, synkronoidaanko [!INCLUDE[d365fin](includes/d365fin_md.md)] -tietueiden (kuten asiakkaiden, kontaktien ja myyjien) valittujen kenttien tiedot vastaavien [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietueiden (kuten tilien, yhteyshenkilöiden ja käyttäjien) kanssa. Tietueen tyypin mukaan voit synkronoida tietoja [!INCLUDE[crm_md](includes/crm_md.md)]ista [!INCLUDE[d365fin](includes/d365fin_md.md)]iin ja päin vastoin. Lisätietoja on kohdassa [Dynamics 365 for Sales -integrointi](admin-prepare-dynamics-365-for-sales-for-integration.md).  
@@ -77,7 +77,7 @@ Seuraavassa taulukossa on [!INCLUDE[d365fin](includes/d365fin_md.md)]in taulukoi
 Seuraavassa taulukossa käsitellään sovellusten väliset synkronointisäännöt.
 
 > [!NOTE]  
-> [!INCLUDE[crm_md](includes/crm_md.md)]in muutoksia, jotka [!INCLUDE[crm_md](includes/crm_md.md)] -yhteyden käyttäjätili teki, ei synkronoida. Tämän vuoksi on suositeltavaa, että tietoja ei muuteta kyseistä tiliä käytettäessä. Lisätietoja on kohdassa [Dynamics 365 for Sales -integroinnin määrittäminen](admin-setting-up-integration-with-dynamics-sales.md).
+> [!INCLUDE[crm_md](includes/crm_md.md)]in muutoksia, jotka [!INCLUDE[crm_md](includes/crm_md.md)] -yhteyden käyttäjätili teki, ei synkronoida. Tämän vuoksi on suositeltavaa, että tietoja ei muuteta kyseistä tiliä käytettäessä. Lisätietoja on kohdassa [Dynamics 365 for Sales -integroinnissa käytettävien käyttäjätilien määrittäminen](admin-setting-up-integration-with-dynamics-sales.md).
 
 |Sivupöytä|Sääntö|
 |-----|----|

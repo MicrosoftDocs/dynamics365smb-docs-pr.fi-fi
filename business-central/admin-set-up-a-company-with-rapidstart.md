@@ -1,8 +1,6 @@
 ---
 title: Yrityksen määrittäminen RapidStart Servicesn avulla | Microsoft Docs
 description: Voit määrittää uuden yrityksen Business Centralin RapidStart Servicesin avulla. RapidStart Services on työkalu, joka on suunniteltu lyhentämään käyttöönottoa, parantamaan toteutuksen laatua, esittelemään toistettavia lähestymistapoja toteutuksiin sekä lisäämään tuottavuutta automatisoimalla ja yksinkertaistamalla toistuvia tehtäviä.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 07/04/2019
 ms.author: sgroespe
-ms.openlocfilehash: 04d665ac1cfcf66c2581d97bac05d636114a5ef4
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 1e7976e19641bd49c1c1d94a31de902aea1a9769
+ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244306"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "1726922"
 ---
 # <a name="setting-up-a-company-with-rapidstart-services"></a>Yrityksen määrittäminen RapidStart Servicesin avulla
 Voit määrittää uuden yrityksen [!INCLUDE[d365fin](includes/d365fin_md.md)]issa RapidStart Servicesin avulla. RapidStart Services on työkalu, joka on suunniteltu lyhentämään käyttöönottoa, parantamaan toteutuksen laatua, esittelemään toistettavia lähestymistapoja toteutuksiin sekä lisäämään tuottavuutta automatisoimalla ja yksinkertaistamalla toistuvia tehtäviä.  
@@ -39,7 +37,6 @@ Voit käyttää seuraavia osia nopeuttaaksesi yrityksen määrittämistä:
 
 |**Tehtävä**|**Katso**|  
 |------------|-------------|  
-|Määritä RapidStart Servicesin pääkäyttöliittymä.|[RapidStart Servicesin käyttöönottajan roolikeskuksen käyttäminen](admin-how-to-use-the-rapidstart-services-role-center-to-track-progress.md)|  
 |Luo uusi yritys ja tuo perusasetustiedot ja mallit.|[Määritä yrityksen konfigurointi](admin-set-up-company-configuration.md)|  
 |Ota määritetty paketti käyttöön asiakkaalle käyttöönottoa varten.|[Kokoonpanojen käyttäminen uusissa yrityksissä](admin-apply-configuration-to-new-companies.md)|
 |Määritä ja tarkista asiakkaan asetusarvot kaikilla keskeisillä alueilla, kuten yrityksen tiedoissa, pääkirjanpidossa, varastossa, myynnissä tai valmistuksessa.|[Asiakkaan asetusarvojen kerääminen](admin-gather-customer-setup-values.md)|  

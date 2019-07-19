@@ -9,29 +9,37 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
-ms.date: 04/01/2019
+ms.date: 06/19/2019
 ms.author: solsen
-ms.openlocfilehash: 73fb2daa84bc34d0fd865e2b95d5ea6dea11336c
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: e100350322a1cf840b4428868f77b104e07c23c1
+ms.sourcegitcommit: 0854c074b500c3031eaf86fde9d452f93f238081
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249512"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "1701219"
 ---
 # <a name="getting-ready-for-doing-business"></a>Valmistautuminen liiketoimintaan
 Olet juuri aloittanut ensimmäisen yrityksen [!INCLUDE[d365fin](includes/d365fin_md.md)]issa.
 
 Pääset liiketoiminnassa alkuun tutustumalla **Liiketoiminnan tuki** -sivuun, jossa voit käynnistää avustettuja asennusoppaita, videoita tai valittujen asennustehtävien ohjeaiheita. Voit avata sivun **Liiketoimintajohtaja**-roolikeskuksen kaaviosta valitsemalla avattavassa **Liiketoiminnan tuki** -luettelossa **Näytä määritys- ja ohjeresurssit** -toiminnon. Kun päivität sivun, asennus- ja ohjeresurssit näkyvät kaavion tilalla.
 
-Roolikeskuksen siirtymispalkin alareunassa on **Asennus ja laajennukset** -valikko. Ruudussa on luettelo asetusten ohjatun määrityksen oppaista, joiden avulla pääset alkuun. Kun olet siirtänyt olemassa olevasta taloustietojen järjestelmästä tiedot, kuten toimittajat, asiakkaat ja nimikkeet, olet valmis aloittamaan. Voit käyttää tarvittaessa myös toista avustettua asennusta. Jos alueella ei ole asetuksen ohjattua määritystä, valitse **Manuaalinen asennus** -toiminto. Pääset tällä tavoin sivuille, joissa voit täyttää kaikkien alueiden asennuskentät manuaalisesti. Lisätietoja on myös kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittäminen](setup.md)
+Vaihtoehtoisesti voit avata asetusten ohjattujen määritysoppaiden luettelon valitsemalla ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvakkeen, kirjoittamalla **Manuaalinen määritys** ja valitsemalla sitten liittyvän linkin.
+
+Roolikeskuksen siirtymispalkin alareunassa on **Asennus ja laajennukset** -valikko. Ruudussa on luettelo asetusten ohjatun määrityksen oppaista, joiden avulla pääset alkuun. Kun olet siirtänyt olemassa olevasta taloustietojen järjestelmästä tiedot, kuten toimittajat, asiakkaat ja nimikkeet, olet valmis aloittamaan. Voit käyttää tarvittaessa myös toista avustettua asennusta.
+
+Jos alueella ei ole asetuksen ohjattua määritystä, valitse **Manuaalinen asennus** -toiminto. Pääset tällä tavoin sivuille, joissa voit täyttää kaikkien alueiden asennuskentät manuaalisesti. Lisätietoja on myös kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittäminen](setup.md)
 
 > [!NOTE]  
->   Käytettävissä olevien asetusten ohjattujen määritysoppaiden, laajennusten ja palvelujen luettelo vaihtelee yritykselle valitun käyttäjäkokemuksen mukaan. **Essential**-kokemuksen valikoima on suppeampi kuin **Premium**-kokemuksen valikoima. Ensimmäisellä kirjautumiskerralla käytössä on **Essential**-kokemus. Lisätietoja on kohdassa [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md).
+> Käytettävissä olevien asetusten ohjattujen määritysoppaiden, laajennusten ja palvelujen luettelo vaihtelee yritykselle valitun käyttäjäkokemuksen mukaan. **Essential**-kokemuksen valikoima on suppeampi kuin **Premium**-kokemuksen valikoima.<br /><br />
+> Ensimmäisellä kirjautumiskerralla käytössä on **Essential**-kokemus. Lisätietoja on kohdassa [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md).
 
-Kun olet suorittanut asetusten ohjatun määrityksen, sen tilaksi merkitään **Valmis**. Voit suorittaa asetusten ohjatun määrityksen valitsemalla kolme pistettä, joita kutsutaan myös pikavalikoksi, ja valitsemalla sitten **Käynnistä asennus**.
+Kun olet suorittanut asetusten ohjatun määrityksen, sen tilaksi merkitään **Valmis**. Voit suorittaa asetusten ohjatun määrityksen valitsemalla kolme pistettä ja valitsemalla sitten **Käynnistä asennus** -toiminnon.
 
 ## <a name="role-center"></a>Roolikeskus
-Saat roolikeskuksessa yleiskuvan liiketoiminnastasi. Vasemmalla olevan siirtymispalkin avulla voit helposti käsitellä asiakkaita, toimittajia, nimikkeitä jne. Keskellä ovat **toimenpideruudut**. **Toimenpiteet** esittävät nykyiset tiedot. Valitun asiakirjan saa helposti käyttöön toimenpiteitä napsauttamalla tai napauttamalla. **Suorituskykyilmaisimet** voidaan määrittää niin, että ne näyttävät visuaalisesti esimerkiksi kassavirran tai tuottojen ja kulujen valitun kaavion. Voit luoda roolikeskuksessa myös **suosikkiasiakkaiden** luettelon niitä asiakkaita varten, joiden kanssa käyt kauppaa usein tai jotka vaativat erityishuomiota.
+Saat roolikeskuksessa yleiskuvan liiketoiminnastasi. Vasemmalla olevan siirtymispalkin avulla voit helposti käsitellä asiakkaita, toimittajia, nimikkeitä jne. Keskellä ovat **toimenpideruudut**. **Toimenpiteet** esittävät nykyiset tiedot. Valitun asiakirjan saa helposti käyttöön toimenpiteitä napsauttamalla tai napauttamalla.
+
+**Suorituskykyilmaisimet** voidaan määrittää niin, että ne näyttävät visuaalisesti esimerkiksi kassavirran tai tuottojen ja kulujen valitun kaavion. Voit luoda roolikeskuksessa myös **suosikkiasiakkaiden** luettelon niitä asiakkaita varten, joiden kanssa käyt kauppaa usein tai jotka vaativat erityishuomiota.
+
 Nuolten avulla voit supistaa osan sivusta, jolloin haluamillesi tiedoille jää enemmän tilaa. Roolikeskuksen yläosassa on toimintoja, joilla voi käsitellä nykyistä sisältöä. Sekin voidaan supistaa. Voit jatkaa supistetun alueen tarkastelemista napsauttamalla tai napauttamalla aluetta.
 
 > [!TIP]  
@@ -47,7 +55,7 @@ Jos sinun on lisättävä uusia käyttäjiä, voit tehdä sen Office 365:n halli
 [!INCLUDE[d365fin](includes/d365fin_md.md)]issa on työkaluvihjeitä, jotka auttavat eri liiketoimintaprosessien suorittamisessa. Voit avata kyseisen sivun ohjeen painamalla kentän työkaluvihjeessä näppäimiä Ctrl+F1 tai valitsemalla **Lisätietoja**-linkin. Oikeassa yläkulmassa oleva kysymysmerkki vie myös tuotteen ohjeisiin.
 
 ## <a name="next-steps"></a>Seuraavat vaiheet
-Voit jatkaa luomalla uusia myynti- tai ostoasiakirjoja siirrettyjen tietojen perusteella. Voit luoda nopeasti myyntitarjouksen, myyntilaskun, myyntitilauksen, ostolaskun tai maksurekisteröinnin **kotisivun** **Oma yritys** -osassa.
+Voit jatkaa luomalla uusia myynti- tai ostoasiakirjoja siirrettyjen tietojen perusteella. Voit luoda nopeasti myyntitarjouksen, myyntilaskun, myyntitilauksen, ostolaskun tai maksurekisteröinnin Roolikeskuksen **Toiminnot**-osassa.
 
 ## <a name="see-also"></a>Katso myös
 [Käytön aloittaminen](product-get-started.md)  

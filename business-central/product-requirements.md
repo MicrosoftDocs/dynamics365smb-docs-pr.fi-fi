@@ -1,6 +1,6 @@
 ---
 title: Business Central -sovelluksen käytön vähimmäisvaatimukset | Microsoft Docs
-description: Lisätietoja Business Central -sovelluksen vähimmäis- ja versiovaatimuksista.
+description: Lisätietoja Business Central -sovelluksen online-version käyttämisen vähimmäis- ja versiovaatimuksista.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 04/01/2019
+ms.date: 06/28/2019
 ms.author: edupont
-ms.openlocfilehash: 42e0bd7555b99b8e9ba6748d77817c69eb55d009
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: dff8f2e677c49f089ec2b7ee01dc1565ee4aa261
+ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252877"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "1711035"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Business Central -sovelluksen käytön vähimmäisvaatimukset
-Suosittelemme, että tietokoneen tai mobiililaitteen tuotteelle asetettujen järjestelmän vähimmäisvaatimusten täyttyminen tarkistetaan, ennen kuin [!INCLUDE[d365fin](includes/d365fin_md.md)] otetaan käyttöön. Tässä artikkelissa kerrotaan vaatimukset.  
+Suosittelemme, että tietokoneen tai mobiililaitteen tuotteelle asetettujen järjestelmän vähimmäisvaatimusten täyttyminen tarkistetaan, ennen kuin [!INCLUDE [prodshort](includes/prodshort.md)] -sovelluksen online-versio otetaan käyttöön. Tässä artikkelissa kerrotaan vaatimukset.  
 
 ## <a name="browsers"></a>Selaimet
 **Chrome Windowsille ja Firefox Windowsille:** [!INCLUDE[d365fin](includes/d365fin_md.md)] on suunniteltu käytettäväksi näiden työpöytäselaimien nykyisten versioiden kanssa.  
@@ -33,13 +33,17 @@ Suosittelemme, että tietokoneen tai mobiililaitteen tuotteelle asetettujen jär
 **Laitteen koko:** [!INCLUDE[d365fin](includes/d365fin_md.md)]ia tuetaan älypuhelimissa, joiden näytön koko on vähintään 4 tuumaa ja taulutietokoneissa, joiden näytön koko on vähintään 7 tuumaa.  
 
 ## <a name="outlook"></a>Outlook 
-**Outlook-sovellukset:** Jos haluat käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]ia Outlookin yrityssähköpostina, tarvitset Outlook 2016:n tai uudemman, Outlook Web Appin, OWA for iPhonen, OWA for iPadin tai OWA for Androidin.  
+**Outlook-sovellukset:** Jos haluat käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen online-versiota Outlookin yrityssähköpostina, tarvitset Outlook 2016:n tai uudemman, Outlook Web Appin, OWA for iPhonen, OWA for iPadin tai OWA for Androidin. Organisaatiossa on oltava käytössä myös Office 365. Et voi käyttää [!INCLUDE [prodshort](includes/prodshort.md)] -sovelluksen online-versiota Outlookin yrityssähköpostina, jos organisaatiossa on käytössä paikallinen Exchange Server.  
 **Selaimet:** Kun [!INCLUDE[d365fin](includes/d365fin_md.md)] on käytössä Outlookin yrityssähköpostina Outlook Web Appissa (OWA), apuohjelma edellyttää, että yritys käyttää jotakin aiemmin tässä artikkelissa mainittua tuettua selainta.  
 **Alustat:** Kun käytössä on [!INCLUDE[d365fin](includes/d365fin_md.md)] Outlookin apuohjelma OWA for iPhone-, OWA for iPad- tai OWA for Android -sovelluksessa, apuohjelma edellyttää, että mobiililaitteessa käytetään [!INCLUDE[d365fin](includes/d365fin_md.md)]in tuettujen mobiililaitteiden luettelossa mainittua mobiililaitetta.  
 
 ## <a name="excel"></a>Excel
 **Muokkaa Excelissä:** Jotta voit tehdä muutoksia Excelissä ja tuoda muutokset takaisin [!INCLUDE[d365fin](includes/d365fin_md.md)]:een Excel-lisäosan avulla, tarvitset Excel 2016 -version tai uudemman. Lisätietoja on kohdassa [Rahoituslaskelmien analysointi Microsoft Excelissä](finance-analyze-excel.md).  
 
+## <a name="using-business-central-on-premises"></a>Paikallisen Business Central -sovelluksen käyttäminen
+
+Jos haluat ottaa käyttöön paikallisen Business Central -sovelluksen, tarkista järjestelmän vaatimukset. Lisätietoja on kohdassa [Dynamics 365 Business Central -sovelluksen järjestelmävaatimukset](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central) ja [Käyttöönoton yleiskatsaus](/dynamics365/business-central/dev-itpro/deployment/deployment)  
+
 ## <a name="see-also"></a>Katso myös
 [Käytön aloittaminen](product-get-started.md)  
-[Paikallisen Dynamics 365 Business Centralin järjestelmävaatimukset](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central)  
+[Dynamics 365 Business Central -sovelluksen järjestelmävaatimukset](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central)  

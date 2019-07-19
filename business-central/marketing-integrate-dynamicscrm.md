@@ -9,20 +9,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
-ms.date: 04/01/2019
+ms.date: 06/13/2019
 ms.author: bholtorf
-ms.openlocfilehash: 3cc053158581d4fc9b87dc3e505a23ed809c1c8f
-ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
+ms.openlocfilehash: 716e195b4e8c5b4150d7a288918c3fb84f6ac713
+ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "1620859"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "1726857"
 ---
 # <a name="using-dynamics-365-for-sales-from-business-central"></a>Dynamics 365 for Salesin käyttö Business Centralista
 Jos käytät Dynamics 365 for Salesia asiakassuhteissa, saat käyttöösi saumattoman integroinnin liidistä tuottoon käyttämällä [!INCLUDE[d365fin](includes/d365fin_md.md)]ia taustatehtäviin, kuten tilausten käsittelyyn, varastonhallintaan ja talousasioihin.
 
+Ennen kuin voit käyttää integrointiominaisuuksia, sovelluksessa [!INCLUDE[crm_md](includes/crm_md.md)] on määritettävä yhteys ja käyttäjät. Lisätietoja on kohdassa [Dynamics 365 for Sales -integrointi](admin-prepare-dynamics-365-for-sales-for-integration.md).
+
 > [!NOTE]
-> Tässä ohjeaiheessa oletetaan, että käytät [!INCLUDE[d365fin](includes/d365fin_md.md)]in ja Salesin verkkoversioita. Verkkoversion ja paikallisen version yhdistäminen on mahdollista, mutta siihen tarvitaan erikoismääritys. Lisätietoja on kohdassa [Paikallisen Dynamics 365 for Salesin integroinnin valmistelu](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
+> Seuraavat ohjeet käsittelevät [!INCLUDE[crm_md](includes/crm_md.md)]in ja [!INCLUDE[d365fin](includes/d365fin_md.md)]in verkkoversioiden integrointiprosessia. Lisätietoja paikallisesta määrityksestä on kohdassa [Paikallisen Dynamics 365 for Sales -sovelluksen integroinnin valmistelu](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
 
 Integroimalla sovellukset voit käyttää Salesissa [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietoja ja joissakin tapauksissa myös päinvastoin. Voit käsitellä ja synkronoida molemmille palveluille yhteisiä tietoja, kuten asiakkaita, yhteyshenkilöitä ja myyntitietoja, ja pitää tiedot ajan tasalla molemmissa palveluissa.  
 
@@ -73,19 +75,22 @@ Jos alkuperäisen myyntitilauksen nimikkeen kuvaus on hyvin pitkä, sitä varten
 
 Myyntitilauksen otsikkokenttien, kuten Viimeisin toimituspvm tai Pyydetty toimituspvm, päivitykset, jotka on yhdistetty SALESORDER-ORDER- **integrointitaulukon yhdistämismäärityksenä**, synkronoidaan säännöllisesti [!INCLUDE[crm_md](includes/crm_md.md)]iin. Prosessit, kuten myyntitilauksen vapauttaminen ja myyntitilauksen lähettäminen tai laskuttaminen, kirjataan myyntitilauksen aikajanalle [!INCLUDE[crm_md](includes/crm_md.md)]issa. Lisätietoja on kohdassa [Aktiviteettisyötteiden esittely](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/introduction-activity-feeds).
 
+> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098170]
+
 ## <a name="handling-sales-quotes-data"></a>Myyntitarjouksen tietojen käsitteleminen
 [!INCLUDE[crm_md](includes/crm_md.md)]issa aktivoidut myyntitarjoukset siirretään [!INCLUDE[d365fin](includes/d365fin_md.md)]iin, jos valitset **Käsittele myyntitarjoukset automaattisesti** -valintaruudun **Microsoft Dynamics 365 -yhteyden määrittäminen** -sivulla.
 Vaihtoehtoisesti voit muuntaa [!INCLUDE[crm_md](includes/crm_md.md)]ista aktivoidut myyntitarjoukset manuaalisesti käyttämällä **Käsittele [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksessa** -toimintoa **Myyntitarjoukset – Dynamics 365 for Sales** -sivulla.
 Näissä myyntitarjouksissa alkuperäisen tarjouksen **Nimi**-kenttä siirretään ja yhdistetään myyntitilauksen **Ulkoisen asiakirjan numero** -kenttään [!INCLUDE[d365fin](includes/d365fin_md.md)]issa. Myös tarjouksen **Voimassaolo päättyy** -kenttä siirretään ja yhdistetään myyntitarjouksen **Tarjouksen voimassaolon päättymispäivä** -kenttään [!INCLUDE[d365fin](includes/d365fin_md.md)]issa.  
 
-Myyntitarjouksia muokataan useita kertoja viimeistelyn aikana. Myyntitarjousten manuaalinen ja automaattinen käsittely [!INCLUDE[d365fin](includes/d365fin_md.md)]issa varmistaa, että myyntitarjousten edelliset versiot arkistoidaan ennen uusien myyntitarjousten käsittelyä [!INCLUDE[crm_md](includes/crm_md.md)]ista. 
+Myyntitarjouksia muokataan useita kertoja viimeistelyn aikana. Myyntitarjousten manuaalinen ja automaattinen käsittely [!INCLUDE[d365fin](includes/d365fin_md.md)]issa varmistaa, että myyntitarjousten edelliset versiot arkistoidaan ennen uusien myyntitarjousten käsittelyä [!INCLUDE[crm_md](includes/crm_md.md)]ista.
 
-## <a name="handling-posted-sales-invoices-customer-payments-and-statistics"></a>Kirjattujen Myyntilaskujen, Asiakkaiden Maksujen ja Tilastojen Käsitteleminen
-Kun myyntitilaus on täytetty, siitä luodaan lasku. Kun laskutat myyntitilauksen voit siirtää myyntilaskun [!INCLUDE[crm_md](includes/crm_md.md)]iin jos valitset **Luo lasku [!INCLUDE[crm_md](includes/crm_md.md)]ssä** kirjattut myyntilaskut sivulla. Kirjatut laskut siirretään [!INCLUDE[crm_md](includes/crm_md.md)]iin Tilassa **Laskutettu**. Kun asiakkaan maksu on vastaanotettu [!INCLUDE[d365fin](includes/d365fin_md.md)]ssa, myyntilasku muuttuu tilaan **Maksettu** ja Tilan syy **Osttainen**, jos maksu on maksettu osittain tai **Valmis**, jos maksu on maksettu kokonaan, kun suoritat **Päivitä tilin tilastot** [!INCLUDE[d365fin](includes/d365fin_md.md)]in asiakassivulla. **Päivitä tilin tiedot** päivittää myös arvot, kuten Saldo ja Kokonaismyynti [!INCLUDE[d365fin](includes/d365fin_md.md)]iin ja Tilin Tiedot Faktalaatikon [!INCLUDE[crm_md](includes/crm_md.md)]iin.
-Vaihtoehtoisesti, voit käyttää ajastettuja töitä (Asiakastilastot ja POSTEDSALESINV-INV) suorittaaksesi nämä prosessit automaattisesti taustalla. 
+## <a name="handling-posted-sales-invoices-customer-payments-and-statistics"></a>Kirjattujen myyntilaskujen, asiakkaiden maksujen ja tilastojen käsitteleminen
+Kun myyntitilaus on täytetty, siitä luodaan lasku. Kun myyntitilaus luodaan, kirjattu myyntilasku voidaan siirtää [!INCLUDE[crm_md](includes/crm_md.md)]:ään, jos **Kirjattu myyntilasku** -sivun **Luo lasku [!INCLUDE[crm_md](includes/crm_md.md)]:ssä** -valintaruutu on valittu. Kirjatut laskut siirretään [!INCLUDE[crm_md](includes/crm_md.md)]:ään **Laskutettu**-tilassa.
+
+Kun asiakasmaksu vastaanotetaan myyntilaskulle sovelluksessa [!INCLUDE[d365fin](includes/d365fin_md.md)], myyntilaskun tilaksi muutetaan **Maksettu** ja **Tilan syy** -kentän arvoksi määritetään **Osittainen**, jos lasku on maksettu osittain, tai **Kokonaan**, jos lasku on maksettu kokonaan, kun valitset **Päivitä tilin tiedot** -toiminnon [!INCLUDE[d365fin](includes/d365fin_md.md)] -asiakkaan sivulla. **Päivitä tilin tiedot** -toiminto päivittää myös arvot, kuten **Saldo**- ja **Kokonaismyynti**-kenttien arvot **[!INCLUDE[d365fin](includes/d365fin_md.md)] -tilin tiedot** -tietoruudussa [!INCLUDE[crm_md](includes/crm_md.md)] -sovelluksessa. Vaihtoehtoisesti voit käyttää ajastettuja töitä, asiakastilastoja ja POSTEDSALESINV-INV-kohdetta, jos nämä prosessit suoritetaan automaattisesti taustalla.
 
 ## <a name="see-also"></a>Katso myös
-[Integroinnin valmistelu paikalliseen Dynamics 365 for Salesiin](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration)  
+[Integrointi Dynamics 365 for Salesin kanssa](admin-prepare-dynamics-365-for-sales-for-integration.md)  
 [Liikesuhteiden hallinta](marketing-relationship-management.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md)  

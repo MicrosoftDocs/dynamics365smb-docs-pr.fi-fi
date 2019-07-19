@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 04/01/2019
+ms.date: 06/13/2019
 ms.author: edupont
-ms.openlocfilehash: f86c8a3cd93995aaf52a9e7f95065751f8061fd7
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 4854dc38fe395fb36381cda0e2c177e9e3abf591
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245888"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629479"
 ---
 # <a name="frequently-asked-questions"></a>Usein kysytyt kysymykset
 
@@ -38,7 +38,10 @@ Yhteisön kotisivulta on lisäksi linkkejä blogeihin, joissa on lisää vihjeit
 Viime kädessä voi ottaa yhteyttä [!INCLUDE[d365fin](includes/d365fin_md.md)]in jälleenmyyntikumppaniin. Lisätietoja on kohdassa [Miten saan teknistä tukea](across-faq.md#how-do-i-get-technical-support-for-) -osassa.  
 
 ## <a name="why-cant-i-find-that-capability-in-my-included365finincludesd365finmdmd"></a>Miksi tätä toimintoa ei löydy omasta [!INCLUDE[d365fin](includes/d365fin_md.md)]ista?
-Luitko uudesta toiminnosta julkaisutiedoista tai blogistamme? Siinä tapauksessa [!INCLUDE[d365fin](includes/d365fin_md.md)]-versiotasi ei ehkä ole vielä päivitetty uusimpaan versioon. Jos toiminto on julkaistu laajennuksena AppSourcessa, laajennuksen julkistamista kuluu hetki, ennen kuin se on saatavilla AppSourcessa.  
+Luitko uudesta toiminnosta julkaisusuunnitelmasta vai blogistamme? Siinä tapauksessa [!INCLUDE[d365fin](includes/d365fin_md.md)]-versiotasi ei ehkä ole vielä päivitetty uusimpaan versioon. Jos toiminto on julkaistu laajennuksena AppSourcessa, laajennuksen julkistamista kuluu hetki, ennen kuin se on saatavilla AppSourcessa.  
+
+## <a name="are-there-any-differences-between-an-on-premises-deployment-and-the-cloud-version-of-business-central"></a>Onko Business Central -sovelluksen paikallisessa käyttöönotossa ja pilviversiossa eroja?
+Kyllä. Jotkin pilvipohjaiset toiminnot toimivat paikallisesti tietyissä tapauksissa. Joitakin taas ei tueta lainkaan. Lisätietoja on kohdassa [Ominaisuudet, joita ei ole otettu käyttöön Dynamics 365 Business Central -sovelluksen paikallisissa käyttöönotoissa](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises).
 
 ## <a name="can-i-get-training-in-included365finincludesd365finmdmd"></a>Saanko [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen käyttöä koskevaa koulutusta?
 Kyllä saat. Tällä hetkellä koulutusta tulee tiedustella jälleenmyyntikumppanilta. Jos et tiedä, kuka se on, etsi Business Central -kumppani [Ratkaisutoimittajan haku](https://go.microsoft.com/fwlink/?linkid=2038145) -sivulla.  

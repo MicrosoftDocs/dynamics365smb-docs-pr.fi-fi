@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 368bfc191aea4ae00c53d0c7ee892f3cc82c0ff7
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 71284c8a2824e63c21768f2db55edb501486424d
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245729"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629548"
 ---
 # <a name="manually-synchronize-table-mappings"></a>Taulukon yhdistämismääritysten manuaalinen synkronointi
 Integrointitaulukon yhdistämismääritys liittää [!INCLUDE[d365fin](includes/d365fin_md.md)] -taulukon (tietuetyypin), kuten asiakkaan, [!INCLUDE[crm_md](includes/crm_md.md)] -objektiin, kuten tiliin. Integrointitaulukon yhdistämismäärityksen synkronoinnin ansiosta voit synkronoida yhdistetyn [!INCLUDE[d365fin](includes/d365fin_md.md)] -taulukon ja [!INCLUDE[crm_md](includes/crm_md.md)] -objektin kaikkien tietueiden tiedot. Lisäksi taulukon yhdistämismäärityksen mukaan synkronointi voi luoda ja yhdistää uusia tietueita lähteen yhdistämättömien tietueiden kohderatkaisussa.  
@@ -95,4 +95,4 @@ Muokkaamalla integrointitaulukon yhdistämismääritystä etukäteen voit määr
 
 ## <a name="see-also"></a>Katso myös  
 [Business Centralin ja Dynamics 365 for Salesin synkronointi](admin-synchronizing-business-central-and-sales.md)   
-[Dynamics 365 for Sales -integroinnin määrittäminen Business Centralissa](admin-setting-up-integration-with-dynamics-sales.md)   
+[Dynamics 365 for Sales -integroinnissa käytettävien käyttäjätilien määrittäminen](admin-setting-up-integration-with-dynamics-sales.md)   

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, configure
-ms.date: 04/01/2019
+ms.date: 06/17/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6903744c1be0492267c8dee307e4b012aed4ffa4
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 3ece1edb7ba18cb96099cba34065c96164390e82
+ms.sourcegitcommit: 6dc83b27ac47f3b39a7b84cfb7446e7f48b8ce63
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251030"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "1632704"
 ---
 # <a name="setting-up-sales"></a>Myynnin määrittäminen
 Ennen myyntiprosessien hallinnan aloittamista on määritettävä yrityksen myyntikäytäntöjen säännöt ja arvot.
@@ -37,6 +37,7 @@ Maksumenetelmiä ja valuuttoja sekä muita rahoitukseen liittyviä myyntiasetuks
 | Määritä yksittäisille asiakkaille tai kaikille asiakkaille myyntiasiakirjojen oletusarvoinen lähetystapa valitsemalla **Kirjaa ja lähetä** -toiminto. |[Asiakirjan lähetysprofiilien määrittäminen](sales-how-setup-document-send-profiles.md) |
 | Määritä sähköposti niin, että se sisältää lähetettävän myyntiasiakirjan yhteenvedon. |[Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md) |
 |Tarkista ALV-rekisteröintinumero EU:n verkkopalvelun avulla.|[ALV-rekisterinumeroiden tarkistaminen](finance-setup-vat.md)|
+|Määritä erilaiset incoterms-toimituslausekkeet, joita tarjoat asiakkaille tai joita toimittajat tarjoavat sinulle.|[Toimitusehtojen määrittäminen](sales-how-set-up-shipment-methods.md)|
 |Syötä käytettävien kuljetusliikkeiden tietoja, mukaan lukien linkki kuljetusliikkeiden kollinseurantapalveluun.|[Kuljetusliikkeiden määrittäminen](sales-how-to-set-up-shipping-agents.md)|
 
 ## <a name="see-also"></a>Katso myös
