@@ -106,6 +106,7 @@
 ### [Vastuupaikkojen käyttäminen](inventory-responsibility-centers.md)
 ### [Sijaintien määrittäminen](inventory-how-setup-locations.md)
 ### [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md)
+### [Uusien nimikkeiden luominen kopioimalla aiemmin luotuja nimikkeitä](inventory-how-copy-items.md)
 ### [Tietoja nimiketyypeistä](inventory-about-item-types.md)
 ### [Nimikkeen mittayksiköiden määrittäminen](inventory-how-setup-units-of-measure.md)
 ### [Varastointiyksiköiden määrittäminen](inventory-how-to-set-up-stockkeeping-units.md)
@@ -302,7 +303,7 @@
 
 # Hallinta
 ## [Yleiskuvaus](admin-setup-and-administration.md)
-## [Tietoja profiileista ja roolikeskuksista](admin-users-profiles-roles.md)
+## [Tietoja käyttäjistä, rooleista ja profiileista](admin-users-profiles-roles.md)
 ## [Käyttäjien ja käyttöoikeuksien hallinta](ui-how-users-permissions.md)
 ## [Tietojen luottamuksellisuuden luokitteleminen](admin-classifying-data-sensitivity.md)
 ## [Henkilökohtaisia tietoja koskeviin pyyntöihin vastaaminen](admin-responding-to-requests-about-personal-data.md)
@@ -834,7 +835,6 @@
 #### [Toimitusmuistutusten lähettäminen](LocalFunctionality\Austria\how-to-issue-delivery-reminders.md)
 #### [Toimitusmuistutusten testiraporttien tulostaminen](LocalFunctionality/Austria/how-to-print-test-reports-for-delivery-reminders.md)
 ### Yleiset
-#### [Aiemmin luotujen nimikkeiden kopiointi uusiin nimikkeisiin](LocalFunctionality/Austria/how-to-copy-existing-items-to-new-items.md)
 #### [Pääkirjanpidon asetusten tulostaminen](LocalFunctionality/Austria/how-to-print-general-ledger-setup-information.md)
 #### [Myynti- ja ostotilausten tulostaminen eräkirjauksen aikana](LocalFunctionality/Austria/how-to-print-sales-and-purchase-orders-during-batch-posting.md)
 
@@ -856,7 +856,6 @@
 #### [CODA-tiliotteiden käyttäminen](LocalFunctionality/Belgium/how-to-apply-coda-statements.md)
 #### [CODA-tiliotteiden automaattinen siirto ja kirjaus](LocalFunctionality/Belgium/how-to-automatically-transfer-and-post-coda-statements.md)
 #### [CODA-tiliotteet](LocalFunctionality/Belgium/coda-bank-statements.md)
-#### [CODA-tiedostojen lataaminen Isabel-palvelimesta](LocalFunctionality/Belgium/how-to-download-coda-files-from-an-isabel-server.md)
 #### [Verkkopankkitoiminta Belgiassa](LocalFunctionality/Belgium/belgian-electronic-banking.md)
 #### [Sähköisen maksuliikenteen määrittäminen](LocalFunctionality/Belgium/how-to-set-up-electronic-banking.md)
 #### [Tietojen vientiprotokollien määrittäminen](LocalFunctionality/Belgium/how-to-set-up-export-protocols.md)
@@ -866,8 +865,6 @@
 #### [Maksupäiväkirjamallien ja -erien luominen](LocalFunctionality/Belgium/how-to-create-payment-journal-templates-and-batches.md)
 #### [Sähköisten maksujen testaaminen](LocalFunctionality/Belgium/how-to-test-electronic-payments.md)
 #### [Maksuehdotusten luominen](LocalFunctionality/Belgium/how-to-generate-payment-suggestions.md)
-#### [Isabel 6](LocalFunctionality/Belgium/isabel-6.md)
-#### [Maksutiedostojen lataaminen Isabel-palvelimeen](LocalFunctionality/Belgium/how-to-upload-payment-files-to-an-isabel-server.md)
 #### [CODA-tiliotteiden tuominen](LocalFunctionality/Belgium/how-to-import-coda-statements.md)
 #### [Sähköisten maksurivien hallinta](LocalFunctionality/Belgium/how-to-manage-electronic-payment-lines.md)
 #### [CODA-tiliotteiden manuaalinen siirto ja kirjaus](LocalFunctionality/Belgium/how-to-manually-transfer-and-post-coda-statements.md)
@@ -883,7 +880,6 @@
 #### [Domisiliointien vieminen ja kirjaaminen](LocalFunctionality/Belgium/how-to-export-and-post-domiciliations.md)
 #### [Domisiliointiehdotusten luominen](LocalFunctionality/Belgium/how-to-generate-domiciliation-suggestions.md)
 #### [Maksurivien ja yleisen päiväkirjan yhteenveto](LocalFunctionality/Belgium/summarizing-payment-lines-and-general-journal-lines.md)
-#### [IBS-lokin tapahtumien arkistointi](LocalFunctionality/Belgium/how-to-archive-ibs-log-entries.md)
 ### Perusrahoitus
 #### [Pääkirjanpidon tapahtumien käyttäminen ja poistaminen käytöstä](LocalFunctionality/Belgium/how-to-apply-and-unapply-general-ledger-entries.md)
 #### [Taloudellisten raporttien luominen](LocalFunctionality/Belgium/how-to-create-financial-journals.md)
@@ -1025,7 +1021,6 @@
 #### [Yrityksen rekisterinumeroiden sisällyttäminen myynti- ja ostoraporteissa](LocalFunctionality/Germany/how-to-include-company-registration-numbers-on-sales-reports-and-purchase-reports.md)
 #### [Myynti- ja ostotilausten tulostaminen eräkirjauksen aikana](LocalFunctionality/Germany/how-to-print-sales-and-purchase-orders-during-batch-posting.md)
 #### [Pääkirjanpidon asetusten tulostaminen](LocalFunctionality/Germany/how-to-print-general-ledger-setup-information.md)
-#### [Aiemmin luotujen nimikkeiden kopiointi uusiin nimikkeisiin](LocalFunctionality/Germany/how-to-copy-existing-items-to-new-items.md)
 #### [Saksan markkinoiden Business Centralin sertifiointi (asiakirja on saksankielinen)](https://go.microsoft.com/fwlink/?linkid=875256)
 
 ## Islanti
@@ -1242,7 +1237,7 @@
 #### [Toimintaohje: Käyttöomaisuuden vapautus, seuranta ja arvonalennus](LocalFunctionality/Russia/How-to-Release-Track-Write-Off-Fixed-Assets.md)
 #### [Toimintaohje: Käyttöomaisuuden kulun kirjattujen tapahtumien tarkasteleminen](LocalFunctionality/Russia/How-to-View-Posted-Entries-on-a-Fixed-Asset-Charge.md)
 #### [Toimintaohje: Aineettomien hyödykkeiden tilin määrittäminen](LocalFunctionality/Russia/How-to-Set-Up-an-Intangible-Assets-Account.md)
-#### [Toimintaohje: Käyttöomaisuuden luovuttamiskustannusten tili](LocalFunctionality/Russia/How-to-Account-for-the-Cost-to-Dispose-a-Fixed-Asset.md) 
+#### [Toimintaohje: Käyttöomaisuuden luovuttamiskustannusten tili](LocalFunctionality/Russia/How-to-Account-for-the-Cost-to-Dispose-a-Fixed-Asset.md)
 #### [Odottamaton käyttöomaisuus](LocalFunctionality/Russia/Undepreciable-Fixed-Assets.md)
 ### ALV
 #### [Yleiskuvaus](LocalFunctionality/Russia/VAT.md)
@@ -1376,7 +1371,6 @@
 #### [Toimitusmuistutusten testiraporttien tulostaminen](LocalFunctionality/Switzerland/how-to-print-test-reports-for-delivery-reminders.md)
 ### Varasto
 #### [Sveitsiin varastonhallinta](LocalFunctionality/Switzerland/swiss-inventory-management.md)
-#### [Aiemmin luotujen nimikkeiden kopiointi uusiin nimikkeisiin](LocalFunctionality/Switzerland/how-to-copy-existing-items-to-new-items.md)
 #### [Varaston poimintaluettelon tulostaminen myyntitilauksesta](LocalFunctionality/Switzerland/how-to-print-an-inventory-picking-list-from-a-sales-order.md)
 ### Yleiset    
 #### [Sveitsin postinumeroiden tuominen](LocalFunctionality/Switzerland/how-to-import-swiss-post-codes.md)
