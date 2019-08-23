@@ -5,20 +5,20 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 06/13/2019
+ms.date: 08/02/2019
 ms.author: edupont
-ms.openlocfilehash: 4854dc38fe395fb36381cda0e2c177e9e3abf591
-ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
+ms.openlocfilehash: 91cd5a7bd5b4aa5103e472fbf040599ac9740226
+ms.sourcegitcommit: 5bcc5f95e450ee9a3d9f7a380e592a5e75c4185b
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1629479"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1858264"
 ---
 # <a name="frequently-asked-questions"></a>Usein kysytyt kysymykset
 
 Tässä osassa on vastauksia [!INCLUDE[d365fin](includes/d365fin_md.md)]in kokeiluversioon rekisteröitymiseen, tilauksen ostamisen ja sen käyttämiseen liittyviin usein kysyttyihin kysymyksiin. Saat myös lisätietoja teknisen tuen saamisesta.  
 
-## <a name="is-included365finincludesd365finmdmd-available-in-my-country"></a>Onko [!INCLUDE[d365fin](includes/d365fin_md.md)] saatavana maassani?
+## <a name="is-included365finincludesd365fin_mdmd-available-in-my-country"></a>Onko [!INCLUDE[d365fin](includes/d365fin_md.md)] saatavana maassani?
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] on saatavana vain tietyillä markkina-alueilla, mutta uusia maita lisätään Microsoftin tai kumppanien johtamina lokalisointeina neljännesvuosittain. Lisätietoja on kohdassa [Tuetut maat ja käännökset](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
 
@@ -30,25 +30,27 @@ Pääset [!INCLUDE [prodshort](includes/prodshort.md)]in käytön alkuun käynni
 
 Kun olet valmis ostamaan [!INCLUDE [prodshort](includes/prodshort.md)]in, voit etsiä [!INCLUDE [prodshort](includes/prodshort.md)]in kumppanin [Ratkaisutoimittajien haku](https://go.microsoft.com/fwlink/?linkid=2038145) -sivulla.  
 
+[!INCLUDE [prodshort](includes/prodshort.md)] myydään ja otetaan käyttöön hyödyntämällä maailmanlaajuista Dynamics 365 -kumppanien asiantuntijaverkostoa. Ota yhteyttä kumppaniin yksityiskohtaiselle arvioinnille, konsultointi palveluille ja lisä hinnoille. Lisätietoja on [microsoft.comin Dynamics 365 Business Central -sivun](https://dynamics.microsoft.com/business-central/overview/) **Hinnoittelu**-osassa.  
+
 ## <a name="where-do-i-go-if-i-have-questions"></a>Mistä saan tarvittaessa lisätietoja?
 Jos sinulla on sellaisia [!INCLUDE[d365fin](includes/d365fin_md.md)]ia koskevia kysymyksiä, joihin ei ole vastauksia tässä dokumentaatiossa, voit kysyä asiaa Business Central -yhteisöltä. Lisätietoja on kohdassa [Dynamics 365 Business Central -yhteisö](https://community.dynamics.com/business).  
 
-Yhteisön kotisivulta on lisäksi linkkejä blogeihin, joissa on lisää vihjeitä. Lisätietoja on [Dynamics 365 Business Centralin blogissa](https://community.dynamics.com/business/b/financials) ja [Dynamics 365 Business Centralin tuen blogissa](https://community.dynamics.com/business/b/dynamics365financialssupport).  
+Yhteisön kotisivulta on lisäksi linkkejä blogeihin, joissa on lisää vihjeitä. Lisätietoja on [Microsoft Dynamics 365 Business Centralia käsittelevässä Dynamics 365 -blogissa](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) ja vanhoissa [Dynamics 365 Business Central -blogeissa](https://community.dynamics.com/business/b/financials).  
 
 Viime kädessä voi ottaa yhteyttä [!INCLUDE[d365fin](includes/d365fin_md.md)]in jälleenmyyntikumppaniin. Lisätietoja on kohdassa [Miten saan teknistä tukea](across-faq.md#how-do-i-get-technical-support-for-) -osassa.  
 
-## <a name="why-cant-i-find-that-capability-in-my-included365finincludesd365finmdmd"></a>Miksi tätä toimintoa ei löydy omasta [!INCLUDE[d365fin](includes/d365fin_md.md)]ista?
+## <a name="why-cant-i-find-that-capability-in-my-included365finincludesd365fin_mdmd"></a>Miksi tätä toimintoa ei löydy omasta [!INCLUDE[d365fin](includes/d365fin_md.md)]ista?
 Luitko uudesta toiminnosta julkaisusuunnitelmasta vai blogistamme? Siinä tapauksessa [!INCLUDE[d365fin](includes/d365fin_md.md)]-versiotasi ei ehkä ole vielä päivitetty uusimpaan versioon. Jos toiminto on julkaistu laajennuksena AppSourcessa, laajennuksen julkistamista kuluu hetki, ennen kuin se on saatavilla AppSourcessa.  
 
 ## <a name="are-there-any-differences-between-an-on-premises-deployment-and-the-cloud-version-of-business-central"></a>Onko Business Central -sovelluksen paikallisessa käyttöönotossa ja pilviversiossa eroja?
 Kyllä. Jotkin pilvipohjaiset toiminnot toimivat paikallisesti tietyissä tapauksissa. Joitakin taas ei tueta lainkaan. Lisätietoja on kohdassa [Ominaisuudet, joita ei ole otettu käyttöön Dynamics 365 Business Central -sovelluksen paikallisissa käyttöönotoissa](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises).
 
-## <a name="can-i-get-training-in-included365finincludesd365finmdmd"></a>Saanko [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen käyttöä koskevaa koulutusta?
+## <a name="can-i-get-training-in-included365finincludesd365fin_mdmd"></a>Saanko [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen käyttöä koskevaa koulutusta?
 Kyllä saat. Tällä hetkellä koulutusta tulee tiedustella jälleenmyyntikumppanilta. Jos et tiedä, kuka se on, etsi Business Central -kumppani [Ratkaisutoimittajan haku](https://go.microsoft.com/fwlink/?linkid=2038145) -sivulla.  
 
 Jos sinulla on Microsoftin CustomerSource-sivuston käyttöoikeus, voit käyttää Imagine Academy -sivustoa eLearning-materiaalin kanssa. Lisätietoja käyttöoikeuden saamisesta on [Microsoft Dynamics 365 -koulutus](/dynamics365/get-started/training/index#dynamics-365-customers) -sivulla.  
 
-## <a name="how-do-i-get-technical-support-for-included365finincludesd365finmdmd"></a>Miten saan teknistä tukea [!INCLUDE[d365fin](includes/d365fin_md.md)]ille?
+## <a name="how-do-i-get-technical-support-for-included365finincludesd365fin_mdmd"></a>Miten saan teknistä tukea [!INCLUDE[d365fin](includes/d365fin_md.md)]ille?
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] myydään kumppanien kautta, joten pyydä teknisissä ongelmissa apua jälleenmyyjäkumppanilta. Jos [!INCLUDE[d365fin](includes/d365fin_md.md)] -kumppani, ei pysty ratkaisemaan ongelmaan, he voivat tehdä tukipyynnön Microsoftille.  
 
@@ -62,7 +64,7 @@ Jos **Yrityksen tiedot** -sivun käyttökokemusasetukseksi on määritetty **Ess
 Sivuilla ei ole muista ohjelmista tuttua *tallennuspainiketta*. [!INCLUDE[d365fin](includes/d365fin_md.md)]issa kenttään tehdyt muutokset tallennetaan automaattisesti heti, kun siirryt seuraavaan kenttään tai suljet sivun, mikäli virheitä ei ole. Kun teet muutoksia kenttään tai siirryt toiseen kenttään, sivun oikeassa yläkulmassa on teksti **Tallennetaan**, joka tilalle vaihtuu nopeasti teksti **Tallennettu**, jos virheitä ei ole. Jos tapahtuu virhe, tekstiksi tulee **Ei tallennettu**.
 
 
-## <a name="what-email-address-can-i-use-with-included365finincludesd365finmdmd"></a>Mitä sähköpostiosoitetta käytetään [!INCLUDE[d365fin](includes/d365fin_md.md)]in kanssa?
+## <a name="what-email-address-can-i-use-with-included365finincludesd365fin_mdmd"></a>Mitä sähköpostiosoitetta käytetään [!INCLUDE[d365fin](includes/d365fin_md.md)]in kanssa?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] edellyttää työ- tai opiskelupaikan antaman sähköpostiosoitteen käyttämistä rekisteröitymisen yhteydessä. [!INCLUDE[d365fin](includes/d365fin_md.md)] ei tue kuluttajille tarkoitettujen sähköpostipalveluiden ja tietoliikennepalveluiden tarjoajien sähköpostiosoitteita. Näitä ovat esimerkiksi outlook.com, hotmail.com ja gmail.com.  
 
 Jos yrität rekisteröityä käyttämällä henkilökohtaista sähköpostiosoitetta, saat viestin, jossa pyydetään käyttämään työ- tai opiskelupaikan antamaa sähköpostiosoitetta. Lisätietoja on kohdassa [Itsepalvelun rekisteröitymisen vianmääritys](ui-troubleshoot-self-signup.md).  
@@ -72,12 +74,12 @@ Jos haluat ottaa käyttöön paikallisen [!INCLUDE[d365fin](includes/d365fin_md.
 ## <a name="do-i-have-to-buy-office-365"></a>Onko minun ostettava Office 365?
 Nro Jos kuitenkin haluat käyttää Office 365:een täysin integroitua [!INCLUDE[d365fin](includes/d365fin_md.md)]ia, voit rekisteröityä käyttämään Office 365 -kokeiluversiota maksutta kuukauden ajan [täällä](https://products.office.com/try).  
 
-Jos kirjaudut jollain muulla kuin Office 365 -työtilillä (kuten joe@mysolution.com) ja sinulla on Office 365 -tilaus, voit liittää toimialueen (mysolution.com) Office 365 -tilaukseen. Lisätietoja on kohdassa [Office 365 -toimialueita koskevat ohjeet](/office365/admin/get-help-with-domains/get-help-with-domains?view=o365-worldwide).  
+Jos kirjaudut jollain muulla kuin Office 365 -työtilillä (kuten *joe@mysolution.com*) ja sinulla on Office 365 -tilaus, voit liittää toimialueen (*mysolution.com*) Office 365 -tilaukseen. Lisätietoja on kohdassa [Office 365 -toimialueita koskevat ohjeet](/office365/admin/get-help-with-domains/get-help-with-domains?view=o365-worldwide).  
 
 Jos sinulla ei ole Office 365 -tilausta etkä halua ostaa sitä, valmistelemme sinulle kirjautumisesi yhteydessä uuden Azure Active Directory -vuokraajan, jonka avulla voit käyttää Azure-portaalia ja sen kautta edistyneitä järjestelmätyökaluja.  
 
 ## <a name="what-is-the-integration-with-office-365-about"></a>Mitä Office 365 -integraatio tarkoittaa?
-[!INCLUDE[d365fin](includes/d365fin_md.md)] on täysin integroitu Office 365:een, joten voit siirtyä vapaasti Office 365 -sovellusten ja [!INCLUDE[d365fin](includes/d365fin_md.md)]in välillä sovellusten käynnistysohjelman avulla. Voit esimerkiksi avata [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietoja Excelissä, tulostaa raportteja Wordin avulla ja käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietoja Outlookissa. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen yrityssähköpostina Outlookissa](admin-outlook.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] -verkkoversio on täysin integroitu Office 365:een, joten voit siirtyä vapaasti Office 365 -sovellusten ja [!INCLUDE[d365fin](includes/d365fin_md.md)]in välillä sovellusten käynnistysohjelman avulla. Voit esimerkiksi avata [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietoja Excelissä, tulostaa raportteja Wordin avulla ja käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietoja Outlookissa. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen yrityssähköpostina Outlookissa](admin-outlook.md).  
 
 ## <a name="can-i-extend-my-30-day-new-company-trial-period"></a>Voiko 30 päivän uuden yrityksen kokeilujaksoa jatkaa?
 Kyllä. Kun kokeilujakson päättyminen on lähellä, kirjautumisen yhteydessä näkyy ilmoitus asiasta. Ilmoituksessa on linkki **kokeilujakson jatkamisen** oppaaseen, jonka avulla voit jatkaa kokeilujaksoa. 30 päivän lisäjakso alkaa heti, kun valitset oppaassa **Jatka kokeilujaksoa**. Voit jatkaa kokeilujaksoa kerran itse. Tämän jälkeen Microsoft-kumppani voi jatkaa sitä vielä 30 päivää. Lisätietoja on kohdassa [Kokeilujakson jatkaminen](admin-extend-trial.md). Jos haluat yhteyttä oman maasi tai alueesi Microsoft-kumppaniin, [CustomerSourcessa](https://mbs.microsoft.com/customersource/northamerica/CRM/support/support-news/Support_Telephone#linkc) on puhelinnumeroluettelo.  
@@ -85,7 +87,7 @@ Kyllä. Kun kokeilujakson päättyminen on lähellä, kirjautumisen yhteydessä 
 > [!NOTE]
 > Kokeilujakson pidentämisprosessi voi kestää 2 arkipäivää.  
 
-## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-role-center-in-included365finincludesd365finmdmd"></a>Järjestelmänvalvoja on siirtänyt minut toiseen tilaukseen, jotta voin käyttää toista roolia, mutta näen kuitenkin edelleen saman [!INCLUDE[d365fin](includes/d365fin_md.md)] -roolikeskuksen. Miksi?
+## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-role-center-in-included365finincludesd365fin_mdmd"></a>Järjestelmänvalvoja on siirtänyt minut toiseen tilaukseen, jotta voin käyttää toista roolia, mutta näen kuitenkin edelleen saman [!INCLUDE[d365fin](includes/d365fin_md.md)] -roolikeskuksen. Miksi?
 Selitys on hieman monimutkainen, mutta ilmeisesti järjestelmänvalvoja ei vaihtanut roolikeskustasi eikä määrittänyt uutta käyttöoikeutta vastaavia käyttäjäryhmiä. [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttöoikeus määräytyy periaatteessa tilaussuunnitelman (käyttöoikeuden) mukaan, sillä sen avulla määritetään oikeudet ja roolikeskuksen oletussivu. Voit vaihtaa roolikeskuksen manuaalisesti omissa asetuksissa, mutta jos sinut siirretään toiseen tilaussuunnitelmaan, vaikkapa yritystilauksesta Team Members -tilaukseen, vanha aloitussivu voi olla näkyvissä, koska oikeuksia ei muutettu.  
 
 ## <a name="can-i-cancel-my-subscription"></a>Voinko peruuttaa tilaukseni?

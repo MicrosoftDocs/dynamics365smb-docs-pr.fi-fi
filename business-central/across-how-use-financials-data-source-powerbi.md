@@ -1,5 +1,5 @@
 ---
-title: Business Central -raportoinnin määrittäminen Power BI:ssa | Microsoft Docs
+title: Business Centralin käyttäminen Power BI -raporteissa | Microsoft Docs
 description: Määritä tiedot käytettäviksi Power BI:n tietolähteenä ja tehokkaiden liiketoiminnan tilasta kertovien raporttien luomista varten.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -8,42 +8,49 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 04/01/2019
+ms.date: 07/08/2019
 ms.author: edupont
-ms.openlocfilehash: 8dfedbc2685e086f9bdc63706d70327ebb95c2b5
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c86f1c3c40f80ec993d0a3a89154047ddf9e8126
+ms.sourcegitcommit: 519623f9a5134c9ffa97eeaed0841ae59835f453
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241046"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "1755239"
 ---
-# <a name="using-included365finlongmdincludesd365finlongmdmd-as-power-bi-data-source-for-building-reports"></a>[!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]in käyttö Power BI:n tietolähteenä raportteja luotaessa
-Voit määrittää [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]in tiedot käytettäviksi Power BI:n tietolähteenä ja tehokkaiden liiketoiminnan tilasta kertovien raporttien luomista varten.  
+# <a name="using-include-prodlongincludesprodlongmd-as-power-bi-data-source-for-building-reports"></a>[!INCLUDE [prodlong](includes/prodlong.md)]in käyttö Power BI:n tietolähteenä raportteja luotaessa
 
-Sinulla on oltava kelvollinen [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]- ja Power BI -tili. Lisäksi sinun on ladattava [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/).  
+Voit määrittää [!INCLUDE[prodlong](includes/prodlong.md)]in tiedot käytettäviksi Power BI:n tietolähteenä ja tehokkaiden liiketoiminnan tilasta kertovien raporttien luomista varten.  
 
-## <a name="to-add-included365finlongmdincludesd365finlongmdmd-as-a-data-source-in-power-bi-desktop"></a>[!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]in lisääminen Power BI Desktopin tietolähteeksi
+Sinulla on oltava kelvollinen [!INCLUDE[prodshort](includes/prodshort.md)]- ja Power BI -tili. Lisäksi sinun on ladattava [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/). Lisätietoja on kohdassa [Pika-aloitus: Power BI Desktopin tietoihin yhdistäminen](/power-bi/desktop-quickstart-connect-to-data).  
+
+## <a name="to-add-includeprodshortincludesprodshortmd-as-a-data-source-in-power-bi-desktop"></a>[!INCLUDE[prodshort](includes/prodshort.md)]in lisääminen Power BI Desktopin tietolähteeksi
+
 1. Valitse Power BI Desktopin vasemmassa siirtymisruudussa **Nouda tiedot**.
 2. Valitse **Nouda tiedot** -sivulla **Online Services**. Valitse sitten **Microsoft Dynamics 365 Business Central** ja valitse lopuksi **Muodosta yhteys** -painike.
-3. Power BI avaa ohjatun toiminnon, joka auttaa [yhteyden muodostusprosessissa](across-how-to-connect-powerbi-dynamics-365-content-packs-help.md). Sinua pyydetään kirjatumaan palveluun. Valitse ensin **Kirjaudu sisään** ja sitten tili, johon haluat kirjautua. Valitse sama tili, jolla kirjaudut [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]iin.
-4. Jatka valitsemalla **Muodosta yhteys**. Ohjatussa Power BI -toiminnossa on luettelo Microsoft [!INCLUDE[d365fin](includes/d365fin_md.md)]in yrityksistä ja tietolähteistä. Nämä tietolähteet viittaavat kaikkiin verkkopalveluihin, jotka on julkaistu kullekin yritykselle Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]issa.
-5. Voit vaihtoehtoisesti luoda uuden verkkopalvelun URL-osoitteen [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]issa käyttämällä **Luo tietojoukko** -toimintoa **WWW-palvelut**-sivulla tai asetusten ohjattua **Määritä raportointi** -määritystä tai valitsemalla **Muokkaa Excelissä** -toiminnon jossakin luettelossa.
+3. Power BI avaa ohjatun toiminnon, joka auttaa yhteyden muodostusprosessissa. Sinua pyydetään kirjatumaan [!INCLUDE [prodshort](includes/prodshort.md)]iin. Valitse ensin **Kirjaudu sisään** ja sitten tili, johon haluat kirjautua. Valitse sama tili, jolla kirjaudut [!INCLUDE [prodshort](includes/prodshort.md)]iin.
+4. Jatka valitsemalla **Muodosta yhteys**. Ohjatussa Power BI -toiminnossa on luettelo Microsoft [!INCLUDE[d365fin](includes/d365fin_md.md)]in yrityksistä ja tietolähteistä. Nämä tietolähteet viittaavat kaikkiin verkkopalveluihin, jotka on julkaistu kustakin [!INCLUDE [prodshort](includes/prodshort.md)]in yrityksestä.
+
+  ![powerbi_webservices.png](media/across-how-use-financials-data-source-powerbi/powerbi_webservices.png)
+
+5. Voit vaihtoehtoisesti luoda uuden verkkopalvelun URL-osoitteen [!INCLUDE [prodshort](includes/prodshort.md)]issa käyttämällä **Luo tietojoukko** -toimintoa **WWW-palvelut**-sivulla tai asetusten ohjattua **Määritä raportointi** -määritystä tai valitsemalla **Muokkaa Excelissä** -toiminnon jossakin luettelossa.
 6. Määritä tietomalliin lisättävät tiedot ja valitse sitten **Lataa**-painike.
-7. Lisää uusia Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]- tai muita tietoja Power BI -tietomalliin toistamalla edellä olevat vaiheet.
+7. Lisää uusia [!INCLUDE [prodshort](includes/prodshort.md)]in tai muita tietoja Power BI -tietomalliin toistamalla edellä olevat vaiheet.
 
 > [!NOTE]  
-> Kun yhteys Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]iin on muodostettu, sinua ei pyydetä kirjautumaan uudelleen.
+> Kun yhteys [!INCLUDE [prodshort](includes/prodshort.md)]iin on muodostettu, sinua ei pyydetä kirjautumaan uudelleen.
 
-Kun tiedot on ladattu, ne näkyvät sivun oikeassa siirtymisruudussa. Olet nyt muodostanut yhteyden Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] -tietoihin ja olet valmis aloittamaan oman Power BI -raportin luomisen. 
+Kun tiedot on ladattu, ne näkyvät sivun oikeassa siirtymisruudussa. Olet nyt muodostanut yhteyden [!INCLUDE [prodshort](includes/prodshort.md)] -tietoihin ja olet valmis aloittamaan oman Power BI -raportin luomisen.  
 
-Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] -teematiedosto kannattaa tuoda ennen raportin luontia.  Teematiedosto luo värivalikoiman, jonka avulla voit luoda raportteja samalla värityylillä kuin Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] -sisältöpaketeissa ilman, että kunkin visuaalisen ominaisuuden mukautetut värit on määritettävä erikseen.
+[!INCLUDE [prodshort](includes/prodshort.md)] -teematiedosto kannattaa tuoda ennen raportin luontia.  Teematiedosto luo värivalikoiman, jonka avulla voit luoda raportteja samalla värityylillä kuin [!INCLUDE [prodshort](includes/prodshort.md)] -sovelluksissa ilman, että kunkin visuaalisen ominaisuuden mukautetut värit on määritettävä erikseen.
 
-Lisätietoja on [Power BI -dokumentaatiossa](https://powerbi.microsoft.com/documentation/powerbi-landing-page/).
+Lisätietoja on [Power BI -dokumentaatiossa](/power-bi/consumer/power-bi-consumer-landing/).
 
 ## <a name="see-also"></a>Katso myös
+
+[Yritystietojen ottaminen käyttöön Power BI:tä varten](admin-powerbi.md)  
 [Business Intelligence](bi.md)  
 [Käytön aloittaminen](product-get-started.md)  
 [Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittäminen](setup.md)   
+[[!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittäminen](setup.md)  
 [Rahoitus](finance.md)  
-[Power BI:n yhdistäminen [!INCLUDE[d365fin](includes/d365fin_md.md)]iin](across-how-to-connect-powerbi-dynamics-365-content-packs-help.md)  
+[Pika-aloitus: Tietojen yhdistäminen Power BI Desktopiin](/power-bi/desktop-quickstart-connect-to-data)  

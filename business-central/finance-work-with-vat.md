@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
-ms.date: 04/01/2019
+ms.date: 07/24/2019
 ms.author: bholtorf
-ms.openlocfilehash: 1665985ba00b291469146536a69a0dcfe9dec85a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 09aa4b5f6e08265e49a02e3014ffe6724edfcffd
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238898"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796847"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Myynnin ja ostojen ALV:n käsitteleminen
 Jos maasi tai alueesi edellyttää arvonlisäveron (ALV:n) laskemista myynti- ja ostotapahtumille siten, että voit ilmoittaa summat veroviranomaiselle, voit määrittää [!INCLUDE[d365fin](includes/d365fin_md.md)]in laskemaan ALV:n automaattisesti myynti- ja ostoasiakirjoissa. Lisätietoja on kohdassa [Arvolisäveron laskelmien ja kirjausmenetelmien määrittäminen](finance-setup-vat.md).
@@ -55,34 +55,42 @@ Vaikka olet ehkä määrittänyt vähintään yhden yhdistelmän tuonnin ALV:n k
 
 Jos maksualennus on laskettu ALV:n sisältävän laskusumman perusteella, ALV-summan maksualennusosa peruutetaan, kun maksualennus annetaan. Huomaa, että **Muutos maksualennusten osalta** -kenttä tulee aktivoida sekä pääkirjanpidon asetuksissa (yleisesti) että ALV-kirjausasetuksissa (erityisille liiketoiminnan ALV-kirjausryhmien ja tuotteen ALV-kirjausryhmien yhdistelmille).  
 
-#### <a name="to-manually-enter-vat-in-sales-documents"></a>Jos haluat lisätä ALV-summat manuaalisesti, tee seuraavat toimet  
+### <a name="to-set-the-system-up-for-manual-vat-entry-in-sales-documents"></a>Järjestelmän määrittäminen myyntiasiakirjojen manuaalisille ALV-tapahtumille
+Seuraavaksi käsitellään manuaalisten ALV-muutosten ottamista käyttöön myyntiasiakirjoissa. **Ostojen ja ostovelkojen asetukset** -sivun vaiheet ovat samankaltaiset.
+
 1. Määritä **Pääkirjanpidon asetukset** -sivulla ohjelman laskeman summan ja manuaalisen summan **Maksimi sallittu ALV-ero**.  
 2. Lisää **Myyntien ja myyntisaamisten asetukset** -sivulla valintamerkki **Salli ALV-ero** -kenttään.  
 
-#### <a name="to-adjust-vat-for-a-sales-document"></a>Myyntiasiakirjan ALV:n muuttaminen:  
+### <a name="to-adjust-vat-for-a-sales-document"></a>Myyntiasiakirjan ALV:n muuttaminen:  
 1. Avaa käsiteltävä myyntitilaus.  
 2. Valitse **Tilastot**-toiminto.  
-3. Valitse **Laskutus**-pikavälilehti.  
+3. Valitse **Laskutus**-pikavälilehdessä arvo **Verorivien lukumäärä**-kentässä.
+4. Muokkaa **ALV-summa**-kenttää.   
 
-    > [!NOTE]  
-    >  Riveillä näkyy laskun ALV-kokonaissumma ALV-tunnuksen mukaan ryhmiteltynä. Voit manuaalisesti muuttaa **ALV-summa**-kentän summaa kunkin ALV-tunnuksen rivillä. Kun muokkaat **ALV-summa**-kenttää, ohjelma tarkistaa, ettei ALV:tä ole muutettu enempää kuin määrittämäsi suurimman sallitun eron verran. Jos ero on suurempi kuin **Maksimi sallittu ALV-ero**, näyttöön tulee varoitus, joka ilmoittaa suurimmasta sallitusta erosta. Et voi jatkaa, ennen kuin määrä muutetaan asetettujen rajojen sallimaksi. Valitse **OK** ja lisää uusi **ALV-summa**, joka on sallitun vaihteluvälin sisällä. Jos ALV-ero on sama tai pienempi kuin suurin sallittu ero, ALV jaetaan suhteellisesti asiakirjan sellaisten rivien kanssa, joilla on sama ALV-tunnus.  
+> [!NOTE]  
+> Riveillä näkyy laskun ALV-kokonaissumma ALV-tunnuksen mukaan ryhmiteltynä. Voit manuaalisesti muuttaa **ALV-summa**-kentän summaa kunkin ALV-tunnuksen rivillä. Kun muokkaat **ALV-summa**-kenttää, ohjelma tarkistaa, ettei ALV:tä ole muutettu enempää kuin määrittämäsi suurimman sallitun eron verran. Jos ero on suurempi kuin **Maksimi sallittu ALV-ero**, näyttöön tulee varoitus, joka ilmoittaa suurimmasta sallitusta erosta. Et voi jatkaa, ennen kuin määrä muutetaan asetettujen rajojen sallimaksi. Valitse **OK** ja lisää uusi **ALV-summa**, joka on sallitun vaihteluvälin sisällä. Jos ALV-ero on sama tai pienempi kuin suurin sallittu ero, ALV jaetaan suhteellisesti asiakirjan sellaisten rivien kanssa, joilla on sama ALV-tunnus.  
 
 ## <a name="calculating-vat-manually-using-journals"></a>ALV:n laskeminen manuaalisesti päiväkirjojen avulla  
 Voit oikaista ALV-summia myös at yleisessä päiväkirjassa sekä myynti- ja ostopäiväkirjoissa. Näin on ehkä toimittava esimerkiksi silloin, kun lisäät päiväkirjaan toimittajan laskun ja [!INCLUDE[d365fin](includes/d365fin_md.md)]in laskema ALV-summa eroaa toimittajan laskun ALV-summasta.  
 
-#### <a name="before-you-manually-enter-vat-on-a-general-journal"></a>Ennen kuin syötät manuaalisesti ALV:n yleisen päiväkirjaan  
+### <a name="to-set-the-system-up-for-manual-vat-entry-in-a-general-journals"></a>Järjestelmän määrittäminen yleisen päiväkirjan manuaalisille ALV-tapahtumille
+Seuraavat vaiheet on tehtävä, ennen kuin ALV kirjataan manuaalisesti yleisessä päiväkirjassa.  
+
 1. Määritä **Pääkirjanpidon asetukset** -sivulla ohjelman laskeman summan ja manuaalisen summan **Maksimi sallittu ALV-ero**.  
 2. Valitse **Yleisen päiväkirjan mallit** -sivulla käsiteltävän päiväkirjan **Salli ALV-ero** -valintaruutu.  
 
-#### <a name="before-you-manually-enter-vat-on-sales-and-purchase-journals"></a>Ennen kuin voit manuaalisesti lisätä ALV:n myynti- ja ostopäiväkirjoihin, sinun on tehtävä seuraavat toimet:  
+### <a name="to-set-the-system-up-for-manual-vat-entry-in-a-sales-and-purchase-journals"></a>Järjestelmän määrittäminen myynti- ja ostopäiväkirjojen manuaalisille ALV-tapahtumille
+Seuraavat vaiheet on tehtävä, ennen kuin ALV kirjataan manuaalisesti myynti- tai ostopäiväkirjassa.
+
 1. Valitse **Ostojen ja ostovelkojen asetukset** -sivulla **Salli ALV-ero** -valintaruutu.  
-2. Kun olet tehnyt edellä kuvatut asetukset, voit oikaista yleisen päiväkirjan rivin **ALV-summa**-kentän tai myynti- tai ostopäiväkirjan rivin **Vastatilin ALV-summa** -kentän. [!INCLUDE[d365fin](includes/d365fin_md.md)] tarkistaa, että ero ei ole suurempi kuin määritetty enimmäisarvo.  
+2. Toista vaihe 1 **Myyntien ja myyntisaamisten asetukset** -sivulla.
+3. Kun olet tehnyt edellä kuvatut asetukset, voit oikaista yleisen päiväkirjan rivin **ALV-summa**-kentän tai myynti- tai ostopäiväkirjan rivin **Vastatilin ALV-summa** -kentän. [!INCLUDE[d365fin](includes/d365fin_md.md)] tarkistaa, että ero ei ole suurempi kuin määritetty enimmäisarvo.  
 
     > [!NOTE]  
     > Jos ero on suurempi, avautuva varoitus ilmoittaa suurimman sallitun eron. Jatkaminen edellyttää summan oikaisua. Valitse ensin **OK** ja annan sitten summa, joka on sallitun vaihteluvälin sisällä. Jos ALV-ero on sama tai pienempi kuin suurin sallittu ero, [!INCLUDE[d365fin](includes/d365fin_md.md)] näyttää eron **ALV-ero**-kentässä.  
 
-## <a name="to-post-import-vat-with-purchase-invoices"></a>Tuonnin ALV:n kirjaaminen ostolaskuissa
-Tuontia koskevan ALV-laskun voi kirjata ostolaskulla yleisen päiväkirjan asemesta.  
+## <a name="posting-import-vat-with-purchase-invoices"></a>Tuonnin ALV:n kirjaaminen ostolaskuissa
+Tuontia koskevan ALV-laskun voi kirjata ostolaskulla päiväkirjojen asemesta.  
 
 ### <a name="to-set-up-purchasing-for-posting-import-vat-invoices"></a>Määritä ostaminen tuonnin ALV-laskujen kirjaukseen  
 1. Määritä toimittajan kortti tuontiviranomaiselle, joka lähettää sinulle tuontia koskevan ALV-laskun. **Ylein. liiketoim. kirjausryhmä**- ja **Liiketoiminnan ALV-kirjausryhmä** -tiedot täytyy määrittää samalla tavalla kuin tuontia koskevan ALV:n KP-tili.  
@@ -102,7 +110,7 @@ Tuontia koskevan ALV-laskun voi kirjata ostolaskulla yleisen päiväkirjan aseme
 6. Määritä ALV-summa **Välitön yksikkökustannus ilman ALV:tä** -kenttään.  
 7. Kirjaa lasku.  
 
-## <a name="to-process-certificates-of-supply"></a>Tarjontasertifikaattien käsittely
+## <a name="processing-certificates-of-supply"></a>Tarjontasertifikaattien käsitteleminen
 Kun myyt tavaroita toisen EU-maan/alueen asiakkaalle, sinun on lähetettävä asiakkaalle tarjontasertifikaatti, joka asiakkaan täytyy allekirjoittaa ja palauttaa sinulle. Seuraavia toimenpiteitä käytetään myyntitoimitusten tarjontasertifikaattien käsittelyyn, mutta samat vaiheet koskevat nimikkeiden palvelutoimituksia ja palautustoimituksia toimittajille.  
 
 ### <a name="to-view-certificate-of-supply-details"></a>Tarjontasertifikaatin tietojen katseleminen.  

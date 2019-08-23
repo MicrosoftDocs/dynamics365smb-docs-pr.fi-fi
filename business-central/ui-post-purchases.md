@@ -1,22 +1,21 @@
 ---
 title: Ostoasiakirjojen kirjaaminen | Microsoft Docs
-description: Tutustu erilaisiin ostoasiakirjojen kirjauksessa käytettäviin kirjaustoimintoihin.
-services: project-madeira
-documentationcenter: ''
-author: SusanneWindfeldPedersen
+description: Lisätietoja ostoasiakirjojen kirjaamisessa käytetyistä kirjaustoiminnoista ja kirjattujen asiakirjojen päivittämisestä.
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
-ms.author: solsen
-ms.openlocfilehash: cc3d2e5b0f3425c329e5567e7d00908cb7f5c7d5
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.reviewer: edupont
+ms.date: 07/17/2019
+ms.author: sgroespe
+ms.openlocfilehash: 55a910e471db7b674b0107022647cfd7af7a500d
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247845"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796916"
 ---
 # <a name="posting-purchases"></a>Ostojen kirjaaminen
 Kun valitset ostoasiakirjan **Kirjausryhmä**-painikkeen, voit valita seuraavista kirjaustoiminnoista:
@@ -45,7 +44,9 @@ Voit kirjata tai kirjata ja tulostaa. Jos valitset kirjaamisen ja tulostamisen, 
 Kun kirjaus on päättynyt, kirjatut ostorivit poistuvat tilauksesta. Viesti kertoo, milloin kirjaus on valmis. Tämän jälkeen voit nähdä kirjatut tapahtumat useissa kirjattuja tapahtumia sisältävissä sivuilla, kuten **Toimittajatapahtumat**-, **KP -tapahtumat**-, **Nimiketapahtumat**-, **Ostovastaanotot**- ja **Kirjatut ostolaskut** -sivuilla.
 
 ## <a name="see-also"></a>Katso myös
+
 [Osto](purchasing-manage-purchasing.md)  
 [Asiakirjojen ja päiväkirjojen kirjaaminen](ui-post-documents-journals.md)  
+[Maksamattomien ostolaskujen korjaaminen tai peruuttaminen](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
+[Kerro, mitä haluat tehdä -toiminnon käyttäminen toimintojen ja tietojen etsimisessä](ui-search.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
-

@@ -5,20 +5,20 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: profiles, users
-ms.date: 04/01/2019
+ms.date: 08/02/2019
 ms.author: edupont
-ms.openlocfilehash: fc52d943938616041881c55f70c510e4c63b5de6
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 27a57490101195f8dc05cc39538260e7db5e46af
+ms.sourcegitcommit: 5bcc5f95e450ee9a3d9f7a380e592a5e75c4185b
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245807"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1858218"
 ---
-# <a name="understanding-users-profiles-and-role-centers"></a>Tietoja käyttäjistä, profiileista ja roolikeskuksista
+# <a name="understanding-users-roles-and-profiles"></a>Tietoja käyttäjistä, rooleista ja profiileista
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksessa järjestelmänvalvoja lisää käyttäjät ja antaa käyttäjille [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen niiden alueiden käyttöoikeuden, joita käyttäjät tarvitsevat työssään.  
 
-Toimintojen käyttöä hallitaan *käyttäjäryhmien* ja *profiilien* avulla. Järjestelmänvalvojana voit lisätä ja poistaa käyttäjiä [!INCLUDE[d365fin](includes/d365fin_md.md)] -tilauksesta. Voit myös määrittää käyttäjien oikeuksia käyttäjäryhmien avulla.  
+Toimintojen käyttöä hallitaan *käyttäjäryhmien* ja *profiilien (roolien)* avulla. Järjestelmänvalvojana voit lisätä ja poistaa käyttäjiä [!INCLUDE[d365fin](includes/d365fin_md.md)] -tilauksesta. Voit myös määrittää käyttäjien oikeuksia käyttäjäryhmien avulla.  
 
 ## <a name="adding-users"></a>Käyttäjien lisääminen
 
@@ -35,20 +35,20 @@ Käyttäjän tehokkaimmat käyttöoikeudet SUPER-käyttöoikeusjoukko. Jokaisell
 
 Järjestelmänvalvoja voi valita käyttäjille [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen paikallisten käyttöönottojen eri tunnistetietojen mekanismeista. Kun olet luonut käyttäjän, annat eri tietoja riippuen tunnistetiedoista, joita käytät tietyssä [!INCLUDE[server](includes/server.md)] -ilmentymässä. Lisätietoja on [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen kehittäjän ja ITPro-sisällön järjestelmänvalvojan osan [Todennus ja tunnistetietotyypit](/dynamics365/business-central/dev-itpro/administration/users-credential-types) -kohdassa.  
 
-## <a name="profiles"></a>Profiilit
+## <a name="profiles-roles"></a>Profiilit (roolit)
 
-Kaikilla yrityksen henkilöille, joilla on [!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttöoikeus, on määritetty *profiili*, jonka mahdollistaa *roolikeskuksen* käytön.
+Kaikille yrityksen henkilöille, joilla on [!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttöoikeus, on määritetty rooli, jonka mahdollistaa *roolikeskuksen* käytön.
 
-Profiilit ovat niiden [!INCLUDE[d365fin](includes/d365fin_md.md)] -käyttäjien kokoelmia, jotka jakavat saman roolikeskuksen. Roolikeskus on [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen aloituskohta ja kotisivu. Sen avulla tärkeimpien tehtävien aloitus on nopeaa ja se sisältää paljon tietoja työstä, mukaan lukien työn suorituskykyilmaisimet.  
+Profiilit ovat niiden [!INCLUDE[d365fin](includes/d365fin_md.md)] -käyttäjien kokoelmia, jotka jakavat saman roolin. Roolikeskus on [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen aloituskohta ja kotisivu. Sen avulla tärkeimpien tehtävien aloitus on nopeaa ja se sisältää paljon tietoja työstä, mukaan lukien työn suorituskykyilmaisimet.  
 
 > [!NOTE]  
 >  Et voi lisätä, muokata tai poistaa profiileja nykyisessä [!INCLUDE[d365fin](includes/d365fin_md.md)] online -versiossa.  
 
-### <a name="CreateProfile"></a> Profiilin luonti
+### <a name="CreateProfile"></a>Profiilin luominen
 
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Profiililuettelo** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **profiilit** ja valitse sitten aiheeseen liittyvä linkki.  
 
-2.  Avaa **Uusi profiilikortti** -sivu valitsemalla **Profiililuettelo**-sivulla **Uusi**-toiminto.  
+2.  Avaa **Uusi profiilikortti**-sivu valitsemalla **Profiilit**-sivulla **Uusi**-toiminto.  
 
 3.  Anna **Profiilin tunnus** -kentässä nimi, joka kuvaa käyttäjien tarkoitettua roolia.  
 
@@ -56,7 +56,7 @@ Profiilit ovat niiden [!INCLUDE[d365fin](includes/d365fin_md.md)] -käyttäjien 
 
 5.  Määritä **Roolikeskuksen tunnus** -kenttäään profiiliin liitettävä roolikeskus.  
 
-Olemassa olevan profiilin muokkaaminen tapahtuu samalla tavalla. Ainoa ero on, että **Profiililuettelo**-sivulla valitaan olemassa oleva profiili **Uusi**-toiminnon sijaan.  
+Olemassa olevan profiilin muokkaaminen tapahtuu samalla tavalla. Ainoa ero on, että **Profiilit**-sivulla valitaan aiemmin luotu profiili **Uusi**-toiminnon sijaan.  
 
 
 ### <a name="copy-a-profile"></a>Profiilin kopioiminen
@@ -78,7 +78,7 @@ Voit viedä profiileja XML-tiedostoina [!INCLUDE[d365fin](includes/d365fin_md.md
 
 -   Voit viedä profiilin joko valitsemalla **Vie profiilit** -toiminto **Profiililuettelo**- tai **Profiilikortti**-sivulla tai etsimällä sen ja avaamalla **Vie profiilit** -sivun. Tallenna XML-tiedosto tietokoneelle tai verkkoon.
 
--   Voit tuoda profiilin joko valitsemalla **Tuo profiilit** -toiminto **Profiililuettelo**-sivulla tai etsimällä sen ja avaamalla **Tuo profiilit** -sivun. 
+-   Voit tuoda profiilin joko valitsemalla **Tuo profiilit** -toiminto **Profiililuettelo**-sivulla tai etsimällä sen ja avaamalla **Tuo profiilit** -sivun.
 
     > [!NOTE]  
     >  Et voi tuoda profiilia, joka on jo tietokannassa, vaikka XML-tiedosto olisi eriniminen tai sillä olisi eri sisältö. Poista olemassa oleva profiili ennen kuin tuot uuden profiilin.

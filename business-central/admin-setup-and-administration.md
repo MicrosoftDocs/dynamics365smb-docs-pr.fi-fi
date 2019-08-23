@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 07/22/2019
 ms.author: edupont
-ms.openlocfilehash: c5b76a434403da0d472b1e1fa9430d40ff082220
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 41917ece38cf553582438d7c57ca3e09b82b21e9
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247184"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796709"
 ---
 # <a name="administration"></a>Hallinta
 Yleensä yksi rooli hoitaa yrityksen keskitetyt hallintatehtävät. Tehtävien laajuus voi määräytyä yrityksen koon ja järjestelmänvalvojan vastuualueiden mukaan. Tehtäviin voi sisältyä esimerkiksi työ- ja sähköpostijonojen tietokantasynkronoinnin hallintaa, käyttäjien määritystä ja käyttöliittymän mukautusta.  
@@ -33,7 +33,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 
 |**Tehtävä**|**Katso**|  
 |------------|-------------|  
-|Lisää käyttäjiä, hallitse tietojen käyttöoikeuksia ja määritä rooleja.|[Tietoja profiileista ja roolikeskuksista](admin-users-profiles-roles.md)|  
+|Lisää käyttäjiä, hallitse tietojen käyttöoikeuksia ja määritä rooleja.|[Tietoja profiileista (rooleista) ja roolikeskuksista](admin-users-profiles-roles.md)|  
 |Määritä käyttöoikeuksia käyttäjille, muokata käyttöoikeusjoukkoja ja ryhmitä käyttäjiä käyttöoikeuksien perusteella.|[Käyttäjien ja käyttöoikeuksien hallinta](ui-how-users-permissions.md)|
 |Luokittele kenttien luottamukselliset tiedot niin, että voit vastata tietojen kohteiden henkilökohtaisia tietoja koskeviin pyyntöihin.|[Tietojen luottamuksellisuuden luokitteleminen](admin-classifying-data-sensitivity.md)|
 |Vastaa tietojen kohteiden henkilökohtaisia tietoja koskeviin pyyntöihin.|[Henkilökohtaisia tietoja koskeviin pyyntöihin vastaaminen](admin-responding-to-requests-about-personal-data.md)|

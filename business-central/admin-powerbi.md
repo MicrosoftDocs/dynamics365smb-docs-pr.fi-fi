@@ -1,117 +1,215 @@
 ---
-title: Business Central- ja Power BI -sisältöpaketit | Microsoft Docs
-description: Analyysitietojen, liiketoimintatietoja ja tunnuslukujen hakeminen Business Central -tiedoista on helppoa Power BI- ja Business Central -sisältöpakettien avulla.
-author: edupont04
+title: Liiketoimintatietojen ottaminen käyttöön Power BI:ssä| Microsoft Docs
+description: Analyysitietojen, liiketoimintatietojen ja tunnuslukujen hakeminen Business Centralin tiedoista on helppoa Power BI:n Business Central -sovelluksia.
+author: bmeier90
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 04/26/2019
-ms.author: edupont
-ms.openlocfilehash: 79fa8f67a1b2d7ced65f002bd04fc69f61811c5e
-ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
+ms.reviewer: edupont
+ms.date: 07/08/2019
+ms.author: bmeier
+ms.openlocfilehash: 4223d3eba6253f87aee3f86b3a9dfe4107d48947
+ms.sourcegitcommit: 519623f9a5134c9ffa97eeaed0841ae59835f453
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "1620974"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "1755262"
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Yritystietojen ottaminen käyttöön Power BI:tä varten
-Lisätietojen hakeminen [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietoihin on helppoa Power BI- ja [!INCLUDE[d365fin](includes/d365fin_md.md)] -sisältöpakettien avulla. Power BI hakee tiedot ja muodostaa näiden tietojen perusteella valmiin koontinäytön ja raportit.  
 
-Sinulla on oltava kelvollinen [!INCLUDE[prodshort](includes/prodshort.md)]- ja Power BI -tili. Lisäksi [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) on ladattava, jos haluat luoda oman Power BI -raportteja. Power BI -sisältöpakettien käyttöä varten tarvitaan niiden taulukoiden käyttöoikeus, joista tiedot noudetaan. Lisätietoja on vaatimuksista on jäljempänä.  
+Lisätietojen hakeminen [!INCLUDE[prodshort](includes/prodshort.md)] -tietoihin on helppoa [!INCLUDE[prodshort](includes/prodshort.md)]in Power BI -sovelluksilla. Power BI hakee tiedot ja muodostaa näiden tietojen perusteella valmiin koontinäytön ja raportit.  
+
+Sinulla on oltava kelvollinen [!INCLUDE[prodshort](includes/prodshort.md)]- ja Power BI -tili. Lisäksi [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) on ladattava, jos haluat luoda oman Power BI -raportteja. Power BI -sovellusten käyttöä varten tarvitaan niiden taulukoiden käyttöoikeus, joista tiedot noudetaan. Lisätietoja on vaatimuksista on jäljempänä.  
 
 > [!IMPORTANT]
-> Tässä artikkelissa käsitellyt sisältöpaketit on suunniteltu käyttämään Azure Active Directorya todennusmekanismina. Jos käytät paikallista [!INCLUDE [prodshort](includes/prodshort.md)]ia ja jotain muuta todennusmekanismia, Power BI ei voi muodostaa yhteyttä tietoihin.  
+> Tässä artikkelissa käsiteltävät Power BI -sovellukset on suunniteltu käyttämään Azure Active Directorya todennukseen ellei muuta ilmoiteta. Power BI -sovelluksen asentamiseen tarvitaan Power BI Pro -käyttöoikeus.  Power BI -sovellus on asennettu, se voidaan jakaa käyttäjille riippumatta siitä, millainen käyttöoikeus heillä on.
 
-Microsoft on julkaissut seuraavat sisältöpaketit:
+Microsoft on julkaissut seuraavat Power BI:n sovellukset:
 
 - [!INCLUDE [prodlong](includes/prodlong.md)] – CRM  
-- [!INCLUDE [prodlong](includes/prodlong.md)] – rahoitus  
-- [!INCLUDE [prodlong](includes/prodlong.md)] – myynti  
+- [!INCLUDE [prodlong](includes/prodlong.md)] – Finance  
+- [!INCLUDE [prodlong](includes/prodlong.md)] – Sales  
+- [!INCLUDE [prodlong](includes/prodlong.md)](paikallinen) – CRM  
+- [!INCLUDE [prodlong](includes/prodlong.md)](paikallinen) – Finance  
+- [!INCLUDE [prodlong](includes/prodlong.md)](paikallinen) – Sales  
 
-## <a name="using-the-dashboards"></a>Koontinäyttöjen käyttäminen
-Kussakin sisältöpaketissa on raportteja, joilla voi porautua tietoihin:
+## <a name="using-the-include-prodshortincludesprodshortmd-dashboards-in-power-bi"></a>[!INCLUDE [prodshort](includes/prodshort.md)] -koontinäyttöjen käyttäminen Power BI:ssä
 
-* Valitse koontinäytöstä jokin visuaalinen kohde, kun haluat käsitellä jotakin perustana olevasta raportista.  
-* Suodata raportti tai lisää seurattavia kenttiä.  
-* Kiinnitä tämä mukautettu näkymä koontinäyttöön, kun haluat jatkaa seuraamista.  
-  Voit päivittää tiedot manuaalisesti ja määrittää päivitysaikataulun. Lisätietoja on kohdassa [Aikataulutetun päivityksen määrittäminen](https://powerbi.microsoft.com/en-us/documentation/powerbi-refresh-scheduled-refresh/).  
+Kussakin sovelluksessa on raportteja, joilla voi porautua tietoihin:
 
-Sisältöpaketit on määritetty etukäteen niin, että niitä voidaan käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]iin rekisteröityessä saatavan esittely-yrityksen tietojen kanssa. Kun asennat sovelluksia Power BI:hin ja yhdistät ne omiin tietoihisi, jotkin raportit eivät ehkä toimi, koska ne perustuvat tietoihin, joita yrityksellä ei ole. Voit siinä tapauksessa poistaa raportin koontinäytöstä.  
+- Valitse koontinäytöstä jokin visuaalinen kohde, kun haluat käsitellä jotakin perustana olevasta raportista.  
+- Suodata raportti tai lisää seurattavia kenttiä.  
+- Kiinnitä tämä mukautettu näkymä koontinäyttöön, kun haluat jatkaa seuraamista.  
+  Voit päivittää tiedot manuaalisesti ja määrittää päivitysaikataulun. Lisätietoja on kohdassa [Aikataulutetun päivityksen määrittäminen](/power-bi/refresh-scheduled-refresh).  
 
-> [!NOTE]  
->   Voit myös luoda omia raportteja ja koontinäyttöjä Power BI:ssä [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietojen perusteella. Lisätietoja on kohdassa [Liiketoimintatietojen yhdistäminen Power BI:hin](across-how-use-financials-data-source-powerbi.md).  
+Sovelluksen on suunniteltu käyttämään kaikkien [!INCLUDE[prodshort](includes/prodshort.md)]issa olevien yritysten tietoja. Power BI -sovelluksen asennuksen yhteydessä määritetään parametrit, joilla muodostetaan yhteys [!INCLUDE [prodshort](includes/prodshort.md)] -ratkaisuun.  
 
-## <a name="how-to-connect"></a>Yhdistäminen
-1. Valitse **Nouda tiedot** vasemman siirtymisruudun alareunassa.  
-![Siirtyminen tietoja noudettaessa](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
+> [!NOTE]
+> Voit myös luoda omia raportteja ja koontinäyttöjä Power BI:ssä [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietojen perusteella. Lisätietoja on kohdassa [Liiketoimintatietojen yhdistäminen Power BI:hin](across-how-use-financials-data-source-powerbi.md).  
 
-Voit ehkä aloittaa käyttämisen [!INCLUDE [prodshort](includes/prodshort.md)]ista. Valitse roolikeskuksen Power BI -roolikeskuksessa **Raporttivalinta**. Valitse valintanauhassa joko **Palvelu** tai **Oma organisaatio**. Kun jompikumpi vaihtoehto valitaan, siirry joko Power BI:n organisaatiovalikoimaan tai Power BI:n palvelukirjastoon, joka voidaan myös suodattaa näyttämään vain [!INCLUDE[prodshort](includes/prodshort.md)]iin liittyvät sisältöpaketit.
+### <a name="to-connect-your-data-in-power-bi"></a>Tietojen yhdistäminen Power BI:hin
 
-2. Valitse **Palvelut**-ruudussa **Hae**. Avautuvalla sivulla näkyy **AppSource** ja **Power BI -sovellusten sovellukset**.  
-![Sisältöpakettien valitseminen verkkopalveluista](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-online-services-get.png)
-3. Valitse ensin **Sovellukset** **Power BI -sovellusten sovellukset** -välilehdessä ja sitten käytettävä **Microsoft Dynamics 365 Business Central** -sisältöpaketti. Valitse lopuksi **Hae se nyt**.  
-![Valitse ensin Dynamics 365 Business Central ja sitten Hae se nyt](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-dynamics365-for-financials-get-it-now.png)
-4. Anna kysyttäessä *yrityksen nimi* [!INCLUDE[d365fin_md](includes/d365fin_long_md.md)]issa. Se ei ole näyttönimi. Yrityksen nimi sijaitsee [!INCLUDE[d365fin_md](includes/d365fin_long_md.md)] -instanssin Yritykset-sivulla.  
-![Valitse ensin Dynamics 365 Business Central ja sitten Hae se nyt](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-connect-to-d365-business-central-finance.png)
-5. Kun yhteys on muodostettu, koontinäyttö, raportti ja tietojoukko ladataan automaattisesti Power BI -työtilaan. Kun tämä on tehty, ruudut päivittävät tiedot [!INCLUDE[d365fin_md](includes/d365fin_long_md.md)] -yrityksestä.
-![Valitse ensin Dynamics 365 Business Central ja sitten Hae se nyt](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
+1. Avaa selain, siirry sivustoon https://powerbi.microsoft.com ja kirjaudu tilille.
+2. Valitse **Nouda tiedot** vasemman siirtymisruudun alareunassa.  
 
-## <a name="what-now"></a>Mitä seuraavaksi?
+    ![Siirtyminen tietoja noudettaessa](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
 
-- Kokeile [kysymyksen kirjoittamista kysymys- ja vastausruutuun](https://docs.microsoft.com/en-us/power-bi/service-q-and-a-tips) koontinäytön yläreunassa.
-- [Vaihda ruutuja](https://docs.microsoft.com/en-us/power-bi/service-dashboard-edit-tile) koontinäytössä.  
-- [Avaa taustalla oleva raportti valitsemalla ruutu](https://docs.microsoft.com/en-us/power-bi/service-dashboard-tiles).  
-- Vaikka tietojoukko on ajoitettu päivittymään kerran päivässä, voit muuttaa päivitysaikataulua. Voit myös kokeilla sen päivittämistä tarvittaessa **Päivitä nyt** -vaihtoehdolla.
+    Voit aloittaa käyttämisen myös [!INCLUDE [prodshort](includes/prodshort.md)]ista. Siirry aloitussivulla Power BI -osan **raporttivalintaan**. Valitse valintanauhassa joko **Palvelu** tai **Oma organisaatio**. Kun jompikumpi vaihtoehto valitaan, siirry joko Power BI:n organisaatiovalikoimaan tai Microsoft AppSourceen, joka voidaan myös suodattaa näyttämään vain [!INCLUDE[prodshort](includes/prodshort.md)]iin liittyvät sovellukset.
+
+3. Valitse **Palvelut**-ruudussa **Hae**. Avautuvalla sivulla näkyy **AppSource** ja **Power BI -sovellukset**.  
+
+<!--    ![Choose apps from online services that you use.](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-online-services-get.png)-->
+4. Valitse ensin **Sovellukset** **Power BI -sovellukset** -välilehdessä ja sitten käytettävä **Microsoft Dynamics 365 Business Central** -sovellus. Valitse lopuksi **Hae se nyt**.  
+<!--    ![Select Dynamics 365 Business Central and select Get it now](./media/across-how-to-connect-powerbi-d365-content-packspowerbi-dynamics365-for-financials-get-it-now.png)/-->
+5. Anna pyydettäessä sen yrityksen nimi [!INCLUDE[prodshort](includes/prodshort.md)]issa, johon haluat yhdistää. Se ei ole näyttönimi. Yrityksen nimi on [!INCLUDE[prodshort](includes/prodshort.md)] -esiintymän **Yritykset**-sivulla.  
+
+    > [!NOTE]
+    > Jos yhdistää paikalliseen [!INCLUDE [prodshort](includes/prodshort.md)] -versioon, *Verkkopalvelun URL-osoite* -parametri on määritettävä. Se löytyy [!INCLUDE [prodshort](includes/prodshort.md)]in **Verkkopalvelut**-sivulta. [!INCLUDE [server](includes/server.md)]in esiintymä on määritettävä perustason todennuksella. Lisäksi on määritettävä käyttäjä ja kyseisen käyttäjän verkkokäyttöavain tämän salasanaksi. Korvaa seuraavassa esimerkissä *myserver:7048* [!INCLUDE [server](includes/server.md)]in nimellä ja *CRONUS%20US* oman yrityksen nimellä.  
+    > ```https://myserver:7048/BC140/ODataV4/Company('CRONUS%20US')/```
+
+6. Kun yhteys on muodostettu, koontinäyttö ja raportit lisätään Power BI -työtilaan. Kun tämä on tehty, ruudut näyttävä [!INCLUDE[prodshort](includes/prodshort.md)] -yrityksen tiedot.
+
+    ![Dynamics 365 Business Centralin ja Hae se nyt -vaihtoehdon valinta](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
+
+### <a name="what-now"></a>Mitä seuraavaksi?
+
+- Kokeile [kysymyksen kirjoittamista kysymys- ja vastausruutuun](/power-bi/service-q-and-a-tips) koontinäytön yläreunassa.
+- [Vaihda ruutuja](/power-bi/service-dashboard-edit-tile) koontinäytössä.  
+- [Avaa taustalla oleva raportti valitsemalla ruutu](/power-bi/service-dashboard-tiles).  
+- Tietojoukko ei oletusarvoisesti sisälly päivitykseen. Voit muuttaa päivitysaikataulua tai yrittää päivittämistä tarvittaessa **Päivitä nyt** -toiminnolla. Lisätietoja on kohdassa [Aikataulutetun päivityksen määrittäminen](/power-bi/refresh-scheduled-refresh).
+
+## <a name="power-bi-in-include-prodshortincludesprodshortmd"></a>Power BI [!INCLUDE [prodshort](includes/prodshort.md)] -ratkaisussa
+
+[!INCLUDE [prodshort](includes/prodshort.md)] -aloitussivulla voi olla Power BI -hallintaelementti, joka voidaan määrittää näyttämään Power BI -raportteja aloitussivulla.
+
+> [!IMPORTANT]
+> Sinulla on oltava kelvollinen [!INCLUDE [prodshort](includes/prodshort.md)]- ja Power BI -tili. Jos haluat muokata raportteja, myös Power BI Desktop on ladattava. Lisätietoja on kohdassa [Business Centralin käyttäminen Power BI -tietolähteenä](across-how-use-financials-data-source-powerbi.md).  
+
+### <a name="on-first-login"></a>Ensimmäinen kirjautuminen
+
+Kun kirjaudut [!INCLUDE [prodshort](includes/prodshort.md)] -ratkaisuun ensimmäisen kerran, aloitussivun Power BI -osa on tyhjä. Raporttien näkemistä varten Power BI -yhteys on muodostettava ensin valitsemalla *Aloita Power BI:n käyttö* -linkki.
+
+[!INCLUDE [prodshort](includes/prodshort.md)] on sitten yhteydessä Power BI:hin ja selvittää, onko sinulla kelvollinen Power BI -tili. Kun käyttöoikeus on tarkistettu, Power BI:n oletusraportit näkyvät aloitussivulla.
+
+### <a name="selecting-power-bi-reports"></a>Power BI -raporttien valitseminen
+
+Aloitussivun Power BI -ohjausobjekti voi näyttää minkä tahansa Power BI -raportin. Voit tarkastella aiemmin luotua raporttia valitsemalla **Valitse raportti** -toiminto avattavasta Power BI -komentoluettelosta.  
+
+Raportin valintasivulla on luettelo on kaikista niistä Power BI -raporteista, joita voit käyttää. Tämä luettelo noudetaan Power BI -työtilasta. Ota käyttöön kaikki ne raportit, jotka haluat näyttää aloitussivulla, ja valitse sitten OK. Palaat aloitussivulle ja viimeinen käyttöönotettu raportti tulee näkyviin. Siirry raporttien välillä käyttämällä avattavan komentoluettelon edellinen- ja seuraava-komentoja.  
+
+### <a name="get-reports"></a>Raporttien lataaminen
+
+Jos Valitse raportit -sivulla ei näy raportteja tai jos et näe haluamaasi raporttia. Voit valita raporttien lataamisen *omasta organisaatiosta* tai *palveluista*.
+Valitse *Oma organisaatio* siirtymällä Power BI -palveluihin, joissa voit tarkastella raportteja siinä organisaatiossa, jossa sinulla on raporttien tarkasteluoikeudet, ja lisää ne työtilaan. Siirry Microsoft AppSourceeen, jossa voit asentaa Power BI -sovelluksia, valitsemalla *Palvelut*.  
+
+Voit myös valita uusien Power BI -raporttien luomisen. Kun nämä raportit on julkaistu Power BI -työtilaan, ne näkyvät tällä sivulla.  
+
+### <a name="managing-reports"></a>Raporttien hallinta
+
+Voit valita aloitussivun Power BI -osassa **Raportin hallinta** -toiminnon avattavasta ohjausobjektiluettelosta. Tällä tavoin voit muokata raporttia, joka oli roolikeskuksen keskiössä.  
+
+Raporttia voi muokata ja sen voi tallentaa.  Raporttiin tehdyt muutokset näkyvät kaikille raportin jakaville käyttäjille, sillä muokkaat raporttia, joka on tallennettu Power BI -palveluun.  
+
+Kun olet tehnyt muutokset, valitse Tallenna. Jos kyse on jaettu raportti, voit valita Tallenna nimellä, jolloin muutos ei koske kaikkia käyttäjiä.
+Palaa roolikeskukseen, jossa päivitetty raportti tulee näkyviin. Jos käytit Tallenna nimellä -komentoa, valittu raportin sivu on avattava ja uusi raportti otettava käyttöön.
+
+### <a name="uploading-reports"></a>Raporttien lataaminen
+
+Voit ladata uusia Power BI -raportteja ja jakaa ne kaikkien [!INCLUDE [prodshort](includes/prodshort.md)] -käyttäjiesi kanssa. Raportit jaetaan kussakin [!INCLUDE [prodshort](includes/prodshort.md)] -yrityksessä.  
+
+Lataa raportti valitsemalla **Lataa raportti** -toiminto avattavasta komentoluettelosta. Voit sitten ladata. pbix-tiedoston, joka määrittää jaettavat raportit. Voit muuttaa tiedoston oletusnimeä.  
+
+Kun raportti on ladattu Power BI -työtilaan, se latautuu automaattisesti kaikkien kyseisen yrityksen käyttäjien Power BI-työtiloihin, kun he kirjautuvat seuraavan kerran [!INCLUDE [prodshort](includes/prodshort.md)]iin.
 
 ## <a name="system-requirements"></a>Järjestelmävaatimukset
-Jos haluat tuoda [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]in tietoja Power BI:hen, sinulla on oltava tietojen noutamiseen käytettävien verkkopalvelujen käyttöoikeudet. Kunkin sisältöpaketin kanssa on käytettävä esimerkiksi seuraavia verkkopalveluja:
 
-### <a name="role-center-reports"></a>Roolikeskuksen raportit
+Jos haluat tuoda [!INCLUDE[prodshort](includes/prodshort.md)]in tietoja Power BI:hin, sinulla on oltava tietojen noutamiseen käytettävien verkkopalvelujen käyttöoikeudet. Kullekin Power BI -sovellukselle tarvitaan esimerkiksi seuraavat verkkopalvelut:
 
-**Microsoft Dynamics 365 Business Central – CRM**
+### <a name="microsoft-dynamics-365-business-central--crm"></a>Microsoft Dynamics 365 Business Central – CRM
+
 - Myyntimahdollisuudet
-- Excel-malli Näytä yritys
+- Excel-malli Näytä yrityksen tiedot
 - Power BI -raporttien selitteet
 
-**Microsoft Dynamics 365 Business Central – Finance**
+### <a name="microsoft-dynamics-365-business-central--finance"></a>Microsoft Dynamics 365 Business Central – Finance
+
 - PowerBIFinance
-- Excel-malli Näytä yritys
+- Excel-malli Näytä yrityksen tiedot
 - Power BI -raporttien selitteet
 
-**Microsoft Dynamics 365 Business Central – Sales**
+### <a name="microsoft-dynamics-365-business-central---sales"></a>Microsoft Dynamics 365 Business Central – Sales
+
+- Asiakaskohtainen nimikemyynti
 - Myynnin koontinäyttö
 - Excel-malli Näytä yritys
 - Power BI -raporttien selitteet
 
+> [!NOTE]
+> Paikallinen [!INCLUDE [prodshort](includes/prodshort.md)] käyttää samaa verkkopalvelua ja päätepisteitä kuin [!INCLUDE [prodshort](includes/prodshort.md)] -verkkoversio.
+
 ## <a name="web-services"></a>WWW-palvelut
-Verkkopalveluja voi etsiä kätevästi hakemalla [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]in verkkopalveluja. Varmista, että edellä mainittujen verkkopalvelujen Julkaise-ruutu on valittu luettelossa.
+
+Verkkopalveluja voi etsiä kätevästi hakemalla *verkkopalveluja* [!INCLUDE[prodshort](includes/prodshort.md)]issa. Varmista **Verkkopalvelut**-sivulla, että **Julkaisu**-kenttä on valittuna edellä mainituissa verkkopalveluissa.
 
 ## <a name="troubleshooting"></a>Vianetsintä
-Power BI:n koontinäyttö käyttää julkaistuja edellä mainittuja verkkopalveluita. Koontinäytössä ovat esittely-yrityksen tiedot tai oman yrityksesi tiedot, jos toit tiedot nykyisestä rahoitusratkaisustasi. Tämä osa sisältää ratkaisun tyypillisempiin ongelmiin.
 
-### <a name="incorrect-company-name"></a>Virheellinen yrityksen nimi  
+Power BI:n koontinäyttö käyttää julkaistuja edellä mainittuja verkkopalveluita. Koontinäytössä ovat esittely-yrityksen tiedot tai oman yrityksesi tiedot, jos toit tiedot nykyisestä rahoitusratkaisustasi. Tämä osa sisältää ratkaisun tyypillisempiin ongelmiin.  
+
+### <a name="you-do-not-have-a-power-bi-account"></a>Power BI -tiliä ei ole
+
+Power BI -tiliä ei ole määritetty. Kelvollinen Power BI -tili edellyttää, että sinulla on käyttöoikeus ja että olet aiemmin kirjautunut Power BI:iin. Jos näin on, Power BI -työtila on voitu luoda.  
+
+### <a name="you-need-a-power-bi-pro-license-to-install-the-include-prodshortincludesprodshortmd-app-in-power-bi"></a>[!INCLUDE [prodshort](includes/prodshort.md)] -sovelluksen asentaminen Power BI:ihin edellyttää Power BI Pro -käyttöoikeutta.
+
+Vain käyttäjät, joilla on Power BI Pro -käyttöoikeus, voivat asentaa Power BI -sovelluksia. Kun Power BI -sovellus on asennettu, voit jakaa sen sellaisten käyttäjien kanssa, joilla ei ole Power BI Pro -käyttöoikeutta.  
+
+### <a name="parameter-validation-failed-please-make-sure-all-parameters-are-valid"></a>Parametrin tarkistus epäonnistui. Varmista, että kaikki parametrit ovat sallittuja.
+
+Tämä virhe ilmaisee, että vähintään yksi parametreista on virheellinen.
+
+- Määritys yritysparametri ei vastaa mitään aiemmin luotua [!INCLUDE [prodshort](includes/prodshort.md)] -yritystä. Tarkista yrityksen nimi [!INCLUDE [prodshort](includes/prodshort.md)]in **Yritykset**-sivulla.
+- Yhteys muodostetaan paikalliseen [!INCLUDE [prodshort](includes/prodshort.md)] -versioon. Antamasi URL-osoite ei kelpaa. Voit tarkistaa URL-osoitteen [!INCLUDE [prodshort](includes/prodshort.md)]in **Verkkopalvelut**-sivulla  
+- Porttia ei ole avattu, joten pyyntö ei läpäise palomuuria.
+
+### <a name="login-failed"></a>Sisäänkirjautuminen epäonnistui
+
+Jos näyttöön tulee sisäänkirjautumisen epäonnistumista ilmoittava virhe sen jälkeen, kun kirjauduit [!INCLUDE [prodshort](includes/prodshort.md)] -tunnistetiedoilla, syynä on luultavasti jokin seuraavista:
+
+- Käyttämälläsi tilillä ei ole [!INCLUDE [prodshort](includes/prodshort.md)]in tietojen hakuoikeuksia. Tarkista, että sinulla on tarvittavien [!INCLUDE [prodshort](includes/prodshort.md)] -tietojen oikeudet ja yritä uudelleen.
+- Olet valinnut jonkin muun kuin perustason todennustyypin, jos yhteys on muodostettu paikalliseen [!INCLUDE [prodshort](includes/prodshort.md)] -versioon.
+- Et ole antanut oikeaa käyttäjänimeä tai salasanaa.
+
+### <a name="incorrect-company-name"></a>Virheellinen yrityksen nimi
+
 Yleinen virhe on antaa yrityksen näyttönimi yrityksen nimen sijaan. Voit etsiä yrityksen nimen hakusanalla **Yritykset**. Anna sitten yrityksen nimi **Nimi**-kentässä.
 
-### <a name="incorrect-user-name-and-password"></a>Virheellinen käyttäjänimi ja salasana  
-Power BI järjestelmän käyttäjätunnus ja salasana ovat samat kuin Microsoft Office 365 tilisi.  
-Sisältöpaketit edellyttävät myös, että sinulla Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] -tili. Kun olet antanut tunnistetietosi, järjestelmä havaitsee automaattisesti ne Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] -vuokraajat, joiden käyttöoikeus sinulla on. Jos sinulla ei ole Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] -tilin käyttöoikeutta tai kokeiluversiota, saat virhesanoman.
-
 ### <a name="the-key-didnt-match-any-rows-in-the-table"></a>Avain ei vastannut mitään taulukon riviä
+
 Jos annat yhteydenmuodostusprosessin aikana yrityksen nimen, joka ei ole sallittu, näyttöön voi avautua virhesanoma, jonka mukaan avain ei vastannut mitään taulukon riviä. Anna oikea yrityksen nimi ja yritä muodostaa yhteys uudelleen.
 
+### <a name="historical-data-appears-to-be-missing"></a>Historiatietoja näyttää puuttuvan
+
+Kun Power BI -sovellus on asennettu ja tiedot näkyvät Power BI:ssä, olet ehkä huomannut, että kaikki tietosi eivät näy. Tietojoukot suodatetaan palauttamaan vain viimeisen 365 päivän tiedot. Tämä oletus on käytössä raporttien nopeuttamiseksi.  
+
+### <a name="i-only-see-data-for-a-single-company"></a>Vain yhden yrityksen tiedot näkyvät
+
+Power BI -sovellus näyttää vain sen [!INCLUDE [prodshort](includes/prodshort.md)] -yrityksen tiedot, joka määritettiin Power BI -sovelluksen asennuksen yhteydessä. Muiden yrityksen tietoja voidaan lisätä raporttiin lisäämällä uusi kyselyjä, jotka käyttävät eri yrityksiä tietolähteenä.  
+
 ## <a name="see-also"></a>Katso myös
-[Power BI:n käytön aloittaminen](https://docs.microsoft.com/en-us/power-bi/service-get-started)  
-[Power BI – peruskäsitteet](https://docs.microsoft.com/en-us/power-bi/service-basic-concepts)  
+
+[Power BI:n käytön aloittaminen](/power-bi/service-get-started)  
+[Power BI – peruskäsitteet](/power-bi/service-basic-concepts)  
+[Power BI:n sovellukset](/power-bi/consumer/end-user-app)  
+[Pika-aloitus: Tietojen yhdistäminen Power BI Desktopiin](/power-bi/desktop-quickstart-connect-to-data)  
 [Business Intelligence](bi.md)  
 [Käytön aloittaminen](product-get-started.md)  
 [Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittäminen](setup.md)  
-[Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen Power BI:n tietolähteenä](across-how-use-financials-data-source-powerbi.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen PowerApps-tietolähteenä](across-how-use-financials-data-source-powerapps.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen Microsoft Flow'ssa](across-how-use-financials-data-source-flow.md)   
+[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen Microsoft Flow'ssa](across-how-use-financials-data-source-flow.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

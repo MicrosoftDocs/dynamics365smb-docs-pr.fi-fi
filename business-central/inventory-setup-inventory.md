@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 04/01/2019
+ms.date: 06/20/2019
 ms.author: SorenGP
-ms.openlocfilehash: 038e3a9bfdb66a8d714f4f9452f0322623e6ddc4
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 53214df635c637e265c6d302498beee08e9b806c
+ms.sourcegitcommit: acbbe80503e61296310ea7f787a9d7f4bc6dccd7
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238507"
+ms.lasthandoff: 08/12/2019
+ms.locfileid: "1870521"
 ---
 # <a name="setting-up-inventory"></a>Varaston määrittäminen
 Ennen varastoaktiviteettien ja varaston arvostuksen hallinnan aloittamista on määritettävä yrityksen varastonhallintakäytäntöjen säännöt ja arvot.
@@ -32,6 +32,7 @@ Kun olet määrittänyt varaston, voit hallita nimiketapahtumien liittyviä eril
 |Määritä tehokas jakelumallin, joka sisältää liikekumppaneille tai työntekijöille määritetyn eri sijaintien ja vastuupaikkojen yhdistelmän.|[Vastuupaikkojen käyttäminen](inventory-responsibility-centers.md)|
 | Järjestele varastonhallinta usealle sijainnille, mukaan lukien siirtoreitit. |[Sijaintien määrittäminen](inventory-how-register-new-items.md) |
 | Luo nimikkeen kortteja varasto- tai huoltonimikkeille tai muille kuin varastonimikkeille, joilla käyt kauppaa. |[Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md) |
+|Luo **Kopioi nimike** -nimikkeellä nopeasti uusi nimikekortti aiemmin luodun kortin perusteella.|[Uusien nimikkeiden luominen kopioimalla aiemmin luotuja nimikkeitä](inventory-how-copy-items.md)|
 |Lisätietoja **Tyyppi**-kentän täyttämisestä nimikkeen korteissa liiketoiminnan tarkoituksen mukaan.|[Tietoja nimiketyypeistä](inventory-about-item-types.md)|
 |Määritä nimikkeelle useita vaihtoehtoisia mittayksiköitä, joita voit esimerkiksi myynti-, osto- tai tuotantotapahtumissa.|[Nimikkeen mittayksiköiden määrittäminen](inventory-how-setup-units-of-measure.md)|
 |Täydennä nimike kortteja tallentamalla niihin tietoja nimikkeestä tietyn sijainnin ja/tai tietyn varianttikoodin perusteella.|[Varastointiyksiköiden määrittäminen](inventory-how-to-set-up-stockkeeping-units.md)|

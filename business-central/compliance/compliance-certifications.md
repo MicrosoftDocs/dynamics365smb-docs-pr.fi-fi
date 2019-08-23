@@ -9,21 +9,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 07/31/2019
 ms.author: soalex
-ms.openlocfilehash: b18fa9511d8d79a2954dca57250a04905e5d0efa
-ms.sourcegitcommit: e8abfb78e13f3c29035087b09d7930f2950ab7a3
+ms.openlocfilehash: ac7f649e25393e4d75644736f61b8930855b8e3b
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/01/2019
-ms.locfileid: "1717605"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796640"
 ---
 # <a name="certifications"></a>Sertifikaatit  
 Tässä sisällössä on tietoja [!INCLUDE[d365fin](../includes/d365fin_md.md)]iin liittyvistä varmenteista.  
 
 ## <a name="country-certifications-and-accreditations"></a>Maakohtaiset sertifioinnit ja akkreditoinnit
 Joissakin maissa kirjanpito-ohjelmiston on sertifioitava paikallisia verosäädöksiä ja taloushallintovaatimuksia noudattavaksi. Joissakin maissa se on tehtävä vuosittain, kun taas toisissa riittää, että se tehdään kerran. Seuraavassa luettelossa on mainittu maat, joissa Business Centralilla on kyseiset sertifioinnit. Huomaa, että tämä vaatimus on vain joissakin maissa.  
-- Ranska (verotarkastussertifiointi) [(linkki ranskankieliseen sertifiointiin)](https://services.infocert.org/certificats/CERTIF-07-181-R16.pdf) 
+- Ranska (verotarkastussertifiointi) [(linkki ranskankieliseen sertifiointiin)](https://certificates.infocert.org/certificates/CERTIF-07-181-R16.pdf) 
 - Saksa (kattaa myös Itävallan ja Sveitsin) [(linkki saksankieliseen sertifiointiin)](https://www.bdo.de/de-de/themen/softwarebescheinungen/bdo/microsoft-dynamics-365-business-central)
 
 > [!NOTE]  

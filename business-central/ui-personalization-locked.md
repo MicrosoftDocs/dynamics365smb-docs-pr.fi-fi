@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 64995372f68ed2804bc165823dacc34ad6a3194d
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 1a3edaca2e76388d82ea8991c3196410dd9c7288
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251283"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796757"
 ---
 # <a name="why-a-page-is-locked-from-personalization"></a>Sivun mukauttamisen estäminen lukitsemalla
 
@@ -55,7 +55,7 @@ Jos Mukautetaan-palkissa on ![Mukautuksen esto](media/personalization-blocked-ic
 
 ![Mukautuksen esto](media/personalization-blocked.png "Mukautuksen esto")
 
-Syynä on se, että käyttäjätiliin tällä hetkellä liitetty roolikeskus tai profiili muokkaa tätä sivua roolin mukaisesti. Pyydä apua järjestelmänvalvojalta tai jos se tuntuu järkevältä, yritä vaihtaa roolikeskukseen, joka sisältää tämän sivun roolin mukauttamisen. (Valitse [**Omat asetukset**](https://businesscentral.dynamics.com?page=9176 "Siirry suoraan Business Centralin käyttäjäasetusten sivulle").)
+Syynä on se, että käyttäjätiliin tällä hetkellä liitetty roolikeskus tai rooli muokkaa tätä sivua roolin mukaisesti. Pyydä apua järjestelmänvalvojalta tai jos se tuntuu järkevältä, yritä vaihtaa roolikeskukseen, joka sisältää tämän sivun roolin mukauttamisen. (Valitse [**Omat asetukset**](https://businesscentral.dynamics.com?page=9176 "Siirry suoraan Business Centralin käyttäjäasetusten sivulle").)
 
 ## <a name="see-also"></a>Katso myös
 [Työtilan mukauttaminen](ui-personalization-manage.md)  

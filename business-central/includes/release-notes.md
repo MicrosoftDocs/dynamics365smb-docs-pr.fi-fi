@@ -2,4 +2,4 @@
 >
 > Haluatko tietoja tulevista ja juuri julkaistuista Dynamics 365 Business Centralin ominaisuuksista?
 >
-> [Tutustu julkaisusuunnitelman uusimpaan versioon](/business-applications-release-notes/April19/dynamics365-business-central/). Se sisältää kaikki tiedot. Julkaisusuunnitelmat löytyvät jopa yhtenä PDF-tiedostona, jota voi käyttää apuna suunnittelussa.  
+> [Tutustu julkaisusuunnitelman uusimpaan versioon](/dynamics365/release-plans/index). Olemme koonneet kaikki tarvittavat tiedot, joita voit käyttää suunnittelun apuna. Kunkin version yhteydessä julkaisusuunnitelma annetaan yhtenä PDF-tiedostona.  

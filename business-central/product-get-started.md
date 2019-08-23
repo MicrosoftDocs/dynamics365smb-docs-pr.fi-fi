@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: setup wizard
 ms.date: 06/13/2019
 ms.author: edupont
-ms.openlocfilehash: 91ade518beb551d7b9c30cef0eef3c5c72b366aa
-ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
+ms.openlocfilehash: dd3cf008e2d16a8d63c9fea930ddcb4ba14072a2
+ms.sourcegitcommit: 5bcc5f95e450ee9a3d9f7a380e592a5e75c4185b
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1629939"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1858287"
 ---
-# <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]in käytön aloittaminen
+# <a name="getting-started-with-included365fin_longincludesd365fin_long_mdmd"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]in käytön aloittaminen
 [!INCLUDE[d365fin](includes/d365fin_md.md)] on pienille ja keskisuurille organisaatioille tarkoitettu liiketoiminnan hallintaratkaisu, joka automatisoi ja selkeyttää liiketoiminnan prosesseja sekä auttaa liiketoiminnan hallinnassa. Rekisteröityminen on helppoa, ja voit siirtää aiemmin luodut yritystiedot vanhojen tietojen järjestelmästä. Jos tarvitset apua tilaukseen liittyvissä asioissa, etsi [!INCLUDE[d365fin](includes/d365fin_md.md)] -kumppani [täältä](https://www.microsoft.com/en-us/solution-providers/search).  
 
 Kun olet rekisteröitynyt [!INCLUDE[d365fin](includes/d365fin_md.md)]in esikatseluun, saat käyttöösi käyttää esittely-yrityksen. Esittely-yritys sisältää mallitietoja. Voit kuitenkin luoda esimerkiksi omia myyntiasiakirjoja tai määrittää pankkitilin.  
 
-## <a name="get-to-know-included365finincludesd365finmdmd"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)]iin tutustuminen
+## <a name="get-to-know-included365finincludesd365fin_mdmd"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)]iin tutustuminen
 [!INCLUDE[d365fin](includes/d365fin_md.md)]issa on sekä tuttuja että uusia ominaisuuksia. Esittely-yrityksen visuaaliset opasteet selittävät perustoimintoja sekä auttavat kokeilemaan päivittäisiä tehtäviä, kuten luomaan myyntilaskun ja näyttämään raportin. Jos poistut oppaasta, koska haluat esimerkiksi tutustua [!INCLUDE[d365fin](includes/d365fin_md.md)]in itsenäisesti, voit palata oppaaseen siirtymällä roolikeskukseen ja käynnistämällä Aloitusopas-esittelyn. Jos haluat apua, ota yhteyttä [!INCLUDE[d365fin](includes/d365fin_md.md)] -kumppaniin.  
 
 > [!TIP]  
@@ -87,7 +87,7 @@ Jos sinulla on lisää kysymyksiä, kysy asiaa yhteisöltä tai ota yhteys jäll
 Aina kun kirjaudut sovellukseen kokeilujakson aikana, jäljellä oleva aika näkyy yläreunassa olevassa sinisessä palkissa. Jos päätät tehdä tilauksen, voit etsiä [!INCLUDE[d365fin](includes/d365fin_md.md)] -kumppanin [täältä](https://www.microsoft.com/en-us/solution-providers/search). Voit ottaa yhteyttä myös [[!INCLUDE[d365fin](includes/d365fin_md.md)] -myyntiryhmään](https://go.microsoft.com/fwlink/?linkid=828707).  
 
 ## <a name="other-dynamics-365-apps"></a>Muut Dynamics 365 -sovellukset
-Voit tutustua muita Dynamics 365 -sovelluksia käsittelevään sisältöön valitsemalla [Dynamics 365](https://docs.microsoft.com/dynamics365) -linkin tämän sivun yläosassa olevassa sinisessä palkissa. Lisätietoja on myös [Dynamics 365 Business Central -sivustossa](https://dynamics.microsoft.com/en-us/business-central/overview/).  
+Voit tutustua muita Dynamics 365 -sovelluksia käsittelevään sisältöön valitsemalla [Dynamics 365](/dynamics365/) -linkin tämän sivun yläosassa olevassa sinisessä palkissa. Lisätietoja on myös [Dynamics 365 Business Central -sivustossa](https://dynamics.microsoft.com/en-us/business-central/overview/).  
 
 Jos olet kirjanpitäjä, voit rekisteröityä [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]iin, jolloin pääset käyttävään sujuvaa [!INCLUDE[d365fin](includes/d365fin_md.md)] -integraatiota…. Lisätietoja on kohdassa [Tervetuloa Dynamics 365 – Accountant Hubiin](/dynamics365/accountants/index).
 
@@ -99,7 +99,7 @@ Jos olet kirjanpitäjä, voit rekisteröityä [!INCLUDE[d365acc_long](includes/d
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen Outlookin yrityssähköpostina](admin-outlook.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]in hakeminen mobiililaitteeseen](install-mobile-app.md)  
 [Ohje- ja tukiresurssit](product-help-and-support.md)  
-[Dynamics 365:n dokumentaatio](https://docs.microsoft.com/en-us/dynamics365/)  
+[Dynamics 365:n dokumentaatio](/dynamics365/)  
 [Microsoft Dynamics 365 Business Centralin julkaisusuunnitelma](https://go.microsoft.com/fwlink/?linkid=2047422)  
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client
-ms.date: 04/01/2019
+ms.date: 07/22/2019
 ms.author: sgroespe
-ms.openlocfilehash: 45fb2f1ac2b9d26e74e625321a64b4a5033880bf
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 195ab393046d56611445d7cba9ed39cdbaf75454
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252502"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796794"
 ---
 # <a name="register-new-customers"></a>Uusien asiakkaiden rekisteröinti
 Asiakkaat ovat tulonlähteesi. Jokainen asiakas, jolle myyt, on rekisteröitävä asiakaskorttina. Asiakkaan kortit sisältävät tietoja, jotka tarvitaan tuotteiden asiakkaalle myymistä varten. Lisätietoja on kohdissa [Myynnin laskutus](sales-how-invoice-sales.md) ja [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md).  
@@ -54,6 +54,7 @@ Jos haluat käyttää tätä asiakkaan korttia mallina, kun luot uusia asiakkaan
 Asiakasmalli lisätään asiakasmallien luetteloon niin, että sen avulla voit luoda uusia asiakkaiden kortteja.
 
 ## <a name="see-also"></a>Katso myös
+[Maksutapojen määrittäminen](finance-payment-methods.md)  
 [Tietueiden kaksoiskappaleiden yhdistäminen](sales-how-merge-duplicate-records.md)  
 [Numerosarjojen luominen](ui-create-number-series.md)  
 [Myynti](sales-manage-sales.md)    
