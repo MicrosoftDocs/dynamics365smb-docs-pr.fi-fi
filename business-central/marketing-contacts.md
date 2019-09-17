@@ -10,21 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 05/02/2019
+ms.date: 09/06/2019
 ms.author: sgroespe
-ms.openlocfilehash: 407470afdca7a4e8b0e3cb2d2095903353e5d5b9
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: a0db1779172a9b2822ad4898e9dbf82e68b58622
+ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1446943"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "1985737"
 ---
 # <a name="managing-contacts"></a>Kontaktien hallinta
-Yrityksen eri ryhmillä on liikesuhteita erilaisiin yrityksiin. Esimerkiksi myyjä saattaa tavata mahdollisia asiakkaita säännöllisesti ja tallentaa tapaamisten tulokset viikon lopulla.
+Yrityksen työntekijät kohtaavat säännöllisesti mahdollisia liikesuhteita, joista voi kehittyä virallisia liikesuhteita. Kaikki tällaiset ulkoiset yhteyshenkilöt ja heidän eritellyt tietonsa tulee tallentaa järjestelmään, jotta viestintä onnistuu. Tämän jälkeen yhteyshenkilöt voidaan helposti muuntaa virallisesti asiakkaiksi, toimittajiksi tai pankkisuhteiksi.
 
-Kaikki ulkoiset yksiköt, joiden kanssa yritys on liikesuhteessa (esimerkiksi asiakkaat, mahdolliset asiakkaat, toimittajat, juristit ja konsultit), tallennetaan kontakteina. Kun nämä tiedot on tallennettu yhteen keskitettyyn paikkaan, jokainen yrityksen ryhmä voi tarkastella ja käyttää niitä tehokkaasti. Yhteydenpito kontaktien kanssa on tehokkaampaa, jos tiedot ovat helposti käytettävissä. Esimerkiksi markkinointihenkilö saattaa haluta tietää, mitä muita tuotteita tietty asiakas on ostanut, ennen kuin tarjoaa asiakkaalle uutta tuotetta.
-
-Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisiin.
+Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aiheisiin.
 
 | Vastaanottaja | Katso |
 | --- | --- |

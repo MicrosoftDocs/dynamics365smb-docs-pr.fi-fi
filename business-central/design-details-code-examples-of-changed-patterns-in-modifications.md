@@ -13,12 +13,12 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 redirect_url: design-details-dimension-set-entries
-ms.openlocfilehash: 5bb5e5713ed23877006ebb913e01416feac69266
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 59fce0a432c7f433552cff21ef304fa16fa85a8a
+ms.sourcegitcommit: 1fa3d33db7bc71e3a27c826308a80ff24a436a72
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1243432"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "1970899"
 ---
 # <a name="design-details-code-examples-of-changed-patterns-in-modifications"></a>Rakennetiedot: koodiesimerkkejä muuttuneista kuvioista muutoksissa
 Tämän ohjeaiheen koodiesimerkit näyttävät dimensiokoodin muokkauksen muuttuneet mallit ja siirron viiteen erilaiseen skenaarioon. Se vertaa koodiesimerkkejä aiemmissa versioissa koodiesimerkkeihin Business Centralissa.
@@ -195,6 +195,5 @@ GetSalesHeader;
 ```  
 
 ## <a name="see-also"></a>Katso myös  
-[Rakennetiedot: Dimensioyhdistelmätapahtumat](design-details-dimension-set-entries.md)   
+[Rakennetiedot: dimensioyhdistelmä-tapahtumat](design-details-dimension-set-entries.md)   
 [Rakennetiedot: taulukkorakenne](design-details-table-structure.md)   
-[Rakennetiedot: koodiyksikön 408 dimension hallinta](design-details-codeunit-408-dimension-management.md)

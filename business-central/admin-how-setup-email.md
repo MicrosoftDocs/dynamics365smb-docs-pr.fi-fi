@@ -9,47 +9,49 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 07/12/2019
+ms.date: 09/09/2019
 ms.author: edupont
-ms.openlocfilehash: 5f1afacec447e645136321b73b6dd3fab8b36fe0
-ms.sourcegitcommit: f5050fd209b8d66722c81abe48c4c0a6f749a1f7
+ms.openlocfilehash: b9a443072d13e3cbf5f8e07006bea5477c275968
+ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1740477"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "1985932"
 ---
-# <a name="set-up-email-manually-or-using-the-assisted-setup"></a>Sähköpostin määrittäminen manuaalisesti tai asetusten ohjatun määrityksen käyttäminen
-Jos haluat lähettää ja vastaanottaa sähköpostiviestejä [!INCLUDE[d365fin](includes/d365fin_md.md)]issa, **SMTP-sähköpostiasetukset**-sivun kentät on täytettävä.
+# <a name="set-up-email"></a>Määritä sähköposti
+Jos haluat lähettää ja vastaanottaa sähköpostiviestejä [!INCLUDE[d365fin](includes/d365fin_md.md)]:ssä, SMTP-sähköpostiasetukset-sivun kentät on täytettävä.
 
-> [!NOTE]  
->   Sen sijaan että kirjoittaisit SMTP-palvelimen tiedot, voit käyttää toimintoa, joka hakee nämä tiedot Office 365 -tilauksesta.
+Sen sijaan että kirjoittaisit SMTP-palvelimen tiedot manuaalisesti, voit käyttää **Käytä Office 365 Server -asetuksia** -toimintoa, joka hakee nämä tiedot Office 365 -tilauksesta
 
 Voit määrittää sähköpostin joko manuaalisesti tai käyttää ohjattua **Sähköpostiasetukset**-määritystä. Lisätietoja on ohjeaiheessa [Valmistautuminen liiketoimintaan](ui-get-ready-business.md).  
 
 ## <a name="to-set-up-email"></a>Sähköpostin määrittäminen
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **SMTP-sähköpostin asetukset** ja valitse sitten liittyvä linkki.
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+    > [!NOTE]
+    > Jos käytössä on tili, jossa vaaditaan kaksimenetelmäinen todennus, **Salasana**-kenttään syötettävän arvon on oltava sama kuin Office 365 -tilauksessa käytettävä salasana. Salasanan tyypin on oltava **Sovelluksen salasana**.
 3. Vaihtoehtoisesti voit lisätä Office 365 -tilauksessa määritetyt tiedot valitsemalla **Käytä Office 365 Server -asetuksia** -toiminnon.
 4. Kun kaikki kentät on täytetty oikein, valitse **Testisähköpostin asetukset** -toiminto.
 5. Kun testi onnistuu, sulje sivu.
 
 ## <a name="using-a-substitute-sender-address-on-outbound-email-messages"></a>Korvaavan lähettäjän osoitteen käyttäminen lähtevissä sähköpostiviesteissä
-Kaikki [!INCLUDE[d365fin](includes/d365fin_md.md)]in lähtevät sähköpostiviestit käyttävät SMTP-sähköpostin asetussivulla määritetyn tilin oletusosoitetta edellä kuvatulla tavalla. Voit kuitenkin muuttaa Exchange-palvelimen **Lähetä –**- tai **Lähetä puolesta** -toimintoja lähtevien viestin lähettäjän osoitteen muuttamiseen. [!INCLUDE[d365fin](includes/d365fin_md.md)] käyttää oletustiliä Exchange-todennuksessa mutta joko korvaa lähettäjän osoitteen määrittämälläsi osoitteella tai muuttaa sitä puolesta-tiedolla. 
+Kaikki [!INCLUDE[d365fin](includes/d365fin_md.md)]in lähtevät sähköpostiviestit käyttävät SMTP-sähköpostin asetussivulla määritetyn tilin oletusosoitetta edellä kuvatulla tavalla. Voit kuitenkin muuttaa Exchange-palvelimen **Lähetä –**- tai **Lähetä puolesta** -toimintoja lähtevien viestin lähettäjän osoitteen muuttamiseen. [!INCLUDE[d365fin](includes/d365fin_md.md)] käyttää oletustiliä Exchange-todennuksessa mutta joko korvaa lähettäjän osoitteen määrittämälläsi osoitteella tai muuttaa sitä puolesta-tiedolla.
 
 Seuraavassa on esimerkkejä tavoista, joilla Lähetä –- tai Lähetä puolesta -toimintoja käytetään [!INCLUDE[d365fin](includes/d365fin_md.md)]issa:
 
- * Kun asiakirjoja lähetetään osto- tai myyntitilauksina toimittajille tai asiakkaille, haluat ehkä, että ne näyttävät tulevan _noreply@yourcompanyname.com_-osoitteesta. 
+ * Kun asiakirjoja lähetetään osto- tai myyntitilauksina toimittajille tai asiakkaille, haluat ehkä, että ne näyttävät tulevan _noreply@yourcompanyname.com_-osoitteesta.
  * Kun työnkulku lähettää hyväksyntäpyynnön sähköpostitse käyttämällä pyytäjän sähköpostiosoitetta.
 
 > [!Note]
 > Lähettäjän osoitteiden korvaamiseen voidaan käyttää vain yhtä tiliä. Et siis voi käyttää yhtä korvaavaa osoitetta ostoprosesseissa ja toista myyntiprosesseissa.
 
 ### <a name="to-set-up-the-substitute-sender-address-for-all-outbound-email-messages"></a>Korvaavan lähettäjän osoitteen määrittäminen kaikkiin lähteviin sähköpostiviesteihin
-1. Etsi Office 365 -tilin **Exchangen hallintakeskuksessa** postilaatikko, jota käytetään korvaavana osoitteena, ja kopioi sitten osoite tai kirjoita se muistiin. Jos tarvitset uuden osoitteen luo uusi käyttäjä Microsoft 365 -hallintakeskuksessa ja määritä käyttäjälle postilaatikko. 
+1. Etsi Office 365 -tilin **Exchangen hallintakeskuksessa** postilaatikko, jota käytetään korvaavana osoitteena, ja kopioi sitten osoite tai kirjoita se muistiin. Jos tarvitset uuden osoitteen luo uusi käyttäjä Microsoft 365 -hallintakeskuksessa ja määritä käyttäjälle postilaatikko.
 2. Valitse [!INCLUDE[d365fin](includes/d365fin_md.md)]issa ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **SMTP-sähköpostin asetukset** ja valitse sitten liittyvä linkki.
 3. Lisää korvaava osoite **Lähetä –** -kenttään.
 4. Kopioi **Käyttäjätunnus**-kentässä oleva osoite tai kirjoita se muistiin.
-5. Etsi **Exchangen hallintakeskuksessa** postilaatikko, jota käytetään korvaavana osoitteena, ja anna sitten **Käyttäjätunnus**-kentän osoite **Lähetä –** -kenttään. Lisätietoja on kohdassa [Vastaanottajien käyttöoikeuksien hallinta](https://docs.microsoft.com/en-us/Exchange/recipients/mailbox-permissions?view=exchserver-2019).
+5. Etsi **Exchangen hallintakeskuksessa** postilaatikko, jota käytetään korvaavana osoitteena, ja anna sitten **Käyttäjätunnus**-kentän osoite **Lähetä –** -kenttään. Lisätietoja on kohdassa [Vastaanottajien käyttöoikeuksien hallinta](https://docs.microsoft.com/en-us/Exchange/recipients/mailbox-permissions?view=exchserver-2019#use-the-eac-to-assign-permissions-to-individual-mailboxes).
 
 ### <a name="to-use-the-substitute-address-in-approval-workflows"></a>Korvaavan osoitteen käyttäminen hyväksymistyönkuluissa
 1. Valitse [!INCLUDE[d365fin](includes/d365fin_md.md)]issa ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **SMTP-sähköpostin asetukset** ja valitse sitten liittyvä linkki.
@@ -64,9 +66,10 @@ Seuraavassa on esimerkkejä tavoista, joilla Lähetä –- tai Lähetä puolesta
 
 
 ## <a name="see-also"></a>Katso myös  
+[Exchange Onlinen jaetut postilaatikot](https://docs.microsoft.com/en-us/exchange/collaboration-exo/shared-mailboxes)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittäminen](setup.md)  
 [Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in mukauttaminen laajennusten avulla](ui-extensions.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen yrityssähköpostina Outlookissa](admin-outlook.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]in hakeminen mobiililaitteeseen](install-mobile-app.md)

@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.date: 06/13/2019
 ms.author: bholtorf
-ms.openlocfilehash: 716e195b4e8c5b4150d7a288918c3fb84f6ac713
-ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
+ms.openlocfilehash: d0f1dfd88b30a4ec2e3a9bfd3366005a93d97f82
+ms.sourcegitcommit: 6ef7d2fae52feff786f2e15e2863d7f5aaa762be
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "1726857"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1917366"
 ---
 # <a name="using-dynamics-365-for-sales-from-business-central"></a>Dynamics 365 for Salesin käyttö Business Centralista
 Jos käytät Dynamics 365 for Salesia asiakassuhteissa, saat käyttöösi saumattoman integroinnin liidistä tuottoon käyttämällä [!INCLUDE[d365fin](includes/d365fin_md.md)]ia taustatehtäviin, kuten tilausten käsittelyyn, varastonhallintaan ja talousasioihin.
@@ -65,7 +65,7 @@ Voit tarkistaa täyden synkronoinnin yksittäisten töiden etenemisen valitsemal
 Saat **Microsoft Dynamics 365 -yhteyden määritys** -sivulla koska tahansa tietoja täydestä synkronoinnista. Voit avata siellä myös **Integrointitaulukon yhdistämismääritykset** -sivun, jossa on tietoja synkronoitavista [!INCLUDE[d365fin](includes/d365fin_md.md)] in ja Salesin taulukoista.
 
 ## <a name="handling-sales-order-data"></a>Myyntitilauksen tietojen käsitteleminen
-Salesin [!INCLUDE[crm_md](includes/crm_md.md)]iin lähetyt myyntitilaukset siirretään [!INCLUDE[d365fin](includes/d365fin_md.md)]iin, jos valitset **Luo myyntitilaukset automaattisesti** -valintaruudun **Microsoft Dynamics 365 -yhteyden määrittäminen** -sivulla.
+Salesin [!INCLUDE[crm_md](includes/crm_md.md)]iin lähetyt myyntitilaukset siirretään automaattisesti [!INCLUDE[d365fin](includes/d365fin_md.md)]iin, jos valitset **Luo myyntitilaukset automaattisesti** -valintaruudun **Microsoft Dynamics 365 -yhteyden määrittäminen** -sivulla.
 Vaihtoehtoisesti voi muuntaa [!INCLUDE[crm_md](includes/crm_md.md)]ista lähetyt myyntitilaukset manuaalisesti käyttämällä **Luo [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksessa** -toimintoa **Myyntitilaukset – Dynamics 365 for Sales** -sivulla.
 Näissä myyntitilauksissa alkuperäisen tilauksen **Nimi**-kenttä siirretään ja yhdisetään myyntitilauksen **Ulkoisen asiakirjan numero** -kenttään [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksessa.
 
@@ -74,6 +74,9 @@ Tämä voi toimia myös, jos alkuperäinen myyntitilaus sisältää käsin lisä
 Jos alkuperäisen myyntitilauksen nimikkeen kuvaus on hyvin pitkä, sitä varten [!INCLUDE[d365fin](includes/d365fin_md.md)]in myyntitilaukseen luodaan lisämyyntitilausrivi, jonka tyyppi on **Kommentti**.
 
 Myyntitilauksen otsikkokenttien, kuten Viimeisin toimituspvm tai Pyydetty toimituspvm, päivitykset, jotka on yhdistetty SALESORDER-ORDER- **integrointitaulukon yhdistämismäärityksenä**, synkronoidaan säännöllisesti [!INCLUDE[crm_md](includes/crm_md.md)]iin. Prosessit, kuten myyntitilauksen vapauttaminen ja myyntitilauksen lähettäminen tai laskuttaminen, kirjataan myyntitilauksen aikajanalle [!INCLUDE[crm_md](includes/crm_md.md)]issa. Lisätietoja on kohdassa [Aktiviteettisyötteiden esittely](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/introduction-activity-feeds).
+
+> [!NOTE]  
+> Jaksoittainen synkronointi SALESORDER-ORDER -**integrointitaulukon yhdistämismäärityksenä** toimii vain, kun myyntitilauksen integrointi on otettu käyttöön. Lisätietoja on kohdassa [Yhteyden muodostaminen Dynamics 365 for Sales -sovellukseen](admin-how-to-set-up-a-dynamics-crm-connection.md). Vain [!INCLUDE[crm_md](includes/crm_md.md)]:n lähetetyistä myyntitilauksista luodut myyntitilaukset synkronoidaan. Lisätietoja on kohdassa [Myyntitilauksen käsittelyn integroinnin käyttöönotto](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration).
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098170]
 

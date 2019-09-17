@@ -8,25 +8,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 04/01/2019
+ms.date: 08/27/2019
 ms.author: sgroespe
-ms.openlocfilehash: 01e831ddddeffe6a64c6de24b4cd8c1b94bad9c3
-ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
+ms.openlocfilehash: a2eb27a541033b755b9ab9d4ea9156bf7de9cab4
+ms.sourcegitcommit: f46793abdb3efd8384c10eb7992e076383251f2c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1796893"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1921428"
 ---
 # <a name="posting-sales"></a>Myynnin kirjaaminen
-Kun valitset myyntiasiakirjan **Kirjausryhmä**-painikkeen, voit valita seuraavista kirjaustoiminnoista:
+Kun valitset myyntiasiakirjan **Kirjaus**-valikon, voit valita seuraavista kirjaustoiminnoista:
 
 * **Kirjaa**
-* **Testiraportti**
+* **Kirjaus ja uusi**
 * **Kirjaa ja lähetä**
-* **Kirjaa ja tulosta**
-* **Kirjaa ja lähetä sähköpostitse**
-* **Kirjaa erä**
 * **Esikatsele kirjausta**
+* **Laskuluonnos**
+* **Proformalasku**
+* **Testiraportti**
 
 Kun olet täyttänyt kaikki rivit ja syöttänyt kaikki tiedot myyntitilaukseen, voit kirjata sen eli luoda vastaanoton ja laskun. Tämä luo toimituksen ja laskun.
 
@@ -41,9 +41,11 @@ Jokaiselle myyntitilausriville luodaan nimiketapahtuma **Nimiketapahtuma**-taulu
 
 Kun kirjaus on päättynyt, kirjatut myyntirivit poistuvat tilauksesta. Viesti kertoo, milloin kirjaus on valmis. Tämän jälkeen voit nähdä kirjatut tapahtumat kirjattuja tapahtumia sisältävillä sivuilla, kuten **Asiakastapahtumat**-, **KP-tapahtumat**-, **Nimiketapahtumat**-, **Kirjatut myyntitoimitukset**- ja**Kirjatut myyntilaskut** -sivuilla.  
 
-## <a name="see-also"></a>Katso myös
+Voit muokata arvoja kirjattujen myyntiasiakirjojen tietyissä kentissä, kuten **Paketin seurantanumero** -kentässä. Lisätietoja on kohdassa [Kirjattujen asiakirjojen muokkaaminen](across-edit-posted-document.md).
 
+## <a name="see-also"></a>Katso myös
 [Myynti](sales-manage-sales.md)  
+[Kirjattujen asiakirjojen muokkaaminen](across-edit-posted-document.md)  
 [Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md)  
 [Maksamattomien myyntilaskujen korjaaminen tai peruuttaminen](sales-how-correct-cancel-sales-invoice.md)  
 [Kerro, mitä haluat tehdä -toiminnon käyttäminen toimintojen ja tietojen etsimisessä](ui-search.md)  

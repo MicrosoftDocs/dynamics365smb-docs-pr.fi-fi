@@ -3,19 +3,19 @@ title: Business Central -sovelluksen käyttäminen Outlookin kanssa | Microsoft 
 description: Tämä palvelu integroituu kattavasti Office 365:n kanssa, joten voit hallita kaikkea yrityksen asiakkaiden ja toimittajien kanssa tapahtuvaa viestintää suoraan Outlookissa.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: get-started-article
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 07/12/2019
+ms.date: 08/14/2019
 ms.author: edupont
-ms.openlocfilehash: 578f33dace52383ce588494d35c875ceaf6ffc21
-ms.sourcegitcommit: f5050fd209b8d66722c81abe48c4c0a6f749a1f7
+ms.openlocfilehash: 70299f86a1ebc3251780eb05f8b68afeff23fa5e
+ms.sourcegitcommit: 81b6062194bf04d8052a3cd394cc0b41e3f53e6d
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1740454"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "1887689"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Business Central -sovelluksen käyttäminen yrityssähköpostina Outlookissa
 [!INCLUDE[d365fin](includes/d365fin_md.md)] esittelee mahdollisuuden hallita liiketoiminnallisia vuorovaikutuksia asiakkaiden ja toimittajien kanssa suoraan Microsoft Outlookista. [!INCLUDE[d365fin](includes/d365fin_md.md)]in Outlook-apuohjelmien avulla voit tarkastella asiakkaisiin ja toimittajiin liittyviä taloustietoja sekä luoda ja lähettää talousasiakirjoja, kuten tarjouksia ja laskuja.  
@@ -53,9 +53,9 @@ Voit muokata Asiakirjalinkit-apuohjelmassa asiakirjaa ja suorittaa sille toimint
 ## <a name="adding-the-add-ins-manually"></a>Apuohjelmien lisääminen manuaalisesti
 Joissakin tapauksissa apuohjelmia ei lisätä automaattisesti Outlookiin. Vaikka sinä tai kollegasi suoritti avustetun asennusoppaan yrityksen puolesta, [!INCLUDE[d365fin](includes/d365fin_md.md)] ei ehkä näy Outlookissa. Jos tämä ongelma esiintyy, voit lisätä [!INCLUDE[d365fin](includes/d365fin_md.md)]in apuohjelmat manuaalisesti.  
 
-Tarkista ensin, että voit käyttää apuohjelmia Office 365 -tililläsi. Avaa vain Outlook selaimessa, valitse ensin **Asetukset** ja sitten **Apuohjelmien hallinta**. Voit ottaa [!INCLUDE[prodshort](includes/prodshort.md)]in käyttöön Outlookissa avautuvalla **Apuohjelmien hallinta** -sivulla. Kun siirryt takaisin Outlookiin, [!INCLUDE[prodshort](includes/prodshort.md)]in pitäisi olla käytettävissä.  
+Tarkista ensin, että voit käyttää apuohjelmia Office 365 -tililläsi. Avaa Outlook selaimessa ja avaa sitten viesti. Valitse **Lisää toimintoja** (...) viestin yläosassa ja valitse sitten luettelon alaosasta **Hae apuohjelmia**. Näyttöön avautuu **Outlookin apuohjelmat** -sivu, jossa voit ottaa käyttöön kohteen [!INCLUDE[prodshort](includes/prodshort.md)] Outlookia varten. Kun siirryt takaisin Outlookiin, [!INCLUDE[prodshort](includes/prodshort.md)]in pitäisi olla käytettävissä.  
 
-Voit varmistaa myös Outlookin työpöytäversiossa, että [!INCLUDE[d365fin](includes/d365fin_md.md)] on mainittu **Apuohjelmien hallinta** -sivulla.  
+Voit varmistaa myös Outlookin työpöytäversiossa, että [!INCLUDE[d365fin](includes/d365fin_md.md)] on mainittu **Hae apuohjelmia** -sivulla.  
 
 Jos [!INCLUDE[d365fin](includes/d365fin_md.md)]ia ei voi edelleenkään käyttää, sinun on haettava kummassakin tapauksessa apuohjelman kokoonpanotiedostot. Pyydä lisätietoja Office 365:n järjestelmänvalvojalta.
 

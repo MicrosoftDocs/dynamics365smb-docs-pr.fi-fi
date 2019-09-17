@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 04/01/2019
+ms.date: 08/16/2019
 ms.author: jswymer
-ms.openlocfilehash: 37cdf2d7dcc46b1286cbb7a5ad620547e364309e
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 268d61e05f84643abe8eeeb283bd035e0247fe1c
+ms.sourcegitcommit: 81b6062194bf04d8052a3cd394cc0b41e3f53e6d
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250593"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "1887735"
 ---
 # <a name="managing-personalization-as-an-administrator"></a>Mukautuksen hallinta järjestelmänvalvojana
 
@@ -71,6 +71,9 @@ Voit estää sivujen mukauttamisen kaikilta tiettyyn profiiliin kuuluvilta käyt
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita **Profiilit** ja valitse sitten liittyvä linkki.
 2. Valitse luettelossa muokattava profiili.
 3. Valitse **Poista mukauttaminen käytöstä** -valintaruutuja valitse sitten **OK**.
+
+> [!NOTE]  
+> Business Central -sovelluksen online-versiossa voit poistaa vain vuokraajaprofiilin mukauttamisen, et järjestelmäprofiilien mukauttamista. 
 
 ## <a name="to-clear-user-personalizations"></a>Käyttäjän mukautusten tyhjentäminen
 

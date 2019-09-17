@@ -12,19 +12,17 @@ ms.workload: na
 ms.search.keywords: design, dimensions, codeunit
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c6b66ecee87e1fd128733f541d46b97f44af0453
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c97a03d9ce458cefe094b711bfe62a4b3c8e25d7
+ms.sourcegitcommit: 1fa3d33db7bc71e3a27c826308a80ff24a436a72
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1242742"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "1970922"
 ---
 # <a name="design-details-dimension-set-entries"></a>Rakennetiedot: dimensioyhdistelmä-tapahtumat
-Tässä ohjeistuksessa on yksityiskohtaisia teknisiä tietoja [!INCLUDE[d365fin](includes/d365fin_md.md)]in dimensiotapahtuman tallennus- ja kirjaustoiminnossa käytettävistä käsitteistä ja periaatteista. Ohjeistuksen alussa käsitellään käsitteellisiä yhteenvetoja. Sen jälkeen käsitellään teknistä arkkitehtuuria. Siinä on myös koodiesimerkkejä, joiden avulla voit varautua dimensiokoodin siirtoon ja päivitykseen Dynamics NAV 2013R2:ta edeltävistä versioista.  
+Tässä ohjeistuksessa on yksityiskohtaisia teknisiä tietoja [!INCLUDE[d365fin](includes/d365fin_md.md)]in dimensiotapahtuman tallennus- ja kirjaustoiminnossa käytettävistä käsitteistä ja periaatteista.
 
 ## <a name="in-this-section"></a>Tämän osan sisältö  
 [Dimensioyhdistelmätapahtumien yleiskuva](design-details-dimension-set-entries-overview.md)  
-[Rakennetiedot: dimensioyhdistelmien etsiminen](design-details-searching-for-dimension-combinations.md)  
+[Rakennetiedot: Dimensioyhdistelmien etsiminen](design-details-searching-for-dimension-combinations.md)  
 [Rakennetiedot: taulukkorakenne](design-details-table-structure.md)  
-[Rakennetiedot: koodiyksikön 408 dimension hallinta](design-details-codeunit-408-dimension-management.md)  
-[Rakennetiedot: koodiesimerkkejä muuttuneista kuvioista muutoksissa](design-details-code-examples-of-changed-patterns-in-modifications.md)

@@ -1,21 +1,21 @@
 ---
 title: Pikanäppäimet
 description: Pikanäppäinyhdistelmien täydellinen luettelo tietojen tehokasta käyttämistä varten.
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 04/01/2019
-ms.author: jswymer
-ms.openlocfilehash: 11d63e2745ce35067d87e66c6077d51276f90075
-ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
+ms.date: 09/06/2019
+ms.author: sgroespe
+ms.openlocfilehash: e6919dd3e09fcf13bf07b051abfea90a5a35eb01
+ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "1621204"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "1985908"
 ---
 # <a name="keyboard-shortcuts"></a>Pikanäppäimet
 Tässä artikkelissa käsitellään yleisesti [!INCLUDE[prodshort](includes/prodshort.md)] -ohjelman joitakin pikanäppäinyhdistelmiä.
@@ -170,6 +170,12 @@ Päivämääräkenttää määrittäessäsi voit syöttää päivämäärän man
 |Esc|Sulje kalenteri ilman valintaa, säilytä nykyinen päivämäärä.|
 |Sivu alas|Siirry seuraavaan kuukauteen.|
 |Sivu ylös|Siirry edelliseen kuukauteen.|  
+
+## <a name="keyboard-shortcuts-in-date-fields"></a>Päivämääräkenttien pikanäppäimet
+|Paina näitä näppäimiä<br />(macOS)|Tehtävä|
+|-----------------|-------|
+|t|Anna kuluvan päivän päivämäärä. "T" tarkoittaa tänään.|
+|k|Anna työn päivämäärä. Lisätietoja on kohdassa [Työn päivämäärä](ui-change-basic-settings.md#work-date)|
 
 ## <a name="a-namereportpreviewshortcutskeyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"/>Raportin esikatselun pikanäppäimet
 

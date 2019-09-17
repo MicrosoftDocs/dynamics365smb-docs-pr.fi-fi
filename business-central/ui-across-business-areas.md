@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.date: 04/01/2019
+ms.date: 07/24/2019
 ms.author: sgroespe
-ms.openlocfilehash: 063de8e16c01569c4a25e825b8804898a6f80e79
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: a4c6a7c1c25fab4c8321f59a9b2bbac5c5225eee
+ms.sourcegitcommit: f46793abdb3efd8384c10eb7992e076383251f2c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250869"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1921405"
 ---
 # <a name="general-business-functionality"></a>Yleiset liiketoimintatoiminnot
 [!INCLUDE[d365fin](includes/d365fin_md.md)] sisältää omat toiminnot tavallisille liiketoiminta-alueille, kuten rahoitus ja myynti. Lisätietoja on kohdassa [Liiketoiminnan toiminnallisuus](across-business-functionality.md).
@@ -40,7 +40,8 @@ Seuraava taulukko sisältää nämä yleiset liiketoiminta-alueet ja linkit niit
 |Voit liittää kuvia, asiakirjoja ja muita tiedostotyyppejä kaikkiin kortteihin, kuten nimike- ja työkorttiin. Voit liittää tiedostoja myös kaiken tyyppisiin myynti- ja ostoasiakirjoihin.|[Tiedostojen liittäminen kortteihin ja asiakirjoihin](across-attach-document-master-data.md)|
 |Käsittele Business Central -tietoja Excelissä.|[Liiketoimintatietojen vienti Exceliin](about-export-data.md)|
 |Selvitä, mitä tapahtuu, kun valitset **Kirjaa**-toiminnon.|[Asiakirjojen ja päiväkirjojen kirjaaminen](ui-post-documents-journals.md)|
-|Tarkastele kirjaamisen tulosta ennen kirjaamista.|[Kirjaustulosten esikatselu](ui-how-preview-post-results.md)| 
+|Tarkastele kirjaamisen tulosta ennen kirjaamista.|[Kirjaustulosten esikatselu](ui-how-preview-post-results.md)|
+|Muokkaa kirjattujen myynti- tai ostoasiakirjojen valittuja kenttiä.|[Kirjattujen asiakirjojen muokkaaminen](across-edit-posted-document.md)| 
 |Saat lisätietoja yleisten päiväkirjojen käyttämisestä. Niitä käytetään tehtäessä kirjauksia kirjanpitotileille sekä muille tileille, kuten pankki-, asiakas-, toimittaja- ja käyttöomaisuustileille. |[Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md) |
 | Voit aikatauluttaa raportin suorituksen tietylle päivämäärälle ja kellonajalle. |[Suoritettavan raportin aikatauluttaminen](ui-work-report.md#ScheduleReport) |
 |Järjestelmän avulla tehtävät voi suorittaa nopeammin ja tarkemmin niin, että kentät tai rivit täytetään tiedoilla, jotka muussa tapauksessa olisi laskettava ja syötettävä manuaalisesti.|[Business Central -sovelluksen arvoehdotusten salliminen](ui-let-system-suggest-values.md)|

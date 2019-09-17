@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 08/22/2019
 ms.author: sgroespe
-ms.openlocfilehash: 20ef2d88bb5f96326962efb53fd724b8fc706dc5
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 23561ba8ec0a93f8409abab483385a65d9853900
+ms.sourcegitcommit: 6ef7d2fae52feff786f2e15e2863d7f5aaa762be
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248483"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1917435"
 ---
 # <a name="use-automated-data-capture-systems-adcs"></a>ADCS (Automated Data Capture System) -järjestelmä
 
 > [!NOTE]
 > [!INCLUDE[d365fin](includes/d365fin_md.md)] -vakioversiossa ADCS toimii vain paikallisissa käyttöönotoissa. Microsoft-kumppani voi kuitenkin mahdollistaa verkkokäyttöönotot esimerkiksi PowerAppsin avulla.
 
-Automaattista tiedonkeruujärjestelmää (ADCS) voidaan käyttää rekisteröimään kaikki nimikkeiden siirrot fyysisessä varastossa ja rekisteröimään kaikki päiväkirjatoiminnot, joihin sisältyvät määrän muutokset fyysisen varastoinnin nimikepäiväkirjassa, inventoinneissa ja uudelleenluokitteluissa.  
+Automaattista tiedonkeruujärjestelmää (ADCS) voidaan käyttää rekisteröimään kaikki nimikkeiden siirrot fyysisessä varastossa ja rekisteröimään kaikki päiväkirjatoiminnot, joihin sisältyvät määrän muutokset fyysisen varastoinnin nimikepäiväkirjassa, inventoinneissa ja uudelleenluokitteluissa. ADCS sisältää yleensä viivakoodin skannauksen. 
 
 ADCS:n käyttöön on annettava kullekin nimikkeelle, joka on tallennettu varastoon, nimikkeen tunnus. Sinun täytyy myös määrittää pienoislomakkeet, kannettavat toiminnot, tiedon siirrot, ja määrittää eritysasetukset kentille, jotka määrittävät ADCS-asetuksia. Voit määrittää käytetäänkö ADCS:ää varaston sijaintikortissa.
 
@@ -100,7 +100,7 @@ Pienoislomakkeen luonnin jälkeen luodaan seuraavaksi toiminnot ja liitetään t
     </xsl:template>  
     ```  
 2.  Avaa [!INCLUDE[d365fin](includes/d365fin_md.md)]in kehitysympäristössä taulukko 7702 ja lisää uutta näppäintä vastaava koodi. Luo tässä esimerkissä avain, jonka nimi on **F6**.  
-3.  Lisää C/AL-koodi asianmukaiseen funktioon pienoislomakekohtaisessa koodiyksikössä toimintonäppäimen käsittelemiseksi.  
+3.  Lisää C/AL-koodi asianmukaiseen funktioon pienoislomakekohtaisessa codeunit-kohteessa toimintonäppäimen käsittelemiseksi.  
 
 ### <a name="to-customize-miniform-functions"></a>Mukauta pienoislomakkeen toiminnot  
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pienoislomakkeet** ja valitse sitten liittyvä linkki.  

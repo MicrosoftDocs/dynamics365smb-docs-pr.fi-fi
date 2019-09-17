@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: b5a3b83d21390711ff0517df67bf9912ece57f6b
-ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
+ms.openlocfilehash: 9506b64229c4d936fa25d74d71a923bdf7915e45
+ms.sourcegitcommit: 6ef7d2fae52feff786f2e15e2863d7f5aaa762be
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1629617"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1917458"
 ---
 # <a name="synchronizing-data-in-business-central-and-dynamics-365-for-sales"></a>Tietojen synkronointi Business Centralissa ja Dynamics 365 for Salesissa
 Kun [!INCLUDE[crm_md](includes/crm_md.md)] ja [!INCLUDE[d365fin](includes/d365fin_md.md)] integroidaan, voit päättää, synkronoidaanko [!INCLUDE[d365fin](includes/d365fin_md.md)] -tietueiden (kuten asiakkaiden, kontaktien ja myyjien) valittujen kenttien tiedot vastaavien [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietueiden (kuten tilien, yhteyshenkilöiden ja käyttäjien) kanssa. Tietueen tyypin mukaan voit synkronoida tietoja [!INCLUDE[crm_md](includes/crm_md.md)]ista [!INCLUDE[d365fin](includes/d365fin_md.md)]iin ja päin vastoin. Lisätietoja on kohdassa [Dynamics 365 for Sales -integrointi](admin-prepare-dynamics-365-for-sales-for-integration.md).  
@@ -92,7 +92,7 @@ Seuraavassa taulukossa käsitellään sovellusten väliset synkronointisäännö
 |Myyntihinnat|Myyntihintojen myyntityyppi on Asiakkaan hintaryhmä. Niiden määritetty myyntikoodi synkronoidaan [!INCLUDE[crm_md](includes/crm_md.md)]in hinnaston rivien kanssa.|
 |Mahdollisuudet|Mahdollisuudet synkronoidaan [!INCLUDE[crm_md](includes/crm_md.md)]in mahdollisuuksien kanssa. Myyjän koodin arvo määrittää yhdistetyn entiteetin omistajan [!INCLUDE[crm_md](includes/crm_md.md)]issa.|
 |Kirjatut myyntilaskut|Kirjatut myyntilaskut synkronoidaan myyntilaskujen kanssa. Ennen laskun synkronointia kannattaa synkronoida kaikki muut entiteetit, jotka voivat vaikuttaa laskuun. Niitä voivat olla esimerkiksi myyjät ja hinnastot. Laskun otsikossa oleva myyjän koodin arvo määrittää yhdistetyn entiteetin omistajan Sales-sovelluksessa.|
-|Myyntitilaukset|Vapautettu myyntitilaus (otsikot) synkronoidaan myyntitilauksen kanssa. Ennen tilauksen synkronointia kannattaa synkronoida kaikki muut objektit, jotka voivat vaikuttaa tilaukseen. Niitä voivat olla esimerkiksi myyjät ja hinnastot. Tilauksen otsikossa oleva myyjän koodin arvo määrittää yhdistetyn entiteetin omistajan Salesissa.|  
+|Myyntitilaukset|Kun myyntitilausten integrointi on käytössä, [!INCLUDE[d365fin](includes/d365fin_md.md)]:n myyntitilaukset, jotka on luotu lähetetyistä myyntitilauksista [!INCLUDE[crm_md](includes/crm_md.md)]:ssä, synkronoidaan myyntitilausten kanssa INCLUDE SALES -kohdassa vapautuksen yhteydessä. Ennen tilausten synkronoimista on suositeltavaa synkronoida kaikki tilaukseen liittyvät entiteetit, esimerkiksi myyjät ja hinnastot. Tilauksen otsikossa oleva Myyjän koodi -kenttä määrittää yhdistetyn entiteetin omistajan [!INCLUDE[crm_md](includes/crm_md.md)]:ssä.|  
 
 ## <a name="see-also"></a>Katso myös  
 [Tietueiden yhdistäminen ja synkronoiminen manuaalisesti](admin-how-to-couple-and-synchronize-records-manually.md)   
