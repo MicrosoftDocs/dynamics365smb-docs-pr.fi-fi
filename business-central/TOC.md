@@ -217,7 +217,7 @@
 ## [Microsoft Bookingsin massalaskutus](finance-bookings.md)
 ## [Saman Office 365 -tilin käyttäminen Business Centralissa ja Microsoft Invoicingissa](about-reuse-company-invoicing.md)
 ## [Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md)
-## [Sähköpostin määrittäminen](admin-how-setup-email.md)
+## [Määritä sähköposti](admin-how-setup-email.md)
 ## [Numerosarjojen luominen](ui-create-number-series.md)
 ## [Peruskalenterien määrittäminen](across-how-to-assign-base-calendars.md)
 
@@ -234,6 +234,7 @@
 ## [Liiketoimintatietojen vienti Exceliin](about-export-data.md)
 ## [Asiakirjojen ja päiväkirjojen kirjaaminen](ui-post-documents-journals.md)
 ## [Kirjaustulosten esikatselu](ui-how-preview-post-results.md)
+## [Kirjattujen asiakirjojen muokkaaminen](across-edit-posted-document.md)
 ## [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md)
 ## [Työjonojen käyttäminen ajoitustehtäviin](admin-job-queues-schedule-tasks.md)
 ## [Business Central -sovelluksen arvoehdotusten salliminen](ui-let-system-suggest-values.md)
@@ -590,10 +591,12 @@
 ### [Yleiskuvaus](marketing-manage-sales-opportunities.md)
 ### [Mahdollisuuden myyntisyklien ja syklin vaiheiden määrittäminen](marketing-how-setup-opportunity-sales-cycles-stages.md)
 ### [Mahdollisuuksien luominen](marketing-how-create-opportunities.md)
+### [Sähköpostiviestien seuraaminen](marketing-set-up-email-logging.md)
+
 ### [Myyntimahdollisuuksien käsitteleminen](marketing-processing-sales-opportunities.md)
-## [Markkinointikampanjoiden hallinta](marketing-campaigns.md)
-## Asiakkaiden kanssa toimiminen Dynamics 365 for Sales -sovelluksen avulla
-### [Dynamics 365 for Salesin käyttö Business Centralista](marketing-integrate-dynamicscrm.md)
+### [Määritä sähköpostin lokiinkirjaus](marketing-set-up-email-logging.md)
+## [Liiketoimintakontaktien luokittelu profiilikyselyiden avulla](marketing-create-contact-profile-questionnaire.md)
+## [Dynamics 365 for Salesin käyttö Business Centralista](marketing-integrate-dynamicscrm.md)
 ### [Tietueiden yhdistäminen ja synkronoiminen manuaalisesti](admin-how-to-couple-and-synchronize-records-manually.md)
 ### [Synkronoinnin tilan näyttäminen](admin-how-to-view-synchronization-status.md)
 

@@ -1,1 +1,1 @@
-<span data-ttu-id="3f435-101">Lue kentän lyhyt kuvaus valitsemalla kenttä tai siirry lisätietoihin valitsemalla linkki.</span><span class="sxs-lookup"><span data-stu-id="3f435-101">Choose a field to read a short description of the field or link to more information.</span></span>
+<span data-ttu-id="c4f16-101">Lue kentän lyhyt kuvaus valitsemalla kenttä tai siirry lisätietoihin valitsemalla linkki.</span><span class="sxs-lookup"><span data-stu-id="c4f16-101">Choose a field to read a short description of the field or link to more information.</span></span>

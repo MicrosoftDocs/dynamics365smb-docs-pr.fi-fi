@@ -13,24 +13,24 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 redirect_url: design-details-dimension-set-entries
-ms.openlocfilehash: 5bb5e5713ed23877006ebb913e01416feac69266
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 59fce0a432c7f433552cff21ef304fa16fa85a8a
+ms.sourcegitcommit: 1fa3d33db7bc71e3a27c826308a80ff24a436a72
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1243432"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "1970899"
 ---
-# <a name="design-details-code-examples-of-changed-patterns-in-modifications"></a><span data-ttu-id="7b63c-104">Rakennetiedot: koodiesimerkkejä muuttuneista kuvioista muutoksissa</span><span class="sxs-lookup"><span data-stu-id="7b63c-104">Design Details: Code Examples of Changed Patterns in Modifications</span></span>
-<span data-ttu-id="7b63c-105">Tämän ohjeaiheen koodiesimerkit näyttävät dimensiokoodin muokkauksen muuttuneet mallit ja siirron viiteen erilaiseen skenaarioon.</span><span class="sxs-lookup"><span data-stu-id="7b63c-105">This topic provides code examples to show changed patterns in dimension code modification and migration for five different scenarios.</span></span> <span data-ttu-id="7b63c-106">Se vertaa koodiesimerkkejä aiemmissa versioissa koodiesimerkkeihin Business Centralissa.</span><span class="sxs-lookup"><span data-stu-id="7b63c-106">It compares the code examples in earlier versions to the code examples in Business Central.</span></span>
+# <a name="design-details-code-examples-of-changed-patterns-in-modifications"></a><span data-ttu-id="68d6b-104">Rakennetiedot: koodiesimerkkejä muuttuneista kuvioista muutoksissa</span><span class="sxs-lookup"><span data-stu-id="68d6b-104">Design Details: Code Examples of Changed Patterns in Modifications</span></span>
+<span data-ttu-id="68d6b-105">Tämän ohjeaiheen koodiesimerkit näyttävät dimensiokoodin muokkauksen muuttuneet mallit ja siirron viiteen erilaiseen skenaarioon.</span><span class="sxs-lookup"><span data-stu-id="68d6b-105">This topic provides code examples to show changed patterns in dimension code modification and migration for five different scenarios.</span></span> <span data-ttu-id="68d6b-106">Se vertaa koodiesimerkkejä aiemmissa versioissa koodiesimerkkeihin Business Centralissa.</span><span class="sxs-lookup"><span data-stu-id="68d6b-106">It compares the code examples in earlier versions to the code examples in Business Central.</span></span>
 
-## <a name="posting-a-journal-line"></a><span data-ttu-id="7b63c-107">Päiväkirjarivin kirjaus</span><span class="sxs-lookup"><span data-stu-id="7b63c-107">Posting a Journal Line</span></span>  
-<span data-ttu-id="7b63c-108">Tärkeimmät muutokset ovat seuraavat:</span><span class="sxs-lookup"><span data-stu-id="7b63c-108">Key changes are listed as follows:</span></span>  
+## <a name="posting-a-journal-line"></a><span data-ttu-id="68d6b-107">Päiväkirjarivin kirjaus</span><span class="sxs-lookup"><span data-stu-id="68d6b-107">Posting a Journal Line</span></span>  
+<span data-ttu-id="68d6b-108">Tärkeimmät muutokset ovat seuraavat:</span><span class="sxs-lookup"><span data-stu-id="68d6b-108">Key changes are listed as follows:</span></span>  
 
-- <span data-ttu-id="7b63c-109">Päiväkirjarivin dimensiotaulukot poistetaan.</span><span class="sxs-lookup"><span data-stu-id="7b63c-109">Journal line dimension tables are removed.</span></span>  
+- <span data-ttu-id="68d6b-109">Päiväkirjarivin dimensiotaulukot poistetaan.</span><span class="sxs-lookup"><span data-stu-id="68d6b-109">Journal line dimension tables are removed.</span></span>  
 
-- <span data-ttu-id="7b63c-110">Dimensioyhdistelmän tunnus luodaan **Dimensioyhdistelmän tunnus** -kentässä.</span><span class="sxs-lookup"><span data-stu-id="7b63c-110">A dimension set ID is created in the **Dimension Set ID** field.</span></span>  
+- <span data-ttu-id="68d6b-110">Dimensioyhdistelmän tunnus luodaan **Dimensioyhdistelmän tunnus** -kentässä.</span><span class="sxs-lookup"><span data-stu-id="68d6b-110">A dimension set ID is created in the **Dimension Set ID** field.</span></span>  
 
-<span data-ttu-id="7b63c-111">**Aiemmat versiot**</span><span class="sxs-lookup"><span data-stu-id="7b63c-111">**Earlier Versions**</span></span>  
+<span data-ttu-id="68d6b-111">**Aiemmat versiot**</span><span class="sxs-lookup"><span data-stu-id="68d6b-111">**Earlier Versions**</span></span>  
 
 ```  
 ResJnlLine."Qty. per Unit of Measure" :=   
@@ -62,10 +62,10 @@ ResJnlPostLine.Run(ResJnlLine);
 
 ```  
 
-## <a name="posting-a-document"></a><span data-ttu-id="7b63c-112">Asiakirjan kirjaus</span><span class="sxs-lookup"><span data-stu-id="7b63c-112">Posting a Document</span></span>  
- <span data-ttu-id="7b63c-113">Kun kirjaat asiakirjan [!INCLUDE[d365fin](includes/d365fin_md.md)] -järjestelmään, asiakirjan dimensioita ei tarvitse kopioida.</span><span class="sxs-lookup"><span data-stu-id="7b63c-113">When you post a document in [!INCLUDE[d365fin](includes/d365fin_md.md)], you no longer have to copy the document dimensions.</span></span>  
+## <a name="posting-a-document"></a><span data-ttu-id="68d6b-112">Asiakirjan kirjaus</span><span class="sxs-lookup"><span data-stu-id="68d6b-112">Posting a Document</span></span>  
+ <span data-ttu-id="68d6b-113">Kun kirjaat asiakirjan [!INCLUDE[d365fin](includes/d365fin_md.md)] -järjestelmään, asiakirjan dimensioita ei tarvitse kopioida.</span><span class="sxs-lookup"><span data-stu-id="68d6b-113">When you post a document in [!INCLUDE[d365fin](includes/d365fin_md.md)], you no longer have to copy the document dimensions.</span></span>  
 
- <span data-ttu-id="7b63c-114">**Aiemmat versiot**</span><span class="sxs-lookup"><span data-stu-id="7b63c-114">**Earlier Versions**</span></span>  
+ <span data-ttu-id="68d6b-114">**Aiemmat versiot**</span><span class="sxs-lookup"><span data-stu-id="68d6b-114">**Earlier Versions**</span></span>  
 
 ```  
 DimMgt.MoveOneDocDimToPostedDocDim(  
@@ -84,10 +84,10 @@ SalesShptLine."Dimension Set ID”
   := SalesLine."Dimension Set ID”  
 ```  
 
-## <a name="editing-dimensions-from-a-document"></a><span data-ttu-id="7b63c-115">Dimensioiden muokkaaminen asiakirjasta</span><span class="sxs-lookup"><span data-stu-id="7b63c-115">Editing Dimensions from a Document</span></span>  
- <span data-ttu-id="7b63c-116">Voit muokata asiakirjan dimensioita.</span><span class="sxs-lookup"><span data-stu-id="7b63c-116">You can edit dimensions from a document.</span></span> <span data-ttu-id="7b63c-117">Voit esimerkiksi muokata myyntitilausriviä.</span><span class="sxs-lookup"><span data-stu-id="7b63c-117">For example, you can edit a sales order line.</span></span>  
+## <a name="editing-dimensions-from-a-document"></a><span data-ttu-id="68d6b-115">Dimensioiden muokkaaminen asiakirjasta</span><span class="sxs-lookup"><span data-stu-id="68d6b-115">Editing Dimensions from a Document</span></span>  
+ <span data-ttu-id="68d6b-116">Voit muokata asiakirjan dimensioita.</span><span class="sxs-lookup"><span data-stu-id="68d6b-116">You can edit dimensions from a document.</span></span> <span data-ttu-id="68d6b-117">Voit esimerkiksi muokata myyntitilausriviä.</span><span class="sxs-lookup"><span data-stu-id="68d6b-117">For example, you can edit a sales order line.</span></span>  
 
- <span data-ttu-id="7b63c-118">**Aiemmat versiot**</span><span class="sxs-lookup"><span data-stu-id="7b63c-118">**Earlier Versions**</span></span>  
+ <span data-ttu-id="68d6b-118">**Aiemmat versiot**</span><span class="sxs-lookup"><span data-stu-id="68d6b-118">**Earlier Versions**</span></span>  
 
 ```  
 Table 37, function ShowDimensions:  
@@ -110,10 +110,10 @@ Table 37, function ShowDimensions:
     "Dimension ID");  
 ```  
 
-## <a name="showing-dimensions-from-posted-entries"></a><span data-ttu-id="7b63c-119">Näytetään dimensiot lähetetyistä kirjauksista</span><span class="sxs-lookup"><span data-stu-id="7b63c-119">Showing Dimensions from Posted Entries</span></span>  
- <span data-ttu-id="7b63c-120">Dimensiot voidaan näyttää kirjatuista tapahtumista, kuten myynnin toimitusriveistä.</span><span class="sxs-lookup"><span data-stu-id="7b63c-120">You can show dimensions from posted entries, such as sales shipment lines.</span></span>  
+## <a name="showing-dimensions-from-posted-entries"></a><span data-ttu-id="68d6b-119">Näytetään dimensiot lähetetyistä kirjauksista</span><span class="sxs-lookup"><span data-stu-id="68d6b-119">Showing Dimensions from Posted Entries</span></span>  
+ <span data-ttu-id="68d6b-120">Dimensiot voidaan näyttää kirjatuista tapahtumista, kuten myynnin toimitusriveistä.</span><span class="sxs-lookup"><span data-stu-id="68d6b-120">You can show dimensions from posted entries, such as sales shipment lines.</span></span>  
 
- <span data-ttu-id="7b63c-121">**Aiemmat versiot**</span><span class="sxs-lookup"><span data-stu-id="7b63c-121">**Earlier Versions**</span></span>  
+ <span data-ttu-id="68d6b-121">**Aiemmat versiot**</span><span class="sxs-lookup"><span data-stu-id="68d6b-121">**Earlier Versions**</span></span>  
 
 ```  
 Table 111, function ShowDimensions:  
@@ -136,10 +136,10 @@ DimSetEntry.ShowDimensionSet(
   "Dimension ID");  
 ```  
 
-## <a name="getting-default-dimensions-for-a-document"></a><span data-ttu-id="7b63c-122">Oletusdimensioiden noutaminen asiakirjalle</span><span class="sxs-lookup"><span data-stu-id="7b63c-122">Getting Default Dimensions for a Document</span></span>  
- <span data-ttu-id="7b63c-123">Voit hakea oletusdimensiot asiakirjalle, kuten myyntitilausriville.</span><span class="sxs-lookup"><span data-stu-id="7b63c-123">You can get default dimensions for a document, such as a sales order line.</span></span>  
+## <a name="getting-default-dimensions-for-a-document"></a><span data-ttu-id="68d6b-122">Oletusdimensioiden noutaminen asiakirjalle</span><span class="sxs-lookup"><span data-stu-id="68d6b-122">Getting Default Dimensions for a Document</span></span>  
+ <span data-ttu-id="68d6b-123">Voit hakea oletusdimensiot asiakirjalle, kuten myyntitilausriville.</span><span class="sxs-lookup"><span data-stu-id="68d6b-123">You can get default dimensions for a document, such as a sales order line.</span></span>  
 
- <span data-ttu-id="7b63c-124">**Aiemmat versiot**</span><span class="sxs-lookup"><span data-stu-id="7b63c-124">**Earlier Versions**</span></span>  
+ <span data-ttu-id="68d6b-124">**Aiemmat versiot**</span><span class="sxs-lookup"><span data-stu-id="68d6b-124">**Earlier Versions**</span></span>  
 
 ```  
 Table 37, function CreateDim()  
@@ -194,7 +194,6 @@ GetSalesHeader;
 
 ```  
 
-## <a name="see-also"></a><span data-ttu-id="7b63c-125">Katso myös</span><span class="sxs-lookup"><span data-stu-id="7b63c-125">See Also</span></span>  
-<span data-ttu-id="7b63c-126">[Rakennetiedot: Dimensioyhdistelmätapahtumat](design-details-dimension-set-entries.md) </span><span class="sxs-lookup"><span data-stu-id="7b63c-126">[Design Details: Dimension Set Entries](design-details-dimension-set-entries.md) </span></span>  
-<span data-ttu-id="7b63c-127">[Rakennetiedot: taulukkorakenne](design-details-table-structure.md) </span><span class="sxs-lookup"><span data-stu-id="7b63c-127">[Design Details: Table Structure](design-details-table-structure.md) </span></span>  
-[<span data-ttu-id="7b63c-128">Rakennetiedot: koodiyksikön 408 dimension hallinta</span><span class="sxs-lookup"><span data-stu-id="7b63c-128">Design Details: Codeunit 408 Dimension Management</span></span>](design-details-codeunit-408-dimension-management.md)
+## <a name="see-also"></a><span data-ttu-id="68d6b-125">Katso myös</span><span class="sxs-lookup"><span data-stu-id="68d6b-125">See Also</span></span>  
+<span data-ttu-id="68d6b-126">[Rakennetiedot: dimensioyhdistelmä-tapahtumat](design-details-dimension-set-entries.md) </span><span class="sxs-lookup"><span data-stu-id="68d6b-126">[Design Details: Dimension Set Entries](design-details-dimension-set-entries.md) </span></span>  
+[<span data-ttu-id="68d6b-127">Rakennetiedot: taulukkorakenne</span><span class="sxs-lookup"><span data-stu-id="68d6b-127">Design Details: Table Structure</span></span>](design-details-table-structure.md)   
