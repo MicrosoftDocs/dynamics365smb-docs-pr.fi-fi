@@ -2,21 +2,21 @@
 title: Päivämäärien ja aikojen syöttäminen Business Central -sovelluksessa | Microsoft Docs
 description: Tietoja päivämäärien ja aikojen syöttämisestä sekä erilaisista tuottavuutta lisäävistä vihjeistä, jotka liittyvät esimerkiksi pikakirjoitukseen, lausekkeisiin ja alueisiin. Suodata luettelot tai raportit tiettyyn päivämäärään tai tiettyihin ajanjaksoihin.
 documentationcenter: ''
-author: edupont04
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.date: 04/01/2019
-ms.author: jswymer
-ms.openlocfilehash: c7e80edfd796056176d37ad12a56c76e64bb44e6
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 09/17/2019
+ms.author: sgroespe
+ms.openlocfilehash: 96471b07d48120db7fda5e48a14c9ca0147688fb
+ms.sourcegitcommit: 7ce8005806465417c7040c61da1d6cada29cd9c0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250938"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "2000761"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Kalenterin päivämäärien ja aikojen käsitteleminen
 
@@ -24,7 +24,7 @@ ms.locfileid: "1250938"
 
 ## <a name="check-your-region-and-language-settings"></a>Alueen ja kielen asetusten tarkistaminen
 
-[**Omat asetukset**](https://businesscentral.dynamics.com?page=9176 "Siirry suoraan Business Central -sovelluksen käyttäjäasetusten sivulle") -sivulla määritetään sovelluksessa käytettävä **alue** ja **kieli**. Nämä asetukset vaikuttavat päivämäärien ja aikojen syöttötapaan. 
+[**Omat asetukset**](https://businesscentral.dynamics.com?page=9176 "Siirry suoraan Business Central -sovelluksen käyttäjäasetusten sivulle") -sivulla määritetään sovelluksessa käytettävä **alue** ja **kieli**. Nämä asetukset vaikuttavat päivämäärien ja aikojen syöttötapaan.
 
 -   **Alue**-asetus määrittää, miten päivämäärät, ajat, luvut ja valuutat näkyvät tai miten ne on muotoiltu.
 
@@ -33,7 +33,7 @@ ms.locfileid: "1250938"
 > [!NOTE]
 > [!INCLUDE[d365fin](includes/d365fin_long_md.md)] käyttää gregoriaanista kalenterijärjestelmää.
 
-<!-- 
+<!--
 The following sections describe how you can enter dates, times, datetimes, durations, date ranges, and how you use date formulas.
 -->
 
@@ -43,7 +43,7 @@ Voit syöttää päivämääräkenttään päivämäärän alueasetuksen vakiomu
 
 Huomaa, että oma alueasetuksesi ei vaikuta päivämäärän näyttömuotoon tulostetuissa raporteissa ja sähköpostitse lähetetyissä asiakirjoissa.
 
-Seuraavissa osissa esiteltyjen menetelmien ja muotojen avulla voit käyttää päivämääriä ja aikoja tuottavammin. 
+Seuraavissa osissa esiteltyjen menetelmien ja muotojen avulla voit käyttää päivämääriä ja aikoja tuottavammin.
 
 ### <a name="picking-dates-from-the-calendar"></a>Päivämäärien valitseminen kalenterista
 
@@ -55,9 +55,9 @@ Katso myös [Kalenterin päivämäärän valitsimen pikanäppäimet](keyboard-sh
 
 ### <a name="day-week-year-pattern"></a>Päivä\-viikko\-vuosi-malli
 
-Voit syöttää päivämäärän viikonpäivänä, jonka jälkeen tulee viikon numero ja halutessasi vuosi. Esimerkiksi `Mon25` tai `mon25` tarkoittaa viikon 25 maanantaita. Jos et syötä vuotta, käytetään käsittelypäivämäärän vuotta.
+Voit syöttää päivämäärän viikonpäivänä, jonka jälkeen tulee viikon numero ja halutessasi vuosi. Esimerkiksi Ma25 tai ma25 tarkoittaa viikon 25 maanantaita. Jos et syötä vuotta, käytetään käsittelypäivämäärän vuotta.
 
-Sen sijaan, että syötät koko sanan viikonpäivää varten, voit syöttää sanan alkuosan. Ristiriitatilanteissa, esimerkiksi kun `s` voi tarkoittaa sekä lauantaita (Saturday) tai sunnuntaita (Sunday), päivät arvioidaan alueasetuksen mukaan. Syöte arvioidaan ensin `workdate`- ja `today`-määritteiden avulla. Pidä tämä mielessä, kun lyhennät sanoja. Esimerkiksi `t` merkitsee jo kuluvaa päivää, joten se ei voi tarkoittaa tiistaita tai torstaita.
+Sen sijaan, että syötät koko sanan viikonpäivää varten, voit syöttää sanan alkuosan. Ristiriitatilanteissa, esimerkiksi kun s voi tarkoittaa sekä lauantaita (Saturday) tai sunnuntaita (Sunday), päivät arvioidaan alueasetuksen mukaan. Syöte arvioidaan ensin käsittelypäivämäärä- ja tänään-määritteiden avulla. Pidä tämä mielessä, kun lyhennät sanoja. Esimerkiksi t merkitsee jo tämän päivän päivämäärää, joten se ei voi tarkoittaa tiistaita tai torstaita.
 
 Viikon numeromalli on aina ISO 8601, jossa viikko 1 on viikko, joka sisältää tammikuun 4. päivän tai vuoden ensimmäisen torstain.
 
@@ -73,11 +73,11 @@ Päivämäärä-kenttään voi syöttää kaksi, neljä, kuusi tai kahdeksan num
 
 ### <a name="today"></a>Tänään
 
-Syötä sana `today`-määritteelle **Kieli**-asetuksen määrittämällä kielellä. Tällöin päivämääräksi tulee nykyinen päivämäärä. Sen sijaan, että syöttäisit koko sanan, voit syöttää sanan alkuosan, kuten `t` tai `tod`, jos mikään toinen sana ei ala samoilla kirjaimilla.
+Syötä sana today-määritteelle **Kieli**-asetuksen määrittämällä kielellä. Tällöin päivämääräksi tulee nykyinen päivämäärä. Sen sijaan, että syöttäisit koko sanan, voit syöttää sanan alkuosan, kuten t tai tän (sanasta tänään), jos mikään toinen sana ei ala samoilla kirjaimilla.
 
 ### <a name="period"></a>Jakso
 
-Voit suodattaa tietyn kirjanpitojakson antamalla päivämääräkentässä kirjaimen `p` tai sanan `period` ja lisäämällä sen perään luvun, joka yksilöi kirjanpitojakson, kuten `p2` tai `period4`. Kirjapitojakso liittyy roolikeskuksessa määritetyn kuluvan käsittelypäivän tilikauteen. Jos käsittelypäivä on esimerkiksi **21.3.20**, niin `p1` tai pelkkä `p` suodattaa tilikauden 2020 ensimmäisen kirjanpitojakson (kuten `01/01/20..01/31/20`). `p15` suodattaa 15:nnen kirjanpitojakson tilikauden 2020 alusta (kuten `03/01/21..03/31/21`). 
+Voit suodattaa tietyn kirjanpitojakson antamalla päivämääräkentässä kirjaimen j tai sanan jakso ja lisäämällä sen perään luvun, joka yksilöi kirjanpitojakson, kuten j2 tai jakso4. Kirjapitojakso liittyy roolikeskuksessa määritetyn kuluvan käsittelypäivän tilikauteen. Jos esimerkiksi käsittelypäivämäärä on **21.3.20**, j1 tai vain j suodattaa tilikauden 2020 ensimmäisen kirjanpitojakson (kuten 01.01.20-31.1.20). j15 suodattaa 15:nnen kirjanpitojakson tilikauden 2020 alusta (kuten 1.3.31-31.3.21).
 
 Kirjanpitojaksot määritetään **Kirjanpitojaksot**-sivulla. Voit tarkastella tai muuttaa kirjanpitojaksoja avaamalla sivun [täällä](https://businesscentral.dynamics.com/?page=100).
 
@@ -95,7 +95,7 @@ Katso myös [Perusasetusten, kuten käsittelypäivämäärän, muuttaminen](ui-c
 
 Kun suljet tilikauden, voit käyttää sulkemispäivämääriä osoittaaksesi, että tapahtuma on tilinpäätöstapahtuma. Sulkemispäivämäärä sijoittuu teknisesti kahden päivämäärän väliin, esimerkiksi joulukuun 31. päivän ja tammikuun 1. päivän väliin.
 
-Jos haluat määrittää, että päivämäärä on sulkemispäivämäärä, kirjoita päivämäärän edelle `C`, esimerkiksi `C123101`. Tätä voidaan käyttää kaikkien päivämäärämallien kanssa.
+Jos haluat määrittää, että päivämäärä on sulkemispäivämäärä, kirjoita N päivämäärän edelle , esimerkiksi N31.12.01. Tätä voidaan käyttää kaikkien päivämäärämallien kanssa.
 
 ### <a name="examples"></a>Esimerkkejä
 
@@ -103,24 +103,24 @@ Seuraavassa taulukossa on esimerkkejä kaikkia muotoja käyttävistä päivämä
 
 |**Tapahtuma**      |**Tulkinta**      |
 |---------------|------------------------|
-|`2018.12.31.`|2018.12.31.|
-|`181231`|2018.12.31.|
-|`18.12.31.`|2018.12.31.|
-|`18.12.31.`|2018.12.31.|
-|`20181231`|2018.12.31.|
-|`18/12,31`|2018.12.31.|
-|`11`|käsittelypvm:n vuosi.käsittelypvm:n kuukausi.11.|
-|`1112`|käsittelypvm:n vuosi.11.12.|
-|`t` tai `today`|tämän päivän päivämäärä|
-|`p4`|päivämääräalue, joka sisältää neljännen kirjanpitojakson, kuten `04/01/20..04/30/20`|
-|`w` tai `workdate`|käsittelypvm|
-|`m` tai `Monday`|Käsittelypvm:n viikon maanantai|
-|`tu` tai `Tuesday`|Käsittelypvm:n viikon tiistai|
-|`sa` tai `Saturday`|Käsittelypvm:n viikon lauantai|
-|`s` tai `Sunday`|Käsittelypvm:n viikon sunnuntai|
-|`t23`|Käsittelypvm:n vuoden viikon 23 tiistai|
-|`t 23`|Käsittelypvm:n vuoden viikon 23 tiistai|
-|`t-1`|Käsittelypvm:n vuoden viikon 1 tiistai|
+|2018.12.31.|31.12.2018|
+|31.12.18|31.12.2018|
+|18.12.31.|31.12.2018|
+|18.12.31.|31.12.2018|
+|20181231|31.12.2018|
+|18/12,31|31.12.2018|
+|11|käsittelypvm:n vuosi.käsittelypvm:n kuukausi.11.|
+|11.12|käsittelypvm:n vuosi.11.12.|
+|t tai tänään|tämän päivän päivämäärä|
+|j4|päivämääräalue, joka sisältää neljännen kirjanpitojakson, kuten 1.4.20-30.4.20|
+|k tai käsittelypvm|käsittelypvm|
+|ma tai maanantai|Käsittelypvm:n viikon maanantai|
+|ti tai tiistai|Käsittelypvm:n viikon tiistai|
+|la tai lauantai|Käsittelypvm:n viikon lauantai|
+|su tai sunnuntai|Käsittelypvm:n viikon sunnuntai|
+|t23|Käsittelypvm:n vuoden viikon 23 tiistai|
+|t 23|Käsittelypvm:n vuoden viikon 23 tiistai|
+|t-1|Käsittelypvm:n vuoden viikon 1 tiistai|
 
 ##  <a name="BKMK_SettingDateRanges"></a> Alueiden asettaminen
 
@@ -128,17 +128,17 @@ Luetteloissa, kokonaissummissa ja raporteissa voi määrittää suodattimia päi
 
 |**Merkitys**|**Esimerkkilauseke (pvm)**|**Suodatukseen sisällytettävät tiedot**|
 |-----------|---------------------|--------------------|
-|Väli|`12 15 00..01 15 01`<br /><br />`..12 15 00`<br /><br />`p1..p4`|Tietueet, joiden päivämäärät ovat välillä 12 15 00 ja 01 15 01 kyseiset päivät mukaan lukien.<br /><br />Tietueet, joiden päivämäärä on 12 15 00 tai aiempi.<br /><br />Päivämääräalue, joka sisältää toisen, kolmannen ja neljännen kirjanpitojakson, kuten `01/01/20..04/30/20`.|
-|Joko/tai|`12 15 00|12 16 00`|Tietueet, joiden päivämäärät ovat 12 15 00 tai 12 16 00. Myös tietueet, joilla on molemmat päivämäärät, näytetään.|
-|Yhdistelmä|`12 15 00|12 01 00..12 10 00`  \n`..12 14 00|12 30 00..`|Tietueet, joiden päivämäärät ovat 15.12.00 tai 01.12.00 ja 10.12.00 sekä niiden välisenä aikana.  \nTietueet, joiden päivämäärä on 12 14 00 tai sitä aiempi, tai 12 30 00 tai sitä myöhempi. Toisin sanoen kaikki tietueet paitsi ne, joiden päivämäärä sijoittuu välille 12 15 00 ja 12 29 00 kyseiset päivät mukaan lukien.|
+|Väli|15.12.00-15.1.01<br /><br />-15.12.00<br /><br />j1-j4|Tietueet, joiden päivämäärät ovat välillä 15.12.00 ja 15.1.01 kyseiset päivät mukaan lukien.<br /><br />Tietueet, joiden päivämäärä on 15.12.00 tai aiempi.<br /><br />Päivämääräalue, joka sisältää toisen, kolmannen ja neljännen kirjanpitojakson, kuten 1.1.20-30.4.20.|
+|Joko/tai|15.12.00|16.12.00|Tietueet, joiden päivämäärät ovat 15.12.00 tai 16.12.00. Myös tietueet, joilla on molemmat päivämäärät, näytetään.|
+|Yhdistelmä|15.12.00|1.12.00-10.12.00  \n-14.12.00|30.12.00-|Tietueet, joiden päivämäärät ovat 15.12.00 tai 01.12.00 ja 10.12.00 sekä niiden välisenä aikana.  \Tietueet, joiden päivämäärä on 14.12.00 tai sitä aiempi, tai 30.12.00 tai sitä myöhempi. Toisin sanoen kaikki tietueet paitsi ne, joiden päivämäärä sijoittuu välille 15.12.00 ja 20.12.00 kyseiset päivät mukaan lukien.|
 
-Voit käyttää päivämääräalueiden suodattimissa mitä tahansa sallittua muotoa. Jos esimerkiksi päivämäärän ja ajan kentässä käytetään arvoa `mon14 3..t 4p`, tuloksena on suodatin, joka käsittää aikavälin kuluvan käsittelypäivämäärän vuoden viikon 14 maanantaista kello 3.00 kuluvaan päivään kello 16.00 kyseiset ajankohdat mukaan lukien.
+Voit käyttää päivämääräalueiden suodattimissa mitä tahansa sallittua muotoa. Jos esimerkiksi päivämäärän ja ajan kentässä käytetään arvoa ma14 3..t 4j, tuloksena on suodatin, joka käsittää aikavälin kuluvan käsittelypäivämäärän vuoden viikon 14 maanantaista kello 3:00 kuluvaan päivään kello 16:00 kyseiset ajankohdat mukaan lukien.
 
 ## <a name="using-date-formulas"></a>Päivämäärän kaavojen käyttäminen
 Päivämäärän kaava on lyhyt kirjain- ja numeroyhdistelmä, joka kertoo ohjelmalle, miten päivämäärät lasketaan. Voit syöttää päivämääräkaavat erilaisiin päivämäärien laskentakenttiin ja suodattimiin.
 
 > [!NOTE]
->  Kaikissa tietokaavakentissä yksi päivä sisällytetään automaattisesti edustamaan kuluvaa päivää kauden alkupäivänä. Jos siis syötät arvoksi esimerkiksi `1W`, kausi on kahdeksan päivää, koska tämä päivä lasketaan mukaan. Määritä seitsemän päivän kausi \(yksi kokonainen viikko\) sisältäen alkamispäivämäärän ja syötä sitten `6D` tai `1W-1D`.
+>  Kaikissa tietokaavakentissä yksi päivä sisällytetään automaattisesti edustamaan kuluvaa päivää kauden alkupäivänä. Jos siis syötät arvoksi esimerkiksi 1K, kausi on kahdeksan päivää, koska tämä päivä lasketaan mukaan. Määritä seitsemän päivän kausi \(yksi kokonainen viikko\) sisältäen alkamispäivämäärän ja syötä sitten 6P tai 1K-1P.
 
 Seuraavassa on joitakin esimerkkejä päivämäärän kaavojen käytöstä:
 
@@ -152,50 +152,50 @@ Päivämäärän kaavassa voi olla enintään 20 merkkiä, sekä numeroita että
 
 |  Kirjain  |  Merkitys  |
 |----------|----------------------|
-|`C`|Nykyinen|
-|`D`|Päivä|
-|`W`|Viikko|
-|`M`|Kuukausi|
-|`Q`|Vuosineljännes|
-|`Y`|Vuosi|
+|N|Nykyinen|
+|P|Päivä\(päivät\)|
+|VI|Viikko\(viikot\)|
+|K|Kuukausi\(kuukaudet\)|
+|Q |Vuosineljännes\(vuosineljännekset\)|
+|V|Vuosi\(vuodet\)|
 
 Voit rakentaa päivämääräkaavan kolmella eri tavalla:
 
-Seuraava esimerkki näyttää, miten käytetään kirjainta `C` (current, nykyinen) ja aikayksikköä.
+Seuraava esimerkki näyttää, miten käytetään kirjainta N (nykyinen) ja aikayksikköä.
 
 |  Lauseke  |  Merkitys  |
 |--------------|-----------|
-|`CW`|Nykyinen viikko|
-|`CM`|Nykyinen kuukausi|
+|NVI|Nykyinen viikko|
+|NK|Nykyinen kuukausi|
 
 Seuraava esimerkki näyttää, miten käytetään numeroa ja aikayksikköä. Numero ei voi olla suurempi kuin 9999.
 
 |  Lauseke  |  Merkitys  |
 |--------------|-----------|
-|`10D`|10 päivää tästä päivästä|
-|`2W`|2 viikkoa tämän päivän jälkeen|
+|10P|10 päivää tästä päivästä|
+|2VI|2 viikkoa tämän päivän jälkeen|
 
 Seuraava esimerkki näyttää, miten käytetään aikayksikköä ja numeroa.
 
 |  Lauseke  |  Merkitys  |
 |--------------|-----------|
-|`D10`|Kuukauden seuraava 10. päivä|
-|`WD4`|Viikon seuraava 4. päivä \(torstai\)|
+|P10|Kuukauden seuraava 10. päivä|
+|VIP4|Viikon seuraava 4. päivä \(torstai\)|
 
 Seuraavassa esimerkissä näytetään, miten voit yhdistää nämä kolme eri muotoa tarvittaessa:
 
 |  Lauseke  |  Merkitys  |
 |--------------|-----------|
-|`CM+10D`|Nykyinen kuukausi \+ 10 päivää|
+|NK+10P|Nykyinen kuukausi \+ 10 päivää|
 
 Miinus-merkin avulla pystyt ilmaisemaan menneitä päiviä. Esimerkiksi:
 
 |  Lauseke  |  Merkitys  |
 |--------------|-----------|
-|`-1Y`|1 vuosi taaksepäin tästä päivästä|
+|-1 V.|1 vuosi taaksepäin tästä päivästä|
 
 > [!IMPORTANT]
->  Jos sijainti käyttää peruskalenteria, sitten päivämääräkaava, jonka annat esimerkiksi **Toimitusaika** -kenttään, tulkitaan kalenterin mukaan työskentelypäiviksi. Esimerkiksi `1W` tarkoittaa seitsemää työpäivää.
+>  Jos sijainti käyttää peruskalenteria, sitten päivämääräkaava, jonka annat esimerkiksi **Toimitusaika** -kenttään, tulkitaan kalenterin mukaan työskentelypäiviksi. Esimerkiksi 1K tarkoittaa seitsemää käsittelypäivää.
 <!--
 # Entering Date Ranges
 You can set filters containing a start date and an end date to display only the data contained in that date range or time interval. Special rules apply to the way you set date ranges. Let's take the **Customer Top 10** as an example:
@@ -294,26 +294,26 @@ Seuraavassa taulukossa on luettelo eri tavoista, joilla aikoja voi syöttää ja
 
 |**Tapahtuma**      |**Tulkinta**      |
 |---------------|------------------------|
-|`05:23:17`|05:23:17|
-|`5`|05:00:00|
-|`5AM`|05:00:00|
-|`5P`|17:00:00|
-|`12`|12:00:00|
-|`12A`|00:00:00|
-|`12P`|12:00:00|
-|`17`|17:00:00|
-|`5:30`|05:30:00|
-|`0530`|05:30:00|
-|`5:30:5`|05:30:05|
-|`053005`|05:30:05|
-|`5:30:5,50`|05:30:05.5|
-|`053005050`|05:30:05.05 |
+|05:23:17|05:23:17|
+|5|05:00:00|
+|5AM|05:00:00|
+|5P|17:00:00|
+|12|12:00:00|
+|12A|00:00:00|
+|12P|12:00:00|
+|17|17:00:00|
+|5:30|05:30:00|
+|0530|05:30:00|
+|5:30:5 |05:30:05|
+|053005|05:30:05|
+|5:30:5,50|05:30:05.5|
+|053005050|05:30:05.05|
 
-Ota huomioon, että millisekunnit tulkitaan desimaalimuodoksi. Esimerkiksi `3`, `30` ja `300` merkitsevät 300 millisekuntia, kun taas `03` tarkoittaa `30` ja `003` 3 millisekuntia.
+Ota huomioon, että millisekunnit tulkitaan desimaalimuodoksi. Esimerkiksi 3, 30 ja 300 merkitsevät 300 millisekuntia, kun taas 03 tarkoittaa 30 ja 003 tarkoittaa 3 millisekuntia.
 
-Et voi käyttää arvoa `24:00`, jos tarkoitat keskiyötä, etkä mitään arvoa, joka on suurempi kuin 24:00.
+Et voi käyttää arvoa 24:00, jos tarkoitat keskiyötä, etkä mitään arvoa, joka on suurempi kuin 24:00.
 
-Aika-sana [!INCLUDE[d365fin](includes/d365fin_long_md.md)] -sovelluksen käyttämällä kielellä arvioidaan tietokoneen tai mobiililaitteen nykyiseksi ajaksi. Voit syöttää sanan minkä tahansa alkuosan, kuten `t` tai `TIM`.
+Aika-sana [!INCLUDE[d365fin](includes/d365fin_long_md.md)] -sovelluksen käyttämällä kielellä arvioidaan tietokoneen tai mobiililaitteen nykyiseksi ajaksi. Voit syöttää sanan minkä tahansa alkuosan, kuten a tai AIK.
 
 ## <a name="entering-combined-dates-and-times"></a>Yhdistettyjen pvm:ien ja aikojen syöttäminen
 Kun syötät päivämääriä ja aikoja, joissa päivämäärä ja aika on yhdistetty yhdeksi kentäksi, päivämäärän ja ajan välissä on oltava välilyönti. Päivämääräosa voi sisältää välilyöntejä vain alueasetusten virallisen päivämääräerottimen muodossa. Ajan välilyönnit voivat olla AM/PM-osoittimen ympärillä.
@@ -324,27 +324,27 @@ Seuraavassa luettelossa on joitakin esimerkkejä päivämäärän ja ajan yhdist
 
 |**Tapahtuma**      |**Tulkinta**      |
 |---------------|------------------------|
-|`08-01-2016 05:48:12 PM`|08\-01\-2016 05:48:12 PM|
-|`131202 132455`|13\-12\-2002 13:24:55|
-|`1-12-02 10`|01\-12\-2002 10:00:00|
-|`1.12.02 5`|01\-12\-2002 05:00:00|
-|`1.12.02`|01\-12\-2002 00:00:00|
-|`11 12`|11\-käsittelypvm:n kuukausi\-käsittelypvm:n vuosi 12:00:00|
-|`1112 12`|11\-12\-käsittelypvm:n vuosi 12:00:00|
-|`t` tai `today`|tämän päivän päivämäärä 00:00:00|
-|`t 10:30`|tämän päivän päivämäärä 10:30:00|
-|`t 3:3:3`|tämän päivän päivämäärä 03:03:03|
-|`w` tai `workdate`|käsittelypvm 00:00:00|
-|`m` tai `Monday`|Käsittelypvm:n viikon maanantai 00:00:00|
-|`tu` tai `Tuesday`|Käsittelypvm:n viikon tiistai 00:00:00|
-|`sa` tai `Saturday`|Käsittelypvm:n viikon lauantai 00:00:00|
-|`s` tai `Sunday`|Käsittelypvm:n viikon sunnuntai 00:00:00|
-|`tu 10:30`|Käsittelypvm:n viikon tiistai 10:30:00|
-|`tu 3:3:3`|Käsittelypvm:n viikon tiistai 03:03:03|
-|`t23 t`|Käsittelypvm:n vuoden viikon 23 tiistai, nykyinen aika|
-|`t23`|Käsittelypvm:n vuoden viikon 23 tiistai|
-|`t 23`|Tänään 23:00:00|
-|`t-1`|Käsittelypvm:n vuoden viikon 1 tiistai|
+|08-01-2016 05:48:12 PM|1.8.2016 17:48:12|
+|131202 132455|13.12.2002 13:24:55|
+|1-12-02 10|01.12.2002 10:00:00|
+|1.12.02 5|01.12.2002 05:00:00|
+|1.12.02|01.12.2002 00:00:00|
+|11 12|11.käsittelypvm:n kuukausi.käsittelypvm:n vuosi 12:00:00|
+|1112 12|11.12.käsittelypvm:n vuosi 12:00:00|
+|t tai tänään|tämän päivän päivämäärä 00:00:00|
+|t 10:30:00|tämän päivän päivämäärä 10:30:00|
+|t 3:3:3|tämän päivän päivämäärä 03:03:03|
+|k tai käsittelypvm|käsittelypvm 00:00:00|
+|ma tai maanantai|Käsittelypvm:n viikon maanantai 00:00:00|
+|ti tai tiistai|Käsittelypvm:n viikon tiistai 00:00:00|
+|la tai lauantai|Käsittelypvm:n viikon lauantai 00:00:00|
+|su tai sunnuntai|Käsittelypvm:n viikon sunnuntai 00:00:00|
+|ti 10:30:00|Käsittelypvm:n viikon tiistai 10:30:00|
+|ti 3:3:3|Käsittelypvm:n viikon tiistai 03:03:03|
+|t23 t|Käsittelypvm:n vuoden viikon 23 tiistai, nykyinen aika|
+|t23|Käsittelypvm:n vuoden viikon 23 tiistai|
+|t 23|Tänään 23:00:00|
+|t-1|Käsittelypvm:n vuoden viikon 1 tiistai|
 
 ## <a name="entering-duration"></a>Keston syöttäminen
 Sovelluksen jotkin kentät edustavat kestoa tai kuluneen ajan määrää tietyn päivämäärän tai ajan sijaan. Kesto syötetään numerona, jota seuraa sen mittayksikkö.
@@ -353,19 +353,18 @@ Seuraavassa on muutamia esimerkkejä:
 
 |**Kesto**|**Mittayksikkö**|
 |------------|-------------------|
-|`2h`|2 tuntia|
-|`6h 30 m`|6 tuntia 30 minuuttia|
-|`6.5h`|6 tuntia 30 minuuttia|
-|`90m`|1 tunti 30 minuuttia|
-|`2d 6h 30m`|2 päivää 6 tuntia 30 minuuttia|
-|`2d 6h 30m 56s 600ms`|2 päivää 6 tuntia 30 minuuttia 56 sekuntia 600 tuhannesosasekuntia|
+|2t|2 tuntia|
+|6t 30 m|6 tuntia 30 minuuttia|
+|6,5t|6 tuntia 30 minuuttia|
+|90 m|1 tunti 30 minuuttia|
+|2p 6t 30m|2 päivää 6 tuntia 30 minuuttia|
+|2p 6t 30m 56s 600ms|2 päivää 6 tuntia 30 minuuttia 56 sekuntia 600 tuhannesosasekuntia|
 
 Voit syöttää myös numeron, jonka ohjelma muuntaa automaattisesti kestoksi. Syöttämäsi numero muunnetaan kestokenttään määritellyn oletusmittayksikön mukaisesti.
 
 Voit tarkastaa, mitä mittayksikköä kestokentässä käytetään, syöttämällä numeron ja katsomalla, mihin mittayksikköön ohjelma muuntaa sen.
 
-Jos mittayksikkö on esimerkiksi Tunnit, numero `5` muunnetaan 5 tunniksi.
-
+Jos mittayksikkö on esimerkiksi Tunnit, numero 5 muunnetaan 5 tunniksi.
 
 ## <a name="see-also"></a>Katso myös
 [[!INCLUDE[d365fin](includes/d365fin_long_md.md)]in käyttäminen](ui-work-product.md)  
