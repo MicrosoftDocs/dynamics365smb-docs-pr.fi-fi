@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7b6b4c31b19b85ae33eb3d4a8be0e2e3d5c14320
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c5a3ce2049b1686da04842f7c73abb2255369ffa
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247303"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2306986"
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Rakennetiedot: lähtevän fyysisen varastoinnin virta
 Fyysisen varaston lähtevä virta alkaa liittyvien lähdeasiakirjojen pyynnöllä tuoda nimikkeet varastosijainnista lähetettäviksi joko ulkoiselle osapuolelle tai yrityksen toiseen sijaintiin. Varastotoiminnot suoritetaan varastoalueelta erilaisilla monimutkaisuustasoilla nimikkeiden siirtämiseksi ulos toimituslaitureille.  
@@ -73,7 +73,7 @@ Lisäksi olemassa on seuraavat sisäiset lähdeasiakirjat, jotka toimivat kuten 
 
  Varastopoiminnoille luodaan negatiiviset nimiketapahtumat, varastomerkinnät luodaan ja poimintapyyntö poistetaan, jos käsittely on suorittu loppuun. Esimerkiksi **Toimitettu määrä** -kenttä lähtevän lähdeasiakirjan rivillä päivitetään. Luodaan kirjatun toimituksen asiakirja, joka vastaa esimerkiksi myyntitilausta ja toimitettuja nimikkeitä.  
 
-## <a name="advanced-warehouse-configurations"></a>laajennetut varastomääritykset  
+## <a name="advanced-warehouse-configurations"></a>Laajennetut varastomääritykset  
  Seuraavassa kaaviossa kuvataan lähtevät fyysisen varaston virrat asiakirjatyypeittäin laajennetuissa varastomäärityksissä. Kaavion luvut vastaavat vaiheita kaavion osa-alueiden mukaan.  
 
  ![Laajennettujen varastomääritysten saapuva virta](media/design_details_warehouse_management_outbound_advanced_flow.png "Laajennettujen varastomääritysten saapuva virta")  

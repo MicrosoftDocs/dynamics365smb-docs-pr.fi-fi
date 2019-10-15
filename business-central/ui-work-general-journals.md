@@ -7,14 +7,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9ba3873284f5e40e46eeee8615974dd6053d4991
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 635e53040ab9920780cd1cf05a14f6dfa17496d9
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249949"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314962"
 ---
 # <a name="working-with-general-journals"></a>Yleisten päiväkirjojen käyttäminen
 
@@ -28,7 +28,7 @@ Useimmissa tapauksissa kuitenkin käyttää tietyille tapahtumille tarkoitettuja
 
 Yleisiä päiväkirjoja käytetään rahoitustapahtumien kirjaamisessa suoraan pääkirjanpitotileille sekä muille tileille, kuten pankki-, asiakas-, toimittaja- ja työntekijätileille. Yleisen päiväkirjan avulla kirjaaminen luo aina tapahtumia kirjanpitotileille. Näin tapahtuu silloinkin, kun kirjataan esimerkiksi päiväkirjan rivi asiakkaan tilille, koska tapahtuma kirjataan pääkirjanpidon myyntisaamisten tilille kirjausryhmän kautta.
 
-Päiväkirjaan lisäämäsi tiedot ovat väliaikaisia, ja niitä voi muuttaa niiden ollessa päiväkirjassa. Kun kirjaat päiväkirjan, tiedot siirretään yksittäisten tilien tapahtumiin, missä niitä ei voi muuttaa. Voit kuitenkin peruuttaa kirjattujen tapahtumien kohdistuksen tai kirjata peruuttavia tai korjaavia tapahtumia. Lisätietoja on kohdassa [Kirjauksien peruuttaminen](finance-how-reverse-journal-posting.md).
+Päiväkirjaan lisäämäsi tiedot ovat väliaikaisia, ja niitä voi muuttaa niiden ollessa päiväkirjassa. Kun kirjaat päiväkirjan, tiedot siirretään yksittäisten tilien tapahtumiin, missä niitä ei voi muuttaa. Voit kuitenkin peruuttaa kirjattujen tapahtumien kohdistuksen tai kirjata peruuttavia tai korjaavia tapahtumia. Lisätietoja on kohdassa [Päiväkirjakirjauksen peruuttaminen sekä vastaanottojen tai toimitusten kumoaminen](finance-how-reverse-journal-posting.md).
 
 > [!NOTE]
 > [!INCLUDE[journal-showhide-columns-inline-tip](includes/journal-showhide-columns-inline-tip.md)]  
@@ -113,7 +113,7 @@ Kun olet luonut päiväkirjan rivejä, joita todennäköisesti käytät myös va
     Jos olet aiemmin luonut vähintään yhden vakionimikepäiväkirjan ja haluat korvata jonkin niistä uusilla päiväkirjan riveillä, valitse haluamasi vakionimikepäiväkirjan koodi napsauttamalla Koodi-kenttää.
 6. Kun valitset **OK**, ohjelma pyytää varmistamaan aiemmin luodun vakionimikepäiväkirjan ja kaiken sen sisällön korvaamisen.
 7. Valitse **Tallenna yksikkösumma** -kenttä, jos haluat tallentaa arvot vakionimikepäiväkirjan **Yksikkösumma** -kenttään.
-8. Valitse **Tallenna määrä** -kenttä, jos ohjelman on tarkoitus tallentaa arvot **Määrä**-kenttään.
+8. Valitse **Tallenna määrä** -kenttä, jos sovelluksen on tarkoitus tallentaa arvot **Määrä**-kenttään.
 9. Valitse **OK**-painike tallentaaksesi vakionimikepäiväkirjan.
 
 Kun olet tallentanut vakionimikepäiväkirjan, ohjelma siirtyy takaisin Nimikepäiväkirja-sivulle, jossa voit kirjata rivit. Tämän jälkeen voit kirjata samat tai vastaavat rivit vaivattomasti aina, kun tilanne sitä edellyttää.
@@ -160,7 +160,7 @@ Seuraavat toimenpiteet perustuvat **Yleinen päiväkirja** -sivuun, mutta niitä
 
 ## <a name="see-also"></a>Katso myös
 [Tapahtumien kirjaaminen suoraan pääkirjanpitoon](finance-how-post-transactions-directly.md)  
-[Kirjausten peruuttaminen](finance-how-reverse-journal-posting.md)  
+[Päiväkirjakirjauksen peruuttaminen sekä vastaanottojen tai toimitusten kumoaminen](finance-how-reverse-journal-posting.md)  
 [Kustannusten ja tulojen kohdistaminen](year-allocate-costs-income.md)  
 [Rahoitus](finance.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)

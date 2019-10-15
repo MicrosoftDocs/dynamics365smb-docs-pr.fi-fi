@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 25dc281d83860742b9d699aeba9794f70f786202
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 9814da8c8a29c29e5bfee5da85f6d9b522a03e9d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252479"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2312146"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Erikoismyyntihintojen ja -alennusten kirjaaminen
 Eri asiakkaiden hinta- ja alennussopimukset on määritettävä, jotta asiakkaille luotavissa myyntiasiakirjoissa käytetään sovittuja sääntöjä ja arvoja.
@@ -75,7 +75,7 @@ Kun käytät laskualennuksia, laskusumman suuruus määrää annettavan alennuks
 
 Voit lisätä **Asiakkaan laskualennukset** -sivulla tietyn summaisille laskuille myös palvelumaksuja.  
 
-Ennen kuin myynneissä voi käyttää laskualennuksia, ohjelmaan täytyy syöttää tiettyjä tietoja. Täytyy päättää:  
+Ennen kuin myynneissä voi käyttää laskualennuksia, sovellukseen on annettava tiettyjä tietoja. Täytyy päättää:  
 
 - ketkä asiakkaat saavat tämän tyyppisen alennuksen.  
 - mitä alennusprosentteja käytetään.  
@@ -89,7 +89,7 @@ Voit linkittää alennusprosentit tiettyihin laskusummiin **Asiakkaan laskualenn
 Spesifiseen laskusummaan voi linkittää alennusprosentin lisäksi (tai sen sijaan) palvelumaksusumman.  
 
 > [!TIP]  
->  Ennen kuin näitä tietoja aletaan syöttää ohjelmaan, olisi hyvä tehdä luonnos alennusrakenteesta, jota haluat käyttää. Tällä tavalla on helpompi nähdä, ketkä asiakkaat voi linkittää samaan laskualennussivulle. Mitä vähemmän sivuja on määritettävä, sitä nopeampaa perustietojen antaminen on.  
+>  Ennen kuin näitä tietojen antaminen sovellukseen aloitetaan, käytettävästä alennusrakenteesta kannattaa tehdä luonnos. Tällä tavalla on helpompi nähdä, ketkä asiakkaat voi linkittää samaan laskualennussivulle. Mitä vähemmän sivuja on määritettävä, sitä nopeampaa perustietojen antaminen on.  
 
 ## <a name="best-price-calculation"></a>Parhaan hinnan laskenta
 Kun olet kirjannut myynnin ja ostojen erikoishinnat ja rivialennukset, [!INCLUDE[d365fin](includes/d365fin_md.md)] varmistaa, että nimikekaupan tuotto on aina optimaalinen laskemalla automaattisesti parhaan hinnan myynti- ja ostoasiakirjoille sekä projekti- ja nimikepäiväkirjan riville.

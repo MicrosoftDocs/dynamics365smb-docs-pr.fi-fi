@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
-ms.date: 04/24/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7d294ba1a484af195b962bac827435e57ff5709f
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: 2be63cdb75a056beebb8648fa151b055a5a4f484
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1446851"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308674"
 ---
 # <a name="setting-up-relationship-management"></a>Kontaktienhallinnan määrittäminen
 Ennen kuin aloitat kontaktien ja markkinoinnin käsittelemisen, määritä, miten markkinoinnissa hallitaan tiettyjä kontakteihin liittyviä asioita. Voit määrittää esimerkiksi sen, synkronoidaanko kontaktin kortti asiakkaan, toimittajan vai pankkitilin kortin kanssa, miten numerosarjat määritetään tai millainen vakiotervehdys kontakteille lähetetään.
@@ -29,16 +29,16 @@ Voit määrittää markkinoinnin ja kontaktien hallinnan **Kontaktienhallinnan a
 ## <a name="automatically-copying-specific-information-from-contact-companies-to-contact-persons"></a>Tiettyjen tietojen kopioiminen automaattisesti kontaktiyrityksistä kontaktihenkilöille
 Jotkin kontaktiyritysten tiedoista ovat samat kuin tämän yrityksen kontaktihenkilön tiedot, esimerkiksi osoitetiedot. Voit määrittää **Kontaktienhallinnan asetukset** -sivun **Periytyminen**-osassa sovelluksen, joka kopioi automaattisesti tietyt kentät kontaktiyrityksen kortista kontaktihenkilön korttiin aina, kun luot kontaktiyritykseen kontaktihenkilön. Voit esimerkiksi kopioida myyjän koodin, osoitetiedot (osoite, osoite 2, postinumero ja maa), yhteystiedot (faksinumero, teleksivastaus ja puhelinnumero) ja muita tietoja.
 
-Kun muutat yhtä näistä kentistä kontaktiyrityksen kortilla, ohjelma muuttaa kenttää automaattisesti kontaktihenkilön kortilla (jos et ole manuaalisesti muuttanut kenttää kontaktihenkilön kortilla).
+Kun muutat yhtä näistä kentistä kontaktiyrityksen kortilla, sovellus muuttaa kenttää automaattisesti kontaktihenkilön kortilla (jos et ole manuaalisesti muuttanut kenttää kontaktihenkilön kortilla).
 
 Lisätietoja on kohdassa [Kontaktihenkilöiden luominen](marketing-how-create-contact-persons.md).
 
 ## <a name="using-predefined-defaults-on-new-contacts"></a>Ennalta määritettyjen oletusarvojen käyttäminen uusissa kontakteissa
-Voit päättää, että sovellus liittää automaattisesti tietyn kielikoodin, territoriokoodin, myyjäkoodin ja maa-/aluekoodin oletusarvon jokaiseen luomaasi uuteen kontaktiin. Voit myös syöttää myyntisyklin koodin oletusarvon, jonka ohjelma sitten liittää jokaiseen luomaasi uuteen mahdollisuuteen.
+Voit päättää, että sovellus liittää automaattisesti tietyn kielikoodin, territoriokoodin, myyjäkoodin ja maa-/aluekoodin oletusarvon jokaiseen luomaasi uuteen kontaktiin. Voit myös antaa myyntisyklin oletuskoodin, jonka sovellus sitten liittää jokaiseen luomaasi uuteen mahdollisuuteen.
 
-Kenttien periytyminen syrjäyttää määrittämäsi oletusarvot. Jos olet esimerkiksi määrittänyt englannin oletuskieleksi, mutta kontaktiyrityksen kieli on saksa, ohjelma liittää automaattisesti saksan kielikoodin yrityksen kontaktihenkilölle.
+Kenttien periytyminen syrjäyttää määrittämäsi oletusarvot. Jos olet esimerkiksi määrittänyt englannin oletuskieleksi, mutta kontaktiyrityksen kieli on saksa, sovellus liittää automaattisesti saksan kielikoodin yrityksen kontaktihenkilölle.
 
-<!--You can also setup a default salutation that the program automatically assigns to your contacts. You can use these salutations in your interaction template attachments (for example, Microsoft Word documents). When setting up a default salutation, you can enter a salutation text and a salutation format. For example, if the salutation text is Dear, and the salutation format is Salutation Text + Title + Name, the program will automatically enter Dear Mr. John Smith as a salutation for a contact called John Smith.-->
+<!--You can also setup a default salutation that application automatically assigns to your contacts. You can use these salutations in your interaction template attachments (for example, Microsoft Word documents). When setting up a default salutation, you can enter a salutation text and a salutation format. For example, if the salutation text is Dear, and the salutation format is Salutation Text + Title + Name, application will automatically enter Dear Mr. John Smith as a salutation for a contact called John Smith.-->
 
 ## <a name="automatically-recording-interactions"></a>Vuorovaikutusten automaattinen tallennus
 [!INCLUDE[d365fin](includes/d365fin_md.md)] voi tallentaa myynti- ja ostoasiakirjoja (esimerkiksi tilauksia, laskuja ja vastaanottoja) automaattisesti vuorovaikutukseksi, samoin sähköpostiviestejä, puhelinkeskusteluja ja kansilehtiä.
@@ -51,12 +51,12 @@ Kun haluat synkronisoida kontaktikortin asiakas-, toimittaja- ja pankkitilikorti
 Lisätietoja on kohdassa [Kontaktien synkronoiminen asiakkaiden, toimittajien ja pankkitilien kanssa](marketing-synchronize-contacts-customers-vendors-bank-accounts/Synchronizing Contacts With Customers, Vendors, and Bank Accounts).
 
 ## <a name="assigning-a-number-series-to-contacts-and-opportunities"></a>Numerosarjojen määrittäminen kontakteihin ja mahdollisuuksiin
-Voit määrittää numerosarjan kontakteille ja mahdollisuuksille. Jos olet määrittänyt numerosarjat kontakteille kontaktin luomisen yhteydessä, ja painat Enter-näppäintä kontaktin kortin Nro-kentässä, ohjelma syöttää automaattisesti seuraavan käytettävissä olevan kontaktinumeron.
+Voit määrittää numerosarjan kontakteille ja mahdollisuuksille. Jos olet määrittänyt numerosarjat kontakteille kontaktin luomisen yhteydessä, ja painat Enter-näppäintä kontaktin kortin Nro-kentässä, sovellus antaa automaattisesti seuraavan käytettävissä olevan kontaktinumeron.
 
 Lisätietoja numerosarjoista on kohdassa [Numerosarjojen luominen](ui-create-number-series.md).
 
 ## <a name="searching-for-duplicate-contacts-when-contacts-are-created"></a>Kontaktien kopioiden etsiminen kontakteja luotaessa
-Voit valita, että ohjelma hakee kopioita automaattisesti aina kun luot kontaktiyrityksen; tai voit valita, että haet kopioita manuaalisesti kontaktien luomisen jälkeen. Voit myös valita, että ohjelma päivittää hakumerkkijonot automaattisesti aina kun muutat kontaktin tietoja tai luot uuden kontaktin. Voit päättää Haun osuma-%:in, siis sen identtisten merkkijonojen prosenttiosuuden, joka kahdella kontaktilla täytyy olla, jotta ohjelma tulkitsee ne kopioiksi.
+Voit valita, että sovellus hakee kaksoiskappaleita automaattisesti aina, kun luot kontaktiyrityksen. Vaihtoehtoisesti voit valita, että haet kaksoiskappaleet manuaalisesti kontaktien luomisen jälkeen. Voit myös valita, että sovellus päivittää hakumerkkijonot automaattisesti aina, kun muutat kontaktin tietoja tai luot uuden kontaktin. Voit päättää Haun osuma-%:n, siis sen identtisten merkkijonojen prosenttiosuuden, joka kahdella kontaktilla täytyy olla, jotta sovellus tulkitsee ne kopioiksi.
 
 ## <a name="see-also"></a>Katso myös
 [Kontaktien hallinta](marketing-contacts.md)  

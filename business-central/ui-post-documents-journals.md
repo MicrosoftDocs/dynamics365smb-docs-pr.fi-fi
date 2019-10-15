@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/24/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a3fabec129de3e59eff30f70d1084e3969fa9ddc
-ms.sourcegitcommit: f46793abdb3efd8384c10eb7992e076383251f2c
+ms.openlocfilehash: 21329a8c6232fe0aba2f0ef99cc58ce4ea699d68
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "1921359"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310691"
 ---
 # <a name="posting-documents-and-journals"></a>Asiakirjojen ja päiväkirjojen kirjaaminen
 Kirjaaminen on kirjanpitotoiminto, jolla tallennetaan liiketoimintatapahtumia erilaisiin yrityksen päiväkirjoihin.
@@ -29,6 +29,7 @@ Seuraavassa taulukossa esitellään liittyvät tehtävät ja linkit tehtäviä k
 | --- | --- |
 | Tietoja ostoasiakirjojen kirjaamisesta. |[Ostojen kirjaaminen](ui-post-purchases.md) |
 | Tietoja myyntiasiakirjojen kirjaamisesta. |[Myynnin kirjaaminen](ui-post-sales.md) |
+| Kirjaa useita myynti- tai ostoasiakirjoja yhdessä, heti tai aikataulutettuna.|[Useiden asiakirjojen kirjaaminen samanaikaisesti](ui-batch-posting.md)|
 | Tietoja yleisten päiväkirjojen kirjaamisesta. |[Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md) |
 | Esikatsele sivulla tapahtumia, jotka luodaan kirjaamisen yhteydessä. |[Kirjaustulosten esikatselu](ui-how-preview-post-results.md) |
 | Esikatsele raportissa syöttöjä, jotka luodaan kirjaamisen yhteydessä. |[Testiraporttien tarkastelu ennen kirjausta](ui-how-view-test-reports-posting.md) |

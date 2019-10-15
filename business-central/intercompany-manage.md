@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 42a02a5ec6a519b43df1b147cd4ba94006bdcae0
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 8e7a26f3086249e1e36fe302e75141c44bbb46d7
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241867"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308570"
 ---
 # <a name="managing-intercompany-transactions"></a>Konsernitapahtumien hallinta
 Organisaatio saattaa koostua useasta yrityksestä, mutta siinä ei välttämättä ole samaa määrää laskenta- ja hallintotyöryhmiä. Konsernitoimintojen ansiosta liiketoiminta tytäryhtiöiden ja sisäisten kumppaniorganisaatioiden on samanlaista kuin ulkoisten toimittajien ja asiakkaiden kanssa toimiminen. Konsernin tapahtumien tiedot lisätään asianmukaisiin asiakirjoihin vain kerran. Voit käyttää itsellesi tuttua toimintoa, esimerkiksi myyntisaamisten ja ostovelkojen hallintaa. Tilikartan ja dimensioiden linkitystoiminto auttaa varmistamaan, että tiedot näkyvät oikeissa paikoissa.  
@@ -29,7 +29,7 @@ Konsernitoimintoihin liittyy neljä merkittävää etua:
 - Kirjausketju on täydellinen, ja liiketoiminnoilla sekä tapahtumahistorioilla on täysi näkyvyys.  
 - Tapahtumat sisar- ja tytäryhtiöiden kanssa ovat tehokkaita ja kannattavia.  
 
-Kaikki tapahtuma-asiakirjat ovat täysin hallinnassasi. Voit esimerkiksi hylätä sinulle lähetetyn asiakirjan ja tällä tavalla kumota väärät kirjaukset. Tehdessäsi ostoja kumppani- tai tytäryritykseltä voit päivittää ostotilausta niin kauan kuin myyjäyritys ei ole lähettänyt tavaroita.  
+Kaikki tapahtuma-asiakirjat ovat täysin hallinnassasi. Voit esimerkiksi hylätä sinulle lähetetyn asiakirjan ja tällä tavalla peruuttaa virheelliset päiväkirjakirjaukset sekä kumota virheelliset vastaanotot tai toimitukset. Tehdessäsi ostoja kumppani- tai tytäryritykseltä voit päivittää ostotilausta niin kauan kuin myyjäyritys ei ole lähettänyt tavaroita.  
 
 Kun lisäät tapahtuman, yksittäisten tilijoukkojen tilejä ei tarvitse määrittää, vaan kumppaniyrityksen tunnus riittää. Konsernitoiminto luo yleisen päiväkirjan rivejä, jotka täsmäävät molempien tapahtumaan osallistuneiden yritysten tilit. Myyntisaamisissa ja ostoveloissa asiakkaille ja toimittajille voi määrittää konsernikumppanin koodin. Sen jälkeen aina, kun luodaan näiden yritysten kanssa suoritettuihin tapahtumiin liittyviä tilauksia tai laskuja, vastaavat asiakirjat luodaan myös kumppaniyritykseen, jolloin tilit täsmäytyvät oikein.  
 

@@ -5,16 +5,16 @@ author: edupont04
 ms.service: dynamics365-accountant
 ms.topic: get-started-article
 ms.search.keywords: setup wizard, accountant
-ms.date: 11/05/2018
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 504891ced64d5cc25823b3887ecdd592b971bf3f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 38116469ff0143aa61e5f6b1b1814901d5a24165
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237491"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300327"
 ---
-# <a name="welcome-to-include-d365acclongincludesd365acclongmdmd"></a>Tervetuloa [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]iin
+# <a name="welcome-to-include-d365acc_longincludesd365acc_long_mdmd"></a>Tervetuloa [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]iin
 [!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]
 
 Jos olet kirjanpitäjä, jolla on useita asiakkaita, voit käyttää [!INCLUDE [d365acc](includes/d365acc_md.md)]ia koontinäyttönä ja saada sen avulla paremman yleiskuvan asiakkaistasi. Voit käyttää näkymästä kunkin asiakkaan tietoja.  

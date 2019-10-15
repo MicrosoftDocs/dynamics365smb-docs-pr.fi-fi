@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a26cafc11479d7065645947f63fa93d28ddb824f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 3106cb9b89f25470c433b6f33e0e541bcf7c8e31
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246015"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307442"
 ---
 # <a name="design-details-assembly-order-posting"></a>Rakennetiedot: kokoonpanotilauksen kirjaus
 Kokoonpanotilauksen kirjaus perustuu samoihin periaatteisiin kuin myyntitilausten ja tuotannon kulutuksen tai tuotoksen kirjauksen vastaavat toiminnot. Periaatteet on kuitenkin yhdistetty niin, että kokoonpanotilauksilla on omat kirjauksen käyttöliittymänsä, kuten myyntitilauksille on omansa ja todellinen tapahtuman kirjaus tapahtuu taustalla suorana nimikkeen ja resurssipäiväkirjan kirjauksena, kuten tuotannon kulutukselle, tuotokselle ja kapasiteetille.  
@@ -96,11 +96,11 @@ Seuraava tietorakenne käyttää tätä.
 
 Lisäksi kirjausryhmä-kentät kokoonpanotilaus-otsikossa ja kokoonpanotilausriveillä täytetään oletusarvoisesti seuraavasti.  
 
-|Kokonaisuus|Tyyppi|ALV-oletuskirjausryhmä|Yleinen tuotteen kirjausryhmä|  
+|Kokonaisuus|Tyyppi|ALV-oletuskirjausryhmä|Yl. Tuotteen kirjausryhmä|  
 |------------|----------|-------------------|------------------------------|  
-|Kokoonpanotilauksen otsikko|Nimike|Varaston kirjausryhmä|Yleinen tuotteen kirjausryhmä|  
-|Kokoonpanotilauksen rivi|Nimike|Varaston kirjausryhmä|Yleinen tuotteen kirjausryhmä|  
-|Kokoonpanotilauksen rivi|Resurssi||Yleinen tuotteen kirjausryhmä|  
+|Kokoonpanotilauksen otsikko|Nimike|Varaston kirjausryhmä|Yl. Tuotteen kirjausryhmä|  
+|Kokoonpanotilauksen rivi|Nimike|Varaston kirjausryhmä|Yl. Tuotteen kirjausryhmä|  
+|Kokoonpanotilauksen rivi|Resurssi||Yl. Tuotteen kirjausryhmä|  
 
 Näin ollen vain todelliset kustannukset kirjataan pääkirjanpitoon ja väliaikaisia tilejä ei täytetä kokoonpanotilauksen kirjauksesta. Lisätietoja on kohdassa [Rakennetiedot: pääkirjanpidon tilit](design-details-accounts-in-the-general-ledger.md).  
 

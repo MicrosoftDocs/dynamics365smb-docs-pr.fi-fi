@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 07/08/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: c86f1c3c40f80ec993d0a3a89154047ddf9e8126
-ms.sourcegitcommit: 519623f9a5134c9ffa97eeaed0841ae59835f453
+ms.openlocfilehash: b57b87dd8cdc9390ed5b1b7136107639f689c192
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "1755239"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304994"
 ---
 # <a name="using-include-prodlongincludesprodlongmd-as-power-bi-data-source-for-building-reports"></a>[!INCLUDE [prodlong](includes/prodlong.md)]in käyttö Power BI:n tietolähteenä raportteja luotaessa
 
@@ -28,10 +28,7 @@ Sinulla on oltava kelvollinen [!INCLUDE[prodshort](includes/prodshort.md)]- ja P
 1. Valitse Power BI Desktopin vasemmassa siirtymisruudussa **Nouda tiedot**.
 2. Valitse **Nouda tiedot** -sivulla **Online Services**. Valitse sitten **Microsoft Dynamics 365 Business Central** ja valitse lopuksi **Muodosta yhteys** -painike.
 3. Power BI avaa ohjatun toiminnon, joka auttaa yhteyden muodostusprosessissa. Sinua pyydetään kirjatumaan [!INCLUDE [prodshort](includes/prodshort.md)]iin. Valitse ensin **Kirjaudu sisään** ja sitten tili, johon haluat kirjautua. Valitse sama tili, jolla kirjaudut [!INCLUDE [prodshort](includes/prodshort.md)]iin.
-4. Jatka valitsemalla **Muodosta yhteys**. Ohjatussa Power BI -toiminnossa on luettelo Microsoft [!INCLUDE[d365fin](includes/d365fin_md.md)]in yrityksistä ja tietolähteistä. Nämä tietolähteet viittaavat kaikkiin verkkopalveluihin, jotka on julkaistu kustakin [!INCLUDE [prodshort](includes/prodshort.md)]in yrityksestä.
-
-  ![powerbi_webservices.png](media/across-how-use-financials-data-source-powerbi/powerbi_webservices.png)
-
+4. Jatka valitsemalla **Muodosta yhteys**. Ohjatussa Power BI -toiminnossa on luettelo Microsoft [!INCLUDE[d365fin](includes/d365fin_md.md)]in ympäristöistä, yrityksistä ja tietolähteistä. Nämä tietolähteet viittaavat kaikkiin verkkopalveluihin, jotka on julkaistu kullekin vuokraajalle/yritykselle [!INCLUDE [prodshort](includes/prodshort.md)]issa.
 5. Voit vaihtoehtoisesti luoda uuden verkkopalvelun URL-osoitteen [!INCLUDE [prodshort](includes/prodshort.md)]issa käyttämällä **Luo tietojoukko** -toimintoa **WWW-palvelut**-sivulla tai asetusten ohjattua **Määritä raportointi** -määritystä tai valitsemalla **Muokkaa Excelissä** -toiminnon jossakin luettelossa.
 6. Määritä tietomalliin lisättävät tiedot ja valitse sitten **Lataa**-painike.
 7. Lisää uusia [!INCLUDE [prodshort](includes/prodshort.md)]in tai muita tietoja Power BI -tietomalliin toistamalla edellä olevat vaiheet.

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0576f2e7b93040118d2ef31458939d9b9822a6aa
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 6a327ffa67dcf5f9a388c99b236ce9cbf5755561
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247000"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307538"
 ---
 # <a name="create-reports-with-xbrl"></a>Luo raportteja XBRL-linkityksellä.
 XBRL, joka tarkoittaa eXtensible Business Reporting Language, on XML-pohjainen kieli taloudellisten tietojen merkitsemiseen ja yrityskäyttöön, jotta nämä voivat tehokkaasti ja tarkasti käsitellä ja jakaa tietojaan. XBRL-aloite sallii lukuisten ERP-ohjelmistoyritysten ja kansainvälisten kirjanpitojärjestöjen tekemän maailmanlaajuisen taloudellisen raportoinnin. Aloitteen tavoitteena on tarjota standardi pankkien, sijoittajien ja julkishallinnon taloudellisen tiedon raportointiin. Liiketoiminnan raportointi voi olla:  
@@ -34,7 +34,7 @@ XBRL (e **X**tensible **B**usiness **R**eporting **L**anguage) on XML-pohjainen 
 
 Taksonomioita ylläpitää www.xbrl.org. Voit ladata taksonomioita tai lukea lisää ko. sivustolta.  
 
-Joku joka haluaa taloushallinnon tietoja sinulta, antaa sinulle taksonomian (XML-asiakirjan), joka sisältää vähintään yhden mallin ja tällaisessa mallissa on vähintään yksi täytettävä rivi. Rivit vastaavat lähettäjän pyytämiä yksittäisiä taloushallinnon tietoja. Taksonomia tuodaan ohjelmaan ja malli(t) täytetään syöttämällä tili(t), jotka vastaavat jokaista riviä sekä aikaväli esim. nettomuutos tai päivän saldo. Jossain tapauksissa syötetään vakio, esim. työntekijöiden lkm. Jossain tapauksissa syötetään vakio, esim. työntekijöiden lkm. Nyt instanssiasiakirja (XML asiakirja) on valmis lähetettäväksi tiedon vastaanottajalle. Idea on, että tämä on toistuva tapahtuma, joten mikäli taksonomiaan ei tehdä muutoksia, voidaan uusi instanssiasiakirja tuottaa uusilta jaksoilta tarvittaessa.  
+Joku joka haluaa taloushallinnon tietoja sinulta, antaa sinulle taksonomian (XML-asiakirjan), joka sisältää vähintään yhden mallin ja tällaisessa mallissa on vähintään yksi täytettävä rivi. Rivit vastaavat lähettäjän pyytämiä yksittäisiä taloushallinnon tietoja. Taksonomia tuodaan sovellukseen ja malli(t) täytetään antamalla tili(t), jotka vastaavat jokaista riviä sekä aikaväli, kuten nettomuutos tai päivän saldo. Jossain tapauksissa syötetään vakio, esim. työntekijöiden lkm. Jossain tapauksissa syötetään vakio, esim. työntekijöiden lkm. Nyt instanssiasiakirja (XML asiakirja) on valmis lähetettäväksi tiedon vastaanottajalle. Idea on, että tämä on toistuva tapahtuma, joten mikäli taksonomiaan ei tehdä muutoksia, voidaan uusi instanssiasiakirja tuottaa uusilta jaksoilta tarvittaessa.  
 
 ## <a name="xbrl-is-comprised-of-the-following-components"></a>XBRL koostuu seuraavista komponenteista  
 XBRL **Määrittely** kertoo mitä XBRL on, kuinka rakentaa XBRL instanssiasiakirjoja ja XBRL -taksonomioita. XBRL -Määrittelyt kuvaavat XBRL:ää teknisesti ja ovat tarkoitetut teknisille ihmisille.  
@@ -55,7 +55,7 @@ Taksonomia voi koostua perustaksonomiasta, esim. US-gaap tai IAS, sekä yhdestä
 
 -   Tunnus linkkikanta: Tämä linkkikanta sisältää tunnukset tai nimet tai etiketit elementeille. Tiedosto voi sisältää etikettejä useilla kielillä, jotka on määritetty XML-ominaisuudessa ’lang’. XML-kielitunniste sisältää yleensä kaksikirjaimisen lyhenteen, ja vaikka lyhenteen arvaaminen on melko helppoa sillä ei ole mitään yhteyttä Windows –kieleen tai kielikoodeihin, joita on käytetty demodatassa. Eli kun käyttäjä tarkastelee tietyn taksonomian kieliä, hän näkee kaikki tunnukset taksonomia ensimmäiselle elementille eli hän näkee esimerkin kaikista kielistä. Taksonomialla voi olla useita liitettyjä linkkikantoja, kunhan nämä linkkikannat sisältävät eri kielet.  
 
--   Esityslinkkikanta: Tämä linkkikanta sisältää tietoa elementtien rakenteesta, tai tarkemmin; kuinka taksonomian julkaisija ehdottaa, että ohjelma esittää taksonomian käyttäjälle. Linkkikanta sisältää linkkejä, jotka yhdistävät kaksi elementtiä pää- ja alaelementiksi. Kun kaikkia näitä linkkejä käytetään, elementit voidaan esittää hierarkisesti. Huomaa, että esityslinkkikanta käsittelee juuri tätä: elementtien esittämistä käyttäjälle.  
+-   Esityslinkkikanta: Tämä linkkikanta sisältää tietoa elementtien rakenteesta, tai tarkemmin sanottuna sen, miten taksonomian julkaisija ehdottaa, että sovellus esittää taksonomian käyttäjälle. Linkkikanta sisältää linkkejä, jotka yhdistävät kaksi elementtiä pää- ja alaelementiksi. Kun kaikkia näitä linkkejä käytetään, elementit voidaan esittää hierarkisesti. Huomaa, että esityslinkkikanta käsittelee juuri tätä: elementtien esittämistä käyttäjälle.  
 
 -   Laskentalinkkikanta: Tämä linkkikanta sisältää tietoa siitä mitkä elementit summataan mihin. Rakenne on melko samanlainen kuin esityslinkkikannassa, poikkeuksena se, että jokaisella linkillä tai ’kaarella’, kuten niitä kutsutaan, on paino-ominaisuus. Paino voi olla 1 tai –1 ilmaisten sen, että pitääkö elementti lisätä vai vähentää pääelementistään. Huomaa, että summaukset eivät ole välttämättä mukana visuaalisessa esityksessä.  
 

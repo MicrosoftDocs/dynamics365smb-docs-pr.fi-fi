@@ -1,6 +1,6 @@
 ---
 title: Hyllytysten suunnitteleminen työkirjoissa | Microsoft Docs
-description: Jos sijainnissa on määritetty sekä hyllytyksen että vastaanoton käsittely pakolliseksi ja haluat suunnitella hyllytysohjeita useille vastaanotoille – sen asemesta, että työntekijät noudattaisivat ohjelman luomia ohjeita erillisille kirjatuille vastaanotoille – voit käyttää hyllytystyökirjaa.
+description: Jos sijainnissa on määritetty sekä hyllytyksen että vastaanoton käsittely pakolliseksi ja haluat suunnitella hyllytysohjeita useille vastaanotoille, voit käyttää hyllytystyökirjaa sen sijaan, että työntekijät noudattaisivat sovelluksen luomia ohjeita erillisille kirjatuille vastaanotoille.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3bf24a32ba4a411ada744092d594b874c0154588
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: ae631fc6383e9aec6edc5fcc432e614f39ee74e4
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248454"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314602"
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Hyllytysten suunnitteleminen työkirjoissa
-Jos sijainnissa on määritetty sekä hyllytyksen että vastaanoton käsittely pakolliseksi ja haluat suunnitella hyllytysohjeita useille vastaanotoille – sen asemesta, että työntekijät noudattaisivat ohjelman luomia ohjeita erillisille kirjatuille vastaanotoille – voit käyttää hyllytystyökirjaa.  
+Jos sijainnissa on määritetty sekä hyllytyksen että vastaanoton käsittely pakolliseksi ja haluat suunnitella hyllytysohjeita useille vastaanotoille, voit käyttää hyllytystyökirjaa sen sijaan, että työntekijät noudattaisivat sovelluksen luomia ohjeita erillisille kirjatuille vastaanotoille.  
 
 Jos haluat määrittää fyysisen varastoinnin niin, että vastaanottorivit ovat saatavilla hyllytystyökirjassa heti kirjaamisen jälkeen, lisää valintamerkki  **Käytä hyllytystyökirjaa** -kenttään sijaintikortin **F. varastointi** -pikavälilehdessä. Lisätietoja on kohdassa [Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md).  
 
-Jos et valitse tätä kenttää, ohjelma luo automaattisesti hyllytysohjeita vastaanotoille, kun ne kirjataan.  
+Jos et valitse tätä kenttää, sovellus luo automaattisesti hyllytysohjeita vastaanotoille, kun ne kirjataan.  
 
 > [!NOTE]  
 >  Riippumatta sijaintikortin **Käytä hyllytystyökirjaa** -kentän tilasta, voit saada hyllytysohjerivejä (kirjattuja vastaanottorivejä) hyllytystyökirjaan tekemällä seuraavaa:  
@@ -41,7 +41,7 @@ Jos et valitse tätä kenttää, ohjelma luo automaattisesti hyllytysohjeita vas
 3. Valitse asiakirjat, joita haluat käsitellä työkirjassa. Voit käsitellä samaan aikaan useista asiakirjoista peräisin olevia rivejä.  
 
     > [!NOTE]  
-    >  Jos yrität valita asiakirjan (vastaanoton tai hyllytysasiakirjan), jolle olet jo luonut ohjeita kaikkien rivien osalta, ohjelma ilmoittaa, että mitään käsiteltävää ei ole.  
+    >  Jos yrität valita asiakirjan (vastaanoton tai hyllytysasiakirjan), jolle olet jo luonut ohjeita kaikkien rivien osalta, sovellus ilmoittaa, että mitään käsiteltävää ei ole.  
 
 4. Järjestä rivit haluamallasi tavalla täyttämällä **Järjestämistapa**-kenttä.  
 
@@ -58,11 +58,11 @@ Jos et valitse tätä kenttää, ohjelma luo automaattisesti hyllytysohjeita vas
 
     -   Hyllytyksen voi määritellä tietylle työntekijälle.  
     -   Hyllytysohjerivit voidaan lajitella samoin kuin työkirjassa tai varastopaikan luokittelun mukaan. Kun järjestelet varastopaikan luokittelun mukaisesti, Ota-rivit tulevat ensimmäisiksi, koska useimmilla vastaanoton varastopaikoille on varastopaikan luokittelu 0, ja Aseta-rivit tulevat viimeisiksi alkaen varastopaikoista, joilla on alin varastopaikan luokittelu. Jos olet järjestänyt fyysisen varaston niin, että samanlaisen varastopaikan luokittelun varastopaikat ovat vierekkäin, rivien järjesteleminen tällä tavalla säästää lopulta työvaiheita varaston työntekijöiltä.  
-    -   Voit valita, että ohjeessa eivät näy välissä olevia rivejä, jotka luotiin ohjelman erotellessa suuremman mittayksikön pienemmiksi mittayksiköiksi (lisää rasti **Aseta erottelusuodatin** -kenttään). Lisätietoja on kohdassa [Irtotavaran ohjatulla hyllytyksellä ja poiminnalla tapahtuvan automaattisen erottelun ottaminen käyttöön](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md)  
+    -   Voit valita, että näkyvissä ei ole välissä olevia rivejä, jotka luotiin sovelluksen erotellessa suuremman mittayksikön pienemmiksi mittayksiköiksi valitsemalla **Aseta erottelusuodatin** -kenttä. Lisätietoja on kohdassa [Irtotavaran ohjatulla hyllytyksellä ja poiminnalla tapahtuvan automaattisen erottelun ottaminen käyttöön](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md)  
     -   Voit valita, että ohjelma ei täytä automaattisesti hyllytysohjeiden **Käsiteltävä määrä** -kenttää.  
     -   Voit tulostaa asiakirjan heti.  
 
-8.  Valitse **OK**, niin ohjelma luo hyllytyksen vaatimustesi mukaisesti.  
+8.  Valitse **OK**, niin sovellus luo hyllytyksen vaatimustesi mukaisesti.  
 
 ## <a name="see-also"></a>Katso myös  
 [Varastoinninhallinta](warehouse-manage-warehouse.md)  

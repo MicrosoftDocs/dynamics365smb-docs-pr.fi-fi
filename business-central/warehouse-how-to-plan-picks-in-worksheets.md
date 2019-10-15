@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f0bf6da083b69d76c3f2ad75e8fb9b9d6bfdc5d9
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: b3f3cf5befb5bcca602b67cdc1f6de6d50ddd320
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248523"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313950"
 ---
 # <a name="plan-picks-in-worksheets"></a>Poimintojen suunnitteleminen työkirjoissa
 Kun fyysisessä varastossa on määritetty pakolliseksi sekä poiminnan että toimituksen käsittely, fyysisessä varastossa voidaan valita, että toimitusasiakirjojen rivejä ei muuteta automaattisesti poimintaohjeiksi, vaan ne määritetään saatavilla oleviksi poimintatyökirjaan.  
@@ -25,7 +25,7 @@ Kun fyysisessä varastossa on määritetty pakolliseksi sekä poiminnan että to
 > [!NOTE]  
 >  Jos fyysisen varastoinnin poimintaohjeet on jo luotu ja haluaisit yhdistää ohjeet yhdeksi tehokkaaksi poimintaohjeeksi, poista fyysisen varastoinnin yksittäiset poiminnat. Poimittavat rivit voidaan nyt näyttää työkirjassa.  
 
-Poimintatyökirjassa työntekijöille voidaan määrittää poimintaluetteloita, joiden avulla minimoidaan työntekijöillä fyysisen varastoinnin poimintanimikkeiden siirtelyyn kuluva aika. Ohjelmassa on kenttiä, joissa on tietoja laiturointivarastopaikoissa saatavilla olevien nimikkeiden määristä. Laiturointitilanteissa on hyödyllistä suunnitella työtehtäviä, koska ohjelma ehdottaa aina poimintaa laiturointivarastopaikasta ennen muita varastopaikkoja mittayksiköstä riippumatta. Työkirjassa olevat rivit voivat olla peräisin useista lähdeasiakirjoista, ja ne voidaan lajitella nimikkeen, hyllynumeron, lähdeasiakirjan, eräpäivän tai toimitusasiakkaan osoitteen mukaan.  
+Poimintatyökirjassa työntekijöille voidaan määrittää poimintaluetteloita, joiden avulla minimoidaan työntekijöillä fyysisen varastoinnin poimintanimikkeiden siirtelyyn kuluva aika. Sovelluksessa on kenttiä, joissa on tietoja laiturointivarastopaikoissa saatavilla olevien nimikkeiden määristä. Laiturointitilanteissa on hyödyllistä suunnitella työtehtäviä, koska sovellus ehdottaa aina poimintaa laiturointivarastopaikasta ennen muita varastopaikkoja mittayksiköstä riippumatta. Työkirjassa olevat rivit voivat olla peräisin useista lähdeasiakirjoista, ja ne voidaan lajitella nimikkeen, hyllynumeron, lähdeasiakirjan, eräpäivän tai toimitusasiakkaan osoitteen mukaan.  
 
 Jos järjestelet eräpäivän mukaan, voit valita poistavasi työkirjasta kaikki rivit paitsi ne, jotka vaativat välitöntä huomiota. Vähemmän kiireellisiä rivejä ei suoraan poisteta, vaan ne lähetetään takaisin **Poiminta valinta** -työkirjaan. Kun luot poiminnan, rivit on jo järjestelty eräpäivän mukaan, ja voit valita määritteleväsi poiminnan tietylle työntekijälle.  
 

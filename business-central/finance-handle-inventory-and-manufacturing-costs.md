@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 53f1c002236877f536a85586d0af912d5e9a85c2
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 1f858457bcf667d158642fe42f3ea85e668adff3
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238254"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2306362"
 ---
 # <a name="handling-inventory-and-manufacturing-costs"></a>Varaston ja tuotannon kustannusten käsitteleminen
 Vaikka useat kustannuslaskennan toiminnot (kuten tapahtuman kohdistus ja automaattinen kustannusten muuttaminen) tapahtuvat taustalla olevissa prosesseissa ilman käyttäjän toimia, useat kentät, sivut ja raportit on tarkoitettu käyttäjille, jotka hallitsevat nimikkeiden tai toimintojen kustannuksia suoraan tai epäsuorasti.  
@@ -34,7 +34,7 @@ Vaikka useat kustannuslaskennan toiminnot (kuten tapahtuman kohdistus ja automaa
 |Tuoterakenteen nimikkeen yksikkökustannuksen laskeminen sen komponenttien yksikkökustannusten perusteella.|[Tuoterakenteen käyttäminen](inventory-how-work-BOMs.md)|  
 |Tuotetun nimikkeen kustannuslaskentaelinkaaren päättäminen muuttamalla kustannuksia ja täsmäyttämällä arvotapahtumat pääkirjanpitoon.|[Tietoja valmiin tuotantotilauksen kustannuksista](finance-about-finished-production-order-costs.md)|  
 |Varastossa olevan nimikkeen tai yksittäisen nimiketapahtuman, kuten ostotapahtuman, arvon muuttaminen.|[Varaston uudelleenarvostus](inventory-how-revalue-inventory.md)|
-|Nimikkeen kohdistuksen peruuttaminen manuaalisesti tai ohjelman luomien nimiketapahtumien kohdistaminen uudelleen.|[Nimiketapahtumien poistaminen ja uudelleenkohdistaminen](finance-how-to-remove-and-reapply-item-entries.md)|  
+|Nimikkeen kohdistuksen peruuttaminen manuaalisesti tai sovelluksen luomien nimiketapahtumien kohdistaminen uudelleen.|[Nimiketapahtumien poistaminen ja uudelleenkohdistaminen](finance-how-to-remove-and-reapply-item-entries.md)|  
 |Luo nimikepäiväkirjan **Kohdistukset tapahtumista** -kentän avulla manuaalisesti kiinteä kohdistus saapuvan tapahtuman ja lähtevän alkuperäisen tapahtuman välille.|[Nimikepäiväkirjan kiinteästä kohdistuksesta aiheutuvien avointen nimiketapahtumien sulkeminen](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)|  
 
 ## <a name="see-also"></a>Katso myös  

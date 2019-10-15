@@ -10,21 +10,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
-ms.date: 06/25/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1c27575cd218b4f7c3ac5098eaca96d9ab9a4a1b
-ms.sourcegitcommit: 73e955b8fec819e5212b6ca7d8bfff42fe2d5eb8
+ms.openlocfilehash: e688eb8aacba049c91cd0dcd83522e5bd5eec4f2
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "1702880"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307586"
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Envestnet Yodlee Bank Feeds -palvelun määrittäminen
 Voit tuoda pankistasi sähköisiä tiliotteita ja täyttää nopeasti **Maksujen täsmäytyskirjauskansio** -sivun maksujen kohdistamiseksi ja pankkitilin täsmäyttämiseksi. Lisätietoja on kohdassa [Maksujen kohdistaminen automaattisesti ja pankkitilien täsmäyttäminen](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
+> [!IMPORTANT]
+> Uuden eurooppalaisen maksupalveludirektiivin vuoksi (PSD2), 4.9.2019 jälkeen tiliotteita ei voi enää tuoda automaattisesti [!INCLUDE[d365fin](includes/d365fin_md.md)] brittiläisistä pankeista. Tutkimme mahdollisuutta ottaa tämä ominaisuus uudelleen käyttöön tulevaisuudessa.
+
 > [!NOTE]
 > Envestnet Yodlee Bank Feeds -palvelua tuetaan vain Business Central -sovelluksen online-versiossa. Jos haluat käyttää tätä toimintoa paikallisesti, sinun on hankittava yhteistili Envestnet Yodleelta.<br /><br />
-> Envestnet Yodlee Bank Feeds -palvelua tuetaan vain Yhdysvalloissa, Kanadassa ja Isossa-Britanniassa.
+> Envestnet Yodlee Bank Feeds -palvelua tuetaan vain Yhdysvalloissa ja Kanadassa.
 
 > [!IMPORTANT]
 > Jos haluat teknistä apua Envestnet Yodlee -toimintojen kanssa, ota yhteyttä Microsoft-tukeen. Älä ota yhteyttä Envestnet Yodleen. Lisätietoja on kohdassa [Dynamics 365 Business Central -sovelluksen teknisen tuen määrittäminen](/dynamics365/business-central/dev-itpro/technical-support)

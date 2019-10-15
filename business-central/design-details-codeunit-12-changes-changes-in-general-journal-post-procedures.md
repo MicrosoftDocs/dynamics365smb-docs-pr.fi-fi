@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8daa5d57ed2f12daf3f3eef3572b2f7dbd39d92c
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 5f27bb652009c740066dfa0ef3659bb9e53cfb0e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1243409"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307346"
 ---
 # <a name="codeunit-12-changes-changes-in-general-journal-post-procedures"></a>Koodiyksikön 12 muutokset: Päiväkirjakirjausten menettelytapojen muutokset
 Seuraavat muutokset on toteutettu tässä [!INCLUDE[d365fin](includes/d365fin_md.md)] -versiossa.  
@@ -139,19 +139,19 @@ Seuraavat muutokset on toteutettu tässä [!INCLUDE[d365fin](includes/d365fin_md
 |CheckCalcPmtDiscCVVend||Siirretty koodiyksikön 426 maksutoleranssin hallinta|  
 |CheckCalcPmtDiscVend||Siirretty koodiyksikön 426 maksutoleranssin hallinta|  
 |CheckCalcPmtDiscGenJnlVend||Siirretty koodiyksikön 426 maksutoleranssin hallinta|  
-|Reverse|Reverse|Siirretty koodiyksikköön 17 yleinen päiväkirja - käänteinen kirjaus|  
-|ReverseCustLedgEntry|ReverseCustLedgEntry|Siirretty koodiyksikköön 17 yleinen päiväkirja - käänteinen kirjaus|  
-|ReverseCustLedgEntry|ReverseCustLedgEntry|Siirretty koodiyksikköön 17 yleinen päiväkirja - käänteinen kirjaus|  
-|ReverseBankAccLedgEntry|ReverseBankAccLedgEntry|Siirretty koodiyksikköön 17 yleinen päiväkirja - käänteinen kirjaus|  
-|ReverseVAT|ReverseVAT|Siirretty koodiyksikköön 17 yleinen päiväkirja - käänteinen kirjaus|  
-|SetReversalDescription|SetReversalDescription|Siirretty koodiyksikköön 17 yleinen päiväkirja - käänteinen kirjaus|  
-|ApplyCustLedgEntryByReversal|ApplyCustLedgEntryByReversal|Siirretty koodiyksikköön 17 yleinen päiväkirja - käänteinen kirjaus|  
-|ApplyVendLedgEntryByReversal|ApplyVendLedgEntryByReversal|Siirretty koodiyksikköön 17 yleinen päiväkirja - käänteinen kirjaus|  
-|PostPmtDiscountVATByUnapply|PostPmtDiscountVATByUnapply|Siirretty koodiyksikköön 17 yleinen päiväkirja - käänteinen kirjaus|  
-||CheckDimComb|Lisätty koodiyksikköön 17 yleinen päiväkirja - käänteinen kirjaus|  
-||CopyCustLedgEntry|Lisätty koodiyksikköön 17 yleinen päiväkirja - käänteinen kirjaus|  
-||CopyVendLedgEntry|Lisätty koodiyksikköön 17 yleinen päiväkirja - käänteinen kirjaus|  
-||CopyBankAccLedgEntry|Lisätty koodiyksikköön 17 yleinen päiväkirja - käänteinen kirjaus|  
+|Reverse|Reverse|Siirretty Codeunitiin 17 yleinen päiväkirja - käänteinen kirjaus|  
+|ReverseCustLedgEntry|ReverseCustLedgEntry|Siirretty Codeunitiin 17 yleinen päiväkirja - käänteinen kirjaus|  
+|ReverseCustLedgEntry|ReverseCustLedgEntry|Siirretty Codeunitiin 17 yleinen päiväkirja - käänteinen kirjaus|  
+|ReverseBankAccLedgEntry|ReverseBankAccLedgEntry|Siirretty Codeunitiin 17 yleinen päiväkirja - käänteinen kirjaus|  
+|ReverseVAT|ReverseVAT|Siirretty Codeunitiin 17 yleinen päiväkirja - käänteinen kirjaus|  
+|SetReversalDescription|SetReversalDescription|Siirretty Codeunitiin 17 yleinen päiväkirja - käänteinen kirjaus|  
+|ApplyCustLedgEntryByReversal|ApplyCustLedgEntryByReversal|Siirretty Codeunitiin 17 yleinen päiväkirja - käänteinen kirjaus|  
+|ApplyVendLedgEntryByReversal|ApplyVendLedgEntryByReversal|Siirretty Codeunitiin 17 yleinen päiväkirja - käänteinen kirjaus|  
+|PostPmtDiscountVATByUnapply|PostPmtDiscountVATByUnapply|Siirretty Codeunitiin 17 yleinen päiväkirja - käänteinen kirjaus|  
+||CheckDimComb|Lisätty Codeunitiin 17 yleinen päiväkirja - käänteinen kirjaus|  
+||CopyCustLedgEntry|Lisätty Codeunitiin 17 yleinen päiväkirja - käänteinen kirjaus|  
+||CopyVendLedgEntry|Lisätty Codeunitiin 17 yleinen päiväkirja - käänteinen kirjaus|  
+||CopyBankAccLedgEntry|Lisätty Codeunitiin 17 yleinen päiväkirja - käänteinen kirjaus|  
 |HandlDtlAddjustment|HandleDtldAdjustment|Päivitetty|  
 |CollectAddjustment|CollectAdjustment|Päivitetty|  
 |SetOverDimErr|SetOverDimErr|Päivitetty|  
@@ -163,7 +163,7 @@ Seuraavat muutokset on toteutettu tässä [!INCLUDE[d365fin](includes/d365fin_md
 |GetApplnRoundPrecision|GetApplnRoundPrecision|Päivitetty|  
 |CheckDimValueForDisposal|CheckDimValueForDisposal|Päivitetty|  
 |CalculateCurrentBalance|CalculateCurrentBalance|Päivitetty|  
-|IncludeVATAmount||Siirretty taulukkoon 81 Yleisen päiväkirjan rivi|  
+|IncludeVATAmount||Siirretty taulukkoon 81 yleinen päiväkirjan rivi|  
 |CalcVATAmountFromVATEntry|CalcVATAmountFromVATEntry|Päivitetty|  
 ||TotalVATAmountOnJnlLines|Lisätty|  
 ||SetGLRegReverse|Lisätty|  

@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 05/02/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: f088e1319684b9a18a2b0c8ab5305f73747f6889
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: 79ed5e1b7200a668be2aa078531fd68e0131b6ff
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1446920"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2302585"
 ---
-# <a name="accountant-experiences-in-included365finlongincludesd365finlongmdmd"></a>Kirjanpitäjän käyttökokemukset [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]issa
+# <a name="accountant-experiences-in-included365fin_longincludesd365fin_long_mdmd"></a>Kirjanpitäjän käyttökokemukset [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]issa
 Kaikkien yritysten on pidettävä kirjanpitoa ja hyväksyttävä se. Jotkin yritykset käyttävät ulkoista kirjanpitäjää, ja joillain yrityksillä on oma kirjanpitäjä. Olit kummanlainen kirjanpitäjä tahansa, voit käyttää **kirjanpitäjän** roolikeskusta [!INCLUDE[d365fin](includes/d365fin_md.md)]in kotisivunasi. Siitä saat avattua kaikki sivut, joita tarvitset työssäsi.  
 
 ## <a name="accountant-role-center"></a>Kirjanpitäjän roolikeskus
@@ -26,9 +26,12 @@ Roolikeskus on koontinäyttö, joka sisältää reaaliaikaisia avainlukuja näyt
 Jos olet uusi [!INCLUDE[d365fin](includes/d365fin_md.md)] -käyttäjä, voit avata opetusvideoiden luettelon suoraan roolikeskuksesta. Voit avata myös **Aloitusoppaan**, joka osoittaa sovelluksen tärkeimmät osat.  
 
 ## <a name="accountant-hub"></a>Accountant Hub
-Jos olet kirjanpitäjä, jolla on useita asiakkaita, saat [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]in avulla hyvän kokonaiskuvan asiakkaistasi. Koontinäytöstä saat pääsyn kunkin asiakkaan vuokraajaan [!INCLUDE[d365fin](includes/d365fin_md.md)]issa ja voit käyttää kirjanpitäjän roolikeskusta edellä kuvatun mukaisesti. Lisätietoja on kohdassa [Tervetuloa ohjelmaan [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index).
+Jos olet kirjanpitäjä, jolla on useita asiakkaita, saat [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]in avulla hyvän kokonaiskuvan asiakkaistasi. Koontinäytöstä saat pääsyn kunkin asiakkaan vuokraajaan [!INCLUDE[d365fin](includes/d365fin_md.md)]issa ja voit käyttää kirjanpitäjän roolikeskusta edellä kuvatun mukaisesti. Lisätietoja on kohdassa [Tervetuloa ohjelmaan [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index).  
 
-## <a name="inviting-your-external-accountant-to-your-included365finincludesd365finmdmd"></a>Ulkoisen kirjanpitäjän kutsuminen [!INCLUDE[d365fin](includes/d365fin_md.md)]iin
+> [!NOTE]
+> [!INCLUDE [d365acc_long_md](includes/d365acc_long_md.md)] on tällä hetkellä julkinen esiversio muutamilla markkina-alueilla.
+
+## <a name="inviting-your-external-accountant-to-your-included365finincludesd365fin_mdmd"></a>Ulkoisen kirjanpitäjän kutsuminen [!INCLUDE[d365fin](includes/d365fin_md.md)]iin
 Jos käytä ulkoista kirjanpitäjää kirjojen ja talousraportoinnin hallinnassa, voit kutsua kirjanpitäjän [!INCLUDE[d365fin](includes/d365fin_md.md)]iin, jolloin he saavat käyttöönsä kirjanpitotietosi.
 
 Kun kirjanpitäjä on saanut [!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttöoikeudet, hän voi käyttää **Kirjanpitäjä**-roolikeskusta. josta pääsee kätevästi kirjanpitäjän työssään eniten käyttämille sivuille.  
@@ -38,7 +41,7 @@ Ulkopuolisen kirjanpitäjän kutsumista on helpotettu. Avaa vain **Käyttäjät*
 ![Kirjanpitäjän kutsuminen](./media/finance-invite-accountant/invite-accountant.png)
 
 > [!TIP]  
->  Kutsun lähettäminen, edellyttää, että SMTP-sähköposti on määritetty. Voit tehdä sen itse tai pyytää [!INCLUDE[d365fin](includes/d365fin_md.md)]-kumppania tekemään sen. Lisäksi sinun on kirjauduttava [!INCLUDE[d365fin](includes/d365fin_md.md)]iin käyttäjien järjestelmänvalvojana eikä liiketoiminnan omistajana tai muuna käyttäjänä. Lopuksi sinun on jätettävä kokeiluyritys, jotta sinulla on Azure Active Directoryn järjestelmänvalvoja.  
+> Kutsun lähettäminen, edellyttää, että SMTP-sähköposti on määritetty. Voit tehdä sen itse tai pyytää [!INCLUDE[d365fin](includes/d365fin_md.md)]-kumppania tekemään sen. Lisäksi sinun on kirjauduttava [!INCLUDE[d365fin](includes/d365fin_md.md)]iin käyttäjien järjestelmänvalvojana eikä liiketoiminnan omistajana tai muuna käyttäjänä. Lopuksi sinun on jätettävä kokeiluyritys, jotta sinulla on Azure Active Directoryn järjestelmänvalvoja.  
 
 > [!IMPORTANT]  
 > Kirjanpitäjän sähköpostiosoitteen on oltava Azure Active Directoryyn perustuva työsähköpostiosoite. Jos kirjanpitäjä käyttää jotakin muuta sähköpostityyppiä, kutsua ei voi lähettää.  

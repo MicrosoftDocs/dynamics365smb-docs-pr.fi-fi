@@ -3,21 +3,21 @@ title: Raporttien ja asiakirjojen mukautetut ja valmiit asettelut | Microsoft Do
 description: Voit mukauttaa asiakirjoja raporttiasettelujen avulla. Voit muokata tällä tavoin asiakkaille lähetettävien PDF-tiedostojen fonttia, logoa tai sivuasetuksia.
 services: project-madeira
 documentationcenter: ''
-author: SusanneWindfeldPedersen
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 05/22/2019
-ms.author: solsen
-ms.openlocfilehash: e00ca327748ac84dc39e5de73c4bcaae97f26105
-ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: f64397d41eb4002221d9967b5b61145882aee0d6
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1594285"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315154"
 ---
 # <a name="managing-report-and-document-layouts"></a>Raporttien ja asiakirjojen asettelujen hallinta
 Raporttiasettelu ohjaa raportin sisältöä ja muotoa, mukaan lukien, mitkä tietojen kentät näkyvät raportissa ja miten ne järjestetään, tekstityylin, kuvia ja muita ominaisuuksia. Voit luoda [!INCLUDE[d365fin](includes/d365fin_md.md)]ista uuden asettelun, muuttaa raportissa käytettävää asettelua tai muokata nykyisiä asetteluja.
@@ -56,7 +56,7 @@ Word- ja RDLC-asetteluiden yleiset rakenteet ovat hyvin samanlaisia. Silti, joka
 
 Word- ja RDLC-raporttiasetteluiden asettaminen toimii samalla tavalla. Tärkein ero on asetteluiden muokkaustavassa. Word-raporttiasettelut ovat yleensä helpompia luoda ja muokata kuin RDLC-raporttiasettelut, koska voit käyttää Wordia. RDLC-raporttiasetteluja muokataan SQL Server Report Builderilla, joka on tarkoitettu kokeneille käyttäjille.
 
-Lisätietoja näytettävän asettelun vaihtamisesta on kohdassa [Raportissa tällä hetkellä käytettävän asettelun muuttaminen](ui-how-change-layout-currently-used-report.md)
+Lisätietoja näytettävän asettelun vaihtamisesta on kohdassa [Nykyisen raportin asettelun muuttaminen](ui-how-change-layout-currently-used-report.md)
 
 ## <a name="see-also"></a>Katso myös
 [Raporttien tai asiakirjojen asettelujen päivittäminen](ui-update-report-layouts.md)  
@@ -64,4 +64,4 @@ Lisätietoja näytettävän asettelun vaihtamisesta on kohdassa [Raportissa täl
 [Raporttien tai asiakirjojen mukautetun asettelun luominen ja muokkaaminen](ui-how-create-custom-report-layout.md)  
 [Raporttien tai asiakirjojen mukautetun asettelun tuonti ja vienti](ui-how-import-and-export-report-layout.md)  
 [Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md)  
-[Raporttien ja eräajojen käsitteleminen](ui-work-report.md)  
+[Raporttien, eräajojen ja XMLportien käsitteleminen](ui-work-report.md)  

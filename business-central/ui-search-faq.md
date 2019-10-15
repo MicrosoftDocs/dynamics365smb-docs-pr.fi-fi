@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: d04f78b31b9fb0403201cb9e5cb1f98f1ef935e1
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 9fac8d546a24839ebaa0719d721d886c03001521
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248007"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310754"
 ---
 # <a name="tell-me-faq"></a>Kerro, mitä haluat tehdä -toiminnon usein kysytyt kysymykset
-Tässä ohjeaiheessa vastataan kysymyksiin, joita edistyneet käyttäjät usein esittävät uudesta Kerro, mitä haluat tehdä -toiminnosta. Se korvasi aiemman sivun hakutoiminnon, jonka nimi on **Etsi sivut ja raportit**.
+Tässä ohjeaiheessa vastataan kokeneiden käyttäjien Kerro, mitä haluat tehdä -ominaisuutta koskeviin usein kysyttyihin kysymyksiin.
 
 ### <a name="are-all-actions-from-my-current-page-discoverable-in-tell-me"></a>Löytyvätkö kaikki nykyisen sivun toiminnot Kerro, mitä haluat tehdä -toiminnon avulla?
 Ei. Osissa, kuten myyntirivien osassa tai tietoruuduissa, olevat toiminnot eivät näy Kerro, mitä haluat tehdä -toiminnon avulla.
@@ -32,8 +32,8 @@ Kerro, mitä haluat tehdä -toiminto kerää laajennusten toiminnot, sivut ja ra
 ### <a name="what-makes-this-different-from-what-was-previously-known-as-page-search"></a>Miksi tämä on erilainen kuin aiempi sivuhaku?
 Sivuhaku on kehittynyt Kerro, mitä haluat tehdä -toiminnoksi, jonka avulla työskentely on nopeampaa. Sivuhaku auttoi vain sivuihin ja raportteihin siirtymisessä. Teknisesti ottaen Kerro, mitä haluat tehdä ei enää perustu MenuSuite-käsitteeseen.
 
-### <a name="i-use-on-premises-included365finincludesd365finmdmd-does-that-include-tell-me"></a>Käytän paikallista [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovellusta. Sisältääkö se Kerro, mitä haluat tehdä -toiminnon?
-Voit käyttää Kerro, mitä haluat tehdä -toimintoa paikallisesti verkkoasiakasohjelmassa, kun haluat etsiä toimintoja, sivuja ja raportteja. Ohjeistusta tai sovelluksia ja konsultointipalveluja ei kuitenkaan voi etsiä sen avulla AppSourcessa. Kun käyttäjät muodostavat yhteyden [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksesta Dynamics NAV -asiakasohjelmaan, käytössä on yhä sivuhaku.
+### <a name="i-use-on-premises-included365finincludesd365fin_mdmd-does-that-include-tell-me"></a>Käytän paikallista [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovellusta. Sisältääkö se Kerro, mitä haluat tehdä -toiminnon?
+Voit käyttää Kerro, mitä haluat tehdä -toimintoa paikallisesti verkkoasiakasohjelmassa, kun haluat etsiä toimintoja, sivuja ja raportteja. Ohjeistusta tai sovelluksia ja konsultointipalveluja ei kuitenkaan voi etsiä sen avulla AppSourcessa.
 
 ### <a name="is-tell-me-available-for-all-form-factors"></a>Onko Kerro, mitä haluat tehdä -toiminto käytettävissä kaikissa laitemuodoissa?
 Kerro, mitä haluat tehdä -toiminto on käytettävissä vain WWW-asiakasohjelmassa ja Windows-työpöytäsovelluksessa.
@@ -41,5 +41,14 @@ Kerro, mitä haluat tehdä -toiminto on käytettävissä vain WWW-asiakasohjelma
 ### <a name="are-the-documentation-results-available-in-any-language"></a>Ovatko dokumentaation tulokset käytettävssä kaikilla kielillä?
 Tämän ohjeen artikkelit näkyvät **Omat asetukset** -kohdassa määritetyllä kielellä, jos ohje on käännetty kyseiselle kielelle.
 
+### <a name="why-dont-i-see-a-bookmark-icon-for-my-search-results"></a>Miksi hakutulosten kirjanmerkkikuvaketta ei näy?
+Kirjanmerkkikuvake ei näy Kerro, mitä haluat tehdä -ikkunassa, kun mukautus on poistettu käytöstä käyttäjäroolissa.
+
+### <a name="is-the-bookmark-icon-available-for-reports"></a>Onko kirjanmerkkikuvake käytössä raporteissa?
+Ei. Voit lisätä kirjanmerkin sivun tai sellaisten hakutulosten linkiksi, jotka näkyvät Kerro, mitä haluat tehdä -ikkunan **Sivut ja tehtävät** -osassa.
+
+
 ## <a name="see-also"></a>Katso myös  
-[Toimintojen ja tietojen etsiminen](ui-search.md)
+[Luettelonäkymien tallentaminen ja mukauttaminen](ui-views.md)  
+[Sivujen ja tietojen etsiminen Kerro, mitä haluat tehdä -toiminnolla](ui-search.md)  
+[Sivujen etsiminen toiminnon yleiskatsauksessa](ui-role-explorer.md)

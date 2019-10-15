@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, client, prospect
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: jswymer
 redirect_url: marketing-create-contact-companies
-ms.openlocfilehash: ccddaa5d1c1a5a31c6b82b99520b90bb28fe64dd
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c91d18fcd2af4204297d64c3ff8bcb4870a7a6da
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238392"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309170"
 ---
 # <a name="create-a-customer-vendor-or-bank-account-from-a-contact"></a>Asiakkaan, toimittajan tai pankkitilin luominen kontaktista
 Haluat ehkä tallentaa jotkin aiemmin luoduista kontakteistasi asiakkaina, toimittajina tai pankkitileinä. Kun asiakas, toimittaja tai pankkitili luodaan kontaktista, voit käyttää aiemmin luotuja tietoja. Kun luot asiakkaan, toimittajan tai pankkitilin tällä tavalla, se synkronisoidaan kontaktin kanssa. Synkronoimisen avulla kontaktien ja asiakkaiden, toimittajien tai pankkitilien yhteiset tiedot säilyvät samoina.

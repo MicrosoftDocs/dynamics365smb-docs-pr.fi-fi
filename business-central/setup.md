@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 04/05/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 3139273b09a223c84c452b5fbe2ee8b637a4c493
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 9ba3997b20c86c5ddd3bf3f21a6a9455b4f54ec6
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251007"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311474"
 ---
-# <a name="setting-up-included365finincludesd365finmdmd"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen määrittäminen
+# <a name="setting-up-included365finincludesd365fin_mdmd"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen määrittäminen
 [!INCLUDE[d365fin](includes/d365fin_md.md)] sisältää vakiomääritykset useimmille liiketoimintaprosesseille. Voit muuttaa määritykset yrityksen tarpeita vastaaviksi.
 
 Esimerkiksi tilikarttaan on kerätty käyttövalmiita kirjaustilejä. Voit tietysti muuttaa tilikarttaa liiketoimintasi vaatimalla tavalla. Lisätietoja on kohdassa [Rahoitus](finance.md).
@@ -47,7 +47,7 @@ Tietyt joko yleiset tai erityiset liiketoimintaprosessien toiminnot voidaan mä�
 |Voit tarkastella Business Centralin Outlook-apuohjelmien avulla asiakkaisiin ja toimittajiin liittyviä taloustietoja tai luoda ja lähettää talousasiakirjoja, kuten tarjouksia ja laskuja.|[Business Central -sovelluksen käyttäminen yrityssähköpostina Outlookissa](admin-outlook.md)|
 |Saat lisätietoja Business Central -tiedoista Power BI:n ja Business Centralin sisältöpakettien avulla.|[Yritystietojen ottaminen käyttöön Power BI:tä varten](admin-powerbi.md)|
 |Käytä Business Central -tietoja Microsoft Flow -työnkulun osana.|[Business Central -sovelluksen käyttäminen automaattisessa työnkulussa](across-how-use-financials-data-source-flow.md)|
-|Ota Business Central -tiedot käytötön PowerAppsin tietolähteenä.|[Yhteyden muodostaminen Business Central -tietoihin yrityssovelluksen luomista varten PowerApps-sovellusten avulla](across-how-use-financials-data-source-powerapps.md)|
+|Ota Business Central -tiedot käyttöön PowerAppsin tietolähteenä.|[Yhteyden muodostaminen Business Central -tietoihin yrityssovelluksen luomista varten PowerAppsin avulla](across-how-use-financials-data-source-powerapps.md)|
 |Käytä erityisiä Quickbooksin siirto-oppaita.|[Vaihtaminen QuickBooks-sovelluksesta Business Centraliin](across-quickbooks-to-business-edition.md)|
 |Käytä Business Central -tietoja mobiililaitteella.|[Business Central -sovelluksen hakeminen mobiililaitteeseen](install-mobile-app.md)|
 |Massalaskuta Bookingsissa luodut tapaamiset.|[Microsoft Bookingsin massalaskutus](finance-bookings.md)|

@@ -2,52 +2,64 @@
 title: Tietojen yhdistäminen Flow'hun| Microsoft Docs
 description: Voit tehdä Business Central -tiedoistasi tietolähteen ja määrittää verkkopalveluidesi OData-osoitteen, jolla rakennat automaattisen työkulun.
 documentationcenter: ''
-author: edupont04
+author: bmeier90
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.reviewer: edupont
 ms.search.keywords: workflow, Odata, Power App, SOAP
-ms.date: 04/01/2019
-ms.author: solsen
-ms.openlocfilehash: 1652c4bc22425bd6df4ac303a96a2ab1b28bfaf9
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 10/01/2019
+ms.author: bmeier
+ms.openlocfilehash: 86178bafa806fb8cba531d5b78157437c242d432
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241094"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2305024"
 ---
-# <a name="using-included365finincludesd365finmdmd-in-an-automated-workflow"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen automaattisessa työnkulussa
+# <a name="using-included365finincludesd365fin_mdmd-in-an-automated-workflow"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen automaattisessa työnkulussa
 Voit käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietoja työnkulun osana Microsoft Flow'ssa.
 
 > [!NOTE]
-> Microsoft Flow'n lisäksi voi käyttää työnkulkutoimintoa [!INCLUDE[d365fin](includes/d365fin_md.md)]issa. Huomaa, että vaikka kyse on erillisistä työnkulkujärjestelmistä, jokainen Microsoft Flow'ssa luotu Flow-malli lisätään työnkulkumallien luetteloon [!INCLUDE[d365fin](includes/d365fin_md.md)]issa. Lisätietoja on kohdassa [Työnkulku](across-workflow.md).  
+> Microsoft Flow'n lisäksi voi käyttää työnkulkutoimintoa [!INCLUDE[d365fin](includes/d365fin_md.md)]issa. Huomaa, että vaikka kyse on erillisistä työnkulkujärjestelmistä, jokainen Microsoft Flow'ssa luotu Flow-malli lisätään työnkulkuluetteloon [!INCLUDE[d365fin](includes/d365fin_md.md)]issa. Lisätietoja on kohdassa [Työnkulku](across-workflow.md).  
 
 > [!NOTE]  
->   Sinulla on oltava kelvollinen [!INCLUDE[d365fin](includes/d365fin_md.md)]- ja Flow-tili.  
+> Sinulla on oltava kelvollinen [!INCLUDE[d365fin](includes/d365fin_md.md)]- ja Flow-tili.  
 
-## <a name="to-add-included365finincludesd365finmdmd-as-a-data-source-in-flow"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)]in lisääminen Flow'n tietolähteeksi
+## <a name="to-add-included365finincludesd365fin_mdmd-as-a-data-source-in-flow"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)]in lisääminen Flow'n tietolähteeksi
 1. Siirry selaimessa osoitteeseen [flow.microsoft.com](https://flow.microsoft.com/en-us/) ja kirjaudu sisään.
 2. Valitse sivun yläosan valintanauhassa **Omat Flow't**.
-3. Flow'n voi luoda kahdella tavalla: **Luo mallista** ja **Luo tyhjästä mallista**. Malli on ennalta määritetty Flow, joka on luotu käyttäjälle.  Mallin käyttö on helppoa: valitse malli ja luo yhteys jokaiseen mallin käyttämään palveluun. Tyhjän mallin avulla voit luoda uuden Flow'n alusta alkaen.
-4. Voit luoda mallin tyhjästä valitsemalla **Omat Flow't** -sivulla **Luo tyhjästä mallista** -asetus.
+3. Flow'n luontiin on kolme tapaa: **Aloita mallista**, **Aloita tyhjästä** ja **Aloita yhdistimestä**. Malli on ennalta määritetty Flow, joka on luotu käyttäjälle. Mallin käyttö on helppoa: valitse malli ja luo yhteys jokaiseen mallin käyttämään palveluun. **Aloita tyhjästä**- ja **Aloita yhdistimestä** -vaihtoehdoissa uusi Flow voidaan luoda kokonaisuudessaan itse.
+4. Voit luoda mallin tyhjästä valitsemalla **Omat Flow't** -sivulla **Aloita tyhjästä**- ja **Automatisoitu työnkulku** -vaihtoehdot.
 5. Etsi Connector for **Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]**.
-6. Valitse käytettävissä olevien käynnistimien luettelosta jokin [!INCLUDE[d365fin](includes/d365fin_md.md)] -käynnistin:  
-    *Kun asiakkaan hyväksyntää on pyydetty*  
-    *Kun yleisen päiväkirjan erän hyväksymistä on pyydetty*  
-    *Kun yleisen päiväkirjan rivin hyväksymistä on pyydetty*  
-    *Kun nimikkeen hyväksyntää on pyydetty*  
-    *Kun ostoasiakirjan hyväksyntää on pyydetty*  
-    *Kun myyntiasiakirjan hyväksyntää on pyydetty* tai  
-    *Kun toimittajan hyväksyntää on pyydetty*.
-7. Flow pyytää sinua valitsemaan yrityksen [!INCLUDE[d365fin](includes/d365fin_md.md)] -vuokraajassa sekä mahdollisesti kuunneltavat tietojen ehdot.
+6. Määritä nimi ja valitse Flow'ssa käytettävä käynnistin.
+7. Valitse käytettävissä olevien käynnistimien luettelosta jokin [!INCLUDE[d365fin](includes/d365fin_md.md)] -käynnistin:  
+    
+    *Kun toimittajan hyväksyntää on pyydetty*    
+    *Kun yleisen päiväkirjan rivin hyväksymistä on pyydetty*    
+    *Kun tietue poistetaan*    
+    *Kun tietuetta muutetaan*    
+    *Kun tietue luodaan*    
+    *Kun tietuetta muokataan*    
+    *Kun yleisen päiväkirjan erän hyväksymistä on pyydetty*   
+    *Kun asiakkaan hyväksyntää on pyydetty*   
+    *Kun nimikkeen hyväksyntää on pyydetty*    
+    *Kun ostoasiakirjan hyväksyntää on pyydetty*     
+     *Kun myyntiasiakirjan hyväksyntää on pyydetty*.
+     
+8. Flow pyytää sinua valitsemaan ympäristön ja yrityksen [!INCLUDE[d365fin](includes/d365fin_md.md)] -vuokraajassa sekä mahdollisesti kuunneltavien tietojen ehdot.
+
+> [!NOTE]  
+>   [!INCLUDE[d365fin](includes/d365fin_md.md)]in Microsoft Flow -yhdistin tukee useita tuotanto- ja sandbox-ympäristöjä. Jos et ole luonut useaa tuotanto- tai sandbox-ympäristöjä, **Tuotanto** on ainoa valittavissa oleva vaihtoehto. 
 
 Olet nyt muodostanut yhteyden Business Central -tietoihin ja olet valmis aloittamaan oman Flow'n luomisen.
 
-8. Voit luoda mallin mallista valitsemalla **Luo mallista** -asetuksen.
-9. Etsi **Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]** -malleja.
-10. Valitse käytettävissä olevien mallien luettelosta yksi malli.  
+9. Voit luoda mallin valitsemalla **Aloita mallista** -vaihtoehdon.
+10. Etsi **Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]** -malleja.
+11. Valitse käytettävissä olevien mallien luettelosta ensin yksi malli ja valitse sitten **Luo**.  
+
     *Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] -myyntitilauksen hyväksyntäpyyntö*  
     *Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] -myyntitarjouksen hyväksyntäpyyntö*  
     *Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] -myyntilaskun hyväksyntäpyyntö*  
@@ -58,13 +70,12 @@ Olet nyt muodostanut yhteyden Business Central -tietoihin ja olet valmis aloitta
     *Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] -ostohyvityslaskun hyväksyntäpyyntö*  
     *Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] -nimikkeen hyväksyntäpyyntö*  
     *Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] -toimittajan hyväksyntäpyyntö*  
-    *Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] yleisen päiväkirjan erän hyväksyntäpyyntö*  
+    *Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]in yleisen päiväkirjan erän hyväksyntäpyyntö* tai    
     *Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] yleisen päiväkirjan rivien hyväksyntäpyyntö*.  
-11. Flow pyytää valitsemaan yrityksen [!INCLUDE[d365fin_md](includes/d365fin_md.md)] -vuokraajasta. Koska seuraavat vaiheet eivät vaikuta Flow'n vaiheisiin, saatat joutua määrittämään yrityksen useita kertoja [!INCLUDE[d365fin_md](includes/d365fin_md.md)] Flow -mallissa.
+12. Flow näyttää luettelon Flow-mallissa käytettävistä palveluista ja yrittää muodostaa automaattisesti yhteyden näihin palveluihin. Jos yhteyttä palvelimeen ei ole muodostettu aiemmin, sinua pyydetään kirjautumaan kuhunkin palveluun, johon yhteys on muodostettava. Vihreä valintamerkki tulee näkyviin palvelun viereen, kun yhteys on muodostettu. Valitse **Jatka**.
+13. Flow pyytää valitsemaan ympäristön ja yrityksen [!INCLUDE[d365fin_md](includes/d365fin_md.md)] -vuokraajassa. Koska seuraavat vaiheet eivät vaikuta Flow'n vaiheisiin, saatat joutua määrittämään ympäristön ja yrityksen useita kertoja [!INCLUDE[d365fin_md](includes/d365fin_md.md)] Flow -mallissa.
 
-Lisätietoja on kohdassa [Flow-ohjeistus](https://docs.microsoft.com/en-us/flow/getting-started).
-
-Lisätietoja Microsoft Flow'n vianmäärityksestä on kohdassa [Microsoft Flow -integroinnin vianmääritys](across-troubleshooting-how-use-financials-data-source-flow.md).
+Lisätietoja on kohdassa [Flow-ohjeistus](/flow/getting-started).
 
 ## <a name="see-also"></a>Katso myös
 [Käytön aloittaminen](product-get-started.md)  

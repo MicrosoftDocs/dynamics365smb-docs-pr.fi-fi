@@ -1,6 +1,6 @@
 ---
 title: Taulukon yhdistämismääritysten muokkaaminen synkronointia varten | Microsoft Docs
-description: Tietoja Business Centralin ja Dynamics 365 for Salesin väliseen tietojen synkronointiin käytettävien taulukon yhdistämismääritysten muuttamisesta.
+description: Tietoja Business Centralin ja Dynamics 365 Salesin väliseen tietojen synkronointiin käytettävien taulukon yhdistämismääritysten muuttamisesta.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: c2b2df393afe7cf27964b1540deddf7760747a9d
-ms.sourcegitcommit: 92c7b6c5f0a5d8becbef106ab85258906765bc3e
+ms.openlocfilehash: 505c1427c63a0a6f9e68980ea0ff05c93918ea60
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/13/2019
-ms.locfileid: "1540198"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308069"
 ---
 # <a name="modify-table-mappings-for-synchronization"></a>Taulukon yhdistämismääritysten muokkaaminen synkronointia varten
 Integrointitaulukon yhdistämismääritys liittää [!INCLUDE[d365fin](includes/d365fin_md.md)]in taulukon [!INCLUDE[crm_md](includes/crm_md.md)] -objektin integrointitaulukkoon. Kullakin [!INCLUDE[crm_md](includes/crm_md.md)] -objektilla, jonka kanssa haluat synkronoida vastaavat [!INCLUDE[d365fin](includes/d365fin_md.md)]in tiedot, on oltava vastaava integrointitaulukon yhdistämismääritys. Integrointitaulukon yhdistämismääritys sisältää useita asetuksia, joiden avulla voit määrittää miten [!INCLUDE[d365fin](includes/d365fin_md.md)] -taulukon tietueet ja [!INCLUDE[crm_md](includes/crm_md.md)] -objekti synkronoidaan vastaavissa integroinnin synkronointitöissä.  
@@ -33,7 +33,7 @@ Integrointitaulukon yhdistämismääritys liittää [!INCLUDE[d365fin](includes/
 ## <a name="creating-new-records"></a>Uusien tietueiden luominen  
  Oletusarvoisesti vain yhdistetyt [!INCLUDE[d365fin](includes/d365fin_md.md)]in ja [!INCLUDE[crm_md](includes/crm_md.md)]in tietueet synkronoidaan integroinnin synkronointitöissä. Voit määrittää taulukon yhdistämismäärityksiä siten, että uudet tietueet luodaan kohteeseen (kuten [!INCLUDE[d365fin](includes/d365fin_md.md)]iin) kullekin lähteen tietueelle (kuten [!INCLUDE[crm_md](includes/crm_md.md)]), jota ei ole yhdistetty.  
 
- Esimerkiksi SALESPEOPLE - Dynamics 365 for Sales -synkronointityö käyttää taulukon yhdistämismääritystä SALESPEOPLE. Synkronointityö kopioi tiedot [!INCLUDE[crm_md](includes/crm_md.md)]in käyttäjätietueista [!INCLUDE[d365fin](includes/d365fin_md.md)]in myyjätietueisiin. Jos määrität yhdistämismääritykset luomaan uusia tietueita, jokaiselle [!INCLUDE[crm_md](includes/crm_md.md)]in käyttäjälle, jota ei vielä ole yhdistetty [!INCLUDE[d365fin](includes/d365fin_md.md)]in myyjään, luodaan uusi myyjätietue [!INCLUDE[d365fin](includes/d365fin_md.md)]issa.  
+ Esimerkiksi MYYJÄT - Dynamics 365 Sales -synkronointityö käyttää taulukon yhdistämismääritystä MYYJÄT. Synkronointityö kopioi tiedot [!INCLUDE[crm_md](includes/crm_md.md)]in käyttäjätietueista [!INCLUDE[d365fin](includes/d365fin_md.md)]in myyjätietueisiin. Jos määrität yhdistämismääritykset luomaan uusia tietueita, jokaiselle [!INCLUDE[crm_md](includes/crm_md.md)]in käyttäjälle, jota ei vielä ole yhdistetty [!INCLUDE[d365fin](includes/d365fin_md.md)]in myyjään, luodaan uusi myyjätietue [!INCLUDE[d365fin](includes/d365fin_md.md)]issa.  
 
 #### <a name="to-create-new-records-during-synchronization"></a>Uusien tietueiden luominen synkronoinnin aikana  
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita **Integrointitaulukon yhdistämismääritykset** ja valitse sitten liittyvä linkki.
@@ -59,6 +59,6 @@ Jos asennat oletussynkronointimäärityksen, kaksi määritysmallia luodaan usei
 3.  Määritä määritysmallille **Integrointitaulukon määritysmallin koodi** -kenttä, jota käytetään [!INCLUDE[crm_md](includes/crm_md.md)]in uusissa tietueissa.
 
 ## <a name="see-also"></a>Katso myös  
-[Tietoja Dynamics 365 Business Centralin ja Dynamics 365 for Salesin integroinnista](admin-prepare-dynamics-365-for-sales-for-integration.md )   
-[Business Centralin ja Dynamics 365 for Salesin synkronointi](admin-synchronizing-business-central-and-sales.md)   
+[Tietoja Dynamics 365 Business Centralin ja Dynamics 365 Salesin integroinnista](admin-prepare-dynamics-365-for-sales-for-integration.md )   
+[Business Centralin ja Dynamics 365 Salesin synkronointi](admin-synchronizing-business-central-and-sales.md)   
 [Ajoitettu synkronointi](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)  

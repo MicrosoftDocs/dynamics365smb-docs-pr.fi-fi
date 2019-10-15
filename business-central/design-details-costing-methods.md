@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/03/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 99d3a5b4048756e71711abf9fa24bef12c12d963
-ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
+ms.openlocfilehash: 6f009b0e43a3d3424782f5c3f052033c813e3f18
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "1621066"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303639"
 ---
 # <a name="design-details-costing-methods"></a>Rakennetiedot: arvostusmenetelmät
 Arvostusmenetelmä määrittää, siirretäänkö todellinen vai budjetoitu arvo pääomaan ja käytetäänkö sitä kustannuslaskennassa. Kirjauspäivämäärän ja järjestyksen kanssa arvostusmenetelmä vaikuttaa myös siihen, miten kustannusvirta tallennetaan.
@@ -162,6 +162,7 @@ Seuraavia menetelmiä tuetaan kohteessa [!INCLUDE[d365fin](includes/d365fin_md.m
  [Rakennetiedot: Varaston arvostus](design-details-inventory-costing.md)   
  [Rakennetiedot: varianssi](design-details-variance.md)   
  [Rakennetiedot: keskimääräinen kustannus](design-details-average-cost.md)   
- [Rakennetiedot: Nimikkeen kohdistus](design-details-item-application.md) [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)  
+ [Rakennetiedot: Nimikkeen kohdistus](design-details-item-application.md)  
+ [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)  
  [Rahoitus](finance.md)  
  [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  

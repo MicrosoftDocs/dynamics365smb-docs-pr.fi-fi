@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 05/02/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 4f62954b7cc427eac84e78a4cb19a61387d423b3
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: 69014460131bd80bf08403a079e30b61d56cf307
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1446966"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301538"
 ---
 # <a name="finance"></a>Rahoitus
 [!INCLUDE[d365fin](includes/d365fin_md.md)] sisältää useimpien taloushallinnon prosessien vakiomäärityksen. Voit muuttaa määritystä omaa liiketoimintaasi vastaavaksi. Lisätietoja on kohdassa [Rahoituksen määrittäminen](finance-setup-finance.md).
@@ -40,7 +40,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 | Lisää dimensioita, kun haluat saada käyttöön monipuolisempia liiketoimintatietoja. |[Dimensioiden käyttäminen](finance-dimensions.md) |
 | Luo KP-budjetteja ennustamaan erilaisia taloudellisia toimintoja ja määritä dimensioita liiketoimintatietoja varten. |[KP-budjettien luominen](finance-how-create-budgets.md) |
 |Kirjaa tuotot tai kulut suoraan pääkirjanpitoon kirjaamatta erityisiä liiketoiminnan asiakirjoja.|[Tapahtumien kirjaaminen suoraan pääkirjanpitoon](finance-how-post-transactions-directly.md)|
-|Kirjaa käänteiskirjaukset ja kumoa niillä kirjanpidon arvokirjaukset tai osto- ja myyntiasiakirjojen määräkirjaukset. |[Kirjausten peruuttaminen](finance-how-reverse-journal-posting.md)|
+|Kirjaa käänteiskirjaukset ja kumoa niillä kirjanpidon arvokirjaukset tai osto- ja myyntiasiakirjojen määräkirjaukset. |[Päiväkirjakirjauksen peruuttaminen sekä vastaanottojen tai toimitusten kumoaminen](finance-how-reverse-journal-posting.md)|
 |Voit kohdistaa tapahtuman useisiin yleisen päiväkirjan tileihin päiväkirjan kirjaamisen yhteydessä. |[Kustannusten ja tulojen kohdistaminen](year-allocate-costs-income.md) |
 | Liitä lisäkustannukset, kuten rahti- ja fyysisen käsittelyn kustannukset, joita joudut maksamaan kaupan yhteydessä nimikkeisiin, jotta kustannukset vaikuttavat varastonarvostukseen. |[Kaupan lisäkustannusten huomiointi nimikekulujen avulla](payables-how-assign-item-charges.md) |
 |Kirjaa työntekijöiden liiketoimintaan liittyvät henkilökohtaiset kulut ja tee hyvitykset suorittamalla maksu työntekijän pankkitilille.|[Työntekijöiden kulujen kirjaaminen ja hyvittäminen](finance-how-record-reimburse-employee-expenses.md)|

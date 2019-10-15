@@ -8,17 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 06/26/2019
+ms.date: 10/01/2019
 ms.author: solsen
-ms.openlocfilehash: 10ccbc7546aa5d03c3837997a721c63c3ce465da
-ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
+ms.openlocfilehash: d945a6b851c20479a4c8c83f38b8fc8ccdfd6765
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1796663"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300423"
 ---
-[!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
-
 # <a name="creating-a-sandbox-environment"></a>Sandbox-ympäristön luominen
 Sandbox-ympäristö (esiversio) on [!INCLUDE[d365fin](includes/d365fin_md.md)]in tuotantoympäristöön kuulumaton ilmentymä. Tuotannosta eristetty Sandbox-ympäristö on paikka, jossa voi turvallisesti tutustua palveluun, opetella sen käyttöä sekä kehittää ja testata sitä ilman, että tuotantoympäristön tiedot ja asetukset vaarantuvat.
 
@@ -46,7 +44,7 @@ Tarvitse sandbox-ympäristön luontia varten [!INCLUDE[d365fin](includes/d365fin
 
     > [!NOTE]
     > Näin luotu sandbox-ympäristö sisältää vain CRONUS-yrityksen oletusesittelytiedot. Mitään tietoja ei kopioida tai muutoin siirretä tuotantoympäristöstä.<br /><br />
-    > Voit luoda myös sandbox-ympäristön, joka sisältää tuotantotiedot. Tämä on tehtävä hallintakeskuksen kautta. Lisätietoja on kehittäjien ja IT-ammattilaisten ohjeaiheessa [Ympäristöjen hallinta](/business-central/dev-itpro/administration/tenant-admin-center-environments).
+    > Voit luoda myös sandbox-ympäristön, joka sisältää tuotantotiedot. Tämä on tehtävä hallintakeskuksen kautta. Lisätietoja on kehittäjien ja IT-ammattilaisten ohjeaiheessa [Ympäristöjen hallinta](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments).
 
 6. Voit palata koska tahansa **Sandbox-ympäristö**-sivulle ja palauttaa sandbox-ympäristön alkuasetuksiin.
     > [!NOTE]  

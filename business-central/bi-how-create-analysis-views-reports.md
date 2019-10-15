@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e8744455f41897f00315968cc10f12f18bf042b9
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 8c3b7ee476287b25740648758ff7b87ff13f22a7
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245256"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303938"
 ---
 #  <a name="create-analysis-reports"></a>Analyysiraporttien luominen
 Myyntipäälliköiden on analysoitava liikevaihtoa, bruttokatetta ja muita myynnin tunnuslukuja säännöllisesti. Ostajat ovat kiinnostuneempia ostovolyymien dynamiikasta, toimittajien suorituskyvystä ja ostohinnoista. Logistiikka-/varastopäälliköt puolestaan tarvitsevat tietoja varaston kierrosta, varaston siirtoanalyysin ja tilastotietoja varaston arvosta.  
@@ -43,7 +43,7 @@ Sen jälkeen voit määrittää seuraavanlaiset sarakkeet:
 ## <a name="setting-up-line-and-column-layouts"></a>Rivi- ja sarakeasettelujen määrittäminen  
  **Analyysiraportti**-sivun avulla voit katsella eri rivi- ja sarakeasetteluja sen mukaan, mitä olet määrittänyt. Rivit tai rivimallit määritetään **Analyysirivimallit**-sivulla. Voit määrittää tällä sivulla raportin nimen ja raportin riveillä näkyvät objektit. Sarakkeet määritetään **Analyysisarakkeen mallit** -sivulla. Voit määrittää tällä sivulla sarakkeen mallin nimen ja raportissa sarakkeina esitettävät analyysin parametrit. **Analyysisarakkeen mallit** -sivulla jokainen rivi vastaa raportin saraketta. Huomaa, että analyysin rivit ja sarakkeet ovat riippumattomia toisistaan.  
 
-Ohjelma yhdistää raportin tuloksen **Analyysiraportti**-sivulla määrittämiesi rivien ja sarakkeiden perusteella käyttämällä esimerkiksi seuraavanlaista matriisia:  
+Sovellus yhdistää raportin tuloksen **Analyysiraportti**-sivulla määrittämiesi rivien ja sarakkeiden perusteella käyttämällä esimerkiksi seuraavanlaista matriisia:  
 
 | |Kuluvan kuukauden myynti|Edellisen kuukauden myynti|Edellisen kuukauden myynti (%)|  
 |-|-|-|-|  

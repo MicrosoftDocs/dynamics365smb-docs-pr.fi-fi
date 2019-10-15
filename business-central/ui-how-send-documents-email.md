@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
-ms.date: 05/20/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c326b280e6539da69831fd4f9610540f1a1e139e
-ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
+ms.openlocfilehash: c0f39204777c551eb72af1f1556dcc72d82fff2c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1594125"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310970"
 ---
 # <a name="send-documents-by-email"></a>Asiakirjojen lähettäminen sähköpostitse
 Voit kertoa liiketoiminta-asiakirjojen sisällön, kuten esimerkiksi asiakkaiden myyntiasiakirjojen maksutiedot, liiketoimintakumppaneille nopeasti Raporttiasettelu-toiminnolla. Voit määrittää asiakirjakohtaisen sisällön, joka lisätään sähköpostien perustekstiin automaattisesti. Lisätietoja on kohdassa [Raporttien ja asiakirjojen asettelujen hallinta](ui-manage-report-layouts.md).

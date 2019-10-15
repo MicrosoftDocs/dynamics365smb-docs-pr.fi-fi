@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.date: 07/24/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a4c6a7c1c25fab4c8321f59a9b2bbac5c5225eee
-ms.sourcegitcommit: f46793abdb3efd8384c10eb7992e076383251f2c
+ms.openlocfilehash: 786b56fb247cc57062dfe98c29dce446dd77ccda
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "1921405"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315682"
 ---
 # <a name="general-business-functionality"></a>Yleiset liiketoimintatoiminnot
 [!INCLUDE[d365fin](includes/d365fin_md.md)] sisältää omat toiminnot tavallisille liiketoiminta-alueille, kuten rahoitus ja myynti. Lisätietoja on kohdassa [Liiketoiminnan toiminnallisuus](across-business-functionality.md).
@@ -37,11 +37,11 @@ Seuraava taulukko sisältää nämä yleiset liiketoiminta-alueet ja linkit niit
 |Voit arkistoida myynti- ja ostotilauksia, tarjouksia, palautustilauksia ja puitetilauksia. Voit myös käyttää arkistoitua asiakirjaa ja luoda uudelleen asiakirjan, josta ne arkistoitiin.|[Asiakirjojen arkistointi](across-how-to-archive-documents.md)|
 | Määritä vakiotekstikoodit, jotta voit laajentaa vakiotekstiä lisäämällä rivejä, ja määritä lisärivien käytön ehdot. |[Laajennetun nimiketekstin lisääminen](ui-how-define-ext-text.md) |
 |Luo tehtäviä, jotka muistuttavat sinua tekemättömistä töistä. Voit luoda tehtäviä itsellesi, mutta voit määrittää tehtäviä myös muille. Samoin joku toinen käyttäjä organisaatiossa voi määrittää tehtäviä sinulle.|[Käyttäjätehtävien määrittäminen](across-user-tasks.md)|
-|Voit liittää kuvia, asiakirjoja ja muita tiedostotyyppejä kaikkiin kortteihin, kuten nimike- ja työkorttiin. Voit liittää tiedostoja myös kaiken tyyppisiin myynti- ja ostoasiakirjoihin.|[Tiedostojen liittäminen kortteihin ja asiakirjoihin](across-attach-document-master-data.md)|
 |Käsittele Business Central -tietoja Excelissä.|[Liiketoimintatietojen vienti Exceliin](about-export-data.md)|
 |Selvitä, mitä tapahtuu, kun valitset **Kirjaa**-toiminnon.|[Asiakirjojen ja päiväkirjojen kirjaaminen](ui-post-documents-journals.md)|
+|Kirjaa useita myynti- tai ostoasiakirjoja yhdessä, heti tai aikataulutettuna.|[Useiden asiakirjojen kirjaaminen samanaikaisesti](ui-batch-posting.md)|  
 |Tarkastele kirjaamisen tulosta ennen kirjaamista.|[Kirjaustulosten esikatselu](ui-how-preview-post-results.md)|
-|Muokkaa kirjattujen myynti- tai ostoasiakirjojen valittuja kenttiä.|[Kirjattujen asiakirjojen muokkaaminen](across-edit-posted-document.md)| 
+|Muokkaa kirjattujen myynti- tai ostoasiakirjojen valittuja kenttiä.|[Kirjattujen asiakirjojen muokkaaminen](across-edit-posted-document.md)|
 |Saat lisätietoja yleisten päiväkirjojen käyttämisestä. Niitä käytetään tehtäessä kirjauksia kirjanpitotileille sekä muille tileille, kuten pankki-, asiakas-, toimittaja- ja käyttöomaisuustileille. |[Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md) |
 | Voit aikatauluttaa raportin suorituksen tietylle päivämäärälle ja kellonajalle. |[Suoritettavan raportin aikatauluttaminen](ui-work-report.md#ScheduleReport) |
 |Järjestelmän avulla tehtävät voi suorittaa nopeammin ja tarkemmin niin, että kentät tai rivit täytetään tiedoilla, jotka muussa tapauksessa olisi laskettava ja syötettävä manuaalisesti.|[Business Central -sovelluksen arvoehdotusten salliminen](ui-let-system-suggest-values.md)|

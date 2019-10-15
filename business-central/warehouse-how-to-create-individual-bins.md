@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 73cbd1f7a36e9493495464357117e28732cf5cd2
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 753e76ae1c1ca120896d71ade44222864658fded
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249788"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314625"
 ---
 # <a name="create-bins"></a>Varastopaikkojen luominen
 Tehokkain tapa luoda fyysisen varaston varastopaikkoja on luoda samankaltaisten varastopaikkojen ryhmiä varastopaikan luontityökirjassa, mutta varastopaikkoja voi luoda myös yksittäin sijainnin kortista. Voit luoda varastopaikkoja myös automaattisesti **Var.paikan luontityökirja** -sivulla.  
@@ -60,15 +60,15 @@ Voit käyttää **Var.paikan luontityökirja** -sivua, jos sinut on määritetty
     > [!NOTE]  
     >  Merkkien lukumäärä, jonka olet syöttänyt kolmeen luokkaan kummankin kentän osalta (esimerkiksi kolmeen **Numerosta**-kenttiin syöttämäsi merkit), sekä kenttien mahdolliset erottimet voivat olla yhteensä korkeintaan 20 merkkiä.  
 
-     Voit käyttää koodissa kirjaimia yksilöivänä yhdistelmänä, mutta kirjaimen täytyy olla sama **Numerosta**- ja **Numeroon**-kentät -kentät. Voit esimerkiksi määritellä hyllyä koskevan koodin osaksi **Numerosta A01** ja **Numeroon A10**. Ohjelmaa ei ole määritetty luomaan koodeja, joissa on kirjainjonoja, esim. A01 - F05.  
+     Voit käyttää koodissa kirjaimia yksilöivänä yhdistelmänä, mutta kirjaimen täytyy olla sama **Numerosta**- ja **Numeroon**-kentät -kentät. Voit esimerkiksi määritellä hyllyä koskevan koodin osaksi **Numerosta A01** ja **Numeroon A10**. Sovellusta ei ole määritetty luomaan koodeja, joissa on kirjainsarjoja, kuten A01–F05.  
 
 6.  Jos haluat jonkin merkin, esimerkiksi yhdysmerkin, erottavan luokkakenttiä, jotka on määritelty osaksi varastopaikkakoodia, täytä **Kenttäerotin**-kenttään tämä merkki.  
-7.  Jos et halua ohjelman luovan riviä varastopaikalle, jos se on jo olemassa, lisää rasti **Tarkasta olemassa olevat var.paikat** -kenttään.  
+7.  Jos et halua sovelluksen luovan riviä varastopaikalle, jos se on jo luotu, valitse **Tarkasta olemassa olevat var.paikat** -kenttä.  
 8. Sen jälkeen kun olet täyttänyt kaikki kentät, paina **OK**-painiketta .
 
-    Ohjelma luo työkirjaan rivin kullekin varastopaikalle. Voit nyt poistaa joitain varastopaikoista, jos sinulla on esimerkiksi hylly, jossa on käytävä parin osion kahden ensimmäisen tason välillä.  
+    Sovellus luo työkirjaan rivin kullekin varastopaikalle. Voit nyt poistaa joitain varastopaikoista, jos sinulla on esimerkiksi hylly, jossa on käytävä parin osion kahden ensimmäisen tason välillä.  
 
-9. Kun olet poistanut kaikki tarpeettomat varastopaikat, valitse **Luo varastopaikat** -toiminto, ohjelma luo työkirjan kullekin riville varastopaikkoja.  
+9. Kun olet poistanut kaikki tarpeettomat varastopaikat, valitse **Luo varastopaikat** -toiminto, jolloin sovellus luo työkirjan kullekin riville varastopaikan.  
 
 Prosessi toistetaan toisen varastopaikkasarjan osalta, siihen asti kun fyysiseen varastoon on luotu kaikki varastopaikat.  
 

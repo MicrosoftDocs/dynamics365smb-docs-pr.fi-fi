@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 08/20/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 062cee5473de267a479bc76e166ed85948544a51
-ms.sourcegitcommit: 81b6062194bf04d8052a3cd394cc0b41e3f53e6d
+ms.openlocfilehash: 0b83cc4daea4e37dae1e1ef7437276205b76cbe5
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "1887666"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303339"
 ---
 # <a name="design-details-item-tracking-and-planning"></a>Rakennetiedot: nimikkeen seuranta ja suunnittelu
 Nimikkeen seurantanumerot on sovitettu täysin yhteen tilausseurannan tietueiden kanssa, koska ne ovat tallennettu varausjärjestelmään. Tämä tarkoittaa sitä, että nimikkeille, joilla on tilauksen seurantatietueet, voidaan määrittää nimikkeen seurantanumerot. Käänteisesti, seurantanumerot omaavat nimikkeet voivat muuttua tilauksen seurantatietueiksi. Lisätietoja on kohdassa [Rakennetiedot: nimikeseurannan rakenne](design-details-item-tracking-design.md).

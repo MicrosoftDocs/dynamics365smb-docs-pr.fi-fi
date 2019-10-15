@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.reviewer: edupont
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: soalex
-ms.openlocfilehash: d4ceef0780306015795c0a2406245514c2a26de5
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 482c0e9f7fe0fa787ab9d3e45f22abd07d009b3e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250317"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315706"
 ---
 # <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Maa- tai aluekohtaisten lakisääteisiä ominaisuuksia koskevien ilmoitusten lähettäminen
 
@@ -21,13 +21,21 @@ Voit lähettää lakisääteisiä ilmoituksia Microsoft Dynamics Lifecycle Servi
 
 ## <a name="to-submit-a-regulatory-alert-in-lcs"></a>Lakisääteisen ilmoituksen lähettäminen LCS:ssä
 
-1. Siirry sivustoon https://lcs.dynamics.com ja kirjaudu sisään. Projektit, joiden käyttöoikeus sinulla on, tulevat näkyviin.
+1. Siirry sivustoon https://lcs.dynamics.com ja kirjaudu sisään  
 
-2. Valitse **Lakisääteiset ilmoitukset – maailmanlaajuinen** -projekti. Projekti avautuu ja näkyviin tulee erilaisia tähän projektiin liittyviä seikkoja.
+    Projektit, joiden käyttöoikeus sinulla on, tulevat näkyviin.
 
-3. Valitse **Lisää työkaluja** -kohdan oikealla puolella **Ilmoituspalvelu**. Näkyvissä on ilmoitusluettelo, jonka otsikkona on **Dynamicsin lakisääteisen ilmoituksen lähettäminen**.
+2. Valitse **Lakisääteiset ilmoitukset – maailmanlaajuinen** -projekti.
 
-4. Voit lisätä uuden ilmoituksen napsauttamalla plusmerkkiä **(+)** luettelon yläreunassa. Näkyviin tulee opas, jossa ilmoitus luodaan neljässä vaiheessa. Oppaassa on seuraavat vaiheet:
+    Projekti avautuu ja näkyviin tulee erilaisia tähän projektiin liittyviä seikkoja.
+
+3. Valitse **Lisää työkaluja** -kohdan oikealla puolella **Ilmoituspalvelu**.
+
+    Näkyvissä on ilmoitusluettelo, jonka otsikkona on **Dynamicsin lakisääteisen ilmoituksen lähettäminen**.
+
+4. Voit lisätä uuden ilmoituksen napsauttamalla plusmerkkiä **(+)** luettelon yläreunassa.
+
+    Näkyviin tulee opas, jossa ilmoitus luodaan neljässä vaiheessa. Oppaassa on seuraavat vaiheet:
     - Aiemmin luotujen nimikkeiden etsiminen
 
         Etsi tietoja, joiden arvelet liittyvät luotavaan ilmoitukseen. Jos et saa mitään soveltuvia hakutuloksia, voit valita sivun alareunassa **Lähetä lakisääteinen ilmoitus** -painikkeen ja jatkaa ilmoituksen lähettämistä.
@@ -44,7 +52,7 @@ Voit lähettää lakisääteisiä ilmoituksia Microsoft Dynamics Lifecycle Servi
         |Description  | Kirjoita lyhyt lainsäädännön kuvaus. Kuvauksen pitäisi keskittyä tuotannonohjaus- eli ERP-toimiin liittyviin ongelmiin, jotta käyttäjät ymmärtävät ylätason vaatimukset lainsäädäntöön tutustumatta.|
         |Maa  | Määritä maa tai alue, jota lainsäädäntö koskee.|
         |Toimiala| Määritä toimiala, jos vaatimus koskee vain tiettyjä toimialoja. Valitse esimerkiksi **julkinen sektori**, **vähittäismyynti** tai **tuotanto**.|
-        |Ominaisuusviite  | Tämä ei koske Dynamics 365 Business Centralia, mutta jos sinulla on ominaisuusviite, voit antaa sen. Maakohtainen ominaisuusluettelo on [lokalisointiportaalissa](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC). |
+        |Ominaisuusviite  | Tämä ei koske Dynamics 365 Business Centralia, mutta jos sinulla on ominaisuusviite, voit antaa sen. Maakohtainen ominaisuusluettelo on CustomerSource-sivuston [lokalisointiportaalissa](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC). |
         |Lainsäädännön voimaantulopäivä  | Määritä päivämäärä, jolloin asiakkaiden on aloitettava lainsäädännön noudattaminen.|
         |Julkishallinnon ilmoituspäivä  | Määritä päivämäärä, jolloin viranomainen ilmoitti muutoksesta.|
         |Viimeisin ilmoituspäivä  | Valitse määräaika, jolloin uusi tai muuttunut raportti on lähetettävä ensimmäisen kerran.|
@@ -66,7 +74,9 @@ Voit lähettää lakisääteisiä ilmoituksia Microsoft Dynamics Lifecycle Servi
 
 ## <a name="see-also"></a>Katso myös
 
-[Tervetuloa Business Centraliin](index.md)  
+[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]in paikalliset toiminnot](about-localization.md)  
+[Kielen ja kielialueen muuttaminen](about-locale-language.md)  
 [Käytön aloittaminen](product-get-started.md)  
+[Tervetuloa Business Centraliin](index.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

@@ -1,5 +1,5 @@
 ---
-title: Kentän tietojen antaminen| Microsoft Docs
+title: Tietojen antaminen Business Centralissa | Microsoft Docs
 description: Tietoja yleisistä ominaisuuksista, jotka auttavat antamaan tietoja kenttiin.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 09/17/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 83bf26c7059146978d46820144e5701fdbb3aa31
-ms.sourcegitcommit: 7ce8005806465417c7040c61da1d6cada29cd9c0
+ms.openlocfilehash: 722f81e9e06cdab13bdd838837e2053de0215821
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "2000785"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311378"
 ---
 # <a name="entering-data"></a>Tietojen antaminen
 
@@ -39,9 +39,9 @@ Osaat jo ehkä siirtyä sivulla kentästä seuraavaan muokattavaan kenttään sa
 
 Jokainen kenttää voidaan merkitä joko *pikatapahtumaan sisällytetyksi* tai *pikatapahtumasta poissuljetuksi*. Pikatapahtumaan sisällytetyt kentät sisällytetään polkuun, johon Enter-näppäimellä siirrytään, kun taas pikatapahtumasta poissuljettuja kenttiä ei sisällytetä siihen.
 
-Kun tiedot on annettu kenttään, vahvista muutokset Enter-näppäimellä ja siirry samalla seuraavaan kenttään. Jos haluat palata taaksepäin ja siirtyä edelliseen kenttään, paina näppäinyhdistelmää Vaihto+Enter. Lisätietoja oiketeistä, katso [Pikäsyöttö Oikotiet Kentille](keyboard-shortcuts.md#QuickEntry)
+Kun tiedot on annettu kenttään, vahvista muutokset Enter-näppäimellä ja siirry samalla seuraavaan kenttään. Jos haluat palata taaksepäin ja siirtyä edelliseen kenttään, paina näppäinyhdistelmää Vaihto+Enter. Lisätietoja pikanäppäimistä on kohdassa [Kenttien pikatapahtumien pikanäppäimet](keyboard-shortcuts.md#QuickEntry)
 
-#### <a name="tips-and-tricks"></a>Vihjeitä
+#### <a name="tips-and-tricks"></a>Vihjeet ja vinkit
 Seuraavassa luettelossa on joitakin hyödyllisiä tietoja pikatapahtumien käyttämisestä.
 
 - Se on käytössä muokattavissa kentissä.
@@ -51,11 +51,11 @@ Seuraavassa luettelossa on joitakin hyödyllisiä tietoja pikatapahtumien käytt
 - Pikatapahtuma on käytettävissä riippumatta siitä, ovatko kentät pakollisia vai eivät. Tämän vuoksi kannattaa varmistaa, että pakolliset kentät sisällytetään pikatapahtumaan.
 - Oletusarvoisesti useimmat kentät sisällytetään automaattisesti pikatapahtumaan. Tämän vuoksi joudutkin luultavasti aluksi sulkemaan kenttiä pois pikatapahtumasta.
 
-### <a name="how-to-change-quick-entry-fields"></a>Pikatapahtumakenttien muuttaminen
+### <a name="to-change-quick-entry-fields"></a>Pikatapahtumakenttien muuttaminen
 
 Pikatapahtumaan sisällytettyjen tai poissuljettujen kenttien muuttaminen tehdään mukauttamisen avulla.
 
-1. Aloita mukauttaminen valitsemalla ensin ![Asetukset](media/ui-experience/settings_icon_small.png "Roolikeskuksen Asetukset-kuvake") -kuvake ja sitten **Mukauta**.
+1. Aloita mukauttaminen valitsemalla ensin ![Asetukset](media/ui-experience/settings_icon_small.png "Roolikeskuksen Asetukset-kuvake") -kuvake ja sitten **Mukauta**-toiminto.
 2. Valitse muutettava kenttä tai luettelossa vastaava sarakeotsikko ja valitse sitten joko **Sisällytä pikatapahtumaan** tai **Sulje pois pikatapahtumasta**.
 
 Lisätietoja mukauttamisesta on kohdassa [Työtilan mukauttaminen](ui-personalization-user.md).
@@ -76,31 +76,42 @@ Vaikka kentässä on punainen tähti, et joudu täyttämään kenttää ennen ku
 
 -   Avattava luettelo - Ohjelma näyttää kentän eri vaihtoehdot. Voit valita vain yhden vaihtoehdoista.  
 
-## <a name="copying-and-pasting-fields-and-lines"></a>Kenttien ja rivien kopioiminen ja liittäminen
+## <a name="copying-and-pasting-faq-fields-and-lines"></a>Kenttien ja rivien kopioimisen ja liittämisen usein kysytyt kysymykset
 
 Voit kopioida yhden rivin tai useita rivejä luettelosta tai yhden kentän sivulta ja liittää kopioidut kohteet samalle sivulle, toiselle sivulle tai ulkoiseen asiakirjaan (kuten Microsoft Excel -asiakirjaan tai Outlook-sähköpostiin). Jos haluat kopioida, paina näppäimiä CTRL+C (cmd+C macOS-käyttöjärjestelmässä). Jos haluat liittää, paina näppäimiä CTRL+V (cmd+V macOS-käyttöjärjestelmässä).
 
 Kopioi luettelossa kenttä yläpuolella olevan rivin samasta sarakkeesta ja liitä se nykyiselle riville painamalla F8-näppäintä.
 
-Lisätietoja on kohdassa [Kopioiminen ja liittäminen Business Centralissa](ui-copy-paste.md).
+Lisätietoja on kohdassa [Kopioinnin ja liittämisen usein kysytyt kysymykset](ui-copy-paste.md).
+
+## <a name="filtering-line-items"></a>Rivinimikkeiden suodattaminen
+
+Aloita suodatus avaamalla suodatinruutu valitsemalla ![Suodatinruutukuvake](media/open-filter-pane-icon.png "Suodatinruutukuvake") luettelon yläreunassa tai painamalla näppäinyhdistelmää Vaihto+F3. Voit käyttää suodatinruutua samalla tavoin kuin muitakin luetteloita. Lisätietoja on kohdassa [Suodattaminen](ui-enter-criteria-filters.md#Filtering).
+
+Suodatuksesta on apua erityisesti silloin, kun tarkasteltava ja analysoitava asiakirja on pitkä. Oletetaan esimerkiksi, että avaat kirjatun myyntilaskun ja suodatat rivinimikkeet näyttämään kaikki rivinimikkeet, joilla on yli 5 %:n yksittäinen alennus, tai näytät suodatuksen avulla vain pyörän varusteet, joiden nimi sisältää sanan pro.
 
 ## <a name="Focus"></a>Kohdistaminen rivinimikkeisiin
 
-Jos käsittelet rivinimikeosan, kuten myyntitilaus- tai laskusivun, sisältäviä asiakirjoja, voit vaihtaa näkymän kohdistuksen rivinimikkeisiin. Käytännössä tämä tarkoittaa rivinimikkeen laajentamista siten, että se täyttää lähes koko työtilan, jolloin sivun muut osat piilotetaan yläreunassa olevia toimintoja lukuun ottamatta. Saat tällä tavoin hyvän yleiskuvan rivinimikkeistä, ja sinulla on enemmän tilaa niiden käsittelemiseen. Tämä on erityisen kätevää silloin, kun käsittelet suuria rivinimikeluetteloita ja tiedot pitäisi antaa nopeasti.
+Jos käsiteltävissä asiakirjoissa on rivinimikeosia, kuten myyntitilaus- tai laskusivu, voit siirtää kohdistuksen vain rivinimikkeisiin. Rivinimikeosa laajenee sitten niin, että se kattaa käytännössä koko työtilan ja piilottaa sivun kaikki muut osat paitsi yläreunassa olevan toimintojen osan. Saat tällä tavoin hyvän yleiskuvan rivinimikkeistä, ja sinulla on enemmän tilaa niiden käsittelemiseen.
 
-Lisäetuna on mahdollisuus käyttää suodatuksen lisäominaisuuksien, kuten muissakin luetteloissa, mikä helpottaa rivinimikkeiden selaamista ja hakemista.
+Tämä on erityisen kätevää silloin, kun käsittelet suuria rivinimikeluetteloita ja tiedot on annettava nopeasti. Lisäetuna on mahdollisuus käyttää suodatuksen lisäominaisuuksien, kuten muissakin luetteloissa, mikä helpottaa rivinimikkeiden selaamista ja hakemista.
 
 ### <a name="switching-the-focus-on-and-off"></a>Kohdituksen Kytkeminen Päälle ja Pois
 
-Jos haluat siirtää kohdistuksen rivinimikkeisiin, tee valinta jossakin rivinimikeosassa ja valitse sitten oikeassa yläkulmassa ![Kohdistustilan kuvake](media/focus-mode.png "Kohdistustilan kuvake") tai paina näppäinyhdistelmää Ctrl+Vaihto+F12.
+Jos haluat siirtää kohdistuksen rivinimikkeisiin, tee valinta jossakin rivinimikeosassa ja valitse sitten oikeassa yläkulmassa ![Kohdistustilan kuvake](media/focus-mode.png "Kohdistustilan kuvake"). Vaihtoehtoisesti voit käyttää näppäinyhdistelmää Ctrl+Vaihto+F12.
 
 Voit palata takaisin normaalinäkymään valitsemalla ![Kohdistustilan kuvake](media/focus-mode.png "Kohdistustilan kuvake") tai painamalla uudelleen näppäinyhdistelmää Ctrl+Vaihto+F12.
 
-### <a name="filtering-the-line-items"></a>Rivinimikkeiden suodattaminen
+## <a name="multitasking-across-multiple-pages"></a>Monen tehtävän suorittaminen yhtä aikaa useilla sivuilla
+Jos montaa tehtävää käsitellään samanaikaisesti tai jos hallitaan keskeytyksiä nykyisessä tehtävässä (vastataan esimerkiksi puheluun), voit avata kortti- tai asiakirjasivun uudessa ikkunassa. Tällä tavoin voit pitää keskeneräisen tehtävän ikkunan avoinna samalla, kun aloitat tai suoritat toisen tehtävän yhdessä tai useassa muussa ikkunassa.
 
-Aloita suodatus avaamalla suodatinruutu valitsemalla ![Suodatinruutukuvake](media/open-filter-pane-icon.png "Suodatinruutukuvake") luettelon yläreunassa tai painamalla näppäinyhdistelmää **Vaihto+F3**. Voit käyttää suodatinruutua samalla tavoin kuin muitakin luetteloita. Lisätietoja on kohdassa [Suodattaminen](ui-enter-criteria-filters.md#Filtering).
+Avaa nykyinen kortti tai asiakirja uudessa ikkunassa valitsemalla ![Avaa uusi ikkuna](media/open-new-window-icon.png "Avaa uusi ikkuna -kuvake") oikeassa yläkulmassa. Vaihtoehtoisesti voit käyttää näppäinyhdistelmää Alt+Vaihto+W.
 
-Suodatuksesta on apua erityisesti silloin, kun tarkasteltava ja analysoitava asiakirja on pitkä. Oletetaan esimerkiksi, että avaat kirjatun myyntilaskun ja suodatat rivinimikkeet näyttämään kaikki rivinimikkeet, joilla on yli 5 %:n yksittäinen alennus, tai näytät suodatuksen avulla vain pyörän varusteet, joiden nimi sisältää sanan pro.
+> [!NOTE]
+> Kun avaat uudessa ikkunassa avatusta kortista tai asiakirjasta muita sivuja, kyseiset sivut avautuvat uusissa ikkunoissa, vaikka et valitsisi ![Avaa uusi ikkuna](media/open-new-window-icon.png "Avaa uusi ikkuna -kuvake").
+
+> [!NOTE]
+> Jos käytössä on Safari-selain, ponnahdusikkunoiden esto voi estää uuden ikkunan avautumisen. Määritä siinä tapauksessa tuotteen URL-osoite sallituksi sivustoksi. Lisätietoja on kohdassa [Safarin asetusten muuttaminen](https://go.microsoft.com/fwlink/?LinkId=2102965).  
 
 ## <a name="entering-quantities-by-calculation"></a>Määrien antaminen laskutoimituksia käyttämällä
 
@@ -185,7 +196,7 @@ Seuraavassa taulukossa on luettelo eri tavoista, joilla päivämääriä ja aiko
 
 |Tapahtuma|Tulkinta|  
 |---------------|------------------------|  
-|131202 132455|13.12.02 13:24:55|  
+|`131202` 132455|13.12.02 13:24:55|  
 |1-12-02 10|01.12.02 10:00:00|  
 |1.12.02 5|01.12.02 05:00:00|  
 |1.12.02|01.12.02 00:00:00|  

@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
-ms.openlocfilehash: 09f74e83bdc467378144f586dd3a33a0fc1ba213
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: a87250d836739eb3b01cc88a1b2bf3116396ccd0
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1242167"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303170"
 ---
 # <a name="design-details-loading-the-inventory-profiles"></a>Rakennetiedot: varastoprofiilien lataaminen
 Voit lajitella useita kysynnän ja tarjonnan lähteitä, kun suunnittelujärjestelmä järjestää ne kahdella aikajanalle, joita kutsutaan varastoprofiileiksi.  
@@ -42,10 +42,10 @@ Voit lajitella useita kysynnän ja tarjonnan lähteitä, kun suunnittelujärjest
 ## <a name="item-dimensions-are-separated"></a>Nimikkeen dimensiot on erotettu  
  Tarjontasuunnitelma on laskettava nimikkeen dimensioiden, kuten variantin ja sijainnin, yhdistelmää kohti. Minkään teoreettisen yhdistelmän laskeminen ei ole kuitenkaan tarpeellista. Vain ne yhdistelmät tarvitsee laskea, joihin liittyy kysyntä ja/tai tarjonta.  
 
- Suunnittelujärjestelmä hallinnoi tätä ajamalla läpi varaston profiilin. Kun uusi yhdistelmä löytyy, ohjelma luo todellisen yhdistelmän tiedot sisältävän sisäisen ohjaustietueen. Ohjelma liittää SKU:n kontrollitietueena ja ulkoisena lenkkinä. Tämän vuoksi asetetaan asianmukaiset parametrit variantin ja sijainnin mukaan ja ohjelma voi jatkaa sisempään silmukkaan.  
+ Suunnittelujärjestelmä hallinnoi tätä ajamalla läpi varaston profiilin. Kun uusi yhdistelmä löytyy, sovellus luo todellisen yhdistelmän tiedot sisältävän sisäisen ohjaustietueen. Sovellus liittää SKU:n ohjaustietueena ja ulkoisena lenkkinä. Tämän vuoksi määritetään asianmukaiset parametrit variantin ja sijainnin mukaan ja sovellus voi jatkaa sisäsilmukkaan.  
 
 > [!NOTE]  
->  Ohjelma ei vaadi käyttäjää kirjamaan SKU-tietuetta, kun tämä syöttää kysynnän ja/tai tarjonnan tietylle variantin ja sijainnin yhdistelmälle. Jos annetulla yhdistelmällä ei ole varastointiyksikköä, ohjelma luo oman väliaikaisen varastointiyksikön tietueen nimikekortin tietojen perusteella. Jos Sijainti pakollinen -asetuksen arvo on Kyllä Varastonhallinnan asetukset -sivulla, tällöin on luotava varastointiyksikkö tai Komponentit sijainnissa -asetuksen arvoksi on muutettava Kyllä. Katso lisätiedot kohdasta [Rakennetiedot: kysyntä tyhjä-sijainnissa](design-details-demand-at-blank-location.md).  
+>  Sovellus ei vaadi käyttäjää kirjamaan SKU-tietuetta, kun käyttäjä antaa kysynnän ja/tai tarjonnan tietylle variantin ja sijainnin yhdistelmälle. Jos annetulla yhdistelmällä ei ole varastointiyksikköä, sovellus luo oman väliaikaisen varastointiyksikön tietueen nimikekortin tietojen perusteella. Jos Sijainti pakollinen -asetuksen arvo on Kyllä Varastonhallinnan asetukset -sivulla, tällöin on luotava varastointiyksikkö tai Komponentit sijainnissa -asetuksen arvoksi on muutettava Kyllä. Katso lisätiedot kohdasta [Rakennetiedot: kysyntä tyhjä-sijainnissa](design-details-demand-at-blank-location.md).  
 
 ## <a name="seriallot-numbers-are-loaded-by-specification-level"></a>Erittelytaso lataa sarja-/eränumerot  
  Määritteet sarja-/eränumeroiden lomakkeella ladataan varastoprofiileihin yhdessä niihin kohdistetun kysynnän ja tarjonnan kanssa.  

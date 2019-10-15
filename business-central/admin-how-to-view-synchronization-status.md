@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 06/13/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 8d7421d5fee1a6498c204730f873c3746aafc637
-ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
+ms.openlocfilehash: 022e364b6a40fe8df1f9c4e3425030d35f729e6a
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "1726742"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304490"
 ---
 # <a name="view-the-status-of-synchronization-jobs"></a>Synkronointitöiden tilan näyttäminen
 Käytä **Yhdistettyjen tietojen synkronointivirheet** -sivua, kun haluat näyttää niiden synkronointitöiden tilan, jotka on suoritettu yhdistetyille tietueille [!INCLUDE[crm_md](includes/crm_md.md)] -integroinnissa. Tämä sisältää työt, jotka on suoritettu työjonosta, ja manuaaliset synkronointityöt, jotka on suoritettu [!INCLUDE[d365fin](includes/d365fin_md.md)] -tietueista. Näiden tilan näyttäminen on hyödyllistä esimerkiksi vianmäärityksen yhteydessä, koska tällöin saat tietoja yhdistettyihin tietueisiin liittyvistä virheistä. Yleensä tällaiset virheet johtuvat käyttäjän toiminnoista. Näitä ovat esimerkiksi seuraavat:  
@@ -44,5 +44,5 @@ Käytä **Yhdistettyjen tietojen synkronointivirheet** -sivua, kun haluat näytt
 2. Valitse **Synkronointiloki** toimenpide tarkastellaksesi valitun tietueen synkronointilokia. Esimerkiksi tiettyä asiakasta jonka synkronoit manuaalisesti.
 
 ## <a name="see-also"></a>Katso myös  
-[Dynamics 365 for Sales -integroinnissa käytettävien käyttäjätilien määrittäminen](admin-setting-up-integration-with-dynamics-sales.md)  
-[Dynamics 365 for Salesin käyttö Business Centralista](marketing-integrate-dynamicscrm.md)
+[Dynamics 365 Sales -integroinnissa käytettävien käyttäjätilien määrittäminen](admin-setting-up-integration-with-dynamics-sales.md)  
+[Dynamics 365 Salesin käyttäminen Business Centralissa](marketing-integrate-dynamicscrm.md)

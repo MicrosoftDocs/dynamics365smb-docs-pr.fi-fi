@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 514c896c4bee0b5ade8532f8b08dba6b8a7a6657
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: b8e4cb09e8b391f9818c9dabbc25d88eeca4aeac
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1243869"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303770"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Rakennetiedot: kysynnän ja tarjonnan täsmäytys
 Suunnittelujärjestelmän priorisoitujen tavoitteiden ymmärtäminen edellyttää suunnittelujärjestelmän toiminnan ymmärtämistä. Tärkeimmät tavoitteet pyrkivät varmistamaan seuraavat seikat:  
@@ -28,7 +28,7 @@ Suunnittelujärjestelmän priorisoitujen tavoitteiden ymmärtäminen edellyttä�
  Yleisesti ottaen nämä tavoitteet saavutetaan täsmäyttämällä tarjonta ja kysyntä.  
 
 ## <a name="demand-and-supply"></a>Kysyntä ja tarjonta
- Kysyntä on yleinen termi, jota käytetään kaikenlaiseen bruttokysyntään, kuten myyntitilaukseen ja komponenttitarpeeseen tuotantotilauksesta. Lisäksi ohjelma sallii teknisemmät kysyntätyypit, kuten negatiivisen varaston ja ostopalautukset.  
+ Kysyntä on yleinen termi, jota käytetään kaikenlaiseen bruttokysyntään, kuten myyntitilaukseen ja komponenttitarpeeseen tuotantotilauksesta. Lisäksi sovellus sallii tekniset kysyntätyypit, kuten negatiivisen varaston ja ostopalautukset.  
 
   Tarjonta on yleinen termi, jota käytetään mille tahansa positiiviselle tai tulevalle määrälle, kuten varasto, ostot, kokoonpano, tuotanto tai tulevat siirrot. Lisäksi myyntipalautus voi myös kuvata tarjontaa.  
 
@@ -84,10 +84,10 @@ Kysyntä ja tarjontatyyppien lataamisesta riippumatta, tietyt tyypit ladataan ki
 ### <a name="item-dimensions-are-separated"></a>Nimikkeen dimensiot on erotettu  
 Tarjontasuunnitelma on laskettava nimikkeen dimensioiden, kuten variantin ja sijainnin, yhdistelmää kohti. Minkään teoreettisen yhdistelmän laskeminen ei ole kuitenkaan tarpeellista. Vain ne yhdistelmät tarvitsee laskea, joihin liittyy kysyntä ja/tai tarjonta.  
 
-Suunnittelujärjestelmä hallinnoi tätä ajamalla läpi varaston profiilin. Kun uusi yhdistelmä löytyy, ohjelma luo todellisen yhdistelmän tiedot sisältävän sisäisen ohjaustietueen. Ohjelma liittää SKU:n kontrollitietueena ja ulkoisena lenkkinä. Tämän vuoksi asetetaan asianmukaiset parametrit variantin ja sijainnin mukaan ja ohjelma voi jatkaa sisempään silmukkaan.  
+Suunnittelujärjestelmä hallinnoi tätä ajamalla läpi varaston profiilin. Kun uusi yhdistelmä löytyy, sovellus luo todellisen yhdistelmän tiedot sisältävän sisäisen ohjaustietueen. Sovellus liittää SKU:n ohjaustietueena ja ulkoisena lenkkinä. Tämän vuoksi määritetään asianmukaiset parametrit variantin ja sijainnin mukaan ja sovellus voi jatkaa sisäsilmukkaan.  
 
 > [!NOTE]  
->  Ohjelma ei vaadi käyttäjää kirjamaan SKU-tietuetta, kun tämä syöttää kysynnän ja/tai tarjonnan tietylle variantin ja sijainnin yhdistelmälle. Jos annetulla yhdistelmällä ei ole varastointiyksikköä, ohjelma luo oman väliaikaisen varastointiyksikön tietueen nimikekortin tietojen perusteella. Jos Sijainti pakollinen -asetuksen arvo on Kyllä Varastonhallinnan asetukset -sivulla, tällöin on luotava varastointiyksikkö tai Komponentit sijainnissa -asetuksen arvoksi on muutettava Kyllä. Katso lisätiedot kohdasta [Rakennetiedot: kysyntä tyhjä-sijainnissa](design-details-demand-at-blank-location.md).  
+>  Sovellus ei vaadi käyttäjää kirjamaan SKU-tietuetta, kun käyttäjä antaa kysynnän ja/tai tarjonnan tietylle variantin ja sijainnin yhdistelmälle. Jos annetulla yhdistelmällä ei ole varastointiyksikköä, sovellus luo oman väliaikaisen varastointiyksikön tietueen nimikekortin tietojen perusteella. Jos Sijainti pakollinen -asetuksen arvo on Kyllä Varastonhallinnan asetukset -sivulla, tällöin on luotava varastointiyksikkö tai Komponentit sijainnissa -asetuksen arvoksi on muutettava Kyllä. Katso lisätiedot kohdasta [Rakennetiedot: kysyntä tyhjä-sijainnissa](design-details-demand-at-blank-location.md).  
 
 ### <a name="seriallot-numbers-are-loaded-by-specification-level"></a>Erittelytaso lataa sarja-/eränumerot  
 Määritteet sarja-/eränumeroiden lomakkeella ladataan varastoprofiileihin yhdessä niihin kohdistetun kysynnän ja tarjonnan kanssa.  
@@ -265,7 +265,7 @@ Tälle on kaksi syytä:
 
 Ajan myötä dynaamisen tilauksen seurannan linkit ovat epätasapainossa, koska koko tilauksen seurantaverkko järjestetään uudelleen, kunnes kysyntä tai tarjonta suljetaan.  
 
-Ennen tarjonnan ja kysynnän täsmäytystä ohjelma poistaa kaikki olemassa olevat tilauksen seurantalinkit. Kun kysyntä- tai tarjontatapahtuma on suljettu, täsmäytyksen aikana muodostetaan uudet tilauksen seurantalinkit kysynnän ja tarjonnan välille.  
+Ennen tarjonnan ja kysynnän täsmäytystä sovellus poistaa kaikki olemassa olevat tilauksen seurantalinkit. Kun kysyntä- tai tarjontatapahtuma on suljettu, täsmäytyksen aikana muodostetaan uudet tilauksen seurantalinkit kysynnän ja tarjonnan välille.  
 
 > [!NOTE]  
 >  Vaikka nimikettä ei ole asetettu dynaamiseen tilauksen seurantaan, suunnittelujärjestelmä luo täsmäytetyt tilauksen seurantalinkit yllä kuvatulla tavalla.

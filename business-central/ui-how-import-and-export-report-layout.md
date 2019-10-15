@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 691a8af0a6b3646cc4cf6129fa99a9231bfd2324
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 5daf54251048137ca7829ef00d2f65c890b22b12
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248178"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315226"
 ---
 # <a name="import-and-export-a-report-or-document-layout"></a>Raporttien tai asiakirjojen asettelun tuonti ja vienti
 Voit tuoda ja viedä olemassa olevan mukautetun raporttiasettelun tiedostona tietokoneen tai verkon sijainnista ja sijaintiin. Voit esimerkiksi viedä raporttiasettelun ja lähettää sitten tiedoston toiselle henkilölle muokkausta varten. Kyseinen henkilö voi tehdä muutoksia asetteluun ja palauttaa tiedoston sinulle, jotta voit tuoda sen takaisin.  
@@ -54,4 +54,4 @@ Voit tuoda ja viedä olemassa olevan mukautetun raporttiasettelun tiedostona tie
 ## <a name="see-also"></a>Katso myös  
  [Raporttien mukautetun asettelun luominen ja muokkaaminen](ui-how-create-custom-report-layout.md)   
  [Raporttien ja asiakirjojen asettelujen hallinta](ui-manage-report-layouts.md)  
- [Raporttien ja eräajojen käsitteleminen](ui-work-report.md)    
+ [Raporttien, eräajojen ja XMLportien käsitteleminen](ui-work-report.md)    

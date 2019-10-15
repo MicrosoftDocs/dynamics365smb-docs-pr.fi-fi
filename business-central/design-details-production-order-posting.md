@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f15f965237401f668325ab1a10d1e154bf00254f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: e6379530eed2c0e3881dd951fbd09602360e5fad
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240324"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2306890"
 ---
 # <a name="design-details-production-order-posting"></a>Rakennetiedot: tuotantotilauksen kirjaus
 Kokoonpanotilauksen kirjauksen tavoin kulutetut komponentit ja käytetty koneaika muunnetaan ja tuotetaan tuotettuna nimikkeenä, kun tuotantotilaus on valmis. Lisätietoja on kohdassa [Rakennetiedot: Kokoonpanotilauksen kirjaus](design-details-assembly-order-posting.md). Kokoonpanotilausten kustannusvirta on kuitenkin yksinkertaisempi erityisesti sen vuoksi, että kokoonpanokustannuksen kirjaus tapahtuu vain kerran, joten se ei luo keskeneräisten töiden varastoa.

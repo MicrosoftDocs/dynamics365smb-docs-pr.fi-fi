@@ -1,5 +1,5 @@
 ---
-title: Vastaanottojen yhdistäminen | Microsoft Docs
+title: Tilattua suuremman nimikemäärän vastaanoton salliminen| Microsoft Docs
 description: Jos haluat laskuttaa useita ostovastaanottoja kerralla, voit käyttää Vastaanottojen yhdistämistoimintoa.
 services: project-madeira
 documentationcenter: ''
@@ -10,40 +10,26 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5e1b04cc998319cc835b5dcc1547723c48be6763
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 6076412504a8f9176503deced03ae92c7e8076c5
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252871"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2312434"
 ---
-# <a name="combine-receipts-on-a-single-invoice"></a>Vastaanottojen yhdistäminen yhteen laskuun
-Jos haluat laskuttaa useita ostovastaanottoja kerralla, voit käyttää **Vastaanottojen yhdistämistoimintoa**.  
+# <a name="allow-receipt-of-more-items-than-ordered"></a>Tilattua suuremman nimikemäärän vastaanoton salliminen
+Kun nimikkeitä vastaanotetaan tilattua suurempi määrä, haluat ehkä kuitenkin vastaanottaa ne vastaanoton peruuttamisen sijaan. Ylimenevä osa voi olla esimerkiksi halvempi varastoida kuin palauttaa tai toimittaa voi antaa alennuksen, jos pidät nimikkeet.
 
-Yhdistetyn vastaanoton voi luoda vasta, kun vähintään kaksi saman toimittajan ostokuittia on kirjattu samalla valuutalla. Toisin sanoen vähintään kaksi ostotilausta täytyy olla täytetty ja kirjattu vastaanotetuiksi (mutta ei laskutetuiksi).  
+Tilausten käsittelijöiden ja varastotyöntekijöiden on pystyttävä käsittelemään tällaisia ylivastaanottoja ilman aikaavievää uuden ostotilauksen valmistelu- ja hyväksymisprosessia.
 
-Kun ostovastaanotot yhdistetään laskuun ja kirjataan, askutetuille riveille luodaan kirjattu ostolasku. Alkuperäisen puiteostotilauksen ja/tai ostotilauksen **Laskutettu määrä** -kenttä päivitetään laskutetun määrän mukaan. Tätä alkuperäistä ostoasiakirjaa ei kuitenkaan ole poistettu, vaikka se on kokonaan vastaanotettu ja laskutettu. Sen vuoksi ostoasiakirja on poistettava.  
+## <a name="to-receive-more-items-than-specified-on-the-purchase-document"></a>Ostoasiakirjassa määritetyn määrän ylittävän nimikemäärän vastaanottaminen
 
-## <a name="to-combine-receipts"></a>Vastaanottojen yhdistäminen  
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostolaskut** ja valitse sitten liittyvä linkki.  
-2. Valitse **Uusi**-toiminto. Lisätietoja on kohdassa [Ostojen kirjaaminen](purchasing-how-record-purchases.md).  
-3. Valitse **Rivit**-pikavälilehdessä **Hae vast.oton rivit** -toiminto.  
-4. Valitse useat vastaanoton rivit, jotka haluat sisällyttää laskuun:  
-
-    Jos valitsit väärän vastaanoton rivin tai haluat aloittaa alusta, voit yksinkertaisesti poistaa rivit ostolaskusta ja suorittaa **Hae vast.oton rivit** -toiminnon uudelleen.  
-5. Kirjaa lasku valitsemalla **Kirjaa**-toiminto.  
-
-## <a name="to-remove-open-purchase-orders-after-combined-receipt-posting"></a>Poista avoin ostotilaus yhdistetyn vastaanoton kirjauksen jälkeen  
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poista laskutetut ostotilaukset** ja valitse sitten liittyvä linkki.  
-2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
-3. Valitse **OK**-painike.  
-
-Voit myös poistaa manuaalisesti yksittäiset tilaukset.
-
-Toista vaiheet 1–3 muissa käsiteltävissä asiakirjoissa, kuten puiteostotilauksissa.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostojen ja ostovelkojen asetukset** ja valitse sitten liittyvä linkki.
+2.   
 
 ## <a name="see-also"></a>Katso myös  
 [Osto](purchasing-manage-purchasing.md)  
+[Nimikkeiden vastaanottaminen](warehouse-how-receive-items.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)

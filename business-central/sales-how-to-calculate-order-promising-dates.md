@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 119c3df2f58f6aeb7ee6614a56b85c42724517c8
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 575d83652dde83c9b12358788a96d00c70ffcda3
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251536"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2316330"
 ---
 # <a name="calculate-order-promising-dates"></a>Toimituksen lupaamisen päivämäärien laskeminen
 Yrityksen on voitava ilmoittaa asiakkailleen tilauksen toimituksen päivämäärät. Voit tehdä tämän **Toimituksen lupaamisen rivit** -sivulla myyntitilauksen riviltä.  
@@ -135,7 +135,7 @@ Nimike on merkittävä kriittiseksi, ennen kuin sen voi sisällyttää toimituks
 
 ## <a name="to-calculate-an-order-promising-date"></a>Toimituksen lupaamisen päivämäärän laskeminen  
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaus** ja valitse sitten liittyvä linkki.  
-2.  Avaa asianmukainen myyntitilaus ja valitse myyntitilausrivit, jotka haluat ohjelman laskevan.  
+2.  Avaa asianmukainen myyntitilaus ja valitse myyntitilausrivit, jotka haluat sovelluksen laskevan.  
 3.  Valitse ensin **Toimituksen lupaaminen** -toiminto ja sitten **toimituksen lupaamisen rivit** -toiminto.  
 4.  Valitse ensin rivi ja sitten jokin seuraavista vaihtoehdoista:  
 

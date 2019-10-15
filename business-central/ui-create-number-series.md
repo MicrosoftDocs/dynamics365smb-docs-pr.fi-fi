@@ -9,17 +9,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: numbers, numbering
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a650bb8dec324e94801da828d7e967b514ae3ca1
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 65d4562e133d8fa2383bd1fb5092ea001d577396
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251375"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311402"
 ---
 # <a name="create-number-series"></a>Numerosarjojen luominen
 Jokaiselle yritykselle on määritettävä yksilölliset tunnuskoodit esimerkiksi pääkirjanpidon tilejä, asiakas- ja toimittajatilejä, laskuja ja muita asiakirjoja varten. Numerointi ei ole tärkeää pelkästään tunnistamisen kannalta. Hyvin suunniteltu numerointijärjestelmä helpottaa myös yrityksen hallittavuutta ja analysointia ja voi vähentää tietojen syötössä tapahtuvien virheiden määrää.
+
+> [!Important]
+> Numerosarjoissa ei oletusarvoisesti sallita aukkoja, koska lainsäädäntö edellyttää, että rahoitustapahtumien täsmällinen historia on oltava käytettävissä tilintarkastuksessa, minkä vuoksi järjestyksen on oltava katkeamaton ilman poistettuja numeroita.<br /><br />
+Jos haluat sallia aukot tietyissä numerosarjoissa, varmista ensin tilintarkistajalta tai talouspäälliköltä, että noudatat maan tai alueen lakisääteisiä vaatimuksia. Lisätietoja on kohdassa [Numerosarjojen aukot](ui-create-number-series.md#gaps-in-number-series).
 
 > [!NOTE]  
 >   On suositeltavaa käyttää niitä numerosarjan koodeja, jotka on mainittu CRONUS-esittely-yrityksen **Numerosarjaluettelo**-sivulla. Koodit, kuten *O-LASKU+*, eivät ehkä avaudu heti, mutta [!INCLUDE[d365fin](includes/d365fin_md.md)]issa on tiettyjä oletusasetuksia, jotka perustuvat näihin numerosarjan koodeihin.
@@ -30,6 +34,9 @@ Numerosarjat määritetään yleensä lisäämään seuraava peräkkäinen numer
 
 Jos haluat käyttää useita numerosarjakoodeja yhdelle perustietotyypille (esimerkiksi silloin, kun haluat eri numerosarjoja eri nimikeluokille), voit käyttää numerosarjasuhteita.
 
+## <a name="gaps-in-number-series"></a>Numerosarjojen aukot
+Kaikki [!INCLUDE[d365fin](includes/d365fin_md.md)]issa luotavat tietueet eivät ole rahoitustapahtumia, joissa on käytettävä peräkkäisiä numeroita. Esimerkiksi asiakaskortit, myyntitarjoukset ja varastotoiminnot ovat tietueita, joille määritetään numerosarjan mukainen numero mutta joita tilintarkastus ei koske ja/tai jotka voidaan poistaa. Tällaisissa numerosarjoissa **Salli välit numeroissa** -valintaruudun voi valita **Nrosarjojen rivit** -sivulla. Lisätietoja on kohdassa [Uuden numerosarjan luominen](ui-create-number-series.md#to-create-a-new-number-series).
+
 ## <a name="behavior-of-the-no-field-on-documents-and-cards"></a>Nro-kentän toiminta asiakirjoissa ja korteissa
 Myynti-, osto- ja siirtoasiakirjojen ja korttien **Nro** voidaan täyttää automaattisesti numerosarjasta tai manuaalisesti. Lisäksi voidaan määrittää näkymättömäksi.
 
@@ -38,9 +45,9 @@ Myynti-, osto- ja siirtoasiakirjojen ja korttien **Nro** voidaan täyttää auto
 1. Jos asiakirjantyypillä tai kortilla on vain yksi numerosarja, jossa **Oletusnrot**-valintaruutu on valittu mutta **Manuaaliset nrot** -valintaruutua ei ole valittu, kenttä täytetään automaattisesti sarjan seuraavalla numerolla. **Nro**-kenttä ei silloin näy.
 
     > [!NOTE]  
-    > Jos numerosarja ei toimi esimerkiksi siksi, että sen numerot ovat loppuneet, tällöin **Nro**-kenttä on näkyvissä ja voit kirjoittaa numeron manuaalisesti tai ratkaista ongelmat **Numerosarjaluettelo**-sivulla.
+    > Jos numerosarja ei toimi esimerkiksi siksi, että sen numerot ovat loppuneet, tällöin **Nro**-kenttä on näkyvissä ja voit kirjoittaa numeron manuaalisesti tai ratkaista ongelmat **Nrosarja**-sivulla.
 
-2. Jos asiakirjatyypillä tai kortilla on useita numerosarjoja eikä nykyisen kohdistetun numerosarjan **Oletusnrot**-valintaruutua ole valittu, **Nro**-kenttä näkyy ja voit valita käytettävän numerosarjan **Numerosarjaluettelo**-sivulla. Sarjan seuraava numero lisätään sitten **Nro** -kentässä.
+2. Jos asiakirjatyypillä tai kortilla on useita numerosarjoja eikä nykyisen kohdistetun numerosarjan **Oletusnrot**-valintaruutua ole valittu, **Nro**-kenttä näkyy ja voit valita käytettävän numerosarjan **Nrosarja**-sivulla. Sarjan seuraava numero lisätään sitten **Nro** -kentässä.
 
 3. Jos asiakirjatyypin tai kortin numerosarjaa ei ole määritetty tai jos numerosarjoille on valittu **Manuaaliset nrot** -kenttä, **Nro**-kenttä näkyy ja numerot on annettava manuaalisesti. Voit kirjoittaa enintään 20 merkkiä, sekä numeroita että kirjaimia.
 
@@ -53,6 +60,9 @@ Kun uuden asiakirjan tai kortin, jolla on jo numerosarja, vastaava **Numerosarja
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nrosarja** ja valitse sitten liittyvä linkki.
 2. Valitse **Uusi**-toiminto.
 3. Täytä tarvittavat uuden rivin kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. Valitse **Rivit**-toiminto.
+5. Määritä vaiheessa 2 luodun numerosarjan varsinainen käyttö ja sisältö täyttämällä **Nrosarjan rivit** -sivun kentät.
+6. Toista vaihe 5 niin monta kertaa kuin käytät numerosarjoja eri tavoin. **Aloituspvm**-kenttä määrittää, mikä numerosarjan rivi on aktiivinen.
 
 ## <a name="to-set-up-where-a-number-series-is-used"></a>Numerosarjan käyttökohteen määrittäminen
 Seuraavaksi selitetään, miten myyntialueen numerosarja määritetään. Myös muut alueet määritetään vastaavasti.

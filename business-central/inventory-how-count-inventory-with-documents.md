@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, status, negative, positive, increase, decrease
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 24b89662ed772280da8f5f8f08677f644f75922e
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 33710cd80ba1218ad59c98ec605bcba98c8b7e1c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240278"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309914"
 ---
 # <a name="count-inventory-using-documents"></a>Varastojen laskenta asiakirjoja käyttämällä
 Voit inventoida nimikkeet käyttämällä inventointitilauksen ja inventointitallennuksen asiakirjoja. **Inventointitilaus**-sivulla järjestetään täydellinen inventointiprojekti, kuten yksi kussakin toimipisteessä. **Inventointitallennus**-sivun avulla ilmoitetaan ja tallennetaan nimikkeiden varsinainen inventointi. Voit luoda yhdelle tilaukselle useita  tallenteita, jolloin voit esimerkiksi jakaa nimekeryhmiä eri työntekijöille.
@@ -94,7 +94,7 @@ Kun inventointitallennus on valmis, liittyvän inventointitilauksen **Tallennett
 
 Jos haluat nähdä odotetut määrät ja mahdolliset nimikeseurantaa käyttävien nimikkeiden tallennetut erot, valitse **Rivit**-toiminto. Valitse sitten **Nimikkeen seurantarivit** -toiminnolla erilaisia inventoinnissa mukana olevien sarja- ja eränumeroiden näkymiä.
 
-Voit valita myös **Inventointitilauksen erotus** -toiminnon, jos haluat tarkastella odotetun määrän ja lasketun määrän välisiä eroja.
+Voit valita myös **Inventointitilauksen erotus** -toiminnon ja tarkastella odotetun määrän ja lasketun määrän välisiä eroja.
 
 ### <a name="to-find-duplicate-physical-inventory-order-lines"></a>Inventointitilausrivien kaksoiskappaleiden löytäminen
 

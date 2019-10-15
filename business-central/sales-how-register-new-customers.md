@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client
-ms.date: 07/22/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 195ab393046d56611445d7cba9ed39cdbaf75454
-ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
+ms.openlocfilehash: e8fd2d876a148c1107b4db1d7c554a79e21bf53d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1796794"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2312122"
 ---
 # <a name="register-new-customers"></a>Uusien asiakkaiden rekisteröinti
 Asiakkaat ovat tulonlähteesi. Jokainen asiakas, jolle myyt, on rekisteröitävä asiakaskorttina. Asiakkaan kortit sisältävät tietoja, jotka tarvitaan tuotteiden asiakkaalle myymistä varten. Lisätietoja on kohdissa [Myynnin laskutus](sales-how-invoice-sales.md) ja [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md).  

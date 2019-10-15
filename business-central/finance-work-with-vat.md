@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
-ms.date: 07/24/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 09aa4b5f6e08265e49a02e3014ffe6724edfcffd
-ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
+ms.openlocfilehash: ab408bbef4e2fc9535eaa64e61a9e93d2d87378c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1796847"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301562"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Myynnin ja ostojen ALV:n käsitteleminen
 Jos maasi tai alueesi edellyttää arvonlisäveron (ALV:n) laskemista myynti- ja ostotapahtumille siten, että voit ilmoittaa summat veroviranomaiselle, voit määrittää [!INCLUDE[d365fin](includes/d365fin_md.md)]in laskemaan ALV:n automaattisesti myynti- ja ostoasiakirjoissa. Lisätietoja on kohdassa [Arvolisäveron laskelmien ja kirjausmenetelmien määrittäminen](finance-setup-vat.md).
@@ -35,17 +35,17 @@ Jos myyt kuluttajille, haluat ehkä sisällyttää ALV:n myyntiasiakirjoihin. Va
 ### <a name="including-or-excluding-vat-on-prices"></a>ALV:n sisällyttäminen hintoihin ja jättäminen pois
 Jos **Hinnat sisältävät ALV:n** -valintaruutu valintaan myyntiasiakirjassa, **Yksikköhinta**- ja **Rivisumma**-kentät päivitetään sisältämään ALV, mikä näkyy myös kenttien nimissä. ALV ei sisälly näihin kenttiin oletusarvoisesti.  
 
-Jos kenttää ei valita, ohjelma täyttää **Yksikköhinta**- ja **Rivisummat**-kentät ilman ALV:tä, mikä näkyy kenttien nimissä.  
+Jos kenttää ei valita, sovellus täyttää **Yksikköhinta**- ja **Rivisummat**-kentät ilman ALV:tä, mikä näkyy kenttien nimissä.  
 
-Voit määrittää **Hinnat sisältävät ALV:n** -valinnan oletusarvoksi kaikille tietyn asiakkaan myyntiasiakirjoille **asiakkaan** kortin **Hinnat sisältävät ALV:n** -kentässä. Voit myös määrittää, sisältävätkö nimikehinnat ALV:n. Normaalisti nimikkeen kortin sisältämät nimikehinnat eivät sisällä ALV:tä. Ohjelma määrittää **nimikkeen** kortin **Hinnat sisältävät ALV:n** -kentän perusteella yksikköhinnan myyntiasiakirjoja varten.  
+Voit määrittää **Hinnat sisältävät ALV:n** -valinnan oletusarvoksi kaikille tietyn asiakkaan myyntiasiakirjoille **asiakkaan** kortin **Hinnat sisältävät ALV:n** -kentässä. Voit myös määrittää, sisältävätkö nimikehinnat ALV:n. Normaalisti nimikkeen kortin sisältämät nimikehinnat eivät sisällä ALV:tä. Sovellus määrittää **Nimike**-kortin **Hinnat sisältävät ALV:n** -kentän perusteella yksikköhinnan myyntiasiakirjoja varten.  
 
-Seuraavassa taulukossa on yleiskuva siitä, kuinka ohjelma laskee yksikköhinnat myyntiasiakirjoja varten silloin, kun hintoja ei ole määritetty **Myyntihinnat**-sivulla:  
+Seuraavassa taulukossa on yleiskuvaus sovelluksen tavasta laskea yksikköhinnat myyntiasiakirjoja varten silloin, kun hintoja ei ole määritetty **Myyntihinnat**-sivulla:  
 
 |**Hinta sisältää ALV:n -kenttä nimikkeen kortissa**|**Hinnat sisältävät ALV:n -kenttä myyntiotsikossa**|**Suoritettava toiminto**|  
 |-----------------------------------------------|----------------------------------------------------|--------------------------|  
 |Ei valintamerkkiä|Ei valintamerkkiä|Nimikkeen kortin **Yksikköhinta** kopioidaan myyntirivien **Yksikköhinta Ilman ALV** -kenttään.|  
-|Ei valintamerkkiä|Valintamerkki|Ohjelma laskee yksikkökohtaisen ALV-summan ja lisää sen nimikkeen kortin **Yksikköhinta**-kenttään. Tämä yksikköhinnan kokonaissumma lisätään sitten myyntirivien **Yksikköhinta Sis. ALV** -kenttään.|  
-|Valintamerkki|Ei valintamerkkiä|Ohjelma laskee nimikkeen kortin **Yksikköhinnan** Liiketoim. ALV-kirjryh. (Hinta) ja Tuotteen ALV-kirjausryhmä -yhdistelmään liittyvän ALV-%:n avulla. Nimikkeen kortin **Yksikköhinta** lisätään sitten ALV-summalla vähennettynä myyntirivien **Yksikköhinta Ilman ALV** -kenttään.|  
+|Ei valintamerkkiä|Valintamerkki|Sovellus laskee yksikkökohtaisen ALV-summan ja lisää sen nimikekortin **Yksikköhinta**-kenttään. Tämä yksikköhinnan kokonaissumma lisätään sitten myyntirivien **Yksikköhinta Sis. ALV** -kenttään.|  
+|Valintamerkki|Ei valintamerkkiä|Sovellus laskee nimikekortin **Yksikköhinnan** Liiketoim. ALV-kirjryh. (Hinta) ja Tuotteen ALV-kirjausryhmä -yhdistelmään liittyvän ALV-%:n avulla. Nimikkeen kortin **Yksikköhinta** lisätään sitten ALV-summalla vähennettynä myyntirivien **Yksikköhinta Ilman ALV** -kenttään.|  
 |Valintamerkki|Valintamerkki|Nimikkeen kortin **Yksikköhinta** kopioidaan myyntirivien **Yksikköhinta Sis. ALV** -kenttään.|
 
 ## <a name="correcting-vat-amounts-manually-in-sales-and-purchase-documents"></a>Myynti- ja ostoasiakirjojen ALV-summien oikaisu manuaalisesti  
@@ -58,7 +58,7 @@ Jos maksualennus on laskettu ALV:n sisältävän laskusumman perusteella, ALV-su
 ### <a name="to-set-the-system-up-for-manual-vat-entry-in-sales-documents"></a>Järjestelmän määrittäminen myyntiasiakirjojen manuaalisille ALV-tapahtumille
 Seuraavaksi käsitellään manuaalisten ALV-muutosten ottamista käyttöön myyntiasiakirjoissa. **Ostojen ja ostovelkojen asetukset** -sivun vaiheet ovat samankaltaiset.
 
-1. Määritä **Pääkirjanpidon asetukset** -sivulla ohjelman laskeman summan ja manuaalisen summan **Maksimi sallittu ALV-ero**.  
+1. Määritä **Pääkirjanpidon asetukset** -sivulla sovelluksen laskeman summan ja manuaalisen summan **Maksimi sallittu ALV-ero**.  
 2. Lisää **Myyntien ja myyntisaamisten asetukset** -sivulla valintamerkki **Salli ALV-ero** -kenttään.  
 
 ### <a name="to-adjust-vat-for-a-sales-document"></a>Myyntiasiakirjan ALV:n muuttaminen:  
@@ -68,7 +68,7 @@ Seuraavaksi käsitellään manuaalisten ALV-muutosten ottamista käyttöön myyn
 4. Muokkaa **ALV-summa**-kenttää.   
 
 > [!NOTE]  
-> Riveillä näkyy laskun ALV-kokonaissumma ALV-tunnuksen mukaan ryhmiteltynä. Voit manuaalisesti muuttaa **ALV-summa**-kentän summaa kunkin ALV-tunnuksen rivillä. Kun muokkaat **ALV-summa**-kenttää, ohjelma tarkistaa, ettei ALV:tä ole muutettu enempää kuin määrittämäsi suurimman sallitun eron verran. Jos ero on suurempi kuin **Maksimi sallittu ALV-ero**, näyttöön tulee varoitus, joka ilmoittaa suurimmasta sallitusta erosta. Et voi jatkaa, ennen kuin määrä muutetaan asetettujen rajojen sallimaksi. Valitse **OK** ja lisää uusi **ALV-summa**, joka on sallitun vaihteluvälin sisällä. Jos ALV-ero on sama tai pienempi kuin suurin sallittu ero, ALV jaetaan suhteellisesti asiakirjan sellaisten rivien kanssa, joilla on sama ALV-tunnus.  
+> Riveillä näkyy laskun ALV-kokonaissumma ALV-tunnuksen mukaan ryhmiteltynä. Voit manuaalisesti muuttaa **ALV-summa**-kentän summaa kunkin ALV-tunnuksen rivillä. Kun muokkaat **ALV-summa**-kenttää, sovellus tarkistaa, ettei ALV:tä ole muutettu enempää kuin määrittämäsi suurimman sallitun eron verran. Jos ero on suurempi kuin **Maksimi sallittu ALV-ero**, näyttöön tulee varoitus, joka ilmoittaa suurimmasta sallitusta erosta. Et voi jatkaa, ennen kuin määrä muutetaan asetettujen rajojen sallimaksi. Valitse **OK** ja lisää uusi **ALV-summa**, joka on sallitun vaihteluvälin sisällä. Jos ALV-ero on sama tai pienempi kuin suurin sallittu ero, ALV jaetaan suhteellisesti asiakirjan sellaisten rivien kanssa, joilla on sama ALV-tunnus.  
 
 ## <a name="calculating-vat-manually-using-journals"></a>ALV:n laskeminen manuaalisesti päiväkirjojen avulla  
 Voit oikaista ALV-summia myös at yleisessä päiväkirjassa sekä myynti- ja ostopäiväkirjoissa. Näin on ehkä toimittava esimerkiksi silloin, kun lisäät päiväkirjaan toimittajan laskun ja [!INCLUDE[d365fin](includes/d365fin_md.md)]in laskema ALV-summa eroaa toimittajan laskun ALV-summasta.  
@@ -76,7 +76,7 @@ Voit oikaista ALV-summia myös at yleisessä päiväkirjassa sekä myynti- ja os
 ### <a name="to-set-the-system-up-for-manual-vat-entry-in-a-general-journals"></a>Järjestelmän määrittäminen yleisen päiväkirjan manuaalisille ALV-tapahtumille
 Seuraavat vaiheet on tehtävä, ennen kuin ALV kirjataan manuaalisesti yleisessä päiväkirjassa.  
 
-1. Määritä **Pääkirjanpidon asetukset** -sivulla ohjelman laskeman summan ja manuaalisen summan **Maksimi sallittu ALV-ero**.  
+1. Määritä **Pääkirjanpidon asetukset** -sivulla sovelluksen laskeman summan ja manuaalisen summan **Maksimi sallittu ALV-ero**.  
 2. Valitse **Yleisen päiväkirjan mallit** -sivulla käsiteltävän päiväkirjan **Salli ALV-ero** -valintaruutu.  
 
 ### <a name="to-set-the-system-up-for-manual-vat-entry-in-a-sales-and-purchase-journals"></a>Järjestelmän määrittäminen myynti- ja ostopäiväkirjojen manuaalisille ALV-tapahtumille

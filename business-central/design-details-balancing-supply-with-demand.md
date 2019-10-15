@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
-ms.openlocfilehash: 13ab8097b9c6d75f838a58c347af31d560fa9374
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 1bef0ad2a94e64ecf95614707b6746e6a381fcb0
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1242880"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307394"
 ---
 # <a name="design-details-balancing-supply-with-demand"></a>Rakennetiedot: tarjonnan täsmäytys kysynnällä
 Suunnittelujärjestelmän ydin vaatii kysynnän ja tarjonnan tasapainotusta ehdottamalla käyttäjän toimenpiteitä tarkastamaan varastotilaukset epätasapainon välttämiseksi. Tämä tapahtuu variantin ja sijainnin yhdistelmän perusteella.  
@@ -109,7 +109,7 @@ Tälle on kaksi syytä:
 
 Ajan myötä dynaamisen tilauksen seurannan linkit ovat epätasapainossa, koska koko tilauksen seurantaverkko järjestetään uudelleen, kunnes kysyntä tai tarjonta suljetaan.  
 
-Ennen tarjonnan ja kysynnän täsmäytystä ohjelma poistaa kaikki olemassa olevat tilauksen seurantalinkit. Kun kysyntä- tai tarjontatapahtuma on suljettu, täsmäytyksen aikana muodostetaan uudet tilauksen seurantalinkit kysynnän ja tarjonnan välille.  
+Ennen tarjonnan ja kysynnän täsmäytystä sovellus poistaa kaikki olemassa olevat tilauksen seurantalinkit. Kun kysyntä- tai tarjontatapahtuma on suljettu, täsmäytyksen aikana muodostetaan uudet tilauksen seurantalinkit kysynnän ja tarjonnan välille.  
 
 > [!NOTE]  
 >  Vaikka nimikettä ei ole asetettu dynaamiseen tilauksen seurantaan, suunnittelujärjestelmä luo täsmäytetyt tilauksen seurantalinkit yllä kuvatulla tavalla.  

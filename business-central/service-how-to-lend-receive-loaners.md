@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 9b48cbf20e5324c4d347caf1a60cb9bc296aaaff
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: ab7950ca4b7d9239c6ab011fcff8a34392f8b800
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250639"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311666"
 ---
 # <a name="lend-and-receive-loaners"></a>Lainatavaroiden lainaaminen ja vastaanottaminen
 Asiakkaille voi lainata lainatavaroita väliaikaisesti niiden huoltonimikkeiden tilalle, jotka olet vastaanottanut huollettavaksi.  

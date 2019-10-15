@@ -9,22 +9,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.date: 09/17/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 96471b07d48120db7fda5e48a14c9ca0147688fb
-ms.sourcegitcommit: 7ce8005806465417c7040c61da1d6cada29cd9c0
+ms.openlocfilehash: 22014c6df6ccffa08ff2fed25d40ce4c0312d57d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "2000761"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315586"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Kalenterin päivämäärien ja aikojen käsitteleminen
 
 [!INCLUDE[d365fin](includes/d365fin_long_md.md)] sisältää useita tapoja päivämäärien ja aikojen syöttämiseen sekä tehokkaita toimintoja, jotka nopeuttavat tietojen syöttämistä ja helpottavat monimutkaisten kalenterilausekkeiden kirjoittamista. Sovelluksessa on useita kohtia, joissa voi syöttää päivämääriä ja aikoja kenttiin. Esimerkiksi myyntitilauksessa voi määrittää lähetyspäivämäärän. Voit syöttää päivämäärät ja ajat luetteloiden tai raportin tietojen suodattamisen yhteydessä ja etsiä vain tiedot, joista olet kiinnostunut.
 
 ## <a name="check-your-region-and-language-settings"></a>Alueen ja kielen asetusten tarkistaminen
-
-[**Omat asetukset**](https://businesscentral.dynamics.com?page=9176 "Siirry suoraan Business Central -sovelluksen käyttäjäasetusten sivulle") -sivulla määritetään sovelluksessa käytettävä **alue** ja **kieli**. Nämä asetukset vaikuttavat päivämäärien ja aikojen syöttötapaan.
+**Omat asetukset** -sivulla määritetään sovelluksessa käytettävä **alue** ja **kieli**. Nämä asetukset vaikuttavat päivämäärien ja aikojen syöttötapaan.
 
 -   **Alue**-asetus määrittää, miten päivämäärät, ajat, luvut ja valuutat näkyvät tai miten ne on muotoiltu.
 
@@ -85,7 +84,7 @@ Kirjanpitojaksot määritetään **Kirjanpitojaksot**-sivulla. Voit tarkastella 
 
 Käsittelypäivämäärän toiminnon avulla voit tallentaa käännökset muun kuin nykyisen päivämäärän avulla.
 
-Käsittelypäivämäärä-sana **Kieli**-asetuksen määrittämällä kielellä määrittää nykyisen käsittelypäivämäärän, joka on määritetty [**Omat asetukset**](https://businesscentral.dynamics.com?page=9176 "Siirry suoraan Business Central -sovelluksen käyttäjäasetusten sivulle") -sivulla. Sen sijaan, että syötät koko sanan, voit syöttää sanan alkuosan, esimerkiksi k, kun sana on käsittely.
+Käsittelypäivämäärä-sana **Kieli**-asetuksen määrittämällä kielellä määrittää nykyisen käsittelypäivämäärän, joka on määritetty **Omat asetukset** -sivulla. Sen sijaan, että syötät koko sanan, voit syöttää sanan alkuosan, esimerkiksi k, kun sana on käsittely.
 
 Jos et ole määrittänyt käsittelypäivämäärää, nykyistä päivämäärää käytetään käsittelypäivämääränä. Haluat ehkä käyttää käsittelypäivämäärää, jos sellaisia tapahtumia on paljon, joissa on jokin muu kuin tämän päivän päivämäärä.
 
@@ -129,8 +128,8 @@ Luetteloissa, kokonaissummissa ja raporteissa voi määrittää suodattimia päi
 |**Merkitys**|**Esimerkkilauseke (pvm)**|**Suodatukseen sisällytettävät tiedot**|
 |-----------|---------------------|--------------------|
 |Väli|15.12.00-15.1.01<br /><br />-15.12.00<br /><br />j1-j4|Tietueet, joiden päivämäärät ovat välillä 15.12.00 ja 15.1.01 kyseiset päivät mukaan lukien.<br /><br />Tietueet, joiden päivämäärä on 15.12.00 tai aiempi.<br /><br />Päivämääräalue, joka sisältää toisen, kolmannen ja neljännen kirjanpitojakson, kuten 1.1.20-30.4.20.|
-|Joko/tai|15.12.00|16.12.00|Tietueet, joiden päivämäärät ovat 15.12.00 tai 16.12.00. Myös tietueet, joilla on molemmat päivämäärät, näytetään.|
-|Yhdistelmä|15.12.00|1.12.00-10.12.00  \n-14.12.00|30.12.00-|Tietueet, joiden päivämäärät ovat 15.12.00 tai 01.12.00 ja 10.12.00 sekä niiden välisenä aikana.  \Tietueet, joiden päivämäärä on 14.12.00 tai sitä aiempi, tai 30.12.00 tai sitä myöhempi. Toisin sanoen kaikki tietueet paitsi ne, joiden päivämäärä sijoittuu välille 15.12.00 ja 20.12.00 kyseiset päivät mukaan lukien.|
+|Joko/tai|12 15 00\|12 16 00|Tietueet, joiden päivämäärät ovat 15.12.00 tai 16.12.00. Myös tietueet, joilla on molemmat päivämäärät, näytetään.|
+|Yhdistelmä|12 15 00\|12 01 00..12 10 00  <br /><br />..12 14 00\|12 30 00..|Tietueet, joiden päivämäärät ovat 15.12.00 tai 01.12.00 ja 10.12.00 sekä niiden välisenä aikana.  <br /><br />Tietueet, joiden päivämäärä on 12 14 00 tai sitä aiempi, tai 12 30 00 tai sitä myöhempi. Toisin sanoen kaikki tietueet paitsi ne, joiden päivämäärä sijoittuu välille 12 15 00 ja 12 29 00 kyseiset päivät mukaan lukien.|
 
 Voit käyttää päivämääräalueiden suodattimissa mitä tahansa sallittua muotoa. Jos esimerkiksi päivämäärän ja ajan kentässä käytetään arvoa ma14 3..t 4j, tuloksena on suodatin, joka käsittää aikavälin kuluvan käsittelypäivämäärän vuoden viikon 14 maanantaista kello 3:00 kuluvaan päivään kello 16:00 kyseiset ajankohdat mukaan lukien.
 

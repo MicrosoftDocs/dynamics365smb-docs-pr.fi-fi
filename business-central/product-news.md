@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.search.keywords: news, release plan, roadmap, whats new
-ms.date: 07/17/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: a8f9efbf60f7e0d700453508a3f64b6b369ecd62
-ms.sourcegitcommit: b4fb54af9ed2e51479bb5293f86290c0de78858c
+ms.openlocfilehash: edcd3cdef966b8163b5c6a46c66337dd90812a67
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "1756013"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313538"
 ---
 # <a name="whats-new-in-dynamics-365-business-central"></a>Dynamics 365 Business Centralin uudet ominaisuudet
 
@@ -28,7 +28,7 @@ Jos haluat nähdä kaikki [!INCLUDE[d365fin](includes/d365fin_md.md)] -kumppanei
 
 ## <a name="check-the-dynamics-365-blog"></a>Dynamics 365 -blogiin tutustuminen
 
-Uusia ominaisuuksia käsitellään [Dynamics 365 -blogissa](https://cloudblogs.microsoft.com/dynamics365/users/product/business-central/) – esimerkiksi milloin ne tulevat saataville ja onko huomioon otettavia seikkoja.  
+Uusia ominaisuuksia käsitellään [Dynamics 365 -blogissa](https://cloudblogs.microsoft.com/dynamics365/) – esimerkiksi milloin ne tulevat saataville ja onko huomioon otettavia seikkoja.  
 
 Kumppaniyhteisöjä koskevia tietoja julkaistaan [Microsoft Dynamics 365 Business Centralia koskevassa kumppanien Dynamics 365 -blogissa](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) ja [[!INCLUDE [prodshort](includes/prodshort.md)]in kehittäjien ja IT-ammattilaisten ohjeessa ](/dynamics365/business-central/dev-itpro/index).  
 

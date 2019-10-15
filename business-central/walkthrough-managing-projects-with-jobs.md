@@ -10,17 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 570e001eb0f412599d66bda098563f772570cd29
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c50646a8e1f56d95256271f64ecf7dfb4992e4ce
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249627"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314818"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Vaihekuvaus: Projektinhallinta Projektit-sovellusalueen avulla
-Tässä vaihekuvauksessa esitellään projektitöiden projektinhallintatoiminnot. Projektien avulla voit laatia yrityksen resurssien käyttöön liittyviä aikatauluja ja seurata tietyn projektin resursseihin liittyviä kustannuksia. Projekteissa kuluu esimerkiksi työntekijöiden työtunteja, koneiden käyttötunteja ja varastonimikkeitä, joita täytyy seurata projektin edetessä.  
+
+**Huomautus**: Tämä vaihekuvaus on suoritettava esittely-yrityksessä siten, että asetuksena on **Täydellinen arviointi - Kaikki mallitiedot**, joka on käytettävissä Sandbox-ympäristössä. Lisätietoja on kohdassa [Sandbox-ympäristön luominen](across-how-create-sandbox-environment.md).
+
+Tässä vaihekuvauksessa esitellään töiden projektinhallintatoiminnot. Projektien avulla voit laatia yrityksen resurssien käyttöön liittyviä aikatauluja ja seurata tietyn projektin resursseihin liittyviä kustannuksia. Projekteissa kuluu esimerkiksi työntekijöiden työtunteja, koneiden käyttötunteja ja varastonimikkeitä, joita täytyy seurata projektin edetessä.  
 
  Tässä vaihekuvauksessa käsitellään uusien projektien määrittämistä moduulissa sekä joitakin tavanomaisia tehtäviä, joita ovat esimerkiksi kiinteän hinnoittelun käsittely, maksujen suorittaminen osamaksuina, projektien laskujen kirjaaminen sekä projektien kopioiminen.  
 
@@ -84,7 +87,7 @@ Tämä vaihekuvaus keskittyy suunnittelu- ja konsulttiyritykseen CRONUS Finland 
     - **Nimi**: **Marianne**  
     - **Tyyppi**: **Henkilö**  
 
-4.  Valitse **Perusmittayksikkö** -kenttä ja avaa sitten **Resurssin mittayksikkö** -sivu valitsemalla **Uusi**. Valitse **Tyyppi**-kentässä **Tunti**. Valitse **OK**-painike.  
+4.  Valitse **Perusmittayksikkö** -kenttä ja avaa sitten **Resurssin mittayksikkö** -sivu valitsemalla **Uusi**. Valitse **Tyyppi**-kentässä **Tunti**.  
 5.  Lisää seuraavat tiedot **Laskutus**-pikavälilehteen:  
 
     -   **Välitön yksikkökustannus**: **5**  
@@ -93,9 +96,9 @@ Tämä vaihekuvaus keskittyy suunnittelu- ja konsulttiyritykseen CRONUS Finland 
     -   **Yleinen tuotteen kirjausryhmä**: **Palvelut**  
     -   **Tuotteen ALV-kirjausryhmä**: **ALV 25**  
 
-6.  Tallenna muutokset valitsemalla **OK**-painike.  
+6. Sulje sivu.
 
- Seuraavassa toimenpiteessä luot projektipäiväkirjan erän Mariannea varten, jotta hän voi kirjata käyttönsä.  
+Seuraavassa toimenpiteessä luot projektipäiväkirjan erän Mariannea varten, jotta hän voi kirjata käyttönsä.  
 
 ### <a name="to-create-a-job-journal-batch"></a>Luo uusi päiväkirjan erä.  
 
@@ -107,7 +110,7 @@ Tämä vaihekuvaus keskittyy suunnittelu- ja konsulttiyritykseen CRONUS Finland 
     -   **Kuvaus**: **Marianne**  
     -   **Nrosarja**: **PPVK-YLEIN**.  
 
-4.  Valitse **OK**-painike, jos haluat sulkea kaikki avoimet sivut.  
+4.  Tallenna muutokset valitsemalla **OK**-painike.
 
 ## <a name="setting-up-a-job"></a>Projektin määrittäminen  
  Tässä skenaariossa CRONUS on voittanut sopimuksen Progressive Home Furnishings -yrityksen kanssa, jonka kanssa on päästy sopimukseen neuvottelusalin ja ruokasalin suunnittelemisesta. Asiakkaan tilat ovat Yhdysvalloissa, ja projektissa tarvitaan erityistä ohjelmistoa. Projektipäällikkö pääsee asiakkaan sopimukseen ja sopimuksen keston kattava projekti luodaan.  
@@ -123,7 +126,7 @@ Tämä vaihekuvaus keskittyy suunnittelu- ja konsulttiyritykseen CRONUS Finland 
 
 4.  Lisää seuraavat tiedot **Kirjaus**-pikavälilehteen:  
 
-    -   **Tila**: **Tilaus**  
+    -   **Tila**: **Suunnittelu**  
     -   **Projektin kirjausryhmä**: **As. määr.**  
     -   **KET-menetelmä**: **Kustannusarvo**  
 
@@ -140,21 +143,21 @@ Tämä vaihekuvaus keskittyy suunnittelu- ja konsulttiyritykseen CRONUS Finland 
     -   **Koodi**: **Marianne**  
     -   **Yksikköhinta**: **20**  
 
-3.  Sulje sivu valitsemalla **OK**-painike.  
+3.  Sulje sivu.  
 4.  Valitse **Nimike**-toiminto.  
 5.  Lisää seuraavat tiedot ja mukautettu hinta **Projektinimikkeiden hinnat** -sivulle:  
 
     1.  **Nimikkeen nro**: **80201 (Grafiikkaohjelma)**  
     2.  **Yksikköhinta**: **200**  
 
-6.  Sulje sivu valitsemalla **OK**-painike.  
+6.  Sulje sivu.  
 7.  Valitse **KP-tili**-toiminto.  
 8.  Anna **Projektin kirjanpitotilin hinnat** -sivulla seuraavat tiedot ja matkan kustannus, jonka asiakas on luvannut maksaa, plus 25 %:  
 
     1.  **KP-tili**: **8430 (Matka)**  
     2.  **Yksikkökustannustekijä**: **1,25**.  
 
-9. Sulje sivu valitsemalla **OK**-painike.  
+9. Sulje sivu.  
 
  Projektin määrittämisen viimeisiä askeleita ovat projektin tehtävien sekä jokaisen tehtävän suunnittelurivien lisääminen. Nämä suunnittelurivit määrittävät, mitä asiakkaalta laskutetaan.  
 
@@ -176,9 +179,9 @@ Tämä vaihekuvaus keskittyy suunnittelu- ja konsulttiyritykseen CRONUS Finland 
 
 -   **Aikataulu**: Lisätty aikatauluun, mutta ei laskutettu.  
 -   **Sopimus**: laskutettu, mutta ei lisätty aikatauluun.  
--   **Aikataulu ja sopimus**: laskutettu ja lisätty aikatauluun.  
+-   **Sekä budjetti että laskutettava**: laskutettu ja lisätty aikatauluun.  
 
- Tässä vaihekuvauksessa projektipäällikkö käyttää **Sekä aikataulu että sopimus** -toimintoa. Hän luo tehtävälle 1010 kolme suunnitteluriviä ja tehtävälle 1020 kaksi suunnitteluriviä.  
+ Tässä vaihekuvauksessa projektipäällikön käytössä on **Sekä budjetti että laskutettava**. Hän luo tehtävälle 1010 kolme suunnitteluriviä ja tehtävälle 1020 kaksi suunnitteluriviä.  
 
 ### <a name="to-create-planning-lines"></a>Luo suunnittelurivit  
 
@@ -186,7 +189,7 @@ Tämä vaihekuvaus keskittyy suunnittelu- ja konsulttiyritykseen CRONUS Finland 
 
      **Rivi 1**  
 
-    -   **Rivityyppi**: **Sekä aikataulu että sopimus**  
+    -   **Rivityyppi**: **Sekä budjetti että laskutettava**  
     -   **Suunnittelupäivämäärä**:**(kuluva päivämäärä)**  
     -   **Tyyppi**: **Resurssi**  
     -   **Nro:**: **Marianne**  
@@ -194,41 +197,41 @@ Tämä vaihekuvaus keskittyy suunnittelu- ja konsulttiyritykseen CRONUS Finland 
 
      **Rivi 2**  
 
-    -   **Rivityyppi**: **Sekä aikataulu että sopimus**  
-    -   **Suunnittelupäivämäärä**:**(kuluva päivämäärä)**  
+    -   **Rivityyppi**: **Sekä budjetti että laskutettava**  
+    -   **Suunnittelupäivämäärä**: **(kuluva päivämäärä)**  
     -   **Tyyppi**: **Resurssi**  
     -   **Nro**: **Teemu**  
     -   **Määrä**: **40**  
 
      **Rivi 3**  
 
-    -   **Rivityyppi**: **Sekä aikataulu että sopimus**  
-    -   **Suunnittelupäivämäärä**:**(kuluva päivämäärä)**  
+    -   **Rivityyppi**: **Sekä budjetti että laskutettava**  
+    -   **Suunnittelupäivämäärä**: **(kuluva päivämäärä)**  
     -   **Tyyppi**: **KP-tili**  
     -   **Nro**: **8430 (Matka)**  
     -   **Määrä**: **2**  
     -   **Yksikkökustannus**: **400**  
 
-2.  Sulje sivu valitsemalla **OK**-painike. Summat on päivitetty **Projektitehtävärivit**-sivulla.  
-3.  Valitse ensin rivi 1020 ja sitten **Projektin suunnittelurivit** -toiminto. Anna seuraavat tiedot:  
+2.  Sulje sivu. Summat on päivitetty **Projektitehtävärivit**-sivulla.  
+3.  Valitse ensin rivi 1020 ja sitten **Projektin suunnittelurivit** -toiminto. Lisää seuraavat tiedot:  
 
      **Rivi 1**  
 
-    -   **Rivityyppi**: **Sekä aikataulu että sopimus**  
-    -   **Suunnittelupäivämäärä**:**(kuluva päivämäärä)**  
+    -   **Rivityyppi**: **Sekä budjetti että laskutettava**  
+    -   **Suunnittelupäivämäärä**: **(kuluva päivämäärä)**  
     -   **Tyyppi**: **Resurssi**  
     -   **Nro:**: **Marianne**  
     -   **Määrä**: **80**  
 
      **Rivi 2**  
 
-    -   **Rivityyppi**: **Sekä aikataulu että sopimus**  
-    -   **Suunnittelupäivämäärä**:**(kuluva päivämäärä)**  
+    -   **Rivityyppi**: **Sekä budjetti että laskutettava**  
+    -   **Suunnittelupäivämäärä**: **(kuluva päivämäärä)**  
     -   **Tyyppi**: **Nimike**  
     -   **Nro**: **80201 (Grafiikkaohjelma)**  
     -   **Määrä**: **1**  
 
-4.  Sulje sivu valitsemalla **OK**-painike. Summat on päivitetty **Projektitehtävärivit**-sivulla.  
+4.  Sulje sivu. Summat on päivitetty **Projektitehtävärivit**-sivulla.  
 
 ## <a name="calculating-remaining-usage"></a>Jäljellä olevan käytön laskeminen  
  Marianne, projektiryhmän jäsen, on tehnyt työtä projektissa jonkin aikaa ja haluaa rekisteröidä omat tuntinsa ja käytön projektissa. Työmäärä ja käyttö eivät ole ylittäneet asiakkaan kanssa sovittua määrää. Hän laskee **Laske jäljellä oleva käyttö** -eräajon avulla projektin jäljellä olevan käytön projektipäiväkirjaan. Erätyö laskee kullekin tehtävälle nimikkeiden, resurssien ja kirjanpitokustannusten suunnitellun käytön ja projektitapahtumiin kirjatun todellisen käytön välisen eron. Jäljellä oleva käyttö tulee näkyviin projektipäiväkirjaan, josta sen voi kirjata.  
@@ -244,7 +247,8 @@ Tämä vaihekuvaus keskittyy suunnittelu- ja konsulttiyritykseen CRONUS Finland 
 7.  Valitse **OK**-painike. Kaikki Thomasin projektipäiväkirjaan luomista suunnitteluriveistä johdetut ehdotetut rivit tuodaan.  
 8.  Valitse vahvistussivulla **OK**-painike. Luodut rivit lisätään projektipäiväkirjaan.  
 9. Varmista, että kaikki asiakirjan numerot ovat J00001. Valitse sitten **Kirjaa**-toiminto. Vahvista kirjaus valitsemalla **Kyllä**.  
-10. Rivit kirjataan. Sulje sivut valitsemalla **OK**-painike.  
+
+Rivit kirjataan.  
 
 ## <a name="creating-and-posting-a-job-sales-invoice"></a>Projektin myyntilaskun luominen ja kirjaaminen  
  Seuraavaksi Marianne voi luoda uuden laskun koko projektia tai projektin osaa varten. Voit myös liittää laskun saman asiakkaan toiseen, samaa projektia koskevaan laskuun. Tällöin hän laskuttaa koko projektista, koska projekti on nyt valmis.  
@@ -255,7 +259,7 @@ Tämä vaihekuvaus keskittyy suunnittelu- ja konsulttiyritykseen CRONUS Finland 
 2.  Valitse ensin aiemmin luotu projekti ja sitten **Luo projektin myyntilasku** -toiminto.  
 3.  Tyhjennä **Projektitehtävä**-pikavälilehden **Projektitehtävänro**-kentässä kaikki suodattimet, jotta työ voidaan laskuttaa. Valitse **Projektinro**-kentässä asianmukainen projekti.  
 4.  Anna **Vaihtoehdot**-pikavälilehdessä kirjauspäivämäärä ja määritä, haluatko luoda yhden laskun tehtävää kohti vai yhden laskun kaikille tehtäville.  
-5.  Valitse **OK**-painike luodaksesi laskun ja valitse sitten **OK**-painike vahvistussivulla.  
+5.  Luo lasku valitsemalla **OK**-painike ja valitse sitten **OK**-painike vahvistussivulla.  
 
  Kun Tiina on luonut laskun, hän voi käyttää sitä **Myynti ja markkinointi** -kohdassa  **Tilauksen käsittely** -osassa ja suorittaa lisätoimia.  
 
@@ -293,16 +297,16 @@ Tämä vaihekuvaus keskittyy suunnittelu- ja konsulttiyritykseen CRONUS Finland 
 4.  Valitse **Projektitehtävärivit**-sivulla ensin rivi 1120 ja sitten **Projektin suunnittelurivit** -toiminto.  
 5.  Valitse **Uusi**, jos haluat luoda uuden rivin, jolla ovat seuraavat tiedot:  
 
-    -   **Rivityyppi**: **Sekä aikataulu että sopimus**  
+    -   **Rivityyppi**: **Sekä budjetti että laskutettava**  
     -   **Tyyppi**: **Resurssi**  
     -   **Nro:**: **Marianne**  
     -   **Määrä**: **30**  
 
-7.  Sulje sivu valitsemalla **OK**-painike.  
+7.  Sulje sivu.  
 8.  Kaksoisnapsauta **Aikataulu (kokonaiskustannus)** -kentässä hiiren kakkospainikkeella ja valitse uudelleen **Siirtyminen** uudelleen **Projektitehtävärivit**-sivulla. Tarkastele muutoksia aikatauluun. Kuten huomaat, aikatauluun on lisätty 30 tuntia.  
-9. Sulje sivut valitsemalla **OK**-painike.  
+9. Sulje sivut.  
 
- Kun Marianne on lisätty aikatauluun tämän tehtävärivin osalta, hän työskentelee projektissa 25 tuntia. Hän lisää nämä tunnit projektipäiväkirjaan.  
+Kun Marianne on lisätty aikatauluun tämän tehtävärivin osalta, hän työskentelee projektissa 25 tuntia. Hän lisää nämä tunnit projektipäiväkirjaan.  
 
 ### <a name="to-enter-hours-in-the-job-journal"></a>Tuntien lisääminen projektipäiväkirjaan  
 
@@ -333,9 +337,11 @@ Tämä vaihekuvaus keskittyy suunnittelu- ja konsulttiyritykseen CRONUS Finland 
     -   **Projektinro**: **Espoo**  
     -   **Projektitehtävänro**: **1120**  
 
-     Suorita laskenta valitsemalla **OK**. Mariannen työpäivässä on jäljellä viisi tuntia. **Rivityyppi**-kenttä on tyhjä sen merkiksi, että vain käyttö pysyy kirjattuna, koska työ on jo ajoitettu.  
+7. Suorita laskenta valitsemalla **OK**.
 
-7.  Luo **Projektipäiväkirjan erät** -ikkunassa uusi rivi, jolla on seuraavat tiedot: Varmista, että projektinumerot ovat järjestyksessä seuraavina niistä, joita olet jo käyttänyt:  
+    Mariannen työpäivässä on jäljellä viisi tuntia. **Rivityyppi**-kenttä on tyhjä sen merkiksi, että vain käyttö pysyy kirjattuna, koska työ on jo ajoitettu.  
+
+8.  Luo **Projektipäiväkirjan erät** -ikkunassa uusi rivi, jolla on seuraavat tiedot: Varmista, että projektinumerot ovat järjestyksessä seuraavina niistä, joita olet jo käyttänyt:  
 
     -   **Rivityyppi**: **Aikataulu**  
     -   **Projektinro**: **Espoo**  
@@ -346,17 +352,17 @@ Tämä vaihekuvaus keskittyy suunnittelu- ja konsulttiyritykseen CRONUS Finland 
 
      Kun käytät **Aikataulu**-rivityyppiä, ohjelma päivittää ajoitetut kustannukset ja hinnat päivittämättä asiakkaalta laskutettavia sopimuskustannuksia ja -hintoja.  
 
-8.  Valitse **Kirjaa**-toiminto. Sulje sivu valitsemalla **OK**-painike.  
-9. Avaa **Projektit** -luettelo.  
-10. Valitse ensin ESPOO-projekti ja sitten **Projektitehtävärivit**-toiminto.  
-11. Valitse rivi 1120 ja napsauta **Aikataulu (kokonaiskustannus)** -kentän summaa hiiren kakkospainikkeella. Tarkastele tietoja valitsemalla **Siirtyminen**.  
+9.  Valitse **Kirjaa**-toiminto. Sulje sivu valitsemalla **OK**-painike.  
+10. Avaa **Projektit** -luettelo.  
+11. Valitse ensin ESPOO-projekti ja sitten **Projektitehtävärivit**-toiminto.  
+12. Valitse rivi 1120 ja napsauta **Aikataulu (kokonaiskustannus)** -kentän summaa hiiren kakkospainikkeella. Tarkastele tietoja valitsemalla **Siirtyminen**.  
 
      Muutokset lisätään automaattisesti projektitehtävänumeron 1120 riville. Marianne on lisännyt viisi lisätuntia aikataulun ajoitetun työn kokonaiskustannukseen.  
 
-12. Sulje sivu valitsemalla **Sulje**-painike.  
-13. Napsauta summaa **Sopimus (kokonaiskustannus)** -kentässä hiiren kakkospainikkeella ja tarkastele tietoja valitsemalla **Siirtyminen**.  
+13. Sulje sivu valitsemalla **Sulje**-painike.  
+14. Napsauta summaa **Sopimus (kokonaiskustannus)** -kentässä hiiren kakkospainikkeella ja tarkastele tietoja valitsemalla **Siirtyminen**.  
 
-     Kun sopimuksen kokonaishintaa tarkastellaan taulukossa, vain alkuperäiset, sopimuksenmukaiset 30 tuntia ovat mukana, koska tästä on asiakkaan kanssa sovittu.  
+Kun sopimuksen kokonaishintaa tarkastellaan taulukossa, vain alkuperäiset, sopimuksenmukaiset 30 tuntia ovat mukana, koska tästä on asiakkaan kanssa sovittu.  
 
 ## <a name="copying-jobs"></a>Projektien kopioiminen  
  Thomas on päässyt Tinayhtymä Oy -asiakkaan kanssa sopimukseen kymmenen neuvotteluhuoneen sisustamisesta. Sopimus muistuttaa aiempaa työtä. Tämän vuoksi aikaisemman työn kopiointi säästää aikaa.  
@@ -383,7 +389,7 @@ Tämä vaihekuvaus keskittyy suunnittelu- ja konsulttiyritykseen CRONUS Finland 
 
 5.  Kopioi työ valitsemalla **OK** ja sulje sitten vahvistussivu valitsemalla **OK**.  
 
-     Kahden työn hintoja, työn tehtävärivejä ja töiden suunnittelurivejä vertaamalla näet, että tiedot on kopioitu oikein.  
+Kahden työn hintoja, työn tehtävärivejä ja töiden suunnittelurivejä vertaamalla näet, että tiedot on kopioitu oikein.  
 
 ## <a name="making-payments-by-installments"></a>Maksujen suorittaminen osamaksuina  
  CRONUS on juuri ottanut hoitaakseen suuren projektin, joka kestää kokonaisen vuoden. Koska siihen täytyy kohdistaa huomattava määrä resursseja, asiakkaalta halutaan ennakkomaksu, maksu projektin puolivälissä ja lopullinen maksu projektin valmistuessa.  
@@ -397,7 +403,7 @@ Tämä vaihekuvaus keskittyy suunnittelu- ja konsulttiyritykseen CRONUS Finland 
     -   **Nro**: **6630**  
     -   **Nimi**: **Projektin maksu**.  
 
-4.  Täytä **Kirjaus**-pikavälilehdessä **Yleinen tuotteen kirjausryhmä** -kenttä, valitse **SEKAL**. Sulje sivu valitsemalla **OK**-painike.  
+4.  Täytä **Kirjaus**-pikavälilehdessä **Yleinen tuotteen kirjausryhmä** -kenttä, valitse **SEKAL**. Sulje sivu.  
 5.  Valitse **Tilikartta**-sivulla ensin **Projektin nro 6630 maksu** ja sitten **Sisennä tilikartta** -toiminto. Vahvista valitsemalla **Kyllä**.  
 
  Seuraavissa ohjeissa neuvotaan, miten luot uuden projektin, asetat hinnoittelun ja määrittelet osamaksuvaihtoehdon. Projektitehtäväriveillä voit luoda tiettyjä rivejä, jotka on tarkoitettu yksinomaan osamaksuja varten. Kaikki projektin valmistuneet työt, jotka on lisätty aikatauluun, lisätään käyttöriveille. Jokaisen suunnittelurivin maksutehtävärivin rivityyppi on Sopimus. Se tarkoittaa, että asiakasta tullaan laskuttamaan. Syötä uusi rivi ennakkomaksulle. Käytön tehtäväriveillä voit lisätä tässä projektissa käytettyjen, aikataulua pidentävien nimikkeiden ja resurssien tietoja. Tällaisia nimikkeitä ja resursseja ovat esimerkiksi projektissa käytetyt työntekijätunnit ja nimikkeet.  
@@ -412,12 +418,12 @@ Tämä vaihekuvaus keskittyy suunnittelu- ja konsulttiyritykseen CRONUS Finland 
     -   **Projektin kirjausryhmä**: **As. määr.**  
     -   **KET-menetelmä**: **Kustannusarvo**  
 
-3.  Valitse projektikortissa **Resurssi**-toiminto. Anna seuraavat tiedot:  
+3.  Valitse projektikortissa **Resurssi**-toiminto. Lisää seuraavat tiedot:  
 
     -   **Koodi**: **Marianne**  
     -   **Yksikköhinta**: **10**  
 
-     Sulje sivu valitsemalla **OK**-painike.  
+     Sulje sivu.  
 
 4.  Valitse **Projekti**-kortissa **Projektitehtävärivit**-toiminto.  
 
@@ -440,7 +446,7 @@ Tämä vaihekuvaus keskittyy suunnittelu- ja konsulttiyritykseen CRONUS Finland 
     -   **Määrä**: **1**  
     -   **Yksikköhinta**: **5000**  
 
-     Sulje sivu valitsemalla **OK**-painike.  
+     Sulje sivu.  
 
 7.  Valitse **Projektitehtävärivit**-sivulla **tehtävä 2000** ja avaa sen **Projektin suunnittelurivit**.  
 
@@ -449,9 +455,9 @@ Tämä vaihekuvaus keskittyy suunnittelu- ja konsulttiyritykseen CRONUS Finland 
     |viivakaavio.|Rivityyppi|Suunnittelupäivämäärä|Tyyppi|Nro|määrä.|  
     |----------|---------------|-------------------|----------|---------|--------------|  
     |1|Aikataulu|(tämän päivän päivämäärä)|Resurssi|Marianne|120|  
-    |2|Aikataulu|(tämän päivän päivämäärä)|Vaihtoehto|70104|10|  
+    |2|Aikataulu|(tämän päivän päivämäärä)|Nimike|70104|10|  
 
-     Sulje sivu valitsemalla **OK**-painike. Suunnitellut summat näkyvät päivitettyinä **Projektitehtävärivit**-sivulla.  
+     Sulje sivu. Suunnitellut summat näkyvät päivitettyinä **Projektitehtävärivit**-sivulla.  
 
 8.  Valitse **Projektitehtävärivit**-sivulla **tehtävä 3000**.  
 9. Luo suunnittelurivi, jossa on seuraavat tiedot:  
@@ -463,7 +469,7 @@ Tämä vaihekuvaus keskittyy suunnittelu- ja konsulttiyritykseen CRONUS Finland 
     -   **Määrä**: **1**  
     -   **Yksikköhinta**: **5000**  
 
-     Sulje sivu valitsemalla **OK**-painike.  
+     Sulje sivu.  
 
 10. Luo vastaava suunnittelurivi työtehtävälle 4000.  
 

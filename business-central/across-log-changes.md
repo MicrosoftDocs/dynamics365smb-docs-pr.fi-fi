@@ -1,6 +1,6 @@
 ---
-title: Käyttäjätoimien seuraaminen muutoslokissa | Microsoft Docs
-description: Voit aktivoida käyttäjälokin niin, että saat historiatiedot kaikista seurattujen taulukoiden tietoihin tehdyistä muutoksista.
+title: Muutosten valvonta| Microsoft Docs
+description: Voit aktivoida käyttäjälokin niin, että saat historiatiedot kaikista seurattujen taulukoiden tietoihin tehdyistä muutoksista. Voit seurata aktiviteetteja myös tietyn tyyppisillä toimintalokeilla.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user log, user activity, tracking
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: fc14d11bf75ea39553c1ed04986273903874a0e1
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 43aea054ce4e66e9108f408d96c2eb491351b382
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240439"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304925"
 ---
 # <a name="auditing-changes-in-business-central"></a>Business Centralin tilintarkastuksen muutokset
 
@@ -38,9 +38,15 @@ Jos valitset **Muutoslokin asetukset** -sivulla **Taulukot**-toiminnon, voit mä
 
 Kun olet määrittänyt muutoslokin, aktivoinut sen ja muuttanut tietoja, voit tarkastella ja suodattaa muutoksia **Muutoslokin tapahtumat** -sivulla. Jos haluat poistaa merkintöjä, voit tehdä sen **Poista muutoslokin tapahtumat** -sivulla, jossa voit määrittää päivämääriin ja kellonaikaan perustuvia suodattimia.  
 
+## <a name="working-with-activity-logs"></a>Toimintalokien käyttäminen
+
+Joillakin [!INCLUDE [prodshort](includes/prodshort.md)]in sivuilla voi tarkastella toimintalokeja, joissa näkyy [!INCLUDE [prodshort](includes/prodshort.md)]ista vietävien ja sovellukseen tuotavien tiedostojen tila ja mahdolliset virheet.  
+
+Tiedot näytetään **Toimintaloki**-sivulla sen kontekstin mukaan, josta ne avataan. Voit avata ikkunan esimerkiksi **Document Exchange -palvelun asetukset**-, **Saapuva asiakirja**-, **Kirjattu myyntilasku**- ja **Kirjattu myyntihyvityslasku** -sivuilta. Voit tyhjentää lokitapahtumaluettelon tai poistaa vain yli 7 päivää vanhemmat tapahtumat.  
+
 ## <a name="see-also"></a>Katso myös
 [Perusasetusten muuttaminen](ui-change-basic-settings.md)  
 [Lajittelu](ui-sorting.md)  
-[Kerro, mitä haluat tehdä -toiminnon käyttäminen toimintojen ja tietojen etsimisessä](ui-search.md)  
+[Sivujen ja tietojen etsiminen Kerro, mitä haluat tehdä -toiminnolla](ui-search.md)  
 [Käyttäjien ja käyttöoikeuksien hallinta](ui-how-users-permissions.md)    
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  

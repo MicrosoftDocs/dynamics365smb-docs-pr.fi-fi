@@ -4,20 +4,20 @@ description: Mukautettujen kirjausryhmien avulla voit automatisoida päiväkirjo
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/01/2017
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 616d84089306818e54d9e90e366097c00e565a8f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: a5bd7509a9ed26ba9ef11515af8dac22ef0b703a
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237554"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301356"
 ---
 # <a name="automatic-account-codes"></a>Automaattiset tilikoodit
 Mukautettujen kirjausryhmien avulla voit automatisoida päiväkirjojen, myyntiasiakirjojen tai ostoasiakirjojen toistuvat tapahtumat. Näitä kirjausryhmiä voi käyttää kaikkialla [!INCLUDE[d365fin](../../includes/d365fin_md.md)] -ohjelmassa käynnistettäessä automaattisia kirjauksia ja kohdistuksia eri tileillä tai dimensioissa.  

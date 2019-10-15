@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contact, prospect, client
-ms.date: 05/02/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 39e8a4bce8174116bbe7b63908007aa7873acc02
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: 54cdb205f26de16397890e08b8918c66998af9b9
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1446736"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308790"
 ---
 # <a name="managing-relationships"></a>Kontaktienhallinta
 [!INCLUDE[d365fin](includes/d365fin_md.md)]in kontaktienhallinnan toiminnot auttavat myyntitoimintojen hallinnassa ja tukemisessa. Ominaisuuksien avulla saat kaikki tiedot käyttöösi tarkkoina ja ajantasaisina ja voit keskittyä ensisijaisten asiakas-/kontaktisegmenttien hoitamiseen.
@@ -34,4 +34,4 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 |Määritä segmentit, jolla valitaan kontaktiryhmä määritettyjen ehtojen mukaisesti. Ehto voi olla esimerkiksi kontaktiin toimiala.|[Segmenttien hallinta](marketing-segments.md)|
 |Käsittele saapuvat liidit luomalla mahdollisuuksia ja liittämällä ne myyjiin. Voit seurata tällä tavalla potentiaalisia myyntejä.|[Myyntimahdollisuuksien hallinta](marketing-manage-sales-opportunities.md)|
 |Luoda markkinointisuunnitelman, joilla voi tunnistaa, houkutella ja säilyttää asiakkaita.|[Markkinointikampanjoiden hallinta](marketing-campaigns.md)|
-|Kun käytät Dynamics 365 for Salesia asiakassuhteissa, saat käyttöösi saumattoman integroinnin liidistä tuottoon käyttämällä Business Centralia taustatehtäviin, kuten tilausten käsittelyyn, varastonhallintaan ja talousasioihin.|[Integrointi Dynamics 365 for Salesin kanssa](marketing-integrate-dynamicscrm.md)|
+|Kun käytät Dynamics 365 Salesia asiakassuhteissa, saat käyttöösi saumattoman integroinnin liidistä tuottoon käyttämällä Business Centralia taustatehtäviin, kuten tilausten käsittelyyn, varastonhallintaan ja talousasioihin.|[Dynamics 365 Sales -integrointi](marketing-integrate-dynamicscrm.md)|

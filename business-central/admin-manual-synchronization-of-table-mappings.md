@@ -1,6 +1,6 @@
 ---
 title: Taulukon yhdistämismääritysten manuaalinen synkronointi | Microsoft Docs
-description: Synkronointi kopioi tiedot Dynamics 365 for Salesin tapahtumien ja Business Centralin välillä, jotta kumpikin järjestelmä pysyy ajan tasalla.
+description: Synkronointi kopioi tiedot Dynamics 365 Salesin tapahtumien ja Business Centralin välillä, jotta kumpikin järjestelmä pysyy ajan tasalla.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 71284c8a2824e63c21768f2db55edb501486424d
-ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
+ms.openlocfilehash: 4aa56deaef4cd32f58fe4ad17abbc72a58b94ed9
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1629548"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307934"
 ---
 # <a name="manually-synchronize-table-mappings"></a>Taulukon yhdistämismääritysten manuaalinen synkronointi
 Integrointitaulukon yhdistämismääritys liittää [!INCLUDE[d365fin](includes/d365fin_md.md)] -taulukon (tietuetyypin), kuten asiakkaan, [!INCLUDE[crm_md](includes/crm_md.md)] -objektiin, kuten tiliin. Integrointitaulukon yhdistämismäärityksen synkronoinnin ansiosta voit synkronoida yhdistetyn [!INCLUDE[d365fin](includes/d365fin_md.md)] -taulukon ja [!INCLUDE[crm_md](includes/crm_md.md)] -objektin kaikkien tietueiden tiedot. Lisäksi taulukon yhdistämismäärityksen mukaan synkronointi voi luoda ja yhdistää uusia tietueita lähteen yhdistämättömien tietueiden kohderatkaisussa.  
@@ -39,13 +39,13 @@ Tietueen luonti ja luontiajankohta määräytyy synkronointisuunnan mukaan. Esim
 
 Työt suoritetaan seuraavassa järjestyksessä, jotta objektien välille ei muodostu yhdistämisen riippuvuussuhteita.  
 
-1.  VALUUTTA - Dynamics 365 for Sales -synkronointityö  
-2.  SALEPEOPLE - Dynamics 365 for Sales -synkronointityö  
-3.  MITTAYKSIKKÖ - Dynamics 365 for Sales -synkronointityö  
-4.  ASIAKAS - Dynamics 365 for Sales -synkronointityö  
-5.  CONTACTS - Dynamics 365 for Sales -synkronointityö  
-6.  RESURSSI-TUOTE - Dynamics 365 for Sales -synkronointityö  
-7.  ITEM-PRODUCT - Dynamics 365 for Sales -synkronointityö  
+1.  VALUUTTA – Dynamics 365 Salesin synkronointityö  
+2.  MYYJÄT – Dynamics 365 Salesin synkronointityö  
+3.  MITTAYKSIKKÖ – Dynamics 365 Salesin synkronointityö  
+4.  ASIAKAS – Dynamics 365 Salesin synkronointityö  
+5.  KONTAKTIT – Dynamics 365 Salesin synkronointityö  
+6.  RESURSSI-TUOTE – Dynamics 365 Salesin synkronointityö  
+7.  NIMIKE-TUOTE – Dynamics 365 Salesin synkronointityö  
 
 > [!IMPORTANT]  
 >  Yleensä täyttä synkronointia käytetään, kun [!INCLUDE[d365fin](includes/d365fin_md.md)]- ja [!INCLUDE[crm_md](includes/crm_md.md)] -integrointi määritetään ja vain toisessa ratkaisussa on tietoja, jotka halutaan kopioida toiseen ratkaisuun. Täysi synkronointi voi olla kätevä esittely-ympäristössä. Koska täysi synkronointi luo ja yhdistää tietueita ratkaisujen välillä, se nopeuttaa tietueiden välillä synkronoitavien tietojen käytön aloittamista. Täysi synkronointi pitäisi toisaalta suorittaa vain, jos haluat lisätä tietyn taulukon yhdistämismääritysten [!INCLUDE[d365fin](includes/d365fin_md.md)] -tietueen jokaiseen [!INCLUDE[crm_md](includes/crm_md.md)] -tietueeseen. Muussa tapauksessa syntyy ei-toivottuja tietueita tai tietueiden kaksoiskappaleita joko [!INCLUDE[d365fin](includes/d365fin_md.md)]- tai [!INCLUDE[crm_md](includes/crm_md.md)] -ratkaisuun.  
@@ -54,7 +54,7 @@ Työt suoritetaan seuraavassa järjestyksessä, jotta objektien välille ei muod
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2085502]
 
 ### <a name="to-run-a-full-synchronization"></a>Täyden synkronoinnin suorittaminen  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä -kuvake"), kirjoita **Microsoft Dynamics 365 for Sales -yhteyden määritys** ja valitse sitten liittyvä linkki.
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä -kuvake"), kirjoita **Microsoft Dynamics 365 Sales -yhteyden määritys** ja valitse sitten liittyvä linkki.
 2.  Valitse ensin **Suorita täysi synkronointi**-toiminto ja sitten **Kyllä**-painike.  
 3.  Kun täysi synkronointi on valmis, voit määrittää, saavatko ajoitetut synkronointityöt luoda uusia tietueita.  
 
@@ -65,15 +65,15 @@ Työt suoritetaan seuraavassa järjestyksessä, jotta objektien välille ei muod
 Voit tarkastella täyden synkronoinnin tuloksia **Integroinnin synkronointityöt** -sivulla. Lisätietoja on kohdassa [Synkronoinnin tilan näyttäminen](admin-how-to-view-synchronization-status.md).  
 
 ## <a name="synchronizing-all-modified-records"></a>Kaikkien muokattujen tietueiden synkronointi
-Voit synkronoida kaikkien integrointitaulukon yhdistämismääritysten tietojen muutokset **Microsoft Dynamics 365 for Sales -yhteyden määritys** -sivulla. Tämä muistuttaa täyttä synkronointia. Kaikki taulukon yhdistämismäärityksissä määritetyt [!INCLUDE[d365fin](includes/d365fin_md.md)] -taulukoiden ja [!INCLUDE[crm_md](includes/crm_md.md)] -objektien yhdistettyjen tietueiden tiedot synkronoidaan. Oletusarvoisesti vain tietueet, joita on muokattu edellisen synkronointikerran jälkeen, synkronoidaan. Taulukon yhdistämismääritykset synkronoidaan seuraavassa järjestyksessä, jotta objektien välille ei muodostu yhdistämisen riippuvuussuhteita:  
+Voit synkronoida kaikkien integrointitaulukon yhdistämismääritysten tietojen muutokset **Microsoft Dynamics 365 Sales -yhteyden määritys** -sivulla. Tämä muistuttaa täyttä synkronointia. Kaikki taulukon yhdistämismäärityksissä määritetyt [!INCLUDE[d365fin](includes/d365fin_md.md)] -taulukoiden ja [!INCLUDE[crm_md](includes/crm_md.md)] -objektien yhdistettyjen tietueiden tiedot synkronoidaan. Oletusarvoisesti vain tietueet, joita on muokattu edellisen synkronointikerran jälkeen, synkronoidaan. Taulukon yhdistämismääritykset synkronoidaan seuraavassa järjestyksessä, jotta objektien välille ei muodostu yhdistämisen riippuvuussuhteita:  
 
-1.  VALUUTTA - Dynamics 365 for Sales -synkronointityö  
-2.  SALEPEOPLE - Dynamics 365 for Sales -synkronointityö  
-3.  MITTAYKSIKKÖ - Dynamics 365 for Sales -synkronointityö  
-4.  ASIAKAS - Dynamics 365 for Sales -synkronointityö  
-5.  CONTACTS - Dynamics 365 for Sales -synkronointityö  
-6.  RESOURCE-PRODUCT \- Dynamics 365 for Sales -synkronointityö  
-7.  ITEM-PRODUCT - Dynamics 365 for Sales -synkronointityö  
+1.  VALUUTTA – Dynamics 365 Salesin synkronointityö  
+2.  MYYJÄT – Dynamics 365 Salesin synkronointityö  
+3.  MITTAYKSIKKÖ – Dynamics 365 Salesin synkronointityö  
+4.  ASIAKAS – Dynamics 365 Salesin synkronointityö  
+5.  KONTAKTIT – Dynamics 365 Salesin synkronointityö  
+6.  RESURSSI-TUOTE \- Dynamics 365 Salesin synkronointityö  
+7.  NIMIKE-TUOTE – Dynamics 365 Salesin synkronointityö  
 
 Voit tarkastella synkronoinnin tuloksia **Integroinnin synkronointityöt** -sivulla. Lisätietoja on kohdassa [Synkronoinnin tilan näyttäminen](admin-how-to-view-synchronization-status.md).  
 
@@ -81,7 +81,7 @@ Voit tarkastella synkronoinnin tuloksia **Integroinnin synkronointityöt** -sivu
 >  Jos muokkaat integrointitaulukon yhdistämismääritystä etukäteen, voit määrittää synkronointiin suodattimet valitsemaan synkronoitavat tietueet. Vaihtoehtoisesti voit määrittää sen luomaan uudet tietueet kohderatkaisussa lähteen yhdistämättömille tietueille. Lisätietoja on kohdassa [Taulukon yhdistämismääritysten muokkaaminen synkronointia varten](admin-how-to-modify-table-mappings-for-synchronization.md).
 
 ### <a name="to-synchronize-records-for-all-tables"></a>Kaikki taulukoiden tietueiden synkronointi  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä -kuvake"), kirjoita **Microsoft Dynamics 365 for Sales -yhteyden määritys** ja valitse sitten liittyvä linkki.
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä -kuvake"), kirjoita **Microsoft Dynamics 365 Sales -yhteyden määritys** ja valitse sitten liittyvä linkki.
 2.  Valitse ensin **Synkronoi muokatut tietueet** -toiminto ja sitten **Kyllä**.  
 
 ## <a name="synchronize-individual-table-mappings"></a>Yksittäisen taulukon yhdistämismääritysten synkronointi
@@ -94,5 +94,5 @@ Muokkaamalla integrointitaulukon yhdistämismääritystä etukäteen voit määr
 2.  Valitse ensin **Synkronoi muokatut tietueet** -toiminto ja sitten **Kyllä**.  
 
 ## <a name="see-also"></a>Katso myös  
-[Business Centralin ja Dynamics 365 for Salesin synkronointi](admin-synchronizing-business-central-and-sales.md)   
-[Dynamics 365 for Sales -integroinnissa käytettävien käyttäjätilien määrittäminen](admin-setting-up-integration-with-dynamics-sales.md)   
+[Business Centralin ja Dynamics 365 Salesin synkronointi](admin-synchronizing-business-central-and-sales.md)   
+[Dynamics 365 Sales -integroinnissa käytettävien käyttäjätilien määrittäminen](admin-setting-up-integration-with-dynamics-sales.md)   

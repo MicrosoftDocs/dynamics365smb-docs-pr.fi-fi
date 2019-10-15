@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: b816d7ff9f8446aa81746b980fd47b3b531e1396
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 70ee472953e470fe5d069ce3536d729677a1a135
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1239024"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2302547"
 ---
 # <a name="analyzing-financial-statements-in-microsoft-excel"></a>Rahoituslaskelmien analysointi Microsoft Excelissä
 Voit tarkastella [!INCLUDE[d365fin](includes/d365fin_md.md)]issa tunnuslukuja ja saada yleiskuvan yrityksen taloustilanteesta. Voit myös avata luettelot Excelissä tietojen analysointia varten. Voit lisäksi vielä raskaita raportteja, kuten taseita ja tuloslaskelmia, Exceliin, analysoida tietoja ja tulostaa raportit.  
@@ -36,7 +36,7 @@ Oletetaan, että haluat porautua kassavirtaan. Voit avata liiketoimintajohtajan 
 
 Excelissä on välilehti, jossa tiedot on sijoitettu ensimmäiseen työkirjaan. Kaikki viedyt tiedot ovat esillä muissa työkirjoissa, jos satut tarvitsemaan niitä. Voit tulostaa raportin heti tai voit muokata sitä, kunnes käytössä on haluamasi yleiskatsaus ja yksityiskohdat. Voit suodattaa ja analysoida tietoja entistä paremmin [!INCLUDE[d365fin](includes/d365fin_md.md)]in Excel-apuohjelmalla.  
 
-## <a name="the-included365finincludesd365finmdmd-excel-add-in"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)]in Excel-apuohjelma
+## <a name="the-included365finincludesd365fin_mdmd-excel-add-in"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)]in Excel-apuohjelma
 [!INCLUDE[d365fin](includes/d365fin_md.md)]-kokemus sisältää Excelin apuohjelman. Tilauksen mukaan kirjaudut joko automaattisesti tai sinun on annettava samat kirjautumistiedot kuin [!INCLUDE[d365fin](includes/d365fin_md.md)]issa.  
 
 Saat apuohjelman ansiosta uusimmat tiedot [!INCLUDE[d365fin](includes/d365fin_md.md)]ista ja voit siirtää muutokset takaisin [!INCLUDE[d365fin](includes/d365fin_md.md)]iin. Mahdollisuus siirtää tiedostot takaisin tietokantaan kuitenkin on poistettu käytöstä edellä mainituissa Excel-raporteissa.  

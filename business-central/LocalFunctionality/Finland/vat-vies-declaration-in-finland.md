@@ -4,20 +4,20 @@ description: Suomessa käytettävien lisätoimintojen avulla voit noudattaa arvo
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/01/2017
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b42416d1f3e6a66b6942f5877e0a4dbb2de4dd97
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: b0808cd814b829b73911cdfadfe3bc84e5c54802
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237590"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300213"
 ---
 # <a name="vat-vies-declaration-in-finland"></a>ALV-yhteenvetoilmoitus Suomessa
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)] sisältää arvonlisäveron ja Euroopan unionin (EU) myyntiraportoinnin sääntöjen noudattamisessa tarvittavat Suomessa käytettävät lisätoiminnot. **ALV-yhteenvetoilmoitus**- ja **EU-myyntiluettelo**-raportit sisältävät **EU-palvelu**-kentän, jonka avulla voit tulostaa palveluun liittyviä myyntisummia erikseen nimikkeeseen liittyvistä myyntisummista eri kirjausryhmien perusteella. Nämä tiedot ovat pakollisia EU-kolmikantakaupan tapahtumien ALV-raporteissa vuonna 2010 ja sitä seuraavina vuosina.  

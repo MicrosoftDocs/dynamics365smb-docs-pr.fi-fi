@@ -1,6 +1,6 @@
 ---
 title: Synkronointi ja tietojen integrointi | Microsoft Docs
-description: Synkronointi kopioi tiedot Dynamics 365 for Salesin objektien ja Business Centralin tietueiden välillä ja pitää kummankin järjestelmän tiedot ajan tasalla.
+description: Synkronointi kopioi tiedot Dynamics 365 Salesin tapahtumien ja Business Centralin tietueiden välillä ja pitää kummankin järjestelmän tiedot ajan tasalla.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 9506b64229c4d936fa25d74d71a923bdf7915e45
-ms.sourcegitcommit: 6ef7d2fae52feff786f2e15e2863d7f5aaa762be
+ms.openlocfilehash: bbc7da12176d2a5c8ab9a2ccc153ea4053d59656
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1917458"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304230"
 ---
-# <a name="synchronizing-data-in-business-central-and-dynamics-365-for-sales"></a>Tietojen synkronointi Business Centralissa ja Dynamics 365 for Salesissa
-Kun [!INCLUDE[crm_md](includes/crm_md.md)] ja [!INCLUDE[d365fin](includes/d365fin_md.md)] integroidaan, voit päättää, synkronoidaanko [!INCLUDE[d365fin](includes/d365fin_md.md)] -tietueiden (kuten asiakkaiden, kontaktien ja myyjien) valittujen kenttien tiedot vastaavien [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietueiden (kuten tilien, yhteyshenkilöiden ja käyttäjien) kanssa. Tietueen tyypin mukaan voit synkronoida tietoja [!INCLUDE[crm_md](includes/crm_md.md)]ista [!INCLUDE[d365fin](includes/d365fin_md.md)]iin ja päin vastoin. Lisätietoja on kohdassa [Dynamics 365 for Sales -integrointi](admin-prepare-dynamics-365-for-sales-for-integration.md).  
+# <a name="synchronizing-data-in-business-central-and-dynamics-365-sales"></a>Business Centralin ja Dynamics 365 Salesin tietojen synkronointi
+Kun [!INCLUDE[crm_md](includes/crm_md.md)] ja [!INCLUDE[d365fin](includes/d365fin_md.md)] integroidaan, voit päättää, synkronoidaanko [!INCLUDE[d365fin](includes/d365fin_md.md)] -tietueiden (kuten asiakkaiden, kontaktien ja myyjien) valittujen kenttien tiedot vastaavien [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietueiden (kuten tilien, yhteyshenkilöiden ja käyttäjien) kanssa. Tietueen tyypin mukaan voit synkronoida tietoja [!INCLUDE[crm_md](includes/crm_md.md)]ista [!INCLUDE[d365fin](includes/d365fin_md.md)]iin ja päin vastoin. Lisätietoja on kohdassa [Dynamics 365 Sales -integrointi](admin-prepare-dynamics-365-for-sales-for-integration.md).  
 
 Synkronointi käyttää seuraavia elementtejä:
 
@@ -77,11 +77,11 @@ Seuraavassa taulukossa on [!INCLUDE[d365fin](includes/d365fin_md.md)]in taulukoi
 Seuraavassa taulukossa käsitellään sovellusten väliset synkronointisäännöt.
 
 > [!NOTE]  
-> [!INCLUDE[crm_md](includes/crm_md.md)]in muutoksia, jotka [!INCLUDE[crm_md](includes/crm_md.md)] -yhteyden käyttäjätili teki, ei synkronoida. Tämän vuoksi on suositeltavaa, että tietoja ei muuteta kyseistä tiliä käytettäessä. Lisätietoja on kohdassa [Dynamics 365 for Sales -integroinnissa käytettävien käyttäjätilien määrittäminen](admin-setting-up-integration-with-dynamics-sales.md).
+> [!INCLUDE[crm_md](includes/crm_md.md)]in muutoksia, jotka [!INCLUDE[crm_md](includes/crm_md.md)] -yhteyden käyttäjätili teki, ei synkronoida. Tämän vuoksi on suositeltavaa, että tietoja ei muuteta kyseistä tiliä käytettäessä. Lisätietoja on kohdassa [Dynamics 365 Sales -integroinnissa käytettävien käyttäjätilien määrittäminen](admin-setting-up-integration-with-dynamics-sales.md).
 
 |Sivupöytä|Sääntö|
 |-----|----|
-|Asiakkaat|Ennen kuin asiakas voidaan synkronoida, asiakkaalle määritetyn myyjän on oltava yhdistettynä [!INCLUDE[crm_md](includes/crm_md.md)]in käyttäjään. Varmista tämän vuoksi CUSTOMERS - Dynamics 365 for Sales -synkronointityötä suoritettaessa ja määritettäessä uusien tietueiden luontia, että synkronoit myyjät ja [!INCLUDE[crm_md](includes/crm_md.md)]in käyttäjät, ennen kuin synkronoit asiakkaat [!INCLUDE[crm_md](includes/crm_md.md)]in tilien kanssa. <br /> <br />ASIAKKAAT – Dynamics 365 for Sales -synkronointityö synkronoi vain Sales-tilit, joiden suhdetyyppi on Asiakas.|
+|Asiakkaat|Ennen kuin asiakas voidaan synkronoida, asiakkaalle määritetyn myyjän on oltava yhdistettynä [!INCLUDE[crm_md](includes/crm_md.md)]in käyttäjään. Varmista, että synkronoit myyjät ja [!INCLUDE[crm_md](includes/crm_md.md)]in käyttäjät, ennen kuin synkronoit asiakkaat, joilla on [!INCLUDE[crm_md](includes/crm_md.md)]in tili, kun ASIAKKAAT - Dynamics 365 Sales -synkronointityö suoritetaan ja määritetään luomaan uusia tietueita. <br /> <br />ASIAKKAAT – Dynamics 365 Sales -synkronointityö synkronoi vain ne Sales- tilit, joiden suhdetyyppi on Asiakas.|
 |Kontaktit|Vain tiliin liitetyt [!INCLUDE[crm_md](includes/crm_md.md)]in yhteystiedot luodaan [!INCLUDE[d365fin](includes/d365fin_md.md)]issa. Myyjän koodin arvo määrittää yhdistetyn entiteetin omistajan [!INCLUDE[crm_md](includes/crm_md.md)]issa.|
 |Valuutat|Valuutat yhdistetään kytketään tapahtumavaluuttoihin [!INCLUDE[crm_md](includes/crm_md.md)]issa ISO-koodien perusteella. Vain valuuttoja, joilla on standardi ISO-koodi, kytketään ja synkronoidaan tapahtumanvaluuttojen kanssa.|
 |Mittayksiköt|Mittayksiköt synkronoidaan yksikköryhmien kanssa [!INCLUDE[crm_md](includes/crm_md.md)]issa. Yksikköryhmälle voi määrittää vain yhden mittayksikön.|
@@ -97,4 +97,4 @@ Seuraavassa taulukossa käsitellään sovellusten väliset synkronointisäännö
 ## <a name="see-also"></a>Katso myös  
 [Tietueiden yhdistäminen ja synkronoiminen manuaalisesti](admin-how-to-couple-and-synchronize-records-manually.md)   
 [Ajoitettu synkronointi](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)   
-[Integrointi Dynamics 365 for Salesin kanssa](admin-prepare-dynamics-365-for-sales-for-integration.md)
+[Dynamics 365 Sales -integrointi](admin-prepare-dynamics-365-for-sales-for-integration.md)

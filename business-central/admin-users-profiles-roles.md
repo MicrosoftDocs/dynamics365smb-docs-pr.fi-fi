@@ -1,101 +1,129 @@
 ---
 title: Käyttäjien ja roolien hallinta | Microsoft Docs
 description: Tässä ohjeaiheessa kerrotaan, miten Business Central -sovelluksen käyttäjiä ja roolikeskuksia hallitaan.
-author: edupont04
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: profiles, users
-ms.date: 08/02/2019
-ms.author: edupont
-ms.openlocfilehash: 27a57490101195f8dc05cc39538260e7db5e46af
-ms.sourcegitcommit: 5bcc5f95e450ee9a3d9f7a380e592a5e75c4185b
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 00a07acfb455b9b1ddf714f7ca7e49a56a8aebbc
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1858218"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304229"
 ---
-# <a name="understanding-users-roles-and-profiles"></a>Tietoja käyttäjistä, rooleista ja profiileista
+# <a name="manage-profiles"></a>Profiilien hallinta
+Kaikille [!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäjille määritetään profiili, joka vastaa heidän liiketoimintorooliaan, osastoaan tai muuta luokittelua. Profiilien avulla järjestelmänvalvojat voivat määrittää ja hallita keskitetysti sitä, mitä erilaiset käyttäjätyypit voida nähdä ja tehdä käyttöliittymässä, jotta he voivat suorittaa työtehtäviään tehokkaasti.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksessa järjestelmänvalvoja lisää käyttäjät ja antaa käyttäjille [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen niiden alueiden käyttöoikeuden, joita käyttäjät tarvitsevat työssään.  
+> [!NOTE]
+> Tyypillinen profiilin käyttötapa liiketoiminnassa on rooli. Profiilin nimi onkin käyttöliittymässä tämän vuoksi *Profiili (rooli)*.
 
-Toimintojen käyttöä hallitaan *käyttäjäryhmien* ja *profiilien (roolien)* avulla. Järjestelmänvalvojana voit lisätä ja poistaa käyttäjiä [!INCLUDE[d365fin](includes/d365fin_md.md)] -tilauksesta. Voit myös määrittää käyttäjien oikeuksia käyttäjäryhmien avulla.  
+Järjestelmänvalvojana voi luoda ja hallita profiileja **Profiilit (roolit)** -sivulla. Jokaisella profiililla on kortti, jossa hallitaan liittyvän roolin eri asetuksia, kuten roolin nimeä, käyttäjän asetuksia ja profiilin käyttämään roolikeskusta. Lisätietoja käyttäjän asetuksista ja roolikeskuksista on kohdassa [Perusasetusten muuttaminen](ui-change-basic-settings.md).
 
-## <a name="adding-users"></a>Käyttäjien lisääminen
+Käyttäjät on luotava ja lisättävä Office 365 -hallintakeskuksessa, ennen kuin käyttäjien profiileja voi hallita. Voit siittää määrittää kullekin käyttäjälle tai käyttäjäryhmälle oikeuksia, jotka puolestaan määrittävät, mitä ominaisuuksia kyseinen käyttäjä tai käyttäjäryhmä saa tarkastella ja/tai muokata. Lisätietoja on kohdassa [Käyttäjien ja käyttöoikeuksien hallinta](ui-how-users-permissions.md).
 
-Käyttäjiä voi lisätä [!INCLUDE[d365fin](includes/d365fin_md.md)] online -versioon sen jälkeen, kun yrityksen Office 365:n järjestelmänvalvoja on ensin luonut käyttäjät Office 365:n hallintaportaalissa. Lisätietoja on kohdassa [Käyttäjien lisääminen Office 365 for Businessiin](https://aka.ms/CreateOffice365Users).
+## <a name="page-customization"></a>Sivun mukauttaminen
+Voit mukauttaa profiilin sivuasettelua siten, että kaikki profiiliin määritetyt käyttäjät näkevät mukautetut sivut. Voit mukauttaa järjestelmänvalvojana sivuja samalla toiminnolla, jota käyttäjät käyttävät mukauttamiseen. Lisätietoja on kohdassa [Profiilien sivujen mukauttaminen](ui-personalization-manage.md).
 
-Tämän jälkeen järjestelmänvalvoja voi määrittää käyttöoikeudet kullekin käyttäjälle ja käyttäjäryhmälle. Lisätietoja on kohdassa [Käyttäjien ja käyttöoikeuksien hallinta](ui-how-users-permissions.md).  
+## <a name="to-create-a-profile"></a>Profiilin luominen
+Jos et voi kopioida aiemmin luotua profiilia, voit luoda uuden profiilin manuaalisesti.
 
-Käyttäjän tehokkaimmat käyttöoikeudet SUPER-käyttöoikeusjoukko. Jokaisella yrityksellä on oltava ainakin yksi käyttäjä, jolla on tämä käyttöoikeusjoukko. Parhaan käytännön mukaista on kuitenkin antaa jokaiselle käyttäjälle hänen [!INCLUDE[prodshort](includes/prodshort.md)]in käyttötarpeitaan vastaavat käyttöoikeudet. Tämä auttaa varmistamaan, että käyttäjillä on vain niiden tietojen käyttöoikeus, joita he tarvitsevat esimerkiksi työssään.  
+> [!NOTE]
+> Kaikki profiilit voidaan kopioida, mutta vain käyttäjän luomat profiilien sivujen mukautukset voidaan kopioida.
 
-> [!TIP]
-> On parhaan käytännön mukaista varmistaa, että Office 365:n järjestelmänvalvojalla on myös [!INCLUDE[prodshort](includes/prodshort.md)]in SUPER-käyttöoikeusjoukko, koska se helpottaa hallintatehtäviä, kuten integraation määrittämistä muiden sovellusten kanssa.
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Profiilit (roolit)** ja valitse sitten aiheeseen liittyvä linkki.  
+2. Valitse **Profiilit (roolit)** -sivulla **Uusi**-toiminto.  
+3. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-### <a name="users-of-on-premises-deployments"></a>Paikallisten käyttöönottojen käyttäjät
+## <a name="to-copy-a-profile"></a>Profiilin kopioiminen
+Voit säästää työaikaa luomalla uuden profiilin kopioimalla aiemmin luodun profiilin. Kopioi luontia varten profiili, jonka asetukset vastaavat haluamasi profiilin asetuksia.
 
-Järjestelmänvalvoja voi valita käyttäjille [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen paikallisten käyttöönottojen eri tunnistetietojen mekanismeista. Kun olet luonut käyttäjän, annat eri tietoja riippuen tunnistetiedoista, joita käytät tietyssä [!INCLUDE[server](includes/server.md)] -ilmentymässä. Lisätietoja on [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen kehittäjän ja ITPro-sisällön järjestelmänvalvojan osan [Todennus ja tunnistetietotyypit](/dynamics365/business-central/dev-itpro/administration/users-credential-types) -kohdassa.  
+1. Valitse **Profiilit (roolit)** -sivulla kopioitavan profiilin rivi. Valitse sitten **Kopioi profiili** -toiminto.
+2. Täytä **Profiilin tunnus**- ja **Näyttönimi**-kentät ja valitse sitten **OK**-painike.
+3. Avaa **Profiilit (roolit)** -sivulla juuri luodun profiilin kortti ja muokkaa sitten tarvittaessa muita kenttiä.
 
-## <a name="profiles-roles"></a>Profiilit (roolit)
+## <a name="to-edit-a-profile"></a>Profiilin muokkaaminen
+Voit muokata profiilia muuttamalla **Profiili (rooli)** -sivun kenttiä.
 
-Kaikille yrityksen henkilöille, joilla on [!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttöoikeus, on määritetty rooli, jonka mahdollistaa *roolikeskuksen* käytön.
+> [!NOTE]
+> Et voi muokata profiilia, jos kirjautuneena on käyttäjiä, joille profiili on määritetty.
 
-Profiilit ovat niiden [!INCLUDE[d365fin](includes/d365fin_md.md)] -käyttäjien kokoelmia, jotka jakavat saman roolin. Roolikeskus on [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen aloituskohta ja kotisivu. Sen avulla tärkeimpien tehtävien aloitus on nopeaa ja se sisältää paljon tietoja työstä, mukaan lukien työn suorituskykyilmaisimet.  
+## <a name="to-assign-a-profile-to-a-user"></a>Profiilin määrittäminen käyttäjälle
+Käyttäjät voivat määrittää itselleen rooli (joka vastaa profiilia) valitsemalla **Rooli**-kentän **Omat asetukset** -sivulla. Voit tehdä järjestelmänvalvojana saman **Profiilit (roolit)** -sivulla.
 
-> [!NOTE]  
->  Et voi lisätä, muokata tai poistaa profiileja nykyisessä [!INCLUDE[d365fin](includes/d365fin_md.md)] online -versiossa.  
+1. Valitse **Profiilit (roolit)** -sivulla määritettävän profiilin rivi. Valitse sitten **Käyttäjän mukautusluettelo** -toiminto.
+2. Valitse **Käyttäjän mukautukset** -sivulla se käyttäjä, jolle profiili määritetään. Valitse sitten **Muokkaa**-toiminto.
+3. Valitse **Profiilin tunnus** -kentässä sopiva profiili.
 
-### <a name="CreateProfile"></a>Profiilin luominen
+> [!NOTE]
+> Jos määrität käyttäjälle toisen profiilin, käyttäjän edelliseen profiiliin tekemät mukautukset säilytetään.
 
-1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **profiilit** ja valitse sitten aiheeseen liittyvä linkki.  
+## <a name="to-define-user-settings-for-a-profile"></a>Profiilin käyttäjän asetusten määrittäminen
+Käyttäjät voivat määrittää **Omat asetukset** -sivulla tilinsä perustoiminnan, kuten roolikeskuksen, kielen ja vastaanotettavat ilmoitukset. Lisätietoja on kohdassa [Perusasetusten muuttaminen](ui-change-basic-settings.md).
 
-2.  Avaa **Uusi profiilikortti**-sivu valitsemalla **Profiilit**-sivulla **Uusi**-toiminto.  
+Voit määrittää järjestelmänvalvojana nämä profiilin asetukset ja siten ottaa asetukset käyttöön kaikille liittyvän roolin käyttäjille.
 
-3.  Anna **Profiilin tunnus** -kentässä nimi, joka kuvaa käyttäjien tarkoitettua roolia.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita **Profiilit (roolit)** ja valitse sitten liittyvä linkki.
+2. Valitse sen profiilin rivi, jonka käyttäjän asetuksia haluat muuttaa, valitsemalla **Navigoi**-toiminto ja valitse sitten **Käyttäjän mukautukset** -toiminto.
+3. Avaa **Käyttäjän mukautukset** -sivulla sen käyttäjän kortti, jonka asetuksia haluat muuttaa.
+4. Muokkaa kenttiä tarvittaessa **Käyttäjän mukautuskortti** -sivulla.
 
-4.  Kirjoita **Kuvaus**-kenttään profiilitunnuksen kuvaus, esimerkiksi **Tilausten käsittelijä**.  
+## <a name="to-activate-a-profile"></a>Profiilin aktivointi
+Profiilia luotaessa valitaan erilaisia valintaruutuja, jotka määrittävät, onko profiili tietoineen käyttäjien käytettävissä, missä ne ovat käytettävissä ja miten ne ovat käytettävissä.
 
-5.  Määritä **Roolikeskuksen tunnus** -kenttäään profiiliin liitettävä roolikeskus.  
+1. Valitse **Profiili (rooli)**-sivulla seuraavat valintaruudut:
+    - **Käytössä** määrittää, näkyykö liittyvä rooli **Käytettävissä olevat roolit** -sivulla, jossa ne ovat käyttäjien valittavissa.  
+    - **Käytä oletusprofiilina** määrittää profiilin, joka koskee käyttäjiä, joille ei ole määritettyä tiettyä roolia.
+    - **Mukauttamisen käytöstä poistaminen** määrittää, voivatko liittyvän rooli käyttäjät mukauttaa työtilaansa.
+    - **Näyttäminen roolienhallinnassa** määrittää, näytetäänkö profiiliin sisältyvät liiketoimintatoiminnot avaavat valikkovaihtoehdot toiminnon yleiskatsauksessa. Lisätietoja on kohdassa [Sivujen etsiminen toiminnon yleiskatsauksessa](ui-role-explorer.md).
 
-Olemassa olevan profiilin muokkaaminen tapahtuu samalla tavalla. Ainoa ero on, että **Profiilit**-sivulla valitaan aiemmin luotu profiili **Uusi**-toiminnon sijaan.  
+    ## <a name="to-export-user-created-profiles"></a>Käyttäjän luomien profiilien vieminen
+    Voit viedä joko itse muuttamasi tai käyttäjien muuttamat profiilit, mistä on ilmaisuna **Lähde**-kentän **(Käyttäjän luoma)** -kohta. Profiili viedään zip-tiedostoon, ja siinä on .al-tiedostot, joiden avulla voidaan kehittää laajennuksia. Lisätietoja on kohdassa [Profiilien ja sivun mukautusten luominen asiakasohjelman avulla](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
 
+    * Valitse **Profiilit (roolit)** -sivulla **Vie käyttäjän luomat profiilit** -toiminto.
 
-### <a name="copy-a-profile"></a>Profiilin kopioiminen
-Profiilin kopioiminen voi säästää aikaa, jos haluat käyttää profiilissa samanlaisia asetuksia, ja haluat muuttaa vain joitakin asetuksia.
+    Juuri lisättyjen tai muokattujen profiilien .al-tiedostot sisältävä zip-tiedosto viedään.
 
-1.  Avaa kopioitava profiili ja valitse sitten **Kopioi profiili** -toiminto.
+## <a name="to-delete-a-profile"></a>Profiilin poistaminen
+Voit poistaa profiilin valitsemalla **Poista**-toiminto **Profiilit (roolit)** -sivulla. Käytössä on kuitenkin seuraavat rajoitukset:
 
-2.  Syötä **Uuden profiilin tunnus** -kenttään sen profiilin nimi, jonka haluat kopioida.
+- Et voi poistaa laajennuksista peräisin olevia profiileja. Laajennuksen asennus on poistettava ensin.
+- Profiili on poistettava käytöstä. Tämä myös varmistaa, ettei kukaan profiiliin määritetty käyttäjä ole kirjautuneena, kun profiili poistetaan.
+- Kerralla voi poistaa vain yhden profiilin.  
 
-3.  Määritä **Uuden profiilin alue** -kenttään jokin seuraavista arvoista:
+## <a name="to-delete-all-personalizations-made-by-a-user"></a>Kaikkien käyttäjän tekemien mukautusten poistaminen
+Voit poistaa kaikki muutokset, jotka käyttäjä on tehnyt työtilan muodostaville sivuille. Tästä voi olla hyötyä esimerkiksi silloin, jos työntekijä on muuttanut roolia eikä enää tarvitse mukautuksia. Käyttäjien mukautusten poistaminen muuttaa sivun asettelun takaisin profiilin määrittämäksi asetteluksi.
 
-    - **Järjestelmä**, kun haluat määrittää uuden profiilin kaikkien sovellusta käyttävien vuokraajatietokantojen käytettäväksi.
-    - **Vuokraaja**, kun haluat määrittää profiilin vain nykyisen vuokraajatietokannan käytettäväksi.
-4. Valitse **OK**-painike, kun olet valmis.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttäjän mukautukset** ja valitse sitten liittyvä linkki.
 
-### <a name="ExportImportProfile"></a>Profiilien vienti ja tuonti
+    **Käyttäjän mukautukset** -sivulla on luettelo kaikista käyttäjistä, jotka ovat tehneet mukautuksia.
 
-Voit viedä profiileja XML-tiedostoina [!INCLUDE[d365fin](includes/d365fin_md.md)] -tietokantaan ja tuoda niitä tietokannasta. Profiilin vieminen ja tuominen voi säästää aikaa, kun määrität käyttöliittymää. Voit käyttää aiemmin luotua profiilimääritystä sen sijaan, että määrittäisit profiilin alusta alkaen. Jos profiili on määritetty [!INCLUDE[d365fin](includes/d365fin_md.md)] -tietokannassa ja haluat käyttää sen tai osan samasta profiilimäärityksestä uudelleen toisessa tietokannassa, voit viedä profiilin XML-tiedostoon. Tämän jälkeen voit tuoda profiilin XML-tiedoston toiseen tietokantaan.
+2. Avaa sen käyttäjän kortti, jonka mukautukset haluat poistaa.
+3. Valitse **Käyttäjän mukautuskortti** -sivulla **Tyhjennä mukautetut sivut** -toiminto ja hyväksy sitten avautuva sanoma.
 
--   Voit viedä profiilin joko valitsemalla **Vie profiilit** -toiminto **Profiililuettelo**- tai **Profiilikortti**-sivulla tai etsimällä sen ja avaamalla **Vie profiilit** -sivun. Tallenna XML-tiedosto tietokoneelle tai verkkoon.
+Käyttäjä näkee muutokset kirjautuessaan sisään seuraavan kerran.
 
--   Voit tuoda profiilin joko valitsemalla **Tuo profiilit** -toiminto **Profiililuettelo**-sivulla tai etsimällä sen ja avaamalla **Tuo profiilit** -sivun.
+Voit poistaa myös kaikki profiilin sivun mukautukset. Lisätietoja on kohdassa [Kaikkien profiilin mukautusten poistaminen](ui-personalization-manage.md#to-delete-all-customizations-for-a-profile).
 
-    > [!NOTE]  
-    >  Et voi tuoda profiilia, joka on jo tietokannassa, vaikka XML-tiedosto olisi eriniminen tai sillä olisi eri sisältö. Poista olemassa oleva profiili ennen kuin tuot uuden profiilin.
+## <a name="to-delete-personalizations-for-specific-pages"></a>Tiettyjen sivujen mukautusten poistaminen
+Voit poistaa mukautuksia, joita yksi tai usea käyttäjä on tehnyt tietyille työtilan muodostaville sivuille. Tämä voi olla kätevää esimerkiksi silloin, jos liiketoimintaprosessin muutos tarkoittaa, että käyttäjät eivät enää saa käyttää mukautusta. Käyttäjien mukautusten poistaminen muuttaa sivun asettelun takaisin profiilin määrittämäksi asetteluksi.
 
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttäjän sivun mukautukset** ja valitse sitten liittyvä linkki.
 
-## <a name="configuration-and-personalization"></a>Kokoonpano ja mukautus
-<!--The concept of UI customization in [!INCLUDE[d365fin](includes/d365fin_md.md)] is divided in two:  
+    **Käyttäjän sivun mukautukset** -sivulla on luettelo kaikista mukautetuista sivuista ja käyttäjistä, joille nämä sivut kuuluvat.
 
--   Configuration, performed by the administrator  
+    > [!Note]
+    > **Vanha mukautus** -kentän valintamerkki ilmaisee, että mukautus tehtiin [!INCLUDE[d365fin](includes/d365fin_md.md)]in vanhassa versiossa, jossa mukautusta käsiteltiin eri tavalla. Mukautus estetään näiden sivujen mukautusta yrittäviltä käyttäjiltä, elleivät he ensin valitse sivun lukituksen poistamista. Lisätietoja on kohdassa [Sivun mukauttamisen estäminen lukitsemalla](ui-personalization-locked.md).
 
--   Personalization, performed by users  
+2. Valitse ensin poistettavan sivun mukautuksen rivi ja sitten **Poista**-toiminto.
 
-The administrator configures the user interface for multiple users by customizing the user interface for a profile that the users are assigned to.  -->
+Käyttäjä näkee muutokset kirjautuessaan sisään seuraavan kerran.    
 
-Käyttäjät voivat mukauttaa henkilökohtaisen versionsa käyttöliittymää mukauttamalla käyttöliittymää oman kirjautumistunnuksensa osalta. Järjestelmänvalvoja voi poistaa tämän mukautuksen. Lisätietoja on kohdassa [Työtilan mukauttaminen](ui-personalization-user.md).  
+Voit poistaa myös profiilin yksittäisiä sivun mukautukset. Lisätietoja on kohdassa [Profiilin tiettyjen sivujen mukautuksen poistaminen](ui-personalization-manage.md#to-delete-customization-for-specific-pages-for-a-profile).
 
 ## <a name="see-also"></a>Katso myös  
 [Käyttäjien ja käyttöoikeuksien hallinta](ui-how-users-permissions.md)  
-[Mukautuksen hallinta järjestelmänvalvojana](ui-personalization-manage.md)  
+[Profiilien sivujen mukauttaminen](ui-personalization-manage.md)  
 [Työtilan mukauttaminen](ui-personalization-user.md)  

@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.workload: na
 ms.search.keywords: projects
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: dcd68331143cac2572b37e7bf130010d69dc05f4
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: aa3158789f22cbb3a534bda2a83e2def209f9826
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1253100"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2312650"
 ---
 # <a name="project-management"></a>Projektinhallinta
 [!INCLUDE[d365fin](includes/d365fin_md.md)]issa voi suorittaa yleisiä projektinhallinnan tehtäviä, kuten projektin määrittämistä ja resurssin aikatauluttamista, sekä budjettien hallinnassa ja projektin etenemisen valvonnassa tarvittavien tietojen antamista. Voit seurata projektin koneiden käyttötunteja ja työntekijöiden työtunteja käyttämällä aikaraportteja. Projektipäällikkönä saat hyvän yleiskuvan yksittäisten projektien lisäksi työntekijöiden varauksista sekä koneiden ja muiden resurssien käytöstä kaikissa projekteissa.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 06/13/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: dd3cf008e2d16a8d63c9fea930ddcb4ba14072a2
-ms.sourcegitcommit: 5bcc5f95e450ee9a3d9f7a380e592a5e75c4185b
+ms.openlocfilehash: 00ab948c07e708ae22c63177f01ed4c6ada28c5a
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1858287"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313583"
 ---
 # <a name="getting-started-with-included365fin_longincludesd365fin_long_mdmd"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]in käytön aloittaminen
 [!INCLUDE[d365fin](includes/d365fin_md.md)] on pienille ja keskisuurille organisaatioille tarkoitettu liiketoiminnan hallintaratkaisu, joka automatisoi ja selkeyttää liiketoiminnan prosesseja sekä auttaa liiketoiminnan hallinnassa. Rekisteröityminen on helppoa, ja voit siirtää aiemmin luodut yritystiedot vanhojen tietojen järjestelmästä. Jos tarvitset apua tilaukseen liittyvissä asioissa, etsi [!INCLUDE[d365fin](includes/d365fin_md.md)] -kumppani [täältä](https://www.microsoft.com/en-us/solution-providers/search).  
@@ -42,6 +42,8 @@ Ennen toimintojen käyttämistä on tehtävä tietyt asetukset. Lisätietoja on 
 
 Nykyisten ja suunniteltujen ominaisuuksien yleiskatsaus on julkaisusuunnitelmassa kohdassa [Microsoft Dynamics 365 Business Centralin julkaisusuunnitelma](https://go.microsoft.com/fwlink/?linkid=2047422).  
 
+eLearning-sisältöä on myös [Microsoft Learnissa](/learn/browse/?products=dynamics-business-central).  
+
 ## <a name="the-role-centers"></a>Roolikeskukset
 Roolikeskussivu perustuu roolikeskeiseen rakenteeseen, jonka ansiosta voit käyttää nopeasti työssä tarvittavia liiketoimintaprosesseja ja BI-työkaluja. Kirjanpitäjä voi esimerkiksi seurata maksuja ja hyväksymisiä sekä tarkastella rahoituksen suorituskykykaavioita. Tutustu eri roolikeskuksiin valitsemalla oikeassa yläkulmassa **Asetukset**-kuvake ![Asetukset](media/ui-experience/settings_icon_small.png "Roolikeskuksen Asetukset-kuvake"). Valitse sitten **Omat asetukset** ja lopuksi roolikeskus, johon haluat tutustua. Ota muutos käyttöön kirjautumalla uudelleen sisään. Lisätietoja on kohdassa [Perusasetusten muuttaminen](ui-change-basic-settings.md).
 
@@ -65,7 +67,7 @@ Jokaisessa roolikeskuksessa on **Asennus ja laajennukset** -painike. Saat käytt
 | Määritä raportointi |Määrittää tietojoukot, joilla voit muodostaa tehokkaita raportteja käyttämällä esimerkiksi Exceliä tai Power BI:tä. |
 | Määritä nimikkeen hyväksymistyönkulku |Määrittää mahdollisuuden lähettää ilmoitus hyväksyjälle, kun käyttäjä muuttaa kohdetta tai luo kohteen. |
 | Määritä maksun hyväksymistyönkulku |Määrittää mahdollisuuden lähettää ilmoituksen hyväksyjälle, kun käyttäjä lähettää maksupäiväkirjan rivit hyväksyttäviksi. |
-| Business Central Connectorin määrittäminen |Määrittää yhteyden Dynamics 365 for Salesiin. Yhteyden avulla voit synkronoida tiedot, kuten yhteyshenkilöiden ja myyntitilausten tiedot. |
+| Business Central Connectorin määrittäminen |Määrittää yhteyden Dynamics 365 Salesiin. Yhteyden avulla voit synkronoida tiedot, kuten yhteyshenkilöiden ja myyntitilausten tiedot. |
 | Arvonlisäveron määrittäminen |Tämän avulla voit aloittaa niiden veroryhmien käsittelemisen ja veroaluekoodien määrittämisen, jotka määritetään asiakkaille ja toimittajille myynti- ja ostoasiakirjojen arvonlisäveron automaattista laskemista varten. |
 
 ## <a name="trying-things-out-in-your-own-company"></a>Kokeilut omassa yrityksessä
@@ -99,6 +101,7 @@ Jos olet kirjanpitäjä, voit rekisteröityä [!INCLUDE[d365acc_long](includes/d
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen Outlookin yrityssähköpostina](admin-outlook.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]in hakeminen mobiililaitteeseen](install-mobile-app.md)  
 [Ohje- ja tukiresurssit](product-help-and-support.md)  
+[Dynamics 365 Business Central Microsoft Learnissa](/learn/browse/?products=dynamics-business-central)  
 [Dynamics 365:n dokumentaatio](/dynamics365/)  
 [Microsoft Dynamics 365 Business Centralin julkaisusuunnitelma](https://go.microsoft.com/fwlink/?linkid=2047422)  
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  

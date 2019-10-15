@@ -9,19 +9,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
-ms.date: 06/19/2019
+ms.date: 10/01/2019
 ms.author: solsen
-ms.openlocfilehash: e100350322a1cf840b4428868f77b104e07c23c1
-ms.sourcegitcommit: 0854c074b500c3031eaf86fde9d452f93f238081
+ms.openlocfilehash: 095d8ba53bce25df66bcb8c5daa1e06479b68f0c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "1701219"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315298"
 ---
 # <a name="getting-ready-for-doing-business"></a>Valmistautuminen liiketoimintaan
 Olet juuri aloittanut ensimmäisen yrityksen [!INCLUDE[d365fin](includes/d365fin_md.md)]issa.
 
-Pääset liiketoiminnassa alkuun tutustumalla **Liiketoiminnan tuki** -sivuun, jossa voit käynnistää avustettuja asennusoppaita, videoita tai valittujen asennustehtävien ohjeaiheita. Voit avata sivun **Liiketoimintajohtaja**-roolikeskuksen kaaviosta valitsemalla avattavassa **Liiketoiminnan tuki** -luettelossa **Näytä määritys- ja ohjeresurssit** -toiminnon. Kun päivität sivun, asennus- ja ohjeresurssit näkyvät kaavion tilalla.
+Pääset liiketoiminnassa alkuun tutustumalla **Liiketoiminnan tuki** -sivuun, jossa voit käynnistää avustettuja asennusoppaita, videoita tai valittujen asennustehtävien ohjeaiheita. Voit avata sivun **Liiketoimintajohtaja**-roolikeskuksen kaaviosta valitsemalla avattavan **Liiketoiminnan tuki** -luettelon nuolen ja valitsemalla sitten **Näytä määritys- ja ohjeresurssit** -toiminnon. Kun päivität sivun, asennus- ja ohjeresurssit näkyvät kaavion tilalla.
 
 Vaihtoehtoisesti voit avata asetusten ohjattujen määritysoppaiden luettelon valitsemalla ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvakkeen, kirjoittamalla **Manuaalinen määritys** ja valitsemalla sitten liittyvän linkin.
 

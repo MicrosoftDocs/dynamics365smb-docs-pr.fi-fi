@@ -6,13 +6,13 @@ ms.reviewer: na
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 07/17/2019
-ms.openlocfilehash: 4ca4205fa5d2da35451f3a78c1534dd32d4d8f65
-ms.sourcegitcommit: b4fb54af9ed2e51479bb5293f86290c0de78858c
+ms.date: 10/01/2019
+ms.openlocfilehash: 0c710291b1039dedf23266b48940e123f425c9cc
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "1755967"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313609"
 ---
 # <a name="resources-for-help-and-support"></a>Ohje- ja tukiresurssit
 
@@ -43,7 +43,7 @@ Jos käytät [!INCLUDE [prodshort](includes/prodshort.md)]in kokeiluversiota eik
 
 ### <a name="blog"></a>Blogi
 
-Uusia ominaisuuksia käsitellään [Dynamics 365 -blogissa](https://cloudblogs.microsoft.com/dynamics365/users/product/business-central/) – esimerkiksi milloin ne tulevat saataville ja onko huomioon otettavia seikkoja.  
+Uusia ominaisuuksia käsitellään [Dynamics 365 -blogissa](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) – esimerkiksi milloin ne tulevat saataville ja onko huomioon otettavia seikkoja.  
 
 ### <a name="capabilities-coming-soon"></a>Tulossa olevat ominaisuudet
 
@@ -70,20 +70,20 @@ Varmista, että käyt läpi lähetettyjen ehdotusten luettelon. On todennäköis
 
 ## <a name="report-a-problem"></a>Ongelman ilmoittaminen
 
-[!INCLUDE[prodshort](includes/prodshort.md)] -jälleenmyyntikumppanin odotetaan antavan teknistä tukea. Kumppanit myyvät [!INCLUDE[prodshort](includes/prodshort.md)]ia, ja tämän osan avulla on helppo ottaa yhteyttä jälleenmyyntikumppaniin, jos tämä on antanut tuen sähköpostiosoitteen. Jos [!INCLUDE[prodshort](includes/prodshort.md)] -kumppani, ei pysty ratkaisemaan ongelmaan, he voivat tehdä tukipyynnön Microsoftille.  
+[!INCLUDE[prodshort](includes/prodshort.md)] -jälleenmyyntikumppani antaa teknistä tukea. Kumppanit myyvät [!INCLUDE[prodshort](includes/prodshort.md)]ia, ja tämän osan avulla on helppo ottaa yhteyttä jälleenmyyntikumppaniin, jos tämä on antanut tuen yhteystiedot. Jos [!INCLUDE[prodshort](includes/prodshort.md)] -kumppani, ei pysty ratkaisemaan ongelmaan, he voivat tehdä tukipyynnön Microsoftille.  
 
 > [!NOTE]
 > Tämä osa on käytettävissä vain, jos sinulla on maksullinen [!INCLUDE [prodshort](includes/prodshort.md)] -tilaus. Jos olet rekisteröitynyt kokeiluversioon etkä ole vielä ostanut [!INCLUDE[prodshort](includes/prodshort.md)]ia, sinulla ei ole jälleenmyyntikumppania etkä voi ottaa yhteyttä Microsoftin tukeen. Voit etsiä [!INCLUDE[prodshort](includes/prodshort.md)] -kumppanin [Ratkaisutoimittajan haku](https://go.microsoft.com/fwlink/?linkid=2038145) -sivulla.  
 
-### <a name="support-email-address"></a>Tuen sähköpostiosoite
+### <a name="support-contacts"></a>Tukikontaktit
 
-**Ilmoita ongelmasta** -osassa näkyvä sähköpostiosoite voi olla henkilön tai tiimin osoite. Jos olet vuokraajan [!INCLUDE[prodshort](includes/prodshort.md)] -jälleenmyyntikumppani, voit määrittää tämän sähköpostiosoitteen **Tuen yhteystietojen kortti** -sivulla. Lisätietoja on kohdassa [Teknisen tuen määrittäminen](/dynamics365/business-central/dev-itpro/technical-support) kehittäjän ja IT-ammattilaisen [!INCLUDE [prodshort](includes/prodshort.md)] -sisällössä.  
+**Ilmoita ongelmasta** -osassa on sähköpostiosoite tai hyperlinkki, jonka avulla voit ottaa yhteyden asiakastukeen tai tukitiimiin. Jos olet vuokraajan [!INCLUDE[prodshort](includes/prodshort.md)] -jälleenmyyntikumppani, voit määrittää ensisijaisen tukikontaktin yhteystiedot hallintakeskuksessa. Lisätietoja on kohdassa [Tukikokemuksen määrittäminen](/dynamics365/business-central/dev-itpro/technical-support#configuring-the-support-experience) IT-ammattilaisen [!INCLUDE [prodshort](includes/prodshort.md)] -sisällössä.  
 
-Valitse linkki, jos haluat ilmoittaa kumppanille ongelman. Linkki avaa uuden sähköpostiviestin oletusarvoisessa sähköpostiohjelmassa, ja voit lisätä teknisiä tietoja Azure Active Directory -vuokraajasta sekä muita mielestäsi tärkeitä tietoja.  
+Jos haluat ilmoittaa kumppanille ongelmasta, lähetä joko sähköpostiviesti valitsemalla linkki tai avaa tukisivusto uudessa selainvälilehdessä. Voit sitten lisätä teknisiä tietoja Azure Active Directory -vuokraajasta **Vianmääritys**-osasta ja muita mielestäsi tärkeitä tietoja.  
 
 ## <a name="see-also"></a>Katso myös
 
 [Blogikirjoitus: Oikeiden resurssien etsiminen ja palautteen antaminen](https://community.dynamics.com/business/b/financials/archive/2018/12/04/find-the-right-resources-and-provide-feedback)  
 [Business Centralin kehittäjän ja IT-ammattilaisten asiakirjat](/dynamics365/business-central/dev-itpro/)  
 [Kumppanien ohje- ja tukiresurssit](/dynamics365/business-central/dev-itpro/help-and-support)  
-[Teknisen tuen määrittäminen](/dynamics365/business-central/dev-itpro/technical-support)  
+[Tekninen tuki](/dynamics365/business-central/dev-itpro/technical-support)  

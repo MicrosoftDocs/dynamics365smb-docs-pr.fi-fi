@@ -18,35 +18,39 @@
 
 # Business Centralin käyttäminen
 ## [Yleiskuvaus](ui-work-product.md)
-## [Toimintojen ja tietojen etsiminen](ui-search.md)
+## [Sivujen ja tietojen etsiminen Kerro, mitä haluat tehdä -toiminnolla](ui-search.md)
+## [Sivujen etsiminen toiminnon yleiskatsauksessa](ui-role-explorer.md)
 ## [Kerro, mitä haluat tehdä -toiminnon usein kysytyt kysymykset](ui-search-faq.md)
-## [Luetteloiden lajitteleminen ja suodattaminen sekä luetteloista hakeminen](ui-enter-criteria-filters.md)
+## [Lajitteleminen, hakeminen ja suodattaminen](ui-enter-criteria-filters.md)
 ## [Usein kysyttyjen kysymysten haku ja suodatus](ui-search-filter-faq.md)
 ## [Tietojen antaminen](ui-enter-data.md)
+## [Kopioimisen ja liittämisen usein kysytyt kysymykset](ui-copy-paste.md)
 ## [Kalenterin päivämäärien ja aikojen käsitteleminen](ui-enter-date-ranges.md)
-## [Kopioiminen ja liittäminen](ui-copy-paste.md)
 ## [Pakollisten kenttien havaitseminen](ui-mandatory-fields.md)
 ## [Kielen ja kielialueen muuttaminen](about-locale-language.md)
 ## [Tarkastelu ja muokkaus Excelissä](across-work-with-excel.md)  
-## [Ilmoitusten hallinta](ui-smart-notifications.md)
+## [Korttien ja asiakirjojen liitteiden, linkkien ja muistioiden hallinta](ui-how-add-link-to-record.md)
 ## [Perusasetusten muuttaminen](ui-change-basic-settings.md)
+## [Ilmoitusten hallinta](ui-smart-notifications.md)
 ## Business Centralin mukauttaminen
 ### [Työtilan mukauttaminen](ui-personalization-user.md)
 ### [Sivun mukauttamisen estäminen lukitsemalla](ui-personalization-locked.md)
+### [Luettelonäkymien tallentaminen ja mukauttaminen](ui-views.md)
+### [Sivutoiminnon lisääminen roolikeskukseen](ui-bookmarks.md)
 ### [Luetteloiden näyttäminen eri tavoilla](across-display-lists-different-views.md)
-## Raporttien tulostaminen ja eräajojen suorittaminen
-### [Raporttien ja eräajojen käsitteleminen](ui-work-report.md)
+## Raporttien tulostaminen sekä eräajojen ja XMLportien suorittaminen
+### [Raporttien, eräajojen ja XMLportien käsitteleminen](ui-work-report.md)
 ### [Tulostimen valinnan määrittäminen raporteille](ui-specify-printer-selection-reports.md)
-### [Suoritettavan raportin tai erätyön aikatauluttaminen](ui-work-report.md#ScheduleReport)
-### [Raporttien tallennettujen asetusten hallinta](reports-saving-reusing-settings.md)
+### [Suoritettavan raportin aikatauluttaminen](ui-work-report.md#ScheduleReport)
+### [Raporttien ja erätöiden tallennettujen asetusten hallinta](reports-saving-reusing-settings.md)
 ### [Testiraporttien tarkastelu ennen kirjausta](ui-how-view-test-reports-posting.md)
-### [Eräajojen ajaminen](ui-how-run-batch-jobs.md)
-## Asiakirjojen ulkoasun muuttaminen
+### [Eräajojen ja XMLportien suorittaminen](ui-how-run-batch-jobs.md)
+## Ulkoisten asiakirjojen ja raporttien ulkoasun muuttaminen
 ### [Raporttien ja asiakirjojen asettelujen hallinta](ui-manage-report-layouts.md)
 ### [Raporttien tai asiakirjojen asettelujen päivittäminen](ui-update-report-layouts.md)
 ### [Muutosten tekeminen Word-raporttiasetteluun](ui-how-create-custom-report-layout.md)
 ### [Raporttien tai asiakirjojen asettelun tuonti ja vienti](ui-how-import-and-export-report-layout.md)
-### [Raportissa tällä hetkellä käytettävän asettelun muuttaminen](ui-how-change-layout-currently-used-report.md)
+### [Nykyisen raportin asettelun muuttaminen](ui-how-change-layout-currently-used-report.md)
 ### [Kenttien lisääminen Word-raporttiasetteluun](ui-how-add-fields-word-report-layout.md)
 ## Pikanäppäimien käyttäminen
 ### [Helppokäyttötoiminnot ja pikanäppäimet](ui-accessibility.md)
@@ -229,10 +233,9 @@
 ## [Asiakirjojen arkistointi](across-how-to-archive-documents.md)
 ## [Laajennetun nimiketekstin lisääminen](ui-how-define-ext-text.md)
 ## [Käyttäjätehtävien määrittäminen](across-user-tasks.md)
-## [Sivustojen, asiakirjojen tai ohjelmien linkkien lisääminen tietueissa](ui-how-add-link-to-record.md)
-## [Tiedostojen liittäminen kortteihin ja asiakirjoihin](across-attach-document-master-data.md)
 ## [Liiketoimintatietojen vienti Exceliin](about-export-data.md)
 ## [Asiakirjojen ja päiväkirjojen kirjaaminen](ui-post-documents-journals.md)
+## [Useiden asiakirjojen kirjaaminen samanaikaisesti](ui-batch-posting.md)
 ## [Kirjaustulosten esikatselu](ui-how-preview-post-results.md)
 ## [Kirjattujen asiakirjojen muokkaaminen](across-edit-posted-document.md)
 ## [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md)
@@ -304,8 +307,8 @@
 
 # Hallinta
 ## [Yleiskuvaus](admin-setup-and-administration.md)
-## [Tietoja käyttäjistä, rooleista ja profiileista](admin-users-profiles-roles.md)
 ## [Käyttäjien ja käyttöoikeuksien hallinta](ui-how-users-permissions.md)
+## [Profiilien hallinta](admin-users-profiles-roles.md)
 ## [Tietojen luottamuksellisuuden luokitteleminen](admin-classifying-data-sensitivity.md)
 ## [Henkilökohtaisia tietoja koskeviin pyyntöihin vastaaminen](admin-responding-to-requests-about-personal-data.md)
 ## [Uusien yritysten luominen](about-new-company.md)
@@ -318,20 +321,14 @@
 ## [Kokeilujakson jatkaminen](admin-extend-trial.md)
 ## [Sivujen tarkistaminen](across-inspect-page.md)
 ## [Sandbox-ympäristön luominen](across-how-create-sandbox-environment.md)
-## Integrointi Dynamics 365 for Salesin kanssa
-### [Yleiskuvaus](admin-prepare-dynamics-365-for-sales-for-integration.md)
-### [Dynamics 365 for Sales -integroinnissa käytettävien käyttäjätilien määrittäminen](admin-setting-up-integration-with-dynamics-sales.md)
-### [Dynamics 365 for Sales -yhteyden määrittäminen](admin-how-to-set-up-a-dynamics-crm-connection.md)
-### [Business Centralin ja Dynamics 365 for Salesin synkronointi](admin-synchronizing-business-central-and-sales.md)
-### [Taulukon yhdistämismääritysten muokkaaminen synkronointia varten](admin-how-to-modify-table-mappings-for-synchronization.md)
-### [Taulukon yhdistämismääritysten manuaalinen synkronointi](admin-manual-synchronization-of-table-mappings.md)
-### [Ajoitettu synkronointi](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
-### [Synkronointivirheiden vianmääritys](admin-troubleshoot-sales-synchronization.md)
 ## Business Central -sovelluksen mukauttaminen
 ### [Yleiskuvaus](ui-customizing-overview.md)
-### Laajennusten käyttämisen mukauttaminen
+### [Profiilien sivujen mukauttaminen](ui-personalization-manage.md)
+### [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md)
+### [Pinojen värillisen ilmaisimen määrittäminen](admin-how-set-up-colored-indicator-on-cues.md)
+### Mukauttaminen laajennusten avulla
 #### [Yleiskuvaus](ui-extensions.md)
-#### [Laajennusten käyttämisen mukauttaminen](ui-extensions.md)
+#### [Mukauttaminen laajennusten avulla](ui-extensions.md)
 #### [Business Centralin kirjanpitäjän portaali](ui-extensions-accountant-portal.md)
 #### [Ceridian Payroll](ui-extensions-ceridian-payroll.md)
 #### [Dynamics GP -tietojen siirto](ui-extensions-dynamicsgp-data-migration.md)
@@ -354,9 +351,15 @@
 #### [UK – Ison-Britannian postinumeroiden GetAddress.io](ui-extensions-getaddressio.md)
 #### [US/CA/UK/AU/NZ/ZA - Maksusuositusehdotuksen lähettäminen](ui-extensions-send-remittance-advice.md)
 #### [Muiden toimittajien Business Central -laajennukset](ui-extensions-other.md)
-### [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md)
-### [Mukautuksen hallinta järjestelmänvalvojana](ui-personalization-manage.md)
-### [Pinojen värillisen mittarin määrittäminen](admin-how-set-up-colored-indicator-on-cues.md)
+## Dynamics 365 Sales -integrointi
+### [Yleiskuvaus](admin-prepare-dynamics-365-for-sales-for-integration.md)
+### [Dynamics 365 Sales -integroinnissa käytettävien käyttäjätilien määrittäminen](admin-setting-up-integration-with-dynamics-sales.md)
+### [Dynamics 365 Sales -yhteyden määrittäminen](admin-how-to-set-up-a-dynamics-crm-connection.md)
+### [Business Centralin ja Dynamics 365 Salesin synkronointi](admin-synchronizing-business-central-and-sales.md)
+### [Taulukon yhdistämismääritysten muokkaaminen synkronointia varten](admin-how-to-modify-table-mappings-for-synchronization.md)
+### [Taulukon yhdistämismääritysten manuaalinen synkronointi](admin-manual-synchronization-of-table-mappings.md)
+### [Ajoitettu synkronointi](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
+### [Synkronointivirheiden vianmääritys](admin-troubleshoot-sales-synchronization.md)
 
 # Rahoitus
 ## [Yleiskuvaus](finance.md)
@@ -470,7 +473,7 @@
 ## [Dimensioiden käyttäminen](finance-dimensions.md)
 ## [KP-budjettien luominen](finance-how-create-budgets.md)
 ## [Tapahtumien kirjaaminen suoraan pääkirjanpitoon](finance-how-post-transactions-directly.md)
-## [Kirjausten peruuttaminen](finance-how-reverse-journal-posting.md)
+## [Päiväkirjakirjauksen peruuttaminen sekä vastaanottojen tai toimitusten kumoaminen](finance-how-reverse-journal-posting.md)
 ## [Kustannusten ja tulojen kohdistaminen](year-allocate-costs-income.md)
 ## [Kaupan lisäkustannusten huomiointi nimikekulujen avulla](payables-how-assign-item-charges.md)
 ## [Työntekijöiden kulujen kirjaaminen ja hyvittäminen](finance-how-record-reimburse-employee-expenses.md)
@@ -592,7 +595,6 @@
 ### [Mahdollisuuden myyntisyklien ja syklin vaiheiden määrittäminen](marketing-how-setup-opportunity-sales-cycles-stages.md)
 ### [Mahdollisuuksien luominen](marketing-how-create-opportunities.md)
 ### [Sähköpostiviestien seuraaminen](marketing-set-up-email-logging.md)
-
 ### [Myyntimahdollisuuksien käsitteleminen](marketing-processing-sales-opportunities.md)
 ### [Määritä sähköpostin lokiinkirjaus](marketing-set-up-email-logging.md)
 ## [Liiketoimintakontaktien luokittelu profiilikyselyiden avulla](marketing-create-contact-profile-questionnaire.md)
@@ -839,7 +841,6 @@
 #### [Toimitusmuistutusten testiraporttien tulostaminen](LocalFunctionality/Austria/how-to-print-test-reports-for-delivery-reminders.md)
 ### Yleiset
 #### [Pääkirjanpidon asetusten tulostaminen](LocalFunctionality/Austria/how-to-print-general-ledger-setup-information.md)
-#### [Myynti- ja ostotilausten tulostaminen eräkirjauksen aikana](LocalFunctionality/Austria/how-to-print-sales-and-purchase-orders-during-batch-posting.md)
 
 ## Belgia
 ### [Yleiskuvaus](LocalFunctionality/Belgium/belgium-local-functionality.md)
@@ -1022,7 +1023,6 @@
 #### [Valuutan vaihtokurssit](LocalFunctionality/Germany/currency-exchange-rates.md)
 #### [Saksan EU-myyntiluettelo](LocalFunctionality/Germany/eu-sales-list-in-germany.md)
 #### [Yrityksen rekisterinumeroiden sisällyttäminen myynti- ja ostoraporteissa](LocalFunctionality/Germany/how-to-include-company-registration-numbers-on-sales-reports-and-purchase-reports.md)
-#### [Myynti- ja ostotilausten tulostaminen eräkirjauksen aikana](LocalFunctionality/Germany/how-to-print-sales-and-purchase-orders-during-batch-posting.md)
 #### [Pääkirjanpidon asetusten tulostaminen](LocalFunctionality/Germany/how-to-print-general-ledger-setup-information.md)
 #### [Saksan markkinoiden Business Centralin sertifiointi (asiakirja on saksankielinen)](https://go.microsoft.com/fwlink/?linkid=875256)
 
@@ -1074,7 +1074,6 @@
 #### [Yrityksen tietojen määrittäminen](LocalFunctionality/Italy/how-to-set-up-company-information.md)
 #### [Italialainen alihankinta](LocalFunctionality/Italy/italian-subcontracting.md)
 #### [Päiväkirjan mallien ja erien määrittäminen](LocalFunctionality/Italy/how-to-set-up-journal-templates-and-batches.md)
-#### [Mustalla listalla olevissa maissa ja olevilla alueilla olevien asiakkaiden ja toimittajien kanssa tapahtuneen kaupankäynnin raportointi](LocalFunctionality/Italy/how-to-report-trade-with-customers-and-vendors-in-blacklist-countries-regions.md)  
 
 ## Meksiko
 ### [Yleiskuvaus](LocalFunctionality/Mexico/mexico-local-functionality.md)
@@ -1168,6 +1167,7 @@
 ## Norja
 ### [Yleiskuvaus](LocalFunctionality/Norway/norway-local-functionality.md)
 ### ALV
+#### [Norjalaisen vakiomuotoisen tarkistustiedoston – veron (SAF-T) hallinta](LocalFunctionality/Norway/ui-extensions-setup-and-generate-saf-t-files-no.md)
 #### [Norjan ALV-raportointi](LocalFunctionality/Norway/norwegian-vat-reporting.md)
 #### [Norjan ALV-koodit](LocalFunctionality/Norway/norwegian-vat-codes.md)  
 #### [Yhden ALV-koodin käyttäminen päiväkirjoissa](LocalFunctionality/Norway/how-to-use-one-vat-code-in-journals.md)
@@ -1378,7 +1378,6 @@
 ### Yleiset    
 #### [Sveitsin postinumeroiden tuominen](LocalFunctionality/Switzerland/how-to-import-swiss-post-codes.md)
 #### [Sveitsin ostoasiakirjat ja myyntitilaukset](LocalFunctionality/Switzerland/swiss-purchase-documents-and-sales-documents.md)
-#### [Myynti- ja ostotilausten tulostaminen eräkirjauksen aikana](LocalFunctionality/Switzerland/how-to-print-sales-and-purchase-orders-during-batch-posting.md)
 
 ## Yhdistynyt kuningaskunta
 ### [Yleiskuvaus](LocalFunctionality/UnitedKingdom/united-kingdom-local-functionality.md)

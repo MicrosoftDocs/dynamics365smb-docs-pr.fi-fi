@@ -1,1 +1,1 @@
-[Kouluttaudu!](/dynamics365/get-started/training/)
+[Kouluttaudu!](/learn/browse/?products=dynamics-business-central)

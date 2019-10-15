@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: components, service item, service
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1a33fbd8bebd24806c373b9e7d35c2e877e8b747
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: bcd6597ff26a3889608486cde6f8d0158364a956
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250018"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311786"
 ---
 # <a name="set-up-service-offerings"></a>Huoltotarjousten määrittäminen
 Huoltohallintoa määritettäessä on päätettävä, mitä huoltoja tarjoat asiakkaille ja mikä kyseisten huoltojen aikataulu on. Palvelu on yhden tai useamman resurssin suorittama työ, joka toimitetaan asiakkaalle. Huolto voi olla esimerkiksi tietokoneen korjaamista. Huoltonimike on huoltoa tarvitseva laite tai nimike, kuten asiakkaalle asennettu korjausta tarvitseva tietokone. Voit määrittää palvelut osaksi toisiinsa liittyviä korjaus- ja huoltonimikkeiden ryhmää.  

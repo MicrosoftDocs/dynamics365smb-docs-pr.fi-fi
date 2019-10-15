@@ -2,30 +2,30 @@
 title: Lisätoiminnot näyttävän tai piilottavan käyttäjäkokemuksen valitseminen | Microsoft Docs
 description: Tietoja siitä, miten Essential- ja Basic-käyttäjäkokemus tarkoittaa käyttöliittymässä, sovellusalueilla ja yrityksessä.
 documentationcenter: ''
-author: edupont04
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 04/01/2019
-ms.author: edupont
-ms.openlocfilehash: 9110ee79e4d1788f41c8f1960f282cb490a3cc8a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 5866ce2bc125d7e21c6dbdf93984a87b07ae46b1
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251421"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311354"
 ---
-# <a name="changing-which-features-are-displayed"></a>Näytettävien ominaisuuksien muuttaminen
-[!INCLUDE[d365fin](includes/d365fin_md.md)] on suunniteltu auttamaan liiketoiminnan käytännön asioissa toimialasta riippumatta. [!INCLUDE[d365fin](includes/d365fin_md.md)]in ydintä ovat talousraportointi sekä myynti- ja ostoprosessit. Voit lisätä siihen kokemuksia liiketoiminnan tarpeiden mukaan lisäämällä laajennuksia AppSourcesta tai muuttamalla yrityksen Kokemus-asetusta. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)]in mukauttaminen laajennusten avulla](ui-extensions.md) tai [Toimintojen näyttäminen tai piilottaminen käyttäjäkokemuksen valinnan avulla](ui-experiences.md#choosing-a-user-experience-to-show-or-hide-features).
+# <a name="change-which-features-are-displayed"></a>Näytettävien ominaisuuksien muuttaminen
+[!INCLUDE[d365fin](includes/d365fin_md.md)] on suunniteltu auttamaan liiketoiminnan käytännön asioissa toimialasta riippumatta. [!INCLUDE[d365fin](includes/d365fin_md.md)]in ydintä ovat talousraportointi sekä myynti- ja ostoprosessit. Voit lisätä siihen kokemuksia liiketoiminnan tarpeiden mukaan muuttamalla yrityksen **Kokemus**-asetusta myöhemmin kuvattavalla tavalla tai lisäämällä laajennuksia AppSourcesta. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md).
 
 ## <a name="choosing-a-user-experience-to-show-or-hide-features"></a>Ominaisuuksien näyttäminen tai piilottaminen valitsemalla käyttäjäkokemus
 Käyttäjäkokemus määrittää, kuinka suurta osaa [!INCLUDE[d365fin](includes/d365fin_md.md)]in perustoiminnoista voit työtovereittesi kanssa käyttää. Voit valita yrityksen käyttökokemuksen **Yrityksen tiedot** -sivun **Kokemus**-kentässä.
 
 > [!NOTE]  
-> Tämä asetus koskee kaikki yrityksen käyttäjiä. Käyttäjät voivat lisäksi mukauttaa omaa kokemustaan muuttamalla sivun asettelua ja sisältöä. Lisätietoja on kohdassa [Työtilan ja sivujen mukauttaminen](ui-personalization-user.md).  
+> Tämä asetus koskee kaikki yrityksen käyttäjiä. Käyttäjät voivat lisäksi mukauttaa omaa kokemustaan muuttamalla sivun asettelua ja sisältöä. Lisätietoja on kohdassa [Työtilan mukauttaminen](ui-personalization-user.md).  
 
 Seuraavassa taulukossa on luettelo nyt käytettävissä olevista kokemuksista.
 
@@ -63,10 +63,11 @@ Voit nyt siirtyä valitsemaan uuden käyttökokemuksen.
 [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen käyttäjän dokumentaation kaikkien toimintojen kuvauksissa käsitellään **Premium**-käyttökokemusta. Tämä tarkoittaa sitä, että kuvaukset sisältävät käyttöliittymän kaikki elementit. Valmistuksen ja huoltohallinnon toimintojen alueiden ylätason ohjeaiheisiin lisätyssä tekstimuistiinpanossa kerrotaan, että vaatimuksena on **Premium**-käyttökokemus.
 
 ## <a name="see-also"></a>Katso myös .
+[Työtilan mukauttaminen](ui-personalization-user.md)  
+[Business Centralin mukauttaminen](ui-customizing-overview.md)
 [Uusien yritysten luominen](about-new-company.md)  
 [Käyttäjien ja käyttöoikeuksien hallinta](ui-how-users-permissions.md)    
 [Perusasetusten muuttaminen](ui-change-basic-settings.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in mukauttaminen laajennusten avulla](ui-extensions.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen käyttöoikeusopas](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409)
 

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: video, library, how to
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 685487de30a50defa5fd3908c3b049e639a12843
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: bfcf6190250ba05ac5556d5c7543df6c4e9fa34e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244884"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304730"
 ---
 # <a name="visit-our-video-library"></a>Vieraile Microsoftin videokirjastossa
 Opastusvideoiden kirjastoa on odotettava vielä jonkin aikaa. [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman uusien parannusten vuoksi myös sisältöä on muutettava niin, että se vastaa tuotetta.
@@ -42,7 +42,7 @@ Seuraavassa kerrotaan muutama esimerkki päivitettävien videoiden sisällöstä
 
 * Liiketoiminnan tietojen siirtäminen muista taloushallinnon sovelluksista [!INCLUDE[d365fin](includes/d365fin_md.md)]iin  
 * Asiakirjojen ja objektien analysointiin ja seurantaan käytettävien dimensioiden määrittäminen
-* [!INCLUDE[d365fin](includes/d365fin_md.md)]in ja Dynamics 365 for Salesin yhdistäminen
+* [!INCLUDE[d365fin](includes/d365fin_md.md)]in ja Dynamics 365 Salesin yhdistäminen
 * Määritä hyväksymistyönkulut  
 * Power BI:n käyttäminen [!INCLUDE[d365fin](includes/d365fin_md.md)]in kanssa  
 * Määritä sähköposti ja lähetä asiakirjoja suoraan [!INCLUDE[d365fin](includes/d365fin_md.md)]ista  

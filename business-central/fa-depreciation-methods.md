@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9c9d01e54aa43cbba722c459a2bf60be26433727
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 261fc147c4e940e4fce69e5a302d1d501f9c5597
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240974"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2302882"
 ---
 # <a name="depreciation-methods"></a>Poistotavat
 Saatavilla olevia poistomenetelmiä on kahdeksan:  
@@ -55,12 +55,12 @@ Jäljellä oleviksi poistopäiviksi lasketaan poistopäivien lukumäärä miinus
 Kirjanpitoarvoa voidaan vähentää kirjatulla arvonkorotuksella, arvonalennuksella, mukautettu 1- tai mukautettu 2 -summilla riippuen siitä, onko **Sisällytä poistolaskentaan** -kentästä poistettu aktivointi ja onko **Kirjanpitoarvon osa** -kenttä aktivoitu **KO:n kirjaustyypin asetukset** -sivulla. Laskenta takaa sen, että käyttöomaisuudelle tehdään kokonaispoisto poiston lopetuspäivämääränä.  
 
 ### <a name="fixed-yearly-percentage"></a>Kiinteä vuosittainen prosentti
-Jos syötät kiinteän vuosittaisen prosentin, ohjelma käyttää poistosumman laskemiseen seuraavaa laskukaavaa:  
+Jos annat kiinteän vuosittaisen prosentin, sovellus käyttää poistosumman laskemiseen seuraavaa laskukaavaa:  
 
 Poistosumma = (Tasapoisto-% x Poistopohja x Poistopäivien lkm) / (100 x 360)  
 
 ### <a name="fixed-yearly-amount"></a>Kiinteä vuosittainen summa
-Jos syötät kiinteän vuosittaisen summan, ohjelma käyttää poistosumman laskemiseen seuraavaa laskukaavaa:  
+Jos annat kiinteän vuosittaisen summan, sovellus käyttää poistosumman laskemiseen seuraavaa laskukaavaa:  
 
 Poistosumma = (Kiinteä poistosumma x Poistopäivien lukumäärä) / 360  
 
@@ -217,7 +217,7 @@ vuosi (2015):
 Tässä käytetään tasapoistosummaa, koska se on suurempi.  
 
 ## <a name="user-defined-depreciation"></a>Käyttäjän määrittämä poisto
-Ohjelmassa on ominaisuus, joka mahdollistaa käyttäjäkohtaisten poistomenetelmien määrittämisen.  
+Sovelluksessa on ominaisuus, joka mahdollistaa käyttäjäkohtaisten poistomenetelmien määrittämisen.  
 
 Käyttäjäkohtaisessa menetelmässä käytetään **Poistotaulukot**-sivu, johon tulee syöttää poistoprosentti kullekin jaksolle (kuukaudelle, vuosineljännekselle tai kirjanpitojaksolle).  
 
@@ -257,7 +257,7 @@ Hankintameno on 100 000 PVA ja poistoaika on viisi vuotta. Poisto lasketaan vuos
 
 * Poiston aloituspvm  
 
-Jos käytät käyttäjäkohtaista menetelmää, **Ens. käyttäjäkoht. poistopvm**- ja **Poiston aloituspvm**-kenttä tulee olla täytettynä **KO-poistokirjat**-sivulla. **Ens. käyttäjäkoht. poistopvm** -kenttää ja **Poistotaulukot**-sivun **Jakson pituus** -kentän sisältöä käytetään määrittämään poistolaskennassa käytettäviä aikavälejä. Näin varmistetaan, että ohjelma käynnistyy käyttämällä kaikkien omaisuuserien kohdalla määritettyä prosenttilukua samana päivänä. **Poiston aloituspvm** -kenttää käytetään laskemaan poistopäivien lukumäärä.  
+Jos käytät käyttäjäkohtaista menetelmää, **Ens. käyttäjäkoht. poistopvm**- ja **Poiston aloituspvm**-kenttä tulee olla täytettynä **KO-poistokirjat**-sivulla. **Ens. käyttäjäkoht. poistopvm** -kenttää ja **Poistotaulukot**-sivun **Jakson pituus** -kentän sisältöä käytetään määrittämään poistolaskennassa käytettäviä aikavälejä. Näin varmistetaan, että sovellus aloittaa määritetyn prosenttiosuuden käyttämisen samana päivinä kaikissa omaisuuserissä. **Poiston aloituspvm** -kenttää käytetään laskemaan poistopäivien lukumäärä.  
 
 Edellisessä esimerkissä sekä **Ens. käyttäjäkoht. poistopvm**- ja **Poiston aloituspvm** -kentissä on 1.1.01. Jos kuitenkin **Ens. käyttäjäkoht. poistopvm** -kentässä oli 1.1.10 ja **Poiston aloituspvm** -kentässä oli 1.4.11, tuloksena olisi:  
 
@@ -275,7 +275,7 @@ Edellisessä esimerkissä sekä **Ens. käyttäjäkoht. poistopvm**- ja **Poisto
 ## <a name="half-year-convention-depreciation"></a>Poisto puolivuotissopimusta käyttämällä
 Puolivuotissopimus-menetelmää käytetään vain, jos **KO-poistokirja**-sivun **Käytä puolivuotissopimusta** -kentässä on valintamerkki.  
 
-Tätä poistomenetelmää voidaan käyttää yhdessä seuraavien ohjelman poistomenetelmien kanssa:  
+Tätä poistomenetelmää voidaan käyttää yhdessä seuraavien sovelluksen poistomenetelmien kanssa:  
 
 * Tasapoisto  
 * Menojäännöspoisto 1  
@@ -343,7 +343,7 @@ Tässä käytetään tasapoistosummaa, koska se on suurempi.
 ## <a name="duplicating-entries-to-more-depreciation-books"></a>Tapahtumien monistaminen lisäpoistokirjoihin
 Jos poistokirjoja on kolme – B1, B2 ja B3 – ja jos haluat monistaa tapahtumia B1:stä B2:een ja B3:een, B2:n ja B3:n poistokirjakorttien **Osa monistusluettelosta** -kenttään voi lisätä rastin. Tämä voi olla hyödyllistä, jos poistokirja B1 on integroitu pääkirjanpidon kanssa, ja se käyttää käyttöomaisuuden KP-päiväkirjaa, eikä poistokirjoja B2 ja B3 ole integroitu pääkirjanpidon kanssa, ja ne käyttävät käyttöomaisuuden päiväkirjaa.  
 
-Kun käyttöomaisuuden KP-päiväkirjan B1:een syötetään tapahtuma ja **Käytä monistusluetteloa** -kenttään lisätään rasti, ohjelma monistaa KO-päiväkirjassa kirjassa B2 ja B3 olevan tapahtuman silloin, kun tapahtuma kirjataan.  
+Kun käyttöomaisuuden KP-päiväkirjan B1:een annetaan tapahtuma ja **Käytä monistusluetteloa** -kenttään lisätään valintamerkki, sovellus monistaa KO-päiväkirjan kirjassa B2 ja B3 olevan tapahtuman silloin, kun tapahtuma kirjataan.  
 
 > [!NOTE]  
 >   Samaan päiväkirjaan tai päiväkirjan erään, josta olet monistamassa, ei voi monistaa. Jos tapahtumia kirjataan käyttöomaisuuden KP-päiväkirjaan, ne voidaan monistaa KO-päiväkirjaan tai käyttöomaisuuden KP-päiväkirjaan muuta erää käyttämällä.  

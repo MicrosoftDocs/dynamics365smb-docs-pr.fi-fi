@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: d3c3a460cd13d0af16e38564d4b2fb0de367ed53
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: bdb6339715fd656a7c8e25b7d35b337c17da1b97
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252203"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311690"
 ---
 # <a name="work-with-service-contracts-and-service-contract-quotes"></a>Huoltosopimusten ja huoltosopimustarjousten käyttäminen
 Huoltosopimus voidaan luoda joko manuaalisesti tai huoltosopimustarjouksesta. Huoltosopimustarjousta voidaan käyttää huoltosopimuksen esiasteena, jossa yrityksesi tekee asiakkaalle tarjouksen ja joka tarvitsee asiakkaan hyväksynnän, ennen kuin se voidaan muuntaa huoltosopimukseksi. Tämän vuoksi huoltosopimus ja huoltotarjous luodaan pitkälti samalla tavoin.  
@@ -28,7 +28,7 @@ Huoltosopimus voidaan luoda joko manuaalisesti tai huoltosopimustarjouksesta. Hu
 3. Syötä **Nro** -kentässä. Näyttöön avautuu valintaikkuna, jossa kysytään, haluatko täyttää yleiset tiedot sopimusmallista. Jos haluat luoda tällaisen huoltosopimuksen tai huoltosopimustarjouksen, valitse **Kyllä**-painike. Näyttöön tulee **Huoltosopimusmallin luettelo** -sivu.  
 4. Valitse soveltuva malli ja luo sen avulla huoltosopimus tai huoltosopimustarjous valitsemalla **OK**.  
 5. Syötä **Asiakasnro** -kentässä asiakkaan valinta.  
-6. Jos et halua, että vuosittaisen summan ero jaetaan automaattisesti, valitse **Salli epätäsmäävät summat** -valintaruutu. Kenttien **Vuosittainen summa** ja **Laskettu vuosittainen summa** arvoja ei tasata automaattisesti. Jos haluat, että ohjelma jakaa huoltosopimuksen muuttamisesta johtuvan mahdollisen vuosittaisen summan eron automaattisesti, jätä **Salli epätäsmäävät summat** -valintaruutu tyhjäksi.  
+6. Jos et halua, että vuosittaisen summan ero jaetaan automaattisesti, valitse **Salli epätäsmäävät summat** -valintaruutu. Kenttien **Vuosittainen summa** ja **Laskettu vuosittainen summa** arvoja ei tasata automaattisesti. Jos haluat, että sovellus jakaa huoltosopimuksen muuttamisesta johtuvan mahdollisen vuosittaisen summan eron automaattisesti, jätä **Salli epätäsmäävät summat** -valintaruutu tyhjäksi.  
 7. Lisää sopimusrivejä huoltosopimukseen tai -sopimustarjoukseen.  
 8. Täytä muut kentät tarpeen mukaan.  
 

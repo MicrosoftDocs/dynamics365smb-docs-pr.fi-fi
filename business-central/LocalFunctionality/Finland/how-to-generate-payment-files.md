@@ -4,20 +4,20 @@ description: Voit lähettää toimittajille elektronisia maksuja, kun olet luonu
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/01/2017
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 88d6bb8e41ff1d039b0386a3213fe53570f5d289
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 05a7c3df891c4b1e960000fd7274402a852e479a
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237557"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300220"
 ---
 # <a name="generate-payment-files"></a>Maksutiedostojen luominen
 Voit lähettää toimittajille elektronisia maksuja, kun olet luonut kotimaan tai ulkomaan maksuille maksutiedoston.  

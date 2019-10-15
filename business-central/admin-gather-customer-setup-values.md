@@ -1,8 +1,6 @@
 ---
 title: Asiakkaan asetusarvojen kerääminen | Microsoft Docs
-description: Määrityskyselylomakkeen avulla vähennät toteutuksen kuormitusta virtaviivaistamalla uuden yrityksen määritystehtävän. Voit luoda määrityskyselylomakkeen Business Central -sovelluksessa ja toimittaa sen asiakkaalle Excel (.xls)- tai XML-tiedostona.
-services: project-madeira
-documentationcenter: ''
+description: Määrityskyselylomakkeen avulla vähennät toteutuksen kuormitusta virtaviivaistamalla uuden yrityksen määritystehtävän. Voit luoda määrityskyselylomakkeen Business Centralissa ja toimittaa sen asiakkaalle Excel (.xlsx)- tai XML-tiedostona.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6df4963c18e12efe4ddad68c6050776b45e7614c
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 8f333831c4e8aac1ba0eb4939131a9d80347441d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245570"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304634"
 ---
 # <a name="gather-customer-setup-values"></a>Asiakkaan asetusarvojen kerääminen
 Määrityskyselylomakkeen avulla vähennät toteutuksen kuormitusta virtaviivaistamalla uuden yrityksen määritystehtävän. Voit luoda määrityskyselylomakkeen [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmassa ja toimittaa sen asiakkaalle Excel-tai XML-tiedostona.  
@@ -75,7 +73,7 @@ Käytä määrityskyselylomaketta, kun muotoilet ja dokumentoit yksityiskohtaise
 2. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Määrityskysely** ja valitse sitten liittyvä linkki.  
 3. Valitse yrityksen kysely ja valitse sitten **Vie Exceliin** -toiminto tai vaihtoehtoisesti **Vie XML-muotoon** -toiminto.
 4. Pyydä asiakasta täyttämään määrityskyselylomake antamalla vastaukset Excel-työkirjaan. Jokaiselle kysymyslomaketta varten luodulle kysymysalueelle on olemassa työkirjoja.   
-5. Valitse **Tuo Excelistä** -toiminto ja valitse asiakkaan vastaukset sisältävä .xlsx-tiedosto.  
+5. Tallenna Excel-työkirja *XML-tietona*. Valitse **Tuo XML-tiedostosta** -toiminto ja valitse asiakkaan vastaukset sisältävä .xml-tiedosto.
 6. Valitse **Kysymysalueet**-toiminto, jos haluat aloittaa vastausten tarkistamisen ja kohdistamisen määrityskyselylomakkeeseen.  
 
 ## <a name="to-complete-a-questionnaire-from-the-configuration-worksheet"></a>Täydennä kyselylomake määritystyökirjasta  

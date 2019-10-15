@@ -8,31 +8,33 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 09/06/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e6919dd3e09fcf13bf07b051abfea90a5a35eb01
-ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
+ms.openlocfilehash: f0c021edd416daff4b40dee6f4a541b4e3e8bc32
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "1985908"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309458"
 ---
 # <a name="keyboard-shortcuts"></a>Pikanäppäimet
 Tässä artikkelissa käsitellään yleisesti [!INCLUDE[prodshort](includes/prodshort.md)] -ohjelman joitakin pikanäppäinyhdistelmiä.
 
 > [!TIP]
-> Jos haluat nopean tulostettavan yleiskatsauksen suosituimmista pikanäppäimistä, [siirry viiteartikkeliin täällä](keyboard-shortcuts-cheatsheet.md) tai napsauta seuraavaa kuvaa:
+> Kätevä, tulostettava yleiskuvaus tietokonekäyttäjien eniten käyttämistä pikanäppäimistä on kohdassa [Pikanäppäimet (vain tietokone)](keyboard-shortcuts-cheatsheet.md). Avaa pikanäppäimien graafinen esitys valitsemalla seuraava kuva:
 >
 >[ ![Lataa tulostettava versio napsauttamalla hiiren kakkospainiketta ja valitsemalla Tallenna kuva nimellä](media/bckeyboardmap-inline.png) ](media/bckeyboardmap.png#lightbox)
 
 ## <a name="overview"></a>Yleiskuvaus
-Pikanäppäimet ovat helppokäyttötoimintoja. Ne auttavat ja tehostavat sivun eri alueiden ja elementtien välillä siirtymistä.
+Pikanäppäimet ovat helppokäyttötoimintoja. Ne auttavat ja tehostavat sivun eri alueiden ja elementtien välillä siirtymistä. Useimmat selaimet tukevat pikanäppäimiä, joskin niiden toiminta voi vaihdella jonkin verran eri selaimissa.
 
-Useimmat selaimet tukevat pikanäppäimiä. Toiminta voi kuitenkin olla eri selaimissa hieman erilaista.
+> [!NOTE]
+> Tässä käsitellyt pikanäppäimet viittaavat yhdysvaltaiseen näppäimistöön. Muiden näppäimistöjen näppäimet eivät ehkä vastaa täsmälleen yhdysvaltalaisen näppäimistön näppäimiä.
 
-Tässä käsitellyt pikanäppäimet viittaavat yhdysvaltaiseen näppäimistöön. Muiden näppäimistöjen näppäimet eivät ehkä vastaa täsmälleen yhdysvaltalaisen näppäimistön näppäimiä.
+Useimmat pikanäppäimet ovat samoja sekä Windows- että macOS-käyttöjärjestelmissä. Jotkin pikanäppäimet ovat kuitenkin erilaisia macOS-järjestelmässä. Seuraavissa osa macOS-käyttöjärjestelmän pikanäppäimet ovat sulkeissa.
 
-Useimmat pikanäppäimet ovat samoja sekä Windows- että macOS-käyttöjärjestelmässä. Jotkin Windows-käyttöjärjestelmän pikanäppäimet kuitenkin ovat erilaisia macOS-käyttöjärjestelmässä. Nämä on esitetty seuraavien osien taulukoissa sulkeissa.
+> [!NOTE]
+> Tässä ohjeaiheessa käsiteltyjen yleisten pikanäppäimien lisäksi käytössä on useita liiketoimintakohtaisia pikanäppäimiä. Esimerkiksi [!INCLUDE[prodshort](includes/prodshort.md)]in yleisessä versiossa F9 kirjaa asiakirjan ja CTRL+F7 näyttää tietueen rahoitustapahtumat. (Käyttämässäsi ratkaisussa voi olla käytössä jotkin muut pikanäppäimet.) Pikanäppäin näkyy kyseisen toiminnon työkaluvihjeessä.
 
 ##  <a name="Keyboard"></a> Yleiset pikanäppäimet
 Seuraavassa taulukossa kuvataan pikanäppäimet, joiden avulla voi käyttää sivun eri elementtejä, kuten toimintoja, avattavia luetteloita ja hakuja, ja siirtyä niiden välillä. Lisätietoja luettelon tietueiden välillä siirtymisessä käytettävistä pikanäppäimistä on seuraavassa osassa.
@@ -40,17 +42,24 @@ Seuraavassa taulukossa kuvataan pikanäppäimet, joiden avulla voi käyttää si
 |Paina näitä näppäimiä<br />(macOS)|Tehtävä|
 |----------------|-----------|
 |Alt+alanuoli|Avaa avattava luettelo tai hae kentän arvo.|    
-|Alt+Oikea nuoli|Näet tapahtumat, joiden perusteella kentän arvo laskettiin.|  
-|Alt+F2|Näytä ja piilota tietoruutu.|
-|Alt+Q<br />(Ctrl+Alt+Q)|Avaa **Kerro, mitä haluat tehdä** -ruutu. Sen avulla voit etsiä sivun, raportin tai toiminnon nykyisellä sivulla tai artikkelin dokumentaatiossa.|
-|Alt+T|Avaa **Omat asetukset** -sivu.|
 |Alt+ylänuoli|Näyttää taulukokon kentän tai sarakeotsikon työkaluvihjeen. Jos kentässä on tarkistusvirheitä, tarkistusvirhe tulee näkyviin näppäinyhdistelmällä Alt+ylänuoli. Sulje työkaluvihje painamalla Esc-näppäintä tai näppäinyhdistelmää Alt+ylänuoli.|
+|Alt+F2|Näytä ja piilota tietoruutu.|
+|Alt+Vaihto+F2|Siirry tietoruudun **tietojen** ja **liitteiden** välillä.|
+|Alt+O|Lisää uusi muistio valittuun tietueeseen, vaikka tietoruutu ei olisi auki.|
+|Alt+Q<br />(Ctrl+Optio+Q)|Avaa **Kerro, mitä haluat tehdä** -ikkuna. Lisätietoja on kohdassa [Sivujen ja tietojen etsiminen Kerro, mitä haluat tehdä -toiminnolla](ui-search.md).|
+|Alt+N |Luo uusi tietue avaamalla sivu. (Vastaa **Uusi**- ja **+**-toimintojen valitsemista.)
+|Alt+Vaihto+N |Sulje juuri luotu sivu ja luo uusi tietue avaamalla uusi sivu.
+|Alt+T|Avaa **Omat asetukset** -sivu.|
+|Alt+Oikea nuoli|Etsi sen kentän lisätietoja tai taustalla olevia arvoja, joka sisältää ![AssistEdit](media/assist-edit-icon.png "AssistEdit-painike") -painikkeen. Tätä pikanäppäintä käytetään silloin, kun tavallista avattavan luettelon painiketta (Alt+alanuoli) käytetään samassa kentässä toiseen tarkoitukseen.|
+|Shift+F12|Avaa ominaisuuden yleiskuvaus. Lisätietoja on kohdassa [Sivujen etsiminen toiminnon yleiskatsauksessa](ui-role-explorer.md).|
+|Ctrl+Alt+Vaihto+C|Näytä yrityksen tunnuksessa olevat tiedot.|
 |Ctrl+Alt+F1|Avaa ja sulje sivun tarkastusruutu Sivun tarkastusruudussa on tietoja sivusta, kuten sen lähdetaulukko, kentät, suodattimet ja laajennukset.<br /><br />Lisätietoja on kohdassa [Tarkastussivut](across-inspect-page.md).|
 |Ctrl+C |Kopioi kentän arvo. Jos kohdistus on kentässä etkä ole valinnut kentässä tekstiä, koko arvo kopioidaan. Jos olet valinnut kentässä tekstiä, vain valittu teksti valitaan.|
 |Ctrl+F1|Avaa sivun Business Central -ohje.|
-|Ctrl+F5|[!INCLUDE[prodshort](includes/prodshort.md)] -sovellus ladataan uudelleen.<br/><br />Tämä vastaa selaimen päivittämistä tai sivun uudelleen avaamista.|
-|F5|Tietojen päivitys nykyisellä sivulla.<br /><br />Voit varmistaa tällä tavoin, että sivulla näkyvät tiedot sisältävät kaikki muiden oman työskentelysi aikana tekemät muutokset.|
 |Ctrl+F12|Vaihtele leveää ja kapeaa asettelua.|
+|Ctrl+napsautus|Siirry mukautusten aikana, kun nuolenpää osoittaa toiminnon valinnan. Lisätietoja on kohdassa [Työtilan mukauttaminen](ui-personalization-user.md).|  
+|Ctrl+F5|[!INCLUDE[prodshort](includes/prodshort.md)] -sovellus ladataan uudelleen. (Vastaa selaimen päivittämistä tai sivun uudelleen avaamista selaimessa.)|
+|F5|Tietojen päivitys nykyisellä sivulla.<br /><br />Voit varmistaa tällä tavoin, että sivulla näkyvät tiedot sisältävät kaikki muiden oman työskentelysi aikana tekemät muutokset.|
 |Syötä|Ota kohdistettu elementti tai ohjausobjekti käyttöön tai käytä sitä.|
 |Esc|Sulje nykyinen sivu tai avattava luettelo.|
 |Sarkain|Siirrä kohdistus sivun seuraavaan ohjausobjektiin tai elementtiin, kuten toimintoon, painikkeeseen, kenttään tai luettelon otsikkoon.|
@@ -68,8 +77,8 @@ Seuraavassa taulukossa kuvataan luettelosivulla käytettävät pikanäppäimet. 
 |Paina näitä näppäimiä<br />(macOS)|Luettelonäkymän toiminnot|Ruutunäkymän toiminnot |
 |-----------------|-------|-------|
 |Alt+F7 |Lajittele valittu sarake nousevaan tai laskevaan järjestykseen.|Ei sovellu.|
-|Shift+F10 |Avaa valitulla rivillä käytettävissä olevien asetusten valikko.|Ei sovellu.|
-|Alt+N |Avaa uuden tietueen luontisivu; samalla tavalla valitaan **Uusi**-toiminto. |Sama.|
+|Alt+N|Lisää uusi rivi muokattavaan luetteloon, kuten **KP-budjetit**-sivulle.|Sama.|
+|Shift+F10 |Avaa valitulla rivillä käytettävissä olevien asetusten valikko.|Sama.|
 
 ### <a name="navigateshortcuts"></a>Rivien ja sarakkeiden välillä siirtyminen
 
@@ -100,12 +109,12 @@ Seuraavassa taulukossa kuvataan luettelosivulla käytettävät pikanäppäimet. 
 |Ctrl+ alanuoli<br />(Ctrl+Cmd+alanuoli)|Siirrä kohdistus alempaan riviin ja pidä nykyinen rivi valittuna.|Ei sovellu.|
 |Ctrl+välilyönti<br />(Ctrl+Cmd+välilyönti)|Laajentaa valitut rivit sisältämään rivin, jolla on kohdistus.<br /><br />Voit käyttää tätä sen jälkeen, kun valinta on laajennettu käyttämällä yhdistelmää Ctrl+ylänuoli tai Ctrl+alanuoli.|Ei sovellu.|
 |Ctrl+A|Valitse kaikki rivit.|Ei sovellu.|
+|Ctrl+C<br />(Cmd+C)|Kopioi valitut rivit leikepöydälle.|Kyllä mutta vain yksi valittu ruutu.|
+|Ctrl+V<br />(Cmd+V)|Liitä valitut rivit leikepöydältä nykyiselle sivulle tai ulkoiseen asiakirjaan, kuten Microsoft Excel -asiakirjaan tai Outlook-sähköpostiviestiin. Tämän voi tehdä vain muokattavissa luetteloissa.|Ei sovellu.|
 |Vaihto+ylänuoli|Laajentaa valitut rivit, myös alapuolella olevan rivin.|Ei sovellu.|
 |Vaihto+alanuoli|Laajentaa valitut rivit, myös yläpuolella olevan rivin.|Ei sovellu.|
 |Vaihto+sivu ylös<br />(Vaihto+Fn+ylänuoli)|Laajenna rivien valinta niin, että se sisältää kaikki valittujen rivien yläpuolella olevat näkyvissä olevat rivit.|Ei sovellu.|
 |Vaihto+sivu alas<br />(Vaihto+Fn+alanuoli)|Laajenna rivien valinta niin, että se sisältää kaikki valittujen rivien alapuolella olevat näkyvissä olevat rivit.|Ei sovellu.|
-|Ctrl+C<br />(Cmd+C)|Kopioi valitut rivit leikepöydälle.|Ei sovellu.|
-|Ctrl+V<br />(Cmd+V)|Liitä valitut rivit leikepöydältä nykyiselle sivulle tai ulkoiseen asiakirjaan, kuten Microsoft Excel -asiakirjaan tai Outlook-sähköpostiviestiin. Tämän voi tehdä vain muokattavissa luetteloissa.|Ei sovellu.|
 |F8|Kopioi kenttä yläpuolella olevan rivin samasta sarakkeesta ja liitä se nykyiselle riville. Tämän voi tehdä vain muokattavissa luetteloissa. Tämän pikanäppäimen ja Tab-näppäimen avulla voit täyttää nopeasti niiden rivinimikkeiden kentät, joihin haluat samat arvot kuin yllä olevalla rivillä.|Ei sovellu.|
 
 ### <a name="KeyboardFilter"></a>Luetteloiden lajitteleminen ja luetteloista hakeminen
@@ -122,16 +131,19 @@ Seuraavassa taulukossa kuvataan luettelosivulla käytettävät pikanäppäimet. 
 
 ## <a name="keyboard-shortcuts-in-cards-and-documents"></a>Korttien ja asiakirjojen pikanäppäimet
 
-Seuraavilla pikanäppäimillä voi näyttää ja muokata tietueita korttisivuilla (kuten **Asiakas**) ja asiakirjasivuilla (kuten **Myyntitilaus**).
+Seuraavilla pikanäppäimillä voi näyttää ja muokata tietueita korttisivuilla, kuten **Asiakaskortti**, ja asiakirjasivuilla, kuten **Myyntitilaus**.
 
 |Paina näitä näppäimiä<br />(macOS)|Tehtävä|
 |----------------|-----------|
-|Alt+F6|Tiivistä ja laajenna nykyinen pikavälilehti.|
-|Alt+N |Avaa uuden tietueen luontisivu; samalla tavalla valitaan **Uusi**-toiminto. |
-|Alt+Vaihto+N |Sulje nykyinen korttisivu kortti ja luo uusi objekti; samoin valitaan taaksepäin osoittava nuoli ja sitten **Uusi**-toiminto.|
+|Alt+F6|Vaihtele nykyisen pikavälilehden tiivistystä ja laajennusta.|
+|Alt+N |Lue uusi tietue avaamalla sivu; vastaa **Uusi**-toiminnon valitsemista. |
+|Alt+Vaihto+N |Sulje sivu ja luo uusi tietue avaamalla uusi sivu; vastaa **OK ja uusi**-toiminnon valitsemista. |
+|Alt+Vaihto+W |Avaa nykyinen kortti tai asiakirja uudessa ikkunassa. Lisätietoja on kohdassa [Monen tehtävää yhtä aikaa useilla sivuilla](ui-enter-data.md#multitasking-across-multiple-pages).|
 |Ctrl+ alanuoli|Avaa objektin seuraava tietue.|
 |Ctrl + Ylänuoli |Avaa objektin edellinen tietue.|
-|Ctrl+Shift+F12 |Suurenna asiakirjasivun, kuten myyntitilauksen tai laskun, rivinimikeosa. Muut sivun osat piilotetaan ja rivinimikeosa laajentuu koko työtilaan. Palaa normaalinäyttöön painamalla näppäimiä uudelleen.<br /><br />Lisätietoja on kohdassa [Kohdistaminen rivinimikkeisiin](ui-enter-data.md#Focus).|
+|Ctrl+Insert |Lisää uusi rivi asiakirjoihin.|
+|Ctrl+Delete |Poista asiakirjojen, päiväkirjojen ja työkirjojen rivi.|
+|Ctrl+Shift+F12 |Suurenna asiakirjasivun rivinimikeosa. Palaa normaalinäyttöön painamalla näppäimiä uudelleen. Lisätietoja on kohdassa [Kohdistaminen rivinimikkeisiin](ui-enter-data.md#Focus).|
 |F6|Siirry seuraavaan pikavälilehteen tai osaan (tai alisivulle).|
 |Shift+F6|Siirry edelliseen pikavälilehteen tai osaan (tai alisivulle).|
 
@@ -145,21 +157,13 @@ Seuraavat pikanäppäimet koskevat korttien, asiakirjojen ja luettelosivujen pik
 |Vaihto+Enter|Vahvista nykyisen kentän arvo ja siirry edelliseen pikatapahtumakenttään.||
 |Ctrl+Vaihto+Enter|Vahvista nykyisen sarakkeen arvo ja siirry seuraavaan luettelon ulkopuoliseen pikatapahtumakenttään.<br /><br />Tämä pikanäppäin koskee sivulle upotettuja luetteloita, kuten myyntitilauksen rivinimikkeitä. Voit poistua sen avulla nopeasti luettelosta ja jatkaa tietojen lisäämistä sivun muihin kenttiin.|
 
-## <a name="keyboard-shortcuts-in-worksheets"></a>Työkirjojen pikanäppäimet
-
-Seuraavia pikanäppäimiä voi käyttää vain työkirjasivuilla, kuten **nimikepäiväkirjoissa**.
-
-|Paina näitä näppäimiä<br />(macOS)|Tehtävä|  
-|----------------|-----------|  
-|Ctrl+Delete| Poista rivinimike.|
-
 ## <a name="a-namecalendarshortcuts-keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"/> Pikanäppäimet kalenterissa (päivämäärän valitsin)
 
 Päivämääräkenttää määrittäessäsi voit syöttää päivämäärän manuaalisesti tai avata kalenterin (päivämäärän valitsin), jonka avulla voit valita haluamasi päivämäärän. Seuraavassa taulukossa kuvataan kalenterin pikanäppäimet.
 
 |Paina näitä näppäimiä<br />(macOS)|Tehtävä|
 |-----------------|-------|
-|Ctrl+Home|Avaa kalenteri, jos se on suljettu.|
+|Ctrl+Home|Avaa kalenteri, jos se on suljettu. **Huomautus**: ei toimi, jos päivämääräkenttä on ruudukossa, jossa Ctrl+Home siirtää ensimmäiselle riville.|
 |Ctrl+Home<br />(Cmd + Home)|Siirry nykyisen kuukauden tähän päivään.|
 |Ctrl+vasen nuoli<br />(Cmd + Vasen nuoli)|Siirry edelliseen päivään.|
 |Ctrl+Oikea nuoli<br />(Cmd + Oikea nuoli)|Siirry seuraavaan päivään.|
@@ -192,7 +196,7 @@ Päivämääräkenttää määrittäessäsi voit syöttää päivämäärän man
 |Sivu ylös<br />(Fn+ylänuoli)|Siirry raportissa edelliselle sivulle.|
 
 ## <a name="see-also"></a>Katso myös .
-
+[Näppäimistön Pikaohje - Vain PC](keyboard-shortcuts-cheatsheet.md)  
 [Aputoiminnot](ui-accessibility.md)  
 [Käytön aloittaminen](product-get-started.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  

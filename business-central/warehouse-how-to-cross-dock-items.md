@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9e7bf29f6412c895ca1454ca007951b03a98669b
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 49e67bbdcf67b750f0de0d0c890df00281e381e6
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248983"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310370"
 ---
 # <a name="cross-dock-items"></a>Nimikkeiden laiturointi
 Laiturointitoiminto on käytettävissä, jos olet määrittänyt fyysisen varastoinnin vastaanoton ja hyllytyksen käsittelyn pakolliseksi sijainnissa.  
@@ -34,7 +34,7 @@ Jos olet lisännyt rastin sijaintikortin  **Käytä hyllytystyökirjaa** -kentt�
 
 Kun kirjaat fyysisen varaston vastaanoton (**Käytä hyllytystyökirjaa** -kentässä ei ole rastia), laituroitavat nimikkeet tulevat näkyviin hyllytysohjeeseen erillisinä riveinä. Jokaisen hyllytysrivin **Laiturointitiedot**-kentässä näkyy, onko rivillä laiturointinimikkeitä, nimikkeitä samasta vastaanotosta, jotka kaikki tulee varastoida, vai varastoitavia nimikkeitä, jotka ovat peräisin vastaanottoriviltä, josta joitain nimikkeitä laituroidaan. Tämän kentän avulla työntekijät näkevät helposti, miksi koko vastaanottomäärää ei sijoiteta varastoon.  
 
-Ohjelma ei ylläpidä erillisiä tietueita nimikkeistä, jotka on laituroitu, vaan se rekisteröi ne tavallisiksi hyllytysohjeiksi.  
+Sovellus ei ylläpidä erillisiä tietueita nimikkeistä, jotka on laituroitu, vaan se rekisteröi ne tavallisiksi hyllytysohjeiksi.  
 
 ## <a name="to-set-up-the-warehouse-for-cross-docking"></a>Fyysisen varastoinnin määrittäminen laiturointia varten  
 1.  Määritä ainakin yksi laiturointivarastopaikka, jos käytät varastopaikkoja. Määritä laiturointialue, jos käytät ohjattua hyllytystä ja poimintaa.  
@@ -96,7 +96,7 @@ Jos käytät varastopaikkoja, näet aina toimituksen tai poimintatyökirjan avau
 
 Etsi nimikkeitä laiturointialueelta, ennen kuin poimit niitä toimitusta varten. Jos olet huomioinut vastaanottoprosessin aikana lähdeasiakirjat, jotka toimivat laituroinnin pohjana, tiedät paremmin, löytyykö nimike laiturointialueelta.  
 
-Kun tuotantotilaus on vapautettu, rivit ovat saatavilla poimintatyökirjassa. **Määrä laitur.var.paikassa** -kentässä näet, ovatko odottamasi nimikkeet saapuneet ja onko ne sijoitettu laiturointivarastopaikkoihin. Kun luot poimintaohjeen, ohjelma ehdottaa, että ensin poimitaan laituroidut nimikkeet ja vasta myöhemmin nimikettä haetaan varaston varastopaikoista.  
+Kun tuotantotilaus on vapautettu, rivit ovat saatavilla poimintatyökirjassa. **Määrä laitur.var.paikassa** -kentässä näet, ovatko odottamasi nimikkeet saapuneet ja onko ne sijoitettu laiturointivarastopaikkoihin. Kun luot poimintaohjeen, sovellus ehdottaa, että ensin poimitaan laituroidut nimikkeet ja nimikettä haetaan vasta myöhemmin varaston varastopaikoista.  
 
 Jos et käytä varastopaikkoja, muista tarkastaa laiturointialue ajoittain tai turvaudu vastaanottoilmoituksiin siitä, että tuotannon nimikkeet ovat saapuneet.  
 

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 529f1c71111fd6ea0b93e7d29d2f5f6b6f1df3ae
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 025b8fb9100d8418e9e157e8098afe19d24843fc
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247489"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303746"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Rakennetiedot: suunnittelujärjestelmän keskeiset käsitteet
 Suunnittelutoiminnot on sisällytetty eräajoon, joka ensin valitsee asiaankuuluvat nimikkeet ja ajanjaksot, jotka suunnitellaan. Eräajo kutsuu koodiyksikköä kunkin nimikkeen alatason koodin (tuotantorakenteen positio) mukaisesti ja laskee suunnitelman täsmäyttämällä tarjonta- ja kysyntäjoukot ja ehdottaa käyttäjälle mahdollisia toimintatapoja. Ehdotetut toimenpiteet ilmestyvät riveinä suunnittelutaulukkoon tai tilaustaulukkoon.  
@@ -26,7 +26,7 @@ Suunnittelutoiminnot on sisällytetty eräajoon, joka ensin valitsee asiaankuulu
 
 Yrityksen suunnittelijan, kuten ostaja tai tuotantosuunnittelija, oletetaan olevan suunnittelujärjestelmän käyttäjä. Suunnittelujärjestelmä auttaa käyttäjää suorittamaan laajat, mutta melko suoraviivaiset suunnitelman laskelmat. Tämän jälkeen käyttäjä voi keskittyä ratkaisemaan vaikeampia ongelmia, kuten esimerkiksi poikkeustilanteiden hallintaa.  
 
-Suunnittelujärjestelmää ohjaa ennakoitu ja nykyinen asiakaskysyntä, kuten ennuste ja myyntitilaukset. Kun suunnitelma lasketaan, ohjelma ehdottaa käyttäjälle tiettyjä toimenpiteitä, jotka liittyvät mahdollisiin toimittajien toimituksiin, kokoonpanoon tai tuotanto-osastoihin tai siirtoihin muista varastoista. Näiden ehdotettujen toimintojen avulla voi luoda uusia toimitustilauksia, kuten osto- tai tuotantotilauksia. Jos toimitustilauksia on jo tehty, ehdotettuja toimenpiteitä voivat olla tilausten lisääminen tai vauhdittaminen muuttuneen kysynnän mukaisiksi.  
+Suunnittelujärjestelmää ohjaa ennakoitu ja nykyinen asiakaskysyntä, kuten ennuste ja myyntitilaukset. Kun suunnitelma lasketaan, sovellus ehdottaa käyttäjälle tiettyjä toimenpiteitä, jotka liittyvät mahdollisiin toimittajien toimituksiin, kokoonpanoon tai tuotanto-osastoihin tai siirtoihin muista varastoista. Näiden ehdotettujen toimintojen avulla voi luoda uusia toimitustilauksia, kuten osto- tai tuotantotilauksia. Jos toimitustilauksia on jo tehty, ehdotettuja toimenpiteitä voivat olla tilausten lisääminen tai vauhdittaminen muuttuneen kysynnän mukaisiksi.  
 
 Suunnittelujärjestelmän toinen tavoite on varmistaa, että varasto ei kasva tarpeettoman suureksi. Jos kysyntä vähenee, suunnittelujärjestelmä ehdottaa käyttäjälle olemassa olevien toimitustilausten lykkäämistä, pienentämistä tai peruuttamista.  
 
@@ -66,7 +66,7 @@ Dynaamisen tilausten hallinnan käyttäminen tarjonnan suunnitteluun saattaa rii
 ### <a name="dynamic-order-tracking-versus-the-planning-system"></a>Dynaaminen tilausseuranta verrattuna suunnittelujärjestelmään  
 Yhdellä silmäyksellä saattaa olla vaikea erottaa suunnittelujärjestelmää ja dynaamista tilauksen seurantaa. Molemmat ominaisuudet näyttävät tulosteen suunnittelutyökirjalla ehdottamalla toimia, jotka suunnittelijan tulisi suorittaa. Tämän tuotoksen tuotantotapa kuitenkin poikkeaa.  
 
-Suunnittelujärjestelmä käsittelee nimikkeen koko kysyntä- ja tarjontamallin kaikilla BOM-hierarkian tasoilla aikajanalla, kun taas dynaaminen tilauksenseuranta tarttuu vain siihen tilauksen tilanteeseen, joka on aktivoinut sen. Suunnittelujärjestelmä luo kysynnän ja tarjonnan täsmäytyksen yhteydessä linkin käyttäjän aktivoimaan erätilaan, kun taas dynaaminen tilausseuranta luo linkit automaattisesti lennossa aina, kun käyttäjä syöttää ohjelmaan kysynnän tai tarjonnan, kuten myynti- tai ostotilauksen.  
+Suunnittelujärjestelmä käsittelee nimikkeen koko kysyntä- ja tarjontamallin kaikilla BOM-hierarkian tasoilla aikajanalla, kun taas dynaaminen tilauksenseuranta tarttuu vain siihen tilauksen tilanteeseen, joka on aktivoinut sen. Suunnittelujärjestelmä luo kysynnän ja tarjonnan täsmäytyksen yhteydessä linkin käyttäjän aktivoimaan erätilaan, kun taas dynaaminen tilausseuranta luo linkit automaattisesti lennossa aina, kun käyttäjä syöttää sovellukseen kysynnän tai tarjonnan, kuten myynti- tai ostotilauksen.  
 
 Dynaaminen tilausseuranta luo kysynnän ja tarjonnan väliset linkit tietojen kirjoituksen aikana saapumisjärjestyksen perusteella. Tämän vuoksi prioriteetit saattavat muuttua. Esimerkiksi ensin kirjoitettu myyntitilaus, jonka eräpäivä on seuraavassa kuussa, saatetaan linkittää varaston tarjontaan, kun taas seuraava huomenna erääntyvä myyntitilaus voi aiheuttaa toimenpideviestin uuden ostotilauksen luomiseksi, kuten alla on esitetty.  
 
@@ -97,9 +97,9 @@ Lisätietoja tuotantonäkökohdista on kohdassa [Rakennetiedot: varastoprofiilie
 ### <a name="locations--transfer-level-priority"></a>Sijainnit/siirtotason prioriteetti  
 Yritysten, jotka toimivat useammassa kuin yhdessä paikassa, on ehkä suunniteltava jokaiselle paikalle erikseen. Esimerkiksi nimikkeen varmuusvaraston taso ja sen uusintatilaustapa saattaa vaihdella sijainnista toiseen. Tässä tapauksessa suunnitteluparametrit on määritettävä nimike- ja sijaintikohtaisesti.  
 
-Tätä tuetaan varastointiyksiköiden käytön kanssa silloin, kun yksittäisen suunnitteluparametrit voidaan määrittää varastointiyksikön tasolla. Varastointiyksikkö voidaan tulkita nimikkeeksi tietyssä paikassa. Jos käyttäjä ei ole määritetty varastointiyksikköä tälle sijainnille, ohjelma käyttää nimikkeen kortissa asetettuja oletusarvoisia parametreja. Ohjelma laskee suunnitelman vain aktiivisille sijainneille, joissa on olemassa oleva kysyntä tai tarjonta annetulle nimikkeelle.  
+Tätä tuetaan varastointiyksiköiden käytön kanssa silloin, kun yksittäisen suunnitteluparametrit voidaan määrittää varastointiyksikön tasolla. Varastointiyksikkö voidaan tulkita nimikkeeksi tietyssä paikassa. Jos käyttäjä ei ole määritetty varastointiyksikköä tälle sijainnille, sovellus käyttää nimikkeen kortissa määritettyjä oletusparametreja. Sovellus laskee suunnitelman vain aktiivisille sijainneille, joissa on olemassa oleva kysyntä tai tarjonta annetulle nimikkeelle.  
 
-Periaatteessa mikä tahansa nimike voidaan käsitellä missä tahansa sijainnissa mutta ohjelman suhtautuminen sijaintikäsitteeseen on melko tarkka. Esimerkiksi myyntitilausta yhdessä sijainnissa ei voida täyttää jollakin toisessa sijainnissa olevalla varastomäärällä. Varaston määrä tulee ensin siirtää myyntitilauksessa määritettyyn sijaintiin.  
+Periaatteessa mikä tahansa nimike voidaan käsitellä missä tahansa sijainnissa mutta sovelluksen suhtautuminen sijaintikäsitteeseen on tiukka. Esimerkiksi myyntitilausta yhdessä sijainnissa ei voida täyttää jollakin toisessa sijainnissa olevalla varastomäärällä. Varaston määrä tulee ensin siirtää myyntitilauksessa määritettyyn sijaintiin.  
 
 ![Varastointiyksiköiden suunnittelu](media/NAV_APP_supply_planning_1_SKU_planning.png "Varastointiyksiköiden suunnittelu")  
 
@@ -124,7 +124,7 @@ Jos käyttäjä on kirjoittanut uuden myyntitilauksen tai muuttanut olemassa ole
 
 Suunnittelujärjestelmä tarkkailee tällaisia tapahtumia ja määrittää nimikkeet suunnitelmalle.  
 
-Useiden sijaintien kohdalla, määritys tapahtuu nimikkeen tasolla sijaintiyhdistelmää kohti. Jos esimerkiksi myyntitilaus on luotu vain yhdessä sijainnissa, ohjelma määrittää suunnittelulle tässä tietyssä sijainnissa olevan nimikkeen.  
+Useiden sijaintien kohdalla, määritys tapahtuu nimikkeen tasolla sijaintiyhdistelmää kohti. Jos esimerkiksi myyntitilaus on luotu vain yhdessä sijainnissa, sovellus määrittää suunnittelulle tässä tietyssä sijainnissa olevan nimikkeen.  
 
 Syy valita nimikkeitä suunnittelua varten on järjestelmän toimintaseikka. Jos nimikkeen kysyntä–tarjonta-mallissa ei ole tapahtunut muutosta, suunnittelujärjestelmä ei ehdota toimenpiteitä. Ilman suunnittelun tehtävää järjestelmän on suoritettava laskennat kaikille nimikkeille suunnitelmaa ja järjestelmän resurssit kuluttavaa tilannetta määritettäessä.  
 
@@ -146,7 +146,7 @@ Kysynnällä ja tarjonnalla saattaa olla varianttikoodeja, jotka on otettava huo
 
 Järjestelmä käsittelee variantti- ja sijaintikoodeja nimikedimensioina esimerkiksi myyntitilausrivillä ja inventointitapahtumassa. Näin ollen se laskee suunnitelman jokaisen variantin ja sijainnin yhdistelmän osalta kuin yhdistelmä olisi erillinen nimikenumero.  
 
-Sen sijaan, että laskettaisi teoreettinen varianttien ja sijaintien yhdistelmä, ohjelma laskee vain ne yhdistelmät, jotka ovat todellisuudessa tietokannassa.  
+Sen sijaan että laskettaisi teoreettinen varianttien ja sijaintien yhdistelmä, sovellus laskee vain ne yhdistelmät, jotka ovat todellisuudessa tietokannassa.  
 
 Lisätietoja suunnittelujärjestelmän tavasta käsitellä kysynnän sijaintikoodeja on kohdassa [Rakennetiedot: kysyntä tyhjä-sijainnissa](design-details-balancing-demand-and-supply.md).  
 
@@ -252,7 +252,7 @@ Huomautus-varoitus tulee näkyviin kolmessa tilanteessa:
 ## <a name="error-logs"></a>Virhelokit  
 Laske suunnitelma -pyyntösivulla käyttäjä voi valita **Pysäytä ja Näytä ensimmäinen virhe**-kentän, jotta suunnitelman ajo pysähtyy, kun se kohtaa ensimmäisen virheen. Samalla näyttöön tulee sanoma, jossa on tietoja virheestä. Virhetilanteessa vain ennen virheen ilmenemistä tehdyt onnistuneet suunnittelurivit esitetään suunnittelutyökirjassa.  
 
-Jos kenttää ei ole valittu, Laske suunnitelma -eräajo jatkaa suoritusta loppuun asti. Virheet eivät keskeytä eräajoa. Jos virheitä ilmenee, ohjelma tuo eräajon jälkeen näkyviin sanoman, jossa ilmoitetaan kuinka useaan nimikkeeseen virheet vaikuttavat. Tämän jälkeen avautuu **Suunnittelun virheloki** -sivu, jossa on lisätietoja virheestä ja linkit vaikutusalueeseen kuuluviin asiakirjoihin tai asetuskortteihin.  
+Jos kenttää ei ole valittu, Laske suunnitelma -eräajo jatkaa suoritusta loppuun asti. Virheet eivät keskeytä eräajoa. Jos virheitä ilmenee, sovellus tuo eräajon jälkeen näkyviin sanoman, jossa ilmoitetaan kuinka moneen nimikkeeseen virheet vaikuttavat. Tämän jälkeen avautuu **Suunnittelun virheloki** -sivu, jossa on lisätietoja virheestä ja linkit vaikutusalueeseen kuuluviin asiakirjoihin tai asetuskortteihin.  
 
 ![Suunnittelutyökirjan virhesanomat](media/NAV_APP_supply_planning_1_error_log.png "Suunnittelutyökirjan virhesanomat")  
 

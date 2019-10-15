@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 03eeb13e5087e064e80d444ab373b0407f5a93be
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 9bc4879e6461ad9a2a1f88e2c877bc80d27c2206
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248132"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314986"
 ---
 # <a name="updating-report-or-document-layouts"></a>Raportin tai asiakirjan asettelujen päivittäminen
 Joskus saatat joutua päivittämään raportissa käytettyä mukautettua asettelua. Tämä vaaditaan, kun raportin tietojoukko on muuttunut, esimerkiksi asettelussa käytetty kenttä on poistettu raportin tietojoukosta. Raporttiasettelu on päivitettävä, jos saat virhesanoman, kun yrität tarkastella, tulostaa tai tallentaa raportin.  
@@ -66,4 +66,4 @@ Jos virheitä ei ilmene, päivitykset otetaan käyttöön raporttiasetteluissa. 
 
 ## <a name="see-also"></a>Katso myös  
  [Raporttiasetteluiden hallinta](ui-manage-report-layouts.md)  
- [Raporttien ja eräajojen käsitteleminen](ui-work-report.md)  
+ [Raporttien, eräajojen ja XMLportien käsitteleminen](ui-work-report.md)  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: b08864a4cf7f7f198d692a6658ae437856860a51
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 2595efa188aed593bf1d112f984acf411446959b
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247557"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307130"
 ---
 # <a name="design-details-posting-date-on-adjustment-value-entry"></a>Rakennetiedot: Muutoksen arvotapahtuman kirjauspäivämäärä
 Tässä artikkelissa on ohjeita [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen varaston arvostustoimintojen käyttäjille. Tässä artikkelissa on ohjeita siitä, miten **Muuta kustannuksia - Nimiketapahtumat** -eräajo tunnistaa ja määrittää niiden arvotapahtumien kirjauspäivämäärän, joita eräajo on luomassa.  
@@ -351,7 +351,7 @@ Toinen arvotapahtuma (381) edustaa laskua.
  Kirjaa varaston kustannukset kirjanpitoon -eräajon pyyntölomakkeessa on käyttäjän antama kirjauspäivämäärä. Eräajo käy läpi kaikki suodattimen mahdolliset arvotapahtumat ja luo pääkirjanpidon tapahtumat, joille annetaan pyyntölomakkeen kirjauspäivämäärät.  
 
 ### <a name="version-370b40"></a>Versio 3.70.B..4.0  
- Kirjaa varaston kustannukset kirjanpitoon -eräajon pyyntölomakkeessa on käytettävissä Suljetun kauden tapahtuman kirjauspäivämäärä -kenttä. Ohjelma käyttää tähän kenttään syötettyä päivämäärää niiden pääkirjanpidon tapahtumien kirjauspäivämääränä, jotka se luo arvotapahtumille, joiden kirjauspäivämäärät on suljetuilla tilikausilla. Muussa tapauksessa pääkirjanpidon tapahtumilla on samat kirjauspäivämäärät kuin alkuperäisillä arvotapahtumilla. Päivämäärä on suljetulla kaudella, kun se on aikaisempi kuin pääkirjanpidon asetusten Ensimm. sallittu kirjauspvm -kentän päivämäärä. Jos kirjaus tehdään kirjanpitoon kirjausryhmän mukaan, pääkirjanpidon tapahtumien kirjauspäivämäärä on pyyntölomakkeen Kirjauspäivämäärä-kentässä määritetty päivämäärä.  
+ Kirjaa varaston kustannukset kirjanpitoon -eräajon pyyntölomakkeessa on käytettävissä Suljetun kauden tapahtuman kirjauspäivämäärä -kenttä. Sovellus käyttää tähän kenttään annettua päivämäärää niiden pääkirjanpidon tapahtumien kirjauspäivämääränä, jotka se luo arvotapahtumille, joiden kirjauspäivämäärät ovat suljetuilla tilikausilla. Muussa tapauksessa pääkirjanpidon tapahtumilla on samat kirjauspäivämäärät kuin alkuperäisillä arvotapahtumilla. Päivämäärä on suljetulla kaudella, kun se on aikaisempi kuin pääkirjanpidon asetusten Ensimm. sallittu kirjauspvm -kentän päivämäärä. Jos kirjaus tehdään kirjanpitoon kirjausryhmän mukaan, pääkirjanpidon tapahtumien kirjauspäivämäärä on pyyntölomakkeen Kirjauspäivämäärä-kentässä määritetty päivämäärä.  
 
  Versioissa 3 ja 4 eräajo skannaa kaikki arvotapahtumat ja määrittää, löytyykö arvotapahtumia, joiden kustannussumma (todellinen) on eri kuin kirjanpitoon kirjattu kustannus. Jos eroja löytyy, eroava summa kirjataan KP-tapahtumaan. Jos käytössä on oletettujen kustannusten kirjaus, vastaavat kentät käsitellään samalla tavalla.  
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 382a95a579482a56597ffae053c53dab92f3739a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 46b18910efb1abb8df1ef1f427933f75deb3912c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245141"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2305258"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Tietojenvaihtomääritysten määrittäminen
 Voit määrittää [!INCLUDE[d365fin](includes/d365fin_md.md)]in vaihtamaan tiettyjen taulukoiden tietoja ulkoisten tiedostojen kanssa. Tällöin voit esimerkiksi lähettää ja vastaanottaa sähköisiä asiakirjoja sekä tuoda ja viedä pankkitietoja tai muita tietoja, kuten palkanlaskennan tietoja, vaihtokursseja ja tuoteluetteloita. Lisätietoja on kohdassa [Sähköinen tiedonsiirto](across-data-exchange.md).  
@@ -110,7 +110,7 @@ Tämä kuvataan seuraavissa menettelytavoissa.
 > [!NOTE]  
 >  Erityinen kartoitus riippuu vaihdettavan tiedoston liiketoimintatarkoituksesta ja paikallisista variaatioista. Jopa SEPA-pankkistandardissa on paikallisia vaihteluita. [!INCLUDE[d365fin](includes/d365fin_md.md)] tukee SEPA CAMT -tiliotetiedostojen tuontia ilman lisätoimia. Siitä on osoituksena **SEPA CAMT** -tiedonsiirtomäärityksen tietuekoodi **Tiedonsiirtomääritykset**-sivulla. Lisätietoja SEPA CAMT -tuelle ominaisista kenttien yhdistämismäärityksistä on kohdassa [Kenttien yhdistämismääritykset SEPA CAMT -tiedostoja tuotaessa](across-field-mapping-when-importing-sepa-camt-files.md).  
 
-#### <a name="to-map-columns-in-the-data-file-to-fields-in-included365finincludesd365finmdmd"></a>Datatiedoston sarakkeiden yhdistäminen [!INCLUDE[d365fin](includes/d365fin_md.md)]in kenttiin  
+#### <a name="to-map-columns-in-the-data-file-to-fields-in-included365finincludesd365fin_mdmd"></a>Datatiedoston sarakkeiden yhdistäminen [!INCLUDE[d365fin](includes/d365fin_md.md)]in kenttiin  
 1. Valitse **Rivin määritykset** -pikalomakkeessa rivi, jonka kenttiin haluat yhdistää sarakkeita, ja valitse sitten **Kenttien yhdistämismääritys**. **Tiedonsiirron vastaavuus** -sivu avautuu.  
 2. Määritä kohdistus **Yleinen**-pikavälilehdellä täyttämällä seuraavassa taulukossa kuvatut kentät.  
 

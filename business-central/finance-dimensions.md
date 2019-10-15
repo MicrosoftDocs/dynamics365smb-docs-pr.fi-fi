@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9072bd45d5189ec42e8f1adaa3554fa182c36f1f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 74e4c2e26ec4b51c00ece9ff8f56f7d556b74416
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244720"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2302378"
 ---
 # <a name="working-with-dimensions"></a>Dimensioiden käyttäminen
 Voit yksinkertaistaa asiakirjojen, kuten myyntitilausten, analysointia dimensioiden avulla. Dimensiot ovat tapahtumia luokittelevia määritteitä ja arvoja, joita voi seurata ja analysoida. Dimensioiden avulla voit esimerkiksi ilmaista, mistä projektista tai osastosta tapahtuma on lähtöisin.  
@@ -50,7 +50,7 @@ Voit määrittää myös arvoja dimensioille. Arvot voivat olla esimerkiksi yrit
 
 Kun dimensiot ja arvot on määritetty, voit määrittää **Pääkirjanpidon asetukset** -sivulla globaalit dimensiot ja pikadimensiot, jotka ovat aina valittavissa kenttinä päiväkirja- ja asiakirjariveillä ilman, että **Dimensiot**-sivu on ensin avattava. Lisätietoja on kohdassa [Globaalien dimensioiden ja pikadimensioiden määrittäminen](finance-dimensions.md#to-set-up-global-and-shortcut-dimensions).
 
-* **Globaaleja dimensioita** käytetään suodattimina esimerkiksi raporteissa ja erätöissä. Käytössä on vain kaksi globaalia dimensiota, joten valitse usein käytetyt dimensiot.
+* **Globaaleja dimensioita** käytetään suodattimina esimerkiksi raporteissa, erätöissä ja XMLporteissa. Käytössä on vain kaksi globaalia dimensiota, joten valitse usein käytetyt dimensiot.
 * **Pikadimensiot** ovat käytössä kenttinä päiväkirjan ja asiakirjan riveillä. Voit luoda niitä enintään kuusi.  
 
 ### <a name="to-set-up-default-dimensions-for-customers-vendors-and-other-accounts"></a>Asiakkaiden, toimittajien ja muiden tilien oletusdimensioiden määrittäminen
@@ -159,7 +159,7 @@ Lisää **OSASTO**-koodiin seuraavat dimension arvot:
 Voit lisätä näillä asetuksilla kaksi dimensiota kahtena globaalina dimensiona **Pääkirjanpidon asetukset** -sivulla. Niinpä voit käyttää ALUE- ja OSASTO-koodeja pääkirjanpidon tapahtumien suodattamina sekä kaikissa raporteissa ja eräajoissa. Molemmat globaalit dimensiot ovat myös automaattisesti käytettävissä pikadimensioina tapahtumariveillä ja asiakirjojen otsikoissa.
 
 ## <a name="getting-an-overview-of-dimensions-used-multiple-times"></a>Useita kertoja käytettyjen dimensioiden yhteenvedon hakeminen
-**Oletusdimensiot-useita**-sivu määrittää, miten tiliryhmä käyttää dimensioita ja dimensioarvoja. Voit tehdä sen aktivoimalla useamman tilin ja määrittelemällä sitten oletusdimensiot ja dimensioarvot kaikille niille tileille, jotka aktivoit tililuettelossa. Kun määrittelet aktivoiduille tileille oletusdimensioita, ohjelma ehdottaa näitä dimensioita ja dimension arvoja aina kun jotakin näistä tileistä käytetään, esimerkiksi päiväkirjan rivillä. Käyttäjän kannalta tämä helpottaa tapahtumien kirjaamista, sillä dimensiokentät täytetään automaattisesti. Ehdotettuja dimension arvoja voidaan kuitenkin muuttaa, esimerkiksi päiväkirjan rivillä.
+**Oletusdimensiot-useita**-sivu määrittää, miten tiliryhmä käyttää dimensioita ja dimensioarvoja. Voit tehdä sen aktivoimalla useamman tilin ja määrittelemällä sitten oletusdimensiot ja dimensioarvot kaikille niille tileille, jotka aktivoit tililuettelossa. Kun määrittelet aktivoiduille tileille oletusdimensioita, sovellus ehdottaa näitä dimensioita ja dimension arvoja aina, kun jotakin näistä tileistä käytetään esimerkiksi päiväkirjan rivillä. Käyttäjän kannalta tämä helpottaa tapahtumien kirjaamista, sillä dimensiokentät täytetään automaattisesti. Ehdotettuja dimension arvoja voidaan kuitenkin muuttaa, esimerkiksi päiväkirjan rivillä.
 
 **Oletusdimensiot-useita**-sivulla on seuraavat kentät:
 

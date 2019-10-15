@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: d337da227214c88b8358eb07261f18443d9c5d93
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 8a3cce098b254111b219f94baf1c507d6edbcd23
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1242263"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308714"
 ---
 # <a name="set-up-contacts"></a>Kontaktien määrittäminen
 Voit antaa kontaktien luomisen yhteydessä tietoja, kuten toimialan, johon kontakti kuuluu, sekä liikesuhteesi kontakteihin.
@@ -142,9 +142,9 @@ Kun muutat yhtä näistä kentistä kontaktiyrityksen kortissa, samat kentät p�
 Lisätietoja on kohdassa [Kontaktien luominen](marketing-create-contact-companies.md).
 
 ## <a name="using-predefined-defaults-on-new-contacts"></a>Ennalta määritettyjen oletusarvojen käyttäminen uusissa kontakteissa
-Voit päättää, että sovellus liittää automaattisesti tietyn kielikoodin, territoriokoodin, myyjäkoodin ja maa-/aluekoodin oletusarvon jokaiseen luomaasi uuteen kontaktiin. Voit myös syöttää myyntisyklin koodin oletusarvon, jonka ohjelma sitten liittää jokaiseen luomaasi uuteen mahdollisuuteen. Tämä määritetään **Kontaktienhallinnan asetukset** -sivun **Oletusarvot**-pikavälilehdessä.
+Voit päättää, että sovellus liittää automaattisesti tietyn kielikoodin, territoriokoodin, myyjäkoodin ja maa-/aluekoodin oletusarvon jokaiseen luomaasi uuteen kontaktiin. Voit myös antaa myyntisyklin oletuskoodin, jonka sovellus sitten liittää jokaiseen luomaasi uuteen mahdollisuuteen. Tämä määritetään **Kontaktienhallinnan asetukset** -sivun **Oletusarvot**-pikavälilehdessä.
 
-Kenttien periytyminen syrjäyttää määrittämäsi oletusarvot. Jos olet esimerkiksi määrittänyt englannin oletuskieleksi, mutta kontaktiyrityksen kieli on saksa, ohjelma liittää automaattisesti saksan kielikoodin yrityksen kontaktihenkilölle.
+Kenttien periytyminen syrjäyttää määrittämäsi oletusarvot. Jos olet esimerkiksi määrittänyt englannin oletuskieleksi, mutta kontaktiyrityksen kieli on saksa, sovellus liittää automaattisesti saksan kielikoodin yrityksen kontaktihenkilölle.
 
 ## <a name="synchronizing-contacts-with-customers-vendors-and-bank-accounts"></a>Kontaktien synkronoiminen asiakkaiden, toimittajien ja pankkitilien kanssa
 Kontaktin kortti voidaan synkronoida linkitetyn asiakkaan, toimittajan tai pankkitiliin kortin kanssa, kun täytät asianmukaisen kentän **Kontaktienhallinnan asetukset** -sivun **Vuorovaikutukset**-pikavälilehden **Liikesuhteen koodi kohteelle** -osassa.  
@@ -152,7 +152,7 @@ Kontaktin kortti voidaan synkronoida linkitetyn asiakkaan, toimittajan tai pankk
 Lisätietoja on kohdassa [Kontaktien synkronoiminen asiakkaiden, toimittajien ja pankkitilien kanssa](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-and-bank-accounts).
 
 ## <a name="searching-for-duplicate-contacts"></a>Kontaktien kaksoiskappaleiden hakeminen
-Voit valita, että ohjelma hakee kaksoiskappaleita automaattisesti aina, kun luot kontaktin. Vaihtoehtoisesti voit valita, että haet kaksoiskappaleetmanuaalisesti kontaktien luomisen jälkeen. Voit myös valita, että ohjelma päivittää hakumerkkijonot automaattisesti aina kun muutat kontaktin tietoja tai luot uuden kontaktin. Voit päättää Haun osuma-%:in, siis sen identtisten merkkijonojen prosenttiosuuden, joka kahdella kontaktilla täytyy olla, jotta ohjelma tulkitsee ne kopioiksi. Tämä määritetään **Kontaktienhallinnan asetukset** -sivun **Kopiot**-pikavälilehdessä.
+Voit valita, että sovellus hakee kaksoiskappaleita automaattisesti aina, kun luot kontaktin. Vaihtoehtoisesti voit valita, että haet kaksoiskappaleet manuaalisesti kontaktien luomisen jälkeen. Voit myös valita, että sovellus päivittää hakumerkkijonot automaattisesti aina, kun muutat kontaktin tietoja tai luot uuden kontaktin. Voit päättää Haun osuma-%:n, siis sen identtisten merkkijonojen prosenttiosuuden, joka kahdella kontaktilla täytyy olla, jotta sovellus tulkitsee ne kopioiksi. Tämä määritetään **Kontaktienhallinnan asetukset** -sivun **Kopiot**-pikavälilehdessä.
 
 Jos löydät kontaktin kaksoiskappaleen, voit yhdistää sen säilytettävään kontaktitietueeseen **Yhdistä kaksoiskappale** -sivulla. Lisätietoja on kohdassa [Tietueiden kaksoiskappaleiden yhdistäminen](sales-how-merge-duplicate-records.md).
 

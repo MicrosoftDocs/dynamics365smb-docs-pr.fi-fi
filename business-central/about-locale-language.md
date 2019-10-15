@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: language, locale, localization, culture
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 9e743a51e675431dc1759a6c3a58b7eb4de1ccc5
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 4cab6bd1ca01e6f4d66914cff8a3a026f8ecfc32
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245292"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300783"
 ---
 # <a name="changing-language-and-locale"></a>Kielen ja kielialueen muuttaminen
 
@@ -40,7 +40,7 @@ Voit muuttaa aluekohtaiset asetukset siinä selaimen välilehdessä, jolla käyt
 
 Voit muuttaa aluekohtaisia asetuksia **Omat asetukset** -sivulla. Lisätietoja on kohdassa [Perusasetusten muuttaminen](ui-change-basic-settings.md).  
 
-## <a name="languages-of-the-included365finincludesd365finmdmd-help"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)]-ohjeen kielet
+## <a name="languages-of-the-included365finincludesd365fin_mdmd-help"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)]-ohjeen kielet
 [!INCLUDE[d365fin](includes/d365fin_md.md)]in perustoimintojen ohjesisältö julkaistaan Microsoft Docs -sivustossa ja on luettavissa useilla eri kielillä. Jos siirryt asiakirjoihin [!INCLUDE[d365fin](includes/d365fin_md.md)]ista, sisältö näkyy omalla kielelläsi. Jos tiettyä sivua ei ole vielä käännetty omalle kielellesi, se näkyy englanninkielisenä.
 
 ### <a name="how-do-i-change-the-language"></a>Kielen vaihtaminen

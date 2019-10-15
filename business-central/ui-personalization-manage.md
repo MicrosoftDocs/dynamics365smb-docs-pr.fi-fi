@@ -1,115 +1,74 @@
 ---
-title: Mukautusten hallinta Business Centralin järjestelmänvalvojana | Microsoft Docs
-description: Lisätietoja käyttöliittymän mukauttamisesta omaan työskentelytapaan sopivaksi.
+title: Roolien sivujen mukauttaminen | Microsoft Docs
+description: Lisätietoja profiilin (roolin) käyttöliittymän mukauttamisesta siten, että kaikki käyttäjät, joille kyseinen rooli on määritetty, näkevät mukautetun työtilan.
 services: project-madeira
 documentationcenter: ''
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 08/16/2019
-ms.author: jswymer
-ms.openlocfilehash: 268d61e05f84643abe8eeeb283bd035e0247fe1c
-ms.sourcegitcommit: 81b6062194bf04d8052a3cd394cc0b41e3f53e6d
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 470d2542864b8d0e0f16f89fd99e422807829404
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "1887735"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310802"
 ---
-# <a name="managing-personalization-as-an-administrator"></a>Mukautuksen hallinta järjestelmänvalvojana
+# <a name="customize-pages-for-profiles"></a>Profiilien sivujen mukauttaminen
+Käyttäjät voivat mukauttaa työtilan muodostavia sivuja omien mieltymystensä mukaisesti. Lisätietoja on kohdassa [Työtilan mukauttaminen](ui-personalization-user.md).
 
- Käyttäjät voivat mukauttaa työtilansa omien mieltymystensä mukaiseksi. Järjestelmänvalvojana ohjaat ja hallitset mukauttamista seuraavasti:
+Järjestelmänvalvojat voivat mukauttaa profiilin sivuja liittyvän liiketoimintaroolin tai osaston mukaisesti esimerkiksi siten, että kaikki käyttäjät, joille profiili on määritetty, näkevät mukautetun sivuasettelun. Järjestelmänvalvoja mukauttaa sivuja samalla toiminnolla, jota käyttäjät mukauttavat sivuja.
 
--   Ottamalla koko sovelluksen mukauttamisominaisuuden käyttöön tai poistamalla sen käytöstä (vain paikalliset asetukset.)
--   Ottamalla mukauttamisominaisuuden käyttöön vain tietyn profiilin käyttäjille tai poistamalla sen heiltä käytöstä.
--   Poistamalla käyttäjien mahdollisesti tekemät sivun mukauttamiset.
+> [!NOTE]
+> Tyypillinen profiilin käyttötapa liiketoiminnassa on rooli. Profiilin nimi onkin käyttöliittymässä tämän vuoksi *Profiili (rooli)*.
 
-## <a name="EnablePersonalization"></a>Mukauttamisen ottaminen käyttöön tai poistaminen käytöstä (vain paikallinen versio)
+Sivun mukauttaminen aloitetaan **Profiilit (roolit)** -sivulla, josta järjestelmänvalvojat aloittavat yksittäisten profiilikorttien käyttäjien profiilien hallinnan. Sivun asettelun mukauttamisen lisäksi voi kunkin profiilin **Profiili (rooli)** -sivulla voi hallita useita muita profiilien asetuksia. Lisätietoja on kohdassa [Profiilien hallinta](admin-users-profiles-roles.md).
 
-Mukauttamista ei ole oletusarvoisesti otettu asiakasohjelmassa käyttöön. Mukauttaminen otetaan käyttöön tai poistetaan käytöstä muokkaamalla asiakasohjelmien käytössä olevan Business Central Web Server -esiintymän määritystiedostoa (navsettings.json).
+## <a name="to-customize-pages-for-a-profile"></a>Profiilin sivujen mukauttaminen
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita **Profiilit (roolit)** ja valitse sitten liittyvä linkki.
+2. Valitse ensin sen profiilin rivi, jonka sivuja haluat mukauttaa, ja valitse sitten **Muokkaa**-toiminto.
+3. Valitse **Mukauta sivuja** -toiminto.
 
-1. Voit ottaa mukauttamisen käyttöön lisäämällä seuraavan rivin navsettings.json-tiedostoon:
+    [!INCLUDE[d365fin](includes/d365fin_md.md)] avaa valitun profiilin uudessa selaimen välilehdessä siten, että **Mukauttaminen**-palkki on aktivoitu. **Mukauttaminen**-palkissa on samat toiminnot kuin käyttäjien käyttämässä **Mukautus**-palkissa.
 
-    ```
-    "PersonalizationEnabled": "true"
-    ```
+4. Mukauta sivuja kyseisen roolin tai osaston tarpeiden mukaan samalla tavoin kuin käyttäjä tekee omat mukautuksensa. Lisätietoja on kohdassa [Työtilan mukauttaminen](ui-personalization-user.md).
 
-    Voit poistaa mukauttamisen käytöstä poistamalla tämän rivin tai muuttamalla sen seuraavaanlaiseksi:
+    > [!NOTE]
+    > Voit siirtyä mukauttamisen aikana käyttämällä toiminnossa CTRL+napsautus-yhdistelmää, jos nuolenpää osoittaa toiminnon olevan valittuna.
 
-    ```
-    "PersonalizationEnabled": "false"
-    ```
+5. Kun olet muuttanut yhden tai usean sivun asettelua, valitse**Mukauttaminen**-palkissa **Valmis**-painike.
+6. Sulje selaimen välilehti.
 
-    Lisätietoja navsettings.json-tiedoston muokkaamisesta on kohdassa [Navsettings.json-tiedoston muokkaaminen suoraan](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configure-web-server?branch=master#Settings).
+Sivujen mukauttaminen on nyt tallennettu profiiliin.
 
-2. Luo ja lataa sovelluksen symboleja.
+## <a name="to-view-all-customized-pages-for-a-profile"></a>Kaikkien profiilin mukautettujen sivujen näyttäminen
+Saat tarvittaessa yleiskuvan profiiliin mukautetuista sivuista, mikä auttaa suunnittelemaan esimerkiksi sivujen lisämukautuksia tai poistamisia.
 
-    Tämä on valinnainen vaihe, eikä mukauttaminen käyttöönottaminen edellytä sitä. Se kuitenkin varmistaa, että kehittäjien luomia uusia sivuja voidaan mukauttaa.
+- Valitse **Profiili (rooli)** -sivulla **Mukautetut sivut** -toiminto.
 
-    1. Luo ensiksi symbolit suorittamalla finsql.exe `generatesymbolreference`-komennolla. Finsql.exe-tiedosto sijaitsee [!INCLUDE[server](includes/server.md)]- ja CSIDE (Dynamics NAV Development Environment) -asennuskansiossa. Voit luoda symbolit avaamalla komentokehotteen, muuttamalla hakemiston, johon tiedosto on tallennettu, ja suorittamalla sitten seuraavan komennon:
+## <a name="to-delete-all-customizations-for-a-profile"></a>Profiilin kaikkien mukautusten poistaminen
+Voit peruuttaa kaikki profiiliin tehdyt mukautukset. Laajennukseen perustuvia mukautuksia ja käyttäjän tekemiä mukautuksia ei poisteta. Voit poistaa kaikki mukautukset toisella toiminnolla. Lisätietoja on kohdassa [Kaikkien käyttäjän tekemien mukautusten poistaminen](admin-users-profiles-roles.md#to-delete-all-personalizations-made-by-a-user).
 
-        ```
-        finsql.exe Command=generatesymbolreference, Database="<Database Name>", ServerName=<SQL Server Name\<Server Instance>
-        ```
-    Esimerkiksi:
+- Valitse mukautetun profiilin **Profiili (rooli)** -sivulla **Poista mukautetut sivut** -toiminto.
 
-        ```
-        finsql.exe Command=generatesymbolreference, Database="Demo Database BC", ServerName=MySQLServer\BCDEMO
-        ```
+Profiilin sivujen asetteluksi palautetaan oletusasettelu.  
 
-    Lisätietoja on kohdassa [C/SIDE:n ja AL:n suorittaminen rinnakkainen](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-running-cside-and-al-side-by-side).
+## <a name="to-delete-customization-for-specific-pages-for-a-profile"></a>Profiilin tiettyjen sivujen mukautusten poistaminen
+Voit poistaa profiilin yksittäisen sivun mukautukset. Laajennukseen perustuvia mukautuksia ja käyttäjän tekemiä mukautuksia ei poisteta. Voit poistaa tietyn sivun mukautukset toisella toiminnolla. Lisätietoja on kohdassa [Tiettyjen sivujen mukautusten poistaminen](admin-users-profiles-roles.md#to-delete-personalizations-for-specific-pages).
 
-    2. Määritä [!INCLUDE[nav_server_md](includes/nav_server_md.md)] -esiintymäksi **Ota sovelluksen symboliviittaukset käyttöön palvelimen käynnistyessä** (EnableSymbolLoadingAtServerStartup). Lisätietoja on kohdassa [Business Central Serverin määrittäminen](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configure-server-instance#development-settings).
+1. Valitse **Profiili (rooli)** -sivulla **Mukautetut sivut** -toiminto.
+2. Valitse **Profiilin mukautukset** -sivulla vähintään yhden poistettavan sivun mukautuksen rivi ja valitse sitten **Poista**-toiminto.
 
-## <a name="to-disable-personalization-for-a-profile"></a>Profiilin mukauttamisen poistaminen käytöstä
-
-Voit estää sivujen mukauttamisen kaikilta tiettyyn profiiliin kuuluvilta käyttäjiltä.
-
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita **Profiilit** ja valitse sitten liittyvä linkki.
-2. Valitse luettelossa muokattava profiili.
-3. Valitse **Poista mukauttaminen käytöstä** -valintaruutuja valitse sitten **OK**.
-
-> [!NOTE]  
-> Business Central -sovelluksen online-versiossa voit poistaa vain vuokraajaprofiilin mukauttamisen, et järjestelmäprofiilien mukauttamista. 
-
-## <a name="to-clear-user-personalizations"></a>Käyttäjän mukautusten tyhjentäminen
-
-Mukautetun sivun muutosten tyhjentäminen palauttaa sivun mukautuksia edeltävän alkuperäisen asettelun. Käyttäjien sivulle tekemät mukautukset voi tyhjentää kahdella tavalla: käyttämällä **Poista käyttäjän mukautus** -sivua tai käyttämällä **Käyttäjän mukautuskortti** -sivua.
-
-### <a name="to-clear-user-personalizations-by-using-the-delete-user-personalization-page"></a>Käyttäjän mukautusten tyhjentäminen Poista käyttäjän mukautus -sivun avulla
-
-Voit tyhjentää **Poista käyttäjän mukautus** -sivulla mukautukset kultakin käyttäjältä sivukohtaisesti.
-
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poista käyttäjän mukautus** ja valitse sitten liittyvä linkki.
-
-    Sivulla on luettelo kaikista mukautetuista sivuista ja käyttäjästä, jolle se kuuluu.
-
-    >[!NOTE]
-    > **Vanha mukautus** -sarakkeiden valintamerkki ilmaisee, että mukautus tehtiin [!INCLUDE[d365fin](includes/d365fin_md.md)]in vanhassa versiossa, jossa mukautusta käsiteltiin eri tavalla kuin nyt. Mukautus estetään näiden sivujen mukautusta yrittäviltä käyttäjiltä, elleivät he ensin valitse sivun lukituksen poistamista. Lisätietoja on kohdassa [Sivun mukauttamisen estäminen lukitsemalla](ui-personalization-locked.md).
-
-2. Valitse ensin poistettava tapahtuma ja sitten **Poista**-toiminto.
-
-    Käyttäjä näkee muutokset kirjautuessaan sisään seuraavan kerran.
-
-### <a name="to-clear-user-personalizations-by-using-the-user-personalization-card-page"></a>Käyttäjän mukautusten tyhjentäminen Käyttäjän mukautuskortti -sivun avulla
-
-Voit tyhjentää **Käyttäjän mukautuskortti** -sivulla tietyn käyttäjän kaikki mukautukset. Tämä edellyttää taulukon 2000000072 **Profiili** kirjoitusoikeuksia.
-
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttäjän mukautus** ja valitse sitten liittyvä linkki.
-
-    **Käyttäjän mukautus** -sivulla on luettelo kaikista käyttäjistä, joilla mahdollisesti on mukautettuja sivuja. Jos käyttäjä ei löydy luettelosta, kyseisellä käyttäjällä ei ole mukautettuja sivuja.
-
-2. Valitse ensin käyttäjä luettelossa ja sitten **Muokkaa**-toiminto.
-
-3. Valitse **Toiminnot**-välilehdessä **Tyhjennä mukautetut sivut**.
-
-    Käyttäjä näkee muutokset kirjautuessaan sisään seuraavan kerran.
+Valitun sivun asettelu muutetaan vastaamaan tekemiäsi muutoksia.
 
 ## <a name="see-also"></a>Katso myös
 [Työtilan mukauttaminen](ui-personalization-user.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[Profiilien hallinta](admin-users-profiles-roles.md)  
 [Perusasetusten muuttaminen](ui-change-basic-settings.md)  
 [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  

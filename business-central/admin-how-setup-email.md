@@ -2,28 +2,28 @@
 title: Business Central -sovelluksen sähköpostin määrittäminen | Microsoft Docs
 description: Lisätietoja tavoista, joilla sähköpostiviestejä lähetetään ja vastaanotetaan Business Central -sovelluksessa SMTP-palvelimen kautta tai miten Office 365 -tilauksessa luotuja sähköpostipalvelimen asetuksia käytetään.
 documentationcenter: ''
-author: edupont04
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 09/09/2019
-ms.author: edupont
-ms.openlocfilehash: b9a443072d13e3cbf5f8e07006bea5477c275968
-ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 90e119dc44a23bcd9dca7920d05538ac685a44f6
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "1985932"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304610"
 ---
 # <a name="set-up-email"></a>Määritä sähköposti
 Jos haluat lähettää ja vastaanottaa sähköpostiviestejä [!INCLUDE[d365fin](includes/d365fin_md.md)]:ssä, SMTP-sähköpostiasetukset-sivun kentät on täytettävä.
 
 Sen sijaan että kirjoittaisit SMTP-palvelimen tiedot manuaalisesti, voit käyttää **Käytä Office 365 Server -asetuksia** -toimintoa, joka hakee nämä tiedot Office 365 -tilauksesta
 
-Voit määrittää sähköpostin joko manuaalisesti tai käyttää ohjattua **Sähköpostiasetukset**-määritystä. Lisätietoja on ohjeaiheessa [Valmistautuminen liiketoimintaan](ui-get-ready-business.md).  
+Voit määrittää sähköpostin joko myöhemmin kuvattavalla tavalla manuaalisesti tai käyttää ohjattua **Sähköpostiasetukset**-määritystä. Lisätietoja on ohjeaiheessa [Valmistautuminen liiketoimintaan](ui-get-ready-business.md).  
 
 ## <a name="to-set-up-email"></a>Sähköpostin määrittäminen
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **SMTP-sähköpostin asetukset** ja valitse sitten liittyvä linkki.

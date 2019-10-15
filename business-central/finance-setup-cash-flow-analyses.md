@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 933323815f0ee31e8bd281dd00ac2d604dd914db
-ms.sourcegitcommit: 92c7b6c5f0a5d8becbef106ab85258906765bc3e
+ms.openlocfilehash: c33ef33a9eb660e7cde7da2d1e8a6dad76f18dd7
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/13/2019
-ms.locfileid: "1540315"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301706"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Kassavirta-analyysin määrittäminen
 Jos tarvitset apua käteisvarojen käytöstä päättämiseen, tutustu Kirjanpitäjä-roolikeskuksen kaavioihin:  
@@ -56,9 +56,9 @@ Käytön aloittamisen helpottamiseksi osa tilistä ja kassavirran asetuksista on
 Voit määrittää ne käyttämällä hakutermiä **kassavirtatilit**, valitsemalla linkin ja täyttämällä kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Toista nämä vaiheet hakutermille **kassavirran asetukset**.  
 
 ## <a name="set-up-cash-flow-forecasts"></a>Kassavirtaennusteiden määrittäminen
-**Kassavirtaennuste**-kaavio käyttää kassavirtatilejä, kassavirran asetuksia ja kassavirtaennusteita. Osa niistä on määritetty valmiiksi, mutta voit tehdä omat määrityksesi avustetun asennusoppaan avulla. Oppaan avulla voit määrittää esimerkiksi ennusteen päivitystiheyden, ennusteen perustana olevat tilit, verojen maksua koskevat tiedot ja sen, otetaanko [Cortana Intelligence](https://www.microsoft.com/en-us/cloud-platform/what-is-cortana-intelligence-suite) käyttöön.  
+**Kassavirtaennuste**-kaavio käyttää kassavirtatilejä, kassavirran asetuksia ja kassavirtaennusteita. Osa niistä on määritetty valmiiksi, mutta voit tehdä omat määrityksesi avustetun asennusoppaan avulla. Oppaan avulla voit määrittää esimerkiksi ennusteen päivitystiheyden, ennusteen perustana olevat tilit, verojen maksua koskevat tiedot ja sen, otetaanko [Azure AI](https://azure.microsoft.com/en-us/overview/ai-platform/) käyttöön.  
 
-Kassavirtaennusteet voivat sisällyttää Cortana Intelligencen avulla asiakirjoja, joiden eräpäivä on tulevaisuudessa. Tällä tavoin saadaan entistä kattavampi ennuste. Cortana Intelligence -yhteys on muodostettu valmiiksi. Sinun tarvitsee vain ottaa se käyttöön. Kun kirjaudut [!INCLUDE[d365fin](includes/d365fin_md.md)]iin, ilmoitus näkyy sinisessä palkissa, ja siinä on linkki kassavirran oletusasetuksiin. Ilmoitus näytetään vain kerran. Jos suljet sen mutta päätät ottaa Cortana Intelligencen käyttöön, voit tehdä sen asetusten ohjatun määrityksen avulla tai manuaalisesti.  
+Kassavirtaennusteet voivat sisällyttää Azure AI:n avulla asiakirjoja, joiden eräpäivä on tulevaisuudessa. Tällä tavoin saadaan entistä kattavampi ennuste. Azure AI -yhteys on muodostettu puolestasi. Sinun tarvitsee vain ottaa se käyttöön. Kun kirjaudut [!INCLUDE[d365fin](includes/d365fin_md.md)]iin, ilmoitus näkyy sinisessä palkissa, ja siinä on linkki kassavirran oletusasetuksiin. Ilmoitus näytetään vain kerran. Jos suljet sen mutta päätät ottaa Azure AI:n käyttöön, voit tehdä sen asetusten ohjatun määrityksen avulla tai manuaalisesti.  
 
 > [!NOTE]  
 >   Voit käyttää myös omaa ennakoivaa verkkopalvelua. Lisätietoja on kohdassa [Kassavirtaennusteiden ennakoivan verkkopalvelun luonti ja käyttö](#AnchorText).  
@@ -73,23 +73,23 @@ Voit käyttää avustettua asennusopasta seuraavissa toiminnoissa:
 Voit käyttää manuaalista prosessia seuraavasti:  
 
 1. Etsi Kirjanpitäjä-roolikeskuksessa **Kassavirran asetukset** ja valitse sitten vastaava linkki.  
-2. Laajenna **Cortana Intelligence** -pikavälilehti ja valitse sitten **Cortana Intelligence käytössä** -valintaruutu.  
-3. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Kassavirtaennuste** ja valitse sitten liittyvä linkki.
+2. Laajenna **Azure AI** -pikavälilehti ja valitse sitten **Azure AI käytössä** -valintaruutu.  
+3. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kassavirtaennuste** ja valitse sitten liittyvä linkki.
 4. Valitse **Kassavirtaennuste**-sivulla **Laske ennuste uudelleen** -toiminto.  
 
 > [!TIP]  
->   Mieti, miten pitkiä jaksoja palvelun laskelmissa käytetään. Mitä enemmän tietoja on käytettävissä, sitä tarkempia ennusteet ovat. Varo myös suuria jaksovaihteluita. Ne vaikuttavat myös ennusteisiin. Jos Cortana Intelligence ei löydä riittävästi tietoja tai tiedot ovat kovin erilaisia, palvelu ei voi tehdä ennustetta.  
+>   Mieti, miten pitkiä jaksoja palvelun laskelmissa käytetään. Mitä enemmän tietoja on käytettävissä, sitä tarkempia ennusteet ovat. Varo myös suuria jaksovaihteluita. Ne vaikuttavat myös ennusteisiin. Jos Azure AI ei löydä riittävästi tietoja tai tiedot ovat kovin erilaisia, palvelu ei voi tehdä ennustetta.  
 
 ## <a name="AnchorText"> </a>Kassavirtaennusteiden ennakoivan verkkopalvelun luonti ja käyttö
-Voit myös luoda oman ennakoivan verkkopalvelun **Microsoft Business Central -sovelluksen ennustemalli** -nimisen julkisen mallin perusteella. Tämä ennakoiva malli on saatavana verkossa Cortana Intelligence Galleryssa. Voit käyttää mallia seuraavien vaiheiden avulla:  
+Voit myös luoda oman ennakoivan verkkopalvelun **Microsoft Business Central -sovelluksen ennustemalli** -nimisen julkisen mallin perusteella. Tämä ennakoiva malli on saatavana verkossa Azure AI Galleryssa. Voit käyttää mallia seuraavien vaiheiden avulla:  
 
-1. Avaa selain ja siirry [Cortana Intelligence Galleryyn](https://go.microsoft.com/fwlink/?linkid=828352).  
+1. Avaa selain ja siirry [Azure AI Galleryyn](https://go.microsoft.com/fwlink/?linkid=828352).  
 2. Etsi **Ennustusmalli Microsoft Business Centralille** ja avaa malli Azuren koneoppimisstudiossa.  
 3. Kirjaudu työtilaan Microsoft-tilin avulla ja kopioi malli.  
 4. Aja malli ja julkaise se verkkopalveluna.  
 5. Kirjoita API:n URL-osoite ja API-avain muistiin. Näitä tunnistetietoja käytetään kassavirran asetuksissa.  
 6. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kassavirran asetukset** ja valitse sitten liittyvä linkki.  
-7. Laajenna **Cortana Intelligence** -pikavälilehti ja täytä sitten kentät.  
+7. Laajenna **Azure AI** -pikavälilehti ja täytä sitten kentät.  
 
 ## <a name="see-also"></a>Katso myös
 [Yrityksen kassavirran analysoiminen](finance-analyze-cash-flow.md)  

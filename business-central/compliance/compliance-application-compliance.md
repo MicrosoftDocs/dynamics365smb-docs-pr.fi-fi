@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: soalex
-ms.openlocfilehash: 283fe8bd51cca855f97b682c3b77c3e8805514e6
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: ede085fca1595c7349501d9a8cbbd09e4e14e897
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246885"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303867"
 ---
 # <a name="application-compliance"></a>Sovelluksen yhteensopivuus
 Tässä sisällössä on tietoja sovelluksen [!INCLUDE[d365fin](../includes/d365fin_md.md)]ia koskevasta yhteensopivuudesta, kuten kansainvälisistä tilinpäätösstandardeista, paikallisista toiminnoista ja GDPR-asetuksesta. Luotettava liiketoiminnan hallintaratkaisu on tärkeää liiketoiminnan tehokkuuden kannalta. Business Centralin avulla yritykset pystyvät yksinkertaistamaan liiketoimintaprosessejaan samalla, kun ne pystyvät yhdenmukaisesti ja kustannustehokkaasti toimimaan koko ajan lisääntyvän säätelyn ja raportointivaatimusten mukaisesti.
@@ -46,15 +46,18 @@ Business Centralin avulla saat käyttöösi reaaliaikaisia integroituja operatii
 ## <a name="gain-control-of-critical-information-processes-and-reports"></a>Tärkeiden tietojen, prosessien ja raporttien hallinta
 
 ### <a name="manage-compliance-to-the-standards-that-matter"></a>Tärkeiden standardien noudattamisen hallinta
+
 Voit antaa työntekijöillesi integroidut tiedot, kohdistetut prosessit ja helppokäyttöiset työkalut, joiden ansiosta he voivat noudattaa liiketoiminnan kannalta oleellisten taloushallintostandardien vaatimuksia.
 
 ### <a name="tailor-account-schedules-to-your-needs"></a>KP-raporttimallien mukauttaminen tarpeita vastaaviksi
+
 - Määritä yrityksen tilikarttarakenne liiketoiminnan vaatimusten ja sovellettavien säätelystandardien perusteella
 - Luo tilejä ja käsittele monimutkaisia prosesseja, jotka liittyvät monenlaisiin liiketoiminnan tapahtumiin, kuten varastonarvostuksen, ulkomaanvaluuttoihin, segmenttiraportointiin ja poikkeuksiin paikallisista GAAP-periaatteista.
 - Hallitse kunkin kirjatun tapahtuman tietojen yksityiskohtaisuutta ja valitse tiettyjen tapahtumatyyppien yksityiskohtainen rekisteröinti. Tällaisia tapahtumia ovat esimerkiksi käyttöomaisuus ja ostoreskontra.
-- Mukauta taloushallinnon raportoinnin aikataululaskelmia ja näyttämistä tai vie tiedot Microsoft® Office Exceliin® analysointia varten.
+- Mukauta taloushallinnon raportoinnin aikataululaskelmia ja näyttämistä tai vie tiedot Microsoft Exceliin analysointia varten.
 
 ### <a name="improve-information-validity"></a>Tietojen oikeellisuuden parantaminen
+
 - Määritä tietokentät hyväksymään vain oikeanmuotoiset tiedot, kuten oikea määrä desimaaleja tai aakkosnumeerisia malleja.
 - Varmista tietojen täydellisyys sovelluksen ohjausobjekteilla, kuten edellyttämällä, että toimittajan laskun numero annetaan, ennen kuin ostotilaus voidaan kirjata.
 - Pienennä epätarkkojen tietojen antamisen tai tietoihin puuttumisen riskiä ja auta suojaamaan arkaluonteisia tietoja antamalla tietojen käyttöoikeus työroolin perusteella.
@@ -69,9 +72,10 @@ Voit antaa työntekijöillesi integroidut tiedot, kohdistetut prosessit ja helpp
 - Nopeuta taloustietojen lähettämistä asiakkaille, sidosryhmille ja viranomaisille sekä niiden yleistä julkaisemista XML-pohjaisilla XBRL-asiakirjoilla, jotka tukevat taloushallinnon tietojen vaihtamista ohjelmistojen ja tekniikoiden välillä. Tämä koskee myös internetiä.
 
 ### <a name="help-ensure-clear-audit-trails"></a>Selkeiden kirjausketjujen varmistaminen
+
 - Voit seurata asiakirjoja ja tietoja järjestelmässä eteen- ja taaksepäin alkuperäisestä lähteestä tilinpäätökseen ja takaisin.
 - Määritä, miten tiedot syötettiin ja miten niitä muokattiin, kuka käsitteli tietoja sekä mitä kirjanpitotietoja on kirjattu.
-- Etsi tietokannan muutoksia, kuten edellisiä tai tarkistettuja tietoja, ratkaisun muutoslokissa.
+- Etsi tietokannan muutoksia, kuten edellisiä tai tarkistettuja tietoja, ratkaisun [muutoslokissa](../across-log-changes.md).
 - Paranna kirjausketjun läpinäkyvyyttä ja käytettävyyttä sekä nopeutta, jolla ulkopuoliset tilitarkastajat voivat käyttää tietoja porautumalla, valinnoilla, suodattamalla, rekisteröimällä ja siirtymällä.
 
 ## <a name="compliance-and-local-functionality"></a>Vaatimustenmukaisuus ja paikalliset toiminnot
@@ -89,7 +93,8 @@ Microsoft on muodostamassa lokalisoituja Business Centralin versioita joissakin 
 > **Basel II: vaikutukset raportointiin ja analysointiin**  
 > Kansainvälisen järjestelypankin kehittämä Basel II auttaa varmistamaan rahoitusjärjestelmän suojauksen ja turvallisuuden kolmella alueella: vähimmäispääomavaatimukset, valvojan tarkastusprosessi ja markkinakuri. Vaikka sopimus koskee rahoituslaitoksia eikä se koske pieniä ja keskisuuria yrityksiä, Basel II -sopimus voi vaikuttaa jossain määrin näiden organisaatioiden raportointiin ja analyysiin.
 
-## <a name="see-also"></a>Katso myös  
+## <a name="see-also"></a>Katso myös
+
 [Yhteensopivuus](compliance-overview.md)  
 [Palvelun yhteensopivuus](compliance-service-compliance.md)  
 [Sertifikaatit](compliance-certifications.md)  

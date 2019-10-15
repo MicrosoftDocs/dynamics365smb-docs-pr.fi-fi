@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, troubleshoot
-ms.date: 10/23/2017
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 0ebd99e9097e4c701038f3b8be7a07d1e80a4b31
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 8faba6940469265959d09f807d2d3c1afe6199af
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237978"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300399"
 ---
-# <a name="troubleshooting-include-d365acclongincludesd365acclongmdmd"></a>[!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]in vianmääritys
+# <a name="troubleshooting-include-d365acc_longincludesd365acc_long_mdmd"></a>[!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]in vianmääritys
 [!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]
 
 [!INCLUDE [d365acc](includes/d365acc_md.md)]iin rekisteröityminen on helppoa ja nopeaa. Vaikka asiakkaiden lisääminen koontinäyttöön on helppoa, tässä artikkelissa käsitellään mahdollisesti esiin tulevia ongelmia.
 
-## <a name="what-email-address-can-i-use-with-include-d365accincludesd365accmdmd"></a>Mitä sähköpostiosoitetta käytetään [!INCLUDE [d365acc](includes/d365acc_md.md)]in kanssa?
+## <a name="what-email-address-can-i-use-with-include-d365accincludesd365acc_mdmd"></a>Mitä sähköpostiosoitetta käytetään [!INCLUDE [d365acc](includes/d365acc_md.md)]in kanssa?
 [!INCLUDE [d365acc](includes/d365acc_md.md)] edellyttää kirjautumista työ- tai opiskelupaikan antamalla sähköpostiosoitteella. [!INCLUDE [d365acc](includes/d365acc_md.md)] ei tue kuluttajille tarkoitettujen sähköpostipalveluiden ja tietoliikennepalveluiden tarjoajien sähköpostiosoitteita. Näitä ovat esimerkiksi outlook.com, hotmail.com ja gmail.com.  
 
 Jos yrität rekisteröityä käyttämällä henkilökohtaista sähköpostiosoitetta, saat viestin, jossa pyydetään käyttämään työ- tai opiskelupaikan antamaa sähköpostiosoitetta.  

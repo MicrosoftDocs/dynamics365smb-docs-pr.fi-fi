@@ -5,16 +5,16 @@ author: edupont04
 ms.service: dynamics365-accountant
 ms.topic: article
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 11/23/2018
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 0c4dadb15c9756c49f94839236766432844088c8
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: 54536e29fea7e5bab676647753954237ec8c37aa
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/06/2019
-ms.locfileid: "1238714"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300338"
 ---
-# <a name="get-started-with-include-d365acclongincludesd365acclongmdmd"></a>Aloita [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]in käyttö
+# <a name="get-started-with-include-d365acc_longincludesd365acc_long_mdmd"></a>Aloita [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]in käyttö
 [!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]
 
 Kaikkien yritysten on pidettävä kirjanpitoa ja hyväksyttävä se. Jotkin yritykset käyttävät ulkoista kirjanpitäjää, ja joillain yrityksillä on oma kirjanpitäjä. Jos olet kirjanpitäjä, jolla on useita asiakkaita, voit käyttää [!INCLUDE [d365acc](includes/d365acc_md.md)]ia koontinäyttönä ja saada sen avulla paremman yleiskuvan asiakkaistasi.  

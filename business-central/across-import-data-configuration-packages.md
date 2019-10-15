@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: migration, Excel
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 0d31e710c0b5d9e1dfa63c9c653b740fdcc12f11
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: e4399c16c28d97c0c1c6d8826af14e1b4a48e454
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245522"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304970"
 ---
 # <a name="importing-business-data-from-other-finance-systems"></a>Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä
 Kun rekisteröidyt [!INCLUDE[d365fin](includes/d365fin_md.md)]iin, voit luoda tyhjän yrityksen, ladata siihen omat tietosi ja testata uuden [!INCLUDE[d365fin](includes/d365fin_md.md)]-yrityksesi. Yrityksen tällä hetkellä käytössä olevan rahoitusratkaisun mukaan voit siirtää tietoja asiakkaista, toimittajista, varastosta ja pankkitileistä.  
@@ -62,14 +62,14 @@ Oletusmäärityspaketti tukee seuraavia taulukoita:
 -   Myyntirivi
 -   Ostojen tunnistetiedot
 -   Ostorivi
--   Yleisen päiväkirjan rivi
+-   Yl. päiväkirjan rivi
 -   Nimikepäiväkirjan rivi
 -   Asiakkaan kirjausryhmä
 -   Toimittajan kirjausryhmä
 -   Varaston kirjausryhmä
 -   Mittayksikkö
--   Ylein. liiketoim. kirjausryhmä
--   Yleinen tuotteen kirjausryhmä
+-   Yl. liiketoim. kirjausryhmä
+-   Yl. Tuotteen kirjausryhmä
 -   Yleiset kirjausasetukset
 -   Territorio
 -   Nimikeluokka

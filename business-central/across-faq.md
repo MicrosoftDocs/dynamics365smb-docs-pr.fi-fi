@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 08/02/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 91cd5a7bd5b4aa5103e472fbf040599ac9740226
-ms.sourcegitcommit: 5bcc5f95e450ee9a3d9f7a380e592a5e75c4185b
+ms.openlocfilehash: bfe2c4bec0627aee83d0ca25db975c76b7f803ab
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1858264"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300567"
 ---
 # <a name="frequently-asked-questions"></a>Usein kysytyt kysymykset
 
@@ -40,15 +40,17 @@ Yhteisön kotisivulta on lisäksi linkkejä blogeihin, joissa on lisää vihjeit
 Viime kädessä voi ottaa yhteyttä [!INCLUDE[d365fin](includes/d365fin_md.md)]in jälleenmyyntikumppaniin. Lisätietoja on kohdassa [Miten saan teknistä tukea](across-faq.md#how-do-i-get-technical-support-for-) -osassa.  
 
 ## <a name="why-cant-i-find-that-capability-in-my-included365finincludesd365fin_mdmd"></a>Miksi tätä toimintoa ei löydy omasta [!INCLUDE[d365fin](includes/d365fin_md.md)]ista?
-Luitko uudesta toiminnosta julkaisusuunnitelmasta vai blogistamme? Siinä tapauksessa [!INCLUDE[d365fin](includes/d365fin_md.md)]-versiotasi ei ehkä ole vielä päivitetty uusimpaan versioon. Jos toiminto on julkaistu laajennuksena AppSourcessa, laajennuksen julkistamista kuluu hetki, ennen kuin se on saatavilla AppSourcessa.  
+Luitko uudesta toiminnosta julkaisusuunnitelmasta vai blogistamme? Siinä tapauksessa [!INCLUDE[d365fin](includes/d365fin_md.md)]-versiotasi ei ehkä ole vielä päivitetty uusimpaan versioon. Voit tarkistaa, mihin versioon [!INCLUDE[d365fin](includes/d365fin_md.md)] perustuu, [Ohje ja tuki](product-help-and-support.md) -sivulla.  
+
+Jos toiminto on lisäksi julkaistu laajennuksena AppSourcessa, laajennuksen julkistamisesta kuluu hetki, ennen kuin se on saatavilla AppSourcessa.  
 
 ## <a name="are-there-any-differences-between-an-on-premises-deployment-and-the-cloud-version-of-business-central"></a>Onko Business Central -sovelluksen paikallisessa käyttöönotossa ja pilviversiossa eroja?
 Kyllä. Jotkin pilvipohjaiset toiminnot toimivat paikallisesti tietyissä tapauksissa. Joitakin taas ei tueta lainkaan. Lisätietoja on kohdassa [Ominaisuudet, joita ei ole otettu käyttöön Dynamics 365 Business Central -sovelluksen paikallisissa käyttöönotoissa](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises).
 
 ## <a name="can-i-get-training-in-included365finincludesd365fin_mdmd"></a>Saanko [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen käyttöä koskevaa koulutusta?
-Kyllä saat. Tällä hetkellä koulutusta tulee tiedustella jälleenmyyntikumppanilta. Jos et tiedä, kuka se on, etsi Business Central -kumppani [Ratkaisutoimittajan haku](https://go.microsoft.com/fwlink/?linkid=2038145) -sivulla.  
+Kyllä saat. Maksutonta eLearning-sisältöä voi etsiä [Microsoft Learn sivustossa](/learn/browse/?products=dynamics-business-central). Voit pyytää lisäkoulutusta myös jälleenmyyntikumppanilta. Jos et tiedä, kuka se on, etsi Business Central -kumppani [Ratkaisutoimittajan haku](https://go.microsoft.com/fwlink/?linkid=2038145) -sivulla.  
 
-Jos sinulla on Microsoftin CustomerSource-sivuston käyttöoikeus, voit käyttää Imagine Academy -sivustoa eLearning-materiaalin kanssa. Lisätietoja käyttöoikeuden saamisesta on [Microsoft Dynamics 365 -koulutus](/dynamics365/get-started/training/index#dynamics-365-customers) -sivulla.  
+Lisätietoja Microsoftin tarjoamasta koulutuksesta on [Microsoft Dynamics 365 -koulutuksen](/dynamics365/get-started/training/index#dynamics-365-customers) -sivulla.  
 
 ## <a name="how-do-i-get-technical-support-for-included365finincludesd365fin_mdmd"></a>Miten saan teknistä tukea [!INCLUDE[d365fin](includes/d365fin_md.md)]ille?
 
@@ -74,7 +76,7 @@ Jos haluat ottaa käyttöön paikallisen [!INCLUDE[d365fin](includes/d365fin_md.
 ## <a name="do-i-have-to-buy-office-365"></a>Onko minun ostettava Office 365?
 Nro Jos kuitenkin haluat käyttää Office 365:een täysin integroitua [!INCLUDE[d365fin](includes/d365fin_md.md)]ia, voit rekisteröityä käyttämään Office 365 -kokeiluversiota maksutta kuukauden ajan [täällä](https://products.office.com/try).  
 
-Jos kirjaudut jollain muulla kuin Office 365 -työtilillä (kuten *joe@mysolution.com*) ja sinulla on Office 365 -tilaus, voit liittää toimialueen (*mysolution.com*) Office 365 -tilaukseen. Lisätietoja on kohdassa [Office 365 -toimialueita koskevat ohjeet](/office365/admin/get-help-with-domains/get-help-with-domains?view=o365-worldwide).  
+Jos kirjaudut jollain muulla kuin Office 365 -työtilillä (kuten joe@mysolution.com) ja sinulla on Office 365 -tilaus, voit liittää toimialueen (*mysolution.com*) Office 365 -tilaukseen. Lisätietoja on kohdassa [Office 365 -toimialueita koskevat ohjeet](/office365/admin/get-help-with-domains/get-help-with-domains?view=o365-worldwide).  
 
 Jos sinulla ei ole Office 365 -tilausta etkä halua ostaa sitä, valmistelemme sinulle kirjautumisesi yhteydessä uuden Azure Active Directory -vuokraajan, jonka avulla voit käyttää Azure-portaalia ja sen kautta edistyneitä järjestelmätyökaluja.  
 
@@ -87,8 +89,8 @@ Kyllä. Kun kokeilujakson päättyminen on lähellä, kirjautumisen yhteydessä 
 > [!NOTE]
 > Kokeilujakson pidentämisprosessi voi kestää 2 arkipäivää.  
 
-## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-role-center-in-included365finincludesd365fin_mdmd"></a>Järjestelmänvalvoja on siirtänyt minut toiseen tilaukseen, jotta voin käyttää toista roolia, mutta näen kuitenkin edelleen saman [!INCLUDE[d365fin](includes/d365fin_md.md)] -roolikeskuksen. Miksi?
-Selitys on hieman monimutkainen, mutta ilmeisesti järjestelmänvalvoja ei vaihtanut roolikeskustasi eikä määrittänyt uutta käyttöoikeutta vastaavia käyttäjäryhmiä. [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttöoikeus määräytyy periaatteessa tilaussuunnitelman (käyttöoikeuden) mukaan, sillä sen avulla määritetään oikeudet ja roolikeskuksen oletussivu. Voit vaihtaa roolikeskuksen manuaalisesti omissa asetuksissa, mutta jos sinut siirretään toiseen tilaussuunnitelmaan, vaikkapa yritystilauksesta Team Members -tilaukseen, vanha aloitussivu voi olla näkyvissä, koska oikeuksia ei muutettu.  
+## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-home-screen-in-included365finincludesd365fin_mdmd"></a>Järjestelmänvalvoja on siirtänyt minut toiseen tilaukseen, jotta voin käyttää toista roolia, mutta näen kuitenkin edelleen saman [!INCLUDE[d365fin](includes/d365fin_md.md)] -aloitusnäytön. Miksi?
+Selitys on hieman monimutkainen, mutta ilmeisesti järjestelmänvalvoja ei vaihtanut määritettyä roolia eikä määrittänyt uutta käyttöoikeutta vastaavia käyttäjäryhmiä. [!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttöoikeus määräytyy periaatteessa tilaussuunnitelman (käyttöoikeuden) mukaan, sillä sen avulla määritetään käyttöoikeudet, rooli ja oletusarvoinen aloitusnäyttö. Voit vaihtaa nykyisen roolin manuaalisesti omissa asetuksissa, mutta jos sinut siirretään toiseen tilaussuunnitelmaan, vaikkapa yritystilauksesta Team Members -tilaukseen, vanha aloitusnäyttö voi olla näkyvissä, koska käyttöoikeuksia ei muutettu.  
 
 ## <a name="can-i-cancel-my-subscription"></a>Voinko peruuttaa tilaukseni?
 Kyllä voit. Huomaa kuitenkin, että tietosi poistetaan tai säilytetään sen perusteella, miten rekisteröidyit [!INCLUDE[d365fin](includes/d365fin_md.md)]iin. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)] -tilauksen peruuttaminen](admin-cancel.md).  

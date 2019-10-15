@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, replenishment
-ms.date: 04/24/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 83f6a24fc066faef49de456e18673f8059a9831d
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: a85fb48251d5c1465dcd4be7aaf868d857a07fd4
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252249"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311954"
 ---
 # <a name="create-recurring-sales-and-purchase-lines"></a>Toistuvien myynti- ja ostorivien luominen
 Jos sinun on usein luotava samankaltaisia tietoja sisältäviä myynti- ja ostorivejä, voit määrittää vakiorivejä ja lisätä ne sitten toistuviin myynti- ja ostoasiakirjoihin, kuten toistuviin täydennystilauksiin.  
@@ -46,7 +46,7 @@ Määritä asiakkaalle vähintään yksi vakiomyyntirivi, jotta näitä rivejä 
 |Asetus|Kuvaus|
 |-|-|
 |**Manuaalinen**|Asiakkaalla olevat toistuvat myyntirivit on valittava ja lisättävä manuaalisesti.|
-|**Automaattinen**|Jos asiakkaalla on useita toistuvia myyntirivejä, saat ilmoituksen siitä, mistä voi valita, mikä rivi lisätään. Jos toistuvia myyntirivejä on vain yksi, se lisätään automaattisesti.|
+|**Automaattinen**|Jos asiakkaalla on useita toistuvia myyntirivejä, saat ilmoituksen siitä, mistä voi valita, mikä rivi lisätään. Jos toistuvia myyntirivejä on vain yksi, se lisätään automaattisesti.<br /><br />Huomaa, että tämä toimii vain, jos uusi asiakirja luotiin asiakirjaluettelosta esimerkiksi valitsemalla **Uusi**-toiminto **Myyntitilaukset**-sivulla. Se ei toimi, jos asiakirja luotiin esimerkiksi asiakaskortista.|
 |**Kysy aina**|Ilmoitus avautuu ja kaikki aiemmin luodut toistuvat myyntirivit näytetään. Voit sitten valita niistä yhden.
 
 ## <a name="to-insert-recurring-sales-lines-on-a-sales-invoice"></a>Toistuvien myyntirivien lisääminen myyntilaskuun

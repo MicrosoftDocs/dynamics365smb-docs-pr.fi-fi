@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, tax, report, EC sales list, statement
-ms.date: 05/02/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: fcc9eda38a54e8e94bd74bfbcc76fe808a119525
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: 4560de9740d0b4918d685fb0278b905baf1a8ecd
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1446989"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2306222"
 ---
 # <a name="report-vat-to-a-tax-authority"></a>ALV:n raportointi veroviranomaisille
 Tässä ohjeaiheessa käsitellään [!INCLUDE[d365fin](includes/d365fin_md.md)]in raportteja, joilla voit lähettää myynnin ja ostojen arvolisäverosummia koskevat tiedot alueesi veronviranomaisille.
@@ -61,7 +61,7 @@ Jotta voisit ilmoittaa arvonlisäveron viranomaiselle sähköisesti, [!INCLUDE[d
     > [!NOTE]  
     >   Yhteyden toimivuus kannattaa testata. Sen voi tehdä valitsemalla **Testitila**-valintaruudun sekä valmistelemalla ja lähettämällä ALV-raportin kohdassa _ALV-raportin valmisteleminen ja lähettäminen_ kuvatulla tavalla. Palvelu testaa testitilassa, voiko veroviranomainen vastaanottaa raportin. Raportin tila ilmaisee, onnistuiko testilähetys vai ei. Muista kuitenkin, että tietoja ei ole vielä oikeasti lähetetty. Kun haluat lähettää raportin oikeasti, poista **Testitila**-valintaruudun valinta ja toista sitten lähetysprosessi.
 
-## <a name="to-set-up-vat-reports-in-included365finincludesd365finmdmd"></a>ALV-raporttien määrittäminen [!INCLUDE[d365fin](includes/d365fin_md.md)]issa
+## <a name="to-set-up-vat-reports-in-included365finincludesd365fin_mdmd"></a>ALV-raporttien määrittäminen [!INCLUDE[d365fin](includes/d365fin_md.md)]issa
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **ALV-raportin asetukset** ja valitse sitten liittyvä linkki.  
 2. Jos haluat, että käyttäjät voivat muuttaa ja uudelleenlähettää näitä raportteja, valitse **Muokkaa lähetettyjä raportteja** -valintaruutu.  
 3. Valitse kussakin raportissa käytettävä numerosarja.  

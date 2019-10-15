@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 188cbf7d63795167a0cbbf0b0debf904b153992d
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 239810db7fa6f7cd74aaebf94581f9ad76fd5599
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248822"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314674"
 ---
 # <a name="ship-items"></a>Nimikkeiden toimittamimen
 Kun toimitat nimikkeitä fyysisestä varastosta, johon ei ole määritetty fyysisen varaston toimituskäsittelyä, toimitus vain kirjataan liittyvään asiakirjaan, kuten myyntitilaukseen, huoltotilaukseen, ostopalautustilaukseen tai lähtevään siirtotilaukseen.
@@ -25,7 +25,7 @@ Kun toimitat nimikkeitä fyysisestä varastosta, johon ei ole määritetty fyysi
 Kun toimitat nimikkeitä fyysisestä varastosta, johon määritetty toimituksen käsittely, nimikkeitä voi toimittaa vain sellaisten lähdeasiakirjojen perusteella, jotka muut yrityksen yksiköt ovat antaneet fyysiseen varastointiin toimintoa varten.
 
 > [!NOTE]
-> Jos fyysisessä varastoinnissa käytetään laiturointia ja varastopaikkoja, voit katsoa jokaisen rivin osalta niiden nimikkeiden määrän, jotka on sijoitettu laiturointivarastopaikkoihin. Ohjelma laskee nämä määrät automaattisesti aina, kun toimituksen kenttiä päivitetään. Jos kyseessä ovat nimikkeet, jotka sopivat valmisteltavaan toimitukseen, voit luoda poiminnan kaikille riveille ja sitten tehdä toimituksen loppuun. Lisätietoja on kohdassa [Nimikkeiden laiturointi](warehouse-how-to-cross-dock-items.md).
+> Jos fyysisessä varastoinnissa käytetään laiturointia ja varastopaikkoja, voit katsoa jokaisen rivin osalta niiden nimikkeiden määrän, jotka on sijoitettu laiturointivarastopaikkoihin. Sovellus laskee nämä määrät automaattisesti aina, kun toimituksen kenttiä päivitetään. Jos kyseessä ovat nimikkeet, jotka sopivat valmisteltavaan toimitukseen, voit luoda poiminnan kaikille riveille ja sitten tehdä toimituksen loppuun. Lisätietoja on kohdassa [Nimikkeiden laiturointi](warehouse-how-to-cross-dock-items.md).
 
 ## <a name="to-ship-items-with-a-sales-order"></a>Nimikkeiden toimittaminen myyntitilauksella
 Seuraavaksi käsitellään, miten nimikkeitä vastaanotetaan ostotilauksella. Vaiheet ovat samankaltaiset ostopalautustilaukset, huoltotilauksille ja lähtevät siirtotilauksille.  

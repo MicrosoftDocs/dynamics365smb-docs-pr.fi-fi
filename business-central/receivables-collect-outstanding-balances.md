@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a4b6f58c434c563021e94e55e47c547d39967502
-ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
+ms.openlocfilehash: ca99b44b7c96037d07c00902df3411db81745d86
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "1985884"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2316642"
 ---
 # <a name="collect-outstanding-balances"></a>Avointen saldojen perintä
 Myyntisaamisten hallintaan kuuluu sen tarkistaminen, onko erääntyneet summat maksettu ajoissa. Jos asiakkailla on erääntyneitä maksuja, voit aloittaa lähettämällä heille asiakkaan tiliotteen raportin muistutuksena. Vaihtoehtoisesti voit lähettää muistutuksia.
@@ -161,6 +161,11 @@ Lisäksi muistutuksen lähettämisestä voi seurata ALV-tapahtumia.
 
 Muistutus on joko tulostettu lähettäväksi määritettyyn sähköpostiin PDF-liitteenä.
 
+### <a name="to-cancel-an-issued-reminder"></a>Lähetetyn muistutuksen peruuttaminen
+Jos muistutukset lähetettiin vahingossa, voit peruuttaa ne, ennen kuin ne lähetetään vastaanottajalle. Voit tehdä sen joko yksi kerrallaan tai eränä.
+1. Valitse **Lähetetyt muistutukset** -sivulla vähintään yhden peruutettavan lähetetyn muistutuksen rivi ja valitse sitten **Peruuta**-toiminto.
+2. Täytä **Peruuta lähetetyt muistutukset** -sivulla tarvittavat kentät ja valitse sitten **OK**-painike.
+
 ## <a name="to-set-up-finance-charge-terms"></a>Viivästyskuluehtojen määrittäminen
 Jokaista viivästyskulun laskentaa kuvaamaan täytyy määrittää koodi. Tämä koodi voidaan sitten antaa asiakas- tai toimittajakortin **Viivästyskuluehtojen koodi** -kentässä.
 
@@ -243,6 +248,11 @@ Lisäksi viivästyskululaskun lähettämisen seurauksena voi olla ALV-tapahtumia
 4. Valitse **OK**-painike.
 
 Viivästyskululasku on joko tulostettu tai lähetetty määritettyyn sähköpostiin PDF-liitteenä.
+
+### <a name="to-cancel-an-issued-finance-charge-memo"></a>Lähetetyn viivästyskululaskun peruuttaminen
+Jos viivästyskululaskut lähetettiin vahingossa, voit peruuttaa ne, ennen kuin ne lähetetään vastaanottajalle. Voit tehdä sen joko yksi kerrallaan tai eränä.
+1. Valitse **Lähetetyt viivästyskululaskut** -sivulla vähintään yhden peruutettavan viivästyskululaskun rivi ja valitse sitten **Peruuta**-toiminto.
+2. Täytä **Peruuta lähetetyt viivästyskululaskut** -sivulla tarvittavat kentät ja valitse sitten **OK**-painike.
 
 ## <a name="to-view-reminder-and-finance-charge-entries"></a>Muistutus-/Viivästyskulutapahtumien katsominen  
 Kun lähetät muistutuksen, muistutustapahtuma luodaan **Muistutus-/viivästyskulutap.**-sivulle kullekin asiakastapahtuman sisältävälle muistutusriville. Voit sitten hakea tietyn asiakkaan muistutustapahtumien yleiskuvauksen.    

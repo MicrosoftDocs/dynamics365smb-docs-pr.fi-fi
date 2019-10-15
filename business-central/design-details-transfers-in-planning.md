@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, transfer, sku, locations, warehouse
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 56988064297cac55c48624071a19d510f6126495
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 72a9455810b017510947b78e40c88116e9935d20
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248040"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2306722"
 ---
 # <a name="design-details-transfers-in-planning"></a>Rakennetiedot: siirrot suunnittelussa
 Siirtotilaukset ovat myös tarjonnan lähde, kun työskennellään varastointiyksikön tasolla. Kun käytössä on useita sijainteja (fyysisiä varastoja), varastointiyksikön täydennysjärjestelmän arvoksi voi määrittää Siirto. Tällöin sijainnin täydennys tehdään siirtämällä tavaroita toisesta sijainnista. Yrityksillä voi olla useita varastoja ja yhdistettyjä siirtoja, joissa toimitus VIHREÄÄN sijaintiin siirretään KELTAISESTA ja toimitus KELTAISEEN siirretään PUNAISESTA ja niin edelleen. Ketjun alussa on täydennysjärjestelmänä Tuotantotilaus tai Osto.  
@@ -29,7 +29,7 @@ Jos verrataan tilannetta, jossa toimitustilaus liittyy suoraan kysyntätilauksee
 ![Esimerkki siirtojen kysynnän ja tarjonnan tasapainosta](media/nav_app_supply_planning_7_transfers2.png "Esimerkki siirtojen kysynnän ja tarjonnan tasapainosta")  
 
 ## <a name="why-is-transfer-a-special-case"></a>Miksi siirto on erikoistapaus?  
-Siirtotilaus on pitkälti samanlainen kuin kaikki muut ohjelman tilaukset. Taustalla se on kuitenkin hyvin erilainen.  
+Siirtotilaus on pitkälti samanlainen kuin kaikki muut sovelluksen tilaukset. Taustalla se on kuitenkin hyvin erilainen.  
 
 Yksi olennainen asia, joka erottaa siirtojen suunnittelun osto- ja tuotantotilauksista on, että siirtorivi kuvaa kysyntää ja tarjontaa samaan aikaan. Lähtevä osa, joka lähetetään vanhasta sijainnista, on kysyntä. Tuleva osa, joka tulee vastaanottaa uudessa sijainnissa, on tämän sijainnin tarjonta.  
 

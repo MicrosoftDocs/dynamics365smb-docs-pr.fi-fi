@@ -8,23 +8,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1dac30e8c48e37464bc503fcc1d2961cc5721868
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 020fde81b868a2aba65ae5d5acae2047a007eaa5
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1253008"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313058"
 ---
 # <a name="subcontract-manufacturing"></a>Tuotanto alihankintana
 Valittujen toimintojen siirtäminen alihankintoina toimittajalle on yleistä monissa tuotantoyrityksissä. Alihankinta voi olla joko harvinaista tai keskeinen osa kaikkia tuotantoprosesseja.
 
-Ohjelmassa on useita työkaluja alihankintatöiden hallintaan:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]issa on useita työkaluja alihankintatöiden hallintaan:  
 
 - Tuotantosolut, joihin on määritetty alihankkija: Tämän ominaisuuden avulla voit määrittää alihankkijaan liittyvän tuotantosolun. Sitä kutsutaan alihankkijan tuotantosoluksi. Voit määrittää alihankkijan tuotantosolun reititysoperaatioon, jolloin voit käsitellä alihankkijalla teetettävän toimen. Operaation kustannukset voi myös määrittää reitityksen tai tuotantosolun tasolla.  
-- Yksikkö- tai aikaperustaiset työsolukustannukset: Tämän ominaisuuden avulla voit määrittää, perustuvatko tuotantosoluun liittyvät kustannukset tuotantoaikaan vai kiinteään yksikköperustaiseen korvaukseen. Vaikka alihankkijat laskuttavatkin palveluistaan usein yksikköperustaisen kiinteän maksun, ohjelma osaa käsitellä molemmat vaihtoehdot (sekä tuotantoaikaan perustuvan että yksikköperustaisen kiinteän korvauksen).  
-- Alihankintatyökirja: Tämä ominaisuuden avulla voit etsiä tuotantotilaukset, joissa on valmista alihankkijalle lähetettävää materiaalia, sekä luoda alihankintatöiden ostotilaukset automaattisesti tuotantotilauksen reitityksistä. Ohjelma kirjaa tämän jälkeen ostotilausten kulut automaattisesti tuotantotilaukseen ostotilauksen kirjaamisen yhteydessä. Vain sellaisia tuotantotilauksia voi avata ja käyttää alihankintatyökirjasta, joiden tila on Vapautettu.  
+- Yksikkö- tai aikaperustaiset työsolukustannukset: Tämän ominaisuuden avulla voit määrittää, perustuvatko tuotantosoluun liittyvät kustannukset tuotantoaikaan vai kiinteään yksikköperustaiseen korvaukseen. Vaikka alihankkijat laskuttavatkin palveluistaan usein yksikköperustaisen kiinteän maksun, sovellus osaa käsitellä molemmat vaihtoehdot (sekä tuotantoaikaan perustuvan että yksikköperustaisen kiinteän korvauksen).  
+- Alihankintatyökirja: Tämä ominaisuuden avulla voit etsiä tuotantotilaukset, joissa on valmista alihankkijalle lähetettävää materiaalia, sekä luoda alihankintatöiden ostotilaukset automaattisesti tuotantotilauksen reitityksistä. Sovellus kirjaa tämän jälkeen ostotilausten kulut automaattisesti tuotantotilaukseen ostotilauksen kirjaamisen yhteydessä. Vain sellaisia tuotantotilauksia voi avata ja käyttää alihankintatyökirjasta, joiden tila on Vapautettu.  
 
 ## <a name="subcontract-work-centers"></a>Alihankinnan tuotantosolut  
 Alihankinnan tuotantosolut määritetään samalla tavalla kuin tavallisetkin tuotantosolut, mutta mukana on tarkentavia tietoja. Ne määritetään reitityksiin samalla tavalla kuin muutkin tuotantosolut.  

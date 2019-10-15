@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: availability, localization
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 68543b9ab74ed713ae0e4db0778c27b1e31c4f77
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: a22fe178668892472b05bcb554989dce0cc3d46d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241361"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300807"
 ---
-# <a name="local-functionality-in-included365finlongincludesd365finlongmdmd"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]in paikalliset toiminnot
+# <a name="local-functionality-in-included365fin_longincludesd365fin_long_mdmd"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]in paikalliset toiminnot
 [!INCLUDE[d365fin](includes/d365fin_md.md)]in yhdistetty lokalisaatiostrategia sisältää sekä Microsoftin että kumppanin vetämät mallit. Tässä osassa on kuvaukset niissä maissa käytettävistä toiminnoista, joissa säädösten noudattaminen ja muut paikalliset toiminnot saadaan Microsoftin avulla.  
 
 Luettelo tuetuista markkinoista on kohdassa [Microsoft Dynamics 365:n kansainvälinen saatavuus](https://docs.microsoft.com/en-us/dynamics365/get-started/availability).  

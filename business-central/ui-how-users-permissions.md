@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 4a9bbc34893f1af257908558122f8e8cbe6ce757
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 51c8c4207d9b5311698c7c5575fc67d8c5b2df9d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250110"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310898"
 ---
-# <a name="managing-users-and-permissions"></a>Käyttäjien ja käyttöoikeuksien hallinta
+# <a name="manage-users-and-permissions"></a>Käyttäjien ja käyttöoikeuksien hallinta
 Käyttäjiä voi lisätä [!INCLUDE[d365fin](includes/d365fin_md.md)]iin sen jälkeen, kun yrityksen Office 365:n järjestelmänvalvoja on ensin luonut käyttäjät Office 365:n hallintaportaalissa. Lisätietoja on kohdassa [Käyttäjien lisääminen Office 365 for Businessiin](https://aka.ms/CreateOffice365Users).
 
 Kun käyttäjät on luotu Office 365:ssä, käyttäjätiedot voidaan tuoda [!INCLUDE[d365fin](includes/d365fin_md.md)]:n **Käyttäjät**-sivulle. Käyttäjille määritetään käyttöoikeusjoukot sen mukaan, mitä palvelupaketti on määritetty käyttäjälle Office 365:ssä. Lisätietoja käyttöoikeuksista on kohdassa [Microsoft Dynamics 365 Business Centralin käyttöoikeusopas](https://aka.ms/BusinessCentralLicensing).
@@ -28,15 +28,23 @@ Oikeussarja on joukko tietyn tietokannan objektien käyttöoikeuksia. Kaikille k
 
 Voit avata **Käyttäjän kortti** -sivulla **Voimassa olevat käyttöoikeudet** -sivun, jos haluat katsoa käyttäjän käyttöoikeudet ja käyttöoikeuksien joukot, joiden kautta ne on myönnetty. Tässä kohdassa voit myös muuttaa niiden käyttöoikeuksien joukkojen käyttöoikeuksien tietoja, joiden tyyppi on **Käyttäjän määrittämä**. Lisätietoja on kohdassa [Käyttäjän käyttöoikeuksien yleiskatsauksen hankkiminen](ui-how-users-permissions.md#to-get-an-overview-of-a-users-permissions).
 
-Järjestelmänvalvojat voivat määrittää **Käyttäjäasetukset**-sivulla ajanjaksoja, joiden aikana määritetyt käyttäjät voivat tehdä kirjauksia. He voivat myös määrittää, kirjaako järjestelmä ajan, jonka käyttäjät olivat kirjautuneena.
+## <a name="users-in-on-premises-deployments"></a>Paikallisten käyttöönottojen käyttäjät
+Järjestelmänvalvoja voi valita käyttäjille [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen paikallisten käyttöönottojen eri tunnistetietojen mekanismeista. Kun olet luonut käyttäjän, annat eri tietoja riippuen tunnistetiedoista, joita käytät tietyssä [!INCLUDE[server](includes/server.md)] -ilmentymässä. Lisätietoja on [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen kehittäjän ja ITPro-sisällön järjestelmänvalvojan osan [Todennus ja tunnistetietotyypit](/dynamics365/business-central/dev-itpro/administration/users-credential-types) -kohdassa.
 
-Toinen järjestelmä, joka määrittää, mitä käyttäjät voivat käyttää Kokemus-asetuksissa. Lisätietoja on kohdassa [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md).
+## <a name="profiles"></a>Profiilit
+Voit määrittää käyttäjien lisäämisen jälkeen, mitä käyttäjät näkevät käyttöliittymässä ja miten he käyttävät sallittuja toimintoja sivuilla. Se tehdään profiilien avulla ja siinä otetaan huomioon roolit tai osastot. Nämä profiilit määritetään eri käyttäjätyypeille. Lisätietoja on kohdissa [Profiilien hallinta](admin-users-profiles-roles.md) ja [[!INCLUDE[d365fin](includes/d365fin_md.md)]in mukauttaminen](ui-customizing-overview.md).
 
 ## <a name="to-add-a-user-in-business-central"></a>Käyttäjän lisääminen Business Central -sovellukseen
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttäjät** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Käyttäjät** ja valitse sitten liittyvä linkki.
 2. Valitse **Hae käyttäjät Office 365:stä** -toiminto.
 
 Kaikki uudet Office 365 -tilaukseen luodut käyttäjät lisätään **Käyttäjät**-sivulla.
+
+## <a name="to-edit-or-delete-a-user"></a>Käyttäjän muokkaaminen tai poistaminen
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Käyttäjät** ja valitse sitten liittyvä linkki.
+2. Valitse muokattava käyttäjä ja valitse sitten **Muokkaa**-toiminto.
+3. Muuta tietoja tarvittaessa **Käyttäjän kortti** -sivulla.    
+4. Poista käyttäjä valitsemalla ensin poistettava käyttäjä ja sitten **poista**-toiminto.
 
 ## <a name="to-group-users-in-user-groups"></a>Käyttäjien ryhmittäminen käyttäjäryhmiin
 Voit määrittää käyttäjäryhmiä auttamaan hallitsemaan oikeusryhmät käyttäjäryhmille yrityksessä.
@@ -110,7 +118,7 @@ Käyttäjällä voi olla esimerkiksi oikeus ajaa koodiyksikkö 80, myynti kirjat
 
 Käyttäjällä ei kuitenkaan tarvitse olla Ostorivi-taulukon täysiä käyttöoikeuksia codeunitin suorittamiseksi. Jos käyttäjällä on Myyntirivi-taulukon epäsuorat käyttöoikeudet, codeunitin Myynti kirjattu suorittaminen onnistuu. Kun käyttäjällä on epäsuorat oikeudet, kyseinen käyttäjä voi muokata vain Ostorivi-taulukkoa suorittamalla codeunitin Myynti kirjattu tai toisen objektin, jolla on Ostorivi-taulukon muokkausoikeudet. Käyttäjä voi muokata Ostorivi-taulukkoa vain silloin, kun se tapahtuu tuetulla sovellusalueella. Käyttäjä ei voi suorittaa toimintoa vahingossa tai tahallaan muita menetelmiä käyttäen.
 
-### <a name="to-limit-a-users-access-to-specific-records-in-a-table"></a>Käyttäjän käyttöoikeuden rajoittaminen tiettyihin taulukon tietueisiin
+## <a name="to-limit-a-users-access-to-specific-records-in-a-table"></a>Käyttäjän käyttöoikeuden rajoittaminen tiettyihin taulukon tietueisiin
 [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietuetason suojauksessa käyttäjän käyttöoikeus rajoitetaan taulukon tietoihin suojaussuodattimien avulla. Suojaussuodattimet luodaan taulukon tietojen perusteella. Suojaussuodatin kuvaa sitä taulukon tietuejoukkoa, jonka käyttöoikeus käyttäjällä on. Voit määrittää esimerkiksi, että käyttäjä saa lukea vain tietueita, joissa on tietoja tietystä asiakkaasta. Tämä tarkoittaa, että käyttäjällä ei ole muiden asiakkaiden tietoja sisältävien tietueiden käyttöoikeutta. Lisätietoja on kehittäjien ja IT-ammattilaisten ohjeen kohdassa [Suojaussuodattimien käyttäminen](/dynamics365/business-central/dev-itpro/security/security-filters).
 
 
@@ -174,9 +182,14 @@ Seuraavassa kerrotaan, miten käyttöoikeuksien joukot määritetään käyttäj
 > [!NOTE]  
 > Kun muokkaat käyttöoikeuksien joukkoa, muutokset kohdistuvat myös niihin käyttäjiin, joille on määritetty käyttöoikeuksien joukko.
 
+## <a name="to-remove-a-users-access-to-the-system"></a>Järjestelmän käyttöoikeuden poistaminen käyttäjältä
+
+Järjestelmänvalvojana voit poistaa käyttäjältä järjestelmän käyttöoikeuden määrittämällä **Tila**-kentän arvoksi **Ei käytössä**. Kaikki viittaukset käyttäjään säilyvät, mutta käyttäjä ei voi enää kirjautua järjestelmään ja käyttäjän aktiiviset istunnot lopetetaan. Voit antaa käyttöoikeuden uudelleen käyttäjälle määrittämällä **Tila**-kentän arvoksi **Käytössä**.
+
 ## <a name="see-also"></a>Katso myös
 [Business Centralin tietoturva ja suojaus](/dynamics365/business-central/dev-itpro/security/security-and-protection)  
-[Tietoja käyttäjistä, profiileista ja roolikeskuksista](admin-users-profiles-roles.md)  
+[Profiilien hallinta](admin-users-profiles-roles.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen mukauttaminen](ui-customizing-overview.md)  
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md)  
 [Hallinta](admin-setup-and-administration.md)  

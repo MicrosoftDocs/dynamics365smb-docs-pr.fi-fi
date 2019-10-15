@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b4a47608bbcc191ec413f08e0969f1bbd6fc4041
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 5b153d68636e948a01a5ab2d514828710e413f3d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251168"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311642"
 ---
 # <a name="work-on-service-tasks"></a>Huoltotehtävien käyttäminen
 Kun huoltotilaukset tai huoltotarjoukset on luotu, huoltonimikerivit rekisteröity ja resurssit on kohdistettu tilausten tai tarjousten huoltonimikkeille, huoltonimikkeiden korjauksen ja ylläpidon voi aloittaa.  
@@ -100,7 +100,7 @@ Huoltonimikkeen korjauksen jälkeen nimikkeelle voi rekisteröidä sekä vikakoo
 2. Valitse ensin huoltonimikkeen sisältävä rivi ja sitten **Nimikkeen työkirja** -toiminto.  
 3. Valitse **Huoltonimikkeen työkirja** -sivulla **Vika-/ratkaisukoodien suhteet**. **Vika-/ratkaisukoodien suhteet** -sivu avautuu.  
 
-  >  [!Note]
+  >  [!NOTE]
   >  Ohjelma asettaa automaattisesti suodatuksia näyttämilleen suhteille kopioimalla huoltonimikeryhmän ja vikakoodit **Huoltonimikkeen työkirja** -sivulta.  
 
 4. Täytä rivi. Valitse oikea vika- ja ratkaisukoodien yhdistelmä ja kopioi se sitten huoltonimikkeeseen valitsemalla **OK**. Jos sopivaa yhdistelmää ei löydy, sivulla voi luoda uuden yhdistelmän.  

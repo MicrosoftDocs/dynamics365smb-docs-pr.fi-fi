@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3a3e42d9468c9f1a8d23afd8284e210fa7145c3c
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 7f2d1f354b789931bde76ed8869e326a34e53919
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247161"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304408"
 ---
 # <a name="migrate-customer-data"></a>Asiakastietojen siirtäminen
 Voit siirtää aiemmin luodun asiakkaan tiedot aiemmin luodusta ERP-järjestelmästä [!INCLUDE[d365fin](includes/d365fin_md.md)]iin RapidStart Servicesin tietojen siirto-työkalujen avulla . Voit käyttää Excel-tiedostoja tiedonkuljettajana. Voit siirtää tiedot manuaalisesti kirjoittamalla ne suoraan yrityksen.
@@ -111,7 +111,7 @@ Seuraavassa esimerkissä kuvataan, kuinka [!INCLUDE[d365fin](includes/d365fin_md
 2. Lisää pakettiin taulukoita, esimerkiksi **Asiakas** ja **Toimittaja**. Molemmat taulukot viittaavat **Myyjä/ostaja** -taulukkoon **myyjäkoodin** ja **ostajakoodin** kautta.  
 3. Kun käytät tietoja, vastaavuusmääritys, joka on annettu **Myyjä/ostaja**-taulukon **Koodi**-kenttään, otetaan huomioon **Myyjäkoodi**- ja **Ostajakoodi**-kentissä.
 
-## <a name="to-add-additional-values-to-included365finincludesd365finmdmd"></a>Uusien arvojen lisääminen [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmaan  
+## <a name="to-add-additional-values-to-included365finincludesd365fin_mdmd"></a>Uusien arvojen lisääminen [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmaan  
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Määrityspaketit** ja valitse sitten liittyvä linkki.  
 2. Valitse taulukko, johon haluat lisätä arvoja, ja valitse sitten **Taulukot**-pikavälilehden **Kentät**-toiminto.  
 3. Kentille, joille haluat [!INCLUDE[d365fin](includes/d365fin_md.md)]:n sallivan lisäarvoja siirron aikana, valitse **Luo puuttuvat koodit** -valintaruutu.  

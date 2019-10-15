@@ -4,20 +4,20 @@ description: Ennakkomaksut ovat maksuja, jotka on laskutettu sekä kirjattu myyn
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 08/07/2017
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: dbf1ea7104501fb4bee2fe62eed1039c3c441c16
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 81189f3a3476fba8754cbcd15445fa1d8450a20b
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238760"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2305786"
 ---
 # <a name="invoicing-prepayments"></a>Ennakkomaksujen laskuttaminen
 Ennakkomaksut ovat maksuja, jotka on laskutettu ja kirjattu myynti- tai ostoennakkomaksun tilaukseen ennen lopullista laskutusta. Esimerkiksi ennen tilattujen nimikkeiden valmistamista voidaan edellyttää talletuksen tekemistä, tai ennen nimikkeiden toimittamista asiakkaalle voidaan edellyttää maksun suorittamista. Ennakkomaksutoimintojen avulla voit laskuttaa ja kerätä asiakkailta edellytettyjä talletuksia tai suorittaa talletuksia toimittajille. Näin voit varmistaa, että kaikki maksut kirjataan laskua vastaan.  
