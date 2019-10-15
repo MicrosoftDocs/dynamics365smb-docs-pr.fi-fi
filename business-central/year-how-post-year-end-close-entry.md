@@ -10,29 +10,29 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 878079fd02a2d54ae6b878fa54c7006dee779c15
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: bafb11ebe021a07ad9f9d8b9af36e68cf9cb94d0
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249673"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314350"
 ---
-# <a name="post-the-year-end-closing-entry"></a><span data-ttu-id="e9b75-103">Vuositilinpäätöstapahtuman kirjaaminen</span><span class="sxs-lookup"><span data-stu-id="e9b75-103">Post the Year-End Closing Entry</span></span>
-<span data-ttu-id="e9b75-104">Kun olet luonut vuositilinpäätöstapahtuman tai -tapahtumat **Sulje tuloslaskelma** -eräajolla, sinun on avattava eräajossa määrittämäsi päiväkirja sekä tarkistettava ja kirjattava tapahtumat.</span><span class="sxs-lookup"><span data-stu-id="e9b75-104">After you use the **Close Income Statement** batch job to generate the year-end closing entry or entries, you must open the journal you specified in the batch job, and then review and post the entries.</span></span>
+# <a name="post-the-year-end-closing-entry"></a><span data-ttu-id="32d69-103">Vuositilinpäätöstapahtuman kirjaaminen</span><span class="sxs-lookup"><span data-stu-id="32d69-103">Post the Year-End Closing Entry</span></span>
+<span data-ttu-id="32d69-104">Kun olet luonut vuositilinpäätöstapahtuman tai -tapahtumat **Sulje tuloslaskelma** -eräajolla, sinun on avattava eräajossa määrittämäsi päiväkirja sekä tarkistettava ja kirjattava tapahtumat.</span><span class="sxs-lookup"><span data-stu-id="32d69-104">After you use the **Close Income Statement** batch job to generate the year-end closing entry or entries, you must open the journal you specified in the batch job, and then review and post the entries.</span></span>
 
-## <a name="to-post-the-year-end-closing-entry"></a><span data-ttu-id="e9b75-105">Kirjaa vuositilinpäätöstapahtuma</span><span class="sxs-lookup"><span data-stu-id="e9b75-105">To post the year end closing entry</span></span>
-1. <span data-ttu-id="e9b75-106">Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Yleinen päiväkirja** ja valitse sitten liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="e9b75-106">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journal**, and then choose the related link.</span></span>
-2. <span data-ttu-id="e9b75-107">Valitse **Yleinen päiväkirja** -sivulla **Erän nimi** kentässä erä, joka sisältää tilinpäätöstapahtumat.</span><span class="sxs-lookup"><span data-stu-id="e9b75-107">On the **General Journal** page, in the **Batch Name** field, select the batch that contains the closing entries.</span></span>
-3. <span data-ttu-id="e9b75-108">Tarkista tapahtumat.</span><span class="sxs-lookup"><span data-stu-id="e9b75-108">Review the entries.</span></span>
-4. <span data-ttu-id="e9b75-109">Kirjaa päiväkirja valitsemalla **Kirjaa**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="e9b75-109">To post the journal, choose the **Post** action.</span></span>
+## <a name="to-post-the-year-end-closing-entry"></a><span data-ttu-id="32d69-105">Kirjaa vuositilinpäätöstapahtuma</span><span class="sxs-lookup"><span data-stu-id="32d69-105">To post the year end closing entry</span></span>
+1. <span data-ttu-id="32d69-106">Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Yleinen päiväkirja** ja valitse sitten liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="32d69-106">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journal**, and then choose the related link.</span></span>
+2. <span data-ttu-id="32d69-107">Valitse **Yleinen päiväkirja** -sivulla **Erän nimi** kentässä erä, joka sisältää tilinpäätöstapahtumat.</span><span class="sxs-lookup"><span data-stu-id="32d69-107">On the **General Journal** page, in the **Batch Name** field, select the batch that contains the closing entries.</span></span>
+3. <span data-ttu-id="32d69-108">Tarkista tapahtumat.</span><span class="sxs-lookup"><span data-stu-id="32d69-108">Review the entries.</span></span>
+4. <span data-ttu-id="32d69-109">Kirjaa päiväkirja valitsemalla **Kirjaa**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="32d69-109">To post the journal, choose the **Post** action.</span></span>
 
 > [!NOTE]  
->   <span data-ttu-id="e9b75-110">Jos havaitaan virhe, näyttöön tulee virhesanoma.</span><span class="sxs-lookup"><span data-stu-id="e9b75-110">If an error is detected, an error message is displayed.</span></span> <span data-ttu-id="e9b75-111">Jos kirjaus onnistuu, järjestelmä poistaa kirjatut tapahtumat päiväkirjasta.</span><span class="sxs-lookup"><span data-stu-id="e9b75-111">If the posting is successful, the posted entries are removed from the journal.</span></span> <span data-ttu-id="e9b75-112">Kirjaamisen jälkeen kullekin tuloslaskelmatilille kirjataan tapahtuma, jolloin tilin saldoksi tulee nolla ja vuoden tulos siirretään taseeseen.</span><span class="sxs-lookup"><span data-stu-id="e9b75-112">After posting is complete, an entry is posted to each income statement account so that its balance becomes zero and the year's result is transferred to the balance sheet.</span></span>
+>   <span data-ttu-id="32d69-110">Jos havaitaan virhe, näyttöön tulee virhesanoma.</span><span class="sxs-lookup"><span data-stu-id="32d69-110">If an error is detected, an error message is displayed.</span></span> <span data-ttu-id="32d69-111">Jos kirjaus onnistuu, järjestelmä poistaa kirjatut tapahtumat päiväkirjasta.</span><span class="sxs-lookup"><span data-stu-id="32d69-111">If the posting is successful, the posted entries are removed from the journal.</span></span> <span data-ttu-id="32d69-112">Kirjaamisen jälkeen kullekin tuloslaskelmatilille kirjataan tapahtuma, jolloin tilin saldoksi tulee nolla ja vuoden tulos siirretään taseeseen.</span><span class="sxs-lookup"><span data-stu-id="32d69-112">After posting is complete, an entry is posted to each income statement account so that its balance becomes zero and the year's result is transferred to the balance sheet.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="e9b75-113">Katso myös</span><span class="sxs-lookup"><span data-stu-id="e9b75-113">See Also</span></span>
-[<span data-ttu-id="e9b75-114">Kirjanpitojakson päättäminen</span><span class="sxs-lookup"><span data-stu-id="e9b75-114">Close Accounting Periods</span></span>](year-close-account-periods.md)  
-[<span data-ttu-id="e9b75-115">Kirjojen sulkeminen</span><span class="sxs-lookup"><span data-stu-id="e9b75-115">Closing Books</span></span>](year-close-books.md)  
-[<span data-ttu-id="e9b75-116">Sulje tuloslaskelma</span><span class="sxs-lookup"><span data-stu-id="e9b75-116">Close Income Statement</span></span>](year-close-income-statement.md)  
-<span data-ttu-id="e9b75-117">[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="e9b75-117">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="32d69-113">Katso myös</span><span class="sxs-lookup"><span data-stu-id="32d69-113">See Also</span></span>
+[<span data-ttu-id="32d69-114">Kirjanpitojakson päättäminen</span><span class="sxs-lookup"><span data-stu-id="32d69-114">Close Accounting Periods</span></span>](year-close-account-periods.md)  
+[<span data-ttu-id="32d69-115">Kirjojen sulkeminen</span><span class="sxs-lookup"><span data-stu-id="32d69-115">Closing Books</span></span>](year-close-books.md)  
+[<span data-ttu-id="32d69-116">Sulje tuloslaskelma</span><span class="sxs-lookup"><span data-stu-id="32d69-116">Close Income Statement</span></span>](year-close-income-statement.md)  
+<span data-ttu-id="32d69-117">[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="32d69-117">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>

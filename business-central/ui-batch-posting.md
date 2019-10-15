@@ -1,0 +1,62 @@
+---
+title: Useiden asiakirjojen kirjaaminen samanaikaisesti | Microsoft Docs
+description: Sen sijaan että yksittäisiä asiakirjoja yksi kerrallaan, voit valita luettelosta useita kirjaamattomia asiakirjoja eräkirjausta varten. Tämä kirjaus voidaan tehdä heti tai se voidaan aikatauluttaa tapahtumaan esimerkiksi päivän päätteeksi.
+author: SorenGP
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.reviewer: edupont
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 15b0afcf04ad279000de227523f977fdb695fe01
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2316785"
+---
+# <a name="post-multiple-documents-at-the-same-time"></a><span data-ttu-id="d6b75-103">Useiden asiakirjojen kirjaaminen samanaikaisesti</span><span class="sxs-lookup"><span data-stu-id="d6b75-103">Post Multiple Documents at the Same Time</span></span>
+<span data-ttu-id="d6b75-104">Sen sijaan että yksittäisiä asiakirjoja yksi kerrallaan, voit valita luettelosta useita kirjaamattomia asiakirjoja eräkirjausta varten. Tämä kirjaus voidaan tehdä heti tai se voidaan aikatauluttaa tapahtumaan vaikkapa päivän päätteeksi.</span><span class="sxs-lookup"><span data-stu-id="d6b75-104">Instead of posting individual documents one by one, you can select multiple non-posted documents in a list for immediate posting or for batch posting according to a schedule, such as at the end of the day.</span></span> <span data-ttu-id="d6b75-105">Tämä voi olla kätevää, jos vain esimies voi kirjata muiden käyttäjien tekemiä asiakirjoja tai jos halutaan estää järjestelmän suorituskyvyn heikentyminen työaikana tehtävien kirjausten vuoksi.</span><span class="sxs-lookup"><span data-stu-id="d6b75-105">This may be useful if only a supervisor can post documents created by other users or to avoid system performance issues from posting during work hours.</span></span>
+
+## <a name="to-post-multiple-purchase-orders-immediately"></a><span data-ttu-id="d6b75-106">Useiden ostotilausten kirjaaminen heti</span><span class="sxs-lookup"><span data-stu-id="d6b75-106">To post multiple purchase orders immediately</span></span>
+<span data-ttu-id="d6b75-107">Useita ostotilauksia voi kirjata heti toimimalla seuraavasti.</span><span class="sxs-lookup"><span data-stu-id="d6b75-107">The following procedure explains how to post multiple purchase orders immediately.</span></span> <span data-ttu-id="d6b75-108">Vaiheet ovat samanlaiset kaikissa osto- ja myyntiasiakirjoissa.</span><span class="sxs-lookup"><span data-stu-id="d6b75-108">The steps are similar for all purchase and sales documents.</span></span>
+
+1. <span data-ttu-id="d6b75-109">Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostotilaukset** ja valitse sitten liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="d6b75-109">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.</span></span>
+2. <span data-ttu-id="d6b75-110">Siirry valitsemaan kaikki kirjattavat tilaukset **Ostotilaukset**-sivulla:</span><span class="sxs-lookup"><span data-stu-id="d6b75-110">On the **Purchase Orders** page, proceed to select all orders to be posted:</span></span>
+3. <span data-ttu-id="d6b75-111">Valitse **Nro**-kenttään</span><span class="sxs-lookup"><span data-stu-id="d6b75-111">In the **No.**</span></span> <span data-ttu-id="d6b75-112">kolme allekkain olevaa pistettä. Pikavalikko avautuu, ja voit valita **Valitse lisää** -toiminnon.</span><span class="sxs-lookup"><span data-stu-id="d6b75-112">field, choose the three vertical dots to open the context menu, and then choose the **Select More** action.</span></span>
+4. <span data-ttu-id="d6b75-113">Valitse kaikkien samaan aikaan kirjattavien tilausrivien valintaruudut.</span><span class="sxs-lookup"><span data-stu-id="d6b75-113">Select the check box for all the lines representing orders that you want to post at the same time.</span></span>
+5. <span data-ttu-id="d6b75-114">Valitse ensin **Kirjaus**-toiminto ja sitten **Kirjaa**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="d6b75-114">Choose the **Posting** action, and then choose the **Post** action.</span></span>
+6. <span data-ttu-id="d6b75-115">Valitse vahvistusviestissä **Kyllä**.</span><span class="sxs-lookup"><span data-stu-id="d6b75-115">Choose the **Yes** button on the confirmation message.</span></span>
+
+## <a name="to-batch-post-multiple-purchase-orders"></a><span data-ttu-id="d6b75-116">Useiden ostotilausten eräkirjaaminen</span><span class="sxs-lookup"><span data-stu-id="d6b75-116">To batch post multiple purchase orders</span></span>
+<span data-ttu-id="d6b75-117">Ostotilauksia voi eräkirjata toimimalla seuraavasti.</span><span class="sxs-lookup"><span data-stu-id="d6b75-117">The following procedure explains how to batch post purchase orders.</span></span> <span data-ttu-id="d6b75-118">Vaiheet ovat samat kaikissa osto- ja myyntiasiakirjoissa, joissa **Eräkirjaus**-toiminto on käytettävissä.</span><span class="sxs-lookup"><span data-stu-id="d6b75-118">The steps are similar for all purchase and sales documents where the **Batch Post** action is available.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="d6b75-119">Asiakirjojen eräkirjaus tapahtuu taustalla työjonotapahtuman määrittämällä tavalla. Tämä työjonotapahtuma on määritettävä ensin.</span><span class="sxs-lookup"><span data-stu-id="d6b75-119">Batch posting of documents happens in the background as defined by a job queue entry, which must first be set up.</span></span> <span data-ttu-id="d6b75-120">Lisätietoja on kohdassa [Tehtävien aikatauluttaminen työjonojen avulla](admin-job-queues-schedule-tasks.md).</span><span class="sxs-lookup"><span data-stu-id="d6b75-120">For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).</span></span>
+
+1. <span data-ttu-id="d6b75-121">Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita **Ostotilaukset** ja valitse sitten liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="d6b75-121">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="d6b75-122">Siirry valitsemaan kaikki kirjattavat tilaukset **Ostotilaukset**-sivulla:</span><span class="sxs-lookup"><span data-stu-id="d6b75-122">On the **Purchase Orders** page, proceed to select all orders to be posted:</span></span>
+3. <span data-ttu-id="d6b75-123">Valitse **Nro**-kenttään</span><span class="sxs-lookup"><span data-stu-id="d6b75-123">In the **No.**</span></span> <span data-ttu-id="d6b75-124">kolme allekkain olevaa pistettä. Pikavalikko avautuu, ja voit valita **Valitse lisää** -toiminnon.</span><span class="sxs-lookup"><span data-stu-id="d6b75-124">field, choose the three vertical dots to open the context menu, and then choose the **Select More** action.</span></span>
+4. <span data-ttu-id="d6b75-125">Valitse kaikkien samaan aikaan kirjattavien tilausrivien valintaruudut.</span><span class="sxs-lookup"><span data-stu-id="d6b75-125">Select the check box for all the lines representing orders that you want to post at the same time.</span></span>
+5. <span data-ttu-id="d6b75-126">Valitse ensin **Kirjaus**-toiminto ja sitten **Eräkirjaus**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="d6b75-126">Choose the **Posting** action, and then choose the **Post Batch** action.</span></span>
+6. <span data-ttu-id="d6b75-127">Täytä tarvittavat kentät **Eräkirjaa ostotilaukset** -sivulla.</span><span class="sxs-lookup"><span data-stu-id="d6b75-127">On the **Batch Post Purchase Order** page, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+    > [!NOTE]
+    > <span data-ttu-id="d6b75-128">Jos haluat tulostaa liittyviä raportteja, kuten myyntitilauksen **Tilausvahvistus**-raportin, kirjauksen aikana, valitse **Tulosta**-valintaruutu.</span><span class="sxs-lookup"><span data-stu-id="d6b75-128">To print related reports when posting, such as the **Order Confirmation** report for sales orders, select the **Print** check box.</span></span><br /><br /> <span data-ttu-id="d6b75-129">Määritä **Myyntien ja saamisten asetukset**- tai **Ostojen ja ostovelkojen asetukset** -sivun **Raportin tuotostyyppi** -kentässä, tulostetaanko raportti vai onko tuotoksena PDF.</span><span class="sxs-lookup"><span data-stu-id="d6b75-129">In the **Report Output Type** field on the **Sales and Receivables Setup** page or **Purchases and Payables Setup** page, you define if the report will be printed or output as a PDF.</span></span><br /><br /> <span data-ttu-id="d6b75-130">Huomaa myös, että suoratulostus valittuun tulostimeen on mahdollista vain paikallisissa asennuksissa.</span><span class="sxs-lookup"><span data-stu-id="d6b75-130">Note also that direct printing to a selected printer is only possible in on-premises installations.</span></span>
+
+7. <span data-ttu-id="d6b75-131">Valitse **OK**-painike.</span><span class="sxs-lookup"><span data-stu-id="d6b75-131">Choose the **OK** button.</span></span>
+8. <span data-ttu-id="d6b75-132">Voit tarkastella asiakirjojen eräkirjauksen aikana mahdollisesti esiintyneitä ongelmia avaamalla **Virhesanomarekisteri**-sivun.</span><span class="sxs-lookup"><span data-stu-id="d6b75-132">To view potential issues that occurred during batch posting of documents, open the **Error Message Register** page.</span></span>
+
+<span data-ttu-id="d6b75-133">Ostotilaukset lisätään nyt määritettyyn työjonotapahtumaan, joka määrittää, milloin asiakirjat kirjataan.</span><span class="sxs-lookup"><span data-stu-id="d6b75-133">The purchase orders will now be added to a dedicated job queue entry, which defines when the documents are posted.</span></span> <span data-ttu-id="d6b75-134">Lisätietoja on kohdassa [Tehtävien aikatauluttaminen työjonojen avulla](admin-job-queues-schedule-tasks.md).</span><span class="sxs-lookup"><span data-stu-id="d6b75-134">For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).</span></span>
+
+<span data-ttu-id="d6b75-135">Jos valitset **Raportin tuotostyyppi** -kentässä **PDF**, ostotilaukset, joiden kirjaus onnistui, ovat käytettävissä roolikeskuksen **Saapuneet raportit** -osassa.</span><span class="sxs-lookup"><span data-stu-id="d6b75-135">If you select **PDF** in the **Report Output Type** field, successfully posted purchase orders will be available in the **Report Inbox** part on your Role Center.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="d6b75-136">Katso myös</span><span class="sxs-lookup"><span data-stu-id="d6b75-136">See Also</span></span>
+[<span data-ttu-id="d6b75-137">Asiakirjojen ja päiväkirjojen kirjaaminen</span><span class="sxs-lookup"><span data-stu-id="d6b75-137">Posting Documents and Journals</span></span>](ui-post-documents-journals.md)  
+[<span data-ttu-id="d6b75-138">Työjonojen käyttäminen ajoitustehtäviin</span><span class="sxs-lookup"><span data-stu-id="d6b75-138">Use Job Queues to Schedule Tasks</span></span>](admin-job-queues-schedule-tasks.md)  
+[<span data-ttu-id="d6b75-139">Kirjattujen asiakirjojen muokkaaminen</span><span class="sxs-lookup"><span data-stu-id="d6b75-139">Edit Posted Documents</span></span>](across-edit-posted-document.md)  
+[<span data-ttu-id="d6b75-140">Maksamattomien ostolaskujen korjaaminen tai peruuttaminen</span><span class="sxs-lookup"><span data-stu-id="d6b75-140">Correct or Cancel Unpaid Purchase Invoices</span></span>](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
+[<span data-ttu-id="d6b75-141">Sivujen ja tietojen etsiminen Kerro, mitä haluat tehdä -toiminnolla</span><span class="sxs-lookup"><span data-stu-id="d6b75-141">Finding Pages and Information with Tell Me</span></span>](ui-search.md)  
+<span data-ttu-id="d6b75-142">[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="d6b75-142">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>

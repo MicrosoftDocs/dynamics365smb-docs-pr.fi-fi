@@ -185,7 +185,7 @@
     <Node Name="" DisplayName="Dimensioiden käyttäminen" Page="finance-dimensions.html"/>
     <Node Name="" DisplayName="Uusien budjettien luominen" Page="finance-how-create-budgets.html"/>
     <Node Name="" DisplayName="Tapahtumien kirjaaminen suoraan pääkirjanpitoon" Page="finance-how-post-transactions-directly.html"/>
-    <Node Name="" DisplayName="Toimintaohje: Kirjausten peruuttaminen" Page="finance-how-reverse-journal-posting.html"/>
+    <Node Name="" DisplayName="Toimintaohje: Päiväkirjakirjauksen peruuttaminen sekä vastaanottojen tai toimitusten kumoaminen" Page="finance-how-reverse-journal-posting.html"/>
     <Node Name="" DisplayName="Toimintaohje: Kustannusten ja tulojen kohdistaminen" Page="year-allocate-costs-income.html"/>
     <Node Name="" DisplayName="Toimintaohje: Kaupan lisäkustannusten huomiointi nimikekulujen avulla" Page="payables-how-assign-item-charges.html"/>
     <Node Name="" DisplayName="Toimintaohje: Työntekijöiden kulujen kirjaaminen ja hyvittäminen" Page="finance-how-record-reimburse-employee-expenses.html"/>

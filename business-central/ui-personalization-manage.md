@@ -1,115 +1,74 @@
 ---
-title: Mukautusten hallinta Business Centralin järjestelmänvalvojana | Microsoft Docs
-description: Lisätietoja käyttöliittymän mukauttamisesta omaan työskentelytapaan sopivaksi.
+title: Roolien sivujen mukauttaminen | Microsoft Docs
+description: Lisätietoja profiilin (roolin) käyttöliittymän mukauttamisesta siten, että kaikki käyttäjät, joille kyseinen rooli on määritetty, näkevät mukautetun työtilan.
 services: project-madeira
 documentationcenter: ''
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 08/16/2019
-ms.author: jswymer
-ms.openlocfilehash: 268d61e05f84643abe8eeeb283bd035e0247fe1c
-ms.sourcegitcommit: 81b6062194bf04d8052a3cd394cc0b41e3f53e6d
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 470d2542864b8d0e0f16f89fd99e422807829404
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "1887735"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310802"
 ---
-# <a name="managing-personalization-as-an-administrator"></a><span data-ttu-id="d3258-103">Mukautuksen hallinta järjestelmänvalvojana</span><span class="sxs-lookup"><span data-stu-id="d3258-103">Managing Personalization as an Administrator</span></span>
+# <a name="customize-pages-for-profiles"></a><span data-ttu-id="c68d4-103">Profiilien sivujen mukauttaminen</span><span class="sxs-lookup"><span data-stu-id="c68d4-103">Customize Pages for Profiles</span></span>
+<span data-ttu-id="c68d4-104">Käyttäjät voivat mukauttaa työtilan muodostavia sivuja omien mieltymystensä mukaisesti.</span><span class="sxs-lookup"><span data-stu-id="c68d4-104">Users can personalize pages that make up their workspace to suit their own preferences.</span></span> <span data-ttu-id="c68d4-105">Lisätietoja on kohdassa [Työtilan mukauttaminen](ui-personalization-user.md).</span><span class="sxs-lookup"><span data-stu-id="c68d4-105">For more information, see [Personalize Your Workspace](ui-personalization-user.md).</span></span>
 
-<span data-ttu-id="d3258-104"> Käyttäjät voivat mukauttaa työtilansa omien mieltymystensä mukaiseksi.</span><span class="sxs-lookup"><span data-stu-id="d3258-104">Users can personalize their workspace to suit their own preferences.</span></span> <span data-ttu-id="d3258-105">Järjestelmänvalvojana ohjaat ja hallitset mukauttamista seuraavasti:</span><span class="sxs-lookup"><span data-stu-id="d3258-105">As an administrator, you control and manage personalization by:</span></span>
+<span data-ttu-id="c68d4-106">Järjestelmänvalvojat voivat mukauttaa profiilin sivuja liittyvän liiketoimintaroolin tai osaston mukaisesti esimerkiksi siten, että kaikki käyttäjät, joille profiili on määritetty, näkevät mukautetun sivuasettelun.</span><span class="sxs-lookup"><span data-stu-id="c68d4-106">Administrators can customize pages for a profile, according to the related business role or department, for example, so that all users that are assigned the profile will see the customized page layout.</span></span> <span data-ttu-id="c68d4-107">Järjestelmänvalvoja mukauttaa sivuja samalla toiminnolla, jota käyttäjät mukauttavat sivuja.</span><span class="sxs-lookup"><span data-stu-id="c68d4-107">The administrator customizes pages by using the same functionality as users do when they personalize pages.</span></span>
 
--   <span data-ttu-id="d3258-106">Ottamalla koko sovelluksen mukauttamisominaisuuden käyttöön tai poistamalla sen käytöstä (vain paikalliset asetukset.)</span><span class="sxs-lookup"><span data-stu-id="d3258-106">Enabling or disabling the personalization feature for the entire the application (on-premises installation only).</span></span>
--   <span data-ttu-id="d3258-107">Ottamalla mukauttamisominaisuuden käyttöön vain tietyn profiilin käyttäjille tai poistamalla sen heiltä käytöstä.</span><span class="sxs-lookup"><span data-stu-id="d3258-107">Enabling or disabling the personalization feature for users of a specific profile.</span></span>
--   <span data-ttu-id="d3258-108">Poistamalla käyttäjien mahdollisesti tekemät sivun mukauttamiset.</span><span class="sxs-lookup"><span data-stu-id="d3258-108">Clearing any page personalizations that users have made.</span></span>
+> [!NOTE]
+> <span data-ttu-id="c68d4-108">Tyypillinen profiilin käyttötapa liiketoiminnassa on rooli.</span><span class="sxs-lookup"><span data-stu-id="c68d4-108">The typical business use of a profile is a role.</span></span> <span data-ttu-id="c68d4-109">Profiilin nimi onkin käyttöliittymässä tämän vuoksi *Profiili (rooli)*.</span><span class="sxs-lookup"><span data-stu-id="c68d4-109">A profile is therefore named *Profile (Role)* in the UI.</span></span>
 
-## <a name="EnablePersonalization"></a><span data-ttu-id="d3258-109">Mukauttamisen ottaminen käyttöön tai poistaminen käytöstä (vain paikallinen versio)</span><span class="sxs-lookup"><span data-stu-id="d3258-109">To enable or disable personalization (On-Premises Only)</span></span>
+<span data-ttu-id="c68d4-110">Sivun mukauttaminen aloitetaan **Profiilit (roolit)** -sivulla, josta järjestelmänvalvojat aloittavat yksittäisten profiilikorttien käyttäjien profiilien hallinnan.</span><span class="sxs-lookup"><span data-stu-id="c68d4-110">Page customization starts from the **Profiles (Roles)** page, the administrator's starting point for managing users' profiles on individual profile cards.</span></span> <span data-ttu-id="c68d4-111">Sivun asettelun mukauttamisen lisäksi voi kunkin profiilin **Profiili (rooli)** -sivulla voi hallita useita muita profiilien asetuksia.</span><span class="sxs-lookup"><span data-stu-id="c68d4-111">In addition to customizing the page layout, you control various other settings for profiles on the **Profile (Role)** page for each profile.</span></span> <span data-ttu-id="c68d4-112">Lisätietoja on kohdassa [Profiilien hallinta](admin-users-profiles-roles.md).</span><span class="sxs-lookup"><span data-stu-id="c68d4-112">For more information, see [Manage Profiles](admin-users-profiles-roles.md).</span></span>
 
-<span data-ttu-id="d3258-110">Mukauttamista ei ole oletusarvoisesti otettu asiakasohjelmassa käyttöön.</span><span class="sxs-lookup"><span data-stu-id="d3258-110">By default, personalization is not enabled in the client.</span></span> <span data-ttu-id="d3258-111">Mukauttaminen otetaan käyttöön tai poistetaan käytöstä muokkaamalla asiakasohjelmien käytössä olevan Business Central Web Server -esiintymän määritystiedostoa (navsettings.json).</span><span class="sxs-lookup"><span data-stu-id="d3258-111">You enable or disable personalization by modifying the configuration file (navsettings.json) of the Business Central Web Server instance that serves the clients.</span></span>
+## <a name="to-customize-pages-for-a-profile"></a><span data-ttu-id="c68d4-113">Profiilin sivujen mukauttaminen</span><span class="sxs-lookup"><span data-stu-id="c68d4-113">To customize pages for a profile</span></span>
+1. <span data-ttu-id="c68d4-114">Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita **Profiilit (roolit)** ja valitse sitten liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="c68d4-114">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Profiles (Roles)**, and then choose the related link.</span></span>
+2. <span data-ttu-id="c68d4-115">Valitse ensin sen profiilin rivi, jonka sivuja haluat mukauttaa, ja valitse sitten **Muokkaa**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="c68d4-115">Select the line for the profile that you want to customize pages for, and then choose the **Edit** action.</span></span>
+3. <span data-ttu-id="c68d4-116">Valitse **Mukauta sivuja** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="c68d4-116">Choose the **Customize pages** action.</span></span>
 
-1. <span data-ttu-id="d3258-112">Voit ottaa mukauttamisen käyttöön lisäämällä seuraavan rivin navsettings.json-tiedostoon:</span><span class="sxs-lookup"><span data-stu-id="d3258-112">To enable personalization, add the following line in the navsettings.json file:</span></span>
+    [!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="c68d4-117">avaa valitun profiilin uudessa selaimen välilehdessä siten, että **Mukauttaminen**-palkki on aktivoitu.</span><span class="sxs-lookup"><span data-stu-id="c68d4-117">opens on a new browser tab for the selected profile with the **Customizing** banner activated.</span></span> <span data-ttu-id="c68d4-118">**Mukauttaminen**-palkissa on samat toiminnot kuin käyttäjien käyttämässä **Mukautus**-palkissa.</span><span class="sxs-lookup"><span data-stu-id="c68d4-118">The **Customizing** banner offers the same functionality as the **Personalizing** banner that is available to users.</span></span>
 
-    ```
-    "PersonalizationEnabled": "true"
-    ```
+4. <span data-ttu-id="c68d4-119">Mukauta sivuja kyseisen roolin tai osaston tarpeiden mukaan samalla tavoin kuin käyttäjä tekee omat mukautuksensa.</span><span class="sxs-lookup"><span data-stu-id="c68d4-119">Customize pages according to the needs of the role or department in question in the same way as a user would do when personalizing.</span></span> <span data-ttu-id="c68d4-120">Lisätietoja on kohdassa [Työtilan mukauttaminen](ui-personalization-user.md).</span><span class="sxs-lookup"><span data-stu-id="c68d4-120">For more information, see [Personalize Your Workspace](ui-personalization-user.md).</span></span>
 
-    <span data-ttu-id="d3258-113">Voit poistaa mukauttamisen käytöstä poistamalla tämän rivin tai muuttamalla sen seuraavaanlaiseksi:</span><span class="sxs-lookup"><span data-stu-id="d3258-113">To disable personalization, remove this line or change it to:</span></span>
+    > [!NOTE]
+    > <span data-ttu-id="c68d4-121">Voit siirtyä mukauttamisen aikana käyttämällä toiminnossa CTRL+napsautus-yhdistelmää, jos nuolenpää osoittaa toiminnon olevan valittuna.</span><span class="sxs-lookup"><span data-stu-id="c68d4-121">To navigate during personalization, use Ctrl + Click on an action if it is highlighted by the arrowhead.</span></span>
 
-    ```
-    "PersonalizationEnabled": "false"
-    ```
+5. <span data-ttu-id="c68d4-122">Kun olet muuttanut yhden tai usean sivun asettelua, valitse**Mukauttaminen**-palkissa **Valmis**-painike.</span><span class="sxs-lookup"><span data-stu-id="c68d4-122">When you have finished changing the layout on one or more pages, choose the **Done** button on the **Customizing** banner.</span></span>
+6. <span data-ttu-id="c68d4-123">Sulje selaimen välilehti.</span><span class="sxs-lookup"><span data-stu-id="c68d4-123">Close the browser tab.</span></span>
 
-    <span data-ttu-id="d3258-114">Lisätietoja navsettings.json-tiedoston muokkaamisesta on kohdassa [Navsettings.json-tiedoston muokkaaminen suoraan](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configure-web-server?branch=master#Settings).</span><span class="sxs-lookup"><span data-stu-id="d3258-114">For more information about how to modify the navsettings.json file, see [Modify the navsettings.json file directly](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configure-web-server?branch=master#Settings).</span></span>
+<span data-ttu-id="c68d4-124">Sivujen mukauttaminen on nyt tallennettu profiiliin.</span><span class="sxs-lookup"><span data-stu-id="c68d4-124">The customization of pages is now recorded for the profile.</span></span>
 
-2. <span data-ttu-id="d3258-115">Luo ja lataa sovelluksen symboleja.</span><span class="sxs-lookup"><span data-stu-id="d3258-115">Generate and download the application symbols.</span></span>
+## <a name="to-view-all-customized-pages-for-a-profile"></a><span data-ttu-id="c68d4-125">Kaikkien profiilin mukautettujen sivujen näyttäminen</span><span class="sxs-lookup"><span data-stu-id="c68d4-125">To view all customized pages for a profile</span></span>
+<span data-ttu-id="c68d4-126">Saat tarvittaessa yleiskuvan profiiliin mukautetuista sivuista, mikä auttaa suunnittelemaan esimerkiksi sivujen lisämukautuksia tai poistamisia.</span><span class="sxs-lookup"><span data-stu-id="c68d4-126">You can get an overview of which pages are customized for a profile, for example to plan which to customize further or delete.</span></span>
 
-    <span data-ttu-id="d3258-116">Tämä on valinnainen vaihe, eikä mukauttaminen käyttöönottaminen edellytä sitä.</span><span class="sxs-lookup"><span data-stu-id="d3258-116">This step is optional, and not required to enable personalization.</span></span> <span data-ttu-id="d3258-117">Se kuitenkin varmistaa, että kehittäjien luomia uusia sivuja voidaan mukauttaa.</span><span class="sxs-lookup"><span data-stu-id="d3258-117">However, it ensures that new pages that are created by developers can be personalized.</span></span>
+- <span data-ttu-id="c68d4-127">Valitse **Profiili (rooli)** -sivulla **Mukautetut sivut** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="c68d4-127">On the **Profile (Role)** page, choose the **Customized Pages** action.</span></span>
 
-    1. <span data-ttu-id="d3258-118">Luo ensiksi symbolit suorittamalla finsql.exe `generatesymbolreference`-komennolla.</span><span class="sxs-lookup"><span data-stu-id="d3258-118">First, you generate the symbols by running finsql.exe with `generatesymbolreference` command.</span></span> <span data-ttu-id="d3258-119">Finsql.exe-tiedosto sijaitsee [!INCLUDE[server](includes/server.md)]- ja CSIDE (Dynamics NAV Development Environment) -asennuskansiossa.</span><span class="sxs-lookup"><span data-stu-id="d3258-119">The finsql.exe file is located in the installation folder for the [!INCLUDE[server](includes/server.md)] and Dynamics NAV Development Environment (CSIDE).</span></span> <span data-ttu-id="d3258-120">Voit luoda symbolit avaamalla komentokehotteen, muuttamalla hakemiston, johon tiedosto on tallennettu, ja suorittamalla sitten seuraavan komennon:</span><span class="sxs-lookup"><span data-stu-id="d3258-120">To generate the symbols, open a command prompt, change to the directory where the file is store, and the run the following command:</span></span>
+## <a name="to-delete-all-customizations-for-a-profile"></a><span data-ttu-id="c68d4-128">Profiilin kaikkien mukautusten poistaminen</span><span class="sxs-lookup"><span data-stu-id="c68d4-128">To delete all customizations for a profile</span></span>
+<span data-ttu-id="c68d4-129">Voit peruuttaa kaikki profiiliin tehdyt mukautukset.</span><span class="sxs-lookup"><span data-stu-id="c68d4-129">You can cancel all customizations that you have made for a profile.</span></span> <span data-ttu-id="c68d4-130">Laajennukseen perustuvia mukautuksia ja käyttäjän tekemiä mukautuksia ei poisteta.</span><span class="sxs-lookup"><span data-stu-id="c68d4-130">Customizations introduced with an extension and personalizations made by a user will not be deleted.</span></span> <span data-ttu-id="c68d4-131">Voit poistaa kaikki mukautukset toisella toiminnolla.</span><span class="sxs-lookup"><span data-stu-id="c68d4-131">You can delete all personalizations with another action.</span></span> <span data-ttu-id="c68d4-132">Lisätietoja on kohdassa [Kaikkien käyttäjän tekemien mukautusten poistaminen](admin-users-profiles-roles.md#to-delete-all-personalizations-made-by-a-user).</span><span class="sxs-lookup"><span data-stu-id="c68d4-132">For more information, see [To delete all personalizations made by a user](admin-users-profiles-roles.md#to-delete-all-personalizations-made-by-a-user).</span></span>
 
-        ```
-        finsql.exe Command=generatesymbolreference, Database="<Database Name>", ServerName=<SQL Server Name\<Server Instance>
-        ```
-    <span data-ttu-id="d3258-121">Esimerkiksi:</span><span class="sxs-lookup"><span data-stu-id="d3258-121">For example:</span></span>
+- <span data-ttu-id="c68d4-133">Valitse mukautetun profiilin **Profiili (rooli)** -sivulla **Poista mukautetut sivut** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="c68d4-133">On the **Profile (Role)** page for a customized profile, choose the **Clear customized pages** action.</span></span>
 
-        ```
-        finsql.exe Command=generatesymbolreference, Database="Demo Database BC", ServerName=MySQLServer\BCDEMO
-        ```
+<span data-ttu-id="c68d4-134">Profiilin sivujen asetteluksi palautetaan oletusasettelu.</span><span class="sxs-lookup"><span data-stu-id="c68d4-134">The layout on pages for the profile is reset to the default layout.</span></span>  
 
-    <span data-ttu-id="d3258-122">Lisätietoja on kohdassa [C/SIDE:n ja AL:n suorittaminen rinnakkainen](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-running-cside-and-al-side-by-side).</span><span class="sxs-lookup"><span data-stu-id="d3258-122">For more information, see [Running C/SIDE and AL Side-by-Side](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-running-cside-and-al-side-by-side).</span></span>
+## <a name="to-delete-customization-for-specific-pages-for-a-profile"></a><span data-ttu-id="c68d4-135">Profiilin tiettyjen sivujen mukautusten poistaminen</span><span class="sxs-lookup"><span data-stu-id="c68d4-135">To delete customization for specific pages for a profile</span></span>
+<span data-ttu-id="c68d4-136">Voit poistaa profiilin yksittäisen sivun mukautukset.</span><span class="sxs-lookup"><span data-stu-id="c68d4-136">You can delete individual page customizations that you have made for a profile.</span></span> <span data-ttu-id="c68d4-137">Laajennukseen perustuvia mukautuksia ja käyttäjän tekemiä mukautuksia ei poisteta.</span><span class="sxs-lookup"><span data-stu-id="c68d4-137">Customizations introduced with an extension and personalizations made by a user will not be deleted.</span></span> <span data-ttu-id="c68d4-138">Voit poistaa tietyn sivun mukautukset toisella toiminnolla.</span><span class="sxs-lookup"><span data-stu-id="c68d4-138">You can delete specific page personalizations with another action.</span></span> <span data-ttu-id="c68d4-139">Lisätietoja on kohdassa [Tiettyjen sivujen mukautusten poistaminen](admin-users-profiles-roles.md#to-delete-personalizations-for-specific-pages).</span><span class="sxs-lookup"><span data-stu-id="c68d4-139">For more information, see [To delete personalizations for specific pages](admin-users-profiles-roles.md#to-delete-personalizations-for-specific-pages).</span></span>
 
-    2. <span data-ttu-id="d3258-123">Määritä [!INCLUDE[nav_server_md](includes/nav_server_md.md)] -esiintymäksi **Ota sovelluksen symboliviittaukset käyttöön palvelimen käynnistyessä** (EnableSymbolLoadingAtServerStartup).</span><span class="sxs-lookup"><span data-stu-id="d3258-123">Configure [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance to **Enable loading application symbol references at server startup** (EnableSymbolLoadingAtServerStartup).</span></span> <span data-ttu-id="d3258-124">Lisätietoja on kohdassa [Business Central Serverin määrittäminen](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configure-server-instance#development-settings).</span><span class="sxs-lookup"><span data-stu-id="d3258-124">For more information, see [Configuring Business Central Server](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configure-server-instance#development-settings).</span></span>
+1. <span data-ttu-id="c68d4-140">Valitse **Profiili (rooli)** -sivulla **Mukautetut sivut** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="c68d4-140">On the **Profile (Role)** page, choose the **Customized Pages** action.</span></span>
+2. <span data-ttu-id="c68d4-141">Valitse **Profiilin mukautukset** -sivulla vähintään yhden poistettavan sivun mukautuksen rivi ja valitse sitten **Poista**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="c68d4-141">On the **Profile Customizations** page, select on or more lines for page customizations that you want to delete, and then choose the **Delete** action.</span></span>
 
-## <a name="to-disable-personalization-for-a-profile"></a><span data-ttu-id="d3258-125">Profiilin mukauttamisen poistaminen käytöstä</span><span class="sxs-lookup"><span data-stu-id="d3258-125">To disable personalization for a profile</span></span>
+<span data-ttu-id="c68d4-142">Valitun sivun asettelu muutetaan vastaamaan tekemiäsi muutoksia.</span><span class="sxs-lookup"><span data-stu-id="c68d4-142">The layout on the selected pages is adjusted to the changes you made.</span></span>
 
-<span data-ttu-id="d3258-126">Voit estää sivujen mukauttamisen kaikilta tiettyyn profiiliin kuuluvilta käyttäjiltä.</span><span class="sxs-lookup"><span data-stu-id="d3258-126">You can prevent all users that belong to a specific profile from being able to personalize their pages.</span></span>
-
-1. <span data-ttu-id="d3258-127">Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita **Profiilit** ja valitse sitten liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="d3258-127">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Profiles**, and then choose the related link.</span></span>
-2. <span data-ttu-id="d3258-128">Valitse luettelossa muokattava profiili.</span><span class="sxs-lookup"><span data-stu-id="d3258-128">Select the profile in the list that you want to modify.</span></span>
-3. <span data-ttu-id="d3258-129">Valitse **Poista mukauttaminen käytöstä** -valintaruutuja valitse sitten **OK**.</span><span class="sxs-lookup"><span data-stu-id="d3258-129">Select the **Disable personalization** check box, and then choose the **OK** button.</span></span>
-
-> [!NOTE]  
-> <span data-ttu-id="d3258-130">Business Central -sovelluksen online-versiossa voit poistaa vain vuokraajaprofiilin mukauttamisen, et järjestelmäprofiilien mukauttamista.</span><span class="sxs-lookup"><span data-stu-id="d3258-130">In Business Central online, you can only disable personalization for a tenant profile, not for system profiles.</span></span> 
-
-## <a name="to-clear-user-personalizations"></a><span data-ttu-id="d3258-131">Käyttäjän mukautusten tyhjentäminen</span><span class="sxs-lookup"><span data-stu-id="d3258-131">To clear user personalizations</span></span>
-
-<span data-ttu-id="d3258-132">Mukautetun sivun muutosten tyhjentäminen palauttaa sivun mukautuksia edeltävän alkuperäisen asettelun.</span><span class="sxs-lookup"><span data-stu-id="d3258-132">Clearing page personalization changes the page back to its original layout before any personalization was made.</span></span> <span data-ttu-id="d3258-133">Käyttäjien sivulle tekemät mukautukset voi tyhjentää kahdella tavalla: käyttämällä **Poista käyttäjän mukautus** -sivua tai käyttämällä **Käyttäjän mukautuskortti** -sivua.</span><span class="sxs-lookup"><span data-stu-id="d3258-133">There are two ways to clear the personalizations that users have made to pages: using the **Delete User Personalization** page and using the **User Personalization Card** page.</span></span>
-
-### <a name="to-clear-user-personalizations-by-using-the-delete-user-personalization-page"></a><span data-ttu-id="d3258-134">Käyttäjän mukautusten tyhjentäminen Poista käyttäjän mukautus -sivun avulla</span><span class="sxs-lookup"><span data-stu-id="d3258-134">To clear user personalizations by using the Delete User Personalization page</span></span>
-
-<span data-ttu-id="d3258-135">Voit tyhjentää **Poista käyttäjän mukautus** -sivulla mukautukset kultakin käyttäjältä sivukohtaisesti.</span><span class="sxs-lookup"><span data-stu-id="d3258-135">The **Delete User Personalization** page enables you to clear personalizations on a per-page basis for each user individually.</span></span>
-
-1. <span data-ttu-id="d3258-136">Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poista käyttäjän mukautus** ja valitse sitten liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="d3258-136">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Delete User Personalization**, and then choose the related link.</span></span>
-
-    <span data-ttu-id="d3258-137">Sivulla on luettelo kaikista mukautetuista sivuista ja käyttäjästä, jolle se kuuluu.</span><span class="sxs-lookup"><span data-stu-id="d3258-137">The page lists all the pages that have been personalized and the user it belongs to.</span></span>
-
-    >[!NOTE]
-    > <span data-ttu-id="d3258-138">**Vanha mukautus** -sarakkeiden valintamerkki ilmaisee, että mukautus tehtiin [!INCLUDE[d365fin](includes/d365fin_md.md)]in vanhassa versiossa, jossa mukautusta käsiteltiin eri tavalla kuin nyt.</span><span class="sxs-lookup"><span data-stu-id="d3258-138">A check mark in the **Legacy Personalization** columns indicates that the personalization was done in an older version of [!INCLUDE[d365fin](includes/d365fin_md.md)], which handled personalization different than it does now.</span></span> <span data-ttu-id="d3258-139">Mukautus estetään näiden sivujen mukautusta yrittäviltä käyttäjiltä, elleivät he ensin valitse sivun lukituksen poistamista.</span><span class="sxs-lookup"><span data-stu-id="d3258-139">Users who try to personalize these pages are locked from doing so unless they choose to unlock the page.</span></span> <span data-ttu-id="d3258-140">Lisätietoja on kohdassa [Sivun mukauttamisen estäminen lukitsemalla](ui-personalization-locked.md).</span><span class="sxs-lookup"><span data-stu-id="d3258-140">For more information, see [Why a page is locked from personalizing](ui-personalization-locked.md).</span></span>
-
-2. <span data-ttu-id="d3258-141">Valitse ensin poistettava tapahtuma ja sitten **Poista**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="d3258-141">Select the entry that you want to delete, and then choose the **Delete** action.</span></span>
-
-    <span data-ttu-id="d3258-142">Käyttäjä näkee muutokset kirjautuessaan sisään seuraavan kerran.</span><span class="sxs-lookup"><span data-stu-id="d3258-142">The user will see the changes the next time they sign-in.</span></span>
-
-### <a name="to-clear-user-personalizations-by-using-the-user-personalization-card-page"></a><span data-ttu-id="d3258-143">Käyttäjän mukautusten tyhjentäminen Käyttäjän mukautuskortti -sivun avulla</span><span class="sxs-lookup"><span data-stu-id="d3258-143">To clear user personalizations by using the User Personalization Card page</span></span>
-
-<span data-ttu-id="d3258-144">Voit tyhjentää **Käyttäjän mukautuskortti** -sivulla tietyn käyttäjän kaikki mukautukset.</span><span class="sxs-lookup"><span data-stu-id="d3258-144">The **User Personalization Card** page enables you to clear the personalization on all pages for specific user.</span></span> <span data-ttu-id="d3258-145">Tämä edellyttää taulukon 2000000072 **Profiili** kirjoitusoikeuksia.</span><span class="sxs-lookup"><span data-stu-id="d3258-145">This requires write permission to Table 2000000072 **Profile**.</span></span>
-
-1. <span data-ttu-id="d3258-146">Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttäjän mukautus** ja valitse sitten liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="d3258-146">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Personalization**, and then choose the related link.</span></span>
-
-    <span data-ttu-id="d3258-147">**Käyttäjän mukautus** -sivulla on luettelo kaikista käyttäjistä, joilla mahdollisesti on mukautettuja sivuja.</span><span class="sxs-lookup"><span data-stu-id="d3258-147">The **User Personalization** page lists all users who potentially have personalized pages.</span></span> <span data-ttu-id="d3258-148">Jos käyttäjä ei löydy luettelosta, kyseisellä käyttäjällä ei ole mukautettuja sivuja.</span><span class="sxs-lookup"><span data-stu-id="d3258-148">If you cannot find a user in the list, this means that they do not have any personalized pages.</span></span>
-
-2. <span data-ttu-id="d3258-149">Valitse ensin käyttäjä luettelossa ja sitten **Muokkaa**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="d3258-149">Select the user from the list, and then choose the **Edit** action.</span></span>
-
-3. <span data-ttu-id="d3258-150">Valitse **Toiminnot**-välilehdessä **Tyhjennä mukautetut sivut**.</span><span class="sxs-lookup"><span data-stu-id="d3258-150">On the **Actions** tab, choose **Clear Personalized Pages**.</span></span>
-
-    <span data-ttu-id="d3258-151">Käyttäjä näkee muutokset kirjautuessaan sisään seuraavan kerran.</span><span class="sxs-lookup"><span data-stu-id="d3258-151">The user will see the changes the next time they sign-in.</span></span>
-
-## <a name="see-also"></a><span data-ttu-id="d3258-152">Katso myös</span><span class="sxs-lookup"><span data-stu-id="d3258-152">See Also</span></span>
-[<span data-ttu-id="d3258-153">Työtilan mukauttaminen</span><span class="sxs-lookup"><span data-stu-id="d3258-153">Personalizing Your Workspace</span></span>](ui-personalization-user.md)  
-<span data-ttu-id="d3258-154">[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="d3258-154">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
-[<span data-ttu-id="d3258-155">Perusasetusten muuttaminen</span><span class="sxs-lookup"><span data-stu-id="d3258-155">Changing Basic Settings</span></span>](ui-change-basic-settings.md)  
-[<span data-ttu-id="d3258-156">Näytettävien ominaisuuksien muuttaminen</span><span class="sxs-lookup"><span data-stu-id="d3258-156">Changing Which Features are Displayed</span></span>](ui-experiences.md)  
+## <a name="see-also"></a><span data-ttu-id="c68d4-143">Katso myös</span><span class="sxs-lookup"><span data-stu-id="c68d4-143">See Also</span></span>
+[<span data-ttu-id="c68d4-144">Työtilan mukauttaminen</span><span class="sxs-lookup"><span data-stu-id="c68d4-144">Personalize Your Workspace</span></span>](ui-personalization-user.md)  
+[<span data-ttu-id="c68d4-145">Profiilien hallinta</span><span class="sxs-lookup"><span data-stu-id="c68d4-145">Manage Profiles</span></span>](admin-users-profiles-roles.md)  
+[<span data-ttu-id="c68d4-146">Perusasetusten muuttaminen</span><span class="sxs-lookup"><span data-stu-id="c68d4-146">Change Basic Settings</span></span>](ui-change-basic-settings.md)  
+[<span data-ttu-id="c68d4-147">Näytettävien ominaisuuksien muuttaminen</span><span class="sxs-lookup"><span data-stu-id="c68d4-147">Change Which Features are Displayed</span></span>](ui-experiences.md)  
+<span data-ttu-id="c68d4-148">[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="c68d4-148">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
