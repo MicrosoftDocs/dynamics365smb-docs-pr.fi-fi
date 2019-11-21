@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c50646a8e1f56d95256271f64ecf7dfb4992e4ce
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 43bad71f76fc441fee84c14d1890572130d3948a
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314818"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554714"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Vaihekuvaus: Projektinhallinta Projektit-sovellusalueen avulla
 
@@ -173,7 +173,7 @@ Seuraavassa toimenpiteessä luot projektipäiväkirjan erän Mariannea varten, j
     |1020|Kehittäminen|Kirjaus|  
     |1090|Konsultointi yhteensä|Loppusumma|  
 
-3.  Osoittaaksesi, että jotkin tehtävät ovat muiden tehtävien alaluokkia, valitse **Toiminnot** -välilehdessä **Funktiot** -ryhmässä **Sisennä projektitehtävät**.  
+3.  Osoittaaksesi, että jotkin tehtävät ovat muiden tehtävien alaluokkia, valitse **Sisennä projektitehtävät** -toiminto.  
 
  Suunnittelurivi voi olla jokin seuraavista tyypeistä:  
 
@@ -261,7 +261,7 @@ Rivit kirjataan.
 4.  Anna **Vaihtoehdot**-pikavälilehdessä kirjauspäivämäärä ja määritä, haluatko luoda yhden laskun tehtävää kohti vai yhden laskun kaikille tehtäville.  
 5.  Luo lasku valitsemalla **OK**-painike ja valitse sitten **OK**-painike vahvistussivulla.  
 
- Kun Tiina on luonut laskun, hän voi käyttää sitä **Myynti ja markkinointi** -kohdassa  **Tilauksen käsittely** -osassa ja suorittaa lisätoimia.  
+ Kun Tricia on luonut laskun, hän voi käyttää sitä esimerkiksi **Myyntitilausten käsittelijän** roolikeskuksessa. 
 
 ### <a name="to-post-a-new-sales-invoice"></a>Uuden myyntilaskun kirjaaminen  
 

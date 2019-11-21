@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 777133cb15b6949eafe20abf325556cd8b16bb9a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c0c68b43e562ece0dce695ed4366dcc5ad409e27
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316048"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554786"
 ---
 # <a name="convert-service-contracts-that-include-vat-amounts"></a>ALV-summia sisältävien huoltosopimusten muuntaminen
 Koska ALV:n muutostyökalu ei voi muuntaa huoltosopimuksia, nämä sopimukset on muunnettava manuaalisesti. Tässä aiheessa kuvataan useita vaihtoehtoisia menetelmiä, joita voit käyttää palvelusopimuksen muuntamista varten.  
@@ -32,9 +32,9 @@ Koska ALV:n muutostyökalu ei voi muuntaa huoltosopimuksia, nämä sopimukset on
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sopimuksen hallinta** ja valitse sitten liittyvä linkki.  
 2. Valitse **Luettelot** -kohdan alta **Huoltosopimukset**.  
 3. Luo uusi ennakkoon maksettu huoltosopimus. Anna aloituspäiväksi **01.01.2017** ja laskukausi asiakkaalle **20000**.  
-4. Tämä sopimus on allekirjoitettava. Valitse **Kotisivu**-välilehden **Käsittely**-ryhmässä **Allekirj. sopimus**.  
+4. Voit allekirjoittaa sopimuksen valitsemalla **Allekirjoita sopimus** -toiminnon.  
 5. Huoltolaskun luominen:
-6. Lasku on merkitty kirjaamattomaksi huoltolaskuksi. Tarkastele huoltolaskua valitsemalla **Huolto**, valitse **Sopimuksen hallinta** ja valitse sitten **Huoltolaskut**.  
+6. Lasku on merkitty kirjaamattomaksi huoltolaskuksi. Tarkastele huoltolaskua valitsemalla **Huolto**-toiminto, valitse **Sopimuksen hallinta** -toiminto ja valitse sitten **Huoltolaskut**-toiminto.  
 7. Kirjaa huoltolasku.  
 
 > [!NOTE]  
@@ -59,7 +59,7 @@ Seuraavassa ohjeessa neuvotaan, miten luodaan uusi hyvityslasku käyttäen **Hae
 1. Aja ALV-kannan muutostyökalu 1. heinäkuuta 2017. Yleinen tuotteen kirjausryhmä tai ALV-tuotteen kirjausryhmä muutetaan. Lisätietoja on kohdassa [Myynnin ja ostojen ALV:n käsitteleminen](finance-work-with-vat.md).  
 2. ALV-muutostyökalun suorittamisen jälkeen, kirjoita huoltosopimuksen vanhenemispäivämäärä. Nyt voit poistaa huoltosopimuksen rivin ja luoda uuden rivin, joka on samanlainen kuin vanha.  
 3. Luo uusi lasku kaudelle Tammikuu 2017 - Joulukuu 2012 uudella ALV-prosentilla.  
-4. Luo toinen hyvityslasku **Huollon hyvityslaskut** -sivulla valitsemalla **Uusi** luodaksesi uuden huollon hyvityslaskun.  
+4. Luo toinen hyvityslasku **Huollon hyvityslaskut** -sivulla valitsemalla **Uusi**-toiminto luodaksesi uuden huollon hyvityslaskun.  
 5. Valitse **Hae enn. maksetut sop.tapaht** -toiminto.  
 6. Kun muuntaminen on valmis, ALV- ja huoltotapahtumasyötteet ovat oikeat.  
 

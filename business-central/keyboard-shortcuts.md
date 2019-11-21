@@ -8,22 +8,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 10/01/2019
+ms.date: 11/07/2019
 ms.author: sgroespe
-ms.openlocfilehash: f0c021edd416daff4b40dee6f4a541b4e3e8bc32
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e8d55ffd434ff2c7666d0b90a5cfd091fc68a015
+ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309458"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "2774841"
 ---
 # <a name="keyboard-shortcuts"></a>Pikanäppäimet
 Tässä artikkelissa käsitellään yleisesti [!INCLUDE[prodshort](includes/prodshort.md)] -ohjelman joitakin pikanäppäinyhdistelmiä.
 
+Yleistietoja suosituimmista pikanäppäimistä on kohdassa [Pikanäppäimet (vain PC)](keyboard-shortcuts-cheatsheet.md).
+
 > [!TIP]
-> Kätevä, tulostettava yleiskuvaus tietokonekäyttäjien eniten käyttämistä pikanäppäimistä on kohdassa [Pikanäppäimet (vain tietokone)](keyboard-shortcuts-cheatsheet.md). Avaa pikanäppäimien graafinen esitys valitsemalla seuraava kuva:
+> Jos haluat graafisen näkymän eniten käytetyistä pikanäppäimistä, valitse seuraava kuva ja lataa PDF-tiedosto.
 >
->[ ![Lataa tulostettava versio napsauttamalla hiiren kakkospainiketta ja valitsemalla Tallenna kuva nimellä](media/bckeyboardmap-inline.png) ](media/bckeyboardmap.png#lightbox)
+> [ ![](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf)
 
 ## <a name="overview"></a>Yleiskuvaus
 Pikanäppäimet ovat helppokäyttötoimintoja. Ne auttavat ja tehostavat sivun eri alueiden ja elementtien välillä siirtymistä. Useimmat selaimet tukevat pikanäppäimiä, joskin niiden toiminta voi vaihdella jonkin verran eri selaimissa.
@@ -47,11 +49,11 @@ Seuraavassa taulukossa kuvataan pikanäppäimet, joiden avulla voi käyttää si
 |Alt+Vaihto+F2|Siirry tietoruudun **tietojen** ja **liitteiden** välillä.|
 |Alt+O|Lisää uusi muistio valittuun tietueeseen, vaikka tietoruutu ei olisi auki.|
 |Alt+Q<br />(Ctrl+Optio+Q)|Avaa **Kerro, mitä haluat tehdä** -ikkuna. Lisätietoja on kohdassa [Sivujen ja tietojen etsiminen Kerro, mitä haluat tehdä -toiminnolla](ui-search.md).|
-|Alt+N |Luo uusi tietue avaamalla sivu. (Vastaa **Uusi**- ja **+**-toimintojen valitsemista.)
-|Alt+Vaihto+N |Sulje juuri luotu sivu ja luo uusi tietue avaamalla uusi sivu.
+|Alt+N |Luo uusi tietue avaamalla sivu. (Vastaa **Uusi**- ja **+**-toimintojen valitsemista.)|
+|Alt+Vaihto+N |Sulje juuri luotu sivu ja luo uusi tietue avaamalla uusi sivu. Vastaavasti ALT+F9 kirjaa asiakirjan ja luo uuden.|
 |Alt+T|Avaa **Omat asetukset** -sivu.|
-|Alt+Oikea nuoli|Etsi sen kentän lisätietoja tai taustalla olevia arvoja, joka sisältää ![AssistEdit](media/assist-edit-icon.png "AssistEdit-painike") -painikkeen. Tätä pikanäppäintä käytetään silloin, kun tavallista avattavan luettelon painiketta (Alt+alanuoli) käytetään samassa kentässä toiseen tarkoitukseen.|
-|Shift+F12|Avaa ominaisuuden yleiskuvaus. Lisätietoja on kohdassa [Sivujen etsiminen toiminnon yleiskatsauksessa](ui-role-explorer.md).|
+|Alt+Oikea nuoli|Etsi sen kentän lisätietoja tai taustalla olevia arvoja, joka sisältää ![MuokkausApu](media/assist-edit-icon.png "MuokkausApu-painike")-painikkeen. Tätä pikanäppäintä käytetään silloin, kun tavallista avattavan luettelon painiketta (Alt+alanuoli) käytetään samassa kentässä toiseen tarkoitukseen.|
+|Shift+F12|Avaa roolinhallinta, ominaisuuksien yleiskuvaus. Lisätietoja on kohdassa [Sivujen etsiminen roolinhallinnalla](ui-role-explorer.md).|
 |Ctrl+Alt+Vaihto+C|Näytä yrityksen tunnuksessa olevat tiedot.|
 |Ctrl+Alt+F1|Avaa ja sulje sivun tarkastusruutu Sivun tarkastusruudussa on tietoja sivusta, kuten sen lähdetaulukko, kentät, suodattimet ja laajennukset.<br /><br />Lisätietoja on kohdassa [Tarkastussivut](across-inspect-page.md).|
 |Ctrl+C |Kopioi kentän arvo. Jos kohdistus on kentässä etkä ole valinnut kentässä tekstiä, koko arvo kopioidaan. Jos olet valinnut kentässä tekstiä, vain valittu teksti valitaan.|

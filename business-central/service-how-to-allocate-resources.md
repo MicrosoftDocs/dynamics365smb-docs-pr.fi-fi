@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: c0acb72f9c083b262251f249d1004b333b911c3c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: b6b5173f23d2315bbaeb01018ae4ee1ba26712b6
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316044"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554818"
 ---
 # <a name="allocate-resources"></a>Resurssien kohdistaminen
 Huollon toimittavat henkilöt ovat huoltohallinnon tärkein elementti. Voit määrittää [!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittämään henkilöt heille soveltuviin projekteihin. Toimeksiannot voivat perustua henkilön tai huollon sijainnin mukaisiin huoltoalueisiin. Lisäksi resurssit voi ryhmitellä yhteen huoltopyyntöihin vastattaessa. Lisätietoja on kohdassa [Resurssien kohdistamisen määrittäminen](service-how-setup-resource-allocation.md).
@@ -46,7 +46,7 @@ Käyttäjä voi tarvita tiettyjen ehtojen mukaista huoltotilausten ja/tai huolto
 6. Valitse kohdistettava resurssi. Voit perustaa valintasi riippumatta siitä, onko resurssi sopiva tehtävää varten, sijaitseeko se asiakkaan alueella ja/tai onko se asiakkaan ensisijainen valinta.  
 7. Määritä päivämäärä, jolloin resurssilla on tarpeeksi tunteja tehtävälle ja joka on lähellä huoltotilauksen vastauspäivämäärää.  
 8. Anna **Kohdistettava määrä** -kenttään tuntimäärä, jonka ajaksi haluat kohdistaa resurssin huoltotehtävälle.  
-9. Valitse **Toiminnot**-välilehti **Toiminnot**-ryhmässä, valitse **Kohdista** ja kohdista valittu resurssiryhmä valittuun päivämäärään.  
+9. Valitse **Kohdista** ja kohdista valittu resurssi valittuun päivämäärään.  
 
      **Tila**-kentän arvoksi asetetaan automaattisesti **Aktiivinen**.  
 
@@ -80,7 +80,7 @@ Resursseja voidaan kohdistaa uudelleen suoraan huoltotilauksesta tai huoltotarjo
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltotilaukset** ja valitse sitten liittyvä linkki.  
 2. Avaa haluamasi huoltotilaus.  
-3. Napsauta sen huoltotehtävän huoltonimikeriviä, jolle haluat kohdistaa resursseja.  Valitse ensin **Toiminnot**, sitten **Rivi** ja lopuksi **Resurssin kohdistukset**.  
+3. Valitse kohteena olevaa huoltotehtävää vastaava huoltonimikerivi ja valitse **Resurssin kohdistukset** -toiminto.  
 4. Valitse **Resurssin kohdistukset** -sivulla kohdistustapahtuma, joka sisältää uudelleen kohdistuksen kohteena olevan huoltotehtävän. Valitse **Resurssin nro** -kentässä asianmukainen resurssi. Se korvaa kentässä jo olevan resurssinumeron.  
 5. Paina Enter-näppäintä. Näyttöön tulee valintaikkuna, jossa kysytään, haluatko kohdistaa tapahtuman uudelleen. Täytä **Syykoodi**-kenttä tarvittaessa ja vahvista uudelleenkohdistus valitsemalla **Kyllä**.  
 6. Täytä **Kohdistuspvm**- ja **Kohdistetut tunnit** -kentät. Tapahtuma sisältää nyt uuden resurssin, ja sen tila on **Aktiivinen**.
@@ -90,7 +90,7 @@ Jos huoltotehtävään kohdistettu resurssi ei kykene suorittamaan tehtävää, 
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Lähetystaulukko** ja valitse sitten liittyvä linkki.  
 2. Valitse **Kohdistuksen suodatus** -kentässä **Uudelleenkohdistamista tarvitaan**. **Lähetystaulukko**-sivulle tulee nyt luettelo huoltotilauksista, joissa on uudelleenkohdistamista tarvitsevia huoltotehtäviä.  
-3. Avaa haluamasi huoltotilaus. Valitse **Navigoi**-välilehden **Suunnittelu**-ryhmässä **Resurssin kohdistukset**. **Resurssin kohdistukset** -sivu avautuu.  
+3. Valitse ensin liittyvä huoltotilaus ja sitten **Resurssin kohdistukset** -toiminto. **Resurssin kohdistukset** -sivu avautuu.  
 4. Valitse kohdistustapahtuma, jossa on huoltotehtävä, johon haluat kohdistaa uuden resurssin.  
 5. Valitse **Resurssin nro** -kentässä asianmukainen resurssi. Se korvaa kentässä jo olevan resurssinumeron.  
 6. Paina Enter-näppäintä. **Tapahtuman uudelleenkohdistuksen syyt** -valintaikkuna aukeaa, jossa kysytään, haluatko uudelleenkohdistaa tapahtuman. Täytä **Syykoodi**-kenttä tarvittaessa ja vahvista uudelleenkohdistus valitsemalla **Kyllä**.  
@@ -106,7 +106,7 @@ Jos huoltotehtävään kohdistettu resurssi ei kykene suorittamaan tehtävää, 
 ## <a name="to-register-resource-hours"></a>Resurssituntien rekisteröiminen  
 Kun työskentelet huoltotilauksissa olevien huoltonimikkeiden parissa, huollolle käytetyt resurssitunnit tulee rekisteröidä. Seuraavassa kuvataan, miten resurssitunnit rekisteröidään **Huoltonimikkeen työkirja** -sivulla.  
 
-Samaa menettelyä voidaan käyttää rekisteröimään tunteja **Huoltorivit**-sivulla, jonka voit avata Huoltotilaus-sivulta. Avaa käsiteltävä huoltokortti ja valitse ensin **Toiminnot**, sitten **Tilaus** ja lopuksi **Huoltorivit**.  
+Samaa menettelyä voidaan käyttää rekisteröimään tunteja **Huoltorivit**-sivulla, jonka voit avata Huoltotilaus-sivulta. Avaa asianmukainen huoltokortti ja valitse **Huoltorivit**-toiminto.  
 
 Jos sama resurssi työskentelee kaikkien huoltotilauksessa olevien huoltonimikkeiden parissa, kokonaisresurssitunnit voi rekisteröidä vain yhdelle huoltonimikkeelle ja resurssirivi jakaa sitten resurssituntien määrittelemiseksi muille huoltonimikkeille.
 
@@ -121,9 +121,9 @@ Seuraavassa kuvataan, miten resurssirivejä jaetaan **Huoltolaskun rivit** -sivu
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltotilaukset** ja valitse sitten liittyvä linkki.  
 2. Avaa haluamasi huoltotilaus.  
-3. Valitse **Rivit**-pikavälilehdessä ensin **Toiminnot**, sitten **Tilaus** ja lopuksi **Huoltorivit**. **Huoltorivit**-sivu avautuu.  
+3. Valitse **Rivit**-pikavälilehdessä **Huoltorivit** -toiminto. **Huoltorivit**-sivu avautuu.  
 4. Napsauta resurssiriviä, jonka haluat jakaa. Ohjelma jakaa **Määrä**-kentän sisällön kaikkien tilauksessa olevien huoltonimikkeiden kesken.  
-5. Valitse **Toiminnot**-välilehdessä **Jaa resurssirivi** -toiminto. Vahvista valinta valitsemalla **Kyllä**.  
+5. Valitse **Jaa resurssirivi** -toiminto. Vahvista valitsemalla **Kyllä**.  
 
     Ohjelma luo resurssirivejä muille tilauksessa oleville huoltonimikkeille, joilla on sama resurssinumero kuin jakamallasi rivillä. Määrä on määrä jakamasi rivin osalta jaettuna tilauksessa olevien huoltonimikkeiden lukumäärällä.  
 

@@ -1,7 +1,7 @@
 ---
-title: Maksujen suorittaminen pankkitietojen muunnospalvelulla tai SEPA-tilisiirrolla | Microsoft Docs
+title: Suorita maksuja AMC Banking 365 -perusteiden laajennuksen tai SEPA-tilisiirron avulla | Microsoft Docs
 description: Käsittele maksut toimittajille viemällä tiedoston yhdessä maksutietojen kanssa päiväkirjan riveiltä.
-author: SorenGP
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
@@ -9,15 +9,15 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: c1089a48cee57f6e42e48d995ed9c9ae7fd8fd80
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.author: bholtorf
+ms.openlocfilehash: 35904d33c7e456e3797dae0835ed7462a65f4a7f
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302020"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692846"
 ---
-# <a name="making-payments-with-bank-data-conversion-service-or-sepa-credit-transfer"></a>Maksujen suorittaminen pankkitietojen muunnospalvelulla tai SEPA-tilisiirrolla
+# <a name="make-payments-with-the-amc-banking-365-fundamentals-extension-or-sepa-credit-transfer"></a>Suorita maksuja AMC Banking 365 -perusteiden laajennuksen tai SEPA-tilisiirron avulla
 Voit käsitellä **Maksupäiväkirja**-sivulla maksut toimittajille viemällä tiedoston yhdessä maksutietojen kanssa päiväkirjan riveiltä. Voit sitten ladata tiedoston verkkopankkiin, jossa liittyvät rahansiirrot käsitellään. [!INCLUDE[d365fin](includes/d365fin_md.md)] tukee SEPA-hyvitysten siirtomuotoa, mutta maa- tai aluekohtaisesti voi olla käytettävissä muita sähköisiä maksumuotoja.
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)]in yleisessä versiossa asetetaan ja yhdistetään yleiset palvelut pankkitietojen muuntamiseen mihin tahansa pankkisi vaatimaan muotoon. Pohjoisamerikkalaisessa versioissa maksutiedostot voidaan lähettää samalla palvelulla sähköisenä rahansiirtona, joskin prosessi on hieman erilainen. Lisätietoja on kohdan [Maksujen vienti pankkitiedostoon](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#to-export-payments-to-a-bank-file) vaiheessa 6.   
@@ -27,8 +27,8 @@ Voit käsitellä **Maksupäiväkirja**-sivulla maksut toimittajille viemällä t
 > [!NOTE]  
 >  Kun olet varmistanut, että pankki on käsitellyt maksut onnistuneesti, voit jatkaa maksupäiväkirjan rivien kirjaamista.  
 
-## <a name="setting-up-the-bank-data-conversion-service"></a>Pankkitietojen muuntopalvelun määrittäminen.
-Voit aktivoida pankkitietojen muuntopalvelun minkä tahansa pankin tiliotteen muuttamiseksi tuotavaan muotoon, tai voit muuttaa viedyt maksutiedostot pankkisi vaatimaan muotoon. Lisätietoja on kohdassa [Pankkitietojen muuntopalvelun määrittäminen](bank-how-setup-bank-statement-service.md).
+## <a name="setting-up-the-amc-banking-365-fundamentals-extension"></a>AMC Banking 365 -perusteiden laajennuksen asentaminen
+Voit aktivoida AMC Banking 365 -perusteiden laajennuksen minkä tahansa pankin tiliotteen muuttamiseksi tuotavaan muotoon, tai voit muuttaa viedyt maksutiedostot pankkisi vaatimaan muotoon. Lisätietoja kohdassa [AMC Banking 365 -perusteiden laajennuksen käyttö](ui-extensions-amc-banking.md).
 
 ## <a name="setting-up-sepa-credit-transfer"></a>SEPA-hyvityksen siirron määrittäminen
 Voit viedä maksuja **Maksupäiväkirja**-sivulta tiedostoon siirrettäväksi verkkopankkiisi liittyvien tilisiirtojen käsittelemiseksi. [!INCLUDE[d365fin](includes/d365fin_md.md)] tukee SEPA-hyvitysten siirtomuotoa, mutta maa- tai aluekohtaisesti voi olla käytettävissä muita sähköisiä maksumuotoja.  
@@ -63,8 +63,8 @@ Ennen kuin voit käsitellä maksun sähköisesti viemällä maksutiedostot SEPA-
 ### <a name="to-set-the-payment-journal-up-to-export-payment-files"></a>Maksupäiväkirjan määrittäminen maksutiedostojen vientiä varten  
 1. Anna **Haku**-ruudussa **Maksupäiväkirjat** ja valitse sitten vastaava linkki.  
 2. Avaa maksupäiväkirja, jota käytät maksujen käsittelyyn viemällä tiedostot SEPA-hyvitys siirtomuodossa.  
-3. Valitse **Erän nimi** -kentässä avattava luettelon painike.  
-4. Valitse **Yleisen päiväkirjan erät** -sivun **Kotisivun**-välilehden **Hallinta**-ryhmässä **Muokkaa luetteloa**.  
+3. Valitse **Erän nimi** -kentässä avattavan\- luettelon painike.  
+4. Valitse **Yleisen päiväkirjan erät** -sivulla **Muokkaa luetteloa** -toiminto.  
 5. Valitse sen maksupäiväkirjan rivillä, jonka avulla viet maksut, **Salli maksun vienti** -valintaruutu.  
 
 ### <a name="to-connect-the-data-exchange-definition-for-one-or-more-payment-types-with-the-relevant-payment-method-or-methods"></a>Vähintään yhden maksutyypin tiedonsiirtomäärityksen yhdistäminen liittyvään maksutapaan  
@@ -80,10 +80,10 @@ Täytä maksupäiväkirja toimittajiin kohdistuvilla erääntyvillä maksuriveil
 ## <a name="exporting-payments-to-a-bank-file"></a>Maksujen vienti pankkitiedostoon
 Kun olet valmis suorittamaan maksut toimittajille tai hyvitykset työntekijöille, voit viedä tiedoston ja päiväkirjan rivien maksutiedot **Maksupäiväkirja**-sivulla. Voit sitten ladata tiedoston pankkiin kyseisten rahansiirtojen käsittelyä varten.
 
-Pankkitietojen muuntopalvelu on määritetty ja yhdistetty yleisessä [!INCLUDE[d365fin](includes/d365fin_md.md)] -versiossa. Pohjoisamerikkalaisessa versioissa maksutiedostot voidaan lähettää samalla palvelulla sähköisenä rahansiirtona, joskin prosessi on hieman erilainen. Lisätietoja on kohdan [Maksujen vienti pankkitiedostoon](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#to-export-payments-to-a-bank-file) vaiheessa 6.
+[!INCLUDE[d365fin](includes/d365fin_md.md)]:en yleisessä versiossa on käytettävissä AMC Banking 365 -perusteiden laajennusohjelma. Pohjoisamerikkalaisessa versioissa maksutiedostot voidaan lähettää samalla laajennuksella sähköisenä rahansiirtona, joskin prosessi on hieman erilainen. Lisätietoja on kohdan [Maksujen vienti pankkitiedostoon](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#to-export-payments-to-a-bank-file) vaiheessa 6.
 
 > [!NOTE]  
->   Määritä liittyvän pankkitilin sähköinen muoto ennen maksutiedostojen vientiä maksupäiväkirjasta ja ota pankkitietojen muuntopalvelu käyttöön. Lisätietoja on kohdissa [Pankkitilien määrittäminen](bank-how-setup-bank-accounts.md) ja [Pankkitietojen muuntopalvelun määrittäminen](bank-how-setup-bank-data-conversion-service.md). Valitse myös **Salli maksun vienti** -valintaruutu **Yleisen päiväkirjan erät** -sivulla. Lisätietoja on kohdassa [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md).  
+>   Määritä liittyvän pankkitilin sähköinen muoto ennen maksutiedostojen vientiä maksupäiväkirjasta ja ota AMC Banking 365 -perusteiden laajennus käyttöön. Lisätietoja kohdissa [Määritä pankkitilit](bank-how-setup-bank-accounts.md) ja [AMC Banking 365 -perusteiden laajennuksen käyttö](ui-extensions-amc-banking.md). Valitse myös **Salli maksun vienti** -valintaruutu **Yleisen päiväkirjan erät** -sivulla. Lisätietoja on kohdassa [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md).  
 
 Voit tarkastella maksupäiväkirjasta vietyjä maksutiedostoja **Hyvityksen siirron rekisterit** -sivulla. Voit myös viedä sivulla maksutiedostot uudelleen, jos tekniset virheet tai tiedostomuutokset vaativat sitä. Huomaa kuitenkin, että viedyt sähköiset rahansiirtotiedostot eivät näy tällä sivulla eikä niitä voi viedä uudelleen.  
 
@@ -102,7 +102,7 @@ Seuraavassa kuvataan, miten toimittajalle maksetaan sekillä. Vaiheet ovat saman
     Virheilmoituksia näkyy **Maksutiedoston virheet** -tietoruudussa, jossa voit myös nähdä yksityiskohtaiset tiedot virheviestistä. Kaikki virheet on ratkaistava ennen maksutiedoston vientiä.
 
     > [!TIP]  
-    >   Pankkitietojen muuntopalvelua käytettäessä yleinen virheilmoitus kertoo, että pankkitilin numeron pituus ei täytä pankin vaatimuksia. Voit välttää tämän virheen tai ratkaista sen poistamalla **IBAN**-kentän **Pankkitilin kortti** -sivulla ja antamalla sitten pankkitilin numeron **Pankkitilin nro** -kentässä pankin edellyttämässä muodossa.
+    >   AMC Banking 365 -perusteiden laajennusta käytettäessä yleinen virheilmoitus kertoo, että pankkitilin numeron pituus ei täytä pankin vaatimuksia. Voit välttää tämän virheen tai ratkaista sen poistamalla **IBAN**-kentän **Pankkitilin kortti** -sivulla ja antamalla sitten pankkitilin numeron **Pankkitilin nro** -kentässä pankin edellyttämässä muodossa.
 
 5. Määritä **Tallenna nimellä** -sivulla paikka, johon tiedosto viedään, ja valitse sitten **Tallenna**.
 
@@ -132,15 +132,15 @@ Voit viedä maksutiedostot uudelleen **Hyvityksen siirron rekisterit** -sivulla.
 > [!NOTE]  
 >   Viedyt sähköiset rahansiirtotiedostot eivät näy **Hyvityksen siirron rekisterit** -sivulla, eikä niitä voi viedä uudelleen.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Hyvityksen siirron rekisterit** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Hyvityksen siirron rekisterit** ja valitse sitten liittyvä linkki.
 2. Valitse ensin uudelleenvietävä maksun vienti ja sitten **Vie maksut uudelleen tiedostoon** -toiminto.
 
 ## <a name="posting-the-payments"></a>Maksujen kirjaaminen
 Kirjaa maksut sen jälkeen, kun pankki on käsitellyt ne onnistuneesti. Lisätietoja on kohdassa [Maksujen suorittaminen](payables-make-payments.md).
 
 ## <a name="see-also"></a>Katso myös  
-[Pankkitietojen muuntopalvelun määrittäminen](bank-how-setup-bank-statement-service.md)  
+[AMC Banking 365 -perusteiden laajennuksen käyttäminen](ui-extensions-amc-banking.md)  
 [SEPA-hyvityksen siirron määrittäminen](finance-how-to-set-up-sepa-credit-transfer.md)  
 [Ostovelkojen hallinta](payables-manage-payables.md)   
 [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md)  
-[Maksujen kerääminen SEPA-suoraveloitusperintänä](finance-collect-payments-with-sepa-direct-debit.md)   
+[Maksujen kerääminen SEPA-suoraveloitusperintänä.](finance-collect-payments-with-sepa-direct-debit.md)   

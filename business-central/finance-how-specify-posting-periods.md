@@ -13,22 +13,22 @@ ms.workload: na
 ms.search.keywords: user setup
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 14ffdb7d4be38949a31aebeb86e6312a5e3128aa
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e51853d3378fe07680667f38bf729673da40a3c7
+ms.sourcegitcommit: 86498fe4326b9ce26cc31e8645db27570d13bdf9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306146"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2767512"
 ---
 # <a name="specify-posting-periods"></a>Kirjausjaksojen määrittäminen
 Voit määrittää kirjausjaksojen avulla, milloin käyttäjät voivat tehdä kirjauksia pääkirjanpitoon.  
 
 ## <a name="to-specify-posting-periods"></a>Kirjausjaksojen määrittäminen
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pääkirjanpidon asetukset** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pääkirjanpidon määritykset** ja valitse sitten liittyvä linkki.  
 2. Määritä jakso **Pääkirjanpidon asetukset** -sivulla antamalla päivämäärät **Ensimm. sallittu kirjauspvm**- ja **Viimeinen sallittu kirjauspvm** -kenttiin.  
 
 > [!NOTE]  
->   Nämä kirjausjaksot koskevat yritystä ja kaikki käyttäjiä. Voit sallia poikkeukset määrittämällä eri kirjausjaksot tietyille käyttäjille **Käyttäjäasetukset**-sivulla. Nämä kirjausjaksot ohittavat **Pääkirjanpidon asetukset** -sivulla määritetyt jaksot. Lisätietoja on kohdassa [Käyttäjän aikarajoitteiden määrittäminen](ui-how-users-permissions.md#to-set-up-user-time-constraints).
+>   Nämä kirjausjaksot koskevat yritystä ja kaikki käyttäjiä. Voit sallia poikkeukset määrittämällä eri kirjausjaksot tietyille käyttäjille **Käyttäjäasetukset**-sivulla. Nämä kirjausjaksot ohittavat **Pääkirjanpidon asetukset** -sivulla määritetyt jaksot. Lisätietoja on kohdassa [Käyttäjän aikarajoitteiden määrittäminen](ui-define-granular-permissions.md#to-set-up-user-time-constraints).
 
 ## <a name="see-also"></a>Katso myös
 [Rahoitus](finance.md)  

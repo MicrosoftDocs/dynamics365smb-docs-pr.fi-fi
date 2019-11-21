@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: language, locale, localization, culture
-ms.date: 10/01/2019
+ms.date: 10/22/2019
 ms.author: edupont
-ms.openlocfilehash: 4cab6bd1ca01e6f4d66914cff8a3a026f8ecfc32
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 81377dfe391415c6922cf0dcf00a8c8567ee4c80
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300783"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692702"
 ---
 # <a name="changing-language-and-locale"></a>Kielen ja kielialueen muuttaminen
 
@@ -40,6 +40,10 @@ Voit muuttaa aluekohtaiset asetukset siinä selaimen välilehdessä, jolla käyt
 
 Voit muuttaa aluekohtaisia asetuksia **Omat asetukset** -sivulla. Lisätietoja on kohdassa [Perusasetusten muuttaminen](ui-change-basic-settings.md).  
 
+## <a name="application-version"></a>Sovellusversio
+
+Voit tarkistaa **Ohje ja tuki** -sivulla mihin [!INCLUDE [prodshort](includes/prodshort.md)] -versioon yrityksesi perustuu. Jos haluat perustaa yrityksen eri versioon, järjestelmänvalvoja voi luoda uuden tuotantoympäristön. Lisätietoja on kohdassa [Uuden tuotanto ympäristön luominen](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-production-environment) Kehittäjän ja IT-ammattilaisen sisällössä.  
+
 ## <a name="languages-of-the-included365finincludesd365fin_mdmd-help"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)]-ohjeen kielet
 [!INCLUDE[d365fin](includes/d365fin_md.md)]in perustoimintojen ohjesisältö julkaistaan Microsoft Docs -sivustossa ja on luettavissa useilla eri kielillä. Jos siirryt asiakirjoihin [!INCLUDE[d365fin](includes/d365fin_md.md)]ista, sisältö näkyy omalla kielelläsi. Jos tiettyä sivua ei ole vielä käännetty omalle kielellesi, se näkyy englanninkielisenä.
 
@@ -49,6 +53,8 @@ Kielen vaihtaminen on helppoa: siirry selainsivun alareunaan ja valitse vasemmas
 > [!NOTE]  
 > Avautuvassa luettelossa on kaikki Microsoft Docs-sivuston tukemat kielet. [!INCLUDE[d365fin](includes/d365fin_md.md)] on käytettävissä vain tietyissä maissa ja tietyillä alueilla, mutta ohjesisältö on luettavissa myös monilla muilla kielillä. Ohjesisältö ei kuitenkaan ole luettavissa kaikilla Microsoft Docs -sivuston tukemissa kielillä.
 
-## <a name="see-also"></a>Katso myös  
+## <a name="see-also"></a>Katso myös
+
+[Ohje- ja tukiresurssit](product-help-and-support.md)  
 [Perusasetusten muuttaminen](ui-change-basic-settings.md)  
 [Käytön aloittaminen](product-get-started.md)  

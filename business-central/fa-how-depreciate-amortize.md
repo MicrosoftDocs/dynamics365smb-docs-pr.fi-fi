@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: write down
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9bf9de93ca218d00cc1db467c74e0af9942f21d0
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 93411d5469373a1084579b1235dcd2befdf921a8
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302834"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554276"
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Käyttöomaisuuden poisto tai kuolettaminen
 Poistoja käytetään jakamaan käyttöomaisuuden, esimerkiksi koneiden ja laitteiden, kustannuksia niiden poistoajalle. Jokaisen käyttöomaisuuserän osalta tulee määrittää, miten sille tehdään poistoja.  
@@ -51,7 +51,7 @@ Indeksointia käytetään muuttamaan arvoja yleisten hintatason muutosten mukaan
 2. Luo alkuperäisen päiväkirjan rivi ja täytä kentät tarpeen mukaan.  
 3. Valitse **KO:n kirjaustyyppi** -kentässä **Poisto**.  
 4. Valitse **Syötä KO-vastatili** -toiminto. Toinen päiväkirjan rivi luodaan vastatilille, joka on määritetty poiston kirjaamista varten. Lisätietoja on kohdassa [Käyttöomaisuuden kirjausryhmien määrittäminen](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).
-5. Valitse **Kotisivu**-välilehdessä **Kirjaa**, jolloin päiväkirja kirjataan.  
+5. Valitse **Kirjaa**-toiminto kirjataksesi päiväkirjan.  
 
 Jos summien kohdistamiseksi eri osastoille tai projekteille on määritetty käyttöomaisuuden kohdistusavaimia, summat kohdistetaan kirjaamisen aikana. Lisätietoja on kohdassa [Käyttöomaisuuden yleisten tietojen määrittäminen](fa-how-setup-general.md).  
 
@@ -62,7 +62,7 @@ Jos useat osastot käyttävät käyttöomaisuuserää, jaksottaiset poistot void
 2. Luo alkuperäinen rivi ja täytä kentät tarpeen mukaan.
 3. Valitse **KO:n kirjaustyyppi** -kentässä **Kohdistus**.  
 4. Valitse **Syötä KO-vastatili** -toiminto. Toinen päiväkirjan rivi luodaan vastatilille, joka on määritetty kohdistuksen kirjaamista varten.  
-5. Valitse **Kotisivu**-välilehdessä **Kirjaa**, jolloin päiväkirja kirjataan.  
+5. Valitse **Kirjaa**-toiminto kirjataksesi päiväkirjan.  
 
 ## <a name="use-duplication-lists-to-prepare-to-post-to-multiple-depreciation-books"></a>Valmistele useiden poistokirjojen kirjaaminen monistusluetteloiden avulla
 Kun täytät poistokirjaan kirjattavat päiväkirjarivit, voit monistaa rivit erilliseen päiväkirjaan, josta ne voidaan kirjata eri poistokirjaan. Lisätietoja on kohdassa [Tapahtumien kirjaaminen eri poistokirjoihin](fa-how-depreciate-amortize.md#to-post-entries-to-different-depreciation-books).

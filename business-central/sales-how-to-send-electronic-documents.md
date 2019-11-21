@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8b48dab5b644696bc30dd1748370697ac408f387
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 26b2e5bf479f3343f66bd852078b337ad87e852a
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316282"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554811"
 ---
 # <a name="send-electronic-documents"></a>Sähköisten asiakirjojen lähettäminen
 [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman yleinen versio tukee sähköisten laskujen ja hyvityslaskujen lähettämistä PEPPOL-muodossa. Suurimmat document exchange -palveluiden tarjoajat tukevat tätä muotoa. Document exchange -palveluiden tarjoaja välittää sähköisiä asiakirjoja liikekumppaneiden välillä. Käyttämällä tiedonsiirtokehystä voidaan tukea myös muita sähköisiä asiakirjamuotoja.  
@@ -30,7 +30,7 @@ ms.locfileid: "2316282"
 
 2.  Luo uusi myyntilasku.  
 
-3.  Kun myyntilasku on laskutusvalmis, valitse **Toiminnot**-välilehden **Kirjaaminen**-ryhmästä **Kirjaa ja lähetä**.  
+3.  Kun myyntilasku on valmis laskutettavaksi, valitse **Kirjaa ja lähetä** -toiminto.  
 
      Jos asiakkaan oletuslähetysprofiili on **Sähköinen asiakirja**, tieto näkyy **Kirjaa ja lähetä vahvistus** -valintaikkunassa. Lasku kirjataan ja lähetetään sähköisesti valitussa muodossa, kun valitset **Kyllä**-painikkeen.  
 
@@ -47,7 +47,7 @@ ms.locfileid: "2316282"
      Myyntilasku kirjataan ja lähetetään asiakkaalle sähköisenä asiakirjana PEPPOL-muodossa.  
 
     > [!NOTE]  
-    >  Voit myös lähettää kirjatun myyntilaskun sähköisenä asiakirjana. Menettely on sama kuin joka on kuvattu tässä aiheessa kirjaamattomille myyntiasiakirjoille. Valitse **Kirjattu myyntilasku** -sivun **Toiminnot** välilehdessä **Yleiset**-ryhmässä **Toimintoloki**, kun haluat tarkastella sähköisen asiakirjan tilaa. Lisätietoja on myös kohdassa **Toimintoloki**  
+    >  Voit myös lähettää kirjatun myyntilaskun sähköisenä asiakirjana. Menettely on sama kuin joka on kuvattu tässä aiheessa kirjaamattomille myyntiasiakirjoille. Valitse **Kirjattu myyntilasku** -sivun **Toimintoloki**-toiminto, kun haluat tarkastella sähköisen asiakirjan tilaa. Lisätietoja on myös kohdassa **Toimintoloki**  
 
 ## <a name="see-also"></a>Katso myös  
 [Myynnin laskutus](sales-how-invoice-sales.md)  

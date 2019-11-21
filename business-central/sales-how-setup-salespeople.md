@@ -10,17 +10,19 @@ ms.workload: na
 ms.search.keywords: sales rep
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1809302d24a7921f06f1ca8532a4fb14291c166d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 59138242b77af3b71a7feab566e2c66513547fdb
+ms.sourcegitcommit: f9f805282c86fda55843f7a11020fb3df861d50e
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312050"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "2764502"
 ---
 # <a name="set-up-salespeople"></a>Myyjien määrittäminen
 Useat yritykset haluavat seurata yksittäisen työntekijän suoritusta perustana myyntiprovision tai bonuksen laskennalle. Tarkastele esimerkiksi **myyjien provisioiden** raporttia. Yritys voi myös haluta määrittää myyjän kullekin kontaktilleen.
 
 Kun olet määrittänyt myyjän **Myyjät**-sivulla, voit valita luomasi myyjän **Myyjäkoodi**-kenttään kaikissa asiaankuuluvissa tietueissa. Näitä ovat esimerkiksi KP-tili, asiakas, toimittaja ja kampanjoiden kortit. Kun tämän jälkeen kirjaat tai määrität esimerkiksi laskuja, hyvityslaskuja, päiväkirjan rivejä tai viivästyskulutoimenpiteitä, myyjäkoodi siirtyy tuloksena saataviin tapahtumakirjauksiin.
+<br><br>  
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE43Vhm)]
 
 ## <a name="to-set-up-a-salesperson-code"></a>Myyjäkoodin määrittäminen
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyjät** ja valitse sitten liittyvä linkki.

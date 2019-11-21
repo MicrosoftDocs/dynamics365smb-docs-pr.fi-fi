@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: de3456884d3c5f46ef246aa6fcd02bec5b001377
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: df539a8c1aa42fe8bc732e4819db10cbfbdaec2a
+ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309002"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "2775569"
 ---
 # <a name="using-dynamics-365-sales-from-business-central"></a>Dynamics 365 Salesin käyttäminen Business Centralissa
 Jos käytät Dynamics 365 Salesia asiakassuhteissa, saat käyttöösi saumattoman integroinnin liidistä tuottoon käyttämällä [!INCLUDE[d365fin](includes/d365fin_md.md)]ia taustatehtäviin, kuten tilausten käsittelyyn, varastonhallintaan ja talousasioihin.
@@ -97,7 +97,7 @@ Kun asiakasmaksu vastaanotetaan myyntilaskulle sovelluksessa [!INCLUDE[d365fin](
 [Liikesuhteiden hallinta](marketing-relationship-management.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md)  
-[Käyttäjien ja käyttöoikeuksien hallinta](ui-how-users-permissions.md)    
+[Määritä käyttöoikeudet käyttäjille ja ryhmille](ui-define-granular-permissions.md)    
 [Salesin ja myyntikeskuksen yleiskuvaus](/dynamics365/customer-engagement/sales-enterprise/overview)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

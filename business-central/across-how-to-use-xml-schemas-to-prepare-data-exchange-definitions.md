@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b00ed408bcdc5b98a7c23a8083109b140db175ae
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0d028206d1e17c7a1093cf2b93da02894909deb5
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305114"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554444"
 ---
 # <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>XML-mallien käyttäminen tietojenvaihtomääritysten valmisteluun
 Voit ottaa XML-tiedostojen tietojen tuonnin ja viennin käyttöön [!INCLUDE[d365fin](includes/d365fin_md.md)]in tiedonsiirtokehyksessä määrittämällä [!INCLUDE[d365fin](includes/d365fin_md.md)]in kanssa vaihdettavat tietoelementit XML-mallien avulla. Se tehdään **XML-mallin tarkastelutoiminto** -sivulla lataamalla XML-rakennetiedosto, valitsemalla sopivat tietoelementit ja käynnistämällä joko tietojen vaihdon määritys tai XMLport.  
@@ -40,9 +40,9 @@ Voit ottaa XML-tiedostojen tietojen tuonnin ja viennin käyttöön [!INCLUDE[d36
 
 1.  Varmista, että sopiva XML-rakennetiedosto on saatavilla. Tiedostotunniste on .xsd.  
 
-2.  Anna **Etsi**-ruudussa **XML-mallit** ja valitse sitten liittyvä linkki.  
+2.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **XML-mallit** ja valitse sitten liittyvä linkki.  
 
-3.  Valitse **Kotisivu**-välilehden **Uusi**-ryhmässä **Uusi**.  
+3.  Valitse **Uusi**-toiminto.  
 
 4.  Täytä kentät seuraavassa taulukossa kuvatulla tavalla.  
 
@@ -53,7 +53,7 @@ Voit ottaa XML-tiedostojen tietojen tuonnin ja viennin käyttöön [!INCLUDE[d36
 
      **Kohdenimitila**-kenttä määrittää riville ladatun XML-mallitiedoston nimitilan (joka voi olla mikä tahansa).  
 
-5.  Valitse **Kotisivu**-välilehden **Käsittely**-ryhmässä **Lataa malli** ja valitse sitten XML-mallin tiedosto.  
+5.  Valitse **Lataa malli** -toiminto ja valitse XML-mallitiedosto.  
 
      Kun tiedosto on ladattu, rivin muihin kenttiin lisätään tiedoston tiedot ja **Malli on ladattu** -valintaruutu valitaan.  
 
@@ -62,7 +62,7 @@ Voit ottaa XML-tiedostojen tietojen tuonnin ja viennin käyttöön [!INCLUDE[d36
 
 ### <a name="to-select-or-clear-nodes-in-an-xml-schema"></a>Solmujen valitseminen ja tyhjentäminen XML-rakenteessa  
 
-1.  Anna **Etsi**-ruudussa **XML-mallin tarkastelutoiminto** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **XML-mallin tarkastelutoiminto** ja valitse sitten liittyvä linkki.  
 
 2.  Täytä otsikon kentät seuraavassa taulukossa kuvatulla tavalla.  
 
@@ -77,7 +77,7 @@ Voit ottaa XML-tiedostojen tietojen tuonnin ja viennin käyttöön [!INCLUDE[d36
 
      Vaihtoehtoisesti, napsauta solmua hiiren kakkospainikkeella ja valitse sitten **Laajenna kaikki**.  
 
-4.  Valitse **Kotisivu**-välilehden **Näytä**-ryhmässä yksi seuraavista toiminnoista muuttaaksesi mitkä solmut näytetään.  
+4.  Valitse yksi seuraavista toiminnoista muuttaaksesi mitkä solmut näytetään.  
 
     |**Toiminto**|Kuvaus|  
     |----------------|---------------------------------------|  
@@ -85,7 +85,7 @@ Voit ottaa XML-tiedostojen tietojen tuonnin ja viennin käyttöön [!INCLUDE[d36
     |**Piilota ei-pakollinen**|Ainoastaan XML-rakenteen perusteella pakollisia elementtejä esittävät solmut näytetään. Näiden solmujen merkintänä on yleensä **1** **MinOccurs**-kentässä.<br /><br /> Käännä näkymä valitsemalla **Näytä kaikki**.|  
     |**Piilota ei-valittu**|Vain solmut, joissa **Valittu**-valintaruutu on valittuna näytetään.<br /><br /> Käännä näkymä valitsemalla **Näytä kaikki**.|  
 
-5.  Valitse **Kotisivu**-välilehden **Hallinta**-ryhmässä **Muokkaa**.  
+5.  Valitse **Muokkaa** -toiminto.  
 
 6.  Määritä **Valittu**-valintaruutu jokaiselle solmulle, jonka elementin haluat olevan tuettuna liittyvän SEPA-pankkitiedoston tiedonsiirtomäärityksessä.  
 
@@ -100,13 +100,13 @@ Voit ottaa XML-tiedostojen tietojen tuonnin ja viennin käyttöön [!INCLUDE[d36
 
 ### <a name="to-generate-a-data-exchange-definition-that-is-based-on-an-xml-schema"></a>XML-rakenteeseen perustuvan tietojen vaihtamismäärityksen luominen  
 
-1.  Anna **Etsi**-ruudussa **XML-mallit** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä  **XML-mallit** ja valitse sitten liittyvä linkki.  
 
-2.  Valitse oikea XML-rakenne ja sitten **Koti**-välilehden **Prosessi**-ryhmästä **Avaa XML-rakenteen tarkastelu**.  
+2.  Valitse sopiva XML-malli ja valitse sitten **Avaa XML-mallin tarkastelutoiminto** -toiminto.  
 
 3.  Varmista, että tarvittavat solmut ovat valittuina. Lisätietoja on ohjeen kohdassa "Solmujen valitseminen ja tyhjentäminen XML-rakenteessa".  
 
-4.  Valitse **XML-mallin tarkastelutoiminto** -sivun **Kotisivu**-välilehden **Käsittely**-ryhmässä **Luo tiedonsiirtomääritys**.  
+4.  Valitse **XML-mallin tarkastelutoiminto** -sivulla **Luo tiedonsiirtomääritys** -toiminto.  
 
  Tiedonsiirtomääritys luodaan **Kirjauksen tiedonsiirtomääritykset** -sivulla, jossa sen voi viimeistellä määrittämällä, mitkä tiedoston elementit ja [!INCLUDE[d365fin](includes/d365fin_md.md)]in kentät yhdistetään toisiinsa. Lisätietoja on kohdassa [Tietojenvaihtomääritysten määrittäminen](across-how-to-set-up-data-exchange-definitions.md).  
 
@@ -115,15 +115,15 @@ Voit ottaa XML-tiedostojen tietojen tuonnin ja viennin käyttöön [!INCLUDE[d36
 
 ### <a name="to-generate-an-xmlport-that-is-based-on-an-xml-schema"></a>XML-rakenteeseen perustuvan XMLportin luominen  
 
-1.  Anna **Etsi**-ruudussa **XML-mallit** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä  **XML-mallit** ja valitse sitten liittyvä linkki.  
 
-2.  Valitse oikea XML-rakenne ja sitten **Koti**-välilehden **Prosessi**-ryhmästä **Avaa XML-rakenteen tarkastelu**.  
+2.  Valitse sopiva XML-malli ja valitse sitten **Avaa XML-mallin tarkastelutoiminto** -toiminto.  
 
 3.  Määritä **Uuden XMLportin numero** -kentässä numero, joka annetaan uudelle XMLport-objektille luonnin yhteydessä.  
 
 4.  Varmista, että tarvittavat solmut ovat valittuina. Lisätietoja on ohjeen kohdassa "Solmujen valitseminen ja tyhjentäminen XML-rakenteessa".  
 
-5.  Valitse **Kotisivu**-välilehden **Käsittely**-ryhmässä **Luo XMLport** ja tallenna objekti sitten .txt-tiedostona oikeaan paikkaan.  
+5.  Valitse Luo **Luo XMLport** -toiminto ja tallenna objekti sitten .txt-tiedostona oikeaan paikkaan.  
 
 6. Tuo uusi XMLport [!INCLUDE[d365fin](includes/d365fin_md.md)]in kehitysympäristöön ja käännä se.
 

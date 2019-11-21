@@ -9,23 +9,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 10/01/2019
+ms.date: 10/08/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5866ce2bc125d7e21c6dbdf93984a87b07ae46b1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8c9223176968d048d167b3b8509cab26343ee9f1
+ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311354"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "2775329"
 ---
 # <a name="change-which-features-are-displayed"></a>Näytettävien ominaisuuksien muuttaminen
-[!INCLUDE[d365fin](includes/d365fin_md.md)] on suunniteltu auttamaan liiketoiminnan käytännön asioissa toimialasta riippumatta. [!INCLUDE[d365fin](includes/d365fin_md.md)]in ydintä ovat talousraportointi sekä myynti- ja ostoprosessit. Voit lisätä siihen kokemuksia liiketoiminnan tarpeiden mukaan muuttamalla yrityksen **Kokemus**-asetusta myöhemmin kuvattavalla tavalla tai lisäämällä laajennuksia AppSourcesta. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md).
+[!INCLUDE[d365fin](includes/d365fin_md.md)] on suunniteltu auttamaan sinua pyörittämään yritystäsi sen koosta ja monimutkaisuudesta riippumatta. Tuotteen ytimessä on olennaisia ominaisuuksia, kuten talousraportointi, myynti, osto ja varastonhallinta. Kun liiketoiminnan monimutkaisuus kasvaa, voit ottaa käyttöön esimerkiksi tuotannon ja huollon hallinnan toiminnot.
 
-## <a name="choosing-a-user-experience-to-show-or-hide-features"></a>Ominaisuuksien näyttäminen tai piilottaminen valitsemalla käyttäjäkokemus
-Käyttäjäkokemus määrittää, kuinka suurta osaa [!INCLUDE[d365fin](includes/d365fin_md.md)]in perustoiminnoista voit työtovereittesi kanssa käyttää. Voit valita yrityksen käyttökokemuksen **Yrityksen tiedot** -sivun **Kokemus**-kentässä.
-
-> [!NOTE]  
-> Tämä asetus koskee kaikki yrityksen käyttäjiä. Käyttäjät voivat lisäksi mukauttaa omaa kokemustaan muuttamalla sivun asettelua ja sisältöä. Lisätietoja on kohdassa [Työtilan mukauttaminen](ui-personalization-user.md).  
+Voit määrittää tuotteen monimutkaisuustason ja siten sen, mihin ominaisuuksiin yrityksen käyttäjät pääsevät muuttamalla **Kokemus**-asetuksia **Yrityksen tiedot** -sivulla. Huomaa, että kokemusasetusta voidaan muuttaa myös lisäämällä tiettyjä laajennuksia AppSourcesta. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md).
 
 Seuraavassa taulukossa on luettelo nyt käytettävissä olevista kokemuksista.
 
@@ -34,16 +30,17 @@ Seuraavassa taulukossa on luettelo nyt käytettävissä olevista kokemuksista.
 | **Essential** |Näyttää kaikkien yleisten liiketoimintatoimintojen kaikki toiminnot ja kentät.|
 | **Premium** |Näyttää kaikkien liiketoimintojen toiminnot ja kentät myös valmistukselle ja huoltohallinnolle.|
 
-> [!NOTE]  
-> [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmassa valitut käyttökokemukset riippuvat ratkaisun käyttöoikeudesta, jota kutsutaan palvelupaketiksi. Lisätietoja **Essential**- ja **Premium**-palvelupaketeista on Microsoft Dynamics 365:n markkinointisivuston kohdassa[ Business Central](https://go.microsoft.com/fwlink/?linkid=870242). Katso myös [[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttöoikeusopas](https://go.microsoft.com/fwlink/?linkid=2068931) (edellyttää CustomerSourcen tai PartnerSourcen käyttöoikeutta).
+[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman valittavissa olevat kokemukset, jotka vastaavat tuotteelle määritettyjä ratkaisulisenssejä, nimeltään suunnitelmat. Lisätietoja Essential- ja Premium-palvelupaketeista on [Business Central](https://go.microsoft.com/fwlink/?linkid=870242) -kohdassa Microsoft Dynamics 365:n markkinointisivustossa. Katso myös [[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttöoikeusopas](https://go.microsoft.com/fwlink/?linkid=2068931) (edellyttää CustomerSourcen tai PartnerSourcen käyttöoikeutta).
 
 > [!IMPORTANT]  
-> Kaikki ratkaisun tavalliset käyttäjät täytyy liittää samaan suunnitelmaan (Essential tai Premium) ennen kyseisen käyttökokemuksen valitsemista yritykselle. Näin ollen yksi käyttäjä ei voi käyttää Premium-ominaisuuksia, jos vähintään yksi käyttäjä voi käyttää vain Essential-ominaisuuksia. Tämä ei koske erikoiskäyttäjiä, joiden tyyppi on ryhmän jäsen, sisäinen järjestelmänvalvoja, ulkoinen kirjanpitäjä tai delegoitu järjestelmänvalvoja, joille voidaan määrittää eri suunnitelma kuin muille ratkaisun käyttäjille.
+> Kaikki ratkaisun tavalliset käyttäjät täytyy liittää samaan suunnitelmaan (Essential tai Premium) ennen kyseisen käyttökokemuksen valitsemista yritykselle. Näin ollen yksi käyttäjä ei voi käyttää Premium-ominaisuuksia, jos vähintään yksi käyttäjä voi käyttää vain Essential-ominaisuuksia. Tämä ei koske erikoiskäyttäjiä, joiden tyyppi on ryhmän jäsen, sisäinen järjestelmänvalvoja, ulkoinen kirjanpitäjä tai delegoitu järjestelmänvalvoja, joille voidaan määrittää eri suunnitelma kuin muille ratkaisun käyttäjille.<br /><br /> Vain Evaluation- tai Premium-tyyppiset käyttäjät voivat muuttaa **Kokemus**-kentän arvoa Essentialista Premiumiin.
+
+Ennen kuin määrität yrityksen kokemusasetukset, voit määrittää käyttäjien käyttöoikeuden tiettyihin toimintoihin ja sivuihin määrittämällä käyttöoikeusjoukkoja. Lisätietoja on kohdassa [Määritä käyttöoikeudet käyttäjille ja ryhmille](ui-define-granular-permissions.md).
+
+**Kokemus**-asetus koskee yrityksen kaikkia käyttäjiä, mutta jokainen käyttäjä voi mukauttaa omia kokemuksiaan muuttamalla sivun asettelua ja sisältöä. Lisätietoja on kohdassa [Työtilan mukauttaminen](ui-personalization-user.md).
 
 ## <a name="enabling-premium-features-after-upgrading-a-plan"></a>Premium-ominaisuuksien käyttöönotto suunnitelman päivittämisen jälkeen
 Käyttäjille määritetään suunnitelmat Office 365 -hallintakeskuksessa samassa yhteydessä kuin Business Central -käyttäjiä määritetään. Lisätietoja on kohdassa [Käyttäjien lisääminen Office 365 for Businessiin](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc).
-
-Voit sitten määrittää, mitkä käyttökokemuksen toiminnot ja sivut ovat käyttäjien käytettävissä, määrittämällä käyttöoikeusjoukkoja. Lisätietoja on kohdassa [Käyttäjien ja käyttöoikeuksien hallinta](ui-how-users-permissions.md).
 
 ### <a name="to-update-plan-changes-in-users-groups"></a>Suunnitelman muutoksien päivittäminen käyttäjäryhmissä
 Kun olet tehnyt muutoksia käyttäjien suunnitelmiin Office 365 -hallintakeskuksessa (kuten määrittänyt enemmän käyttäjiä Premium-suunnitelmaan), sinun tulee tehdä muutoksia myös [!INCLUDE[d365fin](includes/d365fin_md.md)]:ssa.
@@ -60,13 +57,13 @@ Voit nyt siirtyä valitsemaan uuden käyttökokemuksen.
 2. Valitse **Yrityksen tiedot** -sivun **Käyttäjäkokemus**-pikavälilehden **Kokemus**-kentässä Premium.
 
 ## <a name="help-assumes-premium-experience"></a>Ohje käsittelee Premium-käyttäjäkokemusta
-[!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen käyttäjän dokumentaation kaikkien toimintojen kuvauksissa käsitellään **Premium**-käyttökokemusta. Tämä tarkoittaa sitä, että kuvaukset sisältävät käyttöliittymän kaikki elementit. Valmistuksen ja huoltohallinnon toimintojen alueiden ylätason ohjeaiheisiin lisätyssä tekstimuistiinpanossa kerrotaan, että vaatimuksena on **Premium**-käyttökokemus.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen käyttäjän dokumentaation kaikkien toimintojen kuvauksissa käsitellään **Premium**-käyttökokemusta. Tämä tarkoittaa sitä, että kuvaukset sisältävät käyttöliittymän kaikki elementit.
 
 ## <a name="see-also"></a>Katso myös .
 [Työtilan mukauttaminen](ui-personalization-user.md)  
-[Business Centralin mukauttaminen](ui-customizing-overview.md)
+[Business Central -sovelluksen mukauttaminen](ui-customizing-overview.md)  
+[Määritä käyttöoikeudet käyttäjille ja ryhmille](ui-define-granular-permissions.md)  
 [Uusien yritysten luominen](about-new-company.md)  
-[Käyttäjien ja käyttöoikeuksien hallinta](ui-how-users-permissions.md)    
 [Perusasetusten muuttaminen](ui-change-basic-settings.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen käyttöoikeusopas](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409)

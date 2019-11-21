@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 10/21/2019
 ms.author: sgroespe
-ms.openlocfilehash: 84d58193fa7ee272b372403d63702348fbfb1f77
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 88e6a04a8e4a992b6a5df3fee87104eba7b5510e
+ms.sourcegitcommit: be1e2c49a8434d3f440d5a201508af9c3c8cc87f
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315274"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2649786"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Korttien ja asiakirjojen liitteiden, linkkien ja muistioiden hallinta
 
@@ -47,14 +47,12 @@ Voit lisätä kortista tai asiakirjasta linkin mihin tahansa URL-osoitteeseen ta
 
 Seuraava toimenpide perustuu nimikekorttiin. Vaiheet ovat samanlaiset kaikissa tuetuissa korteissa ja asiakirjoissa.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Nimikkeet** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten liittyvä linkki.
 2. Valitse nimike, josta haluat lisätä linkin, ja valitse sitten tietoruudussa **Liitteet**-välilehti.
 3. Valitse **Linkit**-kohdassa **+**-kuvake.
 4. Anna linkki **Linkin osoite** -kentässä.
 
-    - Jos haluat linkittää tietokoneessa tai verkossa olevan tiedoston, anna tiedostopolun ja tiedoston koko nimi, kuten **C:\Omat tiedostot\lasku1.doc**.
-    - Luo linkki sivustoon antamalla verkko- eli URL-osoite, kuten **www.microsoft.com**.
-    - Luo linkki ohjelmaan antamalla ohjelmaan avaava merkkijono. Jos haluat esimerkiksi että uusi tyhjä, tietylle sähköpostitunnukselle osoitettu Outlook-sähköpostiviesti avautuu, anna **mailto:testalias**.  
+    Linkin on oltava kelvollinen Internet- tai intranet-osoite.
 
 5. Kirjoita **Kuvaus**-kenttään linkkiä koskevia tietoja.  
 6. Valitse **OK**-painike.
@@ -69,7 +67,7 @@ Voit kirjoittaa asiakirjaan tai korttiin muistion, jossa on esimerkiksi ohjeita 
 
 Seuraava toimenpide perustuu myyntitilaukseen. Vaiheet ovat samanlaiset kaikissa tuetuissa asiakirjoissa ja korteissa.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Myyntitilaukset** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten liittyvä linkki.
 2. Valitse myyntitilaus, johon haluat kirjoittaa muistion, ja valitse sitten tietoruudussa **Liitteet**-välilehti.
 3. Valitse **Muistiot**-osassa **+**-kuvake.
 4. Kirjoita **Huomautus**-kenttään tekstiä, kuten Tämä on kiireellinen tilaus.

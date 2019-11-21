@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6ce236dd274baa02cafac8bfdcb7f7cb1d08ce46
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ebadd0eb4fce42b66ef6b766f4518ed38c879a18
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310586"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553964"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Vaihekuvaus: pakettien myynti, kokoaminen ja toimitus
 
@@ -150,19 +150,19 @@ Kun myyntitilaus on myöhemmin kirjattu kokonaan laskutetuksi, myyntitilaus ja l
     |80203|POIMINTA|W-01-0001|20|  
     |80209|POIMINTA|W-01-0001|20|  
 
-4.  Valitse **Kotisivu**-välilehden **Rekisteröinti**-ryhmässä **Rekisteröi poiminta** ja valitse sitten **Kylllä**.  
+4.  Valitse ensin **Rekisteröi**-toiminto ja sitten **Kyllä**.  
 
     Synkronoi seuraavaksi uuden fyysisen varastoinnin tapahtumat varaston kanssa.  
 
 5.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikepäiväkirjat** ja valitse sitten liittyvä linkki. **Nimikepäiväkirja**-sivu avautuu.  
-6.  Valitse **Toiminnot**-välilehden **Funktiot**-ryhmässä **Laske f.var. muutos**.  
+6.  Valitse **Laske f. var. muutos** -toiminto.  
 7.  Valitse **Laske f. var. muutos** -sivulla **OK**.  
-8.  Valitse **Nimikepäiväkirja**-sivun **Toiminnot**-välilehden **Toiminnot**-ryhmässä **Kirjaa** ja valitse sitten **Kyllä**.  
+8.  **Nimikepäiväkirja**-sivulla valitse **Kirjaa**-toiminto ja valitse sitten **Kyllä**-painike.  
 
 ### <a name="creating-the-assembly-items"></a>Kokoonpanon nimikkeiden luominen  
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten liittyvä linkki.  
-2.  Valitse **Kotisivu**-välilehden **Hallinta**-ryhmässä **Uusi**.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Nimikkeet** ja valitse sitten liittyvä linkki.  
+2.  Valitse **Uusi**-toiminto.  
 3.  Luo ensimmäinen kokoonpanonimike seuraavien tietojen perusteella.  
 
     |Kenttä|Arvo|  
@@ -177,7 +177,7 @@ Kun myyntitilaus on myöhemmin kirjattu kokonaan laskutetuksi, myyntitilaus ja l
     > [!NOTE]  
     >  Kokoonpanossa varastoon toimitetaan yleensä tuotepaketti A, ja siinä on uusintatilaustapa, jotta se voidaan tehdä osaksi yleistä toimitusten suunnittelua.  
 
-4.  Valitse **Navigoi**-välilehden **Kokoonpano/tuotanto**-ryhmässä **Kokoonpano** ja valitse sitten **Kokoonpanon tuoterakenne**.  
+4.  Valitse **Kokoonpano**-toiminto ja valitse sitten **Kokoonpanon tuoterakenne**.  
 5.  Määrittää kokoonpanon tuoterakenteen paketille A seuraavilla tiedoilla.  
 
     |**Tyyppi**|**Nro**|**Määrä per**|  
@@ -200,7 +200,7 @@ Kun myyntitilaus on myöhemmin kirjattu kokonaan laskutetuksi, myyntitilaus ja l
     > [!NOTE]  
     >  Kokoonpanossa tilauksen mukaan toimitetaan yleensä tuotepaketti B, eilkä siinä ole uusintatilaustapaa, koska se ei ole osa yleistä toimitusten suunnittelua.  
 
-7.  Valitse **Navigoi**-välilehden **Kokoonpano/tuotanto**-ryhmässä **Kokoonpano** ja valitse sitten **Kokoonpanon tuoterakenne**.  
+7.  Valitse **Kokoonpano**-toiminto ja valitse sitten **Kokoonpanon tuoterakenne**.  
 8.  Määritä kokoonpanon tuoterakenne paketille B seuraavilla tiedoilla.  
 
     |**Tyyppi**|**Nro**|**Määrä per**|  
@@ -212,8 +212,8 @@ Kun myyntitilaus on myöhemmin kirjattu kokonaan laskutetuksi, myyntitilaus ja l
 
 ### <a name="selling-the-assembly-items"></a>Kokoonpanon nimikkeiden myynti  
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten liittyvä linkki.  
-2.  Valitse **Kotisivu**-välilehden **Hallinta**-ryhmässä **Uusi**.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Myyntitilaukset** ja valitse sitten liittyvä linkki.  
+2.  Valitse **Uusi**-toiminto.  
 3.  Luo kaksi myyntitilausriviä asiakkaalle 62000, Laitekauppa, käsittelypäivänä seuraavilla tiedoilla.  
 
     |**Tyyppi**|**Kuvaus**|**Määrä**|Kokoonpantava määrä tilausta varten|Lähetyksen pvm|  
@@ -259,14 +259,14 @@ Kun myyntitilaus on myöhemmin kirjattu kokonaan laskutetuksi, myyntitilaus ja l
      Muuta seuraavaksi toisen myyntitilausrivin toimituspäivämäärä kokoonpanon aikataulun mukaisesti.  
 
 15. Anna tuotepaketin A 15 yksikön myyntitilausrivillä **Toimituspvm** -kenttään arvo **27.1.2014**.  
-16. Valitse **Toiminnot**-välilehden **Vapauta**-ryhmässä **Vapauta**.  
-17. Valitse **Toiminnot**-välilehden **Fyysinen varasto** -ryhmässä **Luo f. var. toimitus**.  
+16. Valitse **Vapauta**-toiminto.  
+17. Valitse **Luo F.var. toimitus** -toiminto.  
 18. Sulje myyntitilaus.  
 
 ### <a name="planning-for-the-unavailable-ats-items"></a>Ei käytettävissä olevien ATS-nimikkeiden suunnittelu  
 
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Suunnittelutyökirja** ja valitse sitten liittyvä linkki.  
-2.  Valitse **Toiminto**-välilehden **Funktiot**-ryhmässä **Laske uudelleensuunnittelu**.  
+2.  Valitse **Laske uudelleensuunnittelu** -toiminto.  
 3.  Määritä **Laske suunnitelma** -sivulla seuraavat suodattimet.  
 
     |Aloituspvm|Lopetuspvm|Nro|  
@@ -277,7 +277,7 @@ Kun myyntitilaus on myöhemmin kirjattu kokonaan laskutetuksi, myyntitilaus ja l
 
     Tarvittavalle kymmenen yksikön kokoonpanotilaukselle luodaan uusi suunnittelurivi, jonka eräpäivä on 27.1. Sitä ei tarvitse muuttaa, joten voit nyt luoda tilauksen.  
 
-5.  Valitse **Toiminnot**-välilehden **Funktiot**-ryhmässä **Toteuta toimenpideviesti**.  
+5.  Valitse **Toteuta toimenpideviesti** -toiminto.  
 6.  Valitse **Toteuta toim.pideviesti** -sivun **Kokoonpanotilaus**-kenttä ja valitse sitten **Tee kokoonpanotilaukset**.  
 7.  Valitse **OK**-painike.  
 
@@ -298,7 +298,7 @@ Kun myyntitilaus on myöhemmin kirjattu kokonaan laskutetuksi, myyntitilaus ja l
 
     Luo seuraavaksi poiminta-asiakirja kaikkia ATO-kokoonpanon-osia varten, joita tarvitaan fyysisen varastoinnin toimituksessa.  
 
-3.  Valitse **Toiminnot**-välilehden **Funktiot**-ryhmässä **Luo poiminta** ja valitse sitten **OK**.  
+3.  Valitse ensin **Luo poiminta** -toiminto ja sitten **OK**.  
 
     Suorita seuraavaksi poimijan tehtävä.  
 
@@ -309,8 +309,8 @@ Kun myyntitilaus on myöhemmin kirjattu kokonaan laskutetuksi, myyntitilaus ja l
 
     Rekisteröi seuraavaksi poiminta muuttamatta oletustietoja.  
 
-6.  Valitse **Toiminnot**-välilehden **Funktiot**-ryhmässä **Täytä autom. käsiteltävä määrä**.  
-7.  Valitse **Kotisivu**-välilehden **Rekisteröinti**-ryhmässä **Rekisteröi poiminta**.  
+6.  Valitse **Täytä autom. käsitelt. määrä** -toiminto.  
+7.  Valitse **Rekisteröi poiminta** -toiminto.  
 
     Palaa toimitustehtävien suorittamiseen.  
 
@@ -335,7 +335,7 @@ Kun myyntitilaus on myöhemmin kirjattu kokonaan laskutetuksi, myyntitilaus ja l
 
 12. Palaa **F.var. toimitus** -sivulle sulkemalla **Kokoonpanotilaus**-sivu.  
 13. Anna tuotepaketin B kolmen yksikön toimitusrivillä **Toimitettava määrä** -kenttään **3**.  
-14. Valitse **Toiminnot**-välilehden **Kirjaus**-ryhmässä **Kirjaa toimitus** ja valitse sitten **Toimita**.  
+14. Valitse ensin **Kirjaa toimitus** -toiminto, sitten **Toimitus**-painike.  
 
     Tämän fyysisen varastoinnin toimituksen kirjaamisen myötä kirjataan liittyvän kokoonpanotilauksen koko kulutus- ja tuotantomäärät ja **Jäljellä oleva määrä** -kenttä on tyhjä. B-sarjan myyntitilausrivi päivitetään näyttämään, että kolme yksikköä on toimitettu.  
 
@@ -358,7 +358,7 @@ Kun myyntitilaus on myöhemmin kirjattu kokonaan laskutetuksi, myyntitilaus ja l
 
     Tallenna seuraavaksi kokoonpanotilaus on valmiiksi.  
 
-3.  Valitse **Navigoi**-välilehden **Fyysinen varasto** -ryhmässä **Kokoonpano tilausta varten: f. var. toimitusrivi**.  
+3.  Valitse **Kokoonpano tilausta varten: f. var. toimitusrivi** -toiminto.  
 4.  Anna **Kokoonpano tilausta varten: f. var. toimitusrivi** -sivun **Toimitettava määrä** -kentässä arvo **5** ja sulje sitten sivu.  
 
     Huomaa **Kokoonpanotilaus**-sivulla, että **Kokoonpantava määrä**- ja **Kulutettava määrä** -kentät on nyt täytetty toimitukseen kirjatuilla tuotos- ja kulutusmäärillä, jotka kirjataan toimitukseen.  
@@ -374,8 +374,8 @@ Kun myyntitilaus on myöhemmin kirjattu kokonaan laskutetuksi, myyntitilaus ja l
 
     Luo seuraavaksi poiminta-asiakirja tarvittavien osien hakua varten.  
 
-3.  Valitse **Toiminnot**-välilehden **Vapauta**-ryhmässä **Vapauta**.  
-4.  Valitse **Toiminnot**-välilehden **Fyysinen varasto** -ryhmässä **Luo f.var. poiminta** ja valitse sitten **OK**.  
+3.  Valitse **Vapauta**-toiminto.  
+4.  Valitse ensin **Luo f.var. poiminta** -toiminto ja sitten **OK**.  
 
     Suorita seuraavaksi poimijan tehtävä.  
 
@@ -384,12 +384,12 @@ Kun myyntitilaus on myöhemmin kirjattu kokonaan laskutetuksi, myyntitilaus ja l
 
      Rekisteröi rekisteröimään poiminta muuttamatta oletustietoja.  
 
-7.  Valitse **Toiminnot**-välilehden **Funktiot**-ryhmässä **Täytä autom. käsiteltävä määrä**.  
-8.  Valitse **Kotisivu**-välilehden **Rekisteröinti**-ryhmässä **Rekisteröi poiminta**.  
+7.  Valitse **Täytä autom. käsitelt. määrä** -toiminto.  
+8.  Valitse **Rekisteröi poiminta** -toiminto.  
 
     Palaa kokoonpanotilaukseen ja suorita viimeinen kokoonpanotehtävä.  
 
-9. Valitse **Kokoonpanotilaus**-ikkunan **Toiminnot**-välilehden **Kirjaus**-ryhmässä **Kirjaa** ja valitse sitten **Kyllä**.  
+9. **Kokoonpanotilaus**-kohdassa valitse **Kirjaa**-toiminto ja valitse sitten **Kyllä**-painike.  
 
     Huomaa, että kokoonpanotilaus poistetaan avoimien tilausten luettelosta.  
 
@@ -402,7 +402,7 @@ Kun myyntitilaus on myöhemmin kirjattu kokonaan laskutetuksi, myyntitilaus ja l
 
     Poimi seuraavaksi jäljellä olevat nimikkeet.  
 
-3.  Valitse **Toiminnot**-välilehden **Toiminnot**-ryhmässä **Luo poiminta** ja valitse sitten **OK**.  
+3.  Valitse ensin **Luo poiminta** -toiminto ja sitten **OK**.  
 
     Suorita seuraavaksi poimijan viimeinen tehtävä tätä fyysisen varastoinnin toimitusta varten.  
 
@@ -413,8 +413,8 @@ Kun myyntitilaus on myöhemmin kirjattu kokonaan laskutetuksi, myyntitilaus ja l
 
     Rekisteröi seuraavaksi poiminta muuttamatta oletustietoja.  
 
-6.  Valitse **Toiminnot**-välilehden **Funktiot**-ryhmässä **Täytä autom. käsiteltävä määrä**.  
-7.  Valitse **Kotisivu**-välilehden **Rekisteröinti**-ryhmässä **Rekisteröi poiminta** ja valitse sitten **Kylllä**.  
+6.  Valitse **Täytä autom. käsitelt. määrä** -toiminto.  
+7.  Valitse ensin **Rekisteröi poiminta**-toiminto ja sitten **Kyllä**.  
 
     Palaa varastotoimitukseen ja suorita viimeinen kokoonpanotehtävä.  
 
@@ -422,7 +422,7 @@ Kun myyntitilaus on myöhemmin kirjattu kokonaan laskutetuksi, myyntitilaus ja l
 
     Huomaa, että **F.var. toimitus** -sivun tuotepaketin A kymmenen yksikön rivin **Toimitettava määrä**- ja **Määrä poimittu** -kenttien arvo on nyt **10**.  
 
-9. Valitse **Toiminnot**-välilehden **Kirjaus**-ryhmässä **Kirjaa toimitus** ja valitse sitten **Toimita**.  
+9. Valitse ensin **Kirjaa toimitus** -toiminto, valitse sitten **Toimitus**-painike.  
 
     Fyysisen varastoinnin toimituksen asiakirja poistetaan, mikä ilmaisee, että asiaan liittyvät varastotoiminnot on suoritettu. Varmista seuraavaksi, että myyntitilaus on käsitelty.  
 

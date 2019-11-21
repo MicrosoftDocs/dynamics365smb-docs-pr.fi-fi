@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 10/01/2019
+ms.date: 11/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 4917142d6805824163e72e0403103e6974d856da
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 75bff4d303ac13c2ba76cb21a76de1ac6a08dca1
+ms.sourcegitcommit: 49309bdff9b680a35032b355fe97c565845dba15
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310730"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2695045"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Sivujen ja tietojen etsiminen Kerro, mitä haluat tehdä -toiminnolla  
 Tässä ohjeaiheessa käsitellään, miten Kerro, mitä haluat tehdä -toiminnolla voi siirtyä nopeasti esimerkiksi toimintoihin tai raportteihin, etsiä tietoja tietyn tehtävän suorittamisesta sekä löytää muita [!INCLUDE[d365fin](includes/d365fin_md.md)]in sovelluksia ja konsultointipalveluja.  
@@ -29,7 +29,7 @@ Kun aloitat merkkien kirjoittamisen, [!INCLUDE[d365fin](includes/d365fin_md.md)]
 
 Oikealla oleva sarake osoittaa tuloksen yleisen luokan. Se voi ilmaista esimerkiksi avautuuko luettelosivu vai onko kyse hallintatehtävästä.  
 
-**Kerro, mitä haluat tehdä** -ikkunan alareunassa on **tutustumistoiminto**. Se avaa ominaisuuden yleiskuvauksen, jossa näkee kaikki omassa roolissa tai kaikissa rooleissa käytettävissä olevat ominaisuudet. Lisätietoja on kohdassa [Sivujen etsiminen toiminnon yleiskatsauksessa](ui-role-explorer.md).
+**Kerro, mitä haluat tehdä** -ikkunan alareunassa on **tutustumistoiminto**. Se avaa ominaisuuden yleiskuvauksen, jossa näkee kaikki omassa roolissa tai kaikissa rooleissa käytettävissä olevat ominaisuudet. Lisätietoja on kohdassa [Sivujen etsiminen roolinhallinnalla](ui-role-explorer.md).
 
 > [!NOTE]  
 >   Jos haluat käyttää näppäimistöä, voit valita kohteen tuloksista sarkain- ja nuolinäppäimillä. Jos painat Enter-näppäintä tulosta valitsematta, [!INCLUDE[d365fin](includes/d365fin_md.md)] avaa tuloksen, joka on luettelossa ensimmäisenä.
@@ -58,7 +58,7 @@ Luettelossa olevat sivut ja tehtävät määräytyvät yritykselle valitun käyt
 Kumppaniyhteisö kehittää jatkuvasti sovelluksia, jotka lisäävät ominaisuuksia [!INCLUDE[d365fin](includes/d365fin_md.md)]iin. **Hanki Microsoft AppSourcesta** -osassa on luettelo [!INCLUDE[d365fin](includes/d365fin_md.md)]in sovelluksista, jotka ovat saatavana Microsoft AppSourcessa ja jotka liittyvät hakemaasi avainsanaan.
 
 ## <a name="searching-for-data"></a>Etsitään tietoja
-**Kerro, mitä haluat tehdä** -toiminto ei etsi tietoja, kuten asiakkaiden nimiä, osoitteita tai tapahtumia. Voit sen sijaan hakea tietoja luettelosivuilta valitsemalla luettelon otsikon vasemmassa kulmassa olevan ![Hakuluettelo](media/ui-search/search-list.png "Hakuluettelo-kuvake") **Haku**-kuvakkeen. Haku tehdään vain avatussa luettelossa. Lisätietoja on kohdassa [Luetteloiden lajitteleminen ja suodattaminen sekä luetteloista hakeminen](ui-enter-criteria-filters.md).
+**Kerro, mitä haluat tehdä** -toiminto ei etsi tietoja, kuten asiakkaiden nimiä, osoitteita tai tapahtumia. Voit sen sijaan hakea tietoja luettelosivuilta valitsemalla luettelon otsikon vasemmassa kulmassa olevan ![Hakuluettelo](media/ui-search/search-list.png "Hakuluettelon kuvake") **Haku**-kuvakkeen. Haku tehdään vain avatussa luettelossa. Lisätietoja on kohdassa [Luetteloiden lajitteleminen ja suodattaminen sekä luetteloista hakeminen](ui-enter-criteria-filters.md).
 
 ## <a name="questions"></a>Kysyttävää?
 Eri sidosryhmät ovat tutustuneet Kerro, mitä haluat tehdä -toimintoon ja esittäneet toimintoa koskevia kysymyksiä. Nämä kysymykset löytyvät usein kysyttyjen kysymysten luettelosta. Lisätietoja on kohdassa [Kerro, mitä haluat tehdä -toiminnon usein kysytyt kysymykset](ui-search-faq.md).

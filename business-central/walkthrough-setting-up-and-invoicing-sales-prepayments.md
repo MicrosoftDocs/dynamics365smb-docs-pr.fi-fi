@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f1724f95652194e426a353b4ebb89c54ef384754
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: d9fdc5deab54647f5a4387b62862fd45bc36dd39
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310538"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554618"
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Vaihekuvaus: Myynnin ennakkomaksujen määrittäminen ja laskuttaminen
 
@@ -169,7 +169,7 @@ Seuraavana päivänä asiakas soittaa Susannalle ja tekee muutoksia tilaukseen. 
 2.  Lisää **1100**-nimikkeen **Määrä**-kenttään **2**.  
 
     Vieritä nähdäksesi ennakkomaksukentät. **Ennakkomaksun rivin summa ilman ALV:tä** -kenttä sisältää nyt **630**, ja **Laskutettu ennakkomaksun summa ilman ALV:tä** -kenttä sisältää **315**. Tämä osoittaa, että on ylimääräinen ennakkomaksun määrä, jota ei ole vielä laskutettu.  
-3.  Kirjaa ylimääräinen ennakkomaksun summa valitsemalla **Toiminnot**-välilehdessä **Kirjaus**-ryhmässä **Ennakkomaksu** ja **Kirjaa ennakkomaksulasku**.  
+3.  Voit kirjata laskun ylimääräisestä ennakkomaksusta valitsemalla **Kirjaa ennakkomaksulasku** -toiminnon.  
 
 ## <a name="applying-the-prepayments"></a>Ennakkomaksujen kohdistaminen  
 Asiakas maksaa ennakkomaksusumman, ja kirjanpito-osastolla työskentelevä Erik rekisteröi maksun ja kohdistaa sen ennakkomaksulaskuihin.  

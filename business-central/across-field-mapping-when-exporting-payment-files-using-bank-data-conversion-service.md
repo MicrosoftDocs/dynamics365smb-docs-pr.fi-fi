@@ -1,6 +1,6 @@
 ---
 title: Pankin maksutiedostojen viennissä käytettävät kentän yhdistämismääritykset | Microsoft Docs
-description: Kun viet maksutiedostoja pankkitietojen muuntopalvelun avulla, vietävät tiedot paljastetaan pankkitietojen muuntopalvelun tarjoajalle.
+description: Kun viet maksutiedostoja AMC Banking 365 -perusteiden laajennuksen avulla, vietävät tiedot ovat alttiina palveluntarjoajalle.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,20 +10,20 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ca6b3722220e008a3a8132054eed7ba29afd11f3
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 49ed61472966ca06f996296d3d97365a6c223983
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300519"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692626"
 ---
-# <a name="field-mapping-when-exporting-payment-files-using-bank-data-conversion-service"></a>Kenttien vastaavuuksien määrittäminen vietäessä maksutiedostot käyttämällä pankkitietojen muuntopalvelua
-Kun viet maksutiedostoja pankkitietojen muuntopalvelun avulla, vietävät tiedot paljastetaan pankkitietojen muuntopalvelun tarjoajalle. Palveluntarjoaja vastaa näiden tietojen tietosuojasta. Lisätietoja pankkitietojen muuntopalvelun toiminnasta on ohjeaiheessa [Tietoja tiedonvaihto-kehyksestä](across-about-the-data-exchange-framework.md).  
+# <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a>Kenttäkartoitus, kun maksutiedostoja viedään AMC Banking 365 -perusteiden laajennuksen avulla
+Kun viet maksutiedostoja AMC Banking 365 -perusteiden laajennuksen avulla, vietävät tiedot ovat alttiina palveluntarjoajalle. Palveluntarjoaja vastaa näiden tietojen tietosuojasta. Lisätietoja AMC Banking 365 -perusteiden laajennuksesta on kohdassa [AMC Banking 365 -perusteiden laajennuksen käyttäminen](ui-extensions-amc-banking.md).  
 
 > [!CAUTION]  
->  Kun viet maksutiedostoja pankkitietojen muuntopalvelun avulla, joitakin yritystietoja paljastetaan palvelun tarjoajalle. Palveluntarjoaja, AMC Consult A/S, vastaa näiden tietojen tietosuojasta. Lisätietoja on kohdassa [AMC:n tietosuojakäytäntö](https://go.microsoft.com/fwlink/?LinkId=510158).  
+>  Kun viet maksutiedostoja AMC Banking 365 -perusteiden laajennuksen avulla, joitakin yritystietoja paljastetaan palvelun tarjoajalle. Palveluntarjoaja, AMC Consult A/S, vastaa näiden tietojen tietosuojasta. Lisätietoja on kohdassa [AMC:n tietosuojakäytäntö](https://go.microsoft.com/fwlink/?LinkId=510158).  
 
-Seuraavassa taulukossa on [!INCLUDE[d365fin](includes/d365fin_md.md)] -kentät, joista tiedot voidaan viedä palveluntarjoajalle.  
+Seuraavassa taulukossa on luettelo kentistä [!INCLUDE[d365fin](includes/d365fin_md.md)]:ssä, joista voit viedä tietoja.  
 
 |Määritetty kenttä|Taulun kenttä|Sivupöytä|Kuvaus|  
 |------------------|--------------------|-----------|---------------------------------------|  
@@ -65,10 +65,10 @@ Seuraavassa taulukossa on [!INCLUDE[d365fin](includes/d365fin_md.md)] -kentät, 
 |Lähettäjän pankin postinumero|Postinro|Pankkitili|Lähettäjän pankkitilin postinumero, joka on määritetty pankkitilin korttiin|  
 |Yleisen päiväkirjan malli|Päiväkirjan mallin nimi|Yleisen päiväkirjan rivi|Yleisen päiväkirjan malli, jota käytetään maksurivillä|  
 |Yleisen päiväkirjan erän nimi|Päiväkirjan erän nimi|Yleisen päiväkirjan rivi|Yleisen päiväkirjan erän nimi, jota käytetään maksurivillä|  
-|Lähettäjän pankin nimi – tiet. muunto|Pankin nimi - Tietojen muuntaminen|Pankkitili|Lähettäjän pankkitilin nimi, jota pankkitietojen muuntopalvelu on pyytänyt, ja joka on määritetty pankkitilin kortissa|  
+|Lähettäjän pankin nimi – tiet. muunto|Pankin nimi - Tietojen muuntaminen|Pankkitili|Lähettäjän pankkitilin nimi, jota AMC Banking 365 -perusteiden laajennus on pyytänyt, ja joka on määritetty pankkitilin kortissa|  
 
 ## <a name="see-also"></a>Katso myös  
 [Tiedonsiirron määrittäminen](across-set-up-data-exchange.md)  
-[Sähköinen tiedonsiirto](across-data-exchange.md)
-[Pankkitietojen muuntopalvelun määrittäminen](bank-how-setup-bank-data-conversion-service.md)   
-[Suorita maksut pankkitietojen muunnospalvelulla tai SEPA-hyvityksen siirrolla](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   
+[Tietojen vaihtaminen sähköisesti](across-data-exchange.md)
+[AMC Banking 365 -perusteiden laajennuksen avulla](ui-extensions-amc-banking.md)   
+[Maksujen suorittaminen pankkitietojen muunnospalvelulla tai SEPA-hyvityksen siirrolla](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   

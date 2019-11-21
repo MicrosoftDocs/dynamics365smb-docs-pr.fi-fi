@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
-ms.date: 10/01/2019
+ms.date: 10/08/2019
 ms.author: sgroespe
-ms.openlocfilehash: 001a0ed999641529249ceb90913633f34c48b827
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0f4cf7026ad3a12262c8e88b9360bcac3ac079b3
+ms.sourcegitcommit: cf36611ca187bb2996a514e9ff395086cd6b3275
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312362"
+ms.lasthandoff: 10/08/2019
+ms.locfileid: "2566966"
 ---
 # <a name="purchasing"></a>Ostaminen
 Voit luoda ostolaskun tai -tilauksen ostojen kustannusten tallentamiseksi ja ostoreskontran seuraamiseksi. Jos haluat hallita varastoa, myös ostolaskuja käytetään varastotasojen dynaamiseen päivittämiseen, jotta voit minimoida varaston kustannukset ja tarjota parempaa asiakaspalvelua. Ostokustannukset, sisältäen palvelukulut ja varastoarvot, jotka aiheutuvat tiliöinnin ostolaskuista, vaikuttavat voittolukuihin ja muihin talouden KPI:hin roolikeskuksessasi.
@@ -44,6 +44,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 |Voit muuntaa esimerkiksi toimittajien sähköiset laskut ostolaskuiksi Business Centralissa.|[Sähköisten asiakirjojen vastaanottaminen ja muuntaminen](purchasing-how-to-receive-and-convert-electronic-documents.md)|
 | Lisätietoja tavasta, jolla [!INCLUDE[d365fin](includes/d365fin_md.md)] laskee nimikkeen tilausajankohdan, niin että se vastaanotetaan tiettynä päivänä.|[Ostojen päivämäärälaskenta](purchasing-date-calculation-for-purchases.md)|
 |Ratkaise ristiriita, kun samalla toimittajalla on ainakin tietuetta.|[Tietueiden kaksoiskappaleiden yhdistäminen](sales-how-merge-duplicate-records.md)|
+|Voit hallita toimittajan suurta määrää koskevaa ostositoumustasi, joka toimitetaan useassa erässä tietyn ajan kuluessa.|[Puiteostotilausten käyttäminen](sales-how-to-create-blanket-sales-orders.md)|
 
 ## <a name="see-also"></a>Katso myös
 [Ostojen määrittäminen](purchasing-setup-purchasing.md)  

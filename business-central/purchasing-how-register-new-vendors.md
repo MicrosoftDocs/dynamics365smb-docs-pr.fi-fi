@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: supplier
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 26be6007c195964758e070d3d1b1e03800d4be4b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7e8306ad65b41784e853dfc46a41c2deee997180
+ms.sourcegitcommit: ab4141739a53ec100d42773f0da863fbeefa384f
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316690"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2577229"
 ---
 # <a name="register-new-vendors"></a>Uusien toimittajien rekisteröiminen
 Toimittajat tarjoavat tuotteita, jotka myydään. Jokainen toimittaja, jolta ostat, täytyy rekisteröidä toimittajakorttina.
@@ -28,6 +28,8 @@ Toimittajan kortti sisältää tiedot, joita tarvitaan tuotteiden ostamiseksi to
 
 > [!NOTE]  
 >   Jos eri toimittajan tyypeille on olemassa toimittajamalleja, sivu avautuu, kun luot uuden toimittajan kortin, jossa voit valita haluamasi mallin. Jos vain yksi toimittajamalli on olemassa, uudet toimittajan kortit käyttävät aina kyseistä mallia.
+<br><br>
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE3PZtd]
 
 ## <a name="to-create-a-new-vendor-card"></a>Uuden toimittajan kortin luominen
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Toimittajat** ja valitse sitten liittyvä linkki.  

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 127d0dd747fa29926852be9e99e36d992e7d0ea1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: fc8f52e5ef9fdeb8a2add9cf030a348012f25366
+ms.sourcegitcommit: 02f1633213793bfc040ad0d2a96fe76572215aa5
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305701"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "2798497"
 ---
 # <a name="setting-up-finance"></a>Rahoituksen määrittäminen
 [!INCLUDE[d365fin](includes/d365fin_md.md)] sisältää useimpien rahoitusprosessien vakiomääritykset, mikä nopeuttaa käytön aloittamista. Voit tarvittaessa muuttaa määrityksiä liiketoiminnan tarpeiden mukaisesti. Voit määrittää esimerkiksi roolikeskuksessa avustetun asennusoppaan avulla sijaintiin sopivan arvonlisäveron.  
@@ -33,7 +33,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 |Luo KP-raporttimallit ja määritä tililuokat, jos haluat määrittää talouskaavioiden ja -raporttien, kuten tase- ja tuloslaskelmaraporttien, sisällön.|[Talousraportoinnin valmisteleminen KP-raporttimallien ja tililuokkien avulla](bi-how-work-account-schedule.md)|
 |Määritä toleranssi, jonka mukaan järjestelmä sulkee laskun, vaikka maksu ja mahdolliset alennukset eivät täysin vastaa laskun koko summaa.|[Maksutoleranssien ja maksualennustoleranssien käsitteleminen](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Määritä tilikaudet. |[Uuden tilikauden avaaminen](finance-how-open-new-fiscal-year.md) |
-| Määritä, miten myynnistä kerätyt arvonlisäverosummat raportoidaan veroviranomaisille. |[Arvonlisäveron laskemisen ja kirjaustapojen määrittäminen](finance-setup-vat.md)|
+| Määritä, miten myynnistä kerätyt arvonlisäverosummat raportoidaan veroviranomaisille. |[Määritä arvolisävero (ALV)](finance-setup-vat.md)|
 |Valmistele ei-realisoituneen ALV:n käsittely kassaperusteisen kirjanpidon yhteydessä.|[Ei-realisoituneen arvonlisäveron määrittäminen kassaperusteista kirjanpitoa varten](finance-setup-unrealized-vat.md)|
 | Määritä myynti- ja ostotoiminnot käsittelemään maksut ulkomaan valuuttana.|[Tapahtumakirjausten kohdistamisen ottaminen käyttöön eri valuutoissa](finance-how-enable-application-ledger-entries-different-currencies.md)
 |Määritä ainakin yksi lisävaluutta, jotta summat raportoidaan automaattisesti sekä PVA:na että lisäraportointivaluuttana kussakin KP-tapahtumassa ja muissa tapahtumissa.|[Lisäraportointivaluutan määrittäminen](finance-how-setup-additional-currencies.md)|

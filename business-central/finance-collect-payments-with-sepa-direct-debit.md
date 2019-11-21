@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: fe015afa5508117fb7425042972e967d7a652485
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2cc4f25ad0ae861579789d05dd192c1019bfe505
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302498"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554300"
 ---
 # <a name="collect-payments-with-sepa-direct-debit"></a>Maksujen kerääminen SEPA-suoraveloitusperintänä.
 Asiakkaan suostumuksella voit kerätä maksut suoraan asiakkaan pankkitililtä SEPA-muodon mukaisesti.  
@@ -43,14 +43,14 @@ Ennen kuin voit käsitellä asiakkaan maksuja sähköisesti viemällä suoravelo
 * Määritä suoraveloitustoimeksianto, joka kuvaa asiakkaan kanssa tekemääsi sopimusta maksujen keräämisestä tietyllä sopimuskaudella.  
 
 ### <a name="to-set-up-your-bank-account-for-sepa-direct-debit"></a>SEPA-suoraveloituksen pankkitilin määrittäminen  
-1. Syötä **Etsi**-ruudussa **Pankkitilit** ja valitse sitten vastaava linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pankkitilit** ja valitse sitten liittyvä linkki.  
 2. Avaa pankkitili, jota haluat käyttää suoraveloitukseen.  
 3. Valitse **Siirto**-pikavälilehden **SEPA-suoraveloituksen vientimuoto** -kentässä SEPA-suoraveloitusasetus.  
 
 ### <a name="to-set-up-the-customers-payment-method-for-sepa-direct-debit"></a>SEPA-suoraveloituksen asiakkaan maksutavan määrittäminen  
-1. Anna **Haku**-ruudussa **Maksutavat** ja valitse sitten vastaava linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maksutavat** ja valitse sitten liittyvä linkki.  
 2. Valitse **Uusi**-toiminto.  
-3. Määritä maksutapa. Täytä suoraveloituskohtaiset kentät seuraavassa taulukossa kuvatulla tavalla.  
+3. Määritä maksutapa. Täytä suoraveloitus\-kohtaiset kentät seuraavassa taulukossa kuvatulla tavalla.  
 
     |Kenttä|Kuvaus|  
     |---------------------------------|---------------------------------------|  
@@ -61,28 +61,28 @@ Ennen kuin voit käsitellä asiakkaan maksuja sähköisesti viemällä suoravelo
     >  Älä anna arvoa **Vastatilin nro** -kenttään.  
 
 4. Valitse **OK**-painike **Maksutavat**-sivun sulkemiseksi.  
-5. Anna **Etsi**-ruudussa **Asiakkaat** ja valitse sitten vastaava linkki.  
+5. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Asiakkaat** ja valitse sitten liittyvä linkki.  
 6. Avaa asiakkaan kortti asiakkaalle, jolle haluat määrittää SEPA-suoraveloitusperinnän.  
 7. Valitse **Maksutavan koodi** -kenttä ja sitten maksutavan koodi, jonka määritit vaiheessa 3.  
 8. Toista vaiheet 6–7 kaikille asiakkaille, joille haluat määrittää SEPA-suoraveloitusperinnän.  
 
 #### <a name="to-set-up-the-direct-debit-mandate-that-represents-the-customer-agreement"></a>Suoraveloitusvaltakirjan määrittäminen, joka vastaa asiakkaan sopimusta  
-1. Syötä **Etsi**-ruudussa **Asiakkaat** ja valitse sitten vastaava linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Asiakkaat** ja valitse sitten liittyvä linkki.  
 2. Avaa asiakkaan kortti, jonka haluat määrittää SEPA-suoraveloituksille.  
 3. Valitse **Pankkitilit**-toiminto.  
-4. Valitse **Asiakkaan pankkitililuettelo** -sivulla asiakkaan pankkitili, jota käytät suoraveloitukseen, ja valitse sitten **Koti**-välilehden **Käsittely**-ryhmässä **Suoraveloitusvaltakirja**.  
+4. Valitse **Asiakkaan pankkitililuettelo** -sivulla asiakkaan pankkitili, jota käytät suoraveloitukseen, ja valitse sitten **Suoraveloitusvaltakirja**-toiminto.  
 5. Täytä **Suoraveloitusvaltakirjat**-sivun kentät seuraavassa taulukossa kuvatulla tavalla.  
 
     |Kenttä|Kuvaus|  
     |---------------------------------|---------------------------------------|  
-    |**Asiakkaan pankkitilin koodi**|Määrittää pankkitilin, josta suoraveloitusmaksut kerätään. Tämä kenttä täytetään automaattisesti.|  
-    |**Voimassaolo alkaa**|Määritä päivämäärä, jolloin suoraveloitusvaltakirja alkaa.|  
-    |**Voimassaolo päättyy**|Määritä päivämäärä, jolloin suoraveloitusvaltakirja päättyy.|  
-    |**Allekirjoituspäivämäärä**|Määritä päivämäärä, jolloin asiakas allekirjoitti suoraveloitusvaltakirjan.|  
+    |**Asiakkaan pankkitilin koodi**|Määrittää pankkitilin, josta suora\-veloitusmaksut kerätään. Tämä kenttä täytetään automaattisesti.|  
+    |**Voimassaolo alkaa**|Määritä päivämäärä, jolloin suora\-veloitusvaltakirja alkaa.|  
+    |**Voimassaolo päättyy**|Määritä päivämäärä, jolloin suora\-veloitusvaltakirja päättyy.|  
+    |**Allekirjoituspäivämäärä**|Määritä päivämäärä, jolloin asiakas allekirjoitti suora\-veloitusvaltakirjan.|  
     |**Maksun tyyppi**|Määritä, koskeeko sopimus useita (**Toistuva**) tai yksittäisiä (**Kerta**) suoraveloitusperintöjä.|  
     |**Debetien odotettu määrä**|Määritä, kuinka monta suoraveloitusperintään sinulla on tarkoitus tehdä. Tämä kenttä on merkittävä vain, jos olet valinnut **Toistuva**-vaihtoehdon **Maksun tyyppi** -kentästä.|  
-    |**Debet-laskuri**|Määrittää, kuinka monta suoraveloitusperintää on tehty tätä suoraveloitusvaltakirjaa käyttämällä. Tämä kenttä päivitetään automaattisesti.|  
-    |**Suljettu**|Määrittää, kuinka monta suoraveloitusperintää ei voida tehdä tätä suoraveloitusvaltakirjaa käyttämällä.|  
+    |**Debet-laskuri**|Määrittää, kuinka monta suoraveloitusperintää on tehty tätä suora\-veloitusvaltakirjaa käyttämällä. Tämä kenttä päivitetään automaattisesti.|  
+    |**Suljettu**|Määrittää, kuinka monta suoraveloitusperintää ei voida tehdä tätä suora\-veloitusvaltakirjaa käyttämällä.|  
 
 6.  Toista vaiheet 1–5 kaikille asiakkaille, joille haluat määrittää SEPA-suoraveloitukset.  
 
@@ -97,7 +97,7 @@ Ennen kuin voit käsitellä asiakkaan maksuja sähköisesti viemällä suoravelo
 ### <a name="to-create-a-direct-debit-collection"></a>Suoraveloitusperinnän luominen  
 
  1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Suoraveloitusperinnät** ja valitse sitten liittyvä linkki.  
- 2. Valitse **Suoraveloitusperinnät**-sivun **Koti**-välilehden **Uusi**-ryhmässä **Luo suoraveloitusperintä**.  
+ 2. Valitse **Suoraveloitusperinnät**-sivulla **Luo suoraveloitusperintä** -toiminto.  
  3. Täytä **Luo suoraveloitusperintä**-sivun kentät seuraavassa taulukossa kuvatulla tavalla.  
 
      |Kenttä|Description|  
@@ -115,8 +115,8 @@ Ennen kuin voit käsitellä asiakkaan maksuja sähköisesti viemällä suoravelo
       Suoraveloitusperintä lisätään **Suoraveloitusperinnät**-sivulle ja vähintään yksi suoraveloitusperintätapahtuma luodaan.  
 
 ### <a name="to-export-a-direct-debit-collection-entry-to-a-bank-file"></a>Suoraveloitusperintätapahtuman vieminen pankkitiedostoon  
- 1. Valitse **Suoraveloitusperinnät**-sivun **Kotisivu**-välilehden **Käsittely**-ryhmässä **Suoraveloitusperintätapahtumat**.  
- 2. Valitse **Suoraveloitusperintätapahtumat**-sivulla merkintä, jonka haluat viedä, ja valitse sitten **Koti**-välilehden **Käsittely**-ryhmässä **Luo suoraveloitustiedosto**.  
+ 1. Valitse **Suoraveloitusperinnät**-sivulla **Suoraveloitusperintämerkintä**-toiminto.  
+ 2. Valitse **Suoraveloitusperintätapahtumat**-sivulla merkintä, jonka haluat viedä, ja valitse sitten **Luo suoraveloitustiedosto**.  
  3. Tallenna vientitiedosto paikkaan, josta lähetät tai lataat sen verkkopankkiisi.  
 
       **Suoraveloitusperintätapahtumat**-sivun **Suoraveloitusperinnän tila** -kentän arvoksi muutetaan Tiedosto luotu. **Suoraveloitusvaltakirjat**-sivun **Debet-laskuri**-kentän arvoa nostetaan yhdellä.  
@@ -125,12 +125,12 @@ Ennen kuin voit käsitellä asiakkaan maksuja sähköisesti viemällä suoravelo
 
 ### <a name="to-reject-a-direct-debit-collection-entry"></a>Suoraveloitusperintätapahtuman hylkääminen  
 
- * Valitse **Suoraveloitusperintätapahtumat**-sivulla tapahtuma, jonka käsittely ei onnistunut, ja valitse sitten **Kotisivu**-välilehden **Käsittely**-ryhmässä **Hylkää tapahtuma**.  
+ * Valitse **Suoraveloitusperintätapahtumat**-sivulla tapahtuma, jonka käsittely ei onnistunut, ja valitse sitten **Hylkää tapahtuma**.  
 
       **Suoraveloitusperintätapahtumat**-sivun **Tila**-kentän arvoksi muutetaan **Hylätty**.  
 
 ### <a name="to-close-a-direct-debit-collection"></a>Suoraveloitusperinnän sulkeminen  
- *  Valitse **Suoraveloitusperintätapahtumat**-sivulla tapahtuma, jonka käsittely ei onnistunut, ja valitse sitten **Kotisivu**-välilehden **Käsittely**-ryhmässä **Sulje kokoelma**.  
+ *  Valitse **Suoraveloitusperintätapahtumat**-sivulla tapahtuma, jonka käsittely ei onnistunut, ja valitse sitten **Sulje kokoelma**.  
 
       Liittyvä suoraveloitusperintä suljetaan.  
 

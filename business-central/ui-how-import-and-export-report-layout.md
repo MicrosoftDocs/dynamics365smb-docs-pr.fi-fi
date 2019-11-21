@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 5daf54251048137ca7829ef00d2f65c890b22b12
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 493217e3f7607c4553d6c0ac6500f21f0ff712cc
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315226"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553816"
 ---
 # <a name="import-and-export-a-report-or-document-layout"></a>Raporttien tai asiakirjojen asettelun tuonti ja vienti
 Voit tuoda ja viedä olemassa olevan mukautetun raporttiasettelun tiedostona tietokoneen tai verkon sijainnista ja sijaintiin. Voit esimerkiksi viedä raporttiasettelun ja lähettää sitten tiedoston toiselle henkilölle muokkausta varten. Kyseinen henkilö voi tehdä muutoksia asetteluun ja palauttaa tiedoston sinulle, jotta voit tuoda sen takaisin.  
@@ -29,11 +29,11 @@ Voit tuoda ja viedä olemassa olevan mukautetun raporttiasettelun tiedostona tie
 
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Raporttiasetteluvalinta** ja valitse sitten liittyvä linkki.  
 
-2.  Valitse raportille rivi, joka sisältää mukautetun asettelun, jonka haluat viedä ja valitse sitten **Kotisivu**-välilehden **Käsittely**-ryhmässä **Mukautetut asettelut**.  
+2.  Valitse raporttirivi, joka sisältää mukautetun raporttiasettelun, jonka haluat viedä, ja valitse sitten **Mukautetut asettelut** -toiminto.  
 
-3.  Valitse **Raporttiasettelut** -sivulla raporttiasettelu, jonka haluat viedä tiedostoon, ja valitse sitten **Kotisivu**-välilehden **Käsittely**-ryhmässä **Vie asettelu**.  
+3.  Valitse **Raporttiasettelut** -sivulla raporttiasettelu, jonka haluat viedä tiedostoon ja valitse sitten **Vie asettelu** -toiminto.  
 
-4.  Valitse **Vie tiedosto** -valintaikkunassa **Tallenna** ja tallenna tiedosto sitten uuteen paikkaan tietokoneelle tai verkkoon.  
+4.  Valitse **Vie tiedosto** -valintaikkunassa **Tallenna**-painike ja tallenna tiedosto sitten uuteen paikkaan tietokoneelle tai verkkoon.  
 
 ### <a name="to-import-a-report-layout-file"></a>Raporttiasettelun tiedoston tuonti  
 
@@ -43,11 +43,11 @@ Voit tuoda ja viedä olemassa olevan mukautetun raporttiasettelun tiedostona tie
 
 2.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Raporttiasetteluvalinta** ja valitse sitten liittyvä linkki.  
 
-3.  Valitse raportille rivi, jolle haluat tuoda raporttiasettelun ja valitse sitten **Kotisivu**-välilehden **Käsittely**-ryhmässä **Mukautetut asettelut**.  
+3.  Valitse sen raportin rivi, johon haluat tuoda raporttiasettelun, ja valitse sitten **Mukautetut asettelut** -toiminto.  
 
-4.  Valitse **Raporttiasettelut** -sivulla raporttiasettelu, johon haluat tuoda tiedoston, ja valitse sitten **Kotisivu**-välilehden **Käsittely**-ryhmässä **Tuo asettelu**.  
+4.  Valitse **Raporttiasettelut** -sivulla raporttiasettelu, johon haluat tuoda tiedoston ja valitse sitten **Tuo asettelu** -toiminto.  
 
-5.  Valitse **Tuo**-valintaruudussa asiakirja, joka määrittää raporttiasettelun ja valitse sitten **Avaa**.  
+5.  Valitse **Tuo**-valintaruudussa asiakirja, joka määrittää raporttiasettelun ja valitse sitten **Avaa**-painike.  
 
  Alkuperäinen mukautettu raporttiasettelu korvataan tuodulla raporttiasettelulla.  
 

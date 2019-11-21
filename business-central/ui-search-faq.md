@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: find
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 9fac8d546a24839ebaa0719d721d886c03001521
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 88a1e6cc711888a3cf68744d0ea6bbfdee41aea3
+ms.sourcegitcommit: 49309bdff9b680a35032b355fe97c565845dba15
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310754"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2695093"
 ---
 # <a name="tell-me-faq"></a>Kerro, mitä haluat tehdä -toiminnon usein kysytyt kysymykset
 Tässä ohjeaiheessa vastataan kokeneiden käyttäjien Kerro, mitä haluat tehdä -ominaisuutta koskeviin usein kysyttyihin kysymyksiin.
@@ -51,4 +51,4 @@ Ei. Voit lisätä kirjanmerkin sivun tai sellaisten hakutulosten linkiksi, jotka
 ## <a name="see-also"></a>Katso myös  
 [Luettelonäkymien tallentaminen ja mukauttaminen](ui-views.md)  
 [Sivujen ja tietojen etsiminen Kerro, mitä haluat tehdä -toiminnolla](ui-search.md)  
-[Sivujen etsiminen toiminnon yleiskatsauksessa](ui-role-explorer.md)
+[Sivujen etsiminen roolienhallinnan avulla](ui-role-explorer.md)

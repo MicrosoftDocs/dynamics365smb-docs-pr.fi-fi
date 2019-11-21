@@ -8,19 +8,24 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
+ms.date: 11/07/2019
 ms.author: sgroespe
-ms.openlocfilehash: 81ba616c55b364843a718e9b000bfee02a513ad1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: fbac11fc220184a2906ceed1811c7f5b0b7676b5
+ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310634"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "2774769"
 ---
 # <a name="working-with-included365finincludesd365fin_mdmd"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen
 Kun tehdään liiketoimintaan liittyviä tehtäviä, voit käsitellä tietoja eri tavoin, kuten tietueiden luominen ja tietojen syöttäminen, tietojen lajittelu ja suodatus, kirjalliset huomautukset ja tietojen lähettäminen muihin sovelluksiin.
 
 Voit esimerkiksi säätää minkä tahansa sivun kokoa ja sijaintia, laajentaa sarakkeita ja kasvattaa sarakeotsikoiden korkeutta ja muuttaa sarakkeiden tietojen lajittelua. Ja jos haluat tarkastella kaikkia luettelosivun tai asiakirjarivien sarakkeita vaakavierityspalkin avulla, huomaat, että pystysuuntainen kiinnitysruutu estää tiettyjä sarakkeita vierittymästä.
+
+> [!TIP]
+> Jos haluat tulostettavan yleiskuvan eniten käytetyistä toiminnoista, valitse seuraava kuva ja lataa PDF-tiedosto.
+>
+> [ ![](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf)
 
 > [!NOTE]
 > Tässä osassa kuvattujen käyttöliittymän yleisten toimintojen lisäksi voit käyttää muita liiketoimintaan liittyviä yleisiä toimintoja. Lisätietoja on kohdassa [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md).
@@ -30,7 +35,7 @@ Seuraava taulukko sisältää joitakin yleisiä toimintoja ja linkkejä niitä k
 | Vastaanottaja | Katso |
 | --- | --- |
 |Etsi tietty sivu, raportti, toiminto, ohjeaihe tai kumppanin laajennus. |[Sivujen ja tietojen etsiminen Kerro, mitä haluat tehdä -toiminnolla](ui-search.md) |
-|Hae oman roolin ja muiden roolien sivujen yleiskatsaus ja siirry sivuille.|[Sivujen etsiminen toiminnon yleiskatsauksessa](ui-role-explorer.md)|
+|Hae oman roolin ja muiden roolien sivujen yleiskatsaus ja siirry sivuille.|[Sivujen etsiminen roolienhallinnan avulla](ui-role-explorer.md)|
 | Suodata näkymien, raporttien tai toimintojen tiedot käyttämällä erikoissymboleita ja -merkkejä. |[Luetteloiden lajitteleminen ja suodattaminen sekä luetteloista hakeminen](ui-enter-criteria-filters.md) |
 |Tutustu useisiin yleisiin toimintoihin, joilla voi antaa tietoja nopeasti ja helposti.|[Tietojen antaminen](ui-enter-data.md)|
 |Tutustu tietojen nopeaan kopiointiin ja liittämiseen myös pikanäppäimiä käyttämällä.|[Kopioinnin ja liittämisen usein kysytyt kysymykset](ui-copy-paste.md)|

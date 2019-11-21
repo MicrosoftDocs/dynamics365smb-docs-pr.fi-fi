@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 10/01/2019
+ms.date: 10/17/2019
 ms.author: edupont
-ms.openlocfilehash: 3a5fc25004ce7dd838369ff178b8d613fb984acd
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 96825fcc03bbbbc43c00f3bce4b9ac257a915a6f
+ms.sourcegitcommit: be1e2c49a8434d3f440d5a201508af9c3c8cc87f
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313514"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2649762"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Business Central -sovelluksen käytön vähimmäisvaatimukset
 Suosittelemme, että tietokoneen tai mobiililaitteen tuotteelle asetettujen järjestelmän vähimmäisvaatimusten täyttyminen tarkistetaan, ennen kuin [!INCLUDE [prodshort](includes/prodshort.md)] -sovelluksen online-versio otetaan käyttöön. Tässä artikkelissa kerrotaan vaatimukset.  
@@ -33,9 +33,9 @@ Suosittelemme, että tietokoneen tai mobiililaitteen tuotteelle asetettujen jär
 **Laitteen koko:** [!INCLUDE[d365fin](includes/d365fin_md.md)]ia tuetaan älypuhelimissa, joiden näytön koko on vähintään 4 tuumaa ja taulutietokoneissa, joiden näytön koko on vähintään 7 tuumaa.  
 
 ## <a name="outlook"></a>Outlook 
-**Outlook-sovellukset:** Jos haluat käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen online-versiota Outlookin yrityssähköpostina, tarvitset Outlook 2016:n tai uudemman, Outlook Web Appin, OWA for iPhonen, OWA for iPadin tai OWA for Androidin. Organisaatiossa on oltava käytössä myös Office 365. Et voi käyttää [!INCLUDE [prodshort](includes/prodshort.md)] -sovelluksen online-versiota Outlookin yrityssähköpostina, jos organisaatiossa on käytössä paikallinen Exchange Server.  
-**Selaimet:** Kun [!INCLUDE[d365fin](includes/d365fin_md.md)] on käytössä Outlookin yrityssähköpostina Outlook Web Appissa (OWA), apuohjelma edellyttää, että yritys käyttää jotakin aiemmin tässä artikkelissa mainittua tuettua selainta.  
-**Alustat:** Kun käytössä on [!INCLUDE[d365fin](includes/d365fin_md.md)] Outlookin apuohjelma OWA for iPhone-, OWA for iPad- tai OWA for Android -sovelluksessa, apuohjelma edellyttää, että mobiililaitteessa käytetään [!INCLUDE[d365fin](includes/d365fin_md.md)]in tuettujen mobiililaitteiden luettelossa mainittua mobiililaitetta.  
+**Outlook-sovellukset:** Jos haluat käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen online-versiota Outlookin yrityssähköpostina, tarvitset Outlook 2016:n tai uudemman, Outlookin selaimessa, Outlook for iPhonen, Outlook for iPadin tai Outlook for Androidin. Organisaatiossa on oltava käytössä myös Office 365. Et voi käyttää [!INCLUDE [prodshort](includes/prodshort.md)] -sovelluksen online-versiota Outlookin yrityssähköpostina, jos organisaatiossa on käytössä paikallinen Exchange Server.  
+**Selaimet:** Kun [!INCLUDE[d365fin](includes/d365fin_md.md)] on käytössä Outlookin yrityssähköpostina Outlookin selaimessa, apuohjelma edellyttää, että yritys käyttää jotakin aiemmin tässä artikkelissa mainittua tuettua selainta.  
+**Alustat:** Kun käytössä on [!INCLUDE[d365fin](includes/d365fin_md.md)] Outlookin apuohjelma Outlook for iPhone-, Outlook for iPad- tai Outlook for Android -sovelluksessa, apuohjelma edellyttää, että mobiililaitteessa käytetään [!INCLUDE[d365fin](includes/d365fin_md.md)]in tuettujen mobiililaitteiden luettelossa mainittua mobiililaitetta.  
 
 ## <a name="excel"></a>Excel
 **Muokkaa Excelissä:** Jotta voit tehdä muutoksia Excelissä ja tuoda muutokset takaisin [!INCLUDE[d365fin](includes/d365fin_md.md)]:een Excel-lisäosan avulla, tarvitset Excel 2016 -version tai uudemman. Lisätietoja on kohdassa [Rahoituslaskelmien analysointi Microsoft Excelissä](finance-analyze-excel.md).  

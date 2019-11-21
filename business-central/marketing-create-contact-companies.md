@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2019
+ms.date: 11/11/2019
 ms.author: sgroespe
-ms.openlocfilehash: f4bf8e694a7b034eb601c3bf39bd420ff61ab73a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: cf7ef0013cac921ec7ab7b1fa505a9c2f0852a33
+ms.sourcegitcommit: 02f1633213793bfc040ad0d2a96fe76572215aa5
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309314"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "2798569"
 ---
 # <a name="create-contacts"></a>Kontaktien luominen
 Tapaat säännöllisesti muiden yritysten työntekijöitä, jotka voivat kehittyä liikesuhteiksi, kuten asiakassuhteeksi. Kun tällainen uusi kontakti luodaan, kontaktin korttiin on tallennettava mahdollisimman paljon tietoja, jotta yhteydenpitoa voidaan jatkaa.
 
 Voit luoda yhteyshenkilön, jonka tyyppi on esimerkiksi **Yritys**, jos suhde ei ole yksityishenkilö vaan entiteetti, kuten alihankkija tai pankki. Voit myös luoda yhteyshenkilön, jonka tyyppi on **Henkilö.** Toiminto on suunnilleen sama molemmille tyypeille. Niitä voi myös muuttaa suhteiden muuttuessa.
 
-Kun yhteyshenkilökortti muunnetaan esimerkiksi asiakaskortiksi, yhteyshenkilö tai yhteyshenkilön yrityksestä tulee asiakkaan nimi. Yhteyshenkilökortti säilytetään. Näiden kahden kortin tiedot synkronoidaan ja linkitetään toisiinsa.
+Kun yhteyshenkilökortti muunnetaan esimerkiksi asiakaskortiksi, yhteyshenkilö tai yhteyshenkilön yrityksestä tulee asiakkaan nimi. Yhteyshenkilökortti säilytetään ja näiden kahden kortin tiedot synkronoidaan jos ne linkitetään toisiinsa.
 
 ## <a name="person-or-company"></a>Henkilö tai yritys
 Voit päättää määrittää kontaktin henkilönä tai yrityksenä yleensä sen perusteella, tiedätkö yhteyshenkilön nimen kortin luontihetkellä. Se tehdään täyttämällä **Tyyppi**-kenttä **Kontaktin kortti** -sivulla. Voit ylläpitää kontaktin kortteja myös sekä yritykselle että ainakin yhdelle yrityksen työntekijälle. Tämä tehdään automaattisesti, kun täytät **Yrityksen nimi** -kentän **Henkilö**-tyypin kontaktin kortissa.
@@ -32,7 +32,7 @@ Voit päättää määrittää kontaktin henkilönä tai yrityksenä yleensä se
 Molemmissa tyypeissä on samanlaiset toiminnot. Poikkeuksena ovat tyypin mukaan määritettävät lisätietotyyppivaihtoehdot. Voit esimerkiksi määrittää vastuualueet henkilölle ja toimialaryhmä yritykselle. Tämä ilmaistaan käyttöliittymässä himmentämällä kentät ja toiminnot, jotka eivät ole käytettävissä. Voit muuttaa **Tyyppi**-kentän arvoa myöhemmin. Vaihtoehtoisesti voit hallita, mitä tietoja henkilön ja henkilöön liittyvän yrityksen välillä jaetaan, **Kontaktienhallinnan asetukset** -sivun **Periytyminen**-pikavälilehdessä. Lisätietoja on kohdassa [Kontaktien määrittäminen](marketing-setup-contacts.md).
 
 ## <a name="to-create-a-contact-manually"></a>Kontaktin luominen manuaalisesti
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kontaktit** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Yhteyshenkilöt** ja valitse sitten liittyvä linkki.
 2. Valitse **Uusi**-toiminto.
 3. Valitse **Nro**-kenttään kontaktin numero.
 
@@ -63,7 +63,7 @@ Jos yrityksellä, jolle haluat luoda yhteyshenkilön, on asiakas, toimittaja tai
 > [!NOTE]  
 > Ennen kontaktien luontia asiakkaiden, toimittajien tai pankkitilien luontia on määritettävä liikesuhteen koodi **Kontaktienhallinnan asetukset** -sivun **Vuorovaikutukset**-pikavälilehdessä. Lisätietoja on kohdassa [Kontaktien määrittäminen](marketing-setup-contacts.md).
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Kontaktit** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Yhteyshenkilöt** ja valitse sitten liittyvä linkki.
 2. Valitse kontakti, jonka haluat luoda asiakkaana, toimittajana tai pankkitilinä.
 3. Valitse **Luo**-toiminto ja valitse sitten **Asiakas**, **Toimittaja** tai **Pankki**.
 4. Valitse **OK**-painike.
@@ -101,7 +101,7 @@ Yleisten tietojen synkronointi liittyvien asiakkaiden, toimittajien tai pankkiti
 * Linkittämällä kontakteja aiemmin luotuihin asiakkaisiin, toimittajiin tai pankkitileihin kontaktikortista. Katso [Kontaktin linkittäminen olemassa olevaan asiakkaaseen, toimittajaan tai pankkitiliin](marketing-create-contact-companies.md#to-link-a-contact-to-an-existing-customer-vendor-or-bank-account).
 
 ## <a name="to-view-which-customer-vendor-or-bank-account-a-contact-is-related-to"></a>Tarkistetaan, mihin asiakkaaseen, toimittajaan tai pankkitiliin yhteyshenkilö liittyy
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kontaktit** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Yhteyshenkilöt** ja valitse sitten liittyvä linkki.
 2. Valitse yhteyshenkilön rivi. Valitse **Liittyvät tiedot** -toiminto ja valitse sitten **Asiakas/toimittaja/pankkitili**-toiminto.
 
 Liittyvän kortin sivu avautuu.

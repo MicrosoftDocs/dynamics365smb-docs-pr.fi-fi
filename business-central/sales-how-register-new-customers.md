@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: client
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e8fd2d876a148c1107b4db1d7c554a79e21bf53d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2d8ef273db1211228e71df30af77bc572a23f75d
+ms.sourcegitcommit: ab4141739a53ec100d42773f0da863fbeefa384f
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312122"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2577133"
 ---
 # <a name="register-new-customers"></a>Uusien asiakkaiden rekisteröinti
 Asiakkaat ovat tulonlähteesi. Jokainen asiakas, jolle myyt, on rekisteröitävä asiakaskorttina. Asiakkaan kortit sisältävät tietoja, jotka tarvitaan tuotteiden asiakkaalle myymistä varten. Lisätietoja on kohdissa [Myynnin laskutus](sales-how-invoice-sales.md) ja [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md).  
@@ -26,6 +26,8 @@ Ennen kuin voit rekisteröidä uusia asiakkaita, sinun on määritettävä myynt
 
 > [!NOTE]  
 >   Jos eri asiakastyypeille on olemassa asiakasmalleja, sivu avautuu, kun luot uuden asiakkaan kortin, jossa voit valita haluamasi mallin. Jos vain yksi asiakasmalli on olemassa, uudet asiakaskortit käyttävät aina kyseistä mallia.
+<br><br>
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3PZsM]
 
 ## <a name="to-create-a-new-customer-card"></a>Uuden asiakkaan kortin luominen
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Asiakkaat** ja valitse sitten liittyvä linkki.  

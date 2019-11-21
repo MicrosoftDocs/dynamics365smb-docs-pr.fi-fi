@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: bdb6339715fd656a7c8e25b7d35b337c17da1b97
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 69cc8f393e60d30b5dd7fefdd3f5a49df5aaede3
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311690"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553914"
 ---
 # <a name="work-with-service-contracts-and-service-contract-quotes"></a>Huoltosopimusten ja huoltosopimustarjousten käyttäminen
 Huoltosopimus voidaan luoda joko manuaalisesti tai huoltosopimustarjouksesta. Huoltosopimustarjousta voidaan käyttää huoltosopimuksen esiasteena, jossa yrityksesi tekee asiakkaalle tarjouksen ja joka tarvitsee asiakkaan hyväksynnän, ennen kuin se voidaan muuntaa huoltosopimukseksi. Tämän vuoksi huoltosopimus ja huoltotarjous luodaan pitkälti samalla tavoin.  
@@ -73,7 +73,7 @@ Sopimusten huoltohyvityslaskuja voi käyttää silloin, kun asiakas peruuttaa en
 
  Jos **Huoltosopimus**-sivun **Laskun yksityiskohdat** -pikavälilehden **Automaattiset hyvityslaskut** -kentässä on valintamerkki, ohjelma luo hyvityslaskun automaattisesti, kun sopimusrivit poistetaan.  
 
- Luo hyvityslasku, kun sopimusrivit on poistettu huoltosopimuksesta **Huoltosopimus**-sivulla **Toiminnot** -välilehdessä **Funktiot** -ryhmässä, valitsemalla **Hyvityslasku**.  
+ Luo hyvityslasku, kun sopimusrivit on poistettu huoltosopimuksesta **Huoltosopimus**-sivulla valitsemalla **Hyvityslasku**.  
 
 ## <a name="updating-and-evaluating-contracts"></a>Sopimusten päivittäminen ja arvioiminen
 Joskus on tarpeen muuttaa sopimuksen ehtoja sen jälkeen, kun sopimus on luotu. Useimmiten tämä onnistuu avaamalla sopimus **Huoltosopimus**-sivulla ja muuttamalla tietoja tarpeen mukaan.  
@@ -99,12 +99,12 @@ Huoltosopimuksesta voidaan joutua poistamaan sopimusrivejä, kun huoltonimike po
 4. Valitse poistettava sopimusrivi. Kirjoita **Sopimuksen umpeutumispvm** -kenttään päivämäärä, jolloin haluat poistaa rivin. Voit määrittää esimerkiksi päivämäärän, jolloin huoltonimike särkyi.  
 5. Valitse **Poista sopimusrivit** -toiminto. **Poista rivit sopimuksesta** -sivu aukeaa.  
 6. Täytä oletussuodattimet: **Sopimusnro**, **Huoltonimikkeen nro** ja **Sopimustyyppi**. Voit myös ottaa käyttöön muita suodattimia tai muuttaa nykyisiä suodattimia.  
-7. Täytä **Vaihtoehdot**-pikavälilehden kentät. Valitse **Toiminto**-kentästä **Poista rivit**.  
+7. Täytä **Asetukset**-pikavälilehden kentät ja valitse sitten **Poista rivit** -toiminto.  
 
 > [!NOTE]  
 >  Jos sopimus ei ole yksityiskohtainen, **Huoltosopimus**-sivun **Laskun yksityiskohdat** -pikavälilehden **Vuosittainen summa** -kentän arvo on päivitettävä sopimuksesta poistetun huoltonimikkeen mukaisesti.  
 >   
->  Jos sopimus on yksityiskohtainen sekä ennakkoon maksettu ja sille on kirjattu laskuja, voit luoda sopimukselle hyvityslaskun. Valitse **Toiminnot**-välilehden **Funktiot**-ryhmässä **Luo hyvityslasku**. Tämä on tarpeeton, jos **Automaattiset hyvityslaskut** -kentän valintaruutu **Laskutustiedot**-pikavälilehdellä on valittu. Tällöin hyvityslasku luodaan automaattisesti, kun sopimusrivi poistetaan.
+>  Jos sopimus on yksityiskohtainen sekä ennakkoon maksettu ja sille on kirjattu laskuja, voit luoda sopimukselle hyvityslaskun. Valitse **Luo hyvityslasku** -toiminto. Tämä on tarpeeton, jos **Automaattiset hyvityslaskut** -kentän valintaruutu **Laskutustiedot**-pikavälilehdellä on valittu. Tällöin hyvityslasku luodaan automaattisesti, kun sopimusrivi poistetaan.
 
 ## <a name="service-line-cost-and-value"></a>Huoltorivin kustannus ja arvo
 Huoltosopimusrivien **Rivikustannus**- ja **Rivin arvo** -summat lasketaan seuraavissa taulukoissa kuvatulla tavalla.
@@ -150,7 +150,7 @@ SInun täytyy ehdkä vaihtaa huoltosopimuksen haltijaa. Jos huoltosopimuksen huo
 4. **Sopimusnro**- ja **Huoltonimikkeen nro** -kentissä voi tarkistaa valitun asiakkaan omistaman sopimuksen ja huoltonimikkeen numerot. Jos asiakkaalla on useita sopimuksia ja sopimuksissa on useita huoltonimikkeitä, kenttien arvo on **Useampi**. Valitse nämä kenttäarvot nähdäksesi sopimusten tai huoltonimikkeiden luettelon.  
 5. Valitse **Uusi asiakasnro** -kentässä uusi asiakas.  
 6. Valitse osoite **Uusi toimitusasiakkaan koodi** -kentässä.  
-7. Muuta huoltosopimusten asiakasta tai toimitusasiakkaan koodia valitsemalla **OK**.  
+7. Muuta palvelusopimusten asiakas tai toimitusasiakkaan koodi valitsemalla **OK**.  
 8. Lukitse sopimus valitsemalla **Lukitse sopimus** -toiminto. Voit varmistaa tällä tavoin, että muutokset sisältyvät sopimuksiin.  
 
 ## <a name="to-update-a-service-contract-price"></a>Päivitä huoltosopimuksen hinnat  

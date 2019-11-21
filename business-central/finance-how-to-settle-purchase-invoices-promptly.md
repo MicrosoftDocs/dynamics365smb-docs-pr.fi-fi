@@ -12,27 +12,27 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: c50367647e4d0e4a02cec3b43cd29ef8def68f78
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7392ec07c59974869dce6c1e8172eb48701e1d26
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305906"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554012"
 ---
 # <a name="settle-purchase-invoices-promptly"></a>Ostolaskujen selvittäminen viipymättä
 Jos toimittajalle on maksettava käteisellä tai sekillä, voit kirjata maksun kun kirjaat laskun.  
-  
+
 ### <a name="to-settle-purchase-invoices-promptly"></a>Ostolaskujen selvittäminen viipymättä  
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostolaskut** ja valitse sitten liittyvä linkki.  
-2. Valitse **Kotisivu**-välilehdessä **Uusi**.  
+2. Valitse **Uusi**-toiminto.  
 3.  Jos haluat maksaa käteisellä tai pankkisiirrolla, annan kirjanpidon kassatilin tai pankkitilin numero **Vastatilin nro.** -kenttään.  
-  
+
 > [!IMPORTANT]  
 >  Kohde **Vasta tilin tyyppi** ja **Vasta. tilin nro.** -kenttiä ei sisällytetä vakiolaskun otsikkoon. Jotta voisit kirjata laskun maksun, sinun tulee ensin lisätä nämä kentät suunnitteluominaisuuksien avulla.  
-  
+
 > [!NOTE]  
 >  Jos maksat ostolaskuja usein käteisellä on hyvä idea perustaa tiettyjä maksutapoja joissa on vastatili ja syötä tämä metoodi **Maksutapa** -kenttään toimittajakortille. Ohjelma automaattisesti syöttää vastatilin numeron ja laskuotsikon joka kerta kun luot uuden laskun.  
-  
+
 ## <a name="see-also"></a>Katso myös  
 [Ostovelkojen hallinta](payables-manage-payables.md)  
 [Osto](purchasing-manage-purchasing.md)  

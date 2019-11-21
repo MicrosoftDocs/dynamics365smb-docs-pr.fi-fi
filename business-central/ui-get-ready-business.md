@@ -11,19 +11,19 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 10/01/2019
 ms.author: solsen
-ms.openlocfilehash: 095d8ba53bce25df66bcb8c5daa1e06479b68f0c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e78f5151694ce2fe5c37e6cfcc78ac69e5954dc1
+ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315298"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "2775593"
 ---
 # <a name="getting-ready-for-doing-business"></a>Valmistautuminen liiketoimintaan
 Olet juuri aloittanut ensimmäisen yrityksen [!INCLUDE[d365fin](includes/d365fin_md.md)]issa.
 
 Pääset liiketoiminnassa alkuun tutustumalla **Liiketoiminnan tuki** -sivuun, jossa voit käynnistää avustettuja asennusoppaita, videoita tai valittujen asennustehtävien ohjeaiheita. Voit avata sivun **Liiketoimintajohtaja**-roolikeskuksen kaaviosta valitsemalla avattavan **Liiketoiminnan tuki** -luettelon nuolen ja valitsemalla sitten **Näytä määritys- ja ohjeresurssit** -toiminnon. Kun päivität sivun, asennus- ja ohjeresurssit näkyvät kaavion tilalla.
 
-Vaihtoehtoisesti voit avata asetusten ohjattujen määritysoppaiden luettelon valitsemalla ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvakkeen, kirjoittamalla **Manuaalinen määritys** ja valitsemalla sitten liittyvän linkin.
+Vaihtoehtoisesti voit avata asetusten ohjattujen määritysoppaiden luettelon valitsemalla ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvakkeen, kirjoittamalla **Asetusten ohjattu määritys** ja valitsemalla sitten liittyvän linkin.
 
 Roolikeskuksen siirtymispalkin alareunassa on **Asennus ja laajennukset** -valikko. Ruudussa on luettelo asetusten ohjatun määrityksen oppaista, joiden avulla pääset alkuun. Kun olet siirtänyt olemassa olevasta taloustietojen järjestelmästä tiedot, kuten toimittajat, asiakkaat ja nimikkeet, olet valmis aloittamaan. Voit käyttää tarvittaessa myös toista avustettua asennusta.
 
@@ -49,7 +49,7 @@ Nuolten avulla voit supistaa osan sivusta, jolloin haluamillesi tiedoille jää 
 Voit tarkastella ja muokata **Yrityksen asetukset** -kohdassa nykyisen yrityksen asetustietoja, joista suuri osa on esitäytetty, jos suoritit avustetun **Määritä yritys** -asennuksen [!INCLUDE[d365fin](includes/d365fin_md.md)]iin rekisteröityessäsi. Voit muuttaa tällä sivulla yrityksen logoa, yhteystietoja, pankkiasetuksia tai verotustietoja.    
 
 ## <a name="adding-users-and-permissions"></a>Käyttäjien ja käyttöoikeuksien lisäämisen
-Jos sinun on lisättävä uusia käyttäjiä, voit tehdä sen Office 365:n hallintaportaalissa. Lisätietoja on kohdassa [Käyttäjien lisääminen Office 365 for Businessiin](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc). Kun käyttäjät on luotu Office 365:ssa, heidät voidaan tuoda **Käyttäjät**-sivulle **Hae käyttäjät Office 365:stä** -toiminnolla. Voit määrittää tämän jälkeen käyttäjien käyttöoikeudet ja järjestää käyttäjät käyttäjäryhmiin. Lisätietoja on kohdassa [Käyttäjien ja käyttöoikeuksien hallinta](ui-how-users-permissions.md).  
+Jos sinun on lisättävä uusia käyttäjiä, voit tehdä sen Office 365:n hallintaportaalissa. Lisätietoja on kohdassa [Käyttäjien lisääminen Office 365 for Businessiin](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc). Kun käyttäjät on luotu Office 365:ssa, heidät voidaan tuoda **Käyttäjät**-sivulle **Hae käyttäjät Office 365:stä** -toiminnolla. Voit määrittää tämän jälkeen käyttäjien käyttöoikeudet ja järjestää käyttäjät käyttäjäryhmiin. Lisätietoja on kohdassa [Määritä käyttöoikeudet käyttäjille ja ryhmille](ui-define-granular-permissions.md).  
 
 ## <a name="getting-help"></a>Ohjeiden saaminen
 [!INCLUDE[d365fin](includes/d365fin_md.md)]issa on työkaluvihjeitä, jotka auttavat eri liiketoimintaprosessien suorittamisessa. Voit avata kyseisen sivun ohjeen painamalla kentän työkaluvihjeessä näppäimiä Ctrl+F1 tai valitsemalla **Lisätietoja**-linkin. Oikeassa yläkulmassa oleva kysymysmerkki vie myös tuotteen ohjeisiin.
@@ -60,6 +60,6 @@ Voit jatkaa luomalla uusia myynti- tai ostoasiakirjoja siirrettyjen tietojen per
 ## <a name="see-also"></a>Katso myös
 [Käytön aloittaminen](product-get-started.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
-[Käyttäjien ja käyttöoikeuksien hallinta](ui-how-users-permissions.md)
+[Määritä käyttöoikeudet käyttäjille ja ryhmille](ui-define-granular-permissions.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

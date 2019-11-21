@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6ed3790a5e74528866ef226872be99db9dec7d4f
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e9543d9fc361f2948907bc0e84d37dd870139cd8
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312386"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553864"
 ---
 # <a name="receive-and-convert-electronic-documents"></a>Sähköisten asiakirjojen vastaanottaminen ja muuntaminen
 [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman yleinen versio tukee sähköisten laskujen ja hyvityslaskujen vastaanottamista PEPPOL-muodossa. Suurimmat document exchange -palveluiden tarjoajat tukevat tätä muotoa. Jotta voisit saada laskun toimittajalta sähköisenä PEPPOL-asiakirjana, asiakirja on muunnettava Saapuvat asiakirjat -sivulla [!INCLUDE[d365fin](includes/d365fin_md.md)]in ostolaskuksi tai päiväkirjan riviksi.
@@ -43,7 +43,7 @@ ms.locfileid: "2312386"
 
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Saapuvat asiakirjat** ja valitse sitten liittyvä linkki.  
 
-2.  Valitse rivi sille saapuvalle asiakirjatietueelle, joka edustaa uutta saapuvaa sähköistä laskua, ja valitse sitten **Koti**-välilehden **Hallinta**-ryhmästä **Muokkaa**.  
+2.  Valitse rivi sille saapuvalle asiakirjatietueelle, joka edustaa uutta saapuvaa sähköistä laskua, ja valitse sitten **Muokkaa**-toiminto.  
 
      Aiheeseen liittyvä XML-tiedosto liitetään **Saapuvan asiakirjan kortti** -sivulla, ja useimmat sen kentät on esitäytetty sähköisen laskun tiedoilla. Lisätietoja on kohdassa [Saapuvien asiakirjatietueiden luominen](across-how-create-income-document-records.md).  
 
@@ -51,7 +51,7 @@ ms.locfileid: "2312386"
 
 4.  Toimittajalaskun tekstin liittäminen tiettyyn debet-tiliin tehdään valitsemalla **Toiminnot**-välilehden **Yleinen**-ryhmässä **Linkitä teksti tiliin** ja täyttämällä sitten **Tekstin yhdistäminen tiliin** -sivun tiedot.  
 
-5.  Valitse **Toiminnot**-välilehden **Yleiset**-ryhmästä **Luo asiakirja**.  
+5.  Valitse **Luo tiedosto** -toiminto.  
 
      [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmassa luodaan ostolasku, joka perustuu sähköisen asiakirjan tietoihin.  
 

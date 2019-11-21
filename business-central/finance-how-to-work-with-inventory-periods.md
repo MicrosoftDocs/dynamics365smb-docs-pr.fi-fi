@@ -12,17 +12,17 @@ ms.workload: na
 ms.search.keywords: inventory, periods
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 64c47b78555e1364bbc0e1d4be97ed4910bca04a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 1a88456e91b3398ac9cae1b64ebdd80644b5d0aa
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305836"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554036"
 ---
 # <a name="work-with-inventory-periods"></a>Varastokausien käsitteleminen
 Varastokaudet määrittävät aikajakson, jolloin voit kirjata varastoon muutoksia. Lopetuspäivämäärä määrittää, milloin varastokausi loppuu. Kun suljet varastokauden, et voi enää kirjata varastoon odotettuja tai laskutettuja muutoksia ennen tätä lopetuspäivämäärää. Et voi kirjata varastoon uusia arvoja ennen lopetuspäivämäärää. Jos suljetulla kaudella on avoimia nimiketapahtumia eli positiivisia määriä, joita ei ole vielä kohdistettu lähteviin transaktioihin, voit yhä kohdistaa lähteviä määriä näihin transaktioihin, vaikka kausi on suljettu.  
 
-Seuraavissa luvuissa kerrotaan, miten  
+Seuraavissa luvuissa kerrotaan, miten
 
 * varastokausia luodaan  
 * varastokausia suljetaan  
@@ -45,7 +45,7 @@ Voit sulkea minkä tahansa varastokauden, jos seuraavat kohdat toteutuvat:
 Tällöin kaikki lähtevät transaktiot, kuten myyntitilausten, lähtevien siirtojen, myyntilaskujen, ostopalautusten ja ostohyvityslaskujen transaktiot, on kohdistettava varastomäärään.  
 
 ### <a name="to-close-an-inventory-period"></a>Sulje varastokausi  
-1. Suorita  **Muuta kustannuksia - Nimiketapahtumat** -eräajo ennen varastokauden sulkemista. Näin voit varmistaa, että kaikkien kustannusten muutokset on kirjattu. Valitse **Toiminnot**-välilehden **Funktiot**-ryhmästä **Muuta kustann. - Nimiketapaht.**.  
+1. Valitse **Muuta kustannuksia - Nimiketapahtumat** -toiminto ennen varastokauden sulkemista. Näin voit varmistaa, että kaikkien kustannusten muutokset on kirjattu.
 
      Suorittamalla **Sulje varastokausi - Testaa** -raportin voit määrittää, onko varastokaudella avoimia lähteviä transaktioita tai nimikkeitä, joiden kustannuksia ei ole vielä muutettu.  
 2. Valitse **Sulje varastokausi – Testaa** -toiminto.  

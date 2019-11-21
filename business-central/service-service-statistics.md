@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 16b3a3be096bc8d5391b7a14b56524191663ff56
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 9016412d32176a99ca84831566d7bbb628ec88a8
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315874"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553840"
 ---
 # <a name="viewing-service-statistics"></a>Huoltotilastojen tarkasteleminen
 Voit käyttää tilastoja huoltoasiakirjojen analysoimisessa ja selvittää, miten hyvin hallitse huoltoprosesseja. Voit analysoida huoltosopimuksia, tarjouksia, tilauksia, laskuja ja hyvityslaskuja valitsemalla **Tilastot**-toiminnon. Voit käyttää huoltonimikkeissä ja -sopimuksissa myös **huoltonimikkeen Trendscape-näkymää** tai **sopimuksen Trendscape-näkymää**. Voit tarkastella näissä näkymissä tietyn huoltonimikkeen huoltotapahtumia.   
@@ -93,7 +93,7 @@ Sopimuksen voitto- tai tappiotapahtumia luodaan, kun sopimustarjous muunnetaan h
 ## <a name="viewing-statistics-for-posted-service-documents"></a>Kirjattujen huoltoasiakirjojen tilastojen tarkasteleminen
 Huoltotilastojen avulla saat tilaston yleiskuvauksen kirjattujen huoltoasiakirjojen, kuten kirjatun toimituksen, laskun ja hyvityslaskun, sisällöstä.  
 
-Ohjelma tulostaa tilastotiedot näyttöön vastaavan kirjatun huoltoasiakirjan tilastosivulla. Voit avata asianmukaiset tilastosivut kirjattujen huoltotoimitusten, kirjatun huoltolaskun tai kirjatun huoltohyvityslaskun kautta. Valitse jokaiselle asiakirjatyypille **Koti**-välilehden **Prosessi**-ryhmän **Tilastot**-kohta. Valitse esimerkiksi **Kirjatut huoltolaskut** -sivun **Koti**-välilehden **Prosessi**-ryhmän **Tilastot**-vaihtoehto.  
+Ohjelma tulostaa tilastotiedot näyttöön vastaavan kirjatun huoltoasiakirjan tilastosivulla. Voit avata asianmukaiset tilastosivut kirjattujen huoltotoimitusten, kirjatun huoltolaskun tai kirjatun huoltohyvityslaskun kautta. Valitse kullekin näistä asiakirjatyypeistä **Tilasto**-toiminto. Valitse esimerkiksi **Kirjatut huoltolaskut** -sivulta **Tilasto**-toiminto.  
 
 ### <a name="posted-service-shipment-statistics"></a>Kirjatun huoltotoimituksen tilastot  
 **Huoltotoimituksen tilastot** -sivulla on kirjatun huoltotoimituksen yleiskuvaus. Tietoja on esimerkiksi toimituksen fyysisestä sisällöstä, kuten toimitettujen nimikkeiden, resurssituntien tai kustannusten määrästä sekä toimitettujen nimikkeiden painosta ja tilavuudesta.  

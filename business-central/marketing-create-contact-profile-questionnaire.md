@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: contacts, profiles
 ms.author: edupont
 ms.date: 10/01/2019
-ms.openlocfilehash: 22471a6e0281f6f7aa4e9c9bbf0b2d9c5a0fd710
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8d25dc4c27be6069782ff30e785f884ee406d2e4
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309290"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553940"
 ---
 # <a name="use-profile-questionnaires-to-classify-business-contacts"></a>Liiketoimintakontaktien luokittelu profiilikyselyiden avulla
 Voit määrittää kyselyprofiileja niille kyselyille, joita haluat käyttää, kun syötät tietoja kontaktiesi profiileista. Jokaisessa kyselyssä voit määrittää eri kysymykset, jotka aiot esittää kontakteillesi.  
@@ -24,11 +24,11 @@ Voit saada ohjelman vastaamaan automaattisesti joihinkin kysymyksiin kontakti-, 
 
 ## <a name="to-add-a-profile-questionnaire"></a>Profiilikyselyjen lisääminen
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kyselyn asetukset** ja valitse sitten liittyvä linkki.  
-2.  Valitse **Kotisivu**-välilehden **Uusi**-ryhmässä **Uusi**.  
+2.  Valitse **Uusi**-toiminto.  
 3.  Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-add-questions-to-a-profile-questionnaire"></a>Kysymyksien lisääminen profiilikyselyyn
-1.  Valitse haluttu profiilikysely. Valitse sitten **Koti**-välilehdellä **Prosessi**-ryhmässä **Muokkaa kyselyn asetuksia**.  
+1.  Valitse haluttu profiilikysely. Valitse sitten **Muokkaa kyselyn asetuksia** -toiminto.  
 2.  Valitse ensimmäisellä tyhjällä rivillä **Tyyppi**-kenttä, valitse **Kysymys** ja kirjoita kysymys **Kuvaus**-kenttään. Täytä rivin muut kentät.  
 3.  Napsauta seuraavalla tyhjällä rivillä **Tyyppi**-kenttää, valitse **Vastaus** ja kirjoita vastaus **Kuvaus**-kenttään.  
 4.  Valitse **Priority**-kentässä prioriteetti. Määritä **Arvosta**- ja **Arvoon**-kenttiin pisteväli. Kontaktit, jotka saavat pisteitä määritetyltä väliltä, saavat vastauksen.  

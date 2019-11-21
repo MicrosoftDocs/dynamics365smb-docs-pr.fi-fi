@@ -7,14 +7,14 @@ ms.topic: landing-page
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
+ms.date: 11/06/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9f84e224afa474cffd6c2956bd9ebf24169ce105
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 41dfc2ceb2fffb8f4ebb0eea50025ea50e0a0418
+ms.sourcegitcommit: 86498fe4326b9ce26cc31e8645db27570d13bdf9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301425"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2767560"
 ---
 # <a name="welcome-to-included365fin_longincludesd365fin_long_mdmd"></a>Tervetuloa [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]iin
 [!INCLUDE[d365fin](includes/d365fin_md.md)] on pienille ja keskisuurille organisaatioille tarkoitettu liiketoiminnan hallintaratkaisu, joka automatisoi ja selkeyttää liiketoiminnan prosesseja ja auttaa liiketoiminnan hallinnassa. Yritykset voivat käyttää erittäin mukautettavaa ja monipuolista [!INCLUDE[d365fin](includes/d365fin_md.md)]ia liiketoiminnan osa-alueiden hallintaan, kuten rahoituksen, tuotannon, myynnin, toimituksen, projektinhallinnan ja huollon hallintaan. Yritykset voivat helposti lisätä omalla toiminta-alueella tarpeellisia toimintoja sekä toimintoja, jotka on mukautettu hyvinkin erikoistuneita toimialoja varten.
@@ -36,6 +36,7 @@ ms.locfileid: "2301425"
 [Yhteensopivuus](compliance/compliance-overview.md)  
 [Dynamics 365:n ohjeistus](/dynamics365/)  
 [Dynamics 365 Business Central microsoft.comissa](https://dynamics.microsoft.com/business-central/overview/)  
+[Business Central -opintoluettelo](readiness/readiness-learning-catalog.md)  
 [Dynamics 365 Business Central Microsoft Learnissa](/learn/browse/?products=dynamics-business-central)  
 
 

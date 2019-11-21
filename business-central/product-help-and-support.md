@@ -6,13 +6,13 @@ ms.reviewer: na
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 10/01/2019
-ms.openlocfilehash: 0c710291b1039dedf23266b48940e123f425c9cc
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 11/06/2019
+ms.openlocfilehash: e1c7d5f7880f283c0b26679572202aaa769a1227
+ms.sourcegitcommit: 86498fe4326b9ce26cc31e8645db27570d13bdf9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313609"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2767655"
 ---
 # <a name="resources-for-help-and-support"></a>Ohje- ja tukiresurssit
 
@@ -73,7 +73,7 @@ Varmista, että käyt läpi lähetettyjen ehdotusten luettelon. On todennäköis
 [!INCLUDE[prodshort](includes/prodshort.md)] -jälleenmyyntikumppani antaa teknistä tukea. Kumppanit myyvät [!INCLUDE[prodshort](includes/prodshort.md)]ia, ja tämän osan avulla on helppo ottaa yhteyttä jälleenmyyntikumppaniin, jos tämä on antanut tuen yhteystiedot. Jos [!INCLUDE[prodshort](includes/prodshort.md)] -kumppani, ei pysty ratkaisemaan ongelmaan, he voivat tehdä tukipyynnön Microsoftille.  
 
 > [!NOTE]
-> Tämä osa on käytettävissä vain, jos sinulla on maksullinen [!INCLUDE [prodshort](includes/prodshort.md)] -tilaus. Jos olet rekisteröitynyt kokeiluversioon etkä ole vielä ostanut [!INCLUDE[prodshort](includes/prodshort.md)]ia, sinulla ei ole jälleenmyyntikumppania etkä voi ottaa yhteyttä Microsoftin tukeen. Voit etsiä [!INCLUDE[prodshort](includes/prodshort.md)] -kumppanin [Ratkaisutoimittajan haku](https://go.microsoft.com/fwlink/?linkid=2038145) -sivulla.  
+> Tämä osa on käytettävissä vain, jos sinulla on maksullinen [!INCLUDE [prodshort](includes/prodshort.md)] -tilaus. Jos olet rekisteröitynyt kokeiluversioon etkä ole vielä ostanut [!INCLUDE[prodshort](includes/prodshort.md)]ia, sinulla ei ole jälleenmyyntikumppania etkä voi ottaa yhteyttä Microsoftin tukeen. Voit etsiä [!INCLUDE[prodshort](includes/prodshort.md)] -kumppanin [Ratkaisutoimittajan haku](https://go.microsoft.com/fwlink/?linkid=2038145) -sivulla. Lisätietoja on kohdassa [Miten löydän jälleenmyyjäpartnerin?](across-faq.md#findpartner).  
 
 ### <a name="support-contacts"></a>Tukikontaktit
 
@@ -83,6 +83,8 @@ Jos haluat ilmoittaa kumppanille ongelmasta, lähetä joko sähköpostiviesti va
 
 ## <a name="see-also"></a>Katso myös
 
+[Business Central -opintoluettelo](readiness/readiness-learning-catalog.md)  
+[Miten löydän jälleenmyyjäkumppanin?](across-faq.md#findpartner)  
 [Blogikirjoitus: Oikeiden resurssien etsiminen ja palautteen antaminen](https://community.dynamics.com/business/b/financials/archive/2018/12/04/find-the-right-resources-and-provide-feedback)  
 [Business Centralin kehittäjän ja IT-ammattilaisten asiakirjat](/dynamics365/business-central/dev-itpro/)  
 [Kumppanien ohje- ja tukiresurssit](/dynamics365/business-central/dev-itpro/help-and-support)  

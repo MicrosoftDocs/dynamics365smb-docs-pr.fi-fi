@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 11/11/2019
 ms.author: sgroespe
-ms.openlocfilehash: ca97d08166b73f75240203aa9949e4b0aa774ea6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: fe99b7cf27a294a0f8198740631acfe5fec8e21f
+ms.sourcegitcommit: 02f1633213793bfc040ad0d2a96fe76572215aa5
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310514"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "2798427"
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Vaihekuvaus: Ostojen hyväksyntä -työnkulun määrittäminen ja käyttäminen
 Voit automatisoida uusien tai muuttuneiden tietueiden hyväksymisprosessin esimerkiksi asiakirjojen, kirjausrivien ja asiakaskorttien kohdalla luomalla työnkulkuihin hyväksymisvaiheet. Ennen kuin luot hyväksymistyönkulkuja, määritä hyväksyjä ja varahyväksyjä jokaiselle hyväksyjäkäyttäjälle. Voit myös määrittää hyväksyjille rajat niille myynti -ja ostotietueille, joita he saavat hyväksyä. Hyväksymispyynnöt ja muut ilmoitukset voidaan lähettää sähköpostina tai sisäisenä muistiona. Voit määrittää kunkin hyväksyjäkäyttäjän asetuksiin myös milloin he saavat ilmoituksia.
@@ -36,22 +36,19 @@ Tässä vaihekuvauksessa käsitellään seuraavia tehtäviä:
 -   Pyytää hyväksynnän ostotilaukseen, Alicia.  
 -   Ilmoituksen vastaanottaminen ja sitten hyväksyminen, Sean.  
 
-## <a name="prerequisites"></a>Vaatimukset  
-Tarvitse tämän vaihekuvauksen loppuun viemiseen CRONUS Finland Oy -esittely-yrityksen.
-
 ## <a name="story"></a>Taustatietoja  
 Sean on superkäyttäjänä CRONUSissa. Hän luo kaksi hyväksyjää. Yksi on Alicia, joka edustaa ostajaa. Toinen on hän itse edustaen Alician hyväksyjää. Sean antaa itselleen rajaton ostojen hyväksyntä oikeudet ja määrittää, että hän saa ilmoituksia sisäisenä muistiona mahdollisimman pian asian tapahtumasta. Lopuksi Sean luon pyydetyn hyväksynnän työnkulun kopioksi olemassa olevasta ostotilauksen hyväksymisen työnkulusta jättäen kaikki olemassa olevan tapahtuman ehdot ja vastausvaihtoehdot ennalleen ja sitten ottaa työnkulun käyttöön.  
 
 Sean testaa hyväksyntätyönkulkua kirjautumalla ensin [!INCLUDE[d365fin](includes/d365fin_md.md)]iin Aliciana ja pyytää ostotilauksen hyväksymistä. Sean sitten kirjautuu omalla tunnuksellaan, näkee huomautuksen hänen Roolikeskuksessa, seuraa linkkiä ostotilauksen hyväksymispyyntöön ja hyväksyy pyynnön.  
 
 ## <a name="setting-up-sample-data"></a>Esimerkkitietojen määrittäminen
-Ennen käyttäjien ja heidän ilmoitustapansa hyväksyminen määrittämistä sinun on varmistettava, että [!INCLUDE[d365fin](includes/d365fin_md.md)]:ssä on kaksi käyttäjää: Toinen käyttäjä viittaa Aliciaa. Toinen käyttäjä, eli sinä itse, viittaa Seaniin. Lisätietoja on kohdassa [Käyttäjien ja käyttöoikeuksien hallinta](ui-how-users-permissions.md).
+Ennen käyttäjien ja heidän ilmoitustapansa hyväksyminen määrittämistä sinun on varmistettava, että [!INCLUDE[d365fin](includes/d365fin_md.md)]:ssä on kaksi käyttäjää: Toinen käyttäjä viittaa Aliciaa. Toinen käyttäjä, eli sinä itse, viittaa Seaniin. Katso lisätietoja kohdasta [Luo käyttäjiä lisenssien mukaan](ui-how-users-permissions.md).
 
 ### <a name="setting-up-approval-users"></a>Hyväksyjäkäyttäjien määrittäminen  
 Kun kirjautunut omana itsenäsi, määritä Alicia hyväksyjäkäyttäjäksi, jonka hyväksyjä sinä itse olet. Aseta hyväksyntäoikeutesi ja määritä, miten ja milloin sinulle ilmoitetaan hyväksymispyynnöt.  
 
 #### <a name="to-set-up-yourself-and-alicia-as-approval-users"></a>Määritä itsesi ja Alicia hyväksyjäkäyttäjiksi  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Hyväksynnän käyttäjäasetukset** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Hyväksynnän käyttäjäasetukset** ja valitse sitten liittyvä linkki.  
 2.  Valitse **Hyväksynnän käyttäjäasetukset** -sivulla **Uusi**-toiminto.  
 
     > [!NOTE]  
@@ -65,22 +62,21 @@ Kun kirjautunut omana itsenäsi, määritä Alicia hyväksyjäkäyttäjäksi, jo
     |ALICIA|SINÄ||  
 
 ### <a name="setting-up-notifications"></a>Ilmoitusten määrittäminen  
-Tässä vaihekuvauksessa käyttäjälle ilmoitetaan sisäisellä ilmoituksella hyväksyttävistä pyynnöistä. Hyväksyntäilmoitus voidaan lähettää myös sähköpostitse. Lisätietoja on kohdassa [Ilmoitusten vastaanoton ajankohdan ja tavan määrittäminen](across-how-to-specify-when-and-how-to-receive-notifications.md). 
+Tässä vaihekuvauksessa käyttäjälle ilmoitetaan sisäisellä ilmoituksella hyväksyttävistä pyynnöistä. Hyväksyntäilmoitus voidaan lähettää myös sähköpostitse. Lisätietoja on kohdassa [Ilmoitusten vastaanoton ajankohdan ja tavan määrittäminen](across-how-to-specify-when-and-how-to-receive-notifications.md).
 
 #### <a name="to-set-up-how-and-when-you-are-notified"></a>Voit määrittää, miten ja milloin saat ilmoituksen  
 1.  Valitse **Hyväksynnän käyttäjäasetukset** -sivulla, valitse itsellesi rivi ja valitse sitten **Ilmoituksen asetukset** -toiminto.  
 2.  Valitse **Ilmoituksen asetukset** -sivun **Ilmoitustyyppi**-kentässä **Hyväksyntä**.  
 3.  Valitse **Ilmoitusmenetelmä**-kentässä **Huomautus**.  
 6.  Valitse **Ilmoituksen asetukset** -sivulla **Ilmoitusaikataulu**-toiminto.  
-7.  Valitse **Ilmoitusaikataulu**-sivun **Esiintymä**-kentässä **Heti**.  
-8. Valitse **OK**-painike.  
+7.  Valitse **Ilmoitusaikataulu**-sivun **Toistuminen**-kentässä **Heti**.  
 
 ## <a name="creating-the-approval-workflow"></a>Hyväksymisen työnkulun luominen  
  Luo ostotilauksen hyväksymisen työnkulku kopioimalla vaiheet ostotilauksen hyväksymisen työnkulun mallista. Jätä ennalleen nykyisen työnkulun vaiheet ja ota työnkulku käyttöön.  
 
 ### <a name="to-create-and-enable-a-purchase-order-approval-workflow"></a>Ostotilauksen hyväksymisen työnkulun luominen ja lähettäminen  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Työnkulut** ja valitse sitten liittyvä linkki.  
-2.  Valitse **Työnkulut**-sivulla **Luo työnkulku mallista** -toiminto.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Työnkulut** ja valitse sitten liittyvä linkki.  
+2.  Valitse **Työnkulut**-sivulla **Uusi työnkulku mallista** -toiminto.  
 3.  Valitse **Työnkulkumallit**-sivulla työnkulkumalli Ostotilauksen hyväksymistyönkulku ja valitse sitten **OK**.  
 
     Uuden työnkulun avautuvalla **Työnkulku**-sivulla on kaikki valitun mallin tiedot. **Koodi**-kentän arvoon liitetään -01, joka osoittaa, että kyseessä on ensimmäinen Ostotilauksen hyväksymistyönkulku -mallista luotu työnkulku.  
@@ -92,18 +88,17 @@ Käytä uutta ostotilauksen hyväksymistyönkulkua kirjautumalla ensin [!INCLUDE
 ### <a name="to-request-approval-of-a-purchase-order-as-alicia"></a>Pyydä hyväksyntä ostotilaukseen, Aliciana  
 1. Kirjaudu sisään Aliciana.
 2.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostotilaukset** ja valitse sitten liittyvä linkki.  
-3.  Valitse ensin avoimen ostotilauksen 104001 rivi ja sitten **Muokkaa**-toiminto.  
+3.  Valitse ensin avoimen ostotilauksen 106001 rivi ja sitten **Muokkaa**-toiminto.  
 4.  Valitse **Ostotilaus**-sivulla **Lähetä hyväksymispyyntö** -toiminto.  
 
 Huomaa, että arvo **Tila**-kentässä on nyt **Odottaa hyväksyntää**.  
 
 ### <a name="to-approve-the-purchase-order-as-sean"></a>Hyväksy ostotilaus, Seanina  
 1. Kirjaudu sisään Seanina.
-2.  Etsi roolikeskuksen **Omat ilmoitukset** -sivulla Alician lähettämä uusi huomautus.  
-3.  Kun huomautus näkyy **Omat ilmoitukset** -sivulla, valitse **Hyväksymistapahtuma: XX, XX** -arvo **Sivu**-kentässä. **Hyväksyttävät pyynnöt** -sivu avautuu siten, että Alician ostotilauspyyntö näkyy korostettuna.  
-4.  Valitse **Hyväksyttävät pyynnöt** -sivulla **Hyväksy**-toiminto.  
+2. Valitse roolikeskuksen **Itsepalvelu**-alueesta **Hyväksymispyynnöt**-ruutu.
+3. Valitse **Hyväksymispyyntö**-sivulta Alician ostotilausrivi ja valitse sitten **Hyväksy**-toiminto.  
 
-    Arvoksi **Tila**-kentässä Alician ostotilauksessa tulee **Vapautettu**.  
+Arvoksi **Tila**-kentässä Alician ostotilauksessa tulee **Vapautettu**.  
 
 Olet nyt määrittänyt ja testannut yksinkertaisen hyväksymisen työnkulun, joka perustuu ostotilauksen hyväksymisen työnkulun kahteen ensimmäiseen vaiheeseen. Voit helposti laajentaa tämän työnkulun kirjaamaan Alician ostotilauksen automaattisesti, kun Sean hyväksyy sen. Voidaksesi tehdä tämän, sinun on otettava käyttöön Ostolaskun työnkulku, johon vapautetun ostolaskun vastaus kirjataan. Ensin sinun täytyy muuttaa työnkulun ensimmäisessä vaiheessa tapahtuman ehto (osto)**laskusta** **tilaukseksi**.  
 

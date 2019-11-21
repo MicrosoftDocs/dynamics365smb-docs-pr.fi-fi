@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5b153d68636e948a01a5ab2d514828710e413f3d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: f567bb154781c3fe506a5609325f793d47e231e5
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311642"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553768"
 ---
 # <a name="work-on-service-tasks"></a>Huoltotehtävien käyttäminen
 Kun huoltotilaukset tai huoltotarjoukset on luotu, huoltonimikerivit rekisteröity ja resurssit on kohdistettu tilausten tai tarjousten huoltonimikkeille, huoltonimikkeiden korjauksen ja ylläpidon voi aloittaa.  
@@ -31,7 +31,7 @@ Voit seurata huollon muutoksia sekä tarkastella huollon graafista näkyvää [!
 2. Jos haluat nähdä luettelon huoltotehtävistä, joihin tietty resurssi tai resurssiryhmä on kohdistettu, täytä **Resurssisuodatus**- tai **Resurssiryhmän suodatus** -kenttä ja paina Enter.  
 3. Jos haluat nähdä luettelon huoltotehtävistä, joiden vastauspäivämäärä tai -päivämäärät ovat tietyn aikajakson sisällä, täytä **Vastauspvm suodatus** -kenttä ja paina Enter.  
 4. Jos haluat nähdä luettelon huoltotehtävistä, joilla on jokin tietty kohdistuksen tai korjauksen tila, täytä **Kohdistuksen tilan suodatus**- tai  **Korjaustilakoodin suodatus** -kenttä ja paina Enter.  
-5. Valitse huoltotehtävä, jota haluat työstää. Valitse **Navigoi**-välilehden **Huoltotehtävät**-ryhmässä **Nimikkeen työkirja**. **Huoltonimikkeen työkirja** -sivu avautuu.  
+5. Valitse huoltotehtävä, jota haluat työstää. Valitse **Nimikkeen työkirja** -toiminto. **Huoltonimikkeen työkirja** -sivu avautuu.  
 6. Rekisteröi vakiotekstit, varaosat, resurssitunnit ja kustannukset käyttämällä **Tyyppi**-kentän vaihtoehtoja: <Blank>, **Nimike**, **Resurssi** ja **Kustannus**.  
 7. Valitse **Korjauksen tila**-kentässä asianmukainen tila.  
 
@@ -43,7 +43,7 @@ Kun suoritat huoltotilauksen huoltoa, voit rekisteröidä käytetyt nimikkeet, a
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Huoltotilaukset** ja valitse sitten liittyvä linkki.  
 2. Avaa huoltotilaus, johon haluat rekisteröidä huollon, ja valitse nimikerivi.  
-3. Valitse ensin **Toiminnot**, sitten **Rivi** ja lopuksi **Huoltonimiketyökirja**.  
+3. Valitse **Huoltonimiketyökirja**-toiminto  
 4. Määritä riveillä käytetyt nimikkeet, aiheutuneet kustannukset ja huoltoon käytetty aika.  
 
    > [!NOTE]  

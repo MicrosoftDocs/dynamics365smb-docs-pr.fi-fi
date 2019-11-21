@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f054e9be11de6a71e9fe490bcc3d7f47dafff89d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: cbab5a90341fa3e04d47c8846b2f139febadcdf4
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314166"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553744"
 ---
 # <a name="create-production-boms"></a>Tuotannon tuoterakenteiden luominen
 Tuotannon tuoterakenne sisältää perustiedot päänimikkeen tuotannossa käytettävistä komponenteista ja osakokoonpanoista. Kun päänimikkeelle luodaan tuotantotilaus, tuotannon tuoterakenne ohjaa materiaalitarpeiden laskentaa **Tuot.til. komponentit** -sivulla näkyvällä tavalla.
@@ -59,7 +59,7 @@ Aloituspäivämäärä osoittaa alun jaksolle, jolloin kyseinen versio on voimas
 
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tuotannon tuoterakenne** ja valitse sitten liittyvä linkki.  
 2.  Valitse ensin kopioitava tuotannon tuoterakenne ja sitten **Versiot**-toiminto.  
-3.  Valitse **Kotisivu**-välilehden **Uusi**-ryhmässä **Uusi**.  
+3.  Valitse **Uusi**-toiminto.  
 4. Täytä tarvittavat kentät.
 5. Anna **Versiokoodi**-kentässä version yksilöivä tunniste. Kaikenlaisten numero- ja kirjainyhdistelmien käyttö on sallittua.  
 

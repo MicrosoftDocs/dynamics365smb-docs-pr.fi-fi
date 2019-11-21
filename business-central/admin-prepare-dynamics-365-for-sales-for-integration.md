@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 54f2a90939a47cc34f7dbcea3509b5e0b0f2d598
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 9f56e96b86fb7462799c9a9c655010ee2fb04381
+ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304370"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "2775305"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Dynamics 365 Sales -integrointi
 Myyjää pidetään usein liiketoiminnan eniten ulospäin suuntautuneena tehtävänä. Myyjien voisi kuitenkin olla hyödyllistä tarkastella liiketoimintaa myös sisäisesti, jotta he tiedostaisivat, mitä taustalla tapahtuu. [!INCLUDE[d365fin](includes/d365fin_md.md)]in ja [!INCLUDE[crm_md](includes/crm_md.md)]in integroinnin ansiosta myyjät saavat merkityksellisiä tietoja, joiden avulla he voivat tarkastella [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietoja [!INCLUDE[crm_md](includes/crm_md.md)]ia käyttäessään. Myyntitarjousta valmistellessa voi esimerkiksi olla hyödyllistä tietää, riittääkö varasto tilauksen täyttämiseen. Lisätietoja on kohdassa [Dynamics 365 Salesin käyttäminen Business Centralissa](marketing-integrate-dynamicscrm.md).
@@ -52,7 +52,7 @@ Asetusten ohjattu **Dynamics 365 Sales -yhteyden määritys** -opas tuo [!INCLUD
 * järjestelmänvalvoja  
 * ratkaisun mukauttaja.  
 
-Lisätietoja on kohdissa [Dynamics 365 Sales -integroinnissa käytettävien käyttäjätilien määrittäminen](admin-setting-up-integration-with-dynamics-sales.md), [Käyttäjien luominen Microsoft Dynamics 365 (online) -sovelluksessa ja käyttöoikeusroolien määrittäminen](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles) sekä [Käyttäjien ja käyttöoikeuksien hallinta](ui-how-users-permissions.md).  
+Lisätietoja on kohdissa [Dynamics 365 Sales -integroinnissa käytettävien käyttäjätilien määrittäminen](admin-setting-up-integration-with-dynamics-sales.md), [Käyttäjien luominen Microsoft Dynamics 365 (online) -sovelluksessa ja käyttöoikeusroolien määrittäminen](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles) sekä [Käyttäjien ja ryhmien käyttöoikeuksien määrittäminen](ui-define-granular-permissions.md).  
 
 Tätä tiliä käytetään vain kerran asennuksen aikana. Kun ratkaisu on tuotu [!INCLUDE[d365fin](includes/d365fin_md.md)]iin, tiliä ei enää tarvita. Integrointi jatkaa integrointia varten luodun käyttäjätilin käyttämistä.
 

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3d9d602690b8d4ca7714b328759a705204c740ee
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 898548bd33bbc9a5a7ae7400c626bf7a7820bfd4
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306050"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554132"
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Nimiketapahtumien poistaminen ja uudelleenkohdistaminen
 Voit tarkastella ja muuttaa **Kohdistustyökirja**-sivulla manuaalisesti tietyn nimikkeen kohdistustapahtumia, jotka on luotu automaattisesti varastotapahtumien yhteydessä.  
@@ -61,7 +61,7 @@ Jos et tehdä uudelleenkohdistusta, kuten korjata kiinteää kohdistusta, asiaki
 ## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>Nimikkeen kohdistuksen ja kohdistustyökirjan luominen  
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Kohdistustyökirja** ja valitse liittyvä linkki.  
 2.  **Kohdistustyökirja**-sivu aukeaa näyttäen kaikkia nimikkeitä koskevat nimiketapahtumat.  
-3.  Voit kohdistaa työkirjan avaamisen jälkeen poistetut tapahtumat uudelleen valitsemalla uudelleenkohdistettavan nimiketapahtuman. Valitse **Toiminnot**-välilehden **Funktiot**-ryhmässä **Käytä uudelleen**.  
+3.  Voit kohdistaa työkirjan avaamisen jälkeen poistetut tapahtumat uudelleen valitsemalla uudelleenkohdistettavan nimiketapahtuman ja valitsemalla sitten **Kohdista uudelleen** -toiminto.  
 
     > [!NOTE]  
     >  Tämä uudelleenkohdistus alkuperäiseen saldoon tapahtuu automaattisesti, kun **Kohdistustyökirja**-sivu suljetaan.  

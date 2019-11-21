@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 10/01/2019
+ms.date: 10/17/2019
 ms.author: edupont
-ms.openlocfilehash: a01fb01fb6a4e18bb3cfd46693885f7891989804
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6c1ec2e61b1a6d61b9662abe70e3177747b73a12
+ms.sourcegitcommit: be1e2c49a8434d3f440d5a201508af9c3c8cc87f
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304442"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2649714"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Business Central -sovelluksen käyttäminen yrityssähköpostina Outlookissa
 [!INCLUDE[d365fin](includes/d365fin_md.md)] esittelee mahdollisuuden hallita liiketoiminnallisia vuorovaikutuksia asiakkaiden ja toimittajien kanssa suoraan Microsoft Outlookista. [!INCLUDE[d365fin](includes/d365fin_md.md)]in Outlook-apuohjelmien avulla voit tarkastella asiakkaisiin ja toimittajiin liittyviä taloustietoja sekä luoda ja lähettää talousasiakirjoja, kuten tarjouksia ja laskuja.  
@@ -27,6 +27,8 @@ Kun sitten avaat Outlookin, näet *Dynamics 365 Business Centralin järjestelmä
 
 > [!TIP]
 > Jos käytät uutta Outlookia selaimessa [!INCLUDE [prodshort](includes/prodshort.md)]in apuohjelmat voivat olla piilotettuina **Lisää toimintoja** -kohdassa.
+
+Jos työskentelet useamman kuin yhden [!INCLUDE [prodshort](includes/prodshort.md)] -yrityksen kanssa, voit helposti vaihtaa yritysten välillä Outlookissa.
 
 Jotkin Office 365:ää käyttävät yrityksen rajoittavat käyttäjien oikeuksia ottaa apuohjelmia käyttöön. Varmista tämän vuoksi, että Office 365 -tilauksesi sisältää sähköpostin ja mahdollistaa apuohjelmien käyttämisen. Jos haluat kokeilla apuohjelma joka tapauksessa, voit [kokeilla Office 365:ää maksutta](https://products.office.com/try).  
 

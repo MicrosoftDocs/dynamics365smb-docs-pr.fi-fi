@@ -12,20 +12,20 @@ ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: cdf0eb137984bbc1988677ca53991d75659c022a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ddcc935a6ae539ad82894d6153f7c7f4b6fdeb48
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302186"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554156"
 ---
-# <a name="how-to-set-up-and-report-intrastat"></a>Toimintaohje: Intrastat-ilmoituksen määrittäminen ja raportoiminen
+# <a name="set-up-and-report-intrastat"></a>Intrastat-ilmoituksen määrittäminen ja raportoiminen
 Kaikkien Euroopan unionin alueen yritysten täytyy raportoida kaupastaan muiden EU-maiden/alueiden kanssa. Tavaran liikkuminen on raportoitava kotimaan/-alueen tilastoviranomaisille kuukausittain ja raportti on toimitettava veroviranomaisille. Ohjelmassa tätä kutsutaan Intrastat-raportoinniksi. **Intrastat-ilmoitus**-sivulla voi täyttää jaksottaiset Intrastat-ilmoitukset.  
 
 ## <a name="required-and-optional-setups"></a>Pakolliset ja valinnaiset määritykset
 Sinun on määritettävä useita asetuksia, ennen kuin voit raportoida Intrastat-tiedot Intrastat-ilmoituksella.  
 
-* **Valtiokohtaiset Asetukset**: Valtiokohtaiset Asetukset sivua käytetään intrastat-reportoinnin käyttöönottoon ja sen osetusaletusten määrittelyyn. Voit määrittää sen, tarvitkseeko sinun raportoida Intrastat lähetyksistä (toimitukset), kuiteista (saapuvat) vai molemmista, riippuen paikkalisten asetuksien rajoista. Voit myös määrittää oletusasetukset tapahtumatyypeille tavallisia ja palautusdokumentteja koskien, joita käytetään maksuliikenteen raportointiin. 
+* **Valtiokohtaiset Asetukset**: Valtiokohtaiset Asetukset sivua käytetään intrastat-reportoinnin käyttöönottoon ja sen osetusaletusten määrittelyyn. Voit määrittää sen, tarvitkseeko sinun raportoida Intrastat lähetyksistä (toimitukset), kuiteista (saapuvat) vai molemmista, riippuen paikkalisten asetuksien rajoista. Voit myös määrittää oletusasetukset tapahtumatyypeille tavallisia ja palautusdokumentteja koskien, joita käytetään maksuliikenteen raportointiin.
 * **Intrastat-ilmoitusmallit**: Käytettävät Intrastat-ilmoitusmallit ja -erät on määritettävä. Koska Intrastat-tiedot raportoidaan kuukausittain, sinun on luotava 12 samaan malliin perustuvaa Intrastat-ilmoituserää.  
 * **Kauppatavarakoodit**: Tulli- ja veroviranomaiset ovat luoneet nimikkeiden ja palvelujen luokittelua varten numeeriset koodit. Nämä koodit määritetään nimikkeissä.
 * **Kauppatapahtuman luonteen koodit**: Mailla ja alueilla on eri koodit Intrastat-tapahtumatyypeille, kuten tavallisille ostoille ja myynneille, palautettujen tavaroiden vaihdolle ja palauttamattomien tavaroiden vaihdolle. Määritä omaa maata tai aluetta koskevat koodit. Voit käyttää niitä myynti- ja ostoasiakirjoissa ja palautusten käsittelyssä.  
@@ -47,7 +47,7 @@ Voit viedä tapahtumat tiedostoon, jonka voit lähettää Intrastat-viranomaisil
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Intrastat-ilmoituksen mallit** ja valitse sitten liittyvä linkki.  
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Luo malli jokaiselle käyttämällesi Intrastat-lomakkeelle.  
-3. Luo eriä valitsemalla **Navigoi**-välilehdessä **Erät**.  
+3. Luo eriä valitsemalla **Erät**-toiminto.  
 4. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Luo malli jokaiselle käyttämällesi Intrastat-lomakkeelle.  
 
 > [!Note]
@@ -76,7 +76,7 @@ Joissakin maissa, kuten Espanjassa ja Isossa-Britanniassa, viranomaiset vaativat
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Intrastat-asetukset** ja valitse sitten liittyvä linkki.
 2. Valitse **Intrastat-tarkistusluettelon asetukset** -toiminto.
-3. Valitse **Intrastat-tarkistusluettelon asetukset** -sivulla **Kentän nimi** ja valitse se Intrastat-raportin kenttä, josta tehdään pakollinen. 
+3. Valitse **Intrastat-tarkistusluettelon asetukset** -sivulla **Kentän nimi** ja valitse se Intrastat-raportin kenttä, josta tehdään pakollinen.
 
 ## <a name="to-report-intrastat"></a>Intrastat-raportointi
 Kun olet täyttänyt Intrastat-ilmoituksen, voit suorittaa **Tarkistusluettelo-raportti**-toiminnon ja varmistaa, että kaikki ilmoituksen tiedot ovat oikein. **Intrastat-tarkistusluettelon asetukset** -sivulla määritetyt pakolliset kentät, joissa ei ole arvoja, näytetään Virheet ja varoitukset -tietoruudussa **Intrastat-kirjaus**-sivulla. Voit sitten tulostaa Intrastat-raportin lomakkeena tai luoda tiedoston, jonka voit lähettää oman maasi tai alueesi veroviranomaisille.  
@@ -98,7 +98,7 @@ Saat Intrastat-lomakkeeseen tarvittavat tiedot tilastoja ylläpitäviltä virano
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Intrastat-kirjaukset** ja valitse sitten liittyvä linkki.  
 2. Valitse käsiteltävä päiväkirjan erä **Intrastat-ilmoitus**-sivun **Erän nimi** -kentässä.  
-3. Jos et vielä ole täyttänyt ilmoitusta manuaalisesti tai valitsemalla **Ehdota rivejä**, tee se nyt.  
+3. Jos et vielä ole tehnyt tätä, täytä ilmoitus manuaalisesti tai valitse **Ehdota rivejä** -toiminto.  
 4. Valitse **Tulostaa Intrastat-ilmoituksen** -toiminnon.  
 5. Lisää **Intrastat-ilmoituksen rivi** -pikavälilehdessä **Tyyppi**-suodatin ja määritä, onko kyseessä **Vastaanotto** vai **Toimitus**.  
 6. Tulosta raportti valitsemalla **Lähetä kohteeseen**.  
@@ -108,9 +108,9 @@ Voit nyt lähettää Intrastat-raportin tiedostona. Ennen tiedoston luomista voi
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Intrastat-kirjaus** ja valitse sitten liittyvä linkki.  
 2. Valitse käsiteltävä päiväkirjan erä **Intrastat-ilmoitus**-sivun **Erän nimi** -kentässä.  
-3. Jos et ole vielä täyttänyt ilmoitusta manuaalisesti tai valitsemalla **Ehdota rivejä**, tee se nyt.  
+3. Jos et vielä ole tehnyt tätä, täytä ilmoitus manuaalisesti tai valitsemalla **Ehdota rivejä** -toiminto.  
 4. Valitse **Luo tiedosto** -toiminto.  
-5. Valitse eräajosivulla **OK**.  
+5. Valitse erätyösivulla **OK**-painike.  
 6. Valitse **Tallenna**.  
 7. Selaa sijaintiin, jonne haluat tallentaa tiedoston. Anna tiedoston nimi ja valitse sitten **Tallenna**.
 
@@ -119,7 +119,7 @@ Koska Intrastat-raportti on lähetettävä joka kuukausi ja luot uuden päiväki
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Intrastat-kirjaukset** ja valitse sitten liittyvä linkki.  
 2. Voit tarkastella asetuksia valitsemalla **Erän nimi** -kentän.  
-3. Valitse ensin poistettavat päiväkirjan erät ja sitten **Poista**.  
+3. Valitse ensin poistettavat päiväkirjan erät ja sitten **Poista**-painike.  
 
 ## <a name="see-also"></a>Katso myös
 [Taloushallinto](finance.md)
