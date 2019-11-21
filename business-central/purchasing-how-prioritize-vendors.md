@@ -12,28 +12,30 @@ ms.workload: na
 ms.search.keywords: supplier, payment priority
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2586e9a5af338bee79bf73b494a7a653b6bfc2f2
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c37ff7d347788300bcd2c9e138ac8379fb12a78a
+ms.sourcegitcommit: ab4141739a53ec100d42773f0da863fbeefa384f
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312530"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2577157"
 ---
-# <a name="prioritize-vendors"></a><span data-ttu-id="c6a0a-103">Toimittajien priorisointi</span><span class="sxs-lookup"><span data-stu-id="c6a0a-103">Prioritize Vendors</span></span>
-[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="c6a0a-104">voi ehdottaa eri maksuja toimittajille, esimerkiksi maksuja, jotka erääntyvät pian, ja maksuja, joista voi saada alennuksen.</span><span class="sxs-lookup"><span data-stu-id="c6a0a-104">can suggest various payments to vendors, for example, payments that will be due soon or payments where a discount is available.</span></span> <span data-ttu-id="c6a0a-105">Lisätietoja on kohdassa [Toimittajamaksujen ehdottaminen](payables-how-suggest-vendor-payments.md).</span><span class="sxs-lookup"><span data-stu-id="c6a0a-105">For more information, see [Suggest Vendor Payments](payables-how-suggest-vendor-payments.md).</span></span>
+# <a name="prioritize-vendors"></a><span data-ttu-id="0d33e-103">Toimittajien priorisointi</span><span class="sxs-lookup"><span data-stu-id="0d33e-103">Prioritize Vendors</span></span>
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="0d33e-104">voi ehdottaa eri maksuja toimittajille, esimerkiksi maksuja, jotka erääntyvät pian, ja maksuja, joista voi saada alennuksen.</span><span class="sxs-lookup"><span data-stu-id="0d33e-104">can suggest various payments to vendors, for example, payments that will be due soon or payments where a discount is available.</span></span> <span data-ttu-id="0d33e-105">Lisätietoja on kohdassa [Toimittajamaksujen ehdottaminen](payables-how-suggest-vendor-payments.md).</span><span class="sxs-lookup"><span data-stu-id="0d33e-105">For more information, see [Suggest Vendor Payments](payables-how-suggest-vendor-payments.md).</span></span>
 
-<span data-ttu-id="c6a0a-106">Ensin priorisoidaan toimittajat liittämällä heille numerot.</span><span class="sxs-lookup"><span data-stu-id="c6a0a-106">First, you must prioritize your vendors by assigning numbers to them.</span></span>
+<span data-ttu-id="0d33e-106">Ensin priorisoidaan toimittajat liittämällä heille numerot.</span><span class="sxs-lookup"><span data-stu-id="0d33e-106">First, you must prioritize your vendors by assigning numbers to them.</span></span>
+<br><br>
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE3PRGa]
 
-## <a name="to-prioritize-vendors"></a><span data-ttu-id="c6a0a-107">Toimittajien priorisointi</span><span class="sxs-lookup"><span data-stu-id="c6a0a-107">To prioritize vendors</span></span>
-1. <span data-ttu-id="c6a0a-108">Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Toimittajat** ja valitse sitten liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="c6a0a-108">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.</span></span>
-2. <span data-ttu-id="c6a0a-109">Valitse asianmukainen toimittaja ja valitse sitten **Muokkaa**.</span><span class="sxs-lookup"><span data-stu-id="c6a0a-109">Select the relevant vendor, and then choose **Edit**.</span></span>
-3. <span data-ttu-id="c6a0a-110">Syötä **Prioriteetti**-kenttään numero.</span><span class="sxs-lookup"><span data-stu-id="c6a0a-110">In the **Priority** field, enter a number.</span></span>
+## <a name="to-prioritize-vendors"></a><span data-ttu-id="0d33e-107">Toimittajien priorisointi</span><span class="sxs-lookup"><span data-stu-id="0d33e-107">To prioritize vendors</span></span>
+1. <span data-ttu-id="0d33e-108">Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Toimittajat** ja valitse sitten liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="0d33e-108">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.</span></span>
+2. <span data-ttu-id="0d33e-109">Valitse asianmukainen toimittaja ja valitse sitten **Muokkaa**.</span><span class="sxs-lookup"><span data-stu-id="0d33e-109">Select the relevant vendor, and then choose **Edit**.</span></span>
+3. <span data-ttu-id="0d33e-110">Syötä **Prioriteetti**-kenttään numero.</span><span class="sxs-lookup"><span data-stu-id="0d33e-110">In the **Priority** field, enter a number.</span></span>
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="c6a0a-111">in mukaan pienin numero (paitsi 0) tarkoittaa korkeinta prioriteettia.</span><span class="sxs-lookup"><span data-stu-id="c6a0a-111">considers the lowest number, except 0, to have the highest priority.</span></span> <span data-ttu-id="c6a0a-112">Siten jos käytät esimerkiksi numeroita 1, 2 ja 3, numerolla 1 on korkein prioriteetti.</span><span class="sxs-lookup"><span data-stu-id="c6a0a-112">So, for example, if you use 1, 2, and 3, then 1 will have the highest priority.</span></span>
+[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="0d33e-111">in mukaan pienin numero (paitsi 0) tarkoittaa korkeinta prioriteettia.</span><span class="sxs-lookup"><span data-stu-id="0d33e-111">considers the lowest number, except 0, to have the highest priority.</span></span> <span data-ttu-id="0d33e-112">Siten jos käytät esimerkiksi numeroita 1, 2 ja 3, numerolla 1 on korkein prioriteetti.</span><span class="sxs-lookup"><span data-stu-id="0d33e-112">So, for example, if you use 1, 2, and 3, then 1 will have the highest priority.</span></span>
 
-<span data-ttu-id="c6a0a-113">Jos et halua priorisoida toimittajaa, jätä **Prioriteetti**-kenttä tyhjäksi.</span><span class="sxs-lookup"><span data-stu-id="c6a0a-113">If you do not want to prioritize a vendor, leave the **Priority** field blank.</span></span> <span data-ttu-id="c6a0a-114">Tämän jälkeen kun käytät maksuehdotusominaisuutta, tämä toimittaja tulee luetteloon kaikkien niiden toimittajien jälkeen, joilla on prioriteettinumero.</span><span class="sxs-lookup"><span data-stu-id="c6a0a-114">Then, if you use the payment suggestion feature, the vendor will be listed after all the vendors that have a priority number.</span></span> <span data-ttu-id="c6a0a-115">Prioriteettitasoja voi syöttää kuinka monta tahansa.</span><span class="sxs-lookup"><span data-stu-id="c6a0a-115">You can enter as many priority levels as necessary.</span></span>
+<span data-ttu-id="0d33e-113">Jos et halua priorisoida toimittajaa, jätä **Prioriteetti**-kenttä tyhjäksi.</span><span class="sxs-lookup"><span data-stu-id="0d33e-113">If you do not want to prioritize a vendor, leave the **Priority** field blank.</span></span> <span data-ttu-id="0d33e-114">Tämän jälkeen kun käytät maksuehdotusominaisuutta, tämä toimittaja tulee luetteloon kaikkien niiden toimittajien jälkeen, joilla on prioriteettinumero.</span><span class="sxs-lookup"><span data-stu-id="0d33e-114">Then, if you use the payment suggestion feature, the vendor will be listed after all the vendors that have a priority number.</span></span> <span data-ttu-id="0d33e-115">Prioriteettitasoja voi syöttää kuinka monta tahansa.</span><span class="sxs-lookup"><span data-stu-id="0d33e-115">You can enter as many priority levels as necessary.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="c6a0a-116">Katso myös</span><span class="sxs-lookup"><span data-stu-id="c6a0a-116">See Also</span></span>
-[<span data-ttu-id="c6a0a-117">Ostojen määrittäminen</span><span class="sxs-lookup"><span data-stu-id="c6a0a-117">Setting Up Purchasing</span></span>](purchasing-setup-purchasing.md)  
-[<span data-ttu-id="c6a0a-118">Ostovelkojen hallinta</span><span class="sxs-lookup"><span data-stu-id="c6a0a-118">Managing Payables</span></span>](payables-manage-payables.md)  
-<span data-ttu-id="c6a0a-119">[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="c6a0a-119">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="0d33e-116">Katso myös</span><span class="sxs-lookup"><span data-stu-id="0d33e-116">See Also</span></span>
+[<span data-ttu-id="0d33e-117">Ostojen määrittäminen</span><span class="sxs-lookup"><span data-stu-id="0d33e-117">Setting Up Purchasing</span></span>](purchasing-setup-purchasing.md)  
+[<span data-ttu-id="0d33e-118">Ostovelkojen hallinta</span><span class="sxs-lookup"><span data-stu-id="0d33e-118">Managing Payables</span></span>](payables-manage-payables.md)  
+<span data-ttu-id="0d33e-119">[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="0d33e-119">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
