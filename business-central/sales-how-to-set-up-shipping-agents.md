@@ -1,8 +1,6 @@
 ---
 title: Kuljetusliikkeiden määrittäminen | Microsoft Docs
 description: Voit määrittää koodin jokaiselle kuljetusliikkeelle, ja syöttää tietoja niistä.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,38 +10,38 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 27b362c9c9aabec842e28e631ca2b93c1515f2fc
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: b1c5b0940998531601f0ab1c604c31328ce2bd66
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311978"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882852"
 ---
-# <a name="set-up-shipping-agents"></a><span data-ttu-id="0d182-103">Kuljetusliikkeiden määrittäminen</span><span class="sxs-lookup"><span data-stu-id="0d182-103">Set Up Shipping Agents</span></span>
-<span data-ttu-id="0d182-104">Voit määrittää koodin jokaiselle kuljetusliikkeelle, ja syöttää tietoja niistä.</span><span class="sxs-lookup"><span data-stu-id="0d182-104">You can set up a code for each of your shipping agents and enter information about them.</span></span>  
+# <a name="set-up-shipping-agents"></a><span data-ttu-id="7862e-103">Kuljetusliikkeiden määrittäminen</span><span class="sxs-lookup"><span data-stu-id="7862e-103">Set Up Shipping Agents</span></span>
+<span data-ttu-id="7862e-104">Voit määrittää koodin jokaiselle kuljetusliikkeelle, ja syöttää tietoja niistä.</span><span class="sxs-lookup"><span data-stu-id="7862e-104">You can set up a code for each of your shipping agents and enter information about them.</span></span>  
 
-<span data-ttu-id="0d182-105">Jos syötät Internet-osoitteen kuljetusliikkeen kohdalle, ja jos kuljetusliike tarjoaa kollinseurantapalveluja Internetissä, voit käyttää ohjelman automaattista kollin seuranta -ominaisuutta.</span><span class="sxs-lookup"><span data-stu-id="0d182-105">If you enter an Internet address for the shipping agent, and the agent provides package tracking services on the Internet, you can use the automatic package tracking feature.</span></span> <span data-ttu-id="0d182-106">Lisätietoja on kohdassa [Kollien seuraaminen](sales-how-track-packages.md).</span><span class="sxs-lookup"><span data-stu-id="0d182-106">For more information, see [Track Packages](sales-how-track-packages.md).</span></span>
+<span data-ttu-id="7862e-105">Jos syötät Internet-osoitteen kuljetusliikkeen kohdalle, ja jos kuljetusliike tarjoaa kollinseurantapalveluja Internetissä, voit käyttää ohjelman automaattista kollin seuranta -ominaisuutta.</span><span class="sxs-lookup"><span data-stu-id="7862e-105">If you enter an Internet address for the shipping agent, and the agent provides package tracking services on the Internet, you can use the automatic package tracking feature.</span></span> <span data-ttu-id="7862e-106">Lisätietoja on kohdassa [Kollien seuraaminen](sales-how-track-packages.md).</span><span class="sxs-lookup"><span data-stu-id="7862e-106">For more information, see [Track Packages](sales-how-track-packages.md).</span></span>
 
-<span data-ttu-id="0d182-107">Kun määrität kuljetusliikkeitä myyntitilauksillesi, voit määrittää myös kunkin kuljetusliikkeen tarjoamat palvelut.</span><span class="sxs-lookup"><span data-stu-id="0d182-107">When you set up shipping agents on your sales orders, you can also specify the services that each shipping agent offers.</span></span>  
-<span data-ttu-id="0d182-108">Voit määrittää rajoittamattoman määrän palveluita jokaiselle kuljetusliikkeelle ja voit määrittää toimitusajan jokaiselle palvelulle.</span><span class="sxs-lookup"><span data-stu-id="0d182-108">For each shipping agent, you can set up an unlimited number of services, and you can specify a shipping time for each service.</span></span>  
+<span data-ttu-id="7862e-107">Kun määrität kuljetusliikkeitä myyntitilauksillesi, voit määrittää myös kunkin kuljetusliikkeen tarjoamat palvelut.</span><span class="sxs-lookup"><span data-stu-id="7862e-107">When you set up shipping agents on your sales orders, you can also specify the services that each shipping agent offers.</span></span>  
+<span data-ttu-id="7862e-108">Voit määrittää rajoittamattoman määrän palveluita jokaiselle kuljetusliikkeelle ja voit määrittää toimitusajan jokaiselle palvelulle.</span><span class="sxs-lookup"><span data-stu-id="7862e-108">For each shipping agent, you can set up an unlimited number of services, and you can specify a shipping time for each service.</span></span>  
 
-<span data-ttu-id="0d182-109">Kun olet määrittänyt kuljetusliikkeen palvelun myyntitilausriville, palvelun toimitusaika sisällytetään sille riville toimituksen lupaamisen laskentaan.</span><span class="sxs-lookup"><span data-stu-id="0d182-109">When you have assigned a shipping agent service to a sales order line, the shipping time of the service will be included in the order promising calculation, for that line.</span></span> <span data-ttu-id="0d182-110">Lisätietoja on kohdassa [Toimituksen lupaamisen päivämäärän laskeminen](sales-how-to-calculate-order-promising-dates.md).</span><span class="sxs-lookup"><span data-stu-id="0d182-110">For more information, see [Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md).</span></span>
+<span data-ttu-id="7862e-109">Kun olet määrittänyt kuljetusliikkeen palvelun myyntitilausriville, palvelun toimitusaika sisällytetään sille riville toimituksen lupaamisen laskentaan.</span><span class="sxs-lookup"><span data-stu-id="7862e-109">When you have assigned a shipping agent service to a sales order line, the shipping time of the service will be included in the order promising calculation, for that line.</span></span> <span data-ttu-id="7862e-110">Lisätietoja on kohdassa [Toimituksen lupaamisen päivämäärän laskeminen](sales-how-to-calculate-order-promising-dates.md).</span><span class="sxs-lookup"><span data-stu-id="7862e-110">For more information, see [Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md).</span></span>
 
-## <a name="to-set-up-a-shipping-agent"></a><span data-ttu-id="0d182-111">Kuljetusliikkeiden määrittäminen</span><span class="sxs-lookup"><span data-stu-id="0d182-111">To set up a shipping agent</span></span>  
-1.  <span data-ttu-id="0d182-112">Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kuljetusliikkeet** ja valitse sitten liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="0d182-112">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shipping Agents**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="0d182-113">Täytä tarvittavat kentät.</span><span class="sxs-lookup"><span data-stu-id="0d182-113">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]<span data-ttu-id="0d182-114">.</span><span class="sxs-lookup"><span data-stu-id="0d182-114">.</span></span>  
-3.  <span data-ttu-id="0d182-115">Valitse **Kuljetusliikkeen palvelut** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="0d182-115">Choose the **Shipping Agent Services** action.</span></span>
-4. <span data-ttu-id="0d182-116">Täytä tarvittavat **Kuljetusliikkeen palvelut** -kentät.</span><span class="sxs-lookup"><span data-stu-id="0d182-116">In the **Shipping Agent Services**, fill in the fields as necessary.</span></span>
+## <a name="to-set-up-a-shipping-agent"></a><span data-ttu-id="7862e-111">Kuljetusliikkeiden määrittäminen</span><span class="sxs-lookup"><span data-stu-id="7862e-111">To set up a shipping agent</span></span>  
+1.  <span data-ttu-id="7862e-112">Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Kuljetusliikkeet** ja valitse sitten liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="7862e-112">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shipping Agents**, and then choose the related link.</span></span>  
+2.  <span data-ttu-id="7862e-113">Täytä tarvittavat kentät.</span><span class="sxs-lookup"><span data-stu-id="7862e-113">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]<span data-ttu-id="7862e-114">.</span><span class="sxs-lookup"><span data-stu-id="7862e-114">.</span></span>  
+3.  <span data-ttu-id="7862e-115">Valitse **Kuljetusliikkeen palvelut** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="7862e-115">Choose the **Shipping Agent Services** action.</span></span>
+4. <span data-ttu-id="7862e-116">Täytä tarvittavat **Kuljetusliikkeen palvelut** -kentät.</span><span class="sxs-lookup"><span data-stu-id="7862e-116">In the **Shipping Agent Services**, fill in the fields as necessary.</span></span>
 
 > [!NOTE]  
->  <span data-ttu-id="0d182-117">Jos poistat kuljetusliikkeen tilausriviltä, ohjelma poistaa riviltä myös kuljetusliikkeen palvelukoodin.</span><span class="sxs-lookup"><span data-stu-id="0d182-117">If you delete the shipping agent on the order line, the shipping agent service code is also deleted.</span></span> <span data-ttu-id="0d182-118">Ohjelma laskee sen jälkeen uudelleen kenttien tiedot, jotka perustuivat osittain kuljetusliikkeiden palveluihin.</span><span class="sxs-lookup"><span data-stu-id="0d182-118">The contents of fields that were based in part on the shipping agent service are recalculated.</span></span>  
+>  <span data-ttu-id="7862e-117">Jos poistat kuljetusliikkeen tilausriviltä, ohjelma poistaa riviltä myös kuljetusliikkeen palvelukoodin.</span><span class="sxs-lookup"><span data-stu-id="7862e-117">If you delete the shipping agent on the order line, the shipping agent service code is also deleted.</span></span> <span data-ttu-id="7862e-118">Ohjelma laskee sen jälkeen uudelleen kenttien tiedot, jotka perustuivat osittain kuljetusliikkeiden palveluihin.</span><span class="sxs-lookup"><span data-stu-id="7862e-118">The contents of fields that were based in part on the shipping agent service are recalculated.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="0d182-119">Katso myös</span><span class="sxs-lookup"><span data-stu-id="0d182-119">See Also</span></span>
-[<span data-ttu-id="0d182-120">Toimitusehtojen määrittäminen</span><span class="sxs-lookup"><span data-stu-id="0d182-120">Set Up Shipment Methods</span></span>](sales-how-set-up-shipment-methods.md)  
-<span data-ttu-id="0d182-121">[Kollien seuraaminen](sales-how-track-packages.md)  </span><span class="sxs-lookup"><span data-stu-id="0d182-121">[Track Packages](sales-how-track-packages.md)  </span></span>  
-[<span data-ttu-id="0d182-122">Varastoinninhallinta</span><span class="sxs-lookup"><span data-stu-id="0d182-122">Warehouse Management</span></span>](warehouse-manage-warehouse.md)  
-[<span data-ttu-id="0d182-123">Varasto</span><span class="sxs-lookup"><span data-stu-id="0d182-123">Inventory</span></span>](inventory-manage-inventory.md)  
-<span data-ttu-id="0d182-124">[Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md)   </span><span class="sxs-lookup"><span data-stu-id="0d182-124">[Setting Up Warehouse Management](warehouse-setup-warehouse.md)   </span></span>  
-<span data-ttu-id="0d182-125">[Kokoonpanon hallinta](assembly-assemble-items.md)  </span><span class="sxs-lookup"><span data-stu-id="0d182-125">[Assembly Management](assembly-assemble-items.md)  </span></span>  
-[<span data-ttu-id="0d182-126">Rakennetiedot: Fyysisen varaston hallinta</span><span class="sxs-lookup"><span data-stu-id="0d182-126">Design Details: Warehouse Management</span></span>](design-details-warehouse-management.md)  
-<span data-ttu-id="0d182-127">[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="0d182-127">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+## <a name="see-also"></a><span data-ttu-id="7862e-119">Katso myös</span><span class="sxs-lookup"><span data-stu-id="7862e-119">See Also</span></span>
+[<span data-ttu-id="7862e-120">Toimitusehtojen määrittäminen</span><span class="sxs-lookup"><span data-stu-id="7862e-120">Set Up Shipment Methods</span></span>](sales-how-set-up-shipment-methods.md)  
+<span data-ttu-id="7862e-121">[Kollien seuraaminen](sales-how-track-packages.md)  </span><span class="sxs-lookup"><span data-stu-id="7862e-121">[Track Packages](sales-how-track-packages.md)  </span></span>  
+[<span data-ttu-id="7862e-122">Varastoinninhallinta</span><span class="sxs-lookup"><span data-stu-id="7862e-122">Warehouse Management</span></span>](warehouse-manage-warehouse.md)  
+[<span data-ttu-id="7862e-123">Varasto</span><span class="sxs-lookup"><span data-stu-id="7862e-123">Inventory</span></span>](inventory-manage-inventory.md)  
+<span data-ttu-id="7862e-124">[Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md)   </span><span class="sxs-lookup"><span data-stu-id="7862e-124">[Setting Up Warehouse Management](warehouse-setup-warehouse.md)   </span></span>  
+<span data-ttu-id="7862e-125">[Kokoonpanon hallinta](assembly-assemble-items.md)  </span><span class="sxs-lookup"><span data-stu-id="7862e-125">[Assembly Management](assembly-assemble-items.md)  </span></span>  
+[<span data-ttu-id="7862e-126">Rakennetiedot: Fyysisen varaston hallinta</span><span class="sxs-lookup"><span data-stu-id="7862e-126">Design Details: Warehouse Management</span></span>](design-details-warehouse-management.md)  
+<span data-ttu-id="7862e-127">[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="7862e-127">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  

@@ -16,14 +16,14 @@
 
 ## [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)
 ## [Liiketoimintatoimintojen yleiskatsaus](across-business-functionality.md)
-## [Esikatseluversion kokeileminen](across-preview.md)
-## [Business Centralin poistaminen, nollaaminen tai tilauksen peruuttaminen](admin-cancel.md)
-## [Itsepalvelun rekisteröitymisen vianmääritys](ui-troubleshoot-self-signup.md)
+## [Kokeilut ja tilaukset](across-preview.md)
+### [Itsepalvelun rekisteröitymisen vianmääritys](ui-troubleshoot-self-signup.md)
+### [Business Centralin poistaminen tai tilauksen peruuttaminen](admin-cancel.md)
 ## [Älykkään pilven käyttäminen Business Centralin kanssa](about-intelligent-cloud.md)
 ## [Vieraile Microsoftin videokirjastossa](across-videos.md)
-## [Jälleenmyyjäksi ryhtyminen](product-sell.md)
-## [Business Centralin laajentaminen](about-develop-extensions.md)
-## [Muiden toimittajien Business Central -laajennukset](ui-extensions-other.md)
+## Jälleenmyyjät ja kumppanit
+### [Jälleenmyyjäksi ryhtyminen](product-sell.md)
+### [Business Centralin laajentaminen](about-develop-extensions.md)
 
 # Business Centralin käyttäminen
 ## [Yleiskuvaus](ui-work-product.md)
@@ -38,7 +38,7 @@
 ## [Kalenterin päivämäärien ja aikojen käsitteleminen](ui-enter-date-ranges.md)
 ## [Pakollisten kenttien havaitseminen](ui-mandatory-fields.md)
 ## [Kielen ja kielialueen muuttaminen](about-locale-language.md)
-## [Tarkastelu ja muokkaus Excelissä](across-work-with-excel.md)  
+## [Tarkastelu ja muokkaus Excelissä](across-work-with-excel.md)
 ## [Korttien ja asiakirjojen liitteiden, linkkien ja muistioiden hallinta](ui-how-add-link-to-record.md)
 ## [Perusasetusten muuttaminen](ui-change-basic-settings.md)
 ## [Ilmoitusten hallinta](ui-smart-notifications.md)
@@ -57,10 +57,11 @@
 ### [Eräajojen ja XMLportien suorittaminen](ui-how-run-batch-jobs.md)
 ## Ulkoisten asiakirjojen ja raporttien ulkoasun muuttaminen
 ### [Raporttien ja asiakirjojen asettelujen hallinta](ui-manage-report-layouts.md)
-### [Raporttien tai asiakirjojen asettelujen päivittäminen](ui-update-report-layouts.md)
-### [Muutosten tekeminen Word-raporttiasetteluun](ui-how-create-custom-report-layout.md)
-### [Raporttien tai asiakirjojen asettelun tuonti ja vienti](ui-how-import-and-export-report-layout.md)
 ### [Nykyisen raportin asettelun muuttaminen](ui-how-change-layout-currently-used-report.md)
+### [Raporttien mukautettujen asettelujen luominen ja muokkaaminen](ui-how-create-custom-report-layout.md)
+### [Tuo ja vie mukautettuja raporttiasetteluja](ui-how-import-and-export-report-layout.md)
+### [Päivitä mukautetut raporttiasettelut](ui-update-report-layouts.md)
+### [Asiakirja-asettelujen määrittäminen asiakkaille ja toimittajille](ui-define-customer-vendor-document-layouts.md)
 ### [Kenttien lisääminen Word-raporttiasetteluun](ui-how-add-fields-word-report-layout.md)
 ## Pikanäppäimien käyttäminen
 ### [Helppokäyttötoiminnot ja pikanäppäimet](ui-accessibility.md)
@@ -222,10 +223,10 @@
 ### [Yritystietojen ottaminen käyttöön Power BI:tä varten](admin-powerbi.md)
 ### [Power BI -raporttien luettelotietojen tarkasteleminen Business Centralissa](across-how-use-powerbi-reports-factbox.md)
 ### [Business Centralin käyttäminen Power BI -tietolähteenä](across-how-use-financials-data-source-powerbi.md)
-## Flow'n käyttäminen Business Centralin kanssa
+## Power Automate:n käyttäminen Business Centralin kanssa
 ### [Business Central -sovelluksen käyttäminen automaattisessa työnkulussa](across-how-use-financials-data-source-flow.md)
-### [Microsoft Flow -integroinnin vianmääritys – pyynnön URL-osoite on liian pitkä](across-troubleshooting-how-use-financials-data-source-flow.md)
-## [Yhteyden muodostaminen Business Central -tietoihin yrityssovelluksen luomista varten PowerAppsin avulla](across-how-use-financials-data-source-powerapps.md)
+## Power Appsin käyttäminen Business Centralin kanssa
+### [Yhteyden muodostaminen Business Central -tietoihin yrityssovelluksen luomista varten Power Apps-sovellusten avulla](across-how-use-financials-data-source-powerapps.md)
 ## [Vaihtaminen QuickBooks-sovelluksesta Business Centraliin](across-quickbooks-to-business-edition.md)
 ## [Business Central -sovelluksen hakeminen mobiililaitteeseen](install-mobile-app.md)
 ## [Microsoft Bookingsin massalaskutus](finance-bookings.md)
@@ -271,7 +272,7 @@
 #### [Hyväksynnän käyttäjien määrittäminen](across-how-to-set-up-approval-users.md)
 #### [Työnkulkuilmoitusten määrittäminen](across-setting-up-workflow-notifications.md)
 #### [Ilmoitusten vastaanoton ajankohdan ja tavan määrittäminen](across-how-to-specify-when-and-how-to-receive-notifications.md)
-#### [Raporttien tai asiakirjojen mukautetun asettelun luominen ja muokkaaminen](ui-how-create-custom-report-layout.md)
+#### [Raporttien mukautettujen asettelujen luominen ja muokkaaminen](ui-how-create-custom-report-layout.md)
 #### [Sähköpostin määrittäminen](admin-how-setup-email.md)
 #### [Työnkulkujen luominen](across-how-to-create-workflows.md)
 #### [Työnkulkujen luominen työnkulkumalleista](across-how-to-create-workflows-from-workflow-templates.md)
