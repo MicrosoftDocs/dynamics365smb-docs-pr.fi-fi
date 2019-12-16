@@ -1,8 +1,6 @@
 ---
 title: Maksutoleranssi ja maksualennustoleranssi | Microsoft Docs
 description: Voit määrittää maksutoleranssin sulkeaksesi laskun, kun maksu ei täysin kata laskun summaa.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a3bed8b9298b668e627691be11598ca8c78238db
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 229602a4ca5eb7b2da926171a7ba86a8d103b133
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305738"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879606"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Maksutoleranssien ja maksualennustoleranssien käsitteleminen
 Voit määrittää maksutoleranssin ja sulkea sen avulla laskun, kun maksu ei täysin kata laskun summaa. Voit määrittää maksualennustoleranssin, jolla voi myöntää maksualennuksen sen jälkeen kun maksualennuspäivämäärä on ohitettu.  
@@ -44,13 +42,13 @@ Lisätietoja on kohdassa [Maksutoleranssin varoitusten käyttöönotto tai käyt
 Toleranssi päivillä ja summilla sallii laskun sulkemisen vaikka maksu ei täysin kata laskun summaa, johtuu tämä sitten maksualennuspäivän ylittämisestä, virheellisten tavaroiden aiheuttamasta vähennyksestä tai pienestä virheestä. Tämä pätee myös hyvityksiin ja hyvityslaskuihin.  
 
 Määrittääksesi toleranssin sinun tulee määrittää useita toleranssitilejä, sekä maksualennustoleranssin että maksutoleranssin kirjaustavat ja sitten ajaa **Muuta maksutoleranssia** -eräajo  
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Yleiset kirjausasetukset** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Yleiset kirjausasetukset** ja valitse sitten liittyvä linkki.  
 2. Määritä **Yleiset kirjausasetukset** -sivulla debet- ja kredit-myynnin maksutoleranssin tili ja debet- ja kredit-ostojen maksutoleranssin tili.  
-3. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asiakkaan kirjausryhmät** ja valitse sitten liittyvä linkki.    
+3. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Asiakkaan kirjausryhmät** ja valitse sitten liittyvä linkki.    
 4. Määritä **Asiakkaan kirjausryhmät** -sivulla debet- ja kredit-maksutoleranssitili. Lisätietoja on kohdassa [Kirjausryhmien määrittäminen](finance-posting-groups.md).  
-5. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Toimittajan kirjausasetukset** ja valitse sitten liittyvä linkki.  
+5. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Toimittajan kirjausasetukset** ja valitse sitten liittyvä linkki.  
 6. Määritä **Toimittajan kirjausryhmät** -sivulla debet- ja kredit-maksutoleranssitili.  
-7. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Pääkirjanpidon asetukset** ja valitse sitten liittyvä linkki.  
+7. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pääkirjanpidon määritykset** ja valitse sitten liittyvä linkki.  
 8. Avaa **Pääkirjanpidon asetukset** -sivu.  
 9. Täytä **Kohdistus** -pikavälilehdessä **Maksualennustoler. kirjaaminen**-, **Maksualennuksen ylityskausi**- ja **Maksutoleranssin kirjaus** -kentät.   
 10. Valitse **Muuta maksutoleranssia** -toiminto.
@@ -68,7 +66,7 @@ Määrittääksesi toleranssin sinun tulee määrittää useita toleranssitilej�
 
 ## <a name="to-enable-or-disable-payment-tolerance-warnings"></a>Maksutoleranssivaroitusten ottaminen käyttöön tai poistaminen käytöstä
 Maksutoleranssivaroitus ilmestyy, kun kirjaat kohdistuksen, jonka saldo mahtuu sallittuun toleranssiin. Voit sitten päättää kuinka kirjaat ja dokumentoit saldon.    
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Pääkirjanpidon asetukset** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pääkirjanpidon määritykset** ja valitse sitten liittyvä linkki.  
 2. Voit ottaa varoituksen käyttöön lisäämällä **Pääkirjanpidon asetukset** -sivun **Kohdistus**-pikavälilehden **Maksutoleranssin varoitus** -valintaruutuun valintamerkin. Ottaaksesi varoituksen pois päältä, poista ruksi  
 
 > [!NOTE]  
@@ -124,7 +122,7 @@ Jäljellä oleva summa per
 
 Normaalit kohdistussäännöt  
 
-![Yksittäisen maksun toleranssisäännöt 1](media/singlePmtTolRules(Pre1503).gif "Yksittäisen maksun toleranssisäännöt 1")  
+![Kertamaksutoleranssin säännöt 1](media/singlePmtTolRules(Pre1503).gif "Kertamaksutoleranssin säännöt 1")  
 
 (1) Mikäli maksu osuu tälle välille, kaikki kohdistettavat tapahtumat voidaan sulkea toleranssilla tai ilman sitä.  
 
@@ -135,7 +133,7 @@ Jäljellä oleva summa per
 
 Normaalit kohdistussäännöt  
 
-![Yksittäisen maksun toleranssisäännöt 2](media/singlePmtTolRules(GracePeriod).gif "Yksittäisen maksun toleranssisäännöt 2")  
+![Kertamaksutoleranssin säännöt 2](media/singlePmtTolRules(GracePeriod).gif "Kertamaksutoleranssin säännöt 2")  
 
 (1) Mikäli maksu osuu tälle välille, kaikki kohdistettavat tapahtumat voidaan sulkea toleranssilla tai ilman sitä.  
 
@@ -146,7 +144,7 @@ Jäljellä oleva summa per
 
 Normaalit kohdistussäännöt  
 
-![Yksittäisen maksun toleranssisäännöt 3](media/singlePmtTolRules(Post0120).gif "Yksittäisen maksun toleranssisäännöt 3")  
+![Kertamaksutoleranssin säännöt 3](media/singlePmtTolRules(Post0120).gif "Kertamaksutoleranssin säännöt 3")  
 
 (1) Mikäli maksu osuu tälle välille, kaikki kohdistettavat tapahtumat voidaan sulkea toleranssilla tai ilman sitä.  
 
@@ -207,7 +205,7 @@ Jäljellä oleva summa per
 
 Normaalit kohdistussäännöt  
 
-![Useiden maksujen toleranssisäännöt 1](media/multiplePmtTolRules(Pre1503).gif "Useiden maksujen toleranssisäännöt 1")  
+![Useiden maksujen toleranssin säännöt 1](media/multiplePmtTolRules(Pre1503).gif "Useiden maksujen toleranssin säännöt 1")  
 
 (1) Mikäli maksu osuu tälle välille, kaikki kohdistettavat tapahtumat voidaan sulkea toleranssilla tai ilman sitä.  
 
@@ -218,7 +216,7 @@ Jäljellä oleva summa per
 
 Normaalit kohdistussäännöt  
 
-![Useiden maksujen toleranssisäännöt 2](media/multiplePmtTolRules(GracePeriodInv1-2).gif "Useiden maksujen toleranssisäännöt 2")  
+![Useiden maksujen toleranssin säännöt 2](media/multiplePmtTolRules(GracePeriodInv1-2).gif "Useiden maksujen toleranssin säännöt 2")  
 
 (1) Mikäli maksu osuu tälle välille, kaikki kohdistettavat tapahtumat voidaan sulkea toleranssilla tai ilman sitä.  
 
@@ -229,7 +227,7 @@ Jäljellä oleva summa per
 
 Normaalit kohdistussäännöt  
 
-![Useiden maksujen toleranssisäännöt 3](media/multiplePmtTolRules(GracePeriodInv1).gif "Useiden maksujen toleranssisäännöt 3")  
+![Useiden maksujen toleranssin säännöt 3](media/multiplePmtTolRules(GracePeriodInv1).gif "Useiden maksujen toleranssin säännöt 3")  
 
 (1) Mikäli maksu osuu tälle välille, kaikki kohdistettavat tapahtumat voidaan sulkea toleranssilla tai ilman sitä.  
 
@@ -240,7 +238,7 @@ Jäljellä oleva summa per
 
 Normaalit kohdistussäännöt  
 
-![Useiden maksujen toleranssisäännöt 4](media/multiplePmtTolRules(GracePeriodInv2).gif "Useiden maksujen toleranssisäännöt 4")  
+![Useiden maksujen toleranssin säännöt 4](media/multiplePmtTolRules(GracePeriodInv2).gif "Useiden maksujen toleranssin säännöt 4")  
 
 (1) Mikäli maksu osuu tälle välille, kaikki kohdistettavat tapahtumat voidaan sulkea toleranssilla tai ilman sitä.  
 
@@ -251,7 +249,7 @@ Jäljellä oleva summa per
 
 Normaalit kohdistussäännöt  
 
-![Useiden maksujen toleranssisäännöt 5](media/multiplePmtTolRules(Post0122).gif "Useiden maksujen toleranssisäännöt 5")  
+![Useiden maksujen toleranssin säännöt 5](media/multiplePmtTolRules(Post0122).gif "Useiden maksujen toleranssin säännöt 5")  
 
 (1) Mikäli maksu osuu tälle välille, kaikki kohdistettavat tapahtumat voidaan sulkea toleranssilla tai ilman sitä.  
 

@@ -1,8 +1,6 @@
 ---
 title: Suunnitteluehdotusten muokkaaminen graafisessa näkymässä | Microsoft Docs
 description: Tyypillinen suunnittelun tehtävä on muuttaa tai lisätä suunnittelutyökirjan rivejä ehdotettujen toimitustilausten muokkaamiseksi ennen kuin ne suoritetaan **Toteuta toimenpideviesti** -toiminnolla. Vaihtoehtona suunnittelutyökirjassa on graafinen esitys.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3aea6aa1aab6b5006bdc548b99bfa037e995de32
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2d068ed3e206f7d93b15d0cd2af56a7557ce3977
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313370"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877925"
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a>Suunnitteluehdotusten muokkaaminen graafisessa näkymässä
 Tyypillinen suunnittelun tehtävä on muuttaa tai lisätä suunnittelutyökirjan rivejä ehdotettujen toimitustilausten muokkaamiseksi ennen kuin ne suoritetaan **Toteuta toimenpideviesti** -toiminnolla. Vaihtoehtona suunnittelutyökirjassa on graafinen esitys.
@@ -37,7 +35,7 @@ Kun valitset **Tallenna muutokset** **Nimikkeen saatavuus aikajanalla** -sivulla
 Seuraavassa ohjeessa neuvotaan, miten tarjontaehdotuksia voi muokata vetämällä ja pudottamalla. Vaihtoehtona, voit muuttaa **Eräpäivä**- ja **Määrä**-kenttiä **Tapahtumamuutokset**-pikavälilehdessä ja nähdä muutokset heti graafisesti **Aikajana**-pikavälilehdellä **Suunnittelutyökirja** -sivulla.  
 
 ## <a name="to-modify-suggested-supply-orders-in-the-graphical-view"></a>Muokkaa ehdotetut toimitustilaukset graafisessa näkymässä  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeen saatavuus aikajanalla** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Nimikkeen saatavuus aikajanalla** ja valitse sitten liittyvä linkki.  
 
     **Nimikkeen saatavuus aikajanalla** -sivu näyttää auetessaan nimikkeen numeron, sijainnin ja variantin valitulla suunnittelurivillä, joka on esitäytetty **Asetukset**-pikavälilehden kenttien mukaisesti. **Aikajana**-pikavälilehdessä näkyy graafinen esitys nimikkeen suunnitellusta varastosta, mukaan lukien suunnitteluehdotuksista.  
 
@@ -97,5 +95,5 @@ Aiemmin mainittujen näppäimistötoimintojen lisäksi voit käyttää myös **A
 [Vaihto-omaisuus](inventory-manage-inventory.md)  
 [Osto](purchasing-manage-purchasing.md)  
 [Rakennetiedot: Toimitusten suunnittelu](design-details-supply-planning.md)   
-[Parhaiden käytäntöjen määrittäminen: Toimitusten suunnittelu](setup-best-practices-supply-planning.md)  
+[Asetukset - parhaat käytännöt: toimitusten suunnittelu](setup-best-practices-supply-planning.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)

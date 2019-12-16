@@ -1,8 +1,6 @@
 ---
 title: Rakennetiedot – suunnittelujärjestelmän keskeiset käsitteet| Microsoft Docs
 description: Nämä suunnittelutoiminnot sisältyvät ensimmäisen eräajoon, joka valitsee liittyvät nimikkeet ja kauden suunnittelua varten sekä ehdottaa sitten käyttäjille mahdollisia toimia kysyntä- ja tarjontatilanteen sekä nimikkeen suunnitteluparametrien perusteella.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 025b8fb9100d8418e9e157e8098afe19d24843fc
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 92c30770b62b6456a16ab26db2c4ea3cda526b8e
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303746"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880590"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Rakennetiedot: suunnittelujärjestelmän keskeiset käsitteet
 Suunnittelutoiminnot on sisällytetty eräajoon, joka ensin valitsee asiaankuuluvat nimikkeet ja ajanjaksot, jotka suunnitellaan. Eräajo kutsuu koodiyksikköä kunkin nimikkeen alatason koodin (tuotantorakenteen positio) mukaisesti ja laskee suunnitelman täsmäyttämällä tarjonta- ja kysyntäjoukot ja ehdottaa käyttäjälle mahdollisia toimintatapoja. Ehdotetut toimenpiteet ilmestyvät riveinä suunnittelutaulukkoon tai tilaustaulukkoon.  
@@ -88,7 +86,7 @@ Laskentajärjestys on tärkeä suunnitelman muodostuksessa, koska sen avulla ty�
 ### <a name="item-priority--low-level-code"></a>Nimikkeen prioriteetti/alatason koodi  
 Valmistusympäristössä valmiiden, myytävien nimikkeiden kysyntä aiheuttaa valmiin nimikkeen koostavien komponenttien johdettua kysyntää. Materiaalilasku-rakenne kontrolloi osan rakennetta ja voi kattaa useita puolivalmiiden nimikkeiden tasoja. Yhden nimikkeen suunnittelu yhdellä tasolla aiheuttaa epäsuoran kysynnän seuraavan tason komponenteille ja niin edelleen. Lopulta tämä johtaa ostettujen nimikkeiden epäsuoraan kysyntään. Näin ollen suunnittelujärjestelmä suunnittelee nimikkeille niiden tuoterakenteen hierarkian luokituksen määräämässä järjestyksessä alkaen loppuneista myytävissä olevista nimikkeistä ylätasolla ja jatkuen alas tuoterakenteen läpi alemman tason nimikkeisiin (alatason koodin mukaisesti).  
 
-![Tuoterakenteen suunnittelu](media/NAV_APP_supply_planning_1_BOM_planning.png "Tuoterakenteen suunnittelu")  
+![Tuoterakenteiden suunnitelma](media/NAV_APP_supply_planning_1_BOM_planning.png "Tuoterakenteiden suunnitelma")  
 
 Luvut osoittavat missä järjestyksessä järjestelmä tekee ehdotuksia toimitustilauksiin huipputasolla ja olettaen, että käyttäjä hyväksyy nämä ehdotukset, missä tahansa alemman tason nimikkeissä myös.  
 
@@ -113,7 +111,7 @@ Lisätietoja on ohjeaiheessa [Rakennetiedot: tilausten priorisointi](design-deta
 ## <a name="demand-forecasts-and-blanket-orders"></a>Kysyntäennusteet ja puitetilaukset  
 Sekä ennustukset ja puitetilaukset esittävät odotettavissa olevaa kysyntää. Kestotilaus, joka kattaa asiakkaan suunnitellut ostot tietyltä aikajaksolta, vähentää yleisennusteen epävarmuutta. Kestotilaus on asiakkaan määrittämä ennuste määrittämättömien ennusteiden lisäksi, kuten kuvattu alla.  
 
-![Suunnittelu ennusteiden avulla](media/NAV_APP_supply_planning_1_forecast_and_blanket.png "Suunnittelu ennusteiden avulla")  
+![Ennusteiden käyttäminen suunnitelussa](media/NAV_APP_supply_planning_1_forecast_and_blanket.png "Ennusteiden käyttäminen suunnitelussa")  
 
 Lisätietoja on kohdan [Rakennetiedot: varastoprofiilien lataaminen](design-details-loading-the-inventory-profiles.md) osassa Myyntitilaukset vähentävät ennustettua kysyntää.  
 
@@ -202,7 +200,7 @@ Suunnittelujärjestelmä sisällyttää kuitenkin edelleen varatut määrät suu
 
 Seuraavassa kuvassa esitetään, kuinka varaukset voivat estää kaikista todennäköisimmän suunnitelman.  
 
-![Suunnittelu varausten avulla](media/NAV_APP_supply_planning_1_reservations.png "Suunnittelu varausten avulla")  
+![Varausten suunnittelu](media/NAV_APP_supply_planning_1_reservations.png "Varausten suunnittelu")  
 
 Lisätietoja on kohdassa [Rakennetiedot: varaus, tilauksen seuranta ja toimenpiteiden viestitys](design-details-reservation-order-tracking-and-action-messaging.md).  
 
@@ -254,7 +252,7 @@ Laske suunnitelma -pyyntösivulla käyttäjä voi valita **Pysäytä ja Näytä 
 
 Jos kenttää ei ole valittu, Laske suunnitelma -eräajo jatkaa suoritusta loppuun asti. Virheet eivät keskeytä eräajoa. Jos virheitä ilmenee, sovellus tuo eräajon jälkeen näkyviin sanoman, jossa ilmoitetaan kuinka moneen nimikkeeseen virheet vaikuttavat. Tämän jälkeen avautuu **Suunnittelun virheloki** -sivu, jossa on lisätietoja virheestä ja linkit vaikutusalueeseen kuuluviin asiakirjoihin tai asetuskortteihin.  
 
-![Suunnittelutyökirjan virhesanomat](media/NAV_APP_supply_planning_1_error_log.png "Suunnittelutyökirjan virhesanomat")  
+![Virhesanomat suunnittelutyökirjassa](media/NAV_APP_supply_planning_1_error_log.png "Virhesanomat suunnittelutyökirjassa")  
 
 ## <a name="planning-flexibility"></a>Suunnittelun joustavuus  
 Ei ole aina käytännöllistä suunnitella olemassa olevaa toimitustilausta, kuten silloin, kun tuotanto on käynnistynyt tai henkilöstöä on palkattu lisää tiettynä päivänä työn suorittamiseksi. Kaikilla toimitustilauksen riveillä on Suunnittelun joustavuus -kenttä, jolla on kaksi valintaa: Rajaton tai Ei mitään. Tämän kentän avulla osoitetaan, voiko suunnittelujärjestelmä muuttaa olemassa olevan tilauksen. Jos kentän arvoksi on asetettu Ei mitään, suunnittelujärjestelmä ei yritä muuttaa toimitustilauksen riviä.  

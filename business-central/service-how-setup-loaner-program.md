@@ -1,8 +1,6 @@
 ---
 title: Lainatavaroiden määrittäminen | Microsoft Docs
 description: Voit määrittää lainatavaroita, joita voit lainata asiakkaille huollossa olevien huoltonimikkeiden tilalle.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: aa614e87a6414cb0d96f1130f02d40898cc2f2e3
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 494f7c621a141b84f104ad855b2aa1e412aa837f
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311858"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877469"
 ---
 # <a name="set-up-a-loaner-program"></a>Lainatavaraohjelman määrittäminen
 Ajoittain on tarpeen toimittaa asiakkaan käyttöön lainatavara, kunnes huoltohenkilökunta korjaa asiakkaan tavaran. Voit määrittää [!INCLUDE[d365fin](includes/d365fin_md.md)]iin lainatavaraohjelman, lainata nimikkeitä asiakkaille ja seurata nimikkeiden vastaanottoa, kun asiakkaat palauttavat ne. Voit myös lisätä lainatavaroita koskevia kommentteja kahdella tavalla:  
@@ -26,7 +24,7 @@ Ajoittain on tarpeen toimittaa asiakkaan käyttöön lainatavara, kunnes huoltoh
 * Määritä lainatavaraa edellyttävän huoltonimikkeen huomautus.  
 
 ## <a name="to-set-up-a-loaner"></a>Lainatavaran määrittäminen  
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Lainatavarat** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Lainatavarat** ja valitse sitten liittyvä linkki.  
 2. Luo uusi lainatavarakortti. 
 3. Valitse **Nro**-kenttään lainatavaran numero. Vaihtoehtoisesti jos olet määrittänyt lainatavaroille numerosarjan **Huoltohallinnon asetukset**-sivulla, voit painaa Enter-näppäintä antaaksesi ohjelman syöttää seuraavan saatavilla olevan lainatavaran numeron.  
 4. Täytä **Kuvaus** -, **Kuvaus 2** - ja **Sarjanro** -kentät.  

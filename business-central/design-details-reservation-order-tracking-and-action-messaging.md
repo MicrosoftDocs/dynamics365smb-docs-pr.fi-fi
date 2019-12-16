@@ -1,8 +1,6 @@
 ---
 title: Rakennetiedot – varaus, tilauksen seuranta ja toimenpiteiden viestintä | Microsoft Docs
 description: Varausjärjestelmä on kokonaisvaltainen ja se sisältää Tilausten seurannan ja toimintaviestinnän keskenään yhteydessä olevat ja rinnakkaiset ominaisuudet.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, replenishment, reordering
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1408c3e97ffd54f516bf18823442f3f986131038
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a3b7c5c52590644a8f61c0d97312d7dd1342fc97
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306842"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878435"
 ---
 # <a name="design-details-reservation-order-tracking-and-action-messaging"></a>Rakennetiedot: varaus, tilauksen seuranta ja toimenpiteiden viestitys
 Varausjärjestelmä on kokonaisvaltainen ja se sisältää Tilausten seurannan ja toimintaviestinnän keskenään yhteydessä olevat ja rinnakkaiset ominaisuudet.  
@@ -31,7 +29,7 @@ Varausjärjestelmä on kokonaisvaltainen ja se sisältää Tilausten seurannan j
 
  Varausjärjestelmä muotoilee myös rakenteellisen perustan nimikkeenseurantajärjestelmälle. Lisätietoja on kohdassa [Rakennetiedot: nimikkeen seuranta](design-details-item-tracking.md).  
 
- Lisätietoja varausjärjestelmän toiminnasta on Varaustapahtumataulukko-raportissa sivustossa [Partnersource](http://go.microsoft.com/fwlink/?LinkId=258348).  
+ Lisätietoja varausjärjestelmän toiminnasta on Varaustapahtumataulukko-raportissa sivustossa [Partnersource](https://go.microsoft.com/fwlink/?LinkId=258348).  
 
 ## <a name="reservation"></a>Varaus  
  Varaus on sitova linkki, joka yhdistää tietyn kysynnän ja tietyn tarjonnan toisiinsa. Tämä linkki vaikuttaa suoraan tuleviin varastotapahtumiin ja varmistaa nimiketapahtumien oikean kohdistuksen kustannustarkoituksia varten. Varaus ohittaa nimikkeen oletusarvoisen arvostusmenetelmän. Katso lisätietoja kohdasta Rakennetiedot: arvostusmenetelmät.  
@@ -184,7 +182,7 @@ Varausjärjestelmä on kokonaisvaltainen ja se sisältää Tilausten seurannan j
 
  **Eränro**-kenttä on nyt täytetty tilauksen seurantakirjauksessa taulukossa 5407, koska eränumerot on määritetty tuotantotilauksen osariveillä.  
 
- Lisää **Varaustapahtuma**-taulukon tilausten seurantatapahtumien esimerkkejä on Varaustapahtumataulukko-raportissa sivustossa [Partnersource](http://go.microsoft.com/fwlink/?LinkId=258348) (edellyttää kirjautumista).
+ Lisää **Varaustapahtuma**-taulukon tilausten seurantatapahtumien esimerkkejä on Varaustapahtumataulukko-raportissa sivustossa [Partnersource](https://go.microsoft.com/fwlink/?LinkId=258348) (edellyttää kirjautumista).
 
 ## <a name="action-messaging"></a>Toimenpiteiden viestitys  
  Kun tilausten seurantajärjestelmä havaitsee epätasapainotilan tilausverkossa, se luo automaattisesti toimenpideviestin käyttäjälle. Toimenpideviestit ovat järjestelmän luomia kutsuja käyttäjälle, jotka määrittävät epätasapainon tiedot ja ehdotukset tasapainon palauttamisesta tilausverkkoon. Ne näkyvät suunnitteluriveinä **Suunnittelutyökirja**-sivulla, kun valitset **Hae toimenpideviestit**. Lisäksi toimenpideviestit näytetään niillä suunnitteluriveillä, jotka on luotu suunnitteluajon aikana vastaamaan suunnittelujärjestelmän ehdotuksia tasapainon palauttamiseksi tilausverkkoon. Molemmissa tapauksissa ehdotukset suoritetaan tilausverkossa, kun valitset **Toteuta toimenpideviesti**.  

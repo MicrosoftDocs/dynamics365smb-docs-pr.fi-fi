@@ -1,8 +1,6 @@
 ---
 title: Rakennetiedot – Lähtevän fyysisen varastoinnin virta | Microsoft Docs
 description: Varaston lähtevä virta alkaa kysynnällä liittyvistä lähdeasiakirjoista tuoda nimikkeet varastosijainnista, joko lähetettäviksi ulkoiselle osapuolelle tai yrityksen toiseen sijaintiin. Varastotoiminnot suoritetaan varastoalueelta erilaisilla monimutkaisuustasoilla nimikkeiden siirtämiseksi ulos toimituslaitureille.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c5a3ce2049b1686da04842f7c73abb2255369ffa
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 973c248473f2f2eebc10e095f619b51e48de7886
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306986"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880110"
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Rakennetiedot: lähtevän fyysisen varastoinnin virta
 Fyysisen varaston lähtevä virta alkaa liittyvien lähdeasiakirjojen pyynnöllä tuoda nimikkeet varastosijainnista lähetettäviksi joko ulkoiselle osapuolelle tai yrityksen toiseen sijaintiin. Varastotoiminnot suoritetaan varastoalueelta erilaisilla monimutkaisuustasoilla nimikkeiden siirtämiseksi ulos toimituslaitureille.  
@@ -54,7 +52,7 @@ Lisäksi olemassa on seuraavat sisäiset lähdeasiakirjat, jotka toimivat kuten 
 ## <a name="basic-warehouse-configurations"></a>Fyysisen varastoinnin perusmääritykset  
  Seuraavassa kaaviossa kuvataan lähtevät fyysisen varaston virrat asiakirjatyypeittäin fyysisen varastoinnin perusmäärityksissä. Kaavion luvut vastaavat vaiheita kaavion osa-alueiden mukaan.  
 
- ![Varaston perusmääritysten lähtevä virta](media/design_details_warehouse_management_outbound_basic_flow.png "Varaston perusmääritysten lähtevä virta")  
+ ![Lähtevä työnkulku fyysisen varastoinnin perusmäärityksissä](media/design_details_warehouse_management_outbound_basic_flow.png "Lähtevä työnkulku fyysisen varastoinnin perusmäärityksissä")  
 
 ### <a name="1-release-source-document--create-inventory-pick-or-movement"></a>1: Vapauta lähdeasiakirja / Luo varastopoiminta tai siirto  
  Kun lähdeasiakirjoista vastaava käyttäjä, kuten myyntitilausten käsittelijä tai tuotannon suunnittelija, on valmis lähtevää fyysisen varastoinnin toimintoa varten, hän vapauttaa lähdeasiakirjan osoittaakseen varastotyöntekijöille, että myydyt nimikkeet tai osat voidaan poimia ja sijoittaa määritettyihin varastopaikkoihin. Vaihtoehtoisesti käyttäjä voi luoda varaston poiminta- tai siirtoasiakirjat yksittäisille tilausriveille push-muodossa ja tiettyihin lokeroihin ja käsittelymääriin perustuen.  
@@ -76,7 +74,7 @@ Lisäksi olemassa on seuraavat sisäiset lähdeasiakirjat, jotka toimivat kuten 
 ## <a name="advanced-warehouse-configurations"></a>Laajennetut varastomääritykset  
  Seuraavassa kaaviossa kuvataan lähtevät fyysisen varaston virrat asiakirjatyypeittäin laajennetuissa varastomäärityksissä. Kaavion luvut vastaavat vaiheita kaavion osa-alueiden mukaan.  
 
- ![Laajennettujen varastomääritysten saapuva virta](media/design_details_warehouse_management_outbound_advanced_flow.png "Laajennettujen varastomääritysten saapuva virta")  
+ ![Lähtevä työnkulku fyysisen varastoinnin laajennetuissa määrityksissä](media/design_details_warehouse_management_outbound_advanced_flow.png "Lähtevä työnkulku fyysisen varastoinnin laajennetuissa määrityksissä")  
 
 ### <a name="1-release-source-document"></a>1: Vapauta lähdeasiakirja  
  Kun lähdeasiakirjoista vastaava käyttäjä, kuten myyntitilausten käsittelijä tai tuotannon suunnittelija, on valmis lähtevää fyysisen varastoinnin toimintoa varten, hän vapauttaa lähdeasiakirjan osoittaakseen varastotyöntekijöille, että myydyt nimikkeet tai osat voidaan poimia ja sijoittaa määritettyihin varastopaikkoihin.  

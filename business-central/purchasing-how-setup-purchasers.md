@@ -12,20 +12,20 @@ ms.workload: na
 ms.search.keywords: purchasing agent
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: af9673eb790b6e1e89607214b23476e5b415aca3
-ms.sourcegitcommit: ab4141739a53ec100d42773f0da863fbeefa384f
+ms.openlocfilehash: 486637c66d7664931308c0133789ec8fbf291090
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "2577181"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883068"
 ---
 # <a name="set-up-purchasers"></a>Ostajien määrittäminen
-Jos yrityksessäsi työskentelee useita ostajia, ne voidaan määrittää sivulla ja kullekin voidaan määritellä koodi. Tämän jälkeen koodeja voi käyttää valmistelemaan tilastoja ja suodattamaan tietoja tulostetuissa raporteissa.
+Jos yrityksessäsi työskentelee useita ostajia, ne voidaan määrittää sivulla ja kullekin voidaan määritellä koodi. Tämän jälkeen koodeja voi käyttää valmistelemaan tilastoja ja suodattamaan tietoja tulostetuissa raporteissa.<br><br>  
 
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE3Q7hU]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE3Q7hU]
 
 ## <a name="to-set-up-purchasers"></a>Ostajien määrittäminen
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyjät/ostajat** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Myyjät/Ostajat** ja valitse sitten liittyvä linkki.
 2. Valitse **Myyjät/ostajat**-sivulla **Uusi**-toiminto.
 3. Täytä **Myyjät/ostajat**-sivulla tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 

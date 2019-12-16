@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 11/06/2019
+ms.date: 12/06/2019
 ms.author: edupont
-ms.openlocfilehash: cf4fe3abc4a31619015520f2be598976b0fc8f5c
-ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
+ms.openlocfilehash: 4df167f27fc9fe456cece9c8738fa5f3aff8338c
+ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "2775497"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2896183"
 ---
 # <a name="frequently-asked-questions"></a>Usein kysytyt kysymykset
 
@@ -20,7 +20,7 @@ Tässä osassa on vastauksia [!INCLUDE[d365fin](includes/d365fin_md.md)]in kokei
 
 ## <a name="is-included365finincludesd365fin_mdmd-available-in-my-country"></a>Onko [!INCLUDE[d365fin](includes/d365fin_md.md)] saatavana maassani?
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] on saatavana vain tietyillä markkina-alueilla, mutta uusia maita lisätään Microsoftin tai kumppanien johtamina lokalisointeina neljännesvuosittain. Lisätietoja on kohdassa [Tuetut maat ja käännökset](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] on saatavana vain tietyillä markkina-alueilla, mutta uusia maita lisätään Microsoftin tai kumppanien johtamina lokalisointeina neljännesvuosittain. Lisätietoja on kohdassa [Saatavuus maassa/alueella ja tuetut käännökset](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) (saatavilla vain englanniksi).  
 
 ## <a name="how-do-i-get-include-prodshortincludesprodshortmd"></a>[!INCLUDE [prodshort](includes/prodshort.md)]in hankkiminen
 
@@ -84,7 +84,7 @@ Jos sinulla ei ole Office 365 -tilausta etkä halua ostaa sitä, valmistelemme s
 [!INCLUDE[d365fin](includes/d365fin_md.md)] -verkkoversio on täysin integroitu Office 365:een, joten voit siirtyä vapaasti Office 365 -sovellusten ja [!INCLUDE[d365fin](includes/d365fin_md.md)]in välillä sovellusten käynnistysohjelman avulla. Voit esimerkiksi avata [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietoja Excelissä, tulostaa raportteja Wordin avulla ja käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietoja Outlookissa. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen yrityssähköpostina Outlookissa](admin-outlook.md).  
 
 ## <a name="can-i-extend-my-30-day-new-company-trial-period"></a>Voiko 30 päivän uuden yrityksen kokeilujaksoa jatkaa?
-Kyllä. Kun kokeilujakson päättyminen on lähellä, kirjautumisen yhteydessä näkyy ilmoitus asiasta. Ilmoituksessa on linkki **kokeilujakson jatkamisen** oppaaseen, jonka avulla voit jatkaa kokeilujaksoa. 30 päivän lisäjakso alkaa heti, kun valitset oppaassa **Jatka kokeilujaksoa**. Voit jatkaa kokeilujaksoa kerran itse. Tämän jälkeen Microsoft-kumppani voi jatkaa sitä vielä 30 päivää. Lisätietoja on kohdassa [Kokeilujakson jatkaminen](admin-extend-trial.md). 
+Kyllä. Kun kokeilujakson päättyminen on lähellä, kirjautumisen yhteydessä näkyy ilmoitus asiasta. Ilmoituksessa on linkki **kokeilujakson jatkamisen** oppaaseen, jonka avulla voit jatkaa kokeilujaksoa. 30 päivän lisäjakso alkaa heti, kun valitset oppaassa **Jatka kokeilujaksoa**. Voit jatkaa kokeilujaksoa kerran itse. Tämän jälkeen Microsoft-kumppani voi jatkaa sitä vielä 30 päivää. Lisätietoja on kohdassa [Kokeilujakson jatkaminen](admin-extend-trial.md).
 
 > [!NOTE]
 > Kokeilujakson pidentämisprosessi voi kestää 2 arkipäivää.  
@@ -108,10 +108,12 @@ Kun olet valmis ostamaan [!INCLUDE [prodshort](includes/prodshort.md)]in, voit e
 
 Jos haluat opastusta Microsoftilta, ota yhteyttä [Microsoftin myyntitiimiin](https://go.microsoft.com/fwlink/?linkid=828707).  
 
-Jälleenmyyjäkumppanisi voi myös antaa teknistä tukea sinulle. Lisätietoja on kohdassa [Resurssit ohjeelle ja tuelle](product-help-and-support.md).  
+Jälleenmyyjäkumppanisi voi myös antaa teknistä tukea sinulle. Lisätietoja on kohdassa [Resurssit ohjeelle ja tuelle](product-help-and-support.md).
+
+## <a name="is-the-windows-client-supported"></a>Tuetaanko Windows-työasemaohjelmaa?
+[!INCLUDE[prodshort](includes/prodshort.md)]-ohjelman ensimmäiset versiot sisälsivät asennetun asiakkaan, joka on johdettu Microsoft Dynamics NAV -ohjelmasta. Tämä vanha komponentti, johon viitataan nimellä "Windows-asiakasohjelma", ei enää ole saatavilla vuoden 2019 2. julkaisuaallon [!INCLUDE[prodshort](includes/prodshort.md)] -versiosta lähtien. Lis tietoja on ohjeaiheessa [Windows-työasemaohjelman ja Business Centralin usein kysytyt kysymykset](/dynamics365/business-central/dev-itpro/across-faq-win-cli).
 
 ## <a name="see-also"></a>Katso myös
-
 [Käytön aloittaminen](product-get-started.md)  
 [Kerro, mitä haluat tehdä -toiminnon usein kysytyt kysymykset](ui-search-faq.md)  
 [Usein kysyttyjen kysymysten haku ja suodatus](ui-search-filter-faq.md)  
@@ -125,5 +127,7 @@ Jälleenmyyjäkumppanisi voi myös antaa teknistä tukea sinulle. Lisätietoja o
 [Ohje- ja tukiresurssit](product-help-and-support.md)  
 [Business Central -opintoluettelo](readiness/readiness-learning-catalog.md)  
 [Määritä käyttöoikeudet käyttäjille ja ryhmille](ui-define-granular-permissions.md)  
+[Saatavuus maassa/alueella ja tuetut käännökset](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
+[Usein kysytyt kysymykset Developer- ja ITPro-käyttökokemuksista](/dynamics365/business-central/dev-itpro/faq)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

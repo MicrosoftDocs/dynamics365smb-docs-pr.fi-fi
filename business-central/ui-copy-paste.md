@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a77c5bcadb15cd1180fc102a1f15881d0cc5db5a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8c8714bc1f12b6fd4bf68124cf1797bfa89ece6b
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315658"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882252"
 ---
 # <a name="copy-and-paste-faq"></a>Kopioimisen ja liittämisen usein kysytyt kysymykset
 Voit kopioida yhden rivin tai useita rivejä (tietueita) luettelosta tai yhden kentän sivulta ja liittää kopioidut kohteet samalle sivulle, toiselle sivulle tai ulkoiseen asiakirjaan (kuten Microsoft Exceliin tai Outlook-sähköpostiin). Jos haluat kopioida, paina näppäimiä CTRL+C (cmd+C macOS-käyttöjärjestelmässä). Jos haluat liittää, paina näppäimiä CTRL+V (cmd+V macOS-käyttöjärjestelmässä).
@@ -38,7 +38,7 @@ Kopioi yksi rivi valitsemalla se ja painamalla sitten näppäinyhdistelmää Ctr
 
 Jos haluat kopioida enemmän rivejä, tee seuraavat toiminnot:
 - Käytä toisen rivin kohdalla pikanäppäimiä Ctrl+napsautus tai Vaihto+napsautus ja valitse rivi tai kaikki välissä olevat rivit. Lisätietoja hiiren ja näppäimistön yhdistelmistä rivien valitsemisessa on kohdassa [Pikanäppäimet](keyboard-shortcuts.md#CopyRows) .
-- Valitse ![Näytä enemmän vaihtoehtoja](media/show-more-options-icon.png "Näytä enemmän vaihtoehtoja -kuvake") ensimmäisessä sarakkeessa. Valitse **Valitse lisää**, valitse sitten kopioitavien rivien kohdalla oleva valintaruutu ja paina näppäinyhdistelmää Ctrl+C.
+- Valitse ![Näytä enemmän vaihtoehtoja](media/show-more-options-icon.png "Näytä enemmän vaihtoehtoja kuvakkeen") ensimmäisessä sarakkeessa. Valitse **Valitse lisää**, valitse sitten kopioitavien rivien kohdalla oleva valintaruutu ja paina näppäinyhdistelmää Ctrl+C.
 
 ## <a name="how-do-i-paste-rows"></a>Miten liitän rivejä?
 Valitse tyhjä rivi, jossa kohdistus on jossakin solussa, ja paina sitten näppäinyhdistelmää Ctrl+V.
@@ -56,7 +56,7 @@ Kyllä. Tämä liitetään muotoiltuna taulukkona, joka säilyttää [!INCLUDE[d
 ## <a name="in-which-lists-can-i-copy-and-paste-rows"></a>Missä luetteloissa voin kopioida ja liittää rivejä?
 Voit kopioida rivejä kaikissa luetteloissa, esimerkiksi työkirjoissa, tietoruuduissa ja sivuun upotetuissa luetteloissa (esimerkiksi myyntitilauksen rivit). Jos rivejä halutaan liittää, luettelon on oltava muokattavissa.
 
-Joillakin sivuilla sovelluksen rakenne voi estää rivien liittämisen. Ota yhteyttä järjestelmänvalvojaan tai sovelluksen kehittäjään, jos haluat muuttaa sivun [Editable-ominaisuutta](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-editable-property) tai lähdetaulukon [PasteIsValid-ominaisuutta](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-pasteisvalid-property).
+Joillakin sivuilla sovelluksen rakenne voi estää rivien liittämisen. Ota yhteyttä järjestelmänvalvojaan tai sovelluksen kehittäjään, jos haluat muuttaa sivun [Editable-ominaisuutta](/dynamics365/business-central/dev-itpro/developer/properties/devenv-editable-property) tai lähdetaulukon [PasteIsValid-ominaisuutta](/dynamics365/business-central/dev-itpro/developer/properties/devenv-pasteisvalid-property).
 
 ## <a name="on-which-clients-is-copy-and-paste-available"></a>Missä asiakasohjelmissa kopioiminen ja liittäminen on käytettävissä?
 Kopioiminen ja liittäminen ovat käytettävissä [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen selaimessa Windows 10 -käyttöjärjestelmässä.

@@ -1,8 +1,6 @@
 ---
 title: Kustannusbudjettitapahtumien poistaminen | Microsoft Docs
 description: Voit käyttää Poista kustannusbudjettitapahtumat -eräajoa peruuttaaksesi kustannusbudjetin tapahtumat kustannusbudjetinrekisteristä.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a20895b02b00c64261e0a318949e2ba83bd15a56
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 04510e87789e6d69b33009be7ebbaf7a405d0dff
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302042"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882690"
 ---
 # <a name="delete-cost-budget-entries"></a>Poista kustannusbudjettitapahtumat
 Voit käyttää **Poista kustannusbudjettitapahtumat** -eräajoa peruuttaaksesi kustannusbudjetin tapahtumat kustannusbudjetinrekisteristä.  
@@ -26,7 +24,7 @@ Välttääksesi aukkoja kustannusbudjeteissa ja kustannusrekisteritapahtumissa e
 
 ### <a name="to-delete-a-cost-budget-entry"></a>Poista kustannusbudjettitapahtumat  
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poista kustannusbudjettitapahtumat** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Poista kustannusbudjettitapahtumat** ja valitse sitten liittyvä linkki.  
 
     **Rekisteriin nro** -kentässä on viimeisen rekisteritapahtuman numero, eikä sitä voi muuttaa.  
 

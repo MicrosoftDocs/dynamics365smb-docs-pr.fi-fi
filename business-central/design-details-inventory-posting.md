@@ -1,8 +1,6 @@
 ---
 title: Rakennetiedot – Varastokirjaus | Microsoft Docs
 description: Jokainen varastotapahtuma, kuten tavaran vastaanotto tai myyntitoimitus, kirjaa kaksi erityyppistä tapahtumaa.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 71ee3624868f546ec7b45f5177dcc61acc5b7a21
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: dc3e997d0ca29c680cd6a915751a368dd77a5433
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303392"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880302"
 ---
 # <a name="design-details-inventory-posting"></a>Rakennetiedot: varaston kirjaus
 Jokainen varastotapahtuma, kuten tavaran vastaanotto tai myyntitoimitus, kirjaa kaksi erityyppistä tapahtumaa.  
@@ -33,7 +31,7 @@ Jokainen varastotapahtuma, kuten tavaran vastaanotto tai myyntitoimitus, kirjaa 
 
  Varastokirjanpitoon luodut arvotapahtumat kirjataan säännöllisin väliajoin pääkirjanpitoon dynaamisesti kahden kirjanpidon täsmäyttämiseksi varainhoidon valvonnan vuoksi. Lisätietoja on kohdassa [Rakennetiedot: täsmäytys pääkirjanpidon kanssa](design-details-reconciliation-with-the-general-ledger.md).  
 
- ![Tapahtumavirta, kun varastoa täsmäytetään KP:n avulla](media/design_details_inventory_costing_1_entry_flow.png "Tapahtumavirta, kun varastoa täsmäytetään KP:n avulla")  
+ ![Merkintätyönkulku varaston täsmäyttämisessä KP-kirjanpidon kanssa](media/design_details_inventory_costing_1_entry_flow.png "Merkintätyönkulku varaston täsmäyttämisessä KP-kirjanpidon kanssa")  
 
 ## <a name="example"></a>Esimerkki  
  Seuraavassa esimerkissä kuvataan, kuinka nimikkeen pääkirjan kirjaukset, arvokirjaukset ja nimikkeen sovelluskirjaukset vaikuttavat pääkirjan kirjauksiin.  

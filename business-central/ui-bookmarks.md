@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 11/20/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7d52f1dce42bb8c3b84ff335eb07b6a12154fbcf
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2c39fb8e9c2b380674169a27d05a04f0f4b0d451
+ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316877"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832092"
 ---
 # <a name="add-a-page-action-to-your-role-center"></a>Sivutoiminnon lisääminen roolikeskukseen
 Voit lisätä uuden kirjanmerkin kuvakkeella toimintolinkin mille tahansa sivulle roolikeskuksen siirtymisvalikosta. Kirjanmerkki lisätään kohdesivulta eli sivulta, jonka haluat roolikeskuksen toiminnon avaavan.
@@ -30,9 +30,12 @@ Sivun mukaan nimetty toiminto lisätään nyt roolikeskuksen siirtymisvalikkoon.
 
 ## <a name="to-add-a-role-center-action-from-the-tell-me-window"></a>Roolikeskuksen toiminnon lisääminen Kerro, mitä haluat tehdä -ikkunasta
 1. Avaa **Kerro, mitä haluat tehdä** -ikkuna ja kirjoita esimerkiksi **Myyntitilaukset**.
-2. Siirrä osoitin **Myyntitilaukset**-sivun hakutulosten päälle ja valitse ![Kirjanmerkki](media/ui_bookmark_icon.png "Kirjanmerkki") -kuvake.
+2. Siirrä osoitin **Myyntitilaukset**-sivun hakutulosten päälle ja valitse ![Kirjanmerkki](media/ui_bookmark_icon.png "Kirjanmerkki")-kuvake.
 
 Jos sivulla on jo kirjanmerkki, kuvake on tumma ja työkaluvihjeessä lukee Lisätty kirjanmerkkeihin.
+
+> [!NOTE]  
+> Kun lisäät kirjanmerkin, kaikki käännetyt tekstit, jotka olivat saatavilla kyseisellä hetkellä, merkitään myös kirjanmerkillä. Jos uusi käännetty teksti lisätään myöhemmin, kirjanmerkillä merkityt linkit eivät päivity.
 
 ## <a name="see-also"></a>Katso myös
 [Työtilan mukauttaminen](ui-personalization-user.md)  

@@ -1,8 +1,6 @@
 ---
 title: Tilauskohtainen suunnittelu | Microsoft Docs
 description: Tämä suunnittelutehtävä voidaan suorittaa **Tilauksen suunnittelu** -sivulla, jossa näkyvät kaikki uusi kysyntä, saatavuustiedot sekä tarjontaa koskevat ehdotukset. Ikkunan tietojen ja työkalujen avulla voidaan suunnitella tehokkaasti myynti- ja komponenttirivien synnyttämä kysyntä sekä luoda erityyppisiä toimitustilauksia suoraan.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ecc317449642dafe43f294ecefba386ba7e08f51
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: aa0d9039ff48d05e0a96ceb5480b40cde864499c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313346"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883212"
 ---
 # <a name="plan-for-new-demand-order-by-order"></a>Uuden kysynnän tilauskohtainen suunnittelu
 Tämä suunnittelutehtävä voidaan suorittaa **Tilauksen suunnittelu** -sivulla, jossa näkyvät kaikki uusi kysyntä, saatavuustiedot sekä tarjontaa koskevat ehdotukset. Ikkunan tietojen ja työkalujen avulla voidaan suunnitella tehokkaasti myynti- ja komponenttirivien synnyttämä kysyntä sekä luoda erityyppisiä toimitustilauksia suoraan.  
@@ -26,14 +24,14 @@ Voit siirtyä **Tilauksen suunnittelu** -sivulle kahdella tavalla kohdistuksen m
 
 
 ## <a name="to-plan-for-new-production-order-demand"></a>Suunnittele uuden tuotantotilauksen kysyntä  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Suunnitellut tuotantotilaukset** ja valitse sitten liittyvä linkki. (Voit suorittaa nämä suunnitellun, sitovan suunnittelun tai vapautetun tuotantotilauksen vaiheet.)
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Suunnitellut tuotantotilaukset** ja valitse sitten liittyvä linkki. (Voit suorittaa nämä suunnitellun, sitovan suunnittelun tai vapautetun tuotantotilauksen vaiheet.)
 2.  Avaa suunniteltava tuotantotilaus ja valitse **Suunnittelu**-toiminto.  
 3.  Valitse **Tilauksen suunnittelu** -sivulla **Laske suunnitelma** -toiminto.  
 
 Sivulla näkyvät suunnittelurivit on suodatettu **Tuotantokysyntä**-suodatuksella – toisin sanoen sivulla näkyvät kaikkien tuotantotilausten täyttämätöntä kysyntää sisältävät komponenttirivit. Järjestelmä ei näytä ainoastaan käsiteltävän tuotantotilauksen kysyntää, sillä on riskialtista suunnitella tuotantotilaus ilman käsitystä mahdollisten aikaisempien komponenttirivien kysynnästä. Käsiteltävän tuotantotilauksen suunnittelurivit on laajennettu.  
 
 ## <a name="to-plan-for-any-new-demand"></a>Kaiken uuden kysynnän suunnitteleminen  
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tilauksen suunnittelu** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Tilauksen suunnittelu** ja valitse sitten liittyvä linkki.  
 2.  Valitse **Tilauksen suunnittelu** -sivulla **Laske suunnitelma** -toiminto.
 3.  Napsauta **Kysyntäpvm**-kentän päivämäärän edellä olevaa **Laajenna (+)**-painiketta, niin saat näkyviin kaikki suunnittelurivit, jotka vastaavat täyttämätöntä kysyntää sisältäviä kysyntärivejä.  
 4.  Sivun alaosassa on tietokenttiä, joissa on kutakin laajennettua suunnitteluriviä (kysyntäriviä) koskevia tietoja.  
@@ -85,7 +83,7 @@ Sivulla näkyvät suunnittelurivit on suodatettu **Tuotantokysyntä**-suodatukse
 >   Jos kirjoitat päivämäärän, joka on myöhäisempi kuin kysyntäpäivämäärä, näyttöön tulee varoitussanoma.  
 
 ## <a name="to-make-supply-orders"></a>Toimitustilausten tekeminen  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Suunnitellut tuotantotilaukset** ja valitse sitten liittyvä linkki. Voit suorittaa nämä suunnitellun, sitovasti suunnitellun tai vapautetustn tuotantotilauksen vaiheet.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Suunnitellut tuotantotilaukset** ja valitse sitten liittyvä linkki. Voit suorittaa nämä suunnitellun, sitovasti suunnitellun tai vapautetustn tuotantotilauksen vaiheet.  
 2.  Avaa suunniteltava tuotantotilaus ja valitse **Suunnittelu**-toiminto.  
 3.  Siirrä kohdistin halutulle suunnitteluriville ja valitse sitten **Tee tilaukset** -toiminto.  
 4.  Valitse **Tee toimitustilaukset** -sivun **Tilauksen suunnittelu** -pikavälilehden **Tee tilaukset** -kentässä jokin seuraavista vaihtoehdoista.  
@@ -117,5 +115,5 @@ Kun **Tilauksen suunnittelu** -sivun suunnitelma on valmis (nimikkeelle on esime
 [Vaihto-omaisuus](inventory-manage-inventory.md)  
 [Osto](purchasing-manage-purchasing.md)  
 [Rakennetiedot: Toimitusten suunnittelu](design-details-supply-planning.md)   
-[Parhaiden käytäntöjen määrittäminen: Toimitusten suunnittelu](setup-best-practices-supply-planning.md)  
+[Asetukset - parhaat käytännöt: toimitusten suunnittelu](setup-best-practices-supply-planning.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)

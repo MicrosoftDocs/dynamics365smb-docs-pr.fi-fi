@@ -1,8 +1,6 @@
 ---
 title: Tietoja kustannuslaskennasta | Microsoft Docs
 description: Kustannuslaskennan avulla voit ymmärtää käynnissä olevan liiketoiminnan kustannuksia.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 053a0ca21ff26b53cabcc8894ed1cd0e48c904b0
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6ab142468f152b6430d5454c29a5b663be954412
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302666"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879870"
 ---
 # <a name="about-cost-accounting"></a>Tietoja kustannuslaskennasta
 Kustannuslaskenta auttaa tiedostamaan liiketoimintaan sisältyviä kustannuksia. Kustannuslaskennan tiedot on suunniteltu analysoimaan:  
@@ -39,7 +37,7 @@ Kustannuslaskennassa on seuraavat pääosat:
 
 Seuraava kaavio näyttää työnkulun kustannuslaskennassa.  
 
-![Yleistietoja kustannuslaskennasta](media/costaccountingoverview.png "CostAccountingOverview")  
+![Kustannuslaskennan yleiskatsaus](media/costaccountingoverview.png "CostAccountingOverview")  
 
 ## <a name="cost-types-cost-centers-and-cost-objects"></a>Kustannustyypit, kustannuspaikat ja kustannuskohteet  
 Määritä kustannustyypit, kustannuspaikat ja kustannuskohteet analysoidaksesi mitä kustannukset ovat, mistä kustannukset ovat peräisin ja kuka vastaa kustannuksista.  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: list, filter, pane, views
 ms.date: 01/01/2019
 ms.author: mikebc
-ms.openlocfilehash: d2caa1d9b84d99c0b43a70bca1c45da81138f7b9
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6357a025c58df8e55bf7aaad5961190ad6ed3350
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316831"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881988"
 ---
 # <a name="list-views-faq"></a>Luettelonäkymien usein kysytyt kysymykset
 Tässä ohjeaiheessa vastataan kysymyksiin, joita kokeneet käyttäjät usein kysyvät luettelonäkymien käyttämisestä ja suodattimien tallentamisesta.  
@@ -58,7 +58,7 @@ Joillakin luettelon järjestelmänäkymien sarakkeilla on yksikölliset asettelu
 ### <a name="what-does-the-show-system-filters-link-do"></a>Mitä Näytä järjestelmäsuodattimet -linkin käyttö aiheuttaa?
 Joillakin luettelosivuilla suodatinruudun alareunassa näkyy **Näytä järjestelmäsuodattimet**, kun sivulla on järjestelmän määrittämiä suodattimia. Näillä erikoissuodattimilla näytetään tyypillisesti tietueita nykyisen kontekstin perusteella. Kyse voi olla esimerkiksi tietyn asiakkaan mukaan suodatettavasta tilausluettelosta.
 
-Kehittäjät määrittävät järjestelmäsuodattimet käyttämällä suodatinryhmää 0. Teknisiä lisätietoja järjestelmäsuodattimista on kohdassa [Suodatinryhmä-toiminto](https://docs.microsoft.com/en-us/dynamics-nav/filtergroup-function--record-)
+Kehittäjät määrittävät järjestelmäsuodattimet käyttämällä suodatinryhmää 0. Teknisiä lisätietoja järjestelmäsuodattimista on kohdassa [Suodatinryhmä-metodi](/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-filtergroup-method)
 
 ### <a name="i-see-multiple-views-on-my-page-but-i-did-not-create-them-where-did-they-come-from"></a>Sivulla on useita näkymiä, joita en ole luonut. Mistä ne ovat peräisin?
 Luettelossa näkyy sekä omia näkymiä että järjestelmänäkymiä. Järjestelmänäkymät voivat olla peräisin liiketoimintasovelluksesta tai laajennuksista tai sitten ne voivat olla roolikohtaisia, jos luettelo on mukautettu roolikohtaisesti.

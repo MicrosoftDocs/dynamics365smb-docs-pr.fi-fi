@@ -1,20 +1,20 @@
 ---
 title: Ongelmien vianmääritys itsepalvelun rekisteröitymisen avulla | Microsoft Docs
 description: Lisätietoja yleistä syistä, minkä vuoksi Business Central -sovellukseen rekisteröityminen ei onnistu ja miten nämä ongelmat voidaan kiertää.
-author: SusanneWindfeldPedersen
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
+ms.date: 11/12/2019
 ms.author: edupont
-ms.openlocfilehash: d9021cb67176a8fbbb977234e38d02f375a80831
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a2a1f923fed08b27152688ecc05c0aa9ff627eed
+ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310658"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2809175"
 ---
 # <a name="troubleshooting-self-service-sign-up"></a>Itsepalvelun rekisteröitymisen vianmääritys
 [!INCLUDE[d365fin](includes/d365fin_md.md)]iin rekisteröityminen on helppoa ja nopeaa. Voit luoda ilmaisen tilin myös silloin, jos organisaatio on olemassa. Tässä artikkelissa kerrotaan ongelmista, joita rekisteröitymisen aikana voi ilmetä.
@@ -28,7 +28,7 @@ Jos yrität rekisteröityä käyttämällä henkilökohtaista sähköpostiosoite
 [!INCLUDE[d365fin](includes/d365fin_md.md)]iin voidaan usein rekisteröityä rekisteröitymisprosessin avulla. Itsepalvelun rekisteröityminen voi kuitenkin keskeytyä useasta eri syystä. Seuraavassa taulukossa esitellään yleisimpiä syitä, joiden vuoksi rekisteröityminen ei onnistu, sekä ratkaisuja näihin ongelmiin.
 
 | Oire/virhesanoma | Syy ja ratkaisu |
-| --- | --- |
+| --------------------- | -------------------- |
 | Jos Office 365 -sähköpostiosoitteita ei ole rekisteröity tuetussa maassa, sinulle lähetetään rekisteröitymisen yhteydessä seuraava viesti:<br /><br />**Toiminto ei onnistunut. Microsoft ei vielä tue maatasi tai aluettasi.** |[!INCLUDE[d365fin](includes/d365fin_md.md)] tukee nykyään vain Office 365:n sähköpostitileihin, jotka on rekisteröity rajallisille markkinoille. Lisätietoja on kohdassa [Aluekohtainen saatavuus](#regional-availability). |
 | Henkilökohtaisia sähköpostiosoitteita, kuten nancy@gmail.com, ei tueta. Näyttöön tulee rekisteröitymisen yhteydessä seuraavan tyyppinen viesti:<br /><br />**Annoit henkilökohtaisen sähköpostiosoitteen: anna työsähköpostiosoite, jotta yrityksen tiedot voidaan tallentaa turvallisesti.**<br> tai <br> **Tämä näyttää henkilökohtaiselta sähköpostiosoitteelta. Anna työsähköpostiosoite, jotta voimme yhdistää sinut muihin yrityksesi henkilöihin. Eikä hätää; Microsoft ei jaa osoitettasi kenenkään kanssa.** |[!INCLUDE[d365fin](includes/d365fin_md.md)] ei tue kuluttajille tarkoitettujen sähköpostipalveluiden ja tietoliikennepalveluiden tarjoajien sähköpostiosoitteita. Tee rekisteröityminen valmiiksi yrittämällä uudelleen työpaikan tai koulun myöntämällä sähköpostiosoitteella. Jos rekisteröityminen ei onnistu vieläkään ja haluat kokeilla monimutkaisempaa asetusprosessia, voit rekisteröityä uuteen Office 365 -kokeiluversioon ja rekisteröityä kyseisellä sähköpostiosoitteella. |
 | sähköpostiosoitteet .gov tai .mil. Rekisteröitymisen yhteydessä saat seuraavan tyyppisen viestin:<br /><br />**[!INCLUDE[d365fin](includes/d365fin_md.md)] ei ole käytettävissä: [!INCLUDE[d365fin](includes/d365fin_md.md)] ei ole tällä hetkellä niiden käyttäjien käytettävissä, joiden sähköpostiosoitteen pääte on .gov tai .mil. Käytä toista työsähköpostiosoitetta tai yritä myöhemmin uudelleen.** <br>tai <br>**Rekisteröityminen ei onnistu. Näyttää siltä, että [!INCLUDE[d365fin](includes/d365fin_md.md)] ei ole tällä hetkellä työpaikkasi tai koulusi käytettävissä.** |[!INCLUDE[d365fin](includes/d365fin_md.md)] ei tue tällä hetkellä sähköpostiosoitteita, joiden pääte on .gov tai .mil. |
@@ -37,29 +37,15 @@ Jos yrität rekisteröityä käyttämällä henkilökohtaista sähköpostiosoite
 | Jos Office 365 -tili on rekisteröity tuetussa maassa ja olet rekisteröitymässä [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmaan eri maassa, näyttöön tulee rekisteröitymisen yhteydessä seuraavan tyyppinen viesti:<br /><br />**Toiminto ei onnistunut. Microsoft ei vielä tue maatasi tai aluettasi.**| Organisaation Office 365 -tilaus on rekisteröity tietyssä maassa Office 365:n hallintaportaalissa. [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman rekisteröitymisessä käytetään nykyisen selaimen kieltä ja kielialuetta. Tämän vuoksi saatat saada virhesanoman, vaikka sijaintisi olisi tuettu maa. Pyydä IT-järjestelmänvalvojaa tarkistamaan [Office 365:n hallintaportaalin](https://portal.office.com/adminportal/home#/companyprofile) organisaatioprofiilissa määritetty maa. Saatat joutua käyttämään eri tiliä [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmassa.|
 
 ## <a name="regional-availability"></a>Aluekohtainen saatavuus
-Luettelo tuetuista markkinoista on kohdassa [Microsoft Dynamics 365:n kansainvälinen saatavuus](https://docs.microsoft.com/en-us/dynamics365/get-started/availability) ja [Paikalliset toiminnot](about-localization.md) -saapumissivulla.
 
-<!-- [!INCLUDE[d365fin](includes/d365fin_md.md)] is currently available in the following markets:
+[!INCLUDE [prodshort](includes/prodshort.md)] on saatavilla useissa maissa tai alueilla, joiden lokalisointi on Microsoftin tai hyväksytyn lokalisointipartnerin tarjoama. Täydellinen luettelo tällä hetkellä tuetuista maista ja alueista on kohdassa [Saatavuus maassa/alueella ja tuetut käännökset.](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
 
-| Europe | North America |
-| --- | --- |
-| Australia | Canada |
-| Austria | |
-| Belgium | United States |
-| Denmark | |
-| Germany | |
-| Finland | |
-| France | |
-| Italy | |
-| Netherlands | |
-| New Zealand | |
-| Spain | |
-| Sweden | |
-| Switzerland | |
-| United Kingdom | |
--->
+Yleiskuvaus Dynamics 365:n tukemista markkinoista on kohdassa [Microsoft Dynamics 365:n kansainvälinen saatavuus](/dynamics365/get-started/availability). Lisätietoja [!INCLUDE [prodshort](includes/prodshort.md)]:n paikallisista toiminnoista on [paikallisten toimintojen](about-localization.md) aloitussivulla.  
 
 ## <a name="see-also"></a>Katso myös
+
 [Tervetuloa [!INCLUDE[d365fin](includes/d365fin_long_md.md)]iin!](index.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Paikalliset toiminnot](about-localization.md)  
+[Saatavuus maassa/alueella ja tuetut käännökset](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
+[Microsoft Dynamics 365:n kansainvälinen saatavuus](/dynamics365/get-started/availability)  

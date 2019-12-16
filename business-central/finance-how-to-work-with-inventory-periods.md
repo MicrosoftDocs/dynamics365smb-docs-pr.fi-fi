@@ -1,8 +1,6 @@
 ---
 title: Varastokausien käyttäminen | Microsoft Docs
 description: Määrittämällä varastokauden voi hallita aikajaksoa, jolloin henkilöt voivat kirjata muutoksia varastoon.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: inventory, periods
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1a88456e91b3398ac9cae1b64ebdd80644b5d0aa
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: 8b2a34db5d4e40f99fceb844150312d6c6dffc55
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554036"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879630"
 ---
 # <a name="work-with-inventory-periods"></a>Varastokausien käsitteleminen
 Varastokaudet määrittävät aikajakson, jolloin voit kirjata varastoon muutoksia. Lopetuspäivämäärä määrittää, milloin varastokausi loppuu. Kun suljet varastokauden, et voi enää kirjata varastoon odotettuja tai laskutettuja muutoksia ennen tätä lopetuspäivämäärää. Et voi kirjata varastoon uusia arvoja ennen lopetuspäivämäärää. Jos suljetulla kaudella on avoimia nimiketapahtumia eli positiivisia määriä, joita ei ole vielä kohdistettu lähteviin transaktioihin, voit yhä kohdistaa lähteviä määriä näihin transaktioihin, vaikka kausi on suljettu.  
@@ -29,7 +27,7 @@ Seuraavissa luvuissa kerrotaan, miten
 * varastokausia avataan uudelleen.  
 
 ## <a name="to-create-an-inventory-period"></a>Varastokauden luominen  
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varastokaudet** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Varastokaudet** ja valitse sitten liittyvä linkki.  
 2. Luo uusi rivi.  
 3. Syötä **Lopetuspvm**-kenttään viimeinen päivämäärä, jonka haluat varastokaudelle määrittää. Kun kausi suljetaan, et voi enää kirjata ennen tätä päivämäärää tapahtuneita varaston muutoksia.  
 4. Anna **Nimi**-kenttään kuvaava nimi. Valitse **OK**-painike.  
@@ -61,7 +59,7 @@ Tällöin kaikki lähtevät transaktiot, kuten myyntitilausten, lähtevien siirt
 Kun varastokausi on suljettu kerran, et voi poistaa sitä. Voit kuitenkin avata sen uudelleen, jos haluat sallia kirjaukset ennen varastokauden lopetuspäivämäärää. Kauden avaaminen uudelleen avaa myös kaikki varastokaudet, joilla on avattua kautta myöhäisemmät lopetuspäivämäärät.  
 
 ### <a name="to-reopen-an-inventory-period"></a>Avaa varastokausi uudelleen  
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varastokaudet** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Varastokaudet** ja valitse sitten liittyvä linkki.  
 2. Valitse uudelleen avattava varastokausi.  
 3. Valitse **Avaa kausi uudelleen** -toiminto. Vahvista, että haluat avata kauden uudelleen.  
 4. Kaikki varastojaksot, joiden lopetuspäivämäärät ovat valittua myöhäisemmät, avataan uudelleen.  
@@ -69,5 +67,5 @@ Kun varastokausi on suljettu kerran, et voi poistaa sitä. Voit kuitenkin avata 
 ## <a name="see-also"></a>Katso myös  
 [Rakennetiedot: varastokausi](design-details-inventory-periods.md)  
 [Rahoitus](finance.md)  
-[Vaihto-omaisuus](inventory-manage-inventory.md)  
+[Varasto](inventory-manage-inventory.md)  
 [Financialsin käyttäminen](ui-work-product.md)

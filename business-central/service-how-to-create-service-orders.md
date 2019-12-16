@@ -1,8 +1,6 @@
 ---
 title: Huoltotilausten luominen | Microsoft Docs
 description: '**Huoltotilaus**-sivulla voidaan luoda asiakirjoja, joihin syötetään tietoja asiakkaan pyynnöstä tehtävästä huoltonimikkeiden huollosta (korjauksesta tai ylläpidosta).'
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2e27844b708982e76ce4dfcf15ec02f7190cd855
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5415475d2dd820ff03615b6911db3082c33be9b6
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311714"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877311"
 ---
 # <a name="create-service-orders"></a>Huoltotilausten luominen
 **Huoltotilaus**-sivulla voidaan luoda asiakirjoja, joihin syötetään tietoja asiakkaan pyynnöstä tehtävästä huoltonimikkeiden huollosta (korjauksesta tai ylläpidosta).  
@@ -25,7 +23,7 @@ ms.locfileid: "2311714"
 Kun luot huoltotilauksen, sinun tarvitsee vain täyttää muutama kenttä. Jotkut kentät ovat valinnaisia, ja monet täytetään automaattisesti silloin, kun täytät kohteeseen liittyvät kentät.  
 
 ## <a name="to-create-a-service-order"></a>Huoltotilauksen luominen    
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltotilaukset** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Huoltotilaukset** ja valitse sitten liittyvä linkki.  
 2. Luo uusi huoltotilaus.  
 3. Valitse **Nro**-kenttään numero huoltotilaukselle.  
 
@@ -40,7 +38,7 @@ Kun luot huoltotilauksen, sinun tarvitsee vain täyttää muutama kenttä. Jotku
 ## <a name="to-create-a-service-order-from-a-contract"></a>Huoltotilausten luominen sopimuksista  
 Huoltotilauksia voidaan luoda huoltonimikkeiden ylläpitoa varten automaattisesti huoltosopimusten perusteella.  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Luo sopimushuoltotilauksia** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Luo sopimushuoltotilauksia** ja valitse sitten liittyvä linkki.  
 2. Määritä **Huoltosopimuksen otsikko** -pikavälilehdessä suodatukset, joita haluat käyttää.  
 3. Täytä **Asetukset**-pikavälilehdessä **Aloituspvm**- ja **Lopetuspvm**-kenttiin aloituspäivämäärä ja lopetuspäivämäärä sen mukaan, mille jaksolle haluat luoda sopimushuoltotilaukset. Eräajo luo huoltotilauksia, jotka sisältävät huoltonimikkeitä palvelusopimuksille, joiden seuraavat suunnitellut huoltopäivämäärät ovat tänä määräaikana.  
 
@@ -54,14 +52,14 @@ Kun asiakas on hyväksynyt huoltotarjouksen, se muunnetaan huoltotilaukseksi. Ta
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] etsii kaikkien huoltotarjouksessa olevien huoltonimikkeiden osalta kohdistustapahtumia, joiden tila on **Aktiivinen**. Jos tällaisia kohdistustapahtumia löytyy, ohjelma päivittää niiden kohdistuksen tilaksi **Uudelleenkohdistamista tarvitaan**. Kun huoltotilauksessa olevia huoltonimikkeitä uudelleenkohdistetaan, ohjelma muuttaa tarjoukselle rekisteröityjen kohdistustapahtumien tilaksi **Valmis.**   
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltosopimustarjoukset** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Huoltosopimustarjoukset** ja valitse sitten liittyvä linkki.  
 2. Valitse huoltotilaukseksi muunnettava huoltotarjous.  
 3. Valitse **Tee tilaus** -toiminto.  
 
 ## <a name="to-check-item-availability-for-one-or-more-orders"></a>Vähintään yhden tilauksen saatavuuden tarkistaminen  
 Voit esimerkiksi tarkistaa ja katsoa, onko nimikettä, joka sinun tulee täyttää tilaukseen, varastossa tai milloin sitä löytyy varastosta. Jos nimike on lisäksi varattavissa, voit varata sen ja varmistaa, että se on käytettävissäsi. Voit tarkistaa tietyn tilauksen tai kaikkien tilausten saatavuuden.  
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Lähetystaulukko** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Lähetystaulukko** ja valitse sitten liittyvä linkki.  
 2. Tee jompikumpi seuraavista toimista:  
 
     * Jos kyse on tietystä tilauksesta, valitse ensin tilaus ja sitten **Kysynnän yleiskuvaus** -toiminto.  
@@ -81,7 +79,7 @@ Jos huoltotilauksen nimikkeen saatavuus on varmistettava, voit varata nimikkeen.
 ## <a name="to-insert-lines-based-on-standard-service-codes"></a>Rivien lisääminen vakiohuoltokoodien perusteella  
 Jos olet määrittänyt vakiohuoltokoodit ja liittänyt ne huoltonimikeryhmiin, voit lisätä vakiohuoltokoodeihin linkitettyjä vakiorivejä huoltoasiakirjoihin. Lisätietoja on kohdassa [Vakiohuoltokoodien määrittäminen](service-how-setup-service-coding.md).   
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltotilaukset** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Huoltotilaukset** ja valitse sitten liittyvä linkki.  
 2. Luo uusi huoltotilaus.  
 3. Täytä tarvittavat kentät.  
 4. Syötä huoltonimikeriveille pakolliset tiedot.  
@@ -99,7 +97,7 @@ Tilaukset poistetaan ohjelmasta automaattisesti sen jälkeen, kun ne on laskutet
 
 Ohjelma ei poista huoltotilauksia automaattisesti, jos tilauksen kokonaismäärä on kirjattu **Huoltolasku**-sivulla eikä huoltotilauksessa. Tällöin sinun on ehkä poistettava laskutetut tilaukset, joita ei poistettu. Voit tehdä sen suorittamalla **Poista laskutetut huoltotilaukset** -eräajon.  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poista laskutetut huoltotilaukset** ja valitse sitten liittyvä linkki. **Poista laskutetut huoltotilaukset** -eräajon pyyntösivu avautuu.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Poista laskutetut huoltotilaukset** ja valitse sitten liittyvä linkki. **Poista laskutetut huoltotilaukset** -eräajon pyyntösivu avautuu.  
 2. Voit valita poistettavat tilaukset määrittämällä **Nro**-, **Asiakasnro**- ja **Laskutusasiakkaan nro** -kenttien suodattimet. -kentät.  
 3. Valitse **OK**.  
 

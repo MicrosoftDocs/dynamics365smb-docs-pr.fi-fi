@@ -1,8 +1,6 @@
 ---
 title: Rakennetiedot –Täsmäytys pääkirjanpidon kanssa | Microsoft Docs
 description: Tässä ohjeaiheessa käsitellään täsmäytys pääkirjanpidon kanssa varastotapahtumia kirjattaessa. Näitä tapahtumia ovat esimerkiksi tapahtumat, tuotannon tuotos ja negatiiviset muutokset.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, reconciliation, general ledger, inventory
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2d1d69b2aa03be59ec68e8198c794aca52ed7cb1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: b87ff4652d8d73001c02c864efa638d80c8c9949
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306818"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880062"
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Rakennetiedot: täsmäytys pääkirjanpidon kanssa
 Kun kirjaat varastotapahtumia, kuten myyntitoimituksia, tuotannon tuloksia tai negatiivisia muutoksia, ohjelma kirjaa varaston määrien muutokset nimiketapahtumiin ja varaston arvojen muutokset arvotapahtumiin. Prosessin seuraava vaihe on kirjata varastoarvot pääkirjanpidon varastotileille.  
@@ -102,7 +100,7 @@ Seuraavassa taulukossa esitetään, kuinka työkeskus on määritetty työkeskus
     3. Välilliset kustannukset (yleiskustannukset) siirretään välillisten kustannusten tililtä varastotilille. (Tuotto)  
     4. Tuloksena on erosumma 157,00 (PVA). Varianssit lasketaan vain vakiokustannuksen omaaville nimikkeille. (Tuotto)  
 
-        ![Tuotoksen KP-tilikirjausten tulokset](media/design_details_inventory_costing_3_gl_posting_output.png "Tuotoksen KP-tilikirjausten tulokset")  
+        ![Tuotosten KP-tilikirjausten tulokset](media/design_details_inventory_costing_3_gl_posting_output.png "Tuotosten KP-tilikirjausten tulokset")  
 
         > [!NOTE]  
         >  Yksinkertaisuuden vuoksi näytetään vain yksi vaihtelutili. Todellisuudessa on olemassa viisi erilaista tiliä:  

@@ -1,8 +1,6 @@
 ---
 title: Rakennetiedot – uusintatilauskäytäntöjen käsittely | Microsoft Docs
 description: Yleiskatsaus tehtävistä, joilla määritetään tuotantosuunnittelun uusintatilauskäytäntö.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 53d9d0ff2d9d1f42bb7f9c05ed49aa4df20f2a92
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0708a78be4dbd70d8555b8c088fedd88d3fb5459
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307154"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880470"
 ---
 # <a name="design-details-handling-reordering-policies"></a>Rakennetiedot: uusintatilauskäytäntöjen käsittely
 Uusintatilausväli on määritettävä, jotta nimike voi osallistua tarjonnan suunnitteluun. Seuraavat neljä jälkitilausohjetta on olemassa:  
@@ -69,7 +67,7 @@ Seuraava jakso kuvaa sitä, kuinka suunniteltu varaston taso määritellään:
 
 Seuraavassa esitetään graafinen kuvaus tästä periaatteesta:  
 
-![Suunnitellun varastotason määrittäminen](media/nav_app_supply_planning_2_projected_inventory.png "Suunnitellun varastotason määrittäminen")  
+![Arvioidun varastotason määrittäminen](media/nav_app_supply_planning_2_projected_inventory.png "Arvioidun varastotason määrittäminen")  
 
 1. Määrän 4 tarjonta **Sa** (kiinteä) sulkee kysynnän **Da** määrällä -3.  
 2. CloseDemand: Luo vähennyksen muistutus -3 (ei näkyvillä).  
@@ -96,7 +94,7 @@ Uusintatilauspistettä käyttävien uusintatilaustapojen kohdalla voit määritt
 
 Konsepti, jolle on määritetty aikavälit, osoittaa manuaalisen varastotason tarkistuksen prosessin säännöllisin väliajoin, ei jokaisen tapahtuman kohdalla. Käyttäjän on määritettävä toistoväli (aikaväli). Esimerkiksi käyttäjä kerää kaikki nimikkeen tarpeet yhdeltä toimittajalta viikoittaisen tilauksen asettamiseksi.  
 
-![Esimerkki ajanjaksosta suunnittelussa](media/nav_app_supply_planning_2_reorder_cycle.png "Esimerkki ajanjaksosta suunnittelussa")  
+![Esimerkki aikavälistä suunnittelussa](media/nav_app_supply_planning_2_reorder_cycle.png "Esimerkki aikavälistä suunnittelussa")  
 
 Aikaväliä käytetään yleensä limittäisyyden välttämiseksi. Esimerkiksi täsmäytetty kysynnän ja tarjonnan rivi, jossa aikainen kysyntä on peruutettu tai uusi luodaan. Tuloksena on, että jokainen toimitustilaus (paitsi viimeisin) aikataulutetaan uudelleen.
 
@@ -105,7 +103,7 @@ Kun Enimmäismäärä- ja Kiinteä uusintatil. määrä -käytäntöjä käytet�
 
 *Huomio: arvioitu varastomäärä [xx] on korkeampi kuin sallittu ylitys [xx] [xx] eräpäivänä [xx].*  
 
-![Varaston ylivuototaso](media/supplyplanning_2_overflow1_new.png "Varaston ylivuototaso")  
+![Varaston sallittu ylitys](media/supplyplanning_2_overflow1_new.png "Varaston sallittu ylitys")  
 
 ###  <a name="calculating-the-overflow-level"></a>Lasketaan sallittua ylitystä  
 Ylitystaso lasketaan eri tavoin riippuen suunnitteluasetuksista.  
@@ -181,7 +179,7 @@ Tässä tilanteessa asiakas muuttaa myyntitilauksen arvosta 70 kappaletta arvoks
 #### <a name="resulting-planning-lines"></a>Tuloksena suunnittelurivit  
  Järjestelmä luo yhden suunnittelurivin (varoitus) oston vähentämiseksi 30 yksiköllä 90 yksiköstä 60 yksikköön, jotta arvioitu varasto on 100 sallitun ylityksen mukaan.  
 
-![Suunnittelu ylivuototason mukaisesti](media/nav_app_supply_planning_2_overflow2.png "Suunnittelu ylivuototason mukaisesti")  
+![Suunnitelu sallitun ylityksen mukaan](media/nav_app_supply_planning_2_overflow2.png "Suunnitelu sallitun ylityksen mukaan")  
 
 > [!NOTE]  
 >  Ilman ylivuototoimintoa varoitusta ei luoda, jos oletetun varaston taso ylittää enimmäisvaraston. Tämä voi aiheuttaa tarpeettoman tarjonnan, joka on 30.
@@ -195,7 +193,7 @@ Jälkitilauspiste ilmaisee ennakkokysynnän nimikkeen läpimenoajan aikana. Kun 
 
  Seuraavassa kuvassa tarjonta D vastaa hätätilausta negatiivisen varaston muuttamiseksi.  
 
- ![Hätätilanteen suunnitteluehdotus negatiivisen varaston välttämiseksi](media/nav_app_supply_planning_2_negative_inventory.png "Hätätilanteen suunnitteluehdotus negatiivisen varaston välttämiseksi")  
+ ![Hätäsuunnitelmaehdotus negatiivisen varaston välttämiseksi](media/nav_app_supply_planning_2_negative_inventory.png "Hätäsuunnitelmaehdotus negatiivisen varaston välttämiseksi")  
 
 1.  Tarjonta **A**, alunperin suunniteltu varasto, on jälkitilauspisteen alapuolella.  
 2.  Luodaan uusi eteenpäin aikataulutettu tarjonta (**C**).  

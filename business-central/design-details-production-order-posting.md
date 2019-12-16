@@ -1,8 +1,6 @@
 ---
 title: Rakennetiedot – Tuotantotilauksen kirjaus | Microsoft Docs
 description: Samoin kuin kokoonpanotilauksen tiliöinti, käytetyt osat ja käytetty koneaika muunnetaan ja tuotetaan tuotettuna nimikkeenä, kun tuotantotilaus on valmis.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e6379530eed2c0e3881dd951fbd09602360e5fad
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 9feb2f4f484d2c8769c133696287252663a96997
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306890"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878459"
 ---
 # <a name="design-details-production-order-posting"></a>Rakennetiedot: tuotantotilauksen kirjaus
 Kokoonpanotilauksen kirjauksen tavoin kulutetut komponentit ja käytetty koneaika muunnetaan ja tuotetaan tuotettuna nimikkeenä, kun tuotantotilaus on valmis. Lisätietoja on kohdassa [Rakennetiedot: Kokoonpanotilauksen kirjaus](design-details-assembly-order-posting.md). Kokoonpanotilausten kustannusvirta on kuitenkin yksinkertaisempi erityisesti sen vuoksi, että kokoonpanokustannuksen kirjaus tapahtuu vain kerran, joten se ei luo keskeneräisten töiden varastoa.
@@ -60,11 +58,11 @@ tuotantotilausten kirjaaminen KET-varastoon sisältää tuotoksen, kulutuksen ja
 
 Seuraavassa kaaviossa esitetään asiaankuuluvat tiliöintirutiinit koodiyksikössä 22.  
 
-![Tuotantotilauksen kirjausrutiinit](media/design_details_inventory_costing_14_production_posting_1.png "Tuotantotilauksen kirjausrutiinit")  
+![Tuotantotilausten kirjausrutiinit](media/design_details_inventory_costing_14_production_posting_1.png "Tuotantotilausten kirjausrutiinit")  
 
 Seuraavassa kaaviossa esitetään seurauksena olevien kirjausten ja kustannusobjektien assosiaatiot.  
 
-![Tuotannon tapahtumavirrat](media/design_details_inventory_costing_14_production_posting_2.png "Tuotannon tapahtumavirrat")  
+![Tuotannon tapahtumavuo](media/design_details_inventory_costing_14_production_posting_2.png "Tuotannon tapahtumavuo")  
 
 Kapasiteettilokin kirjaus kuvaa kapasiteetin kulutuksen aikayksikköinä, kun taas liittyvä arvokirjaus kuvaa erityisen kapasiteetin kulutuksen arvon.  
 
@@ -111,4 +109,4 @@ Vakiokustannusympäristöissä tuotantotilauksen arvostus perustuu seuraavaan me
  [Rakennetiedot: Varaston arvostus](design-details-inventory-costing.md)   
  [Rakennetiedot: Kokoonpanotilauksen kirjaus](design-details-assembly-order-posting.md)  
  [Varaston kustannusten hallinta](finance-manage-inventory-costs.md) [Rahoitus](finance.md)  
- [Business Central -sovelluksen käyttäminen](ui-work-product.md)
+ [Business Centralin käyttäminen](ui-work-product.md)

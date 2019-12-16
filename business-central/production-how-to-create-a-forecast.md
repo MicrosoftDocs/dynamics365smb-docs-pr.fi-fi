@@ -1,8 +1,6 @@
 ---
 title: Kysyntäennusteen luominen | Microsoft Docs
 description: Voit luoda myynti- ja tuotantoennusteita **Kysyntäennuste**-sivulla.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3611bf23466509d0bd4932fc660cf1dff8bfa4a4
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8ae3e142946ff968a1b1357df1a1634734c0392c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314190"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883380"
 ---
 # <a name="create-a-demand-forecast"></a>Kysyntäennusteen luominen
 Voit luoda myynti- ja tuotantoennusteita **Kysyntäennuste**-sivulla.  
@@ -53,7 +51,7 @@ Jos haluat suodattaa ennusteen sijainnin mukaan suunnitelman laskemisen yhteydes
 
 ## <a name="to-create-a-demand-forecast"></a>Kysyntäennusteen luominen
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kysyntäennuste** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Kysyntäennuste** ja valitse sitten liittyvä linkki.  
 2.  Valitse **Yleinen**-pikavälilehden **Kysyntäennusteen nimi** -kentässä ennuste. Ennusteita voi olla useita erinimisiä ja -tyyppisiä.  
 3.  Valitse **Sijaintisuodatus**-kentässä sijainti, jota tämä ennuste koskee.  
 4.  Valitse **Ennusteen tyyppi** -kentässä **Myyntinimike**,  **Komponentti** tai **Molemmat**. Jos valitset **Myyntinimike** tai **Komponentti**, voit muokata määrää jakson mukaan. Jos valitset **Molemmat**, määrää ei voi muuttaa, mutta voit valita alanuolipainikkeen ja tarkastella kysyntäennustetapahtumia.  
@@ -75,5 +73,5 @@ Jos haluat suodattaa ennusteen sijainnin mukaan suunnitelman laskemisen yhteydes
 [Vaihto-omaisuus](inventory-manage-inventory.md)  
 [Osto](purchasing-manage-purchasing.md)  
 [Rakennetiedot: Toimitusten suunnittelu](design-details-supply-planning.md)   
-[Parhaiden käytäntöjen määrittäminen: Toimitusten suunnittelu](setup-best-practices-supply-planning.md)  
+[Asetukset - parhaat käytännöt: toimitusten suunnittelu](setup-best-practices-supply-planning.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)

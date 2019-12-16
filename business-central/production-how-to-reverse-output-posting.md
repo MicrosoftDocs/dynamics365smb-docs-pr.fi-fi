@@ -1,8 +1,6 @@
 ---
 title: Tuotoksen kirjaamisen peruuttaminen | Microsoft Docs
 description: Tuotoksen kirjaus täytyy joissakin tilanteissa peruuttaa. Tällainen tilanne voi olla esimerkiksi, jos tiedot annettiin virheellisesti ja tuotantotilaukseen kirjataan väärä tuotoksen määrä.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7ff9557d088bec5fb76e4bf673ad4afd244e08bf
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2cdda8a01d6391f97bfae5600ce35d2ab989ae54
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313154"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877840"
 ---
 # <a name="reverse-output-posting"></a>Tuotoksen kirjaamisen peruuttaminen
 Tuotoksen kirjaus täytyy joissakin tilanteissa peruuttaa. Tällainen tilanne voi olla esimerkiksi, jos tiedot annettiin virheellisesti ja tuotantotilaukseen kirjataan väärä tuotoksen määrä.  
 
 ## <a name="to-reverse-an-output-posting"></a>Peruuta tuotoksen kirjaus  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tuotospäiväkirja** ja valitse sitten liittyvä linkki. Valitse haluamasi erä.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Tuotospäiväkirja** ja valitse sitten liittyvä linkki. Valitse haluamasi erä.  
 2. Täytä tarvittavat kentät. Lisätietoja on kohdassa [Tuotoksen ja ajoaikojen eräkirjaaminen](production-how-to-post-output-quantity.md).
 3.  Valitse **Kohdistetaan tapahtumaan** -kentässä asiaan liittyvä nimiketapahtuma. Tämä peruuttaa kapasiteetti- ja nimiketapahtumat.  
 4. Kirjaa peruutus kirjaamalla päiväkirja.  
@@ -34,6 +32,6 @@ Tuotospäiväkirjan tapahtumat kirjataan nimiketapahtumiin positiivisena muutoks
  [Tuotanto](production-manage-manufacturing.md)    
  [Tuotannon määrittäminen](production-configure-production-processes.md)  
  [Suunnittelu](production-planning.md)      
- [Vaihto-omaisuus](inventory-manage-inventory.md)  
+ [Varasto](inventory-manage-inventory.md)  
  [Osto](purchasing-manage-purchasing.md)  
  [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  

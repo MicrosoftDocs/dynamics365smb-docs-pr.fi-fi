@@ -1,8 +1,6 @@
 ---
 title: Kustannusbudjettien luominen | Microsoft Docs
 description: Tässä ohjeaiheessa käsitellään yleisesti kustannusbudjettien luontia ja analysointia.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,21 +10,21 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c107daa3725cf2f8b06039655738e8763cc0f6b1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 33999778898c671a87638ef5868103ea34875ff8
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306410"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879822"
 ---
 # <a name="creating-cost-budgets"></a>Kustannusbudjettien luominen
 Budjetointi kustannuslaskennassa muistuttaa pääkirjanpidon budjetointia. Kustannusbudjetti luodaan kustannustyyppien perusteella samalla tavalla kuin pääkirjanpidon budjetti luodaan pääkirjanpitotilien perusteella.  
 
 Kustannusbudjetti luodaan tietylle aikajaksolle, esimerkiksi tilikaudelle. Kustannusbudjetteja voi määrittää niin monta kuin tarvitaan. Voit luoda uuden kusannusbudjeti manuaalisesti tai tuomalla kustannusbudjetin tai kopioimalla aiemmin luodun kustannusbudjetin talousarvion perustaksi. Lisätietoja on kohdassa [KP-budjettien luominen](finance-how-create-budgets.md).
 
-Voit luoda ja analysoida kustannusbudjetteja seuraavilla sivuilla. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake ja etsi sivu. Lue sitten kunkin sivun työkaluvihje.
+Voit luoda ja analysoida kustannusbudjetteja seuraavilla sivuilla. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen ja etsi sivu. Lue sitten kunkin sivun työkaluvihje.
 
-|Vastaanottaja|Katso|  
+|Tehtävä|Katso|  
 |--------|---------|  
 |Siirrä budjetit pääkirjanpidosta.|**Kopioi KP-budjetti kustannuslaskentaan** -eräajo|  
 |Kopioi kustannusbudjetit.|**Kopioi budjetin kustannukset** -eräajo|  

@@ -8,15 +8,15 @@ ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.date: 10/01/2019
-ms.openlocfilehash: f2b5e3ded5c89f241d0c49ee8c6f9d196c6bae43
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7578cdff40111adcbf2401e6bed33ddf47641107
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308210"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880974"
 ---
 # <a name="classifying-data-sensitivity"></a>Tietojen luottamuksellisuuden luokitteleminen
-Microsoft-kumppani voi luokitella luottamuksellisia tai henkilökohtaisia tietoja sisältävät kentät määrittämällä kentille ominaisuuden ```DataClassification```. Tämä edellyttää tietokantataulujen käyttämistä joko kehitysympäristössä tai suorittamalla Windows PowerShell -komentosarja. Lisätietoja on kohdassa [Tietojen luokitteleminen](https://docs.microsoft.com/en-us/dynamics-nav/classifying-data).  
+Microsoft-kumppani voi luokitella luottamuksellisia tai henkilökohtaisia tietoja sisältävät kentät määrittämällä kentille ominaisuuden ```DataClassification```. Tämä edellyttää tietokantataulujen käyttämistä joko kehitysympäristössä tai suorittamalla Windows PowerShell -komentosarja. Lisätietoja on kohdassa [Tietojen luokitteleminen](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).  
 
 Asiakkaana voit lisätä luokittelulle toisen tason, kun määrität vakiokentille ja mukautetuille kentille tietojen luottamuksellisuuden tasot. Tietojen luottamuksellisuuden luokitteleminen auttaa varmistamaan, että tiedät henkilökohtaisten tietojen tallennussijainnin järjestelmässä. Sen avulla on myös helppo vastata tietojen kohteiden pyyntöihin. Yhteyshenkilö tai asiakas voi esimerkiksi pyytää henkilökohtaisten tietojen viemistä. Lisätietoja on kohdassa [Henkilökohtaisia tietoja koskeviin pyyntöihin vastaaminen](admin-responding-to-requests-about-personal-data.md).
 
@@ -48,4 +48,5 @@ Tietojen luokittelun työkirjan avulla voit tehdä esimerkiksi seuraavat toiminn
 > Olemme määrittäneet esimerkkitietojen luottamuksellisuuden luokittelut Cronus-esittely-yrityksen taulukoille ja kentille. Voit käyttää näitä luokitteluita inspiraation lähteenä, kun luokittelet omia taulukoita ja kenttiä.
 
 ## <a name="see-also"></a>Katso myös
-[Tietojen luokitteleminen](https://docs.microsoft.com/en-us/dynamics-nav/classifying-data)  
+
+[Tietojen luokitteleminen](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data)  

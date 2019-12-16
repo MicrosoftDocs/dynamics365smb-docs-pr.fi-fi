@@ -1,8 +1,6 @@
 ---
 title: Arkistoitujen työnkulun osavaiheen ilmentymien tarkasteleminen | Microsoft Docs
 description: Kaikki valmiit työnkulun osavaiheen ilmentymät tallennetaan **Arkistoidut työnkulun osavaiheen ilmentymät** -sivulle.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ec36ab8e884ee7f97b2bde8885bed895a81e09f5
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a6797d407b2bb307e963b35ca8d8165982864b98
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305138"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881046"
 ---
 # <a name="view-archived-workflow-step-instances"></a>Arkistoitujen työnkulun osavaiheen ilmentymien tarkasteleminen
 Kaikki valmiit työnkulun osavaiheen ilmentymät tallennetaan **Arkistoidut työnkulun osavaiheen ilmentymät** -sivulle.  
@@ -30,7 +28,7 @@ Kaikki valmiit työnkulun osavaiheen ilmentymät tallennetaan **Arkistoidut työ
 3.  Valitse **Työnkulku**-sivulla **Arkistoidut työnkulun osavaiheen ilmentymät** -toiminto.  
 
     **Arkistoidut työnkulun osavaiheen ilmentymät** -sivu avautuu, ja siinä näkyvät valitun työnkulun arkistoidut työnkulun osavaiheen ilmentymät.  
-4.  Vaihtoehtoisesti voit valita ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvakkeen, syöttää **Arkistoidut työnkulun osavaiheen ilmentymät** ja valita sitten liittyvän linkin.  
+4.  Vaihtoehtoisesti voit valita ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syöttää **Arkistoidut työnkulun osavaiheen ilmentymät** ja valita sitten liittyvän linkin.  
 
 **Arkistoidut työnkulun osavaiheen ilmentymät** -sivu avautuu, ja siinä näkyvät kaikki arkistoidut työnkulun osavaiheen ilmentymät. **Työnkulun koodi** -kentässä näet, mihin työnkulkuun arkistoitu työnkulun osavaiheen instanssi kuului.  
 

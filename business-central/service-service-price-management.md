@@ -1,8 +1,6 @@
 ---
 title: Huoltohinnan hallinta | Microsoft Docs
 description: Tässä ohjeaiheessa käsitellään parhaiden hintojen käyttämistä huoltotilauksissa, yksilöllisten huoltohintasopimusten määrittämistä asiakkaille, huoltohenkilöstön toiminnan tehostamista ja laskutusprosessin nopeuttamista.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 14ea816e6614a3e47cbc9e47a1adccf8eeddffbd
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 81670627f8658296da7c6c5b0f3e269b78228b0f
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311570"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882300"
 ---
 # <a name="service-price-management"></a>huoltohallinnan asetukset
 Huoltohinnan hallinnan toimintojen avulla voidaan soveltaa oikeita hintoja huoltotilauksiin, määrittää asiakkaille yksilöllisiä huoltohintasopimuksia, parantaa huoltohenkilöstön tehokkuutta ja nopeuttaa laskutusprosessia.  

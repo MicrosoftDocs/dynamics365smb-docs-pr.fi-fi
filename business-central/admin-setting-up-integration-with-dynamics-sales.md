@@ -1,8 +1,6 @@
 ---
 title: Dynamics 365 Sales -integroinnissa käytettävien käyttäjätilien määrittäminen | Microsoft Docs
 description: Tietoja niiden käyttäjätilien määrittämisestä, joilla sovellukset vaihtavat tietoja ja joiden avulla käytetään ja synkronoidaan sovellusten tietoja.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: a876df301476cb6b4af335e8ee957de26865cbaa
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 39fc89ee98ecd76bf292074466b1b70989a2f2e2
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307826"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879015"
 ---
 # <a name="setting-up-user-accounts-for-integrating-with-dynamics-365-sales"></a>Dynamics 365 Sales -integroinnissa käytettävien käyttäjätilien määrittäminen
 Tässä artikkelissa on yleiskatsaus [!INCLUDE[crm_md](includes/crm_md.md)]in ja [!INCLUDE[d365fin](includes/d365fin_md.md)]in integroinnissa tarvittavien käyttäjätilien määrittämisestä.  
@@ -28,20 +26,20 @@ Tässä artikkelissa on yleiskatsaus [!INCLUDE[crm_md](includes/crm_md.md)]in ja
 [!INCLUDE[d365fin](includes/d365fin_md.md)]in järjestelmänvalvojan käyttäjätili on lisättävä ensin käyttäjänä [!INCLUDE[crm_md](includes/crm_md.md)]iin ja siirrettävä käyttäjä sitten [!INCLUDE[crm_md](includes/crm_md.md)]in järjestelmänvalvojaksi. Järjestelmänvalvojan käyttäjätilillä on oltava [!INCLUDE[crm_md](includes/crm_md.md)]issa myös järjestelmän mukauttajan rooli ja ainakin yksi ei-hallinnollinen käyttäjärooli, kuten myyntipäällikkö.
 
 ## <a name="setting-up-the-user-account-for-the-integration"></a>Käyttäjätilin määrittäminen integrointia varten
-Office 365 -tilauksessa on luotava erillinen käyttäjätili, jota sekä [!INCLUDE[d365fin](includes/d365fin_md.md)] että [!INCLUDE[crm_md](includes/crm_md.md)] voi käyttää tietojen synkronoimiseen. Käyttäjätilin tulee voida kirjautua [!INCLUDE[crm_md](includes/crm_md.md)]iin, mikä tarkoittaa sitä, että tällä käyttäjällä tulee olla [!INCLUDE[crm_md](includes/crm_md.md)] lisenssi ja vähintään yksi käyttäjäoikeusrooli määritettynä [!INCLUDE[crm_md](includes/crm_md.md)]ssa, kuten [tässä kuvataan](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#create-a-user-account). Lisätietoja käyttäjien luomisesta [!INCLUDE[crm_md](includes/crm_md.md)]issa on kohdassa [Tietoturvan, käyttäjien ja tiimien hallinta](http://go.microsoft.com/fwlink/?LinkID=616518). Kun yhteys on määritetty, [!INCLUDE[d365fin](includes/d365fin_md.md)] määrittää käyttäjätilin käyttöoikeusroolit, joita se tarvitsee [!INCLUDE[d365fin](includes/d365fin_md.md)]ssa ja tämän tilin voi määrittää [epäinteraktiiviseen käyttötilaan](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#create-a-non-interactive-user-account) [!INCLUDE[crm_md](includes/crm_md.md)]ssä.
+Office 365 -tilauksessa on luotava erillinen käyttäjätili, jota sekä [!INCLUDE[d365fin](includes/d365fin_md.md)] että [!INCLUDE[crm_md](includes/crm_md.md)] voi käyttää tietojen synkronoimiseen. Käyttäjätilin tulee voida kirjautua [!INCLUDE[crm_md](includes/crm_md.md)]iin, mikä tarkoittaa sitä, että tällä käyttäjällä tulee olla [!INCLUDE[crm_md](includes/crm_md.md)] lisenssi ja vähintään yksi käyttäjäoikeusrooli määritettynä [!INCLUDE[crm_md](includes/crm_md.md)]ssa, kuten [tässä kuvataan](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#create-a-user-account). Lisätietoja käyttäjien luomisesta [!INCLUDE[crm_md](includes/crm_md.md)]issa on kohdassa [Tietoturvan, käyttäjien ja tiimien hallinta](https://go.microsoft.com/fwlink/?LinkID=616518). Kun yhteys on määritetty, [!INCLUDE[d365fin](includes/d365fin_md.md)] määrittää käyttäjätilin käyttöoikeusroolit, joita se tarvitsee [!INCLUDE[d365fin](includes/d365fin_md.md)]ssa ja tämän tilin voi määrittää [epäinteraktiiviseen käyttötilaan](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#create-a-non-interactive-user-account) [!INCLUDE[crm_md](includes/crm_md.md)]ssä.
 
-![Asetusten ohjattu määritys osoittaa paikan, johon synkronoinnin käyttäjätiedot annetaan](media/sync-user-setup.png "Visualisointina asetusten ohjattu määrityssivu osoittaa paikan, johon synkronoinnin käyttäjätiedot annetaan")
+![Avustava asetusopas näyttää kohdan, johon annetaan synkronoinnin käyttäjätunnisteet](media/sync-user-setup.png "Visualisoinnin ohjattu avustava asetusopas näyttää kohdan, johon annetaan synkronoinnin käyttäjätunnisteet")
 
 > [!IMPORTANT]  
 > Älä käytä [!INCLUDE[crm_md](includes/crm_md.md)]in järjestelmänvalvojan tiliä synkronointiin, sillä se katkaisee synkronoinnin.
-> Jotta synkronointi ei olisi jatkuvaa, integroinnin käyttäjätilin tietoihin tekemiä muutoksia ei myöskään synkronoida. <!--What changes would this account make?--> Kun yhteys on muodostettu, on suositeltavaa määrittää integroinnin käyttäjätilin käyttöoikeus [!INCLUDE[crm_md](includes/crm_md.md)]issa ei-vuorovaikutteiseen tilaan. Lisätietoja on kohdassa [Ei-vuorovaikutteisen käyttäjätilin luominen](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#create-a-non-interactive-user-account).
+> Jotta synkronointi ei olisi jatkuvaa, integroinnin käyttäjätilin tietoihin tekemiä muutoksia ei myöskään synkronoida. <!--What changes would this account make?--> Kun yhteys on muodostettu, on suositeltavaa määrittää integroinnin käyttäjätilin käyttöoikeus [!INCLUDE[crm_md](includes/crm_md.md)]issa ei-vuorovaikutteiseen tilaan. Lisätietoja on kohdassa [Ei-vuorovaikutteisen käyttäjätilin luominen](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#create-a-non-interactive-user-account).
 
 ## <a name="setting-up-accounts-sales-people"></a>Myyjien tilien määrittäminen
 [!INCLUDE[crm_md](includes/crm_md.md)]issa on luotava käyttäjätilit [!INCLUDE[d365fin](includes/d365fin_md.md)]in myyjille. Tämän helpottamiseksi Microsoft 365:n hallintakeskuksessa on Excel-malli, jota voit käyttää. Valitse **Aktiiviset käyttäjät** -sivulla ensin **Lisää** ja sitten **Tuo useita käyttäjiä**. Valitse **Lataa vain otsikot sisältävä CSV-tiedosto** ja anna myyjien tiedot. Jos haluat nähdä esimerkin, valitse **Lataa otsikot sisältävä CSV-tiedosto ja esimerkkikäyttäjätiedot**. Kun olet antanut käyttäjien tiedot, tuontiprosessin seuraava vaihe on määrittää käyttäjien käyttöoikeudet Dynamics 365 Customer Engagement -palvelupakettiin.  
 
 Kun olet tuonut käyttäjät ja määrittänyt heille Dynamics 365 Customer Engagementin käyttöoikeudet, sinun on määritettävä käyttäjille **myyjän** rooli [!INCLUDE[crm_md](includes/crm_md.md)]issa.
 
-![Myyjien yhdistäminen käyttäjiin Dynamics 365 Salesissa](media/couple-salespeople.png "Visualisointina myyjien yhdistäminen käyttäjiin Dynamics 365 Salesissa")
+![Myyjien yhdistäminen käyttäjiin Dynamics 365 Salesissa](media/couple-salespeople.png "Visualisointi: Myyjien yhdistäminen käyttäjiin Dynamics 365 Salesissa")
 
 ## <a name="minimum-permissions-for-user-accounts-in-includecrm_mdincludescrm_mdmd"></a>Sovelluksen [!INCLUDE[crm_md](includes/crm_md.md)] käyttäjätilien vähimmäiskäyttöoikeusvaatimukset
 Kun integrointiratkaisua asennetaan, integroinnin käyttäjätilin käyttöoikeudet määritetään sovelluksessa [!INCLUDE[crm_md](includes/crm_md.md)]. Jos näitä käyttöoikeuksia on muutettu, käyttöoikeudet on ehkä palautettava alkuperäisiksi. Tämä tehdään asentamalla integrointiratkaisu uudelleen tai määrittämällä käyttöoikeudet uudelleen manuaalisesti. Seuraavassa taulukossa ovat sovelluksen [!INCLUDE[crm_md](includes/crm_md.md)] käyttäjätilien vähimmäiskäyttöoikeudet.

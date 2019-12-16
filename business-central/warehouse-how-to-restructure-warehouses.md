@@ -1,8 +1,6 @@
 ---
 title: Fyysisten varastojen järjesteleminen uudelleen | Microsoft Docs
 description: Haluat ehkä järjestellä fyysisen varaston uudelleen käyttämällä uusia varastopaikan koodeja ja uusia varastopaikan ominaispiirteitä.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: d615322b183a0b99e16ed0802601dcffa1dc6dd1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5562e13a2b430c6f7d3e8875b5b87dbe8febf670
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313854"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876558"
 ---
 # <a name="restructure-warehouses"></a>Fyysisten varastojen uudelleenjärjestely
 Haluat ehkä järjestellä fyysisen varaston uudelleen käyttämällä uusia varastopaikan koodeja ja uusia varastopaikan ominaispiirteitä. Tällaista toimintoa ei suoriteta kovin usein, mutta eteen voi tulla tilanteita, jolloin uudelleenluokittelu on tarpeen, jotta saavutettaisiin tai ylläpidettäisiin tehokkaampaa toimintaa. Esimerkiksi:  
@@ -29,11 +27,11 @@ Haluat ehkä järjestellä fyysisen varaston uudelleen käyttämällä uusia var
 Jos fyysinen varasto käyttää varastopaikkoja, mutta ei ohjattua hyllytystä ja poimintaa, määritä fyysisen varaston rakenne uudelleen luomalla uudet varastopaikat, joita haluat käyttää tulevaisuudessa.  
 
 ## <a name="to-restructure-a-basic-warehouse-that-uses-bins-only"></a>Järjestele uudelleen perusvarastointi, joka käyttää vain varastopaikkoja  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sijainnit** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Sijainnit** ja valitse sitten liittyvä linkki.  
 2.  Määritä sijaintikortissa **Varastointi**-pikavälilehden **Oletus var.paikan valinta** -kentän arvoksi **Viim. käyt. var.paikka**.  
 3.  Siirrä nykyisten varastopaikkojen koko sisältö juuri luomiisi uusiin varastopaikkoihin:  
 
-    1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeen uudelleenluokituspäiväkirja** ja valitse sitten liittyvä linkki.  
+    1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Nimikkeen uudelleenluokituspäiväkirja** ja valitse sitten liittyvä linkki.  
     2.  Valitse ensin päiväkirjarivi ja sitten **Hae var.paikan sisältö** -toiminto.  
     3.  Määritä **Varastopaikan sisältö**-pikavälilehden **Sijaintikoodi**-, **Varastopaikkakoodi**- ja **Nimikenro**-kentissä sisältö, jonka haluat siirtää.  
     4.  Valitse **OK** täyttääksesi päiväkirjarivin.  
@@ -48,13 +46,13 @@ Olet nyt tyhjentänyt varastopaikat, joissa nimikkeet olivat. Nimikkeiden oletus
 1.  Luo uudet varastopaikat, joita haluat käyttää jatkossa. Lisätietoja on kohdassa [Varastopaikkojen luominen](warehouse-how-to-create-individual-bins.md).  
 2.  Siirrä nykyisten varastopaikkojen koko sisältö juuri luomiisi uusiin varastopaikkoihin:  
 
-    1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **F. var. uudelleenluokituspvk** ja valitse sitten liittyvä linkki.  
+    1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **F. var. uudelleenluokituspvk** ja valitse sitten liittyvä linkki.  
     2.  Niiden varastopaikkojen osalta, joita ei koske mikään todellinen nimikkeiden siirto, luo rivi kullekin nykyiselle varastopaikalle  **F. var. uudelleenluokituspvk** -päiväkirjaan käyttäen vanhaa varastopaikkakoodia (**Var.paikasta)** ja uutta varastopaikkakoodia ( **Varastopaikkakoodiin**).  
     3.  Jos joihinkin siirtoihin kuuluu todellisia fyysisiä siirtoja, jotka haluat työntekijöiden suorittavan, käytä  **Var.siirtotyökirjoja** valmistellaksi siirto-ohjeita sen sijaan, että käyttäisit f- varaston uudelleenluokittelupäiväkirjaa. Lisätietoja on kohdassa [Nimikkeiden siirtäminen laajennetussa varastointimäärityksissä](warehouse-how-to-move-items-in-advanced-warehousing.md).  
 
 3.  Kun vanhat varastopaikat on tyhjennetty, luokittele ne uudelleen **QC** -tyypin varastopaikoiksi varmistaaksesi, että ne eivät kuulu nimikevirtoihin.  
 
-    1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sijainnit** ja valitse sitten liittyvä linkki.  
+    1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Sijainnit** ja valitse sitten liittyvä linkki.  
     2.  Valitse ensin sijainnin rivi ja sitten **Varastopaikat**-toiminto.  
     3.  Anna **Varastopaikat**-sivun **Varastopaikkatyypin koodi** -kentässä koodi **QC** jokaiselle vanhalle varastopaikalle, jonka tyhjensit edellisen toimenpiteen vaiheessa 3.  
 
@@ -62,7 +60,7 @@ Olet nyt poistanut fyysisen varastoinnin virrasta varastopaikat ja luokitellut n
 
 ## <a name="to-delete-a-bin"></a>Varastopaikan poistaminen  
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sijainnit** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Sijainnit** ja valitse sitten liittyvä linkki.  
 2.  Valitse sijainti, jossa haluat poistaa varastopaikkoja. Valitse **Varastopaikat**-toiminto.  
 3.  Valitse poistettavien varastopaikkojen rivit.  
 4.  Valitse **Poista**-toiminto.  
@@ -73,7 +71,7 @@ Jos haluat nimetä varastopaikan uudelleen, niin että myös kaikki varastopaikk
 
 ## <a name="to-rename-a-bin-and-change-the-bin-code-in-all-records"></a>Varastopaikan nimeäminen uudelleen ja varastopaikkakoodin muuttaminen kaikkiin tietueisiin  
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Sijainnit** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Sijainnit** ja valitse sitten liittyvä linkki.  
 2.  Valitse sijainti, jonka varastopaikan haluat nimetä uudelleen tai jossa haluat muuttaa varastopaikkakoodia, ja valitse sitten **Varastopaikat**-toiminto.  
 3.  Valitse se varastopaikka, jota haluat muuttaa. Syötä uusi varastopaikan koodi **Koodi**-kentässä.  
 4.  Valitse **Kyllä**-painike.  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: e0d2974c3f71d7bbcac46931208f1f492121f11c
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: 4b6137f6d5fa057d801a1afe30480017ceadd1c8
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554348"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879080"
 ---
 # <a name="scheduling-a-synchronization-between-business-central-and-dynamics-365-sales"></a>Business Centralin ja Dynamics 365 Salesin synkronoinnin ajoittaminen
 Voit synkronoida [!INCLUDE[d365fin](includes/d365fin_md.md)]in ja [!INCLUDE[crm_md](includes/crm_md.md)]in tietyin väliajoin määrittämällä työt työjonoon. Synkronointityöt synkronoivat [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietueiden tiedot ja [!INCLUDE[crm_md](includes/crm_md.md)]in tietueet, jotka on aiemmin yhdistetty. Jos kyse on vielä yhdistämättömistä tietueista synkronointityöt voivat luoda ja yhdistää uusia tietueita kohdejärjestelmässä synkronointisuunnan ja -sääntöjen mukaisesti. Käytettävissä on heti useita synkronointitöitä. Voit tarkastella niitä **Työjonon tapahtumat** -sivulla. Lisätietoja on kohdassa [Tehtävien aikatauluttaminen työjonojen avulla](admin-job-queues-schedule-tasks.md).
@@ -28,7 +28,9 @@ Kunkin synkronoinnin työjonotapahtuma käyttää tiettyä integrointitaulukon y
 
 Tietojen synkronointi edellyttää, että [!INCLUDE[crm_md](includes/crm_md.md)] -objektin tietueet on yhdistettävä [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietueisiin. Esimerkiksi [!INCLUDE[d365fin](includes/d365fin_md.md)]in asiakas on yhdistettävä [!INCLUDE[crm_md](includes/crm_md.md)]in tiliin. Yhdistämiset voidaan määrittää manuaalisesti, ennen kuin suoritat synkronointitöitä tai voit antaa synkronointitöiden määrittää yhdistämiset automaattisesti. Seuraavassa luettelossa käsitellään tietojen synkronointia [!INCLUDE[crm_md](includes/crm_md.md)]in ja [!INCLUDE[d365fin](includes/d365fin_md.md)]in välillä, kun käytät synkronoinnin työjonon tapahtumia. Lisätietoja on kohdassa [Tietueiden yhdistäminen ja synkronoiminen manuaalisesti](admin-how-to-couple-and-synchronize-records-manually.md).
 
--   Oletusarvoisesti vain ne [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietueet, jotka on yhdistetty [!INCLUDE[crm_md](includes/crm_md.md)]in tietueisiin, synkronoidaan. Voit muuttaa taulukon yhdistämismäärityksiä [!INCLUDE[crm_md](includes/crm_md.md)]in objektin ja [!INCLUDE[d365fin](includes/d365fin_md.md)]in taulukon välillä siten, että integroinnin synkronointityöt luovat uudet tietueet kohdetietokantaan kullekin lähdetietokannan tietueelle, jota ei ole yhdistetty. Myös uudet tietueet yhdistetään lähteen vastaaviin tietueisiin. Kun esimerkiksi synkronoit asiakkaita [!INCLUDE[crm_md](includes/crm_md.md)]in tilien kanssa, kullekin [!INCLUDE[d365fin](includes/d365fin_md.md)]in asiakkaalle luodaan uusi tilitietue. Uudet tilit yhdistetään automaattisesti [!INCLUDE[d365fin](includes/d365fin_md.md)]in asiakkaisiin. Koska tässä tapauksessa synkronointi on kaksisuuntainen, uusi asiakas luodaan ja yhdistetään kuhunkin vielä yhdistämättömään [!INCLUDE[crm_md](includes/crm_md.md)]in tiliin.  
+-   **Synkronoi vain yhdistetyt tietueet** -valintaruutu määrittää, luodaanko uusia tietueita synkronoinnin yhteydessä. Oletusarvon mukaan valintaruutu on valittuna, joten vain kytkettyjä tietueita synkronoidaan. Integraatiotaulukon yhdistämismäärityksissä voit muuttaa taulukon yhdistämismäärityksiä [!INCLUDE[crm_md](includes/crm_md.md)]in objektin ja [!INCLUDE[d365fin](includes/d365fin_md.md)]in taulukon välillä siten, että integroinnin synkronointityöt luovat uudet tietueet kohdetietokantaan kullekin lähdetietokannan tietueelle, jota ei ole yhdistetty. Lisätietoja on kohdassa [Uusien tietueiden luominen](admin-how-to-modify-table-mappings-for-synchronization.md#creating-new-records). 
+    
+    **Esimerkki**: Jos tyhjennät **Synkronoi vain yhdistetyt tietueet** -valintaruudun, kun synkronoit [!INCLUDE[d365fin](includes/d365fin_md.md)] -asiakkaat [!INCLUDE[crm_md](includes/crm_md.md)] -tilien kanssa, ohjelma luo uuden tilin kullekin asiakkaalle [!INCLUDE[d365fin](includes/d365fin_md.md)]ssa ja yhdistää sen automaattisesti. Lisäksi koska tässä tapauksessa synkronointi on kaksisuuntainen, uusi asiakas luodaan ja yhdistetään kuhunkin vielä yhdistämättömään [!INCLUDE[crm_md](includes/crm_md.md)]in tiliin.  
 
     > [!NOTE]  
     > Synkronoitavat tiedot määrittyvät sääntöjen ja suodattimien perusteella. Lisätietoja on kohdassa [Synkronointisäännöt](admin-synchronizing-business-central-and-sales.md#synchronization-rules).
@@ -44,33 +46,46 @@ Tietojen synkronointi edellyttää, että [!INCLUDE[crm_md](includes/crm_md.md)]
 ## <a name="default-synchronization-job-queue-entries"></a>Oletusarvoiset synkronoinnin työjonotapahtumat  
 Seuraavassa taulukossa kuvaillaan synkronoinnin oletustyöt.  
 
-|Työjonotapahtuma|Kuvaus|Suunta|Integrointitaulukon yhdistämismääritys|  
-|---------------------|---------------------------------------|---------------|-------------------------------|  
-|KONTAKTI – Dynamics 365 Salesin synkronointityö|Synkronoi [!INCLUDE[crm_md](includes/crm_md.md)]in kontaktit [!INCLUDE[d365fin](includes/d365fin_md.md)]in kontakteilla.|Kaksisuuntainen|KONTAKTI|  
-|VALUUTTA – Dynamics 365 Salesin synkronointityö|Synkronoi [!INCLUDE[crm_md](includes/crm_md.md)]in tapahtumien valuutat [!INCLUDE[d365fin](includes/d365fin_md.md)]in valuuttojen kanssa.|[!INCLUDE[d365fin](includes/d365fin_md.md)]ista [!INCLUDE[crm_md](includes/crm_md.md)]iin|VALUUTTA|  
-|ASIAKAS – Dynamics 365 Salesin synkronointityö|Synkronoi [!INCLUDE[crm_md](includes/crm_md.md)]in tilit ja [!INCLUDE[d365fin](includes/d365fin_md.md)]in asiakkaat.|Kaksisuuntainen|ASIAKAS|  
-|ASIAKHNTRHM-HINTA – Dynamics 365 Salesin synkronointityö|Synkronoi [!INCLUDE[crm_md](includes/crm_md.md)]in myyntihinnaston ja [!INCLUDE[d365fin](includes/d365fin_md.md)]in asiakashintaryhmät.| |ASIAKASHINTARYHMÄT-MYYNTIHINNASTOT|
-|NIMIKE-TUOTE – Dynamics 365 Salesin synkronointityö|Synkronoi [!INCLUDE[crm_md](includes/crm_md.md)]in tuotteet ja [!INCLUDE[d365fin](includes/d365fin_md.md)]in nimikkeet.|[!INCLUDE[d365fin](includes/d365fin_md.md)]ista [!INCLUDE[crm_md](includes/crm_md.md)]iin|NIMIKE-TUOTE|
-|KIRJMNTILASKU-LASK – Dynamics 365 Salesin synkronointityö|Synkronoi [!INCLUDE[crm_md](includes/crm_md.md)]in laskut ja [!INCLUDE[d365fin](includes/d365fin_md.md)]in kirjatut myyntilaskut.|[!INCLUDE[d365fin](includes/d365fin_md.md)]ista [!INCLUDE[crm_md](includes/crm_md.md)]iin|LASKUT-KIRJATUT MYYNTILASKUT|
-|RESURSSI-TUOTE – Dynamics 365 Salesin synkronointityö|Synkronoi [!INCLUDE[crm_md](includes/crm_md.md)]in tuotteet ja [!INCLUDE[d365fin](includes/d365fin_md.md)]in resurssit.|[!INCLUDE[d365fin](includes/d365fin_md.md)]ista [!INCLUDE[crm_md](includes/crm_md.md)]iin|RESURSSI-TUOTE|  
-|MYYJÄT – Dynamics 365 Salesin synkronointityö|Synkronoi [!INCLUDE[d365fin](includes/d365fin_md.md)]in myyjät ja [!INCLUDE[crm_md](includes/crm_md.md)]in käyttäjät.|[!INCLUDE[crm_md](includes/crm_md.md)]ista [!INCLUDE[d365fin](includes/d365fin_md.md)]iin|MYYJÄT|
-|MYYNTIHNT-TUOTEHINTA – Dynamics 365 Salesin synkronointityö|Synkronoi [!INCLUDE[crm_md](includes/crm_md.md)]in tuotehinnat ja [!INCLUDE[d365fin](includes/d365fin_md.md)]in myyntihinnat.||TUOTEHINTA-MYYNTIHINTA|
-|MITTAYKSIKKÖ – Dynamics 365 Salesin synkronointityö|Synkronoi [!INCLUDE[crm_md](includes/crm_md.md)]in yksikköryhmät ja [!INCLUDE[d365fin](includes/d365fin_md.md)]in mittayksiköt.|[!INCLUDE[d365fin](includes/d365fin_md.md)]ista [!INCLUDE[crm_md](includes/crm_md.md)]iin|MITTAYKSIKKÖ|  
-|Asiakastilastot – Dynamics 365 Salesin synkronointityö|Päivittää [!INCLUDE[crm_md](includes/crm_md.md)]in tilit uusilla [!INCLUDE[d365fin](includes/d365fin_md.md)]in asiakastiedoilla. Nämä tiedot näkyvät [!INCLUDE[crm_md](includes/crm_md.md)]issa niiden tilien **Business Central -tilin tilastot** -pikanäkymälomakkeessa, jotka on yhdistetty [!INCLUDE[d365fin](includes/d365fin_md.md)]in asiakkaisiin.<br /><br /> Nämä tiedot voidaan päivittää myös manuaalisesti kustakin asiakastietueesta. Lisätietoja on kohdassa [Tietueiden yhdistäminen ja synkronoiminen manuaalisesti](admin-how-to-couple-and-synchronize-records-manually.md). </BR></BR>**Huomautus:** Tällä työjonotapahtumalla on merkitystä vain, jos [!INCLUDE[d365fin](includes/d365fin_md.md)] -integrointiratkaisu on asennettu [!INCLUDE[crm_md](includes/crm_md.md)]iin. Lisätietoja on kohdassa [Tietoja Business Central -integraatioratkaisusta](admin-prepare-dynamics-365-for-sales-for-integration.md#about-the-business-central-integration-solution).|Ei sovellu.|Ei sovellu.|   
+|Työjonotapahtuma|Kuvaus|Suunta|Integrointitaulukon yhdistämismääritys|Synkronoinnin oletustiheys (min)|Passivisuuden oletusaika (min)|  
+|---------------------|---------------------------------------|---------------|-------------------------------|-----|-----|  
+|KONTAKTI – Dynamics 365 Salesin synkronointityö|Synkronoi [!INCLUDE[crm_md](includes/crm_md.md)]in kontaktit [!INCLUDE[d365fin](includes/d365fin_md.md)]in kontakteilla.|Kaksisuuntainen|KONTAKTI|30|720 <br>(12 tuntia)| 
+|VALUUTTA – Dynamics 365 Salesin synkronointityö|Synkronoi [!INCLUDE[crm_md](includes/crm_md.md)]in tapahtumien valuutat [!INCLUDE[d365fin](includes/d365fin_md.md)]in valuuttojen kanssa.|[!INCLUDE[d365fin](includes/d365fin_md.md)]ista [!INCLUDE[crm_md](includes/crm_md.md)]iin|VALUUTTA|30|720 <br> (12 tuntia)| 
+|ASIAKAS – Dynamics 365 Salesin synkronointityö|Synkronoi [!INCLUDE[crm_md](includes/crm_md.md)]in tilit ja [!INCLUDE[d365fin](includes/d365fin_md.md)]in asiakkaat.|Kaksisuuntainen|ASIAKAS|30|720<br> (12 tuntia)|
+|ASIAKHNTRHM-HINTA – Dynamics 365 Salesin synkronointityö|Synkronoi [!INCLUDE[crm_md](includes/crm_md.md)]in myyntihinnaston ja [!INCLUDE[d365fin](includes/d365fin_md.md)]in asiakashintaryhmät.| |ASIAKASHINTARYHMÄT-MYYNTIHINNASTOT|30|1440<br> (24 tuntia)|
+|NIMIKE-TUOTE – Dynamics 365 Salesin synkronointityö|Synkronoi [!INCLUDE[crm_md](includes/crm_md.md)]in tuotteet ja [!INCLUDE[d365fin](includes/d365fin_md.md)]in nimikkeet.|[!INCLUDE[d365fin](includes/d365fin_md.md)]ista [!INCLUDE[crm_md](includes/crm_md.md)]iin|NIMIKE-TUOTE|30|1440<br> (24 tuntia)|
+|KIRJMNTILASKU-LASK – Dynamics 365 Salesin synkronointityö|Synkronoi [!INCLUDE[crm_md](includes/crm_md.md)]in laskut ja [!INCLUDE[d365fin](includes/d365fin_md.md)]in kirjatut myyntilaskut.|[!INCLUDE[d365fin](includes/d365fin_md.md)]ista [!INCLUDE[crm_md](includes/crm_md.md)]iin|LASKUT-KIRJATUT MYYNTILASKUT|30|1440<br> (24 tuntia)|
+|RESURSSI-TUOTE – Dynamics 365 Salesin synkronointityö|Synkronoi [!INCLUDE[crm_md](includes/crm_md.md)]in tuotteet ja [!INCLUDE[d365fin](includes/d365fin_md.md)]in resurssit.|[!INCLUDE[d365fin](includes/d365fin_md.md)]ista [!INCLUDE[crm_md](includes/crm_md.md)]iin|RESURSSI-TUOTE|30|720<br> (12 tuntia)|  
+|MYYJÄT – Dynamics 365 Salesin synkronointityö|Synkronoi [!INCLUDE[d365fin](includes/d365fin_md.md)]in myyjät ja [!INCLUDE[crm_md](includes/crm_md.md)]in käyttäjät.|[!INCLUDE[crm_md](includes/crm_md.md)]ista [!INCLUDE[d365fin](includes/d365fin_md.md)]iin|MYYJÄT|30|1440<br> (24 tuntia)|
+|MYYNTIHNT-TUOTEHINTA – Dynamics 365 Salesin synkronointityö|Synkronoi [!INCLUDE[crm_md](includes/crm_md.md)]in tuotehinnat ja [!INCLUDE[d365fin](includes/d365fin_md.md)]in myyntihinnat.||TUOTEHINTA-MYYNTIHINTA|30|1440<br> (24 tuntia)|
+|MITTAYKSIKKÖ – Dynamics 365 Salesin synkronointityö|Synkronoi [!INCLUDE[crm_md](includes/crm_md.md)]in yksikköryhmät ja [!INCLUDE[d365fin](includes/d365fin_md.md)]in mittayksiköt.|[!INCLUDE[d365fin](includes/d365fin_md.md)]ista [!INCLUDE[crm_md](includes/crm_md.md)]iin|MITTAYKSIKKÖ|30|720<br> (12 tuntia)|  
+|Asiakastilastot – Dynamics 365 Salesin synkronointityö|Päivittää [!INCLUDE[crm_md](includes/crm_md.md)]in tilit uusilla [!INCLUDE[d365fin](includes/d365fin_md.md)]in asiakastiedoilla. Nämä tiedot näkyvät [!INCLUDE[crm_md](includes/crm_md.md)]issa niiden tilien **Business Central -tilin tilastot** -pikanäkymälomakkeessa, jotka on yhdistetty [!INCLUDE[d365fin](includes/d365fin_md.md)]in asiakkaisiin.<br /><br /> Nämä tiedot voidaan päivittää myös manuaalisesti kustakin asiakastietueesta. Lisätietoja on kohdassa [Tietueiden yhdistäminen ja synkronoiminen manuaalisesti](admin-how-to-couple-and-synchronize-records-manually.md). </BR></BR>**Huomautus:** Tällä työjonotapahtumalla on merkitystä vain, jos [!INCLUDE[d365fin](includes/d365fin_md.md)] -integrointiratkaisu on asennettu [!INCLUDE[crm_md](includes/crm_md.md)]iin. Lisätietoja on kohdassa [Tietoja Business Central -integraatioratkaisusta](admin-prepare-dynamics-365-for-sales-for-integration.md#about-the-business-central-integration-solution).|Ei sovellu|Ei sovellu|30|Ei sovellu|   
+
+## <a name="about-inactivity-timeouts"></a>Tietoja käyttämättömyyden aikakatkaisusta
+Jotkin työjonotapahtumat, esimerkiksi ne, jotka ajoittavat [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman ja [!INCLUDE[crm_md](includes/crm_md.md)]:n välisen synkronoinnin, käyttävät Työjonotapahtuma-kortissa **Käyttämättömyyden aikakatkaisu** -kenttää estämään työjonotapahtuman tarpeettoman suorittamisen.  
+<br><br>
+
+> ![Vuokaavio siitä, kun työjonon tapahtumat ovat pidossa käyttämättömyyden vuoksi.](media/on-hold-with-inactivity-timeout.png)
+
+Jos tämän kentän arvo ei ole nolla eikä työjono löytänyt muutoksia viimeisen suorituksen aikana, [!INCLUDE[d365fin](includes/d365fin_md.md)] siirtää työjonotapahtuman pitoon. Kun näin tapahtuu, **Työjonon tila** -kentässä näkyy **Estossa toimettomuuden vuoksi**, ja [!INCLUDE[d365fin](includes/d365fin_md.md)] odottaa **Käyttämättömyyden aikakatkaisu** -kentässä määritetyn ajan, ennen kuin se suorittaa työjonotapahtuman uudelleen. 
+
+Oletusarvon mukaan esimerkiksi CURRENCY-työjonotapahtuma, joka synkronoi valuutat [!INCLUDE[crm_md](includes/crm_md.md)] -ohjelmassa [!INCLUDE[d365fin](includes/d365fin_md.md)]n valuuttakurssien mukaan, etsii vaihtokurssien muutoksia 30 minuutin välein. Jos muutoksia ei löydy, [!INCLUDE[d365fin](includes/d365fin_md.md)] asettaa CURRENCY-työjonotapahtuman Estossa olevaksi 720 minuutin (kuuden tunnin) ajaksi. Jos vaihtokurssia muutetaan, [!INCLUDE[d365fin](includes/d365fin_md.md)]ssa, kun työjonotapahtuma on Estossa, [!INCLUDE[d365fin](includes/d365fin_md.md)] aktivoi automaattisesti uudelleen työjonontapahtuman ja työjono käynnistetään uudelleen. 
+
+> [!Note]
+> [!INCLUDE[d365fin](includes/d365fin_md.md)] aktivoi pidossa olevat työjonotapahtumat automaattisesti vain, kun [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmassa tehdään muutoksia. Muutokset [!INCLUDE[crm_md](includes/crm_md.md)]ssa eivät aktivoi työjonotapahtumia.
 
 ## <a name="to-view-the-synchronization-job-log"></a>Synkronointityön lokin tarkasteleminen  
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita **Integroinnin synkronointiloki** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Integroinnin synkronointiloki** ja valitse sitten liittyvä linkki.
 2.  Jos synkronointityössä tapahtui ainakin yksi virhe, virheiden määrä näkyy **Epäonnistui**-sarakkeessa. Näytä työn virheet valitsemalla numero.  
 
     > [!TIP]  
     > Voit tarkastella kaikkia synkronointitöiden virheitä avaamalla synkronointityölokin suoraan.
 
 ## <a name="to-view-the-synchronization-job-log-from-the-table-mappings"></a>Synkronointityölokin tarkasteleminen taulukon yhdistämismäärityksistä  
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita **Integrointitaulukon yhdistämismääritykset** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Integrointitaulukon yhdistämismääritykset** ja valitse sitten liittyvä linkki.
 2.  Valitse **Integrointitaulukon yhdistämismääritykset** -sivulla tapahtuma ja valitse sitten **Integroinnin synkronointityöloki**.  
 
 ## <a name="to-view-the-synchronization-error-log"></a>Synkronoinnin virhelokin tarkasteleminen  
-* Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita **Integroinnin synkronointivirheet** ja valitse sitten liittyvä linkki.
+* Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Integroinnin synkronointivirheet** ja valitse sitten liittyvä linkki.
 
 ## <a name="see-also"></a>Katso myös  
 [Business Centralin ja Dynamics 365 Salesin tietojen synkronointi](admin-synchronizing-business-central-and-sales.md)  

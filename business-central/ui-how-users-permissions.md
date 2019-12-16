@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 11/07/2019
+ms.date: 12/03/2019
 ms.author: sgroespe
-ms.openlocfilehash: c64a14ed66668f8c3cbe09e8db3430a7dc25db5c
-ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
+ms.openlocfilehash: 1d0b7b7363df88e52631b4ba6e2f495be13f7397
+ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "2774817"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2896155"
 ---
 # <a name="create-users-according-to-licenses"></a>Luo käyttäjät käyttöoikeuksien mukaan
 Seuraavassa kuvataan miten järjestelmänvalvoja voi luoda käyttäjiä ja määrittää, ketkä voivat kirjautua sisään [!INCLUDE[d365fin](includes/d365fin_md.md)]iin ja mitkä perusoikeudet eri käyttäjätyypeillä on käyttöoikeuksien mukaan.
@@ -34,14 +34,17 @@ Jotta voisit määrittää ketkä voivat kirjautua sisään [!INCLUDE[d365fin](i
 
 Lisätietoja on Kehittäjä- ja ITpro-ohjeen kohdassa [Business Central Onlinen hallinta](/dynamics365/business-central/dev-itpro/administration/tenant-administration).
 
-Kun käyttäjät, joilla on [!INCLUDE[d365fin](includes/d365fin_md.md)] -lisenssi on luotu Office 365:ssa, heidät voidaan tuoda **Käyttäjät**-sivulle [!INCLUDE[d365fin](includes/d365fin_md.md)]:ssa käyttämällä **Hae käyttäjät Office 365:stä** -toimintoa.
+Kun käyttäjät, joilla on [!INCLUDE[d365fin](includes/d365fin_md.md)] -lisenssi on luotu Office 365:ssa, heidät voidaan tuoda **Käyttäjät**-sivulle [!INCLUDE[d365fin](includes/d365fin_md.md)]:ssa käyttämällä **Hae uudet käyttäjät Office 365:stä** -toimintoa.
 
 ### <a name="to-add-a-user-in-business-central"></a>Käyttäjän lisääminen Business Central -sovellukseen
 Voit lisätä käyttäjiä Microsoft 365 admin Centeristä [!INCLUDE[d365fin](includes/d365fin_md.md)]online-käyttöön käyttämällä erityistä tuontitoimintoa.  
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttäjät** ja valitse sitten liittyvä linkki.
-2. Valitse **Hae käyttäjät Office 365:stä** -toiminto.
+2. Valitse **Hae uudet käyttäjät Office 365:stä** -toiminto.
 
 Kaikki uudet Office 365 -tilaukseen luodut käyttäjät lisätään **Käyttäjät**-sivulla. Käyttäjille määritetään käyttöoikeusjoukot sen mukaan, mikä lisenssi on määritetty käyttäjälle Office 365:ssä. Voit määrittää tämän jälkeen käyttäjien tarkemmat käyttöoikeudet ja järjestää käyttäjät käyttäjäryhmiin käyttöoikeuksien hallinnan helpottamiseksi. Lisätietoja on kohdassa [Käyttöoikeuksien joukkojen määrittäminen käyttäjille](ui-define-granular-permissions.md#to-assign-permission-sets-to-users).
+
+> [!NOTE]
+> Jos käytä ulkoista kirjanpitäjää kirjojen ja talousraportoinnin hallinnassa, voit kutsua kirjanpitäjän Business Centraliin, jolloin he saavat käyttöönsä kirjanpitotietosi. Lisätietoja on kohdassa [Ulkoisen kirjanpitäjän kutsuminen Business Centraliin](finance-accounting.md#inviteaccountant)
 
 ### <a name="to-remove-a-users-access-to-the-system"></a>Järjestelmän käyttöoikeuden poistaminen käyttäjältä
 Online-käyttöönotoissa voit poistaa käyttäjältä järjestelmän käyttöoikeuden määrittämällä **Tila**-kentän arvoksi **Ei käytössä**. Kaikki viittaukset käyttäjään säilyvät, mutta käyttäjä ei voi enää kirjautua järjestelmään ja käyttäjän aktiiviset istunnot lopetetaan.
@@ -50,22 +53,38 @@ Online-käyttöönotoissa voit poistaa käyttäjältä järjestelmän käyttöoi
 2. Avaa asianmukaisen käyttäjän **Käyttäjäkortti**-sivu ja valitse sitten **Tila**-kentässä **Ei käytössä**.
 3. Voit antaa käyttöoikeuden uudelleen käyttäjälle määrittämällä **Tila**-kentän arvoksi **Käytössä**.
 
-Käyttäjän poistamisen lisäksi voit poistaa käyttäjän käyttöoikeuden Office 365 -hallintakeskuksessa. Käyttäjä ei pysty kirjautumaan sisään. Lisätietoja on ohjeaiheessa [Käyttöoikeuksien poistaminen käyttäjiltä](https://docs.microsoft.com/office365/admin/manage/remove-licenses-from-users).
+Käyttäjän poistamisen lisäksi voit poistaa käyttäjän käyttöoikeuden Microsoft 365 -hallintakeskuksessa. Käyttäjä ei pysty kirjautumaan sisään. Lisätietoja on ohjeaiheessa [Käyttöoikeuksien poistaminen käyttäjiltä](https://docs.microsoft.com/office365/admin/manage/remove-licenses-from-users).
 
 ### <a name="to-change-the-assigned-license-for-a-user"></a>Käyttäjän määritetyn käyttöoikeuden muuttaminen
 Joskus käyttäjälle määritettyä käyttöoikeutta on ehkä muutettava. Jos esimerkiksi päätät käyttää huoltohallintomoduulia ja haluat päivittää kaikki tärkeät käyttöoikeudet Premiumiin. Tai jos käyttäjän vastuu on muuttunut ja sinun täytyy vaihtaa tiimin jäsenen käyttöoikeus olennaiseen.
 
-1. Muuta käyttöoikeutta Office 365 -hallintakeskuksessa. Lisätietoja on kohdassa [Käyttäjien lisääminen yksittäin tai joukkona Office 365:een](https://aka.ms/CreateOffice365Users).
+1. Muuta käyttöoikeutta Microsoft 365 -hallintakeskuksessa. Lisätietoja on kohdassa [Käyttäjien lisääminen yksittäin tai joukkona Office 365:een](https://aka.ms/CreateOffice365Users).
 2. Kirjaudu sisään [!INCLUDE[d365fin](includes/d365fin_md.md)]:een järjestelmänvalvojana.
 3. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttäjät** ja valitse sitten liittyvä linkki.
 4. Vaihtoehtoisesti voit valita **Käyttäjät**-sivulla **Päivitä kaikki käyttäjäryhmät** -toiminnon.
+
 Käyttäjät siirtyvät asianmukaiseen käyttäjäryhmään, ja käyttöoikeusjoukot päivittyvät. Lisätietoja on kohdassa [Käyttäjien käyttöoikeuksien hallinta käyttäjäryhmien kautta](ui-define-granular-permissions.md#to-manage-permissions-through-user-groups).
 
 > [!NOTE]
 > Kaikille ratkaisun tavallisille käyttäjille on määritettävä sama käyttöoikeus, olennainen tai Premium.
 > Tietoja käyttöoikeuksista on kohdassa [Microsoft Dynamics 365 Business Centralin käyttöoikeusopas](https://aka.ms/BusinessCentralLicensing).
 
-## <a name="managing-users-and-licenses-in-online-deployments"></a>Käyttäjien ja lisenssien hallinta online-käyttöönotoissa
+### <a name="synchronization-with-office-365"></a>Synkronointi Office 365:n kanssa
+Kun käyttöoikeus on määritetty käyttäjälle Office 365:ssä, voit luoda käyttäjän [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmassa kahdella tavalla. Järjestelmä tekee sen automaattisesti, kun käyttäjä kirjautuu ensimmäisen kerran, tai järjestelmänvalvoja voi lisätä käyttäjän valitsemalla **Käyttäjät**-sivun **Hae käyttäjät Office 365:stä**.
+
+Molemmissa tapauksissa tehdään automaattisesti useita lisäasetuksia. Ne on luetteloitu taulukon toisessa ja kolmannessa sarakkeessa.
+
+Jos muutat Office 365 -käyttäjää jälkeenpäin ja sinun täytyy synkronoida muutokset [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmaan, voit käyttää eri toimintoja **Käyttäjät**-sivulla sen mukaan, mitä tarkalleen haluat synkronoida. Ne on luetteloitu taulukon kolmessa viimeisessä sarakkeessa.
+
+|Mitä tapahtuu, kun:|Ensimmäinen sisäänkirjautuminen|Hae käyttäjät Office 365:stä|Päivitä käyttäjät Office 365:stä|Palauttaa käyttäjän oletuskäyttäjäryhmät|Päivitä käyttäjäryhmät|
+|-|-|-|-|-|-|
+|Laajuus:|Nykyinen käyttäjä|Uusia käyttäjiä Office 365:ssä|Useita valittuja käyttäjiä|Yksittäinen valittu käyttäjä (paitsi nykyinen)|Useita valittuja käyttäjiä|
+|Luo uusi käyttäjä ja määritä SUPER-käyttöoikeusjoukko.<br /><br />Ympäristö|**X**|**X**| | | |
+|Päivitä käyttäjätietue todellisten tietojen perusteella Office 365:ssä: tila, koko nimi, yhteyshenkilön sähköpostiosoite, todennuksen sähköpostiosoite.<br /><br />Codeunit "Azure AD   Graph User".UpdateUserFromAzureGraph|**X**|**X**|**X**|**X**| |
+|Synkronoi käyttäjän palvelupaketit (lisenssit) ja käyttöoikeudet sekä määritetyt roolit Office 365:ssä.<br /><br />Codeunit "Azure AD   Graph User".UpdateUserPlans|**X**|**X**| |**X**|**X**|
+|Lisää käyttäjä käyttäjäryhmiin nykyisen käyttäjän palvelupakettien mukaan. Peruuta SUPER-käyttöoikeusjoukko (Vähintään yksi SUPER-käyttäjä tarvitaan. Älä peruuta tätä oikeutta [järjestelmänvalvojilta](/dynamics365/business-central/dev-itpro/administration/tenant-administration).)<br /><br />Codeunit "Permission Manager". AddUserToDefaultUserGroups|**X**|**X**| |**X**<br /><br />Korvaa: Poista käyttäjä muista ryhmistä. Poista manuaalisesti määritetyt käyttöoikeus joukot.|**X**<br /><br />Lisäävä: Säilytä nykyinen jäsenyys käyttäjäryhmässä ja määritetyt käyttöoikeusjoukot ennallaan. Lisää käyttäjä ryhmiin vain tarvittaessa.|
+
+## <a name="managing-users-and-licenses-in-on-premises-deployments"></a>Käyttäjien ja lisenssien hallinta on-premises-käyttöönotoissa
 Paikallisissa käyttöönotoissa käyttöoikeustiedostossa (.flf) on määritetty useita lisensoituja käyttäjiä. Kun järjestelmänvalvoja tai Microsoft-kumppani lataa käyttöoikeustiedoston, järjestelmänvalvoja voi määrittää, mitkä käyttäjät voivat kirjautua [!INCLUDE[d365fin](includes/d365fin_md.md)]:een.
 
 Järjestelmänvalvoja luo, muokkaa ja poistaa käyttäjiä paikallisesti käyttöönotoissa suoraan **Käyttäjät**-sivulta.

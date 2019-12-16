@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 10/17/2019
+ms.date: 11/22/2019
 ms.author: edupont
-ms.openlocfilehash: 6c1ec2e61b1a6d61b9662abe70e3177747b73a12
-ms.sourcegitcommit: be1e2c49a8434d3f440d5a201508af9c3c8cc87f
+ms.openlocfilehash: 1e45b7cb19df3c057485451a95ae1633804fa865
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "2649714"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879128"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Business Central -sovelluksen käyttäminen yrityssähköpostina Outlookissa
+
 [!INCLUDE[d365fin](includes/d365fin_md.md)] esittelee mahdollisuuden hallita liiketoiminnallisia vuorovaikutuksia asiakkaiden ja toimittajien kanssa suoraan Microsoft Outlookista. [!INCLUDE[d365fin](includes/d365fin_md.md)]in Outlook-apuohjelmien avulla voit tarkastella asiakkaisiin ja toimittajiin liittyviä taloustietoja sekä luoda ja lähettää talousasiakirjoja, kuten tarjouksia ja laskuja.  
 
 ## <a name="getting-the-add-in"></a>Apuohjelman hakeminen
@@ -26,9 +27,13 @@ Outlookin [!INCLUDE[d365fin](includes/d365fin_md.md)] -apuohjelman käytön aloi
 Kun sitten avaat Outlookin, näet *Dynamics 365 Business Centralin järjestelmänvalvojan* lähettämän sähköpostiviestin. Uudet apuohjelmat lisätään Outlookin valintanauhaan, ja [!INCLUDE[prodshort](includes/prodshort.md)]in apuohjelmat näkyvät selaimessa heti sähköpostiviestin perustekstin ylä- tai alapuolella. Apuohjelmat päivitetään ajoittain, ja saat ilmoituksen, kun uusi versio on valmiina Outlookissa.  
 
 > [!TIP]
-> Jos käytät uutta Outlookia selaimessa [!INCLUDE [prodshort](includes/prodshort.md)]in apuohjelmat voivat olla piilotettuina **Lisää toimintoja** -kohdassa.
+> Jos käytät uutta Outlookia verkossa [!INCLUDE [prodshort](includes/prodshort.md)]in apuohjelmat voivat olla piilotettuina **Lisää toimintoja** -kohdassa. Jos käytät apuohjelmaa usein, voit kiinnittää sen niin, että se näkyy aina heti. Lisätietoja on kohdassa [Outlook-verkkoversion apuohjelmien käyttäminen](https://support.office.com/article/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?ns=OLWAO365B&version=16).  
 
-Jos työskentelet useamman kuin yhden [!INCLUDE [prodshort](includes/prodshort.md)] -yrityksen kanssa, voit helposti vaihtaa yritysten välillä Outlookissa.
+Jos työskentelet useamman kuin yhden [!INCLUDE [prodshort](includes/prodshort.md)] -yrityksen kanssa, voit helposti vaihtaa yritysten välillä Outlookissa. Valitse apuohjelman toimintopalkista **Lisää toimintoja**, ja sen jälkeen näet vaihtoehdon, jolla voi siirtyä yritysten välillä.  
+
+<!--TEMP-->
+> [!NOTE]
+> Yritysten välillä siirtyminen edellyttää [!INCLUDE [prodshort](includes/prodshort.md)]in vuoden 2019 2. julkaisuaallon version ta tai uudemman, kuten [julkaisusuunnitelmassa ilmoitettiin](/dynamics365-release-plan/2019wave2/dynamics365-business-central/switch-between-companies-business-inbox-outlook).
 
 Jotkin Office 365:ää käyttävät yrityksen rajoittavat käyttäjien oikeuksia ottaa apuohjelmia käyttöön. Varmista tämän vuoksi, että Office 365 -tilauksesi sisältää sähköpostin ja mahdollistaa apuohjelmien käyttämisen. Jos haluat kokeilla apuohjelma joka tapauksessa, voit [kokeilla Office 365:ää maksutta](https://products.office.com/try).  
 
@@ -74,4 +79,4 @@ Apuohjelmat on suunniteltu Office 365:n kanssa käytettäväksi . Jos käytät p
 [Myynti](sales-manage-sales.md)  
 [Osto](purchasing-manage-purchasing.md)  
 [Outlookin vähimmäisvaatimukset](product-requirements.md#outlook)  
-[Apuohjelmien käyttäminen Outlookin verkkoversiossa](https://support.office.com/en-us/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  
+[Apuohjelmien käyttäminen Outlookin verkkoversiossa](https://support.office.com/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  

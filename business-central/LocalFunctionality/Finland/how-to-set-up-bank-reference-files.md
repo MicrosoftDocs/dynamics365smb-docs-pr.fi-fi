@@ -1,8 +1,6 @@
 ---
 title: Pankin viitetiedostojen määrittäminen
 description: Elektronisten maksujen käsittelyä varten on ensin määritettävä pankin viitetiedostot, joiden avulla määritetään, miten maksutiedot tuodaan tai viedään.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,36 +8,32 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 11/18/2019
 ms.author: sgroespe
-ms.openlocfilehash: f10772e27227d91b2c38061b766877da2aab3b06
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: f673af1a442b5a98b18dbb92fd78f1faef742a06
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300215"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879277"
 ---
 # <a name="set-up-bank-reference-files"></a>Pankin viitetiedostojen määrittäminen
 Elektronisten maksujen käsittelyä varten on ensin määritettävä pankin viitetiedostot, joiden avulla määritetään, miten maksutiedot tuodaan tai viedään.  
 
 ## <a name="to-set-up-a-bank-reference-file"></a>Pankin viitetiedoston määrittäminen  
 
-1.  Valitse ![Etsi sivu tai raportti -kuvake](../../media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Pankin viitetiedoston asetukset** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Etsi sivu tai raportti](../../media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") kuvakkeen, anna **Pankin viitetiedoston asetukset** ja valitse sitten aiheeseen liittyvä linkki.  
 2.  Täytä **Yleinen**-pikavälilehden kentät seuraavassa taulukossa kuvatulla tavalla.  
 
-    |Kenttä|Description|  
+    |Kenttä|Kuvaus|  
     |---------------------------------|---------------------------------------|  
-    |**Nro**|Määrittää pankkitilin koodin.|  
-    |**Vie viitemaksut**|Anna vietävän maksutiedoston koko polku.|  
-    |**Tuo viitemaksut**|Anna tuotavan maksutiedoston koko polku.|  
-    |**Valuutan vaihtokurssitiedosto**|Anna valuutan vaihtokurssitiedoston koko polku.|  
+    |**Ei.**|Määrittää pankkitilin koodin.|  
     |**Kohdistettujen hyvityslaskujen tiedot**|Kun valitset tämän, laskuihin kohdistetut hyvitykset näkyvät maksun vastaanottajan tiliotteessa.|  
 
 3.  Täytä **Ulkomaan maksut** -pikavälilehden kentät seuraavassa taulukossa kuvatulla tavalla.  
 
-    |Kenttä|Description|  
+    |Kenttä|Kuvaus|  
     |---------------------------------|---------------------------------------|  
-    |**Vie ulkomaan maksut**|Anna ulkomaan pankkeihin vietävän maksutiedoston koko polku.|  
     |**Eräpäivän käsittely**|Määritä, miten eräpäivän käsittelyä käytetään ulkomaan maksuissa.<br /><br /> **Erä** – Kaikki tiedoston maksut saavat saman maksupäivämäärän.<br /><br /> -tai-<br /><br /> **Tapahtuma** – Jokainen tiedoston maksu saa tapahtumakohtaisen maksupäivämäärän. Kysy pankista lisätietoja tämän asetuksen käytöstä.|  
     |**Palvelumaksun oletuskoodi**|Valitse palvelumaksun oletuskoodi ulkomaan pankkeja varten.|  
     |**Oletusmaksutapa**|Valitse oletusmaksutapa ulkomaan pankkeja varten.|  

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics365-business-central
 ms.reviewer: margoc
 ms.author: solsen
-ms.openlocfilehash: 40759a8ed442b4523066734868c86715d3dec5dd
-ms.sourcegitcommit: 86498fe4326b9ce26cc31e8645db27570d13bdf9
+ms.openlocfilehash: de638f779f45eb3d6dcb637310c85e5675b69338
+ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2767796"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832165"
 ---
 # <a name="sales-learning-catalog"></a>Myynnin opintoluettelo
 
@@ -23,7 +23,7 @@ Seuraava luettelo on järjestetty perustiedoista tiettyihin toimialueisiin ja pe
 
 | Sisältö                                                                          | Kuvaus                                                                                                                                                                                                                                                                                              | Muoto                                | Pituus              |
 |---------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|---------------------|
-| [Dynamics 365 Business Central (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101760)                              | (Vain kumppanit) Tässä istunnossa esitellään Business Centralin arvo. Business Central tarjoaa upean arvon, koska se integroituu muihin Microsoft Cloud -palveluihin, kuten Office 365:een ja se voidaan mukauttaa tai laajentaa tiettyihin alan tarpeisiin PowerAppsin, Microsoft Flow'n ja Power BIn avulla. | Video                                 | 8 minuuttia 5 sekuntia |
+| [Dynamics 365 Business Central (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101760)                              | (Vain kumppanit) Tässä istunnossa esitellään Business Centralin arvo. Business Central tarjoaa upean arvon, koska se integroituu muihin Microsoft Cloud -palveluihin, kuten Office 365:een ja se voidaan mukauttaa tai laajentaa tietyn alan tarpeisiin Power Appsin, Power Automaten ja Power BI:n avulla. | Video                                 | 8 minuuttia 5 sekuntia |
 | [Tutki Dynamics 365 Business Central -ominaisuuksia](https://dynamics.microsoft.com/business-central/capabilities/) | Tutki Dynamics 365 Business Central -ominaisuuksia                                                                                                                                                                                                                                                        | Sivusto                               |                     |
 | [Dynamics 365 Business Central](https://docs.microsoft.com/learn/modules/dynamics-365-business-central/)            | Tämä moduuli näyttää sovelluksen ominaisuudet, hyödyt ja esimerkit Dynamics 365 Business Centralista käytännössä.                                                                                                                                                                                                | Ilmainen, omaan tahtiin etenevä verkko-oppimispolku | 24 minuuttia          |
 
@@ -40,7 +40,7 @@ Seuraava luettelo on järjestetty perustiedoista tiettyihin toimialueisiin ja pe
 
 | Sisältö                                                                          | Kuvaus                                                                                                                                                                                                                                                                                               | Muoto                                | Pituus              |
 |---------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|---------------------|
-| [Dynamics 365 Business Central (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101760)                              | (Vain kumppanit) Tässä istunnossa esitellään Business Centralin arvo. Business Central tarjoaa upean arvon, koska se integroituu muihin Microsoft Cloud -palveluihin, kuten Office 365:een ja se voidaan mukauttaa tai laajentaa tiettyihin alan tarpeisiin PowerAppsin, Microsoft Flow'n ja Power BIn avulla. | Video                                 | 8 minuuttia 5 sekuntia |
+| [Dynamics 365 Business Central (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101760)                              | (Vain kumppanit) Tässä istunnossa esitellään Business Centralin arvo. Business Central tarjoaa upean arvon, koska se integroituu muihin Microsoft Cloud -palveluihin, kuten Office 365:een ja se voidaan mukauttaa tai laajentaa tietyn alan tarpeisiin Power Appsin, Power Automaten ja Power BI:n avulla. | Video                                 | 8 minuuttia 5 sekuntia |
 | [Tutki Dynamics 365 Business Central -ominaisuuksia](https://dynamics.microsoft.com/business-central/capabilities/) | Tutki Dynamics 365 Business Central -ominaisuuksia                                                                                                                                                                                                                                                        | Sivusto                               |                     |
 | [Dynamics 365 Business Central](https://docs.microsoft.com/learn/modules/dynamics-365-business-central/)            | Tämä moduuli näyttää sovelluksen ominaisuudet, hyödyt ja esimerkit Dynamics 365 Business Centralista käytännössä.                                                                                                                                                                                                | Ilmainen, omaan tahtiin etenevä verkko-oppimispolku | 24 minuuttia          |
 
