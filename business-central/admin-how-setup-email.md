@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 11/15/2019
+ms.date: 12/17/2019
 ms.author: sgroespe
-ms.openlocfilehash: e1f24e6da71d32e162b107b0e0b9e01cb68cc302
-ms.sourcegitcommit: 23577ae8ecaaf09b58716c2b9f65e39c188e3661
+ms.openlocfilehash: df0956167908c214385b40e3ccb2f20a10d4458b
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2810811"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910830"
 ---
 # <a name="set-up-email"></a>Määritä sähköposti
 Jos haluat lähettää ja vastaanottaa sähköpostiviestejä [!INCLUDE[d365fin](includes/d365fin_md.md)]:ssä, SMTP-sähköpostiasetukset-sivun kentät on täytettävä.
@@ -30,7 +30,7 @@ Voit määrittää sähköpostin joko myöhemmin kuvattavalla tavalla manuaalise
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]
-    > Jos käytössä on tili, jossa vaaditaan kaksimenetelmäinen todennus, **Salasana**-kenttään syötettävän arvon on oltava sama kuin Office 365 -tilauksessa käytettävä salasana. Salasanan tyypin on oltava **Sovelluksen salasana**. Lisätietoja on kohdassa [Kaksivaiheisen vahvistuksen sovellussalasanojen hallinta](/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords). 
+    > Jos käytössä on tili, jossa vaaditaan kaksimenetelmäinen todennus, **Salasana**-kenttään syötettävän arvon on oltava sama kuin Office 365 -tilauksessa käytettävä salasana. Salasanan tyypin on oltava **Sovelluksen salasana**. Lisätietoja on kohdassa [Kaksivaiheisen vahvistuksen sovellussalasanojen hallinta](/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords).
 3. Vaihtoehtoisesti voit lisätä Office 365 -tilauksessa määritetyt tiedot valitsemalla **Käytä Office 365 Server -asetuksia** -toiminnon.
 4. Kun kaikki kentät on täytetty oikein, valitse **Testisähköpostin asetukset** -toiminto.
 5. Kun testi onnistuu, sulje sivu.
@@ -51,7 +51,7 @@ Seuraavassa on esimerkkejä tavoista, joilla Lähetä –- tai Lähetä puolesta
 2. Valitse [!INCLUDE[d365fin](includes/d365fin_md.md)]:ssa ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **SMTP-sähköpostin asetukset** ja valitse sitten liittyvä linkki.
 3. Lisää korvaava osoite **Lähetä –** -kenttään.
 4. Kopioi **Käyttäjätunnus**-kentässä oleva osoite tai kirjoita se muistiin.
-5. Etsi **Exchangen hallintakeskuksessa** postilaatikko, jota käytetään korvaavana osoitteena, ja anna sitten **Käyttäjätunnus**-kentän osoite **Lähetä –** -kenttään. Lisätietoja on kohdassa [Vastaanottajien käyttöoikeuksien hallinta](/Exchange/recipients/mailbox-permissions?view=exchserver-2019#use-the-eac-to-assign-permissions-to-individual-mailboxes).
+5. Etsi **Exchangen hallintakeskuksessa** postilaatikko, jota käytetään korvaavana osoitteena, ja anna sitten **Käyttäjätunnus**-kentän osoite **Lähetä –** -kenttään. Lisätietoja on aiheessa [Yksittäisten postilaatikoiden käyttöoikeuksien määrittäminen EAC-määrityksen avulla](/Exchange/recipients/mailbox-permissions?view=exchserver-2019#use-the-eac-to-assign-permissions-to-individual-mailboxes).
 
 ### <a name="to-use-the-substitute-address-in-approval-workflows"></a>Korvaavan osoitteen käyttäminen hyväksymistyönkuluissa
 1. Valitse [!INCLUDE[d365fin](includes/d365fin_md.md)]:ssa ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **SMTP-sähköpostin asetukset** ja valitse sitten liittyvä linkki.

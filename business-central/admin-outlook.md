@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 11/22/2019
+ms.date: 01/13/2020
 ms.author: edupont
-ms.openlocfilehash: 1e45b7cb19df3c057485451a95ae1633804fa865
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 5098087fc5d4ea821e32d644c159deeb5289b837
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879128"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953014"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Business Central -sovelluksen käyttäminen yrityssähköpostina Outlookissa
 
@@ -69,6 +69,8 @@ Jos [!INCLUDE[d365fin](includes/d365fin_md.md)]ia ei voi edelleenkään käyttä
 ## <a name="using-other-email-accounts"></a>Muiden sähköpostitilien käyttäminen
 
 Apuohjelmat on suunniteltu Office 365:n kanssa käytettäväksi . Jos käytät paikallista [!INCLUDE [prodshort](includes/prodshort.md)] -versiota, järjestelmänvalvoja tietää, voitko käyttää [!INCLUDE [prodshort](includes/prodshort.md)]in apuohjelmia Outlookissa. Lisätietoja on kohdissa [Mitä sähköpostiosoitetta käytetään [!INCLUDE[prodshort](includes/prodshort.md)]in kanssa?](across-faq.md#what-email-address-can-i-use-with-) ja [Erityisolosuhteita edellyttävät ominaisuudet](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances).  
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesalternative-interfaces-dynamics-365-business-centralindex"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Katso myös
 

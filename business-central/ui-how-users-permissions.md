@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 12/03/2019
+ms.date: 01/06/2020
 ms.author: sgroespe
-ms.openlocfilehash: 1d0b7b7363df88e52631b4ba6e2f495be13f7397
-ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
+ms.openlocfilehash: b9fbf0b2793c6239f3a1a416230d4afb17bdb5c6
+ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896155"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "2943231"
 ---
 # <a name="create-users-according-to-licenses"></a>Luo käyttäjät käyttöoikeuksien mukaan
 Seuraavassa kuvataan miten järjestelmänvalvoja voi luoda käyttäjiä ja määrittää, ketkä voivat kirjautua sisään [!INCLUDE[d365fin](includes/d365fin_md.md)]iin ja mitkä perusoikeudet eri käyttäjätyypeillä on käyttöoikeuksien mukaan.
@@ -83,6 +83,45 @@ Jos muutat Office 365 -käyttäjää jälkeenpäin ja sinun täytyy synkronoida 
 |Päivitä käyttäjätietue todellisten tietojen perusteella Office 365:ssä: tila, koko nimi, yhteyshenkilön sähköpostiosoite, todennuksen sähköpostiosoite.<br /><br />Codeunit "Azure AD   Graph User".UpdateUserFromAzureGraph|**X**|**X**|**X**|**X**| |
 |Synkronoi käyttäjän palvelupaketit (lisenssit) ja käyttöoikeudet sekä määritetyt roolit Office 365:ssä.<br /><br />Codeunit "Azure AD   Graph User".UpdateUserPlans|**X**|**X**| |**X**|**X**|
 |Lisää käyttäjä käyttäjäryhmiin nykyisen käyttäjän palvelupakettien mukaan. Peruuta SUPER-käyttöoikeusjoukko (Vähintään yksi SUPER-käyttäjä tarvitaan. Älä peruuta tätä oikeutta [järjestelmänvalvojilta](/dynamics365/business-central/dev-itpro/administration/tenant-administration).)<br /><br />Codeunit "Permission Manager". AddUserToDefaultUserGroups|**X**|**X**| |**X**<br /><br />Korvaa: Poista käyttäjä muista ryhmistä. Poista manuaalisesti määritetyt käyttöoikeus joukot.|**X**<br /><br />Lisäävä: Säilytä nykyinen jäsenyys käyttäjäryhmässä ja määritetyt käyttöoikeusjoukot ennallaan. Lisää käyttäjä ryhmiin vain tarvittaessa.|
+
+## <a name="the-device-license"></a>Laitteen käyttöoikeus
+Dynamics 365 Business Central laitteen käyttöoikeuden avulla useat käyttäjät voivat käyttää myyntipisteen laitetta, kauppatilan laitetta tai varaston laitetta, jolla on laitteen käyttöoikeus. Lisätietoja on kohdassa [Microsoft Dynamics 365 Business Centralin käyttöoikeusopas](https://aka.ms/BusinessCentralLicensing).
+
+Laitteen käyttöoikeus on toteutettu samanaikaisten käyttäjien mallina. Kun olet ostanut x määrän laitelisenssejä, enintään x käyttäjää erityisestä ryhmästä nimeltä Dynamics 365 Business Central -laitekäyttäjät* voi kirjautua samanaikaisesti.
+
+Yrityksesi Office 365 -järjestelmänvalvojan tai Microsoft-kumppanin on luotava erityinen laiteryhmä ja lisättävä laitteen käyttäjät kyseisen ryhmän jäseniksi. He voivat tehdä tämän [Microsoft 365 -hallintakeskuksessa](https://admin.microsoft.com/) tai [Azure-portaalissa](https://portal.azure.com/).
+
+### <a name="device-user-limitations"></a>Laitteen käyttäjärajoitukset
+Käyttäjät, joilla on laitteen käyttöoikeus, eivät voi suorittaa seuraavia tehtäviä kohteessa [!INCLUDE[d365fin](includes/d365fin_md.md)]:
+
+-   Määritä työt, jotka suoritetaan työjonon ajoitettuina tehtävinä. Laitteen käyttäjät ovat samanaikaisia käyttäjiä, joten emme voi varmistaa, että mukana oleva käyttäjä on läsnä järjestelmässä, kun tehtävä suoritetaan, mikä on tarpeen.
+
+-   Laitteen käyttäjä ei voi olla ensimmäinen käyttäjä, joka kirjautuu sisään. Järjestelmänvalvojan, täyden käyttäjän tai ulkoisen kirjanpitäjän käyttäjän on kirjauduttava sisään ensimmäisenä, jotta hän voi määrittää [!INCLUDE[d365fin](includes/d365fin_md.md)]in. Lisätietoja on kohdassa [Ylläpitäjät](/dynamics365/business-central/dev-itpro/administration/tenant-administration).
+
+### <a name="to-create-a-dynamics-365-business-central-device-users-group"></a>Laitekäyttäjät Dynamics 365 Business Central -ryhmän luominen
+1.  Siirry Microsoft 365 -hallintakeskuksen**Ryhmät**-sivulle.
+2.  Valitse **Lisää ryhmä** -toiminto.
+3.  Valitse **Valitse ryhmän tyyppi** -sivulla **Suojaus**-toiminto ja valitse sitten **Lisää**-toiminto.
+4.  Kirjoita **Perustiedot**-sivulla ryhmän nimeksi *Dynamics 365 Business Central Device Users*.
+
+    > [!Note]
+    > Ryhmän nimen on oltava kirjoitettu täsmälleen kuten yllä, myös ei-englanninkielisissä määrityksissä.
+5. Valitse **Sulje**-painike.
+
+> [!NOTE]
+> Voit myös luoda ryhmän, jonka tyyppi on Office 365. Lisätietoja on kohdassa [Ryhmien vertaaminen](https://docs.microsoft.com/office365/admin/create-groups/compare-groups)
+
+### <a name="to-add-members-to-the-group"></a>Jäsenien lisääminen ryhmään
+1.  Päivitä Microsoft 365 -hallintakeskuksessa **Ryhmät**-sivu, jotta uusi ryhmä tulee näkyviin.
+2.  Valitse **Dynamics 365 Business Central Device Users** -ryhmä ja valitse sitten **Näytä kaikki ja hallitse jäseniä** -toiminto.
+3.  Valitse **Lisää jäseniä** -toiminto.
+4.  Valitse käyttäjät, jotka haluat lisätä, ja valitse sitten **Tallenna**-painike.
+5.  Valitse **Sulje**-painike kolme kertaa.
+
+Voit lisätä niin monta käyttäjää Dynamics 365 Business Central Device Users -ryhmään kuin tarvitset. Niiden laitteiden määrä, joihin käyttäjät voivat kirjautua samanaikaisesti, määritetään ostettujen laitekäyttöoikeuksien määrän mukaan.
+
+> [!NOTE]
+> [!INCLUDE[d365fin](includes/d365fin_md.md)]- käyttöoikeutta ei tarvitse määrittää käyttäjille, jotka ovat laitteen Dynamics 365 Business Central Device Users -ryhmän jäseniä.
 
 ## <a name="managing-users-and-licenses-in-on-premises-deployments"></a>Käyttäjien ja lisenssien hallinta on-premises-käyttöönotoissa
 Paikallisissa käyttöönotoissa käyttöoikeustiedostossa (.flf) on määritetty useita lisensoituja käyttäjiä. Kun järjestelmänvalvoja tai Microsoft-kumppani lataa käyttöoikeustiedoston, järjestelmänvalvoja voi määrittää, mitkä käyttäjät voivat kirjautua [!INCLUDE[d365fin](includes/d365fin_md.md)]:een.

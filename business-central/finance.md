@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 69014460131bd80bf08403a079e30b61d56cf307
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2152e5535f35be234753895ca024791f912f6869
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301538"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2911093"
 ---
 # <a name="finance"></a>Rahoitus
 [!INCLUDE[d365fin](includes/d365fin_md.md)] sisältää useimpien taloushallinnon prosessien vakiomäärityksen. Voit muuttaa määritystä omaa liiketoimintaasi vastaavaksi. Lisätietoja on kohdassa [Rahoituksen määrittäminen](finance-setup-finance.md).
@@ -31,7 +31,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 | Kohdista saapuvia maksuja, täsmäytä pankkitilejä maksujen kohdistamisen aikana ja peri avoimia saldoja. |[Myyntisaamisten hallinta](receivables-manage-receivables.md) |
 | Suorita maksuja, kohdista lähteviä maksuja ja käsittele sekkejä. |[Ostovelkojen hallinta](payables-manage-payables.md) |
 |Saat asiakkaat lähettämään maksun ennen toimitusta tai lähetät itse maksun toimittajille, ennen kuin he toimittavat sinulle.|[Ennakkomaksujen laskuttaminen](finance-invoice-prepayments.md)|
-| Täsmäytä pankkitilejä ja siirrä varoja pankkitilien välillä. |[Pankkitilien hallinta](bank-manage-bank-accounts.md) |
+| Täsmäytä pankkitilejä ja siirrä varoja pankkitilien välillä. |[Pankkitilien täsmäytys](bank-manage-bank-accounts.md) |
 |Määritä konsernikumppanit ja käsittele tapahtumat manuaalisesti tai automaattisesti samaan yhtiöön kuuluvien yritysten välillä.|[Konsernitapahtumien hallinta](intercompany-manage.md)|
 |Analysoi liiketoiminnan kustannuksia kohdistamalla toimintojen, osastojen, toimintojen ja projektien toteutuneet ja budjetoidut kustannukset kustannuspaikkoihin.|[Kustannuslaskenta](finance-manage-cost-accounting.md)|
 |Varaston ja tuotannon kustannusten hallinta, kustannusten raportointi ja kustannusten täsmäyttäminen pääkirjanpitoon.|[Varaston kustannusten hallinta](finance-manage-inventory-costs.md)|

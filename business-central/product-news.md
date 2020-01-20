@@ -7,12 +7,12 @@ ms.topic: get-started-article
 ms.search.keywords: news, release plan, roadmap, whats new
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 119c3f77d1423daeed519ac22e805b59d689bf51
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: a75d67cec31953d3e96111ff5558ecd89b461683
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2883346"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2954209"
 ---
 # <a name="whats-new-in-dynamics-365-business-central"></a>Dynamics 365 Business Centralin uudet ominaisuudet
 
@@ -41,4 +41,3 @@ Kumppaniyhteisöjä koskevia tietoja julkaistaan [Microsoft Dynamics 365 Busines
 [Dynamics 365 Business Central -yhteisö](https://community.dynamics.com/business/)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
-## [!INCLUDE[d365fin](includes/training_link_md.md)]  

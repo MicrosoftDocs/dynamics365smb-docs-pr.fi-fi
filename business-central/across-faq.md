@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 12/06/2019
+ms.date: 12/12/2019
 ms.author: edupont
-ms.openlocfilehash: 4df167f27fc9fe456cece9c8738fa5f3aff8338c
-ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
+ms.openlocfilehash: cb470cd72c3352ca5de9fc27264b30b67abbadec
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896183"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910926"
 ---
 # <a name="frequently-asked-questions"></a>Usein kysytyt kysymykset
 
@@ -111,7 +111,7 @@ Jos haluat opastusta Microsoftilta, ota yhteyttä [Microsoftin myyntitiimiin](ht
 Jälleenmyyjäkumppanisi voi myös antaa teknistä tukea sinulle. Lisätietoja on kohdassa [Resurssit ohjeelle ja tuelle](product-help-and-support.md).
 
 ## <a name="is-the-windows-client-supported"></a>Tuetaanko Windows-työasemaohjelmaa?
-[!INCLUDE[prodshort](includes/prodshort.md)]-ohjelman ensimmäiset versiot sisälsivät asennetun asiakkaan, joka on johdettu Microsoft Dynamics NAV -ohjelmasta. Tämä vanha komponentti, johon viitataan nimellä "Windows-asiakasohjelma", ei enää ole saatavilla vuoden 2019 2. julkaisuaallon [!INCLUDE[prodshort](includes/prodshort.md)] -versiosta lähtien. Lis tietoja on ohjeaiheessa [Windows-työasemaohjelman ja Business Centralin usein kysytyt kysymykset](/dynamics365/business-central/dev-itpro/across-faq-win-cli).
+[!INCLUDE[prodshort](includes/prodshort.md)]-ohjelman ensimmäiset versiot sisälsivät asennetun asiakkaan, joka on johdettu Microsoft Dynamics NAV -ohjelmasta. Tämä vanha komponentti, johon viitataan nimellä "Windows-asiakasohjelma", ei enää ole saatavilla vuoden 2019 2. julkaisuaallon [!INCLUDE[prodshort](includes/prodshort.md)] -versiosta lähtien. Lisätietoja on ohjeaiheessa [Windows-työasemaohjelman ja Business Centralin usein kysytyt kysymykset](/dynamics365/business-central/dev-itpro/faq-win-cli).
 
 ## <a name="see-also"></a>Katso myös
 [Käytön aloittaminen](product-get-started.md)  

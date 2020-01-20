@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: print check, customize
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: d4818c9dfe96f7e890d84a16c717d4451f56497a
-ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
+ms.openlocfilehash: 137d44db160d0f1e832cc344a779e6bf01a64bbd
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "2808575"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2911129"
 ---
 # <a name="select-a-check-layout"></a>Sekin asettelun valitseminen
 Voit suunnitella omat sekit, joiden avulla pystyt noudattamaan paikallisten viranomaisten määrittämiä standardeja. Sekkikuvat voidaan tulostaa englannin-, ranskan ja espanjankielisinä.
@@ -41,7 +41,7 @@ Voit muuttaa jotakin näistä sekkien oletusasetteluista käyttämällä joko Wo
 ## <a name="see-also"></a>Katso myös
 [Raporttien mukautettujen asettelujen luominen ja muokkaaminen](ui-how-create-custom-report-layout.md)  
 [Ostovelkojen hallinta](payables-manage-payables.md)  
-[Pankkitilien hallinta](bank-manage-bank-accounts.md)   
+[Pankkitilien täsmäytys](bank-manage-bank-accounts.md)   
 [Kauden lopun prosessien viimeisteleminen](year-how-complete-period-end-processes.md)  
 [[!INCLUDE[prodshort](includes/prodshort.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)

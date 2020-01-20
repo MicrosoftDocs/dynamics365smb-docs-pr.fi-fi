@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: phone, tablet
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: edupont
-ms.openlocfilehash: 0f378494a30553e005eb01d90e33cadf9c53c7d0
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ef36a7c26b6d0fafb272989ccfc77fc4e54bf9e4
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308481"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953609"
 ---
 # <a name="getting-business-central-on-your-mobile-device"></a>Business Central -sovelluksen hakeminen mobiililaitteeseen
 Voit käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietoja mobiililaitteella. Voit siirtyä liiketoimintatiedoissa, käyttää erilaisia toimintoja, kuten lähettää tietoja Exceliin ja Office 365:een, tarkastella päivitettyjä kaavioita ja tunnuslukuja, lähettää myyntitarjouksia ja -laskuja sähköpostitse sekä ottaa kameralla kuvia ja liittää niitä. Noudattamalla seuraavia ohjeita voit ladata sovelluksen ja aloittaa.
@@ -28,6 +28,8 @@ Voit käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietoja mobiililai
 3. Anna käyttäjänimi ja salasana, jotka loit rekisteröityessäsi [!INCLUDE[d365fin](includes/d365fin_md.md)]iin, ja noudata näytön ohjeita.
 
 Voit nyt käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]ia sekä tarkastella ja muokata tietoja.
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesalternative-interfaces-dynamics-365-business-centralindex"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Katso myös
 [Käytön aloittaminen](product-get-started.md)  

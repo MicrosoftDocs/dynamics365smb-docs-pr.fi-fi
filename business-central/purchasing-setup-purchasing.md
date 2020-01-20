@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 66cdbd317d448d42ce46bf6a1d05c78432ffaeee
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6ceaf6828ac5067a0a34c4120627e0352dc90d2d
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316666"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953995"
 ---
 # <a name="setting-up-purchasing"></a>Ostojen määrittäminen
 Ennen ostoprosessien hallinnan aloittamista on määritettävä yrityksen ostokäytäntöjen säännöt ja arvot.
@@ -34,6 +34,8 @@ Maksumenetelmiä ja valuuttoja sekä muita rahoitukseen liittyviä ostoasetuksia
 | Toimittajien nimikkeiden, määrien ja/tai päivämäärien perusteella myöntäminen eri alennusten ja erikoishintojen antaminen |[Ostohinnan, alennuksen ja maksusopimusten tallentaminen](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
 | Toimittajien priorisointi |[Toimittajien priorisointi](purchasing-how-prioritize-vendors.md) |
 | Ostajien määrittäminen |[Ostajien määrittäminen](purchasing-how-setup-purchasers.md) |
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulestrade-get-started-dynamics-365-business-central"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
 [Osto](purchasing-manage-purchasing.md)  

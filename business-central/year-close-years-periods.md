@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: jswymer
-ms.openlocfilehash: 0862806e6ad92dd3988c4a23090e3db7657fde1a
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: ef2f3f5e11b9593dce1ba1eb2039c0c0edd32aba
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554594"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953129"
 ---
 # <a name="closing-years-and-periods"></a>Vuosien ja kausien sulkeminen
 Tilikauden lopussa on suoritettava joukko hallinnollisia tehtäviä. On esimerkiksi tarkistettava, että kaikki asiakirjat ja päiväkirjat on kirjattu, valuuttatiedot ovat ajan tasalla ja kirjat on suljettu. Suoritettavat tehtävät riippuvat yrityksestä.
@@ -36,9 +36,10 @@ Seuraava taulukko sisältää yleiskuvauksen tehtävistä, joita yleensä suorit
 | Kirjanpitojaksojen ja tilikausien sulkeminen, tuloslaskelmasaldojen siirtäminen tasetileille ja vuositilinpäätöstapahtuman kirjaaminen. |[Kirjojen sulkeminen](year-close-books.md) |
 | Rahoituslaskelmien luomisessa apuna käytettävien raporttien tulostaminen. |[Tilinpäätöslaskelmien valmisteleminen](year-prepare-close-statement.md) |
 
+## <a name="see-related-training-at-microsoft-learnlearnmodulesclose-fiscal-year-dynamics-365-business-centralindex"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/close-fiscal-year-dynamics-365-business-central/index)
+
 ## <a name="see-also"></a>Katso myös
 [Uuden tilikauden avaaminen](finance-how-open-new-fiscal-year.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 

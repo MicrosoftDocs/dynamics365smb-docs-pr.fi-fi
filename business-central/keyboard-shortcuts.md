@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 11/07/2019
+ms.date: 12/17/2019
 ms.author: sgroespe
-ms.openlocfilehash: e8d55ffd434ff2c7666d0b90a5cfd091fc68a015
-ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
+ms.openlocfilehash: eb40c1d479267ba2e8111bd1183f2c7454a2bd16
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "2774841"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2911117"
 ---
 # <a name="keyboard-shortcuts"></a>Pikanäppäimet
 Tässä artikkelissa käsitellään yleisesti [!INCLUDE[prodshort](includes/prodshort.md)] -ohjelman joitakin pikanäppäinyhdistelmiä.
@@ -66,6 +66,7 @@ Seuraavassa taulukossa kuvataan pikanäppäimet, joiden avulla voi käyttää si
 |Esc|Sulje nykyinen sivu tai avattava luettelo.|
 |Sarkain|Siirrä kohdistus sivun seuraavaan ohjausobjektiin tai elementtiin, kuten toimintoon, painikkeeseen, kenttään tai luettelon otsikkoon.|
 |Vaihto+Sarkain|Siirrä kohdistus sivun edelliseen ohjausobjektiin tai elementtiin, kuten toimintoon, painikkeeseen, kenttään tai luettelon otsikkoon.|
+|K ja E|Aktivoi **Kyllä**- ja **Ei** -painikkeet valinnoissa. Tämä on kielituettu. Voit esimerkiksi aktivoida **Ja**-painikkeen painamalla J Saksassa.|
 
 ## <a name="keyboard-shortcuts-in-lists"></a>Luettelon pikanäppäimet
 
@@ -141,6 +142,7 @@ Seuraavilla pikanäppäimillä voi näyttää ja muokata tietueita korttisivuill
 |Alt+N |Lue uusi tietue avaamalla sivu; vastaa **Uusi**-toiminnon valitsemista. |
 |Alt+Vaihto+N |Sulje sivu ja luo uusi tietue avaamalla uusi sivu; vastaa **OK ja uusi**-toiminnon valitsemista. |
 |Alt+Vaihto+W |Avaa nykyinen kortti tai asiakirja uudessa ikkunassa. Lisätietoja on kohdassa [Monen tehtävää yhtä aikaa useilla sivuilla](ui-enter-data.md#multitasking-across-multiple-pages).|
+|Ctrl+Enter|Tallenna ja sulje sivu.|
 |Ctrl+ alanuoli|Avaa objektin seuraava tietue.|
 |Ctrl + Ylänuoli |Avaa objektin edellinen tietue.|
 |Ctrl+Insert |Lisää uusi rivi asiakirjoihin.|

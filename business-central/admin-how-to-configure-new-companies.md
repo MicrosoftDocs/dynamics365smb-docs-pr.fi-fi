@@ -10,19 +10,25 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ae54c2f764deafe34df8d38e1213757ee9b05515
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: aade98d02744ef2e40b7d844c4bddea4d231fceb
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878579"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910806"
 ---
 # <a name="configure-new-companies"></a>Uusien yritysten määrittäminen
 Uusi yritys määritetään ratkaisun käyttöönottoa varten yleensä kolmen vaiheen avulla. Ensimmäisessä vaiheessa tuodaan määrityspaketti, joka on määritystiedot sisältävä .rapidstart-tiedosto. Toisessa vaiheessa muokataan määritystietoja ja käytetään niitä uudessa yrityksessä. Viimeisessä vaiheessa mahdolliset virheet tarkistetaan ja korjataan.  
 
 Seuraavissa ohjeissa oletetaan, että olet luonut ja tallentanut kokoonpanopaketin. Lisätietoja on kohdassa [Määrityspaketin valmisteleminen](admin-how-to-prepare-a-configuration-package.md).  
 
-Seuraavissa ohjeissa oletetaan, että olet alustanut ja avannut uuden yrityksen ja että käytössä on RapidStart Servicesin käyttöönottajan roolikeskus.
+Seuraavissa ohjeissa oletetaan, että olet alustanut ja avannut uuden yrityksen ja että käytössä on järjestelmänvalvojan roolikeskus.
+
+## <a name="before-you-import-a-configuration-package"></a>Ennen määrityspaketin tuomista
+Ennen kuin tuot määrityspaketin, on hyvä tarkistaa, että seuraavat lauseet toteutuvat. Muussa tapauksessa sinä tai asiakkaasi ei voi tuoda määrityspakettia.
+
+* Käyttöoikeus sisältää päivitettävät taulut. Jos et ole varma, **Konfiguroi työkirja** voi auttaa. Jos käyttöoikeus sisältää tauluja, **Käyttöoikeudet sisältävä taulu** -valintaruutu on valittu.  
+* Määrityspaketin tuovalla käyttäjällä on voimassa olevat Lisää- ja Muokkaa-oikeudet kaikkiin tauluihin, joita paketti päivittää. Lisätietoja on kohdassa [Määritä käyttöoikeudet käyttäjille ja ryhmille](ui-define-granular-permissions.md) 
 
 ## <a name="to-import-a-configuration-package"></a>Tuo paketin kokoonpano  
 1. Avaa uusi yritys [!INCLUDE[d365fin](includes/d365fin_md.md)] -tietokannassa.  

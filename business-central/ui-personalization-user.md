@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4f65a4908fee045190229c1423ef61c6c7bed8c7
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 34c09b4acdad057bd5accd388335439e555dc733
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315106"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953345"
 ---
 # <a name="personalize-your-workspace"></a>Työtilan mukauttaminen
 Voit mukauttaa työtilan työskentelyysi ja valintoihisi sopivaksi muuttamalla sivujen ulkoasua siten, että vain tarvitsemasi tiedot näkyvät siellä, missä niitä tarvitset. Mukauttamalla tehdyt muutokset koskevat vain omaa näkymääsi; muut käyttäjät eivät siis näe mukautuksiasi.
@@ -37,14 +37,14 @@ Muiden mukautusten tavoin sarakkeen leveyteen tehdyt muutokset tallennetaan tili
 
 ## <a name="to-personalize-a-page-through-the-personalizing-banner"></a>Sivun mukauttaminen **Mukauttaminen**-palkin avulla
 1. Avaa mukautettava sivu.
-2. Valitse oikeassa yläkulmassa ensin ![Asetukset](media/ui-experience/settings_icon_small.png "Roolikeskuksen Asetukset-kuvake") -kuvake ja sitten **Mukauta**-toiminto.
+2. Valitse oikeassa yläkulmassa ![Asetukset](media/ui-experience/settings_icon_small.png "Roolikeskuksen Asetukset-kuvake")-kuvake, ja valitse sen jälkeen **Mukauta**-toiminto.
 
     **Mukautetaan**-palkki tulee yläreunaan osoittamaan, että voit aloittaa muutosten tekemisen.
 
     > [!NOTE]
     > Voit siirtyä mukauttamisen aikana käyttämällä toiminnossa CTRL+napsautus-yhdistelmää, jos nuolenpää osoittaa toiminnon olevan valittuna.
 
-    Jos palkissa näkyy ![Mukautuksen lukitus](media/personalization-lock-icon.png "Mukautuksen lukitus") tai ![Mukautuksen esto](media/personalization-blocked-icon.png "Mukautuksen esto"), et voi mukauttaa sivua. Lisätietoja on kohdassa [Sivun mukauttamisen estäminen lukitsemalla](ui-personalization-locked.md).
+    Jos näet palkissa ![Mukautuksen lukitus](media/personalization-lock-icon.png "Mukautuksen lukitus") - tai ![Mukautus estetty](media/personalization-blocked-icon.png "Mukauttaminen estetty") -ilmoituksen, et voi mukauttaa sivua. Lisätietoja on kohdassa [Sivun mukauttamisen estäminen lukitsemalla](ui-personalization-locked.md).
 
 3. Lisää kenttä valitsemalla **+ Kenttä** -toiminto.
 4. Vedä ja pudota kenttä **Lisää kenttä sivulle** -ruudusta sopivaan paikkaan sivulla.
@@ -56,7 +56,7 @@ Muiden mukautusten tavoin sarakkeen leveyteen tehdyt muutokset tallennetaan tili
 
 |Tehtävä toimi|Ohjeet|Huomautukset|
 |----|------------|-------|
-|Esimerkiksi kentän, luettelon sarakkeen, ruudun, toiminnon tai osan siirtäminen|Osoita siirron kohdetta ja vedä se uuteen paikkaan. Paikka osoitetaan paksulla vaaka- tai pystyviivalla.<br /><br />![Siirto ei ole sallittu -kuvake](media/personalization-cannot-move-here.png "Mukautustila – Siirto ei ole sallittu -kuvake") ilmaisee, että elementtiä ei voi siirtää valittuun paikkaan.|Osat ovat osia tai alueita sivulla ja niissä on esimerkiksi useita kenttiä, toinen sivu, kaavio tai ruutuja.<br /><br />Lisätietoja toiminnon mukauttamisesta on kohdassa [Toimintojen mukauttaminen](ui-personalization-user.md#Actions). |
+|Esimerkiksi kentän, luettelon sarakkeen, ruudun, toiminnon tai osan siirtäminen|Osoita siirron kohdetta ja vedä se uuteen paikkaan. Paikka osoitetaan paksulla vaaka- tai pystyviivalla.<br /><br />![Et voi siirtää tänne -kuvake](media/personalization-cannot-move-here.png "Personalisointitila - Ei voi siirtää tähän -kuvake") osoittaa, että et voi siirtää elementtiä valittuun sijaintiin.|Osat ovat osia tai alueita sivulla ja niissä on esimerkiksi useita kenttiä, toinen sivu, kaavio tai ruutuja.<br /><br />Lisätietoja toiminnon mukauttamisesta on kohdassa [Toimintojen mukauttaminen](ui-personalization-user.md#Actions). |
 |Esimerkiksi kentän, luettelon sarakkeen, ruudun, toiminnon tai osan piilottaminen|Valitse ensin nuolenpää ja sitten <b>Piilota</b>.|Elementti näkyy harmaana, kun olet mukautustilassa. Jos piilottamasi kenttä näkyy myös tiivistetyn pikavälilehden otsikossa, kenttä ei enää näy tässä kohdassa.|
 |Piilotettujen toimintojen ja kenttien näyttäminen|Valitse ensin harmaan (piilotetun) elementin nuolenpää ja sitten <b>Näytä</b>.|Piilotettu elementti on taas näkyvissä.|
 |Kentän tai sarakkeen lisääminen|Valitse <b>Mukauttaminen</b>-palkissa <b>+ Kenttä</b>-toiminto.<br /></br><b>Lisää kenttä sivulle</b> -ruutu avautuu näytössä oikealla. Siinä on luettelo sivulle lisättävistä kentistä.<br /><br />Lisää kenttä vetämällä se ruudusta haluamaasi paikkaa. Paikka osoitetaan paksulla vaaka- tai pystyviivalla.|Kullakin sivulla on valmiiksi määritetty joukko näytettäviä kenttiä. Voit lisätä tällä tavalla kenttiä tai sarakkeita, joita ei ole aiemmin näytetty, tai näyttää piilotettuja kenttiä.|
@@ -115,6 +115,8 @@ Seuraavat seikat auttavat ymmärtämään mukauttamista entistä paremmin.
 - Tekemäsi muutokset koskevat kaikkia roolikeskuksia. Jos esimerkiksi teet muutoksen asiakasluetteloon, kun roolikeskuksen asetuksena on Liiketoimintajohtaja, asiakasluettelon muutos näkyy myös **Asiakkaat**-sivulla, kun roolikeskuksen asetuksena on Myyntitilausten käsittelijä.
 - Ruudun sivulla tehdyt muutokset koskevat sivua kaikissa tilanteissa, joissa se näytetään.  
 - Voit lisätä kenttiä ja sarakkeita vain kyseiseen sivuun perustuvasta ennaltamääritetystä luettelosta. Uusia kenttiä tai sarakkeita ei voi luoda.
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulespersonalize-ui-dynamics-365-business-centralindex"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Katso myös
 [Profiilien sivujen mukauttaminen](ui-personalization-manage.md)  

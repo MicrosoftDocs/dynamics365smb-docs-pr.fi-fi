@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
-ms.date: 11/14/2019
+ms.date: 12/10/2019
 ms.author: edupont
-ms.openlocfilehash: 8905a7dccc96f85a3803b1cf89862718d6a0df2e
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 17f8a61507659f05e12bc7b5d4560bd50f344b0e
+ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879401"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "2942965"
 ---
 # <a name="included365fin_longincludesd365fin_long_mdmd-trials-and-subscriptions"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] – Kokeilut ja tilaukset
 
@@ -29,7 +29,7 @@ Jos kohtaat ongelmia, [Usein kysytyt kysymykset](across-faq.md) -sivu voi auttaa
 
 ### <a name="try-out-your-own-company"></a>Kokeile omaa yritystä
 
-Jos haluat kokeilla [!INCLUDE [prodshort](includes/prodshort.md)] -ohjelmaa omilla tiedoillasi, voit vaihtaa maksuttomaan 30 päivän kokeiluversioon, jossa on tyhjä yritys, jotta voit tuoda omia tietojasi.  
+Jos haluat kokeilla [!INCLUDE [prodshort](includes/prodshort.md)] -ohjelmaa omilla tiedoillasi, voit vaihtaa maksuttomaan 30 päivän kokeiluversioon, jossa on tyhjä yritys. **Määritä yritykseni** -avustetun asennusoppaan avulla voit määrittää perustietoja yrityksestäsi. Vaihtoehtoisesti voit tuoda tietoja olemassa olevasta yrityksenhallintaratkaisusta, jotta voit arvioida [!INCLUDE [prodshort](includes/prodshort.md)] -ohjelmaa omia tietojasi käyttäen.  
 
 Jos 30 päivää ei ole tarpeeksi päätöksen tekemiseksi, voit jatkaa kokeilua. Lisätietoja on kohdassa [Tarvitsetko lisää aikaa, ennen kuin päätät tilauksen tekemisestä?](admin-extend-trial.md).  
 
@@ -72,11 +72,11 @@ Voit ottaa yhteyttä myös [[!INCLUDE[d365fin](includes/d365fin_md.md)] -myyntir
 
 ## <a name="getting-started-with-sandboxes"></a>Eristysympäristöjen käytön aloittaminen
 
-Eristysympäristöt voivat olla yksi tapa harjoitella [!INCLUDE[d365fin](includes/d365fin_md.md)]n käyttöä. Voit ajatella sandbox-ympäristöä muuna kuin tuotantoympäristönä, jota voi käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)] -tuotantoesiintymän lisäksi.  
+Eristysympäristöt voivat olla yksi tapa harjoitella [!INCLUDE[d365fin](includes/d365fin_md.md)]n käyttöä. Voit ajatella sandbox-ympäristöä muuna kuin tuotantoympäristönä, jota voi käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)] -tuotantoesiintymän lisäksi. Jos esimerkiksi haluat suorittaa maksuttoman verkkokoulutuksen [Microsoft Learnissa](/learn/browse/?products=dynamics-business-central), järjestelmänvalvojasi voi luoda Sandbox-ympäristön, jotta sinä ja kollegasi voitte harjoitella siinä mieluummin kuin tuotantoympäristössäsi.  
 
-Sandbox-ympäristön avulla voi turvallisesti luoda ja testata laajennuksia ja kehittää uusia toimintoja palvelun mukauttamista varten niin, että tuotantoympäristön tiedot tai asetukset eivät muutu. Jos esimerkiksi haluat suorittaa maksuttoman verkkokoulutuksen [Microsoft Learnissa](/learn/browse/?products=dynamics-business-central), voit luoda Sandbox-ympäristön ja harjoitella siinä mieluummin kuin tuotantoympäristössäsi.  
+Sandbox-ympäristön avulla kehittäjät voivat turvallisesti luoda ja testata laajennuksia ja kehittää uusia toimintoja palvelun mukauttamista varten niin, että tuotantoympäristön tiedot tai asetukset eivät muutu.  
 
-Tällä hetkellä kaikki asiakkaat voivat käyttää eristysympäristöä. Lisätietoja sandbox-ympäristön käytön aloittamisesta on kohdassa [Sandbox-ympäristön luominen](across-how-create-sandbox-environment.md).  
+Tällä hetkellä kaikki asiakkaat voivat käyttää Sandbox-ympäristöä, mukaan lukien organisaatiot, jotka ovat ottaneet käyttöön kokeiluversion. Lisätietoja sandbox-ympäristön käytön aloittamisesta on kohdassa [Sandbox-ympäristön luominen](across-how-create-sandbox-environment.md).  
 
 > [!NOTE]
 > Näin luodut sandbox-ympäristöt sisältävät kuvitteellisen CRONUS-yrityksen esittelytiedot. Mitään tietoja ei kopioida tai muutoin siirretä tuotantoympäristöstä.  
@@ -96,6 +96,7 @@ For example, you can use an API to build a connected app to exchange data betwee
 ## <a name="see-also"></a>Katso myös
 
 [Käytön aloittaminen](product-get-started.md)  
+[Kokeilujakson jatkaminen](admin-extend-trial.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Usein kysytyt kysymykset](across-faq.md)  
 [Miten löydän jälleenmyyjäkumppanin?](across-faq.md#findpartner)  

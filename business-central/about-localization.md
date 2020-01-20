@@ -8,28 +8,31 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: availability, localization
-ms.date: 11/13/2019
+ms.date: 01/10/2020
 ms.author: edupont
-ms.openlocfilehash: 830c12f64c3701b583cf9569f85c67224941f77f
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 572e56b6d1ba95a427faed89c2f86471c0fea929
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881238"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952888"
 ---
-# <a name="local-functionality-in-included365fin_longincludesd365fin_long_mdmd"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]in paikalliset toiminnot
+# <a name="local-functionality-in-includeprodlongincludesprodlongmd"></a>[!INCLUDE[prodlong](includes/prodlong.md)]in paikalliset toiminnot
+
 [!INCLUDE[d365fin](includes/d365fin_md.md)]in yhdistetty lokalisaatiostrategia sisältää sekä Microsoftin että kumppanin vetämät mallit. Tässä osassa on kuvaukset niissä maissa käytettävistä toiminnoista, joissa säädösten noudattaminen ja muut paikalliset toiminnot saadaan Microsoftin avulla.  
 
 Luettelo tällä hetkellä tuetuista markkinoista on kohdassa [Saatavuus maassa/alueella ja tuetut käännökset.](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
 
 ## <a name="local-functionality"></a>Paikalliset toiminnot
+
 Saat lisätietoja kunkin maan paikallisista toiminnoista valitsemalla sopivan linkin:
 
 | Alue | Maa | Lisätietoja |
 | --- | --- |--- |
 | Eurooppa |  | |
 |        | Itävalta | [Itävallan paikalliset toiminnot](localfunctionality/austria/austria-local-functionality.md) |
-|        | Belgia |  [Belgian paikalliset toiminnot](localfunctionality/belgium/belgium-local-functionality.md) |
+|        | Belgia | [Belgian paikalliset toiminnot](localfunctionality/belgium/belgium-local-functionality.md) |
+|        | Tšekki | [Paikalliset tšekkiläiset toiminnot](localfunctionality/czech/czech-local-functionality.md) |
 |        | Tanska | [Denmark Local Functionality](localfunctionality/denmark/denmark-local-functionality.md) |
 |        | Saksa | [Saksan paikalliset toiminnot](localfunctionality/germany/germany-local-functionality.md) |
 |        | Suomi | [Suomen paikalliset toiminnot](localfunctionality/finland/finland-local-functionality.md) |

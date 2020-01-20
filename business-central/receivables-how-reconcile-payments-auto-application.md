@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 10/01/2019
+ms.date: 12/17/2019
 ms.author: sgroespe
-ms.openlocfilehash: 121212f41d5dadff53a10f828c88279865828788
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c0746551b21f96dde6e938e6bdbcc573ded2066a
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316570"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2911045"
 ---
 # <a name="reconcile-payments-using-automatic-application"></a>Maksujen täsmäyttäminen käyttämällä automaattista kohdistusta
 **Maksujen täsmäytyskirjauskansio** -sivu määrittää tulevat tai lähtevät maksut, jotka on tallennettu tapahtumina verkkopankkitilille ja jotka voit kohdistaa niihin liittyviin avoimiin asiakas-, toimittaja- ja pankkitilitapahtumiin. Päiväkirjan rivit täytetään tuomalla pankin tiliote syötteenä tai tiedostona.
@@ -33,7 +33,7 @@ Jos haluat ottaa pankin tiliotteet käyttöön pankkisyötteinä, määritä ens
 
 Vastaava toiminto on käytettävissä, kun maksujen täsmäytyskirjauskansion rivien ylimääräisiä summia täsmäytetään tapauskohtaisesti. Lisätietoja on kohdassa [Niiden maksujen täsmäyttäminen, joita ei voi kohdistaa.](receivables-how-reconcile-payments-cannot-apply-auto.md)
 
-Voit käyttää **Kohdista automaattisesti** -toimintoa joko automaattisesti, kun tuot pankkitiedoston tai -syötteen ja maksutapahtumat, tai kun aktivoit sen maksujen kohdistamiseksi niiden vastaaviin avoimiin tapahtumiin, jotka perustuvat vastaavaan tekstiin pankin tiliotteen rivillä (päiväkirjarivillä), jossa on tekstiä avoimista tapahtumista.
+Voit käyttää **Kohdista automaattisesti** -toimintoa joko automaattisesti, kun tuot pankkitiedoston tai -syötteen ja maksutapahtumat, tai kun aktivoit sen maksujen kohdistamiseksi niiden vastaaviin avoimiin tapahtumiin, jotka perustuvat vastaavaan tekstiin pankin tiliotteen rivillä (päiväkirjarivillä), jossa on tekstiä avoimista tapahtumista. Lisätietoja on kohdassa [Määritä sääntöjä maksujen automaattiselle soveltamiselle](receivables-how-set-up-payment-application-rules.md).
 
 Kirjauskansion riveillä, joilla maksu on kohdistettu automaattisesti yhteen tai useaan avoimeen tapahtumaan, **Vastaavuuden luotettavuus** -kentässä on arvo väliltä Alhainen ja Suuri. Se osoittaa niiden kohdistettujen tietojen laadun, joihin ehdotettu maksusovellus perustuu. Lisäksi **Tilityyppi**- ja **Tilinumero**-kentät täytetään sen asiakkaan tai toimittajan tiedoilla, johon maksu kohdistetaan. Jos olet asettanut tekstistä tiliin yhdistämisen, automaattisen kohdistuksen tuloksena saattaa olla vastaavuusarvo **Suuri - tekstin ja tilin välinen yhdistäminen**.
 
@@ -63,7 +63,7 @@ Voit avata kullekin maksua esittävälle **Maksujen täsmäytyskirjauskansio** -
 10. Kun olet varma, että kaikki päiväkirjarivien maksut on kohdistettu oikein tai asetettu suorakirjaukselle, valitse **Kirjaa**-toiminto ja sitten jokin seuraavista vaihtoehdoista:
 
     - **Kirjaa maksut ja täsmäytä pankkitilit** – kirjataksesi maksut kohdistuksen mukaan ja myös sulkeaksesi liittyvät pankkitilitapahtumat täsmäytyksen mukaan.
-    - **Kirjaa vain maksut** – kirjataksesi vain maksut kohdistuksen mukaan, mutta jättääksesi liittyvät pankkitilitapahtumat avoimiksi. Edellyttää, että täsmäytät pankkitilin erikseen, esimerkiksi: Lisätietoja on kohdassa [Pankkitilien täsmäyttäminen erikseen ](bank-how-reconcile-bank-accounts-separately.md).
+    - **Kirjaa vain maksut** – kirjataksesi vain maksut kohdistuksen mukaan, mutta jättääksesi liittyvät pankkitilitapahtumat avoimiksi. Edellyttää, että täsmäytät pankkitilin erikseen, esimerkiksi: Lisätietoja on kohdassa [Pankkitilien täsmäyttäminen](bank-how-reconcile-bank-accounts-separately.md).
     - **Testiraportti** – Tarkastele kirjaamisen tulosta ennen kirjaamista valitsemalla. **Pankin tiliote** -raportti avautuu ja näyttää samat kentät kuin **Maksujen täsmäytyskirjauskansio** -sivun alaosassa.
 
 Kun kirjaat maksun täsmäytyksen päiväkirjan, kohdistetut avoimet tapahtumat suljetaan ja liittyvät asiakas- tai toimittaja- tai kirjanpitotilit päivitetään. Määritetyt kirjanpitotilit päivitetään tekstin tiliin yhdistämiseen perustuville asiakas-, toimittaja ja kirjanpitotileille. Kaikille pankkitilitapahtumille luodaan kirjauskansiorivit. Jos valitset **Kirjaa maksut ja täsmäytä pankkitili** -toiminnon, kaikki kohdistettuun asiakas- tai toimittajatapahtumaan liittyvät avoimet pankkitilitapahtumat suljetaan. Tämä tarkoittaa sitä, että pankkitili täsmäytetään automaattisesti päiväkirjaan kirjattaville maksuille.
@@ -71,7 +71,7 @@ Kun kirjaat maksun täsmäytyksen päiväkirjan, kohdistetut avoimet tapahtumat 
 Voit verrata **Pankkitilin saldo kirjauksen jälkeen** -kentän ja **Tiliotteen loppusaldo** -kentän arvoa seurataksesi, milloin pankkitili täsmäytetään kirjaamiesi maksujen perusteella.
 
 > [!NOTE]  
->   Jos et halua täsmäyttää pankkitiliä **Maksujen täsmäytyskirjauskansio** -sivulla, sinun on käytettävä **Pankkitilin täsmäytys** -sivua. Lisätietoja on kohdassa [Pankkitilien täsmäyttäminen erikseen](bank-how-reconcile-bank-accounts-separately.md).
+>   Jos et halua täsmäyttää pankkitiliä **Maksujen täsmäytyskirjauskansio** -sivulla, sinun on käytettävä **Pankkitilin täsmäytys** -sivua. Lisätietoja on kohdassa [Pankkitilien täsmäyttäminen](bank-how-reconcile-bank-accounts-separately.md).
 
 ## <a name="see-also"></a>Katso myös
 [Myyntisaamisten hallinta](receivables-manage-receivables.md)  

@@ -10,22 +10,23 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: ffcaaf6550601c181913ebe32e80d4cbcf0756bd
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 73607d238e31cc42680fae008cfdf0ee143d08f3
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879281"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910734"
 ---
 # <a name="set-up-a-connection-to-dynamics-365-sales"></a>Dynamics 365 for Sales -yhteyden määrittäminen
-[!INCLUDE[crm_md](includes/crm_md.md)] -integraatiota varten on määritettävä yhteys [!INCLUDE[d365fin](includes/d365fin_md.md)]in ja [!INCLUDE[crm_md](includes/crm_md.md)]in välille.
+Tässä ohjeaiheessa kuvataan, kuinka [!INCLUDE[d365fin](includes/d365fin_md.md)] ja [!INCLUDE[crm_md](includes/crm_md.md)] välille määritetään yhteys.
+<br><br>  
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2085501]
 
 ## <a name="before-you-start"></a>Ennen aloittamista
-Seuraavat tiedot kannattaa olla käsillä ennen sovellusten yhdistämistä:  
+Ennen yhteyden luomista on syytä pitää joitakin tietoja valmiina:  
 
-* [!INCLUDE[crm_md](includes/crm_md.md)] -sovelluksen URL-osoite. URL-osoitteen löytää nopeasti avaamalla [!INCLUDE[crm_md](includes/crm_md.md)]in, kopioimalla URL-osoitteen ja liittämällä sen sitten **Dynamics 365 Sales -URL-osoite** -kenttään [!INCLUDE[d365fin](includes/d365fin_md.md)]issa. [!INCLUDE[d365fin](includes/d365fin_md.md)] korjaa muotoilun puolestasi.  
+* [!INCLUDE[crm_md](includes/crm_md.md)] -sovelluksen URL-osoite. URL-osoitteen löytää nopeasti avaamalla [!INCLUDE[crm_md](includes/crm_md.md)]in, kopioimalla URL-osoitteen ja liittämällä sen sitten **Dynamics 365 Sales URL-osoite** -kenttään [!INCLUDE[d365fin](includes/d365fin_md.md)]issa. [!INCLUDE[d365fin](includes/d365fin_md.md)] korjaa muotoilun puolestasi.  
 * Vain integroinnissa käytettävän käyttäjätilin käyttäjänimi ja salasana.  
 * Sen tilin käyttäjänimi ja salasana, jolla on järjestelmänvalvojan oikeudet.  
 

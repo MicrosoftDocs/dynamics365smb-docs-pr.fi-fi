@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 083bb3784e21621f97161e65ff3cfa80ed0efc52
-ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
+ms.openlocfilehash: 5995e550b4d4c25296842a7d73a5f74acb91bd83
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "2692726"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910393"
 ---
 # <a name="setting-up-banking"></a>Pankkitoiminnan määrittäminen
 Pankkitilikorttien avulla voit seurata kaikkia pankkitilejäsi missä tahansa valuutassa. Kun olet määrittänyt pankkitilit, voit myös käyttää Sekin tulostus -vaihtoehtoa.
@@ -31,7 +31,7 @@ Voit käyttää sähköisiä pankkipalveluita pankin tiliotteiden tuonnissa ja m
 | Määritä ulkoinen palvelu, jonka avulla voit viedä pankin maksut käsittelyyn ja tuoda pankin tiliotteet pankkitiedostoista maksun kohdistusta ja pankin täsmäytystä varten. |[AMC Banking 365 -perusteiden laajennuksen käyttäminen](ui-extensions-amc-banking.md) |
 
 ## <a name="see-also"></a>Katso myös
-[Pankkitilien hallinta](bank-manage-bank-accounts.md)  
+[Pankkitilien täsmäytys](bank-manage-bank-accounts.md)  
 [Myyntisaamisten hallinta](receivables-manage-receivables.md)  
 [Ostovelkojen hallinta](payables-manage-payables.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)

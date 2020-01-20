@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 46b18910efb1abb8df1ef1f427933f75deb3912c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8cf6c70c3794a5f231f9072d01d671afdebc54ca
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305258"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952937"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Tietojenvaihtomääritysten määrittäminen
 Voit määrittää [!INCLUDE[d365fin](includes/d365fin_md.md)]in vaihtamaan tiettyjen taulukoiden tietoja ulkoisten tiedostojen kanssa. Tällöin voit esimerkiksi lähettää ja vastaanottaa sähköisiä asiakirjoja sekä tuoda ja viedä pankkitietoja tai muita tietoja, kuten palkanlaskennan tietoja, vaihtokursseja ja tuoteluetteloita. Lisätietoja on kohdassa [Sähköinen tiedonsiirto](across-data-exchange.md).  
@@ -53,7 +53,7 @@ Tämä kuvataan seuraavissa menettelytavoissa.
     |---------------------------------|---------------------------------------|  
     |**Koodi**|Anna koodi, jonka avulla tietojenvaihtomääritys tunnistetaan.|  
     |**Nimi**|Anna tietojenvaihtomäärityksen nimi.|  
-    |**Tiedostotyyppi**|Määritä, minkälaiselle tiedostolle tietojenvaihtomääritystä käytetään. Valittavana on neljä tiedostotyyppiä:<br /><br /> -   **XML**: sisällön kerroksittaiset merkkijonot ja merkinnät, joita ympäröivät toimintoa osoittavat tunnisteet.<br />-   **Muuttuva teksti**: Tietueiden pituus on muuttuva, ja ne erotetaan merkillä, kuten pilkulla tai puolipisteellä. Tunnetaan myös nimellä *eroteltu tiedosto*.<br />-   **Kiinteä teksti**: tietueilla on sama pituus pad-merkkejä käytettäessä ja jokainen tietue on erillisellä rivillä. Tunnetaan myös nimellä *kiinteäleveyksinen tiedosto*.<br />- **Json**: JavaScriptin kerrostettu komentosarjasisältö.|  
+    |**Tiedostotyyppi**|Määritä, minkälaiselle tiedostolle tietojenvaihtomääritystä käytetään. Valittavana on neljä tiedostotyyppiä:<br /><br /> -   **XML**: sisällön kerroksittaiset merkkijonot ja merkinnät, joita ympäröivät toimintoa osoittavat tunnisteet.<br />-   **Muuttuva teksti**: Tietueiden pituus on muuttuva, ja ne erotetaan merkillä, kuten pilkulla tai puoli\-pisteellä. Tunnetaan myös nimellä *eroteltu tiedosto*.<br />-   **Kiinteä teksti**: tietueilla on sama pituus pad-merkkejä käytettäessä ja jokainen tietue on erillisellä rivillä. Tunnetaan myös nimellä *kiinteäleveyksinen tiedosto*.<br />- **Json**: JavaScriptin kerrostettu komentosarjasisältö.|  
     |**Tyyppi**|Määritä, minkälaiselle aktiviteetille tietojenvaihtomääritystä käytetään (esimerkiksi **Maksun vienti**).|  
     |**Tietoja käsittelevä Codeunit**|Määritä koodiyksikkö, joka siirtää tietoa [!INCLUDE[d365fin](includes/d365fin_md.md)]in taulukoihin ja taulukoista pois.|  
     |**Tarkistuksen Codeunit**|Määritä koodiyksikkö, jonka avulla tiedot tarkistetaan ennalta määritettyjen liiketoimintasääntöjen mukaan.|  
@@ -108,9 +108,12 @@ Tämä kuvataan seuraavissa menettelytavoissa.
  Seuraavaksi on päätettävä, mitkä datatiedoston sarakkeet tai XML-elementit ja [!INCLUDE[d365fin](includes/d365fin_md.md)]in kentät yhdistetään.  
 
 > [!NOTE]  
->  Erityinen kartoitus riippuu vaihdettavan tiedoston liiketoimintatarkoituksesta ja paikallisista variaatioista. Jopa SEPA-pankkistandardissa on paikallisia vaihteluita. [!INCLUDE[d365fin](includes/d365fin_md.md)] tukee SEPA CAMT -tiliotetiedostojen tuontia ilman lisätoimia. Siitä on osoituksena **SEPA CAMT** -tiedonsiirtomäärityksen tietuekoodi **Tiedonsiirtomääritykset**-sivulla. Lisätietoja SEPA CAMT -tuelle ominaisista kenttien yhdistämismäärityksistä on kohdassa [Kenttien yhdistämismääritykset SEPA CAMT -tiedostoja tuotaessa](across-field-mapping-when-importing-sepa-camt-files.md).  
+>  Erityinen kartoitus riippuu vaihdettavan tiedoston liiketoimintatarkoituksesta ja paikallisista variaatioista. Jopa SEPA-pankkistandardissa on paikallisia vaihteluita. [!INCLUDE[d365fin](includes/d365fin_md.md)] tukee SEPA CAMT -tiliotetiedostojen tuontia \-ilman\- lisä\-toimia. Siitä on osoituksena **SEPA CAMT** -tiedonsiirtomäärityksen tietuekoodi **Tiedonsiirtomääritykset**-sivulla. Lisätietoja SEPA CAMT -tuelle ominaisista kenttien yhdistämismäärityksistä on kohdassa [Kenttien yhdistämismääritykset SEPA CAMT -tiedostoja tuotaessa](across-field-mapping-when-importing-sepa-camt-files.md).  
 
 #### <a name="to-map-columns-in-the-data-file-to-fields-in-included365finincludesd365fin_mdmd"></a>Datatiedoston sarakkeiden yhdistäminen [!INCLUDE[d365fin](includes/d365fin_md.md)]in kenttiin  
+> [!TIP]
+> Joskus kenttien arvot, jotka haluat yhdistää, ovat erilaisia. Esimerkiksi yhdessä yrityssovelluksessa Yhdysvaltojen kielikoodi on "U.S.", mutta toisessa se on "US". Tämä tarkoittaa, että arvo on muunnettava, kun tietoja vaihdetaan. Tämä tapahtuu muutossäännöillä, jotka määrität kentille. Lisätietoja on kohdassa [Muunnossäännöt](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).
+
 1. Valitse **Rivin määritykset** -pikalomakkeessa rivi, jonka kenttiin haluat yhdistää sarakkeita, ja valitse sitten **Kenttien yhdistämismääritys**. **Tiedonsiirron vastaavuus** -sivu avautuu.  
 2. Määritä kohdistus **Yleinen**-pikavälilehdellä täyttämällä seuraavassa taulukossa kuvatut kentät.  
 
@@ -138,9 +141,44 @@ Tämä kuvataan seuraavissa menettelytavoissa.
 
 Tietojenvaihtomääritys voidaan nyt ottaa käyttöön käyttäjille. Lisätietoja on kohdissa [Sähköisten asiakirjojen vastaanottamisen ja lähettämisen määrittäminen](across-how-to-set-up-electronic-document-sending-and-receiving.md), [SEPA-hyvityksen siirron määrittäminen](finance-how-to-set-up-sepa-credit-transfer.md), [SEPA-suoraveloituksen määrittäminen](finance-how-to-set-up-sepa-direct-debit.md) ja [Maksujen suorittaminen pankkitietojen muunnospalvelulla tai SEPA-hyvityksen siirrolla](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
 
-Kun olet luonut tietojenvaihtomäärityksen tietylle datatiedostolle, voit viedä tietojenvaihtomäärityksen XML-tiedostona kyseisen datatiedoston nopeaa tuonnin käyttöönottoa varten. Tämä kuvataan seuraavassa menettelytavassa.  
+### <a name="transformation-rules"></a>Muunnossäännöt
+Jos kenttien arvot ovat erilaisia, sinun on käytettävä muunnossääntöjä tietojen vaihdon määrityksissä, jotta ne olisivat samat. Voit määrittää muunnossäännöt tiedonvaihtomäärittelyjä varten avaamalla aiemmin luodun määrityksen tai luomalla uuden määrityksen ja valitsemalla sitten **Rivimääritykset** -pikavälilehdessä **Hallitse** ja sitten **Kenttien yhdistämismääritykset**. Ennalta määritetyt säännöt ovat käytettävissä, mutta voit myös luoda omia sääntöjä. Seuraavassa taulukossa kuvataan, millaisia muunnoksia voit suorittaa.
 
-### <a name="to-export-a-data-exchange-definition-as-an-xml-file-for-use-by-others"></a>Tietojenvaihtomäärityksen vieminen XML-tiedostona muiden käyttöä varten  
+|Asetus|Kuvaus|
+|---------|---------|
+|**Isot kirjaimet**|Muunna kaikki kirjaimet isoiksi.|
+|**Pienet kirjaimet**|Muunna kaikki kirjaimet pieniksi.|
+|**Otsikon kirjainkoko**|Muunna kunkin sanan ensimmäinen kirjain isoksi.|
+|**Rajaus**|Poista tyhjät tilat ennen arvoa ja sen jälkeen.|
+|**Alimerkkijono**|Muuttaa tietyn osan arvosta. Jos haluat määrittää, mistä muunnos aloitetaan, valitse joko **Aloituskohta** tai **Aloitusteksti**. Aloituskohta on luku, joka edustaa ensimmäistä muunnettavaa merkkiä. Alkuteksti on kirjain, joka on välittömästi ennen korvattavaa kirjainta. Jos haluat aloittaa arvon ensimmäisestä kirjaimesta, käytä sen sijaan aloitussijaintia. Voit määrittää, mihin muunnos lopetetaan, valitsemalla joko **Pituuden**, joka on korvattavienmerkkien määrä, tai **Lopetustekstin**, joka on heti viimeisen muunnettavan merkin jälkeinen merkki.|
+|**Korvaa**|Etsi arvo ja korvaa se toisella. Tästä on hyötyä yksinkertaisten arvojen, kuten tietyn sanan, korvaamiseen.|
+|**Säännöllinen lauseke -korvaa**|Käytä säännöllistä lauseketta osana etsi ja korvaa -toimintoa. Tämä on kätevä korvaamaan useita tai ehkä monimutkaisempia arvoja.|
+|**Ei-aakkosnumeeristen merkkien poistaminen**|Poista merkit, jotka eivät ole kirjaimia tai numeroita, kuten symbolit tai erikoismerkit.|
+|**Päivämäärän muotoilu**|Määritä päivämäärien näyttäminen. Voit esimerkiksi muuntaa PP-KK-VVVV muotoon VVVV-KK-PP.|
+|**Desimaalien muotoilu**|Määritä desimaalien erottelun ja pyöristystarkkuuden säännöt.|
+|**Säännöllinen lauseke -vastaavuus**|Etsi yksi tai useampi arvo säännöllisen lausekkeen avulla. Tämä on samanlainen kuin **Alimerkkijono** ja **Säännöllinen lauseke -korvaa** -vaihtoehdot.|
+|**Mukautettu**|Tämä on kehittynyt vaihtoehto, joka edellyttää apua kehittäjältä. Se mahdollistaa integrointitapahtuman, jonka voit tilata, jos haluat käyttää omaa muunnoskoodia. Jos olet kehittäjä ja haluat käyttää tätä vaihtoehtoa, katso alla olevaa [esimerkkiä](across-how-to-set-up-data-exchange-definitions.md#tip-for-developers-example-of-the-custom-option).|
+|**Päivämäärän ja ajan muotoilu**|Määritä, miten nykyinen päivämäärä ja kellonaika näytetään.|
+
+#### <a name="tip-for-developers-example-of-the-custom-option"></a>Vinkki kehittäjille: Esimerkki mukautetusta vaihtoehdosta
+Seuraavassa esimerkissä kuvataan, miten oma muunnoskoodi toteutetaan.
+
+```
+codeunit 60100 "Hello World"
+{
+    [EventSubscriber(ObjectType::Table, Database::"Transformation Rule", 'OnTransformation', '', false, false)]
+    procedure OnTransformation(TransformationCode: Code[20]; InputText: Text; var OutputText: Text)
+    begin
+        if TransformationCode = 'CUST' then
+            OutputText := InputText + ' testing';
+    end;
+}
+```
+Kun olet määritellyt säännöt, voit testata niitä. Kirjoita **Testi**-osaan esimerkki arvosta, jonka haluat muuttaa, ja tarkista sitten tulokset.
+
+### <a name="to-export-a-data-exchange-definition-as-an-xml-file-for-use-by-others"></a>Tietojenvaihtomäärityksen vieminen XML-tiedostona muiden käyttöä varten
+Kun olet luonut tietojenvaihtomäärityksen tietylle datatiedostolle, voit viedä tietojenvaihtomäärityksen XML-tiedostona, joka voidaan tuoda. Tämä kuvataan seuraavassa menettelytavassa.  
+
 1. Kirjoita **Haku**-ruutuun **Tietojenvaihtomääritykset** ja valitse aiheeseen liittyvä linkki.  
 2. Valitse tietojenvaihtomääritys, jonka haluat viedä.  
 3. Valitse **Vie tiedonsiirtomääritys** -toiminto.  

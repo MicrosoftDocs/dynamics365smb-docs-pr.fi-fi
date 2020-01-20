@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 11/07/2019
 ms.author: sgroespe
-ms.openlocfilehash: 03656014a2b7826008d415e53afbad2d88aac357
-ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
+ms.openlocfilehash: a162246fcd0a6f3db07922cc100e21aacbc76fbe
+ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "2809346"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "2943207"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Määritä käyttöoikeudet käyttäjille ja ryhmille
 [!INCLUDE[d365fin](includes/d365fin_md.md)] -suojausjärjestelmän avulla voit määrittää, mitä objekteja käyttäjä voi käyttää kunkin tietokannan tai ympäristön sisällä. Voit määrittää jokaiselle käyttäjälle, voivatko he lukea, muokata tai syöttää tietoja valituissa tietokantaobjekteissa. Lisätietoja on [Tietosuoja](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level)-kohdassa [!INCLUDE[d365fin](includes/d365fin_md.md)]:n Kehittäjä- ja ITpro-ohjeessa.
@@ -120,7 +120,7 @@ Voit valita kaikissa viidessä käyttöoikeustyyppien kentässä (**luku-**, **l
 |Asetus|Description|Luokittelu|
 |------|-----------|
 |**Kyllä**|Käyttäjä voi suorittaa kyseiselle objektille toiminnon.|Suurin|
-|**Epäsuora**|Käyttäjä voi suorittaa kyseiselle objektille toiminnon, mutta vain toisen sellaisen liittyvän objektin kautta, jonka täydet käyttöoikeudet käyttäjällä on.|Toiseksi korkein|
+|**Epäsuora**|Käyttäjä voi suorittaa kyseiselle objektille toiminnon, mutta vain toisen sellaisen liittyvän objektin kautta, jonka täydet käyttöoikeudet käyttäjällä on. Lisätietoja epäsuorista käyttöoikeuksista on kehitys- ja IT-ammattilaisten ohjeessa [Käyttöoikeudet-ominaisuus](/dynamics365/business-central/dev-itpro/developer/properties/devenv-permissions-property)|Toiseksi korkein|
 |**Tyhjä**|Käyttäjä ei voi suorittaa kyseiselle objektille toimintoa.|Pienin|
 
 ### <a name="example---indirect-permission"></a>Esimerkki - epäsuora käyttöoikeus

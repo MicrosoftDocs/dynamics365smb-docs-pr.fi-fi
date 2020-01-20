@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 12/04/2019
+ms.date: 12/19/2019
 ms.author: sgroespe
-ms.openlocfilehash: 80fbd0a1024ae104fb6fc0921e1260c89a26debf
-ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
+ms.openlocfilehash: d5c9badf083352e04e118cd7ddc25e5a337e5686
+ms.sourcegitcommit: 53565fea987af861f3846e5c1e0e868c279aeb30
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896179"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2918212"
 ---
 # <a name="migrate-customer-data"></a>Asiakastietojen siirtäminen
 Voit siirtää aiemmin luodun asiakkaan tiedot aiemmin luodusta ERP-järjestelmästä [!INCLUDE[d365fin](includes/d365fin_md.md)]iin RapidStart Servicesin tietojen siirto-työkalujen avulla . Voit käyttää Excel-tiedostoja tiedonkuljettajana. Voit siirtää tiedot manuaalisesti kirjoittamalla ne suoraan yrityksen.
@@ -31,13 +31,13 @@ Kun luot uuden yhtiön, voit tuoda yrityksen asetukset uudelle yritykselle. Voit
 > [!NOTE]  
 >  Et voi nimetä uudelleen tiedostoa, joka ei ole jo RapidStart Services kokoonpanopaketti, kuten .rapidstart-kokoonpanopakettitiedosto, ja sitten yrittää tuoda sitä. Jos yrität tehdä tämän, saat virheilmoituksen.  
 
-Ennen kuin aloitat, varmista, että olet RapidStart Servicesin käyttöönottajien roolikeskuksen sivulla.
+Varmista ennen aloittamista, että sinulla on oikeudet suorittaa RapidStart Services -objektit. Voit esimerkiksi määrittää SUPER-käyttöoikeusjoukon tai olla sisäinen tai delegoitu järjestelmänvalvoja. Suosittelemme myös, että olet roolikeskuksessa, jossa on linkkejä RapidStart Servicesiin, kuten hallintaroolikeskuksessa. Lisätietoja on kohdassa [Roolin vaihtaminen](ui-change-basic-settings.md#to-change-the-role).  
 
 > [!IMPORTANT]  
->  Kun yrityksen tietokantojen välillä tuodaan tai viedään määrityspaketteja, tietokantojen tulisi noudattaa samaa rakennetta, jotta kaikki tiedot siirtyvät onnistuneesti. Tämä tarkoittaa, että tietokannoilla tulisi olla sama taulukko- ja kenttärakenne, jossa taulukoilla on samat ensisijaiset avaimet ja kentillä on samat tunnukset ja tietotyypit.  
->   
+> Kun yrityksen tietokantojen välillä tuodaan tai viedään määrityspaketteja, tietokantojen tulisi noudattaa samaa rakennetta, jotta kaikki tiedot siirtyvät onnistuneesti. Tämä tarkoittaa, että tietokannoilla tulisi olla sama taulukko- ja kenttärakenne, jossa taulukoilla on samat ensisijaiset avaimet ja kentillä on samat tunnukset ja tietotyypit.  
+>
 >  Tietokannasta, jolla on eri rakenne kuin kohdetietokanta, voi tuoda määrityspaketin. Mitään määrityspaketissa olevia taulukoita tai kenttiä, joita ei löydy kohdetietokannasta, ei kuitenkaan tuoda.
->   
+>
 > Taulukoita, joilla on poikkeavat ensisijaiset avaimet tai kenttiä, joilla on poikkeavat tietotyypit ei myöskään voi tuoda. Tietoja ei voi tuoda, jos esimerkiksi määrityspaketissa on taulukko **50000 Asiakas**, jonka ensisijainen avain on **Code20**, ja kohdetietokannassa on taulukko **50000 Asiakkaan pankkitili**,jonka ensisijainen avain on **Code20 + Code 20**.  
 
 1. Avaa uusi yritys  
@@ -56,7 +56,11 @@ Ennen kuin aloitat, varmista, että olet RapidStart Servicesin käyttöönottaji
 Jos valitut taulukot eivät vastaa tarpeitasi, voit luoda uusia tietojen siirtotaulukoita. Jos tiedostot ovat riittävät, voit jatkaa tietojen siirtämistä Excel- tai XML-tiedostojen avulla.
 
 ## <a name="to-create-a-data-migration-file"></a>Luo siirtotiedosto
-Voit luoda uuden tietojen siirron tiedostoja ja mukauttaa niitä liiketoiminnan tukemiseksi. Huomaa, että tiedostoa voi kuitenkin käyttää vain sellaisen kentän siirtämisessä, jonka **FieldClass**-ominaisuuden arvoksi on määritetty **Normaali**.  
+
+Voit luoda uuden tietojen siirron tiedostoja ja mukauttaa niitä liiketoiminnan tukemiseksi.  
+
+> [!TIP]
+> Tiedostoa voi kuitenkin käyttää vain sellaisen kentän siirtämisessä, jonka **FieldClass**-ominaisuuden arvoksi on määritetty **Normaali**.  
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Määrityspaketti** ja valitse sitten liittyvä linkki.  
 2. Valitse ja avaa paketti, jota haluat käyttää tietojen siirtämisessä. Valitse sitten **Hae taulukot** -toiminto. **Hae pakettitaulukko** -sivu avautuu.  

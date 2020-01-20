@@ -10,24 +10,37 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 48127ea1fb363bd22d4f6d7dec85df47a11f8ce8
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 398ca571c7b201ca80d252aaff958ee295890f4e
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879224"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910610"
 ---
 # <a name="prepare-a-configuration-package"></a>Määrityspaketin valmisteleminen
 Kun määrität uuden yrityksen, taulukon suhteet tunnistetaan ja käsitellään. Tiedot tuodaan ja otetaan käyttöön oikeassa järjestyksessä. Dimensiotaulukot tuodaan myös, jos ne on sisällytetty määrityspakettiin. Lisätietoja on kohdassa [Asiakastietojen tuominen](admin-migrate-customer-data.md#to-import-customer-data). 
 
 Auttaaksesi asiakastasi käyttämään kokoonpano-pakettia haluat ehkä lisätä pakettiin kyselylomakkeen tai useita kyselylomakkeita. Kyselylomake voi auttaa asiakkaita ymmärtämään eri asetusvaihtoehtoja. Yleensä suurille asetustaulukoille luodaan kyselylomakkeet, jolloin asiakas voi vaatia lisää ohjeita siitä, miten voi valita haluamansa asetuksen. Lisätietoja on kohdassa [Asiakkaan asetusarvojen kerääminen](admin-gather-customer-setup-values.md).
 
-Varmista, että olet RapidStart Servicesin käyttöönottajan roolikeskuksessa. Lisätietoja on kohdassa [RapidStart Servicesin käyttöönottajan roolikeskuksen käyttäminen](admin-how-to-use-the-rapidstart-services-role-center-to-track-progress.md).
+## <a name="before-you-create-a-configuration-package"></a>Ennen määrityspaketin luomista
+Ennen määrityspaketin luomista on otettava huomioon joitakin asioita, koska ne vaikuttavat sinuun tai asiakkaasi mahdollisuuteen tuoda se. 
 
-> [!IMPORTANT]  
->  Kun yrityksen tietokantojen välillä tuodaan tai viedään määrityspaketteja, tietokantojen tulisi noudattaa samaa rakennetta, jotta kaikki tiedot siirtyvät onnistuneesti. Tämä tarkoittaa, että tietokannoilla tulisi olla sama taulukko- ja kenttärakenne, jossa taulukoilla on samat ensisijaiset avaimet ja kentillä on samat tunnukset ja tietotyypit.  
->   
->  Tietokannasta, jolla on eri rakenne kuin kohdetietokanta, voi tuoda määrityspaketin. Mitään määrityspaketissa olevia taulukoita tai kenttiä, joita ei löydy kohdetietokannasta, ei kuitenkaan tuoda. Taulukoita, joilla on poikkeavat ensisijaiset avaimet tai kenttiä, joilla on poikkeavat tietotyypit ei myöskään voi tuoda. Tietoja ei voi tuoda, jos esimerkiksi määrityspaketissa on taulukko **50 000, asiakas**, jonka ensisijainen avain on **Code20**, ja kohdetietokannassa on taulukko **50 000, asiakkaan pankkitili**,jonka ensisijainen avain on **Code20 + Code 20**.  
+### <a name="tables-that-contain-posted-entries"></a>Kirjattuja tapahtumia sisältävät taulut
+Tietoja ei voi tuoda tauluihin, jotka sisältävät kirjattuja tapahtumia, kuten asiakas-, toimittaja- ja nimiketapahtumien tauluihin, joten näitä tietoja ei pitäisi sisällyttää määrityspakettiin. Voit lisätä näihin tauluihin tapahtumia, kun olet tuonut määrityspaketin käyttämällä kirjauskansioita tapahtumien kirjaamiseen. Lisätietoja on kohdassa [Asiakirjojen ja kirjauskansioiden](ui-post-documents-journals.md) kirjaaminen.
+
+### <a name="licensing"></a>Käyttöoikeudet
+Käyttöoikeuden on sisällettävä päivitettävät taulut. Jos et ole varma, **Konfiguroi työkirja** -sivu voi auttaa. Jos käyttöoikeus sisältää taulun, **Käyttöoikeudet sisältävä taulu** -valintaruutu on valittu.  
+
+### <a name="permissions"></a>Käyttöoikeudet
+Määrityspaketin luonti- ja tuontiprosessiin liittyvät seuraavat voimassa olevat käyttöoikeudet kaikkiin paketin tauluihin: 
+
+* Määrityspaketin tietoja vievällä käyttäjällä on oltava voimassa oleva **Luku**oikeus.
+* Määrityspaketin tietoja tuovalla käyttäjällä on oltava voimassa olevat **Lisää**- ja **Muokkaa**-oikeudet.
+
+### <a name="database-schema"></a>Tietokannan rakenne
+Kun yrityksen tietokantojen välillä tuodaan tai viedään määrityspaketteja, tietokantojen tulisi noudattaa samaa rakennetta, jotta kaikki tiedot siirtyvät onnistuneesti. Tämä tarkoittaa, että tietokannoilla tulisi olla sama taulukko- ja kenttärakenne, jossa taulukoilla on samat ensisijaiset avaimet ja kentillä on samat tunnukset ja tietotyypit.  
+
+Tietokannasta, jolla on eri rakenne kuin kohdetietokanta, voi tuoda määrityspaketin. Mitään määrityspaketissa olevia taulukoita tai kenttiä, joita ei löydy kohdetietokannasta, ei kuitenkaan tuoda. Taulukoita, joilla on poikkeavat ensisijaiset avaimet tai kenttiä, joilla on poikkeavat tietotyypit ei myöskään voi tuoda. Tietoja ei voi tuoda, jos esimerkiksi määrityspaketissa on taulukko **50 000, asiakas**, jonka ensisijainen avain on **Code20**, ja kohdetietokannassa on taulukko **50 000, asiakkaan pankkitili**,jonka ensisijainen avain on **Code20 + Code 20**.  
 
 ## <a name="to-create-a-configuration-package"></a>Luo määrityspaketti  
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Määrityspaketit** ja valitse sitten liittyvä linkki.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: microsoft partner
-ms.date: 10/01/2019
+ms.date: 12/20/2019
 ms.author: edupont
-ms.openlocfilehash: 964cbf52362db7a5f9131375925adbf8f941938d
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 36185512ff17e7044dfc9bb6539d3f7b102472b5
+ms.sourcegitcommit: 53565fea987af861f3846e5c1e0e868c279aeb30
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2883332"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2918140"
 ---
 # <a name="become-a-reseller-of-included365fin_longincludesd365fin_long_mdmd"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]in jälleenmyyjäksi ryhtyminen
 Laajenna liiketoimintamahdollisuuksia [!INCLUDE[d365fin](includes/d365fin_md.md)]illa.  
@@ -26,10 +26,7 @@ Jos pilviratkaisut, Office 365, SharePoint, toimialakohtaiset ratkaisut, analyti
 
 ## <a name="get-started"></a>Aloitus
 
-Valmis aloittamaan -ohjelma on yksi tapa aloittaa [!INCLUDE [prodshort](includes/prodshort.md)] -jälleenmyyjänä toimiminen. Voit myös ottaa yhteyttä oman maasi tai alueesi Microsoft-toimipisteeseen. Lisätietoja Valmis aloittamaan -ohjelman kautta käytettävistä resursseista on kohdassa [aka.ms/readytogo](https://aka.ms/readytogo). Lisätietoja jälleenmyyjäksi tulemisesta on kohdassa, jossa käsitellään [erilaisten ratkaisujen myyntiä](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-reseller).  
-
-Rekisteröidy kokeiluversioon osoitteessa [https://dynamics.microsoft.com/business-central/overview/ ](https://dynamics.microsoft.com/business-central/overview/
-) ja lähetä palautetta osoitteessa [https://community.dynamics.com/business](https://community.dynamics.com/business/f/758).  
+Valmis aloittamaan -ohjelma on yksi tapa aloittaa [!INCLUDE [prodshort](includes/prodshort.md)] -jälleenmyyjänä toimiminen. Voit myös ottaa yhteyttä oman maasi tai alueesi Microsoft-toimipisteeseen. Saat lisätietoja käytettävissäsi olevista resursseista "Valmiina lähtöön"-ohjelman kautta. Katso [aka.ms/readytogo](https://aka.ms/readytogo), [Jälleenmyy erilaisia ratkaisuja](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-reseller) ja [Aloita jälleenmyyjänä](/dynamics365/business-central/dev-itpro/index#get-started-as-a-reseller).  
 
 ## <a name="see-also"></a>Katso myös
 

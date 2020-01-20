@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: SorenGP
-ms.openlocfilehash: 2d29bd0902ade38a1901899af475377e18089316
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 86ddde5339631915a997cbbebe63a3a2d6d68835
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309482"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952600"
 ---
 # <a name="setting-up-inventory"></a>Varaston määrittäminen
 Ennen varastoaktiviteettien ja varaston arvostuksen hallinnan aloittamista on määritettävä yrityksen varastonhallintakäytäntöjen säännöt ja arvot.
@@ -38,6 +38,8 @@ Kun olet määrittänyt varaston, voit hallita nimiketapahtumien liittyviä eril
 |Täydennä nimike kortteja tallentamalla niihin tietoja nimikkeestä tietyn sijainnin ja/tai tietyn varianttikoodin perusteella.|[Varastointiyksiköiden määrittäminen](inventory-how-to-set-up-stockkeeping-units.md)|
 | Kun määrität nimikkeitä luokkiin ja annat niille määritteitä, nimikkeiden etsiminen helpottuu. |[Nimikkeiden luokitteleminen](inventory-how-categorize-items.md) |
 |Tuo useita nimikekuvia samalla kerralla zip-tiedostosta, jossa tiedostot on nimetty nimikenumeroiden mukaan.|[Useiden nimikekuvien tuominen](inventory-how-import-item-pictures.md)|
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulestrade-get-started-dynamics-365-business-central"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
 [Varaston hallinta](inventory-manage-inventory.md)  

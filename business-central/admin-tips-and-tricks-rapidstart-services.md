@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: acdac865286577b30f9fe036cca8a50eb7e143a0
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 890a6e87ec25293232f089b68e57a577fec6aa56
+ms.sourcegitcommit: 53565fea987af861f3846e5c1e0e868c279aeb30
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878984"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2918164"
 ---
 # <a name="tips-and-tricks-rapidstart-services"></a>Vihjeitä: RapidStart Services
 Kun määrität yrityksiä RapidStart Servicesillä, voit sujuvoittaa käyttöönottoa muutamien vihjeiden avulla.  
@@ -30,10 +30,10 @@ Tukeaksesi kyselylomakkeen täyttämisprosessia, harkitse oletusarvoisten vastau
 Suosittelemme, että käytät tietojen siirron työkaluja siirtäessäsi päiväkirjamerkintöjä. Muutoin jos luot päiväkirjarivit eräajossa, sen kattavus on rajoitettu ja se luo päiväkirjaan vain esiasetettujen oletusten mukaiset kentät. Loput kirjauskansiosta täytyy täyttää käsin.  
 
 ## <a name="migrating-transactions"></a>Transaktioiden siirtäminen  
-Suosittelemme, että siirrät avaussaldot seuraavassa järjestyksessä.  
+Suosittelemme, että siirrät avaussaldot seuraavassa järjestyksessä. <!--Be aware that you cannot insert ledger entries directly. Instead you must use journals to post the journal lines--> 
 
 1.  Siirrä pääkirjanpidon alkusaldot käyttämättä pääkirjanpidon tilin alareskontria. Käytä tiettyjä alkusaldon vastakirjauksen tilejä, yhtä kutakin alikirjausta varten. Määritä vastakirjauksen tilit sallimaan suorat kirjaukset.  
-2.  Avointen asiakastapahtumoen siirtäminen  
+2.  Avointen asiakastapahtumoen siirtäminen  <!--work on these-->
 3.  Siirrä avoimet nimiketapahtumat.  
 4.  Siirrä avoimet käyttöomaisuustapahtumat.  
 

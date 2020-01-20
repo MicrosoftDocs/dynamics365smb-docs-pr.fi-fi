@@ -10,21 +10,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: fc8f52e5ef9fdeb8a2add9cf030a348012f25366
-ms.sourcegitcommit: 02f1633213793bfc040ad0d2a96fe76572215aa5
+ms.openlocfilehash: fa8b324c0a63f7c00209579878b9739af8178041
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "2798497"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953657"
 ---
 # <a name="setting-up-finance"></a>Rahoituksen määrittäminen
-[!INCLUDE[d365fin](includes/d365fin_md.md)] sisältää useimpien rahoitusprosessien vakiomääritykset, mikä nopeuttaa käytön aloittamista. Voit tarvittaessa muuttaa määrityksiä liiketoiminnan tarpeiden mukaisesti. Voit määrittää esimerkiksi roolikeskuksessa avustetun asennusoppaan avulla sijaintiin sopivan arvonlisäveron.  
+Ennen kuin voit aloittaa yrityksesi pyörittämisen, sinun on määritettävä säännöt ja oletusarvot sille, miten haluat hallita kyseisen yrityksen rahoitusprosesseja. Aloita määrittämällä yrityksen tilitietueiden perusta - tilikartta. Sitten määritetään kirjausryhmät, mikä tehostaa pääkirjanpidon oletuskirjaustilien määrittämistä asiakkaille, toimittajille ja nimikkeille.
 
-Tietyt asiat on kuitenkin määritettävä itse. Esimerkki: haluat käyttää dimensioita BI-tietojen perustana.  
+Jotkin rahoitusasetukset voidaan tehdä automaattisesti avustetun asennuksen ohjeiden avulla, ja jotkin niistä on tehtävä manuaalisesti. Lisätietoja on ohjeaiheessa [Valmistautuminen liiketoimintaan](ui-get-ready-business.md).
 
-Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisiin.
+Dimensioiden avulla jokaiseen tapahtumaan voi lisätä erityyppisiä tietoja. Voit määrittää yrityksen perusdimensiot, kuten Projektit ja Osastot. Voit lisätä dimensioita tarvittaessa myöhemmin ja määrittää väliaikaisia dimensioita rajoitetun ajanjakson ajaksi, esimerkiksi myyntikampanjan yhteydessä. Lisätietoja on kohdassa [Dimensioiden käyttäminen](finance-dimensions.md).
+
+Useat asetustehtävistä on tehtävä valmiiksi ennen rahoitustapahtumien tallennuksen aloittamista. Useimpia asetuksia voi kuitenkin muuttaa myöhemmin. Jotkut asetustehtävät ovat valinnaisia, esimerkiksi määrität konsernin kirjauksia ja konsolidointeja vain, jos työskentelet useiden yritysten kanssa. Jotkut määritystehtävät, kuten sallitun kirjausajanjakson määrittäminen, on mahdollisesti toistettava säännöllisin väliajoin.  
+
+Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aiheisiin.
 
 | Toiminta | Katso |
 | --- | --- |
@@ -46,9 +50,11 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 | Intrastat-raportoinnin määrittäminen ja raportin lähettäminen viranomaisille | [Intrastat-ilmoituksen määrittäminen ja raportoiminen](finance-how-setup-report-intrastat.md)|
 |Varmista, että tapahtuma kohdistetaan yleisessä päiväkirjassa useisiin eri tileihin päiväkirjan kirjauksen yhteydessä. Kohdistuksen voi tehdä määrän, prosentin tai summan mukaan.|[Kohdistustunnusten käyttäminen yleisissä päiväkirjoissa](ui-how-use-allocation-keys-general-journals.md)|
 
+## <a name="see-related-training-at-microsoft-learnlearnpathsset-up-financial-management-dynamics-365-business-central"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Katso myös
 [Rahoitus](finance.md)  
-[Pankkitilien hallinta](bank-manage-bank-accounts.md)  
+[Pankkitilien täsmäytys](bank-manage-bank-accounts.md)  
 [Dimensioiden käyttäminen](finance-dimensions.md)  
 [Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md)  
 [Yrityksen kassavirran analysoiminen](finance-analyze-cash-flow.md)  

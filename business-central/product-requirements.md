@@ -10,21 +10,27 @@ ms.workload: na
 ms.search.keywords: version
 ms.date: 10/17/2019
 ms.author: edupont
-ms.openlocfilehash: 96825fcc03bbbbc43c00f3bce4b9ac257a915a6f
-ms.sourcegitcommit: be1e2c49a8434d3f440d5a201508af9c3c8cc87f
+ms.openlocfilehash: b75ad760448b595e0241918006d5a888b5d5d625
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "2649762"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2911237"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Business Central -sovelluksen käytön vähimmäisvaatimukset
 Suosittelemme, että tietokoneen tai mobiililaitteen tuotteelle asetettujen järjestelmän vähimmäisvaatimusten täyttyminen tarkistetaan, ennen kuin [!INCLUDE [prodshort](includes/prodshort.md)] -sovelluksen online-versio otetaan käyttöön. Tässä artikkelissa kerrotaan vaatimukset.  
 
 ## <a name="browsers"></a>Selaimet
+
+### <a name="recommended-browsers"></a>Suositellut selaimet
+
 **Chrome Windowsille ja Firefox Windowsille:** [!INCLUDE[d365fin](includes/d365fin_md.md)] on suunniteltu käytettäväksi näiden työpöytäselaimien nykyisten versioiden kanssa.  
 **Safari:** [!INCLUDE[d365fin](includes/d365fin_md.md)] on suunniteltu käytettäväksi OSX-käyttöjärjestelmän nykyisen Safari-version kanssa.  
-**Microsoft Edge:** [!INCLUDE[d365fin](includes/d365fin_md.md)] on suunniteltu käytettäväksi nykyisen Microsoft Edge -version kanssa.  
-**Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] on suunniteltu toimimaan Windows 10:n (32- ja 64-bittiset versiot) Internet Explorer 11:n (koontiversio 11.0.9600.17239) kanssa. Suosittelemme Internet Explorerin päivittämistä uusimpaan Windows-versiosi tukemaan versioon.  
+**Microsoft Edge:** [!INCLUDE[d365fin](includes/d365fin_md.md)] on suunniteltu käytettäväksi nykyisen Microsoft Edge -version kanssa.
+
+### <a name="other-supported-browsers"></a>Muut tuetut selaimet
+
+**Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] on suunniteltu toimimaan Windows 10:n (32- ja 64-bittiset versiot) Internet Explorer 11:n (koontiversio 11.0.9600.17239) kanssa. Suosittelemme Internet Explorerin päivittämistä uusimpaan Windows-versiosi tukemaan versioon. 
 
 ## <a name="mobile-devices"></a>Mobiililaitteet
 **Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] for Windows voidaan asentaa laitteisiin, joissa on vähintään 1 Gt RAM-muistia ja Windows 10 Home-, Pro-, Enterprise- tai Education-versioihin (32- ja 64-bittiset versiot).  
