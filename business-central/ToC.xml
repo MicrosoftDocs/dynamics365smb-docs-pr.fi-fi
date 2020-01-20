@@ -153,9 +153,9 @@
       <Node Name="" DisplayName="Yhdistettyjen ennakkolaskujen luominen" Page="finance-how-to-create-prepayment-invoices.html"/>
       <Node Name="" DisplayName="Ennakkomaksujen korjaaminen" Page="finance-how-to-correct-prepayments.html"/>
     </Node>
-    <Node Name="" DisplayName="Pankkitilien hallinta" Page="bank-manage-bank-accounts.html">
+    <Node Name="" DisplayName="Pankkitilien täsmäytys" Page="bank-manage-bank-accounts.html">
       <Node Name="" DisplayName="Maksujen kohdistaminen automaattisesti ja pankkitilien täsmäyttäminen" Page="receivables-apply-payments-auto-reconcile-bank-accounts.html"/>
-      <Node Name="" DisplayName="Toimintaohje: Pankkitilien täsmäyttäminen erikseen" Page="bank-how-reconcile-bank-accounts-separately.html"/>
+      <Node Name="" DisplayName="Toimintaohje: Pankkitilien täsmäyttäminen" Page="bank-how-reconcile-bank-accounts-separately.html"/>
       <Node Name="" DisplayName="Toimintaohje: Pankkivarojen siirtäminen" Page="bank-how-transfer-bank-funds.html"/>
     </Node>
     <Node Name="" DisplayName="Konsernitapahtumien hallinta" Page="intercompany-manage.html">

@@ -8,28 +8,30 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: phone, tablet
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: edupont
-ms.openlocfilehash: 0f378494a30553e005eb01d90e33cadf9c53c7d0
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ef36a7c26b6d0fafb272989ccfc77fc4e54bf9e4
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308481"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953609"
 ---
-# <a name="getting-business-central-on-your-mobile-device"></a><span data-ttu-id="9e09e-103">Business Central -sovelluksen hakeminen mobiililaitteeseen</span><span class="sxs-lookup"><span data-stu-id="9e09e-103">Getting Business Central on Your Mobile Device</span></span>
-<span data-ttu-id="9e09e-104">Voit käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietoja mobiililaitteella.</span><span class="sxs-lookup"><span data-stu-id="9e09e-104">Access your [!INCLUDE[d365fin](includes/d365fin_md.md)] data from your mobile device.</span></span> <span data-ttu-id="9e09e-105">Voit siirtyä liiketoimintatiedoissa, käyttää erilaisia toimintoja, kuten lähettää tietoja Exceliin ja Office 365:een, tarkastella päivitettyjä kaavioita ja tunnuslukuja, lähettää myyntitarjouksia ja -laskuja sähköpostitse sekä ottaa kameralla kuvia ja liittää niitä.</span><span class="sxs-lookup"><span data-stu-id="9e09e-105">You can navigate through your business data, use features such as send to Excel or Office 365, view up-to-date charts and KPIs, email sales quotes and invoices, and shoot and attach pictures with your camera.</span></span> <span data-ttu-id="9e09e-106">Noudattamalla seuraavia ohjeita voit ladata sovelluksen ja aloittaa.</span><span class="sxs-lookup"><span data-stu-id="9e09e-106">Follow the steps below to download the app and get started.</span></span>
+# <a name="getting-business-central-on-your-mobile-device"></a><span data-ttu-id="a4320-103">Business Central -sovelluksen hakeminen mobiililaitteeseen</span><span class="sxs-lookup"><span data-stu-id="a4320-103">Getting Business Central on Your Mobile Device</span></span>
+<span data-ttu-id="a4320-104">Voit käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietoja mobiililaitteella.</span><span class="sxs-lookup"><span data-stu-id="a4320-104">Access your [!INCLUDE[d365fin](includes/d365fin_md.md)] data from your mobile device.</span></span> <span data-ttu-id="a4320-105">Voit siirtyä liiketoimintatiedoissa, käyttää erilaisia toimintoja, kuten lähettää tietoja Exceliin ja Office 365:een, tarkastella päivitettyjä kaavioita ja tunnuslukuja, lähettää myyntitarjouksia ja -laskuja sähköpostitse sekä ottaa kameralla kuvia ja liittää niitä.</span><span class="sxs-lookup"><span data-stu-id="a4320-105">You can navigate through your business data, use features such as send to Excel or Office 365, view up-to-date charts and KPIs, email sales quotes and invoices, and shoot and attach pictures with your camera.</span></span> <span data-ttu-id="a4320-106">Noudattamalla seuraavia ohjeita voit ladata sovelluksen ja aloittaa.</span><span class="sxs-lookup"><span data-stu-id="a4320-106">Follow the steps below to download the app and get started.</span></span>
 
-## <a name="to-get-the-app-on-my-mobile-device"></a><span data-ttu-id="9e09e-107">Sovelluksen hakeminen omaan mobiililaitteeseen</span><span class="sxs-lookup"><span data-stu-id="9e09e-107">To get the app on my mobile device</span></span>
-1. <span data-ttu-id="9e09e-108">Asenna [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovellus mobiililaitteeseen lataamalla se Windows Storesta, App Storesta tai Google Playsta.</span><span class="sxs-lookup"><span data-stu-id="9e09e-108">Install the [!INCLUDE[d365fin](includes/d365fin_md.md)] app on your mobile device by downloading the app from the Windows Store, App Store, or Google Play.</span></span>  
-<span data-ttu-id="9e09e-109">[![Windows Store](./media/install-mobile-app/windowsstore.png)](https://go.microsoft.com/fwlink/?LinkId=734848)
-[![App Store](./media/install-mobile-app/appstore.png)](https://go.microsoft.com/fwlink/?LinkId=734847) [![Google Play](./media/install-mobile-app/googleplay.png)](https://go.microsoft.com/fwlink/?LinkId=734849)</span><span class="sxs-lookup"><span data-stu-id="9e09e-109">[![Windows Store](./media/install-mobile-app/windowsstore.png)](https://go.microsoft.com/fwlink/?LinkId=734848)
+## <a name="to-get-the-app-on-my-mobile-device"></a><span data-ttu-id="a4320-107">Sovelluksen hakeminen omaan mobiililaitteeseen</span><span class="sxs-lookup"><span data-stu-id="a4320-107">To get the app on my mobile device</span></span>
+1. <span data-ttu-id="a4320-108">Asenna [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovellus mobiililaitteeseen lataamalla se Windows Storesta, App Storesta tai Google Playsta.</span><span class="sxs-lookup"><span data-stu-id="a4320-108">Install the [!INCLUDE[d365fin](includes/d365fin_md.md)] app on your mobile device by downloading the app from the Windows Store, App Store, or Google Play.</span></span>  
+<span data-ttu-id="a4320-109">[![Windows Store](./media/install-mobile-app/windowsstore.png)](https://go.microsoft.com/fwlink/?LinkId=734848)
+[![App Store](./media/install-mobile-app/appstore.png)](https://go.microsoft.com/fwlink/?LinkId=734847) [![Google Play](./media/install-mobile-app/googleplay.png)](https://go.microsoft.com/fwlink/?LinkId=734849)</span><span class="sxs-lookup"><span data-stu-id="a4320-109">[![Windows Store](./media/install-mobile-app/windowsstore.png)](https://go.microsoft.com/fwlink/?LinkId=734848)
 [![App Store](./media/install-mobile-app/appstore.png)](https://go.microsoft.com/fwlink/?LinkId=734847) [![Google Play](./media/install-mobile-app/googleplay.png)](https://go.microsoft.com/fwlink/?LinkId=734849)</span></span>  
-2. <span data-ttu-id="9e09e-110">Käynnistä sovellus mobiililaitteessa.</span><span class="sxs-lookup"><span data-stu-id="9e09e-110">Launch the app from your mobile device.</span></span>
-3. <span data-ttu-id="9e09e-111">Anna käyttäjänimi ja salasana, jotka loit rekisteröityessäsi [!INCLUDE[d365fin](includes/d365fin_md.md)]iin, ja noudata näytön ohjeita.</span><span class="sxs-lookup"><span data-stu-id="9e09e-111">Enter your user name and password that you created during sign-up for [!INCLUDE[d365fin](includes/d365fin_md.md)] and follow the instructions on the screen.</span></span>
+2. <span data-ttu-id="a4320-110">Käynnistä sovellus mobiililaitteessa.</span><span class="sxs-lookup"><span data-stu-id="a4320-110">Launch the app from your mobile device.</span></span>
+3. <span data-ttu-id="a4320-111">Anna käyttäjänimi ja salasana, jotka loit rekisteröityessäsi [!INCLUDE[d365fin](includes/d365fin_md.md)]iin, ja noudata näytön ohjeita.</span><span class="sxs-lookup"><span data-stu-id="a4320-111">Enter your user name and password that you created during sign-up for [!INCLUDE[d365fin](includes/d365fin_md.md)] and follow the instructions on the screen.</span></span>
 
-<span data-ttu-id="9e09e-112">Voit nyt käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]ia sekä tarkastella ja muokata tietoja.</span><span class="sxs-lookup"><span data-stu-id="9e09e-112">You should now have access to [!INCLUDE[d365fin](includes/d365fin_md.md)] and be able to view and edit data.</span></span>
+<span data-ttu-id="a4320-112">Voit nyt käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]ia sekä tarkastella ja muokata tietoja.</span><span class="sxs-lookup"><span data-stu-id="a4320-112">You should now have access to [!INCLUDE[d365fin](includes/d365fin_md.md)] and be able to view and edit data.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="9e09e-113">Katso myös</span><span class="sxs-lookup"><span data-stu-id="9e09e-113">See Also</span></span>
-[<span data-ttu-id="9e09e-114">Käytön aloittaminen</span><span class="sxs-lookup"><span data-stu-id="9e09e-114">Getting Started</span></span>](product-get-started.md)  
-<span data-ttu-id="9e09e-115">[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="9e09e-115">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+## <a name="see-related-training-at-microsoft-learnlearnmodulesalternative-interfaces-dynamics-365-business-centralindex"></a><span data-ttu-id="a4320-113">Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)</span><span class="sxs-lookup"><span data-stu-id="a4320-113">See Related Training at [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="a4320-114">Katso myös</span><span class="sxs-lookup"><span data-stu-id="a4320-114">See Also</span></span>
+[<span data-ttu-id="a4320-115">Käytön aloittaminen</span><span class="sxs-lookup"><span data-stu-id="a4320-115">Getting Started</span></span>](product-get-started.md)  
+<span data-ttu-id="a4320-116">[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="a4320-116">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  

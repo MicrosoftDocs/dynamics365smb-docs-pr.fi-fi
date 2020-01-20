@@ -5,6 +5,15 @@
 ## [Vähimmäisvaatimukset](product-requirements.md)
 ## [Usein kysytyt kysymykset](across-faq.md)
 ## [Ohje- ja tukiresurssit](product-help-and-support.md)
+## [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)
+## [Liiketoimintatoimintojen yleiskatsaus](across-business-functionality.md)
+## [Älykkään pilven käyttäminen Business Centralin kanssa](about-intelligent-cloud.md)
+## [Vieraile Microsoftin videokirjastossa](across-videos.md)
+## Kokeilut ja tilaukset
+### [Yleiskuvaus](across-preview.md)
+### [Itsepalvelun rekisteröitymisen vianmääritys](ui-troubleshoot-self-signup.md)
+### [Kokeilujakson jatkaminen](admin-extend-trial.md)
+### [Business Centralin poistaminen tai tilauksen peruuttaminen](admin-cancel.md)
 ## Etsi koulutusta
 ### [Oppimisluettelo](readiness/readiness-learning-catalog.md)
 ### [Liiketoiminnan päätöksentekijän opintoluettelo](readiness/readiness-learning-bus-decision-makers.md)
@@ -13,14 +22,6 @@
 ### [Toiminnallisen konsultin opintoluettelo](readiness/readiness-learning-functional-consultants.md)
 ### [Ennakkomyynnin opintoluettelo](readiness/readiness-learning-presales.md)
 ### [Myynnin opintoluettelo](readiness/readiness-learning-sales.md)
-
-## [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)
-## [Liiketoimintatoimintojen yleiskatsaus](across-business-functionality.md)
-## [Kokeilut ja tilaukset](across-preview.md)
-### [Itsepalvelun rekisteröitymisen vianmääritys](ui-troubleshoot-self-signup.md)
-### [Business Centralin poistaminen tai tilauksen peruuttaminen](admin-cancel.md)
-## [Älykkään pilven käyttäminen Business Centralin kanssa](about-intelligent-cloud.md)
-## [Vieraile Microsoftin videokirjastossa](across-videos.md)
 ## Jälleenmyyjät ja kumppanit
 ### [Jälleenmyyjäksi ryhtyminen](product-sell.md)
 ### [Business Centralin laajentaminen](about-develop-extensions.md)
@@ -225,8 +226,8 @@
 ### [Business Centralin käyttäminen Power BI -tietolähteenä](across-how-use-financials-data-source-powerbi.md)
 ## Power Automate:n käyttäminen Business Centralin kanssa
 ### [Business Central -sovelluksen käyttäminen automaattisessa työnkulussa](across-how-use-financials-data-source-flow.md)
-## Power Appsin käyttäminen Business Centralin kanssa
-### [Yhteyden muodostaminen Business Central -tietoihin yrityssovelluksen luomista varten Power Apps-sovellusten avulla](across-how-use-financials-data-source-powerapps.md)
+## Power Apps:n käyttäminen Business Centralin kanssa
+### [Yhteyden muodostaminen Business Central -tietoihin yrityssovelluksen luomista varten Power Appsin avulla](across-how-use-financials-data-source-powerapps.md)
 ## [Vaihtaminen QuickBooks-sovelluksesta Business Centraliin](across-quickbooks-to-business-edition.md)
 ## [Business Central -sovelluksen hakeminen mobiililaitteeseen](install-mobile-app.md)
 ## [Microsoft Bookingsin massalaskutus](finance-bookings.md)
@@ -314,7 +315,7 @@
 #### [Maksujen kerääminen SEPA-suoraveloitusperintänä](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Valuutan vaihtokurssien päivittäminen](finance-how-update-currencies.md)
 #### [Kenttien vastaavuuksien määrittäminen tuotaessa SEPA-CAMT-tiedostoja](across-field-mapping-when-importing-sepa-camt-files.md)
-#### [Kenttien vastaavuuksien määrittäminen vietäessä maksutiedostot käyttämällä pankkitietojen muuntopalvelua](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
+#### [AMC Banking 365 Fundamentals -laajennuksen kentänyhdistämismääritys](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
 
 # Hallinta
 ## [Yleiskuvaus](admin-setup-and-administration.md)
@@ -369,7 +370,7 @@
 ### [Dynamics 365 Sales -integroinnissa käytettävien käyttäjätilien määrittäminen](admin-setting-up-integration-with-dynamics-sales.md)
 ### [Dynamics 365 Sales -yhteyden määrittäminen](admin-how-to-set-up-a-dynamics-crm-connection.md)
 ### [Business Centralin ja Dynamics 365 Salesin synkronointi](admin-synchronizing-business-central-and-sales.md)
-### [Taulukon yhdistämismääritysten muokkaaminen synkronointia varten](admin-how-to-modify-table-mappings-for-synchronization.md)
+### [Synkronoitavien taulujen ja kenttien yhdistäminen](admin-how-to-modify-table-mappings-for-synchronization.md)
 ### [Taulukon yhdistämismääritysten manuaalinen synkronointi](admin-manual-synchronization-of-table-mappings.md)
 ### [Ajoitettu synkronointi](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Synkronointivirheiden vianmääritys](admin-troubleshoot-sales-synchronization.md)
@@ -384,6 +385,7 @@
 #### [Maksujen tarkasteleminen tai kohdistaminen automaattisen kohdistuksen jälkeen](receivables-how-review-apply-payments-auto-application.md)
 #### [Niiden maksujen täsmäyttäminen, joita ei voi kohdistaa automaattisesti](receivables-how-reconcile-payments-cannot-apply-auto.md)
 #### [Toistuvien maksujen tekstin yhdistäminen tileihin automaattisen täsmäytyksen suorittamiseksi](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
+#### [Automaattinen maksujen soveltamisen sääntöjen määrittäminen](receivables-how-set-up-payment-application-rules.md)
 ### [Asiakkaan maksujen täsmäyttäminen maksamattomien myyntiasiakirjojen luettelosta](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
 ### [Asiakkaan maksujen täsmäyttäminen kassapäiväkirjan avulla tai asiakastapahtumista](receivables-how-apply-sales-transactions-manually.md)
 ### [Avointen saldojen perintä](receivables-collect-outstanding-balances.md)
@@ -415,7 +417,7 @@
 ### [Toimittajamaksujen täsmäyttäminen maksukirjauskansiolla tai toimittajatapahtumista](payables-how-apply-purchase-transactions-manually.md)
 ### [Avointen saldojen perintä](receivables-collect-outstanding-balances.md)
 ### [Maksujen kerääminen SEPA-suoraveloitusperintänä.](finance-collect-payments-with-sepa-direct-debit.md)
-### [Asiakkaiden estäminen](receivables-how-block-customers.md)
+### [Estä toimittajia](payables-how-block-vendors.md)
 ### [Kaupan lisäkustannusten huomiointi nimikekulujen avulla](payables-how-assign-item-charges.md)
 ### [Maksutoleranssien ja maksualennustoleranssien käsitteleminen](finance-payment-tolerance-and-payment-discount-tolerance.md)
 ### [Myöhästyneen maksun ennusteen laajennus](ui-extensions-late-payment-prediction.md)
@@ -426,11 +428,10 @@
 ### [Ennakkomaksulaskujen luominen](finance-how-to-create-prepayment-invoices.md)
 ### [Ennakkomaksujen korjaaminen](finance-how-to-correct-prepayments.md)
 
-## Pankkitilien hallinta
+## Pankkitilien täsmäytys
 ### [Yleiskuvaus](bank-manage-bank-accounts.md)
+### [Pankkitilien täsmäytys](bank-how-reconcile-bank-accounts-separately.md)
 ### [Maksujen kohdistaminen automaattisesti ja pankkitilien täsmäyttäminen](receivables-apply-payments-auto-reconcile-bank-accounts.md)
-### [Pankkitilien täsmäyttäminen erikseen](bank-how-reconcile-bank-accounts-separately.md)  
-### [Siirrä pankkivarat](bank-how-transfer-bank-funds.md)
 
 ## Konsernitapahtumien hallinta
 ### [Yleiskuvaus](intercompany-manage.md)
@@ -499,6 +500,7 @@
 ## [Yrityksen kassavirtojen analysoiminen](finance-analyze-cash-flow.md)
 ## [Vaihekuvaus: tehdään kassavirtaennusteita käyttäen KP-raporttimalleja](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 ## [Rahoituslaskelmien analysointi Excelissä](finance-analyze-excel.md)
+## [Siirrä pankkivarat](bank-how-transfer-bank-funds.md)
 ## [Kirjanpitäjän käyttökokemukset Business Centralissa](finance-accounting.md)
 
 # Business Intelligence
@@ -924,10 +926,29 @@
 
 ## Tšekin tasavalta
 ### [Yleiskuvaus](LocalFunctionality/Czech/czech-local-functionality.md)
+### Perusrahoitus  
+#### [Rahoitus](LocalFunctionality/Czech/finance.md)
+#### [Vuoden sulkemistoiminnot](LocalFunctionality/Czech/year-close-operations.md)
+#### [Pääkirjanpidon tapahtumien soveltaminen](LocalFunctionality/Czech/general-ledger-entries-application.md)
+#### [Valuutan vaihtokurssien päivitys](LocalFunctionality/Czech/exchange-rate-update.md)
 ### ALV
+#### [Rahoitus - ALV](LocalFunctionality/Czech/finance-vat.md)
 #### [ALV:n valvontaraportti](LocalFunctionality/Czech/vat-control-report.md)
+### Käyttöomaisuus
+#### [Käyttöomaisuus](LocalFunctionality/Czech/fixed-assets.md)
 ### Pankkitoiminta ja maksut
+#### [Pankkiominaisuus](LocalFunctionality/Czech/bank-feature.md)
+#### [Kassanhallinta](LocalFunctionality/Czech/cash-desk-management.md)
 #### [Myynnin rekisteröinti (EET)](LocalFunctionality/Czech/eet.md)
+#### [Lisäasetukset](LocalFunctionality/Czech/advances.md)
+### Ostovelat ja myyntisaamiset
+#### [Ostovelat ja myyntisaamiset](LocalFunctionality/Czech/receivables-payables.md)
+#### [Intrastat](LocalFunctionality/Czech/intrastat.md)
+### Varasto
+#### [Varasto](LocalFunctionality/Czech/inventory.md)
+### Yleiset
+#### [Laajennettu käyttäjän valvonta](LocalFunctionality/Czech/general.md)
+#### [Parhaat käytännöt](LocalFunctionality/Czech/best-practices.md)
 
 ## Tanska
 ### [Yleiskuvaus](LocalFunctionality/Denmark/denmark-local-functionality.md)
@@ -1092,6 +1113,7 @@
 ## Meksiko
 ### [Yleiskuvaus](LocalFunctionality/Mexico/mexico-local-functionality.md)
 ### Vero
+#### [Määritä ja luo DIOT-raportteja](LocalFunctionality/Mexico/ui-extensions-setup-and-generate-diot-report-mx.md)
 #### [Meksikon myyntivero](LocalFunctionality/Mexico/mexico-sales-tax.md)  
 #### [Käyttöveron ja ostoveron määrittäminen](LocalFunctionality/Mexico/how-to-set-up-use-tax-and-purchase-tax.md)  
 #### [Toteutumattoman myyntiveron ja myynnin maksualennusten määrittäminen](LocalFunctionality/Mexico/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)
@@ -1423,7 +1445,6 @@
 #### [Ison-Britannian postinumeroiden GetAddress.io-laajennus](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)
 #### [Ison-Britannian postinumeroiden GetAddress.io-laajennuksen määrittäminen](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)
 #### [Ulkoisten asiakirjanumeroiden antaminen](LocalFunctionality/UnitedKingdom/how-to-enter-external-document-numbers.md)
-#### [Suoramyynti- ja ostotietoraporttien tulostaminen](LocalFunctionality/UnitedKingdom/how-to-print-direct-sales-and-purchase-details-reports.md)
 
 ## Yhdysvallat
 ### [Yleiskuvaus](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
