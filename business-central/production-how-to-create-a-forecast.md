@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 01/29/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8ae3e142946ff968a1b1357df1a1634734c0392c
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 71d62cdd0e21d0eb2d10f5b33e30be91e92d0928
+ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2883380"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999926"
 ---
 # <a name="create-a-demand-forecast"></a>Kysyntäennusteen luominen
 Voit luoda myynti- ja tuotantoennusteita **Kysyntäennuste**-sivulla.  
@@ -51,18 +51,18 @@ Jos haluat suodattaa ennusteen sijainnin mukaan suunnitelman laskemisen yhteydes
 
 ## <a name="to-create-a-demand-forecast"></a>Kysyntäennusteen luominen
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Kysyntäennuste** ja valitse sitten liittyvä linkki.  
-2.  Valitse **Yleinen**-pikavälilehden **Kysyntäennusteen nimi** -kentässä ennuste. Ennusteita voi olla useita erinimisiä ja -tyyppisiä.  
-3.  Valitse **Sijaintisuodatus**-kentässä sijainti, jota tämä ennuste koskee.  
-4.  Valitse **Ennusteen tyyppi** -kentässä **Myyntinimike**,  **Komponentti** tai **Molemmat**. Jos valitset **Myyntinimike** tai **Komponentti**, voit muokata määrää jakson mukaan. Jos valitset **Molemmat**, määrää ei voi muuttaa, mutta voit valita alanuolipainikkeen ja tarkastella kysyntäennustetapahtumia.  
-5.  Määritä **Pvm-suodatus**, jos haluat rajoittaa näkyvien tietojen määrää.  
-6.  Syötä **Kysyntäennustematriisi**-pikavälilehteen useiden jaksojen **myyntinimikkeiden** ennustemäärät tai **komponentin** ennuste.  
-7.  Määritä **Matriisivaihtoehdot**-pikavälilehdessä aikaväli **Näyttöperuste**-kenttään, kun haluat muuttaa sarakkeissa näkyvän jakson. Mahdollisia aikavälejä ovat **Päivä**, **Viikko**, **Kuukausi**, **Vuosineljännes**, **Vuosi** tai taloushallinnossa määritetty **Kirjanpitojakso**.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Kysyntäennuste** ja valitse sitten liittyvä linkki.  
+2. Valitse **Yleinen**-pikavälilehden **Kysyntäennusteen nimi** -kentässä ennuste. Ennusteita voi olla useita erinimisiä ja -tyyppisiä.  
+3. Valitse **Sijaintisuodatus**-kentässä sijainti, jota tämä ennuste koskee.
+4. **Näyttösivu** -kentässä voit muuttaa sarakkeissa näkyvän jakson. Mahdollisia valittavia aikavälejä ovat **Päivä**, **Viikko**, **Kuukausi**, **Vuosineljännes**, **Vuosi** tai taloushallinnossa määritetty **Kirjanpitojakso**.    
 
-    > [!NOTE]  
-    >  Kannattaa miettiä, mitä aikavälejä tulevissa ennusteissa käytetään, jotta aikaväli pysyy koko ajan yhdenmukaisena. Kun lisäät ennusteen määrän, se on voimassa valitsemasi aikavälin ensimmäisenä päivänä. Jos esimerkiksi valitset kuukauden, ennusteen määrä lisätään kuukauden ensimmäiselle päivälle. Jos valitset vuosineljänneksen, ennusteen määrä lisätään vuosineljänneksen ensimmäisen kuukauden ensimmäiselle päivälle.  
+> [!NOTE]  
+>  Kannattaa miettiä, mitä aikavälejä tulevissa ennusteissa käytetään, jotta aikaväli pysyy koko ajan yhdenmukaisena. Kun lisäät ennusteen määrän, se on voimassa valitsemasi aikavälin ensimmäisenä päivänä. Jos esimerkiksi valitset kuukauden, ennusteen määrä lisätään kuukauden ensimmäiselle päivälle. Jos valitset vuosineljänneksen, ennusteen määrä lisätään vuosineljänneksen ensimmäisen kuukauden ensimmäiselle päivälle.
 
-8.  Valitse **Näyttömuoto**-kentässä, miten aikavälin ennustemäärät näytetään. Jos valitset **Nettomuutos**, aikaväliltä näytetään saldon nettomuutos. Jos valitset **Saldo pvm:ttäin**, sivulla näkyy aikavälin viimeisen päivän saldo.  
+5. Valitse **Näyttömuoto**-kentässä, miten aikavälin ennustemäärät näytetään. Jos valitset **Nettomuutos**, aikaväliltä näytetään saldon nettomuutos. Jos valitset **Saldo pvm:ttäin**, sivulla näkyy aikavälin viimeisen päivän saldo.  
+6. Valitse **Ennusteen tyyppi** -kentässä **Myyntinimike**,  **Komponentti** tai **Molemmat**. Jos valitset **Myyntinimike** tai **Komponentti**, voit muokata määrää jakson mukaan. Jos valitset **Molemmat**, määrää ei voi muuttaa, mutta voit valita alanuolipainikkeen ja tarkastella kysyntäennustetapahtumia.  
+7. Määritä **Pvm-suodatus**, jos haluat rajoittaa näkyvien tietojen määrää.  
+8. Syötä ennustetut määrät pikavälilehdellä **Kysynnän ennustematriisi** kirjoittamalla määrä soluun, joka edustaa nimikettä tiettynä päivämääränä tai jakson aikana. Huomaa, että tyhjissä soluissa hakupainike avaa tyhjän sivun, joka ilmaisee, että arvo täytyy syöttää manuaalisesti.   
 
 > [!NOTE]  
 >  Voit myös muokata olemassa olevaa ennustetta. Valitse **Kysyntäennustematriisi**-sivulla **Kopioi kysyntäennuste** -toiminto ja lisää aiemmin luodun ennusteen tiedot **Kysyntäennuste**-sivulle. Sen jälkeen voit tehdä tarvittavat muutokset määriin.  

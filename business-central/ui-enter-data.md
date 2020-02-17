@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 01/27/2020
 ms.author: sgroespe
-ms.openlocfilehash: 722f81e9e06cdab13bdd838837e2053de0215821
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6a57af4a29e2b355dfe3f261a5d83fade992551d
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311378"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2992079"
 ---
 # <a name="entering-data"></a>Tietojen antaminen
 
@@ -55,7 +55,7 @@ Seuraavassa luettelossa on joitakin hyödyllisiä tietoja pikatapahtumien käytt
 
 Pikatapahtumaan sisällytettyjen tai poissuljettujen kenttien muuttaminen tehdään mukauttamisen avulla.
 
-1. Aloita mukauttaminen valitsemalla ensin ![Asetukset](media/ui-experience/settings_icon_small.png "Roolikeskuksen Asetukset-kuvake") -kuvake ja sitten **Mukauta**-toiminto.
+1. Aloita mukauttaminen valitsemalla ensin ![Asetukset](media/ui-experience/settings_icon_small.png "Roolikeskuksen Asetukset-kuvake")-kuvake ja sitten **Mukauta**-toiminto.
 2. Valitse muutettava kenttä tai luettelossa vastaava sarakeotsikko ja valitse sitten joko **Sisällytä pikatapahtumaan** tai **Sulje pois pikatapahtumasta**.
 
 Lisätietoja mukauttamisesta on kohdassa [Työtilan mukauttaminen](ui-personalization-user.md).
@@ -86,7 +86,7 @@ Lisätietoja on kohdassa [Kopioinnin ja liittämisen usein kysytyt kysymykset](u
 
 ## <a name="filtering-line-items"></a>Rivinimikkeiden suodattaminen
 
-Aloita suodatus avaamalla suodatinruutu valitsemalla ![Suodatinruutukuvake](media/open-filter-pane-icon.png "Suodatinruutukuvake") luettelon yläreunassa tai painamalla näppäinyhdistelmää Vaihto+F3. Voit käyttää suodatinruutua samalla tavoin kuin muitakin luetteloita. Lisätietoja on kohdassa [Suodattaminen](ui-enter-criteria-filters.md#Filtering).
+Aloita suodatus valitsemalla ![Suodatusruudun kuvake](media/open-filter-pane-icon.png "Suodatinruudun kuvake") luettelon yläosasta tai paina Vaihto+F3 avataksesi suodatuspaneelin. Voit käyttää suodatinruutua samalla tavoin kuin muitakin luetteloita. Lisätietoja on kohdassa [Suodattaminen](ui-enter-criteria-filters.md#Filtering).
 
 Suodatuksesta on apua erityisesti silloin, kun tarkasteltava ja analysoitava asiakirja on pitkä. Oletetaan esimerkiksi, että avaat kirjatun myyntilaskun ja suodatat rivinimikkeet näyttämään kaikki rivinimikkeet, joilla on yli 5 %:n yksittäinen alennus, tai näytät suodatuksen avulla vain pyörän varusteet, joiden nimi sisältää sanan pro.
 
@@ -98,20 +98,21 @@ Tämä on erityisen kätevää silloin, kun käsittelet suuria rivinimikeluettel
 
 ### <a name="switching-the-focus-on-and-off"></a>Kohdituksen Kytkeminen Päälle ja Pois
 
-Jos haluat siirtää kohdistuksen rivinimikkeisiin, tee valinta jossakin rivinimikeosassa ja valitse sitten oikeassa yläkulmassa ![Kohdistustilan kuvake](media/focus-mode.png "Kohdistustilan kuvake"). Vaihtoehtoisesti voit käyttää näppäinyhdistelmää Ctrl+Vaihto+F12.
+Kohdista rivinimikkeisiin tekemällä valinta missä tahansa rivinimikkeen osassa ja valitse sitten ![Kohdistustilan kuvake](media/focus-mode.png "Tarkennustilan kuvake") oikeassa yläkulmassa tai paina Ctrl+Vaihto+F12.
 
-Voit palata takaisin normaalinäkymään valitsemalla ![Kohdistustilan kuvake](media/focus-mode.png "Kohdistustilan kuvake") tai painamalla uudelleen näppäinyhdistelmää Ctrl+Vaihto+F12.
+Voit palata takaisin normaalinäkymään valitsemalla ![Kohdistustilan kuvakkeen](media/focus-mode.png "Tarkennustilan kuvake") tai painamalla jälleen Ctrl+Vaihto+F12.
 
 ## <a name="multitasking-across-multiple-pages"></a>Monen tehtävän suorittaminen yhtä aikaa useilla sivuilla
 Jos montaa tehtävää käsitellään samanaikaisesti tai jos hallitaan keskeytyksiä nykyisessä tehtävässä (vastataan esimerkiksi puheluun), voit avata kortti- tai asiakirjasivun uudessa ikkunassa. Tällä tavoin voit pitää keskeneräisen tehtävän ikkunan avoinna samalla, kun aloitat tai suoritat toisen tehtävän yhdessä tai useassa muussa ikkunassa.
 
-Avaa nykyinen kortti tai asiakirja uudessa ikkunassa valitsemalla ![Avaa uusi ikkuna](media/open-new-window-icon.png "Avaa uusi ikkuna -kuvake") oikeassa yläkulmassa. Vaihtoehtoisesti voit käyttää näppäinyhdistelmää Alt+Vaihto+W.
+Avaa nykyinen kortti tai asiakirja uudessa ikkunassa valitsemalla ![Avaa uusi ikkuna](media/open-new-window-icon.png "Avaa uudessa ikkunassa -kuvake") oikeassa yläkulmassa, tai painamalla Alt+Vaihto+W.
 
 > [!NOTE]
-> Kun avaat uudessa ikkunassa avatusta kortista tai asiakirjasta muita sivuja, kyseiset sivut avautuvat uusissa ikkunoissa, vaikka et valitsisi ![Avaa uusi ikkuna](media/open-new-window-icon.png "Avaa uusi ikkuna -kuvake").
+> Kun avaat uudessa ikkunassa avatusta kortista tai asiakirjasta muita sivuja, kyseiset sivut avautuvat uudessa ikkunassa, vaikka et valitsisi toimintoa ![Avaa uusi ikkuna](media/open-new-window-icon.png "Avaa uudessa ikkunassa -kuvake").
 
 > [!NOTE]
-> Jos käytössä on Safari-selain, ponnahdusikkunoiden esto voi estää uuden ikkunan avautumisen. Määritä siinä tapauksessa tuotteen URL-osoite sallituksi sivustoksi. Lisätietoja on kohdassa [Safarin asetusten muuttaminen](https://go.microsoft.com/fwlink/?LinkId=2102965).  
+> Jos käytössä on Safari-selain, ponnahdusikkunoiden esto voi estää uuden ikkunan avautumisen. Määritä siinä tapauksessa tuotteen URL-osoite sallituksi sivustoksi. Lisätietoja on kohdassa [Safarin asetusten muuttaminen](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
+> Sama voi tapahtua muissakin selaimissa, kuten Firefoxissa. Lisätietoja on kohdassa [Firefoxin ponnahdusikkunoiden eston asetukset](https://go.microsoft.com/fwlink/?LinkId=2116400).  
 
 ## <a name="entering-quantities-by-calculation"></a>Määrien antaminen laskutoimituksia käyttämällä
 

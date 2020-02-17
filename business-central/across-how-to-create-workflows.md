@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/15/2019
+ms.date: 01/24/2020
 ms.author: sgroespe
-ms.openlocfilehash: 0589314914b2f7982c52b62475d41754845a48d5
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: bb7c64727979b7e8f53898c03781a24bcf8f40c4
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881190"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2991830"
 ---
 # <a name="create-workflows"></a>Työnkulkujen luominen
 Voit luoda työnkulkuja, jotka yhdistävät eri käyttäjien suorittamia liiketoimintaprosessin tehtäviä. Järjestelmätehtäviä (kuten automaattinen kirjaus) voidaan sisällyttää työnkulkuihin, joita käyttäjän tehtävät edeltävät tai seuraavat. Uusien tietueiden luontiin liittyvien hyväksyntöjen pyytäminen ja antaminen ovat tyypillisiä työnkulun osavaiheita.  
@@ -59,7 +59,7 @@ Jos liiketoimintaskenaario edellyttää työnkulun tapahtumia tai vastauksia, jo
         |**Ilmoita lähettäjälle**|Määrittää, ilmoitetaanko hyväksymispyynnön vastaanottajan asemesta hyväksynnän pyytäjälle. Jos valitset valintaruudun, **Vastaanottajan käyttäjätunnus** -kenttä on poissa käytöstä, koska hyväksynnän pyytäjälle eli lähettäjälle ilmoitetaan sen sijaan. Työnkulun vastauksen nimi muuttuu vastaavasti nimeksi **Luo ilmoitus &lt;lähettäjälle&gt;**. Jos valintaruutua ei ole valittu, työnkulun vastauksen nimi on **Luo ilmoitus &lt;käyttäjälle&gt;**.
         |**Vastaanottajan käyttäjätunnus**|Määritä käyttäjä, jolle ilmoitus on lähetettävä. Huomautus: Tämä vaihtoehto on käytettävissä vain työnkulun vastauksissa, joissa on paikkamerkki kyseiselle käyttäjälle. Työnkulun vastaukset ilman paikkamerkkiä käyttäjille, ilmoituksen vastaanottaja määritetään yleensä hyväksyjäkäyttäjän asetuksissa.|  
         |**Ilmoitustapahtuman tyyppi**|Määrittää, käynnistääko työnkulun ilmoituksen tietueiden muutos, hyväksymispyyntö vai välitetyt erääntyvät tiedot.|
-        |**Linkin kohdesivu**|Määritä [!INCLUDE[d365fin](includes/d365fin_md.md)]issa toinen sivu, jonka ilmoituksen linkki avaa oletussivun sijaan.|  
+        |**Linkin kohdesivu**|Määritä [!INCLUDE[d365fin](includes/d365fin_md.md)]issa toinen sivu, jonka ilmoituksen linkki avaa oletussivun sijaan.<br /><br />Huomaa, että sivulla on oltava sama lähdetaulukko kuin tietueella.|  
         |**Mukautettu linkki**|Määritä sen linkin URL-osoite, joka lisätään ilmoitukseen [!INCLUDE[d365fin](includes/d365fin_md.md)]in sivulle vievän linkin lisäksi.|  
     2.  Määritä työnkulun vastauksen asetukset, johon sisältyy hyväksymispyynnön luominen, täyttämällä kentät seuraavassa taulukossa kuvatulla tavalla.  
 
@@ -91,7 +91,7 @@ Jos liiketoimintaskenaario edellyttää työnkulun tapahtumia tai vastauksia, jo
 >  Älä ota työnkulkua käyttöön, ennen kuin olet varma, että työnkulku on valmis ja siihen liittyvät osavaiheet voi aloittaa.  
 
 > [!TIP]  
->  Jos haluat nähdä työnkulussa käytettävien taulukoiden väliset suhteet, valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "TKerro, mitä haluat tehdä) -kuvake ja syötä **Työnkulku - taulukon suhteet**.  
+>  Jos haluat nähdä työnkulussa käytettävien taulukoiden väliset suhteet, valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake ja syötä **Työnkulku - taulukon suhteet**.  
 
 ## <a name="see-also"></a>Katso myös  
 [Työnkulkujen luominen työnkulkumalleista](across-how-to-create-workflows-from-workflow-templates.md)   

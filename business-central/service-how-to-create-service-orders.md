@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5415475d2dd820ff03615b6911db3082c33be9b6
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: b941d451a5c3ef288128a271855958a954f70f9c
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877311"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030098"
 ---
 # <a name="create-service-orders"></a>Huoltotilausten luominen
 **Huoltotilaus**-sivulla voidaan luoda asiakirjoja, joihin syötetään tietoja asiakkaan pyynnöstä tehtävästä huoltonimikkeiden huollosta (korjauksesta tai ylläpidosta).  
@@ -27,11 +27,11 @@ Kun luot huoltotilauksen, sinun tarvitsee vain täyttää muutama kenttä. Jotku
 2. Luo uusi huoltotilaus.  
 3. Valitse **Nro**-kenttään numero huoltotilaukselle.  
 
-     Vaihtoehtoisesti jos olet määrittänyt huoltotilauksille numerosarjan **Huoltohallinnon asetukset**-sivulla, voit painaa Enter, jolloin ohjelma syöttää seuraavan saatavilla olevan huoltotilauksen numeron.  
+     Vaihtoehtoisesti jos olet määrittänyt huoltotilauksille numerosarjan **Huoltohallinnon asetukset**-sivulla, voit painaa Enter valitaksesi seuraavan saatavilla olevan huoltotilauksen numeron.  
 
 4. Syötä **Asiakasnro** -kentässä asiamukainen asiakas luettelosta. Ohjelma täyttää automaattisesti asiakkaaseen liittyvät kentät tiedoilla **Asiakas** -taulukosta.  
 
-5. **Huoltohallinnon asetukset** -sivun **Pakolliset kentät** -pikavälilehden asetusten mukaan **Huoltotilauksen tyyppi** -kenttä ja **Myyjäkoodi**-kenttä on ehkä täytettävä.  
+5. Riippuen asetuksista pikavälilehdellä **Pakolliset kentät** **Huoltohallinnon asetukset** -sivulla voi olla, että sinun tulee täyttää **Huoltotilauksen tyyppi** - ja **Myyjän koodi**  -kentät.  
 6. Muiden kenttien täyttäminen on valinnaista.  
 7. Rekisteröi huoltonimikerivit.  
 
@@ -43,9 +43,11 @@ Huoltotilauksia voidaan luoda huoltonimikkeiden ylläpitoa varten automaattisest
 3. Täytä **Asetukset**-pikavälilehdessä **Aloituspvm**- ja **Lopetuspvm**-kenttiin aloituspäivämäärä ja lopetuspäivämäärä sen mukaan, mille jaksolle haluat luoda sopimushuoltotilaukset. Eräajo luo huoltotilauksia, jotka sisältävät huoltonimikkeitä palvelusopimuksille, joiden seuraavat suunnitellut huoltopäivämäärät ovat tänä määräaikana.  
 
     > [!NOTE]  
-    >  Ohjelmassa on rajoitus sille, miten monta päivää voi käyttää päivämäärävälinä jokaisena kertana, kun tämä eräajo suoritetaan. Tämä raja asetetaan **Sopim. huoltotil. maksimi päivät** -kentässä **Huoltohallinnon Asetukset** -sivulla.  
+    >  Ohjelmassa on rajoitus sille, miten monta päivää voi käyttää päivämäärävälinä jokaisena kertana, kun tämä eräajo suoritetaan. Tämä raja asetetaan **Sopim. huoltotil. maksimipäivät** -kentässä **Huoltohallinnon Asetukset** -sivulla.  
 
 4. Valitse **Toiminto** -kentässä  **Luo huoltotilaus**.  
+    > [!NOTE]  
+    >  Tilausta, jolla on useita huoltonimikkeitä, ei voi luoda, jos **Yksi huoltonimikerivi/tilaus** -kenttä **Huoltohallinnon asetukset** -sivulla on määritetty. 
 
 ## <a name="to-convert-a-service-quote-to-a-service-order"></a>Huoltotarjousten muuntaminen huoltotilauksiksi
 Kun asiakas on hyväksynyt huoltotarjouksen, se muunnetaan huoltotilaukseksi. Tarjous poistetaan ja uusi huoltotilaus määritetään käyttämällä samaa kuvausta kuin huoltotarjous. Ohjelma laskee uudelleen huoltotilauksen vastauspäivämäärän ja -ajan sekä asettaa sen tilaksi **Odottava**. Se muuttaa tilauksessa olevien huoltonimikkeiden korjauksen tilaksi **Alku**.  

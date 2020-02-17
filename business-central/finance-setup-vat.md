@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 01/13/2020
 ms.author: bholtorf
-ms.openlocfilehash: b64d0cf270678206cbcb077de937acb0f8220776
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 1bdd140e43a29894978f7fa0f0a88957d7e102c3
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953681"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030146"
 ---
 # <a name="set-up-value-added-tax"></a>Määritä arvolisävero
 Kuluttajat ja yritykset maksavat arvonlisäveroa (ALV:tä), kun he ostavat tavaroita tai palveluja. ALV:n määrä voi vaihdella useiden tekijöiden mukaan. ALV määritetään [!INCLUDE[d365fin](includes/d365fin_md.md)]issa määrittämään prosentti, jolla verosummat lasketaan, seuraavien tekijöiden perusteella:
@@ -116,28 +116,6 @@ Seuraavissa osissa käsitellään ALV-kirjausryhmien määrittämistä yksittäi
 * Laajenna **Resurssi**-kortissa **Laskutus**-pikavälilehti.  
 3. Valitse tuotteen ALV-kirjausryhmä.  
 
-## <a name="setting-up-vat-statement-templates-and-vat-statement-names"></a>ALV-ilmoitusmallien ja ALV-ilmoitusten nimien määrittäminen
-Veroviranomaiset voivat muuttaa ALV:n kirjausvaatimuksia. ALV-ilmoitusmallit ja ALV-ilmoitusten nimet voivat auttaa tulevien muutosten valmistelemisessa. Niiden avulla siirtyminen uusiin vaatimuksiin on sujuva. Voit käyttää ALV-ilmoitusmalleja, kun määrität laskelmien määrittämisessä käytettäviä ALV-ilmoituksen sisältäviä kenttiä. Voit luoda uuden ALV-ilmoitusmallin, kun vaatimukset muuttuvat. Esimerkiksi yksi malli voi laskea tämän vuoden ALV:n nykyisten vaatimusten ja toinen malli seuraavan vuoden vaatimusten perusteella. Mallien avulla voi myös ylläpitää ALV-ilmoitusten muotojen historiaa esimerkiksi niin, että voit katsoa, miten edellisen vuoden ALV laskettiin.
-
-## <a name="to-define-a-vat-statements"></a>ALV-ilmoitusten määrittely
-ALV-ilmoitusten avulla voi laskea ALV-laskelman summan tietyltä kaudelta, esimerkiksi neljännesvuoden ajalta.
-
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **ALV-ilmoitukset** ja valitse sitten liittyvä linkki.  
-2. Valitse **Nimi**-kenttä ja valitse sitten **ALV-ilmoitusten nimet** -sivulla **Uusi** .
-3. Täytä vaaditut kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-
-> [!Tip]
-> Voit suodattaa ilmoituksen sisältämät tiedot sen mukaan, mikä arvo **Tyyppi**-kentässä on valittu. **Tilien summat** -kohta on hyödyllinen silloin, kun haetaan tietyn tilin ALV.
-**ALV-tapahtumien summat** hakee ALV:n **Yleinen kirjaustyyppi**-, **Liiketoiminnan ALV-kirjausryhmä**- ja/tai **Tuotteen ALV-kirjausryhmä** -kenttien valikoimaan liitetyistä tileistä. Voit syöttää arvon **Rivien summat** -kenttään tai pikasuodattimen ehdot **Rivien summat** -kenttään. Lisätietoja on kohdassa [Tietojen hakeminen, suodattaminen ja lajitteleminen](ui-enter-criteria-filters.md). **Kuvaus**-kohtaa käytetään usein, kun ilmoitukseen lisätään huomautus. Voit käyttää sitä esimerkiksi otsikkona, kun käytössä on rivien summa.
-
-## <a name="to-preview-the-vat-statement"></a>ALV-ilmoituksen esikatseleminen
-Kun ALV-ilmoitus on määritetty, voit esikatsella sitä ja varmistaa, että se täyttää tarpeet.
-
-1. Valitse **Esikatselu**.
-2. Aseta päivämääräsuodatus, jos haluat rajoittaa ilmoituksen tietylle kaudelle. Lisätietoja sivun mukauttamisesta niin, että sivulla näkyy päivämääräsuodatin, on kohdassa [Tietojen hakeminen, suodattaminen ja lajitteleminen](ui-enter-criteria-filters.md).
-3. Voit valita eri vaihtoehtoja ja siten määrittää, minkä tyyppiset ALV-tapahtumat sisällytetään ALV-ilmoitukseen.
-4. Niillä riveillä, joiden **Tyyppi**-kentässä lukee **ALV-tapahtumien summat**, näkyy luettelo ALV-tapahtumista, kun valitset summan **Sarakkeen summa** -kentässä.   
-
 ## <a name="setting-up-clauses-to-explain-vat-exemption-or-non-standard-vat-rates"></a>Lausekkeiden määrittäminen ALV-vapautuksen tai poikkeavien ALV-prosenttien selittämiseksi
 Määritä ALV-lause kuvaamaan tietoja käytettävästä ALV-tyypistä. Tietoja voidaan vaatia hallituksen asetuksella. Kun olet määrittänyt ALV-lauseen ja liittänyt sen ALV-kirjausasetukseen, ALV-lause näkyy kaikissa tulostetuissa myyntiasiakirjoissa, jotka käyttävät ALV-kirjausten asetusryhmää.
 
@@ -178,24 +156,6 @@ Määritä tuonnin ALV:n koodit seuraavasti:
 5. Valitse **ALV-laskennan tyyppi** -kentässä **Täysi ALV**.  
 6. Anna **Ostojen ALV-tili** -kentässä se pääkirjanpidon tili, jota käytetään tuonnin ALV:n kirjaamiseen. Kaikki muut tilit ovat valinnaisia.  
 
-## <a name="to-verify-vat-registration-numbers"></a>ALV-numeroiden tarkistaminen
-On tärkeää, että käytössäsi olevat asiakkaiden, toimittajien ja yhteystietojen ALV-rekisteröintinumerot ovat oikeita. Yritykset esimerkiksi joskus muuttavat verovelkatilaansa, ja joissakin maissa veroviranomaiset voivat pyytää raportteja, kuten EU-myyntiluetteloraportin, joissa on luettelo liiketoiminnassasi käyttämistäsi ALV-rekisteröintinumeroista.
-
-Euroopan komission sivustossa on julkinen ja maksuton ALV-tietojen vaihtojärjestelmä (VIES-palvelu). [!INCLUDE[d365fin](includes/d365fin_md.md)]ia käytettäessä sivustoon siirtyminen ei ole tarpeellista, sillä voit tarkistaa sovelluksessa VIES-palvelusta asiakkaiden, toimittajien ja yhteystietojen ALV-numerot asiakkaan, toimittajan ja yhteystiedon kortista. Voit myös seurata kyseisiä ALV-numeroita. [!INCLUDE[d365fin](includes/d365fin_md.md)]in palvelun nimi on **EU:n ALV-nron tarkistuspalvelun määritys**. Palvelua voi käyttää **Palvelun yhteydet** -sivulla ja sen käytön voi aloittaa heti. Palveluyhteys on maksuton eikä kirjautumista tarvita.
-
-> [!Note]
-> Voit ottaa käyttöön EU:n ALV-nron tarkistuspalvelun, jos sinulla on järjestelmänvalvojan käyttöoikeudet.
-
-Kun käytät palveluyhteyttä, kunkin asiakkaan, toimittajan tai yhteystiedon ALV-numeroiden ja tarkistusten historiatiedot kirjataan **ALV-rekisteröintilokiin**, joten niiden seuraaminen on helppoa. Loki on asiakaskohtainen. Lokin avulla voi esimerkiksi kätevästi todistaa, että olet tarkistanut nykyisen ALV-numeron oikeellisuuden. Kun tarkistat ALV-numeron, lokin **Pyynnön tunnus** -sarake osoittaa, että olet tehnyt niin.
-
-Voit tarkastella ALV-rekisteröintilokia asiakkaan, toimittajan tai kontaktin kortissa valitsemalla **Laskutus**-pikavälilehdessä **ALV-rekisterinro** -kentässä hakupainikkeen.  
-
-Palvelu voi myös säästää aikaa asiakasta tai toimittajaa luotaessa. Jos tiedät asiakkaan ALV-numeron, voit antaa sen asiakkaan tai toimittajan kortin **ALV-rekisterinro** -kentässä, jolloin asiakkaan nimi täytetään valmiiksi. Joissakin maissa myös yrityksen osoitteet ilmoitetaan jäsennetyssä muodossa. Näissä maissa myös osoitetiedot täytetään valmiiksi.  
-
-ALV-tietojen vaihtojärjestelmästä (VIES-palvelusta) on hyvä muistaa pari asiaa:
-
-* Palvelu käyttää http-protokollaa, joten palvelun kautta siirretyt tiedot eivät ole salattuja.  
-* Palvelu voi olla ajoittain pois käytöstä Microsoftista riippumattomista syistä. Palvelu on osa EU:n laajaa kansallisten ALV-rekisterien verkostoa.
 
 ## <a name="using-reverse-charge-vat-for-trade-between-eu-countries-or-regions"></a>ALV-vastakirjaus EU-maiden tai -alueiden välisessä kaupassa
 Joiden yritysten on käytettävä ALV-vastakirjausta tehdessään kauppaa muiden yritysten kanssa. Sääntö koskee esimerkiksi EU:n maiden tai alueiden välisiä myyntejä ja ostoja.  
@@ -219,61 +179,16 @@ Kun kirjaat myynnin toisen EU-maan/alueen asiakkaalle, ohjelma laskee ALV-summan
 ## <a name="understanding-vat-rounding-for-documents"></a>ALV:n pyöristäminen asiakirjoja varten
 Vielä kirjaamattomien asiakirjojen summat pyöristetään ja näytetään kirjattujen summien lopullista pyöristämistä vastaavalla tavalla. ALV lasketaan koko asiakirjalle, mikä tarkoittaa sitä, että laskettu ALV perustuu kaikkien rivien summaan, joilla on sama ALV-tunnus asiakirjassa.
 
-## <a name="understanding-the-vat-rate-conversion-process"></a>Tietoja ALV-prosentin muutosprosessista  
-ALV-prosentin muutostyökalu suorittaa päätietojen, päiväkirjojen ja tilauksien ALV-prosenttimuunnoksia eri tavoilla. Valitut perustiedot ja kirjauskansiot päivitetään uuden yleisen tuotteen kirjausryhmän tai ALV-tuotteen kirjausryhmän toimesta. Jos tilaus on kokonaan tai osittain toimitettu, toimitetut nimikkeet säilyvät nykyisessä tuotteen kirjausryhmässä tai tuotteen ALV-kirjausryhmässä. Uusi tilausrivi luodaan lähettämättömiä kohteita varten ja päivitetään nykyisen ja uuden ALV- tai yleisen tuotekirjausryhmän mukaan. Lisäksi nimikekulujen määritykset, varaukset ja nimikkeiden seurantatiedot päivitetään tämän mukaisesti.  
 
-Työkalu ei kuitenkaan tee muutoksia seuraavissa tilanteissa:
 
-* Myynti- tai ostotilaukset ja laskut, jossa toimitukset on kirjattu. Nämä asiakirjat kirjataan käyttämällä nykyistä ALV-prosenttia.  
-* Asiakirjat, joissa kirjattuja ennakkomaksulaskuja. Olet ehkä tehnyt ennakkomaksuja tai vastaanottanut niitä laskuista, joita ei ole tehty valmiiksi ennen ALV-prosentin muutostyökalun käyttämistä. Tässä tapauksessa erääntyvän ALV:n ja ennakkomaksuissa maksetun ALV:n välillä on ero, kun lasku on valmis. ALV-prosentin muutostyökalu ohittaa nämä asiakirjat ja ne täytyy päivittää manuaalisesti.  
-* Suora toimitukset tai erikoistilaukset.  
-* Varaston integroinnin sisältävät myynti- tai ostotilaukset, jos ne on osittain toimitettu tai vastaanotettu.  
-* Huoltosopimukset.  
 
-### <a name="to-prepare-vat-rate-change-conversions"></a>Suorita ALV-kurssimuutoksen muunnokset  
-Ennen ALV:n muutostyökalun määrittämistä sinun on tehtävä seuraavat valmistelut.
-
-* Jos sinulla on eri kursseja käyttäviä tapahtumia, ne on erotettava eri ryhmiin joko luomalla jokaiselle kurssille uusi pääkirjanpitotili tai ryhmittelemällä tapahtumat kurssin mukaan tietosuodattimien avulla.  
-* Jos luot uusia kirjanpitotilejä, sinun on luotava myös uusia yleisiä kirjausryhmiä.  
-* Vähentääksesi muunnettavien asiakirjojen määrää, kirjaa niin monta asiakirjaa kuin mahdollista ja vähennä kirjaamattomat asiakirjat minimiin.  
-* Tietojen varmuuskopiointi.
-
-### <a name="to-set-up-the-vat-rate-change-tool"></a>Määritä ALV-prosentin muutostyökalu  
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **ALV-prosentin muutos** ja valitse sitten liittyvä linkki.  
-2. Valitse **Päätiedot**-, **Päiväkirjat**- ja **Asiakirjat**-pikavälilehdissä kirjausryhmän arvo tarvittavien kenttien asetusluettelosta.  
-
-### <a name="to-set-up-product-posting-group-conversion"></a>Määritä tuotteiden ALV-kirjausryhmien muunnos  
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **ALV-prosentin muutos** ja valitse sitten liittyvä linkki.  
-2. Valitse **ALV-prosenttimuutoksen asetukset** -sivulla joko **Tuotteen ALV-kirjausryhmän muunto** tai **Yleisen tuotteen kirjausryhmän muunto** -toiminto.  
-3. Anna **Koodista** -kentässä nykyinen kirjausryhmä.  
-4. Syötä uusi kirjausryhmä **Koodiin**-kenttään.  
-
-### <a name="to-perform-vat-rate-change-conversion"></a>Suorita ALV-kurssimuutoksen muunnos  
-ALV-prosentin muutostyökalun avulla voit hallita muutoksia ALV:n vakiokorvauksesta. Voit tehdä ALV- ja yleisen kirjausryhmän muunnokset muuttaaksesi ALV-prosentetia ja ylläpitääksesi ALV- raportointia. Asetusten mukaan tehdään seuraavat muutokset:  
-
-* ALV-kirjausryhmät ja yleiset kirjauryhmät on muunnettu.  
-* Muutokset toteutetaan esimerkiksi pääkirjanpitotileissä, asiakkaissa, toimittajissa, avoimissa asiakirjoissa ja päiväkirjariveillä.  
-
-> [!IMPORTANT]  
->  Testaa muunto ennen ALV-prosentin muutosta. Voit tehdä sen seuraavien ohjeiden mukaisesti, mutta muista poistaa **Suorita muuntaminen**- ja **ALV-prosentin muutostyökalu valmis** -valintaruutujen valinta. Testimuunnoksen aikana **ALV-prosentin muutoslokin tapahtuma** -taulukon **Muunnettu**-kenttä tyhjennetään ja **ALV-prosentin muutoslokin tapahtuma** -taulukon **Muunnospvm** -kenttä on tyhjä. Kun muuntaminen on valmis, voit tarkastella testimuutoksen tulokset valitsemalla **ALV-prosentin muutoslokin tapahtumat**. Tarkista jokainen tapahtuma ennen muuntamista. Tarkista erityisesti tapahtumat, jotka käyttävät vanhaa ALV-prosenttia.     
-
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **ALV-prosentin muutos** ja valitse sitten **ALV-prosentin muutoksen asetukset** -linkki.  
-2. Varmista, että olet jo määrittänyt tuotteen ALV-kirjausryhmän muunnoksen tai yleisen tuotteen kirjausryhmän muunnoksen.  
-3. Valitse **Suorita muuntaminen** -valintaruutu.  
-
-    > [!IMPORTANT]  
-    >  Poista **ALV-prosentin muutostyökalu valmis** -valintaruudun valinta. Valintaruutu merkitään automaattisesti, kun ALV:n määrän muunnos on valmis.  
-
-4. Valitse **Muunna**-toiminto.  
-5. Kun muuntaminen on valmis, voit tarkastella muutoksen tulokset valitsemalla **ALV-prosentin muutoslokin tapahtumat** -toiminto.  
-
-> [!IMPORTANT]  
->  Muutoksen jälkeen **ALV-prosentin muutoslokin tapahtuma** -taulukon **Muunnettu**-kenttä on valittuna ja **ALV-prosentin muutoslokin tapahtuma** -taulukon **Muunnospvm** -kentässä näkyy muunnospäivämäärä.  
+## <a name="see-also"></a>Katso myös
+[ALV-ilmoitusmallien ja ALV-ilmoitusten nimien määrittäminen](finance-how-setup-vat-statement.md)   
+[Ei-realisoituneen arvonlisäveron määrittäminen](finance-setup-unrealized-vat.md)      
+[ALV:n raportointi veroviranomaisille](finance-how-report-vat.md)      
+[Myynnin ja ostojen ALV:n käsitteleminen](finance-work-with-vat.md)    
+[ALV-kannan muutostyökalun käyttö](finance-how-use-vat-rate-change-tool.md)    
+[ALV-rekisterinumeroiden tarkistaminen](finance-how-validate-vat-registration-number.md)  
+[Business Centralin paikalliset toiminnot](about-localization.md)  
 
 ## <a name="see-related-training-at-microsoft-learnlearnpathsprocess-vat-dynamics-365-business-central"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
-
-## <a name="see-also"></a>Katso myös  
-[Ei-realisoituneen arvonlisäveron määrittäminen](finance-setup-unrealized-vat.md)      
-[ALV:n raportointi veroviranomaisille](finance-how-report-vat.md)  
-[Myynnin ja ostojen ALV:n käsitteleminen](finance-work-with-vat.md)  
-[Business Centralin paikalliset toiminnot](about-localization.md)

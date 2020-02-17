@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: service, number sequences, setup, warnings, fee, contracts, warranties
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 665842a2ec24cbee6db469f5ce71b03ddd278555
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 3ca0221f755aa4bf3033cbab3469c6772c6d8413
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877133"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030218"
 ---
 # <a name="configure-service-processes"></a>Huoltoprosessien määrittäminen
 Seuraavaksi käsitellään esimerkkejä asetuksista, joita voidaan käyttää huoltohallintoprosesseissa:  
@@ -27,7 +27,7 @@ Seuraavaksi käsitellään esimerkkejä asetuksista, joita voidaan käyttää hu
 * Huoltoon liittyvissä asiakirjoissa ja nimikkeissä käytettävät numerosarjat.  
 
 ## <a name="to-enter-general-and-mandatory-settings"></a>Yleisten ja pakollisten asetusten antaminen
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Huollon asetukset** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Huollon hallinnan asetukset** ja valitse sitten liittyvä linkki.
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="see-also"></a>Katso myös  

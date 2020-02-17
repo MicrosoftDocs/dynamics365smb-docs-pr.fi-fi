@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: abca7de7ce91ebe32e8c17a2288c49684b53455c
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: b8470fa559d8a640e1c05cc6e03ca4caf3a9827e
+ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879200"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999781"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Käytä työjonoja ajoitustehtäviin
 [!INCLUDE[d365fin](includes/d365fin_md.md)]:n työjonojen avulla käyttäjät voivat ajoittaa ja suorittaa tiettyjä raportteja ja koodiyksiköitä. Voit määrittää töitä suoritettavaksi yhtä aikaa tai toistuvasti. Esimerkiksi **Myyjä - Myyntitilasto** -raportti saatetaan haluta suorittaa viikoittain myyjän viikkokohtaisen myynnin seurantaa varten. **Käsittele huoltosähköpostijono** -koodiyksikkö voidaan taas suorittaa päivittäin ja varmistaa näin, että huoltotilauksiin liittyvät odottavat sähköpostit lähetetään asiakkaille ajallaan.
@@ -31,6 +31,11 @@ Tämä on mahdollista, kun määrität työjonon ajamaan useita eräkirjausrapor
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] tukee kaikkien myynti-, osto- ja huoltoasiakirjojen taustakirjausta.
 
+> [!NOTE]
+> Jotkin työt muuttavat samoja tietoja, eikä niitä tulisi käyttää samaan aikaan, koska ne voivat aiheuttaa ristiriitoja. Esimerkiksi myyntiasiakirjojen taustatyöt yrittävät muokata samoja tietoja samaan aikaan. Työjonoluokat auttavat estämään tällaisia ristiriitoja varmistamalla, että kun yksi työ on käynnissä, samaan työjonoluokkaan kuuluvaa työtä ei suoriteta ennen kuin suoritettava työ on valmis. Esimerkiksi projekti, joka kuuluu myyntityöjonoluokkaan, odottaa, kunnes kaikki muut myyntiin liittyvät työt on tehty. Voit määrittää työjonoluokan **Taustakirjaus**-pikavälilehdellä **Myynnin ja saatavien asetukset** -sivulla. 
+> 
+> [!INCLUDE[d365fin](includes/d365fin_md.md)] tarjoaa työjonoluokkia myyntejä, ostoja ja pääkirjanpidon kirjauksia varten. On suositeltavaa, että jokin näistä tai luomasi on aina määritetty. Jos kohtaat ristiriidoista johtuvia virhetilanteita, harkitse luokan määrittämistä myynnin, oston ja pääkirjanpidon taustakirjausta varten.
+
 Seuraavaksi käsitellään myyntitilausten taustakirjausta. Ostojen ja huolloin vaiheet ovat samankaltaiset.  
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Myyntien ja myyntisaamisten asetukset** ja valitse sitten liittyvä linkki.
@@ -41,7 +46,7 @@ Seuraavaksi käsitellään myyntitilausten taustakirjausta. Ostojen ja huolloin 
 4. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Työjonotapahtumat** ja valitse sitten liittyvä linkki.
 5. Valitse **Työjonotapahtumat**-sivulla **Uusi**-toiminto.
 6. Valitse **Suoritettavan objektin tyyppi** -kentässä **Codeunit**.  
-7. Valitse **Suoritettavan objektin tunnus** -kentässä 88, **Työjonon kautta kirjattu myynti**.
+7. Valitse **Suoritettavan objektin tunnus** -kentässä **88**. Kuvaus ja objektin otsikko suorita-kenttiin näyttää Myyntikirjauksen työjonosta.
 
     Muilla kentillä ei ole merkitystä tässä skenaariossa.
 8. Valitse **Määritä tilaksi valmis** -toiminto.

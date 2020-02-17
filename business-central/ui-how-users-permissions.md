@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 01/06/2020
 ms.author: sgroespe
-ms.openlocfilehash: b9fbf0b2793c6239f3a1a416230d4afb17bdb5c6
-ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
+ms.openlocfilehash: e07636b6211eb57205d41d982bfbfb4bc2d5b330
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "2943231"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030050"
 ---
 # <a name="create-users-according-to-licenses"></a>Luo käyttäjät käyttöoikeuksien mukaan
 Seuraavassa kuvataan miten järjestelmänvalvoja voi luoda käyttäjiä ja määrittää, ketkä voivat kirjautua sisään [!INCLUDE[d365fin](includes/d365fin_md.md)]iin ja mitkä perusoikeudet eri käyttäjätyypeillä on käyttöoikeuksien mukaan.
@@ -61,7 +61,7 @@ Joskus käyttäjälle määritettyä käyttöoikeutta on ehkä muutettava. Jos e
 1. Muuta käyttöoikeutta Microsoft 365 -hallintakeskuksessa. Lisätietoja on kohdassa [Käyttäjien lisääminen yksittäin tai joukkona Office 365:een](https://aka.ms/CreateOffice365Users).
 2. Kirjaudu sisään [!INCLUDE[d365fin](includes/d365fin_md.md)]:een järjestelmänvalvojana.
 3. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttäjät** ja valitse sitten liittyvä linkki.
-4. Vaihtoehtoisesti voit valita **Käyttäjät**-sivulla **Päivitä kaikki käyttäjäryhmät** -toiminnon.
+4. Valitse **Käyttäjät**sivulla **Palauta käyttäjän oletusarvoiset käyttäjäryhmät**-toiminto.
 
 Käyttäjät siirtyvät asianmukaiseen käyttäjäryhmään, ja käyttöoikeusjoukot päivittyvät. Lisätietoja on kohdassa [Käyttäjien käyttöoikeuksien hallinta käyttäjäryhmien kautta](ui-define-granular-permissions.md#to-manage-permissions-through-user-groups).
 
@@ -87,7 +87,7 @@ Jos muutat Office 365 -käyttäjää jälkeenpäin ja sinun täytyy synkronoida 
 ## <a name="the-device-license"></a>Laitteen käyttöoikeus
 Dynamics 365 Business Central laitteen käyttöoikeuden avulla useat käyttäjät voivat käyttää myyntipisteen laitetta, kauppatilan laitetta tai varaston laitetta, jolla on laitteen käyttöoikeus. Lisätietoja on kohdassa [Microsoft Dynamics 365 Business Centralin käyttöoikeusopas](https://aka.ms/BusinessCentralLicensing).
 
-Laitteen käyttöoikeus on toteutettu samanaikaisten käyttäjien mallina. Kun olet ostanut x määrän laitelisenssejä, enintään x käyttäjää erityisestä ryhmästä nimeltä Dynamics 365 Business Central -laitekäyttäjät* voi kirjautua samanaikaisesti.
+Laitteen käyttöoikeus on toteutettu samanaikaisten käyttäjien mallina. Kun olet ostanut x määrän laitelisenssejä, enintään x käyttäjää erityisestä ryhmästä nimeltä Dynamics 365 Business Central -laitekäyttäjät voi kirjautua samanaikaisesti.
 
 Yrityksesi Office 365 -järjestelmänvalvojan tai Microsoft-kumppanin on luotava erityinen laiteryhmä ja lisättävä laitteen käyttäjät kyseisen ryhmän jäseniksi. He voivat tehdä tämän [Microsoft 365 -hallintakeskuksessa](https://admin.microsoft.com/) tai [Azure-portaalissa](https://portal.azure.com/).
 

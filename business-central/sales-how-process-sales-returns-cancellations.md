@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 01/13/2020
+ms.date: 01/17/2020
 ms.author: sgroespe
-ms.openlocfilehash: 3d7c1fa772263aa863b6398e86f35be47998f455
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: a8388c81bfdf767463a27d845dded64ee0f08c7e
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953999"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2991926"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Myynnin palautusten tai peruutusten käsittely
 Jos asiakas haluaa palauttaa nimikkeitä tai saada hyvitystä nimikkeistä tai palveluista, jotka olet myynyt ja joista olet saanut maksun, sinun on luotava ja kirjattava myyntihyvityslasku, joka määrittää pyydetyn muutoksen. Voit sisällyttää oikeat myyntilaskun tiedot luomalla myyntihyvityslaskun suoraan kirjatusta myyntilaskusta. Vaihtoehtoiesti voi luoda uuden myyntihyvityslaskun, johon laskun tiedot on kopioitu.
@@ -32,6 +32,9 @@ Alkuperäisen kirjatun myyntilaskun lisäksi voit kohdistaa myyntihyvityslaskun 
 Voit lähettää kirjatun myyntihyvityslaskun asiakkaalle ja vahvistaa palautuksen tai peruutuksen ja kertoa, että liittyvä arvo korvataan, esimerkiksi silloin, kun nimikkeet palautetaan.
 
 Hyvityslaskun kirjaaminen palauttaa myös mahdolliset kirjattuun asiakirjaan määritetyt nimikekulut, joten nimikkeen arvotapahtumat ovat samat kuin ennen nimikekulun määrittämistä.
+
+> [!NOTE]
+> Myyntipalautusten kirjanpitonäkökohtia, kuten asiakkaille maksettavia maksuja, pidetään kirjanpitona, eikä niitä ole kuvattu tässä. Lisätietoja on kohdassa [Ostovelkojen hallinta](payables-manage-payables.md).
 
 ## <a name="inventory-costing"></a>Varaston arvostus
 Oikean varaston arvostuksen säilyttämistä varten palautetut nimikkeet viedään yleensä takaisin varastoon sillä yksikkökustannuksella, jolla ne myyntiin, eikä nykyisellä yksikkökustannuksella. Tätä kutsutaan todellisten kustannusten peruuttamiseksi.
@@ -220,5 +223,6 @@ Voit myös poistaa manuaalisesti yksittäiset myyntipalautustilaukset.
 ## <a name="see-also"></a>Katso myös
 [Myynti](sales-manage-sales.md)  
 [Myynnin määrittäminen](sales-setup-sales.md)  
+[Ostovelkojen hallinta](payables-manage-payables.md)  
 [Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)

@@ -1,37 +1,37 @@
 ---
-title: Business Central -sovelluksen älykkään pilven laajennukset | Microsoft Docs
-description: Luo tiedoista pilvikopio tietojen replikointilaajennuksen avulla ja muodosta yhteys älykkääseen pilveen.
-author: edupont04
-manager: edupont
+title: Business Central Älykäs pilvi -laajennukset pilvipohjaiseen siirtoon | Microsoft-dokumentit
+description: Pilvipohjaisen siirron laajennusten avulla voit siirtää paikallisen datan Business Central -verkkopalveluun. Nämä laajennukset siirtävät sisäiset tiedot pilveen, jotta voit käyttää Business Centralin tietoja verkossa aiemmin luotujen tietojesi kanssa.
+author: jenolson
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
-ms.date: 10/01/2019
-ms.author: edupont
-ms.openlocfilehash: 7f218983e4269c1e35bc7713883bea0fa5195d4b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.reviewer: edupont
+ms.date: 01/30/2020
+ms.author: jenolson
+ms.openlocfilehash: 17bcc754612782903ca0a977f6cd3e80e0e1c6b1
+ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311306"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999593"
 ---
 # <a name="intelligent-cloud-extensions"></a>Älykkään pilven laajennukset
 
-Tämä laajennus yhdistää paikalliset [!INCLUDE [prodshort](includes/prodshort.md)] tietosi [!INCLUDE [prodshort](includes/prodshort.md)] internet-tietojen kanssa älykkäiden tietojen hyödyntämiseksi.  
+Tämä laajennus yhdistää tiedot paikallisesta [!INCLUDE [prodshort](includes/prodshort.md)]sta käyttäen [!INCLUDE [prodshort](includes/prodshort.md)]-toimintoa ratkaisusi siirtämiseksi pilveen.  
 
-Jos käytät jotakin tuettua paikallista tuotetta, voit määrittää älykkään pilviympäristön tuotekohtaisen laajennuksen perusteella. Kun älykäs pilviympäristö on määritetty, voit replikoida paikallisen ratkaisun tiedot [!INCLUDE[prodshort](includes/prodshort.md)]in pilvivuokraajaan. Tämän jälkeen voit käyttää pilveä ja hyödyntää sitä liiketoiminnassa. Saat entistä enemmän tietoja liiketoiminnasta sekä voit käyttää tekoälyä ja useita laitteita milloin tahansa ja missä tahansa.  
+Jos käytät jotakin tuettua paikallista tuotetta, voit määrittää pilviympäristön tuotekohtaisen laajennuksen perusteella. Kun pilviympäristö on määritetty, voit siirtää paikallisen ratkaisun tiedot [!INCLUDE[prodshort](includes/prodshort.md)]iin. Tämän jälkeen voit käyttää pilveä ja hyödyntää sitä liiketoiminnassa. Saat entistä enemmän tietoja liiketoiminnasta sekä voit käyttää tekoälyä ja useita laitteita milloin tahansa ja missä tahansa.  
 
 ## <a name="business-central-on-premises"></a>Paikallinen Business Central
-Jos käytät [!INCLUDE[prodshort](includes/prodshort.md)] paikallista versiot, hanki **Älykäs Pilvipohja**, sekä **Business Central Äkykäs Pilvi** laajennukset, ja suorita sitten **Älykkään Pilven Määritys** avustettu aloitusopas.  
+Jos käytät [!INCLUDE[prodshort](includes/prodshort.md)]in paikallista versiota, hanki **Älykäs Pilvipohja**, sekä **Business Central Älykäs Pilvi** -laajennukset, ja suorita sitten **Pilveen siirron määritys** -avustettu aloitusopas.  
 
 ## <a name="dynamics-gp"></a>Dynamics GP
-Jos käytät Dynamics GPtä, hanki **Älykkään Pilvipohjan Laajennus**, **Dynamics GP Tietojen Siirto** ja **Dynamics GP Älykäs Pilvi** laajennukset, ja suorita sitten **Älykkään Pilven Määritys** avustettu aloitusopas.  
+Jos käytät Dynamics GP:tä, hanki **Älykäs pilvipohjainen laajennus** -laajennus ja **Dynamics GP Älykäs pilvi** -laajennus, ja suorita sitten **Pilveen siirron määritys** -avustettu aloitusopas.  
 
-## <a name="dynamics-nav"></a>Dynamics NAV
-Jos käytät Dynamics NAVia, hanki **Älykäs Pilvipohja Laajennus** ja **Dynamics NAV Älykäs Pilvi** laajennukset, ja suorita sitten **Älykkään Pilven Määritys** avustettu aloitusopas.  
+## <a name="dynamics-sl"></a>Dynamics SL
+Jos käytät Dynamics SL_ää, hanki **Älykäs pilvipohjainen laajennus** -laajennus, **Microsoft Dynamics SL Älykäs pilvi** -laajennus ja **Microsoft Dynamics SL Historiatietojen älykkäät listat** -laajennus ja suorita sitten **Pilveen siirron määritys** -avustettu aloitusopas.  
 
 ## <a name="see-also"></a>Katso myös
 
