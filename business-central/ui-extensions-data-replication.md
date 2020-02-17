@@ -1,39 +1,39 @@
 ---
-title: Business Central -sovelluksen älykkään pilven laajennukset | Microsoft Docs
-description: Luo tiedoista pilvikopio tietojen replikointilaajennuksen avulla ja muodosta yhteys älykkääseen pilveen.
-author: edupont04
-manager: edupont
+title: Business Central Älykäs pilvi -laajennukset pilvipohjaiseen siirtoon | Microsoft-dokumentit
+description: Pilvipohjaisen siirron laajennusten avulla voit siirtää paikallisen datan Business Central -verkkopalveluun. Nämä laajennukset siirtävät sisäiset tiedot pilveen, jotta voit käyttää Business Centralin tietoja verkossa aiemmin luotujen tietojesi kanssa.
+author: jenolson
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
-ms.date: 10/01/2019
-ms.author: edupont
-ms.openlocfilehash: 7f218983e4269c1e35bc7713883bea0fa5195d4b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.reviewer: edupont
+ms.date: 01/30/2020
+ms.author: jenolson
+ms.openlocfilehash: 17bcc754612782903ca0a977f6cd3e80e0e1c6b1
+ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311306"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999593"
 ---
-# <a name="intelligent-cloud-extensions"></a><span data-ttu-id="a9287-103">Älykkään pilven laajennukset</span><span class="sxs-lookup"><span data-stu-id="a9287-103">Intelligent Cloud Extensions</span></span>
+# <a name="intelligent-cloud-extensions"></a><span data-ttu-id="38cac-104">Älykkään pilven laajennukset</span><span class="sxs-lookup"><span data-stu-id="38cac-104">Intelligent Cloud Extensions</span></span>
 
-<span data-ttu-id="a9287-104">Tämä laajennus yhdistää paikalliset [!INCLUDE [prodshort](includes/prodshort.md)] tietosi [!INCLUDE [prodshort](includes/prodshort.md)] internet-tietojen kanssa älykkäiden tietojen hyödyntämiseksi.</span><span class="sxs-lookup"><span data-stu-id="a9287-104">This extension will connect your data from [!INCLUDE [prodshort](includes/prodshort.md)] on-premises with [!INCLUDE [prodshort](includes/prodshort.md)] online for intelligent insights.</span></span>  
+<span data-ttu-id="38cac-105">Tämä laajennus yhdistää tiedot paikallisesta [!INCLUDE [prodshort](includes/prodshort.md)]sta käyttäen [!INCLUDE [prodshort](includes/prodshort.md)]-toimintoa ratkaisusi siirtämiseksi pilveen.</span><span class="sxs-lookup"><span data-stu-id="38cac-105">This extension will connect your data from [!INCLUDE [prodshort](includes/prodshort.md)] on-premises with [!INCLUDE [prodshort](includes/prodshort.md)] online for purposes of migrating your solution to the cloud.</span></span>  
 
-<span data-ttu-id="a9287-105">Jos käytät jotakin tuettua paikallista tuotetta, voit määrittää älykkään pilviympäristön tuotekohtaisen laajennuksen perusteella.</span><span class="sxs-lookup"><span data-stu-id="a9287-105">If you are using one of the supported on-premises products, you can configure your intelligent cloud environment based on a product-specific extension.</span></span><span data-ttu-id="a9287-106"> Kun älykäs pilviympäristö on määritetty, voit replikoida paikallisen ratkaisun tiedot [!INCLUDE[prodshort](includes/prodshort.md)]in pilvivuokraajaan.</span><span class="sxs-lookup"><span data-stu-id="a9287-106"> Once your intelligent cloud environment is configured, you will be able to replicate data from your on-premises solution to your [!INCLUDE[prodshort](includes/prodshort.md)] cloud tenant.</span></span> <span data-ttu-id="a9287-107">Tämän jälkeen voit käyttää pilveä ja hyödyntää sitä liiketoiminnassa. Saat entistä enemmän tietoja liiketoiminnasta sekä voit käyttää tekoälyä ja useita laitteita milloin tahansa ja missä tahansa.</span><span class="sxs-lookup"><span data-stu-id="a9287-107">This will enable you to take full advantage of what the cloud has to offer your business such as, enhanced insights into your business, artificial intelligence, multiple device access, and anytime, anywhere access.</span></span>  
+<span data-ttu-id="38cac-106">Jos käytät jotakin tuettua paikallista tuotetta, voit määrittää pilviympäristön tuotekohtaisen laajennuksen perusteella.</span><span class="sxs-lookup"><span data-stu-id="38cac-106">If you are using one of the supported on-premises products, you can configure your cloud environment based on a product-specific extension.</span></span><span data-ttu-id="38cac-107"> Kun pilviympäristö on määritetty, voit siirtää paikallisen ratkaisun tiedot [!INCLUDE[prodshort](includes/prodshort.md)]iin.</span><span class="sxs-lookup"><span data-stu-id="38cac-107"> Once your cloud environment is configured, you will be able to migrate data from your on-premises solution to [!INCLUDE[prodshort](includes/prodshort.md)].</span></span> <span data-ttu-id="38cac-108">Tämän jälkeen voit käyttää pilveä ja hyödyntää sitä liiketoiminnassa. Saat entistä enemmän tietoja liiketoiminnasta sekä voit käyttää tekoälyä ja useita laitteita milloin tahansa ja missä tahansa.</span><span class="sxs-lookup"><span data-stu-id="38cac-108">This will enable you to take full advantage of what the cloud has to offer your business such as, enhanced insights into your business, artificial intelligence, multiple device access, and anytime, anywhere access.</span></span>  
 
-## <a name="business-central-on-premises"></a><span data-ttu-id="a9287-108">Paikallinen Business Central</span><span class="sxs-lookup"><span data-stu-id="a9287-108">Business Central on-premises</span></span>
-<span data-ttu-id="a9287-109">Jos käytät [!INCLUDE[prodshort](includes/prodshort.md)] paikallista versiot, hanki **Älykäs Pilvipohja**, sekä **Business Central Äkykäs Pilvi** laajennukset, ja suorita sitten **Älykkään Pilven Määritys** avustettu aloitusopas.</span><span class="sxs-lookup"><span data-stu-id="a9287-109">If you are using an on-premises deployment of [!INCLUDE[prodshort](includes/prodshort.md)], get the **Intelligent Cloud Base** extension and the **Business Central Intelligent Cloud** extension, and then run the **Intelligent Cloud Setup** assisted setup guide.</span></span>  
+## <a name="business-central-on-premises"></a><span data-ttu-id="38cac-109">Paikallinen Business Central</span><span class="sxs-lookup"><span data-stu-id="38cac-109">Business Central on-premises</span></span>
+<span data-ttu-id="38cac-110">Jos käytät [!INCLUDE[prodshort](includes/prodshort.md)]in paikallista versiota, hanki **Älykäs Pilvipohja**, sekä **Business Central Älykäs Pilvi** -laajennukset, ja suorita sitten **Pilveen siirron määritys** -avustettu aloitusopas.</span><span class="sxs-lookup"><span data-stu-id="38cac-110">If you are using an on-premises deployment of [!INCLUDE[prodshort](includes/prodshort.md)], get the **Intelligent Cloud Base** extension and the **Business Central Intelligent Cloud** extension, and then run the **Cloud Migration Setup** assisted setup guide.</span></span>  
 
-## <a name="dynamics-gp"></a><span data-ttu-id="a9287-110">Dynamics GP</span><span class="sxs-lookup"><span data-stu-id="a9287-110">Dynamics GP</span></span>
-<span data-ttu-id="a9287-111">Jos käytät Dynamics GPtä, hanki **Älykkään Pilvipohjan Laajennus**, **Dynamics GP Tietojen Siirto** ja **Dynamics GP Älykäs Pilvi** laajennukset, ja suorita sitten **Älykkään Pilven Määritys** avustettu aloitusopas.</span><span class="sxs-lookup"><span data-stu-id="a9287-111">If you are using Dynamics GP, get the **Intelligent Cloud Base Extension** extension, the **Dynamics GP Data Migration** extension, and the **Dynamics GP Intelligent Cloud** extension, and then run the **Intelligent Cloud Setup** assisted setup guide.</span></span>  
+## <a name="dynamics-gp"></a><span data-ttu-id="38cac-111">Dynamics GP</span><span class="sxs-lookup"><span data-stu-id="38cac-111">Dynamics GP</span></span>
+<span data-ttu-id="38cac-112">Jos käytät Dynamics GP:tä, hanki **Älykäs pilvipohjainen laajennus** -laajennus ja **Dynamics GP Älykäs pilvi** -laajennus, ja suorita sitten **Pilveen siirron määritys** -avustettu aloitusopas.</span><span class="sxs-lookup"><span data-stu-id="38cac-112">If you are using Dynamics GP,  get the **Intelligent Cloud Base Extension** extension and the **Dynamics GP Intelligent Cloud** extension, and then run the **Cloud Migration Setup** assisted setup guide.</span></span>  
 
-## <a name="dynamics-nav"></a><span data-ttu-id="a9287-112">Dynamics NAV</span><span class="sxs-lookup"><span data-stu-id="a9287-112">Dynamics NAV</span></span>
-<span data-ttu-id="a9287-113">Jos käytät Dynamics NAVia, hanki **Älykäs Pilvipohja Laajennus** ja **Dynamics NAV Älykäs Pilvi** laajennukset, ja suorita sitten **Älykkään Pilven Määritys** avustettu aloitusopas.</span><span class="sxs-lookup"><span data-stu-id="a9287-113">If you are using Dynamics NAV, get the **Intelligent Cloud Base Extension** extension and the **Dynamics NAV Intelligent Cloud** extension, and then run the **Intelligent Cloud Setup** assisted setup guide.</span></span>  
+## <a name="dynamics-sl"></a><span data-ttu-id="38cac-113">Dynamics SL</span><span class="sxs-lookup"><span data-stu-id="38cac-113">Dynamics SL</span></span>
+<span data-ttu-id="38cac-114">Jos käytät Dynamics SL_ää, hanki **Älykäs pilvipohjainen laajennus** -laajennus, **Microsoft Dynamics SL Älykäs pilvi** -laajennus ja **Microsoft Dynamics SL Historiatietojen älykkäät listat** -laajennus ja suorita sitten **Pilveen siirron määritys** -avustettu aloitusopas.</span><span class="sxs-lookup"><span data-stu-id="38cac-114">If you are using Dynamics SL, get the **Intelligent Cloud Base Extension** extension, the **Microsoft Dynamics SL Intelligent Cloud** extension and the **Microsoft Dynamics SL History Smartlists** extension, and then run the **Cloud Migration Setup** assisted setup guide.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="a9287-114">Katso myös</span><span class="sxs-lookup"><span data-stu-id="a9287-114">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="38cac-115">Katso myös</span><span class="sxs-lookup"><span data-stu-id="38cac-115">See Also</span></span>
 
-[<span data-ttu-id="a9287-115">Älykkäät Tiedot </span><span class="sxs-lookup"><span data-stu-id="a9287-115">Intelligent Insights</span></span>](about-intelligent-cloud.md)  
-[<span data-ttu-id="a9287-116">Älykäs pilvipohjainen laajennus</span><span class="sxs-lookup"><span data-stu-id="a9287-116">Intelligent Cloud Base Extension</span></span>](ui-extensions-intelligent-cloud.md)  
+[<span data-ttu-id="38cac-116">Älykkäät Tiedot </span><span class="sxs-lookup"><span data-stu-id="38cac-116">Intelligent Insights</span></span>](about-intelligent-cloud.md)  
+[<span data-ttu-id="38cac-117">Älykäs pilvipohjainen laajennus</span><span class="sxs-lookup"><span data-stu-id="38cac-117">Intelligent Cloud Base Extension</span></span>](ui-extensions-intelligent-cloud.md)  
