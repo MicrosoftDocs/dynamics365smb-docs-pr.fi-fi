@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 01/30/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4ce48121b36ecd3f153d846f346c52b39a0c64bb
-ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
+ms.openlocfilehash: 154d72032171fa6fbe223ba4f152f868d577c8c7
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "2999902"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076705"
 ---
 # <a name="about-the-data-exchange-framework"></a>Tietoja tiedonvaihto-kehyksestä
 Voit hallita liiketoiminta-asiakirjojen, pankkitiedostojen, vaihtokurssien ja muiden datatiedostojen siirtoa liikekumppaneille tiedonsiirtokehyksen avulla.
@@ -40,13 +40,13 @@ Järjestelmänvalvojana tai Microsoft-kumppanina voit käyttää kehystä uusiss
   Saat esimerkiksi laskun sähköisenä OCR-tiedostona, kun käsittelet sitä kuin vastaanottaessasi sähköisen PEPPOL-asiakirjan. Sähköisten asiakirjojen vastaanottamisen ja tietojen muunnon OCR:stä suorittaa tietojen vaihtamiskehys (jota edustaa **OCR – Lasku** -tietojenvaihtomääritys).  
 
  ## <a name="bank-files"></a>Pankkitiedostot  
- Pankkitietojen vaihtamiseen tarkoitetut ERP-järjestelmien tiedostomuodot vaihtelevat tiedoston toimittajan sekä maan tai alueen mukaan. [!INCLUDE[d365fin](includes/d365fin_md.md)] tukee SEPA (Single Euro Payments Area) -pankkitiedostojen tuontia ja vientiä sekä AMC Banking 365 -perusteiden laajennus auttaa yhdistämään ulkoisen palveluntarjoajan (AMC Consult) pankkitietojen muuntopalveluun. Muiden sähköisten asiakirjojamuotojen tuki saadaan käyttämällä tietojen vaihtamiskehystä.  
+ Pankkitietojen vaihtamiseen tarkoitetut ERP-järjestelmien tiedostomuodot vaihtelevat tiedoston toimittajan sekä maan tai alueen mukaan. [!INCLUDE[d365fin](includes/d365fin_md.md)] tukee SEPA (Single Euro Payments Area) -pankkitiedostojen tuontia ja vientiä sekä AMC Banking 365 -perusteiden laajennus auttaa yhdistämään ulkoisen palveluntarjoajan (AMC Consult) AMC Banking 365 -perusteiden laajennukseen. Muiden sähköisten asiakirjojamuotojen tuki saadaan käyttämällä tietojen vaihtamiskehystä.  
 
- Jos haluat viedä SEPA-tilisiirtoja, valitse **Maksupäiväkirja**-sivulla **Vie maksut tiedostoon** -painike ja lataa sitten tiedosto pankin käsiteltäväksi. Aluksi on määritettävä joitakin perustietoja, kuten pankkitili, toimittajat ja maksutavat. SEPA-pankkitietojen muunnon ja viennin suorittavat määritetty codeunit ja XMLport, joita edustaa **SEPA-tilisiirto** (pankin vienti-/tuontimääritys). Vaihtoehtoisesti voit määrittää, että AMC Banking 365 -perusteiden laajennus suorittaa viennin. Tätä vaihtoehtoa edustaa **Pankkitietojen muuntopalvelu – tilisiirto** -tietojenvaihtomääritys.  
+ Jos haluat viedä SEPA-tilisiirtoja, valitse **Maksupäiväkirja**-sivulla **Vie maksut tiedostoon** -painike ja lataa sitten tiedosto pankin käsiteltäväksi. Aluksi on määritettävä joitakin perustietoja, kuten pankkitili, toimittajat ja maksutavat. SEPA-pankkitietojen muunnon ja viennin suorittavat määritetty codeunit ja XMLport, joita edustaa **SEPA-tilisiirto** (pankin vienti-/tuontimääritys). Vaihtoehtoisesti voit määrittää, että AMC Banking 365 -perusteiden laajennus suorittaa viennin. Tätä vaihtoehtoa edustaa **AMC Banking 365 -perusteiden laajennus – tilisiirto** -tietojenvaihtomääritys.  
 
  Jos haluat viedä SEPA-suoraveloitusohjeita, valitse **Suoraveloitusperinnät**-sivulla **Vie suoraveloitustiedosto** -painike ja lähetä ohjeet pankillesi, joka kerää tarvittavat asiakasmaksut automaattisesti. Aluksi on määritettävä pankkitilit, asiakkaat, suoraveloitustoimeksiannot sekä maksutavat. SEPA-pankkitietojen muunnon ja viennin suorittavat määritetty codeunit ja XMLport, joita edustaa **SEPA-suoraveloitus** (pankin vienti-/tuontimääritys).  
 
- Jos haluat tuoda SEPA-tiliotteita, valitse Tuo tiliote -painike **Maksujen täsmäytyskirjauskansio**- ja **Pankkitilin täsmäytys** -sivuilla ja jatka viemällä tiliotemerkintä manuaalisesti tai automaattisesti maksuihin tai pankkitapahtumamerkintöihin. Aluksi on määritettävä pankkitilit. SEPA-pankkitietojen tuonnin ja muunnon suorittaa tietojen vaihtamiskehys (jota edustaa **SEPA CAMT** -tietojenvaihtomääritys). Vaihtoehtoisesti voit määrittää, että AMC Banking 365 -perusteiden laajennus suorittaa tuonnin. Tätä vaihtoehtoa edustaa **Pankkitietojen muuntopalvelu – tiliote** -tietojenvaihtomääritys.  
+ Jos haluat tuoda SEPA-tiliotteita, valitse Tuo tiliote -painike **Maksujen täsmäytyskirjauskansio**- ja **Pankkitilin täsmäytys** -sivuilla ja jatka viemällä tiliotemerkintä manuaalisesti tai automaattisesti maksuihin tai pankkitapahtumamerkintöihin. Aluksi on määritettävä pankkitilit. SEPA-pankkitietojen tuonnin ja muunnon suorittaa tietojen vaihtamiskehys (jota edustaa **SEPA CAMT** -tietojenvaihtomääritys). Vaihtoehtoisesti voit määrittää, että AMC Banking 365 -perusteiden laajennus suorittaa tuonnin. Tätä vaihtoehtoa edustaa **AMC Banking 365 -perusteiden laajennus – tiliote** -tietojenvaihtomääritys.  
 
  Lisäksi [!INCLUDE[d365fin](includes/d365fin_md.md)]in paikallinen versio tukee monia muita tiedostomuotoja, joiden avulla voidaan tuoda tai viedä pankkitietoja, palkanlaskentatapahtumia ja muita tietoja. Lisätietoja on [!INCLUDE[d365fin](includes/d365fin_md.md)]in maaversion ohjeen Paikalliset toiminnot -osiossa.
 

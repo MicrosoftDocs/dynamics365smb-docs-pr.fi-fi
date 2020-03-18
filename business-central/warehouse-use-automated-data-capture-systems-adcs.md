@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: barcode
 ms.date: 11/20/2019
 ms.author: sgroespe
-ms.openlocfilehash: 209bbe3539fb99c626376149c22c419b4b476608
-ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
+ms.openlocfilehash: 64391913910dfc963d430efa3d00a75491a6c41f
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832333"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097790"
 ---
 # <a name="use-automated-data-capture-systems-adcs"></a>ADCS (Automated Data Capture System) -järjestelmä
 
 > [!NOTE]
-> [!INCLUDE[d365fin](includes/d365fin_md.md)] -vakioversiossa ADCS toimii vain paikallisissa käyttöönotoissa. Microsoft-kumppani voi kuitenkin mahdollistaa verkkokäyttöönotot esimerkiksi Power Appsin avulla.
+> Automaattinen tiedonkeruujärjestelmän (ADCS) ratkaisu tarjoaa [!INCLUDE[d365fin](includes/d365fin_md.md)]:lle keinon kommunikoida kannettavien laitteiden kanssa verkkopalveluiden avulla. Sinun on toimittava sellaisen Microsoft-palveluntarjoajan kanssa, joka pystyy tarjoamaan linkin Web-palvelun ja tietyn kannettavan laitteen välille. 
 
 Automaattista tiedonkeruujärjestelmää (ADCS) voidaan käyttää rekisteröimään kaikki nimikkeiden siirrot fyysisessä varastossa ja rekisteröimään kaikki päiväkirjatoiminnot, joihin sisältyvät määrän muutokset fyysisen varastoinnin nimikepäiväkirjassa, inventoinneissa ja uudelleenluokitteluissa. ADCS sisältää yleensä viivakoodin skannauksen.
 
@@ -32,7 +32,23 @@ Fyysisen varastoinnin tarpeiden pohjalta pienoislomakkeen asetuksissa määritet
 - Tekstitiedot.  
 - Vahvistuksia tai virhesanomia suoritetuista toiminnoista, jotka käyttäjä on tehnyt ja rekisteröinyt kannettavalla laitteella.
 
-Lisätietoja on kehittäjien ja IT-ammattilaisten ohjeaiheessa [ADCS (Automated Data Capture System) -järjestelmän määrittäminen](/dynamics-nav/Configuring-Automated-Data-Capture-System).
+## <a name="to-enable-web-services-for-adcs"></a>Voit ottaa ADCS-verkkopalvelut käyttöön
+Jotta voisit käyttää automaattista tiedonkeruujärjestelmää, sinun on otettava ADCS-verkkopalvelu käyttöön.  
+
+## <a name="to-enable-and-publish-the-adcs-web-service"></a>ADCS-verkkopalvelun käyttöönotto ja julkaiseminen  
+
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Verkkopalvelut** ja valitse sitten liittyvä linkki.
+2. Valitse **Uusi**-toiminto.  
+3. Lisää seuraavat tiedot **verkkopalvelut**-sivun uudelle riville:  
+
+    |Kenttä|Arvo|  
+    |---------------------------------|-----------|  
+    |**Objektityyppi**|Koodiyksikkö|  
+    |**Objektin tunnus**|7714|  
+    |**Palvelun nimi**|ADCS **Tärkeää:** Sinun on annettava palvelulle nimeksi **ADCS**.|  
+
+5. Valitse **Julkaistu**-valintaruutu.  
+6. Valitse **OK**-painike.  
 
 ## <a name="to-set-up-a-warehouse-to-use-adcs"></a>Fyysisen varaston määrittäminen ADCS-järjestelmän käyttämistä varten  
 ADCS:n käytössä on määritettävä, mitkä fyysisen varaston sijainnit käyttävät tekniikkaa.  
@@ -79,7 +95,8 @@ Voit lisätä minkä tahansa käyttäjän Automated Data Capture System (ADCS) -
 ## <a name="to-create-and-customize-miniforms"></a>Pienoislomakkeiden luominen ja mukauttaminen
 Pienoislomakkeiden avulla voit kuvailla tietoja, jotka haluat esittää käsilaitteesta. Voit luoda pienoislomakkeita, jotka tukevat nimikkeiden poiminnan fyysisen varastoinnin toimintoja. Pienoislomakkeen luotuasi voit lisätä siihen toimintoja yleisiä toimenpiteitä varten, jotka käyttäjä tekee kannettavissa laitteissa, esimerkiksi siirtyminen ylös- tai alaspäin rivillä.  
 
-Ota käyttöön tai muuta pienoislomakkeen toiminto luomalla uusi koodiyksikkö tai muokkaamalla aiemmin luotua suorittamaan vaadittu toiminto tai vastaus. Lue lisätietoja ADCS-toiminnoista tutkimalla koodiyksikköjä, kuten 7705, joka on sisäänkirjautumistoiminnon käsittelyn koodiyksikkö. Koodiyksikkö 7705 näyttää, kuinka korttityyppinen pienoislomake toimii.  
+> [!NOTE] 
+> Ota käyttöön tai muuta pienoislomakkeen toiminto luomalla uusi koodiyksikkö **Käsittelevä koodiyksikkö** -kenttään suorittamaan vaadittu toiminto tai vastaus. Saat lisätietoja ADCS-toiminnosta tarkastelemalla koodiyksiköitä, joita ovat esimerkiksi 7705, 7706, 7712 ja 7713.  
 
 ### <a name="to-create-a-miniform-for-adcs"></a>Luo ADCS-pienoislomake  
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pienoislomakkeet** ja valitse sitten liittyvä linkki.  
@@ -92,29 +109,15 @@ Ota käyttöön tai muuta pienoislomakkeen toiminto luomalla uusi koodiyksikkö 
 
 Pienoislomakkeen luonnin jälkeen luodaan seuraavaksi toiminnot ja liitetään toiminnot näppäimistön syötteille.  
 
-### <a name="to-add-support-for-a-function-key"></a>Tuen lisääminen toimintonäppäimeen  
-1.  Lisää seuraavan esimerkin mukainen koodi .xsl-tiedostoon laajennusta varten. Tämä luo toiminnon **F6**-näppäimelle. Näppäinyhdistelmätiedot voi saada laitteen valmistajalta.  
-    ```xml  
-    <xsl:template match="Function[.='F6']">  
-      <Function Key1="27" Key2="91" Key3="49" Key4="55" Key5="126" Key6="0"><xsl:value-of select="."/></Function>  
-    </xsl:template>  
-    ```  
-2.  Avaa [!INCLUDE[d365fin](includes/d365fin_md.md)]in kehitysympäristössä taulukko 7702 ja lisää uutta näppäintä vastaava koodi. Luo tässä esimerkissä avain, jonka nimi on **F6**.  
-3.  Lisää C/AL-koodi asianmukaiseen funktioon pienoislomakekohtaisessa codeunit-kohteessa toimintonäppäimen käsittelemiseksi.  
-
 ### <a name="to-customize-miniform-functions"></a>Mukauta pienoislomakkeen toiminnot  
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pienoislomakkeet** ja valitse sitten liittyvä linkki.  
 2.  Valitse pienoislomake luettelosta ja valitse sitten **Muokkaa**-toiminto.  
 3.  Valitse **Toiminnot**-toiminto.  
 4.  Valitse avattavasta **Toimintokoodi**-luettelosta sitä toimintoa vastaava koodi, jonka haluat liittää pienoislomakkeeseen. Voit valita esimerkiksi ESC-vaihtoehdon, joka liittää toiminnon ESC-näppäimen painallukseen.  
 
-Muokkaa [!INCLUDE[d365fin](includes/d365fin_md.md)]in kehitysympäristössä **Käsittelevä koodiyksikkö** -kentän koodia, jos haluat luoda koodin tarvittavan toiminnon tai vastauksen suorittamiseen tai muokata koodia.
-
-Lisätietoja on kehittäjien ja IT-ammattilaisten ohjeaiheessa [ADCS (Automated Data Capture System) -järjestelmän määrittäminen](/dynamics-nav/Configuring-Automated-Data-Capture-System).
-
 ## <a name="see-also"></a>Katso myös  
 [Varastoinninhallinta](warehouse-manage-warehouse.md)  
-[Vaihto-omaisuus](inventory-manage-inventory.md)  
+[Varasto](inventory-manage-inventory.md)  
 [Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md)     
 [Kokoonpanon hallinta](assembly-assemble-items.md)    
 [Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, customer refund, creditor, debt, balance due, AP
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 5f9301541e73b4137f6c241a18e2f25c4009fc76
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a35dc8fb1bd6725d4c1f62d387408234f7419b74
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314290"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076971"
 ---
 # <a name="record-payments-and-refunds-in-the-payment-journal"></a>Maksujen ja hyvitysten tallentaminen maksupäiväkirjaan
 
@@ -33,7 +33,7 @@ Maksupäiväkirja on yleinen päiväkirja, joka on tarkoitettu erityisesti maksu
 
 - Sekkien tulostaminen ja maksujen lähettäminen sähköisesti pankkiin
 
-    Maksun suorituksen kirjaamisen lisäksi voit käyttää myös **Maksupäiväkirja**-sivua siirtämään maksun pankin lisäkäsittelyä varten. Lisätietoja on kohdissa [Sekkimaksujen suorittaminen](payables-how-work-checks.md) ja [Sähköisten maksujen suorittaminen](payables-how-export-payments-bank-file.md).  
+    Maksun suorituksen kirjaamisen lisäksi voit käyttää myös **Maksupäiväkirja**-sivua siirtämään maksun pankin lisäkäsittelyä varten. Lisätietoja on kohdissa [Sekkimaksujen suorittaminen](payables-how-work-checks.md) ja [Sähköisten maksujen suorittaminen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).  
 
 ## <a name="to-make-payments-in-the-payment-journal"></a>Maksujen tekeminen maksupäiväkirjaan
 
@@ -50,7 +50,7 @@ Maksupäiväkirja on yleinen päiväkirja, joka on tarkoitettu erityisesti maksu
 
 ## <a name="see-also"></a>Katso myös
 [Sekkimaksujen suorittaminen](payables-how-work-checks.md)  
-[Sähköisten maksujen suorittaminen](payables-how-export-payments-bank-file.md)  
+[Sähköisten maksujen suorittaminen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  
 [Ostovelkojen hallinta](payables-manage-payables.md)  
 [Pankkitoiminnan määrittäminen](bank-setup-banking.md)  
 [Positive Pay -tiedoston vienti](finance-how-positive-pay.md)  

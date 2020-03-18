@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 10/01/2019
+ms.date: 02/12/2020
 ms.author: bholtorf
-ms.openlocfilehash: 88a1e6cc711888a3cf68744d0ea6bbfdee41aea3
-ms.sourcegitcommit: 49309bdff9b680a35032b355fe97c565845dba15
+ms.openlocfilehash: 67dd65491710206245a2ff83dce3d3eb94484770
+ms.sourcegitcommit: c78df3aefb3e2ed8c28e5ac8340d56ab787212e8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2695093"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "3071908"
 ---
 # <a name="tell-me-faq"></a>Kerro, mitä haluat tehdä -toiminnon usein kysytyt kysymykset
 Tässä ohjeaiheessa vastataan kokeneiden käyttäjien Kerro, mitä haluat tehdä -ominaisuutta koskeviin usein kysyttyihin kysymyksiin.
@@ -32,7 +32,7 @@ Kerro, mitä haluat tehdä -toiminto kerää laajennusten toiminnot, sivut ja ra
 ### <a name="what-makes-this-different-from-what-was-previously-known-as-page-search"></a>Miksi tämä on erilainen kuin aiempi sivuhaku?
 Sivuhaku on kehittynyt Kerro, mitä haluat tehdä -toiminnoksi, jonka avulla työskentely on nopeampaa. Sivuhaku auttoi vain sivuihin ja raportteihin siirtymisessä. Teknisesti ottaen Kerro, mitä haluat tehdä ei enää perustu MenuSuite-käsitteeseen.
 
-### <a name="i-use-on-premises-included365finincludesd365fin_mdmd-does-that-include-tell-me"></a>Käytän paikallista [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovellusta. Sisältääkö se Kerro, mitä haluat tehdä -toiminnon?
+### <a name="i-use-on-premises-d365fin-does-that-include-tell-me"></a>Käytän paikallista [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovellusta. Sisältääkö se Kerro, mitä haluat tehdä -toiminnon?
 Voit käyttää Kerro, mitä haluat tehdä -toimintoa paikallisesti verkkoasiakasohjelmassa, kun haluat etsiä toimintoja, sivuja ja raportteja. Ohjeistusta tai sovelluksia ja konsultointipalveluja ei kuitenkaan voi etsiä sen avulla AppSourcessa.
 
 ### <a name="is-tell-me-available-for-all-form-factors"></a>Onko Kerro, mitä haluat tehdä -toiminto käytettävissä kaikissa laitemuodoissa?
@@ -44,11 +44,9 @@ Tämän ohjeen artikkelit näkyvät **Omat asetukset** -kohdassa määritetyllä
 ### <a name="why-dont-i-see-a-bookmark-icon-for-my-search-results"></a>Miksi hakutulosten kirjanmerkkikuvaketta ei näy?
 Kirjanmerkkikuvake ei näy Kerro, mitä haluat tehdä -ikkunassa, kun mukautus on poistettu käytöstä käyttäjäroolissa.
 
-### <a name="is-the-bookmark-icon-available-for-reports"></a>Onko kirjanmerkkikuvake käytössä raporteissa?
-Ei. Voit lisätä kirjanmerkin sivun tai sellaisten hakutulosten linkiksi, jotka näkyvät Kerro, mitä haluat tehdä -ikkunan **Sivut ja tehtävät** -osassa.
-
 
 ## <a name="see-also"></a>Katso myös  
 [Luettelonäkymien tallentaminen ja mukauttaminen](ui-views.md)  
 [Sivujen ja tietojen etsiminen Kerro, mitä haluat tehdä -toiminnolla](ui-search.md)  
-[Sivujen etsiminen roolienhallinnan avulla](ui-role-explorer.md)
+[Sivujen etsiminen roolienhallinnan avulla](ui-role-explorer.md)  
+[Sivun tai raportin kirjanmerkin luominen roolikeskuksessa](ui-bookmarks.md)

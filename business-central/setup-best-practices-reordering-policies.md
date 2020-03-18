@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 97d299372bc140c29138d6b83c34ec18254c4fcd
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: e128e5a4f08364ccea9ae0aa4e284943688404c4
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882228"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076436"
 ---
 # <a name="setup-best-practices-reordering-policies"></a>Asetukset - parhaat käytännöt: uusintatilaustavat
 **Uusintatilaustapa**-kenttä nimikekorteissa antaa neljä eri suunnittelumetodia, jotka määrittävät, kuinka yksittäiset suunnitteluparametrit käyttäytyvät.  
@@ -42,11 +42,7 @@ Seuraava taulukko sisältää parhaat käytännöt neljästä tavasta valitsemis
 |**Enimmäismäärä**|Käytä C-nimikkeisiin, joissa on korkeat ylläpitokustannukset tai tallennusrajoitukset.<br /><br /> Yhdistä yksi tai useampi tilauksen valitsin (minimi/maksimi tilausmäärä tai monitilaus).|C-nimikkeet, kuten teekupit, ovat vähäsen arvon nimikkeitä, jolla on suuri ja säännöllinen tilausnopeus. Paras uusintatilaustapa C-nimikkeille on siis sellainen, joka varmistaa jatkuvan saatavuuden pysymällä aina uusintatilauspisteen yläpuolella, mutta varaston enimmäiskapasiteetin alapuolella.<br /><br /> Kun muutat ehdotettua järjestyä, haluat ehkä laskea tilausmäärää määritettyyn enimmäistilausmäärään tai nostaa määritettyyn minimitilausmäärään tai pyöristää vastaamaan määritettyä tilauskerrannaista. **Huomautus:**  Jos tätä käytetään uusintatilauspisteen kanssa, varaston määrä pysyy uusintatilauspisteen määrän ja enimmäismäärän välillä.|  
 
 ## <a name="see-also"></a>Katso myös  
- [Asetusten parhaat käytännöt: toimitusten suunnittelu](setup-best-practices-supply-planning.md)   
- [Rakennetiedot: Uusintatilauskäytännöt](design-details-reordering-policies.md)   
- [Rakennetiedot: tilaus](design-details-order.md)   
- [Rakennetiedot: erä-erästä](design-details-lot-for-lot.md)   
- [Rakennetiedot: Kiinteä uusintatil. määrä](design-details-fixed-reorder-qty.md)   
- [Rakennetiedot: enimmäismäärä](design-details-maximum-qty.md)   
+ [Asetukset - parhaat käytännöt: toimitusten suunnittelu](setup-best-practices-supply-planning.md)   
+ [Rakennetiedot: uusintatilauskäytäntöjen käsittely](design-details-handling-reordering-policies.md)   
  [Monimutkaisten sovellusalueiden määrittäminen parhaiden käytäntöjen avulla](set-up-complex-application-areas-using-best-practices.md)  
  [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)

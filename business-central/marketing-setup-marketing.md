@@ -12,26 +12,26 @@ ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2be63cdb75a056beebb8648fa151b055a5a4f484
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: da0ef3338a32e797c9ebe21b051fb8cc8babcc6d
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308674"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076851"
 ---
 # <a name="setting-up-relationship-management"></a>Kontaktienhallinnan määrittäminen
 Ennen kuin aloitat kontaktien ja markkinoinnin käsittelemisen, määritä, miten markkinoinnissa hallitaan tiettyjä kontakteihin liittyviä asioita. Voit määrittää esimerkiksi sen, synkronoidaanko kontaktin kortti asiakkaan, toimittajan vai pankkitilin kortin kanssa, miten numerosarjat määritetään tai millainen vakiotervehdys kontakteille lähetetään.
 
 Kontaktien hallinta ja strategian luominen asiakkaiden tunnistamiseksi, houkuttelemiseksi ja säilyttämiseksi auttaa liiketoiminnan optimoinnissa ja asiakastyytyväisyyden parantamisessa. Hyvän kontaktienhallintajärjestelmän käyttäminen auttaa myös asiakassuhteiden luomisessa ja ylläpitämisessä. Tärkein tekijä asiakassuhteissa on yhteydenpito. Yrityksen menestyksen kannalta on keskeistä, että yhteydenpito mahdollisiin ja olemassa oleviin asiakkaisiin, toimittajiin ja liikekumppaneihin pystytään mukauttamaan kulloisinkiin tarpeisiin. Strategian muodostaminen ja yhteystietojen käytön määrittäminen on ensimmäinen vaihe. Näitä tietoja tarkastelevat useat yrityksen ryhmät, joten hyvän järjestelmän avulla jokainen käyttäjä voi lisätä tuottavuuttaan.
 
-Voit määrittää markkinoinnin ja kontaktien hallinnan **Kontaktienhallinnan asetukset** -sivulla. Jos haluat avata **Markkinoinnin asetukset** -sivun, valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Markkinoinnin asetukset** ja valitse liittyvä linkki.
+Voit määrittää markkinoinnin ja kontaktien hallinnan **Kontaktienhallinnan asetukset** -sivulla. Jos haluat avata **Markkinoinnin asetukset** -sivun, valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvakkeen, anna **Markkinoinnin asetukset** ja valitse liittyvä linkki.
 
 ## <a name="automatically-copying-specific-information-from-contact-companies-to-contact-persons"></a>Tiettyjen tietojen kopioiminen automaattisesti kontaktiyrityksistä kontaktihenkilöille
 Jotkin kontaktiyritysten tiedoista ovat samat kuin tämän yrityksen kontaktihenkilön tiedot, esimerkiksi osoitetiedot. Voit määrittää **Kontaktienhallinnan asetukset** -sivun **Periytyminen**-osassa sovelluksen, joka kopioi automaattisesti tietyt kentät kontaktiyrityksen kortista kontaktihenkilön korttiin aina, kun luot kontaktiyritykseen kontaktihenkilön. Voit esimerkiksi kopioida myyjän koodin, osoitetiedot (osoite, osoite 2, postinumero ja maa), yhteystiedot (faksinumero, teleksivastaus ja puhelinnumero) ja muita tietoja.
 
 Kun muutat yhtä näistä kentistä kontaktiyrityksen kortilla, sovellus muuttaa kenttää automaattisesti kontaktihenkilön kortilla (jos et ole manuaalisesti muuttanut kenttää kontaktihenkilön kortilla).
 
-Lisätietoja on kohdassa [Kontaktihenkilöiden luominen](marketing-how-create-contact-persons.md).
+Lisätietoja on kohdassa [Kontaktien luominen](marketing-create-contact-companies.md).
 
 ## <a name="using-predefined-defaults-on-new-contacts"></a>Ennalta määritettyjen oletusarvojen käyttäminen uusissa kontakteissa
 Voit päättää, että sovellus liittää automaattisesti tietyn kielikoodin, territoriokoodin, myyjäkoodin ja maa-/aluekoodin oletusarvon jokaiseen luomaasi uuteen kontaktiin. Voit myös antaa myyntisyklin oletuskoodin, jonka sovellus sitten liittää jokaiseen luomaasi uuteen mahdollisuuteen.

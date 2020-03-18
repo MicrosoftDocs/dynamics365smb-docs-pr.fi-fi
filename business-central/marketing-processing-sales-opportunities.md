@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: dc88bfaac0fe65bfa5e5053529c5724b76787cac
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 92e2ad3723e2cb2b3b24f179d39462a98e9cc106
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308789"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076585"
 ---
 # <a name="process-sales-opportunities"></a>Myyntimahdollisuuksien käsitteleminen
 Mahdollisuuden luomisen jälkeen sen hallinnassa ja valmistumisprosessissa voidaan käyttää useita toimintoja.
@@ -27,9 +27,9 @@ Olemassa olevat myyntimahdollisuudet ovat käytettävissä **Mahdollisuusluettel
 
 | Mahdollisuuksien tarkasteminen | Sitten |
 | --- | --- |
-| Kaikki myyjät ja kontaktit |Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Mahdollisuusluettelo** ja valitse sitten liittyvä linkki. |
+| Kaikki myyjät ja kontaktit |Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Mahdollisuusluettelo** ja valitse sitten liittyvä linkki. |
 | Määritetty myyjä |Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyjät** ja valitse sitten liittyvä linkki. Valitse myyjä, valitse sitten **Mahdollisuudet**-toiminto. Valitse tämän jälkeen **Luettelo**-toiminto. |
-| Määritetty kontakti |Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kontaktit** ja valitse sitten liittyvä linkki. Valitse kontakti luettelosta ja valitse sitten **Mahdollisuudet**-toiminto. |
+| Määritetty kontakti |Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Yhteyshenkilöt** ja valitse sitten liittyvä linkki. Valitse kontakti luettelosta ja valitse sitten **Mahdollisuudet**-toiminto. |
 
 Jokainen näistä tehtävistä avaa **Mahdollisuusluettelo**-sivun.
 
@@ -50,7 +50,7 @@ Voit luoda myyntitarjouksia kontakteille, joita ei ole tallennettu asiakkaiksi.
 2. Täytä asianmukaiset kentät.
 
 ## <a name="to-create-sales-orders-for-opportunities"></a>Mahdollisuuksien myyntitilausten luominen
-Voit tehdä myyntitilauksia niistä myyntitarjouksista, jotka olet luonut mahdollisuuksillesi. Ennen kun voit luoda myyntitilauksia kontakteillesi, sinun täytyy luoda kontaktista asiakas. Lisätietoja on kohdassa [Asiakkaan, toimittajan tai pankkitilin luominen kontaktista](marketing-how-create-contacts-new-customers-vendors-bank-accounts.md).
+Voit tehdä myyntitilauksia niistä myyntitarjouksista, jotka olet luonut mahdollisuuksillesi. Ennen kun voit luoda myyntitilauksia kontakteillesi, sinun täytyy luoda kontaktista asiakas. Lisätietoja on kohdassa [Kontaktien luominen](marketing-create-contact-companies.md).
 
 1. Etsi **Mahdollisuusluettelo**-sivulla mahdollisuus, jolle olet luonut myyntitarjouksen.
 2. Valitse **Määritä myyntitarjous** -toiminto. Näyttöön tulee **Myyntitarjous**-sivu, jossa näkyy tähän mahdollisuuteen liittämäsi myyntitarjous.
@@ -65,7 +65,7 @@ Voit poistaa suljetut mahdollisuudet **Mahdollisuusluettelo**-sivulla valitsemal
 
 Voit poistaa suljetut mahdollisuudet **Poista suljetut mahdollisuudet** -eräajon avulla seuraavien vaiheiden avulla:
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poista mahdollisuudet** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Poista mahdollisuudet** ja valitse sitten liittyvä linkki.
 2. Määritä **Mahdollisuus**-osassa suodattimet, jotka määrittävät poistettavat suljetut mahdollisuudet.
 3. Valitse **OK**-painike.
 

@@ -1,20 +1,20 @@
 ---
 title: Liiketoiminnan päätöksentekijän opintoluettelo
 description: Liiketoiminnan päätöksentekijän opintoluettelo
-author: SusanneWindfeldPedersen
-ms.custom: na
-ms.date: 11/06/2019
+author: loreleishannonmsft
+ms.date: 02/19/2020
 ms.topic: article
-ms.service: dynamics365-business-central
-ms.author: solsen
-ms.openlocfilehash: fee5c53d49e8a03fce2c7274f6e41689905dab7c
-ms.sourcegitcommit: 86498fe4326b9ce26cc31e8645db27570d13bdf9
+ms.author: v-lshann
+ms.openlocfilehash: 29830b2d243cde7ab5b68f0967883db07c713f24
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2767750"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097573"
 ---
 # <a name="business-decision-makers-learning-catalog"></a>Liiketoiminnan päätöksentekijöiden opintoluettelo
+
+Päätätkö sinä investoidaanko uusiin teknologioihin?
 
 Seuraava luettelo on järjestetty perustiedoista tiettyihin toimialueisiin ja perustiedoista kaikkein kehittyneimpiin. Jos sisältöä on useissa muodoissa, ilmoitamme siitä sinulle, jotta voit valita tarpeitasi parhaiten vastaavan koulutusmuodon.  
 

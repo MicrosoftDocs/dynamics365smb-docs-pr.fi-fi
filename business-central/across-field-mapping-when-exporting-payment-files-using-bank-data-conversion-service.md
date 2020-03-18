@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 49ed61472966ca06f996296d3d97365a6c223983
-ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
+ms.openlocfilehash: f5b1d0e6d5466ee44ffcd1249087a743f01bf109
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "2692626"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076729"
 ---
 # <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a>Kenttäkartoitus, kun maksutiedostoja viedään AMC Banking 365 -perusteiden laajennuksen avulla
 Kun viet maksutiedostoja AMC Banking 365 -perusteiden laajennuksen avulla, vietävät tiedot ovat alttiina palveluntarjoajalle. Palveluntarjoaja vastaa näiden tietojen tietosuojasta. Lisätietoja AMC Banking 365 -perusteiden laajennuksesta on kohdassa [AMC Banking 365 -perusteiden laajennuksen käyttäminen](ui-extensions-amc-banking.md).  
@@ -71,4 +71,4 @@ Seuraavassa taulukossa on luettelo kentistä [!INCLUDE[d365fin](includes/d365fin
 [Tiedonsiirron määrittäminen](across-set-up-data-exchange.md)  
 [Tietojen vaihtaminen sähköisesti](across-data-exchange.md)
 [AMC Banking 365 -perusteiden laajennuksen avulla](ui-extensions-amc-banking.md)   
-[Maksujen suorittaminen pankkitietojen muunnospalvelulla tai SEPA-hyvityksen siirrolla](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   
+[Suorita maksuja AMC Banking 365 -perusteiden laajennuksen tai SEPA-tilisiirron avulla](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1dda414746c8661e5a9cee3eee5ce569cfa83e16
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 54e7aabe2989033a33373b960633b1c8f8e38eab
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882900"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076410"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Rakennetiedot: kysynnän ja tarjonnan täsmäytys
 Suunnittelujärjestelmän priorisoitujen tavoitteiden ymmärtäminen edellyttää suunnittelujärjestelmän toiminnan ymmärtämistä. Tärkeimmät tavoitteet pyrkivät varmistamaan seuraavat seikat:  
@@ -66,7 +66,7 @@ Jos ensimmäinen käytettävissä oleva varasto on alle nollan, suunnittelujärj
 ## <a name="loading-the-inventory-profiles"></a>Varastoprofiilien lataaminen
 Voit lajitella useita kysynnän ja tarjonnan lähteitä, kun suunnittelujärjestelmä järjestää ne kahdella aikajanalle, joita kutsutaan varastoprofiileiksi.  
 
-Normaalit kysyntä- ja tarjontatyypit eräpäivineen suunnittelun alkamispäivänä tai sen jälkeen ladataan jokaiseen varastoprofiiliin. Kun tämä on ladattu, erityyppinen kysyntä ja tarjonta lajitellaan yleisten prioriteettien, kuten eräpäivän, alatason koodien, sijainnin ja variantin, perusteella. Lisäksi tilauksen prioriteetit kohdistetaan erilaisiin tyyppeihin, jotta varmistutaan tärkeimmän kysynnän täyttämisestä ensin. Lisätietoja on ohjeaiheessa [Rakennetiedot: tilausten priorisointi](design-details-prioritizing-orders.md).  
+Normaalit kysyntä- ja tarjontatyypit eräpäivineen suunnittelun alkamispäivänä tai sen jälkeen ladataan jokaiseen varastoprofiiliin. Kun tämä on ladattu, erityyppinen kysyntä ja tarjonta lajitellaan yleisten prioriteettien, kuten eräpäivän, alatason koodien, sijainnin ja variantin, perusteella. Lisäksi tilauksen prioriteetit kohdistetaan erilaisiin tyyppeihin, jotta varmistutaan tärkeimmän kysynnän täyttämisestä ensin. Lisätietoja on kohdassa [Projektitilausten priorisointi](design-details-balancing-demand-and-supply.md#prioritizing-orders).  
 
 Kuten aiemmin mainittiin, kysyntä voi olla myös negatiivista. Tämä tarkoittaa sitä, että sitä tulee käsitellä tarjontana. Tavallisista tarjontatyypeistä poiketen negatiivista kysyntää käsitellään kuitenkin kiinteänä tarjontana. Suunnittelujärjestelmä voi ottaa sen huomioon mutta ei ehdota mitään muutoksia siihen.  
 

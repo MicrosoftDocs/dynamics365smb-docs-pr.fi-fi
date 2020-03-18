@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, replenishment, reordering
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a3b7c5c52590644a8f61c0d97312d7dd1342fc97
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: f179075a63ee42ba2cb61c3647b116536afd5a65
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878435"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076947"
 ---
 # <a name="design-details-reservation-order-tracking-and-action-messaging"></a>Rakennetiedot: varaus, tilauksen seuranta ja toimenpiteiden viestitys
 Varausjärjestelmä on kokonaisvaltainen ja se sisältää Tilausten seurannan ja toimintaviestinnän keskenään yhteydessä olevat ja rinnakkaiset ominaisuudet.  
@@ -80,7 +80,7 @@ Varausjärjestelmä on kokonaisvaltainen ja se sisältää Tilausten seurannan j
 
 -   Monitasoinen tuotantotilaus, jossa liittyvän ylä- ja alatason nimikkeiden **Tuotantotapa**-kentän arvoksi on asetettu **Tilausohjattu**. Suunnittelujärjestelmä luo varaukset alkuperäisen tuotantotilauksen ja alla olevan tuotantotilausten välillä, jolloin varmistetaan, että ne suoritetaan yhdessä. Tällainen varausside kumoaa nimikkeen oletuskustannukset ja sovellusmenetelmät.  
 
--   Tuotanto-, kokoonpano- tai ostotilaus, jossa liittyvän nimikkeen **Uusintatilaustapa**-kentän arvoksi on asetettu **Tilaus**. Suunnittelujärjestelmä luo varaukset kysynnän ja suunnitellun tarjonnan välillä, jolloin varmistetaan, että erityinen tarjonta on luotu. Lisätietoja on kohdassa [Rakennetiedot: tilaus](design-details-order.md).  
+-   Tuotanto-, kokoonpano- tai ostotilaus, jossa liittyvän nimikkeen **Uusintatilaustapa**-kentän arvoksi on asetettu **Tilaus**. Suunnittelujärjestelmä luo varaukset kysynnän ja suunnitellun tarjonnan välillä, jolloin varmistetaan, että erityinen tarjonta on luotu. Lisätietoja on kohdassa [Tilaus](design-details-handling-reordering-policies.md#order).  
 
 -   Myyntitilauksesta luotu tuotantotilaus, jonka **Myyntitilaussuunnittelu**-toiminto on linkitetty myyntitilaukseen automaattisella varauksella.  
 

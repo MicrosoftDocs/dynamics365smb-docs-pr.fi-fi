@@ -1,20 +1,20 @@
 ---
-title: Yrityskäyttäjän opintoluettelo
-description: Yrityskäyttäjän opintoluettelo
-author: LoreleiShannon
-ms.custom: na
-ms.date: 11/06/2019
+title: Yrityskäyttäjien opintoluettelo
+description: Etsi kaikki käytettävissä olevat opinnot Business Centralille.
+author: loreleishannonmsft
+ms.date: 02/19/2020
 ms.topic: article
-ms.service: dynamics365-business-central
-ms.author: solsen
-ms.openlocfilehash: 00ee925575dbdfe6eb32e78e3051c7bb8c6d7d96
-ms.sourcegitcommit: 86498fe4326b9ce26cc31e8645db27570d13bdf9
+ms.author: v-lshann
+ms.openlocfilehash: 51e8249f504e9182bf9e427e15629dd51fc804b5
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2767888"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097766"
 ---
 # <a name="business-users-learning-catalog"></a>Yrityskäyttäjien opintoluettelo
+
+Saitko juuri uuden sovelluksen käyttöön?
 
 Seuraava luettelo on järjestetty perustiedoista tiettyihin toimialueisiin ja perustiedoista kaikkein kehittyneimpiin. Jos sisältöä on useissa muodoissa, ilmoitamme siitä sinulle, jotta voit valita tarpeitasi parhaiten vastaavan koulutusmuodon. 
 

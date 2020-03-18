@@ -12,12 +12,12 @@ ms.workload: na
 ms. search.keywords: extension, bank, formats
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 0cafffa57e5e8d532b4f60fa3aafccadb23d24bf
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: cad6f64ee74dd2c359f16e1bb723282c2a703b97
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311210"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076487"
 ---
 # <a name="the-payments-and-reconciliations-dk-extension"></a>Maksujen ja täsmäytysten (DK) laajennus
 Tee nopeita ja virheettömiä maksuja tuomalla tiedostot, jotka on muotoiltu erityisesti toimittajan tai pankin kanssa tapahtuvia siirtoja varten. Nämä tiedostot nopeuttavat maksu- ja täsmäytysprosesseja ja eliminoivat virheet, joita voi tapahtua tietojen manuaalisessa syöttämisessä pankin sivustossa.  
@@ -53,7 +53,7 @@ Aloittaminen edellyttää muutamien vaiheiden suorittamista.
 
 Lisäksi on määritettävä toimittajat kotimaan **Ylein. liiketoim. kirjausryhmä**- ja **Toimittajan kirjausryhmä** -kohtaan. Toimittajan maa-/alueasetukseksi on määritettävä Tanska (DK). Lisätietoja on kohdassa [Kirjausryhmien määrittäminen](finance-posting-groups.md).  
 
-### <a name="to-allow-included365finincludesd365fin_mdmd-to-export-payment-data"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman salliminen maksutietojen vientiä varten
+### <a name="to-allow-d365fin-to-export-payment-data"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman salliminen maksutietojen vientiä varten
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maksupäiväkirja** ja valitse sitten liittyvä linkki.  
 2. Valitse **Muokkaa maksupäiväkirjaa** -sivulla **Pankin** erä.  
 3. Valitse **Salli maksun vienti** -valintaruutu.  
@@ -72,12 +72,12 @@ Seuraavassa taulukossa ovat [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelma
 3. Täytä myös muita kenttiä valinnastasi riippuen. Yhdistelmien kuvaukset löytyvät yllä olevasta taulukosta.  
 
 ### <a name="to-specify-the-format-to-use-for-a-bank-account"></a>Pankkitilin käytettävän muodon määrittäminen
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pankkitilit** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tilit** ja valitse sitten liittyvä linkki.  
 2. Avaa pankkitilin kortti.  
 3. Valitse **Maksun vientimuoto** -kentässä vientitiedoston muoto.  
 
 ## <a name="choosing-the-fik-or-giro-payment-information-for-vendor-invoices"></a>Toimittajan laskujen FIK:n tai tilisiirron tietojen valitseminen
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostolaskut** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Ostolaskut** ja valitse sitten liittyvä linkki.
 2. Valitse toimittaja. Muista, että toimittajan on oltava tanskalainen, jolla on myös osoite Tanskassa.
 3. Luo lasku. **Maksutapa**- ja **Toimittajan numero** -kentät täytetään toimittajan kortin asetusten perusteella. Voit halutessasi muuttaa tietoja.
 4. Syötä **Maksuviittaus**-kenttään toimittajan laskun 15 numeron sarja.  
@@ -100,8 +100,6 @@ Seuraavassa taulukossa ovat [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelma
 
 ## <a name="see-also"></a>Katso myös .
 [Business Central -sovelluksen mukauttaminen [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmaa varten laajennusten avulla](ui-extensions.md)  
-[SEPA-suoraveloitusperintätapahtumien luominen ja vieminen pankkitiedostoon](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md)  
-[SEPA-suoraveloituksen määrittäminen](finance-how-to-set-up-sepa-direct-debit.md)  
+[Maksujen kerääminen SEPA-suoraveloitusperintänä.](finance-collect-payments-with-sepa-direct-debit.md)  
 [SEPA-suoraveloitusmaksujen kirjaaminen](finance-how-to-post-sepa-direct-debit-payment-receipts.md)  
-[Maksujen kerääminen SEPA-suoraveloitusperintänä](finance-collect-payments-with-sepa-direct-debit.md)  
 [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md)  

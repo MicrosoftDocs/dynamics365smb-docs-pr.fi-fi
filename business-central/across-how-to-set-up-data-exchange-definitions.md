@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 02/07/2020
+ms.date: 02/11/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8a2e134c072fd27d08c9ad2c90858eef507fe5e4
-ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
+ms.openlocfilehash: dfd06fce9aab0de6afb725ab4625138b62305a1a
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3030170"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076780"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Tietojenvaihtomääritysten määrittäminen
 Voit määrittää [!INCLUDE[d365fin](includes/d365fin_md.md)]in vaihtamaan tiettyjen taulukoiden tietoja ulkoisten tiedostojen kanssa. Tällöin voit esimerkiksi lähettää ja vastaanottaa sähköisiä asiakirjoja sekä tuoda ja viedä pankkitietoja tai muita tietoja, kuten palkanlaskennan tietoja, vaihtokursseja ja tuoteluetteloita. Lisätietoja on kohdassa [Sähköinen tiedonsiirto](across-data-exchange.md).  
@@ -110,7 +110,7 @@ Tämä kuvataan seuraavissa menettelytavoissa.
 > [!NOTE]  
 >  Erityinen kartoitus riippuu vaihdettavan tiedoston liiketoimintatarkoituksesta ja paikallisista variaatioista. Jopa SEPA-pankkistandardissa on paikallisia vaihteluita. [!INCLUDE[d365fin](includes/d365fin_md.md)] tukee SEPA CAMT -tiliotetiedostojen tuontia \-ilman\- lisä\-toimia. Siitä on osoituksena **SEPA CAMT** -tiedonsiirtomäärityksen tietuekoodi **Tiedonsiirtomääritykset**-sivulla. Lisätietoja SEPA CAMT -tuelle ominaisista kenttien yhdistämismäärityksistä on kohdassa [Kenttien yhdistämismääritykset SEPA CAMT -tiedostoja tuotaessa](across-field-mapping-when-importing-sepa-camt-files.md).  
 
-#### <a name="to-map-columns-in-the-data-file-to-fields-in-included365finincludesd365fin_mdmd"></a>Datatiedoston sarakkeiden yhdistäminen [!INCLUDE[d365fin](includes/d365fin_md.md)]in kenttiin  
+#### <a name="to-map-columns-in-the-data-file-to-fields-in-d365fin"></a>Datatiedoston sarakkeiden yhdistäminen [!INCLUDE[d365fin](includes/d365fin_md.md)]in kenttiin  
 > [!TIP]
 > Joskus kenttien arvot, jotka haluat yhdistää, ovat erilaisia. Esimerkiksi yhdessä yrityssovelluksessa Yhdysvaltojen kielikoodi on "U.S.", mutta toisessa se on "US". Tämä tarkoittaa, että arvo on muunnettava, kun tietoja vaihdetaan. Tämä tapahtuu muutossäännöillä, jotka määrität kentille. Lisätietoja on kohdassa [Muunnossäännöt](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).
 
@@ -124,7 +124,7 @@ Tämä kuvataan seuraavissa menettelytavoissa.
     |**Nimi**|Kirjoita kohdistusasetuksen nimi.|  
     |**Yhdistämistä edeltävä Codeunit**|Määritä koodiyksikkö, joka valmistelee [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman kenttien ja ulkoisten tietojen yhdistämisen.|  
     |**Vastaava Codeunit**|Määritä koodiyksikkö, jota käytetään yhdistämään määritetyt sarakkeet tai XML-elementit [!INCLUDE[d365fin](includes/d365fin_md.md)]in kenttiin.|  
-    |**Yhdistämisen jälkeinen Codeunit**|Määritä koodiyksikkö, joka täydentää [!INCLUDE[d365fin](includes/d365fin_md.md)]in kenttien ja ulkoisten tietojen väliset yhdistämismääritykset. **Huomautus:** Kun pankkitietojen muuntopalvelutoiminto on käytössä, koodiyksikkö muuntaa [!INCLUDE[d365fin](includes/d365fin_md.md)]ista viedyt tiedot yleiseen vientiin soveltuvaksi muodoksi. Koodiyksikkö muuntaa ulkoiset tiedot vientiä varten sellaiseen muotoon, jonka voi tuoda [!INCLUDE[d365fin](includes/d365fin_md.md)]iin.|  
+    |**Yhdistämisen jälkeinen Codeunit**|Määritä koodiyksikkö, joka täydentää [!INCLUDE[d365fin](includes/d365fin_md.md)]in kenttien ja ulkoisten tietojen väliset yhdistämismääritykset. **Huomautus:** Kun AMC Banking 365 -perusteiden laajennustoiminto on käytössä, koodiyksikkö muuntaa [!INCLUDE[d365fin](includes/d365fin_md.md)]ista viedyt tiedot yleiseen vientiin soveltuvaksi muodoksi. Koodiyksikkö muuntaa ulkoiset tiedot vientiä varten sellaiseen muotoon, jonka voi tuoda [!INCLUDE[d365fin](includes/d365fin_md.md)]iin.|  
 
 3.  Määritä **Kentän vastaavuus** -pikavälilehdessä, mitkä sarakkeet yhdistetään mihin [!INCLUDE[d365fin](includes/d365fin_md.md)]in kenttiin täyttämällä kentät seuraavassa taulukossa kuvatulla tavalla.  
 
@@ -139,7 +139,7 @@ Tämä kuvataan seuraavissa menettelytavoissa.
     |**Kohdekentän seloste**|Näkyvissä vain, kun **Käytä väliaikaisena taulukkona** -valintaruutu on valittu.<br /><br /> Määritä kentän nii kohdetaulukossa, johon **Sarakeotsikko**-kentän arvo yhdistetään, kun tietojen tuonnissa käytetään väliaikaista taulukkoa.|  
     |**Valinnainen**|Näkyvissä vain, kun **Käytä väliaikaisena taulukkona** -valintaruutu on valittu.<br /><br /> Määritä, pitääkö yhdistäminen ohittaa, jos kenttä on tyhjä. Jos et valitse tätä valintaruutua, tällöin järjestelmä ilmoittaa vientivirheestä, jos kenttä on tyhjä.|  
 
-Tietojenvaihtomääritys voidaan nyt ottaa käyttöön käyttäjille. Lisätietoja on kohdissa [Sähköisten asiakirjojen vastaanottamisen ja lähettämisen määrittäminen](across-how-to-set-up-electronic-document-sending-and-receiving.md), [SEPA-hyvityksen siirron määrittäminen](finance-how-to-set-up-sepa-credit-transfer.md), [SEPA-suoraveloituksen määrittäminen](finance-how-to-set-up-sepa-direct-debit.md) ja [Maksujen suorittaminen pankkitietojen muunnospalvelulla tai SEPA-hyvityksen siirrolla](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
+Tietojenvaihtomääritys voidaan nyt ottaa käyttöön käyttäjille. Lisätietoja on kohdissa [Sähköisten asiakirjojen vastaanottamisen ja lähettämisen määrittäminen](across-how-to-set-up-electronic-document-sending-and-receiving.md), [SEPA-hyvityksen siirron määrittäminen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#setting-up-sepa-credit-transfer),[Maksujen kerääminen SEPA-suoraveloituksella](finance-collect-payments-with-sepa-direct-debit.md) ja [Maksujen suorittaminen AMC Banking 365 -perusteiden laajennuksella tai SEPA-hyvityksen siirrolla](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
 
 ### <a name="transformation-rules"></a>Muunnossäännöt
 Jos kenttien arvot ovat erilaisia, sinun on käytettävä muunnossääntöjä tietojen vaihdon määrityksissä, jotta ne olisivat samat. Voit määrittää muunnossäännöt tiedonvaihtomäärittelyjä varten avaamalla aiemmin luodun määrityksen tai luomalla uuden määrityksen ja valitsemalla sitten **Rivimääritykset** -pikavälilehdessä **Hallitse** ja sitten **Kenttien yhdistämismääritykset**. Ennalta määritetyt säännöt ovat käytettävissä, mutta voit myös luoda omia sääntöjä. Seuraavassa taulukossa kuvataan, millaisia muunnoksia voit suorittaa.
@@ -157,7 +157,7 @@ Jos kenttien arvot ovat erilaisia, sinun on käytettävä muunnossääntöjä ti
 |**Päivämäärän muotoilu**|Määritä päivämäärien näyttäminen. Voit esimerkiksi muuntaa PP-KK-VVVV muotoon VVVV-KK-PP.|
 |**Desimaalien muotoilu**|Määritä desimaalien erottelun ja pyöristystarkkuuden säännöt.|
 |**Säännöllinen lauseke -vastaavuus**|Etsi yksi tai useampi arvo säännöllisen lausekkeen avulla. Tämä on samanlainen kuin **Alimerkkijono** ja **Säännöllinen lauseke -korvaa** -vaihtoehdot.|
-|**Mukautettu**|Tämä on kehittynyt vaihtoehto, joka edellyttää apua kehittäjältä. Se mahdollistaa integrointitapahtuman, jonka voit tilata, jos haluat käyttää omaa muunnoskoodia. Jos olet kehittäjä ja haluat käyttää tätä vaihtoehtoa, katso alla olevaa [esimerkkiä](across-how-to-set-up-data-exchange-definitions.md#tip-for-developers-example-of-the-custom-option).|
+|**Mukautettu**|Tämä on kehittynyt vaihtoehto, joka edellyttää apua kehittäjältä. Se mahdollistaa integrointitapahtuman, jonka voit tilata, jos haluat käyttää omaa muunnoskoodia. Jos olet sovelluskehittäjä ja haluat käyttää tätä vaihtoehtoa, katso alla olevaa kohtaa Kehittäjien vinkki: Esimerkki mukautetusta vaihtoehdosta.|
 |**Päivämäärän ja ajan muotoilu**|Määritä, miten nykyinen päivämäärä ja kellonaika näytetään.|
 
 #### <a name="tip-for-developers-example-of-the-custom-option"></a>Vinkki kehittäjille: Esimerkki mukautetusta vaihtoehdosta
@@ -196,8 +196,7 @@ Kun olet luonut tietojenvaihtomäärityksen tietylle datatiedostolle, voit vied�
 ## <a name="see-also"></a>Katso myös  
 [Tiedonsiirron määrittäminen](across-set-up-data-exchange.md)  
 [Sähköisten asiakirjojen vastaanottamisen ja lähettämisen määrittäminen](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
-[SEPA-hyvityksen siirron määrittäminen](finance-how-to-set-up-sepa-credit-transfer.md)  
-[SEPA-suoraveloituksen määrittäminen](finance-how-to-set-up-sepa-direct-debit.md)  
-[Maksujen suorittaminen pankkitietojen muunnospalvelulla tai SEPA-hyvityksen siirrolla](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
+[Maksujen kerääminen SEPA-suoraveloitusperintänä](finance-collect-payments-with-sepa-direct-debit.md)  
+[Suorita maksuja AMC Banking 365 -perusteiden laajennuksen tai SEPA-tilisiirron avulla](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
 [Saapuvat asiakirjat](across-income-documents.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)  

@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 1b7936a73274545dc0e8a9fcddec2fe68fdb62c9
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 946b14c6d3a480bda217b9d78330343a8d772de1
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953873"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097718"
 ---
 # <a name="assembly-management"></a>Kokoonpanon hallinta
 Tukeakseen yrityksiä, jotka toimittavat asiakkailleen tuotteita yhdistämällä osia yksinkertaisissa prosesseissa ilman tuotantotoimintojen tarvetta, [!INCLUDE[d365fin](includes/d365fin_md.md)] sisältää ominaisuuksia, jotka kokoavat nimikkeitä, joissa on olemassa olevia ominaisuuksia, kuten myynti, suunnittelu, varaukset, ja varastointi.  
 
  Kokoonpanon nimike määritetään myytävänä kohteena, joka sisältää kokoonpanon tuoterakenteen. Lisätietoja on kohdassa [Tuoterakenteen käyttäminen](inventory-how-work-BOMs.md).
 
- Kokoonpanotilaukset ovat sisäisiä tilauksia, aivan kuten tuotantotilaukset, joita käytetään kokoonpanoprosessin hallinnassa sekä myyntivaatimusten liittämiseksi asianmukaisiin varastotoimintoihin. Kokoonpanotilaukset eroavat muista tilaustyypeistä, sillä ne kattavat sekä tuotoksen että kulutuksen, kun ne kirjataan. Kokoonpanotilauksen otsikko toimii samaan tapaan kuin myyntitilausrivi ja kokoonpanotilauksen rivit toimivat samalla tavalla kuin kulutuspäiväkirjan rivit.  
+ Kokoonpanotilaukset ovat sisäisiä tilauksia, aivan kuten tuotantotilaukset, joita käytetään kokoonpanoprosessin hallinnassa sekä myyntivaatimusten liittämiseksi asianmukaisiin varastotoimintoihin. Kokoonpanotilaukset eroavat muista tilaustyypeistä, sillä ne kattavat sekä tuotoksen että kulutuksen, kun ne kirjataan. Kokoonpanotilauksen otsikko toimii samaan tapaan kuin tuotospäiväkirja ja kokoonpanotilauksen rivit toimivat samalla tavalla kuin kulutuspäiväkirjan rivit.  
 
  Just-In-Time -varastostrategian ja kyvyn mukauttaa tuotteet asiakkaan vaatimusten mukaisiksi tukemiseksi kokoonpanotilauksia voidaan automaattisesti luoda ja linkittää heti kun myyntitilausrivi on luotu. Linkki myyntikysynnän ja kokoonpanotarjonnan kokoonpanon välillä mahdollistaa myyntitilauksen käsittelijöille kokoonpano-osan mukauttamisen lennossa, toimituspäivien lupaamisen osan saatavuuden mukaan, ja tuotoksen ja toimituksen kirjaamisen valmiille nimikkeelle suoraan myyntitilausliittymästä. Lisätietoja on kohdassa [Kokoonpano tilausta varten -nimikkeiden myyminen](assembly-how-to-sell-items-assembled-to-order.md).  
 
@@ -46,7 +46,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 |Tutustu siihen, mikä ero on kokoonpanon tuoterakenteella ja tuotannon tuoterakenteella, sekä niihin liittyviin käsittelyeroihin.|[Tuoterakenteen käyttäminen](inventory-how-work-BOMs.md)|
 |Tutustu siihen, miten kokoonpanon kulutusta ja tuotosta käsitellään, kun kokoonpanotilauksia kirjataan, ja miten tästä koituvat nimike- ja resurssikustannukset käsitellään ja jaetaan pääkirjanpitoon.|[Rakennetiedot: Kokoonpanotilauksen kirjaus](design-details-assembly-order-posting.md)|  
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsassemble-items-dynamics-365-business-central"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/paths/assemble-items-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/paths/assemble-items-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös  
 [Tuoterakenteen käyttäminen](inventory-how-work-BOMs.md)  

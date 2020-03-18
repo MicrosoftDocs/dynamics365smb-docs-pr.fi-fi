@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 92c30770b62b6456a16ab26db2c4ea3cda526b8e
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: b809743aa25aee409b9a71ca98da77ea64b58fb1
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2880590"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076512"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Rakennetiedot: suunnittelujärjestelmän keskeiset käsitteet
 Suunnittelutoiminnot on sisällytetty eräajoon, joka ensin valitsee asiaankuuluvat nimikkeet ja ajanjaksot, jotka suunnitellaan. Eräajo kutsuu koodiyksikköä kunkin nimikkeen alatason koodin (tuotantorakenteen positio) mukaisesti ja laskee suunnitelman täsmäyttämällä tarjonta- ja kysyntäjoukot ja ehdottaa käyttäjälle mahdollisia toimintatapoja. Ehdotetut toimenpiteet ilmestyvät riveinä suunnittelutaulukkoon tai tilaustaulukkoon.  
@@ -46,7 +46,7 @@ Kaikki kysyntä ja tarjonta ennen suunnittelujakson aloituspäivämäärää kat
 
 Toisin sanoen se olettaa aiemman suunnitelman suorittamista määritetyn suunnitelman mukaan.  
 
-Lisätietoja on kohdassa [Rakennetiedot: tilausten käsittely ennen suunnittelun aloituspäivää](design-details-dealing-with-orders-before-the-planning-starting-date.md)  
+Lisätietoja on kohdassa [Tilausten käsittely ennen suunnittelun aloituspäivää](design-details-balancing-demand-and-supply.md#dealing-with-orders-before-the-planning-starting-date).  
 
 ## <a name="dynamic-order-tracking-pegging"></a>Dynaaminen tilausseuranta (tarvekohdistus)  
 Dynaaminen tilausseuranta, joka luo samanaikaisesti toimenpideviestit suunnittelutyökirjassa, ei ole osa tarjonnan suunnittelujärjestelmää [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmassa Tämä toiminto linkittää reaaliaikaisesti kysynnän ja määrät, jotka voisivat kattaa sen, jos uusi kysyntä tai tarjonta luodaan tai sitä muutetaan.  
@@ -76,7 +76,7 @@ Sen sijaan suunnittelujärjestelmä käsittelee tietyn nimikkeen kaiken kysynnä
 
 Suunnitteluajon jälkeen Toimenpideviestitapahtuma-taulukossa ei ole toimenpideviestejä, koska ne on korvattu suunnittelutyökirjassa ehdotetuilla toimenpiteillä  
 
-Lisätietoja on kohdan [Rakennetiedot: tarjonnan täsmäytys kysynnällä](design-details-balancing-supply-with-demand.md) osassa Tilauksen seurantalinkit suunnittelun aikana.  
+Lisätietoja on kohdan [Tarjonnan täsmäytys kysynnällä](design-details-balancing-demand-and-supply.md#balancing-supply-with-demand) osassa Tilauksen seurantalinkit suunnittelun aikana.  
 
 ## <a name="sequence-and-priority-in-planning"></a>Suunnittelun järjestys ja ensisijaisuus  
 Laskentajärjestys on tärkeä suunnitelman muodostuksessa, koska sen avulla työ voidaan tehdä kohtuullisessa ajassa. Lisäksi vaatimusten ja resurssien priorisoinnilla on tärkeä merkitys parhaiden tulosten saamiseksi.  
@@ -90,7 +90,7 @@ Valmistusympäristössä valmiiden, myytävien nimikkeiden kysyntä aiheuttaa va
 
 Luvut osoittavat missä järjestyksessä järjestelmä tekee ehdotuksia toimitustilauksiin huipputasolla ja olettaen, että käyttäjä hyväksyy nämä ehdotukset, missä tahansa alemman tason nimikkeissä myös.  
 
-Lisätietoja tuotantonäkökohdista on kohdassa [Rakennetiedot: varastoprofiilien lataaminen](design-details-loading-the-inventory-profiles.md).  
+Lisätietoja tuotantonäkökohdista on kohdassa [Varastoprofiilien lataaminen](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
 
 ### <a name="locations--transfer-level-priority"></a>Sijainnit/siirtotason prioriteetti  
 Yritysten, jotka toimivat useammassa kuin yhdessä paikassa, on ehkä suunniteltava jokaiselle paikalle erikseen. Esimerkiksi nimikkeen varmuusvaraston taso ja sen uusintatilaustapa saattaa vaihdella sijainnista toiseen. Tässä tapauksessa suunnitteluparametrit on määritettävä nimike- ja sijaintikohtaisesti.  
@@ -106,14 +106,14 @@ Lisätietoja on kohdassa [Rakennetiedot: siirrot suunnittelussa](design-details-
 ### <a name="order-priority"></a>Tilauksen prioriteetti  
 Pyydetty tai käytettävissä oleva päivämäärä edustaa annetun varastointiyksikön korkeinta prioriteettia. Tämän päivän kysyntä tulee käsitellä ennen tulevien päivien kysyntää. Mutta lukuun ottamatta tätä jonkinlaista prioriteettia, eri kysynnän ja tarjonnan tyypit järjestetään liiketoiminnan tärkeyden perusteella jotta voidaan päättää mikä kysyntä on täytettävä ennen kuin täytetään toinen kysyntä. Tarjonnan puolella tilauksen prioriteetti kertoo mitä tarjontalähdettä tulisi soveltaa ennen muiden tarjontalähteiden käyttöä.  
 
-Lisätietoja on ohjeaiheessa [Rakennetiedot: tilausten priorisointi](design-details-prioritizing-orders.md).  
+Lisätietoja on kohdassa [Projektitilausten priorisointi](design-details-balancing-demand-and-supply.md#prioritizing-orders).  
 
 ## <a name="demand-forecasts-and-blanket-orders"></a>Kysyntäennusteet ja puitetilaukset  
 Sekä ennustukset ja puitetilaukset esittävät odotettavissa olevaa kysyntää. Kestotilaus, joka kattaa asiakkaan suunnitellut ostot tietyltä aikajaksolta, vähentää yleisennusteen epävarmuutta. Kestotilaus on asiakkaan määrittämä ennuste määrittämättömien ennusteiden lisäksi, kuten kuvattu alla.  
 
 ![Ennusteiden käyttäminen suunnitelussa](media/NAV_APP_supply_planning_1_forecast_and_blanket.png "Ennusteiden käyttäminen suunnitelussa")  
 
-Lisätietoja on kohdan [Rakennetiedot: varastoprofiilien lataaminen](design-details-loading-the-inventory-profiles.md) osassa Myyntitilaukset vähentävät ennustettua kysyntää.  
+Lisätietoja on kohdan [Varastoprofiilien lataaminen](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles) osassa Myyntitilaukset vähentävät ennustettua kysyntää.  
 
 ## <a name="planning-assignment"></a>Suunnittelun tehtävä  
 Kaikki nimikkeet tulee suunnitella, mutta nimikkeelle ei ole syytä laskea suunnitelmaa ellei kysyntä- tai tarjontakuvio ole muuttunut edellisen suunnitelman laskemisen jälkeen.  
@@ -171,9 +171,9 @@ Sarja-/eränumeroidut nimikkeet ilman erityistä nimikeseuranta-asetusta voi vä
 
 Kysyntä-tarjonta sarja- tai eränumeroiden kanssa, erityinen tai ei erityinen, määritetään korkean prioriteetin tilanteeksi ja tämän vuoksi vapautettu jäädytetystä vyöhykkeestä, joka tarkoittaa, että ne ovat osa suunnittelua, vaikka ne erääntyvät ennen suunnittelun aloituspäivää.  
 
-Lisätietoja on kohdan [Rakennetiedot: varastoprofiilien lataaminen](design-details-loading-the-inventory-profiles.md) osassa Erittelytaso lataa sarja-/eränumerot.  
+Lisätietoja on kohdan [Varastoprofiilien lataaminen](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles) osassa Erittelytaso lataa sarja-/eränumerot.  
 
-Lisätietoja tavasta, jolla suunnittelujärjestelmä täsmäyttää määritteet on kohdan [Rakennetiedot: tilausten käsittely ennen suunnittelun aloituspäivää](design-details-dealing-with-orders-before-the-planning-starting-date.md) osassa Sarja-/ eränumeroita ja tilausten välisiä linkkejä ei huomioida kiinnitetyillä alueilla.  
+Saat lisätietoja siitä, kuinka suunnittelujärjestelmä täsmäyttää määritteet kohdasta [Sarja- /eränumeroita ja tilausten välisiä linkkejä ei huomioida kiinnitetyillä alueilla](design-details-balancing-demand-and-supply.md#seriallot-numbers-and-order-to-order-links-are-exempt-from-the-frozen-zone).  
 
 ## <a name="order-to-order-links"></a>Tilausten väliset linkit  
 Tilausten välinen hankintaluokka tarkoittaa, että nimike ostetaan, kootaan tai tuotetaan erityisesti kattamaan tietty kysyntä. Yleensä tämä liittyy A-nimikkeisiin. Tämä tapa valitaan esimerkiksi silloin, kun kysyntä ei ole säännöllistä, toimitusajalla ei ole merkitystä tai pakolliset määritteet vaihtelevat.  
@@ -223,14 +223,14 @@ Hätä-varoitus tulee näkyviin kahdessa tilanteessa:
 -   Kun varasto on negatiivinen suunnittelun aloituspäivämääränä.  
 -   Kun nykyhetkeä aikaisempia tarjonta- tai kysyntätapahtumia on olemassa.  
 
-Jos nimikkeen varasto on negatiivinen suunnittelun aloituspäivämääränä, suunnittelujärjestelmä ehdottaa negatiiviselle määrälle hätätilausta, joka saapuu suunnittelun aloituspäivämääränä. Varoitustekstissä kerrotaan aloituspäivämäärä ja hätätilauksen määrä. Lisätietoja on kohdassa [Rakennetiedot: suunnitellun negatiivisen varaston käsittely](design-details-handling-projected-negative-inventory.md).  
+Jos nimikkeen varasto on negatiivinen suunnittelun aloituspäivämääränä, suunnittelujärjestelmä ehdottaa negatiiviselle määrälle hätätilausta, joka saapuu suunnittelun aloituspäivämääränä. Varoitustekstissä kerrotaan aloituspäivämäärä ja hätätilauksen määrä. Lisätietoja on kohdassa [Suunnitellun negatiivisen varaston käsittely](design-details-handling-reordering-policies.md#handling-projected-negative-inventory).  
 
 Jos asiakirjassa on rivejä, joiden eräpäivä on ennen suunnittelun aloituspäivämäärää, rivit yhdistetään yhdeksi hätätoimitustilaukseksi, jotta nimike saapuisi suunnittelun aloituspäivämääränä.  
 
 ### <a name="exception"></a>Poikkeus  
 Poikkeus-varoitus näytetään, jos oletettu saatavilla oleva varasto pienenee varmuusvaraston määrää pienemmäksi. Suunnittelujärjestelmä ehdottaa toimitustilausta, joka täyttää kysynnän eräpäivänä. Varoitustekstissä kerrotaan nimikkeen varmuusvaraston määrä ja päivämäärä, jolloin se vähenee liian pieneksi.  
 
-Varmuusvaraston tason alittaminen aiheuttaa poikkeuksen, koska näin ei pitäisi käydä, jos uusintatilauspiste on määritetty oikein. Lisätietoja on kohdassa [Rakennetiedot: uusintatilauspisteen rooli](design-details-the-role-of-the-reorder-point.md).  
+Varmuusvaraston tason alittaminen aiheuttaa poikkeuksen, koska näin ei pitäisi käydä, jos uusintatilauspiste on määritetty oikein. Lisätietoja on kohdassa [Uusintatilauspisteen rooli](design-details-handling-reordering-policies.md#the-role-of-the-reorder-point).  
 
 Yleisesti ottaen poikkeukselliset tilausehdotukset varmistavat, että arvioitu käytettävissä oleva varasto ei ole koskaan varmuusvaraston tasoa alhaisempi. Tämä tarkoittaa sitä, että ehdotettu määrä riittää kattamaan vain varmuusvaraston ottamatta suunnitteluparametreja huomioon. Kuitenkin joissakin tilanteissa tilausmääritteet otetaan huomioon.  
 
@@ -242,7 +242,7 @@ Huomautus-varoitus tulee näkyviin kolmessa tilanteessa:
 
 -   Suunnittelun aloituspäivämäärä on varhaisempi kuin käsittelypäivämäärä.  
 -   Suunnittelurivi ehdottaa vapautetun osto- tai tuotantotilauksen vaihtamista.  
--   Käsitelty varasto ylittää ylitystason eräpäivänä. Lisätietoja on kohdassa [Rakennetiedot: sallitun ylityksen alapuolella pysytteleminen](design-details-staying-under-the-overflow-level.md).  
+-   Käsitelty varasto ylittää ylitystason eräpäivänä. Lisätietoja on kohdassa [Sallitun ylityksen alapuolella pysytteleminen](design-details-handling-reordering-policies.md#staying-under-the-overflow-level).  
 
 > [!NOTE]  
 >  Suunnitteluriveillä, joilla on varoituksia, ei valita **Hyväksy toimenpideviesti** -kenttää, koska suunnitteluohjelman oletetaan tutkivan tarkemmin näitä rivejä ennen suunnitelman toteutusta.  
