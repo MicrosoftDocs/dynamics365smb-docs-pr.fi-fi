@@ -44,7 +44,7 @@
     </Node>
     <Node Name="" DisplayName="Pankkitoiminnan määrittäminen" Page="bank-setup-banking.html">
       <Node Name="" DisplayName="Toimittajan pankkitilien määrittäminen" Page="bank-how-setup-bank-accounts.html"/>
-      <Node Name="" DisplayName="Toimintaohje: Pankkitietojen muuntopalvelun määrittäminen" Page="bank-how-setup-bank-data-conversion-service.html"/>
+      <Node Name="" DisplayName="Toimintaohje: Asenna AMC Banking 365 -perusteiden laajennus" Page="bank-how-setup-bank-data-conversion-service.html"/>
     </Node>
     <Node Name="" DisplayName="Myynnin määrittäminen" Page="sales-setup-sales.html">
       <Node Name="" DisplayName="Toimintaohje: Uusien asiakkaiden rekisteröiminen" Page="sales-how-register-new-customers.html"/>

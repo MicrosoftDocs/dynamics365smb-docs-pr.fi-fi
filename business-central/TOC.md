@@ -47,7 +47,7 @@
 ### [Työtilan mukauttaminen](ui-personalization-user.md)
 ### [Sivun mukauttamisen estäminen lukitsemalla](ui-personalization-locked.md)
 ### [Luettelonäkymien tallentaminen ja mukauttaminen](ui-views.md)
-### [Sivutoiminnon lisääminen roolikeskukseen](ui-bookmarks.md)
+### [Sivun tai raportin kirjanmerkin luominen roolikeskuksessa](ui-bookmarks.md)
 ### [Luetteloiden näyttäminen eri tavoilla](across-display-lists-different-views.md)
 ## Raporttien tulostaminen sekä eräajojen ja XMLportien suorittaminen
 ### [Raporttien, eräajojen ja XMLportien käsitteleminen](ui-work-report.md)
@@ -64,6 +64,7 @@
 ### [Päivitä mukautetut raporttiasettelut](ui-update-report-layouts.md)
 ### [Asiakirja-asettelujen määrittäminen asiakkaille ja toimittajille](ui-define-customer-vendor-document-layouts.md)
 ### [Kenttien lisääminen Word-raporttiasetteluun](ui-how-add-fields-word-report-layout.md)
+### [Käytettävissä olevat fontit](ui-fonts.md)
 ## Pikanäppäimien käyttäminen
 ### [Helppokäyttötoiminnot ja pikanäppäimet](ui-accessibility.md)
 ### [Pikanäppäimet](keyboard-shortcuts.md)
@@ -297,8 +298,7 @@
 #### [Saapuvien asiakirjojen määrittäminen](across-how-setup-income-documents.md)
 #### [Valuutan vaihtokurssien päivittäminen](finance-how-update-currencies.md)
 #### [Sähköisten asiakirjojen vastaanottamisen ja lähettämisen määrittäminen](across-how-to-set-up-electronic-document-sending-and-receiving.md)
-#### [SEPA-hyvityksen siirron määrittäminen](finance-how-to-set-up-sepa-credit-transfer.md)
-#### [SEPA-suoraveloituksen määrittäminen](finance-how-to-set-up-sepa-direct-debit.md)
+#### [Maksujen kerääminen SEPA-suoraveloitusperintänä](finance-collect-payments-with-sepa-direct-debit.md)
 #### [AMC Banking 365 -perusteiden laajennuksen käyttäminen](ui-extensions-amc-banking.md)
 #### [Pankin tiliotepalvelun määrittäminen](bank-how-setup-bank-statement-service.md)
 #### [Pankkitilien määrittäminen](bank-how-setup-bank-accounts.md)
@@ -310,8 +310,8 @@
 #### [PDF- ja kuvatiedostojen muuntaminen sähköisiksi asiakirjoiksi OCR-palvelun avulla](across-how-use-ocr-pdf-images-files.md)
 #### [Sähköisten asiakirjojen vastaanottaminen ja muuntaminen](purchasing-how-to-receive-and-convert-electronic-documents.md)
 #### [Envestnet Yodlee Bank Feeds -palvelun määrittäminen](bank-how-setup-bank-statement-service.md)
-#### [Maksujen vienti pankkitiedostoon](payables-how-export-payments-bank-file.md)
-#### [Maksujen suorittaminen pankkitietojen muunnospalvelulla tai SEPA-tilisiirrolla](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
+#### [Maksujen vienti pankkitiedostoon](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
+#### [Maksujen suorittaminen AMC Banking 365 -perusteiden laajennuksen tai SEPA-tilisiirron avulla](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
 #### [Maksujen kerääminen SEPA-suoraveloitusperintänä](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Valuutan vaihtokurssien päivittäminen](finance-how-update-currencies.md)
 #### [Kenttien vastaavuuksien määrittäminen tuotaessa SEPA-CAMT-tiedostoja](across-field-mapping-when-importing-sepa-camt-files.md)
@@ -403,7 +403,7 @@
 #### [Maksujen ja hyvitysten kirjaaminen](payables-how-post-payments-refunds.md)
 #### [Ehdota toimittajamaksuja](payables-how-suggest-vendor-payments.md)
 #### [Sekkimaksujen suorittaminen](payables-how-work-checks.md)
-#### [Maksujen suorittaminen pankkitietojen muunnospalvelulla tai SEPA-tilisiirrolla](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
+#### [Maksujen suorittaminen AMC Banking 365 -perusteiden laajennuksen tai SEPA-tilisiirron avulla](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
 #### [Ostolaskujen selvittäminen viipymättä](finance-how-to-settle-purchase-invoices-promptly.md)
 #### [Positive Pay -tiedoston vienti](finance-how-positive-pay.md)
 ### Maksujen kohdistaminen automaattisesti ja pankkitilien täsmäyttäminen
@@ -918,7 +918,6 @@
 #### [Käyttöveron ja ostoveron määrittäminen](LocalFunctionality/Canada/how-to-set-up-use-tax-and-purchase-tax.md)
 ### Pankkitoiminta ja maksut
 #### [Talletusten luominen](LocalFunctionality/Canada/how-to-create-deposits.md)
-#### [Asiakkaan luottotietojen hallitseminen](LocalFunctionality/Canada/how-to-manage-customer-credit-information.md)
 #### [Sähköisten maksujen suorittaminen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
 ### Yleiset
 #### [Vianmääritysraporttien tulostaminen](LocalFunctionality/Canada/how-to-print-troubleshooting-reports.md)
@@ -1064,7 +1063,6 @@
 ## Islanti
 ### [Yleiskuvaus](LocalFunctionality/Iceland/iceland-local-functionality.md)
 ### ALV
-#### [Islannin ehdollisia alennuksia koskeva verosäädäntö](LocalFunctionality/Iceland/icelandic-tax-regulations-of-conditional-discounts.md)
 #### [ALV-yhteenvetotietojen tulostaminen asiakirjoihin](LocalFunctionality/Iceland/how-to-print-vat-summary-information-on-documents.md)  
 #### [Erityistietojen ja -raporttien tuottaminen veronviranomaisille](LocalFunctionality/Iceland/special-data-output-and-reports-for-the-tax-authority.md)
 ### Sähköinen laskutus
@@ -1459,7 +1457,6 @@
 #### [Pankkitilien täsmäytys](LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts.md)
 #### [Sähköisten maksujen suorittaminen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
 ### Yleiset
-#### [Asiakkaan luottotietojen hallitseminen](LocalFunctionality/UnitedStates/how-to-manage-customer-credit-information.md)  
 #### [Vianmääritysraporttien tulostaminen](LocalFunctionality/UnitedStates/how-to-print-troubleshooting-reports.md)
 ## [Lakisääteisten ilmoitusten lähettäminen](submit-regulatory-alerts.md)
 # Yhteensopivuus
