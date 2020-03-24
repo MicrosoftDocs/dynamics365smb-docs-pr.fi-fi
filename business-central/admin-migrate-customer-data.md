@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 12/19/2019
 ms.author: sgroespe
-ms.openlocfilehash: d5c9badf083352e04e118cd7ddc25e5a337e5686
-ms.sourcegitcommit: 53565fea987af861f3846e5c1e0e868c279aeb30
+ms.openlocfilehash: 2da58a4f5a3655fc2153647d80c5d69e1356b503
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2918212"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097694"
 ---
 # <a name="migrate-customer-data"></a>Asiakastietojen siirtäminen
 Voit siirtää aiemmin luodun asiakkaan tiedot aiemmin luodusta ERP-järjestelmästä [!INCLUDE[d365fin](includes/d365fin_md.md)]iin RapidStart Servicesin tietojen siirto-työkalujen avulla . Voit käyttää Excel-tiedostoja tiedonkuljettajana. Voit siirtää tiedot manuaalisesti kirjoittamalla ne suoraan yrityksen.
@@ -31,7 +31,7 @@ Kun luot uuden yhtiön, voit tuoda yrityksen asetukset uudelle yritykselle. Voit
 > [!NOTE]  
 >  Et voi nimetä uudelleen tiedostoa, joka ei ole jo RapidStart Services kokoonpanopaketti, kuten .rapidstart-kokoonpanopakettitiedosto, ja sitten yrittää tuoda sitä. Jos yrität tehdä tämän, saat virheilmoituksen.  
 
-Varmista ennen aloittamista, että sinulla on oikeudet suorittaa RapidStart Services -objektit. Voit esimerkiksi määrittää SUPER-käyttöoikeusjoukon tai olla sisäinen tai delegoitu järjestelmänvalvoja. Suosittelemme myös, että olet roolikeskuksessa, jossa on linkkejä RapidStart Servicesiin, kuten hallintaroolikeskuksessa. Lisätietoja on kohdassa [Roolin vaihtaminen](ui-change-basic-settings.md#to-change-the-role).  
+Varmista ennen aloittamista, että sinulla on oikeudet suorittaa RapidStart Services -objektit. Voit esimerkiksi käyttää SUPER- tai D365 RAPIDSTART-käyttöoikeusjoukkoja. Suosittelemme myös, että olet roolikeskuksessa, jossa on linkkejä RapidStart Servicesiin, kuten hallintaroolikeskuksessa. Lisätietoja on kohdassa [Roolin vaihtaminen](ui-change-basic-settings.md#to-change-the-role).  
 
 > [!IMPORTANT]  
 > Kun yrityksen tietokantojen välillä tuodaan tai viedään määrityspaketteja, tietokantojen tulisi noudattaa samaa rakennetta, jotta kaikki tiedot siirtyvät onnistuneesti. Tämä tarkoittaa, että tietokannoilla tulisi olla sama taulukko- ja kenttärakenne, jossa taulukoilla on samat ensisijaiset avaimet ja kentillä on samat tunnukset ja tietotyypit.  
@@ -116,7 +116,7 @@ Seuraavassa esimerkissä kuvataan, kuinka [!INCLUDE[d365fin](includes/d365fin_md
 2. Lisää pakettiin taulukoita, esimerkiksi **Asiakas** ja **Toimittaja**. Molemmat taulukot viittaavat **Myyjä/ostaja** -taulukkoon **myyjäkoodin** ja **ostajakoodin** kautta.  
 3. Kun käytät tietoja, vastaavuusmääritys, joka on annettu **Myyjä/ostaja**-taulukon **Koodi**-kenttään, otetaan huomioon **Myyjäkoodi**- ja **Ostajakoodi**-kentissä.
 
-## <a name="to-add-additional-values-to-included365finincludesd365fin_mdmd"></a>Uusien arvojen lisääminen [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmaan  
+## <a name="to-add-additional-values-to-d365fin"></a>Uusien arvojen lisääminen [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmaan  
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Määrityspaketit** ja valitse sitten liittyvä linkki.  
 2. Valitse taulukko, johon haluat lisätä arvoja, ja valitse sitten **Taulukot**-pikavälilehden **Kentät**-toiminto.  
 3. Kentille, joille haluat [!INCLUDE[d365fin](includes/d365fin_md.md)]:n sallivan lisäarvoja siirron aikana, valitse **Luo puuttuvat koodit** -valintaruutu.  

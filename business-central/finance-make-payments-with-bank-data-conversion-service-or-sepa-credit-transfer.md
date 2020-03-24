@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 01/24/2020
 ms.author: bholtorf
-ms.openlocfilehash: aa4ce82cd1a156561fa2dc929c45e231730fb084
-ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.openlocfilehash: e37341605465a23427b1011e3830ae62b37a46ed
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "2991998"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076875"
 ---
 # <a name="make-payments-with-the-amc-banking-365-fundamentals-extension-or-sepa-credit-transfer"></a>Suorita maksuja AMC Banking 365 -perusteiden laajennuksen tai SEPA-tilisiirron avulla
 Voit käsitellä **Maksupäiväkirja**-sivulla maksut toimittajille viemällä tiedoston yhdessä maksutietojen kanssa päiväkirjan riveiltä. Voit sitten ladata tiedoston verkkopankkiin, jossa liittyvät rahansiirrot käsitellään. [!INCLUDE[d365fin](includes/d365fin_md.md)] tukee SEPA-hyvitysten siirtomuotoa, mutta maa- tai aluekohtaisesti voi olla käytettävissä muita sähköisiä maksumuotoja.
@@ -142,7 +142,6 @@ Kirjaa maksut sen jälkeen, kun pankki on käsitellyt ne onnistuneesti. Lisätie
 
 ## <a name="see-also"></a>Katso myös  
 [AMC Banking 365 -perusteiden laajennuksen käyttäminen](ui-extensions-amc-banking.md)  
-[SEPA-hyvityksen siirron määrittäminen](finance-how-to-set-up-sepa-credit-transfer.md)  
 [Ostovelkojen hallinta](payables-manage-payables.md)   
 [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md)  
-[Maksujen kerääminen SEPA-suoraveloitusperintänä.](finance-collect-payments-with-sepa-direct-debit.md)   
+[Maksujen kerääminen SEPA-suoraveloitusperintänä](finance-collect-payments-with-sepa-direct-debit.md)   
