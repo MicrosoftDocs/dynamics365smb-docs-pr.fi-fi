@@ -28,7 +28,7 @@
 
 # Business Centralin käyttäminen
 ## [Yleiskuvaus](ui-work-product.md)
-## [Tulostusystävällinen pikaopas](ui-work-product.md)
+## [Tulostusystävällinen pikaopas](ui-work-product.md#cheatsheet)
 ## [Sivujen ja tietojen etsiminen Kerro, mitä haluat tehdä -toiminnolla](ui-search.md)
 ## [Sivujen etsiminen roolienhallinnan avulla](ui-role-explorer.md)
 ## [Kerro, mitä haluat tehdä -toiminnon usein kysytyt kysymykset](ui-search-faq.md)
@@ -43,6 +43,7 @@
 ## [Korttien ja asiakirjojen liitteiden, linkkien ja muistioiden hallinta](ui-how-add-link-to-record.md)
 ## [Perusasetusten muuttaminen](ui-change-basic-settings.md)
 ## [Ilmoitusten hallinta](ui-smart-notifications.md)
+## [Suorituskykyä lisääviä vihjeitä yrityskäyttäjille](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
 ## Business Centralin mukauttaminen
 ### [Työtilan mukauttaminen](ui-personalization-user.md)
 ### [Sivun mukauttamisen estäminen lukitsemalla](ui-personalization-locked.md)
@@ -51,7 +52,7 @@
 ### [Luetteloiden näyttäminen eri tavoilla](across-display-lists-different-views.md)
 ## Raporttien tulostaminen sekä eräajojen ja XMLportien suorittaminen
 ### [Raporttien, eräajojen ja XMLportien käsitteleminen](ui-work-report.md)
-### [Tulostimen valinnan määrittäminen raporteille](ui-specify-printer-selection-reports.md)
+### [Tulostimien määrittäminen](ui-specify-printer-selection-reports.md)
 ### [Suoritettavan raportin aikatauluttaminen](ui-work-report.md#ScheduleReport)
 ### [Raporttien ja erätöiden tallennettujen asetusten hallinta](reports-saving-reusing-settings.md)
 ### [Testiraporttien tarkastelu ennen kirjausta](ui-how-view-test-reports-posting.md)
@@ -78,7 +79,7 @@
 ### [Kirjausryhmien määrittäminen](finance-posting-groups.md)
 ### [Talousraportoinnin valmisteleminen KP-raporttimallien ja tililuokkien avulla](bi-how-work-account-schedule.md)
 ### [Maksutoleranssien ja maksualennustoleranssien käsitteleminen](finance-payment-tolerance-and-payment-discount-tolerance.md)
-### [Uuden tilikauden avaaminen](finance-how-open-new-fiscal-year.md)
+### [Kirjanpitojaksojen ja tilikausien käyttäminen](finance-accounting-periods-and-fiscal-years.md)
 ### [Määritä arvolisävero (ALV)](finance-setup-vat.md)
 ### [Ei-realisoituneen arvonlisäveron määrittäminen kassaperusteista kirjanpitoa varten](finance-setup-unrealized-vat.md)
 ### [Tapahtumakirjausten kohdistamisen ottaminen käyttöön eri valuutoissa](finance-how-enable-application-ledger-entries-different-currencies.md)
@@ -322,6 +323,7 @@
 ## [Luo käyttäjät käyttöoikeuksien mukaan](ui-how-users-permissions.md)
 ## [Määritä käyttöoikeudet käyttäjille ja ryhmille](ui-define-granular-permissions.md)
 ## [Profiilien hallinta](admin-users-profiles-roles.md)
+## [Tulostimien määrittäminen](ui-specify-printer-selection-reports.md)
 ## [Tietojen luottamuksellisuuden luokitteleminen](admin-classifying-data-sensitivity.md)
 ## [Henkilökohtaisia tietoja koskeviin pyyntöihin vastaaminen](admin-responding-to-requests-about-personal-data.md)
 ## [Uusien yritysten luominen](about-new-company.md)
@@ -367,13 +369,17 @@
 #### [Muiden toimittajien Business Central -laajennukset](ui-extensions-other.md)
 ## Dynamics 365 Sales -integrointi
 ### [Yleiskuvaus](admin-prepare-dynamics-365-for-sales-for-integration.md)
-### [Dynamics 365 Sales -integroinnissa käytettävien käyttäjätilien määrittäminen](admin-setting-up-integration-with-dynamics-sales.md)
-### [Dynamics 365 Sales -yhteyden määrittäminen](admin-how-to-set-up-a-dynamics-crm-connection.md)
-### [Business Centralin ja Dynamics 365 Salesin synkronointi](admin-synchronizing-business-central-and-sales.md)
+## Integrointi Common Data Servicein kanssa
+### [Yleiskuvaus](admin-common-data-service.md)
+### [Tietojen omistusmallit](admin-cds-company-concept.md)
+### [Common Data Service -integroinnissa käytettävien käyttäjätilien määrittäminen](admin-setting-up-integration-with-dynamics-sales.md)
+### [Yhteyden muodostaminen Common Data Serviceen](admin-how-to-set-up-a-dynamics-crm-connection.md)
+### [Business Centralin ja Common Data Servicein synkronointi](admin-synchronizing-business-central-and-sales.md)
 ### [Synkronoitavien taulujen ja kenttien yhdistäminen](admin-how-to-modify-table-mappings-for-synchronization.md)
 ### [Taulukon yhdistämismääritysten manuaalinen synkronointi](admin-manual-synchronization-of-table-mappings.md)
 ### [Ajoitettu synkronointi](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Synkronointivirheiden vianmääritys](admin-troubleshoot-sales-synchronization.md)
+<!-- ### [Developer Walkthrough: Custom Integration with Common Data Service](admin-walkthrough-customizing-cds-integration.md) moved to devitpro -->
 
 # Rahoitus
 ## [Yleiskuvaus](finance.md)
@@ -511,6 +517,7 @@
 ## [Tietojen analysointi dimensioiden mukaan](bi-how-analyze-data-dimension.md)
 ## [Analyysiraporttien luominen](bi-how-create-analysis-views-reports.md)
 ## [Luo raportteja XBRL-linkityksellä.](bi-create-reports-with-xbrl.md)
+## [Tietokannan käyttötarkoituksen hallinta](admin-data-access-intent.md)
 
 # Myynti
 ## [Yleiskuvaus](sales-manage-sales.md)
@@ -1068,7 +1075,7 @@
 ### Sähköinen laskutus
 #### [Sähköisen laskutuksen vaatimus: yhden laskukopion lähettäminen](LocalFunctionality/Iceland/electronic-invoicing-requirement-issuing-single-copy-invoice.md)
 ### Yleiset  
-#### [Veronumeroiden yhdistäminen tilikarttaan](LocalFunctionality/Iceland/how-to-map-irs-numbers-to-chart-of-accounts.md).  
+#### [Veronumeroiden yhdistäminen tilikarttaan](LocalFunctionality/Iceland/how-to-map-irs-numbers-to-chart-of-accounts.md)  
 #### [Kirjattujen laskujen ja hyvityslaskujen poistaminen](LocalFunctionality/Iceland/deleting-posted-invoices-and-credit-memos.md)  
 
 ## Italia
@@ -1162,7 +1169,7 @@
 #### [Asiakirjan summien muokkaaminen ostolaskuissa ja hyvityslaskuissa](LocalFunctionality/Netherlands/how-to-edit-document-amounts-in-purchase-invoices-and-credit-memos.md)  
 #### [Ostosummien vahvistamisen määrittäminen](LocalFunctionality/Netherlands/how-to-set-up-validation-of-purchase-amounts.md)
 ### Yleiset
-#### [CMR-kirjat](LocalFunctionality/Netherlands/cmr-notes.md):
+#### [CMR-kirjat](LocalFunctionality/Netherlands/cmr-notes.md)
 #### [Alankomaiden postinumerot](LocalFunctionality/Netherlands/dutch-post-codes.md)
 #### [Postinumeroiden tuonti](LocalFunctionality/Netherlands/how-to-import-post-codes.md)
 #### [Postinumeroiden päivitysten tuonti](LocalFunctionality/Netherlands/how-to-import-post-code-updates.md)
@@ -1390,7 +1397,7 @@
 #### [Sveitsin arvonlisävero](LocalFunctionality/Switzerland/swiss-value-added-tax.md)
 #### [Sveitsin ALV-prosentit](LocalFunctionality/Switzerland/vat-rates-for-switzerland.md)
 ### Pankkitoiminta ja maksut
-#### Sveitsiläisten maksukuittien QR-koodi
+#### QR - laskujen hallinta (LocalFunctionality/Switzerland/ui-extensions-qr-bill-management.md)
 #### [LSV-kokoelman sulkeminen](LocalFunctionality/Switzerland/how-to-close-an-lsv-collection.md)
 #### [Maksujen vienti LSV:n avulla](LocalFunctionality/Switzerland/how-to-export-payments-using-lsv.md)
 #### [ESR-maksujen tuominen](LocalFunctionality/Switzerland/how-to-import-esr-payments.md)
