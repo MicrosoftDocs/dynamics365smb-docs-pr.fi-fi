@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 9fd5c6c242932d75addcfa5c1811bdd1aff99a94
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 2c6600ac7fe9f6e0aa44554883209039faabbd99
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953039"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187506"
 ---
 # <a name="viewing-and-editing-in-excel-from-business-central"></a>Näyttäminen ja muokkaaminen Excelissä Business Centralista
 
@@ -40,20 +40,22 @@ Jos sinulla on riveille ja sarakkeisiin sijoittava tietueluettelo, kuten asiakas
 
 - Toimintoa voi käyttää vain Windowsissa eikä se toimi Mac-käyttöjärjestelmässä.
 
-Tätä tehostettiin 2019 Release Wave 2 -versiossa. Lisätietoja on kohdassa [Excel-integroinnin parannukset](/dynamics365-release-plan/2019wave2/dynamics365-business-central/enhancements-excel-integration).
+- Voit vaihtaa käytössä olevaa yritystä. Se tehdään valitsemalla **Asetukset**-kuvake ![Excel-apuohjelman asetukset](media/cogwheel.png "Excel-apuohjelman asetukset") Excel-apuohjelma-ruudussa ja valitsemalla sitten yritys **Yritys**-kentässä. 
+
+    > [!IMPORTANT]
+    > Kun vaihdat yritystä, varmista, että **Ympäristö**-kenttä ei ole tyhjä. Jos kenttä on tyhjä, määritä siihen jokin käytettävissä olevista asetuksista. Muussa tapauksessa apuohjelma ei toimi oikein.  
+
+Excel-apuohjelmaa parannettiin vuoden 2019 julkaisuaallossa 2. Lisätietoja on kohdassa [Excel-integroinnin parannukset](/dynamics365-release-plan/2019wave2/dynamics365-business-central/enhancements-excel-integration).
 
 > [!NOTE]
-> **Muokkaa Excelissä** on käytettävissä paikallisessa [!INCLUDE[prodshort](includes/prodshort.md)] -versiossa vain, jos järjestelmänvalvoja on määrittänyt Excel-apuohjelman. Järjestelmänvalvojille on lisätietoja Excel-apuohjelman asentamisesta kohdassa [Excel-apuohjelman määrittäminen Business Central -tietojen muokkaamiseen](/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin).
-
-> [!NOTE]
-> [!INCLUDE[prodshort](includes/prodshort.md)]:lle paikallisesti, tämä ominaisuus on käytettävissä vain web-asiakasohjelmassa.
+> **Muokkaa Excelissä** -toiminto on käytettävissä paikallisessa [!INCLUDE[prodshort](includes/prodshort.md)] -versiossa vain, jos järjestelmänvalvoja on määrittänyt Excel-apuohjelman. Se on käytettävissä vain WWW-asiakasohjelmassa. Järjestelmänvalvojille on lisätietoja Excel-apuohjelman asentamisesta kohdassa [Excel-apuohjelman määrittäminen Business Central -tietojen muokkaamiseen](/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin). Paikallinen [!INCLUDE[prodshort](includes/prodshort.md)].
 
 ### <a name="see-the-differences-between-the-options"></a>Vaihtoehtojen välisiin eroihin tutustuminen
 <br><br>  
 
 > [!Video https://go.microsoft.com/fwlink/?linkid=2086039]
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Katso myös
 [Business Centralin käyttäminen](ui-work-product.md)  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer payment, debtor, balance due, AR
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 387b8269e5da978c25c1c5436f5a737fa055a78c
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 4d9431ba233f1fa304fab589a3dc85e831e53217
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2954150"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191905"
 ---
 # <a name="managing-receivables"></a>Myyntisaamisten hallinta
 Säännöllinen vaihe missä tahansa rahoituskierrossa on pankkitilien täsmäyttäminen, mikä edellyttää saapuvien maksujen kohdistamista asiakas- tai toimittajatapahtumiin, jotta myyntilaskut tai ostohyvityslaskut voidaan sulkea maksettuina.
@@ -50,7 +50,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 |Määritä toleranssi, jonka mukaan järjestelmä sulkee laskun, vaikka maksu ja mahdolliset alennukset eivät täysin vastaa laskun koko summaa.|[Maksutoleranssien ja maksualennustoleranssien käsitteleminen](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Ennusta, milloin myyntiasiakirjan laskut määritetään myöhästyneiksi. | [Myöhästyneen maksun ennusteen laajennus](ui-extensions-late-payment-prediction.md) |
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsprocess-customer-vendor-payments-dynamics-365-business-central"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/paths/process-customer-vendor-payments-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/paths/process-customer-vendor-payments-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
 [Myynti](sales-manage-sales.md)  

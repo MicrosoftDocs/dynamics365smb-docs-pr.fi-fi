@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 11/27/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 3cb9ffd6dadaeba7aab782c0bd8f45d3f4aa5387
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 061c0148601f3aaa871fbf4d613b51ceaf9cdfb1
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878339"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182154"
 ---
 # <a name="register-new-items"></a>Uusien nimikkeiden rekisteröiminen
 Nimikkeet ovat muiden tuotteiden ohella liiketoimintasi perusta; ne ovat siis tavaroita ja palveluja, joilla käyt kauppaa. Jokainen nimike on rekisteröitävä nimikekorttina.
@@ -36,7 +36,7 @@ Nimikkeet, joita tarjoat asiakkaille, mutta joita et halua ylläpitää järjest
 
 Seuraavaksi selitetään, miten nimikekortti luodaan alusta lähtien. Voit luoda uusia nimikekortteja myös kopioimalla aiemmin luotuja kortteja. Lisätietoja on kohdassa [Uusien nimikkeiden luominen kopioimalla aiemmin luotuja nimikkeitä](inventory-how-copy-items.md).<br><br>  
 
-> [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx?rel=0]
 
 ## <a name="to-create-a-new-item-card"></a>Uuden nimikekortin luominen
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Nimikkeet** ja valitse sitten liittyvä linkki.  
@@ -48,7 +48,7 @@ Seuraavaksi selitetään, miten nimikekortti luodaan alusta lähtien. Voit luoda
 5. Voit täyttää nimikekortin kenttiä tai muuttaa niitä tarvittaessa. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
-> Määritä **Arvostusmenetelmä** -kentässä tapa, jolla nimikkeen yksikkökustannukset lasketaan tekemällä oletuksia fyysisestä tavaravirrasta yrityksen läpi. Käytössä on viisi arvostusmenetelmää nimikkeen tyypin mukaan. Lisätietoja on kohdassa [Rakennetiedot: Arvostusmenetelmät](design-details-costing-methods.md).
+> Määritä **Arvostusmenetelmä** -kentässä tapa, jolla nimikkeen yksikkökustannukset lasketaan tekemällä oletuksia fyysisestä tavaravirrasta yrityksen läpi. Käytössä on viisi arvostusmenetelmää nimikkeen tyypin mukaan. Katso lisätietoja kohdasta [Rakennetiedot: arvostusmenetelmät](design-details-costing-methods.md).
 >
 > Jos valitset **Keskiarvo**, nimikkeen yksikkökustannus lasketaan kussakin vaiheessa keskimääräisenä yksikkökustannuksena oston jälkeen. Varastonarvostus olettaa, että kaikki varastot myydään samanaikaisesti. Voit valita tällä asetuksella **Keskimääräisten kustannusten laskennan yleiskuvaus** -sivun **Yksikkökustannus**-kentän, jolla voit tarkastella tapahtumahistoriaa, josta keskimääräinen kustannus lasketaan.
 

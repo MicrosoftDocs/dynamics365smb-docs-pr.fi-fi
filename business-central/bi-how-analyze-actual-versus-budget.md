@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 6773f03a436d1a65eace851abb1e886bdccee55f
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 32680efab7168ade5c8feca4cb69a37687da708b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953849"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186114"
 ---
 # <a name="analyze-actual-amounts-versus-budgeted-amounts"></a>Todellisten summien analysointi budjetoituihin summiin nähden
 Yrityksesi tietojen keräämisen, analysoinnin ja jakamisen osana tarkastelet todellisia summia ja vertaat niitä kaikkien tilien sekä useiden ajanjaksojen budjetoituihin summiin.
@@ -64,7 +64,7 @@ Sen sijaan että tarkastelisit todellisia ja budjetoituja summia kaikkien tilien
 3. Täyttämällä sivun yläosan kentät määrität, mitä näytetään.   
 4. Valitse kenttä nähdäksesi näkyvän summan määrityksen.  
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesbudgets-exchange-rates-dynamics-365-business-centralindex"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Katso myös
 [Business Intelligence](bi.md)  

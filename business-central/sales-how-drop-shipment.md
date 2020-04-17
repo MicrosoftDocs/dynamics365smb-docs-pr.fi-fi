@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: direct shipment
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 50198afaa8caae9a11a06a25357fa94ad26b0b8f
-ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
+ms.openlocfilehash: c61f55701ecb07862f42d3cce242756001529588
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "2943183"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193681"
 ---
 # <a name="make-drop-shipments"></a>Suoratoimitusten tekeminen
 Suoratoimitus on nimikkeen toimitus yhdeltä toimittajistasi suoraan yhdelle asiakkaistasi.
@@ -25,7 +25,7 @@ Suoratoimitus on nimikkeen toimitus yhdeltä toimittajistasi suoraan yhdelle asi
 Kun myyntilaus on merkitty suoratoimitusta varten ja luot ostotilauksen, jossa asiakas määritetään **Toimitusasiakas**-kenttään, **Asiakkaan osoite**, voit linkittää kaksi asiakirjaa ja ohjata toimittajan lähettämään tilaus suoraan asiakkaalle.
 <br><br>  
   
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4mOyM]
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4mOyM?rel=0]
 
 ## <a name="to-create-a-sales-order-for-drop-shipment"></a>Myyntitilauksen luominen suoratoimitusta varten
 Voit valmistella suoratoimituksen luomalla nimikkeelle normaalisti myyntitilauksen. Myyntirivillä tulee kuitenkin määrittää, että myynti vaatii suoratoimituksen.

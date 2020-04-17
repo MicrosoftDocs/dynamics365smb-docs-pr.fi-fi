@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c0c68b43e562ece0dce695ed4366dcc5ad409e27
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: ed1f0d928299a1f72b40be6e7fe1ac1567c4906c
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554786"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194929"
 ---
 # <a name="convert-service-contracts-that-include-vat-amounts"></a>ALV-summia sisältävien huoltosopimusten muuntaminen
 Koska ALV:n muutostyökalu ei voi muuntaa huoltosopimuksia, nämä sopimukset on muunnettava manuaalisesti. Tässä aiheessa kuvataan useita vaihtoehtoisia menetelmiä, joita voit käyttää palvelusopimuksen muuntamista varten.  

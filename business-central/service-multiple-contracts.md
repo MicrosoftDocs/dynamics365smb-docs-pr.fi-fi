@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: ba14e98e8387981d108b4a8440419f617fa3b3d8
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: c9822e35ea4ad6ad1b32894bbe0b980bf70149ae
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877181"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192529"
 ---
 # <a name="multiple-contracts"></a>Useita sopimuksia
 Asiakkaan kanssa tehtyjen huoltotasosopimusten mukaan sama huoltonimike on ehkä sisällytettävä useaan huoltosopimukseen.  
@@ -38,7 +38,7 @@ Huoltonimikkeille, jotka on jo rekisteröity saman asiakkaan ei-peruutettuihin s
 Kun toiseen huoltosopimukseen tai sopimustarjoukseen jo rekisteröity huoltonimike lisätään sopimusriville, ohjelma näyttää varoitussanoman, jossa varoitetaan, että huoltonimike kuuluu jo yhteen tai useaan huoltosopimukseen tai sopimustarjoukseen. Jos sanoma vahvistetaan, järjestelmä kopioi kaikki tarvittavat huoltonimikkeen tiedot juuri luodulle sopimusriville.  
   
 ## <a name="copying-documents"></a>Asiakirjojen kopioiminen  
-Toiseen huoltosopimukseen tai sopimustarjoukseen jo rekisteröidylle huoltonimikkeille voidaan luoda automaattisesti huoltosopimus tai sopimustarjous **Kopioi asiakirja** -toiminnolla.  
+Toiseen huoltosopimukseen tai sopimustarjoukseen jo rekisteröidylle huoltonimikkeille voidaan luoda automaattisesti huoltosopimus tai sopimustarjous **Kopioi asiakirjasta** -toiminnolla.  
   
 ## <a name="creating-service-orders-for-multiple-contracts"></a>Huoltotilausten luominen usealle sopimukselle  
 Useaan voimassa olevaa sopimukseen rekisteröidylle huoltonimikkeelle voidaan luoda huoltotilaus manuaalisesti. Huoltosopimus on voimassa, kun se on allekirjoitettu, eikä se ole vielä vanhentunut.  

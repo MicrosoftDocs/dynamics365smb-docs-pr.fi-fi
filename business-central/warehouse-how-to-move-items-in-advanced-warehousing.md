@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 6051457b197c6e7d6a414cbcc606e95e7394ca2d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0aab4a7ffd693ca8edaa3765228715b5496f0b2f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310322"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193057"
 ---
 # <a name="move-items-in-advanced-warehouse-configurations"></a>Nimikkeiden siirtäminen laajennetuissa varastomäärityksissä
 Fyysisen varaston laajennetuissa määrityksissä eli sijainneissa, joissa on käytössä ohjattu hyllytys ja poiminta, fyysisen varaston siirrot varastopaikkojen välillä suorittaa johtava työntekijä. Hän valmistelee fyysisen varaston siirrot fyysisen varaston työkirjaan ja luo varastotyöntekijöille suoritettavat fyysisen varaston siirrot.  
@@ -23,7 +23,7 @@ Fyysisen varaston laajennetuissa määrityksissä eli sijainneissa, joissa on k�
 ## <a name="to-move-items-with-the-warehouse-movement-worksheet"></a>Siirrä nimikkeitä fyysisen varastoinnin siirtotyökirjan kanssa
 **Siirtotyökirja**-sivulla on kaksi toimintoa, jotka auttavat rivien automaattisessa täyttämisessä. Ensimmäinen näistä on **Laske varastopaikan täydennys** -toiminto. Tämä toiminto ehdottaa täydennystä korkean luokittelun varastopaikoista matalamman luokittelun varastopaikkoihin. Toinen toiminto on **Hae var.paikan sisältö**-toiminto, joka täyttää työkirjan riveille määrittämiesi varastopaikkojen koko sisällön.
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Siirtotyökirja** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Siirtotyökirja** ja valitse sitten liittyvä linkki.  
 2.  Kirjoita työkirjan riveille asianmukaiset f. varaston siirtotiedot.  
 3. Luo fyysisen varaston siirtoasiakirja **Luo siirto** -toiminto. Voit sitten rekisteröidä asiakirjan, kun fyysisen varaston siirto on valmis.  
 
@@ -43,7 +43,7 @@ Fyysisen varaston laajennetuissa määrityksissä eli sijainneissa, joissa on k�
 ## <a name="to-register-the-movement-of-an-item-that-has-already-occurred"></a>Jo tapahtuneen nimikkeiden siirron rekisteröiminen  
 Jos sijainnissa on käytössä ohjattu hyllytys ja poiminta ja nimikkeitä täytyy siirtää muihin varastopaikkoihin ilman olemassa olevaa fyysisen varastoinnin hyllytystä, poimintaa tai siirtoa, voit rekisteröidä nimikkeiden oikean sijoituksen fyysisessä varastossa **F. var. uudelleenluokituspvk** -päiväkirjan avulla.
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **F.var. uudellenluokituspvk** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä ***F.var. uudellenluokituspvk** ja valitse sitten liittyvä linkki.  
 2.  Täytä **Nimikkeen nro**-, **Aluekoodista**-, **Var.paikasta**-, **Aluekoodiin**- ja **Varastopaikkakoodiin**-kentät.  
 3.  Valitse **Rekisteröi**-toiminto.  
 

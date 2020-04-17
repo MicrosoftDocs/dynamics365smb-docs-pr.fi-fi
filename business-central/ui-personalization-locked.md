@@ -8,22 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c77664a1013804de13303c8e1d162c437cf5d6e7
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 9774c3472a70967f6b0250e2f02e817f26e9b710
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315130"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195721"
 ---
 # <a name="why-a-page-is-locked-from-personalization"></a>Sivun mukauttamisen estäminen lukitsemalla
 
-Kaksi ehtoa estää sivun mukauttamisen. Sivu on joko lukittu (minkä ![Mukautuksen lukitus](media/personalization-lock-icon.png "Mukautuksen lukitus") -kuvake ilmaisee) tai se on estetty (minkä ![Mukautuksen esto](media/personalization-blocked-icon.png "Mukautuksen esto") -kuvake ilmaisee).
+Kaksi ehtoa estää sivun mukauttamisen. Sivu on joko lukittu (kuten ![Mukautuksen lukitus](media/personalization-lock-icon.png "Mukautuksen lukitus") -kuvake osoittaa) tai se on lukittu (kuten ![Mukautuksen esto](media/personalization-blocked-icon.png "Mukauttaminen estetty") -kuvake osoittaa).
 
 ## <a name="locked-from-personalizing"></a>Mukauttaminen estetty lukitsemalla
 
-Jos avatun sivun **Mukautetaan**-palkissa on ![Mukautuksen lukitus](media/personalization-lock-icon.png "Mukautuksen lukitus") -kuvake, sivua ei voi tällä hetkellä muuttaa mukauttamalla.
+Jos ![Mukautuksen lukitus](media/personalization-lock-icon.png "Mukautuksen lukitus") -kuvake on **Mukautetaan** -palkissa sivun avaamisen yhteydessä, sivulle ei tällä hetkellä voi tehdä mukautuksia.
 
 <!-- This is because we changed the way personalization works behind the scenes since the last time that you personalized the page. Unfortunately, the old way and new of doing things do not work together.
 
@@ -38,7 +38,7 @@ Syitä voi olla kaksi:
 
 ### <a name="unlocking-the-page"></a>Sivun lukituksen poistaminen
 
-Jos haluat poistaa sivun lukituksen ja jatkaa sen mukauttamista, valitse ensin ![Mukautuksen lukitus](media/personalization-lock-icon.png "Mukautuksen lukitus") -kuvake ja sitten **Poista lukitus** -toiminto.  
+Jos haluat poistaa sivun lukituksen ja jatkaa sen mukauttamista, valitse ensin ![Mukautuksen lukitus](media/personalization-lock-icon.png "Mukautuksen lukitus") -kuvake ja valitse sitten **Poista lukitus** -toiminto.  
 
 Ota kuitenkin seuraavat huomioon ennen sivun lukituksen poistamista:
 
@@ -48,7 +48,7 @@ Ota kuitenkin seuraavat huomioon ennen sivun lukituksen poistamista:
 
 ## <a name="blocked-from-personalizing"></a>Mukauttaminen estetty
 
-Jos **Mukautetaan**-palkissa on ![Mukautuksen esto](media/personalization-blocked-icon.png "Mukautuksen esto") -kuvake, mukauttaminen sivulla on estetty.
+Jos ![Mukautuksen esto](media/personalization-blocked-icon.png "Mukauttaminen estetty") -kuvake on **Mukautetaan**-palkissa, sivulle ei voi tehdä mukautuksia.
 
 <!-- Only text is translated, so removing this image for non-English UX reasons.  ![Personalize blocked](media/personalization-blocked.png "Personalize lock") -->
 

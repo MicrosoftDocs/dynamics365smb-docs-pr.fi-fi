@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 12/10/2019
+ms.date: 04/01/2020
 ms.author: solsen
-ms.openlocfilehash: 7d189ab6fa5aff518b643c797b7600570fcad43e
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: 59b659ca458e6cfe7c13ef5094dbbf80a144c369
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2910634"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188562"
 ---
-# <a name="creating-a-sandbox-environment-in-include-prodshortincludesprodshortmd"></a>Sandbox-ympäristön luominen [!INCLUDE [prodshort](includes/prodshort.md)]issa
+# <a name="creating-a-sandbox-environment-in-prodshort"></a>Sandbox-ympäristön luominen [!INCLUDE [prodshort](includes/prodshort.md)]issa
 
 [!INCLUDE [prodshort](includes/prodshort.md)]n avulla voit helposti luoda turvallisen ympäristön, jossa voit testata, kouluttaa tai tehdä vianmäärityksiä häiritsemättä yrityksen työprosesseja tai liiketoimintatietoja. Tällaista ei-tuotantoympäristöä kutsutaan *eristysympäristöksi (sandbox)*. Tuotannosta eristetty Sandbox-ympäristö on paikka, jossa voi turvallisesti tutustua palveluun, opetella sen käyttöä sekä kehittää ja testata sitä ilman, että tuotantoympäristön tiedot ja asetukset vaarantuvat.  
 
@@ -26,7 +26,7 @@ Järjestelmänvalvoja voi luoda eristysympäristöjä [hallintakeskuksessa](/dyn
 > [!NOTE]
 > Teknisesti eristysympäristöt ovat hyvin erilaisia tuotantoympäristöihin verrattuna, vaikka järjestelmänvalvoja luo eristysympäristön, joka sisältää tuotantotiedot. Sandbox-ominaisuutta ei voi käyttää vertailuun, eikä esimerkiksi tietokannan vientiä voi pyytää. Jos haluat luoda eristysympäristön vertailuun, järjestelmänvalvoja voi luoda erillisen tuotantoympäristön hallintakeskuksessa. Lisätietoja on kohdassa [Ympäristötyypit](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#types-of-environments).
 
-## <a name="to-create-a-sandbox-environment-in-your-include-prodshortincludesprodshortmd"></a>Sandbox-ympäristön luominen [!INCLUDE [prodshort](includes/prodshort.md)]ssa
+## <a name="to-create-a-sandbox-environment-in-your-prodshort"></a>Sandbox-ympäristön luominen [!INCLUDE [prodshort](includes/prodshort.md)]ssa
 
 1. Kirjaudu [!INCLUDE[d365fin](includes/d365fin_md.md)]-palvelun tuotantoilmentymään.
 

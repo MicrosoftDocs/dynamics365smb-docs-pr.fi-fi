@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: ba71b9bfb23a4512e160e7b10aa065a1712aeb4d
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 0faaff33db107f61c56d13f7f0c979e4935cb65f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953105"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189385"
 ---
 # <a name="update-custom-report-layouts"></a>Päivitä mukautetut raporttiasettelut
 Joskus saatat joutua päivittämään raportissa käytettyä mukautettua asettelua. Tämä vaaditaan, kun raportin tietojoukko on muuttunut, esimerkiksi asettelussa käytetty kenttä on poistettu raportin tietojoukosta. Raporttiasettelu on päivitettävä, jos saat virhesanoman, kun yrität tarkastella, tulostaa tai tallentaa raportin.  
@@ -42,7 +42,7 @@ Jos virheitä ei ilmene, päivitykset otetaan käyttöön raporttiasetteluissa. 
 
  Raporttiasettelujen muutokset testataan, mutta niitä ei käytetä varsinaisissa raporttiasetteluissa. **Raporttiasettelun päivitysloki** -sivu avautuu, ja siinä näytetään jokaiselle raporttiasettelulle tulevat päivitykset sekä niiden tila. Jos raporttiasettelulla on virheitä, voit avata raporttiasettelun suoraan viestistä muokkaamista varten. Lisätietoja on kohdassa [Virheiden korjaaminen](ui-update-report-layouts.md#FixErrors).  
 
-##  <a name="UpdateLimitations"></a> Mukautettujen raporttiasetteluiden päivittämisen rajoitukset  
+##  <a name="limitations-of-the-custom-report-layout-update"></a><a name="UpdateLimitations"></a> Mukautettujen raporttiasetteluiden päivittämisen rajoitukset  
  Automaattinen päivitys voi tehdä monenlaisia muutoksia mukautettuihin raporttiasetteluihin, kuten jos asettelussa käytettävä kenttä on poistettu raportin tietojoukosta. Seuraavia muutoksia raportin tietojoukkoon automaattinen päivitys ei kuitenkaan käsittele.  
 
 1.  Poistetut kentät, otsikot ja tietokohteet.  
@@ -53,7 +53,7 @@ Jos virheitä ei ilmene, päivitykset otetaan käyttöön raporttiasetteluissa. 
 
  Jos päivitysprosessi havaitsee jonkin näistä ongelmista, päivitystä ei voi ottaa käyttöön. Nämä ongelmat on korjattava manuaalisesti, esimerkiksi muokkaamalla raporttia käsin Wordissa tai ohjelmallisesti käyttämällä päivityksen codeuniteja.  
 
-##  <a name="FixErrors"></a> Virheiden korjaaminen  
+##  <a name="fixing-errors"></a><a name="FixErrors"></a> Virheiden korjaaminen  
  Jos virhesanoma tulee näkyviin raporttiasettelun päivityksen tai testauksen jälkeen, sinun on todennäköisesti muokattava raportin asettelua ongelman korjaamiseksi. Lue virhesanoma, jonka avulla voit selvittää ongelman syyn.  
 
  Yleisin ongelma ilmenee, kun asettelussa käytetty kenttä on poistettu raportin tietojoukosta. Tässä tapauksessa näet virhesanoman rivin, joka ilmoittaa, että nimike on poistettu. Jotta voit korjata tämän ongelman, sinun on muokattava asettelua ja poistettava kyseinen kenttä.  
@@ -62,7 +62,7 @@ Jos virheitä ei ilmene, päivitykset otetaan käyttöön raporttiasetteluissa. 
 
 Kun muutat asettelua, yritä päivittää asettelu uudelleen.  
 
-## <a name="see-related-training-at-microsoft-learnlearnmoduleschange-documents-dynamics-365-business-centralindex"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Katso myös  
  [Raporttiasetteluiden hallinta](ui-manage-report-layouts.md)  

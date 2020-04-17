@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 71c45065d95b093f04089b880101abd31dbd95fc
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 94b5aba591d29a173a0e190ee34d4d5d9fc383fb
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300219"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3180811"
 ---
 # <a name="disregard-payment-discounts"></a>Maksualennusten ohittaminen
 Käytä maksualennusten ohittamistoimintoa kokonaissumman yhteydessä, kun haluat hyväksyä maksut seuraavien ehtojen täyttyessä:  
@@ -27,7 +27,7 @@ Käytä maksualennusten ohittamistoimintoa kokonaissumman yhteydessä, kun halua
 
 ## <a name="to-disregard-a-payment-discount"></a>Maksualennuksen ohittaminen  
 
-1.  Valitse ![Etsi sivu tai raportti](../../media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Maksuehdot** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Etsi sivu tai raportti](../../media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") -kuvake, syötä **Maksuehdot** ja valitse sitten aiheeseen liittyvä linkki.  
 2.  Valitse rivi, jonka maksuehdolle haluat ottaa käyttöön maksualennuksia tai jolta haluat poistaa ne.  
 3.  Ota tämä toiminto käyttöön valitsemalla **Ohita maks.alen. kok.sum. yht.** -valintaruutu. Poista toiminto käytöstä tyhjentämällä valintaruutu.  
 

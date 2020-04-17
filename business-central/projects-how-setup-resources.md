@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: bd0206c0ceb9a2e559f3fb4e391877e158800cd4
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 08e8f00a73b6c03978d8c00b23f36e3f510c43d6
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312746"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191137"
 ---
 # <a name="set-up-resources"></a>Resurssien määrittäminen
 Jotta voit hallita resurssitoimintoja tarkasti, sinun on määritettävä resurssit sekä niihin liittyvät kustannukset ja hinnat. Projekteihin liittyvät hinnat, alennukset ja kustannustekijäsäännöt määritetään projektikortissa. Voit määrittää kustannukset ja hinnat yksittäisille resursseille, resurssiryhmille tai kaikille yrityksen käytettävissä oleville resursseille.
@@ -25,6 +25,10 @@ Jotta voit hallita resurssitoimintoja tarkasti, sinun on määritettävä resurs
 Kun resursseja käytetään tai myydään projektissa, niihin liittyvät hinnat ja kustannukset haetaan määrittämistäsi tiedoista.
 
 Tuntikohtainen oletussumma määritetään resurssin luomisen yhteydessä. Jos käytät projektissa esimerkiksi tiettyä konetta viisi tuntia, projekti lasketaan tuntikohtaisen summan perusteella.
+
+> [!NOTE]
+> Voit ostaa ulkoisia resursseja, kuten esimerkiksi laskuttaa toimittajaa tehdystä työstä. Lisätietoja on kohdassa [Ostojen kirjaaminen](purchasing-how-record-purchases.md).<br /><br />
+> Tällaisessa tapauksessa on suositeltavaa nimetä tai ryhmitellä ulkoiset resurssit niiden tarkoituksen mukaisesti, jotta niitä ei sekoiteta sisäisiin resursseihin.
 
 ## <a name="to-set-up-a-resource"></a>Resurssin määrittäminen
 Luo jokaiselle projekteissa käytettävälle resurssille kortti.

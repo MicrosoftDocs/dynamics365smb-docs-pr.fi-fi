@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 6ac8d49d2b3a88d472a61a9a61c2893360036eb7
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 61e39b15042a4c3bd21ef1297d90803496305f8f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2952624"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183786"
 ---
 # <a name="working-with-dimensions"></a>Dimensioiden käyttäminen
 Voit yksinkertaistaa asiakirjojen, kuten myyntitilausten, analysointia dimensioiden avulla. Dimensiot ovat tapahtumia luokittelevia määritteitä ja arvoja, joita voi seurata ja analysoida. Dimensioiden avulla voit esimerkiksi ilmaista, mistä projektista tai osastosta tapahtuma on lähtöisin.  
@@ -209,7 +209,7 @@ Kun kirjaat dimensioita sisältäviä asiakirja- ja päiväkirjarivejä, erilais
 |Tyhjän oletusdimension muu kuin tyhjä dimensioarvon koodi, jossa **Arvon kirjaaminen** -kentässä on **Sama koodi**|-%1 %2 tulee olla tyhjä.<br />-%1 %2 on oltava tyhjä kohteille %3 %4.|-Muuta **Arvon kirjaaminen** -kenttä **Oletusdimensio**-sivulla.<br />-Anna tyhjä dimensioarvon koodi dimensiojoukon ristiriitaiselle dimensiolle.|
 |Oletusdimension odottamaton dimensioarvo jossa **Arvon kirjaaminen** -kentässä on **Ei koodia**|-%1 %2 ei tule mainita.<br />-%1 %2 ei tule mainita kohteille %3 %4|-Muuta **Arvon kirjaaminen** -kenttä **Oletusdimensio**-sivulla.<br />-Poista ristiriitainen rivi dimensioyhdistelmästä.|
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesdimensions-dynamics-365-business-centralindex"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/dimensions-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/dimensions-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Katso myös
 [Business Intelligence](bi.md)  

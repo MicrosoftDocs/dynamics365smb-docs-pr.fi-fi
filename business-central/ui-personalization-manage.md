@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 470d2542864b8d0e0f16f89fd99e422807829404
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6720f207b3bca2e74bccb9b82a5661d98292163d
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310802"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195409"
 ---
 # <a name="customize-pages-for-profiles"></a>Profiilien sivujen mukauttaminen
 Käyttäjät voivat mukauttaa työtilan muodostavia sivuja omien mieltymystensä mukaisesti. Lisätietoja on kohdassa [Työtilan mukauttaminen](ui-personalization-user.md).
@@ -30,7 +30,7 @@ Järjestelmänvalvojat voivat mukauttaa profiilin sivuja liittyvän liiketoimint
 Sivun mukauttaminen aloitetaan **Profiilit (roolit)** -sivulla, josta järjestelmänvalvojat aloittavat yksittäisten profiilikorttien käyttäjien profiilien hallinnan. Sivun asettelun mukauttamisen lisäksi voi kunkin profiilin **Profiili (rooli)** -sivulla voi hallita useita muita profiilien asetuksia. Lisätietoja on kohdassa [Profiilien hallinta](admin-users-profiles-roles.md).
 
 ## <a name="to-customize-pages-for-a-profile"></a>Profiilin sivujen mukauttaminen
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita **Profiilit (roolit)** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Profiilit (Roolit)** ja valitse sitten liittyvä linkki.
 2. Valitse ensin sen profiilin rivi, jonka sivuja haluat mukauttaa, ja valitse sitten **Muokkaa**-toiminto.
 3. Valitse **Mukauta sivuja** -toiminto.
 

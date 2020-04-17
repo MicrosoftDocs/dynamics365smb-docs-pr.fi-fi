@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: f08e9549d83d689721657584eb95733cb8ac323c
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: d19a45caabbd4eecf4a0d37cb1c7d964683f4698
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953753"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183099"
 ---
 # <a name="invoicing-prepayments"></a>Ennakkomaksujen laskuttaminen
 Ennakkomaksut ovat maksuja, jotka on laskutettu ja kirjattu myynti- tai ostoennakkomaksun tilaukseen ennen lopullista laskutusta. Esimerkiksi ennen tilattujen nimikkeiden valmistamista voidaan edellyttää talletuksen tekemistä, tai ennen nimikkeiden toimittamista asiakkaalle voidaan edellyttää maksun suorittamista. Ennakkomaksutoimintojen avulla voit laskuttaa ja kerätä asiakkailta edellytettyjä talletuksia tai suorittaa talletuksia toimittajille. Näin voit varmistaa, että kaikki maksut kirjataan laskua vastaan.  
@@ -30,7 +30,7 @@ Ennakkomaksut ovat maksuja, jotka on laskutettu ja kirjattu myynti- tai ostoenna
 |Tilauksen luominen, ennakkomaksusummien muuttaminen ja ennakkomaksusummien mukaisen laskun lähettäminen.|[Ennakkomaksulaskujen luominen](finance-how-to-create-prepayment-invoices.md)|  
 |Lisäennakkomaksulaskun lähettäminen joko lisänimikkeiden tai alkuperäiseen tilaukseen kuulumattoman lisätalletuksen vuoksi tai ennakkomaksun hyvityslaskun lähettäminen.|[Ennakkomaksujen korjaaminen](finance-how-to-correct-prepayments.md)|  
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesprepayment-invoices-dynamics-365-business-centralindex"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/prepayment-invoices-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/prepayment-invoices-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Katso myös  
 [Vaihekuvaus: Myynnin ennakkomaksujen määrittäminen ja laskuttaminen](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  

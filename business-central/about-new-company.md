@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: company, setup wizard
-ms.date: 11/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 70bd78244c4d8570a5e9b8fbe2d1e8a4c74d7530
-ms.sourcegitcommit: 49309bdff9b680a35032b355fe97c565845dba15
+ms.openlocfilehash: 48f540bd1f8de19ab6ae0284febf6c9c87ababdb
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2695117"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188898"
 ---
-# <a name="creating-new-companies-in-included365finincludesd365fin_mdmd"></a>Uusien yritysten luominen [!INCLUDE[d365fin](includes/d365fin_md.md)]issa
+# <a name="creating-new-companies-in-d365fin"></a>Uusien yritysten luominen [!INCLUDE[d365fin](includes/d365fin_md.md)]issa
 [!INCLUDE[d365fin](includes/d365fin_md.md)]in liiketoimintayksikölle tai yritykselle kuuluvia liiketoimintatietojen säilöjä kutsutaan *yrityksiksi*. Kun rekisteröidyt [!INCLUDE[d365fin](includes/d365fin_md.md)]iin, saat käyttöösi esimerkkiyrityksen ja tyhjän yrityksen, jonka nimi on *Oma yritys*. Yritysten välillä siirtyminen on helppoa: valitse vain **Omat asetukset** ja siirry toiseen yritykseen. Voit myös luoda uusia yrityksiä [!INCLUDE[d365fin](includes/d365fin_md.md)]issa yrityksen tarpeiden mukaan. Kun luot uuden yrityksen, asetusten ohjattu määritysopas auttaa varmistamaan, että perustoiminnot ovat kohdallaan. Voit tuoda tämän jälkeen tarvittavat tiedot vanhasta järjestelmästä tai toisesta [!INCLUDE[d365fin](includes/d365fin_md.md)]in yrityksestä.  
 
 ## <a name="creating-a-new-company"></a>Luodaan uusi yritys

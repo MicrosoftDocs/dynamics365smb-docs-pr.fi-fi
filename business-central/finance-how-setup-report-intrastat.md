@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 62fc3227c02656713afa1f890f7ea8acbce524be
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 23759b874f7a92bf9ff91cd0822ac8f9bb716ab1
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2952768"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183522"
 ---
 # <a name="set-up-and-report-intrastat"></a>Intrastat-ilmoituksen määrittäminen ja raportoiminen
 Kaikkien Euroopan unionin alueen yritysten täytyy raportoida kaupastaan muiden EU-maiden/alueiden kanssa. Tavaran liikkuminen on raportoitava kotimaan/-alueen tilastoviranomaisille kuukausittain ja raportti on toimitettava veroviranomaisille. Ohjelmassa tätä kutsutaan Intrastat-raportoinniksi. **Intrastat-ilmoitus**-sivulla voi täyttää jaksottaiset Intrastat-ilmoitukset.  
@@ -121,7 +121,7 @@ Koska Intrastat-raportti on lähetettävä joka kuukausi ja luot uuden päiväki
 2. Voit tarkastella asetuksia valitsemalla **Erän nimi** -kentän.  
 3. Valitse ensin poistettavat päiväkirjan erät ja sitten **Poista**-painike.  
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesprocess-intrastat-dynamics-365-business-centralindex"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Katso myös
 [Taloushallinto](finance.md)

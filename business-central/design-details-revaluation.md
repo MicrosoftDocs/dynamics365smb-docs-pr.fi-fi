@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c60dddbf5e559fbbcf7990cd4a5cc62da2459e63
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: d0e779587a409232a6ab618ec80f5ad1ae17e31f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2880038"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184770"
 ---
 # <a name="design-details-revaluation"></a>Rakennetiedot: uudelleenarvostus
 Voit uudelleenarvostaa varaston sen arvostusperustan perusteella, joka vastaa varaston arvoa parhaiten. Voit myös päivätä uudelleenarvostuksen vanhemmaksi, jolloin myytyjen tuotteiden kustannukset päivitetään oikein nimikkeille, jotka on jo myyty. Vakio-arvostusmenetelmää käyttävät nimikkeet, joita ei ole laskutettu kokonaan, voidaan myös arvostaa uudelleen.  

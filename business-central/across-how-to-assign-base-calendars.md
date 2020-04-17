@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c9c4b89122f9c8b905a864d39a559b7214ee7c5c
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 52bbf5f1092ad449be003021642c30651f38e780
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881214"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188418"
 ---
 # <a name="set-up-base-calendars"></a>Peruskalenterien määrittäminen
 Peruskalenterin voi määrittää yritykselle ja sen liikekumppaneille, esimerkiksi asiakkaille, toimittajille tai sijainneille. Toimituksen ja vastaanoton päivämäärät lasketaan tuleville myyntitilaus-, ostotilaus-, siirtotilaus- ja tuotantotilausriveille kalenteriin määritettyjen työpäivien mukaisesti. Päätehtävä uuden peruskalenterin määrittämisessä on käytettävien, muiden kuin työpäivien eritteleminen ja määritteleminen.  

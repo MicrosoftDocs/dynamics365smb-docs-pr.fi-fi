@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: repair, service
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 062680e12d3ad7b1d1f0e769f921f2579cdee43f
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: fe0820b7dfcf3cc47bc437b340443cbe05aa4a4c
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306602"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184410"
 ---
 # <a name="maintain-fixed-assets"></a>Käyttöomaisuuden ylläpito
 Kunnossapitokulut ovat ajoittaisia rutiinikustannuksia, jotka aiheutuvat käyttöomaisuuden arvon säilyttämisestä. Toisin kuin pääoman kohentaminen, kunnossapito ei lisää arvoa.
@@ -29,7 +29,7 @@ Indeksointia käytetään muuttamaan arvoja yleisten hintatason muutosten mukaan
 ## <a name="to-record-maintenance-work-on-a-fixed-asset"></a>Käyttöomaisuuden kunnossapitotyön tallentaminen
 Kunnossapito, kuten huoltokäynti, voidaan tallentaa sen suorittamisen yhteydessä kyseiselle käyttöomaisuudelle **Kunnossapidon rekisteröinti** -sivulla.  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttöomaisuus** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Käyttöomaisuus** ja valitse sitten liittyvä linkki.  
 2. Valitse käyttöomaisuus, jolle haluat tallentaa kunnossapitotyön. Valitse sitten **Kunnossapidon rekisteröinti** -toiminto.
 3. Täytä **Kunnossapidon rekisteröinti** -sivulla tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
@@ -37,7 +37,7 @@ Kunnossapito, kuten huoltokäynti, voidaan tallentaa sen suorittamisen yhteydess
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poistokirjaluettelo** ja valitse sitten liittyvä linkki.  
 2. Valitse poistokirja, joka on liitetty käyttöomaisuuteen, ja valitse sitten **Muokkaa**-toiminto.
 3. Varmista, että **Poistokirjakortti**-sivun **Kunnossapito**-valintaruutua ei ole valittu. Näin varmistetaan, että kunnossapitokustannuksia ei kirjata pääkirjanpitoon.
-4. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KO - KP-päiväkirjat** ja valitse sitten liittyvä linkki.  
+4. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Käyttöomaisuuden KP-päiväkirjat** ja valitse sitten liittyvä linkki.  
 5. Luo alkuperäisen päiväkirjan rivi ja täytä kentät tarpeen mukaan.
 6. Valitse **KO:n kirjaustyyppi** -kentässä **Kunnossapito**.
 7. Valitse **Syötä KO-vastatili** -toiminto. Toinen päiväkirjan rivi luodaan vastatilille, joka on määritetty kunnossapidon kirjaamista varten.
@@ -56,7 +56,7 @@ Tulosta **Kunnossapito – Seuraava huolto** -raportti, kun haluat tarkastella k
 ## <a name="to-monitor-maintenance-costs"></a>Kunnossapitokustannusten valvonta
 Kunnossapitokustannuksia voi tarkastella käyttöomaisuuden tilastossa.  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttöomaisuus** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Käyttöomaisuus** ja valitse sitten liittyvä linkki.
 2. Valitse käyttöomaisuus, jonka kunnossapitokustannuksia haluat tarkastella. Valitse sitten **Poistokirjat**-toiminto.
 3. Valitse **KO:n poistokirjat** -sivulla kyseinen käyttöomaisuuden poistokirja ja valitse sitten **Tilasto**-toiminto.
 4. Valitse **Käyttöomaisuustilastot**-sivulla **Kunnossapito**-kenttä.
@@ -73,7 +73,7 @@ Avautuvalla **Kunnossapitotapahtumat**-sivulla näkyvät ne tapahtumat, joista s
 ## <a name="to-view-maintenance-ledger-entries"></a>Kunnossapitotapahtumien katsominen
 Voit tutkia kunnossapitokustannuksia myös tarkastelemalla kunnossapitotapahtumia.  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttöomaisuus** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Käyttöomaisuus** ja valitse sitten liittyvä linkki.
 2. Valitse käyttöomaisuus, jonka tapahtumia haluat tarkastella. Valitse sitten **Poistokirjat**-toiminto.
 3. Valitse **KO:n poistokirjat** -sivulla kyseinen käyttöomaisuuden poistokirja ja valitse sitten **Kunnossapitotapahtumat**-toiminto.
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: soalex
-ms.openlocfilehash: 95503c07afa960d9ac42511de38dbffcc4ce9d2d
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: f05f8e4915b136134b27eb62931916a09e53514f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881420"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3180813"
 ---
 # <a name="finland-local-functionality"></a>Suomen paikalliset toiminnot
 Seuraavissa ohjeaiheissa kerrotaan [!INCLUDE[d365fin](../../includes/d365fin_md.md)] -ohjelman suomalaisen version erityisistä paikallisista toiminnoista.  

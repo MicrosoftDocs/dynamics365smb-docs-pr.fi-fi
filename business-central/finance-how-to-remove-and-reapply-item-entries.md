@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 81565950191b40f2c54646d17f02ee857856c436
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: cf3ed7552d3b9bfef3c787e03357279f4ad4fc93
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882685"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183330"
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Nimiketapahtumien poistaminen ja uudelleenkohdistaminen
 Voit tarkastella ja muuttaa **Kohdistustyökirja**-sivulla manuaalisesti tietyn nimikkeen kohdistustapahtumia, jotka on luotu automaattisesti varastotapahtumien yhteydessä.  
@@ -28,7 +28,7 @@ Seuraavat tilanteet saattavat vaatia, että kohdistus peruutetaan tai nimiketapa
 - Teit virheellisen kiinteän kohdistuksen.
 - Sinun on palautettava nimike, johon myynti on jo kohdistettu.
 
-Käytä asiakirjaa nimiketapahtuman kohdistamisessa uudelleen, jos mahdollista. Jos esimerkiksi teet ostopalautuksen nimikkeelle, jonka myynti on jo kohdistettu, voit tehdä uudelleenkohdistuksen yksinkertaisesti luomalla ja kirjaamalla oikean kohdistuksen sisältävän ostopalautusasiakirjan ostopalautusrivin **Kohdista nimiketapahtumaan** -kentässä. Voit käyttää **Hae peruutettavat kirjatut asiakirjarivit** -toimintoa tai **Kopioi asiakirja** -toimintoa ostopalautusasiakirjassa, jolloin kohdistus on helpompaa. Kun kirjaat asiakirjan, nimiketapahtuma otetaan automaattisesti uudelleen käyttöön. Lisätietoja on kohdassa [Ostopalautusten tai -peruutusten käsitteleminen](purchasing-how-process-purchase-returns-cancellations.md).
+Käytä asiakirjaa nimiketapahtuman kohdistamisessa uudelleen, jos mahdollista. Jos esimerkiksi teet ostopalautuksen nimikkeelle, jonka myynti on jo kohdistettu, voit tehdä uudelleenkohdistuksen yksinkertaisesti luomalla ja kirjaamalla oikean kohdistuksen sisältävän ostopalautusasiakirjan ostopalautusrivin **Kohdista nimiketapahtumaan** -kentässä. Voit käyttää **Hae peruutettavat kirjatut asiakirjarivit** -toimintoa tai **Kopioi asiakirjasta** -toimintoa ostopalautusasiakirjassa, jolloin kohdistus on helpompaa. Kun kirjaat asiakirjan, nimiketapahtuma otetaan automaattisesti uudelleen käyttöön. Lisätietoja on kohdassa [Ostopalautusten tai -peruutusten käsitteleminen](purchasing-how-process-purchase-returns-cancellations.md).
 
 Jos et tehdä uudelleenkohdistusta, kuten korjata kiinteää kohdistusta, asiakirjassa, korjaa kohdistus **Kohdistustyökirja**-sivulla.
 

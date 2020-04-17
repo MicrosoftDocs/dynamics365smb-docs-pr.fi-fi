@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 02/11/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: dfd06fce9aab0de6afb725ab4625138b62305a1a
-ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
+ms.openlocfilehash: 44069b903df5426ae2aa3e851404c2b9e01f3979
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076780"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188178"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Tietojenvaihtomääritysten määrittäminen
 Voit määrittää [!INCLUDE[d365fin](includes/d365fin_md.md)]in vaihtamaan tiettyjen taulukoiden tietoja ulkoisten tiedostojen kanssa. Tällöin voit esimerkiksi lähettää ja vastaanottaa sähköisiä asiakirjoja sekä tuoda ja viedä pankkitietoja tai muita tietoja, kuten palkanlaskennan tietoja, vaihtokursseja ja tuoteluetteloita. Lisätietoja on kohdassa [Sähköinen tiedonsiirto](across-data-exchange.md).  
@@ -139,7 +139,7 @@ Tämä kuvataan seuraavissa menettelytavoissa.
     |**Kohdekentän seloste**|Näkyvissä vain, kun **Käytä väliaikaisena taulukkona** -valintaruutu on valittu.<br /><br /> Määritä kentän nii kohdetaulukossa, johon **Sarakeotsikko**-kentän arvo yhdistetään, kun tietojen tuonnissa käytetään väliaikaista taulukkoa.|  
     |**Valinnainen**|Näkyvissä vain, kun **Käytä väliaikaisena taulukkona** -valintaruutu on valittu.<br /><br /> Määritä, pitääkö yhdistäminen ohittaa, jos kenttä on tyhjä. Jos et valitse tätä valintaruutua, tällöin järjestelmä ilmoittaa vientivirheestä, jos kenttä on tyhjä.|  
 
-Tietojenvaihtomääritys voidaan nyt ottaa käyttöön käyttäjille. Lisätietoja on kohdissa [Sähköisten asiakirjojen vastaanottamisen ja lähettämisen määrittäminen](across-how-to-set-up-electronic-document-sending-and-receiving.md), [SEPA-hyvityksen siirron määrittäminen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#setting-up-sepa-credit-transfer),[Maksujen kerääminen SEPA-suoraveloituksella](finance-collect-payments-with-sepa-direct-debit.md) ja [Maksujen suorittaminen AMC Banking 365 -perusteiden laajennuksella tai SEPA-hyvityksen siirrolla](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
+Tietojenvaihtomääritys voidaan nyt ottaa käyttöön käyttäjille. Lisätietoja on kohdissa [Sähköisten asiakirjojen vastaanottamisen ja lähettämisen määrittäminen](across-how-to-set-up-electronic-document-sending-and-receiving.md), [SEPA-hyvityksen siirron määrittäminen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#setting-up-sepa-credit-transfer), [Maksujen kerääminen SEPA-suoraveloituksella](finance-collect-payments-with-sepa-direct-debit.md) ja [Maksujen suorittaminen AMC Banking 365 -perusteiden laajennuksella tai SEPA-hyvityksen siirrolla](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
 
 ### <a name="transformation-rules"></a>Muunnossäännöt
 Jos kenttien arvot ovat erilaisia, sinun on käytettävä muunnossääntöjä tietojen vaihdon määrityksissä, jotta ne olisivat samat. Voit määrittää muunnossäännöt tiedonvaihtomäärittelyjä varten avaamalla aiemmin luodun määrityksen tai luomalla uuden määrityksen ja valitsemalla sitten **Rivimääritykset** -pikavälilehdessä **Hallitse** ja sitten **Kenttien yhdistämismääritykset**. Ennalta määritetyt säännöt ovat käytettävissä, mutta voit myös luoda omia sääntöjä. Seuraavassa taulukossa kuvataan, millaisia muunnoksia voit suorittaa.

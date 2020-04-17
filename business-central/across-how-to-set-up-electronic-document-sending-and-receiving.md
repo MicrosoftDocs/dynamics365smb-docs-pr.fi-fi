@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 94f3a735887d4af23b3ec27ffb04e874dbc1924c
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 198200c4a2f595f642d03255f3b6f03c23ce3a47
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2952912"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188130"
 ---
 # <a name="set-up-electronic-document-sending-and-receiving"></a>Sähköisten asiakirjojen vastaanottamisen ja lähettämisen määrittäminen
 Sähköpostin liitetiedostojen lähettämisen sijaan liiketoiminta-asiakirjoja voi lähettää ja vastaanottaa sähköisesti. Sähköisellä asiakirjalla tarkoitetaan sitä, että liiketoiminta-asiakirjaa (kuten toimittajan laskua) vastaava standardin\-mukainen tiedosto voidaan vastaanottaa ja muuntaa ostolaskuksi [!INCLUDE[d365fin](includes/d365fin_md.md)]issa. Document exchange -palveluiden ulkoinen palveluntarjoaja suorittaa kahden liikekumppanin välisen sähköisten asiakirjojen vaihdon. [!INCLUDE[d365fin](includes/d365fin_md.md)]in yleinen versio tukee sähköisten laskujen ja hyvityslaskujen lähettämistä ja vastaanottamista PEPPOL-muodossa. Suurimmat asiakirjojen vaihtopalveluiden tarjoajat tukevat tätä muotoa. Tavallisin document exchange -palveluiden tarjoaja on esimääritetty, ja se on valmis määritettäväksi yrityksellesi.  
@@ -136,7 +136,7 @@ Ohjeaihe sisältää seuraavat toimintosarjat:
     |---------------------------------|---------------------------------------|  
     |**Muiden kuin nimikerivien KP-tili**|Määrittää kirjanpitotilin, joka lisätään automaattisesti sähköisistä asiakirjoista ostoriveille silloin, kun saapuva asiakirjarivi ei sisällä tunnistettavaa kohdetta. Kaikki saapuvan asiakirjan rivit, joilla ei ole GTIN-arvoa tai toimittajan nimikenumeroa, muunnetaan tyypin **KP-tili**-tyyppiseksi ostoriviksi. Ostorivin **Nro**-kenttä sisältää tilin, jonka valitset **Muiden kuin nimikerivien KP-tili** -kentässä.<br /><br /> Ostoasiakirjaa ei luoda, jos **Muiden kuin nimikerivien KP-tili** -kenttä jätetään tyhjäksi ja saapuva asiakirja sisältää rivejä, joilla ei ole tunnistettavia nimikkeitä. Virhesanoma pyytää täyttämään **Muiden kuin nimikerivien KP-tili** -kentän, ennen kuin voit päättää tehtävän.|  
 
-## <a name="see-related-training-at-microsoft-learnlearnmoduleselectronic-documents-dynamics-365-business-centralindex"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Katso myös  
 [Sähköinen tiedonsiirto](across-data-exchange.md)   

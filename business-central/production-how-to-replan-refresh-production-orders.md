@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c8c1885abb3913f4bec3246234a08ebe75bd1718
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: eec002d4c813e92633cceb3f074c5ba4f2c4742b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313178"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191569"
 ---
 # <a name="replan-or-refresh-production-orders-directly"></a>Tuotantotilausten suora uudelleensuunnittelu tai päivittäminen
 Tuotantotilausten **Uudelleensuunnittelu**-toimintoa käytetään yleensä sen jälkeen, kun alemman tason tuotantotilauksiin vaikuttavia komponentteja on lisätty tai muutettu. Toiminto laskee komponentti- ja reititysriveille tehdyt muutokset. Toiminto vaikuttaa myös tuotannon tuoterakenteen alitasoihin, joille saatetaan luoda uusia tuotantotilauksia.  
@@ -35,7 +35,7 @@ Tuotantotilausrivit voidaan syöttää joko manuaalisesti tai voidaan käyttää
 > Jos päivitystoimintoa käytetään laskemaan tuotantotilausrivit uudelleen, ohjelma poistaa vanhat tuotantotilausrivit ja laskee uudet rivit.  
 
 ## <a name="to-replan-a-production-order"></a>Tuotantotilauksen uudelleensuunnittelu  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sitovasti suun. tuotantotil.** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Sitovasti suunn. tuotantotil.** ja valitse sitten liittyvä linkki.  
 2.  Avaa uudelleensuunniteltava tuotantotilausrivi.  
 3.  Valitse **Rivit**-pikavälilehdessä ensin **Rivit**-toiminto ja sitten **Komponentit**-toiminto.  
 4.  Lisää komponentti, joka on tuotantonimeke (osakokoonpano).  
@@ -65,7 +65,7 @@ Tuotantotilausrivit voidaan syöttää joko manuaalisesti tai voidaan käyttää
 ## <a name="to-refresh-a-production-order"></a>Tuotantotilauksen päivittäminen  
 Jos olet muuttanut tuotantotilausrivejä, komponentteja tai reititysrivejä, myös tuotantotilauksen tiedot on päivitettävä. Seuraavassa toimenpiteessä komponentit lasketaan sitovasti suunnitellulle tuotantotilaukselle. Reititysrivejä koskevat vaiheet ovat samanlaisia.
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sitovasti suun. tuotantotil.** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Sitovasti suunn. tuotantotil.** ja valitse sitten liittyvä linkki.  
 2.  Valitse **Uusi**-toiminto. Lisätietoja on kohdassa [Tuotantotilausten luominen](production-how-to-create-production-orders.md).  
 3.  Valitse **Päivitä**-toiminto.
 4. Valitse **Päivitä tuotantotilaus** -sivulla jokin seuraavista vaihtoehdoista:
@@ -91,5 +91,5 @@ Jos olet muuttanut tuotantotilausrivejä, komponentteja tai reititysrivejä, my�
 [Vaihto-omaisuus](inventory-manage-inventory.md)  
 [Osto](purchasing-manage-purchasing.md)  
 [Rakennetiedot: Toimitusten suunnittelu](design-details-supply-planning.md)   
-[Parhaiden käytäntöjen määrittäminen: Toimitusten suunnittelu](setup-best-practices-supply-planning.md)  
+[Asetukset - parhaat käytännöt: toimitusten suunnittelu](setup-best-practices-supply-planning.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)

@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 01/06/2020
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 50cc4aba9f3a01b9518d974cf011de3b9b20a4da
-ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.openlocfilehash: 2c99b8bef9bff22edd2d27856e703b41c6ec6441
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "2991854"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184026"
 ---
-# <a name="accountant-experiences-in-included365fin_longincludesd365fin_long_mdmd"></a>Kirjanpitäjän käyttökokemukset [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]issa
+# <a name="accountant-experiences-in-d365fin_long"></a>Kirjanpitäjän käyttökokemukset [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]issa
 Kaikkien yritysten on pidettävä kirjanpitoa ja hyväksyttävä se. Jotkin yritykset käyttävät ulkoista kirjanpitäjää, ja joillain yrityksillä on oma kirjanpitäjä. Olit kummanlainen kirjanpitäjä tahansa, voit käyttää **kirjanpitäjän** roolikeskusta [!INCLUDE[d365fin](includes/d365fin_md.md)]in kotisivunasi. Siitä saat avattua kaikki sivut, joita tarvitset työssäsi.  
 
 ## <a name="accountant-role-center"></a>Kirjanpitäjän roolikeskus
@@ -25,7 +25,7 @@ Roolikeskus on koontinäyttö, joka sisältää reaaliaikaisia avainlukuja näyt
 
 Jos olet uusi [!INCLUDE[d365fin](includes/d365fin_md.md)] -käyttäjä, voit avata opetusvideoiden luettelon suoraan roolikeskuksesta. Voit avata myös **Aloitusoppaan**, joka osoittaa sovelluksen tärkeimmät osat.  
 
-## <a name="inviteaccountant"></a>Ulkoisen kirjanpitäjän kutsuminen [!INCLUDE[d365fin](includes/d365fin_md.md)]iin
+## <a name="inviting-your-external-accountant-to-your-d365fin"></a><a name="inviteaccountant"></a>Ulkoisen kirjanpitäjän kutsuminen [!INCLUDE[d365fin](includes/d365fin_md.md)]iin
 Jos käytät ulkoista kirjanpitäjää kirjojen ja talousraportoinnin hallinnassa, järjestelmänvalvojasi voi kutsua kirjanpitäjän [!INCLUDE[d365fin](includes/d365fin_md.md)]iisi, jolloin he saavat käyttöönsä kirjanpitotietosi. [!INCLUDE[d365fin](includes/d365fin_md.md)] sisältää kolme lisenssiä, joiden tyyppi on ulkopuolinen kirjanpitäjä. Lisätietoja käyttöoikeuksista on kohdassa [Microsoft Dynamics 365 Business Centralin käyttöoikeusopas](https://go.microsoft.com/fwlink/?LinkId=871590).
 
 Kun kirjanpitäjä on saanut [!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttöoikeudet, hän voi käyttää **Kirjanpitäjä**-roolikeskusta. josta pääsee kätevästi kirjanpitäjän työssään eniten käyttämille sivuille.  
@@ -61,7 +61,7 @@ Jos järjestelmänvalvoja tai jälleenmyyntikumppani ei halua käyttää **Ulkoi
 
 Seuraavaksi sinun on määritettävä uudelle vieraskäyttäjälle käyttöoikeus [!INCLUDE [prodshort](includes/prodshort.md)].
 
-#### <a name="to-give-your-accountant-access-to-your-include-prodshortincludesprodshortmd"></a>Voit antaa kirjanpitäjälle pääsyn kohteeseen [!INCLUDE [prodshort](includes/prodshort.md)]
+#### <a name="to-give-your-accountant-access-to-your-prodshort"></a>Voit antaa kirjanpitäjälle pääsyn kohteeseen [!INCLUDE [prodshort](includes/prodshort.md)]
 
 1. Valitse Azure-portaalissa juuri lisätyn käyttäjän **Profiili** ja valitse sitten **Muokkaa**
 2. Päivitä **Käyttösijainti** -kenttä asianomaisen maan kohdalle ja valitse sitten **Tallenna**.
@@ -73,7 +73,7 @@ Seuraavaksi sinun on määritettävä uudelle vieraskäyttäjälle käyttöoikeu
 
 Jos tämä onnistuu, käyttöoikeus määritetään vieraskäyttäjälle ja vierastili luodaan.
 
-### <a name="importing-the-new-user-into-include-prodshortincludesprodshortmd"></a>Uuden käyttäjän tuominen kohteeseen [!INCLUDE [prodshort](includes/prodshort.md)]
+### <a name="importing-the-new-user-into-prodshort"></a>Uuden käyttäjän tuominen kohteeseen [!INCLUDE [prodshort](includes/prodshort.md)]
 
 Kirjanpitäjä saa sähköpostiviestin, joka ilmoittaa hänelle, että hänelle on annettu pääsy Active Directoryyn. Seuraavaksi sinun on annettava heille oikeus käyttää oikeaa yritystä kohteessa [!INCLUDE [prodshort](includes/prodshort.md)].
 
@@ -83,7 +83,7 @@ Kirjanpitäjä saa sähköpostiviestin, joka ilmoittaa hänelle, että hänelle 
 2. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttäjät** ja valitse sitten liittyvä linkki.  
 3. Valitse **Hae uudet käyttäjät Office 365:stä** -toiminto.
 
-Tämä tuo käyttäjätilin, jonka loit Azure-portaalissa yritykselle. Lisätietoja on kohdassa [Käyttäjän lisääminen Business Centralissa](ui-how-users-permissions.md#to-add-a-user-in-business-central).  
+Tämä tuo käyttäjätilin, jonka loit Azure-portaalissa yritykselle. Lisätietoja on kohdassa [Käyttäjän lisääminen Business Centralissa](ui-how-users-permissions.md#adduser).  
 
 Jos haluat antaa käyttöoikeudet useille yrityksille, sinun on kirjauduttava jokaiseen yritykseen ja toistettava tämä prosessi. Vaihtoehtoisesti voit päivittää kirjanpitäjän käyttäjäprofiilin käyttöoikeusryhmät kohteessa [!INCLUDE [prodshort](includes/prodshort.md)], esimerkiksi määrittämällä heille *D365 Bus Premium* -käyttäjäryhmän. Lisätietoja on kohdassa [Määritä käyttöoikeudet käyttäjille ja ryhmille](ui-define-granular-permissions.md).  
 

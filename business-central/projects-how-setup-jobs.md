@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.workload: na
 ms.search.keywords: project management
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 97e0a8743cc9c86f37432c0b7d6cd5351883176b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e6d277656ab5b159aaca93e03a333ba6232c3bcc
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312770"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191171"
 ---
 # <a name="set-up-jobs"></a>Projektien määrittäminen
 
@@ -22,7 +22,7 @@ Määrität projektipäällikkönä projektit, jotka määrittävät jokaisen [!
 Kullekin projektille määritetään sitten yksittäiset projektikortit, joissa on tietoja projektinimikkeiden hinnoista, projektin resursseista ja KP-tileistä. Määritä myös projektin kirjausryhmät.
 
 ## <a name="to-set-general-information-for-jobs"></a>Projektien yleistietojen määrittäminen
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektienhallinnan asetukset** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Töiden määritys** ja valitse sitten liittyvä linkki.
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
@@ -44,13 +44,13 @@ Kun **Käytä käyttölinkkiä oletusarvoisesti** -valintaruutu on valittuna ja 
 >  
 > Jos projektin käytön seurantaa *ei* ole otettu käyttöön **Projektienhallinnan asetukset** -sivulla tai yksittäisessä projektissa ja päiväkirjarivin **Rivityyppi**-kenttä on tyhjä, mitään projektin suunnittelurivejä ei luoda projektipäiväkirjan rivien kirjaamisen yhteydessä. Lisätietoja on kohdassa [Projektien käytön kirjaaminen](projects-how-record-job-usage.md).
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Projektienhallinnan asetukset** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") -kuvake, syötä **Töiden määritys lukitukset** ja valitse sitten aiheeseen liittyvä linkki.
 2. Valitse **Käytä käyttölinkkiä oletusarvoisesti** -valintaruutu.
 
 ## <a name="to-set-up-prices-for-job-resources"></a>Projektin resurssien hintojen määrittäminen
 Voit määrittää projektin resursseja varten tietyt hinnat. Tähän käytetään **Projektiresurssien hinnat** -sivua.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Projektit** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Työt** ja valitse sitten liittyvä linkki.  
 2. Valitse asianmukainen projekti ja valitse sitten **Resurssi**-toiminto.
 3. Täytä **Projektiresurssien hinnat** -sivulla tarvittavat kentät.
 
@@ -64,7 +64,7 @@ Resurssin **Yksikköhinta**-kentän arvoa käytetään projektin suunnittelurive
 ## <a name="to-set-up-prices-for-job-items"></a>Projektinimikkeiden hintojen määrittäminen
 Voit määrittää projektin nimikkeille tietyt hinnat. Tähän käytetään **Projektinimikkeiden hinnat** -sivua.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Projektit** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Työt** ja valitse sitten liittyvä linkki.  
 2. Valitse asianmukainen projekti ja valitse sitten **Nimike**-toiminto.
 3. Täytä **Projektinimikkeen hinnat** -sivulla tarvittavat kentät.
 
@@ -78,7 +78,7 @@ Nimikkeen **Yksikköhinta**-kentän arvoa käytetään projektin suunnittelurive
 ## <a name="to-set-up-prices-for-job-general-ledger-accounts"></a>Kirjanpitotilin hintojen määrittäminen
 Määritä hinnat projektin kirjanpidon kuluille. Tähän käytetään **Projektin kirjanpitotilin hinnat** -sivua.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Projektit** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Työt** ja valitse sitten liittyvä linkki.  
 2. Valitse asianmukainen projekti ja valitse sitten **KP-tili**-toiminto.  
 3. Täytä **Projektin kirjanpitotilin hinnat** -sivulla tarvittavat kentät.
 

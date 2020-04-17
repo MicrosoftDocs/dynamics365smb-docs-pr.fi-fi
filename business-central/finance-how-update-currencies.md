@@ -5,14 +5,14 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: multiple currencies, adjust exchange rates
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: be39f8a56dc95ed48e339e89513a103d044faa08
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 252636417dab633b8b95a15f206d1be82fc78a32
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2952672"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183186"
 ---
 # <a name="update-currency-exchange-rates"></a>Valuutan vaihtokurssien päivittäminen
 Yritysten toiminnan sijoittuessa yhä useamman maan/alueen alueelle niiden on entistä tärkeämpää pystyä tekemään kauppaa ja raportoimaan taloustiedot useana valuuttana. Kaikille valuutoille täytyy määrittää koodi, jos yritys ostaa tai myy käyttäen jotain muuta valuuttaa kuin paikallista valuuttaa, jos yrityksellä on myyntisaamisia tai ostovelkoja muissa valuutoissa; tai jos yritys tallentaa KP-kauppatapahtumia eri valuuttoina.
@@ -47,7 +47,7 @@ Muutostapahtumille on määritetty niiden KP-tilien dimensiot, joille ne on kirj
 > [!Important]
 > Syötä ennen eräajon käyttämistä vaihtokurssit, joita käytetään ulkomaisen valuutan saldoja muutettaessa. Se tehdään **Valuutan vaihtokurssit** -sivulla.<br><br>  
 
-> [!Video https://www.microsoft.com/videoplayer/embed/RE3Q24s]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE3Q24s?rel=0]
 
 ## <a name="to-set-up-a-currency-exchange-rate-service"></a>Valuutanvaihdon kurssipalvelun määrittäminen
 Voit pitää valuutan vaihtokurssit ajan tasalla ulkoisen palvelun, kuten FloatRatesin avulla.
@@ -63,7 +63,7 @@ Voit pitää valuutan vaihtokurssit ajan tasalla ulkoisen palvelun, kuten FloatR
 
 **Valuutat**-sivun **Vaihtokurssi**-kentän arvo päivittyy uusimman valuutan vaihtokurssin mukaan.
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsuse-multiple-currencies-dynamics-365-business-central"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/paths/use-multiple-currencies-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/paths/use-multiple-currencies-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
 [Lisäraportointivaluutan määrittäminen](finance-how-setup-additional-currencies.md)  

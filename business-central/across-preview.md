@@ -6,41 +6,45 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
-ms.date: 12/10/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 17f8a61507659f05e12bc7b5d4560bd50f344b0e
-ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
+ms.openlocfilehash: 9acd4840c9e7c2f4aa2a8f5087b2f58708ca7cb0
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "2942965"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187746"
 ---
-# <a name="included365fin_longincludesd365fin_long_mdmd-trials-and-subscriptions"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] – Kokeilut ja tilaukset
+# <a name="d365fin_long-trials-and-subscriptions"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] – Kokeilut ja tilaukset
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] on saatava yhä useammassa maassa eri puolilla maailmaa. Jos haluat oppia [!INCLUDE [prodshort](includes/prodshort.md)]n käyttöä, voit rekisteröidä maksuttoman kokeiluversion. Kun olet valmis, voit keskustella jälleenmyyjäkumppanin kanssa tilauksen hankkimisesta.  
 
+Jos sinulla ei vielä ole kumppania, katso [Miten löydän jälleenmyyjäkumppanin?](across-faq.md#findpartner).  
+
 ## <a name="getting-started-with-a-trial"></a>Kokeilun käytön aloittaminen
 
-Voit rekisteröityä maksuttomaan kokeiluversioon [täällä](https://go.microsoft.com/fwlink/?linkid=847861). Maasi tai alueesi mukaan kokeiluversio sisältää maan tai alueen edellyttämät kielet ja toiminnot. Lisätietoja on kohdassa [Kielen ja alueen muuttaminen](about-locale-language.md).  
+Voit rekisteröityä maksuttomaan kokeiluversioon [täällä](https://go.microsoft.com/fwlink/?linkid=847861). Microsoft suosittelee, että työskentelet [jälleenmyyjäkumppanin](across-faq.md#findpartner) kanssa, jotta organisaatiosi voi aloittaa sovelluksen [!INCLUDE [prodshort](includes/prodshort.md)] käyttämisen.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]issa on sekä tuttuja että uusia ominaisuuksia. Kun kirjaudut esittely-yritykseen ensimmäisen kerran, pääset aloitussivulle, jossa on linkkejä videoihin, joiden avulla pääset alkuun. Lisätietoja on kohdassa [[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]in käytön aloittaminen](product-get-started.md).  
+Maasi tai alueesi mukaan kokeiluversio sisältää maan tai alueen edellyttämät kielet ja toiminnot. Lisätietoja on kohdassa [Kielen ja alueen muuttaminen](about-locale-language.md).  
 
-Jos kohtaat ongelmia, [Usein kysytyt kysymykset](across-faq.md) -sivu voi auttaa sinua löytämään vastaukset joihinkin kysymyksiisi. Jos et voinut rekisteröityä kokeiluversioon, katso apua sivulta [Itsepalvelun rekisteröitymisen vianmääritys](ui-troubleshoot-self-signup.md). Voit myös ottaa yhteyttä [kumppaniin](across-faq.md#findpartner) ja pyytää heitä luomaan maksuttoman kokeiluversion.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]issa on sekä tuttuja että uusia ominaisuuksia. Kun kirjaudut esittely-yritykseen sisään ensimmäisen kerran, pääset aloitussivulle, jossa on linkkejä videoihin. Niiden avulla pääset alkuun. Lisätietoja on kohdassa [[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]in käytön aloittaminen](product-get-started.md).  
+
+Jos kohtaat ongelmia, [Usein kysytyt kysymykset](across-faq.md) -sivu voi auttaa sinua löytämään vastaukset joihinkin kysymyksiisi. Jos et voi rekisteröityä kokeiluversioon, katso apua sivulta [Itsepalvelun rekisteröitymisen vianmääritys](ui-troubleshoot-self-signup.md). Voit myös ottaa yhteyttä [kumppaniin](across-faq.md#findpartner) ja pyytää tätä luomaan maksuton kokeiluversion tai erilainen sovelluksen [!INCLUDE [prodshort](includes/prodshort.md)] esikatselu organisaatiollesi.  
 
 ### <a name="try-out-your-own-company"></a>Kokeile omaa yritystä
 
-Jos haluat kokeilla [!INCLUDE [prodshort](includes/prodshort.md)] -ohjelmaa omilla tiedoillasi, voit vaihtaa maksuttomaan 30 päivän kokeiluversioon, jossa on tyhjä yritys. **Määritä yritykseni** -avustetun asennusoppaan avulla voit määrittää perustietoja yrityksestäsi. Vaihtoehtoisesti voit tuoda tietoja olemassa olevasta yrityksenhallintaratkaisusta, jotta voit arvioida [!INCLUDE [prodshort](includes/prodshort.md)] -ohjelmaa omia tietojasi käyttäen.  
+Jos haluat kokeilla [!INCLUDE [prodshort](includes/prodshort.md)] -ohjelmaa omilla tiedoillasi, voit vaihtaa maksuttomaan 30 päivän kokeiluversioon, jossa on tyhjä yritys. **Määritä yritykseni** -avustetun asennusoppaan avulla voit määrittää perustietoja yrityksestäsi. Vaihtoehtoisesti voit tuoda tietoja olemassa olevasta yrityksenhallintaratkaisusta, jotta voit arvioida [!INCLUDE [prodshort](includes/prodshort.md)] -ohjelmaa omia tietojasi käyttäen. Microsoft ei kuitenkaan suosittele maksuttoman kokeiluversion käyttämistä liiketoiminnassa. Ota yhteyttä [jälleenmyyjäkumppaniin](across-faq.md#findpartner) ja lue lisää sovelluksen [!INCLUDE [prodshort](includes/prodshort.md)] käytön aloittamisesta.  
 
 Jos 30 päivää ei ole tarpeeksi päätöksen tekemiseksi, voit jatkaa kokeilua. Lisätietoja on kohdassa [Tarvitsetko lisää aikaa, ennen kuin päätät tilauksen tekemisestä?](admin-extend-trial.md).  
 
-### <a name="setting-up-your-company-in-include-prodshortincludesprodshortmd"></a>Yrityksen määrittäminen [!INCLUDE [prodshort](includes/prodshort.md)]ssa
+### <a name="setting-up-your-company-in-prodshort"></a>Yrityksen määrittäminen [!INCLUDE [prodshort](includes/prodshort.md)]ssa
 
-Yrityksen määrittämisen avuksi on **Asetusten ohjattu määritys** -sivulla on luettelo avustetuista asennusohjeista, joista voi olla apua. Sivulla näkyvät roolin ja maan tai alueen mukaan eri avustajan asetusoppaat, kuten seuraavat:
+Yrityksen määrittämisen avuksi on **Asetusten ohjattu määritys** -sivulla on luettelo avustetuista asennusohjeista, joista voi olla apua. Sivulla näkyvät roolin ja maan tai alueen mukaan erilaiset asetusten ohjatun määrityksen oppaat seuraavan taulukon mukaisesti:
 
 | Asetusten ohjattu määritys | Kuvaus |
 | -------------- | ----------- |
 | Määritä oma yritys |Luo uuden kokeiluyrityksen, johon voit syöttää tiedot ja jonka avulla voit kokeilla [!INCLUDE[d365fin](includes/d365fin_md.md)]ia. |
-| Määritä hyväksymistyönkulut |Määrittää järjestelmän automaattisesti ilmoittamaan hyväksyjälle, milloin käyttäjä yrittää luoda tai muokata asiakirjojen tiettyjä arvoja (kuten tietyn rajan ylittävää summaa), päiväkirjan rivejä tai kortteja. |
+| Määritä hyväksymistyönkulut |Määrittää mahdollisuuden ilmoittaa hyväksyjälle automaattisesti, kun käyttäjä yrittää luoda asiakirjoihin, päiväkirjariveille tai kortteihin tiettyjä arvoja tai muuttaa niitä. Voit esimerkiksi määrittää tietyn rajan ylittävien summien hyväksynnän. |
 | Määritä sähköposti |Tämän avulla voit lähettää sähköpostiviestejä suoraan esimerkiksi [!INCLUDE[d365fin](includes/d365fin_md.md)]in myyntitilauksista tai yhteyshenkilöistä. |
 | Määritä Outlookin yrityssähköposti |Esittelee mahdollisuuden hallita liiketoiminnallisia vuorovaikutuksia asiakkaiden ja toimittajien kanssa suoraan Microsoft Outlookista. |
 | Siirrä yritystiedot |Tämän avulla voit tuoda aiemmin luodut yritystiedot, kuten toimittajat, asiakkaat ja nimikkeet, Excel- tai Quickbooks-ohjelmasta. |
@@ -53,18 +57,18 @@ Yrityksen määrittämisen avuksi on **Asetusten ohjattu määritys** -sivulla o
 | Määritä raportointitiedot|Määrittää tietojoukot, joilla voit muodostaa tehokkaita raportteja käyttämällä esimerkiksi Exceliä tai Power BI:tä. |
 | Kutsu ulkoinen kirjanpitäjä |Jos käytä ulkoista kirjanpitäjää kirjojen ja talousraportoinnin hallinnassa, voit kutsua kirjanpitäjän [!INCLUDE [prodshort](includes/prodshort.md)]iin, jolloin he saavat käyttöönsä kirjanpitotietosi. |
 
-**Asetusten ohjattu määritys** -sivu voi sisältää myös muita tapahtumia. Kun käyt läpi asetukset, se merkitään tilaan **Valmis**. Voit määrittää lisää yrityksen alueita manuaalisten asetusten avulla. Lisätietoja on ohjeaiheessa [[!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittäminen](setup.md).  
+**Asetusten ohjattu määritys** -sivu voi sisältää myös muita tapahtumia. Kun käyt läpi asetuksen, sen tilaksi merkitään **Valmis**. Voit määrittää lisää yrityksen alueita manuaalisten asetusten avulla. Lisätietoja on ohjeaiheessa [[!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittäminen](setup.md).  
 
-### <a name="resetting-your-includeprodshortincludesprodshortmd-trial-experience"></a>[!INCLUDE[prodshort](includes/prodshort.md)] -kokeiluversion palauttaminen
+### <a name="resetting-your-prodshort-trial-experience"></a>[!INCLUDE[prodshort](includes/prodshort.md)] -kokeiluversion palauttaminen
 
-Jos olet lisännyt tietoja maksuttomaan [!INCLUDE[prodshort](includes/prodshort.md)] -kokeiluun ja haluat aloittaa uudelleen, voit luoda uuden yrityksen ja poistaa ensimmäisen yrityksen. Jos avaat **Yritykset**-sivun ja valitset **Uusi**, ohjattu **Luo uusi yritys** -asennusopas auttaa sinua perustamaan uuden arviointiyrityksen, jossa on esimerkkitiedot. Voit myös luoda kopion tämänhetkisestä yrityksestä, kirjautua ulos ja sitten kirjautua uuteen yritykseen.  
+Jos olet lisännyt tietoja maksuttomaan [!INCLUDE[prodshort](includes/prodshort.md)] -kokeiluun ja haluat aloittaa uudelleen, voit luoda uuden yrityksen ja poistaa ensimmäisen yrityksen. Avaa **Yritykset**-sivu ja valitse **Uusi**, jos haluat käynnistää **uuden yrityksen luonnin** asetusten ohjatun määrityksen oppaan. Oppaan avulla voit luoda uuden arviointiyrityksen, jossa on esimerkkitietoja. Voit myös luoda kopion tämänhetkisestä yrityksestä, kirjautua ulos ja sitten kirjautua uuteen yritykseen.  
 
 > [!IMPORTANT]
 > Kun jaat [!INCLUDE [prodshort](includes/prodshort.md)]n muiden organisaation henkilöiden kanssa, varmista, että kukaan henkilöistä ei ole kirjautuneena yrityksen palautuksen yhteydessä.  
 
 ## <a name="getting-started-with-a-subscription"></a>Tilauksen käytön aloittaminen
 
-Aina kun kirjaudut sovellukseen kokeilujakson aikana, jäljellä oleva aika näkyy yläreunassa olevassa sinisessä palkissa. Jos päätät tehdä tilauksen, voit etsiä [!INCLUDE[d365fin](includes/d365fin_md.md)] -kumppanin. Lisätietoja on kohdassa [Miten löydän jälleenmyyjäpartnerin?](across-faq.md#findpartner). Jälleenmyyjäkumppanin avulla voit määrittää [!INCLUDE [prodshort](includes/prodshort.md)]n yrityksesi tarpeiden mukaan, kuten tietojen tuomisen aiemmasta järjestelmästä ja toimintojen lisäämisen, esimerkiksi sovellusten lisäämisen [Microsoft AppSourcesta](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365-business-central).  
+Aina kun kirjaudut sovellukseen kokeilujakson aikana, jäljellä oleva aika näkyy yläreunassa olevassa sinisessä palkissa. Jos päätät tehdä tilauksen, voit etsiä [!INCLUDE[d365fin](includes/d365fin_md.md)] -kumppanin. Lisätietoja on kohdassa [Miten löydän jälleenmyyjäpartnerin?](across-faq.md#findpartner). Jälleenmyyjäkumppanin avulla voit määrittää sovelluksen [!INCLUDE [prodshort](includes/prodshort.md)] yrityksesi tarpeiden mukaan, kuten tietojen tuomisen aiemmasta järjestelmästä. Voit myös mukauttaa sovelluksen [!INCLUDE [prodshort](includes/prodshort.md)] lisäämällä sovellukset [Microsoft AppSourcesta](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365-business-central).  
 
 [!INCLUDE [prodshort](includes/prodshort.md)] online käyttää Office 365:tä. Jos yrityksesi käyttää eri tyyppisiä sähköpostiasetuksia, jälleenmyynnin kumppani voi auttaa sinua päättämään, miten tiedot siirretään tai pitäisikö käyttää [!INCLUDE [prodshort](includes/prodshort.md)] on-premises -versiota.  
 
@@ -72,7 +76,7 @@ Voit ottaa yhteyttä myös [[!INCLUDE[d365fin](includes/d365fin_md.md)] -myyntir
 
 ## <a name="getting-started-with-sandboxes"></a>Eristysympäristöjen käytön aloittaminen
 
-Eristysympäristöt voivat olla yksi tapa harjoitella [!INCLUDE[d365fin](includes/d365fin_md.md)]n käyttöä. Voit ajatella sandbox-ympäristöä muuna kuin tuotantoympäristönä, jota voi käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)] -tuotantoesiintymän lisäksi. Jos esimerkiksi haluat suorittaa maksuttoman verkkokoulutuksen [Microsoft Learnissa](/learn/browse/?products=dynamics-business-central), järjestelmänvalvojasi voi luoda Sandbox-ympäristön, jotta sinä ja kollegasi voitte harjoitella siinä mieluummin kuin tuotantoympäristössäsi.  
+Eristysympäristöt voivat olla yksi tapa harjoitella [!INCLUDE[d365fin](includes/d365fin_md.md)]n käyttöä. Ajattele eristysympäristöä muuna kuin tuotantoympäristönä, jota voi käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)] -tuotantoesiintymän lisäksi. Jos esimerkiksi haluat suorittaa maksuttoman verkkokoulutuksen [Microsoft Learnissa](/learn/browse/?products=dynamics-business-central), järjestelmänvalvoja voi [luoda eristysympäristön](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-sandbox-environment), jotta sinä ja kollegasi voitte harjoitella siinä tuotantoympäristön sijaan.  
 
 Sandbox-ympäristön avulla kehittäjät voivat turvallisesti luoda ja testata laajennuksia ja kehittää uusia toimintoja palvelun mukauttamista varten niin, että tuotantoympäristön tiedot tai asetukset eivät muutu.  
 
@@ -83,16 +87,6 @@ Tällä hetkellä kaikki asiakkaat voivat käyttää Sandbox-ympäristöä, muka
 
 [!INCLUDE [prodshort](includes/prodshort.md)] -järjestelmänvalvojasi ja jälleenmyyjäkumppanisi voivat luoda lisää ympäristöjä hallintakeskuksessa. Lisätietoja on kohdassa [Business Centralin hallintakeskus](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
 
-<!-- As a partner, you can provide customers with trials based on already existing functionality, customizations, and previews of future capabilities. With previews like this, you can try and provide feedback about upcoming capabilities.  -->
-
-<!--To get started with a preview, go to [this page](https://go.microsoft.com/fwlink/?linkid=866045) and provide your work email address. To learn more about [!INCLUDE[d365fin](includes/d365fin_md.md)] and the capabilities it offers, refer to the documentation here on this site.-->
-<!--
-### Building New Solutions and Intellectual Property
-
-[!INCLUDE[d365fin](includes/d365fin_md.md)] offers a set of development tools and a modern platform to build on so you can create your own add-on apps and embed solutions to connect or extend [!INCLUDE[d365fin](includes/d365fin_md.md)].  
-
-For example, you can use an API to build a connected app to exchange data between [!INCLUDE[d365fin](includes/d365fin_md.md)] and your payroll app. Connect apps can also make use of extensions to create pages to be used for setup, configuration, or to support app-specific features. For more information, see [Build Your Business on Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-welcome).-->
-
 ## <a name="see-also"></a>Katso myös
 
 [Käytön aloittaminen](product-get-started.md)  
@@ -102,6 +96,8 @@ For example, you can use an API to build a connected app to exchange data betwee
 [Miten löydän jälleenmyyjäkumppanin?](across-faq.md#findpartner)  
 [Sandbox-ympäristön valitseminen Dynamics 365 Business Centralin kehittämiseen](/dynamics365/business-central/dev-itpro/developer/devenv-sandbox-overview?toc=/dynamics365/business-central/toc.json)  
 [Saatavuus maassa/alueella ja tuetut käännökset](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
-  
+[Kokeiluversioiden jatkaminen (järjestelmänvalvojana)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials)  
+[Aloittaminen Business Central Online -jälleenmyyjänä](/dynamics365/business-central/dev-itpro/administration/get-started-online)  
+[Esittely-ympäristöjen valmisteleminen (kumppanina)](/dynamics365/business-central/dev-itpro/administration/demo-environment)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 88919a3665aff5f9d9ae7a6ead1fa19581119977
-ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
+ms.openlocfilehash: c5206874a8a39e06c711c31c681a18c0bae5b183
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "2775401"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187988"
 ---
 # <a name="set-up-workflow-users"></a>Työnkulun käyttäjien määrittäminen
 Työnkuluissa jäseninä olevat käyttäjät on määritettävä, ennen kuin voit luoda työnkulun. On esimerkiksi pakollista määritellä ne henkilöt, jotka saavat ilmoituksen toimia työnkulun osavaiheilla.  

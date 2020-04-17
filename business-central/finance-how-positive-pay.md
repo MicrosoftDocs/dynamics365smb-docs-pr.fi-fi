@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: check, clearing
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 73d871e43490fba817db8f9dfad5fbdaf456c3c8
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: d1a7922895e357e51ba66dd8853961300a8fcc6c
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306266"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183622"
 ---
 # <a name="export-a-positive-pay-file"></a>Positive Pay -tiedoston vienti
 Kun viet toimittajan tiedot, sekin numeron ja maksun summan sisältävän Positive Pay -tiedoston, jonka sitten lähetät viitetiedoiksi pankkiin maksuja käsitellessäsi, voit varmistaa, että pankki vahvistaa vain tarkistetut sekit ja summat.
@@ -25,13 +25,13 @@ Kun viet toimittajan tiedot, sekin numeron ja maksun summan sisältävän Positi
 [!INCLUDE[d365fin](includes/d365fin_md.md)] on määritetty tukemaan Bank of American ja City Bankin Positive Pay -tiedostoja.
 
 ## <a name="to-set-up-a-bank-account-for-positive-pay"></a>Positive Pay -pankkitilin määrittäminen
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pankkitilit** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tilit** ja valitse sitten liittyvä linkki.
 2. Avaa sen pankin kortti, jossa haluat käyttää Positive Pay -toimintoa.
 3. Kirjoita **Positive Pay -vientikoodi** -kenttään POSPAYBANK.
 4. Sulje sivu.
 
 ## <a name="to-export-a-positive-pay-file"></a>Positive Pay -tiedoston vienti
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Pankkitilit** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tilit** ja valitse sitten liittyvä linkki.
 2. Valitse pankkitili, johon haluat viedä Positive Pay -tiedoston.
 3. Valitse **Positive Pay, vienti** -toiminto.
 
@@ -44,7 +44,7 @@ Kun viet toimittajan tiedot, sekin numeron ja maksun summan sisältävän Positi
 
 Vietyjen Positive Pay -tietueiden näyttäminen
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pankkitilit** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tilit** ja valitse sitten liittyvä linkki.
 2. Valitse pankkitili, jonka Positive Pay -vientitietueet haluat näyttää.
 3. Valitse **Positive Pay -tapahtumat** -toiminto.
 
@@ -54,7 +54,7 @@ Vietyjen Positive Pay -tietueiden näyttäminen
 
 Positive Pay -tiedostojen uudelleenvienti
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pankkitilit** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tilit** ja valitse sitten liittyvä linkki.
 2. Valitse pankkitili, johon haluat viedä Positive Pay -tiedostot uudelleen.
 3. Valitse **Positive Pay -tapahtumat** -toiminto.
 4. Valitse uudelleenvietävä Positive Pay -vientitiedoston rivi.

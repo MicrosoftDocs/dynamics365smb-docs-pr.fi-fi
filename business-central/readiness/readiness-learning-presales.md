@@ -2,15 +2,15 @@
 title: Kumppanin ennakkomyynnin opintoluettelo
 description: Etsi kaikki käytettävissä olevat opinnot Business Centralille.
 author: loreleishannonmsft
-ms.date: 02/19/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.author: v-lshann
-ms.openlocfilehash: fa20bdc9852098ac3d1a78d2038fcf4182ce2f1f
-ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
+ms.openlocfilehash: e5341a17626b693cf49d74d398ee5bb657ba3afd
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "3097814"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190736"
 ---
 # <a name="partner-pre-sales-learning-catalog"></a>Kumppanin ennakkomyynnin opintoluettelo
 
@@ -18,7 +18,7 @@ Oletko vastuussa avaintoimintojen esittelystä asiakkaille? 
 
 Seuraava luettelo on järjestetty perustiedoista tiettyihin toimialueisiin ja perustiedoista kaikkein kehittyneimpiin. Jos sisältöä on useissa muodoissa, ilmoitamme siitä sinulle, jotta voit valita tarpeitasi parhaiten vastaavan koulutusmuodon. 
 
-## Aloita<a name="get-started"></a>
+## <a name="get-started"></a>Aloita<a name="get-started"></a>
 
 | Sisältö                                                                                                                              | Kuvaus                                                                                                                                                                                                                                                                                      | Muoto                                | Pituus             |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|
@@ -28,27 +28,27 @@ Seuraava luettelo on järjestetty perustiedoista tiettyihin toimialueisiin ja pe
 | [Business Central YouTube -soittolista](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4)                                                                | YouTuben saapumissivu Dynamics 365 Business Central -videoille                                                                                                                                                                                                                                    | YouTube-videot                        |                    |
 | [Tutki Dynamics 365 Business Central -ominaisuuksia](https://dynamics.microsoft.com/business-central/capabilities/)                                                    | Tutki Dynamics 365 Business Central -ominaisuuksia                                                                                                                                                                                                                                               | Sivusto                               |                    |
 
-## Kasvata yritystäsi<a name="grow"></a>
+## <a name="grow-your-business"></a>Kasvata yritystäsi<a name="grow"></a>
 
 | Sisältö                                                                                                                                | Kuvaus                                                                                                                                                                                                                                                                                      | Muoto                                | Pituus                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|
 | [Dynamics 365 Business Central - Mielenkiintoiset prospektikeskustelut (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101761)                                             | Liity Errol Schosfishin, tuotemarkkinointijohtajan seuraan, kun hän puhuu siitä, miten saada aikaan mielenkiintoisia keskusteluja prospektien kanssa Microsoft Dynamics 365 Business Centralista.                                                                                                                        | Video                                 | 11 minuuttia 16 sekuntia |
 | [Dynamics 365 Business Central - Miten tehdä siitä todellista](https://mbspartner.microsoft.com/D365/Videos/101787)                                                                   | Liity Errol Schonfishin, tuotemarkkinointijohtajan seuraan, kun hän puhuu siitä, kuinka aloittaa demojen ottaminen käyttöön Microsoft Dynamics 365 Business Centralille.                                                                                                                                           | Video                                 | 12 minuuttia 29 sekuntia |
 
-## Liiketoiminta-arvo<a name="busvalue"></a>
+## <a name="business-value"></a>Liiketoiminta-arvo<a name="busvalue"></a>
 
 | Sisältö                                                                                                                                | Kuvaus                                                                                                                                                                                                                                                                                      | Muoto                                | Pituus                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|
 | [Tutki Dynamics 365 Business Central -ominaisuuksia](https://dynamics.microsoft.com/business-central/capabilities/) | Tutki Dynamics 365 Business Central -ominaisuuksia                                                                                                                                                                                                                                                        | Sivusto                               |                     |
 | [Dynamics 365 Business Central](https://docs.microsoft.com/learn/modules/dynamics-365-business-central/)            | Tämä moduuli näyttää sovelluksen ominaisuudet, hyödyt ja esimerkit Dynamics 365 Business Centralista käytännössä.                                                                                                                                                                                                | Ilmainen, omaan tahtiin etenevä verkko-oppimispolku | 24 minuuttia          |
 
-## Uutta<a name="whatsnew"></a>
+## <a name="whats-new"></a>Uutta<a name="whatsnew"></a>
 
 | Sisältö                                                                                                                                | Kuvaus                                 | Muoto                                | Pituus                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|
 | [Dynamics 365: 2019 Release Wave 2 -suunnitelma](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/)                                                               | Dynamics 365 Release -suunnitelma (aiemmin Release Notes) 2019 Release Wave 2:ta varten kuvaa kaikkia uusia ominaisuuksia, jotka julkaistaan lokakuusta 2019 maaliskuuhun 2020.                                                                                                                                          | Verkkosivusto ja ladattava valkoinen kirja  |                       |
 
-## Esittely<a name="demo"></a>
+## <a name="demo"></a>Esittely<a name="demo"></a>
 
 | Sisältö                                                                                                                                                           | Kuvaus                                                                                                                                                                                                                                                     | Muoto                           | Pituus                   |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------|--------------------------|

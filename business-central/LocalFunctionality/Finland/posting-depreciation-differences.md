@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 830e505f65c77570401c0c96bcd91bc067370fff
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 031eabac4854af9348f3ff306050eee07960d5dd
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300214"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181214"
 ---
 # <a name="posting-depreciation-differences"></a>Poistoerojen kirjaaminen
 Suomessa käyttöomaisuuden poistoissa käytetään yleisesti seuraavia poistotapoja:  

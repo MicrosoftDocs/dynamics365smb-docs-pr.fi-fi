@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9f4ef853d62e76ce3ade8062a341eb4336116028
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: bfd2c67c7e7133f13a2e021cb9cf70ba82f6bb21
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303506"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185154"
 ---
 # <a name="design-details-item-application"></a>Rakennetiedot: Nimikkeen kohdistus
 Kun kirjaat varastotapahtuman, määrän kirjaus tallennetaan nimiketapahtumiin ja arvon kirjaus arvotapahtumiin. Lisätietoja on ohjeaiheessa [Rakenteen tiedot: Varaston kirjaus](design-details-inventory-posting.md).  
@@ -189,7 +189,7 @@ Seuraavassa taulukossa esitetään täsmällisen kustannusten kumoamisen vaikutu
 Kun **Muuta kustannuksia - Nimiketapahtumat** -eräajo suoritetaan, ostotapahtuman nimikeveloituksen vuoksi nousseet kustannukset välitetään myyntitapahtumalle (tapahtuma numero 2). Myyntikirjaus lähettää sitten edelleen nämä kasvaneet kustannukset myynnin kredit-kirjaukseen (kirjausnumero 3). Lopputulos on se, että kustannukset on kumottu oikein.  
 
 > [!NOTE]  
->  Kun käsittelet palautuksia tai hyvityslaskuja ja olet määrittänyt **Todellisen kust. peruutt. pakollinen** -kentän joko **Ostojen ja ostovelkojen asetukset**- tai **Myyntien ja myyntisaamisten asetukset** -sivulla tilanteesi mukaisesti, [!INCLUDE[d365fin](includes/d365fin_md.md)] täyttää kohdistustapahtumakentät automaattisesti, kun käytät **Kopioi asiakirja** -toimintoa. Jos käytät **Hae peruutettavat kirjatut asiakirjarivit** -toimintoa, tällöin kentät täytetään aina automaattisesti.  
+>  Kun käsittelet palautuksia tai hyvityslaskuja ja olet määrittänyt **Todellisen kust. peruutt. pakollinen** -kentän joko **Ostojen ja ostovelkojen asetukset**- tai **Myyntien ja myyntisaamisten asetukset** -sivulla tilanteesi mukaisesti, [!INCLUDE[d365fin](includes/d365fin_md.md)] täyttää kohdistustapahtumakentät automaattisesti, kun käytät **Kopioi asiakirjasta** -toimintoa. Jos käytät **Hae peruutettavat kirjatut asiakirjarivit** -toimintoa, tällöin kentät täytetään aina automaattisesti.  
 
 > [!NOTE]  
 >  Jos kirjaat tapahtuman, jolla on kiinteä kohdistus ja kohdistettava nimiketapahtuma on suljettu (eli jäljellä oleva määrä on nolla), tällöin vanha kohdistus kumotaan automaattisesti ja nimiketapahtuma kohdistetaan uudelleen käyttämällä määrittämääsi kiinteää kohdistusta.  

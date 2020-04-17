@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8ec498030368aa2e6378068c88910b787c3632f8
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: aa7abc6ffeacfac3bdf8298a518bf0c4a45e41b0
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2954030"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195625"
 ---
 # <a name="import-and-export-custom-report-layouts"></a>Tuo ja vie mukautettuja raporttiasetteluja
 Voit tuoda ja viedä olemassa olevan mukautetun raporttiasettelun tiedostona tietokoneen tai verkon sijainnista ja sijaintiin. Voit esimerkiksi viedä raporttiasettelun ja lähettää sitten tiedoston toiselle henkilölle muokkausta varten. Kyseinen henkilö voi tehdä muutoksia asetteluun ja palauttaa tiedoston sinulle, jotta voit tuoda sen takaisin.  
@@ -49,7 +49,7 @@ Voit tuoda ja viedä olemassa olevan mukautetun raporttiasettelun tiedostona tie
 
  Alkuperäinen mukautettu raporttiasettelu korvataan tuodulla raporttiasettelulla.  
 
-## <a name="see-related-training-at-microsoft-learnlearnmoduleschange-documents-dynamics-365-business-centralindex"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Katso myös  
  [Raporttien mukautetun asettelun luominen ja muokkaaminen](ui-how-create-custom-report-layout.md)   

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 5d84dee6ed6cf0b17f488d67e5403638ecb79ce9
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: b18322180f833a63b7f4565bd4000bdc3bd4f571
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953801"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183714"
 ---
 # <a name="create-gl-budgets"></a>KP-budjettien luominen
 Sinulla voi olla useita budjetteja samalle ajanjaksolle, kun luot budjetit eri nimillä. Määrittele ensin budjetin nimi ja syötä budjettiluvut. Budjetin nimi tulee sitten kaikkiin luomiisi budjettitapahtumiin.  
@@ -48,7 +48,7 @@ Niin kuin käytännössä kaikkia muitakin sivuja voit viedä budjettisivujen ti
 > [!NOTE]
 > Tilikartassa, johon KP-budjetit perustuvat, on Otsikko-tilityypin rivejä, joissa ilmoitetaan otsikon alla olevien rivien määrä. Kun viet KP-budjetin, kaikkien rivien tiedot viedään tilityypistä riippumatta. Kuitenkin vain Kirjaus-tilityypin rivien tiedot voida tuoda takaisin. Näin ollen: <br /><br /> **Kun tuot KP-budjetin, kaikki Otsikko-riveillä olevat arvot poistetaan.** <br /><br /> Tällä tavoin estetään virheelliset yhteissummat sen jälkeen, kun Excelissä luotuja tai muokattuja tietoja on tuotu.<br /><br /> **Esimerkkitilanne**: Tiedät, että uudet budjetoidut palkkakustannukset tulevat olemaan PVA:na 1 200 000. Haluat, että palkkaosaston budjetissa on tietyt kolme (Kirjaus-tilityypin) riviä: kokoaikaiset työntekijät, osa-aikaiset työntekijät ja satunnaiset työntekijät. Nämä kolme riviä ryhmitellään Palkat-otsikkorivin kohdalle.<br /><br />Lisää 1 200 000 Otsikko-riville, vie budjetti Exceliin ja lähetä se sitten palkkaosastolle ja pyydä heitä jakamaan PVA 1 200 000.<br /><br /> Palkkaosasto jakaa summan kolmelle kirjaustilille. Kun tuot KP-budjetin takaisin, uudet Excel-tiedot on täytetty kolmelle tilille. Niiden summa on PVA 1 200 000 ja otsikkorivi on tyhjä.
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesbudgets-exchange-rates-dynamics-365-business-centralindex"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Katso myös
 [Liiketoimintatietojen vienti Exceliin](about-export-data.md)  

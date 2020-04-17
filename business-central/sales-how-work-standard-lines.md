@@ -10,33 +10,33 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, replenishment
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: a85fb48251d5c1465dcd4be7aaf868d857a07fd4
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e85d870c73a4c7e5baec449c63f80cc5a4dadf5e
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311954"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195265"
 ---
 # <a name="create-recurring-sales-and-purchase-lines"></a>Toistuvien myynti- ja ostorivien luominen
 Jos sinun on usein luotava samankaltaisia tietoja sisältäviä myynti- ja ostorivejä, voit määrittää vakiorivejä ja lisätä ne sitten toistuviin myynti- ja ostoasiakirjoihin, kuten toistuviin täydennystilauksiin.  
 
 Seuraavissa menettelyissä käsitellään myyntilaskun vakiomyyntirivien käyttämistä. Niitä käytetään samalla tavoin kaikissa muissa myyntiasiakirjoissa ja kaikissa ostoasiakirjoissa.  
 
-## <a name="to-set-up-standard-sales-lines"></a>Vakiomyyntirivien määrittäminen  
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Vakiomyyntirivit** ja valitse sitten liittyvä linkki.  
-2. Valitse **Vakiomyyntirivit**-sivulla **Uusi**-toiminto.  
+## <a name="to-set-up-recurring-sales-lines"></a>Toistuvien myyntirivien määrittäminen  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Toistuvat myyntirivit** ja valitse sitten liittyvä linkki.  
+2. Valitse **Toistuvat myyntirivit** -sivulla **Uusi**-toiminto.  
 3. Täytä **Yleiset**-pikavälilehdessä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Kirjoita **Rivit**-pikavälilehden kenttiin esitiedot, jotka sopivat toistuvina riveinä myyntiasiakirjoissa käytettäviksi vakioriveiksi.  
 
 > [!NOTE]
-> Vakiomyyntiriveillä ei voi määrittää hintoja, koska esimerkiksi hinnat ja alennukset lasketaan varsinaisissa myyntiasiakirjoissa vakiomyyntirivien lisäämisen jälkeen.
+> Toistuvilla myyntiriveillä ei voi määrittää hintoja, koska esimerkiksi hinnat ja alennukset lasketaan varsinaisissa myyntiasiakirjoissa toistuvien myyntirivien lisäämisen jälkeen.
 
-## <a name="to-assign-standard-sales-lines-to-a-customer"></a>Vakiomyyntikoodien määrittäminen asiakkaalle
-Määritä asiakkaalle vähintään yksi vakiomyyntirivi, jotta näitä rivejä voidaan liittää kyseisen asiakkaan myyntiasiakirjoihin.
+## <a name="to-assign-recurring-sales-lines-to-a-customer"></a>Toistuvien myyntirivien määrittäminen asiakkaalle
+Määritä asiakkaalle vähintään yksi toistuva myyntirivi, jotta näitä rivejä voidaan liittää kyseisen asiakkaan myyntiasiakirjoihin.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Asiakkaat** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Asiakkaat** ja valitse sitten liittyvä linkki.
 2. Avaa soveltuvan asiakkaan kortti.
 3. Valitse **Toistuvat myyntirivit** -toiminto.
 4. Valitse **Toistuvat myyntirivit** -sivulla niiden toistuvien myyntirivien koodit, joita haluat lisätä asiakkaan myyntiasiakirjoihin.
@@ -50,7 +50,7 @@ Määritä asiakkaalle vähintään yksi vakiomyyntirivi, jotta näitä rivejä 
 |**Kysy aina**|Ilmoitus avautuu ja kaikki aiemmin luodut toistuvat myyntirivit näytetään. Voit sitten valita niistä yhden.
 
 ## <a name="to-insert-recurring-sales-lines-on-a-sales-invoice"></a>Toistuvien myyntirivien lisääminen myyntilaskuun
-Jos asiakkaalla on toistuvia myyntirivejä, voit lisätä niitä kaikenlaisiin myyntiasiakirjoihin, kuten myyntilaskuun. Jos olet aktivoinut kyseisen ilmoituksen, saat ilmoituksen, jos toistuvia myyntirivejä on.
+Jos asiakkaalla on toistuvia myyntirivejä, voit lisätä tai antaa muiden lisätä niitä kaikenlaisiin myyntiasiakirjoihin, kuten myyntilaskuun. Jos olet aktivoinut **Kysy aina** -asetukset, saat ilmoituksen, jos toistuvia myyntirivejä on.
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Laskut** ja valitse sitten liittyvä linkki.
 2. Avaa myyntilasku, johon haluat lisätä vähintään yhden vakiomyyntirivin.
 3. Valitse **Nouda toistuvat myyntirivit** -toiminto.
@@ -67,7 +67,7 @@ Voit luoda **Luo toistuvia myyntilaskuja** -eräajolla myyntilaskuja asiakkaille
 > [!NOTE]
 > Voit määrittää **Toistuvat myyntirivit** -sivulla myös suoraveloitusmaksutavan ja suoraveloitusvaltakirjan. Laskut, jotka luodaan **Luo toistuvia myyntilaskuja** -eräajolla, sisältävät tietoja, jotka vaaditaan maksun perimiseen SEPA-suoraveloituksen sisältävistä myyntilaskuista. Lisätietoja on ohjeaiheessa [Maksujen kerääminen SEPA-suoraveloitusperintänä](finance-collect-payments-with-sepa-direct-debit.md).
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Luo toistuvia myyntilaskuja** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Luo toistuvat myyntilaskut** ja valitse sitten liittyvä linkki.
 2. Täytä **Luo toistuvia myyntilaskuja** -sivulla tarvittavat kentät.
 3. Anna **Koodi**-suodatinkentässä sille asiakkaalle määritetty vakiomyyntirivien koodi, jolle haluat luoda myyntilaskuja.
 4. Valitse **OK**-painike.

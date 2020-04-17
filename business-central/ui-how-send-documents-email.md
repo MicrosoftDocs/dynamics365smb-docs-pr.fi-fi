@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c0f39204777c551eb72af1f1556dcc72d82fff2c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 25b0d2b85d267f6a85afeed662a26daa0d32c5ce
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310970"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195577"
 ---
 # <a name="send-documents-by-email"></a>Asiakirjojen lähettäminen sähköpostitse
 Voit kertoa liiketoiminta-asiakirjojen sisällön, kuten esimerkiksi asiakkaiden myyntiasiakirjojen maksutiedot, liiketoimintakumppaneille nopeasti Raporttiasettelu-toiminnolla. Voit määrittää asiakirjakohtaisen sisällön, joka lisätään sähköpostien perustekstiin automaattisesti. Lisätietoja on kohdassa [Raporttien ja asiakirjojen asettelujen hallinta](ui-manage-report-layouts.md).
@@ -32,7 +32,7 @@ Jos **Sähköposti**-kentän arvoksi on **Lähetä asiakirja kohteeseen** -sivul
 Seuraavassa kuvataan, miten sähköpostitse lähetettävien myyntilaskujen asiakirjakohtaisissa sähköpostien perusteksteissä käytettävä **Myyntilasku**-raportti määritetään.
 
 ## <a name="to-set-up-a-document-specific-email-body-for-sales-invoices"></a>Asiakirjakohtaisen sähköpostin perustekstin määrittäminen myyntilaskuille
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Raporttivalinnat - Myynti** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Raportin valinnat - Sales** ja valitse sitten liittyvä linkki.
 2. Valitse **Raporttivalinta - Myynti** -sivun **Käyttö**-kentässä **Lasku**.
 3. Valitse **Raportin tunnus** -kentän uudella rivillä esimerkiksi vakioraportti 1306.
 4. Valitse **Käytä sähköpostin perustekstinä** -valintaruutu.
@@ -48,7 +48,7 @@ Kun nyt valitset esimerkiksi **Kirjattu myyntilasku** -sivulla **Lähetä**-toim
 Seuraavassa kerrotaan, miten kirjattu myyntilasku lähetetään sähköpostiviestinä, johon on liitetty asiakirja PDF-tiedostona ja joka sisältää asiakirjakohtaisen sähköpostin perustekstin.
 
 ## <a name="to-send-documents-by-email"></a>Asiakirjojen lähettäminen sähköpostitse
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kirjatut myyntilaskut** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Kirjatut myyntilaskut** ja valitse sitten liittyvä linkki.
 2. Valitse ensin soveltuva kirjattu myyntilasku ja sitten **Lähetä**-toiminto. **Lähetä asiakirja kohteeseen** -sivu avautuu.
 3. Valitse **Sähköposti**-kentässä **Kyllä (Pyydä asetuksia)**. Lisätietoja on kohdassa [Asiakirjan lähetysprofiilien määrittäminen](sales-how-setup-document-send-profiles.md).
 4. Valitse **OK**-painike. **Lähetä sähköposti** -sivu avautuu.

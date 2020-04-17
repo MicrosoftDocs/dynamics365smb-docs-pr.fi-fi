@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: b8470fa559d8a640e1c05cc6e03ca4caf3a9827e
-ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
+ms.openlocfilehash: fc2c2de39c3391a430adda72a841b01897235f68
+ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "2999781"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3196685"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Käytä työjonoja ajoitustehtäviin
 [!INCLUDE[d365fin](includes/d365fin_md.md)]:n työjonojen avulla käyttäjät voivat ajoittaa ja suorittaa tiettyjä raportteja ja koodiyksiköitä. Voit määrittää töitä suoritettavaksi yhtä aikaa tai toistuvasti. Esimerkiksi **Myyjä - Myyntitilasto** -raportti saatetaan haluta suorittaa viikoittain myyjän viikkokohtaisen myynnin seurantaa varten. **Käsittele huoltosähköpostijono** -koodiyksikkö voidaan taas suorittaa päivittäin ja varmistaa näin, että huoltotilauksiin liittyvät odottavat sähköpostit lähetetään asiakkaille ajallaan.
@@ -117,8 +117,8 @@ Kun työjono on aktivoitu manuaalisesti, se suoritetaan käyttäjän tunnistetie
 ## <a name="using-job-queues-effectively"></a>Käytetään työjonoja tehokkaasti  
 Työjonotapahtuma-tietueella on monta kenttää, joiden tarkoituksena on viedä parametrejä koodiyksikölle, jonka olet määrittänyt ajettavaksi työjonossa. Tämä tarkoittaa myös sitä, että koodiyksiköt, jotka suoritetaan työjonon kautta, on määritettävä työjonotapahtumatietueessa **OnRun**-käynnistimen parametrina. Tämä auttaa parantamaan tietoturvaa, sillä se estää käyttäjiä suorittamasta satunnaisia koodiyksiköitä työjonon kautta. Jos käyttäjän on välitettävä raportoitavat parametrit, raportti on suoritettava koodiyksikössä, joka jäsentää syöttöparametrit ja syöttää ne raporttiin ennen sen suoritusta.  
 
-## <a name="scheduling-synchronization-between-included365finincludesd365fin_mdmd-and-includecrm_mdincludescrm_mdmd"></a>Synkronoinnin aikatauluttaminen [!INCLUDE[d365fin](includes/d365fin_md.md)] :n ja [!INCLUDE[crm_md](includes/crm_md.md)]:n välillä
-Jos olet integroinut [!INCLUDE[d365fin](includes/d365fin_md.md)]:n [!INCLUDE[crm_md](includes/crm_md.md)] -ohjelman kanssa, voit ajoittaa työjonon avulla, milloin haluat synkronoida näiden kahden liiketoimintasovelluksen tietueiden tiedot. Integroinnille määritetyn suunnan ja sääntöjen mukaan synkronointityöt voivat myös luoda uusia tietueita kohdesovellukseen, jotta ne vastaavat lähdetietoja. Jos myyjä esimerkiksi luo uuden kontaktin [!INCLUDE[crm_md](includes/crm_md.md)]-ohjelmassa, synkronointityö voi luoda kontaktin linkitertylle myyjälle [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmassa. Lisätietoja on kohdassa [Business Centralin ja Dynamics 365 Salesin synkronoinnin ajoittaminen](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
+## <a name="scheduling-synchronization-between-d365fin-and-d365fin"></a>Synkronoinnin aikatauluttaminen [!INCLUDE[d365fin](includes/d365fin_md.md)] :n ja [!INCLUDE[d365fin](includes/cds_long_md.md)]:n välillä
+Jos olet integroinut [!INCLUDE[d365fin](includes/d365fin_md.md)]:n [!INCLUDE[d365fin](includes/cds_long_md.md)] -ohjelman kanssa, voit ajoittaa työjonon avulla, milloin haluat synkronoida näiden kahden liiketoimintasovelluksen tietueiden tiedot. Integroinnille määritetyn suunnan ja sääntöjen mukaan synkronointityöt voivat myös luoda uusia tietueita kohdesovellukseen, jotta ne vastaavat lähdetietoja. Jos myyjä esimerkiksi luo uuden kontaktin [!INCLUDE[crm_md](includes/crm_md.md)]-ohjelmassa, synkronointityö voi luoda kontaktin linkitertylle myyjälle [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmassa. Lisätietoja on kohdassa [Business Centralin ja Dynamics 365 Salesin synkronoinnin ajoittaminen](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 
 ## <a name="see-also"></a>Katso myös  
 [Hallinta](admin-setup-and-administration.md)  

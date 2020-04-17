@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 05a7c3df891c4b1e960000fd7274402a852e479a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 21aa8cf1f287301b85f9e682ebeb278b5f6381c7
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300220"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3180812"
 ---
 # <a name="generate-payment-files"></a>Maksutiedostojen luominen
 Voit lähettää toimittajille elektronisia maksuja, kun olet luonut kotimaan tai ulkomaan maksuille maksutiedoston.  
 
 ## <a name="to-generate-a-payment-file"></a>Maksutiedoston luominen  
 
-1.  Valitse ![Etsi sivu tai raportti -kuvake](../../media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Lähetettävät pankkimaksut** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Etsi sivu tai raportti](../../media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") -kuvake, anna **Lähetettävät pankkimaksut** ja valitse sitten aiheeseen liittyvä linkki.  
 2.  Valitse **Toimittajan nro** -sarakkeessa maksutiedostoon sisällytettävät toimittajat.  
 3.  Syötä jokaiselle toimittajalle maksutiedot tai valitse **Ehdota toimittajamaksuja**, jolloin toimittajamaksuille luodaan ehdotetut tiedot.  
 4.  Valitse **Kotimaan maksut**- tai **Ulkomaan maksut** -toiminto.  

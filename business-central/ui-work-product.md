@@ -1,38 +1,41 @@
 ---
 title: Yleisten toimintojen käyttö Business Central -sovelluksessa | Microsoft Docs
 description: Ohjeaiheessa kerrotaan yleisistä toiminnoista, joilla käsittelet tietoja Business Central -sovelluksessa. Kyse voi olla esimerkiksi arvojen antamisesta, tietojen lajittelusta ja näkymien vaihtamisesta.
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 45db775e7d615f3c11a9617d36e4111baa40ccc1
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 666102d7f75028035b4b4087c2c8de0c693268c8
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953921"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189338"
 ---
-# <a name="working-with-included365finincludesd365fin_mdmd"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen
+# <a name="working-with-d365fin"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen
 Kun tehdään liiketoimintaan liittyviä tehtäviä, voit käsitellä tietoja eri tavoin, kuten tietueiden luominen ja tietojen syöttäminen, tietojen lajittelu ja suodatus, kirjalliset huomautukset ja tietojen lähettäminen muihin sovelluksiin.
 
 Voit esimerkiksi säätää minkä tahansa sivun kokoa ja sijaintia, laajentaa sarakkeita ja kasvattaa sarakeotsikoiden korkeutta ja muuttaa sarakkeiden tietojen lajittelua. Ja jos haluat tarkastella kaikkia luettelosivun tai asiakirjarivien sarakkeita vaakavierityspalkin avulla, huomaat, että pystysuuntainen kiinnitysruutu estää tiettyjä sarakkeita vierittymästä.
+
+## <a name="tips-and-tricks"></a><a name="cheatsheet"></a>Vihjeet ja vinkit
 
 > [!TIP]
 > Jos haluat tulostettavan yleiskuvan eniten käytetyistä toiminnoista, valitse seuraava kuva ja lataa PDF-tiedosto.
 >
 > [ ![](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf)
 
-> [!NOTE]
-> Tässä osassa kuvattujen käyttöliittymän yleisten toimintojen lisäksi voit käyttää muita liiketoimintaan liittyviä yleisiä toimintoja. Lisätietoja on kohdassa [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md).
+## <a name="links-to-learn-more"></a>Lisätietolinkkejä
 
 Seuraava taulukko sisältää joitakin yleisiä toimintoja ja linkkejä niitä käsitteleviin ohjeaiheisiin.
 
-| Vastaanottaja | Katso |
+> [!NOTE]
+> Tässä osassa kuvattujen käyttöliittymän yleisten toimintojen lisäksi voit käyttää muita liiketoimintaan liittyviä yleisiä toimintoja. Lisätietoja on kohdassa [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md).
+
+| Tehtävä  | Katso |
 | --- | --- |
 |Etsi tietty sivu, raportti, toiminto, ohjeaihe tai kumppanin laajennus. |[Sivujen ja tietojen etsiminen Kerro, mitä haluat tehdä -toiminnolla](ui-search.md) |
 |Hae oman roolin ja muiden roolien sivujen yleiskatsaus ja siirry sivuille.|[Sivujen etsiminen roolienhallinnan avulla](ui-role-explorer.md)|
@@ -56,11 +59,22 @@ Seuraavassa on lyhyt video [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluk
 
 > [!VIDEO https://www.youtube.com/embed/zqz03iMihx0]
 
-## <a name="see-related-training-at-microsoft-learnlearnpathswork-pro-data-dynamics-365-business-central"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/paths/work-pro-data-dynamics-365-business-central/)
+## <a name="choosing-a-desktop-browser"></a>Työpöydän selaimen valitseminen
+
+[!INCLUDE[prodshort](includes/prodshort.md)] tukee useita selaimia, jotka sisältävät erilaisia toimintoja ja ominaisuuksia. Selain on merkittävässä roolissa käyttöliittymän reaktioissa ja toimivuudessa. Katso luettelo tuetuista, suositelluista selaimista [Business Central Onlinea](https://go.microsoft.com/fwlink/?linkid=2110804) ja [paikallista Business Centralia](https://go.microsoft.com/fwlink/?linkid=2110719) varten.
+
+- Vältä mahdollisuuksien vanhoja selaimia, kuten Internet Exploreria, ja siirry johonkin suositeltuun selaimeen, kuten [uuteen Microsoft Edgeen](https://www.microsoft.com/edge/).  
+
+    Internet Exploreria tuetaan yhä, mutta koska uusi Edge-selain on käytettävissä nyt Windows Serverissä, Internet Exploreria ei enää käytetä niin paljon kuin ennen. Käytettävissä on myös [Edgen pilottiversio IE-tilassa](https://www.microsoft.com/edge/business). Lisätietoja on [Microsoft Edge -dokumentaatiossa](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
+- Pidä selain aina päivitettynä uusimpaan versioon.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/paths/work-pro-data-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
+
 [Käytön aloittaminen](product-get-started.md)  
 [Business Central -sovelluksen määrittäminen](setup.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)  
+[Suorituskykyä lisääviä vihjeitä yrityskäyttäjille](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

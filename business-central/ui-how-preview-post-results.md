@@ -9,20 +9,20 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: solsen
-ms.openlocfilehash: 7ba27dd454bfac63a68db93520afaca266506029
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 56adf1822da10e4743d242df29aacad122fc954f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310946"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189649"
 ---
 # <a name="preview-posting-results"></a>Kirjaustulosten esikatselu
 Voit valita jokaiselle asiakirjalle ja päiväkirjalle **Esikatsele kirjausta** -painikkeen. Sen avulla voit tarkastella eri tapahtumatyyppejä, joita luodaan asiakirjan tai päiväkirjan kirjaamisen yhteydessä.
 
 ## <a name="to-preview-gl-entries-that-will-result-from-posting-a-purchase-invoice"></a>Ostolaskun kirjaamisen tuloksena saatavien KP-tapahtumien esikatselu
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostolaskut** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Ostolaskut** ja valitse sitten liittyvä linkki.
 2. Luo uusi ostolasku. Lisätietoja on kohdassa [Ostojen kirjaaminen](purchasing-how-record-purchases.md).
 3. Valitse **Esikatsele kirjausta**.
 4. Valitse **Kirjauksen esikatselu** -sivulla **KP-tapahtuma** ja valitse sitten **Näytä aiheeseen liittyvät tapahtumat**.  

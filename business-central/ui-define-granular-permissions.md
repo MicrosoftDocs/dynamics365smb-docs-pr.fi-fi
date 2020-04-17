@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 11/07/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: a162246fcd0a6f3db07922cc100e21aacbc76fbe
-ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
+ms.openlocfilehash: c71b56812b67c4ec51ea8d48d095cabc79c585fb
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "2943207"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194473"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Määritä käyttöoikeudet käyttäjille ja ryhmille
 [!INCLUDE[d365fin](includes/d365fin_md.md)] -suojausjärjestelmän avulla voit määrittää, mitä objekteja käyttäjä voi käyttää kunkin tietokannan tai ympäristön sisällä. Voit määrittää jokaiselle käyttäjälle, voivatko he lukea, muokata tai syöttää tietoja valituissa tietokantaobjekteissa. Lisätietoja on [Tietosuoja](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level)-kohdassa [!INCLUDE[d365fin](includes/d365fin_md.md)]:n Kehittäjä- ja ITpro-ohjeessa.
@@ -130,18 +130,18 @@ Käyttäjällä voi olla esimerkiksi oikeus ajaa koodiyksikkö 80, myynti kirjat
 Käyttäjällä ei kuitenkaan tarvitse olla Ostorivi-taulukon täysiä käyttöoikeuksia codeunitin suorittamiseksi. Jos käyttäjällä on Myyntirivi-taulukon epäsuorat käyttöoikeudet, codeunitin Myynti kirjattu suorittaminen onnistuu. Kun käyttäjällä on epäsuorat oikeudet, kyseinen käyttäjä voi muokata vain Ostorivi-taulukkoa suorittamalla codeunitin Myynti kirjattu tai toisen objektin, jolla on Ostorivi-taulukon muokkausoikeudet. Käyttäjä voi muokata Ostorivi-taulukkoa vain silloin, kun se tapahtuu tuetulla sovellusalueella. Käyttäjä ei voi suorittaa toimintoa vahingossa tai tahallaan muita menetelmiä käyttäen.
 
 ## <a name="to-create-or-modify-permissions-by-recording-your-actions"></a>Käyttöoikeuksien luominen tai muokkaaminen toimia tallentamalla
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttöoikeusjoukot** ja valitse sitten liittyvä linkki.
-2.  Vaihtoehtoisesti voit valita **Käyttäjät**-sivulla **Käyttöoikeuksien joukko** -toiminnon.
-3.  Valitse **Käyttöoikeuksien joukko** -sivulla **Uusi**-toiminto.
-4.  Täytä tarvittaessa uuden rivin kentät.
-5.  Valitse **Käyttöoikeudet**-toiminto.
-6.  Valitse **Käyttöoikeudet**-sivulla ensin **Kirjausoikeudet**-toiminto ja sitten **Aloita**-toiminto.
+1.    Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttöoikeusjoukot** ja valitse sitten liittyvä linkki.
+2.    Vaihtoehtoisesti voit valita **Käyttäjät**-sivulla **Käyttöoikeuksien joukko** -toiminnon.
+3.    Valitse **Käyttöoikeuksien joukko** -sivulla **Uusi**-toiminto.
+4.    Täytä tarvittaessa uuden rivin kentät.
+5.    Valitse **Käyttöoikeudet**-toiminto.
+6.    Valitse **Käyttöoikeudet**-sivulla ensin **Kirjausoikeudet**-toiminto ja sitten **Aloita**-toiminto.
 
     Käynnistyvä tallennusprosessi tallentaa kaikki käyttöliittymässä tekemäsi toimet.
-7.  Siirry niille [!INCLUDE[d365fin](includes/d365fin_md.md)]in sivulle ja niihin toimintoihin, joita haluat tämän käyttöoikeusjoukon käyttäjien käyttävän. Sinun on tehtävä ne tehtävät, joille haluat tallentaa käyttöoikeudet.
-8.  Kun tallennus on valmis, palaa **Käyttöoikeudet**-sivulle ja valitse sitten **Lopeta**-toiminto.
-9.  Lisää tallennetut käyttöoikeudet uuteen käyttöoikeusjoukkoon valitsemalla **Kyllä**.
-10. Määritä jokaiselle tallennetun luettelon objektille, saavatko käyttäjät lisätä, muokata tai poistaa tietueita tallennetuissa taulukoissa.
+7.    Siirry niille [!INCLUDE[d365fin](includes/d365fin_md.md)]in sivulle ja niihin toimintoihin, joita haluat tämän käyttöoikeusjoukon käyttäjien käyttävän. Sinun on tehtävä ne tehtävät, joille haluat tallentaa käyttöoikeudet.
+8.    Kun tallennus on valmis, palaa **Käyttöoikeudet**-sivulle ja valitse sitten **Lopeta**-toiminto.
+9.    Lisää tallennetut käyttöoikeudet uuteen käyttöoikeusjoukkoon valitsemalla **Kyllä**.
+10.    Määritä jokaiselle tallennetun luettelon objektille, saavatko käyttäjät lisätä, muokata tai poistaa tietueita tallennetuissa taulukoissa.
 
 ## <a name="security-filters---to-limit-a-users-access-to-specific-records-in-a-table"></a>Suojaussuodattimet - Käyttäjän käyttöoikeuden rajoittaminen tiettyihin taulukon tietueisiin
 [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietuetason suojauksessa käyttäjän käyttöoikeus rajoitetaan taulukon tietoihin suojaussuodattimien avulla. Suojaussuodattimet luodaan taulukon tietojen perusteella. Suojaussuodatin kuvaa sitä taulukon tietuejoukkoa, jonka käyttöoikeus käyttäjällä on. Voit määrittää esimerkiksi, että käyttäjä saa lukea vain tietueita, joissa on tietoja tietystä asiakkaasta. Tämä tarkoittaa, että käyttäjällä ei ole muiden asiakkaiden tietoja sisältävien tietueiden käyttöoikeutta. Lisätietoja on kehittäjien ja IT-ammattilaisten ohjeen kohdassa [Suojaussuodattimien käyttäminen](/dynamics365/business-central/dev-itpro/security/security-filters).
@@ -204,5 +204,4 @@ Järjestelmänvalvojat voivat määrittää ajanjaksoja, joiden aikana määrite
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 [Hallinta](admin-setup-and-administration.md)  
 [Käyttäjien lisääminen Office 365 for Businessiin](https://aka.ms/CreateOffice365Users)  
-[Microsoft Dynamics 365 Business Centralin käyttöoikeusopas](https://aka.ms/BusinessCentralLicensing)  
 [Turvallisuus ja suojaus Business Centralissa](/dynamics365/business-central/dev-itpro/security/security-and-protection) kohdassa Kehittäjä- ja IT-Pro -ohje

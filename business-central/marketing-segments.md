@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 186f14f25e4b158babcdd2930ace3263269415ea
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2f4115e62b1350fe55019aca94cb1d8beb6d93ae
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308762"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181290"
 ---
 # <a name="managing-segments"></a>Segmenttien hallinta
 Luomalla segmenttejä voit valita kontaktiryhmän tiettyjen ehtojen mukaan. Esimerkiksi segmentti voi olla toimiala, johon kontaktit kuuluvat, tai liikesuhde kontaktien kanssa. Luomalla segmentin voit valita kampanjan kohteeksi haluamasi kontaktit.

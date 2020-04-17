@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 63702465c9e2e7646adb3b91af43939b09d120e5
-ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
+ms.openlocfilehash: 610d8b2cdde0b94ed0bceefc8b3cf13bdf2c6fd1
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "2775521"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191113"
 ---
 # <a name="set-up-time-sheets"></a>Aikaraporttien määrittäminen
 [!INCLUDE[d365fin](includes/d365fin_md.md)]in aikaraportit käsittelevät aikarekisteröintiä viikoittain seitsemän päivän välein. Voit käyttää niitä projekteissa käytettävän ajan seuraamiseen ja yksinkertaisen resurssin aikarekisteröinnin kirjaamiseen. Ennen kuin voit käyttää aikaraportteja, on määritettävä tavat niiden määrittämiseen ja asetuksiin.

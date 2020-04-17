@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: transportation, added cost, landed cost
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: a113573ca1732472f5ec926f78273cdb4b94f989
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 2d9228b213d540a6aed034964fbeaa2bd6f49b57
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878136"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190321"
 ---
 # <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Kaupan lisäkustannusten huomiointi nimikekulujen avulla
 Voit varmistaa oikean arvostuksen liittämällä varastonimikkeisiin lisäkustannukset, kuten nimikkeiden ostamisessa ja myynnissä syntyvät rahti-, käsittely-, vakuutus- ja kuljetuskulut. Ostoissa ostetun nimikkeen kokonaiskustannukset koostuvat toimittajan ostohinnasta ja kaikista suorista lisänimikekuluista, jotka voidaan määritellä yksittäisiin vastaanottoihin tai palautustoimituksiin. Myynnissä Myytyjen nimikkeiden lähetyskulujen tietäminen voi olla yritykselle yhtä tärkeää kuin ostettujen nimikkeiden kokonaiskustannusten tietäminen.
@@ -40,7 +40,7 @@ Nimikekulun voi määrittää sekä osto- että myyntiasiakirjoissa kahdella tav
 ## <a name="example"></a>Esimerkki
 Tässä videossa näytetään, miten lisätoimituskuluja käsitellään osana varaston kustannuslaskentaa.
 <br><br>  
-> [!Video https://www.microsoft.com/videoplayer/embed/RE4b0SB]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE4b0SB?rel=0]
 
 ## <a name="to-set-up-item-charge-numbers"></a>Nimikekulunumeroiden määrittäminen
 Nimikekulunumeroita käytetään erottelemaan eri tyyppisiä nimikekuluja, joita yrityksessäsi käytetään ostoasiakirjoille.

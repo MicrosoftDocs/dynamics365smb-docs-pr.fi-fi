@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2595efa188aed593bf1d112f984acf411446959b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 843e0590bbcff22b5d0ad40fcae5dd51c64eae3a
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307130"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185274"
 ---
 # <a name="design-details-posting-date-on-adjustment-value-entry"></a>Rakennetiedot: Muutoksen arvotapahtuman kirjauspäivämäärä
 Tässä artikkelissa on ohjeita [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen varaston arvostustoimintojen käyttäjille. Tässä artikkelissa on ohjeita siitä, miten **Muuta kustannuksia - Nimiketapahtumat** -eräajo tunnistaa ja määrittää niiden arvotapahtumien kirjauspäivämäärän, joita eräajo on luomassa.  
@@ -59,7 +59,7 @@ Toinen arvotapahtuma (381) edustaa laskua.
 
  Pääkirjanpidon asetukset:  
 
-![KP-asetukset skenaariossa](media/helene/TechArticleAdjustcost4.png "KP-asetukset skenaariossa")
+![Pääkirjanpidon asetukset skenaariossa](media/helene/TechArticleAdjustcost4.png "Pääkirjanpidon asetukset skenaariossa")
 
  Ensimmäinen sallittu kirjauspäivämäärä on Ensimm. sallittu kirjauspvm -kentässä mainittu päivämäärä: 10.9.2013.  
 
@@ -86,11 +86,11 @@ Toinen arvotapahtuma (381) edustaa laskua.
 
  Seurataan käyttäjäasetuksia;  
 
-![Käyttäjän sallittujen kirjauspäivämäärien asetukset](media/helene/TechArticleAdjustcost7.png "Käyttäjän sallittujen kirjauspäivämäärien asetukset")
+![Käyttäjän sallittujen kirjauspäivämäärien asetus](media/helene/TechArticleAdjustcost7.png "Käyttäjän sallittujen kirjauspäivämäärien asetus")
 
  Tässä tapauksessa käyttäjälle määritetty sallittu kirjauspäivämääräalue on 11.9. - 30.9. Muutoksen arvotapahtuman kirjauspäivämäärä ei siis voi olla 10.9.  
 
-![Asiaankuuluvan kirjauspäivämäärän asetusten yleiskatsaus](media/helene/TechArticleAdjustcost8.png "Asiaankuuluvan kirjauspäivämäärän asetusten yleiskatsaus")
+![Asiaankuuluvan kirjauspäivämäärän asetuksen yleiskuvaus](media/helene/TechArticleAdjustcost8.png "Asiaankuuluvan kirjauspäivämäärän asetuksen yleiskuvaus")
 
  Knowledge Base -artikkeli [952996](https://mbs2.microsoft.com/Knowledgebase/kbdisplay.aspx?WTNTZSMNWUKNTMMYXUPYZQPOUXNXSPSYOQQYYMLUQLOYYMWP) sisältää lisää mainittuun virhesanomaan liittyviä skenaarioita.  
 
@@ -173,9 +173,9 @@ Toinen arvotapahtuma (381) edustaa laskua.
 
  Seuraavat nimikekirjaukset ja arvotapahtumat on kirjattu:  
 
-![Nimike- ja arvotapahtumien 1 yleiskatsaus](media/helene/TechArticleAdjustcost9.png "Nimike- ja arvotapahtumien 1 yleiskatsaus")
+![Tuloksena saatavien nimike- ja arvotapahtumien yleiskuvaus 1](media/helene/TechArticleAdjustcost9.png "Tuloksena saatavien nimike- ja arvotapahtumien yleiskuvaus 1")
 
- ![Nimike- ja arvotapahtumien 2 yleiskatsaus](media/helene/TechArticleAdjustcost10.png "Nimike- ja arvotapahtumien 2 yleiskatsaus")
+ ![Tuloksena saatavien nimike- ja arvotapahtumien yleiskuvaus 2](media/helene/TechArticleAdjustcost10.png "Tuloksena saatavien nimike- ja arvotapahtumien yleiskuvaus 2")
 
  Muuta kustannuksia - Nimiketapahtumat -eräajo on tunnistavut muutokset kustannuksissa ja muuttanut negatiivisia muutoksia.  
 
@@ -290,7 +290,7 @@ Toinen arvotapahtuma (381) edustaa laskua.
 
      Kirjaa vastaanotto ja lasku.  
 
-     ![Nimike- ja arvotapahtumien 3 yleiskatsaus](media/helene/TechArticleAdjustcost11.png "Nimike- ja arvotapahtumien 3 yleiskatsaus")
+     ![Tuloksena saatavien nimike- ja arvotapahtumien yleiskuvaus 3](media/helene/TechArticleAdjustcost11.png "Tuloksena saatavien nimike- ja arvotapahtumien yleiskuvaus 3")
 
 6.  Ostolasku saapuu käsittelypäivänä 3.1. Ostolasku sisältää vaiheessa 2 ostoon tehdyn lisäkulun. Tämän laskun asiakirjan päivämäärä on 30.12. Tämän vuoksi sen kirjauspäivämääräksi tulee 30.12.2013.  
 
@@ -314,7 +314,7 @@ Toinen arvotapahtuma (381) edustaa laskua.
 
      Kirjaa vastaanotto ja lasku.  
 
-   ![Nimike- ja arvotapahtumien 4 yleiskatsaus](media/helene/TechArticleAdjustcost12.png "Nimike- ja arvotapahtumien 4 yleiskatsaus")
+   ![Tuloksena saatavien nimike- ja arvotapahtumien yleiskuvaus 4](media/helene/TechArticleAdjustcost12.png "Tuloksena saatavien nimike- ja arvotapahtumien yleiskuvaus 4")
 
  Varaston arvostus -raportti tulostetaan 31.12.2013.  
 
@@ -355,7 +355,7 @@ Toinen arvotapahtuma (381) edustaa laskua.
 
  Versioissa 3 ja 4 eräajo skannaa kaikki arvotapahtumat ja määrittää, löytyykö arvotapahtumia, joiden kustannussumma (todellinen) on eri kuin kirjanpitoon kirjattu kustannus. Jos eroja löytyy, eroava summa kirjataan KP-tapahtumaan. Jos käytössä on oletettujen kustannusten kirjaus, vastaavat kentät käsitellään samalla tavalla.  
 
-![Todellinen kustannus verrattuna odotettuun kustannukseen](media/helene/TechArticleAdjustcost14.png "Todellinen kustannus verrattuna odotettuun kustannukseen")
+![Todelliset kustannukset vs. oletetut kustannukset](media/helene/TechArticleAdjustcost14.png "Todelliset kustannukset vs. oletetut kustannukset")
 
 ### <a name="from-version-50"></a>Versiosta 5.0 lähtien:  
  Kirjaa varaston kustannukset kirjanpitoon -eräajon pyyntölomakkeessa ei ole enää ilmoitettavaa kirjauspäivämäärää. Luodaan KP-tapahtuma, jolla on sama kirjauspäivämäärä kuin liittyvällä arvotapahtumalla. Jotta eräajo voidaan suorittaa, sallitun kirjauspäivämääräalueen on sallittava luodun KP-tapahtuman kirjauspäivämäärä. Muussa tapauksessa sallittu kirjauspäivämääräalue on avattava uudelleen tilapäisesti joko muuttamalla päivämääriä tai poistamalla niitä pääkirjanpidon asetusten Ensimm. sallittu kirjauspvm- ja Viimeinen sallittu kirjauspvm -kentissä. Vältät täsmäytysongelmat, kun KP-tapahtuman kirjauspäivämäärä vastaa arvotapahtuman kirjauspäivämäärää.  

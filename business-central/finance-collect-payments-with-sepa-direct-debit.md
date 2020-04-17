@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 02/04/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: e3270864e184bdb7473a95fd1620ea98c3e3fbd2
-ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
+ms.openlocfilehash: 9cc15893963672f14aef33b8bd35560957a826ea
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3030194"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183906"
 ---
 # <a name="collect-payments-with-sepa-direct-debit"></a>Maksujen kerääminen SEPA-suoraveloitusperintänä.
 Asiakkaan suostumuksella voit kerätä maksut suoraan asiakkaan pankkitililtä SEPA-muodon mukaisesti.  
@@ -137,7 +137,7 @@ Suoraveloitusperintä lisätään **Suoraveloitusperinnät**-sivulle ja vähint�
 
       Liittyvä suoraveloitusperintä suljetaan.  
 
- Voit nyt siirtyä kirjaamaan mukana olevien myyntilaskujen maksukuitit. Voit tehdä tämän, kun yleensä kirjaat maksukuitteja, kuten **Maksurekisteröinti**-sivulla, tai voit kirjata liittyvät maksukuitit suoraan **Suoraveloitusperintätapahtumat**-sivulta. Lisätietoja on kohdassa [SEPA-suoraveloitusmaksujen kirjaaminen](finance-how-to-post-sepa-direct-debit-payment-receipts.md).
+ Voit nyt siirtyä kirjaamaan mukana olevien myyntilaskujen maksukuitit. Voit tehdä tämän, kun yleensä kirjaat maksukuitteja, kuten **Maksurekisteröinti**-sivulla, tai voit kirjata liittyvät maksukuitit suoraan **Suoraveloitusperintätapahtumat**-sivulta. Lisätietoja on ohjeaiheessa [Maksujen kerääminen SEPA-suoraveloitusperintänä](finance-collect-payments-with-sepa-direct-debit.md).
 
 ## <a name="posting-sepa-direct-debit-payment-receipts"></a>SEPA-suoraveloitusmaksujen kirjaaminen
  Kun pankki on käsitellyt onnistuneesti suoraveloitusperinnän, voit siirtyä kirjaamaan maksukuitit kyseiselle myyntilaskuille. Lisätietoja on kohdassa [SEPA-suoraveloitusperintätapahtumien luominen ja vieminen pankkitiedostoon](finance-collect-payments-with-sepa-direct-debit.md#creating-sepa-direct-debit-collection-entries-and-export-to-a-bank-file).  

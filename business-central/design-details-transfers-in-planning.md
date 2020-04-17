@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, transfer, sku, locations, warehouse
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 697630e03e3bbb59518ea3405524ad6de3765d7a
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 5940319c254c97040c3f3b15fc540ed9cfecda5c
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879990"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184650"
 ---
 # <a name="design-details-transfers-in-planning"></a>Rakennetiedot: siirrot suunnittelussa
 Siirtotilaukset ovat myös tarjonnan lähde, kun työskennellään varastointiyksikön tasolla. Kun käytössä on useita sijainteja (fyysisiä varastoja), varastointiyksikön täydennysjärjestelmän arvoksi voi määrittää Siirto. Tällöin sijainnin täydennys tehdään siirtämällä tavaroita toisesta sijainnista. Yrityksillä voi olla useita varastoja ja yhdistettyjä siirtoja, joissa toimitus VIHREÄÄN sijaintiin siirretään KELTAISESTA ja toimitus KELTAISEEN siirretään PUNAISESTA ja niin edelleen. Ketjun alussa on täydennysjärjestelmänä Tuotantotilaus tai Osto.  

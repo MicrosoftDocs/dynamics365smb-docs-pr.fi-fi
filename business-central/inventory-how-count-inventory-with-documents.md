@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, status, negative, positive, increase, decrease
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 33710cd80ba1218ad59c98ec605bcba98c8b7e1c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 944ce9e3950ea64fafada118b6f99f5d891242a5
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309914"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182202"
 ---
 # <a name="count-inventory-using-documents"></a>Varastojen laskenta asiakirjoja käyttämällä
 Voit inventoida nimikkeet käyttämällä inventointitilauksen ja inventointitallennuksen asiakirjoja. **Inventointitilaus**-sivulla järjestetään täydellinen inventointiprojekti, kuten yksi kussakin toimipisteessä. **Inventointitallennus**-sivun avulla ilmoitetaan ja tallennetaan nimikkeiden varsinainen inventointi. Voit luoda yhdelle tilaukselle useita  tallenteita, jolloin voit esimerkiksi jakaa nimekeryhmiä eri työntekijöille.
@@ -36,9 +36,9 @@ Asiakirjoja hyödyntävä varaston laskenta sisältää yleisesti seuraavat vaih
 ## <a name="to-create-a-physical-inventory-order"></a>Inventointitilauksen luominen
 Inventointitilaus on valmis asiakirja, joka koostuu inventointitilauksen otsikosta ja inventointitilausriveistä. Inventointitilauksen otsikossa selitetään, miten inventointi tehdään. Inventointitilauksen riveillä on tietoja nimikkeistä ja niiden sijainneista.
 
-Inventointitilauksen rivit luodaan yleensä käyttämällä **Laske rivit** -toimintoa siten, että ne vastaavat nykyistä varastoa tilauksen riveinä. Vaihtoehtoisesti voit täyttää toisen avoimen tai kirjatun inventointitilauksen rivit **Kopioi asiakirja** -toiminnolla. Seuraavassa toimintaohjeessa käsitellään vain **Laske rivit** -toiminnon käyttö.
+Inventointitilauksen rivit luodaan yleensä käyttämällä **Laske rivit** -toimintoa siten, että ne vastaavat nykyistä varastoa tilauksen riveinä. Vaihtoehtoisesti voit täyttää toisen avoimen tai kirjatun inventointitilauksen rivit **Kopioi asiakirjasta** -toiminnolla. Seuraavassa toimintaohjeessa käsitellään vain **Laske rivit** -toiminnon käyttö.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Inventointitilaukset** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Inventointitilausten kirjaaminen** ja valitse sitten liittyvä linkki.
 2. Valitse **Uusi**-toiminto.
 3. Täytä **Yleinen**-pikavälilehden pakolliset kentät. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Valitse **Laske rivit** -toiminto.
@@ -98,7 +98,7 @@ Voit valita myös **Inventointitilauksen erotus** -toiminnon ja tarkastella odot
 
 ### <a name="to-find-duplicate-physical-inventory-order-lines"></a>Inventointitilausrivien kaksoiskappaleiden löytäminen
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Inventointitilaukset** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Inventointitilausten kirjaaminen** ja valitse sitten liittyvä linkki.
 2. Avaa inventointitilaus, jossa haluat tarkastella rivien kaksoiskappaleita.
 3. Valitse **Näytä rivien kaksoiskappaleet** -toiminto.
 
@@ -111,7 +111,7 @@ Kun inventointitilaus on valmistunut ja sen tilaksi on muuttunut **Valmis**, voi
 - Jokainen inventointitilausrivi on laskettu vähintään yhdellä varastotallennusrivillä.
 - **Tallennusriveillä**- ja **Oletettu määrä laskettu** -valintaruudut on valittu kaikille inventointitilausriveille.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Inventointitilaukset** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Inventointitilausten kirjaaminen** ja valitse sitten liittyvä linkki.
 2. Valitse ensin viimeisteltävä inventointitilaus ja sitten **Muokkaa**-toiminto.
 
     Voit tarkastella **Inventointitilaus**-sivulla **Tallennettujen määrä (perus)** -kenttään tallennettuja arvoja.
@@ -125,7 +125,7 @@ Liittyvät nimiketapahtumat päivitetään nyt mahdollisten liittyvien nimikeseu
 ### <a name="to-view-posted-physical-inventory-orders"></a>Kirjattujen inventointitilausten tarkasteleminen
 Inventointitilaus poistetaan kirjaamisen jälkeen, jonka jälkeen voit tarkastella ja arvioida asiakirjaa kirjattuna inventointitilauksena, joka sisältää myös inventointitallennukset ja mahdolliset kommentit.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Kirjatut inventointitilaukset** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kirjatut inventointitilaukset** ja valitse sitten liittyvä linkki.
 2. Valitse **Kirjatut inventointitilaukset** -sivulla kirjattu inventointitilaus, jota haluat tarkastella, ja valitse sitten **Näytä**-toiminto.
 3. Voit tarkastella liittyvien inventointitallennusten luetteloa valitsemalla **Tallennukset**-toiminnon.
 

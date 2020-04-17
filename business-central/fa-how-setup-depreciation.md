@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 01/29/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4f11ac5080c8601ce8ae46178bf5c1ed8bb646e1
-ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
+ms.openlocfilehash: 4567bdc42cc7ef9434957d77b2675db78a7fd6f2
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "2999569"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184314"
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Käyttöomaisuuden poiston määrittäminen
  Rahoituslaskelmien ja tuloveropalautusten valmistelussa voi käyttää useita poistomenetelmiä. Monet suuret yritykset käyttävät tasapoistoja rahoituslaskelmissaan, koska sen avulla voidaan yleensä raportoida suurempia tuloja. Tuloverotarkoituksia varten monet yritykset käyttävät kuitenkin nopeutettua poistomenetelmää, kuten vähenevän saldon poistoa. Käyttöomaisuuden poistomenetelmä määritetään **Poistomenetelmä**-kentässä **Käyttöomaisuuden kortti** -sivulla. Lisätietoja eri menetelmistä on kohdassa [Poistomenetelmät](fa-depreciation-methods.md).

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 12/17/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: eb40c1d479267ba2e8111bd1183f2c7454a2bd16
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: 2dd601784418468a0f70befaced4b87e497fc2d7
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2911117"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181734"
 ---
 # <a name="keyboard-shortcuts"></a>Pikanäppäimet
 Tässä artikkelissa käsitellään yleisesti [!INCLUDE[prodshort](includes/prodshort.md)] -ohjelman joitakin pikanäppäinyhdistelmiä.
@@ -38,7 +38,7 @@ Useimmat pikanäppäimet ovat samoja sekä Windows- että macOS-käyttöjärjest
 > [!NOTE]
 > Tässä ohjeaiheessa käsiteltyjen yleisten pikanäppäimien lisäksi käytössä on useita liiketoimintakohtaisia pikanäppäimiä. Esimerkiksi [!INCLUDE[prodshort](includes/prodshort.md)]in yleisessä versiossa F9 kirjaa asiakirjan ja CTRL+F7 näyttää tietueen rahoitustapahtumat. (Käyttämässäsi ratkaisussa voi olla käytössä jotkin muut pikanäppäimet.) Pikanäppäin näkyy kyseisen toiminnon työkaluvihjeessä.
 
-##  <a name="Keyboard"></a> Yleiset pikanäppäimet
+##  <a name="general-keyboard-shortcuts"></a><a name="Keyboard"></a> Yleiset pikanäppäimet
 Seuraavassa taulukossa kuvataan pikanäppäimet, joiden avulla voi käyttää sivun eri elementtejä, kuten toimintoja, avattavia luetteloita ja hakuja, ja siirtyä niiden välillä. Lisätietoja luettelon tietueiden välillä siirtymisessä käytettävistä pikanäppäimistä on seuraavassa osassa.
 
 |Paina näitä näppäimiä<br />(macOS)|Tehtävä|
@@ -83,7 +83,8 @@ Seuraavassa taulukossa kuvataan luettelosivulla käytettävät pikanäppäimet. 
 |Alt+N|Lisää uusi rivi muokattavaan luetteloon, kuten **KP-budjetit**-sivulle.|Sama.|
 |Shift+F10 |Avaa valitulla rivillä käytettävissä olevien asetusten valikko.|Sama.|
 
-### <a name="navigateshortcuts"></a>Rivien ja sarakkeiden välillä siirtyminen
+### <a name="navigating-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Rivien ja sarakkeiden välillä siirtyminen
+Rivejä ja sarakkeita sisältäviä ruudukoita on useilla sivutyypeillä sovelluksessa [!INCLUDE[prodshort](includes/prodshort.md)]. Sivuja ovat esimerkiksi luettelosivut ja asiakirjojen **Rivit**-osat. Siirtyminen yhdestä solusta toiseen ruudukossa voidaan tehdä täysin näppäimistön avulla.
 
 |Paina näitä näppäimiä<br />(macOS)|Luettelonäkymän toiminnot |Ruutunäkymän toiminnot |
 |-----------------|-------|-------|
@@ -93,16 +94,17 @@ Seuraavassa taulukossa kuvataan luettelosivulla käytettävät pikanäppäimet. 
 |End<br />(Fn+oikea nuoli)|Siirry rivin viimeiseen kenttään.|Siirry rivin viimeiseen ruutuun.|
 |Syötä|Avaa tähän kenttään liittyvä tietue.<br /><br />Käytetään vain, jos korttisivu on liitetty tietueeseen.|Avaa tietueen.<br /><br />Käytetään vain, jos korttisivu on liitetty tietueeseen.|
 |Ctrl+Enter|Siirrä kohdistus seuraavaan luettelon ulkopuolella olevaan elementtiin.|Siirrä kohdistus seuraavaan luettelon ulkopuolella olevaan elementtiin.|
+|Sivu ylös<br />(Fn+ylänuoli)|Vieritä näkymän nykyisten rivien yläpuolella olevat rivit näkyviin. |Vierittää näkymän nykyisten ruutujen yläpuolella olevat ruutujoukot näkyviin. |
+|Sivu alas<br />(Fn+alanuoli)|Vieritä näkymän nykyisten rivien alapuolella olevat rivit näkyviin.|Vieritä näkymän nykyisten ruutujen alapuolella olevat ruutujoukot näkyviin.|
 |Nuoli alas|Siirry saman sarakkeen alemman rivin kenttään. |Siirry saman sarakkeen alemman rivin ruutuun. |
 |Ylänuoli|Siirry saman sarakkeen ylemmän rivin kenttään.| Siirry saman sarakkeen ylemmän rivin ruutuun.  |
 |Oikea nuoli|Siirry vain luku -luettelossa saman rivin seuraavaan oikealla olevaan kenttään.<br /><br />Siirry muokattavassa luettelossa oikealle nykyisestä kentästä.| Siirry saman rivin seuraavaan oikealla olevaan ruutuun. |
 |Vasen nuoli|Siirry vain luku -luettelossa saman rivin edelliseen vasemmalla olevaan kenttään. <br /><br />Siirry muokattavassa luettelossa vasemmalle nykyisestä kentästä.| Siirry saman rivin edelliseen vasemmalla olevaan ruutuun. |
-|Sivu ylös<br />(Fn+ylänuoli)|Vieritä näkymän nykyisten rivien yläpuolella olevat rivit näkyviin. |Vierittää näkymän nykyisten ruutujen yläpuolella olevat ruutujoukot näkyviin. |
-|Sivu alas<br />(Fn+alanuoli)|Vieritä näkymän nykyisten rivien alapuolella olevat rivit näkyviin.|Vieritä näkymän nykyisten ruutujen alapuolella olevat ruutujoukot näkyviin.|
 |Sarkain|Siirry muokattavassa luettelossa saman rivin seuraavaan oikealla olevaan kenttään.|Ei sovellu.||
 |Vaihto+Sarkain|Siirry muokattavassa luettelossa saman rivin edelliseen vasemmalla olevaan kenttään. | Ei sovellu. |
 
-### <a name="CopyRows"></a>Valitseminen, kopioiminen ja liittäminen
+
+### <a name="selecting-copying-and-pasting"></a><a name="CopyRows"></a>Valitseminen, kopioiminen ja liittäminen
 
 |Paina näitä näppäimiä<br />(macOS)|Luettelonäkymän toiminnot |Ruutunäkymän toiminnot |
 |-----------------|-------|-------|
@@ -120,7 +122,7 @@ Seuraavassa taulukossa kuvataan luettelosivulla käytettävät pikanäppäimet. 
 |Vaihto+sivu alas<br />(Vaihto+Fn+alanuoli)|Laajenna rivien valinta niin, että se sisältää kaikki valittujen rivien alapuolella olevat näkyvissä olevat rivit.|Ei sovellu.|
 |F8|Kopioi kenttä yläpuolella olevan rivin samasta sarakkeesta ja liitä se nykyiselle riville. Tämän voi tehdä vain muokattavissa luetteloissa. Tämän pikanäppäimen ja Tab-näppäimen avulla voit täyttää nopeasti niiden rivinimikkeiden kentät, joihin haluat samat arvot kuin yllä olevalla rivillä.|Ei sovellu.|
 
-### <a name="KeyboardFilter"></a>Luetteloiden lajitteleminen ja luetteloista hakeminen
+### <a name="searching-and-filtering-lists"></a><a name="KeyboardFilter"></a>Luetteloiden lajitteleminen ja luetteloista hakeminen
 
 |Paina näitä näppäimiä<br />(macOS)|Tehtävä|
 |-----------------|-------|
@@ -138,7 +140,7 @@ Seuraavilla pikanäppäimillä voi näyttää ja muokata tietueita korttisivuill
 
 |Paina näitä näppäimiä<br />(macOS)|Tehtävä|
 |----------------|-----------|
-|Alt+F6|Vaihtele nykyisen pikavälilehden tiivistystä ja laajennusta.|
+|Alt+F6|Vaihtele nykyisen pikavälilehden tai osan (alasivu) tiivistystä ja laajennusta.|
 |Alt+N |Lue uusi tietue avaamalla sivu; vastaa **Uusi**-toiminnon valitsemista. |
 |Alt+Vaihto+N |Sulje sivu ja luo uusi tietue avaamalla uusi sivu; vastaa **OK ja uusi**-toiminnon valitsemista. |
 |Alt+Vaihto+W |Avaa nykyinen kortti tai asiakirja uudessa ikkunassa. Lisätietoja on kohdassa [Monen tehtävää yhtä aikaa useilla sivuilla](ui-enter-data.md#multitasking-across-multiple-pages).|
@@ -151,7 +153,7 @@ Seuraavilla pikanäppäimillä voi näyttää ja muokata tietueita korttisivuill
 |F6|Siirry seuraavaan pikavälilehteen tai osaan (tai alisivulle).|
 |Shift+F6|Siirry edelliseen pikavälilehteen tai osaan (tai alisivulle).|
 
-## <a name="QuickEntry"></a>Kenttien pikatapahtuman pikanäppäimet
+## <a name="quick-entry-shortcuts-for-fields"></a><a name="QuickEntry"></a>Kenttien pikatapahtuman pikanäppäimet
 
 Seuraavat pikanäppäimet koskevat korttien, asiakirjojen ja luettelosivujen pikatapahtumaominaisuutta. Pikanäppäimiä ei voi käyttää luetteloissa, kun luettelo on ruutunäkymässä. Lisätietoja pikatapahtumista on kohdassa [Tietojen syöttämisen helpottaminen pikatapahtuman avulla](ui-enter-data.md#QuickEntry).
 
@@ -161,7 +163,7 @@ Seuraavat pikanäppäimet koskevat korttien, asiakirjojen ja luettelosivujen pik
 |Vaihto+Enter|Vahvista nykyisen kentän arvo ja siirry edelliseen pikatapahtumakenttään.||
 |Ctrl+Vaihto+Enter|Vahvista nykyisen sarakkeen arvo ja siirry seuraavaan luettelon ulkopuoliseen pikatapahtumakenttään.<br /><br />Tämä pikanäppäin koskee sivulle upotettuja luetteloita, kuten myyntitilauksen rivinimikkeitä. Voit poistua sen avulla nopeasti luettelosta ja jatkaa tietojen lisäämistä sivun muihin kenttiin.|
 
-## <a name="a-namecalendarshortcuts-keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"/> Pikanäppäimet kalenterissa (päivämäärän valitsin)
+## <a name="keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"/> Pikanäppäimet kalenterissa (päivämäärän valitsin)
 
 Päivämääräkenttää määrittäessäsi voit syöttää päivämäärän manuaalisesti tai avata kalenterin (päivämäärän valitsin), jonka avulla voit valita haluamasi päivämäärän. Seuraavassa taulukossa kuvataan kalenterin pikanäppäimet.
 
@@ -185,7 +187,7 @@ Päivämääräkenttää määrittäessäsi voit syöttää päivämäärän man
 |t|Anna kuluvan päivän päivämäärä. "T" tarkoittaa tänään.|
 |k|Anna työn päivämäärä. Lisätietoja on kohdassa [Työn päivämäärä](ui-change-basic-settings.md#work-date)|
 
-## <a name="a-namereportpreviewshortcutskeyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"/>Raportin esikatselun pikanäppäimet
+## <a name="keyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"/>Raportin esikatselun pikanäppäimet
 
 |Paina näitä näppäimiä<br />(macOS)|Tehtävä|
 |-----------------|-------|

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 76fc6081cf1dd27cc1e8f6c3611e60cb0ef7d37f
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5fefafc1ca8ac7f5cd9862ff741a0f0fd9fec7ff
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312098"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194017"
 ---
 # <a name="sell-products"></a>Tuotteiden myyminen
 Luo myyntitilaus tai -lasku tallentaaksesi sopimuksesi asiakkaan kanssa ja myydäksesi määrätyt tuotteet määrätyillä toimitus- ja maksuehdoilla.
@@ -128,6 +128,6 @@ Nyt järjestelmässä luodaan liittyvä nimike ja asiakastapahtumat. Myyntitilau
 ## <a name="see-also"></a>Katso myös
 [Myynti](sales-manage-sales.md)  
 [Myynnin määrittäminen](sales-setup-sales.md)  
-[Vaihto-omaisuus](inventory-manage-inventory.md)  
+[Varasto](inventory-manage-inventory.md)  
 [Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)

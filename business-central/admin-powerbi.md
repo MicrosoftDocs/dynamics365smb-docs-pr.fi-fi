@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.reviewer: edupont
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: bmeier
-ms.openlocfilehash: 1450db26598da2f2735df1979cfacc16034fcf3a
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 0625197f9feb0c12daa45b183973316df52b0672
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2952985"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186882"
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Yritystietojen ottaminen käyttöön Power BI:tä varten
 
@@ -25,18 +25,15 @@ Lisätietojen hakeminen [!INCLUDE[prodshort](includes/prodshort.md)] -tietoihin 
 Sinulla on oltava kelvollinen [!INCLUDE[prodshort](includes/prodshort.md)]- ja Power BI -tili. Lisäksi [Power BI Desktop](https://powerbi.microsoft.com/desktop/) on ladattava, jos haluat luoda oman Power BI -raportteja. Power BI -sovellusten käyttöä varten tarvitaan niiden taulukoiden käyttöoikeus, joista tiedot noudetaan. Lisätietoja on vaatimuksista on jäljempänä.  
 
 > [!IMPORTANT]
-> Tässä artikkelissa käsiteltävät Power BI -sovellukset on suunniteltu käyttämään Azure Active Directorya todennukseen ellei muuta ilmoiteta. Power BI -sovelluksen asentamiseen tarvitaan Power BI Pro -käyttöoikeus.  Power BI -sovellus on asennettu, se voidaan jakaa käyttäjille riippumatta siitä, millainen käyttöoikeus heillä on.
+> Tässä artikkelissa käsiteltävät Power BI -sovellukset on suunniteltu käyttämään Azure Active Directorya todennukseen ellei muuta ilmoiteta. Tarvitset myös [Power BI Pro -käyttöoikeuden](/power-bi/service-features-license-type) sisällön jakamista varten. Myös henkilöt, joille se jaetaan, tarvitsevat käyttöoikeuden tai sisällön on oltava [Premium-kapasiteetin](/power-bi/service-premium-what-is) työtilassa. Lisätietoja on kohdassa [Työn jakaminen Power BI:ssä](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).
 
 [!INCLUDE [prodlong](includes/prodlong.md)] on julkaissut seuraavat Power BI:n sovellukset:
 
 - [!INCLUDE [prodlong](includes/prodlong.md)] – CRM  
 - [!INCLUDE [prodlong](includes/prodlong.md)] – Finance  
 - [!INCLUDE [prodlong](includes/prodlong.md)] – Sales  
-- [!INCLUDE [prodlong](includes/prodlong.md)](paikallinen) – CRM  
-- [!INCLUDE [prodlong](includes/prodlong.md)](paikallinen) – Finance  
-- [!INCLUDE [prodlong](includes/prodlong.md)](paikallinen) – Sales  
 
-## <a name="using-the-include-prodshortincludesprodshortmd-dashboards-in-power-bi"></a>[!INCLUDE [prodshort](includes/prodshort.md)] -koontinäyttöjen käyttäminen Power BI:ssä
+## <a name="using-the-prodshort-dashboards-in-power-bi"></a>[!INCLUDE [prodshort](includes/prodshort.md)] -koontinäyttöjen käyttäminen Power BI:ssä
 
 Kussakin sovelluksessa on raportteja, joilla voi porautua tietoihin:
 
@@ -81,7 +78,7 @@ Sovelluksen on suunniteltu käyttämään kaikkien [!INCLUDE[prodshort](includes
 - [Avaa taustalla oleva raportti valitsemalla ruutu](/power-bi/service-dashboard-tiles).  
 - Tietojoukko ei oletusarvoisesti sisälly päivitykseen. Voit muuttaa päivitysaikataulua tai yrittää päivittämistä tarvittaessa **Päivitä nyt** -toiminnolla. Lisätietoja on kohdassa [Aikataulutetun päivityksen määrittäminen](/power-bi/refresh-scheduled-refresh).
 
-## <a name="power-bi-in-include-prodshortincludesprodshortmd"></a>Power BI [!INCLUDE [prodshort](includes/prodshort.md)] -ratkaisussa
+## <a name="power-bi-in-prodshort"></a>Power BI [!INCLUDE [prodshort](includes/prodshort.md)] -ratkaisussa
 
 [!INCLUDE [prodshort](includes/prodshort.md)] -aloitussivulla voi olla Power BI -hallintaelementti, joka voidaan määrittää näyttämään Power BI -raportteja aloitussivulla.
 
@@ -166,9 +163,9 @@ Power BI -tiliä ei ole määritetty. Kelvollinen Power BI -tili edellyttää, e
 
 Tämä sanoma avautuu, jos oletusraportin käyttöönotto Power BI -työtilassa epäonnistui tai jos raportti otettiin käyttöön mutta sen päivitys ei onnistunut. Jos näin tapahtuu, siirry raporttiin Power BI -työtilassa, valitse **Tietojoukko**, **Asetukset** ja päivitä tunnistetiedot sitten manuaalisesti. Kun tietojoukko on päivitetty, siirry takaisin Business Centraliin ja valitse raportti manuaalisesti **Valitse raportit** -sivulla.
 
-### <a name="you-need-a-power-bi-pro-license-to-install-the-include-prodshortincludesprodshortmd-app-in-power-bi"></a>[!INCLUDE [prodshort](includes/prodshort.md)] -sovelluksen asentaminen Power BI:ihin edellyttää Power BI Pro -käyttöoikeutta.
+### <a name="you-need-a-power-bi-pro-license-to-install-the-prodshort-app-in-power-bi"></a>[!INCLUDE [prodshort](includes/prodshort.md)] -sovelluksen asentaminen Power BI:ihin edellyttää Power BI Pro -käyttöoikeutta.
 
-Vain käyttäjät, joilla on Power BI Pro -käyttöoikeus, voivat asentaa Power BI -sovelluksia. Kun Power BI -sovellus on asennettu, voit jakaa sen sellaisten käyttäjien kanssa, joilla ei ole Power BI Pro -käyttöoikeutta.  
+Tarvitset [Power BI Pro -käyttöoikeuden](/power-bi/service-features-license-type) sisällön jakamista varten. Myös henkilöt, joille se jaetaan, tarvitsevat käyttöoikeuden tai sisällön on oltava [Premium-kapasiteetin](/power-bi/service-premium-what-is) työtilassa. Lisätietoja on kohdassa [Työn jakaminen Power BI:ssä](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).  
 
 ### <a name="parameter-validation-failed-please-make-sure-all-parameters-are-valid"></a>Parametrin tarkistus epäonnistui. Varmista, että kaikki parametrit ovat sallittuja.
 
@@ -179,7 +176,7 @@ Tämä virhe ilmaisee, että vähintään yksi parametreista on virheellinen.
 - Yhteys muodostetaan paikalliseen [!INCLUDE [prodshort](includes/prodshort.md)] -versioon. Antamasi URL-osoite ei kelpaa. Voit tarkistaa URL-osoitteen [!INCLUDE [prodshort](includes/prodshort.md)]in **Verkkopalvelut**-sivulla  
 - Porttia ei ole avattu, joten pyyntö ei läpäise palomuuria.
 
-### <a name="login-failed"></a>Sisäänkirjautuminen epäonnistui
+### <a name="cannot-sign-in"></a>Sisäänkirjaus ei onnistu
 
 Jos näyttöön tulee sisäänkirjautumisen epäonnistumista ilmoittava virhe sen jälkeen, kun kirjauduit [!INCLUDE [prodshort](includes/prodshort.md)] -tunnistetiedoilla, syynä on luultavasti jokin seuraavista:
 
@@ -203,7 +200,7 @@ Kun Power BI -sovellus on asennettu ja tiedot näkyvät Power BI:ssä, olet ehk�
 
 Power BI -sovellus näyttää vain sen [!INCLUDE [prodshort](includes/prodshort.md)] -yrityksen tiedot, joka määritettiin Power BI -sovelluksen asennuksen yhteydessä. Muiden yrityksen tietoja voidaan lisätä raporttiin lisäämällä uusi kyselyjä, jotka käyttävät eri yrityksiä tietolähteenä.  
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Katso myös
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 6b0d14b8c46d5d41266de950e60daa56d88cbd5e
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: ddd5ae8f701caab38b11072f3eb8bd61cfc9d251
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881916"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189265"
 ---
 # <a name="business-process-walkthroughs"></a>Liiketoimintaprosessien vaihekuvaukset
 Näissä vaihekuvauksissa käsitellään yksityiskohtaisesti ja kattavasti liiketoimintaprosesseja, joita voi käyttää CRONUS Finland Oy -esittely-yrityksen avulla. Vaihekuvaukset koostuvat useista toimenpiteistä, joista osan voi normaalisti suorittaa yksi käyttäjä, kun taas muihin liittyy useita erilaisia käyttäjärooleja. Jotta työympäristöstä saadaan asianmukainen, vaihekuvaukset voivat sisältää erityisiä määritysvaiheita. Ne täytyy suorittaa ohjeiden mukaisesti ennen harjoitusten tekemistä. Nämä vaiheet voivat antaa käsityksen siitä, millaisia tietoja käyttäjien on kerrottava yrityksensä tietotekniikan ammattilaisille.  

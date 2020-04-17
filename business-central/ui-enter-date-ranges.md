@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 22014c6df6ccffa08ff2fed25d40ce4c0312d57d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ff34a7a8a1086b41d2df2a75955017fc82866fb6
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315586"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194401"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Kalenterin päivämäärien ja aikojen käsitteleminen
 
@@ -48,7 +48,7 @@ Seuraavissa osissa esiteltyjen menetelmien ja muotojen avulla voit käyttää p�
 
 Mitä tahansa kalenterikuvakkeen sisältävä kenttä voidaan määrittää kalenterin päivämäärän valitsimen avulla. Voit näyttää kalenterin päivämäärän valitsimen aktivoimalla kalenterikuvakkeen tai painamalla kentässä pikanäppäimiä Ctrl + Home.
 
-![Päivämääräkentät](media/ui-date-field.png "Esimerkki päivämääräkentästä")
+![Pvm-kentät](media/ui-date-field.png "Esimerkki päivämääräkentästä")
 
 Katso myös [Kalenterin päivämäärän valitsimen pikanäppäimet](keyboard-shortcuts.md#calendarshortcuts)
 
@@ -121,7 +121,7 @@ Seuraavassa taulukossa on esimerkkejä kaikkia muotoja käyttävistä päivämä
 |t 23|Käsittelypvm:n vuoden viikon 23 tiistai|
 |t-1|Käsittelypvm:n vuoden viikon 1 tiistai|
 
-##  <a name="BKMK_SettingDateRanges"></a> Alueiden asettaminen
+##  <a name="setting-ranges"></a><a name="BKMK_SettingDateRanges"></a> Alueiden asettaminen
 
 Luetteloissa, kokonaissummissa ja raporteissa voi määrittää suodattimia päivämäärille, ajoille sekä päivämäärille ja ajoille, joilla on aloitusarvo ja vaihtoehtoisesti lopetusarvo, jolloin näytetään vain kyseisen alueen tiedot. Päivämääräalueiden määrittämisessä käytetään vakiosääntöjä.
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c567652331d82e4386bcf8829dd7d296f8ebecb4
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: 4027fd2d7ce3e514aa451279c8800453ba62711b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553890"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195649"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Vaihekuvaus: Vastaanotto ja hyllytys laajennetuissa varastomäärityksissä
 
@@ -58,7 +58,7 @@ Tämän vaihekuvauksen ohjeiden noudattamisen edellytykset:
 -   CRONUS Finland Oy on asennettu.  
 -   Voit tehdä itsestäsi fyysisen varaston työntekijän VALKOISESSA sijainnissa tekemällä seuraavat toimet:  
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Varaston työntekijät** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varastotyöntekijät** ja valitse sitten liittyvä linkki.  
 2.  Valitse ensin **Käyttäjätunnus**-kenttä ja valitse oma käyttäjätilisi **Käyttäjät**-sivulla.  
 3.  Kirjoita **Sijaintikoodi**-kenttään VALKOINEN.  
 4.  Valitse **Oletus**-kenttä.  
@@ -71,7 +71,7 @@ Ellen on CRONUS Finland Oy:n varastopäällikkö, ja hän luo kaksi ostotilausta
 
 ### <a name="to-review-the-location-setup"></a>Sijainnin asetusten tarkistaminen  
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sijainnit** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Sijainnit** ja valitse sitten liittyvä linkki.  
 2.  Avaa asianmukaisen VALKOINEN sijainnin kortti.  
 3.  Huomaa **F. varastointi** -pikavälilehdellä, että **Ohjattu hyllytys ja poiminta** -valintaruutu valitaan.  
 
@@ -86,7 +86,7 @@ Ostotilaukset ovat yleisin saapuvien lähdeasiakirjojen tyyppi.
 
 ### <a name="to-create-the-purchase-orders"></a>Ostotilausten luominen  
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostotilaukset** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Ostotilaukset** ja valitse sitten liittyvä linkki.  
 2.  Valitse **Uusi**-toiminto.  
 3.  Luo ostotilaus toimittajalle 10000 (23.1.) käsittelypäivämääränä seuraavien ostontilausrivien kanssa.  
 
@@ -117,7 +117,7 @@ Ostotilaukset ovat yleisin saapuvien lähdeasiakirjojen tyyppi.
 Voit hallita **F. varastoinnin vastaanotto** -sivulla useita lähdeasiakirjojen, kuten ostotilausten, saapuvia tilauksia.  
 
 ### <a name="to-receive-the-items"></a>Nimikkeiden vastaanotto  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Fyysisen varaston vastaanotot** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Fyysisen varaston vastaanotot** ja valitse sitten liittyvä linkki.  
 2.  Valitse **Uusi**-toiminto.  
 3.  Kirjoita **Sijaintikoodi**-kenttään VALKOINEN.  
 4.  Valitse **Käytä suodat. kun haet lähd.d** -toiminto.  
@@ -135,7 +135,7 @@ Voit hallita **F. varastoinnin vastaanotto** -sivulla useita lähdeasiakirjojen,
 Voit hallita **Kirjaa vast.otto** -sivulla tietyn, useita lähdeasiakirjoja kattavan fyysisen varastoinnin vastaanoton asiakirjan hyllytyksiä. Kuten kaikkia fyysisen varaston toimintojen asiakirjoja, kutakin varaston hyllytyksen nimikettä edustaa Ota-rivi ja Aseta-rivi. Seuraavassa menettelyssä Ota-rivien varastopaikkakoodi on oletusarvoinen vastaanoton varastopaikka VALKOINEN-sijainnissa, W-08-0001.  
 
 ### <a name="to-put-the-items-away"></a>Nimikkeiden hyllyttäminen  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Hyllytykset** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Hyllytykset** ja valitse sitten liittyvä linkki.  
 2.  Valitse ainoa fyysisen varastoinnin hyllytysasiakirja luettelosta ja valitse sitten **Muokkaa**-toiminto.  
 
     Varaston hyllytysasiakirja avaa yhteensä kahdeksan Ota- tai Aseta-riviä neljälle ostotilausriville.

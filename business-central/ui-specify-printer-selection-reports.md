@@ -3,49 +3,84 @@ title: Raporttien määrittäminen tulostumaan tiettyihin tulostimiin | Microsof
 description: Tutustu, miten tulostin määritetään raportille ja miten Tulostimen valinnat -sivua käytetään.
 services: project-madeira
 documentationcenter: ''
-author: SusanneWindfeldPedersen
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online printing
-ms.date: 10/01/2019
-ms.author: solsen
-ms.openlocfilehash: 0c3a57906c32751639585e542a60d931174d594b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: d027999692323960327e8b34ddb2efaea23c59a8
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315034"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189481"
 ---
-# <a name="specify-printer-selection-for-reports"></a>Tulostimen valinnan määrittäminen raporteille
-Tämä sivu on tyhjä, koska et voi määrittää tiettyjä tulostimia tietyille raporteille. Etsimme ongelmaan ratkaisua.
+# <a name="set-up-printers"></a>Tulostimien määrittäminen
+Koska [!INCLUDE[prodshort](includes/prodshort.md)] on pilvipalvelu, se ei voi käyttää paikallisia tulostimia, jotka on yhdistetty käyttäjien koneisiin. Se voi kuitenkin muodostaa yhteyden pilvipalveluun yhteensopiviin tulostimiin. Sovelluksen [!INCLUDE[prodshort](includes/prodshort.md)] yleisessä versiossa pilvitulostin nimeltä **Sähköpostitulostin** asennetaan laajennuksena. Se on käyttövalmis alkuasetusten jälkeen.
 
-Toistaiseksi tulostettava raportti on ladattava ensin PDF-tiedostona valitsemalla **Lähetä kohteeseen** -painike. Valitse tämän jälkeen tiedostotyyppi, jona haluat ladata tiedoston. Valitse nyt **PDF-asiakirja**. Voit nyt joka avata PDF-tiedoston ja tulostaa sen tai tallentaa sen myöhemmin tulostettavaksi.
+Jos pilvitulostinta ei ole asennettu ja määritetty tai jos asennettu tulostin ei toimi kunnolla, tulostuksessa käytetään selaimen tulostusasetusten oletustulostinta. Tämä osoitetaan tällä arvolla **Tulostin**-kentässä raportin pyyntösivulla: *(ei mitään, selain käsittelee)*.
 
-<!--
+**Tulostimen hallinta** -sivulla näkyvät määritetyt tulostimet. Kun olet määrittänyt vähintään yhden tulostimen, voit avata **Tulostinvalinnat**-sivun ja määrittää käyttäjätilillä, mitä raportteja milläkin tulostimella tulostetaan.
 
-You can set up reports so that they must be printed on a specific printer. The following are some uses of printer selection:
+Kun tulostin on määritetty ja liitetty tiettyihin raportteihin, voit tulostaa raportin valitsemalla raporttipyyntösivulla **Tulosta**-painikkeen. Lisätietoja on kohdassa [Raportin tulostaminen](ui-work-report.md#PrintReport).
 
-- You can print reports on special company letterhead.
-- You can print reports on different paper sizes.
-- You can print reports on the default printer of a specified employee.
+## <a name="to-set-up-a-printer"></a>Tulostimen määrittäminen
+**Tulostimen hallinta** -sivulla ovat näkyvissä määritetyt tulostimet. Voit käyttää kunkin tulostimen **Asetukset**-sivua ja muokata olemassa olevaa asetusta tai määrittää uuden tulostimen.
 
-You use the **Printer Selections** page to set different values to obtain different output. If you set a specific printer selection, then it takes precedence over a more general printer selection. For example, you can set a printer selection that has values in the **User ID**, **Report ID**, and **Printer Name** fields. This printer selection takes precedence over a printer selection that has blank entries in the **User ID** or **Report ID** fields.
+Seuraavassa kerrotaan, miten olemassa oleva **Sähköpostitulostin**-tulostin määritetään. Tämä on esiasennettu laajennus.
 
-The following table describes the combination of values to specify when you set up printer selections for a report.
+> [!NOTE]
+> Sähköpostitoiminto on määritettävä sähköpostitulostusta varten. Lisätietoja on kohdassa [Sähköpostin määrittäminen](admin-how-setup-email.md).
 
-|To                                                 |Set the following values                                             |
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tulostimen hallinta** ja valitse sitten liittyvä linkki.
+2. Valitse **Sähköpostitulostin**-tulostimen rivi ja valitse sitten **Muokkaa tulostimen asetuksia** -toiminto.
+3. Täytä **Asetukset**-sivulla tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+    > [!NOTE]
+    > Tulostimelle on valittava manuaalisesti sopiva paperikoko, koska paikallista tulostinta tai käyttäjän asetuksia ei voi tallentaa.
+    >
+    > Huomaa, että sähköpostitulostinlaajennuksen oletusasetuksena on **A4**-paperikoko. Tämä ei ole sopiva esimerkiksi Pohjois-Amerikkaa varten.
+4. Voit määrittää tulostimesta oletustulostimen valitsemalla **Tulostimen hallinta** -sivulla **Määritä oletustulostimeksi** -kohdan.
+
+### <a name="privacy-notice"></a>Tietosuojatiedot
+Jos käytät sähköpostitulostinlaajennusta, kaikki tai jotkin tulostustyöt lähetetään tulostimen määrittämisen yhteydessä annettuun sähköpostiosoitteeseen. On suositeltavaa yhdistää yksilöllinen sähköpostitunnus tulostinlaitteeseen käyttämällä vain virallisia laitevalmistajan tarjoamia palveluita. Valmistaja voi olla esimerkiksi HP ePrint, KonicaMinolta EveryonePrint tai Epson Email Print.
+
+Noudata varovaisuutta tietoturva-asioissa. Varmista esimerkiksi, että sähköpostitulostusratkaisun käyttöoikeudet, tietosuoja-asetukset ja tietojen säilyttämistä koskevat käytännöt on määritetty oikein. Vastuullasi on antaa oikea, varmistettu ja toimiva sähköpostiosoite. Lisätietoja on kohdassa [Microsoftin tietosuojatiedot](https://privacy.microsoft.com/en-us/privacystatement).
+
+## <a name="to-select-which-printers-print-which-reports"></a>Tulostinten ja niiden tulostamien raporttien valitseminen
+**Tulostinvalinnat**-sivulla voit määrittää käyttäjätilin ja kunkin tulostimen tulostamat raportit. Tämä on hyödyllistä, jos käytössä on raportteja, jotka vaativat eri tulostimien käyttämisen yrityksen sijoittelusta tai niiden tulostusominaisuuksista johtuen.
+
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tulostinvalinnat** ja valitse sitten liittyvä linkki. Vaihtoehtoisesti voit valita **Tulostimen hallinta** -sivulla tulostimen ja valita sitten **Tulostinvalinnat**-toiminnon.
+2. Valitse **Uusi**-toiminto, jos haluat lisätä tulostinvalinnan tiettyä raporttia varten.
+3. Täytä tarvittavat kentät.
+
+Määritetty raportti on nyt määritetty tulostamaan halutulle tulostimelle oletusarvoisesti.
+
+> [!NOTE]
+> Kun tulostat kyseisen raportin, voit ohittaa tämän asetuksen valitsemalla **Tulostusasetukset**-pyyntösivulla toisen tulostimen.
+
+> [!NOTE]
+> Jos et määritä raporttia tietylle tulostimelle **Tulostinvalinnat**-sivulla, se tulostetaan yrityksen oletustulostimeen **Tulostimen hallinta** -sivun määritysten mukaisesti.
+
+Sinä tai järjestelmänvalvoja voitte käyttää myös **Tulostinvalinnat**-sivua käyttäjien ja raporttien muiden tulostusvaihtoehtojen määrittämisessä. Seuraava taulukko sisältää niiden arvojen yhdistelmät, joiden avulla määritetään raportin eri tulostusasetukset.
+
+|Tehtävä                                                 |Määritä seuraavat arvot                                             |
 |---------------------------------------------------|---------------------------------------------------------------------|
-|Print a report to a specific printer for all users |Specify values in the **Report ID** and **Printer Name** fields and leave the **User ID** field blank.|
-|Print all reports to a specific printer for a specific user|Specify values in the **User ID** and **Printer Name** fields and leave the **Report ID** field blank.|
-|Set the default printer for all reports|Specify a value in the **Printer Name** field and leave the **User ID** and **Report ID** fields blank.|
-|Print a specific report to the user’s default printer|Specify a value in the **Report ID** field and leave the **Printer Name** and **User ID** fields blank.|
-|Print a specific report to a specific printer for a specific user|Specify values in all three fields.|
--->
+|Tulosta raportti tiettyyn tulostimeen kaikille käyttäjille |Määritä arvot **Raportin tunnus**- ja **Tulostimen nimi** -kenttiin ja jätä **Käyttäjän tunnus** -kenttä tyhjäksi.|
+|Tulosta kaikki raportit tiettyyn tulostimeen tietylle käyttäjälle|Määritä arvot **Käyttäjän tunnus**- ja **Tulostimen nimi** -kenttiin ja jätä **Raportin tunnus** -kenttä tyhjäksi.|
+|Määritä oletustulostin kaikille raporteille|Määritä arvo **Tulostimen nimi** -kenttään ja jätä **Käyttäjän tunnus**- ja **Raportin tunnus** -kentät tyhjiksi.|
+|Tulosta tietty raportti käyttäjän oletustulostimeen|Määritä arvo **Raportin tunnus** -kenttään ja jätä **Tulostimen nimi**- ja **Käyttäjän tunnus** -kentät tyhjiksi.|
+|Tulosta tietty raportti tiettyyn tulostimeen tietylle käyttäjälle|Määritä arvot kaikkiin kolmeen kenttään.|
+
+> [!NOTE]
+> Yksityiskohtaiset tulostinvalinnat ohittavat yleisemmät tulostinvalinnat. Esimerkiksi tulostinvalinta, jossa on arvot **Käyttäjän tunnus**-, **Raportin tunnus**- ja **Tulostimen nimi** -kentissä, ohittaa tulostinvalinnan, jossa **Käyttäjän tunnus**- tai **Raportin tunnus** -kentät ovat tyhjät.
 
 ## <a name="see-also"></a>Katso myös
+[Raportin tulostaminen](ui-work-report.md#PrintReport)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Eräajojen ajaminen](ui-how-run-batch-jobs.md)  
 [Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md)  

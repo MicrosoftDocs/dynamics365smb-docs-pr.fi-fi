@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: bank, format, data
-ms.date: 10/14/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 9c9d927fb13d68c195bd457eb6bd2cbbfe078ea2
-ms.sourcegitcommit: 86498fe4326b9ce26cc31e8645db27570d13bdf9
+ms.openlocfilehash: 493abf6f7309d6eb0274f4f416e6e5aea782b031
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2767536"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194353"
 ---
 # <a name="using-the-amc-banking-365-fundamentals-extension"></a>AMC Banking 365 -perusteiden laajennuksen käyttäminen
 AMC Banking 365 -perusteiden laajennus helpottaa ja tarkentaa tietojen lähettämistä pankkeihin. Laajennus yhdistää [!INCLUDE[d365fin](includes/d365fin_md.md)]:n ja AMC Banking 365 -perusteet Microsoft Dynamics 365 Business Central -palveluun, joka voi muuntaa pankkitietoja [!INCLUDE[d365fin](includes/d365fin_md.md)]:sta muodoiksi, joita tarvitaan yli 600 pankissa ympäri maailmaa. Tämä helpottaa esimerkiksi maksujen ja hyvitysten siirtämistä toimittajille syöttämällä maksut [!INCLUDE[d365fin](includes/d365fin_md.md)]-ohjelmaan ja lataamalla ne sitten pankkiin. Muodot voivat myös tasoittaa pankin täsmäytysprosesseja. Lisätietoja on kohdassa [AMC Banking Microsoft Dynamics 365 Business Centralille](https://amcbanking.com/landing365bc/help).

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 223f91bbefbb15a5ab1a576c84ace007c6b76075
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8944c01f032444b98efaf482c00d198127570c4e
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314022"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193081"
 ---
 # <a name="move-items-ad-hoc-in-basic-warehouse-configurations"></a>Nimikkeiden suunnittelematon siirtäminen fyysisen varastoinnin perusmäärityksissä
 Voit joskus joutua siirtämään nimikkeitä sisäisissä varastopaikoissa ilman, että vastaanotat tai toimitat varastopaikkoja tai ilman erityispyyntöä lähdeasiakirjasta. Voi suorittaa nämä suunnittelemattomat siirrot esimerkiksi silloin, jos haluat järjestellä fyysistä varastoa tuomalla nimikkeitä tarkastusalueelle tai siirtää lisänimikkeitä tuotantoalueelle ja sieltä pois ilman järjestelmäsuhdetta tuotantotilauksen lähdeasiakirjaan.  
@@ -58,7 +58,7 @@ Fyysisen varaston perusmäärityksissä eli sijainneissa, joissa käytetään **
 
 ## <a name="to-move-items-with-the-item-reclassification-journal"></a>Siirrä nimikkeet nimikkeiden uudelleenluokituspäiväkirjan kanssa
 Fyysisen varastoinnin siirtoasiakirjojen käytön sijaan voit kirjata nimikkeiden siirron luokittelemalla niiden varastopaikkakoodit uudelleen. Lisätietoja on kohdassa [Varaston laskeminen, muuttaminen ja uudelleenluokitus päiväkirjojen avulla](inventory-how-count-adjust-reclassify.md).   
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeen uudell.luokit. pvk** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimik. uud.luok.pvk** ja valitse sitten liittyvä linkki.  
 2.  Määritä jokaiselle päiväkirjariville varastopaikat, josta ja johon haluat siirtää nimikkeitä täyttämällä kentät **Varastopaikkakoodi** ja **Uusi varastopaikkakoodi**.  
 
     1.  Jos haluat siirtää koko sisällön toiseen varastopaikkaan, valitse **Hae var.paikan sisältö** -toiminto.  

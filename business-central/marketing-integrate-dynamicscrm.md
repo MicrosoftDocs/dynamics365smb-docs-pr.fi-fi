@@ -9,38 +9,38 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 1e45a480e8fdcc508de8ac82a6d2860147d76cec
-ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.openlocfilehash: b9926ced6827354c438445f0618db5a525b080d2
+ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "2991782"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3196733"
 ---
 # <a name="using-dynamics-365-sales-from-business-central"></a>Dynamics 365 Salesin käyttäminen Business Centralissa
 Jos käytät Dynamics 365 Salesia asiakassuhteissa, saat käyttöösi saumattoman integroinnin liidistä tuottoon käyttämällä [!INCLUDE[d365fin](includes/d365fin_md.md)]ia taustatehtäviin, kuten tilausten käsittelyyn, varastonhallintaan ja talousasioihin.
 
-Ennen kuin voit käyttää integrointiominaisuuksia, sovelluksessa [!INCLUDE[crm_md](includes/crm_md.md)] on määritettävä yhteys ja käyttäjät. Lisätietoja on kohdassa [Dynamics 365 Sales -integrointi](admin-prepare-dynamics-365-for-sales-for-integration.md).
+Ennen kuin voit käyttää integrointiominaisuuksia, [!INCLUDE[crm_md](includes/crm_md.md)]-järjestelmänvalvojan on määritettävä yhteys ja käyttäjät. Lisätietoja on kohdassa [Dynamics 365 Sales -integrointi](admin-prepare-dynamics-365-for-sales-for-integration.md).
 
 > [!NOTE]
 > Seuraavat ohjeet käsittelevät [!INCLUDE[crm_md](includes/crm_md.md)]in ja [!INCLUDE[d365fin](includes/d365fin_md.md)]in verkkoversioiden integrointiprosessia. Lisätietoja paikallisesta määrityksestä on kohdassa [Paikallisen Dynamics 365 Salesin integroinnin valmistelu](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
 
 Integroimalla sovellukset voit käyttää Salesissa [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietoja ja joissakin tapauksissa myös päinvastoin. Voit käsitellä ja synkronoida molemmille palveluille yhteisiä tietoja, kuten asiakkaita, yhteyshenkilöitä ja myyntitietoja, ja pitää tiedot ajan tasalla molemmissa palveluissa.  
 
-Esimerkiksi myyjä voi käyttää Salesissa [!INCLUDE[d365fin](includes/d365fin_md.md)]in hinnastoja myyntitilausta luodessaan. Kun myyjä lisää nimikkeen Salesin myyntitilausriville, hän näkevät nimikkeen varastomäärän (saatavuuden) [!INCLUDE[d365fin](includes/d365fin_md.md)]ista.
+Esimerkiksi [!INCLUDE[crm_md](includes/crm_md.md)]-myyjä voi käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]:n hinnastoja myyntitilausta luodessaan. Kun myyjä lisää nimikkeen [!INCLUDE[crm_md](includes/crm_md.md)]:n myyntitilausriville, hän näkee nimikkeen varastomäärän (saatavuuden) [!INCLUDE[d365fin](includes/d365fin_md.md)]:stä.
 
-Käänteisesti tilausten käsittelijät voivat käsitellä [!INCLUDE[d365fin](includes/d365fin_md.md)]issa myyntitilauksia, jotka on siirretty automaattisesti tai manuaalisesti Salesista. He voivat esimerkiksi luoda ja kirjata sellaisten nimikkeiden tai resurssien myyntitilausrivejä, jotka vietiin Salesissa käsin lisättyinä tuotteina. Lisätietoja on kohdassa [Myyntitilauksen tietojen käsitteleminen](marketing-integrate-dynamicscrm.md#handling-sales-order-data)
+Vastaavasti tilausten käsittelijät [!INCLUDE[d365fin](includes/d365fin_md.md)]:ssä voivat käsitellä myyntitilauksia, jotka on siirretty automaattisesti tai manuaalisesti [!INCLUDE[crm_md](includes/crm_md.md)]:stä. He voivat esimerkiksi luoda ja kirjata sellaisten nimikkeiden tai resurssien myyntitilausrivejä, jotka vietiin [!INCLUDE[crm_md](includes/crm_md.md)]-sovelluksesta käsin lisättyinä tuotteina. Lisätietoja on kohdassa [Myyntitilauksen tietojen käsitteleminen](marketing-integrate-dynamicscrm.md#handling-sales-order-data)
 
 > [!IMPORTANT]  
-> [!INCLUDE[d365fin](includes/d365fin_md.md)] integroituu vain Dynamics 365 for Salesin kanssa. Muut Dynamics 365 -sovellukset, jotka muuttavat Salesin vakiotyönkulkua tai tietomallia (kuten Project Service Automation), voivat katkaista [!INCLUDE[d365fin](includes/d365fin_md.md)]in ja Salesin integroinnin.
+> [!INCLUDE[d365fin](includes/d365fin_md.md)] integroituu vain [!INCLUDE[crm_md](includes/crm_md.md)]in kanssa. Muut Dynamics 365 -sovellukset, jotka muuttavat [!INCLUDE[crm_md](includes/crm_md.md)]:n vakiotyönkulkua tai tietomallia (kuten Project Service Automation), voivat katkaista [!INCLUDE[d365fin](includes/d365fin_md.md)]:n ja [!INCLUDE[crm_md](includes/crm_md.md)]:n integroinnin.
 
-### <a name="coupling-records"></a>Tietueiden yhdistäminen
-Voit valita synkronoitavat tiedot asetusten ohjatussa määrityksessä. Voit määrittää myöhemmin myös tiettyjen tietojen synkronoinnin. Tätä kutsutaan *yhdistämiseksi*. Voit esimerkiksi yhdistää tietyn Salesin tilin tiettyyn [!INCLUDE[d365fin](includes/d365fin_md.md)]in asiakkaaseen. Tässä osassa käsitellään seikkoja, jotka on otettava huomioon tietueiden yhdistämisessä.
+## <a name="coupling-records"></a>Tietueiden yhdistäminen
+Voit valita synkronoitavat tiedot asetusten ohjatussa määrityksessä. Voit määrittää myöhemmin myös tiettyjen tietojen synkronoinnin. Tätä kutsutaan *yhdistämiseksi*. Voit esimerkiksi yhdistää tietyn [!INCLUDE[crm_md](includes/crm_md.md)]-tilin tiettyyn [!INCLUDE[d365fin](includes/d365fin_md.md)] -asiakkaaseen. Tässä osassa käsitellään seikkoja, jotka on otettava huomioon tietueiden yhdistämisessä.
 
-Jos haluat esimerkiksi nähdä Salesin tilejä [!INCLUDE[d365fin](includes/d365fin_md.md)]in asiakkaina, kaksi tietuetyyppiä on yhdistettävä. Se tehdään käyttämällä [!INCLUDE[d365fin](includes/d365fin_md.md)]in **Asiakkaat**-luettelosivun **Määritä yhdistäminen** -toimintoa. Määritä sitten, mitkä [!INCLUDE[d365fin](includes/d365fin_md.md)]in asiakkaat vastaavat tiettyjä Salesin tilejä.
+Jos haluat nähdä [!INCLUDE[crm_md](includes/crm_md.md)]-tilit [!INCLUDE[d365fin](includes/d365fin_md.md)]:n asiakkaina, kaksi tietuetyyppiä on yhdistettävä. Se tehdään käyttämällä [!INCLUDE[d365fin](includes/d365fin_md.md)]in **Asiakkaat**-luettelosivun **Määritä yhdistäminen** -toimintoa. Määritä sitten, mitkä [!INCLUDE[d365fin](includes/d365fin_md.md)] -asiakkaat vastaavat tiettyjä [!INCLUDE[crm_md](includes/crm_md.md)]-tilejä.
 
-Voit myös luoda (ja yhdistää) Salesissa tilin esimerkiksi [!INCLUDE[d365fin](includes/d365fin_md.md)]in asiakastietueen perusteella valitsemalla **Luo tila Dynamics 365 Sales -sovelluksessa**. Tai voit tehdä tämän päin vastoin valitsemalla **Luo asiakas [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksessa**.
+Voit myös luoda (ja yhdistää) [!INCLUDE[crm_md](includes/crm_md.md)]-tilin esimerkiksi [!INCLUDE[d365fin](includes/d365fin_md.md)] -asiakastietueen avulla käyttämällä **Dynamics 365 Salesin tilin luominen** -kohtaa tai päinvastoin **Asiakkaan luominen [!INCLUDE[d365fin](includes/d365fin_md.md)]:ssä** -kohtaa.
 
 Kun määrität tietueiden välisen yhdistämisen, voit myös manuaalisesti pyytää, että nykyinen tietue, kuten asiakas, korvataan heti Salesin (tai [!INCLUDE[d365fin](includes/d365fin_md.md)]in) tilitiedoilla. Käytä siinä tapauksessa **Synkronoi nyt** -toimintoa. **Synkronoi nyt** -toiminto kysyy, korvataanko Sales- vai [!INCLUDE[d365fin](includes/d365fin_md.md)]-tietueen tiedot.
 
@@ -48,17 +48,17 @@ Joissakin tapauksissa tietyt tietojoukot on yhdistettävä ennen muita tietojouk
 
 |Tiedot|Yhdistettävä ensin|
 |-----|----|
-|Asiakkaat ja tilit|Myyjät on yhdistettävä Salesin käyttäjien kanssa|
-|Nimikkeet ja resurssit|Mittayksiköt on yhdistettävä Salesin yksikköryhmien kanssa|
-|Nimikkeiden ja resurssien hinnat|Asiakkaan hintaryhmät on yhdistettävä Salesin hintoihin|
+|Asiakkaat ja tilit|Myyjät on yhdistettävä [!INCLUDE[crm_md](includes/crm_md.md)]-käyttäjien kanssa|
+|Nimikkeet ja resurssit|Mittayksiköiden ja [!INCLUDE[crm_md](includes/crm_md.md)]-yksikköryhmien yhdistäminen|
+|Nimikkeiden ja resurssien hinnat|Asiakkaan hintaryhmien yhdistäminen [!INCLUDE[crm_md](includes/crm_md.md)]-hintoihin|
 
 > [!NOTE]  
 > Jos hinnoissa käytetään ulkomaan valuuttaa tai asiakkaat käyttävät ulkomaan valuuttaa, varmista, että valuutat yhdistetään Salesin tapahtumavaluuttoihin.
 
-Salesin myyntitilaukset tarvitsevat lisätietoja, kuten asiakkaita, mittayksiköitä, valuuttoja, asiakkaan hintaryhmiä, nimikkeitä ja/tai resursseja. Myyntitilausten integraatio edellyttää, että asiakkaat, mittayksikkö, asiakkaan hintaryhmät, nimikkeet ja/tai resurssit yhdistetään.
+[!INCLUDE[crm_md](includes/crm_md.md)]:n myyntitilaukset tarvitsevat lisätietoja, kuten asiakkaita, mittayksiköitä, valuuttoja, asiakkaan hintaryhmiä, nimikkeitä ja/tai resursseja. Myyntitilausten integraatio edellyttää, että asiakkaat, mittayksikkö, asiakkaan hintaryhmät, nimikkeet ja/tai resurssit yhdistetään.
 
-### <a name="fully-synchronizing-records"></a>Tietueiden täysi synkronointi
-Valitse asetusten ohjatun määrityksen lopussa **Suorita täysi synkronointi** -toiminto. Tämä toiminto aloittaa kaikkien [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietueiden synkronoinnin kaikkien liittyvien Salesin tietueiden synkronoinnin. Valitse **Täyden Dynamics 365 Sales -synkronoinnin tarkistus** -sivulla **Aloita**-toiminto. Täysi synkronointi voi kestään jonkin aikaa, mutta voit jatkaa [!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttöä samalla, kun synkronointi tapahtuu taustalla.
+## <a name="fully-synchronizing-records"></a>Tietueiden täysi synkronointi
+Asetusten ohjatun määritysoppaan lopussa voit valita **Suorita täysi synkronointi** -toiminnon ja aloittaa kaikkien [!INCLUDE[d365fin](includes/d365fin_md.md)] tietueiden synkronoinnin [!INCLUDE[crm_md](includes/crm_md.md)]:n liittyvien tietueiden kanssa. Valitse **Täyden Dynamics 365 Sales -synkronoinnin tarkistus** -sivulla **Aloita**-toiminto. Täysi synkronointi voi kestään jonkin aikaa, mutta voit jatkaa [!INCLUDE[d365fin](includes/d365fin_md.md)]:n käyttöä samalla, kun synkronointi tapahtuu taustalla.
 
 Voit tarkistaa täyden synkronoinnin yksittäisten töiden etenemisen valitsemalla **Dynamics 365 Sales -sovelluksen täyden synkronoinnin tarkistus** -sivulla tietueen, jonka tiedot haluat tarkistaa. Voit päivittää tilan synkronoinnin aikana päivittämällä sivun.
 
@@ -73,10 +73,10 @@ Tämä voi toimia myös, jos alkuperäinen myyntitilaus sisältää käsin lisä
 
 Jos alkuperäisen myyntitilauksen nimikkeen kuvaus on hyvin pitkä, sitä varten [!INCLUDE[d365fin](includes/d365fin_md.md)]in myyntitilaukseen luodaan lisämyyntitilausrivi, jonka tyyppi on **Kommentti**.
 
-Myyntitilauksen otsikkokenttien, kuten Viimeisin toimituspvm tai Pyydetty toimituspvm, päivitykset, jotka on yhdistetty SALESORDER-ORDER- **integrointitaulukon yhdistämismäärityksenä**, synkronoidaan säännöllisesti [!INCLUDE[crm_md](includes/crm_md.md)]iin. Prosessit, kuten myyntitilauksen vapauttaminen ja myyntitilauksen lähettäminen tai laskuttaminen, kirjataan myyntitilauksen aikajanalle [!INCLUDE[crm_md](includes/crm_md.md)]issa. Lisätietoja on kohdassa [Aktiviteettisyötteiden esittely](/dynamics365/customer-engagement/developer/introduction-activity-feeds).
+Päivittää myyntitilauksen otsikkojen kentät, kuten Viimeisin toimituspvm tai Pyydetty toimituspvm. Kentät on yhdistetty SALESORDER-ORDER- **integrointitaulukon yhdistämismääritys** -kohtaan. Ne synkronoidaan säännöllisesti [!INCLUDE[crm_md](includes/crm_md.md)]-sovellukseen. Prosessit, kuten myyntitilauksen vapauttaminen ja myyntitilauksen lähettäminen tai laskuttaminen, kirjataan myyntitilauksen aikajanalle [!INCLUDE[crm_md](includes/crm_md.md)]issa. Lisätietoja on kohdassa [Aktiviteettisyötteiden esittely](/dynamics365/sales-enterprise/developer/introduction-activity-feeds). <!--The link is broken. Should this actually point to https://docs.microsoft.com/en-us/dynamics365/sales-enterprise/manage-activities-->
 
 > [!NOTE]  
-> Jaksoittainen synkronointi SALESORDER-ORDER -**integrointitaulukon yhdistämismäärityksenä** toimii vain, kun myyntitilauksen integrointi on otettu käyttöön. Lisätietoja on kohdassa [Dynamics 365 Sales -yhteyden ottaminen](admin-how-to-set-up-a-dynamics-crm-connection.md). Vain [!INCLUDE[crm_md](includes/crm_md.md)]:n lähetetyistä myyntitilauksista luodut myyntitilaukset synkronoidaan. Lisätietoja on kohdassa [Myyntitilauksen käsittelyn integroinnin käyttöönotto](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration).
+> Jaksoittainen synkronointi SALESORDER-ORDER -**integrointitaulukon yhdistämismäärityksenä** toimii vain, kun myyntitilauksen integrointi on otettu käyttöön. Lisätietoja on kohdassa [Sales-yhteyden määritykset -sivun yhteysasetukset](admin-prepare-dynamics-365-for-sales-for-integration.md). Vain [!INCLUDE[crm_md](includes/crm_md.md)]:n lähetetyistä myyntitilauksista luodut myyntitilaukset synkronoidaan. Lisätietoja on kohdassa [Myyntitilauksen käsittelyn integroinnin käyttöönotto](/dynamics365/sales-enterprise/developer/enable-sales-order-processing-integration).
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098170]
 

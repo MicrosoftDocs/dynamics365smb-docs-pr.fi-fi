@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: ac6390df7f278edfcceae435e7a00bc5897bc6e6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4b08100c6a24681485ce3ec76f71751d69b131d0
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314410"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195897"
 ---
 # <a name="allocate-costs-and-income"></a>Kohdista kustannukset ja tulot
 Voit kohdistaa yleisen päiväkirjan tapahtuman useille eri tileille päiväkirjan kirjaamisen yhteydessä. Kohdistamisen voi tehdä kolmella eri tavalla:
@@ -32,7 +32,7 @@ Seuraavaksi kerrotaan, miten kustannusten kohdistus valmistellaan toistuvissa yl
 
 ## <a name="to-set-up-allocation-keys"></a>Kohdistusavaimien määrittäminen
 Voit kohdistaa toistuvan yleisen päiväkirjan tapahtuman useille eri tileille päiväkirjan kirjaamisen yhteydessä. Kohdistus voidaan tehdä määrän, prosentin tai summan mukaan.
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Toistuva yleinen päiväkirja** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Toistuva päiväkirja** ja valitse sitten liittyvä linkki.
 2. Valitse **Erän nimi** -kenttä, kun haluat avata **Yleisen päiväkirjan erät** -sivun.
 3. Voit muokata luettelon olemassa olevan erän kohdistuksia tai luoda uuden erän ja kohdistukset.
    * Luo uusi erä valitsemalla **Uusi**-toiminto ja siirtymällä seuraavaan vaiheeseen.
@@ -47,7 +47,7 @@ Voit kohdistaa toistuvan yleisen päiväkirjan tapahtuman useille eri tileille p
 11. Kirjaa päiväkirja.
 
 ## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>Aiemmin määritetyn kohdistusavaimen muuttaminen
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Toistuva yleinen päiväkirja** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Toistuva päiväkirja** ja valitse sitten liittyvä linkki.
 2. Valitse **Toistuva yleinen päiväkirja** -sivulla päiväkirja, jossa kohdistus on.
 3. Valitse ensin kohdistuksen rivi ja sitten **Kohdistukset**-toiminto.
 4. Vaihda soveltuvat kentät ja valitse sitten **OK**-painike.

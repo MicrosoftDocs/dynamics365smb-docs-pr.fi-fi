@@ -7,14 +7,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 898167c1b76a757dc4b6b06f8df64eef3a3c2b59
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: 57e0bef687225ff6a510aa54ec1c5c938ea96ab4
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554252"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184290"
 ---
 # <a name="set-up-general-fixed-assets-information"></a>Käyttöomaisuuden yleisten tietojen määrittäminen
 Ennen kuin voit hallita käyttöomaisuuseriä, sinun on määritettävä oletusarvoiset KP-tilit, kohdistustunnukset, päiväkirjamallit ja -erät käyttöomaisuuden kirjaamista ja uudelleenluokittelua varten. Voit luokitella käyttöomaisuuserät luokkiin, kuten aineellisiin ja aineettomiin.
@@ -43,7 +43,7 @@ Transaktioita voidaan kohdistaa useille osastoille tai projekteille käyttäjäk
 
 Kohdistusavaimet koskevat käyttöomaisuusluokkia yksittäisten omaisuuserien sijaan.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **KO:n kirjausryhmät** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KO:n kirjausryhmät** ja valitse sitten liittyvä linkki.  
 2. Valitse **KO:n kirjausryhmät** -sivulla **Kohdistukset**-toiminto ja valitse sitten kirjaustyyppi.
 3. Täytä **KO:n kohdistukset** -sivulla tarvittavat kentät.
 4. Toista vaihe 2 ja 3 kunkin kirjaustyypin osalta, jolle haluat määritellä kohdistusavaimia.
@@ -104,7 +104,7 @@ Jos käytät käyttöomaisuutta ensimmäistä kertaa [!INCLUDE[d365fin](includes
 3. Luo kullekin poistotarkoitukselle (kuten veroilmoituksille ja taloudellisille raporteille) käyttöominaisuuden poistokirja. Kunkin poistokirjan osalta tulee määritellä ehdot, kuten integrointi pääkirjanpitoon.  
 
     Ota käyttöön pääkirjanpidon integrointi seuraavien vaiheiden avulla. Varmista ensimmäiseksi, että pääkirjanpidon integrointi on poistettu käytöstä kaikissa poistokirjoissa, kirjaa sitten avaustapahtumat ja ota sitten pääkirjanpidon integrointi käyttöön.  
-4. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poistokirjat** ja valitse sitten liittyvä linkki.  
+4. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Poistokirjat** ja valitse sitten liittyvä linkki.  
 5. Valitse poistokirja ja valitse **Muokkaa**-toiminto avataksesi **Poistokirjakortti**-sivun.
 6. Varmista, että **Integrointi**-pikavälilehden kaikki kentät ovat tyhjiä (poista kaikki valintamerkit). Jos poistokirjoja on monta, poista kunkin poistokirjan pääkirjanpidon integrointi käytöstä.  
 7. Anna käyttöomaisuuden päiväkirjassa seuraavat rivit kullekin käyttöomaisuudelle:

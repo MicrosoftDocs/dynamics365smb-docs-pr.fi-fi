@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 209df24710837e3407498c600ec77bea3f76690d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0971998feed22b61dbcb948dda719e7e40287e63
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309122"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181530"
 ---
 # <a name="create-sales-opportunities"></a>Myyntimahdollisuuksien luominen
 Voit luoda mahdollisuuksia kontaktiesi myynneille. Kaikki mahdollisuudet täytyy liittää myyjään/ostajaan, ja mahdollisuuteen täytyy sisältyä kontakti.
@@ -35,7 +35,7 @@ Ennen mahdollisuuksien luomista sinun täytyy määrittää myyntisyklit. Lisät
 
 
 ## <a name="to-create-an-opportunity-from-a-contact"></a>Mahdollisuuden luominen kontaktista
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kontaktit** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Yhteyshenkilöt** ja valitse sitten liittyvä linkki.
 2. Valitse luettelosta kontakti, jolle haluat luoda mahdollisuuden.
 3. Tee jompikumpi seuraavista toimista:
    * Valitse **Luo mahdollisuus** -toiminto.
@@ -45,4 +45,4 @@ Ennen mahdollisuuksien luomista sinun täytyy määrittää myyntisyklit. Lisät
 ## <a name="see-also"></a>Katso myös
 [Myynti](sales-manage-sales.md)  
 [Kontaktien luonti ja hallinta](marketing-contacts.md)  
-[Business Central -sovelluksen käyttäminen](ui-work-product.md)
+[Business Centralin käyttäminen](ui-work-product.md)

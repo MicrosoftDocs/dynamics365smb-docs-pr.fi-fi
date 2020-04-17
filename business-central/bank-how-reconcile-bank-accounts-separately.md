@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4d3656c81a6964a01632865b6163be9ec0365de8
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: e53c1f7b0b2af4a94579863197ec7348c9b6ff18
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2952792"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186306"
 ---
 # <a name="reconcile-bank-accounts"></a>Pankkitilien täsmäytys
 Pankkitilin täsmäytyksen avulla voit varmistaa, että yrityksesi eri liiketoimintatapahtumat ja kulut näkyvät oikein yrityksen kirjoissa. Voit tehdä tämän vertaamalla sisäisten pankkitilien tapahtumia pankkitapahtumiin pankistasi ja kirjaamalla sitten saldot sisäisiin pankkitileihin, jolloin summat ovat talouspäälliköiden käytettävissä. Pankkitilin täsmäytys on myös käytännöllinen tapa löytää ja ratkaista puuttuvat maksut ja kirjanpitovirheet.
@@ -111,7 +111,7 @@ Joskus pankin tiliotteessa on koron tai veloitetun maksun summia. Tällaisia til
 5. Päivitä tai avaa **Pankkitilin täsmäytys** -sivu. Uusi tapahtuma näkyy **Pankkitilitapahtumat**-ruudussa.
 6. Kohdista tiliotteen rivi pankkitilitapahtumaan manuaalisesti tai automaattisesti.
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesbank-reconciliation-dynamics-365-business-centralindex"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/bank-reconciliation-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/bank-reconciliation-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Katso myös
 [Pankkitilien täsmäytys](bank-manage-bank-accounts.md)  

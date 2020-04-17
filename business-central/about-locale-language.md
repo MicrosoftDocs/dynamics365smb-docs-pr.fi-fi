@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: language, locale, localization, culture
-ms.date: 10/22/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 81377dfe391415c6922cf0dcf00a8c8567ee4c80
-ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
+ms.openlocfilehash: 2d98f433acbe5905d9807bf7e7ded8708ed22d3b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "2692702"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189019"
 ---
 # <a name="changing-language-and-locale"></a>Kielen ja kielialueen muuttaminen
 
@@ -44,7 +44,7 @@ Voit muuttaa aluekohtaisia asetuksia **Omat asetukset** -sivulla. Lisätietoja o
 
 Voit tarkistaa **Ohje ja tuki** -sivulla mihin [!INCLUDE [prodshort](includes/prodshort.md)] -versioon yrityksesi perustuu. Jos haluat perustaa yrityksen eri versioon, järjestelmänvalvoja voi luoda uuden tuotantoympäristön. Lisätietoja on kohdassa [Uuden tuotanto ympäristön luominen](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-production-environment) Kehittäjän ja IT-ammattilaisen sisällössä.  
 
-## <a name="languages-of-the-included365finincludesd365fin_mdmd-help"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)]-ohjeen kielet
+## <a name="languages-of-the-d365fin-help"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)]-ohjeen kielet
 [!INCLUDE[d365fin](includes/d365fin_md.md)]in perustoimintojen ohjesisältö julkaistaan Microsoft Docs -sivustossa ja on luettavissa useilla eri kielillä. Jos siirryt asiakirjoihin [!INCLUDE[d365fin](includes/d365fin_md.md)]ista, sisältö näkyy omalla kielelläsi. Jos tiettyä sivua ei ole vielä käännetty omalle kielellesi, se näkyy englanninkielisenä.
 
 ### <a name="how-do-i-change-the-language"></a>Kielen vaihtaminen

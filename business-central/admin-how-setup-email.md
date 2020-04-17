@@ -9,17 +9,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 12/17/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: df0956167908c214385b40e3ccb2f20a10d4458b
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: 9ece89b1d797d31a99c92f1bb292280b7f54ab7b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2910830"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187266"
 ---
 # <a name="set-up-email"></a>Määritä sähköposti
-Jos haluat lähettää ja vastaanottaa sähköpostiviestejä [!INCLUDE[d365fin](includes/d365fin_md.md)]:ssä, SMTP-sähköpostiasetukset-sivun kentät on täytettävä.
+Jos haluat lähettää ja vastaanottaa sähköpostiviestejä [!INCLUDE[d365fin](includes/d365fin_md.md)]issa, **SMTP-sähköpostiasetukset**-sivun kentät on täytettävä.
 
 Sen sijaan että kirjoittaisit SMTP-palvelimen tiedot manuaalisesti, voit käyttää **Käytä Office 365 Server -asetuksia** -toimintoa, joka hakee nämä tiedot Office 365 -tilauksesta
 

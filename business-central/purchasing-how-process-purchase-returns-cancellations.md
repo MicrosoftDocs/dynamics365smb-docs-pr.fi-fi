@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cancel, undo, correct
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 53bc73248b8c69e8c2fcd03270f7698f7f6f503a
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: fc2a3a372ac82ce936418f793cdd33eb3b0ea4b9
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953537"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193959"
 ---
 # <a name="process-purchase-returns-or-cancellations"></a>Ostopalautusten tai peruutusten käsittely
 Jos haluat palauttaa nimikkeitä toimittajalle tai peruuttaa ostamiasi palveluita, voit luoda ja kirjata ostohyvityslaskun, joka määrittää pyydetyn muutoksen alkuperäisen ostolaskun suhteen. Voit sisällyttää oikeat ostolaskun tiedot luomalla ostohyvityslaskun suoraan kirjatusta ostolaskusta. Vaihtoehtoisesti voit luoda uuden ostohyvityslaskun, johon laskun tiedot on kopioitu.
@@ -43,7 +43,7 @@ Todellisten kustannusten peruuttamisen automaattista määrittämistä varten on
 |Toiminto|Description|  
 |------------------|---------------------------------------|  
 |**Ostopalautustilaus**-sivun **Hae peruutettavat kirjatut asiakirjarivit** -toiminto|Kopioi vähintään yhden ostopalautustilaukseksi peruutettavan kirjatun asiakirjan rivit. Lisätietoja on kohdassa [Ostopalautustilauksen luominen vähintään yhden kirjatun ostoasiakirjan perusteella](purchasing-how-process-purchase-returns-cancellations.md#to-create-a-purchase-return-order-based-on-one-or-more-posted-purchase-documents).|  
-|**Ostohyvityslasku**- ja **Ostopalautustilaus**-sivujen **Kopioi asiakirja** -toiminto|Kopioi sekä otsikon että yhden kirjatun asiakirjan rivit peruutusta varten.<br /><br /> Edellyttää, että **Todellisen kust. peruutt. pakollinen** -valintaruutu on valittuna **Ostojen ja ostovelkojen asetukset** -sivulla.|
+|**Ostohyvityslasku**- ja **Ostopalautustilaus**-sivujen **Kopioi asiakirjasta** -toiminto|Kopioi sekä otsikon että yhden kirjatun asiakirjan rivit peruutusta varten.<br /><br /> Edellyttää, että **Todellisen kust. peruutt. pakollinen** -valintaruutu on valittuna **Ostojen ja ostovelkojen asetukset** -sivulla.|
 
 Jos haluat määrittää todellisten kustannusten peruuttamisen manuaalisesti, sinun on valittava **Kohdistus nimiketapahtumasta** -kenttä joltakin palautusasiakirjariviltä ja valittava sitten alkuperäisen ostotapahtuman numero. Tämä linkittää ostohyvityslaskun tai ostopalautustilauksen alkuperäiseen ostotapahtumaan ja varmistaa, että nimike arvostetaan alkuperäisissä yksikkökustannuksissa.
 
@@ -73,7 +73,7 @@ Ostohyvityslasku poistetaan ja korvataan uudella kirjattujen ostohyvityslaskujen
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Ostohyvityslaskut** ja valitse sitten liittyvä linkki.
 2. Avaa uusi tyhjä ostohyvityslasku valitsemalla **Uusi**-toiminto.
 3. Syötä **Toimittaja**-kenttään nykyisen toimittajan nimi.
-4. Valitse **Kopioi asiakirja** -toiminto.
+4. Valitse **Kopioi asiakirjasta** -toiminto.
 5. Valitse **Kopioi ostoasiakirja** -sivun **Asiakirjan tyyppi** -kentässä **Kirjattu lasku**.
 6. Valitse **Asiakirjanro**-kenttä, jos haluat avata **Kirjatut ostolaskut** -sivun, ja valitse sitten kirjattu ostolasku, joka sisältää peruutettavat rivit.
 7. Valitse **Laske rivit uudelleen** -valintaruutu, jos haluat päivittää kopioidut kirjatut ostolaskurivit nimikkeen hinta- ja yksikkökustannusten muutoksilla, jotka ovat tapahtuneet laskun kirjaamisen jälkeen.
@@ -87,7 +87,7 @@ Ostohyvityslasku poistetaan ja korvataan uudella kirjattujen ostohyvityslaskujen
 4. Täytä **Rivit**-pikavälilehdessä rivit manuaalisesti. Jos kopioit tiedot muista asiakirjoista, rivit täytetään automaattisesti:
 
     - Voit kopioida vähintään yhden kirjatun asiakirjarivin vähintään yhdestä kirjatusta asiakirjasta **Hae peruutettavat kirjatut asiakirjarivit** -toiminnolla. Tämä toiminto peruuttaa aina todelliset kustannukset kirjatusta asiakirjarivistä. Tätä toimintoa käsitellään seuraavissa vaiheissa.    
-    - Voit kopioida aiemmin luodun asiakirjan palautustilaukseen **Kopioi asiakirja** -toiminnolla. Käytä tätä toimintoa, kun kopioit koko asiakirjan. Se voi olla kirjattu asiakirja tai asiakirja, jota ei ole vielä kirjattu. Voit peruuttaa tällä toiminnolla todelliset kustannukset vain silloin, kun **Todellisen kust. peruutt. pakollinen** -valintaruutu on valittu **Myyntien ja saamisten asetukset** -sivulla.  
+    - Voit kopioida aiemmin luodun asiakirjan palautustilaukseen **Kopioi asiakirjasta** -toiminnolla. Käytä tätä toimintoa, kun kopioit koko asiakirjan. Se voi olla kirjattu asiakirja tai asiakirja, jota ei ole vielä kirjattu. Voit peruuttaa tällä toiminnolla todelliset kustannukset vain silloin, kun **Todellisen kust. peruutt. pakollinen** -valintaruutu on valittu **Myyntien ja saamisten asetukset** -sivulla.  
 
 4. Valitse **Hae peruutettavat kirjatut asiakirjarivit** -toiminto.
 5. Valitse **Kirjatut ostoasiakirjarivit** -sivun yläosassa **Näytä vain peruutettavat rivit** -valintaruutu, jos haluat nähdä vain palauttamattomia määriä sisältävät rivit. Jos esimerkiksi kirjattu ostolaskun määrä on jo palautettu, et ehkä halua sisällyttää määrää uuteen ostopalautusasiakirjaan.
@@ -181,7 +181,7 @@ Kun palautustilaukset yhdistetään hyvityslaskuun ja kirjataan, laskutetuista r
 2.  Täytä tarvittavat kentät ja valitse sitten **OK**-painike.  
 3.  Voit poistaa yksittäiset ostopalautustilaukset myös manuaalisesti.
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsreturn-items-dynamics-365-business-central"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/paths/return-items-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/paths/return-items-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
 [Osto](purchasing-manage-purchasing.md)  

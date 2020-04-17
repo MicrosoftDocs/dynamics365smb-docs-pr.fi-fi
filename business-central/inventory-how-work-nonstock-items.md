@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: non-inventoriable
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: d7448e9fe95f2ef6821dd4a1d41eae0390d1547c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a13eec5bd1df674da6255f732b5f68c8a7fcbaf6
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309578"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181842"
 ---
 # <a name="work-with-catalog-items"></a>Luettelonimikkeiden käsitteleminen
 Voit tarjota asiakkaille tiettyjä nimikkeitä, joita et halua ylläpitää järjestelmässäsi ennen kuin niitä myydään. Kun haluat alkaa ylläpitää tällaisia nimikkeitä järjestelmässäsi, voit muuntaa ne normaaleiden nimikkeiden korteiksi kahdella eri tavalla.
@@ -54,7 +54,7 @@ Voit ottaa luettelonimikkeen kortin muuntamisen käyttöön normaalin nimikkeen 
 Luodaan uusi nimikekortti, johon on täytetty luettelonimikkeen tiedot, ja asiaankuuluva nimikemalli. Tämän jälkeen voit täyttää uuden nimikekortin kentät tai muokata niitä tarvittaessa. Lisätietoja on ohjeaiheessa [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md).
 
 ## <a name="to-sell-a-catalog-item-and-convert-it-to-a-normal-item"></a>Luettelonimikkeen myyminen ja muuntaminen normaaliksi nimikkeeksi
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Myyntitilaukset** ja valitse sitten liittyvä linkki.
 2. Valitse **Uusi**-toiminto. Täytä **Yleinen**-pikavälilehden kentät samalla tavalla kuin myyntitilauksen kentät. Lisätietoja on kohdassa [Tuotteiden myyminen](sales-how-sell-products.md).
 3. Valitse uuden tilausrivin **Tyyppi**-kentässä **Nimike**, mutta jätä **Nro**-kenttä tyhjäksi.
 4. Valitse ensin **Rivi**-toiminto ja sitten **Valitse luettelonimikkeet** -toiminto.
@@ -71,5 +71,5 @@ Tämän jälkeen voit täyttää uuden nimikekortin kentät tai muokata niitä t
 ## <a name="see-also"></a>Katso myös
 [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md)  
 [Erikoistilausten luominen](sales-how-to-create-special-orders.md)|  
-[Vaihto-omaisuus](inventory-manage-inventory.md)  
+[Varasto](inventory-manage-inventory.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)

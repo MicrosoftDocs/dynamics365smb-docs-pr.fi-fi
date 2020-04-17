@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 Sales -integroinnissa käytettävien käyttäjätilien määrittäminen | Microsoft Docs
+title: Common Data Service -integroinnissa käytettävien käyttäjätilien määrittäminen | Microsoft Docs
 description: Tietoja niiden käyttäjätilien määrittämisestä, joilla sovellukset vaihtavat tietoja ja joiden avulla käytetään ja synkronoidaan sovellusten tietoja.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,129 +8,126 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 64dd9d1e4645b845c02872a8bc09f0925f4fa33c
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: ad10aa53b4fe6a8b9b65ad798c206fa251e08a7a
+ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2910553"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3196493"
 ---
-# <a name="setting-up-user-accounts-for-integrating-with-dynamics-365-sales"></a>Dynamics 365 Sales -integroinnissa käytettävien käyttäjätilien määrittäminen
-Tässä artikkelissa on yleiskatsaus [!INCLUDE[crm_md](includes/crm_md.md)]in ja [!INCLUDE[d365fin](includes/d365fin_md.md)]in integroinnissa tarvittavien käyttäjätilien määrittämisestä.  
+# <a name="setting-up-user-accounts-for-integrating-with-common-data-service"></a>Common Data Service -integroinnissa käytettävien käyttäjätilien määrittäminen
+Tässä artikkelissa on yleiskatsaus [!INCLUDE[d365fin](includes/cds_long_md.md)]in ja [!INCLUDE[d365fin](includes/d365fin_md.md)]in integroinnissa tarvittavien käyttäjätilien määrittämisestä.  
 
-> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2085500]
-
-## <a name="setting-up-the-administrator-user-account-in-sales"></a>Järjestelmänvalvojan käyttäjätilin määrittäminen Salesissa
-[!INCLUDE[d365fin](includes/d365fin_md.md)]in järjestelmänvalvojan käyttäjätili on lisättävä ensin käyttäjänä [!INCLUDE[crm_md](includes/crm_md.md)]iin ja siirrettävä käyttäjä sitten [!INCLUDE[crm_md](includes/crm_md.md)]in järjestelmänvalvojaksi. Järjestelmänvalvojan käyttäjätilillä on oltava [!INCLUDE[crm_md](includes/crm_md.md)]issa myös järjestelmän mukauttajan rooli ja ainakin yksi ei-hallinnollinen käyttäjärooli, kuten myyntipäällikkö.
+## <a name="setting-up-the-administrator-user-account"></a>Järjestelmänvalvojan käyttäjätilin määrittäminen
+Järjestelmänvalvojan käyttäjätili [!INCLUDE[d365fin](includes/d365fin_md.md)]:ssä on lisättävä käyttäjänä [!INCLUDE[d365fin](includes/cds_long_md.md)]:een. Kun määrität yhteyden [!INCLUDE[d365fin](includes/d365fin_md.md)]- ja [!INCLUDE[d365fin](includes/cds_long_md.md)] -sovelluksen välille, tätä tiliä käytetään kerran asennuksen ja joidenkin pakollisten osien määrityksen aikana. <!--Verify this-->
 
 ## <a name="setting-up-the-user-account-for-the-integration"></a>Käyttäjätilin määrittäminen integrointia varten
-Office 365 -tilauksessa on luotava erillinen käyttäjätili, jota sekä [!INCLUDE[d365fin](includes/d365fin_md.md)] että [!INCLUDE[crm_md](includes/crm_md.md)] voi käyttää tietojen synkronoimiseen. Käyttäjätilin tulee voida kirjautua [!INCLUDE[crm_md](includes/crm_md.md)]iin, mikä tarkoittaa sitä, että tällä käyttäjällä tulee olla [!INCLUDE[crm_md](includes/crm_md.md)] lisenssi ja vähintään yksi käyttäjäoikeusrooli määritettynä [!INCLUDE[crm_md](includes/crm_md.md)]ssa, kuten [tässä kuvataan](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#create-a-user-account). Lisätietoja käyttäjien luomisesta [!INCLUDE[crm_md](includes/crm_md.md)]issa on kohdassa [Tietoturvan, käyttäjien ja tiimien hallinta](https://go.microsoft.com/fwlink/?LinkID=616518). Kun yhteys on määritetty, [!INCLUDE[d365fin](includes/d365fin_md.md)] määrittää käyttäjätilin käyttöoikeusroolit, joita se tarvitsee [!INCLUDE[d365fin](includes/d365fin_md.md)]ssa ja tämän tilin voi määrittää [epäinteraktiiviseen käyttötilaan](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#create-a-non-interactive-user-account) [!INCLUDE[crm_md](includes/crm_md.md)]ssä.
+Office 365 -tilauksessa on luotava erillinen käyttäjätili, jota sekä [!INCLUDE[d365fin](includes/d365fin_md.md)] että [!INCLUDE[d365fin](includes/cds_long_md.md)] voi käyttää tietojen synkronoimiseen. Käyttäjätililtä on voitava kirjautua [!INCLUDE[d365fin](includes/cds_long_md.md)]:een. Tämä tarkoittaa sitä, että käyttäjällä on oltava [!INCLUDE[d365fin](includes/cds_long_md.md)] -käyttöoikeus ja vähintään yksi käyttöoikeusrooli liitettynä siihen [!INCLUDE[d365fin](includes/cds_long_md.md)] -sovelluksessa. <!--not sure that this applies as described [here](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#create-a-user-account). For more information about how to create users in [!INCLUDE[d365fin](includes/cds_long_md.md)], see [Manage security, users, and teams](https://go.microsoft.com/fwlink/?LinkID=616518). --> Kun yhteys on määritetty, [!INCLUDE[d365fin](includes/d365fin_md.md)] määrittää käyttäjätilille käyttöoikeusroolin, jota se tarvitsee [!INCLUDE[d365fin](includes/d365fin_md.md)]issa.
 
-![Avustava asetusopas näyttää kohdan, johon annetaan synkronoinnin käyttäjätunnisteet](media/sync-user-setup.png "Visualisoinnin ohjattu avustava asetusopas näyttää kohdan, johon annetaan synkronoinnin käyttäjätunnisteet")
+<!--![Assisted setup guide showing place to enter synchronization user credentials](media/sync-user-setup.png "Visualization assisted setup wizard page showing place to enter synchronization user credentials")-->
 
 > [!IMPORTANT]  
-> Älä käytä [!INCLUDE[crm_md](includes/crm_md.md)]in järjestelmänvalvojan tiliä synkronointiin, sillä se katkaisee synkronoinnin.
-> Jotta synkronointi ei olisi jatkuvaa, integroinnin käyttäjätilin tietoihin tekemiä muutoksia ei myöskään synkronoida. <!--What changes would this account make?--> Kun yhteys on muodostettu, on suositeltavaa määrittää integroinnin käyttäjätilin käyttöoikeus [!INCLUDE[crm_md](includes/crm_md.md)]issa ei-vuorovaikutteiseen tilaan. Lisätietoja on kohdassa [Ei-vuorovaikutteisen käyttäjätilin luominen](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#create-a-non-interactive-user-account).
+> Älä käytä [!INCLUDE[d365fin](includes/cds_long_md.md)]in järjestelmänvalvojan tiliä synkronointiin, sillä se katkaisee synkronoinnin.
 
-## <a name="setting-up-accounts-for-salespeople"></a>Myyjien tilien määrittäminen
-[!INCLUDE[crm_md](includes/crm_md.md)]issa on luotava käyttäjätilit [!INCLUDE[d365fin](includes/d365fin_md.md)]in myyjille. Tämän helpottamiseksi Microsoft 365:n hallintakeskuksessa on Excel-malli, jota voit käyttää. Valitse **Aktiiviset käyttäjät** -sivulla ensin **Lisää** ja sitten **Tuo useita käyttäjiä**. Valitse **Lataa vain otsikot sisältävä CSV-tiedosto** ja anna myyjien tiedot. Jos haluat nähdä esimerkin, valitse **Lataa otsikot sisältävä CSV-tiedosto ja esimerkkikäyttäjätiedot**. Kun olet antanut käyttäjien tiedot, tuontiprosessin seuraava vaihe on määrittää käyttäjien käyttöoikeudet Dynamics 365 Customer Engagement -palvelupakettiin.  
+## <a name="permissions-and-security-roles-for-user-accounts-in-d365fin"></a>[!INCLUDE[d365fin](includes/cds_long_md.md)] -sovelluksen käyttäjätilien käyttöoikeudet ja ja käyttöoikeusroolit
+Kun CDS-perusintegrointiratkaisua asennetaan, integroinnin käyttäjätilin käyttöoikeudet määritetään. Jos näitä käyttöoikeuksia on muutettu, käyttöoikeudet on ehkä palautettava alkuperäisiksi. Voit tehdä tämän asentamalla CDS-perusintegrointiratkaisun uudelleen valitsemalla **Ota integraatioratkaisu uudelleen käyttöön** **Common Data Service -yhteyden määritys** -sivulla. Business Centralin CDS-integroinnin käyttöoikeusrooli otetaan käyttöön.
 
-Kun olet tuonut käyttäjät ja määrittänyt heille Dynamics 365 Customer Engagementin käyttöoikeudet, sinun on määritettävä käyttäjille **myyjän** rooli [!INCLUDE[crm_md](includes/crm_md.md)]issa.
 
-![Myyjien yhdistäminen käyttäjiin Dynamics 365 Salesissa](media/couple-salespeople.png "Visualisointi: Myyjien yhdistäminen käyttäjiin Dynamics 365 Salesissa")
+<!--
+The following tables list the minimum permissions for the user accounts in [!INCLUDE[d365fin](includes/cds_long_md.md)].
 
-## <a name="minimum-permissions-for-user-accounts-in-includecrm_mdincludescrm_mdmd"></a>Sovelluksen [!INCLUDE[crm_md](includes/crm_md.md)] käyttäjätilien vähimmäiskäyttöoikeusvaatimukset
-Kun integrointiratkaisua asennetaan, integroinnin käyttäjätilin käyttöoikeudet määritetään sovelluksessa [!INCLUDE[crm_md](includes/crm_md.md)]. Jos näitä käyttöoikeuksia on muutettu, käyttöoikeudet on ehkä palautettava alkuperäisiksi. Tämä tehdään asentamalla integrointiratkaisu uudelleen tai määrittämällä käyttöoikeudet uudelleen manuaalisesti. Seuraavassa taulukossa ovat sovelluksen [!INCLUDE[crm_md](includes/crm_md.md)] käyttäjätilien vähimmäiskäyttöoikeudet.
+### Minimum Permissions for the Administrator
+The following table displays the minimum permissions on each tab for each security role that is required for the administrator user.
 
-### <a name="integration-administrator"></a>Integroinnin järjestelmänvalvoja
-Seuraavan taulukon välilehdissä ovat kunkin käyttöoikeusroolin vähimmäiskäyttöoikeudet, jotka järjestelmänvalvojakäyttäjältä vaaditaan.
-
-##### <a name="customization"></a>Mukauttaminen
-|Käyttöoikeusrooli|Käyttöoikeustaso|Dynamics NAV 2018 ja aiemmat versiot|Business Central <br> Lokakuu 2018|Business Central <br> Huhtikuu 2019|
+##### Customization
+|Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
 |----|----|-----|----|----|
-|Malliin perustuva sovellus|Yleinen|||Lue|
-|Laajennuksen kokoonpano|Yleinen|Lue|Lue|Lue|
-|Laajennuksen tyyppi|Yleinen|Lue|Lue|Lue|
-|Suhde|Yleinen|||Lue|
-|SDK-viesti|Yleinen|Lue|Lue|Lue|
-|SDK-viestin käsittelyvaihe|Yleinen|Lue|Lue|Lue|
-|SDK-viestin käsittelyvaiheen kuva|Yleinen|Lue|Lue|Lue|
-|Lähtöjärjestelmä|Yleinen|||Kirjoita|
+|Model Driven App|Global|||Read|
+|Plugin Assembly|Global|Read|Read|Read|
+|Plugin Type|Global|Read|Read|Read|
+|Relationship|Global|||Read|
+|SDK Message|Global|Read|Read|Read|
+|SDK Message Proessing Step|Global|Read|Read|Read|
+|SDK Message Proessing Step Image|Global|Read|Read|Read|
+|System From|Global|||Write|
 
-##### <a name="custom-entities"></a>Mukautetut entiteetit
-|Käyttöoikeusrooli|Käyttöoikeustaso|Dynamics NAV 2018 ja aiemmat versiot|Business Central <br> Lokakuu 2018|Business Central <br> Huhtikuu 2019|
+##### Custom Entities
+|Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2020|
 |----|----|-----|----|----|
-|Business Central -tilin tilastot|Yleinen|Lue|Lue|Lue|
-|Business Central -yhteys|Yleinen|Luo, Lue, Kirjoita, Poista|Luo, Lue, Kirjoita, Poista|Luo, Lue, Kirjoita, Poista|
-|Kirjaa määritys|Yleinen|||Kirjoita|
+|Business Central Account Statistics|Global|Read|Read|Read|
+|Business Central Connection|Global|Create, Read, Write, Delete|Create, Read, Write, Delete|Create, Read, Write, Delete|
+|Post Configuration|Global|||Write|
 
-#### <a name="integration-user"></a>Integroinnin käyttäjä
-Seuraavan taulukon välilehdissä ovat kunkin käyttöoikeusroolin vähimmäiskäyttöoikeudet, jotka integroinnin käyttäjältä vaaditaan.
+#### Integration User
+The following table displays the minimum permissions on each tab for each security role that is required for the integration user.
 
-##### <a name="core-records"></a>Tärkeimmät tietueet
-|Käyttöoikeusrooli|Käyttöoikeustaso|Dynamics NAV 2018 ja aiemmat versiot|Business Central <br> Lokakuu 2018|Business Central <br> Huhtikuu 2019|
+##### Core Records
+|Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
 |----|----|-----|----|----|
-|Tili|Yleinen|Luo, Lue, Kirjoita, Liitä, Liitä kohteeseen, Määritä|Luo, Lue, Kirjoita, Liitä, Liitä kohteeseen, Määritä|Luo, Lue, Kirjoita, Liitä, Liitä kohteeseen, Määritä|
-|Toimintokortti|Yleinen||Lue|Lue|
-|Yhteys|Yleinen|Lue|Lue|Lue|
-|Kontakti|Yleinen|Luo, Lue, Kirjoita, Liitä, Liitä kohteeseen|Luo, Lue, Kirjoita, Liitä, Liitä kohteeseen|Luo, Lue, Kirjoita, Liitä, Liitä kohteeseen|
-|Huomautus|Yleinen|||Luo, Lue, Kirjoita, Poista, Liitä, Määritä|
-|Mahdollisuus|Yleinen||Luo, Lue, Kirjoita, Liitä, Liitä kohteeseen|Luo, Lue, Kirjoita, Liitä, Liitä kohteeseen|
-|Kirjaus|Yleinen|||Luo, Lue, Liitä kohteeseen|
-|Käyttäjän entiteetin käyttöliittymä|Käyttäjä|Luo, Lue, Kirjoita|Luo, Lue, Kirjoita|Luo, Lue, Kirjoita|
+|Account|Global|Create, Read, Write, Append, Append To, Assign|Create, Read, Write, Append, Append To, Assign|Create, Read, Write, Append, Append To, Assign|
+|Action Card|Global||Read|Read|
+|Connection|Global|Read|Read|Read|
+|Contact|Global|Create, Read, Write, Append, Append To|Create, Read, Write, Append, Append To|Create, Read, Write, Append, Append To|
+|Note|Global|||Create, Read, Write, Delete Append, Assign|
+|Opportunity|Global||Create, Read, Write, Append, Append To|Create, Read, Write, Append, Append To|
+|Post|Global|||Create, Read, Append To|
+|User Entity UI|User|Create, Read, Write|Create, Read, Write|Create, Read, Write|
 
-##### <a name="sales"></a>Myynti
-|Käyttöoikeusrooli|Käyttöoikeustaso|Dynamics NAV 2018 ja aiemmat versiot|Business Central <br> Lokakuu 2018|Business Central <br> Huhtikuu 2019|
+##### Sales
+|Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
 |----|----|-----|----|----|
-|Lasku|Yleinen|Luo, Lue, Kirjoita, Liitä, Liitä kohteeseen|Luo, Lue, Kirjoita, Liitä, Liitä kohteeseen|Luo, Lue, Kirjoita, Liitä, Liitä kohteeseen|
-|Tilaus|Yleinen|Lue, Kirjoita, Liitä kohteeseen|Lue, Kirjoita, Liitä kohteeseen|Lue, Kirjoita, Liitä, Liitä kohteeseen, Määritä|
-|Tuote|Yleinen|Luo, Lue, Kirjoita, Liitä, Liitä kohteeseen|Luo, Lue, Kirjoita, Liitä, Liitä kohteeseen|Luo, Lue, Kirjoita, Liitä, Liitä kohteeseen|
-|Ominaisuus|Yleinen|Lue|Lue|Lue|
-|Ominaisuuden liitos|Yleinen|Lue|Lue|Lue|
-|Ominaisuuden asetuksen määritetty nimike|Yleinen|Lue|Lue|Lue|
-|Tarjous|Yleinen|Lue|Lue|Lue|
+|Invoice|Global|Create, Read, Write, Append, Append To|Create, Read, Write, Append, Append To|Create, Read, Write, Append, Append To|
+|Order|Global|Read, Write, Append To|Read, Write, Append To|Read, Write, Append, Append To, Assign|
+|Product|Global|Create, Read, Write, Append, Append To|Create, Read, Write, Append, Append To|Create, Read, Write, Append, Append To|
+|Property|Global|Read|Read|Read|
+|Property Association|Global|Read|Read|Read|
+|Property Option Set Item|Global|Read|Read|Read|
+|Quote|Global|Read|Read|Read|
 
-##### <a name="service"></a>Palvelu
-|Käyttöoikeusrooli|Käyttöoikeustaso|Dynamics NAV 2018 ja aiemmat versiot|Business Central <br> Lokakuu 2018|Business Central <br> Huhtikuu 2019|
+##### Service
+|Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
 |----|----|-----|----|----|
-|Palvelupyyntö|Yleinen|Lue|Lue|Lue|
+|Case|Global|Read|Read|Read|
 
-##### <a name="business-management"></a>Liiketoiminnan hallinta
-|Käyttöoikeusrooli|Käyttöoikeustaso|Dynamics NAV 2018 ja aiemmat versiot|Business Central <br> Lokakuu 2018|Business Central <br> Huhtikuu 2019|
+##### Business Management
+|Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
 |----|----|-----|----|----|
-|Valuutta|Yleinen|Luo, Lue, Kirjoita|Luo, Lue, Kirjoita|Luo, Lue, Kirjoita|
-|Organisaatio|Yleinen|Lue, Kirjoita|Lue, Kirjoita|Lue, Kirjoita|
-|Käyttöoikeusrooli|Yleinen|||Lue|
-|Käyttäjä|Yleinen|Luo, Lue, Kirjoita, Liitä, Liitä kohteeseen|Luo, Lue, Kirjoita, Liitä, Liitä kohteeseen|Luo, Lue, Kirjoita, Liitä, Liitä kohteeseen|
-|Käyttäjän asetukset|Yleinen|Luo, Lue, Kirjoita, Poista, Liitä kohteeseen|Luo, Lue, Kirjoita, Poista, Liitä kohteeseen|Luo, Lue, Kirjoita, Poista, Liitä kohteeseen|
-|Toimi toisen käyttäjän puolesta|Yleinen|Kyllä|Kyllä|Kyllä|
+|Currency|Global|Create, Read, Write|Create, Read, Write|Create, Read, Write|
+|Organization|Global|Read, Write|Read, Write|Read, Write|
+|Security Role|Global|||Read|
+|User|Global|Create, Read, Write, Append, Append To|Create, Read, Write, Append, Append To|Create, Read, Write, Append, Append To|
+|User Settings|Global|Create, Read, Write, Delete, Append To|Create, Read, Write, Delete, Append To|Create, Read, Write, Delete, Append To|
+|Act on Behalf of Another User|Global|Yes|Yes|Yes|
 
-##### <a name="customization"></a>Mukauttaminen
-|Käyttöoikeusrooli|Käyttöoikeustaso|Dynamics NAV 2018 ja aiemmat versiot|Business Central <br> Lokakuu 2018|Business Central <br> Huhtikuu 2019|
+##### Customization
+|Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
 |----|----|-----|----|----|
-|Kenttä|Yleinen||Lue|Lue|
-|Laajennuksen kokoonpano|Yleinen|Lue|Lue|Lue|
-|Laajennuksen tyyppi|Yleinen|Lue|Lue|Lue|
-|SDK-viesti|Yleinen|Lue|Lue|Lue|
-|SDK-viestin käsittelyvaihe|Yleinen|Lue|Lue|Lue|
-|Verkkoresurssi|Yleinen|Lue|Lue|Lue|
+|Field|Global||Read|Read|
+|Plug-in Assembly|Global|Read|Read|Read|
+|Plug-in Type|Global|Read|Read|Read|
+|SDK Message|Global|Read|Read|Read|
+|SDK Message Processing Step|Global|Read|Read|Read|
+|Web Resource|Global|Read|Read|Read|
 
-##### <a name="custom-entities"></a>Mukautetut entiteetit
-|Käyttöoikeusrooli|Käyttöoikeustaso|Dynamics NAV 2018 ja aiemmat versiot|Business Central <br> Lokakuu 2018|Business Central <br> Huhtikuu 2019|
+##### Custom Entities
+|Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
 |----|----|-----|----|----|
-|Dynamics 365 Business Central -tilin tilastot|Yleinen|Luo, Lue, Kirjoita, Liitä kohteeseen|Luo, Lue, Kirjoita, Liitä kohteeseen|Luo, Lue, Kirjoita, Liitä kohteeseen|
-|Dynamics 365 Business Central -yhteys|Yleinen|Lue|Lue|Lue|
+|Dynamics 365 Business Central Account Statistics|Global|Create, Read, Write, Append To|Create, Read, Write, Append To|Create, Read, Write, Append To|
+|Dynamics 365 Business Central Connection|Global|Read|Read|Read|
 
-### <a name="product-availability-user"></a>Tuotteen saatavuuden käyttäjä
-Voit antaa myyjille mahdollisuuden tarkastella myynnissä olevien nimikkeiden varastotasoja, kun myönnät heille seuraavassa taulukossa mainitut käyttöoikeudet.
+### Product Availability User
+You can allow sales people to view inventory levels for the items they sell by granting them the permissions described in the following table.
 
-##### <a name="custom-entities"></a>Mukautetut entiteetit
-|Käyttöoikeusrooli|Käyttöoikeustaso|Dynamics NAV 2018 ja aiemmat versiot|Business Central <br> Lokakuu 2018|Business Central <br> Huhtikuu 2019|
+##### Custom Entities
+|Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
 |----|----|-----|----|----|
-|Dynamics 365 Business Central -tilin tilastot|Yleinen|Luo, Lue, Kirjoita, Liitä kohteeseen|Luo, Lue, Kirjoita, Liitä kohteeseen|Luo, Lue, Kirjoita, Liitä kohteeseen|
-|Dynamics 365 Business Central -yhteys|Yleinen|Lue|Lue|Lue|
+|Dynamics 365 Business Central Account Statistics|Global|Create, Read, Write, Append To|Create, Read, Write, Append To|Create, Read, Write, Append To|
+|Dynamics 365 Business Central Connection|Global|Read|Read|Read|
+
+-->
 
 ## <a name="see-also"></a>Katso myös  
+[Integrointi Common Data Servicein kanssa](admin-common-data-service.md)  
 [Dynamics 365 Sales -integrointi](admin-prepare-dynamics-365-for-sales-for-integration.md)  

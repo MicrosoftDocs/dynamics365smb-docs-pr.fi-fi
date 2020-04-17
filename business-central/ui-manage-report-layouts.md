@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 79e3f15169f592c5e90aacfd3307794f226adeb2
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 419c6d48d7370f7bcd6dc21c21ed3bd8d3833b00
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953201"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195458"
 ---
 # <a name="managing-report-and-document-layouts"></a>Raporttien ja asiakirjojen asettelujen hallinta
 Raporttiasettelu ohjaa raportin sisältöä ja muotoa, mukaan lukien, mitkä tietojen kentät näkyvät raportissa ja miten ne järjestetään, tekstityylin, kuvia ja muita ominaisuuksia. Voit luoda [!INCLUDE[d365fin](includes/d365fin_md.md)]ista uuden asettelun, muuttaa raportissa käytettävää asettelua tai muokata nykyisiä asetteluja.
@@ -58,7 +58,7 @@ Word- ja RDLC-raporttiasetteluiden asettaminen toimii samalla tavalla. Tärkein 
 
 Lisätietoja näytettävän asettelun vaihtamisesta on kohdassa [Nykyisen raportin asettelun muuttaminen](ui-how-change-layout-currently-used-report.md)
 
-## <a name="see-related-training-at-microsoft-learnlearnmoduleschange-documents-dynamics-365-business-centralindex"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Katso myös
 [Päivitä mukautetut raporttiasettelut](ui-update-report-layouts.md)  

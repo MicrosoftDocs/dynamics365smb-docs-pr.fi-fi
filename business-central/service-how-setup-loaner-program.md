@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 494f7c621a141b84f104ad855b2aa1e412aa837f
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: fdf20f215cee14d8cfb2d4287f8f0a5173ce4466
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877469"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195214"
 ---
 # <a name="set-up-a-loaner-program"></a>Lainatavaraohjelman määrittäminen
 Ajoittain on tarpeen toimittaa asiakkaan käyttöön lainatavara, kunnes huoltohenkilökunta korjaa asiakkaan tavaran. Voit määrittää [!INCLUDE[d365fin](includes/d365fin_md.md)]iin lainatavaraohjelman, lainata nimikkeitä asiakkaille ja seurata nimikkeiden vastaanottoa, kun asiakkaat palauttavat ne. Voit myös lisätä lainatavaroita koskevia kommentteja kahdella tavalla:  

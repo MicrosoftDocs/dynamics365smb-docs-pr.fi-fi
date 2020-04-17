@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 1bdd140e43a29894978f7fa0f0a88957d7e102c3
-ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
+ms.openlocfilehash: 7ca1937b34b157a4b76314b5ad38f7918ac7dded
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3030146"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182778"
 ---
 # <a name="set-up-value-added-tax"></a>Määritä arvolisävero
 Kuluttajat ja yritykset maksavat arvonlisäveroa (ALV:tä), kun he ostavat tavaroita tai palveluja. ALV:n määrä voi vaihdella useiden tekijöiden mukaan. ALV määritetään [!INCLUDE[d365fin](includes/d365fin_md.md)]issa määrittämään prosentti, jolla verosummat lasketaan, seuraavien tekijöiden perusteella:
@@ -191,4 +191,4 @@ Vielä kirjaamattomien asiakirjojen summat pyöristetään ja näytetään kirja
 [ALV-rekisterinumeroiden tarkistaminen](finance-how-validate-vat-registration-number.md)  
 [Business Centralin paikalliset toiminnot](about-localization.md)  
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsprocess-vat-dynamics-365-business-central"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)

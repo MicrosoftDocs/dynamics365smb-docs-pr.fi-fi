@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: a89ecc51bea913e391ef820380d67b293a293fda
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6b4d09ae0bd0f2def940e2516bdc54bc04f300ca
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305594"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188394"
 ---
 # <a name="create-workflows-from-workflow-templates"></a>Työnkulkujen luominen työnkulkumalleista
 Voit säästää aikaa uusien työnkulkujen luomisessa luomalla työnkulut työnkulkumalleista.  
@@ -29,7 +29,7 @@ Voit säästää aikaa uusien työnkulkujen luomisessa luomalla työnkulut työn
 Voit luoda **Työnkulku**-sivulla työnkulun mainitsemalla liittyvät toimet riveillä. Jokainen vaihe koostuu työnkulun tapahtumasta, jota valvotaan tapahtuman ehtojen mukaan, ja työnkulun vastauksesta, jota valvotaan vastausvaihtoehtojen mukaan. Työnkulku määritetään täyttämällä työnkulkurivien kentät tapahtumien kiinteistä luetteloista ja vastausarvot, jotka edustavat sovelluskoodin tukemia skenaarioita. Lisätietoja on kohdassa [Työnkulkujen luominen](across-how-to-create-workflows.md).  
 
 ## <a name="to-create-a-workflow-from-workflow-template"></a>Työnkulun luominen työnkulkumallista  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Työnkulut** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvake, syötä **Työnkulut** ja valitse sitten liittyvä linkki.  
 2.  Valitse **Luo työnkulku mallista** -toiminto. **Työnkulkumallit**-sivu avautuu.  
 3.  Valitse työnkulkumalli ja sitten **OK**-painike.  
 

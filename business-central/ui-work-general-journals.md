@@ -7,14 +7,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 5ea488bc03ffa64b0d6c4b5c1466ddf01ca52ab1
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 424951481336855c5142016dbc9409c96c51dbf3
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953897"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189346"
 ---
 # <a name="working-with-general-journals"></a>Yleisten päiväkirjojen käyttäminen
 
@@ -158,7 +158,7 @@ Seuraavat toimenpiteet perustuvat **Yleinen päiväkirja** -sivuun, mutta niitä
 
 **Asiakirjanumero**-kentän arvoja muutetaan tarvittaessa siten, että yksittäisten tai ryhmitettyjen päiväkirjojen rivien asiakirjanumerot ovat peräkkäisessä järjestyksessä. Voit kirjata päiväkirjan, kun asiakirjat on numeroitu uudelleen.
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsuse-journals-dynamics-365-business-central"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/paths/use-journals-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/paths/use-journals-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
 [Tapahtumien kirjaaminen suoraan pääkirjanpitoon](finance-how-post-transactions-directly.md)  

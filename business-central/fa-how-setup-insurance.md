@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: policy, coverage
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 7151f1415e87be4775966ad9727cd0ba00b041ab
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a7dfc768ff3de49a79c77ec187a7da40817764b6
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306578"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184242"
 ---
 # <a name="set-up-fixed-asset-insurance"></a>Käyttöomaisuuserän määrittäminen
 Voit hallita käyttöomaisuuden vakuutuksen kattavuutta, kun määrität ensin joitakin sopimusta koskevia yleisiä vakuutustietoja sekä vakuutuskortin.
@@ -31,7 +31,7 @@ Jotta [!INCLUDE[d365fin](includes/d365fin_md.md)]in vakuutusominaisuuksia voitai
 ## <a name="to-set-up-insurance-types"></a>Vakuutustyyppien määrittäminen
 Voit ryhmitellä vakuutussopimukset luokkiin, esimerkiksi vakuutukset varkauksia vastaan ja vakuutukset tulipaloa vastaan. Vakuutustyyppejä käytetään vakuutuskortissa.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Vakuutuslajit** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Vakuutustyypit** ja valitse sitten liittyvä linkki.  
 2. Täytä tarvittavat kentät.
 
 ## <a name="to-set-up-insurance-cards"></a>Vakuutuskorttien määrittäminen

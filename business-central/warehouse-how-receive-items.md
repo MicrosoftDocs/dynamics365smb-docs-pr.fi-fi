@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 273da0c35e6c4ca376f38ceede1568f5df5b4b15
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 9345c30b1419e49300746076c48c8d44e9d4a6d1
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953081"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189937"
 ---
 # <a name="receive-items"></a>Nimikkeiden vastaanottaminen
 Kun nimikkeet saapuvat fyysiseen varastoon, johon ei ole määritetty fyysisen varaston vastaanottokäsittelyä, vastaanotto vain kirjataan liittyvään asiakirjaan, kuten ostotilaukseen, myyntipalautustilaukseen tai saapuvaan siirtotilaukseen.
@@ -28,8 +28,14 @@ Seuraavaksi käsitellään, miten nimikkeitä vastaanotetaan ostotilauksella. Va
 2. Avaa aiemmin luotu ostotilaus tai luo uusi myyntitilaus. Lisätietoja on kohdassa [Ostojen kirjaaminen](purchasing-how-record-purchases.md).
 3. Anna **Vastaanotettava määrä** -kenttään vastaanotettu määrä.
 
-    **Määrä vast.otettu** -kentän arvo päivitetään. Jos kyse on osavastaanotosta, arvo on pienempi kuin **Määrä**-kentän arvo.
+  > [!NOTE]
+  > Jos vastaanotettu määrä on suurempi kuin ostotilauksen tilattu määrä **Määrä**-kentän mukaan ja toimittajalle on määritetty vastaanoton ylittävän määrän salliminen, voit käsitellä ylimääräistä määrää **Vastaanoton ylitys** -kentän avulla. Lisätietoja on kohdassa [Tilattua määrää useampien nimikkeiden vastaanottaminen](warehouse-how-receive-items.md#to-receive-more-items-than-ordered).
 4. Valitse **Kirjaa**-toiminto.
+
+  **Määrä vast.otettu** -kentän arvo päivitetään. Jos kyse on osavastaanotosta, arvo on pienempi kuin **Määrä**-kentän arvo.
+
+> [!NOTE]
+> Jos käytät varastoasiakirjaa vastaanoton kirjaamisessa, et voi käyttää ostotilauksen **Kirjaa**-toimintoa. Sen sijaan varaston työntekijä on jo kirjannut ostotilauksen määrän vastaanotetuksi. Lisätietoja on kohdassa [Nimikkeiden vastaanottaminen varaston vastaanoton avulla](warehouse-how-receive-items.md#to-receive-items-with-a-warehouse-receipt).
 
 ## <a name="to-receive-items-with-a-warehouse-receipt"></a>Nimikkeiden vastaanottaminen fyysisen varasto vastaanottona
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Fyysisen varaston vastaanotot** ja valitse sitten liittyvä linkki.  
@@ -40,7 +46,7 @@ Seuraavaksi käsitellään, miten nimikkeitä vastaanotetaan ostotilauksella. Va
     Jos fyysisen varaston määrityksissä on käytössä ohjattu hyllytys ja poiminta ja jos sijainnilla on oletusalue ja oletusvarastopaikka vastaanotoille, **Alueen koodi**- ja **Varastopaikkakoodi**-kentät täytetään automaattisesti, mutta voit muuttaa niiden arvoja tarpeen mukaan.  
 
     > [!NOTE]  
-    >  Jos haluat vastaanottaa nimikkeitä, joiden fyysisen varastoinnin luokkakoodi ei ole sama kuin asiakirjan otsikon **Varastopaikkakoodi**-kentässä olevan varastopaikan luokkakoodi, poista otsikon **Varastopaikkakoodi**-kentän sisältö ennen lähdeasiakirjan rivien hakemista nimikkeitä varten.  
+    > Jos haluat vastaanottaa nimikkeitä, joiden fyysisen varastoinnin luokkakoodi ei ole sama kuin asiakirjan otsikon **Varastopaikkakoodi**-kentässä olevan varastopaikan luokkakoodi, poista otsikon **Varastopaikkakoodi**-kentän sisältö ennen lähdeasiakirjan rivien hakemista nimikkeitä varten.  
 3.  Valitse **Hae lähdeasiakirjat** -toiminto. Näyttöön tulee **Lähdeasiakirjat**-sivu.
 
     Voit käyttää uuden tai avoimen fyysisen varastoinnin vastaanoton **Suod. lähdeasiakirj. saamisek.** -sivuai hakiessasi vastaanotettava tai toimitettavat nimikkeet määrittävän vapautetun lähdeasiakirjan rivit.
@@ -73,9 +79,45 @@ Jos fyysisen varastoinnin hyllytys ei ole käytössä mutta käytät varastopaik
 > [!NOTE]  
 >  Jos käytät **Kirjaa ja tulosta** -toimintoa, vastaanoton kirjauksen yhteydessä tulostetaan hyllytysohje, joka kertoo, mihin nimikkeet sijoitetaan varastossa.  
 >   
->  Jos sijainnissa on käytössä ohjattu hyllytys ja poiminta, hyllytysmalleja käytetään parhaan nimikkeiden hyllytyspaikan laskemisessa. Tämä tulostetaan sitten hyllytysohjeeseen.  
+>  Jos sijainnissa on käytössä ohjattu hyllytys ja poiminta, hyllytysmalleja käytetään parhaan nimikkeiden hyllytyspaikan laskemisessa. Tämä tulostetaan sitten hyllytysohjeeseen.
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesreceive-invoice-dynamics-d365-business-centralindex"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/receive-invoice-dynamics-d365-business-central/index)
+## <a name="to-receive-more-items-than-ordered"></a>Tilattua määrää useamman nimikkeen vastaanottaminen
+Kun nimikkeitä vastaanotetaan tilattua suurempi määrä, haluat ehkä kuitenkin vastaanottaa ne vastaanoton peruuttamisen sijaan. Ylimenevä osa voi olla esimerkiksi halvempi varastoida kuin palauttaa tai toimittaa voi antaa alennuksen, jos pidät nimikkeet.
+
+### <a name="to-set-up-over-receipts"></a>Vastaanoton ylittävän määrän määrittäminen
+Sinun on määritettävä prosenttiosuus, jonka verran vastaanotto saa ylittää tilatun määrän. Määritä tämä vastaanoton ylittävän määrän koodin kohdassa. Se sisältää **Vastaanoton ylittävän määrän toleranssi-%** -kentän prosenttiosuuden. Tämän jälkeen koodi määritetään liittyvien nimikkeiden ja/tai toimittajien kortteihin.  
+
+Seuraavassa kuvataan, miten nimikkeen vastaanoton ylittävän määrän koodi määritetään ja liitetään nimikkeelle. Toimittajaa koskevat vaiheet ovat samanlaisia.
+
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten liittyvä linkki.
+2. Avaa sen nimikkeen kortti, jonka vastaanotettava määrä voi joskus ylittää tilatun määrän.
+2. Valitse **Vastaanoton ylittävän määrän koodi** -kentän valintapainike.
+3. Valitse **Uusi**-toiminto.
+4. Luo **Vastaanoton ylittävän määrän koodit** -sivulla vähintään yksi uusi rivi, joka määrittää vastaanoton ylittävän määrän käytännöt. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
+5. Valitse rivi ja valitse sitten **OK**-painike.
+
+Vastaanoton ylittävän määrän koodi on määritetty nimikkeelle. Mikä tahansa nimikkeen ostotilaus tai varaston vastaanotto sallii nyt tilattua määrää suuremman määrän vastaanoton määritetyn vastaanoton ylittävän määrän toleranssin prosenttiosuuden mukaan.
+
+> [!NOTE]
+> Voit määrittää hyväksynnän työnkulun, jos vastaanoton ylittävät määrät on hyväksyttävä ennen käsittelemistä. Tässä tapauksessa on valittava **Hyväksyntä vaaditaan** -valintaruutu **Vastaanoton ylittävän määrän koodit** -sivulla. Tätä tarkoitusta varten vakiotyönkulun tiedoille on määritetty työnkulun vastaus, **Hyväksy vastaanoton ylittävä määrä**. Lisätietoja on kohdassa [Työnkulkujen luominen](across-how-to-create-workflows.md).
+
+### <a name="to-perform-an-over-receipt"></a>Vastaanoton ylittävän määrän suorittaminen
+Ostoriveillä ja varaston vastaanoton riveillä käytetään **Vastaanoton ylittävä määrä** -kenttää tallennettaessa vastaanoton ylittävät määrät. Nämä ovat määriä, jotka ylittävät tilatun määrän eli **Määrä**-kentän arvon.
+
+Kun käsittelet vastaanoton ylittävää määrää, voit suurentaa arvoa **Vastaanotettava määrä** -kentässä vastaamaan todellisuudessa vastaanotettua määrää. **Vastaanoton ylittävä määrä** -kenttään päivitetään tämän jälkeen ylimääräinen määrä. Vaihtoehtoisesti voit syöttää ylimääräinen määrä **Vastaanoton ylittävä määrä** -kenttään. **Vastaanotettava määrä** -kenttään päivitetään tilatun määrän ja ylimääräisen määrän summa. Seuraavassa kerrotaan, miten **Vastaanotettu määrä** -kenttä täytetään.  
+
+1. Jos ostotilauksen tai varaston vastaanoton asiakirjan vastaanotettu määrä on suurempi kuin tilattu, anna **Vastaanotettu määrä** -kenttään todellisuudessa vastaanotettu määrä.
+
+    Jos lisäys on määritetyn vastaanoton ylittävän määrän koodin toleranssin rajoissa, **Vastaanoton ylittävä määrä** -kenttään päivitetään arvo, jonka mukaan **Määrä**-kenttä on ylitetty.
+
+    Jos lisäys on määritetyn toleranssin yläpuolella, vastaanoton ylittävää määrää ei sallita. Tässä tapauksessa voidaan tutkia, voiko toinen vastaanoton ylittävän määrän koodi sallia tämän. Muussa tapauksessa voidaan vastaanottaa vain tilattu määrä ja ylimääinen määrä on käsiteltävä muulla tavalla. Se voi tarkoittaa esimerkiksi palauttamista toimittajalle.
+
+2. Kirjaa vastaanotto samalla tavalla kuin muut vastaanotot.
+
+> [!NOTE]
+> [!INCLUDE[d365fin](includes/d365fin_md.md)] ei sisällä toimintoja, jotka käynnistävät automaattisesti ylimääräisten määrien vastaanoton hallinnan. Tämä on käsiteltävä manuaalisesti yhdessä toimittajan kanssa esimerkiksi niin, että toimittaja lähettää uuden tai päivitetyn laskun.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/receive-invoice-dynamics-d365-business-central/index)
 
 ## <a name="see-also"></a>Katso myös  
 [Varastoinninhallinta](warehouse-manage-warehouse.md)  

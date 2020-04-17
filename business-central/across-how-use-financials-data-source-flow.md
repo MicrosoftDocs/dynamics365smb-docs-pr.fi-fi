@@ -9,16 +9,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
 ms.search.keywords: workflow, OData, Power App, SOAP
-ms.date: 11/20/2019
+ms.date: 04/01/2020
 ms.author: bmeier
-ms.openlocfilehash: 24ca66c2d533f4a3e30eb1ebaca817915b95c370
-ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
+ms.openlocfilehash: 6dbc2fd67b5156c47690661016d4e7d3aae64a09
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832020"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187938"
 ---
-# <a name="using-includeprodshortincludesprodshortmd-in-an-automated-workflow"></a>[!INCLUDE[prodshort](includes/prodshort.md)]in käyttäminen automaattisessa työnkulussa
+# <a name="using-prodshort-in-an-automated-workflow"></a>[!INCLUDE[prodshort](includes/prodshort.md)]in käyttäminen automaattisessa työnkulussa
 
 Voit käyttää [!INCLUDE[prodshort](includes/prodshort.md)]in tietoja työnkulun osana Microsoft Power Automatessa.
 
@@ -28,7 +28,7 @@ Voit käyttää [!INCLUDE[prodshort](includes/prodshort.md)]in tietoja työnkulu
 > [!NOTE]  
 > Sinulla on oltava kelvollinen [!INCLUDE[prodshort](includes/prodshort.md)]- ja Power Automate -tili.  
 
-## <a name="to-add-includeprodshortincludesprodshortmd-as-a-data-source-in-power-automate"></a>[!INCLUDE[prodshort](includes/prodshort.md)]in lisääminen Power Automatein tietolähteeksi
+## <a name="to-add-prodshort-as-a-data-source-in-power-automate"></a>[!INCLUDE[prodshort](includes/prodshort.md)]in lisääminen Power Automatein tietolähteeksi
 
 1. Siirry selaimessa osoitteeseen [flow.microsoft.com](https://flow.microsoft.com) ja kirjaudu sisään.
 2. Valitse sivun yläosan valintanauhassa **Omat työnkulut**.

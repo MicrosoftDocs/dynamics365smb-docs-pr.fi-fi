@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 412c354313e571969c3ab7aa87210ff432ae0e91
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 50fbfe2cfa10885ad126153b0602bf953a105d9f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882180"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194449"
 ---
 # <a name="sorting-searching-and-filtering"></a>Lajitteleminen, hakeminen ja suodattaminen
 Luettelossa, raportissa tai XMLportissa olevien tietueiden skannaamista, etsimistä ja rajaamista voi helpottaa muutamilla keinoilla. Näitä keinoja ovat esimerkiksi lajitteleminen, etsiminen ja suodattaminen. Voit käyttää samanaikaisesti joitakin keinoja tai kaikkia keinoja, kun haluat etsiä tai analysoida tiedot nopeasti.
@@ -69,7 +69,7 @@ Seuraavassa taulukossa on esimerkkejä haun käyttämisestä.
 > [!TIP]
 > Voit aktivoida hakuruudun ja poistaa aktivoinnin painamalla **F3**-näppäintä. Lisätietoja on kohdassa [Pikanäppäimet](keyboard-shortcuts.md#KeyboardFilter).
 
-## <a name="Filtering"> </a>Suodattaminen
+## <a name="filtering"></a><a name="filtering"></a>Suodattaminen
 Suodattaminen sisältää kehittyneitä ja monipuolisia toimintoja, joiden avulla määritetään luettelossa näkyvät tai raporttiin tai XMLportiin sisällytettävät tietueet. Hakemisella ja suodattamisella on kaksi pääeroa, jotka kerrotaan alla olevassa taulukossa.
 
 || **Hakeminen** | **Suodattaminen** |
@@ -132,7 +132,7 @@ Sarakkeet, joilla on jo suodattimia, löytyvät, kun käytössä on sarakeotsiko
 > [!TIP]
 > Nopeuta tietojen etsimistä ja analysoimista pikanäppäinyhdistelmien avulla. Voit esimerkiksi valita kentän ja lisätä kentän suodatinruutuun **Vaihto+Alt+F3**-pikanäppäinten avulla, kirjoittaa suodatinehdot ja palata riveille **Ctrl+Enter**-pikanäppäinten avulla. Valitse toinen kenttä ja suodata sen arvot **Alt+F3**-pikanäppäimillä. Lisätietoja on kohdassa [Pikanäppäimet](keyboard-shortcuts.md#KeyboardFilter).
 
-### <a name="FilterCriteria"> </a>Suodatusehdot ja merkit
+### <a name="filter-criteria-and-symbols"></a><a name="FilterCriteria"> </a>Suodatusehdot ja merkit
 Kun syötät kriteerejä, voit käyttää kaikkia numeroita ja kirjaimia, joita voi yleensäkin käyttää kentässä. Voit käyttää tulosten suodatukseen myös erikoismerkkejä (tai operaattoreita). Seuraavassa taulukossa on esitelty symbolit, joita voi käyttää suodattimissa. Lisätietoja päivämääristä ja ajoista on myös kohdassa [Kalenterin päivämäärien ja aikojen käsitteleminen](ui-enter-date-ranges.md).
 
 > [!IMPORTANT]  
@@ -231,7 +231,7 @@ Seuraavissa osissa käsitellään eri operaattoreiden käyttöä.
 |`..1299|1400..`|Sisällytä tietueet, joissa on numero, joka on pienempi tai yhtä suuri kuin 1299 tai suurempi tai yhtä suuri kuin 1400 (siis kaikki muut numerot paitsi 1300–1399).|  
 |`>50&<100`|Sisällytä tietueet, joissa on numero, joka on suurempi kuin 50 ja pienempi kuin 100 (siis numerot 51–99).|  
 
-### <a name="FilterTokens"> </a>Suodatuksen tunnukset
+### <a name="filter-tokens"></a><a name="FilterTokens"> </a>Suodatuksen tunnukset
 Kun syötät suodatusehtoja, voit kirjoittaa myös sanoja, joilla on erityinen tarkoitus. Niitä kutsutaan suodatuksen tunnuksiksi. Kun olet syöttänyt tunnussanan, sana korvataan arvolla tai arvoilla, joita se edustaa. Tämä helpottaa suodattamista ja vähentää muille sivuille siirtymistä ja suodattimeen lisättävien arvojen etsimistä. Taulukossa on joitakin tunnuksia, joita voit käyttää suodatusehtoina.
 
 > [!TIP]

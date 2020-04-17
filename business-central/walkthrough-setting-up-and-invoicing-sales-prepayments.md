@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: d9fdc5deab54647f5a4387b62862fd45bc36dd39
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: 95e361d2c7e6901e4650a02b4e30df86bf6b3e45
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554618"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193393"
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Vaihekuvaus: Myynnin ennakkomaksujen määrittäminen ja laskuttaminen
 
@@ -67,7 +67,7 @@ Ennakkomaksut ovat maksuja, jotka on laskutettu sekä kirjattu myynti- tai ostoe
 Seuraavissa kohdissa on kuvattu, miten Paulan työtehtävät suoritetaan.  
 
 #### <a name="to-set-up-number-series-for-prepayments"></a>Ennakkomaksujen numerosarjojen määrittäminen  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Myyntien ja myyntisaamisten asetukset** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Myyntien ja myyntisaamisten asetukset** ja valitse sitten liittyvä linkki.  
 2.  Laajenna **Myyntien ja myyntisaamisten asetukset** -sivun **Numerointi**-pikavälilehti.  
 3.  Varmista, että kirjattujen ennakkomaksulaskujen numerosarja (**Kirjattujen ennakkomaksulaskujen nrot** -kenttä) on sama kuin kirjattujen myyntilaskujen numerosarja (**Kirjattujen laskujen nrot**) ja että kirjattujen ennakkomaksun hyvityslaskujen numerosarja (**Kirjattujen ennakkomaksun hyvityslaskujen nrot**) on sama kuin kirjattujen hyvityslaskujen numerosarja (**Kirjattujen hyvityslas. nrot**).  
 
@@ -81,7 +81,7 @@ Paula edellyttää, että asiakkaalta 20000 laskutetaan kaikkien tilausten yhtey
 Paula edellyttää, että kaikilta asiakkailta laskutetaan 20 prosentin ennakkomaksu nimikkeestä 1100. Asiakkaan 20000 maksuhistoria on huono, joten asiakkaalta 20000 edellytetään 40 prosentin ennakkomaksua nimikkeestä 1100. Seuraavassa menettelyssä kuvataan, miten ennakkomaksujen oletusprosentit määritetään.  
 
 #### <a name="to-assign-default-prepayment-percentages-to-customers-and-items"></a>Ennakkomaksujen oletusprosenttien määrittäminen asiakkaille ja nimikkeille  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asiakkaat** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Asiakkaat** ja valitse sitten liittyvä linkki.  
 2.  Avaa asiakkaan 20000 (Tinayhtymä) kortti.
 3.  Kirjoita **Ennakkomaksuprosentti**-kenttään **30**.  
 4.  Sulje asiakaskortti valitsemalla **OK**-painike.  
@@ -101,7 +101,7 @@ Paula edellyttää, että kaikilta asiakkailta laskutetaan 20 prosentin ennakkom
 9. Sulje kaikki sivut.  
 
 #### <a name="to-specify-an-account-for-sales-prepayments-in-general-posting-setup"></a>Määritä tili myynnin ennakkomaksuille yleisissä kirjausasetuksissa  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Yleiset kirjausasetukset** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Yleiset kirjausasetukset** ja valitse sitten liittyvä linkki.  
 2.  Valitse rivi, jossa **Ylein. liiketoim. kirjausryhmä** -kentän arvoksi on määritetty **VIE** ja **Yleinen tuotteen kirjausryhmä** -kentän arvoksi **VÄH.MYYNTI**. Valitse sitten **Muokkaa**-toiminto.  
 3.  Määritä **Yleisten kirj.asetusten kortti** -sivun **Myynnin ennakkomaksutili** -kentässä käsiteltävä tili.  
 4.  Valitse **OK**-painike.  
@@ -114,7 +114,7 @@ Asiakas voi maksaa 35 % esimaksun, johon Sanna voi suostua. Tämän vuoksi hän 
 Susanna luo ennakkomaksulaskun ja lähettää sen asiakkaalle.  
 
 #### <a name="to-create-a-sales-order-with-a-prepayment"></a>Ennakkomaksun sisältävän myyntitilauksen luominen  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Myyntitilaukset** ja valitse sitten liittyvä linkki.  
 2.  Valitse **Uusi**-toiminto.  
 3.  Valitse **Tilausasiakkaan nro** **20000**.  
 5.  Hyväksy näyttöön tuleva erääntyvän saldon varoitus.  
@@ -205,7 +205,7 @@ Erikille on nyt ilmoitettu, että tilauksen nimikkeet on toimitettu ja että til
 
 Arto näkee historiasta, että myyntilasku on luotu tarkoituksellisesti.  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kirjatut myyntilaskut** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Kirjatut myyntilaskut** ja valitse sitten liittyvä linkki.  
 
 ## <a name="next-steps"></a>Seuraavat vaiheet  
 Tässä vaihekuvauksessa käsiteltiin vaiheita, joita noudattamalla [!INCLUDE[d365fin](includes/d365fin_md.md)] määritetään käsittelemään ennakkomaksuja. Asiakkaiden ja nimikkeiden ennakkomaksujen oletusprosenttien määrittäminen havainnollistettiin ja useita tilauksen ennakkomaksujen laskentatapoja käytiin läpi. Mukana oli myös tilanne, jossa tilaukseen pyrittiin määrittämään yksi ennakkomaksun kokonaissumma, jonka jälkeen ohjelma määritettiin laskemaan ennakkomaksusumma koko tilauksen prosenttiosuutena.  

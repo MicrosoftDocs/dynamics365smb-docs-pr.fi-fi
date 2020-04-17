@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reconcile
-ms.date: 01/10/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 0d1a38468f5d07a1170027bc728ba16996f2b782
-ms.sourcegitcommit: 2f741f442226b8be74586e355f283f365e43220f
+ms.openlocfilehash: 050519c77f7c1dca5dd451a57ac47f71b4803a91
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "2947235"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186186"
 ---
 # <a name="reconciling-bank-accounts"></a>Pankkitilien täsmäytys
 Pankkitilin täsmäytys tulee suorittaa säännöllisin väliajoin kaikille pankkitileille, jotta yrityksen käteistietueet ovat oikein. Voit tehdä tämän vertaamalla sisäisten pankkitilien tapahtumia pankkitapahtumiin pankistasi ja kirjaamalla sitten saldot sisäisiin pankkitileihin, jolloin summat ovat talouspäälliköiden käytettävissä. Pankkitilin täsmäytys on myös käytännöllinen tapa löytää ja ratkaista puuttuvat maksut ja kirjanpitovirheet.
@@ -36,7 +36,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 | Täsmäytä pankkitilit erillisenä tehtävänä **Pankkitilin täsmäytys** -sivulla. |[Pankkitilien täsmäytys](bank-how-reconcile-bank-accounts-separately.md) |
 | Täsmäytä maksukäsittelyyn liittyvät pankkitilit **Maksujen täsmäytyskirjauskansio** -sivulla. |[Maksujen kohdistaminen automaattisesti ja pankkitilien täsmäyttäminen](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsreconcile-bank-accounts-dynamics-365-business-central"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/paths/reconcile-bank-accounts-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/paths/reconcile-bank-accounts-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
 [Pankkitoiminnan määrittäminen](bank-setup-banking.md)  

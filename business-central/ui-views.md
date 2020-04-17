@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 01decbd2ab4f3ed664c62e29d8bed6655758b315
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7285bf6984cc4f245282dcc129e66f097e11c5f2
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316808"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189409"
 ---
 # <a name="save-and-personalize-list-views"></a>Luettelonäkymien tallentaminen ja mukauttaminen
 Jos olet määrittänyt luettelon suodattimen ja haluat säilyttää suodattimen myöhempää käyttöä varten, voit tallentaa sen näkymänä. Lisätietoja luetteloiden suodattamisesta on kohdassa [Suodattimien määrittäminen luetteloissa](ui-enter-criteria-filters.md#setting-filters-on-lists).
@@ -24,7 +24,7 @@ Jos näkymä on jo luotu, **Näkymät**-ryhmä näkyy suodatinruudun yläreunass
 
 ## <a name="to-save-a-view"></a>Näkymän tallentaminen
 1. Avaa jokin luettelosivu.
-2. Avaa suodatinruutu valitsemalla ![Suodatinruutukuvake](media/open-filter-pane-icon.png "Suodatinruutukuvake") luettelon yläreunassa tai painamalla näppäinyhdistelmää Vaihto+F3.
+2. Avaa suodatinruutu valitsemalla ![Suodatinruutukuvake](media/open-filter-pane-icon.png "Suodatinruudun kuvake") luettelon yläreunassa tai painamalla näppäinyhdistelmää Vaihto+F3.
 3. Määritä vähintään yksi uusi suodatin. Lisätietoja on kohdassa [Suodattimien määrittäminen luetteloissa](ui-enter-criteria-filters.md#setting-filters-on-lists).
 4. Kun suodattimet on määritetty, valitse ![Tallenna näkymä](media/save_view_icon.png "Tallenna näkymä") -kuvake.
 

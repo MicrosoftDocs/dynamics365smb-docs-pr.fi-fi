@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: d3efa05fda5bcacd4eba0fa4f4f64888d91c46bf
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 3e345e3037cb70923a42f1b6684442ba78201c4e
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309602"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181866"
 ---
 # <a name="work-with-serial-and-lot-numbers"></a>Sarja- ja eränumeroiden käsitteleminen
 Voit määrittää sarja- ja eränumeroita mihin tahansa lähtevään tai saapuvaan asiakirjaan, ja sen kirjatut nimikeseurantatapahtumat näkyvät niihin liittyvissä nimiketapahtumissa. Työ suoritetaan **Nimikkeen seurantarivit** -sivulla, joka avataan saapuvasta tai lähtevästä asiakirjasta.
@@ -119,7 +119,7 @@ Tarkat säännöt siitä, miten nimikeseurantanumeroita käsitellään yritykses
 > [!NOTE]  
 >  Jotta nimikeseurannan numeroita voitaisiin käyttää varastoaktiviteeteissa **Erän seuranta f.varastointi**- ja **SN F.varastoinnin seuranta** -määrityskentät täytyy olla valittuina, sillä ne määrittävät erityisperiaatteet varastoaktiviteettien sarja- ja eränumeroiden käsittelylle.  
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostotilaukset** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Ostotilaukset** ja valitse sitten liittyvä linkki.  
 2.  Valitse ensin asiakirja ja sitten **Rivit**-pikavälilehdessä **Rivi**-toiminto. Valitse lopuksi **Nimikkeen seurantarivit**.  
 
     Voit määrittää sarja- tai eränumeroita seuraavilla tavoilla:  
@@ -239,7 +239,7 @@ Kenttien sisältöä **Sarjanro** **Eränro** ei voida muuttaa. Voit kuitenkin p
 ## <a name="to-reclassify-serial-or-lot-numbers"></a>Erä- tai sarjanumeroiden uudelleenluokittelu  
 Nimikkeiden seurannan uudelleenluokittelu tarkoittaa erä- tai sarjanumeron muuttamista uudeksi erä- tai sarjanumeroksi tai vanhentumispäivämäärän muuttamista uudeksi vanhentumispäivämääräksi. Jos käsittelet eriä, voit myös yhdistää useita eriä yhdeksi eräksi. Voit suorittaa nämä tehtävät nimikkeen uudelleenluokituspäiväkirjassa.
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeen uudell.luokit. pvk** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimik. uud.luok.pvk** ja valitse sitten liittyvä linkki.  
 2.  Täytä rivi asianmukaisilla tiedoilla. Lisätietoja on kohdassa [Varastojen laskenta asiakirjoja käyttämällä](inventory-how-count-inventory-with-documents.md) tai [Varaston laskeminen, muuttaminen ja uudelleenluokitus päiväkirjojen avulla](inventory-how-count-adjust-reclassify.md).
 3.  Valitse **Nimikkeen seurantarivit** -toiminto.  
 4.  Napsauta **Sarjanro**- tai **Eränro**-kentässä olevaa AssistButtonia ja valitse nykyinen sarja- tai eränumero.  

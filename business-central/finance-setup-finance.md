@@ -1,8 +1,6 @@
 ---
 title: Talousprosessien määrittäminen| Microsoft Docs
 description: Lisätietoja tehtävistä, joilla määritetään liiketoiminnan taloushallinto laskentatoimen, tilintarkastuksen tai kirjanpidon tarpeita varten.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: fa8b324c0a63f7c00209579878b9739af8178041
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 400506fe0b39944e683fd5e65e6b710ffdb9089b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953657"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182730"
 ---
 # <a name="setting-up-finance"></a>Rahoituksen määrittäminen
 Ennen kuin voit aloittaa yrityksesi pyörittämisen, sinun on määritettävä säännöt ja oletusarvot sille, miten haluat hallita kyseisen yrityksen rahoitusprosesseja. Aloita määrittämällä yrityksen tilitietueiden perusta - tilikartta. Sitten määritetään kirjausryhmät, mikä tehostaa pääkirjanpidon oletuskirjaustilien määrittämistä asiakkaille, toimittajille ja nimikkeille.
@@ -36,7 +34,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 | Määritä kirjausryhmät, jotka yhdistävät objektit, kuten asiakkaat, toimittajat, nimikkeet, resurssit sekä myynti- ja ostoasiakirjat, pääkirjanpidon tileille. |[Kirjausryhmien määrittäminen](finance-posting-groups.md)|
 |Luo KP-raporttimallit ja määritä tililuokat, jos haluat määrittää talouskaavioiden ja -raporttien, kuten tase- ja tuloslaskelmaraporttien, sisällön.|[Talousraportoinnin valmisteleminen KP-raporttimallien ja tililuokkien avulla](bi-how-work-account-schedule.md)|
 |Määritä toleranssi, jonka mukaan järjestelmä sulkee laskun, vaikka maksu ja mahdolliset alennukset eivät täysin vastaa laskun koko summaa.|[Maksutoleranssien ja maksualennustoleranssien käsitteleminen](finance-payment-tolerance-and-payment-discount-tolerance.md)|
-| Määritä tilikaudet. |[Uuden tilikauden avaaminen](finance-how-open-new-fiscal-year.md) |
+| Määritä tilikaudet. |[Kirjanpitojaksojen ja tilikausien käyttäminen](finance-accounting-periods-and-fiscal-years.md) |
 | Määritä, miten myynnistä kerätyt arvonlisäverosummat raportoidaan veroviranomaisille. |[Määritä arvolisävero (ALV)](finance-setup-vat.md)|
 |Valmistele ei-realisoituneen ALV:n käsittely kassaperusteisen kirjanpidon yhteydessä.|[Ei-realisoituneen arvonlisäveron määrittäminen kassaperusteista kirjanpitoa varten](finance-setup-unrealized-vat.md)|
 | Määritä myynti- ja ostotoiminnot käsittelemään maksut ulkomaan valuuttana.|[Tapahtumakirjausten kohdistamisen ottaminen käyttöön eri valuutoissa](finance-how-enable-application-ledger-entries-different-currencies.md)
@@ -50,7 +48,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 | Intrastat-raportoinnin määrittäminen ja raportin lähettäminen viranomaisille | [Intrastat-ilmoituksen määrittäminen ja raportoiminen](finance-how-setup-report-intrastat.md)|
 |Varmista, että tapahtuma kohdistetaan yleisessä päiväkirjassa useisiin eri tileihin päiväkirjan kirjauksen yhteydessä. Kohdistuksen voi tehdä määrän, prosentin tai summan mukaan.|[Kohdistustunnusten käyttäminen yleisissä päiväkirjoissa](ui-how-use-allocation-keys-general-journals.md)|
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsset-up-financial-management-dynamics-365-business-central"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
 [Rahoitus](finance.md)  

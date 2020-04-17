@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 0df593988b7db1f7f02a4c8868df448b8fb1bbc0
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 3bc9a348dba8b9265730dd2723b045a10809139b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312674"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191089"
 ---
 # <a name="use-time-sheets-for-jobs"></a>Aikaraporttien käyttäminen projekteissa
 Käytä **Luo aikaraportit** -eräajoa, kun määrität aikaraportit tietylle määrälle ajanjaksoja tai viikkoja. Sinulla on oltava oikeudet luoda aikaraportteja.
@@ -29,7 +29,7 @@ Ennen kuin käytät aikaraportteja, sinun on määritettävä aikaraporttien yle
 ## <a name="to-create-a-time-sheet"></a>Aikaraportin luominen
 Käytä **Luo aikaraportit** -eräajoa, kun määrität aikaraportit tietylle määrälle ajanjaksoja tai viikkoja. Tämän jälkeen aikaraportin omistaja voi avata sen ja kirjata ajan, joka tehtävään on kulunut.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tuntiraportit** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Aikaraportit** ja valitse sitten liittyvä linkki.
 2. Valitse **Aikaraporttiluettelo**-sivulla **Luo aikaraportit** -toiminto.
 3. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -43,14 +43,14 @@ Voit tarkastella samoja aikaraportteja, jotka olet luonut **Aikaraporttiluettelo
 ## <a name="to-copy-job-planning-lines-to-a-time-sheet"></a>Kopioi työn suunnittelurivit aikaraporttiin
 Seuraavassa ohjeessa neuvotaan, miten lisätään projektin suunnittelurivejä nopeasti aikaraportille.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Tuntiraportit** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Aikaraportit** ja valitse sitten liittyvä linkki.  
 2. Valitse **Aikaraporttiluettelo**-sivulla kyseisen ajanjakson aikaraportti. Valitse sitten **Muokkaa aikaraporttia** -toiminto.  
 3. Valitse **Luo rivejä projektin suunnittelusta** -toiminto. Kaikki aikaraportin ajanjakson projektin suunnittelurivit kopioidaan sen henkilön tai koneen aikaraporttiin, joka mainitaan aikaraportin **Resurssin nro** -aikaraportissa.
 
 ## <a name="to-define-work-types-and-add-one-to-a-time-sheet"></a>Työtyyppien määrittäminen ja yhden työtyypin lisääminen aikaraporttiin
 Voit määrittää projektien kaikille aikaraporttiriveille työtyypin. Tällä tavalla voit lisätä tiedot, joita tarvitse asiakkaan laskuttamiseen erityyppisistä töistä.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tuntiraportit** ja valitse sitten liittyvä linkki.   
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Aikaraportit** ja valitse sitten liittyvä linkki.   
 2. Avaa asianmukainen aikaraportti.
 3. Valitse **Kuvaus**-kenttä.  
 4. Valitse **Aikaraporttirivin projektierittely** -sivulla **Työtyyppikoodi**-kenttä. Valitse sitten luettelosta työtyyppi, kuten **Mailit**.  
@@ -61,7 +61,7 @@ Voit määrittää projektien kaikille aikaraporttiriveille työtyypin. Tällä 
 ## <a name="to-reuse-time-sheet-lines-in-other-time-sheets"></a>Aikaraportin rivien käyttäminen uudelleen muissa aikaraporteissa
 Jos aikaraportin tiedot pysyvät samoina ajanjaksosta toiseen, voit tallentaa ajan kopioimalla rivit edelliseltä ajanjaksolta. Sitten vain kirjoitetaan käytetty aika uudelle jaksolle.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tuntiraportit** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Aikaraportit** ja valitse sitten liittyvä linkki.  
 2. Avaa aikaraportti jaksolle, joka on myöhempi kuin olemassa oleva aikaraportti ja sen rivit.  
 3. Valitse **Kopioi rivit aiemmasta aikaraportista** -toiminto.
 
@@ -105,7 +105,7 @@ Aikaraportti on lähetettävä hyväksyttäväksi, jotta sitä voidaan käyttä�
 Kun olet hyväksynyt tai hylännyt aikaraportin, sitä voi muokata vasta sitten, kun aikaraportti on avattu uudelleen. Seuraavassa kerrotaan, miten hyväksytty tai hylätty aikaraportti avataan uudelleen.
 
 ## <a name="to-reopen-a-time-sheet"></a>Avaa aikaraportti uudelleen
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Päällikön tuntiraportit** tai **Tuntiraportit** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Päällikön tuntiraportit**- tai **Tuntiraportit** ja valitse liittyvä linkki.
 2. Avaa aikaraportti luettelosta.  
 
     > [!NOTE]  

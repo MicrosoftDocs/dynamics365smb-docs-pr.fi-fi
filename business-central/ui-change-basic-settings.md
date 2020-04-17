@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 5f6f62e146f6799cad552e60b399f74636091ea7
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: cd3d7a821c088b6e9f457e3bf3dc05d0c53525c4
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953295"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194593"
 ---
 # <a name="change-basic-settings"></a>Perusasetusten muuttaminen
 
 Voit tarkastella **Omat asetukset** -sivulla [!INCLUDE[d365fin](includes/d365fin_md.md)]in perusasetuksia ja muuttaa niitä. Tekemäsi muutokset vaikuttavat vain omaan työtilaasi; ei muiden käyttäjien työtiloihin.  
 
-## <a name="role-center"></a> Roolikeskus
+## <a name="role-center"></a><a name="role-center"></a> Roolikeskus
 Roolikeskus edustaa kotisivua eli aloitussivua, joka on suunniteltu organisaation tiettyä roolia varten. Roolisi mukaan roolikeskus antaa yleiskuvan yrityksestäsi, osastostasi tai henkilökohtaisista tehtävistäsi. Se auttaa myös siirtymään päivittäisten tehtävien välillä ja löytämään työt, jotka on määritetty sinulle.
 
 -   Yläreunan siirtymisvalikon avulla voit siirtyä asiakkaiden, toimittajien, nimikkeiden ja muiden tärkeiden tietoluetteloiden välillä. Vastaavasti toimintojen avulla voit aloittaa tehtävät, kuten luoda uuden myyntilaskun suoraan roolikeskuksesta.
@@ -34,7 +34,7 @@ Oletusrooli on **Liiketoimintajohtaja**, mutta voit valita toisen roolin, jotta 
 2. Valitse **Omat asetukset** -sivun **Roolikeskus**-kentässä oletusarvoisesti käytettävä rooli. Valitse esimerkiksi **Kirjanpitäjä**.
 3. Valitse **OK**-painike.
 
-## <a name="company"></a>Oma yritys
+## <a name="company"></a><a name="company"></a>Oma yritys
 Yritystoiminnot [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietojen säilönä. Tietokannassa voi olla useita yrityksiä. Kerralla on kuitenkin mahdollista valita vain yksi yritys.
 
 Oletusyrityksen nimi on CRONUS, ja se sisältää vain esittelytietoja. Voit luoda mukautetuilla tiedoilla uuden yrityksen. Lisätietoa on kohdassa [Uusien yritysten luominen](about-new-company.md).
@@ -42,7 +42,7 @@ Oletusyrityksen nimi on CRONUS, ja se sisältää vain esittelytietoja. Voit luo
 ## <a name="to-change-the-company-name"></a>Yrityksen nimen muuttaminen
 Yrityksen nimi näkyy aina vasemmassa yläkulmassa. Se on myös toiminto, jonka valitsemalla voit palata roolikeskukseen. Tämän nimen voi muuttaa **Yrityksen tiedot** -sivulla.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Yrityksen tiedot** ja valitse sitten liittyvä linkki.
+1. Valitse ![Hammaspyöräkuvake Asetukset-valikon avaamista varten](media/ui-experience/settings_icon_small.png) -kuvake ja valitse sitten **Yritystiedot**-toiminto.
 2. Anna uuden yrityksen nimi **Nimi**-kentässä.
 3. Poistu sivulta. Järjestelmä käynnistyy uudelleen ja uusi yritys näkyy vasemmassa yläkulmassa.
 
@@ -55,7 +55,7 @@ Voit lisätä oikeaan yläkulmaan mukautetun tunnuksen, jonka valitsemalla voit 
 > [!NOTE]
 > Jos yrityksen tunnus on määritetty, et voi muuttaa yrityksen nimeä kohdassa [Yrityksen nimen muuttaminen](ui-change-basic-settings.md#to-change-the-company-name) kuvatulla tavalla.
 
-## <a name="work-date"></a>Käsittelypvm
+## <a name="work-date"></a><a name="work-date"></a>Käsittelypvm
 Eniten käytetty käsittelypäivämäärä on kuluvan päivän päivämäärä. Saatat joutua muuttamaan käsittelypäivämäärän väliaikaisesti, jotta voit suorittaa tehtäviä, kuten sellaisten tapahtumien täydentäminen, joiden päivämäärä ei ole kuluvan päivän päivämäärä.
 
 > [!TIP]  
@@ -72,19 +72,21 @@ Jos käsittelypäivämääräksi ei ole määritetty kuluvan päivän päivämä
 - Jos muistutus hylätään, käsittelypäivämäärä näkyy sivun otsikossa.  
 --> Jos nykyistä päivää (kuluva päivää) ei ole määritetty käsittelypäivämääräksi, nykyinen käsittelypäivämäärä näytetään kaikkien niiden sivujen vasemmassa yläkulmassa, joissa tietoja voidaan muokata.
 
-## <a name="region"></a> Alue
+## <a name="region"></a><a name="region"></a> Alue
 
 **Alue**-asetus määrittää, miten päivämäärät, ajat, luvut ja valuutat näkyvät tai miten ne on muotoiltu.
 
-## <a name="language"></a> Kieli
+## <a name="language"></a><a name="language"></a> Kieli
 Muuttaa näyttökielen. Tämä kenttä näkyy vain, kun useita kieliä voi valita.
 
 Alkuperäinen kieli määräytyy joko järjestelmänvalvojan asettamien tai selaimen asetusten mukaan, kun rekisteröidyt [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovellukseen. Määrittämääsi kieltä käytetään kaikissa laitteissa, joista kirjaudut, esimerkiksi puhelimessa ja tabletissa.
 
+Sovellukseen [!INCLUDE[prodshort](includes/prodshort.md)] voi asentaa lisäkieliä AppSourcesta. Kaikki tuetut näyttökielet näkyvät luettelossa. Järjestelmänvalvojan on asennettava asiaankuuluva kielisovellus vuokraajaan, ennen kuin käyttäjät voivat vaihtaa uuteen kieleen sovelluksessa [!INCLUDE[prodshort](includes/prodshort.md)].  
+
 ## <a name="changing-when-i-receive-notifications"></a>Ilmoitusten vastaanoton ajankohta-asetusten muuttaminen
 Valitsemalla tämän linkin voit tarkastella tai muuttaa ilmoituksia, joita saat tietyistä tapahtumista tai tilamuutoksista esimerkiksi silloin, kun olet laskuttamassa asiakasta, jolla on erääntynyttä saldoa, tai kun käytettävissä oleva varasto on pienempi kuin myytävä määrä. Lisätietoja on kohdassa [Ilmoitusten hallinta](ui-smart-notifications.md).
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulespersonalize-ui-dynamics-365-business-centralindex"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/personalize-ui-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Katso myös
 [Uusien yritysten luominen](about-new-company.md)  

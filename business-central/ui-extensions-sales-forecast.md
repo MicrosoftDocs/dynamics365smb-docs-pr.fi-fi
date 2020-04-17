@@ -10,25 +10,55 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, budget
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0b1353631aa9e727c25fd6e47dcb7f5699f3e9e1
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: daff9e471ce62f4885703a1fd11bbf35620360f9
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877085"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189673"
 ---
 # <a name="the-sales-and-inventory-forecast-extension"></a>Myynti- ja varastoennustelaajennus
 Varaston hallintaan kuuluvat sekä asiakaspalvelu että kustannusten hallinta. Pieni varasto vaatii vähemmän liikepääomaa, mutta toisaalta varaston loppumiset voivat aiheuttaa myyntimenetyksiä. Myynti- ja varastoennuste -laajennus ennustaa mahdollisen myynnin aiempien tietojen avulla. Se tarjoaa selvän yleiskuvan odotetuista varaston loppumisista. Ennusteen perusteella laajennus auttaa luomaan täydennyspyyntöjä toimittajille, ja säästää näin aikaasi.  
 
 ## <a name="setting-up-forecasting"></a>Ennusteiden määrittäminen
-[Azure AI](https://azure.microsoft.com/overview/ai-platform/) -yhteys on muodostettu valmiiksi [!INCLUDE[d365fin](includes/d365fin_md.md)]issa. Voit kuitenkin määrittää ennusteen niin, että se käyttää raportoinnissa erityyppistä kautta. Ennuste voidaan laatia esimerkiksi kuukauden sijaan neljännesvuosittain. Voit myös valita ennustelaskelmassa käytettävien kausien määrän sen mukaan, miten hajautetun ennusteen haluat. Ennusteen voi tehdä esimerkiksi kuukautta kohti 12 kuukauden ajalle.  
+[Azure AI](https://azure.microsoft.com/overview/ai-platform/) -yhteys on muodostettu valmiiksi [!INCLUDE[d365fin](includes/d365fin_md.md)]issa. Voit kuitenkin määrittää ennusteen niin, että se käyttää raportoinnissa erityyppistä kautta. Ennuste voidaan laatia esimerkiksi kuukauden sijaan neljännesvuosittain. Voit myös valita ennustelaskelmassa käytettävien kausien määrän sen mukaan, miten hajautetun ennusteen haluat. Ennusteen voi tehdä esimerkiksi kuukautta kohti 12 kuukauden ajalle. 
+
+> [!TIP]  
+>   Mieti, miten pitkiä jaksoja palvelun laskelmissa käytetään. Mitä enemmän tietoja on käytettävissä, sitä tarkempia ennusteet ovat. Varo myös suuria jaksovaihteluita. Ne vaikuttavat myös ennusteisiin. Jos Azure AI ei löydä riittävästi tietoja tai tiedot ovat kovin erilaisia, palvelu ei voi tehdä ennustetta.
 
 ## <a name="using-the-forecasts"></a>Ennusteiden käyttäminen
 Laajennus ennustaa Azure AI:n avulla tulevan myynnin myyntihistorian perusteella. Näin voidaan välttää puutteet varastossa. Jos esimerkiksi valitset nimikkeen **Nimikkeet**-sivulla, kaavion **Nimikkeen ennuste** -ruudussa näkyy tämän nimikkeen arvioitu myynti tulevan kauden aikana. Näin näet, onko nimike loppumassa varastosta lähiaikoina.  
 
 Voit käyttää laajennusta myös varaston täydennysajankohdan ehdottamisessa. Jos esimerkiksi luot ostotilauksen Fabrikamille, koska haluat ostaa heiltä uuden työtuolin, Myynti- ja varastoennuste -laajennus ehdottaa, että samalla kannattaa ostaa LONDON-toimistotuoleja, joita yleensä ostat kyseiseltä toimittajalta. Laajennus ehdottaa tätä sen vuoksi, koska se ennustaa LONDON-toimistotuolien loppuvan varastosta kahden seuraavan kuukauden aikana. Tuoleja siis kannattaa ostaa lisää jo nyt.  
+
+## <a name="design-details"></a>Rakennetiedot
+[!INCLUDE[d365fin](includes/d365fin_md.md)]:n tilaukset sisältävät käyttöoikeuden useisiin ennakoitaviin verkkopalveluihin kaikilla alueilla, joilla [!INCLUDE[d365fin](includes/d365fin_md.md)] on saatavissa. Lisätietoja on Microsoft Dynamics 365 Business Centralin käyttöoikeusoppaassa. Opas on ladattavissa [Business Centralin](https://dynamics.microsoft.com/en-us/business-central/overview/) verkkosivulla. 
+
+Näillä verkkopalveluilla ei ole tilaa. Ne siis käyttävät tietoja vain ennusteiden laskemiseen tarvittaessa. Ne eivät tallenna tietoja.
+
+> [!NOTE]  
+>   Voit käyttää myös omaa ennakoivaa verkkopalvelua meidän palvelumme sijaan. Lisätietoja on kohdassa [Myynnin ja varaston ennusteiden ennakoivan verkkopalvelun luominen ja käyttäminen](#AnchorText). 
+
+### <a name="data-required-for-forecast"></a>Ennusteeseen vaadittavat tiedot
+Jos haluat tehdä ennusteita tulevasta myynnistä, verkkopalvelu vaatii määrällisiä tietoja aiemmasta myynnistä. Nämä tiedot saadaan **Kirjauspäivämäärä**-, **Nimikenro**- ja **Määrä**-kentistä **Nimiketapahtumat**-sivulla, jossa:
+-    Tapahtumatyyppi on Myynti.
+- Kirjauspäivämäärä on **Myynnin ja varaston ennusteiden asetukset** -sivun **Aiemmat kaudet**- ja **Kauden tyyppi** -kenttien arvojen perusteella lasketun päivämäärän ja käsittelypäivämäärän välillä.
+
+Ennen kuin käytät verkkopalvelua, [!INCLUDE[d365fin](includes/d365fin_md.md)] tiivistää tapahtumat **Nimikenro**- ja **Kirjauspäivämäärä**-kenttien mukaan **Kauden tyyppi** -kentän perusteella **Myynnin ja varaston ennusteiden määritykset** -sivulla.
+
+## <a name="create-and-use-your-own-predictive-web-service-for-sales-and-inventory-forecasts"></a><a name="AnchorText"> </a>Myynnin ja varaston ennusteiden ennakoivan verkkopalvelun luominen ja käyttäminen
+Voit myös luoda oman ennakoivan verkkopalvelun **Microsoft Business Central -sovelluksen ennustemalli** -nimisen julkisen mallin perusteella. Tämä ennakoiva malli on saatavana verkossa Azure AI Galleryssa. Voit käyttää mallia seuraavien vaiheiden avulla:  
+
+1. Avaa selain ja siirry [Azure AI Galleryyn](https://go.microsoft.com/fwlink/?linkid=828352).  
+2. Etsi **Ennustusmalli Microsoft Business Centralille** ja avaa malli Azuren koneoppimisstudiossa.  
+3. Kirjaudu työtilaan Microsoft-tilin avulla ja kopioi malli.  
+4. Aja malli ja julkaise se verkkopalveluna.  
+5. Kirjoita API:n URL-osoite ja API-avain muistiin. Näitä tunnistetietoja käytetään kassavirran asetuksissa.  
+6. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myynnin ja varaston ennusteiden asetukset** ja valitse sitten liittyvä linkki.  
+7. Laajenna **Yleistä**-pikavälilehti ja täytä sitten API-URL- ja API-avain-kentät.  
+
 
 ## <a name="see-also"></a>Katso myös
 [Myynti](sales-manage-sales.md)  

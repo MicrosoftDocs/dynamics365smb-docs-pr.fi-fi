@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: email, PDF, electronic document
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: e541fbf541ec317ea6517587159144a5ccf84058
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: 32a7a00dc5d348fe6d177986dd0d966fca885528
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2911165"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193935"
 ---
 # <a name="set-up-document-sending-profiles"></a>Asiakirjan lähetysprofiilien määrittäminen
 Voit määrittää jokaiselle asiakkaalle haluamasi myyntiasiakirjojen lähettämistavan. Näin sinun tarvitse valita lähettämistapaa aina, kun valitset **Kirjaa ja lähetä** -toiminnon.
@@ -27,7 +27,7 @@ Voit määrittää jokaiselle asiakkaalle haluamasi myyntiasiakirjojen lähettä
 Kun valitset **Kirjaa ja lähetä** -toiminnon myyntiasiakirjassa, näkyviin tulee **Kirjaa ja lähetä vahvistus** -valintaikkuna, jossa näkyy käytetty lähetysprofiili (joka asiakkaalle määritetty profiili tai kaikille asiakkaille yhteinen oletusprofiili). Valintaikkunassa voit muuttaa myyntiasiakirjan lähetysprofiilia. Lisätietoja on kohdassa [Myynnin laskutus](sales-how-invoice-sales.md).
 <br><br>  
 
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHH]
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHH?rel=0]
 
 ## <a name="to-set-up-a-document-sending-profile"></a>Asiakirjan lähetysprofiilin määrittäminen
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Asiakirjojen lähetysprofiilit** ja valitse sitten liittyvä linkki.

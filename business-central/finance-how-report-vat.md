@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, tax, report, EC sales list, statement
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: e7671e54f95a48322df186b5aed5a81552f9f91f
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 7365886f09e1e3d1b67dcbea82594f3d3599f25a
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953777"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183882"
 ---
 # <a name="report-vat-to-tax-authorities"></a>ALV:n raportointi veroviranomaisille
 Tässä ohjeaiheessa käsitellään [!INCLUDE[d365fin](includes/d365fin_md.md)]in raportteja, joilla voit lähettää myynnin ja ostojen arvolisäverosummia koskevat tiedot alueesi veronviranomaisille.
@@ -61,7 +61,7 @@ Jotta voisit ilmoittaa arvonlisäveron viranomaiselle sähköisesti, [!INCLUDE[d
     > [!NOTE]  
     >   Yhteyden toimivuus kannattaa testata. Sen voi tehdä valitsemalla **Testitila**-valintaruudun sekä valmistelemalla ja lähettämällä ALV-raportin kohdassa _ALV-raportin valmisteleminen ja lähettäminen_ kuvatulla tavalla. Palvelu testaa testitilassa, voiko veroviranomainen vastaanottaa raportin. Raportin tila ilmaisee, onnistuiko testilähetys vai ei. Muista kuitenkin, että tietoja ei ole vielä oikeasti lähetetty. Kun haluat lähettää raportin oikeasti, poista **Testitila**-valintaruudun valinta ja toista sitten lähetysprosessi.
 
-## <a name="to-set-up-vat-reports-in-included365finincludesd365fin_mdmd"></a>ALV-raporttien määrittäminen [!INCLUDE[d365fin](includes/d365fin_md.md)]issa
+## <a name="to-set-up-vat-reports-in-d365fin"></a>ALV-raporttien määrittäminen [!INCLUDE[d365fin](includes/d365fin_md.md)]issa
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **VAT-raportoinnin asetukset** ja valitse sitten liittyvä linkki.  
 2. Jos haluat, että käyttäjät voivat muuttaa ja uudelleenlähettää näitä raportteja, valitse **Muokkaa lähetettyjä raportteja** -valintaruutu.  
 3. Valitse kussakin raportissa käytettävä numerosarja.  
@@ -111,7 +111,7 @@ Seuraavassa taulukossa kuvataan koodiyksiköt, jotka sinun on luotava raporttias
 > [!Note]
 > Ota **ALV-raportin versio** -kentän arvo huomioon, kun luot raportin koodiyksiköt. Tässä kentässä on oltava sama versio, joka on tai oli veroviranomaisen vaatimuksena. Voit esimerkiksi kirjoittaa kentän arvoksi **2017** osoittamaan, että raportti noudattaa kyseisenä vuonna voimassa olleita vaatimuksia. Voimassa olevan version saat selville veroviranomaiseltasi.
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsprocess-vat-dynamics-365-business-central"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös .
 [Arvonlisäveron laskemisen ja kirjaustapojen määrittäminen](finance-setup-vat.md)  

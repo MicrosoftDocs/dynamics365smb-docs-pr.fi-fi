@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 54e7aabe2989033a33373b960633b1c8f8e38eab
-ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
+ms.openlocfilehash: a1e55d983abae5f85807039da6dd4d846c3e40b3
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076410"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185706"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Rakennetiedot: kysynnän ja tarjonnan täsmäytys
 Suunnittelujärjestelmän priorisoitujen tavoitteiden ymmärtäminen edellyttää suunnittelujärjestelmän toiminnan ymmärtämistä. Tärkeimmät tavoitteet pyrkivät varmistamaan seuraavat seikat:  
@@ -37,7 +37,7 @@ Suunnittelujärjestelmän priorisoitujen tavoitteiden ymmärtäminen edellyttä�
   Suunnitteluparametrit ja varastotasot ovat muita kysynnän ja tarjonnan tyyppejä, jotka käyvät läpi integroidun täsmäytyksen varastonimikkeiden täydentämiseksi. Lisätietoja on kohdassa [Rakennetiedot: uusintatilauskäytäntöjen käsittely](design-details-handling-reordering-policies.md).
 
 ## <a name="the-concept-of-balancing-in-brief"></a>Täsmäytyksen käsite lyhyesti
-  Yrityksen asiakkaat muodostavat kysynnän. Yritys voi luoda ja poistaa tarjontaa luodakseen tasapainon. Suunnittelujärjestelmä aloittaa riippumattomasta kysynnästä ja jäljittää sitten taaksepäin tarjontaan.  
+  Yrityksen asiakkaat antavat kysynnän. Yritys voi luoda ja poistaa tarjontaa luodakseen tasapainon. Suunnittelujärjestelmä aloittaa riippumattomasta kysynnästä ja jäljittää sitten taaksepäin tarjontaan.  
 
    Varastoprofiileja käytetään sisältämään tietoa kysynnästä ja tarjonnasta, määristä ja ajoituksista. Nämä profiilit muodostavat käytännössä täsmäytysasteikon kaksi eri puolta.  
 
@@ -99,7 +99,7 @@ Täsmäytyksen aikana suunnittelujärjestelmä ottaa huomioon tarjonnan, jolla o
 
 Toinen syy sarja- ja eränumeroiden tarjonnan joustamattomuuteen on se, että eränumerot kohdistetaan prosessissa yleisesti niin myöhään, että muutosten ehdottaminen aiheuttaisi sekaannusta.  
 
-Sarja-/eränumeroiden tasapainotus ei ota huomioon aluetta [Jäädytetty alue](design-details-dealing-with-orders-before-the-planning-starting-date.md). Jos kysyntää ja tarjontaa ei synkronoida, suunnittelujärjestelmä ehdottaa muutoksia tai ehdotti uusia tilauksia, suunnittelun aloituspäivämäärästä riippumatta.  
+Sarja-/eränumeroiden tasapainotus ei ota huomioon *jäädytettyä aluetta*. Jos kysyntää ja tarjontaa ei synkronoida, suunnittelujärjestelmä ehdottaa muutoksia tai ehdotti uusia tilauksia, suunnittelun aloituspäivämäärästä riippumatta.  
 
 ### <a name="order-to-order-links-are-never-broken"></a>Tilausten välisiä linkkejä ei katkaista koskaan  
 Kun suunnitellaan tilausten välistä nimikettä, linkitettyä tarjontaa ei saa käyttää muussa kuin alkuperäisessä kysynnässä. Liitettyä kysyntää ei koskaan pidä kattaa toisella satunnaistarjonnalla, ei edes silloin, kuin sen tämänhetkisen tilanteen mukaan se on käytettävissä ajallisesti ja määrällisesti. Esimerkiksi kokoonpano tilausta varten -skenaariossa myyntitilaukseen linkitettyä kokoonpanotilausta ei voida käyttää muun kysynnän kattamiseen.  
@@ -117,7 +117,7 @@ Tämä täsmäytys vaikuttaa myös ajoitukseen. Rajoitettua näköpiiriä, jonka
 ### <a name="component-need-is-loaded-according-to-production-order-changes"></a>Komponenttitarve ladataan tuotantotilausten muutosten mukaan  
 Suunnittelujärjestelmän on valvottava tarvittavia komponentteja tuotantotilausten käsittelyn yhteydessä ennen komponenttien lataamista kysynnän profiiliin. Muutetusta tuotantotilauksesta aiheutuvat komponenttirivit korvaavat alkuperäisen tilauksen vastaavat. Tämä varmistaa, että suunnittelujärjestelmän muodostamista komponenttitarpeen suunnitteluriveistä ei koskaan tehdä kaksoiskappaleita.  
 
-###  <a name="BKMK_SafetyStockMayBeConsumed"></a> Varmuusvarastoa voidaan käyttää  
+###  <a name="safety-stock-may-be-consumed"></a><a name="BKMK_SafetyStockMayBeConsumed"></a> Varmuusvarastoa voidaan käyttää  
 Varmuusvaraston määrä on ensisijaisesti kysyntätyyppi ja siksi ladattu varastoprofiiliin suunnittelun aloituspäivänä.  
 
 Varmuusvarasto on varaston määrä, joka on asetettu sivuun ja jonka avulla tasapainotetaan kysynnän epävarmuutta täytön läpimenoaikana. Se voidaan kuitenkin kuluttaa, jos se on otettava kysynnän täyttämiseksi. Tällöin suunnittelujärjestelmä varmistaa, että varmuusvarasto korvataan nopeasti, ehdottamalla toimitustilausta varmuusvarastomäärän täydentämistä varten päivämääränä, jolloin se kulutetaan. Tällä suunnittelurivillä näkyy poikkeusvaroituksen kuvake. Se kertoo suunnittelijalle, että puuttuvan määrän poikkeustilaus on kuluttanut varmuusvaraston osittain tai kokonaan.  

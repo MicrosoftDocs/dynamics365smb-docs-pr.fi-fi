@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 82c953ce7f32ae5304c8282f5caf8081f9e40a88
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 1fae944598a988c739978f69bace612c57de0ef6
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879511"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182922"
 ---
 # <a name="reporting-costs-and-reconciling-with-the-general-ledger"></a>Kustannukset raportointi ja täsmäyttäminen pääkirjanpidon kanssa
 Kirjanpitojaksojen lopussa (kuukausittain, vuosittain tai muulla aikavälillä) suoritetaan joukko kustannustenhallinta- ja auditointitehtäviä, joiden avulla saadaan oikea ja saldoltaan täsmällinen varaston arvo raportoitavaksi taloushallinto-osastolle. Tilintarkastajat ja kustannusten seurantahenkilöstö vastaavat näistä liiketoiminnan kannalta kriittisistä tehtävistä, ja yksittäisiä nimikkeen arvotapahtumia erityisille kirjanpitotileille siirtävän kirjausrutiinin lisäksi heidän käytettävissään on useita raportteja, jäljitystoimintoja ja erityinen täsmäytystyökalu.  

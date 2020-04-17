@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 858116d656ef264c7c9445596c8b5345da944c8e
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: d20dc2ba62a5b13042fe864963f1d483c383563f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2952575"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183978"
 ---
 # <a name="analyzing-financial-statements-in-microsoft-excel"></a>Rahoituslaskelmien analysointi Microsoft Excelissä
 Voit tarkastella [!INCLUDE[d365fin](includes/d365fin_md.md)]issa tunnuslukuja ja saada yleiskuvan yrityksen taloustilanteesta. Voit myös avata luettelot Excelissä tietojen analysointia varten. Voit lisäksi vielä raskaita raportteja, kuten taseita ja tuloslaskelmia, Exceliin, analysoida tietoja ja tulostaa raportit.  
@@ -36,12 +36,12 @@ Oletetaan, että haluat porautua kassavirtaan. Voit avata liiketoimintajohtajan 
 
 Excelissä on välilehti, jossa tiedot on sijoitettu ensimmäiseen työkirjaan. Kaikki viedyt tiedot ovat esillä muissa työkirjoissa, jos satut tarvitsemaan niitä. Voit tulostaa raportin heti tai voit muokata sitä, kunnes käytössä on haluamasi yleiskatsaus ja yksityiskohdat. Voit suodattaa ja analysoida tietoja entistä paremmin [!INCLUDE[d365fin](includes/d365fin_md.md)]in Excel-apuohjelmalla.  
 
-## <a name="the-included365finincludesd365fin_mdmd-excel-add-in"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)]in Excel-apuohjelma
+## <a name="the-d365fin-excel-add-in"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)]in Excel-apuohjelma
 [!INCLUDE[d365fin](includes/d365fin_md.md)]-kokemus sisältää Excelin apuohjelman. Tilauksen mukaan kirjaudut joko automaattisesti tai sinun on annettava samat kirjautumistiedot kuin [!INCLUDE[d365fin](includes/d365fin_md.md)]issa.  
 
 Saat apuohjelman ansiosta uusimmat tiedot [!INCLUDE[d365fin](includes/d365fin_md.md)]ista ja voit siirtää muutokset takaisin [!INCLUDE[d365fin](includes/d365fin_md.md)]iin. Mahdollisuus siirtää tiedostot takaisin tietokantaan kuitenkin on poistettu käytöstä edellä mainituissa Excel-raporteissa.  
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Katso myös
 [Rahoitus](finance.md)  

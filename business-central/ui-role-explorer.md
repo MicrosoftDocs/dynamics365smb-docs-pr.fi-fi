@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/06/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c0cd3a1d72b466946f8efcd4774a1629c21af6d0
-ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
+ms.openlocfilehash: 5e6e034aa6a071751893ebae477cb3e22b2635bb
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "2774793"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195361"
 ---
 # <a name="finding-pages-with-the-role-explorer"></a>Sivujen etsiminen roolienhallinnan avulla
 Saat yleiskuvan kaikista roolin käytössä olevista liiketoimintaominaisuuksista ja muiden roolien toiminnoista, jos siirryt yhden vaiheen eteenpäin. Seuraavassa dokumentaatiossa tätä ominaisuutta kutsutaan *Roolienhallinnaksi*.
@@ -27,7 +27,9 @@ Voit avata roolienhallinnan roolikeskuksesta ja kaikilta luettelosivuilta sekä 
 - Valitse roolikeskuksessa tai luettelosivulla ![Valikkopainike](media/ui_menu_button.png "Valikko-painike")-painike siirtymispalkin oikealla puolella tai paina Shift+F12.
 - Valitse **Kerro, mitä haluat tehdä** -ikkunassa alareunassa oleva **tutustumistoiminto**.
 
-Valitse **Tutustu kaikkiin** -toiminto sivulla, joka esittelee roolienhallinnan, jos haluat saada yleiskuvan oman roolin ja kaikkien muiden roolien liiketoimintaominaisuudesta.
+Valitse **Etsi**-toiminto roolinhallinnan yläosasta, jos haluat löytää nopeasti tietyn termin sisältävät toimintojen nimet.
+
+Valitse **Tutustu kaikkiin** -toiminto roolinhallinnan yläosassa, jos haluat hakea yleiskuvauksen kaikista liiketoimintatoiminnoista, jotka ovat käytettävissä rooleille (myös omalle roolillesi).
 
 > [!NOTE]
 > Vain roolikeskus-toiminnot profiileille, joissa **Näytä roolienhallinta** -valintaruutu on valittuna, näkyvät roolienhallinnan laajennetussa versiossa (näkyy **Tutki kaikki** -toimintoa käytettäessä). Lisätietoja on kohdassa [Profiilien hallinta](admin-users-profiles-roles.md).

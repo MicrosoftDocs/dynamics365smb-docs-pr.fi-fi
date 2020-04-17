@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: dc739c364b7e1fba5ab7c885c8c32052fd8f2dc9
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 53bc7faefc01399ae8db1d0763bc6ec91745b7b5
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314890"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195289"
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Vaihekuvaus: Myyntikampanjan suorittaminen
 Kampanja voi olla mikä tahansa toimi, jossa on mukana useita kontakteja. Kampanjan määrittämisen tärkeä osa liittyy kampanjan kohderyhmän valitsemiseen. Tätä tarkoitusta varten [!INCLUDE[d365fin](includes/d365fin_md.md)]:ssa luodaan segmentti tai yhteystietoryhmä suodattimien avulla.  
@@ -148,7 +148,7 @@ Kampanja voi olla mikä tahansa toimi, jossa on mukana useita kontakteja. Kampan
 
 9. Liitteet lähetetään. Kun prosessi on valmis, valitse **OK** -painike viestille, joka ilmoittaa, että segmentti on kirjattu lokiin.  
 
-     Kirjeet tulostetaan automaattisesti ja segmentti kirjataan lokiin. Koska segmentti on kirjattu lokiin, ei ole enää segmenttien luettelossa, vaan siirretty luetteloon lokiin kirjatuista segmenteistä. Jos haluat nähdä kyseisen luettelon, valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Lokiin kirjatut segmentit** ja valitse sitten liittyvä linkki.  
+     Kirjeet tulostetaan automaattisesti ja segmentti kirjataan lokiin. Koska segmentti on kirjattu lokiin, ei ole enää segmenttien luettelossa, vaan siirretty luetteloon lokiin kirjatuista segmenteistä. Jos haluat nähdä luettelon, valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Lokiin kirjatut segmentit** ja valitse sitten liittyvä linkki.  
 
 10. Kun segmentti kirjataan lokiin, jokainen lähetetty kirje tallennetaan vuorovaikutuksena, jossa voit tarkastella lokia.  
 
@@ -165,7 +165,7 @@ Kampanja voi olla mikä tahansa toimi, jossa on mukana useita kontakteja. Kampan
 7.  Valitse **Luo seurantasegmentti** -valintaruutu.  
 8.  Valitse **OK**-painike.  
 
-     Kirjeet lähetetään automaattisesti sähköpostilla ja segmentti kirjataan lokiin. Koska segmentti on kirjattu lokiin, ei ole enää segmenttien luettelossa, vaan tallennettu luetteloon lokiin kirjatuista segmenteistä. Jos haluat nähdä kyseisen luettelon, valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Lokiin kirjatut segmentit** ja valitse sitten liittyvä linkki.  
+     Kirjeet lähetetään automaattisesti sähköpostilla ja segmentti kirjataan lokiin. Koska segmentti on kirjattu lokiin, ei ole enää segmenttien luettelossa, vaan tallennettu luetteloon lokiin kirjatuista segmenteistä. Jos haluat nähdä luettelon, valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Lokiin kirjatut segmentit** ja valitse sitten liittyvä linkki.  
 
 ## <a name="registering-campaign-responses"></a>Kampanjareaktioiden rekisteröiminen  
  Mahdolliset asiakkaat vastaavat kirjeeseen seuraavien kahden viikon aikana. Markkinointipäällikkö haluaa pitää kirjaa vastauksista ja kirjata nämä vuorovaikutukset ohjelmaan.  
@@ -196,6 +196,6 @@ Kampanja voi olla mikä tahansa toimi, jossa on mukana useita kontakteja. Kampan
      Kun segmentti on kirjattu lokiin, ohjelma luo kampanjalle automaattisesti tapahtuman **Kampanjan tapahtumat** -sivulle näiden toimien kirjaamista varten.  
 
 ## <a name="see-also"></a>Katso myös  
-[Kontaktienhallinta](marketing-relationship-management.md)  
+[Liikesuhteiden hallinta](marketing-relationship-management.md)  
  [Liiketoimintaprosessien vaihekuvaukset](walkthrough-business-process-walkthroughs.md)  
  [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)

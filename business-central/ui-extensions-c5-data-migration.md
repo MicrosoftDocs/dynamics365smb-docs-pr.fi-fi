@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: c8eba304746125e9262ebfff95cfd2379eec08c8
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: cdf14002e28b777441a803fc7804fdac8afe5b77
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311330"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194329"
 ---
 # <a name="the-c5-data-migration-extension"></a>Tietojen siirron C5-laajennus
 Tämän laajennuksen avulla on helppo siirtää asiakkaita, toimittajia, nimikkeitä ja pääkirjanpidon tilejä Microsoft Dynamcis C5 2012 -versiosta [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmaan. Voit siirtää myös pääkirjanpidon tilien vanhat tapahtumat.
@@ -102,7 +102,7 @@ Jos siirrät tilit, myös seuraavat tiedot siirretään:
 Tietojen siirtäminen C5:stä ja tuominen [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmasta edellyttää vain seuraavien vaiheiden suorittamista:  
 
 1. Voit viedä tiedot C5:stä käyttämällä **Vie tietokanta** -toimintoa. Pakkaa sitten viennin kansio.  
-2. Valitse [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksessa ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tietojen siirto** ja valitse **Tietojen siirto**.  
+2. Valitse [!INCLUDE[d365fin](includes/d365fin_md.md)]:ssä ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tietojen siirto** ja valitse **Tietojen siirto**.  
 3. Suorita asetusten ohjatun määrityksen oppaan vaiheet. Varmista, että valitset tietolähteeksi **Tuo Microsoft Dynamcis C5 2012 -versiosta** -kohdan.  
 
 ## <a name="viewing-the-status-of-the-migration"></a>Siirron tilan tarkasteleminen
@@ -148,5 +148,5 @@ Yksi tapa tarkistaa, että tiedot on siirretty oikein, on katsoa seuraavia C5:n 
 Voit pysäyttää tietojen siirron valitsemalla **Pysäytä kaikki siirrot**. Jos teet näin, kaikki odottavat siirrot pysäytetään.
 
 ## <a name="see-also"></a>Katso myös
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in mukauttaminen laajennusten avulla](ui-extensions.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md)  
 [Käytön aloittaminen](product-get-started.md)

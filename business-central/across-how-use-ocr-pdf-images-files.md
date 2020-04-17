@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c35ccb10ca67e66697002add56d518f3a7bacc0d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c9acd338493ca101d8b8061fb95b9a4faba8eabb
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305162"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187866"
 ---
 # <a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>PDF- ja kuvatiedostojen muuntaminen sähköisiksi asiakirjoiksi OCR-palvelun avulla
 Ulkoinen OCR (Optical Character Recognition) -palvelu voi luoda liikekumppaneilta vastaanotetuista PDF- tai kuvatiedostoista sähköisiä asiakirjoja, jotka voit muuntaa tiedostotietueiksi [!INCLUDE[d365fin](includes/d365fin_md.md)]issa. Kun esimerkiksi saat PDF-muotoisen laskun toimittajalta, voit lähettää sen OCR-palveluun **Saapuvat asiakirjat** -sivulta. Tämä kuvataan ensimmäisessä menettelytavassa.
@@ -30,7 +30,7 @@ Koska OCR perustuu optiseen tunnistukseen, OCR-palvelu tulkitsee todennäköises
 Tiedostojen liikenne OCR-palvelun kanssa sisään ja ulos käsitellään erillisinä työjonotapahtumana, jotka luodaan automaattisesti, kun otat liittyvän palveluyhteyden käyttöön. Lisätietoja on kohdassa [Saapuvien asiakirjojen määrittäminen](across-how-setup-income-documents.md).
 
 ## <a name="to-send-a-pdf-or-image-file-to-the-ocr-service-from-the-incoming-documents-page"></a>Voit lähettää PDF- tai kuvatiedoston OCR-palveluun **Saapuvat asiakirjat** -sivulta
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Saapuvat asiakirjat** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Saapuvat asiakirjat** ja valitse sitten liittyvä linkki.
 2. Luo uuden saapuvan asiakirjan tietueen ja liittää tiedoston. Lisätietoja on kohdassa [Saapuvien asiakirjatietueiden luominen](across-how-create-income-document-records.md).  
 3. Valitse **Saapuneet asiakirjat** -sivulla vähintään yksi rivi ja valitse sitten **Lähetä työjonoon** -toiminto.
 
@@ -107,7 +107,7 @@ Koska OCR perustuu optiseen tunnistukseen, OCR-palvelu tulkitsee todennäköises
 
 **OCR-tietojen korjaus** -sivulla, joka avataan **Saapuneet asiakirjat** -sivulta, näkyvät **Rahoituksellisia tietoja** -pikavälilehden kentät kahdessa sarakkeessa. Toinen sarake sisältää muokattavat OCR-tiedot ja toinen vain luku -tilassa olevat OCR-tiedot. Kun valitset **Lähetä OCR-palaute** -painike, **OCR-tietojen korjaus** -sivun sisältö lähetetään OCR-palveluun. Seuraavan kerran, kun palvelu käsittelee kyseisiä tietoja sisältäviä PDF- tai kuvatiedostoja, korjaukset otetaan huomioon, jotta vältetään samat virheet.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Saapuvat asiakirjat** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Saapuvat asiakirjat** ja valitse sitten liittyvä linkki.
 2. Avaa saapuva asiakirjatietue, joka sisältää OCR-palvelusta saadut tiedot, jonka haluat korjata.
 3. Valitse **Saapuva asiakirja** -sivulla **Korjaa OCR-tiedot** -toiminto.
 4. Korvaa **OCR-tietojen korjaus** -sivulla muokattavissa olevassa sarakkeessa kenttien virheelliset tiedot.

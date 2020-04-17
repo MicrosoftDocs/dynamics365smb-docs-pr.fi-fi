@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: cb898a459bdf5d0b4ced3baadd2a245cd23b8f38
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 1098e0998369e15bd9484ba33b808b9b435b538c
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311450"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192121"
 ---
 # <a name="accessibility-and-keyboard-shortcuts"></a>Helppokäyttötoiminnot ja pikanäppäimet
 Tässä ohjeaiheessa on tietoja toiminnoista, jotka helpottavat [!INCLUDE[d365fin](includes/d365fin_md.md)]:n käyttöä. [!INCLUDE[d365fin](includes/d365fin_md.md)] tukee seuraavia helppokäyttötoimintoja:  
@@ -48,18 +48,18 @@ Tässä ohjeaiheessa on tietoja toiminnoista, jotka helpottavat [!INCLUDE[d365fi
 
 -->
 
-##  <a name="Navigation"></a> Siirtyminen  
+##  <a name="navigation"></a><a name="Navigation"></a> Siirtyminen  
  Voit siirtyä valintanauhan välilehtien ja toimintojen, siirtymispalkin elementtien sekä muiden [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman sivujen ja raporttien välillä näppäimistön avulla. Voit siirtää kohdistuksen yhdestä välilehdestä, toiminnosta tai ohjausobjektista toiseen painamalla sarkainnäppäintä, jos haluat siirtyä eteenpäin. Jos haluat siirtyä taaksepäin, paina näppäinyhdistelmään vaihto+sarkain.  
 
  Voit siirtyä sarkaimella järjestyksessä pääselainsivun ja esimerkiksi vahvistusta pyytävän valintaikkunan tai kirjautumissivun välillä.  
 
-##  <a name="Headings"></a> Otsikot  
+##  <a name="headings"></a><a name="Headings"></a> Otsikot  
  [!INCLUDE[d365fin](includes/d365fin_md.md)]:n sisällön HTML-lähde käyttää tunnisteita, jotka auttavat helppokäyttötoimintojen käyttäjiä ymmärtämään sivun rakennetta ja sisältöä. Esimerkiksi luettelosivuilla sarakkeet määritetään TH.-tunnisteilla ja sarakeotsikot määritetään tunnisteen sisällä olevalla TITLE-määritteellä. Otsikkotunnisteet (H1, H2, H3 ja H4) sisältävät elementtien, kuten pikavälilehtien, tietoruutujen ja kenttien, selosteet.  
 
-##  <a name="Images"></a> Kuva ja linkit  
+##  <a name="image-and-links"></a><a name="Images"></a> Kuva ja linkit  
  Kuvien kuvaileva teksti määritetään IMG-tunnisteeseen sisältyvällä ALT-määritteellä. Hyperlinkkien kuvaileva teksti määritetään A-tunnisteeseen sisältyvällä TITLE-määritteellä.  
 
-##  <a name="AssistiveTech"></a> Käyttöä tukevat tekniikat  
+##  <a name="assistive-technologies"></a><a name="AssistiveTech"></a> Käyttöä tukevat tekniikat  
 [!INCLUDE[d365fin](includes/d365fin_md.md)] tukee erilaisia käyttöä helpottavia tekniikoita, kuten suurta kontrasti, näytönlukuohjelmia ja puheentunnistusohjelmistoja. Jotkin käyttöä helpottavat tekniikat eivät ehkä toimi hyvin tiettyjen [!INCLUDE[d365fin](includes/d365fin_md.md)]:n sivuelementtien kanssa.  
 
 ## <a name="for-more-accessibility-information"></a>Lisätietoja helppokäyttötoiminnoista  

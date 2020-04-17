@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 1fb7f049e253e70e9170c257848b3738dec9d176
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c73fd564211dd93a7c6f668e1753227811544074
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312170"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193633"
 ---
 # <a name="merge-duplicate-records"></a>Tietueiden kaksoiskappaleiden yhdistäminen
 Kun eri käyttäjät luovat uusia asiakkaan, toimittajan tai kontaktin kortteja ajan mittaan tai kun uusia tietueita luodaan automaattisesti siirron aikana, asiakkaalle, toimittajalle tai kontaktille voi tulla järjestelmään useita tietueita. Voit siinä tapauksessa käyttää säilytettävän tietueen kortin **Yhdistä kaksoiskappale** -sivua. Sivulla on yleiskatsaus kenttäarvoista, joilla on kaksoiskappaleita, ja toimintoja, joilla valitaan, mitkä arvot säilytetään tai hylätään, kun kaksi tietuetta yhdistetään.
@@ -30,7 +30,7 @@ Kun eri käyttäjät luovat uusia asiakkaan, toimittajan tai kontaktin kortteja 
 
 Seuraava toimenpide perustuu asiakaskorttiin. Toimittajan ja kontaktin korttien vaiheet ovat samankaltaisia.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Asiakkaat** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Asiakkaat** ja valitse sitten liittyvä linkki.
 2. Valitse asiakas, johon tiedät tai epäilet tietueen kaksoiskappaleen liittyvän, ja valitse sitten **Muokkaa**-toiminto.
 3. Valitse **Asiakkaan kortti** -sivulla **Yhdistä kohteeseen** -toiminto.
 4. Valitse **Yhdistä kaksoiskappale** -sivun **Yhdistä kohteeseen** -kentässä asiakas, jonka uskot olevan **Nykyinen**-kentän avatun asiakkaan kaksoiskappale.

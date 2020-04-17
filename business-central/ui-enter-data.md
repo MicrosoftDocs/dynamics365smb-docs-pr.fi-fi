@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/27/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 6a57af4a29e2b355dfe3f261a5d83fade992551d
-ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.openlocfilehash: 9405e285613c95e6c3bfcf19a5fc57e109b3f419
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "2992079"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194425"
 ---
 # <a name="entering-data"></a>Tietojen antaminen
 
@@ -29,7 +29,7 @@ Käytettävissä on useita pikanäppäimiä, joiden ansiosta hiiren käyttö ei 
 
 Lisätietoja pikanäppäimissä on kohdassa [Pikanäppäimet](keyboard-shortcuts.md). Tässä artikkelissa käsitellään muutamia pikanäppäimiä.
 
-## <a name="QuickEntry"></a>Tietojen syöttämisen helpottaminen pikatapahtuman avulla
+## <a name="accelerating-data-entry-using-quick-entry"></a><a name="QuickEntry"></a>Tietojen syöttämisen helpottaminen pikatapahtuman avulla
 
 Pikatapahtuma on näppäimistön avulla tapahtuvaa tietojen antamista varten suunniteltu ominaisuus. Pikatapahtumia voi käyttää kentissä (kuten korttisivuilla) ja luetteloissa (rivit ja sarakkeet). Siitä on hyötyä, jos kyse on toistuvista kirjoitustehtävistä, joissa on luotava peräkkäin toistuvia tietueita. Tällaisia ovat esimerkiksi myyntitilauserät tai uusien nimikkeiden rekisteröiminen.
 
@@ -86,11 +86,11 @@ Lisätietoja on kohdassa [Kopioinnin ja liittämisen usein kysytyt kysymykset](u
 
 ## <a name="filtering-line-items"></a>Rivinimikkeiden suodattaminen
 
-Aloita suodatus valitsemalla ![Suodatusruudun kuvake](media/open-filter-pane-icon.png "Suodatinruudun kuvake") luettelon yläosasta tai paina Vaihto+F3 avataksesi suodatuspaneelin. Voit käyttää suodatinruutua samalla tavoin kuin muitakin luetteloita. Lisätietoja on kohdassa [Suodattaminen](ui-enter-criteria-filters.md#Filtering).
+Aloita suodatus valitsemalla ![Suodatusruudun kuvake](media/open-filter-pane-icon.png "Suodatinruudun kuvake") luettelon yläosasta tai paina Vaihto+F3 avataksesi suodatuspaneelin. Voit käyttää suodatinruutua samalla tavoin kuin muitakin luetteloita. Lisätietoja on kohdassa [Suodattaminen](ui-enter-criteria-filters.md#filtering).
 
 Suodatuksesta on apua erityisesti silloin, kun tarkasteltava ja analysoitava asiakirja on pitkä. Oletetaan esimerkiksi, että avaat kirjatun myyntilaskun ja suodatat rivinimikkeet näyttämään kaikki rivinimikkeet, joilla on yli 5 %:n yksittäinen alennus, tai näytät suodatuksen avulla vain pyörän varusteet, joiden nimi sisältää sanan pro.
 
-## <a name="Focus"></a>Kohdistaminen rivinimikkeisiin
+## <a name="focusing-on-line-items"></a><a name="Focus"></a>Kohdistaminen rivinimikkeisiin
 
 Jos käsiteltävissä asiakirjoissa on rivinimikeosia, kuten myyntitilaus- tai laskusivu, voit siirtää kohdistuksen vain rivinimikkeisiin. Rivinimikeosa laajenee sitten niin, että se kattaa käytännössä koko työtilan ja piilottaa sivun kaikki muut osat paitsi yläreunassa olevan toimintojen osan. Saat tällä tavoin hyvän yleiskuvan rivinimikkeistä, ja sinulla on enemmän tilaa niiden käsittelemiseen.
 
@@ -113,6 +113,11 @@ Avaa nykyinen kortti tai asiakirja uudessa ikkunassa valitsemalla ![Avaa uusi ik
 > [!NOTE]
 > Jos käytössä on Safari-selain, ponnahdusikkunoiden esto voi estää uuden ikkunan avautumisen. Määritä siinä tapauksessa tuotteen URL-osoite sallituksi sivustoksi. Lisätietoja on kohdassa [Safarin asetusten muuttaminen](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
 > Sama voi tapahtua muissakin selaimissa, kuten Firefoxissa. Lisätietoja on kohdassa [Firefoxin ponnahdusikkunoiden eston asetukset](https://go.microsoft.com/fwlink/?LinkId=2116400).  
+
+Toinen tapa tehdä useita toimintoja samanaikaisesti on avata [!INCLUDE[d365fin](includes/d365fin_md.md)] kahdessa tai useammassa välilehdessä. Kun teet tämän, luo uusi välilehti ja kopioi/liitä alkuperäisen välilehden URL-osoite uuteen välilehteen. Tämä luo uuden istunnon.   
+
+> [!NOTE]
+> Älä käytä selaimen **Monista**-toimintoa uuden välilehden luomiseen, koska se voi aiheuttaa toimintoja yhdelle välilehdelle estämään muiden välilehtien toiminnot, koska ne ovat osa samaa istuntoa.
 
 ## <a name="entering-quantities-by-calculation"></a>Määrien antaminen laskutoimituksia käyttämällä
 

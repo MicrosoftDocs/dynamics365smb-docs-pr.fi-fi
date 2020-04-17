@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1583c17b63df4c4db37eec20ab204ef235d47512
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 6e7968f7e37e2bf1e1495331cf863aef34e7e7e4
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2952961"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188966"
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Liiketoimintatietojen vienti Exceliin
 Jos haluat käsitellä [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietoja Excelissä, voit avata kaikki luettelot Excelissä ja käsitellä niitä siellä. Jos haluat vastaavasti peruuttaa [!INCLUDE[d365fin](includes/d365fin_md.md)]in tilauksen, voit viedä tiedot Exceliin, jotta ne ovat edelleen käytettävissä.
@@ -66,12 +66,12 @@ Myös seuraavien sivujen tietojen vienti on suositeltavaa:
 > [!NOTE]  
 >   Jos olet määrittänyt [!INCLUDE[d365fin](includes/d365fin_md.md)]iin useita yrityksiä, kunkin yrityksen kyseiset tiedot on vietävä.
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Katso myös
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]-tilauksen peruuttaminen](admin-cancel.md)  
 [Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md)  
-[Rahoituslaskelmien analysointi Microsoft Excel](finance-analyze-excel.md):issä  
+[Rahoituslaskelmien analysointi Microsoft Excel:issä](finance-analyze-excel.md)  
 [Rahoitus](finance.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  

@@ -5,14 +5,14 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: profiles, users
-ms.date: 11/06/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4c485d722de2a51f22310308b102ed066b4f01d2
-ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
+ms.openlocfilehash: 50a67bf5d64cbf932801738d60b4477a7e3d9fde
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "2809031"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186498"
 ---
 # <a name="manage-profiles"></a>Profiilien hallinta
 Kaikille [!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäjille määritetään profiili, joka vastaa heidän liiketoimintorooliaan, osastoaan tai muuta luokittelua. Profiilien avulla järjestelmänvalvojat voivat määrittää ja hallita keskitetysti sitä, mitä erilaiset käyttäjätyypit voida nähdä ja tehdä käyttöliittymässä, jotta he voivat suorittaa työtehtäviään tehokkaasti.
@@ -79,12 +79,23 @@ Profiilia luotaessa valitaan erilaisia valintaruutuja, jotka määrittävät, on
     - **Mukauttamisen käytöstä poistaminen** määrittää, voivatko liittyvän rooli käyttäjät mukauttaa työtilaansa.
     - **Näytä roolin hallinta** -kohdassa, jos haluat määrittää, näytetäänkö profiiliin sisältyvissä liiketoimintatoiminnoissa toimintoja roolin hallinnan laajennetussa näkymässä. Lisätietoja on kohdassa [Sivujen etsiminen roolinhallinnalla](ui-role-explorer.md).
 
-## <a name="to-export-user-created-profiles"></a>Käyttäjän luomien profiilien vieminen
-Voit viedä joko itse muuttamasi tai käyttäjien muuttamat profiilit, mistä on ilmaisuna **Lähde**-kentän **(Käyttäjän luoma)** -kohta. Profiili viedään zip-tiedostoon, ja siinä on .al-tiedostot, joiden avulla voidaan kehittää laajennuksia. Lisätietoja on kohdassa [Profiilien ja sivun mukautusten luominen asiakasohjelman avulla](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
+## <a name="to-export-profiles"></a>Profiilien vieminen
+Voit viedä profiileja [!INCLUDE[d365fin](includes/d365fin_md.md)]:stä ja esimerkiksi käyttää niitä uudelleen toisessa vuokraajassa. Profiilit viedään zip-tiedostoon, ja siinä on .al-tiedostot, joiden avulla voidaan kehittää laajennuksia. Lisätietoja on kohdassa [Profiilien ja sivun mukautusten luominen asiakasohjelman avulla](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
 
-* Valitse **Profiilit (roolit)** -sivulla **Vie käyttäjän luomat profiilit** -toiminto.
+* Valitse **Profiilit (roolit)** -sivulla **Vie profiilit** -toiminto.
 
-Juuri lisättyjen tai muokattujen profiilien .al-tiedostot sisältävä zip-tiedosto viedään.
+Kaikkien profiilien .al-tiedostot sisältämä zip-tiedosto viedään.
+
+## <a name="to-import-profiles"></a>Profiilien tuominen
+Voit tuoda profiileja, jotka on viety [!INCLUDE[d365fin](includes/d365fin_md.md)]:stä. Vaiheet ovat suunnilleen päinvastaiset kuin profiilien viemisessä. Lisätietoja on kohdassa [Profiilien vieminen](admin-users-profiles-roles.md#to-export-profiles).
+
+1. Valitse **Profiilit (roolit)** -sivulla **Tuo profiilit** -toiminto.
+2. Seuraa ohjatun **Tuo profiilit** -toiminnon vaiheita.
+
+    Jos haluat tuoda vain valitut profiilit, osoita tuotavat profiilit **Valittu**-valintaruudun avulla.
+3. Valitse **Tuo valitut** -painike.
+
+Valittujen profiilien .al-tiedostot sisältävä zip-tiedosto tuodaan.
 
 ## <a name="to-delete-a-profile"></a>Profiilin poistaminen
 Voit poistaa profiilin valitsemalla **Poista**-toiminto **Profiilit (roolit)** -sivulla. Käytössä on kuitenkin seuraavat rajoitukset:

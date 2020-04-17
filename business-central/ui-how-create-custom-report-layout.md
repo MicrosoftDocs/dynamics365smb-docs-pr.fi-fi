@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 0b469458490d08475d81f767a88a99c84a4daad6
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: defa6662a66e23d70d519861dbacd6d5036da589
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953225"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189961"
 ---
 # <a name="create-and-modify-custom-report-layouts"></a>Raporttien mukautettujen asettelujen luominen ja muokkaaminen
 Oletusarvon mukaan raportilla on valmis raporttiasettelu, joka voi olla RDLC-raporttiasettelu, Word-raporttiasettelu tai molemmat. Et voi muuttaa valmiita asetteluita. Voit kuitenkin luoda omia mukautettuja asetteluita, joiden avulla voit muuttaa raportin ulkoasua, kun sitä tarkastellaan, tulostetaan tai tallennetaan. Voit luoda useita mukautettuja raporttiasetteluja samalle raportille ja vaihtaa sitten raportin käyttämää asettelua tarpeen mukaan.
@@ -51,7 +51,7 @@ Kun mukautettuja raportin asetteluita määritetään, voit valita ne asiakas- j
 
 Mukautettu asettelu on luotu. Voit nyt muokata mukautettua asettelua tarpeen mukaan.
 
-## <a name="ModifyCustomLayout"></a>Mukautetun asettelun muokkaaminen
+## <a name="modifying-a-custom-layout"></a><a name="ModifyCustomLayout"></a>Mukautetun asettelun muokkaaminen
 Voit muokata raporttiasettelua viemällä raporttiasettelun ensin tiedostona tietokone- tai verkkosijaintiin ja avaamalla sitten viedyn asiakirjan Wordissa ja tekemällä muutokset. Kun olet tehnyt haluamasi muutokset, voit tuoda raporttiasettelun.
 
 ### <a name="to-modify-a-custom-layout"></a>Mukautetun asettelun muokkaaminen
@@ -70,7 +70,7 @@ Voit muokata raporttiasettelua viemällä raporttiasettelun ensin tiedostona tie
 
 5. Etsi ja valitse raporttiasetteluasiakirja valitsemalla **Tuo**-valintaruudussa ensin **Valitse** ja sitten **Avaa**.
 
-##  <a name="MakeChangesToLayout"></a> Raporttien mukautettujen asettelujen luominen ja muokkaaminen  
+##  <a name="create-and-modify-custom-report-layouts"></a><a name="MakeChangesToLayout"></a> Raporttien mukautettujen asettelujen luominen ja muokkaaminen  
 Voit tehdä yleisiä muotoilu- ja asettelumuutoksia, kuten vaihtaa tekstin fontin sekä lisätä taulukon ja muokata sitä tai poista tietokentän, käyttämällä samoja Wordin perustoimintoja kuin muissakin Word-asiakirjoissa.
 
 Jos olet suunnittelemassa Wordin raporttiasettelua alusta tai lisäämässä uusia tietokenttiä, aloita lisäämällä taulukko, jossa on rivejä ja sarakkeita, jotka ovat lopulta tietokenttiä.
@@ -82,7 +82,7 @@ Jos olet suunnittelemassa Wordin raporttiasettelua alusta tai lisäämässä uus
 
 Upottamalla fontit Word-asiakirjaan voit varmistaa, että raportit näkyvät ja tulostuvat aiotuilla fonteilla riippumatta siitä, missä käyttäjä avaa tai tulostaa raportit. Huomaa kuitenkin, että fonttien upottaminen voi suurentaa merkittävästi Word-tiedostojen kokoa. Lisätietoja fonttien upottamisesta Wordiin on kohdassa [Fonttien upottaminen Wordissa, PowerPointissa tai Excelissä](https://support.office.com/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc).
 
-###  <a name="RemoveField"></a> Otsikko- ja tietokenttien poistaminen Word-asetteluissa  
+###  <a name="removing-label-and-data-fields-in-word-layouts"></a><a name="RemoveField"></a> Otsikko- ja tietokenttien poistaminen Word-asetteluissa  
  Raportin otsikko- ja tietokentät sisältyvät Wordin sisällön ohjausobjekteihin. Seuraavassa kuvassa on esitetty sisällön ohjausobjekti, kun se on valittuna Word-asiakirjassa.  
 
  ![Kentän sisällönhallinta Word-raporttiasettelussa](media/nav_wordreportlayouts_contentcontrol.png "NAV_WordReportLayouts_ContentControl")  
@@ -100,7 +100,7 @@ Upottamalla fontit Word-asiakirjaan voit varmistaa, että raportit näkyvät ja 
 ### <a name="adding-data-fields"></a>Tietokenttien lisääminen
 Tietokenttien lisääminen raportin tietojoukosta on kuitenkin lisäasetus ja edellyttää tietoja raportin tietojoukosta. Lisätietoja tieto-, otsikko- ja kuvakenttien lisäämisestä on kohdassa [Kenttien lisääminen Word-raporttiasetteluun](ui-how-add-fields-word-report-layout.md).  
 
-## <a name="see-related-training-at-microsoft-learnlearnmoduleschange-documents-dynamics-365-business-centralindex"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Katso myös
 [Raporttiasetteluiden hallinta](ui-manage-report-layouts.md)  

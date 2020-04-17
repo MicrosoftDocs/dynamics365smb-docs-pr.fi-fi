@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, bank, formats
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: cad6f64ee74dd2c359f16e1bb723282c2a703b97
-ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
+ms.openlocfilehash: aa738f326782bacdc5450bbd78ea0dffb5646fa5
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076487"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194065"
 ---
 # <a name="the-payments-and-reconciliations-dk-extension"></a>Maksujen ja täsmäytysten (DK) laajennus
 Tee nopeita ja virheettömiä maksuja tuomalla tiedostot, jotka on muotoiltu erityisesti toimittajan tai pankin kanssa tapahtuvia siirtoja varten. Nämä tiedostot nopeuttavat maksu- ja täsmäytysprosesseja ja eliminoivat virheet, joita voi tapahtua tietojen manuaalisessa syöttämisessä pankin sivustossa.  
@@ -101,5 +101,4 @@ Seuraavassa taulukossa ovat [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelma
 ## <a name="see-also"></a>Katso myös .
 [Business Central -sovelluksen mukauttaminen [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmaa varten laajennusten avulla](ui-extensions.md)  
 [Maksujen kerääminen SEPA-suoraveloitusperintänä.](finance-collect-payments-with-sepa-direct-debit.md)  
-[SEPA-suoraveloitusmaksujen kirjaaminen](finance-how-to-post-sepa-direct-debit-payment-receipts.md)  
 [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md)  

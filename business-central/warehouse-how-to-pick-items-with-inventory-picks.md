@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 0f6f157de1d3d65eddf7e2db9c40f27ec56443de
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 0a9b9e2efefeb1bf3452ae4198c632a91a227bf6
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2876629"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193009"
 ---
 # <a name="pick-items-with-inventory-picks"></a>Nimikkeiden poiminta varastopoiminnalla
 Kun sijainti on määritetty vaatimaan poiminnan prosessointia, mutta ei toimituksen prosessointia, käytä **Varaston poiminta** -sivua lähdeasiakirjan poiminnan ja toimituksen tietojen tallennuksessa ja kirjaamisessa. Lähtevä lähdeasiakirja voi olla myyntitilaus, ostopalautustilaus, lähtevä siirtotilaus tai tuotantotilaus, jonka osat ovat valmiina poimittaviksi.

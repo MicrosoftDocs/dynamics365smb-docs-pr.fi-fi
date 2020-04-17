@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: d35c6dec3eee09ec72a09325dcc527c18dc9b8c4
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: fe91ed57af6a93f874ead85f53c97358068e0b4c
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2876677"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192962"
 ---
 # <a name="pick-items-for-warehouse-shipment"></a>Nimikkeiden poiminta fyysisen varastoinnin toimitusta varten
 Kun varastossa on määritetty pakolliseksi sekä fyysisen varastoinnin poiminnan käsittely että fyysisen varastoinnin toimituksen käsittely, voit luoda ja käsitellä poimintatietoja fyysisen varastoinnin poiminta-asiakirjojen avulla.  

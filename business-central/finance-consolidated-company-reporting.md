@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 2455cbf74520ddbc2ddb6ba6ae2e02064370ac2d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: fc026d34c39b7f045100e16024d971493041fb80
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302474"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183858"
 ---
 # <a name="consolidating-financial-data-from-multiple-companies"></a>Usean yrityksen kirjanpitotietojen konsolidoiminen
 Jos sinulla on useita [!INCLUDE[d365fin](includes/d365fin_md.md)]-yrityksiä, kirjanpitäjän roolikeskuksen Konsolidoitu alust. tulos/tase -raportti antaa yleiskuvan liiketoiminnan taloudellisesta tilanteesta.  

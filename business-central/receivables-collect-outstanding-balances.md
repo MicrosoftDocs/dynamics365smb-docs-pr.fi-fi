@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 01/20/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 73e488270862e62a237575929caa3753b4c7f545
-ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.openlocfilehash: ec17c59ebbc336cf6c4757be447ff7765098c816
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "2991974"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190681"
 ---
 # <a name="collect-outstanding-balances"></a>Avointen saldojen perintä
 Myyntisaamisten hallintaan kuuluu sen tarkistaminen, onko erääntyneet summat maksettu ajoissa. Jos asiakkailla on erääntyneitä maksuja, voit aloittaa lähettämällä heille asiakkaan tiliotteen raportin muistutuksena. Vaihtoehtoisesti voit lähettää muistutuksia.
@@ -263,7 +263,7 @@ Kun lähetät muistutuksen, muistutustapahtuma luodaan **Muistutus-/viivästysku
 2. Avaa kyseessä olevan asiakkaan kortti ja valitse **Tapahtumakirjaukset**-toiminto.
 3. Valitse **Asiakastapahtumat**-sivulla tapahtumarivi, jonka muistutukset haluat nähdä, ja valitse sitten **Muistutus-/viivästyskulutapah.**-toiminto.
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsprocess-financial-periodic-activities-dynamics-365-business-central"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/paths/process-financial-periodic-activities-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/paths/process-financial-periodic-activities-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
 [Myyntisaamisten hallinta](receivables-manage-receivables.md)  

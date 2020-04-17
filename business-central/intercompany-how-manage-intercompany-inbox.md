@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: incoming document
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9bdeb10b10c7d31ded2036f4240e6b430bf2cc4d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 652ad700a4e2d979620560f1f5ba543d07f08832
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308483"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182466"
 ---
 # <a name="manage-the-intercompany-inbox-and-outbox"></a>Konsernin Saapuneet- ja Lähtevät-kansion hallinta
 Kaikki konsernikumppaneilta sähköisesti vastaanotetut konsernitapahtumat näkyvät konsernin Saapuneet-kansiossa.  
@@ -56,7 +56,7 @@ Voit määrittää järjestelmän ohittamaan Saapuneet- ja Lähtevät-kansiot va
 ## <a name="to-import-intercompany-transactions-from-a-file"></a>Konsernitapahtumien tuominen tiedostosta  
 Jos konsernikumppani ja oma yritys ovat eri tietokannoissa, voit vastaanottaa konsernin tapahtumia kyseiseltä kumppanilta .xml-tiedostona. Tapahtumat täytyy tämän jälkeen tuoda Saapuneet-kansioon.  
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Yrityksen tiedot** ja valitse sitten liittyvä linkki.
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Yrityksen tiedot** ja valitse sitten liittyvä linkki.
 2. Tallenna tiedosto sijaintiin, jonka olet määrittänyt **Yrityksen tiedot** -sivun **Konsernin Saapuneet-kansion tiedot** -kentässä.  
 3. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Konsernin Saapuneet-kansion tapahtumat** ja valitse sitten liittyvä linkki.
 4. Valitse **Konsernin Saapuneet-kansion tapahtumat** -sivulla **Tuo tapahtumatiedosto** -toiminto.  
@@ -67,7 +67,7 @@ Tapahtumat tuodaan Saapuneet-kansioon. Niitä voi nyt käsitellä.
 ## <a name="to-process-incoming-intercompany-transactions"></a>Saapuvien konsernitapahtumien käsitteleminen  
 Konsernikumppanien sinulle lähettämät konsernin tapahtumat tulevat konsernin Saapuneet-kansioon. Jokainen Saapuneet-kansion tapahtuma täytyy arvioida ja käsitellä erikseen.  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Konsernin Saapuneet-kansion tapahtumat** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Konsernin Saapuneet-kansion tapahtumat** ja valitse sitten liittyvä linkki.  
 2. Käsittele rivi valitsemalla **Konsernin Saapuneet-kansion tapahtumat** -sivulla ensin rivi ja sitten toiminto, kuten **Hyväksy**.
 3. Täytä **Tot. kons. Saap.-kansion toim.** -sivulla tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Valitse **OK**-painike.  

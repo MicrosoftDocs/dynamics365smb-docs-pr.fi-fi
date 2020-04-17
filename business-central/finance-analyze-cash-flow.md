@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 3e66c2d6beb24c82fcd314caeac00f3c7b20412a
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 5a13d461bd4764173e7d674ef35f5fa32f11318b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953153"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184002"
 ---
 # <a name="analyzing-cash-flow-in-your-company"></a>Yrityksen kassavirran analysoiminen
 Käteisvarat ovat tunnetusti tärkeitä. Kirjanpitäjä-roolikeskuksesta saa tietoja, joiden avulla voi päättää järkevästi käteisvarojen käytöstä.  
@@ -49,7 +49,7 @@ Jos haluat tarkastella ennustetta, voit perehtyä ennustetapahtumien lisäksi my
 2. Valitse ensin kassavirtaennustee ja sitten **Kassavirtatyökirja**-toiminto.  
 3. Valitse **Kassavirtatyökirja**-sivulla **Ehdota työkirjan rivejä** -toiminto.  
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesforecast-cash-flow-dynamics-365-business-centralindex"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Katso myös
 [Rahoituksen määrittäminen](finance-setup-finance.md)  

@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.workload: na
 ms.search.keywords: project management, task
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4ac7fc5f7b3a7d4510ccf75002ca720eaae47e77
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2dd4dfa75f5ff8fc127da1e6981b3a23641362f0
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312914"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191281"
 ---
 # <a name="create-jobs"></a>Projektien luominen
 Uuden projektin aloittamisen yhteydessä on luotava projektikortti sekä integroidut projektitehtävät ja projektin suunnittelurivit kahteen eri tasoon.  
@@ -30,7 +30,7 @@ Tason rakenteen avulla voit jakaa projektin pienemmiksi tehtäviksi ja käyttä�
 ## <a name="to-create-a-job-card"></a>Projektikortin luominen
 Luo projektikortti ja luo sitten projektikortille työtehtävä ja projektin suunnittelurivit.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektit** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Työt** ja valitse sitten liittyvä linkki.  
 2. Valitse **Uusi**-toiminto ja täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Voit määrittää projektille muiden projektien tiedot valitsemalla **Kopioi projekti** -toiminnon, täyttämällä tarvittavat kentät ja valitsemalla sitten **OK**-painikkeen.
 
@@ -40,7 +40,7 @@ Luo projektikortti ja luo sitten projektikortille työtehtävä ja projektin suu
 ## <a name="to-create-tasks-for-a-job"></a>Luo projektille tehtäviä
 Projektin luomisen keskeinen osa on määrittää siihen liittyvät tehtävät. Se tehdään lisäämällä **Projektikortti**-sivun **Tehtävät**-pikavälilehteen yksi tehtävä riville. Jokaisella projektilla on oltava vähintään yksi tehtävä.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektit** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Työt** ja valitse sitten liittyvä linkki.
 2. Avaa asianmukaisen projektin projektikortti.
 3. Täytä **Tehtävät**-pikavälilehden uuden rivin kentät tarvittaessa.
 4. Kun haluat sisentää tehtäviä ja luoda hierarkian, valitse **Tehtävät**-toiminto ja sen jälkeen **Sisennä projektitehtävät** -toiminto.
@@ -60,7 +60,7 @@ Projektin suunnittelurivin tyyppi voi olla jokin seuraavista tyypeistä.
 
 **Huomautus**. Kustannustiedot täytetään automaattisesti projektin suunnittelurivien tietojen lisäyksen aikana. Esimerkiksi resurssien ja nimikkeiden kustannus, hinta ja alennus perustuvat resurssin ja nimikkeen kortteihin määritettyihin tietoihin.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektit** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Työt** ja valitse sitten liittyvä linkki.
 2. Avaa sopiva projektikortti.
 3. Valitse projektitehtävä, jonka **Projektitehtävätyyppi**-kentän arvo on **Kirjaus**. Valitse sitten **Projektin suunnittelurivit** -toiminto.  
 4. Täytä **Projektin suunnittelurivit** -sivun uuden rivin tarvittavat kentät.

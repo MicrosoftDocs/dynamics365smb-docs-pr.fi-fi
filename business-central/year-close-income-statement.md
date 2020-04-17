@@ -1,8 +1,6 @@
 ---
 title: Tuloslaskelmatilien sulkeminen | Microsoft Docs
 description: Vuositilinpäätöksessä on suoritettava Sulje tuloslaskelma -etätyö, jolla suljetaan tilikauden muodostavat kirjanpitojaksot.
-services: project-madeira
-documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: fd811a1a472efe53fe1c16bd5c301925d424f274
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 059fda6f088c73c32f82a4029976e7ae6acd40f4
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313926"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195825"
 ---
 # <a name="close-income-statement-accounts"></a>Tuloslaskelmatilien sulkeminen
 Kun tilikausi on ohi, sinun täytyy päättää tilikauteen sisältyvät kirjanpitojaksot. Voit tehdä sen ajamalla **Sulje tuloslaskelma** -eräajon. Tämä ajo siirtää vuoden tuloksen tilille taseeseen ja sulkee tuloslaskelmatilit. Voit tehdä tämän luomalla rivejä päiväkirjaan, jonka sitten voit kirjata.
@@ -37,7 +35,8 @@ Niillä riveillä, jotka eräajo syöttää päiväkirjan riveille, on aina tili
 **Sulje tuloslaskelma** -eräajoa voi käyttää monta kertaa. Jos suoritat eräajon uudelleen, voit kirjata edelliselle tilikaudelle vielä tuloslaskelmatilien päättämisen jälkeenkin.
 
 ## <a name="see-also"></a>Katso myös
+
 [Kirjojen sulkeminen](year-close-books.md)  
 [Vuositilinpäätöstapahtuman kirjaaminen](year-how-post-year-end-close-entry.md)  
-[Uuden tilikauden avaaminen](finance-how-open-new-fiscal-year.md)  
+[Kirjanpitojaksojen ja tilikausien käyttäminen](finance-accounting-periods-and-fiscal-years.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)

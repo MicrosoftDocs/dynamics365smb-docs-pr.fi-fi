@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 7253e4fc4e4f1418a7c9bd1e2ac5e19298e4fb57
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6f8935ed6a8ca2ac806dd746a0376210d5e8abbf
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308332"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185994"
 ---
 # <a name="business-intelligence"></a>Business Intelligence
 Yritykset hankkivat päivittäisessä toiminnassaan valtavia määriä tietoja. Nämä tiedot voivat kuvata esimerkiksi organisaation myyntilukuja, ostoja, toimintakuluja, työntekijöiden palkkoja ja budjetteja, ja ne voivat olla päätöksentekijöille arvokasta liiketoimintatietoa. [!INCLUDE[d365fin](includes/d365fin_md.md)] sisältää erinäisiä toimintoja, joiden avulla voit kerätä, analysoida ja jakaa yrityksen tietoja.
@@ -37,6 +37,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 |Analyysinäkymän määrittäminen tietojen analysointia varten dimensioiden avulla.|[Analysoi tiedot mittojen mukaan](bi-how-analyze-data-dimension.md)|
 |Uusien analyysiraporttien luominen myyntejä, ostoja ja varastoa varten sekä analyysimallien määrittäminen.|[Analyysiraporttien luominen](bi-how-create-analysis-views-reports.md)|
 |Ota käyttöön kansainvälisten kirjanpitojärjestöjen maailmanlaajuinen taloudellinen raportointi eXtensible Business Reporting Language -kielen avulla.|[Luo raportteja XBRL-linkityksellä.](bi-create-reports-with-xbrl.md)|
+|Tietokannan käyttötarkoituksen muuttaminen raporteissa, API-tyyppisillä sivuilla ja kyselyissä, jotta latauskuorma vähenee ja suorituskyky paranee.|[Tietokannan käyttötarkoituksen hallinta](admin-data-access-intent.md)|
 
 ## <a name="see-also"></a>Katso myös
 [Rahoitus](finance.md)    

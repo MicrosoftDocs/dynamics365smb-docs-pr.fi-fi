@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9aec5c57c66ce39bc9d314dc257e2a801ed961ea
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 4fd911a708a929a9c73270c05b7729d17d84ec13
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2952744"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186138"
 ---
 # <a name="create-reports-with-xbrl"></a>Luo raportteja XBRL-linkityksellä.
 XBRL, joka tarkoittaa eXtensible Business Reporting Language, on XML-pohjainen kieli taloudellisten tietojen merkitsemiseen ja yrityskäyttöön, jotta nämä voivat tehokkaasti ja tarkasti käsitellä ja jakaa tietojaan. XBRL-aloite sallii lukuisten ERP-ohjelmistoyritysten ja kansainvälisten kirjanpitojärjestöjen tekemän maailmanlaajuisen taloudellisen raportoinnin. Aloitteen tavoitteena on tarjota standardi pankkien, sijoittajien ja julkishallinnon taloudellisen tiedon raportointiin. Liiketoiminnan raportointi voi olla:  
@@ -105,7 +105,7 @@ Kun taksonomia muuttuu tulee nykyinen taksonomia päivittää sen mukaiseksi. Sy
 6.  Tuo linkkikanta valitsemalla **Tuo**-toiminto.  
 7.  Valitse **Kyllä**, niin voit kohdistaa linkkikannan malliin.  
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesxbrl-reports-dynamics-365-business-centralindex"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/xbrl-reports-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/xbrl-reports-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Katso myös
 [Rahoitus](finance.md)    

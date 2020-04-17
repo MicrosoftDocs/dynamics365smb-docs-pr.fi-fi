@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 5562e13a2b430c6f7d3e8875b5b87dbe8febf670
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: e531088146dedb429e6a261f52acf39054b158d4
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2876558"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3196233"
 ---
 # <a name="restructure-warehouses"></a>Fyysisten varastojen uudelleenjärjestely
 Haluat ehkä järjestellä fyysisen varaston uudelleen käyttämällä uusia varastopaikan koodeja ja uusia varastopaikan ominaispiirteitä. Tällaista toimintoa ei suoriteta kovin usein, mutta eteen voi tulla tilanteita, jolloin uudelleenluokittelu on tarpeen, jotta saavutettaisiin tai ylläpidettäisiin tehokkaampaa toimintaa. Esimerkiksi:  

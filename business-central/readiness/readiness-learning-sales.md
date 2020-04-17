@@ -2,15 +2,15 @@
 title: Kumppanimyynti- ja markkinointiopintoluettelo
 description: Etsi kaikki käytettävissä olevat opinnot Business Centralille.
 author: loreleishannonmsft
-ms.date: 02/19/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.author: v-lshann
-ms.openlocfilehash: 0e5dd14a9d7da8ea6dc25623f15338ace7d11e80
-ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
+ms.openlocfilehash: 6c9a8952a5f0bc0144665eedd92f5c8c2384a344
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "3097621"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190730"
 ---
 # <a name="partner-sales-and-marketing-learning-catalog"></a>Kumppanimyynti- ja markkinointiopintoluettelo
 
@@ -18,7 +18,7 @@ Oletko vastuussa siitä, että autat asiakkaita ostamaan oikean ratkaisun?
 
 Seuraava luettelo on järjestetty perustiedoista tiettyihin toimialueisiin ja perustiedoista kaikkein kehittyneimpiin. Jos sisältöä on useissa muodoissa, ilmoitamme siitä sinulle, jotta voit valita tarpeitasi parhaiten vastaavan koulutusmuodon.  
 
-## Liiketoiminta-arvo<a name="busvalue"></a>
+## <a name="business-value"></a>Liiketoiminta-arvo<a name="busvalue"></a>
 
 | Sisältö                                                                          | Kuvaus                                                                                                                                                                                                                                                                                              | Muoto                                | Pituus              |
 |---------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|---------------------|
@@ -26,7 +26,7 @@ Seuraava luettelo on järjestetty perustiedoista tiettyihin toimialueisiin ja pe
 | [Tutki Dynamics 365 Business Central -ominaisuuksia](https://dynamics.microsoft.com/business-central/capabilities/) | Tutki Dynamics 365 Business Central -ominaisuuksia                                                                                                                                                                                                                                                        | Sivusto                               |                     |
 | [Dynamics 365 Business Central](https://docs.microsoft.com/learn/modules/dynamics-365-business-central/)            | Tämä moduuli näyttää sovelluksen ominaisuudet, hyödyt ja esimerkit Dynamics 365 Business Centralista käytännössä.                                                                                                                                                                                                | Ilmainen, omaan tahtiin etenevä verkko-oppimispolku | 24 minuuttia          |
 
-## Käytön aloittaminen<a name="get-started"></a>
+## <a name="getting-started"></a>Käytön aloittaminen<a name="get-started"></a>
 
 | Sisältö                                                                                                                             | Kuvaus                                                                                                                                                                                                                                                                                               | Muoto                                | Pituus              |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|---------------------|
@@ -35,7 +35,7 @@ Seuraava luettelo on järjestetty perustiedoista tiettyihin toimialueisiin ja pe
 | [Käsittele Business Central -tietoja kuin ammattilainen](https://docs.microsoft.com/learn/paths/work-pro-data-dynamics-365-business-central)                                    | Oletko juuri aloittanut Business Centralin käytön? Tämä oppimispolku auttaa sinua valmistautumaan Business Centralin tietotyyppeihin ja siihen, miten löydät tarvitsemasi tiedot sovelluksesta.                                                                                                           | Ilmainen, omaan tahtiin etenevä verkko-oppimispolku | 2 tuntia 27 minuuttia  |
 | [Business Central YouTube -soittolista](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4)                                                                | YouTuben saapumissivu Dynamics 365 Business Central -videoille                                                                                                                                                                                                                                             | YouTube-videot                        |                     |
 
-## Liiketoiminta-arvo<a name="busvalue"></a>
+## <a name="business-value"></a>Liiketoiminta-arvo<a name="busvalue"></a>
 
 | Sisältö                                                                          | Kuvaus                                                                                                                                                                                                                                                                                               | Muoto                                | Pituus              |
 |---------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|---------------------|
@@ -43,7 +43,7 @@ Seuraava luettelo on järjestetty perustiedoista tiettyihin toimialueisiin ja pe
 | [Tutki Dynamics 365 Business Central -ominaisuuksia](https://dynamics.microsoft.com/business-central/capabilities/) | Tutki Dynamics 365 Business Central -ominaisuuksia                                                                                                                                                                                                                                                        | Sivusto                               |                     |
 | [Dynamics 365 Business Central](https://docs.microsoft.com/learn/modules/dynamics-365-business-central/)            | Tämä moduuli näyttää sovelluksen ominaisuudet, hyödyt ja esimerkit Dynamics 365 Business Centralista käytännössä.                                                                                                                                                                                                | Ilmainen, omaan tahtiin etenevä verkko-oppimispolku | 24 minuuttia          |
 
-## Kasvata yritystäsi<a name="grow"></a>
+## <a name="grow-your-business"></a>Kasvata yritystäsi<a name="grow"></a>
 
 | Sisältö                                                                                                                               | Kuvaus                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | Muoto                                | Pituus                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: bd4f9ea57e0c21cd5398830bbcdddecf68e9c4c0
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ff621150cca478f56edd113832e2253d73f7698c
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314794"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195697"
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Vaihekuvaus: Poiminta ja toimitus fyysisen varastoinnin perusmäärityksissä
 
@@ -58,14 +58,14 @@ Tämän vaihekuvauksen ohjeiden noudattamisen edellytykset:
 -   CRONUS Finland Oy on asennettu.  
 -   Tee itsestäsi fyysisen varaston työntekijä HOPEISESSA sijainnissa tekemällä seuraavat toimet:  
 
-    1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Varaston työntekijät** ja valitse sitten liittyvä linkki.  
+    1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Varastotyöntekijät** ja valitse sitten liittyvä linkki.  
     2.  Valitse ensin **Käyttäjätunnus**-kenttä ja valitse oma käyttäjätilisi **Käyttäjät**-sivulla.  
     3.  Kirjoita **Sijaintikoodi**-kenttään HOPEA.  
     4.  Valitse **Oletus**-kenttä.  
 
 -   Valmistusnimike LS-81 saatavilla HOPEA-sijaintiin seuraavasti:  
 
-    1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikepäiväkirjat** ja valitse sitten liittyvä linkki.  
+    1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Nimikepäiväkirjat** ja valitse sitten liittyvä linkki.  
     2.  Avaa oletuspäiväkirja ja luo kaksi nimikepäiväkirjan riviä seuraavilla käsittelypäivämäärän tiedoilla (23. tammikuuta).  
 
         |Tapahtuman tyyppi|Nimikenumero|Sijaintikoodi|Varastopaikan koodi|Määrä|  
@@ -82,7 +82,7 @@ Ellen, CRONUS:n varastopäällikkö, määrittää HOPEISEN varaston Basic-poimi
 **Sijaintikortti**-sivun asetuksissa määritellään yrityksen varaston työnkulut.  
 
 ### <a name="to-set-up-the-location"></a>Sijainnin määrittäminen  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sijainnit** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Sijainnit** ja valitse sitten liittyvä linkki.  
 2.  Avaa asianmukaisen HOPEA sijainnin kortti.  
 3.  Valitse **Vaadi poiminta** -valintaruutu.  
 
@@ -90,7 +90,7 @@ Ellen, CRONUS:n varastopäällikkö, määrittää HOPEISEN varaston Basic-poimi
 Myyntitilaukset ovat yleisin lähtevien lähdeasiakirjojen tyyppi.  
 
 ### <a name="to-create-the-sales-order"></a>Myyntitilauksen luominen  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Myyntitilaukset** ja valitse sitten liittyvä linkki.  
 2.  Valitse **Uusi**-toiminto.  
 3.  Luo myyntitilaus asiakkaalle 10000 (23.1.) käsittelypäivämääränä seuraavien myyntitilausrivin kanssa.  
 
@@ -108,7 +108,7 @@ Myyntitilaukset ovat yleisin lähtevien lähdeasiakirjojen tyyppi.
 **Varaston poiminta** -sivulla voit hallita kaikkia tietyn lähdeasiakirjan lähteviä varastointiaktiviteetteja, kuten myyntitilaus.  
 
 ### <a name="to-pick-and-ship-items"></a>Nimikkeiden poiminta ja lähettäminen  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varaston poiminnat** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Varaston poiminnat** ja valitse sitten liittyvä linkki.  
 2.  Valitse **Uusi**-toiminto.  
 3.  Valitse **Lähdeasiakirja**-kenttä ja sitten **Myyntitilaus**.  
 4.  Valitse **Lähdenro**-kentässä asiakkaalle 10000 tehdyn myynnin rivi ja valitse sitten **OK**.  

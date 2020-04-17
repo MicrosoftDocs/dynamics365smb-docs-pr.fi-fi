@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 101fa49a803f03d805bbcdeba4066f34323ad578
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6168b8a14bc520f811db231e9d8f885e7372a3d6
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303345"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185202"
 ---
 # <a name="design-details-known-item-application-issue"></a>Rakennetiedot: Nimikkeen kohdistuksen tunnettu ongelma
 Tässä artikkelissa kerrotaan ongelmasta, jossa varastomäärä on nolla, vaikka [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmassa on avoimia nimiketapahtumia.  
@@ -54,7 +54,7 @@ Artikkelin alussa kerrotaan ongelman tyypilliset oireet. Tämän jälkeen käsit
 
  Seuraavassa kaaviossa näytetään, miten määrän kohdistukset tehdään.  
 
-![Prosessi kustannusmuutoksesta ostoista myyntiin](media/helene/TechArticleInventoryZero2.png "Prosessi kustannusmuutoksesta ostoista myyntiin")
+![Kustannusten oikaisuprosessi ostoista myyntiin](media/helene/TechArticleInventoryZero2.png "Kustannusten oikaisuprosessi ostoista myyntiin")
 
  Huomaa, että nimiketapahtuma 1 (osto) on sekä nimikkeen toimittaja että kohdistetun nimiketapahtuman kustannuslähde, nimiketapahtuma 2 (myynti).  
 
@@ -78,7 +78,7 @@ Seuraavassa kaaviossa näytetään, miten kustannusten kohdistukset tehdään.
 
  Seuraavassa kaaviossa esitetään kustannusvirta.  
 
-![Prosessi kustannusmuutoksesta myynnistä myyntipalautukseen](media/helene/TechArticleInventoryZero4.png "Prosessi kustannusmuutoksesta myynnistä myyntipalautukseen")
+![Kustannusten oikaisuprosessi myynnistä myyntipalautuksiin](media/helene/TechArticleInventoryZero4.png "Kustannusten oikaisuprosessi myynnistä myyntipalautuksiin")
 
  Huomaa, että kustannus ohjataan edelleen nimiketapahtumalle 2 (myynti), tämän jälkeen nimiketapahtumalle 3 (myyntipalautus) ja lopulta nimiketapahtumalle 4 (myynti 2).  
 
@@ -91,7 +91,7 @@ Seuraavassa kaaviossa näytetään, miten kustannusten kohdistukset tehdään.
 
  Seuraavassa kaaviossa näytetään, miten nimikkeen kohdistukset tehdään kummassakin skenaariossa.  
 
-![Kustannusmuutosten prosessi tapahtuu molempiin suuntiin](media/helene/TechArticleInventoryZero6.png "Kustannusmuutosten prosessi tapahtuu molempiin suuntiin")  
+![Kustannusten oikaisuprosessi tapahtuu molempiin suuntiin](media/helene/TechArticleInventoryZero6.png "Kustannusten oikaisuprosessi tapahtuu molempiin suuntiin")  
 
  Huomaa, että kustannuksen kohdistus (siniset nuolet) tehdään, jotta voidaan varmistaa nimiketapahtuman 2 (myyntipalautus) liittäminen samoihin kustannuksiin, joihin sen peruuttama nimiketapahtuma 1 (myynti 1) on liitetty. Määrän kohdistusta (punaiset nuolet) ei tehdä.  
 

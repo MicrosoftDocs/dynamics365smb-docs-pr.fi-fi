@@ -5,23 +5,23 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.search.keywords: setup wizard
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4ae2faf57007bef9525134fbdc1232e8c0103d56
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 62ee42fe2b6e03ad1137a50a38c1cd2ee4bfcd0f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2954257"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190153"
 ---
-# <a name="getting-started-with-included365fin_longincludesd365fin_long_mdmd"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]in käytön aloittaminen
+# <a name="getting-started-with-d365fin_long"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]in käytön aloittaminen
 [!INCLUDE[d365fin](includes/d365fin_md.md)] on pienille ja keskisuurille organisaatioille tarkoitettu liiketoiminnan hallintaratkaisu, joka automatisoi ja selkeyttää liiketoiminnan prosesseja sekä auttaa liiketoiminnan hallinnassa. Rekisteröityminen on helppoa, ja voit siirtää aiemmin luodut yritystiedot vanhojen tietojen järjestelmästä.  
 
 Jos tarvitset apua tilaukseen liittyvissä asioissa, etsi [!INCLUDE[d365fin](includes/d365fin_md.md)] -kumppani. Lisätietoja on kohdassa [Miten löydän jälleenmyyjäpartnerin?](across-faq.md#findpartner).  
 
 Kun olet rekisteröitynyt [!INCLUDE [prodshort](includes/prodshort.md)]iin, saat käyttöösi käyttää esittely-yrityksen. Esittely-yritys sisältää mallitietoja. Voit kuitenkin luoda esimerkiksi uusia myyntiasiakirjoja tai määrittää pankkitilin. Jos kuitenkin haluat käyttää [!INCLUDE [prodshort](includes/prodshort.md)]ia liiketoimintasi apuna, sinun täytyy ottaa yhteyttä [!INCLUDE [prodshort](includes/prodshort.md)] -jälleenmyyjäkumppaniin ja ostaa tilaus. Lisä tietoja kokeiluista ja tilauksista on kohdassa [Kokeilut ja tilaukset](across-preview.md).  
 
-## <a name="get-to-know-included365finincludesd365fin_mdmd"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)]iin tutustuminen
+## <a name="get-to-know-d365fin"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)]iin tutustuminen
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)]issa on sekä tuttuja että uusia ominaisuuksia. Käteviä vihjeitä on seuraavissa kohdissa:  
 
@@ -38,20 +38,20 @@ Liiketoimintapäällikkö- ja kirjanpitäjä-roolikeskukset sisältävät esitte
 
 Kun olet valmis aloittamaan käytön ja haluat tutustua tiettyihin [!INCLUDE[d365fin](includes/d365fin_md.md)]in tukemiin liiketoimintaprosesseihin, lisätietoja on kohdassa [Liiketoiminnan toiminnallisuudet](across-business-functionality.md).
 
-Ennen toimintojen käyttämistä on tehtävä tietyt asetukset. Lisätietoja on myös kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittäminen](setup.md)  
+Ennen toimintojen käyttämistä on tehtävä tietyt asetukset. Voit aloittaa yksinkertaisesti valitsemalla ![Hammaspyöräkuvake Asetukset-valikon avaamista varten](media/ui-experience/settings_icon_small.png) -kuvakkeen ja sitten **Asetusten ohjattu määritys** -toiminnon. Lisätietoja on myös kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittäminen](setup.md)  
 
 > [!TIP]
-> Jotkin asetusvaiheet saatetaan suorittaa puoliautomaattisesti asetusten ohjattujen määritysoppaiden avulla.
+> Jotkin asetusvaiheet saatetaan suorittaa puoliautomaattisesti asetusten ohjattujen määritysoppaiden avulla. Muut vaativat manuaalisen asetuksen. Luettelo löytyy **Lisäasetukset**-sivulta.
+
+<!--Some Role Center pages provide a **Setup and Extensions** button. Here you have access to a list of assisted setup guides that can help you get started by setting selected areas up quickly. If an area is not covered by an assisted setup, choose the **Manual Setup** action to access setup pages where you can fill in setup fields for all areas manually. For more information, see also [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
+
+> [!NOTE]
+> The list of setup guides, extensions, and services that are available differ depending on the user experience you choose for your company. The **Essential** experience gives access to fewer than the **Premium** experience does. The first time you sign in, you use the Essential experience. For more information, see [Change Which Features are Displayed](ui-experiences.md).  -->
 
 Nykyisten ja suunniteltujen ominaisuuksien yleiskatsaus on julkaisusuunnitelmassa kohdassa [Microsoft Dynamics 365 Business Centralin julkaisusuunnitelma](https://go.microsoft.com/fwlink/?linkid=2047422).  
 
 ## <a name="the-role-centers"></a>Roolikeskukset
 Roolikeskussivu perustuu roolikeskeiseen rakenteeseen, jonka ansiosta voit käyttää nopeasti työssä tarvittavia liiketoimintaprosesseja ja BI-työkaluja. Kirjanpitäjä voi esimerkiksi seurata maksuja ja hyväksymisiä sekä tarkastella rahoituksen suorituskykykaavioita. Selvitä roolinhallinnassa, mitä ominaisuuksia nykyinen roolisi antaa käyttää. Lisätietoja on kohdassa [Sivujen etsiminen roolinhallinnalla](ui-role-explorer.md). Tutustu eri roolikeskuksiin valitsemalla oikeassa yläkulmassa **Asetukset**-kuvake ![Asetukset](media/ui-experience/settings_icon_small.png "Roolikeskuksen Asetukset-kuvake"). Valitse sitten **Omat asetukset** ja lopuksi roolikeskus, johon haluat tutustua. Olet automaattisesti kirjautunut ulos ja uudelleen sisään muutoksen käyttöön ottamiseksi. Lisätietoja on kohdassa [Perusasetusten muuttaminen](ui-change-basic-settings.md).  
-
-Joissakin roolikeskussivuissa on **Asennus ja laajennukset** -painike. Saat käyttöösi luettelon asetusten ohjatusta määrityksistä, joiden avulla pääset alkuun määrittämällä valitut alueet nopeasti. Jos alueella ei ole asetuksen ohjattua määritystä, valitse **Manuaalinen asennus** -toiminto. Pääset tällä tavoin sivuille, joissa voit täyttää kaikkien alueiden asennuskentät manuaalisesti. Lisätietoja on myös kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittäminen](setup.md)  
-
-> [!NOTE]
-> Käytettävissä olevien asennusoppaiden, laajennusten ja palvelujen luettelo vaihtelee yritykselle valitun käyttäjäkokemuksen mukaan. **Essential**-kokemuksen valikoima on suppeampi kuin **Premium**-kokemuksen valikoima. Ensimmäisellä kirjautumiskerralla käytössä on Essential-kokemus. Lisätietoja on kohdassa [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md).  
 
 ## <a name="trying-things-out-in-your-own-company"></a>Kokeilut omassa yrityksessä
 Harkitsetko tilaamista? Voit vaihtaa helposti esimerkkiyrityksestä käyttämään luotua omaa yritystä. Tämä on erinomainen tapa siirtymisen tilausta kohti. Rahoitusasetukset toimitetaan valmiina, ja sinun tarvitsee luoda tai tuoda omat asiakkaat, toimittajat sekä myytävät tuotteet tai palvelut. Tämän jälkeen olet valmis kirjaamaan laskuja ja analysoimaan liiketoimintaasi BI-työkaluilla. Voit käyttää omaa yritystä maksutta 30 päivän kokeilujakson ajan. Jos tilaat [!INCLUDE[d365fin](includes/d365fin_md.md)]in kokeilujakson aikana, olet jo aloittanut sovelluksen käytön. Voit jatkaa kokeiluversion aikana aloittamaasi työskentelyä.  
@@ -77,7 +77,7 @@ Voit tutustua muita Dynamics 365 -sovelluksia käsittelevään sisältöön vali
 
 <!--COMMENTINGOUTTOREDUCENOISEIf you are an accountant, you can sign up for [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] and have seamless integration with [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Welcome to Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).-->
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsget-started-dynamics-365-business-central"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/paths/get-started-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/paths/get-started-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
 

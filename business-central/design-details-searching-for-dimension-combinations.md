@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: e118ad07537cdaa0d6ed526ab8e91461cd430f08
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 3fe943fd3c2925f1c80107e23b389cd09958a47b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303002"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184698"
 ---
 # <a name="design-details-searching-for-dimension-combinations"></a>Rakennetiedot: dimensioyhdistelmien etsiminen
 Kun suljet sivun dimensioyhdistelmän muokkaamisen jälkeen, [!INCLUDE[d365fin](includes/d365fin_md.md)] arvioi, onko muokattu dimensiojoukko olemassa. Jos yhdistelmää ei ole olemassa, järjestelmän luo uuden ja palauttaa dimensioyhdistelmän tunnuksen.  
@@ -26,7 +26,7 @@ Kun suljet sivun dimensioyhdistelmän muokkaamisen jälkeen, [!INCLUDE[d365fin](
 ### <a name="example-1"></a>Esimerkki 1  
  Seuraava kaavio esittelee hakupuun ja kuusi dimensiosarjaa. Kaaviossa näkyy vain erottava dimensioyhdistelmä.  
 
- ![Esimerkki dimensiopuun rakenteesta](media/nav2013_dimension_tree.png "Esimerkki dimensiopuun rakenteesta")  
+ ![Esimerkki dimension puurakenteesta](media/nav2013_dimension_tree.png "Esimerkki dimension puurakenteesta")  
 
  Seuraavassa taulukossa kuvataan koko dimensiosarjan kirjausten luettelo, joka muodostaa kunkin dimensiosarjan.  
 
@@ -45,7 +45,7 @@ Kun suljet sivun dimensioyhdistelmän muokkaamisen jälkeen, [!INCLUDE[d365fin](
 
  [!INCLUDE[d365fin](includes/d365fin_md.md)] varmistaa ensin päivittämällä **Dimensioyhdistelmän puusolmu** -taulukon, että hakupuu näyttää samalta kuin seuraavassa kaaviossa. Dimensioyhdistelmästä 7 tulee dimensioyhdistelmän 5 alitaso.  
 
- ![Esimerkki dimensiopuun rakenteesta NAV 2013:ssa](media/nav2013_dimension_tree_example2.png "Esimerkki dimensiopuun rakenteesta NAV 2013:ssa")  
+ ![Esimerkki dimension puurakenteesta NAV 2013 -sovelluksessa](media/nav2013_dimension_tree_example2.png "Esimerkki dimension puurakenteesta NAV 2013 -sovelluksessa")  
 
 ### <a name="finding-dimension-set-id"></a>Dimensioyhdistelmän tunnuksen etsiminen  
  Käsitteellisellä tasolla hakupuun **Päätunnus**, **Dimensio** ja **Dimensioarvo** yhdistetään ja niitä käytetään perusavaimena, koska [!INCLUDE[d365fin](includes/d365fin_md.md)] kulkee puussa samassa järjestyksessä kuin dimensiotapahtumat. GET-toimintoa (tietue) käytetään etsimään dimensiosarjan tunnusta. Seuraava koodiesimerkki osoittaa, kuinka löydetään dimensiosarjan tunnus, kun dimensioarvoja on kolme.  

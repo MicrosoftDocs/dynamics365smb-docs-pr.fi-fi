@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c6c7e157df93aa2d77153bb46584f53f97e3f98d
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 3b02c3d49485ecda07ee85a350b7f45541a94a06
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2876701"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193249"
 ---
 # <a name="convert-existing-locations-to-warehouse-locations"></a>Aiemmin luotujen sijaintien muuntaminen fyysisen varaston sijainneiksi
 Ottamalla alueet ja varastopaikat käyttöön aiemmin luodussa varastosijainnissa voit tehdä siitä fyysisen varastoinnin sijainnin.  

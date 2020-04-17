@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 5927a69199f72b09f133d63ac76bade7af361e8c
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: d5aba21a9b98ef98b31dc4bc4dfa0bb853d7891a
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877013"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193921"
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Kenttien lisääminen Word-raporttiasetteluun
 Raportin tietojoukko voi sisältää kenttiä, joissa näkyvät otsikot, tiedot ja kuvat. Tässä ohjeaiheessa käsitellään raportin tietojoukon kenttien lisääminen olemassa olevaan raportin Word-raporttiasetteluun. Lisäät kenttiä käyttämällä raportille mukautettua XML-osaa ja lisäämällä sisällön ohjausobjekteja, jotka on yhdistetty raportin tietojoukon kenttiin. Kenttien lisääminen edellyttää, että tunnet jonkin raportin tietojoukon niin, että voit tunnistaa kentät, jotka haluat lisätä asetteluun.  
@@ -23,7 +23,7 @@ Raportin tietojoukko voi sisältää kenttiä, joissa näkyvät otsikot, tiedot 
 > [!NOTE]  
 >  Et voi muuttaa valmiita raporttiasetteluita<!--Onprem. Built-in layouts can only be modified by using the development environment-->.  
 
-##  <a name="OpenXMLPart"></a>Mukautetun XML-osan avaaminen raportille Wordissa  
+##  <a name="to-open-the-custom-xml-part-for-the-report-in-word"></a><a name="OpenXMLPart"></a>Mukautetun XML-osan avaaminen raportille Wordissa  
   
 1.  Jos se ei ole jo auki, avaa Word-raportin asettelun asiakirja Wordissa.  
   

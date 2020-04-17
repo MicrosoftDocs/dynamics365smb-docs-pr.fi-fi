@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4537a7f6d450ec71e574c85cef1987232f792479
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: d7cea5a62f432b569967c088211ad7c41c5f4a64
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2876534"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192913"
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Hyllytysten suunnitteleminen työkirjoissa
 Jos sijainnissa on määritetty sekä hyllytyksen että vastaanoton käsittely pakolliseksi ja haluat suunnitella hyllytysohjeita useille vastaanotoille, voit käyttää hyllytystyökirjaa sen sijaan, että työntekijät noudattaisivat sovelluksen luomia ohjeita erillisille kirjatuille vastaanotoille.  

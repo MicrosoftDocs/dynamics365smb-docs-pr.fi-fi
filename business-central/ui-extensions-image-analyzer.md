@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: API, extension, Cognitive Services, image, computer vision, attribute, tag, recognition
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 5e7312e6e660d74089b0dce43ddf015be60ab446
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0f5b472dca560ba12eb0461842878d622c6eaee3
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315491"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194185"
 ---
 # <a name="the-image-analyzer-extension"></a>Kuvan analysointilaajennus
 Kuvan analysointilaajennus havaitsee Microsoftin kognitiivisten palveluiden konenäön ohjelmointirajapinnan tehokkaalla kuva-analytiikalla määritteet nimikkeille ja kontaktihenkilöille tuoduissa kuvissa, mikä helpottaa kuvien tarkastelua ja määrittämistä. Nimikkeiden määritteet voivat ilmaista esimerkiksi, onko kyse pöydästä vai autosta ja onko se sininen vai punainen. Kontaktihenkilöiden määritteet voivat ilmaista sukupuolen tai iän.
@@ -54,7 +54,7 @@ Kuvan analysointilaajennus sisältyy [!INCLUDE[d365fin](includes/d365fin_md.md)]
 ## <a name="to-analyze-an-image-of-an-item"></a>Nimikkeen kuvan analysointi
 Seuraavaksi kerrotaan, miten analysoidaan kuva, joka oli tuotu ennen kuvan analysointilaajennuksen käyttöönottoa.  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Nimikkeet** ja valitse sitten liittyvä linkki.  
 2. Valitse ensin nimike ja sitten **Analysoi kuva**-toiminto.  
 3. **Kuvan analysoinnin määritteet** -sivulla on esillä havaitut määritteet, luotettavuustaso ja muita tietoja määritteestä. Määritä **suoritettavan toiminnon** vaihtoehdoilla, mitä määritteellä tehdään.  
 
@@ -64,7 +64,7 @@ Seuraavaksi kerrotaan, miten analysoidaan kuva, joka oli tuotu ennen kuvan analy
 ## <a name="to-analyze-a-picture-of-a-contact-person"></a>Kontaktihenkilön kuvan analysointi
 Seuraavaksi kerrotaan, miten analysoidaan kuva, joka oli tuotu ennen kuvan analysointilaajennuksen käyttöönottoa.  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kontaktit** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Yhteyshenkilöt** ja valitse sitten liittyvä linkki.  
 2. Valitse ensin kontaktihenkilö ja sitten **Analysoi kuva**-toiminto.  
 3. Arvioi **Profiilikysely**-pikavälilehdessä ehdotukset ja tee tarvittavat korjaukset.  
 
@@ -92,5 +92,5 @@ Voit tarkistaa, kuinka monta analyysia olet kuluvalla jaksolla tehnyt ja kuinka 
 
 ## <a name="see-also"></a>Katso myös
 [Nimikkeen määritteiden käsitteleminen](inventory-how-work-item-attributes.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in mukauttaminen laajennusten avulla](ui-extensions.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md)  
 [Käytön aloittaminen](product-get-started.md)  

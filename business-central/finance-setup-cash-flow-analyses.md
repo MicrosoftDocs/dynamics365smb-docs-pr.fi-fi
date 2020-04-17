@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 8fc2bd353a80bf72f8bb9a0d282bec7c216fc0fa
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 7ac0630857eb775a904e2bbf5d4a21a89efb73c8
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953705"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182802"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Kassavirta-analyysin määrittäminen
 Jos tarvitset apua käteisvarojen käytöstä päättämiseen, tutustu Kirjanpitäjä-roolikeskuksen kaavioihin:  
@@ -30,7 +30,7 @@ Jos tarvitset apua käteisvarojen käytöstä päättämiseen, tutustu Kirjanpit
 Tässä ohjeaiheessa kerrotaan, mistä kaavioiden tiedot saadaan ja (tarvittaessa) miten kaavioiden käyttö aloitetaan.  
 <br><br>  
 
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4mJhc]
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4mJhc?rel=0]
 
 ## <a name="the-cash-cycle-and-income--expense-charts"></a>Käyttöpääomasykli- ja Tulot ja kulut -kaaviot
 Tilikarttaan ja KP-raporttimalleihin perustuvat **Käyttöpääomasykli**- ja **Tulot ja kulut** -kaaviot ovat käyttövalmiita. Tilit, joista tiedot haetaan, ja KP-raporttimalli laskevat myynnin ja saamisten välisen suhteen. Valmiina on joitakin tilejä ja KP-raporttimalleja. Voit käyttää niitä sellaisenaan, muuttaa niitä ja lisää uusia. Jos lisäät KP-tilejä tilikarttaan esimerkiksi tuomalla ne QuickBooksista, sinun yhdistettävä ne tileihin seuraavan nimisten KP-raporttimallien **KP-raporttimallit**-sivulla:  
@@ -61,7 +61,7 @@ Voit määrittää ne käyttämällä hakutermiä **kassavirtatilit**, valitsema
 ## <a name="set-up-cash-flow-forecasts"></a>Kassavirtaennusteiden määrittäminen
 **Kassavirtaennuste**-kaavio käyttää kassavirtatilejä, kassavirran asetuksia ja kassavirtaennusteita. Osa niistä on määritetty valmiiksi, mutta voit tehdä omat määrityksesi avustetun asennusoppaan avulla. Oppaan avulla voit määrittää esimerkiksi ennusteen päivitystiheyden, ennusteen perustana olevat tilit, verojen maksua koskevat tiedot ja sen, otetaanko [Azure AI](https://azure.microsoft.com/overview/ai-platform/) käyttöön.  
 
-Kassavirtaennusteet voivat sisällyttää Azure AI:n avulla asiakirjoja, joiden eräpäivä on tulevaisuudessa. Tällä tavoin saadaan entistä kattavampi ennuste. Azure AI -yhteys on muodostettu puolestasi. Sinun tarvitsee vain ottaa se käyttöön. Kun kirjaudut [!INCLUDE[d365fin](includes/d365fin_md.md)]iin, ilmoitus näkyy sinisessä palkissa, ja siinä on linkki kassavirran oletusasetuksiin. Ilmoitus näytetään vain kerran. Jos suljet sen mutta päätät ottaa Azure AI:n käyttöön, voit tehdä sen asetusten ohjatun määrityksen avulla tai manuaalisesti.  
+Kassavirtaennusteet voivat käyttää Azure AI:ta tulevien asiakirjojen ennustamisessa. Tällä tavoin saadaan entistä kattavampi ennuste. Azure AI -yhteys on muodostettu puolestasi. Sinun tarvitsee vain ottaa se käyttöön. Kun kirjaudut [!INCLUDE[d365fin](includes/d365fin_md.md)]iin, ilmoitus näkyy sinisessä palkissa, ja siinä on linkki kassavirran oletusasetuksiin. Ilmoitus näytetään vain kerran. Jos suljet sen mutta päätät ottaa Azure AI:n käyttöön, voit tehdä sen asetusten ohjatun määrityksen avulla tai manuaalisesti.  
 
 > [!NOTE]  
 >   Voit käyttää myös omaa ennakoivaa verkkopalvelua. Lisätietoja on kohdassa [Kassavirtaennusteiden ennakoivan verkkopalvelun luonti ja käyttö](#AnchorText).  
@@ -83,7 +83,39 @@ Voit käyttää manuaalista prosessia seuraavasti:
 > [!TIP]  
 >   Mieti, miten pitkiä jaksoja palvelun laskelmissa käytetään. Mitä enemmän tietoja on käytettävissä, sitä tarkempia ennusteet ovat. Varo myös suuria jaksovaihteluita. Ne vaikuttavat myös ennusteisiin. Jos Azure AI ei löydä riittävästi tietoja tai tiedot ovat kovin erilaisia, palvelu ei voi tehdä ennustetta.  
 
-## <a name="AnchorText"> </a>Kassavirtaennusteiden ennakoivan verkkopalvelun luonti ja käyttö
+## <a name="design-details"></a>Rakennetiedot
+[!INCLUDE[d365fin](includes/d365fin_md.md)]:n tilaukset sisältävät käyttöoikeuden useisiin ennakoitaviin verkkopalveluihin kaikilla alueilla, joilla [!INCLUDE[d365fin](includes/d365fin_md.md)] on saatavissa. Lisätietoja on Microsoft Dynamics 365 Business Centralin käyttöoikeusoppaassa. Opas on ladattavissa [Business Centralin](https://dynamics.microsoft.com/en-us/business-central/overview/) verkkosivulla. 
+
+Näillä verkkopalveluilla ei ole tilaa. Ne siis käyttävät tietoja vain ennusteiden laskemiseen tarvittaessa. Ne eivät tallenna tietoja.
+
+> [!NOTE]  
+>   Voit käyttää omaa ennakoivaa verkkopalvelua meidän palvelumme sijaan. Lisätietoja on kohdassa [Kassavirtaennusteiden ennakoivan verkkopalvelun luonti ja käyttö](#AnchorText). 
+
+### <a name="data-required-for-forecast"></a>Ennusteeseen vaadittavat tiedot
+Jos haluat ennustaa tulevia tuottoja ja kuluja, verkkopalvelut edellyttävät aiempia tietoja myyntisaamisista, ostoveloista ja verotiedoista.
+
+#### <a name="receivables"></a>Myyntisaamiset:
+**Eräpäivä**- ja **Summa (LCY)** -kentät **Asiakastapahtumat**-sivulla, jossa:
+- Asiakirjan tyyppi on Lasku tai Hyvityslasku.
+- Eräpäivä on **Kassavirran asetukset** -sivun **Aiemmat kaudet**- ja **Kauden tyyppi** -kenttien arvojen perusteella lasketun päivämäärän ja käsittelypäivämäärän välillä.
+
+Ennen ennakoivan verkkopalvelun käyttämistä [!INCLUDE[d365fin](includes/d365fin_md.md)] tiivistää tapahtumat **eräpäivän** mukaan **Kauden tyyppi** -kentän arvon perusteella **Kassavirran asetukset** -sivulla.
+
+#### <a name="payables"></a>Ostovelat:
+**Eräpäivä**- ja **Summa (LCY)** -kentät **Toimittajatapahtumat**-sivulla, jossa:
+- Asiakirjan tyyppi on Lasku tai Hyvityslasku.
+- Eräpäivä on **Kassavirran asetukset** -sivun **Aiemmat kaudet**- ja **Kauden tyyppi** -kenttien arvojen perusteella lasketun päivämäärän ja käsittelypäivämäärän välillä.
+
+Ennen ennakoivan verkkopalvelun käyttämistä [!INCLUDE[d365fin](includes/d365fin_md.md)] tiivistää tapahtumat **eräpäivän** mukaan **Kauden tyyppi** -kentän arvon perusteella **Kassavirran asetukset** -sivulla.
+
+#### <a name="tax"></a>Vero:
+**Asiakirjan päivämäärä**- ja **Summa (VAT)** -kentät **ALV (vero) -tapahtumat** -sivulla, jossa:
+- Asiakirjan tyyppi on Myynti.
+- Asiakirjan päivämäärä on **Kassavirran asetukset** -sivun **Aiemmat kaudet**- ja **Kauden tyyppi** -kenttien arvojen perusteella lasketun päivämäärän ja käsittelypäivämäärän välillä.
+
+Ennen ennakoivan verkkopalvelun käyttämistä [!INCLUDE[d365fin](includes/d365fin_md.md)] tiivistää tapahtumat **asiakirjan päivämäärän** mukaan **Kauden tyyppi** -kentän arvon perusteella **Kassavirran asetukset** -sivulla.
+
+## <a name="create-and-use-your-own-predictive-web-service-for-cash-flow-forecasts"></a><a name="AnchorText"> </a>Kassavirtaennusteiden ennakoivan verkkopalvelun luonti ja käyttö
 Voit myös luoda oman ennakoivan verkkopalvelun **Microsoft Business Central -sovelluksen ennustemalli** -nimisen julkisen mallin perusteella. Tämä ennakoiva malli on saatavana verkossa Azure AI Galleryssa. Voit käyttää mallia seuraavien vaiheiden avulla:  
 
 1. Avaa selain ja siirry [Azure AI Galleryyn](https://go.microsoft.com/fwlink/?linkid=828352).  
@@ -94,7 +126,7 @@ Voit myös luoda oman ennakoivan verkkopalvelun **Microsoft Business Central -so
 6. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Kassavirran asetukset** ja valitse sitten liittyvä linkki.  
 7. Laajenna **Azure AI** -pikavälilehti ja täytä sitten kentät.  
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesforecast-cash-flow-dynamics-365-business-centralindex"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Katso myös
 [Yrityksen kassavirran analysoiminen](finance-analyze-cash-flow.md)  
