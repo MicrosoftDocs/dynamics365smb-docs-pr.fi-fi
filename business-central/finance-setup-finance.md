@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 400506fe0b39944e683fd5e65e6b710ffdb9089b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: b7a272d916182fda7815e04bb314a5c29942ca98
+ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182730"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "3372566"
 ---
 # <a name="setting-up-finance"></a>Rahoituksen määrittäminen
 Ennen kuin voit aloittaa yrityksesi pyörittämisen, sinun on määritettävä säännöt ja oletusarvot sille, miten haluat hallita kyseisen yrityksen rahoitusprosesseja. Aloita määrittämällä yrityksen tilitietueiden perusta - tilikartta. Sitten määritetään kirjausryhmät, mikä tehostaa pääkirjanpidon oletuskirjaustilien määrittämistä asiakkaille, toimittajille ja nimikkeille.
@@ -47,10 +47,12 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 |Ota käyttöön sellaisen asiakkaan laskutus, jota ei ole määritetty järjestelmässä.|[Käteisasiakkaiden määrittäminen](finance-how-to-set-up-cash-customers.md)|
 | Intrastat-raportoinnin määrittäminen ja raportin lähettäminen viranomaisille | [Intrastat-ilmoituksen määrittäminen ja raportoiminen](finance-how-setup-report-intrastat.md)|
 |Varmista, että tapahtuma kohdistetaan yleisessä päiväkirjassa useisiin eri tileihin päiväkirjan kirjauksen yhteydessä. Kohdistuksen voi tehdä määrän, prosentin tai summan mukaan.|[Kohdistustunnusten käyttäminen yleisissä päiväkirjoissa](ui-how-use-allocation-keys-general-journals.md)|
+|Määritä kirjausketjujen seurantaan käytettävät lähdekoodit ja syykoodit|[Kirjausketjujen lähdekoodien ja syykoodien määrittäminen](finance-setup-trail-codes.md)|
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
+
 [Rahoitus](finance.md)  
 [Pankkitilien täsmäytys](bank-manage-bank-accounts.md)  
 [Dimensioiden käyttäminen](finance-dimensions.md)  

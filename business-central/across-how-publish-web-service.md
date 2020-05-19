@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 04/21/2020
 ms.author: edupont
-ms.openlocfilehash: 04af1a52bb0a2e14a2775efe6e3a6ccf77441d29
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 3a0526451bb386f38eaf93c10ffd86937ea7b765
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188490"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324076"
 ---
 # <a name="publish-a-web-service"></a>Verkkopalvelun julkaiseminen
 
@@ -40,8 +40,8 @@ Seuraavassa kerrotaan, kuinka voit luoda ja julkaista verkkopalvelun.
 
 Kun julkaiset verkkopalvelun, **ODatan URL-osoite** - ja **SOAP:n URL-osoite** -kentissä näkyvät verkkopalvelua varten luodut URL-osoitteet. Voit testata verkkopalvelua heti valitsemalla linkit **ODatan URL-osoite** - ja **SOAP:n URL-osoite** -kentissä. Vaihtoehtoisesti voit kopioida kentän arvon ja tallentaa sen myöhempää käyttöä varten.  
 
-> [!IMPORTANT]
-> Jos codeunit on julkaistu SOAP-verkkopalveluna, codeunitissa näkyvät menetelmät on merkittävä koodissa `[External]`-tunnuksella.
+> [!NOTE]
+> Jos verkkopalveluina näyttämäsi objektit eivät ole käytettävissä [!INCLUDE [prodshort](includes/prodshort.md)]-palvelusta online-muodossa, sinun täytyy merkitä koodissa näkyvät menetelmät muodossa `[Scope('OnPrem')]`. Lisätietoja on kohdassa [Alueen määrite](/dynamics365/business-central/dev-itpro/developer/methods/devenv-scope-attribute).
 
 Verkkopalveluna julkaistu palvelu on ulkoisten osapuolien käytettävissä. Voit tarkistaa kyseisen verkkopalvelun saatavuuden selaimen avulla tai valitsemalla linkin **ODatan URL-osoite** - ja **SOAP:n URL-osoite** -kentissä **Verkkopalvelut**-sivulla. Seuraavassa on kuvattu, miten voit tarkistaa verkkopalvelun käytettävyyden myöhempää käyttöä varten.  
 
@@ -52,8 +52,8 @@ Verkkopalveluna julkaistu palvelu on ulkoisten osapuolien käytettävissä. Voit
     > [!div class="mx-tdBreakAll"]
     > |Tyyppi|Syntaksi|Esimerkki|
     > |----------------|------|-------|
-    > |SOAP|https://api.businesscentral.dynamics.com/*versio*/*vuokraaja*/Tuotanto/*YrityksenNimi*/*objekti*/ |https://api.businesscentral.dynamics.com/v2.0/7acc9d3d-d354-4616-8bbd-c4fc9f2b15b3/Production/WS/CRONUS%20USA%2C%20Inc./Page/InvoiceDocument|
-    > |OData V4|https://api.businesscentral.dynamics.com/*versio*/*vuokraaja*/Tuotanto/ODataV4/Yritys('*YrityksenNimi*')/*objekti*|https://api.businesscentral.dynamics.com/v2.0/7acc9d3d-d354-4616-8bbd-c4fc9f2b15b3/Production/ODataV4/Company('CRONUS%20USA%2C%20Inc.')/InvoiceDocument<br/>    Yrityksen nimi -kentässä huomioidaan kirjainkoko.|
+    > |SOAP|`https://api.businesscentral.dynamics.com/*version*/*tenant*/Production/WS/*CompanyName*/*entity*/` |`https://api.businesscentral.dynamics.com/v2.0/7acc9d3d-d354-4616-8bbd-c4fc9f2b15b3/Production/WS/CRONUS%20USA%2C%20Inc./Page/InvoiceDocument`|
+    > |OData V4|`https://api.businesscentral.dynamics.com/*version*/*tenant*/Production/ODataV4/Company('*CompanyName*')/*entity*`|`https://api.businesscentral.dynamics.com/v2.0/7acc9d3d-d354-4616-8bbd-c4fc9f2b15b3/Production/ODataV4/Company('CRONUS%20USA%2C%20Inc.')/InvoiceDocument`<br/>    Yrityksen nimi -kentässä huomioidaan kirjainkoko.|
 
 2. Tarkista tiedot, jotka näkyvät selaimessa. Varmista, että näet luomasi verkkopalvelun nimen.  
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 04/01/2020
+ms.date: 04/02/2020
 ms.author: sgroespe
-ms.openlocfilehash: ec17c59ebbc336cf6c4757be447ff7765098c816
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 0b7c1ad6a19869c5d79f7da34e89e25b2b9456aa
+ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190681"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262116"
 ---
 # <a name="collect-outstanding-balances"></a>Avointen saldojen perintä
 Myyntisaamisten hallintaan kuuluu sen tarkistaminen, onko erääntyneet summat maksettu ajoissa. Jos asiakkailla on erääntyneitä maksuja, voit aloittaa lähettämällä heille asiakkaan tiliotteen raportin muistutuksena. Vaihtoehtoisesti voit lähettää muistutuksia.
@@ -123,11 +123,12 @@ Voit täyttää **Muistutus**-sivulla **Yleiset**-pikavälilehden tiedot manuaal
 4. Valitse **Ehdota muistutusrivejä** -toiminto.
 5. Täytä **Ehdota muistutusrivejä** -eräajossa kentät, joilla määrität, miten muistutukset luodaan ja kenelle ne luodaan.
 6. Valitse **Sisällytä pidossa olevat tapahtumat** -valintaruutu, jos haluat muistutusten sisältävän erääntyneet, pidossa olevat avoimet tapahtumat.
+7. Valitse **Vain tapahtumat, joissa erääntyneitä määriä** -valintaruutu, jos haluat muistutusten sisältävän vain erääntyneet avoimet tapahtumat. Vain laskut ja maksut näytetään, koska nämä ovat tapahtumia, joista asiakkaiden maksut voivat olla myöhässä.
 
     > [!Important]
-    > Pidossa olevat avoimet tapahtumat lisätään riippumatta Vain tapahtumat, joissa on erääntyneitä summia -asetuksen tilasta.
+    > Pidossa olevat avoimet tapahtumat lisätään riippumatta **Vain tapahtumat, joissa on erääntyneitä summia** -asetuksen tilasta.
 
-7. Valitse **OK**-painike.
+8. Valitse **OK**-painike.
 
 ## <a name="to-replace-reminder-texts"></a>Muistutustekstien vaihtaminen  
 On monta tapaa määrittää teksti, joka näkyy tulostetussa muistutuksessa. Joskus voit haluta korvata nykyiselle luokalle määritetyt alku- ja lopputekstit eri luokkien teksteillä.

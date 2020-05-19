@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 04/01/2020
+ms.date: 05/11/2020
 ms.author: edupont
-ms.openlocfilehash: 2c99b8bef9bff22edd2d27856e703b41c6ec6441
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: eae48b25446e4c81d1b8eae86fd2d0d7d0126df6
+ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184026"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "3372614"
 ---
 # <a name="accountant-experiences-in-d365fin_long"></a>Kirjanpitäjän käyttökokemukset [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]issa
 Kaikkien yritysten on pidettävä kirjanpitoa ja hyväksyttävä se. Jotkin yritykset käyttävät ulkoista kirjanpitäjää, ja joillain yrityksillä on oma kirjanpitäjä. Olit kummanlainen kirjanpitäjä tahansa, voit käyttää **kirjanpitäjän** roolikeskusta [!INCLUDE[d365fin](includes/d365fin_md.md)]in kotisivunasi. Siitä saat avattua kaikki sivut, joita tarvitset työssäsi.  
@@ -40,7 +40,7 @@ Ulkopuolisen kirjanpitäjän kutsumista on helpotettu. Avaa vain **Käyttäjät*
 > [!IMPORTANT]  
 > Kirjanpitäjän sähköpostiosoitteen on oltava Azure Active Directoryyn perustuva työsähköpostiosoite. Jos kirjanpitäjä käyttää jotakin muuta sähköpostityyppiä, kutsua ei voi lähettää. 
 > 
-> Tämä tehtävä edellyttää käyttäjien ja käyttöoikeuksien hallintaa Azure Active Directoryssä, tämän kutsun lähettäneen käyttäjällä on oltava **Yleinen järjestelmänvalvoja** -rooli tai **Käyttäjien hallinnoija** -rooli Office 365 -hallintakeskuksessa. Lisätietoja on kohdassa [Tietoja järjestelmänvalvojarooleista](/office365/admin/add-users/about-admin-roles)(Office 365:n järjestelmänvalvojasisältö).  
+> Tämä tehtävä edellyttää käyttäjien ja käyttöoikeuksien hallintaa Azure Active Directoryssä, tämän kutsun lähettäneen käyttäjällä on oltava **Yleinen järjestelmänvalvoja** -rooli tai **Käyttäjien järjestelmänvalvoja** -rooli Microsoft 365 -hallintakeskuksessa. Lisätietoja on kohdassa [Tietoja järjestelmänvalvojarooleista](/microsoft-365/admin/add-users/about-admin-roles) Microsoft 365 -järjestelmänvalvojasisällössä.  
 
 ### <a name="adding-your-accountant-to-your-office-365-via-azure-portal"></a>Kirjanpitäjän lisääminen Office 365:iin Azure-portaalin kautta
 

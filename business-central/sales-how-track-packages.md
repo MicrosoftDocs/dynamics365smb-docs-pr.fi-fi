@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: rfq
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4dfb4a530ebcbfd9bcede5e6280fa33360b952a6
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 41584b676db045bdf7317ced9b519f0784b41453
+ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192625"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262092"
 ---
 # <a name="track-packages"></a>Kollien seuraaminen
 Osa kuljetusliikkeistä tarjoaa Internet-palveluja, joiden avulla voi seurata kuljetusliikkeelle luovutettuja paketteja. Jos käytät yhtä tai useampaa tällaista kuljetusliikettä, voit määrittää tiettyjä perustietoja ohjelmaan. Jälkeenpäin voit käyttää kirjattujen toimitusten automaattista seurantaominaisuutta. Lisätietoja on kohdassa [Kuljetusliikkeiden määrittäminen](sales-how-to-set-up-shipping-agents.md).  
@@ -24,8 +24,9 @@ Osa kuljetusliikkeistä tarjoaa Internet-palveluja, joiden avulla voi seurata ku
 ## <a name="to-track-a-package"></a>Paketin seuraaminen
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kirjattu myyntitoimitus** ja valitse sitten liittyvä linkki.
 2. Avaa käsiteltävä toimitus.
-3. Anna **Kollin seurantanro** -kentässä kollinnumero, jonka olet saanut kuljetusliikkeeltä.
-4. Valitse **Seuraa kollia** -toiminto.
+3. Valitse **Päivitä tiedosto** -toiminto.
+4. Anna **Kollin seurantanro** -kentässä kollinnumero, jonka olet saanut kuljetusliikkeeltä. Päivitä **kuljetusliike** tarvittaessa ja sulje sivu.
+5. Valitse **Seuraa kollia** -toiminto.
 
 Oletusselain avaa kuljetusliikkeen seurantasivun.
 

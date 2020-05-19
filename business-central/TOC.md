@@ -70,6 +70,7 @@
 ### [Helppokäyttötoiminnot ja pikanäppäimet](ui-accessibility.md)
 ### [Pikanäppäimet](keyboard-shortcuts.md)
 ### [Näppäimistön Pikaohje - Vain PC](keyboard-shortcuts-cheatsheet.md)
+## [Vian etsintä: kameran ja sijainnin käyttäminen](ui-troubleshooting-camera-location.md)
 
 # Business Central -sovelluksen määrittäminen
 ## [Yleiskuvaus](setup.md)
@@ -82,6 +83,7 @@
 ### [Kirjanpitojaksojen ja tilikausien käyttäminen](finance-accounting-periods-and-fiscal-years.md)
 ### [Määritä arvolisävero (ALV)](finance-setup-vat.md)
 ### [Ei-realisoituneen arvonlisäveron määrittäminen kassaperusteista kirjanpitoa varten](finance-setup-unrealized-vat.md)
+### [Kirjausketjujen lähdekoodien ja syykoodien määrittäminen](finance-setup-trail-codes.md)
 ### [Tapahtumakirjausten kohdistamisen ottaminen käyttöön eri valuutoissa](finance-how-enable-application-ledger-entries-different-currencies.md)
 ### [Lisäraportointivaluutan määrittäminen](finance-how-setup-additional-currencies.md)
 ### [Valuutan vaihtokurssien päivittäminen](finance-how-update-currencies.md)
@@ -335,7 +337,10 @@
 ## [Tietojen salauksen hallinta](admin-manage-data-encryption.md)
 ## [Kokeilujakson jatkaminen](admin-extend-trial.md)
 ## [Sivujen tarkistaminen](across-inspect-page.md)
+## [Tietokannan lukitusten tarkasteleminen](admin-view-database-locks.md)
+## [Näyttää taulukon tiedot](admin-view-table-information.md)
 ## [Sandbox-ympäristön luominen](across-how-create-sandbox-environment.md)
+## [Uusien ominaisuuksien käyttöönotto etuajassa](admin-feature-management.md)
 ## Business Central -sovelluksen mukauttaminen
 ### [Yleiskuvaus](ui-customizing-overview.md)
 ### [Profiilien sivujen mukauttaminen](ui-personalization-manage.md)
@@ -525,6 +530,7 @@
 ## [Myyntitarjousten tekeminen](sales-how-make-offers.md)
 ## [Myynnin laskutus](sales-how-invoice-sales.md)
 ## [Tuotteiden myyminen](sales-how-sell-products.md)
+## [Tulosta poimintaluettelo](sales-how-print-picking-list.md)
 ## [Myynnin kirjaaminen](ui-post-sales.md)
 ## [Toistuvien myynti- ja ostorivien luominen](sales-how-work-standard-lines.md)
 ## [Suoratoimitusten tekeminen](sales-how-drop-shipment.md)
@@ -642,7 +648,7 @@
 ## [Kokonaisvaltaisen suunnittelun, tuotanto-ohjelman tai tarvelaskennan suorittaminen](production-how-to-run-mps-and-mrp.md)
 ## [Tuotantotilausten suora uudelleensuunnittelu tai päivittäminen](production-how-to-replan-refresh-production-orders.md)
 ## [Kysynnän ja tarjonnan välisten suhteiden seuraaminen](production-how-track-demand-supply.md)
-## [Suunnitteluehdotusten muokkaaminen graafisessa näkymässä](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)
+<!--## [Modify Planning Suggestions in a Graphical View](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)-->
 
 # Kokoonpanon hallinta
 ## [Yleiskuvaus](assembly-assemble-items.md)
@@ -816,7 +822,7 @@
 ## Australia
 ### [Yleiskuvaus](LocalFunctionality/Australia/australia-local-functionality.md)
 ### Vero
-#### [Vero](LocalFunctionality/Australia/tax.md)
+#### [Yleiskuvaus](LocalFunctionality/Australia/tax.md)
 #### [Ennakonpidätys](LocalFunctionality/Australia/withholding-tax.md)
 #### [Ennakonpidätyksen määrittäminen](LocalFunctionality/Australia/how-to-set-up-withholding-tax.md)
 #### [Ennakonpidätyksen tuottotyyppien määrittäminen](LocalFunctionality/Australia/how-to-set-up-revenue-types-for-withholding-tax.md)
@@ -874,7 +880,7 @@
 #### [Kausittaisten ALV-raporttien tulostaminen](LocalFunctionality/Belgium/how-to-print-periodic-vat-reports.md)
 #### [Belgialaisten tavaranimikkeiden määrittäminen](LocalFunctionality/Belgium/how-to-set-up-belgian-tariff-numbers.md)
 #### [Intrastat-raportointi Belgiassa](LocalFunctionality/Belgium/belgian-intrastat-reporting.md)
-#### [Intrastat-numeron määrittäminen](LocalFunctionality/Belgium/how-to-set-up-intrastat-establishment-numbers.md)    
+#### [Intrastat-numeron määrittäminen](LocalFunctionality/Belgium/how-to-set-up-intrastat-establishment-numbers.md)
 #### [Intrastat-lomakeraporttien tulostaminen](LocalFunctionality/Belgium/how-to-print-the-intrastat-form-report.md)
 #### [Ilmoitustyyppien määrittäminen](LocalFunctionality/Belgium/how-to-set-up-declaration-types.md)
 #### [Intrastatin kolmannen osapuolen ilmoitusten vieminen](LocalFunctionality/Belgium/how-to-export-intrastat-third-party-declararations.md)
@@ -1241,7 +1247,7 @@
 #### [OCR-maksujen määrittäminen](LocalFunctionality/Norway/how-to-set-up-ocr-payments.md)
 #### [OCR-maksujen tuominen ja kirjaaminen](LocalFunctionality/Norway/how-to-import-and-post-ocr-payments.md)
 #### [OCR-kirjauskansion testiraportin tulostaminen](LocalFunctionality/Norway/how-to-print-the-ocr-journal-test-report.md)  
-### Perusrahoitus    
+### Perusrahoitus
 #### [Suljettujen kausien pääkirjanpidon tapahtumien kohdistaminen](LocalFunctionality/Norway/how-to-apply-general-ledger-entries-in-closed-periods.md)  
 ### Yleiset
 #### [Toistuvat tilaukset](LocalFunctionality/Norway/recurring-orders.md)  
@@ -1427,7 +1433,7 @@
 ### Varasto
 #### [Sveitsiin varastonhallinta](LocalFunctionality/Switzerland/swiss-inventory-management.md)
 #### [Varaston poimintaluettelon tulostaminen myyntitilauksesta](LocalFunctionality/Switzerland/how-to-print-an-inventory-picking-list-from-a-sales-order.md)
-### Yleiset    
+### Yleiset
 #### [Sveitsin postinumeroiden tuominen](LocalFunctionality/Switzerland/how-to-import-swiss-post-codes.md)
 #### [Sveitsin ostoasiakirjat ja myyntitilaukset](LocalFunctionality/Switzerland/swiss-purchase-documents-and-sales-documents.md)
 

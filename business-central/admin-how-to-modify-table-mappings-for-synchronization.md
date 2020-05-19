@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
-ms.date: 04/01/2020
+ms.date: 04/20/2020
 ms.author: bholtorf
-ms.openlocfilehash: d8377e5042ac647386e1b3b02e1f97d2e14eb3ae
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: 0a6d6e08db723979fa938488bb0df6fb08a5c4d1
+ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196517"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3271988"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>Synkronoitavien taulujen ja kenttien yhdistäminen
 Tietojen synkronointi [!INCLUDE[d365fin](includes/d365fin_md.md)]ssa  [!INCLUDE[d365fin](includes/cds_long_md.md)]ssa olevien tietojen kanssa perustuu taulujen ja tietoja sisältävien kenttien yhdistämiseen toisiinsa. Yhdistäminen tapahtuu integrointitaulujen avulla. 
 
 ## <a name="mapping-integration-tables"></a>Integrointitaulujen yhdistämismääritys
-Integrointitaulu on [!INCLUDE[d365fin](includes/d365fin_md.md)] -tietokannassa, joka edustaa entiteettiä, kuten tiliä, [!INCLUDE[d365fin](includes/cds_long_md.md)]ssa. integrointitaulut sisältävät kenttiä, jotka vastaavat taulun kenttiä [!INCLUDE[d365fin](includes/cds_long_md.md)]-entiteetissä. Esimerkiksi Tilin integrointi -taulu muodostaa yhteyden Tilit-entiteettiin kohteessa [!INCLUDE[d365fin](includes/cds_long_md.md)]. Jokaista  [!INCLUDE[d365fin](includes/cds_long_md.md)]in entiteettiä kohden, jonka haluat synkronoida [!INCLUDE[d365fin](includes/d365fin_md.md)]ssa olevien tietojen kanssa, on oltava integraatiotaulun yhdistämismääritys.
+Integrointitaulu on [!INCLUDE[d365fin](includes/d365fin_md.md)] -tietokannassa, joka edustaa entiteettiä, kuten tiliä, [!INCLUDE[cds_long_md](includes/cds_long_md.md)]ssa. integrointitaulut sisältävät kenttiä, jotka vastaavat taulun kenttiä [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-entiteetissä. Esimerkiksi Tilin integrointi -taulu muodostaa yhteyden Tilit-entiteettiin kohteessa [!INCLUDE[cds_short_md](includes/cds_long_md.md)]. Jokaista  [!INCLUDE [cds_short_md](includes/cds_short_md.md)]in entiteettiä kohden, jonka haluat synkronoida [!INCLUDE[prodshort](includes/prodshort.md)]ssa olevien tietojen kanssa, on oltava integraatiotaulun yhdistämismääritys.
 
 Kun luot yhteyden sovellusten välille, [!INCLUDE[d365fin](includes/d365fin_md.md)] määrittää joitakin oletusarvoisia taulujen ja kenttien yhdistämismäärityksiä. Halutessasi voit myös muuttaa taulujen yhdistämismäärityksiä. Lisätietoja on kohdassa [Synkronoinnin vakioentiteettien yhdistämismääritys](admin-synchronizing-business-central-and-sales.md#standard-entity-mapping-for-synchronization). Jos olet muuttanut oletusmäärityksiä ja haluat peruuttaa tekemäsi muutokset, valitse **[!INCLUDE[d365fin](includes/cds_long_md.md)] -yhteyden asetukset** -sivulla **Käytä oletussynkronointiasetuksia**.
 

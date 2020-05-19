@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 04/01/2020
+ms.date: 04/03/2020
 ms.author: sgroespe
-ms.openlocfilehash: 2dd601784418468a0f70befaced4b87e497fc2d7
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 34d620e0c3f84f7ace651b1434290778df2aace9
+ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181734"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262212"
 ---
 # <a name="keyboard-shortcuts"></a>Pikanäppäimet
 Tässä artikkelissa käsitellään yleisesti [!INCLUDE[prodshort](includes/prodshort.md)] -ohjelman joitakin pikanäppäinyhdistelmiä.
@@ -39,12 +39,13 @@ Useimmat pikanäppäimet ovat samoja sekä Windows- että macOS-käyttöjärjest
 > Tässä ohjeaiheessa käsiteltyjen yleisten pikanäppäimien lisäksi käytössä on useita liiketoimintakohtaisia pikanäppäimiä. Esimerkiksi [!INCLUDE[prodshort](includes/prodshort.md)]in yleisessä versiossa F9 kirjaa asiakirjan ja CTRL+F7 näyttää tietueen rahoitustapahtumat. (Käyttämässäsi ratkaisussa voi olla käytössä jotkin muut pikanäppäimet.) Pikanäppäin näkyy kyseisen toiminnon työkaluvihjeessä.
 
 ##  <a name="general-keyboard-shortcuts"></a><a name="Keyboard"></a> Yleiset pikanäppäimet
-Seuraavassa taulukossa kuvataan pikanäppäimet, joiden avulla voi käyttää sivun eri elementtejä, kuten toimintoja, avattavia luetteloita ja hakuja, ja siirtyä niiden välillä. Lisätietoja luettelon tietueiden välillä siirtymisessä käytettävistä pikanäppäimistä on seuraavassa osassa.
+Seuraavassa taulukossa on kuvattu sivun eri elementtien selaamiseen ja käyttämiseen liittyvät pikanäppäimet. Elementtejä ovat esimerkiksi toiminnot, avattavat luettelot ja haut. Lisätietoja luettelon tietueiden välillä siirtymisessä käytettävistä pikanäppäimistä on seuraavassa osassa.
 
 |Paina näitä näppäimiä<br />(macOS)|Tehtävä|
 |----------------|-----------|
 |Alt+alanuoli|Avaa avattava luettelo tai hae kentän arvo.|    
 |Alt+ylänuoli|Näyttää taulukokon kentän tai sarakeotsikon työkaluvihjeen. Jos kentässä on tarkistusvirheitä, tarkistusvirhe tulee näkyviin näppäinyhdistelmällä Alt+ylänuoli. Sulje työkaluvihje painamalla Esc-näppäintä tai näppäinyhdistelmää Alt+ylänuoli.|
+|F2|Vaihda koko kentän arvon valitsemisen tai kohdistimen asettamisen välillä kentän arvon loppuun.|
 |Alt+F2|Näytä ja piilota tietoruutu.|
 |Alt+Vaihto+F2|Siirry tietoruudun **tietojen** ja **liitteiden** välillä.|
 |Alt+O|Lisää uusi muistio valittuun tietueeseen, vaikka tietoruutu ei olisi auki.|
@@ -61,12 +62,12 @@ Seuraavassa taulukossa kuvataan pikanäppäimet, joiden avulla voi käyttää si
 |Ctrl+F12|Vaihtele leveää ja kapeaa asettelua.|
 |Ctrl+napsautus|Siirry mukautusten aikana, kun nuolenpää osoittaa toiminnon valinnan. Lisätietoja on kohdassa [Työtilan mukauttaminen](ui-personalization-user.md).|  
 |Ctrl+F5|[!INCLUDE[prodshort](includes/prodshort.md)] -sovellus ladataan uudelleen. (Vastaa selaimen päivittämistä tai sivun uudelleen avaamista selaimessa.)|
-|F5|Tietojen päivitys nykyisellä sivulla.<br /><br />Voit varmistaa tällä tavoin, että sivulla näkyvät tiedot sisältävät kaikki muiden oman työskentelysi aikana tekemät muutokset.|
+|F5|Tietojen päivitys nykyisellä sivulla.<br /><br />Voit varmistaa tällä näppäimellä, että sivulla näkyvät tiedot sisältävät kaikki muiden oman työskentelysi aikana tekemät muutokset.|
 |Syötä|Ota kohdistettu elementti tai ohjausobjekti käyttöön tai käytä sitä.|
 |Esc|Sulje nykyinen sivu tai avattava luettelo.|
 |Sarkain|Siirrä kohdistus sivun seuraavaan ohjausobjektiin tai elementtiin, kuten toimintoon, painikkeeseen, kenttään tai luettelon otsikkoon.|
 |Vaihto+Sarkain|Siirrä kohdistus sivun edelliseen ohjausobjektiin tai elementtiin, kuten toimintoon, painikkeeseen, kenttään tai luettelon otsikkoon.|
-|K ja E|Aktivoi **Kyllä**- ja **Ei** -painikkeet valinnoissa. Tämä on kielituettu. Voit esimerkiksi aktivoida **Ja**-painikkeen painamalla J Saksassa.|
+|K ja E|Aktivoi **Kyllä**- ja **Ei** -painikkeet valintaikkunoissa. Todelliset näppäimet vaihtelevat **Omat asetukset** -kohdassa määritetyn nykyisen kielen mukaan. Paina esimerkiksi J aktivoidaksesi **Ja**-painikkeen saksan kieltä käyttäessäsi.|
 
 ## <a name="keyboard-shortcuts-in-lists"></a>Luettelon pikanäppäimet
 
@@ -127,8 +128,8 @@ Rivejä ja sarakkeita sisältäviä ruudukoita on useilla sivutyypeillä sovellu
 |Paina näitä näppäimiä<br />(macOS)|Tehtävä|
 |-----------------|-------|
 |F3|Vaihtaa hakuruutuun.<ul><li>Aktivoi hakuruudun niin, että voit alkaa kirjoittaa hakutekstiä.</li><li>Jos hakuruutu on jo aktivoitu, F3 palauttaa luettelon, eikä tyhjennä hakutekstiä.</li><ul>|
-|Shift+F3|Avaa ja sulje suodatinruutu.<ul><li> Jos suodatinruutu ei ole avoinna, Vaihto+F3 avaa sen ja valitsee **+ suodatin** -toiminnon **Luettelon suodatusperuste** -kohdassa. Voit aloittaa kenttäsuodattimen lisäämisen painamalla Enter-näppäintä.</li><li>Jos suodatinruutu on jo auki, Vaihto+F3 sulkee sen. Lisäämiäsi suodattimia ei kuitenkaan tyhjennetä.</li></ul>|
-|Ctrl+Shift+F3|Avaa ja sulje suodatinruutu.<ul><li> Jos suodatinruutu ei ole avoinna, Ctrl+Vaihto+F3 avaa sen ja valitsee **+ suodatin** -toiminnon **Kokonaisarvojen suodatusperuste** -kohdassa. Voit aloittaa kokonaisarvojen suodattimen lisäämisen painamalla Enter-näppäintä.</li><li>Jos suodatinruutu on jo auki, Ctrl+Vaihto+F3 sulkee sen. Lisäämiäsi suodattimia ei kuitenkaan tyhjennetä.</li></ul>  |
+|Shift+F3|Avaa ja sulje suodatinruutu.<ul><li> Jos suodatinruutu ei ole avoinna, vaihto+F3 avaa sen ja keskittyy **Suodata luettelo** -kohdassa olevaan **+-suodatus**-toimintoon. Voit sitten vain painaa ENTER aloittaaksesi kenttäsuodattimen lisäämisen.</li><li>Jos suodatinruutu on jo auki, Vaihto+F3 sulkee sen. Lisäämiäsi suodattimia ei kuitenkaan tyhjennetä.</li></ul>|
+|Ctrl+Shift+F3|Avaa ja sulje suodatinruutu.<ul><li> Jos suodatinruutu ei ole avoinna, Ctrl+vaihto+F3 avaa sen ja keskittyy **Suodata yhteensä** -kohdassa olevaan **+-suodatus**-toimintoon. Voit sitten vain painaa ENTER aloittaaksesi kokonaisarvojen suodattimen lisäämisen.</li><li>Jos suodatinruutu on jo auki, Ctrl+vaihto+F3 sulkee sen. Lisäämiäsi suodattimia ei kuitenkaan tyhjennetä.</li></ul>  |
 |Alt+F3|Vaihda valitun arvon suodatusta.<ul><li>Ottaa käyttöön sarakkeen suodattimen luettelon valitun kentän arvossa. Tämä on sama toiminto kuin **Suodata tähän arvoon** -kohdan valitseminen sarakkeen otsikosta. Se avaa suodatinruudun ja määrittää valitulle arvolle suodattimen samalla, kun luettelon solu pysyy valittuna.</li><li>Jos sarake on jo suodatettu, Alt+F3 tyhjentää kyseisen sarakkeen suodattimen.</li></ul> |
 |Vaihto+Alt+F3|Avaa suodatinruutu ja lisää suodatin luettelon valittuun sarakkeeseen. Uusi suodatin on valittuna. Voit siis alkaa kirjoittaa suodatusehtoja heti.<br /><br /> Tämä on sama toiminto kuin **Suodatin**-kohdan valitseminen sarakkeen otsikosta.<br /><br />Jos kentässä on jo suodatin, uusi suodatin lisätään. |
 |Ctrl+Vaihto+Alt+F3|Nollaa suodattimet. Tämä on sama toiminto kuin **Nollaa suodattimet** -kohta suodatinruudussa. Se otetaan käyttöön kentässä ja kokonaisarvojen suodattimessa.<br /><br /> Suodattimiksi palautetaan nykyisen näkymän oletussuodattimet. Jos nykyinen näkymä on **Kaikki**, tämä on sama kuin palaaminen kaikki tietueet sisältävään suodattamattomaan näkymään. |

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 04/01/2020
+ms.date: 04/14/2020
 ms.author: sgroespe
-ms.openlocfilehash: 61e39b15042a4c3bd21ef1297d90803496305f8f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: d353381c9267e9039d0b4391aa7fdac1c8a3c405
+ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183786"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262164"
 ---
 # <a name="working-with-dimensions"></a>Dimensioiden käyttäminen
 Voit yksinkertaistaa asiakirjojen, kuten myyntitilausten, analysointia dimensioiden avulla. Dimensiot ovat tapahtumia luokittelevia määritteitä ja arvoja, joita voi seurata ja analysoida. Dimensioiden avulla voit esimerkiksi ilmaista, mistä projektista tai osastosta tapahtuma on lähtöisin.  
@@ -106,7 +106,8 @@ Kun haluat estää sellaisten tapahtumien kirjauksen, joissa on väärät tai ke
 Globaaleja dimensioita ja pikadimensioita voidaan käyttää suodattimina missä tahansa [!INCLUDE[d365fin](includes/d365fin_md.md)]issa, kuten raporteissa, etätöissä ja analyysinäkymissä. Globaalit dimensiot ja pikadimensiot ovat aina lisättävissä suoraan ilman **Dimensiot**-sivun avaamista. Voit valita päiväkirja- ja asiakirjariveillä rivin kentässä globaalin dimension ja pikadimension. Voit määrittää kaksi globaalia dimensioita ja kahdeksan pikadimensioita. Valitse eniten käyttämäsi dimensiot.
 
 > [!Important]  
-> Globaalin dimension tai pikadimension muuttaminen edellyttää, että dimensioon kirjatut tapahtumat päivitetään. Voit suorittaa tämän tehtävän **Muuta globaaleja dimensioita** -toimintoa, mutta se voi viedä paljon aikaa ja vaikuttaa suorituskykyyn. Valitse globaalit dimensiot ja pikadimensiot huolellisesti, jotta niitä ei tarvitse vaihtaa myöhemmin.
+> Globaalin dimension tai pikadimension muuttaminen edellyttää, että dimensioon kirjatut tapahtumat päivitetään. Voit suorittaa tämän tehtävän **Muuta globaaleja dimensioita** -toimintoa, mutta se voi viedä paljon aikaa ja vaikuttaa suorituskykyyn ja taulukot voivat olla lukittuja päivityksen aikana. Valitse globaalit dimensiot ja pikadimensiot huolellisesti, jotta niitä ei tarvitse vaihtaa myöhemmin. <br /><br />
+> Lisätietoja on kohdassa [Globaalien dimensioiden vaihtaminen](finance-dimensions.md#to-change-global-dimensions).
 
 > [!Note]
 > Jos lisäät globaalin dimension tai pikadimension tai muutat sitä, sinut kirjataan automaattisesti ulos ja takaisin sisään, jotta uutta arvoa voidaan käyttää koko sovelluksella.
@@ -115,8 +116,24 @@ Globaaleja dimensioita ja pikadimensioita voidaan käyttää suodattimina missä
 2. Täytä **Dimensiot**-pikavälilehden kentät. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 #### <a name="to-change-global-dimensions"></a>Globaalien dimensioiden muuttaminen
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Muuta yleisiä dimensioita** ja valitse sitten liittyvä linkki.
-2. Kun siirrät kohdistimen sivun toimintojen ja kenttien päälle, saat lisätietoja globaalien dimensioiden ja pikadimensioiden muuttamisesta.
+Kun muutat globaalin dimension tai pikadimension, kaikki kyseiset dimensioon kirjatut tapahtumat päivitetään. Koska tämä prosessi voi olla aikaa vievää ja voi vaikuttaa suorituskykyyn, prosessin mukauttamiseksi tietokannan kokoon on käytettävissä kaksi eri toimintatapaa.  
+
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pääkirjanpidon määritykset** ja valitse sitten liittyvä linkki.
+2. Valitse **Muuta globaali dimensio** -toiminto.
+3. Valitse sivun yläosasta jokin seuraavista vaihtoehdoista määrittääksesi, missä tilassa eräajo suoritetaan.
+
+    |Asetus|Kuvaus|
+    |-|-|
+    |**Peräkkäin**|(Oletus) Koko dimension muutos tehdään yhdessä tapahtumassa, jossa kaikki tapahtumat otetaan takaisin niiden dimensioiden osalta, jotka heillä oli ennen muutosta.<br /><br />Tämä valinta on suositeltava, jos yrityksessä on suhteellisen vähän kirjattuja tapahtumia, joiden suorittaminen kestää lyhyimmän ajan. Prosessi lukitsee monta taulukkoa ja estää muita käyttäjiä, kunnes se on valmis. Huomaa, että suurissa tietokannoissa prosessia ei välttämättä voi suorittaa kokonaan tässä tilassa. Käytä siinä tapauksessa **rinnakkaistoimintoa**.|
+    |**Rinnakkain**|(Valitse **Rinnakkainen käsittely** -valintaruutu.) Dimension muutos tehdään useina tausta tapahtumina, ja operaatio jakautuu useaan tapahtumaan.<br /><br />Tämä valinta on suositeltava, suurille tietokannoille tai jos yrityksessä on paljon kirjattuja tapahtumia, joiden suorittaminen kestää lyhyimmän ajan. Huomaa, että tässä tilassa päivitysprosessi ei käynnisty, jos aktiivisia tietokantaistuntoja on enemmän kuin yksi.|  
+
+4. Kirjoita uudet dimensiot **Globaali dimensio 1 -koodi**- ja/tai **Globaali dimensio 2 -koodi** -kenttiin. Tämänhetkiset dimensiot näkyvät harmaana kenttien takana.
+5. Jos olet valinnut **Peräkkäinen**-tilan, valitse **Käynnistä**-toiminto.
+6. Jos olet valinnut **Rinnakkain**-tilan, valitse **Valmistele**-toiminto.
+
+    **Lokitapahtumat**-välilehdelle on täytetty tietoja muuttuneista dimensioista.
+7. Kirjaudu ulos kohteesta [!INCLUDE[d365fin](includes/d365fin_md.md)] ja kirjaudu sitten takaisin sisään.
+8. Aloita dimension muutosten rinnakkainen käsitteleminen valitsemalla **Aloita**-toiminto.
 
 ### <a name="example-of-dimension-setup"></a>Esimerkki dimension asetuksista
 Oletetaan, että yritys haluaa seurata tapahtumia organisaatiorakenteen ja maantieteellisen sijainnin perusteella. Määrität tätä tarkoitusta varten kaksi dimensiota **Dimensiot**-sivulla:

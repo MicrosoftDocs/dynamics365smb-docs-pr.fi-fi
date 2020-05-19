@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 04/01/2020
+ms.date: 04/27/2020
 ms.author: sgroespe
-ms.openlocfilehash: 061c0148601f3aaa871fbf4d613b51ceaf9cdfb1
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 506576c6ecbc707dd44ce23294ce7eb8b6e89329
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182154"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324148"
 ---
 # <a name="register-new-items"></a>Uusien nimikkeiden rekisteröiminen
 Nimikkeet ovat muiden tuotteiden ohella liiketoimintasi perusta; ne ovat siis tavaroita ja palveluja, joilla käyt kauppaa. Jokainen nimike on rekisteröitävä nimikekorttina.
@@ -52,11 +52,14 @@ Seuraavaksi selitetään, miten nimikekortti luodaan alusta lähtien. Voit luoda
 >
 > Jos valitset **Keskiarvo**, nimikkeen yksikkökustannus lasketaan kussakin vaiheessa keskimääräisenä yksikkökustannuksena oston jälkeen. Varastonarvostus olettaa, että kaikki varastot myydään samanaikaisesti. Voit valita tällä asetuksella **Keskimääräisten kustannusten laskennan yleiskuvaus** -sivun **Yksikkökustannus**-kentän, jolla voit tarkastella tapahtumahistoriaa, josta keskimääräinen kustannus lasketaan.
 
-Voit tarkastella tai muokata erityiset hinnat tai alennukset, jotka haluat myöntää nimikkeelle, jos tietyt ehdot, kuten asiakas, vähimmäistilausmäärä tai päättymispäivämäärä, täyttyvät. Tämä tehdään valitsemalla **Määritä erikoishinnat**- tai **Määritä erikoisalennukset** -toiminto. Jokainen rivi, esimerkiksi **Myyntihinnat**-sivulla, edustaa erikoishintaa. Jokainen sarake vastaa ehtoa, jonka täytyy olla voimassa, jotta asiakkaalle voidaan myöntää erikoishinta, joka syötetään **Myyntihinnat**-sivun **Yksikköhinta**-kenttään. Lisätietoja on kohdassa [Myyntihinnan, alennuksen ja maksusopimusten tallentaminen](sales-how-record-sales-price-discount-payment-agreements.md).
+Voit tarkastella tai muokata erityiset hinnat tai alennukset, jotka haluat myöntää nimikkeelle, tai toimittajasi myöntää sinulle, jos tietyt ehdot, kuten asiakas, vähimmäistilausmäärä tai päättymispäivämäärä, täyttyvät. Tämä tehdään valitsemalla **Määritä erikoishinnat**- tai **Määritä erikoisalennukset** -toiminto. Jokainen rivi, esimerkiksi **Myyntihinnat**-sivulla, edustaa erikoishintaa. Jokainen sarake vastaa ehtoa, jonka täytyy olla voimassa, jotta asiakkaalle voidaan myöntää erikoishinta, joka syötetään **Myyntihinnat**-sivun **Yksikköhinta**-kenttään. Lisätietoja on kohdassa [myyntihinnan, alennuksen ja maksusopimusten kirjaaminen](sales-how-record-sales-price-discount-payment-agreements.md) tai [erityisten ostohintojen ja alennusten kirjaaminen](purchasing-how-record-purchase-price-discount-payment-agreements.md).
 
 Nimike on nyt rekisteröity ja nimikekortti on valmis käytettäväksi osto- ja myyntiasiakirjoissa.
 
 Jos haluat käyttää tätä nimikekorttia mallina, kun luot uusia nimikkeen kortteja, tallenna se mallina. Lisätietoja on seuraavassa osassa.
+
+### <a name="deleting-item-cards"></a>Nimikekorttien poistaminen
+Jos olet kirjannut nimikkeelle tapahtuman, et voi poistaa korttia, koska nimiketapahtumia voi tarvita varaston arvostamiseen tai valvontaan. Voit poistaa nimiketapahtumia tapahtumakirjauksilta ottamalla yhteyttä Microsoft-kumppaniin koodin avulla.
 
 ## <a name="to-save-the-item-card-as-a-template"></a>Nimikekortin tallentaminen mallina
 1. Valitse **Nimikekortti**-sivulla **Tallenna mallina** -toiminto. **Nimikemalli**-sivu avautuu ja näyttää nimikekortin mallina.
@@ -80,8 +83,9 @@ Jos ostat saman nimikkeen useammalta kuin yhdeltä toimittajalta, sinun tulee sy
 Toimittajat näkyvät nyt nimikkeen kortissa avattavassa **Nimikkeen toimittajaluettelo** -sivulla, jossa voit valita kätevästi vaihtoehtoisen toimittajan.
 
 ## <a name="see-also"></a>Katso myös
-[Numerosarjojen luominen](ui-create-number-series.md)  
 [Varasto](inventory-manage-inventory.md)  
+[Varaston kustannusten täsmäyttäminen pääkirjanpitoon](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
+[Numerosarjojen luominen](ui-create-number-series.md)  
 [Osto](purchasing-manage-purchasing.md)  
 [Myynti](sales-manage-sales.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)

@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 95098397bd9554be6c993b6107963eba9a99c067
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: 84e335bacbfec965968d6a6839fe1eb407ab089d
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196850"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324124"
 ---
 # <a name="upgrading-an-integration-with-dynamics-365-sales"></a>Integroinnin päivittäminen Dynamics 365 Salesissa
-[!INCLUDE[d365fin](includes/d365fin_md.md)] voidaan integroida myös [!INCLUDE[d365fin](includes/cds_long_md.md)] -palvelun kanssa. Tämän vuoksi tietoja on helppo yhdistää ja synkronoida muiden Dynamics 365 -sovellusten, kuten [!INCLUDE[crm_md](includes/crm_md.md)] -sovelluksen, tai jopa itse luotujen sovellusten kanssa. Jos integrointi tehdään ensimmäistä kertaa, on suositeltavaa tehdä se [!INCLUDE[d365fin](includes/cds_long_md.md)] -palvelun kanssa. Lisätietoja on kohdassa [Integroiminen Common Data Service -palvelun kanssa](admin-common-data-service.md).
+[!INCLUDE[d365fin](includes/d365fin_md.md)] voidaan integroida [!INCLUDE[d365fin](includes/cds_long_md.md)] -palvelun kanssa. Tämän vuoksi tietoja on helppo yhdistää ja synkronoida muiden Dynamics 365 -sovellusten, kuten [!INCLUDE[crm_md](includes/crm_md.md)] -sovelluksen, tai jopa itse luotujen sovellusten kanssa. Jos integrointi tehdään ensimmäistä kertaa, on suositeltavaa tehdä se [!INCLUDE[d365fin](includes/cds_long_md.md)] -palvelun kanssa. Lisätietoja on kohdassa [Integroiminen Common Data Service -palvelun kanssa](admin-common-data-service.md).
 
 Jos integrointi [!INCLUDE[crm_md](includes/crm_md.md)]- ja [!INCLUDE[d365fin](includes/d365fin_md.md)] -ratkaisun välillä on jo tehty, voit jatkaa tietojen synkronointia asetuksen avulla. Jos päivität [!INCLUDE[d365fin](includes/d365fin_md.md)]:n tai poistat [!INCLUDE[crm_md](includes/crm_md.md)]-integroinnin käytöstä, voit ottaa sen uudelleen käyttöön muodostamalla yhteyden [!INCLUDE[d365fin](includes/cds_long_md.md)] -sovelluksen avulla. 
 
@@ -30,11 +30,13 @@ Jos integrointi [!INCLUDE[crm_md](includes/crm_md.md)]- ja [!INCLUDE[d365fin](in
 ## <a name="to-upgrade-your-connection-to-use-common-data-service"></a>Yhteyden päivittäminen niin, että se käyttää Common Data Service -sovellusta
 1. Avaa **Microsoft Dynamics 365 -yhteyden määritys** -sivu, valitse **Ota käyttöön** -valitsin ja poista käytöstä olemassa oleva [!INCLUDE[crm_md](includes/crm_md.md)]-yhteys.
 2. Avaa **Common Data Service -yhteyden määritys** -sivu ja valitse **Ota käyttöön** -valitsin, jos haluat ottaa yhteyden käyttöön.
-3. Kun olet ottanut CDS-yhteyden käyttöön, Business Centralin CDS-perusintegrointiratkaisu otetaan käyttöön Common Data Service -sovelluksessa.
-4. Valitse Microsoft Dynamics 365 -yhteyden määritys -sivulla Ota käyttöön -valitsin, jos haluat ottaa käyttöön [!INCLUDE[crm_md](includes/crm_md.md)]-yhteyden.
-5. Kun olet ottanut Sales-yhteyden käyttöön, Business Centralin integrointiratkaisu otetaan käyttöön Salesissa. Tämä mahdollistaa integroinnin [!INCLUDE[crm_md](includes/crm_md.md)]-kohtaisten entiteettien kanssa. Näitä ovat esimerkiksi myyntitilaukset, tarjoukset ja laskut.
-6. Valitse **Sales-yhteyden määritys** -sivulla **Käytä oletussynkronoinnin määritystä**, jos haluat käynnistää integrointitaulukon yhdistämismääritykset [!INCLUDE[crm_md](includes/crm_md.md)]-sovellusta varten.
-7. Valitse nyt **Ota integraatioratkaisu uudelleen käyttöön**, jos haluat asentaa ja määrittää päivitetyn Business Centralin integrointiratkaisun.
+  
+   Kun olet ottanut CDS-yhteyden käyttöön, Business Centralin CDS-perusintegrointiratkaisu otetaan käyttöön Common Data Service -sovelluksessa.
+3. Valitse Microsoft Dynamics 365 -yhteyden määritys -sivulla Ota käyttöön -valitsin, jos haluat ottaa käyttöön [!INCLUDE[crm_md](includes/crm_md.md)]-yhteyden.
+  
+   Kun olet ottanut Sales-yhteyden käyttöön, Business Centralin integrointiratkaisu otetaan käyttöön Salesissa. Tämä mahdollistaa integroinnin [!INCLUDE[crm_md](includes/crm_md.md)]-kohtaisten entiteettien kanssa. Näitä ovat esimerkiksi myyntitilaukset, tarjoukset ja laskut.
+4. Valitse **Ota integraatioratkaisu uudelleen käyttöön**, jos haluat asentaa ja määrittää päivitetyn Business Centralin integrointiratkaisun.
+5. Valitse **Sales-yhteyden määritys** -sivulla **Käytä oletussynkronoinnin määritystä**, jos haluat käynnistää integrointitaulukon yhdistämismääritykset [!INCLUDE[crm_md](includes/crm_md.md)]-sovellusta varten.
 
 ## <a name="see-also"></a>Katso myös
 [Dynamics 365 Sales -integrointi](admin-prepare-dynamics-365-for-sales-for-integration.md)  

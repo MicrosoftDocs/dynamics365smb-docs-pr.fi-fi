@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
-ms.date: 04/01/2020
+ms.date: 05/04/2020
 ms.author: edupont
-ms.openlocfilehash: 6e7968f7e37e2bf1e1495331cf863aef34e7e7e4
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: eb11098292f9d83fcd0a4b23bde9c1813f4c6c8e
+ms.sourcegitcommit: 866f0e6ed9df3397072b9df838e31c3a1f4b626d
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188966"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "3333882"
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Liiketoimintatietojen vienti Exceliin
 Jos haluat käsitellä [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietoja Excelissä, voit avata kaikki luettelot Excelissä ja käsitellä niitä siellä. Jos haluat vastaavasti peruuttaa [!INCLUDE[d365fin](includes/d365fin_md.md)]in tilauksen, voit viedä tiedot Exceliin, jotta ne ovat edelleen käytettävissä.
@@ -64,7 +64,14 @@ Myös seuraavien sivujen tietojen vienti on suositeltavaa:
 * Myyjät  
 
 > [!NOTE]  
->   Jos olet määrittänyt [!INCLUDE[d365fin](includes/d365fin_md.md)]iin useita yrityksiä, kunkin yrityksen kyseiset tiedot on vietävä.
+> Jos olet määrittänyt [!INCLUDE[prodshort](includes/prodshort.md)]iin useita yrityksiä, kunkin yrityksen kyseiset tiedot on vietävä.
+
+> [!NOTE]
+> Tietojen avaaminen tai muokkaaminen Excelissä edellyttää vähintään yhtä seuraavista käyttöoikeuksista:
+>    - käyttöoikeuksien joukko *D365 Excelin vientitoiminto*  
+>    - Järjestelmän käyttöoikeus 6110 *Salli toiminnon vieminen Exceliin*.  
+
+Lisätietoja on kohdassa [Käyttäjän käyttöoikeuksien yleiskatsauksen hankkiminen](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier
-ms.date: 04/01/2020
+ms.date: 04/27/2020
 ms.author: sgroespe
-ms.openlocfilehash: e780967fda8e5c4e8b3a1f2e5e3ed3a05418507d
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: ce41715830545c89651bac7d117b6c356650b7c3
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191041"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324172"
 ---
 # <a name="register-new-vendors"></a>Uusien toimittajien rekisteröiminen
 Toimittajat tarjoavat tuotteita, jotka myydään. Jokainen toimittaja, jolta ostat, täytyy rekisteröidä toimittajakorttina.
@@ -47,6 +47,9 @@ Toimittajan kortti sisältää tiedot, joita tarvitaan tuotteiden ostamiseksi to
 Toimittaja on nyt rekisteröity, ja toimittajan kortti on valmis käytettäväksi ostoasiakirjoissa.
 
 Jos haluat käyttää tätä toimittajan korttia mallina, kun luot uusia toimittajan kortteja, tallenna se toimittajamallina. Lisätietoja on seuraavassa osassa.
+
+### <a name="deleting-vendor-cards"></a>Toimittajakorttien poistaminen
+Jos olet kirjannut toimittajalle tapahtuman, et voi poistaa korttia, koska nimiketapahtumia voi tarvita valvontaan. Voit poistaa toimittajakortteja, joissa on tapahtumakirjauksia ottamalla yhteyttä Microsoft-kumppaniin koodin avulla.
 
 ## <a name="to-save-the-vendor-card-as-a-template"></a>Toimittajan kortin tallentaminen mallina
 1. Valitse **Toimittajakortti**-sivulla **Tallenna mallina** -toiminto. **Toimittajamalli**-sivu avautuu ja näyttää toimittajan kortin mallina.

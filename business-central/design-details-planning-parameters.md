@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 04/01/2020
+ms.date: 04/20/2020
 ms.author: sgroespe
-ms.openlocfilehash: e45850539b84e2762d93140e47ae336f2ec6efda
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 8f988be119132765fb02287c3935495e98f29b31
+ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184890"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3272036"
 ---
 # <a name="design-details-planning-parameters"></a>Rakennetiedot: suunnittelun parametrit
 Tässä ohjeaiheessa kerrotaan, mitä suunnitteluparametreja [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmassa voi käyttää.  
@@ -77,6 +77,8 @@ Rationaalinen toimitussuunnitelma saadaan, kun suunnittelija hienosäätää suu
 |**Uudelleenajoitusjakso**|Tämän kentän avulla määritetään, tuleeko toimenpideviestin ajoittaa olemassa oleva tilaus uudelleen vai peruuttaa se ja luoda uusi tilaus. Olemassa oleva tilaus aikataulutetaan uudelleen yhden uudelleenaikataulutuskauden sisällä ennen tämänhetkistä tarjontaa ja yhteen tämänhetkisen tarjonnan ylittämään uudelleenaikataulutuskauteen.|  
 |**Erän koontijakso**|Kun on uusintatilausmenetelmä on erä-erästä, tätä kenttää käytetään useiden tarjontatarpeiden keräämisessä yhteen toimitustilaukseen. Järjestelmä kokoaa ensimmäisestä suunnitellusta tarjonnasta alkaen kaikki tarjonnan tarpeet seuraavalla erän koontijaksolla yhdeksi tarjonnaksi, joka asetetaan ensimmäisen tarjonnan päivämääränä. Tämä toimitus ei kata kysyntää, joka on erän koontijakson ulkopuolella.|  
 |**Puskuriaika**|Tätä kenttää käytetään olemassa olevan tarjonnan vähäisten uudelleenajoitusten välttämisessä. Muutokset toimituspäivämäärästä siihen hetkeen, kun yksi toimituspäivämäärän puskuriaika ei luo mitään toimenpideviestejä.<br /><br /> Puskuriaika määrittää ajanjakson, jonka aikana suunnittelujärjestelmän ei haluta ehdottavan toimitustilausten aikatauluttamista uudelleen eteenpäin. Tämä rajoittaa turhien tarjonnan uudelleenajoituksien määrää, jos uusi päivämäärä on puskuriajan puitteissa.<br /><br /> Seurauksena uuden tarjonnan päivämäärän ja alkuperäisen tarjonnan päivämäärän välisen positiivisen deltan muutos on aina suurempi kuin puskuriaika.|  
+> [!NOTE]
+> Kun uusintatilaustapa on erä-erästä, **erän koontijakso** -kentän arvon on oltava sama tai suurempi kuin **puskuriaika**-kentän arvo. Muussa tapauksessa puskuriaika lyhentyy automaattisesti, kun suunnitelmarutiini vastaa erän koontijaksoa.  
 
 Uudelleenajoitusjakson, puskuriajan ja erän koontijakson ajoitus perustuu tarjonnan päivämäärään. Aikaväli perustuu suunnittelun alkupäivämäärään seuraavassa kuvassa esitetyllä tavalla.  
 

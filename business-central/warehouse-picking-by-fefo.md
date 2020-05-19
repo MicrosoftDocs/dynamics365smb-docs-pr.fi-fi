@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: f3355fb6ff46e7fa59d5b76aec8e88e675de31f8
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 466736905815efb0b013a66fd05854769da24be5
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3195938"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324004"
 ---
 # <a name="enable-picking-items-by-fefo"></a>FEFO-poiminnan ottaminen käyttöön
 FEFO (First Expired First Out) on lajittelumenetelmä, joka varmistaa sen, että vanhimmat ja aikaisimman vanhenemispäivämäärän omaavat nimikkeet poimitaan ensin.  
@@ -23,7 +23,7 @@ FEFO (First Expired First Out) on lajittelumenetelmä, joka varmistaa sen, että
  Tämä toiminto toimii vain, kun seuraavat ehdot täyttyvät:  
 
 -   Nimikkeellä on oltava sarjanumero tai eränumero.  
--   Nimikkeen seurantakoodiasetuksissa on valittava **SN-kohtainen seuranta** -kenttä tai **Eräkohtainen seuranta** -kenttä.  
+-   Nimikkeen seurantakoodiasetuksissa on valittava kenttä **Sarjanumerovarastoseuranta** -kenttä tai **Eränumerovarastoseuranta**.  
 -   Nimike on kirjattu varastoon vanhentumispäivämäärän kera.  
 -   Sijaintikortissa on valittava valintaruutu **Vaadi poiminta**.  
 -   Sijaintikortissa on valittava valintaruutu **FEFO-poiminta**.  

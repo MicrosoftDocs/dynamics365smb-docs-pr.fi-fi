@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 04/30/2020
 ms.author: jswymer
-ms.openlocfilehash: 33b5a3ff604b0ddf7525b89d7a8a82bcfdd7f653
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: b46786b60d7c5799b056c49188785bd595db57ff
+ms.sourcegitcommit: 866f0e6ed9df3397072b9df838e31c3a1f4b626d
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196377"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "3333906"
 ---
 # <a name="managing-database-access-intent"></a>Tietokannan käyttötarkoituksen hallinta 
 
@@ -29,7 +29,7 @@ Kun objektit suoritetaan, tietokannan käyttötarkoitus määrittää, käytetä
 
 **Tietokannan käyttötarkoitusluettelo** -sivulla voit ohittaa objektien ennalta määritetyn tietokannan käyttötarkoituksen objektien suorituksen aikana.
 
-Tietokannan termeissä tätä ominaisuutta kutsutaan yleisesti *lukemisen skaalaamiseksi*. Lisätietoja lukemisen skaalaamisesta ja tietokannan käyttötarkoituksesta [!INCLUDE[d365fin](includes/d365fin_md.md)]:ssä on kohdassa [Lukemisen skaalautumisen käyttäminen paremman suorituskyvyn saavuttamiseksi](https://review.docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview?branch=tfs337368-readscaleout) [!INCLUDE[d365fin](includes/d365fin_md.md)]:n kehittäjän ja IT-ammattilaisen ohjeessa.
+Tietokannan termeissä tätä ominaisuutta kutsutaan yleisesti *lukemisen skaalaamiseksi*. Lisätietoja lukemisen skaalaamisesta ja tietokannan käyttötarkoituksesta [!INCLUDE[prodshort](includes/prodshort.md)]:ssä on kohdassa [Lukemisen skaalautumisen käyttäminen paremman suorituskyvyn saavuttamiseksi](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview) [!INCLUDE[prodshort](includes/prodshort.md)]:n kehittäjän ja hallinnon ohjeessa.
 
 ## <a name="to-change-the-database-access-intent"></a>Tietokannan käyttötarkoituksen muuttaminen
 

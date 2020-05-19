@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: a322144f9c55d87ad615122ad321572c476de1ef
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 42f89bc4f62cdcb4b2abcd9c919006a65451330b
+ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183042"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262236"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Maksutoleranssien ja maksualennustoleranssien käsitteleminen
-Voit määrittää maksutoleranssin ja sulkea sen avulla laskun, kun maksu ei täysin kata laskun summaa. Voit määrittää maksualennustoleranssin, jolla voi myöntää maksualennuksen sen jälkeen kun maksualennuspäivämäärä on ohitettu.  
+Voit määrittää maksutoleranssin ja sulkea sen avulla laskun, kun maksu ei täysin kata laskun summaa. Esimerkiksi maksutoleranssit ovat tyypillisesti pieniä maksuja, joiden korjaaminen maksaa enemmän kuin niiden hyväksyntä. Voit määrittää maksualennustoleranssin, jolla voi myöntää maksualennuksen sen jälkeen kun maksualennuspäivämäärä on ohitettu.  
 
 Voit käyttää maksutoleransseja siten, että jokaiselle avoimelle summalle on määritetty suurin sallittu maksutoleranssi. Jos maksutoleranssi täyttyy, maksusumma analysoidaan. Jos maksettu summa on alisuoritus, koko avoin summa kuitataan alisuoritusta vastaan. Ohjelma kirjaa yksityiskohtaisen maksutapahtuman niin, että kohdistetusta laskusta ei jää avointa saldoa. Mikäli maksutoleranssin kriteerit täyttyvät ja maksu on ylisuoritus, uusi yksityiskohtainen reskontratapahtuma kirjataan niin, että maksutapahtumasta ei jää avointa saldoa.
 
@@ -36,7 +36,10 @@ Voit tuoda näyttöön varoituksen, joka perustuu eri poikkeamatilanteisiin.
 - Ensimmäinen varoitusteksti liittyy maksualennustoleranssiin. Saat tiedon, että voit hyväksyä myöhästyneen maksualennuksen. Sitten voit valita hyväksytkö toleranssin alennuspäivänä.  
 - Toinen varoitusteksti liittyy maksutoleranssiin. Käyttäjälle ilmoitetaan, että kaikki tapahtumat voidaan sulkea, koska ero on pienempi kuin maksimi maksutoleranssi kohdistettaville tapahtumille. Sitten voit valita hyväksytkö toleranssin maksumäärässä.
 
-Lisätietoja on kohdassa [Maksutoleranssin varoitusten käyttöönotto tai käytöstäpoisto](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings).     
+> [!NOTE]
+> Kun varoitusviesti otetaan käyttöön, voidaan valita, miten toleranssin rajoissa suoritettavat maksut käsitellään. Jos et ota sanomaa käyttöön ja toleranssitaso on määritetty, laskut, joiden summat ovat toleranssin sisällä, suljetaan automaattisesti, etkä voi valita, että jäljellä oleva summa jätetään pois. 
+
+Lisätietoja on kohdassa [Maksutoleranssin varoitusten käyttöönotto tai käytöstäpoisto](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings). 
 
 ## <a name="to-set-up-tolerances"></a>Toleranssien määrittäminen  
 Toleranssi päivillä ja summilla sallii laskun sulkemisen vaikka maksu ei täysin kata laskun summaa, johtuu tämä sitten maksualennuspäivän ylittämisestä, virheellisten tavaroiden aiheuttamasta vähennyksestä tai pienestä virheestä. Tämä pätee myös hyvityksiin ja hyvityslaskuihin.  
@@ -67,7 +70,7 @@ Määrittääksesi toleranssin sinun tulee määrittää useita toleranssitilej�
 ## <a name="to-enable-or-disable-payment-tolerance-warnings"></a>Maksutoleranssivaroitusten ottaminen käyttöön tai poistaminen käytöstä
 Maksutoleranssivaroitus ilmestyy, kun kirjaat kohdistuksen, jonka saldo mahtuu sallittuun toleranssiin. Voit sitten päättää kuinka kirjaat ja dokumentoit saldon.    
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pääkirjanpidon määritykset** ja valitse sitten liittyvä linkki.  
-2. Voit ottaa varoituksen käyttöön lisäämällä **Pääkirjanpidon asetukset** -sivun **Kohdistus**-pikavälilehden **Maksutoleranssin varoitus** -valintaruutuun valintamerkin. Ottaaksesi varoituksen pois päältä, poista ruksi  
+2. Voit ottaa varoituksen käyttöön laittamalla **Pääkirjanpidon asetukset** -sivun **Kohdistus**-pikavälilehden **Maksutoleranssin varoitus** -kytkimen päälle. Voit poistaa varoituksen käytöstä laittamalla kytkimen pois päältä.  
 
 > [!NOTE]  
 >  Oletusarvon mukainen vaihtoehto **Maksutoleranssin varoitus** -sivulla on **Jätä saldo jäljelläolevaksi summaksi**. Oletusarvon mukainen vaihtoehto **Maksualennustoler. varoitus** -sivulle on **Älä hyväksy myöhästynyttä maksualennusta**.

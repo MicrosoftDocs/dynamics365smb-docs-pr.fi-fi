@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell
-ms.date: 04/01/2020
+ms.date: 04/27/2020
 ms.author: sgroespe
-ms.openlocfilehash: 184c3f1d20790efe984f890c1a88c03698d66ba6
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c7b1d4b82d82b4957d7bd0d295182189ede60a79
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194809"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324364"
 ---
 # <a name="sales"></a>Myynti
 Luo myyntilasku tai -tilaus tallentaaksesi sopimuksesi asiakkaan kanssa ja myydäksesi määrätyt tuotteet määrätyillä toimitus- ja maksuehdoilla.
@@ -45,6 +45,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 | Luot myyntilaskun tallentaaksesi sopimuksesi asiakkaan kanssa ja myydäksesi määrätyt tuotteet määrätyillä toimitus- ja maksuehdoilla. |[Myynnin laskutus](sales-how-invoice-sales.md) |
 | Käsittele osittaista toimitusta tai suoratoimitusta käsittelevä myyntitilaus. |[Tuotteiden myyminen](sales-how-sell-products.md) |
 |Tietoja siitä, mitä tapahtuu myyntiasiakirjoja kirjattaessa.|[Myynnin kirjaaminen](ui-post-sales.md)|
+|Valmistaudu poimimaan lähetettäviä nimikkeitä.|[Tulosta poimintaluettelo](sales-how-print-picking-list.md)|
 |Määritä vakiomyynti- tai -ostorivit, jotka voit lisätä nopeasti asiakirjoihin, kuten toistuviin täydennystilauksiin.|[Toistuvien myynti- ja ostorivien luominen](sales-how-work-standard-lines.md)|  
 | Linkitä myyntitilaus ostotilaukseen, jotta voit myydä suoratoimituksen nimikkeen, joka toimitetaan suoraan toimittajaltasi asiakkaallesi. |[Suoratoimitusten tekeminen](sales-how-drop-shipment.md) |
 |Luettelonimike on toimitettava toimittajalta fyysiseen varastoon, jotta voit toimittaa nimikkeen asiakkaallesi.|[Erikoistilausten luominen](sales-how-to-create-special-orders.md)|

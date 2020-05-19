@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 04/01/2020
+ms.date: 05/06/2020
 ms.author: edupont
-ms.openlocfilehash: cf0091de7446aff07b039d795b07334e3ba9d2a8
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 417b7ba9743ec0dabb4c7b311535ed8c22d8896a
+ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190081"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "3372590"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Business Central -sovelluksen käytön vähimmäisvaatimukset
 Suosittelemme, että tietokoneen tai mobiililaitteen tuotteelle asetettujen järjestelmän vähimmäisvaatimusten täyttyminen tarkistetaan, ennen kuin [!INCLUDE [prodshort](includes/prodshort.md)] -sovelluksen online-versio otetaan käyttöön. Tässä artikkelissa kerrotaan vaatimukset.  
@@ -24,13 +24,14 @@ Suosittelemme, että tietokoneen tai mobiililaitteen tuotteelle asetettujen jär
 
 ### <a name="recommended-browsers"></a>Suositellut selaimet
 
+**Microsoft Edge:** [!INCLUDE[d365fin](includes/d365fin_md.md)] on suunniteltu käytettäväksi uuden Microsoft Edgen nykyisen version kanssa.  
 **Chrome Windowsille ja Firefox Windowsille:** [!INCLUDE[d365fin](includes/d365fin_md.md)] on suunniteltu käytettäväksi näiden työpöytäselaimien nykyisten versioiden kanssa.  
-**Safari:** [!INCLUDE[d365fin](includes/d365fin_md.md)] on suunniteltu käytettäväksi OSX-käyttöjärjestelmän nykyisen Safari-version kanssa.  
-**Microsoft Edge:** [!INCLUDE[d365fin](includes/d365fin_md.md)] on suunniteltu käytettäväksi nykyisen Microsoft Edge -version kanssa.
+**Safari:** [!INCLUDE[d365fin](includes/d365fin_md.md)] on suunniteltu käytettäväksi macOS-käyttöjärjestelmän nykyisen Safari-version kanssa.  
 
 ### <a name="other-supported-browsers"></a>Muut tuetut selaimet
 
-**Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] on suunniteltu toimimaan Windows 10:n (32- ja 64-bittiset versiot) Internet Explorer 11:n (koontiversio 11.0.9600.17239) kanssa. Suosittelemme Internet Explorerin päivittämistä uusimpaan Windows-versiosi tukemaan versioon. Voit myös käyttää uutta Edgeä ja silti käyttää Internet Exploreria edellyttäviä sivustoja. Lisätietoja on [Microsoft Edge -dokumentaatiossa](/deployedge/edge-ie-mode).
+**Vanha Microsoft Edge:** [!INCLUDE[d365fin](includes/d365fin_md.md)] on suunniteltu käytettäväksi vanhan Microsoft Edge -version kanssa.  
+**Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] on suunniteltu toimimaan Windows 10:n (32- ja 64-bittiset versiot) Internet Explorer 11:n (koontiversio 11.0.9600.17239) kanssa. Suosittelemme Internet Explorerin päivittämistä uusimpaan Windows-versiosi tukemaan versioon. Voit myös käyttää uutta Edgeä ja silti käyttää muita Internet Exploreria edellyttäviä sivustoja. Lisätietoja on [Microsoft Edge -dokumentaatiossa](/deployedge/edge-ie-mode).
 
 ## <a name="mobile-devices"></a>Mobiililaitteet
 **Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] for Windows voidaan asentaa laitteisiin, joissa on vähintään 1 Gt RAM-muistia ja Windows 10 Home-, Pro-, Enterprise- tai Education-versioihin (32- ja 64-bittiset versiot).  
@@ -45,6 +46,13 @@ Suosittelemme, että tietokoneen tai mobiililaitteen tuotteelle asetettujen jär
 
 ## <a name="excel"></a>Excel
 **Muokkaa Excelissä:** Jotta voit tehdä muutoksia Excelissä ja tuoda muutokset takaisin [!INCLUDE[d365fin](includes/d365fin_md.md)]:een Excel-lisäosan avulla, tarvitset Excel 2016 -version tai uudemman. Lisätietoja on kohdassa [Rahoituslaskelmien analysointi Microsoft Excelissä](finance-analyze-excel.md).  
+
+## <a name="using-the-business-central-administration-center"></a><a name="TAC"></a> Business Centralin hallintakeskuksen käyttäminen
+Administration Center toimii seuraavien selainten uusimman version kanssa:
+- Uusi Microsoft Edge
+- Chrome Windowsille
+- Firefox Windowsille
+- Safari MacOSille
 
 ## <a name="using-business-central-on-premises"></a>Paikallisen Business Central -sovelluksen käyttäminen
 

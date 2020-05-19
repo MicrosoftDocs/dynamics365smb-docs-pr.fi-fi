@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online printing
-ms.date: 04/01/2020
+ms.date: 04/17/2020
 ms.author: sgroespe
-ms.openlocfilehash: d027999692323960327e8b34ddb2efaea23c59a8
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: dbfdb22447f20b4e4b811dc40cf892d9b971dc77
+ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189481"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3272084"
 ---
 # <a name="set-up-printers"></a>Tulostimien määrittäminen
 Koska [!INCLUDE[prodshort](includes/prodshort.md)] on pilvipalvelu, se ei voi käyttää paikallisia tulostimia, jotka on yhdistetty käyttäjien koneisiin. Se voi kuitenkin muodostaa yhteyden pilvipalveluun yhteensopiviin tulostimiin. Sovelluksen [!INCLUDE[prodshort](includes/prodshort.md)] yleisessä versiossa pilvitulostin nimeltä **Sähköpostitulostin** asennetaan laajennuksena. Se on käyttövalmis alkuasetusten jälkeen.
@@ -27,6 +27,9 @@ Jos pilvitulostinta ei ole asennettu ja määritetty tai jos asennettu tulostin 
 **Tulostimen hallinta** -sivulla näkyvät määritetyt tulostimet. Kun olet määrittänyt vähintään yhden tulostimen, voit avata **Tulostinvalinnat**-sivun ja määrittää käyttäjätilillä, mitä raportteja milläkin tulostimella tulostetaan.
 
 Kun tulostin on määritetty ja liitetty tiettyihin raportteihin, voit tulostaa raportin valitsemalla raporttipyyntösivulla **Tulosta**-painikkeen. Lisätietoja on kohdassa [Raportin tulostaminen](ui-work-report.md#PrintReport).
+
+### <a name="sizing-print-jobs"></a>Tulostustöiden mitoitus
+Pilvitulostus on suunniteltu kohtuullisen kokoisia asiakirjoja varten. Useimmissa pilvipalveluissa, kuten PrintNode- ja HP ePrint -palveluissa, on enintään 10 megatavua työtä kohti. Jos haluat tulostaa suurempia raportteja, ne täytyy ehkä jakaa useisiin tulosteisiin.
 
 ## <a name="to-set-up-a-printer"></a>Tulostimen määrittäminen
 **Tulostimen hallinta** -sivulla ovat näkyvissä määritetyt tulostimet. Voit käyttää kunkin tulostimen **Asetukset**-sivua ja muokata olemassa olevaa asetusta tai määrittää uuden tulostimen.

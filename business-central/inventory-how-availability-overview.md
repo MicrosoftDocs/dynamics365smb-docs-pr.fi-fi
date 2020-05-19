@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: stock
 ms.date: 04/01/2020
 ms.author: SorenGP
-ms.openlocfilehash: fc7a0c6f750958cb35b2a85ed9d548f2e8219484
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: f95544f2090185512d94e9a8ce10975304f0ec2f
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182322"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324244"
 ---
 # <a name="view-the-availability-of-items"></a>Nimikkeiden saatavuuden tarkasteleminen
 Voit saada, liiketoimintaan liittyvän tehtävän kontekstissa, lisätietoja milloin ja mistä nimike on saatavissa, esimerkiksi kun kerrot asiakkaalle toimitusaikataulua.
@@ -80,9 +80,9 @@ Voit tarkastella kaikkien nimikkeidesi saatavuutta kaikissa sijainneissa **Nimik
 3. Valitse arvo **Varastosaldo** -kentässä tarkastellaksesi nimiketapahtumia tai avataksesi asiakirjoja, jotka muodostavat arvon.
 
 ## <a name="to-view-the-availability-of-an-item-by-its-use-in-assembly-or-production-boms"></a>Nimikkeen saatavuuden tarkastelu sen mukaan, miten sitä käytetään kokoonpanon tai tuotannon tuoterakenteessa
-Jos nimike on kokoonpanon tai tuotannon tuoterakenteessa joko päänimikkeenä tai osana, voit tarkastella **Nimikkeen saatavuus tuoterakennetason mukaan** -sivulla, kuinka monta sen yksikköä tarvitaan. Sivulla näkee, kuinka monta pääyksikköä voit tehdä alla olevien rivien alinimikkeiden saatavuuteen perustuen. Kaikki nimikkeet, joilla on kokoonpanon tai tuotannon tuoterakenne, näkyvät sivulla tiivistettävänä rivinä. Voit laajentaa tämän rivin pohjana sen alla oleville osille ja alemman tason osakokoonpanoille niiden omien tuoterakenteiden kanssa.
+Jos nimike on kokoonpanon tai tuotannon tuoterakenteessa joko päänimikkeenä tai osana, voit tarkastella **Nimikkeen saatavuus tuoterakennetason mukaan** -sivulla, kuinka monta sen yksikköä tarvitaan. Sivulla näkee, kuinka monta päänimikettä voit tehdä alla olevien rivien alinimikkeiden saatavuuteen perustuen. Kaikki nimikkeet, joilla on kokoonpanon tai tuotannon tuoterakenne, näkyvät sivulla tiivistettävänä rivinä. Voit laajentaa tämän rivin pohjana sen alla oleville osille ja alemman tason osakokoonpanoille niiden omien tuoterakenteiden kanssa.
 
-Sivun avulla voit nähdä, voitko täyttää nimikkeen myyntitilauksen tiettynä päivämääränä tutkimalla sen nykyisen saatavuuden ja määrien kanssa, jotka sen osat voi toimittaa. Sivun avulla voit myös tunnistaa pullonkaulat liittyvissä tuoterakenteissa.
+Sivun avulla voit esimerkiksi nähdä, voitko määrittää nimikkeen myyntitilauksen tiettynä päivämääränä tutkimalla sen nykyisen saatavuuden ja määrien kanssa, jotka sen osat voi toimittaa. Sivun avulla voit myös tunnistaa pullonkaulat liittyvissä tuoterakenteissa.
 
 Seuraavat kentät määrittävät saatavuusluvut sekä päänimikkeiden että alinimikkeiden sivun kullakin rivillä. Voit luvata näiden lukujen avulla, kuinka monta pääyksikköä voit toimittaa, jos aloitat liittyvän kokoonpanoprosessin.
 
@@ -99,8 +99,11 @@ Seuraavat kentät määrittävät saatavuusluvut sekä päänimikkeiden että al
 
 **Pullonkaula**-kenttä määrittää, mikä tuoterakenteen nimike estää suuremman valmistusmäärän kuin **Kykenee valmistamaan tärkeintä nimikettä** -kentässä näkyvä määrä. Pullonkaulanimike voi olla esimerkiksi ostettu osa, jonka oletettu vastaanottopäivämäärä on liian myöhään, jotta päänimekettä voitaisiin valmistaa lisää **Tarvitaan päivämäärän mennessä** -kentässä olevaan päivämäärään mennessä.
 
-### <a name="to-view-the-availability-of-an-item-by-its-units-of-measure"></a>Nimikkeen saatavuuden näyttäminen mittayksiköinä
-**Nimikkeen saatavuusmittayksikkö** -sivu näyttää nimikkeiden saatavuuden jaoteltuina eri mittayksiköinä, joina se on varastoitu.
+## <a name="to-view-the-availability-of-an-item-by-its-units-of-measure"></a>Nimikkeen saatavuuden näyttäminen mittayksiköinä
+**Nimikkeen saatavuusmittayksikkö** -sivu näyttää nimikkeen saatavuuden mittayksiköinä, joina se on varastoitu.
+
+> [!NOTE]  
+> Jotta tiedot pysyisi virheettöminä, sinun täytyy muuntaa nimikkeen mittayksiköt. Jos esimerkiksi ostat nimikkeen yhtenä mittayksikkönä, esimerkiksi laatikoina, ja myyt nimikkeitä muussa mitta yksikössä, esimerkiksi kappaleina, sinun täytyy muuntaa mittayksiköt nimikepäiväkirjan avulla tai purkaa nimikkeet eri yksiköiksi. Negatiivisen muutoksen nimikepäiväkirjan rivin avulla voit vähentää varastoa ostomittayksikössä, esimerkiksi laatikoina, ja positiivisen muutoksen avulla, joka lisää varaston määrää myynnin mittayksikössä, esimerkiksi kappaleina. 
 
 ## <a name="assembly-availability-page"></a>Kokoonpanon saatavuus -sivu
 **Kokoonpanon saatavuus** -sivulla on kokoonpanonimikkeen tarkat saatavuustiedot. Avautuminen:

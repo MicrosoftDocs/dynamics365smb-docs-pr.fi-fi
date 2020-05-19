@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 04/22/2020
 ms.author: sgroespe
-ms.openlocfilehash: d559eb54b727a60c2135a10ec23fc31b33241832
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: a317d80b9aa3a82da939d39f515fb4e0d37e887a
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190633"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324340"
 ---
 # <a name="setting-up-manufacturing"></a>Tuotannon määrittäminen
 Jotta materiaalit voidaan muuntaa tuotetuiksi lopullisiksi nimikkeiksi, järjestelmässä on määritettävä tuotantoresurssit, kuten tuoterakenteet, reititykset, koneenkäyttäjät ja koneet.
@@ -24,11 +24,14 @@ Koneenkäyttäjät ja koneet esitetään järjestelmässä kuormitusryhminä, jo
 
 Kun tuotanto on määritetty, voit suunnitella ja toteuttaa tuotantotilauksia. Lisätietoja on kohdissa [Suunnittelu](production-planning.md) ja [Tuotanto](production-manage-manufacturing.md).  
 
+
+
  Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aiheisiin.   
 
 |**Tehtävä**|**Katso**|  
 |------------|-------------|  
-|Määritä tuotantotoiminnot, joihin kuuluvat esimerkiksi tuotannon työtuntien määrittäminen sekä suunnitteluperiaatteiden valitseminen.|**Tuotannon asetukset** -sivu|  
+|Määritä tuotantotoiminnot, joihin kuuluvat esimerkiksi tuotannon työtuntien määrittäminen sekä suunnitteluparametrien valitseminen.|**Tuotannon asetukset** -sivu|
+|Määritä **Tuotannon asetukset** -sivun **Suunnitelma**-välilehdessä Yleiset suunnitelmaparametrit, jotka ohittavat yksittäisten nimikkeiden korteissa määritetyt parametrit.|[Rakennetiedot: suunnittelun parametrit](design-details-planning-parameters.md)|
 |Määritä tuotanto-osaston vakiotyöviikko määrittämällä kunkin työpäivän alku- ja loppuajat sekä työvuorot.|[Tuotantokalenterien luominen](production-how-to-create-work-center-calendars.md)|  
 |Järjestä tuotantoresurssien kiinteät arvot ja vaatimukset tuotantosoluina tai kuormitusryhmien tuotoksen hallintaa varten.|[Tuotantosolujen ja kuormituskeskusten määrittäminen](production-how-to-set-up-work-and-machine-centers.md)|
 |Järjestä tuotantotoiminnot vaadittuun järjestykseen ja määritä tuotantosoluihin ja kuormitusryhmiin vaadituin työajoin.|[Uusien reititysten luominen](production-how-to-create-routings.md)|

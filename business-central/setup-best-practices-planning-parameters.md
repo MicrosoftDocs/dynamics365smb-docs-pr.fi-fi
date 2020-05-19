@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 50e548a2e2272e0771a754f0ea2aee318433f761
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 8ff874a076aa1a0bba09e1277cb19ee6553eaa8b
+ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192225"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3271916"
 ---
 # <a name="setup-best-practices-planning-parameters"></a>Asetukset - parhaat käytännöt: suunnitteluparametrit
 **Suunnittelu**-pikavälilehti nimikkeen kortissa on yrityksen toimitusketjun keskus. Oikeiden suunnitteluparametrien määrittäminen on erittäin tärkeää kustannustehokkaan varastonhallinnan ja hyvän asiakaspalvelun vuoksi.  
@@ -26,7 +26,7 @@ ms.locfileid: "3192225"
 |-----------------|-------------------|-------------|  
 |Uusintatilaustapa||Lisätietoja on ohjeaiheessa [Asetukset - parhaat käytännöt: uusintatilaustavat](setup-best-practices-reordering-policies.md).|  
 |Varaa|Valitse **ei koskaan**, kun nimike suunnitellaan käyttämällä uusintatilauspistettä.<br /><br /> Valitse tuotannon **Ei koskaan** -kohta, kun haluat sallia suunnittelujärjestelmän kaikille kysynnöille.<br /><br /> Valitse **valinnainen** kohteille, jotka haluat ehkä varata ylimmän prioriteetin asiakkaille.<br /><br /> Valitse **Aina** muille kuin yksilöllisille nimikkeille, kuten sekalainen, jotka ovat tulevia, erityisvaatimuksia sisältäviä nimikkeitä.|Varaukset neutraloivat suunnittelun tarkoitusta, joka tasapainottaa kysyntää ja tarjontaa. Tämän vuoksi nimikkeitä, jotka on määritetty suunnittelussa, ei yleensä pidä varata.<br /><br /> Jos käyttäjä varaa varastomäärää tulevaa kysyntää varten, suunnittelun perusta häiriintyy ja uusintatilauspiste ei ehkä toimi oikein. Vaikka oletettu varastotaso on hyväksyttävä suhteessa uusintatilauspisteeseen, määrät eivät ehkä ole käytettävissä varauksen vuoksi.|  
-|Puskuriaika|Määritä ottaen huomioon toimittajan joustavuuden.<br /><br /> Pidemmän jakson avulla voit tarjota parempaa asiakaspalvelua, mutta se aiheuttaa myös enemmän uudelleenaikataulutusta.|Jos toimittaja hyväksyy tilauksiin viime hetken muutoksia, käytä pidempää jaksoa, mutta valmistaudu suurempaan määrään uudelleenajoituksia. Jos toimittaja vaatii sitovan suunnittelun, lyhennä jaksoa mahdollisimman paljon.<br /><br /> Lisätietoja **Puskutiaika**-kentästä on ohjeessa [Suunnittelun tiedot: suunnittelun parametrit](design-details-planning-parameters.md).|  
+|Puskuriaika|Määritä ottaen huomioon toimittajan joustavuuden.<br /><br /> Lyhyemmän ajanjakson avulla voit vähentää käyttöpääomaa välttämällä liiallista kalustoa, mutta se myös aiheuttaa enemmän toimenpiteitä aikataululle.|Jos toimittaja hyväksyy tilauksiin viime hetken muutoksia, käytä lyhyempää jaksoa, mutta valmistaudu suurempaan määrään uudelleenajoituksia. Jos toimittaja vaatii sitovan suunnittelun, pidennä jaksoa mahdollisimman paljon.<br /><br /> Lisätietoja **Puskutiaika**-kentästä on ohjeessa [Suunnittelun tiedot: suunnittelun parametrit](design-details-planning-parameters.md).|  
 |Sisällytä varasto|Valitse aina, kun käytät uusintatilaustapaa Erä-erästä.|Älä valitse vain erityistilanteissa, esimerkiksi, kun varastonimikkeet eivät ole myytäviä.|  
 |Toimitusajan varmistus|Valitse 1D tai 6D.<br /><br /> Määritä vähintään yhden päivän toimitusajan varmistus varmistaaksesi, että toimitukset ovat käytettävissä päivää ennen kuin niitä tarvitaan.<br /><br /> Jos kyseessä on uusi toimittaja, määritä aika normaalia pidemmäksi niin pitkäksi aikaa, kunnes toimittajan toimitussuorituskyky tunnetaan.<br /><br /> Määritä tuotannon kriittisille komponenteille pidemmät toimitusajan varmistukset.|Järjestelmän suunnittelema tarjonta, jolla vältetään varaston loppuminen, saapuu sinä päivänä, jona varasto loppuisi. Tämä voi olla useita tunteja myöhässä, jos esimerkiksi kysyntä tarvitaan aamulla ja tarjonta saapuu iltapäivällä. **Huomautus:**  **Toimitusajan varmistus** -kenttä käyttää peruskalenteria. 14 D ei välttämättä ole kahta viikkoa.|  
 |Varmuusvaraston määrä|Käyttää nimikkeisiin, joissa on suuria vaihteluita.<br /><br /> Käytä tuotannon kriittisissä komponenteissa.<br /><br /> Käytä nimkikeisiin, joissa on huoltosopimukset.|Jos **Uusintatilauspiste**-kenttään ei ole määritetty arvoa, varmuusvaraston määrä toimii myös uusintatilauspisteenä.|  

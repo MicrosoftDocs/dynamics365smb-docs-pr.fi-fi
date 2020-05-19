@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 04/27/2020
 ms.author: sgroespe
-ms.openlocfilehash: c5d9dcc46e05cef21961e20008227a1a35b737af
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 9d456fba507977121809124d1de0d23a098406f5
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193867"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324412"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Korttien ja asiakirjojen liitteiden, linkkien ja muistioiden hallinta
 
@@ -40,10 +40,16 @@ Seuraava toimenpide perustuu ostolaskuun. Vaiheet ovat samanlaiset kaikissa tuet
 2. Avaa myyntitilaus, johon haluat liittää tiedoston.
 3. Avaa **Liitteet**-välilehti tietoruudussa.
 4. Valitse **Asiakirjat**-kentässä arvo, kuten 0.
-5. Valitse **Liitetyt asiakirjat** -sivun **Liite**-kentässä **Valitse tiedosto** -painike.
+5. Valitse **Liitetyt asiakirjat** -sivun **Liite**-kentässä **Valitse tiedosto** -toiminto.
 5. Valitse tiedosto haluamastasi sijainnista ja valitse sitten **Avaa**-painike.
 
 Tiedosto on nyt liitetty ostolaskuun.
+
+## <a name="to-view-an-attached-file"></a>Tarkastele liitettyä tiedostoa
+1. Avaa **Liitteet**-välilehti tietoruudussa.
+2. Valitse **Asiakirjat**-kentässä arvo, kuten 1.
+3. Valitse **Liitetyt asiakirjat** -sivulla **Esikatselu**-toiminto.
+4. Ladatun tiedoston avaaminen.
 
 ## <a name="to-save-a-document-as-a-pdf-attachment"></a>Asiakirjan tallentaminen PDF-liitteenä
 Kun asiakirja on tallennettava tiedostoksi, voit käyttää **Liitä PDF-tiedostona** -toimintoa ja tallentaa nykyisen asiakirjan sisällön PDF-tiedostoksi, joka on liitetty asiakirjan tietoruutuun. Tämä on hyödyllistä esimerkiksi silloin, kun asiakirjat noudattavat useita vaiheita prosessissa, kuten esimerkiksi myyntiprosessissa ja hyväksynnän työnkulussa, ja haluat viitata edellisen vaiheen tulostukseen.
@@ -53,7 +59,7 @@ Seuraava toimenpide perustuu myyntitilaukseen. Vaiheet ovat samanlaiset kaikissa
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Myyntitilaukset** ja valitse sitten liittyvä linkki.
 2. Valitse ensin myyntitilaus ja valitse sitten **Liitä PDF-tiedostona** -toiminto.
 
-PDF-tiedosto ja sen sisältö myyntitilauksesta lisätään **Liitteet**-välilehteen tietoruudussa. 
+PDF-tiedosto ja sen sisältö myyntitilauksesta lisätään **Liitteet**-välilehteen tietoruudussa.
 
 ## <a name="to-add-a-link-from-an-item-card"></a>Linkin lisääminen nimikekortista
 Voit lisätä kortista tai asiakirjasta linkin mihin tahansa URL-osoitteeseen tai polkuun. Tämä kätevää esimerkiksi silloin, kun haluat linkittää nimikekortin toimittajan nimikeluetteloon.

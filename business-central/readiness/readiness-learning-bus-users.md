@@ -2,15 +2,15 @@
 title: Yrityskäyttäjien opintoluettelo
 description: Etsi kaikki käytettävissä olevat opinnot Business Centralille.
 author: loreleishannonmsft
-ms.date: 04/01/2020
+ms.date: 04/20/2020
 ms.topic: article
 ms.author: v-lshann
-ms.openlocfilehash: c169bde62c9ff2bf32160801d258d034d0187371
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 2076c0b3cf17167bea654e136be98c6cb9522718
+ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190849"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3271940"
 ---
 # <a name="business-users-learning-catalog"></a>Yrityskäyttäjien opintoluettelo
 
@@ -33,7 +33,7 @@ Seuraava luettelo on järjestetty perustiedoista tiettyihin toimialueisiin ja pe
 | [Käytä kustannuslaskentaa Microsoft Dynamics 365 Business Centralissa](/learn/paths/use-cost-accounting-dynamics-365-business-central/)                                     | Tarvitsetko kustannuslaskentaa yrityksessäsi? Tämän oppimispolun avulla voit aloittaa Business Centralin kustannuslaskennan. Siinä selitetään kustannuslaskennan asetukset, kustannuslaskennan päätietojen luominen, tapahtumien siirtäminen ja kustannusten kohdistaminen tiliryhmälle.   | Ilmainen, omaan tahtiin etenevä verkko-oppimispolku | 3 tuntia 16 minuuttia |
 | [Päiväkirjojen käyttäminen Microsoft Dynamics 365 Business Centralissa](/learn/paths/use-journals-dynamics-365-business-central/)                                                   | Haluatko luoda ja kirjata päiväkirjatapahtumia Business Centraliin? Sitten tämä polku on sinua varten. Yleisen päiväkirjanmallin määrittäminen, päiväkirjan tapahtumien luominen sisältäen toistuvat tapahtumat ja kirjaustapahtumat käsitellään tämän oppimispolun moduuleissa.                  | Ilmainen, omaan tahtiin etenevä verkko-oppimispolku | 2 tuntia 1 minuutti   |
 | [Pankkitilin täsmäyttäminen Microsoft Dynamics 365 Business Centralissa](/learn/paths/reconcile-bank-accounts-dynamics-365-business-central/)                             | Haluatko tietää, miten pankkitilit täsmäytetään Business Centralin avulla? Pankkitäsmäytyksen ominaisuus- ja täsmäytyskirjauskansiot käsitellään tässä oppimispolussa.                                                                                                                           | Ilmainen, omaan tahtiin etenevä verkko-oppimispolku | 1 tunti 3 minuuttia   |
-| [Käytä useaa valuuttaa Microsoft Dynamics 365 Business Centralissa](https://docs.microsoft.com/learn/paths/use-multiple-currencies-dynamics-365-business-central/)                             | Käytätkö työssäsi useita valuuttoja? Jos teet näin, tämä polku auttaa ymmärtämään vaiheita, jotka sinun on tehtävä, kun määrität ja käytät useita valuuttoja, käsittelet maksuja ja laskuja eri valuutoissa ja muutat tarvittaessa vaihtokursseja.                                             | Ilmainen, omaan tahtiin etenevä verkko-oppimispolku | 3 tuntia 4 minuuttia  |
+| [Käytä useaa valuuttaa Microsoft Dynamics 365 Business Centralissa](/learn/paths/use-multiple-currencies-dynamics-365-business-central/)                             | Käytätkö työssäsi useita valuuttoja? Jos teet näin, tämä polku auttaa ymmärtämään vaiheita, jotka sinun on tehtävä, kun määrität ja käytät useita valuuttoja, käsittelet maksuja ja laskuja eri valuutoissa ja muutat tarvittaessa vaihtokursseja.                                             | Ilmainen, omaan tahtiin etenevä verkko-oppimispolku | 3 tuntia 4 minuuttia  |
 | [Luo talousraportteja Microsoft Dynamics 365 Business Centralissa](/learn/paths/create-financial-reports-dynamics-365-business-central/)                           | Oletko vastuussa talousraporttien luomisesta Business Centralin avulla? Tässä oppimispolussa käsitellään budjettien luontia ja XBRL (eXtensible Business Reporting Language) -ohjelman käyttöä sellaisten talousraporttien luomiseen, joita tarvitaan yleensä useimmissa yrityksissä. | Ilmainen, omaan tahtiin etenevä verkko-oppimispolku | 3 tuntia 44 minuuttia |
 | [Käsittele talouden kausiraportteja Microsoft Dynamics 365 Business Centralissa](/learn/paths/process-financial-periodic-activities-dynamics-365-business-central/) | Oletko vastuussa jakson ja tilikauden päättämisprosesseista? Täytä tämä moduuli, jossa kerrotaan, miten voit lähettää muistutuksia ja viivästyskulujen laskuja asiakkaille. Siinä käsitellään myös Intrastatin käsittelemistä ja raportointia sekä tilikauden sulkemista.                                                     | Ilmainen, omaan tahtiin etenevä verkko-oppimispolku | 3 tuntia 3 minuuttia  |
 ## <a name="trade"></a>Kauppa<a name="trade"></a>

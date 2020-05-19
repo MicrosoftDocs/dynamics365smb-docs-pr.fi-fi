@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
-ms.date: 04/01/2020
+ms.date: 04/27/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9e485f2051cb045db6f106377521973a45546ad7
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 2ff842cc12ea820c9a2fe180cd4dd2eef3ecc18f
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193657"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324316"
 ---
 # <a name="invoice-sales"></a>Myynnin laskutus
 Luo myyntilasku tai -tilaus tallentaaksesi sopimuksesi asiakkaan kanssa ja myydäksesi määrätyt tuotteet määrätyillä toimitus- ja maksuehdoilla.  
@@ -109,6 +109,7 @@ Voit luoda jopa suoraan maksettavia laskuja rekisteröimättömille asiakkaille,
 ## <a name="see-also"></a>Katso myös
 [Myynti](sales-manage-sales.md)  
 [Myynnin määrittäminen](sales-setup-sales.md)  
+[Tulosta poimintaluettelo](sales-how-print-picking-list.md)  
 [Varasto](inventory-manage-inventory.md)  
 [Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md)  
 [Joukkolaskutus Business Centralin Microsoft Bookingsista ](finance-bookings.md)  

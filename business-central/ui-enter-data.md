@@ -8,63 +8,101 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 04/03/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9405e285613c95e6c3bfcf19a5fc57e109b3f419
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: f3af601f0de00445a42c88bb47053084b05fc14b
+ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194425"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262140"
 ---
 # <a name="entering-data"></a>Tietojen antaminen
 
-Käytettävissä on monia yleisiä ominaisuuksia, jotka helpottavat, nopeuttavat ja tarkentavat tietojen antamista. Tässä artikkelissa käsitellään tietojen antamisen yleisiä ominaisuuksia.  
+Käytettävissä on monia yleisiä ominaisuuksia, jotka helpottavat, nopeuttavat ja täsmentävät tietojen antamista. Tässä artikkelissa käsitellään tietojen antamisen perusperiaatteita ja edistyneitä ominaisuuksia.  
 
 Tämän artikkelin esimerkeissä käytetään esimerkkitietoja.
 
+## <a name="working-with-editable-fields"></a>Muokattavien kenttien käsitteleminen
+[!INCLUDE[d365fin](includes/d365fin_md.md)] -kohteen kentissä voi olla erilaisia muokattavia tietoja, kuten tekstiä tai valuuttasummia. Muokattavat kentät näyttävät tavallisesti syöttöruudun, johon voit kirjoittaa tai valita arvon. Ei-muokattavat kentät näkyvät tavallisesti harmaana taustana.   
+
+Joidenkin muokattavien kenttien avulla voit määrittää arvon.  
+
+<!-- TODO: Add illustrations or images of each picker -->
+|**Valitsin**        |**Miten se auttaa määrittämään arvon**|
+|------------------|------------------------------------|
+|Päivämäärävalitsin       |Valitsin näyttää kalenterin, joka perustuu nykyisiin alueellisiin asetuksiin. Sen avulla voit valita yhden päivämäärän.|
+|Avattavat valikot          |Avattavat valikot tarjoavat valikoiman kiinteitä arvoja tai viitetietueita toisesta taulukosta|
+|Kytkin tai valintaruutu|Joissakin kentissä on helppo valita *Kyllä*- tai *Ei*-arvoja. Valitsinta käytetään määrittämään tämä arvo, ja se näkyy aina valintaruutuna luetteloissa|
+|Muokkausapu       |Joissakin kentissä on mukautettuja valitsimia, jotka soveltuvat kyseisen kentän parhaan arvon etsimiseen ja valitsemiseen, esimerkiksi ponnahdusikkunaan|
+
+
+### <a name="modifying-a-field-value"></a>Kentän arvon muokkaaminen
+
+Jos haluat muuttaa kentän arvoa, sinun on ensin määritettävä kentän kohdistus. Voit määrittää kohdistuksen tekemällä seuraavat toimet:
+
+- Käytä **Sarkain**-näppäintä. Toiminto valitsee koko arvon.
+- Napsauta hiiren vasenta näppäintä tai vastaavaa syöttölaitetta. Tämä toimenpide valitsee koko kentän arvon vain, jos kenttä on luettelossa.  
+
+Kun käytät kenttiä käyttöliittymässä, [!INCLUDE[d365fin](includes/d365fin_md.md)] yleensä suosii koko kentän arvon valitsemista, jotta kyseinen arvo olisi helpompi korvata.
+
+Kun koko kentän arvo on valittuna:
+- Voit määrittää uuden arvon korvaamalla arvon kirjoittamalla. Jos kentässä on valitsin, voit aktivoida sen käyttämällä **Alt+alanuoli**-pikanäppäintä.
+- Voit tyhjentää arvon **Delete**-näppäimellä tai **askelpalauttimella**.
+
+Paina **F2**-näppäintä vaihtaaksesi koko kentän arvon valitsemista tai kohdistimen asettamista kentän arvon alapuolelle. Kohdistimen sijoittaminen arvon loppuun helpottaa olemassa olevan arvon liittämistä.
+
+Kun kohdistin näkyy kentän arvon lopussa:
+- Lisää arvo kirjoittamalla.
+- Voit siirtää kohdistinta arvon sisällä **koti**-, **loppu**-, **vasen nuoli**- ja **oikea nuoli** -näppäimillä. Jos muokkaat luettelossa olevaa kenttää, paina **vasenta nuolinäppäintä** uudelleen, kun kohdistin on arvon alussa, ja kohdistus siirtyy edelliseen kenttään. Kun vastaavasti painat **oikeaa nuolinäppäintä** uudelleen, kun kohdistin on arvon lopussa, kohdistus siirtyy seuraavaan kenttään.
+
+> [!NOTE]
+> Kun olet määrittänyt arvon, Business Central tarkistaa vain, että se on kelvollinen sen jälkeen, kun olet napsauttanut kentän ulkopuolella tai asettanut kohdistuksen toiseen elementtiin, kuten seuraavaan kenttään.  
+
+
 ## <a name="keyboard-shortcuts"></a>Pikanäppäimet
 
-Käytettävissä on useita pikanäppäimiä, joiden ansiosta hiiren käyttö ei ole välttämätöntä ja jotka nopeuttavat tietojen antamista etenkin jos annettavia tietoja on paljon ja jos samat tiedot kirjoitetaan toistuvasti.
+On olemassa useita pikanäppäimiä, joiden avulla voit työskennellä "hiirettä" ja nopeuttaa tietojen syöttöä. Näistä pikanäppäimistä on hyötyä erityisesti suurissa kirjauksissa ja toistuvissa kirjoitustehtävissä.
 
 Lisätietoja pikanäppäimissä on kohdassa [Pikanäppäimet](keyboard-shortcuts.md). Tässä artikkelissa käsitellään muutamia pikanäppäimiä.
 
 ## <a name="accelerating-data-entry-using-quick-entry"></a><a name="QuickEntry"></a>Tietojen syöttämisen helpottaminen pikatapahtuman avulla
 
-Pikatapahtuma on näppäimistön avulla tapahtuvaa tietojen antamista varten suunniteltu ominaisuus. Pikatapahtumia voi käyttää kentissä (kuten korttisivuilla) ja luetteloissa (rivit ja sarakkeet). Siitä on hyötyä, jos kyse on toistuvista kirjoitustehtävistä, joissa on luotava peräkkäin toistuvia tietueita. Tällaisia ovat esimerkiksi myyntitilauserät tai uusien nimikkeiden rekisteröiminen.
+Pikatapahtuma on näppäimistön avulla tapahtuvaa tietojen antamista varten suunniteltu ominaisuus. Pikatapahtumia voi käyttää kentissä (kuten korttisivuilla) ja luetteloissa (rivit ja sarakkeet). Se on hyödyllistä, kun teet toistuvia kirjoitustehtäviä, jotka edellyttävät monen tietueen luomista peräkkäin. Esimerkkeinä mainittakoon myyntitilausten erä tai uusien nimikkeiden rekisteröinti.
 
-Osaat jo ehkä siirtyä sivulla kentästä seuraavaan muokattavaan kenttään sarkainnäppäimellä. Sarkaimen käytön haittapuolena on kuitenkin se, että se siirtyy aina seuraavaan kenttään. <!-- even if the field is non-editable or seldom filled it in.-->Voit muuttaa tätä polkua pikatapahtuman avulla. Pikatapahtuman avulla voit siirtyä Enter-näppäimellä vain haluamiisi kenttiin. Tällä tavoin voit ohittaa kentät, joita ei voi muokata, ja kentät, joita et yleensä täytä. Olet ehkä jo havainnut tämän toiminnan joillakin sivuilla. Tämä johtuu siitä, että sovellus määrittää valmiiksi, mihin kenttiin Enter-näppäimellä siirrytään ja mitkä ohitetaan. Voit mukauttaa pikatapahtumaa mukauttamalla työtilaa ja optimoimalla tietojen antamistavan kullakin sivulla.
+Voit käyttää sarkainnäppäintä siirtyäksesi sivulla kentästä seuraavaan muokattavaan kenttään. Sarkaimen käytön haittapuolena on kuitenkin se, että se siirtyy aina seuraavaan kenttään. <!-- even if the field is non-editable or seldom filled it in.-->Voit muuttaa tätä polkua pikatapahtuman avulla. Pikasyötön avulla voit siirtyä vain haluamillesi kentille Enter-näppäimellä. Pikasyöttö hyppää ei-muokattavien kenttien ja niiden kenttien, joita et tavallisesti täytä, yli. Olet ehkä jo havainnut tämän toiminnan joillakin sivuilla. Tämä johtuu siitä, että kentät mihin kenttiin Enter-näppäimellä siirrytään ja mitkä ohitetaan, ovat ennalta määritettyjä. Voit mukauttaa pikatapahtumaa mukauttamalla työtilaa ja optimoimalla tietojen antamistavan kullakin sivulla.
 
 ### <a name="how-quick-entry-works"></a>Pikatapahtuman toimintaperiaate
 
-Jokainen kenttää voidaan merkitä joko *pikatapahtumaan sisällytetyksi* tai *pikatapahtumasta poissuljetuksi*. Pikatapahtumaan sisällytetyt kentät sisällytetään polkuun, johon Enter-näppäimellä siirrytään, kun taas pikatapahtumasta poissuljettuja kenttiä ei sisällytetä siihen.
+Jokainen kenttää voidaan merkitä joko *pikatapahtumaan sisällytetyksi* tai *pikatapahtumasta poissuljetuksi*. Pikamerkintään sisältyvät kentät sisällytetään polkuun Enter-näppäimen napsautuksen jälkeen. Pikamerkinnän ulkopuolelle jäävät kentät eivät ole.
 
 Kun tiedot on annettu kenttään, vahvista muutokset Enter-näppäimellä ja siirry samalla seuraavaan kenttään. Jos haluat palata taaksepäin ja siirtyä edelliseen kenttään, paina näppäinyhdistelmää Vaihto+Enter. Lisätietoja pikanäppäimistä on kohdassa [Kenttien pikatapahtumien pikanäppäimet](keyboard-shortcuts.md#QuickEntry)
 
 #### <a name="tips-and-tricks"></a>Vihjeet ja vinkit
+
 Seuraavassa luettelossa on joitakin hyödyllisiä tietoja pikatapahtumien käyttämisestä.
 
 - Se on käytössä muokattavissa kentissä.
 - Sitä voi käyttää myös sarakkeissa ja riveillä.
-- Se ei estä sivun muiden osien, kuten toimintojen, käyttämistä, sillä niitä voi edelleen käyttää sarkaimella ja Vaihto+Sarkain-näppäinyhdistelmällä.  
-- Pikatapahtumaa voi käyttää myös laajentamattomissa pikavälilehdissä. Jos seuraava pikatapahtumakenttä sijaitsee tiivistetyssä pikavälilehdessä, pikavälilehti laajentuu automaattisesti ja kohdistus on määritetyssä kentässä.
-- Pikatapahtuma on käytettävissä riippumatta siitä, ovatko kentät pakollisia vai eivät. Tämän vuoksi kannattaa varmistaa, että pakolliset kentät sisällytetään pikatapahtumaan.
+- Se ei estä sivun muiden osien, kuten toimintojen, käyttämistä, Näitä elementtejä voi edelleen käyttää sarkaimella ja Vaihto+Sarkain-näppäinyhdistelmällä.  
+- Pikavälilehtien laajentamista ei edellytetä, jotta pikasyöttö voi toimia. Jos seuraava pikatapahtumakenttä sijaitsee tiivistetyssä pikavälilehdessä, pikavälilehti laajentuu automaattisesti ja kohdistus on valitussa kentässä. [!INCLUDE[d365fin](includes/d365fin_md.md)] muistaa, että pikavälilehti on laajennettava, kun seuraavan kerran käyt sivulla.  
+- Pikasyöttö on käytettävissä riippumatta siitä, ovatko kentät pakollisia vai eivät. Tämän vuoksi kannattaa varmistaa, että pakolliset kentät sisällytetään pikasyöttöön.
 - Oletusarvoisesti useimmat kentät sisällytetään automaattisesti pikatapahtumaan. Tämän vuoksi joudutkin luultavasti aluksi sulkemaan kenttiä pois pikatapahtumasta.
 
 ### <a name="to-change-quick-entry-fields"></a>Pikatapahtumakenttien muuttaminen
 
-Pikatapahtumaan sisällytettyjen tai poissuljettujen kenttien muuttaminen tehdään mukauttamisen avulla.
+Voit määrittää kenttiin pikasyötön käyttämällä mukauttamista.
 
 1. Aloita mukauttaminen valitsemalla ensin ![Asetukset](media/ui-experience/settings_icon_small.png "Roolikeskuksen Asetukset-kuvake")-kuvake ja sitten **Mukauta**-toiminto.
-2. Valitse muutettava kenttä tai luettelossa vastaava sarakeotsikko ja valitse sitten joko **Sisällytä pikatapahtumaan** tai **Sulje pois pikatapahtumasta**.
+2. Valitse muutettava kenttä. Valitse luettelosta vastaava sarakeotsikko. Valitse sitten **Sisällytä pikasyöttöön** tai **Jätä pois pikasyötöstä** -valinta.
 
 Lisätietoja mukauttamisesta on kohdassa [Työtilan mukauttaminen](ui-personalization-user.md).
 
 ## <a name="mandatory-fields"></a>Pakolliset kentät
 
-Kun annat tietoja sivuilla, tietyt kentät on merkitty punaisella tähtimerkillä. Punainen tähti tarkoittaa, että kenttä on täytettävä, jotta tietty kenttää käyttävä prosessi voidaan suorittaa, kuten kentässä olevaa arvoa käyttävän tapahtuman kirjaus.  
+Kun annat tietoja sivuilla, tietyt kentät on merkitty punaisella tähtimerkillä. Punainen tähti tarkoittaa, että kenttä on täytettävä tietyn prosessin suorittamiseksi loppuun. Esimerkkinä voidaan kirjata kauppatapahtuma, joka käyttää kentän arvoa.  
 
-Vaikka kentässä on punainen tähti, et joudu täyttämään kenttää ennen kuin jatkat muihin kenttiin tai suljet sivun. Punainen tähti toimii vain muistutuksena siitä, että sinua estetään suorittamasta tiettyä prosessia.  
+Vaikka kenttä on pakollinen, et joudu täyttämään kenttää ennen kuin jatkat muihin kenttiin tai suljet sivun. Punainen tähti toimii vain muistutuksena siitä, että sinua estetään suorittamasta tiettyä prosessia.  
 
 ## <a name="finding-data-as-you-type"></a>Tietojen etsiminen kirjoitettaessa
 
@@ -78,7 +116,7 @@ Vaikka kentässä on punainen tähti, et joudu täyttämään kenttää ennen ku
 
 ## <a name="copying-and-pasting-faq-fields-and-lines"></a>Kenttien ja rivien kopioimisen ja liittämisen usein kysytyt kysymykset
 
-Voit kopioida yhden rivin tai useita rivejä luettelosta tai yhden kentän sivulta ja liittää kopioidut kohteet samalle sivulle, toiselle sivulle tai ulkoiseen asiakirjaan (kuten Microsoft Excel -asiakirjaan tai Outlook-sähköpostiin). Jos haluat kopioida, paina näppäimiä CTRL+C (cmd+C macOS-käyttöjärjestelmässä). Jos haluat liittää, paina näppäimiä CTRL+V (cmd+V macOS-käyttöjärjestelmässä).
+Voit kopioida yhden tai useamman rivin luettelosta tai yhden kentän sivulla. Liitä sitten kopioimasi kohde samalle sivulle, toiselle sivulle tai ulkoiseen asiakirjaan. Voit esimerkiksi liittää Microsoft Exceliin tai Outlook-sähköpostiin. Jos haluat kopioida, paina näppäimiä CTRL+C (cmd+C macOS-käyttöjärjestelmässä). Jos haluat liittää, paina näppäimiä CTRL+V tai cmd+V macOS-käyttöjärjestelmässä.
 
 Kopioi luettelossa kenttä yläpuolella olevan rivin samasta sarakkeesta ja liitä se nykyiselle riville painamalla F8-näppäintä.
 
@@ -88,13 +126,13 @@ Lisätietoja on kohdassa [Kopioinnin ja liittämisen usein kysytyt kysymykset](u
 
 Aloita suodatus valitsemalla ![Suodatusruudun kuvake](media/open-filter-pane-icon.png "Suodatinruudun kuvake") luettelon yläosasta tai paina Vaihto+F3 avataksesi suodatuspaneelin. Voit käyttää suodatinruutua samalla tavoin kuin muitakin luetteloita. Lisätietoja on kohdassa [Suodattaminen](ui-enter-criteria-filters.md#filtering).
 
-Suodatuksesta on apua erityisesti silloin, kun tarkasteltava ja analysoitava asiakirja on pitkä. Oletetaan esimerkiksi, että avaat kirjatun myyntilaskun ja suodatat rivinimikkeet näyttämään kaikki rivinimikkeet, joilla on yli 5 %:n yksittäinen alennus, tai näytät suodatuksen avulla vain pyörän varusteet, joiden nimi sisältää sanan pro.
+Suodatuksesta on apua erityisesti silloin, kun tarkasteltava ja analysoitava asiakirja on pitkä. Kuvittele, että avaat kirjatun myyntilaskun. Sen jälkeen voit suodattaa rivinimikkeet niin, että ne näyttävät kaikki rivinimikkeet, joiden yksittäinen alennus on yli 5 %. Voit myös suodattaa näyttämään vain polkupyörätarvikkeet, joiden nimessä on "Pro".
 
 ## <a name="focusing-on-line-items"></a><a name="Focus"></a>Kohdistaminen rivinimikkeisiin
 
-Jos käsiteltävissä asiakirjoissa on rivinimikeosia, kuten myyntitilaus- tai laskusivu, voit siirtää kohdistuksen vain rivinimikkeisiin. Rivinimikeosa laajenee sitten niin, että se kattaa käytännössä koko työtilan ja piilottaa sivun kaikki muut osat paitsi yläreunassa olevan toimintojen osan. Saat tällä tavoin hyvän yleiskuvan rivinimikkeistä, ja sinulla on enemmän tilaa niiden käsittelemiseen.
+Jos käsiteltävissä asiakirjoissa on rivinimikeosia, voit siirtää kohdistuksen vain rivinimikkeisiin. Esimerkkiasiakirjat ovat myyntitilaus- tai laskusivuja. Rivinimikkeet-osa laajenee niin, että se peittää lähes koko työtilan. Se piilottaa sivun muut osat paitsi toiminnot-alueen yläosassa. Saat tällä sijoittelulla hyvän yleiskuvan rivinimikkeistä, ja sinulla on enemmän tilaa niiden käsittelemiseen.
 
-Tämä on erityisen kätevää silloin, kun käsittelet suuria rivinimikeluetteloita ja tiedot on annettava nopeasti. Lisäetuna on mahdollisuus käyttää suodatuksen lisäominaisuuksien, kuten muissakin luetteloissa, mikä helpottaa rivinimikkeiden selaamista ja hakemista.
+Hyödyt erityisesti, kun työskentelet suurten rivinimikeluetteloiden parissa, ja haluat syöttää tietoja nopeasti. Tämä ominaisuus tarjoaa myös kehittyneitä suodatusominaisuuksia. Kuten muissakin luetteloissa, rivinimikkeiden selaaminen ja etsiminen helpottuu entisestään.
 
 ### <a name="switching-the-focus-on-and-off"></a>Kohdituksen Kytkeminen Päälle ja Pois
 
@@ -103,8 +141,18 @@ Kohdista rivinimikkeisiin tekemällä valinta missä tahansa rivinimikkeen osass
 Voit palata takaisin normaalinäkymään valitsemalla ![Kohdistustilan kuvakkeen](media/focus-mode.png "Tarkennustilan kuvake") tai painamalla jälleen Ctrl+Vaihto+F12.
 
 ## <a name="multitasking-across-multiple-pages"></a>Monen tehtävän suorittaminen yhtä aikaa useilla sivuilla
-Jos montaa tehtävää käsitellään samanaikaisesti tai jos hallitaan keskeytyksiä nykyisessä tehtävässä (vastataan esimerkiksi puheluun), voit avata kortti- tai asiakirjasivun uudessa ikkunassa. Tällä tavoin voit pitää keskeneräisen tehtävän ikkunan avoinna samalla, kun aloitat tai suoritat toisen tehtävän yhdessä tai useassa muussa ikkunassa.
 
+Voit avata kortin tai asiakirjan sivun uudessa ikkunassa. Avaamalla uuden ikkunan voit:
+
+- Työskennellä useiden tehtävien parissa samanaikaisesti
+- Hallita käynnissä olevan tehtävän keskeytyksiä, kuten saapuvan puhelun ottamista.
+- Pitää keskeneräisen tehtävän ikkunan avoinna samalla, kun aloitat tai suoritat toisen tehtävän toisessa ikkunassa.
+
+Avaa nykyinen kortti tai asiakirja uudessa ikkunassa valitsemalla ![Avaa uusi ikkuna](media/open-new-window-icon.png "Avaa uudessa ikkunassa -kuvake") oikeassa yläkulmassa, tai painamalla Alt+Vaihto+W.
+
+<!--
+When working on multiple tasks at a time or when managing interruptions to the current task, such as taking an incoming call, you can open a card or document page in a new window. This allows you to keep a window open for an ongoing task while you start or complete another task in one or more other windows.
+-->
 Avaa nykyinen kortti tai asiakirja uudessa ikkunassa valitsemalla ![Avaa uusi ikkuna](media/open-new-window-icon.png "Avaa uudessa ikkunassa -kuvake") oikeassa yläkulmassa, tai painamalla Alt+Vaihto+W.
 
 > [!NOTE]
@@ -114,7 +162,7 @@ Avaa nykyinen kortti tai asiakirja uudessa ikkunassa valitsemalla ![Avaa uusi ik
 > Jos käytössä on Safari-selain, ponnahdusikkunoiden esto voi estää uuden ikkunan avautumisen. Määritä siinä tapauksessa tuotteen URL-osoite sallituksi sivustoksi. Lisätietoja on kohdassa [Safarin asetusten muuttaminen](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
 > Sama voi tapahtua muissakin selaimissa, kuten Firefoxissa. Lisätietoja on kohdassa [Firefoxin ponnahdusikkunoiden eston asetukset](https://go.microsoft.com/fwlink/?LinkId=2116400).  
 
-Toinen tapa tehdä useita toimintoja samanaikaisesti on avata [!INCLUDE[d365fin](includes/d365fin_md.md)] kahdessa tai useammassa välilehdessä. Kun teet tämän, luo uusi välilehti ja kopioi/liitä alkuperäisen välilehden URL-osoite uuteen välilehteen. Tämä luo uuden istunnon.   
+Toinen tapa tehdä useita toimintoja samanaikaisesti on avata [!INCLUDE[d365fin](includes/d365fin_md.md)] kahdessa tai useammassa välilehdessä. Kun noudatat tätä tapaa, luo uusi välilehti ja kopioi/liitä alkuperäisen välilehden URL-osoite uuteen välilehteen. Tämä tapa luo uuden istunnon.   
 
 > [!NOTE]
 > Älä käytä selaimen **Monista**-toimintoa uuden välilehden luomiseen, koska se voi aiheuttaa toimintoja yhdelle välilehdelle estämään muiden välilehtien toiminnot, koska ne ovat osa samaa istuntoa.
@@ -155,26 +203,26 @@ Päivämääriä ja aikoja voi määrittää kaikissa päivämääräkentissä. 
 
 ### <a name="entering-dates"></a>Päivämäärien syöttäminen
 
-Voit käyttää päivämääräkentissä joko päivämäärän valitsinta, joilla voit valita päivämäärän kalenterista, tai antaa päivämäärät manuaalisesti. Tässä osassa käsitellään lyhyesti päivämäärien antamista. Lisätietoja on kohdassa [Kalenterin päivämäärien ja aikojen käsitteleminen](ui-enter-date-ranges.md).
+Voit käyttää joko päivämäärän valitsinta valitaksesi päivämäärän kalenterista, tai antaa päivämäärät manuaalisesti. Tässä osassa käsitellään lyhyesti päivämäärien antamista. Lisätietoja on kohdassa [Kalenterin päivämäärien ja aikojen käsitteleminen](ui-enter-date-ranges.md).
 
 Kun päivämäärä annetaan manuaalisesti, voit käyttää kahta, neljää, kuutta tai kahdeksaan numeroa:  
 
--   Jos syötät vain kaksi numeroa, ohjelma tulkitsee ne kuukaudeksi ja vuodeksi ja lisää käsittelypäivämäärän vuoden.  
+-   Kaksi numeroa tulkitaan päiväksi. Ohjelma lisää käsittelypäivämäärän kuukauden ja vuoden.  
 
--   Jos syötät neljä numeroa, ohjelma tulkitsee ne päiväksi ja kuukaudeksi ja lisää käsittelypäivämäärän vuoden.  
+-   Neljä numeroa tulkitaan päiväksi ja kuukaudeksi. Ohjelma lisää käsittelypäivämäärän vuoden.  
 
--   Jos päivämäärä, jonka haluat syöttää, on välillä 1.1.1930 ja 31.12.2029, voit syöttää vuoden kaksinumeroisena. Muutoin vuosi täytyy syöttää nelinumeroisena.  
+-   Jos haluamasi päivämäärä on alueella 01.01.1930 – 31.12.2029, kirjoita vuosi, jossa on kaksi numeroa. Muussa tapauksessa syötä vuosi, jossa on neljä numeroa.  
 
-Voit myös syöttää päivämäärän viikonpäivänä, jota seuraa viikon numero tai vaihtoehtoisesti vuosi (esimerkiksi Ma25 tai ma25 tarkoittaa maanantaita viikolla 25).  
+Voit myös syöttää päivämäärän viikonpäivänä, jonka jälkeen tulee viikon numero. Tai voit syöttää vuoden. Esimerkiksi Ma25 tai ma25 tarkoittaa viikon 25 maanantaita.  
 
 Tietyn päivämäärän antamisen sijaan voit antaa jonkin seuraavista koodeista.  
 
 |Koodi|Tulos|  
 |--------------|----------------|  
-|t|Tämä määrittää kuluvan päivän päivämäärän (tietokoneen järjestelmäpäivämäärä).|  
-|j|Tämä määrittää kirjanpitojakson, jossa j tarkoittaa ensimmäistä kirjanpitojaksoa, j2 toista kirjanpitojaksoa ja niin edelleen. |
-|k|Tämä määrittää sovelluksessa määritettävän käsittelypäivämäärän. Lisätietoja käsittelypäivämäärän muuttamisesta on kohdassa [Perusasetusten muuttaminen](ui-change-basic-settings.md). Haluat ehkä käyttää käsittelypäivämäärää, jos sellaisia tapahtumia on paljon, joissa on jokin muu kuin tämän päivän päivämäärä.|
-|n|Tämä määrittää, että n:n jälkeinen päivämäärä on sulkemispäivämäärä, kuten N31.12.01.|  
+|t|Määrittää kuluvan päivän päivämäärän (tietokoneen järjestelmäpäivämäärä).|  
+|j|Määrittää kirjanpitojakson, jossa j tarkoittaa ensimmäistä kirjanpitojaksoa, j2 toista kirjanpitojaksoa ja niin edelleen. |
+|k|Määrittää sovelluksessa määritettävän käsittelypäivämäärän. Lisätietoja käsittelypäivämäärän muuttamisesta on kohdassa [Perusasetusten muuttaminen](ui-change-basic-settings.md). Haluat ehkä käyttää käsittelypäivämäärää, jos sellaisia tapahtumia on paljon, joissa on jokin muu kuin tämän päivän päivämäärä.|
+|n|Määrittää, että n:n jälkeinen päivämäärä on sulkemispäivämäärä, kuten N31.12.01.|  
 
 ## <a name="entering-times"></a>Aikojen syöttäminen
 
@@ -224,6 +272,7 @@ Seuraavassa taulukossa on luettelo eri tavoista, joilla päivämääriä ja aiko
 |ti 3:3:3|nykyisen viikon tiistai 03:03:03|  
 
 ## <a name="entering-duration"></a>Keston syöttäminen
+
 Kesto syötetään numerona, jota seuraa sen mittayksikkö.  
 
 Seuraavassa on muutamia esimerkkejä:  

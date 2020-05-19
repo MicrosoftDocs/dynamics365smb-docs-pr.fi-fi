@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
-ms.date: 04/01/2020
+ms.date: 04/20/2020
 ms.author: sgroespe
-ms.openlocfilehash: d3d2770cd261215144edfe0992d0bb2b269971df
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 815956fe6eefa069a9930043d4a0c93a725b4fc1
+ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182226"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3272060"
 ---
 # <a name="count-adjust-and-reclassify-inventory-using-journals"></a>Varaston laskeminen, muuttaminen ja uudelleenluokitus käyttämällä päiväkirjoja
 Vähintään kerran tilikauden aikana tulee suorittaa inventointi (eli laskea kaikki varastossa olevat nimikkeet), jotta nähtäisiin, onko tietokantaan rekisteröity määrä sama kuin varaston fyysinen määrä. Kun varaston fyysinen määrä on tiedossa, se on kirjattava pääkirjanpitoon osana kauden lopun varaston arvostusta.
@@ -94,6 +94,9 @@ Kun fyysisen varastoinnin inventointia rekisteröidään, kirjausta nimiketapaht
 4. Valitse **Tulosta**-painike.
 
 Työntekijät voivat nyt laskea varaston ja merkitä mahdolliset poikkeamat tulostettuun raporttiin.
+
+> [!NOTE]
+> Voi kestää useita päiviä, ennen kuin painetut raportit tulevat takaisin lopullista käsittelyä ja kirjaamista varten. Kun määrität ja kirjaat todellisen lasketun varaston, järjestelmä muuttaa varaston vastaamaan oletetun ja todellisen varaston eroa. Sinun täytyy säilyttää alkuperäiset lasketut päiväkirjan rivit eikä laskea oletettua varastoa uudelleen, koska oletettu varasto voi muuttua ja johtaa vääriin varastomääriin. Jos sinun täytyy lähettää useita raportteja, kuten eri sijainteja tai nimikeryhmiä, sinun täytyy luoda ja pitää erilliset päiväkirjan erät.
 
 ### <a name="to-enter-and-post-the-actual-counted-inventory-in-basic-warehouse-configurations"></a>Todellisen lasketun varaston antaminen ja kirjaaminen fyysisen varastoinnin perusmäärityksissä
 1. Jos jollakin **Varastopäiväkirja**-sivun rivillä inventoinnissa määritetty todellinen saatavissa oleva varastomäärä poikkeaa lasketusta määrästä, anna **Määrä (varastotilanne)** -kentässä todellinen saatavissa oleva varastomäärä.

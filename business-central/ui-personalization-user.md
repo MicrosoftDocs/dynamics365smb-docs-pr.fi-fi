@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 34e9b896eeca0e1c9856013ac427c844a6bde070
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c0fe93df0022f66aa5cc3964c2717e2e6ca76147
+ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3195385"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262188"
 ---
 # <a name="personalize-your-workspace"></a>Työtilan mukauttaminen
 Voit mukauttaa työtilan työskentelyysi ja valintoihisi sopivaksi muuttamalla sivujen ulkoasua siten, että vain tarvitsemasi tiedot näkyvät siellä, missä niitä tarvitset. Mukauttamalla tehdyt muutokset koskevat vain omaa näkymääsi; muut käyttäjät eivät siis näe mukautuksiasi.
@@ -66,7 +66,7 @@ Muiden mukautusten tavoin sarakkeen leveyteen tehdyt muutokset tallennetaan tili
 |Kentän ohittaminen Enter-näppäintä painettaessa|Valitse ensin kentän vieressä oleva nuolenpää tai sarakkeen otsikko luettelossa ja valitse sitten **Sulje pois pikatapahtumasta**. <br /><br /> Jos tämä vaihtoehto ei ole näkyvissä, kenttä on jo määritetty ohitettavaksi. Voit siinä tapauksessa lopettaa kentän ohittamisen valitsemalla **Sisällytä pikatapahtumaan**. |Lisätietoja on kohdassa [Tietojen syöttämisen helpottaminen pikatapahtuman avulla](ui-enter-data.md#QuickEntry)|
 |Suodatettuja luetteloita vastaavien näkymien järjestäminen uudelleen ja poistaminen|Valitse ensin näkymän vieressä oleva nuolenpää ja sitten **Siirrä**, **Poista** tai **Piilota**.|Katso [Luettelonäkymien tallentaminen ja mukauttaminen](ui-views.md)|  
 |Lisää uusi toiminto roolikeskuksen sivuun tai raporttiin.|Valitse kohdesivu-, raportin pyyntösivu- tai Ilmoita-ikkunassa kirjanmerkkikuvake.|Katso [Sivun tai raportin kirjanmerkin luominen roolikeskuksessa](ui-bookmarks.md)|
-
+|Aloita luettelo aina laajennettuna tai tiivistettynä|Valitse luettelon vasemmassa yläkulmassa oleva Laajenna kaikki- tai Tiivistä kaikki -painike tai valitse Laajenna kaikki- tai Tiivistä kaikki -toiminto ensimmäisen sarakkeen valikosta. |Koskee tiivistettäviä hierarkialuetteloita|
 
 ## <a name="personalizing-actions"></a><a name="Actions"></a>Toimintojen mukauttaminen
 

@@ -1,8 +1,6 @@
 ---
 title: Tietoja pääkirjanpidosta ja aitoustodistuksesta| Microsoft Docs
 description: Tämä artikkeli sisältää tietoja pääkirjanpidosta, tilikartasta ja tililuokista.
-services: project-madeira
-documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,19 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 04/01/2020
+ms.date: 05/12/2020
 ms.author: edupont
-ms.openlocfilehash: ce221fed4704a278e7227affe13516303613c9cf
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 098317d09a5ad8c3792de48e5332b4c247eff0e0
+ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183762"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "3372541"
 ---
 # <a name="understanding-the-general-ledger-and-the-coa"></a>Pääkirjanpito ja aitoustodistus
+
 Pääkirjanpito sisältää taloustiedot ja tilikartta näyttää tilit, joihin kaikki pääkirjanpidon tapahtumat kirjataan. [!INCLUDE[d365fin](includes/d365fin_md.md)] sisältää tilikartan, joka on valmis tukemaan liiketoimintaasi.
 
 ## <a name="general-ledger-setup-and-general-posting-setup"></a>Pääkirjanpidon asetukset ja yleiset kirjausasetukset
+
 Pääkirjanpidon asetukset ovat keskeisiä rahoitusprosesseja, sillä niillä määritetään tietojen kirjaaminen.  
 
 **Pääkirjanpidon asetukset** -sivulla määritetään, miten esimerkiksi seuraavat yrityksen kirjanpitoasiat:  
@@ -31,9 +31,13 @@ Pääkirjanpidon asetukset ovat keskeisiä rahoitusprosesseja, sillä niillä m�
 * Osoitteen muodot  
 * Talousraportointi  
 
-Samaan tapaan määritetään **Yleiset kirjausasetukset** -sivulla, miten liiketoiminnan ja tuotteen yleisten kirjausryhmien yhdistelmät määritetään. Kirjausryhmät yhdistävät objektit, kuten asiakkaat, toimittajat, nimikkeet, resurssit sekä myynti- ja ostoasiakirjoja pääkirjanpidon tileille. Jokaiselle liiketoiminnan kirjausryhmän ja tuotteen kirjausryhmän yhdistelmälle täytetään rivi. Lisätietoja on kohdassa [Kirjausryhmien asetukset](finance-posting-groups.md)  
+Samaan tapaan määritetään **Yleiset kirjausasetukset** -sivulla, miten liiketoiminnan ja tuotteen yleisten kirjausryhmien yhdistelmät määritetään. Kirjausryhmät yhdistävät objektit, kuten asiakkaat, toimittajat, nimikkeet, resurssit sekä myynti- ja ostoasiakirjoja pääkirjanpidon tileille. Jokaiselle liiketoiminnan kirjausryhmän ja tuotteen kirjausryhmän yhdistelmälle täytetään rivi. Lisätietoja on kohdassa [Kirjausryhmien asetukset](finance-posting-groups.md).  
+
+> [!TIP]
+> **Pääkirjanpidon asetukset** -sivulla on yleisiä kenttiä ja kenttiä, jotka ovat maa- tai aluekohtaisia. Jos et ole varma kentän merkityksestä, suosittelemme työskentelemään kirjanpitäjän kanssa ja miettimään, onko kentällä merkitystä organisaatiolle.  
 
 ## <a name="the-chart-of-accounts"></a>Tilikartta
+
 Kaikki pääkirjanpidon tilit näkyvät tilikartassa. Tilikartassa voi tehdä esimerkiksi seuraavia toimintoja:  
 
 * Voit tarkastella pääkirjanpitotapahtumat- ja saldot näyttäviä raportteja.  
@@ -45,6 +49,7 @@ Kaikki pääkirjanpidon tilit näkyvät tilikartassa. Tilikartassa voi tehdä es
 Voit lisätä, muuttaa tai poistaa pääkirjanpidon tilejä. Ristiriitojen estämiseksi et voi kuitenkaan poistaa pääkirjanpidon tiliä, jos sen tietoja käytetään tilikartassa.  
 
 ## <a name="account-categories"></a>Tililuokat
+
 Voit räätälöidä rahoituslaskelmien rakennetta yhdistämällä pääkirjanpidon tilit tililuokkiin.  
 
 **KP-tilin luokat** -sivulla on aiemmin luodut pää- ja alaluokat sekä niihin liitetyt KP-tilit. Voit luoda uusia alaluokkia ja liittää luokat aiemmin luotuihin tileihin.  
@@ -62,6 +67,7 @@ Esimerkiksi oletussaldon tiliotteessa on Käteisvarat-alaluokka Vastaavaa-kohdas
 Kun luot seuraavan kerran KP-raporttimalleja, tiliotteessa näkyy käteisvarojen kokonaissaldo sekä käteiskassan ja sekkitilin saldojen kaksi riviä.  
 
 ## <a name="see-also"></a>Katso myös
+
 [Rahoitus](finance.md)  
 [Tilikartan määrittäminen tai muuttaminen](finance-setup-chart-accounts.md)  
 [Business Intelligence](bi.md)  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 04/01/2020
+ms.date: 04/22/2020
 ms.author: sgroespe
-ms.openlocfilehash: c71b56812b67c4ec51ea8d48d095cabc79c585fb
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: d6fe5cff52d3ed8c2404e12b3e37703c8e8db8bb
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194473"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324028"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Määritä käyttöoikeudet käyttäjille ja ryhmille
 [!INCLUDE[d365fin](includes/d365fin_md.md)] -suojausjärjestelmän avulla voit määrittää, mitä objekteja käyttäjä voi käyttää kunkin tietokannan tai ympäristön sisällä. Voit määrittää jokaiselle käyttäjälle, voivatko he lukea, muokata tai syöttää tietoja valituissa tietokantaobjekteissa. Lisätietoja on [Tietosuoja](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level)-kohdassa [!INCLUDE[d365fin](includes/d365fin_md.md)]:n Kehittäjä- ja ITpro-ohjeessa.
@@ -106,6 +106,26 @@ Voit myös siirtää kopiointitoiminnolla kaikki toisen käyttöoikeuksien jouko
 
 Uusi käyttöoikeuksien joukko, joka sisältää kaikki kopioidun käyttöoikeuksien joukon käyttöoikeudet, lisätään uutena rivinä **Käyttöoikeuksien joukot** -sivulla. Nyt voit muokata uuden käyttöoikeuksien joukon käyttöoikeuksia. Huomaa, että kunkin tyypin rivit on lajiteltu aakkosjärjestykseen.
 
+### <a name="to-export-and-import-a-permission-set"></a>Käyttöoikeusjoukon vieminen ja tuominen
+Jos haluat määrittää käyttöoikeudet nopeasti, voit tuoda toisesta [!INCLUDE[d365fin](includes/d365fin_md.md)] -vuokraajasta viedyt käyttöoikeusjoukot.
+
+Multivuokraaja-ympäristöissä käyttöoikeusjoukko tuodaan tietylle vuokralaiselle eli tuonnin laajuus on "vuokraaja".
+
+1. Valitse Vuokraaja 1:ssä **Käyttöoikeuksien joukot** -sivulla vietävien käyttöoikeuksien joukon rivi tai rivit. Valitse sitten **Vie käyttöoikeuksien joukot** -toiminto.
+
+    Tietokoneen latauskansioon luodaan XML-tiedosto. Oletusarvon mukaan sen nimi on "Export Permission Sets.xml"
+
+2. Valitse vuokralainen 2:n **Käyttöoikeuksien joukot** -sivulla **Tuo käyttöoikeuksien joukot** -toiminto.
+3. Harkitse **Tuo käyttöoikeuksien joukot** -valintaikkunassa, haluatko yhdistää aiemmin luodut käyttöoikeuksien joukot uusien käyttöoikeuksien joukkojen kanssa XML-tiedostoon.
+
+    Jos valitset **Päivitä aiemmin luodut käyttöoikeudet** -valintaruudun, aiemmin luodut käyttöoikeuksien joukot, joilla on sama nimi kuin XML-tiedostossa, yhdistetään tuotuihin käyttöoikeuksien joukkoihin.
+
+    Jos et valitse **Päivitä aiemmin luodut käyttöoikeudet** -valintaruudun, aiemmin luodut käyttöoikeuksien joukot, joilla on sama nimi kuin XML-tiedostossa, ohitetaan tuonnin aikana. Tässä tapauksessa sinulle ilmoitetaan ohitettujen käyttöoikeuksien joukoista.
+
+4. Etsi ja valitse tuotava XML-tiedosto **Tuo**-valintaikkunasivulta ja valitse sitten **Avaa**-toiminto.
+
+Käyttöoikeusien joukot tuodaan.
+
 ## <a name="to-create-or-modify-permissions-manually"></a>Käyttöoikeuksien luominen tai muokkaaminen manuaalisesti
 Työvaiheessa kerrotaan, miten käyttöoikeudet lisätään tai miten niitä muokataan manuaalisesti. Voit myös luoda käyttöoikeuksia automaattisesti käyttöliittymän toiminnoista. Lisätietoja on kohdassa [Käyttöoikeuksien luominen tai muokkaaminen toimia tallentamalla](ui-define-granular-permissions.md#to-create-or-modify-permissions-by-recording-your-actions).
 
@@ -187,6 +207,9 @@ Seuraavassa kerrotaan, miten käyttöoikeuksien joukot määritetään käyttäj
 2. Valitse **Käyttäjät**-sivulla sopiva käyttäjä ja valitse sitten **Käyttöoikeuksien joukko käyttäjäryhmän mukaan** -toiminto.
 3. Valitse **Käyttöoikeuksien joukko käyttäjäryhmän mukaan** -sivulla sen käyttöoikeuksien joukon rivin **[käyttäjäryhmän nimi]**-valintaruutu, joka määritetään käyttäjäryhmälle.
 4. Valitse **Kaikki käyttäjäryhmät** -valintaruutu, jos haluat määrittää käyttöoikeuksien joukon kaikille käyttäjäryhmille.
+
+## <a name="to-remove-obsolete-permissions-from-all-permission-sets"></a>Voit poistaa vanhentuneet käyttöoikeudet kaikista käyttöoikeuksien joukoista seuraavasti.
+1. Valitse **Käyttöoikeuksien joukot** -sivulla **Poista vanhentuneet käyttöoikeudet** -toiminto.
 
 ## <a name="to-set-up-user-time-constraints"></a>Määritä käyttäjän aikarajoitukset
 Järjestelmänvalvojat voivat määrittää ajanjaksoja, joiden aikana määritetyt käyttäjät voivat tehdä kirjauksia. He voivat myös määrittää, kirjaako järjestelmä ajan, jonka käyttäjät olivat kirjautuneena. Järjestelmänvalvojat voivat myös määrittää käyttäjille vastuupaikkoja. Lisätietoja on kohdassa [Vastuupaikkojen käyttäminen](inventory-responsibility-centers.md).
