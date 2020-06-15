@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 73390a2857714e87378affb34409500d8f1436d3
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: ad5193621f0f581e5b2cdec305e08b20ca80ef4e
+ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3195049"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3402548"
 ---
 # <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Huoltosopimuksen tai sopimustarjouksen vuosittaisen summan muuttaminen
 Huoltosopimuksen tai sopimustarjouksen vuosittaista summaa voidaan muuttaa, jos vuosittain laskutettavaa summaa tarvitsee korjata.  
@@ -80,45 +80,7 @@ Jos huoltosopimuksen tai sopimustarjouksen vuosittaista summaa muutetaan, voidaa
     * Rivialennus-% = Rivin alennussumma / Rivin arvo * 100.  
     * Tuotto = Rivisumma - Rivikustannus.  
 
-### <a name="distribution-based-on-line-amount"></a>Jako rivisumman perusteella
-Jos huoltosopimuksen tai sopimustarjouksen vuosittaista summaa muutetaan, voidaan uuden ja lasketun vuosittaisen summan välinen ero joutua jakamaan sopimusriveille. Rivisummaan perustuva jako on automaattinen menetelmä, joka auttaa jakamaan uuden ja lasketun vuosittaisen summan eron sopimusrivien rivisummien kesken. Jako tehdään suhteessa kunkin rivisumman osuuteen lasketusta vuosittaisesta summasta. Seuraavassa kullakin rivillä tehtävien toimenpiteiden luettelossa kuvataan tämän menetelmän perusajatus:  
-
-1. Rivisumman osuus lasketaan seuraavasti: **Rivisumma**-kentän sisältö jaetaan **Laskettu vuosittainen summa** -kentän arvolla kaikilla sopimusriveillä.  
-2. **Rivisumma**-kentän arvo päivitetään lisäämällä siihen uuden ja lasketun vuosittaisen summan ero kerrottuna rivisumman osuudella.  
-3. **Rivin alennussumma**-, **Rivialennus-%**- ja **Tuotto**-kenttien sisältö päivitetään **Rivin alennussumma** -kentän uuden arvon mukaisesti:  
-
-    * Rivin alennussumma = Rivin arvo - Rivisumma.  
-    * Rivialennus-% = Rivin alennussumma / Rivin arvo * 100.  
-    * Tuotto = Rivisumma - Rivikustannus.  
-
 Vaiheet toistetaan kullekin sopimusriville.  
-
-#### <a name="example"></a>Esimerkki  
-Huoltosopimuksen **Salli epätäsmäävät summat**-kentässä ei ole valintamerkkiä, ja sopimus sisältää kolme sopimusriviä, joilla on seuraavat tiedot:  
-
-|Nimike|Rivikustannus|Rivin arvo|Rivialennus-%|Rivin alennussumma|Rivisumma|Tuotto|  
-|----------|---------------|----------------|---------------------|--------------------------|-----------------|------------|  
-|Nimike 1|15,00|17,00|3,00|0,51|25,00|1,49|  
-|Nimike 2|20,00|23,00|Ei mitään|0,00|55,10|3,00|  
-|Nimike 3|24,00|27,00|3,00|0,81|112,70|2,19|  
-
-**Vuosittainen summa** -kentän arvo on sama kuin **Laskettu vuosittainen summa**-kentän arvo, joka on aina rivisummien yhteissumma. Tässä tapauksessa se on yhtä suuri kuin seuraava: 16,49 + 23,00 + 26,19 = 65,68.  
-
-Jos muutat **Vuotuinen summa** -kohdan arvoksi 60, jokaiselle sopimusriville lasketaan tuottoprosenttiosuudet:  
-
-* Nimike 1 – 5 / (5 + 5,1 +12,7) = 0,2193 %  
-* Nimike 2 – 5,1 / (5 + 5,1 + 12,7) = 0,2237  
-* Nimike 3 – 12,7 / (5 + 5,1 +12,7) = 0,557 %  
-
-Kunkin sopimusrivin **Rivisumma**-kentän arvo päivitetään sitten käyttämällä seuraavaa kaavaa Rivisumma = Rivin arvo + uuden ja lasketun vuosittaisen summan ero * prosenttiosuus. Tämän jälkeen **Rivin alennussumma-**, **Rivialennus-% %**, - ja  **Tuotto**-kenttien arvot päivitetään edellä olevan toimenpideluettelon kaavoja käyttäen.  
-
-Sopimusriveillä on lopuksi seuraavat tiedot:  
-
-|Nimike|Rivikustannus|Rivin arvo|Rivialennus-%|Rivin alennussumma|Rivisumma|Tuotto|  
-|----------|---------------|----------------|---------------------|--------------------------|-----------------|------------|  
-|Nimike 1|15,00|17,00|11,41|1,94|15,06|0,06|  
-|Nimike 2|20,00|23,00|8.65|1.99|21.01|1.01|  
-|Nimike 3|24.00|27.00|11.37|3.07|23.93|-0,07|  -   Rivialennus-% = Rivin alennussumma / Rivin arvo * 100.  
 
 #### <a name="example"></a>Esimerkki  
 Huoltosopimuksen **Salli epätäsmäävät summat**-kentässä ei ole valintamerkkiä, ja sopimus sisältää kolme sopimusriviä, joilla on seuraavat tiedot:  

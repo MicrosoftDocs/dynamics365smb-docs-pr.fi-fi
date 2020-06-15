@@ -6,13 +6,13 @@ ms.reviewer: na
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 04/01/2020
-ms.openlocfilehash: b78c728cd92ed8c4bc4e41da189c4ddfd877b1b6
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/04/2020
+ms.openlocfilehash: 787d2ec0d838e89943dc375db8d43c33be193d0b
+ms.sourcegitcommit: 6aa830e3286729bac3cbe5e911d72a2c69d50f73
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190129"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3428369"
 ---
 # <a name="resources-for-help-and-support"></a>Ohje- ja tukiresurssit
 
@@ -68,9 +68,11 @@ Varmista, että käyt läpi lähetettyjen ehdotusten luettelon. On todennäköis
 
 **Vianetsintä**-osassa on teknisiä tietoja, joiden avulla järjestelmänvalvoja tai [!INCLUDE[prodshort](includes/prodshort.md)] -kumppani voi auttaa käyttäjiä selviämään ongelmista. Nämä tiedot sisältävät myös viimeisen virhesanomat tiedot, [!INCLUDE[prodshort](includes/prodshort.md)]in nykyisen version ja linkin **Sivun tarkastus** -sivulle. Lisätietoja on kohdassa [Sivujen tarkastaminen Business Centralissa](across-inspect-page.md).  
 
+Sisäinen järjestelmänvalvoja voi käyttää hallintakeskusta, jossa voit jatkaa vian etsintää. Lisätietoja on kohdassa [Teknisten tietojen etsiminen ](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#finding-technical-information) hallintasisällöstä.  
+
 ## <a name="report-a-problem"></a>Ongelman ilmoittaminen
 
-[!INCLUDE[prodshort](includes/prodshort.md)] -jälleenmyyntikumppani antaa teknistä tukea. Kumppanit myyvät [!INCLUDE[prodshort](includes/prodshort.md)]ia, ja tämän osan avulla on helppo ottaa yhteyttä jälleenmyyntikumppaniin, jos tämä on antanut tuen yhteystiedot. Jos [!INCLUDE[prodshort](includes/prodshort.md)] -kumppani, ei pysty ratkaisemaan ongelmaan, he voivat tehdä tukipyynnön Microsoftille.  
+[!INCLUDE[prodshort](includes/prodshort.md)] -jälleenmyyntikumppani antaa teknistä tukea. Kumppanit myyvät [!INCLUDE[prodshort](includes/prodshort.md)]ia, ja tämän osan avulla on helppo ottaa yhteyttä jälleenmyyntikumppaniin, jos tämä on antanut tuen yhteystiedot. Jos [!INCLUDE[prodshort](includes/prodshort.md)] -kumppani, ei pysty ratkaisemaan ongelmaan, he voivat tehdä tukipyynnön Microsoftille. Lisätietoja on ohjeaiheessa [Tukiongelmien eskalointi Microsoftille](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#escalating-support-issues-to-microsoft) hallintasisällössä.  
 
 > [!NOTE]
 > Tämä osa on käytettävissä vain, jos sinulla on maksullinen [!INCLUDE [prodshort](includes/prodshort.md)] -tilaus. Jos olet rekisteröitynyt kokeiluversioon etkä ole vielä ostanut [!INCLUDE[prodshort](includes/prodshort.md)]ia, sinulla ei ole jälleenmyyntikumppania etkä voi ottaa yhteyttä Microsoftin tukeen. Voit etsiä [!INCLUDE[prodshort](includes/prodshort.md)] -kumppanin [Ratkaisutoimittajan haku](https://go.microsoft.com/fwlink/?linkid=2038145) -sivulla. Lisätietoja on kohdassa [Miten löydän jälleenmyyjäpartnerin?](across-faq.md#findpartner).  

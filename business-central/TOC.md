@@ -99,7 +99,7 @@
 ### [Yleiskuvaus](bank-setup-banking.md)
 ### [Pankkitilien määrittäminen](bank-how-setup-bank-accounts.md)
 ### [Envestnet Yodlee Bank Feeds -palvelun määrittäminen](bank-how-setup-bank-statement-service.md)
-### [AMC Banking 365 -perusteiden laajennuksen käyttäminen](ui-extensions-amc-banking.md)
+### [AMC Banking 365 Fundamentals -laajennuksen käyttäminen](ui-extensions-amc-banking.md)
 ### [Sekin asettelun valitseminen](finance-how-define-check-layouts.md)
 
 ## Myynnin määrittäminen
@@ -301,8 +301,8 @@
 #### [Saapuvien asiakirjojen määrittäminen](across-how-setup-income-documents.md)
 #### [Valuutan vaihtokurssien päivittäminen](finance-how-update-currencies.md)
 #### [Sähköisten asiakirjojen vastaanottamisen ja lähettämisen määrittäminen](across-how-to-set-up-electronic-document-sending-and-receiving.md)
-#### [Maksujen kerääminen SEPA-suoraveloitusperintänä](finance-collect-payments-with-sepa-direct-debit.md)
-#### [AMC Banking 365 -perusteiden laajennuksen käyttäminen](ui-extensions-amc-banking.md)
+#### [Maksujen kerääminen SEPA-suoraveloitusperintänä.](finance-collect-payments-with-sepa-direct-debit.md)
+#### [AMC Banking 365 Fundamentals -laajennuksen käyttäminen](ui-extensions-amc-banking.md)
 #### [Pankin tiliotepalvelun määrittäminen](bank-how-setup-bank-statement-service.md)
 #### [Pankkitilien määrittäminen](bank-how-setup-bank-accounts.md)
 #### [XML-mallien käyttäminen tietojenvaihtomääritysten valmisteluun](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)
@@ -314,11 +314,11 @@
 #### [Sähköisten asiakirjojen vastaanottaminen ja muuntaminen](purchasing-how-to-receive-and-convert-electronic-documents.md)
 #### [Envestnet Yodlee Bank Feeds -palvelun määrittäminen](bank-how-setup-bank-statement-service.md)
 #### [Maksujen vienti pankkitiedostoon](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
-#### [Maksujen suorittaminen AMC Banking 365 -perusteiden laajennuksen tai SEPA-tilisiirron avulla](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
+#### [Maksujen suorittaminen AMC Banking 365 Fundamentals -laajennuksen tai SEPA-tilisiirron avulla](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
 #### [Maksujen kerääminen SEPA-suoraveloitusperintänä](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Valuutan vaihtokurssien päivittäminen](finance-how-update-currencies.md)
 #### [Kenttien vastaavuuksien määrittäminen tuotaessa SEPA-CAMT-tiedostoja](across-field-mapping-when-importing-sepa-camt-files.md)
-#### [AMC Banking 365 Fundamentals -laajennuksen kentänyhdistämismääritys](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
+#### [AMC Banking 365 Fundamentals -laajennuksen kenttämääritykset](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
 
 # Hallinta
 ## [Yleiskuvaus](admin-setup-and-administration.md)
@@ -364,7 +364,7 @@
 #### [QuickBooks Online -tietojen siirto](ui-extensions-quickbooks-online-data-migration.md)
 #### [Quickbooks Payroll -tiedostojen tuonti](ui-extensions-quickbooks-payroll.md)
 #### [Myynti- ja varastoennuste](ui-extensions-sales-forecast.md)
-#### [AMC Banking 365 -perusteiden laajennus](ui-extensions-amc-banking.md)
+#### [AMC Banking 365 Fundamentals -laajennus](ui-extensions-amc-banking.md)
 #### [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
 #### [DK – C5-tietojen siirto](ui-extensions-c5-data-migration.md)
 #### [DK - Maksut ja täsmäytykset](ui-extensions-payments-reconciliation-formats-dk.md)
@@ -414,7 +414,7 @@
 #### [Maksujen ja hyvitysten kirjaaminen](payables-how-post-payments-refunds.md)
 #### [Ehdota toimittajamaksuja](payables-how-suggest-vendor-payments.md)
 #### [Sekkimaksujen suorittaminen](payables-how-work-checks.md)
-#### [Maksujen suorittaminen AMC Banking 365 -perusteiden laajennuksen tai SEPA-tilisiirron avulla](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
+#### [Maksujen suorittaminen AMC Banking 365 Fundamentals -laajennuksen tai SEPA-tilisiirron avulla](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
 #### [Ostolaskujen selvittäminen viipymättä](finance-how-to-settle-purchase-invoices-promptly.md)
 #### [Positive Pay -tiedoston vienti](finance-how-positive-pay.md)
 ### Maksujen kohdistaminen automaattisesti ja pankkitilien täsmäyttäminen
@@ -544,6 +544,7 @@
 ## [Myynnin päivämäärälaskenta](sales-date-calculation-for-sales.md)
 ## [Ennusteen luominen](production-how-to-create-a-forecast.md)
 ## [Tietueiden kaksoiskappaleiden yhdistäminen](sales-how-merge-duplicate-records.md)
+## [Toistuvan tuoton käsitteleminen](finance-recurring-invoicing.md)
 
 # Ostaminen
 ## [Yleiskuvaus](purchasing-manage-purchasing.md)
