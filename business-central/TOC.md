@@ -38,10 +38,11 @@
 ## [Kopioimisen ja liittämisen usein kysytyt kysymykset](ui-copy-paste.md)
 ## [Kalenterin päivämäärien ja aikojen käsitteleminen](ui-enter-date-ranges.md)
 ## [Pakollisten kenttien havaitseminen](ui-mandatory-fields.md)
-## [Kielen ja kielialueen muuttaminen](about-locale-language.md)
+## [Kielen ja alueen muuttaminen](about-locale-language.md)
 ## [Tarkastelu ja muokkaus Excelissä](across-work-with-excel.md)
 ## [Korttien ja asiakirjojen liitteiden, linkkien ja muistioiden hallinta](ui-how-add-link-to-record.md)
 ## [Perusasetusten muuttaminen](ui-change-basic-settings.md)
+## [Siirtyminen toiseen yritykseen tai ympäristöön](ui-organization-switch.md)
 ## [Ilmoitusten hallinta](ui-smart-notifications.md)
 ## [Suorituskykyä lisääviä vihjeitä yrityskäyttäjille](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
 ## Business Centralin mukauttaminen
@@ -128,7 +129,7 @@
 ### [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md)
 ### [Uusien nimikkeiden luominen kopioimalla aiemmin luotuja nimikkeitä](inventory-how-copy-items.md)
 ### [Tietoja nimiketyypeistä](inventory-about-item-types.md)
-### [Nimikkeen mittayksiköiden määrittäminen](inventory-how-setup-units-of-measure.md)
+### [Mittayksikön määrittäminen](inventory-how-setup-units-of-measure.md)
 ### [Varastointiyksiköiden määrittäminen](inventory-how-to-set-up-stockkeeping-units.md)
 ### [Nimikkeiden luokitteleminen](inventory-how-categorize-items.md)
 ### [Useiden nimikekuvien tuominen](inventory-how-import-item-pictures.md)
@@ -216,7 +217,7 @@
 #### [Tietojen kopioiminen uusiin yrityksiin](admin-how-to-copy-data-to-new-companies.md)
 #### [Kirjauskansion alkusaldojen luominen](admin-how-to-create-journal-opening-balances.md)
 ### [Asiakkaan asetustietojen kerääminen](admin-gather-customer-setup-values.md)
-### [Asiakastietojen siirtämisen valmisteleminen](admin-use-templates-to-prepare-customer-data-for-migration.md)
+### [Asiakastietojen siirtämisen valmisteleminen mallien avulla](admin-use-templates-to-prepare-customer-data-for-migration.md)
 ### [Asiakastietojen siirtäminen](admin-migrate-customer-data.md)
 ### [Yrityksen mukautettujen määrityspakettien luominen](admin-how-to-create-custom-company-configuration-packages.md)
 ### [Vihjeitä: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
@@ -323,8 +324,9 @@
 # Hallinta
 ## [Yleiskuvaus](admin-setup-and-administration.md)
 ## [Luo käyttäjät käyttöoikeuksien mukaan](ui-how-users-permissions.md)
-## [Määritä käyttöoikeudet käyttäjille ja ryhmille](ui-define-granular-permissions.md)
+## [Käyttöoikeuksien määrittäminen käyttäjille ja ryhmille](ui-define-granular-permissions.md)
 ## [Profiilien hallinta](admin-users-profiles-roles.md)
+## [Käyttäjäasetusten ja asetusten hallinta](admin-manage-user-settings-preferences.md)
 ## [Tulostimien määrittäminen](ui-specify-printer-selection-reports.md)
 ## [Tietojen luottamuksellisuuden luokitteleminen](admin-classifying-data-sensitivity.md)
 ## [Henkilökohtaisia tietoja koskeviin pyyntöihin vastaaminen](admin-responding-to-requests-about-personal-data.md)
@@ -348,7 +350,6 @@
 ### [Pinojen värillisen ilmaisimen määrittäminen](admin-how-set-up-colored-indicator-on-cues.md)
 ### Mukauttaminen laajennusten avulla
 #### [Yleiskuvaus](ui-extensions.md)
-#### [Mukauttaminen laajennusten avulla](ui-extensions.md)
 #### [Business Centralin kirjanpitäjän portaali](ui-extensions-accountant-portal.md)
 #### [Ceridian Payroll](ui-extensions-ceridian-payroll.md)
 #### [Dynamics GP -tietojen siirto](ui-extensions-dynamicsgp-data-migration.md)
@@ -384,7 +385,6 @@
 ### [Taulukon yhdistämismääritysten manuaalinen synkronointi](admin-manual-synchronization-of-table-mappings.md)
 ### [Ajoitettu synkronointi](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Synkronointivirheiden vianmääritys](admin-troubleshoot-sales-synchronization.md)
-<!-- ### [Developer Walkthrough: Custom Integration with Common Data Service](admin-walkthrough-customizing-cds-integration.md) moved to devitpro -->
 
 # Rahoitus
 ## [Yleiskuvaus](finance.md)
@@ -508,6 +508,7 @@
 ## [Myynnin ja ostojen ALV:n käsitteleminen](finance-work-with-vat.md)
 ## [ALV:n raportointi veroviranomaisille](finance-how-report-vat.md)
 ## [ALV-summia sisältävien huoltosopimusten muuntaminen](service-how-to-convert-service-contracts.md)
+## [ALV-prosenttimuutosten hallinta](finance-how-use-vat-rate-change-tool.md)
 ## [Yrityksen kassavirtojen analysoiminen](finance-analyze-cash-flow.md)
 ## [Vaihekuvaus: tehdään kassavirtaennusteita käyttäen KP-raporttimalleja](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 ## [Rahoituslaskelmien analysointi Excelissä](finance-analyze-excel.md)
@@ -626,7 +627,6 @@
 ### [Mahdollisuuksien luominen](marketing-how-create-opportunities.md)
 ### [Sähköpostiviestien seuraaminen](marketing-set-up-email-logging.md)
 ### [Myyntimahdollisuuksien käsitteleminen](marketing-processing-sales-opportunities.md)
-### [Määritä sähköpostin lokiinkirjaus](marketing-set-up-email-logging.md)
 ## [Liiketoimintakontaktien luokittelu profiilikyselyiden avulla](marketing-create-contact-profile-questionnaire.md)
 ## [Dynamics 365 for Salesin käyttö Business Centralista](marketing-integrate-dynamicscrm.md)
 ### [Tietueiden yhdistäminen ja synkronoiminen manuaalisesti](admin-how-to-couple-and-synchronize-records-manually.md)
@@ -768,6 +768,7 @@
 ## Rakennetiedot: varaston arvostus
 ### [Yleiskuvaus](design-details-inventory-costing.md)
 ### [Rakennetiedot: Arvostusmenetelmät](design-details-costing-methods.md)  
+### [Rakennetiedot: nimikkeiden arvostusmenetelmän muuttaminen](design-details-changing-costing-methods.md)
 ### [Rakennetiedot: Nimikkeen kohdistus](design-details-item-application.md)  
 ### [Rakennetiedot: Nimikkeen kohdistuksen tunnettu ongelma](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 ### [Rakennetiedot: Kustannuksen muutos](design-details-cost-adjustment.md)  
@@ -1404,7 +1405,7 @@
 #### [Sveitsin arvonlisävero](LocalFunctionality/Switzerland/swiss-value-added-tax.md)
 #### [Sveitsin ALV-prosentit](LocalFunctionality/Switzerland/vat-rates-for-switzerland.md)
 ### Pankkitoiminta ja maksut
-#### QR - laskujen hallinta (LocalFunctionality/Switzerland/ui-extensions-qr-bill-management.md)
+#### [QR-laskujen hallinta](LocalFunctionality/Switzerland/ui-extensions-qr-bill-management.md)
 #### [LSV-kokoelman sulkeminen](LocalFunctionality/Switzerland/how-to-close-an-lsv-collection.md)
 #### [Maksujen vienti LSV:n avulla](LocalFunctionality/Switzerland/how-to-export-payments-using-lsv.md)
 #### [ESR-maksujen tuominen](LocalFunctionality/Switzerland/how-to-import-esr-payments.md)
