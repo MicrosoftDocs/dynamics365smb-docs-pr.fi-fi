@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1f150535e8d3441bddd0144b14592592f405b201
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 458576ac91955d4f98036dbc9f1253f199f9ac00
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186018"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528936"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Talousraportoinnin valmisteleminen KP-raporttimallien ja tililuokkien avulla
 Saat KP-raporttimallien avulla tietoja tilikarttaan sisältyvistä kirjanpitotiedoista. KP-raporttimallit analysoivat kirjanpitotilien lukuja ja vertaavat pääkirjanpidon tapahtumia pääkirjanpidon budjettitapahtumiin. Tulokset näkyvät roolikeskuksen kaavioissa, kuten kassavirtakaaviossa, ja raporteissa, kuten Tuloslaskelma- ja Tase-raporteissa.
@@ -71,7 +71,7 @@ Määritä sarakeasettelun avulla, mitkä sarakkeet sisältyvät tuloksena oleva
 > KP-raporttimallin tulostetussa, esikatsellussa tai tallennetussa voi olla esillä enintään viisi saraketta. Jos KP-raporttimalli on tarkoitettu vain **KP-raporttimallin yleiskatsaus** -sivulla analysoitavaksi, voit luoda haluamasi määrän sarakkeita.
 
 1. Valitse **KP-raporttimallit**-sivulla ensin sopiva KP-raporttimalli ja sitten **Muokkaa sarakeasetuksia** -toiminto.
-2. Luo **Sarakeasettelut**-sivulla jokaiselle sarakkeelle rivi, jonka perusteella taloustiedot näytetään talousraportissa. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Luo **Sarakeasettelut**-sivulla jokaiselle sarakkeelle rivi, jonka perusteella taloustiedot näytetään talousraportissa. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Valitse **OK**-painike.
 4. Avaa **KP-raporttimallin yleiskuvaus** -sivu ajoittain ja varmista, että uusi sarakeasettelu toimii odotetusti.
 

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 7a6be696756643496954b8ee0940efff7996f352
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 67b11d9c763ef4688af35a3f9cd83ee8c364fcee
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181602"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528435"
 ---
 # <a name="create-contacts"></a>Kontaktien luominen
 Tapaat säännöllisesti muiden yritysten työntekijöitä, jotka voivat kehittyä liikesuhteiksi, kuten asiakassuhteeksi. Kun tällainen uusi kontakti luodaan, kontaktin korttiin on tallennettava mahdollisimman paljon tietoja, jotta yhteydenpitoa voidaan jatkaa.
@@ -37,7 +37,7 @@ Molemmissa tyypeissä on samanlaiset toiminnot. Poikkeuksena ovat tyypin mukaan 
 3. Valitse **Nro**-kenttään kontaktin numero.
 
     Jos olet määrittänyt kontakteille numerosarjan **Kontaktienhallinnan asetukset**-sivulla, voit lisätä seuraavan saatavilla olevan kontaktinumeron Enter-näppäimellä.  
-5. Täytä jäljellä olevat kentät tarvittaessa. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+5. Täytä jäljellä olevat kentät tarvittaessa. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-create-a-contact-from-a-customer-vendor-or-bank-account"></a>Kontaktin luominen asiakkaana, toimittajana tai pankkitilinä.
 Jos sinulla on asiakkaita, toimittajia ja pankkitilejä, joille haluat luoda kontaktikortit, voit luoda kontakteja aiemmin luotujen tietojen perusteella käyttämällä **Luo kontakteja** -erätöinä. Kun luot kontaktin tällä tavalla, kontaktin tiedot synkronoidaan myöhemmin liittyvän asiakkaan, toimittajan tai pankkitilin tietojen kanssa. Lisätietoja on kohdassa [Kontaktien synkronoiminen asiakkaiden, toimittajien ja pankkitilien kanssa](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-and-bank-accounts).

@@ -5,16 +5,17 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: profiles, users
-ms.date: 04/01/2020
+ms.date: 06/26/2020
 ms.author: sgroespe
-ms.openlocfilehash: 50a67bf5d64cbf932801738d60b4477a7e3d9fde
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 34e72f5b80f4516dcd7e9061f263a8f08b06b0d7
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186498"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528511"
 ---
 # <a name="manage-profiles"></a>Profiilien hallinta
+
 Kaikille [!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäjille määritetään profiili, joka vastaa heidän liiketoimintorooliaan, osastoaan tai muuta luokittelua. Profiilien avulla järjestelmänvalvojat voivat määrittää ja hallita keskitetysti sitä, mitä erilaiset käyttäjätyypit voida nähdä ja tehdä käyttöliittymässä, jotta he voivat suorittaa työtehtäviään tehokkaasti.
 
 > [!NOTE]
@@ -130,9 +131,15 @@ Voit poistaa mukautuksia, joita yksi tai usea käyttäjä on tehnyt tietyille ty
 
 2. Valitse ensin poistettavan sivun mukautuksen rivi ja sitten **Poista**-toiminto.
 
-Käyttäjä näkee muutokset kirjautuessaan sisään seuraavan kerran.    
+Käyttäjä näkee muutokset kirjautuessaan sisään seuraavan kerran.  
 
 Voit poistaa myös profiilin yksittäisiä sivun mukautukset. Lisätietoja on kohdassa [Profiilin tiettyjen sivujen mukautuksen poistaminen](ui-personalization-manage.md#to-delete-customization-for-specific-pages-for-a-profile).
+
+## <a name="managing-user-sessions"></a>Käyttäjäistuntojen hallinta
+
+[!INCLUDE[prodshort](includes/prodshort.md)] Onlinen järjestelmänvalvojana voit hallita käyttäjäistuntoja hallintakeskuksessa. Lisätietoja on hallintasisällön kohdassa [Istuntojen hallinta](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions).  
+
+[!INCLUDE[prodshort](includes/prodshort.md)] on-premises -versiossa istuntoja voidaan hallita esimerkiksi SQL Server Management Studion avulla. Lisätietoja on kohdassa [SQL Serverin tekninen dokumentaatio](/sql/sql-server/?view=sql-server-ver15).  
 
 ## <a name="see-also"></a>Katso myös  
 [Määritä käyttöoikeudet käyttäjille ja ryhmille](ui-define-granular-permissions.md)  

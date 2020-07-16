@@ -7,19 +7,19 @@ ms.topic: get-started-article
 ms.search.keywords: setup wizard
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 62ee42fe2b6e03ad1137a50a38c1cd2ee4bfcd0f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 41281996dccf0c3ee142c063ad56c782dab49230
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190153"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528736"
 ---
 # <a name="getting-started-with-d365fin_long"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]in käytön aloittaminen
 [!INCLUDE[d365fin](includes/d365fin_md.md)] on pienille ja keskisuurille organisaatioille tarkoitettu liiketoiminnan hallintaratkaisu, joka automatisoi ja selkeyttää liiketoiminnan prosesseja sekä auttaa liiketoiminnan hallinnassa. Rekisteröityminen on helppoa, ja voit siirtää aiemmin luodut yritystiedot vanhojen tietojen järjestelmästä.  
 
 Jos tarvitset apua tilaukseen liittyvissä asioissa, etsi [!INCLUDE[d365fin](includes/d365fin_md.md)] -kumppani. Lisätietoja on kohdassa [Miten löydän jälleenmyyjäpartnerin?](across-faq.md#findpartner).  
 
-Kun olet rekisteröitynyt [!INCLUDE [prodshort](includes/prodshort.md)]iin, saat käyttöösi käyttää esittely-yrityksen. Esittely-yritys sisältää mallitietoja. Voit kuitenkin luoda esimerkiksi uusia myyntiasiakirjoja tai määrittää pankkitilin. Jos kuitenkin haluat käyttää [!INCLUDE [prodshort](includes/prodshort.md)]ia liiketoimintasi apuna, sinun täytyy ottaa yhteyttä [!INCLUDE [prodshort](includes/prodshort.md)] -jälleenmyyjäkumppaniin ja ostaa tilaus. Lisä tietoja kokeiluista ja tilauksista on kohdassa [Kokeilut ja tilaukset](across-preview.md).  
+Kun olet rekisteröitynyt [!INCLUDE[prodshort](includes/prodshort.md)]iin, saat käyttöösi käyttää esittely-yrityksen. Esittely-yritys sisältää mallitietoja. Voit kuitenkin luoda esimerkiksi uusia myyntiasiakirjoja tai määrittää pankkitilin. Jos kuitenkin haluat käyttää [!INCLUDE[prodshort](includes/prodshort.md)]ia liiketoimintasi apuna, sinun täytyy ottaa yhteyttä [!INCLUDE[prodshort](includes/prodshort.md)] -jälleenmyyjäkumppaniin ja ostaa tilaus. Lisä tietoja kokeiluista ja tilauksista on kohdassa [Kokeilut ja tilaukset](across-preview.md).  
 
 ## <a name="get-to-know-d365fin"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)]iin tutustuminen
 
@@ -34,7 +34,7 @@ Lisätietoja on aiheessa [[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttä
 > [!TIP]  
 > Voit aina palata roolikeskukseen valitsemalla yrityksen nimen vasemmasta yläkulmasta.
 
-Liiketoimintapäällikkö- ja kirjanpitäjä-roolikeskukset sisältävät esittely-yrityksessä Aloitus-ruudun ja Tuotevideot-ruudun. Kummassakin ruudussa käynnistetään sivuja, joissa voit valikoida eri videoiden välillä, jotta pääset alkuun [!INCLUDE [prodshort](includes/prodshort.md)]n eri toimintojen käytössä. Löydät lisää videoita YouTube-kanavallamme. Lisätietoja on [videokirjastossamme](across-videos.md). Voit myös etsiä verkko-oppimissisältöä [!INCLUDE [prodshort](includes/prodshort.md)] -perusversiosta [Microsoft Learn](/learn/browse/?products=dynamics-business-central)ista. Jos haluat apua, ota yhteyttä [!INCLUDE[d365fin](includes/d365fin_md.md)] -kumppaniin.  
+Liiketoimintapäällikkö- ja kirjanpitäjä-roolikeskukset sisältävät esittely-yrityksessä Aloitus-ruudun ja Tuotevideot-ruudun. Kummassakin ruudussa käynnistetään sivuja, joissa voit valikoida eri videoiden välillä, jotta pääset alkuun [!INCLUDE[prodshort](includes/prodshort.md)]n eri toimintojen käytössä. Löydät lisää videoita YouTube-kanavallamme. Lisätietoja on [videokirjastossamme](across-videos.md). Voit myös etsiä verkko-oppimissisältöä [!INCLUDE[prodshort](includes/prodshort.md)] -perusversiosta [Microsoft Learn](/learn/browse/?products=dynamics-business-central)ista. Jos haluat apua, ota yhteyttä [!INCLUDE[d365fin](includes/d365fin_md.md)] -kumppaniin.  
 
 Kun olet valmis aloittamaan käytön ja haluat tutustua tiettyihin [!INCLUDE[d365fin](includes/d365fin_md.md)]in tukemiin liiketoimintaprosesseihin, lisätietoja on kohdassa [Liiketoiminnan toiminnallisuudet](across-business-functionality.md).
 

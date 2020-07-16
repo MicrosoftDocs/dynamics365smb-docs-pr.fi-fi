@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: microsoft partner
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0c0ef6e00c2d1564c2f19c98a07c3cc4771c1d8a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 4567f62a7866f6d02103f8f80aea13b92415d0bd
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190057"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528686"
 ---
 # <a name="become-a-reseller-of-d365fin_long"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]in jälleenmyyjäksi ryhtyminen
 Laajenna liiketoimintamahdollisuuksia [!INCLUDE[d365fin](includes/d365fin_md.md)]illa.  
@@ -26,7 +26,7 @@ Jos pilviratkaisut, Office 365, SharePoint, toimialakohtaiset ratkaisut, analyti
 
 ## <a name="get-started"></a>Aloitus
 
-Valmis aloittamaan -ohjelma on yksi tapa aloittaa [!INCLUDE [prodshort](includes/prodshort.md)] -jälleenmyyjänä toimiminen. Voit myös ottaa yhteyttä oman maasi tai alueesi Microsoft-toimipisteeseen. Saat lisätietoja käytettävissäsi olevista resursseista "Valmiina lähtöön"-ohjelman kautta. Katso [aka.ms/readytogo](https://aka.ms/readytogo), [Jälleenmyy erilaisia ratkaisuja](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-reseller) ja [Aloita jälleenmyyjänä](/dynamics365/business-central/dev-itpro/index#get-started-as-a-reseller).  
+Valmis aloittamaan -ohjelma on yksi tapa aloittaa [!INCLUDE[prodshort](includes/prodshort.md)] -jälleenmyyjänä toimiminen. Voit myös ottaa yhteyttä oman maasi tai alueesi Microsoft-toimipisteeseen. Saat lisätietoja käytettävissäsi olevista resursseista "Valmiina lähtöön"-ohjelman kautta. Katso [aka.ms/readytogo](https://aka.ms/readytogo), [Jälleenmyy erilaisia ratkaisuja](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-reseller) ja [Aloita jälleenmyyjänä](/dynamics365/business-central/dev-itpro/index#get-started-as-a-reseller).  
 
 ## <a name="see-also"></a>Katso myös
 

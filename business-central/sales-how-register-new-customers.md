@@ -1,8 +1,6 @@
 ---
 title: Uusien asiakkaiden rekisteröinti asiakkaan kortin luonnin avulla | Microsoft Docs
 description: Tässä ohjeaiheessa kerrotaan, miten asiakkaan kortti luodaan rekisteröimään tietoja kustakin uudesta asiakkaasta, jolle myyt.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,26 +8,32 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client
-ms.date: 04/27/2020
+ms.date: 06/24/2020
 ms.author: sgroespe
-ms.openlocfilehash: 3b56b4009e08085bb232b050790aa03acf2aa4cf
-ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
+ms.openlocfilehash: cc48c7c55edac8af9333dd04661a828c528621b8
+ms.sourcegitcommit: 63102669366eb26f9c32729848170bc2e5c4d6ae
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3324268"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "3503971"
 ---
 # <a name="register-new-customers"></a>Uusien asiakkaiden rekisteröinti
+
 Asiakkaat ovat tulonlähteesi. Jokainen asiakas, jolle myyt, on rekisteröitävä asiakaskorttina. Asiakkaan kortit sisältävät tietoja, jotka tarvitaan tuotteiden asiakkaalle myymistä varten. Lisätietoja on kohdissa [Myynnin laskutus](sales-how-invoice-sales.md) ja [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md).  
 
 Ennen kuin voit rekisteröidä uusia asiakkaita, sinun on määritettävä myyntikoodit, jotka voidaan valita asiakkaiden korttien täyttämisen yhteydessä. Lisätietoja on kohdassa [Myynnin määrittäminen](sales-setup-sales.md).
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
+## <a name="adding-new-customers"></a>Uusien asiakkaiden lisääminen
+
+Uusi asiakas rekisteröidään täyttämällä asiakaskortti. Eri asiakasprofiileille voi luoda mallit tai asiakkaat voidaan lisätä ilman malleja.  
+
 > [!NOTE]  
 > Jos eri asiakastyypeille on olemassa asiakasmalleja, sivu avautuu, kun luot uuden asiakkaan kortin, jossa voit valita haluamasi mallin. Jos vain yksi asiakasmalli on olemassa, uudet asiakaskortit käyttävät aina kyseistä mallia.  
 
-## <a name="to-create-a-new-customer-card"></a>Uuden asiakkaan kortin luominen
+### <a name="to-create-a-new-customer-card"></a>Uuden asiakkaan kortin luominen
+
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Asiakkaat** ja valitse sitten liittyvä linkki.  
 2. Valitse **Asiakkaat** -sivulla **Uusi**-toiminto.
 
@@ -44,12 +48,10 @@ Ennen kuin voit rekisteröidä uusia asiakkaita, sinun on määritettävä myynt
 
 Asiakas on nyt rekisteröity, ja asiakkaan kortti on valmis käytettäväksi myyntiasiakirjoissa.
 
-### <a name="deleting-customer-cards"></a>Asiakaskorttien poistaminen
-Jos olet kirjannut asiakkaalle tapahtuman, et voi poistaa korttia, koska nimiketapahtumia voi tarvita valvontaan. Voit poistaa asiakaskortin, jossa on tapahtumakirjauksia ottamalla yhteyttä Microsoft-kumppaniin koodin avulla.
+Jos haluat käyttää tätä asiakkaan korttia mallina, kun luot uusia asiakkaan kortteja, tallenna se mallina. Lisätietoja on seuraavassa osassa.  
 
-Jos haluat käyttää tätä asiakkaan korttia mallina, kun luot uusia asiakkaan kortteja, tallenna se mallina. Lisätietoja on seuraavassa osassa.
+### <a name="to-save-the-customer-card-as-a-template"></a>Asiakkaan kortin tallentaminen mallina
 
-## <a name="to-save-the-customer-card-as-a-template"></a>Asiakkaan kortin tallentaminen mallina
 1. Valitse **Asiakkaan kortti** -sivulla **Tallenna mallina** -toiminto. **Asiakasmalli**-sivu avautuu ja näyttää asiakaskortin mallina.
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Voit käyttää dimensioita malleina valitsemalla **Dimensiot**-toiminnon. **Dimensiomallit**-sivu avautuu. Se sisältää kaikki asiakkaalle määritetyt dimensiokoodit.
@@ -58,10 +60,15 @@ Jos haluat käyttää tätä asiakkaan korttia mallina, kun luot uusia asiakkaan
 
 Asiakasmalli lisätään asiakasmallien luetteloon niin, että sen avulla voit luoda uusia asiakkaiden kortteja.
 
+## <a name="deleting-customer-cards"></a>Asiakaskorttien poistaminen
+
+Jos olet kirjannut asiakkaalle tapahtuman, et voi poistaa korttia, koska nimiketapahtumia voi tarvita valvontaan. Voit poistaa asiakaskortin, jossa on tapahtumakirjauksia ottamalla yhteyttä Microsoft-kumppaniin koodin avulla.  
+
 ## <a name="see-also"></a>Katso myös
+
 [Maksutapojen määrittäminen](finance-payment-methods.md)  
 [Tietueiden kaksoiskappaleiden yhdistäminen](sales-how-merge-duplicate-records.md)  
 [Numerosarjojen luominen](ui-create-number-series.md)  
-[Myynti](sales-manage-sales.md)    
-[Myynnin määrittäminen](sales-setup-sales.md)    
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[Myynti](sales-manage-sales.md)  
+[Myynnin määrittäminen](sales-setup-sales.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  

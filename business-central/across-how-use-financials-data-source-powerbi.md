@@ -10,14 +10,14 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4f140303f037ea4a914cba1ded44fd453bcdfabb
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: b42437f0759ecb6d977797b31222bfa2b88cdb13
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187890"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528460"
 ---
-# <a name="using-prodlong-as-power-bi-data-source-for-building-reports"></a>[!INCLUDE [prodlong](includes/prodlong.md)]in käyttö Power BI:n tietolähteenä raportteja luotaessa
+# <a name="using-prodlong-as-power-bi-data-source-for-building-reports"></a>[!INCLUDE[prodlong](includes/prodlong.md)]in käyttö Power BI:n tietolähteenä raportteja luotaessa
 
 Voit määrittää [!INCLUDE[prodlong](includes/prodlong.md)]in tiedot käytettäviksi Power BI:n tietolähteenä ja tehokkaiden liiketoiminnan tilasta kertovien raporttien luomista varten.  
 
@@ -27,24 +27,24 @@ Sinulla on oltava kelvollinen [!INCLUDE[prodshort](includes/prodshort.md)]- ja P
 
 1. Valitse Power BI Desktopin vasemmassa siirtymisruudussa **Nouda tiedot**.
 2. Valitse **Nouda tiedot** -sivulla **Online Services**. Valitse sitten **Microsoft Dynamics 365 Business Central** ja valitse lopuksi **Muodosta yhteys** -painike.
-3. Power BI avaa ohjatun toiminnon, joka auttaa yhteyden muodostusprosessissa. Tähän kuuluu myös sovellukseen [!INCLUDE [prodshort](includes/prodshort.md)] kirjautuminen. Valitse **Kirjaudu sisään**ja valitse sitten haluamasi tili. Käytä samaa tiliä, jonka avulla kirjaudut sisään sovellukseen [!INCLUDE [prodshort](includes/prodshort.md)].
-4. Jatka valitsemalla **Muodosta yhteys**. Ohjatussa Power BI -toiminnossa on luettelo Microsoft [!INCLUDE[d365fin](includes/d365fin_md.md)]:n ympäristöistä, yrityksistä ja tietolähteistä. Nämä tietolähteet viittaavat kaikkiin sovelluksesta [!INCLUDE [prodshort](includes/prodshort.md)] julkaistuihin verkkopalveluihin.
+3. Power BI avaa ohjatun toiminnon, joka auttaa yhteyden muodostusprosessissa. Tähän kuuluu myös sovellukseen [!INCLUDE[prodshort](includes/prodshort.md)] kirjautuminen. Valitse **Kirjaudu sisään**ja valitse sitten haluamasi tili. Käytä samaa tiliä, jonka avulla kirjaudut sisään sovellukseen [!INCLUDE[prodshort](includes/prodshort.md)].
+4. Jatka valitsemalla **Muodosta yhteys**. Ohjatussa Power BI -toiminnossa on luettelo Microsoft [!INCLUDE[d365fin](includes/d365fin_md.md)]:n ympäristöistä, yrityksistä ja tietolähteistä. Nämä tietolähteet viittaavat kaikkiin sovelluksesta [!INCLUDE[prodshort](includes/prodshort.md)] julkaistuihin verkkopalveluihin.
 
-    Voit myös luoda uuden verkkopalvelun URL-osoitteen sovelluksessa [!INCLUDE [prodshort](includes/prodshort.md)]. Valitse yksi seuraavista menetelmistä.
+    Voit myös luoda uuden verkkopalvelun URL-osoitteen sovelluksessa [!INCLUDE[prodshort](includes/prodshort.md)]. Valitse yksi seuraavista menetelmistä.
 
       - Käytä **Luo tietojoukkoa** -toiminto **Verkkopalvelut**-sivulla
       - Käytä **raportoinnin määrityksen** asetusten ohjattua määritysopasta
       - Valitse **Muokkaa Excelissä** -toiminto luetteloista
 
 5. Määritä tietomalliin lisättävät tiedot ja valitse sitten **Lataa**-painike.
-6. Lisää uusia [!INCLUDE [prodshort](includes/prodshort.md)]in tai muita tietoja Power BI -tietomalliin toistamalla edellä olevat vaiheet.
+6. Lisää uusia [!INCLUDE[prodshort](includes/prodshort.md)]in tai muita tietoja Power BI -tietomalliin toistamalla edellä olevat vaiheet.
 
 > [!NOTE]  
-> Kun yhteys [!INCLUDE [prodshort](includes/prodshort.md)]iin on muodostettu, sinua ei pyydetä kirjautumaan uudelleen.
+> Kun yhteys [!INCLUDE[prodshort](includes/prodshort.md)]iin on muodostettu, sinua ei pyydetä kirjautumaan uudelleen.
 
-Kun tiedot on ladattu, ne näkyvät sivun oikeassa siirtymisruudussa. Olet muodostanut yhteyden sovelluksen [!INCLUDE [prodshort](includes/prodshort.md)] tietoihin ja voit aloittaa oman Power BI -raportin luomisen.  
+Kun tiedot on ladattu, ne näkyvät sivun oikeassa siirtymisruudussa. Olet muodostanut yhteyden sovelluksen [!INCLUDE[prodshort](includes/prodshort.md)] tietoihin ja voit aloittaa oman Power BI -raportin luomisen.  
 
-[!INCLUDE [prodshort](includes/prodshort.md)] -teematiedosto kannattaa tuoda ennen raportin luontia.  Teematiedosto luo värivalikoiman, jonka avulla voit luoda raportteja samalla värityylillä kuin [!INCLUDE [prodshort](includes/prodshort.md)] -sovelluksissa ilman, että kunkin visuaalisen ominaisuuden mukautetut värit on määritettävä erikseen.
+[!INCLUDE[prodshort](includes/prodshort.md)] -teematiedosto kannattaa tuoda ennen raportin luontia.  Teematiedosto luo värivalikoiman, jonka avulla voit luoda raportteja samalla värityylillä kuin [!INCLUDE[prodshort](includes/prodshort.md)] -sovelluksissa ilman, että kunkin visuaalisen ominaisuuden mukautetut värit on määritettävä erikseen.
 
 Lisätietoja on [Power BI -dokumentaatiossa](/power-bi/consumer/).
 

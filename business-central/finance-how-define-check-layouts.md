@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: print check, customize
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 479281e24bffb824f9fc8499bb34ab6b11311a52
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 8346e8a868f73d3de729a56e86530048c58229aa
+ms.sourcegitcommit: 3945f16d6d9c9853651e6291ce1465a44fd71fc8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183666"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "3458918"
 ---
 # <a name="select-a-check-layout"></a>Sekin asettelun valitseminen
 Voit suunnitella omat sekit, joiden avulla pystyt noudattamaan paikallisten viranomaisten määrittämiä standardeja. Sekkikuvat voidaan tulostaa englannin-, ranskan ja espanjankielisinä.
@@ -54,6 +54,9 @@ Seuraavassa on yhteenveto MICR E-13B -fonteista, joista voi olla hyötyä, kun f
 
 ![MICR E-13B -määritykset](media/font_MICR_E-13B_Specifications.png "MICR E-13B -määritykset")
 
+### <a name="delimiter-characters"></a>Erottimen merkit
+![Erottimen merkit](media/font-micr-letters.png "Erottimen merkit")
+
 MICR E-13B -fonttien kokomääritys löytyy toimittajan dokumentaatiosta täältä: (https://www.idautomation.com/micr-fonts/e13b/).
 
 ### <a name="micr-cmc-7-specifications"></a>MICR CMC-7 -määritykset
@@ -67,6 +70,9 @@ Seuraavat CMC-7 -fontit ovat käytettävissä [!INCLUDE[d365fin](includes/d365fi
 Seuraavassa on yhteenveto MICR CMC-7 -fonteista, joista voi olla hyötyä, kun fontteja kalibroidaan sekkiasetteluissa tiettyjen MICR-tulostimien avulla.
 
 ![MICR CMC-7 -määritykset](media/font_MICR_CMC-7_Specifications.png "MICR CMC-7 -määritykset")
+
+### <a name="delimiter-characters"></a>Erottimen merkit
+![Erottimen merkit](media/font-cmc7-letters.png "Erottimen merkit")
 
 MICR CMC-7 -fonttien kokomääritys löytyy toimittajan dokumentaatiosta täältä: (http://www.idautomation.com/micr-fonts/cmc7/).
 

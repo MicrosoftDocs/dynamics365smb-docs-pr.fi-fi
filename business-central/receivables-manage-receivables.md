@@ -1,8 +1,6 @@
 ---
 title: Myyntisaamisten hallintatehtävien yleiskatsaus | Microsoft Docs
 description: Ohjeaiheessa kerrotaan tehtävistä, joilla hallitaan myyntisaamisia ja kohdistetaan maksuja asiakas- ja toimittajatapahtumiin.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer payment, debtor, balance due, AR
-ms.date: 04/01/2020
+ms.date: 06/19/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4d9431ba233f1fa304fab589a3dc85e831e53217
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 7775ae9f007733d366566dd5137add30e3f62059
+ms.sourcegitcommit: 0c6f4382fad994fb6aea9dcde3b2dc25382c5968
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191905"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "3484209"
 ---
 # <a name="managing-receivables"></a>Myyntisaamisten hallinta
+
 Säännöllinen vaihe missä tahansa rahoituskierrossa on pankkitilien täsmäyttäminen, mikä edellyttää saapuvien maksujen kohdistamista asiakas- tai toimittajatapahtumiin, jotta myyntilaskut tai ostohyvityslaskut voidaan sulkea maksettuina.
 
 Useimmat asiakkaat yritysympäristöissä maksavat jonkin aikaa toimituksen jälkeen jättäen kirjatun myyntilaskun avoimeksi myyntireskontraosaston suljettavaksi (kohdistettavaksi) kun maksu vastaanotetaan. Jotkin myyntilaskut voidaan kuitenkin maksaa heti esimerkiksi PayPal-maksuna. Tällaiset laskut kohdistetaan välittömästi maksetuiksi kirjaamisen yhteydessä ja siksi ne eivät näy myyntireskontralle käsiteltävinä maksuina. Lisätietoja on esimerkiksi kohdassa [Myynnin laskutus](sales-how-invoice-sales.md).  
@@ -32,7 +31,7 @@ On olemassa muita sivuja, joissa voit joko kohdistaa maksuja tai täsmäyttää 
 * Voit kohdistaa manuaalisesti **Maksurekisteröinti**-sivulla käteisenä, sekkinä tai pankkitapahtumana vastaanotetut maksut maksamattomia myyntiasiakirjoja vastaan. Huomaa, että tämä toiminto on käytettävissä vain myyntiasiakirjoja varten. Tässä ei voi kohdistaa lähteviä maksuja eikä täsmäyttää pankkitilejä.
 * **Kassapäiväkirja**-sivulla, jossa vastaanotot kirjataan antamalla manuaalisesti maksurivi soveltuvaan pääkirjaan tai soveltuvalle asiakkaalle tai toiselle tilille. Voit kohdistaa vastaanoton tai hyvityksen yhteen avoimeen tapahtumaan tai useisiin avoimiin tapahtumiin, ennen kuin kirjaat kassapäiväkirjan. Voit tehdä kohdistuksen myös asiakastapahtumista. Tässä ei voi täsmäyttää pankkitilejä.
 
-**Maksujen täsmäytyskirjauskansio**- ja **Pankkitilin täsmäytys**- sivuilla käytetään automaattista täsmäytyslogiikkaa, jonka voit määrittää **Maksusovelluksen säännöt** -sivulla. Lisätietoja on kohdassa [Määritä sääntöjä maksujen automaattiselle soveltamiselle](receivables-how-set-up-payment-application-rules.md).
+**Maksujen täsmäytyskirjauskansio** -sivulla käytetään automaattista täsmäytyslogiikkaa, jonka voi määrittää **Maksusovelluksen säännöt** -sivulla. Lisätietoja on kohdassa [Määritä sääntöjä maksujen automaattiselle soveltamiselle](receivables-how-set-up-payment-application-rules.md).  
 
 Myyntisaamisten hallinnassa kerätään myös avoimet saldot, kuten viivästyskulut, ja lähetetään muistutuksia sekä määritetään pankkitilit sallimaan asiakkaiden maksujen nostamien heidän tileiltään automaattisesti.
 

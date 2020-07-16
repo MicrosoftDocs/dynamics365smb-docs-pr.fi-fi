@@ -8,24 +8,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/25/2020
 ms.author: sgroespe
-ms.openlocfilehash: ddd5ae8f701caab38b11072f3eb8bd61cfc9d251
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 6ad45590d0581ea8888918a8306e2dfcfe82439c
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189265"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527806"
 ---
 # <a name="business-process-walkthroughs"></a>Liiketoimintaprosessien vaihekuvaukset
+
 Näissä vaihekuvauksissa käsitellään yksityiskohtaisesti ja kattavasti liiketoimintaprosesseja, joita voi käyttää CRONUS Finland Oy -esittely-yrityksen avulla. Vaihekuvaukset koostuvat useista toimenpiteistä, joista osan voi normaalisti suorittaa yksi käyttäjä, kun taas muihin liittyy useita erilaisia käyttäjärooleja. Jotta työympäristöstä saadaan asianmukainen, vaihekuvaukset voivat sisältää erityisiä määritysvaiheita. Ne täytyy suorittaa ohjeiden mukaisesti ennen harjoitusten tekemistä. Nämä vaiheet voivat antaa käsityksen siitä, millaisia tietoja käyttäjien on kerrottava yrityksensä tietotekniikan ammattilaisille.  
 
  Näiden vaihekuvausten tilanteet ovat luonteeltaan kattavia, ja vaihekuvauksista onkin eniten hyötyä, kun niissä esitetyt toimet suoritetaan alusta loppuun. Monet kuvaukset perustuvat [!INCLUDE[d365fin](includes/d365fin_md.md)] -esittelyihin, ja voit kokeilla toimintaohjeita sinulle sopivaan tahtiin.  
 
 > [!NOTE]
-> Joissakin vaihekuvauksissa käytetään esittelytietoja, jotka eivät ole käytettävissä tavallisessa CRONUS-yrityksessä. Kyseissä vaihekuvauksissa vaiheet on suoritettava siinä yrityksessä, joka luotiin asetuksessa**Täydellinen arviointi - Kaikki mallitiedot**, joka on käytettävissä Sandbox-ympäristössä. Lisätietoja on kohdassa [Sandbox-ympäristön luominen](across-how-create-sandbox-environment.md).
+> Joissakin vaihekuvauksissa tarvitaan näytetietoja, joita ei ole saatavana [!INCLUDE[prodshort](includes/prodshort.md)]in oletusesittely-yrityksessä. Lisätietoja on kohdassa [Täydelliset näytetiedot sisältävän yrityksen luonti eristysympäristössä](across-how-create-sandbox-environment.md#to-create-a-company-with-complete-sample-data-in-a-sandbox).
 
-|Vastaanottaja|Katso|  
+|Tehtävä|Katso|  
 |--------|---------|  
 |Markkinointikampanjan määrittäminen.|[Vaihekuvaus: Myyntikampanjan suorittaminen](walkthrough-conducting-a-sales-campaign.md)|  
 |Hallitse myynnin ja ostojen osamaksuja ennakkomaksujen avulla. **Tarvitaan täydelliset esimerkkitiedot** |[Vaihekuvaus: Myynnin ennakkomaksujen määrittäminen ja laskuttaminen](walkthrough-setting-up-and-invoicing-sales-prepayments.md)|  
@@ -41,6 +42,7 @@ Näissä vaihekuvauksissa käsitellään yksityiskohtaisesti ja kattavasti liike
 |Suorita vikojen hallinta. **Tarvitaan täydelliset esimerkkitiedot**|[Vaihekuvaus: Sarja-/eränumeroiden jäljitys](walkthrough-tracing-serial-lot-numbers.md)|  
 
 ## <a name="see-also"></a>Katso myös
+
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

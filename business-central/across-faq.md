@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 04/01/2020
+ms.date: 06/25/2020
 ms.author: edupont
-ms.openlocfilehash: 9c6e162e8b8146c59c135b669566594ca67be7dc
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 865a7511a086d38ae1edeabb008557a7101498ff
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188682"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528083"
 ---
 # <a name="frequently-asked-questions"></a>Usein kysytyt kysymykset
 
@@ -22,13 +22,13 @@ Tässä osassa on vastauksia [!INCLUDE[d365fin](includes/d365fin_md.md)]in kokei
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] on saatavana vain tietyillä markkina-alueilla, mutta uusia maita lisätään Microsoftin tai kumppanien johtamina lokalisointeina neljännesvuosittain. Lisätietoja on kohdassa [Saatavuus maassa/alueella ja tuetut käännökset](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) (saatavilla vain englanniksi).  
 
-## <a name="how-do-i-get-prodshort"></a>[!INCLUDE [prodshort](includes/prodshort.md)]in hankkiminen
+## <a name="how-do-i-get-prodshort"></a>[!INCLUDE[prodshort](includes/prodshort.md)]in hankkiminen
 
-Voit tutustua [!INCLUDE [prodshort](includes/prodshort.md)]iin rekisteröitymällä maksuttomaan kokeiluversioon. [!INCLUDE [free_trial_md](includes/free_trial_md.md)] Jos haluat enemmän aikaa ratkaisuun perehtymiseen, [voit jatkaa kokeilujaksoa](#can-i-extend-my-30-day-new-company-trial-period).  
+Voit tutustua [!INCLUDE[prodshort](includes/prodshort.md)]iin rekisteröitymällä maksuttomaan kokeiluversioon. [!INCLUDE[free_trial_md](includes/free_trial_md.md)] Jos haluat enemmän aikaa ratkaisuun perehtymiseen, [voit jatkaa kokeilujaksoa](#can-i-extend-my-30-day-new-company-trial-period).  
 
-Pääset [!INCLUDE [prodshort](includes/prodshort.md)]in käytön alkuun käynnistämällä asetusten ohjatut määritysoppaat, videot tai valitut asennustehtävien ohjeaiheet. Lisätietoja on kohdassa [Valmistautuminen liiketoimintaan](ui-get-ready-business.md).  
+Pääset [!INCLUDE[prodshort](includes/prodshort.md)]in käytön alkuun käynnistämällä asetusten ohjatut määritysoppaat, videot tai valitut asennustehtävien ohjeaiheet. Lisätietoja on kohdassa [Valmistautuminen liiketoimintaan](ui-get-ready-business.md).  
 
-Kun olet valmis ostamaan [!INCLUDE [prodshort](includes/prodshort.md)]in, voit etsiä [!INCLUDE [prodshort](includes/prodshort.md)]in kumppanin [Ratkaisutoimittajien haku](https://go.microsoft.com/fwlink/?linkid=2038145) -sivulla. Lisätietoja on kohdassa [Miten löydän jälleenmyyjäpartnerin?](#findpartner).  
+Kun olet valmis ostamaan [!INCLUDE[prodshort](includes/prodshort.md)]in, voit etsiä [!INCLUDE[prodshort](includes/prodshort.md)]in kumppanin [Ratkaisutoimittajien haku](https://go.microsoft.com/fwlink/?linkid=2038145) -sivulla. Lisätietoja on kohdassa [Miten löydän jälleenmyyjäpartnerin?](#findpartner).  
 
 ## <a name="where-do-i-go-if-i-have-questions"></a>Mistä saan tarvittaessa lisätietoja?
 Jos sinulla on sellaisia [!INCLUDE[d365fin](includes/d365fin_md.md)]ia koskevia kysymyksiä, joihin ei ole vastauksia tässä dokumentaatiossa, voit kysyä asiaa Business Central -yhteisöltä. Lisätietoja on kohdassa [Dynamics 365 Business Central -yhteisö](https://community.dynamics.com/business).  
@@ -50,7 +50,7 @@ Kyllä saat. Maksutonta eLearning-sisältöä voi etsiä [Microsoft Learn sivust
 
 Lisätietoja Microsoftin tarjoamasta Dynamics 365 -koulutuksesta on [Microsoft Dynamics 365 -koulutuksen](/dynamics365/get-started/training/index#dynamics-365-customers) -sivulla.  
 
-[!INCLUDE [prodshort](includes/prodshort.md)] -yhteisö antaa lisäsisältöä, kuten [Microsoftin Dynamics 365 Business Central -kenttäoppaan](https://leanpub.com/dynamics), jonka on kirjoittanut jokin toinen osapuoli.  
+[!INCLUDE[prodshort](includes/prodshort.md)] -yhteisö antaa lisäsisältöä, kuten [Microsoftin Dynamics 365 Business Central -kenttäoppaan](https://leanpub.com/dynamics), jonka on kirjoittanut jokin toinen osapuoli.  
 
 ## <a name="how-do-i-get-technical-support-for-d365fin"></a><a name="hdigetsupport"></a>Miten saan teknistä tukea [!INCLUDE[d365fin](includes/d365fin_md.md)]:lle?
 
@@ -101,18 +101,26 @@ Kyllä. Jos käytät sitä, tarvitset sovelluksen salasanan, jotta voit lähett�
 
 ## <a name="how-do-i-find-a-reselling-partner"></a><a name="findpartner"></a>Miten löydän jälleenmyyjäkumppanin?
 
-[!INCLUDE [prodshort](includes/prodshort.md)] myydään ja otetaan käyttöön hyödyntämällä maailmanlaajuista Dynamics 365 -kumppanien asiantuntijaverkostoa. Ota yhteyttä kumppaniin yksityiskohtaiselle arvioinnille, konsultointi palveluille ja lisä hinnoille. Lisätietoja on [microsoft.comin Dynamics 365 Business Central -sivun](https://dynamics.microsoft.com/business-central/overview/) **Hinnoittelu**-osassa.  
+[!INCLUDE[prodshort](includes/prodshort.md)] myydään ja otetaan käyttöön hyödyntämällä maailmanlaajuista Dynamics 365 -kumppanien asiantuntijaverkostoa. Ota yhteyttä kumppaniin yksityiskohtaiselle arvioinnille, konsultointi palveluille ja lisä hinnoille. Lisätietoja on [microsoft.comin Dynamics 365 Business Central -sivun](https://dynamics.microsoft.com/business-central/overview/) **Hinnoittelu**-osassa.  
 
-Kun olet valmis ostamaan [!INCLUDE [prodshort](includes/prodshort.md)]in, voit etsiä [!INCLUDE [prodshort](includes/prodshort.md)]in kumppanin [Ratkaisutoimittajien haku](https://go.microsoft.com/fwlink/?linkid=2038145) -sivulla. Voit myös etsiä ratkaisuja ja palveluita kumppaneilta [Microsoft AppSourcessa](https://go.microsoft.com/fwlink/?linkid=845998).  
+Kun olet valmis ostamaan [!INCLUDE[prodshort](includes/prodshort.md)]in, voit etsiä [!INCLUDE[prodshort](includes/prodshort.md)]in kumppanin [Ratkaisutoimittajien haku](https://go.microsoft.com/fwlink/?linkid=2038145) -sivulla. Voit myös etsiä ratkaisuja ja palveluita kumppaneilta [Microsoft AppSourcessa](https://go.microsoft.com/fwlink/?linkid=845998).  
 
 Jos haluat opastusta Microsoftilta, ota yhteyttä [Microsoftin myyntitiimiin](https://go.microsoft.com/fwlink/?linkid=828707).  
 
-Jälleenmyyjäkumppanisi voi myös antaa teknistä tukea sinulle. Lisätietoja on kohdassa [Resurssit ohjeelle ja tuelle](product-help-and-support.md).
+Jälleenmyyjäkumppanisi voi myös antaa teknistä tukea sinulle. Lisätietoja on kohdassa [Resurssit ohjeelle ja tuelle](product-help-and-support.md).  
+
+## <a name="why-is-new-information-not-available-in-my-language"></a>Miksi uudet tiedot eivät ole saatavana kielelläni?
+
+Liiketoimintatoimintojen sisältöä julkaistaan useilla kielillä docs.microsoft.com-sivustossa. Sisältö on kirjoitetaan englanniksi ja julkaistaan URL-osoitteissa, joiden kielikoodi on *en-us*. Englanniksi kirjoitetut uudet tiedot lähetetään sitten käännettäviksi tuetuille kielille. Tämän vuoksi uusi sisältö ei ole luettavissa omalla kielellä jopa 4 viikkoon.  
+
+Tiedostamme, että tämä voi aiheuttaa ongelmia, ja kannustamme etsimään tietoja englanninkielisestä sisällöstä, jos sitä ei löydy omalla kielellä.  
 
 ## <a name="is-the-windows-client-supported"></a>Tuetaanko Windows-työasemaohjelmaa?
+
 [!INCLUDE[prodshort](includes/prodshort.md)]-ohjelman ensimmäiset versiot sisälsivät asennetun asiakkaan, joka on johdettu Microsoft Dynamics NAV -ohjelmasta. Tämä vanha komponentti, johon viitataan nimellä "Windows-asiakasohjelma", ei enää ole saatavilla vuoden 2019 2. julkaisuaallon [!INCLUDE[prodshort](includes/prodshort.md)] -versiosta lähtien. Lisätietoja on ohjeaiheessa [Windows-työasemaohjelman ja Business Centralin usein kysytyt kysymykset](/dynamics365/business-central/dev-itpro/faq-win-cli).
 
 ## <a name="see-also"></a>Katso myös
+
 [Käytön aloittaminen](product-get-started.md)  
 [Kerro, mitä haluat tehdä -toiminnon usein kysytyt kysymykset](ui-search-faq.md)  
 [Usein kysyttyjen kysymysten haku ja suodatus](ui-search-filter-faq.md)  

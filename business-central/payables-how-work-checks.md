@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 04/01/2020
+ms.date: 06/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: 12de08f6163c141a2c2e8669a814616b2b5fc04b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: bf52a225d458f19651d79e82bac2a6b0f593f82c
+ms.sourcegitcommit: 63102669366eb26f9c32729848170bc2e5c4d6ae
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190225"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "3503796"
 ---
 # <a name="make-check-payments"></a>Sekkimaksujen suorittaminen
+
 Voit myöntää sähköisiä ja manuaalisia sekkejä [!INCLUDE[d365fin](includes/d365fin_md.md)]issa. Molemmissa menetelmissä sekit myönnetään toimittajille maksupäiväkirjaa käyttäen. Ohjelman avulla voit myös mitätöidä sekkejä ja tarkastella sekkitapahtumia.
 
 Seuraavassa kuvataan, miten voit maksaa toimittajalle tietokonesekillä kohdistamalla maksun asianmukaiseen toimittajalaskuun, tulostamalla sekin ja kirjaamalla maksun maksetuksi. Näin saadaan positiivinen toimittajatapahtuma, joka kohdistetaan negatiiviseen pankkitilitapahtumaan sekä fyysinen sekki pankin käsittelyä varten.
@@ -30,7 +31,8 @@ Voit maksaa kahdella eri tyyppisellä sekillä. Molemmissa tyypeissä **Vastatil
 > [!NOTE]  
 > Voit varmistaa lähettämällä toimittaja-, sekki- ja maksutiedot sisältävän tiedoston, että pankki vahvistaa vain tarkistetut sekit ja summat. Lisätietoja on kohdassa [Positive Pay -tiedostojen vieminen](finance-how-positive-pay.md).
 
-Tulostin on määritettävä oikein sekkimuotoja varten. Myös käytettävä sekkien asettelu on määritettävä. Lisätietoja on kohdassa [Sekin asettelun valitseminen](finance-how-define-check-layouts.md)
+> [!IMPORTANT]
+> Tulostin on määritettävä oikein sekkimuotoja varten. Myös käytettävä sekkien asettelu on määritettävä. Lisätietoja on kohdassa [Sekin asettelun valitseminen](finance-how-define-check-layouts.md). Vaihtoehtoisesti sekki voidaan lähettää esimerkiksi PDF-tiedostona.  
 
 Voit tulostaa sivulle enintään 10 laskua sekin talonkia kohti. Jos sekki koskee yli 10 laskua, sekki mitätöidään talongin tulostuksen yhteydessä ensimmäisellä sivulla ja sekkiin tulostetaan sana MITÄTÖITY. Tämän jälkeen toiselle sivulle tulostetaan loput laskut ja sekin kokonaissumma.
 
@@ -43,7 +45,7 @@ Seuraavassa kuvataan, miten toimittajalle maksetaan sekillä. Vaiheet ovat saman
 4. Valitse **Pankkimaksun tyyppi** -kentässä **Tietokonesekki**.
 5. Valitse **Tulosta sekki** -toiminto.
 6. Täytä **Sekki**-sivulla tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-7. Valitse **Lähetä kohteeseen** -painike, sitten **PDF-tiedosto**-asetus ja valitse sitten **OK**-painike.
+7. Jos tulostin on määritetty tulostamaan sekkejä, valitse **Tulosta**-painike. Valitse muussa tapauksessa ensin **Lähetä kohteeseen** -painike, sitten **PDF-tiedosto**-asetus, lopuksi **OK**-painike ja tulosta PDF-tiedosto sitten.
 
     Fyysiset sekit voidaan nyt viedä pankkiin käsittelyä varten. Jatka maksun kirjaamiseen kohdistuksen mukaan toimittajalle ja maksun suorittamiseksi järjestelmässä.
 8. Valitse **Kirjaa**-toiminto.

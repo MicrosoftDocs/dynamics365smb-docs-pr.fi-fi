@@ -11,12 +11,12 @@ ms.reviewer: edupont
 ms. search.keywords: cloud, edge
 ms.date: 04/01/2020
 ms.author: bmeier
-ms.openlocfilehash: e3fccf0fbbc0031c0b2bf4dc73059bece1c465f4
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c2c30715c730aec51f31f80ea95fd896cb1b257f
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188922"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528861"
 ---
 # <a name="intelligent-insights-with-prodshort-online"></a>Älykkäät tiedot tuotteessa [!INCLUDE[prodshort](includes/prodshort.md)] Online
 
@@ -24,7 +24,7 @@ ms.locfileid: "3188922"
 
 Jos olet kiinnostunut tuotteesta [!INCLUDE[prodshort](includes/prodshort.md)], voit rekisteröityä ilmaiselle kokeilujaksolle tai voit työskennellä kumppanin kanssa niin, että [!INCLUDE[prodshort](includes/prodshort.md)] asennetaan valitsemallesi paikalliselle kovalevylle. Voit sitten saada älykkäät tiedot yhdistämällä vuokraajaan pilvipalvelussa. Tuloksena paikallisesti käyttöönotetun [!INCLUDE[prodshort](includes/prodshort.md)] -sovelluksen tiedot replikoidaan älykkään pilven skenaarioiden pilveen.  
 
-Yhteyden muodostaminen paikallisesta ratkaisusta älykkääseen pilveen edellyttää, että järjestelmänvalvoja määrittää tietokantaa koskevat tiedot. Paikallisesti käyttöönotetun [!INCLUDE [prodshort](includes/prodshort.md)] online-tilan yhdistämiseen käytettävät työkalut ovat samat, joita käytetään myös siirtoon paikallisesta online-tilaan. Lisätietoja on kohdassa [Paikallisten tietojen siirtäminen Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) -ohjelmaan [!INCLUDE[prodshort](includes/prodshort.md)]-hallintasisällössä .  
+Yhteyden muodostaminen paikallisesta ratkaisusta älykkääseen pilveen edellyttää, että järjestelmänvalvoja määrittää tietokantaa koskevat tiedot. Paikallisesti käyttöönotetun [!INCLUDE[prodshort](includes/prodshort.md)] online-tilan yhdistämiseen käytettävät työkalut ovat samat, joita käytetään myös siirtoon paikallisesta online-tilaan. Lisätietoja on kohdassa [Paikallisten tietojen siirtäminen Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) -ohjelmaan [!INCLUDE[prodshort](includes/prodshort.md)]-hallintasisällössä .  
 
 ## <a name="viewing-intelligent-cloud-insights-in-prodshort-online"></a>Älykkään pilven tietojen tarkasteleminen [!INCLUDE[prodshort](includes/prodshort.md)] -online-versiossa
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: adjustment, status, negative, positive, increase, decrease
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 944ce9e3950ea64fafada118b6f99f5d891242a5
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 8152299efea0ef07e1506d5897ff9cd27d21d21a
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182202"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3529061"
 ---
 # <a name="count-inventory-using-documents"></a>Varastojen laskenta asiakirjoja käyttämällä
 Voit inventoida nimikkeet käyttämällä inventointitilauksen ja inventointitallennuksen asiakirjoja. **Inventointitilaus**-sivulla järjestetään täydellinen inventointiprojekti, kuten yksi kussakin toimipisteessä. **Inventointitallennus**-sivun avulla ilmoitetaan ja tallennetaan nimikkeiden varsinainen inventointi. Voit luoda yhdelle tilaukselle useita  tallenteita, jolloin voit esimerkiksi jakaa nimekeryhmiä eri työntekijöille.
@@ -40,7 +40,7 @@ Inventointitilauksen rivit luodaan yleensä käyttämällä **Laske rivit** -toi
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Inventointitilausten kirjaaminen** ja valitse sitten liittyvä linkki.
 2. Valitse **Uusi**-toiminto.
-3. Täytä **Yleinen**-pikavälilehden pakolliset kentät. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Täytä **Yleinen**-pikavälilehden pakolliset kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Valitse **Laske rivit** -toiminto.
 5. Valitse tarvittavat vaihtoehdot.
 6. Määritä suodattimen, jotka esimerkiksi sisällyttävät vain ensimmäisessä tallenteessa inventoitavien nimikkeiden alijoukon.

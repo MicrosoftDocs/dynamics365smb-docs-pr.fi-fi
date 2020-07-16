@@ -1,25 +1,25 @@
 ---
 title: Vaihekuvaus – Sarja- ja eränumeroiden jäljittäminen | Microsoft Docs
-description: Kun virheellisiä tuotteita havaitaan, on tarpeen määrittää virheet ja estää virheellisiä nimikkeitä lähtemästä yrityksestä. Jos virheellisiä nimikkeitä on jo lähetetty, on selvitettävä, kuka vastaanotti kyseiset nimikkeet ja pitääkö ne kutsua takaisin.
-author: SorenGP
+description: Tässä aiheessa käsitellään viallisen nimikkeen myynnin lopettamisen toimintojen.
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: dc2a67623a55026557855b8247bf0565918e3f3c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/25/2020
+ms.author: bholtorf
+ms.openlocfilehash: e165e5fcdad0909f6ad4def81987d1837dd0c48c
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193345"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528133"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Vaihekuvaus: Sarja-/eränumeroiden jäljitys
 
-**Huomautus**: Tämä vaihekuvaus on suoritettava esittely-yrityksessä siten, että asetuksena on **Täydellinen arviointi - Kaikki mallitiedot**, joka on käytettävissä Sandbox-ympäristössä. Lisätietoja on kohdassa [Sandbox-ympäristön luominen](across-how-create-sandbox-environment.md).
+[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
 
 Kun virheellisiä tuotteita havaitaan, on tarpeen määrittää virheet ja estää virheellisiä nimikkeitä lähtemästä yrityksestä. Jos virheellisiä nimikkeitä on jo lähetetty, on selvitettävä, kuka vastaanotti kyseiset nimikkeet ja pitääkö ne kutsua takaisin.  
 
@@ -27,34 +27,38 @@ Vikojenhallinnan ensimmäinen tehtävä on tutkia mistä viallisten nimikkeiden 
 
 Toisessa vaiheessa määritetäänkö, onko jäljitettyjä nimikkeitä käytetty suunnitteluun avoimissa asiakirjoissa, kuten kirjaamattomissa myyntitilauksissa tai kulutuspäiväkirjoissa. Tämä työ tehdään **Navigoi**-sivulla. Navigoi-toiminnon avulla voit etsiä kaikenlaisia tietokantatietueita.  
 
-## <a name="about-this-walkthrough"></a>Tietoja tästä vaihekuvauksesta  
+## <a name="about-this-walkthrough"></a>Tietoja tästä vaihekuvauksesta
+
 Tässä vaihekuvauksessa kuvataan, miten virheelliset nimikkeet määritetään. Lisäksi selvitetään, mikä toimittaja toimitti virheelliset nimikkeet ja missä niitä on käytetty, joten tilaukset voidaan pysäyttää tai kutsua takaisin.  
 
 Tässä vaihekuvauksessa käsitellään seuraavia tehtäviä:  
 
--   jäljittäminen käytöstä alkuperään  
--   jäljittäminen alkuperästä käyttöön  
--   jäljitetyn sarja-/eränumeron sisältävien tietueiden hakeminen.  
+- jäljittäminen käytöstä alkuperään  
+- jäljittäminen alkuperästä käyttöön  
+- jäljitetyn sarja-/eränumeron sisältävien tietueiden hakeminen.  
 
-## <a name="roles"></a>Roolit  
+## <a name="roles"></a>Roolit
+
 Tässä vaihekuvauksessa havainnollistetaan seuraavien käyttäjäroolien tehtäviä:  
 
--   Laadunvalvontapäällikkö  
--   Varastopäällikkö  
--   Tilausten käsittelijä  
--   Ostaja  
+- Laadunvalvontapäällikkö  
+- Varastopäällikkö  
+- Tilausten käsittelijä  
+- Ostaja  
 
-## <a name="prerequisites"></a>Vaatimukset  
+## <a name="prerequisites"></a>Vaatimukset
+
 Tämän vaihekuvauksen ohjeiden noudattamisen edellytykset:  
 
--   [!INCLUDE[d365fin](includes/d365fin_md.md)] -yritys.  
--   Voit luoda uusia nimikkeitä ja useita liiketoimintatapahtumia noudattamalla kohdan [Esimerkkitietojen valmisteleminen](walkthrough-tracing-serial-lot-numbers.md#prepare-sample-data) ohjeita.  
+- [!INCLUDE[d365fin](includes/d365fin_md.md)] -yritys.  
+- Voit luoda uusia nimikkeitä ja useita liiketoimintatapahtumia noudattamalla kohdan [Esimerkkitietojen valmisteleminen](walkthrough-tracing-serial-lot-numbers.md#prepare-sample-data) ohjeita.  
 
-## <a name="story"></a>Taustatietoja  
+## <a name="story"></a>Taustatietoja
+
 Laatupäällikkö Riku käsittelee nimikkeen 1002, Kilpapyörä, myyntipalautusta. Asiakas Tinayhtymä Oy lähetti valituksen, jonka mukaan kilpapyörän rungon hitsaussaumat ovat murtuneet. Laadunvalvontainsinöörit ovat vahvistaneet, että palautetun pyörän runko on vioittunut. Laatupäällikön on nyt määritettävä seuraavat seikat:  
 
--   mikä runkoerä oli virheellinen  
--   mikä ostotilaus tuotti virheellisen erän.  
+- mikä runkoerä oli virheellinen  
+- mikä ostotilaus tuotti virheellisen erän.  
 
 Myyntiosastolta kerrotaan laatupäällikölle, että palautetun kilpapyörän (nimike 1002) sarjanumero on Snro1. Käyttämällä näitä perustietoja hänen selvitettävä, missä valmista kilpapyörää on viimeksi käytetty, ja sitten hänen on jäljitettävä taaksepäin aikaisimpaan alkuperään muodostaakseen eränumeron, josta viallinen osa (kilparunko) on tullut.  
 
@@ -62,31 +66,32 @@ Nimikkeen jäljityksen ensimmäisen tehtävän tulokset ilmaisevat, mitkä kilpa
 
 Vianhallinnan kaksi ensimmäistä tehtävää tehdään **Nimikkeen jäljitys** -sivulla. Viimeinen tehtävä tehdään **Navigoi**- ja **Nimikkeen jäljitys** -sivuilla.  
 
-## <a name="prepare-sample-data"></a>Esimerkkitietojen valmisteleminen  
+## <a name="prepare-sample-data"></a>Esimerkkitietojen valmisteleminen
+
 Sinun on luotava seuraavat uudet kohteet:  
 
--   2000, Kilpapyörän runko: eräkohtainen jäljitys, nimikkeen 1002 komponentti  
--   1002, Kilpapyörä: sarjanumerokohtainen jäljitys.  
+- 2000, Kilpapyörän runko: eräkohtainen jäljitys, nimikkeen 1002 komponentti  
+- 1002, Kilpapyörä: sarjanumerokohtainen jäljitys.  
 
 Seuraavaksi näille kahdelle nimikkeelle luodaan osto-, tuotanto- ja myyntitilauksia.  
 
 ### <a name="to-create-the-items"></a>Nimikkeiden luominen  
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Nimikkeet** ja valitse sitten liittyvä linkki.  
-2.  Valitse **Uusi**-toiminto.  
-3.  Valitse **Nro**-kenttään **2000** ja täytä sitten seuraavat kentät.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Nimikkeet** ja valitse sitten liittyvä linkki.  
+2. Valitse **Uusi**-toiminto.  
+3. Valitse **Nro**-kenttään **2000** ja täytä sitten seuraavat kentät.  
 
     |Kuvaus|Perusmittayksikkö|Yl. Tuotteen kirjausryhmä|Tuotteen ALV-kirjausryhmä|Varaston kirjausryhmä|Nimikkeen seurantakoodi|  
-    |-----------------|--------------------------|------------------------------|-----------------------------|-----------------------------|------------------------|  
+    |-----------|--------------------|------------------------|-----------------------|--------------------|------------------|  
     |Kilpapyörän runko|KPL|RAAKA-AINE|ALV25|RAAKA-AINE|T.ERÄTKKKI|  
 
     > [!NOTE]  
     >  Syötä perusmittayksikkö valitsemalla **Uusi** -painike ja valitse sitten **PSC** **Nimikkeen mittayksiköt** -sivulla.  
 
-4.  Muiden kenttien oletusarvot voidaan hyväksyä, tai niitä ei tarvitse täyttää.  
-5.  Luo ensimmäisen uuden nimikkeen (2000) kortti valitsemalla **OK**.  
-6.  Valitse **Uusi**.  
-7.  Valitse **Nro**-kenttään **1002** ja täytä sitten seuraavat kentät.  
+4. Muiden kenttien oletusarvot voidaan hyväksyä, tai niitä ei tarvitse täyttää.  
+5. Luo ensimmäisen uuden nimikkeen (2000) kortti valitsemalla **OK**.  
+6. Valitse **Uusi**.  
+7. Valitse **Nro**-kenttään **1002** ja täytä sitten seuraavat kentät.  
 
     |Kuvaus|Perusmittayksikkö|Yl. Tuotteen kirjausryhmä|Tuotteen ALV-kirjausryhmä|Varaston kirjausryhmä|Täydennysjärjestelmä|Nimikkeen seurantakoodi|  
     |-----------------|--------------------------|------------------------------|-----------------------------|-----------------------------|--------------------------|------------------------|  
@@ -97,32 +102,33 @@ Seuraavaksi näille kahdelle nimikkeelle luodaan osto-, tuotanto- ja myyntitilau
 
     Määritä seuraavaksi nimikkeen tuotannon asetukset.
 
-9. Anna **Täydennys**-pikavälilehden **Reititysnro**-kenttään **1000**.  
-10. Valitse ensin **Tuotannon tuoterakenteen nro**-kenttä ja sitten **Lisäasetukset**.  
-11. Valitse **Tuotannon tuoterak. luettelo** -sivulla ensimmäinen rivi, **1000**, ja valitse sitten **Muokkaa**.  
-12. Muuta **Tuotannon tuoterakenne** -sivun **Tila**-kentän arvoksi **Kehityksen alla**.  
-13. Siirry tyhjälle riville, kirjoita **2000** **Nro**-kenttään ja **1** **Määrä per** -kenttään.  
-14. Muuta **Tila**-kentän arvoksi jälleen **Hyväksytty**.  
-15. Valitse **OK**-painike lisätäksesi tuoterakenteen nimikkeen korttiin, ja sulje **Tuotannon tuoterakenne** -sivu.  
+8. Anna **Täydennys**-pikavälilehden **Reititysnro**-kenttään **1000**.  
+9. Valitse ensin **Tuotannon tuoterakenteen nro**-kenttä ja sitten **Lisäasetukset**.  
+10. Valitse **Tuotannon tuoterak. luettelo** -sivulla ensimmäinen rivi, **1000**, ja valitse sitten **Muokkaa**.  
+11. Muuta **Tuotannon tuoterakenne** -sivun **Tila**-kentän arvoksi **Kehityksen alla**.  
+12. Siirry tyhjälle riville, kirjoita **2000** **Nro**-kenttään ja **1** **Määrä per** -kenttään.  
+13. Muuta **Tila**-kentän arvoksi jälleen **Hyväksytty**.  
+14. Valitse **OK**-painike lisätäksesi tuoterakenteen nimikkeen korttiin, ja sulje **Tuotannon tuoterakenne** -sivu.  
 
     Osta seuraavaksi kilpapyörän runkoja Pyöräliike Oy:ltä.  
 
-### <a name="to-purchase-components"></a>Osta osia  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostotilaukset** ja valitse sitten liittyvä linkki.  
-2.  Valitse **Uusi**-toiminto.  
-3.  Luo ostotilaus toimittajalle, Custom Metals Incorporated, täyttämällä seuraavat rivikentät.  
+### <a name="to-purchase-components"></a>Osta osia
+
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostotilaukset** ja valitse sitten liittyvä linkki.  
+2. Valitse **Uusi**-toiminto.  
+3. Luo ostotilaus toimittajalle, Custom Metals Incorporated, täyttämällä seuraavat rivikentät.  
 
     |Vaihtoehto|Määrä|Eränro|  
-    |----------|--------------|-------------|  
+    |----|--------|-------|  
     |2000|10|ERÄ1|  
 
-4.  Anna eränumero valitsemalla **Nimikkeen seurantarivit** -toiminto.  
-5.  Täytä **Nimikkeen seurantarivit** -sivulla **Eränro**- ja **Määrä (perus)** -kentät ja sulje sivu.  
-6.  Anna **Toimittajan laskunro** -kentässä arvo.  
-7.  Valitse ensin **Kirjaa**-toiminto, sitten **Vastaanota ja laskuta** -asetus ja lopuksi **OK**.  
+4. Anna eränumero valitsemalla **Nimikkeen seurantarivit** -toiminto.  
+5. Täytä **Nimikkeen seurantarivit** -sivulla **Eränro**- ja **Määrä (perus)** -kentät ja sulje sivu.  
+6. Anna **Toimittajan laskunro** -kentässä arvo.  
+7. Valitse ensin **Kirjaa**-toiminto, sitten **Vastaanota ja laskuta** -asetus ja lopuksi **OK**.  
 
     Osta seuraavaksi kilpapyörän runkoja Huippupuu-tekniikalta.  
-8.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostotilaukset** ja valitse sitten liittyvä linkki.  
+8. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostotilaukset** ja valitse sitten liittyvä linkki.  
 9. Valitse **Uusi**-toiminto.
 10. Luo ostotilaus toimittajalle, Coolwood Technologies, täyttämällä seuraavat rivikentät.  
 
@@ -137,23 +143,24 @@ Seuraavaksi näille kahdelle nimikkeelle luodaan osto-, tuotanto- ja myyntitilau
 
     Tuota seuraavaksi kaksi kilpapolkupyörää, Snro1 ja Snro2.  
 
-### <a name="to-produce-end-items"></a>Tuota lopullisia nimikkeitä  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Vapautetut tuotantotilaukset** ja valitse sitten liittyvä linkki.  
-2.  Valitse **Uusi**-ryhmä.  
-3.  Luo uusi vapautettu tuotantotilaus täyttämällä seuraavat kentät.  
+### <a name="to-produce-end-items"></a>Tuota lopullisia nimikkeitä
 
-    |-|-|-|  
-    |Lähteen nro|Määrä|Sarjanumero|  
-    |1002|2|SN1|  
-    |1002|2|SN2|  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Vapautetut tuotantotilaukset** ja valitse sitten liittyvä linkki.  
+2. Valitse **Uusi**-ryhmä.  
+3. Luo uusi vapautettu tuotantotilaus täyttämällä seuraavat kentät.  
 
-4.  Täytä rivi valitsemalla ensin **Päivitä tuotantotilaus** -toiminto ja sitten **OK**.  
-5.  Anna sarjanumerot valitsemalla **Nimikkeen seurantarivit** -toiminto.  
-6.  Täytä **Nimikkeen seurantarivit** -sivulla **Sarjanro**- ja **Määrä (perus)** -kentät ja sulje sivu.  
+    |Lähteen nro|määrä|Sarjanumero|  
+    |----------|--------|----------|  
+    |1002|2|Snro1|  
+    |1002|2|Snro2|  
+
+4. Täytä rivi valitsemalla ensin **Päivitä tuotantotilaus** -toiminto ja sitten **OK**.  
+5. Anna sarjanumerot valitsemalla **Nimikkeen seurantarivit** -toiminto.  
+6. Täytä **Nimikkeen seurantarivit** -sivulla **Sarjanro**- ja **Määrä (perus)** -kentät ja sulje sivu.  
 
     Seuraavaksi on tarpeen kirjata ERÄ1:n kilpapyörän runkojen kulutus.  
-7.  Valitse **Vapautettu tuotantotilaus** -sivulla **Tuotantopäiväkirja** -toiminto.  
-8.  Valitse ensin **Tuotantopäiväkirja**-sivulla nimikkeen 2000 kulutusrivi ja sitten **Nimikkeen seurantarivit** -toiminto.
+7. Valitse **Vapautettu tuotantotilaus** -sivulla **Tuotantopäiväkirja** -toiminto.  
+8. Valitse ensin **Tuotantopäiväkirja**-sivulla nimikkeen 2000 kulutusrivi ja sitten **Nimikkeen seurantarivit** -toiminto.
 9. Valitse **Nimikkeen seurantarivit** -sivulla ensin **Eränro**-kenttä ja sitten **ERÄ1** ja lopuksi **OK**.  
 10. Älä muuta muita **Tuotantopäiväkirja**sivun oletusasetuksia. Valitse sitten **Kirjaa**-toiminto.  
 
@@ -240,9 +247,9 @@ Seuraavaksi näille kahdelle nimikkeelle luodaan osto-, tuotanto- ja myyntitilau
 
     Seuraava tapahtumahistoria voidaan jäljittää:  
 
-    -   Siirryttäessä ketjussa taaksepäin ensimmäinen kirjattu asiakirja tapahtumaketjussa on Snro1:n ensimmäiseksi vapautetun tuotantotilauksen tuotoksen kirjaus.  
-    -   Siirryttäessä ketjussa vielä taaksepäin seuraava kirjattu asiakirja on ensimmäisen vapautetun tuotantotilauksen kulutuksen kirjaus. Tässä laatupäällikkö näkee, että ERÄ1:stä peräisin olevaa kilpapyörän runkoa käytettiin.  
-    -   Ketjun viimeinen kirjattu asiakirja on kirjattu ostovastaanotto, jolla ERÄ1:n kilpapyörän rungot kirjattiin varastoon.  
+    - Siirryttäessä ketjussa taaksepäin ensimmäinen kirjattu asiakirja tapahtumaketjussa on Snro1:n ensimmäiseksi vapautetun tuotantotilauksen tuotoksen kirjaus.  
+    - Siirryttäessä ketjussa vielä taaksepäin seuraava kirjattu asiakirja on ensimmäisen vapautetun tuotantotilauksen kulutuksen kirjaus. Tässä laatupäällikkö näkee, että ERÄ1:stä peräisin olevaa kilpapyörän runkoa käytettiin.  
+    - Ketjun viimeinen kirjattu asiakirja on kirjattu ostovastaanotto, jolla ERÄ1:n kilpapyörän rungot kirjattiin varastoon.  
 
     Laatupäällikkö on nyt selvittänyt, mikä kilpapyörän runkojen erä oli virheellinen. Viimeisen jäljitysrivin avulla hän voi tarkistaa, että virheellinen erä on peräisin toimittajalta Pyöräliike Oy.  
 

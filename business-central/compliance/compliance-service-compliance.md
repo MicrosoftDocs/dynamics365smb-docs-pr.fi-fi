@@ -12,12 +12,12 @@ ms.search.keywords: ''
 ms.reviewer: edupont
 ms.date: 04/01/2020
 ms.author: soalex
-ms.openlocfilehash: 769764f94ba887552b6b23c62c0ddad3c876fda9
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c64d93769cd2c824cdad54df8ddb3de5e9004f81
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185899"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528333"
 ---
 # <a name="service-compliance"></a>Palvelun yhteensopivuus
 Tässä sisällössä on tietoja palvelun [!INCLUDE[d365fin](../includes/d365fin_md.md)]ia koskevasta yhteensopivuudesta.  
@@ -30,7 +30,7 @@ Jos haluat nähdä täydellisen luettelon Microsoftin yhteensopivuustuotteista, 
 
 ## <a name="service-terms"></a>Palvelun ehdot
 
-[!INCLUDE [prodshort](../includes/prodshort.md)] -verkkoversiota hallitaan [modernin elinkaarimallin](https://support.microsoft.com/help/30881/modern-lifecycle-policy) mukaisesti. Palvelutasosopimuksen ehdot ovat asiakirjassa, jonka voi ladata [Käyttöoikeusehdot](https://www.microsoft.com/licensing/product-licensing/products)-sivun **Microsoft Online Servicesin palvelutasosopimukset** -osasta.  
+[!INCLUDE[prodshort](../includes/prodshort.md)] -verkkoversiota hallitaan [modernin elinkaarimallin](https://support.microsoft.com/help/30881/modern-lifecycle-policy) mukaisesti. Palvelutasosopimuksen ehdot ovat asiakirjassa, jonka voi ladata [Käyttöoikeusehdot](https://www.microsoft.com/licensing/product-licensing/products)-sivun **Microsoft Online Servicesin palvelutasosopimukset** -osasta.  
 
 Voit lisäksi seurata vuokraajan kuntoa ja määrittää päivitysikkunat [vuokraajan hallintakeskuksessa](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
 

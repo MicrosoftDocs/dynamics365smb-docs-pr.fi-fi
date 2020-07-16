@@ -8,12 +8,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
 ms.date: 05/13/2020
 ms.author: edupont
-ms.openlocfilehash: acc68a2f5fc657e133f32e7945f3b34f8daa2892
-ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
+ms.openlocfilehash: d80b76614ad0ddf901a288859d8e6595d908c7ae
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3402487"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527983"
 ---
 # <a name="send-documents-by-email"></a>Asiakirjojen lähettäminen sähköpostitse
 
@@ -65,7 +65,7 @@ Seuraavassa kerrotaan, miten kirjattu myyntilasku lähetetään sähköpostivies
 
 ## <a name="documents-marked-as-printed-when-they-are-sent"></a>Asiakirjat, jotka on merkitty tulostetuiksi, kun ne lähetetään
 
-Joissakin [!INCLUDE [prodshort](includes/prodshort.md)] -sivuston asia kirjoissa on kenttä, joka määrittää, kuinka monta kertaa asiakirja on tulostettu. Kenttä päivitetään myös, jos et tulosta asiakirjaa vaan lähetät sen sähköpostissa. Kenttä päivittyy jopa, jos et itse lähetä asiakirjaa, esimerkiksi silloin, kun organisaatiossasi ei ole määritetty sähköpostia tai kun asiakirjan lähettävällä henkilöllä ei ole sähköpostiosoitetta luettelossa. Kaikissa [!INCLUDE [prodshort](includes/prodshort.md)] -ohjelmaan liittyvissä skenaarioissa asiakirja tulostetaan, koska PDF-tiedosto luodaan.  
+Joissakin [!INCLUDE[prodshort](includes/prodshort.md)] -sivuston asia kirjoissa on kenttä, joka määrittää, kuinka monta kertaa asiakirja on tulostettu. Kenttä päivitetään myös, jos et tulosta asiakirjaa vaan lähetät sen sähköpostissa. Kenttä päivittyy jopa, jos et itse lähetä asiakirjaa, esimerkiksi silloin, kun organisaatiossasi ei ole määritetty sähköpostia tai kun asiakirjan lähettävällä henkilöllä ei ole sähköpostiosoitetta luettelossa. Kaikissa [!INCLUDE[prodshort](includes/prodshort.md)] -ohjelmaan liittyvissä skenaarioissa asiakirja tulostetaan, koska PDF-tiedosto luodaan.  
 
 Käyttäjä ei välttämättä näe tätä luotua tiedostoa, mutta tämän vuoksi kenttä päivitetään.
 

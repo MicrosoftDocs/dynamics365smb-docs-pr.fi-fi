@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: multiple currencies
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9802821985550668d460aa3213c9fb64764169c0
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 34d1c9d1f61f2ab89d58d0c3f4a8c512fe6ea0f1
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183546"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528836"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Lisäraportointivaluutan määrittäminen
 Yritysten toimiessa yhä useammassa maassa tai alueella niiden on entistä tärkeämpää pystyä tarkistamaan ja raportoimaan taloustiedot useana valuuttana.
@@ -103,7 +103,7 @@ Kutakin KP-tiliä varten on määritettävä, kuinka tilin KP-summat muutetaan P
 5. **Muuta/Lisää. Raportointivaluutta** -eräajo avautuu.
 
     Tämä eräajo muuttaa olemassa olevien tapahtumien PVA-summat lisäraportointivaluutaksi. Eräajo käyttää oletusvaihtokurssina työpäivänä voimassa olevaa **Valuutan vaihtokurssit** -sivulta kopioitua vaihtokurssia. Jäännössummat, jotka syntyvät, kun PVA muunnetaan lisäraportointivaluutaksi, kirjataan **Valuutat**-sivulla määritetyille jäännösvoittojen ja -tappioiden tileille. Näiden tapahtumien kirjauspäivämäärä ja asiakirjanumero ovat samat kuin alkuperäisessä KP-tapahtumassa. Kun kaikki nämä jäännöstapahtumat on kirjattu, eräajo kirjaa jakamattoman voiton tilille pyöristystapahtuman kunkin suljetun tilikauden sulkemispäivänä. Näin varmistetaan, että kunkin suljetun vuoden tuloslaskelmatilin loppusaldo on 0 sekä PVA:na että lisäraportointivaluuttana.
-6. Täytä tarvittavat kentät. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]      
+6. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]      
 7. Suorita eräajo valisemalla **OK**.  
 
 Tämän eräajon suorittamisen jälkeen seuraavien aiemmin luotujen tapahtumien summat ovat sekä PVA:na että lisäraportointivaluuttana.  

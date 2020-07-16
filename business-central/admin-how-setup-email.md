@@ -1,7 +1,6 @@
 ---
 title: Business Central -sovelluksen sähköpostin määrittäminen | Microsoft Docs
 description: Lisätietoja tavoista, joilla sähköpostiviestejä lähetetään ja vastaanotetaan Business Central -sovelluksessa SMTP-palvelimen kautta tai miten Office 365 -tilauksessa luotuja sähköpostipalvelimen asetuksia käytetään.
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -9,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 04/01/2020
+ms.date: 06/15/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9ece89b1d797d31a99c92f1bb292280b7f54ab7b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 36f9c561cd2bde8256e9bbb9694c89cd780b67ad
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187266"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528385"
 ---
 # <a name="set-up-email"></a>Määritä sähköposti
+
 Jos haluat lähettää ja vastaanottaa sähköpostiviestejä [!INCLUDE[d365fin](includes/d365fin_md.md)]issa, **SMTP-sähköpostiasetukset**-sivun kentät on täytettävä.
 
 Sen sijaan että kirjoittaisit SMTP-palvelimen tiedot manuaalisesti, voit käyttää **Käytä Office 365 Server -asetuksia** -toimintoa, joka hakee nämä tiedot Office 365 -tilauksesta
@@ -26,6 +26,7 @@ Sen sijaan että kirjoittaisit SMTP-palvelimen tiedot manuaalisesti, voit käytt
 Voit määrittää sähköpostin joko myöhemmin kuvattavalla tavalla manuaalisesti tai käyttää ohjattua **Sähköpostiasetukset**-määritystä. Lisätietoja on ohjeaiheessa [Valmistautuminen liiketoimintaan](ui-get-ready-business.md).  
 
 ## <a name="to-set-up-email"></a>Sähköpostin määrittäminen
+
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **SMTP-sähköpostin asetukset** ja valitse sitten liittyvä linkki.
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -36,6 +37,7 @@ Voit määrittää sähköpostin joko myöhemmin kuvattavalla tavalla manuaalise
 5. Kun testi onnistuu, sulje sivu.
 
 ## <a name="using-a-substitute-sender-address-on-outbound-email-messages"></a>Korvaavan lähettäjän osoitteen käyttäminen lähtevissä sähköpostiviesteissä
+
 Kaikki [!INCLUDE[d365fin](includes/d365fin_md.md)]in lähtevät sähköpostiviestit käyttävät SMTP-sähköpostin asetussivulla määritetyn tilin oletusosoitetta edellä kuvatulla tavalla. Voit kuitenkin muuttaa Exchange-palvelimen **Lähetä –**- tai **Lähetä puolesta** -toimintoja lähtevien viestin lähettäjän osoitteen muuttamiseen. [!INCLUDE[d365fin](includes/d365fin_md.md)] käyttää oletustiliä Exchange-todennuksessa mutta joko korvaa lähettäjän osoitteen määrittämälläsi osoitteella tai muuttaa sitä puolesta-tiedolla.
 
 Seuraavassa on esimerkkejä tavoista, joilla Lähetä –- tai Lähetä puolesta -toimintoja käytetään [!INCLUDE[d365fin](includes/d365fin_md.md)]issa:
@@ -54,6 +56,7 @@ Seuraavassa on esimerkkejä tavoista, joilla Lähetä –- tai Lähetä puolesta
 5. Etsi **Exchangen hallintakeskuksessa** postilaatikko, jota käytetään korvaavana osoitteena, ja anna sitten **Käyttäjätunnus**-kentän osoite **Lähetä –** -kenttään. Lisätietoja on aiheessa [Yksittäisten postilaatikoiden käyttöoikeuksien määrittäminen EAC-määrityksen avulla](/Exchange/recipients/mailbox-permissions?view=exchserver-2019#use-the-eac-to-assign-permissions-to-individual-mailboxes).
 
 ### <a name="to-use-the-substitute-address-in-approval-workflows"></a>Korvaavan osoitteen käyttäminen hyväksymistyönkuluissa
+
 1. Valitse [!INCLUDE[d365fin](includes/d365fin_md.md)]:ssa ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **SMTP-sähköpostin asetukset** ja valitse sitten liittyvä linkki.
 2. Kopioi **Käyttäjätunnus**-kentässä oleva osoite tai kirjoita se muistiin.
 3. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Hyväksynnän käyttäjäasetukset** ja valitse sitten liittyvä linkki.
@@ -64,6 +67,13 @@ Seuraavassa on esimerkkejä tavoista, joilla Lähetä –- tai Lähetä puolesta
 > [!Note]
 > [!INCLUDE[d365fin](includes/d365fin_md.md)] määrittää seuraavassa järjestyksessä, mikä osoite näytetään: <br><br> 1. **Hyväksynnän käyttäjäasetukset** -sivun **Sähköposti**-kentässä työnkulun viesteille määritetty osoite. <br> 2. **SMTP-sähköpostin asetukset** -sivun **Lähetä –** -kentässä määritetty osoite. <br> 3. **SMTP-sähköpostin asetukset** -sivun **Käyttäjätunnus**-kentässä määritetty osoite.
 
+## <a name="set-up-public-folders-and-rules-for-email-logging-in-exchange-online"></a>Yleisten kansioiden ja sääntöjen määrittäminen sähköpostin lokiinkirjausta Exchange Onlinessa
+
+Saat enemmän hyötyä myyjien ja olemassa olevien tai potentiaalisten asiakkaiden välisestä viestinnästä, jos seuraat sähköpostiviestejä ja muunnat ne toiminnallisiksi mahdollisuuksiksi. Lisätietoja on kohdassa [Myyjien ja yhteyshenkilöiden välisten sähköpostiviestien seuraaminen](marketing-set-up-email-logging.md).  
+
+[!INCLUDE[admin-setup-email-public-folder](includes/admin-setup-email-public-folder.md)]
+
+Seuraavaksi [!INCLUDE[prodshort](includes/prodshort.md)] yhdistetään Exchange Onlineen. Lisätietoja on kohdassa [Myyjien ja yhteyshenkilöiden välisten sähköpostiviestien seuraaminen](marketing-set-up-email-logging.md).  
 
 ## <a name="see-also"></a>Katso myös
 

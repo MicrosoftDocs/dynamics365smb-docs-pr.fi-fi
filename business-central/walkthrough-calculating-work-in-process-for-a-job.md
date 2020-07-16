@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/25/2020
 ms.author: sgroespe
-ms.openlocfilehash: d2b964b448b380bf3094f5b8093095103c67139a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 3d9a156a1196767b4ae07f63bbb4ca8e2ff5318f
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189241"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527906"
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Vaihekuvaus: Projektin keskeneräisen työn laskeminen
 
-**Huomautus**: Tämä vaihekuvaus on suoritettava esittely-yrityksessä siten, että asetuksena on **Täydellinen arviointi - Kaikki mallitiedot**, joka on käytettävissä Sandbox-ympäristössä. Lisätietoja on kohdassa [Sandbox-ympäristön luominen](across-how-create-sandbox-environment.md).
+[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
 
-Voit laatia projektien avulla yrityksen resurssien käyttöön liittyviä aikatauluja ja seurata tietyn projektin resurssien käyttöön liittyviä kustannuksia. Projekteissa kuluu esimerkiksi työntekijöiden työtunteja, koneiden käyttötunteja ja varastonimikkeitä, joita täytyy seurata projektin edetessä. Jos projekti on pitkäkestoinen, kustannukset täytyy ehkä siirtää taseeseen KET (Keskeneräinen työ) -tilille, kun projekti on vielä kesken. Kustannukset ja myynnit voi myöhemmin tulouttaa tuloslaskelmatilille, kun tämä on ajankohtaista.  
+Projektien avulla voit laatia yrityksen resurssien käyttöön liittyviä aikatauluja ja seurata tietyn projektin resurssien käyttöön liittyviä kustannuksia. Projekteissa kuluu esimerkiksi työntekijöiden työtunteja, koneiden käyttötunteja ja varastonimikkeitä, joita täytyy seurata projektin edetessä. Jos projekti on pitkäkestoinen, kustannukset täytyy ehkä siirtää taseeseen KET (Keskeneräinen työ) -tilille, kun projekti on vielä kesken. Kustannukset ja myynnit voi myöhemmin tulouttaa tuloslaskelmatilille, kun tämä on ajankohtaista.  
 
 ## <a name="about-this-walkthrough"></a>Tietoja tästä vaihekuvauksesta  
  Tässä vaihekuvauksessa käsitellään seuraavia tehtäviä:  

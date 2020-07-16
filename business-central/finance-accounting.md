@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 06/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1aaf04237261481f21d10d5e7966666132ff1a8e
-ms.sourcegitcommit: c5fcc204a1ba8aaf153ce3ad5d150295b144c0e4
+ms.openlocfilehash: 7f78fbcb4c0f37e9c6230004c70cd9d1625b8768
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3413641"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528108"
 ---
 # <a name="accountant-experiences-in-d365fin_long"></a>Kirjanpitäjän käyttökokemukset [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]issa
 Kaikkien yritysten on pidettävä kirjanpitoa ja hyväksyttävä se. Jotkin yritykset käyttävät ulkoista kirjanpitäjää, ja joillain yrityksillä on oma kirjanpitäjä. Olit kummanlainen kirjanpitäjä tahansa, voit käyttää **kirjanpitäjän** roolikeskusta [!INCLUDE[d365fin](includes/d365fin_md.md)]in kotisivunasi. Siitä saat avattua kaikki sivut, joita tarvitset työssäsi.  
@@ -54,14 +54,14 @@ Jos järjestelmänvalvoja tai jälleenmyyntikumppani ei halua käyttää **Ulkoi
 4. Valitse **Uusi vieraskäyttäjä**.
 5. Valitse **Uusi käyttäjä** -sivulla **Kutsu käyttäjä**, ja lisää sitten tietoja ulkoisesta kirjanpitäjästäsi.  
 
-   Voit halutessasi lisätä kirjanpitäjälle henkilökohtaisen tervetuloviestin, jotta he tietävät, että lisäät heidät kohteeseen [!INCLUDE [prodshort](includes/prodshort.md)].
+   Voit halutessasi lisätä kirjanpitäjälle henkilökohtaisen tervetuloviestin, jotta he tietävät, että lisäät heidät kohteeseen [!INCLUDE[prodshort](includes/prodshort.md)].
 
 6. Valitse **Kutsu** lähettääksesi automaattisen kutsun. Ilmoitus tulee näkyviin oikeaan yläkulmaan viestinä **Käyttäjän kutsuminen onnistui**. 
 7. Kun olet lähettänyt kutsun, käyttäjätili lisätään automaattisesti hakemistoon vieraana.
 
-Seuraavaksi sinun on määritettävä uudelle vieraskäyttäjälle käyttöoikeus [!INCLUDE [prodshort](includes/prodshort.md)].
+Seuraavaksi sinun on määritettävä uudelle vieraskäyttäjälle käyttöoikeus [!INCLUDE[prodshort](includes/prodshort.md)].
 
-#### <a name="to-give-your-accountant-access-to-your-prodshort"></a>Voit antaa kirjanpitäjälle pääsyn kohteeseen [!INCLUDE [prodshort](includes/prodshort.md)]
+#### <a name="to-give-your-accountant-access-to-your-prodshort"></a>Voit antaa kirjanpitäjälle pääsyn kohteeseen [!INCLUDE[prodshort](includes/prodshort.md)]
 
 1. Valitse Azure-portaalissa juuri lisätyn käyttäjän **Profiili** ja valitse sitten **Muokkaa**
 2. Päivitä **Käyttösijainti** -kenttä asianomaisen maan kohdalle ja valitse sitten **Tallenna**.
@@ -73,26 +73,26 @@ Seuraavaksi sinun on määritettävä uudelle vieraskäyttäjälle käyttöoikeu
 
 Jos tämä onnistuu, käyttöoikeus määritetään vieraskäyttäjälle ja vierastili luodaan.
 
-### <a name="importing-the-new-user-into-prodshort"></a>Uuden käyttäjän tuominen kohteeseen [!INCLUDE [prodshort](includes/prodshort.md)]
+### <a name="importing-the-new-user-into-prodshort"></a>Uuden käyttäjän tuominen kohteeseen [!INCLUDE[prodshort](includes/prodshort.md)]
 
-Kirjanpitäjä saa sähköpostiviestin, joka ilmoittaa hänelle, että hänelle on annettu pääsy Active Directoryyn. Seuraavaksi sinun on annettava heille oikeus käyttää oikeaa yritystä kohteessa [!INCLUDE [prodshort](includes/prodshort.md)].
+Kirjanpitäjä saa sähköpostiviestin, joka ilmoittaa hänelle, että hänelle on annettu pääsy Active Directoryyn. Seuraavaksi sinun on annettava heille oikeus käyttää oikeaa yritystä kohteessa [!INCLUDE[prodshort](includes/prodshort.md)].
 
 #### <a name="to-add-the-accountant-to-the-right-company"></a>Kirjanpitäjän lisääminen oikeaan yritykseen
 
-1. Avaa [!INCLUDE [prodshort](includes/prodshort.md)]-yritys, johon haluat antaa kirjanpitäjälle käyttöoikeuden, kohteessa [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com).
+1. Avaa [!INCLUDE[prodshort](includes/prodshort.md)]-yritys, johon haluat antaa kirjanpitäjälle käyttöoikeuden, kohteessa [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com).
 2. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttäjät** ja valitse sitten liittyvä linkki.  
 3. Valitse **Hae uudet käyttäjät Office 365:stä** -toiminto.
 
 Tämä tuo käyttäjätilin, jonka loit Azure-portaalissa yritykselle. Lisätietoja on kohdassa [Käyttäjän lisääminen Business Centralissa](ui-how-users-permissions.md#adduser).  
 
-Jos haluat antaa käyttöoikeudet useille yrityksille, sinun on kirjauduttava jokaiseen yritykseen ja toistettava tämä prosessi. Vaihtoehtoisesti voit päivittää kirjanpitäjän käyttäjäprofiilin käyttöoikeusryhmät kohteessa [!INCLUDE [prodshort](includes/prodshort.md)], esimerkiksi määrittämällä heille *D365 Bus Premium* -käyttäjäryhmän. Lisätietoja on kohdassa [Määritä käyttöoikeudet käyttäjille ja ryhmille](ui-define-granular-permissions.md).  
+Jos haluat antaa käyttöoikeudet useille yrityksille, sinun on kirjauduttava jokaiseen yritykseen ja toistettava tämä prosessi. Vaihtoehtoisesti voit päivittää kirjanpitäjän käyttäjäprofiilin käyttöoikeusryhmät kohteessa [!INCLUDE[prodshort](includes/prodshort.md)], esimerkiksi määrittämällä heille *D365 Bus Premium* -käyttäjäryhmän. Lisätietoja on kohdassa [Määritä käyttöoikeudet käyttäjille ja ryhmille](ui-define-granular-permissions.md).  
 
 <!--## Accountant Hub
 
 If you are an accountant with several clients, you can use [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] for a better overview of your clients. From there, you can access each client's tenant in [!INCLUDE[d365fin](includes/d365fin_md.md)] and use the Accountant Role Center as described above. For more information see [Welcome to [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index).  
 
 > [!NOTE]
-> [!INCLUDE [d365acc_long_md](includes/d365acc_long_md.md)] is currently in public preview in a limited number of markets.-->
+> [!INCLUDE[d365acc_long_md](includes/d365acc_long_md.md)] is currently in public preview in a limited number of markets.-->
 
 ## <a name="see-also"></a>Katso myös
 

@@ -9,26 +9,31 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.reviewer: edupont
-ms.date: 04/01/2020
+ms.date: 06/22/2020
 ms.author: jenolson
-ms.openlocfilehash: 591e777b62255d0726231485527fd0a266cd8b0d
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 5b1ed470b4150c49fd20776718ab7429e7fbf3b8
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194281"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528536"
 ---
 # <a name="intelligent-cloud-extensions-for-cloud-migration"></a>Pilvisiirron älykkäät pilvilaajennukset
 
-Tämä laajennus yhdistää tiedot paikallisesta [!INCLUDE [prodshort](includes/prodshort.md)]sta käyttäen [!INCLUDE [prodshort](includes/prodshort.md)]-toimintoa ratkaisusi siirtämiseksi pilveen.  
+Tämä laajennus yhdistää tiedot paikallisesta [!INCLUDE[prodshort](includes/prodshort.md)]sta käyttäen [!INCLUDE[prodshort](includes/prodshort.md)]-toimintoa ratkaisusi siirtämiseksi pilveen.  
 
 Jos käytät jotakin tuettua paikallista tuotetta, voit määrittää pilviympäristön tuotekohtaisen laajennuksen perusteella. Kun pilviympäristö on määritetty, voit siirtää paikallisen ratkaisun tiedot [!INCLUDE[prodshort](includes/prodshort.md)]iin. Tämän jälkeen voit käyttää pilveä ja hyödyntää sitä liiketoiminnassa. Saat entistä enemmän tietoja liiketoiminnasta sekä voit käyttää tekoälyä ja useita laitteita milloin tahansa ja missä tahansa.  
+
+Lisätietoja on kohdassa [Paikallisten tietojen siirtäminen Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) -ohjelmaan [!INCLUDE[prodshort](includes/prodshort.md)]-hallintasisällössä .  
 
 ## <a name="business-central-on-premises"></a>Paikallinen Business Central
 Jos käytät [!INCLUDE[prodshort](includes/prodshort.md)]in paikallista versiota, hanki **Älykäs Pilvipohja**, sekä **Business Central Älykäs Pilvi** -laajennukset, ja suorita sitten **Pilveen siirron määritys** -avustettu aloitusopas.  
 
 ## <a name="dynamics-gp"></a>Dynamics GP
 Jos käytät Dynamics GP:tä, hanki **Älykäs pilvipohjainen laajennus** -laajennus ja **Dynamics GP Älykäs pilvi** -laajennus, ja suorita sitten **Pilveen siirron määritys** -avustettu aloitusopas.  
+
+> [!IMPORTANT]
+> Siirtymistä Dynamics GP:stä asetusten ohjatulla **pilvitoimintojen määrityksellä** tuetaan tällä hetkellä vain seuraavilla markkina-alueilla: Yhdysvallat, Kanada ja Yhdistynyt kuningaskunta.
 
 ## <a name="dynamics-sl"></a>Dynamics SL
 Jos käytät Dynamics SL_ää, hanki **Älykäs pilvipohjainen laajennus** -laajennus, **Microsoft Dynamics SL Älykäs pilvi** -laajennus ja **Microsoft Dynamics SL Historiatietojen älykkäät listat** -laajennus ja suorita sitten **Pilveen siirron määritys** -avustettu aloitusopas.  

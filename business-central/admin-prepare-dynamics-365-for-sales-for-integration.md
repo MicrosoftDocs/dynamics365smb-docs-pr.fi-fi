@@ -1,8 +1,6 @@
 ---
 title: Dynamics 365 Sales -integrointi| Microsoft Docs
 description: Tietoja Dynamics 365 Business Centralin valmistelusta Dynamics 365 Sales -integrointia varten.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,20 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
-ms.date: 04/01/2020
+ms.date: 06/30/2020
 ms.author: bholtorf
-ms.openlocfilehash: b4e3181564f351979bcb22512ab02a9a43456bde
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: c42393145fc921c85570e0829c0953757981b53e
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196565"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3529011"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Dynamics 365 Sales -integrointi
+
 Myyjää pidetään usein liiketoiminnan eniten ulospäin suuntautuneena tehtävänä. Myyjien voisi kuitenkin olla hyödyllistä tarkastella liiketoimintaa myös sisäisesti, jotta he tiedostaisivat, mitä taustalla tapahtuu. [!INCLUDE[d365fin](includes/d365fin_md.md)]in ja [!INCLUDE[crm_md](includes/crm_md.md)]in integroinnin ansiosta myyjät saavat merkityksellisiä tietoja, joiden avulla he voivat tarkastella [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietoja [!INCLUDE[crm_md](includes/crm_md.md)]ia käyttäessään. Myyntitarjousta valmistellessa voi esimerkiksi olla hyödyllistä tietää, riittääkö varasto tilauksen täyttämiseen. Lisätietoja on kohdassa [Dynamics 365 Salesin käyttäminen Business Centralissa](marketing-integrate-dynamicscrm.md).
 
 > [!NOTE]
-> Tässä ohjeaiheessa kerrotaan [!INCLUDE[crm_md](includes/crm_md.md)]- ja [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen online-versioiden integroinnista [!INCLUDE[d365fin](includes/cds_long_md.md)] -palvelun avulla. Lisätietoja paikallisesta määrityksestä on kohdassa [Paikallisen Dynamics 365 Salesin integroinnin valmistelu](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration.md).
+> Tässä ohjeaiheessa kerrotaan [!INCLUDE[crm_md](includes/crm_md.md)]- ja [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen online-versioiden integroinnista [!INCLUDE[d365fin](includes/cds_long_md.md)] -palvelun avulla. Lisätietoja paikallisesta määrityksestä on kohdassa [Paikallisen Dynamics 365 Salesin integroinnin valmistelu](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
 
 ## <a name="integrating-through-common-data-service"></a>Integroiminen Common Data Service -palvelun avulla
 [!INCLUDE[d365fin](includes/d365fin_md.md)] voidaan integroida myös [!INCLUDE[d365fin](includes/cds_long_md.md)] -palvelun kanssa. Tämän vuoksi tietoja on helppo yhdistää ja synkronoida muiden Dynamics 365 -sovellusten, kuten [!INCLUDE[crm_md](includes/crm_md.md)] -sovelluksen, tai jopa itse luotujen sovellusten kanssa. Jos integrointi tehdään ensimmäistä kertaa, on suositeltavaa tehdä se [!INCLUDE[d365fin](includes/cds_long_md.md)] -palvelun kanssa. Lisätietoja on kohdassa [Integroiminen Common Data Service -palvelun kanssa](admin-common-data-service.md).
@@ -52,7 +51,7 @@ Asetusten ohjattu määritysopas auttaa määrittämään yhteyden nopeasti ja m
 4. Vaihtoehtoisesti voit käyttää lisäasetuksia, jotka parantavat suojausta ja ottavat käyttöön lisäominaisuuksia, kuten myyntitilauksen käsittely ja varastotasojen tarkasteleminen. Lisäasetuksia käsitellään seuraavassa taulukossa.  
 
 |Kenttä|Kuvaus|
-|-----|-----|
+|-----|-----------|
 |**Tuo Dynamics 365 Sales -ratkaisu**|Ottamalla tämän asteuksen käyttöön voit asentaa ja määrittää integrointiratkaisun [!INCLUDE[crm_md](includes/crm_md.md)]issa. <!--For more information, see [About the Base CDS Integration Solution](admin-common-data-service.md#about-the-business-central-integration-solution). Need to add a new topic-->|
 |**Julkaise Nimikkeen saatavuus -verkkopalvelu**|Antaa [!INCLUDE[crm_md](includes/crm_md.md)]ia käyttäville henkilöille mahdollisuuden tarkastella nimikkeiden (tuotteiden) varastosaatavuutta [!INCLUDE[d365fin](includes/d365fin_md.md)]issa. Tämä varten tarvitaan [!INCLUDE[d365fin](includes/d365fin_md.md)] -käyttäjätili, jolla on verkkopalvelun käyttöoikeusavain. Avaimen määrittäminen on kaksivaiheinen prosessi. Valitse [!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäjätilillä **Muuta verkkopalvelun käyttöoikeusavainta** -toiminto. Määritä sitten asetusten ohjatussa Dynamics 365 Sales -yhteyden määrityksessä Dynamics 365 Business Centralin OData-verkkopalvelun URL-osoite ja anna palvelun käyttöön tarvittavat [!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäjän tunnistetiedot. Lisätietoja on kohdassa [OData-verkkopalvelut](/dynamics365/business-central/dev-itpro/webservices/odata-web-services).|
 |**Business Centralin OData-verkkopalvelun URL-osoite**|Jos otat käyttöön nimikkeen saatavuuden tarkastelemisen verkkopalvelun, OData-verkkopalvelun URL-osoite määritetään.|
@@ -66,9 +65,9 @@ Asetusten ohjattu määritysopas auttaa määrittämään yhteyden nopeasti ja m
 Anna seuraavat tiedot yhteyden muodostamiseen [!INCLUDE[crm_md](includes/crm_md.md)]ista [!INCLUDE[d365fin](includes/d365fin_md.md)]iin.
 
 |Kenttä|Kuvaus|
-|-----|-----|
+|-----|-----------|
 |**Dynamics 365 Sales -ohjelman URL-osoite**|[!INCLUDE[crm_md](includes/crm_md.md)] -ilmentymän URL-osoite. Näin käyttäjät voivat avata vastaavat tietueet [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksessa [!INCLUDE[crm_md](includes/crm_md.md)] -sovelluksen tietueista, kuten tilistä tai tuotteesta. [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietueet avautuvat [!INCLUDE[d365fin](includes/d365fin_md.md)]issa.|
-|**Nimikkeen saatavuus -verkkopalvelu käytössä**|Antaa [!INCLUDE[crm_md](includes/crm_md.md)]ia käyttäville henkilöille mahdollisuuden tarkastella nimikkeiden (tuotteiden) varastosaatavuutta [!INCLUDE[d365fin](includes/d365fin_md.md)]issa. Jos otat tämän vaihtoehdon käyttöön, sinun on annettava myös [!INCLUDE[crm_md](includes/crm_md.md)]in käyttäjänimi ja käyttöoikeusavain, mikäli haluat tehdä nimikkeiden (tuotteiden) saatavuuskyselyn OData-verkkopalvelun avulla. Lisätietoja on kohdassa [OData-verkkopalvelut](/dynamics365/business-central/dev-itpro/webservices/odata-web-services.md).|
+|**Nimikkeen saatavuus -verkkopalvelu käytössä**|Antaa [!INCLUDE[crm_md](includes/crm_md.md)]ia käyttäville henkilöille mahdollisuuden tarkastella nimikkeiden (tuotteiden) varastosaatavuutta [!INCLUDE[d365fin](includes/d365fin_md.md)]issa. Jos otat tämän vaihtoehdon käyttöön, sinun on annettava myös [!INCLUDE[crm_md](includes/crm_md.md)]in käyttäjänimi ja käyttöoikeusavain, mikäli haluat tehdä nimikkeiden (tuotteiden) saatavuuskyselyn OData-verkkopalvelun avulla. Lisätietoja on kohdassa [OData-verkkopalvelut](/dynamics365/business-central/dev-itpro/webservices/odata-web-services).|
 |**Dynamics 365 Business Centralin OData-verkkopalvelun URL-osoite**|Jos otat Nimikkeen saatavuus -verkkopalvelun käyttöön, saat OData-verkkopalvelun URL-osoitteen. Määritä tämän kentän arvoksi käytettävän [!INCLUDE[d365fin](includes/d365fin_md.md)] -esiintymän URL-osoite.<br /><br /> Voit palauttaa kenttään [!INCLUDE[d365fin](includes/d365fin_md.md)]in oletusarvoisen URL-osoitteen valitsemalla **Palauta verkkoasiakasohjelman URL-osoite** -toiminnon.<br /><br /> Tällä kentällä on merkitystä vain, jos [!INCLUDE[d365fin](includes/d365fin_md.md)] -integrointiratkaisu on asennettu [!INCLUDE[crm_md](includes/crm_md.md)]issa.|
 |**Dynamics 365 Business Centralin OData-verkkopalvelun käyttäjätunnus**|Sen käyttäjätilin nimi, jolla [!INCLUDE[crm_md](includes/crm_md.md)] hakee tietoja nimikkeen saatavuudesta [!INCLUDE[d365fin](includes/d365fin_md.md)]issa OData-verkkopalvelun kautta.|
 |**Dynamics 365 Business Centralin OData-verkkopalvelun käyttöoikeusavain**|Sen käyttäjätilin käyttöoikeusavain, jolla [!INCLUDE[crm_md](includes/crm_md.md)] hakee tietoja nimikkeen saatavuudesta [!INCLUDE[d365fin](includes/d365fin_md.md)]ista OData-verkkopalvelun kautta. Avain on määritetty käyttäjälle, joka on valittu **Dynamics 365 Business Centralin OData-verkkopalvelun käyttäjätunnus** -kentässä. Voit hakea avaimen valitsemalla ensin käyttäjänimen vieressä **Hae arvo** -painikkeen ja sitten käyttäjän. Valitse seuraavaksi **Hallitse** ja lopuksi **Muokkaa**. Valitse käyttäjän kortissa ensin **Toiminnot**, **Tarkistus** ja sitten **Muuta verkkopalvelun käyttöoikeusavainta**.|
@@ -92,7 +91,7 @@ Integrate with Business Central through Common Data Service requires an administ
 Seuraavassa taulukossa on luettelo tavallisista [!INCLUDE[d365fin](includes/d365fin_md.md)]in yhdistämismäärityksistä [!INCLUDE[d365fin](includes/d365fin_md.md)]in ja [!INCLUDE[crm_md](includes/crm_md.md)] välillä.
 
 |[!INCLUDE[d365fin](includes/d365fin_md.md)]|[!INCLUDE[crm_md](includes/crm_md.md)]|Synkronoinnin suunta|Oletussuodatin|
-|-------------------------------------------|-----|-------------------------|--------------|
+|-------------------------------------------|--------------------------------------|-----------------|--------------|
 |Mittayksikkö|Yksikköryhmä|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
 |Nimike|Tuote|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] ja [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Sales-sovelluksen kontaktin suodatin: **Tuotteen tyyppi** on **Myyntivarasto**|
 |Resurssi|Tuote|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] ja [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Sales-sovelluksen kontaktin suodatin: **Tuotteen tyyppi** on **Palvelut**|
@@ -122,7 +121,7 @@ Seuraavassa taulukossa ovat säännöt, jotka ohjaavat [!INCLUDE[crm_md](include
 |Myyntitilaukset|Kun myyntitilausten integrointi on käytössä, [!INCLUDE[d365fin](includes/d365fin_md.md)]:n myyntitilaukset, jotka on luotu lähetetyistä myyntitilauksista [!INCLUDE[crm_md](includes/crm_md.md)]:ssä, synkronoidaan myyntitilausten kanssa INCLUDE SALES -kohdassa vapautuksen yhteydessä. Ennen tilausten synkronoimista on suositeltavaa synkronoida kaikki tilaukseen liittyvät entiteetit, esimerkiksi myyjät ja hinnastot. Tilauksen otsikossa oleva Myyjän koodi -kenttä määrittää yhdistetyn entiteetin omistajan [!INCLUDE[crm_md](includes/crm_md.md)]:ssä.|
 
 ### <a name="synchronization-jobs-for-a-sales-integration"></a>Myynnin integroinnin synkronointityöt
-Työt suoritetaan seuraavassa järjestyksessä, jotta objektien välille ei muodostu yhdistämisen riippuvuussuhteita. Common Data Service -palvelussa on lisätöitä. Lisätietoja on kohdassa [Tehtävien aikatauluttaminen työjonojen avulla](/dynamics365/business-central/admin-job-queues-schedule-tasks.md).
+Työt suoritetaan seuraavassa järjestyksessä, jotta objektien välille ei muodostu yhdistämisen riippuvuussuhteita. Common Data Service -palvelussa on lisätöitä. Lisätietoja on kohdassa [Tehtävien aikatauluttaminen työjonojen avulla](/dynamics365/business-central/admin-job-queues-schedule-tasks).
 
 1. MITTAYKSIKKÖ – Dynamics 365 Salesin synkronointityö  
 2. RESURSSI-TUOTE – Dynamics 365 Salesin synkronointityö  

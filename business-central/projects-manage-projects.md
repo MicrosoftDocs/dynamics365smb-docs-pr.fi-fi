@@ -8,12 +8,12 @@ ms.workload: na
 ms.search.keywords: projects
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1a9aea8ef63874b63bfd608d04b16dd3da4c7c35
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 05a41839035c271b1f3e8c94d76702f1384d5025
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190009"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3529036"
 ---
 # <a name="project-management"></a>Projektinhallinta
 [!INCLUDE[d365fin](includes/d365fin_md.md)]issa voi suorittaa yleisiä projektinhallinnan tehtäviä, kuten projektin määrittämistä ja resurssin aikatauluttamista, sekä budjettien hallinnassa ja projektin etenemisen valvonnassa tarvittavien tietojen antamista. Voit seurata projektin koneiden käyttötunteja ja työntekijöiden työtunteja käyttämällä aikaraportteja. Projektipäällikkönä saat hyvän yleiskuvan yksittäisten projektien lisäksi työntekijöiden varauksista sekä koneiden ja muiden resurssien käytöstä kaikissa projekteissa.
@@ -36,7 +36,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 
 ## <a name="get-started-with-projects"></a>Projektien käytön aloittaminen
 
-Projektinhallinta on jo sinänsä monimutkaista, ja projektien luonti- ja työn hallintaprosessin oppiminen uudessa työkalussa voi olla lisähaaste. Voit aloittaa projektinhallinnan käytön [!INCLUDE [prodshort](includes/prodshort.md)] -sovelluksessa katsomalla [töiden luontia käsittelevän videon](https://www.youtube.com/watch?v=VqaPWr7BWmw) [!INCLUDE [prodshort](includes/prodshort.md)] YouTube -kanavassa.  
+Projektinhallinta on jo sinänsä monimutkaista, ja projektien luonti- ja työn hallintaprosessin oppiminen uudessa työkalussa voi olla lisähaaste. Voit aloittaa projektinhallinnan käytön [!INCLUDE[prodshort](includes/prodshort.md)] -sovelluksessa katsomalla [töiden luontia käsittelevän videon](https://www.youtube.com/watch?v=VqaPWr7BWmw) [!INCLUDE[prodshort](includes/prodshort.md)] YouTube -kanavassa.  
 
 ## <a name="see-also"></a>Katso myös
 

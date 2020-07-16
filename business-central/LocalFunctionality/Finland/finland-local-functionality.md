@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/09/2020
 ms.author: soalex
-ms.openlocfilehash: f05f8e4915b136134b27eb62931916a09e53514f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 7f0e420cdfa4a7dfa70d81a5ed23f2e20eb1b55b
+ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180813"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454263"
 ---
 # <a name="finland-local-functionality"></a>Suomen paikalliset toiminnot
+
 Seuraavissa ohjeaiheissa kerrotaan [!INCLUDE[d365fin](../../includes/d365fin_md.md)] -ohjelman suomalaisen version erityisistä paikallisista toiminnoista.  
 
 ## <a name="feature-availability"></a>Ominaisuuden käytettävyys
@@ -40,6 +41,8 @@ Seuraavissa ohjeaiheissa kerrotaan [!INCLUDE[d365fin](../../includes/d365fin_md.
     * [Poistoerojen kirjaaminen](posting-depreciation-differences.md) **Käytettävissä nyt**
 
 ## <a name="see-also"></a>Katso myös
-[[!INCLUDE[d365fin](../../includes/d365fin_md.md)] -ohjelman käyttäminen](../../ui-work-product.md)     
+
+[[!INCLUDE[d365fin](../../includes/d365fin_md.md)] -ohjelman käyttäminen](../../ui-work-product.md)  
+[Maa- ja aluekohtainen saatavuus ja tuetut kielet](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
 ## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  

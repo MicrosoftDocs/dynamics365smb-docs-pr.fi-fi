@@ -7,16 +7,16 @@ ms.topic: get-started-article
 ms.search.keywords: news, release plan, roadmap, whats new
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6d759db09e7e3835a07b9e9138f31da48adc8851
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 496c6bad5e309064ae2d6e7d15591578b1d46c6a
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190105"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528761"
 ---
 # <a name="whats-new-in-dynamics-365-business-central"></a>Dynamics 365 Business Centralin uudet ominaisuudet
 
-[!include [release notes](includes/release-notes.md)]
+[!INCLUDE[release notes](includes/release-notes.md)]
 
 Voit aina tarkistaa uudet ja tulevat toiminnot julkaisusuunnitelmasta. Voit sitten etsiä tässä ohjeistuksessa aiheet, joiden avulla saat tietoja [!INCLUDE[prodlong](includes/prodlong.md)]ista uusista ja nykyisistä toiminnoista.  
 
@@ -30,7 +30,7 @@ Jos haluat nähdä kaikki [!INCLUDE[d365fin](includes/d365fin_md.md)] -kumppanei
 
 Uusia ominaisuuksia käsitellään [Dynamics 365 -blogissa](https://cloudblogs.microsoft.com/dynamics365/) – esimerkiksi milloin ne tulevat saataville ja onko huomioon otettavia seikkoja.  
 
-Kumppaniyhteisöjä koskevia tietoja julkaistaan [Microsoft Dynamics 365 Business Centralia koskevassa kumppanien Dynamics 365 -blogissa](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) ja [[!INCLUDE [prodshort](includes/prodshort.md)]in kehittäjien ja IT-ammattilaisten ohjeessa ](/dynamics365/business-central/dev-itpro/index).  
+Kumppaniyhteisöjä koskevia tietoja julkaistaan [Microsoft Dynamics 365 Business Centralia koskevassa kumppanien Dynamics 365 -blogissa](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) ja [[!INCLUDE[prodshort](includes/prodshort.md)]in kehittäjien ja IT-ammattilaisten ohjeessa ](/dynamics365/business-central/dev-itpro/index).  
 
 ## <a name="see-also"></a>Katso myös
 

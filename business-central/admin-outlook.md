@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: b088cf18c10dd451c7c5974e98f0c0cbba5bad0b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: cad495da807695b99e6ca052031ccbbc330c1db5
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186894"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3529261"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Business Central -sovelluksen käyttäminen yrityssähköpostina Outlookissa
 
@@ -27,13 +27,13 @@ Outlookin [!INCLUDE[d365fin](includes/d365fin_md.md)] -apuohjelman käytön aloi
 Kun sitten avaat Outlookin, näet *Dynamics 365 Business Centralin järjestelmänvalvojan* lähettämän sähköpostiviestin. Uudet apuohjelmat lisätään Outlookin valintanauhaan, ja [!INCLUDE[prodshort](includes/prodshort.md)]in apuohjelmat näkyvät selaimessa heti sähköpostiviestin perustekstin ylä- tai alapuolella. Apuohjelmat päivitetään ajoittain, ja saat ilmoituksen, kun uusi versio on valmiina Outlookissa.  
 
 > [!TIP]
-> Jos käytät uutta Outlookia verkossa [!INCLUDE [prodshort](includes/prodshort.md)]in apuohjelmat voivat olla piilotettuina **Lisää toimintoja** -kohdassa. Jos käytät apuohjelmaa usein, voit kiinnittää sen niin, että se näkyy aina heti. Lisätietoja on kohdassa [Outlook-verkkoversion apuohjelmien käyttäminen](https://support.office.com/article/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?ns=OLWAO365B&version=16).  
+> Jos käytät uutta Outlookia verkossa [!INCLUDE[prodshort](includes/prodshort.md)]in apuohjelmat voivat olla piilotettuina **Lisää toimintoja** -kohdassa. Jos käytät apuohjelmaa usein, voit kiinnittää sen niin, että se näkyy aina heti. Lisätietoja on kohdassa [Outlook-verkkoversion apuohjelmien käyttäminen](https://support.office.com/article/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?ns=OLWAO365B&version=16).  
 
-Jos työskentelet useamman kuin yhden [!INCLUDE [prodshort](includes/prodshort.md)] -yrityksen kanssa, voit helposti vaihtaa yritysten välillä Outlookissa. Valitse apuohjelman toimintopalkista **Lisää toimintoja**, ja sen jälkeen näet vaihtoehdon, jolla voi siirtyä yritysten välillä.  
+Jos työskentelet useamman kuin yhden [!INCLUDE[prodshort](includes/prodshort.md)] -yrityksen kanssa, voit helposti vaihtaa yritysten välillä Outlookissa. Valitse apuohjelman toimintopalkista **Lisää toimintoja**, ja sen jälkeen näet vaihtoehdon, jolla voi siirtyä yritysten välillä.  
 
 <!--TEMP-->
 > [!NOTE]
-> Yritysten välillä siirtyminen edellyttää [!INCLUDE [prodshort](includes/prodshort.md)]in vuoden 2019 2. julkaisuaallon version ta tai uudemman, kuten [julkaisusuunnitelmassa ilmoitettiin](/dynamics365-release-plan/2019wave2/dynamics365-business-central/switch-between-companies-business-inbox-outlook).
+> Yritysten välillä siirtyminen edellyttää [!INCLUDE[prodshort](includes/prodshort.md)]in vuoden 2019 2. julkaisuaallon version ta tai uudemman, kuten [julkaisusuunnitelmassa ilmoitettiin](/dynamics365-release-plan/2019wave2/dynamics365-business-central/switch-between-companies-business-inbox-outlook).
 
 Jotkin Office 365:ää käyttävät yrityksen rajoittavat käyttäjien oikeuksia ottaa apuohjelmia käyttöön. Varmista tämän vuoksi, että Office 365 -tilauksesi sisältää sähköpostin ja mahdollistaa apuohjelmien käyttämisen. Jos haluat kokeilla apuohjelma joka tapauksessa, voit [kokeilla Office 365:ää maksutta](https://products.office.com/try).  
 
@@ -68,7 +68,7 @@ Jos [!INCLUDE[d365fin](includes/d365fin_md.md)]ia ei voi edelleenkään käyttä
 
 ## <a name="using-other-email-accounts"></a>Muiden sähköpostitilien käyttäminen
 
-Apuohjelmat on suunniteltu Office 365:n kanssa käytettäväksi . Jos käytät paikallista [!INCLUDE [prodshort](includes/prodshort.md)] -versiota, järjestelmänvalvoja tietää, voitko käyttää [!INCLUDE [prodshort](includes/prodshort.md)]in apuohjelmia Outlookissa. Lisätietoja on kohdissa [Mitä sähköpostiosoitetta käytetään [!INCLUDE[prodshort](includes/prodshort.md)]in kanssa?](across-faq.md#email) ja [Erityisolosuhteita edellyttävät ominaisuudet](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances).  
+Apuohjelmat on suunniteltu Office 365:n kanssa käytettäväksi . Jos käytät paikallista [!INCLUDE[prodshort](includes/prodshort.md)] -versiota, järjestelmänvalvoja tietää, voitko käyttää [!INCLUDE[prodshort](includes/prodshort.md)]in apuohjelmia Outlookissa. Lisätietoja on kohdissa [Mitä sähköpostiosoitetta käytetään [!INCLUDE[prodshort](includes/prodshort.md)]in kanssa?](across-faq.md#email) ja [Erityisolosuhteita edellyttävät ominaisuudet](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances).  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 

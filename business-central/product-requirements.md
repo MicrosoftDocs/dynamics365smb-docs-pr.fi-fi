@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: version
 ms.date: 05/06/2020
 ms.author: edupont
-ms.openlocfilehash: 417b7ba9743ec0dabb4c7b311535ed8c22d8896a
-ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
+ms.openlocfilehash: 55af97f27768d4b0c83379dd9eb5174613aabaa9
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "3372590"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528711"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Business Central -sovelluksen käytön vähimmäisvaatimukset
-Suosittelemme, että tietokoneen tai mobiililaitteen tuotteelle asetettujen järjestelmän vähimmäisvaatimusten täyttyminen tarkistetaan, ennen kuin [!INCLUDE [prodshort](includes/prodshort.md)] -sovelluksen online-versio otetaan käyttöön. Tässä artikkelissa kerrotaan vaatimukset.  
+Suosittelemme, että tietokoneen tai mobiililaitteen tuotteelle asetettujen järjestelmän vähimmäisvaatimusten täyttyminen tarkistetaan, ennen kuin [!INCLUDE[prodshort](includes/prodshort.md)] -sovelluksen online-versio otetaan käyttöön. Tässä artikkelissa kerrotaan vaatimukset.  
 
 ## <a name="browsers"></a>Selaimet
 
@@ -40,7 +40,7 @@ Suosittelemme, että tietokoneen tai mobiililaitteen tuotteelle asetettujen jär
 **Laitteen koko:** [!INCLUDE[d365fin](includes/d365fin_md.md)]ia tuetaan älypuhelimissa, joiden näytön koko on vähintään 4 tuumaa ja taulutietokoneissa, joiden näytön koko on vähintään 7 tuumaa.  
 
 ## <a name="outlook"></a>Outlook 
-**Outlook-sovellukset:** Jos haluat käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen online-versiota Outlookin yrityssähköpostina, tarvitset Outlook 2016:n tai uudemman, Outlookin selaimessa, Outlook for iPhonen, Outlook for iPadin tai Outlook for Androidin. Organisaatiossa on oltava käytössä myös Office 365. Et voi käyttää [!INCLUDE [prodshort](includes/prodshort.md)] -sovelluksen online-versiota Outlookin yrityssähköpostina, jos organisaatiossa on käytössä paikallinen Exchange Server.  
+**Outlook-sovellukset:** Jos haluat käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen online-versiota Outlookin yrityssähköpostina, tarvitset Outlook 2016:n tai uudemman, Outlookin selaimessa, Outlook for iPhonen, Outlook for iPadin tai Outlook for Androidin. Organisaatiossa on oltava käytössä myös Office 365. Et voi käyttää [!INCLUDE[prodshort](includes/prodshort.md)] -sovelluksen online-versiota Outlookin yrityssähköpostina, jos organisaatiossa on käytössä paikallinen Exchange Server.  
 **Selaimet:** Kun [!INCLUDE[d365fin](includes/d365fin_md.md)] on käytössä Outlookin yrityssähköpostina Outlookin selaimessa, apuohjelma edellyttää, että yritys käyttää jotakin aiemmin tässä artikkelissa mainittua tuettua selainta.  
 **Alustat:** Kun käytössä on [!INCLUDE[d365fin](includes/d365fin_md.md)] Outlookin apuohjelma Outlook for iPhone-, Outlook for iPad- tai Outlook for Android -sovelluksessa, apuohjelma edellyttää, että mobiililaitteessa käytetään [!INCLUDE[d365fin](includes/d365fin_md.md)]in tuettujen mobiililaitteiden luettelossa mainittua mobiililaitetta.  
 

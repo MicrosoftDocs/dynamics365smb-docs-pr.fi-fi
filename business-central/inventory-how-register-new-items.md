@@ -1,7 +1,6 @@
 ---
 title: Tavaroiden tai palvelujen nimikekorttien luominen| Microsoft Docs
 description: Nimikekortit luodaan tunteina myytäville palveluille ja varastosta myytäville fyysisille tuotteille, kuten kokoonpanonimikkeille, valmiille tavaroille, komponenteille tai raaka-aineille.
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 04/27/2020
+ms.date: 07/06/2020
 ms.author: sgroespe
-ms.openlocfilehash: 506576c6ecbc707dd44ce23294ce7eb8b6e89329
-ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
+ms.openlocfilehash: 84880df39dd573e24c11e81321f023e24cd1094a
+ms.sourcegitcommit: ca5bf1d934997ef8c0bc9f8ab0e5568f0ed42fa4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3324148"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "3535338"
 ---
 # <a name="register-new-items"></a>Uusien nimikkeiden rekisteröiminen
+
 Nimikkeet ovat muiden tuotteiden ohella liiketoimintasi perusta; ne ovat siis tavaroita ja palveluja, joilla käyt kauppaa. Jokainen nimike on rekisteröitävä nimikekorttina.
 
 Nimikekortti sisältää tiedot, jotka tarvitaan nimikkeiden ostamista, tallentamista, myymistä ja toimittamista varten.
@@ -34,11 +34,12 @@ Nimikkeet, joita tarjoat asiakkaille, mutta joita et halua ylläpitää järjest
 > [!NOTE]  
 > Jos eri nimiketyypeillä on nimikemalleja, sivu avautuu, kun luot uuden nimikekortin, jossa voit valita sopivan mallin. Jos vain yksi nimikemalli on olemassa, uudet nimikekortit käyttävät aina kyseistä mallia.
 
-Seuraavaksi selitetään, miten nimikekortti luodaan alusta lähtien. Voit luoda uusia nimikekortteja myös kopioimalla aiemmin luotuja kortteja. Lisätietoja on kohdassa [Uusien nimikkeiden luominen kopioimalla aiemmin luotuja nimikkeitä](inventory-how-copy-items.md).<br><br>  
+Seuraavaksi selitetään, miten nimikekortti luodaan alusta lähtien. Voit luoda uusia nimikekortteja myös kopioimalla aiemmin luotuja kortteja. Lisätietoja on kohdassa [Uusien nimikkeiden luominen kopioimalla aiemmin luotuja nimikkeitä](inventory-how-copy-items.md).  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx?rel=0]
 
 ## <a name="to-create-a-new-item-card"></a>Uuden nimikekortin luominen
+
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Nimikkeet** ja valitse sitten liittyvä linkki.  
 2. Valitse **Nimikkeet** -sivulla **Uusi**-toiminto.
 
@@ -56,12 +57,10 @@ Voit tarkastella tai muokata erityiset hinnat tai alennukset, jotka haluat myön
 
 Nimike on nyt rekisteröity ja nimikekortti on valmis käytettäväksi osto- ja myyntiasiakirjoissa.
 
-Jos haluat käyttää tätä nimikekorttia mallina, kun luot uusia nimikkeen kortteja, tallenna se mallina. Lisätietoja on seuraavassa osassa.
+Jos haluat käyttää tätä nimikekorttia mallina, kun luot uusia nimikkeen kortteja, tallenna se mallina. Lisätietoja on seuraavassa osassa.  
 
-### <a name="deleting-item-cards"></a>Nimikekorttien poistaminen
-Jos olet kirjannut nimikkeelle tapahtuman, et voi poistaa korttia, koska nimiketapahtumia voi tarvita varaston arvostamiseen tai valvontaan. Voit poistaa nimiketapahtumia tapahtumakirjauksilta ottamalla yhteyttä Microsoft-kumppaniin koodin avulla.
+### <a name="to-save-the-item-card-as-a-template"></a>Nimikekortin tallentaminen mallina
 
-## <a name="to-save-the-item-card-as-a-template"></a>Nimikekortin tallentaminen mallina
 1. Valitse **Nimikekortti**-sivulla **Tallenna mallina** -toiminto. **Nimikemalli**-sivu avautuu ja näyttää nimikekortin mallina.
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Voit käyttää dimensioita malleina valitsemalla **Dimensiot**-toiminnon. **Dimensiomallit**-sivu avautuu ja esittää kaikki dimensiokoodit, jotka on määritetty nimikkeelle.
@@ -70,22 +69,38 @@ Jos olet kirjannut nimikkeelle tapahtuman, et voi poistaa korttia, koska nimiket
 
 Nimikemalli lisätään nimikemallien luetteloon niin, että sen avulla voit luoda uusia nimikekortteja.
 
-## <a name="to-set-up-multiple-vendors-for-an-item"></a>Useiden toimittajien määrittäminen nimikkeille  
+### <a name="items-used-in-production-orders"></a>Tuotantotilauksissa käytetyt nimikkeet
+
+Jos halutaan rekisteröidä myöhemmin tuotantotilauksessa käytettäviä nimikkeitä, täydennysjärjestelmä määritetään *tuotantotilauksena***Täydennys**-pikavälilehdessä. Lisätietoja on kohdassa [Tietoja tuotantotilauksista](production-about-production-orders.md).  
+
+## <a name="to-set-up-multiple-vendors-for-an-item"></a>Useiden toimittajien määrittäminen nimikkeille
+
 Jos ostat saman nimikkeen useammalta kuin yhdeltä toimittajalta, sinun tulee syöttää tietoja kustakin nimikkeen toimittajasta, esimerkiksi hinnat, toimitusaika ja alennukset.  
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten liittyvä linkki.  
-2.  Valitse ensin käsiteltävä nimike ja sitten **Muokkaa**-toiminto.  
-3.  Valitse **Toimittajat**-toiminto.  
-4.  Valitse **Toimittajan nro** -kenttä, ja valitse toimittaja, jonka haluat määrittää nimikkeelle.  
-5.  Voit täyttää myös jäljellä olevat rivit.  
-6.  Toista vaiheet 2–5 kullekin toimittajalle, jolta haluat ostaa nimikkeitä.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten liittyvä linkki.  
+2. Valitse ensin käsiteltävä nimike ja sitten **Muokkaa**-toiminto.  
+3. Valitse **Toimittajat**-toiminto.  
+4. Valitse **Toimittajan nro** -kenttä, ja valitse toimittaja, jonka haluat määrittää nimikkeelle.  
+5. Voit täyttää myös jäljellä olevat rivit.  
+6. Toista vaiheet 2–5 kullekin toimittajalle, jolta haluat ostaa nimikkeitä.
 
 Toimittajat näkyvät nyt nimikkeen kortissa avattavassa **Nimikkeen toimittajaluettelo** -sivulla, jossa voit valita kätevästi vaihtoehtoisen toimittajan.
 
+## <a name="categories-attributes-and-variants"></a>Luokat, määritteet ja variantit
+
+[!INCLUDE[inventory_variant](includes/inventory_variant.md)]
+
+## <a name="deleting-item-cards"></a>Nimikekorttien poistaminen
+
+Jos olet kirjannut nimikkeelle tapahtuman, et voi poistaa korttia, koska nimiketapahtumia voi tarvita varaston arvostamiseen tai valvontaan. Voit poistaa nimiketapahtumia tapahtumakirjauksilta ottamalla yhteyttä Microsoft-kumppaniin koodin avulla.
+
 ## <a name="see-also"></a>Katso myös
+
 [Varasto](inventory-manage-inventory.md)  
+[Mittayksikön määrittäminen](inventory-how-setup-units-of-measure.md)  
 [Varaston kustannusten täsmäyttäminen pääkirjanpitoon](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
 [Numerosarjojen luominen](ui-create-number-series.md)  
+[Kirjausryhmien määrittäminen](finance-posting-groups.md)  
 [Osto](purchasing-manage-purchasing.md)  
 [Myynti](sales-manage-sales.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  

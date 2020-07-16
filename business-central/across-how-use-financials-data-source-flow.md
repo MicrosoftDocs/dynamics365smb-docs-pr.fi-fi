@@ -11,12 +11,12 @@ ms.reviewer: edupont
 ms.search.keywords: workflow, OData, Power App, SOAP
 ms.date: 04/01/2020
 ms.author: bmeier
-ms.openlocfilehash: 6dbc2fd67b5156c47690661016d4e7d3aae64a09
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c2fbd841332ff48bd4716a082b0c9ef2bb9ac6df
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187938"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528986"
 ---
 # <a name="using-prodshort-in-an-automated-workflow"></a>[!INCLUDE[prodshort](includes/prodshort.md)]in käyttäminen automaattisessa työnkulussa
 
@@ -55,7 +55,7 @@ Voit käyttää [!INCLUDE[prodshort](includes/prodshort.md)]in tietoja työnkulu
     > [!NOTE]
     > [!INCLUDE[prodshort](includes/prodshort.md)]in Power Automate -yhdistin tukee useita tuotanto- ja sandbox-ympäristöjä. Jos et ole luonut useaa tuotanto- tai sandbox-ympäristöjä, **Tuotanto** on ainoa valittavissa oleva vaihtoehto.  
 
-    Olet nyt muodostanut yhteyden Business Centralin [!INCLUDE [prodshort](includes/prodshort.md)] -tietoihin ja olet valmis aloittamaan oman työnkulun luomisen.
+    Olet nyt muodostanut yhteyden Business Centralin [!INCLUDE[prodshort](includes/prodshort.md)] -tietoihin ja olet valmis aloittamaan oman työnkulun luomisen.
 
 9. Voit luoda mallin valitsemalla **Aloita mallista** -vaihtoehdon.
 10. Etsi **Microsoft [!INCLUDE[prodlong](includes/prodlong.md)]** -malleja.

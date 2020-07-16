@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: remove, delete
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: f48f5785ffc62b124b26764da5e86838c1e01dfa
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 163c1522fce412e1877aa63dad914ca0a75c661e
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187434"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528410"
 ---
 # <a name="unsubscribe-or-remove-prodshort"></a>[!INCLUDE[prodshort](includes/prodshort.md)]in tilauksen peruuttaminen tai poistaminen
 
@@ -31,7 +31,7 @@ Jos olet rekisteröitynyt [!INCLUDE[d365fin](includes/d365fin_md.md)]iin käytt�
 
 ## <a name="unsubscribing-by-removing-d365fin-from-your-office-365-experience"></a>Tilauksen peruuttaminen poistamalla [!INCLUDE[d365fin](includes/d365fin_md.md)] Office 365:stä
 
-Jos yritys tilaa [!INCLUDE [prodshort](includes/prodshort.md)]ia, mutta käyttäjänä et enää halua käyttää sitä, sinun on pyydettävä järjestelmänvalvojaa tai Dynamics 365 -jälleenmyyjäkumppaniasi poistamaan [!INCLUDE[d365fin](includes/d365fin_md.md)] -käyttöoikeus Office 365 -käyttäjätililtäsi. Jos [!INCLUDE[d365fin](includes/d365fin_md.md)] on poistettu käyttäjätililtä ja muut yritys jatkaa tilausta, työtoverisi voivat jatkaa jakamiesi tietojen käyttöä [!INCLUDE[d365fin](includes/d365fin_md.md)] -yrityksessä.  
+Jos yritys tilaa [!INCLUDE[prodshort](includes/prodshort.md)]ia, mutta käyttäjänä et enää halua käyttää sitä, sinun on pyydettävä järjestelmänvalvojaa tai Dynamics 365 -jälleenmyyjäkumppaniasi poistamaan [!INCLUDE[d365fin](includes/d365fin_md.md)] -käyttöoikeus Office 365 -käyttäjätililtäsi. Jos [!INCLUDE[d365fin](includes/d365fin_md.md)] on poistettu käyttäjätililtä ja muut yritys jatkaa tilausta, työtoverisi voivat jatkaa jakamiesi tietojen käyttöä [!INCLUDE[d365fin](includes/d365fin_md.md)] -yrityksessä.  
 
 Jos yrityksesi haluaa peruuttaa [!INCLUDE[d365fin](includes/d365fin_md.md)] -tilauksen, Dynamics 365 -jälleenmyyjäkumppani voi poistaa tilauksen yrityksen tilistä. Lisätietoja on ohjeaiheen [Business Central Onlinen hallinta](/dynamics365/business-central/dev-itpro/administration/tenant-administration) kehittäjien ja IT-ammattilaisten kohdassa.  
 
