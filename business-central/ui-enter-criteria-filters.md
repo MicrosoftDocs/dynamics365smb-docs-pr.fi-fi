@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 06/26/2020
+ms.date: 07/24/2020
 ms.author: sgroespe
-ms.openlocfilehash: 786b782bd1cba3d75ce42776fa5df84ae89e624e
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 9bdaa604841156763739adf5411469c58a74eb1e
+ms.sourcegitcommit: edad0d0b129e916c2cfdfa9c4f8d9d83513f4fd1
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3529111"
+ms.lasthandoff: 07/24/2020
+ms.locfileid: "3619421"
 ---
 # <a name="sorting-searching-and-filtering"></a>Lajitteleminen, hakeminen ja suodattaminen
+
 Luettelossa, raportissa tai XMLportissa olevien tietueiden skannaamista, etsimistä ja rajaamista voi helpottaa muutamilla keinoilla. Näitä keinoja ovat esimerkiksi lajitteleminen, etsiminen ja suodattaminen. Voit käyttää samanaikaisesti joitakin keinoja tai kaikkia keinoja, kun haluat etsiä tai analysoida tiedot nopeasti.
 
 Raporteissa ja XMLporteissa suodattimet voidaan määrittää luetteloiden tavoin rajoittamaan raporttiin tai XMLportiin sisällytettäviä tietoja, mutta lajittelu ja haku ei ole mahdollista.
@@ -30,20 +31,23 @@ When you want to search for data, such as customer names, addresses, or product 
 -->
 
 ## <a name="sorting"></a>Lajittelu
+
 Lajittelun avulla tiedoista saa nopeasti ja kätevästi yleiskuvan. Jos asiakkaita on useita, saat tarvitsemasi yleiskuvan lajittelemalla heidät esimerkiksi **Asiakasnro**-, **Asiakkaan kirjausryhmä**-, **Valuuttakoodi**-, **Maa-/aluekoodi**- tai **ALV-rekisteröintinro**-kohdan avulla,
 
 Voit lajitella luettelon joko valitsemalla sarakkeen otsikkotekstin ja vaihtelemalla nousevaa ja laskevaa lajittelua tai valitsemalla sarakeotsikossa olevilla valintanuolilla **Nouseva**- tai **Laskeva**-toiminnon.  
 
 > [!NOTE]  
->   Lajittelua ei tueta kuvissa, BLOB-kentissä ja FlowFilter-suodattimissa, jotka eivät kuulu taulukkoon.  
+> Lajittelua ei tueta kuvissa, BLOB-kentissä ja FlowFilter-suodattimissa, jotka eivät kuulu taulukkoon.  
 
 ## <a name="searching"></a>Hakeminen
+
 <!--## Searching by using the Quick Filter -->
 Kunkin luettelosivun yläosassa on ![Hakuluettelon](media/ui-search/search-list.png "Hakuluettelon kuvake") **Haku**-toiminto, jonka avulla luettelon tietueiden määrää on helppo vähentää. Näin näkyvissä ovat vain tietueet, jotka sisältävät käyttäjää kiinnostavia tietoja.
 
 Voit aloittaa haun kätevästi valitsemalla **Haku**-toiminnon ja kirjoittamalla ruutuun tekstin, jota haetaan. Voit syöttää kirjaimia, numeroita ja muita symboleita.
 
 ### <a name="fine-tuning-the-search"></a>Haun Hienosäätö
+
 Yleensä haussa yritetään hakea vastaavuuksia kaikista kentistä. Haussa ei erotella pieniä ja isoja kirjaimia (eli kirjainkoolla ei ole merkitystä) ja haussa otetaan huomioon kentän kaikissa kohdissa (alussa, lopussa tai keskellä) oleva teksti.
 
 Voit kuitenkin tarkentaa hakua erikoismerkkien avulla.
@@ -70,9 +74,10 @@ Seuraavassa taulukossa on esimerkkejä haun käyttämisestä.
 > Voit aktivoida hakuruudun ja poistaa aktivoinnin painamalla **F3**-näppäintä. Lisätietoja on kohdassa [Pikanäppäimet](keyboard-shortcuts.md#KeyboardFilter).
 
 > [!NOTE]  
-> Hakua ei vastaa kuvien, BLOB-, FlowFilters-, FlowFields- ja muiden taulukon ulkopuolisten kenttien arvoja. 
+> Hakua ei vastaa kuvien, BLOB-, FlowFilters-, FlowFields- ja muiden taulukon ulkopuolisten kenttien arvoja.
 
 ## <a name="filtering"></a><a name="filtering"></a>Suodattaminen
+
 Suodattaminen sisältää kehittyneitä ja monipuolisia toimintoja, joiden avulla määritetään luettelossa näkyvät tai raporttiin tai XMLportiin sisällytettävät tietueet. Hakemisella ja suodattamisella on kaksi pääeroa, jotka kerrotaan alla olevassa taulukossa.
 
 || **Hakeminen** | **Suodattaminen** |
@@ -85,6 +90,7 @@ Suodattaminen mahdollistaa tiettyjen tilien tai asiakkaiden, päivämäärien, s
 Luetteloiden suodattimet näkyvät suodatinruudussa luettelon vasemmalla puolella, kun se aktivoidaan. Raporttien, erätöiden ja XMLportien suodattimet näkyvät suoraan pyyntösivulla.
 
 ### <a name="filtering-with-option-fields"></a>Vaihtoehtokenttien käyttäminen suodattamiseen
+
 Tavallisissa tietoja, määrityspäivämäärän tai liiketoimintatietoja sisältävissä kentissä suodattimia voi määrittää sekä valitsemalla tietoja ja kirjoittamalla suodatinarvoja. Suodatusehtoja voi lisäksi tarkentaa symbolien avulla. Lisätietoja on kohdassa [Suodatusehtojen antaminen](ui-enter-criteria-filters.md#entering-filter-criteria).
 
 **Vaihtoehto**-tyyppisissä kentissä suodatin voidaan kuitenkin määrittää vain valitsemalla yhden vaihtoehdon tai useita vaihtoehtoja avattavasta käytettävissä olevien vaihtoehtojen luettelosta. Esimerkki vaihtoehtokentästä on **Myyntitilaukset**-sivun **Tila**-kenttä.
@@ -93,6 +99,7 @@ Tavallisissa tietoja, määrityspäivämäärän tai liiketoimintatietoja sisäl
 > Jos valitset suodatusarvoksi useita vaihtoehtoja, vaihtoehtojen välille määritetään *TAI*-suhde. Jos valitset esimerkiksi sekä **Avoin**- ja **Vapautettu**-valintaruudun **Tila**-suodatuskentän **Myyntitilaukset**-sivulla, silloin näytetään myyntitilaukset, jotka ovat joko avoimia tai vapautettuja.
 
 ### <a name="setting-filters-on-lists"></a>Suodattimien määrittäminen luetteloissa
+
 Luetteloiden suodattimet määritetään suodatinruudussa. Avaa luettelon suodatinruutu valitsemalla sivun nimen vieressä oleva avattavan luettelon nuoli ja valitse sitten **Näytä suodatinruutu** -toiminto. Vaihtoehtoisesti voit painaa näppäinyhdistelmää **Vaihto+F3**.
 
 Avaa luettelon sarakkeen suodatinruutu valitsemalla avattavan luettelon nuoli ja valitse sitten **Suodatus**-toiminto. Vaihtoehtoisesti voit painaa näppäinyhdistelmää **Vaihto+F3**. Valittu sarake näkyy avautuvassa suodatinruudussa suodatuskenttänä **Luettelon suodatusperuste** -osana.
@@ -119,6 +126,7 @@ Suodatinruudussa näkyvät luettelon nykyiset suodattimet. Sen avulla voi määr
 Voit määrittää yksinkertaisen suodattimen suoraan luettelossa käyttämällä suodatinruutua. Tällainen suodatin näyttää vain tietueet, joilla on sama arvo kuin valitussa solussa. Valitse solu luettelossa valitsemalla ensin avattavan luettelon nuoli ja sitten **Suodata tähän arvoon** -toiminto. Vaihtoehtoisesti voit painaa näppäinyhdistelmää **Alt+F3**.
 
 ### <a name="setting-filters-in-reports-batch-jobs-and-xmlports"></a>Raporttien, erätöiden ja XMLportien suodattimien määrittäminen
+
 Raporttien ja XMLportien suodattimet näkyvät suoraan pyyntösivulla. Viimeksi käytetyt suodattimet näkyvät pyyntösivulla **Käytä oletusarvoja kohteesta:** -kentän valinnan mukaisesti. Lisätietoja on kohdassa [Tallennettujen asetusten käyttäminen](ui-work-report.md#SavedSettings).
 
 **Suodatuksen** pääosassa näkyy oletussuodatuskentät, joilla rajoitetaan raporttiin tai XMLportiin sisällytettäviä tietueita. Lisää suodatin valitsemalla **+ Suodatus** -toiminto, kirjoittamalla suodatusperusteena käytettävän kentän nimi tai valitsemalla kenttä avattavasta luettelosta.
@@ -126,6 +134,7 @@ Raporttien ja XMLportien suodattimet näkyvät suoraan pyyntösivulla. Viimeksi 
 Voit säätää **Kokonaisarvojen suodatusperuste** -osassa erilaisia dimensioita, jotka vaikuttavat raportin tai XMLportin laskelmiin. Lisää suodatin valitsemalla **+ Suodatus** -toiminto, kirjoittamalla suodatusperusteena käytettävän kentän nimi tai valitsemalla kenttä avattavasta luettelosta.
 
 ## <a name="entering-filter-criteria"></a>Suodatusehtojen antaminen
+
 Voit antaa suodatinruudussa ja pyyntösivulla suodatusehdot suodatuskentän ruudussa.
 
 Suodatettavan kentän tyyppi määrittää, millaisia ehtoja voi antaa. Jos esimerkiksi suodatetaan kenttä, jossa on kiinteitä arvoja, valittavissa on vain nämä arvot. Lisätietoja erityisistä suodatussymboleista on kohdissa [Suodatusehdot](#FilterCriteria) ja [Suodatuksen tunnukset](#FilterTokens).
@@ -136,10 +145,11 @@ Sarakkeet, joilla on jo suodattimia, löytyvät, kun käytössä on sarakeotsiko
 > Nopeuta tietojen etsimistä ja analysoimista pikanäppäinyhdistelmien avulla. Voit esimerkiksi valita kentän ja lisätä kentän suodatinruutuun **Vaihto+Alt+F3**-pikanäppäinten avulla, kirjoittaa suodatinehdot ja palata riveille **Ctrl+Enter**-pikanäppäinten avulla. Valitse toinen kenttä ja suodata sen arvot **Alt+F3**-pikanäppäimillä. Lisätietoja on kohdassa [Pikanäppäimet](keyboard-shortcuts.md#KeyboardFilter).
 
 ### <a name="filter-criteria-and-symbols"></a><a name="FilterCriteria"> </a>Suodatusehdot ja merkit
+
 Kun syötät kriteerejä, voit käyttää kaikkia numeroita ja kirjaimia, joita voi yleensäkin käyttää kentässä. Voit käyttää tulosten suodatukseen myös erikoismerkkejä (tai operaattoreita). Seuraavassa taulukossa on esitelty symbolit, joita voi käyttää suodattimissa. Lisätietoja päivämääristä ja ajoista on myös kohdassa [Kalenterin päivämäärien ja aikojen käsitteleminen](ui-enter-date-ranges.md).
 
 > [!IMPORTANT]  
->  Joissakin tilanteissa kentät arvot voivat sisältää näitä merkkejä, ja haluat suodattaa niiden avulla. Siinä tapauksessa on merkki on lisättävä suodatuslausekkeeseen lainausmerkeissä (”). Jos haluat esimerkiksi suodattaa tietueita, joiden alussa on teksti *S&R*, suodatuslauseke on `'S&R*'`.
+> Joissakin tilanteissa kentät arvot voivat sisältää näitä merkkejä, ja haluat suodattaa niiden avulla. Siinä tapauksessa on merkki on lisättävä suodatuslausekkeeseen lainausmerkeissä (”). Jos haluat esimerkiksi suodattaa tietueita, joiden alussa on teksti *S&R*, suodatuslauseke on `'S&R*'`.
 
 Seuraavissa osissa käsitellään eri operaattoreiden käyttöä.
 
@@ -273,6 +283,7 @@ Käytä `%myvendors`-tunnusta toimittajan **Nro**-kentässä, kun haluat näytt�
 |`%myvendors`|Roolikeskuksen **Omat toimittajat** -kohdan toimittajat. |  
 
 ## <a name="see-also"></a>Katso myös
+
 [Usein kysyttyjen kysymysten haku ja suodatus](ui-search-filter-faq.md)  
 [Luettelonäkymien tallentaminen ja mukauttaminen](ui-views.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  

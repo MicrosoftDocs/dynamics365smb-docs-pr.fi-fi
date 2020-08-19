@@ -12,19 +12,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 66c5f96d85df26c269f539bda736a14d8b93b3cb
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 9b8c747b7331639506587bb9721a8486228bf6e9
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180809"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676723"
 ---
 # <a name="print-vat-information-on-invoices"></a>ALV-tietojen tulostaminen laskuihin
 Kirjausryhmien avulla voit tulostaa ALV-tiedot myyntilaskun jokaiselle nimikkeelle.  
 
 ## <a name="to-print-vat-information-on-an-invoice"></a>ALV-tietojen tulostaminen laskuun  
 
-1.  Valitse ![Etsi sivu tai raportti](../../media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") -kuvake, anna **ALV-kirjausryhmä** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](../../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **ALV-kirjausryhmä** ja valitse sitten liittyvä linkki.  
 2.  Kirjoita nimikkeen koodi ja kuvaus.  
 3.  Valitse **Tulosta ALV-tiedot laskuun**, kun haluat tulostaa kunkin nimikkeen ALV-tiedot vastaavaan myyntilaskuun.  
 4.  Luo ja kirjaa myyntilasku. Valitse **Esikatselu**-painike ja tarkista lasku. Varmista, että se sisältää kirjausryhmän kunkin rivin ALV-tiedot.  

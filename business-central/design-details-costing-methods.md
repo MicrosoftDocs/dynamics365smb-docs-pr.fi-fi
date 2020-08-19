@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: bholtorf
-ms.openlocfilehash: 8333e3127a009a04d63fceb8ec17530f83de10d0
-ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
+ms.openlocfilehash: e3ec3ad00d73fcb74d41ff46cc2d2c0e34e78489
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "3496673"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617909"
 ---
 # <a name="design-details-costing-methods"></a>Rakennetiedot: arvostusmenetelmät
+
 Arvostusmenetelmä määrittää, siirretäänkö todellinen tai budjetoitu arvo pääomaan ja käytetäänkö sitä kustannuslaskennassa. Kirjauspäivämäärän ja järjestyksen kanssa arvostusmenetelmä vaikuttaa myös siihen, miten kustannusvirta tallennetaan.
 
 > [!NOTE]
@@ -26,13 +27,13 @@ Arvostusmenetelmä määrittää, siirretäänkö todellinen tai budjetoitu arvo
 
 Seuraavia menetelmiä tuetaan kohteessa [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
 
-|Arvostusmenetelmä|Kuvaus|Käyttäminen|  
-|--------------------|---------------------------------------|-----------------|  
-|FIFO|Nimikkeen yksikkökustannus on FIFO-säännön perusteella valitun nimikkeen vastaanoton todellinen arvo.<br /><br /> Varastonarvostuksessa oletetaan, että ensin varastoon sijoitetut nimikkeet myydään ensin.|Liiketoimintaympäristöissä, joissa tuotteen kustannus on vakaa.<br /><br /> (Kun hinnat nousevat, taseessa näkyy suurempi arvo. Tämä tarkoittaa, että verovelat kasvavat, mutta luottoluokitus ja rahanlainauskyky paranevat.)<br /><br /> Nimikkeille, joilla on rajoitettu varastointiaika, koska vanhimmat tavarat täytyy myydä ennen kuin niiden viimeinen myyntipäivä ohitetaan.|  
-|LIFO|Nimikkeen yksikkökustannus on LIFO-säännön perusteella valitun nimikkeen vastaanoton todellinen arvo.<br /><br /> Varastonarvostuksessa oletetaan, että viimeiseksi varastoon sijoitetut nimikkeet myydään ensin.|Ei sallittu monissa maissa/monilla alueilla, koska sitä voidaan käyttää voiton alas painamiseen.<br /><br /> (Kun hinnat nousevat, tuloslaskelman arvo pienenee. Tämä tarkoittaa, että verovelat vähenevät, mutta rahanlainauskyky heikkenee.)|  
-|Keskiarvo|Nimikkeen yksikkökustannus lasketaan kussakin vaiheessa keskimääräisenä yksikkökustannuksena oston jälkeen.<br /><br /> Varastonarvostus olettaa, että kaikki vaihto-omaisuus myydään samanaikaisesti.|Liiketoimintaympäristöissä, joissa tuotteen kustannus on epävakaa.<br /><br /> Käytä, kun vaihto-omaisuus on pinottu tai sekoitettu yhteen, eikä niitä voida erottaa, kuten kemikaalit.|  
-|Määrätty|Nimikkeen yksikkökustannus on tarkka kustannus, jolloin tietty yksikkö vastaanotettiin.|Tuotannon tai kaupan helposti tunnistettavissa nimikkeissä, joilla on suhteellisen korkeat yksikkökustannukset.<br /><br /> Nimikkeille, jotka ovat säätelyn alaisia.<br /><br /> Nimikkeille, joilla on sarjanumero.|  
-|Vakio|Nimikkeen yksikkökustannus määritetty etukäteen arvion perusteella.<br /><br /> Kun todelliset kustannukset realisoituvat myöhemmin, vakiokustannus täytyy mukauttaa todellisiin kustannuksiin varianssin arvojen kautta.|Missä kustannusten valvonta on erittäin tärkeää.<br /><br /> Toistuvassa valmistuksessa arvostaaksesi suoria materiaali- ja resurssikustannuksia sekä valmistuksen yleiskustannuksia.<br /><br /> Jos standardien ylläpitämiseksi on olemassa kurinalaisuutta ja henkilöstöä.|  
+| Arvostusmenetelmä | Kuvaus | Käyttäminen |
+|--|--|--|
+| FIFO | Nimikkeen yksikkökustannus on FIFO-säännön perusteella valitun nimikkeen vastaanoton todellinen arvo.<br /><br /> Varastonarvostuksessa oletetaan, että ensin varastoon sijoitetut nimikkeet myydään ensin. | Liiketoimintaympäristöissä, joissa tuotteen kustannus on vakaa.<br /><br /> (Kun hinnat nousevat, taseessa näkyy suurempi arvo. Tämä tarkoittaa, että verovelat kasvavat, mutta luottoluokitus ja rahanlainauskyky paranevat.)<br /><br /> Nimikkeille, joilla on rajoitettu varastointiaika, koska vanhimmat tavarat täytyy myydä ennen kuin niiden viimeinen myyntipäivä ohitetaan. |
+| LIFO | Nimikkeen yksikkökustannus on LIFO-säännön perusteella valitun nimikkeen vastaanoton todellinen arvo.<br /><br /> Varastonarvostuksessa oletetaan, että viimeiseksi varastoon sijoitetut nimikkeet myydään ensin. | Ei sallittu monissa maissa/monilla alueilla, koska sitä voidaan käyttää voiton alas painamiseen.<br /><br /> (Kun hinnat nousevat, tuloslaskelman arvo pienenee. Tämä tarkoittaa, että verovelat vähenevät, mutta rahanlainauskyky heikkenee.) |
+| Keskiarvo | Nimikkeen yksikkökustannus lasketaan kussakin vaiheessa keskimääräisenä yksikkökustannuksena oston jälkeen.<br /><br /> Varastonarvostus olettaa, että kaikki vaihto-omaisuus myydään samanaikaisesti. | Liiketoimintaympäristöissä, joissa tuotteen kustannus on epävakaa.<br /><br /> Käytä, kun vaihto-omaisuus on pinottu tai sekoitettu yhteen, eikä niitä voida erottaa, kuten kemikaalit. |
+| Määrätty | Nimikkeen yksikkökustannus on tarkka kustannus, jolloin tietty yksikkö vastaanotettiin. | Tuotannon tai kaupan helposti tunnistettavissa nimikkeissä, joilla on suhteellisen korkeat yksikkökustannukset.<br /><br /> Nimikkeille, jotka ovat säätelyn alaisia.<br /><br /> Nimikkeille, joilla on sarjanumero. |
+| Vakio | Nimikkeen yksikkökustannus määritetty etukäteen arvion perusteella.<br /><br /> Kun todelliset kustannukset realisoituvat myöhemmin, vakiokustannus täytyy mukauttaa todellisiin kustannuksiin varianssin arvojen kautta. | Missä kustannusten valvonta on erittäin tärkeää.<br /><br /> Toistuvassa valmistuksessa arvostaaksesi suoria materiaali- ja resurssikustannuksia sekä valmistuksen yleiskustannuksia.<br /><br /> Jos standardien ylläpitämiseksi on olemassa kurinalaisuutta ja henkilöstöä. |
 
  Seuraavassa kuvassa esitetään, kuinka kustannukset virtaavat varaston läpi kussakin kustannuslaskelmamenetelmässä.  
 
@@ -40,7 +41,7 @@ Seuraavia menetelmiä tuetaan kohteessa [!INCLUDE[d365fin](includes/d365fin_md.m
 
  Arvostusmenetelmät eroavat siinä, miten ne arvostavat varaston vähennyksiä, ja että käyttävätkö ne todellista kustannusta vai vakiokustannusta arvostuksen perustana. Seuraavassa taulukossa selitetään eri ominaisuudet. (LIFO-menetelmä on suljettu pois, koska se on hyvin samankaltainen kuin FIFO-menetelmä.)  
 
-||FIFO|Keskiarvo|Vakio|Määrätty|  
+|<!--blank -->|FIFO|Keskiarvo|Vakio|Määrätty|  
 |-|----------|-------------|--------------|--------------|  
 |Yleiset ominaisuudet|Helppo ymmärtää|Perustuu jakson vaihtoehtoihin: **päivä**/**viikko**/**kuukausi**/**vuosineljännes**/**kirjanpitojakso**.<br /><br /> Voidaan laskea nimikekohtaisesti tai nimikkeen/sijainnin/variantin mukaan.|Helppo käyttää, mutta vaatii pätevää kunnossapitoa|Vaatii nimikeseurantaa sekä saapuvissa että lähtevissä tapahtumissa.<br /><br /> Yleensä käytetään sarjoitettuja nimikkeitä|  
 |Sovellus/muutos|Sovellus seuraa **jäljellä olevaa määrää**.<br /><br /> Säätäminen välittää kustannukset määrän kohdistuksen mukaisesti.|Sovellus seuraa **jäljellä olevaa määrää**.<br /><br /> Kustannukset lasketaan ja siirretään edelleen **arvostuspäivämäärän** mukaan.|Sovellus seuraa **jäljellä olevaa määrää**.<br /><br /> Sovellus perustuu FIFO-käytäntöön.|Kaikki sovellukset ovat kiinteitä.|  

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8b332e50d722ff56625fce45a9617ea67ec2201a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: bf893e2f8ea7eaeee9867566da92461eef7a9578
+ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184194"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3666795"
 ---
 # <a name="fixed-assets"></a>Käyttöomaisuus
 [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman Käyttöomaisuus-sovellusalueesta saat yleiskuvan käyttöomaisuudestasi, ja se takaa oikeat jaksottaiset poistot. Se mahdollistaa myös kunnossapitokulujen seuraamisen, vakuutussopimusten hallinnoimisen, käyttöomaisuustransaktioiden kirjaamisen sekä monenlaisten raporttien ja tilastojen luomisen.
@@ -47,6 +47,11 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 | Laske ja kirjaa poisto sekä analysoi poisto käyttöomaisuusraporteissa. |[Käyttöomaisuuden poisto tai kuolettaminen](fa-how-depreciate-amortize.md) |
 | Kirjaa luovutustransaktiot, tarkastele luovutustapahtumia ja kirjaa osittaisia luovutuksia. |[Käyttöomaisuuden käytöstä poistaminen](fa-how-dispose-retire.md) |
 | Hallitse käyttöominaisuuserien budjetteja, budjetin hankintamenoja, käyttöomaisuuden luovutusten budjetointia ja poistojen budjetointia. |[Käyttöomaisuuden budjettien hallinta](fa-how-manage-budgets.md) |
+
+## <a name="video-overview"></a>Videon yleiskuvaus
+Seuraava video kattaa käyttöomaisuuden perusteet.
+
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS]
 
 ## <a name="see-also"></a>Katso myös
 [Käyttöomaisuuden määrittäminen](fa-setup.md)  

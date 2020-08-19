@@ -9,20 +9,20 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
 ms. search.keywords: cloud, edge
-ms.date: 04/01/2020
+ms.date: 07/13/2020
 ms.author: bmeier
-ms.openlocfilehash: c2c30715c730aec51f31f80ea95fd896cb1b257f
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 8948864c1e3d00f3955b0952fd70048c13f4585c
+ms.sourcegitcommit: 89d0ea903f61ab0628f99329c762d9f1619c49a7
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528861"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "3577254"
 ---
 # <a name="intelligent-insights-with-prodshort-online"></a>Älykkäät tiedot tuotteessa [!INCLUDE[prodshort](includes/prodshort.md)] Online
 
 [!INCLUDE[prodshort](includes/prodshort.md)] tuotteen verkkoversion käyttäjänä, sinulla on täysi käyttöoikeus skenaarioihin, jotka perustuvat älykkääseen pilveen, kuten koneoppimiseen perustuviin suorituskyvyn mittareihin tai kun tarkastalet tietoja Power BIn kautta.  Niin kauan kun [!INCLUDE[prodshort](includes/prodshort.md)] on ensisijaisesti pilvipalvelu, myös asiakkaat, joiden on suoritettava työt kokonaan paikallisesti tai pilvessä älykkään yhteyden avulla, voivat tehdä niin.  
 
-Jos olet kiinnostunut tuotteesta [!INCLUDE[prodshort](includes/prodshort.md)], voit rekisteröityä ilmaiselle kokeilujaksolle tai voit työskennellä kumppanin kanssa niin, että [!INCLUDE[prodshort](includes/prodshort.md)] asennetaan valitsemallesi paikalliselle kovalevylle. Voit sitten saada älykkäät tiedot yhdistämällä vuokraajaan pilvipalvelussa. Tuloksena paikallisesti käyttöönotetun [!INCLUDE[prodshort](includes/prodshort.md)] -sovelluksen tiedot replikoidaan älykkään pilven skenaarioiden pilveen.  
+Jos olet kiinnostunut tuotteesta [!INCLUDE[prodshort](includes/prodshort.md)], voit rekisteröityä ilmaiselle kokeilujaksolle tai voit työskennellä kumppanin kanssa niin, että [!INCLUDE[prodshort](includes/prodshort.md)] asennetaan valitsemallesi paikalliselle kovalevylle. Voit sitten saada älykkäät tiedot yhdistämällä vuokraajaan pilvipalvelussa. Tuloksena [!INCLUDE[prodshort](includes/prodshort.md)] -sovelluksen paikallisesti käyttöönotetun tiedot replikoidaan älykkään pilven skenaarioiden pilveen.  
 
 Yhteyden muodostaminen paikallisesta ratkaisusta älykkääseen pilveen edellyttää, että järjestelmänvalvoja määrittää tietokantaa koskevat tiedot. Paikallisesti käyttöönotetun [!INCLUDE[prodshort](includes/prodshort.md)] online-tilan yhdistämiseen käytettävät työkalut ovat samat, joita käytetään myös siirtoon paikallisesta online-tilaan. Lisätietoja on kohdassa [Paikallisten tietojen siirtäminen Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) -ohjelmaan [!INCLUDE[prodshort](includes/prodshort.md)]-hallintasisällössä .  
 
@@ -48,7 +48,6 @@ Kun Dynamics 365 -jälleenmyyntikumppani on hankkinut oikean käyttöoikeuden, j
 
 ## <a name="see-also"></a>Katso myös
 
-[Tervetuloa käyttämään Business Centralia](index.md)  
-[Business Central -sovelluksen älykkään pilven laajennus](ui-extensions-intelligent-cloud.md)  
-[Tietojen replikointilaajennus](ui-extensions-data-replication.md)  
+[Tervetuloa Business Centraliin](index.md)  
+[Pilvisiirron älykkäät pilvilaajennukset](ui-extensions-data-replication.md)  
 [Paikallisten tietojen siirtäminen Business Central Onlineen](/dynamics365/business-central/dev-itpro/administration/migrate-data)  

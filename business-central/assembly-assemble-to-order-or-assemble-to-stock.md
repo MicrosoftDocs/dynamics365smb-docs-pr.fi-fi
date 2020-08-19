@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: bholtorf
-ms.openlocfilehash: a8b5ab66b680b6c49226e308e6f2e17a0c2604f9
-ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
+ms.openlocfilehash: a5fc9b13e28b51d776fad6d02feae4624b756c4c
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "3496798"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617934"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Tietoja Kokoonpano tilausta varten- ja Kokoonpano varastoon -toiminnoista
 Kokoonpanon osat voidaan toimittaa seuraavaan kahteen prosessiin:  
@@ -72,9 +72,9 @@ Kun syötät myyntiriville kokoonpano tilausta varten nimikkeen, kokoonpanotilau
 
  Seuraavassa taulukossa käsitellään sääntöjä, joilla määritetään pienin ja suurin **Kokoonpantava määrä** -kenttään annettava arvo, kun halutaan poiketa yhdistelmätilanteen oletusarvosta. Taulukossa näkyy yhdistelmätilanne, jossa linkitetyn myyntitilausrivin arvo **Toimitettava määrä** -kentässä muutetaan 7:stä 4:ksi, ja **Kokoonpantava määrä** -oletusarvoksi tulee sen vuoksi 4.  
 
-||Myyntitilausrivi|Kokoonpanotilauksen otsikko|  
+|-|Myyntitilausrivi|Kokoonpanotilauksen otsikko|  
 |-|----------------------|---------------------------|  
-||**Määrä**|**Toimitettava määrä**|**Kokoonpantava määrä tilausta varten**|**Toimitettu määrä**|**Määrä**|**Kokoonpantava määrä**|**Kokoonpantu määrä**|**Jäljellä oleva määrä**|  
+||**määrä**|**Toimitettava määrä**|**Kokoonpantava määrä tilausta varten**|**Toimitettu määrä**|**Määrä**|**Kokoonpantava määrä**|**Kokoonpantu määrä**|**Jäljellä oleva määrä**|  
 |Alku|10|7|7|0|7|7|0|7|  
 |Vaihtoraha||4||||4 (lisätään oletusarvon mukaan)|||  
 

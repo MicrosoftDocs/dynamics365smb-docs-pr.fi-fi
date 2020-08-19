@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 08/10/2020
 ms.author: sgroespe
-ms.openlocfilehash: dbe03ccde8111a4d14ce34db5b5b5e73297796be
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c2d0558febd8bd895bbc591f4165a7a8fdda8600
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191449"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677306"
 ---
 # <a name="subcontract-manufacturing"></a>Tuotanto alihankintana
 Valittujen toimintojen siirtäminen alihankintoina toimittajalle on yleistä monissa tuotantoyrityksissä. Alihankinta voi olla joko harvinaista tai keskeinen osa kaikkia tuotantoprosesseja.
@@ -71,13 +71,6 @@ Ostotilaukseksi muuttunut työkirjarivi poistetaan työkirjasta.  Kun ostotilaus
 
 ## <a name="posting-subcontract-purchase-orders"></a>Alihankkijan ostotilauksen kirjaaminen  
 Kun alihankkijan ostotilaukset on luotu, ne voidaan kirjata. Kun tilaus vastaanotetaan, tuotantotilaukseen kirjataan kapasiteettitapahtuma; kun tilaus laskutetaan, ostotilauksen välitön kustannus kirjataan tuotantotilaukseen.  
-
-Ohjelma kirjaa tuotantotilauksen tuotospäiväkirjan rivin tapahtuman automaattisesti, kun ostotilaus vastaanotetaan. Tätä sovelletaan vain, jos alihankintasopimuksen työvaihe on tuotantotilauksen reitityksen viimeinen työvaihe.  
-
-> [!CAUTION]  
->  Kirjataan jatkuvan tuotantotilauksen tuotos automaattisesti, kun vastaanotettuja alihankinnan nimikkeitä ehkä haluttu. Syynä tälle voi olla, että odotettu tuotoksen määrä, joka kirjataan, voi olla erilainen kuin todellinen määrä ja automaattisen tulostuksen kirjauspäivämäärä voi olla harhaanjohtava.  
->   
->  Jos haluat välttää oletetun tuotantotilauksen tuotoksen kirjaamisen alihankintasopimuksen oston vastaanoton yhteydessä, varmista, että alihankinnan toiminto ei ole viimeinen. Lisää vaihtoehtoisesti uusi viimeinen operaatio lopullisen tuotoksen määrälle.
 
 ## <a name="to-post-a-subcontract-purchase-order"></a>Alihankkijan ostotilauksen kirjaaminen  
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostotilaukset** ja valitse sitten liittyvä linkki.  

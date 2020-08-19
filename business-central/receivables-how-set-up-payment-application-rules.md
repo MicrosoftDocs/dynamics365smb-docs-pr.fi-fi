@@ -1,5 +1,5 @@
 ---
-title: Maksujen täsmäyttäminen automaattisen kohdistuksen avulla | Microsoft Docs
+title: Automaattinen maksujen soveltamisen sääntöjen määrittäminen
 description: Määritä Maksusovelluksen säännöt -sivulla säännöt, jotka hallinnoivat sitä, kuinka maksuja/pankkitapahtumia sovelletaan automaattisesti niihin liittyviin avoimiin kirjanpitotapahtumiin, kun käytät Sovella automaattisesti -toimintoa Maksujen täsmäytyskirjauskansio -sivulla.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,17 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: 64756cdc1a95cc0bb866fa4b7f87ecea0f1282ff
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: b655032a17aa617ccbaba2ac3dfd5413d4ca4326
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191929"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617571"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Automaattinen maksujen soveltamisen sääntöjen määrittäminen
+
 **Maksun sovellussäännöt** -sivulla määritetään sääntöjä, jotka määrittävät, miten maksuteksti (pankkitapahtumassa) kohdistetaan automaattisesti seuraavien kahden prosessin avointen tapahtumien tekstiin:
+
 - Määritä säännöt, jotka hallinnoivat sitä, kuinka maksuja/pankkitapahtumia sovelletaan automaattisesti niihin liittyviin avoimiin (maksamattomiin) laskuihin, hyvityslaskuihin tai muihin kirjanpitotapahtumiin, kun käytät **Sovella automaattisesti** -toimintoa **Maksujen täsmäytyskirjauskansio** -sivulla. Lisätietoja on kohdassa [Maksujen täsmäyttäminen käyttämällä automaattista kohdistusta](receivables-how-reconcile-payments-auto-application.md).
 
 - Täsmäytä pankkitapahtumat automaattisesti niihin liittyviin sisäisiin pankkitilitapahtumiin valitsemalla **Täsmäytä automaattisesti** -toiminto **Pankkitilin täsmäytys** -sivulla. Lisätietoja on kohdassa [Pankkitilien täsmäyttäminen](bank-how-reconcile-bank-accounts-separately.md).

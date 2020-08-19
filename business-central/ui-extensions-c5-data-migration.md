@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
-ms.date: 06/19/2020
+ms.date: 07/23/2020
 ms.author: bholtorf
-ms.openlocfilehash: d94fd19194eb47b421e99c81ac8bd588543510e5
-ms.sourcegitcommit: ec3034640ed10e0fd028568ec45f21c84498d3de
+ms.openlocfilehash: d52b04f000617ac037ccc37bcf02061609e680c6
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "3486369"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617834"
 ---
 # <a name="the-c5-data-migration-extension"></a>Tietojen siirron C5-laajennus
 
@@ -146,8 +146,8 @@ Kun olet korjannut yhden tai useita virheitä, voit siirtää korjaamasi objekti
 
 Yksi tapa tarkistaa, että tiedot on siirretty oikein, on katsoa seuraavia C5:n ja [!INCLUDE[d365fin](includes/d365fin_md.md)]in sivuja.
 
-|Microsoft Dynamics C5 2012 | [!INCLUDE[d365fin](includes/d365fin_md.md)]| Käytettävä eräajo |
-|---------------------------|--------------------------------------------|------------------|
+|Microsoft Dynamics C5 2012 | Dynamics 365 Business Central| Käytettävä eräajo |
+|---------------------------|------------------------------|------------------|
 |Asiakastapahtumat| Yleiset päiväkirjat| CUSTMIGR |
 |Toimittajatapahtumat| Yleiset päiväkirjat| VENDMIGR|
 |Nimiketapahtumat| Nimikepäiväkirjat| ITEMMIGR |

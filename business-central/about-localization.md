@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: availability, localization
-ms.date: 04/01/2020
+ms.date: 07/21/2020
 ms.author: edupont
-ms.openlocfilehash: 8566856ade03531ce01f0fca35828d9af4fe785d
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 6d9cbf61160a2f8d64cfc7cd6b65aae4bd84a881
+ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188874"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "3611532"
 ---
 # <a name="local-functionality-in-prodlong"></a>[!INCLUDE[prodlong](includes/prodlong.md)]in paikalliset toiminnot
 
@@ -25,7 +25,7 @@ Luettelo tällä hetkellä tuetuista markkinoista on kohdassa [Saatavuus maassa/
 
 ## <a name="local-functionality"></a>Paikalliset toiminnot
 
-Saat lisätietoja kunkin maan paikallisista toiminnoista valitsemalla sopivan linkin:
+Saat lisätietoja kunkin maan/alueen paikallisista toiminnoista valitsemalla sopivan linkin:
 
 | Alue | Maa | Lisätietoja |
 | --- | --- |--- |
@@ -54,9 +54,11 @@ Saat lisätietoja kunkin maan paikallisista toiminnoista valitsemalla sopivan li
 |        | Uusi-Seelanti | [Uusi-Seelannin paikalliset toiminnot](localfunctionality/newzealand/new-zealand-local-functionality.md) |
 
 ### <a name="other-countries"></a>Muut maat
-[!INCLUDE[d365fin](includes/d365fin_md.md)] on saatavana myös muilla markkina-alueilla lokalisointisovellusten kautta. Jos Microsoftin kumppani on kehittänyt maassasi käytettävän lokalisointisovelluksen, löydät sen [AppSourcesta](https://appsource.microsoft.com/product/dynamics-365-business-central/).
+
+[!INCLUDE[d365fin](includes/d365fin_md.md)] on saatavana myös muilla markkina-alueilla lokalisointisovellusten kautta. Jos Microsoftin kumppani on kehittänyt maassasi/alueellasi käytettävän lokalisointisovelluksen, löydät sen [AppSourcesta](https://appsource.microsoft.com/product/dynamics-365-business-central/).
 
 ## <a name="see-also"></a>Katso myös
+
 [Käytön aloittaminen](product-get-started.md)  
 [Yhteensopivuus](compliance/compliance-overview.md)  
 [Saatavuus maassa/alueella ja tuetut käännökset](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  

@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 04/01/2020
+ms.date: 07/21/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7ca1937b34b157a4b76314b5ad38f7918ac7dded
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: bbaf458e39ec45dcbcb34bd50e38feb70fd8426b
+ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182778"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "3611665"
 ---
 # <a name="set-up-value-added-tax"></a>Määritä arvolisävero
+
 Kuluttajat ja yritykset maksavat arvonlisäveroa (ALV:tä), kun he ostavat tavaroita tai palveluja. ALV:n määrä voi vaihdella useiden tekijöiden mukaan. ALV määritetään [!INCLUDE[d365fin](includes/d365fin_md.md)]issa määrittämään prosentti, jolla verosummat lasketaan, seuraavien tekijöiden perusteella:
 
 * Kenelle myydään  
@@ -28,22 +29,26 @@ Kuluttajat ja yritykset maksavat arvonlisäveroa (ALV:tä), kun he ostavat tavar
 Voit määrittää ALV-laskelmat manuaalisesti, mutta se voi olla hankalaa ja aikaavievää. Voit helpottaa määritysten tekemistä **ALV-asetusten** ohjatun määrityksen avulla. Tämän oppaan käyttö on suositeltavaa ALV:tä määritettäessä.
 
 > [!NOTE]  
->   Voit käyttää opasta vain siinä tapauksessa, että olet luonut oman yrityksen etkä ole kirjannut ALV:n sisältäviä tapahtumia. Muussa tapauksessa on erittäin helppoa käyttää vahingossa eri ALV-prosentteja, mikä johtaisi virheellisiin ALV-raportteihin.  
+> Voit käyttää opasta vain siinä tapauksessa, että olet luonut oman yrityksen etkä ole kirjannut ALV:n sisältäviä tapahtumia. Muussa tapauksessa on erittäin helppoa käyttää vahingossa eri ALV-prosentteja, mikä johtaisi virheellisiin ALV-raportteihin.  
 
 Jos haluat määrittää ALV-laskelmat itse tai jos haluat lisätietoja kustakin vaiheesta, kukin vaihe käsitellään tässä ohjeaiheessa.
 
 ## <a name="to-use-the-vat-setup-assisted-setup-guide-to-set-up-vat-recommended"></a>ALV-asetusten ohjatun määritysoppaan käyttäminen ALV:n määrityksessä (suositus)
+
 Avustetun ALV-asetusten asennus oppaan käyttö on suositeltavaa määritettäessä ALV:tä [!INCLUDE[d365fin](includes/d365fin_md.md)]issa.
 
 Avaa avustettu asennusopas seuraavasti:
+
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asetusten ohjattu määritys**.  
 2. Valitse **Määritä ALV** ja suorita vaiheet.
-3. Kun olet suorittanut avustetut asetukset, käy **ALV-kirjausten asetukset** -sivulla ja tarkista, onko sinun täytettävä lisää kenttiä paikallisen maaversion mukaan. Lisätietoja on kohdassa [Paikalliset toiminnot Business Centralissa](about-localization.md)  
+3. Kun olet suorittanut avustetut asetukset, käy **ALV-kirjausten asetukset** -sivulla ja tarkista, onko sinun täytettävä lisää kenttiä paikallisen vaatimusten mukaan [!INCLUDE [prodshort](includes/prodshort.md)] -versiossasi. Lisätietoja on kohdassa [Paikalliset toiminnot Business Centralissa](about-localization.md)  
 
 ## <a name="to-set-up-vat-registration-numbers-for-your-country-or-region"></a>Oman maan tai alueen ALV-rekisteröintinumeroiden määrittäminen
+
 Voit auttaa varmistamaan, että annettavat ALV-rekisteröintinumerot ovat kelvollisia, määrittämällä niiden maiden tai alueiden ALV-rekisteröintinumeroiden muodot, joissa sinulla on liiketoimintaa. [!INCLUDE[d365fin](includes/d365fin_md.md)] näyttää virhesanoman, kun joku tekee virheen tai käyttää muotoa, jota ei hyväksytä maassa tai alueella.
 
 ALV-rekisteröintinumeroiden määritysohjeet:
+
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maat/alueet**.
 2. Valitse ensin maa tai alue ja sitten **ALV-rekisteröintinron muodot** -toiminto.
 3. Määritä muoto **Muodot**-kenttään antamalla vähintään yksi seuraavista merkeistä:  

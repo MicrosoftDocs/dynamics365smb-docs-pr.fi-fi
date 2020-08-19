@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 07/21/2020
 ms.author: sgroespe
-ms.openlocfilehash: 198200c4a2f595f642d03255f3b6f03c23ce3a47
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: ed2af108abd0ef23dac82b7e798a58bc8c494f89
+ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188130"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "3611557"
 ---
 # <a name="set-up-electronic-document-sending-and-receiving"></a>Sähköisten asiakirjojen vastaanottamisen ja lähettämisen määrittäminen
+
 Sähköpostin liitetiedostojen lähettämisen sijaan liiketoiminta-asiakirjoja voi lähettää ja vastaanottaa sähköisesti. Sähköisellä asiakirjalla tarkoitetaan sitä, että liiketoiminta-asiakirjaa (kuten toimittajan laskua) vastaava standardin\-mukainen tiedosto voidaan vastaanottaa ja muuntaa ostolaskuksi [!INCLUDE[d365fin](includes/d365fin_md.md)]issa. Document exchange -palveluiden ulkoinen palveluntarjoaja suorittaa kahden liikekumppanin välisen sähköisten asiakirjojen vaihdon. [!INCLUDE[d365fin](includes/d365fin_md.md)]in yleinen versio tukee sähköisten laskujen ja hyvityslaskujen lähettämistä ja vastaanottamista PEPPOL-muodossa. Suurimmat asiakirjojen vaihtopalveluiden tarjoajat tukevat tätä muotoa. Tavallisin document exchange -palveluiden tarjoaja on esimääritetty, ja se on valmis määritettäväksi yrityksellesi.  
 
 Ulkoinen OCR (Optical Character Recognition) -palvelu voi luoda saapuvia asiakirjoja vastaavista PDF- tai kuvatiedostoista sähköisiä asiakirjoja, jotka voit sitten muuntaa tiedostotietueiksi [!INCLUDE[d365fin](includes/d365fin_md.md)]issa samalla tavalla kuin teet sähköisille PEPPOL-asiakirjoille. Kun esimerkiksi saat PDF-muotoisen laskun toimittajalta, voit lähettää sen OCR-palveluun **Saapuvat asiakirjat** -sivulta. Saat tiedoston muutamassa sekunnissa takaisin sähköisenä laskuna, jonka voit muuntaa toimittajan ostolaskuksi. Jos lähetät tiedoston OCR-palveluun sähköpostitse, uusi saapuvan asiakirjan tietue luodaan automaattisesti, kun saat sähköisen asiakirjan takaisin.  
@@ -43,7 +44,8 @@ Ohjeaihe sisältää seuraavat toimintosarjat:
 * **PEPPOL – Lasku** -tietojenvaihtomäärityksen valitseminen asiakirjojen vastaanottamista varten  
 * Kirjanpitotilin määrittäminen käyttämään uusia ostolaskun rivejä tunnistamatto\-mille nimikkeille ja muille kuin \-nimikkeille  
 
-### <a name="to-set-up-the-company-for-electronic-document-sending-and-receiving"></a>Yrityksen valmistelu sähköisten asiakirjojen lähettämistä ja vastaanottamista varten  
+### <a name="to-set-up-the-company-for-electronic-document-sending-and-receiving"></a>Yrityksen valmistelu sähköisten asiakirjojen lähettämistä ja vastaanottamista varten
+
 1. Syötä **Etsi**-ruudussa **Oman yrityksen tiedot** ja valitse sitten vastaava linkki.  
 2. Lisää soveltuvat arvot **Yleinen**-pikalomakkeen kenttiin seuraavassa taulukossa kuvatulla tavalla.  
 
@@ -53,7 +55,8 @@ Ohjeaihe sisältää seuraavat toimintosarjat:
     |**ALV-rekisterinro**|Määritä yrityksesi ALV-tunnus.|  
     |**Vastuupaikka**|Jos yrityksellesi on määritetty vastuukeskus, varmista, että **Maa-/aluekoodi**-kenttä on täytetty.|  
 
-### <a name="to-set-up-vat-posting-for-electronic-document-sending-and-receiving"></a>ALV-kirjausten määrittäminen sähköisten asiakirjojen lähettämistä ja vastaanottamista varten  
+### <a name="to-set-up-vat-posting-for-electronic-document-sending-and-receiving"></a>ALV-kirjausten määrittäminen sähköisten asiakirjojen lähettämistä ja vastaanottamista varten
+
 1. Syötä **Etsi**-ruudussa **ALV-kirjausten asetukset** ja valitse sitten vastaava linkki.  
 2. Täytä jokainen sähköisille asiakirjoille käyttämäsi ALV-kirjauksen asetusrivi seuraavan taulukon mukaisesti.  
 
@@ -61,7 +64,8 @@ Ohjeaihe sisältää seuraavat toimintosarjat:
     |---------------------------------|---------------------------------------|  
     |**Veroluokka**|Määritä ALV-luokka:<br /><br /> Jos esimerkiksi lähetät sähköisiä laskuja PEPPOL-formaatissa, tämän kentän arvoa käytetään täyttämään **TaxApplied**-elementti tiedoston **AccountingSupplierParty** -solmussa. Luku perustuu UNCL5305-standardiin.|  
 
-### <a name="to-set-up-countriesregions-for-electronic-document-sending-and-receiving"></a>Maa-/alueasetuksien määrittäminen asiakirjojen sähköistä lähettämistä ja vastaanottamista varten  
+### <a name="to-set-up-countriesregions-for-electronic-document-sending-and-receiving"></a>Maa-/alueasetuksien määrittäminen asiakirjojen sähköistä lähettämistä ja vastaanottamista varten
+
 1. Avaa **Haku**-ruudusta **Maa/alueet** ja valitse liittyvä linkki.  
 2. Täytä jokainen maa-/aluekenttä, jonka kanssa vaihdat sähköisiä asiakirjoja seuraavan taulukon mukaisesti.  
 
@@ -69,7 +73,8 @@ Ohjeaihe sisältää seuraavat toimintosarjat:
     |---------------------------------|---------------------------------------|  
     |**ALV-suunnitelma**|Määritä kansallinen, ALV-numeroita jakava viranomainen maalle tai \/alueelle, joka liittyy sähköisten asiakirjojen lähettämiseen.<br /><br /> Jos esimerkiksi lähetät sähköisiä laskuja PEPPOL-formaatissa, tämän kentän arvoa käytetään täyttämään **EndPointID** -elementin **SchemeID**-määrite tiedoston **AccountingSupplierParty** ja **AccountingCustomerParty** -solmuissa.<br /><br /> **ALV-suunnitelma**-kenttää käytetään vain, jos **Yritystiedot**-sivun **GLN**-kenttä on tyhjä. **Huomautus:** **Maat\/alueet**-sivulla olevan **Koodi**-kentän arvon on noudatettava ISO 3166\-1:Alpha2 -standardin vaatimuksia.|  
 
-### <a name="to-set-up-items-for-electronic-document-sending-and-receiving"></a>Kohteiden määrittäminen sähköisten asiakirjojen lähettämistä ja vastaanottamista varten  
+### <a name="to-set-up-items-for-electronic-document-sending-and-receiving"></a>Kohteiden määrittäminen sähköisten asiakirjojen lähettämistä ja vastaanottamista varten
+
 1. Syötä **Etsi**-ruudussa **Nimikkeet** ja valitse sitten vastaava linkki.  
 2. Täytä jokaisen sähköisten asiakirjojen avulla myymäsi tai ostamasi kohteen kenttä seuraavan taulukon mukaisesti.  
 
@@ -77,22 +82,24 @@ Ohjeaihe sisältää seuraavat toimintosarjat:
     |---------------------------------|---------------------------------------|  
     |**GTIN**|Määrittää kohteelle liitännän asiakirjojen sähköistä lähettämistä ja vastaanottamista varten. Kenttää käytetään PEPPOL-formaatissa seuraavasti:<br /><br /> Jos **StandardItemIdentification\/ID**-elementin **SchemaID**-määritteen arvo on **GTIN**, elementti määritetään nimikekortin **GTIN**-kenttään.|  
 
-### <a name="to-set-up-units-of-measure-for-electronic-document-sending-and-receiving"></a>Mittayksikköjen määrittäminen asiakirjojen sähköistä lähettämistä ja vastaanottamista varten  
+### <a name="to-set-up-units-of-measure-for-electronic-document-sending-and-receiving"></a>Mittayksikköjen määrittäminen asiakirjojen sähköistä lähettämistä ja vastaanottamista varten
+
 1. Avaa **Haku**-ruudusta **Mittayksiköt** ja valitse liittyvä linkki.  
 2. Täytä jokaiselle kohteelle sähköisissä asiakirjoissa käyttämäsi mittayksikkökenttä seuraavan taulukon mukaisesti.  
 
     |Kenttä|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Kansainvälisen standardin koodi**|Määritä UNECERec20-standardin mukainen mittayksikkö, jota käytät sähköisten asiakirjojen lähettämisessä.<br /><br /> Jos esimerkiksi lähetät sähköisiä laskuja PEPPOL-formaatissa, tämän kentän arvoa käytetään täyttämään **InvoicedQuantity**-elementin **unitCode** -määrite tiedoston **InvoiceLine** -solmussa. **Huomautus:** Jos myyntirivin **Mittayksikkö**-kenttä on tyhjä, UNECERe20-standardin mukainen Kappale" \(H87\) -arvo täytetään oletusarvoisesti. Lisätietoja mittayksiköistä ja kelvollisten mittayksikkökoodien luettelo on asiakirjassa [Recommendation No. 20\-Units of Measure used in International Trade](https://www.unece.org/fileadmin/DAM/cefact/recommendations/rec20/rec20_rev3_Annex2e.pdf).|  
+    |**Kansainvälisen standardin koodi**|Määritä UNECERec20-standardin mukainen mittayksikkö, jota käytät sähköisten asiakirjojen lähettämisessä.<br /><br /> Jos esimerkiksi lähetät sähköisiä laskuja PEPPOL-formaatissa, tämän kentän arvoa käytetään täyttämään **InvoicedQuantity**-elementin **unitCode** -määrite tiedoston **InvoiceLine** -solmussa. **Huomautus:** Jos myyntirivin **Mittayksikkö**-kenttä on tyhjä, UNECERe20-standardin mukainen "Kappale" \(H87\) -arvo täytetään oletusarvoisesti. Lisätietoja mittayksiköistä ja kelvollisten mittayksikkökoodien luettelo on asiakirjassa [Recommendation No. 20\-Units of Measure used in International Trade](https://www.unece.org/fileadmin/DAM/cefact/recommendations/rec20/rec20_rev3_Annex2e.pdf).|  
 
-### <a name="to-set-up-customers-for-electronic-document-sending"></a>Asiakkaiden määrittäminen sähköisten asiakirjojen lähettämistä ja vastaanottamista varten  
+### <a name="to-set-up-customers-for-electronic-document-sending"></a>Asiakkaiden määrittäminen sähköisten asiakirjojen lähettämistä ja vastaanottamista varten
+
 1. Syötä **Etsi**-ruudussa **Asiakkaat** ja valitse sitten vastaava linkki.  
 2. Täytä jokaisen asiakkaan, jolle lähetät sähköisiä asiakirjoja, kentät seuraavan taulukon mukaisesti.  
 
     |Kenttä|Description|  
     |---------------------------------|---------------------------------------|  
     |**GLN**|Määritä asiakas.<br /><br /> Jos esimerkiksi lähetät sähköisiä laskuja PEPPOL-formaatissa, tämän kentän arvoa käytetään täyttämään **EndPointID**-elementti tiedoston **AccountingCustomerParty** -solmussa. Numero perustuu GS1-standardiin, joka noudattaa ISO 6523 -standardin vaatimuksia.<br /><br /> Jos **GLN**-kenttä on tyhjä, **ALV-rekisterinro**-kentän arvoa käytetään.|  
-    |**ALV-rekisterinro**|Määritä asiakkaan ALV-tunnus. **Vinkki:** voit käyttää porautumispainikkeella verkkopalvelua, joka varmistaa, onko numero maan yritysrekisterissä.|  
+    |**ALV-rekisterinro**|Määritä asiakkaan ALV-tunnus. **Vinkki:** Tuetuissa lokalisoiduissa versioissa voit valita porautumispainikkeella verkkopalvelun, joka varmistaa, onko numero kansallisessa yritysrekisterissä.|  
     |**Vastuupaikka**|Jos asiakkaalle on määritetty vastuukeskus, varmista, että **Maa-/aluekoodi**-kenttä on täytetty.|  
 
     Voit määrittää jokaiselle asiakkaalle haluamasi liiketoiminta-asiakirjojen lähettämistavan, ettei sinun tarvitse valita lähettämistapaa joka kerta, kun lähetät asiakkaalle asiakirjan. Lisätietoja on kohdassa [Asiakirjan lähetysprofiilien määrittäminen](sales-how-setup-document-send-profiles.md).  
@@ -117,7 +124,7 @@ Ohjeaihe sisältää seuraavat toimintosarjat:
     |Kenttä|Description|  
     |---------------------------------|---------------------------------------|  
     |**GLN**|Määritä toimittaja.<br /><br /> Jos esimerkiksi vastaanotat sähköisiä laskuja PEPPOL-formaatissa, tämän kentän arvoa käytetään täyttämään **EndPointID**-elementti tiedoston **AccountingSupplierParty** -solmussa. Numero perustuu GS1-standardiin, joka noudattaa ISO 6523 -standardin vaatimuksia.<br /><br /> Jos **GLN**-kenttä on tyhjä, **ALV-rekisterinro**-kentän arvoa käytetään.|  
-    |**ALV-rekisterinro**|Määritä toimittajan ALV-tunnus. **Vinkki:** voit käyttää porautumispainikkeella verkkopalvelua, joka varmistaa, onko numero maan yritysrekisterissä.|  
+    |**ALV-rekisterinro**|Määritä toimittajan ALV-tunnus. **Vinkki:** Tuetuissa lokalisoiduissa versioissa voit valita porautumispainikkeella verkkopalvelun, joka varmistaa, onko numero kansallisessa yritysrekisterissä.|  
     |**Vastuupaikka**|Jos toimittajalle on määritetty vastuukeskus, varmista, että **Maa-/aluekoodi**-kenttä on täytetty.|  
 
 ### <a name="to-select-the-peppol---invoice-data-exchange-definition-for-electronic-document-receiving"></a>PEPPOL – Lasku -tietojenvaihtomäärityksen valitseminen asiakirjojen vastaanottamista varten  

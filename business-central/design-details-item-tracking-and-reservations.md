@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: bfa2706b4d6d44a6f565685a66668c336b7a20e3
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 5270d0a45b6da568506db8ae9b166be57d391f17
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185106"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617544"
 ---
 # <a name="design-details-item-tracking-and-reservations"></a>Rakennetiedot: nimikkeen seuranta ja varaukset
+
 Varauksen ja tietyn nimikeseurannan samanaikainen käyttö on epänormaalia, koska ne molemmat luovat kytkennän tarjonnan ja kysynnän välille. Lukuun ottamatta tilanteita, joissa asiakas tai tuotannon suunnittelija pyytää tiettyä erää, jolloin on harvoin järkevää varata varastonimikkeitä, joilla on jo tietyn sovelluksen nimikeseurantanumerot. Vaikka tietyn nimikkeen seurannan vaativia nimikkeitä on mahdollista varata, saatavuuden ristiriitojen välttämiseksi vaaditaan erityistä toiminnallisuutta niiden tilausten käsittelijöiden välillä, jotka pyytävät samoja nimikeseurattuja nimikkeitä.  
   
 Late Binding -ohjelmoinnin konsepti varmistaa, että sarja- tai eränumeron epäspesifinen varaus säilyy löyhästi kytkettynä tiliöintiin saakka. Varausjärjestelmä saattaa järjestää epätarkat varaukset kirjaamishetkellä uudelleen varmistaakseen, että kiinteä kohdistus on mahdollista todellisuudessa poimitun sarja- tai eränumeron perusteella. Tänä aikana sarja- tai eränumero asetetaan käyttöön tietylle varaukselle muissa asiakirjoissa, jotka pyytävät tätä tiettyä sarja- tai eränumeroa.  
@@ -25,7 +26,7 @@ Late Binding -ohjelmoinnin konsepti varmistaa, että sarja- tai eränumeron epä
 Epäspesifisessä varauksessa käyttäjä ei välitä mikä tietty nimike poimitaan ja erityisessä varauksessa käyttäjä välittää.  
   
 > [!NOTE]  
->  Late Binding -toiminto liittyy vain nimikkeisiin, jotka on määritetty tiettyyn nimikkeenseurantaan, ja sitä voidaan käyttää vain varastoon kohdistuviin varauksiin, ei tuleviin toimitustilauksiin.  
+> Late Binding -toiminto liittyy vain nimikkeisiin, jotka on määritetty tiettyyn nimikkeenseurantaan, ja sitä voidaan käyttää vain varastoon kohdistuviin varauksiin, ei tuleviin toimitustilauksiin.  
   
 Nimikeseurantanumeroiden varaus jakaantuu kahteen luokaan, kuten seuraavassa taulukossa on esitetty.  
   
@@ -36,11 +37,9 @@ Nimikeseurantanumeroiden varaus jakaantuu kahteen luokaan, kuten seuraavassa tau
   
 Pääero erityisen ja yleisen varauksen välillä on määritetty sarja- ja eränumeroiden olemassaololla kysyntäpuolella, kuten seuraavasta taulukosta ilmenee.  
   
-||||  
-|-|-|-|  
-||**Tarjonta**|**Kysyntä**|  
-|**Määrätty**|Sarja- tai eränumero.|Sarja- tai eränumero.|  
-|**Epäspesifinen**|Sarja- tai eränumero.|Ei sarja- tai eränumeroa.|  
+|<!--blank -->|**Tarjonta**|**Kysyntä**|  
+|**Erityiset**|Sarja-tai eränumero.|Sarja-tai eränumero.|  
+|**Epäspesifiset**|Sarja-tai eränumero.|Ei sarja-tai eränumeroa.|  
   
 Kun varastomääriä varataan lähtevästä asiakirjarivistä nimikkeelle, jolle on määritetty nimikkeen seurantanumerot ja tietyn nimikkeen seuranta, **Varaus**-sivu johtaa sinut eri työnkulkujen läpi sarja- tai eränumeroiden tarpeesta riippuen.s  
   

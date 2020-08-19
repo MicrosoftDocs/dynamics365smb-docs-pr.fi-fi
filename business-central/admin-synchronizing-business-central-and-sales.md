@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: bholtorf
-ms.openlocfilehash: 0763119e323a8bae6d2b7ce3db0780284befa292
-ms.sourcegitcommit: 0c6f4382fad994fb6aea9dcde3b2dc25382c5968
+ms.openlocfilehash: 2c7b7c4175f4c17e01c114f76d0b14834e0409ae
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "3484107"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617702"
 ---
 # <a name="synchronizing-data-in-business-central-with-common-data-service"></a>Tietojen synkronointi Business Centralissa Common Data Servicen avulla
+
 Kun [!INCLUDE[d365fin](includes/cds_long_md.md)] ja [!INCLUDE[d365fin](includes/d365fin_md.md)] integroidaan, voit päättää, synkronoidaanko [!INCLUDE[d365fin](includes/d365fin_md.md)] -tietueiden (kuten asiakkaiden, kontaktien ja myyjien) valittujen kenttien tiedot vastaavien [!INCLUDE[d365fin](includes/cds_long_md.md)]in tietueiden (kuten tilien, yhteyshenkilöiden ja käyttäjien) kanssa. Tietueen tyypin mukaan voit synkronoida tietoja [!INCLUDE[d365fin](includes/cds_long_md.md)]ista [!INCLUDE[d365fin](includes/d365fin_md.md)]iin ja päin vastoin. Lisätietoja on kohdassa [Dynamics 365 Sales -integrointi](admin-prepare-dynamics-365-for-sales-for-integration.md).  
 
 Synkronointi käyttää seuraavia elementtejä:
@@ -42,13 +43,13 @@ Kohteet, kuten tilit [!INCLUDE[d365fin](includes/cds_long_md.md)]ssä yhdistetä
 
 Seuraavassa taulukossa on luettelo tavallisista [!INCLUDE[d365fin](includes/d365fin_md.md)]in yhdistämismäärityksistä [!INCLUDE[d365fin](includes/d365fin_md.md)]in ja [!INCLUDE[d365fin](includes/cds_long_md.md)] välillä.
 
-|[!INCLUDE[d365fin](includes/d365fin_md.md)]|[!INCLUDE[d365fin](includes/cds_long_md.md)]|Synkronoinnin suunta|Oletussuodatin|
-|-------------------------------------------|-----|-------------------------|--------------|
-|Myyjä/Ostaja|Käyttäjä|[!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|[!INCLUDE[d365fin](includes/cds_long_md.md)] -kontaktisuodatin: **Tila** on **Ei**, **Käyttäjällä käyttöoikeus** on **Kyllä**, Integrointikäyttäjän tila on **Ei**|
-|Asiakas|Tili|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] ja [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|[!INCLUDE[d365fin](includes/cds_long_md.md)] -tilisuodatin: **Suhdetyyppi** on **Asiakas** ja **Tila** on **Aktiivinen**. [!INCLUDE[d365fin](includes/d365fin_md.md)] -suodatin: **Estetty**on tyhjä (asiakasta ei ole estetty).|
-|Toimittaja|Tili|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] ja [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|[!INCLUDE[d365fin](includes/cds_long_md.md)] -tilisuodatin: **Suhdetyyppi** on **Toimittaja** ja **Tila** on **Aktiivinen**. [!INCLUDE[d365fin](includes/d365fin_md.md)] -suodatin: **Estetty**on tyhjä (toimittaja ei ole estetty).|
-|Kontakti|Kontakti|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] ja [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|[!INCLUDE[d365fin](includes/d365fin_md.md)] kontaktisuodatus: **Tyyppi** on **Henkilö** ja kontakti on määritetty yritykselle. [!INCLUDE[d365fin](includes/cds_long_md.md)] -kontaktisuodatin: kontakti on liitetty yritykseen ja pääasiakkaan tyyppi on **Tili**|
-|Valuutta|Tapahtumavaluutta|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)]| |
+| [!INCLUDE[d365fin](includes/d365fin_md.md)] | [!INCLUDE[d365fin](includes/cds_long_md.md)] | Synkronoinnin suunta | Oletussuodatin |
+|---------------------------------------------|----------------------------------------------|---------------------------|----------------|
+| Myyjä/Ostaja | Käyttäjä | [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | [!INCLUDE[d365fin](includes/cds_long_md.md)] -kontaktisuodatin: **Tila** on **Ei**, **Käyttäjällä käyttöoikeus** on **Kyllä**, Integrointikäyttäjän tila on **Ei** |
+| Asiakas | Tili | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] ja [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | [!INCLUDE[d365fin](includes/cds_long_md.md)] -tilisuodatin: **Suhdetyyppi** on **Asiakas** ja **Tila** on **Aktiivinen**. [!INCLUDE[d365fin](includes/d365fin_md.md)] -suodatin: **Estetty**on tyhjä (asiakasta ei ole estetty). |
+| Toimittaja | Tili | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] ja [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | [!INCLUDE[d365fin](includes/cds_long_md.md)] -tilisuodatin: **Suhdetyyppi** on **Toimittaja** ja **Tila** on **Aktiivinen**. [!INCLUDE[d365fin](includes/d365fin_md.md)] -suodatin: **Estetty**on tyhjä (toimittaja ei ole estetty). |
+| Kontakti | Kontakti | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] ja [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | [!INCLUDE[d365fin](includes/d365fin_md.md)] kontaktisuodatus: **Tyyppi** on **Henkilö** ja kontakti on määritetty yritykselle. [!INCLUDE[d365fin](includes/cds_long_md.md)] -kontaktisuodatin: kontakti on liitetty yritykseen ja pääasiakkaan tyyppi on **Tili** |
+| Valuutta | Tapahtumavaluutta | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] |  |
 
 
 ### <a name="tip-for-admins-viewing-entity-mappings"></a>Järjestelmänvalvojan vihje: objektin yhdistämismääritysten näyttäminen

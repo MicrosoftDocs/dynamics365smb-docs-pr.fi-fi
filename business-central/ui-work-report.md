@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: task, process, report
 ms.date: 06/10/2020
 ms.author: sgroespe
-ms.openlocfilehash: 19811dadb284ee9e629c9dc518df5cb989175fdb
-ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
+ms.openlocfilehash: 11c3fa284a457db1de272a3d92ebc7fc873ad933
+ms.sourcegitcommit: 99cecd005f8ede70e9a3d163a457fcb9aadb6843
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "3454327"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "3549890"
 ---
 # <a name="working-with-reports-batch-jobs-and-xmlports"></a>Raporttien, eräajojen ja XMLportien käsitteleminen
 
@@ -50,7 +50,7 @@ Tallennettujen asetusten käyttäminen on nopea ja helppo tapa oikeiden tietojen
 
 ## <a name="previewing-a-report"></a>Raportin esikatselu
 
-Tarkastele raporttia valitsemalla **Esikatselu**-painike. Raportin esikatselun valikkorivin avulla voi
+Tarkastele raporttia raporttipyyntösivulla valitsemalla **Esikatselu**-painike. Raportin esikatselun valikkorivin avulla voi
 
 - siirtyä sivuilla
 - lähentää ja loitontaa
@@ -77,17 +77,32 @@ Kun raportti aikataulutetaan suoritettavaksi, se voidaan määrittää suoritett
 Voit tallentaa käsitellyn raportin tiedostoon, kuten Excel-, Word- tai PDF-tiedostoon, tulostaa sen valitulle tulostimelle tai vain käsitellä sen. Jos haluat tallentaa raportin tiedostoon, käsitelty raportti lähetetään roolikeskuksen **Saapuneet raportit** -alueelle, jossa voit tarkastella sitä.  
 
 ## <a name="printing-a-report"></a><a name="PrintReport"></a>Raportin tulostaminen
-Voit tulostaa raportin valitsemalla **Tulosta**-painikkeen raportin pyyntösivulla tai **Esikatselu**-sivun valikkorivillä.
 
-Koska [!INCLUDE[prodshort](includes/prodshort.md)] on pilvipalvelu, se ei voi käyttää paikallisia tulostimia, jotka on yhdistetty käyttäjien koneisiin. Se voi kuitenkin muodostaa yhteyden pilvipalveluun yhteensopiviin tulostimiin. Sovelluksen [!INCLUDE[prodshort](includes/prodshort.md)] yleisessä versiossa pilvitulostin nimeltä **Sähköpostitulostin** asennetaan laajennuksena. Se on käyttövalmis alkuasetusten jälkeen.
+Tulosta raportti valitsemalla **Tulosta**-painikkeen raportin pyyntösivulla tai **Esikatselu**-sivun valikkorivillä.
 
-Jos pilvitulostinta ei ole asennettu ja määritetty tai jos asennettu tulostin ei toimi kunnolla, tulostuksessa käytetään selaimen tulostusasetusten oletustulostinta. Tämä osoitetaan tällä arvolla **Tulostin**-kentässä raportin pyyntösivulla: *(ei mitään, selain käsittelee)*.
+### <a name="printer-selection"></a>Tulostimen valinta
 
-**Tulostimen hallinta** -sivulla näkyvät määritetyt tulostimet. Lisätietoja on ohjeaiheessa [Tulostinten määrittäminen](ui-specify-printer-selection-reports.md).
+Raportti tulostetaan tulostimelle, joka näkyy raportin pyyntösivun **Valittu tulostin** -kentässä. Tulostinta ei voi muuttaa tältä sivulta.
+
+Valittu tulostin on joko määritetty **Tulostimen valinta** -sivulla tai se on **Tulostimen hallinta** -sivulla määritetty oletustulostin. Jos haluat käyttää toista tulostinta, lisätietoja on ohjeaiheessa [Tulostimien määrittäminen](ui-specify-printer-selection-reports.md).
+
+Jos **Tulostinvalinnat** -sivulla ei ole määritetty tulostinta tai jos **Tulostimen hallinta** -sivulla ei ole määritetty oletustulostinta, käytössä on selaimen tulostustoiminto. Tässä tapauksessa **Selain** näkyy raporttipyyntösivun **Valittu tulostin** -kentässä. 
+
+### <a name="browser-printing"></a>Selaimesta tulostaminen
+
+Koska [!INCLUDE[prodshort](includes/prodshort.md)] on pilvipalvelu, se ei voi käyttää paikallisia tulostimia, jotka on yhdistetty tietokoneeseesi. Se voi kuitenkin muodostaa yhteyden pilvipalveluun yhteensopiviin tulostimiin. Sovelluksen [!INCLUDE[prodshort](includes/prodshort.md)] yleisessä versiossa pilvitulostin nimeltä **Sähköpostitulostin** asennetaan laajennuksena. Se on käyttövalmis alkuasetusten jälkeen.
+
+Jos pilvitulostinta ei ole asennettu ja määritetty tai jos asennettu tulostin ei toimi kunnolla, tulostuksessa käytetään selaimen tulostusasetusten oletustulostinta.
 
 > [!NOTE]
-> Raportin pyyntösivun **Tulostin**-kentän arvoa ei voi muuttaa. Jos haluat käyttää toista tulostinta, valitse se **Tulostimen hallinta** -sivulla.
+> Selaimen tulostusasetukset toimivat kohteesta [!INCLUDE[prodshort](includes/prodshort.md)] riippumatta. [!INCLUDE[prodshort](includes/prodshort.md)] -kohteen Tulostimet-kohdassa määritetyt tulostimen asetukset eivät siirry selaimen tulostusasetuksiin.
 
+<!-- 
+On the **Printer Management** page, you can see the printers that are set up. For more information, see [Set Up Printers](ui-specify-printer-selection-reports.md).
+
+> [!NOTE]
+> You can't change the **Printer** field on the report request page. To use another printer, you must select it from the **Printer Management** page.
+-->
 ### <a name="printing-reports-in-thai"></a>Thainkielisten raporttien tulostaminen
 Koskien erityisesti [!INCLUDE[prodshort](includes/prodshort.md)]in Thaimaalaista versioita, **Tulosta** painike ei voi tulostaa raportteja oikein, johtuen tulostettavien PDF tiedostojen palvelun rajoituksista. Sen sijaan, raportin voi avata Wordilla, ja tallentaa sen tulostettavaan PDF muotoon.  
 

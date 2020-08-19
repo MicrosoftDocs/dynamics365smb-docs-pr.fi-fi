@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c0fe93df0022f66aa5cc3964c2717e2e6ca76147
-ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
+ms.openlocfilehash: dfc7b91c50297c130a4a6d50401c7adb53bd608b
+ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "3262188"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3666945"
 ---
 # <a name="personalize-your-workspace"></a>Työtilan mukauttaminen
 Voit mukauttaa työtilan työskentelyysi ja valintoihisi sopivaksi muuttamalla sivujen ulkoasua siten, että vain tarvitsemasi tiedot näkyvät siellä, missä niitä tarvitset. Mukauttamalla tehdyt muutokset koskevat vain omaa näkymääsi; muut käyttäjät eivät siis näe mukautuksiasi.
@@ -27,6 +27,11 @@ Sivun tyypin ja sen sisällön mukaan voit tehdä erilaisia muutoksia, kuten sii
 > [!NOTE]
 > Järjestelmänvalvojat voivat tehdä samat asettelun muutokset kuin käyttäjät mukauttamalla sellaisen profiilin työtilaa, johon on määritetty useita käyttäjiä. Lisätietoja on kohdassa [Roolien sivujen mukauttaminen](ui-personalization-manage.md).<br /><br />
 Järjestelmänvalvojat voivat myös ohittaa käyttäjien mukauttamiset tai poistaa ne käytöstä sekä määrittää, mitkä ominaisuudet käyttäjät näkevät kaikissa tai tietyissä yrityksissä. Lisätietoja on kohdassa [Business Centralin mukauttaminen](ui-customizing-overview.md).
+
+## <a name="video-overview"></a>Videon yleiskuvaus
+Seuraava video näyttää joitakin tapoja, joilla voit mukauttaa roolikeskuksesi.
+
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB]
 
 ## <a name="to-change-the-width-of-a-column"></a>Sarakkeen leveyden muuttaminen
 Luettelon sarakkeiden kokoa on helppo muuttaa vetämällä kahden sarakkeen rajaa vasemmalle tai oikealle.

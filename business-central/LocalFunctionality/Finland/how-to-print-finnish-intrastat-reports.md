@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 3e0dc2efed9b168c0b2a077a6132a54e452de42b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 6352bbb67f4c917d5287fb345a12b688bb198f33
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180810"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677136"
 ---
 # <a name="print-finnish-intrastat-reports"></a>Suomen Intrastat-raporttien tulostaminen
 Euroopan unionissa olevien yritysten on raportoitava kaupankäyntinsä muiden EU-maiden/alueiden kanssa tiettyjen sääntöjen mukaisesti. Tavaroiden siirrot on raportoitava omien maiden/alueiden Intrastat-viranomaisille.  
@@ -26,7 +26,7 @@ Valmiit tapahtumat voidaan lähettää tiedostona Intrastat-viranomaisille tai v
 
 ## <a name="to-print-a-finnish-intrastat-report"></a>Suomen Intrastat-raportin tulostaminen  
 
-1.  Valitse ![Etsi sivu tai raportti](../../media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") -kuvake, anna **Intrastat-ilmoitus** ja valitse sitten aiheeseen liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](../../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Intrastat-ilmoitus** ja valitse sitten liittyvä linkki.  
 2.  Kirjoita erän nimi Intrastat-raporttiin.  
 3.  Valitse **Tulosta**-toiminto ja valitse sitten **Tarkistusluetteloraportti**-toiminto.  
 4.  Valitse **Tulosta**-toiminto.  

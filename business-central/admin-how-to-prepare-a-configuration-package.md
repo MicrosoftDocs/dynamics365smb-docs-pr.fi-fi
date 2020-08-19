@@ -1,7 +1,7 @@
 ---
 title: Määrityspaketin valmisteleminen | Microsoft Docs
 description: Tietoja RapidStart-määrityspaketista, joka helpottaa uusien yritysten määrittämistä aiemmin luotujen tietojen perusteella.
-author: SorenGP
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/06/2020
-ms.author: sgroespe
-ms.openlocfilehash: f2550f9df9e2eda87e2f5b3de9f6be00d4758b7a
-ms.sourcegitcommit: 7d05fc049d81cae9b2b711101cdaea037b7ba61f
+ms.author: bholtorf
+ms.openlocfilehash: 026a76fac8ce50c5eab68c40c9f7b4300f1493b8
+ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "3535970"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3666995"
 ---
 # <a name="prepare-a-configuration-package"></a>Määrityspaketin valmisteleminen
 
@@ -30,6 +30,12 @@ Ennen määrityspaketin luomista on otettava huomioon joitakin asioita, koska ne
 ### <a name="tables-that-contain-posted-entries"></a>Kirjattuja tapahtumia sisältävät taulut
 
 Tietoja ei voi tuoda tauluihin, jotka sisältävät kirjattuja tapahtumia, kuten asiakas-, toimittaja- ja nimiketapahtumien tauluihin, joten näitä tietoja ei pitäisi sisällyttää määrityspakettiin. Voit lisätä näihin tauluihin tapahtumia, kun olet tuonut määrityspaketin käyttämällä kirjauskansioita tapahtumien kirjaamiseen. Lisätietoja on kohdassa [Asiakirjojen ja kirjauskansioiden](ui-post-documents-journals.md) kirjaaminen.
+
+### <a name="table-names-that-contain-special-characters"></a>Erikoismerkkejä sisältävät taulukoiden nimet
+
+Käytä harkintaa, jos sinulla on taulukkoja tai kenttiä, joilla on sama ajallinen nimi mutta jotka eroavat erikoismerkkien osalta, kuten %, &, <, >, (ja). Esimerkiksi taulukossa "XYZ" voi olla "kenttä 1" ja "kenttä 1 %" -kentät.
+
+XML-suoritin hyväksyy vain tietyt erikoismerkit ja poistaa ne, joita se ei hyväksy. Jos poistat erikoismerkin, esimerkiksi %-merkin "Kenttä 1 %" -esimerkissä, tuloksena on kaksi tai useampia samannimistä taulukkoja tai kenttiä. Virhe ilmenee, kun viet tai tuot kokoonpanopaketin. 
 
 ### <a name="licensing"></a>Käyttöoikeudet
 

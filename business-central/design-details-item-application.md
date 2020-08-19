@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: bfd2c67c7e7133f13a2e021cb9cf70ba82f6bb21
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 098bb0e946d78f69a848ddeb8405ea43579c4597
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185154"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617625"
 ---
 # <a name="design-details-item-application"></a>Rakennetiedot: Nimikkeen kohdistus
+
 Kun kirjaat varastotapahtuman, määrän kirjaus tallennetaan nimiketapahtumiin ja arvon kirjaus arvotapahtumiin. Lisätietoja on ohjeaiheessa [Rakenteen tiedot: Varaston kirjaus](design-details-inventory-posting.md).  
 
 Lisäksi suoritetaan nimikkeen kohdistus kustannuksen vastaanottajan linkittämiseksi sen kustannuksen lähteeseen kustannuksen siirron suorittamiseksi arvostusmenetelmän mukaisesti. Lisätietoja on kohdassa [Rakennetiedot: Arvostusmenetelmät](design-details-costing-methods.md).  
@@ -40,15 +41,15 @@ Varastotapahtuman suunta määrittää, tehdäänkö määrän vai kustannusten 
 
 Seuraavissa taulukoissa, perustuen keskeisiin sovelluskenttiin varastonsiirtoriveillä, esitetään kuinka kustannukset nousevat siirtosuunnan mukaan. Se ilmaisee myös milloin ja miksi nimikkeen kohdistuksen tyyppi on määrä tai kustannus.  
 
-||Kohdista nimikkeen merkintäkenttään|Kohdistus nimikkeen merkintäkentästä|  
+|-|Kohdista nimikkeen merkintäkenttään|Kohdistus nimikkeen merkintäkentästä|  
 |-|--------------------------------|----------------------------------|  
 |Lähtevän tapahtuman sovellus|Lähtevä kirjaus vetää kustannukset avoimesta tulevasta kirjauksesta.<br /><br /> **Määrän kohdistus**|Ei tueta|  
 |Saapuvan tapahtuman sovellus|Tuleva kirjaus työntää kustannukset avoimeen lähtevään kirjaukseen.<br /><br /> Tuleva kirjaus ei ole kustannuslähde.<br /><br /> **Määrän kohdistus**|Tuleva kirjaus vetää kustannukset lähtevästä kirjauksesta. **Huomautus:** Saapuvaa tapahtumaa käsitellään myyntipalautuksena, kun teet tämän kiinteän kohdistuksen. Tämän vuoksi käytetty lähtevä tapahtuma jää avoimeksi. <br /><br /> Tuleva kirjaus EI OLE kustannuslähde.<br /><br /> **Kustannusten kohdistus**|  
 
 > [!IMPORTANT]  
->  Myynnin tuottoa EI pidetä kustannuksen lähteenä, kiinteä on kohdistettu.  
->   
->  Myyntikirjaus pysyy avoimena, kunnes todellinen lähde tiliöidään.  
+> Myynnin tuottoa EI pidetä kustannuksen lähteenä, kiinteä on kohdistettu.  
+>
+> Myyntikirjaus pysyy avoimena, kunnes todellinen lähde tiliöidään.  
 
 Nimiketapahtuma tallentaa seuraavat tiedot.  
 
@@ -206,7 +207,7 @@ Seuraava esimerkki, joka kuvaa sitä, kuinka eri siirtokirjauksia käytetään, 
 
 Seuraavassa taulukossa esitetään siirron vaikutus nimikkeen arvokirjauksiin.  
 
-|Kirjauspäivämäärä|Nimiketapahtuman tyyppi|Sijaintikoodi|Arvostettu määrä|Kustannussumma (todellinen)|Tapahtumanro|  
+|Kirjauspäivämäärä|Nimiketapahtuman tyyppi|Sijaintikoodi |Arvostettu määrä|Kustannussumma (todellinen)|Tapahtumanro|  
 |-------------------------------------|-----------------------------------------------|--------------------------------------|-----------------------------------------|------------------------------------------------|----------------------------------|  
 |01-01-20|Osto|SININEN|1|10.00|1|  
 |01-01-20|Osto|SININEN|1|20.00|2|  
@@ -221,7 +222,7 @@ Seuraava esimerkki, joka kuvaa sitä, kuinka eri siirtokirjauksia käytetään, 
 
 Seuraavassa taulukossa esitetään siirron vaikutus nimikkeen arvokirjauksiin.  
 
-|Kirjauspäivämäärä|Nimiketapahtuman tyyppi|Sijaintikoodi|Arvostettu määrä|Kustannussumma (todellinen)|Tapahtumanro|  
+|Kirjauspäivämäärä|Nimiketapahtuman tyyppi|Sijaintikoodi |Arvostettu määrä|Kustannussumma (todellinen)|Tapahtumanro|  
 |-------------------------------------|-----------------------------------------------|--------------------------------------|-----------------------------------------|------------------------------------------------|----------------------------------|  
 |01-01-20|Osto|SININEN|1|10.00|1|  
 |02-01-20|Siirto|SININEN|-1|10,00|2|  

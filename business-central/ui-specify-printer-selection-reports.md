@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: online printing
 ms.date: 04/17/2020
 ms.author: sgroespe
-ms.openlocfilehash: dbfdb22447f20b4e4b811dc40cf892d9b971dc77
-ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
+ms.openlocfilehash: dc92c499aa201278abc0c8cdc351eeb1406b1cca
+ms.sourcegitcommit: 99cecd005f8ede70e9a3d163a457fcb9aadb6843
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3272084"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "3549865"
 ---
 # <a name="set-up-printers"></a>Tulostimien määrittäminen
 Koska [!INCLUDE[prodshort](includes/prodshort.md)] on pilvipalvelu, se ei voi käyttää paikallisia tulostimia, jotka on yhdistetty käyttäjien koneisiin. Se voi kuitenkin muodostaa yhteyden pilvipalveluun yhteensopiviin tulostimiin. Sovelluksen [!INCLUDE[prodshort](includes/prodshort.md)] yleisessä versiossa pilvitulostin nimeltä **Sähköpostitulostin** asennetaan laajennuksena. Se on käyttövalmis alkuasetusten jälkeen.
@@ -55,7 +55,11 @@ Jos käytät sähköpostitulostinlaajennusta, kaikki tai jotkin tulostustyöt l�
 Noudata varovaisuutta tietoturva-asioissa. Varmista esimerkiksi, että sähköpostitulostusratkaisun käyttöoikeudet, tietosuoja-asetukset ja tietojen säilyttämistä koskevat käytännöt on määritetty oikein. Vastuullasi on antaa oikea, varmistettu ja toimiva sähköpostiosoite. Lisätietoja on kohdassa [Microsoftin tietosuojatiedot](https://privacy.microsoft.com/en-us/privacystatement).
 
 ## <a name="to-select-which-printers-print-which-reports"></a>Tulostinten ja niiden tulostamien raporttien valitseminen
+
 **Tulostinvalinnat**-sivulla voit määrittää käyttäjätilin ja kunkin tulostimen tulostamat raportit. Tämä on hyödyllistä, jos käytössä on raportteja, jotka vaativat eri tulostimien käyttämisen yrityksen sijoittelusta tai niiden tulostusominaisuuksista johtuen.
+
+> [!IMPORTANT]
+> [!INCLUDE[prodshort](includes/prodshort.md)]:n paikallista käyttöä varten **Tulostinvalinnat** -sivua voi käyttää vain tulostimen laajennusten määrittelemien tulostimien osalta. Sitä ei voi käyttää paikallisissa tulostimissa.
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tulostinvalinnat** ja valitse sitten liittyvä linkki. Vaihtoehtoisesti voit valita **Tulostimen hallinta** -sivulla tulostimen ja valita sitten **Tulostinvalinnat**-toiminnon.
 2. Valitse **Uusi**-toiminto, jos haluat lisätä tulostinvalinnan tiettyä raporttia varten.
