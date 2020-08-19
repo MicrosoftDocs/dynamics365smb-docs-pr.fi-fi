@@ -1,0 +1,44 @@
+---
+title: Varoitukset ja virhesanomat | Microsoft Docs
+description: Tutustu siihen, miten voit tehdä vianmäärityksen ja löytää ratkaisuja virheviesteihin, kun työskentelet Business Centralin kanssa.
+author: edupont04
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.date: 07/21/2020
+ms.author: edupont
+ms.openlocfilehash: 62a60610b565cc37c812023dd2bea08c3f5c8834
+ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "3611719"
+---
+# <a name="warnings-and-error-messages-in-dynamics-365-business-central"></a><span data-ttu-id="17250-103">Varoitukset ja virhesanomat Dynamics 365 Business Centralissa</span><span class="sxs-lookup"><span data-stu-id="17250-103">Warnings and Error Messages in Dynamics 365 Business Central</span></span>
+
+<span data-ttu-id="17250-104">Työpäivän aikana voi näkyä ilmoituksia [!INCLUDE [prodshort](includes/prodshort.md)] -ohjelmassa esimerkiksi siitä, että jotain on mennyt pieleen tai että jotain ei voitu kirjata.</span><span class="sxs-lookup"><span data-stu-id="17250-104">During your work day, you might see notifications in [!INCLUDE [prodshort](includes/prodshort.md)] that something went wrong, or that it was not possible to post something, for example.</span></span> <span data-ttu-id="17250-105">Ilmoituksen avulla on usein helppo ratkaista asia tai peruuttaa tekemäsi muutokset.</span><span class="sxs-lookup"><span data-stu-id="17250-105">In many cases, the notification makes it easy to resolve the matter, or to roll back any changes that you made.</span></span> <span data-ttu-id="17250-106">Muissa tapauksissa sinulla ei ehkä ole tietoja, joita tarvitset ratkaistaksesi asian.</span><span class="sxs-lookup"><span data-stu-id="17250-106">In other cases, you might not have have the information that you need to get unblocked.</span></span> <span data-ttu-id="17250-107">Tässä artikkelissa on vihjeitä siitä, miten voit onnistua.</span><span class="sxs-lookup"><span data-stu-id="17250-107">This article provides tips to how to make progress.</span></span>  
+
+## <a name="in-product-user-assistance"></a><span data-ttu-id="17250-108">Tuotteen sisäinen käyttäjätuki</span><span class="sxs-lookup"><span data-stu-id="17250-108">In-product user assistance</span></span>
+
+<span data-ttu-id="17250-109">[!INCLUDE [prodshort](includes/prodshort.md)] -ohjelman oletusversio sisältää useimpien kenttien, sarakkeiden ja toimintojen kuvaukset, joita voi käyttää, kun valitset nimen.</span><span class="sxs-lookup"><span data-stu-id="17250-109">The default version of [!INCLUDE [prodshort](includes/prodshort.md)] includes descriptions for most fields, columns, and actions that can be accessed when you choose the name.</span></span> <span data-ttu-id="17250-110">Yhdessä kuvailevien kuvatekstien ja ohjetekstien kanssa nämä vihjeet tai kuvatekstit ovat nykyinen toteutuksemme *sulautetusta käyttäjätuesta*, joka on tärkeä periaate nykypäivän ohjelmistosuunnittelun maailmassa.</span><span class="sxs-lookup"><span data-stu-id="17250-110">In combination with descriptive captions and instructional text, these tooltips, or callouts, are our current implementation of *embedded user assistance*, which is an important principle in today's world of software design.</span></span>  
+
+<span data-ttu-id="17250-111">Jos sinulla on kysyttävää jostakin kentästä tai käyttöliittymän jostakin muusta osasta, valitse nimi ja lyhyt kuvaus tulee näkyviin.</span><span class="sxs-lookup"><span data-stu-id="17250-111">If you have a question about a field or another element of the user interface, choose the name, and a short description will appear.</span></span> <span data-ttu-id="17250-112">Valitse *lisätietoja*-linkki, jos se ei riitä.</span><span class="sxs-lookup"><span data-stu-id="17250-112">Choose the *Learn more* link if that is not enough.</span></span>  
+
+<span data-ttu-id="17250-113">Saadaksesi lisätietoja, katso [Dynamics 365 Business Central -käyttäjäapumalli](/dynamics365/business-central/dev-itpro/user-assistance)n hallinnon sisällössä [!INCLUDE [prodshort](includes/prodshort.md)] -ohjelmalle.</span><span class="sxs-lookup"><span data-stu-id="17250-113">For more information, see [Dynamics 365 Business Central User Assistance Model](/dynamics365/business-central/dev-itpro/user-assistance) in the administration content for [!INCLUDE [prodshort](includes/prodshort.md)].</span></span>  
+
+## <a name="help-and-support-page"></a><span data-ttu-id="17250-114">Ohje- ja tukisivu</span><span class="sxs-lookup"><span data-stu-id="17250-114">Help and Support page</span></span>
+
+<span data-ttu-id="17250-115">[!INCLUDE[prodshort](includes/prodshort.md)]in Ohje-valikosta (kysymysmerkki oikeassa yläkulmassa) pääsee **Ohje ja tuki** -sivulle. Siellä on linkkejä resursseihin, jotka auttavat löytämään vastauksia kysymyksiin.</span><span class="sxs-lookup"><span data-stu-id="17250-115">In [!INCLUDE[prodshort](includes/prodshort.md)], the Help menu item (the question mark in the top right corner) gives you access to the **Help and Support** page, where you can find links to resources that can help you find answers to your questions.</span></span> <span data-ttu-id="17250-116">Lisätietoja on kohdassa [Resurssit ohjeelle ja tuelle](product-help-and-support.md).</span><span class="sxs-lookup"><span data-stu-id="17250-116">For more information, see [Resources for Help and Support](product-help-and-support.md).</span></span>  
+
+## <a name="help-others"></a><span data-ttu-id="17250-117">Auta muita</span><span class="sxs-lookup"><span data-stu-id="17250-117">Help others</span></span>
+
+<span data-ttu-id="17250-118">Jos olet järjestelmänvalvoja tai pääkäyttäjä, voit auttaa muita käyttäjiä etsimällä virhesanomia **Virhesanomien rekisteröinti**- tai Hallintokeskus -sivuilta.</span><span class="sxs-lookup"><span data-stu-id="17250-118">If you are an administrator or superuser, you can help others by looking up error messages in the **Error Message Register** page or in the administration center.</span></span> <span data-ttu-id="17250-119">Monissa tapauksissa varoitus- tai virhesanomassa on kyse asennuksesta tai puutteellisista oikeuksista ja samankaltaisissa kysymyksissä, joissa pääkäyttäjä tai järjestelmänvalvoja voi helposti auttaa.</span><span class="sxs-lookup"><span data-stu-id="17250-119">In many cases, the warning or error message is about setup or lack of permission and similar issues that the superuser or administrator can easily help with.</span></span> <span data-ttu-id="17250-120">Muissa tapauksissa saatat joutua tarkastamaan sivut syyn selvittämiseksi.</span><span class="sxs-lookup"><span data-stu-id="17250-120">In other cases, you might have to inspect pages to identify the cause.</span></span> <span data-ttu-id="17250-121">Lisätietoja on kohdassa [Teknisten tietojen etsiminen](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#finding-technical-information) [!INCLUDE [prodshort](includes/prodshort.md)] -hallintasisällöstä.</span><span class="sxs-lookup"><span data-stu-id="17250-121">For more information, see [Finding technical information](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#finding-technical-information) in the administration content for [!INCLUDE [prodshort](includes/prodshort.md)].</span></span>  
+
+## <a name="see-also"></a><span data-ttu-id="17250-122">Katso myös</span><span class="sxs-lookup"><span data-stu-id="17250-122">See Also</span></span>
+
+[<span data-ttu-id="17250-123">Ohje- ja tukiresurssit</span><span class="sxs-lookup"><span data-stu-id="17250-123">Resources for Help and Support</span></span>](product-help-and-support.md)  
+[<span data-ttu-id="17250-124">Usein kysytyt kysymykset</span><span class="sxs-lookup"><span data-stu-id="17250-124">Frequently Asked Questions</span></span>](across-faq.md)  
+[<span data-ttu-id="17250-125">Kerro, mitä haluat tehdä -toiminnon usein kysytyt kysymykset</span><span class="sxs-lookup"><span data-stu-id="17250-125">Tell Me FAQ</span></span>](ui-search-faq.md)  
+[<span data-ttu-id="17250-126">Usein kysyttyjen kysymysten haku ja suodatus</span><span class="sxs-lookup"><span data-stu-id="17250-126">Searching and Filtering FAQ</span></span>](ui-search-filter-faq.md)  
+[<span data-ttu-id="17250-127">Kopioimisen ja liittämisen usein kysytyt kysymykset</span><span class="sxs-lookup"><span data-stu-id="17250-127">Copy and Paste FAQ</span></span>](ui-copy-paste.md)  
+[<span data-ttu-id="17250-128">Perusasetusten muuttaminen</span><span class="sxs-lookup"><span data-stu-id="17250-128">Change Basic Settings</span></span>](ui-change-basic-settings.md)  
+[<span data-ttu-id="17250-129">Käytön aloittaminen</span><span class="sxs-lookup"><span data-stu-id="17250-129">Getting Started</span></span>](product-get-started.md)  
