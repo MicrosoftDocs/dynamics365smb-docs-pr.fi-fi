@@ -227,9 +227,17 @@
 ### [Kontaktien synkronointi Microsoft Outlookissa](admin-synchronize-outlook-contacts.md)
 ### [Business Central -sovelluksen käyttäminen ilman Outlookia](admin-no-outlook.md)
 ## Power BI:n käyttäminen Business Centralin kanssa
-### [Yritystietojen ottaminen käyttöön Power BI:tä varten](admin-powerbi.md)
-### [Power BI -raporttien luettelotietojen tarkasteleminen Business Centralissa](across-how-use-powerbi-reports-factbox.md)
-### [Business Centralin käyttäminen Power BI -tietolähteenä](across-how-use-financials-data-source-powerbi.md)
+### [Esittely](admin-powerbi.md)
+### Järjestelmänvalvoja
+#### [Integroinnin yleiskatsaus](admin-powerbi-overview.md)
+#### [Power BI -integroinnin ottaminen käyttöön](admin-powerbi-setup.md)
+### Rakennenäkymä
+#### [Raporttien muodostamisen aloittaminen](across-how-use-financials-data-source-powerbi.md)
+#### [Luettelotiedot näyttävien raporttien luominen](across-how-use-powerbi-reports-factbox.md)
+### Kuluttaja
+#### [Power BI -raporttien käyttäminen Business Centralissa](across-working-with-powerbi.md)
+#### [Business Centralin tietojen käyttäminen Power BI:ssa](across-working-with-business-central-in-powerbi.md)
+#### [Business Central -sovellusten käyttäminen Power BI:ssa](across-powerbi-business-central-apps.md)
 ## Power Automate:n käyttäminen Business Centralin kanssa
 ### [Business Central -sovelluksen käyttäminen automaattisessa työnkulussa](across-how-use-financials-data-source-flow.md)
 ## Power Apps:n käyttäminen Business Centralin kanssa
@@ -424,8 +432,6 @@
 #### [Maksujen tarkasteleminen tai kohdistaminen automaattisen kohdistuksen jälkeen](receivables-how-review-apply-payments-auto-application.md)
 #### [Niiden maksujen täsmäyttäminen, joita ei voi kohdistaa automaattisesti](receivables-how-reconcile-payments-cannot-apply-auto.md)
 #### [Toistuvien maksujen tekstin yhdistäminen tileihin automaattisen täsmäytyksen suorittamiseksi](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
-### [Asiakkaan maksujen täsmäyttäminen maksamattomien myyntiasiakirjojen luettelosta](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
-### [Asiakkaan maksujen täsmäyttäminen kassapäiväkirjan avulla tai asiakastapahtumista](receivables-how-apply-sales-transactions-manually.md)
 ### [Toimittajamaksujen täsmäyttäminen maksukirjauskansiolla tai toimittajatapahtumista](payables-how-apply-purchase-transactions-manually.md)
 ### [Avointen saldojen perintä](receivables-collect-outstanding-balances.md)
 ### [Maksujen kerääminen SEPA-suoraveloitusperintänä.](finance-collect-payments-with-sepa-direct-debit.md)
@@ -1170,7 +1176,6 @@
 #### [Maksuhistorian luominen ja vieminen](LocalFunctionality/Netherlands/how-to-create-and-export-payment-history.md)
 #### [Tiliotteiden tuominen ja täsmäyttäminen](LocalFunctionality\Netherlands\how-to-import-and-reconcile-bank-statements.md)
 ### Perusrahoitus
-#### [Pääkirjanpito](LocalFunctionality/Netherlands/general-ledger.md)
 #### [Pääkirjanpidon tapahtumien kohdistaminen ja kohdistamisen poistaminen](LocalFunctionality/Netherlands/how-to-apply-and-unapply-general-ledger-entries.md)
 #### [KP-tapahtumien pakolliset kuvaukset](LocalFunctionality/Netherlands/required-descriptions-in-g-l-entry.md)
 ### Ostaminen
