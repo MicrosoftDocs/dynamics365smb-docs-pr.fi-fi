@@ -1,6 +1,6 @@
 ---
 title: Pankin maksutiedostojen viennissä käytettävät kentän yhdistämismääritykset | Microsoft Docs
-description: Kun viet maksutiedostoja AMC Banking 365 -perusteiden laajennuksen avulla, vietävät tiedot ovat alttiina palveluntarjoajalle.
+description: Kun viet maksutiedostoja AMC Banking 365 Fundamentals -laajennuksen avulla, vietävät tiedot paljastuvat palveluntarjoajalle.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,19 +9,19 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 0d85c4e4d882f84781ff119bdf397266c4f8ca1b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 06747ec283cb4b64f23433fbb81eea4a62e1f832
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188658"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3780683"
 ---
-# <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a>Kenttäkartoitus, kun maksutiedostoja viedään AMC Banking 365 -perusteiden laajennuksen avulla
-Kun viet maksutiedostoja AMC Banking 365 -perusteiden laajennuksen avulla, vietävät tiedot ovat alttiina palveluntarjoajalle. Palveluntarjoaja vastaa näiden tietojen tietosuojasta. Lisätietoja AMC Banking 365 -perusteiden laajennuksesta on kohdassa [AMC Banking 365 -perusteiden laajennuksen käyttäminen](ui-extensions-amc-banking.md).  
+# <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a>Kentien yhdistäminen, kun maksutiedostoja viedään AMC Banking 365 Fundamentals -laajennuksen avulla
+Kun viet maksutiedostoja AMC Banking 365 Fundamentals -laajennuksen avulla, vietävät tiedot paljastuvat palveluntarjoajalle. Palveluntarjoaja vastaa näiden tietojen tietosuojasta. Lisätietoja AMC Banking 365 Fundamentals -laajennuksesta on kohdassa [AMC Banking 365 Fundamentals -laajennuksen käyttäminen](ui-extensions-amc-banking.md).  
 
 > [!CAUTION]  
->  Kun viet maksutiedostoja AMC Banking 365 -perusteiden laajennuksen avulla, joitakin yritystietoja paljastetaan palvelun tarjoajalle. Palveluntarjoaja, AMC Consult A/S, vastaa näiden tietojen tietosuojasta. Lisätietoja on kohdassa [AMC:n tietosuojakäytäntö](https://go.microsoft.com/fwlink/?LinkId=510158).  
+>  Kun viet maksutiedostoja AMC Banking 365 Fundamentals -laajennuksen avulla, joitakin yritystietoja paljastuu palveluntarjoajalle. Palveluntarjoaja, AMC Consult A/S, vastaa näiden tietojen tietosuojasta. Lisätietoja on kohdassa [AMC:n tietosuojakäytäntö](https://go.microsoft.com/fwlink/?LinkId=510158).  
 
 Seuraavassa taulukossa on luettelo kentistä [!INCLUDE[d365fin](includes/d365fin_md.md)]:ssä, joista voit viedä tietoja.  
 
@@ -65,10 +65,10 @@ Seuraavassa taulukossa on luettelo kentistä [!INCLUDE[d365fin](includes/d365fin
 |Lähettäjän pankin postinumero|Postinro|Pankkitili|Lähettäjän pankkitilin postinumero, joka on määritetty pankkitilin korttiin|  
 |Yleisen päiväkirjan malli|Päiväkirjan mallin nimi|Yleisen päiväkirjan rivi|Yleisen päiväkirjan malli, jota käytetään maksurivillä|  
 |Yleisen päiväkirjan erän nimi|Päiväkirjan erän nimi|Yleisen päiväkirjan rivi|Yleisen päiväkirjan erän nimi, jota käytetään maksurivillä|  
-|Lähettäjän pankin nimi – tiet. muunto|Pankin nimi - Tietojen muuntaminen|Pankkitili|Lähettäjän pankkitilin nimi, jota AMC Banking 365 -perusteiden laajennus on pyytänyt, ja joka on määritetty pankkitilin kortissa|  
+|Lähettäjän pankin nimi – tiet. muunto|Pankin nimi - Tietojen muuntaminen|Pankkitili|Lähettäjän pankkitilin nimi, jota AMC Banking 365 Fundamentals -laajennus on pyytänyt ja joka on määritetty pankkitilin kortissa|  
 
 ## <a name="see-also"></a>Katso myös  
 [Tiedonsiirron määrittäminen](across-set-up-data-exchange.md)  
 [Tietojen vaihtaminen sähköisesti](across-data-exchange.md)
-[AMC Banking 365 -perusteiden laajennuksen avulla](ui-extensions-amc-banking.md)   
-[Suorita maksuja AMC Banking 365 -perusteiden laajennuksen tai SEPA-tilisiirron avulla](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   
+[AMC Banking 365 Fundamentals -laajennuksen käyttäminen](ui-extensions-amc-banking.md)   
+[Maksujen suorittaminen AMC Banking 365 Fundamentals -laajennuksen tai SEPA-tilisiirron avulla](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   

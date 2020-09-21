@@ -9,20 +9,20 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 285752074585eef8378f54b0f8dfa0d11b913a50
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 29aa67a3b892b07139975cf805ce33960b22bdab
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182442"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3780158"
 ---
 # <a name="set-up-intercompany"></a>Konsernin tietojen määrittäminen
 Jos haluat lähettää yhdestä yrityksestä tapahtuman (kuten myyntipäiväkirjan rivin), jolle luodaan automaattisesti vastaava tapahtuma (kuten ostopäiväkirjan rivi) kumppaniyrityksessä, yrityksillä on oltava yhteinen tilikartta ja dimensiojoukko konsernin tapahtumia varten. Konsernin tilikartta voi olla esimerkiksi pääyrityksen tilikartan yksinkertaistettu versio. Jokainen yritys määrittää oman tilikarttansa vastaavuuden konsernin jaetun tilikartan kanssa ja myös omien dimensioidensa vastaavuuden konsernin dimensioiden kanssa.  
 
 Jokaiselle kumppaniyritykselle on myös määritettävä konsernikumppanin koodi, jonka kaikki yritykset hyväksyvät, ja määrittää se sitten asiakas- ja toimittajakortteihin täyttämällä **Konsernikumppanin koodi** -kenttä.  
 
-Jos luot tai vastaanotat konsernin rivejä, joissa on nimikkeitä, voit joko käyttää omia nimikenumeroja tai määrittää kumppanin nimikenumerot kullekin soveltuvalle nimikkeelle. Nimikenumeron voi määrittää joko nimikkeen kortin **Toimittajan nimikenro**- tai **Yleinen nimikenro** -kenttään. Voit käyttää myös **Nimikeviittaus**-toimintoa: Voit linkittää nimikenumerot nimikkeiden konsernikumppanien kuvauksiin avaamalla kunkin nimikkeen kortin, valitsemalla **Viittaukset**-toiminnon ja määrittämällä sitten nimikkeen ja konsernikumppanin kuvausten väliset viittaukset.  
+Jos luot tai vastaanotat konsernin rivejä, joissa on nimikkeitä, voit joko käyttää omia nimikenumeroja tai määrittää kumppanin nimikenumerot kullekin soveltuvalle nimikkeelle. Nimikenumeron voi määrittää joko nimikkeen kortin **Toimittajan nimikenro**- tai **Yleinen nimikenro** -kenttään. Voit käyttää myös **Nimikeviittaus**-toimintoa yhdistämään nimikenumerot nimikkeiden konsernikumppanien kuvauksiin avaamalla kunkin nimikkeen kortin, valitsemalla **Viittaukset**-toiminnon ja määrittämällä sitten nimikkeen ja konsernikumppanin kuvausten väliset viittaukset. Lisätietoja on kohdassa [Nimikkeen viittausten käyttäminen](inventory-how-use-item-cross-refs.md). 
 
 Jos suorittamiisi konsernin myyntitapahtumiin sisältyy resursseja, täytä kunkin asiaankuuluvan resurssin kortin **Kons.kump. oston KP-tilinro** -kenttä. Tämä on konsernin kirjanpitotilin numero, jolle tämän resurssin summa kirjataan kumppaniyrityksessä. Lisätietoja on kohdassa [Resurssien määrittäminen](projects-how-setup-resources.md).
 
@@ -34,6 +34,9 @@ Jos suorittamiisi konsernin myyntitapahtumiin sisältyy resursseja, täytä kunk
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Konsernikumppani** ja valitse sitten liittyvä linkki.
 2. Valitse **Uusi**-toiminto.
 3. Täytä tarvittavat kentät **Konsernikumppanit**-sivulla.
+
+> [!NOTE]
+> Et voi käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)] onlinessa tiedostosijainteja tapahtumien siirtämiseen kumppaneille, koska[!INCLUDE[d365fin](includes/d365fin_md.md)]illa ei ole paikallisen verkon käyttöoikeutta. Niinpä jos valitset **Tiedoston sijainti** **Siirron tyyppi** -kentässä **Kansiopolku**-kenttä ei ole käytettävissä. Tiedosto ladataan sen sijaan tietokoneen Ladatut tiedostot -kansioon. Voit sitten lähettää tiedoston sähköpostitse esimerkiksi jollekin kumppaniyrityksessä. Kätevämpää on kuitenkin valita suoraan **Lähetä sähköpostitse**.
 
 ## <a name="to-set-up-intercompany-vendors-and-intercompany-customers"></a>Konsernin toimittajien ja asiakkaiden määrittäminen
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Toimittajat** ja valitse sitten liittyvä linkki.

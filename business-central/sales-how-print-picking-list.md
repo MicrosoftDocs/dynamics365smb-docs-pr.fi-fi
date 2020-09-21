@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/27/2020
-ms.author: sgroespe
-ms.openlocfilehash: d5eaad5279445375ec00fdf42dd48bffa5d03645
-ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
+ms.author: edupont
+ms.openlocfilehash: fadf974c41b34a5beb7b3b313847cc6a5bfcec78
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3324463"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3781633"
 ---
 # <a name="print-the-picking-list"></a>Tulosta poimintaluettelo
 Voit tulostaa varaston poimintaluettelon suoraan myyntitilauksesta, myyntilaskusta tai mistä tahansa muusta asiakirjasta, joka aloittaa tavaroiden lähettämisen.

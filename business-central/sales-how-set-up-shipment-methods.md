@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: incoterms
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: dc4864f27490a9cef7d3401f67c8ef177a5c7ef3
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 117af16fe6536f8db49eb3066e7e06a88450897f
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193879"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3780858"
 ---
 # <a name="set-up-shipment-methods"></a>Toimitusehtojen määrittäminen
 Toimitusehdot, joita kutsutaan myös incoterms-toimitusehdoiksi, määräytyvät usein nimikkeiden, asiakkaiden ja toimittajien mukaan. Jos asiakas asuu esimerkiksi saarella, hän voi valita, että nimikkeet toimitetaan aina lentoteitse tai aina meriteitse. Jotkin asiakkaat saattavat haluta toimituksen seuraavana päivänä. Jotkin asiakkaat taas haluavat noutaa tilauksen. Asiakas- ja toimittajakortteihin voit määrittää, kuinka toimitus toteutetaan.

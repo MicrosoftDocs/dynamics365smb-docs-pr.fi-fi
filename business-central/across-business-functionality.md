@@ -1,5 +1,5 @@
 ---
-title: Business Central -sovelluksen tukemat liiketoiminnan toiminnot | Microsoft Docs
+title: Business Central -sovelluksen tukemat liiketoiminnan toiminnot
 description: Tässä ohjeaiheessa on yleiskuvaus kaikista liiketoiminnan toimintojen ominaisuuksista ja osastoista, joita sovellusalueet tukevat. Tällaisia sovellusalueita ovat esimerkiksi taloushallinto, varastonhallinta ja projektinhallinta.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 5bdc19028a6859d1bee795de766416ada535b474
-ms.sourcegitcommit: 1ab077a024fa71d97ac70e4b36cc218b7ca66509
+ms.date: 08/27/2020
+ms.author: edupont
+ms.openlocfilehash: 7c78106eaf843435ea41e06c0388cd54e1e3dde4
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "3499514"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3780759"
 ---
 # <a name="business-functionality"></a>Liiketoiminnan toiminnallisuus
 [!INCLUDE[d365fin](includes/d365fin_md.md)]issa on lähinnä tukkukauppa- ja palvelualalla toimivien PK-yritysten tavallisissa liiketoimintaprosesseissa tarvitsemat toiminnot. Tämän lisäksi tuetaan myös monimutkaisia prosesseja, kuten kokoonpanoa, tuotantoa, huoltoa ja ohjattua varastoinninhallintaa.
