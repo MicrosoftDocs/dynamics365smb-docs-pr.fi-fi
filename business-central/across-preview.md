@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
-ms.date: 04/01/2020
+ms.date: 08/12/2020
 ms.author: edupont
-ms.openlocfilehash: 805a8be94ccd38ffa696fe19157a08f4772c9ef3
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 342ffb57090aa78e10b8448b6316c610f6485040
+ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3529086"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "3693097"
 ---
 # <a name="d365fin_long-trials-and-subscriptions"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] – Kokeilut ja tilaukset
 
@@ -68,7 +68,7 @@ Jos olet lisännyt tietoja maksuttomaan [!INCLUDE[prodshort](includes/prodshort.
 
 ## <a name="getting-started-with-a-subscription"></a>Tilauksen käytön aloittaminen
 
-Aina kun kirjaudut sovellukseen kokeilujakson aikana, jäljellä oleva aika näkyy yläreunassa olevassa sinisessä palkissa. Jos päätät tehdä tilauksen, voit etsiä [!INCLUDE[d365fin](includes/d365fin_md.md)] -kumppanin. Lisätietoja on kohdassa [Miten löydän jälleenmyyjäpartnerin?](across-faq.md#findpartner). Jälleenmyyjäkumppanin avulla voit määrittää sovelluksen [!INCLUDE[prodshort](includes/prodshort.md)] yrityksesi tarpeiden mukaan, kuten tietojen tuomisen aiemmasta järjestelmästä. Voit myös mukauttaa sovelluksen [!INCLUDE[prodshort](includes/prodshort.md)] lisäämällä sovellukset [Microsoft AppSourcesta](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365-business-central).  
+Aina kun kirjaudut sovellukseen kokeilujakson aikana, jäljellä oleva aika näkyy yläreunassa olevassa sinisessä palkissa. Jos päätät tehdä tilauksen, voit etsiä [!INCLUDE[d365fin](includes/d365fin_md.md)] -kumppanin. Lisätietoja on kohdassa [Miten löydän jälleenmyyjäpartnerin?](across-faq.md#findpartner). Jälleenmyyjäkumppanin avulla voit määrittää sovelluksen [!INCLUDE[prodshort](includes/prodshort.md)] yrityksesi tarpeiden mukaan, kuten tietojen tuomisen aiemmasta järjestelmästä. Voit myös mukauttaa sovelluksen [!INCLUDE[prodshort](includes/prodshort.md)] lisäämällä sovellukset [Microsoft AppSourcesta](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
 [!INCLUDE[prodshort](includes/prodshort.md)] online käyttää Office 365:tä. Jos yrityksesi käyttää eri tyyppisiä sähköpostiasetuksia, jälleenmyynnin kumppani voi auttaa sinua päättämään, miten tiedot siirretään tai pitäisikö käyttää [!INCLUDE[prodshort](includes/prodshort.md)] on-premises -versiota.  
 

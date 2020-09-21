@@ -8,12 +8,12 @@ ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: 42ad388e6c07ca259d4ef6095b9f8c908b509407
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: 5f914904aaa1ec568b396a830ebc18a0fe4e40c1
+ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196852"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "3693022"
 ---
 # <a name="handling-missing-option-values"></a>Puuttuvien asetusarvojen käsitteleminen
 [!INCLUDE[d365fin](includes/cds_long_md.md)] sisältää vain kolme asetusjoukkokenttää, jotka sisältävät Asetus-tyyppiset [!INCLUDE[d365fin](includes/d365fin_md.md)] -kenttiin yhdistettävissä olevat asetusarvot<!-- Option type, not enum? @Onat can you vertify this? --> automaattista synkronointia varten. Synkronoinnin aikana muut kuin yhdistetyt asetukset ohitetaan ja puuttuvat asetukset liitetään liittyvään [!INCLUDE[d365fin](includes/d365fin_md.md)] -tauluun ja lisätään **CDS-asetuksen yhdistäminen** -järjestelmätauluun myöhemmin tapahtuvaa manuaalista käsittelemistä varten. Voit esimerkiksi lisätä puuttuvat asetukset tuotteeseen ja päivittää sitten yhdistämismäärityksen. Tässä osassa kuvataan, miten tämä tehdään.
@@ -99,6 +99,9 @@ enumextension 50100 "CDS Payment Terms Code Extension" extends "CDS Payment Term
 
 > [!IMPORTANT]  
 > Sinun on käytettävä [!INCLUDE[d365fin](includes/cds_long_md.md)] -sovelluksen samoja asetuksen tunnusten arvoja kuin [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen enum-arvon laajennuksen yhteydessä. Muussa tapauksessa synkronointi epäonnistuu.
+
+> [!IMPORTANT]  
+> Älä käytä ,-merkkiä enum-arvoissa ja kuvateksteissä. [!INCLUDE[d365fin](includes/d365fin_md.md)]in suorituspalvelu ei tue sitä tällä hetkellä.
 
 > [!NOTE]
 > Uusien asetusarvojen nimien ja otsikoiden kymmenen ensimmäisen merkin on oltava samoja. Esimerkiksi kaksi asetusta, joiden nimet ovat Siirretään 20 työpäivää ja Siirretään 20 kalenteripäivää, aiheuttavat virheen, koska molemmissa on samat 10 ensimmäistä merkkiä (Siirretään). Anna nimiksi esimerkiksi SIIR20 TP ja SIIR20 KP.

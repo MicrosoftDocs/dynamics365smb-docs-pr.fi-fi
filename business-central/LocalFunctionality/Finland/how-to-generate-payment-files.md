@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 2e2fcc89b4974ea73333b08997847bd103c46899
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.author: edupont
+ms.openlocfilehash: 2a54b57257ecc141ccbdab95cc3439c91aa8a21e
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3677143"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778373"
 ---
 # <a name="generate-payment-files"></a>Maksutiedostojen luominen
 Voit lähettää toimittajille elektronisia maksuja, kun olet luonut kotimaan tai ulkomaan maksuille maksutiedoston.  

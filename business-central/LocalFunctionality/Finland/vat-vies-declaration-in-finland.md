@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: cbe0c0be3d6b44c5de19bf54095cd417eff1579e
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: c66283be2cbc3911b05e2ff218acdc51ddfc7f4d
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181212"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778361"
 ---
 # <a name="vat-vies-declaration-in-finland"></a>ALV-yhteenvetoilmoitus Suomessa
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)] sisältää arvonlisäveron ja Euroopan unionin (EU) myyntiraportoinnin sääntöjen noudattamisessa tarvittavat Suomessa käytettävät lisätoiminnot. **ALV-yhteenvetoilmoitus**- ja **EU-myyntiluettelo**-raportit sisältävät **EU-palvelu**-kentän, jonka avulla voit tulostaa palveluun liittyviä myyntisummia erikseen nimikkeeseen liittyvistä myyntisummista eri kirjausryhmien perusteella. Nämä tiedot ovat pakollisia EU-kolmikantakaupan tapahtumien ALV-raporteissa vuonna 2010 ja sitä seuraavina vuosina.  

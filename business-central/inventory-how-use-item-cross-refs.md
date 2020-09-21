@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 1b914c3c1c5e640894f1ee48639c547421c27be4
-ms.sourcegitcommit: 0c6f4382fad994fb6aea9dcde3b2dc25382c5968
+ms.author: edupont
+ms.openlocfilehash: 2c676af23e5a6e988ab5d89d07118b9ff1cce86b
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "3484032"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3777959"
 ---
 # <a name="use-item-cross-references"></a>Nimikkeen viittausten käyttäminen
 Jos määrität viittauksen käyttämäsi nimikkeen nimikekuvauksen ja kyseisen nimikkeen toimittajan käyttämän kuvauksen välille, toimittajan nimikekuvaus lisätään automaattiesti toimittajan ostoasiakirjoihin, kun annat arvon **Viitenro** -kentässä. Myyntiasiakirjojen asiakkaan nimikenumeroissa käytetään samoja toimintoja.

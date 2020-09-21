@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 06/26/2020
+ms.date: 09/02/2020
 ms.author: bholtorf
-ms.openlocfilehash: 84ce43b7e3305380e46d16e5b4e2f8b1a25aaf08
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 7d2a891f55ff41e1e236c57ca76eb5d1444b7160
+ms.sourcegitcommit: 43284728c34b72ad1984a516273dc80e4cdc99ab
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528486"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "3765944"
 ---
 # <a name="keyboard-shortcuts"></a>Pikanäppäimet
 
@@ -166,7 +166,7 @@ Seuraavat pikanäppäimet koskevat korttien, asiakirjojen ja luettelosivujen pik
 |Vaihto+Enter|Vahvista nykyisen kentän arvo ja siirry edelliseen pikatapahtumakenttään.||
 |Ctrl+Vaihto+Enter|Vahvista nykyisen sarakkeen arvo ja siirry seuraavaan luettelon ulkopuoliseen pikatapahtumakenttään.<br /><br />Tämä pikanäppäin koskee sivulle upotettuja luetteloita, kuten myyntitilauksen rivinimikkeitä. Voit poistua sen avulla nopeasti luettelosta ja jatkaa tietojen lisäämistä sivun muihin kenttiin.|
 
-## <a name="keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"/> Pikanäppäimet kalenterissa (päivämäärän valitsin)
+## <a name="keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"></a> Kalenterin pikanäppäimet (päivämäärän valitsin)
 
 Päivämääräkenttää määrittäessäsi voit syöttää päivämäärän manuaalisesti tai avata kalenterin (päivämäärän valitsin), jonka avulla voit valita haluamasi päivämäärän. Seuraavassa taulukossa kuvataan kalenterin pikanäppäimet.
 
@@ -185,12 +185,13 @@ Päivämääräkenttää määrittäessäsi voit syöttää päivämäärän man
 |Sivu ylös|Siirry edelliseen kuukauteen.|  
 
 ## <a name="keyboard-shortcuts-in-date-fields"></a>Päivämääräkenttien pikanäppäimet
+
 |Paina näitä näppäimiä<br />(macOS)|Tehtävä|
 |--------------------------------|----------|
 |t|Anna kuluvan päivän päivämäärä. "T" tarkoittaa tänään.|
 |k|Anna työn päivämäärä. Lisätietoja on kohdassa [Työn päivämäärä](ui-change-basic-settings.md#work-date)|
 
-## <a name="keyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"/>Raportin esikatselun pikanäppäimet
+## <a name="keyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"></a>Raportin esikatselun pikanäppäimet
 
 |Paina näitä näppäimiä<br />(macOS)|Tehtävä|
 |--------------------------------|----------|

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 05/06/2020
+ms.date: 08/25/2020
 ms.author: edupont
-ms.openlocfilehash: 55af97f27768d4b0c83379dd9eb5174613aabaa9
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 65d8295c6beb4fe918ad11434bc9813c34e81a93
+ms.sourcegitcommit: 3e2eab6920e96596cb4b3c61e590a8c577e8b630
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528711"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "3731216"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Business Central -sovelluksen käytön vähimmäisvaatimukset
 Suosittelemme, että tietokoneen tai mobiililaitteen tuotteelle asetettujen järjestelmän vähimmäisvaatimusten täyttyminen tarkistetaan, ennen kuin [!INCLUDE[prodshort](includes/prodshort.md)] -sovelluksen online-versio otetaan käyttöön. Tässä artikkelissa kerrotaan vaatimukset.  
@@ -25,13 +25,16 @@ Suosittelemme, että tietokoneen tai mobiililaitteen tuotteelle asetettujen jär
 ### <a name="recommended-browsers"></a>Suositellut selaimet
 
 **Microsoft Edge:** [!INCLUDE[d365fin](includes/d365fin_md.md)] on suunniteltu käytettäväksi uuden Microsoft Edgen nykyisen version kanssa.  
-**Chrome Windowsille ja Firefox Windowsille:** [!INCLUDE[d365fin](includes/d365fin_md.md)] on suunniteltu käytettäväksi näiden työpöytäselaimien nykyisten versioiden kanssa.  
+**Chrome Windowsille ja Firefox Windowsille**: [!INCLUDE[d365fin](includes/d365fin_md.md)] on suunniteltu käytettäväksi näiden työpöytäselaimien nykyisten versioiden kanssa.  
 **Safari:** [!INCLUDE[d365fin](includes/d365fin_md.md)] on suunniteltu käytettäväksi macOS-käyttöjärjestelmän nykyisen Safari-version kanssa.  
 
 ### <a name="other-supported-browsers"></a>Muut tuetut selaimet
 
 **Vanha Microsoft Edge:** [!INCLUDE[d365fin](includes/d365fin_md.md)] on suunniteltu käytettäväksi vanhan Microsoft Edge -version kanssa.  
 **Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] on suunniteltu toimimaan Windows 10:n (32- ja 64-bittiset versiot) Internet Explorer 11:n (koontiversio 11.0.9600.17239) kanssa. Suosittelemme Internet Explorerin päivittämistä uusimpaan Windows-versiosi tukemaan versioon. Voit myös käyttää uutta Edgeä ja silti käyttää muita Internet Exploreria edellyttäviä sivustoja. Lisätietoja on [Microsoft Edge -dokumentaatiossa](/deployedge/edge-ie-mode).
+
+> [!IMPORTANT]
+> Huhtikuusta 2021 alkaen Internet Explorer 11- ja vanhaa Edge-selainta ei enää tueta. Siirtyminen johonkin suositelluista moderneista selaimista kannattaakin tehdä mahdollisimman pian.
 
 ## <a name="mobile-devices"></a>Mobiililaitteet
 **Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] for Windows voidaan asentaa laitteisiin, joissa on vähintään 1 Gt RAM-muistia ja Windows 10 Home-, Pro-, Enterprise- tai Education-versioihin (32- ja 64-bittiset versiot).  

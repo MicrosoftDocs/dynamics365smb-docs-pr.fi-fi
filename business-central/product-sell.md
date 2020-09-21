@@ -8,19 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: microsoft partner
-ms.date: 04/01/2020
+ms.date: 08/12/2020
 ms.author: edupont
-ms.openlocfilehash: 4567f62a7866f6d02103f8f80aea13b92415d0bd
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 37b813e417d4d20be5c35678639f9f4c49184e33
+ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528686"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "3693047"
 ---
 # <a name="become-a-reseller-of-d365fin_long"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]in jälleenmyyjäksi ryhtyminen
+
 Laajenna liiketoimintamahdollisuuksia [!INCLUDE[d365fin](includes/d365fin_md.md)]illa.  
 
-Jos pilviratkaisut, Office 365, SharePoint, toimialakohtaiset ratkaisut, analytiikka, ERP, CRM, kirjanpito-ohjelmistot ja/tai liiketoimintaprosessien optimointiohjelmistot tai -palvelut ovat erikoisalaasi, Business Central tarjoaa uusia mahdollisuuksia.   
+Jos pilviratkaisut, Office 365, SharePoint, toimialakohtaiset ratkaisut, analytiikka, ERP, CRM, kirjanpito-ohjelmistot ja/tai liiketoimintaprosessien optimointiohjelmistot tai -palvelut ovat erikoisalaasi, Business Central tarjoaa uusia mahdollisuuksia.  
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] auttaa erottautumaan ja syventämään asiakassuhteita, sillä voit toimittaa sen avulla kattavan liiketoiminnan hallintaratkaisun, joka yhdistää työntekijät ja prosessit aivan uudella tavalla. Lisäksi se integroituu tuttuihin Microsoft Office -työkaluihin, joita PK-yritykset käyttävät joka päivä.  
 
@@ -32,4 +33,4 @@ Valmis aloittamaan -ohjelma on yksi tapa aloittaa [!INCLUDE[prodshort](includes/
 
 [Käytön aloittaminen](product-get-started.md)  
 [Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md)  
-[https://appsource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1)  
+[https://appsource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646)  

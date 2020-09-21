@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 99345104555d8cba2887361a1de4941b24b7499a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 1e1c951a3eb0a8b519ac5c0f7c5112cb40272219
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181626"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3779259"
 ---
 # <a name="managing-contacts"></a>Kontaktien hallinta
 Yrityksen työntekijät kohtaavat säännöllisesti mahdollisia liikesuhteita, joista voi kehittyä virallisia liikesuhteita. Kaikki tällaiset ulkoiset yhteyshenkilöt ja heidän eritellyt tietonsa tulee tallentaa järjestelmään, jotta viestintä onnistuu. Tämän jälkeen yhteyshenkilöt voidaan helposti muuntaa virallisesti asiakkaiksi, toimittajiksi tai pankkisuhteiksi.

@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: check, clearing
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: d1a7922895e357e51ba66dd8853961300a8fcc6c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: be71a8edc556708f88d00b088f49b52e2fd5ee45
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183622"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778916"
 ---
 # <a name="export-a-positive-pay-file"></a>Positive Pay -tiedoston vienti
 Kun viet toimittajan tiedot, sekin numeron ja maksun summan sisältävän Positive Pay -tiedoston, jonka sitten lähetät viitetiedoiksi pankkiin maksuja käsitellessäsi, voit varmistaa, että pankki vahvistaa vain tarkistetut sekit ja summat.

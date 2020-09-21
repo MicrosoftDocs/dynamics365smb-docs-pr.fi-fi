@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 06/23/2020
-ms.author: sgroespe
-ms.openlocfilehash: bf52a225d458f19651d79e82bac2a6b0f593f82c
-ms.sourcegitcommit: 63102669366eb26f9c32729848170bc2e5c4d6ae
+ms.date: 08/18/2020
+ms.author: edupont
+ms.openlocfilehash: 787f6eecef82abf7b76bf7273b49deb13b18554a
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "3503796"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3777984"
 ---
 # <a name="make-check-payments"></a>Sekkimaksujen suorittaminen
 
@@ -47,7 +47,7 @@ Seuraavassa kuvataan, miten toimittajalle maksetaan sekillä. Vaiheet ovat saman
 6. Täytä **Sekki**-sivulla tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 7. Jos tulostin on määritetty tulostamaan sekkejä, valitse **Tulosta**-painike. Valitse muussa tapauksessa ensin **Lähetä kohteeseen** -painike, sitten **PDF-tiedosto**-asetus, lopuksi **OK**-painike ja tulosta PDF-tiedosto sitten.
 
-    Fyysiset sekit voidaan nyt viedä pankkiin käsittelyä varten. Jatka maksun kirjaamiseen kohdistuksen mukaan toimittajalle ja maksun suorittamiseksi järjestelmässä.
+    Fyysiset sekit voidaan nyt lähettää toimittajille käsiteltäviksi. Jatka maksun kirjaamiseen kohdistuksen mukaan toimittajalle ja maksun suorittamiseksi järjestelmässä.
 8. Valitse **Kirjaa**-toiminto.
 
 Täysin kohdistetut toimittajatapahtumat ja pankkitilitapahtumat luodaan.
@@ -61,7 +61,11 @@ Voit peruuttaa kirjaamattomat sekit niiden tulostamisen jälkeen **Maksupäiväk
 1. Valitse **Maksupäiväkirja**-sivulla **Mitätöi sekki** ja valitse peruutettavat sekit.
 
 ## <a name="to-void-checks"></a>Sekkien mitätöiminen
+
 Kun sekkimaksu on kirjattu, voit peruuttaa (mitätöidä) sekit vain tuloksena syntyvistä pankkitapahtumista.
+
+> [!IMPORTANT]
+> Jos sekkiä käytetään laskussa, poista sekin käyttö ensin, jotta lasku voidaan maksaa uudelleen ja mitätöi sekki sitten. Jos sekki tulostettiin eikä laskua maksettu sillä, valitse siinä tapauksessa **Mitätöi vain sekki** tässä osassa kuvatulla tavalla.
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tilit** ja valitse sitten liittyvä linkki.
 2. Valitse oikea pankkitili, valitse **Muokkaa**-toiminto ja valitse sitten **Sekkitapahtumat**-toiminto.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/07/2020
+ms.date: 08/18/2020
 ms.author: bholtorf
-ms.openlocfilehash: dbee0561f2baa52484df1fbebf8e4875dd3f7245
-ms.sourcegitcommit: 8b2f02dd5189c46ecff33c07223ed62b36842d34
+ms.openlocfilehash: 5e2713904cc53620188c1c63ba51079bd8fa3123
+ms.sourcegitcommit: ac492bff0c87bf2a23fa93113e7571da9d5094c7
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "3542715"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3701761"
 ---
 # <a name="make-payments-with-the-amc-banking-365-fundamentals-extension-or-sepa-credit-transfer"></a>Maksujen suorittaminen AMC Banking 365 Fundamentals -laajennuksen tai SEPA-tilisiirron avulla
 
@@ -79,8 +79,6 @@ Ennen kuin voit käsitellä maksun sähköisesti viemällä maksutiedostot SEPA-
 1. Anna **Haku**-ruudussa **Maksutavat** ja valitse sitten vastaava linkki.  
 2. Valitse **Maksutavat**-sivulla ensin maksutapa, jolla maksut viedään, ja sitten **Maksun vientirivin määritys** -kenttä.  
 3. Valitse **Maksun vientirivin määritykset** -sivulla koodi, jonka määritit **Rivimääritykset**-pikavälilehden **Koodi**-kentässä ohjeaiheen [Tiedonsiirtomääritysten määrittäminen](across-how-to-set-up-data-exchange-definitions.md) Tiedoston rivien ja sarakkeiden muotoilun kuvaaminen -kohdan vaiheessa 4.  
-
-Suoraveloitusvaltakirja lisätään automaattisesti **Suoraveloitusvaltakirjan tunnus** -kenttään, kun luot myyntilaskun vaiheessa 2 valitulle asiakkaalle. Lisätietoja on kohdassa [Toistuvien myynti- ja ostorivien luominen](sales-how-work-standard-lines.md).  
 
 ## <a name="preparing-the-payment-journal"></a>Maksupäiväkirjan valmistelu
 

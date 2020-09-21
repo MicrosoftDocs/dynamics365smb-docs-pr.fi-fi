@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: prepayment
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: c1e129947d6230578b5c553fd985030e2f5ebc5c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: cde057fe727290a816f748b0c115ef865b2465a3
+ms.sourcegitcommit: ac492bff0c87bf2a23fa93113e7571da9d5094c7
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182826"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3701863"
 ---
 # <a name="set-up-prepayments"></a>Ennakkomaksujen määrittäminen
 Jos haluat, että asiakkaat lähettävät maksun ennen kuin toimitat heille tilauksen tai jos toimittaja haluaa maksun ennen kuin toimitus lähetetään sinulle, voit käyttää Ennakkomaksu-toimintoa. Voit laskuttaa ja periä toiminnolla asiakkailta edellytettäviä talletuksia tai suorittaa talletuksia toimittajille sekä varmistaa, että kaikki osamaksut kohdistetaan laskuun. Lisätietoja on kohdassa [Ennakkomaksulaskujen luominen](finance-how-to-create-prepayment-invoices.md).
@@ -20,6 +20,11 @@ Jos haluat, että asiakkaat lähettävät maksun ennen kuin toimitat heille tila
 Ennen kuin voit kirjata ennakkomaksulaskuja, sinun on määritettävä kirjaustilit pääkirjanpitoon sekä määritettävä numerosarjat ennakkomaksuasiakirjoille. Määritä myyntiin ja ostoon liittyville ennakkomaksuille tilit. Voit määrittää kirjaustilit, joita käytetään kaikille yleisiin liiketoiminnan kirjausryhmiin tai yleisiin tuotteen kirjausryhmiin liittyville ennakkomaksuille. Voit myös määrittää tietyille myynnin ja oston kirjausryhmille omat tilit. Tämä riippuu siitä, millaisia vaatimuksia yrityksellä on ennakkomaksujen seurantaa varten.  
 
 Voit määrittää toimittajan tai asiakkaan ennakkomaksuna laskutettavan rivisumman prosenttiosuuden kaikille nimikkeille tai valituille nimikkeille. Kun olet saanut asetukset valmiiksi, voit luoda ennakkomaksulaskuja myynti- ja ostotilauksista. Voit käyttää kullekin myynti- tai ostoriville oletusprosenttiosuuksia tai voit muuttaa laskun summia tarpeen mukaan. Voit määrittää esimerkiksi koko tilauksen yhteissumman.  
+
+> [!NOTE]
+> 100 prosentin ennakkomaksua ei kannata käyttää seuraavissa tilanteissa:
+> * Sijaintisi on Pohjois-Amerikassa. Verojen laskutavan vuoksi 100 prosentin ennakkomaksu voi aiheuttaa ongelmia ennakkomaksulaskuissa.
+> * Kaikilla alueilla, jos maksualennus vähennetään manuaalisesti laskusta. 100 prosentin ennakkomaksua ei jätä automaattisesti summaa, josta alennus vähennetään. 
 
 Koska ennakkoon maksettu summa kuuluu ostajalle siihen asti, kunnes hän on vastaanottanut tavarat tai palvelut, sinun on määritettävä KP-tilit, joilla ennakkomaksusummia pidetään viimeisen laskun lähetykseen asti. Myynnin ennakkomaksut on tallennettava ostovelkatilille nimikkeiden toimitukseen asti. Oston ennakkomaksut on tallennettava käyttöomaisuustilille nimikkeiden vastaanottoon asti. Lisäksi on määritettävä erillinen kirjanpitotili jokaiselle ALV-tunnukselle.  
 

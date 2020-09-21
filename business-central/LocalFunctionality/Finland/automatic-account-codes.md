@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: a7a7dfd33b86b1d9b1a164c4dc916afb90b5f251
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 268c7c3fea3ba158026699a8257effe999dbd2c0
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180815"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778379"
 ---
 # <a name="automatic-account-codes"></a>Automaattiset tilikoodit
 Mukautettujen kirjausryhmien avulla voit automatisoida päiväkirjojen, myyntiasiakirjojen tai ostoasiakirjojen toistuvat tapahtumat. Näitä kirjausryhmiä voi käyttää kaikkialla [!INCLUDE[d365fin](../../includes/d365fin_md.md)] -ohjelmassa käynnistettäessä automaattisia kirjauksia ja kohdistuksia eri tileillä tai dimensioissa.  

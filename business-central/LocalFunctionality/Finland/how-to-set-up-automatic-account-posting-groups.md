@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: ae31616beba65ceb872bc9e65c2791970619e1d9
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.author: edupont
+ms.openlocfilehash: 301457444af5e153b063d041e4d91eb74cd3a5a2
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3676942"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778367"
 ---
 # <a name="set-up-automatic-account-posting-groups"></a>Automaattisten tilin kirjausryhmien määrittäminen
 Voit käyttää automaattisia tilikoodeja automaattisen tilin kirjausryhmän luonnin jälkeen.  

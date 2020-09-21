@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 0aab4a7ffd693ca8edaa3765228715b5496f0b2f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 4b6e9c03e93f055ccdc4066df56db5d53027852a
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193057"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3779559"
 ---
 # <a name="move-items-in-advanced-warehouse-configurations"></a>Nimikkeiden siirtäminen laajennetuissa varastomäärityksissä
 Fyysisen varaston laajennetuissa määrityksissä eli sijainneissa, joissa on käytössä ohjattu hyllytys ja poiminta, fyysisen varaston siirrot varastopaikkojen välillä suorittaa johtava työntekijä. Hän valmistelee fyysisen varaston siirrot fyysisen varaston työkirjaan ja luo varastotyöntekijöille suoritettavat fyysisen varaston siirrot.  
@@ -43,7 +43,7 @@ Fyysisen varaston laajennetuissa määrityksissä eli sijainneissa, joissa on k�
 ## <a name="to-register-the-movement-of-an-item-that-has-already-occurred"></a>Jo tapahtuneen nimikkeiden siirron rekisteröiminen  
 Jos sijainnissa on käytössä ohjattu hyllytys ja poiminta ja nimikkeitä täytyy siirtää muihin varastopaikkoihin ilman olemassa olevaa fyysisen varastoinnin hyllytystä, poimintaa tai siirtoa, voit rekisteröidä nimikkeiden oikean sijoituksen fyysisessä varastossa **F. var. uudelleenluokituspvk** -päiväkirjan avulla.
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä ***F.var. uudellenluokituspvk** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **F.var. uudellenluokituspvk** ja valitse sitten liittyvä linkki.  
 2.  Täytä **Nimikkeen nro**-, **Aluekoodista**-, **Var.paikasta**-, **Aluekoodiin**- ja **Varastopaikkakoodiin**-kentät.  
 3.  Valitse **Rekisteröi**-toiminto.  
 

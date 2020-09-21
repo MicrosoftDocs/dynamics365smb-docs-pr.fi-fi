@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: f34d127e964da4bfd4f5f0da6325ad57343dd705
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 17ccfb27727b80def3699c1f0dfaafd1e634657b
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181213"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778359"
 ---
 # <a name="sepa-credit-transfer-payments"></a>SEPA-hyvityksen siirron maksut
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)] sisältää Suomessa käytettäviä lisätoimintoja, joiden avulla voi luoda SEPA (Single Euro Payments Area) -hyvitysten siirtotiedostot ja lähettää toimittajamaksut pankeille. SEPA-hyvityksen siirto on maksu, joka siirretään Euroopan maksuneuvoston määrittämän tiedostomuodon mukaan.  

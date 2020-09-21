@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/24/2020
 ms.author: bholtorf
-ms.openlocfilehash: e6ee18367ad229ab56d694d0bbac23e1959b1a5f
-ms.sourcegitcommit: edad0d0b129e916c2cfdfa9c4f8d9d83513f4fd1
+ms.openlocfilehash: 10a257b60aedfb22066148fd48145779cd6d4a62
+ms.sourcegitcommit: ac492bff0c87bf2a23fa93113e7571da9d5094c7
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/24/2020
-ms.locfileid: "3619407"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3701990"
 ---
 # <a name="connect-to-common-data-service"></a>Yhteyden muodostaminen Common Data Serviceen
 
@@ -71,7 +71,7 @@ Seuraavassa kerrotaan, miten yhteys määritetään manuaalisesti **CDS-yhteyden
     |Kenttä|Kuvaus|
     |-----|-----|
     |**[!INCLUDE[d365fin](includes/d365fin_md.md)] -käyttäjät on yhdistettävä CDS-käyttäjiin**|Jos käytät henkilön omistajuus-mallia, määritä, onko [!INCLUDE[d365fin](includes/d365fin_md.md)] -käyttäjätilillä oltava vastaavat käyttäjätilit kohteessa [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. [!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäjän **Office 365:n todennuksen sähköpostiosoitteen** on oltava sama kuin [!INCLUDE[crm_md](includes/crm_md.md)]in käyttäjän **ensisijainen sähköposti**.<br /><br /> Jos valitse arvoksi **Kyllä**, [!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäjillä, joilla ei ole vastaavaa [!INCLUDE[crm_md](includes/crm_md.md)]in käyttäjätiliä, ei ole käyttöliittymässä [!INCLUDE[d365fin](includes/d365fin_md.md)] -integrointiominaisuuksia. [!INCLUDE[crm_md](includes/crm_md.md)]in tietoja käytetään suoraan [!INCLUDE[d365fin](includes/d365fin_md.md)]ista [!INCLUDE[crm_md](includes/crm_md.md)] -käyttäjätilin puolesta.<br /><br /> Jos valitset arvoksi **Ei**, kaikilla [!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäjillä on käyttöliittymässä [!INCLUDE[crm_md](includes/crm_md.md)] -integrointiominaisuudet. [!INCLUDE[crm_md](includes/crm_md.md)]in tietoja käytetään [!INCLUDE[crm_md](includes/crm_md.md)] -yhteyden (integroinnin) käyttäjän puolesta.|
-    |**Nykyinen Business Central -myyjä yhdistetään käyttäjään**|Ilmaisee, onko käyttäjätiliisi yhdistetty [!INCLUDE[crm_md](includes/crm_md.md)] -tiliin <!--double check the name of this field|-->
+    |**Nykyinen Business Central -myyjä yhdistetään käyttäjään**|Ilmaisee, yhdistetäänkö käyttäjätili [!INCLUDE[crm_md](includes/crm_md.md)]in tiliin. <!--double check the name of this field-->|
 
 4. Jos haluat testata yhteysasetukset, valitse **Yhteys** ja valitse sitten **Testaa yhteys**.  
 
