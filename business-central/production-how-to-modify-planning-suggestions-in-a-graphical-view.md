@@ -9,17 +9,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 05/05/2020
-ms.author: sgroespe
-ms.openlocfilehash: 62bd4575c94f97fc363a73ad2fbfce0846c9146a
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.author: edupont
+ms.openlocfilehash: d1edbe7c25fbdf3a461c9897ecf3d448d702ab96
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528611"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3786019"
 ---
-# <a name="modify-planning-suggestions-in-a-graphical-view"></a><span data-ttu-id="5a830-104">Suunnitteluehdotusten muokkaaminen graafisessa näkymässä</span><span class="sxs-lookup"><span data-stu-id="5a830-104">Modify Planning Suggestions in a Graphical View</span></span>
+# <a name="modify-planning-suggestions-in-a-graphical-view"></a><span data-ttu-id="cfac4-104">Suunnitteluehdotusten muokkaaminen graafisessa näkymässä</span><span class="sxs-lookup"><span data-stu-id="cfac4-104">Modify Planning Suggestions in a Graphical View</span></span>
 
-<span data-ttu-id="5a830-105">Tyypillinen suunnittelun tehtävä on muuttaa tai lisätä suunnittelutyökirjan rivejä ehdotettujen toimitustilausten muokkaamiseksi ennen kuin ne suoritetaan **Toteuta toimenpideviesti** -toiminnolla.</span><span class="sxs-lookup"><span data-stu-id="5a830-105">A typical planning activity is to change or add planning worksheet lines to modify the suggested supply orders before you commit them by running the **Carry out Action Message** function.</span></span> <span data-ttu-id="5a830-106">Vaihtoehtona suunnittelutyökirjassa on graafinen esitys.</span><span class="sxs-lookup"><span data-stu-id="5a830-106">An alternative to doing this in the planning worksheet is to use a graphical view.</span></span> <span data-ttu-id="5a830-107">Sitä ei kuitenkaan tueta tällä hetkellä kohteessa [!INCLUDE[prodshort](includes/prodshort.md)].</span><span class="sxs-lookup"><span data-stu-id="5a830-107">However, this is currently not supported in [!INCLUDE[prodshort](includes/prodshort.md)].</span></span>  
+<span data-ttu-id="cfac4-105">Tyypillinen suunnittelun tehtävä on muuttaa tai lisätä suunnittelutyökirjan rivejä ehdotettujen toimitustilausten muokkaamiseksi ennen kuin ne suoritetaan **Toteuta toimenpideviesti** -toiminnolla.</span><span class="sxs-lookup"><span data-stu-id="cfac4-105">A typical planning activity is to change or add planning worksheet lines to modify the suggested supply orders before you commit them by running the **Carry out Action Message** function.</span></span> <span data-ttu-id="cfac4-106">Vaihtoehtona suunnittelutyökirjassa on graafinen esitys.</span><span class="sxs-lookup"><span data-stu-id="cfac4-106">An alternative to doing this in the planning worksheet is to use a graphical view.</span></span> <span data-ttu-id="cfac4-107">Sitä ei kuitenkaan tueta tällä hetkellä kohteessa [!INCLUDE[prodshort](includes/prodshort.md)].</span><span class="sxs-lookup"><span data-stu-id="cfac4-107">However, this is currently not supported in [!INCLUDE[prodshort](includes/prodshort.md)].</span></span>  
 
 <!--On the **Item Availability by Timeline** page, you can modify certain supply orders and suggestions by dragging elements on the x-axis to change quantity or dragging elements on the y-axis to change due date.  
 
@@ -93,13 +93,13 @@ To implement the supply plan changes, you must follow the resulting action messa
  |While moving an element, press Esc.|Cancels the move. **Note:**  Does not work if you have released the mouse button.|
 -->
 
-## <a name="see-also"></a><span data-ttu-id="5a830-108">Katso myös</span><span class="sxs-lookup"><span data-stu-id="5a830-108">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="cfac4-108">Katso myös</span><span class="sxs-lookup"><span data-stu-id="cfac4-108">See Also</span></span>
 
-[<span data-ttu-id="5a830-109">Suunnittelu</span><span class="sxs-lookup"><span data-stu-id="5a830-109">Planning</span></span>](production-planning.md)  
-[<span data-ttu-id="5a830-110">Tuotannon määrittäminen</span><span class="sxs-lookup"><span data-stu-id="5a830-110">Setting Up Manufacturing</span></span>](production-configure-production-processes.md)  
-[<span data-ttu-id="5a830-111">Tuotanto</span><span class="sxs-lookup"><span data-stu-id="5a830-111">Manufacturing</span></span>](production-manage-manufacturing.md)  
-[<span data-ttu-id="5a830-112">Vaihto-omaisuus</span><span class="sxs-lookup"><span data-stu-id="5a830-112">Inventory</span></span>](inventory-manage-inventory.md)  
-[<span data-ttu-id="5a830-113">Osto</span><span class="sxs-lookup"><span data-stu-id="5a830-113">Purchasing</span></span>](purchasing-manage-purchasing.md)  
-[<span data-ttu-id="5a830-114">Rakennetiedot: Tarjonnan suunnittelu</span><span class="sxs-lookup"><span data-stu-id="5a830-114">Design Details: Supply Planning</span></span>](design-details-supply-planning.md)  
-[<span data-ttu-id="5a830-115">Parhaiden käytäntöjen määrittäminen: Toimitusten suunnittelu</span><span class="sxs-lookup"><span data-stu-id="5a830-115">Setup Best Practices: Supply Planning</span></span>](setup-best-practices-supply-planning.md)  
-<span data-ttu-id="5a830-116">[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="5a830-116">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+[<span data-ttu-id="cfac4-109">Suunnittelu</span><span class="sxs-lookup"><span data-stu-id="cfac4-109">Planning</span></span>](production-planning.md)  
+[<span data-ttu-id="cfac4-110">Tuotannon määrittäminen</span><span class="sxs-lookup"><span data-stu-id="cfac4-110">Setting Up Manufacturing</span></span>](production-configure-production-processes.md)  
+[<span data-ttu-id="cfac4-111">Tuotanto</span><span class="sxs-lookup"><span data-stu-id="cfac4-111">Manufacturing</span></span>](production-manage-manufacturing.md)  
+[<span data-ttu-id="cfac4-112">Vaihto-omaisuus</span><span class="sxs-lookup"><span data-stu-id="cfac4-112">Inventory</span></span>](inventory-manage-inventory.md)  
+[<span data-ttu-id="cfac4-113">Osto</span><span class="sxs-lookup"><span data-stu-id="cfac4-113">Purchasing</span></span>](purchasing-manage-purchasing.md)  
+[<span data-ttu-id="cfac4-114">Rakennetiedot: Tarjonnan suunnittelu</span><span class="sxs-lookup"><span data-stu-id="cfac4-114">Design Details: Supply Planning</span></span>](design-details-supply-planning.md)  
+[<span data-ttu-id="cfac4-115">Parhaiden käytäntöjen määrittäminen: Toimitusten suunnittelu</span><span class="sxs-lookup"><span data-stu-id="cfac4-115">Setup Best Practices: Supply Planning</span></span>](setup-best-practices-supply-planning.md)  
+<span data-ttu-id="cfac4-116">[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="cfac4-116">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
