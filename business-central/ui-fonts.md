@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 54c5aac9f6ed940df2b0b8e10735310c67bf13f3
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: d5ff4fa13534c739526918e9175e2cdbcd86a4fb
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193513"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3789398"
 ---
 # <a name="available-fonts"></a>Käytettävissä olevat fontit
 [!INCLUDE[d365fin](includes/d365fin_md.md)]in online-versio sisältää valmiiksi asennetut fontit palvelimissa, joita voidaan käyttää raporttien luomisessa. Seuraavassa on esitetty, mitkä fontit ovat käytettävissä, ja siinä on linkit kolmansien osapuolten fonttien toimittajien yksityiskohtaisissa tiedoissa.
