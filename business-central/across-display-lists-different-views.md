@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personalization
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 4d97afb002ddce4306ffa7238a4fb362f9e26158
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: cb9c29f6123edc4cad2b5e34381db574fab3685a
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188764"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3784255"
 ---
 # <a name="displaying-lists-in-different-ways"></a>Luetteloiden näyttäminen eri tavoilla
 Kaikkien [!INCLUDE[d365fin](includes/d365fin_md.md)]in luetteloiden oikeassa kulmassa on kuvakkeita, joiden avulla voi valita tietueiden näyttötavan. Luettelo voidaan näyttää eriteltyinä riveinä, joka sopii hyvin tilanteeseen, jossa käsiteltäviä kenttiä on paljon tai luettelon kenttiä on voitava muokata. Voit vaihtaa myös näkymään, jossa tietueet näkyvät ruutuina. Tämä vie vähemmän tilaa ja tietyn tietueen kenttiä näytetään vähemmän. Tämä on erittäin kätevää, kun tarkastellaan useiden tapahtumien yleiskuvausta. Näkymää kannattaa käyttää erityisesti pienissä laitteissa, sillä se on pienikokoinen ja sitä on helppo napauttaa.

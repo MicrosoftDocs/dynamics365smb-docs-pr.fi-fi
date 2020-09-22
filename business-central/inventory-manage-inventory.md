@@ -10,13 +10,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: b606c01e694e95c7f539fb317f58304f4047a379
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 4c3bcff76a258223b80231e94782ab908077e55e
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181818"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3785619"
 ---
 # <a name="inventory"></a>Vaihto-omaisuus
 Jokaiselle fyysiselle tuotteelle, jolla käydään kauppaa, on luotava **Varasto**-tyyppinen nimikekortti. Asiakkaille tarjottavat nimikkeet, joita ei säilytetä varastossa, voidaan rekisteröidä luettelonimikkeiksi. Ne voidaan muuntaa varastonimikkeiksi tarvittaessa. Voit suurentaa tai pienentää varastossa olevien nimikkeiden määrää kirjaamalla arvon suoraan nimiketapahtumiin esimerkiksi fyysisen määrän jälkeen tai jättämällä ostoja kirjaamatta.

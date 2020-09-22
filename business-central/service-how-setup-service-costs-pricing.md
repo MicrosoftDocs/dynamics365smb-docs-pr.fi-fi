@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, cost, service order
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: c1cbf33052e9f38a0787923ce70c9ca42799d539
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 5b80a2f89ae958a58b8cddd3c239df1a11e63a0f
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3195121"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3784582"
 ---
 # <a name="set-up-pricing-and-additional-costs-for-services"></a>Huollon hintojen ja lisäkustannusten määrittäminen
 Voit käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)] hinnoitteluominaisuuksia määrittääksesi ja mukauttaaksesi sovellusta niin, että voit käyttää ja säätää palvelunimikkeiden, korjausten ja tilausten hinnoittelun. Nämä hinnoittelupäätökset on sitten helppo siirtää laskutusprosessiin.  

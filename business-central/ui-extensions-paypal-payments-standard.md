@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 043ebc240b2e7108c88e78c4504dfaffbe21de53
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 5e6adb728706af9f516dd70836bc883e32ceb282
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189769"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3784759"
 ---
 # <a name="the-paypal-payments-standard-extension"></a>PayPal Payments Standard -laajennus
 Asiakkaat vaativat jatkuvasti yhä korkeatasoisempaa asiakaspalvelua sekä tuotteen laadun että toimitus- ja maksuvaihtoehtojen osalta. Voit parantaa asiakaspalvelun tasoa PayPal Payments Standard -palvelun avulla.

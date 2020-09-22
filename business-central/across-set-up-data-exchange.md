@@ -9,16 +9,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 37ca9da29fdfc19253850e431362dfd199a20484
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: d2de430eb3d6a86edaa1d78dd5f364ae74547d5c
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187650"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3785844"
 ---
 # <a name="setting-up-data-exchange"></a>Tiedonsiirron määrittäminen
-Ennen kuin voit lähettää ja vastaanottaa sähköisiä asiakirjoja tai tuoda ja viedä pankkitiedostoja, sinun on määritettävä tiedonsiirtokehys tiedostojen käsittelemistä varten. Lisäksi sinun täytyy määrittää liittyvät alueet, kuten asiakkaat, joille lähetät sähköiset laskut tai AMC Banking 365 -perusteet, jos käytät pankkitiedostojen muuntamiseen ulkoista palveluntarjoajaa. Lisätietoja on kohdassa [Sähköinen tiedonsiirto](across-data-exchange.md).  
+Ennen kuin voit lähettää ja vastaanottaa sähköisiä asiakirjoja tai tuoda ja viedä pankkitiedostoja, sinun on määritettävä tiedonsiirtokehys tiedostojen käsittelemistä varten. Lisäksi sinun on määritettävä liittyvät alueet, kuten asiakkaat, joille lähetät sähköiset laskut, tai AMC Banking 365 Fundamentals -laajennuksen, jos käytät pankkitiedostojen muuntamiseen ulkoista palveluntarjoajaa. Lisätietoja on kohdassa [Sähköinen tiedonsiirto](across-data-exchange.md).  
 
  Kun [!INCLUDE[d365fin](includes/d365fin_md.md)] on määritetty vaihtamaan tietoja ulkoisten tiedostojen kanssa, käyttäjät voivat käyttää määritystä yleisissä liiketoimintatehtävissä, kuten sähköisten asiakirjojen lähettämisessä ja vastaanottamisessa sekä pankkitiedostojen tuonnissa ja viennissä.  
 
@@ -31,8 +31,8 @@ Ennen kuin voit lähettää ja vastaanottaa sähköisiä asiakirjoja tai tuoda j
 |Määritä yksi tai kaksi esimääritettyä palvelua käyttämään päivitettyjä valuuttakursseja, jotta saat uusimmat valuutanvaihtokurssit järjestelmään **Valuutat**-sivulle.|[Valuutan vaihtokurssien päivittäminen](finance-how-update-currencies.md)|  
 |Määritä joitakin perustietoja, kuten yrityksen tiedot, asiakkaat, toimittajat, nimikkeet ja mittayksiköt, jotka liittyvät tietojen yhdistämiseen [!INCLUDE[d365fin](includes/d365fin_md.md)]issa.|[Sähköisten asiakirjojen vastaanottamisen ja lähettämisen määrittäminen](across-how-to-set-up-electronic-document-sending-and-receiving.md)|  
 |Määritä pankkitili, myyjä ja maksuloki SEPA-tilisiirrolle.|[SEPA-hyvityksen siirron määrittäminen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#setting-up-sepa-credit-transfer)|  
-|Valmistele pankkitilimuodot, maksutavat ja asiakkaan SEPA-suoraveloitussopimukset.|[Maksujen kerääminen SEPA-suoraveloitusperintänä](finance-collect-payments-with-sepa-direct-debit.md)|  
-|Määritä käyttäjätunnistus ja AMC Banking 365 peruslaajennuksen tarjoajan URL, joka vaaditaan, jotta pankkitiedostot voidaan muuttaa pankkisi vaatimaan muotoon.|[AMC Banking 365 -perusteiden laajennuksen käyttäminen](ui-extensions-amc-banking.md)|  
+|Valmistele pankkitilimuodot, maksutavat ja asiakkaan SEPA-suoraveloitussopimukset.|[Maksujen kerääminen SEPA-suoraveloitusperintänä.](finance-collect-payments-with-sepa-direct-debit.md)|  
+|Määritä käyttäjätunnistus ja AMC Banking 365 Fundamentals -laajennuspalvelun URL-osoite, joka vaaditaan, jotta pankkitiedostot voidaan muuttaa pankkisi vaatimaan muotoon.|[AMC Banking 365 Fundamentals -laajennuksen käyttäminen](ui-extensions-amc-banking.md)|  
 |Määritä ja ota käyttöön ulkoinen palvelu, jonka avulla voit tuoda pankin tiliotteet suoraan pankkisyötteinä.|[Pankin tiliotepalvelun määrittäminen](bank-how-setup-bank-statement-service.md)|  
 |Kun tiliotepalvelu on otettu käyttöön, linkitä pankkitilit [!INCLUDE[d365fin](includes/d365fin_md.md)]issa.|[Pankkitilien määrittäminen](bank-how-setup-bank-accounts.md)|  
 |Valmistele datatiedoston tai tietovirran uuden tietojenvaihtomäärityksen luonti käyttämällä tiedoston XML-rakennetta. Se esitäyttää **Sarakkeen määritykset** -pikalomakkeen **Kirjauksen tiedonsiirtomääritykset** -sivulla.|[XML-mallien käyttäminen tietojenvaihtomääritysten valmisteluun](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)|  

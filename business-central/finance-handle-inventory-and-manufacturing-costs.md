@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: e61174dd162111f6e7580026c5e91454b2ffa918
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: be0dc308f7d941fe3c41ecbaaf879eacc5405d12
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183738"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3785169"
 ---
 # <a name="handling-inventory-and-manufacturing-costs"></a>Varaston ja tuotannon kustannusten käsitteleminen
 Vaikka useat kustannuslaskennan toiminnot (kuten tapahtuman kohdistus ja automaattinen kustannusten muuttaminen) tapahtuvat taustalla olevissa prosesseissa ilman käyttäjän toimia, useat kentät, sivut ja raportit on tarkoitettu käyttäjille, jotka hallitsevat nimikkeiden tai toimintojen kustannuksia suoraan tai epäsuorasti.  
