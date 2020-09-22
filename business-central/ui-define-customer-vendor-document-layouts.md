@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: cc1317961be7896250a883da5c58d1f7eb5cf326
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 603a4bc69accd326ec7cc2540efe39ba7660fdca
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194497"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3782366"
 ---
 # <a name="define-document-layouts-for-customers-and-vendors"></a>Asiakirja-asettelujen määrittäminen asiakkaille ja toimittajille
 Kun mukautettuja raportin asetteluita määritetään, voit valita ne asiakas- ja toimittajakorteista ja määrittää, mitä asetteluita käytetään eri asiakirjoissa, jotka on tarkoitettu kyseessä olevalle asiakkaalle tai toimittajalle. **Käyttö**-kentän arvo määrittää, mihin prosessiin asiakirjan asettelua käytetään (esimerkiksi **Muistutus**, **Toimitus** tai **Vahvistus**).

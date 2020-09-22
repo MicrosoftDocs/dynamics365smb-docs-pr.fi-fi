@@ -8,70 +8,85 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 09/09/2020
 ms.author: edupont
-ms.openlocfilehash: fc2c2de39c3391a430adda72a841b01897235f68
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: 6816ba11203e697ff833b9ea96aa85139fbcffe9
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196685"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3783599"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Käytä työjonoja ajoitustehtäviin
-[!INCLUDE[d365fin](includes/d365fin_md.md)]:n työjonojen avulla käyttäjät voivat ajoittaa ja suorittaa tiettyjä raportteja ja koodiyksiköitä. Voit määrittää töitä suoritettavaksi yhtä aikaa tai toistuvasti. Esimerkiksi **Myyjä - Myyntitilasto** -raportti saatetaan haluta suorittaa viikoittain myyjän viikkokohtaisen myynnin seurantaa varten. **Käsittele huoltosähköpostijono** -koodiyksikkö voidaan taas suorittaa päivittäin ja varmistaa näin, että huoltotilauksiin liittyvät odottavat sähköpostit lähetetään asiakkaille ajallaan.
+
+[!INCLUDE[d365fin](includes/d365fin_md.md)]:n työjonojen avulla käyttäjät voivat ajoittaa ja suorittaa tiettyjä raportteja ja koodiyksiköitä. Voit määrittää töitä suoritettavaksi yhtä aikaa tai toistuvasti. Voit esimerkiksi haluta suorittaa **Myyjän myyntitilasto** -raportin viikoittain ja seurata näin myyjäkohtaista viikkomyynti. Vaihtoehtoisesti voit suorittaa **Delegoi hyväksymispyynnöt** -codeunitin päivittäin, jolloin asiakirjoja ei kasaudu odottamaan käsittelyä tai estämään muutoin työnkulkua.
 
 **Työjonon tapahtumat** -sivulla on luettelo kaikista aiemmin luoduista töistä. Jos lisäät uuden aikataulutettavan työjonotapahtuman tiedot, sinun on ilmoitettava minkä tyyppisen objektin, kuten raportin tai codeunitin, haluat suorittaa, sekä suoritettavan objektin nimen ja tunnuksen. Voit myös lisätä parametrit, joilla määritetään työjonotapahtuman käytös. Voit esimerkiksi lisätä parametrin vain kirjattujen myyntitilausten lähettämistä varten. Sinulla tulee olla tietyn raportin tai koodiyksikön suoritusoikeus tai muutoin järjestelmä palauttaa virheen, kun työjonoa suoritetaan.  
 
 Työjonossa voi olla useita tapahtumia, jotka ovat jonossa hallittavia ja suoritettavia töitä. Tapahtuman tiedot määrittävät, mikä koodiyksikkö tai raportti suoritetaan, milloin ja miten usein tapahtuma suoritetaan, missä luokassa työ suoritetaan ja miten se suoritetaan.  
 
 ## <a name="to-set-up-background-posting-with-job-queues"></a>Taustakirjauksen määrittäminen työjonojen avulla
-Työjonot ovat tehokas työkalu taustalla suoritettavien liiketoimintaprosessien ajoittamiseen. Kyse voi olla esimerkiksi useista käyttäjistä, jotka yrittävät kirjata myyntitilauksia, kun vain yksi tilaus voidaan käsitellä kerralla. Vaihtoehtoisesti voit ajoittaa kirjaukset tunneille, jotka sopivat parhaiten organisaatiollesi. Saattaa olla hyödyllistä ajaa yrityksessä tietyt toiminnot sen jälkeen, kun suurin osa päivän tietojen syötöistä on suoritettu.
 
-Tämä on mahdollista, kun määrität työjonon ajamaan useita eräkirjausraportteja, kuten **Eräkirjaa myyntitilaukset**-, **Eräkirjaa ostotilaukset**-, **Eräkirjaa myyntipal.tilaukset**- ja **Eräkirjaa myyntihyvityslaskut** -raportit. Lisätietoja on kohdassa [Työjonotapahtuman luonti myyntilausten taustakirjausta varten](admin-job-queues-schedule-tasks.md#to-create-a-job-queue-entry-for-batch-posting-of-sales-orders).  
+Työjonot ovat tehokas työkalu taustalla suoritettavien liiketoimintaprosessien ajoittamiseen. Kyse voi olla esimerkiksi useista käyttäjistä, jotka yrittävät kirjata myyntitilauksia, kun vain yksi tilaus voidaan käsitellä kerralla.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] tukee kaikkien myynti-, osto- ja huoltoasiakirjojen taustakirjausta.
-
-> [!NOTE]
-> Jotkin työt muuttavat samoja tietoja, eikä niitä tulisi käyttää samaan aikaan, koska ne voivat aiheuttaa ristiriitoja. Esimerkiksi myyntiasiakirjojen taustatyöt yrittävät muokata samoja tietoja samaan aikaan. Työjonoluokat auttavat estämään tällaisia ristiriitoja varmistamalla, että kun yksi työ on käynnissä, samaan työjonoluokkaan kuuluvaa työtä ei suoriteta ennen kuin suoritettava työ on valmis. Esimerkiksi projekti, joka kuuluu myyntityöjonoluokkaan, odottaa, kunnes kaikki muut myyntiin liittyvät työt on tehty. Voit määrittää työjonoluokan **Taustakirjaus**-pikavälilehdellä **Myynnin ja saatavien asetukset** -sivulla. 
-> 
-> [!INCLUDE[d365fin](includes/d365fin_md.md)] tarjoaa työjonoluokkia myyntejä, ostoja ja pääkirjanpidon kirjauksia varten. On suositeltavaa, että jokin näistä tai luomasi on aina määritetty. Jos kohtaat ristiriidoista johtuvia virhetilanteita, harkitse luokan määrittämistä myynnin, oston ja pääkirjanpidon taustakirjausta varten.
-
-Seuraavaksi käsitellään myyntitilausten taustakirjausta. Ostojen ja huolloin vaiheet ovat samankaltaiset.  
+Seuraavaksi käsitellään myyntitilausten taustakirjausta. Ostoa koskevat vaiheet ovat samanlaisia.  
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Myyntien ja myyntisaamisten asetukset** ja valitse sitten liittyvä linkki.
 2. Valitse **Myyntien ja myyntisaamisten asetukset** -sivulla **Kirjaa työjonolla** -valintaruutu.
-3. Suodata myyntitilauksen kirjauksen työjonotapahtumat valitsemalla **Työjonoluokan koodi** -kentässä **SalesPost**-luokka.
+3. Valitse **Työjonokategorian koodi** -kenttä ja määritä sitten **MKIRJAUS** -koodi.
 
-    Näin luodaan työjono-objekti, codeunit 88 **Työjonon kautta kirjattu myynti**. Jatka ottamalla se käyttöön **Työjonotapahtumat**-sivulla.
-4. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Työjonotapahtumat** ja valitse sitten liittyvä linkki.
-5. Valitse **Työjonotapahtumat**-sivulla **Uusi**-toiminto.
-6. Valitse **Suoritettavan objektin tyyppi** -kentässä **Codeunit**.  
-7. Valitse **Suoritettavan objektin tunnus** -kentässä **88**. Kuvaus ja objektin otsikko suorita-kenttiin näyttää Myyntikirjauksen työjonosta.
+    > [!NOTE]
+    > Jotkin työt muuttavat samoja tietoja, eikä niitä tulisi käyttää samaan aikaan, koska ne voivat aiheuttaa ristiriitoja. Esimerkiksi myyntiasiakirjojen taustatyöt yrittävät muokata samoja tietoja samaan aikaan. Työjonoluokat auttavat estämään tällaisia ristiriitoja varmistamalla, että kun yksi työ on käynnissä, samaan työjonoluokkaan kuuluvaa työtä ei suoriteta ennen kuin suoritettava työ on valmis. Esimerkiksi projekti, joka kuuluu myyntityöjonoluokkaan, odottaa, kunnes kaikki muut myyntiin liittyvät työt on tehty. Voit määrittää työjonoluokan **Taustakirjaus**-pikavälilehdellä **Myynnin ja saatavien asetukset** -sivulla.
+    >
+    > [!INCLUDE[d365fin](includes/d365fin_md.md)] tarjoaa työjonoluokkia myyntejä, ostoja ja pääkirjanpidon kirjauksia varten. On suositeltavaa, että jokin näistä tai luomasi on aina määritetty. Jos kohtaat ristiriidoista johtuvia virhetilanteita, harkitse luokan määrittämistä myynnin, oston ja pääkirjanpidon taustakirjausta varten.
 
-    Muilla kentillä ei ole merkitystä tässä skenaariossa.
-8. Valitse **Määritä tilaksi valmis** -toiminto.
-9. Varmistaaksesi, että työjono toimii odotetulla tavalla, kirjaa myyntitilaus. Lisätietoja on kohdassa [Tuotteiden myyminen](sales-how-sell-products.md).
-10. Tarkista **Työjonon lokitapahtumat** -sivulta, onnistuiko myyntitilauksen kirjaus. Lisätietoja on kohdassa [Työjonon tilan tai virheiden tarkasteleminen](admin-job-queues-schedule-tasks.md#to-view-status-or-errors-in-the-job-queue).
+    Jos haluat myös tulostaa kirjattavat myyntiasiakirjat, valitse **Kirjaa ja tulosta työjonolla** -valintaruutu **Myyntien ja myyntisaamisten asetukset** -sivulla.  
 
-Jos haluat myös tulostaa kirjattavat myyntiasiakirjat, valitse **Kirjaa ja tulosta työjonolla** -valintaruutu **Myyntien ja myyntisaamisten asetukset** -sivulla.  
+    > [!IMPORTANT]  
+    > Jos määrität asiakirjat kirjaavan ja tulostavan työn ja tulostimessa avautuu valintaikkuna, kuten tunnistetietojen pyyntö tai tulostimen musteen loppumisesta ilmoittava varoitus, asiakirja kirjataan mutta sitä ei tulosteta. Vastaava työjonotapahtuma aikakatkaistaan lopulta, ja **Tila**-kentän arvoksi määritetään **Virhe**. Näin ollen suosittelemme, että et käytä tulostimen asetuksia, jotka edellyttävät vuorovaikutusta tulostimen näytön valintaruutujen kanssa taustakirjausten yhteydessä.
 
-> [!IMPORTANT]  
-> Jos määrität asiakirjat kirjaavan ja tulostavan työn ja tulostimessa avautuu valintaikkuna, kuten tunnistetietojen pyyntö tai tulostimen musteen loppumisesta ilmoittava varoitus, asiakirja kirjataan mutta sitä ei tulosteta. Vastaava työjonotapahtuma aikakatkaistaan lopulta, ja **Tila**-kentän arvoksi määritetään **Virhe**. Näin ollen suosittelemme, että et käytä tulostimen asetuksia, jotka edellyttävät vuorovaikutusta tulostimen näytön valintaruutujen kanssa taustakirjausten yhteydessä.
+    Kun kirjaat myyntiasiakirjoja seuraavan kerran, [!INCLUDE [prodshort](includes/prodshort.md)] luo automaattisesti työjonotapahtuman kullekin asiakirjalle ja suorittaa työt taustalla yksi kerrallaan.
+
+4. Varmistaaksesi, että työjono toimii odotetulla tavalla, kirjaa myyntitilaus. Lisätietoja on kohdassa [Tuotteiden myyminen](sales-how-sell-products.md).
+
+5. Tarkista **Työjonon lokitapahtumat** -sivulta, onnistuiko myyntitilauksen kirjaus. Lisätietoja on kohdassa [Työjonon tilan tai virheiden tarkasteleminen](admin-job-queues-schedule-tasks.md#to-view-status-or-errors-in-the-job-queue).
 
 ## <a name="to-create-a-job-queue-entry-for-batch-posting-of-sales-orders"></a>Työjonotapahtuman luonti myyntitilausten eräkirjausta varten
-Seuraavaksi selitetään, miten **Eräkirjaa myyntitilaukset** -raportti määritetään kirjaamaan vapautetut myyntitilaukset automaattisesti arkipäivisin kello 16.  
+
+Vaihtoehtoisesti voit lykätä kirjaukset organisaatiolle parhaiten sopivaan ajankohtaan. Yrityksessä saattaa olla esimerkiksi hyödyllistä suorittaa tietyt toiminnot sen jälkeen, kun suurin osa päivän tiedoista on syötetty. Tämä on mahdollista, kun määrität työjonon ajamaan useita eräkirjausraportteja, kuten **Eräkirjaa myyntitilaukset**- ja **Eräkirjaa ostotilaukset** -raportit sekä vastaavat raportit. [!INCLUDE[d365fin](includes/d365fin_md.md)] tukee kaikkien myynti-, osto- ja huoltoasiakirjojen taustakirjausta.
+
+Seuraavaksi selitetään, miten **Eräkirjaa myyntitilaukset** -raportti määritetään kirjaamaan myyntitilaukset automaattisesti arkipäivisin kello 16.  
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Työjonotapahtumat** ja valitse sitten liittyvä linkki.  
 2. Valitse **Uusi**-toiminto.  
 3. Valitse **Suoritettavan objektin tyyppi** -kentässä **Raportti**.  
 4. Valitse **Suoritettavan objektin tunnus** -kentässä 296, **Eräkirjaa myyntitilaukset**.
+
+   Käytössä on myös seuraavat raportit:
+  
+   * 900 **Eräkirjaa kokoonpanotilaukset**
+   * 497 **Eräkirjaa ostolaskut**
+   * 496 **Eräkirjaa ostotilaukset**
+   * 498 **Eräkirjaa ostohyvityslaskut**
+   * 6665 **Eräkirjaa ostopal.tilaukset**
+   * 298 **Eräkirjaa myyntihyvityslaskut**
+   * 297 **Eräkirjaa myyntilaskut**
+   * 296 **Eräkirjaa myyntitilaukset**
+   * 6655 **Eräkirjaa myyntipal.tilaukset**
+   * 6005 **Eräkirjaa huollon hyvityslaskut**
+   * 6004 **Eräkirjaa huoltolaskut**
+   * 6001 **Eräkirjaa huoltotilaukset**
+
 5. Valitse **Raporttipyyntösivu**-valintaruutu.
 6. Määritä **Eräkirjaa myyntitilaukset** -pyyntösivulla, mitä myyntitilausten automaattiseen kirjaukseen sisältyy, ja valitse sitten **OK**-painike.
+
+    > [!IMPORTANT]
+    > Muista käyttää tiukkoja suodattimia, sillä muutoin [!INCLUDE [prodshort](includes/prodshort.md)] kirjaa kaikki asiakirjat, vaikka ne eivät olisi valmiita. *Vapautettu*-arvon käyttöä suodattimen **Tilan**-kentän arvona ja *tänään*-arvoa **Kirjauspäivämäärä**-kentän arvona kannattaa harkita. Lisätietoja on kohdassa [Lajitteleminen, hakeminen ja suodattaminen](ui-enter-criteria-filters.md).
 7. Valitse kaikki valintaruudut **Suorita maanantaisin** -kohdasta **Suorita perjantaisin** -kohtaan.
 8. Anna **Aloitusaika**-kentässä arvoksi 16.00.
 9. Valitse **Määritä tilaksi valmis** -toiminto.
 
-Kirjaamista odottavat myyntitilaukset kirjataan nyt joka arkipäivä kello 16.
+Määritettyjen suodattimien mukaiset myyntitilaukset kirjataan nyt joka arkipäivä kello 16.
 
 > [!NOTE]
 > Jos työjono ei voi kirjata myyntitilausta, tilaksi muutetaan **Virhe** ja myyntitilaus lisätään niiden myyntitilausten luetteloon, jotka käyttäjän on käsiteltävä manuaalisesti. Lisätietoja on kohdassa [Työjonon tilan tai virheiden tarkasteleminen](admin-job-queues-schedule-tasks.md#to-view-status-or-errors-in-the-job-queue).
@@ -94,11 +109,11 @@ Työnjonon suorituksen aikana luotavat tiedot tallennetaan tietokantaan, jotta v
 2. Valitse **Työjonotapahtumat**-sivulla ensin työjonotapahtuma ja sitten **Lokitapahtumat**-toiminto.  
 
 ### <a name="to-view-status-from-a-sales-or-purchase-document"></a>Myynti- tai ostoasiakirjan tilan näyttäminen
-1. Valitse asiakirjassa, jonka yritit kirjata työjonon avulla, **Työjonon tila** -kenttä, jossa on **Virhe**.
+1. Valitse asiakirjassa, jonka yritit kirjata taustakirjauksena, **Työjonon tila** -kenttä, jossa on **Virhe**.
 2. Tarkastele virhesanomaa ja korjaa ongelma.
 
 ## <a name="the-my-job-queue-part"></a>Oma työjono -osa
-Roolikeskuksen **Oma työjono** -osa sisältää työjonotapahtumat, jotka olet aloittanut mutta jotka eivät ole vielä valmiita. Oletusarvoisesti osa ei ole näkyvissä, joten se on lisättävä omaan roolikeskukseesi. Lisätietoja on kohdassa [Perusasetusten muuttaminen](ui-change-basic-settings.md).  
+Roolikeskuksen **Oma työjono** -osa sisältää työjonotapahtumat, jotka olet aloittanut mutta jotka eivät ole vielä valmiita. Oletusarvoisesti osa ei ole näkyvissä, joten se on lisättävä omaan roolikeskukseesi. Lisätietoja on kohdassa [Työtilan mukauttaminen](ui-personalization-user.md).  
 
 Tässä osassa näkee, mitä asiakirjoja, joissa on tunnuksesi **Määritetty käyttäjätunnus** -kentässä, käsitellään tai mitkä ovat jonossa, mukaan lukien taustakirjaukseen liittyvät asiakirjat. Osa tietää yhdellä silmäyksellä, onko asiakirjan kirjaamisessa tai työjonon tapahtumissa tapahtunut virheitä. Osan avulla voit peruuttaa kun asiakirjan kirjaamisen, jos se ei ole käynnissä.
 
@@ -109,18 +124,20 @@ Tässä osassa näkee, mitä asiakirjoja, joissa on tunnuksesi **Määritetty k�
 ## <a name="security"></a>Suojaus  
 Työjonon tapahtumien suoritus perustuu käyttöoikeuksiin. Kyseiset oikeudet on sallittava raportin tai koodiyksikön toteuttamiseen.  
 
-Kun työjono on aktivoitu manuaalisesti, se suoritetaan käyttäjän tunnistetiedoilla. Kun työjono on aktivoitu ajoitettuna tehtävänä, se suoritetaan palvelininstanssin tunnistetiedoilla. Kun työ on suoritettu, se suoritetaan sen aktivoivan työjonon tunnistetiedoilla. Työjonon luoneella käyttäjällä on oltava myös käyttöoikeudet. Kun kyse suorita käyttäjäistunnossa -työnä (esimerkiksi taustakirjauksissa), se suoritetaan kyseisen työn luoneen käyttäjän tunnistetiedoilla.  
+Kun työjono on aktivoitu manuaalisesti, se suoritetaan käyttäjän tunnistetiedoilla. Kun työjono on aktivoitu ajoitettuna tehtävänä, se suoritetaan palvelininstanssin tunnistetiedoilla. Kun työ on suoritettu, se suoritetaan sen aktivoivan työjonon tunnistetiedoilla. Työjonon luoneella käyttäjällä on oltava myös käyttöoikeudet. Kun kyse on suorita käyttäjäistunnossa -työnä (esimerkiksi taustakirjauksissa), se suoritetaan kyseisen työn luoneen käyttäjän tunnistetiedoilla.  
 
 > [!IMPORTANT]  
->  Jos käytät [!INCLUDE[d365fin](includes/d365fin_md.md)]in mukana toimitettuja pääkäyttöoikeusjoukkoa, sinulla ja käyttäjillä oikeudet suorittaa kaikki objektit. Tässä tapauksessa kunkin käyttäjän käyttöoikeutta rajoittavat vain tietojen käyttöoikeudet.  
+> Jos käytät [!INCLUDE[d365fin](includes/d365fin_md.md)]in mukana toimitettuja pääkäyttöoikeusjoukkoa, sinulla ja käyttäjillä oikeudet suorittaa kaikki objektit. Tässä tapauksessa kunkin käyttäjän käyttöoikeutta rajoittavat vain tietojen käyttöoikeudet.  
 
 ## <a name="using-job-queues-effectively"></a>Käytetään työjonoja tehokkaasti  
 Työjonotapahtuma-tietueella on monta kenttää, joiden tarkoituksena on viedä parametrejä koodiyksikölle, jonka olet määrittänyt ajettavaksi työjonossa. Tämä tarkoittaa myös sitä, että koodiyksiköt, jotka suoritetaan työjonon kautta, on määritettävä työjonotapahtumatietueessa **OnRun**-käynnistimen parametrina. Tämä auttaa parantamaan tietoturvaa, sillä se estää käyttäjiä suorittamasta satunnaisia koodiyksiköitä työjonon kautta. Jos käyttäjän on välitettävä raportoitavat parametrit, raportti on suoritettava koodiyksikössä, joka jäsentää syöttöparametrit ja syöttää ne raporttiin ennen sen suoritusta.  
 
 ## <a name="scheduling-synchronization-between-d365fin-and-d365fin"></a>Synkronoinnin aikatauluttaminen [!INCLUDE[d365fin](includes/d365fin_md.md)] :n ja [!INCLUDE[d365fin](includes/cds_long_md.md)]:n välillä
-Jos olet integroinut [!INCLUDE[d365fin](includes/d365fin_md.md)]:n [!INCLUDE[d365fin](includes/cds_long_md.md)] -ohjelman kanssa, voit ajoittaa työjonon avulla, milloin haluat synkronoida näiden kahden liiketoimintasovelluksen tietueiden tiedot. Integroinnille määritetyn suunnan ja sääntöjen mukaan synkronointityöt voivat myös luoda uusia tietueita kohdesovellukseen, jotta ne vastaavat lähdetietoja. Jos myyjä esimerkiksi luo uuden kontaktin [!INCLUDE[crm_md](includes/crm_md.md)]-ohjelmassa, synkronointityö voi luoda kontaktin linkitertylle myyjälle [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmassa. Lisätietoja on kohdassa [Business Centralin ja Dynamics 365 Salesin synkronoinnin ajoittaminen](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 
-## <a name="see-also"></a>Katso myös  
+Jos [!INCLUDE[d365fin](includes/d365fin_md.md)] ja [!INCLUDE[d365fin](includes/cds_long_md.md)] on integroitu, voit ajoittaa työjonon avulla, milloin haluat synkronoida näiden kahden liiketoimintasovelluksen tietueiden tiedot. Integroinnille määritetyn suunnan ja sääntöjen mukaan synkronointityöt voivat myös luoda uusia tietueita kohdesovellukseen, jotta ne vastaavat lähdetietoja. Jos myyjä esimerkiksi luo uuden kontaktin [!INCLUDE[crm_md](includes/crm_md.md)]-ohjelmassa, synkronointityö voi luoda kontaktin linkitertylle myyjälle [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmassa. Lisätietoja on kohdassa [Business Centralin ja Dynamics 365 Salesin synkronoinnin ajoittaminen](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
+
+## <a name="see-also"></a>Katso myös
+
 [Hallinta](admin-setup-and-administration.md)  
 [Business Central -sovelluksen määrittäminen](setup.md)  
 [Perusasetusten muuttaminen](ui-change-basic-settings.md)  
