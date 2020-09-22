@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/07/2020
-ms.author: sgroespe
-ms.openlocfilehash: 99aab6de06cd50d53b977ed37a863cad28fab8fa
-ms.sourcegitcommit: 8b2f02dd5189c46ecff33c07223ed62b36842d34
+ms.date: 08/18/2020
+ms.author: edupont
+ms.openlocfilehash: 038ecb0122e58cfdca3ff62ac93554fab01dcdb6
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "3542665"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3786594"
 ---
 # <a name="receive-items"></a>Nimikkeiden vastaanottaminen
 
@@ -32,7 +32,8 @@ Seuraavaksi käsitellään, miten nimikkeitä vastaanotetaan ostotilauksella. Va
 3. Anna **Vastaanotettava määrä** -kenttään vastaanotettu määrä.
 
   > [!NOTE]
-  > Jos vastaanotettu määrä on suurempi kuin ostotilauksen tilattu määrä **Määrä**-kentän mukaan ja toimittajalle on määritetty vastaanoton ylittävän määrän salliminen, voit käsitellä ylimääräistä määrää **Vastaanoton ylitys** -kentän avulla. Lisätietoja on kohdassa [Tilattua määrää useampien nimikkeiden vastaanottaminen](warehouse-how-receive-items.md#to-receive-more-items-than-ordered).
+  > Jos vastaanotettu määrä on suurempi kuin ostotilauksen tilattu **Määrä**-kentän mukainen määrä ja toimittajalle on määritetty vastaanoton ylittävän määrän salliminen, voit käsitellä ylimääräistä määrää **Vastaanoton ylitys** -kentän avulla. Lisätietoja on kohdassa [Tilattua määrää useampien nimikkeiden vastaanottaminen](warehouse-how-receive-items.md#to-receive-more-items-than-ordered).
+
 4. Valitse **Kirjaa**-toiminto.
 
   **Määrä vast.otettu** -kentän arvo päivitetään. Jos kyse on osavastaanotosta, arvo on pienempi kuin **Määrä**-kentän arvo.

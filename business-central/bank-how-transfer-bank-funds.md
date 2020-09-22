@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account transfer, multiple currencies
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: a21cabaf2f3edc9e8f1f261a9f9169c3cb611b61
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 0183f9a8184b67cb10155b3aecfd7ab4a121eb6c
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186210"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3786544"
 ---
 # <a name="transfer-bank-funds"></a>Siirrä pankkivarat
 Joskus on siirrettävä varoja yhdeltä pankkitililtä kohteessa [!INCLUDE[d365fin](includes/d365fin_md.md)] toiselle. Se tehdään kirjaamalla tapahtuma **Yleinen päiväkirja** -sivulla. Tehtävä vaihtelee sen mukaan, käytetäänkö pankkitileillä samaa vai eri valuuttaa.
