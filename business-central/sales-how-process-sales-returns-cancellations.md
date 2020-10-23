@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 947bc883994d82cfb25f7d757d501d95e722916a
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: cab1663aa1e584780f7544f0bd9b61c9038b5922
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780908"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926108"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Myynnin palautusten tai peruutusten käsittely
 Jos asiakas haluaa palauttaa nimikkeitä tai saada hyvitystä nimikkeistä tai palveluista, jotka olet myynyt ja joista olet saanut maksun, sinun on luotava ja kirjattava myyntihyvityslasku, joka määrittää pyydetyn muutoksen. Voit sisällyttää oikeat myyntilaskun tiedot luomalla myyntihyvityslaskun suoraan kirjatusta myyntilaskusta. Vaihtoehtoiesti voi luoda uuden myyntihyvityslaskun, johon laskun tiedot on kopioitu.
@@ -216,13 +216,15 @@ Kun palautusvastaanotot yhdistetään hyvityslaskuun ja kirjataan, hyvitetyille 
 2.  Määritä **Numero** -kenttään , mitkä palautustilaukset poistetaan.  
 3.  Valitse **OK**-painike.  
 
-Voit myös poistaa manuaalisesti yksittäiset myyntipalautustilaukset.   
+Voit myös poistaa manuaalisesti yksittäiset myyntipalautustilaukset.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/paths/return-items-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
+
 [Myynti](sales-manage-sales.md)  
 [Myynnin määrittäminen](sales-setup-sales.md)  
 [Ostovelkojen hallinta](payables-manage-payables.md)  
 [Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md)  
+[Ostopalautusten tai peruutusten käsittely](purchasing-how-process-purchase-returns-cancellations.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)

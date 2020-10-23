@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2f94ef9000943fd4ffdc5728a261b38102a5b47c
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 0d073b4785fe20ecb369a21f7ce5f282dd82fa76
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778365"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920170"
 ---
 # <a name="set-up-bank-reference-files"></a>Pankin viitetiedostojen määrittäminen
 Elektronisten maksujen käsittelyä varten on ensin määritettävä pankin viitetiedostot, joiden avulla määritetään, miten maksutiedot tuodaan tai viedään.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d7aafe33ac70546378abd90cc98aea3b1a326c77
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d53932be1597a96ced906ed7546ce8ff011639e3
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782466"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912619"
 ---
 # <a name="copy-and-paste-faq"></a>Kopioimisen ja liittämisen usein kysytyt kysymykset
 Voit kopioida yhden rivin tai useita rivejä (tietueita) luettelosta tai yhden kentän sivulta ja liittää kopioidut kohteet samalle sivulle, toiselle sivulle tai ulkoiseen asiakirjaan (kuten Microsoft Exceliin tai Outlook-sähköpostiin). Jos haluat kopioida, paina näppäimiä CTRL+C (cmd+C macOS-käyttöjärjestelmässä). Jos haluat liittää, paina näppäimiä CTRL+V (cmd+V macOS-käyttöjärjestelmässä).

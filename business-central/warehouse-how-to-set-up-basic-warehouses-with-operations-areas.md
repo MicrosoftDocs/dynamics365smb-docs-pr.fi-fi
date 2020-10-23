@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8ce9a861812294de642939d3111e40dc9f7052f6
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: faad42bcd32080d43495020105bc8654af3f95bc
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3789098"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918336"
 ---
 # <a name="set-up-basic-warehouses-with-operations-areas"></a>Fyysisten perusvarastojen ja toimintoalueiden määrittäminen
 Jos sellaisen fyysisen varaston perusmäärityksissä, jonka sijainnit käyttävät **Var.paikka pakollinen** -asetuskenttää ja mahdollisesti myös **Vaadi poiminta**- ja **Vaadi hyllytys** -asetuskenttää, on sisäisiä toimintoalueita, kuten tuotanto tai kokoonpano, sisäisten toimintoalueiden fyysisen varastoinnin toimintojen tallentamisessa on käytettävä seuraavia fyysisen varastoinnin perusasiakirjoja:  

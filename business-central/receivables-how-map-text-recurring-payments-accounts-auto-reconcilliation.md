@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account linking, direct payment posting, automatic payment processing, reconcile payment, recurring expense, recurring cash receipt
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d9d931bca385db7c27e3e6a054d11e77da69ab72
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 97903c269856636cff618d5c91125ae9f1ace496
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785194"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926470"
 ---
 # <a name="map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Toistuvien maksujen tekstin yhdistäminen tileihin automaattisen täsmäytyksen suorittamiseksi
 **Tekstin yhdistäminen tiliin** -sivulla, joka avataan **Maksujen täsmäytyskirjauskansio** -sivulta, voit määrittää maksujen tekstin kohdistukset ja tietyt debet-, kredit- ja kirjanpidon vastatilit siten, että nämä maksut kirjataan tietyille tileille, jotta nämä maksut kirjataan tietyille tileille, kun kirjaat maksun täsmäytyksen päiväkirjan.
@@ -48,14 +48,16 @@ Maksun täsmäytyskirjauskansion rivillä, jossa maksu on määritetty kirjatuks
 
 Kun tuot seuraavan kerran pankin tiliotetiedoston tai valitset **Kohdista automaattisesti** -toiminnon **Maksujen täsmäytyskirjauskansio** -sivulla, tietyn yhdistystekstin sisältävät päiväkirjan rivit sisältävät **Tilityyppi**- ja **Tilinumero**-kenttien yhdistetyt tilit. **Vastaavuuden luotettavuus** -kenttä sisältää **Suuri - Tekstin yhdistäminen tiliin** -tekstin. Tämä on edellytys sille, että automaattinen kohdistustoiminto antaa vastaavuudeksi **Matala** tai **Keskisuuri**.
 
-## <a name="example-text-to-account-mapping-for-fuel-expense"></a>Esimerkki: Tekstin ja tilin yhdistäminen polttoaineen kuluun
-Kirjataksesi aina Shell-huoltoasemilla kertyneet polttoainekulut kirjanpitoon polttoaineelle (tili 8510), täytä rivi **Tekstin yhdistäminen tiliin** -sivulla seuraavasti.
+## <a name="example-text-to-account-mapping-for-bank-fees"></a>Esimerkki: Tekstin ja tilin yhdistäminen pankkimaksuihin
+
+Jos haluat aina kirjata kulut, jotka liittyvät tietyn pankin, Mybankin, pankkikulujen ja -maksujen kirjanpitotilille (tili 60400), täytä rivi **Teksti-tilien-yhdistämiseen** -sivulle seuraavasti.
 
 | Tekstin linkitys | Debet-tilin numero | Kredit-tilin numero | Saldon lähteen tyyppi | Saldon lähteen numero |
 | --- | --- | --- | --- | --- |
-| Hylly |TYHJÄ |8510 |KP-tili |TYHJÄ |
+| MyBank |TYHJÄ |60400|KP-tili |TYHJÄ |
 
 ## <a name="see-also"></a>Katso myös
+
 [Myyntisaamisten hallinta](receivables-manage-receivables.md)  
 [Myynti](sales-manage-sales.md)  
 [Envestnet Yodlee Bank Feeds -palvelun määrittäminen](bank-how-setup-bank-statement-service.md)  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/09/2020
+ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: 7f0e420cdfa4a7dfa70d81a5ed23f2e20eb1b55b
-ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
+ms.openlocfilehash: 4e2539e87c17ff502137e82a6a3df55756d28600
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "3454263"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920182"
 ---
 # <a name="finland-local-functionality"></a>Suomen paikalliset toiminnot
 

@@ -1,8 +1,6 @@
 ---
-title: Automaattisten tilin kirjausryhmien määrittäminen
-description: Voit käyttää automaattisia tilikoodeja automaattisen tilin kirjausryhmän luonnin jälkeen.
-services: project-madeira
-documentationcenter: ''
+title: Automaattisten tilikirjausryhmien määrittäminen suomenkielisessä versiossa
+description: Voit käyttää automaattisia tilikoodeja suomenkielisessä versiossa automaattisen tilin kirjausryhmän luonnin jälkeen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,42 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 301457444af5e153b063d041e4d91eb74cd3a5a2
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 54482a24e4df1a919fe79a6df06883a90c1ebe83
+ms.sourcegitcommit: 428f180604e5afcf94fa0e92a0615f58c88e13cd
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778367"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "3931264"
 ---
-# <a name="set-up-automatic-account-posting-groups"></a>Automaattisten tilin kirjausryhmien määrittäminen
-Voit käyttää automaattisia tilikoodeja automaattisen tilin kirjausryhmän luonnin jälkeen.  
+# <a name="set-up-automatic-account-posting-groups-in-the-finnish-version"></a>Automaattisten tilikirjausryhmien määrittäminen suomalaisessa versiossa
 
-## <a name="to-set-up-automatic-account-posting-groups"></a>Automaattisten tilin kirjausryhmien määrittäminen  
+[!INCLUDE [automatic-account-posting-groups-setup](../includes/FISE/automatic-account-posting-groups-setup.md)]
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](../../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Autom. tiliryhmät** ja valitse sitten liittyvä linkki.  
-2.  Valitse **Uusi**-toiminto.  
-3.  Täytä **Yleinen**-pikavälilehden kentät seuraavassa taulukossa kuvatulla tavalla.  
+## <a name="see-also"></a>Katso myös
 
-    |Kenttä|Description|  
-    |-----------|-----------------|  
-    |**Nro**|Anna automaattiselle tilin kirjausryhmälle yksilöivä aakkosnumeerinen numero.|  
-    |**Kuvaus**|Anna automaattisen tilin kirjausryhmän kuvaus.|  
-
-4.  Täytä **Automaattinen tilirivi** -pikavälilehden kentät seuraavassa taulukossa kuvatulla tavalla.  
-
-    |Kenttä|Description|  
-    |-----------|-----------------|  
-    |**Kohdistusprosentti**|Anna lähderivin summan kohdistettava prosentti.|  
-    |**KP-tilinro**|Anna kirjanpitotilin numero, jolle kohdistus kirjataan.|  
-
-    > [!NOTE]  
-    >  **Kokonaissaldo**-kentässä lasketaan yhteen kirjausryhmän automaattisten tilirivien **Kohdistusprosentti**-kentän arvot. Jos kirjausryhmän kokonaiskohdistusprosentti ei ole nolla, nimikkeen kirjauksen yhteydessä näytetään virhesanoma.  
-
-5.  Valitse **OK**-painike.  
-
-## <a name="see-also"></a>Katso myös  
- [Automaattiset tilikoodit](automatic-account-codes.md)   
- [Kirjausryhmien määrittäminen](../../finance-posting-groups.md)  
- [Rahoitus](../../finance.md)
+[Automaattiset tilikoodit](automatic-account-codes.md)  
+[Kirjausryhmien määrittäminen](../../finance-posting-groups.md)  
+[Rahoitus](../../finance.md)  

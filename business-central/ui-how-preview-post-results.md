@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: solsen
-ms.openlocfilehash: 56adf1822da10e4743d242df29aacad122fc954f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: fa57a5ecce6553ce9315e4cd205f3367d9664bda
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189649"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910178"
 ---
 # <a name="preview-posting-results"></a>Kirjaustulosten esikatselu
 Voit valita jokaiselle asiakirjalle ja päiväkirjalle **Esikatsele kirjausta** -painikkeen. Sen avulla voit tarkastella eri tapahtumatyyppejä, joita luodaan asiakirjan tai päiväkirjan kirjaamisen yhteydessä.

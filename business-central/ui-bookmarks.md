@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bb6c3762d9b6ec587cea6915cf292a6bb57e25fd
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 1078b9839920684c4be54e1753db5c87e1694912
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782491"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912694"
 ---
 # <a name="bookmark-a-page-or-report-on-your-role-center"></a>Sivun tai raportin kirjanmerkin luominen roolikeskuksessa
 Voit lisätä kirjanmerkin kuvakkeella toimintolinkin, joka avaa sivun tai raportin roolikeskuksen siirtymisvalikosta. Tämän ansiosta voit nopeasti tavoittaa haluamasi sisällön tai liiketoiminnan. Kirjanmerkki lisätään kohdesivulta tai raportista eli ruudusta, jonka haluat roolikeskuksen linkin avaavan.

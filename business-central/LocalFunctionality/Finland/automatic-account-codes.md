@@ -1,8 +1,6 @@
 ---
-title: Automaattiset tilikoodit
-description: Mukautettujen kirjausryhmien avulla voit automatisoida päiväkirjojen, myyntiasiakirjojen tai ostoasiakirjojen toistuvat tapahtumat.
-services: project-madeira
-documentationcenter: ''
+title: Automaattiset tilikoodit suomenkielisessä versiossa
+description: Mukautettujen kirjausryhmien avulla voit automatisoida päiväkirjojen, myyntiasiakirjojen tai ostoasiakirjojen toistuvat tapahtumat suomenkielisessä versiossa.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,23 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 268c7c3fea3ba158026699a8257effe999dbd2c0
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: baf705069d9000fe4776d34def9e7157bcf0aad4
+ms.sourcegitcommit: 428f180604e5afcf94fa0e92a0615f58c88e13cd
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778379"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "3931342"
 ---
-# <a name="automatic-account-codes"></a>Automaattiset tilikoodit
-Mukautettujen kirjausryhmien avulla voit automatisoida päiväkirjojen, myyntiasiakirjojen tai ostoasiakirjojen toistuvat tapahtumat. Näitä kirjausryhmiä voi käyttää kaikkialla [!INCLUDE[d365fin](../../includes/d365fin_md.md)] -ohjelmassa käynnistettäessä automaattisia kirjauksia ja kohdistuksia eri tileillä tai dimensioissa.  
+# <a name="automatic-account-codes-in-the-finnish-version"></a>Automaattiset tilikoodit suomenkielisessä versiossa
 
-Automaattisten tilikoodien avulla voi automatisoida palkanlaskennan yleiskustannuksiin liittyvät kirjaukset. Kun esimerkiksi kuun lopulla kirjataan palkan kokonaiskustannukset, voit käyttää automaattisia tilikoodeja määrittääksesi kokonaispalkan prosenttiosuuden, joka kirjataan automaattisesti yleiskustannuksina.  
+[!INCLUDE [automatic-account-codes](../includes/FISE/automatic-account-codes.md)]
 
-Automaattisten tilikoodien avulla voit käynnistää myös kustannusten tai tuoton kohdistukset eri dimensioissa. Voit esimerkiksi määrittää automaattisen tiliryhmän, jonka avulla kokonaiskulut voidaan jakaa kolmen eri osaston kesken laskun kirjaamisen yhteydessä.  
+## <a name="see-also"></a>Katso myös
 
-## <a name="see-also"></a>Katso myös  
 [Automaattisten tilin kirjausryhmien määrittäminen](how-to-set-up-automatic-account-posting-groups.md)   
 [Kirjausryhmien määrittäminen](../../finance-posting-groups.md)  
 [Rahoitus](../../finance.md)  
