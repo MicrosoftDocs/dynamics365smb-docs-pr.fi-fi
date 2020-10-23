@@ -1,6 +1,6 @@
 ---
-title: Power BI:n Business Centralin integroinnin ottaminen käyttöön | Microsoft Docs
-description: Analyysitietojen, liiketoimintatietojen ja tunnuslukujen hakeminen Business Centralin tiedoista on helppoa Power BI:n Business Central -sovelluksia.
+title: Power BIn ja Business Centralin integroinnin käyttöönotto
+description: Katso, miten voit määrittää yhteyden Power BI:hin, jotta voit saada kävijätietoja, liiketoimintatietoja ja suorituskykyilmaisimia Business Centralin tiedoista Business Centralin Power BI -sovelluksiin.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 92b3bb1d04c58332db20c978928fe1b04ed2ab37
-ms.sourcegitcommit: aeaa0dc64e54432a70c4b0e1faf325cd17d01389
+ms.openlocfilehash: ce4b45dbe80ab1972c92cde144b457eeeaff3402
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3697755"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3927070"
 ---
 # <a name="enabling-power-bi-integration-with-prodshort"></a>Power BI:n ja [!INCLUDE[prodshort](includes/prodshort.md)]in integroinnin ottaminen käyttöön
 
@@ -27,8 +27,8 @@ Käyttäjät saavat [!INCLUDE[prodshort](includes/prodshort.md)]in mukana maksut
 
 |Power-käyttöoikeus|Raporttien näyttäminen|Raporttien luominen|Raporttien jakaminen|Raporttien päivittäminen| [!INCLUDE[prodshort](includes/prodshort.md)] -sovellukset|
 |-------------|--------||
-|Power BI, maksuton|![tarkistus](media/check.png)|![tarkistus](media/check.png)|(rajoitettu)|(rajoitettu)||
-|Power BI Pro|![tarkistus](media/check.png)|![tarkistus](media/check.png)|![tarkistus](media/check.png)|(laaja)|![tarkistus](media/check.png)|
+|Power BI, maksuton|![valintamerkki](media/check.png)|![toinen valintamerkki](media/check.png)|(rajoitettu)|(rajoitettu)||
+|Power BI Pro|![vielä yksi valintamerkki](media/check.png)|![se on valintamerkki](media/check.png)|![jälleen valintamerkki](media/check.png)|(laaja)|![viimeinen valintamerkki](media/check.png)|
 
 Lisätietoja on kohdassa [Power BI -palvelun käyttöoikeuden organisaation käyttäjille](/power-bi/admin/service-admin-licensing-organization) tai [Rekisteröityminen Power BI -palveluun henkilönä](/power-bi/fundamentals/service-self-service-signup-for-power-bi).
 

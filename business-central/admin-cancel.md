@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: remove, delete
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 163c1522fce412e1877aa63dad914ca0a75c661e
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 8c70989e841da98594e8bc0c2436dbed8cda997b
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528410"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3927145"
 ---
 # <a name="unsubscribe-or-remove-prodshort"></a>[!INCLUDE[prodshort](includes/prodshort.md)]in tilauksen peruuttaminen tai poistaminen
 
@@ -25,13 +25,13 @@ Jos haluat lopettaa [!INCLUDE[d365fin](includes/d365fin_md.md)]:n käytön, voit
 
 Jos rekisteröit maksuttoman kokeilun mutta et halua jatkaa [!INCLUDE[d365fin](includes/d365fin_md.md)] -käyttöä, voit sulkea tilisi milloin tahansa. On suositeltavaa viedä kaikki omat tiedot, ennen kuin suljet tilin. 
 
-Sinun on pyydettävä Office 365 -järjestelmänvalvojaa poistamaan kokeiluversion tilaus yrityksen tililtä [Microsoft 365 -hallintakeskuksessa.](https://admin.microsoft.com/) 
+Sinun on pyydettävä Microsoft 365 -järjestelmänvalvojaa poistamaan kokeiluversion tilaus yrityksen tililtä [Microsoft 365 -hallintakeskuksessa](https://admin.microsoft.com/). 
 
-Jos olet rekisteröitynyt [!INCLUDE[d365fin](includes/d365fin_md.md)]iin käyttämällä muuta kuin Office 365 -yritystiliä, sinulla ei ole Office 365 -järjestelmänvalvojaa. Sen sijaan sinun on peruutettava tilaus ottamalla yhteyttä [!INCLUDE[d365fin](includes/d365fin_md.md)]in peruutustiimiin. Lähetä sähköpostiviesti osoitteeseen cancelbusinesscentra@microsoft.com. Lisää viestiin tunnistamista varten oman [!INCLUDE[d365fin](includes/d365fin_md.md)]-vuokraajan nimi. Nämä tiedot löytyvät **Ohje ja tuki** -sivulta. Lisätietoja on kohdassa [Resurssit ohjeelle ja tuelle](product-help-and-support.md).  
+Jos olet rekisteröitynyt [!INCLUDE[d365fin](includes/d365fin_md.md)]iin käyttämällä muuta kuin Microsoft 365 -yritystiliä, sinulla ei ole Microsoft 365 -järjestelmänvalvojaa. Sen sijaan sinun on peruutettava tilaus ottamalla yhteyttä [!INCLUDE[d365fin](includes/d365fin_md.md)]in peruutustiimiin. Lähetä sähköpostiviesti osoitteeseen cancelbusinesscentra@microsoft.com. Lisää viestiin tunnistamista varten oman [!INCLUDE[d365fin](includes/d365fin_md.md)]-vuokraajan nimi. Nämä tiedot löytyvät **Ohje ja tuki** -sivulta. Lisätietoja on kohdassa [Resurssit ohjeelle ja tuelle](product-help-and-support.md).  
 
-## <a name="unsubscribing-by-removing-d365fin-from-your-office-365-experience"></a>Tilauksen peruuttaminen poistamalla [!INCLUDE[d365fin](includes/d365fin_md.md)] Office 365:stä
+## <a name="unsubscribing-by-removing-d365fin-from-your-microsoft-365-experience"></a>Tilauksen peruuttaminen poistamalla [!INCLUDE[d365fin](includes/d365fin_md.md)] Microsoft 365:stä
 
-Jos yritys tilaa [!INCLUDE[prodshort](includes/prodshort.md)]ia, mutta käyttäjänä et enää halua käyttää sitä, sinun on pyydettävä järjestelmänvalvojaa tai Dynamics 365 -jälleenmyyjäkumppaniasi poistamaan [!INCLUDE[d365fin](includes/d365fin_md.md)] -käyttöoikeus Office 365 -käyttäjätililtäsi. Jos [!INCLUDE[d365fin](includes/d365fin_md.md)] on poistettu käyttäjätililtä ja muut yritys jatkaa tilausta, työtoverisi voivat jatkaa jakamiesi tietojen käyttöä [!INCLUDE[d365fin](includes/d365fin_md.md)] -yrityksessä.  
+Jos yritys tilaa [!INCLUDE[prodshort](includes/prodshort.md)]ia, mutta käyttäjänä et enää halua käyttää sitä, sinun on pyydettävä järjestelmänvalvojaa tai Dynamics 365 -jälleenmyyjäkumppaniasi poistamaan [!INCLUDE[d365fin](includes/d365fin_md.md)] -käyttöoikeus Microsoft 365 -käyttäjätililtäsi. Jos [!INCLUDE[d365fin](includes/d365fin_md.md)] on poistettu käyttäjätililtä ja muut yritys jatkaa tilausta, työtoverisi voivat jatkaa jakamiesi tietojen käyttöä [!INCLUDE[d365fin](includes/d365fin_md.md)] -yrityksessä.  
 
 Jos yrityksesi haluaa peruuttaa [!INCLUDE[d365fin](includes/d365fin_md.md)] -tilauksen, Dynamics 365 -jälleenmyyjäkumppani voi poistaa tilauksen yrityksen tilistä. Lisätietoja on ohjeaiheen [Business Central Onlinen hallinta](/dynamics365/business-central/dev-itpro/administration/tenant-administration) kehittäjien ja IT-ammattilaisten kohdassa.  
 

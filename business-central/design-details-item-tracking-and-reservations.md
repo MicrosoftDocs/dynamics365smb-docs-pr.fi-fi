@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b0f671fc4c3a8b08d1bf9b21cef79ae35defb636
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: cb79b0538f4f55b2841815c23c4446d7c6278fb1
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787619"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922090"
 ---
 # <a name="design-details-item-tracking-and-reservations"></a>Rakennetiedot: nimikkeen seuranta ja varaukset
 
@@ -36,10 +36,11 @@ Nimikeseurantanumeroiden varaus jakaantuu kahteen luokaan, kuten seuraavassa tau
 |Epäspesifinen|Et voi valita tiettyä sarja- tai eränumeroa, kun varaat varastonimikkeen kysynnästä, kuten myyntitilauksesta.<br /><br /> Tämä on tila, joka saadaan varattaessa sarja- tai eränumeroita, joita ei ole erityisesti valittu. **Huomautus:** Kysyntään ei kohdistu sarjaa eränumeroita. <br /><br /> Haluat esimerkiksi varata purkin sinistä maalia mistä tahansa erästä myyntitilauksellesi. Asiakkaalle toimitetaan purkki sinistä maalia satunnaisesta sarja- tai eränumerosta.|  
   
 Pääero erityisen ja yleisen varauksen välillä on määritetty sarja- ja eränumeroiden olemassaololla kysyntäpuolella, kuten seuraavasta taulukosta ilmenee.  
-  
-|<!--blank -->|**Tarjonta**|**Kysyntä**|  
-|**Erityiset**|Sarja-tai eränumero.|Sarja-tai eränumero.|  
-|**Epäspesifiset**|Sarja-tai eränumero.|Ei sarja-tai eränumeroa.|  
+
+| Tyyppi            | Tarjonta                | Kysyntä                   |
+|-----------------|-----------------------|--------------------------|
+| **Määrätty**    | Sarja- tai eränumero. | Sarja- tai eränumero.    |
+| **Epäspesifinen** | Sarja- tai eränumero. | Ei sarja- tai eränumeroa. |
   
 Kun varastomääriä varataan lähtevästä asiakirjarivistä nimikkeelle, jolle on määritetty nimikkeen seurantanumerot ja tietyn nimikkeen seuranta, **Varaus**-sivu johtaa sinut eri työnkulkujen läpi sarja- tai eränumeroiden tarpeesta riippuen.s  
   

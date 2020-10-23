@@ -1,0 +1,1 @@
+> **KOSKEE:** Business Central online (2020 julkaisuaalto 2 ja uudemmat)

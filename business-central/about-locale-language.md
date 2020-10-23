@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: language, locale, localization, culture, region, regional settings
-ms.date: 06/17/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: da2ea0e51ef65eb432cc67f36db230bfea178c03
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: d47214392e3c0e48f436475a79407a752a95583d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528661"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914562"
 ---
 # <a name="changing-language-and-region"></a>Kielen ja alueen muuttaminen
 
@@ -26,7 +26,7 @@ Jos käytät esimerkiksi käytä kanadalaista [!INCLUDE[d365fin](includes/d365fi
 Voit vaihtaa käyttöliittymän kielen **Omat asetukset** -sivulla. Lisätietoja on kohdassa [Perusasetusten muuttaminen](ui-change-basic-settings.md#language). 
 
 > [!NOTE]  
-> Kielivalinta palautetaan Office 365 -profiilin asetukseen, jos järjestelmänvalvoja synkronoi käyttäjät Office 365:stä [!INCLUDE[d365fin](includes/d365fin_md.md)]iin.
+> Kielivalinta palautetaan Microsoft 365 -profiilin asetukseen, jos järjestelmänvalvoja synkronoi käyttäjät Microsoft 365:stä [!INCLUDE[d365fin](includes/d365fin_md.md)]iin.
 
 Sovellusdatana tallennettujen tekstien kielen muuttaminen ei ole osa monikielisyysominaisuutta. Tämä on sovelluksen suunnitteluun liittyvä asia. Nimikkeiden nimet varastossa ja asiakaskommentit ovat esimerkkejä tällaisista teksteistä. Toisin sanoen tämän tyyppisiä tekstejä ei käännetä.  
 
@@ -36,7 +36,7 @@ Sovellusdatana tallennettujen tekstien kielen muuttaminen ei ole osa monikielisy
 ## <a name="changing-the-region"></a>Alueen muuttaminen
 Alue on eri asia kuin paikallisten markkina-alueiden kielivaatimukset ja lainsäädännölliset vaatimukset. Alue määrittää, käytetäänkö tietoja annettaessa esimerkiksi pilkkuerotinta ja tapahtuuko kohdistus vasemmalle vai oikealle. Alue määrittää myös jotkin selaimen järjestelmäelementit, kuten toiminnon, jolla luetteloon luodaan uusi nimike.  
 
-Voit muuttaa alueen siinä selaimen välilehdessä, jossa käytät [!INCLUDE[d365fin](includes/d365fin_md.md)]ia. Tämä muutos koskee vain muutoksen tehnyttä käyttäjää – se ei siis koske yrityksen muita käyttäjiä.  Huomaa, että aluevalinta palautetaan Office-profiilin asetukseen, jos järjestelmänvalvoja synkronoi käyttäjät Office 365:stä [!INCLUDE[d365fin](includes/d365fin_md.md)]iin.
+Voit muuttaa alueen siinä selaimen välilehdessä, jossa käytät [!INCLUDE[d365fin](includes/d365fin_md.md)]ia. Tämä muutos koskee vain muutoksen tehnyttä käyttäjää – se ei siis koske yrityksen muita käyttäjiä.  Huomaa, että aluevalinta palautetaan Office-profiilin asetukseen, jos järjestelmänvalvoja synkronoi käyttäjät Microsoft 365:stä [!INCLUDE[d365fin](includes/d365fin_md.md)]iin.
 
 > [!IMPORTANT]  
 >  Kun muutat alueen asetuksia, näkyviin tulee pitkä kieli- ja alueluettelo. Alueen valinta ei kuitenkaan vaikuta kieleen.  

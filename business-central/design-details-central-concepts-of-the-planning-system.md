@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6cfe028d21086269f1492aefde31fe6b659d06b4
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 76a25b3810c41d413c662d77bdcc72678bf8c59f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788119"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917499"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Rakennetiedot: suunnittelujärjestelmän keskeiset käsitteet
 Suunnittelutoiminnot on sisällytetty eräajoon, joka ensin valitsee asiaankuuluvat nimikkeet ja ajanjaksot, jotka suunnitellaan. Eräajo kutsuu koodiyksikköä kunkin nimikkeen alatason koodin (tuotantorakenteen positio) mukaisesti ja laskee suunnitelman täsmäyttämällä tarjonta- ja kysyntäjoukot ja ehdottaa käyttäjälle mahdollisia toimintatapoja. Ehdotetut toimenpiteet ilmestyvät riveinä suunnittelutaulukkoon tai tilaustaulukkoon.  
@@ -91,6 +91,14 @@ Valmistusympäristössä valmiiden, myytävien nimikkeiden kysyntä aiheuttaa va
 Luvut osoittavat missä järjestyksessä järjestelmä tekee ehdotuksia toimitustilauksiin huipputasolla ja olettaen, että käyttäjä hyväksyy nämä ehdotukset, missä tahansa alemman tason nimikkeissä myös.  
 
 Lisätietoja tuotantonäkökohdista on kohdassa [Varastoprofiilien lataaminen](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
+
+#### <a name="optimizing-performance-for-low-level-calculations"></a>Suorituskyvyn optimoiminen matalan tason laskelmissa
+Matalan tason koodilaskelmat voivat vaikuttaa järjestelmän suorituskykyyn. Vaikutusten lieventämiseksi voit poistaa **Dynaamisen matalan tason koodilaskennan** käytöstä **Tuotannon asetukset** -sivulla. Kun teet näin, [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelma ehdottaa, että luodaan toistuva työjonotapahtuma, joka päivittää matalan tason koodit päivittäin. Voit varmistaa, että työ suoritetaan työajan ulkopuolella, määrittämällä aloitusajan **Aikaisin alkamispäivä ja -aika** -kentässä.
+
+Voit myös ottaa käyttöön logiikan, joka nopeuttaa alatason koodilaskentaa valitsemalla **Tuotannon asetukset**-sivulla **Optimoi matalan tason koodilaskenta**. 
+
+> [!IMPORTANT]
+> Jos optimoit suorituskyvyn, [!INCLUDE[d365fin](includes/d365fin_md.md)] käyttää uusia laskentamenetelmiä alatason koodien määrittämiseen. Jos sinulla on laajennus, joka perustuu vanhojen laskelmien käyttämiin tapahtumiin, laajennus voi lakata toimimasta.   
 
 ### <a name="locations--transfer-level-priority"></a>Sijainnit/siirtotason prioriteetti  
 Yritysten, jotka toimivat useammassa kuin yhdessä paikassa, on ehkä suunniteltava jokaiselle paikalle erikseen. Esimerkiksi nimikkeen varmuusvaraston taso ja sen uusintatilaustapa saattaa vaihdella sijainnista toiseen. Tässä tapauksessa suunnitteluparametrit on määritettävä nimike- ja sijaintikohtaisesti.  

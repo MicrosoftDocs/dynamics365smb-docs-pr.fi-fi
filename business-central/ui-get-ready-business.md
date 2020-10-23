@@ -1,24 +1,24 @@
 ---
-title: Tervetuloa | Microsoft Docs
+title: Valmistautuminen liiketoimintaan
 description: Lisätietoja asennusoppaista, videoista, ohjeaiheista ja sivuista, jotka auttavat Business Central -sovelluksen käyttöönotossa.
-documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
-ms.date: 04/01/2020
+ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4eb11d34927c329d35fb8ff9ab2bef7d5b18438c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 439280317792e4baedba18c5a4f05b8eab440921
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193489"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912174"
 ---
 # <a name="getting-ready-for-doing-business"></a>Valmistautuminen liiketoimintaan
+
 Olet juuri aloittanut ensimmäisen yrityksen [!INCLUDE[d365fin](includes/d365fin_md.md)]issa.
 
 Pääset liiketoiminnassa alkuun tutustumalla **Asetusten ohjattu määritys** -sivuun, jossa voit käynnistää avustettuja asennusoppaita, videoita tai valittujen asennustehtävien ohjeaiheita. Voit käyttää sivua yksinkertaisesti valitsemalla ![Hammaspyöräkuvake Asetukset-valikon avaamista varten](media/ui-experience/settings_icon_small.png) -kuvakkeen ja sitten **Asetusten ohjattu määritys** -toiminnon.
@@ -30,12 +30,14 @@ Kun olet siirtänyt olemassa olevasta taloustietojen järjestelmästä tiedot, k
 Jos alue ei kuulu asetusten ohjattuun määritykseen, valitse ![Hammaspyöräkuvake Asetukset-valikon avaamista varten](media/ui-experience/settings_icon_small.png) -kuvake ja valitse sitten **Lisäasetukset**-toiminto. **Lisäasetuksissa** **Manuaalinen asetus** -osassa on asetussivujen käyttömahdollisuus. Siellä voit täyttää asetuskentät kaikille alueille manuaalisesti. Lisätietoja on myös kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittäminen](setup.md)
 
 > [!NOTE]  
-> Käytettävissä olevien asetusten ohjattujen määritysoppaiden, laajennusten ja palvelujen luettelo vaihtelee yritykselle valitun käyttäjäkokemuksen mukaan. **Essential**-kokemuksen valikoima on suppeampi kuin **Premium**-kokemuksen valikoima.<br /><br />
+> Käytettävissä olevien asetusten ohjattujen määritysoppaiden, laajennusten ja palvelujen luettelo vaihtelee yritykselle valitun käyttäjäkokemuksen mukaan. **Essential**-kokemuksen valikoima on suppeampi kuin **Premium**-kokemuksen valikoima.
+>
 > Ensimmäisellä kirjautumiskerralla käytössä on **Essential**-kokemus. Lisätietoja on kohdassa [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md).
 
 Kun olet suorittanut asetusten ohjatun määrityksen, sen tilaksi merkitään **Valmis**. Voit suorittaa asetusten ohjatun määrityksen valitsemalla kolme pistettä ja valitsemalla sitten **Käynnistä asennus** -toiminnon.
 
 ## <a name="role-center"></a>Roolikeskus
+
 Saat roolikeskuksessa yleiskuvan liiketoiminnastasi. Ylhäällä olevan siirtymispalkin avulla voit helposti käsitellä asiakkaita, toimittajia, nimikkeitä jne. Keskellä ovat **toimenpideruudut**. **Toimenpiteet** esittävät nykyiset tiedot. Valitun asiakirjan saa helposti käyttöön toimenpiteitä napsauttamalla tai napauttamalla.
 
 **Suorituskykyilmaisimet** voidaan määrittää niin, että ne näyttävät visuaalisesti esimerkiksi kassavirran tai tuottojen ja kulujen valitun kaavion. Voit luoda roolikeskuksessa myös **suosikkiasiakkaiden** luettelon niitä asiakkaita varten, joiden kanssa käyt kauppaa usein tai jotka vaativat erityishuomiota.
@@ -46,23 +48,29 @@ Nuolten avulla voit supistaa osan sivusta, jolloin haluamillesi tiedoille jää 
 > Voit palata roolikeskukseen valitsemalla yrityksen nimen vasemmasta yläkulmasta.
 
 ## <a name="company-information"></a>Yrityksen tiedot
-Voit tarkastella ja muokata **Yrityksen asetukset** -kohdassa nykyisen yrityksen asetustietoja, joista suuri osa on esitäytetty, jos suoritit avustetun **Määritä yritys** -asennuksen [!INCLUDE[d365fin](includes/d365fin_md.md)]iin rekisteröityessäsi. Voit muuttaa tällä sivulla yrityksen logoa, yhteystietoja, pankkiasetuksia tai verotustietoja.    
+
+Voit tarkastella ja muokata **Yrityksen asetukset** -kohdassa nykyisen yrityksen asetustietoja, joista suuri osa on esitäytetty, jos suoritit avustetun **Määritä yritys** -asennuksen [!INCLUDE[d365fin](includes/d365fin_md.md)]iin rekisteröityessäsi. Voit muuttaa tällä sivulla yrityksen logoa, yhteystietoja, pankkiasetuksia tai verotustietoja.  
 
 ## <a name="adding-users-and-permissions"></a>Käyttäjien ja käyttöoikeuksien lisäämisen
+
 Jos sinun on lisättävä uusia käyttäjiä, voit tehdä sen Microsoft 365 -hallintakeskuksessa. Katso lisätietoja kohdasta [Luo käyttäjiä lisenssien mukaan](ui-how-users-permissions.md).
 
 Kun käyttäjät on luotu Microsoft 365:ssä, heidät voidaan tuoda **Käyttäjät**-sivulle käyttämällä **Hae uudet päivitykset Office 365:stä** -toimintoa. Voit määrittää tämän jälkeen käyttäjien käyttöoikeudet ja järjestää käyttäjät käyttäjäryhmiin. Lisätietoja on kohdassa [Määritä käyttöoikeudet käyttäjille ja ryhmille](ui-define-granular-permissions.md).  
 
 ## <a name="getting-help"></a>Ohjeiden saaminen
-[!INCLUDE[d365fin](includes/d365fin_md.md)]issa on työkaluvihjeitä, jotka auttavat eri liiketoimintaprosessien suorittamisessa. Voit avata kyseisen sivun ohjeen painamalla kentän työkaluvihjeessä näppäimiä Ctrl+F1 tai valitsemalla **Lisätietoja**-linkin. Oikeassa yläkulmassa oleva kysymysmerkki vie myös tuotteen ohjeisiin.
+
+[!INCLUDE[d365fin](includes/d365fin_md.md)]issa on työkaluvihjeitä, jotka auttavat eri liiketoimintaprosessien suorittamisessa. Voit avata kyseisen sivun ohjeen kentän työkaluvihjeessä valitsemalla **Lisätietoja**-linkin. Avaa kyseisen sivun ohje käyttämällä näppäimistön Ctrl+F1-näppäimiä. Oikeassa yläkulmassa oleva kysymysmerkki avaa **Ohje ja tuki** -sivun, ja voit hakea sieltä myös tuoteapua.
 
 ## <a name="next-steps"></a>Seuraavat vaiheet
+
 Voit jatkaa luomalla uusia myynti- tai ostoasiakirjoja siirrettyjen tietojen perusteella. Voit luoda nopeasti myyntitarjouksen, myyntilaskun, myyntitilauksen, ostolaskun tai maksurekisteröinnin Roolikeskuksen **Toiminnot**-osassa.
 
 ## <a name="see-also"></a>Katso myös
+
 [Käytön aloittaminen](product-get-started.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
-[Määritä käyttöoikeudet käyttäjille ja ryhmille](ui-define-granular-permissions.md)  
+[Käyttöoikeuksien määrittäminen käyttäjille ja ryhmille](ui-define-granular-permissions.md)  
 [[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]Kokeilut ja tilaukset](across-preview.md)  
+[Ohje- ja tukiresurssit](product-help-and-support.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

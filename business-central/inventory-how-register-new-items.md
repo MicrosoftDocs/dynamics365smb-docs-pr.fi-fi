@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 07/06/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 296e150eec01e3aee4ec8ccc32b4bf5299b86d3e
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 74eb66c4303acb452972f9ac3c7dda008e3c6502
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782066"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923818"
 ---
 # <a name="register-new-items"></a>Uusien nimikkeiden rekisteröiminen
 
@@ -92,12 +92,19 @@ Toimittajat näkyvät nyt nimikkeen kortissa avattavassa **Nimikkeen toimittajal
 
 ## <a name="deleting-item-cards"></a>Nimikekorttien poistaminen
 
-Jos olet kirjannut nimikkeelle tapahtuman, et voi poistaa korttia, koska nimiketapahtumia voi tarvita varaston arvostamiseen tai valvontaan. Voit poistaa nimiketapahtumia tapahtumakirjauksilta ottamalla yhteyttä Microsoft-kumppaniin koodin avulla.
+Jos olet kirjannut nimikkeelle tapahtuman, et voi poistaa korttia, koska nimiketapahtumia voi tarvita varaston arvostamiseen tai valvontaan. Voit poistaa nimiketapahtumia tapahtumakirjauksilta ottamalla yhteyttä Microsoft-kumppaniin koodin avulla.  
+
+## <a name="manage-inventory-in-warehouses"></a>Hallitse varastoa fyysisessä varastossa
+
+Kun rekisteröit uuden nimikkeen, näyttöön tulee varastoinnin hallintaan liittyviä kenttiä, erityisesti **Fyysinen varasto** -pikavälilehdessä. Jos organisaatiossasi ei käytetä [!INCLUDE [prodshort](includes/prodshort.md)] -ohjelman varastonhallinnan ominaisuuksia, voit ohittaa kyseiset kentät.  
+
+Jos organisaatiosi myöhemmin määrittää varastonhallinnan, sinun täytyy useimmiten palata takaisin kuhunkin aiemmin luotuun nimikkeeseen ja varmistaa, että tiedot ovat oikein eri kentissä, jotta fyysisen varastoinnin prosessit voidaan suorittaa odotetulla tavalla. Nämä tiedot voivat sisältää esimerkiksi **Fyysisen varaston luokkakoodi**- tai **Hyllytysmallin koodi** -kenttiä. Katso lisätietoja kohdasta [Rakennetiedot: Fyysisen varastoinnin asetukset](design-details-warehouse-setup.md).  
 
 ## <a name="see-also"></a>Katso myös
 
 [Varasto](inventory-manage-inventory.md)  
 [Mittayksikön määrittäminen](inventory-how-setup-units-of-measure.md)  
+[Tavaranimikkeet](finance-how-setup-report-intrastat.md#tariff-numbers)  
 [Varaston kustannusten täsmäyttäminen pääkirjanpitoon](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
 [Numerosarjojen luominen](ui-create-number-series.md)  
 [Kirjausryhmien määrittäminen](finance-posting-groups.md)  

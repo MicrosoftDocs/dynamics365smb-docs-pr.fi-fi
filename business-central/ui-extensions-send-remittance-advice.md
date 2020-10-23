@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, stream, remittance, advice
-ms.date: 05/05/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 236cb83e99c2385edc09622255037a152bf41e6e
-ms.sourcegitcommit: 57e31a8b92feeaf8c6c63eba147f36b38eee7679
+ms.openlocfilehash: f6afaa9ade29c955033914b608806c3fb0f5a310
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "3339920"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912219"
 ---
 # <a name="send-remittance-advice"></a>Lähetä Maksusuoritustietojen Ohjeet
 
@@ -26,7 +26,7 @@ Kun maksusuoritetietojen ohjetta käytetään tiedottamaan toimittajia maksuista
 
 Voit lähettää maksusuoritetietojen ohjeita kahdella eri tapaa:
 
-* **Maksukirjauskansio** -sivulla, valitse **Navigoi**, **Maksut**, **Lähetä Maksusuoritetietojen Ohjeet** lähettääksesi sähköpostilla maksusuoritetietojen ohjeet yhdeltä tai useammalta maksukirjauskansion riviltä.
+* **Maksukirjauskansio** -sivulla, valitse **Liittyvät**, **Maksut**, **Lähetä Maksusuoritetietojen Ohjeet** lähettääksesi sähköpostilla maksusuoritetietojen ohjeet yhdeltä tai useammalta maksukirjauskansion riviltä
 * Valitse **Toimittajatapahtumat**-sivulla **Toiminnot**, **Funktiot**, **Lähetä Maksutietojen Ohjeet** lähettääksesi sähköpostilla maksutietojen ohjeet, kun toimittajamaksut on julkaistu yhdestä tai useammasta toimittajatapahtumasta
 
 ## <a name="see-also"></a>Katso myös

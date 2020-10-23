@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.reviewer: edupont
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: a1e2e8ceee41c2c6ed517d000fc7c3a4a6aa274c
-ms.sourcegitcommit: aeaa0dc64e54432a70c4b0e1faf325cd17d01389
+ms.openlocfilehash: e339033e8529f59f548e8bf71fd683f9a2a17eba
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3697670"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917874"
 ---
 # <a name="prodshort-and-power-bi"></a>[!INCLUDE[prodshort](includes/prodshort.md)] ja Power BI
 
@@ -31,10 +31,10 @@ ms.locfileid: "3697670"
 
 |Ominaisuus|Kuvaus|Online|Paikallinen|Lisätietoja|
 |-------|-----------|--------------|-----------|----------------|
-|[!INCLUDE[prodshort](includes/prodshort.md)] -tietojen näyttäminen Power BI:ssa|Voit tarkastella [!INCLUDE[prodshort](includes/prodshort.md)]in tietoja Power BI -raporteissa. [!INCLUDE[prodshort](includes/prodshort.md)] online sisältää muutamia esimääritettyjä Power BI -raportteja. Organisaatiolla voi lisäksi olla joitakin valmiita mukautettuja raportteja.|![tarkistus](media/check.png)|![tarkistus](media/check.png)|[Katso...](across-working-with-powerbi.md)|
-|Power BI -raporttien näyttäminen [!INCLUDE[prodshort](includes/prodshort.md)] -asiakasohjelmassa.| [!INCLUDE[prodshort](includes/prodshort.md)] -tietoja näyttävät Power BI -raportit voidaan upottaa suoraan osien [!INCLUDE[prodshort](includes/prodshort.md)] -sivuille. Osan voi vaihtaa näyttämään minkä tahansa käytettävissä olevan raportin. |![tarkistus](media/check.png)|![tarkistus](media/check.png)<sup>[*](#onprem)</sup>|[Katso...](across-working-with-business-central-in-powerbi.md).|
-|Voit luoda Power BI:ssa raportteja ja koontinäyttöjä, joissa näytetään [!INCLUDE[prodshort](includes/prodshort.md)] -tietoja.|Voit luoda omia raportteja ja koontinäyttöjä Power BI Desktopissa. Voit julkaista raportit omaan Power BI -palveluun tai jakaa ne muiden kanssa organisaatiossa. .|![tarkistus](media/check.png)|![tarkistus](media/check.png)|[Katso...](across-how-use-financials-data-source-powerbi.md)
-|[!INCLUDE[prodshort](includes/prodshort.md)] -sovellukset Power BI:ssa| [!INCLUDE[prodshort](includes/prodshort.md)] julkaisee Microsoft AppSource kolme Power BI -sovellusta. Nämä sovellukset luovat yksityiskohtaisia raportteja ja koontinäyttöjä Power BI -palvelussa [!INCLUDE[prodshort](includes/prodshort.md)] -tietojen tarkastelua varten. Käytettävissä olevat sovellukset: <ul><li>[!INCLUDE [prodlong](includes/prodlong.md)] – CRM </li><li>[!INCLUDE [prodlong](includes/prodlong.md)] – Finance </li><li>[!INCLUDE [prodlong](includes/prodlong.md)] – Sales </li></ul>  |![tarkistus](media/check.png)||[Katso...](across-powerbi-business-central-apps.md)
+|[!INCLUDE[prodshort](includes/prodshort.md)] -tietojen näyttäminen Power BI:ssa|Voit tarkastella [!INCLUDE[prodshort](includes/prodshort.md)]in tietoja Power BI -raporteissa. [!INCLUDE[prodshort](includes/prodshort.md)] online sisältää muutamia esimääritettyjä Power BI -raportteja. Organisaatiolla voi lisäksi olla joitakin valmiita mukautettuja raportteja.|![Toimii verkossa](media/check.png)|![Toimii paikallisesti](media/check.png)|[Katso...](across-working-with-powerbi.md)|
+|Power BI -raporttien näyttäminen [!INCLUDE[prodshort](includes/prodshort.md)] -asiakasohjelmassa.| [!INCLUDE[prodshort](includes/prodshort.md)] -tietoja näyttävät Power BI -raportit voidaan upottaa suoraan osien [!INCLUDE[prodshort](includes/prodshort.md)] -sivuille. Osan voi vaihtaa näyttämään minkä tahansa käytettävissä olevan raportin. |![toimii verkossa](media/check.png)|![Toimii paikallisesti](media/check.png)<sup>[*](#onprem)</sup>|[Katso...](across-working-with-business-central-in-powerbi.md).|
+|Voit luoda Power BI:ssa raportteja ja koontinäyttöjä, joissa näytetään [!INCLUDE[prodshort](includes/prodshort.md)] -tietoja.|Voit luoda omia raportteja ja koontinäyttöjä Power BI Desktopissa. Voit julkaista raportit omaan Power BI -palveluun tai jakaa ne muiden kanssa organisaatiossa. .|![Toimii verkossa](media/check.png)|![toimii paikallisesti](media/check.png)|[Katso...](across-how-use-financials-data-source-powerbi.md)
+|[!INCLUDE[prodshort](includes/prodshort.md)] -sovellukset Power BI:ssa| [!INCLUDE[prodshort](includes/prodshort.md)] julkaisee Microsoft AppSource kolme Power BI -sovellusta. Nämä sovellukset luovat yksityiskohtaisia raportteja ja koontinäyttöjä Power BI -palvelussa [!INCLUDE[prodshort](includes/prodshort.md)] -tietojen tarkastelua varten. Käytettävissä olevat sovellukset: <ul><li>[!INCLUDE [prodlong](includes/prodlong.md)] – CRM </li><li>[!INCLUDE [prodlong](includes/prodlong.md)] – Finance </li><li>[!INCLUDE [prodlong](includes/prodlong.md)] – Sales </li></ul>  |![Toimii verkossa](media/check.png)||[Katso...](across-powerbi-business-central-apps.md)
 
 <a name="onprem"><sup>*</sup></a> Tätä ominaisuutta varten tarvitaan Microsoft Azuressa rekisteröity Business Centralin sovellus. Lisätietoja on kohdassa [Paikallisen Business Centralin rekisteröinti Azure AD:ssä muiden palvelujen integrointia varten](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
 

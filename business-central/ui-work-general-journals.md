@@ -1,24 +1,25 @@
 ---
 title: Kirjaaminen suoraan pääkirjanpitoon yleisten päiväkirjojen avulla| Microsoft Docs
 description: Tutustu siihen, miten päiväkirjoja käytetään rahoitustapahtumien kirjaamisessa pääkirjanpitotileille sekä muille tileille, kuten pankki- ja toimittajatileille.
-author: SorenGP
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/10/2020
+ms.search.keywords: journals, recurring, accrual
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 669985f08dd497ecec925eef126fff262067b947
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d0fba2dc1359da074ddf8fd21823803d49ba1234
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785244"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920695"
 ---
 # <a name="working-with-general-journals"></a>Yleisten päiväkirjojen käyttäminen
 
-Useimmat rahoitustapahtumat kirjataan pääkirjanpitoon erityisten yritysasiakirjojen, kuten ostolaskujen ja myyntitilausten välityksellä. Voit myös prosessoida liiketoimintaktiviteetteja, kuten ostoja, maksamista tai työntekijöiden kulujen hyvitystä kirjaamalla päiväkirjarivejä [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen eri päiväkirjoihin.  
+Useimmat rahoitustapahtumat kirjataan pääkirjanpitoon erityisten yritysasiakirjojen, kuten ostolaskujen ja myyntitilausten välityksellä. Voit myös prosessoida liiketoiminta-aktiviteetteja, kuten ostoja, maksamista, toistuvien päiväkirjojen käyttämistä kertymien kirjaamiseen tai työntekijöiden kulujen hyvitystä kirjaamalla päiväkirjarivejä [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen eri päiväkirjoihin.  
 
 Useimmat päiväkirjat perustuvat *yleiseen päiväkirjaan* ja voit käsitellä kaikki tapahtumat **Yleinen päiväkirja** -sivulla. Lisätietoja on kohdassa [Tapahtumien kirjaaminen suoraan pääkirjanpitoon](finance-how-post-transactions-directly.md).  
 
@@ -44,6 +45,27 @@ Voit määrittää kullekin päiväkirjan mallille oman henkilökohtaisen päiv�
 
 > [!TIP]
 > Kenttiä voi lisätä päiväkirjoihin tai poistaa niitä **Mukauttaminen**-palkin avulla. Lisätietoja on kohdassa [Työtilan mukauttaminen](ui-personalization-user.md).
+
+### <a name="validating-general-journal-batches"></a>Yleisen päiväkirjan erien arvioiminen
+Voit estää kirjauksen viivästymistä ottamalla käyttöön taustatarkistuksen, joka ilmoittaa, kun työstettävässä päiväkirjassa on virhe, joka estää päiväkirjan kirjaamisen. **Yleisen päiväkirjan erä** -sivulla voit valita **taustan virheen tarkistuksen**, jos haluat, että [!INCLUDE[d365fin](includes/d365fin_md.md)] vahvistaa rahoituspäiväkirjat, kuten yleiset tai maksupäiväkirjat, kun käsittelet niitä. 
+
+Kun oikeellisuustarkistus otetaan käyttöön, **päiväkirjan tarkistuksen** -tietoruutu näkyy päiväkirjarivien vieressä, ja siinä näkyvät tämän rivin ja koko erän seurantakohteet. Vahvistus tehdään silloin, kun lataat rahoituspäiväkirjan erän ja kun valitset toisen päiväkirjarivin. Tietoruudun **kokonaisongelmat**-ruudussa näkyy [!INCLUDE[d365fin](includes/d365fin_md.md)]:n löytämien ongelmien kokonaismäärän, ja voit valita sen, kun haluat avata yleiskuvauksen ongelmista. 
+
+Voit käyttää **Näytä rivit, joilla on seurantakohteita**- ja **Näytä kaikki rivit** -toimintoja, joilla voi siirtyä päiväkirjan riveillä, joilla on tai ei ole ongelmia. Uuden **päiväkirjan rivitiedot** -ruudun avulla saat nopeasti yleiskuvan ja voit käyttää päiväkirjarivien, kuten KP-tilin, asiakkaan tai toimittajan, tietoja sekä tiettyjen tilien kirjausasetuksia.     
+
+### <a name="reversing-journals-to-correct-mistakes"></a>Päiväkirjojen peruuttaminen virheiden korjaamiseksi
+Kun käsittelet päiväkirjoja, joissa on monta riviä ja jokin menee pieleen, on tärkeää, että virheet on helppo korjata. **Kirjattu yleisen päiväkirjan** sivu sisältää muutamia toimintoja, jotka voivat auttaa.
+
+* **Kopioi valitut rivit päiväkirjaan** - Kopioi vain valitsemasi rivit.
+* **Kopioi KP-rekisteri päiväkirjaan** - Kopioi kaikki rivit, jotka kuuluvat samaan KP-rekisteriin.
+
+Näiden toimintojen avulla voit luoda kopion yleisen päiväkirjan rivistä tai erästä ja määrittää seuraavat tiedot:
+
+* Päiväkirja, johon rivit kopioidaan
+* Onko vastakkaisilla merkeillä (peruutuspvk)
+* Eri kirjauspäivämäärä tai asiakirjan numero
+
+Jos haluat sallia päiväkirjojen kirjausten kopioimisen yleisiin päiväkirjoihin **Yleiset päiväkirjamallit** -sivulle, valitse **Kopioi kirjatuille pvk-riveille** -valintaruutu. Sen jälkeen kun olet sallinut ihmisten kopioida kirjatut yleiset päiväkirjat, voit halutessasi poistaa kopioinnin käytöstä tiettyjen erien osalta.
 
 ## <a name="understanding-main-accounts-and-balancing-accounts"></a>Päätilit ja vastatilit
 Jos olet määrittänyt päiväkirjan erille oletusvastatilit **Yleiset päiväkirjat** -sivulla, vastatili täytetään automaattisesti, kun täytät **Tilinro**-kentän. Muussa tapauksessa täytä sekä **Tilinro**-kenttä että **Vastatilin nro** -kenttä manuaalisesti. Positiivinen summa **Summa**-kentässä veloitetaan päätililtä ja hyvitetään vastatilille. Negatiivinen summa hyvitetään päätilille ja veloitetaan vastatililtä.
@@ -99,6 +121,18 @@ Jos Toistotapa-kenttään toistuvien tapahtumien päiväkirjassa on asetettu **S
 
 #### <a name="example-allocating-rent-payments-to-different-departments"></a>Esimerkki: Vuokramaksujen kohdistaminen eri osastoihin
 Jos maksat vuokraa joka kuukausi, olet syöttänyt vuokrasumman kassatilille toistuvien tapahtumien päiväkirjan rivillä. **Kohdistukset**-sivulla voit jakaa kulun useamman osaston (Osasto-dimension) kesken osastojen pinta-alaneliöiden mukaan. Laskenta perustuu kunkin rivin kohdistusprosenttiin. Voit syöttää erilaisia tilejä jokaiselle eri kohdistusriville (jos myös vuokra jaetaan useammalle tilille) tai voit syöttää saman tilin erilaisilla dimension arvokoodeilla Osasto-dimension jokaisella rivillä.
+
+### <a name="reversal-date-calculation"></a>Päinvastainen päivämäärän laskenta
+Kun jaksotusten kirjaamisessa käytetään toistuvia yleisiä päiväkirjoja jakson lopussa, on tärkeää, että peruutusten tapahtumat ovat täysin hallinnassa. **Toistuvat yleiset päiväkirjat** -sivulla **Peruutuspäivämäärän laskenta** -kentässä voit määrittää päivämäärän, jolloin peruutustapahtumat kirjataan peruutusten toistuvia menetelmiä käytettäessä.
+
+#### <a name="example"></a>Esimerkki
+Jaksotukset kirjataan yleensä päiväkirjan rivillä kiinteiden, muuttuvien tai tasapainoisten toistuvien menetelmien avulla. Päiväkirjarivin tilin kirjatun summan kirjauspäivämäärä lasketaan toistotiheyden mukaan. Vastatapahtuman kirjauspäivämäärä lasketaan **Peruutusten päivämäärän laskenta** -kentän avulla seuraavasti:
+
+* Jos kenttä on tyhjä, vastatapahtuma kirjataan seuraavana päivänä.
+* Jos kentässä on päivämääräkaava (esimerkiksi **5D** viideksi päiväksi), vastatapahtuma kirjataan siten, että kirjauspäivämäärä lasketaan peruutuspäivämäärän laskennan avulla.
+
+> [!NOTE]
+> Oletusarvon mukaan **peruutuspäivämäärän laskenta** -kenttä ei ole käytettävissä **Toistuvien yleisten päiväkirjojen** sivulla. Jos haluat käyttää kenttää, sinun täytyy lisätä se mukauttamalla sivua. Lisätietoja on kohdassa [Työtilan mukauttaminen](ui-personalization-user.md).
 
 ## <a name="working-with-standard-journals"></a>Vakiopäiväkirjojen käyttäminen
 Kun olet luonut päiväkirjan rivejä, joita todennäköisesti käytät myös vastaisuudessa, voit tallentaa rivit vakiopäiväkirjana, ennen kuin kirjaat rivit päiväkirjaan. Tämä toiminto koskee nimikepäiväkirjoja sekä yleisiä päiväkirjoja.

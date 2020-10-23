@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource
-ms.date: 06/22/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 371f9c8629d699d7c07f2d72c99b8b64fac3b4b9
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 68271b7f6f90f88af74cee848af82d28abbf339f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780333"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3921365"
 ---
 # <a name="use-time-sheets-for-jobs"></a>Aikaraporttien käyttäminen projekteissa
 
@@ -113,6 +113,27 @@ Kun olet hyväksynyt tai hylännyt aikaraportin, sitä voi muokata vasta sitten,
     >   Voit avata uudelleen vain rivit, joiden tila on **Hyväksytty**. Et voi avata uudelleen rivejä, joiden tila on **Hylätty**. Et voi avata uudelleen aikaraporttia, jos se on kirjattu.  
 3. Valitse **Aikaraportti**-sivulla **Avaa uudelleen** -toiminto. Avaa sitten uudelleen kaikki rivit valitsemalla **Kaikki lähetetyt rivit** -toiminto tai avaa uudelleen **Aikaraportti**-sivulla valitut rivit valitsemalla **Vain valitut rivit** -toiminto.
 4. Valitse **OK**-painike. Aikaraporttien rivin tai rivien tilaksi tulee **Lähetetty**.  
+
+## <a name="to-view-and-approve-time-sheets-by-job"></a>Aikaraporttien tarkasteleminen ja hyväksyminen projektin mukaan
+
+Voit määrittää työssä henkilön, joka on vastuussa työstä. Tiedot linkitetään aikaraportin riveihin, jonka pohjalta voidaan luoda luettelo aikaraporteista, jotka vaativat projektipäällikön tarkistuksen ja hyväksynnän. Esimerkiksi tiimin projektipäällikkö voi olla vastuussa yrityksen tietyistä töistä. Tässä tapauksessa esimies ilmaistaan työkortissa nimellä **Vastuuhenkilö**. Aikaraportin tietojen tässä näkymässä näkyvät projektiivin liittyvät projektitehtävät ja käytettyjen tuntien määrä.
+
+> [!NOTE]
+> Jotta voit hyväksyä tuntilomakkeet **Esimiehen tuntilomakkeet projektin mukaan** -ikkunassa, sinun on ensin valittava **Aikaraportin projektihyväksyntä** -vaihtoehto **Resurssien määritys** -sivulla. Lisätietoja on kohdassa [Resurssien määrittäminen](projects-how-setup-resources.md).
+
+### <a name="to-approve-or-reject-a-time-sheet-by-job"></a>Hyväksy tai hylkää aikaraportti projektin mukaan
+
+1. Syötä **Etsi**-ruudussa **Esimiehen aikaraportti projektin mukaan** ja valitse sitten vastaava linkki. Microsoft Dynamics NAV näyttää luettelon niihin projekteihin liittyvistä työaikataulukko riveistä, joista sinulla on vastuu.
+2. Valitse **Kotisivu**-välilehdessä **Hyväksy**. Valitse **Kaikki**, jos haluat hyväksyä kaikki rivit. Valitse **Valittu** hyväksyäksesi vain valitut rivit.
+
+    > [!NOTE]
+    > Voit hyväksyä vain ne tuntilomakkeet, joiden tila on **lähetetty**.
+
+3. Anna lisätietoja hyväksymisestä tai hylkäämisestä valitsemalla aikaraporttirivi ja valitsemalla **Navigoi** -välilehdessä **Kommentit**. Anna **Pvm**-kenttään päivämäärä ja kirjoita sitten kommentti **Kommentti**-kenttään.
+4. Valitse **OK**-painike.
+
+> [!NOTE]
+> Kun olet hyväksynyt tai hylännyt aikaraportin rivin projektin mukaan, sitä ei voi avata tai muokata **Tuntiraportti**-ikkunassa.
 
 ## <a name="to-post-time-sheet-lines-in-a-resource-journal"></a>Aikaraporttirivien kirjaaminen resurssipäiväkirjaan
 Kun olet hyväksynyt resurssin aikaraportin tapahtumia, voit julkaista ne asianmukaiseen resurssipäiväkirjaan.

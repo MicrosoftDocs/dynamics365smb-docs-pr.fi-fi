@@ -1,6 +1,6 @@
 ---
 title: Liiketoimintaprosessien vaihekuvaukset | Microsoft Docs
-description: Näissä vaihekuvauksissa käsitellään yksityiskohtaisesti ja kattavasti liiketoimintaprosesseja, joita voi käyttää CRONUS Finland Oy -esittely-yrityksen avulla. Vaihekuvaukset koostuvat useista toimenpiteistä, joista osan voi normaalisti suorittaa yksi käyttäjä, kun taas muihin liittyy useita erilaisia käyttäjärooleja. Jotta työympäristöstä saadaan asianmukainen, vaihekuvaukset voivat sisältää erityisiä määritysvaiheita. Ne täytyy suorittaa ohjeiden mukaisesti ennen harjoitusten tekemistä. Nämä vaiheet voivat antaa käsityksen siitä, millaisia tietoja käyttäjien on kerrottava yrityksensä tietotekniikan ammattilaisille.
+description: Näissä vaihekuvauksissa käsitellään yksityiskohtaisesti ja kattavasti liiketoimintaprosesseja, joita voi käyttää CRONUS Finland Oy -esittely-yrityksen avulla.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d278175606927cc1ee1ee2dda86099f6f080822c
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 114124fa73c0de1ec45efedd913ea7ffe3439a57
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788369"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923318"
 ---
 # <a name="business-process-walkthroughs"></a>Liiketoimintaprosessien vaihekuvaukset
 
@@ -39,7 +39,8 @@ Näissä vaihekuvauksissa käsitellään yksityiskohtaisesti ja kattavasti liike
 |Suunnittele projekti alusta loppuun. **Tarvitaan täydelliset esimerkkitiedot**|[Vaihekuvaus: Projektinhallinta Projektit-sovellusalueen avulla](walkthrough-managing-projects-with-jobs.md)|  
 |Raportoi projektin kustannukset. **Tarvitaan täydelliset esimerkkitiedot**|[Vaihekuvaus: Projektin keskeneräisen työn laskeminen](walkthrough-calculating-work-in-process-for-a-job.md)|  
 |Valitse nimikkeet toimitusta varten perusvarastointimäärityksessä. **Tarvitaan täydelliset esimerkkitiedot**|[Vaihekuvaus: Poiminta ja toimitus fyysisen varastoinnin perusmäärityksissä](walkthrough-picking-and-shipping-in-basic-warehousing.md)|  
-|Suorita vikojen hallinta. **Tarvitaan täydelliset esimerkkitiedot**|[Vaihekuvaus: Sarja-/eränumeroiden jäljitys](walkthrough-tracing-serial-lot-numbers.md)|  
+|Suorita vikojen hallinta. **Tarvitaan täydelliset esimerkkitiedot**|[Vaihekuvaus: Sarja-/eränumeroiden jäljitys](walkthrough-tracing-serial-lot-numbers.md)|
+|Yritystietojen vieminen valvontaa varten Saksassa.|[Vaihekuvaus: Tietojen vienti digitaalista tilintarkastusta varten](LocalFunctionality/Germany/walkthrough-exporting-data-for-a-digital-audit.md)|
 
 ## <a name="see-also"></a>Katso myös
 

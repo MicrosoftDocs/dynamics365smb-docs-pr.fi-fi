@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 09/02/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7d2a891f55ff41e1e236c57ca76eb5d1444b7160
-ms.sourcegitcommit: 43284728c34b72ad1984a516273dc80e4cdc99ab
+ms.openlocfilehash: 73b0044dae3035c7156812b1f4ff4b8722df57c9
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "3765944"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922867"
 ---
 # <a name="keyboard-shortcuts"></a>Pikanäppäimet
 
@@ -144,6 +144,7 @@ Seuraavilla pikanäppäimillä voi näyttää ja muokata tietueita korttisivuill
 |Paina näitä näppäimiä<br />(macOS)|Tehtävä|
 |--------------------------------|----------|
 |Alt+F6|Vaihtele nykyisen pikavälilehden tai osan (alasivu) tiivistystä ja laajennusta.|
+|Alt+G|Avaa kirjattuun asiakirjaan liittyvien tapahtumien haku **Etsi tapahtumat** -sivulta. Toimii myös luetteloissa.|
 |Alt+N |Lue uusi tietue avaamalla sivu; vastaa **Uusi**-toiminnon valitsemista. |
 |Alt+Vaihto+N |Sulje sivu ja luo uusi tietue avaamalla uusi sivu; vastaa **OK ja uusi**-toiminnon valitsemista. |
 |Alt+Vaihto+W |Avaa nykyinen kortti tai asiakirja uudessa ikkunassa. Lisätietoja on kohdassa [Monen tehtävää yhtä aikaa useilla sivuilla](ui-enter-data.md#multitasking-across-multiple-pages).|
@@ -212,3 +213,4 @@ Päivämääräkenttää määrittäessäsi voit syöttää päivämäärän man
 [Käytön aloittaminen](product-get-started.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Usein kysytyt kysymykset](across-faq.md)  
+[Etsi tapahtumat](ui-find-entries.md)  

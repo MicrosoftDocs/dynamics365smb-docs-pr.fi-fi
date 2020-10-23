@@ -4,15 +4,15 @@ description: Vastaa yleisiin kysymyksiin Business Centralin rekisteröimisestä 
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 07/21/2020
+ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 70bf35dccb071c379738c8e8054ed8490c262beb
-ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
+ms.openlocfilehash: 57e16c820da7879d92223050979b6f9c6a770644
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "3611582"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918099"
 ---
 # <a name="frequently-asked-questions"></a>Usein kysytyt kysymykset
 
@@ -72,15 +72,15 @@ Jos yrität rekisteröityä käyttämällä henkilökohtaista sähköpostiosoite
 
 Jos haluat ottaa käyttöön paikallisen [!INCLUDE[d365fin](includes/d365fin_md.md)] -version, voit käyttää muita todennusmenetelmiä: Lisätietoja on kohdassa [Dynamics 365 Business Centralin käyttöönotto](/dynamics365/business-central/dev-itpro/deployment/deployment).  
 
-## <a name="do-i-have-to-buy-office-365"></a>Onko minun ostettava Office 365?
-Nro Jos kuitenkin haluat käyttää Office 365:een täysin integroitua [!INCLUDE[d365fin](includes/d365fin_md.md)]ia, voit rekisteröityä käyttämään Office 365 -kokeiluversiota maksutta kuukauden ajan [täällä](https://products.office.com/try).  
+## <a name="do-i-have-to-buy-microsoft-365"></a>Onko minun ostettava Microsoft 365?
+Ei. Mutta jos haluat käyttää Microsoft 365:een täysin integroitua [!INCLUDE[d365fin](includes/d365fin_md.md)]ia, voit rekisteröityä käyttämään Microsoft 365 -kokeiluversiota maksutta kuukauden ajan [täällä](https://products.office.com/try).  
 
-Jos kirjaudut jollain muulla kuin Office 365 -työtilillä (kuten joe@mysolution.com) ja sinulla on Office 365 -tilaus, voit liittää toimialueen (*mysolution.com*) Office 365 -tilaukseen. Lisätietoja on kohdassa [Office 365 -toimialueita koskevat ohjeet](/office365/admin/get-help-with-domains/get-help-with-domains?view=o365-worldwide).  
+Jos kirjaudut jollain muulla kuin Microsoft 365 -työtilillä (kuten joe@mysolution.com) ja sinulla on Microsoft 365 -tilaus, voit liittää toimialueen (*mysolution.com*) Microsoft 365 -tilaukseen. Lisätietoja on kohdassa [Microsoft 365 -toimialueita koskevat ohjeet](/office365/admin/get-help-with-domains/get-help-with-domains?view=o365-worldwide).  
 
-Jos sinulla ei ole Office 365 -tilausta etkä halua ostaa sitä, valmistelemme sinulle kirjautumisesi yhteydessä uuden Azure Active Directory -vuokraajan, jonka avulla voit käyttää Azure-portaalia ja sen kautta edistyneitä järjestelmätyökaluja.  
+Jos sinulla ei ole Microsoft 365 -tilausta etkä halua ostaa sitä, valmistelemme sinulle kirjautumisesi yhteydessä uuden Azure Active Directory -vuokraajan, jonka avulla voit käyttää Azure-portaalia ja sen kautta edistyneitä järjestelmätyökaluja.  
 
-## <a name="what-is-the-integration-with-office-365-about"></a>Mitä Office 365 -integraatio tarkoittaa?
-[!INCLUDE[d365fin](includes/d365fin_md.md)] -verkkoversio on täysin integroitu Office 365:een, joten voit siirtyä vapaasti Office 365 -sovellusten ja [!INCLUDE[d365fin](includes/d365fin_md.md)]in välillä sovellusten käynnistysohjelman avulla. Voit esimerkiksi avata [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietoja Excelissä, tulostaa raportteja Wordin avulla ja käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietoja Outlookissa. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen yrityssähköpostina Outlookissa](admin-outlook.md).  
+## <a name="what-is-the-integration-with-microsoft-365-about"></a>Mitä integroiminen Microsoft 365:n kanssa tarkoittaa?
+[!INCLUDE[d365fin](includes/d365fin_md.md)] -online on täysin integroitu Microsoft 365:een, joten voit siirtyä vapaasti Microsoft 365 -sovellusten ja [!INCLUDE[d365fin](includes/d365fin_md.md)]in välillä sovellusten käynnistysohjelman avulla. Voit esimerkiksi avata [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietoja Excelissä, tulostaa raportteja Wordin avulla ja käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietoja Outlookissa. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen yrityssähköpostina Outlookissa](admin-outlook.md).  
 
 ## <a name="can-i-extend-my-30-day-new-company-trial-period"></a>Voiko 30 päivän uuden yrityksen kokeilujaksoa jatkaa?
 Kyllä. Kun kokeilujakson päättyminen on lähellä, kirjautumisen yhteydessä näkyy ilmoitus asiasta. Ilmoituksessa on linkki **kokeilujakson jatkamisen** oppaaseen, jonka avulla voit jatkaa kokeilujaksoa. 30 päivän lisäjakso alkaa heti, kun valitset oppaassa **Jatka kokeilujaksoa**. Voit jatkaa kokeilujaksoa kerran itse. Tämän jälkeen Microsoft-kumppani voi jatkaa sitä vielä 30 päivää. Lisätietoja on kohdassa [Kokeilujakson jatkaminen](admin-extend-trial.md).
@@ -97,7 +97,7 @@ Selitys on hieman monimutkainen, mutta ilmeisesti järjestelmänvalvoja ei vaiht
 Kyllä voit. Huomaa kuitenkin, että tietosi poistetaan tai säilytetään sen perusteella, miten rekisteröidyit [!INCLUDE[d365fin](includes/d365fin_md.md)]iin. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)] -tilauksen peruuttaminen](admin-cancel.md).  
 
 ## <a name="can-i-use-multi-factor-authentication"></a>Voinko käyttää monimenetelmäistä todentamista?
-Kyllä. Jos käytät sitä, tarvitset sovelluksen salasanan, jotta voit lähettää sähköpostiviestejä. Sovelluksen salasanoilla sovellus tai laite voi käyttää sähköpostitiliä. Sovelluksen salasanan hakeminen vaihtelee sähköpostipalvelun mukaan. Pyydä lisätietoja palveluntarjoajalta. Jos esimerkiksi käytä Outlookia, katso [Office 365:n sovelluksen salasanan luominen](https://go.microsoft.com/fwlink/?linkid=2082543).  
+Kyllä. Jos käytät sitä, tarvitset sovelluksen salasanan, jotta voit lähettää sähköpostiviestejä. Sovelluksen salasanoilla sovellus tai laite voi käyttää sähköpostitiliä. Sovelluksen salasanan hakeminen vaihtelee sähköpostipalvelun mukaan. Pyydä lisätietoja palveluntarjoajalta. Jos esimerkiksi käytä Outlookia, katso [Microsoft 365:n sovelluksen salasanan luominen](https://go.microsoft.com/fwlink/?linkid=2082543).  
 
 ## <a name="how-do-i-find-a-reselling-partner"></a><a name="findpartner"></a>Miten löydän jälleenmyyjäkumppanin?
 

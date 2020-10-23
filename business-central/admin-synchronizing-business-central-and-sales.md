@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 2c7b7c4175f4c17e01c114f76d0b14834e0409ae
-ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
+ms.openlocfilehash: 9d3f4e86a0da5c26a84ca79b1712f2f240e347a2
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3617702"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922440"
 ---
 # <a name="synchronizing-data-in-business-central-with-common-data-service"></a>Tietojen synkronointi Business Centralissa Common Data Servicen avulla
 
@@ -42,6 +42,9 @@ Synkronointia määritettäessä voit yhdistää [!INCLUDE[d365fin](includes/d36
 Kohteet, kuten tilit [!INCLUDE[d365fin](includes/cds_long_md.md)]ssä yhdistetään samantyyppisiin tietoihin [!INCLUDE[d365fin](includes/d365fin_md.md)]ssa, kuten asiakkaisiin. [!INCLUDE[d365fin](includes/cds_long_md.md)]in tietoja käytetään määrittämällä linkkejä [!INCLUDE[d365fin](includes/d365fin_md.md)]in ja [!INCLUDE[d365fin](includes/cds_long_md.md)]in välille. Tätä sanotaan yhdistämiseksi.
 
 Seuraavassa taulukossa on luettelo tavallisista [!INCLUDE[d365fin](includes/d365fin_md.md)]in yhdistämismäärityksistä [!INCLUDE[d365fin](includes/d365fin_md.md)]in ja [!INCLUDE[d365fin](includes/cds_long_md.md)] välillä.
+
+> [!TIP]
+> Voit palauttaa integrointitaulukon ja kenttien yhdistämismääritysten muutokset oletusasetuksiin valitsemalla yhdistämismääritykset ja valitsemalla sitten **Käytä oletussynkronointiasetuksia**.
 
 | [!INCLUDE[d365fin](includes/d365fin_md.md)] | [!INCLUDE[d365fin](includes/cds_long_md.md)] | Synkronoinnin suunta | Oletussuodatin |
 |---------------------------------------------|----------------------------------------------|---------------------------|----------------|

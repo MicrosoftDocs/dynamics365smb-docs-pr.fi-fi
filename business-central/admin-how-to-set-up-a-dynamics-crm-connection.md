@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/24/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 10a257b60aedfb22066148fd48145779cd6d4a62
-ms.sourcegitcommit: ac492bff0c87bf2a23fa93113e7571da9d5094c7
+ms.openlocfilehash: 51f04f690483fd5b0c3f093ac5f8e2694ca3fdd9
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "3701990"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924626"
 ---
 # <a name="connect-to-common-data-service"></a>Yhteyden muodostaminen Common Data Serviceen
 
@@ -34,7 +34,7 @@ Ennen yhteyden luomista tarvitaan seuraavat tiedot:
 
 ## <a name="set-up-a-connection-to-cds_long_md"></a>Yhteyden määrittäminen [!INCLUDE[cds_long_md](includes/cds_long_md.md)]iin
 
-Jos todennustyyppi on jokin muu kuin Office 365 -todennus, voit määrittää [!INCLUDE[cds_long_md](includes/cds_long_md.md)] -yhteyden **CDS-yhteyden määritys** -sivulla. Office 365 -todennuksessa on suositeltavaa käyttää **Common Data Service -yhteyden määrityksen** asetusten ohjattua määritysopasta. Opas auttaa määrittämään nopeasti yhteyden ja lisäominaisuudet, kuten omistajamallin ja ensimmäisen synkronoinnin.  
+Jos todennustyyppi on jokin muu kuin Microsoft 365 -todennus, voit määrittää [!INCLUDE[cds_long_md](includes/cds_long_md.md)] -yhteyden **CDS-yhteyden määritys** -sivulla. Microsoft 365 -todennuksessa on suositeltavaa käyttää **Common Data Service -yhteyden määrityksen** asetusten ohjattua määritysopasta. Opas auttaa määrittämään nopeasti yhteyden ja lisäominaisuudet, kuten omistajamallin ja ensimmäisen synkronoinnin.  
 
 > [!IMPORTANT]
 > [!INCLUDE[cds_long_md](includes/cds_long_md.md)] -yhteyttä määritettäessä järjestelmänvalvojaa pyydetään antamaan seuraavat käyttöoikeudet rekisteröidylle Azuren [!INCLUDE[d365fin](includes/d365fin_md.md)] Integration to [!INCLUDE[cds_long_md](includes/cds_long_md.md)] -sovellukselle:
@@ -70,7 +70,7 @@ Seuraavassa kerrotaan, miten yhteys määritetään manuaalisesti **CDS-yhteyden
 
     |Kenttä|Kuvaus|
     |-----|-----|
-    |**[!INCLUDE[d365fin](includes/d365fin_md.md)] -käyttäjät on yhdistettävä CDS-käyttäjiin**|Jos käytät henkilön omistajuus-mallia, määritä, onko [!INCLUDE[d365fin](includes/d365fin_md.md)] -käyttäjätilillä oltava vastaavat käyttäjätilit kohteessa [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. [!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäjän **Office 365:n todennuksen sähköpostiosoitteen** on oltava sama kuin [!INCLUDE[crm_md](includes/crm_md.md)]in käyttäjän **ensisijainen sähköposti**.<br /><br /> Jos valitse arvoksi **Kyllä**, [!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäjillä, joilla ei ole vastaavaa [!INCLUDE[crm_md](includes/crm_md.md)]in käyttäjätiliä, ei ole käyttöliittymässä [!INCLUDE[d365fin](includes/d365fin_md.md)] -integrointiominaisuuksia. [!INCLUDE[crm_md](includes/crm_md.md)]in tietoja käytetään suoraan [!INCLUDE[d365fin](includes/d365fin_md.md)]ista [!INCLUDE[crm_md](includes/crm_md.md)] -käyttäjätilin puolesta.<br /><br /> Jos valitset arvoksi **Ei**, kaikilla [!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäjillä on käyttöliittymässä [!INCLUDE[crm_md](includes/crm_md.md)] -integrointiominaisuudet. [!INCLUDE[crm_md](includes/crm_md.md)]in tietoja käytetään [!INCLUDE[crm_md](includes/crm_md.md)] -yhteyden (integroinnin) käyttäjän puolesta.|
+    |**[!INCLUDE[d365fin](includes/d365fin_md.md)] -käyttäjät on yhdistettävä CDS-käyttäjiin**|Jos käytät henkilön omistajuus-mallia, määritä, onko [!INCLUDE[d365fin](includes/d365fin_md.md)] -käyttäjätilillä oltava vastaavat käyttäjätilit kohteessa [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. [!INCLUDE[d365fin](includes/d365fin_md.md)] -käyttäjän **Microsoft 365:n todennuksen sähköpostiosoitteen** on oltava sama kuin [!INCLUDE[crm_md](includes/crm_md.md)] -käyttäjän **ensisijainen sähköposti**.<br /><br /> Jos valitse arvoksi **Kyllä**, [!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäjillä, joilla ei ole vastaavaa [!INCLUDE[crm_md](includes/crm_md.md)]in käyttäjätiliä, ei ole käyttöliittymässä [!INCLUDE[d365fin](includes/d365fin_md.md)] -integrointiominaisuuksia. [!INCLUDE[crm_md](includes/crm_md.md)]in tietoja käytetään suoraan [!INCLUDE[d365fin](includes/d365fin_md.md)]ista [!INCLUDE[crm_md](includes/crm_md.md)] -käyttäjätilin puolesta.<br /><br /> Jos valitset arvoksi **Ei**, kaikilla [!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäjillä on käyttöliittymässä [!INCLUDE[crm_md](includes/crm_md.md)] -integrointiominaisuudet. [!INCLUDE[crm_md](includes/crm_md.md)]in tietoja käytetään [!INCLUDE[crm_md](includes/crm_md.md)] -yhteyden (integroinnin) käyttäjän puolesta.|
     |**Nykyinen Business Central -myyjä yhdistetään käyttäjään**|Ilmaisee, yhdistetäänkö käyttäjätili [!INCLUDE[crm_md](includes/crm_md.md)]in tiliin. <!--double check the name of this field-->|
 
 4. Jos haluat testata yhteysasetukset, valitse **Yhteys** ja valitse sitten **Testaa yhteys**.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 78993c655ff4912e212588269f897a39e8441924
-ms.sourcegitcommit: f9aec4a72172d9270e14e2938c5550d69508f1aa
+ms.openlocfilehash: 0af6881b98aae103a6d37ce16b06dfb316c4a9f0
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3532617"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911528"
 ---
 # <a name="need-more-time-to-decide-whether-to-subscribe"></a>Tarvitsetko lisää aikaa, ennen kuin päätät tilauksen tekemisestä?
 
@@ -29,7 +29,7 @@ Kokeilujaksoa voi kuitenkin jatkaa itse vain kerran. Et siis voi jatkaa sitä it
 
     Kirjaudu sisään sähköpostitilillä, jota käytit kokeiluversioon rekisteröitymisessä.  
 
-    Jos olet rekisteröitynyt sähköpostitilillä [Office 365:n 30 päivän kokeiluversiosta](/microsoft-365/commerce/sign-up-for-office-365-trial), laajenna ensin Office 365 -kokeiluversiota tai osta Office 365 -tilaus. Lisätietoja on kohdassa [Office 365 for Business -kokeiluversion laajentaminen](/microsoft-365/commerce/extend-your-trial).
+    Jos olet rekisteröitynyt sähköpostitilillä [Microsoft 365:n 30 päivän kokeiluversiosta](/microsoft-365/commerce/sign-up-for-office-365-trial), laajenna ensin Microsoft 365 -kokeiluversiota tai osta Microsoft 365 -tilaus. Lisätietoja on kohdassa [Microsoft 365 for Business -kokeiluversion laajentaminen](/microsoft-365/commerce/extend-your-trial).
 2. Valitse työtilan yläosassa olevassa ilmoituksessa **Jatka kokeilujaksoa**.
 
     Jos hylkäsit ilmoituksen, sinun on kirjauduttava ulos ja sitten uudelleen sisään.

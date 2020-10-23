@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: category, search, attribute, facet
-ms.date: 06/22/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9d474f4e4b8381795405e11b1c3513cbf8a7ed90
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: a5698746fe52ff7ff6ca38e1207f09ded0742c96
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3777589"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914099"
 ---
 # <a name="categorize-items"></a>Nimikkeiden luokitteleminen
 
@@ -37,6 +37,8 @@ Voit etsiä nimikkeitä ominaisuuksien mukaan, kun määrität nimikkeille ja ni
 
 > [!NOTE]  
 > Nimikeluokkaan määritettyjä nimikkeen määritteitä käytetään automaattisesti nimikkeessä, johon nimikeluokka on määritetty.
+
+Jos muutat mieltäsi nimikeluokasta, voit poistaa sen. Jos se kuitenkin on jo määritetty jollekin nimikkeelle, kyseinen tehtävä on poistettava, ennen kuin nimikeluokka voidaan poistaa.
 
 ## <a name="to-assign-an-item-category-to-an-item"></a>Nimikeluokan määrittäminen nimikkeeseen
 

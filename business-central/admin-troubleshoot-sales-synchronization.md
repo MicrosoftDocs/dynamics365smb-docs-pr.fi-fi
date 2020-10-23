@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 82b5f3ec52be27c4fbe60a6a63a0cfc5f6f1bd7c
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: db8b05aa74583d8ba74fcfeb8fae1d3c28893fac
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196541"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922390"
 ---
 # <a name="troubleshooting-synchronization-errors"></a>Synkronointivirheiden vianmääritys
 Sovellusten [!INCLUDE[d365fin](includes/d365fin_md.md)] ja Common Data Service integrointi sisältää useita vaiheita, ja joskus tapahtuu virheitä. Tässä ohjeaiheessa kerrotaan yleisimpiä virheitä ja annetaan vinkkejä niiden korjaamiseen.
@@ -50,6 +50,9 @@ Ristiriidan virhesanoma "Asiakastietuetta ei voida päivittää, koska sen muokk
 Ristiriita johtuu siitä, että myös kohdetietuetta on muutettu - tietueen aikaleima on uudempi kuin myynnin integroinnin tietueen aikaleima. Kohde tarkistetaan vain kaksisuuntaisissa taulukoissa. 
 
 Nämä tietueet siirretään nyt "Ohitettu synkronointi" -sivulle, jonka voit avata Business Centralin Microsoft Dynamics yhteyden asetukset -sivulta. Siellä voit määrittää säilytettävät muutokset ja synkronoida sitten tietueet uudelleen.
+
+## <a name="remove-couplings-between-records"></a>Liitosten poistaminen tietueiden väliltä
+Kun integraatiossa on jotain vikaa ja haluat poistaa tietueiden synkronoinnin pysäyttämisen, voit tehdä sen yhden tai usean tietueen kanssa kerralla. Voit valita **Integrointitaulukon yhdistäminen** -sivulla **Yhdistäminen poistaminen** ja sitten **Poista yhdistäminen**. **Yhdistettyjen tietojen synkronointivirheet** -sivulla voit vaihtoehtoisesti valita virheet ja valita sitten **Poista yhdistäminen**. 
 
 ## <a name="see-also"></a>Katso myös
 [Integrointi Common Data Servicein kanssa](admin-prepare-dynamics-365-for-sales-for-integration.md)  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 60b62845a359cec21b52f42c6692edc417a65123
-ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
+ms.openlocfilehash: cffe1bf3cc73660a75e6cca5d2d0e1e640c32423
+ms.sourcegitcommit: aea079b66e35c447bf31a11ffc2069cfdaf2ef38
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3410745"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3970462"
 ---
 # <a name="finance"></a>Rahoitus
 [!INCLUDE[d365fin](includes/d365fin_md.md)] sisältää useimpien taloushallinnon prosessien vakiomäärityksen. Voit muuttaa määritystä omaa liiketoimintaasi vastaavaksi. Lisätietoja on kohdassa [Rahoituksen määrittäminen](finance-setup-finance.md).
@@ -54,7 +54,12 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 | Seuraa yrityksen kassavirtaliikennettä. |[Yrityksen kassavirtojen analysoiminen](finance-analyze-cash-flow.md) |
 |Seuranta ja päästä päähän -menettely kassavirtaennusteiden tekemisessä KP-raporttimallien avulla,|[Vaihekuvaus: tehdään kassavirtaennusteita käyttäen KP-raporttimalleja](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)|
 | Käsittele tilinpäätöksiä ja yhteenvetoja Excelissä. |[Rahoituslaskelmien analysointi Excelissä](finance-analyze-excel.md) |
-|Lisätietoja kirjanpitäjän roolikeskuksesta, ulkoisen kirjanpitäjän kutsumisesta ja useiden asiakkaiden tilien hallinnasta Accountant Hubin avulla.|[Kirjanpitäjän käyttökokemukset Business Central -sovelluksessa](finance-accounting.md)|  
+|Lisätietoja kirjanpitäjän roolikeskuksesta, ulkoisen kirjanpitäjän kutsumisesta ja useiden asiakkaiden tilien hallinnasta yritystoiminnon avulla.|[Kirjanpitäjän käyttökokemukset Business Centralissa](finance-accounting.md)|  
+
+## <a name="take-a-video-tour"></a>Katso videoesittely
+Seuraava video esittelee joitakin keskeisiä taloudenhallinnan valmiuksia. <br><br>  
+
+> [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
 
 ## <a name="see-also"></a>Katso myös
 [Rahoituksen määrittäminen](finance-setup-finance.md)  

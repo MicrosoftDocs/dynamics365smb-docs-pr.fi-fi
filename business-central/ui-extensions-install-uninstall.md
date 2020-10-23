@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
-ms.date: 09/04/2020
+ms.date: 10/01/2020
 ms.author: solsen
-ms.openlocfilehash: da6e53a314438ef7ce5063febf8ece1d18c69f7b
-ms.sourcegitcommit: 43284728c34b72ad1984a516273dc80e4cdc99ab
+ms.openlocfilehash: a0e62b60f9624cad44efa7fd42c5840a2ecd07b5
+ms.sourcegitcommit: aea079b66e35c447bf31a11ffc2069cfdaf2ef38
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "3766089"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3970358"
 ---
 # <a name="installing-and-uninstalling-extensions-in-business-central"></a>Laajennusten asentaminen ja asennusten poistaminen Business Centralissa
 
@@ -48,29 +48,29 @@ Jotkin ovat Microsoftin laajennuksia, jotkin [muiden yritysten](ui-extensions-ot
 
 Microsoft tarjoaa seuraavat laajennukset:
 
-* [Business Centralin kirjanpitäjän portaali](ui-extensions-accountant-portal.md)  
-* [Ceridian Payroll](ui-extensions-ceridian-payroll.md) 
-* [Dynamics GP -tietojen siirto](ui-extensions-dynamicsgp-data-migration.md)  
-* [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md) 
-* [Olennaiset liiketoimintanäkemykset](ui-extensions-essential-business-insights.md)   
-* [Kuvan analysointitoiminto](ui-extensions-image-analyzer.md) 
-* [Älykäs pilvi](ui-extensions-data-replication.md)    
+* [AMC Banking 365 Fundamentals -laajennus](ui-extensions-amc-banking.md)
+* [Ceridian Payroll](ui-extensions-ceridian-payroll.md)
+* [Yritystoiminto](ui-extensions-company-hub.md)  
+* [Dynamics GP -tietojen siirto](ui-extensions-dynamicsgp-data-migration.md)
+* [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)
+* [Olennaiset liiketoimintanäkemykset](ui-extensions-essential-business-insights.md)
+* [Kuvan analysointitoiminto](ui-extensions-image-analyzer.md)
+* [Älykäs pilvi](ui-extensions-data-replication.md)
 * [Älykäs Pilvipohja](ui-extensions-intelligent-cloud.md)  
-* [Myöhästyneen maksun ennusteet](ui-extensions-late-payment-prediction.md)  
-* [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)  
-* [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md) 
-* [QuickBooks-tietojen siirto](ui-extensions-quickbooks-data-migration.md)   
-* [QuickBooks Online -tietojen siirto](ui-extensions-quickbooks-online-data-migration.md) 
-* [Quickbooks Payroll -tiedostojen tuonti](ui-extensions-quickbooks-payroll.md) 
-* [Myynti- ja varastoennuste](ui-extensions-sales-forecast.md)   
-* [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md) 
-* [AMC Banking 365 Fundamentals -laajennus](ui-extensions-amc-banking.md)    
-* [DK – C5-tietojen siirto](ui-extensions-c5-data-migration.md)  
-* [DK - Maksut ja täsmäytykset](ui-extensions-payments-reconciliation-formats-dk.md)  
-* [DK – Verotiedostomuodot](ui-extensions-tax-file-formats-dk.md) 
-* [UK – Ison-Britannian postinumeroiden GetAddress.io](ui-extensions-getaddressio.md)  
-* [US/CA/UK/AU/NZ/ZA - Maksusuositusehdotuksen lähettäminen](ui-extensions-send-remittance-advice.md) 
-* [Muiden toimittajien Business Central -laajennukset](ui-extensions-other.md)
+* [Myöhästyneen maksun ennusteet](ui-extensions-late-payment-prediction.md)
+* [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)
+* [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)
+* [QuickBooks-tietojen siirto](ui-extensions-quickbooks-data-migration.md)
+* [QuickBooks Online -tietojen siirto](ui-extensions-quickbooks-online-data-migration.md)
+* [Quickbooks Payroll -tiedostojen tuonti](ui-extensions-quickbooks-payroll.md)
+* [Myynti- ja varastoennuste](ui-extensions-sales-forecast.md)
+* [Arvonlisäveroryhmä](ui-extensions-vat-group.md)
+* [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
+* [DK – C5-tietojen siirto](ui-extensions-c5-data-migration.md)
+* [DK - Maksut ja täsmäytykset](ui-extensions-payments-reconciliation-formats-dk.md)
+* [DK – Verotiedostomuodot](ui-extensions-tax-file-formats-dk.md)
+* [UK – Ison-Britannian postinumeroiden GetAddress.io](ui-extensions-getaddressio.md)
+* [US/CA/UK/AU/NZ/ZA - Maksusuositusehdotuksen lähettäminen](ui-extensions-send-remittance-advice.md)
 
 ## <a name="uninstalling-an-extension"></a>Laajennuksen asennuksen poistaminen
 
@@ -80,8 +80,8 @@ Laajennuksen asennus poistetaan **Laajennuksen hallinta** -sivulla. Jos poistat 
 > Jos valitset **Poista laajennuksen tiedot** -valintaruudun, avautuvassa vahvistusikkunassa on valittava **OK**. Kun **Poista laajennuksen tiedot** -valintaruutu on valittu, voit nyt poistaa laajennuksen asennuksen, jonka yhteydessä sinua pyydetään vahvistamaan uudelleen, että haluat poistaa laajennuksen asennuksen ja poistaa tiedot. Toimintoa ei voi kumota.
 Osa laajennuksista on pakollisia. Niiden asennuksen poistaminen **Laajennusten hallinta** -sivulla on estetty. Jos yrität tehdä niin, näyttöön avautuu virhesanoma.  
 
-
 ## <a name="see-also"></a>Katso myös
+
 [Dynamics 365 Business Centralin laajentaminen](about-develop-extensions.md)  
 [Muiden toimittajien Business Central -laajennukset](ui-extensions-other.md)  
 [Envestnet Yodlee Bank Feeds -palvelun määrittäminen](bank-how-setup-bank-statement-service.md)  

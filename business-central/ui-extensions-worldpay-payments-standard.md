@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 6506398391871621e994c74ba5499ebc6715f7b0
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 2cca707134ec4072aa1e87206c8f78619164d450
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189601"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912172"
 ---
 # <a name="the-worldpay-payments-standard-extension"></a>WorldPay Payments Standard -laajennus
 WorldPay Payments Standard -laajennuksen ansiosta voit tarjota asiakkaille kätevän tavan tehdä maksuja pankkisiirtojen tai luottokorttien avulla. Lisäksi maksupalvelujen kautta tehdyt maksu myös saapuvat yleensä nopeammin pankkitilille.

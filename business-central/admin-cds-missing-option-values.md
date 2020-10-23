@@ -7,13 +7,13 @@ ms.custom: na
 ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.date: 02/03/2020
-ms.openlocfilehash: 5f914904aaa1ec568b396a830ebc18a0fe4e40c1
-ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
+ms.date: 10/01/2020
+ms.openlocfilehash: 9148217400da88506e41b460157fe00be596a7c5
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "3693022"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911661"
 ---
 # <a name="handling-missing-option-values"></a>Puuttuvien asetusarvojen käsitteleminen
 [!INCLUDE[d365fin](includes/cds_long_md.md)] sisältää vain kolme asetusjoukkokenttää, jotka sisältävät Asetus-tyyppiset [!INCLUDE[d365fin](includes/d365fin_md.md)] -kenttiin yhdistettävissä olevat asetusarvot<!-- Option type, not enum? @Onat can you vertify this? --> automaattista synkronointia varten. Synkronoinnin aikana muut kuin yhdistetyt asetukset ohitetaan ja puuttuvat asetukset liitetään liittyvään [!INCLUDE[d365fin](includes/d365fin_md.md)] -tauluun ja lisätään **CDS-asetuksen yhdistäminen** -järjestelmätauluun myöhemmin tapahtuvaa manuaalista käsittelemistä varten. Voit esimerkiksi lisätä puuttuvat asetukset tuotteeseen ja päivittää sitten yhdistämismäärityksen. Tässä osassa kuvataan, miten tämä tehdään.

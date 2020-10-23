@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
-ms.date: 04/20/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 0b814c18c328ea0647e38b6a837577b277ca4e63
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 382328e88c828afbf4316eb1f9bab73f6a2b7f95
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3527933"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911378"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>Synkronoitavien taulujen ja kenttien yhdistäminen
 Tietojen synkronointi [!INCLUDE[d365fin](includes/d365fin_md.md)]ssa  [!INCLUDE[d365fin](includes/cds_long_md.md)]ssa olevien tietojen kanssa perustuu taulujen ja tietoja sisältävien kenttien yhdistämiseen toisiinsa. Yhdistäminen tapahtuu integrointitaulujen avulla. 
@@ -30,6 +30,17 @@ Kun luot yhteyden sovellusten välille, [!INCLUDE[d365fin](includes/d365fin_md.m
 
 ### <a name="synchronization-rules"></a>Synkronointisäännöt
 Integrointitaulun yhdistämismääritys sisältää myös sääntöjä, jotka ohjaavat sitä, miten integroinnin synkronointityöt synkronoivat taulun [!INCLUDE[d365fin](includes/d365fin_md.md)] tietueet ja entiteetin [!INCLUDE[d365fin](includes/cds_long_md.md)]-kohteessa. <!--For examples of rules for an integration with Sales, see [Synchronization Rules](admin-synchronizing-business-central-and-sales.md#synchronization-rules). need to verify link -->
+
+### <a name="strategies-for-auto-resolving-conflicts"></a>Strategiat konfliktien automaattista ratkaisemista varten
+Tietoristiriitoja voi ilmetä helposti, kun yrityssovellukset vaihtavat tietoja jatkuvasti. Joku voi esimerkiksi poistaa tai muuttaa jonkin sovelluksen tai molempien tietueiden tietueita. Jos haluat vähentää manuaalisesti ratkaistavien ristiriitojen määrää, voit määrittää ratkaisustrategioita ja [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelma voi ratkaista ristiriidat automaattisesti strategioiden sääntöjen mukaan.
+
+Integrointitaulukon yhdistämisiin kuuluvat säännöt, jotka ohjaavat synkronoinnin töiden synkronointitietueita. Voit määrittää **integrointitaulukon linkitys** -sivun **Ratkaise poistoristiriidat**- ja **Ratkaise päivitysristiriidat** -sarakkeiden avulla, miten [!INCLUDE[d365fin](includes/d365fin_md.md)] ratkaisee ristiriidat, jotka tapahtuvat, koska tietueita poistettiin yhden tai toisen yrityssovelluksen taulukoissa tai päivitetään molemmissa. 
+
+**Ratkaise poistoristiriidat** -sarakkeessa voit valita haluatko, että [!INCLUDE[d365fin](includes/d365fin_md.md)] palauttaa poistetut tietueet automaattisesti, poistaa tietueiden välisen kytkennän tai ei tee mitään. Jos et tee mitään, sinun täytyy ratkaista ristiriidat manuaalisesti. 
+
+**Ratkaise päivitysristiriidat** -sarakkeessa voit valita, jos haluat, että [!INCLUDE[d365fin](includes/d365fin_md.md)] lähettää automaattisesti tietojen päivityksen integrointitaulukkoon, kun lähetät tietoja [!INCLUDE[d365fin](includes/cds_long_md.md)] -ohjelmaan, tai saada tietojen päivityksen integrointitaulukosta, kun tietoja haetaan [!INCLUDE[d365fin](includes/cds_long_md.md)] -ohjelmasta, tai ei tee mitään. Jos et tee mitään, sinun täytyy ratkaista ristiriidat manuaalisesti.
+
+Kun olet määrittänyt strategian, voit ratkaista ristiriidat automaattisesti yrityksen **Tietojen synkronointivirheet** -sivulta **Yritä uudelleen** -toiminnon avulla. 
 
 ## <a name="mapping-integration-fields"></a>Integraatiokenttien yhdistäminen
 Yhdistämistaulut ovat vasta ensimmäinen vaihe. Sinun täytyy myös yhdistää taulujen kentät. Integrointikenttien yhdistämismääritykset linkittävät [!INCLUDE[d365fin](includes/d365fin_md.md)]taulujen kentät vastaaviin kenttiin [!INCLUDE[d365fin](includes/cds_long_md.md)]ssä ja määrittävät, synkronoidaanko kunkin taulun tiedot. Vakiomuotoinen taulunyhdistämismääritys, jonka [!INCLUDE[d365fin](includes/d365fin_md.md)] tarjoaa, sisältää kenttien yhdistämismääritykset, mutta voit halutessasi muuttaa niitä. Lisätietoja on kohdassa [Entiteettien yhdistämismääritysten tarkasteleminen](admin-synchronizing-business-central-and-sales.md#tip-for-admins-viewing-entity-mappings).

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user settings, preferences, language, region, time zone, regional settings
-ms.date: 06/17/2020
+ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: 633a0872a878843f26d627dcd76e69d1c851ef8a
-ms.sourcegitcommit: 3945f16d6d9c9853651e6291ce1465a44fd71fc8
+ms.openlocfilehash: a08845f3465e24036abcb82ea6d2917deda24663
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "3460418"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911303"
 ---
 # <a name="manage-user-settings-and-preferences"></a>Käyttäjäasetusten ja asetusten hallinta
 
@@ -35,23 +35,23 @@ Järjestelmänvalvojana voit hallita käyttäjäasetuksia [!INCLUDE[d365fin](inc
 
 - **Kielialueen tunnus (aluekohtaiset asetukset)**  
 
-  Määrittää, miten päivämäärät ja numerot esitetään [!INCLUDE[d365fin](includes/d365fin_md.md)] -asiakasohjelmassa (esimerkiksi, käytetäänkö eurooppalaisia vai amerikkalaisia päivämäärämuotoja) tai miten desimaali ja tuhaterottimet näytetään summissa. Jos [!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäjiä synkronoidaan Office 365:stä, käytössä on Office 365:n aluekohtaiset asetukset olettaen, että käyttäjä haluaa käyttää samoja asetuksia Office-tuotteissa ja [!INCLUDE[d365fin](includes/d365fin_md.md)]issa. Järjestelmänvalvoja tai käyttäjä voi muuttaa näitä asetuksia manuaalisesti [!INCLUDE[d365fin](includes/d365fin_md.md)]issa, mutta ne palautetaan Office 365:n arvoon seuraavan synkronoinnin yhteydessä.
+  Määrittää, miten päivämäärät ja numerot esitetään [!INCLUDE[d365fin](includes/d365fin_md.md)] -asiakasohjelmassa (esimerkiksi, käytetäänkö eurooppalaisia vai amerikkalaisia päivämäärämuotoja) tai miten desimaali ja tuhaterottimet näytetään summissa. Jos [!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäjiä synkronoidaan Microsoft 365:stä, käytössä on Microsoft 365:n aluekohtaiset asetukset olettaen, että käyttäjä haluaa käyttää samoja asetuksia Office-tuotteissa ja [!INCLUDE[d365fin](includes/d365fin_md.md)]issa. Järjestelmänvalvoja tai käyttäjä voi muuttaa näitä asetuksia manuaalisesti [!INCLUDE[d365fin](includes/d365fin_md.md)]issa, mutta ne palautetaan Microsoft 365:n arvoon seuraavan synkronoinnin yhteydessä.
 
 - **Kieli**  
 
-  Määrittää kielen, jolla [!INCLUDE[d365fin](includes/d365fin_md.md)] näyttää tekstin, kuvatekstit ja virhesanomat sovelluksessa. Jos [!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäjiä synkronoidaan Office 365:stä, käytössä on Office 365:n kieliasetukset olettaen, että käyttäjä haluaa käyttää samoja asetuksia Office-tuotteissa ja [!INCLUDE[d365fin](includes/d365fin_md.md)]issa. Järjestelmänvalvoja tai käyttäjä voi muuttaa näitä asetuksia manuaalisesti [!INCLUDE[d365fin](includes/d365fin_md.md)]issa, mutta ne palautetaan Office 365:n arvoon seuraavan synkronoinnin yhteydessä.
+  Määrittää kielen, jolla [!INCLUDE[d365fin](includes/d365fin_md.md)] näyttää tekstin, kuvatekstit ja virhesanomat sovelluksessa. Jos [!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäjiä synkronoidaan Microsoft 365:stä, käytössä on Microsoft 365:n kieliasetukset olettaen, että käyttäjä haluaa käyttää samoja asetuksia Office-tuotteissa ja [!INCLUDE[d365fin](includes/d365fin_md.md)]issa. Järjestelmänvalvoja tai käyttäjä voi muuttaa näitä asetuksia manuaalisesti [!INCLUDE[d365fin](includes/d365fin_md.md)]issa, mutta ne palautetaan Microsoft 365:n arvoon seuraavan synkronoinnin yhteydessä.
 
-  Jos Office 365:n kieliasetus vastaa [!INCLUDE[d365fin](includes/d365fin_md.md)]in tukemaa kieltä, kyseinen kieli valitaan käyttäjälle.  
+  Jos Microsoft 365:n kieliasetus vastaa [!INCLUDE[d365fin](includes/d365fin_md.md)]in tukemaa kieltä, kyseinen kieli valitaan käyttäjälle.  
 
   > [!NOTE]
   > Kielen näyttäminen oikein voi edellyttää, [!INCLUDE[d365fin](includes/d365fin_md.md)]in kielisovelluksen asentamista. Tämän vuoksi tarvittavat kielisovelluksen kannattaakin asentaa, ennen kuin kukaan on kirjautunut sisään ensimmäisen kerran, jotta käyttökokemus on hyvä alusta alkaen. Lisätietoja on [tuettujen kielien](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations) luettelossa.  
   
 - **Aikavyöhyke**  
 
-  Määrittää käyttäjän aikavyöhykkeen. Tätä ei tällä hetkellä synkronoida Office 365:stä, joten se on määritettävä manuaalisesti.  
+  Määrittää käyttäjän aikavyöhykkeen. Tätä ei tällä hetkellä synkronoida Microsoft 365:stä, joten se on määritettävä manuaalisesti.  
 
 > [!NOTE]
-> Jos Office 365 -käyttäjän synkronointi tapahtuu silloin, kun käyttäjät ovat kirjautuneet [!INCLUDE[d365fin](includes/d365fin_md.md)]iin, kyseisten käyttäjien on ladattava selain uudelleen tai kirjauduttava ensin ulos ja sitten takaisin [!INCLUDE[d365fin](includes/d365fin_md.md)]iin, jotta synkronointitoiminnon mahdollisesti määrittämä toinen kielijoukko on näkyvissä.
+> Jos Microsoft 365 -käyttäjän synkronointi tapahtuu silloin, kun käyttäjät ovat kirjautuneet [!INCLUDE[d365fin](includes/d365fin_md.md)]iin, kyseisten käyttäjien on ladattava selain uudelleen tai kirjauduttava ensin ulos ja sitten takaisin [!INCLUDE[d365fin](includes/d365fin_md.md)]iin, jotta synkronointitoiminnon mahdollisesti määrittämä toinen kielijoukko on näkyvissä.
 
 ## <a name="overview-of-all-user-settings"></a>Kaikkien käyttäjäasetusten yleiskuvaus
 

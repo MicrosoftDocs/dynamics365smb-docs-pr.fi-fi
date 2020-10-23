@@ -5,38 +5,37 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.search.keywords: news, release plan, roadmap, whats new
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 496c6bad5e309064ae2d6e7d15591578b1d46c6a
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 42b4591fda63bb21f9f7805f826e6c5c8337d210
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528761"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925053"
 ---
-# <a name="whats-new-in-dynamics-365-business-central"></a>Dynamics 365 Business Centralin uudet ominaisuudet
+# <a name="new-and-planned-for-dynamics-365-business-central"></a>Uusia ja suunniteltuja ominaisuuksia Dynamics 365 Business Centralille
 
 [!INCLUDE[release notes](includes/release-notes.md)]
 
-Voit aina tarkistaa uudet ja tulevat toiminnot julkaisusuunnitelmasta. Voit sitten etsiä tässä ohjeistuksessa aiheet, joiden avulla saat tietoja [!INCLUDE[prodlong](includes/prodlong.md)]ista uusista ja nykyisistä toiminnoista.  
+Voit aina tarkistaa uudet ja tulevat toiminnot julkaisusuunnitelmasta. Voit sitten etsiä tässä ohjeistuksessa aiheet, joiden avulla saat tietoja [!INCLUDE[prodlong](includes/prodlong.md)]ista uusista ja nykyisistä toiminnoista. 
 
-Jos et ole vielä rekisteröitynyt [kokeiluversioon](https://go.microsoft.com/fwlink/?linkid=847861), tutustu [!INCLUDE[prodshort](includes/prodshort.md)]in perusominaisuuksiin. Tämän jälkeen voit kokeilla toimintoja itseksesi jonkin aikaa. Kun olet valmis, voit avata tyhjän yrityksen ja määrittää sen tiedot. Lisätietoja on ohjeaiheessa [Valmistautuminen liiketoimintaan](ui-get-ready-business.md).  
+Seuraavassa luettelossa on tietoja uusimmista [!INCLUDE [prodshort](includes/prodshort.md)] -ohjelman versioista.  
 
-Päivitämme [!INCLUDE[d365fin](includes/d365fin_md.md)]:n ydinsovellukseen säännöllisesti lisää ominaisuuksia ja uusia laajennuksia. Lisätietoja Microsoft-laajennusten nykyisestä luettelosta on kohdassa [Business Central -sovelluksen mukauttaminen laajennusten avulla](ui-extensions.md).
+* [2020 julkaisuaalto 2](/dynamics365-release-plan/2020wave2/smb/dynamics365-business-central/planned-features)  
+* [2020 julkaisuaalto 1](/dynamics365-release-plan/2020wave1/dynamics365-business-central/planned-features)  
+* [2019 julkaisuaalto 2](/dynamics365-release-plan/2019wave2/dynamics365-business-central/planned-features)  
 
-Jos haluat nähdä kaikki [!INCLUDE[d365fin](includes/d365fin_md.md)] -kumppaneiden tarjoamat laajennukset, katso lisätietoja kohdasta [AppSource, Business Central](https://go.microsoft.com/fwlink/?linkid=2081646).  
-
-## <a name="check-the-dynamics-365-blog"></a>Dynamics 365 -blogiin tutustuminen
-
-Uusia ominaisuuksia käsitellään [Dynamics 365 -blogissa](https://cloudblogs.microsoft.com/dynamics365/) – esimerkiksi milloin ne tulevat saataville ja onko huomioon otettavia seikkoja.  
-
-Kumppaniyhteisöjä koskevia tietoja julkaistaan [Microsoft Dynamics 365 Business Centralia koskevassa kumppanien Dynamics 365 -blogissa](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) ja [[!INCLUDE[prodshort](includes/prodshort.md)]in kehittäjien ja IT-ammattilaisten ohjeessa ](/dynamics365/business-central/dev-itpro/index).  
+Voit myös tutustua [Dynamics 365 Business Central -ominaisuudet](https://dynamics.microsoft.com/business-central/capabilities/) -sivustoon ja [Dynamics 365 Business Central -etenemissuunnitelma](https://dynamics.microsoft.com) -sivustoon.  
 
 ## <a name="see-also"></a>Katso myös
 
-[Käytön aloittaminen](product-get-started.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[Vieraile Microsoftin videokirjastossa](across-videos.md)  
 [Ohje- ja tukiresurssit](product-help-and-support.md)  
+[Dynamics 365 Business Central Microsoft Learnissa](/learn/browse/?products=dynamics-business-central)  
+[Dynamics 365 Business Central ominaisuudet](https://dynamics.microsoft.com/business-central/capabilities/)  
+[Dynamics 365 Business Central -etenemissuunnitelma](https://dynamics.microsoft.com/roadmap/business-central/)  
+[Dynamics 365 -blogi](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/)  
 [Business Centralin hinnoittelu](https://dynamics.microsoft.com/business-central/overview/#pricing)  
 [Dynamics 365 Business Central -yhteisö](https://community.dynamics.com/business/)
 
