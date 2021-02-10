@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: trade
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 30976629fbee935ccefb15fafa11e38527eb922c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f6d913681967bbe609a03d7d6a2736e9c86b4ce0
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910628"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758165"
 ---
 # <a name="sell-products"></a>Tuotteiden myyminen
 
 Luo myyntitilaus tai -lasku tallentaaksesi sopimuksesi asiakkaan kanssa ja myydäksesi määrätyt tuotteet määrätyillä toimitus- ja maksuehdoilla.
 
 > [!NOTE]  
-> Myyntitilauksia käytetään, jos myyntiprosessi vaatii tilausmäärän osittaisen toimittamisen esimerkiksi silloin, kun koko määrä ei ole kerralla käytettävissä. Jos käytetään myyntilaskuja, [!INCLUDE [prodshort](includes/prodshort.md)] olettaa, että koko määrä toimitetaan, kun lasku kirjataan. Jos myyt nimikkeitä toimittamalla ne suoraan toimittajalta asiakkaalle (suoratoimituksena), myyntitilauksia on käytettävä. Lisätietoja on kohdassa [Suoratoimitusten tekeminen](sales-how-drop-shipment.md). Kaikilta muilta osin myyntitilaukset toimivat samalla tavalla kuin myyntilaskut. Lisätietoja on kohdassa [Myynnin laskutus](sales-how-invoice-sales.md).
+> Myyntitilauksia käytetään, jos myyntiprosessi vaatii tilausmäärän osittaisen toimittamisen esimerkiksi silloin, kun koko määrä ei ole kerralla käytettävissä. Jos käytetään myyntilaskuja, [!INCLUDE [prod_short](includes/prod_short.md)] olettaa, että koko määrä toimitetaan, kun lasku kirjataan. Jos myyt nimikkeitä toimittamalla ne suoraan toimittajalta asiakkaalle (suoratoimituksena), myyntitilauksia on käytettävä. Lisätietoja on kohdassa [Suoratoimitusten tekeminen](sales-how-drop-shipment.md). Kaikilta muilta osin myyntitilaukset toimivat samalla tavalla kuin myyntilaskut. Lisätietoja on kohdassa [Myynnin laskutus](sales-how-invoice-sales.md).
 
 Voit neuvotella asiakkaan kanssa luomalla ensin myyntitarjoukseen, jonka voit muuntaa myyntitilaukseksi, kun hyväksyt myynnin. Lisätietoja on kohdassa [Myyntitarjousten tekeminen](sales-how-make-offers.md).
 
@@ -132,4 +132,4 @@ Nyt järjestelmässä luodaan liittyvä nimike ja asiakastapahtumat. Myyntitilau
 [Tulosta poimintaluettelo](sales-how-print-picking-list.md)  
 [Varasto](inventory-manage-inventory.md)  
 [Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)

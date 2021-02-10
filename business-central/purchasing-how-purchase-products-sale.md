@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: supply planning, sales demand, replenish
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7f9fb4a2574c93c60f0bfbcaeeff86676393555d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 44a11933488ef6f7c6a8b007bdd9ae9049a5b3bc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926845"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758515"
 ---
 # <a name="purchase-items-for-a-sale"></a>Nimikkeiden ostaminen myyntiin
 Voit luoda myyntitilausten ja myyntilaskujen toiminnoilla nopeasti ostoasiakirjoja myynnin edellyttämille puuttuville nimikemäärille. Voit käyttää asiakirjan tyypin mukaan kahta eri toimintoa.
@@ -69,4 +69,4 @@ Voit luoda yhden ostolaskun yhdelle tai usealle myyntiasiakirjan riville valitse
 [Ostojen kirjaus](purchasing-how-record-purchases.md)  
 [Myynnin laskutus](sales-how-invoice-sales.md)  
 [Uusien toimittajien rekisteröiminen](purchasing-how-register-new-vendors.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 90327ababa08d28baadcec26353f67c8736c62ee
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8fc5da8ca5dc69f93dfa81d4f581a7323ad01811
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925445"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756365"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Vaihekuvaus: Sarja-/eränumeroiden jäljitys
 
@@ -50,7 +50,7 @@ Tässä vaihekuvauksessa havainnollistetaan seuraavien käyttäjäroolien tehtä
 
 Tämän vaihekuvauksen ohjeiden noudattamisen edellytykset:  
 
-- [!INCLUDE[d365fin](includes/d365fin_md.md)] -yritys.  
+- [!INCLUDE[prod_short](includes/prod_short.md)] -yritys.  
 - Voit luoda uusia nimikkeitä ja useita liiketoimintatapahtumia noudattamalla kohdan [Esimerkkitietojen valmisteleminen](walkthrough-tracing-serial-lot-numbers.md#prepare-sample-data) ohjeita.  
 
 ## <a name="story"></a>Taustatietoja
@@ -162,7 +162,7 @@ Seuraavaksi näille kahdelle nimikkeelle luodaan osto-, tuotanto- ja myyntitilau
 7. Valitse **Vapautettu tuotantotilaus** -sivulla **Tuotantopäiväkirja** -toiminto.  
 8. Valitse ensin **Tuotantopäiväkirja**-sivulla nimikkeen 2000 kulutusrivi ja sitten **Nimikkeen seurantarivit** -toiminto.
 9. Valitse **Nimikkeen seurantarivit** -sivulla ensin **Eränro**-kenttä ja sitten **ERÄ1** ja lopuksi **OK**.  
-10. Älä muuta muita **Tuotantopäiväkirja**sivun oletusasetuksia. Valitse sitten **Kirjaa**-toiminto.  
+10. Älä muuta muita **Tuotantopäiväkirja** sivun oletusasetuksia. Valitse sitten **Kirjaa**-toiminto.  
 
     Tuota seuraavaksi kaksi kilpapolkupyörää lisää, Snro3 ja Snro4.  
 
@@ -182,7 +182,7 @@ Seuraavaksi näille kahdelle nimikkeelle luodaan osto-, tuotanto- ja myyntitilau
 16. Valitse **Vapautettu tuotantotilaus** -sivulla **Tuotantopäiväkirja** -toiminto.  
 17. Valitse ensin **Tuotantopäiväkirja**-sivulla nimikkeen 2000 kulutusrivi ja sitten **Nimikkeen seurantarivit** -toiminto.
 18. Valitse **Nimikkeen seurantarivit** -sivulla ensin **Eränro**-kenttä ja sitten **ERÄ1** ja lopuksi **OK**.  
-19. Älä muuta muita **Tuotantopäiväkirja**sivun oletusasetuksia. Valitse sitten **Kirjaa**-toiminto.  
+19. Älä muuta muita **Tuotantopäiväkirja** sivun oletusasetuksia. Valitse sitten **Kirjaa**-toiminto.  
 
     Olet nyt tuottanut neljä kilpapyörää Snro1 - Snro4 ja kuluttanut neljä kymmenestä kilpapyörän rungosta ERÄ1:stä. Kumpaankin tuotantotilaukseen kulutettiin kaksi runkoa.  
 

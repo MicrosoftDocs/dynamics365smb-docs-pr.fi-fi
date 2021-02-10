@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e3b0b01eb85cc6b24cc665e340da1d479517924a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 650f45093688825565eb664ebca7daaa3e972140
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914858"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756515"
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Vaihekuvaus: Projektin keskeneräisen työn laskeminen
 
@@ -38,7 +38,7 @@ Projektien avulla voit laatia yrityksen resurssien käyttöön liittyviä aikata
  Tämän vaihekuvauksen esimerkkejä havainnollistetaan erään projektitiimin jäsenen kautta. Hänen nimensä on Marianne.  
 
 ## <a name="prerequisites"></a>Vaatimukset  
- Asenna [!INCLUDE[d365fin](includes/d365fin_md.md)] tietokoneeseen ennen tämän vaihekuvauksen tehtävien suorittamista.  
+ Asenna [!INCLUDE[prod_short](includes/prod_short.md)] tietokoneeseen ennen tämän vaihekuvauksen tehtävien suorittamista.  
 
 ## <a name="story"></a>Taustatietoja  
  Tämä vaihekuvaus keskittyy suunnittelu- ja konsulttiyritykseen CRONUS Finland Oy, joka suunnittelee ja varustaa uusia infrastruktuureja, kuten konferenssisaleja ja toimistoja huonekaluineen, tarvikkeineen ja varastoineen. Suurin osa CRONUS -töistä on projektisuuntautuneita, ja projektitiimin jäsen Marianne käyttää töitä yleiskatsauksen luomiseen jokaisesta meneillään olevasta työstä, jonka CRONUS on aloittanut, ja myös valmistuneista töitä. Jotkut työt voivat olla hyvin pitkiä ja kestää kuukausia. Marianne voi käyttää KET-tiliä tallentaakseen keskeneräisen työn ja seuratakseen kustannuksia projektin aikana.  
@@ -65,7 +65,7 @@ Projektien avulla voit laatia yrityksen resurssien käyttöön liittyviä aikata
 
      Keskeneräinen työ voidaan laskea kustannusarvon, myyntiarvon, myynnin kulujen, valmistumisen prosenttiosuuden ja valmiin sopimuksen perusteella. Tässä esimerkissä CRONUS käyttää kustannusarvomenetelmää.  
 
-3.  Napsauta**Kirjaus**-pikavälilehdessä **KET-menetelmä**-kentässä ja valitse **Kustannusarvo**.  
+3.  Napsauta **Kirjaus**-pikavälilehdessä **KET-menetelmä**-kentässä ja valitse **Kustannusarvo**.  
 4.  Valitse **Projektitehtävärivit** ja määritä seuraavat arvot **KET - Yhteensä** -kentässä.  
 
      Arvot kuvaillaan seuraavassa taulukossa.  
@@ -156,11 +156,11 @@ Projektien avulla voit laatia yrityksen resurssien käyttöön liittyviä aikata
     >  Oletetaan, että Tricia on laskenut ja kirjannut keskeneräisen työn, jossa on virheellisiä päivämääriä. Käyttäjä voi peruuttaa virheellisen kirjauksen, korjata päivämääriä ja tehdä uuden kirjauksen pääkirjanpitoon käyttämällä aiemmin kerrottua menetelmää.  
 
 ## <a name="next-steps"></a>Seuraavat vaiheet  
- Tämä vaihekuvaus on ohjannut sinut keskeneräisen työn laskemisen vaiheiden läpi kohteessa [!INCLUDE[d365fin](includes/d365fin_md.md)]. Jos projektit ovat suuria, kustannukset kannattaa ehkä siirtää KET-tilille ajoittain siksi aikaa, että projekti valmistuu. Tässä vaihekuvauksessa osoitettiin, milloin ja miksi tehtävärivejä täytyy jättää pois laskennasta sekä milloin uudelleenlaskeminen on tarpeen. Se myös näyttää, milloiin uudellenlaskenta on suoritettava. Ja lopuksi, näissä vaiheittaisissa ohjeissa kerrotaan, miten kirjaat KET:n pääkirjanpitoon. Mukana on myös esimerkki siitä, miten voit kääntää KET-kirjauksen pääkirjanpitoon.  
+ Tämä vaihekuvaus on ohjannut sinut keskeneräisen työn laskemisen vaiheiden läpi kohteessa [!INCLUDE[prod_short](includes/prod_short.md)]. Jos projektit ovat suuria, kustannukset kannattaa ehkä siirtää KET-tilille ajoittain siksi aikaa, että projekti valmistuu. Tässä vaihekuvauksessa osoitettiin, milloin ja miksi tehtävärivejä täytyy jättää pois laskennasta sekä milloin uudelleenlaskeminen on tarpeen. Se myös näyttää, milloiin uudellenlaskenta on suoritettava. Ja lopuksi, näissä vaiheittaisissa ohjeissa kerrotaan, miten kirjaat KET:n pääkirjanpitoon. Mukana on myös esimerkki siitä, miten voit kääntää KET-kirjauksen pääkirjanpitoon.  
 
 ## <a name="see-also"></a>Katso myös  
  [Liiketoimintaprosessien vaihekuvaukset](walkthrough-business-process-walkthroughs.md)  
  [Vaihekuvaus: Projektinhallinta Projektit-sovellusalueen avulla](walkthrough-managing-projects-with-jobs.md)   
  [Tietoja KET-menetelmistä](projects-understanding-wip.md)   
  [Etenemisen ja tehokkuuden valvonta](projects-how-monitor-progress-performance.md)  
- [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+ [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)

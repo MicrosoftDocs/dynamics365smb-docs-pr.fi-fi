@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a0d0e5f18acf9830fe77a87f9e1c8982da47c257
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 158a117202054524aa8014787c813f1cea70681a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913119"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757790"
 ---
 # <a name="service-posting"></a>Huollon kirjaus
 Huollon kirjaustoiminnon avulla voit käsitellä asiakirjoja tehokkaasti ja ylläpitää onnistunutta asiakkaiden huoltomenettelyä. Tämän ominaisuuden avulla ohjelma voi luoda ja päivittää kirjattuja asiakirjoja, luoda tapahtumia huoltoalueella sekä muissa moduuleissa asianmukaisen päivityksen varmistamiseksi.  
@@ -26,7 +26,7 @@ Huollon kirjaustoiminnon avulla voit käsitellä asiakirjoja tehokkaasti ja yll�
 >  Jos fyysisen varaston käsittely ei ole pakollista sijainnissa, tee kirjaustoiminnot suoraan **Huoltorivit**-sivulla. Sijainneissa, joissa käytetään fyysisen varaston käsittelyä, kuvatut kirjaustoiminnot (toimitusta ja kulutusta lukuun ottamatta) suoritetaan suoraan muuttuvien fyysisen varaston toimitustoimintojen kautta asetusten perusteella. Lisätietoja on kohdassa [Nimikkeiden poiminta varastopoiminnalla](warehouse-how-to-pick-items-with-inventory-picks.md).  
 
 ## <a name="ship"></a>Toimitus  
-Toimitusvaihtoehdon avulla voit rekisteröidä ohjelmassa nimikkeet ja huoltotilauksen riveille huollon suorituksen jälkeen syötetyt ajat. Ohjelma luo kirjatun toimituksen ja päivittää varastomoduulin ja muut [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman moduulit sen mukaan, mitä nimikkeitä on otettu varastosta ja lähetetty asiakkaalle. Ohjelma tuottaa erityisesti nimiketapahtumia, arvotapahtumia, huoltotapahtumia ja takuutapahtumia.  
+Toimitusvaihtoehdon avulla voit rekisteröidä ohjelmassa nimikkeet ja huoltotilauksen riveille huollon suorituksen jälkeen syötetyt ajat. Ohjelma luo kirjatun toimituksen ja päivittää varastomoduulin ja muut [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman moduulit sen mukaan, mitä nimikkeitä on otettu varastosta ja lähetetty asiakkaalle. Ohjelma tuottaa erityisesti nimiketapahtumia, arvotapahtumia, huoltotapahtumia ja takuutapahtumia.  
 
 Jos sijainti on määritetty niin, että fyysisen varaston käsittely on pakollinen, huoltonimikerivien toimitus ja siirtäminen tapahtuu samalla tavalla kuin muissa lähdeasiakirjoissa. Ainoa ero on, että huoltorivin nimikkeet voidaan käyttää joko ulkoisesti tai sisäisesti, johon tarvitaan kaksi eri vapautustoimintoa.
 

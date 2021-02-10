@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: supplier, payment priority
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 177fb324e39a59abbfc1b50e6ceaa34d4ae06f56
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 87d2f7c7fe2d395d16b41b288500f22e16bd0ba0
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926895"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758540"
 ---
 # <a name="prioritize-vendors"></a>Toimittajien priorisointi
-[!INCLUDE[d365fin](includes/d365fin_md.md)] voi ehdottaa eri maksuja toimittajille, esimerkiksi maksuja, jotka erääntyvät pian, ja maksuja, joista voi saada alennuksen. Lisätietoja on kohdassa [Toimittajamaksujen ehdottaminen](payables-how-suggest-vendor-payments.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] voi ehdottaa eri maksuja toimittajille, esimerkiksi maksuja, jotka erääntyvät pian, ja maksuja, joista voi saada alennuksen. Lisätietoja on kohdassa [Toimittajamaksujen ehdottaminen](payables-how-suggest-vendor-payments.md).
 
 Ensin priorisoidaan toimittajat liittämällä heille numerot.
 <br><br>
@@ -31,11 +31,11 @@ Ensin priorisoidaan toimittajat liittämällä heille numerot.
 2. Valitse asianmukainen toimittaja ja valitse sitten **Muokkaa**.
 3. Syötä **Prioriteetti**-kenttään numero.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]in mukaan pienin numero (paitsi 0) tarkoittaa korkeinta prioriteettia. Siten jos käytät esimerkiksi numeroita 1, 2 ja 3, numerolla 1 on korkein prioriteetti.
+[!INCLUDE[prod_short](includes/prod_short.md)]in mukaan pienin numero (paitsi 0) tarkoittaa korkeinta prioriteettia. Siten jos käytät esimerkiksi numeroita 1, 2 ja 3, numerolla 1 on korkein prioriteetti.
 
 Jos et halua priorisoida toimittajaa, jätä **Prioriteetti**-kenttä tyhjäksi. Tämän jälkeen kun käytät maksuehdotusominaisuutta, tämä toimittaja tulee luetteloon kaikkien niiden toimittajien jälkeen, joilla on prioriteettinumero. Prioriteettitasoja voi syöttää kuinka monta tahansa.
 
 ## <a name="see-also"></a>Katso myös
 [Ostojen määrittäminen](purchasing-setup-purchasing.md)  
 [Ostovelkojen hallinta](payables-manage-payables.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)

@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0b8c0acb51467d8320a6ebe91ee6dbf6827f8e85
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 404255e33d0fc689ee463b6fa0305bcd5cec0785
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915383"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758965"
 ---
 # <a name="subcontract-manufacturing"></a>Tuotanto alihankintana
 Valittujen toimintojen siirtäminen alihankintoina toimittajalle on yleistä monissa tuotantoyrityksissä. Alihankinta voi olla joko harvinaista tai keskeinen osa kaikkia tuotantoprosesseja.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]issa on useita työkaluja alihankintatöiden hallintaan:  
+[!INCLUDE[prod_short](includes/prod_short.md)]issa on useita työkaluja alihankintatöiden hallintaan:  
 
 - Tuotantosolut, joihin on määritetty alihankkija: Tämän ominaisuuden avulla voit määrittää alihankkijaan liittyvän tuotantosolun. Sitä kutsutaan alihankkijan tuotantosoluksi. Voit määrittää alihankkijan tuotantosolun reititysoperaatioon, jolloin voit käsitellä alihankkijalla teetettävän toimen. Operaation kustannukset voi myös määrittää reitityksen tai tuotantosolun tasolla.  
 - Yksikkö- tai aikaperustaiset työsolukustannukset: Tämän ominaisuuden avulla voit määrittää, perustuvatko tuotantosoluun liittyvät kustannukset tuotantoaikaan vai kiinteään yksikköperustaiseen korvaukseen. Vaikka alihankkijat laskuttavatkin palveluistaan usein yksikköperustaisen kiinteän maksun, sovellus osaa käsitellä molemmat vaihtoehdot (sekä tuotantoaikaan perustuvan että yksikköperustaisen kiinteän korvauksen).  
@@ -95,4 +95,4 @@ Ostotilauksen välitön kustannus kirjataan tuotantotilaukseen, kun ostotilaus k
 [Suunnittelu](production-planning.md)      
 [Varasto](inventory-manage-inventory.md)  
 [Osto](purchasing-manage-purchasing.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)

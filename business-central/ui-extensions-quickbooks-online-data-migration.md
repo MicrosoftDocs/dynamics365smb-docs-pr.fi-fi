@@ -10,20 +10,20 @@ ms.workload: na
 ms. search.keywords: extension, migrate, data, QuickBooks, import
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 1c4e33593cd7d0084d3c41a22a865160411ef01f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 064f7fd7f0737263234b7324c298e513ef91e9c8
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923493"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757465"
 ---
 # <a name="the-quickbooks-online-data-migration-extension"></a>QuickBooks Onlinen tietojen siirtolaajennus
 
-Tämä laajennus sisältyy **tietojen siirron** asetusten ohjattuun määritykseen, joka auttaa siirtämään tärkeitä liiketoimintatietoja QuickBooks Onlinesta [!INCLUDE[d365fin](includes/d365fin_md.md)]iin. Tämä on kätevää esimerkiksi tilanteessa, jossa liiketoiminta kasvaa ja olet päättänyt päivittää liiketoiminnan hallintasovelluksen aloittamalla [!INCLUDE[d365fin](includes/d365fin_md.md)]in käytön.
+Tämä laajennus sisältyy **tietojen siirron** asetusten ohjattuun määritykseen, joka auttaa siirtämään tärkeitä liiketoimintatietoja QuickBooks Onlinesta [!INCLUDE[prod_short](includes/prod_short.md)]iin. Tämä on kätevää esimerkiksi tilanteessa, jossa liiketoiminta kasvaa ja olet päättänyt päivittää liiketoiminnan hallintasovelluksen aloittamalla [!INCLUDE[prod_short](includes/prod_short.md)]in käytön.
 
 ## <a name="what-data-can-i-import-from-quickbooks-online"></a>QuickBooks Onlinesta siirrettävät tiedot
 
-Voit tuoda seuraavat tiedot QuickBooks Onlinesta [!INCLUDE[d365fin](includes/d365fin_md.md)]iin:  
+Voit tuoda seuraavat tiedot QuickBooks Onlinesta [!INCLUDE[prod_short](includes/prod_short.md)]iin:  
 
 * Asiakkaat
 * Toimittajat
@@ -46,9 +46,9 @@ Siirtoprosessiin olennaisesti kuuluva osa on määrittää tilit, joihin tapahtu
 * Nimikkeiden tai palvelujen osto toimittajilta.  
 * Pääkirjanpidon oikaisut.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] edellyttää, että KP-tileille on määritetty tilinumerot. Varmista, että QuickBooks Onlinen tileille on määritetty tilinumerot.
+[!INCLUDE[prod_short](includes/prod_short.md)] edellyttää, että KP-tileille on määritetty tilinumerot. Varmista, että QuickBooks Onlinen tileille on määritetty tilinumerot.
 
-Jos QuickBooks Onlinen tapahtumissa on verosummia, [!INCLUDE[d365fin](includes/d365fin_md.md)]issa on määritettävä veroalueen verotili ennen tapahtumien kirjaamista.
+Jos QuickBooks Onlinen tapahtumissa on verosummia, [!INCLUDE[prod_short](includes/prod_short.md)]issa on määritettävä veroalueen verotili ennen tapahtumien kirjaamista.
 
 ## <a name="how-do-i-start-using-the-extension"></a>Laajennuksen käytön aloittaminen
 
@@ -63,11 +63,11 @@ Tietojen siirron jälkeen tapahtumien tila on **Kirjaamaton**, joten voit tarkas
 
 Tietyt toimenpiteet kannattaa tehdä:
 
-* Jos QuickBooks Onlinen tapahtumissa oli korotettuja ja alennettuja summia, nämä summat on lisättävä manuaalisesti liittyviin tapahtumiin [!INCLUDE[d365fin](includes/d365fin_md.md)]issa ennen niiden kirjaamista.
+* Jos QuickBooks Onlinen tapahtumissa oli korotettuja ja alennettuja summia, nämä summat on lisättävä manuaalisesti liittyviin tapahtumiin [!INCLUDE[prod_short](includes/prod_short.md)]issa ennen niiden kirjaamista.
 * Jos käytät arvolisäveroa (ALV:tä), liiketoiminnan kirjausryhmä ja tuotteen kirjausryhmä on ehkä lisättävä kirjausasetuksiin ALV-summien kirjaamista varten.
 * Tarkista pääkirjanpidon tilien alkusaldot. QuickBooks Online ei tallenna kaikkien tilien ajankohtaisia saldoja, joten alkusaldoja on ehkä korjattava.
 
 ## <a name="see-also"></a>Katso myös
 
 [Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md)  

@@ -12,18 +12,18 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, budget
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6a9db4249cdf5814bc04653a1987d17f8f94ecb2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e21b0fbf497ebc67654be4bceae560fc3c2fdbc9
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918611"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757440"
 ---
 # <a name="the-sales-and-inventory-forecast-extension"></a>Myynti- ja varastoennustelaajennus
 Varaston hallintaan kuuluvat sekä asiakaspalvelu että kustannusten hallinta. Pieni varasto vaatii vähemmän liikepääomaa, mutta toisaalta varaston loppumiset voivat aiheuttaa myyntimenetyksiä. Myynti- ja varastoennuste -laajennus ennustaa mahdollisen myynnin aiempien tietojen avulla. Se tarjoaa selvän yleiskuvan odotetuista varaston loppumisista. Ennusteen perusteella laajennus auttaa luomaan täydennyspyyntöjä toimittajille, ja säästää näin aikaasi.  
 
 ## <a name="setting-up-forecasting"></a>Ennusteiden määrittäminen
-[Azure AI](https://azure.microsoft.com/overview/ai-platform/) -yhteys on muodostettu valmiiksi [!INCLUDE[d365fin](includes/d365fin_md.md)]issa. Voit kuitenkin määrittää ennusteen niin, että se käyttää raportoinnissa erityyppistä kautta. Ennuste voidaan laatia esimerkiksi kuukauden sijaan neljännesvuosittain. Voit myös valita ennustelaskelmassa käytettävien kausien määrän sen mukaan, miten hajautetun ennusteen haluat. Ennusteen voi tehdä esimerkiksi kuukautta kohti 12 kuukauden ajalle. 
+[Azure AI](https://azure.microsoft.com/overview/ai-platform/) -yhteys on muodostettu valmiiksi [!INCLUDE[prod_short](includes/prod_short.md)]issa. Voit kuitenkin määrittää ennusteen niin, että se käyttää raportoinnissa erityyppistä kautta. Ennuste voidaan laatia esimerkiksi kuukauden sijaan neljännesvuosittain. Voit myös valita ennustelaskelmassa käytettävien kausien määrän sen mukaan, miten hajautetun ennusteen haluat. Ennusteen voi tehdä esimerkiksi kuukautta kohti 12 kuukauden ajalle. 
 
 > [!TIP]  
 >   Mieti, miten pitkiä jaksoja palvelun laskelmissa käytetään. Mitä enemmän tietoja on käytettävissä, sitä tarkempia ennusteet ovat. Varo myös suuria jaksovaihteluita. Ne vaikuttavat myös ennusteisiin. Jos Azure AI ei löydä riittävästi tietoja tai tiedot ovat kovin erilaisia, palvelu ei voi tehdä ennustetta.
@@ -34,7 +34,7 @@ Laajennus ennustaa Azure AI:n avulla tulevan myynnin myyntihistorian perusteella
 Voit käyttää laajennusta myös varaston täydennysajankohdan ehdottamisessa. Jos esimerkiksi luot ostotilauksen Fabrikamille, koska haluat ostaa heiltä uuden työtuolin, Myynti- ja varastoennuste -laajennus ehdottaa, että samalla kannattaa ostaa LONDON-toimistotuoleja, joita yleensä ostat kyseiseltä toimittajalta. Laajennus ehdottaa tätä sen vuoksi, koska se ennustaa LONDON-toimistotuolien loppuvan varastosta kahden seuraavan kuukauden aikana. Tuoleja siis kannattaa ostaa lisää jo nyt.  
 
 ## <a name="design-details"></a>Rakennetiedot
-[!INCLUDE[d365fin](includes/d365fin_md.md)]:n tilaukset sisältävät käyttöoikeuden useisiin ennakoitaviin verkkopalveluihin kaikilla alueilla, joilla [!INCLUDE[d365fin](includes/d365fin_md.md)] on saatavissa. Lisätietoja on Microsoft Dynamics 365 Business Centralin käyttöoikeusoppaassa. Opas on ladattavissa [Business Centralin](https://dynamics.microsoft.com/en-us/business-central/overview/) verkkosivulla. 
+[!INCLUDE[prod_short](includes/prod_short.md)]:n tilaukset sisältävät käyttöoikeuden useisiin ennakoitaviin verkkopalveluihin kaikilla alueilla, joilla [!INCLUDE[prod_short](includes/prod_short.md)] on saatavissa. Lisätietoja on Microsoft Dynamics 365 Business Centralin käyttöoikeusoppaassa. Opas on ladattavissa [Business Centralin](https://dynamics.microsoft.com/en-us/business-central/overview/) verkkosivulla. 
 
 Näillä verkkopalveluilla ei ole tilaa. Ne siis käyttävät tietoja vain ennusteiden laskemiseen tarvittaessa. Ne eivät tallenna tietoja.
 
@@ -46,7 +46,7 @@ Jos haluat tehdä ennusteita tulevasta myynnistä, verkkopalvelu vaatii määrä
 -    Tapahtumatyyppi on Myynti.
 - Kirjauspäivämäärä on **Myynnin ja varaston ennusteiden asetukset** -sivun **Aiemmat kaudet**- ja **Kauden tyyppi** -kenttien arvojen perusteella lasketun päivämäärän ja käsittelypäivämäärän välillä.
 
-Ennen kuin käytät verkkopalvelua, [!INCLUDE[d365fin](includes/d365fin_md.md)] tiivistää tapahtumat **Nimikenro**- ja **Kirjauspäivämäärä**-kenttien mukaan **Kauden tyyppi** -kentän perusteella **Myynnin ja varaston ennusteiden määritykset** -sivulla.
+Ennen kuin käytät verkkopalvelua, [!INCLUDE[prod_short](includes/prod_short.md)] tiivistää tapahtumat **Nimikenro**- ja **Kirjauspäivämäärä**-kenttien mukaan **Kauden tyyppi** -kentän perusteella **Myynnin ja varaston ennusteiden määritykset** -sivulla.
 
 ## <a name="create-and-use-your-own-predictive-web-service-for-sales-and-inventory-forecasts"></a><a name="AnchorText"> </a>Myynnin ja varaston ennusteiden ennakoivan verkkopalvelun luominen ja käyttäminen
 Voit myös luoda oman ennakoivan verkkopalvelun **Microsoft Business Central -sovelluksen ennustemalli** -nimisen julkisen mallin perusteella. Tämä ennakoiva malli on saatavana verkossa Azure AI Galleryssa. Voit käyttää mallia seuraavien vaiheiden avulla:  
@@ -63,4 +63,4 @@ Voit myös luoda oman ennakoivan verkkopalvelun **Microsoft Business Central -so
 ## <a name="see-also"></a>Katso myös
 [Myynti](sales-manage-sales.md)  
 [Varasto](inventory-manage-inventory.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md)  

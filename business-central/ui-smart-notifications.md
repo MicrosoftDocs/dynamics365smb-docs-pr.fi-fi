@@ -9,24 +9,24 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 9ea6568f858dd154b7126f6444b45e4e548c6d18
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a297fd8381cf0af9de825cdaced658521e0335c8
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923343"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756640"
 ---
 # <a name="manage-notifications"></a>Ilmoitusten hallinta
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] voi auttaa työskentelemään älykkäämmin ilmoittamalla tietyistä tapahtumista tai tilamuutoksesta esimerkiksi silloin, kun olet laskuttamassa asiakasta, jolla on erääntynyttä saldoa, tai kun käytettävissä oleva varasto on pienempi kuin myytävä määrä. Nämä ilmoitukset näytetään hienovaraisina vihjeinä käsiteltävän tehtävän kontekstissa. Voit ohittaa ilmoituksen tai tarkastella sitä lähemmin.  
+[!INCLUDE[prod_short](includes/prod_short.md)] voi auttaa työskentelemään älykkäämmin ilmoittamalla tietyistä tapahtumista tai tilamuutoksesta esimerkiksi silloin, kun olet laskuttamassa asiakasta, jolla on erääntynyttä saldoa, tai kun käytettävissä oleva varasto on pienempi kuin myytävä määrä. Nämä ilmoitukset näytetään hienovaraisina vihjeinä käsiteltävän tehtävän kontekstissa. Voit ohittaa ilmoituksen tai tarkastella sitä lähemmin.  
 
-Jos tarkastelet ilmoituksen tietoja, voit ratkaista asian tekemällä toimenpiteitä, kuten esimerkiksi ottaa yhteyttä asiakkaaseen tai ostaa lisää nimikkeitä. Valitset suoritettavat tehtävät, ja [!INCLUDE[d365fin](includes/d365fin_md.md)] antaa niitä koskevia neuvoja ja suosituksia.  
+Jos tarkastelet ilmoituksen tietoja, voit ratkaista asian tekemällä toimenpiteitä, kuten esimerkiksi ottaa yhteyttä asiakkaaseen tai ostaa lisää nimikkeitä. Valitset suoritettavat tehtävät, ja [!INCLUDE[prod_short](includes/prod_short.md)] antaa niitä koskevia neuvoja ja suosituksia.  
 
 Ilmoitukset auttavat kokemattomia käyttäjiä tekemään uusia tehtäviä. Ilmoitukset eivät myöskään heikennä tottuneiden käyttäjien tuottavuutta.  
 
 ## <a name="to-turn-notifications-on-or-off-and-control-when-they-are-sent"></a>Ilmoitusten ottaminen käyttöön ja käytöstä poistaminen sekä lähetystilanteiden hallinta
 
-Kun käytät [!INCLUDE[d365fin](includes/d365fin_md.md)]ia ensimmäisen kerran, kaikki ilmoitukset on otettu käyttöön, mutta voit valita, ovatko ne käytössä myös silloin, jos et ole kiinnostunut tietyistä tapahtumista tai tiloista.  
+Kun käytät [!INCLUDE[prod_short](includes/prod_short.md)]ia ensimmäisen kerran, kaikki ilmoitukset on otettu käyttöön, mutta voit valita, ovatko ne käytössä myös silloin, jos et ole kiinnostunut tietyistä tapahtumista tai tiloista.  
 
 Voit lisäksi määrittää joissakin ilmoituksissa ehdot, joiden mukaan ilmoitus lähetetään. Jos haluat esimerkiksi saada ilmoituksen, kun varasto on käymässä vähiin mutta vain niiden nimikkeiden osalta, jotka ostat tietyltä toimittajalta.  
 
@@ -39,4 +39,4 @@ Ilmoitusten ottaminen käyttöön tai niiden poistaminen käytöstä sekä ehtoj
 
 ## <a name="see-also"></a>Katso myös
 
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)

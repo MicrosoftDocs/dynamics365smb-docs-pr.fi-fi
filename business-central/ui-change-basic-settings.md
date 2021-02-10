@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3f98cd6423b67fd9bbcc6081d06eca4cb21e81c7
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: df3807f3d5d2baa7f50df4091a0d1f2622d09ff8
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912669"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757640"
 ---
 # <a name="change-basic-settings"></a>Perusasetusten muuttaminen
 
-Voit tarkastella **Omat asetukset** -sivulla [!INCLUDE[d365fin](includes/d365fin_md.md)]in perusasetuksia ja muuttaa niitä. Tekemäsi muutokset vaikuttavat vain omaan työtilaasi; ei muiden käyttäjien työtiloihin.  
+Voit tarkastella **Omat asetukset** -sivulla [!INCLUDE[prod_short](includes/prod_short.md)]in perusasetuksia ja muuttaa niitä. Tekemäsi muutokset vaikuttavat vain omaan työtilaasi; ei muiden käyttäjien työtiloihin.  
 
 ## <a name="role-center"></a><a name="role-center"></a> Roolikeskus
 Roolikeskus edustaa kotisivua eli aloitussivua, joka on suunniteltu organisaation tiettyä roolia varten. Roolisi mukaan roolikeskus antaa yleiskuvan yrityksestäsi, osastostasi tai henkilökohtaisista tehtävistäsi. Se auttaa myös siirtymään päivittäisten tehtävien välillä ja löytämään työt, jotka on määritetty sinulle.
@@ -35,7 +35,7 @@ Oletusrooli on **Liiketoimintajohtaja**, mutta voit valita toisen roolin, jotta 
 3. Valitse **OK**-painike.
 
 ## <a name="company"></a><a name="company"></a>Oma yritys
-Yritystoiminnot [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietojen säilönä. Tietokannassa voi olla useita yrityksiä. Kerralla on kuitenkin mahdollista valita vain yksi yritys.
+Yritystoiminnot [!INCLUDE[prod_short](includes/prod_short.md)]in tietojen säilönä. Tietokannassa voi olla useita yrityksiä. Kerralla on kuitenkin mahdollista valita vain yksi yritys.
 
 Oletusyrityksen nimi on CRONUS, ja se sisältää vain esittelytietoja. Voit luoda mukautetuilla tiedoilla uuden yrityksen. Lisätietoa on kohdassa [Uusien yritysten luominen](about-new-company.md).
 
@@ -80,9 +80,9 @@ Jos nykyistä päivää (kuluva päivää) ei ole määritetty käsittelypäivä
 ## <a name="language"></a><a name="language"></a> Kieli
 Muuttaa näyttökielen. Tämä kenttä näkyy vain, kun useita kieliä voi valita.
 
-Alkuperäinen kieli määräytyy joko järjestelmänvalvojan asettamien tai selaimen asetusten mukaan, kun rekisteröidyt [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovellukseen. Määrittämääsi kieltä käytetään kaikissa laitteissa, joista kirjaudut, esimerkiksi puhelimessa ja tabletissa.
+Alkuperäinen kieli määräytyy joko järjestelmänvalvojan asettamien tai selaimen asetusten mukaan, kun rekisteröidyt [!INCLUDE[prod_short](includes/prod_short.md)] -sovellukseen. Määrittämääsi kieltä käytetään kaikissa laitteissa, joista kirjaudut, esimerkiksi puhelimessa ja tabletissa.
 
-Sovellukseen [!INCLUDE[prodshort](includes/prodshort.md)] voi asentaa lisäkieliä AppSourcesta. Kaikki tuetut näyttökielet näkyvät luettelossa. Järjestelmänvalvojan on asennettava asiaankuuluva kielisovellus vuokraajaan, ennen kuin käyttäjät voivat vaihtaa uuteen kieleen sovelluksessa [!INCLUDE[prodshort](includes/prodshort.md)].  
+Sovellukseen [!INCLUDE[prod_short](includes/prod_short.md)] voi asentaa lisäkieliä AppSourcesta. Kaikki tuetut näyttökielet näkyvät luettelossa. Järjestelmänvalvojan on asennettava asiaankuuluva kielisovellus vuokraajaan, ennen kuin käyttäjät voivat vaihtaa uuteen kieleen sovelluksessa [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## <a name="changing-when-i-receive-notifications"></a>Ilmoitusten vastaanoton ajankohta-asetusten muuttaminen
 Valitsemalla tämän linkin voit tarkastella tai muuttaa ilmoituksia, joita saat tietyistä tapahtumista tai tilamuutoksista esimerkiksi silloin, kun olet laskuttamassa asiakasta, jolla on erääntynyttä saldoa, tai kun käytettävissä oleva varasto on pienempi kuin myytävä määrä. Lisätietoja on kohdassa [Ilmoitusten hallinta](ui-smart-notifications.md).
@@ -91,5 +91,5 @@ Valitsemalla tämän linkin voit tarkastella tai muuttaa ilmoituksia, joita saat
 
 ## <a name="see-also"></a>Katso myös
 [Uusien yritysten luominen](about-new-company.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md)  

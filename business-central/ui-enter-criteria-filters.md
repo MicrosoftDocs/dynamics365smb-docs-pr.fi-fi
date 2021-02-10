@@ -1,21 +1,21 @@
 ---
 title: Luetteloiden lajitteleminen ja suodattaminen sekä luetteloista hakeminen | Microsoft Docs
-description: Voit tehostaa luetteloiden käsittelemistä hakemalla tietoja, lajittelemalla sarakkeita ja tarkentamalla tuloksia tehokkaiden suodatussymboleiden ja pikanäppäinten avulla.
-author: SorenGP
+description: Voit tehostaa luetteloiden käsittelemistä hakemalla tietoja, lajittelemalla sarakkeita ja tarkentamalla tuloksia suodatussymboleiden ja pikanäppäinten avulla.
+author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 10/01/2020
-ms.author: edupont
-ms.openlocfilehash: 5c67ea33937ded164626e4c403522a7dc1f3dca0
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.date: 11/16/2020
+ms.author: jswymer
+ms.openlocfilehash: eda7ab79b326f860816504014d6eefa9fb13a600
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912569"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757590"
 ---
 # <a name="sorting-searching-and-filtering"></a>Lajitteleminen, hakeminen ja suodattaminen
 
@@ -24,7 +24,7 @@ Luettelossa, raportissa tai XMLportissa olevien tietueiden skannaamista, etsimis
 Raporteissa ja XMLporteissa suodattimet voidaan määrittää luetteloiden tavoin rajoittamaan raporttiin tai XMLportiin sisällytettäviä tietoja, mutta lajittelu ja haku ei ole mahdollista.
 
 > [!TIP]
-> Kun tarkastelet tietoja ruutuina, voit hakea tietoja ja käyttää perussuodatusta. Jos haluat käyttää lajittelun, haun ja suodattamisen tehokkaita toimintoja, valitse ![Näytä luettelona](media/ui_show_as_list_icon.png "Näytä luettelona – nuoli vasemmalle") -kuvake, jolloin tietueita voidaan tarkastella luettelona.
+> Kun tarkastelet tietoja ruutuina, voit hakea tietoja ja käyttää suodatusta. Jos haluat käyttää lajittelun, haun ja suodattamisen tehokkaita toimintoja, valitse ![Näytä luettelona](media/ui_show_as_list_icon.png "Näytä luettelona – nuoli vasemmalle") -kuvake, jolloin tietueita voidaan tarkastella luettelona.
 
 <!--
 When you want to search for data, such as customer names, addresses, or product groups, you enter criteria. In search criteria, you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.
@@ -32,9 +32,12 @@ When you want to search for data, such as customer names, addresses, or product 
 
 ## <a name="sorting"></a>Lajittelu
 
-Lajittelun avulla tiedoista saa nopeasti ja kätevästi yleiskuvan. Jos asiakkaita on useita, saat tarvitsemasi yleiskuvan lajittelemalla heidät esimerkiksi **Asiakasnro**-, **Asiakkaan kirjausryhmä**-, **Valuuttakoodi**-, **Maa-/aluekoodi**- tai **ALV-rekisteröintinro**-kohdan avulla,
+Lajittelun avulla tiedoista saa nopeasti ja kätevästi yleiskuvan. Jos esimerkiksi asiakkaita on useita, saat tarvitsemasi yleiskuvan lajittelemalla heidät esimerkiksi **Asiakasnro**-, **Valuuttakoodi**- tai **Maa-/aluekoodi** -kohdan avulla.
 
-Voit lajitella luettelon joko valitsemalla sarakkeen otsikkotekstin ja vaihtelemalla nousevaa ja laskevaa lajittelua tai valitsemalla sarakeotsikossa olevilla valintanuolilla **Nouseva**- tai **Laskeva**-toiminnon.  
+Voit lajitella luettelon seuraavasti:
+
+- Valitse sarakkeen otsikkoteksti, mikä vaihtaa nousevan ja laskevan järjestyksen välillä.
+- Valitse sarakeotsikossa avattava nuoli ja valitse **Nouseva** tai **Laskeva**-toiminto.  
 
 > [!NOTE]  
 > Lajittelua ei tueta kuvissa, BLOB-kentissä ja FlowFilter-suodattimissa, jotka eivät kuulu taulukkoon.  
@@ -44,13 +47,20 @@ Voit lajitella luettelon joko valitsemalla sarakkeen otsikkotekstin ja vaihtelem
 <!--## Searching by using the Quick Filter -->
 Kunkin luettelosivun yläosassa on ![Hakuluettelon](media/ui-search/search-list.png "Hakuluettelon kuvake") **Haku**-toiminto, jonka avulla luettelon tietueiden määrää on helppo vähentää. Näin näkyvissä ovat vain tietueet, jotka sisältävät käyttäjää kiinnostavia tietoja.
 
-Voit aloittaa haun kätevästi valitsemalla **Haku**-toiminnon ja kirjoittamalla ruutuun tekstin, jota haetaan. Voit syöttää kirjaimia, numeroita ja muita symboleita.
-
-### <a name="fine-tuning-the-search"></a>Haun Hienosäätö
+Voit aloittaa haun valitsemalla **Haku**-toiminnon ja kirjoittamalla ruutuun tekstin, jota haetaan. Voit syöttää kirjaimia, numeroita ja muita symboleita.
 
 Yleensä haussa yritetään hakea vastaavuuksia kaikista kentistä. Haussa ei erotella pieniä ja isoja kirjaimia (eli kirjainkoolla ei ole merkitystä) ja haussa otetaan huomioon kentän kaikissa kohdissa (alussa, lopussa tai keskellä) oleva teksti.
 
-Voit kuitenkin tarkentaa hakua erikoismerkkien avulla.
+> [!TIP]
+> Voit aktivoida hakuruudun ja poistaa aktivoinnin painamalla **F3**-näppäintä. Lisätietoja on kohdassa [Pikanäppäimet](keyboard-shortcuts.md#KeyboardFilter).
+
+> [!NOTE]  
+> Hakua ei vastaa kuvien, BLOB-, FlowFilters-, FlowFields- ja muiden taulukon ulkopuolisten kenttien arvoja.
+
+
+### <a name="fine-tuning-the-search-with-filter-criteria"></a>Haun hienosäätäminen suodatusehdoilla
+
+Voit tehdä täsmällisemään haun käyttämällä suodatusoperaattoreita, lausekkeita ja suodatustunnuksia. Toisin kuin suodattaminen, niitä käytetään kaikissa kentissä, kun niitä käytetään hakuruudussa, jolloin ne eivät ole yhtä tehokkaita kuin suodattaminen.
 
 - Jos haluat etsiä vain ne kenttien arvot, jotka vastaavat koko tekstiä ja kirjainkokoa, aseta haettava teksti yksinkertaisten lainausmerkkien sisään (`''`, esimerkiksi `'man'`).
 
@@ -70,15 +80,10 @@ Seuraavassa taulukossa on esimerkkejä haun käyttämisestä.
 |`@Man*`|Kaikki tietueet, joissa on **man**-tekstillä alkavia kenttiä kirjainkoosta riippumatta. Esimerkiksi **Manchester** ja **manual**, mutta ei **Sportsman**.|
 |`@*man`|Kaikki tietueet, joissa on **man**-tekstiin päättyviä kenttiä kirjainkoosta riippumatta. Esimerkiksi **Sportsman**, mutta ei **Manchester** tai **manual**.|
 
-> [!TIP]
-> Voit aktivoida hakuruudun ja poistaa aktivoinnin painamalla **F3**-näppäintä. Lisätietoja on kohdassa [Pikanäppäimet](keyboard-shortcuts.md#KeyboardFilter).
-
-> [!NOTE]  
-> Hakua ei vastaa kuvien, BLOB-, FlowFilters-, FlowFields- ja muiden taulukon ulkopuolisten kenttien arvoja.
 
 ## <a name="filtering"></a><a name="filtering"></a>Suodattaminen
 
-Suodattaminen sisältää kehittyneitä ja monipuolisia toimintoja, joiden avulla määritetään luettelossa näkyvät tai raporttiin tai XMLportiin sisällytettävät tietueet. Hakemisella ja suodattamisella on kaksi pääeroa, jotka kerrotaan alla olevassa taulukossa.
+Suodattaminen sisältää kehittyneitä ja monipuolisia toimintoja, joiden avulla määritetään luetteloon, raporttiin tai XMLportiin sisällytettävät tietueet. Hakemisella ja suodattamisella on kaksi pääeroa, jotka kerrotaan alla olevassa taulukossa.
 
 || **Hakeminen** | **Suodattaminen** |
 |--|----------|------------|
@@ -110,15 +115,15 @@ Suodatinruudussa näkyvät luettelon nykyiset suodattimet. Sen avulla voi määr
 
 - **Näkymät**
 
-  Joissakin luetteloissa on **Näkymät**-osa. Näkymät ovat luettelon muunnoksia, jotka on esimääritetty suodattimien kanssa. Voit määrittää tallentaa kuhunkin luetteloon haluamasi määrän näkymiä, ja voit käyttää näitä näkymiä riippumatta siitä, millä laitteella kirjaudut sisään. Lisätietoja on kohdassa [Luettelonäkymien tallentaminen ja mukauttaminen](ui-views.md).
+  Joissakin luetteloissa on **Näkymät**-osa. Näkymät ovat luettelon muunnoksia, jotka on esimääritetty suodattimien kanssa. Voit määrittää ja tallentaa niin monta näkymää luetteloa kohti kuin haluat. Näkymät ovat käytettävissäsi kaikissa laitteissa, joihin kirjaudut. Lisätietoja on kohdassa [Luettelonäkymien tallentaminen ja mukauttaminen](ui-views.md).
 
 - **Luettelon suodatusperuste**
 
-  Tässä osassa lisätään suodattimet tietyille kentille ja vähennetään näin näytettävien tietueiden määrää. Lisää suodatin valitsemalla **+ Suodatus** -toiminto, kirjoittamalla luettelon suodatusperusteena käytettävän kentän nimi tai valitsemalla kenttä avattavasta luettelosta.
+  Tässä osassa lisätään suodattimet tietyille kentille ja vähennetään näin näytettävien tietueiden määrää. Lisää suodatin valitsemalla **+ Suodatin** -toiminto. Kirjoita sitten luettelon suodatusperusteena käytettävän kentän nimi tai valitsemalla kenttä avattavasta luettelosta.
 
 - **Kokonaisarvojen suodatusperuste**
 
-  Jotkin laskettuja kenttiä, kuten summia ja määriä, näyttävät luettelot sisältävät **Kokonaisarvojen suodatusperuste** -osan. Siinä voi muokata erilaisia laskelmiin vaikuttavia dimensioita. Lisää suodatin valitsemalla **+ Suodatus** -toiminto, kirjoittamalla luettelon suodatusperusteena käytettävän kentän nimi tai valitsemalla kenttä avattavasta luettelosta.
+  Jotkin laskettuja kenttiä, kuten summia ja määriä, näyttävät luettelot sisältävät **Kokonaisarvojen suodatusperuste** -osan. Siinä voi muokata erilaisia laskelmiin vaikuttavia dimensioita. Lisää suodatin valitsemalla **+ Suodatin** -toiminto. Kirjoita sitten luettelon suodatusperusteena käytettävän kentän nimi tai valitsemalla kenttä avattavasta luettelosta.
 
   > [!NOTE]
   > FlowFilter-suodattimet ohjaavat **Kokonaisarvojen suodatusperuste** -osan suodattimia sivun rakenteessa. Teknisiä lisätietoja on kohdassa [FlowFilter-suodattimet](/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview).
@@ -129,9 +134,9 @@ Voit määrittää yksinkertaisen suodattimen suoraan luettelossa käyttämäll�
 
 Raporttien ja XMLportien suodattimet näkyvät suoraan pyyntösivulla. Viimeksi käytetyt suodattimet näkyvät pyyntösivulla **Käytä oletusarvoja kohteesta:** -kentän valinnan mukaisesti. Lisätietoja on kohdassa [Tallennettujen asetusten käyttäminen](ui-work-report.md#SavedSettings).
 
-**Suodatuksen** pääosassa näkyy oletussuodatuskentät, joilla rajoitetaan raporttiin tai XMLportiin sisällytettäviä tietueita. Lisää suodatin valitsemalla **+ Suodatus** -toiminto, kirjoittamalla suodatusperusteena käytettävän kentän nimi tai valitsemalla kenttä avattavasta luettelosta.
+**Suodatuksen** pääosassa näkyy oletussuodatuskentät, joilla rajoitetaan raporttiin tai XMLportiin sisällytettäviä tietueita. Lisää suodatin valitsemalla **+ Suodatin** -toiminto. Kirjoita sitten suodatusperusteena käytettävän kentän nimi tai valitsemalla kenttä avattavasta luettelosta.
 
-Voit säätää **Kokonaisarvojen suodatusperuste** -osassa erilaisia dimensioita, jotka vaikuttavat raportin tai XMLportin laskelmiin. Lisää suodatin valitsemalla **+ Suodatus** -toiminto, kirjoittamalla suodatusperusteena käytettävän kentän nimi tai valitsemalla kenttä avattavasta luettelosta.
+Voit säätää **Kokonaisarvojen suodatusperuste** -osassa erilaisia dimensioita, jotka vaikuttavat raportin tai XMLportin laskelmiin. Lisää suodatin valitsemalla **+ Suodatin** -toiminto. Kirjoita sitten suodatusperusteena käytettävän kentän nimi tai valitsemalla kenttä avattavasta luettelosta.
 
 ## <a name="entering-filter-criteria"></a>Suodatusehtojen antaminen
 
@@ -144,17 +149,17 @@ Sarakkeet, joilla on jo suodattimia, löytyvät, kun käytössä on sarakeotsiko
 > [!TIP]
 > Nopeuta tietojen etsimistä ja analysoimista pikanäppäinyhdistelmien avulla. Voit esimerkiksi valita kentän ja lisätä kentän suodatinruutuun **Vaihto+Alt+F3**-pikanäppäinten avulla, kirjoittaa suodatinehdot ja palata riveille **Ctrl+Enter**-pikanäppäinten avulla. Valitse toinen kenttä ja suodata sen arvot **Alt+F3**-pikanäppäimillä. Lisätietoja on kohdassa [Pikanäppäimet](keyboard-shortcuts.md#KeyboardFilter).
 
-### <a name="filter-criteria-and-symbols"></a><a name="FilterCriteria"> </a>Suodatusehdot ja merkit
+### <a name="filter-criteria-and-operators"></a><a name="FilterCriteria"> </a>Suodatusehdot ja operaattorit
 
-Kun syötät kriteerejä, voit käyttää kaikkia numeroita ja kirjaimia, joita voi yleensäkin käyttää kentässä. Voit käyttää tulosten suodatukseen myös erikoismerkkejä (tai operaattoreita). Seuraavassa taulukossa on esitelty symbolit, joita voi käyttää suodattimissa. Lisätietoja päivämääristä ja ajoista on myös kohdassa [Kalenterin päivämäärien ja aikojen käsitteleminen](ui-enter-date-ranges.md).
+Kun syötät kriteerejä, voit käyttää kaikkia numeroita ja kirjaimia, joita voi yleensäkin käyttää kentässä. Mutta on olemassa myös joukko erikoismerkkejä, joita voit käyttää operaattoreina suodattaaksesi tuloksia edelleen. Seuraavissa osissa on kuvattu nämä symbolit ja niiden käyttö suodattimien operaattoreina.
 
-> [!IMPORTANT]  
-> Joissakin tilanteissa kentät arvot voivat sisältää näitä merkkejä, ja haluat suodattaa niiden avulla. Siinä tapauksessa on merkki on lisättävä suodatuslausekkeeseen lainausmerkeissä (”). Jos haluat esimerkiksi suodattaa tietueita, joiden alussa on teksti *S&R*, suodatuslauseke on `'S&R*'`.
+> [!TIP]
+> Lisätietoja päivämäärien ja aikojen suodatuksesta on kohdassa [Kalenterin päivämäärien ja aikojen käsitteleminen](ui-enter-date-ranges.md).
 
-Seuraavissa osissa käsitellään eri operaattoreiden käyttöä.
-
-> [!NOTE]
-> Jos yhdessä suodattimessa on yli 200 operaattoria, järjestelmä ryhmittää jotkin lausekkeet sulkeisiin `()` käsittelyä varten. Se ei vaikuta suodattimeen eikä tuloksiin.  
+> [!IMPORTANT]
+> - Voi olla tilanteita, joissa suodatettava arvo sisältää symbolin, joka on operaattori. Lisätietoja näiden tilanteiden käsittelemiseksi on kohdassa [Symboleja sisältävien arvojen suodattaminen](#symbols).
+>
+> - Jos yhdessä suodattimessa on yli 200 operaattoria, järjestelmä ryhmittää jotkin lausekkeet sulkeisiin `()` käsittelyä varten. Se ei vaikuta suodattimeen eikä tuloksiin.  
 
 #### <a name="-interval"></a>(..) väli
 
@@ -214,27 +219,27 @@ Seuraavissa osissa käsitellään eri operaattoreiden käyttöä.
 
 |Esimerkkimuoto|Näkyvät tietueet|  
 |-----------------------|-----------------------|  
-|`'man'`|Teksti, joka vastaa täysin "man"ia ja jossa isoilla ja pienillä kirjaimilla on merkitystä.|  
+|`'man'`|Teksti, joka vastaa täysin merkkijonoa **man** ja jossa isoilla ja pienillä kirjaimilla on merkitystä.|  
 
 #### <a name="-case-insensitive"></a>(@) Ei kirjainkokoon perustuva  
 
 |Esimerkkimuoto|Näkyvät tietueet|  
 |-----------------------|-----------------------|  
-|`@man*`|Teksti, joka alkaa "man" ja jossa isoilla ja pienillä kirjaimilla ei ole merkitystä.|  
+|`@man*`|Teksti, joka alkaa **man** ja jossa isoilla ja pienillä kirjaimilla ei ole merkitystä.|  
 
 #### <a name="-an-indefinite-number-of-unknown-characters"></a>(*) Rajoittamaton määrä tuntemattomia merkkejä
 
 |Esimerkkimuoto|Näkyvät tietueet|  
 |-----------------------|-----------------------|  
-|`*Co*`|Teksti, joka sisältyy ”Co” ja jossa kirjainkoolla on merkitystä.|  
-|`*Co`|Teksti, jonka lopussa on ”Co” ja jossa kirjainkoolla on merkitystä.|  
-|`Co*`|Teksti, jonka alussa on ”Co” ja jossa kirjainkoolla on merkitystä.|  
+|`*Co*`|Teksti, joka sisältää **Co** ja jossa kirjainkoolla on merkitystä.|  
+|`*Co`|Teksti, jonka lopussa on **Co** ja jossa kirjainkoolla on merkitystä.|  
+|`Co*`|Teksti, jonka alussa on **Co** ja jossa kirjainkoolla on merkitystä.|  
 
 #### <a name="-one-unknown-character"></a>(?) yksi tuntematon merkki  
 
 |Esimerkkimuoto|Näkyvät tietueet|  
 |-----------------------|-----------------------|  
-|`Hans?n`|Teksti, kuten Hansen tai Hanson|  
+|`Hans?n`|Teksti, kuten **Hansen** tai **Hanson**|  
 
 #### <a name="combined-format-expressions"></a>Yhdistetyn muodon lausekkeet  
 
@@ -244,8 +249,23 @@ Seuraavissa osissa käsitellään eri operaattoreiden käyttöä.
 |`..1299|1400..`|Sisällytä tietueet, joissa on numero, joka on pienempi tai yhtä suuri kuin 1299 tai suurempi tai yhtä suuri kuin 1400 (siis kaikki muut numerot paitsi 1300–1399).|  
 |`>50&<100`|Sisällytä tietueet, joissa on numero, joka on suurempi kuin 50 ja pienempi kuin 100 (siis numerot 51–99).|  
 
+### <a name="filtering-on-values-that-contain-symbols"></a><a name="symbols"></a>Symboleita sisältävien arvojen suodattaminen
+
+Joissakin tapauksissa kenttäarvot sisältävät jonkin seuraavista symboleista:
+
+- &
+- (
+- )
+- =
+- &#124;
+
+Jos haluat suodattaa jonkin näistä symboleista, sijoita suodatinlauseke lainausmerkkeihin (''). Jos haluat esimerkiksi suodattaa tietueita, joiden alussa on teksti *J & V*, suodatuslauseke on `'J & V*'`.
+
+Tämä vaatimus ei ole välttämätön muille symboleille.
+
 ### <a name="filter-tokens"></a><a name="FilterTokens"> </a>Suodatuksen tunnukset
-Kun syötät suodatusehtoja, voit kirjoittaa myös sanoja, joilla on erityinen tarkoitus. Niitä kutsutaan suodatuksen tunnuksiksi. Kun olet syöttänyt tunnussanan, sana korvataan arvolla tai arvoilla, joita se edustaa. Tämä helpottaa suodattamista ja vähentää muille sivuille siirtymistä ja suodattimeen lisättävien arvojen etsimistä. Taulukossa on joitakin tunnuksia, joita voit käyttää suodatusehtoina.
+
+Kun syötät suodatusehtoja, voit kirjoittaa myös sanoja, joilla on erityinen tarkoitus. Niitä kutsutaan suodatuksen tunnuksiksi. Kun olet syöttänyt tunnussanan, sana korvataan arvolla tai arvoilla, joita se edustaa. Suodatuksen tunnukset helpottavat suodattamista ja vähentää muille sivuille siirtymistä ja suodattimeen lisättävien arvojen etsimistä. Taulukossa on joitakin tunnuksia, joita voit käyttää suodatusehtoina.
 
 > [!TIP]
 > Organisaatio voi käyttää mukautettuja tunnuksia. Järjestelmänvalvojalta saa lisätietoja käytettävissä olevista tunnuksista ja mukautettujen tunnusten lisäämisestä. Teknisiä tietoja on kohdassa [Suodatuksen tunnusten lisääminen](/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens).
@@ -286,4 +306,4 @@ Käytä `%myvendors`-tunnusta toimittajan **Nro**-kentässä, kun haluat näytt�
 
 [Usein kysyttyjen kysymysten haku ja suodatus](ui-search-filter-faq.md)  
 [Luettelonäkymien tallentaminen ja mukauttaminen](ui-views.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  

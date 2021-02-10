@@ -11,16 +11,16 @@ ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f658764eafa6f9aa35e33cf8098ca77799fb1e0c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 853a45dc32907c2d9b69f7b2e592dc164c20a094
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912469"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757365"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Kalenterin päivämäärien ja aikojen käsitteleminen
 
-[!INCLUDE[d365fin](includes/d365fin_long_md.md)] sisältää useita tapoja päivämäärien ja aikojen syöttämiseen sekä tehokkaita toimintoja, jotka nopeuttavat tietojen syöttämistä ja helpottavat monimutkaisten kalenterilausekkeiden kirjoittamista. Sovelluksessa on useita kohtia, joissa voi syöttää päivämääriä ja aikoja kenttiin. Esimerkiksi myyntitilauksessa voi määrittää lähetyspäivämäärän. Voit syöttää päivämäärät ja ajat luetteloiden tai raportin tietojen suodattamisen yhteydessä ja etsiä vain tiedot, joista olet kiinnostunut.
+[!INCLUDE[prod_short](includes/prod_long.md)] sisältää useita tapoja päivämäärien ja aikojen syöttämiseen sekä tehokkaita toimintoja, jotka nopeuttavat tietojen syöttämistä ja helpottavat monimutkaisten kalenterilausekkeiden kirjoittamista. Sovelluksessa on useita kohtia, joissa voi syöttää päivämääriä ja aikoja kenttiin. Esimerkiksi myyntitilauksessa voi määrittää lähetyspäivämäärän. Voit syöttää päivämäärät ja ajat luetteloiden tai raportin tietojen suodattamisen yhteydessä ja etsiä vain tiedot, joista olet kiinnostunut.
 
 ## <a name="check-your-region-and-language-settings"></a>Alueen ja kielen asetusten tarkistaminen
 **Omat asetukset** -sivulla määritetään sovelluksessa käytettävä **alue** ja **kieli**. Nämä asetukset vaikuttavat päivämäärien ja aikojen syöttötapaan.
@@ -30,7 +30,7 @@ ms.locfileid: "3912469"
 -   Jos päivämäärämallit sisältävät sanoja, sanojen kielen on oltava **Kieli**-asetuksessa määritetty kieli.
 
 > [!NOTE]
-> [!INCLUDE[d365fin](includes/d365fin_long_md.md)] käyttää gregoriaanista kalenterijärjestelmää.
+> [!INCLUDE[prod_short](includes/prod_long.md)] käyttää gregoriaanista kalenterijärjestelmää.
 
 <!--
 The following sections describe how you can enter dates, times, datetimes, durations, date ranges, and how you use date formulas.
@@ -217,7 +217,7 @@ You can also combine the various format types.
 |12 15 16&#124;12 01 16..05 31 17 | Entries posted either on December 15 2016 or on dates between and including December 01 2016 and May 31 2017. |
 |..12 14 16&#124;12 30 16.. | Entries posted on December 14 or earlier, or entries posted on December 30 or later - that is, all entries except those posted on dates between and including December 15 and 29. |
 
-Note that we have used the US date format MMDDYY here. As [!INCLUDE[d365fin](includes/d365fin_md.md)] becomes available in other markets, you'll be able to use the formats that you are used to.
+Note that we have used the US date format MMDDYY here. As [!INCLUDE[prod_short](includes/prod_short.md)] becomes available in other markets, you'll be able to use the formats that you are used to.
 
 ## Using Date Formulas
 A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.
@@ -312,7 +312,7 @@ Ota huomioon, että millisekunnit tulkitaan desimaalimuodoksi. Esimerkiksi 3, 30
 
 Et voi käyttää arvoa 24:00, jos tarkoitat keskiyötä, etkä mitään arvoa, joka on suurempi kuin 24:00.
 
-Aika-sana [!INCLUDE[d365fin](includes/d365fin_long_md.md)] -sovelluksen käyttämällä kielellä arvioidaan tietokoneen tai mobiililaitteen nykyiseksi ajaksi. Voit syöttää sanan minkä tahansa alkuosan, kuten a tai AIK.
+Aika-sana [!INCLUDE[prod_short](includes/prod_long.md)] -sovelluksen käyttämällä kielellä arvioidaan tietokoneen tai mobiililaitteen nykyiseksi ajaksi. Voit syöttää sanan minkä tahansa alkuosan, kuten a tai AIK.
 
 ## <a name="entering-combined-dates-and-times"></a>Yhdistettyjen pvm:ien ja aikojen syöttäminen
 Kun syötät päivämääriä ja aikoja, joissa päivämäärä ja aika on yhdistetty yhdeksi kentäksi, päivämäärän ja ajan välissä on oltava välilyönti. Päivämääräosa voi sisältää välilyöntejä vain alueasetusten virallisen päivämääräerottimen muodossa. Ajan välilyönnit voivat olla AM/PM-osoittimen ympärillä.
@@ -366,6 +366,6 @@ Voit tarkastaa, mitä mittayksikköä kestokentässä käytetään, syöttämäl
 Jos mittayksikkö on esimerkiksi Tunnit, numero 5 muunnetaan 5 tunniksi.
 
 ## <a name="see-also"></a>Katso myös
-[[!INCLUDE[d365fin](includes/d365fin_long_md.md)]in käyttäminen](ui-work-product.md)  
+[[!INCLUDE[prod_short](includes/prod_long.md)]in käyttäminen](ui-work-product.md)  
 [Ostojen päivämäärälaskenta](purchasing-date-calculation-for-purchases.md)  
 [Ehtojen antaminen suodattimiin](ui-enter-criteria-filters.md)  

@@ -11,12 +11,12 @@ ms.search.keywords: ''
 ROBOTS: NOINDEX,NOFOLLOW
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: b8c58c98e628c036033b76d2a189f26c85411a38
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3fa0ed8b91d4bdae845fe4a7f20a500665856a7d
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920345"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756565"
 ---
 # <a name="add-and-view-notes-on-records"></a>Muistiinpanojen lisääminen tietueisiin ja niiden tarkasteleminen
  Voit <!--OnPrem and your colleagues -->lisätä muistiinpanoja sovelluksen tietueisiin. Monilla sivuilla, etenkin niillä sivuilla, joissa näkyy tietueluetteloita, kuten **Myyntitilaukset**-sivulla, on **Muistiinpanot**-toiminto tai **Muistiinpanot**-tietoruutu. <!--OnPrem Notes is where you can write notes about a record to yourself or others, and where you can view notes to you from others. For example, a note could be a general comment or processing instruction to your colleague, who can then respond to your note using their own **Notes**. Or, your colleague can add a note that gives you extra information about a sales order that is not covered by the information on the sales order. These notes and correspondences will follow the record as it is processed in the company.-->
@@ -48,4 +48,4 @@ ms.locfileid: "3920345"
 <!--OnPrem
 3.  Choose the **OK** button.  -->
 ## <a name="see-also"></a>Katso myös
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  

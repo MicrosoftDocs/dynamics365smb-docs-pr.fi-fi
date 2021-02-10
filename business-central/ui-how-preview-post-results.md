@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: solsen
-ms.openlocfilehash: fa57a5ecce6553ce9315e4cd205f3367d9664bda
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 06e498444879a9b77b1418c44f4dd39395c8a4b5
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910178"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756890"
 ---
 # <a name="preview-posting-results"></a>Kirjaustulosten esikatselu
 Voit valita jokaiselle asiakirjalle ja päiväkirjalle **Esikatsele kirjausta** -painikkeen. Sen avulla voit tarkastella eri tapahtumatyyppejä, joita luodaan asiakirjan tai päiväkirjan kirjaamisen yhteydessä.
@@ -30,5 +30,5 @@ Voit valita jokaiselle asiakirjalle ja päiväkirjalle **Esikatsele kirjausta** 
 
 ## <a name="see-also"></a>Katso myös
 [Asiakirjojen ja päiväkirjojen kirjaaminen](ui-post-documents-journals.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)

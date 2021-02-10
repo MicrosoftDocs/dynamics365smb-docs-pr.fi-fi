@@ -10,21 +10,21 @@ ms.workload: na
 ms. search.keywords: bank, format, data
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 8eb45d8c65a09ac56617f84a41543c38a4518fa9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a2147240aac15b805a6f64473b5eb2febb38deac
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912394"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757565"
 ---
 # <a name="using-the-amc-banking-365-fundamentals-extension"></a>AMC Banking 365 Fundamentals -laajennuksen käyttäminen
-AMC Banking 365 Fundamentals -laajennus helpottaa ja tarkentaa tietojen lähettämistä pankkeihin. Laajennus yhdistää [!INCLUDE[d365fin](includes/d365fin_md.md)]:n ja AMC Banking 365 Fundamentalsin Microsoft Dynamics 365 Business Central -palveluun, joka voi muuntaa pankkitietoja [!INCLUDE[d365fin](includes/d365fin_md.md)]:sta muodoiksi, joita tarvitaan yli 600 pankissa ympäri maailmaa. Tämä helpottaa esimerkiksi maksujen ja hyvitysten siirtämistä toimittajille syöttämällä maksut [!INCLUDE[d365fin](includes/d365fin_md.md)]-ohjelmaan ja lataamalla ne sitten pankkiin. Muodot voivat myös tasoittaa pankin täsmäytysprosesseja. Lisätietoja on kohdassa [AMC Banking Microsoft Dynamics 365 Business Centralille](https://amcbanking.com/landing365bc/help).
+AMC Banking 365 Fundamentals -laajennus helpottaa ja tarkentaa tietojen lähettämistä pankkeihin. Laajennus yhdistää [!INCLUDE[prod_short](includes/prod_short.md)]:n ja AMC Banking 365 Fundamentalsin Microsoft Dynamics 365 Business Central -palveluun, joka voi muuntaa pankkitietoja [!INCLUDE[prod_short](includes/prod_short.md)]:sta muodoiksi, joita tarvitaan yli 600 pankissa ympäri maailmaa. Tämä helpottaa esimerkiksi maksujen ja hyvitysten siirtämistä toimittajille syöttämällä maksut [!INCLUDE[prod_short](includes/prod_short.md)]-ohjelmaan ja lataamalla ne sitten pankkiin. Muodot voivat myös tasoittaa pankin täsmäytysprosesseja. Lisätietoja on kohdassa [AMC Banking Microsoft Dynamics 365 Business Centralille](https://amcbanking.com/landing365bc/help).
 
 > [!Note]
-> AMC Banking on rakentanut lisälaajennuksia, jotka toimivat [!INCLUDE[d365fin](includes/d365fin_md.md)]:n kanssa. Tässä ohjeaiheessa kuvataan vain peruslaajennus.
+> AMC Banking on rakentanut lisälaajennuksia, jotka toimivat [!INCLUDE[prod_short](includes/prod_short.md)]:n kanssa. Tässä ohjeaiheessa kuvataan vain peruslaajennus.
 
 ## <a name="using-our-demonstration-account"></a>Esittelytilin käyttäminen
-[!INCLUDE[d365fin](includes/d365fin_md.md)]:n mukana on esittelytili, jonka avulla voit kokeilla AMC Banking 365 Fundamentals -laajennusta. Microsoft tarjoaa oletusasetukset yhteyden muodostamiseen AMC Bankingiin. Niissä määritetään pankkitilit tietojen saamiseksi [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmaan sekä muutamia tiedonvaihtomäärityksiä. Voit tarkastella yhteysasetuksia **AMC Bankingin asetus** -sivulla. Laajennus kohdistaa pankkitileille arvot **Pankin nimi**-, **Hyvityksen siirtoviestinrot**-, **Tiliotteen tuontimuoto**- ja **Maksun viennin muoto** -kenttiin pankkitilin korteilla.
+[!INCLUDE[prod_short](includes/prod_short.md)]:n mukana on esittelytili, jonka avulla voit kokeilla AMC Banking 365 Fundamentals -laajennusta. Microsoft tarjoaa oletusasetukset yhteyden muodostamiseen AMC Bankingiin. Niissä määritetään pankkitilit tietojen saamiseksi [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmaan sekä muutamia tiedonvaihtomäärityksiä. Voit tarkastella yhteysasetuksia **AMC Bankingin asetus** -sivulla. Laajennus kohdistaa pankkitileille arvot **Pankin nimi**-, **Hyvityksen siirtoviestinrot**-, **Tiliotteen tuontimuoto**- ja **Maksun viennin muoto** -kenttiin pankkitilin korteilla.
 
 Microsoft tarjoaa asetukset, mutta voit kokeilla laajennusta suorittamalla avustetun asennusoppaan. Voit käynnistää oppaan **AMC Banking -määritys** -sivulla valitsemalla **Asetusten ohjattu määritys** -toiminnon.
 
@@ -48,7 +48,7 @@ Myönnä kullekin uudelle käyttöoikeuksien joukolle **Luku**-oikeudet **AMC Ba
 
 ### <a name="to-connect-the-extension-to-amc-banking"></a>Voit liittää laajennuksen AMC Bankingiin
 1. Hanki moduuli ja huoltosuunnitelma AMC Bankingille. Voit tehdä sen käymällä [AMC-lisenssi](https://license.amcbanking.com/register) -sivulla.
-2. Valitse [!INCLUDE[d365fin](includes/d365fin_md.md)]:ssa ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **AMC Banking -asetukset** ja valitse sitten liittyvä linkki.  
+2. Valitse [!INCLUDE[prod_short](includes/prod_short.md)]:ssa ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **AMC Banking -asetukset** ja valitse sitten liittyvä linkki.  
 3. **AMC Banking -määritys**-sivulla valitse **Asetusten ohjattu määritys** -toiminto.
 4. Suorita asetusten ohjatun määrityksen oppaan vaiheet.
 
@@ -82,8 +82,8 @@ Tämän laajennuksen käyttäminen on vain asia, jossa tiedot viedään **Maksup
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maksujen täsmäytyskirjauskansio** ja valitse sitten liittyvä linkki.
 2. Valitse **Tuo pankkitapahtuma** -toiminto ja valitse sitten muunnettu tiedosto.  
 
-   [!INCLUDE[d365fin](includes/d365fin_md.md)] luo uuden maksun täsmäytyskirjauskansion, joka sisältää tiedoston tiedot. Lisätietoja on kohdassa [Maksujen kohdistaminen automaattisesti ja pankkitilien täsmäyttäminen](receivables-apply-payments-auto-reconcile-bank-accounts.md).
+   [!INCLUDE[prod_short](includes/prod_short.md)] luo uuden maksun täsmäytyskirjauskansion, joka sisältää tiedoston tiedot. Lisätietoja on kohdassa [Maksujen kohdistaminen automaattisesti ja pankkitilien täsmäyttäminen](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 ## <a name="see-also"></a>Katso myös
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md)  
 [Käytön aloittaminen](product-get-started.md)

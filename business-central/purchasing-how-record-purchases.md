@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: procurement
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4073ccccd36f6ec62804a5c1bd1881fb4d7a167d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 845b552141f5637893bb0f0041b3247bce023c5f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926795"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758490"
 ---
 # <a name="record-purchases"></a>Ostojen kirjaus
 Voit luoda ostolaskun tai -tilauksen ostojen kustannusten tallentamiseksi ja ostoreskontran seuraamiseksi. Jos haluat hallita varastoa, myös ostolaskuja ja -tilauksia käytetään varastotasojen dynaamiseen päivittämiseen, jotta voit minimoida varaston kustannukset ja tarjota parempaa asiakaspalvelua. Ostokustannukset, kuten palvelukulut, ja varastoarvot, jotka aiheutuvat ostolaskujen tai -tilausten kirjaamisesta, vaikuttavat tuottolukuihin ja muihin talouden KPI-arvoihin roolikeskuksessasi.
@@ -99,4 +99,4 @@ Osto vaikuttaa nyt varastoon, resurssitapahtumiin ja taloustietueisiin, ja myyj�
 [Nimikkeiden ostaminen myyntiin](purchasing-how-purchase-products-sale.md)  
 [Uusien toimittajien rekisteröiminen](purchasing-how-register-new-vendors.md)  
 [Suoratoimitusten valmisteleminen](sales-how-drop-shipment.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)

@@ -12,17 +12,17 @@ ms.workload: na
 ms.search.keywords: service, work hours, configure, price, pricing
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 0e6218a313c2cb9031da8ee1c66a90cfe9dd0207
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: bf19cc5b0ae606ce7f235e707057516dba4ca5e0
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915258"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757840"
 ---
 # <a name="planning-services"></a>Huollon suunnittelu
-[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman työkaluilla voit määrittää asiakaspalvelun vaatimusten edellyttämät vakiotehtävät. Ensin on kuitenkin määritettävä, mitä huoltonimikkeitä ja -tarjouksia huolto-organisaatio tukee ja mikä on niiden hinta.   
+[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman työkaluilla voit määrittää asiakaspalvelun vaatimusten edellyttämät vakiotehtävät. Ensin on kuitenkin määritettävä, mitä huoltonimikkeitä ja -tarjouksia huolto-organisaatio tukee ja mikä on niiden hinta.   
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]issa on myös tilastotyökaluja, joiden avulla voit päätellä, miten nyt asiat sujuvat ja mitä parannettavaa on.
+[!INCLUDE[prod_short](includes/prod_short.md)]issa on myös tilastotyökaluja, joiden avulla voit päätellä, miten nyt asiat sujuvat ja mitä parannettavaa on.
   
 Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aiheisiin.   
   

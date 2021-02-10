@@ -8,16 +8,16 @@ ms.workload: na
 ms.search.keywords: project management
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0309ea14145758b4ae07ee034679fa4a0ef497db
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6fe583e93261b58d13802eadef5f3d807045fa20
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915333"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758640"
 ---
 # <a name="set-up-jobs"></a>Projektien määrittäminen
 
-Määrität projektipäällikkönä projektit, jotka määrittävät jokaisen [!INCLUDE[prodshort](includes/prodshort.md)]issa hallittavan projektin. Määritä **Projektienhallinnan asetukset** -sivulla projektin tiettyjen toimintojen asetukset.
+Määrität projektipäällikkönä projektit, jotka määrittävät jokaisen [!INCLUDE[prod_short](includes/prod_short.md)]issa hallittavan projektin. Määritä **Projektienhallinnan asetukset** -sivulla projektin tiettyjen toimintojen asetukset.
 
 Kullekin projektille määritetään sitten yksittäiset projektikortit, joissa on tietoja projektinimikkeiden hinnoista, projektin resursseista ja KP-tileistä. Määritä myös projektin kirjausryhmät.
 
@@ -121,4 +121,4 @@ Yksi näkökulma projektien suunnittelussa on sen päättäminen, mitä kirjaust
 [Rahoitus](finance.md)  
 [Osto](purchasing-manage-purchasing.md)  
 [Myynti](sales-manage-sales.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  

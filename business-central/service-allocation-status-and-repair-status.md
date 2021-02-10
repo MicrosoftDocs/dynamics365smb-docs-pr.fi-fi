@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: resources, allocation, status, repairs
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: ba066e9d40959b48901792d7ceff8589525c6d7a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 2a206386039e277eddd13801da23bb32c2845227
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910403"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757940"
 ---
 # <a name="allocation-status-and-repair-status-of-service-items"></a>Huoltonimikkeen kohdistuksen tila ja korjauksen tila
 Huoltonimikkeiden korjauksen tilalla ja huoltonimikkeiden kohdistustapahtumien kohdistuksen tilalla on tietty yhteys Huoltohallinnossa. Kohdistuksen tila muuttuu silloin kun huoltonimikkeen korjauksen tila muutetaan **Valmiiksi** tai **Osittain huolletuksi** ja kun huoltotarjous muunnetaan huoltotilaukseksi. Huoltonimikkeen korjauksen tila muuttuu, kun peruutat huoltonimikkeen kohdistuksen tai kohdistat sen toiseen resurssiin. Voit tarkastella huoltonimikkeiden korjauksen tilaa **Huoltotehtävät** -sivulla ja voit päivittää korjauksen tilan **Korjauksen tilakoodi** -kentässä **Huoltonimikkeen työkirja** -sivulla. Voit tarkastella kohdistuksen tilaa **Tila**-kentässä **Resurssin kohdistukset** -sivulla.  
@@ -38,7 +38,7 @@ Kun huoltotarjous muunnetaan huoltotilaukseksi, ohjelma päivittää huoltotilau
 * Ohjelma etsii kaikkien huoltotilauksessa olevien huoltonimikkeiden osalta kohdistustapahtumia, joiden tila on **Aktiivinen**. Jos tällaisia kohdistustapahtumia löytyy, ohjelma muuttaa niiden kohdistuksen tilaksi **Uudelleenkohdistamista tarvitaan** **Aktiivisen** sijaan.  
   
 ## <a name="canceling-allocations"></a>Kohdistusten peruuttaminen  
-Kun huoltonimikkeen kohdistus peruutetaan, [!INCLUDE[d365fin](includes/d365fin_md.md)] päivittää vastaavan kohdistustapahtuman kohdistuksen tilan tilasta **Aktiivinen** tilaan **Uudelleenkohdistus tarvitaan**.
+Kun huoltonimikkeen kohdistus peruutetaan, [!INCLUDE[prod_short](includes/prod_short.md)] päivittää vastaavan kohdistustapahtuman kohdistuksen tilan tilasta **Aktiivinen** tilaan **Uudelleenkohdistus tarvitaan**.
 
 Ohjelma päivittää kohdistustapahtumassa olevan huoltonimikkeen korjauksen tilan seuraavilla tavoilla:  
   

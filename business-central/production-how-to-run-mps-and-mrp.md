@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bbc7314c9f178385fbb882a4615950277b0c0d88
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 931ec0f9a329daa30ef3208d0fa4d695f173e9d5
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915432"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759015"
 ---
 # <a name="run-full-planning-mps-or-mrp"></a>Kokonaisvaltaisen suunnittelun, tuotanto-ohjelman tai tarvelaskennan suorittaminen
 Suunnittelutyökirjan suorittaminen ja tarvelaskennan suorittaminen tarkoitetaan tuotanto-ohjelman ja materiaalitarpeen laskemista todellisen ja ennustetun tarpeen perusteella. Suunnittelujärjestelmä voi laskea tuotanto-ohjelman tai tarvelaskennan pyydettäessä, tai se voi laskea molemmat samanaikaisesti.  
@@ -23,7 +23,7 @@ Suunnittelutyökirjan suorittaminen ja tarvelaskennan suorittaminen tarkoitetaan
 -   Tuotanto-ohjelma tarkoittaa todelliseen tarpeeseen ja kysyntäennusteeseen perustuvaa tuotanto-ohjelman laskentaa. Tuotanto-ohjelman laskenta tehdään lopullisille nimikkeille, joilla on ennuste ja/tai myyntitilauksen rivi. Näitä nimikkeitä kutsutaan tuotanto-ohjelmanimikkeiksi, ja ne tunnistetaan dynaamisesti laskennan alkaessa.  
 -   MRP tarkoittaa komponenttien todelliseen tarpeeseen ja komponenttitason kysyntäennusteeseen perustuvaa materiaalitarpeen laskentaa. Tarvelaskenta tehdään vain nimikkeille, jotka eivät ole tuotanto-ohjelmanimikkeitä. Tuotanto-ohjelman yleistavoitteena on tuottaa aikavaiheistetut, viralliset nimikekohtaiset suunnitelmat, jotta oikeaa tuotetta voidaan toimittaa oikea nimike ja oikea määrä oikeaan aikaan ja oikeassa paikassa.  
 
-Tuotanto-ohjelmassa ja tarvelaskennassa käytetään identtisiä suunnittelualgoritmeja. Suunnittelualgoritmit liittyvät nettouttamiseen, aiempien täydennystilausten uudelleenkäyttöön ja toimenpideviesteihin. Suunnittelujärjestelmä selvittää, mitä nyt tai vastaisuudessa tarvitaan (kysyntä) sekä mitä on käsivarastossa ja mitä tulossa (tarjonta). Kun nämä määrät nettoutetaan, [!INCLUDE[d365fin](includes/d365fin_md.md)] näyttää toimenpideviestejä. Toimenpideviestit ovat ehdotuksia, jotka kehottavat luomaan uuden tilauksen, muuttamaan tilausta (määrää tai päivämäärää) tai peruuttamaan jo tilauksessa olevan tilauksen. Tilauksella tarkoitetaan ostotilauksia, kokoonpanotilauksia, tuotantotilauksia ja siirtotilauksia.
+Tuotanto-ohjelmassa ja tarvelaskennassa käytetään identtisiä suunnittelualgoritmeja. Suunnittelualgoritmit liittyvät nettouttamiseen, aiempien täydennystilausten uudelleenkäyttöön ja toimenpideviesteihin. Suunnittelujärjestelmä selvittää, mitä nyt tai vastaisuudessa tarvitaan (kysyntä) sekä mitä on käsivarastossa ja mitä tulossa (tarjonta). Kun nämä määrät nettoutetaan, [!INCLUDE[prod_short](includes/prod_short.md)] näyttää toimenpideviestejä. Toimenpideviestit ovat ehdotuksia, jotka kehottavat luomaan uuden tilauksen, muuttamaan tilausta (määrää tai päivämäärää) tai peruuttamaan jo tilauksessa olevan tilauksen. Tilauksella tarkoitetaan ostotilauksia, kokoonpanotilauksia, tuotantotilauksia ja siirtotilauksia.
 
 Suunnittelumoduulin kysynnän ja tarjonnan välille luodut linkit ja niihin liittyvää toimitusta voidaan seurata **Tilauksen seuranta** -sivu. Lisätietoja on kohdassa [Kysynnän ja tarjonnan välisten suhteiden seuranta](production-how-track-demand-supply.md).   
 
@@ -37,7 +37,7 @@ Suunnitelmasta saadaan asianmukaisia tuloksia sen mukaan, kuinka nimikkeen korti
     - **Suunnitteluparametrien muutokset**: Tällaisia muutoksia ovat varmuusvaraston, uusintatilauspisteen, reitityksen ja tuoterakenteen muutokset sekä aikavälin ja toimitusajan laskennan muutokset.  
 -   **Hae toimenpideviestit**: Tänä toiminto toimii lyhyen aikavälin suunnittelutyökaluna. Se tuottaa toimenpideviestejä, jotka ilmoittavat käyttäjälle edellisen uudelleensuunnittelun tai nettomuutossuunnittelun laskemisen jälkeen tehdyistä muutoksista.  
 
-Jokaisen suunnitellun menetelmän kanssa, [!INCLUDE[d365fin](includes/d365fin_md.md)] luo työkirjatapahtumat olettaen, että kapasiteetti on ääretön. Tuotantosolun ja kuormitusryhmän kapasiteettia ei huomioida laadittaessa aikatauluja.  
+Jokaisen suunnitellun menetelmän kanssa, [!INCLUDE[prod_short](includes/prod_short.md)] luo työkirjatapahtumat olettaen, että kapasiteetti on ääretön. Tuotantosolun ja kuormitusryhmän kapasiteettia ei huomioida laadittaessa aikatauluja.  
 
 > [!IMPORTANT]  
 >  Laske uudelleensuunnittelu -toiminto on yleisin prosessi. Suunnitelman laskennan ja toimenpideviestin toteuttamisen prosesseja voidaan kuitenkin käyttää Laske nettomuutossuunnitelma -toiminnon suorittamiseen.  
@@ -98,10 +98,10 @@ Ohjelma luo seuraavia toimenpideviestejä, jos kysyntä ja tarjonta menevät ep�
 |Toimenpideviesti|Kuvaus|  
 |--------------------|---------------------------------------|  
 |**Uusi**|Jos olemassa olevia tilauksia koskevien toimenpideviestien **Muuta määrä**, **Aikataul. uud.** tai **Aikataul. uud. ja Muuta määrä** ehdotukset eivät riitä täyttämään kysyntää, järjestelmä luo uuteen tilaukseen kehottavan toimenpideviestin **Uusi**. Järjestelmä luo toimenpideviestin **Uusi** myös, jos kyseisen nimikkeen uusintatilausvälissä ei ole toimitustilauksia. Tämä parametri määrittää saatavuusprofiilin jaksojen määrän eteen- ja taaksepäin, kun uudelleen aikataulutettavaa tilausta etsitään.|  
-|**Muuta määrä**|Kun määrä muuttuu toimitustilauksiin seurattavassa kysynnässä, järjestelmää luo toimenpideviestin **Muuta määrä**. Se merkitsee, että asiaankuuluvaa tarjontaa täytyy muuttaa suhteessa kysynnässä tapahtuneeseen muutokseen. Jos uutta kysyntää ilmenee, [!INCLUDE[d365fin](includes/d365fin_md.md)] etsii uusintatilausvälin lähimmän varaamattoman tuotantotilauksen ja luo kyseistä tilausta koskevan, muutokseen kehottavan toimenpideviestin.|  
+|**Muuta määrä**|Kun määrä muuttuu toimitustilauksiin seurattavassa kysynnässä, järjestelmää luo toimenpideviestin **Muuta määrä**. Se merkitsee, että asiaankuuluvaa tarjontaa täytyy muuttaa suhteessa kysynnässä tapahtuneeseen muutokseen. Jos uutta kysyntää ilmenee, [!INCLUDE[prod_short](includes/prod_short.md)] etsii uusintatilausvälin lähimmän varaamattoman tuotantotilauksen ja luo kyseistä tilausta koskevan, muutokseen kehottavan toimenpideviestin.|  
 |**Aikataul. uud.**|Kun tarjonta- tai kysyntätilauksessa tapahtuva päivämäärämuutos aiheuttaa epätasapainon tilausverkossa, järjestelmä antaa toimenpideviestin **Aikatauluta uud**. Jos kysynnän ja tarjonnan suhde on 1:1, järjestelmä antaa toimitustilauksen siirtämistä koskevan toimenpideviestin. Jos toimitustilaus kattaa usean myyntitilauksen kysynnän, toimitustilaus aikataulutetaan uudelleen ensimmäisen kysynnän päivämäärän mukaiseksi.|  
 |**Aikataul. uud. & Muuta määrä**|Jos sekä päivämääriä että määriä on muutettu tilauksessa, suunnitelmia täytyy muuttaa molemmat osatekijät huomioon ottaen. Toimenpiteitä ehdotetaan yhteisessä toimenpideviestissä **Aikatauluta uud. ja Muuta määrä**, jotta tilausverkko saadaan takaisin tasapainoon.|  
-|**Peruuta**|Jos sellainen kysyntä poistetaan, johon on vastattu tilauskohtaisesti, järjestelmä antaa asianmukaisten toimitustilausten peruuttamiseen kehottavan toimenpideviestin. Jos suhde ei ole tilauskohtainen, järjestelmä luo muutokseen kehottavan toimenpideviestin kysynnän vähentämiseksi. Jos muut tekijät, kuten varastonmuutokset, aiheuttavat sen, että tuotantotilausta ei tarvita, kun käyttäjä luo toimenpideviestejä, [!INCLUDE[d365fin](includes/d365fin_md.md)] ehdottaa työkirjassa toimenpideviestiä **Peruuta**.|  
+|**Peruuta**|Jos sellainen kysyntä poistetaan, johon on vastattu tilauskohtaisesti, järjestelmä antaa asianmukaisten toimitustilausten peruuttamiseen kehottavan toimenpideviestin. Jos suhde ei ole tilauskohtainen, järjestelmä luo muutokseen kehottavan toimenpideviestin kysynnän vähentämiseksi. Jos muut tekijät, kuten varastonmuutokset, aiheuttavat sen, että tuotantotilausta ei tarvita, kun käyttäjä luo toimenpideviestejä, [!INCLUDE[prod_short](includes/prod_short.md)] ehdottaa työkirjassa toimenpideviestiä **Peruuta**.|  
 
 ## <a name="see-also"></a>Katso myös  
 [Suunnittelu](production-planning.md)  
@@ -111,4 +111,4 @@ Ohjelma luo seuraavia toimenpideviestejä, jos kysyntä ja tarjonta menevät ep�
 [Osto](purchasing-manage-purchasing.md)  
 [Rakennetiedot: Toimitusten suunnittelu](design-details-supply-planning.md)   
 [Asetukset - parhaat käytännöt: toimitusten suunnittelu](setup-best-practices-supply-planning.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)

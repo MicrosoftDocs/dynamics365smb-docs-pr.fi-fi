@@ -10,12 +10,12 @@ ms.workload: na
 ms. search.keywords: extension, bank, formats
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 1afd60dc4c9c86b476c3c2c80974ce805b19a4ca
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c8dd465213a9882a98c1ac1623d8a093f3eecb9a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912319"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757490"
 ---
 # <a name="the-payments-and-reconciliations-dk-extension"></a>Maksujen ja täsmäytysten (DK) laajennus
 
@@ -53,7 +53,7 @@ Aloittaminen edellyttää muutamien vaiheiden suorittamista.
 
 Lisäksi on määritettävä toimittajat kotimaan **Ylein. liiketoim. kirjausryhmä**- ja **Toimittajan kirjausryhmä** -kohtaan. Toimittajan maa-/alueasetukseksi on määritettävä Tanska (DK). Lisätietoja on kohdassa [Kirjausryhmien määrittäminen](finance-posting-groups.md).  
 
-### <a name="to-allow-d365fin-to-export-payment-data"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman salliminen maksutietojen vientiä varten
+### <a name="to-allow-prod_short-to-export-payment-data"></a>[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman salliminen maksutietojen vientiä varten
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maksupäiväkirja** ja valitse sitten liittyvä linkki.  
 2. Valitse **Muokkaa maksupäiväkirjaa** -sivulla **Pankin** erä.  
@@ -61,7 +61,7 @@ Lisäksi on määritettävä toimittajat kotimaan **Ylein. liiketoim. kirjausryh
 
 ### <a name="to-specify-a-payment-method-for-a-vendor"></a>Toimittajan maksutavan määrittäminen
 
-Seuraavassa taulukossa ovat [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman tukemat FIK- ja TILISIIRTO-maksutapojen yhdistelmät.
+Seuraavassa taulukossa ovat [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman tukemat FIK- ja TILISIIRTO-maksutapojen yhdistelmät.
 
 |Yhdistelmä|Tyyppi 01 | Tyyppi 04 | Tyyppi 71 | Tyyppi 73 |
 |----|--------|---------|---------|---------|
@@ -87,7 +87,7 @@ Seuraavassa taulukossa ovat [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelma
 4. Syötä **Maksuviittaus**-kenttään toimittajan laskun 15 numeron sarja.  
 
     > [!Tip]
-    > Sinun on syötettävä numerosta vain 11 viimeistä numeroa. [!INCLUDE[d365fin](includes/d365fin_md.md)] lisää numeron alkuun neljä nollaa.  
+    > Sinun on syötettävä numerosta vain 11 viimeistä numeroa. [!INCLUDE[prod_short](includes/prod_short.md)] lisää numeron alkuun neljä nollaa.  
 
 5. Kirjaa lasku.
 
@@ -105,6 +105,6 @@ Seuraavassa taulukossa ovat [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelma
 
 ## <a name="see-also"></a>Katso myös .
 
-[Business Central -sovelluksen mukauttaminen [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmaa varten laajennusten avulla](ui-extensions.md)  
+[Business Central -sovelluksen mukauttaminen [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmaa varten laajennusten avulla](ui-extensions.md)  
 [Maksujen kerääminen SEPA-suoraveloitusperintänä.](finance-collect-payments-with-sepa-direct-debit.md)  
 [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md)  

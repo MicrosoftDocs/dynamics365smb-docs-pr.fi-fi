@@ -10,25 +10,25 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.reviewer: edupont
 ms.date: 10/01/2020
-ms.author: jenolson
-ms.openlocfilehash: dde6797139f383948d72c52ca1d05298a280087b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.author: edupont
+ms.openlocfilehash: f2d8d556ca4628a66c10f323f47137cd35732a68
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915208"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757290"
 ---
 # <a name="intelligent-cloud-extensions-for-cloud-migration"></a>Pilvisiirron älykkäät pilvilaajennukset
 
-Paikallisen ratkaisun mukaan sinun on käytettävä eri laajennuksia, jotta voisit yhdistää tiedot [!INCLUDE[prodshort](includes/prodshort.md)] -verkkoon, jotta voisit siirtää ratkaisun pilveen.  
+Paikallisen ratkaisun mukaan sinun on käytettävä eri laajennuksia, jotta voisit yhdistää tiedot [!INCLUDE[prod_short](includes/prod_short.md)] -verkkoon, jotta voisit siirtää ratkaisun pilveen.  
 
-Jos käytät jotakin tuettua paikallista tuotetta, voit määrittää pilviympäristön tuotekohtaisen laajennuksen perusteella. Kun pilviympäristö on määritetty, voit siirtää paikallisen ratkaisun tiedot [!INCLUDE[prodshort](includes/prodshort.md)]iin. Tämän jälkeen voit käyttää pilveä ja hyödyntää sitä liiketoiminnassa. Saat entistä enemmän tietoja liiketoiminnasta sekä voit käyttää tekoälyä ja useita laitteita milloin tahansa ja missä tahansa.  
+Jos käytät jotakin tuettua paikallista tuotetta, voit määrittää pilviympäristön tuotekohtaisen laajennuksen perusteella. Kun pilviympäristö on määritetty, voit siirtää paikallisen ratkaisun tiedot [!INCLUDE[prod_short](includes/prod_short.md)]iin. Tämän jälkeen voit käyttää pilveä ja hyödyntää sitä liiketoiminnassa. Saat entistä enemmän tietoja liiketoiminnasta sekä voit käyttää tekoälyä ja useita laitteita milloin tahansa ja missä tahansa.  
 
-Lisätietoja on kohdassa [Paikallisten tietojen siirtäminen Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) -ohjelmaan [!INCLUDE[prodshort](includes/prodshort.md)]-hallintasisällössä .  
+Lisätietoja on kohdassa [Paikallisten tietojen siirtäminen Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) -ohjelmaan [!INCLUDE[prod_short](includes/prod_short.md)]-hallintasisällössä .  
 
 ## <a name="business-central-on-premises"></a>Paikallinen Business Central
 
-Jos käytät [!INCLUDE[prodshort](includes/prodshort.md)]in paikallista versiota, hanki **Älykäs Pilvipohja**, sekä **Business Central Älykäs Pilvi** -laajennukset, ja suorita sitten **Pilveen siirron määritys** -avustettu aloitusopas.  
+Jos käytät [!INCLUDE[prod_short](includes/prod_short.md)]in paikallista versiota, hanki **Älykäs Pilvipohja**, sekä **Business Central Älykäs Pilvi** -laajennukset, ja suorita sitten **Pilveen siirron määritys** -avustettu aloitusopas.  
 
 ## <a name="dynamics-gp"></a>Dynamics GP
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 192ce7cfea150e78bfdcac6961e529046c920e21
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8aef21c49c92e7440723a7cdff8ba68c3ae507b6
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915008"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756990"
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Kenttien lisääminen Word-raporttiasetteluun
 Raportin tietojoukko voi sisältää kenttiä, joissa näkyvät otsikot, tiedot ja kuvat. Tässä ohjeaiheessa käsitellään raportin tietojoukon kenttien lisääminen olemassa olevaan raportin Word-raporttiasetteluun. Lisäät kenttiä käyttämällä raportille mukautettua XML-osaa ja lisäämällä sisällön ohjausobjekteja, jotka on yhdistetty raportin tietojoukon kenttiin. Kenttien lisääminen edellyttää, että tunnet jonkin raportin tietojoukon niin, että voit tunnistaa kentät, jotka haluat lisätä asetteluun.  
@@ -35,7 +35,7 @@ Raportin tietojoukko voi sisältää kenttiä, joissa näkyvät otsikot, tiedot 
   
 3.  Valitse **Kehittäjä**-välilehdellä **XML-yhdistäminen-ruutu**.  
   
-4.  Valitse avattavan **Mukautettu XML-osa** -luettelon **XML-yhdistäminen**-ruudussa mukautettu XML-osa ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> -raporttiin. Tämä raportti on yleensä luettelossa viimeisenä. Mukautetun XML-osan nimen muoto on seuraava:  
+4.  Valitse avattavan **Mukautettu XML-osa** -luettelon **XML-yhdistäminen**-ruudussa mukautettu XML-osa ADD INCLUDE<!--[!INCLUDE[prod_short](../../includes/prod_short.md)]--> -raporttiin. Tämä raportti on yleensä luettelossa viimeisenä. Mukautetun XML-osan nimen muoto on seuraava:  
   
      urn:microsoft-dynamics-nav/reports/*report_name*/*ID*  
   
@@ -78,7 +78,7 @@ Raportin tietojoukko voi sisältää kenttiä, joissa näkyvät otsikot, tiedot 
  Kuvat kohdistuvat automaattisesti sisällön hallinnan vasempaan yläkulmaan ja niiden koko muuttuu automaattisesti vastaamaan sisällön hallinnan rajoja.  
   
 > [!IMPORTANT]  
->  Voit lisätä vain kuvia, joiden muotoa Word tukee (esimerkiksi .bmp-, .png- ja .jpeg-tiedostotyypit). Jos lisäät sellaisen kuvan, jota Word ei tue, näyttöön avautuu virhesanoma, kun suoritat raportin ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> -asiakasohjelmasta.  
+>  Voit lisätä vain kuvia, joiden muotoa Word tukee (esimerkiksi .bmp-, .png- ja .jpeg-tiedostotyypit). Jos lisäät sellaisen kuvan, jota Word ei tue, näyttöön avautuu virhesanoma, kun suoritat raportin ADD INCLUDE<!--[!INCLUDE[prod_short](../../includes/prod_short.md)]--> -asiakasohjelmasta.  
   
 #### <a name="to-add-an-image"></a>Kuvan lisääminen  
   
@@ -99,8 +99,8 @@ Seuraavassa taulukossa on yksinkertaistettu yhteenveto mukautetun XML-osan XML-k
 |------------------|-----------------|  
 |`<?xml version="1.0" encoding="utf-16"?>`|Otsikko|  
 |`<WordReportXmlPart xmlns="urn:microsoft-dynamics-365/report/<reportname>/<id>/"`|XML-nimitilan määritys. `<reportname>` on raportille määritetty nimi. `<id>` on raportille määritetty tunnus.|  
-|`..<Labels>`<br /><br /> `....<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`<br /><br /> `....<LabelName>LabelCaption</LabelName>`<br /><br /> `..</Labels>`|Sisältää kaikki raportin otsikot.<!--OnPren The element includes labels that are related to columns that have the [IncludeCaption Property](../FullExperience/Name%20Property-duplicate.md).--><br />-   Sarakkeisiin liittyvien otsikkoelementtien muoto on `<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`<!--OnPrem where `ColumnName` is determined by the column's Name Property.-->.<br />-  Otsikkoelementtien muoto on `<LabelName>LabelName</LabelName`<!--OnPrem where LabelName is determined by the label's Name Property.-->.<br />-   Otsikot ovat aakkosjärjestyksessä.|  
-|`..<DataItem1>`<br /><br /> `....<DataItem1Column1>DataItem1Column1</DataItem1Column1>`|Ylimmän tason tietokohde ja sarakkeet. Sarakkeet ovat aakkosjärjestyksessä.<!--OnPrem <br /><br /> The element names and values are determined by the [Name Property-duplicate](../FullExperience/Name%20Property-duplicate.md) of the data item or column.-->|  
+|`..<Labels>`<br /><br /> `....<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`<br /><br /> `....<LabelName>LabelCaption</LabelName>`<br /><br /> `..</Labels>`|Sisältää kaikki raportin otsikot.<!--OnPren The element includes labels that are related to columns that have the IncludeCaption Property.--><br />-   Sarakkeisiin liittyvien otsikkoelementtien muoto on `<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`<!--OnPrem where `ColumnName` is determined by the column's Name Property.-->.<br />-  Otsikkoelementtien muoto on `<LabelName>LabelName</LabelName`<!--OnPrem where LabelName is determined by the label's Name Property.-->.<br />-   Otsikot ovat aakkosjärjestyksessä.|  
+|`..<DataItem1>`<br /><br /> `....<DataItem1Column1>DataItem1Column1</DataItem1Column1>`|Ylimmän tason tietokohde ja sarakkeet. Sarakkeet ovat aakkosjärjestyksessä.<!--OnPrem <br /><br /> The element names and values are determined by the Name Property of the data item or column.-->|  
 |`....<DataItem2>`<br /><br /> `......<DataItem2Column1>DataItem2Column1</DataItem2Column1>`<br /><br /> `....</DataItem2>`<br /><br /> `....<DataItem3>`<br /><br /> `......<DataItem3Column1>DataItem3Column1</DataItem3Column1>`<br /><br /> `....</DataItem3>`|Tietojen kohteet ja sarakkeet, jotka sisältyvät ylimmän tason tietokohteeseen. Sarakkeet näkyvät aakkosjärjestyksessä vastaavien tietojen kohdassa.|  
 |`..</DataItem1>`<br /><br /> `</WordReportXmlPart>`|Elementin sulkeminen.|  
   
@@ -119,7 +119,7 @@ Seuraavassa taulukossa on yksinkertaistettu yhteenveto mukautetun XML-osan XML-k
   
 -   Otsikoissa varsinainen luodussa raportissa näkyvä teksti on **Otsikko**-ominaisuuden arvo tietoyksikkötaulukon kentälle (jos otsikko liittyy raportin tietojoukon sarakkeeseen) tai raportin otsikkosuunnittelijan otsikkoon (jos otsikko ei liity tietojoukon sarakkeeseen).  
   
--   Raportin suorituksen aikana näkyvä tunnuksen kieli määräytyy raporttiobjektin kieliasetuksen perusteella. <!--OnPrem For more information, see [Multiple Document Languages](../FullExperience/Viewing%20the%20Application%20in%20Different%20Languages.md).-->  
+-   Raportin suorituksen aikana näkyvä tunnuksen kieli määräytyy raporttiobjektin kieliasetuksen perusteella.  
   
 ## <a name="see-also"></a>Katso myös  
  [Raporttien mukautetun asettelun luominen ja muokkaaminen](ui-how-create-custom-report-layout.md)   

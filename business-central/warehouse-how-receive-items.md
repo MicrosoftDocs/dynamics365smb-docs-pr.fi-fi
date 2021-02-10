@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f78a4e0220ac3c933a6b00300dee4b389c5ea4cc
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 9b58caa880dce813439a2ce4ab2b9da8dccddae5
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911944"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756340"
 ---
 # <a name="receive-items"></a>Nimikkeiden vastaanottaminen
 
@@ -123,7 +123,7 @@ Kun käsittelet vastaanoton ylittävää määrää, voit suurentaa arvoa **Vast
 2. Kirjaa vastaanotto samalla tavalla kuin muut vastaanotot.
 
 > [!NOTE]
-> [!INCLUDE[d365fin](includes/d365fin_md.md)] ei sisällä toimintoja, jotka käynnistävät automaattisesti ylimääräisten määrien vastaanoton hallinnan. Tämä on käsiteltävä manuaalisesti yhdessä toimittajan kanssa esimerkiksi niin, että toimittaja lähettää uuden tai päivitetyn laskun.
+> [!INCLUDE[prod_short](includes/prod_short.md)] ei sisällä toimintoja, jotka käynnistävät automaattisesti ylimääräisten määrien vastaanoton hallinnan. Tämä on käsiteltävä manuaalisesti yhdessä toimittajan kanssa esimerkiksi niin, että toimittaja lähettää uuden tai päivitetyn laskun.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/receive-invoice-dynamics-d365-business-central/index)
 
@@ -134,4 +134,4 @@ Kun käsittelet vastaanoton ylittävää määrää, voit suurentaa arvoa **Vast
 [Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md)  
 [Kokoonpanon hallinta](assembly-assemble-items.md)  
 [Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  

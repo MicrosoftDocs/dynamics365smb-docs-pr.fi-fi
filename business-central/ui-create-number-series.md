@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: numbers, numbering
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 75a841fd2d6bf8321f15bb0a6fe88d41bf152308
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b61f4fb5cdcee284b183a08c70224348c99530cd
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912644"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757615"
 ---
 # <a name="create-number-series"></a>Numerosarjojen luominen
 Jokaiselle yritykselle on määritettävä yksilölliset tunnuskoodit esimerkiksi pääkirjanpidon tilejä, asiakas- ja toimittajatilejä, laskuja ja muita asiakirjoja varten. Numerointi ei ole tärkeää pelkästään tunnistamisen kannalta. Hyvin suunniteltu numerointijärjestelmä helpottaa myös yrityksen hallittavuutta ja analysointia ja voi vähentää tietojen syötössä tapahtuvien virheiden määrää.
@@ -26,7 +26,7 @@ Jokaiselle yritykselle on määritettävä yksilölliset tunnuskoodit esimerkiks
 Jos haluat sallia aukot tietyissä numerosarjoissa, varmista ensin tilintarkistajalta tai talouspäälliköltä, että noudatat maan tai alueen lakisääteisiä vaatimuksia. Lisätietoja on kohdassa [Numerosarjojen aukot](ui-create-number-series.md#gaps-in-number-series).
 
 > [!NOTE]  
->   On suositeltavaa käyttää niitä numerosarjan koodeja, jotka on mainittu CRONUS-esittely-yrityksen **Numerosarjaluettelo**-sivulla. Koodit, kuten *O-LASKU+*, eivät ehkä avaudu heti, mutta [!INCLUDE[d365fin](includes/d365fin_md.md)]issa on tiettyjä oletusasetuksia, jotka perustuvat näihin numerosarjan koodeihin.
+>   On suositeltavaa käyttää niitä numerosarjan koodeja, jotka on mainittu CRONUS-esittely-yrityksen **Numerosarjaluettelo**-sivulla. Koodit, kuten *O-LASKU+*, eivät ehkä avaudu heti, mutta [!INCLUDE[prod_short](includes/prod_short.md)]issa on tiettyjä oletusasetuksia, jotka perustuvat näihin numerosarjan koodeihin.
 
 Numerointijärjestelmä luodaan määrittämällä koodeja kullekin perustietotyypille tai asiakirjalle. Voit määrittää koodin esimerkiksi asiakkaiden, myyntilaskujen ja yleisten päiväkirjojen numerointia varten. Kun olet määrittänyt koodin, sinun on määritettävä vähintään yksi numerosarjarivi. Numerosarjarivit sisältävät erilaisia tietoja, kuten sarjan ensimmäisen ja viimeisen numeron sekä alkupäivämäärän. Voit määrittää yhtä numerosarjakoodia kohti useita numerosarjarivejä, joilla kullakin on eri alkupäivämäärä. Numerosarjoja käytetään peräkkäin kulloisestakin alkupäivämäärästä alkaen.
 
@@ -35,7 +35,7 @@ Numerosarjat määritetään yleensä lisäämään seuraava peräkkäinen numer
 Jos haluat käyttää useita numerosarjakoodeja yhdelle perustietotyypille (esimerkiksi silloin, kun haluat eri numerosarjoja eri nimikeluokille), voit käyttää numerosarjasuhteita.
 
 ## <a name="gaps-in-number-series"></a>Numerosarjojen aukot
-Kaikki [!INCLUDE[d365fin](includes/d365fin_md.md)]issa luotavat tietueet eivät ole rahoitustapahtumia, joissa on käytettävä peräkkäisiä numeroita. Esimerkiksi asiakaskortit, myyntitarjoukset ja varastotoiminnot ovat tietueita, joille määritetään numerosarjan mukainen numero mutta joita tilintarkastus ei koske ja/tai jotka voidaan poistaa. Tällaisissa numerosarjoissa **Salli välit numeroissa** -valintaruudun voi valita **Nrosarjojen rivit** -sivulla. Tämän asetuksen voi muuttaa myös numerosarjan luomisen jälkeen. Lisätietoja on kohdassa [Uuden numerosarjan luominen](ui-create-number-series.md#to-create-a-new-number-series).
+Kaikki [!INCLUDE[prod_short](includes/prod_short.md)]issa luotavat tietueet eivät ole rahoitustapahtumia, joissa on käytettävä peräkkäisiä numeroita. Esimerkiksi asiakaskortit, myyntitarjoukset ja varastotoiminnot ovat tietueita, joille määritetään numerosarjan mukainen numero mutta joita tilintarkastus ei koske ja/tai jotka voidaan poistaa. Tällaisissa numerosarjoissa **Salli välit numeroissa** -valintaruudun voi valita **Nrosarjojen rivit** -sivulla. Tämän asetuksen voi muuttaa myös numerosarjan luomisen jälkeen. Lisätietoja on kohdassa [Uuden numerosarjan luominen](ui-create-number-series.md#to-create-a-new-number-series).
 
 ## <a name="behavior-of-the-no-field-on-documents-and-cards"></a>Nro-kentän toiminta asiakirjoissa ja korteissa
 Myynti-, osto- ja siirtoasiakirjojen ja korttien **Nro** voidaan täyttää automaattisesti numerosarjasta tai manuaalisesti. Lisäksi voidaan määrittää näkymättömäksi.
@@ -85,5 +85,5 @@ Kun tarvitset numeron voit käyttää niitä suhteita, joita on luotu numerosarj
 ## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/number-series-trail-codes-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Katso myös
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittäminen](setup.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)]in määrittäminen](setup.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  

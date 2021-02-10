@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dff5ad97f8fa4b8fecf2906806d74283b46fd95d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: dc96e0f21a85e98bc871cf90972d397f70e1eb44
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914908"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756691"
 ---
 # <a name="finding-pages-with-the-role-explorer"></a>Sivujen etsiminen roolienhallinnan avulla
 Saat yleiskuvan kaikista roolin käytössä olevista liiketoimintaominaisuuksista ja muiden roolien toiminnoista, jos siirryt yhden vaiheen eteenpäin. Seuraavassa dokumentaatiossa tätä ominaisuutta kutsutaan *Roolienhallinnaksi*.
 
-Jokainen roolienhallinnan elementti on sivun avaava toiminto. Niinpä voitkin siirtyä [!INCLUDE[d365fin](includes/d365fin_md.md)]issa roolienhallinnan avulla.
+Jokainen roolienhallinnan elementti on sivun avaava toiminto. Niinpä voitkin siirtyä [!INCLUDE[prod_short](includes/prod_short.md)]issa roolienhallinnan avulla.
 
 Voit avata roolienhallinnan roolikeskuksesta ja kaikilta luettelosivuilta sekä **Kerro, mitä haluat tehdä** -ikkunasta.
 
@@ -44,4 +44,4 @@ Sivujen avoimet toiminnot on järjestetty ominaisuuksien tai sovellusalueiden mu
 ## <a name="see-also"></a>Katso myös
 [Sivujen ja tietojen etsiminen Kerro, mitä haluat tehdä -toiminnolla](ui-search.md)  
 [Profiilien hallinta](admin-users-profiles-roles.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)

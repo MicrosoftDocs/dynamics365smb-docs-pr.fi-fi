@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8b29f96f37448c2ca6eb02330946171adb5f04b9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4b112bf05c1bbc6110ce3b5a439c81a96759d1bf
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925570"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756765"
 ---
 # <a name="personalize-your-workspace"></a>Työtilan mukauttaminen
 Voit mukauttaa työtilan työskentelyysi ja valintoihisi sopivaksi muuttamalla sivujen ulkoasua siten, että vain tarvitsemasi tiedot näkyvät siellä, missä niitä tarvitset. Mukauttamalla tehdyt muutokset koskevat vain omaa näkymääsi; muut käyttäjät eivät siis näe mukautuksiasi.
@@ -55,7 +55,7 @@ Muiden mukautusten tavoin sarakkeen leveyteen tehdyt muutokset tallennetaan tili
 4. Vedä ja pudota kenttä **Lisää kenttä sivulle** -ruudusta sopivaan paikkaan sivulla.
 5. Voit muuttaa käyttöliittymän elementtiä osoittamalla elementtiä, kuten toimintoa, kenttää tai osaa. Elementti valitaan, minkä osoituksena on nuolenpää tai raja.
 6. Valitse ensin elementti ja sitten joko **Siirrä**, **Poista**, **Piilota**, **Näytä**, **Näytä kohdassa ”Näytä lisää”**, **Näytä, kun tiivistetty**, **Näytä aina**, **Määritä tai tyhjennä kiinnitysruutu** tai **Sisällytä pikatapahtumaan tai Sulje pois pikatapahtumasta** käyttöliittymäelementin tyypin ja tilan mukaan. Lisätietoja on kohdassa [Mukautettavat toimet](#What).
-7. Kun olet muuttanut yhden tai usean sivun asettelua, valitse**Mukauttaminen**-palkissa **Valmis**-painike.
+7. Kun olet muuttanut yhden tai usean sivun asettelua, valitse **Mukauttaminen**-palkissa **Valmis**-painike.
 
 ## <a name="what-you-can-personalize"></a><a name="What"></a>Mukautettavat toimet
 
@@ -143,6 +143,6 @@ Seuraavat seikat auttavat ymmärtämään mukauttamista entistä paremmin.
 
 ## <a name="see-also"></a>Katso myös
 [Profiilien sivujen mukauttaminen](ui-personalization-manage.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Perusasetusten muuttaminen](ui-change-basic-settings.md)  
 [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md)  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2e8dcdaa2cf275ff439257bc7146f90ab753f32f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 36a4bdea7967544ad19cb562077a8bdf498dc655
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915308"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757865"
 ---
 # <a name="post-service-orders-and-credit-memos"></a>Huoltotilausten ja hyvityslaskujen kirjaaminen
 Kun huoltotilaus on luotu, tarpeelliset tiedot on täytetty ja muutokset tehty, huoltotilauksen voi kirjata. Tilauksessa tulee olla vähintään yksi huoltonimikerivi ja yksi huoltorivi, ennen kuin sen voi kirjata. Jos tilaus sisältää useita huoltorivejä, kaikki rivit kirjataan kerralla.  
@@ -85,7 +85,7 @@ Seuraavassa ohjeessa neuvotaan, miten kirjataan nimikkeet, resurssitunnit ja/tai
 Huolto kirjataan joko kokonaan tai osittain käytettynä, riippuen **Kulutettava määrä** -kentän arvosta, ja liittyvät päiväkirjamerkinnät luodaan. Lisäksi aiemmin kirjatut huoltotoimitusasiakirjat päivitetään aikajärjestyksessä kulutettujen määrien kanssa. Määrät päivitetään tilauksen huoltoriveillä.  
 
 ## <a name="to-post-shipments-from-service-orders"></a>Toimitusten kirjaaminen huoltotilauksista  
-Huollon tietojen määrityksen jälkeen voit muuttaa ja kirjata käytettyjen nimikkeiden määrät, käytetyn ajan ja aiheutuneet kustannukset. Tämän jälkeen [!INCLUDE[d365fin](includes/d365fin_md.md)] tekee tarvittavat muutokset varaston nykyisen tilan ja tietyn tilauksen käsittelyn nykyisen tilan mukaan.  
+Huollon tietojen määrityksen jälkeen voit muuttaa ja kirjata käytettyjen nimikkeiden määrät, käytetyn ajan ja aiheutuneet kustannukset. Tämän jälkeen [!INCLUDE[prod_short](includes/prod_short.md)] tekee tarvittavat muutokset varaston nykyisen tilan ja tietyn tilauksen käsittelyn nykyisen tilan mukaan.  
 
 Seuraavassa ohjeessa neuvotaan, miten kirjataan toimitus huoltorivin nimikkeille, jotka ovat sijainneissa, joissa ei vaadita varastonhallintaa.  
 
@@ -97,7 +97,7 @@ Seuraavassa ohjeessa neuvotaan, miten kirjataan toimitus huoltorivin nimikkeille
 
 4. Valitse **Kirjaa**-toiminto. valitse näyttöön tulevalla sivulla **Toimita** -painike.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] luo tapahtumat (takuu-, nimike-, huolto- tai kirjanpitotapahtuma), luo kirjatun huoltotoimitusasiakirjan ja päivittää huoltotilauksen huoltorivien kentät.  
+[!INCLUDE[prod_short](includes/prod_short.md)] luo tapahtumat (takuu-, nimike-, huolto- tai kirjanpitotapahtuma), luo kirjatun huoltotoimitusasiakirjan ja päivittää huoltotilauksen huoltorivien kentät.  
 
 Jos sijainti on määritetty niin, että fyysisen varaston käsittely on pakollinen, huoltonimikerivien toimitus ja siirtäminen tapahtuu samalla tavalla kuin muissa lähdeasiakirjoissa. Ainoa ero on, että huoltorivin nimikkeet voidaan käyttää joko ulkoisesti tai sisäisesti, ja vaativat sen vuoksi kaksi eri vapautustoimintoa.  
 

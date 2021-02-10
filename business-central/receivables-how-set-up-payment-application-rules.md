@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 37b999dd9000ac9833798f827f85bfd945878638
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6ffd2a12d399f0a05517d9e1031df3227aa7248a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926395"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758340"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Automaattinen maksujen soveltamisen sääntöjen määrittäminen
 
@@ -51,10 +51,10 @@ Kohdistustietojen lisäksi seuraavaa sovelletaan maksumäärän etumerkkiin:
 |**Asiak. nro / Ulk. asiak. nro vastaavuus**|Määrittää, pitääkö maksujen täsmäytyskirjauskansion rivin tekstin vastata avoimen tapahtuman **Asiakirjan nro**- vai **Ulkoisen asiakirjan nro** - kentän arvoa, ennen kuin kohdistussääntö automaattisesti kohdistaa maksun avoimeen tapahtumaan.|
 |**Kohdistustoleranssin sis. summa**|Määrittää, kuinka monen asiakkaan tai toimittajan tapahtumanon vastattava summaa, maksutoleranssi mukaan lukien, ennen kuin kohdistussääntöä käytetään automaattisesti kohdistamaan maksu avoimeen tapahtumaan.|
 
-Seuraavassa taulukossa on esitetty, mitä maksun kohdistuksen sääntöjä [!INCLUDE[d365fin](includes/d365fin_md.md)]-järjestelmän yleisessä versiossa on määritetty.
+Seuraavassa taulukossa on esitetty, mitä maksun kohdistuksen sääntöjä [!INCLUDE[prod_short](includes/prod_short.md)]-järjestelmän yleisessä versiossa on määritetty.
 
 > [!Important]
-> Maksun kohdistussäännöt saattavat vaihdella [!INCLUDE[d365fin](includes/d365fin_md.md)]-järjestelmän asennuksessasi.
+> Maksun kohdistussäännöt saattavat vaihdella [!INCLUDE[prod_short](includes/prod_short.md)]-järjestelmän asennuksessasi.
 
 | Vastaavuuden luotettavuus | Prioriteetti | Liittyvän osapuolen vastaavuus | Asiak. nro / Ulk. asiak. nro Vastaavuus | Kohdistustoleranssin sis. summa |
 |------------------|----------|-----------------------|--------------------------------|--------------------------------|
@@ -89,4 +89,4 @@ Seuraavassa taulukossa on esitetty, mitä maksun kohdistuksen sääntöjä [!INC
 [Maksujen täsmäyttäminen käyttämällä automaattista kohdistusta](receivables-how-reconcile-payments-auto-application.md)  
 [Myyntisaamisten hallinta](receivables-manage-receivables.md)  
 [Myynti](sales-manage-sales.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 47c7add8c281a28c1b9beaecc18d28f5e1041a3c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 23bfdd962bb2877d980c1dc6f0b4406ad3497c6c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912869"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757740"
 ---
 # <a name="setup-best-practices-reordering-policies"></a>Asetukset - parhaat käytännöt: uusintatilaustavat
 **Uusintatilaustapa**-kenttä nimikekorteissa antaa neljä eri suunnittelumetodia, jotka määrittävät, kuinka yksittäiset suunnitteluparametrit käyttäytyvät.  
@@ -28,7 +28,7 @@ Yksi hyvä perusta uusintatilaustavan valitsemiseen on nimikkeen ABC-luokittelu.
 |B|20|20|
 |N|60-70|10-30|
 
-ABC-luokittelun mukaisesti vaivaa ja rahaa voidaan säästää soveltamalla matalampiarvoisiin nimikkeisiin alemmantasoista valvontaa kuin korkea-arvoisiin nimikkeisiin. Seuraavassa kuvassa näytetään, mikä [!INCLUDE[d365fin](includes/d365fin_md.md)]:n sopivin kullekin A,- B,- ja C-kohteille.
+ABC-luokittelun mukaisesti vaivaa ja rahaa voidaan säästää soveltamalla matalampiarvoisiin nimikkeisiin alemmantasoista valvontaa kuin korkea-arvoisiin nimikkeisiin. Seuraavassa kuvassa näytetään, mikä [!INCLUDE[prod_short](includes/prod_short.md)]:n sopivin kullekin A,- B,- ja C-kohteille.
 
 ![ABC-luokittelu](media/abc_classification.png "abc_classification")
 
@@ -45,4 +45,4 @@ Seuraava taulukko sisältää parhaat käytännöt neljästä tavasta valitsemis
  [Asetukset - parhaat käytännöt: toimitusten suunnittelu](setup-best-practices-supply-planning.md)   
  [Rakennetiedot: uusintatilauskäytäntöjen käsittely](design-details-handling-reordering-policies.md)   
  [Monimutkaisten sovellusalueiden määrittäminen parhaiden käytäntöjen avulla](set-up-complex-application-areas-using-best-practices.md)  
- [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+ [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)

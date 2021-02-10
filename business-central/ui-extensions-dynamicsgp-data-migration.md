@@ -11,21 +11,21 @@ ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 10/01/2020
 ms.author: edupont
 ROBOTS: NOINDEX
-ms.openlocfilehash: 7c17c5f54553e7960f4386918bda640fa2e0380e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a8f6c35d031cdbe6376ed57ea9ba2e9ce79188b4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915183"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757265"
 ---
 # <a name="the-dynamics-gp-data-migration-extension"></a>Dynamics GP:n tietojen siirron laajennus
 
 > [!NOTE]
-> Laajennus poistetaan käytöstä 15.3-päivityksellä. Microsoft suosittelee, että käyttäjät, jotka haluavat siirtyä Dynamics GP:hen, alkavat sen sijaan käyttää ohjattua **Pilvitoimintojen siirtämistä**. **Pilvitoimintojen siirtäminen** -laajennuksessa on entistä vankempi toiminnallisuus, ja se tuo lisää tietoja Business Centralin Dynamics GP -toiminnosta. Lisätietoja on kohdassa [Siirtyminen Business Central Onlineen Dynamics GP:stä](/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp) [!INCLUDE[prodshort](includes/prodshort.md)]in -hallintasisällössä.
+> Laajennus poistetaan käytöstä 15.3-päivityksellä. Microsoft suosittelee, että käyttäjät, jotka haluavat siirtyä Dynamics GP:hen, alkavat sen sijaan käyttää ohjattua **Pilvitoimintojen siirtämistä**. **Pilvitoimintojen siirtäminen** -laajennuksessa on entistä vankempi toiminnallisuus, ja se tuo lisää tietoja Business Centralin Dynamics GP -toiminnosta. Lisätietoja on kohdassa [Siirtyminen Business Central Onlineen Dynamics GP:stä](/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp) [!INCLUDE[prod_short](includes/prod_short.md)]in -hallintasisällössä.
 
 ## <a name="see-also"></a>Katso myös
 
 [Pilvisiirron älykkäät pilvilaajennukset](ui-extensions-data-replication.md)  
 [Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md)  
-[[!INCLUDE[prodshort](includes/prodshort.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md)  
 [Siirtyminen Business Centralin Onlineen Dynamics GP:stä](/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp)  

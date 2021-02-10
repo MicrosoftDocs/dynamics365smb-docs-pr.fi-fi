@@ -10,16 +10,16 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 34acbbf383048c6ef411797dfb1afcb51f7f6b40
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 36b6eb6970daef6ea2e3aafc28ed232942707728
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912269"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757115"
 ---
 # <a name="the-quickbooks-data-migration-extension"></a>QuickBooks-tietojen siirtolaajennus
 
-Tämän laajennuksen avulla asiakkaat, toimittajat, nimikkeet ja tilit on helppo siirtää QuickBooksista [!INCLUDE[d365fin](includes/d365fin_md.md)]iin. Jos yrityksessä on käytössä QuickBooks, voit viedä tarpeelliset tiedot ja ladata ne sitten [!INCLUDE[d365fin](includes/d365fin_md.md)]iin avaamalla avustetun asennusoppaan.  
+Tämän laajennuksen avulla asiakkaat, toimittajat, nimikkeet ja tilit on helppo siirtää QuickBooksista [!INCLUDE[prod_short](includes/prod_short.md)]iin. Jos yrityksessä on käytössä QuickBooks, voit viedä tarpeelliset tiedot ja ladata ne sitten [!INCLUDE[prod_short](includes/prod_short.md)]iin avaamalla avustetun asennusoppaan.  
 Lisätietoja on kohdassa [Tietojen tuominen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md).
 
 ## <a name="data-from-quickbooks-desktop"></a>Tietoja QuickBooks Desktopista
@@ -50,7 +50,7 @@ Siirtoprosessiin olennaisesti kuuluva osa on määrittää tilit, joihin tapahtu
 Business Central edellyttää, että KP-tileille on määritetty tilinumerot. Varmista, että QuickBooks-tileille on määritetty tilinumerot.
 QuickBooksin tapahtumissa on verosummia, Business Centralissa on määritettävä veroalueen verotili ennen tapahtumien kirjaamista.
 
-Tietojen saaminen QuickBooks Desktop -sovelluksesta edellyttää Microsoftin tietojen vientityökalun lataamista.  Työkalun ohjeet ovat [!INCLUDE[d365fin](includes/d365fin_md.md)]in ohjatussa tietojen siirtotoiminnossa. Työkalu muodostaa yhteyden QuickBooks-sovellukseen ja vie soveltuvat tiedot .zip-tiedostoon.  
+Tietojen saaminen QuickBooks Desktop -sovelluksesta edellyttää Microsoftin tietojen vientityökalun lataamista.  Työkalun ohjeet ovat [!INCLUDE[prod_short](includes/prod_short.md)]in ohjatussa tietojen siirtotoiminnossa. Työkalu muodostaa yhteyden QuickBooks-sovellukseen ja vie soveltuvat tiedot .zip-tiedostoon.  
 
 > [!NOTE]
 > Tällä hetkellä tietojen vientityökalua voi käyttää vain QuickBooks 2017:n ja 2018:n kanssa.
@@ -69,4 +69,4 @@ Tarkista pääkirjanpidon tilien alkusaldot. QuickBooks ei tallenna kaikkien til
 ## <a name="see-also"></a>Katso myös
 
 [Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md)  

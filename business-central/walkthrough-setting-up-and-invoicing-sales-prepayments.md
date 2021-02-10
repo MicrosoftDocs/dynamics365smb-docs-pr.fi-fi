@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e94bef3f127d52ca7ee5c7e31f0f126e57b44210
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f3a02f54863bf7d0bf6e6e2db03e16e8bedd53c6
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914808"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756415"
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Vaihekuvaus: Myynnin ennakkomaksujen määrittäminen ja laskuttaminen
 
 [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
 
-Ennakkomaksut ovat maksuja, jotka on laskutettu sekä kirjattu myynti- tai ostoennakkomaksun tilaukseen ennen lopullista laskutusta. Voit edellyttää, että ennakkomaksu maksetaan ennen tilattujen tuotteiden valmistamista tai että maksu suoritetaan ennen nimikkeiden toimittamista asiakkaalle. Ennakkomaksutoimintojen avulla voit laskuttaa ja kerätä asiakkailta edellytettyjä talletuksia tai suorittaa talletuksia toimittajille [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmassa. Näin voit varmistaa, että kaikki maksut kirjataan laskua vastaan.  
+Ennakkomaksut ovat maksuja, jotka on laskutettu sekä kirjattu myynti- tai ostoennakkomaksun tilaukseen ennen lopullista laskutusta. Voit edellyttää, että ennakkomaksu maksetaan ennen tilattujen tuotteiden valmistamista tai että maksu suoritetaan ennen nimikkeiden toimittamista asiakkaalle. Ennakkomaksutoimintojen avulla voit laskuttaa ja kerätä asiakkailta edellytettyjä talletuksia tai suorittaa talletuksia toimittajille [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa. Näin voit varmistaa, että kaikki maksut kirjataan laskua vastaan.  
 
  Asiakkaalle tai toimittajalle voi määrittää joko kaikkia nimikkeitä tai valittuja nimikkeitä koskevia ennakkomaksuvaatimuksia. Kun olet määrittänyt tarvittavat asetukset, voit luoda osto- ja myyntitilauksista lasketun ennakkomaksun summan mukaisia ennakkomaksulaskuja. Voit muuttaa laskun oletussummia tarvittaessa. Voit myös esimerkiksi lähettää lisäennakkomaksulaskuja, jos tilaukseen esimerkiksi lisätään nimikkeitä.  
 
@@ -43,7 +43,7 @@ Ennakkomaksut ovat maksuja, jotka on laskutettu sekä kirjattu myynti- tai ostoe
 -   myyntireskontran hoitaja (Erik).  
 
 ## <a name="story"></a>Taustatietoja  
- Paula on talouspäällikkö. Hän tekee päätökset asiakkaista, joiden tarvitsee maksaa vakuus, ennen kuin osat valmistetaan tai toimitetaan. Paula määrittää [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman laskemaan ennakkomaksut automaattisesti.  
+ Paula on talouspäällikkö. Hän tekee päätökset asiakkaista, joiden tarvitsee maksaa vakuus, ennen kuin osat valmistetaan tai toimitetaan. Paula määrittää [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman laskemaan ennakkomaksut automaattisesti.  
 
  Susanna on myyntitilausten käsittelijä. Kun asiakas soittaa tilauksen, hän syöttää tilauksen järjestelmään sillä aikaa kun asiakas on puhelimessa. Tällä tavoin hän voi tarkistaa hinnat ja maksuehdot asiakkaan kanssa välittömästi, ja hän voi tehdä muutoksia järjestykseen, kun hän neuvottelee asiakkaan kanssa.  
 
@@ -208,14 +208,14 @@ Arto näkee historiasta, että myyntilasku on luotu tarkoituksellisesti.
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Kirjatut myyntilaskut** ja valitse sitten liittyvä linkki.  
 
 ## <a name="next-steps"></a>Seuraavat vaiheet  
-Tässä vaihekuvauksessa käsiteltiin vaiheita, joita noudattamalla [!INCLUDE[d365fin](includes/d365fin_md.md)] määritetään käsittelemään ennakkomaksuja. Asiakkaiden ja nimikkeiden ennakkomaksujen oletusprosenttien määrittäminen havainnollistettiin ja useita tilauksen ennakkomaksujen laskentatapoja käytiin läpi. Mukana oli myös tilanne, jossa tilaukseen pyrittiin määrittämään yksi ennakkomaksun kokonaissumma, jonka jälkeen ohjelma määritettiin laskemaan ennakkomaksusumma koko tilauksen prosenttiosuutena.  
+Tässä vaihekuvauksessa käsiteltiin vaiheita, joita noudattamalla [!INCLUDE[prod_short](includes/prod_short.md)] määritetään käsittelemään ennakkomaksuja. Asiakkaiden ja nimikkeiden ennakkomaksujen oletusprosenttien määrittäminen havainnollistettiin ja useita tilauksen ennakkomaksujen laskentatapoja käytiin läpi. Mukana oli myös tilanne, jossa tilaukseen pyrittiin määrittämään yksi ennakkomaksun kokonaissumma, jonka jälkeen ohjelma määritettiin laskemaan ennakkomaksusumma koko tilauksen prosenttiosuutena.  
 
 Vaihekuvauksessa käsiteltiin myös ennakkomaksulaskun kirjaamista, toisen ennakkomaksulaskun luomista tilauksen muuttumiseen jälkeen sekä jäljellä olevan summan lopullisen laskun kirjaamista.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman ennakkomaksutoiminnolla voit vaivattomasti määrittää sekä valvoa asiakkaiden ja nimikkeiden ennakkomaksusääntöjä. Ennakkomaksutoiminnon ansiosta voit myös kohdistaa jokaisen maksun laskuun.  
+[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman ennakkomaksutoiminnolla voit vaivattomasti määrittää sekä valvoa asiakkaiden ja nimikkeiden ennakkomaksusääntöjä. Ennakkomaksutoiminnon ansiosta voit myös kohdistaa jokaisen maksun laskuun.  
 
 ## <a name="see-also"></a>Katso myös  
 [Ennakkomaksujen laskuttaminen](finance-invoice-prepayments.md)  
 [Rahoitus](finance.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Liiketoimintaprosessien vaihekuvaukset](walkthrough-business-process-walkthroughs.md)

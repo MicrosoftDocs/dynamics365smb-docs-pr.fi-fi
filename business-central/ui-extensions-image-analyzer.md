@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: API, extension, Cognitive Services, image, computer vision, attribute, tag, recognition
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 4946eb43dd854f8f04b0c267a9ba1bc328cc62bb
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3957936f7a95ce493443ed86c791ebceee6b56b9
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915133"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757240"
 ---
 # <a name="the-image-analyzer-extension"></a>Kuvan analysointilaajennus
 
@@ -23,13 +23,13 @@ Kuvan analysointilaajennus havaitsee Microsoftin kognitiivisten palveluiden kone
 
 Kuvan analysointitoiminto ehdottaa määritteitä konenäön ohjelmointirajapinnan löytämien tunnisteiden ja luotettavuustasoon perusteella. Se ehdotta oletusarvoisesti määritteitä vain, jos sen luottamus määritteen oikeellisuuteen on vähintään 80 %. Voit määrittää tarvittaessa jonkin toisen luotettavuustason. Lisätietoja tunnisteiden ja luotettavuustason määrittämisestä on ohjeaiheessa [Konenäön ohjelmointirajapinta](https://go.microsoft.com/fwlink/?linkid=851476).  
 
-Kuvan analysointitoiminto on maksuton [!INCLUDE[d365fin](includes/d365fin_md.md)]issa, mutta tietyn ajanjakson aikana analysoitavien kuvien määrää on rajoitettu. Oletusarvoisesti kuukaudessa saa analysoida 100 kuvaa.
+Kuvan analysointitoiminto on maksuton [!INCLUDE[prod_short](includes/prod_short.md)]issa, mutta tietyn ajanjakson aikana analysoitavien kuvien määrää on rajoitettu. Oletusarvoisesti kuukaudessa saa analysoida 100 kuvaa.
 
 Kun laajennus on otettu käyttöön, kuvan analysointitoiminto suoritetaan aina, kun tuot nimikkeeseen tai kontaktihenkilöön kuvan. Näet määritteet, luottamustason ja tiedot heti ja voit määrittää, miten kutakin määritettä käsitellään. Jos toit kuvia ennen kuvan analysointilaajennuksen käyttöönottoa, sinun on siirryttävä nimikkeeseen tai kontaktikortteihin ja valittava **Analysoi kuva** -toiminto.  
 
 ## <a name="privacy-notice"></a>Tietosuojatiedot
 
-Tämä laajennus käyttää Microsoftin kognitiivisten palveluiden konenäön ohjelmointirajapintaa. Sen yhdenmukaisuussitoumusten tasot voivat olla erilaiset kuin [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksessa. Jos otat käyttöön kuvan analysointilaajennuksen, asiakastiedot, kuten kontaktin kuva ja nimikkeen kuva, lähetetään konenäön ohjelmointirajapinnalle. Kun asennat tämän laajennuksen, suostut siihen, että tämä rajoitettu määrä tietoja lähetetään konenäön ohjelmointirajapinnalle. Ota huomioon, että voit poistaa kuvan analysointilaajennuksen käytöstä tai poistaa sen asennuksen milloin tahansa, kun haluat keskeyttää tämän toiminnon käytön. Lisätietoja on [Microsoftin luottamuskeskuksessa](https://go.microsoft.com/fwlink/?linkid=851463).
+Tämä laajennus käyttää Microsoftin kognitiivisten palveluiden konenäön ohjelmointirajapintaa. Sen yhdenmukaisuussitoumusten tasot voivat olla erilaiset kuin [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksessa. Jos otat käyttöön kuvan analysointilaajennuksen, asiakastiedot, kuten kontaktin kuva ja nimikkeen kuva, lähetetään konenäön ohjelmointirajapinnalle. Kun asennat tämän laajennuksen, suostut siihen, että tämä rajoitettu määrä tietoja lähetetään konenäön ohjelmointirajapinnalle. Ota huomioon, että voit poistaa kuvan analysointilaajennuksen käytöstä tai poistaa sen asennuksen milloin tahansa, kun haluat keskeyttää tämän toiminnon käytön. Lisätietoja on [Microsoftin luottamuskeskuksessa](https://go.microsoft.com/fwlink/?linkid=851463).
 
 ## <a name="requirements"></a>Tarpeet
 
@@ -41,7 +41,7 @@ Kuvavaatimukset:
 
 ## <a name="to-enable-image-analyzer"></a>Kuvan analysointitoiminnon ottaminen käyttöön
 
-Kuvan analysointilaajennus sisältyy [!INCLUDE[d365fin](includes/d365fin_md.md)]iin. Sinun tarvitsee vain ottaa se käyttöön.
+Kuvan analysointilaajennus sisältyy [!INCLUDE[prod_short](includes/prod_short.md)]iin. Sinun tarvitsee vain ottaa se käyttöön.
 
 > [!NOTE]  
 > Vain järjestelmänvalvojat voivat ottaa kuvan analysointilaajennuksen käyttöön. Varmista, että sinulle on määritetty **pääkäyttäjän** käyttöoikeusjoukko.
@@ -102,5 +102,5 @@ Voit tarkistaa, kuinka monta analyysia olet kuluvalla jaksolla tehnyt ja kuinka 
 ## <a name="see-also"></a>Katso myös
 
 [Nimikkeen määritteiden käsitteleminen](inventory-how-work-item-attributes.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md)  
 [Käytön aloittaminen](product-get-started.md)  
