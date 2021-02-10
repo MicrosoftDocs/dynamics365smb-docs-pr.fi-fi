@@ -10,20 +10,20 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8ca14916541a43d68968894870657319817911ef
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 743dfc2189c5274953f1365914d8f8e9c0ce0392
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924551"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752599"
 ---
-# <a name="managing-data-encryption"></a><span data-ttu-id="b52ca-103">Tietojen salauksen hallinta</span><span class="sxs-lookup"><span data-stu-id="b52ca-103">Managing Data Encryption</span></span>
-<span data-ttu-id="b52ca-104">[!INCLUDE[d365fin](includes/d365fin_md.md)] -palvelimen tiedot voi salata luomalla uusia salausavaimia tai tuomalla aiemmin luotuja salausavaimia, jotka otetaan käyttöön tietokantayhteyden muodostavassa [!INCLUDE[d365fin](includes/d365fin_md.md)] -palvelininstanssissa.</span><span class="sxs-lookup"><span data-stu-id="b52ca-104">You can encrypt data on the [!INCLUDE[d365fin](includes/d365fin_md.md)] server by generating new or importing existing encryption keys that you enable on the [!INCLUDE[d365fin](includes/d365fin_md.md)] server instance that connects to the database.</span></span>
+# <a name="managing-data-encryption"></a><span data-ttu-id="8a44e-103">Tietojen salauksen hallinta</span><span class="sxs-lookup"><span data-stu-id="8a44e-103">Managing Data Encryption</span></span>
+<span data-ttu-id="8a44e-104">[!INCLUDE[prod_short](includes/prod_short.md)] -palvelimen tiedot voi salata luomalla uusia salausavaimia tai tuomalla aiemmin luotuja salausavaimia, jotka otetaan käyttöön tietokantayhteyden muodostavassa [!INCLUDE[prod_short](includes/prod_short.md)] -palvelininstanssissa.</span><span class="sxs-lookup"><span data-stu-id="8a44e-104">You can encrypt data on the [!INCLUDE[prod_short](includes/prod_short.md)] server by generating new or importing existing encryption keys that you enable on the [!INCLUDE[prod_short](includes/prod_short.md)] server instance that connects to the database.</span></span>
 
-<span data-ttu-id="b52ca-105">Lisätietoja on kehittäjän ja IT-ammattilaisen ohjeen kohdassa [Tietojen salaus Dynamics 365 Business Centralissa](/dynamics365/business-central/dev-itpro/developer/devenv-encrypting-data).</span><span class="sxs-lookup"><span data-stu-id="b52ca-105">For more information, see [Encrypting Data in Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-encrypting-data) in Developer and IT-Pro help.</span></span>
+<span data-ttu-id="8a44e-105">Lisätietoja on kehittäjän ja IT-ammattilaisen ohjeen kohdassa [Tietojen salaus Dynamics 365 Business Centralissa](/dynamics365/business-central/dev-itpro/developer/devenv-encrypting-data).</span><span class="sxs-lookup"><span data-stu-id="8a44e-105">For more information, see [Encrypting Data in Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-encrypting-data) in Developer and IT-Pro help.</span></span>
 
 > [!Note]
-> <span data-ttu-id="b52ca-106">Voit ottaa salauksen käyttöön tai poistaa sen käytöstä vain, jos käytät [!INCLUDE[d365fin](includes/d365fin_md.md)]in paikallista versiota.</span><span class="sxs-lookup"><span data-stu-id="b52ca-106">You can turn on or turn off encryption only if you are using an on-premises version of [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span> <span data-ttu-id="b52ca-107">Salaus on aina käytössä verkkoversioissa eikä sitä voi poistaa käytöstä.</span><span class="sxs-lookup"><span data-stu-id="b52ca-107">Encryption is always turned on for online versions, and you cannot turn it off.</span></span>
+> <span data-ttu-id="8a44e-106">Voit ottaa salauksen käyttöön tai poistaa sen käytöstä vain, jos käytät [!INCLUDE[prod_short](includes/prod_short.md)]in paikallista versiota.</span><span class="sxs-lookup"><span data-stu-id="8a44e-106">You can turn on or turn off encryption only if you are using an on-premises version of [!INCLUDE[prod_short](includes/prod_short.md)].</span></span> <span data-ttu-id="8a44e-107">Salaus on aina käytössä verkkoversioissa eikä sitä voi poistaa käytöstä.</span><span class="sxs-lookup"><span data-stu-id="8a44e-107">Encryption is always turned on for online versions, and you cannot turn it off.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="b52ca-108">Katso myös</span><span class="sxs-lookup"><span data-stu-id="b52ca-108">See Also</span></span>  
-[<span data-ttu-id="b52ca-109">Hallinta</span><span class="sxs-lookup"><span data-stu-id="b52ca-109">Administration</span></span>](admin-setup-and-administration.md)
+## <a name="see-also"></a><span data-ttu-id="8a44e-108">Katso myös</span><span class="sxs-lookup"><span data-stu-id="8a44e-108">See Also</span></span>  
+[<span data-ttu-id="8a44e-109">Hallinta</span><span class="sxs-lookup"><span data-stu-id="8a44e-109">Administration</span></span>](admin-setup-and-administration.md)
