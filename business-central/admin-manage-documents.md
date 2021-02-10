@@ -6,20 +6,23 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 05e5078253d63fac61039d26cc0d700e96c7d21a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f0d713f57345c312ddbfe6b5462f2623b1088dfc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911278"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753865"
 ---
 # <a name="manage-storage-by-deleting-documents-or-compressing-data"></a>Hallitse tallennustilaa poistamalla asiakirjoja tai pakkaamalla tietoja.
 
 Keskitetyn roolin, kuten sovelluksen järjestelmänvalvojan, on huolehdittava säännöllisesti siitä, että vanhat asiakirjat joko poistetaan tai tiivistetään.  
 
+> [!TIP]
+> Tietoja muista tavoista vähentää tietokantaan tallennettujen tietojen määrää on kehittäjien ja IT-ammattilaisten ohjeessa [Business Central -tietoantoihin tallennetttujen tietojen vähentäminen](/dynamics365/business-central/dev-itpro/administration/database-reduce-data).
+
 ## <a name="delete-documents"></a>Asiakirjojen poistaminen
 
-Jossain tapauksissa voi olla tarpeen poistaa laskutettuja ostotilauksia, joita ei ole poistettu. [!INCLUDE[d365fin](includes/d365fin_md.md)] tarkistaa, että poistetut ostotilaukset on laskutettu kokonaan. Tilauksia, joita ei ole kokonaan laskutettu ja vastaanotettu, ei voi poistaa.  
+Jossain tapauksissa voi olla tarpeen poistaa laskutettuja ostotilauksia, joita ei ole poistettu. [!INCLUDE[prod_short](includes/prod_short.md)] tarkistaa, että poistetut ostotilaukset on laskutettu kokonaan. Tilauksia, joita ei ole kokonaan laskutettu ja vastaanotettu, ei voi poistaa.  
 
 Ohjelma poistaa palautustilaukset tavallisesti sen jälkeen, kun ne on laskutettu. Kun kirjaat laskun, se siirretään **Kirjattu ostohyvityslasku** -sivulle. Jos kuitenkin olet valinnut **Palautustoimitus hyvityslaskutettaessa** -valintaruudun **Ostojen ja ostovelkojen asetukset** -sivulla, lasku siirretään sitten **Kirjattu palautustoimitus** -sivulle. Voit poistaa asiakirjat **Poista laskutetut ostopal.til.** -eräajolla. Eräajo tarkistaa ennen poistamista, onko ostopalautustilaukset toimitettu ja laskutettu kokonaan.  
 
@@ -31,13 +34,13 @@ Ohjelma ei poista huoltotilauksia automaattisesti, jos tilauksen kokonaismäär�
 
 ## <a name="compress-data-with-date-compression"></a>Pakkaa tiedot päivämäärätiivistyksen avulla
 
-Voit pakata tietoja [!INCLUDE [prodshort](includes/prodshort.md)] -ohjelmassa niin, että säästät tilaa tietokannassa, joka [!INCLUDE [prodshort](includes/prodshort.md)] onlinessa voi jopa säästää rahaa. Tiivistys perustuu päivämääriin ja yhdistää useita vanhoja tapahtumia yhdeksi uudeksi tapahtumaksi. Tapahtumia voi tiivistää vain suljetuilta tilikausilta, ja voit tiivistää vain sellaisia toimittajatapahtumia, joiden **Avoin**-kentän arvo on *Nro*.  
+Voit pakata tietoja [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmassa niin, että säästät tilaa tietokannassa, joka [!INCLUDE [prod_short](includes/prod_short.md)] onlinessa voi jopa säästää rahaa. Tiivistys perustuu päivämääriin ja yhdistää useita vanhoja tapahtumia yhdeksi uudeksi tapahtumaksi. Tapahtumia voi tiivistää vain suljetuilta tilikausilta, ja voit tiivistää vain sellaisia toimittajatapahtumia, joiden **Avoin**-kentän arvo on *Nro*.  
 
 Esimerkiksi aiempien tilikausien toimittajatapahtumat voidaan tiivistää siten, että jokaista tiliä ja jokaista kuukautta kohti on vain yksi kredit- ja yksi debet-tapahtuma. Uuden tapahtuman summa on kaikkien tiivistettyjen tapahtumien summa. Määritetty päivämäärä on tiivistettävän ajanjakson aloituspäivämäärä, esimerkiksi kuukauden ensimmäinen päivä (jos tapahtumat on tiivistetty kuukauden mukaan). Tiivistyksen jälkeen voit yhä nähdä jokaisen tilin nettomuutoksen edellisen tilikauden osalta.
 
 Päivämäärätiivistyksen tuloksena syntyvien tapahtumien määrä perustuu siihen, kuinka monta suodatinta asetat, mitkä kentät yhdistetään ja minkä jakson pituuden valitset. Tapahtumia syntyy aina vähintään yksi. Kun eräajo on päättynyt, tulos näkyy **Tiivistysrekisterit**-sivulla.
 
-Voit pakata seuraavan tyyppisiä tietoja [!INCLUDE [prodshort](includes/prodshort.md)] -ohjelmassa eräajojen avulla:
+Voit pakata seuraavan tyyppisiä tietoja [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmassa eräajojen avulla:
 
 * Pankkitilitapahtumat
 
@@ -47,6 +50,9 @@ Voit pakata seuraavan tyyppisiä tietoja [!INCLUDE [prodshort](includes/prodshor
   Tiivistyksen jälkeen seuraavien kenttien sisältö säilytetään aina: **Kirjauspvm**, **Toimittajanro**, **Asiakirjan tyyppi**, **Valuutan koodi**, **Kirjausryhmä**, **Summa**, **Jäljellä oleva summa**, **Alkuperäinen summa (PVA)**, **Jäljellä oleva summa (PVA)**, **Summa (PVA)**, **Osto (PVA)**, **Laskualennus (PVA)**, **Annettu maksualennus (PVA)** ja **Maksualennus mahdollinen**.
 
   **Säilytä kentän sisältö** -ominaisuuden avulla voidaan säilyttää myös seuraavien lisäkenttien sisältö: **Asiakirjan nro**, **Tavarantoimittajan nro**, **Ostokoodi**, **Globaali dimensio 1 koodi** ja **Globaali dimensio 2 koodi**.
+
+> [!NOTE]
+> Kun olet suorittanut päivämäärien tiivistyksen, kaikki kirjanpidon tilit on lukittu. Et voi esimerkiksi poistaa toimittaja- tai pankkitapahtumien kohdistamista millekään tilille sen kauden osalta, jonka ajalta päivämäärät tiivistetään.
 
 <!--* General ledger entries
 * Customer ledger entries-->

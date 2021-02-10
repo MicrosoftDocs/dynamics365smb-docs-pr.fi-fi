@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8c11553dc3a48a2fdf0df65258914d36f9c2efbd
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d6ca289f723af83758c96537e3d4b5a1c0117cc7
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914363"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753490"
 ---
 # <a name="exchanging-data-electronically"></a>Sähköinen tiedonsiirto
 Voit hallita liiketoiminta-asiakirjojen, pankkitiedostojen, vaihtokurssien ja muiden datatiedostojen siirtoa liikekumppaneille tiedonsiirtokehyksen avulla.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]in perusversiossa tiedonsiirtokehystä käytetään toiminnoissa, kuten elektronisissa asiakirjoissa, pankkitiedostojen tuonnissa/viennissä ja valuutanvaihtokurssien päivityksessä. Lisätietoja on kohdassa [Tietoja tiedonsiirtokehyksestä](across-about-the-data-exchange-framework.md).
+[!INCLUDE[prod_short](includes/prod_short.md)]in perusversiossa tiedonsiirtokehystä käytetään toiminnoissa, kuten elektronisissa asiakirjoissa, pankkitiedostojen tuonnissa/viennissä ja valuutanvaihtokurssien päivityksessä. Lisätietoja on kohdassa [Tietoja tiedonsiirtokehyksestä](across-about-the-data-exchange-framework.md).
 
 Järjestelmänvalvojana tai Microsoft-kumppanina voit käyttää kehystä uusissa integrointiominaisuuksissa määrittämällä, mitä tietoja vaihdetaan ja miten. Lisätietoja on kohdassa [Tietojenvaihtomääritysten määrittäminen](across-how-to-set-up-data-exchange-definitions.md).
 

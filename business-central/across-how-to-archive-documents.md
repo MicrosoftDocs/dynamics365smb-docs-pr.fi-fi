@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0479efcd967c7188e38fff2fb1da76e461a1bda6
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c7f7da76bdea02f640bdb0ffaf5f1b8da16494cf
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919586"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754865"
 ---
 # <a name="archive-documents"></a>Asiakirjojen arkistointi
 Voit arkistoida osto- ja myyntitilauksia, tarjouksia, palautustilauksia ja puitetilauksia esimerkiksi siksi, että haluat tallentaa asiakirjan kopion käytettäväksi myöhemmin uudelleen. Voit arkistoida myynti- tai ostoasiakirjan useita kertoja ja tallentaa kullakin kerralla erilaisen arkistoidun version.
@@ -65,4 +65,4 @@ Seuraavassa kuvataan, miten arkistoidut myyntitilaukset poistetaan. Vaiheet ovat
 [Asiakirjarivien seuranta](across-how-to-track-document-lines.md)  
 [Myynti](sales-manage-sales.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)

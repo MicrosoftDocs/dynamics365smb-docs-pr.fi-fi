@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a34af93c4aae2d87d17fcad4f0526783a01e8b64
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 1c7896988545d6f1b8269ead90dff7350bc6f320
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915941"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755822"
 ---
 # <a name="enable-picking-items-by-fefo"></a>FEFO-poiminnan ottaminen käyttöön
 FEFO (First Expired First Out) on lajittelumenetelmä, joka varmistaa sen, että vanhimmat ja aikaisimman vanhenemispäivämäärän omaavat nimikkeet poimitaan ensin.  
@@ -48,4 +48,4 @@ Jos **Tiukka vanhentumisen kirj.** -kenttä on valittuna, poimintaan sisällytet
 [Nimikkeiden poiminta varastopoiminnalla](warehouse-how-to-pick-items-with-inventory-picks.md)   
 [Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
 [Vaihto-omaisuus](inventory-manage-inventory.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)

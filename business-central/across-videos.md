@@ -10,20 +10,20 @@ ms.workload: na
 ms.search.keywords: video, library, how to
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: a053692e9e58dc7b64962c8d117e8cec832fd8fc
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: fad4d9bdd68bc6299bf573432e0a33f6afb0ddfb
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927295"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752947"
 ---
 # <a name="visit-our-video-library"></a>Vieraile Microsoftin videokirjastossa
 
 Tiedämme, että jotkut ihmiset mieluummin katselevat sisältöä kuin lukevat sitä. Tätä varten luomme lyhyitä, helposti ymmärrettäviä videoita, jotka joko ovat itsenäisiä tai täydentävät käyttäjätukea.  
 
-Jos olet uusi [!INCLUDE[d365fin](includes/d365fin_md.md)] -käyttäjä, voit käynnistää aloitussivun esittelyvideot, jotka tulevat näkyviin. Jos käytössä on jo [!INCLUDE[d365fin](includes/d365fin_md.md)], voit siirtyä kirjastoon **liiketoimintajohtajan** ja **kirjanpitäjän** roolikeskuksista, kun valitset **Tuotevideot**-ruudun.  
+Jos olet uusi [!INCLUDE[prod_short](includes/prod_short.md)] -käyttäjä, voit käynnistää aloitussivun esittelyvideot, jotka tulevat näkyviin. Jos käytössä on jo [!INCLUDE[prod_short](includes/prod_short.md)], voit siirtyä kirjastoon **liiketoimintajohtajan** ja **kirjanpitäjän** roolikeskuksista, kun valitset **Tuotevideot**-ruudun.  
 
-Voit tarkastella myös opastusvideoita sekä runsaasti muuta sisältöä [!INCLUDE[d365fin](includes/d365fin_md.md)]ia varten luodulla YouTube-soittolistalla. Videot löydät [napsauttamalla tästä](https://go.microsoft.com/fwlink/?linkid=851533).
+Voit tarkastella myös opastusvideoita sekä runsaasti muuta sisältöä [!INCLUDE[prod_short](includes/prod_short.md)]ia varten luodulla YouTube-soittolistalla. Videot löydät [napsauttamalla tästä](https://go.microsoft.com/fwlink/?linkid=851533).
 
 > [!Tip]  
 > Kirjaston videot voivat näkyä pieneltä vaikuttavassa kehyksessä. Voit suurentaa kehystä valitsenakka kaksipäisen nuolikuvakkeen oikeassa yläkulmassa. Videot näkyvät nyt suuremmassa kehyksessä siihen saakka, että pienennät ne.

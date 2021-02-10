@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 056cb7d0aec55ae939c09adb47477343908c2e6c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 169e1947cb3e2ca962dc0937c5901c8c92ca936a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924976"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754640"
 ---
 # <a name="track-document-lines"></a>Asiakirjarivien seuranta
 Voit tarkastella asiakirjoja, jotka liittyvät myynti- ja ostotilausriveihin, myös arkistoituihin tilausriveihin. Liittyviä asiakirjoja, joita voi seurata, ovat tarjoukset, toimitukset, vastaanotot ja puitetilaukset. Näin voit tunnistaa tilausten käsittelyssä käytetyt asiakirjat.  
@@ -34,4 +34,4 @@ Seuraavassa kuvataan, miten seuranta tehdään myyntitilausriviltä. Vaiheet ova
 ## <a name="see-also"></a>Katso myös
 [Myynti](sales-manage-sales.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)

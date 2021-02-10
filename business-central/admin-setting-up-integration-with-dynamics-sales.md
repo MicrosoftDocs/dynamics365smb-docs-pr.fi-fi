@@ -1,5 +1,5 @@
 ---
-title: Common Data Service -integroinnissa käytettävien käyttäjätilien määrittäminen | Microsoft Docs
+title: Microsoft Dataverse -integroinnissa käytettävien käyttäjätilien määrittäminen | Microsoft Docs
 description: Tietoja niiden käyttäjätilien määrittämisestä, joilla sovellukset vaihtavat tietoja ja joiden avulla käytetään ja synkronoidaan sovellusten tietoja.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -10,24 +10,26 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: d396e5fc9073d753bb9782394a922c26242b472a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b341b476c33e39dfda7fbb69bf643264f6c50672
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917774"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755140"
 ---
-# <a name="setting-up-user-accounts-for-integrating-with-common-data-service"></a>Common Data Service -integroinnissa käytettävien käyttäjätilien määrittäminen
-Tässä artikkelissa on yleiskatsaus [!INCLUDE[d365fin](includes/cds_long_md.md)]in ja [!INCLUDE[d365fin](includes/d365fin_md.md)]in integroinnissa tarvittavien käyttäjätilien määrittämisestä.  
+# <a name="setting-up-user-accounts-for-integrating-with-microsoft-dataverse"></a>Microsoft Dataverse -integroinnissa käytettävien käyttäjätilien määrittäminen
+[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
+Tässä artikkelissa on yleiskatsaus [!INCLUDE[prod_short](includes/cds_long_md.md)]in ja [!INCLUDE[prod_short](includes/prod_short.md)]in integroinnissa tarvittavien käyttäjätilien määrittämisestä.  
 
 ## <a name="setting-up-the-administrator-user-account"></a>Järjestelmänvalvojan käyttäjätilin määrittäminen
-Järjestelmänvalvojan käyttäjätili [!INCLUDE[d365fin](includes/d365fin_md.md)]:ssä on lisättävä käyttäjänä [!INCLUDE[d365fin](includes/cds_long_md.md)]:een. Kun määrität yhteyden [!INCLUDE[d365fin](includes/d365fin_md.md)]- ja [!INCLUDE[d365fin](includes/cds_long_md.md)] -sovelluksen välille, tätä tiliä käytetään kerran asennuksen ja joidenkin pakollisten osien määrityksen aikana. 
+Järjestelmänvalvojan käyttäjätili [!INCLUDE[prod_short](includes/prod_short.md)]:ssä on lisättävä käyttäjänä [!INCLUDE[prod_short](includes/cds_long_md.md)]:een. Kun määrität yhteyden [!INCLUDE[prod_short](includes/prod_short.md)]- ja [!INCLUDE[prod_short](includes/cds_long_md.md)] -sovelluksen välille, tätä tiliä käytetään kerran asennuksen ja joidenkin pakollisten osien määrityksen aikana. 
 
-## <a name="permissions-and-security-roles-for-user-accounts-in-d365fin"></a>[!INCLUDE[d365fin](includes/cds_long_md.md)] -sovelluksen käyttäjätilien käyttöoikeudet ja ja käyttöoikeusroolit
+## <a name="permissions-and-security-roles-for-user-accounts-in-prod_short"></a>[!INCLUDE[prod_short](includes/cds_long_md.md)] -sovelluksen käyttäjätilien käyttöoikeudet ja ja käyttöoikeusroolit
 Kun CDS-perusintegrointiratkaisua asennetaan, integroinnin käyttäjätilin käyttöoikeudet määritetään. Jos näitä käyttöoikeuksia on muutettu manuaalisesti, ne voidaan palauttaa alkuperäisiksi. Voit tehdä tämän asentamalla CDS-perusintegrointiratkaisun uudelleen valitsemalla **Ota integraatioratkaisu uudelleen käyttöön** **Common Data Service -yhteyden määritys** -sivulla. Business Centralin CDS-integroinnin käyttöoikeusrooli otetaan käyttöön.
 
 <!--
-The following tables list the minimum permissions for the user accounts in [!INCLUDE[d365fin](includes/cds_long_md.md)].
+The following tables list the minimum permissions for the user accounts in [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
 ### Minimum Permissions for the Administrator
 The following table displays the minimum permissions on each tab for each security role that is required for the administrator user.
@@ -51,8 +53,8 @@ The following table displays the minimum permissions on each tab for each securi
 |Business Central Connection|Global|Create, Read, Write, Delete|Create, Read, Write, Delete|Create, Read, Write, Delete|
 |Post Configuration|Global|||Write|
 
-### Minimum Permissions for automatically created [!INCLUDE[d365fin](includes/d365fin_md.md)] Integration application user
-The following table displays the minimum permissions on each tab for each security role that is required for the automatically created [!INCLUDE[d365fin](includes/d365fin_md.md)] Integration application user.
+### Minimum Permissions for automatically created [!INCLUDE[prod_short](includes/prod_short.md)] Integration application user
+The following table displays the minimum permissions on each tab for each security role that is required for the automatically created [!INCLUDE[prod_short](includes/prod_short.md)] Integration application user.
 
 ##### Core Records
 |Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
@@ -120,5 +122,5 @@ You can allow sales people to view inventory levels for the items they sell by g
 -->
 
 ## <a name="see-also"></a>Katso myös  
-[Integrointi Common Data Servicein kanssa](admin-common-data-service.md)  
+[Integrointi Microsoft Dataversein kanssa](admin-common-data-service.md)  
 [Dynamics 365 Sales -integrointi](admin-prepare-dynamics-365-for-sales-for-integration.md)  

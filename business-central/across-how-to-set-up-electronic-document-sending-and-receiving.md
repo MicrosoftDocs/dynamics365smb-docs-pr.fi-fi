@@ -10,22 +10,22 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 236325c45ccfb8f824341778c2ac06646a3957d3
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d22b3d45b922f52014d2c387e22050d53965bb26
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921145"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754665"
 ---
 # <a name="set-up-electronic-document-sending-and-receiving"></a>Sähköisten asiakirjojen vastaanottamisen ja lähettämisen määrittäminen
 
-Sähköpostin liitetiedostojen lähettämisen sijaan liiketoiminta-asiakirjoja voi lähettää ja vastaanottaa sähköisesti. Sähköisellä asiakirjalla tarkoitetaan sitä, että liiketoiminta-asiakirjaa (kuten toimittajan laskua) vastaava standardin\-mukainen tiedosto voidaan vastaanottaa ja muuntaa ostolaskuksi [!INCLUDE[d365fin](includes/d365fin_md.md)]issa. Document exchange -palveluiden ulkoinen palveluntarjoaja suorittaa kahden liikekumppanin välisen sähköisten asiakirjojen vaihdon. [!INCLUDE[d365fin](includes/d365fin_md.md)]in yleinen versio tukee sähköisten laskujen ja hyvityslaskujen lähettämistä ja vastaanottamista PEPPOL-muodossa. Suurimmat asiakirjojen vaihtopalveluiden tarjoajat tukevat tätä muotoa. Tavallisin document exchange -palveluiden tarjoaja on esimääritetty, ja se on valmis määritettäväksi yrityksellesi.  
+Sähköpostin liitetiedostojen lähettämisen sijaan liiketoiminta-asiakirjoja voi lähettää ja vastaanottaa sähköisesti. Sähköisellä asiakirjalla tarkoitetaan sitä, että liiketoiminta-asiakirjaa (kuten toimittajan laskua) vastaava standardin\-mukainen tiedosto voidaan vastaanottaa ja muuntaa ostolaskuksi [!INCLUDE[prod_short](includes/prod_short.md)]issa. Document exchange -palveluiden ulkoinen palveluntarjoaja suorittaa kahden liikekumppanin välisen sähköisten asiakirjojen vaihdon. [!INCLUDE[prod_short](includes/prod_short.md)]in yleinen versio tukee sähköisten laskujen ja hyvityslaskujen lähettämistä ja vastaanottamista PEPPOL-muodossa. Suurimmat asiakirjojen vaihtopalveluiden tarjoajat tukevat tätä muotoa. Tavallisin document exchange -palveluiden tarjoaja on esimääritetty, ja se on valmis määritettäväksi yrityksellesi.  
 
-Ulkoinen OCR (Optical Character Recognition) -palvelu voi luoda saapuvia asiakirjoja vastaavista PDF- tai kuvatiedostoista sähköisiä asiakirjoja, jotka voit sitten muuntaa tiedostotietueiksi [!INCLUDE[d365fin](includes/d365fin_md.md)]issa samalla tavalla kuin teet sähköisille PEPPOL-asiakirjoille. Kun esimerkiksi saat PDF-muotoisen laskun toimittajalta, voit lähettää sen OCR-palveluun **Saapuvat asiakirjat** -sivulta. Saat tiedoston muutamassa sekunnissa takaisin sähköisenä laskuna, jonka voit muuntaa toimittajan ostolaskuksi. Jos lähetät tiedoston OCR-palveluun sähköpostitse, uusi saapuvan asiakirjan tietue luodaan automaattisesti, kun saat sähköisen asiakirjan takaisin.  
+Ulkoinen OCR (Optical Character Recognition) -palvelu voi luoda saapuvia asiakirjoja vastaavista PDF- tai kuvatiedostoista sähköisiä asiakirjoja, jotka voit sitten muuntaa tiedostotietueiksi [!INCLUDE[prod_short](includes/prod_short.md)]issa samalla tavalla kuin teet sähköisille PEPPOL-asiakirjoille. Kun esimerkiksi saat PDF-muotoisen laskun toimittajalta, voit lähettää sen OCR-palveluun **Saapuvat asiakirjat** -sivulta. Saat tiedoston muutamassa sekunnissa takaisin sähköisenä laskuna, jonka voit muuntaa toimittajan ostolaskuksi. Jos lähetät tiedoston OCR-palveluun sähköpostitse, uusi saapuvan asiakirjan tietue luodaan automaattisesti, kun saat sähköisen asiakirjan takaisin.  
 
-Sähköinen **PEPPOL**-asiakirjaformaatti on määritelty ennalta, jotta voit lähettää laskuja ja hyvityslaskuja PEPPOL-muodossa. Aluksi on määritettävä joitakin perustietoja, kuten yrityksen tiedot, asiakkaat, nimikkeet ja mittayksiköt. Näitä käytetään liiketoimintakumppanien ja kohteiden tunnistamisessa, kun [!INCLUDE[d365fin](includes/d365fin_md.md)] -kentissä olevat tiedot muunnetaan lähtevän tiedoston elementeiksi. Lopuksi sinun on valittava **Sähköinen asiakirjamuoto** -sivulla muoto jokaiselle asiakkaalle, jolle lähetät PEPPOL-muotoisia sähköisiä asiakirjoja. Lisätietoja on kohdassa [Sähköisten asiakirjojen lähettäminen](sales-how-to-send-electronic-documents.md).  
+Sähköinen **PEPPOL**-asiakirjaformaatti on määritelty ennalta, jotta voit lähettää laskuja ja hyvityslaskuja PEPPOL-muodossa. Aluksi on määritettävä joitakin perustietoja, kuten yrityksen tiedot, asiakkaat, nimikkeet ja mittayksiköt. Näitä käytetään liiketoimintakumppanien ja kohteiden tunnistamisessa, kun [!INCLUDE[prod_short](includes/prod_short.md)] -kentissä olevat tiedot muunnetaan lähtevän tiedoston elementeiksi. Lopuksi sinun on valittava **Sähköinen asiakirjamuoto** -sivulla muoto jokaiselle asiakkaalle, jolle lähetät PEPPOL-muotoisia sähköisiä asiakirjoja. Lisätietoja on kohdassa [Sähköisten asiakirjojen lähettäminen](sales-how-to-send-electronic-documents.md).  
 
-**PEPPOL - Lasku**- ja **PEPPOL – Hyvityslasku** -tietojenvaihdon määritelmät ovat määritelty ennalta, jotta voit vastaanottaa sähköisiä laskuja ja hyvityslaskuja PEPPOL-muodossa. Aluksi on määritettävä joitakin perustietoja, kuten yrityksen tiedot, toimittajat, nimikkeet ja mittayksiköt. Niiden avulla tunnistetaan liikekumppaneja ja nimikkeitä, kun saapuvassa asiakirjatiedostossa olevien elementtien tiedot muunnetaan [!INCLUDE[d365fin](includes/d365fin_md.md)]in kentiksi. Lopuksi sinun on valittava **Saapuvat asiakirjat** -sivulla tiedonsiirtomääritys jokaiselle saapuvalle sähköiselle asiakirjalle, jonka haluat muuntaa [!INCLUDE[d365fin](includes/d365fin_md.md)]in ostoasiakirjaksi.  
+**PEPPOL - Lasku**- ja **PEPPOL – Hyvityslasku** -tietojenvaihdon määritelmät ovat määritelty ennalta, jotta voit vastaanottaa sähköisiä laskuja ja hyvityslaskuja PEPPOL-muodossa. Aluksi on määritettävä joitakin perustietoja, kuten yrityksen tiedot, toimittajat, nimikkeet ja mittayksiköt. Niiden avulla tunnistetaan liikekumppaneja ja nimikkeitä, kun saapuvassa asiakirjatiedostossa olevien elementtien tiedot muunnetaan [!INCLUDE[prod_short](includes/prod_short.md)]in kentiksi. Lopuksi sinun on valittava **Saapuvat asiakirjat** -sivulla tiedonsiirtomääritys jokaiselle saapuvalle sähköiselle asiakirjalle, jonka haluat muuntaa [!INCLUDE[prod_short](includes/prod_short.md)]in ostoasiakirjaksi.  
 
 **OCR – Lasku** -tiedonsiirtomääritys on valmiiksi määritetty, joten voit vastaanottaa OCR-palvelussa luotuja sähköisiä asiakirjoja. Saat esimerkiksi laskun sähköisenä OCR-tiedostona, kun asetat master-päivämäärän ja sitten käsittelet asiakirjan kuin vastaanottaessasi sähköisen PEPPOL-asiakirjan. Lisätietoja on kohdassa [PDF- ja kuvatiedostojen muuntaminen sähköisiksi asiakirjoiksi OCR-palvelun avulla](across-how-use-ocr-pdf-images-files.md).  
 
@@ -111,7 +111,7 @@ Ohjeaihe sisältää seuraavat toimintosarjat:
 4. Valitse **Sähköinen asiakirja** -kentässä **Kyllä (Document Exchange -palvelun kautta)**.  
 
     > [!NOTE]  
-    >  [!INCLUDE[d365fin](includes/d365fin_md.md)] tunnistaa automaattisesti, onko asiakirja lasku vai hyvityslasku ja käyttää oikeaa PEPPOL-muotoa.  
+    >  [!INCLUDE[prod_short](includes/prod_short.md)] tunnistaa automaattisesti, onko asiakirja lasku vai hyvityslasku ja käyttää oikeaa PEPPOL-muotoa.  
 
 5. Jos haluat käyttää asiakirjan lähetysprofiilia kaikille asiakkaille, valitse **Oletus**-valintaruutu **Yleinen**-pikavälilehdessä. Jos haluat, että profiili koskee vain tiettyjä asiakkaita, täytä **Asiakirjan lähetyksen profiili** -kenttä kyseisten asiakkaiden asiakaskortissa. Lisätietoja on kohdassa [Asiakirjan lähetysprofiilien määrittäminen](sales-how-setup-document-send-profiles.md).  
 

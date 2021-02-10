@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 99628b761a3d5f79941a78c00a999a5b8131869e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d705a6e4a9187644876277f0a9f6836ecc14f282
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927220"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754115"
 ---
-# <a name="working-with-prodshort-data-in-power-bi"></a>[!INCLUDE [prodshort](includes/prodshort.md)] -tietojen käyttäminen Power BI:ssa
+# <a name="working-with-prod_short-data-in-power-bi"></a>[!INCLUDE [prod_short](includes/prod_short.md)] -tietojen käyttäminen Power BI:ssa
 
-Tässä artikkelissa on perustietoja niistä Power BI:n raporteista ja koontinäytöistä, jotka käyttävät [!INCLUDE [prodshort](includes/prodshort.md)]ia tietolähteenä. Artikkelissa käsitellään seikkoja, jotka helpottavat [!INCLUDE[prodshort](includes/prodshort.md)] -käytön aloittamista käyttäjänä. Yleistä opastusta ja ohjeita Power BI:n käytöstä on kohdassa [Power BI:n kuluttajille suunnattu dokumentaatio](https://review.docs.microsoft.com/en-us/power-bi/consumer).
+Tässä artikkelissa on perustietoja niistä Power BI:n raporteista ja koontinäytöistä, jotka käyttävät [!INCLUDE [prod_short](includes/prod_short.md)]ia tietolähteenä. Artikkelissa käsitellään seikkoja, jotka helpottavat [!INCLUDE[prod_short](includes/prod_short.md)] -käytön aloittamista käyttäjänä. Yleistä opastusta ja ohjeita Power BI:n käytöstä on kohdassa [Power BI:n kuluttajille suunnattu dokumentaatio](https://review.docs.microsoft.com/en-us/power-bi/consumer).
 
 ## <a name="get-ready"></a>Valmistelut
 
@@ -31,13 +31,13 @@ Kun olet saanut Power BI -tilin, voit kirjautua osoitteessa [https://powerbi.mic
 
 Power BI -palvelu on kaikkien käytettävissä olevien raporttien isäntä. Saat raportin näkyviin valitsemalla **Oma työtila** > **Raportit**. Valitse sitten raportti, jota haluat tarkastella.
 
-[!INCLUDE[prodshort](includes/prodshort.md)] online -versiossa työtilassa on automaattisesti joukko oletusraportteja. Jos haluat luoda omia raportteja, voit tehdä sen Power BI Desktopissa ja julkaista luodut raportit sitten työtilaan. Lisätietoja on kohdassa [[!INCLUDE [prodlong](includes/prodlong.md)] -tiedot näyttävien raporttien luonnin muodostamisen aloittaminen Power BI Desktopissa](across-how-use-financials-data-source-powerbi.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] online -versiossa työtilassa on automaattisesti joukko oletusraportteja. Jos haluat luoda omia raportteja, voit tehdä sen Power BI Desktopissa ja julkaista luodut raportit sitten työtilaan. Lisätietoja on kohdassa [[!INCLUDE [prod_long](includes/prod_long.md)] -tiedot näyttävien raporttien luonnin muodostamisen aloittaminen Power BI Desktopissa](across-how-use-financials-data-source-powerbi.md).
 
-Jos käytössä on paikallinen [!INCLUDE[prodshort](includes/prodshort.md)], raporttien luonti on aloitettava alusta Power BI Desktopissa. Vaihtoehtoiesti Power BI -raportit voidaan jakaa palvelimeen ladattavina tiedostoina.
+Jos käytössä on paikallinen [!INCLUDE[prod_short](includes/prod_short.md)], raporttien luonti on aloitettava alusta Power BI Desktopissa. Vaihtoehtoiesti Power BI -raportit voidaan jakaa palvelimeen ladattavina tiedostoina.
 
 ## <a name="get-the-latest-data"></a>Viimeisten tietojen hakeminen
 
-Kukin Power BI -raportti perustuu tietojoukkoon, joka saa tietoja [!INCLUDE[prodshort](includes/prodshort.md)] -lähteistä. Power BI -raporttien tietojen halutaan olevan aina ajantasaisia [!INCLUDE[prodshort](includes/prodshort.md)] -tietojen kanssa. Tätä kutsutaan *päivittämiseksi*.  Sen perusteella, miten organisaatio on määrittänyt Power BI:n, päivitystä ei välttämättä tehdä automaattisesti. Tiedot voidaan päivittää kahdella tavalla: manuaalisesti tai ajoitetulla päivityksellä. Manuaalinen päivitys tehdään tarvittaessa. Ajoitetussa päivityksessä tiedot päivitetään automaattisesti määritetyn ajan kuluttua.
+Kukin Power BI -raportti perustuu tietojoukkoon, joka saa tietoja [!INCLUDE[prod_short](includes/prod_short.md)] -lähteistä. Power BI -raporttien tietojen halutaan olevan aina ajantasaisia [!INCLUDE[prod_short](includes/prod_short.md)] -tietojen kanssa. Tätä kutsutaan *päivittämiseksi*.  Sen perusteella, miten organisaatio on määrittänyt Power BI:n, päivitystä ei välttämättä tehdä automaattisesti. Tiedot voidaan päivittää kahdella tavalla: manuaalisesti tai ajoitetulla päivityksellä. Manuaalinen päivitys tehdään tarvittaessa. Ajoitetussa päivityksessä tiedot päivitetään automaattisesti määritetyn ajan kuluttua.
 
 ### <a name="refresh-manually"></a>Manuaalinen päivitys
 
@@ -65,7 +65,7 @@ Lisätietoja on kohdassa [Raportin lataaminen palveluun](/power-bi/paginated-rep
 > Raportin lataamista varten tarvitaan [Premium-kapasiteetin](/power-bi/service-premium-what-is) työtila. Lisätietoja on kohdassa [Premium-kapasiteetin hallinta](/power-bi/admin/service-premium-capacity-manage). 
 
 > [!TIP]
-> Jos käytössä on [!INCLUDE[prodshort](includes/prodshort.md)] online, raportin voi ladata myös [!INCLUDE[prodshort](includes/prodshort.md)]issa. Lisätietoja on kohdassa [Power BI -raporttien käyttäminen [!INCLUDE [prodshort](includes/prodshort.md)]issa – raporttien lataaminen palvelimeen](across-working-with-powerbi.md#upload).
+> Jos käytössä on [!INCLUDE[prod_short](includes/prod_short.md)] online, raportin voi ladata myös [!INCLUDE[prod_short](includes/prod_short.md)]issa. Lisätietoja on kohdassa [Power BI -raporttien käyttäminen [!INCLUDE [prod_short](includes/prod_short.md)]issa – raporttien lataaminen palvelimeen](across-working-with-powerbi.md#upload).
 
 ## <a name="share-reports-with-others"></a><a name="share"></a>Raporttien jakaminen muiden kanssa
 
@@ -81,9 +81,9 @@ Voit jakaa raportin valitsemalla raporttiluettelossa tai avoimessa raportissa **
 ## <a name="see-also"></a>Katso myös
 
 [Business Central ja Power BI](admin-powerbi.md)  
-[Power BI -raporttien luominen näyttämään [!INCLUDE [prodlong](includes/prodlong.md)] -tietoja](across-how-use-financials-data-source-powerbi.md)  
-[Power BI:n -integrointiosa ja [!INCLUDE[prodshort](includes/prodshort.md)] -arkkitehtuurin yleiskatsaus](admin-powerbi-overview.md)  
-[Power BI -raporttien käyttäminen [!INCLUDE [prodshort](includes/prodshort.md)]issa](across-working-with-powerbi.md)  
+[Power BI -raporttien luominen näyttämään [!INCLUDE [prod_long](includes/prod_long.md)] -tietoja](across-how-use-financials-data-source-powerbi.md)  
+[Power BI:n -integrointiosa ja [!INCLUDE[prod_short](includes/prod_short.md)] -arkkitehtuurin yleiskatsaus](admin-powerbi-overview.md)  
+[Power BI -raporttien käyttäminen [!INCLUDE [prod_short](includes/prod_short.md)]issa](across-working-with-powerbi.md)  
 [Power BI kuluttajille](/power-bi/consumer/end-user-consumer)  
 [Power BI -palvelun uusi ulkoasu](/power-bi/service-new-look)  
 [Pika-aloitus: Tietojen yhdistäminen Power BI Desktopiin](/power-bi/desktop-quickstart-connect-to-data)  
@@ -91,9 +91,9 @@ Voit jakaa raportin valitsemalla raporttiluettelossa tai avoimessa raportissa **
 [Business Intelligence](bi.md)  
 [Käytön aloittaminen](product-get-started.md)  
 [Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittäminen](setup.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen Power BI:n tietolähteenä](across-how-use-financials-data-source-powerbi.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen Power Apps:n tietolähteenä](across-how-use-financials-data-source-powerapps.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen Power Automate'ssa](across-how-use-financials-data-source-flow.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)]in määrittäminen](setup.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)]in käyttäminen Power BI:n tietolähteenä](across-how-use-financials-data-source-powerbi.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)]in käyttäminen Power Apps:n tietolähteenä](across-how-use-financials-data-source-powerapps.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)]in käyttäminen Power Automate'ssa](across-how-use-financials-data-source-flow.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

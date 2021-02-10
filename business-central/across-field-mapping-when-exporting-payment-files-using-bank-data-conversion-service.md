@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a761d1127e2a0568e59a329fd3e187beffb6b7e5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 84be9f847d466588e25dad81754bcf64f367b4c8
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918074"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753365"
 ---
 # <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a>Kentien yhdistäminen, kun maksutiedostoja viedään AMC Banking 365 Fundamentals -laajennuksen avulla
 Kun viet maksutiedostoja AMC Banking 365 Fundamentals -laajennuksen avulla, vietävät tiedot paljastuvat palveluntarjoajalle. Palveluntarjoaja vastaa näiden tietojen tietosuojasta. Lisätietoja AMC Banking 365 Fundamentals -laajennuksesta on kohdassa [AMC Banking 365 Fundamentals -laajennuksen käyttäminen](ui-extensions-amc-banking.md).  
@@ -23,7 +23,7 @@ Kun viet maksutiedostoja AMC Banking 365 Fundamentals -laajennuksen avulla, viet
 > [!CAUTION]  
 >  Kun viet maksutiedostoja AMC Banking 365 Fundamentals -laajennuksen avulla, joitakin yritystietoja paljastuu palveluntarjoajalle. Palveluntarjoaja, AMC Consult A/S, vastaa näiden tietojen tietosuojasta. Lisätietoja on kohdassa [AMC:n tietosuojakäytäntö](https://go.microsoft.com/fwlink/?LinkId=510158).  
 
-Seuraavassa taulukossa on luettelo kentistä [!INCLUDE[d365fin](includes/d365fin_md.md)]:ssä, joista voit viedä tietoja.  
+Seuraavassa taulukossa on luettelo kentistä [!INCLUDE[prod_short](includes/prod_short.md)]:ssä, joista voit viedä tietoja.  
 
 |Määritetty kenttä|Taulun kenttä|Sivupöytä|Kuvaus|  
 |------------------|--------------------|-----------|---------------------------------------|  

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 3181fe2bfa72897a4e8db8dd1bae6b0f235c6eaa
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ca92d9535a9a15d46d93de6febdfd169c3d7d17a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923168"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755540"
 ---
 # <a name="post-the-year-end-closing-entry"></a>Vuositilinpäätöstapahtuman kirjaaminen
 Kun olet luonut vuositilinpäätöstapahtuman tai -tapahtumat **Sulje tuloslaskelma** -eräajolla, sinun on avattava eräajossa määrittämäsi päiväkirja sekä tarkistettava ja kirjattava tapahtumat.
@@ -35,4 +35,4 @@ Kun olet luonut vuositilinpäätöstapahtuman tai -tapahtumat **Sulje tuloslaske
 [Kirjanpitojakson päättäminen](year-close-account-periods.md)  
 [Kirjojen sulkeminen](year-close-books.md)  
 [Sulje tuloslaskelma](year-close-income-statement.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)

@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: a19d2bbff275ea4401943b588a68cdd2e6740e12
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ce1ce3039758d5991eb3a770713d2f1e273bbe0c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924801"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754515"
 ---
-# <a name="building-power-bi-reports-to-display-prodlong-data"></a>Power BI -raporttien luominen näyttämään [!INCLUDE [prodlong](includes/prodlong.md)] -tietoja
+# <a name="building-power-bi-reports-to-display-prod_long-data"></a>Power BI -raporttien luominen näyttämään [!INCLUDE [prod_long](includes/prod_long.md)] -tietoja
 
-Voit määrittää [!INCLUDE[prodlong](includes/prodlong.md)]in tiedot käytettäviksi Power BI Desktop:n tietolähteenä ja tehokkaiden liiketoiminnan tilasta kertovien raporttien luomista varten.
+Voit määrittää [!INCLUDE[prod_long](includes/prod_long.md)]in tiedot käytettäviksi Power BI Desktop:n tietolähteenä ja tehokkaiden liiketoiminnan tilasta kertovien raporttien luomista varten.
 
-Tässä artikkelissa käsitellään Power BI Desktopin käytön aloittamista luomaan [!INCLUDE[prodlong](includes/prodlong.md)] -tiedot näyttäviä raportteja.  Kun raportit on luotu, voit julkaista ne Power BI -palveluun tai jakaa ne organisaation kaikkien käyttäjien kanssa. Kun nämä raportit ovat Power BI -palvelussa, käyttäjät, joilla on raporttien tarkasteluoikeudet, voivat tarkastella niitä [!INCLUDE[prodlong](includes/prodlong.md)]issa.
+Tässä artikkelissa käsitellään Power BI Desktopin käytön aloittamista luomaan [!INCLUDE[prod_long](includes/prod_long.md)] -tiedot näyttäviä raportteja.  Kun raportit on luotu, voit julkaista ne Power BI -palveluun tai jakaa ne organisaation kaikkien käyttäjien kanssa. Kun nämä raportit ovat Power BI -palvelussa, käyttäjät, joilla on raporttien tarkasteluoikeudet, voivat tarkastella niitä [!INCLUDE[prod_long](includes/prod_long.md)]issa.
 
 ## <a name="get-ready"></a>Valmistelut
 
@@ -35,24 +35,24 @@ Tässä artikkelissa käsitellään Power BI Desktopin käytön aloittamista luo
 
 - Varmista, että raportissa käytettävät tiedot julkaistaan verkkopalveluna.
     
-    Useita verkkopalveluja julkaistaan oletusarvoisesti. Verkkopalveluja voi etsiä kätevästi hakemalla *verkkopalveluja* [!INCLUDE[prodshort](includes/prodshort.md)]issa. Varmista, että **Julkaise**-kenttä on valittu **Verkkopalvelut**-sivulla. Tämä on yleensä järjestelmänvalvojan tehtävä.
+    Useita verkkopalveluja julkaistaan oletusarvoisesti. Verkkopalveluja voi etsiä kätevästi hakemalla *verkkopalveluja* [!INCLUDE[prod_short](includes/prod_short.md)]issa. Varmista, että **Julkaise**-kenttä on valittu **Verkkopalvelut**-sivulla. Tämä on yleensä järjestelmänvalvojan tehtävä.
     
     Lisätietoja verkkopalvelujen julkaisemisesta on kohdassa [Verkkopalvelun julkaiseminen](across-how-publish-web-service.md).
 
-- Paikallista [!INCLUDE[prodshort](includes/prodshort.md)] -versiota varten tarvitaan seuraavat tiedot:
+- Paikallista [!INCLUDE[prod_short](includes/prod_short.md)] -versiota varten tarvitaan seuraavat tiedot:
 
-    - [!INCLUDE[prodshort](includes/prodshort.md)]in ODatan URL-osoite. Tämän URL-osoitteen muoto on yleensä `http[s]://[computer]:[port]/[serverinstance]/ODataV4`, kuten `https://localhost:7048/BC160/ODataV4`. Jos kyse on monen vuokraajan käyttöönotossa, URL-osoitteen on sisällettävä vuokraaja, kuten `https://localhost:7048/BC160/ODataV4?tenant=tenant1`.
-    - [!INCLUDE[prodshort](includes/prodshort.md)] -tilin käyttäjänimi ja verkkopalvelun käyttöoikeusavain.
+    - [!INCLUDE[prod_short](includes/prod_short.md)]in ODatan URL-osoite. Tämän URL-osoitteen muoto on yleensä `http[s]://[computer]:[port]/[serverinstance]/ODataV4`, kuten `https://localhost:7048/BC160/ODataV4`. Jos kyse on monen vuokraajan käyttöönotossa, URL-osoitteen on sisällettävä vuokraaja, kuten `https://localhost:7048/BC160/ODataV4?tenant=tenant1`.
+    - [!INCLUDE[prod_short](includes/prod_short.md)] -tilin käyttäjänimi ja verkkopalvelun käyttöoikeusavain.
 
-      Power BI käyttää perustodennusta [!INCLUDE[prodshort](includes/prodshort.md)] -tietojen hakemiseen. Yhteyttä varten tarvitaan tämän vuoksi käyttäjänimi ja verkkopalvelun käyttöoikeusavain. Tili voi olla oma käyttäjänimi. Organisaatiolla voi olla myös erillinen tili tätä tarkoitusta varten.
+      Power BI käyttää perustodennusta [!INCLUDE[prod_short](includes/prod_short.md)] -tietojen hakemiseen. Yhteyttä varten tarvitaan tämän vuoksi käyttäjänimi ja verkkopalvelun käyttöoikeusavain. Tili voi olla oma käyttäjänimi. Organisaatiolla voi olla myös erillinen tili tätä tarkoitusta varten.
 
-- Lataa [!INCLUDE [prodshort](includes/prodshort.md)] -raportin teema (valinnainen).
+- Lataa [!INCLUDE [prod_short](includes/prod_short.md)] -raportin teema (valinnainen).
 
-    Lisätietoja on tämän artikkelin kohdassa [[!INCLUDE [prodshort](includes/prodshort.md)] -raportin teeman käyttäminen](#theme).
+    Lisätietoja on tämän artikkelin kohdassa [[!INCLUDE [prod_short](includes/prod_short.md)] -raportin teeman käyttäminen](#theme).
 
-## <a name="add-prodshort-as-a-data-source-in-power-bi-desktop"></a>[!INCLUDE[prodshort](includes/prodshort.md)]in lisääminen Power BI Desktopin tietolähteeksi
+## <a name="add-prod_short-as-a-data-source-in-power-bi-desktop"></a>[!INCLUDE[prod_short](includes/prod_short.md)]in lisääminen Power BI Desktopin tietolähteeksi
 
-Raporttien luomisen ensimmäinen tehtävä on [!INCLUDE[prodshort](includes/prodshort.md)]in lisääminen Power BI Desktopin tietolähteeksi. Raportin luonnin voi aloittaa, kun yhteys on muodostettu.
+Raporttien luomisen ensimmäinen tehtävä on [!INCLUDE[prod_short](includes/prod_short.md)]in lisääminen Power BI Desktopin tietolähteeksi. Raportin luonnin voi aloittaa, kun yhteys on muodostettu.
 
 1. Käynnistä Power BI Desktop.
 2. Valitse **Nouda tiedot**.
@@ -61,36 +61,36 @@ Raporttien luomisen ensimmäinen tehtävä on [!INCLUDE[prodshort](includes/prod
 2. Valitse **Nouda tiedot** -sivulla **Verkkopalvelut**.
 3. Tee **Verkkopalvelut**-ruudussa jokin seuraavista:
 
-    1. Jos muodostat yhteyttä [!INCLUDE [prodshort](includes/prodshort.md)] online -versioon, valitse ensin **Dynamics 365 Business Central** ja sitten **Muodosta yhteys**.
-    2. Jos muodostat yhteyttä paikalliseen [!INCLUDE [prodshort](includes/prodshort.md)] -versioon, valitse ensin **Dynamics 365 Business Central (on-premises)** ja sitten **Muodosta yhteys**.
+    1. Jos muodostat yhteyttä [!INCLUDE [prod_short](includes/prod_short.md)] online -versioon, valitse ensin **Dynamics 365 Business Central** ja sitten **Muodosta yhteys**.
+    2. Jos muodostat yhteyttä paikalliseen [!INCLUDE [prod_short](includes/prod_short.md)] -versioon, valitse ensin **Dynamics 365 Business Central (on-premises)** ja sitten **Muodosta yhteys**.
 
-4. Power BI avaa ohjatun toiminnon, joka auttaa yhteyden muodostusprosessissa. Tähän kuuluu myös sovellukseen [!INCLUDE [prodshort](includes/prodshort.md)] kirjautuminen.
+4. Power BI avaa ohjatun toiminnon, joka auttaa yhteyden muodostusprosessissa. Tähän kuuluu myös sovellukseen [!INCLUDE [prod_short](includes/prod_short.md)] kirjautuminen.
 
-    Valitse online-versiossa **Kirjaudu sisään**ja valitse sitten tili. Käytä samaa tiliä, jolla kirjaudut [!INCLUDE [prodshort](includes/prodshort.md)]iin.
+    Valitse online-versiossa **Kirjaudu sisään** ja valitse sitten tili. Käytä samaa tiliä, jolla kirjaudut [!INCLUDE [prod_short](includes/prod_short.md)]iin.
     
-    Anna paikallisessa versiossa [!INCLUDE[prodshort](includes/prodshort.md)]in ODatan URL-osoite ja valinnaisesti yrityksen nimi. Anna sitten pyydettäessä sen tilin käyttäjänimi ja salasana, jolla muodostetaan yhteys [!INCLUDE[prodshort](includes/prodshort.md)]iin. Anna **Salasana**-ruudussa verkkopalvelun käyttöoikeusavain.
+    Anna paikallisessa versiossa [!INCLUDE[prod_short](includes/prod_short.md)]in ODatan URL-osoite ja valinnaisesti yrityksen nimi. Anna sitten pyydettäessä sen tilin käyttäjänimi ja salasana, jolla muodostetaan yhteys [!INCLUDE[prod_short](includes/prod_short.md)]iin. Anna **Salasana**-ruudussa verkkopalvelun käyttöoikeusavain.
 
     > [!NOTE]  
-    > Kun yhteys [!INCLUDE[prodshort](includes/prodshort.md)]iin on muodostettu, sinua ei pyydetä kirjautumaan uudelleen.
+    > Kun yhteys [!INCLUDE[prod_short](includes/prod_short.md)]iin on muodostettu, sinua ei pyydetä kirjautumaan uudelleen.
     
 5. Jatka valitsemalla **Muodosta yhteys**.
 
-    Ohjatussa Power BI -toiminnossa on luettelo Microsoft [!INCLUDE[d365fin](includes/d365fin_md.md)]:n ympäristöistä, yrityksistä ja tietolähteistä. Nämä tietolähteet viittaavat kaikkiin [!INCLUDE [prodshort](includes/prodshort.md)]iin julkaistuihin verkkopalveluihin.
+    Ohjatussa Power BI -toiminnossa on luettelo Microsoft [!INCLUDE[prod_short](includes/prod_short.md)]:n ympäristöistä, yrityksistä ja tietolähteistä. Nämä tietolähteet viittaavat kaikkiin [!INCLUDE [prod_short](includes/prod_short.md)]iin julkaistuihin verkkopalveluihin.
 6. Määritä tietomalliin lisättävät tiedot ja valitse sitten **Lataa**-painike.
-7. Lisää uusia [!INCLUDE [prodshort](includes/prodshort.md)]in tai muita tietoja Power BI -tietomalliin toistamalla edellä olevat vaiheet.
+7. Lisää uusia [!INCLUDE [prod_short](includes/prod_short.md)]in tai muita tietoja Power BI -tietomalliin toistamalla edellä olevat vaiheet.
 
-Kun tiedot on ladattu, ne näkyvät sivun oikeassa siirtymisruudussa. Olet nyt muodostanut yhteyden [!INCLUDE[prodshort](includes/prodshort.md)] -tietoihin ja voit aloittaa Power BI -raportin luomisen.  
+Kun tiedot on ladattu, ne näkyvät sivun oikeassa siirtymisruudussa. Olet nyt muodostanut yhteyden [!INCLUDE[prod_short](includes/prod_short.md)] -tietoihin ja voit aloittaa Power BI -raportin luomisen.  
 
 > [!TIP]
 > Lisätietoja Power BI Desktopin käytöstä on kohdassa [Power BI Desktopin käytön aloittaminen](/power-bi/fundamentals/desktop-getting-started).
 
 ## <a name="creating-reports-to-display-data-associated-with-a-list"></a>Raporttien luominen näyttämään luetteloon liitetyt tiedot
 
-Voit luoda [!INCLUDE [prodshort](includes/prodshort.md)] -luettelosivun tietoruudussa näytettäviä raportteja. Raporteissa voi olla tietoja luettelossa valitusta tietueesta. Vaikka näiden raporttien luominen muistuttaa muiden raporttien luontia, raporttien näkyminen odotetusti edellyttää muutamia toimintoja. Lisätietoja on kohdassa [Power BI -raporttien luominen näyttämään luettelotietoja [!INCLUDE[prodshort](includes/prodshort.md)]issa](across-how-use-powerbi-reports-factbox.md).
+Voit luoda [!INCLUDE [prod_short](includes/prod_short.md)] -luettelosivun tietoruudussa näytettäviä raportteja. Raporteissa voi olla tietoja luettelossa valitusta tietueesta. Vaikka näiden raporttien luominen muistuttaa muiden raporttien luontia, raporttien näkyminen odotetusti edellyttää muutamia toimintoja. Lisätietoja on kohdassa [Power BI -raporttien luominen näyttämään luettelotietoja [!INCLUDE[prod_short](includes/prod_short.md)]issa](across-how-use-powerbi-reports-factbox.md).
 
-## <a name="using-the-prodshort-report-theme-optional"></a><a name="theme"></a>[!INCLUDE [prodshort](includes/prodshort.md)] -raportin teeman käyttäminen (valinnainen)
+## <a name="using-the-prod_short-report-theme-optional"></a><a name="theme"></a>[!INCLUDE [prod_short](includes/prod_short.md)] -raportin teeman käyttäminen (valinnainen)
 
-[!INCLUDE [prodshort](includes/prodshort.md)] -teematiedosto kannattaa ladata ja tuoda ennen raportin luontia. Teematiedosto luo värivalikoiman, jonka avulla voit luoda raportteja samalla värityylillä kuin [!INCLUDE [prodshort](includes/prodshort.md)] -sovelluksissa ilman, että kunkin visuaalisen ominaisuuden mukautetut värit on määritettävä erikseen.
+[!INCLUDE [prod_short](includes/prod_short.md)] -teematiedosto kannattaa ladata ja tuoda ennen raportin luontia. Teematiedosto luo värivalikoiman, jonka avulla voit luoda raportteja samalla värityylillä kuin [!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksissa ilman, että kunkin visuaalisen ominaisuuden mukautetut värit on määritettävä erikseen.
 
 > [!NOTE]
 > Tämä tehtävä on valinnainen. Voit aina luoda omia raportteja ja ladata ja käyttää tyylimallia myöhemmin.
@@ -104,11 +104,11 @@ Teematiedosto on saatavana json-tiedostona Microsoft Power BI -yhteisön teemava
 
 ### <a name="import-the-theme-on-a-report"></a>Teeman tuominen raporttiin
 
-Kun [!INCLUDE [prodshort](includes/prodshort.md)] -raportin teema on ladattu, voit luoda sen raportteihin. Tuo teema valitsemalla **Näkymä** > **Teema** > **Teemojen selaus**. Lisätietoja on kohdassa [Power BI Desktop – mukautettujen raportin teemojen tuominen](/power-bi/create-reports/desktop-report-themes#import-custom-report-theme-files).
+Kun [!INCLUDE [prod_short](includes/prod_short.md)] -raportin teema on ladattu, voit luoda sen raportteihin. Tuo teema valitsemalla **Näkymä** > **Teema** > **Teemojen selaus**. Lisätietoja on kohdassa [Power BI Desktop – mukautettujen raportin teemojen tuominen](/power-bi/create-reports/desktop-report-themes#import-custom-report-theme-files).
 
 ## <a name="publish-reports"></a>Raporttien julkaiseminen
 
-Kun raportti on luotu tai sitä on muokattu, voit julkaista raportin Power BI -palveluun sekä jakaa sen organisaatiossa muiden kanssa. Raportti näkyy julkaisun jälkeen Power BI:ssa. Raportti on lisäksi valittavana [!INCLUDE[prodshort](includes/prodshort.md)]issa.
+Kun raportti on luotu tai sitä on muokattu, voit julkaista raportin Power BI -palveluun sekä jakaa sen organisaatiossa muiden kanssa. Raportti näkyy julkaisun jälkeen Power BI:ssa. Raportti on lisäksi valittavana [!INCLUDE[prod_short](includes/prod_short.md)]issa.
 
 Voit julkaista raportin valitsemalla **Julkaise** valintanauhan **Aloitus**-välilehdessä tai **Tiedosto**-valikossa. Jos olet kirjautunut Power BI -palveluun, raportti on julkaistava tähän palveluun. Muussa tapauksessa sinua pyydetään kirjautumaan sisään. 
 
@@ -121,7 +121,7 @@ Raportit voi toimittaa työtovereille ja muille kahdella tavalla:
     Raportit tallennetaan tietokoneeseen .pbix-tiedostoina. Voit jakaa raportin käyttäjille .pbix-tiedostona muiden tiedostojen tavoin. Käyttäjät voivat sitten ladata tiedoston Power BI -palveluun. Lisätietoja on kohdassa [Raporttien lataaminen tiedostoista](across-working-with-business-central-in-powerbi.md#upload).
 
     > [!NOTE]
-    > Kun raportit jaetaan tällä tavoin, kukin käyttäjä päivittää raportin tiedot itse. Tämä voi vaikuttaa [!INCLUDE[prodshort](includes/prodshort.md)]in suorituskykyyn.
+    > Kun raportit jaetaan tällä tavoin, kukin käyttäjä päivittää raportin tiedot itse. Tämä voi vaikuttaa [!INCLUDE[prod_short](includes/prod_short.md)]in suorituskykyyn.
 
 - Raporttien jakaminen Power BI -palvelusta
 
@@ -135,6 +135,6 @@ Raportit voi toimittaa työtovereille ja muille kahdella tavalla:
 [Business Intelligence](bi.md)  
 [Käytön aloittaminen](product-get-started.md)  
 [Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittäminen](setup.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)]in määrittäminen](setup.md)  
 [Rahoitus](finance.md)  
 [Pika-aloitus: Tietojen yhdistäminen Power BI Desktopiin](/power-bi/desktop-quickstart-connect-to-data)  

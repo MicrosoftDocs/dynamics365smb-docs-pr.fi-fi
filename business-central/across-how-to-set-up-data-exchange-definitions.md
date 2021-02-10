@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bb6abdb25db5567a49e394b3f13f257e3a97cf1d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ca9f3dc4cbc21cad8a2369ed4c29ab6682723cc1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921170"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754690"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Tietojenvaihtomääritysten määrittäminen
-Voit määrittää [!INCLUDE[d365fin](includes/d365fin_md.md)]in vaihtamaan tiettyjen taulukoiden tietoja ulkoisten tiedostojen kanssa. Tällöin voit esimerkiksi lähettää ja vastaanottaa sähköisiä asiakirjoja sekä tuoda ja viedä pankkitietoja tai muita tietoja, kuten palkanlaskennan tietoja, vaihtokursseja ja tuoteluetteloita. Lisätietoja on kohdassa [Sähköinen tiedonsiirto](across-data-exchange.md).  
+Voit määrittää [!INCLUDE[prod_short](includes/prod_short.md)]in vaihtamaan tiettyjen taulukoiden tietoja ulkoisten tiedostojen kanssa. Tällöin voit esimerkiksi lähettää ja vastaanottaa sähköisiä asiakirjoja sekä tuoda ja viedä pankkitietoja tai muita tietoja, kuten palkanlaskennan tietoja, vaihtokursseja ja tuoteluetteloita. Lisätietoja on kohdassa [Sähköinen tiedonsiirto](across-data-exchange.md).  
 
 Datatiedoston tai tietovirran tietojenvaihtomäärityksen luonnin valmisteluun voit käyttää liittyvää XML-rakennetta. Sen avulla voit määrittää **Sarakkeen määritykset** -pikalomakkeeseen sisällytettävät tietoelementit. Katso vaihe 6 kohdassa [Tiedoston rivien ja sarakkeiden muotoilun kuvaileminen](across-how-to-set-up-data-exchange-definitions.md#to-describe-the-formatting-of-lines-and-columns-in-the-file). Lisätietoja on kohdassa [XML-rakenteiden käyttäminen tiedonsiirtomääritysten valmistelussa](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
 
@@ -37,7 +37,7 @@ Tämä ohjeaihe sisältää seuraavat menettelyt:
 Tietojenvaihtomäärityksen luominen muodostuu kahdesta tehtävästä:  
 
 1. Kuvaa tiedoston rivien ja sarakkeiden muotoilu **Tiedonsiirtomääritys**-sivulla.  
-2. Kohdista **Tiedonsiirron vastaavuus** -sivulla datatiedoston sarakkeet [!INCLUDE[d365fin](includes/d365fin_md.md)]in kenttiin.  
+2. Kohdista **Tiedonsiirron vastaavuus** -sivulla datatiedoston sarakkeet [!INCLUDE[prod_short](includes/prod_short.md)]in kenttiin.  
 
 Tämä kuvataan seuraavissa menettelytavoissa.  
 
@@ -55,12 +55,12 @@ Tämä kuvataan seuraavissa menettelytavoissa.
     |**Nimi**|Anna tietojenvaihtomäärityksen nimi.|  
     |**Tiedostotyyppi**|Määritä, minkälaiselle tiedostolle tietojenvaihtomääritystä käytetään. Valittavana on neljä tiedostotyyppiä:<br /><br /> -   **XML**: sisällön kerroksittaiset merkkijonot ja merkinnät, joita ympäröivät toimintoa osoittavat tunnisteet.<br />-   **Muuttuva teksti**: Tietueiden pituus on muuttuva, ja ne erotetaan merkillä, kuten pilkulla tai puoli\-pisteellä. Tunnetaan myös nimellä *eroteltu tiedosto*.<br />-   **Kiinteä teksti**: tietueilla on sama pituus pad-merkkejä käytettäessä ja jokainen tietue on erillisellä rivillä. Tunnetaan myös nimellä *kiinteäleveyksinen tiedosto*.<br />- **Json**: JavaScriptin kerrostettu komentosarjasisältö.|  
     |**Tyyppi**|Määritä, minkälaiselle aktiviteetille tietojenvaihtomääritystä käytetään (esimerkiksi **Maksun vienti**).|  
-    |**Tietoja käsittelevä Codeunit**|Määritä koodiyksikkö, joka siirtää tietoa [!INCLUDE[d365fin](includes/d365fin_md.md)]in taulukoihin ja taulukoista pois.|  
-    |**Tarkistuksen Codeunit**|Määritä koodiyksikkö, jonka avulla tiedot tarkistetaan ennalta määritettyjen liiketoimintasääntöjen mukaan.|  
-    |**Codeunit luetaan/kirjoitetaan**|Määritä koodiyksikkö, joka työstää tuodut tiedot ennen kartoitusta ja viedyt tiedot kartoituksen jälkeen.|  
+    |**Tietoja käsittelevä Codeunit**|Määritä codeunit, joka siirtää tietoa [!INCLUDE[prod_short](includes/prod_short.md)]in taulukoihin ja taulukoista pois.|  
+    |**Tarkistuksen Codeunit**|Määritä codeunit, jonka avulla tiedot tarkistetaan ennalta määritettyjen liiketoimintasääntöjen mukaan.|  
+    |**Codeunit luetaan/kirjoitetaan**|Määritä codeunit, joka työstää tuodut tiedot ennen kartoitusta ja viedyt tiedot kartoituksen jälkeen.|  
     |**XMLportia luetaan/kirjoitetaan**|Määritä XMLportin, jonka kautta tuotava tiedosto tai palvelu vastaanotetaan ennen yhdistämistä ja jonka kautta viedyt tiedot lähetetään, kun ne kirjoitetaan tiedostoon tai palveluun yhdistämisen jälkeen.|  
-    |**Ulk. tietoja käsittelevä Codeunit**|Määritä koodiyksikkö, joka siirtää ulkoiset tiedot tiedonsiirtokehykseen ja siitä pois.|  
-    |**Käyttäjäpalautteen Codeunit**|Määritä koodiyksikkö, joka tekee erilaisia puhdistustoimia (esimerkiksi merkitsee rivit viedyiksi ja poistaa tilapäiset tietueet) yhdistämisen jälkeen|  
+    |**Ulk. tietoja käsittelevä Codeunit**|Määritä codeunit, joka siirtää ulkoiset tiedot tiedonsiirtokehykseen ja siitä pois.|  
+    |**Käyttäjäpalautteen Codeunit**|Määritä codeunit, joka tekee erilaisia puhdistustoimia (esimerkiksi merkitsee rivit viedyiksi ja poistaa tilapäiset tietueet) yhdistämisen jälkeen|  
     |**Tiedoston koodaus**|Määritä tiedoston koodaus. **Huomautus:** Tätä kenttää käytetään vain tuonnissa.|  
     |**Sarake-erotin**|Määritä se, kuinka tiedoston sarakkeet erotetaan toisistaan, jos tiedosto on tyyppiä **Muuttuva teksti**.|  
     |**Otsikkorivit**|Määritä, kuinka monta otsikkoriviä on tiedostossa.<br /><br /> Näin varmistat, että ylätunnisteen tietoja ei tuoda. **Huomautus:** Tätä kenttää käytetään vain tuonnissa.|  
@@ -95,7 +95,7 @@ Tämä kuvataan seuraavissa menettelytavoissa.
     |**Sarakkeen nro**|Määritä määrä, joka kuvaa sarakkeen sijaintia tiedostorivillä.<br /><br /> Määritä XML-tiedostojen osalta luku, joka ilmaisee tiedostossa olevien tietojen elementin tyyppiä.|  
     |**Nimi**|Määritä sarakkeen nimi.<br /><br /> Määritä XML-tiedostojen osalta merkintä, joka merkitsee siirrettävät tiedot.|  
     |**Tietotyyppi**|Määritä, onko vaihdettavat tiedot tyyppiä **Teksti**, **Päivämäärä** vai **Desimaali**.|  
-    |**Tietojen muoto**|Määritä tietomuoto, jos sellainen on. Esimerkiksi **-kk-pp-vvvv**, jos tietotyyppi on **Päivämäärä**. **Huomautus:** Määritä tietojen muoto vientiä varten [!INCLUDE[d365fin](includes/d365fin_md.md)]in mukaan. Määritä tietojen muoto vientiä varten .NET Frameworkin mukaan. Lisätietoja on kohdassa [Vakiomuotoiset päivämäärä- ja aikamerkkijonot](https://go.microsoft.com/fwlink/?LinkID=323466)|  
+    |**Tietojen muoto**|Määritä tietomuoto, jos sellainen on. Esimerkiksi **-kk-pp-vvvv**, jos tietotyyppi on **Päivämäärä**. **Huomautus:** Määritä tietojen muoto vientiä varten [!INCLUDE[prod_short](includes/prod_short.md)]in mukaan. Määritä tietojen muoto vientiä varten .NET Frameworkin mukaan. Lisätietoja on kohdassa [Vakiomuotoiset päivämäärä- ja aikamerkkijonot](https://go.microsoft.com/fwlink/?LinkID=323466)|  
     |**Tietojen muotoilun maa-asetus**|Määritä tiedontallennusmuototapa, jos sellainen on. Esimerkiksi **fi-fi**, jos tietotyyppi on **Desimaali**, jotta varmistetaan, että pilkkua käytetään erottimena suomalaisen muodon mukaisesti. Lisätietoja on kohdassa [Vakiomuotoiset päivämäärä- ja aikamerkkijonot](https://go.microsoft.com/fwlink/?LinkID=323466) **Huomautus:** Tätä kenttää käytetään vain tuonnissa.|  
     |**Pituus**|Määritä kiinteäleveyksisten rivien pituudet, jotka käsittävät sarakkeen, jos tiedosto on tyyppiä **Kiinteä teksti**.|  
     |**Kuvaus**|Kirjoita sarakkeen kuvaus tiedoksi.|  
@@ -103,14 +103,14 @@ Tämä kuvataan seuraavissa menettelytavoissa.
     |**Negatiivisen etumerkin tunniste**|Kirjoita arvo, jota tiedostossa käytetään negatiivisten tietojen tunnistamiseen niissä tiedostoissa, joissa ei voi olla negatiivisia etumerkkejä. Tätä tunnusta käytetään tunnistettujen summien negatiivisten etumerkkien palauttamisessa tuonnin aikana. **Huomautus:** Tätä kenttää käytetään vain tuonnissa.|  
     |**Vakio**|Määritä mitkä tahansa tiedot, jotka haluat viedä tästä sarakkeesta, kuten ylimääräiset tiedot maksutyypistä. **Huomautus:** Tätä kenttää käytetään vain viennissä.|  
 
-9. Toista vaihe 8 jokaiselle sellaisen datatiedoston sarakkeelle tai XML-elementille, jonka tietoja halutaan vaihtaa [!INCLUDE[d365fin](includes/d365fin_md.md)]in kanssa.  
+9. Toista vaihe 8 jokaiselle sellaisen datatiedoston sarakkeelle tai XML-elementille, jonka tietoja halutaan vaihtaa [!INCLUDE[prod_short](includes/prod_short.md)]in kanssa.  
 
- Seuraavaksi on päätettävä, mitkä datatiedoston sarakkeet tai XML-elementit ja [!INCLUDE[d365fin](includes/d365fin_md.md)]in kentät yhdistetään.  
+ Seuraavaksi on päätettävä, mitkä datatiedoston sarakkeet tai XML-elementit ja [!INCLUDE[prod_short](includes/prod_short.md)]in kentät yhdistetään.  
 
 > [!NOTE]  
->  Erityinen kartoitus riippuu vaihdettavan tiedoston liiketoimintatarkoituksesta ja paikallisista variaatioista. Jopa SEPA-pankkistandardissa on paikallisia vaihteluita. [!INCLUDE[d365fin](includes/d365fin_md.md)] tukee SEPA CAMT -tiliotetiedostojen tuontia \-ilman\- lisä\-toimia. Siitä on osoituksena **SEPA CAMT** -tiedonsiirtomäärityksen tietuekoodi **Tiedonsiirtomääritykset**-sivulla. Lisätietoja SEPA CAMT -tuelle ominaisista kenttien yhdistämismäärityksistä on kohdassa [Kenttien yhdistämismääritykset SEPA CAMT -tiedostoja tuotaessa](across-field-mapping-when-importing-sepa-camt-files.md).  
+>  Erityinen kartoitus riippuu vaihdettavan tiedoston liiketoimintatarkoituksesta ja paikallisista variaatioista. Jopa SEPA-pankkistandardissa on paikallisia vaihteluita. [!INCLUDE[prod_short](includes/prod_short.md)] tukee SEPA CAMT -tiliotetiedostojen tuontia \-ilman\- lisä\-toimia. Siitä on osoituksena **SEPA CAMT** -tiedonsiirtomäärityksen tietuekoodi **Tiedonsiirtomääritykset**-sivulla. Lisätietoja SEPA CAMT -tuelle ominaisista kenttien yhdistämismäärityksistä on kohdassa [Kenttien yhdistämismääritykset SEPA CAMT -tiedostoja tuotaessa](across-field-mapping-when-importing-sepa-camt-files.md).  
 
-#### <a name="to-map-columns-in-the-data-file-to-fields-in-d365fin"></a>Datatiedoston sarakkeiden yhdistäminen [!INCLUDE[d365fin](includes/d365fin_md.md)]in kenttiin  
+#### <a name="to-map-columns-in-the-data-file-to-fields-in-prod_short"></a>Datatiedoston sarakkeiden yhdistäminen [!INCLUDE[prod_short](includes/prod_short.md)]in kenttiin  
 > [!TIP]
 > Joskus kenttien arvot, jotka haluat yhdistää, ovat erilaisia. Esimerkiksi yhdessä yrityssovelluksessa Yhdysvaltojen kielikoodi on "U.S.", mutta toisessa se on "US". Tämä tarkoittaa, että arvo on muunnettava, kun tietoja vaihdetaan. Tämä tapahtuu muutossäännöillä, jotka määrität kentille. Lisätietoja on kohdassa [Muunnossäännöt](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).
 
@@ -120,13 +120,13 @@ Tämä kuvataan seuraavissa menettelytavoissa.
     |Kenttä|Kuvaus|  
     |---------------------------------|---------------------------------------|  
     |**Taulukon tunnus**|Määritä taulukko, joka käsittää kentät, joista tai joihin tiedot vaihdetaan kartoituksen mukaan.|  
-    |**Käytä väliaikaisena taulukkona**|Määritä, onko **Taulukon tunnus** -kentässä valittu taulukko väliaikainen taulukko, johon tuodut tiedot tallennetaan ennen niiden siirtämistä kohdetaulukkoon.<br /><br /> Väliaikaista taulukkoa käytetään yleensä silloin, kun tiedonsiirtomääritystä käytetään sähköisten asiakirjojen tuomiseen ja muuntamiseen, kuten toimittajalaskujen tuomiseen ja muuntamiseen ostolaskuiksi [!INCLUDE[d365fin](includes/d365fin_md.md)]issa. Lisätietoja on kohdassa [Sähköinen tiedonsiirto](across-data-exchange.md).|  
+    |**Käytä väliaikaisena taulukkona**|Määritä, onko **Taulukon tunnus** -kentässä valittu taulukko väliaikainen taulukko, johon tuodut tiedot tallennetaan ennen niiden siirtämistä kohdetaulukkoon.<br /><br /> Väliaikaista taulukkoa käytetään yleensä silloin, kun tiedonsiirtomääritystä käytetään sähköisten asiakirjojen tuomiseen ja muuntamiseen, kuten toimittajalaskujen tuomiseen ja muuntamiseen ostolaskuiksi [!INCLUDE[prod_short](includes/prod_short.md)]issa. Lisätietoja on kohdassa [Sähköinen tiedonsiirto](across-data-exchange.md).|  
     |**Nimi**|Kirjoita kohdistusasetuksen nimi.|  
-    |**Yhdistämistä edeltävä Codeunit**|Määritä koodiyksikkö, joka valmistelee [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman kenttien ja ulkoisten tietojen yhdistämisen.|  
-    |**Vastaava Codeunit**|Määritä koodiyksikkö, jota käytetään yhdistämään määritetyt sarakkeet tai XML-elementit [!INCLUDE[d365fin](includes/d365fin_md.md)]in kenttiin.|  
-    |**Yhdistämisen jälkeinen Codeunit**|Määritä koodiyksikkö, joka täydentää [!INCLUDE[d365fin](includes/d365fin_md.md)]in kenttien ja ulkoisten tietojen väliset yhdistämismääritykset. **Huomautus:** Kun AMC Banking 365 Fundamentals 365 -laajennustoiminto on käytössä, codeunit muuntaa [!INCLUDE[d365fin](includes/d365fin_md.md)]ista viedyt tiedot yleiseen vientiin soveltuvaksi muodoksi. Koodiyksikkö muuntaa ulkoiset tiedot vientiä varten sellaiseen muotoon, jonka voi tuoda [!INCLUDE[d365fin](includes/d365fin_md.md)]iin.|  
+    |**Yhdistämistä edeltävä Codeunit**|Määritä codeunit, joka valmistelee [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman kenttien ja ulkoisten tietojen yhdistämisen.|  
+    |**Vastaava Codeunit**|Määritä codeunit, jota käytetään yhdistämään määritetyt sarakkeet tai XML-elementit [!INCLUDE[prod_short](includes/prod_short.md)]in kenttiin.|  
+    |**Yhdistämisen jälkeinen Codeunit**|Määritä codeunit, joka täydentää [!INCLUDE[prod_short](includes/prod_short.md)]in kenttien ja ulkoisten tietojen väliset yhdistämismääritykset. **Huomautus:** Kun AMC Banking 365 Fundamentals 365 -laajennustoiminto on käytössä, codeunit muuntaa [!INCLUDE[prod_short](includes/prod_short.md)]ista viedyt tiedot yleiseen vientiin soveltuvaksi muodoksi. Codeunit muuntaa ulkoiset tiedot vientiä varten sellaiseen muotoon, jonka voi tuoda [!INCLUDE[prod_short](includes/prod_short.md)]iin.|  
 
-3.  Määritä **Kentän vastaavuus** -pikavälilehdessä, mitkä sarakkeet yhdistetään mihin [!INCLUDE[d365fin](includes/d365fin_md.md)]in kenttiin täyttämällä kentät seuraavassa taulukossa kuvatulla tavalla.  
+3.  Määritä **Kentän vastaavuus** -pikavälilehdessä, mitkä sarakkeet yhdistetään mihin [!INCLUDE[prod_short](includes/prod_short.md)]in kenttiin täyttämällä kentät seuraavassa taulukossa kuvatulla tavalla.  
 
     |Kenttä|Kuvaus|  
     |---------------------------------|---------------------------------------|  

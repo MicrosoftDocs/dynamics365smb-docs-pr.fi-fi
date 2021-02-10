@@ -1,6 +1,6 @@
 ---
-title: Business Centralin ja Common Data Servicein synkronointi | Microsoft Docs
-description: Lisätietoja tietojen synkronoinnissa Business Centralin ja Common Data Servicein välillä.
+title: Business Centralin ja Dataversein synkronointi | Microsoft Docs
+description: Lisätietoja tietojen synkronoinnissa Business Centralin ja Dataversein välillä.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,18 +10,19 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 2f1b79cdf04075159b5e464e384bace89d9f933c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 94f969f4d96f31b3b6843614e1bd99790a22307d
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917799"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755190"
 ---
-# <a name="scheduling-a-synchronization-between-business-central-and-common-data-service"></a>Business Centralin ja Common Data Servicein synkronoinnin ajoittaminen
+# <a name="scheduling-a-synchronization-between-business-central-and-dataverse"></a>Business Centralin ja Dataversein synkronoinnin ajoittaminen
+[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
 
-Voit synkronoida [!INCLUDE[d365fin](includes/d365fin_md.md)]in ja [!INCLUDE[cds_long_md](includes/cds_long_md.md)]in tietyin väliajoin määrittämällä työt työjonoon. Synkronointityöt synkronoivat [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietueiden tiedot ja [!INCLUDE[cds_long_md](includes/cds_long_md.md)]in tietueet, jotka on aiemmin yhdistetty. Jos kyse on vielä yhdistämättömistä tietueista synkronointityöt voivat luoda ja yhdistää uusia tietueita kohdejärjestelmässä synkronointisuunnan ja -sääntöjen mukaisesti. 
+Voit synkronoida [!INCLUDE[prod_short](includes/prod_short.md)]in ja [!INCLUDE[cds_long_md](includes/cds_long_md.md)]in tietyin väliajoin määrittämällä työt työjonoon. Synkronointityöt synkronoivat [!INCLUDE[prod_short](includes/prod_short.md)]in tietueiden tiedot ja [!INCLUDE[cds_long_md](includes/cds_long_md.md)]in tietueet, jotka on aiemmin yhdistetty. Jos kyse on vielä yhdistämättömistä tietueista synkronointityöt voivat luoda ja yhdistää uusia tietueita kohdejärjestelmässä synkronointisuunnan ja -sääntöjen mukaisesti. 
 
-Käytettävissä on heti useita synkronointitöitä. Työt suoritetaan seuraavassa järjestyksessä, jotta objektien välille ei muodostu yhdistämisen riippuvuussuhteita. Lisätietoja on kohdassa [Tehtävien aikatauluttaminen työjonojen avulla](/dynamics365/business-central/admin-job-queues-schedule-tasks.md).
+Käytettävissä on heti useita synkronointitöitä. Työt suoritetaan seuraavassa järjestyksessä, jotta taulukoiden välille ei muodostu yhdistämisen riippuvuussuhteita. Lisätietoja on kohdassa [Tehtävien aikatauluttaminen työjonojen avulla](admin-job-queues-schedule-tasks.md).
 
 1. VALUUTTA - Common Data Service -synkronointityö.
 2. TOIMITTAJA - Common Data Service -synkronointityö.
@@ -37,45 +38,44 @@ Seuraavassa taulukossa kuvaillaan [!INCLUDE[cds_long_md](includes/cds_long_md.md
 
 | Työjonotapahtuma | Kuvaus | Suunta | Integrointitaulukon yhdistämismääritys | Synkronoinnin oletustiheys (min) | Passivisuuden oletusaika (min) |
 |--|--|--|--|--|--|--|
-| KONTAKTI - Common Data Service -synkronointityö | Synkronoi [!INCLUDE[cds_long_md](includes/cds_long_md.md)]in kontaktit [!INCLUDE[d365fin](includes/d365fin_md.md)]in kontakteilla. | Kaksisuuntainen | KONTAKTI | 30 | 720 <br>(12 tuntia) |
-| VALUUTTA - Common Data Service -synkronointityö | Synkronoi [!INCLUDE[cds_long_md](includes/cds_long_md.md)]in tapahtumien valuutat [!INCLUDE[d365fin](includes/d365fin_md.md)]in valuuttojen kanssa. | [!INCLUDE[d365fin](includes/d365fin_md.md)]ista [!INCLUDE[cds_long_md](includes/cds_long_md.md)]iin | VALUUTTA | 30 | 720 <br> (12 tuntia) |
-| ASIAKAS - Common Data Service -synkronointityö | Synkronoi [!INCLUDE[cds_long_md](includes/cds_long_md.md)]in tilit ja [!INCLUDE[d365fin](includes/d365fin_md.md)]in asiakkaat. | Kaksisuuntainen | ASIAKAS | 30 | 720<br> (12 tuntia) |
-| TOIMITTAJA - Common Data Service -synkronointityö | Synkronoi [!INCLUDE[cds_long_md](includes/cds_long_md.md)]in tilit ja [!INCLUDE[d365fin](includes/d365fin_md.md)]in asiakkaat. | Kaksisuuntainen | TOIMITTAJA | 30 | 720<br> (12 tuntia) |
-| MYYJÄT - Common Data Service -synkronointityö | Synkronoi [!INCLUDE[d365fin](includes/d365fin_md.md)]in myyjät ja [!INCLUDE[cds_long_md](includes/cds_long_md.md)]in käyttäjät. | [!INCLUDE[cds_long_md](includes/cds_long_md.md)]ista [!INCLUDE[d365fin](includes/d365fin_md.md)]iin | MYYJÄT | 30 | 1440<br> (24 tuntia) |
+| KONTAKTI - Common Data Service -synkronointityö | Synkronoi [!INCLUDE[cds_long_md](includes/cds_long_md.md)]in kontaktit [!INCLUDE[prod_short](includes/prod_short.md)]in kontakteilla. | Kaksisuuntainen | KONTAKTI | 30 | 720 <br>(12 tuntia) |
+| VALUUTTA - Common Data Service -synkronointityö | Synkronoi [!INCLUDE[cds_long_md](includes/cds_long_md.md)]in tapahtumien valuutat [!INCLUDE[prod_short](includes/prod_short.md)]in valuuttojen kanssa. | [!INCLUDE[prod_short](includes/prod_short.md)]ista [!INCLUDE[cds_long_md](includes/cds_long_md.md)]iin | VALUUTTA | 30 | 720 <br> (12 tuntia) |
+| ASIAKAS - Common Data Service -synkronointityö | Synkronoi [!INCLUDE[cds_long_md](includes/cds_long_md.md)]in tilit ja [!INCLUDE[prod_short](includes/prod_short.md)]in asiakkaat. | Kaksisuuntainen | ASIAKAS | 30 | 720<br> (12 tuntia) |
+| TOIMITTAJA - Common Data Service -synkronointityö | Synkronoi [!INCLUDE[cds_long_md](includes/cds_long_md.md)]in tilit ja [!INCLUDE[prod_short](includes/prod_short.md)]in asiakkaat. | Kaksisuuntainen | TOIMITTAJA | 30 | 720<br> (12 tuntia) |
+| MYYJÄT - Common Data Service -synkronointityö | Synkronoi [!INCLUDE[prod_short](includes/prod_short.md)]in myyjät ja [!INCLUDE[cds_long_md](includes/cds_long_md.md)]in käyttäjät. | [!INCLUDE[cds_long_md](includes/cds_long_md.md)]ista [!INCLUDE[prod_short](includes/prod_short.md)]iin | MYYJÄT | 30 | 1440<br> (24 tuntia) |
 
 ## <a name="synchronization-process"></a>Synkronointiprosessi
 
-Kunkin synkronoinnin työjonotapahtuma käyttää tiettyä integrointitaulukon yhdistämismääritystä, joka määrittää, mikä [!INCLUDE[d365fin](includes/d365fin_md.md)]in taulukko ja mikä [!INCLUDE[cds_long_md](includes/cds_long_md.md)]in objekti synkronoidaan. Taulukon yhdistämismääritykset sisältävät myös joitakin asetuksia, jotka määrittävät, mitkä [!INCLUDE[d365fin](includes/d365fin_md.md)]in taulukon ja [!INCLUDE[cds_long_md](includes/cds_long_md.md)]in objektin tietueet synkronoidaan.  
+Kunkin synkronoinnin työjonotapahtuma käyttää tiettyä integrointitaulukon yhdistämismääritystä, joka määrittää, mikä [!INCLUDE[prod_short](includes/prod_short.md)]in taulukko ja mikä [!INCLUDE[cds_long_md](includes/cds_long_md.md)]in taulukko synkronoidaan. Taulukon yhdistämismääritykset sisältävät myös joitakin asetuksia, jotka määrittävät, mitkä [!INCLUDE[prod_short](includes/prod_short.md)]in taulukon ja [!INCLUDE[cds_long_md](includes/cds_long_md.md)]in taulukon tietueet synkronoidaan.  
 
-Tietojen synkronointi edellyttää, että [!INCLUDE[cds_long_md](includes/cds_long_md.md)] -objektin tietueet on yhdistettävä [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietueisiin. Esimerkiksi [!INCLUDE[d365fin](includes/d365fin_md.md)]in asiakas on yhdistettävä [!INCLUDE[cds_long_md](includes/cds_long_md.md)]in tiliin. Yhdistämiset voidaan määrittää manuaalisesti, ennen kuin suoritat synkronointitöitä tai voit antaa synkronointitöiden määrittää yhdistämiset automaattisesti. Seuraavassa luettelossa käsitellään tietojen synkronointia Common Data Servicein ja [!INCLUDE[d365fin](includes/d365fin_md.md)]in välillä, kun käytät synkronoinnin työjonon tapahtumia. Lisätietoja on kohdassa [Tietueiden yhdistäminen ja synkronoiminen manuaalisesti](admin-how-to-couple-and-synchronize-records-manually.md).
+Tietojen synkronointi edellyttää, että [!INCLUDE[cds_long_md](includes/cds_long_md.md)] -taulukon tietueet on yhdistettävä [!INCLUDE[prod_short](includes/prod_short.md)]in tietueisiin. Esimerkiksi [!INCLUDE[prod_short](includes/prod_short.md)]in asiakas on yhdistettävä [!INCLUDE[cds_long_md](includes/cds_long_md.md)]in tiliin. Yhdistämiset voidaan määrittää manuaalisesti, ennen kuin suoritat synkronointitöitä tai voit antaa synkronointitöiden määrittää yhdistämiset automaattisesti. Seuraavassa luettelossa käsitellään tietojen synkronointia [!INCLUDE[cds_long_md](includes/cds_long_md.md)]in ja [!INCLUDE[prod_short](includes/prod_short.md)]in välillä, kun käytät synkronoinnin työjonon tapahtumia. Lisätietoja on kohdassa [Tietueiden yhdistäminen ja synkronoiminen manuaalisesti](admin-how-to-couple-and-synchronize-records-manually.md).
 
-- **Synkronoi vain yhdistetyt tietueet** -valintaruutu määrittää, luodaanko uusia tietueita synkronoinnin yhteydessä. Oletusarvon mukaan valintaruutu on valittuna, joten vain kytkettyjä tietueita synkronoidaan. Integraatiotaulukon yhdistämismäärityksissä voit muuttaa taulukon yhdistämismäärityksiä [!INCLUDE[cds_long_md](includes/cds_long_md.md)]in objektin ja [!INCLUDE[d365fin](includes/d365fin_md.md)]in taulukon välillä siten, että integroinnin synkronointityöt luovat uudet tietueet kohdetietokantaan kullekin lähdetietokannan tietueelle, jota ei ole yhdistetty. Lisätietoja on kohdassa [Uusien tietueiden luominen](admin-how-to-modify-table-mappings-for-synchronization.md#creating-new-records).
+- **Synkronoi vain yhdistetyt tietueet** -valintaruutu määrittää, luodaanko uusia tietueita synkronoinnin yhteydessä. Oletusarvon mukaan valintaruutu on valittuna, joten vain kytkettyjä tietueita synkronoidaan. Integraatiotaulukon yhdistämismäärityksissä voit muuttaa taulukon yhdistämismäärityksiä [!INCLUDE[cds_long_md](includes/cds_long_md.md)]in taulukon ja [!INCLUDE[prod_short](includes/prod_short.md)]in taulukon välillä siten, että integroinnin synkronointityöt luovat uudet tietueet kohdetietokantaan kullekin lähdetietokannan riville, jota ei ole yhdistetty. Lisätietoja on kohdassa [Uusien tietueiden luominen](admin-how-to-modify-table-mappings-for-synchronization.md#creating-new-records).
 
-    **Esimerkki**: Jos tyhjennät **Synkronoi vain yhdistetyt tietueet** -valintaruudun, kun synkronoit [!INCLUDE[d365fin](includes/d365fin_md.md)] -asiakkaat [!INCLUDE[cds_long_md](includes/cds_long_md.md)] -tilien kanssa, ohjelma luo uuden tilin kullekin asiakkaalle [!INCLUDE[d365fin](includes/d365fin_md.md)]ssa ja yhdistää sen automaattisesti. Lisäksi koska tässä tapauksessa synkronointi on kaksisuuntainen, uusi asiakas luodaan ja yhdistetään kuhunkin vielä yhdistämättömään [!INCLUDE[cds_long_md](includes/cds_long_md.md)]in tiliin.  
+    **Esimerkki**: Jos tyhjennät **Synkronoi vain yhdistetyt tietueet** -valintaruudun, kun synkronoit [!INCLUDE[prod_short](includes/prod_short.md)] -asiakkaat [!INCLUDE[cds_long_md](includes/cds_long_md.md)] -tilien kanssa, ohjelma luo uuden tilin kullekin asiakkaalle [!INCLUDE[prod_short](includes/prod_short.md)]ssa ja yhdistää sen automaattisesti. Lisäksi koska tässä tapauksessa synkronointi on kaksisuuntainen, uusi asiakas luodaan ja yhdistetään kuhunkin vielä yhdistämättömään [!INCLUDE[cds_long_md](includes/cds_long_md.md)]in tiliin.  
 
     > [!NOTE]  
     > Synkronoitavat tiedot määrittyvät sääntöjen ja suodattimien perusteella. Lisätietoja on kohdassa [Synkronointisäännöt](admin-synchronizing-business-central-and-sales.md).
 
-- Kun [!INCLUDE[d365fin](includes/d365fin_md.md)]issa luodaan uusia tietueita, tietueet käyttävät joko integrointitaulukon yhdistämismääritykselle määritettyä mallia tai oletusmallia, jollainen on jokaisella tietuetyypillä. Kentät täytetään [!INCLUDE[d365fin](includes/d365fin_md.md)]in tai [!INCLUDE[cds_long_md](includes/cds_long_md.md)]in tiedoilla synkronoinnin suunnan perusteella. Lisätietoja on kohdassa [Taulukon yhdistämismääritysten muokkaaminen synkronointia varten](admin-how-to-modify-table-mappings-for-synchronization.md).  
+- Kun [!INCLUDE[prod_short](includes/prod_short.md)]issa luodaan uusia tietueita, tietueet käyttävät joko integrointitaulukon yhdistämismääritykselle määritettyä mallia tai oletusmallia, jollainen on jokaisella rivityypillä. Kentät täytetään [!INCLUDE[prod_short](includes/prod_short.md)]in tai [!INCLUDE[cds_long_md](includes/cds_long_md.md)]in tiedoilla synkronoinnin suunnan perusteella. Lisätietoja on kohdassa [Taulukon yhdistämismääritysten muokkaaminen synkronointia varten](admin-how-to-modify-table-mappings-for-synchronization.md).  
 
-- Seuraavissa synkronoinneissa päivitetään vain tietueet, joita on muokattu tai lisätty edellisen onnistuneen synkronointityön jälkeen.  
+- Seuraavissa synkronoinneissa päivitetään vain tietueet, joita on muokattu tai lisätty taulukon edellisen onnistuneen synkronointityön jälkeen.  
 
-     [!INCLUDE[cds_long_md](includes/cds_long_md.md)]in uudet tietueet lisätään [!INCLUDE[d365fin](includes/d365fin_md.md)]issa. Jos [!INCLUDE[cds_long_md](includes/cds_long_md.md)]in tietueiden kenttien tiedot ovat muuttuneet, tiedot kopioidaan vastaavan kenttään [!INCLUDE[d365fin](includes/d365fin_md.md)]issa.  
+     [!INCLUDE[cds_long_md](includes/cds_long_md.md)]in uudet tietueet lisätään [!INCLUDE[prod_short](includes/prod_short.md)]issa. Jos [!INCLUDE[cds_long_md](includes/cds_long_md.md)]in tietueiden kenttien tiedot ovat muuttuneet, tiedot kopioidaan vastaavan kenttään [!INCLUDE[prod_short](includes/prod_short.md)]issa.  
 
-- Kaksisuuntaisessa synkronoinnissa työ synkronoituu [!INCLUDE[d365fin](includes/d365fin_md.md)]ista [!INCLUDE[cds_long_md](includes/cds_long_md.md)]iin ja sitten [!INCLUDE[cds_long_md](includes/cds_long_md.md)]sta [!INCLUDE[d365fin](includes/d365fin_md.md)]iin.
+- Kaksisuuntaisessa synkronoinnissa työ synkronoituu [!INCLUDE[prod_short](includes/prod_short.md)]ista [!INCLUDE[cds_long_md](includes/cds_long_md.md)]iin ja sitten [!INCLUDE[cds_long_md](includes/cds_long_md.md)]sta [!INCLUDE[prod_short](includes/prod_short.md)]iin.
 
 ## <a name="about-inactivity-timeouts"></a>Tietoja käyttämättömyyden aikakatkaisusta
-
-Jotkin työjonotapahtumat, esimerkiksi ne, jotka ajoittavat [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman ja [!INCLUDE[cds_long_md](includes/cds_long_md.md)]:n välisen synkronoinnin, käyttävät Työjonotapahtuma-kortissa **Käyttämättömyyden aikakatkaisu** -kenttää estämään työjonotapahtuman tarpeettoman suorittamisen.  
+Jotkin työjonotapahtumat, esimerkiksi ne, jotka ajoittavat [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman ja [!INCLUDE[cds_long_md](includes/cds_long_md.md)]:n välisen synkronoinnin, käyttävät Työjonotapahtuma-sivulla **Käyttämättömyyden aikakatkaisu** -kenttää estämään työjonotapahtuman tarpeettoman suorittamisen.  
 
 :::image type="content" source="media/on-hold-with-inactivity-timeout.png" alt-text="Vuokaavio siitä, kun työjonon tapahtumat ovat pidossa käyttämättömyyden vuoksi.":::
 
-Jos tämän kentän arvo ei ole nolla eikä työjono löytänyt muutoksia viimeisen suorituksen aikana, [!INCLUDE[d365fin](includes/d365fin_md.md)] siirtää työjonotapahtuman pitoon. Kun näin tapahtuu, **Työjonon tila** -kentässä näkyy **Estossa toimettomuuden vuoksi**, ja [!INCLUDE[d365fin](includes/d365fin_md.md)] odottaa **Käyttämättömyyden aikakatkaisu** -kentässä määritetyn ajan, ennen kuin se suorittaa työjonotapahtuman uudelleen.  
+Jos tämän kentän arvo ei ole nolla eikä työjono löytänyt muutoksia viimeisen suorituksen aikana, [!INCLUDE[prod_short](includes/prod_short.md)] siirtää työjonotapahtuman pitoon. Kun näin tapahtuu, **Työjonon tila** -kentässä näkyy **Estossa toimettomuuden vuoksi**, ja [!INCLUDE[prod_short](includes/prod_short.md)] odottaa **Käyttämättömyyden aikakatkaisu** -kentässä määritetyn ajan, ennen kuin se suorittaa työjonotapahtuman uudelleen.  
 
-Oletusarvon mukaan esimerkiksi CURRENCY-työjonotapahtuma, joka synkronoi valuutat [!INCLUDE[cds_long_md](includes/cds_long_md.md)] -ohjelmassa [!INCLUDE[d365fin](includes/d365fin_md.md)]n valuuttakurssien mukaan, etsii vaihtokurssien muutoksia 30 minuutin välein. Jos muutoksia ei löydy, [!INCLUDE[d365fin](includes/d365fin_md.md)] asettaa CURRENCY-työjonotapahtuman Estossa olevaksi 720 minuutin (kuuden tunnin) ajaksi. Jos vaihtokurssia muutetaan, [!INCLUDE[d365fin](includes/d365fin_md.md)]ssa, kun työjonotapahtuma on Estossa, [!INCLUDE[d365fin](includes/d365fin_md.md)] aktivoi automaattisesti uudelleen työjonontapahtuman ja työjono käynnistetään uudelleen. 
+Oletusarvon mukaan esimerkiksi CURRENCY-työjonotapahtuma, joka synkronoi valuutat [!INCLUDE[cds_long_md](includes/cds_long_md.md)] -ohjelmassa [!INCLUDE[prod_short](includes/prod_short.md)]n valuuttakurssien mukaan, etsii vaihtokurssien muutoksia 30 minuutin välein. Jos muutoksia ei löydy, [!INCLUDE[prod_short](includes/prod_short.md)] asettaa CURRENCY-työjonotapahtuman Estossa olevaksi 720 minuutin (kuuden tunnin) ajaksi. Jos vaihtokurssia muutetaan, [!INCLUDE[prod_short](includes/prod_short.md)]ssa, kun työjonotapahtuma on Estossa, [!INCLUDE[prod_short](includes/prod_short.md)] aktivoi automaattisesti uudelleen työjonontapahtuman ja työjono käynnistetään uudelleen. 
 
 > [!Note]
-> [!INCLUDE[d365fin](includes/d365fin_md.md)] aktivoi pidossa olevat työjonotapahtumat automaattisesti vain, kun [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmassa tehdään muutoksia. Muutokset [!INCLUDE[cds_long_md](includes/cds_long_md.md)]ssa eivät aktivoi työjonotapahtumia.
+> [!INCLUDE[prod_short](includes/prod_short.md)] aktivoi pidossa olevat työjonotapahtumat automaattisesti vain, kun [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa tehdään muutoksia. Muutokset [!INCLUDE[cds_long_md](includes/cds_long_md.md)]ssa eivät aktivoi työjonotapahtumia.
 
 ## <a name="to-view-the-synchronization-job-log"></a>Synkronointityön lokin tarkasteleminen
 

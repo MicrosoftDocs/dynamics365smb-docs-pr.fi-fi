@@ -10,23 +10,23 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 04c0c5d203e78c2ae0be48609a5ee90f45b83c6f
-ms.sourcegitcommit: 0fb6952376d853a878ed33257e73aadc03b95572
+ms.openlocfilehash: 069efcef517cd442539f13fad5e5a2c89e1533ff
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "3968383"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754465"
 ---
-# <a name="creating-power-bi-reports-for-displaying-list-data-in-prodshort"></a>[!INCLUDE[prodshort](includes/prodshort.md)]in luettelotiedot näyttävien Power BI -raporttien luominen
+# <a name="creating-power-bi-reports-for-displaying-list-data-in-prod_short"></a>[!INCLUDE[prod_short](includes/prod_short.md)]in luettelotiedot näyttävien Power BI -raporttien luominen
 
-[!INCLUDE[prodlong](includes/prodlong.md)]in useilla tärkeillä luettelosivuilla on ohjausobjektina tietoruutu, jossa on lisätietoja luettelon tiedoista. Raportti päivitetään ja suodatetaan valitun tapahtuman mukaan, kun siirryt luettelon riveillä. Voit luoda mukautettuja raportteja näyttämään tämän ohjausobjektin. Raporttien toimiminen odotetusti edellyttää muutamien sääntöjen noudattamista.  
+[!INCLUDE[prod_long](includes/prod_long.md)]in useilla tärkeillä luettelosivuilla on ohjausobjektina tietoruutu, jossa on lisätietoja luettelon tiedoista. Raportti päivitetään ja suodatetaan valitun tapahtuman mukaan, kun siirryt luettelon riveillä. Voit luoda mukautettuja raportteja näyttämään tämän ohjausobjektin. Raporttien toimiminen odotetusti edellyttää muutamien sääntöjen noudattamista.  
 
 ## <a name="prerequisites"></a>Vaatimukset
 
 - Power BI -tili.
 - Power BI Desktop.
 
-Lisätietoja aloittamisesta on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen Power BI -tietolähteenä](across-how-use-financials-data-source-powerbi.md).
+Lisätietoja aloittamisesta on kohdassa [[!INCLUDE[prod_short](includes/prod_short.md)]in käyttäminen Power BI -tietolähteenä](across-how-use-financials-data-source-powerbi.md).
 
 ## <a name="defining-the-report-data-set"></a>Raportin tietojoukon määrittäminen
 
@@ -42,7 +42,7 @@ Voit määrittää raporttisuodattimen valitsemalla käytettävissä olevien ken
 
 ## <a name="setting-the-report-size-and-color"></a>Raportin koon ja värin määrittäminen
 
-Raportin kooksi on määritettävä 325 x 310 kuvapistettä. Koon avulla raportti voidaan skaalata oikein Power BI:n tietoruutuohjausobjektin sallimassa tilassa [!INCLUDE[d365fin](includes/d365fin_md.md)]issa. Voit määrittää raportin koon viemällä kohdistuksen raportin asettelualueen ulkopuolelle ja valitsemalla maalitelakuvakkeen.
+Raportin kooksi on määritettävä 325 x 310 kuvapistettä. Koon avulla raportti voidaan skaalata oikein Power BI:n tietoruutuohjausobjektin sallimassa tilassa [!INCLUDE[prod_short](includes/prod_short.md)]issa. Voit määrittää raportin koon viemällä kohdistuksen raportin asettelualueen ulkopuolelle ja valitsemalla maalitelakuvakkeen.
 
 ![Myyntilaskuaktiviteetti-raportin leveyden ja korkeuden määrittäminen](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-sizing-v3.png)
 
@@ -58,7 +58,7 @@ Voit luoda Power BI:ssa yhden raportin, jossa on useita sivuja. Jos raportissa k
 
 Anna raportille nimi, joka sisältää raporttiin liitetyn luettelosivun nimen. Jos raportti koskee esimerkiksi **Toimittaja**-luettelosivua, nimessä on oltava sana *toimittaja*.  
 
-Tätä nimeämiskäytäntöä ei ole pakko noudattaa. Se kuitenkin nopeuttaa raporttien valitsemista [!INCLUDE[d365fin](includes/d365fin_md.md)]issa. Jos raportin valintasivu avautuu luettelosivulta, se suodatetaan automaattisesti sivun nimen mukaan. Tämän suodatuksen avulla voidaan rajoittaa näytettävien raporttien määrää. Tyhjentämällä suodattimen käyttäjät saavat näkyviin luettelon kaikista Power BI:ssa käytettävistä raporteista.  
+Tätä nimeämiskäytäntöä ei ole pakko noudattaa. Se kuitenkin nopeuttaa raporttien valitsemista [!INCLUDE[prod_short](includes/prod_short.md)]issa. Jos raportin valintasivu avautuu luettelosivulta, se suodatetaan automaattisesti sivun nimen mukaan. Tämän suodatuksen avulla voidaan rajoittaa näytettävien raporttien määrää. Tyhjentämällä suodattimen käyttäjät saavat näkyviin luettelon kaikista Power BI:ssa käytettävistä raporteista.  
 
 ## <a name="fixing-problems"></a>Ongelmien korjaaminen
 
@@ -85,7 +85,7 @@ Tarkista, että raportin kooksi on määritetty 325 x 310 kuvapistettä. Tallenn
 ## <a name="see-also"></a>Katso myös
 
 [Yritystietojen ottaminen käyttöön Power BI:tä varten](admin-powerbi.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen Power BI:n tietolähteenä](across-how-use-financials-data-source-powerbi.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)]in käyttäminen Power BI:n tietolähteenä](across-how-use-financials-data-source-powerbi.md)  
 [Käytön aloittaminen](product-get-started.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittäminen](setup.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)]in määrittäminen](setup.md)  
 [Rahoitus](finance.md)  

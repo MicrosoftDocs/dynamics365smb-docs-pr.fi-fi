@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3dafae41b015df7b3b87657014a901128d34b7c9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 0db0e2e6705a7d2fd1907227996d8c258dcbc554
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915883"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754790"
 ---
 # <a name="create-workflows"></a>Työnkulkujen luominen
 Voit luoda työnkulkuja, jotka yhdistävät eri käyttäjien suorittamia liiketoimintaprosessin tehtäviä. Järjestelmätehtäviä (kuten automaattinen kirjaus) voidaan sisällyttää työnkulkuihin, joita käyttäjän tehtävät edeltävät tai seuraavat. Uusien tietueiden luontiin liittyvien hyväksyntöjen pyytäminen ja antaminen ovat tyypillisiä työnkulun osavaiheita.  
 
 Voit luoda **Työnkulku**-sivulla työnkulun mainitsemalla liittyvät toimet riveillä. Jokainen vaihe koostuu työnkulun tapahtumasta, jota valvotaan tapahtuman ehtojen mukaan, ja työnkulun vastauksesta ja vastausvaihtoehdoista. Työnkulku määritetään täyttämällä työnkulkurivien kentät tapahtumien kiinteistä luetteloista ja vastausarvot, jotka edustavat sovelluskoodin tukemia skenaarioita.  
 
-Kun luot työnkulkuja, voit kopioida vaiheet aiemmin luoduista työnkuluista tai työnkulkumalleista. Työnkulkumallit ovat yleisen [!INCLUDE[d365fin](includes/d365fin_md.md)] -version työnkulkuja, joita ei voi muokata. Työnkulkumallien koodit, jotka Microsoft on lisännyt, sisältävät etuliitteen "MS-", kuten "MS-PIW". Lisätietoja on kohdassa [Työnkulkujen luominen työnkulkumalleista](across-how-to-create-workflows-from-workflow-templates.md).  
+Kun luot työnkulkuja, voit kopioida vaiheet aiemmin luoduista työnkuluista tai työnkulkumalleista. Työnkulkumallit ovat yleisen [!INCLUDE[prod_short](includes/prod_short.md)] -version työnkulkuja, joita ei voi muokata. Työnkulkumallien koodit, jotka Microsoft on lisännyt, sisältävät etuliitteen "MS-", kuten "MS-PIW". Lisätietoja on kohdassa [Työnkulkujen luominen työnkulkumalleista](across-how-to-create-workflows-from-workflow-templates.md).  
 
 Jos liiketoimintaskenaario edellyttää työnkulun tapahtumia tai vastauksia, joita ei ole tuettu, Microsoft-kumppanin on toteutettava se mukauttamalla sovelluksen koodia.  
 
@@ -59,8 +59,8 @@ Jos liiketoimintaskenaario edellyttää työnkulun tapahtumia tai vastauksia, jo
         |**Ilmoita lähettäjälle**|Määrittää, ilmoitetaanko hyväksymispyynnön vastaanottajan asemesta hyväksynnän pyytäjälle. Jos valitset valintaruudun, **Vastaanottajan käyttäjätunnus** -kenttä on poissa käytöstä, koska hyväksynnän pyytäjälle eli lähettäjälle ilmoitetaan sen sijaan. Työnkulun vastauksen nimi muuttuu vastaavasti nimeksi **Luo ilmoitus &lt;lähettäjälle&gt;**. Jos valintaruutua ei ole valittu, työnkulun vastauksen nimi on **Luo ilmoitus &lt;käyttäjälle&gt;**.
         |**Vastaanottajan käyttäjätunnus**|Määritä käyttäjä, jolle ilmoitus on lähetettävä. Huomautus: Tämä vaihtoehto on käytettävissä vain työnkulun vastauksissa, joissa on paikkamerkki kyseiselle käyttäjälle. Työnkulun vastaukset ilman paikkamerkkiä käyttäjille, ilmoituksen vastaanottaja määritetään yleensä hyväksyjäkäyttäjän asetuksissa.|  
         |**Ilmoitustapahtuman tyyppi**|Määrittää, käynnistääko työnkulun ilmoituksen tietueiden muutos, hyväksymispyyntö vai välitetyt erääntyvät tiedot.|
-        |**Linkin kohdesivu**|Määritä [!INCLUDE[d365fin](includes/d365fin_md.md)]issa toinen sivu, jonka ilmoituksen linkki avaa oletussivun sijaan.<br /><br />Huomaa, että sivulla on oltava sama lähdetaulukko kuin tietueella.|  
-        |**Mukautettu linkki**|Määritä sen linkin URL-osoite, joka lisätään ilmoitukseen [!INCLUDE[d365fin](includes/d365fin_md.md)]in sivulle vievän linkin lisäksi.|  
+        |**Linkin kohdesivu**|Määritä [!INCLUDE[prod_short](includes/prod_short.md)]issa toinen sivu, jonka ilmoituksen linkki avaa oletussivun sijaan.<br /><br />Huomaa, että sivulla on oltava sama lähdetaulukko kuin tietueella.|  
+        |**Mukautettu linkki**|Määritä sen linkin URL-osoite, joka lisätään ilmoitukseen [!INCLUDE[prod_short](includes/prod_short.md)]in sivulle vievän linkin lisäksi.|  
     2.  Määritä työnkulun vastauksen asetukset, johon sisältyy hyväksymispyynnön luominen, täyttämällä kentät seuraavassa taulukossa kuvatulla tavalla.  
 
         |Kenttä|Description|  
