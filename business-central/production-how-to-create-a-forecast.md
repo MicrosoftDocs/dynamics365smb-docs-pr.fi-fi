@@ -1,5 +1,5 @@
 ---
-title: Kysyntäennusteen luominen | Microsoft Docs
+title: Kysyntäennusteen luominen
 description: Voit luoda myynti- ja tuotantoennusteita **Kysyntäennuste**-sivulla.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 01/12/2021
 ms.author: edupont
-ms.openlocfilehash: 63009574c6d569cfc0ac20a6f474a11e2f8d5cb9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c009a4d21cac95645edd7b94f22659f155fe6a34
+ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913269"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5013690"
 ---
 # <a name="create-a-demand-forecast"></a>Kysyntäennusteen luominen
 Voit luoda myynti- ja tuotantoennusteita **Kysyntäennuste**-sivulla.  
@@ -47,7 +47,41 @@ Koska komponenttiennuste on suunniteltu määrittämään päänimikkeen vaihtoe
  Ennustejakso on kelvollinen alkamispäivämäärästä seuraavan ennusteen alkamispäivämäärään saakka. Aikavälisivulla on useita vaihtoehtoja, joiden avulla voit lisätä kysynnän tiettyyn jakson päivämäärään. Sen vuoksi ennustejakson pituutta ei kannatakaan muuttaa, jos aloituspäivämäärän kaikkia ennustetapahtumia ei ole tarkoitus siirtää tämän jakson alkamispäivämäärään.  
 
 ## <a name="forecast-by-locations"></a>Ennusteet sijainnin mukaan  
-Jos haluat suodattaa ennusteen sijainnin mukaan suunnitelman laskemisen yhteydessä, voit osoittaa sen tuotannon asetuksissa. Huomaathan kuitenkin, että jos sijaintiperustaisia ennusteita tarkastellaan erillään muista, kokonaisennuste ei välttämättä ole totuudenmukainen.
+
+Voit määrittää **Tuotannon asetukset** -sivulla, miten haluat käsitellä ennusteissa määritettyjä sijainteja suunnitelman laskennan yhteydessä. 
+
+### <a name="use-forecast-by-locations"></a>Käytä ennusteita sijaintien mukaan
+
+Jos valitset **Käytä ennusteita sijaintien mukaan** -kentän, [!INCLUDE[prod_short](includes/prod_short.md)] ottaa huomioon kaikki kuellkin kysyntäennustetapahtumalle määritetyt sijaintikoodit ja laskee jäljellä olevan ennusteen kullekin sijainnille.  
+
+Harkitse tätä esimerkkiä: yrityksesi ostaa ja myy nimikkeitä kahdessa paikassa: ITÄ ja LÄNSI. Molempien sijaintien osalta on määritetty erästä-erään-uusintatilauskäytäntö. Luo ennuste kahdelle sijainnille:
+
+- 10 kappaletta sijainnille ITÄ
+- 4 kappaletta sijainnille LÄNSI
+
+Luo sitten myyntitilaus, jonka määrä on 12 sijainnissa LÄNSI. Suunnittelujärjestelmä ehdottaa seuraavaa:
+
+- Täydennä 10 kappaletta sijainnille ITÄ ennusteen tietojen perusteella.  
+- Täydennä 12 kappaletta sijainnille LÄNSI myyntitilauksen perusteella. Myyntitilauksen todellinen kysyntä kuluttaa kokonaan ennusteessa määritetyt 4 kappaletta. Katso lisätietoja: [Myyntitilaukset vähentävät ennustettua kysyntää](design-details-balancing-demand-and-supply.md#forecast-demand-is-reduced-by-sales-orders). 
+
+> [!NOTE]  
+>  Jos sijaintiperustaisia ennusteita tarkastellaan erillään muista, kokonaisennuste ei välttämättä ole totuudenmukainen.
+
+### <a name="do-not-use-forecast-by-locations"></a>Älä käytä ennusteita sijaintien mukaan
+Jos otat **Käytä ennusteita sijaintien mukaan** -asetuksen pois käytösstä, [!INCLUDE[prod_short](includes/prod_short.md)] ohittaa kaikki kullekin kysyntäennustetapahtumalle määritetyt sijaintikoodit ja koostaa ennusteet tyhjien sijaintien ennusteille.  
+
+Harkitse tätä esimerkkiä: yrityksesi ostaa ja myy nimikkeitä kahdessa paikassa: ITÄ ja LÄNSI. Molempien sijaintien osalta on määritetty erästä-erään-uusintatilauskäytäntö. Luo ennuste kahdelle sijainnille:
+
+- 10 kappaletta sijainnille ITÄ
+- 4 kappaletta sijainnille LÄNSI
+
+Luo sitten myyntitilaus, jonka määrä on 12 sijainnissa LÄNSI. Suunnittelujärjestelmä ehdottaa seuraavaa:
+
+- Täydennä 12 kappaletta sijainnille LÄNSI myyntitilauksen perusteella. 
+- Täydennä 2 kappaletta tyhjään sijaintiin. Myyntitilauksen todellinen kysyntä kuluttaa osittain ennusteessa määritetyt 10 ja 4 kappaletta. [!INCLUDE[prod_short](includes/prod_short.md)] ohitti käyttäjän määrittämät sijaintikoodit ja käyttää sen sijaan tyhjää sijaintia.
+
+> [!NOTE]  
+>  Voit asettaa suodattimen sijaintien mukaan, mutta sijaintiin pohjautuvat tulokset eivät välttämättä vastaa suunnitelun tuloksia ilman suodattimia.
 
 ## <a name="to-create-a-demand-forecast"></a>Kysyntäennusteen luominen
 
@@ -74,4 +108,4 @@ Jos haluat suodattaa ennusteen sijainnin mukaan suunnitelman laskemisen yhteydes
 [Osto](purchasing-manage-purchasing.md)  
 [Rakennetiedot: Toimitusten suunnittelu](design-details-supply-planning.md)   
 [Asetukset - parhaat käytännöt: toimitusten suunnittelu](setup-best-practices-supply-planning.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)

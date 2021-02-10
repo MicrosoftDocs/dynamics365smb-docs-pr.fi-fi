@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 10/01/2020
+ms.date: 12/03/2020
 ms.author: edupont
-ms.openlocfilehash: 5ca69a35aac0ba61591dfdfd71d739726e2fb62f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: fa2830aeb62fe6acea5f8e3879c678e9d8407fb4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910128"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760315"
 ---
 # <a name="posting-sales"></a>Myynnin kirjaaminen
 
@@ -25,9 +25,10 @@ Kun valitset myyntiasiakirjan **Kirjaus**-valikon, voit valita seuraavista kirja
 * **Kirjaus ja uusi**
 * **Kirjaa ja lähetä**
 * **Esikatsele kirjausta**
-* **Laskuluonnos**
-* **Proformalasku**
+* **Kirjaa erä**
 * **Testiraportti**
+
+> [HUOMAUTUS!] Myyntitilausten osalta voit tarkastella myös ennakkomaksutoimintoihin liittyviä asetuksia. Lisätietoja on kohdassa [Ennakkomaksujen laskuttaminen](finance-invoice-prepayments.md). 
 
 Kun olet täyttänyt kaikki rivit ja syöttänyt kaikki tiedot myyntitilaukseen, voit kirjata sen eli luoda vastaanoton ja laskun. Tämä luo toimituksen ja laskun.
 
@@ -44,7 +45,7 @@ Voit kirjata tai kirjata ja lähettää. Jos valitset kirjaamisen ja lähettämi
 
 ## <a name="viewing-ledger-entries"></a>Kirjaustapahtuminen katselu
 
-Kun kirjaus on päättynyt, kirjatut myyntirivit poistuvat tilauksesta. Viesti kertoo, milloin kirjaus on valmis. Tämän jälkeen voit nähdä kirjatut tapahtumat kirjattuja tapahtumia sisältävillä sivuilla, kuten **Asiakastapahtumat**-, **KP-tapahtumat**-, **Nimiketapahtumat**-, **Kirjatut myyntitoimitukset**- ja**Kirjatut myyntilaskut** -sivuilla.  
+Kun kirjaus on päättynyt, kirjatut myyntirivit poistuvat tilauksesta. Viesti kertoo, milloin kirjaus on valmis. Tämän jälkeen voit nähdä kirjatut tapahtumat kirjattuja tapahtumia sisältävillä sivuilla, kuten **Asiakastapahtumat**-, **KP-tapahtumat**-, **Nimiketapahtumat**-, **Kirjatut myyntitoimitukset**- ja **Kirjatut myyntilaskut** -sivuilla.  
 
 Useimmissa tapauksissa voit avata tapahtumat kortista tai asiakirjasta, johon ne vaikuttavat. Valitse esimerkiksi **Asiakaskortti**-sivulla **Tapahtumat**-toiminto.
 
@@ -62,4 +63,4 @@ Voit muokata arvoja kirjattujen ostoasiakirjojen tietyissä kentissä, kuten **P
 [Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md)  
 [Maksamattomien myyntilaskujen korjaaminen tai peruuttaminen](sales-how-correct-cancel-sales-invoice.md)  
 [Sivujen ja tietojen etsiminen Kerro, mitä haluat tehdä -toiminnolla](ui-search.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)

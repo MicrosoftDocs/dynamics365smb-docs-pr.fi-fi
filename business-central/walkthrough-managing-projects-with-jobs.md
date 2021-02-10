@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 12d168b24ad28c3895ee7800b0ab5fed99861ec4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 05f45c0c7041771a63dc7b7c7a6b61512d67af2a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923293"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760065"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Vaihekuvaus: Projektinhallinta Projektit-sovellusalueen avulla
 
@@ -68,7 +68,7 @@ Tässä vaihekuvauksessa esitellään projektitöiden projektinhallintatoiminnot
 -   Luo esimerkkitietoja noudattamalla seuraavan osan toimintaohjeita.  
 
 ## <a name="story"></a>Taustatietoja  
-Tämä vaihekuvaus keskittyy suunnittelu- ja konsulttiyritykseen CRONUS Finland Oy, joka suunnittelee ja varustaa uusia infrastruktuureja, kuten konferenssisaleja ja toimistoja huonekaluineen, tarvikkeineen ja varastoineen. Sen useimmat työt projektisuuntautuneita. Thomas on projektipäällikkö yrityksessä CRONUS. Käynnissä olevien kohteen CRONUS käynnistämien projektien ansiosta hän saa yleiskäsityksen jokaisesta meneillään olevasta ja valmiista projektista. Hän järjestää tavallisesti kaupat asiakkaiden kanssa ja lisää projektin ydintiedot, joita olivat tehtävä- ja suunnittelurivit sekä hinnat, [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmaan. Hän toteaa, että tietojen luominen, ylläpitäminen ja tarkistaminen on suoraviivaista. Thomas pitää myös tavasta, jolla [!INCLUDE[d365fin](includes/d365fin_md.md)] mahdollistaa töiden kopioinnin ja maksamisen osamaksuina.
+Tämä vaihekuvaus keskittyy suunnittelu- ja konsulttiyritykseen CRONUS Finland Oy, joka suunnittelee ja varustaa uusia infrastruktuureja, kuten konferenssisaleja ja toimistoja huonekaluineen, tarvikkeineen ja varastoineen. Sen useimmat työt projektisuuntautuneita. Thomas on projektipäällikkö yrityksessä CRONUS. Käynnissä olevien kohteen CRONUS käynnistämien projektien ansiosta hän saa yleiskäsityksen jokaisesta meneillään olevasta ja valmiista projektista. Hän järjestää tavallisesti kaupat asiakkaiden kanssa ja lisää projektin ydintiedot, joita olivat tehtävä- ja suunnittelurivit sekä hinnat, [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmaan. Hän toteaa, että tietojen luominen, ylläpitäminen ja tarkistaminen on suoraviivaista. Thomas pitää myös tavasta, jolla [!INCLUDE[prod_short](includes/prod_short.md)] mahdollistaa töiden kopioinnin ja maksamisen osamaksuina.
 
  Projektitiimin jäsen Marianne, joka työskentelee Thomasin alaisena, on projektin päivittäinen vastuuhenkilö. Hän kirjoittaa oman työn lisäksi teknikoiden suorittaman työn jokaisen tehtävän kohdalle. Hän kirjaa nimikkeet, jotka he ovat käyttäneet ja kustannukset, jotka he ovat aiheuttaneet.  
 
@@ -480,7 +480,7 @@ Kahden työn hintoja, työn tehtävärivejä ja töiden suunnittelurivejä verta
 3.  Valitse **Myyntilasku/hyvityslasku**-toiminto. Myyntilaskussa näkyy, että vain ennakkomaksu on mukana laskussa. Voit nyt lähettää tämän asiakkaalle sopimuksen mukaisesti.  
 
 ## <a name="next-steps"></a>Seuraavat vaiheet  
- Tämä vaihekuvaus on ohjannut sinut läpi tiettyjen perusvaiheiden töiden [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman parissa. Olet oppinut kuinka luodaan uusi työ, kuinka työ kopioidaan ja kuinka maksuja käsitellään. Olet myös nähnyt esityksen siitä, miten voit luoda laskuja ja seurata tunteja.  
+ Tämä vaihekuvaus on ohjannut sinut läpi tiettyjen perusvaiheiden töiden [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman parissa. Olet oppinut kuinka luodaan uusi työ, kuinka työ kopioidaan ja kuinka maksuja käsitellään. Olet myös nähnyt esityksen siitä, miten voit luoda laskuja ja seurata tunteja.  
 
 ## <a name="see-also"></a>Katso myös  
  [Liiketoimintaprosessien vaihekuvaukset](walkthrough-business-process-walkthroughs.md)   
@@ -488,4 +488,4 @@ Kahden työn hintoja, työn tehtävärivejä ja töiden suunnittelurivejä verta
  [Resurssien käyttäminen](projects-how-use-resources.md)   
  [Edistymisen ja suorituskyvyn valvonta](projects-how-monitor-progress-performance.md)   
  [Projektien laskuttaminen](projects-how-invoice-jobs.md)  
- [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+ [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)

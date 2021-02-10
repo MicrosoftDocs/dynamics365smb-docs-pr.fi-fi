@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 93d1fffed38ce57e76b6451be071700c1ce07b2c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 37fa84f9d0bb97f7e2b6fe94cc6180ef3eb83689
+ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925496"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "5024485"
 ---
 # <a name="save-and-personalize-list-views"></a>Luettelonäkymien tallentaminen ja mukauttaminen
 Jos olet määrittänyt luettelon suodattimen ja haluat säilyttää suodattimen myöhempää käyttöä varten, voit tallentaa sen näkymänä. Lisätietoja luetteloiden suodattamisesta on kohdassa [Suodattimien määrittäminen luetteloissa](ui-enter-criteria-filters.md#setting-filters-on-lists).
 
-Jos näkymä on jo luotu, **Näkymät**-ryhmä näkyy suodatinruudun yläreunassa. Näkymät ovat luettelon muunnoksia, jotka on esimääritetty suodattimien kanssa. Voit määrittää ja tallentaa kuhunkin luetteloon haluamasi määrän näkymiä, ja näkymät ovat käytettävissä, kun avaat luettelon seuraavan kerran riippumatta siitä, mitä laitetta käytät.
+Jos näkymä on jo luotu, **Näkymät**-ryhmä näkyy suodatinruudun yläreunassa. Näkymät ovat luettelon muunnoksia, jotka on esimääritetty suodattimien kanssa. Voit määrittää ja tallentaa niin monta näkymää luetteloa kohti kuin haluat. Näkymät ovat käytettävissä, kun seuraavan kerran avaat luettelon mistä tahansa laitteesta tai selaimesta.
 
 ## <a name="to-save-a-view"></a>Näkymän tallentaminen
 1. Avaa jokin luettelosivu.
@@ -34,6 +34,9 @@ Jos näkymä on jo luotu, **Näkymät**-ryhmä näkyy suodatinruudun yläreunass
 
 Jos et anna näkymälle nimeä, sen nimeksi tulee **Kaikki (kopio)**.
 
+> [!TIP]
+> Etkö näe ![Tallenna näkymä](media/save_view_icon.png "Tallenna näkymä") -kuvaketta? Lisäietoja on ohjeaiheessa [Miksi tallennuskuvaketta ei ole](ui-views-faq.md#save).
+
 ## <a name="to-rename-or-remove-a-view"></a>Näkymän nimeäminen uudelleen tai poistaminen
 1. Voit tarkastella luettelon tällä hetkellä näyttävän näkymän käytössä olevia vaihtoehtoja valitsemalla ![Näytä enemmän vaihtoehtoja](media/show-more-options-icon.png "Näytä enemmän vaihtoehtoja") -kuvakkeen.
 2. Valitse joko **Nimeä uudelleen**- tai **Poista**-toiminto.
@@ -44,6 +47,6 @@ Kun sivulla olevien näkymien määrä kasvaa, näkymien näkymistä suodatinruu
 ## <a name="see-also"></a>Katso myös
 [Luettelonäkymien usein kysytyt kysymykset](ui-views-faq.md)  
 [Työtilan mukauttaminen](ui-personalization-user.md)    
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md)    
+[[!INCLUDE[prod_short](includes/prod_short.md)]in käyttäminen](ui-work-product.md)    
 [Perusasetusten muuttaminen](ui-change-basic-settings.md)  
 [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md)  

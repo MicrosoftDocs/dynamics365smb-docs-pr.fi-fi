@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: solsen
-ms.openlocfilehash: a2c8071abc075caf359d942da5a3638ef811d126
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 28b796a001d1bd1d981ab84bc13607158733c502
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925616"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760465"
 ---
 # <a name="view-test-reports-before-posting"></a>Testiraporttien tarkastelu ennen kirjausta
 Kun olet valmis kirjaamaan asiakirjan, kuten tilauksen, laskun tai hyvityslaskun, voit testata asiakirjan ja varmistaa, ettei kirjausta estäviä ongelmia ole.
@@ -33,4 +33,4 @@ Ohjelma testaa kaikki ostolaskun osat ja esittää tulokset raportissa. Jos rapo
 
 ## <a name="see-also"></a>Katso myös
 [Asiakirjojen ja päiväkirjojen kirjaaminen](ui-post-documents-journals.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: faad42bcd32080d43495020105bc8654af3f95bc
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 9d74bdc6d2c712742374993141cdd4d557caf80d
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918336"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759658"
 ---
 # <a name="set-up-basic-warehouses-with-operations-areas"></a>Fyysisten perusvarastojen ja toimintoalueiden määrittäminen
 Jos sellaisen fyysisen varaston perusmäärityksissä, jonka sijainnit käyttävät **Var.paikka pakollinen** -asetuskenttää ja mahdollisesti myös **Vaadi poiminta**- ja **Vaadi hyllytys** -asetuskenttää, on sisäisiä toimintoalueita, kuten tuotanto tai kokoonpano, sisäisten toimintoalueiden fyysisen varastoinnin toimintojen tallentamisessa on käytettävä seuraavia fyysisen varastoinnin perusasiakirjoja:  
@@ -53,13 +53,13 @@ Seuraavat toimet perustuvat perusvarastoinnin aktiviteettien määrittämiseen t
 4. Anna **Tuotannon valm.var.paik.koodi** -kentässä tuotantoalueen sen varastopaikan koodi, johon tässä sijainnissa tuotantoon poimitut osat oletuksena sijoitetaan ennen niiden kuluttamista. Tähän varastopaikkaan sijoitetuille nimikkeille määritetään yleensä manuaalinen kulutuskirjaus. Tämä tarkoittaa, että **Materiaalinottotapa**-kenttä sisältää arvon **Manuaalinen** tai **Poiminta + Eteenpäin** tai **Poiminta + Taaksepäin** fyysisen varastoinnin poiminnoille ja varastosiirroille.  
 
     > [!NOTE]  
-    >  Kun käytät varaston poimintoja **Varastopaikkakoodi** -kenttä tuotantotilauksen komponentin rivinumero määrittää*ota* -varastopaikan, josta osat vähenevät, kun kulutus kirjataan. Kun käytät varaston siirtotapahtumia, tuotantotilauksen komponenttirivien **Varastopaikkakoodi**-kenttä määrittää toiminta-alueen *paikka*-varastopaikan, johon varastotyöntekijän on sijoitettava komponentit.  
+    >  Kun käytät varaston poimintoja **Varastopaikkakoodi** -kenttä tuotantotilauksen komponentin rivinumero määrittää *ota* -varastopaikan, josta osat vähenevät, kun kulutus kirjataan. Kun käytät varaston siirtotapahtumia, tuotantotilauksen komponenttirivien **Varastopaikkakoodi**-kenttä määrittää toiminta-alueen *paikka*-varastopaikan, johon varastotyöntekijän on sijoitettava komponentit.  
 
 5. Anna **Varastopaikat**-pikavälilehdeb **Valm. tuot.nim. var.paik.koodi** -kentässä tuotantoalueen sen varastopaikan koodi, josta lopulliset nimikkeet oletusasetuksena otetaan, kun prosessiin liittyy varastoinnin toiminto. Fyysisen varastoinnin perusmäärityksissä toiminto kirjataan varaston hyllytyksenä tai varastosiirtona.  
 
 Nyt oletusvarastopaikkakoodilla varustetut tuotantotilauksen komponenttirivit vaativat, että eteenpäin siirretyt komponentit sijoitetaan niihin. Kunnes kyseisen varastopaikan komponentit on kulutettu loppuun, tästä varastopaikasta voidaan poimia tai kuluttaa muiden komponenttien kysynnän mukaisesti, koska varastopaikat ovat yhä saatavana olevaa varastopaikan sisältöä. Jotta varmistat, että varastopaikan sisältö on käytettävissä vain komponenttitarpeeseen, joka käyttää kyseistä tuotannon valmisteluvarastopaikkaa, sinun on valittava **Erityinen**-kenttä kyseisen varastopaikkakoodin rivillä **Varastopaikat**-sivulla, jonka avaat sijaintikortista.
 
-Tämä työnkulkukaavio näyttää, miten tuotantotilauksen osarivien**Varastopaikkakoodi**-kenttä täytetään asetusten mukaisesti.  
+Tämä työnkulkukaavio näyttää, miten tuotantotilauksen osarivien **Varastopaikkakoodi**-kenttä täytetään asetusten mukaisesti.  
 
 ![Varastopaikkojen työnkulkukaavio](media/binflow.png "BinFlow")    
 
@@ -139,4 +139,4 @@ Erillisen varastopaikan tekeminen tuottaa samantapaisen toiminnan kuin varastopa
 [Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md)     
 [Kokoonpanon hallinta](assembly-assemble-items.md)    
 [Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  

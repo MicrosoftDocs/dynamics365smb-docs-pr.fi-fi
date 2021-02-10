@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6df2078128cbcf9c4e5f59b7815f777d130543e5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6cdd00ab5f7372e79d2ab1ced6b77e9ed8343b95
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922692"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759340"
 ---
 # <a name="create-routings"></a>Uusien reititysten luominen
 
@@ -46,8 +46,8 @@ Seuraavat toimet on oltava tehtynä ennen reitityksen määrittämistä:
 9. Määritä **Reitityslinkin koodi** -kenttään koodi, joka liittää komponentin tiettyyn toimintoon. Lisätietoja on kohdassa [Reitityslinkkien luominen](production-how-to-create-routings.md#to-create-routing-links).
 10. Anna **Ajoaika**- ja **Asetusaika**-kenttiin toiminnon suorittamiseen tarvittavat prosessiajat.
 
-    > [!NOTE]
-    > Asetusaika lasketaan tuotantotilausta kohden, ajoaika tuotettavaa nimikettä kohden.  
+     > [!NOTE]
+     > Asetusaika lasketaan tuotantotilausta kohden, ajoaika tuotettavaa nimikettä kohden.  
 
 11. Määritä **Samanaikaiset kapasiteetit** -kentässä, kuinka monta valitun resurssin yksikköä toiminnon suorittamiseen käytetään. Jos esimerkiksi yhteen pakkaustoimintoon on kohdistettu kaksi työntekijää, ajoaika puolitetaan.  
 12. Jatka rivien täyttämistä, kunnes kaikki nimikkeen tuottamiseen tarvittavat toiminnot on määritetty.  
@@ -129,4 +129,4 @@ Version voimassaoloajan määrittää **Aloituspvm**-kenttä.
 [Suunnittelu](production-planning.md)  
 [Varasto](inventory-manage-inventory.md)  
 [Osto](purchasing-manage-purchasing.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  

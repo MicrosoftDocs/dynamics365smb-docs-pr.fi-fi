@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 12cb799668430fe8eaaa47ebb2d93549539bb4eb
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3ee126fae6e658700a6f83a37b4c4b77daa98a6e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916699"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759565"
 ---
 # <a name="make-check-payments"></a>Sekkimaksujen suorittaminen
 
-Voit myöntää sähköisiä ja manuaalisia sekkejä [!INCLUDE[d365fin](includes/d365fin_md.md)]issa. Molemmissa menetelmissä sekit myönnetään toimittajille maksupäiväkirjaa käyttäen. Ohjelman avulla voit myös mitätöidä sekkejä ja tarkastella sekkitapahtumia.
+Voit myöntää sähköisiä ja manuaalisia sekkejä [!INCLUDE[prod_short](includes/prod_short.md)]issa. Molemmissa menetelmissä sekit myönnetään toimittajille maksupäiväkirjaa käyttäen. Ohjelman avulla voit myös mitätöidä sekkejä ja tarkastella sekkitapahtumia.
 
 Seuraavassa kuvataan, miten voit maksaa toimittajalle tietokonesekillä kohdistamalla maksun asianmukaiseen toimittajalaskuun, tulostamalla sekin ja kirjaamalla maksun maksetuksi. Näin saadaan positiivinen toimittajatapahtuma, joka kohdistetaan negatiiviseen pankkitilitapahtumaan sekä fyysinen sekki pankin käsittelyä varten.
 
@@ -83,4 +83,4 @@ Jos haluat tarkistaa kirjatuttuja sekkejä, esimerkiksi yhdelle toimittajalle ma
 [Ostovelkojen hallinta](payables-manage-payables.md)  
 [Pankkitoiminnan määrittäminen](bank-setup-banking.md)  
 [Positive Pay -tiedoston vienti](finance-how-positive-pay.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  

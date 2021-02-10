@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: task, process, report
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: cdb01a2d74dff2fef15c2207f98ba8893f081aca
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e4b1615ebf177db94e3dfb372809fa71ed2f1459
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920370"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760165"
 ---
 # <a name="working-with-reports-batch-jobs-and-xmlports"></a>Raporttien, eräajojen ja XMLportien käsitteleminen
 
@@ -79,7 +79,7 @@ Raportin esiversion valikkorivin avulla voi:
 - muuttaa sivulle sopivaksi
 - Valitse teksti
 
-    Voit kopioida raportista tekstiä ja liittää sen toisaalle, kuten [!INCLUDE[d365fin](includes/d365fin_md.md)]in sivulle tai Microsoft Wordiin.  Aseta hiiri aloituskohtaan, pidä hiiren painike painettuna, valitse sitten sanat, lauseet tai kappaleet hiirtä siirtämällä. Paina sitten hiiren kakkospainiketta ja valitse **Kopioi**. Voit sitten liittää valitun tekstin valitsemaasi paikkaan.
+    Voit kopioida raportista tekstiä ja liittää sen toisaalle, kuten [!INCLUDE[prod_short](includes/prod_short.md)]in sivulle tai Microsoft Wordiin.  Aseta hiiri aloituskohtaan, pidä hiiren painike painettuna, valitse sitten sanat, lauseet tai kappaleet hiirtä siirtämällä. Paina sitten hiiren kakkospainiketta ja valitse **Kopioi**. Voit sitten liittää valitun tekstin valitsemaasi paikkaan.
 - Panoroi asiakirja
 
     Voit siirtää näkyvissä olevaa raportin aluetta kaikkiin suuntiin, joten saat näkyviin myös raportin muut alueet. Panorointi on kätevää, jos olet lähentänyt tekstiin yksityiskohtia tarkastelemaan.  Paina esimerkiksi hiiren painiketta pitkään raportin esikatselussa ja siirrä sitten hiirtä.
@@ -121,12 +121,12 @@ Tulostinta ei voi muuttaa **tulostin**-kentän avulla. Jos haluat muuttaa tulost
 <!--
 ### Browser printing
 
-Because [!INCLUDE[prodshort](includes/prodshort.md)] is a cloud service, it can't reach local printers connected to your computer. However, it can connect to cloud-enabled printers. In the generic version of [!INCLUDE[prodshort](includes/prodshort.md)], a cloud printer named **Email Printer** is installed as an extension and is ready to use after initial setup.
+Because [!INCLUDE[prod_short](includes/prod_short.md)] is a cloud service, it can't reach local printers connected to your computer. However, it can connect to cloud-enabled printers. In the generic version of [!INCLUDE[prod_short](includes/prod_short.md)], a cloud printer named **Email Printer** is installed as an extension and is ready to use after initial setup.
 
 If a cloud printer is not installed and set up, or if an installed printer fails, then printing will default to the printing options for the browser.
 
 > [!NOTE]
-> The browser printing options work independently of [!INCLUDE[prodshort](includes/prodshort.md)]. So any printer settings that might have been set up from printers in [!INCLUDE[prodshort](includes/prodshort.md)] aren't carried over to the browser print options.
+> The browser printing options work independently of [!INCLUDE[prod_short](includes/prod_short.md)]. So any printer settings that might have been set up from printers in [!INCLUDE[prod_short](includes/prod_short.md)] aren't carried over to the browser print options.
 
 <!-- 
 On the **Printer Management** page, you can see the printers that are set up. For more information, see [Set Up Printers](ui-specify-printer-selection-reports.md).
@@ -136,7 +136,7 @@ On the **Printer Management** page, you can see the printers that are set up. Fo
 -->
 ### <a name="printing-reports-in-thai"></a>Thainkielisten raporttien tulostaminen
 
-Koskien erityisesti [!INCLUDE[prodshort](includes/prodshort.md)]in Thaimaalaista versioita, **Tulosta** painike ei voi tulostaa raportteja oikein, johtuen tulostettavien PDF tiedostojen palvelun rajoituksista. Sen sijaan, raportin voi avata Wordilla, ja tallentaa sen tulostettavaan PDF muotoon.  
+Koskien erityisesti [!INCLUDE[prod_short](includes/prod_short.md)]in Thaimaalaista versioita, **Tulosta** painike ei voi tulostaa raportteja oikein, johtuen tulostettavien PDF tiedostojen palvelun rajoituksista. Sen sijaan, raportin voi avata Wordilla, ja tallentaa sen tulostettavaan PDF muotoon.  
 
 Vaihtoehtoisesti, voit pyytää järjestelmänvalvojaa luomaan Word-raporttipohjan käytetyimmille raporteillesi. Lisätietoja on kohdassa [Raporttien ja asiakirjojen asettelujen hallinta](ui-manage-report-layouts.md).  
 
@@ -155,11 +155,11 @@ Tulostimen resursseja hallitaan luodun raportin **lisäasetukset**-kohdan kentis
 |Asiakirjojen enimmäismäärä|500|
 
 > [!NOTE]
-> Enimmäisarvot voivat olla erilaiset [!INCLUDE[d365fin](includes/d365fin_md.md)] paikallisesti, ja järjestelmänvalvoja voi muuttaa niitä. Lisätietoja on kohdassa [Business Central Serverin määrittäminen - raportit](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Reports). Yhteenveto raporttien rajoituksista [!INCLUDE[d365fin](includes/d365fin_md.md)] onlinessa, on kohdassa [Toimintarajat](/dynamics365/business-central/dev-itpro/administration/operational-limits-online).
+> Enimmäisarvot voivat olla erilaiset [!INCLUDE[prod_short](includes/prod_short.md)] paikallisesti, ja järjestelmänvalvoja voi muuttaa niitä. Lisätietoja on kohdassa [Business Central Serverin määrittäminen - raportit](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Reports). Yhteenveto raporttien rajoituksista [!INCLUDE[prod_short](includes/prod_short.md)] onlinessa, on kohdassa [Toimintarajat](/dynamics365/business-central/dev-itpro/administration/operational-limits-online).
 
 ## <a name="see-also"></a>Katso myös
 
 [Tulostimien määrittäminen](ui-specify-printer-selection-reports.md)  
 [Kalenterin päivämäärien ja aikojen käsitteleminen](ui-enter-date-ranges.md)  
 [Raporttien ja asiakirjojen asettelujen hallinta](ui-manage-report-layouts.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)

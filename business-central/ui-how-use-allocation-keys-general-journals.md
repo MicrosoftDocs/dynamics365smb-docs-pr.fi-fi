@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: cost accounting
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: af18a94f5cf6b24b0da24821499e3866487207be
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 84ea436a7e7edc6851b97b718b66195edddd2da2
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918536"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760490"
 ---
 # <a name="use-allocation-keys-in-general-journals"></a>Kohdistustunnusten käyttäminen yleisissä päiväkirjoissa
 Voit kohdistaa yleisen päiväkirjan tapahtuman useille eri tileille päiväkirjan kirjaamisen yhteydessä. Kohdistus voidaan tehdä määrän, prosentin tai summan mukaan.
@@ -46,4 +46,4 @@ Voit kohdistaa yleisen päiväkirjan tapahtuman useille eri tileille päiväkirj
 ## <a name="see-also"></a>Katso myös
 [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md)  
 [Asiakirjojen ja päiväkirjojen kirjaaminen](ui-post-documents-journals.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)

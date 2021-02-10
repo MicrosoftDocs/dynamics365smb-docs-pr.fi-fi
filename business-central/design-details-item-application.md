@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 14aae820463718357d3bac69524751833f5dd79d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: df1baacad6a1bca50c3d1891ab69e920fd375b12
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913661"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035480"
 ---
 # <a name="design-details-item-application"></a>Rakennetiedot: Nimikkeen kohdistus
 
@@ -23,7 +23,7 @@ Kun kirjaat varastotapahtuman, määrän kirjaus tallennetaan nimiketapahtumiin 
 
 Lisäksi suoritetaan nimikkeen kohdistus kustannuksen vastaanottajan linkittämiseksi sen kustannuksen lähteeseen kustannuksen siirron suorittamiseksi arvostusmenetelmän mukaisesti. Lisätietoja on kohdassa [Rakennetiedot: Arvostusmenetelmät](design-details-costing-methods.md).  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] suorittaa kahdenlaisia nimikkeen kohdistuksia.  
+[!INCLUDE[prod_short](includes/prod_short.md)] suorittaa kahdenlaisia nimikkeen kohdistuksia.  
 
 |Sovelluksen tyyppi|Description|  
 |----------------------|---------------------------------------|  
@@ -89,7 +89,7 @@ Seuraavissa taulukoissa esitetään kaksi nimikkeen sovelluskirjausta, jotka aih
 ## <a name="fixed-application"></a>Kiinteä kohdistus  
 Teet kiinteän kohdistuksen, kun kohdistat varaston arvon nousun kustannukset tiettyyn varaston arvon laskuun tai päinvastoin. Kiinteä kohdistus vaikuttaa jäljellä oleviin kirjausten määriin, mutta se myös kumoaa alkuperäisen kirjauksen tarkat kustannukset, jota käytät.  
 
-Voit tehdä kiinteän kohdistuksen asiakirjarivien **Kohdista nimiketapahtumaan**- tai **Kohdistus nimiketapahtumasta** -kentän avulla, kun haluat määrittää nimiketapahtuman, johon haluat kohdistaa tapahtumarivin tai josta haluat sen kohdistettavan. Voit esimerkiksi tehdä kiinteän kohdistuksen, kun haluat luoda kustannuksen kohdistuksen, joka määrittää, että myynnin tuoton tulisi koskea tiettyä myyntitoimitusta myyntitilauksen kustannuksen peruuttamiseksi. Tässä tapauksessa [!INCLUDE[d365fin](includes/d365fin_md.md)] ohittaa arvostusmenetelmän ja käyttää myyntipalautukselle varaston arvon vähennystä tai kasvatusta määrittämääsi nimiketapahtumaan. Kiinteän sovelluksen teon hyöty on se, että alkuperäisen siirron kustannus siirretään uuteen tapahtumaan.  
+Voit tehdä kiinteän kohdistuksen asiakirjarivien **Kohdista nimiketapahtumaan**- tai **Kohdistus nimiketapahtumasta** -kentän avulla, kun haluat määrittää nimiketapahtuman, johon haluat kohdistaa tapahtumarivin tai josta haluat sen kohdistettavan. Voit esimerkiksi tehdä kiinteän kohdistuksen, kun haluat luoda kustannuksen kohdistuksen, joka määrittää, että myynnin tuoton tulisi koskea tiettyä myyntitoimitusta myyntitilauksen kustannuksen peruuttamiseksi. Tässä tapauksessa [!INCLUDE[prod_short](includes/prod_short.md)] ohittaa arvostusmenetelmän ja käyttää myyntipalautukselle varaston arvon vähennystä tai kasvatusta määrittämääsi nimiketapahtumaan. Kiinteän sovelluksen teon hyöty on se, että alkuperäisen siirron kustannus siirretään uuteen tapahtumaan.  
 
 ### <a name="example--fixed-application-in-purchase-return"></a>Esimerkki – kiinteä kohdistus ostopalautuksessa  
 Seuraava esimerkki, jossa kuvataan sellaisen nimikkeen vaikutus ostopalautuksen kiinteään sovellukseen, joka käyttää FIFO-kustannuslaskentamenetelmää, perustuu seuraavaan skenaarioon:  
@@ -127,7 +127,9 @@ Seuraava esimerkki, jossa kuvataan kiinteän sovelluksen vaikutusta, perustuu se
 
 Seuraavassa taulukossa esitetään skenaarion tulos nimikkeen arvokirjauksissa.  
 
-|Kirjauspäivämäärä|Nimiketapahtuman tyyppi|Arvostettu määrä|Kustannussumma (todellinen)|Kohdista nimiketapahtumaan|Arvostettu keskim. kust.|Nimiketapahtuman nro|Tapahtumanro|  
+Seuraavassa taulukossa on esitetty skenaarion tulokset nimikkeen arvotapahtumista, sen jälkeen, kun kirjaus on valmis ja kustannusten muuttaminen on suoritettu.
+
+|Kirjauspäivämäärä|Nimiketapahtuman tyyppi|Arvostettu määrä|Kustannussumma (Tod.)|Kohdista nimiketapahtumaan|Arvostettu keskim. kust.|Nimiketapahtuman nro|Tapahtumanro|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
 |01-01-20|Osto|1|200.00||Ei|1|1|  
 |01-01-20|Osto|1|1000.00||Ei|2|2|  
@@ -190,7 +192,7 @@ Seuraavassa taulukossa esitetään täsmällisen kustannusten kumoamisen vaikutu
 Kun **Muuta kustannuksia - Nimiketapahtumat** -eräajo suoritetaan, ostotapahtuman nimikeveloituksen vuoksi nousseet kustannukset välitetään myyntitapahtumalle (tapahtuma numero 2). Myyntikirjaus lähettää sitten edelleen nämä kasvaneet kustannukset myynnin kredit-kirjaukseen (kirjausnumero 3). Lopputulos on se, että kustannukset on kumottu oikein.  
 
 > [!NOTE]  
->  Kun käsittelet palautuksia tai hyvityslaskuja ja olet määrittänyt **Todellisen kust. peruutt. pakollinen** -kentän joko **Ostojen ja ostovelkojen asetukset**- tai **Myyntien ja myyntisaamisten asetukset** -sivulla tilanteesi mukaisesti, [!INCLUDE[d365fin](includes/d365fin_md.md)] täyttää kohdistustapahtumakentät automaattisesti, kun käytät **Kopioi asiakirjasta** -toimintoa. Jos käytät **Hae peruutettavat kirjatut asiakirjarivit** -toimintoa, tällöin kentät täytetään aina automaattisesti.  
+>  Kun käsittelet palautuksia tai hyvityslaskuja ja olet määrittänyt **Todellisen kust. peruutt. pakollinen** -kentän joko **Ostojen ja ostovelkojen asetukset**- tai **Myyntien ja myyntisaamisten asetukset** -sivulla tilanteesi mukaisesti, [!INCLUDE[prod_short](includes/prod_short.md)] täyttää kohdistustapahtumakentät automaattisesti, kun käytät **Kopioi asiakirjasta** -toimintoa. Jos käytät **Hae peruutettavat kirjatut asiakirjarivit** -toimintoa, tällöin kentät täytetään aina automaattisesti.  
 
 > [!NOTE]  
 >  Jos kirjaat tapahtuman, jolla on kiinteä kohdistus ja kohdistettava nimiketapahtuma on suljettu (eli jäljellä oleva määrä on nolla), tällöin vanha kohdistus kumotaan automaattisesti ja nimiketapahtuma kohdistetaan uudelleen käyttämällä määrittämääsi kiinteää kohdistusta.  
@@ -203,30 +205,30 @@ Seuraava esimerkki, joka kuvaa sitä, kuinka eri siirtokirjauksia käytetään, 
 
 1. Käyttäjä ostaa nimikkeen hintaan 10,00 (PVA).  
 2. Käyttäjä ostaa nimikkeen uudelleen hintaan 20,00 (PVA).  
-3. Käyttäjä siirtää nimikkeen SININEN-sijainnista PUNAINEN-sijaintiin.  
+3. Käyttäjä siirtää nimikkeen ITÄ-sijainnista LÄNSI-sijaintiin.  
 
 Seuraavassa taulukossa esitetään siirron vaikutus nimikkeen arvokirjauksiin.  
 
-|Kirjauspäivämäärä|Nimiketapahtuman tyyppi|Sijaintikoodi |Arvostettu määrä|Kustannussumma (todellinen)|Tapahtumanro|  
+|Kirjauspäivämäärä|Nimiketapahtuman tyyppi|Sijaintikoodi |Arvostettu määrä|Kustannussumma (Tod.)|Tapahtumanro|  
 |-------------------------------------|-----------------------------------------------|--------------------------------------|-----------------------------------------|------------------------------------------------|----------------------------------|  
-|01-01-20|Osto|SININEN|1|10.00|1|  
-|01-01-20|Osto|SININEN|1|20.00|2|  
-|02-01-20|Siirto|SININEN|-1|15,00|3|  
-|02-01-20|Siirto|PUNAINEN|1|15,00|4|  
+|01-01-20|Osto|ITÄ|1|10,00|1|  
+|01-01-20|Osto|ITÄ|1|20,00|2|  
+|02-01-20|Siirto|ITÄ|-1|15,00|3|  
+|02-01-20|Siirto|LÄNSI|1|15,00|4|  
 
 ### <a name="example--standard-costing-method"></a>Esimerkki – Arvostusmenetelmä Vakio  
 Seuraava esimerkki, joka kuvaa sitä, kuinka eri siirtokirjauksia käytetään, perustuu seuraavaan skenaarion nimikkeestä, joka käyttää kustannuslaskelman perusmenetelmää ja keskimääräistä päivän kustannusjaksoa.  
 
 1. Käyttäjä ostaa nimikkeen normaaliin hintaan 10,00 (PVA).  
-2. Käyttäjä siirtää nimikkeen SININEN-sijainnista PUNAINEN-sijaintiin vakiohinnalla 12,00 (PVA).  
+2. Käyttäjä siirtää nimikkeen ITÄ-sijainnista LÄNSI-sijaintiin vakiohinnalla 12,00 (PVA).  
 
 Seuraavassa taulukossa esitetään siirron vaikutus nimikkeen arvokirjauksiin.  
 
-|Kirjauspäivämäärä|Nimiketapahtuman tyyppi|Sijaintikoodi |Arvostettu määrä|Kustannussumma (todellinen)|Tapahtumanro|  
+|Kirjauspäivämäärä|Nimiketapahtuman tyyppi|Sijaintikoodi |Arvostettu määrä|Kustannussumma (Tod.)|Tapahtumanro|  
 |-------------------------------------|-----------------------------------------------|--------------------------------------|-----------------------------------------|------------------------------------------------|----------------------------------|  
-|01-01-20|Osto|SININEN|1|10.00|1|  
-|02-01-20|Siirto|SININEN|-1|10,00|2|  
-|02-01-20|Siirto|PUNAINEN|1|10,00|3|  
+|01-01-20|Osto|ITÄ|1|10,00|1|  
+|02-01-20|Siirto|ITÄ|-1|10,00|2|  
+|02-01-20|Siirto|LÄNSI|1|10,00|3|  
 
 Koska alkuperäisen varaston kasvun arvo on LCY 10.00, siirto arvioidaan kustannuksen mukaan, ei LCY 12.00.  
 
@@ -238,7 +240,7 @@ Nimikkeen yksikkökustannuksen laskentatavan mukaan nimikkeen virheellinen kohdi
 * Haluat ohittaa kirjauksen yhteydessä automaattisesti nimikkeen arvostusmenetelmän perusteella luodun kohdistuksen.  
 * Palauta nimike, jolle on jo manuaalisesti kohdistettu myynti, ilman **Hae peruutettavat kirjatut asiakirjarivit** -toiminnon käyttämistä. Kohdistus on tämän vuoksi peruutettava.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] tarjoaa ominaisuuden nimikkeen kohdistusten analysointiin ja korjaamiseen. Tämä työ tehdään **Kohdistustyökirja**-sivulla.  
+[!INCLUDE[prod_short](includes/prod_short.md)] tarjoaa ominaisuuden nimikkeen kohdistusten analysointiin ja korjaamiseen. Tämä työ tehdään **Kohdistustyökirja**-sivulla.  
 
 ## <a name="see-also"></a>Katso myös  
 [Rakennetiedot: Nimikkeen kohdistuksen tunnettu ongelma](design-details-inventory-zero-level-open-item-ledger-entries.md)  
@@ -248,4 +250,4 @@ Nimikkeen yksikkökustannuksen laskentatavan mukaan nimikkeen virheellinen kohdi
 [Rakennetiedot: Kustannuksen muutos](design-details-cost-adjustment.md)  
 [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)  
 [Rahoitus](finance.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  

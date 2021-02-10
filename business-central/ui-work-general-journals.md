@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: journals, recurring, accrual
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d0fba2dc1359da074ddf8fd21823803d49ba1234
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 18c36bf409b2bb5d4e67eeccfdf16193ec4dac62
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920695"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760091"
 ---
 # <a name="working-with-general-journals"></a>Yleisten päiväkirjojen käyttäminen
 
-Useimmat rahoitustapahtumat kirjataan pääkirjanpitoon erityisten yritysasiakirjojen, kuten ostolaskujen ja myyntitilausten välityksellä. Voit myös prosessoida liiketoiminta-aktiviteetteja, kuten ostoja, maksamista, toistuvien päiväkirjojen käyttämistä kertymien kirjaamiseen tai työntekijöiden kulujen hyvitystä kirjaamalla päiväkirjarivejä [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen eri päiväkirjoihin.  
+Useimmat rahoitustapahtumat kirjataan pääkirjanpitoon erityisten yritysasiakirjojen, kuten ostolaskujen ja myyntitilausten välityksellä. Voit myös prosessoida liiketoiminta-aktiviteetteja, kuten ostoja, maksamista, toistuvien päiväkirjojen käyttämistä kertymien kirjaamiseen tai työntekijöiden kulujen hyvitystä kirjaamalla päiväkirjarivejä [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen eri päiväkirjoihin.  
 
 Useimmat päiväkirjat perustuvat *yleiseen päiväkirjaan* ja voit käsitellä kaikki tapahtumat **Yleinen päiväkirja** -sivulla. Lisätietoja on kohdassa [Tapahtumien kirjaaminen suoraan pääkirjanpitoon](finance-how-post-transactions-directly.md).  
 
@@ -41,15 +41,15 @@ Yleisen päiväkirjan malleja on useita. Kullakin päiväkirjamallilla on määr
 Voit määrittää kullekin päiväkirjan mallille oman henkilökohtaisen päiväkirjan päiväkirjan eränä. Voit esimerkiksi määrittää maksupäiväkirjalle oman päiväkirjan erän, jolle on määritetty henkilökohtainen asettelu ja asetukset. Seuraava vihje on esimerkki päiväkirjan mukauttamisesta.
 
 > [!TIP]  
-> Jos valitset **Yleisen päiväkirjan erät** -sivun erän rivillä olevan **Ehdota vastasummaa** -valintaruudun, esimerkiksi saman asiakirjanumeron yleisen päiväkirjan rivien **Summa**-kenttään esitäytetään automaattisesti arvo, joka vaaditaan asiakirjan täsmäyttämiseksi. Lisätietoja on ohjeaiheessa [[!INCLUDE[d365fin](includes/d365fin_md.md)] saa ehdottaa arvoja](ui-let-system-suggest-values.md).
+> Jos valitset **Yleisen päiväkirjan erät** -sivun erän rivillä olevan **Ehdota vastasummaa** -valintaruudun, esimerkiksi saman asiakirjanumeron yleisen päiväkirjan rivien **Summa**-kenttään esitäytetään automaattisesti arvo, joka vaaditaan asiakirjan täsmäyttämiseksi. Lisätietoja on ohjeaiheessa [[!INCLUDE[prod_short](includes/prod_short.md)] saa ehdottaa arvoja](ui-let-system-suggest-values.md).
 
 > [!TIP]
 > Kenttiä voi lisätä päiväkirjoihin tai poistaa niitä **Mukauttaminen**-palkin avulla. Lisätietoja on kohdassa [Työtilan mukauttaminen](ui-personalization-user.md).
 
 ### <a name="validating-general-journal-batches"></a>Yleisen päiväkirjan erien arvioiminen
-Voit estää kirjauksen viivästymistä ottamalla käyttöön taustatarkistuksen, joka ilmoittaa, kun työstettävässä päiväkirjassa on virhe, joka estää päiväkirjan kirjaamisen. **Yleisen päiväkirjan erä** -sivulla voit valita **taustan virheen tarkistuksen**, jos haluat, että [!INCLUDE[d365fin](includes/d365fin_md.md)] vahvistaa rahoituspäiväkirjat, kuten yleiset tai maksupäiväkirjat, kun käsittelet niitä. 
+Voit estää kirjauksen viivästymistä ottamalla käyttöön taustatarkistuksen, joka ilmoittaa, kun työstettävässä päiväkirjassa on virhe, joka estää päiväkirjan kirjaamisen. **Yleisen päiväkirjan erä** -sivulla voit valita **taustan virheen tarkistuksen**, jos haluat, että [!INCLUDE[prod_short](includes/prod_short.md)] vahvistaa rahoituspäiväkirjat, kuten yleiset tai maksupäiväkirjat, kun käsittelet niitä. 
 
-Kun oikeellisuustarkistus otetaan käyttöön, **päiväkirjan tarkistuksen** -tietoruutu näkyy päiväkirjarivien vieressä, ja siinä näkyvät tämän rivin ja koko erän seurantakohteet. Vahvistus tehdään silloin, kun lataat rahoituspäiväkirjan erän ja kun valitset toisen päiväkirjarivin. Tietoruudun **kokonaisongelmat**-ruudussa näkyy [!INCLUDE[d365fin](includes/d365fin_md.md)]:n löytämien ongelmien kokonaismäärän, ja voit valita sen, kun haluat avata yleiskuvauksen ongelmista. 
+Kun oikeellisuustarkistus otetaan käyttöön, **päiväkirjan tarkistuksen** -tietoruutu näkyy päiväkirjarivien vieressä, ja siinä näkyvät tämän rivin ja koko erän seurantakohteet. Vahvistus tehdään silloin, kun lataat rahoituspäiväkirjan erän ja kun valitset toisen päiväkirjarivin. Tietoruudun **kokonaisongelmat**-ruudussa näkyy [!INCLUDE[prod_short](includes/prod_short.md)]:n löytämien ongelmien kokonaismäärän, ja voit valita sen, kun haluat avata yleiskuvauksen ongelmista. 
 
 Voit käyttää **Näytä rivit, joilla on seurantakohteita**- ja **Näytä kaikki rivit** -toimintoja, joilla voi siirtyä päiväkirjan riveillä, joilla on tai ei ole ongelmia. Uuden **päiväkirjan rivitiedot** -ruudun avulla saat nopeasti yleiskuvan ja voit käyttää päiväkirjarivien, kuten KP-tilin, asiakkaan tai toimittajan, tietoja sekä tiettyjen tilien kirjausasetuksia.     
 
@@ -203,7 +203,7 @@ Seuraavat toimenpiteet perustuvat **Yleinen päiväkirja** -sivuun, mutta niitä
 [Päiväkirjakirjauksen peruuttaminen sekä vastaanottojen tai toimitusten kumoaminen](finance-how-reverse-journal-posting.md)  
 [Kustannusten ja tulojen kohdistaminen](year-allocate-costs-income.md)  
 [Rahoitus](finance.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Nimikepäiväkirjan kiinteästä kohdistuksesta aiheutuvien avointen nimiketapahtumien sulkeminen](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
 [Varaston uudelleenarvostus uudelleenarvostuspäiväkirjassa](inventory-how-revalue-inventory.md)  
 [Varaston laskeminen, muuttaminen ja uudelleenluokitus käyttämällä päiväkirjoja](inventory-how-count-adjust-reclassify.md)  

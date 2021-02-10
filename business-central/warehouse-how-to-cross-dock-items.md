@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c67f55e1de336e7a191b1d10affe0134110a70b5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 558b93677d4045f68bdc6fea0b68936658816b92
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923243"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759840"
 ---
 # <a name="cross-dock-items"></a>Nimikkeiden laiturointi
 Laiturointitoiminto on käytettävissä, jos olet määrittänyt fyysisen varastoinnin vastaanoton ja hyllytyksen käsittelyn pakolliseksi sijainnissa.  
@@ -60,7 +60,7 @@ Sovellus ei ylläpidä erillisiä tietueita nimikkeistä, jotka on laituroitu, v
 2.  Luo varaston vastaanotot nimikkeelle, joka on saapunut ja voidaan ehkä laituroida. Lisätietoja on kohdassa [Nimikkeiden vastaanottaminen](warehouse-how-receive-items.md).  
 3.  Täytä **Vastaanotettava määrä** -kenttä ja valitse sitten **Laske laiturointi** -toiminto.  
 
-    Näin tunnistetaan lähtevät lähdeasiakirjat, joissa pyydetään päivämääräkaavan ajanjakson aikana varastolta lähteviksi aikataulutettuja nimikkeitä.  [!INCLUDE[d365fin](includes/d365fin_md.md)] laskee määrät siten, että laituroitava määrä on mahdollisimman suuri ja ettei nimikkeitä tarvitse hyllyttää. Laskelma tehdään kuitenkin niin, ettei laiturointialueelle keräänny liian paljon nimikkeitä. **Laituroitava määrä** -kentässä oleva arvo on siis yhteenlaskettu summa kaikista lähtevistä riveistä, joilla pyydetään nimikettä määritetyn ajanjakson aikana, vähennettynä laiturointialueelle sijoitetulla nimikkeen määrällä – tai se on vastaanottorivin **Vastaanotettava määrä** -kentän arvo – sen mukaan, kumpi näistä arvoista on pienempi. Laituroinnin määrä ei voi olla suurempi kuin vastaanotettu määrä.  
+    Näin tunnistetaan lähtevät lähdeasiakirjat, joissa pyydetään päivämääräkaavan ajanjakson aikana varastolta lähteviksi aikataulutettuja nimikkeitä.  [!INCLUDE[prod_short](includes/prod_short.md)] laskee määrät siten, että laituroitava määrä on mahdollisimman suuri ja ettei nimikkeitä tarvitse hyllyttää. Laskelma tehdään kuitenkin niin, ettei laiturointialueelle keräänny liian paljon nimikkeitä. **Laituroitava määrä** -kentässä oleva arvo on siis yhteenlaskettu summa kaikista lähtevistä riveistä, joilla pyydetään nimikettä määritetyn ajanjakson aikana, vähennettynä laiturointialueelle sijoitetulla nimikkeen määrällä – tai se on vastaanottorivin **Vastaanotettava määrä** -kentän arvo – sen mukaan, kumpi näistä arvoista on pienempi. Laituroinnin määrä ei voi olla suurempi kuin vastaanotettu määrä.  
 
 4.  Jos haluat laituroida määrän ehdotuksen mukaan, kirjaa vastaanotto. Voit myös päättää muuttaa laituroitavaa määrää suuremmaksi tai pienemmäksi arvoksi ja sitten kirjata vastaanoton.  
 
@@ -104,4 +104,4 @@ Jos et käytä varastopaikkoja, muista tarkastaa laiturointialue ajoittain tai t
 [Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md)     
 [Kokoonpanon hallinta](assembly-assemble-items.md)    
 [Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  

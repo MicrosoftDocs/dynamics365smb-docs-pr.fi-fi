@@ -1,8 +1,6 @@
 ---
-title: Liiketoiminnan kontaktien luominen| Microsoft Docs
+title: Liiketoiminnan kontaktien luominen
 description: Määrittää tehtävät luomaan kontakteja ja määrittämään liikesuhteet.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,24 +8,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2020
+ms.date: 01/05/2021
 ms.author: edupont
-ms.openlocfilehash: d5885ac3310e545c0a2550ca49d67f1f9ab6ca35
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 42645a038c3937644fe90ce895ee454e1d1b5d5c
+ms.sourcegitcommit: fe6943d410f5dca4e8b2986f95501009ae982d98
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922717"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "4827041"
 ---
 # <a name="create-contacts"></a>Kontaktien luominen
-Kun kehität liikesuhteen toisessa yrityksessä olevan henkilön kanssa, voit luoda hänet kontaktiksi ja syöttää tietoja hänestä tai hänen yrityksestään, ja niistä voi olla hyötyä tulevissa yhteyksissä. **Kontaktin kortti** -sivulla voit luoda seuraavanlaisia kontaktityyppejä:
+Kun luot liiketoiminnan kontaktin johonkuhun toisessa yrityksessä, lisää heidät yhteyshenkilönä [!INCLUDE[prod_short](includes/prod_short.md)]iin. Lisää sitten kontakteista tai kontaktien yrityksestä tietoja, jotka voivat olla hyödyllisiä tulevissa yhteyksissä. **Kontaktin kortti** -sivulla voit luoda seuraavanlaisia kontaktityyppejä:
 
 * **Henkilö** - Yleensä olet ollut suorassa kosketuksessa jonkun kanssa ja sinulla on heidän yhteystietonsa.
 * **Yritys** - Esimerkiksi yhteyshenkilö ei ole yksityishenkilö vaan entiteetti, kuten alihankkija tai pankki. 
 
 Kunkin kontaktityypin kannalta merkitykselliset tiedot eroavat toisistaan, joten käytettävissä olevat kentät ja toiminnot ovat erilaisia. Voit esimerkiksi määrittää vastuualueet henkilölle ja toimialaryhmä yritykselle. 
 
-Voit muuttaa **Tyyppi**-kentän arvoa myöhemmin. Vaihtoehtoisesti voit määrittää, mitä tietoja henkilön ja liittyvän yrityksen välillä jaetaan, **Kontaktienhallinnan asetukset** -sivun **Periytyminen**-pikavälilehdessä. Lisätietoja on kohdassa [Kontaktien määrittäminen](marketing-setup-contacts.md).
+Voit myös muuttaa **Tyyppi**-kentän arvoa myöhemmin. Vaihtoehtoisesti voit käyttää **Kontaktienhallinnan asetukset**-sivun **Periytyvyys**-pikavälilehden kenttiä määrittääksesi jaettavat tiedot henkilön ja yrityksen välillä. Lisätietoja on kohdassa [Kontaktien määrittäminen](marketing-setup-contacts.md).
 
 Kun yhteyshenkilö muunnetaan esimerkiksi asiakkaaksi, yhteyshenkilö tai yhteyshenkilön yrityksestä tulee asiakkaan nimi. Kontaktin tietueet säilytetään, ja voit linkittää kontaktin ja asiakkaan niin, että heidän tietonsa synkronoidaan eteenpäin.
 
@@ -40,7 +38,7 @@ Kun yhteyshenkilö muunnetaan esimerkiksi asiakkaaksi, yhteyshenkilö tai yhteys
 5. Täytä jäljellä olevat kentät tarvittaessa. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-create-a-contact-from-a-customer-vendor-or-bank-account"></a>Kontaktin luominen asiakkaana, toimittajana tai pankkitilinä.
-Jos sinulla on asiakkaita, toimittajia ja pankkitilejä, joille haluat luoda kontaktikortit, voit luoda kontakteja aiemmin luotujen tietojen perusteella käyttämällä **Luo kontakteja** -erätöinä. Kun luot kontaktin tällä tavalla, kontaktin tiedot synkronoidaan myöhemmin liittyvän asiakkaan, toimittajan tai pankkitilin tietojen kanssa. Lisätietoja on kohdassa [Kontaktien synkronoiminen asiakkaiden, toimittajien ja pankkitilien kanssa](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts).
+Jos sinulla on asiakkaita, toimittajia ja pankkitilejä, joille haluat luoda kontaktikortit, voit luoda kontakteja aiemmin luoduista tiedoista käyttämällä **Luo kontakteja** -erätöinä. Kun luot kontaktin tällä tavalla, kontaktin tiedot synkronoidaan myöhemmin liittyvän asiakkaan, toimittajan tai pankkitilin tietojen kanssa. Lisätietoja on kohdassa [Kontaktien synkronoiminen asiakkaiden, toimittajien ja pankkitilien kanssa](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts).
 
 > [!NOTE]  
 > Ennen aiemmin luotuihin tietoihin perustuvien kontaktien luontia asiakkaiden, toimittajien tai pankkitilien liikesuhteen koodi on määritettävä **Kontaktienhallinnan asetukset** -sivun **Vuorovaikutukset**-pikavälilehdessä. Lisätietoja on kohdassa [Yhteyshenkilöiden määrittäminen](marketing-setup-contacts.md).
@@ -78,6 +76,18 @@ Jos kontakti ja joko asiakas, toimittaja, työntekijä tai pankkitili ovat samas
 3. Valitse avautuvalla sivulla linkitettävä asiakas, toimittaja, työntekijä tai pankkitili.
 4. Määritä **Nykyiset pääkentät** -kentässä kentät, jotka priorisoidaan, jos kontaktille, toimittajalle, työntekijälle tai pankkitilille yhteisissä kentissä esiintyy ristiriitaisia tietoja. Jos esimerkiksi myyjän koodi on erilainen kontaktille ja asiakkaalle, voit valita toisen säilyttämisen kontaktikortissa valitsemalla **Kontakti**.
 5. Valitse **OK**-painike.
+
+## <a name="to-remove-a-link-between-a-contact-and-an-existing-customer-vendor-employee-or-bank-account"></a>Kontaktin linkin poistaminen olemassa olevasta asiakkaasta, toimittajasta, työntekijästä tai pankkitilistä
+
+Jos olet linkittänyt kontaktin ja asiakkaan, toimittajan, työntekijän tai pankkitilin virheellisesti, poista entiteettien välinen linkki, jotta tietoja ei enää synkronoida.
+
+1. Avaa kontakti, jossa on väärä linkki.  
+2. Valitse **Liikesuhteet**-toiminto.  
+3. Valitse avautuvalla sivulla asiakas, toimittaja, työntekijä tai pankkitili, josta linkki poistetaan.  
+4. Valitse **Poista**-toiminto.  
+
+> [!NOTE]  
+> Älä käytä **Liikesuhteet**-ikkunaa aiemmin luotujen suhteiden muuttamiseen. Poista sen sijaan suhde ja käytä **Linkitä olemassa olevan kanssa** -toimintoa. Lisätietoja on [Kontaktin linkittäminen aiemmin luotuun asiakkaaseen, toimittajaan tai pankkitiliin](marketing-create-contact-companies.md#to-link-a-contact-to-an-existing-customer-vendor-employee-or-bank-account) -osassa.
 
 ## <a name="synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts"></a>Kontaktien synkronoiminen asiakkaiden, toimittajien, työntekijöiden ja pankkitilien kanssa
 Jos jotkin kontakteistasi ovat myös asiakkaita, toimittajia, työntekijöitä tai pankkitilejä, voit synkronoida ne sitten kontaktin tietojen kanssa ja saada seuraavat edut:

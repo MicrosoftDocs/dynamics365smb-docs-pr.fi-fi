@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 31432399981befb3b844c5d951b5b752e1152458
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5890fa0200a2661a68f6eae32246d562970e3c14
+ms.sourcegitcommit: d80cf8aa0723f9aa2b7e0b3689edf8e2682f49fc
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912494"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4840251"
 ---
 # <a name="entering-data"></a>Tietojen antaminen
 
@@ -24,7 +24,7 @@ Käytettävissä on monia yleisiä ominaisuuksia, jotka helpottavat, nopeuttavat
 Tämän artikkelin esimerkeissä käytetään esimerkkitietoja.
 
 ## <a name="working-with-editable-fields"></a>Muokattavien kenttien käsitteleminen
-[!INCLUDE[d365fin](includes/d365fin_md.md)] -kohteen kentissä voi olla erilaisia muokattavia tietoja, kuten tekstiä tai valuuttasummia. Muokattavat kentät näyttävät tavallisesti syöttöruudun, johon voit kirjoittaa tai valita arvon. Ei-muokattavat kentät näkyvät tavallisesti harmaana taustana.   
+[!INCLUDE[prod_short](includes/prod_short.md)] -kohteen kentissä voi olla erilaisia muokattavia tietoja, kuten tekstiä tai valuuttasummia. Muokattavat kentät näyttävät tavallisesti syöttöruudun, johon voit kirjoittaa tai valita arvon. Ei-muokattavat kentät näkyvät tavallisesti harmaana taustana.   
 
 Joidenkin muokattavien kenttien avulla voit määrittää arvon.  
 
@@ -44,7 +44,7 @@ Jos haluat muuttaa kentän arvoa, sinun on ensin määritettävä kentän kohdis
 - Käytä **Sarkain**-näppäintä. Toiminto valitsee koko arvon.
 - Napsauta hiiren vasenta näppäintä tai vastaavaa syöttölaitetta. Tämä toimenpide valitsee koko kentän arvon vain, jos kenttä on luettelossa.  
 
-Kun käytät kenttiä käyttöliittymässä, [!INCLUDE[d365fin](includes/d365fin_md.md)] yleensä suosii koko kentän arvon valitsemista, jotta kyseinen arvo olisi helpompi korvata.
+Kun käytät kenttiä käyttöliittymässä, [!INCLUDE[prod_short](includes/prod_short.md)] yleensä suosii koko kentän arvon valitsemista, jotta kyseinen arvo olisi helpompi korvata.
 
 Kun koko kentän arvo on valittuna:
 - Voit määrittää uuden arvon korvaamalla arvon kirjoittamalla. Jos kentässä on valitsin, voit aktivoida sen käyttämällä **Alt+alanuoli**-pikanäppäintä.
@@ -85,7 +85,7 @@ Seuraavassa luettelossa on joitakin hyödyllisiä tietoja pikatapahtumien käytt
 - Se on käytössä muokattavissa kentissä.
 - Sitä voi käyttää myös sarakkeissa ja riveillä.
 - Se ei estä sivun muiden osien, kuten toimintojen, käyttämistä, Näitä elementtejä voi edelleen käyttää sarkaimella ja Vaihto+Sarkain-näppäinyhdistelmällä.  
-- Pikavälilehtien laajentamista ei edellytetä, jotta pikasyöttö voi toimia. Jos seuraava pikatapahtumakenttä sijaitsee tiivistetyssä pikavälilehdessä, pikavälilehti laajentuu automaattisesti ja kohdistus on valitussa kentässä. [!INCLUDE[d365fin](includes/d365fin_md.md)] muistaa, että pikavälilehti on laajennettava, kun seuraavan kerran käyt sivulla.  
+- Pikavälilehtien laajentamista ei edellytetä, jotta pikasyöttö voi toimia. Jos seuraava pikatapahtumakenttä sijaitsee tiivistetyssä pikavälilehdessä, pikavälilehti laajentuu automaattisesti ja kohdistus on valitussa kentässä. [!INCLUDE[prod_short](includes/prod_short.md)] muistaa, että pikavälilehti on laajennettava, kun seuraavan kerran käyt sivulla.  
 - Pikasyöttö on käytettävissä riippumatta siitä, ovatko kentät pakollisia vai eivät. Tämän vuoksi kannattaa varmistaa, että pakolliset kentät sisällytetään pikasyöttöön.
 - Oletusarvoisesti useimmat kentät sisällytetään automaattisesti pikatapahtumaan. Tämän vuoksi joudutkin luultavasti aluksi sulkemaan kenttiä pois pikatapahtumasta.
 
@@ -120,7 +120,7 @@ Voit kopioida yhden tai useamman rivin luettelosta tai yhden kentän sivulla. Li
 
 Kopioi luettelossa kenttä yläpuolella olevan rivin samasta sarakkeesta ja liitä se nykyiselle riville painamalla F8-näppäintä.
 
-Lisätietoja on kohdassa [Kopioinnin ja liittämisen usein kysytyt kysymykset](ui-copy-paste.md).
+Lisätietoja on kohdassa [Kopioinnin ja liittämisen usein kysytyt kysymykset](faq-copy-paste.yml).
 
 ## <a name="filtering-line-items"></a>Rivinimikkeiden suodattaminen
 
@@ -162,7 +162,7 @@ Avaa nykyinen kortti tai asiakirja uudessa ikkunassa valitsemalla ![Avaa uusi ik
 > Jos käytössä on Safari-selain, ponnahdusikkunoiden esto voi estää uuden ikkunan avautumisen. Määritä siinä tapauksessa tuotteen URL-osoite sallituksi sivustoksi. Lisätietoja on kohdassa [Safarin asetusten muuttaminen](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
 > Sama voi tapahtua muissakin selaimissa, kuten Firefoxissa. Lisätietoja on kohdassa [Firefoxin ponnahdusikkunoiden eston asetukset](https://go.microsoft.com/fwlink/?LinkId=2116400).  
 
-Toinen tapa tehdä useita toimintoja samanaikaisesti on avata [!INCLUDE[d365fin](includes/d365fin_md.md)] kahdessa tai useammassa välilehdessä. Kun noudatat tätä tapaa, luo uusi välilehti ja kopioi/liitä alkuperäisen välilehden URL-osoite uuteen välilehteen. Tämä tapa luo uuden istunnon.   
+Toinen tapa tehdä useita toimintoja samanaikaisesti on avata [!INCLUDE[prod_short](includes/prod_short.md)] kahdessa tai useammassa välilehdessä. Kun noudatat tätä tapaa, luo uusi välilehti ja kopioi/liitä alkuperäisen välilehden URL-osoite uuteen välilehteen. Tämä tapa luo uuden istunnon.   
 
 > [!NOTE]
 > Älä käytä selaimen **Monista**-toimintoa uuden välilehden luomiseen, koska se voi aiheuttaa toimintoja yhdelle välilehdelle estämään muiden välilehtien toiminnot, koska ne ovat osa samaa istuntoa.
@@ -294,4 +294,4 @@ Seuraavassa on muutamia esimerkkejä:
 
 ## <a name="see-also"></a>Katso myös  
  [Luetteloiden lajitteleminen ja suodattaminen sekä luetteloista hakeminen](ui-enter-criteria-filters.md)  
- [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+ [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)

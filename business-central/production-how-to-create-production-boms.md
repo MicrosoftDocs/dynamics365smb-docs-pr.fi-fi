@@ -1,5 +1,5 @@
 ---
-title: Tuotannon tuoterakenteiden luominen | Microsoft Docs
+title: Tuotannon tuoterakenteiden luominen
 description: Tuotannon tuoterakenne sisältää perustiedot päänimikkeen tuotannossa käytettävistä komponenteista ja osakokoonpanoista. Kun päänimikkeelle luodaan tuotantotilaus, tuotannon tuoterakenne ohjaa materiaalitarpeiden laskentaa **Tuot.til. komponentit** -sivulla näkyvällä tavalla.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,19 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 01/05/2020
 ms.author: edupont
-ms.openlocfilehash: 1d053c65b94efdb3b033c617f1b6b2db316c1ec2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5c9f2fa03f5f20e533237e60762dc60fc679d0d0
+ms.sourcegitcommit: cdba82235c0c07497bd04b9bd5134ef245d92c09
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919286"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "4838480"
 ---
 # <a name="create-production-boms"></a>Tuotannon tuoterakenteiden luominen
+
 Tuotannon tuoterakenne sisältää perustiedot päänimikkeen tuotannossa käytettävistä komponenteista ja osakokoonpanoista. Kun päänimikkeelle luodaan tuotantotilaus, tuotannon tuoterakenne ohjaa materiaalitarpeiden laskentaa **Tuot.til. komponentit** -sivulla näkyvällä tavalla.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] tukee myös kokoonpanon tuoterakenteita. Voit käyttää kokoonpanotilauksia, kun teet komponenteista loppunimikkeitä yksinkertaisella prosessilla. Tämä prosessi voidaan toteutetaan vähintään yhdellä perusresurssilla, joka ei ole kuormituskeskus eikä tuotantosolu, tai ilman resursseja. Kokoonpanoprosessi voi olla esimerkiksi kahden viinipullon ja yhden kahvipaketin valinta ja niiden pakkaaminen lahjaksi. Lisätietoja on kohdassa [Kokoonpanon tuoterakenteet tai tuotannon tuoterakenteet](inventory-how-work-boms.md#assembly-boms-or-production-boms).  
+[!INCLUDE[prod_short](includes/prod_short.md)] tukee myös kokoonpanon tuoterakenteita. Voit käyttää kokoonpanotilauksia, kun teet komponenteista loppunimikkeitä yksinkertaisella prosessilla. Tämä prosessi voidaan toteutetaan vähintään yhdellä perusresurssilla, joka ei ole kuormituskeskus eikä tuotantosolu, tai ilman resursseja. Kokoonpanoprosessi voi olla esimerkiksi kahden viinipullon ja yhden kahvipaketin valinta ja niiden pakkaaminen lahjaksi. Lisätietoja on kohdassa [Kokoonpanon tuoterakenteet tai tuotannon tuoterakenteet](inventory-how-work-boms.md#assembly-boms-or-production-boms).  
 
 Seuraavat toimet on oltava tehtynä ennen reitityksen määrittämistä:  
 
@@ -48,7 +49,7 @@ Seuraavat toimet on oltava tehtynä ennen reitityksen määrittämistä:
 12.  Voit nyt liittää uuden tuotannon tuoterakenteen kyseisen päänimikkeen korttiin. Lisätietoja on ohjeaiheessa [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md).  
 
 > [!NOTE]  
->  Voit laskea nimikkeen vakiokustannukset nimikkeen kortista valitsemalla ensin **Tuotanto**-toiminnon ja sitten **Laske Vakiokustannus** -toiminnon.  
+> [!INCLUDE [bom-standard-cost](includes/bom-standard-cost.md)] – Voit laskea nimikkeen vakiokustannukset nimikkeen kortista valitsemalla ensin **Tuotanto**-toiminnon ja sitten **Laske vakiokustannus** -toiminnon.  
 
 ## <a name="to-create-a-new-versions-of-a-production-bom"></a>Tuotannon tuoterakenteiden uusien versioiden luominen
 Tuotannon tuoterakenteen uusia versioita käytetään esimerkiksi silloin, kun nimike vaihdetaan toiseen nimikkeeseen tai silloin, kun asiakas pyytää tuotteesta erikoisversiota. Versioperiaate mahdollistaa tuotannon tuoterakenteen useiden versioiden hallinnan. Tuotannon tuoterakenteen version rakenne vastaa tuotannon tuoterakenteen rakennetta. Perusero on versioiden ajallinen voimassaolo. Voimassaolon määrittää aloituspäivämäärä.  
@@ -96,4 +97,4 @@ Tuotannon tuoterakenteelle tarvitaan seitsemänkymmentä metalliosaa, joiden dim
 [Suunnittelu](production-planning.md)   
 [Varasto](inventory-manage-inventory.md)  
 [Osto](purchasing-manage-purchasing.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)

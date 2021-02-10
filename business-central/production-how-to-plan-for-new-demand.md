@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 43e93d44a1fb4e3fe840313ebff9171cebddf4f9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 62f5254da05749c2da4690e7d49488af852ac67a
+ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919161"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5013842"
 ---
 # <a name="plan-for-new-demand-order-by-order"></a>Uuden kysynnän tilauskohtainen suunnittelu
 Tämä suunnittelutehtävä voidaan suorittaa **Tilauksen suunnittelu** -sivulla, jossa näkyvät kaikki uusi kysyntä, saatavuustiedot sekä tarjontaa koskevat ehdotukset. Ikkunan tietojen ja työkalujen avulla voidaan suunnitella tehokkaasti myynti- ja komponenttirivien synnyttämä kysyntä sekä luoda erityyppisiä toimitustilauksia suoraan.  
@@ -109,11 +109,12 @@ Kun **Tilauksen suunnittelu** -sivun suunnitelma on valmis (nimikkeelle on esime
 >  Luodut toimitustilaukset saattavat synnyttää uuden, ei-itsenäisen kysynnän, esimerkiksi osakomponentin tuotantotilaustarpeen. Etsi ja käsittele tällainen kysyntä valitsemalla **Laske suunnitelma** -toiminto uudelleen, ennen kuin siirryt luettelossa eteenpäin.  
 
 ## <a name="see-also"></a>Katso myös  
+[Vaihekuvaus: Toimitusten manuaalinen suunnittelu](walkthrough-planning-supplies-manually.md)  
 [Suunnittelu](production-planning.md)  
 [Tuotannon määrittäminen](production-configure-production-processes.md)  
 [Tuotanto](production-manage-manufacturing.md)    
-[Vaihto-omaisuus](inventory-manage-inventory.md)  
+[Varasto](inventory-manage-inventory.md)  
 [Osto](purchasing-manage-purchasing.md)  
 [Rakennetiedot: Toimitusten suunnittelu](design-details-supply-planning.md)   
 [Asetukset - parhaat käytännöt: toimitusten suunnittelu](setup-best-practices-supply-planning.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)

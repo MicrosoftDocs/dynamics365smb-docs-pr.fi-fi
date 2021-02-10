@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1e162dadd88fd7db781e884d0cde395bcff6250c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a230560b897f92cb871e72edb3ccfa2f74884bd3
+ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910703"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "4817279"
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Tuotantosolujen ja kuormituskeskusten määrittäminen
 
@@ -68,11 +68,14 @@ Seuraavaksi käsitellään ennen kaikkea tuotantosolun määrittämiseen. Kuormi
     > [!NOTE]  
     > Jos valitset yksiköksi Päivää, muista, että yksi päivä tarkoittaa 24:ää tuntia, ei 8:aa tuntia (työpäivää).
 
-13. Määritä **Kapasiteetti**-kentässä, onko tuotantosolussa samanaikaisesti useita työntekijöitä tai koneita. Jos käyttämääsi [!INCLUDE[d365fin](includes/d365fin_md.md)] -järjestelmään ei ole asennettu Kuormitusryhmä-toimintoa, kentän arvon on oltava **1**.  
+13. Määritä **Kapasiteetti**-kentässä, onko tuotantosolussa samanaikaisesti useita työntekijöitä tai koneita. Jos käyttämääsi [!INCLUDE[prod_short](includes/prod_short.md)] -järjestelmään ei ole asennettu Kuormitusryhmä-toimintoa, kentän arvon on oltava **1**.  
 14. Anna **Tehokkuus**-kenttään tuotantosolun todellinen tuotos prosenttiosuutena oletetusta vakiotuotoksesta. Jos annat arvoksi **100**, tämä tarkoittaa, että tuotantosolun todellinen tuotos on sama kuin vakiotuotos.  
 15. Valitse **Yhdistetty kalenteriin** -valintaruutu, jos käytät myös kuormitusryhmiä. Tämä varmistaa, että kalenteritapahtumat vyörytetään kuormitusryhmän kalentereista.  
 16. Valitse **Tuotantokalenterin koodi** -kentässä tuotantokalenteri. Lisätietoja on kohdassa [Tuotantokalenterien luominen](production-how-to-create-work-center-calendars.md).  
-17. Määritä **Jonotusaika**-kenttään aika, jonka täytyy kulua, ennen kuin tuotantosolulle määritetty työ voidaan aloittaa. Huomaa, että jonotusaika lisätään muihin tuottamattomiin aikaelementteihin, kuten odotusaikaan ja siirtoaikaan, jotka voidaan määrittää tätä tuotantosolua käyttäville reititysriveille.  
+17. Määritä **Jonotusaika**-kenttään aika, jonka täytyy kulua, ennen kuin tuotantosolulle määritetty työ voidaan aloittaa. 
+
+> [!NOTE]
+> Jonotusaikojen avulla voit määrittää puskurin sille, kuinka kauan komponentin saapumisesta kuormitusryhmälle tai tuotantosolulle kuluu toiminnon varsinaiseen aloittamiseen. Esimerkiksi osa toimitetaan kuormitusryhmälle klo 10:00, mutta se kestää tunnin, ennen kuin se asennetaan koneeseen, jolloin toiminto ei ala ennen klo 11:00. Jotta voisit ottaa huomioon kyseisen tunnin, jonotusaika on tunti. Kun lasketaan yhteen kuormitusryhmän tai tuotantosolun kortin **Jonotusaika**-kentän arvo sekä nimikkeen reititysrivin **Asetusaika**-, **Ajoaika**-, **Odotusaika**- ja **Siirtoaika**-kenttien arvot, saadaan nimikkeen tuotannon toimitusaika. Tämä auttaa tarjoamaan tarkkoja kokonaistuotantoaikoja.  
 
 ## <a name="example---different-machine-centers-assigned-to-a-work-center"></a>Esimerkki - Tuotantosoluun liitetyt erilaiset kuormitusryhmät
 
@@ -88,7 +91,7 @@ Jos tuotantosolujen kapasiteettien ei ole tarkoitus vaikuttaa kokonaiskapasiteet
 
 Tässä taulukossa on mahdollista määritellä tuotantoresurssit niille alueille, joita pidät kriittisinä, ja merkitä ne hyväksymään äärellinen kuormitus oletusarvoisen äärettömän kuormituksen sijaan, jotka muut tuotantoresurssit hyväksyvät. Kapasiteettirajoitettu resurssi voi olla tuotantosolu tai kuormitusryhmä, jonka olet tunnistanut pullonkaulaksi ja jolle haluaisit määritellä rajoitetun (rajallisen) kuormituksen.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] ei tue yksityiskohtaista työnohjausta. Se suunnittelee resurssien käytön tarjoamalla karkean aikataulun, mutta se ei luo ja ylläpidä automaattisesti tarkkoja aikatauluja prioriteetteihin tai optimointisääntöihin perustuen.
+[!INCLUDE[prod_short](includes/prod_short.md)] ei tue yksityiskohtaista työnohjausta. Se suunnittelee resurssien käytön tarjoamalla karkean aikataulun, mutta se ei luo ja ylläpidä automaattisesti tarkkoja aikatauluja prioriteetteihin tai optimointisääntöihin perustuen.
 
 Voit tehdä **Kapasiteettirajoitetut resurssit** -sivulla määritykset, jotka estävät tiettyjen resurssien ylikuormituksen ja varmistaa, että kapasiteettia ei jää kohdentamatta, jos se voisi parantaa tuotantotilauksen läpimenoaikaa. Voit lisätä **Vaimennin (% koko kapasiteetista)** -kenttään resurssien puskuriajan toiminnon jaon minimoimiseksi. Tämän avulla järjestelmä ajoittaa kuormituksen viimeiseen mahdolliseen päivään niin, että kriittinen kuormitusprosentti ylittyy hieman. Tämä voi vähentää jaettavien toimintojen määrää.
 
@@ -111,4 +114,4 @@ Kun suunnitellaan kapasiteettirajoitettuja resursseja, järjestelmä varmistaa, 
 [Suunnittelu](production-planning.md)  
 [Varasto](inventory-manage-inventory.md)  
 [Osto](purchasing-manage-purchasing.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  

@@ -10,17 +10,20 @@ ms.workload: na
 ms.search.keywords: design, transfer, sku, locations, warehouse
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 43237bcec983870cb7a9655126b5c912e0286657
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 829594fa196758502c67f52c4a7277d3b63aa41f
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920895"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035579"
 ---
 # <a name="design-details-transfers-in-planning"></a>Rakennetiedot: siirrot suunnittelussa
 Siirtotilaukset ovat myös tarjonnan lähde, kun työskennellään varastointiyksikön tasolla. Kun käytössä on useita sijainteja (fyysisiä varastoja), varastointiyksikön täydennysjärjestelmän arvoksi voi määrittää Siirto. Tällöin sijainnin täydennys tehdään siirtämällä tavaroita toisesta sijainnista. Yrityksillä voi olla useita varastoja ja yhdistettyjä siirtoja, joissa toimitus VIHREÄÄN sijaintiin siirretään KELTAISESTA ja toimitus KELTAISEEN siirretään PUNAISESTA ja niin edelleen. Ketjun alussa on täydennysjärjestelmänä Tuotantotilaus tai Osto.  
 
 ![Esimerkki siirtovirrasta](media/nav_app_supply_planning_7_transfers1.png "Esimerkki siirtovirrasta")  
+
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
 Jos verrataan tilannetta, jossa toimitustilaus liittyy suoraan kysyntätilaukseen tilanteeseen, jossa myyntitilaus toimitetaan varastointiyksiköiden siirtoketjun kautta, suunnittelutehtävä voi jälkimmäisessä tapauksessa olla hyvin monimutkainen. Jos kysyntä muuttuu, tämä saattaa aiheuttaa heijastusvaikutuksen ketjun läpi, koska ketjun toisessa päässä olevia kaikkia siirtotilauksia sekä osto/tuotantotilausta on muutettava kysynnän ja tarjonnan välisen tasapainon palauttamiseksi.  
 

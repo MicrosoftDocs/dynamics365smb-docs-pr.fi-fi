@@ -1,8 +1,6 @@
 ---
-title: Nimikkeiden viittausten käyttäminen | Microsoft Docs
+title: Nimikkeen viittausten käyttäminen
 description: Määritä viittaukset niiden kuvauksien välille, joita sinä ja toimittajasi käytätte nimikkeelle, jotta voit lisätä toimittajan nimikekuvauksen ostoasiakirjoihin.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item reference, cross reference, inventory
-ms.date: 10/01/2020
+ms.date: 01/12/2021
 ms.author: edupont
-ms.openlocfilehash: 056897c799dd12755432637690446a0797c9f18c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7d670f6553a1bd70dcc3d97f90436f36c6627c56
+ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919436"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5013790"
 ---
 # <a name="use-item-cross-references"></a>Nimikkeen viittausten käyttäminen
 Jos määrität viittauksen käyttämäsi nimikkeen nimikekuvauksen ja kyseisen nimikkeen toimittajan käyttämän kuvauksen välille, toimittajan nimikekuvaus lisätään automaattiesti toimittajan ostoasiakirjoihin, kun annat arvon **Viitenro** -kentässä. Myyntiasiakirjojen asiakkaan nimikenumeroissa käytetään samoja toimintoja.
@@ -25,7 +23,7 @@ Jos määrität viittauksen käyttämäsi nimikkeen nimikekuvauksen ja kyseisen 
 Seuraavaksi käsitellään nimikkeen viittausten käyttämistä ostojen puolella. Ostojen puolen vaiheet ovat vastaavanlaiset.
 
 > [!NOTE]
-> Yhä yleisempää on, että tuotetunnisteet, kuten GTIN- tai GUID-tunnukset, sisältävät vähintään 30 merkkiä, mikä on enemmän kuin nykyinen ominaisuus, jota kohteen ristiviittaukset pystyvät käsittelemään. Jos tarvitset viittauksia, joissa on enemmän kuin 30 merkkiä, järjestelmänvalvoja voi ottaa käyttöön **Kirjoita pidempiä viitteitä** -ominaisuuden [Ominaisuuksien hallinta](https://businesscentral.dynamics.com/?page=xzy) -sivulla (linkki edellyttää, että sinulla on [!INCLUDE[d365fin](includes/d365fin_md.md)] -vuokraaja). Viittausten käyttö ei muutu, mutta sivujen ja painikkeiden kaltaisten asioiden nimet muuttuvat. Esimerkiksi **Nimikkeen ristiviittaustapahtumat** -sivulta tulee **Nimikkeen viitetapahtumat** -sivu.
+> Yhä yleisempää on, että tuotetunnisteet, kuten GTIN- tai GUID-tunnukset, sisältävät vähintään 30 merkkiä, mikä on enemmän kuin nykyinen ominaisuus, jota kohteen ristiviittaukset pystyvät käsittelemään. Jos tarvitset viittauksia, joissa on enemmän kuin 30 merkkiä, järjestelmänvalvoja voi ottaa käyttöön **Kirjoita pidempiä viitteitä** -ominaisuuden [Ominaisuuksien hallinta](https://businesscentral.dynamics.com/?page=2610) -sivulla (linkki edellyttää, että sinulla on [!INCLUDE[prod_short](includes/prod_short.md)] -vuokraaja). Viittausten käyttö ei muutu, mutta sivujen ja painikkeiden kaltaisten asioiden nimet muuttuvat. Esimerkiksi **Nimikkeen ristiviittaustapahtumat** -sivulta tulee **Nimikkeen viitetapahtumat** -sivu.
 
 ## <a name="to-set-up-an-item-cross-reference-to-a-vendors-item-description"></a>Nimikkeen viittauksen määrittäminen toimittajan nimikkeen kuvaukseen.
 
@@ -49,4 +47,4 @@ Rivin **Kuvaus**-kentän tiedot on korvattu toimittajan nimikkeen kuvauksella ni
 ## <a name="see-also"></a>Katso myös
 [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md)  
 [Varasto](inventory-manage-inventory.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)

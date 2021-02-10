@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 6456d982629571d4d39622a910df4bfd7039d7a8
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6fc4f700f7469c280474e4a1f606ade24ef1266b
+ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915058"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "4817051"
 ---
 # <a name="the-late-payment-prediction-extension"></a>Myöhästyneen maksun ennusteen laajennus  
 Tehokas myyntisaamisten hallinta on tärkeää yrityksen taloudellisen tilanteen yleiskuvan kannalta. Myöhästyneen maksun ennusteen laajennus voi auttaa avointen myyntisaamisten vähentämisessä ja perintästrategian tarkentamisessa ennustamalla, maksetaanko myyntilaskut ajoissa. Jos maksun ennustetaan olevan myöhässä, voit esimerkiksi muuttaa asiakkaan maksuehtoja tai maksutapaa.
@@ -30,7 +30,7 @@ Voit ottaa laajennuksen käyttöön manuaalisesti seuraavasti:
 2. Täytä tarvittavat kentät.
 
 > [!Note]
-> Jos päätät ottaa laajennuksen käyttöön manuaalisesti, ota huomioon, että [!INCLUDE[d365fin](includes/d365fin_md.md)] ei mahdollista tätä, jos mallin laatu on heikko. Mallin laatu osoittaa, miten tarkkoja mallin ennusteista tulee. Useat tekijät voivat vaikuttaa mallin laatuun. Tietoja ei esimerkiksi ole riittävästi tai tiedoissa ei ollut riittävästi muunnoksia. Voit tarkastella tällä hetkellä käytössä olevan mallin laatua **Myöhästyneen maksun ennusteen asetus** -sivulla. Voit myös määrittää mallin laadulle vähimmäisrajan.   
+> Jos päätät ottaa laajennuksen käyttöön manuaalisesti, ota huomioon, että [!INCLUDE[prod_short](includes/prod_short.md)] ei mahdollista tätä, jos mallin laatu on heikko. Mallin laatu osoittaa, miten tarkkoja mallin ennusteista tulee. Useat tekijät voivat vaikuttaa mallin laatuun. Tietoja ei esimerkiksi ole riittävästi tai tiedoissa ei ollut riittävästi muunnoksia. Voit tarkastella tällä hetkellä käytössä olevan mallin laatua **Myöhästyneen maksun ennusteen asetus** -sivulla. Voit myös määrittää mallin laadulle vähimmäisrajan.   
 
 ## <a name="viewing-all-payment-predictions"></a>Kaikkien maksujen ennusteiden tarkasteleminen
 Jos otat käyttöön laajennuksen, **Maksut, joiden on ennustettu olevan myöhässä** -ruutu on käytettävissä **liiketoimintajohtajan** roolikeskuksessa. Ruudussa on niiden maksujen määrä, joiden ennustetaan olevan myöhässä. Sen avulla voit avata **Asiakastapahtumat**-sivun, jossa on lisätietoja kirjatuista laskuista. Kiinnitä huomiota seuraaviin kolmeen sarakkeeseen:  
@@ -49,7 +49,7 @@ Voit ennustaa myöhäiset maksut myös etukäteen. Voit käyttää **Myyntitarjo
 On the **Late Payment Prediction Setup** page you can schedule updates to payment predictions for a time that is convenient for you. -->
 
 ## <a name="design-details"></a>Rakennetiedot
-Microsoft ottaa käyttöön ja käyttää ennustavia verkkopalveluja kaikilla alueilla, joissa [!INCLUDE[d365fin](includes/d365fin_md.md)] on saatavilla. Näiden verkkopalveluiden käyttö sisältyy [!INCLUDE[d365fin](includes/d365fin_md.md)] -tilaukseen. Lisätietoja on Microsoft Dynamics 365 Business Centralin käyttöoikeusoppaassa. Opas on ladattavissa [Business Centralin](https://dynamics.microsoft.com/en-us/business-central/overview/) verkkosivulla.
+Microsoft ottaa käyttöön ja käyttää ennustavia verkkopalveluja kaikilla alueilla, joissa [!INCLUDE[prod_short](includes/prod_short.md)] on saatavilla. Näiden verkkopalveluiden käyttö sisältyy [!INCLUDE[prod_short](includes/prod_short.md)] -tilaukseen. Lisätietoja on Microsoft Dynamics 365 Business Centralin käyttöoikeusoppaassa. Opas on ladattavissa [Business Centralin](https://dynamics.microsoft.com/en-us/business-central/overview/) verkkosivulla.
 
 Verkkopalvelut toimivat kolmessa seuraavassa tilassa:
 - Koulutusmalli. Verkkopalvelu kouluttaa mallia annetun tietojoukon perusteella.
@@ -82,13 +82,13 @@ Lisäksi tietueeseen on lisätty koostetut tiedot muista samaan asiakkaaseen lii
 > Asiakkaan tietoja ei ole lisätty tietojoukkoon.
 
 ### <a name="standard-model-and-my-model"></a>Vakiomalli ja oma malli
-Myöhästyneen maksun ennusteen laajennus käyttää ennakoivaa mallia, jonka kehittämisessä on käytetty pienten ja keskikokoisten yritysten tietoja vastaavia tietoja. Kun käynnistät laskujen kirjaamisen ja maksujen vastaanottamisen, [!INCLUDE[d365fin](includes/d365fin_md.md)] arvioi, vastaako vakiomalli liiketoimintaprosessiasi. 
+Myöhästyneen maksun ennusteen laajennus käyttää ennakoivaa mallia, jonka kehittämisessä on käytetty pienten ja keskikokoisten yritysten tietoja vastaavia tietoja. Kun käynnistät laskujen kirjaamisen ja maksujen vastaanottamisen, [!INCLUDE[prod_short](includes/prod_short.md)] arvioi, vastaako vakiomalli liiketoimintaprosessiasi. 
 
-Jos näyttää siltä, että prosessit eivät vastaa vakiomallia, voit yhä käyttää laajennusta, mutta sinun täytyy hakea lisää dataa. Vain jatkaa [!INCLUDE[d365fin](includes/d365fin_md.md)]:n käyttämistä.
+Jos näyttää siltä, että prosessit eivät vastaa vakiomallia, voit yhä käyttää laajennusta, mutta sinun täytyy hakea lisää dataa. Vain jatkaa [!INCLUDE[prod_short](includes/prod_short.md)]:n käyttämistä.
 > [!Note]
 > Microsoft käyttää joka viikko hieman laskenta-aikaa, kun malli arvioidaan ja sitä koulutetaan lisää. 
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] suorittaa koulutuksen ja arvioimisen automaattisesti, kun maksettuja ja myöhässä olevia laskuja on riittävästi saatavilla. Halutessasi voit suorittaa nämä manuaalisesti milloin tahansa.
+[!INCLUDE[prod_short](includes/prod_short.md)] suorittaa koulutuksen ja arvioimisen automaattisesti, kun maksettuja ja myöhässä olevia laskuja on riittävästi saatavilla. Halutessasi voit suorittaa nämä manuaalisesti milloin tahansa.
 
 #### <a name="to-train-and-use-your-model"></a>Mallin kouluttaminen ja käyttäminen
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myöhästyneen maksun ennusteen asetus** ja valitse sitten liittyvä linkki.  
@@ -110,4 +110,4 @@ Voit myös luoda oman ennakoivan verkkopalvelun **Dynamics 365 Business Centrali
 ## <a name="see-also"></a>Katso myös  
 [Azure Machine Learning Studio -dokumentaatio](https://go.microsoft.com/fwlink/?linkid=861765)  
 [Business Central -sovelluksen mukauttaminen laajennusten avulla](ui-extensions.md)  
-[Tervetuloa [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]iin!](index.md)  
+[Tervetuloa [!INCLUDE[prod_long](includes/prod_long.md)]iin!](index.md)  

@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: online printing
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5bc01e711be7d05205362536f4b44a5dbfc4aa2c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e088d13ead96111023df7781f0d6d1c1dcd58cfc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915991"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760290"
 ---
 # <a name="set-up-printers"></a>Tulostimien määrittäminen
-Koska [!INCLUDE[prodshort](includes/prodshort.md)] on pilvipalvelu, se ei voi käyttää paikallisia tulostimia, jotka on yhdistetty käyttäjien koneisiin. Se voi kuitenkin muodostaa yhteyden pilvipalveluun yhteensopiviin tulostimiin. Sovelluksen [!INCLUDE[prodshort](includes/prodshort.md)] yleisessä versiossa pilvitulostin nimeltä **Sähköpostitulostin** asennetaan laajennuksena. Se on käyttövalmis alkuasetusten jälkeen.
+Koska [!INCLUDE[prod_short](includes/prod_short.md)] on pilvipalvelu, se ei voi käyttää paikallisia tulostimia, jotka on yhdistetty käyttäjien koneisiin. Se voi kuitenkin muodostaa yhteyden pilvipalveluun yhteensopiviin tulostimiin. Sovelluksen [!INCLUDE[prod_short](includes/prod_short.md)] yleisessä versiossa pilvitulostin nimeltä **Sähköpostitulostin** asennetaan laajennuksena. Se on käyttövalmis alkuasetusten jälkeen.
 
 Jos pilvitulostinta ei ole asennettu ja määritetty tai jos asennettu tulostin ei toimi kunnolla, tulostuksessa käytetään selaimen tulostusasetusten oletustulostinta. Tämä osoitetaan tällä arvolla **Tulostin**-kentässä raportin pyyntösivulla: *(ei mitään, selain käsittelee)*.
 
@@ -59,7 +59,7 @@ Noudata varovaisuutta tietoturva-asioissa. Varmista esimerkiksi, että sähköpo
 **Tulostinvalinnat**-sivulla voit määrittää käyttäjätilin ja kunkin tulostimen tulostamat raportit. Tämä on hyödyllistä, jos käytössä on raportteja, jotka vaativat eri tulostimien käyttämisen yrityksen sijoittelusta tai niiden tulostusominaisuuksista johtuen.
 
 > [!IMPORTANT]
-> [!INCLUDE[prodshort](includes/prodshort.md)]:n paikallista käyttöä varten **Tulostinvalinnat** -sivua voi käyttää vain tulostimen laajennusten määrittelemien tulostimien osalta. Sitä ei voi käyttää paikallisissa tulostimissa.
+> [!INCLUDE[prod_short](includes/prod_short.md)]:n paikallista käyttöä varten **Tulostinvalinnat** -sivua voi käyttää vain tulostimen laajennusten määrittelemien tulostimien osalta. Sitä ei voi käyttää paikallisissa tulostimissa.
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tulostinvalinnat** ja valitse sitten liittyvä linkki. Vaihtoehtoisesti voit valita **Tulostimen hallinta** -sivulla tulostimen ja valita sitten **Tulostinvalinnat**-toiminnon.
 2. Valitse **Uusi**-toiminto, jos haluat lisätä tulostinvalinnan tiettyä raporttia varten.
@@ -88,6 +88,6 @@ Sinä tai järjestelmänvalvoja voitte käyttää myös **Tulostinvalinnat**-siv
 
 ## <a name="see-also"></a>Katso myös
 [Raportin tulostaminen](ui-work-report.md#PrintReport)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Eräajojen ajaminen](ui-how-run-batch-jobs.md)  
 [Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md)  

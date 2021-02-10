@@ -10,16 +10,16 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.service: dynamics365-business-central
-ms.openlocfilehash: b44044b9ec2c71ad3b99f25b4a941a3ab473ca4f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a29b2ea19d812d60d2824c131e311c34d74612af
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912019"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760209"
 ---
 # <a name="troubleshooting-accessing-camera-and-location"></a>Vian etsintä: kameran ja sijainnin käyttäminen
 
-Saatat törmätä joihinkin ongelmiin, kun yrität käyttää laitteen kameraa ja sijaintitietoja kohteesta [!INCLUDE[prodshort](includes/prodshort.md)]. Löydät mahdolliset syyt näiden ongelmien takana ja voit kiertää ne alla olevien ohjeiden avulla.
+Saatat törmätä joihinkin ongelmiin, kun yrität käyttää laitteen kameraa ja sijaintitietoja kohteesta [!INCLUDE[prod_short](includes/prod_short.md)]. Löydät mahdolliset syyt näiden ongelmien takana ja voit kiertää ne alla olevien ohjeiden avulla.
 
 ## <a name="device-must-have-camera-and-location-capabilities"></a>Laitteessa on oltava kamera- ja sijaintiominaisuudet
 
@@ -29,11 +29,11 @@ Jos laitteessa on kamera ja sijaintiominaisuudet, mutta ongelmia ilmenee edellee
 
 ## <a name="access-permissions-not-enabled"></a>Käyttöoikeuksia ei ole otettu käyttöön
 
-Sinun on otettava käyttöön kameran ja sijainnin yleinen käyttöoikeus laitteesi tietosuoja-asetuksista ja annettava niille eksplisiittisesti käyttöoikeus kohteeseen [!INCLUDE[prodshort](includes/prodshort.md)]. Jos haluat esimerkiksi tarkastella tai muuttaa Windowsissa suoritettavan laitteen käyttöoikeuksia, valitse **Asetukset**, valitse **Yksityisyys** ja valitse sitten **Sovelluksen käyttöoikeudet**. 
+Sinun on otettava käyttöön kameran ja sijainnin yleinen käyttöoikeus laitteesi tietosuoja-asetuksista ja annettava niille eksplisiittisesti käyttöoikeus kohteeseen [!INCLUDE[prod_short](includes/prod_short.md)]. Jos haluat esimerkiksi tarkastella tai muuttaa Windowsissa suoritettavan laitteen käyttöoikeuksia, valitse **Asetukset**, valitse **Yksityisyys** ja valitse sitten **Sovelluksen käyttöoikeudet**. 
 
-Mobiililaitteissa on annettava kameran ja sijainnin käyttöoikeudet [!INCLUDE[prodshort](includes/prodshort.md)] -mobiilisovellukselle. Voit tehdä tämän iOS-laitteessa siirtymällä kohtaan **Asetukset**, valitsemalla **Yksityisyys** ja sitten **Kamera** tai **Sijainti**. Jos kyseessä on Android-laite, siirry kohtaan **Asetukset**, valitse **Sovellukset & ilmoitukset**, **Lisäasetukset**, **Käyttöoikeuksien hallinta** ja sitten **Kamera** tai **Sijainti**.
+Mobiililaitteissa on annettava kameran ja sijainnin käyttöoikeudet [!INCLUDE[prod_short](includes/prod_short.md)] -mobiilisovellukselle. Voit tehdä tämän iOS-laitteessa siirtymällä kohtaan **Asetukset**, valitsemalla **Yksityisyys** ja sitten **Kamera** tai **Sijainti**. Jos kyseessä on Android-laite, siirry kohtaan **Asetukset**, valitse **Sovellukset & ilmoitukset**, **Lisäasetukset**, **Käyttöoikeuksien hallinta** ja sitten **Kamera** tai **Sijainti**.
 
-Lisäksi jos käytät [!INCLUDE[prodshort](includes/prodshort.md)] -sivustoa selaimessa, sinun täytyy myös myöntää [!INCLUDE[prodshort](includes/prodshort.md)] -sivustolle oikeus käyttää kameraa tai sijaintitietojasi. Jos haluat tarkastella tai muuttaa sivustojen käyttö oikeuksia Microsoft Edge -selaimessa, mene kohtaan **Asetukset**, valitse **Sivustojen käyttöoikeudet** ja valitse sitten **Kamera** tai **Sijainti**. Huomaa, että tämä voi olla erilainen muissa selaimissa.
+Lisäksi jos käytät [!INCLUDE[prod_short](includes/prod_short.md)] -sivustoa selaimessa, sinun täytyy myös myöntää [!INCLUDE[prod_short](includes/prod_short.md)] -sivustolle oikeus käyttää kameraa tai sijaintitietojasi. Jos haluat tarkastella tai muuttaa sivustojen käyttö oikeuksia Microsoft Edge -selaimessa, mene kohtaan **Asetukset**, valitse **Sivustojen käyttöoikeudet** ja valitse sitten **Kamera** tai **Sijainti**. Huomaa, että tämä voi olla erilainen muissa selaimissa.
 
 Oletusarvon mukaan laite tai selain näyttää pyynnön käyttää näitä ominaisuuksia, kun käyttäjä aktivoi ne ensimmäisen kerran.
 
@@ -49,7 +49,7 @@ Ainoa poikkeus on yhteyden muodostus kohteeseen `http://localhost`, jota käytet
 
 ## <a name="working-with-virtualization-technologies"></a>Virtualisointitekniikoiden käyttäminen
 
-Kun muodostat yhteyden kohteeseen [!INCLUDE[prodshort](includes/prodshort.md)] etätyöpöydän tai muun virtualisoinnin kautta, kameran tai sijainnin käyttö ei välttämättä ole käytettävissä. Käytä tässä tapauksessa fyysistä järjestelmää sen sijaan.
+Kun muodostat yhteyden kohteeseen [!INCLUDE[prod_short](includes/prod_short.md)] etätyöpöydän tai muun virtualisoinnin kautta, kameran tai sijainnin käyttö ei välttämättä ole käytettävissä. Käytä tässä tapauksessa fyysistä järjestelmää sen sijaan.
 
 ## <a name="antivirus-software"></a>Virustentorjuntaohjelmisto
 Jotkin virustentorjuntaohjelmat estävät oletusarvoisesti kameran ja sijainnin käytön. Muista tarkistaa virustentorjuntaohjelman asetukset.

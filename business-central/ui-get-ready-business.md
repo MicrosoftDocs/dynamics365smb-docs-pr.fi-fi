@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 439280317792e4baedba18c5a4f05b8eab440921
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 188672083fabd15bc7c1758459fc1ebd7b65a409
+ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912174"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "4816977"
 ---
 # <a name="getting-ready-for-doing-business"></a>Valmistautuminen liiketoimintaan
 
-Olet juuri aloittanut ensimmäisen yrityksen [!INCLUDE[d365fin](includes/d365fin_md.md)]issa.
+Olet juuri aloittanut ensimmäisen yrityksen [!INCLUDE[prod_short](includes/prod_short.md)]issa.
 
 Pääset liiketoiminnassa alkuun tutustumalla **Asetusten ohjattu määritys** -sivuun, jossa voit käynnistää avustettuja asennusoppaita, videoita tai valittujen asennustehtävien ohjeaiheita. Voit käyttää sivua yksinkertaisesti valitsemalla ![Hammaspyöräkuvake Asetukset-valikon avaamista varten](media/ui-experience/settings_icon_small.png) -kuvakkeen ja sitten **Asetusten ohjattu määritys** -toiminnon.
 
@@ -27,7 +27,7 @@ Vaihtoehtoisesti voit avata minkä tahansa roolin asetusten ohjattujen määrity
 
 Kun olet siirtänyt olemassa olevasta taloustietojen järjestelmästä tiedot, kuten toimittajat, asiakkaat ja nimikkeet, olet valmis aloittamaan. Voit käyttää tarvittaessa myös luettelon jotain toista avustetun asennuksen opasta.
 
-Jos alue ei kuulu asetusten ohjattuun määritykseen, valitse ![Hammaspyöräkuvake Asetukset-valikon avaamista varten](media/ui-experience/settings_icon_small.png) -kuvake ja valitse sitten **Lisäasetukset**-toiminto. **Lisäasetuksissa** **Manuaalinen asetus** -osassa on asetussivujen käyttömahdollisuus. Siellä voit täyttää asetuskentät kaikille alueille manuaalisesti. Lisätietoja on myös kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittäminen](setup.md)
+Jos alue ei kuulu asetusten ohjattuun määritykseen, valitse ![Hammaspyöräkuvake Asetukset-valikon avaamista varten](media/ui-experience/settings_icon_small.png) -kuvake ja valitse sitten **Lisäasetukset**-toiminto. **Lisäasetuksissa** **Manuaalinen asetus** -osassa on asetussivujen käyttömahdollisuus. Siellä voit täyttää asetuskentät kaikille alueille manuaalisesti. Lisätietoja on myös kohdassa [[!INCLUDE[prod_short](includes/prod_short.md)]in määrittäminen](setup.md)
 
 > [!NOTE]  
 > Käytettävissä olevien asetusten ohjattujen määritysoppaiden, laajennusten ja palvelujen luettelo vaihtelee yritykselle valitun käyttäjäkokemuksen mukaan. **Essential**-kokemuksen valikoima on suppeampi kuin **Premium**-kokemuksen valikoima.
@@ -49,7 +49,7 @@ Nuolten avulla voit supistaa osan sivusta, jolloin haluamillesi tiedoille jää 
 
 ## <a name="company-information"></a>Yrityksen tiedot
 
-Voit tarkastella ja muokata **Yrityksen asetukset** -kohdassa nykyisen yrityksen asetustietoja, joista suuri osa on esitäytetty, jos suoritit avustetun **Määritä yritys** -asennuksen [!INCLUDE[d365fin](includes/d365fin_md.md)]iin rekisteröityessäsi. Voit muuttaa tällä sivulla yrityksen logoa, yhteystietoja, pankkiasetuksia tai verotustietoja.  
+Voit tarkastella ja muokata **Yrityksen asetukset** -kohdassa nykyisen yrityksen asetustietoja, joista suuri osa on esitäytetty, jos suoritit avustetun **Määritä yritys** -asennuksen [!INCLUDE[prod_short](includes/prod_short.md)]iin rekisteröityessäsi. Voit muuttaa tällä sivulla yrityksen logoa, yhteystietoja, pankkiasetuksia tai verotustietoja.  
 
 ## <a name="adding-users-and-permissions"></a>Käyttäjien ja käyttöoikeuksien lisäämisen
 
@@ -59,7 +59,7 @@ Kun käyttäjät on luotu Microsoft 365:ssä, heidät voidaan tuoda **Käyttäj�
 
 ## <a name="getting-help"></a>Ohjeiden saaminen
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]issa on työkaluvihjeitä, jotka auttavat eri liiketoimintaprosessien suorittamisessa. Voit avata kyseisen sivun ohjeen kentän työkaluvihjeessä valitsemalla **Lisätietoja**-linkin. Avaa kyseisen sivun ohje käyttämällä näppäimistön Ctrl+F1-näppäimiä. Oikeassa yläkulmassa oleva kysymysmerkki avaa **Ohje ja tuki** -sivun, ja voit hakea sieltä myös tuoteapua.
+[!INCLUDE[prod_short](includes/prod_short.md)]issa on työkaluvihjeitä, jotka auttavat eri liiketoimintaprosessien suorittamisessa. Voit avata kyseisen sivun ohjeen kentän työkaluvihjeessä valitsemalla **Lisätietoja**-linkin. Avaa kyseisen sivun ohje käyttämällä näppäimistön Ctrl+F1-näppäimiä. Oikeassa yläkulmassa oleva kysymysmerkki avaa **Ohje ja tuki** -sivun, ja voit hakea sieltä myös tuoteapua.
 
 ## <a name="next-steps"></a>Seuraavat vaiheet
 
@@ -68,9 +68,9 @@ Voit jatkaa luomalla uusia myynti- tai ostoasiakirjoja siirrettyjen tietojen per
 ## <a name="see-also"></a>Katso myös
 
 [Käytön aloittaminen](product-get-started.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Käyttöoikeuksien määrittäminen käyttäjille ja ryhmille](ui-define-granular-permissions.md)  
-[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]Kokeilut ja tilaukset](across-preview.md)  
+[[!INCLUDE[prod_long](includes/prod_long.md)]Kokeilut ja tilaukset](across-preview.md)  
 [Ohje- ja tukiresurssit](product-help-and-support.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

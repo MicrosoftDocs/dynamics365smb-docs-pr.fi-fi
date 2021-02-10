@@ -11,15 +11,15 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: solsen
-ms.openlocfilehash: cf2a64ef102dec16ad0df83e8c911e2b6c3bd88e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f525077069107e1365728aaaaf1e4791a250c6ee
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912119"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760365"
 ---
 # <a name="detecting-mandatory-fields"></a>Pakollisten kenttien havaitseminen
-Kun annat tietoja [!INCLUDE[d365fin](includes/d365fin_md.md)]in sivuilla, tietyt kentät on merkitty punaisella tähdellä. Punainen tähti tarkoittaa, että kenttä on täytettävä, jotta tietty kenttää käyttävä prosessi voidaan suorittaa, kuten kentässä olevaa arvoa käyttävän tapahtuman kirjaus.
+Kun annat tietoja [!INCLUDE[prod_short](includes/prod_short.md)]in sivuilla, tietyt kentät on merkitty punaisella tähdellä. Punainen tähti tarkoittaa, että kenttä on täytettävä, jotta tietty kenttää käyttävä prosessi voidaan suorittaa, kuten kentässä olevaa arvoa käyttävän tapahtuman kirjaus.
 
 Vaikka kentässä on punainen tähti, et joudu täyttämään kenttää ennen kuin jatkat muihin kenttiin tai suljet sivun. Punainen tähti toimii vain muistutuksena siitä, että sinua estetään suorittamasta tiettyä prosessia.
 
@@ -29,4 +29,4 @@ Vaikka kentässä on punainen tähti, et joudu täyttämään kenttää ennen ku
 **Nimikkeen kortti** -sivun **Kuvaus**-kentässä näkyvä punainen tähti osoittaa sen, että et voi kirjoittaa nimikettä asiakirjariville, kuten myyntitilaukseen, jos tätä kenttää ole täytetty.
 
 ## <a name="see-also"></a>Katso myös
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)

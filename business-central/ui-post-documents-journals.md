@@ -11,17 +11,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2ffba43c94a02a8bf31a09f4705b0f24312e3c17
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 1a378d4b5a93d1397512739cce898fe7566707c8
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912044"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760390"
 ---
 # <a name="posting-documents-and-journals"></a>Asiakirjojen ja päiväkirjojen kirjaaminen
 Kirjaaminen on kirjanpitotoiminto, jolla tallennetaan liiketoimintatapahtumia erilaisiin yrityksen päiväkirjoihin.
 
-Lähes kaikissa [!INCLUDE[d365fin](includes/d365fin_md.md)]in asiakirjoissa ja päiväkirjoissa on **Kirjaus**-ryhmä, jossa voit valita kirjaustoiminnon, kuten **Kirjaa**, **Esikatsele kirjausta**, **Kirjaa ja lähetä** ja **Kirjaa ja lähetä sähköpostitse**.
+Lähes kaikissa [!INCLUDE[prod_short](includes/prod_short.md)]in asiakirjoissa ja päiväkirjoissa on **Kirjaus**-ryhmä, jossa voit valita kirjaustoiminnon, kuten **Kirjaa**, **Esikatsele kirjausta**, **Kirjaa ja lähetä** ja **Kirjaa ja lähetä sähköpostitse**.
 
 Seuraavassa taulukossa esitellään liittyvät tehtävät ja linkit tehtäviä kuvaaviin aiheisiin.
 
@@ -37,4 +37,4 @@ Seuraavassa taulukossa esitellään liittyvät tehtävät ja linkit tehtäviä k
 ## <a name="see-also"></a>Katso myös
 [Kirjattujen asiakirjojen muokkaaminen](across-edit-posted-document.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)

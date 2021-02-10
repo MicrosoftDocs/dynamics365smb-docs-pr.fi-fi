@@ -10,21 +10,21 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 114124fa73c0de1ec45efedd913ea7ffe3439a57
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 89ee34bac855e40bc44f1e32764968cfd36324a9
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923318"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760115"
 ---
 # <a name="business-process-walkthroughs"></a>Liiketoimintaprosessien vaihekuvaukset
 
 Näissä vaihekuvauksissa käsitellään yksityiskohtaisesti ja kattavasti liiketoimintaprosesseja, joita voi käyttää CRONUS Finland Oy -esittely-yrityksen avulla. Vaihekuvaukset koostuvat useista toimenpiteistä, joista osan voi normaalisti suorittaa yksi käyttäjä, kun taas muihin liittyy useita erilaisia käyttäjärooleja. Jotta työympäristöstä saadaan asianmukainen, vaihekuvaukset voivat sisältää erityisiä määritysvaiheita. Ne täytyy suorittaa ohjeiden mukaisesti ennen harjoitusten tekemistä. Nämä vaiheet voivat antaa käsityksen siitä, millaisia tietoja käyttäjien on kerrottava yrityksensä tietotekniikan ammattilaisille.  
 
- Näiden vaihekuvausten tilanteet ovat luonteeltaan kattavia, ja vaihekuvauksista onkin eniten hyötyä, kun niissä esitetyt toimet suoritetaan alusta loppuun. Monet kuvaukset perustuvat [!INCLUDE[d365fin](includes/d365fin_md.md)] -esittelyihin, ja voit kokeilla toimintaohjeita sinulle sopivaan tahtiin.  
+ Näiden vaihekuvausten tilanteet ovat luonteeltaan kattavia, ja vaihekuvauksista onkin eniten hyötyä, kun niissä esitetyt toimet suoritetaan alusta loppuun. Monet kuvaukset perustuvat [!INCLUDE[prod_short](includes/prod_short.md)] -esittelyihin, ja voit kokeilla toimintaohjeita sinulle sopivaan tahtiin.  
 
 > [!NOTE]
-> Joissakin vaihekuvauksissa tarvitaan näytetietoja, joita ei ole saatavana [!INCLUDE[prodshort](includes/prodshort.md)]in oletusesittely-yrityksessä. Lisätietoja on kohdassa [Täydelliset näytetiedot sisältävän yrityksen luonti eristysympäristössä](across-how-create-sandbox-environment.md#to-create-a-company-with-complete-sample-data-in-a-sandbox).
+> Joissakin vaihekuvauksissa tarvitaan näytetietoja, joita ei ole saatavana [!INCLUDE[prod_short](includes/prod_short.md)]in oletusesittely-yrityksessä. Lisätietoja on kohdassa [Täydelliset näytetiedot sisältävän yrityksen luonti eristysympäristössä](across-how-create-sandbox-environment.md#to-create-a-company-with-complete-sample-data-in-a-sandbox).
 
 |Tehtävä|Katso|  
 |--------|---------|  
@@ -44,6 +44,6 @@ Näissä vaihekuvauksissa käsitellään yksityiskohtaisesti ja kattavasti liike
 
 ## <a name="see-also"></a>Katso myös
 
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

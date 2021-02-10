@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 72c947263ccf736d9432c52b6256868ad346ad09
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 219c1fcf1d4929a548f9a8d5849dde77f1c0b24a
+ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918723"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "5024585"
 ---
 # <a name="setting-up-purchasing"></a>Ostojen määrittäminen
 Ennen ostoprosessien hallinnan aloittamista on määritettävä yrityksen ostokäytäntöjen säännöt ja arvot.
@@ -32,6 +32,7 @@ Maksumenetelmiä ja valuuttoja sekä muita rahoitukseen liittyviä ostoasetuksia
 | Toimittajien nimikkeiden, määrien ja/tai päivämäärien perusteella myöntäminen eri alennusten ja erikoishintojen antaminen |[Ostohinnan, alennuksen ja maksusopimusten tallentaminen](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
 | Toimittajien priorisointi |[Toimittajien priorisointi](purchasing-how-prioritize-vendors.md) |
 | Ostajien määrittäminen |[Ostajien määrittäminen](purchasing-how-setup-purchasers.md) |
+|Määritä oletusraportteja, joita käytetään eri asiakirjatyypeille.|[Raporttien valinta Business Centralissa](across-report-selections.md)|
 
 > [!TIP]
 > Maantieteellinen sijaintisi mukaan jotkin sivut voivat sisältää kenttiä, joita ei ole kuvattu tässä luettelossa, koska ne koskevat paikallisia toimintoja tai mukautuksia. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
@@ -41,4 +42,4 @@ Maksumenetelmiä ja valuuttoja sekä muita rahoitukseen liittyviä ostoasetuksia
 ## <a name="see-also"></a>Katso myös
 
 [Osto](purchasing-manage-purchasing.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)

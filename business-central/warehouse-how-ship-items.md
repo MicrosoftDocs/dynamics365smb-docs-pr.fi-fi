@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0ff9dd0851b220b9e3e4888e43ffa070397b8943
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8e5a9c93315c1bc199dbcbfe9076c01828524e96
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911919"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759940"
 ---
 # <a name="ship-items"></a>Nimikkeiden toimittamimen
 
@@ -38,7 +38,7 @@ Seuraavaksi käsitellään, miten nimikkeitä lähetetään myyntitilauksesta. V
 4. Valitse **Kirjaa**-toiminto.
 
 > [!NOTE]
-> Jos organisaatio ei käytä myyntitilauksia, [!INCLUDE [prodshort](includes/prodshort.md)] olettaa, että koko määrä on lähetetty, kun kirjaat myyntilaskun. Jos tämä on ristiriidassa organisaation toimintatavan kanssa, kannattaa käyttää myyntitilauksia ja rekisteröidä toimitukset tässä artikkelissa kuvatulla tavalla.
+> Jos organisaatio ei käytä myyntitilauksia, [!INCLUDE [prod_short](includes/prod_short.md)] olettaa, että koko määrä on lähetetty, kun kirjaat myyntilaskun. Jos tämä on ristiriidassa organisaation toimintatavan kanssa, kannattaa käyttää myyntitilauksia ja rekisteröidä toimitukset tässä artikkelissa kuvatulla tavalla.
 
 ## <a name="to-ship-items-with-a-warehouse-shipment"></a>Nimikkeiden toimittaminen fyysisen varasto toimituksena
 
@@ -46,7 +46,7 @@ Luo ensin toimitusasiakirjan lähdeasiakirjasta. Poimi sitten toimitukseen mää
 
 ### <a name="to-create-a-warehouse-shipment"></a>Fyysisen varaston toimituksen luominen
 
-Yleensä toimituksesta vastaava työntekijä luo fyysisen varastoinnin toimituksen. Seuraavaksi kuvataan tapa, jolla luodaan toimitus manuaalisesti [!INCLUDE[prodshort](includes/prodshort.md)]in oletusversiossa, mutta organisaatio on voinut myös automatisoida osan prosessista käyttämällä esimerkiksi ulkoisten palveluntarjoajien tukemia kannettavia tai kiinteitä skannereita.  
+Yleensä toimituksesta vastaava työntekijä luo fyysisen varastoinnin toimituksen. Seuraavaksi kuvataan tapa, jolla luodaan toimitus manuaalisesti [!INCLUDE[prod_short](includes/prod_short.md)]in oletusversiossa, mutta organisaatio on voinut myös automatisoida osan prosessista käyttämällä esimerkiksi ulkoisten palveluntarjoajien tukemia kannettavia tai kiinteitä skannereita.  
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Fyysisen varaston toimitukset** ja valitse sitten liittyvä linkki.  
 2. Valitse **Uusi**-toiminto.  
@@ -105,7 +105,7 @@ Lisätietoja poiminnasta fyysisen varaston toimituksia varten on kohdassa [Nimik
 Voit tehdä useista poimintaohjeista yhden ohjeen (useille toimituksille) myös poimintatyökirjan avulla. Näin poiminta tehostuu fyysisessä varastossa. Lisätietoja on kohdassa [Poimintojen suunnitteleminen työkirjassa](warehouse-how-to-plan-picks-in-worksheets.md).
 
 > [!NOTE]
-> Jos odotat tiettyjen nimikkeiden saapumista fyysiseen varastoon ja käytät laiturointitoimintoa, [!INCLUDE[d365fin](includes/d365fin_md.md)] laskee kullekin toimituksen tai poimintatyökirjan riville laiturointivarastopaikassa olevan nimikkeen määrän. Ohjelma päivittää kentän aina, kun lähdet toimituksesta tai työkirjasta ja kun avaat toimitusasiakirjan tai työkirjan. Lisätietoja on kohdassa [Nimikkeiden laiturointi](warehouse-how-to-cross-dock-items.md).
+> Jos odotat tiettyjen nimikkeiden saapumista fyysiseen varastoon ja käytät laiturointitoimintoa, [!INCLUDE[prod_short](includes/prod_short.md)] laskee kullekin toimituksen tai poimintatyökirjan riville laiturointivarastopaikassa olevan nimikkeen määrän. Ohjelma päivittää kentän aina, kun lähdet toimituksesta tai työkirjasta ja kun avaat toimitusasiakirjan tai työkirjan. Lisätietoja on kohdassa [Nimikkeiden laiturointi](warehouse-how-to-cross-dock-items.md).
 
 ## <a name="see-also"></a>Katso myös
 
@@ -114,4 +114,4 @@ Voit tehdä useista poimintaohjeista yhden ohjeen (useille toimituksille) myös 
 [Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md)  
 [Kokoonpanon hallinta](assembly-assemble-items.md)  
 [Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  

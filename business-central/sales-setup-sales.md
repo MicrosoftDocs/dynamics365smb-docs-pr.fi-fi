@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: trade, sell, configure
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b7eb82e5fc3dc20449f3fc8352fbda4e80372a20
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 83b27cbc0b1ddfe3114995218bc29c282d3508ca
+ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910428"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "5024360"
 ---
 # <a name="setting-up-sales"></a>Myynnin määrittäminen
 Ennen myyntiprosessien hallinnan aloittamista on määritettävä yrityksen myyntikäytäntöjen säännöt ja arvot.
@@ -37,9 +37,10 @@ Maksumenetelmiä ja valuuttoja sekä muita rahoitukseen liittyviä myyntiasetuks
 |Tarkista ALV-rekisteröintinumero EU:n verkkopalvelun avulla.|[ALV-rekisterinumeroiden tarkistaminen](finance-setup-vat.md)|
 |Määritä erilaiset incoterms-toimituslausekkeet, joita tarjoat asiakkaille tai joita toimittajat tarjoavat sinulle.|[Toimitusehtojen määrittäminen](sales-how-set-up-shipment-methods.md)|
 |Syötä käytettävien kuljetusliikkeiden tietoja, mukaan lukien linkki kuljetusliikkeiden kollinseurantapalveluun.|[Kuljetusliikkeiden määrittäminen](sales-how-to-set-up-shipping-agents.md)|
+|Määritä oletusraportteja, joita käytetään eri asiakirjatyypeille.|[Raporttien valinta Business Centralissa](across-report-selections.md)|
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
 [Myynti](sales-manage-sales.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)

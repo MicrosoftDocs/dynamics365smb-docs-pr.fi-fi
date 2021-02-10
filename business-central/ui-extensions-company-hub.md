@@ -1,6 +1,6 @@
 ---
-title: Yritystoiminnon käyttäminen | Microsoft-dokumentit
-description: Antaa tietoja Yritystoiminto -laajennuksesta.
+title: Yritystoiminnon käyttö
+description: Tietoja Business Centralin yritystoimintojen laajennuksesta, jonka avulla työskentelet useiden yritysten kesken.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,16 +10,16 @@ ms.workload: na
 ms. search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c7304e170ecb6f71c3d0c85a80bff7c14a268f54
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ec59a17d9a3a32e1c17cf6670f69bcc4077993aa
+ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927645"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5014123"
 ---
 # <a name="the-company-hub-for-business-central-extension"></a>Business Central -laajennuksen yritystoiminto
 
-Tämä sovellus sisältää koontinäytön, jossa on yhteenvetotiedot jokaisesta yrityksestä, jolla käyttäjällä on pääsy kaikkiin [!INCLUDE [prodshort](includes/prodshort.md)] online-palveluihin, kuten kirjanpitäjän moniin asiakkaisiin. Kotisivu näyttää taloudelliset KPI:t sekä suoran linkin yksittäisiin ympäristöihin ja yrityksiin, jotta käyttäjät voivat.
+Tämä sovellus sisältää koontinäytön, jossa on yhteenvetotiedot jokaisesta yrityksestä, jolla käyttäjällä on pääsy kaikkiin [!INCLUDE [prod_short](includes/prod_short.md)] online-palveluihin, kuten kirjanpitäjän moniin asiakkaisiin. Kotisivu näyttää taloudelliset KPI:t sekä suoran linkin yksittäisiin ympäristöihin ja yrityksiin, jotta käyttäjät voivat.
 
 Koontinäyttö on erikoistunut roolikeskus, jonka kautta saa hyvän kokonaiskuvan projekteista.
 
@@ -27,7 +27,7 @@ Kun laajennus asennetaan ensimmäisen kerran, pääset alkuun malliyrityksen avu
 
 ## <a name="installing-the-extension"></a>Laajennuksen asentaminen
 
-Kun olet asentanut laajennuksen [!INCLUDE [prodshort](includes/prodshort.md)]iin, sinulta kysytään, haluatko käyttää sitä heti. Jos haluat aloittaa käytön heti, sinun on kirjauduttava ensin ulos ja sitten takaisin sisään, koska laajennus korvaa nykyisen roolikeskuksen ja lisää käyttöoikeudet käyttäjäprofiiliisi.
+Kun olet asentanut laajennuksen [!INCLUDE [prod_short](includes/prod_short.md)]iin, sinulta kysytään, haluatko käyttää sitä heti. Jos haluat aloittaa käytön heti, sinun on kirjauduttava ensin ulos ja sitten takaisin sisään, koska laajennus korvaa nykyisen roolikeskuksen ja lisää käyttöoikeudet käyttäjäprofiiliisi.
 
 ## <a name="see-also"></a>Katso myös .
 

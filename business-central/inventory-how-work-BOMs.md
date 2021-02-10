@@ -1,21 +1,20 @@
 ---
-title: Komponenttien hallinta tuoterakenteiden avulla| Microsoft Docs
+title: Komponenttien hallinta tuoterakenteiden avulla
 description: Kokoonpanon tai tuotannon tuoterakenteella voi määrittää komponentit tai resurssit, joita tarvitaan kyseisen tuoterakenteen nimikkeen kokoamiseen.
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2020
+ms.date: 01/05/2021
 ms.author: edupont
-ms.openlocfilehash: 4aa769c8a2b044f434a9643209eecb97f7f51f13
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c5d372c72d70c72f9c809fe6b3a05ed5b5528a8f
+ms.sourcegitcommit: cdba82235c0c07497bd04b9bd5134ef245d92c09
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919386"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "4838455"
 ---
 # <a name="work-with-bills-of-material"></a>Tuoterakenteen käyttäminen
 Tuoterakenteilla voi jäsentää päänimikkeet, jotka resurssien tai kuormituskeskusten on koottava tai tuotettava komponenteista. Kokoonpanon tuoterakennetta voidaan käyttää myös päänimikkeen myyntiin komponenteista koostuvana tuotepakettina.
@@ -89,11 +88,15 @@ Kaikki kokoonpanonimikkeen myyntilaskurivin kentät poistetaan **Nimike**- ja **
 > Myös **Poimintaluettelo tilauksen mukaan** -raportti muuttuu niin, että siinä näkyvät vain komponentit. Tämä tarkoittaa sitä, että varastotyöntekijä, joka poimii päänimikkeen, kokoonpanonimikkeen, ei näe sitä keräysluettelossa. Lisätietoja on kohdassa [Tulosta poimintaluettelo](sales-how-print-picking-list.md).
 
 ## <a name="to-calculate-the-standard-cost-of-an-assembly-item"></a>Kokoonpanonimikkeen vakiokustannusten laskeminen
+
 Lasket kokoonpano-nimikkeen yksikkökustannuksen vyöryttämällä jokaisen osan yksikkökustannuksen ja resurssin nimikkeen kokoonpanon tuoterakenteessa.
 
 Voit myös laskea ja päivittää yhden tai usean nimikkeen vakiokustannukset **Vakiokust. työkirja** -sivulla. Lisätietoja on kohdassa [Vakiokustannusten päivittäminen](finance-how-to-update-standard-costs.md).  
 
-Kokoonpanon tuoterakenteen yksikkökustannus on aina yhtä suuri kuin sen komponenttien (mukaan lukien muut kokoonpanon tuoterakenteet) ja mahdollisten resurssien yhteenlasketut yksikkökustannukset.
+Kokoonpanon tuoterakenteen yksikkökustannus on aina yhtä suuri kuin sen komponenttien (mukaan lukien muut kokoonpanon tuoterakenteet) ja mahdollisten resurssien yhteenlasketut yksikkökustannukset.  
+
+> [!NOTE]
+> [!INCLUDE [bom-standard-cost](includes/bom-standard-cost.md)]
 
 1. Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Nimikkeet** ja valitse sitten aiheeseen liittyvä linkki.
 2. Avaa kokoonpanonimikkeen kortti. (**Nimikkeet**-sivun **Kokoonpanon tuoterakenne** -kentässä on **Kyllä**.)
@@ -114,4 +117,4 @@ Kokoonpanon tuoterakenteen muodostavien nimikkeiden kustannukset kopioidaan osan
 [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md)  
 [Nimikkeiden saatavuuden tarkasteleminen](inventory-how-availability-overview.md)     
 [Varasto](inventory-manage-inventory.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)

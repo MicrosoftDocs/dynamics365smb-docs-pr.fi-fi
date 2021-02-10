@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 097a1853b671afe582e40446c43cd628d807dfc0
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 09819006540b6d88ecbc71c9db52a61da195a399
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918411"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035504"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Vaihekuvaus: pakettien myynti, kokoaminen ja toimitus
 
@@ -37,7 +37,7 @@ Kokoonpanon osat määrittää niiden täydennysjärjestelmä ja kokoonpanon tuo
 -   Kokoonpanon tuoterakenteen luominen, joka listaa kokoonpanon osat ja resurssin, joka siirtyy kokoonpanon nimikkeeseen.  
 
 ### <a name="selling-customized-assembly-items"></a>Mukautetun kokoonpanon nimikkeiden myynti  
-[!INCLUDE[d365fin](includes/d365fin_md.md)]issa voi kirjata joustavasti sekä varastomäärän että Kokoonpano tilausta varten -määrän yhdelle myyntitilausriville. Tässä osassa käsitellään seuraavia tehtäviä:  
+[!INCLUDE[prod_short](includes/prod_short.md)]issa voi kirjata joustavasti sekä varastomäärän että Kokoonpano tilausta varten -määrän yhdelle myyntitilausriville. Tässä osassa käsitellään seuraavia tehtäviä:  
 
 -   Puhtaan ATO-myyntitilausrivin luominen, jossa koko määrä ei ole käytettävissä ja on koottava ennen lähetystä.  
 -   ATO-kohteiden mukauttaminen.  
@@ -79,13 +79,16 @@ Tässä vaihekuvauksessa havainnollistetaan seuraavien käyttäjäroolien tehtä
 ## <a name="prerequisites"></a>Vaatimukset  
 Tee seuraavat toimet ennen tämän vaihekuvauksen tehtävien suorittamista:  
 
--   Asenna [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+-   Asenna [!INCLUDE[prod_short](includes/prod_short.md)].  
 -   Tee itsestäsi fyysisen varaston työntekijä VALKOISESSA sijainnissa tekemällä seuraavat toimet:  
 
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varastotyöntekijät** ja valitse sitten liittyvä linkki.  
 2.  Valitse ensin **Käyttäjätunnus**-kenttä ja valitse oma käyttäjätilisi **Käyttäjät**-sivulla.  
 3.  Kirjoita **Sijaintikoodi**-kenttään VALKOINEN.  
 4.  Valitse **Oletus**-kenttä.  
+
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
 Valmistele VALKOINEN-sijainti kokoonpanon käsittelyä varten seuraavasti:  
 

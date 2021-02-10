@@ -11,20 +11,20 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 2cca707134ec4072aa1e87206c8f78619164d450
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e952a988c314e2427c05b4370543ea390f8a90a9
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912172"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760590"
 ---
 # <a name="the-worldpay-payments-standard-extension"></a>WorldPay Payments Standard -laajennus
 WorldPay Payments Standard -laajennuksen ansiosta voit tarjota asiakkaille kätevän tavan tehdä maksuja pankkisiirtojen tai luottokorttien avulla. Lisäksi maksupalvelujen kautta tehdyt maksu myös saapuvat yleensä nopeammin pankkitilille.
 Jos otat laajennuksen käyttöön ja lähetät myyntilaskun tai -tilauksen sähköpostitse, asiakirjassa on linkki maksupalveluun sekä sähköpostin perustekstissä että liitetyssä PDF-asiakirjassa. Asiakas voi valita linkin ja tehdä sitten maksun maksupalvelun avulla.
 
-Maksupalvelulaajennukset voi ottaa maksutta käyttöön [!INCLUDE[d365fin](includes/d365fin_md.md)]issa. Tiliä varten on kuitenkin otettava yhteys maksupalveluun. Lisätietoja on kohdassa [Asiakkaan maksujen ottaminen käyttöön maksupalvelujen kautta](sales-how-enable-payment-service-extensions.md).
+Maksupalvelulaajennukset voi ottaa maksutta käyttöön [!INCLUDE[prod_short](includes/prod_short.md)]issa. Tiliä varten on kuitenkin otettava yhteys maksupalveluun. Lisätietoja on kohdassa [Asiakkaan maksujen ottaminen käyttöön maksupalvelujen kautta](sales-how-enable-payment-service-extensions.md).
 
 ## <a name="see-also"></a>Katso myös
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md)  
 [Myynnin määrittäminen](sales-setup-sales.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)

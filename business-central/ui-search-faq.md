@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: find
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: f7534d1e3365dd02b6f9f1afde03b5de76640e1a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7b880ef5cb49a02dcbb3973f87bc64eae48b2b3a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914883"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760240"
 ---
 # <a name="tell-me-faq"></a>Kerro, mitä haluat tehdä -toiminnon usein kysytyt kysymykset
 Tässä ohjeaiheessa vastataan kokeneiden käyttäjien Kerro, mitä haluat tehdä -ominaisuutta koskeviin usein kysyttyihin kysymyksiin.
@@ -32,7 +32,7 @@ Kerro, mitä haluat tehdä -toiminto kerää laajennusten toiminnot, sivut ja ra
 ### <a name="what-makes-this-different-from-what-was-previously-known-as-page-search"></a>Miksi tämä on erilainen kuin aiempi sivuhaku?
 Sivuhaku on kehittynyt Kerro, mitä haluat tehdä -toiminnoksi, jonka avulla työskentely on nopeampaa. Sivuhaku auttoi vain sivuihin ja raportteihin siirtymisessä. Teknisesti ottaen Kerro, mitä haluat tehdä ei enää perustu MenuSuite-käsitteeseen.
 
-### <a name="i-use-on-premises-d365fin-does-that-include-tell-me"></a>Käytän paikallista [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovellusta. Sisältääkö se Kerro, mitä haluat tehdä -toiminnon?
+### <a name="i-use-on-premises-prod_short-does-that-include-tell-me"></a>Käytän paikallista [!INCLUDE[prod_short](includes/prod_short.md)] -sovellusta. Sisältääkö se Kerro, mitä haluat tehdä -toiminnon?
 Voit käyttää Kerro, mitä haluat tehdä -toimintoa paikallisesti verkkoasiakasohjelmassa, kun haluat etsiä toimintoja, sivuja ja raportteja. Ohjeistusta tai sovelluksia ja konsultointipalveluja ei kuitenkaan voi etsiä sen avulla AppSourcessa.
 
 ### <a name="is-tell-me-available-for-all-form-factors"></a>Onko Kerro, mitä haluat tehdä -toiminto käytettävissä kaikissa laitemuodoissa?

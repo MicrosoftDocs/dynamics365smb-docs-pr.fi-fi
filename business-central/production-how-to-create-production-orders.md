@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f03bb162bc73d45068579a20bcdd90f632ede9de
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 76d4b69de41343815175a7acd4329bb47b889f5a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922742"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759365"
 ---
 # <a name="create-production-order-headers"></a>Tuotantotilausten otsikoiden luominen
 Tuotantotilauksen voi luoda manuaalisesti. Ensimmäinen työvaihe on tuotantotilauksen otsikon luominen.
@@ -42,4 +42,4 @@ Kun tuotannon vaatimukset, kuten komponentit tai toiminnot, muuttuvat, voit suun
 [Suunnittelu](production-planning.md)      
 [Varasto](inventory-manage-inventory.md)  
 [Osto](purchasing-manage-purchasing.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)

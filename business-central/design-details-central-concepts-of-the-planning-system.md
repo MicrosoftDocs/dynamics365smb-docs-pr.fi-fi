@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 76a25b3810c41d413c662d77bdcc72678bf8c59f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e916192ad9aa14ebcb254a140614b84091ddc922
+ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917499"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5013627"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Rakennetiedot: suunnittelujärjestelmän keskeiset käsitteet
-Suunnittelutoiminnot on sisällytetty eräajoon, joka ensin valitsee asiaankuuluvat nimikkeet ja ajanjaksot, jotka suunnitellaan. Eräajo kutsuu koodiyksikköä kunkin nimikkeen alatason koodin (tuotantorakenteen positio) mukaisesti ja laskee suunnitelman täsmäyttämällä tarjonta- ja kysyntäjoukot ja ehdottaa käyttäjälle mahdollisia toimintatapoja. Ehdotetut toimenpiteet ilmestyvät riveinä suunnittelutaulukkoon tai tilaustaulukkoon.  
+Suunnittelutoiminnot on sisällytetty eräajoon, joka ensin valitsee asiaankuuluvat nimikkeet ja ajanjaksot, jotka suunnitellaan. Eräajo kutsuu codeunitia kunkin nimikkeen alatason koodin (tuotantorakenteen positio) mukaisesti ja laskee suunnitelman täsmäyttämällä tarjonta- ja kysyntäjoukot ja ehdottaa käyttäjälle mahdollisia toimintatapoja. Ehdotetut toimenpiteet ilmestyvät riveinä suunnittelutaulukkoon tai tilaustaulukkoon.  
 
 ![Suunnittelutyökirja-sivun sisältö](media/NAV_APP_supply_planning_1_planning_worksheet.png "Suunnittelutyökirja-sivun sisältö")  
 
@@ -28,7 +28,7 @@ Suunnittelujärjestelmää ohjaa ennakoitu ja nykyinen asiakaskysyntä, kuten en
 
 Suunnittelujärjestelmän toinen tavoite on varmistaa, että varasto ei kasva tarpeettoman suureksi. Jos kysyntä vähenee, suunnittelujärjestelmä ehdottaa käyttäjälle olemassa olevien toimitustilausten lykkäämistä, pienentämistä tai peruuttamista.  
 
-Tarvelaskenta ja tuotanto-ohjelma, Laske nettomuutossuunnitelma ja Laske uudelleensuunnittelu ovat kaikki toimintoja yhdessä koodiyksikössä, joka sisältää suunnittelulogiikan. Tarjontasuunnitelman laskentaan liittyy kuitenkin eri alajärjestelmiä.  
+Tarvelaskenta ja tuotanto-ohjelma, Laske nettomuutossuunnitelma ja Laske uudelleensuunnittelu ovat kaikki toimintoja yhdessä codeunitissa, joka sisältää suunnittelulogiikan. Tarjontasuunnitelman laskentaan liittyy kuitenkin eri alajärjestelmiä.  
 
 Huomaa, että suunnittelujärjestelmä ei sisällä erityistä logiikkaa kapasiteetin tasaamisen tai aikataulun tarkentamiseen. Tämän vuoksi ajoitustyö suoritetaan erillisenä toimintona. Kahden alueen välisen yhteyden puuttuminen tarkoittaa myös sitä, että olennainen kapasiteetti tai aikataulumuutokset vaativat suunnitelmaan uudelleenajoa.  
 
@@ -49,7 +49,7 @@ Toisin sanoen se olettaa aiemman suunnitelman suorittamista määritetyn suunnit
 Lisätietoja on kohdassa [Tilausten käsittely ennen suunnittelun aloituspäivää](design-details-balancing-demand-and-supply.md#dealing-with-orders-before-the-planning-starting-date).  
 
 ## <a name="dynamic-order-tracking-pegging"></a>Dynaaminen tilausseuranta (tarvekohdistus)  
-Dynaaminen tilausseuranta, joka luo samanaikaisesti toimenpideviestit suunnittelutyökirjassa, ei ole osa tarjonnan suunnittelujärjestelmää [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmassa Tämä toiminto linkittää reaaliaikaisesti kysynnän ja määrät, jotka voisivat kattaa sen, jos uusi kysyntä tai tarjonta luodaan tai sitä muutetaan.  
+Dynaaminen tilausseuranta, joka luo samanaikaisesti toimenpideviestit suunnittelutyökirjassa, ei ole osa tarjonnan suunnittelujärjestelmää [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa Tämä toiminto linkittää reaaliaikaisesti kysynnän ja määrät, jotka voisivat kattaa sen, jos uusi kysyntä tai tarjonta luodaan tai sitä muutetaan.  
 
 Esimerkiksi, jos käyttäjä syöttää tai muuttaa myyntitilausta, dynaaminen tilausten seurantajärjestelmä etsii sopivan tarjonnan kysynnän kattamiseksi. Tämä voi olla lähtöisin varastosta tai odotetusta toimitustilauksesta (kuten osto- tai tuotantotilauksesta). Kun tarjonnan lähde löytyy, järjestelmä luo linkin kysynnän ja tarjonnan välille ja näyttää sen vain luku -tilassa olevilla sivuilla, joita voi käyttää asiaan kuuluvilta asiakirjariveiltä. Jos asianmukaista tarjontaa ei löydy, dynaaminen tilausten seurantajärjestelmä luo suunnittelutyökirjaan toimenpideviestejä, joiden tarjontasuunnitelman ehdotukset kuvaavat dynaamista täsmäytystä. Näin ollen dynaaminen tilausten seurantajärjestelmä tarjoaa hyvin yksinkertaisen suunnittelujärjestelmän, joka voi auttaa sekä suunnittelijaa että muita rooleja sisäisessä toimitusketjussa.  
 
@@ -76,12 +76,12 @@ Sen sijaan suunnittelujärjestelmä käsittelee tietyn nimikkeen kaiken kysynnä
 
 Suunnitteluajon jälkeen Toimenpideviestitapahtuma-taulukossa ei ole toimenpideviestejä, koska ne on korvattu suunnittelutyökirjassa ehdotetuilla toimenpiteillä  
 
-Lisätietoja on kohdan [Tarjonnan täsmäytys kysynnällä](design-details-balancing-demand-and-supply.md#balancing-supply-with-demand) osassa Tilauksen seurantalinkit suunnittelun aikana.  
+Katso lisätietoja kohdasta [Tilauksen seurantalinkit suunnittelun aikana](design-details-balancing-demand-and-supply.md#seriallot-numbers-are-loaded-by-specification-level).  
 
 ## <a name="sequence-and-priority-in-planning"></a>Suunnittelun järjestys ja ensisijaisuus  
 Laskentajärjestys on tärkeä suunnitelman muodostuksessa, koska sen avulla työ voidaan tehdä kohtuullisessa ajassa. Lisäksi vaatimusten ja resurssien priorisoinnilla on tärkeä merkitys parhaiden tulosten saamiseksi.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]:in suunnittelujärjestelmä on kysyntä-ohjasteinen. Korkean tason nimikkeet tulisi suunnitella ennen alemman tason nimikkeitä, koska korkean tason nimikkeiden suunnitelma saattaa luoda lisäkysynnän alemman tason nimikkeille. Tämä tarkoittaa esimerkiksi sitä, että vähittäismyyntipaikat on suunniteltava ennen jakelukeskusten suunnittelua, koska vähittäismyyntipaikan suunnitelma saattaa sisältää lisäkysyntää jakelukeskuksesta. Yksityiskohtaisella täsmäytystasolla tämä tarkoittaa myös, että myyntitilauksen ei tulisi laukaista uutta toimitustilausta, jos jo vapautettu toimitustilaus voi kattaa myyntitilauksen. Vastaavasti tietyllä eränumerolla varustettua tarjontaa ei tulisi kohdistaa kattamaan yleistä kysyntää, jos toinen kysyntä vaatii tätä tiettyä erää.  
+[!INCLUDE[prod_short](includes/prod_short.md)]:in suunnittelujärjestelmä on kysyntä-ohjasteinen. Korkean tason nimikkeet tulisi suunnitella ennen alemman tason nimikkeitä, koska korkean tason nimikkeiden suunnitelma saattaa luoda lisäkysynnän alemman tason nimikkeille. Tämä tarkoittaa esimerkiksi sitä, että vähittäismyyntipaikat on suunniteltava ennen jakelukeskusten suunnittelua, koska vähittäismyyntipaikan suunnitelma saattaa sisältää lisäkysyntää jakelukeskuksesta. Yksityiskohtaisella täsmäytystasolla tämä tarkoittaa myös, että myyntitilauksen ei tulisi laukaista uutta toimitustilausta, jos jo vapautettu toimitustilaus voi kattaa myyntitilauksen. Vastaavasti tietyllä eränumerolla varustettua tarjontaa ei tulisi kohdistaa kattamaan yleistä kysyntää, jos toinen kysyntä vaatii tätä tiettyä erää.  
 
 ### <a name="item-priority--low-level-code"></a>Nimikkeen prioriteetti/alatason koodi  
 Valmistusympäristössä valmiiden, myytävien nimikkeiden kysyntä aiheuttaa valmiin nimikkeen koostavien komponenttien johdettua kysyntää. Materiaalilasku-rakenne kontrolloi osan rakennetta ja voi kattaa useita puolivalmiiden nimikkeiden tasoja. Yhden nimikkeen suunnittelu yhdellä tasolla aiheuttaa epäsuoran kysynnän seuraavan tason komponenteille ja niin edelleen. Lopulta tämä johtaa ostettujen nimikkeiden epäsuoraan kysyntään. Näin ollen suunnittelujärjestelmä suunnittelee nimikkeille niiden tuoterakenteen hierarkian luokituksen määräämässä järjestyksessä alkaen loppuneista myytävissä olevista nimikkeistä ylätasolla ja jatkuen alas tuoterakenteen läpi alemman tason nimikkeisiin (alatason koodin mukaisesti).  
@@ -93,12 +93,12 @@ Luvut osoittavat missä järjestyksessä järjestelmä tekee ehdotuksia toimitus
 Lisätietoja tuotantonäkökohdista on kohdassa [Varastoprofiilien lataaminen](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
 
 #### <a name="optimizing-performance-for-low-level-calculations"></a>Suorituskyvyn optimoiminen matalan tason laskelmissa
-Matalan tason koodilaskelmat voivat vaikuttaa järjestelmän suorituskykyyn. Vaikutusten lieventämiseksi voit poistaa **Dynaamisen matalan tason koodilaskennan** käytöstä **Tuotannon asetukset** -sivulla. Kun teet näin, [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelma ehdottaa, että luodaan toistuva työjonotapahtuma, joka päivittää matalan tason koodit päivittäin. Voit varmistaa, että työ suoritetaan työajan ulkopuolella, määrittämällä aloitusajan **Aikaisin alkamispäivä ja -aika** -kentässä.
+Matalan tason koodilaskelmat voivat vaikuttaa järjestelmän suorituskykyyn. Vaikutusten lieventämiseksi voit poistaa **Dynaamisen matalan tason koodilaskennan** käytöstä **Tuotannon asetukset** -sivulla. Kun teet näin, [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelma ehdottaa, että luodaan toistuva työjonotapahtuma, joka päivittää matalan tason koodit päivittäin. Voit varmistaa, että työ suoritetaan työajan ulkopuolella, määrittämällä aloitusajan **Aikaisin alkamispäivä ja -aika** -kentässä.
 
 Voit myös ottaa käyttöön logiikan, joka nopeuttaa alatason koodilaskentaa valitsemalla **Tuotannon asetukset**-sivulla **Optimoi matalan tason koodilaskenta**. 
 
 > [!IMPORTANT]
-> Jos optimoit suorituskyvyn, [!INCLUDE[d365fin](includes/d365fin_md.md)] käyttää uusia laskentamenetelmiä alatason koodien määrittämiseen. Jos sinulla on laajennus, joka perustuu vanhojen laskelmien käyttämiin tapahtumiin, laajennus voi lakata toimimasta.   
+> Jos optimoit suorituskyvyn, [!INCLUDE[prod_short](includes/prod_short.md)] käyttää uusia laskentamenetelmiä alatason koodien määrittämiseen. Jos sinulla on laajennus, joka perustuu vanhojen laskelmien käyttämiin tapahtumiin, laajennus voi lakata toimimasta.   
 
 ### <a name="locations--transfer-level-priority"></a>Sijainnit/siirtotason prioriteetti  
 Yritysten, jotka toimivat useammassa kuin yhdessä paikassa, on ehkä suunniteltava jokaiselle paikalle erikseen. Esimerkiksi nimikkeen varmuusvaraston taso ja sen uusintatilaustapa saattaa vaihdella sijainnista toiseen. Tässä tapauksessa suunnitteluparametrit on määritettävä nimike- ja sijaintikohtaisesti.  
@@ -121,7 +121,7 @@ Sekä ennustukset ja puitetilaukset esittävät odotettavissa olevaa kysyntää.
 
 ![Ennusteiden käyttäminen suunnitelussa](media/NAV_APP_supply_planning_1_forecast_and_blanket.png "Ennusteiden käyttäminen suunnitelussa")  
 
-Lisätietoja on kohdan [Varastoprofiilien lataaminen](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles) osassa Myyntitilaukset vähentävät ennustettua kysyntää.  
+Katso lisätietoja: [Myyntitilaukset vähentävät ennustettua kysyntää](design-details-balancing-demand-and-supply.md#forecast-demand-is-reduced-by-sales-orders).  
 
 ## <a name="planning-assignment"></a>Suunnittelun tehtävä  
 Kaikki nimikkeet tulee suunnitella, mutta nimikkeelle ei ole syytä laskea suunnitelmaa ellei kysyntä- tai tarjontakuvio ole muuttunut edellisen suunnitelman laskemisen jälkeen.  
@@ -136,12 +136,12 @@ Syy valita nimikkeitä suunnittelua varten on järjestelmän toimintaseikka. Jos
 
 Täydellinen luettelo perusteista nimikkeen kohdistamisesta suunnittelussa on kohdassa [Rakennetiedot: suunnittelun kohdistustaulukko](design-details-planning-assignment-table.md).  
 
-Suunnittelun asetukset [!INCLUDE[d365fin](includes/d365fin_md.md)]:ssa ovat:  
+Suunnittelun asetukset [!INCLUDE[prod_short](includes/prod_short.md)]:ssa ovat:  
 
 -   Laske uudelleensuunnittelu – laskee kaikki valitut nimikkeet riippumatta siitä, onko se tarpeen vai ei.  
 -   Laske nettomuutossuunnitelma – laskee vain ne valitut kohteet, joiden kysyntä-tarjonta-malli on muuttunut jollain tavalla ja jotka on tämän vuoksi määritetty suunnitteluun.  
 
-Jotkut käyttäjät uskovat, että nettomuutossuunnittelu tulee suorittaa kiireesti, esimerkiksi, kun myyntitilaukset on syötetty. Tämä voisi kuitenkin olla sekavaa, koska dynaaminen tilauksen seuranta ja toimenpideviestitys lasketaan myös lennossa. Sen lisäksi [!INCLUDE[d365fin](includes/d365fin_md.md)] tarjoaa reaaliaikaisen luvattavissa-ohjausobjektin, joka tarjoaa myyntitilauksia kirjoitettaessa varoitukset ponnahdusikkunassa, jos kysyntää ei voida täyttää nykyisen toimitussuunnitelman mukaisesti.  
+Jotkut käyttäjät uskovat, että nettomuutossuunnittelu tulee suorittaa kiireesti, esimerkiksi, kun myyntitilaukset on syötetty. Tämä voisi kuitenkin olla sekavaa, koska dynaaminen tilauksen seuranta ja toimenpideviestitys lasketaan myös lennossa. Sen lisäksi [!INCLUDE[prod_short](includes/prod_short.md)] tarjoaa reaaliaikaisen luvattavissa-ohjausobjektin, joka tarjoaa myyntitilauksia kirjoitettaessa varoitukset ponnahdusikkunassa, jos kysyntää ei voida täyttää nykyisen toimitussuunnitelman mukaisesti.  
 
 Näiden lisäksi suunnittelujärjestelmä suunnittelee vain niille nimikkeille, jotka käyttäjä on valmistellut asianmukaisilla suunnitteluparametreilla. Muutoin oletetaan, että käyttäjä suunnittelee nimikkeet manuaalisesti tai puoliautomaattisesti käyttämällä Tilauksen suunnittelu -ominaisuutta.  
 
@@ -179,7 +179,7 @@ Sarja-/eränumeroidut nimikkeet ilman erityistä nimikeseuranta-asetusta voi vä
 
 Kysyntä-tarjonta sarja- tai eränumeroiden kanssa, erityinen tai ei erityinen, määritetään korkean prioriteetin tilanteeksi ja tämän vuoksi vapautettu jäädytetystä vyöhykkeestä, joka tarkoittaa, että ne ovat osa suunnittelua, vaikka ne erääntyvät ennen suunnittelun aloituspäivää.  
 
-Lisätietoja on kohdan [Varastoprofiilien lataaminen](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles) osassa Erittelytaso lataa sarja-/eränumerot.  
+Katso lisätietoja [Sarja-/ eränumerot ladataan määritystason mukaan](design-details-balancing-demand-and-supply.md#seriallot-numbers-are-loaded-by-specification-level) -osiosta.
 
 Saat lisätietoja siitä, kuinka suunnittelujärjestelmä täsmäyttää määritteet kohdasta [Sarja- /eränumeroita ja tilausten välisiä linkkejä ei huomioida kiinnitetyillä alueilla](design-details-balancing-demand-and-supply.md#seriallot-numbers-and-order-to-order-links-are-exempt-from-the-frozen-zone).  
 
@@ -270,13 +270,13 @@ Käyttäjä voi manuaalisesti määrittää kentän, kuitenkin joissa tapauksiss
 Lisätietoja tämän kentän käytöstä on kohdassa [Rakennetiedot: siirrot suunnittelussa](design-details-transfers-in-planning.md).  
 
 ## <a name="order-planning"></a>Tilauksen suunnittelu  
-**Tilausten suunnittelu** -sivulla esitelty perustyökalu tarjonnan suunnitteluun on suunniteltu manuaaliseen päätöstentekoon. Se ei ota huomioon mitään suunnitteluparametreja ja sitä ei näin ollen käsitellä tarkemmin tässä asiakirjassa. Katso lisätietoja Tilauksen suunnittelu -ominaisuudesta [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman ohjeesta  
+**Tilausten suunnittelu** -sivulla esitelty perustyökalu tarjonnan suunnitteluun on suunniteltu manuaaliseen päätöstentekoon. Se ei ota huomioon mitään suunnitteluparametreja ja sitä ei näin ollen käsitellä tarkemmin tässä asiakirjassa. Lisätietoja on kohdassa [Uuden kysyntätilauksen suunnitteleminen tilauksen mukaan](production-how-to-plan-for-new-demand.md).  
 
 > [!NOTE]  
 >  Ei ole suositeltavaa käyttää Tilauksen suunnittelu -toimintoa, jos yrityksessä jo käytetään suunnitelussa suunnittelutyökirjaa tai hankintalistaa. **Tilauksen suunnittelu** -sivun kautta luotuja toimitustilauksia voidaan muuttaa tai poistaa automaattisten suunnitteluajojen aikana. Tämä johtuu siitä, että automaattisissa suunnitteluajoissa käytetään suunnitteluparametreja, joita Tilauksen suunnittelu -sivulla manuaalisen suunnitelman laatinut käyttäjä ei välttämättä ole ottanut huomioon.  
 
 ##  <a name="finite-loading"></a>Rajallinen kuormittaminen  
-[!INCLUDE[d365fin](includes/d365fin_md.md)] on tavallinen ERP-järjestelmä, ei lähetyksen tai työnohjauksen ohjausjärjestelmä. Se suunnittelee resurssien käytön tarjoamalla karkean aikataulun, mutta se ei luo ja ylläpidä automaattisesti tarkkoja aikatauluja prioriteetteihin tai optimointisääntöihin perustuen.  
+[!INCLUDE[prod_short](includes/prod_short.md)] on tavallinen ERP-järjestelmä, ei lähetyksen tai työnohjauksen ohjausjärjestelmä. Se suunnittelee resurssien käytön tarjoamalla karkean aikataulun, mutta se ei luo ja ylläpidä automaattisesti tarkkoja aikatauluja prioriteetteihin tai optimointisääntöihin perustuen.  
 
 Kapasiteettirajoitteisten resurssien suunniteltu käyttötoiminto käsittää: 1) välttää eritysresurssien ylikuormitusta ja 2) varmistaa, että kapasiteettia ei ole kohdentamatta, jos se voisi kasvattaa tuotantotilauksen paluuaikaa. Ominaisuus ei sisällä välineitä tai vaihtoehtoja priorisoida tai optimoida toimintoja, kuten voisi olettaa löytyvän lähetysjärjestelmästä. Se voi kuitenkin tarjota hyödyllisen karkean kapasiteettitiedon pullonkaulojen tunnistamiseksi ja resurssien ylikuormituksen estämiseksi.  
 
@@ -287,7 +287,7 @@ Kun suunnitellaan kapasiteettirajoitettuja resursseja, järjestelmä varmistaa, 
 
 Resursseihin voidaan lisätä puskuriaika toiminnon jaon minimoimiseksi. Tämän avulla järjestelmä ajoittaa kuormituksen viimeiseen mahdolliseen päivään niin, että kriittinen kuormitusprosentti ylittyy hieman. Tämä voi vähentää jaettavien toimintojen määrää.  
 
-Tämä täydentää keskeisten konseptien luonnoksen, joka liittyy [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman tarjonnan suunnitteluun. Seuraavat osat tutkivat näitä konsepteja tarkemmin ja asettavat ne ydinsuunnitteluprosessien kontekstiin, tasapainottaen kysynnän ja tarjonnan sekä jälkitilausohjeiden käytön.  
+Tämä täydentää keskeisten konseptien luonnoksen, joka liittyy [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman tarjonnan suunnitteluun. Seuraavat osat tutkivat näitä konsepteja tarkemmin ja asettavat ne ydinsuunnitteluprosessien kontekstiin, tasapainottaen kysynnän ja tarjonnan sekä jälkitilausohjeiden käytön.  
 
 ## <a name="see-also"></a>Katso myös  
 [Rakennetiedot: siirrot suunnittelussa](design-details-transfers-in-planning.md)   

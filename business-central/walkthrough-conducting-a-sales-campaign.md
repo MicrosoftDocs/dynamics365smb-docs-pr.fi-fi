@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6138bc80b96e55c559067abad2957044d2e7c87f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: babd447411d1ea6000fc67379eda132b3d3e94f3
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914833"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760098"
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Vaihekuvaus: Myyntikampanjan suorittaminen
-Kampanja voi olla mikä tahansa toimi, jossa on mukana useita kontakteja. Kampanjan määrittämisen tärkeä osa liittyy kampanjan kohderyhmän valitsemiseen. Tätä tarkoitusta varten [!INCLUDE[d365fin](includes/d365fin_md.md)]:ssa luodaan segmentti tai yhteystietoryhmä suodattimien avulla.  
+Kampanja voi olla mikä tahansa toimi, jossa on mukana useita kontakteja. Kampanjan määrittämisen tärkeä osa liittyy kampanjan kohderyhmän valitsemiseen. Tätä tarkoitusta varten [!INCLUDE[prod_short](includes/prod_short.md)]:ssa luodaan segmentti tai yhteystietoryhmä suodattimien avulla.  
 
  Näitä toimintoja voi käyttää Myynti ja markkinointi -moduulissa, kun haluat suunnitella markkinointitoimenpiteet huolellisesti ja hallita vuorovaikutusta, jonka toisena osapuolena ovat kontaktit ja asiakkaat. Voit luoda kampanjoita ja määrittää kontaktien segmenttejä niin postituksia varten kuin muitakin sellaisia vuorovaikutustilanteita varten, joissa toinen osapuoli on kontakti tai mahdollinen asiakas.  
 
@@ -42,7 +42,7 @@ Kampanja voi olla mikä tahansa toimi, jossa on mukana useita kontakteja. Kampan
 -   markkinointityöntekijä.  
 
 ## <a name="prerequisites"></a>Vaatimukset  
- Asenna [!INCLUDE[d365fin](includes/d365fin_md.md)] ennen tämän vaihekuvauksen tehtävien suorittamista:  
+ Asenna [!INCLUDE[prod_short](includes/prod_short.md)] ennen tämän vaihekuvauksen tehtävien suorittamista:  
 
 ## <a name="story"></a>Taustatietoja  
  CRONUS:n myyntiosaston markkinointipäällikkö vastaa kampanjoiden suunnittelemisesta ja toteuttamisesta. Hän tekee myös päätöksiä messuista, joihin yhtiö osallistuu, sekä arvioi kampanjan edistymistä.  
@@ -198,4 +198,4 @@ Kampanja voi olla mikä tahansa toimi, jossa on mukana useita kontakteja. Kampan
 ## <a name="see-also"></a>Katso myös  
 [Liikesuhteiden hallinta](marketing-relationship-management.md)  
  [Liiketoimintaprosessien vaihekuvaukset](walkthrough-business-process-walkthroughs.md)  
- [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+ [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)

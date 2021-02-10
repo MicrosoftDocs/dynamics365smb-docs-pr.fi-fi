@@ -8,12 +8,12 @@ ms.reviewer: edupont
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: da0469ddb00e0c29fc04dc421a21724dc247b80b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4176f79aabba652208f7c0aacb6a000924009451
+ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912794"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "4817254"
 ---
 # <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Maa- tai aluekohtaisten lakisääteisiä ominaisuuksia koskevien ilmoitusten lähettäminen
 
@@ -74,9 +74,9 @@ Voit lähettää lakisääteisiä ilmoituksia Microsoft Dynamics Lifecycle Servi
 
 ## <a name="see-also"></a>Katso myös
 
-[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]in paikalliset toiminnot](about-localization.md)  
+[[!INCLUDE[prod_long](includes/prod_long.md)]in paikalliset toiminnot](about-localization.md)  
 [Kielen ja kielialueen muuttaminen](about-locale-language.md)  
 [Käytön aloittaminen](product-get-started.md)  
 [Tervetuloa Business Centraliin](index.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
