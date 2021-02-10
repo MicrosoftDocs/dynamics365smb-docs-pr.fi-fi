@@ -12,17 +12,17 @@ ms.workload: na
 ms. search.keywords: extension, bank, formats
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: dced6a3ae539e795c9207acd7eb7873798e570ab
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 07c6e22e6bd9729fbf5ba436644834fbeba0d085
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923443"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757415"
 ---
-# <a name="the-tax-file-formats-dk-extension"></a><span data-ttu-id="77678-103">Verotiedostomuotojen (DK) laajennus</span><span class="sxs-lookup"><span data-stu-id="77678-103">The Tax File Formats (DK) Extension</span></span>
-<span data-ttu-id="77678-104">Jos käyt kauppaa muissa EU-maissa sijaitsevien yritysten, sivuliikkeiden tai tytäryhtiöiden kanssa, niitä koskevien aktiviteettien tiedot on ilmoitettava SKAT- ja Danmarks Statistik -virastoihin.</span><span class="sxs-lookup"><span data-stu-id="77678-104">If you engage in trade with companies, or internal branches or subsidiaries, in other EU countries you must report information about the activities to SKAT and to Statistics Denmark.</span></span> <span data-ttu-id="77678-105">Jos käytät [!INCLUDE[d365fin](includes/d365fin_md.md)]in ALV- ja Intrastat-raportointiominaisuuksia, laajennus varmistaa, että vietävä tiedosto vastaa kyseisten organisaatioiden vaatimuksia.</span><span class="sxs-lookup"><span data-stu-id="77678-105">If you use the VAT and Intrastat reporting features in [!INCLUDE[d365fin](includes/d365fin_md.md)], this extension can ensure that the file you export is compatible with requirements from these organizations.</span></span> <span data-ttu-id="77678-106">Laajennus lisää MS-ECSL-raportin vientitiedoston ja Intrastat-vientirivien lähetyksen koodiyksiköt ALV-raporttimäärityksiin, joten voit viedä tiedot uudessa muodossa heti.</span><span class="sxs-lookup"><span data-stu-id="77678-106">The extension adds the MS-ECSL Report Export File and Intrastat Export Lines submission codeunits to your VAT Report configuration, so you can export data in the new format right away.</span></span>
+# <a name="the-tax-file-formats-dk-extension"></a><span data-ttu-id="7229c-103">Verotiedostomuotojen (DK) laajennus</span><span class="sxs-lookup"><span data-stu-id="7229c-103">The Tax File Formats (DK) Extension</span></span>
+<span data-ttu-id="7229c-104">Jos käyt kauppaa muissa EU-maissa sijaitsevien yritysten, sivuliikkeiden tai tytäryhtiöiden kanssa, niitä koskevien aktiviteettien tiedot on ilmoitettava SKAT- ja Danmarks Statistik -virastoihin.</span><span class="sxs-lookup"><span data-stu-id="7229c-104">If you engage in trade with companies, or internal branches or subsidiaries, in other EU countries you must report information about the activities to SKAT and to Statistics Denmark.</span></span> <span data-ttu-id="7229c-105">Jos käytät [!INCLUDE[prod_short](includes/prod_short.md)]in ALV- ja Intrastat-raportointiominaisuuksia, laajennus varmistaa, että vietävä tiedosto vastaa kyseisten organisaatioiden vaatimuksia.</span><span class="sxs-lookup"><span data-stu-id="7229c-105">If you use the VAT and Intrastat reporting features in [!INCLUDE[prod_short](includes/prod_short.md)], this extension can ensure that the file you export is compatible with requirements from these organizations.</span></span> <span data-ttu-id="7229c-106">Laajennus lisää MS-ECSL-raportin vientitiedoston ja Intrastat-vientirivien lähetyksen codeunitit ALV-raporttimäärityksiin, joten voit viedä tiedot uudessa muodossa heti.</span><span class="sxs-lookup"><span data-stu-id="7229c-106">The extension adds the MS-ECSL Report Export File and Intrastat Export Lines submission codeunits to your VAT Report configuration, so you can export data in the new format right away.</span></span>
 
-<span data-ttu-id="77678-107">Laajennus on maksuton, joten sinun tarvitsee vain asentaa se.</span><span class="sxs-lookup"><span data-stu-id="77678-107">The extension is free, you just need to install it.</span></span>
+<span data-ttu-id="7229c-107">Laajennus on maksuton, joten sinun tarvitsee vain asentaa se.</span><span class="sxs-lookup"><span data-stu-id="7229c-107">The extension is free, you just need to install it.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="77678-108">Katso myös</span><span class="sxs-lookup"><span data-stu-id="77678-108">See Also</span></span>
-[<span data-ttu-id="77678-109">Business Central -sovelluksen mukauttaminen laajennusten avulla</span><span class="sxs-lookup"><span data-stu-id="77678-109">Customizing Business Central Using Extensions</span></span>](ui-extensions.md)
+## <a name="see-also"></a><span data-ttu-id="7229c-108">Katso myös</span><span class="sxs-lookup"><span data-stu-id="7229c-108">See Also</span></span>
+[<span data-ttu-id="7229c-109">Business Central -sovelluksen mukauttaminen laajennusten avulla</span><span class="sxs-lookup"><span data-stu-id="7229c-109">Customizing Business Central Using Extensions</span></span>](ui-extensions.md)
