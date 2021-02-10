@@ -10,65 +10,65 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2167336c2fe4555a28d3d3eeaf4829d815d8fa04
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b04a124ea3e55320c1b3f9be37e54898ba3b16d1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915733"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752523"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Business Central -sovelluksen käyttäminen yrityssähköpostina Outlookissa
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] esittelee mahdollisuuden hallita liiketoiminnallisia vuorovaikutuksia asiakkaiden ja toimittajien kanssa suoraan Microsoft Outlookista. [!INCLUDE[d365fin](includes/d365fin_md.md)]in Outlook-apuohjelmien avulla voit tarkastella asiakkaisiin ja toimittajiin liittyviä taloustietoja sekä luoda ja lähettää talousasiakirjoja, kuten tarjouksia ja laskuja.  
+[!INCLUDE[prod_short](includes/prod_short.md)] esittelee mahdollisuuden hallita liiketoiminnallisia vuorovaikutuksia asiakkaiden ja toimittajien kanssa suoraan Microsoft Outlookista. [!INCLUDE[prod_short](includes/prod_short.md)]in Outlook-apuohjelmien avulla voit tarkastella asiakkaisiin ja toimittajiin liittyviä taloustietoja sekä luoda ja lähettää talousasiakirjoja, kuten tarjouksia ja laskuja.  
 
 ## <a name="getting-the-add-in"></a>Apuohjelman hakeminen
-Outlookin [!INCLUDE[d365fin](includes/d365fin_md.md)] -apuohjelman käytön aloittaminen on helppoa. Voit määrittää asetusten ohjatussa määritysoppaassa **Määritä Outlookin yrityssähköposti** itsesi ja organisaation välisen yhteyden, jos yrityksessä on käytössä Microsoft 365. Yksinkertaista Microsoft 365 -käyttäjänimen ja -salasanan määrittämistä pyydettäessä, ja kerro meille, haluatko saada näytesähköpostiviestin. [!INCLUDE[d365fin](includes/d365fin_md.md)]in apuohjelmat lisätään tämän jälkeen automaattisesti Outlookiin. Lisätietoja on kohdassa [Outlookin vähimmäisvaatimukset](product-requirements.md#outlook).  
+Outlookin [!INCLUDE[prod_short](includes/prod_short.md)] -apuohjelman käytön aloittaminen on helppoa. Voit määrittää asetusten ohjatussa määritysoppaassa **Määritä Outlookin yrityssähköposti** itsesi ja organisaation välisen yhteyden, jos yrityksessä on käytössä Microsoft 365. Yksinkertaista Microsoft 365 -käyttäjänimen ja -salasanan määrittämistä pyydettäessä, ja kerro meille, haluatko saada näytesähköpostiviestin. [!INCLUDE[prod_short](includes/prod_short.md)]in apuohjelmat lisätään tämän jälkeen automaattisesti Outlookiin. Lisätietoja on kohdassa [Outlookin vähimmäisvaatimukset](product-requirements.md#outlook).  
 
-Kun sitten avaat Outlookin, näet *Dynamics 365 Business Centralin järjestelmänvalvojan* lähettämän sähköpostiviestin. Uudet apuohjelmat lisätään Outlookin valintanauhaan, ja [!INCLUDE[prodshort](includes/prodshort.md)]in apuohjelmat näkyvät selaimessa heti sähköpostiviestin perustekstin ylä- tai alapuolella. Apuohjelmat päivitetään ajoittain, ja saat ilmoituksen, kun uusi versio on valmiina Outlookissa.  
+Kun sitten avaat Outlookin, näet *Dynamics 365 Business Centralin järjestelmänvalvojan* lähettämän sähköpostiviestin. Uudet apuohjelmat lisätään Outlookin valintanauhaan, ja [!INCLUDE[prod_short](includes/prod_short.md)]in apuohjelmat näkyvät selaimessa heti sähköpostiviestin perustekstin ylä- tai alapuolella. Apuohjelmat päivitetään ajoittain, ja saat ilmoituksen, kun uusi versio on valmiina Outlookissa.  
 
 > [!TIP]
-> Jos käytät uutta Outlookia verkossa [!INCLUDE[prodshort](includes/prodshort.md)]in apuohjelmat voivat olla piilotettuina **Lisää toimintoja** -kohdassa. Jos käytät apuohjelmaa usein, voit kiinnittää sen niin, että se näkyy aina heti. Lisätietoja on kohdassa [Outlook-verkkoversion apuohjelmien käyttäminen](https://support.office.com/article/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?ns=OLWAO365B&version=16).  
+> Jos käytät uutta Outlookia verkossa [!INCLUDE[prod_short](includes/prod_short.md)]in apuohjelmat voivat olla piilotettuina **Lisää toimintoja** -kohdassa. Jos käytät apuohjelmaa usein, voit kiinnittää sen niin, että se näkyy aina heti. Lisätietoja on kohdassa [Outlook-verkkoversion apuohjelmien käyttäminen](https://support.office.com/article/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?ns=OLWAO365B&version=16).  
 
-Jos työskentelet useamman kuin yhden [!INCLUDE[prodshort](includes/prodshort.md)] -yrityksen kanssa, voit helposti vaihtaa yritysten välillä Outlookissa. Valitse apuohjelman toimintopalkista **Lisää toimintoja**, ja sen jälkeen näet vaihtoehdon, jolla voi siirtyä yritysten välillä.  
+Jos työskentelet useamman kuin yhden [!INCLUDE[prod_short](includes/prod_short.md)] -yrityksen kanssa, voit helposti vaihtaa yritysten välillä Outlookissa. Valitse apuohjelman toimintopalkista **Lisää toimintoja**, ja sen jälkeen näet vaihtoehdon, jolla voi siirtyä yritysten välillä.  
 
 <!--TEMP-->
 > [!NOTE]
-> Yritysten välillä siirtyminen edellyttää [!INCLUDE[prodshort](includes/prodshort.md)]in vuoden 2019 2. julkaisuaallon version ta tai uudemman, kuten [julkaisusuunnitelmassa ilmoitettiin](/dynamics365-release-plan/2019wave2/dynamics365-business-central/switch-between-companies-business-inbox-outlook).
+> Yritysten välillä siirtyminen edellyttää [!INCLUDE[prod_short](includes/prod_short.md)]in vuoden 2019 2. julkaisuaallon version ta tai uudemman, kuten [julkaisusuunnitelmassa ilmoitettiin](/dynamics365-release-plan/2019wave2/dynamics365-business-central/switch-between-companies-business-inbox-outlook).
 
 Jotkin Microsoft 365:ää käyttävät yritykset rajoittavat käyttäjien oikeuksia ottaa apuohjelmia käyttöön. Varmista tämän vuoksi, että Microsoft 365 -tilauksesi sisältää sähköpostin ja mahdollistaa apuohjelmien käyttämisen. Jos haluat kokeilla apuohjelmaa joka tapauksessa, [voit kokeilla Microsoft 365:ää maksutta](https://www.microsoft.com/microsoft-365/try).  
 
 ## <a name="using-the-contact-insights-add-in"></a>Kontaktien tiedot -apuohjelman käyttäminen
-Oletetaan, että saat sähköpostiviestin asiakkaalta, joka haluaa tarjouksen tietyistä nimikkeistä. Voit avata [!INCLUDE[d365fin](includes/d365fin_md.md)] -apuohjelman suoraan Outlookissa, jossa lähettäjä tunnistetaan asiakkaaksi ja yrityksen asiakaskortti avataan. Tässä koontinäytössä näytetään asiakkaan yleiskuvauksen tiedot. Koontinäytössä voit myös siirtyä tiettyjen asiakirjojen lisätietoihin. Voit siirtyä tarkastelemaan myös asiakkaan myyntihistoriaa. Jos kyseessä on uusi yhteyshenkilö, voit luoda uuden asiakkaan [!INCLUDE[d365fin](includes/d365fin_md.md)]issa Outlookista poistumatta.  
+Oletetaan, että saat sähköpostiviestin asiakkaalta, joka haluaa tarjouksen tietyistä nimikkeistä. Voit avata [!INCLUDE[prod_short](includes/prod_short.md)] -apuohjelman suoraan Outlookissa, jossa lähettäjä tunnistetaan asiakkaaksi ja yrityksen asiakaskortti avataan. Tässä koontinäytössä näytetään asiakkaan yleiskuvauksen tiedot. Koontinäytössä voit myös siirtyä tiettyjen asiakirjojen lisätietoihin. Voit siirtyä tarkastelemaan myös asiakkaan myyntihistoriaa. Jos kyseessä on uusi yhteyshenkilö, voit luoda uuden asiakkaan [!INCLUDE[prod_short](includes/prod_short.md)]issa Outlookista poistumatta.  
 
 Apuohjelmassa voit luoda myyntitarjouksen ja lähettää sen takaisin asiakkaalle ilman, että poistut Outlookista. Kaikki myyntitarjouksessa tarvitsemasi tiedot ovat käytettävissä Outlookin yrityssähköpostissa.  
-Kun tiedot on syötetty, voit kirjata tarjouksen. Tämän jälkeen voit lähettää sen sähköpostitse. [!INCLUDE[d365fin](includes/d365fin_md.md)] luo myyntitarjouksen sisältävän .PDF-tiedoston ja liittää sen apuohjelmassa tekemääsi sähköpostiviestin luonnokseen.  
+Kun tiedot on syötetty, voit kirjata tarjouksen. Tämän jälkeen voit lähettää sen sähköpostitse. [!INCLUDE[prod_short](includes/prod_short.md)] luo myyntitarjouksen sisältävän .PDF-tiedoston ja liittää sen apuohjelmassa tekemääsi sähköpostiviestin luonnokseen.  
 
 Jos vastaavasti saat sähköpostia toimittajalta, voit käsitellä toimittajia ja ostolaskuja apuohjelman avulla.  
 
 Joskus haluat nähdä enemmän kenttiä kuin lisäohjelmassa on. Näin voi tapahtua esimerkiksi silloin, kun haluat täyttää laskun rivejä. Saat lisää työskentelytilaa, kun avaat apuohjelman erillisellä sivulla. Se on yhä osa Outlookia, mutta käytettävissä on enemmän tilaa. Muutokset tallennetaan automaattisesti samalla, kun syötät asiakirjan tietoja ponnahdusikkunaan. Kun asiakirjan tiedot on annettu, voit valita **OK**-painikkeen. Kun apuohjelman kehys valitaan, Outlook päivittää ponnahdusikkunaan tekemäsi muutokset automaattisesti asiakirjaan.  
 
 ## <a name="creating-invoices-from-your-meeting-appointments"></a>Laskujen luominen kokouksen tapaamisista
-Joissakin yrityksissä kaikki laskutettavat tapaamiset kirjataan Outlookin kalenteriin. Voit luoda [!INCLUDE[d365fin](includes/d365fin_md.md)]issa asiakkaalle laskun suodaan kalenterinimikkeestä: Avaa ensin tapaaminen ja sitten [!INCLUDE[d365fin](includes/d365fin_md.md)]in apuohjelma. Etsi aiemmin luodut tiedot tai luo lasku tai muu myyntiasiakirja suoraan sovelluksessa.  
+Joissakin yrityksissä kaikki laskutettavat tapaamiset kirjataan Outlookin kalenteriin. Voit luoda [!INCLUDE[prod_short](includes/prod_short.md)]issa asiakkaalle laskun suodaan kalenterinimikkeestä: Avaa ensin tapaaminen ja sitten [!INCLUDE[prod_short](includes/prod_short.md)]in apuohjelma. Etsi aiemmin luodut tiedot tai luo lasku tai muu myyntiasiakirja suoraan sovelluksessa.  
 
 ## <a name="doing-quick-document-lookup"></a>Asiakirjan pikahaku
-[!INCLUDE[d365fin](includes/d365fin_md.md)]in asiakirjalinkkien apuohjelman avulla voit ottaa sähköpostiviesteissä mainitut asiakirjat nopeasti käyttöön. Apuohjelma on sähköpostiviestin käytettävissä, jos viestin leipätekstin asiakirjanumero tunnistetaan. Apuohjelman avaaminen mahdollistaa asiakirjan nopean käyttämisen.  
+[!INCLUDE[prod_short](includes/prod_short.md)]in asiakirjalinkkien apuohjelman avulla voit ottaa sähköpostiviesteissä mainitut asiakirjat nopeasti käyttöön. Apuohjelma on sähköpostiviestin käytettävissä, jos viestin leipätekstin asiakirjanumero tunnistetaan. Apuohjelman avaaminen mahdollistaa asiakirjan nopean käyttämisen.  
 
-Jos vastaanotat esimerkiksi sähköpostiviestin, joka sisältää tekstin *S-QUO100*, [!INCLUDE[d365fin](includes/d365fin_md.md)] tunnistaa sen myyntitarjoukseksi. Tämän jälkeen voit avata asiakirjan Outlookissa. Valitse Outlookissa **Asiakirjalinkit**-painike, joka on heti sähköpostiviestin leipätekstin yläpuolella. Valitse Outlookin verkkosovelluksessa sähköpostiviestin leipätekstin *S-QUO1001*-teksti.  
+Jos vastaanotat esimerkiksi sähköpostiviestin, joka sisältää tekstin *S-QUO100*, [!INCLUDE[prod_short](includes/prod_short.md)] tunnistaa sen myyntitarjoukseksi. Tämän jälkeen voit avata asiakirjan Outlookissa. Valitse Outlookissa **Asiakirjalinkit**-painike, joka on heti sähköpostiviestin leipätekstin yläpuolella. Valitse Outlookin verkkosovelluksessa sähköpostiviestin leipätekstin *S-QUO1001*-teksti.  
 
-Voit muokata Asiakirjalinkit-apuohjelmassa asiakirjaa ja suorittaa sille toimintoja samoin kuin [!INCLUDE[d365fin](includes/d365fin_md.md)]issa.
+Voit muokata Asiakirjalinkit-apuohjelmassa asiakirjaa ja suorittaa sille toimintoja samoin kuin [!INCLUDE[prod_short](includes/prod_short.md)]issa.
 
 ## <a name="adding-the-add-ins-manually"></a>Apuohjelmien lisääminen manuaalisesti
-Joissakin tapauksissa apuohjelmia ei lisätä automaattisesti Outlookiin. Vaikka sinä tai kollegasi suoritti avustetun asennusoppaan yrityksen puolesta, [!INCLUDE[d365fin](includes/d365fin_md.md)] ei ehkä näy Outlookissa. Jos tämä ongelma esiintyy, voit lisätä [!INCLUDE[d365fin](includes/d365fin_md.md)]in apuohjelmat manuaalisesti.  
+Joissakin tapauksissa apuohjelmia ei lisätä automaattisesti Outlookiin. Vaikka sinä tai kollegasi suoritti avustetun asennusoppaan yrityksen puolesta, [!INCLUDE[prod_short](includes/prod_short.md)] ei ehkä näy Outlookissa. Jos tämä ongelma esiintyy, voit lisätä [!INCLUDE[prod_short](includes/prod_short.md)]in apuohjelmat manuaalisesti.  
 
-Tarkista ensin, että voit käyttää apuohjelmia Microsoft 365 -tililläsi. Avaa Outlook selaimessa ja avaa sitten viesti. Valitse **Lisää toimintoja** (...) viestin yläosassa ja valitse sitten luettelon alaosasta **Hae apuohjelmia**. Näyttöön avautuu **Outlookin apuohjelmat** -sivu, jossa voit ottaa käyttöön kohteen [!INCLUDE[prodshort](includes/prodshort.md)] Outlookia varten. Kun siirryt takaisin Outlookiin, [!INCLUDE[prodshort](includes/prodshort.md)]in pitäisi olla käytettävissä.  
+Tarkista ensin, että voit käyttää apuohjelmia Microsoft 365 -tililläsi. Avaa Outlook selaimessa ja avaa sitten viesti. Valitse **Lisää toimintoja** (...) viestin yläosassa ja valitse sitten luettelon alaosasta **Hae apuohjelmia**. Näyttöön avautuu **Outlookin apuohjelmat** -sivu, jossa voit ottaa käyttöön kohteen [!INCLUDE[prod_short](includes/prod_short.md)] Outlookia varten. Kun siirryt takaisin Outlookiin, [!INCLUDE[prod_short](includes/prod_short.md)]in pitäisi olla käytettävissä.  
 
-Voit varmistaa myös Outlookin työpöytäversiossa, että [!INCLUDE[d365fin](includes/d365fin_md.md)] on mainittu **Hae apuohjelmia** -sivulla.  
+Voit varmistaa myös Outlookin työpöytäversiossa, että [!INCLUDE[prod_short](includes/prod_short.md)] on mainittu **Hae apuohjelmia** -sivulla.  
 
-Jos [!INCLUDE[d365fin](includes/d365fin_md.md)]ia ei voi edelleenkään käyttää, sinun on haettava kummassakin tapauksessa apuohjelman kokoonpanotiedostot. Pyydä lisätietoja Microsoft 365:n järjestelmänvalvojalta.
+Jos [!INCLUDE[prod_short](includes/prod_short.md)]ia ei voi edelleenkään käyttää, sinun on haettava kummassakin tapauksessa apuohjelman kokoonpanotiedostot. Pyydä lisätietoja Microsoft 365:n järjestelmänvalvojalta.
 
 ## <a name="using-other-email-accounts"></a>Muiden sähköpostitilien käyttäminen
 
-Apuohjelmat on suunniteltu Microsoft 365:n kanssa käytettäväksi. Jos käytät paikallista [!INCLUDE[prodshort](includes/prodshort.md)] -versiota, järjestelmänvalvoja tietää, voitko käyttää [!INCLUDE[prodshort](includes/prodshort.md)]in apuohjelmia Outlookissa. Lisätietoja on ohjeaiheessa [Mitä sähköpostiosoitetta voin käyttää [!INCLUDE[prodshort](includes/prodshort.md)] -ohjelman kanssa?](across-faq.md#email), ja [Ominaisuudet, jotka vaativat tiettyjä olosuhteita](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances?toc=/dynamics365/business-central/toc.json) -artikkelin ja [Miksei Outlook-apuohjelma toimi käyttäjieni osalta?](/dynamics365/business-central/dev-itpro/faq#why-doesnt-the-outlook-add-in-work-for-my-users?toc=/dynamics365/business-central/toc.json) -osassa yleisen FAQ-sisällön hallintasisällössä.  
+Apuohjelmat on suunniteltu Microsoft 365:n kanssa käytettäväksi. Jos käytät paikallista [!INCLUDE[prod_short](includes/prod_short.md)] -versiota, järjestelmänvalvoja tietää, voitko käyttää [!INCLUDE[prod_short](includes/prod_short.md)]in apuohjelmia Outlookissa. Lisätietoja on ohjeaiheessa [Mitä sähköpostiosoitetta voin käyttää [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman kanssa?](across-faq.md#email), ja [Ominaisuudet, jotka vaativat tiettyjä olosuhteita](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances?toc=/dynamics365/business-central/toc.json) -artikkelin ja [Miksei Outlook-apuohjelma toimi käyttäjieni osalta?](/dynamics365/business-central/dev-itpro/faq#why-doesnt-the-outlook-add-in-work-for-my-users?toc=/dynamics365/business-central/toc.json) -osassa yleisen FAQ-sisällön hallintasisällössä.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 

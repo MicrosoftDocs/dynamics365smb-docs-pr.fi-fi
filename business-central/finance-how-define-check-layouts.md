@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: print check, customize
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 31a3df66b3b82e7901a494c7ef552c27b317ba99
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4a402e9cdcaa7eea55b693f697db3b47138cdd02
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917074"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746989"
 ---
 # <a name="select-a-check-layout"></a>Sekin asettelun valitseminen
 Voit suunnitella omat sekit, joiden avulla pystyt noudattamaan paikallisten viranomaisten määrittämiä standardeja. Sekkikuvat voidaan tulostaa englannin-, ranskan ja espanjankielisinä.
@@ -39,15 +39,15 @@ Kun olet määrittänyt sekkien asettelut, voit tulostaa sekit **Maksupäiväkir
 Voit muuttaa jotakin näistä sekkien oletusasetteluista käyttämällä joko Word- tai RDLC-integrointia. Lisätietoja on kohdassa [Raportin mukautettujen asettelujen luominen ja muokkaaminen](ui-how-create-custom-report-layout.md).
 
 ## <a name="using-micr-and-security-fonts"></a>MICR- ja suojausfonttien käyttäminen
-[!INCLUDE[d365fin](includes/d365fin_md.md)]:n online-versio sisältää valmiiksi asennetut fontit palvelimissa, joita voidaan käyttää sekin asettelujen määrittämisessä. Seuraavassa on esitetty, mitkä fontit ovat käytettävissä, ja siinä on linkit kolmansien osapuolten fonttien toimittajien yksityiskohtaisiin tietoihin.
+[!INCLUDE[prod_short](includes/prod_short.md)]:n online-versio sisältää valmiiksi asennetut fontit palvelimissa, joita voidaan käyttää sekin asettelujen määrittämisessä. Seuraavassa on esitetty, mitkä fontit ovat käytettävissä, ja siinä on linkit kolmansien osapuolten fonttien toimittajien yksityiskohtaisiin tietoihin.
 
 > [!Important]
-> MICR- ja sekki-suojausfontit Microsoft Dynamics [!INCLUDE[d365fin](includes/d365fin_md.md)] on lisensoitu IDAutomation.com, Inc:n fonttipaketissa. Näitä tuotteita saa käyttää vain Microsoft Dynamicsin osana- ja yhteydessä [!INCLUDE[d365fin](includes/d365fin_md.md)].
+> MICR- ja sekki-suojausfontit Microsoft Dynamics [!INCLUDE[prod_short](includes/prod_short.md)] on lisensoitu IDAutomation.com, Inc:n fonttipaketissa. Näitä tuotteita saa käyttää vain Microsoft Dynamicsin osana- ja yhteydessä [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Päivityksessä 15.3 ja uudemmissa on asennettu magneettisten merkkien tunnistuksen (MICR) fontteja, jotka ovat käytettävissä. Sekä E-13B- että CMC-7-standardit ovat tuettuja. MICR-fonttien lisäksi käytettävissä on erityisiä suojausfontteja, joiden avulla voidaan luoda tekstiä, nimiä, summia ja valuuttasymboleita: dollari, euro, punta ja jeni, joita on vaikea väärentää, kun sekki on tulostettu.
 
 > [!NOTE]
-> Suojaus- ja oikeudellisista syistä mukautettuja fontteja ei voi ladata [!INCLUDE[d365fin](includes/d365fin_md.md)]-ympäristöön.
+> Suojaus- ja oikeudellisista syistä mukautettuja fontteja ei voi ladata [!INCLUDE[prod_short](includes/prod_short.md)]-ympäristöön.
 
 ### <a name="micr-e-13b-specifications"></a>MICR E-13B -määritykset
 Seuraavassa on yhteenveto MICR E-13B -fonteista, joista voi olla hyötyä, kun fontteja kalibroidaan sekkiasetteluissa tiettyjen MICR-tulostimien avulla.
@@ -60,7 +60,7 @@ Seuraavassa on yhteenveto MICR E-13B -fonteista, joista voi olla hyötyä, kun f
 MICR E-13B -fonttien kokomääritys löytyy toimittajan dokumentaatiosta täältä: (https://www.idautomation.com/micr-fonts/e13b/).
 
 ### <a name="micr-cmc-7-specifications"></a>MICR CMC-7 -määritykset
-Seuraavat CMC-7 -fontit ovat käytettävissä [!INCLUDE[d365fin](includes/d365fin_md.md)] -online-käytössä:
+Seuraavat CMC-7 -fontit ovat käytettävissä [!INCLUDE[prod_short](includes/prod_short.md)] -online-käytössä:
 
 - IDAutomationCMC7
 - IDAutomationCMC7n10
@@ -83,7 +83,7 @@ Seuraavassa on yhteenveto sekkisuojausfonteista, joista voi olla hyötyä, kun f
 
 Sekkisuojausfonttien kokomääritys löytyy toimittajan dokumentaatiosta täältä: (https://www.idautomation.com/security-fonts/).
 
-Fontit muihin tarkoituksiin ovat myös saatavilla [!INCLUDE[prodshort](includes/prodshort.md)]. Lisätietoja on kohdassa [Käytettävissä olevat fontit](ui-fonts.md)
+Fontit muihin tarkoituksiin ovat myös saatavilla [!INCLUDE[prod_short](includes/prod_short.md)]. Lisätietoja on kohdassa [Käytettävissä olevat fontit](ui-fonts.md)
 
 ## <a name="see-also"></a>Katso myös
 [Raporttien mukautettujen asettelujen luominen ja muokkaaminen](ui-how-create-custom-report-layout.md)  
@@ -91,5 +91,5 @@ Fontit muihin tarkoituksiin ovat myös saatavilla [!INCLUDE[prodshort](includes/
 [Ostovelkojen hallinta](payables-manage-payables.md)  
 [Pankkitilien täsmäytys](bank-manage-bank-accounts.md)   
 [Kauden lopun prosessien viimeisteleminen](year-how-complete-period-end-processes.md)  
-[[!INCLUDE[prodshort](includes/prodshort.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)

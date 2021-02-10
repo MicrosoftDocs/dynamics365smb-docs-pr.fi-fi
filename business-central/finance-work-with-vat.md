@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 5b24fe2373e8f6fd71008a5d155e985d2aaa460f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: bce25a87849a65d0307e6475716891396167697c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924076"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746614"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Myynnin ja ostojen ALV:n käsitteleminen
-Jos maasi tai alueesi edellyttää arvonlisäveron (ALV:n) laskemista myynti- ja ostotapahtumille siten, että voit ilmoittaa summat veroviranomaiselle, voit määrittää [!INCLUDE[d365fin](includes/d365fin_md.md)]in laskemaan ALV:n automaattisesti myynti- ja ostoasiakirjoissa. Lisätietoja on kohdassa [Arvolisäveron laskelmien ja kirjausmenetelmien määrittäminen](finance-setup-vat.md).
+Jos maasi tai alueesi edellyttää arvonlisäveron (ALV:n) laskemista myynti- ja ostotapahtumille siten, että voit ilmoittaa summat veroviranomaiselle, voit määrittää [!INCLUDE[prod_short](includes/prod_short.md)]in laskemaan ALV:n automaattisesti myynti- ja ostoasiakirjoissa. Lisätietoja on kohdassa [Arvolisäveron laskelmien ja kirjausmenetelmien määrittäminen](finance-setup-vat.md).
 
 Jotkin arvolisäveroon liittyvät tehtävät voidaan tehdä manuaalisesti. Kirjattu summa on ehkä oikaistava, jos havaitset, että toimittaja käyttää toista pyöristysmenetelmää.
 
@@ -26,7 +26,7 @@ Jotkin arvolisäveroon liittyvät tehtävät voidaan tehdä manuaalisesti. Kirja
 Voit laskea ja näyttää myynti- ja ostoasiakirjojen ALV-summat eri tavoin kulloisenkin asiakas- tai toimittajatyypin mukaan. Voit myös korvata tietylle tapahtumalle lasketun ALV-summan toimittajan laskemalla ALV-summalla.  
 
 ### <a name="unit-price-and-line-amount-includingexcluding-vat-on-sales-documents"></a>Myyntiasiakirjojen yksikköhinta ja rivisumma, joka sisältää ALV:n tai ei sisällä sitä  
-Kun valitset nimikenumeron **Nro**-kentässä myyntiasiakirjassa, [!INCLUDE[d365fin](includes/d365fin_md.md)] täyttää **Yksikköhinta**-kentän. Yksikköhinta saadaan joko **Nimike**-kortista tai nimikkeelle ja asiakkaalle sallituista nimikehinnoista. [!INCLUDE[d365fin](includes/d365fin_md.md)] laskee **rivisumman**, kun lisäät määrän riville.  
+Kun valitset nimikenumeron **Nro**-kentässä myyntiasiakirjassa, [!INCLUDE[prod_short](includes/prod_short.md)] täyttää **Yksikköhinta**-kentän. Yksikköhinta saadaan joko **Nimike**-kortista tai nimikkeelle ja asiakkaalle sallituista nimikehinnoista. [!INCLUDE[prod_short](includes/prod_short.md)] laskee **rivisumman**, kun lisäät määrän riville.  
 
 Jos myyt kuluttajille, haluat ehkä sisällyttää ALV:n myyntiasiakirjoihin. Valitse sitä varten asiakirjassa **Hinnat sisältävät ALV:n** -valintaruudun.  
 
@@ -69,7 +69,7 @@ Seuraavaksi käsitellään manuaalisten ALV-muutosten ottamista käyttöön myyn
 > Riveillä näkyy laskun ALV-kokonaissumma ALV-tunnuksen mukaan ryhmiteltynä. Voit manuaalisesti muuttaa **ALV-summa**-kentän summaa kunkin ALV-tunnuksen rivillä. Kun muokkaat **ALV-summa**-kenttää, sovellus tarkistaa, ettei ALV:tä ole muutettu enempää kuin määrittämäsi suurimman sallitun eron verran. Jos ero on suurempi kuin **Maksimi sallittu ALV-ero**, näyttöön tulee varoitus, joka ilmoittaa suurimmasta sallitusta erosta. Et voi jatkaa, ennen kuin määrä muutetaan asetettujen rajojen sallimaksi. Valitse **OK** ja lisää uusi **ALV-summa**, joka on sallitun vaihteluvälin sisällä. Jos ALV-ero on sama tai pienempi kuin suurin sallittu ero, ALV jaetaan suhteellisesti asiakirjan sellaisten rivien kanssa, joilla on sama ALV-tunnus.  
 
 ## <a name="calculating-vat-manually-using-journals"></a>ALV:n laskeminen manuaalisesti päiväkirjojen avulla  
-Voit oikaista ALV-summia myös at yleisessä päiväkirjassa sekä myynti- ja ostopäiväkirjoissa. Näin on ehkä toimittava esimerkiksi silloin, kun lisäät päiväkirjaan toimittajan laskun ja [!INCLUDE[d365fin](includes/d365fin_md.md)]in laskema ALV-summa eroaa toimittajan laskun ALV-summasta.  
+Voit oikaista ALV-summia myös at yleisessä päiväkirjassa sekä myynti- ja ostopäiväkirjoissa. Näin on ehkä toimittava esimerkiksi silloin, kun lisäät päiväkirjaan toimittajan laskun ja [!INCLUDE[prod_short](includes/prod_short.md)]in laskema ALV-summa eroaa toimittajan laskun ALV-summasta.  
 
 ### <a name="to-set-the-system-up-for-manual-vat-entry-in-a-general-journals"></a>Järjestelmän määrittäminen yleisen päiväkirjan manuaalisille ALV-tapahtumille
 Seuraavat vaiheet on tehtävä, ennen kuin ALV kirjataan manuaalisesti yleisessä päiväkirjassa.  
@@ -82,10 +82,10 @@ Seuraavat vaiheet on tehtävä, ennen kuin ALV kirjataan manuaalisesti myynti- t
 
 1. Valitse **Ostojen ja ostovelkojen asetukset** -sivulla **Salli ALV-ero** -valintaruutu.  
 2. Toista vaihe 1 **Myyntien ja myyntisaamisten asetukset** -sivulla.
-3. Kun olet tehnyt edellä kuvatut asetukset, voit oikaista yleisen päiväkirjan rivin **ALV-summa**-kentän tai myynti- tai ostopäiväkirjan rivin **Vastatilin ALV-summa** -kentän. [!INCLUDE[d365fin](includes/d365fin_md.md)] tarkistaa, että ero ei ole suurempi kuin määritetty enimmäisarvo.  
+3. Kun olet tehnyt edellä kuvatut asetukset, voit oikaista yleisen päiväkirjan rivin **ALV-summa**-kentän tai myynti- tai ostopäiväkirjan rivin **Vastatilin ALV-summa** -kentän. [!INCLUDE[prod_short](includes/prod_short.md)] tarkistaa, että ero ei ole suurempi kuin määritetty enimmäisarvo.  
 
     > [!NOTE]  
-    > Jos ero on suurempi, avautuva varoitus ilmoittaa suurimman sallitun eron. Jatkaminen edellyttää summan oikaisua. Valitse ensin **OK** ja annan sitten summa, joka on sallitun vaihteluvälin sisällä. Jos ALV-ero on sama tai pienempi kuin suurin sallittu ero, [!INCLUDE[d365fin](includes/d365fin_md.md)] näyttää eron **ALV-ero**-kentässä.  
+    > Jos ero on suurempi, avautuva varoitus ilmoittaa suurimman sallitun eron. Jatkaminen edellyttää summan oikaisua. Valitse ensin **OK** ja annan sitten summa, joka on sallitun vaihteluvälin sisällä. Jos ALV-ero on sama tai pienempi kuin suurin sallittu ero, [!INCLUDE[prod_short](includes/prod_short.md)] näyttää eron **ALV-ero**-kentässä.  
 
 ## <a name="posting-import-vat-with-purchase-invoices"></a>Tuonnin ALV:n kirjaaminen ostolaskuissa
 Tuontia koskevan ALV-laskun voi kirjata ostolaskulla päiväkirjojen asemesta.  
@@ -95,7 +95,7 @@ Tuontia koskevan ALV-laskun voi kirjata ostolaskulla päiväkirjojen asemesta.
 2. Luo tuontia koskevalle ALV:lle **yleinen tuotteen kirjausryhmä** ja määritä asiaankuuluvalle **yleiselle tuotteen kirjausryhmälle** tuontia koskevan ALV:n **tuotteen ALV-oletuskirjausryhmä**.  
 3. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tilikartta** ja valitse sitten liittyvä linkki.  
 4. Valitse tuonnin ALV-pääkirjanpitotili ja valitse sitten **Muokkaa**-toiminto.  
-5. Valitse tuontia koskevalle ALV:lle **Kirjaus**-pikavälilehdessä ALV:n **Yleinen tuotteen kirjausryhmä** -asetukset. [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman täyttää **Tuotteen ALV-kirjausryhmä** -kentän automaattisesti.  
+5. Valitse tuontia koskevalle ALV:lle **Kirjaus**-pikavälilehdessä ALV:n **Yleinen tuotteen kirjausryhmä** -asetukset. [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman täyttää **Tuotteen ALV-kirjausryhmä** -kentän automaattisesti.  
 6. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Yleiset kirjausasetukset** ja valitse sitten liittyvä linkki.  
 7. Luo ALV-viranomaisen **Ylein. liiketoim. kirjausryhmän** ja tuontia koskevan ALV:n **Yleinen tuotteen kirjausryhmän** yhdistelmä. Valitse **Ostotili**-kentässä tuontia koskevan ALV:n KP-tili tätä uutta yhdistelmää varten.  
 
@@ -139,7 +139,7 @@ Kun myyt tavaroita toisen EU-maan/alueen asiakkaalle, sinun on lähetettävä as
     >  Vaihtoehtoisesti voit tulostaa todistuksen **Tarjontasertifikaatti**-sivulla.  
 
 4. Jotta voit sisällyttää tiedot sertifikaatin toimitusasiakirjan riveiltä, valitse **Tulosta rivitiedot** -valintaruutu.  
-5. Valitse **Luo tarjontasertifikaatit, jos niitä ei ole luotu** -valintaruutu, jos haluat, että [!INCLUDE[d365fin](includes/d365fin_md.md)] luo sertifikaatit kirjatuille toimituksille, joilla ei niitä ole suorittamishetkellä. Kun valitset valintaruudun, kaikille niille kirjatuille toimituksille luodaan uudet sertifikaatit, joilla ei ole sertifikaatteja valitulla alueella.  
+5. Valitse **Luo tarjontasertifikaatit, jos niitä ei ole luotu** -valintaruutu, jos haluat, että [!INCLUDE[prod_short](includes/prod_short.md)] luo sertifikaatit kirjatuille toimituksille, joilla ei niitä ole suorittamishetkellä. Kun valitset valintaruudun, kaikille niille kirjatuille toimituksille luodaan uudet sertifikaatit, joilla ei ole sertifikaatteja valitulla alueella.  
 6. Suodatusasetukset ovat oletusarvon mukaan toimitusasiakirjalle, jonka olet valinnut. Täytä suodatintiedot valitaksesi tietty tarjontatodistus, jonka haluat tulostaa.  
 7. Valitse **Tarjontasertifikaatti**-sivulla **Tulosta**-toiminto, jos haluat tulostaa raportin, tai **Esikatselu**-toiminto, jos haluat katsoa sitä näytössä.  
 
@@ -155,7 +155,7 @@ Kun myyt tavaroita toisen EU-maan/alueen asiakkaalle, sinun on lähetettävä as
 
    Jos asiakas on palauttanut allekirjoitetun tarjontatodistuksen, valitse **Vastaanotettu**. **Vast.ott. pvm**-kenttä päivitetään. Vastaanottopäivämääräkksi määritetään oletusarvon mukaan nykyinen käsittelypäivämäärä.  
 
-   Voit muokata päivämäärän vastaamaan päivämäärää, jolloin vastaanotit asiakkaan allekirjoittaman tarjontasertifikaatin. Voit myös lisätä linkin allekirjoitettuun sertifikaattiin käyttämällä vakiomuotoista [!INCLUDE[d365fin](includes/d365fin_md.md)] -linkitystä.  
+   Voit muokata päivämäärän vastaamaan päivämäärää, jolloin vastaanotit asiakkaan allekirjoittaman tarjontasertifikaatin. Voit myös lisätä linkin allekirjoitettuun sertifikaattiin käyttämällä vakiomuotoista [!INCLUDE[prod_short](includes/prod_short.md)] -linkitystä.  
 
    Jos asiakas ei palauta allekirjoitettua tarjontatodistusta, valitse **Ei vastaanotettu**. Tämän jälkeen sinun on lähetettävä asiakkaalle uusi lasku, joka sisältää ALV:n, koska veroviranomainen ei hyväksy alkuperäistä laskua.  
 
@@ -169,7 +169,7 @@ Voit tarkastella sertifikaattiryhmiä aloittamalla **Tarjontasertifikaatit**-siv
 
    Jos asiakas on palauttanut allekirjoitetun tarjontatodistuksen, valitse **Vastaanotettu**. **Vast.ott. pvm**-kenttä päivitetään. Vastaanottopäivämääräkksi määritetään oletusarvon mukaan nykyinen käsittelypäivämäärä.  
 
-   Voit muokata päivämäärän vastaamaan päivämäärää, jolloin vastaanotit allekirjoitetun tarjontasertifikaatin. Voit myös lisätä linkin allekirjoitettuun sertifikaattiin käyttämällä [!INCLUDE[d365fin](includes/d365fin_md.md)]in asiakirjojen vakiolinkitystä.  
+   Voit muokata päivämäärän vastaamaan päivämäärää, jolloin vastaanotit allekirjoitetun tarjontasertifikaatin. Voit myös lisätä linkin allekirjoitettuun sertifikaattiin käyttämällä [!INCLUDE[prod_short](includes/prod_short.md)]in asiakirjojen vakiolinkitystä.  
 
     > [!NOTE]  
     >  Et voi luoda uutta tarjontasertifikaattia **Tarjontasertifikaatit**-sivulla, kun siirryt siihen tällä menetelmällä. Voit luoda sertifikaatin toimitukselle, jota ei asetettu vaatimaan sitä avaamalla kirjatun myyntitoimituksen, ja käyttämällä yhtä kahdesta yllä kuvatusta toimenpiteestä:  

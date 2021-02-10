@@ -12,16 +12,16 @@ ms.search.keywords: ''
 ms.reviewer: edupont
 ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: 7fb48d888153e9ad77666abf4ca09f6cb429772d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8e0ffc9680d421a0b39f00eae577c80206de639b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920995"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751953"
 ---
 # <a name="compliance"></a>Yhteensopivuus
 
-Tässä sisällössä on tietoja [!INCLUDE[d365fin](../includes/d365fin_md.md)]ia koskevasta yhteensopivuudesta.  
+Tässä sisällössä on tietoja [!INCLUDE[prod_short](../includes/prod_short.md)]ia koskevasta yhteensopivuudesta.  
 
 Yhteensopivuus on aihe, josta ollaan entistä kiinnostuneempia. Business Centralin kehitystyön aikana olemme halunneet varmistaa, että tuote antaa asiakkaille ja kumppaneille monipuoliset työkalut eikä aiheuta rajoituksia yhteensopivuuden osalta. Itse asiassa Business Centralissa perustuu ympäristöön ja sisältää toimintoja, jotka helpottavat yhteensopivuutta ja säädösten noudattamista asiakkaiden osalta.
 
@@ -34,4 +34,4 @@ Tässä osassa on lisätietoja, miten yhteensopivuus otetaan huomioon sovellukse
 |Lisätietoja Business Centraliin liittyvistä erilaisista sertifioinneista. Saat lisätietoja yleisistä sertifioinnista ja maakohtaisista sertifioinneista.|[Sertifikaatit](compliance-certifications.md)|  
 |Lisätietoja palvelutasosopimuksen ehdoista ja muista palveluehdoista.|[Palvelun ehdot](compliance-service-compliance.md#service-terms)|  
 
-## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  

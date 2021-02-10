@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: service, service items, repairs, maintenance, fix
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: aed172663290ce3ac467e405266d513a8978a128
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 22b8ae947ceb82753aa0e881ba8b0ebf603cca9f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912994"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747891"
 ---
 # <a name="setting-up-service-management"></a>Huoltohallinnon määrittäminen
-Tietyt toiminnot on määritettävä, ennen kuin [!INCLUDE[d365fin](includes/d365fin_md.md)]in huoltohallinnon toimintoja voi käyttää. Voit määrittää esimerkiksi vakiohuoltojen koodauksen, oire- ja vikakoodit sekä yrityksen asiakaspalvelun tarvitsemat huoltonimikkeet ja huoltonimiketyypit.  
+Tietyt toiminnot on määritettävä, ennen kuin [!INCLUDE[prod_short](includes/prod_short.md)]in huoltohallinnon toimintoja voi käyttää. Voit määrittää esimerkiksi vakiohuoltojen koodauksen, oire- ja vikakoodit sekä yrityksen asiakaspalvelun tarvitsemat huoltonimikkeet ja huoltonimiketyypit.  
 
 Huoltohallintoa määritettäessä on päätettävä, mitä huoltoja tarjoat asiakkaille ja mikä kyseisten huoltojen aikataulu on. Palvelu on yhden tai useamman resurssin suorittama työ, joka toimitetaan asiakkaalle. Huolto voi olla esimerkiksi tietokoneen korjaamista. Huoltonimike on laite tai nimike, joka tarvitsee huoltoa, kuten tietokone, joka on asennettu asiakkaalle. Voit määrittää palvelut osaksi ryhmää liittyviä korjaus- ja huolto-osia.  
   

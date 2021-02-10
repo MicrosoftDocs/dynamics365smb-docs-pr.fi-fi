@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: cfb7c0186f7ed81687ad3f4d667b3f71d77af424
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 659478fb593f16c4c0a8dd746ccdd61211bc7ecb
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922515"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752723"
 ---
 # <a name="prepare-a-configuration-package"></a>Määrityspaketin valmisteleminen
 
@@ -45,7 +45,7 @@ Käyttöoikeuden on sisällettävä päivitettävät taulut. Jos et ole varma, *
 
 Määrityspaketin luonti- ja tuontiprosessiin liittyvät seuraavat voimassa olevat käyttöoikeudet kaikkiin paketin tauluihin:  
 
-- Määrityspaketin tietoja vievällä käyttäjällä on oltava voimassa oleva **Luku**oikeus.
+- Määrityspaketin tietoja vievällä käyttäjällä on oltava voimassa oleva **Luku** oikeus.
 - Määrityspaketin tietoja tuovalla käyttäjällä on oltava voimassa olevat **Lisää**- ja **Muokkaa**-oikeudet.
 
 ### <a name="database-schema"></a>Tietokannan rakenne
@@ -63,7 +63,7 @@ Tietokannasta, jolla on eri rakenne kuin kohdetietokanta, voi tuoda määrityspa
 5. Valitse **Hae taulukot** -toiminto. **Hae pakettitaulukot** -eräajon sivu avautuu.  
 6. Valitse **Valitse taulukot** -kenttä. **Määrityksen valinta** -sivu avautuu.  
 7. Valitse **Valitse kaikki** -toiminto, jos haluat lisätä kaikki taulukot pakettiin, tai valitse luettelosta kaikkien lisättävien taulukoiden **Valittu**-valintaruutu.
-8. Valitse **OK**-painike. Valitsemiesi taulukoiden määrä ilmaistaan **Valitse taulukot** -kentässä. Määritä lisäasetukset ja paina **OK** -painiketta. [!INCLUDE[d365fin](includes/d365fin_md.md)] -taulukoiden rivejä lisätään **Määrityspaketti**-sivulle.  
+8. Valitse **OK**-painike. Valitsemiesi taulukoiden määrä ilmaistaan **Valitse taulukot** -kentässä. Määritä lisäasetukset ja paina **OK** -painiketta. [!INCLUDE[prod_short](includes/prod_short.md)] -taulukoiden rivejä lisätään **Määrityspaketti**-sivulle.  
 
     > [!NOTE]  
     >  Voi tehdä tämän myös määritystyökirjassa. Valitse pakettiin sisällytettävät taulukot ja valitse sitten **Määritä paketti** -toiminto.
@@ -151,7 +151,7 @@ Kun luot kokoonpanonpaketin ratkaisua varten, voit tarkastella ja mukauttaa käy
 2. Etsi määritystyökirjasta taulukot, joiden tietoja haluat tarkastella tai muokata.  
 
     > [!NOTE]  
-    >  Varmista, että jokaiseen taulukkoon on määritetty sivun tunnus. Tämä arvo on täytetty automaattisesti vakiomuotoisissa [!INCLUDE[d365fin](includes/d365fin_md.md)] -taulukoissa. Mukautetuille taulukoille on annettava tunnus.
+    >  Varmista, että jokaiseen taulukkoon on määritetty sivun tunnus. Tämä arvo on täytetty automaattisesti vakiomuotoisissa [!INCLUDE[prod_short](includes/prod_short.md)] -taulukoissa. Mukautetuille taulukoille on annettava tunnus.
 
 3. Valitse **Tietokantatiedot**-toiminto. Liittyvän sivun sivu avautuu.
 4. Tarkastele käytettävissä olevia tietoja Muokkaa sitä tarpeen mukaan poistamalla epäolennaiset tietueet tai lisäämällä uusia.  
@@ -174,3 +174,4 @@ Kun olet tarkistanut ja testannut kaikki asetustiedot, voit jatkaa tietojen kopi
 [Yrityksen konfiguroinnin määrittäminen](admin-set-up-company-configuration.md)  
 [Yrityksen määrittäminen RapidStart Servicesin avulla](admin-set-up-a-company-with-rapidstart.md)  
 [Hallinta](admin-setup-and-administration.md)  
+[Konfigurointipaketin jäljityksen telemetrian analysointi](/dynamics365smb-devitpro/dev-itpro/administration/telemetry-configuration-package-trace)  

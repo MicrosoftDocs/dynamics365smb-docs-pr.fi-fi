@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f294fdce544de36992c3b6793ee397dfc271a319
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 66f74554ee2619935b2b27ace6b4812602747139
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917899"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752698"
 ---
 # <a name="configure-new-companies"></a>Uusien yritysten määrittäminen
 Uusi yritys määritetään ratkaisun käyttöönottoa varten yleensä kolmen vaiheen avulla. Ensimmäisessä vaiheessa tuodaan määrityspaketti, joka on määritystiedot sisältävä .rapidstart-tiedosto. Toisessa vaiheessa muokataan määritystietoja ja käytetään niitä uudessa yrityksessä. Viimeisessä vaiheessa mahdolliset virheet tarkistetaan ja korjataan.  
@@ -31,7 +31,7 @@ Ennen kuin tuot määrityspaketin, on hyvä tarkistaa, että seuraavat lauseet t
 * Määrityspaketin tuovalla käyttäjällä on voimassa olevat Lisää- ja Muokkaa-oikeudet kaikkiin tauluihin, joita paketti päivittää. Lisätietoja on kohdassa [Määritä käyttöoikeudet käyttäjille ja ryhmille](ui-define-granular-permissions.md) 
 
 ## <a name="to-import-a-configuration-package"></a>Tuo paketin kokoonpano  
-1. Avaa uusi yritys [!INCLUDE[d365fin](includes/d365fin_md.md)] -tietokannassa.  
+1. Avaa uusi yritys [!INCLUDE[prod_short](includes/prod_short.md)] -tietokannassa.  
 2. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Määrityspaketit** ja valitse sitten liittyvä linkki.  
 3. Valitse **Tuo paketti** -toiminto.  
 4. Siirry kohtaan, jonne määrityspaketin .rapidstart-tiedosto on tallennettu, ja valitse **Avaa**-painike.  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 74eb66c4303acb452972f9ac3c7dda008e3c6502
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6e4bf13885ccd7888e1750f4351741150df7b7df
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923818"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746214"
 ---
 # <a name="register-new-items"></a>Uusien nimikkeiden rekisteröiminen
 
@@ -25,7 +25,7 @@ Nimikekortti sisältää tiedot, jotka tarvitaan nimikkeiden ostamista, tallenta
 
 Nimikkeen kortin tyyppi voi olla **Varasto**, **Huolto** tai **Muu kuin huolto**. Se määrittää, onko nimike fyysisen varasto yksikkö, työn aikayksikkö vai fyysinen yksikkö, jota ei seurata varastossa. Lisätietoja on kohdassa [Tietoja nimiketyypeistä](inventory-about-item-types.md).
 
-Nimike voi olla tuoterakenteessa päänimike, jonka alla on alinimikkeitä. [!INCLUDE[d365fin](includes/d365fin_md.md)]in tuoterakenne voi olla joko kokoonpanon tuoterakenne tai tuotannon tuoterakenne sen mukaan, miten sitä käytetään. Lisätietoja on kohdassa [Tuoterakenteen käyttäminen](inventory-how-work-BOMs.md).
+Nimike voi olla tuoterakenteessa päänimike, jonka alla on alinimikkeitä. [!INCLUDE[prod_short](includes/prod_short.md)]in tuoterakenne voi olla joko kokoonpanon tuoterakenne tai tuotannon tuoterakenne sen mukaan, miten sitä käytetään. Lisätietoja on kohdassa [Tuoterakenteen käyttäminen](inventory-how-work-BOMs.md).
 
 Jos ostat saman nimikkeen useammalta kuin yhdeltä toimittajalta, voit yhdistää kyseiset toimittajat nimikkeen korttiin. Toimittajat näkyvät sitten **Nimikkeen toimittajaluettelo** -sivulla, jossa voit valita kätevästi vaihtoehtoisen toimittajan.
 
@@ -71,7 +71,7 @@ Nimikemalli lisätään nimikemallien luetteloon niin, että sen avulla voit luo
 
 ### <a name="items-used-in-production-orders"></a>Tuotantotilauksissa käytetyt nimikkeet
 
-Jos halutaan rekisteröidä myöhemmin tuotantotilauksessa käytettäviä nimikkeitä, täydennysjärjestelmä määritetään *tuotantotilauksena***Täydennys**-pikavälilehdessä. Lisätietoja on kohdassa [Tietoja tuotantotilauksista](production-about-production-orders.md).  
+Jos halutaan rekisteröidä myöhemmin tuotantotilauksessa käytettäviä nimikkeitä, täydennysjärjestelmä määritetään *tuotantotilauksena* **Täydennys**-pikavälilehdessä. Lisätietoja on kohdassa [Tietoja tuotantotilauksista](production-about-production-orders.md).  
 
 ## <a name="to-set-up-multiple-vendors-for-an-item"></a>Useiden toimittajien määrittäminen nimikkeille
 
@@ -96,7 +96,7 @@ Jos olet kirjannut nimikkeelle tapahtuman, et voi poistaa korttia, koska nimiket
 
 ## <a name="manage-inventory-in-warehouses"></a>Hallitse varastoa fyysisessä varastossa
 
-Kun rekisteröit uuden nimikkeen, näyttöön tulee varastoinnin hallintaan liittyviä kenttiä, erityisesti **Fyysinen varasto** -pikavälilehdessä. Jos organisaatiossasi ei käytetä [!INCLUDE [prodshort](includes/prodshort.md)] -ohjelman varastonhallinnan ominaisuuksia, voit ohittaa kyseiset kentät.  
+Kun rekisteröit uuden nimikkeen, näyttöön tulee varastoinnin hallintaan liittyviä kenttiä, erityisesti **Fyysinen varasto** -pikavälilehdessä. Jos organisaatiossasi ei käytetä [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelman varastonhallinnan ominaisuuksia, voit ohittaa kyseiset kentät.  
 
 Jos organisaatiosi myöhemmin määrittää varastonhallinnan, sinun täytyy useimmiten palata takaisin kuhunkin aiemmin luotuun nimikkeeseen ja varmistaa, että tiedot ovat oikein eri kentissä, jotta fyysisen varastoinnin prosessit voidaan suorittaa odotetulla tavalla. Nämä tiedot voivat sisältää esimerkiksi **Fyysisen varaston luokkakoodi**- tai **Hyllytysmallin koodi** -kenttiä. Katso lisätietoja kohdasta [Rakennetiedot: Fyysisen varastoinnin asetukset](design-details-warehouse-setup.md).  
 
@@ -110,4 +110,4 @@ Jos organisaatiosi myöhemmin määrittää varastonhallinnan, sinun täytyy use
 [Kirjausryhmien määrittäminen](finance-posting-groups.md)  
 [Osto](purchasing-manage-purchasing.md)  
 [Myynti](sales-manage-sales.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  

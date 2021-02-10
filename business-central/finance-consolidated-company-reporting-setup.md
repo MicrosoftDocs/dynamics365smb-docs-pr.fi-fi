@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7a5ad9eeb2dc42f1cb6fe7640bda721a6f511a75
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d733b8000d5ea476d32a96bcccdceebc32e0f43c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927647"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750978"
 ---
 # <a name="set-up-company-consolidation"></a>Määritä yrityksen konsolidointi
 
@@ -33,7 +33,7 @@ Yritysten monimutkaisuus määrittää, kumpaa tapaa käytetään konsolidoinnin
 Jos kyse on suoraviivaisesta konsolidoinnista, koska esimerkiksi omistat kokonaan konsolidoitavat liiketoimintayksiköt, ohjattu **Yrityksen konsolidointi** -määritys auttaa seuraavissa vaiheissa:
 
 * Valitse, luodaanko uusi konsolidoitu yritys vai konsolidoidaanko tiedot yritykseen, joka on jo luotu konsolidointia varten. Yrityksessä ei saa olla tapahtumia.
-* Esikatsele tulokset. [!INCLUDE[d365fin](includes/d365fin_md.md)] varmistaa, että päätiedot ja tapahtumat voidaan siirtää konsolidoituun yritykseen.
+* Esikatsele tulokset. [!INCLUDE[prod_short](includes/prod_short.md)] varmistaa, että päätiedot ja tapahtumat voidaan siirtää konsolidoituun yritykseen.
 
 Käytä asetusten ohjattua määritystä seuraavasti:
 
@@ -70,7 +70,7 @@ Seuraavassa luettelossa havainnollistetaan konsolidoidun yrityksen keskeiset pii
 
 ### <a name="add-business-units"></a><a name="busunit"></a>Lisää liiketoimintayksiköt
 
-Voit määrittää [!INCLUDE[d365fin](includes/d365fin_md.md)]issa konsolidoitavien liiketoimintayksiköiden luettelon, tarkistaa laskentatiedot ennen konsolidointia, tuoda tiedostoja ja luoda konsolidointiraportteja.  
+Voit määrittää [!INCLUDE[prod_short](includes/prod_short.md)]issa konsolidoitavien liiketoimintayksiköiden luettelon, tarkistaa laskentatiedot ennen konsolidointia, tuoda tiedostoja ja luoda konsolidointiraportteja.  
 
 1. Kirjaudu konsolidoituun yritykseen.
 2. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Liiketoimintayksiköt** ja valitse sitten liittyvä linkki.  
@@ -88,7 +88,7 @@ Konsolidoitavan yrityksen tilikartan on määritettävä konsolidoinnissa käyte
 
 Jos liiketoimintayksikön tilikartta poikkeaa konsolidoidun yrityksen tilikartasta, kirjanpitotilit on valmisteltava konsolidointia varten. Voit määrittää tilit, joihin debet- ja kreditsummat kirjataan, ja menetelmän, jolla valuutat muunnetaan konsolidoidussa yrityksessä. Tästä on hyötyä esimerkiksi silloin, jos raportti suoritetaan usein.
 
-1. Valitse jokaisen liiketoimintayksikön [!INCLUDE [prodshort](includes/prodshort.md)] -ohjelmassa ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tilikartta** ja valitse sitten liittyvä linkki.  
+1. Valitse jokaisen liiketoimintayksikön [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmassa ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tilikartta** ja valitse sitten liittyvä linkki.  
 2. Avaa tilin kortti ja täytä **Konsolidointi**-pikavälilehden kentät. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="specify-exchange-rates-for-consolidations"></a><a name="exchrates"></a>Määritä valuutan vaihtokurssit konsolidoiduissa yrityksissä
@@ -136,5 +136,5 @@ Jos omistat osan yrityksestä, voit sisällyttää kustakin tapahtumasta sen pro
 
 [Usean yrityksen kirjanpitotietojen konsolidoiminen](finance-consolidated-company-reporting.md)  
 [Konsernitapahtumien hallinta](intercompany-manage.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Liiketoimintatietojen vienti Exceliin](about-export-data.md)

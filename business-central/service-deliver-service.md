@@ -12,21 +12,21 @@ ms.workload: na
 ms.search.keywords: service, service items, respond, response
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bf4a825c8d035b4dab6f6e8b8fc3472eb48ddf6d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 672e94526eabacf088acf771bdfca1e2b2361922
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910378"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748053"
 ---
 # <a name="delivering-service"></a>Huollon toimittaminen
-[!INCLUDE[d365fin](includes/d365fin_md.md)]:n toiminnot helpottavat huollon toimittamista luotujen sopimusten ja huoltotilausten mukaisesti. Huoltoteknikot ja huollon aikatauluttajat voivat tarkastaa odottavat huoltotilaukset helposti **lähetystaulukosta**. **Lähetystaulukosta** ilmenevät sekä käynnissä olevat että valmiit tilaukset.  
+[!INCLUDE[prod_short](includes/prod_short.md)]:n toiminnot helpottavat huollon toimittamista luotujen sopimusten ja huoltotilausten mukaisesti. Huoltoteknikot ja huollon aikatauluttajat voivat tarkastaa odottavat huoltotilaukset helposti **lähetystaulukosta**. **Lähetystaulukosta** ilmenevät sekä käynnissä olevat että valmiit tilaukset.  
   
 Voit tarkastella jonossa olevia huoltotilauksia myös **Huoltotehtävät**-sivulla. Tästä huoltovelvoitteiden näkymästä voi tarkistaa, missä kohtaa huoltotyönkulkua tilaus on. Samassa näkymässä voi myös muuttaa tilauksen tilan ajan tasalle.  
   
 Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aiheisiin.   
 
-Asiakkaiden huoltopyyntöjen käsitteleminen on olennainen osa huoltohallintosovellusta. Huoltopyynnöt muunnetaan yleensä huoltotilauksiksi. [!INCLUDE[d365fin](includes/d365fin_md.md)]:n työkaluilla voit luoda tilauksen suoraan vastauksena asiakkaan pyyntöön tai osana sopimusprosessia, jos sovellus näin määritetään.  
+Asiakkaiden huoltopyyntöjen käsitteleminen on olennainen osa huoltohallintosovellusta. Huoltopyynnöt muunnetaan yleensä huoltotilauksiksi. [!INCLUDE[prod_short](includes/prod_short.md)]:n työkaluilla voit luoda tilauksen suoraan vastauksena asiakkaan pyyntöön tai osana sopimusprosessia, jos sovellus näin määritetään.  
   
 Voit hallita tarvittaessa asiakkaiden lainatavaraohjelmaa. Voit myös selvittää hinnoittelurakenteen, asettaa huoltohinnoittelutarjoukset loogisiin ryhmittelyihin ja luoda hintojen muutokset.  
   

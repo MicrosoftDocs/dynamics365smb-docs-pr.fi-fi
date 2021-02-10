@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 10/01/2020
+ms.date: 11/26/2020
 ms.author: bholtorf
-ms.openlocfilehash: 73b0044dae3035c7156812b1f4ff4b8722df57c9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f3c36a1b5d3477d6564c66ede9c1a6bff51281df
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922867"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746114"
 ---
 # <a name="keyboard-shortcuts"></a>Pikanäppäimet
 
-Tässä artikkelissa käsitellään yleisesti [!INCLUDE[prodshort](includes/prodshort.md)] -ohjelman joitakin pikanäppäinyhdistelmiä.
+Tässä artikkelissa käsitellään yleisesti [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman joitakin pikanäppäinyhdistelmiä.
 
 Yleistietoja suosituimmista pikanäppäimistä on kohdassa [Pikanäppäimet (vain PC)](keyboard-shortcuts-cheatsheet.md).
 
@@ -37,7 +37,7 @@ Pikanäppäimet ovat helppokäyttötoimintoja. Ne auttavat ja tehostavat sivun e
 Useimmat pikanäppäimet ovat samoja sekä Windows- että macOS-käyttöjärjestelmissä. Jotkin pikanäppäimet ovat kuitenkin erilaisia macOS-järjestelmässä. Seuraavissa osa macOS-käyttöjärjestelmän pikanäppäimet ovat sulkeissa.
 
 > [!NOTE]
-> Tässä ohjeaiheessa käsiteltyjen yleisten pikanäppäimien lisäksi käytössä on useita liiketoimintakohtaisia pikanäppäimiä. Esimerkiksi [!INCLUDE[prodshort](includes/prodshort.md)]in yleisessä versiossa F9 kirjaa asiakirjan ja CTRL+F7 näyttää tietueen rahoitustapahtumat. (Käytetyssä ratkaisussa voi olla käytössä jotkin muut pikanäppäimet.) Pikanäppäin näkyy kyseisen toiminnon työkaluvihjeessä.
+> Tässä ohjeaiheessa käsiteltyjen yleisten pikanäppäimien lisäksi käytössä on useita liiketoimintakohtaisia pikanäppäimiä. Esimerkiksi [!INCLUDE[prod_short](includes/prod_short.md)]in yleisessä versiossa F9 kirjaa asiakirjan ja CTRL+F7 näyttää tietueen kirjanpitotapahtumat, kun avataan tietue kortissa. (Käytetyssä ratkaisussa voi olla käytössä jotkin muut pikanäppäimet.) Pikanäppäin näkyy kyseisen toiminnon työkaluvihjeessä.
 
 ##  <a name="general-keyboard-shortcuts"></a><a name="Keyboard"></a> Yleiset pikanäppäimet
 
@@ -63,7 +63,7 @@ Seuraavassa taulukossa on kuvattu sivun eri elementtien selaamiseen ja käyttäm
 |Ctrl+F1|Avaa sivun Business Central -ohje.|
 |Ctrl+F12|Vaihtele leveää ja kapeaa asettelua.|
 |Ctrl+napsautus|Siirry mukautusten aikana, kun nuolenpää osoittaa toiminnon valinnan. Lisätietoja on kohdassa [Työtilan mukauttaminen](ui-personalization-user.md).|  
-|Ctrl+F5|[!INCLUDE[prodshort](includes/prodshort.md)] -sovellus ladataan uudelleen. (Vastaa selaimen päivittämistä tai sivun uudelleen avaamista selaimessa.)|
+|Ctrl+F5|[!INCLUDE[prod_short](includes/prod_short.md)] -sovellus ladataan uudelleen. (Vastaa selaimen päivittämistä tai sivun uudelleen avaamista selaimessa.)|
 |F5|Tietojen päivitys nykyisellä sivulla.<br /><br />Voit varmistaa tällä näppäimellä, että sivulla näkyvät tiedot sisältävät kaikki muiden oman työskentelysi aikana tekemät muutokset.|
 |Syötä|Ota kohdistettu elementti tai ohjausobjekti käyttöön tai käytä sitä.|
 |Esc|Sulje nykyinen sivu tai avattava luettelo.|
@@ -88,7 +88,7 @@ Seuraavassa taulukossa kuvataan luettelosivulla käytettävät pikanäppäimet. 
 
 ### <a name="navigating-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Rivien ja sarakkeiden välillä siirtyminen
 
-Rivejä ja sarakkeita sisältäviä ruudukoita on useilla sivutyypeillä sovelluksessa [!INCLUDE[prodshort](includes/prodshort.md)]. Sivuja ovat esimerkiksi luettelosivut ja asiakirjojen **Rivit**-osat. Siirtyminen yhdestä solusta toiseen ruudukossa voidaan tehdä täysin näppäimistön avulla.
+Rivejä ja sarakkeita sisältäviä ruudukoita on useilla sivutyypeillä sovelluksessa [!INCLUDE[prod_short](includes/prod_short.md)]. Sivuja ovat esimerkiksi luettelosivut ja asiakirjojen **Rivit**-osat. Siirtyminen yhdestä solusta toiseen ruudukossa voidaan tehdä täysin näppäimistön avulla.
 
 |Paina näitä näppäimiä<br />(macOS)|Luettelonäkymän toiminnot |Ruutunäkymän toiminnot |
 |--------------------------------|--------------------------|--------------------------|
@@ -206,11 +206,19 @@ Päivämääräkenttää määrittäessäsi voit syöttää päivämäärän man
 |Sivu alas<br />(Fn+alanuoli)|Siirry raportissa seuraavalle sivulle.|
 |Sivu ylös<br />(Fn+ylänuoli)|Siirry raportissa edelliselle sivulle.|
 
+## <a name="keyboard-shortcuts-for-zooming-in-and-out"></a><a name="zoomshortcuts"></a>Lähentämisen ja loitontamisen pikanäppäimet
+
+|Paina näitä näppäimiä|Tehtävä|
+|--------------------------------|----------|
+|Ctrl++|Lähennä nykyistä sivua.|  
+|Ctrl+-|Loitonna nykyistä sivua.|  
+|Ctrl+0|Lähennä tai loitonna nykyistä sivua 100 prosentin kokoon.|  
+
 ## <a name="see-also"></a>Katso myös .
 
 [Näppäimistön Pikaohje - Vain PC](keyboard-shortcuts-cheatsheet.md)  
 [Aputoiminnot](ui-accessibility.md)  
 [Käytön aloittaminen](product-get-started.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Usein kysytyt kysymykset](across-faq.md)  
 [Etsi tapahtumat](ui-find-entries.md)  

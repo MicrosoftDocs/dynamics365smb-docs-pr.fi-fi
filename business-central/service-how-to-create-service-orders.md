@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4f2f9602cb050639651a17ea6728eb40762f1ea6
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f99a41a60b446f0f225d6112e07f37ded0dd2a78
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918686"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748041"
 ---
 # <a name="create-service-orders"></a>Huoltotilausten luominen
 **Huoltotilaus**-sivulla voidaan luoda asiakirjoja, joihin syötetään tietoja asiakkaan pyynnöstä tehtävästä huoltonimikkeiden huollosta (korjauksesta tai ylläpidosta).  
@@ -52,7 +52,7 @@ Huoltotilauksia voidaan luoda huoltonimikkeiden ylläpitoa varten automaattisest
 ## <a name="to-convert-a-service-quote-to-a-service-order"></a>Huoltotarjousten muuntaminen huoltotilauksiksi
 Kun asiakas on hyväksynyt huoltotarjouksen, se muunnetaan huoltotilaukseksi. Tarjous poistetaan ja uusi huoltotilaus määritetään käyttämällä samaa kuvausta kuin huoltotarjous. Ohjelma laskee uudelleen huoltotilauksen vastauspäivämäärän ja -ajan sekä asettaa sen tilaksi **Odottava**. Se muuttaa tilauksessa olevien huoltonimikkeiden korjauksen tilaksi **Alku**.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] etsii kaikkien huoltotarjouksessa olevien huoltonimikkeiden osalta kohdistustapahtumia, joiden tila on **Aktiivinen**. Jos tällaisia kohdistustapahtumia löytyy, ohjelma päivittää niiden kohdistuksen tilaksi **Uudelleenkohdistamista tarvitaan**. Kun huoltotilauksessa olevia huoltonimikkeitä uudelleenkohdistetaan, ohjelma muuttaa tarjoukselle rekisteröityjen kohdistustapahtumien tilaksi **Valmis.**   
+[!INCLUDE[prod_short](includes/prod_short.md)] etsii kaikkien huoltotarjouksessa olevien huoltonimikkeiden osalta kohdistustapahtumia, joiden tila on **Aktiivinen**. Jos tällaisia kohdistustapahtumia löytyy, ohjelma päivittää niiden kohdistuksen tilaksi **Uudelleenkohdistamista tarvitaan**. Kun huoltotilauksessa olevia huoltonimikkeitä uudelleenkohdistetaan, ohjelma muuttaa tarjoukselle rekisteröityjen kohdistustapahtumien tilaksi **Valmis.**   
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Huoltosopimustarjoukset** ja valitse sitten liittyvä linkki.  
 2. Valitse huoltotilaukseksi muunnettava huoltotarjous.  

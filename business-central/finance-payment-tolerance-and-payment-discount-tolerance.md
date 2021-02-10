@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 823403fc34ad57cb170fc39bd9533b53c4008950
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 50e37e54d840c82cbcbfc92ab8f5fc009642a6b4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910878"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750528"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Maksutoleranssien ja maksualennustoleranssien käsitteleminen
 Voit määrittää maksutoleranssin ja sulkea sen avulla laskun, kun maksu ei täysin kata laskun summaa. Esimerkiksi maksutoleranssit ovat tyypillisesti pieniä maksuja, joiden korjaaminen maksaa enemmän kuin niiden hyväksyntä. Voit määrittää maksualennustoleranssin, jolla voi myöntää maksualennuksen sen jälkeen kun maksualennuspäivämäärä on ohitettu.  
@@ -58,14 +58,14 @@ Määrittääksesi toleranssin sinun tulee määrittää useita toleranssitilej�
 11. Täytä **Muuta maksutoleranssia** -sivulla **Maksutoleranssi %**- ja **Maksimi maksutoleranssisumma** -kentät ja valitse **OK**.
 
 > [!IMPORTANT]  
->  Nyt olet määrittänyt maksutoleranssin vain paikalliselle valuutalle. Jos haluat, että [!INCLUDE[d365fin](includes/d365fin_md.md)] käsittelevän maksujen, hyvityslaskujen ja hyvitysten toleransseja ulkomaan valuuttana, sinun on tehtävä **Muuta maksutoleranssia** -eräajo **Valuuttakoodi**-kentän arvolla.  
+>  Nyt olet määrittänyt maksutoleranssin vain paikalliselle valuutalle. Jos haluat, että [!INCLUDE[prod_short](includes/prod_short.md)] käsittelevän maksujen, hyvityslaskujen ja hyvitysten toleransseja ulkomaan valuuttana, sinun on tehtävä **Muuta maksutoleranssia** -eräajo **Valuuttakoodi**-kentän arvolla.  
 
 > [!NOTE]  
 >  Mikäli haluat saada maksutoleranssivaroituksen joka kerran kun kirjaat kohdistuksen, joka osuu toleranssialueelle, sinun tulee aktivoida maksualennusvaroitus. Lisätietoja on kohdassa [Maksutoleranssin varoituksen ottaminen käyttöön tai poistaminen käytöstä](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings).  
 >   
 >  Jos haluat poistaa toleranssin käytöstä asiakkaalta tai toimittajalta, toleranssit on estettävä kyseisen asiakkaan tai toimittajan kortissa. Lisätietoja on kohdassa [Asiakkaiden maksutoleranssin estäminen](finance-payment-tolerance-and-payment-discount-tolerance.md#to-block-payment-tolerance-for-customers).  
 >   
->  Kun määrität toleranssin, [!INCLUDE[d365fin](includes/d365fin_md.md)] tarkastaa onko avoimia tapahtumia ja laskee toleranssin myös näille tapahtumille.
+>  Kun määrität toleranssin, [!INCLUDE[prod_short](includes/prod_short.md)] tarkastaa onko avoimia tapahtumia ja laskee toleranssin myös näille tapahtumille.
 
 ## <a name="to-enable-or-disable-payment-tolerance-warnings"></a>Maksutoleranssivaroitusten ottaminen käyttöön tai poistaminen käytöstä
 Maksutoleranssivaroitus ilmestyy, kun kirjaat kohdistuksen, jonka saldo mahtuu sallittuun toleranssiin. Voit sitten päättää kuinka kirjaat ja dokumentoit saldon.    
@@ -208,7 +208,7 @@ Jäljellä oleva summa per
 
 Normaalit kohdistussäännöt  
 
-![Useiden maksujen toleranssin säännöt 1](media/multiplePmtTolRules(Pre1503).gif "Useiden maksujen toleranssin säännöt 1")  
+:::image type="content" source="media/multiplePmtTolRules(Pre1503).gif" alt-text="Useiden maksujen toleranssin säännöt 1a":::
 
 (1) Mikäli maksu osuu tälle välille, kaikki kohdistettavat tapahtumat voidaan sulkea toleranssilla tai ilman sitä.  
 
@@ -219,7 +219,7 @@ Jäljellä oleva summa per
 
 Normaalit kohdistussäännöt  
 
-![Useiden maksujen toleranssin säännöt 2](media/multiplePmtTolRules(GracePeriodInv1-2).gif "Useiden maksujen toleranssin säännöt 2")  
+:::image type="content" source="media/multiplePmtTolRules(GracePeriodInv1-2).gif" alt-text="Useiden maksujen toleranssin säännöt 2":::
 
 (1) Mikäli maksu osuu tälle välille, kaikki kohdistettavat tapahtumat voidaan sulkea toleranssilla tai ilman sitä.  
 
@@ -230,7 +230,7 @@ Jäljellä oleva summa per
 
 Normaalit kohdistussäännöt  
 
-![Useiden maksujen toleranssin säännöt 3](media/multiplePmtTolRules(GracePeriodInv1).gif "Useiden maksujen toleranssin säännöt 3")  
+:::image type="content" source="media/multiplePmtTolRules(GracePeriodInv1).gif" alt-text="Useiden maksujen toleranssin säännöt 3":::
 
 (1) Mikäli maksu osuu tälle välille, kaikki kohdistettavat tapahtumat voidaan sulkea toleranssilla tai ilman sitä.  
 
@@ -241,7 +241,7 @@ Jäljellä oleva summa per
 
 Normaalit kohdistussäännöt  
 
-![Useiden maksujen toleranssin säännöt 4](media/multiplePmtTolRules(GracePeriodInv2).gif "Useiden maksujen toleranssin säännöt 4")  
+:::image type="content" source="media/multiplePmtTolRules(GracePeriodInv2).gif" alt-text="Useiden maksujen toleranssin säännöt 4":::
 
 (1) Mikäli maksu osuu tälle välille, kaikki kohdistettavat tapahtumat voidaan sulkea toleranssilla tai ilman sitä.  
 
@@ -252,7 +252,7 @@ Jäljellä oleva summa per
 
 Normaalit kohdistussäännöt  
 
-![Useiden maksujen toleranssin säännöt 5](media/multiplePmtTolRules(Post0122).gif "Useiden maksujen toleranssin säännöt 5")  
+:::image type="content" source="media/multiplePmtTolRules(Post0122).gif" alt-text="Useiden maksujen toleranssin säännöt 5":::
 
 (1) Mikäli maksu osuu tälle välille, kaikki kohdistettavat tapahtumat voidaan sulkea toleranssilla tai ilman sitä.  
 
@@ -262,4 +262,4 @@ Normaalit kohdistussäännöt
 [Rahoitus](finance.md)  
 [Rahoituksen määrittäminen](finance-setup-finance.md)  
 [Myyntisaamisten hallinta](receivables-manage-receivables.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)

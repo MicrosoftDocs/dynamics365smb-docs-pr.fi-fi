@@ -10,22 +10,22 @@ ms.workload: na
 ms.search.keywords: design, general journal, posting, codeunit 12
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: aaffac8fe7e10d0155649c960803f65a8136c46d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 56cf606151f687cf48138b3e14758d7febc47db6
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911078"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751577"
 ---
 # <a name="design-details-general-journal-post-line"></a>Rakenteen tiedot: Yleisen päiväkirjan kirjausrivi
-Tässä dokumentaatiossa on yksityiskohtaisia teknisiä tietoja [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman yleisen päiväkirjan kirjausriviominaisuuden uudelleenmäärityksessä käytettävistä konsepteista ja periaatteista. Uudelleensuunnittelu tekee koodiyksikkö 12:sta yksinkertaisemman ja ylläpidettävämmän. Dokumentointi alkaa kuvailemalla uudelleensuunnittelun käsitteelliset yhteenvedot. Tämän jälkeen kerrotaan teknisestä arkkitehtuurista ja näytetään muutokset, jotka uudelleensuunnittelu aiheuttaa.  
+Tässä dokumentaatiossa on yksityiskohtaisia teknisiä tietoja [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman yleisen päiväkirjan kirjausriviominaisuuden uudelleenmäärityksessä käytettävistä konsepteista ja periaatteista. Uudelleensuunnittelu tekee codeunit 12:sta yksinkertaisemman ja ylläpidettävämmän. Dokumentointi alkaa kuvailemalla uudelleensuunnittelun käsitteelliset yhteenvedot. Tämän jälkeen kerrotaan teknisestä arkkitehtuurista ja näytetään muutokset, jotka uudelleensuunnittelu aiheuttaa.  
 
 ## <a name="in-this-section"></a>Tämän osan sisältö  
 [Yleisen päiväkirjan kirjausrivin yleiskuva](design-details-general-journal-post-line-overview.md)  
 [Rakenteen tiedot: Kirjausliittymän rakenne](design-details-posting-interface-structure.md)  
 [Rakenteen tiedot: Kirjausohjelman rakenne](design-details-posting-engine-structure.md)  
-[Koodiyksikön 12 muutokset: Yleisten muuttujien linkitys yleisen päiväkirjan kirjausriviin](design-details-codeunit-12-changes-mapping-global-variables-for-general-journal-post-line.md)  
-[Koodiyksikön 12 muutokset: Päiväkirjakirjausten menettelytapojen muutokset](design-details-codeunit-12-changes-changes-in-general-journal-post-procedures.md)  
+[Codeunitin 12 muutokset: Yleisten muuttujien linkitys yleisen päiväkirjan kirjausriviin](design-details-codeunit-12-changes-mapping-global-variables-for-general-journal-post-line.md)  
+[Codeunitin 12 muutokset: Päiväkirjakirjausten menettelytapojen muutokset](design-details-codeunit-12-changes-changes-in-general-journal-post-procedures.md)  
 
 ## <a name="see-also"></a>Katso myös  
 [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md)

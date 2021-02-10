@@ -12,19 +12,19 @@ ms.workload: na
 ms.search.keywords: work in process, work in progress, calculate project WIP
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8b2cebfbee991bcb9aa9c9bebe9e9112a024c429
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8d23cd7ca8badf10bc8c734d84b5142d34ad4362
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918936"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748816"
 ---
 # <a name="understanding-wip-methods"></a>Tietoja KET-menetelmistä
 Projektin edetessä kulutetaan materiaaleja, resursseja ja muita kuluja, ja nämä on kirjattava projektiin. Keskeneräinen työ (KET) on ominaisuus, jonka avulla voit arvioida kirjanpidossa olevien projektien taloudellisen arvon projektin ollessa meneillään. Monissa tapauksissa saatat kirjata projektille kuluja ennen projektin laskuttamista. Kun projektista on kirjattu vain kuluja, rahoituslaskelma on epätarkka.
 
 Voit seurata arvoa kirjanpidossa laskemalla KET:n ja kirjaamalla arvon kirjanpitoon. Lisätietoja on kohdassa [Projektin edistymisen ja suorituskyvyn](projects-how-monitor-progress-performance.md)valvominen.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] tukee seuraavia keskeneräisen työn arvon laskennan ja kirjaamisen menetelmiä.
+[!INCLUDE[prod_short](includes/prod_short.md)] tukee seuraavia keskeneräisen työn arvon laskennan ja kirjaamisen menetelmiä.
 
 | KET-menetelmä | Laskentakaava | Laskennan kuvaus |
 | --- | --- | --- |
@@ -39,4 +39,4 @@ Voit seurata arvoa kirjanpidossa laskemalla KET:n ja kirjaamalla arvon kirjanpit
 [Rahoitus](finance.md)  
 [Osto](purchasing-manage-purchasing.md)         
 [Myynti](sales-manage-sales.md)      
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  

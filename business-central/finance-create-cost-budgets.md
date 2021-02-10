@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9fceeeda18b846edd79b9fdc71ab1a22d80203bd
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 2a8b8e88e296f36b8f4eb9bb41b05d5fc529b23b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913344"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750953"
 ---
 # <a name="creating-cost-budgets"></a>Kustannusbudjettien luominen
 Budjetointi kustannuslaskennassa muistuttaa pääkirjanpidon budjetointia. Kustannusbudjetti luodaan kustannustyyppien perusteella samalla tavalla kuin pääkirjanpidon budjetti luodaan pääkirjanpitotilien perusteella.  
@@ -37,4 +37,4 @@ Voit luoda ja analysoida kustannusbudjetteja seuraavilla sivuilla. Valitse ![Lam
 [KP-budjettien luominen](finance-how-create-budgets.md)  
 [Termit kustannuslaskennassa](finance-terminology-in-cost-accounting.md)   
 [Kustannusten määrittäminen ja kohdistaminen](finance-define-and-allocate-costs.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)

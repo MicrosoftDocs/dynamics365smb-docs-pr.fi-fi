@@ -5,12 +5,12 @@ author: loreleishannonmsft
 ms.date: 10/01/2020
 ms.topic: article
 ms.author: margoc
-ms.openlocfilehash: d0ab1b4894c9e8c586692e17210e8254eadb57eb
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c4a12f7a79840790a98c2a3a19a845fdd1bb91c2
+ms.sourcegitcommit: a95681db16e81af109b34f8e5d88028c1552c6a2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926645"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4367957"
 ---
 # <a name="partner-sales-and-marketing-learning-catalog"></a>Kumppanimyynti- ja markkinointiopintoluettelo
 
@@ -40,10 +40,9 @@ Seuraava luettelo on järjestetty perustiedoista tiettyihin toimialueisiin ja pe
 | Sisältö   | Kuvaus        | Muoto                                | Pituus                |
 |-----------|--------------------|---------------------------------------|-----------------------|
 | [Dynamics 365 Business Central - Mielenkiintoiset prospektikeskustelut (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101761)    | (Vain kumppanit) Liity Errol Schosfishin, tuotemarkkinointijohtajan seuraan, kun hän puhuu siitä, miten saada aikaan mielenkiintoisia keskusteluja prospektien kanssa Microsoft Dynamics 365 Business Centralista.   | Video    | 11 minuuttia 15 sekuntia |
-| [Etsi asiakaskertomuksia](https://customers.microsoft.com/search?sq=%22Dynamics%20365%20Business%20Central%20%22&ff=&p=0&so=story_publish_date%20desc)  | Etsi asiakasviitetarinoita Dynamics 365 Business Centraliin [https://customer.microsoft.com](https://customer.microsoft.com)ista.  | Sivusto |                       |
 | [Pilvipalveluratkaisuohjelma](https://partner.microsoft.com/membership/cloud-solution-provider)    | (Vain kumppanit) Tietoja pilvipalveluratkaisuohjelmasta     | Sivusto |                       |
 | [Markkinointi pilviympäristössä](https://mbspartner.microsoft.com/OSS/Topic/19) | (Vain Partner) Se, miten optimoit markkinointikäytännöt ja uudelleensuuntaavat markkinointiperiaatteet pilvipalveluun keskittyneessä maailmassa, on ensisijainen tekijä, kun organisaation onnistuminen tai epäonnistuminen etenee. Tämä sarja videoita ja resursseja tarjoaa markkinoinnin parhaita käytäntöjä, sisällön luomisen ohjausta, pragmaattisia vinkkejä ja hyödyllisiä työkaluja pilvimarkkinointiperiaatteiden soveltamiseen ratkaisujen kysynnän kasvattamiseksi. | Aihesivu | 35 minuuttia |
 | [Pilvipalveluratkaisuohjelma - kysynnän mukaisten pilviratkaisujen myynti](https://docs.microsoft.com/partner-center/csp-overview)  | Pilvipalveluratkaisuohjelma (CSP) auttaa sinua jälleenmyyjälisenssien ulkopuolella, jotta voisit osallistua paremmin asiakkaan liiketoimintaan.   | Sivusto      |                       |
 | [Pilvipalveluratkaisuohjelma - vertaile kumppanien tukiohjelmia](https://partner.microsoft.com/support/partnersupport) | Katsomalla tämän videon näet, miten voit valita yrityksellesi sopivan kumppanitukisuunnitelman. Katso sitten alla oleva rinnakkaisvertailu.    | Sivusto                               |                       |
 | [Cloud SureStepin nopeutettu myynti](https://mbspartner.microsoft.com/OSS/Topic/20)  | (Vain kumppanit) Cloud SureStepin nopeutettu myyntiprosessi rakentuu modernin ostajan tarpeisiin ja pyrkii käynnistämään emotionaalisen, kokemukseen perustuvan strategisen käännekohdan myyntiprosessin alussa. Tämä sarja videoita ja resursseja selittää ohjailevan myyntiprosessin, joka on erityisesti suunniteltu vastaamaan perinteistä resurssitehokasta, "demo-suuntautunutta" ratkaisumyynnin lähestymistapaa, joka tyypillisesti johtaa hyvin räätälöityihin tuote-esittelyihin, monimutkaisiin myyntisykleihin ja pitkiin toteutusprojekteihin. Resurssikirjasto sisältää useita mukautettavia malleja, joiden avulla voit luoda oman joukon myyntiresursseja, jotka tukevat nopeutettua myyntiä. | Sivusto     |                       |
-| [Siirtymiskumppanikäsikirjan täydennys (heinäkuu 2019) ](https://assetsprod.microsoft.com/d365-business-central-supplement-to-transition-partner-playbook.pptx) | Tässä siirtymiskumppanin käsikirjan täydennysosassa on uusia ja päivitettyjä ja ohjeita kumppaneille. Kumppanit voivat varmistaa näiden ohjeiden avulla, että nykyinen asiakaskunta ei siirry käyttämään kilpailijoiden ja uusien SaaS-toimijoiden palveluja.  | PowerPoint-diaesitys | 15 diaa |
+| [Siirtymiskumppanikäsikirjan täydennys (heinäkuu 2019) ](https://assetsprod.microsoft.com/d365-business-central-supplement-to-transition-partner-playbook.pptx) | Tässä siirtymiskumppanin käsikirjan täydennysosassa on uusia ja päivitettyjä ja ohjeita kumppaneille. Kumppanit voivat varmistaa näiden ohjeiden avulla, että nykyinen asiakaskunta ei siirry käyttämään kilpailijoiden ja uusien SaaS-toimijoiden palveluja.  | PowerPoint-diaesitys | 15 diaa |

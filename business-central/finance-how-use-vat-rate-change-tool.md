@@ -9,16 +9,16 @@ ms.workload: na
 ms.search.keywords: VAT, VAT rate, posting, tax, value-added tax
 ms.date: 10/01/2020
 ms.author: andregu
-ms.openlocfilehash: 7d75cb42b064f8541a1142ef149c9641baa6f69a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 9d01d332457d85c0450cdf98c79778b18eba304e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923918"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746789"
 ---
 # <a name="managing-vat-rate-changes"></a>ALV-prosenttimuutosten hallinta
 
-ALV-prosentit voivat muuttua paikallisen lainsäädännön mukaan. Kaikki ALV-muutokset vaikuttavat [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietoihin riippumatta siitä, laskeeko vai nouseeko ALV-prosentti vai poistetaanko se. ALV on yhdistetty moniin [!INCLUDE[d365fin](includes/d365fin_md.md)]in entiteetteihin, kuten asiakkaisiin, toimittajiin, nimikkeisiin, resursseihin, nimikelukuihin ja pääkirjanpitotileihin. ALV-prosentit muuttuvat yleensä tiettynä päivänä, johon mennessä esimerkiksi ALV-asetukset ja kirjausryhmät on muutettu, sillä näin voidaan varmistaa, että uusia myynti- ja ostotilauksia luotaessa käytetään uutta ALV-prosenttia.
+ALV-prosentit voivat muuttua paikallisen lainsäädännön mukaan. Kaikki ALV-muutokset vaikuttavat [!INCLUDE[prod_short](includes/prod_short.md)]in tietoihin riippumatta siitä, laskeeko vai nouseeko ALV-prosentti vai poistetaanko se. ALV on yhdistetty moniin [!INCLUDE[prod_short](includes/prod_short.md)]in entiteetteihin, kuten asiakkaisiin, toimittajiin, nimikkeisiin, resursseihin, nimikelukuihin ja pääkirjanpitotileihin. ALV-prosentit muuttuvat yleensä tiettynä päivänä, johon mennessä esimerkiksi ALV-asetukset ja kirjausryhmät on muutettu, sillä näin voidaan varmistaa, että uusia myynti- ja ostotilauksia luotaessa käytetään uutta ALV-prosenttia.
 
 ## <a name="changing-vat-rates"></a>ALV-prosenttien muuttaminen
 

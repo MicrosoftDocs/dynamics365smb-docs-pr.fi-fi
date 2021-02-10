@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ac927f9ef676cbfa433265346f69c92552802fce
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: aafd30be751440c9afd124f07ada43d57b799555
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919236"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748966"
 ---
 # <a name="create-production-orders-from-sales-orders"></a>Tuotantotilausten luominen myyntitilauksista
 Voit luoda tuotettujen nimikkeiden tuotantotilaukset suodaan myyntitilauksista.  
@@ -27,7 +27,7 @@ Voit luoda tuotettujen nimikkeiden tuotantotilaukset suodaan myyntitilauksista.
 3.  Valitse **Suunnittelu**-toiminto. **Myyntitilaus suunnittelu** -sivulla voi tarkastella myyntitilausnimikkeen saatavuutta.  
 4.  Valitse **Luo tuotantotilaus** -toiminto.  
 5.  Valitse tila ja tilaustyyppi.  
-6.  Valitse **Kyllä**luodaksesi tuotantotilauksen.
+6.  Valitse **Kyllä** luodaksesi tuotantotilauksen.
 
 Voit valita myös projektituotantotilauksen luominen. Lisätietoja on kohdassa [Projektitilausten suunnitteleminen](production-how-to-plan-project-orders.md).   
 
@@ -38,4 +38,4 @@ Voit valita myös projektituotantotilauksen luominen. Lisätietoja on kohdassa [
 [Osto](purchasing-manage-purchasing.md)  
 [Rakennetiedot: Toimitusten suunnittelu](design-details-supply-planning.md)   
 [Asetukset - parhaat käytännöt: toimitusten suunnittelu](setup-best-practices-supply-planning.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)

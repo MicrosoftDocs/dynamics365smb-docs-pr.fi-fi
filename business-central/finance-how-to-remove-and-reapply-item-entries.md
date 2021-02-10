@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f90f17fa962bc8a18ea3ba1c30b01af52463ede4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 006681473227ccf371c66708e5855da1bf868ddc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915583"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750677"
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Nimiketapahtumien poistaminen ja uudelleenkohdistaminen
 Voit tarkastella ja muuttaa **Kohdistustyökirja**-sivulla manuaalisesti tietyn nimikkeen kohdistustapahtumia, jotka on luotu automaattisesti varastotapahtumien yhteydessä.  
@@ -36,7 +36,7 @@ Jos et tehdä uudelleenkohdistusta, kuten korjata kiinteää kohdistusta, asiaki
 > Seuraavassa on tärkeitä muistettavia asioita, kun käsitellään kohdistustyökirjaa:
     - Älä jätä kohdistustapahtumia pitkäksi aikaa käyttämättä, koska muut käyttäjät eivät voi käsitellä nimikkeitä ennen kuin käytät kohdistustapahtumia uudelleen tai suljet **Sovellustyökirja**-sivun. Käyttäjät, jotka yrittävät tehdä toimia, joihin liittyy manuaalisesti kohdistamattoman kohdistustapahtuman saavat seuraavan virhesanoman: "Tätä toimintoa ei voi suorittaa, koska kohteen XXX tapahtumia ei ole käytetty sovelluksen asiakirjasta käyttäjän XXX toimesta."
     - Nimiketapahtumien uudelleenkohdistus on suositeltavaa tehdä muuna kuin työaikana. Tällöin vältetään ristiriidat muiden käyttäjien kirjatessa tapahtumia samalle nimikkeelle.
-    - Kun suljet kohdistustyökirjan, [!INCLUDE[d365fin](includes/d365fin_md.md)] suorittaa tarkistuksen ja varmistaa, että kaikki tapahtumat on kohdistettu. Jos esimerkiksi poistat määrän kohdistuksen, mutta et luo uutta kohdistusta, ja suljet sen jälkeen kohdistustyökirjan, ohjelma luo uuden kohdistuksen jos mahdollista. Tällöin kustannukset pysyvät samoina. Huomaa kuitenkin, että jos poistat kiinteän kohdistuksen, ohjelma ei luo uutta kiinteää kohdistusta automaattisesti työarkin sulkemisen yhteydessä. Sinun on luotava uusi kohdistus manuaalisesti työarkissa.
+    - Kun suljet kohdistustyökirjan, [!INCLUDE[prod_short](includes/prod_short.md)] suorittaa tarkistuksen ja varmistaa, että kaikki tapahtumat on kohdistettu. Jos esimerkiksi poistat määrän kohdistuksen, mutta et luo uutta kohdistusta, ja suljet sen jälkeen kohdistustyökirjan, ohjelma luo uuden kohdistuksen jos mahdollista. Tällöin kustannukset pysyvät samoina. Huomaa kuitenkin, että jos poistat kiinteän kohdistuksen, ohjelma ei luo uutta kiinteää kohdistusta automaattisesti työarkin sulkemisen yhteydessä. Sinun on luotava uusi kohdistus manuaalisesti työarkissa.
     - Voit poistaa usean tapahtuman kohdistukset samanaikaisesti kohdistustyökirjassa. Koska tapahtumien kohdistaminen vaikuttaa useisiin kohdistuksen käytettävissä oleviin tapahtumiin, voit luoda kohdistuksen vain yhdelle tapahtumalle samanaikaisesti.
     - Kohdistustyökirja ei voi tehdä kohdistusta seuraavassa tilanteessa: Jos varastossa ei ole tarpeeksi kohdistettavaa määrää, kohdistustyökirja ei voi tehdä kohdistusta, jos yrität kohdistaa varaston vähennystapahtumaa, jolla ei ole nimikeseurannan tietoja, sellaiseen varaston lisäystapahtumaan, jolla on nimikeseurannan tiedot.
 
@@ -77,4 +77,4 @@ Jos et tehdä uudelleenkohdistusta, kuten korjata kiinteää kohdistusta, asiaki
  [Ostopalautusten tai peruutusten käsittely](purchasing-how-process-purchase-returns-cancellations.md)  
  [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)   
  [Rakennetiedot: Nimikkeen kohdistus](design-details-item-application.md)  
- [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+ [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)

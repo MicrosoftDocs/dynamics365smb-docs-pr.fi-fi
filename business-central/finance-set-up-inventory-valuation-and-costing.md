@@ -7,19 +7,19 @@ ms.topic: article
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 524ed44ed305fc219ea15afc061994dbe3050503
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: edcaaaedde3bb42c0c0d69c3e71dd659f5475712
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910728"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750453"
 ---
 # <a name="setting-up-inventory-valuation-and-costing"></a>Varastonarvostuksen ja kustannuslaskennan määrittäminen
 
 Voit varmistaa, että varastokustannukset kirjataan oikein, määrittämällä tietyt kentät ja sivut ennen nimiketapahtumien tekemistä. Yleensä yritykset valitsevat tietyn kustannuslaskentamenetelmän ja soveltavat niitä esimerkiksi varastonimikkeisiin voidakseen seurata varastossa olevien nimikkeiden arvoa.  
 
 > [!TIP]
-> Lisätietoja kustannuslaskennan käyttöönotosta [!INCLUDE [prodshort](includes/prodshort.md)] -ohjelmassa on kohdassa [Tietoja kustannuslaskennasta](finance-learn-about-costing.md).
+> Lisätietoja kustannuslaskennan käyttöönotosta [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmassa on kohdassa [Tietoja kustannuslaskennasta](finance-learn-about-costing.md).
 
 Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aiheisiin.
 

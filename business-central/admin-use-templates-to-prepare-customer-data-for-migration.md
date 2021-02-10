@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8f4bd2978652366ecd18109377f4ebeeebfbb4a3
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8b45c9095674b6bb633717f3985557ef7e6a681b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922340"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4745914"
 ---
 # <a name="prepare-to-migrate-customer-data-with-templates"></a>Asiakastietojen siirtämisen valmisteleminen mallien avulla
 
@@ -28,7 +28,7 @@ Yleensä voit luoda tietomallit seuraaville päätietotaulukoille:
 - **Nimike**  
 - **Toimittaja**  
 
-Voit kuitenkin luoda mallirakenteen ja kohdistaa sen mihin tahansa ohjelman [!INCLUDE[d365fin](includes/d365fin_md.md)] taulukkoon.  
+Voit kuitenkin luoda mallirakenteen ja kohdistaa sen mihin tahansa ohjelman [!INCLUDE[prod_short](includes/prod_short.md)] taulukkoon.  
 
 > [!TIP]  
 > Voit myös käyttää tietueita päivittäisiin toimintoihin luodaksesi uusia tietueita, jotka perustuvat malleihin. Nämä tietomallit toimivat vain tuetuissa päätietotaulukoissa. Lisätietoja on esimerkiksi kohdassa [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md).  
@@ -87,7 +87,7 @@ Aiemmin luodun tietomallin taulukkotunnus, nimi ja rivit lisätään uuteen mall
 3. Anna **Oletusarvo**-kenttään asianmukainen arvo. Joissakin tapauksissa haluat ehkä käyttää arvoa, joka ei ole käytettävissä tietokannassa. Tällöin voit valita tietojen virheettömän käytön valitsemalla **Ohita suhteen tarkistus** -valintaruudun.
 
     > [!TIP]  
-    > Koska **Oletusarvo**-kentällä ei ole hakua vastaaviin [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman kenttäasetuksiin, kopioi ja liitä haluamasi arvo malliin asianmukaiselta sivulta.
+    > Koska **Oletusarvo**-kentällä ei ole hakua vastaaviin [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman kenttäasetuksiin, kopioi ja liitä haluamasi arvo malliin asianmukaiselta sivulta.
 
 4. Valitse **Pakollinen**-valintaruutu, jos käyttäjien on täytettävä kyseinen kenttä.
 
@@ -98,7 +98,7 @@ Aiemmin luodun tietomallin taulukkotunnus, nimi ja rivit lisätään uuteen mall
 
 ## <a name="to-export-to-a-template-in-excel"></a>Mallin vieminen Exceliin
 
-Voit luoda Excel-työkirjan malliksi, joka perustuu olemassa olevan tietokannan taulukon rakenteeseen nopeasti. Mallin avulla voit kerätä yhteen asiakastiedot yhdenmukaisessa muodossa myöhempää tuontia varten [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmaan.
+Voit luoda Excel-työkirjan malliksi, joka perustuu olemassa olevan tietokannan taulukon rakenteeseen nopeasti. Mallin avulla voit kerätä yhteen asiakastiedot yhdenmukaisessa muodossa myöhempää tuontia varten [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmaan.
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Määritystyökirja** ja valitse sitten liittyvä linkki.
 2. Lisää taulukko luetteloon tai valitse aiemmin luotu taulukko. Lisätietoja on kohdassa [Yrityksen määrittämisen hallinta työkirjassa](admin-how-to-manage-company-configuration-in-a-worksheet.md).
@@ -122,7 +122,7 @@ Kun käytät tietoja mallista Excel-taulukossa taulukkoon, jossa on myös kokoon
 Tietue, jonka tietoja käytetään tällä tavalla on täydellinen, koska se koostuu Excelissä käyttäjän syöttämistä tiedoista sekä määritysmallin mukaisista oletusarvoista.
 
 > [!NOTE]
-> Jos määrityspaketin taulukoiden tiedot sisältävät päivämääriä, kuten laskujen kirjauspäiviä, päivämäärien katsotaan noudattavan [!INCLUDE[d365fin](includes/d365fin_md.md)]issa määritettyä aikavyöhykettä. 
+> Jos määrityspaketin taulukoiden tiedot sisältävät päivämääriä, kuten laskujen kirjauspäiviä, päivämäärien katsotaan noudattavan [!INCLUDE[prod_short](includes/prod_short.md)]issa määritettyä aikavyöhykettä. 
 
 ## <a name="to-create-a-record-from-a-configuration-template"></a>Luo tietue konfiguraatiomallista
 
@@ -140,7 +140,7 @@ Seuraavissa vaiheissa esitellään, miten nimikekortti luodaan nimiketietomallis
 
 ## <a name="to-use-a-configuration-template-on-a-record"></a>Käytä konfigruointimallia tietueessa
 
-Voit käyttää tietomallia mihin tahansa tietueeseen, joka on [!INCLUDE[d365fin](includes/d365fin_md.md)] ja käyttää tätä tekniikkaa muuttaaksesi tai muokataksesi tietuetta. Kun teet tämän, tietueen aiemmin määritetyt arvot korvataan mallin arvoilla. Näin ollen sinun on oltava huolellinen, kun mallia sovelletaan olemassa oleviin tietueisiin.
+Voit käyttää tietomallia mihin tahansa tietueeseen, joka on [!INCLUDE[prod_short](includes/prod_short.md)] ja käyttää tätä tekniikkaa muuttaaksesi tai muokataksesi tietuetta. Kun teet tämän, tietueen aiemmin määritetyt arvot korvataan mallin arvoilla. Näin ollen sinun on oltava huolellinen, kun mallia sovelletaan olemassa oleviin tietueisiin.
 
 > [!WARNING]  
 > **Sovella mallia** -toiminto korvaa nykyisen tietueen tiedot. Jos tätä funktiota käytetään päätietojen siirrossa, se korvaa tuodut tiedot tietueiden luonnin yhteydessä.

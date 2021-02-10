@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4d92b4fc380dfaaf5b4fe2705367dff359eae6e5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7a5230f26b3e0db8896125d1a8dbf2d8ff322777
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926970"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751153"
 ---
 # <a name="setting-up-fixed-assets"></a>Käyttöomaisuuden määrittäminen
 Ennen käyttöomaisuuserien käsittelyä on määritettäviä muutamia toimintoja:  
@@ -45,4 +45,4 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 [Käyttöomaisuus](fa-manage.md)  
 [Rahoitus](finance.md)  
 [Käytön aloittaminen](product-get-started.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)

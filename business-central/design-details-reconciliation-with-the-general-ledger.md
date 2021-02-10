@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, reconciliation, general ledger, inventory
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1d65156d46749e7d06bb746899cee4aa439a1e93
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3f3a90142081ad0bc3096bdde1830924c2998d68
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917274"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751228"
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Rakennetiedot: täsmäytys pääkirjanpidon kanssa
 Kun kirjaat varastotapahtumia, kuten myyntitoimituksia, tuotannon tuloksia tai negatiivisia muutoksia, ohjelma kirjaa varaston määrien muutokset nimiketapahtumiin ja varaston arvojen muutokset arvotapahtumiin. Prosessin seuraava vaihe on kirjata varastoarvot pääkirjanpidon varastotileille.  
@@ -123,4 +123,4 @@ Saat lisätietoja tilityyppien välisestä suhteesta ja erityyppisistä arvotapa
 [Rakennetiedot: Kustannusten muuttaminen](design-details-cost-adjustment.md)
 [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)  
 [Rahoitus](finance.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)

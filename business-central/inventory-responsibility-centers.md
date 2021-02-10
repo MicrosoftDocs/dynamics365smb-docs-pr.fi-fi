@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/06/2020
+ms.date: 11/03/2020
 ms.author: edupont
-ms.openlocfilehash: 97904add0f97be5a93bec5e53b45179fadfddffb
-ms.sourcegitcommit: 0fb6952376d853a878ed33257e73aadc03b95572
+ms.openlocfilehash: cb9586e207f3eda516d11dd4f184351ff66ca4b2
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "3968331"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749953"
 ---
 # <a name="work-with-responsibility-centers"></a>Vastuupaikkojen käyttäminen
 
@@ -53,7 +53,7 @@ Määritä tämä määrittämällä vastuupaikat käyttäjille kolmella toimint
 5. Anna **Huollon vastuupaikan suodatus** -kentässä vastuupaikka, jossa käyttäjällä on huoltohallintoon liittyviä tehtäviä.  
 
 > [!NOTE]  
-> Käyttäjät pystyvät edelleen tarkastelemaan kaikkia kirjattuja asiakirjoja ja tapahtumia, eivät vain oman vastuupaikkansa asiakirjoja ja tapahtumia.
+> Käyttäjät voivat tarkastella vain omaan vastuukeskukseensa liittyviä kirjattuja asiakirjoja. He voivat kuitenkin tarkastella kaikkia kirjapintotapahtuma ja siirtyä muihin kirjattuihin asiakirjoihin kirjanpitotapahtumista.
 
 ## <a name="see-also"></a>Katso myös
 
@@ -62,4 +62,4 @@ Määritä tämä määrittämällä vastuupaikat käyttäjille kolmella toimint
 [Varasto](inventory-manage-inventory.md)[Varastoinninhallinta](warehouse-manage-warehouse.md)  
 [Varastoinninhallinta](warehouse-manage-warehouse.md)  
 [Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  

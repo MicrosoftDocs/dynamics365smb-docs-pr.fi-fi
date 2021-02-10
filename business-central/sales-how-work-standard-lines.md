@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: trade, sell, replenishment
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 66a0e679a97bff7071a20197c804143cf11539d2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 40af4b0010b46938a9ce53a12dd95f1b2a687cc9
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910478"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748167"
 ---
 # <a name="create-recurring-sales-and-purchase-lines"></a>Toistuvien myynti- ja ostorivien luominen
 Jos sinun on usein luotava samankaltaisia tietoja sisältäviä myynti- ja ostorivejä, voit määrittää vakiorivejä ja lisätä ne sitten toistuviin myynti- ja ostoasiakirjoihin, kuten toistuviin täydennystilauksiin.  
@@ -79,4 +79,4 @@ Myyntilaskut luodaan asiakkaille, joilla on määrätty asiakkaan vakiomyyntikoo
 ## <a name="see-also"></a>Katso myös
 
 [Myynti](sales-manage-sales.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  

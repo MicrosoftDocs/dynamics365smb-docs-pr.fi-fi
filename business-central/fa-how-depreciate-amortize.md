@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: write down
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8686b0d7f739b292f733239b7348428dbed56be3
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3eb4cffd4e67c4cd375619ec8b36e17e6ee527b4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920745"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749441"
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Käyttöomaisuuden poisto tai kuolettaminen
 Poistoja käytetään jakamaan käyttöomaisuuden, esimerkiksi koneiden ja laitteiden, kustannuksia niiden poistoajalle. Jokaisen käyttöomaisuuserän osalta tulee määrittää, miten sille tehdään poistoja.  
@@ -25,7 +25,7 @@ Poistoja käytetään jakamaan käyttöomaisuuden, esimerkiksi koneiden ja laitt
 * automaattisesti **Laske poisto** -eräajon avulla.  
 * Manuaalisesti käyttöomaisuuden KP-päiväkirjan avulla.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] voi laskea päivittäisen poiston, jolloin voit laskea poiston mille tahansa ajanjaksolle. Nykyisiä toiminnan tuloksia voi siis analysoida esimerkiksi kuukausittain, neljännesvuosittain tai vuosittain. Laskennassa käytetään 360 päivän vakiovuotta ja 30 päivän vakiokuukautta. Lisätietoja on kohdassa [Poistotavat](fa-depreciation-methods.md).  
+[!INCLUDE[prod_short](includes/prod_short.md)] voi laskea päivittäisen poiston, jolloin voit laskea poiston mille tahansa ajanjaksolle. Nykyisiä toiminnan tuloksia voi siis analysoida esimerkiksi kuukausittain, neljännesvuosittain tai vuosittain. Laskennassa käytetään 360 päivän vakiovuotta ja 30 päivän vakiokuukautta. Lisätietoja on kohdassa [Poistotavat](fa-depreciation-methods.md).  
 
 Jos useat osastot käyttävät käyttöomaisuuserää, jaksottaiset poistot voidaan kohdistaa automaattisesti näille osastoille käyttäjäkohtaisen kohdistustaulukon mukaisesti.  
 
@@ -59,7 +59,7 @@ Indeksointia käytetään muuttamaan arvoja yleisten hintatason muutosten mukaan
 Jos summien kohdistamiseksi eri osastoille tai projekteille on määritetty käyttöomaisuuden kohdistusavaimia, summat kohdistetaan kirjaamisen aikana. Lisätietoja on kohdassa [Käyttöomaisuuden yleisten tietojen määrittäminen](fa-how-setup-general.md).  
 
 ## <a name="to-manage-the-ending-book-value"></a>Loppukirjanpitoarvon hallinta
-**KO-poistokirjat**-sivun **Loppukirjanpitoarvo**-kentässä voit määrittää kirjanpitoarvon, jonka haluat käyttöomaisuuserälle olevan tämänhetkisessä poistokirjassa sen jälkeen, kun se on kokonaan poistettu. Voit tehdä sen manuaalisesti tai voit täyttää**Poistokirja**-sivun **Loppukirjanpitoarvo, oletus** -kentän, jota käytetään tämän jälkeen kentän automaattiseen täyttämiseen.
+**KO-poistokirjat**-sivun **Loppukirjanpitoarvo**-kentässä voit määrittää kirjanpitoarvon, jonka haluat käyttöomaisuuserälle olevan tämänhetkisessä poistokirjassa sen jälkeen, kun se on kokonaan poistettu. Voit tehdä sen manuaalisesti tai voit täyttää **Poistokirja**-sivun **Loppukirjanpitoarvo, oletus** -kentän, jota käytetään tämän jälkeen kentän automaattiseen täyttämiseen.
 
 > [!NOTE]
 > Jos viimeinen poisto aiheuttaa sen, että **Käyttöomaisuuden kortti** -sivun **Kirjanpitoarvo**-kentän arvoksi tulee nolla, ohjelma vähentää automaattisesti viimeisestä poistosta kyseisen summan.<br /><br />
@@ -111,4 +111,4 @@ Kopioidut rivit luodaan joko käyttöomaisuuden KP-päiväkirjassa tai käyttöo
 [Käyttöomaisuus](fa-manage.md)  
 [Käyttöomaisuuden määrittäminen](fa-setup.md)  
 [Rahoitus](finance.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  

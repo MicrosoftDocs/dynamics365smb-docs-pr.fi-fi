@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: UOM
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e6a9465f13e272d653ec9a0544618b243928af03
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5b10d8e8c8dd6142a4b9ed2c9604fd4e9c7e9c74
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923718"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746264"
 ---
 # <a name="set-up-units-of-measure"></a>Mittayksikön määrittäminen
 
-Mittayksiköt määritetään [!INCLUDE [prodshort](includes/prodshort.md)]in määritysten osana **Mittayksikkö**-sivulla. Kun sitten rekisteröit uusia nimikkeitä, perusmittayksikkö määritetään **nimikkeen kortissa**. Mittayksiköt voi lisätä myös myöhemmin.  
+Mittayksiköt määritetään [!INCLUDE [prod_short](includes/prod_short.md)]in määritysten osana **Mittayksikkö**-sivulla. Kun sitten rekisteröit uusia nimikkeitä, perusmittayksikkö määritetään **nimikkeen kortissa**. Mittayksiköt voi lisätä myös myöhemmin.  
 
 Voit määrittää useita mittayksiköitä, jotka on määritetty kohteelle niin, että voit kohdistaa nimikkeen mittayksiköt seuraaviin tarkoituksiin:
 
@@ -50,9 +50,9 @@ Kun rekisteröit uuden nimikkeen, voit valita perusmittayksikön mittayksikkölu
 5. Valitse **Uusi**-toiminto. Uusi tyhjä rivi lisätään.
 6. Syötä mittayksikön nimi **Koodi**-kentässä. Vaihtoehtoisesti voit valita kenttään tietokannassa olevat mittayksikön koodit.
 7. Määritä **Määrä mittayksikköä kohti** -kentässä, kuinka monta perusmittayksikön yksikköä uusi mittayksikkö sisältää.
-8. **Korkeus**-, **Leveys**-, **Pituus**- ja **Paino**-kenttiin on mahdollista määrittää myös tarkat tiedot yhden mittayksikön koosta siten, että [!INCLUDE [prodshort](includes/prodshort.md)] voi laskea, montako nimikeyksikköä voidaan sijoittaa kuhunkin varastopaikkaan. **Kuutiotilavuus**-kenttä lasketaan automaattisesti **korkeuden**, **leveyden** ja **pituuden** perusteella.
+8. **Korkeus**-, **Leveys**-, **Pituus**- ja **Paino**-kenttiin on mahdollista määrittää myös tarkat tiedot yhden mittayksikön koosta siten, että [!INCLUDE [prod_short](includes/prod_short.md)] voi laskea, montako nimikeyksikköä voidaan sijoittaa kuhunkin varastopaikkaan. **Kuutiotilavuus**-kenttä lasketaan automaattisesti **korkeuden**, **leveyden** ja **pituuden** perusteella.
 
-    Jos joissakin näistä kentistä on jokin muu arvo kuin 0, kyseistä arvoa käytetään kaikissa prosesseissa, joissa nimikkeitä sijoitetaan varastopaikkaan. Näitä prosesseja ovat hyllytys, vastaanotot, toimitukset, noudot ja oikaisut. [!INCLUDE [prodshort](includes/prodshort.md)] tarkastaa hyllytettävien ja jo varastopaikassa olevien nimikkeiden kunkin fyysisen mitan summan vertaamalla sitä varastopaikkaan sopivan nimikkeen enimmäiskokoon tai muuhun mittaan, joka on ilmaistu nimikkeen sijaintikortin varastopaikan kapasiteettina. Kussakin dimensiossa on siis käytettävä samaa mittayksikköä kaikissa nimikkeen mittayksiköissä – esimerkiksi painoyksikkönä voi siis käyttää kilogrammoja tai paunoja, mutta niitä on käytettävä johdonmukaisesti.
+    Jos joissakin näistä kentistä on jokin muu arvo kuin 0, kyseistä arvoa käytetään kaikissa prosesseissa, joissa nimikkeitä sijoitetaan varastopaikkaan. Näitä prosesseja ovat hyllytys, vastaanotot, toimitukset, noudot ja oikaisut. [!INCLUDE [prod_short](includes/prod_short.md)] tarkastaa hyllytettävien ja jo varastopaikassa olevien nimikkeiden kunkin fyysisen mitan summan vertaamalla sitä varastopaikkaan sopivan nimikkeen enimmäiskokoon tai muuhun mittaan, joka on ilmaistu nimikkeen sijaintikortin varastopaikan kapasiteettina. Kussakin dimensiossa on siis käytettävä samaa mittayksikköä kaikissa nimikkeen mittayksiköissä – esimerkiksi painoyksikkönä voi siis käyttää kilogrammoja tai paunoja, mutta niitä on käytettävä johdonmukaisesti.
 9. Toista vaiheet 5-7 määrittääksesi kaikki vaihtoehtoiset mittayksiköt, joita haluat käyttää tälle nimikkeelle eri prosesseissa.
 
     Nimikkeen perusmittayksikköä voi tarkastella ja muuttaa **Perusmittayksikkö**-kentässä ikkunan alaosassa. Perusmittayksikön voi lisäksi vaihtaa nimikkeen kortin **Perusmittayksikkö**-kentässä. **Nimikkeen mittayksikkö** -sivun **Määrä mittayksikköä kohti** -kentässä mittayksikön arvon on oltava **1**-
@@ -86,4 +86,4 @@ Jos ostat tai myyt tavallisesti eri yksiköissä kuin perusmittayksiköissä, vo
 [Varaston hallinta](inventory-manage-inventory.md)  
 [Ostojen hallinta](purchasing-manage-purchasing.md)  
 [Myynnin hallinta](sales-manage-sales.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  

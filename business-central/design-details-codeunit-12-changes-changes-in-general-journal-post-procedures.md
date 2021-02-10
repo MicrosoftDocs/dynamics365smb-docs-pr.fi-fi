@@ -1,6 +1,6 @@
 ---
-title: 'Rakennetiedot – Koodiyksikön 12 muutokset: Päiväkirjakirjausten menettelytapojen muutokset | Microsoft Docs'
-description: Seuraavat muutokset on toteutettu tässä Business Central -versiossa.
+title: Päiväkirjakirjausten menettelytapojen muutokset codeunitissa 12
+description: Aiemmissa versioissa codeunitia 12 muutettiin yleisen päiväkirjan kirjaamisen suorituskyvyn parantamiseksi. Lisätietoja kirjausmenettelyjen muutoksista on tässä artikkelissa.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,17 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 10/28/2020
 ms.author: edupont
-ms.openlocfilehash: 99df25e15422755b66ec5b8be7388c9677f7b374
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c1ec373b6c7226d6b2548f2b29f326dcd9c6a459
+ms.sourcegitcommit: a95681db16e81af109b34f8e5d88028c1552c6a2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917474"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4367907"
 ---
-# <a name="codeunit-12-changes-changes-in-general-journal-post-procedures"></a>Koodiyksikön 12 muutokset: Päiväkirjakirjausten menettelytapojen muutokset
-Seuraavat muutokset on toteutettu tässä [!INCLUDE[d365fin](includes/d365fin_md.md)] -versiossa.  
+# <a name="historical-changes-to-codeunit-12-changes-in-general-journal-post-procedures"></a>Codeunitin 12 historialliset muutokset: Päiväkirjakirjausten menettelytapojen muutokset
+
+Seuraavat muutokset on toteutettu [!INCLUDE [navnow_md](includes/navnow_md.md)] -versioissa.  
 
 |**Microsoft Dynamics NAV 2009 R2**|**Microsoft Dynamics NAV 2013 R2**|**Kommentti**|  
 |----------------------------------------|----------------------------------------|-----------------|  
@@ -72,7 +73,7 @@ Seuraavat muutokset on toteutettu tässä [!INCLUDE[d365fin](includes/d365fin_md
 |CalcCurrencyUnrealizedGainLoss|CalcCurrencyUnrealizedGainLoss|Päivitetty|  
 |CalcCurrencyRealizedGainLoss|CalcCurrencyRealizedGainLoss|Päivitetty|  
 |CalcApplication|CalcApplication|Päivitetty|  
-|CalcRemainingPmtDisc|CalcRemainingPmtDisc|Siirretty koodiyksikön 426 maksutoleranssin hallinta|  
+|CalcRemainingPmtDisc|CalcRemainingPmtDisc|Siirretty codeunitin 426 maksutoleranssin hallinta|  
 |CalcAmtLCYAdjustment|CalcAmtLCYAdjustment|Lisätty|  
 |InitNewCVLedgEntry|InitFromGenJnlLine|Siirretty taulukkoon 383 Yks.koht. CV-tapaht. puskuri|  
 |InitOldCVLedgEntry|CopyFromCVLedgEntryBuf|Siirretty taulukkoon 383 Yks.koht. CV-tapaht. puskuri|  
@@ -132,13 +133,13 @@ Seuraavat muutokset on toteutettu tässä [!INCLUDE[d365fin](includes/d365fin_md
 |ExchangeAmtLCYToFCY2|ExchangeAmtLCYToFCY2|Päivitetty|  
 |CalcAddCurrForUnapplication|CalcAddCurrForUnapplication|Päivitetty|  
 |CheckNonAddCurrCodeOccurred|CheckNonAddCurrCodeOccurred|Päivitetty|  
-|CheckCalcPmtDisc||Siirretty koodiyksikön 426 maksutoleranssin hallinta|  
-|CheckCalcPmtDiscCVCust||Siirretty koodiyksikön 426 maksutoleranssin hallinta|  
-|CheckCalcPmtDiscCust||Siirretty koodiyksikön 426 maksutoleranssin hallinta|  
-|CheckCalcPmtDiscGenJnlCust||Siirretty koodiyksikön 426 maksutoleranssin hallinta|  
-|CheckCalcPmtDiscCVVend||Siirretty koodiyksikön 426 maksutoleranssin hallinta|  
-|CheckCalcPmtDiscVend||Siirretty koodiyksikön 426 maksutoleranssin hallinta|  
-|CheckCalcPmtDiscGenJnlVend||Siirretty koodiyksikön 426 maksutoleranssin hallinta|  
+|CheckCalcPmtDisc||Siirretty codeunitin 426 maksutoleranssin hallinta|  
+|CheckCalcPmtDiscCVCust||Siirretty codeunitin 426 maksutoleranssin hallinta|  
+|CheckCalcPmtDiscCust||Siirretty codeunitin 426 maksutoleranssin hallinta|  
+|CheckCalcPmtDiscGenJnlCust||Siirretty codeunitin 426 maksutoleranssin hallinta|  
+|CheckCalcPmtDiscCVVend||Siirretty codeunitin 426 maksutoleranssin hallinta|  
+|CheckCalcPmtDiscVend||Siirretty codeunitin 426 maksutoleranssin hallinta|  
+|CheckCalcPmtDiscGenJnlVend||Siirretty codeunitin 426 maksutoleranssin hallinta|  
 |Reverse|Reverse|Siirretty Codeunitiin 17 yleinen päiväkirja - käänteinen kirjaus|  
 |ReverseCustLedgEntry|ReverseCustLedgEntry|Siirretty Codeunitiin 17 yleinen päiväkirja - käänteinen kirjaus|  
 |ReverseCustLedgEntry|ReverseCustLedgEntry|Siirretty Codeunitiin 17 yleinen päiväkirja - käänteinen kirjaus|  
@@ -189,4 +190,4 @@ Seuraavat muutokset on toteutettu tässä [!INCLUDE[d365fin](includes/d365fin_md
 ||CreateGLEntriesForTotalAmounts|Lisätty|  
 
 ## <a name="see-also"></a>Katso myös  
- [Rakennetiedot: Koodiyksikön 12 muutokset: Yleisten muuttujien linkitys yleisen päiväkirjan kirjausriviin](design-details-codeunit-12-changes-mapping-global-variables-for-general-journal-post-line.md)
+ [Rakennetiedot: Codeunitin 12 muutokset: Yleisten muuttujien linkitys yleisen päiväkirjan kirjausriviin](design-details-codeunit-12-changes-mapping-global-variables-for-general-journal-post-line.md)

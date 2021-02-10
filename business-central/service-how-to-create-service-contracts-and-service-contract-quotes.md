@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 4a4f4cf4c27ff995be3d0caac25c6ab849a13eec
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 60cbb65da2de80ad19bb30e3023a4b3a801244ab
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925695"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747966"
 ---
 # <a name="work-with-service-contracts-and-service-contract-quotes"></a>Huoltosopimusten ja huoltosopimustarjousten käyttäminen
 Huoltosopimus voidaan luoda joko manuaalisesti tai huoltosopimustarjouksesta. Huoltosopimustarjousta voidaan käyttää huoltosopimuksen esiasteena, jossa yrityksesi tekee asiakkaalle tarjouksen ja joka tarvitsee asiakkaan hyväksynnän, ennen kuin se voidaan muuntaa huoltosopimukseksi. Tämän vuoksi huoltosopimus ja huoltotarjous luodaan pitkälti samalla tavoin.  
@@ -194,7 +194,7 @@ Sopimus voi olla tarpeen peruuttaa ohjelmassa, kun sopimus on vanhentunut tai ku
 6. Jos sopimuksella on kirjaamattomia laskuja, hyvityslaskuja tai avattuja ennakkoon maksettuja tapahtumia , vahvistussanoma avautuu. Valitse sanomaruudussa **Ei**, jos haluat palata sopimukseen ja kirjata asiakirjat, tai **Kyllä**, jos haluat jatkaa peruuttamista.  
 
 ## <a name="filing-a-service-contract-or-contract-quote"></a>Huoltosopimuksen ja sopimustarjouksen arkistoiminen  
-Huoltosopimuksia ja sopimustarjouksia voi arkistoida milloin vain, jotta sopimuksesta tai huoltosopimuksesta voitaisiin tallentaa kopio. [!INCLUDE[d365fin](includes/d365fin_md.md)] arkistoi huoltosopimuksia automaattisesti silloin, kun sopimustarjouksia muunnetaan huoltosopimuksiksi, tai kun huoltosopimuksia peruutetaan. Voit arkistoida sopimuksen tai tarjouksen itse valitsemalla **Arkistoi sopimus** -toiminnon **Huoltosopimukset**- tai **Huoltosopimustarjoukset**-sivulla. Jos haluat tarkastella arkistoituja tarjoussopimuksia, voit hakea niitä hakusanalla **Arkistoidut sopimukset**.
+Huoltosopimuksia ja sopimustarjouksia voi arkistoida milloin vain, jotta sopimuksesta tai huoltosopimuksesta voitaisiin tallentaa kopio. [!INCLUDE[prod_short](includes/prod_short.md)] arkistoi huoltosopimuksia automaattisesti silloin, kun sopimustarjouksia muunnetaan huoltosopimuksiksi, tai kun huoltosopimuksia peruutetaan. Voit arkistoida sopimuksen tai tarjouksen itse valitsemalla **Arkistoi sopimus** -toiminnon **Huoltosopimukset**- tai **Huoltosopimustarjoukset**-sivulla. Jos haluat tarkastella arkistoituja tarjoussopimuksia, voit hakea niitä hakusanalla **Arkistoidut sopimukset**.
 
 ## <a name="see-also"></a>Katso myös  
 [Huoltosopimusten määrittäminen](service-how-setup-service-contracts.md)  

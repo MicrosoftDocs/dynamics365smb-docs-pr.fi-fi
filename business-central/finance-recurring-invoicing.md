@@ -11,17 +11,17 @@ ms.search.keywords: recurring, invoicing, subscription, billing
 ms.reviewer: edupont
 ms.date: 10/01/2020
 ms.author: andreipa
-ms.openlocfilehash: 25cf2c75ac6beca4f187b329c610914452d7dfcb
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 311af347fede15b3d246e66d66b47a5fd09c90db
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910803"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750478"
 ---
-# <a name="work-with-recurring-revenue-in-d365fin"></a>Toistuvan tuoton käsitteleminen kohteessa [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="work-with-recurring-revenue-in-prod_short"></a>Toistuvan tuoton käsitteleminen kohteessa [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Monet yritykset ovat siirtymässä liiketoiminnan tuottomallista, jossa tuotto on tehty asiakkaan yhdestä ostosta tilausmalliin, jossa tuotto tehdään toistuvin perustein, kun halutaan saada yhdenmukainen käyttöoikeus tavaran tai palvelun toimittamiseen.
-[!INCLUDE[d365fin](includes/d365fin_md.md)] on seuraavat vaihtoehdot sille, miten automatisoit tilauslaskujen lähettämisen asiakkaille ja rekisteröit toistuvan tuoton. 
+[!INCLUDE[prod_short](includes/prod_short.md)] on seuraavat vaihtoehdot sille, miten automatisoit tilauslaskujen lähettämisen asiakkaille ja rekisteröit toistuvan tuoton. 
 
 ## <a name="register-revenue-with-a-recurring-general-journal"></a>Rekisteröi tuotot toistuvassa yleisessä päiväkirjassa
 
@@ -31,7 +31,7 @@ Toistuvien tapahtumien päiväkirja on yleinen päiväkirja, jossa on erityisken
 
 Tämän asetuksen avulla määritetään joustavat laskutusjaksot [päivämääräkaavojen](ui-enter-date-ranges.md#using-date-formulas) avulla.
 
-Tämän asetuksen avulla et kuitenkaan voi tulostaa ja lähettää laskuja [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman oletusversiossa.  
+Tämän asetuksen avulla et kuitenkaan voi tulostaa ja lähettää laskuja [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman oletusversiossa.  
 
 Lisätietoja on kohdassa [Toistuvien päiväkirjojen käyttäminen](ui-work-general-journals.md#working-with-recurring-journals).  
 
@@ -57,7 +57,7 @@ Jos sinun on usein luotava samankaltaisia tietoja sisältäviä myynti- ja ostor
 
 Tämän asetuksen avulla voit liittää samat toistuvat rivit usealle asiakkaalle. Voit määrittää tietyn asiakkaan toistuvien myyntirivien voimassaoloajan. Samalle asiakkaalle voi liittää useampia toistuvia rivejä, ja kaikki ne sisällytetään laskuun.
 
-Nimikkeille ei kuitenkaan ole mahdollista määrittää kiinteitä hintoja, koska [!INCLUDE[d365fin](includes/d365fin_md.md)] käyttää todellisia hintoja ja alennuksia, jotka ovat voimassa asiakirjan päivämääränä ja jotka yrittävät löytää parhaan yhdistelmän, joka antaa alimman hinnan.  
+Nimikkeille ei kuitenkaan ole mahdollista määrittää kiinteitä hintoja, koska [!INCLUDE[prod_short](includes/prod_short.md)] käyttää todellisia hintoja ja alennuksia, jotka ovat voimassa asiakirjan päivämääränä ja jotka yrittävät löytää parhaan yhdistelmän, joka antaa alimman hinnan.  
 
 Lisätietoja on kohdassa [Toistuvien myynti- ja ostorivien luominen](sales-how-work-standard-lines.md).
 
@@ -77,7 +77,7 @@ Tämä toiminto vaatii kuitenkin Premium-lisenssin. Huoltohallinnon määrittäm
 Lisätietoja on kohdissa [Huoltosopimusten ja huoltosopimustarjousten käsitteleminen](service-how-to-create-service-contracts-and-service-contract-quotes.md) ja [Useiden huoltosopimusten laskuttaminen](service-how-create-invoices.md#to-invoice-several-service-contracts).
 
 ## <a name="related-features"></a>Aiheeseen liittyvät ominaisuudet
-[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmassa on useita toisiinsa liittyviä toimintoja.
+[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa on useita toisiinsa liittyviä toimintoja.
 
 ### <a name="blanket-sales-orders"></a>Puitemyyntitilaukset
 
@@ -103,7 +103,7 @@ Tämän asetuksen avulla voit valita kiinteiden ja "parhaiden" hintojen välilt�
 
 Tämä asetus on kuitenkin käytettävissä vain Norjassa. Voimassaoloaika voidaan määrittää toistuvassa ryhmittelytasossa.
 
-Lisätietoja on kohdassa [Toistuvat tilaukset (Norja)](/localfunctionality/norway/recurring-orders.md).
+Lisätietoja on kohdassa [Toistuvat tilaukset](LocalFunctionality/Norway/recurring-orders.md).
 
 ### <a name="recurring-revenue-and-subscription-billing-by-other-providers"></a>Muiden palveluntarjoajien toistuva tuotto- ja tilauslaskutus
 
@@ -120,4 +120,4 @@ Osoitteessa [AppSource.microsoft.com](https://appsource.microsoft.com/) on laaje
 [Laskuta useita huoltosopimuksia](service-how-create-invoices.md#to-invoice-several-service-contracts)  
 [Kysyntäennusteet ja puitetilaukset](design-details-central-concepts-of-the-planning-system.md#demand-forecasts-and-blanket-orders)  
 [Puitemyyntitilausten käyttäminen](sales-how-to-create-blanket-sales-orders.md)  
-[Toistuvat tilaukset (Norja)](/localfunctionality/norway/recurring-orders.md)  
+[Toistuvat tilaukset (Norja)](LocalFunctionality/Norway/recurring-orders.md)  

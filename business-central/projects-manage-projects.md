@@ -8,17 +8,17 @@ ms.workload: na
 ms.search.keywords: projects
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0e3f5f489822cef693242c46a47d84f429af0706
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4fe5f22774ca670353b0079140f35137f427c5b3
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926945"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748841"
 ---
 # <a name="project-management"></a>Projektinhallinta
-[!INCLUDE[d365fin](includes/d365fin_md.md)]issa voi suorittaa yleisiä projektinhallinnan tehtäviä, kuten projektin määrittämistä ja resurssin aikatauluttamista, sekä budjettien hallinnassa ja projektin etenemisen valvonnassa tarvittavien tietojen antamista. Voit seurata projektin koneiden käyttötunteja ja työntekijöiden työtunteja käyttämällä aikaraportteja. Projektipäällikkönä saat hyvän yleiskuvan yksittäisten projektien lisäksi työntekijöiden varauksista sekä koneiden ja muiden resurssien käytöstä kaikissa projekteissa.
+[!INCLUDE[prod_short](includes/prod_short.md)]issa voi suorittaa yleisiä projektinhallinnan tehtäviä, kuten projektin määrittämistä ja resurssin aikatauluttamista, sekä budjettien hallinnassa ja projektin etenemisen valvonnassa tarvittavien tietojen antamista. Voit seurata projektin koneiden käyttötunteja ja työntekijöiden työtunteja käyttämällä aikaraportteja. Projektipäällikkönä saat hyvän yleiskuvan yksittäisten projektien lisäksi työntekijöiden varauksista sekä koneiden ja muiden resurssien käytöstä kaikissa projekteissa.
 
-Ennen kuin voit käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]ia projektien hallintaan, on määritettävä resurssit, aikaraportit ja projektit. Lisätietoja on kohdassa [Projektinhallinnan määrittäminen](projects-setup-projects.md).  
+Ennen kuin voit käyttää [!INCLUDE[prod_short](includes/prod_short.md)]ia projektien hallintaan, on määritettävä resurssit, aikaraportit ja projektit. Lisätietoja on kohdassa [Projektinhallinnan määrittäminen](projects-setup-projects.md).  
 
 Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisiin.
 
@@ -36,7 +36,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 
 ## <a name="get-started-with-projects"></a>Projektien käytön aloittaminen
 
-Projektinhallinta on jo sinänsä monimutkaista, ja projektien luonti- ja työn hallintaprosessin oppiminen uudessa työkalussa voi olla lisähaaste. Voit aloittaa projektinhallinnan käytön [!INCLUDE[prodshort](includes/prodshort.md)] -sovelluksessa katsomalla [töiden luontia käsittelevän videon](https://www.youtube.com/watch?v=VqaPWr7BWmw) [!INCLUDE[prodshort](includes/prodshort.md)] YouTube -kanavassa.  
+Projektinhallinta on jo sinänsä monimutkaista, ja projektien luonti- ja työn hallintaprosessin oppiminen uudessa työkalussa voi olla lisähaaste. Voit aloittaa projektinhallinnan käytön [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksessa katsomalla [töiden luontia käsittelevän videon](https://www.youtube.com/watch?v=VqaPWr7BWmw) [!INCLUDE[prod_short](includes/prod_short.md)] YouTube -kanavassa.  
 
 ## <a name="see-also"></a>Katso myös
 
@@ -46,6 +46,6 @@ Projektinhallinta on jo sinänsä monimutkaista, ja projektien luonti- ja työn 
 [Osto](purchasing-manage-purchasing.md)  
 [Myynti](sales-manage-sales.md)  
 [Rahoitus](finance.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

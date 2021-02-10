@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e7af0cc7e84ea94c12b6e7aa4988c081f135f52c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 08b28c30ba6ef1bf80d4562f198eeeb4aa07394c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913419"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747114"
 ---
 # <a name="collect-payments-with-sepa-direct-debit"></a>Maksujen kerääminen SEPA-suoraveloitusperintänä.
 Asiakkaan suostumuksella voit kerätä maksut suoraan asiakkaan pankkitililtä SEPA-muodon mukaisesti.  
@@ -35,9 +35,9 @@ Asiakkaan suostumuksella voit kerätä maksut suoraan asiakkaan pankkitililtä S
 **Suoraveloitusperinnät**-sivulla voi viedä sähköiseen pankkiin ohjeita, jotka ohjaavat pankkiasi suorittamaan suoraveloituksen asiakkaan pankkitililtä omalle pankkitilillesi SEPA-suoraveloitusmuodon mukaisesti.
 
 > [!NOTE]
-> Maailmanlaajuinen versio [!INCLUDE[d365fin](includes/d365fin_md.md)]ista tukee vain SEPA-suoraveloitusmuotoa. Maassasi/alueellasi saattaa olla käytettävissä muita elektronisten maksujen muotoja. Katso kohta **Paikalliset toiminnon** sisällysluettelossa.  
+> Maailmanlaajuinen versio [!INCLUDE[prod_short](includes/prod_short.md)]ista tukee vain SEPA-suoraveloitusmuotoa. Maassasi/alueellasi saattaa olla käytettävissä muita elektronisten maksujen muotoja. Katso kohta **Paikalliset toiminnon** sisällysluettelossa.  
 
-Jos haluat ottaa käyttöön sellaisten pankkitiedostomuotojen viennin, joita [!INCLUDE[d365fin](includes/d365fin_md.md)] ei tue sellaisenaan, voit määrittää tietojen siirtomäärityksen käyttämällä tiedonsiirtokehystä. Lisätietoja on kohdassa [Tietojenvaihtomääritysten määrittäminen](across-how-to-set-up-data-exchange-definitions.md).  
+Jos haluat ottaa käyttöön sellaisten pankkitiedostomuotojen viennin, joita [!INCLUDE[prod_short](includes/prod_short.md)] ei tue sellaisenaan, voit määrittää tietojen siirtomäärityksen käyttämällä tiedonsiirtokehystä. Lisätietoja on kohdassa [Tietojenvaihtomääritysten määrittäminen](across-how-to-set-up-data-exchange-definitions.md).  
 
 Ennen kuin voit käsitellä asiakkaan maksuja sähköisesti viemällä suoraveloitusohjeita SEPA Direct Debit -muodossa, sinun on suoritettava seuraavat määritysvaiheet.  
 

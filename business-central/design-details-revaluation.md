@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 43a62271bab9401bfea21663c72b6363884c2ef4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5ece03828aad360b03a4c2cc4e0b47a6f603e8dc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911003"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751203"
 ---
 # <a name="design-details-revaluation"></a>Rakennetiedot: uudelleenarvostus
 Voit uudelleenarvostaa varaston sen arvostusperustan perusteella, joka vastaa varaston arvoa parhaiten. Voit myös päivätä uudelleenarvostuksen vanhemmaksi, jolloin myytyjen tuotteiden kustannukset päivitetään oikein nimikkeille, jotka on jo myyty. Vakio-arvostusmenetelmää käyttävät nimikkeet, joita ei ole laskutettu kokonaan, voidaan myös arvostaa uudelleen.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] tukee seuraavaa uudelleenarvostukseen liittyvää joustavuutta:  
+[!INCLUDE[prod_short](includes/prod_short.md)] tukee seuraavaa uudelleenarvostukseen liittyvää joustavuutta:  
 
 -   Uudelleenarvioitava määrä voidaan laskea mille päivälle tahansa, myös menneessä ajassa.  
 -   Vakioarvostusmenetelmää käyttävien nimikkeiden osalta oletetut kustannustapahtumat on sisällytetty uudelleenarvostukseen.  
@@ -85,10 +85,10 @@ Arvostuspäivämääräksi määritetään kulutuksen kirjauspäivämäärä (1.
 |02-15-20|Välitön kustannus|02-15-20|150.00|3|3|  
 
 ## <a name="expected-cost-in-revaluation"></a>Oletettu kustannus uudelleenarvostuksessa  
-Uudelleenarvotettava määrä XE Uudelleenarvotettava määrä  XE Uudelleenarvotettava määrä lasketaan kokonaan laskutetun XE-laskun XE-nimiketapahtumien XE-määrän summan määränä, jonka kirjauspäivä on sama tai aikaisempi kuin uudelleenarvotettavan XE-uudelleenarvotuspäivämäärä. Tämä tarkoittaa sitä, että kun osa nimikkeistä on vastaanotettu tai toimitettu mutta ei laskutettu, niiden varastoarvoa ei voi laskea XE-varastoarvona. Vakio-arvostusmenetelmää käyttävät nimikkeet eivät ole tässä suhteessa rajoitettuja. XE arvo  
+Uudelleenarvostettava määrä lasketaan määrän summana kokonaan laskutetuille nimikkeen pääkirjan kirjauksille, joiden tiliöintipäivä on yhtä suuri tai aiempi kuin uudelleenarvostuspäivä. Tämä tarkoittaa sitä, että kun osa nimikkeistä on vastaanotettu/toimitettu, mutta ei laskutettu, niiden varastoarvoa voi laskea. Vakio-arvostusmenetelmää käyttävät nimikkeet eivät ole tässä suhteessa rajoitettuja.  
 
 > [!NOTE]  
->  Toisen tyyppinen oletettu kustannus, joka voidaan arvostaa uudelleen on tiettyjen sääntöjen puitteissa KET-varasto. Lisätietoja on tämän aiheen KET-varaston uudelleenarvostus -osassa.  
+>  Toisen tyyppinen oletettu kustannus, joka voidaan arvostaa uudelleen on tiettyjen sääntöjen puitteissa KET-varasto. Lisätietoja on kohdassa [KET-varaston uudelleenarvostus](design-details-revaluation.md#wip-inventory-revaluation).  
 
 Kun vakio-arvostusmenetelmää käyttävien nimikkeiden uudelleenarvostusmäärä lasketaan, myös nimiketapahtumat, joita ei ole laskutettu kokonaan, sisällytetään laskentaan. Nämä tapahtumat arvostetaan uudelleen uudelleenarvostuksen kirjaamisen yhteydessä. Kun laskutat uudelleenarvostetun tapahtuman, luodaan seuraavat arvotapahtumat:  
 
@@ -114,9 +114,9 @@ Seuraavassa taulukossa on tuloksena saatavat arvotapahtumat.
 |2.|01-20-20|Uudelleenarvostus|01-20-20|150.00|0,00|1|2|  
 |3.a.|01-15-20|Välitön kustannus|01-15-20|-300.00|0,00|1|3|  
 |3.b.|01-15-20|Uudelleenarvostus|01-20-20|-150.00|0,00|1|4|  
-|3.c.|01-15-20|Vaihtelu.|01-15-20|0,00|450,00|1|5|  
+|3.c.|01-15-20|Vaihtelu.|01-15-20|0.00|450,00|1|5|  
 
-## <a name="determining-if-an-inventory-decrease-is-affected-by-revaluation"></a>Määritetään vaikuttaako uudelleenarvostus varaston vähennykseen  
+## <a name="determining-whether-an-inventory-decrease-is-affected-by-revaluation"></a>Määritetään vaikuttaako uudelleenarvostus varaston vähennykseen  
 Uudelleenarvostuksen tai tiliöinnin päivämäärää käytetään määrittämään onko uudelleenarvostus vaikuttanut varaston vähenemiseen.  
 
 Seuraavassa taulukossa esitetään kriteeri, jota käytetään nimikkeelle, joka ei käytä keskimääräistä kustannuslaskelmamenetelmää.  
@@ -163,13 +163,13 @@ Seuraavassa taulukossa on tuloksena saatavat arvotapahtumat.
 ## <a name="wip-inventory-revaluation"></a>KET-varaston uudelleenarvostus  
 WIP-varaston uudelleenarvostus käsittää uudelleenarvostettuja osia, jotka rekisteröidään osana WIP-varastoa uudelleenarvostusajankohtana.  
 
-Tämä huomioon ottaen on tärkeää muodostaa käytännöt sille, milloin nimikettä pidetään osana KET-varastoa taloudellisesta näkökulmasta. [!INCLUDE[d365fin](includes/d365fin_md.md)]issa on seuraavat käytännöt:  
+Tämä huomioon ottaen on tärkeää muodostaa käytännöt sille, milloin nimikettä pidetään osana KET-varastoa taloudellisesta näkökulmasta. [!INCLUDE[prod_short](includes/prod_short.md)]issa on seuraavat käytännöt:  
 
 -   Ostetusta komponentista tulee osa raaka-ainevarastoa siitä hetkestä lähtien, kun osto kirjataan laskutetuksi.  
 -   Ostetusta/osakokoonpanon komponentista tulee osa KET-varastoa siitä hetkestä lähtien, kun sen kulutus kirjataan yhdessä tuotantotilauksen kanssa.  
 -   Ostettu/osakokoonpanon komponentti säilyy osana KET-varastoa siihen asti, kun tuotantotilaus (valmistettu nimike) laskutetaan.  
 
-Kulutuksen arvotapahtuman arvostuspäivämäärä määritetään samojen sääntöjen perusteella kuin muun kuin KET-varaston säännöt. Katso lisätietoja tämän ohjeaiheen Määritetään vaikuttaako uudelleenarvostus varaston vähennykseen -osiosta.  
+Kulutuksen arvotapahtuman arvostuspäivämäärä määritetään samojen sääntöjen perusteella kuin muun kuin KET-varaston säännöt. Katso lisätietoja: [Määritetään vaikuttaako uudelleenarvostus varaston vähennykseen](design-details-revaluation.md#determining-whether-an-inventory-decrease-is-affected-by-revaluation).  
 
 KET-varasto voidaan uudelleenarvioida niin kauan kuin uudelleenarvostuksen päivämäärä ei ole myöhempi kuin Kulutus-tyyppiä olevien vastaavien nimiketapahtumien kirjauspäivämäärä ja vastaavaa tuotantotilausta ei ole vielä laskutettu.  
 
@@ -181,4 +181,4 @@ KET-varasto voidaan uudelleenarvioida niin kauan kuin uudelleenarvostuksen päiv
  [Rakennetiedot: Arvostusmenetelmät](design-details-costing-methods.md)   
  [Rakennetiedot: Varaston arvostus](design-details-inventory-valuation.md) [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)  
  [Rahoitus](finance.md)  
- [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+ [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)

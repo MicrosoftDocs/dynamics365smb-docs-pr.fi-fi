@@ -10,20 +10,20 @@ ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0961fb9cda09596e0c40ecd7f6478340d40f2e4d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6a2100a1f945153d9c89d3cd86fb5d16860c4930
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913394"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747089"
 ---
 # <a name="consolidating-financial-data-from-multiple-companies"></a>Usean yrityksen kirjanpitotietojen konsolidoiminen
 
-Jotkin organisaatiot käyttävät [!INCLUDE [prodshort](includes/prodshort.md)] -ohjelmaa useassa liiketoimintayksikössä tai yrityksessä. Muut käyttävät [!INCLUDE [prodshort](includes/prodshort.md)] -ohjelmaa tytäryhtiöissä, joiden tulee raportoida emo-organisaatioihin. Molemmissa tapauksissa kirjanpitäjät käyttävät sisäisiä työkaluja, jotka auttavat vahvistamaan taloudellisia tietoja.  
+Jotkin organisaatiot käyttävät [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmaa useassa liiketoimintayksikössä tai yrityksessä. Muut käyttävät [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmaa tytäryhtiöissä, joiden tulee raportoida emo-organisaatioihin. Molemmissa tapauksissa kirjanpitäjät käyttävät sisäisiä työkaluja, jotka auttavat vahvistamaan taloudellisia tietoja.  
 
 Voit konsolidoida yritysten (tytäryritysten) pääkirjanpidon tapahtumat konsolidoituun yritykseen. Kutakin konsolidointiin liittyvää yksittäistä yritystä kutsutaan liiketoimintayksiköksi. Yhdistettyä yritystä kutsutaan konsolidoiduksi yritykseksi.  
 
-Voit tuoda tietoja konsolidoituun yritykseen muista saman tietokannan yrityksistä samasta [!INCLUDE [prodshort](includes/prodshort.md)] -vuokraajasta, vuokraajista tai tiedostoista.  
+Voit tuoda tietoja konsolidoituun yritykseen muista saman tietokannan yrityksistä samasta [!INCLUDE [prod_short](includes/prod_short.md)] -vuokraajasta, vuokraajista tai tiedostoista.  
 
 Jos liiketoimintayksikön tilinpäätösten valuutta ei ole sama kuin konsolidoidun yrityksen, konsolidointia varten on määritettävä vaihtokurssit.  
 
@@ -42,7 +42,7 @@ Konsolidoitu yritys määritetään samalla tavalla kuin muutkin yritykset. Tili
 
 ## <a name="trial-balance"></a>Alustava saldo
 
-Jos sinulla on useita [!INCLUDE[d365fin](includes/d365fin_md.md)] -yrityksiä, kirjanpitäjän roolikeskuksen **Konsolidoitu alustava saldo** -raportti antaa yleiskuvan liiketoiminnan taloudellisesta tilanteesta.  
+Jos sinulla on useita [!INCLUDE[prod_short](includes/prod_short.md)] -yrityksiä, kirjanpitäjän roolikeskuksen **Konsolidoitu alustava saldo** -raportti antaa yleiskuvan liiketoiminnan taloudellisesta tilanteesta.  
 
 Raportti yhdistää kunkin yrityksen kirjanpitotapahtumat uuteen yritykseen, joka luodaan konsolidoituja tietoja varten. Tätä yritystä kutsutaan yleensä konsolidoiduksi yritykseksi. Konsolidoitu yritys on vain konsolidoitujen tietojen säilö, eikä se sisällä muita liiketoimintatietoja. Konsolidoituun yritykseen sisällytettävät yritykset ovat raportin **liiketoimintayksiköitä**. Lisätietoja on kohdassa [Yrityksen konsolidoinnin määrittäminen](finance-consolidated-company-reporting-setup.md).  
 
@@ -52,7 +52,7 @@ Varsinainen konsolidointi on prosessi, jossa luvut siirretään liiketoimintayks
 
 ### <a name="to-test-the-data-before-you-consolidate"></a>Tietojen testaus ennen konsolidointia
 
-Voit testata tiedot, ennen kuin siirrät ne konsolidoituun yritykseen. [!INCLUDE[d365fin](includes/d365fin_md.md)] etsii eroavaisuuksia liiketoimintayksiköiden tietojen ja konsolidoidun yrityksen tietojen välillä. Tarkistettavia kohteita ovat esimerkiksi erot tilinumeroiden tai dimensiokoodien välillä. Virheet on korjattava ennen raportin suorittamista. Voit testata tietokannan. Jos tuot tietoja XML-tiedostosta, voit testata myös tiedoston.  
+Voit testata tiedot, ennen kuin siirrät ne konsolidoituun yritykseen. [!INCLUDE[prod_short](includes/prod_short.md)] etsii eroavaisuuksia liiketoimintayksiköiden tietojen ja konsolidoidun yrityksen tietojen välillä. Tarkistettavia kohteita ovat esimerkiksi erot tilinumeroiden tai dimensiokoodien välillä. Virheet on korjattava ennen raportin suorittamista. Voit testata tietokannan. Jos tuot tietoja XML-tiedostosta, voit testata myös tiedoston.  
 
 1. Avaa konsolidoitu yritys.  
 2. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Liiketoimintayksiköt** ja valitse sitten liittyvä linkki.  
@@ -118,5 +118,5 @@ Viedyt tapahtumat sisältävät seuraavat kentät: **Tilinro**, **Kirjauspvm** j
 
 [Määritä yrityksen konsolidointi](finance-consolidated-company-reporting-setup.md)  
 [Konsernitapahtumien hallinta](intercompany-manage.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Liiketoimintatietojen vienti Exceliin](about-export-data.md)

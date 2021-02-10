@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 18c8eb8f379be15bf425a6a2bcd8db6b0c48bcb3
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c5129a8b8116eab9996a47ad82b2579658a45b8b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922165"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751878"
 ---
 # <a name="design-details-accounts-in-the-general-ledger"></a>Rakennetiedot: pääkirjanpidon tilit
 Kun varasto ja kapasiteettitapahtumat täsmäytetään pääkirjanpidon kanssa, liittyvät arvotapahtumat kirjataan pääkirjanpidon eri tileille. Lisätietoja on kohdassa [Rakennetiedot: täsmäytys pääkirjanpidon kanssa](design-details-reconciliation-with-the-general-ledger.md).  
@@ -99,4 +99,4 @@ Seuraavassa taulukossa esitetään, kuinka pääkirjaan tiliöitävät summat la
  [Rakennetiedot: oletetun kustannuksen kirjaus](design-details-expected-cost-posting.md)  
  [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)  
  [Rahoitus](finance.md)  
- [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+ [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  

@@ -10,37 +10,37 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f4927fb91195e88e71a73a6fce774d9dfb0ff685
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7c5954bfd8b8186638c3a696d355fdeb4b7c9d59
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924426"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752378"
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Envestnet Yodlee Bank Feeds -palvelun määrittäminen
 
 Voit tuoda pankistasi sähköisiä tiliotteita ja täyttää nopeasti **Maksujen täsmäytyskirjauskansio** -sivun maksujen kohdistamiseksi ja pankkitilin täsmäyttämiseksi. Lisätietoja on kohdassa [Maksujen kohdistaminen automaattisesti ja pankkitilien täsmäyttäminen](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 > [!IMPORTANT]
-> Eurooppalaisen maksupalveludirektiivin vuoksi (PSD2) tiliotteita ei voi enää 14.9.2019 jälkeen tuoda automaattisesti [!INCLUDE[d365fin](includes/d365fin_md.md)]iin brittiläisistä pankeista. Tutkimme mahdollisuutta ottaa tämä ominaisuus uudelleen käyttöön tulevaisuudessa.
+> Eurooppalaisen maksupalveludirektiivin vuoksi (PSD2) tiliotteita ei voi enää 14.9.2019 jälkeen tuoda automaattisesti [!INCLUDE[prod_short](includes/prod_short.md)]iin brittiläisistä pankeista. Tutkimme mahdollisuutta ottaa tämä ominaisuus uudelleen käyttöön tulevaisuudessa.
 
 > [!NOTE]
 > Envestnet Yodlee Bank Feeds -palvelua tuetaan vain Business Central -sovelluksen online-versiossa. Tämän toiminnon paikallista käyttöä varten on hankittava yhteistili Envestnetistä ja lisättävä koodi Yodlee-ohjelmointirajapinnan integrointia varten.
 >
 > Envestnet Yodlee Bank Feeds -palvelua tuetaan vain Yhdysvalloissa ja Kanadassa.
-> Vain näissä maissa sijaitsevia pankkeja tuetaan, vaikka muiden maiden pankit voivat näkyä Envestnet Yodlee Bank Feeds -pankin valintaikkunassa [!INCLUDE[d365fin](includes/d365fin_md.md)]:ssa.
+> Vain näissä maissa sijaitsevia pankkeja tuetaan, vaikka muiden maiden pankit voivat näkyä Envestnet Yodlee Bank Feeds -pankin valintaikkunassa [!INCLUDE[prod_short](includes/prod_short.md)]:ssa.
 
 > [!IMPORTANT]
 > Jos haluat teknistä apua Envestnet Yodlee -toimintojen kanssa, ota yhteyttä Microsoft-tukeen. Älä ota yhteyttä Envestnet Yodleen. Lisätietoja on kohdassa [Dynamics 365 Business Central -sovelluksen teknisen tuen määrittäminen](/dynamics365/business-central/dev-itpro/technical-support)
 
-Envestnet Yodlee Bank Feeds -palvelu on asennettu [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen online-versioon laajennuksena. Se on valmis käyttöönottoa varten tuetuissa maissa. Lisätietoja on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md).
+Envestnet Yodlee Bank Feeds -palvelu on asennettu [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen online-versioon laajennuksena. Se on valmis käyttöönottoa varten tuetuissa maissa. Lisätietoja on kohdassa [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md).
 
 Kun olet ottanut pankkisyötepalvelun käyttöön, pankkitili on linkitettävä siihen verkkopankkitiliin, josta syöte tulee. Voit linkittää pankkitilit verkkopankkitileihin seuraavissa erilaisissa skenaarioissa:
 
-* Verkkopankkitilille ei ole määritetty [!INCLUDE[d365fin](includes/d365fin_md.md)]in pankkitiliä. Tämän vuoksi luodaan pankkitili linkittämällä se verkkopankkitilistä.
-* [!INCLUDE[d365fin](includes/d365fin_md.md)]issa on pankkitili, jonka haluat linkittää verkkopankkitiliin.
+* Verkkopankkitilille ei ole määritetty [!INCLUDE[prod_short](includes/prod_short.md)]in pankkitiliä. Tämän vuoksi luodaan pankkitili linkittämällä se verkkopankkitilistä.
+* [!INCLUDE[prod_short](includes/prod_short.md)]issa on pankkitili, jonka haluat linkittää verkkopankkitiliin.
 * Linkitetyn pankkitilin linkitys on peruutettava, koska haluat lopettaa tilin pankkisyötepalvelun käyttämisen.
-* Verkkopankkitilejä on muutettu, ja haluat päivittää [!INCLUDE[d365fin](includes/d365fin_md.md)]in pankkitilien tiedot.
+* Verkkopankkitilejä on muutettu, ja haluat päivittää [!INCLUDE[prod_short](includes/prod_short.md)]in pankkitilien tiedot.
 
 Kun pankkisyötepalvelu on otettu käyttöön, voit määrittää pankkitilille uusien tiliotteiden automaattisen tuonnin **Maksujen täsmäytyskirjauskansio** -sivun kahden tunnin välein. Niiden maksujen tapahtumia, jotka on jo kohdistettu ja/tai täsmäytetty **Maksujen täsmäytyskirjauskansio** -sivulla, ei tuoda. Lisätietoja on “Pankin tiliotteiden automaattisen tuonnin ottaminen käyttöön” -osassa.
 
@@ -66,22 +66,22 @@ Pankkisyötepalvelu otetaan käyttöön, kun linkität pankkitilin siihen liitty
 3. Käytä **Verkkopankkitilin linkitys** -sivun **Linkitä tili** -ruudun hakutoimintoa, kun etsit pankin, jossa sinulla on vähintään yksi verkkopankkitili.
 4. Valitse pankin nimi. **Kirjaudu sisään** -ruutu avautuu.
 5. Syötä käyttäjätunnus ja salasana, jota käytät kirjautuessasi verkkopankkiin, ja valitse sitten **Seuraava**-painike.  
-6. Pankkisyötepalvelu valmistelee määritetyn pankin ensimmäisen verkkopankkitiliin ja [!INCLUDE[d365fin](includes/d365fin_md.md)]in uuden pankkitilin linkityksen.
+6. Pankkisyötepalvelu valmistelee määritetyn pankin ensimmäisen verkkopankkitiliin ja [!INCLUDE[prod_short](includes/prod_short.md)]in uuden pankkitilin linkityksen.
 
     > [!NOTE]  
-    > Jos sinulla on pankissa useita verkkopankkitilejä, luo niille lisäpankkitilit [!INCLUDE[d365fin](includes/d365fin_md.md)]iin. Katso vaiheet 8–10.  
+    > Jos sinulla on pankissa useita verkkopankkitilejä, luo niille lisäpankkitilit [!INCLUDE[prod_short](includes/prod_short.md)]iin. Katso vaiheet 8–10.  
 
     Kun käsittely on tehty, pankin nimi näkyy **Linkitetty**-välilehden **Omat tilit** -ruudussa. Sulkeissa oleva luku osoittaa linkitettyjen verkkopankkien määrän.  
 7. Valitse **OK**-painike.
 
     Jos linkität vain yhden verkkopankkitilin **Pankkitilin kortti** -sivu avautuu ja verkkopankkitilin nimi näkyy, Nyt pankkitilin linkitystehtävä on valmis. Jäljellä on enää pankkitilin määrittäminen. Lisätietoja on kohdassa [Pankkitilien määrittäminen](bank-how-setup-bank-accounts.md).
 
-    Jos linkität useita verkkopankkitilejä, **Pankkitilin linkitys** -sivu avautuu. Tällä sivulla on luettelo verkkopankkitileistä, joita ei ole vielä linkitetty [!INCLUDE[d365fin](includes/d365fin_md.md)]in pankkitileihin. Noudata tällaisessa tapauksessa seuraavaa vaihetta.  
+    Jos linkität useita verkkopankkitilejä, **Pankkitilin linkitys** -sivu avautuu. Tällä sivulla on luettelo verkkopankkitileistä, joita ei ole vielä linkitetty [!INCLUDE[prod_short](includes/prod_short.md)]in pankkitileihin. Noudata tällaisessa tapauksessa seuraavaa vaihetta.  
 8. Valitse **Pankkitilin linkitys** -sivulla verkkopankkitilin rivi ja valitse sitten **Linkitä uuteen pankkitiliin** -toiminto.  
 
     Näyttöön avautuu uuden pankkitilin **Pankkitilin kortti** -sivu ja verkkopankkitilin nimi näkyy.
 
-    Jos [!INCLUDE[d365fin](includes/d365fin_md.md)]issa on jo pankkitili, johon haluat linkittää lisäverkkopankkitilin, noudata seuraavia ohjeita.  
+    Jos [!INCLUDE[prod_short](includes/prod_short.md)]issa on jo pankkitili, johon haluat linkittää lisäverkkopankkitilin, noudata seuraavia ohjeita.  
 9. Valitse **Pankkitilin linkitys** -sivulla verkkopankkitilin rivi ja valitse sitten **Linkitä olemassa olevaan pankkitiliin** -toiminto.
 10. Valitse **Pankkitililuettelo**-sivulla pankkitili, johon linkitys tehdään, ja valitse sitten **OK**-painike.
 
@@ -91,7 +91,7 @@ Pankkisyötepalvelu otetaan käyttöön, kun linkität pankkitilin siihen liitty
 3. Valitse pankin nimi. **Kirjaudu sisään** -ruutu avautuu.
 4. Syötä käyttäjätunnus ja salasana, jota käytät kirjautuessasi verkkopankkiin, ja valitse sitten **Seuraava**-painike.  
 
-    Pankkisyötepalvelu valmistelee [!INCLUDE[d365fin](includes/d365fin_md.md)]in pankkitilin ja liittyvän verkkopankkitilin linkityksen.  
+    Pankkisyötepalvelu valmistelee [!INCLUDE[prod_short](includes/prod_short.md)]in pankkitilin ja liittyvän verkkopankkitilin linkityksen.  
 
     Kun käsittely on tehty, pankin nimi näkyy **Linkitetty**-välilehden **Omat tilit** -ruudussa. Jos pankissa on useita pankkitilejä, vain vaiheessa 2 valittu pankkitili linkitetään.  
 5. Valitse **OK**-painike.
@@ -129,5 +129,5 @@ Jos **Pankkitililuettelo**-sivun linkitetyissä pankkitileissä esiintyy ongelmi
 [Pankkitoiminnan määrittäminen](bank-setup-banking.md)  
 [Pankkitilien täsmäytys](bank-manage-bank-accounts.md)  
 [Maksujen kohdistaminen automaattisesti ja pankkitilien täsmäyttäminen](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)

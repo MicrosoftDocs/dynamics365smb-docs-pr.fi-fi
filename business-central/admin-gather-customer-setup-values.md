@@ -10,22 +10,22 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 77534395d868b1ea82317c32aaed0e70d222e1e1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ffe9e73312142f8cb7848620fd4acbfbb2db9798
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911478"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752773"
 ---
 # <a name="gather-customer-setup-values"></a>Asiakkaan asetusarvojen kerääminen
-Määrityskyselylomakkeen avulla vähennät toteutuksen kuormitusta virtaviivaistamalla uuden yrityksen määritystehtävän. Voit luoda määrityskyselylomakkeen [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmassa ja toimittaa sen asiakkaalle Excel-tai XML-tiedostona.  
+Määrityskyselylomakkeen avulla vähennät toteutuksen kuormitusta virtaviivaistamalla uuden yrityksen määritystehtävän. Voit luoda määrityskyselylomakkeen [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa ja toimittaa sen asiakkaalle Excel-tai XML-tiedostona.  
 
 Voit muuttaa kyselyn kaikki oletusarvot vastaamaan paremmin asiakkaan tarpeita.  
 
 > [!TIP]  
 >  Lisätietoja toimitusten suunnittelun kenttien asetusarvojen määrittämisestä on ohjeaiheessa [Asetukset - parhaat käytännöt: toimitusten suunnittelu](setup-best-practices-supply-planning.md).  
 
-Kun asiakas täyttää kyselyn, voit tuoda tiedoston asiakkaan uuteen [!INCLUDE[d365fin](includes/d365fin_md.md)] -yritykseen. Voit tarkistaa kyselyn vastaukset asiakkaan kanssa, ennen kuin vastaukset otetaan käyttöön yrityksessä.
+Kun asiakas täyttää kyselyn, voit tuoda tiedoston asiakkaan uuteen [!INCLUDE[prod_short](includes/prod_short.md)] -yritykseen. Voit tarkistaa kyselyn vastaukset asiakkaan kanssa, ennen kuin vastaukset otetaan käyttöön yrityksessä.
 
 ## <a name="to-create-a-configuration-questionnaire"></a>Määrityskyselylomakkeen luominen
 Kyselylomakkeen avulla voit selvittää kokoonpanon laajuuden ja tarpeet. Voit luoda uuden kyselyn tai muokata olemassa olevaa kyselyä lisäämällä uusia kysymyksiä tai kysymysalueita.  
@@ -69,7 +69,7 @@ Kyselylomakkeen avulla voit selvittää kokoonpanon laajuuden ja tarpeet. Voit l
 9. In the **No.** field, enter a number to define where the question appears in the sequence of questions.
 10. In the **Field ID** field, choose the field the the customer's answer will be applied to. You can choose from the fields on the table you chose in the **Table ID** field.
   
-    When you choose a field, [!INCLUDE[d365fin](includes/d365fin_md.md)] provides a suggestion in the **Question** field. You can edit the question if needed.
+    When you choose a field, [!INCLUDE[prod_short](includes/prod_short.md)] provides a suggestion in the **Question** field. You can edit the question if needed.
 11. To add more questions to the questionnaire, repeat steps seven through 10.
 
 > [!Tip]
@@ -92,7 +92,7 @@ Voit myös poistaa kysymyksiä, joita et halua sisällyttää kyselyyn.
 >  Tarvittaessa, voit myös määrittää oletusvastaukset **Vastaus**-kentässä. Näitä arvoja käytetään mukautetun asennuksen oletusarvoina. Kuitenkin henkilö täyttää kyselylomakkeen, voit muokata ja päivittää vastaus.  
 
 ## <a name="to-complete-the-configuration-questionnaire"></a>Määrityskyselylomakkeen viimeisteleminen
-Käytä määrityskyselylomaketta, kun muotoilet ja dokumentoit yksityiskohtaisen keskustelun asiakkaan erityistarpeista. Käytät sitä myös kerätäksesi asetustietoja asiakkaalta määrittääksesi asianmukaiset [!INCLUDE[d365fin](includes/d365fin_md.md)] -asetustaulukot, kuten pääkirjanpidon, varaston ja asiakkaat.  
+Käytä määrityskyselylomaketta, kun muotoilet ja dokumentoit yksityiskohtaisen keskustelun asiakkaan erityistarpeista. Käytät sitä myös kerätäksesi asetustietoja asiakkaalta määrittääksesi asianmukaiset [!INCLUDE[prod_short](includes/prod_short.md)] -asetustaulukot, kuten pääkirjanpidon, varaston ja asiakkaat.  
 
 > [!NOTE]  
 >  Voit myös luoda oman määrityskyselylomakkeen, joka vastaa tarpeitasi.  
@@ -113,23 +113,23 @@ Seuraavassa ohjeessa neuvotaan vaihtoehtoinen tapa käyttää määrityskyselylo
 4. Sulje kysely valitsemalla **OK**-painike.
 
 ## <a name="to-validate-the-configuration-questionnaire"></a>Määrityskyselylomakkeen tarkistaminen
-On tärkeää tarkistaa määrityskyselylomake, ennen kuin se otetaan käyttöön [!INCLUDE[d365fin](includes/d365fin_md.md)] -muodossa. Se on myös keino varmistaa, että tietojen muotoilu säilyy Excel-tuonnin aikana.  
+On tärkeää tarkistaa määrityskyselylomake, ennen kuin se otetaan käyttöön [!INCLUDE[prod_short](includes/prod_short.md)] -muodossa. Se on myös keino varmistaa, että tietojen muotoilu säilyy Excel-tuonnin aikana.  
 
 Yleinen vahvistustehtävä tarkistaa, että tekstijonoja ei kirjoiteta päivämääräkenttiin. Tämä tarkistustoimenpide on tarpeen, koska kyselyn vastausmuotoa ei vahvisteta automaattisesti **Ota vastaukset käyttöön** -toiminnon suorituksen yhteydessä.  
 
 > [!NOTE]  
->  Yleensä määrityskyselylomakkeen asetusten tarkistaminen on manuaalinen prosessi. Alueellisten muotoilujen ristiriidat voidaan kuitenkin tarkistaa. Lisäksi saadaan virheilmoituksia, jos [!INCLUDE[d365fin](includes/d365fin_md.md)] -tietokannan rakenne ei vastaa siirtotietokannan rakennetta.  
+>  Yleensä määrityskyselylomakkeen asetusten tarkistaminen on manuaalinen prosessi. Alueellisten muotoilujen ristiriidat voidaan kuitenkin tarkistaa. Lisäksi saadaan virheilmoituksia, jos [!INCLUDE[prod_short](includes/prod_short.md)] -tietokannan rakenne ei vastaa siirtotietokannan rakennetta.  
 
 1. Valitse **Määrityskyselylomake**-sivulla asianmukainen kyselylomake ja valitse sitten **Kysymysalueet**-toiminto.  
 2. Avaa asianmukainen kysymysalue.  
 3. Tarkista jokaisen kysymyksen kohdalla, että **Vastaus**-kentän arvo vastaa **Vastausvaihtoehto**-kentässä määritettyä muotoa. Tarkista, että yrityksen osoite on tekstimuodossa.  
-4. Jos löydät virheitä, voit tehdä vianmäärityksen ja tehdä korjaukset Excelissä viemällä kyselylomakkeen ja tuomalla sen takaisin. Vaihtoehtoisesti voit korjata virheet suoraan [!INCLUDE[d365fin](includes/d365fin_md.md)]'ssa, kun arvioit vastauksia **Määrityskysymysalue**-sivulla.  
+4. Jos löydät virheitä, voit tehdä vianmäärityksen ja tehdä korjaukset Excelissä viemällä kyselylomakkeen ja tuomalla sen takaisin. Vaihtoehtoisesti voit korjata virheet suoraan [!INCLUDE[prod_short](includes/prod_short.md)]'ssa, kun arvioit vastauksia **Määrityskysymysalue**-sivulla.  
 5. Toista nämä vaiheet kullekin kysymysalueelle.  
 
 Kun tarkistus on tehty, tiedot ovat valmiita käyttöön tietokantaa varten.  
 
 ## <a name="to-apply-answers-from-the-configuration-questionnaire"></a>Määrityskyselylomakkeen vastausten käyttäminen
-Kun olet tuonut määrityskyselylomakkeen tiedot ja vahvistanut ne, voit siirtää tai käyttää asetustietoja vastaaviin taulukoihin [!INCLUDE[d365fin](includes/d365fin_md.md)] -tietokannassa.  
+Kun olet tuonut määrityskyselylomakkeen tiedot ja vahvistanut ne, voit siirtää tai käyttää asetustietoja vastaaviin taulukoihin [!INCLUDE[prod_short](includes/prod_short.md)] -tietokannassa.  
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Konfiguraatiokysely** ja valitse sitten liittyvä linkki. **Määrityskysely**-sivu avautuu.  
 2. Valitse määrityskyselylomake luettelosta ja valitse sitten **Muokkaa luetteloa** -toiminto.  
@@ -139,7 +139,7 @@ Kun olet tuonut määrityskyselylomakkeen tiedot ja vahvistanut ne, voit siirtä
 - Käytä vastauksia vain tietyssä **kysymysalueessa** valitsemalla **Kysymysalueet**-toiminto. Valitse luettelosta **Kysymysalue** ja valitse sitten **Käytä vastauksia** -toiminto.  
 
 ### <a name="to-verify-that-answers-have-been-applied-successfully"></a>Varmista, että vastaukset on kohdistettu onnistuneesti  
-1. Tarkista [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman eri toiminta-alueiden asetussivut. Valitse sivun löytääksesi ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä asetussivun nimi ja valitse sitten liittyvä linkki.  
+1. Tarkista [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman eri toiminta-alueiden asetussivut. Valitse sivun löytääksesi ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä asetussivun nimi ja valitse sitten liittyvä linkki.  
 2. Varmista, että kentät on täytetty oikeilla tiedoilla määrityskyselylomakkeen eri kysymysalueilta.  
 
 Olet nyt määrittänyt asetukset asiakkaan yrityksen tietoihin ja sääntöihin.

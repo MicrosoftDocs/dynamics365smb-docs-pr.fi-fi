@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 20dd616b52c1d6752d8aeeeb7c95e9d4f814b9a3
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 51f60e938ddb8ffd53b37b5664cf6e1ba8ba396f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920945"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751778"
 ---
 # <a name="design-details-cost-adjustment"></a>Rakennetiedot: kustannuksen muutos
 
@@ -38,7 +38,7 @@ Varaston kustannuksia on muutettava ennen kuin liittyvät arvotapahtumat voi tä
 
 Nimikepäiväkirja - kirjaa rivi -rutiini määrittää ensisijaisesti sen, tuleeko kustannuksia muuttaa, kun taas kustannusten muuttamisen tapahtumien laskemisen ja luomisen suorittaa **Muuta kustannuksia - Nimiketapahtumat** -eräajo.  
 
-Kun haluat siirtää kustannukset eteenpäin, tunnistusmekanismi määrittää kustannusten muuttuneet lähteet ja kohteet, joihin nämä kustannukset tulisi siirtää. Seuraavat kolme havaintotoimintoa ovat olemassa kohteessa [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
+Kun haluat siirtää kustannukset eteenpäin, tunnistusmekanismi määrittää kustannusten muuttuneet lähteet ja kohteet, joihin nämä kustannukset tulisi siirtää. Seuraavat kolme havaintotoimintoa ovat olemassa kohteessa [!INCLUDE[prod_short](includes/prod_short.md)]:  
 
 * Nimikkeen kohdistustapahtuma  
 * Keskimääräinen kustannusten oikaisun tulopaikka  
@@ -82,7 +82,7 @@ On hyvän käytännön mukaista suorittaa kustannuksen muuttaminen automaattises
 
 Koska nimikkeen yksikkökustannuksen pitäminen ajan tasalla on tärkeää, on suositeltavaa, että suoritat **Muuta kustannuksia - Nimiketapahtumat** -eräajon niin usein kuin mahdollista työajan ulkopuolella. Voit käyttää vaihtoehtoisesti myös automaattista kustannusten muuttamista. Tämä varmistaa, että nimikkeiden yksikkökustannus päivitetään päivittäin.  
 
-Muutosprosessi ja sen seuraukset ovat samat, suoritettiin kustannusten muutos manuaalisesti tai automaattisesti. [!INCLUDE[d365fin](includes/d365fin_md.md)] laskee saapuvien tapahtumien arvon ja siirtää tämän kustannuksen mihin tahansa lähteviin tapahtumiin, kuten myynnit tai menekki, joita on sovellettu saapuviin tapahtumiin. Kustannusten sopeuttaminen luo arvokirjauksia, jotka sisältävät sopeuttamissummia ja summia, jotka kompensoivat pyöristystä.  
+Muutosprosessi ja sen seuraukset ovat samat, suoritettiin kustannusten muutos manuaalisesti tai automaattisesti. [!INCLUDE[prod_short](includes/prod_short.md)] laskee saapuvien tapahtumien arvon ja siirtää tämän kustannuksen mihin tahansa lähteviin tapahtumiin, kuten myynnit tai menekki, joita on sovellettu saapuviin tapahtumiin. Kustannusten sopeuttaminen luo arvokirjauksia, jotka sisältävät sopeuttamissummia ja summia, jotka kompensoivat pyöristystä.  
 
 Uusissa sopeuttamis- ja pyöristysarvokirjauksissa on liittyvän laskun tiliöintipäivä. Poikkeuksen muodostavat arvotapahtumat, jotka osuvat suljetulle kirjanpitojaksolle tai varastokaudelle tai jos kirjauspäivämäärä on aiemmin kuin **Ensimm. sallittu kirjauspvm** -kentän päivämäärä **Pääkirjanpidon asetukset** -sivulla. Jos näin tapahtuu, eräajo määrittää kirjauspäivämääräksi seuraavan avoimen jakson ensimmäisen päivämäärän.  
 
@@ -188,4 +188,4 @@ Jos olet määrittänyt automaattisia kustannuksen muutoksia kirjauksiin, jotka 
 [Rakennetiedot: tuotantotilauksen kirjaus](design-details-production-order-posting.md)  
 [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)  
 [Rahoitus](finance.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  

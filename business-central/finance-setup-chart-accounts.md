@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: COA, cha of acc
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cb588d67976a0eb6eee9cac9c66672ac3dd06c69
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b20c4680393fa13b260beca366c7e4ba04abb291
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922993"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750378"
 ---
 # <a name="setting-up-or-changing-the-chart-of-accounts"></a>Tilikartan määrittäminen tai muuttaminen
-Tilikartta näyttää ne kirjanpidon tilit, joihin on tallennettu taloustietoja. [!INCLUDE[d365fin](includes/d365fin_md.md)] sisältää tilikartan, joka on valmis tukemaan liiketoimintaasi.
+Tilikartta näyttää ne kirjanpidon tilit, joihin on tallennettu taloustietoja. [!INCLUDE[prod_short](includes/prod_short.md)] sisältää tilikartan, joka on valmis tukemaan liiketoimintaasi.
 Voit kuitenkin muuttaa oletustilejä ja lisätä uusia tilejä.
 <br><br>  
 
@@ -35,7 +35,7 @@ Voit avata kunkin tilin KP-tilin tilikartasta ja lisätä tai muuttaa asetuksia.
 >   * **Salli KP-tilin poisto ennen** -kenttä on määritettävä **Pääkirjanpidon asetukset** -sivulla. Tilillä ei saa olla tapahtumakirjauksia kyseisenä päivänä tai sen jälkeen.  
 >   * Jos **Tarkista KP-tilin käyttö** -kenttä on valittu **Pääkirjanpidon asetukset** -sivulla, tiliä ei voi käyttää kirjausryhmässä tai kirjauksen asetuksissa.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] estää tilikartassa tarvittavia tietoja sisältävän pääkirjanpitotilin poistamisen.  
+[!INCLUDE[prod_short](includes/prod_short.md)] estää tilikartassa tarvittavia tietoja sisältävän pääkirjanpitotilin poistamisen.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/chart-accounts-dynamics-365-business-central/index)
 
@@ -45,6 +45,6 @@ Voit avata kunkin tilin KP-tilin tilikartasta ja lisätä tai muuttaa asetuksia.
 [Dimensioiden käyttäminen](finance-dimensions.md)  
 [Tietojen tuominen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md)  
 [KP-raporttimallien käyttäminen](bi-how-work-account-schedule.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]

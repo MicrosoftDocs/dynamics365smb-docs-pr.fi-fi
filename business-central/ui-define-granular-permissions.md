@@ -10,36 +10,36 @@ ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c2b663208a1bed8522ea532efdb2dee0d519b646
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 94fe9b960b61e4607bf285cd1e9ee8f1af1be916
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912519"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747785"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Määritä käyttöoikeudet käyttäjille ja ryhmille
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] -suojausjärjestelmän avulla voit määrittää, mitä objekteja käyttäjä voi käyttää kunkin tietokannan tai ympäristön sisällä. Voit määrittää jokaiselle käyttäjälle, voivatko he lukea, muokata tai syöttää tietoja valituissa tietokantaobjekteissa. Lisätietoja on [Tietosuoja](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level)-kohdassa [!INCLUDE[d365fin](includes/d365fin_md.md)]:n Kehittäjä- ja ITpro-ohjeessa.
+[!INCLUDE[prod_short](includes/prod_short.md)] -suojausjärjestelmän avulla voit määrittää, mitä objekteja käyttäjä voi käyttää kunkin tietokannan tai ympäristön sisällä. Voit määrittää jokaiselle käyttäjälle, voivatko he lukea, muokata tai syöttää tietoja valituissa tietokantaobjekteissa. Lisätietoja on [Tietosuoja](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level)-kohdassa [!INCLUDE[prod_short](includes/prod_short.md)]:n Kehittäjä- ja ITpro-ohjeessa.
 
 Ennen kuin määrität käyttöoikeuksia käyttäjille ja käyttäjäryhmille, sinun täytyy määrittää, ketkä voivat kirjautua sisään luomalla käyttäjiä Microsoft 365 -hallintakeskuksessa määritetyn käyttöoikeuden mukaisesti. Katso lisätietoja kohdasta [Luo käyttäjiä lisenssien mukaan](ui-how-users-permissions.md).
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmassa tietokantaobjektien käyttöoikeustasoja on kaksi:
+[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa tietokantaobjektien käyttöoikeustasoja on kaksi:
 
 - Käyttöoikeuden mukaiset yleiset käyttöoikeudet, joita kutsutaan myös oikeutuksisi.
-- Yksityiskohtaisemmat käyttöoikeudet, jotka on määritetty [!INCLUDE[d365fin](includes/d365fin_md.md)]:n sisältä.
+- Yksityiskohtaisemmat käyttöoikeudet, jotka on määritetty [!INCLUDE[prod_short](includes/prod_short.md)]:n sisältä.
 
 Voit helpottaa useiden käyttäjien käyttöoikeuksien hallintaa järjestämällä ne käyttäjäryhmiin ja määrittämällä siten yhden toiminnon useille käyttäjille yhden käyttöoikeusjoukon tai muuttamaan sitä. Lisätietoja on kohdassa [Käyttäjien käyttöoikeuksien hallinta käyttäjäryhmien kautta](ui-define-granular-permissions.md#to-manage-permissions-through-user-groups).
 
 > [!NOTE]
 > Lisätapa määrittää, mitä ominaisuuksia käyttäjällä on oikeus käyttää, on määrittää se **Kokemus**-kentässä **Yritystiedot**-sivulla. Lisätietoja on kohdassa [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md).
 >
-> Voit määrittää mitä käyttäjät näkevät käyttöliittymässä ja miten he käyttävät sallittuja toimintoja sivuilla. Se tehdään profiilien avulla ja nämä määritetään eri käyttäjätyypeille heidän työnsä tai osastonsa mukaisten roolien mukaan. Lisätietoja on kohdissa [Profiilien hallinta](admin-users-profiles-roles.md) ja [[!INCLUDE[d365fin](includes/d365fin_md.md)]in mukauttaminen](ui-customizing-overview.md).
+> Voit määrittää mitä käyttäjät näkevät käyttöliittymässä ja miten he käyttävät sallittuja toimintoja sivuilla. Se tehdään profiilien avulla ja nämä määritetään eri käyttäjätyypeille heidän työnsä tai osastonsa mukaisten roolien mukaan. Lisätietoja on kohdissa [Profiilien hallinta](admin-users-profiles-roles.md) ja [[!INCLUDE[prod_short](includes/prod_short.md)]in mukauttaminen](ui-customizing-overview.md).
 
 ## <a name="to-assign-permission-sets-to-users"></a>Käyttöoikeusjoukkojen määrittäminen käyttäjälle
 
-Käyttöoikeusjoukko on joukko tiettyjen tietokantaobjektien käyttöoikeuksia. Kaikille käyttäjille on määritettävä vähintään yksi käyttöoikeusjoukko, ennen kuin he voivat käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]ia.
+Käyttöoikeusjoukko on joukko tiettyjen tietokantaobjektien käyttöoikeuksia. Kaikille käyttäjille on määritettävä vähintään yksi käyttöoikeusjoukko, ennen kuin he voivat käyttää [!INCLUDE[prod_short](includes/prod_short.md)]ia.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] -ratkaisu sisältää useita esimääritettyjä käyttöoikeuksien joukkoja, jotka Microsoft tai oma ratkaisutoimittajasi on lisännyt. Voit myös lisätä uusia käyttöoikeusjoukkoja, jotka on räätälöity organisaatiosi tarpeiden mukaan. Lisätietoja on kohdassa [Käyttöoikeuksien joukon luominen tai muokkaaminen](ui-define-granular-permissions.md#to-create-or-modify-a-permission-set).
+[!INCLUDE[prod_short](includes/prod_short.md)] -ratkaisu sisältää useita esimääritettyjä käyttöoikeuksien joukkoja, jotka Microsoft tai oma ratkaisutoimittajasi on lisännyt. Voit myös lisätä uusia käyttöoikeusjoukkoja, jotka on räätälöity organisaatiosi tarpeiden mukaan. Lisätietoja on kohdassa [Käyttöoikeuksien joukon luominen tai muokkaaminen](ui-define-granular-permissions.md#to-create-or-modify-a-permission-set).
 
 > [!NOTE]
 > Jos et halua rajoittaa käyttäjän oikeuksia enempää kuin käyttöoikeussopimuksessa on jo määritetty, voit määrittää käyttäjälle erityisen käyttöoikeusjoukon nimeltä SUPER. Tämä käyttöoikeusjoukko varmistaa, että käyttäjä voi käyttää kaikkia lisenssissä määritettyjä objekteja.
@@ -97,7 +97,7 @@ Kaikki käyttäjälle jo määritetyt käyttöoikeusjoukot **Käyttöoikeuksien 
 Käyttöoikeuksien joukot toimivat käyttöoikeuksien säilöinä. Niiden avulla voit helposti hallinnoida yhden tietueen useita käyttöoikeuksia.
 
 > [!NOTE]  
-> [!INCLUDE[d365fin](includes/d365fin_md.md)] -ratkaisu sisältää yleensä useita esimääritettyjä käyttöoikeuksien joukkoja, jotka Microsoft tai oma ohjelmistotoimittajasi on lisännyt. Näiden käyttöoikeuksien joukkojen tyyppi on **Järjestelmä** tai **Laajennus**. Käyttöoikeuksien joukkoja ja niihin kuuluvia käyttöoikeuksia, joiden tyyppi on jompikumpi edellä mainituista, ei voi luoda tai muokata. Voit kuitenkin kopioida ne ja määrittää omia käyttöoikeuksien joukkoja ja käyttöoikeuksia.
+> [!INCLUDE[prod_short](includes/prod_short.md)] -ratkaisu sisältää yleensä useita esimääritettyjä käyttöoikeuksien joukkoja, jotka Microsoft tai oma ohjelmistotoimittajasi on lisännyt. Näiden käyttöoikeuksien joukkojen tyyppi on **Järjestelmä** tai **Laajennus**. Käyttöoikeuksien joukkoja ja niihin kuuluvia käyttöoikeuksia, joiden tyyppi on jompikumpi edellä mainituista, ei voi luoda tai muokata. Voit kuitenkin kopioida ne ja määrittää omia käyttöoikeuksien joukkoja ja käyttöoikeuksia.
 >
 > Käyttäjien luomien uusien tai kopioina luotujen käyttöoikeuksien joukkojen tyyppi on **Käyttäjän määrittämä**. Niitä voi muokata.
 
@@ -122,7 +122,7 @@ Uusi käyttöoikeuksien joukko, joka sisältää kaikki kopioidun käyttöoikeuk
 
 ### <a name="to-export-and-import-a-permission-set"></a>Käyttöoikeusjoukon vieminen ja tuominen
 
-Jos haluat määrittää käyttöoikeudet nopeasti, voit tuoda toisesta [!INCLUDE[d365fin](includes/d365fin_md.md)] -vuokraajasta viedyt käyttöoikeusjoukot.
+Jos haluat määrittää käyttöoikeudet nopeasti, voit tuoda toisesta [!INCLUDE[prod_short](includes/prod_short.md)] -vuokraajasta viedyt käyttöoikeusjoukot.
 
 Multivuokraaja-ympäristöissä käyttöoikeusjoukko tuodaan tietylle vuokralaiselle eli tuonnin laajuus on "vuokraaja".
 
@@ -162,7 +162,7 @@ Voit valita kaikissa viidessä käyttöoikeustyyppien kentässä (**luku-**, **l
 ### <a name="example---indirect-permission"></a>Esimerkki - epäsuora käyttöoikeus
 
 Voit määrittää epäsuoria käyttöoikeuksia, jos haluat käyttää objektia vain toisen objektin kautta.
-Käyttäjällä voi olla esimerkiksi oikeus ajaa koodiyksikkö 80, myynti kirjattu. Codeunit Myynti kirjattu suorittaa useita tehtäviä, myös muokkaa taulukkoa 37, Ostorivi. Kun käyttäjä kirjaa myyntiasiakirjan, codeunitin Myynti kirjattu, [!INCLUDE[d365fin](includes/d365fin_md.md)] tarkistaa, onko käyttäjällä oikeus muokata Myyntirivi-taulukkoa. Jos ei, codeunit ei voi suorittaa tehtäviä ja käyttäjä saa virhesanoman. Tällöin koodiyksikön suorittaminen onnistuu.
+Käyttäjällä voi olla esimerkiksi oikeus ajaa codeunit 80, myynti kirjattu. Codeunit Myynti kirjattu suorittaa useita tehtäviä, myös muokkaa taulukkoa 37, Ostorivi. Kun käyttäjä kirjaa myyntiasiakirjan, codeunitin Myynti kirjattu, [!INCLUDE[prod_short](includes/prod_short.md)] tarkistaa, onko käyttäjällä oikeus muokata Myyntirivi-taulukkoa. Jos ei, codeunit ei voi suorittaa tehtäviä ja käyttäjä saa virhesanoman. Tällöin codeunitin suorittaminen onnistuu.
 
 Käyttäjällä ei kuitenkaan tarvitse olla Ostorivi-taulukon täysiä käyttöoikeuksia codeunitin suorittamiseksi. Jos käyttäjällä on Myyntirivi-taulukon epäsuorat käyttöoikeudet, codeunitin Myynti kirjattu suorittaminen onnistuu. Kun käyttäjällä on epäsuorat oikeudet, kyseinen käyttäjä voi muokata vain Ostorivi-taulukkoa suorittamalla codeunitin Myynti kirjattu tai toisen objektin, jolla on Ostorivi-taulukon muokkausoikeudet. Käyttäjä voi muokata Ostorivi-taulukkoa vain silloin, kun se tapahtuu tuetulla sovellusalueella. Käyttäjä ei voi suorittaa toimintoa vahingossa tai tahallaan muita menetelmiä käyttäen.
 
@@ -176,14 +176,14 @@ Käyttäjällä ei kuitenkaan tarvitse olla Ostorivi-taulukon täysiä käyttöo
 6. Valitse **Käyttöoikeudet**-sivulla ensin **Kirjausoikeudet**-toiminto ja sitten **Aloita**-toiminto.
 
     Käynnistyvä tallennusprosessi tallentaa kaikki käyttöliittymässä tekemäsi toimet.
-7. Siirry niille [!INCLUDE[d365fin](includes/d365fin_md.md)]in sivulle ja niihin toimintoihin, joita haluat tämän käyttöoikeusjoukon käyttäjien käyttävän. Sinun on tehtävä ne tehtävät, joille haluat tallentaa käyttöoikeudet.
+7. Siirry niille [!INCLUDE[prod_short](includes/prod_short.md)]in sivulle ja niihin toimintoihin, joita haluat tämän käyttöoikeusjoukon käyttäjien käyttävän. Sinun on tehtävä ne tehtävät, joille haluat tallentaa käyttöoikeudet.
 8. Kun tallennus on valmis, palaa **Käyttöoikeudet**-sivulle ja valitse sitten **Lopeta**-toiminto.
 9. Lisää tallennetut käyttöoikeudet uuteen käyttöoikeusjoukkoon valitsemalla **Kyllä**.
 10. Määritä jokaiselle tallennetun luettelon objektille, saavatko käyttäjät lisätä, muokata tai poistaa tietueita tallennetuissa taulukoissa.
 
 ## <a name="security-filters---to-limit-a-users-access-to-specific-records-in-a-table"></a>Suojaussuodattimet - Käyttäjän käyttöoikeuden rajoittaminen tiettyihin taulukon tietueisiin
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]in tietuetason suojauksessa käyttäjän käyttöoikeus rajoitetaan taulukon tietoihin suojaussuodattimien avulla. Suojaussuodattimet luodaan taulukon tietojen perusteella. Suojaussuodatin kuvaa sitä taulukon tietuejoukkoa, jonka käyttöoikeus käyttäjällä on. Voit määrittää esimerkiksi, että käyttäjä saa lukea vain tietueita, joissa on tietoja tietystä asiakkaasta. Tämä tarkoittaa, että käyttäjällä ei ole muiden asiakkaiden tietoja sisältävien tietueiden käyttöoikeutta. Lisätietoja on kehittäjien ja IT-ammattilaisten ohjeen kohdassa [Suojaussuodattimien käyttäminen](/dynamics365/business-central/dev-itpro/security/security-filters).
+[!INCLUDE[prod_short](includes/prod_short.md)]in tietuetason suojauksessa käyttäjän käyttöoikeus rajoitetaan taulukon tietoihin suojaussuodattimien avulla. Suojaussuodattimet luodaan taulukon tietojen perusteella. Suojaussuodatin kuvaa sitä taulukon tietuejoukkoa, jonka käyttöoikeus käyttäjällä on. Voit määrittää esimerkiksi, että käyttäjä saa lukea vain tietueita, joissa on tietoja tietystä asiakkaasta. Tämä tarkoittaa, että käyttäjällä ei ole muiden asiakkaiden tietoja sisältävien tietueiden käyttöoikeutta. Lisätietoja on kehittäjien ja IT-ammattilaisten ohjeen kohdassa [Suojaussuodattimien käyttäminen](/dynamics365/business-central/dev-itpro/security/security-filters).
 
 ## <a name="to-manage-permissions-through-user-groups"></a>Käyttöoikeuksien hallinta käyttäjäryhmien avulla
 
@@ -245,12 +245,20 @@ Järjestelmänvalvojat voivat määrittää ajanjaksoja, joiden aikana määrite
 3. Anna **Käyttäjätunnus**-kentässä käyttäjän tunnus tai valitse kenttä, jos haluat nähdä kaikki järjestelmässä tällä hetkellä olevat Windows-käyttäjät.
 4. Täytä tarvittavat kentät.
 
+
+## <a name="viewing-permission-changes-telemetry"></a>Käyttöoikeuksien muutosten telemetrian tarkasteleminen 
+
+Voit määrittää [!INCLUDE[prod_short](includes/prod_short.md)]in lähettämään käyttöoikeuksiin tehdyt muutokset Application Insights -resurssiin Microsoft Azuressa. Sitteen Azure Monitorin avulla luot raportteja ja määrität hälytyksiä kerätyille tiedoille. Lisätietoja on [!INCLUDE[prod_short](includes/prod_short.md)]in kehittäjien ja IT-ammattilaisten ohjeen seuraavissa artikkeleissa:
+
+- [Telemetrian seuranta ja analysointi – Application Insightsin käyttöönotto](/dynamics365/business-central/dev-itpro/administration/telemetry-overview#enable)
+- [Kentän seurannan telemetrian analysointi](/dynamics365/business-central/dev-itpro/administration/telemetry-permission-changes-trace)
+
 ## <a name="see-also"></a>Katso myös
 
 [Luo käyttäjät käyttöoikeuksien mukaan](ui-how-users-permissions.md)  
 [Profiilien hallinta](admin-users-profiles-roles.md)  
 [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen mukauttaminen](ui-customizing-overview.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen mukauttaminen](ui-customizing-overview.md)  
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 [Hallinta](admin-setup-and-administration.md)  
 [Lisää käyttäjiä Microsoft 365 yrityksille](https://aka.ms/CreateOffice365Users)  

@@ -10,24 +10,24 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: fb5ede0362f54f8475807e10e1bad87beffaec02
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e90d17b2892744c768cd0383f91962fe51d2a0de
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922590"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752648"
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>Yrityksen määrittämisen hallinta työkirjassa
 Määritykset-työkirja on keskitetty sijainti, jossa voit suunnitella, seurata ja tehdä määrityksiä. Voit luoda taulukon kunkin yrityksen osalta, jonka kanssa toimit tai luoda perusmäärityskirjan, jonka avulla voidaan määrittää useita samankaltaisia yrityksiä.  
 
-Kokoonpanopaketin valmistelun ensimmäinen vaihe on sellaisen yrityksen valinta, jonka olet jo luonut ja muokannut omia tarpeitasi varten. Tämä yritys toimii määritysten pohjana, kun määrität kokoonpanoja uusille yrityksille. Työkirjassa määritetään taulukot, joita määritysten halutaan hallitsevan ja käsittelevän. Koska useimmilla taulukoilla [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmassa on suhteita tai riippuvuuksia muihin taulukoihin, tulisi liittyvät taulukot myös sisällyttää tarpeen mukaan. Nämä taulukot toimivat yhdessä rakenteena, jonka ympärille muodostetaan uusi yritys. Seuraavat vaiheet opastavat kokoonpanosi paketoinnissa ja asentamisessa.  
+Kokoonpanopaketin valmistelun ensimmäinen vaihe on sellaisen yrityksen valinta, jonka olet jo luonut ja muokannut omia tarpeitasi varten. Tämä yritys toimii määritysten pohjana, kun määrität kokoonpanoja uusille yrityksille. Työkirjassa määritetään taulukot, joita määritysten halutaan hallitsevan ja käsittelevän. Koska useimmilla taulukoilla [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa on suhteita tai riippuvuuksia muihin taulukoihin, tulisi liittyvät taulukot myös sisällyttää tarpeen mukaan. Nämä taulukot toimivat yhdessä rakenteena, jonka ympärille muodostetaan uusi yritys. Seuraavat vaiheet opastavat kokoonpanosi paketoinnissa ja asentamisessa.  
 
 Voit helpottaa työsi seurantaa ja tarkastusta käyttämällä **Määrityspaketin taulukko** -tietoruutua nähdäksesi lisätietoja tietueista. Voit tarkkailla taulukoiden suhteita **Määritykseen liittyvä taulukko** -tietoruudussa.  
 
 Seuraavissa ohjeissa näytetään, miten voit lisätä ja mukauttaa kokoonpanosi taulukoiden tietoja.  
 
 ## <a name="to-open-the-configuration-worksheet"></a>Avaa määritystyökirja  
-1.  Avaa [!INCLUDE[d365fin](includes/d365fin_md.md)]issa yritys, joka on määrityksen pohjana, ja avaa sitten sen RapidStart Servicesin käyttöönottajien roolikeskus.  
+1.  Avaa [!INCLUDE[prod_short](includes/prod_short.md)]issa yritys, joka on määrityksen pohjana, ja avaa sitten sen RapidStart Servicesin käyttöönottajien roolikeskus.  
 2.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Määritystyökirja** ja valitse sitten liittyvä linkki.  
 
 ## <a name="to-add-a-table-to-the-worksheet"></a>Taulukon lisääminen työkirjaan  
@@ -62,7 +62,7 @@ Seuraavissa ohjeissa näytetään, miten voit lisätä ja mukauttaa kokoonpanosi
     |**Sisällytä vain lisensoidut taulukot**|Valitse valintaruutu sisällyttääksesi vain taulukot, joita voit käyttöoikeutesi (jonka alaisena luot työkirjaa) mukaan käyttää.|
 
 3. Määritä **Objekti**-pikavälilehdessä asianmukaiset suodattimet sen mukaan, minkätyyppiset taulukot haluat sisällyttää ja jättää pois.  
-4. Valitse **OK**-painike. [!INCLUDE[d365fin](includes/d365fin_md.md)] -taulukot lisätään työkirjaan. Jokaisen luettelon tapahtumalla on rivi, jonka tyyppi on **Taulukko**.  
+4. Valitse **OK**-painike. [!INCLUDE[prod_short](includes/prod_short.md)] -taulukot lisätään työkirjaan. Jokaisen luettelon tapahtumalla on rivi, jonka tyyppi on **Taulukko**.  
 5. Voit poistaa taulukkotietojen kaksoiskappaleet, joita voi syntyä **Hae taulukot** -toiminnossa, valitsemalla **Poista rivien kaksoiskappaleet** -toiminto. Tämä poistaa päällekkäisiä taulukoita, joilla on sama pakettikoodi.  
 6. Voit lisätä taulukoita työkirjoihin, jotka liittyvät valitsemaasi taulukkoon. Tarkasta **Liittyvät taulukot**-tietoruudun tiedot nähdäksesi, puuttuuko taulukoita. Voit lisätä tiettyyn taulukkoon liittyvät taulukot valitsemalla taulukon luettelosta ja valitsemalla sitten **Hae liittyvät taulukot** -toiminto.  
 
@@ -97,7 +97,7 @@ Seuraavassa kuvaillaan, miten luodaan alue- ja ryhmänimityksiä ensimmäisen ta
 4. Valitse **Rivityyppi**-kentässä **Ryhmä**. Kirjoita **Nimi**-kenttään alueen nimi. Ryhmän nimet sisennetään automaattisesti.  
 5. Siirrä taulukoita asianmukaiseen luokkaan valitsemalla siirrettävä taulukko ja valitsemalla sitten **Siirrä ylös**- tai **Siirrä alas** -toiminto. Voit myös poistaa työkirjan rivin ja lisätä taulukon uudelleen tarvittavaan sijaintiin.  
 
-Jotkut [!INCLUDE[d365fin](includes/d365fin_md.md)] -taulukot ovat vakiomuotoisia, ja niiden tiedot eivät todennäköisesti muutu toteutusten välillä. Näin ollen asiakkaan kohdistuksen avustamiseksi voit poistaa nämä taulukot työkirjoista sen jälkeen, kun olet sisällyttänyt ne määrityspakettiin. Kun taulukot on lisätty, ne säilyvät määrityspaketin osina.  
+Jotkut [!INCLUDE[prod_short](includes/prod_short.md)] -taulukot ovat vakiomuotoisia, ja niiden tiedot eivät todennäköisesti muutu toteutusten välillä. Näin ollen asiakkaan kohdistuksen avustamiseksi voit poistaa nämä taulukot työkirjoista sen jälkeen, kun olet sisällyttänyt ne määrityspakettiin. Kun taulukot on lisätty, ne säilyvät määrityspaketin osina.  
 
 ## <a name="to-remove-a-standard-table-in-the-worksheet"></a>Siirrä vakiotaulukko työkirjassa  
 Kun olet lisännyt kaikki tarvittavat taulukot kokoonpanopakettiin, määritä, mitkä taulukot eivät edellytä asiakkaan toimia.  
@@ -114,11 +114,11 @@ Kun luot kokoonpanonpaketin ratkaisua varten, voit tarkastella ja mukauttaa käy
 1.  Etsi **Määritystyökirja** -sivulta taulukot, joiden tietoja haluat tarkastella tai muokata.  
 
     > [!NOTE]  
-    >  Varmista, että jokaiseen taulukkoon on määritetty sivun tunnus. Tämä arvo on täytetty automaattisesti vakiomuotoisissa [!INCLUDE[d365fin](includes/d365fin_md.md)] -taulukoissa. Mukautetuille taulukoille tunnus on kuitenkin annettava.  
+    >  Varmista, että jokaiseen taulukkoon on määritetty sivun tunnus. Tämä arvo on täytetty automaattisesti vakiomuotoisissa [!INCLUDE[prod_short](includes/prod_short.md)] -taulukoissa. Mukautetuille taulukoille tunnus on kuitenkin annettava.  
 
 2.  Valitse **Tietokantatiedot**-toiminto.  
 
-     Sivun [!INCLUDE[d365fin](includes/d365fin_md.md)] -sivu avautuu.  
+     Sivun [!INCLUDE[prod_short](includes/prod_short.md)] -sivu avautuu.  
 
 3.  Tarkastele käytettävissä olevia tietoja Muokkaa sitä tarpeen mukaan poistamalla epäolennaiset tietueet tai lisäämällä uusia.
 

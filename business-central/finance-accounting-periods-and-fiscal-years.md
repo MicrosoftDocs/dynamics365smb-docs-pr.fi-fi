@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 6d62db7673a37cd115caedc778b3fea1cf5b3ce8
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ae13b3c24e73f9b73335291b2911f16d6acf29d0
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916241"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751103"
 ---
 # <a name="working-with-accounting-periods-and-fiscal-years"></a>Kirjanpitojaksojen ja tilikausien käyttäminen
 
@@ -23,7 +23,7 @@ Tilijaksot, joita kutsutaan myös raportointikausiksi, ovat ajanjaksoja, jolloin
 
 Tilikausi ja kalenterivuosi eivät ole samat monissa yrityksissä. Tilikausi voi esimerkiksi päättyä 30.6. eikä 31.12. Uusilla yrityksillä tilikausi voi myös olla pidempi kuin 12 kuukautta.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] edellyttää kirjanpitojaksoja vain siinä tapauksessa, että haluat sulkea tuloslaskelman tai suorittaa tietojen tiivistystehtäviä. 
+[!INCLUDE[prod_short](includes/prod_short.md)] edellyttää kirjanpitojaksoja vain siinä tapauksessa, että haluat sulkea tuloslaskelman tai suorittaa tietojen tiivistystehtäviä. 
 
 Voit käyttää kirjanpitojaksoja raportoinnissa. Näin tehdään esimerkiksi silloin, kun kirjattuja tapahtumia tarkastellaan **Saldo/budjetti**-sivulla, jossa raportointiväli voidaan määrittää. Yksi vaihtoehdoista on raportoinnin määrittäminen kirjanpitojakson mukaan. Voit myös muodostaa KP-raporttimallin, joka vertaa eri kirjanpitojaksojen tuloksia.
 
@@ -48,7 +48,7 @@ Jos tilikauden kirjanpitojaksojen pituudet vaihtelevat, kuten vähittäismyynnis
   
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") -kuvake, anna **Kirjanpitojaksot** ja valitse sitten aiheeseen liittyvä linkki.  
 2. Anna **Aloituspvm**-kenttään päivämäärä, jolloin tilikausi alkaa. **Nimi**-kentässä on kuukauden nimi.  
-3. Ilmaise **Uusi tilikausi** -valintaruudun valinnalla, että kyse on vuoden ensimmäisestä jaksosta. [!INCLUDE[d365fin](includes/d365fin_md.md)] määrittää tämän jakson perusteella, mitkä jaksot sulkevat tilikauden.
+3. Ilmaise **Uusi tilikausi** -valintaruudun valinnalla, että kyse on vuoden ensimmäisestä jaksosta. [!INCLUDE[prod_short](includes/prod_short.md)] määrittää tämän jakson perusteella, mitkä jaksot sulkevat tilikauden.
 4. Toista vaiheet 2 ja 3 kunkin jäljellä olevan jakson kohdalla.  
 
 ## <a name="closing-a-fiscal-year"></a>Tilikauden sulkeminen

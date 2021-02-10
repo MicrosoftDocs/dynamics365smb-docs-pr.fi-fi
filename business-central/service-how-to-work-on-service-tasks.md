@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: de32dea618259d8a7ecde20e47f6f258f12f525a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 21f4dc7f2f0fa6602f02720fc441d1007d0f6bfe
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913194"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747991"
 ---
 # <a name="work-on-service-tasks"></a>Huoltotehtävien käyttäminen
 Kun huoltotilaukset tai huoltotarjoukset on luotu, huoltonimikerivit rekisteröity ja resurssit on kohdistettu tilausten tai tarjousten huoltonimikkeille, huoltonimikkeiden korjauksen ja ylläpidon voi aloittaa.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] sisältää **Huoltotehtävät**-sivun, jossa yleiskuvaus toimenpiteitä edellyttävistä huoltonimikkeistä. Ikkuna toimii huollon mittareina, joiden avulla voit nähdä odottavat tilaukset, etsiä ja rekisteröidä varaosia sekä pitää varaston ajan tasalla.  
+[!INCLUDE[prod_short](includes/prod_short.md)] sisältää **Huoltotehtävät**-sivun, jossa yleiskuvaus toimenpiteitä edellyttävistä huoltonimikkeistä. Ikkuna toimii huollon mittareina, joiden avulla voit nähdä odottavat tilaukset, etsiä ja rekisteröidä varaosia sekä pitää varaston ajan tasalla.  
 
-Voit seurata huollon muutoksia sekä tarkastella huollon graafista näkyvää [!INCLUDE[d365fin](includes/d365fin_md.md)]:n tilastotyökalujen avulla, jotka luovat kaavoja ja analyyseja nopeasti ja automaattisesti.  
+Voit seurata huollon muutoksia sekä tarkastella huollon graafista näkyvää [!INCLUDE[prod_short](includes/prod_short.md)]:n tilastotyökalujen avulla, jotka luovat kaavoja ja analyyseja nopeasti ja automaattisesti.  
 
 ## <a name="to-work-on-a-service-task"></a>Huoltotehtävien parissa työskenteleminen  
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Huoltotehtävät** ja valitse sitten liittyvä linkki.

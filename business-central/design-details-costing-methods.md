@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 55af47a23a36630f373b314690d0e09afe2d1c90
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 0a9b8b1fc46f953fb545f5c2f14e4b0479897ef1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927020"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751703"
 ---
 # <a name="design-details-costing-methods"></a>Rakennetiedot: arvostusmenetelmät
 
@@ -24,7 +24,7 @@ Arvostusmenetelmä määrittää, siirretäänkö todellinen tai budjetoitu arvo
 > [!NOTE]
 > Et voi muuttaa tuotteen arvostusmenetelmää jos tuotteelle on olemassa nimikekirjaus Lisätietoja on kohdassa [Suunnittelun yksityiskohdat: muuta nimikkeiden arvostusmenetelmää](design-details-changing-costing-methods.md).
 
-Seuraavia menetelmiä tuetaan kohteessa [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
+Seuraavia menetelmiä tuetaan kohteessa [!INCLUDE[prod_short](includes/prod_short.md)]:  
 
 | Arvostusmenetelmä | Kuvaus | Käyttäminen |
 |--|--|--|
@@ -79,7 +79,7 @@ Seuraavia menetelmiä tuetaan kohteessa [!INCLUDE[d365fin](includes/d365fin_md.m
 
  **Vakio**  
 
- **Vakio**arvostusmenetelmää käyttävien nimikkeiden kohdalla varastoarvon nousut arvostetaan nimikkeen nykyisellä vakiokustannuksella.  
+ **Vakio** arvostusmenetelmää käyttävien nimikkeiden kohdalla varastoarvon nousut arvostetaan nimikkeen nykyisellä vakiokustannuksella.  
 
  Seuraavassa taulukossa esitetään, kuinka varaston kasvua arvotetaan **Perus**-kustannuslaskelmamenetelmässä.  
 
@@ -163,4 +163,4 @@ Seuraavia menetelmiä tuetaan kohteessa [!INCLUDE[d365fin](includes/d365fin_md.m
  [Rakennetiedot: Nimikkeen kohdistus](design-details-item-application.md)  
  [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)  
  [Rahoitus](finance.md)  
- [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+ [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  

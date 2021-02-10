@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 510958f185f748f1c8d122d2f199e164b7e45fba
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f0136c253e38f4950837bc0fdafae5f5c35cab28
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921865"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746089"
 ---
 # <a name="work-with-serial-and-lot-numbers"></a>Sarja- ja eränumeroiden käsitteleminen
 Voit määrittää sarja- ja eränumeroita mihin tahansa lähtevään tai saapuvaan asiakirjaan, ja sen kirjatut nimikeseurantatapahtumat näkyvät niihin liittyvissä nimiketapahtumissa. Työ suoritetaan **Nimikkeen seurantarivit** -sivulla, joka avataan saapuvasta tai lähtevästä asiakirjasta.
@@ -36,7 +36,7 @@ Yksinkertaisissa prosesseissa varastonimikkeillä on jo sarja- tai eränumerot, 
 Tietyissä tilanteissa, joissa varastossa on käytetty sarja- tai eränumeroita, erikoissarja- tai eränumerot määritetään lähdeasiakirjassa, kuten myyntitilauksessa. Varastotyöntekijän on sitten käytettävä tätä numeroa lähtevän varaston käsittelyn aikana. Tämä voi johtua siitä, että asiakas on pyytänyt tietyn erän tilauksen käsittelyn aikana. Kun varaston poiminta-asiakirjan tai fyysisen varaston poiminta-asiakirja on luotu lähtevästä lähdeasiakirjasta, jossa sarja- tai eränumerot on jo määritelty, kaikki **Nimikkeen seurantarivit** -sivun varastopoiminnan kentät on lukittu eikä niihin voi kirjoittaa. Poikkeuksena on **Käsiteltävä määrä** -kenttä. Siinä tapauksessa varaston poimintarivit määrittelevät nimikkeen seurantanumerot yksittäisillä ottamis- ja asettamisriveillä. Määrä on jo jaettu yksilöllisiin sarja-/eränumeroyhdistelmiin, koska myyntitilaus määrittää toimitettavat nimikkeen seurantanumerot.  
 
 ## <a name="item-tracking-availability"></a>Nimikeseurannan saatavuus
-Kun käsittelet sarja- tai eränumeroita, [!INCLUDE[d365fin](includes/d365fin_md.md)] laskee erä- ja sarjanumeroille saatavuustiedot ja näyttää ne erilaisissa nimikeseurannan sivuilla. Tämän avulla voi nähdä, kuinka paljon erä- tai sarjanumeroa käytetään muissa asiakirjoissa. Tämä vähentää kaksinkertaisten kohdistuksen aiheuttamia virheitä ja epävarmuutta.
+Kun käsittelet sarja- tai eränumeroita, [!INCLUDE[prod_short](includes/prod_short.md)] laskee erä- ja sarjanumeroille saatavuustiedot ja näyttää ne erilaisissa nimikeseurannan sivuilla. Tämän avulla voi nähdä, kuinka paljon erä- tai sarjanumeroa käytetään muissa asiakirjoissa. Tämä vähentää kaksinkertaisten kohdistuksen aiheuttamia virheitä ja epävarmuutta.
 
 **Nimikkeen seurantarivit** -sivun **Saatavuus, eränro**- tai **Saatavuus, sarjanro** -kentässä näkyy varoituskuvake, jos osa valitusta määrästä tai koko määrä on jo toisten asiakirjojen käytössä tai erä- tai sarjanumeroa ei ole saatavana.
 
@@ -88,28 +88,6 @@ Voit haluta määrittää tiettyjen nimikkeiden osalta erityisiä takuita nimikk
     |---------------------------------|---------------------------------------|  
     |**Takuupvm:n kaava**|Määrittää tuotteen viimeisen takuupäivän.|  
     |**Man. takuupvm tapaht. tarvit.**|Määrittää, että sinun täytyy syöttää nimikeseurantariville takuupäivämäärä manuaalisesti.|  
-
-## <a name="to-record-serial-or-lot-number-information"></a>Sarja-/Eränumerotietojen tallentaminen  
-Jos sinun täytyy linkittää erityistietoja erityiseen nimikkeen seurantanumeroon, esimerkiksi laadunvarmistuksen osalta, näin voidaan tehdä sarja- tai eränumerotietojen kortissa.
-
-1. Avaa asiakirja, johon on määritetty sarja- tai eränumeroita.
-2. Avaa asiakirjan **Nimikkeen seurantarivit** -sivu.
-3. Valitse esimerkiksi **Sarjanumerotietojen kortti** -toiminto.  
-
-    **Sarjanumero** ja **Eränro** -kentät esitäytetään nimikeseurantarivien perusteella.  
-4. Syötä lyhyesti tietoja **Kuvaus**-kenttään, esimerkiksi tiedot kohteen kunnosta.  
-5. Luo erillinen kommenttitietue valitsemalla **Kommentti**.  
-6. Valitse **Estetty** -valintaruutu sulkeaksesi sarja-/eränumerot pois kaikista transaktioista.  
-
-## <a name="to-modify-existing-serial-or-lot-number-information"></a>Aiemmin luotujen sarja- tai eränumerotietojen muokkaaminen  
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten liittyvä linkki.  
-2. Valitse nimike, jolla on nimikkeen seurantakoodi ja sarja- tai eränumerotietoja.
-3. Valitse **Nimikkeen kortti** -sivulla ensin **Tapahtumat**-toiminto ja sitten **Tapahtumakirjaukset**.
-4. Valitse **Eränro** tai **Sarjanumero** -kenttä. Jos nimikkeen seurantanumerolla on tietoja, **Eränumeron tietoluettelo**- tai **Sarjanumeron tietoluettelo** -sivu avautuu.  
-5. Valitse ensin kortti ja sitten **Eränumerotietojen tai sarjanumerotietojen kortti** -toiminto.  
-6. Muokkaa lyhyttä kuvaustekstiä, kommenttitietuetta tai **Suljettu**-kenttää.  
-
-Et voi muuttaa sarja- tai eränumeroita tai määriä. Tehdäksesi näin sinun tulee uudelleenluokitella kyseinen nimiketapahtuma. Lisätietoja on kohdassa [Erä- tai sarjanumeroiden uudelleenluokittelu](inventory-how-work-item-tracking.md#to-reclassify-serial-or-lot-numbers).
 
 ## <a name="to-assign-serial-or-lot-numbers-during-an-inbound-transaction"></a>Sarja-/Eränumeroiden määritteleminen saapuvien transaktioiden aikana  
 Yritykset voivat haluta seurata nimikkeitään siitä lähtien, kun ne saapuvat yritykseen. Tässä tilanteessa ostotilaus on usein keskeinen asiakirja, vaikkakin nimikeseurantaa voidaan käsitellä missä tahansa saapuvassa asiakirjassa, ja sen kirjatut tapahtumat voivat näkyä niihin liittyvissä nimiketapahtumissa.  
@@ -236,6 +214,34 @@ Näissä tilanteissa, olemassa olevat nimikkeen seurantarivit kopioidaan automaa
 
 Kenttien sisältöä **Sarjanro** **Eränro** ei voida muuttaa. Voit kuitenkin poistaa kokonaisia rivejä tai muuttaa määriä vastaamaan lähderivillä tehtyjä muutoksia.  
 
+## <a name="to-record-serial-or-lot-number-information"></a>Sarja-/Eränumerotietojen tallentaminen  
+Jos sinun täytyy linkittää erityistietoja erityiseen nimikkeen seurantanumeroon, esimerkiksi laadunvarmistuksen osalta, näin voidaan tehdä sarja- tai eränumerotietojen kortissa.
+
+1. Avaa asiakirja, johon on määritetty sarja- tai eränumeroita.
+2. Avaa asiakirjan **Nimikkeen seurantarivit** -sivu.
+3. Valitse esimerkiksi **Sarjanumerotietojen kortti** -toiminto.  
+
+    **Sarjanumero** ja **Eränro** -kentät esitäytetään nimikeseurantarivien perusteella.  
+4. Syötä lyhyesti tietoja **Kuvaus**-kenttään, esimerkiksi tiedot kohteen kunnosta.  
+5. Luo erillinen kommenttitietue valitsemalla **Kommentti**.  
+6. Valitse **Estetty** -valintaruutu sulkeaksesi sarja-/eränumerot pois kaikista transaktioista.  
+
+Jos luot sarja numeroita joukkotoimintona käyttämällä **Luo räätälöity SN**- tai **Määritä sarjanro** -toimintoa, voit ottaa käyttöön **Luo sarjanrotiedot** ja jokaiselle seurantariville luodaan tietokortti.
+
+Vaihtoehtoisesti voit luoda tietokortin, kun kirjaat päiväkirjoja tai asiakirjoja, ottamalla käyttöön **Nimikkeen seurantakoodi** -sivulla **Luo sarjanrotiedot kirjattaessa**- tai **Luo sarjanrotiedot kirjattaessa**- valitsimet. 
+
+Voit muokata luotuja sarja- tai erätietokortteja myöhemmin.
+
+## <a name="to-modify-existing-serial-or-lot-number-information"></a>Aiemmin luotujen sarja- tai eränumerotietojen muokkaaminen  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Nimikkeet** ja valitse sitten liittyvä linkki.  
+2. Valitse nimike, jolla on nimikkeen seurantakoodi ja sarja- tai eränumerotietoja.
+3. Valitse **Nimikkeen kortti** -sivulla ensin **Tapahtumat**-toiminto ja sitten **Tapahtumakirjaukset**.
+4. Valitse **Eränro** tai **Sarjanumero** -kenttä. Jos nimikkeen seurantanumerolla on tietoja, **Eränumeron tietoluettelo**- tai **Sarjanumeron tietoluettelo** -sivu avautuu.  
+5. Valitse ensin kortti ja sitten **Eränumerotietojen tai sarjanumerotietojen kortti** -toiminto.  
+6. Muokkaa lyhyttä kuvaustekstiä, kommenttitietuetta tai **Suljettu**-kenttää.  
+
+Et voi muuttaa sarja- tai eränumeroita tai määriä. Tehdäksesi näin sinun tulee uudelleenluokitella kyseinen nimiketapahtuma. Lisätietoja on kohdassa [Erä- tai sarjanumeroiden uudelleenluokittelu](inventory-how-work-item-tracking.md#to-reclassify-serial-or-lot-numbers).
+
 ## <a name="to-reclassify-serial-or-lot-numbers"></a>Erä- tai sarjanumeroiden uudelleenluokittelu  
 Nimikkeiden seurannan uudelleenluokittelu tarkoittaa erä- tai sarjanumeron muuttamista uudeksi erä- tai sarjanumeroksi tai vanhentumispäivämäärän muuttamista uudeksi vanhentumispäivämääräksi. Jos käsittelet eriä, voit myös yhdistää useita eriä yhdeksi eräksi. Voit suorittaa nämä tehtävät nimikkeen uudelleenluokituspäiväkirjassa.
 
@@ -268,4 +274,4 @@ Nimikkeiden seurannan uudelleenluokittelu tarkoittaa erä- tai sarjanumeron muut
 [Rakennetiedot: Nimikkeen seuranta](design-details-item-tracking.md)
 [Rakennetiedot: Nimikkeen seuranta ja varaukset](design-details-item-tracking-and-reservations.md)  
 [Nimikkeiden varaaminen](inventory-how-to-reserve-items.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)

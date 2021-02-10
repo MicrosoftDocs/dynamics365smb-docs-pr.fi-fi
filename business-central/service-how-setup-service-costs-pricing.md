@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: service, cost, service order
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5c993027b54c624ea393c6bfc96554d02c0882ed
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: fac8f33b973135cc9aceff649a9046153bd45253
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925795"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748101"
 ---
 # <a name="set-up-pricing-and-additional-costs-for-services"></a>Huollon hintojen ja lisäkustannusten määrittäminen
-Voit käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)] hinnoitteluominaisuuksia määrittääksesi ja mukauttaaksesi sovellusta niin, että voit käyttää ja säätää palvelunimikkeiden, korjausten ja tilausten hinnoittelun. Nämä hinnoittelupäätökset on sitten helppo siirtää laskutusprosessiin.  
+Voit käyttää [!INCLUDE[prod_short](includes/prod_short.md)] hinnoitteluominaisuuksia määrittääksesi ja mukauttaaksesi sovellusta niin, että voit käyttää ja säätää palvelunimikkeiden, korjausten ja tilausten hinnoittelun. Nämä hinnoittelupäätökset on sitten helppo siirtää laskutusprosessiin.  
   
 Tarpeen mukaan voit määrittää hinnoitteluryhmiä ja liittää niitä ajanjaksoihin, asiakkaisiin tai valuuttaan. Asiakkaiden huoltosopimusten mukaan voi määrittää kiinteän hinnoittelun sekä vähimmäis- ja enimmäishinnat. Hintojen muutokset voi tarkistaa ja hyväksyä ennen muutosten käyttöönottoa.  
 

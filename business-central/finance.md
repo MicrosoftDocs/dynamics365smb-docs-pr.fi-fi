@@ -1,8 +1,6 @@
 ---
-title: Taloushallinto| Microsoft Docs
-description: Lisätietoja tehtävistä, joilla määritetään liiketoiminnan taloushallinto laskentatoimen, tilintarkastuksen tai kirjanpidon tarpeita varten.
-services: project-madeira
-documentationcenter: ''
+title: Taloushallinto
+description: Tutustu siihen, miten Business Central tukee taloushallinnon, kirjanpidon, tilintarkastuksen tai kirjanpidon tarpeita.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,15 +10,16 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cffe1bf3cc73660a75e6cca5d2d0e1e640c32423
-ms.sourcegitcommit: aea079b66e35c447bf31a11ffc2069cfdaf2ef38
+ms.openlocfilehash: 27ced3ad13d0469fd06825aa981a7f5969e04fbd
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "3970462"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750278"
 ---
 # <a name="finance"></a>Rahoitus
-[!INCLUDE[d365fin](includes/d365fin_md.md)] sisältää useimpien taloushallinnon prosessien vakiomäärityksen. Voit muuttaa määritystä omaa liiketoimintaasi vastaavaksi. Lisätietoja on kohdassa [Rahoituksen määrittäminen](finance-setup-finance.md).
+
+[!INCLUDE[prod_short](includes/prod_short.md)] sisältää useimpien taloushallinnon prosessien vakiomäärityksen. Voit muuttaa määritystä omaa liiketoimintaasi vastaavaksi. Lisätietoja on kohdassa [Rahoituksen määrittäminen](finance-setup-finance.md).
 
 Oletusmääritys sisältää tilikartan ja vakiokirjausryhmät, joiden avulla oletuskirjanpitotilit voidaan liittää asiakkaille, toimittajille ja nimikkeille tehokkaammin.  
 
@@ -57,18 +56,20 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 |Lisätietoja kirjanpitäjän roolikeskuksesta, ulkoisen kirjanpitäjän kutsumisesta ja useiden asiakkaiden tilien hallinnasta yritystoiminnon avulla.|[Kirjanpitäjän käyttökokemukset Business Centralissa](finance-accounting.md)|  
 
 ## <a name="take-a-video-tour"></a>Katso videoesittely
+
 Seuraava video esittelee joitakin keskeisiä taloudenhallinnan valmiuksia. <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
 
 ## <a name="see-also"></a>Katso myös
+
 [Rahoituksen määrittäminen](finance-setup-finance.md)  
 [Myynti](sales-manage-sales.md)  
 [Osto](purchasing-manage-purchasing.md)  
 [Kirjanpitokausien sulkeminen](year-close-years-periods.md)  
-[Projektien hallinta](projects-manage-projects.md)    
+[Projektien hallinta](projects-manage-projects.md)  
 [Tietojen tuominen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md)  
 [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

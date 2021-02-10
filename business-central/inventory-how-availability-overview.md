@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: stock
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d34b34d5629779d7b87016fb9e83bf1d3f25fd82
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 40c5b81ec3cb4022e45358020b816cb9d368bb82
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914137"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746340"
 ---
 # <a name="view-the-availability-of-items"></a>Nimikkeiden saatavuuden tarkasteleminen
 Voit saada, liiketoimintaan liittyvän tehtävän kontekstissa, lisätietoja milloin ja mistä nimike on saatavissa, esimerkiksi kun kerrot asiakkaalle toimitusaikataulua.
@@ -28,10 +28,10 @@ Voit tarkastella kaikkien nimikkeiden saatavuutta sijainneittain sekä kunkin ni
 
 Jos käytät varastointitoimintoa, saatavuus vaihtelee varastohuoneen kiintöiden mukaan, kun varastointitoimenpiteitä, kuten noutoja ja siirtoja tapahtuu ja silloin, kun varaston varausjärjestelmät luovat rajoitteita. Varsin monimutkainen algoritmi tarkistaa, että kaikki edellytykset täyttyvät ennen kuin poimintojen määrät määritetään lähteville virroille. Lisätietoja [Lisätietoja: Saatavuus Varastossa](design-details-availability-in-the-warehouse.md)
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]ssa saatavuusluvut näytetään yleensä kahdessa eri kentässä, joista molemmilla on eri määritelmä:
+[!INCLUDE[prod_short](includes/prod_short.md)]ssa saatavuusluvut näytetään yleensä kahdessa eri kentässä, joista molemmilla on eri määritelmä:
 
 * **Määrä saataville** kenttä, joissain kohdin nimeltään **Varasto**, näyttää todellisen, tämänpäiväisen määrän, nimikekirjausten perusteella.
-* **Oletettu saatavilla oleva saldo** -kentän arvo on laskennallinen, ja se esittää varastosaldon, johon on lisätty suunnitellut vastaanotot ja josta on vähennetty bruttotarpeet. ([!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen suunnitellut vastaanotot sisältävät ostotilauksilla ja saapuvilla siirtotilauksilla olevat määrät. Bruttotarpeisiin sisältyvät myyntitilauksilla ja lähtevillä siirtotilauksilla olevat määrät).
+* **Oletettu saatavilla oleva saldo** -kentän arvo on laskennallinen, ja se esittää varastosaldon, johon on lisätty suunnitellut vastaanotot ja josta on vähennetty bruttotarpeet. ([!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen suunnitellut vastaanotot sisältävät ostotilauksilla ja saapuvilla siirtotilauksilla olevat määrät. Bruttotarpeisiin sisältyvät myyntitilauksilla ja lähtevillä siirtotilauksilla olevat määrät).
 
 > [!TIP]  
 >   Oletettu saatavilla oleva saldo soveltuu erityisesti **Nimikk. saatavuus jaksoittain**- ja **Nimikkeen saatavuus tapahtumittain** -sivujen tarkasteluun, koska ne sisältävät päivämäärädimension.  

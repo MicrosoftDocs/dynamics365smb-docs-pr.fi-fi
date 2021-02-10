@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: 4e2539e87c17ff502137e82a6a3df55756d28600
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f66d57638e9c1bfa12e6c7e916c46b8c37c5df32
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920182"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749659"
 ---
 # <a name="finland-local-functionality"></a>Suomen paikalliset toiminnot
 
-Seuraavissa ohjeaiheissa kerrotaan [!INCLUDE[d365fin](../../includes/d365fin_md.md)] -ohjelman suomalaisen version erityisistä paikallisista toiminnoista.  
+Seuraavissa ohjeaiheissa kerrotaan [!INCLUDE[prod_short](../../includes/prod_short.md)] -ohjelman suomalaisen version erityisistä paikallisista toiminnoista.  
 
 ## <a name="feature-availability"></a>Ominaisuuden käytettävyys
 
@@ -42,7 +42,7 @@ Seuraavissa ohjeaiheissa kerrotaan [!INCLUDE[d365fin](../../includes/d365fin_md.
 
 ## <a name="see-also"></a>Katso myös
 
-[[!INCLUDE[d365fin](../../includes/d365fin_md.md)] -ohjelman käyttäminen](../../ui-work-product.md)  
+[[!INCLUDE[prod_short](../../includes/prod_short.md)] -ohjelman käyttäminen](../../ui-work-product.md)  
 [Maa- ja aluekohtainen saatavuus ja tuetut kielet](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
-## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  

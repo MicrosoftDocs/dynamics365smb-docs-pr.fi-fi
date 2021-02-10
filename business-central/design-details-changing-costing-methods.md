@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: costing methods, costing, item cost
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 344aa53f965f832d8e7fb2abd3431a1853105c8c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e71ccc7961efdff4dcfc26660f48bafb3d5fd88f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917524"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751728"
 ---
 # <a name="design-details-change-the-costing-method-for-items"></a>Rakennetiedot: nimikkeiden arvostusmenetelmän muuttaminen
 
-Nimikkeen arvostusmenetelmää ei voi muuttaa [!INCLUDE[d365fin](includes/d365fin_md.md)]issa sen jälkeen, kun se on sisällytetty tapahtumaan. Niinpä sitä ei voi tehdä esimerkiksi nimikkeen ostamisen tai myymisen jälkeen. Jos nimikkeille on määritetty väärä arvostusmenetelmä, ongelmaa ei ehkä huomata ennen talousraportointia.
+Nimikkeen arvostusmenetelmää ei voi muuttaa [!INCLUDE[prod_short](includes/prod_short.md)]issa sen jälkeen, kun se on sisällytetty tapahtumaan. Niinpä sitä ei voi tehdä esimerkiksi nimikkeen ostamisen tai myymisen jälkeen. Jos nimikkeille on määritetty väärä arvostusmenetelmä, ongelmaa ei ehkä huomata ennen talousraportointia.
 
 Tässä aiheessa käsitellään tämän tilanteen ratkaisemista. Suosituksena on korvata nimike, jossa on virheellinen arvostusmenetelmä, uudella nimikkeellä ja siirtää varasto vanhasta nimikkeestä uuteen käyttämällä kokoonpanotilausta.
 
@@ -35,7 +35,7 @@ Arvostusmenetelmät ohjaavat tavaroiden ostamiseen, varastoon vastaanottamiseen 
 
 *bruttotuotto* = *tuotto - MTKUST*
 
-Kun varastonimikkeitä määritetään, niille on määritettävä arvostusmenetelmä. Menetelmä voi vaihdella yritysten ja nimikkeiden mukaan, joten oikean menetelmän valitseminen on tärkeää. [!INCLUDE[d365fin](includes/d365fin_md.md)] tukee seuraavia arvostusmenetelmiä:
+Kun varastonimikkeitä määritetään, niille on määritettävä arvostusmenetelmä. Menetelmä voi vaihdella yritysten ja nimikkeiden mukaan, joten oikean menetelmän valitseminen on tärkeää. [!INCLUDE[prod_short](includes/prod_short.md)] tukee seuraavia arvostusmenetelmiä:
 
 * Keskiarvo
 * FIFO
@@ -60,7 +60,7 @@ Tässä osassa käsitellään seuraavia nimikkeelle määritetyn arvostusmenetel
 
 ### <a name="define-a-default-costing-method"></a>Arvostuksen oletusmenetelmän määrittäminen
 
-Virheet voidaan estää jatkossa määrittämällä uusille nimikkeille oletusarvoisen arvostusmenetelmän. Aina kun joku luo uuden nimikkeen, [!INCLUDE[d365fin](includes/d365fin_md.md)] ehdottaa arvostuksen oletusmenetelmää. Oletusmenetelmä määritetään **Varastonhallinnan asetukset** -sivun **Arvostuksen oletusmenetelmä** -kentässä. 
+Virheet voidaan estää jatkossa määrittämällä uusille nimikkeille oletusarvoisen arvostusmenetelmän. Aina kun joku luo uuden nimikkeen, [!INCLUDE[prod_short](includes/prod_short.md)] ehdottaa arvostuksen oletusmenetelmää. Oletusmenetelmä määritetään **Varastonhallinnan asetukset** -sivun **Arvostuksen oletusmenetelmä** -kentässä. 
 
 ### <a name="identify-the-items-to-change-the-costing-method-for-and-renumber-them"></a>Niiden nimikkeiden määrittäminen, joiden kustannusmenetelmä muutetaan ja nimikkeiden uudelleenumerointi
 
@@ -84,7 +84,7 @@ Uusien nimikkeiden täysi käytettävyys edellyttää, että joitakin päätieto
 |     |Vakiopäiväkirjat         |Tarkista, viittaavatko vakiopäiväkirjat alkuperäiseen nimikkeeseen ja siirrä kyseiset tiedot tarvittaessa uuteen nimikkeeseen. Nämä tiedot ovat vakiopäiväkirjoissa, jotka ovat saatavana nimikepäiväkirjassa.          |
 |Myynti     |Myynnin ennakkomaksuprosentti         | Tarkista, onko alkuperäiselle nimikkeelle määritetty myynnin ennakkomaksuprosentteja, ja siirrä kyseiset tiedot uuteen nimikkeeseen. Ennakkomaksuprosentteja voi tarkastella valitsemalla **Nimikkeen kortti** -sivulla ensin **Myynti** ja sitten **Ennakkomaksuprosentit**.        |
 |Osto     |Oston ennakkomaksuprosentti         |Tarkista, onko alkuperäiselle nimikkeelle määritetty oston ennakkomaksuprosentteja, ja siirrä kyseiset tiedot uuteen nimikkeeseen. Ennakkomaksuprosentteja voi tarkastella valitsemalla **Nimikkeen kortti** -sivulla ensin **Ostot** ja sitten **Ennakkomaksuprosentit**.                 |
-|F. varastointi     |Varastopaikan sisältö         |Tarkista alkuperäiselle nimikkeelle määritetty varastopaikan sisältö. Jos sarakkeet, kuten Vähimmäismäärä, Enimmäismäärä, Oletus ja Erityinen on annettu erikseen, uuden nimikkeen varastopaikan sisältö on luotava manuaalisesti. Jos niitä ei ole, mitään toimenpiteitä ei tarvita. [!INCLUDE[d365fin](includes/d365fin_md.md)] säilyttää tietueet, fyysisen varastoinnin asiakirjoja ja päiväkirjoja rekisteröidään.|
+|F. varastointi     |Varastopaikan sisältö         |Tarkista alkuperäiselle nimikkeelle määritetty varastopaikan sisältö. Jos sarakkeet, kuten Vähimmäismäärä, Enimmäismäärä, Oletus ja Erityinen on annettu erikseen, uuden nimikkeen varastopaikan sisältö on luotava manuaalisesti. Jos niitä ei ole, mitään toimenpiteitä ei tarvita. [!INCLUDE[prod_short](includes/prod_short.md)] säilyttää tietueet, fyysisen varastoinnin asiakirjoja ja päiväkirjoja rekisteröidään.|
 |Projekti     |Projektihinnat         |Tarkista, onko alkuperäiselle nimikkeelle määritetty projektihintoja, ja siirrä kyseiset tiedot uuteen nimikkeeseen. Nämä tiedot ovat saatavana **Projektikortti**-sivulla **tietoruudun** **Projektin tiedot - Hintojen määrä** -kohdassa.         |
 |Palvelu     |Palveluresurssin taito         |Tarkista, onko alkuperäiselle nimikkeelle määritetty palveluresurssin taitoja, ja siirrä kyseiset tiedot uuteen nimikkeeseen. Resurssin taitoja voi tarkastella **Nimikkeen kortti** -sivun **Resurssin taidot** -toiminnolla.          |
 |     |Huoltonimikkeen komponentit         |Tarkista, onko alkuperäiselle huoltonimikkeelle määritetty komponentteja, ja siirrä kyseiset tiedot uuteen nimikkeeseen. Huoltonimikekomponentteja voi tarkastella avaamalla **Nimikkeen kortti** -sivulla **Huoltonimike**-toiminnolla luettelon liittyvistä huoltonimikkeistä ja valitsemalla sitten **Komponentit**-toiminnon.          |
@@ -169,7 +169,7 @@ Kun alkuperäisen nimikkeen varasto on nolla, nimikkeen käyttö uusissa tapauks
 
 ## <a name="summary"></a>Yhteenveto
 
-Tapahtumissa käytettyjen nimikkeiden arvostusmenetelmän muuttaminen on prosessi, eikä se ole [!INCLUDE[d365fin](includes/d365fin_md.md)]in vakiotoiminto. Prosessin mallina voi käyttää tässä aiheessa kuvattuja vaiheita.
+Tapahtumissa käytettyjen nimikkeiden arvostusmenetelmän muuttaminen on prosessi, eikä se ole [!INCLUDE[prod_short](includes/prod_short.md)]in vakiotoiminto. Prosessin mallina voi käyttää tässä aiheessa kuvattuja vaiheita.
 
 Prosessi voi viedä paljon aikaa, koska siihen sisältyy useita manuaalisia vaiheita. Siihen käytettävä aika kuitenkin minimoi virheiden vaikutuksen kirjanpitoon.
 

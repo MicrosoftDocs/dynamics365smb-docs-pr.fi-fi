@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: user settings, preferences, language, region, time zone, regional settings
 ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: a08845f3465e24036abcb82ea6d2917deda24663
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 25b3c8a795c1a3f9d08ae0971da88b78e4d29b25
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911303"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752573"
 ---
 # <a name="manage-user-settings-and-preferences"></a>Käyttäjäasetusten ja asetusten hallinta
 
-Järjestelmänvalvojana voit hallita käyttäjäasetuksia [!INCLUDE[d365fin](includes/d365fin_md.md)]issa samalla tavoin kuin yksittäiset käyttäjät voivat hallita omia asetuksiaan **Omat asetukset** -sivulla.  
+Järjestelmänvalvojana voit hallita käyttäjäasetuksia [!INCLUDE[prod_short](includes/prod_short.md)]issa samalla tavoin kuin yksittäiset käyttäjät voivat hallita omia asetuksiaan **Omat asetukset** -sivulla.  
 
 ## <a name="types-of-user-settings"></a>Käyttäjäasetusten tyypit
 
@@ -31,27 +31,27 @@ Järjestelmänvalvojana voit hallita käyttäjäasetuksia [!INCLUDE[d365fin](inc
 
 - **Profiili (roolit)**  
 
-  Profiili tarkoittaa käyttäjän tehtävää yrityksessä, kuten *myyntipäällikköä*, *kirjanpitäjää* tai *ostajaa*. Profiili määrittää sitten käyttäjän roolikeskuksen eli aloitussivun, joka avautuu käyttäjille kirjauduttaessa. Profiili ei vaikuta [!INCLUDE[d365fin](includes/d365fin_md.md)]in toimintojen käyttöoikeuksiin.  
+  Profiili tarkoittaa käyttäjän tehtävää yrityksessä, kuten *myyntipäällikköä*, *kirjanpitäjää* tai *ostajaa*. Profiili määrittää sitten käyttäjän roolikeskuksen eli aloitussivun, joka avautuu käyttäjille kirjauduttaessa. Profiili ei vaikuta [!INCLUDE[prod_short](includes/prod_short.md)]in toimintojen käyttöoikeuksiin.  
 
 - **Kielialueen tunnus (aluekohtaiset asetukset)**  
 
-  Määrittää, miten päivämäärät ja numerot esitetään [!INCLUDE[d365fin](includes/d365fin_md.md)] -asiakasohjelmassa (esimerkiksi, käytetäänkö eurooppalaisia vai amerikkalaisia päivämäärämuotoja) tai miten desimaali ja tuhaterottimet näytetään summissa. Jos [!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäjiä synkronoidaan Microsoft 365:stä, käytössä on Microsoft 365:n aluekohtaiset asetukset olettaen, että käyttäjä haluaa käyttää samoja asetuksia Office-tuotteissa ja [!INCLUDE[d365fin](includes/d365fin_md.md)]issa. Järjestelmänvalvoja tai käyttäjä voi muuttaa näitä asetuksia manuaalisesti [!INCLUDE[d365fin](includes/d365fin_md.md)]issa, mutta ne palautetaan Microsoft 365:n arvoon seuraavan synkronoinnin yhteydessä.
+  Määrittää, miten päivämäärät ja numerot esitetään [!INCLUDE[prod_short](includes/prod_short.md)] -asiakasohjelmassa (esimerkiksi, käytetäänkö eurooppalaisia vai amerikkalaisia päivämäärämuotoja) tai miten desimaali ja tuhaterottimet näytetään summissa. Jos [!INCLUDE[prod_short](includes/prod_short.md)]in käyttäjiä synkronoidaan Microsoft 365:stä, käytössä on Microsoft 365:n aluekohtaiset asetukset olettaen, että käyttäjä haluaa käyttää samoja asetuksia Office-tuotteissa ja [!INCLUDE[prod_short](includes/prod_short.md)]issa. Järjestelmänvalvoja tai käyttäjä voi muuttaa näitä asetuksia manuaalisesti [!INCLUDE[prod_short](includes/prod_short.md)]issa, mutta ne palautetaan Microsoft 365:n arvoon seuraavan synkronoinnin yhteydessä.
 
 - **Kieli**  
 
-  Määrittää kielen, jolla [!INCLUDE[d365fin](includes/d365fin_md.md)] näyttää tekstin, kuvatekstit ja virhesanomat sovelluksessa. Jos [!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäjiä synkronoidaan Microsoft 365:stä, käytössä on Microsoft 365:n kieliasetukset olettaen, että käyttäjä haluaa käyttää samoja asetuksia Office-tuotteissa ja [!INCLUDE[d365fin](includes/d365fin_md.md)]issa. Järjestelmänvalvoja tai käyttäjä voi muuttaa näitä asetuksia manuaalisesti [!INCLUDE[d365fin](includes/d365fin_md.md)]issa, mutta ne palautetaan Microsoft 365:n arvoon seuraavan synkronoinnin yhteydessä.
+  Määrittää kielen, jolla [!INCLUDE[prod_short](includes/prod_short.md)] näyttää tekstin, kuvatekstit ja virhesanomat sovelluksessa. Jos [!INCLUDE[prod_short](includes/prod_short.md)]in käyttäjiä synkronoidaan Microsoft 365:stä, käytössä on Microsoft 365:n kieliasetukset olettaen, että käyttäjä haluaa käyttää samoja asetuksia Office-tuotteissa ja [!INCLUDE[prod_short](includes/prod_short.md)]issa. Järjestelmänvalvoja tai käyttäjä voi muuttaa näitä asetuksia manuaalisesti [!INCLUDE[prod_short](includes/prod_short.md)]issa, mutta ne palautetaan Microsoft 365:n arvoon seuraavan synkronoinnin yhteydessä.
 
-  Jos Microsoft 365:n kieliasetus vastaa [!INCLUDE[d365fin](includes/d365fin_md.md)]in tukemaa kieltä, kyseinen kieli valitaan käyttäjälle.  
+  Jos Microsoft 365:n kieliasetus vastaa [!INCLUDE[prod_short](includes/prod_short.md)]in tukemaa kieltä, kyseinen kieli valitaan käyttäjälle.  
 
   > [!NOTE]
-  > Kielen näyttäminen oikein voi edellyttää, [!INCLUDE[d365fin](includes/d365fin_md.md)]in kielisovelluksen asentamista. Tämän vuoksi tarvittavat kielisovelluksen kannattaakin asentaa, ennen kuin kukaan on kirjautunut sisään ensimmäisen kerran, jotta käyttökokemus on hyvä alusta alkaen. Lisätietoja on [tuettujen kielien](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations) luettelossa.  
+  > Kielen näyttäminen oikein voi edellyttää, [!INCLUDE[prod_short](includes/prod_short.md)]in kielisovelluksen asentamista. Tämän vuoksi tarvittavat kielisovelluksen kannattaakin asentaa, ennen kuin kukaan on kirjautunut sisään ensimmäisen kerran, jotta käyttökokemus on hyvä alusta alkaen. Lisätietoja on [tuettujen kielien](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations) luettelossa.  
   
 - **Aikavyöhyke**  
 
   Määrittää käyttäjän aikavyöhykkeen. Tätä ei tällä hetkellä synkronoida Microsoft 365:stä, joten se on määritettävä manuaalisesti.  
 
 > [!NOTE]
-> Jos Microsoft 365 -käyttäjän synkronointi tapahtuu silloin, kun käyttäjät ovat kirjautuneet [!INCLUDE[d365fin](includes/d365fin_md.md)]iin, kyseisten käyttäjien on ladattava selain uudelleen tai kirjauduttava ensin ulos ja sitten takaisin [!INCLUDE[d365fin](includes/d365fin_md.md)]iin, jotta synkronointitoiminnon mahdollisesti määrittämä toinen kielijoukko on näkyvissä.
+> Jos Microsoft 365 -käyttäjän synkronointi tapahtuu silloin, kun käyttäjät ovat kirjautuneet [!INCLUDE[prod_short](includes/prod_short.md)]iin, kyseisten käyttäjien on ladattava selain uudelleen tai kirjauduttava ensin ulos ja sitten takaisin [!INCLUDE[prod_short](includes/prod_short.md)]iin, jotta synkronointitoiminnon mahdollisesti määrittämä toinen kielijoukko on näkyvissä.
 
 ## <a name="overview-of-all-user-settings"></a>Kaikkien käyttäjäasetusten yleiskuvaus
 

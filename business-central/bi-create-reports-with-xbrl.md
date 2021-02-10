@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 183a127ff9584723c52159397c75d1f17765d81f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ba177ba40a11048a19cd401b18b8e4a5a7198d87
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917674"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752278"
 ---
 # <a name="create-reports-with-xbrl"></a>Luo raportteja XBRL-linkityksellä.
 XBRL, joka tarkoittaa eXtensible Business Reporting Language, on XML-pohjainen kieli taloudellisten tietojen merkitsemiseen ja yrityskäyttöön, jotta nämä voivat tehokkaasti ja tarkasti käsitellä ja jakaa tietojaan. XBRL-aloite sallii lukuisten ERP-ohjelmistoyritysten ja kansainvälisten kirjanpitojärjestöjen tekemän maailmanlaajuisen taloudellisen raportoinnin. Aloitteen tavoitteena on tarjota standardi pankkien, sijoittajien ja julkishallinnon taloudellisen tiedon raportointiin. Liiketoiminnan raportointi voi olla:  
@@ -27,17 +27,17 @@ XBRL, joka tarkoittaa eXtensible Business Reporting Language, on XML-pohjainen k
  • muita kuin rahoituksellisia tietoja  
  • säädösten alaisia kirjauksia, kuten vuosittaiset ja neljännesvuosittaiset tilinpäätökset.  
 
- [!INCLUDE[d365fin](includes/d365fin_md.md)]in avulla yritykset voivat tuottaa XBRL-muotoisia tietoja ja hyödyntää kielen mahdollistaman joustavuuden ja automatisoinnin sekä tietojen keräämisessä että jakamisessa.  
+ [!INCLUDE[prod_short](includes/prod_short.md)]in avulla yritykset voivat tuottaa XBRL-muotoisia tietoja ja hyödyntää kielen mahdollistaman joustavuuden ja automatisoinnin sekä tietojen keräämisessä että jakamisessa.  
 
 ## <a name="extensible-business-reporting-language"></a>XBRL (eXtensible Business Reporting Language)
-XBRL (e **X**tensible **B**usiness **R**eporting **L**anguage) on XML-pohjainen kieli talousraportointiin. XBRL mahdollistaa standardin vakiomuotoisen raportoinnin koko finanssitietojen käyttäjäketjulle; noteeratut ja yksityiset yritykset, tilintarkastajat, viranomaiset, analyytikot, sijoitusyhteisöt, pääomamarkkinat ja luotottajat sekä kolmannet osapuolet kuten ohjelmistotalot ja tiedon jalostajat.  
+XBRL (e **X** tensible **B** usiness **R** eporting **L** anguage) on XML-pohjainen kieli talousraportointiin. XBRL mahdollistaa standardin vakiomuotoisen raportoinnin koko finanssitietojen käyttäjäketjulle; noteeratut ja yksityiset yritykset, tilintarkastajat, viranomaiset, analyytikot, sijoitusyhteisöt, pääomamarkkinat ja luotottajat sekä kolmannet osapuolet kuten ohjelmistotalot ja tiedon jalostajat.  
 
 Taksonomioita ylläpitää www.xbrl.org. Voit ladata taksonomioita tai lukea lisää ko. sivustolta.  
 
-Joku joka haluaa taloushallinnon tietoja sinulta, antaa sinulle taksonomian (XML-asiakirjan), joka sisältää vähintään yhden mallin ja tällaisessa mallissa on vähintään yksi täytettävä rivi. Rivit vastaavat lähettäjän pyytämiä yksittäisiä taloushallinnon tietoja. Taksonomia tuodaan sovellukseen ja malli(t) täytetään antamalla tili(t), jotka vastaavat jokaista riviä sekä aikaväli, kuten nettomuutos tai päivän saldo. Jossain tapauksissa syötetään vakio, esim. työntekijöiden lkm. Jossain tapauksissa syötetään vakio, esim. työntekijöiden lkm. Nyt instanssiasiakirja (XML asiakirja) on valmis lähetettäväksi tiedon vastaanottajalle. Idea on, että tämä on toistuva tapahtuma, joten mikäli taksonomiaan ei tehdä muutoksia, voidaan uusi instanssiasiakirja tuottaa uusilta jaksoilta tarvittaessa.  
+Joku joka haluaa taloushallinnon tietoja sinulta, antaa sinulle taksonomian (XML-asiakirjan), joka sisältää vähintään yhden mallin ja tällaisessa mallissa on vähintään yksi täytettävä rivi. Rivit vastaavat lähettäjän pyytämiä yksittäisiä taloushallinnon tietoja. Taksonomia tuodaan ja malli(t) täytetään antamalla tili(t), jotka vastaavat kutakin riviä sekä aikaväli, kuten nettomuutos tai päivän saldo. Jossain tapauksissa syötetään vakio, esim. työntekijöiden lkm. Nyt instanssiasiakirja (XML asiakirja) on valmis lähetettäväksi pyytäjälle. Idea on, että tämä on toistuva tapahtuma, joten mikäli taksonomiaan ei tehdä muutoksia, voidaan uusi instanssiasiakirja tuottaa uusilta jaksoilta tarvittaessa.  
 
 ## <a name="xbrl-is-comprised-of-the-following-components"></a>XBRL koostuu seuraavista komponenteista  
-XBRL **Määrittely** kertoo mitä XBRL on, kuinka rakentaa XBRL instanssiasiakirjoja ja XBRL -taksonomioita. XBRL -Määrittelyt kuvaavat XBRL:ää teknisesti ja ovat tarkoitetut teknisille ihmisille.  
+XBRL **Määrittely** kertoo mitä XBRL on, ja kuinka rakentaa XBRL instanssiasiakirjoja ja XBRL -taksonomioita. XBRL -Määrittelyt kuvaavat XBRL:ää teknisesti ja ovat tarkoitetut teknisille ihmisille.  
 
 XBRL **Mallit** ovat XBRL alatason komponentteja. Malli on fyysinen XSD-tiedosto, joka ilmaisee, kuinka instanssiasiakirjat ja taksonomiat tulee rakentaa.  
 
@@ -48,7 +48,7 @@ XBRL **Taksonomia** on ryhmän luoma “sanakirja”, joka on yhteensopiva XBRL-
 XBRL **Instanssiasiakirja** on yritysraportti esim. Tilinpäätös, joka on tehty XBRL-määrittelyn mukaan. Arvojen merkitys instanssiasiakirjassa on selitetty taksonomiassa. Instanssiasiakirja on melko hyödytön mikäli sen luomiseen käytettyä taksonomiaa ei ole käytettävissä.  
 
 ## <a name="layered-taxonomies"></a>Kerrostetut taksonomiat  
-Taksonomia voi koostua perustaksonomiasta, esim. US-gaap tai IAS, sekä yhdestä tai useammasta laajennuksesta. Tämän ilmaisemiseksi, taksonomia viittaa yhteen tai useampaan malliin, jotka kaikki ovat erillisiä taksonomioita. Kun lisätaksonomiat on ladattu tietokantaan, uudet elementit yksinkertaisesti lisätään olemassa olevien perään.  
+Taksonomia voi koostua perustaksonomiasta, esim. US-gaap tai IAS, sekä yhdestä tai useammasta laajennuksesta. Tämän ilmaisemiseksi taksonomia viittaa yhteen tai useampaan malliin, joista kukin on erillinen taksonomia. Kun lisätaksonomiat on ladattu tietokantaan, uudet elementit yksinkertaisesti lisätään olemassa olevien perään.  
 
 ## <a name="linkbases"></a>Linkkikannat  
  XBRL Spec. 2:ssa taksonomia kuvataan useassa XML-tiedostossa. Ensisijainen XML-tiedosto on itse taksonomian mallitiedosto (.xsd-tiedosto), joka sisältää vain järjestelemättömän luettelon raportoitavista elementeistä tai tiedoista. Tämän lisäksi yleensä käytetään joitakin linkkikantatiedostoja (.xml). Linkkikantatiedostot sisältävät dataa, joka täydentää raakaa taksonomiaa (.xsd -tiedosto). Linkkikantatiedostoja on kuutta tyyppiä, joista neljällä on merkitystä Tuotenimi XBRL:lle. Nämä ovat:  
@@ -74,11 +74,14 @@ XBRL-rivit määritellään linkittämällä taksonomiatiedot pääkirjanpitosi 
 6.  Voit määrittää tilikartan KP-tilien linkittämisen XBRL-riveille valitsemalla **KP-linkitysrivit** -toiminnon.  
 7.  Voit lisätä huomautuksia raporttiin valitsemalla **Muistiot**-toiminnon.  
 
-> [!NOTE]  
->  Voit viedä vain dataa, joka vastaa lähdetyyppiä, jonka olet valinnut **Lähdetyyppi** -kentässä, sisältäen kuvauksen ja muistiot.  
+   > [!TIP]
+   > Jos haluat jättää rivejä pois viennistä, valitse lähdetyypiksi **EI KOHDISTETTAVISSA**.
 
-> [!NOTE]  
->  Rivejä, jotka eivät ole relevantteja voidaan merkitä tyypillä EI **KOHDISTETTAVISSA**, jolloin niitä ei viedä.
+   > [!NOTE]  
+   > Voit viedä vain tietoja, jotka vastaavat **Lähdetyyppi** -kentän valintaa. Näitä tietoja ovat esimerkiksi kuvaukset ja muistiinpanot.  
+
+   > [!NOTE]  
+   > Taksonomiat voivat sisältää elementtejä, joita [!INCLUDE[prod_short](includes/prod_short.md)] ei tue. Jos elementti ei ole tuettu, **Lähdetyyppi**-kenttä näyttää **Ei kodistettavissa** ja **Kuvaus**-kentässä näkyy virhesanoma, kuten **Odottamaton tyyppi: "tiettyä tyyppiä ei tunnisteta"**. Jos elementti on vietävä, valitse vastaava lähdetyyppi. Yleensä tämä on vakio tai kuvaus. Näin voit syöttää ja viedä tietoja, mutta tällaisilla elementeillä voi olla kelpoisuussääntöjä, joita ei voi tarkistaa ennen viemistä.
 
  ## <a name="to-import-an-xbrl-taxonomy"></a>XBRL-taksonomian tuominen  
 Ensimmäinen vaihe XBRL-toiminnon käytössä on se, että tuot taksonomian yrityksesi tietokantaan. Taksonomia koostuu yhdestä tai useammasta mallista ja joistakin linkkikannoista. Kun olet tuonut sekä malli(t) että linkkikannat ja kohdistanut linkkikannat malliin, voit määrittää rivit ja kohdistaa oikeat KP-tilit oikeisiin taksonomian riveihin.  
@@ -110,4 +113,4 @@ Kun taksonomia muuttuu tulee nykyinen taksonomia päivittää sen mukaiseksi. Sy
 ## <a name="see-also"></a>Katso myös
 [Rahoitus](finance.md)    
 [Business Intelligence](bi.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
