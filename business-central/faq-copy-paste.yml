@@ -1,0 +1,81 @@
+### YamlMime:FAQ
+metadata:
+  title: Tietojen kopioiminen ja liittäminen – usein kysytyt kysymykset
+  description: Vastauksia usein kysyttyihin kysymyksiin kenttien ja rivien tietojen kopioimisesta ja liittämisestä Business Centralin sivuilta.
+  author: SorenGP
+  ms.topic: article
+  ms.service: dynamics365-business-central
+  ms.search.keywords: accessibility, shortcuts, keyboarding
+  ms.date: 01/08/2021
+  ms.author: edupont
+  ms.openlocfilehash: 93b9f28fec418fef9968fb729ee03b3b0df3918a
+  ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+  ms.translationtype: HT
+  ms.contentlocale: fi-FI
+  ms.lasthandoff: 01/15/2021
+  ms.locfileid: "5013919"
+title: Kopioimisen ja liittämisen usein kysytyt kysymykset
+summary: "Voit kopioida yhden rivin tai useita rivejä (tietueita) luettelosta tai yhden kentän sivulta ja liittää kopioidut kohteet samalle sivulle, toiselle sivulle tai ulkoiseen asiakirjaan (kuten Microsoft Exceliin tai Outlook-sähköpostiin).  \n\nJos haluat kopioida, paina näppäimiä CTRL+C (cmd+C macOS-käyttöjärjestelmässä). Jos haluat liittää, paina näppäimiä CTRL+V (cmd+V macOS-käyttöjärjestelmässä). Kopioimiseen ja liittämiseen on useita muita pikanäppäimiä nopeaa tietojen syöttämistä varten. Lisätietoja on kohdassa [Pikanäppäimet](keyboard-shortcuts.md#CopyRows). Tässä artikkelissa on vastauksia kopioimiseen ja liittämiseen liittyviin yleisiin kysymyksiin.  \n"
+sections:
+- name: Yleiset
+  questions:
+  - question: Mitä voin kopioida ja liittää?
+    answer: >
+      Voit kopioida ja liittää tämän tyyppisiä tietoja:
+
+      - Voit kopioida yhden rivin tai useita rivejä [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksessa samaan luetteloon tai mihin tahansa luetteloon, jossa on samat sarakkeet.
+
+      - Kopioi yksi rivi tai useita rivejä [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksessa ja liitä ne Exceliin tai muihin sovelluksiin.
+
+      - Kopioi yksi rivi tai useita rivejä Excelissä ja liitä ne [!INCLUDE[prod_short](includes/prod_short.md)] -luetteloon.
+
+      - Kopioi yksittäisen kentän arvo [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksessa ja liitä se mihin tahansa.
+  - question: Voiko kopioimista ja liittämistä käyttää ruutujen kanssa?
+    answer: >
+      Kyllä mutta vain yksi valittu ruutu.
+  - question: Miten rivi kopioidaan?
+    answer: >
+      Kopioi yksi rivi valitsemalla se ja painamalla sitten näppäinyhdistelmää Ctrl+C.
+
+
+      Jos haluat kopioida enemmän rivejä, tee seuraavat toiminnot:
+
+      - Käytä toisen rivin kohdalla pikanäppäimiä Ctrl+napsautus tai Vaihto+napsautus ja valitse rivi tai kaikki välissä olevat rivit. Lisätietoja hiiren ja näppäimistön yhdistelmistä rivien valitsemisessa on kohdassa [Pikanäppäimet](keyboard-shortcuts.md#CopyRows) .
+
+      - Valitse ![Näytä enemmän vaihtoehtoja](media/show-more-options-icon.png "Näytä enemmän vaihtoehtoja kuvakkeen") ensimmäisessä sarakkeessa. Valitse **Valitse lisää**, valitse sitten kopioitavien rivien kohdalla oleva valintaruutu ja paina näppäinyhdistelmää Ctrl+C.
+  - question: Miten liitän rivejä?
+    answer: >
+      Valitse tyhjä rivi, jossa kohdistus on jossakin solussa, ja paina sitten näppäinyhdistelmää Ctrl+V.
+
+
+      Jos haluat korvata olemassa olevia rivejä, valitse rivit ja paina sitten näppäinyhdistelmää Ctrl+V. Tässä tapauksessa voit liittää vain yhtä monta riviä kuin valitsit.
+
+
+      > [!NOTE]
+
+      > Liitettävää luetteloa on voitava muokata.
+
+
+      <!-- Rows are pasted directly where your cursor is located. If you paste into an empty line, any existing subsequent lines will be moved after the pasted lines. If you paste into an existing line or lines, this will be overwritten.-->
+  - question: Voinko liittää rivejä Outlook-sähköpostiviestiin?
+    answer: >
+      Kyllä. Tämä liitetään muotoiltuna taulukkona, joka säilyttää [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksessa nähnyt sisennykset, numeerisen tasauksen ja värit.
+  - question: Missä luetteloissa voin kopioida ja liittää rivejä?
+    answer: >
+      Voit kopioida rivejä kaikissa luetteloissa, esimerkiksi työkirjoissa, tietoruuduissa ja sivuun upotetuissa luetteloissa (esimerkiksi myyntitilauksen rivit). Jos rivejä halutaan liittää, luettelon on oltava muokattavissa.
+
+
+      Joillakin sivuilla sovelluksen rakenne voi estää rivien liittämisen. Ota yhteyttä järjestelmänvalvojaan tai sovelluksen kehittäjään, jos haluat muuttaa sivun [Editable-ominaisuutta](/dynamics365/business-central/dev-itpro/developer/properties/devenv-editable-property) tai lähdetaulukon [PasteIsValid-ominaisuutta](/dynamics365/business-central/dev-itpro/developer/properties/devenv-pasteisvalid-property).
+  - question: Missä asiakasohjelmissa kopioiminen ja liittäminen on käytettävissä?
+    answer: >
+      Kopioiminen ja liittäminen ovat käytettävissä [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen selaimessa Windows 10 -käyttöjärjestelmässä.
+  - question: Mikä on kopioitavien rivien enimmäismäärä?
+    answer: >
+      Voit kopioida niin monta riviä kuin näkymässä on. Jos esimerkiksi haluat kopioida kaikki sivun 1 000 riviä, siirry ensin sivun alaosaan ja odota, kunnes rivit näkyvät. Aloita kopioiminen vasta sitten. Vain laitteen muisti voi rajoittaa kopioitavien rivien enimmäismäärää.
+  - question: Onko sarakkeita oltava täsmälleen sama määrä, kun rivejä liitetään?
+    answer: >
+      Kyllä. Jos kopioit [!INCLUDE[prod_short](includes/prod_short.md)]ista, Excelistä tai toisesta taulukkolähteestä, [!INCLUDE[prod_short](includes/prod_short.md)]iin liitettävien rivien määrän on oltava täsmälleen sama kuin sarakkeiden määrä.
+  - question: Milloin rivien liittämisen yhteydessä voi tulla virhesanomia?
+    answer: >
+      Jos liittäminen tehdään [!INCLUDE[prod_short](includes/prod_short.md)] -sovellukseen, jokainen rivi tarkistetaan. Näin varmistetaan, että kaikkien sarakkeiden arvot ovat sallittuja. Jos sarakkeessa on arvo, joka ei ole sallittu, liittäminen pysäytetään ja näyttöön tulee virhesanoma. Tämän voi välttää varmistamalla ennen liittämistä, että sarakkeissa on sallitut arvot.
+additionalContent: "## <a name=\"next-steps\"></a>Seuraavat vaiheet\nEtsi liittyvää tietoa täältä: \n  - [Aputoiminnot](ui-accessibility.md)  \n  - [Käytön aloittaminen](product-get-started.md)  \n  - [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  \n  - [Usein kysytyt kysymykset](across-faq.md)"
