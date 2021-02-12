@@ -10,22 +10,24 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 10/08/2020
 ms.author: jswymer
-ms.openlocfilehash: 38c95baa74d94246c38f1ff985b1457506a03f22
-ms.sourcegitcommit: 4bca699d2a5ce182eb5572d72fac4fb478c4f293
+ms.openlocfilehash: 723437b0e5acb5b5c4dca8374667ea1279243a80
+ms.sourcegitcommit: 36a32c997b201ff32ed8c1cff8179b36e2468c47
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "3989460"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "5046426"
 ---
-# <a name="install-the-prodshort-app-for-microsoft-teams"></a>Asenna [!INCLUDE [prodshort](includes/prodshort.md)] -sovellus Microsoft Teamsiin
+# <a name="install-the-prod_short-app-for-microsoft-teams"></a>Asenna [!INCLUDE [prod_short](includes/prod_short.md)] -sovellus Microsoft Teamsiin
 
-[!INCLUDE [teams_preview.md](includes/teams_preview.md)]
+[!INCLUDE [online_only](includes/online_only.md)]
 
-Tässä artikkelissa opit asentamaan [!INCLUDE [prodshort](includes/prodshort.md)] -sovelluksen [Microsoft Teamsiin](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams). Sovellus on saatavilla Teams marketplacesta, ja sitä voi käyttää Teamsin verkko-, työpöytä- tai mobiilisovelluksella.
+Tässä artikkelissa opit asentamaan [!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksen [Microsoft Teamsiin](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams). Sovellus on saatavilla Teams marketplacesta, ja sitä voi käyttää Teamsin verkko-, työpöytä- tai mobiilisovelluksella.
 
 ## <a name="prerequisites"></a>Vaatimukset
 
-- Organisaation käytäntöjen on sallittava sovellusten asentaminen Microsoft Teamsiin.
+- Teams-työpöytäsovelluksen tai Teamsin selainversion käyttö. Et voi asentaa [!INCLUDE [prod_short](includes/prod_short.md)]ia käyttämällä Teams-mobiilisovellusta.
+
+- Organisaatiosi käytännöt sallivat sovellusten asentamisen Microsoft Teamsiin.
 
 ## <a name="add-the-business-central-app-to-teams"></a>Lisää Business Central -sovellus Teamsiin
 
@@ -58,7 +60,8 @@ Olet nyt valmis käyttämään sovellusta Teamsissa jakaaksesi Business Centrali
 ## <a name="see-also"></a>Katso myös
 
 [Business Centralin ja Microsoft Teamsin integraation yleiskatsaus](across-teams-overview.md)  
+[Teams – usein kysytyt kysymykset](teams-faq.md)  
+[Vianetsintä – Teams](admin-teams-troubleshooting.md)  
 [Teamsin integroinnin kehittäminen](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
-[Käytön aloittaminen](product-get-started.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

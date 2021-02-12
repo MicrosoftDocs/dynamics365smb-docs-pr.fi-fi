@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c05456ca45b4508be0ba44acedf81997a92b56bb
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f3815e0e928041ca9fcef09b1c7410e45ebb57a1
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918486"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035754"
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Vaihekuvaus: Poiminta ja toimitus fyysisen varastoinnin perusmäärityksissä
 
 [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmassa noudon ja toimituksen lähtevät prosessit voidaan suorittaa neljällä tavalla käyttämällä eri toimintoja varastotason monimutkaisuudesta riippuen.  
+[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa noudon ja toimituksen lähtevät prosessit voidaan suorittaa neljällä tavalla käyttämällä eri toimintoja varastotason monimutkaisuudesta riippuen.  
 
 |Tapa|Saapuva prosessi|Varastopaikat|Poiminnat|Toimitukset|Monimutkaisuustaso (katso [Rakennetiedot: Fyysisen varaston asetukset](design-details-warehouse-setup.md))|  
 |------------|---------------------|----------|-----------|---------------|--------------------------------------------------------------------------------------------------------------------|  
@@ -33,6 +33,9 @@ ms.locfileid: "3918486"
 Katso lisätietoja kohdasta [Rakennetiedot: lähtevän fyysisen varastoinnin virta](design-details-outbound-warehouse-flow.md).  
 
 Seuraavassa vaihekuvauksessa kuvataan edellisen taulukon menetelmää B.  
+
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
 ## <a name="about-this-walkthrough"></a>Tietoja tästä vaihekuvauksesta
 
@@ -46,6 +49,9 @@ Tässä vaihekuvauksessa käsitellään seuraavia tehtäviä:
 - Varastopoiminnan julkaistusta lähdeasiakirjasta luominen  
 - Rekisteröidään fyysisen varastoinnin siirtoa varastosta ja kirjataan samanaikaisesti lähdemyyntitilauksen myyntitoimitusta.  
 
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
+
 ## <a name="roles"></a>Roolit
 
 Tässä vaihekuvauksessa havainnollistetaan seuraavien käyttäjäroolien tehtäviä:  
@@ -58,7 +64,7 @@ Tässä vaihekuvauksessa havainnollistetaan seuraavien käyttäjäroolien tehtä
 
 Tämän vaihekuvauksen ohjeiden noudattamisen edellytykset:  
 
-- [!INCLUDE[prodshort](includes/prodshort.md)] online: yritys perustuu eristysympäristön **Laajennettu arviointi - Kaikki mallitiedot** -vaihtoehtoon. [!INCLUDE[prodshort](includes/prodshort.md)] on-premises: CRONUS International Ltd. asennetaan.  
+- [!INCLUDE[prod_short](includes/prod_short.md)] online: yritys perustuu eristysympäristön **Laajennettu arviointi - Kaikki mallitiedot** -vaihtoehtoon. [!INCLUDE[prod_short](includes/prod_short.md)] on-premises: CRONUS International Ltd. asennetaan.  
 - Tee itsestäsi fyysisen varaston työntekijä sijainnissa HOPEA seuraavasti:  
 
   1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Varastotyöntekijät** ja valitse sitten liittyvä linkki.  
@@ -143,4 +149,4 @@ Myyntitilaukset ovat yleisin lähtevien lähdeasiakirjojen tyyppi.
 [Nimikkeiden suunnittelematon siirtäminen fyysisen varastoinnin perusmäärityksissä](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)  
 [Rakennetiedot: lähtevän fyysisen varastoinnin virta](design-details-outbound-warehouse-flow.md)  
 [Liiketoimintaprosessien vaihekuvaukset](walkthrough-business-process-walkthroughs.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  

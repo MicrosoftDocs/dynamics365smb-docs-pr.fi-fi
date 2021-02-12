@@ -1,6 +1,6 @@
 ---
-title: Business Centralin paikalliset toiminnot | Microsoft Docs
-description: Tutustu Dynamics 365 Business Centralin paikalliseen saatavuuteen ja säädösten noudattamiseen.
+title: Business Centralin paikalliset toiminnot
+description: Tutustu Business Centralin paikalliseen saatavuuteen ja sääntelynmukaisuuteen niissä maissa ja alueilla, joissa Microsoft tarjoaa paikallisia toimintoja.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: availability, localization
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b7e6aeb4db5e189bf8f985b55cf226c94a9aa1de
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: cce4a885fd4b183149e2d072daf556bdbe0e5fca
+ms.sourcegitcommit: 1c9eec7554305603d688bf85ce3986d0b1f72ede
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914513"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "5068406"
 ---
-# <a name="local-functionality-in-prodlong"></a>[!INCLUDE[prodlong](includes/prodlong.md)]in paikalliset toiminnot
+# <a name="local-functionality-in-prod_long"></a>[!INCLUDE[prod_long](includes/prod_long.md)]in paikalliset toiminnot
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]in yhdistetty lokalisaatiostrategia sisältää sekä Microsoftin että kumppanin vetämät mallit. Tässä osassa on kuvaukset niissä maissa käytettävistä toiminnoista, joissa säädösten noudattaminen ja muut paikalliset toiminnot saadaan Microsoftin avulla.  
+[!INCLUDE[prod_short](includes/prod_short.md)]in yhdistetty lokalisaatiostrategia sisältää sekä Microsoftin että kumppanin vetämät mallit. Tässä osassa on kuvaukset niissä maissa käytettävistä toiminnoista, joissa säädösten noudattaminen ja muut paikalliset toiminnot saadaan Microsoftin avulla.  
 
 Luettelo tällä hetkellä tuetuista markkinoista on kohdassa [Saatavuus maassa/alueella ja tuetut käännökset.](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
 
@@ -55,7 +55,7 @@ Saat lisätietoja kunkin maan/alueen paikallisista toiminnoista valitsemalla sop
 
 ### <a name="other-countries"></a>Muut maat
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] on saatavana myös muilla markkina-alueilla lokalisointisovellusten kautta. Jos Microsoftin kumppani on kehittänyt maassasi/alueellasi käytettävän lokalisointisovelluksen, löydät sen [AppSourcesta](https://go.microsoft.com/fwlink/?linkid=2081646).
+[!INCLUDE[prod_short](includes/prod_short.md)] on saatavana myös muilla markkina-alueilla lokalisointisovellusten kautta. Jos Microsoftin kumppani on kehittänyt maassasi/alueellasi käytettävän lokalisointisovelluksen, löydät sen [AppSourcesta](https://go.microsoft.com/fwlink/?linkid=2081646).
 
 ## <a name="see-also"></a>Katso myös
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dd07d7d25bea1e49ffa4927a717088663c5d48da
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d6b59df9677216cfcc3fd7e60ec92b1a17890763
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911028"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035729"
 ---
 # <a name="design-details-internal-warehouse-flows"></a>Rakennetiedot: sisäisen fyysisen varastoinnin virta
 Nimikkeiden kulku varastopaikkojen välillä yrityksen sijaintikeskuksissa kokoonpano- tai tuotantotilauksien komponentteja poimittaessa ja loppunimikkeitä hyllytettäessä sekä suunnittelemattomissa siirroissa, kuten varastopaikkojen täydennyksissä, ilman suhdetta lähdeasiakirjoihin. Liittyvien toimenpiteiden laajuus ja luonne vaihtelee perus- ja kehittyneen varastoinnin välillä.  
@@ -90,7 +90,7 @@ Nimikkeiden kulku varastopaikkojen välillä yrityksen sijaintikeskuksissa kokoo
 ## <a name="flushing-production-components-in-the-warehouse"></a>Materiaalioton tuotantokomponentit f. varastossa  
  Jos nimikkeen kortilla on näin asetettu, varastoinnin poiminnalla poimitut komponentit kirjataan tuotantotilauksen kuluttamiksi, kun varastoinnin poiminta rekisteröidään. Käyttämällä **Poiminta + eteenpäin** -menetelmää ja **Poiminta + taaksepäin**-materiaalinottotapaa, poiminnan rekisteröinti laukaisee liittyvän kulutuksen kirjaamisen ensimmäisen toimenpiteen alettua tai viimeisen toimenpiteen päätyttyä.  
 
- Mietitään seuraavaa tilannetta, joka perustuu [!INCLUDE[d365fin](includes/d365fin_md.md)]in esittelytietokannan VALKOINEN-sijaintiin.  
+ Mietitään seuraavaa tilannetta, joka perustuu [!INCLUDE[prod_short](includes/prod_short.md)]in esittelytietokannan skenaarioon.  
 
  Nimikkeen LS-100 15 kappaleen tuotantotilaus on olemassa. Jotkut osaluettelon nimikkeistä täytyy pakottaa manuaalisesti kulutuserään ja toiset luettelon nimikkeet voidaan poimia ja pakottaa automaattisesti käyttämällä **Poimi + takaisin** -virtausmenetelmää.  
 

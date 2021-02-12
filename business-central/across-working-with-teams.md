@@ -8,62 +8,55 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
-ms.date: 10/08/2020
+ms.date: 01/20/2021
 ms.author: jswymer
-ms.openlocfilehash: fbe024f724f018aae6d3aeb5251281bf4c3bfbde
-ms.sourcegitcommit: 4bca699d2a5ce182eb5572d72fac4fb478c4f293
+ms.openlocfilehash: 0f7c1e8016a1bc1915d7d6a54a183aa0e8cea2ea
+ms.sourcegitcommit: 36a32c997b201ff32ed8c1cff8179b36e2468c47
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "3989416"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "5046452"
 ---
 # <a name="working-with-business-central-data-in-microsoft-teams"></a>Business Centralin tietojen käyttäminen Microsoft Teamsissa
 
-[!INCLUDE [teams_preview.md](includes/teams_preview.md)]
+[!INCLUDE [online_only](includes/online_only.md)]
 
-[!INCLUDE [prodshort](includes/prodshort.md)] tarjoaa sovelluksen, joka yhdistää Microsoft Teamsin yrityksen tietoihin [!INCLUDE [prodshort](includes/prodshort.md)] -ohjelmassa, joten voit jakaa tiedot nopeasti tiimin jäsenten kesken ja reagoida nopeammin kyselyihin. Tässä artikkelissa kerrotaan, miten sovellusta käytetään [!INCLUDE [prodshort](includes/prodshort.md)] -tietojen jakamiseen työtovereiden kanssa Teams-keskusteluissa.
+[!INCLUDE [prod_short](includes/prod_short.md)] tarjoaa sovelluksen, joka yhdistää Microsoft Teamsin yrityksen tietoihin [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmassa, joten voit jakaa tiedot nopeasti tiimin jäsenten kesken ja reagoida nopeammin kyselyihin. Tässä artikkelissa kerrotaan, miten sovellusta käytetään [!INCLUDE [prod_short](includes/prod_short.md)] -tietojen jakamiseen työtovereiden kanssa Teams-keskusteluissa.
 
 ## <a name="overview"></a>Yleiskuvaus
 
-[!INCLUDE [prodshort](includes/prodshort.md)] -sovelluksen avulla voit:
+[!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksen avulla voit:
 
-- Kopioida linkin mihin tahansa Business Central -tietueeseen ja liittää sen Tems-keskusteluun, jonka haluat jakaa työtovereidesi kanssa. Linkki laajentaa sen kompaktiksi ja vuorovaikutteiseksi kortiksi, joka näyttää tietoja tietueesta.
-- Keskustelun aikana sinä ja työtoverisi voitte tarkastella lisätietoja tietueesta, muokata tietoja ja toimia - poistumatta Teamsista.
+- Kopioida linkin mihin tahansa Business Central -tietueeseen ja liittää sen Teams-keskusteluun, jonka haluat jakaa työtovereidesi kanssa. Sovellus laajentaa linkin kompaktiksi ja vuorovaikutteiseksi kortiksi, joka näyttää tietoja tietueesta.
+- Keskustelun aikana sinä ja työtoverisi voitte tarkastella lisätietoja tietueesta, muokata tietoja ja toimia – poistumatta Teamsista.
 
 [![Teamsin ja Business Centralin integrointi](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
 
 ## <a name="prerequisites"></a>Vaatimukset
 
 - Sinulla on Microsoft Teamsin käyttöoikeus.
-- Olet asentanut [!INCLUDE [prodshort](includes/prodshort.md)] -sovelluksen Teamsiin. Lisätietoja, katso [[!INCLUDE [prodshort](includes/prodshort.md)] -sovelluksen asentaminen Microsoft Teamsiin](across-install-app-for-teams.md)
+- Olet asentanut [!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksen Teamsiin. Lisätietoja, katso [[!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksen asentaminen Microsoft Teamsiin](across-install-app-for-teams.md)
 
 > [!NOTE]
-> Kaikki Teams-keskustelun osallistujat voivat tarkastella keskusteluun lähetettäviä Business Central -tietueiden kortteja. Mutta halutessaan tarkastella lisätietoja tietueista käyttämällä **Tiedot**- tai **Ponnahdusikkuna**-painikkeita, he tarvitsevat käyttöoikeuden [!INCLUDE [prodshort](includes/prodshort.md)] -ohjelmaan. Lisätietoja on kohdassa [Microsoft Teams -integraation hallinta](admin-teams-integration.md#minimum-requirements-1).
-<!--
-- People You and your coworkers have the following permissions in [!INCLUDE [prodshort](includes/prodshort.md)]
-  - To paste a [!INCLUDE [prodshort](includes/prodshort.md)] link into a Teams conversation and have it expand into a card, you have to have at least permission to view the page and its data.
-  - Once a card is submitted into a conversation, any user in that conversation can view that card without having permission to Business Central.
-  - For other users to view more details from card, they must also have view permission, as a minimum, to the page and its data. If they want to change data, they'll need modify permissions.
-
-  Setting up permissions is typically done by an administrator. For more information, see [Managing Microsoft Teams Integration](admin-teams-integration.md).-->
+> Kaikki Teams-keskustelun osallistujat voivat tarkastella keskusteluun lähetettäviä Business Central -tietueiden kortteja. Mutta halutessaan tarkastella lisätietoja tietueista käyttämällä **Tiedot**- tai **Ponnahdusikkuna**-painikkeita, he tarvitsevat käyttöoikeuden [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmaan. Lisätietoja on kohdassa [Microsoft Teams -integraation hallinta](admin-teams-integration.md#minimum-requirements-1).
 
 ## <a name="include-a-business-central-card-in-a-teams-conversation"></a>Sisällytä Business Central -kortti Teams-keskusteluun
 
-1. Kirjaudu [!INCLUDE [prodshort](includes/prodshort.md)] -ohjelmaan käyttämällä selainta.
+1. Kirjaudu [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmaan käyttämällä selainta.
 2. Avaa tietue, jonka haluat jakaa.
 
-    Sovellus on suunniteltu näyttämään korttityyppisivut [!INCLUDE [prodshort](includes/prodshort.md)] -ohjelmasta. Avaa siis sivu, jossa näkyy yksittäinen tietue, esimerkiksi nimike, asiakas tai myyntitilaus. Sitä ei voi käyttää roolikeskuksissa tai sivuissa, jotka näyttävät useita tietueita luettelossa.
+    Sovellus on suunniteltu näyttämään korttityyppisivut [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmasta. Avaa siis sivu, jossa näkyy yksittäinen tietue, esimerkiksi nimike, asiakas tai myyntitilaus. Sitä ei voi käyttää roolikeskuksissa tai sivuissa, jotka näyttävät useita tietueita luettelossa.
 
 3. Kopioi koko URL-osoite selaimen osoiteriviltä.
 
-   ![Business Centralin URL-osoitteen kopioiminen selaimesta](media/teams-url.png)
+   ![Business Centralin URL-osoitteen kopioiminen selaimesta](media/teams-url-v2.png)
 4. Siirry Teamsiin ja aloita keskustelu, joka voi olla keskustelu henkilön, henkilöryhmän tai tiimikanavan kanssa.
 
     <!--Teams imposes a few limitations here eg. you cannot unfurl a link during a Voice/Video call :/ We should probably only mention this in a Troubleshooting section (and i hope it will also be fixed soon)-->
-5. Liitä URL-osoite ruutuun, johon lisäät viestin.
+5. Liitä URL-osoite viestiruutuun, johon kirjoitat viestin.
 
-   ![Liitä Business Central-URL-osoite Teamsiin](media/teams-paste-url.png)
-6. Kun liität linkin keskusteluun ensimmäistä kertaa, sinua pyydetään kirjautumaan sisään [!INCLUDE [prodshort](includes/prodshort.md)] -ohjelmaan ja antamaan suostumus siihen, että sovellus hakee tiedot. Seuraa vain näytön ohjeita.
+   ![Liitä Business Central-URL-osoite Teamsiin](media/teams-paste-url-v2.png)
+6. Kun liität linkin keskusteluun ensimmäistä kertaa, sinua pyydetään kirjautumaan sisään [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmaan ja antamaan suostumus siihen, että sovellus hakee tiedot. Seuraa vain näytön ohjeita.
 
     > [!NOTE]
     > Tämä vaihe tarvitsee tehdä vain kerran.
@@ -77,18 +70,27 @@ ms.locfileid: "3989416"
     > [!TIP]
     > Kun kortti tulee näyttöön ja ennen kuin valitset **Lähetä**, voit halutessasi poistaa liitetyn URL-osoitteen.
 
-10. Jos haluat tarkastella lisätietoja tai tehdä tietueeseen muutoksia, valitse **Tiedot**.
+10. Jos haluat tarkastella lisätietoja tai tehdä kortissa näytettyyn tietueeseen muutoksia, valitse **Tiedot**. Lisätietoja on seuraavassa osassa.
 
-    Tietosivu muistuttaa sitä, mitä haluat nähdä [!INCLUDE [prodshort](includes/prodshort.md)] -ohjelmassa. Mutta sitä on hieman muokattu Teamsia varten. Kun olet lopettanut muutosten tarkastelemisen ja tekemisen, sulje ikkuna palataksesi Teams-keskusteluun.
+## <a name="view-card-details"></a>Näytä kortin tiedot
 
-    > [!NOTE]
-    > Tekemäsi muutokset eivät näy kortissa, ennen kuin seuraavan kerran liität sen linkin keskusteluun.
+Kun kortti on lähetetty keskusteluun, kaikki osallistujat, joilla on [asianmukaiset käyttöoikeudet](admin-teams-integration.md#permissions), voivat valita **Tiedot** ja avata ikkunan, jossa näkyy lisätietoja tietueesta – ja mahdollisesti tehdä muutoksia tietueeseen. Ei ole merkitystä, oletko kortin lähettäjä vai vastaanottaja. **Tiedot**-ominaisuudesta on hyötyä erityisesti vastaanottajille, koska se antaa heille nopeasti ytimekkäitä ja kohdennettuja tietoja tietueesta tarvitsematta tutkia koko tietuetta.
+
+Tietoikkuna on samankaltainen kuin [!INCLUDE [prod_short](includes/prod_short.md)] -tietueen näkymä. Mutta sitä on hieman muokattu Teamsia varten. Kun olet lopettanut muutosten tarkastelemisen ja tekemisen, sulje ikkuna palataksesi Teams-keskusteluun.
+
+Seuraavassa on muutamia asioita, jotka pitää muistaa, kun käsittelet kortin tietoja:
+
+- Avatakseen kortin tiedot käyttäjillä on oltava sivun ja sen tietojen lukuoikeus [!INCLUDE [prod_short](includes/prod_short.md)]issa.
+- Teams-keskustelujen kortteja ei päivitetä automaattisesti muutoksien mukaan. Tiedot-ikkunan tietueeseen tallentamasi muutokset tallennetaan [!INCLUDE [prod_short](includes/prod_short.md)]iin. Mutta Teamsissa kortti ei näytä muutoksia keskustelussa, ennen kuin liität linkin uudelleen.
+
+Lisätietoja korttien ja korttiietojen käyttämisestä on kohdassa [Teams – usein kysytyt kysymykset](teams-faq.md).
 
 ## <a name="see-also"></a>Katso myös
 
 [Business Centralin ja Microsoft Teamsin integraation yleiskatsaus](across-teams-overview.md)  
-[Asenna [!INCLUDE [prodshort](includes/prodshort.md)] -sovellus Microsoft Teamsiin](across-install-app-for-teams.md)  
+[Asenna [!INCLUDE [prod_short](includes/prod_short.md)] -sovellus Microsoft Teamsiin](across-install-app-for-teams.md)  
+[Teams – usein kysytyt kysymykset](teams-faq.md)  
+[Vianetsintä – Teams](admin-teams-troubleshooting.md)  
 [Teamsin integroinnin kehittäminen](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
-[Käytön aloittaminen](product-get-started.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

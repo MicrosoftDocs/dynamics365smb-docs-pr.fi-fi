@@ -1,6 +1,6 @@
 ---
-title: Tehtävien määrittäminen ja hallinta| Microsoft Docs
-description: Tietoja tehtävien määrittämisestä käyttäjille, kuten esimerkiksi kirjanpitäjälle, Business Central -sovelluksessa
+title: Tehtävien määrittäminen ja hallinta
+description: Tietoja tehtävien määrittämisestä käyttäjille, kuten kirjanpitäjälle, Business Centralissa sekä tehtävien poiminnasta ja suorittamisesta.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,20 +10,20 @@ ms.workload: na
 ms.search.keywords: tasks, work
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c76751726f5cd680fafc0887fc57a1464d0ac3ca
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: dd8b774f8dea2762df177ae141730cce8285480e
+ms.sourcegitcommit: 1c9eec7554305603d688bf85ce3986d0b1f72ede
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922615"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "5068380"
 ---
 # <a name="define-user-tasks"></a>Käyttäjätehtävien määrittäminen
 
-Voit luoda [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmassa tehtäviä, jotka muistuttavat sinua tekemättömistä töistä. Voit luoda tehtäviä itsellesi, mutta voit määrittää tehtäviä myös muille. Samoin joku toinen käyttäjä organisaatiossa voi määrittää tehtäviä sinulle.  
+Voit luoda [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa tehtäviä, jotka muistuttavat sinua tekemättömistä töistä. Voit luoda tehtäviä itsellesi, mutta voit määrittää tehtäviä myös muille. Samoin joku toinen käyttäjä organisaatiossa voi määrittää tehtäviä sinulle.  
 
 ## <a name="managing-user-tasks"></a>Käyttäjätehtävien hallinta
 
-**Käyttäjätehtävät**-sivulla näkyvät kaikki tehtävät. Voit luoda ja määrittää tehtäviä helposti. Kun luot tehtävän, määritä sille alku- ja määräpäivä. Voit lisätä linkin sivulle tai raporttiin [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmassa, jossa käyttäjän on suoritettava työ.  
+**Käyttäjätehtävät**-sivulla näkyvät kaikki tehtävät. Voit luoda ja määrittää tehtäviä helposti. Kun luot tehtävän, määritä sille alku- ja määräpäivä. Voit lisätä linkin sivulle tai raporttiin [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa, jossa käyttäjän on suoritettava työ.  
 
 Voit luoda itsellesi tai työtoverillesi esimerkiksi tehtävän, jossa tarkistetaan kaikki kirjatut myyntilaskut. Tässä tapauksessa tehtävä linkitetään sivulle 143, jonka nimi on **Kirjatut myyntilaskut**. Seuraavassa kuvakaappauksessa joku luo tehtävän MeganB:lle ja tarkastelee kirjattuja myyntilaskuja.  
 
@@ -47,4 +47,4 @@ Jos haluat poistaa kaikki tai osan käyttäjätehtävistä joukkotoiminnon avull
 ## <a name="see-also"></a>Katso myös
 
 [Sivun tai raportin etsiminen](ui-search.md)  
-[Kirjanpitäjän käyttökokemukset [!INCLUDE[d365fin](includes/d365fin_md.md)]issa](finance-accounting.md)  
+[Kirjanpitäjän käyttökokemukset [!INCLUDE[prod_short](includes/prod_short.md)]issa](finance-accounting.md)  

@@ -1,6 +1,6 @@
 ---
-title: Business Central -sovelluksen peruuttaminen | Microsoft Docs
-description: Tässä ohjeaiheessa kerrotaan, miten Business Central voidaan poistaa.
+title: Business Centralin poistaminen tai tilauksen peruuttaminen
+description: Opi poistamaan tai poistamaan käytöstä Business Central -asennus, jos sinulla on kokeiluversion tilaus tai maksullinen tilaus.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,35 +10,35 @@ ms.workload: na
 ms.search.keywords: remove, delete
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8c70989e841da98594e8bc0c2436dbed8cda997b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ee1acd4f7e3d036ec091392b637519f45d8a8af6
+ms.sourcegitcommit: 1c9eec7554305603d688bf85ce3986d0b1f72ede
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927145"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "5068277"
 ---
-# <a name="unsubscribe-or-remove-prodshort"></a>[!INCLUDE[prodshort](includes/prodshort.md)]in tilauksen peruuttaminen tai poistaminen
+# <a name="unsubscribe-or-remove-prod_short"></a>[!INCLUDE[prod_short](includes/prod_short.md)]in tilauksen peruuttaminen tai poistaminen
 
-Jos haluat lopettaa [!INCLUDE[d365fin](includes/d365fin_md.md)]:n käytön, voit sulkea tilisi tai pyytää poistamaan käyttöoikeuden tilistäsi. Suoritettavat vaiheet ovat erilaisia, jos käytössäsi maksuton kokeilu tai jos sinulla on tilaus.  
+Jos haluat lopettaa [!INCLUDE[prod_short](includes/prod_short.md)]:n käytön, voit sulkea tilisi tai pyytää poistamaan käyttöoikeuden tilistäsi. Suoritettavat vaiheet ovat erilaisia, jos käytössäsi maksuton kokeilu tai jos sinulla on tilaus.  
 
-## <a name="closing-your-free-trial-of-prodshort"></a>Maksuttoman [!INCLUDE[prodshort](includes/prodshort.md)] -kokeilun sulkeminen
+## <a name="closing-your-free-trial-of-prod_short"></a>Maksuttoman [!INCLUDE[prod_short](includes/prod_short.md)] -kokeilun sulkeminen
 
-Jos rekisteröit maksuttoman kokeilun mutta et halua jatkaa [!INCLUDE[d365fin](includes/d365fin_md.md)] -käyttöä, voit sulkea tilisi milloin tahansa. On suositeltavaa viedä kaikki omat tiedot, ennen kuin suljet tilin. 
+Jos rekisteröit maksuttoman kokeilun mutta et halua jatkaa [!INCLUDE[prod_short](includes/prod_short.md)] -käyttöä, voit sulkea tilisi milloin tahansa. On suositeltavaa viedä kaikki omat tiedot, ennen kuin suljet tilin. 
 
-Sinun on pyydettävä Microsoft 365 -järjestelmänvalvojaa poistamaan kokeiluversion tilaus yrityksen tililtä [Microsoft 365 -hallintakeskuksessa](https://admin.microsoft.com/). 
+Sinun on pyydettävä Microsoft 365 -järjestelmänvalvojaa poistamaan kokeiluversion tilaus yrityksen tililtä [Microsoft 365 -hallintakeskuksessa](https://admin.microsoft.com/).  
 
-Jos olet rekisteröitynyt [!INCLUDE[d365fin](includes/d365fin_md.md)]iin käyttämällä muuta kuin Microsoft 365 -yritystiliä, sinulla ei ole Microsoft 365 -järjestelmänvalvojaa. Sen sijaan sinun on peruutettava tilaus ottamalla yhteyttä [!INCLUDE[d365fin](includes/d365fin_md.md)]in peruutustiimiin. Lähetä sähköpostiviesti osoitteeseen cancelbusinesscentra@microsoft.com. Lisää viestiin tunnistamista varten oman [!INCLUDE[d365fin](includes/d365fin_md.md)]-vuokraajan nimi. Nämä tiedot löytyvät **Ohje ja tuki** -sivulta. Lisätietoja on kohdassa [Resurssit ohjeelle ja tuelle](product-help-and-support.md).  
+Jos olet rekisteröitynyt [!INCLUDE[prod_short](includes/prod_short.md)]iin käyttämällä muuta kuin Microsoft 365 -yritystiliä, sinulla ei ole Microsoft 365 -järjestelmänvalvojaa. Sen sijaan sinun on peruutettava tilaus ottamalla yhteyttä [!INCLUDE[prod_short](includes/prod_short.md)]in peruutustiimiin. Lähetä sähköpostiviesti osoitteeseen [cancelbusinesscentra@microsoft.com](mailto:cancelbusinesscentra@microsoft.com). Lisää viestiin tunnistamista varten oman [!INCLUDE[prod_short](includes/prod_short.md)]-vuokraajan nimi. Nämä tiedot löytyvät **Ohje ja tuki** -sivulta. Lisätietoja on kohdassa [Resurssit ohjeelle ja tuelle](product-help-and-support.md).  
 
-## <a name="unsubscribing-by-removing-d365fin-from-your-microsoft-365-experience"></a>Tilauksen peruuttaminen poistamalla [!INCLUDE[d365fin](includes/d365fin_md.md)] Microsoft 365:stä
+## <a name="unsubscribing-by-removing-prod_short-from-your-microsoft-365-experience"></a>Tilauksen peruuttaminen poistamalla [!INCLUDE[prod_short](includes/prod_short.md)] Microsoft 365:stä
 
-Jos yritys tilaa [!INCLUDE[prodshort](includes/prodshort.md)]ia, mutta käyttäjänä et enää halua käyttää sitä, sinun on pyydettävä järjestelmänvalvojaa tai Dynamics 365 -jälleenmyyjäkumppaniasi poistamaan [!INCLUDE[d365fin](includes/d365fin_md.md)] -käyttöoikeus Microsoft 365 -käyttäjätililtäsi. Jos [!INCLUDE[d365fin](includes/d365fin_md.md)] on poistettu käyttäjätililtä ja muut yritys jatkaa tilausta, työtoverisi voivat jatkaa jakamiesi tietojen käyttöä [!INCLUDE[d365fin](includes/d365fin_md.md)] -yrityksessä.  
+Jos yritys tilaa [!INCLUDE[prod_short](includes/prod_short.md)]ia, mutta käyttäjänä et enää halua käyttää sitä, sinun on pyydettävä järjestelmänvalvojaa tai Dynamics 365 -jälleenmyyjäkumppaniasi poistamaan [!INCLUDE[prod_short](includes/prod_short.md)] -käyttöoikeus Microsoft 365 -käyttäjätililtäsi. Jos [!INCLUDE[prod_short](includes/prod_short.md)] on poistettu käyttäjätililtä ja muut yritys jatkaa tilausta, työtoverisi voivat jatkaa jakamiesi tietojen käyttöä [!INCLUDE[prod_short](includes/prod_short.md)] -yrityksessä.  
 
-Jos yrityksesi haluaa peruuttaa [!INCLUDE[d365fin](includes/d365fin_md.md)] -tilauksen, Dynamics 365 -jälleenmyyjäkumppani voi poistaa tilauksen yrityksen tilistä. Lisätietoja on ohjeaiheen [Business Central Onlinen hallinta](/dynamics365/business-central/dev-itpro/administration/tenant-administration) kehittäjien ja IT-ammattilaisten kohdassa.  
+Jos yrityksesi haluaa peruuttaa [!INCLUDE[prod_short](includes/prod_short.md)] -tilauksen, Dynamics 365 -jälleenmyyjäkumppani voi poistaa tilauksen yrityksen tilistä. Lisätietoja on ohjeaiheen [Business Central Onlinen hallinta](/dynamics365/business-central/dev-itpro/administration/tenant-administration) kehittäjien ja IT-ammattilaisten kohdassa.  
 
-Käyttäjätilejä ja käyttöoikeustiedostoja hallitaan kohdassa [Microsoft 365 -hallintakeskus](https://admin.microsoft.com/). Vain järjestelmänvalvojat voivat poistaa [!INCLUDE[d365fin](includes/d365fin_md.md)] -lisenssit käyttäjätileiltä tai tilauksen yrityksen tililtä.  
+Käyttäjätilejä ja käyttöoikeustiedostoja hallitaan kohdassa [Microsoft 365 -hallintakeskus](https://admin.microsoft.com/). Vain järjestelmänvalvojat voivat poistaa [!INCLUDE[prod_short](includes/prod_short.md)] -lisenssit käyttäjätileiltä tai tilauksen yrityksen tililtä.  
 
-## <a name="removing-d365fin-from-your-app-launcher"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)]in poistaminen sovellusten käynnistysohjelmasta
-Jos haluat piilottaa [!INCLUDE[d365fin](includes/d365fin_md.md)]in sovellusten käynnistysohjelmalta, sinun tarvitsee vain poistaa sen kiinnitys. Tällöin tietoja ei poisteta, eikä tilausta peruuteta.  
+## <a name="removing-prod_short-from-your-app-launcher"></a>[!INCLUDE[prod_short](includes/prod_short.md)]in poistaminen sovellusten käynnistysohjelmasta
+Jos haluat piilottaa [!INCLUDE[prod_short](includes/prod_short.md)]in sovellusten käynnistysohjelmalta, sinun tarvitsee vain poistaa sen kiinnitys. Tällöin tietoja ei poisteta, eikä tilausta peruuteta.  
 
 ## <a name="see-also"></a>Katso myös
 [Käytön aloittaminen](product-get-started.md)  

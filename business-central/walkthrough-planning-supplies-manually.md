@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b01235241ccdcb837063f786157349ed7094e81e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7ec1276600ab84a43363708e037fccb5b2ca0cf2
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918461"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035629"
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Vaihekuvaus: Toimitusten manuaalinen suunnittelu
 
@@ -38,10 +38,10 @@ Tässä vaihekuvauksessa kuvataan toimitustilausten suunnitteluprosessi uuden ky
 -   myyntitilausten käsittelijä  
 
 ## <a name="prerequisites"></a>Vaatimukset  
- Ennen kuin aloitat tämän vaihekohtaisen ohjeen, sinun on asennettava [!INCLUDE[d365fin](includes/d365fin_md.md)]. Tietokantaan on tehtävä seuraavat muutokset:  
+ Ennen kuin aloitat tämän vaihekohtaisen ohjeen, sinun on asennettava [!INCLUDE[prod_short](includes/prod_short.md)]. Tietokantaan on tehtävä seuraavat muutokset:  
 
 -   Poista kaikki aiemmat polkupyörien myyntitilaukset.  
--   Luo kymmenelle polkupyörälle yksi myyntitilaus SININEN-sijaintiin.  
+-   Luo kymmenelle polkupyörälle yksi myyntitilaus ITÄ-sijaintiin.  
 -   Poista kaikki suunnitellut ja sitovasti suunnitellut tuotantotilaukset. Älä poista aloitettuja tilauksia, joissa on aiemmin kirjattuja tapahtumia.  
 
  Tässä vaihekuvauksessa kannattaa käyttää ehdotettuja tietoja, koska näissä tiedoissa on tarvittavat tietueet.  
@@ -148,7 +148,7 @@ Tässä vaihekuvauksessa kuvataan toimitustilausten suunnitteluprosessi uuden ky
 4.  Varaa kymmenen saatavilla olevaa nimikettä valitsemalla **OK**.  
 
     > [!NOTE]  
-    >  Siirto VIHREÄ-sijainnista on vaihdettu ehdotetun oston tilalle kysyntäriville. **Tee tilaukset** -toiminto luo siirtotilauksen VIHREÄ-sijainnista vaadittuun sijaintiin. **Korvaavia olemassa** -kenttä toimii samalla tavalla.  
+    >  Siirto PÄÄ-sijainnista on vaihdettu ehdotetun oston tilalle kysyntäriville. **Tee tilaukset** -toiminto luo siirtotilauksen PÄÄ-sijainnista vaadittuun sijaintiin. **Korvaavia olemassa** -kenttä toimii samalla tavalla.  
 
 5.  Valitse **Tee tilaukset** -toiminto. **Tee toimitustilaukset** -sivu avautuu.  
 6.  Valitse **Tee tilaukset** -kentän **Tilauksen suunnittelu** -pikavälilehdessä **Aktiivinen tilaus**.  
