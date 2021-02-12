@@ -1,0 +1,1 @@
+> <span data-ttu-id="2670f-101">**KOHDE:** Business Central online</span><span class="sxs-lookup"><span data-stu-id="2670f-101">**APPLIES TO:** Business Central online</span></span>
