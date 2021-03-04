@@ -33,3 +33,6 @@ Lisätietoja tietokannan lukituksesta on kohdassa [Tietokannan lukitusten valvon
 ## <a name="see-also"></a>Katso myös
 
 [Tietokannan lukitusten valvonta](/dynamics365/business-central/dev-itpro/administration/monitor-database-locks) 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

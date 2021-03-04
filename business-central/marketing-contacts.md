@@ -37,3 +37,6 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 [Myyntimahdollisuuksien hallinta](marketing-manage-sales-opportunities.md)  
 [Lajitteleminen, hakeminen ja suodattaminen](ui-enter-criteria-filters.md)  
 [Business Centralin käyttäminen](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Joissakin [!INCLUDE[prod_short](includes/prod_short.md)] -sivuston asia kirjoiss
 [Sähköpostin määrittäminen](admin-how-setup-email.md)  
 [Myynnin laskutus](sales-how-invoice-sales.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

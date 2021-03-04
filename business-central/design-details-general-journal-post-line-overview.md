@@ -46,3 +46,6 @@ Vanhassa arkkitehtuurissa oli seuraavat ominaisuudet:
 ## <a name="see-also"></a>Katso myös  
 [Rakenteen tiedot: Kirjausliittymän rakenne](design-details-posting-interface-structure.md)   
 [Rakenteen tiedot: Kirjausohjelman rakenne](design-details-posting-engine-structure.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

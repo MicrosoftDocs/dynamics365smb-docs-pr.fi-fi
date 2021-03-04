@@ -55,3 +55,6 @@ Voit tehdä kirjauksia edelliselle tilikaudelle myös tuloslaskelmatilien sulkem
 
 [Kirjanpitojaksojen ja tilikausien käyttäminen](finance-accounting-periods-and-fiscal-years.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

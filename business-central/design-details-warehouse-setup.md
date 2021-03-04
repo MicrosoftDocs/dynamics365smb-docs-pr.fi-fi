@@ -141,3 +141,6 @@ Poistettu malli voidaan kirjata nimikkeelle ja sijainnille. Poistettu malli mÃ¤Ã
 
 [Rakennetiedot: f. varaston hallinta](design-details-warehouse-management.md)   
 [Rakennetiedot: saatavuus varastossa](design-details-availability-in-the-warehouse.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

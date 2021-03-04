@@ -73,3 +73,6 @@ Voit rekisteröidä työntekijöiden poissaolot päivittäin tai muulta aikaväl
 [Rahoitus](finance.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)]in käyttäminen](ui-work-product.md)  
 [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

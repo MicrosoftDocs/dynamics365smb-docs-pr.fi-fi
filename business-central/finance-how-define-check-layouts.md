@@ -93,3 +93,6 @@ Fontit muihin tarkoituksiin ovat myös saatavilla [!INCLUDE[prod_short](includes
 [Kauden lopun prosessien viimeisteleminen](year-how-complete-period-end-processes.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

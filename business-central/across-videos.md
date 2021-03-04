@@ -32,3 +32,6 @@ Voit tarkastella myös opastusvideoita sekä runsaasti muuta sisältöä [!INCLU
 
 [Käytön aloittaminen](product-get-started.md)  
 [Dynamics 365 -kanava YouTubessa](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

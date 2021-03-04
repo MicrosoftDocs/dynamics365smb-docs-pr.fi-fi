@@ -87,3 +87,6 @@ Tämän laajennuksen käyttäminen on vain asia, jossa tiedot viedään **Maksup
 ## <a name="see-also"></a>Katso myös
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md)  
 [Käytön aloittaminen](product-get-started.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -35,3 +35,6 @@ Tarjonnan suunnittelu on kriittinen liiketoiminta-alue. Kun tarjonnan suunnittel
  [Rakennetiedot: suunnittelun parametrit](design-details-planning-parameters.md)   
  [Monimutkaisten sovellusalueiden määrittäminen parhaiden käytäntöjen avulla](set-up-complex-application-areas-using-best-practices.md)  
  [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

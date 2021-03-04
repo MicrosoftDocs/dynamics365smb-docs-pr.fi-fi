@@ -62,3 +62,6 @@ Kontaktin sähköpostiosoite lisätään nyt asiakirjan asettelun riville, joten
 [Raporttiasetteluiden hallinta](ui-manage-report-layouts.md)  
 [Raporttien, eräajojen ja XMLportien käsitteleminen](ui-work-report.md)  
 [Raporttien, eräajojen ja XMLportien käsitteleminen](ui-work-report.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

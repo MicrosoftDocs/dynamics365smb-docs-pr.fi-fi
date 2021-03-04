@@ -112,3 +112,6 @@ Voit hakea kirjatun huollon hyvityslaskun rivien tilaston yleiskuvausta **Huollo
 [Huoltotilausten luominen](service-how-to-create-service-orders.md)   
 [Huoltonimikkeiden luominen](service-how-to-create-service-items.md)   
 [Huollon suunnittelu](service-plan-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

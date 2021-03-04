@@ -63,3 +63,6 @@ Ennen kuin voit luoda työnkulkuja, joihin liittyy hyväksyntävaiheita, sinun o
 [Työnkulkujen määrittäminen](across-set-up-workflows.md)   
 [Vaihekuvaus: Ostojen hyväksyntätyönkulun määrittäminen ja käyttäminen](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
 [Työnkulku](across-workflow.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

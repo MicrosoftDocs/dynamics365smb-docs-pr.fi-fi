@@ -46,3 +46,6 @@ Seuraavassa ohjeessa neuvotaan, miten sulkea nämä tapahtumat suorittamalla kak
 [Varastonarvostuksen ja kustannuslaskennan määrittäminen](finance-set-up-inventory-valuation-and-costing.md)  
 [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)  
 [Rakennetiedot: Arvostusmenetelmät](design-details-costing-methods.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

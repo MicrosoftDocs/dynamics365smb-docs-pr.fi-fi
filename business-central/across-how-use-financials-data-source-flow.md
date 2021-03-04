@@ -88,3 +88,6 @@ Lisätietoja on [Power Automate -dokumentaatiossa](/power-automate/getting-start
 [Hyväksynnän käyttäjäasetukset](across-how-to-set-up-approval-users.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)]in määrittäminen](setup.md)  
 [Rahoitus](finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

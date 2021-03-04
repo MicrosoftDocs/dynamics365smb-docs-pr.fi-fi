@@ -86,3 +86,6 @@ Perussäännön mukaan nimikekortin **Yksikkökustannus**-kentässä olevan arvo
 [Myynti](sales-manage-sales.md)  
 [Osto](purchasing-manage-purchasing.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

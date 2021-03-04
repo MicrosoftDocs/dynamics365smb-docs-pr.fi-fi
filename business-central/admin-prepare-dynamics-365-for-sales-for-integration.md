@@ -201,3 +201,6 @@ Sinulla täytyy olla Microsoft Azure -tilaus. Kokeilutili toimii sovelluksen rek
 [Yhteyden määrittäminen [!INCLUDE[crm_md](includes/crm_md.md)] -sovellukseen](admin-how-to-set-up-a-dynamics-crm-connection.md)  
 [Business Centralin ja [!INCLUDE[crm_md](includes/crm_md.md)]in synkronointi](admin-synchronizing-business-central-and-sales.md)  
 [Paikallisen Dynamics 365 Salesin integroinnin valmistelu](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

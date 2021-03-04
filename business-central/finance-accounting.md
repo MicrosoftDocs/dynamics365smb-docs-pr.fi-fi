@@ -109,3 +109,6 @@ Jos haluat antaa käyttöoikeudet useille yrityksille, sinun on kirjauduttava jo
 [Työnhallinta useiden yritysten välillä yrityksen keskittimessä](company-hub.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Kassavirta-analyysin määrittäminen](finance-setup-cash-flow-analyses.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

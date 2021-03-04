@@ -200,3 +200,6 @@ Huoltosopimuksia ja sopimustarjouksia voi arkistoida milloin vain, jotta sopimuk
 [Huoltosopimusten määrittäminen](service-how-setup-service-contracts.md)  
 [Huoltohallinto](service-service.md)  
 [ALV-summia sisältävien huoltosopimusten muuntaminen](service-how-to-convert-service-contracts.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

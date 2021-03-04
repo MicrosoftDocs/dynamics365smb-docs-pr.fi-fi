@@ -40,3 +40,6 @@ Käytä maksualennusten ohittamistoimintoa kokonaissumman yhteydessä, kun halua
 [Maksutapojen määrittäminen](../../finance-payment-methods.md)  
 [Maksutoleranssien ja maksualennustoleranssien käsitteleminen](../../finance-payment-tolerance-and-payment-discount-tolerance.md)     
 [Pankin viitetiedostojen määrittäminen](how-to-set-up-bank-reference-files.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

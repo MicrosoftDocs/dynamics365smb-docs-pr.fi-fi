@@ -94,3 +94,6 @@ Esimerkiksi jos yhdellä huoltonimikkeellä on korjauksen tilana **Alku** (joka 
 
 [Huoltotilausten ja -korjausten tilan määrittäminen](service-order-repair-status.md)  
 [Huoltohallinnon määrittäminen](service-setup-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

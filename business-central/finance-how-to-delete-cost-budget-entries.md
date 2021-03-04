@@ -38,3 +38,6 @@ Välttääksesi aukkoja kustannusbudjeteissa ja kustannusrekisteritapahtumissa e
 [Kustannuslaskenta](finance-manage-cost-accounting.md)
 [Kustannusbudjettien luominen](finance-create-cost-budgets.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

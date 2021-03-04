@@ -158,3 +158,6 @@ Kun määrität sen profiilikyselyn, jossa tämä kysymys on, kontaktiin, sovell
 
 ## <a name="see-also"></a>Katso myös
 [Kontaktien luominen](marketing-create-contact-companies.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

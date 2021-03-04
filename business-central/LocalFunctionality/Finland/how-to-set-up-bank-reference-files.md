@@ -56,3 +56,6 @@ Elektronisten maksujen käsittelyä varten on ensin määritettävä pankin viit
  [Verkkopankkitoiminta Suomessa](electronic-banking-in-finland.md)   
  [Maksutiedostojen luominen](how-to-generate-payment-files.md)   
  [Maksualennusten ohittaminen](how-to-disregard-payment-discounts.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -40,3 +40,6 @@ Seuraavassa taulukossa kuvataan kunkin taulukon tiedot:
 
 [Sivujen tarkistaminen](across-inspect-page.md)  
 [Suorituskykyartikkelit kehittäjille](/dynamics365/business-central/dev-itpro/performance/performance-developer)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

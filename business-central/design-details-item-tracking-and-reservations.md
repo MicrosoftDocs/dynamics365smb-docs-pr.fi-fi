@@ -92,3 +92,5 @@ Myöhäisen sitomisen toiminnallisuus tukee tätä liiketoimintaskenaariota. Sen
   
 ## <a name="see-also"></a>Katso myös  
 [Rakennetiedot: nimikkeen seuranta](design-details-item-tracking.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

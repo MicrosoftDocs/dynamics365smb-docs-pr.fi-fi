@@ -35,3 +35,6 @@ Kun olet luonut työnkulun ja olet varma, että se on valmis, työnkulku on otet
  [Työnkulkujen käyttäminen](across-use-workflows.md)   
  [Vaihekuvaus: Ostojen hyväksyntätyönkulun määrittäminen ja käyttäminen](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
  [Työnkulku](across-workflow.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

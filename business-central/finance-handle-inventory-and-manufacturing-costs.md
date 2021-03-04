@@ -38,3 +38,6 @@ Vaikka useat kustannuslaskennan toiminnot (kuten tapahtuman kohdistus ja automaa
 ## <a name="see-also"></a>Katso myös  
 [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)
 [Rakennetiedot: Varaston arvostus](design-details-inventory-costing.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

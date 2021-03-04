@@ -131,3 +131,6 @@ Lisää **Tavaranimikkeet**-sivulle kaikki koodit, joita käytät. Koodit täyty
 
 ## <a name="see-also"></a>Katso myös
 [Taloushallinto](finance.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

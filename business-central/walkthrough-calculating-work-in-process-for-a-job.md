@@ -164,3 +164,6 @@ Projektien avulla voit laatia yrityksen resurssien käyttöön liittyviä aikata
  [Tietoja KET-menetelmistä](projects-understanding-wip.md)   
  [Etenemisen ja tehokkuuden valvonta](projects-how-monitor-progress-performance.md)  
  [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -48,3 +48,5 @@ Koodiyksikkö 22 käy läpi silmukassa nimikkeen seurantanumerot ja jakaa kirjau
 ## <a name="see-also"></a>Katso myös  
 [Rakennetiedot: nimikkeen seuranta](design-details-item-tracking.md)   
 [Rakennetiedot: nimikkeen seurannan rakenne](design-details-item-tracking-design.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

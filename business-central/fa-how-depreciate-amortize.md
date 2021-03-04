@@ -112,3 +112,6 @@ Kopioidut rivit luodaan joko käyttöomaisuuden KP-päiväkirjassa tai käyttöo
 [Käyttöomaisuuden määrittäminen](fa-setup.md)  
 [Rahoitus](finance.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

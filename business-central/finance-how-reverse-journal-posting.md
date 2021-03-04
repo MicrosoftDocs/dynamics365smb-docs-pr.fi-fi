@@ -85,3 +85,6 @@ Seuraavaksi kerrotaan, miten kirjattu nimikkeiden tai resurssien palautustoimitu
 [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md)  
 [Rahoitus](finance.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

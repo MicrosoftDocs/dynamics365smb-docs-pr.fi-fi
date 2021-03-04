@@ -42,3 +42,6 @@ Power Automatella luodut työnkulkumallit lisätään [!INCLUDE[prod_short](incl
 [Osto](purchasing-manage-purchasing.md)  
 [Projektien hallinta](projects-manage-projects.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

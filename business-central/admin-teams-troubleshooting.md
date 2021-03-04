@@ -125,3 +125,6 @@ Tiedot-ikkunoissa kenttään tekemäsi muutokset tallentuvat automaattisesti, ku
 [Teamsin integroinnin kehittäminen](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

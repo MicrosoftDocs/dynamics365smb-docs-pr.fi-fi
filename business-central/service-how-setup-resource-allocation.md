@@ -83,3 +83,6 @@ Jos haluat muuttaa nimikkeille määritettyjä taitokoodeja (vaikkapa **kpl** ei
 [Vakiohuoltokoodien määrittäminen](service-how-setup-service-coding.md)  
  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

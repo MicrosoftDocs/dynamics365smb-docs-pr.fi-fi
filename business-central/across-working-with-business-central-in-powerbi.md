@@ -97,3 +97,6 @@ Voit jakaa raportin valitsemalla raporttiluettelossa tai avoimessa raportissa **
 [[!INCLUDE[prod_short](includes/prod_short.md)]in käyttäminen Power Automate'ssa](across-how-use-financials-data-source-flow.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

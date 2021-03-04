@@ -73,3 +73,6 @@ Tämän jälkeen voit täyttää uuden nimikekortin kentät tai muokata niitä t
 [Erikoistilausten luominen](sales-how-to-create-special-orders.md)|  
 [Varasto](inventory-manage-inventory.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

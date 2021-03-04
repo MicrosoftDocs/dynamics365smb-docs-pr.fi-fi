@@ -67,3 +67,6 @@ Kyllä saat. Se on hieman erilainen tapa kirjautua sisään, siinä kaikki. Lis�
 
 [Business Central -sovelluksen hakeminen mobiililaitteeseen](install-mobile-app.md)  
 [Business Central -sovelluksen asentaminen Microsoft Teamsiin](across-install-app-for-teams.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

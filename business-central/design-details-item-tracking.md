@@ -31,3 +31,6 @@ Kohteen seurantajärjestelmän tulisi tarjota yritykselle helpon tavan käsitell
 [Rakennetiedot: nimikkeen seuranta ja suunnittelu](design-details-item-tracking-and-planning.md)  
 [Rakennetiedot: nimikkeen seuranta ja varaukset](design-details-item-tracking-and-reservations.md)  
 [Rakennetiedot: nimikkeen seuranta f. varastossa](design-details-item-tracking-in-the-warehouse.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

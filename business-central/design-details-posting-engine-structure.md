@@ -39,3 +39,5 @@ Kirjausliittymä ja tietyt muut funktiot koodiyksikkö 12:ssa käyttävät kirja
   
 ## <a name="see-also"></a>Katso myös  
  [Rakenteen tiedot: Kirjausliittymän rakenne](design-details-posting-interface-structure.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

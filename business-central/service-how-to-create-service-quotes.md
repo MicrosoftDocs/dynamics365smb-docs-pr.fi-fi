@@ -40,3 +40,5 @@ Voit käyttää huoltotarjousta huoltotilauksen luonnoksena ja muuntaa tarjoukse
 [Huoltotehtävien käyttäminen](service-how-to-work-on-service-tasks.md)  
 
  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

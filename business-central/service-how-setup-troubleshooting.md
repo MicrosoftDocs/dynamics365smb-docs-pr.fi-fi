@@ -30,3 +30,5 @@ Voit määrittää vianmääritykseen ohjeita, jotka auttavat teknikoita ratkais
 
 ## <a name="see-also"></a>Katso myös
 [Huoltohallinto](service-service.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

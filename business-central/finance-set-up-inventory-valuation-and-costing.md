@@ -47,3 +47,6 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 [Rakennetiedot: nimikkeiden arvostusmenetelmän muuttaminen](design-details-changing-costing-methods.md)  
 [Business Centralin käyttäminen](ui-work-product.md)  
 [Rahoitus](finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -46,3 +46,6 @@ Useaan voimassa olevaa sopimukseen rekisteröidylle huoltonimikkeelle voidaan lu
 ## <a name="see-also"></a>Katso myös  
 [Huoltosopimusten toteuttaminen](service-fulfill-service-contracts.md)  
 [Huoltotilausten luominen](service-how-to-create-service-orders.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

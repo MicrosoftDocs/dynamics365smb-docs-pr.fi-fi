@@ -56,3 +56,6 @@ Lisätietoja on kohdassa [Rakennetiedot: kysynnän ja tarjonnan täsmäytys](des
 [Rakennetiedot: kysynnän ja tarjonnan täsmäytys](design-details-balancing-demand-and-supply.md)  
 [Rakennetiedot: varaus, tilauksen seuranta ja toimenpiteiden viestitys](design-details-reservation-order-tracking-and-action-messaging.md)   
 [Rakennetiedot: Tarjonnan suunnittelu](design-details-supply-planning.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

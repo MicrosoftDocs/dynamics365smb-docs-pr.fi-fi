@@ -104,3 +104,6 @@ Voit tarkistaa, kuinka monta analyysia olet kuluvalla jaksolla tehnyt ja kuinka 
 [Nimikkeen määritteiden käsitteleminen](inventory-how-work-item-attributes.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md)  
 [Käytön aloittaminen](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -222,3 +222,6 @@ Päivämääräkenttää määrittäessäsi voit syöttää päivämäärän man
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Usein kysytyt kysymykset](across-faq.md)  
 [Etsi tapahtumat](ui-find-entries.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

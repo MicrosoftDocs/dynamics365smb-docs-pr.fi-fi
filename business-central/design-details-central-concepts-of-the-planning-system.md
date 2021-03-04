@@ -295,3 +295,6 @@ Tämä täydentää keskeisten konseptien luonnoksen, joka liittyy [!INCLUDE[pro
 [Rakennetiedot: suunnittelun kohdistustaulukko](design-details-planning-assignment-table.md)   
 [Rakennetiedot: uusintatilauskäytäntöjen käsittely](design-details-handling-reordering-policies.md)   
 [Rakennetiedot: kysynnän ja tarjonnan täsmäytys](design-details-balancing-demand-and-supply.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

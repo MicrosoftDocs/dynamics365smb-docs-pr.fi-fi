@@ -77,3 +77,6 @@ Kun yritys on luotu, sen nimeä ei voi muuttaa. Mutta voit muuttaa sen **näytt�
 [Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md)  
 [Perusasetusten muuttaminen](ui-change-basic-settings.md)  
 [Käytön aloittaminen](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

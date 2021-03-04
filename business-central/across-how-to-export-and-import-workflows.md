@@ -47,3 +47,6 @@ Voit siirtää työnkulkuja muihin [!INCLUDE[prod_short](includes/prod_short.md)
  [Työnkulkujen määrittäminen](across-set-up-workflows.md)   
  [Työnkulkujen käyttäminen](across-use-workflows.md)   
  [Työnkulku](across-workflow.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

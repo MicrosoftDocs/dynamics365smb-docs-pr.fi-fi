@@ -57,3 +57,6 @@ Maksupäiväkirja on yleinen päiväkirja, joka on tarkoitettu erityisesti maksu
 [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md)  
 [Työtilan mukauttaminen](ui-personalization-user.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

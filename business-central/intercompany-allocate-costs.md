@@ -93,3 +93,5 @@ Kun käytät asiakirjaa kustannusten jakamiseen konsernikumppaneille, huomaa kak
 [Rahoituksen määrittäminen](finance-setup-finance.md)  
 [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

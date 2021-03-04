@@ -49,3 +49,6 @@ Jos **Tiukka vanhentumisen kirj.** -kenttä on valittuna, poimintaan sisällytet
 [Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
 [Vaihto-omaisuus](inventory-manage-inventory.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

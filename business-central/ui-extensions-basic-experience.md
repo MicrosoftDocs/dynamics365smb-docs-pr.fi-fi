@@ -51,3 +51,5 @@ Tuo Dynamics C5 -tiedot eteenpäin. Kun Microsoft-kumppani on asentanut peruskok
 
 ## <a name="see-also"></a>Katso myös
 [Tietojen siirron C5-laajennus](ui-extensions-c5-data-migration.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

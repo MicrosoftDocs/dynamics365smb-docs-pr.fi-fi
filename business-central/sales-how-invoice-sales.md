@@ -125,3 +125,6 @@ Voit luoda jopa suoraan maksettavia laskuja rekisteröimättömille asiakkaille,
 [Avointen saldojen perintä](receivables-collect-outstanding-balances.md)  
 [Joukkolaskutus Business Centralin Microsoft Bookingsista ](finance-bookings.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Jos haluat nähdä asetustaulukoiden täydellisen luettelon, valitse ![Lamppu, j
 ## <a name="see-also"></a>Katso myös  
 [Yrityksen määrittäminen RapidStart Servicesin avulla](admin-set-up-a-company-with-rapidstart.md)  
 [Hallinta](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

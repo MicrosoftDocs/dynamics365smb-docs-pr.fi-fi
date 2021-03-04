@@ -54,3 +54,6 @@ Seuraava taulukko sisältää nämä yleiset liiketoiminta-alueet ja linkit niit
 [Hallinta](admin-setup-and-administration.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

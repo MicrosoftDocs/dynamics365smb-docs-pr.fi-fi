@@ -34,3 +34,6 @@ Voit lähettää toimittajille elektronisia maksuja, kun olet luonut kotimaan ta
  [Verkkopankkitoiminta Suomessa](electronic-banking-in-finland.md)   
  [Pankin viitetiedostojen määrittäminen](how-to-set-up-bank-reference-files.md)   
  [Maksualennusten ohittaminen](how-to-disregard-payment-discounts.md) 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

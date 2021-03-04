@@ -81,3 +81,6 @@ Lisätietoja Microsoftin tuotteiden helppokäyttötoiminnoista ja käyttöä hel
 [Käytön aloittaminen](product-get-started.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Usein kysytyt kysymykset](across-faq.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

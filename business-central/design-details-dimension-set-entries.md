@@ -24,3 +24,6 @@ Tässä ohjeistuksessa on yksityiskohtaisia teknisiä tietoja [!INCLUDE[prod_sho
 [Dimensioyhdistelmätapahtumien yleiskuva](design-details-dimension-set-entries-overview.md)  
 [Rakennetiedot: Dimensioyhdistelmien etsiminen](design-details-searching-for-dimension-combinations.md)  
 [Rakennetiedot: taulukkorakenne](design-details-table-structure.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

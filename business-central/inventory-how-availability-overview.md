@@ -129,3 +129,6 @@ Jos vähintään yksi kokoonpanon komponentti ei ole saatavana, vaikutus näkyy 
 [Tuotteiden myyminen](sales-how-sell-products.md)      
 [Business Centralin käyttäminen](ui-work-product.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

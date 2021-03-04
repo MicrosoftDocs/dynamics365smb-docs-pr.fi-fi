@@ -111,3 +111,6 @@ Jos Azure Active Directorya ei käytetä käyttäjätietojen ja käyttöoikeuksi
 ## <a name="see-also"></a>Katso myös
 [Kontaktienhallinta](marketing-relationship-management.md)
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

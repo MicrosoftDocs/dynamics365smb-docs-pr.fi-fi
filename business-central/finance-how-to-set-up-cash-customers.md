@@ -39,3 +39,6 @@ Laskua ei voi luoda ilman asiakasnumeroa. Näin on, vaikka teet käteismyynnin, 
 [Uusien asiakkaiden rekisteröinti](sales-how-register-new-customers.md)    
 [Rahoitus](finance.md)  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

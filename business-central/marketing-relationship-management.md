@@ -35,3 +35,6 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 |Käsittele saapuvat liidit luomalla mahdollisuuksia ja liittämällä ne myyjiin. Voit seurata tällä tavalla potentiaalisia myyntejä.|[Myyntimahdollisuuksien hallinta](marketing-manage-sales-opportunities.md)|
 |Luoda markkinointisuunnitelman, joilla voi tunnistaa, houkutella ja säilyttää asiakkaita.|[Markkinointikampanjoiden hallinta](marketing-campaigns.md)|
 |Kun käytät Dynamics 365 Salesia asiakassuhteissa, saat käyttöösi saumattoman integroinnin liidistä tuottoon käyttämällä Business Centralia taustatehtäviin, kuten tilausten käsittelyyn, varastonhallintaan ja talousasioihin.|[Dynamics 365 Sales -integrointi](marketing-integrate-dynamicscrm.md)|
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

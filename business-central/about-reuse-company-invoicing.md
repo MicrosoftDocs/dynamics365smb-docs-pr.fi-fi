@@ -51,3 +51,6 @@ Jos käytät sekä Invoicingia että [!INCLUDE[prod_short](includes/prod_short.m
 ## <a name="see-also"></a>Katso myös
 [Usein kysytyt kysymykset](across-faq.md)  
 [Hallinta](admin-setup-and-administration.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

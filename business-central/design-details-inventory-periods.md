@@ -33,3 +33,6 @@ Takautuvat tapahtumat tai kustannusten muutokset vaikuttavat usein varaston arvo
 ## <a name="see-also"></a>Katso myös  
  [Rakennetiedot: varaston arvostus](design-details-inventory-costing.md) [Varaston kustannusten hallinta](finance-manage-inventory-costs.md) [Rahoitus](finance.md)  
  [Business Central -sovelluksen käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

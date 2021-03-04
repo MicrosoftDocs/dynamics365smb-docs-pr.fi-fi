@@ -103,3 +103,6 @@ Kun olet määrittänyt muistutusehdot sekä lisätasot ja tekstin, määritä j
 [Avointen saldojen perintä](receivables-collect-outstanding-balances.md)  
 [Viivästyskuluehtojen määrittäminen](finance-setup-finance-charges.md)  
 [Rahoituksen määrittäminen](finance-setup-finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

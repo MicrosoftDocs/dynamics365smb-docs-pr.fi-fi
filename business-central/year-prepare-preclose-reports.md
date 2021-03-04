@@ -41,3 +41,6 @@ Jos haluat nähdä kaikki raportin, valitse ![Lamppu, joka avaa Kerro, mitä hal
 [Vuosien ja jaksojen sulkeminen](year-close-years-periods.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

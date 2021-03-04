@@ -62,3 +62,6 @@ ms.locfileid: "4827066"
 [Sähköinen tiedonsiirto](across-data-exchange.md)  
 [Sähköinen laskutus – usein kysytyt kysymykset](faq-electronic-invoicing.yml)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

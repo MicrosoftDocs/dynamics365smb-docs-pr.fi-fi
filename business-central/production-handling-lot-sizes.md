@@ -52,3 +52,6 @@ Toimitusten suunnittelulle nimikkeiden eräkoon asetus toimii **Tuotannon asetuk
 [Tuotantoerän mittayksiköiden käyttäminen](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)
 [Reititysten luonti](production-how-to-create-routings.md)  
 [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

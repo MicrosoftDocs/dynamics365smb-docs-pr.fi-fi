@@ -49,3 +49,6 @@ Suunnittelujärjestelmä säilyttää myyntitilaukselle erikoistilauksena luodun
 [Suoratoimitusten tekeminen](sales-how-drop-shipment.md)   
 [Rakennetiedot: uusintatilauskäytännöt](design-details-reservation-order-tracking-and-action-messaging.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

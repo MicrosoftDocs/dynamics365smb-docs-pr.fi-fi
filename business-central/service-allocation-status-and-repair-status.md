@@ -70,3 +70,6 @@ Uusi kohdistustapahtuma sisältää uuden resurssin ja sen tila on **Aktiivinen*
 [Resurssien kohdistamisen määrittäminen](service-how-setup-resource-allocation.md)  
 [Resurssien kohdistaminen](service-how-to-allocate-resources.md)  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -197,3 +197,6 @@ Vielä kirjaamattomien asiakirjojen summat pyöristetään ja näytetään kirja
 [Business Centralin paikalliset toiminnot](about-localization.md)  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

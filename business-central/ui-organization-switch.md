@@ -48,3 +48,6 @@ Jos olet kirjautunut [!INCLUDE[prod_short](includes/prod_short.md)]iin, voit vai
 
 [Business Centralin hallintakeskus](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center)  
 [Perusasetusten muuttaminen](ui-change-basic-settings.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

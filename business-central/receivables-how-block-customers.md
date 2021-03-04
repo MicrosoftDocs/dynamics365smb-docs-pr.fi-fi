@@ -40,3 +40,6 @@ Seuraavassa taulukossa kuvaillaan eri asiakkaiden estoasetukset.
 [Uusien asiakkaiden rekisteröinti](sales-how-register-new-customers.md)  
 [Avointen saldojen perintä](receivables-collect-outstanding-balances.md)  
 [Myyntisaamisten hallinta](receivables-manage-receivables.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

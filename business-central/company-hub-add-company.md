@@ -47,3 +47,6 @@ Kun olet lisännyt ympäristösi, yritykset näkyvät automaattisesti. Jos kuite
 
 [Työnhallinta useiden yritysten välillä yrityksen keskittimessä](company-hub.md)  
 [Ohje- ja tukiresurssit](product-help-and-support.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

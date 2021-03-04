@@ -47,3 +47,6 @@ Kun olet määrittänyt maksuehdot, voit määrittää ne asiakkaille ja toimitt
 [Uusien toimittajien rekisteröiminen](purchasing-how-register-new-vendors.md)  
 [Myynti](sales-manage-sales.md)  
 [Osto](purchasing-manage-purchasing.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

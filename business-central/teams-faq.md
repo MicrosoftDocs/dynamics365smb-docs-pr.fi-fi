@@ -210,3 +210,6 @@ Vierailla ei ole pääsyä sovelluskauppaan, jotta he voisivat asentaa itse sove
 [Teamsin integroinnin kehittäminen](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Varaston arvostus, jota kutsutaan myös kustannuslaskennaksi, käsittelee liiket
 [Rakennetiedot: pääkirjanpidon tilit](design-details-accounts-in-the-general-ledger.md)  
 [Rakennetiedot: varaston arvostus](design-details-inventory-valuation.md)  
 [Rakennetiedot: uudelleenarvostus](design-details-revaluation.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

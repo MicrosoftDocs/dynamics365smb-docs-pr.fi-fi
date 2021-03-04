@@ -33,3 +33,6 @@ Kun olet luonut määrityspaketin, seuraava vaihe on ottaa paketti käyttöön a
 ## <a name="see-also"></a>Katso myös  
 [Yrityksen määrittäminen RapidStart Servicesin avulla](admin-set-up-a-company-with-rapidstart.md)  
 [Hallinta](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -307,3 +307,6 @@ K채yt채 `%myvendors`-tunnusta toimittajan **Nro**-kent채ss채, kun haluat n채ytt�
 [Usein kysyttyjen kysymysten haku ja suodatus](ui-search-filter-faq.md)  
 [Luettelon채kymien tallentaminen ja mukauttaminen](ui-views.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman k채ytt채minen](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

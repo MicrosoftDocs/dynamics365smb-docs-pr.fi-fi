@@ -36,3 +36,6 @@ Kun viivästyskululasku lähetetään, laskussa näkyvät viivästyskulut ja eri
 ## <a name="see-also"></a>Katso myös  
 [Avointen saldojen perintä](receivables-collect-outstanding-balances.md)  
 [Rahoituksen määrittäminen](finance-setup-finance.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

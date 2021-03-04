@@ -85,3 +85,5 @@ Try again
 ## <a name="see-also"></a>Katso myös
 
 [Vianetsintä – Teams](admin-teams-troubleshooting.md)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

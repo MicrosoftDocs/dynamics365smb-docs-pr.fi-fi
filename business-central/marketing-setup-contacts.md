@@ -161,3 +161,6 @@ Jos löydät kontaktin kaksoiskappaleen, voit yhdistää sen säilytettävään 
 [Kontaktien luominen](marketing-create-contact-companies.md)  
 [Myyntimahdollisuuksien hallinta](marketing-manage-sales-opportunities.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

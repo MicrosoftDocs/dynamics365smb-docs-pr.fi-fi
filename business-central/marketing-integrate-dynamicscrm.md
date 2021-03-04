@@ -106,3 +106,6 @@ Kun asiakasmaksu vastaanotetaan myyntilaskulle sovelluksessa [!INCLUDE[prod_shor
 [Salesin ja myyntikeskuksen yleiskuvaus](/dynamics365/customer-engagement/sales-enterprise/overview)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

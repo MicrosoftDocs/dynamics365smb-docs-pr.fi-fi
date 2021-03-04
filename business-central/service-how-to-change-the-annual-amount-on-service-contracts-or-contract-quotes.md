@@ -150,3 +150,6 @@ Sopimusriveillä on lopuksi seuraavat tiedot:
 ## <a name="see-also"></a>Katso myös  
 [Huoltosopimusten ja huoltosopimustarjousten luominen](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Huoltohallinnon määrittäminen](service-setup-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

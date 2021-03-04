@@ -62,3 +62,6 @@ Kun integraatiossa on jotain vikaa ja haluat poistaa tietueiden synkronoinnin py
 [Yhteyden määrittäminen Microsoft Dataverse -sovellukseen](admin-how-to-set-up-a-dynamics-crm-connection.md)  
 [Tietueiden yhdistäminen ja synkronoiminen manuaalisesti](admin-how-to-couple-and-synchronize-records-manually.md)  
 [Synkronoinnin tilan näyttäminen](admin-how-to-view-synchronization-status.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

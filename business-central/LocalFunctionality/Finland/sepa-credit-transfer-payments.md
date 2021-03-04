@@ -25,3 +25,6 @@ ms.locfileid: "4749655"
 ## <a name="see-also"></a>Katso myös  
  [Suomen paikalliset toiminnot](finland-local-functionality.md)   
  [Pankin viitetiedostojen määrittäminen](how-to-set-up-bank-reference-files.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

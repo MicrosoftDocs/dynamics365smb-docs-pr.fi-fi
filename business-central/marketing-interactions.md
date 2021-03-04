@@ -56,3 +56,6 @@ Voit poistaa vuorovaikutuslokin tapahtumia, jotka on peruutettu. Voit poistaa vu
 [Kontaktien hallinta](marketing-contacts.md)  
 [Myyntimahdollisuuksien hallinta](marketing-manage-sales-opportunities.md)  
 [Business Centralin käyttäminen](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

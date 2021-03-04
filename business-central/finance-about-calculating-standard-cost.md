@@ -105,3 +105,6 @@ Vakiokustannusten päivittäminen tai laskeminen koostuu yleensä seuraavista te
  [Tuoterakenteen käyttäminen](inventory-how-work-BOMs.md)   
  [Vakiokustannusten päivittäminen](finance-how-to-update-standard-costs.md)   
  [Rakennetiedot: Varaston arvostus](design-details-inventory-costing.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

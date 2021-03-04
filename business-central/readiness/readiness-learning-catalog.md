@@ -77,3 +77,6 @@ Etsi oikea online-koulutus, henkilökohtaisia työpajoja ja tapahtumia oman rool
     :::column-end:::
 
 :::row-end:::
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

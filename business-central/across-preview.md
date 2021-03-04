@@ -101,3 +101,6 @@ Tällä hetkellä kaikki asiakkaat voivat käyttää Sandbox-ympäristöä, muka
 [Esittely-ympäristöjen valmisteleminen (kumppanina)](/dynamics365/business-central/dev-itpro/administration/demo-environment)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

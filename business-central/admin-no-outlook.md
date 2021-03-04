@@ -29,3 +29,6 @@ Voit lähettää asiakirjoja, kuten laskuja, sähköpostina käyttämällä yrit
 [Business Central -sovelluksen käyttäminen yrityssähköpostina Outlookissa](admin-outlook.md)  
 [Business Central -sovelluksen hakeminen omaan mobiililaitteeseen](install-mobile-app.md)  
 [Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

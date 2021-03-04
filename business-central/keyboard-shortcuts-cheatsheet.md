@@ -59,3 +59,6 @@ ms.locfileid: "3921715"
 > Jos haluat graafisen, tulostusystävällisen version, valitse seuraava kuva ja Lataa PDF-tiedosto.
 >
 > [![PDF-tiedoston avaava kuvake](media/keyboard_shortcut_inline.png)](media/keyboard_shortcuts.pdf)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

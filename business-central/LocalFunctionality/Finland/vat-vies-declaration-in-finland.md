@@ -25,3 +25,6 @@ ms.locfileid: "4749653"
 ## <a name="see-also"></a>Katso myös  
 [Suomen paikalliset toiminnot](finland-local-functionality.md)  
 [ALV:n raportointi veroviranomaisille](../../finance-how-report-vat.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

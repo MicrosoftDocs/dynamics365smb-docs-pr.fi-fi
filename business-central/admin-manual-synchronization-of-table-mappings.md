@@ -85,3 +85,6 @@ Voit suorittaa taulukon yhdistämismääritysten synkronointityön **Integrointi
 ## <a name="see-also"></a>Katso myös  
 [Business Centralin ja Dynamics 365 Salesin synkronointi](admin-synchronizing-business-central-and-sales.md)   
 [Dynamics 365 Sales -integroinnissa käytettävien käyttäjätilien määrittäminen](admin-setting-up-integration-with-dynamics-sales.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

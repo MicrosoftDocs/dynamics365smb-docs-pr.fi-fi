@@ -98,3 +98,6 @@ Huomautus on nyt liitetty myyntitilaukseen.
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Saapuvat asiakirjat](across-income-documents.md)  
 [Työnkulkuilmoitusten määrittäminen](across-setting-up-workflow-notifications.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -224,3 +224,6 @@ Lis채tietoja nimikkeiden siirt채misest채 siten, ett채 toimitus- ja vastaanottom�
 [Myynti](sales-manage-sales.md)  
 [Osto](purchasing-manage-purchasing.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman k채ytt채minen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

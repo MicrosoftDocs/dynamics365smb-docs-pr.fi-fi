@@ -56,3 +56,6 @@ Jos sis채llyt채t satunnaisen tai kertaluontoisen projektin kulut, voit k채ytt채�
 [Osto](purchasing-manage-purchasing.md)         
 [Myynti](sales-manage-sales.md)      
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman k채ytt채minen](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

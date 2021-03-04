@@ -43,3 +43,6 @@ Bookings-tapaamisten laskuttamisen tuki on yksinkertaisempi kuin myyntitarjouste
 [Myynnin laskutus](sales-how-invoice-sales.md)  
 [Myynnin määrittäminen](sales-setup-sales.md)  
 [Microsoft Bookings](https://products.office.com/business/scheduling-and-booking-app)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

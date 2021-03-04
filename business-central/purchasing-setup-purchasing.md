@@ -43,3 +43,6 @@ Maksumenetelmiä ja valuuttoja sekä muita rahoitukseen liittyviä ostoasetuksia
 
 [Osto](purchasing-manage-purchasing.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

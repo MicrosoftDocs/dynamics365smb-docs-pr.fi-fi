@@ -233,3 +233,6 @@ Varausjärjestelmä on kokonaisvaltainen ja se sisältää Tilausten seurannan j
 ## <a name="see-also"></a>Katso myös  
 [Rakennetiedot: suunnittelujärjestelmän keskeiset käsitteet](design-details-central-concepts-of-the-planning-system.md)   
 [Rakennetiedot: Tarjonnan suunnittelu](design-details-supply-planning.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

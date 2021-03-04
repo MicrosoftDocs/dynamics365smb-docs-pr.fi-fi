@@ -57,3 +57,6 @@ Jotkin virustentorjuntaohjelmat estävät oletusarvoisesti kameran ja sijainnin 
 ## <a name="see-also"></a>Katso myös
 [Kameran käyttöönotto AL:ssä](/dynamics365/business-central/dev-itpro/developer/devenv-implement-camera-al)  
 [Sijainnin käyttöönotto AL:ssä](/dynamics365/business-central/dev-itpro/developer/devenv-implement-location-al)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

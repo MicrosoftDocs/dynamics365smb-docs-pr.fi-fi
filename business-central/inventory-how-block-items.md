@@ -48,3 +48,6 @@ Kun luot uusia asiakirjoja aiemmin luotujen asiakirjojen perusteella **Kopioi as
 ## <a name="see-also"></a>Katso myös  
 [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md)  
 [Varasto](inventory-manage-inventory.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -94,3 +94,6 @@ Järjestelmänvalvojat voivat käyttää samaa avustettua Ohjatun määrityksen 
 [Kirjanpitäjän käyttökokemukset Business Centralissa](finance-accounting.md)  
 [Business Central -laajennuksen yritystoiminto](ui-extensions-company-hub.md)  
 [Perusasetusten muuttaminen](ui-change-basic-settings.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

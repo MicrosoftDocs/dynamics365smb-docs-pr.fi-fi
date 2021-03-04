@@ -99,3 +99,6 @@ Huollon hyvityslaskuasiakirjaa käytetään yleensä silloin, kun asiakas palaut
 [Huoltolaskujen kirjaaminen](service-how-to-post-service-orders.md)  
 [Huoltohallinnon määrittäminen](service-setup-service.md)  
 [Huollon kirjaus](service-service-posting.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

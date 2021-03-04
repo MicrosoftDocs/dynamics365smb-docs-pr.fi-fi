@@ -62,3 +62,6 @@ Jos apuohjelmaan tehdään muutoksia, yhteyden päivittäminen edellyttää sen 
 [Rahoituslaskelmien analysointi Microsoft Excel:issä](finance-analyze-excel.md)  
 [Business Centralin käyttäminen](ui-work-product.md)  
 [Excel-integraation parannukset vuoden 2019 2. julkaisuaallossa](/dynamics365-release-plan/2019wave2/dynamics365-business-central/enhancements-excel-integration)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

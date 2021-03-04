@@ -127,3 +127,6 @@ Lis채ksi kaikissa samantyyppisiss채 tulevissa tapahtumissa summat kirjataan sek�
 [Valuutan vaihtokurssien p채ivitt채minen](finance-how-update-currencies.md)  
 [Vuosien ja jaksojen sulkeminen](year-close-years-periods.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman k채ytt채minen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

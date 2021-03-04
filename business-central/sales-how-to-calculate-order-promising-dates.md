@@ -145,3 +145,6 @@ Nimike on merkittävä kriittiseksi, ennen kuin sen voi sisällyttää toimituks
 [Myynti](sales-manage-sales.md)  
 [Ostojen päivämäärälaskenta](purchasing-date-calculation-for-purchases.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

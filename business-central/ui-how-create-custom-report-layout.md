@@ -119,3 +119,6 @@ Tietokenttien lisääminen raportin tietojoukosta on kuitenkin lisäasetus ja ed
 [Talousraportoinnin valmisteleminen KP-raporttimallien ja tililuokkien avulla](bi-how-work-account-schedule.md)  
 [Liiketoimintatiedot](bi.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

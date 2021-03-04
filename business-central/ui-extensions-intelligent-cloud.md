@@ -29,3 +29,6 @@ Kun yhteys on määritetty, voit siirtää tietoja tai hallita tietojen replikoi
 [Älykkäät Tiedot ](about-intelligent-cloud.md)  
 [Pilvisiirto-työkalun suorittaminen](/dynamics365/business-central/dev-itpro/administration/migration-tool)  
 [Pilvisiirron älykkäät pilvilaajennukset](ui-extensions-data-replication.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

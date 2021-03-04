@@ -134,3 +134,6 @@ Lisäksi olemassa on seuraavat sisäiset lähdeasiakirjat, jotka toimivat kuten 
 ## <a name="see-also"></a>Katso myös
 
 [Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

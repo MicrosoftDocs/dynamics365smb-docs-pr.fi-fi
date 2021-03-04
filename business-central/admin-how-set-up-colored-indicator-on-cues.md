@@ -64,3 +64,6 @@ Jotta voit määrittää ilmaisimen, sinun on määritettävä korkeintaan kaksi
     |**Alataso**|Harmaa|  
 
 ## <a name="see-also"></a>Katso myös
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

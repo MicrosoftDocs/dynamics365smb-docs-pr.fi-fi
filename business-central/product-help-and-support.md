@@ -141,3 +141,6 @@ Sivustossa docs.microsoft.com isännöidään muiden tuotteiden sisältöä sek�
 [Business Centralin kehittäjän ja järjestelmänvalvojien dokumentaatio](/dynamics365/business-central/dev-itpro/)  
 [Kumppanien ohje- ja tukiresurssit](/dynamics365/business-central/dev-itpro/help-and-support)  
 [Tekninen tuki](/dynamics365/business-central/dev-itpro/technical-support)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

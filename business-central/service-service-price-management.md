@@ -67,3 +67,6 @@ Asetukset kuvaillaan seuraavassa taulukossa.
 ## <a name="see-also"></a>Katso myös  
 [Huollon hintojen ja lisäkustannusten määrittäminen](service-how-setup-service-costs-pricing.md)  
 [Huoltohallinnon määrittäminen](service-setup-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

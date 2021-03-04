@@ -93,3 +93,6 @@ Lisätietoja on kohdassa [Taustakirjauksen määrittäminen työjonojen avulla](
 [Business Central -sovelluksen määrittäminen](setup.md)  
 [Perusasetusten muuttaminen](ui-change-basic-settings.md)  
 [Työjonon elinkaaren jäljityksen telemetrian analysoiminen](/dynamics365smb-devitpro\dev-itpro\administration\telemetry-job-queue-lifecycle-trace)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

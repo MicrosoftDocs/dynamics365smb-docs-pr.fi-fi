@@ -67,3 +67,6 @@ Yhteyden muodostamisen aikana luodaan integrointitaulukon yhdistämismäärityks
 
 
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -85,3 +85,6 @@ Kunkin poistokirjan osalta määritellään mallien ja erien oletusasetukset. Vo
 [Rahoitus](finance.md)  
 [Käytön aloittaminen](product-get-started.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

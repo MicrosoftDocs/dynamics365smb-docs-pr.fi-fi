@@ -52,3 +52,6 @@ Kun valitset **Segmentti**-sivulla **Loki**, sovellus tallentaa yhteydenpidot **
 [Myyntimahdollisuuksien hallinta](marketing-manage-sales-opportunities.md)  
 [Kontaktien luonti ja hallinta](marketing-contacts.md)  
 [Business Central -sovelluksen käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

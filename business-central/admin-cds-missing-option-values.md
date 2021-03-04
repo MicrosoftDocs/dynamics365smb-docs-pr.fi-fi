@@ -146,3 +146,5 @@ Valitse **Integrointitaulukon yhdistämismääritys** -sivulla rivi **Maksuehdot
 
 ## <a name="see-also"></a>Katso myös
 [Synkronoitavien taulujen ja kenttien yhdistäminen](admin-how-to-modify-table-mappings-for-synchronization.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

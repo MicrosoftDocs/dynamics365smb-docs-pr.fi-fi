@@ -71,3 +71,6 @@ Kun luot seuraavan kerran KP-raporttimalleja, tiliotteessa näkyy käteisvarojen
 [Rahoitus](finance.md)  
 [Tilikartan määrittäminen tai muuttaminen](finance-setup-chart-accounts.md)  
 [Business Intelligence](bi.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

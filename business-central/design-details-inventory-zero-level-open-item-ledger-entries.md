@@ -151,3 +151,6 @@ Seuraavassa kaaviossa näytetään, miten kustannusten kohdistukset tehdään.
 ## <a name="see-also"></a>Katso myös  
 [Rakennetiedot: Nimikkeen kohdistus](design-details-item-application.md)   
 [Rakennetiedot: Varaston arvostus](design-details-inventory-costing.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

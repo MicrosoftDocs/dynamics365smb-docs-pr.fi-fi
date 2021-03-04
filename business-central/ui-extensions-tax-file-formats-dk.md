@@ -26,3 +26,6 @@ Laajennus on maksuton, joten sinun tarvitsee vain asentaa se.
 
 ## <a name="see-also"></a>Katso myös
 [Business Central -sovelluksen mukauttaminen laajennusten avulla](ui-extensions.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

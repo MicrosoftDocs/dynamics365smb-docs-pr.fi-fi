@@ -149,3 +149,6 @@ Ohjeaihe sisältää seuraavat toimintosarjat:
 [Sähköinen tiedonsiirto](across-data-exchange.md)   
 [Myynnin laskutus](sales-how-invoice-sales.md)   
 [Ostojen kirjaus](purchasing-how-record-purchases.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

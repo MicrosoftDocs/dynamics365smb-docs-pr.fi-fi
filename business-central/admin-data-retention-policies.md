@@ -105,3 +105,5 @@ Kun kehittäjä on lisännyt taulukoita luetteloon, järjestelmänvalvoja voi si
 [Suodattaminen](ui-enter-criteria-filters.md#filtering)  
 [Työjonojen käyttäminen ajoitustehtäviin](admin-job-queues-schedule-tasks.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

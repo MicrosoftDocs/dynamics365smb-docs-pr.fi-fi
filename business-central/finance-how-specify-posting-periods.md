@@ -34,3 +34,6 @@ Voit määrittää kirjausjaksojen avulla, milloin käyttäjät voivat tehdä ki
 [Rahoitus](finance.md)  
 [Kauden lopun prosessien viimeisteleminen](year-how-complete-period-end-processes.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

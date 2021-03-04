@@ -51,3 +51,6 @@ Myyjät hoitavat kampanjoita, ja sinun onkin luotava kutakin tehtävää vastaa 
 [Segmenttien hallinta](marketing-segments.md)  
 [Myyntimahdollisuuksien hallinta](marketing-manage-sales-opportunities.md)  
 [Business Central -sovelluksen käyttäminen](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

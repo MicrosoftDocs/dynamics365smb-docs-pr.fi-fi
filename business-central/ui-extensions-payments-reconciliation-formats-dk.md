@@ -108,3 +108,6 @@ Seuraavassa taulukossa ovat [!INCLUDE[prod_short](includes/prod_short.md)] -ohje
 [Business Central -sovelluksen mukauttaminen [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmaa varten laajennusten avulla](ui-extensions.md)  
 [Maksujen kerääminen SEPA-suoraveloitusperintänä.](finance-collect-payments-with-sepa-direct-debit.md)  
 [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

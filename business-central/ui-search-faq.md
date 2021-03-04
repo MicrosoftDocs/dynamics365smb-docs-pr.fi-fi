@@ -50,3 +50,6 @@ Kirjanmerkkikuvake ei näy Kerro, mitä haluat tehdä -ikkunassa, kun mukautus o
 [Sivujen ja tietojen etsiminen Kerro, mitä haluat tehdä -toiminnolla](ui-search.md)  
 [Sivujen etsiminen roolienhallinnan avulla](ui-role-explorer.md)  
 [Sivun tai raportin kirjanmerkin luominen roolikeskuksessa](ui-bookmarks.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

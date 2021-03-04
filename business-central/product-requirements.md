@@ -79,3 +79,6 @@ Jos haluat ottaa käyttöön paikallisen Business Central -sovelluksen, tarkista
 
 [Käytön aloittaminen](product-get-started.md)  
 [Dynamics 365 Business Central -sovelluksen järjestelmävaatimukset](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central-v17)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

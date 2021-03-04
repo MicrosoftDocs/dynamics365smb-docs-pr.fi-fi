@@ -489,3 +489,6 @@ Kahden työn hintoja, työn tehtävärivejä ja töiden suunnittelurivejä verta
  [Edistymisen ja suorituskyvyn valvonta](projects-how-monitor-progress-performance.md)   
  [Projektien laskuttaminen](projects-how-invoice-jobs.md)  
  [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

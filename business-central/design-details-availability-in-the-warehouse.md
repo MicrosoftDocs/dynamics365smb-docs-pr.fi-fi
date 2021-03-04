@@ -77,3 +77,6 @@ Jos yksi tai useampi ehdoista ei täyty, erilaisia virheilmoituksia saattaa ilme
 ## <a name="see-also"></a>Katso myös  
  [Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
  [Nimikkeiden saatavuuden tarkasteleminen](inventory-how-availability-overview.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

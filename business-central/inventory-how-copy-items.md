@@ -39,3 +39,6 @@ Kun lisäät uuden nimikkeen, voit säästää aikaa kopioimalla aiemmin luodun 
 
 [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md)  
 [Varaston määrittäminen](inventory-setup-inventory.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

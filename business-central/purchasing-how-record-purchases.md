@@ -100,3 +100,6 @@ Osto vaikuttaa nyt varastoon, resurssitapahtumiin ja taloustietueisiin, ja myyj�
 [Uusien toimittajien rekisteröiminen](purchasing-how-register-new-vendors.md)  
 [Suoratoimitusten valmisteleminen](sales-how-drop-shipment.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

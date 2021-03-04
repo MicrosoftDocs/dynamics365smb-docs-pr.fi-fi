@@ -162,3 +162,6 @@ Suoraveloitusperintä lisätään **Suoraveloitusperinnät**-sivulle ja vähint�
 ## <a name="see-also"></a>Katso myös  
 [Myyntisaamisten hallinta](receivables-manage-receivables.md)  
 [Huoltohallinto](service-service.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

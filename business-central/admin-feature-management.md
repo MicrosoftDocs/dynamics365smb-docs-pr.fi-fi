@@ -25,3 +25,6 @@ Lue lisää kohdasta [Ominaisuuksien hallinta](/dynamics365/business-central/dev
 ## <a name="see-also"></a>Katso myös .
 
 [Uusia ja suunniteltuja ominaisuuksia](https://aka.ms/Dynamics365ReleasePlan)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

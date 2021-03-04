@@ -30,3 +30,6 @@ Varastoinnin eri monimutkaisuustasojen erottamista varten tämä ohjeistus on ja
 [Rakennetiedot: saatavuus varastossa](design-details-availability-in-the-warehouse.md)  
 [Rakennetiedot: lähtevän fyysisen varastoinnin virta](design-details-outbound-warehouse-flow.md)  
 [Rakennetiedot: integrointi varaston kanssa](design-details-integration-with-inventory.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

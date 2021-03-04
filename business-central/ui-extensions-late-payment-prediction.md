@@ -111,3 +111,6 @@ Voit myös luoda oman ennakoivan verkkopalvelun **Dynamics 365 Business Centrali
 [Azure Machine Learning Studio -dokumentaatio](https://go.microsoft.com/fwlink/?linkid=861765)  
 [Business Central -sovelluksen mukauttaminen laajennusten avulla](ui-extensions.md)  
 [Tervetuloa [!INCLUDE[prod_long](includes/prod_long.md)]iin!](index.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

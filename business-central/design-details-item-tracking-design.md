@@ -45,3 +45,6 @@ Lisätietoja on kohdassa [Rakennetiedot: Nimikeseurannan kirjausrakenne](design-
 
 ## <a name="see-also"></a>Katso myös  
 [Rakennetiedot: Nimikkeen seuranta](design-details-item-tracking.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

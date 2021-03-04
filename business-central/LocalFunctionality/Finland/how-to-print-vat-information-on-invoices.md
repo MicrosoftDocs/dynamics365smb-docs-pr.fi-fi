@@ -33,3 +33,6 @@ Kirjausryhmien avulla voit tulostaa ALV-tiedot myyntilaskun jokaiselle nimikkeel
  [Verkkopankkitoiminta Suomessa](electronic-banking-in-finland.md)  
  [Kirjausryhmien määrittäminen](../../finance-posting-groups.md)   
  [Arvolisäveron määrittäminen](../../finance-setup-vat.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

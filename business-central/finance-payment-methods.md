@@ -49,3 +49,6 @@ Vaihtoehtoisesti voit lisätä maksuehdot maksutapaan. Lisätietoja on ohjeaihee
 [Maksuehtojen määrittäminen](finance-payment-terms.md)  
 [Rahoitus](finance.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -46,3 +46,6 @@ Seuraavissa ohjeaiheissa kerrotaan [!INCLUDE[prod_short](../../includes/prod_sho
 [Maa- ja aluekohtainen saatavuus ja tuetut kielet](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
 ## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

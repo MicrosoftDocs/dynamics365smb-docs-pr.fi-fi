@@ -78,3 +78,6 @@ Seuraavassa on lyhyt video [!INCLUDE[prod_short](includes/prod_short.md)] -sovel
 [Suorituskykyä lisääviä vihjeitä yrityskäyttäjille](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

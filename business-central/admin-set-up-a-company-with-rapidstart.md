@@ -49,3 +49,6 @@ Voit käyttää seuraavia osia nopeuttaaksesi yrityksen määrittämistä:
 [Hallinta](admin-setup-and-administration.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)]in määrittäminen](setup.md)  
 [Monimutkaisten sovellusalueiden määrittäminen parhaiden käytäntöjen avulla](set-up-complex-application-areas-using-best-practices.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

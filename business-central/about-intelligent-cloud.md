@@ -51,3 +51,6 @@ Kun Dynamics 365 -jälleenmyyntikumppani on hankkinut oikean käyttöoikeuden, j
 [Tervetuloa Business Centraliin](index.md)  
 [Pilvisiirron älykkäät pilvilaajennukset](ui-extensions-data-replication.md)  
 [Paikallisten tietojen siirtäminen Business Central Onlineen](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

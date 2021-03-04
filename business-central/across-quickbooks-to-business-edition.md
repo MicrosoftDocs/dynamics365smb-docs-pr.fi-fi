@@ -37,3 +37,6 @@ Jos olet valmis aloittamaan käytön nyt, valitse ![Lamppu, joka avaa Kerro, mit
 ## <a name="see-also"></a>Katso myös
 [Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md)  
 [Business Central -sovelluksen mukauttaminen laajennusten avulla](ui-extensions.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -61,3 +61,6 @@ Kielen vaihtaminen on helppoa: siirry selainsivun alareunaan ja valitse vasemmas
 [Ohje- ja tukiresurssit](product-help-and-support.md)  
 [Perusasetusten muuttaminen](ui-change-basic-settings.md)  
 [Käytön aloittaminen](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

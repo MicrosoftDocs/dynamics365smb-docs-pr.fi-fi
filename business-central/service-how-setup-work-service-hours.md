@@ -58,3 +58,6 @@ Jos huoltosopimukselle ei m채채ritet채 erityisi채 huoltotunteja, ohjelma k채ytt�
 [Tietoja kohdistuksen tilasta ja korjauksen tilasta](service-allocation-status-and-repair-status.md)  
 [Huoltohallinnon m채채ritt채minen](service-setup-service.md)  
 [Tietoja huoltotilauksen ja korjauksen tilasta](service-order-repair-status.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

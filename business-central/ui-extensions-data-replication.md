@@ -45,3 +45,6 @@ Jos käytät Dynamics SL_ää, hanki **Älykäs pilvipohjainen** -laajennus, **M
 
 [Älykkäät Tiedot ](about-intelligent-cloud.md)  
 [Älykäs pilvipohjainen laajennus](ui-extensions-intelligent-cloud.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

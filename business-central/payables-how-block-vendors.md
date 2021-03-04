@@ -37,3 +37,6 @@ Seuraavassa taulukossa kuvaillaan eri toimittajien estoasetukset.
 [Uusien toimittajien rekisteröiminen](purchasing-how-register-new-vendors.md)  
 [Maksujen suorittaminen](payables-make-payments.md)  
 [Ostovelkojen hallinta](payables-manage-payables.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

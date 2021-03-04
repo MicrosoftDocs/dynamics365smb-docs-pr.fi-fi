@@ -121,3 +121,6 @@ Osoitteessa [AppSource.microsoft.com](https://appsource.microsoft.com/) on laaje
 [Kysyntäennusteet ja puitetilaukset](design-details-central-concepts-of-the-planning-system.md#demand-forecasts-and-blanket-orders)  
 [Puitemyyntitilausten käyttäminen](sales-how-to-create-blanket-sales-orders.md)  
 [Toistuvat tilaukset (Norja)](LocalFunctionality/Norway/recurring-orders.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

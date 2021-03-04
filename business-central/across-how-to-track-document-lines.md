@@ -35,3 +35,6 @@ Seuraavassa kuvataan, miten seuranta tehdään myyntitilausriviltä. Vaiheet ova
 [Myynti](sales-manage-sales.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

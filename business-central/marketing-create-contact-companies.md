@@ -116,3 +116,6 @@ Tietojen synkronointi asiakkaiden, toimittajien, työntekijöiden tai pankkitili
 [Kontaktien hallinta](marketing-contacts.md)  
 [Kontaktien määrittäminen](marketing-setup-contacts.md)  
 [Business Centralin käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

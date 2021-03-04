@@ -66,3 +66,6 @@ Jos käytät [!INCLUDE[prod_short](includes/prod_short.md)] on-premises -versiot
 [Mobiilisovellukset – usein kysytyt kysymykset](ui-mobile-faq.md)  
 [Käytön aloittaminen](product-get-started.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

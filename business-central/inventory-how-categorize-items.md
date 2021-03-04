@@ -56,3 +56,6 @@ Jos muutat mieltäsi nimikeluokasta, voit poistaa sen. Jos se kuitenkin on jo m�
 [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md)  
 [Varasto](inventory-manage-inventory.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

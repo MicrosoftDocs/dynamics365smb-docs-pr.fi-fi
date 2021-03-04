@@ -110,3 +110,6 @@ Vakiokustannusympäristöissä tuotantotilauksen arvostus perustuu seuraavaan me
  [Rakennetiedot: Kokoonpanotilauksen kirjaus](design-details-assembly-order-posting.md)  
  [Varaston kustannusten hallinta](finance-manage-inventory-costs.md) [Rahoitus](finance.md)  
  [Business Centralin käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

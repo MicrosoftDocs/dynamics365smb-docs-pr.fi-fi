@@ -100,3 +100,6 @@ Linkki puitemyyntitilauksen ja alkuperäisen myyntiasiakirjan, sekä kaikkien mu
 [Puitekokoonpanotilausten luominen](assembly-how-to-create-blanket-assembly-orders.md)  
 [Myynnin määrittäminen](sales-setup-sales.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

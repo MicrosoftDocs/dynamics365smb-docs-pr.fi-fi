@@ -65,3 +65,6 @@ Kun käsittelet huoltonimikkeitä ja -tilauksia, on ehkä rekisteröitävä lis�
 ## <a name="see-also"></a>Katso myös
 [Huoltohallinnon määrittäminen](service-setup-service.md)  
 [Huoltohallinto](service-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

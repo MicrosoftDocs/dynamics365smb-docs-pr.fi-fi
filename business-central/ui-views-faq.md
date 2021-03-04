@@ -115,3 +115,6 @@ Vain symboleja, kuten `|` tai `..`, käyttäviä lausekkeita voi käyttää huol
 [Luettelonäkymien tallentaminen ja mukauttaminen](ui-views.md)  
 [Toimintojen ja tietojen etsiminen](ui-search.md)  
 [Lajitteleminen, hakeminen ja suodattaminen](ui-enter-criteria-filters.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

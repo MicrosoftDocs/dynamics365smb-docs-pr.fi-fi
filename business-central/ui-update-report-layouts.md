@@ -67,3 +67,6 @@ Kun muutat asettelua, yritä päivittää asettelu uudelleen.
 ## <a name="see-also"></a>Katso myös  
  [Raporttiasetteluiden hallinta](ui-manage-report-layouts.md)  
  [Raporttien, eräajojen ja XMLportien käsitteleminen](ui-work-report.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

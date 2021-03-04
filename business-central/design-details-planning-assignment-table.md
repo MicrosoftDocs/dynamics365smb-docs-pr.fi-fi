@@ -67,3 +67,6 @@ Tuotanto-ohjelman ja tarvelaskennan laskentaa koskevat seuraavat rajoitukset:
 [Rakennetiedot: uusintatilauskäytäntöjen käsittely](design-details-handling-reordering-policies.md)   
 [Rakennetiedot: siirrot suunnittelussa](design-details-transfers-in-planning.md)   
 [Rakennetiedot: suunnittelun parametrit](design-details-planning-parameters.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -110,3 +110,6 @@ Ohjelma ei poista huoltotilauksia automaattisesti, jos tilauksen kokonaism채채r�
 [Huoltohallinnon m채채ritt채minen](service-setup-service.md)  
 [Huoltoteht채vien k채ytt채minen](service-how-to-work-on-service-tasks.md)  
 [Resurssien kohdistaminen](service-how-to-allocate-resources.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

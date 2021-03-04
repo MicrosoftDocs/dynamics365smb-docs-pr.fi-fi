@@ -76,3 +76,6 @@ Kun olet tehnyt valinnan, syötä asianmukaiset hakutiedot yläreunan kenttiin. 
 [Business Centralin käyttäminen](ui-work-product.md)  
 [Sivutoiminnon lisääminen roolikeskukseen](ui-bookmarks.md)  
 [Nimikeseurannan nimikkeiden jäljittäminen](inventory-how-to-trace-item-tracked-items.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

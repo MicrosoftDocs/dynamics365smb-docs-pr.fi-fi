@@ -41,3 +41,6 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 [Huoltonimikkeiden ja huoltonimikkeen komponenttien määrittäminen](service-how-setup-service-items.md)  
 [Huoltotilausten ja -korjausten tilan määrittäminen](service-order-repair-status.md)  
 [Huoltohallinnon määrittäminen](service-setup-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

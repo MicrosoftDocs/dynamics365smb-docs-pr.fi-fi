@@ -88,3 +88,5 @@ Voit luoda säilytyskäytäntöjä, jotka poistavat tarpeettomia tietoja lokeist
 [Määritä käyttöoikeudet käyttäjille ja ryhmille](ui-define-granular-permissions.md)    
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Määritä säilytyskäytännöt](admin-data-retention-policies.md)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

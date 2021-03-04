@@ -144,3 +144,6 @@ Jos Azure Active Directorya ei käytetä käyttäjätietojen ja käyttöoikeuksi
 ## <a name="see-also"></a>Katso myös
 
 [Synkronoinnin tilan näyttäminen](admin-how-to-view-synchronization-status.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

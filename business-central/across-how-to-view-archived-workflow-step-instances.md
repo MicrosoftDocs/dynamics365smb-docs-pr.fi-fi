@@ -40,3 +40,6 @@ Kaikki valmiit työnkulun osavaiheen ilmentymät tallennetaan **Arkistoidut työ
  [Työnkulkujen määrittäminen](across-set-up-workflows.md)   
  [Työnkulkujen käyttäminen](across-use-workflows.md)   
  [Työnkulku](across-workflow.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -138,3 +138,6 @@ Jos omistat osan yrityksestä, voit sisällyttää kustakin tapahtumasta sen pro
 [Konsernitapahtumien hallinta](intercompany-manage.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Liiketoimintatietojen vienti Exceliin](about-export-data.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

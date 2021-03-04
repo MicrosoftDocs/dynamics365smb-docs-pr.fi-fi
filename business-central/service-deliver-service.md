@@ -46,3 +46,6 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 [Huollon suunnittelu](service-plan-service.md)  
 [Huoltosopimusten toteuttaminen](service-fulfill-service-contracts.md)  
 [Projektien hallinta](projects-manage-projects.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

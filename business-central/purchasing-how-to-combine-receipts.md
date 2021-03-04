@@ -53,3 +53,6 @@ Toista vaiheet 1–3 muissa käsiteltävissä asiakirjoissa, kuten puiteostotila
 [Osto](purchasing-manage-purchasing.md)  
 [Maksamattomien ostolaskujen korjaaminen tai peruuttaminen](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

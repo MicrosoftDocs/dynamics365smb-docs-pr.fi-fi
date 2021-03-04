@@ -24,3 +24,6 @@ Tuotantotilauksen valmistuminen on erittäin tärkeää tuotettavan nimikkeen ku
 [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)  
 [Tuotanto](production-manage-manufacturing.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

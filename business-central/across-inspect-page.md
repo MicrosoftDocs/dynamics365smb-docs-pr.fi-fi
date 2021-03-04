@@ -46,3 +46,6 @@ Käyttäjät, joilla ei ole myönnetty käyttöoikeuksia **järjestelmäkohteess
 ## <a name="see-also"></a>Katso myös
 
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

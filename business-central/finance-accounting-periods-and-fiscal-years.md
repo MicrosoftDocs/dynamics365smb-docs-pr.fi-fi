@@ -70,3 +70,6 @@ Vaikka tilikausi on suljettu, voit silti kirjata tilikaudelle KP-tapahtumia. Kun
 [Kirjojen sulkeminen](year-close-books.md)  
 [Vuosien ja jaksojen sulkeminen](year-close-years-periods.md)  
 [KP-raporttimallien käyttäminen](bi-how-work-account-schedule.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

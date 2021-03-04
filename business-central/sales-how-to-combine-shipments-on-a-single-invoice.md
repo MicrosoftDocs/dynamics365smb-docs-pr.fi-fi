@@ -62,3 +62,6 @@ Toista vaiheet 1–3 muissa käsiteltävissä asiakirjoissa, kuten puitemyyntiti
 ## <a name="see-also"></a>Katso myös  
 [Myynti](sales-manage-sales.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

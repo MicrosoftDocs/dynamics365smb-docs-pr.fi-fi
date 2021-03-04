@@ -59,3 +59,6 @@ Syynä on se, että käyttäjätiliin tällä hetkellä liitetty roolikeskus tai
 [Profiilien sivujen mukauttaminen](ui-personalization-manage.md)  
 [Perusasetusten muuttaminen](ui-change-basic-settings.md)  
 [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

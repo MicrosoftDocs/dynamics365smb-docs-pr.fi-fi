@@ -55,3 +55,6 @@ Voit tuoda ja viedä olemassa olevan mukautetun raporttiasettelun tiedostona tie
  [Raporttien mukautetun asettelun luominen ja muokkaaminen](ui-how-create-custom-report-layout.md)   
  [Raporttien ja asiakirjojen asettelujen hallinta](ui-manage-report-layouts.md)  
  [Raporttien, eräajojen ja XMLportien käsitteleminen](ui-work-report.md)    
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

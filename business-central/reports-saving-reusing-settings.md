@@ -56,3 +56,6 @@ Sivulla näkyvät kaikkien käyttäjien kaikki aiemmin tallennetut asetukset. Jo
 
 ## <a name="see-also"></a>Katso myös
 [Raporttien, eräajojen ja XMLportien käsitteleminen](ui-work-report.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

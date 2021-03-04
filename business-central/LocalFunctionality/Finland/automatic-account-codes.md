@@ -26,3 +26,6 @@ ms.locfileid: "3931342"
 [Automaattisten tilin kirjausryhmien määrittäminen](how-to-set-up-automatic-account-posting-groups.md)   
 [Kirjausryhmien määrittäminen](../../finance-posting-groups.md)  
 [Rahoitus](../../finance.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ Työnkulun käyttäjät, jotka toimivat hyväksynnän pyytäjinä ja hyväksyjin
 [Työnkulkujen käyttäminen](across-use-workflows.md)  
 [Vaihekuvaus: Ostojen hyväksyntä -työnkulun määrittäminen ja käyttäminen](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
 [Työnkulku](across-workflow.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -110,3 +110,6 @@ Seuraavat muutokset on toteutettu [!INCLUDE [navnow_md](includes/navnow_md.md)] 
 
 ## <a name="see-also"></a>Katso myös  
  [Rakennetiedot: Codeunitin 12 muutokset: Päiväkirjakirjausten menettelytapojen muutokset](design-details-codeunit-12-changes-changes-in-general-journal-post-procedures.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -31,3 +31,6 @@ Varausjärjestelmä ottaa saatavuuden laskennassa kuitenkin huomioon fyysisen va
 [Rakennetiedot: integrointi varaston kanssa](design-details-integration-with-inventory.md)  
 [Rakennetiedot: varastosaatavuus](design-details-availability-in-the-warehouse.md)  
 [Rakennetiedot: nimikkeen seurannan rakenne](design-details-item-tracking-design.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

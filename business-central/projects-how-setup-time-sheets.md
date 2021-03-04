@@ -64,3 +64,6 @@ Kun olet m채채ritt채nyt aikaraportit, voit luoda resursseille aikaraportit, m채�
 [Osto](purchasing-manage-purchasing.md)         
 [Myynti](sales-manage-sales.md)      
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman k채ytt채minen](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

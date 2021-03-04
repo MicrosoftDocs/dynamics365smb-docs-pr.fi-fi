@@ -44,3 +44,6 @@ Tämän lisätekstin voi lisätä nyt asiakirjoihin. Seuraavaksi käsitellään 
 
 [Varaston määrittäminen](inventory-setup-inventory.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

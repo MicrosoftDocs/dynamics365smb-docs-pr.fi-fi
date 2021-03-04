@@ -51,3 +51,6 @@ Jos eri valuutoissa olevia tapahtumia kohdistetaan, täytyy määrittää KP-til
 [Ostovelkojen hallinta](payables-manage-payables.md)  
 [Myyntisaamisten hallinta](receivables-manage-receivables.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

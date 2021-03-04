@@ -106,3 +106,6 @@ Jos asennat oletussynkronointimäärityksen, kaksi määritysmallia luodaan usei
 [Tietoja Dynamics 365 Business Centralin ja [!INCLUDE[prod_short](includes/cds_long_md.md)]in integroinnista](admin-prepare-dynamics-365-for-sales-for-integration.md )   
 [Business Centralin ja [!INCLUDE[prod_short](includes/cds_long_md.md)]in synkronointi](admin-synchronizing-business-central-and-sales.md)   
 [Ajoitettu synkronointi](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

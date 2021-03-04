@@ -73,3 +73,6 @@ Lisäksi jokainen Viivästyskuluehdot-taulukon ehto on linkitetty alitaulukkoon,
 [Avointen saldojen perintä](receivables-collect-outstanding-balances.md)  
 [Muistutusehtojen ja -tasojen määrittäminen](finance-setup-reminders.md)  
 [Rahoituksen määrittäminen](finance-setup-finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

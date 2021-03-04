@@ -56,3 +56,6 @@ ms.locfileid: "4755290"
 [Kirjausryhmien määrittäminen](finance-posting-groups.md)  
 [Pankkitilien täsmäytys](bank-manage-bank-accounts.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

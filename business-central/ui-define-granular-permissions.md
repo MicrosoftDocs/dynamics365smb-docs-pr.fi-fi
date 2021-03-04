@@ -263,3 +263,6 @@ Voit määrittää [!INCLUDE[prod_short](includes/prod_short.md)]in lähettämä
 [Hallinta](admin-setup-and-administration.md)  
 [Lisää käyttäjiä Microsoft 365 yrityksille](https://aka.ms/CreateOffice365Users)  
 [Turvallisuus ja suojaus Business Centralissa](/dynamics365/business-central/dev-itpro/security/security-and-protection) kohdassa Kehittäjä- ja IT-Pro -ohje
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

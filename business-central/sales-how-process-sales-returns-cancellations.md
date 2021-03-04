@@ -228,3 +228,6 @@ Voit myös poistaa manuaalisesti yksittäiset myyntipalautustilaukset.
 [Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md)  
 [Ostopalautusten tai peruutusten käsittely](purchasing-how-process-purchase-returns-cancellations.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

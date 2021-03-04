@@ -37,3 +37,6 @@ Seuraavaksi käsitellään esimerkkejä asetuksista, joita voidaan käyttää hu
 [Huollon lisäkustannusten määrittäminen](service-how-setup-service-costs-pricing.md)  
 [Vianmäärityksen määrittäminen](service-how-setup-troubleshooting.md)  
 [Huoltohallinto](service-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

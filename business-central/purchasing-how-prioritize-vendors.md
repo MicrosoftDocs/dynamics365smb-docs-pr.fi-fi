@@ -39,3 +39,6 @@ Jos et halua priorisoida toimittajaa, jätä **Prioriteetti**-kenttä tyhjäksi.
 [Ostojen määrittäminen](purchasing-setup-purchasing.md)  
 [Ostovelkojen hallinta](payables-manage-payables.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

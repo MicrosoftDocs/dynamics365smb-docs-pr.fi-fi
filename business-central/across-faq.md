@@ -147,3 +147,6 @@ Tiedostamme, että tämä voi aiheuttaa ongelmia, ja kannustamme etsimään tiet
 [Usein kysytyt kysymykset Developer- ja ITPro-käyttökokemuksista](/dynamics365/business-central/dev-itpro/faq)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

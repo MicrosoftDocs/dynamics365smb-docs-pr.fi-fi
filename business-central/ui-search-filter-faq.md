@@ -60,3 +60,6 @@ Microsoft saa jatkuvasti palautetta monipuoliselta käyttäjäyhteisöltä ja ot
 [Sivujen ja tietojen etsiminen Kerro, mitä haluat tehdä -toiminnolla](ui-search.md)  
 [Sivujen etsiminen roolienhallinnan avulla](ui-role-explorer.md)  
 [Käytön aloittaminen](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

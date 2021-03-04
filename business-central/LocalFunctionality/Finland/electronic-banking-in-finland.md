@@ -46,3 +46,6 @@ Voit lähettää toimittajille verkkopankkimaksuja viemällä kotimaan tai ulkom
  [Pankin viitetiedostojen määrittäminen](how-to-set-up-bank-reference-files.md)   
  [Maksutiedostojen luominen](how-to-generate-payment-files.md)   
  [Maksualennusten ohittaminen](how-to-disregard-payment-discounts.md)   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

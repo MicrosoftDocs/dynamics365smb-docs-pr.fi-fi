@@ -191,3 +191,6 @@ Seuraavat muutokset on toteutettu [!INCLUDE [navnow_md](includes/navnow_md.md)] 
 
 ## <a name="see-also"></a>Katso myös  
  [Rakennetiedot: Codeunitin 12 muutokset: Yleisten muuttujien linkitys yleisen päiväkirjan kirjausriviin](design-details-codeunit-12-changes-mapping-global-variables-for-general-journal-post-line.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

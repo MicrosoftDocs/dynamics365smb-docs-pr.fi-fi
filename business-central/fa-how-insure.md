@@ -119,3 +119,6 @@ Käyttöomaisuus irrotetaan virheellisestä vakuutussopimuksesta toisella rivill
 [Käyttöomaisuuden määrittäminen](fa-setup.md)  
 [Rahoitus](finance.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

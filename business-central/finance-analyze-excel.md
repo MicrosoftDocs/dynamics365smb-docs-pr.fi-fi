@@ -56,3 +56,6 @@ Saat apuohjelman ansiosta uusimmat tiedot [!INCLUDE [prod_short](includes/prod_s
 [Rahoituksen määrittäminen](finance-setup-finance.md)  
 [Pääkirjanpito ja tilikartta](finance-general-ledger.md)  
 [Business Central -sovelluksen käyttäminen](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

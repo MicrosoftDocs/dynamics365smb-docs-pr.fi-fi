@@ -130,3 +130,6 @@ Jos liiketoimintaskenaario edellyttää työnkulun tapahtumaa tai vastausta, jok
 [Hyväksymistyönkulkujen käyttäminen](across-how-use-approval-workflows.md)  
 [Työnkulku](across-workflow.md)  
 [Business Central -sovelluksen käyttäminen automaattisessa työnkulussa](across-how-use-financials-data-source-flow.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

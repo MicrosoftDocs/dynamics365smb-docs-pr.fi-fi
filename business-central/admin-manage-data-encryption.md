@@ -27,3 +27,6 @@ Lisätietoja on kehittäjän ja IT-ammattilaisen ohjeen kohdassa [Tietojen salau
 
 ## <a name="see-also"></a>Katso myös  
 [Hallinta](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

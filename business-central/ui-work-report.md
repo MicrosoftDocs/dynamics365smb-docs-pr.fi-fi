@@ -163,3 +163,6 @@ Tulostimen resursseja hallitaan luodun raportin **lisäasetukset**-kohdan kentis
 [Kalenterin päivämäärien ja aikojen käsitteleminen](ui-enter-date-ranges.md)  
 [Raporttien ja asiakirjojen asettelujen hallinta](ui-manage-report-layouts.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

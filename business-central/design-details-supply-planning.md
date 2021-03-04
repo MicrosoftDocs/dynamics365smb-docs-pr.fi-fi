@@ -31,3 +31,6 @@ Se kuvaa, miten suunnittelujärjestelmä toimii, ja kuinka algoritmeja voidaan m
 [Rakennetiedot: suunnittelun kohdistustaulukko](design-details-planning-assignment-table.md)  
 [Rakennetiedot: kysyntä tyhjä-sijainnissa](design-details-demand-at-blank-location.md)  
 [Rakennetiedot: siirrot suunnittelussa](design-details-transfers-in-planning.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

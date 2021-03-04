@@ -158,3 +158,6 @@ Kirjaa maksut sen jälkeen, kun pankki on käsitellyt ne onnistuneesti. Lisätie
 [Ostovelkojen hallinta](payables-manage-payables.md)  
 [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md)  
 [Maksujen kerääminen SEPA-suoraveloitusperintänä](finance-collect-payments-with-sepa-direct-debit.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

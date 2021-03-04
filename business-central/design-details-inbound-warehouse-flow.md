@@ -110,3 +110,6 @@ Fyysisen varastoinnin tapahtumat luodaan ja fyysisen varastoinnin hyllytysrivit 
 
 ## <a name="see-also"></a>Katso myös  
 [Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

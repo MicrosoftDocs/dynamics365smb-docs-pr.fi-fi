@@ -50,3 +50,6 @@ Käytä ei-realisoituneen arvonlisäveron tilejä seuraavasti:
 
 ## <a name="see-also"></a>Katso myös
 [Arvolisäveron määrittäminen](finance-setup-vat.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

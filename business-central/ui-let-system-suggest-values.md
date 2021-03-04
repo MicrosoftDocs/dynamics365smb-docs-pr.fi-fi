@@ -44,3 +44,6 @@ Tärkeimmät sivulla tehtävät toiminnot ovat **Maksu suoritettu** -valintaruud
 ## <a name="see-also"></a>Katso myös
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Rahoitus](finance.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

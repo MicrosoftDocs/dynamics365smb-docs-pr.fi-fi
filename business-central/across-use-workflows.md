@@ -39,3 +39,6 @@ Voit määrittää ja käyttää työnkulkuja, jotka yhdistävät eri käyttäji
 [Työnkulkujen määrittäminen](across-set-up-workflows.md)   
 [Työnkulku](across-workflow.md)   
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

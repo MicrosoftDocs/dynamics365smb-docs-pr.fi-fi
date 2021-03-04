@@ -39,3 +39,6 @@ Voit myös tallentaa poimintaluettelon asiakirjana, esimerkiksi lähettääksesi
 [Varasto](inventory-manage-inventory.md)  
 [Nimikkeiden poiminta](warehouse-pick-items.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

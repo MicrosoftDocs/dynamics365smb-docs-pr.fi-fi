@@ -63,3 +63,6 @@ Laskun pyöristystoiminto on aktivoitava, jotta voit varmistaa myynti- ja ostola
 ## <a name="see-also"></a>Katso myös  
 [Myynnin laskutus](sales-how-invoice-sales.md)  
 [Ostojen kirjaus](purchasing-how-record-purchases.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

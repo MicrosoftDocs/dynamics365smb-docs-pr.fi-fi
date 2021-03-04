@@ -51,3 +51,6 @@ Tässä aiheessa määritellään kustannuslaskennan keskeiset termit.
  [Tietoja kustannuslaskennasta](finance-about-cost-accounting.md)   
  [Kustannuslaskenta](finance-manage-cost-accounting.md)  
  [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

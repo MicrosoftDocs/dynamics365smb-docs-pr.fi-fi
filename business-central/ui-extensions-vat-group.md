@@ -115,3 +115,6 @@ Kun alv-ryhmän edustajan ALV-ilmoitus on lähetetty viranomaisille koko ryhmän
 ## <a name="see-also"></a>Katso myös
 [Myynnin ja ostojen ALV:n käsitteleminen](finance-work-with-vat.md)  
 [Määritä arvolisävero](finance-setup-vat.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

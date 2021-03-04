@@ -100,3 +100,6 @@ Oletusarvon mukaan esimerkiksi CURRENCY-työjonotapahtuma, joka synkronoi valuut
 [Taulukon yhdistämismääritysten manuaalinen synkronointi](admin-manual-synchronization-of-table-mappings.md)  
 [Business Centralin ja [!INCLUDE[cds_long_md](includes/cds_long_md.md)]in synkronoinnin ajoittaminen](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)  
 [Tietoja Dynamics 365 Business Centralin ja [!INCLUDE[cds_long_md](includes/cds_long_md.md)]in integroinnista](admin-prepare-dynamics-365-for-sales-for-integration.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

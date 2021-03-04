@@ -68,3 +68,6 @@ Lisätietoja näytettävän asettelun vaihtamisesta on kohdassa [Nykyisen raport
 [Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md)  
 [Raporttien, eräajojen ja XMLportien käsitteleminen](ui-work-report.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

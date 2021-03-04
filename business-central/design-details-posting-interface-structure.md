@@ -28,3 +28,5 @@ ms.locfileid: "4751253"
   
 ## <a name="see-also"></a>Katso myös  
 [Rakenteen tiedot: Kirjausohjelman rakenne](design-details-posting-engine-structure.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

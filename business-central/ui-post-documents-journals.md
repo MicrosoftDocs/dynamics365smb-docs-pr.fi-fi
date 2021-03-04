@@ -38,3 +38,6 @@ Seuraavassa taulukossa esitellään liittyvät tehtävät ja linkit tehtäviä k
 [Kirjattujen asiakirjojen muokkaaminen](across-edit-posted-document.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

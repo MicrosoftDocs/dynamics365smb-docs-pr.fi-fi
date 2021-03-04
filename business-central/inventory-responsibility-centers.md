@@ -63,3 +63,6 @@ Määritä tämä määrittämällä vastuupaikat käyttäjille kolmella toimint
 [Varastoinninhallinta](warehouse-manage-warehouse.md)  
 [Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

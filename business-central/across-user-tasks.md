@@ -48,3 +48,6 @@ Jos haluat poistaa kaikki tai osan käyttäjätehtävistä joukkotoiminnon avull
 
 [Sivun tai raportin etsiminen](ui-search.md)  
 [Kirjanpitäjän käyttökokemukset [!INCLUDE[prod_short](includes/prod_short.md)]issa](finance-accounting.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

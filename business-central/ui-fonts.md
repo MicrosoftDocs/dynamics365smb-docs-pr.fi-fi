@@ -52,3 +52,6 @@ Lisätietoja on kohdassa [Sekin asettelun valitseminen](finance-how-define-check
 [Raporttiasetteluiden hallinta](ui-manage-report-layouts.md)  
 [Sekin asettelun valitseminen](finance-how-define-check-layouts.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

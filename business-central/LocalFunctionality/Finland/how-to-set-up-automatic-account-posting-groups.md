@@ -26,3 +26,6 @@ ms.locfileid: "3931264"
 [Automaattiset tilikoodit](automatic-account-codes.md)  
 [Kirjausryhmien määrittäminen](../../finance-posting-groups.md)  
 [Rahoitus](../../finance.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

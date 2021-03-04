@@ -44,3 +44,6 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 ## <a name="see-also"></a>Katso myös .
 [Huoltohallinto](service-service.md)  
 [Käytön aloittaminen](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

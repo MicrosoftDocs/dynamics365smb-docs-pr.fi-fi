@@ -82,3 +82,6 @@ Lisätietoja on kohdassa [Käyttäjän käyttöoikeuksien yleiskatsauksen hankki
 [Rahoitus](finance.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

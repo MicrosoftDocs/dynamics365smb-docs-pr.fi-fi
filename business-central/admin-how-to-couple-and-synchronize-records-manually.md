@@ -59,3 +59,6 @@ Voit irrottaa yhden tai useamman tietueen luettelosivuilta tai **Yhdistettyjen t
 
 ## <a name="see-also"></a>Katso myös  
 [Dynamics 365 Salesin käyttäminen Business Centralissa](marketing-integrate-dynamicscrm.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

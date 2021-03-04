@@ -31,3 +31,6 @@ Lisätietoja on kohdassa [Palkkatapahtumien tuominen](finance-how-import-payroll
 [[!INCLUDE[prod_short](includes/prod_short.md)]in mukauttaminen laajennusten avulla](ui-extensions.md)    
 [Rahoitus](finance.md)    
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

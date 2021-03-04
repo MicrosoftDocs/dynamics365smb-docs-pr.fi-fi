@@ -62,3 +62,6 @@ Jos yhteyshenkilö on niin nuori, ettei hän voi antaa laillista suostumusta alu
 [Liiketoimintatietojen vieminen Exceliin](about-export-data.md)  
 [Muutosten kirjaaminen lokiin](across-log-changes.md)  
 [Tietojen kohteiden pyynnöt – GDPR](/microsoft-365/compliance/gdpr-data-subject-requests)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

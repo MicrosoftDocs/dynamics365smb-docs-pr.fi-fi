@@ -234,3 +234,6 @@ Kun kirjaat dimensioita sisältäviä asiakirja- ja päiväkirjarivejä, erilais
 [Rahoitus](finance.md)  
 [Tietojen analysointi dimensioiden mukaan](bi-how-analyze-data-dimension.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

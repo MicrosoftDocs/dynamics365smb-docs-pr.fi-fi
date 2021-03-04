@@ -48,3 +48,5 @@ Varastoinninhallinta- ja Varasto-sovellusalue ovat yhteydessä toistensa kanssa 
 ## <a name="see-also"></a>Katso myös  
  [Rakennetiedot: f. varaston hallinta](design-details-warehouse-management.md)   
  [Rakennetiedot: saatavuus varastossa](design-details-availability-in-the-warehouse.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

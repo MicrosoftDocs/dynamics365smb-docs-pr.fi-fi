@@ -35,3 +35,6 @@ Ajoittain on tarpeen toimittaa asiakkaan käyttöön lainatavara, kunnes huoltoh
 [Huoltohallinnon määrittäminen](service-setup-service.md)  
 [Huollon toimittaminen](service-deliver-service.md)  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

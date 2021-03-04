@@ -70,3 +70,6 @@ Tarkista pääkirjanpidon tilien alkusaldot. QuickBooks ei tallenna kaikkien til
 
 [Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

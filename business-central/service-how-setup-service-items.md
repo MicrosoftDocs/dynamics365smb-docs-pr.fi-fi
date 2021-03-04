@@ -63,3 +63,6 @@ Voit määrittää huoltohyllyjä, jotka ilmaisevat, mihin huoltonimikkeet varas
 ## <a name="see-also"></a>Katso myös
 [Vakiohuoltokoodien määrittäminen](service-how-setup-service-coding.md)   
 [Vianmäärityksen määrittäminen](service-how-setup-troubleshooting.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

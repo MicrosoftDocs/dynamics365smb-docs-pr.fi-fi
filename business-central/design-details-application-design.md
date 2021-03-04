@@ -40,3 +40,6 @@ Tässä sisällössä on yksityiskohtaisia teknisiä tietoja [!INCLUDE[prod_shor
  [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
 
  ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

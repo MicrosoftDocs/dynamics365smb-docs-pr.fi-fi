@@ -82,3 +82,6 @@ Apuohjelmat on suunniteltu Microsoft 365:n kanssa käytettäväksi. Jos käytät
 [Osto](purchasing-manage-purchasing.md)  
 [Outlookin vähimmäisvaatimukset](product-requirements.md#outlook)  
 [Apuohjelmien käyttäminen Outlookin verkkoversiossa](https://support.office.com/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

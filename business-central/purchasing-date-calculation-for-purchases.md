@@ -60,3 +60,6 @@ Toimittajan kortin toimitusajan arvoa käytetään kuitenkin vain, jos toimitusa
 [Myynnin päivämäärälaskenta](sales-date-calculation-for-sales.md)   
 [Toimituksen lupaamisen päivämäärien laskeminen](sales-how-to-calculate-order-promising-dates.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -89,3 +89,6 @@ Tarkista, että raportin kooksi on määritetty 325 x 310 kuvapistettä. Tallenn
 [Käytön aloittaminen](product-get-started.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)]in määrittäminen](setup.md)  
 [Rahoitus](finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

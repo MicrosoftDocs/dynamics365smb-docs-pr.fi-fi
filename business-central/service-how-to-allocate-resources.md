@@ -143,3 +143,6 @@ Voit peruuttaa huoltotehtävien resurssien kohdistukset ilman, että tehtävät 
 ## <a name="see-also"></a>Katso myös
 [Resurssien kohdistamisen määrittäminen](service-how-setup-resource-allocation.md)  
 [Kohdistuksen tila ja korjauksen tila](service-allocation-status-and-repair-status.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -158,3 +158,6 @@ Valitun asiakkaan mallin oletusarvot lisätään asiakaskorttiin.
 [Yrityksen määrittäminen RapidStart Servicesin avulla](admin-set-up-a-company-with-rapidstart.md)  
 [Hallinta](admin-setup-and-administration.md)  
 [Uusien asiakkaiden rekisteröinti](sales-how-register-new-customers.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

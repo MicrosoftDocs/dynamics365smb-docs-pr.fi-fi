@@ -71,3 +71,6 @@ Järjestelmänvalvojilla on mahdollisuus määrittää tai muuttaa näitä käyt
 [Käytön aloittaminen](product-get-started.md)  
 [Maa- ja aluekohtainen saatavuus ja tuetut kielet](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 [Kielen ja kielialueen muuttaminen](about-locale-language.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

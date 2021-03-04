@@ -58,3 +58,6 @@ Seuraavassa ohjeessa käytetään esimerkkinä kirjattua huoltolaskua, mutta sam
 ## <a name="see-also"></a>Katso myös  
 [Huoltotilausten kirjaaminen](service-how-to-post-service-orders.md)   
 [Huoltotilausten luominen](service-how-to-create-service-orders.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

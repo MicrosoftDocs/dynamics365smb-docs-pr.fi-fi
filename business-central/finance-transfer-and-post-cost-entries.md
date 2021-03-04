@@ -101,3 +101,6 @@ Kun pääkirjanpidon tapahtumia siirretään kustannustapahtumiin, [!INCLUDE[pro
  [Kustannuslaskennan määrittäminen](finance-set-up-cost-accounting.md)   
  [Kustannusten määrittäminen ja kohdistaminen](finance-define-and-allocate-costs.md)   
  [Kustannuslaskenta](finance-manage-cost-accounting.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

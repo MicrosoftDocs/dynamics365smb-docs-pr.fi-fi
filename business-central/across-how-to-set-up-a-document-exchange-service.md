@@ -43,3 +43,6 @@ Ulkoista palveluntarjoajaa käytetään sähköisten asiakirjojen vaihtamiseen l
 ## <a name="see-also"></a>Katso myös  
 [Tiedonsiirron määrittäminen](across-set-up-data-exchange.md)  
 [Sähköinen tiedonsiirto](across-data-exchange.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

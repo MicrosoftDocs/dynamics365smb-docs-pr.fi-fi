@@ -90,3 +90,6 @@ Ken on nyt valmis määrittämään sarakeasettelun KP-raporttimallin nimeen.
  [KP-raporttimallien käyttäminen](bi-how-work-account-schedule.md)   
  [Liiketoimintaprosessien vaihekuvaukset](walkthrough-business-process-walkthroughs.md)  
  [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -73,3 +73,6 @@ Seuraava video esittelee joitakin keskeisiä taloudenhallinnan valmiuksia. <br><
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

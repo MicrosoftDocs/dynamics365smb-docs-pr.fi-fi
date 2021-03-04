@@ -52,3 +52,6 @@ Toista nämä vaiheet jokaisen luotavan korjauksen tilan osalta.
 
 [Huoltotilauksen tila ja korjauksen tila](service-service-order-status-and-repair-status.md)  
 [Huoltohallinnon määrittäminen](service-setup-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

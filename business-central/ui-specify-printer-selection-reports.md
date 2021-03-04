@@ -91,3 +91,6 @@ Sinä tai järjestelmänvalvoja voitte käyttää myös **Tulostinvalinnat**-siv
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Eräajojen ajaminen](ui-how-run-batch-jobs.md)  
 [Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

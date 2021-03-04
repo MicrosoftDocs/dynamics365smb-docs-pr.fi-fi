@@ -49,3 +49,6 @@ Yleiskuvaus Dynamics 365:n tukemista markkinoista on kohdassa [Microsoft Dynamic
 [Paikalliset toiminnot](about-localization.md)  
 [Saatavuus maassa/alueella ja tuetut käännökset](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
 [Microsoft Dynamics 365:n kansainvälinen saatavuus](/dynamics365/get-started/availability)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

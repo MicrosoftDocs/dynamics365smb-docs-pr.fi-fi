@@ -50,3 +50,6 @@ Kun sivulla olevien näkymien määrä kasvaa, näkymien näkymistä suodatinruu
 [[!INCLUDE[prod_short](includes/prod_short.md)]in käyttäminen](ui-work-product.md)    
 [Perusasetusten muuttaminen](ui-change-basic-settings.md)  
 [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -121,3 +121,6 @@ Kun tehdään virheellinen kohdistus, ohjelma luo ja kirjaa korjaavat tapahtumat
 [Ostovelat](payables-manage-payables.md)  
 [Osto](purchasing-manage-purchasing.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

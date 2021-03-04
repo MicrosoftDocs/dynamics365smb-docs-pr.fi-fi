@@ -87,3 +87,6 @@ Jos mahdollisuus seuraa myyntisykliä, voit siirtää sitä vaiheittain eteen- t
 [Myynti](sales-manage-sales.md)  
 [Kontaktien luonti ja hallinta](marketing-contacts.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

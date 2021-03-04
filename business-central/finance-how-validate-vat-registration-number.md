@@ -49,3 +49,6 @@ ALV-tietojen vaihtojärjestelmästä (VIES-palvelusta) on hyvä muistaa pari asi
 [ALV:n raportointi veroviranomaisille](finance-how-report-vat.md)  
 [Myynnin ja ostojen ALV:n käsitteleminen](finance-work-with-vat.md)  
 [Business Centralin paikalliset toiminnot](about-localization.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

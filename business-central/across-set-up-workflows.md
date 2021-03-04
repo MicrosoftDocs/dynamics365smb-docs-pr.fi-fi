@@ -53,3 +53,6 @@ Tässä videossa kerrotaan, miten määritetään työnkulku, joka edellyttää 
  [Työnkulku](across-workflow.md)   
  [Vaihekuvaus: Ostojen hyväksyntä -työnkulun määrittäminen ja käyttäminen](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
  [Business Central -sovelluksen käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

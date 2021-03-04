@@ -42,3 +42,6 @@ Jos olet järjestelmänvalvoja tai pääkäyttäjä, voit auttaa muita käyttäj
 [Kopioimisen ja liittämisen usein kysytyt kysymykset](faq-copy-paste.yml)  
 [Perusasetusten muuttaminen](ui-change-basic-settings.md)  
 [Käytön aloittaminen](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

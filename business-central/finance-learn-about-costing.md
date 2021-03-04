@@ -41,3 +41,6 @@ Varastokustannusten hallinta käsittelee liiketoiminnan toimintokustannusten tal
 ## <a name="see-also"></a>Katso myös
 [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)    
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

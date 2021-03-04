@@ -59,3 +59,6 @@ Työnkulun ilmoitusten osatekijöitä määritetään seuraavissa paikoissa:
 [Sähköpostin määrittäminen](admin-how-setup-email.md)  
 [Vaihekuvaus: Ostojen hyväksyntä -työnkulun määrittäminen ja käyttäminen](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
 [Työnkulku](across-workflow.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

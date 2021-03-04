@@ -157,3 +157,6 @@ Järjestelmänvalvoja luo, muokkaa ja poistaa käyttäjiä paikallisesti käytt�
 [Hallinta](admin-setup-and-administration.md)  
 [Lisää käyttäjiä Microsoft 365 yrityksille](https://aka.ms/CreateOffice365Users)  
 [Business Centralin tietoturva ja suojaus (hallinnon sisältö)](/dynamics365/business-central/dev-itpro/security/security-and-protection)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

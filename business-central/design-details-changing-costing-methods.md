@@ -182,3 +182,6 @@ Suositukset:
 
 [Rakennetiedot: Arvostusmenetelmät](design-details-costing-methods.md)  
 [Yleiskuvaus](design-details-inventory-costing.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

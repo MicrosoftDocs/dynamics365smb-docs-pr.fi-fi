@@ -69,3 +69,6 @@ Kun varastokausi on suljettu kerran, et voi poistaa sitä. Voit kuitenkin avata 
 [Rahoitus](finance.md)  
 [Varasto](inventory-manage-inventory.md)  
 [Financialsin käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

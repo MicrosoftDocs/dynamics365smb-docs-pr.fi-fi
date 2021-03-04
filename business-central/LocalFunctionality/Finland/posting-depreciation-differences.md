@@ -30,3 +30,6 @@ Jos käytössä on kaksi poistotapaa, Suomen verolainsäädäntö vaatii, että 
 ## <a name="see-also"></a>Katso myös  
 [Suomen paikalliset toiminnot](finland-local-functionality.md)  
 [Käyttöomaisuus](../../fa-manage.md)   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

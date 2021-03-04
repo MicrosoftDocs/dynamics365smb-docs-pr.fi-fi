@@ -72,3 +72,6 @@ Jos olet kirjannut asiakkaalle tapahtuman, et voi poistaa korttia, koska nimiket
 [Myynti](sales-manage-sales.md)  
 [Myynnin määrittäminen](sales-setup-sales.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -295,3 +295,6 @@ Seuraavassa on muutamia esimerkkejä:
 ## <a name="see-also"></a>Katso myös  
  [Luetteloiden lajitteleminen ja suodattaminen sekä luetteloista hakeminen](ui-enter-criteria-filters.md)  
  [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

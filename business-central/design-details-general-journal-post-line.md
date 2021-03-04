@@ -29,3 +29,6 @@ Tässä dokumentaatiossa on yksityiskohtaisia teknisiä tietoja [!INCLUDE[prod_s
 
 ## <a name="see-also"></a>Katso myös  
 [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

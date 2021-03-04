@@ -31,3 +31,6 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 | Määritä järjestelmä tallentamaan vuorovaikutukset. |[Kontaktien määrittäminen](marketing-setup-contacts.md) |
 |Luo vuorovaikutuksia tallentamaan kaikki vuorovaikutukset ja kaiken yhteydenpidon, kuten sähköpostit, joita sinulla on kontaktien ja segmenttien kanssa.|[Vuorovaikutusten luominen kontakteille ja segmenteille](marketing-how-create-interactions.md)|
 |Määritä järjestelmä tallentamaan automaattisesti myynti-, osto- ja huoltoasiakirjojen vuorovaikutukset esimerkiksi asiakirjaa luotaessa, kirjattaessa tai tulostettaessa.|[Kontaktien kanssa tapahtuvien vuorovaikutusten tallentaminen automaattisesti](marketing-auto-record-interactions.md)|
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

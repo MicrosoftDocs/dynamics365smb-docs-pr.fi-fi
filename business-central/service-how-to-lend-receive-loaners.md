@@ -46,3 +46,6 @@ Kun asiakkaalta vastaanotetaan lainatavara, vastaanotto tulee rekisteröidä. T�
   
 ## <a name="see-also"></a>Katso myös  
 [Lainatavaraohjelman määrittäminen](service-how-setup-loaner-program.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -39,3 +39,6 @@ Seuraavassa kerrotaan, miten kommentti lisätään nimikkeen korttiin. Vaiheet o
 ## <a name="see-also"></a>Katso myös
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

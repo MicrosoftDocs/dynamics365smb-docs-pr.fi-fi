@@ -38,3 +38,6 @@ Jos yrityksessäsi työskentelee useita ostajia, ne voidaan määrittää sivull
 [Ostojen määrittäminen](purchasing-setup-purchasing.md)  
 [Ostovelkojen hallinta](payables-manage-payables.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

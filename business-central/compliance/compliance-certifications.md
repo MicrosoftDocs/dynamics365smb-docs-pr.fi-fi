@@ -46,3 +46,6 @@ Business Central on lisäksi saanut pilvipalveluna esimerkiksi ISO 27001 -standa
 [Palvelun yhteensopivuus](compliance-service-compliance.md)  
 
 ## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

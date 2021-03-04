@@ -37,3 +37,6 @@ Jos käsittelyn aikana on tuotettu hukkatavaraa, se voidaan kirjata myös tuotos
 [Varasto](inventory-manage-inventory.md)  
 [Osto](purchasing-manage-purchasing.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Seuraavassa kuvataan, miten rajoittaa ostotilausten kirjaamisen ennen kuin ne on
 ## <a name="see-also"></a>Katso myös  
 [Työnkulkujen luominen](across-how-to-create-workflows.md)   
 [Työnkulku](across-workflow.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

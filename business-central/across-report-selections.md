@@ -68,3 +68,6 @@ Esimerkiksi **Raporttivalinta – Myynti** ja **Raporttivalinta – Osto** -sivu
 [Raporttien ja asiakirjojen asettelujen hallinta](ui-manage-report-layouts.md)  
 [Asiakirja-asettelujen määrittäminen asiakkaille ja toimittajille](ui-define-customer-vendor-document-layouts.md)  
 [Tulostimien määrittäminen](ui-specify-printer-selection-reports.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

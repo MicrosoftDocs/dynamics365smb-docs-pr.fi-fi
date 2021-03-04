@@ -107,3 +107,6 @@ Huoltonimikkeen korjauksen jälkeen nimikkeelle voi rekisteröidä sekä vikakoo
 [Vian raportoinnin määrittäminen](service-how-setup-fault-reporting.md)
 [Kohdistuksen tila ja korjauksen tila](service-allocation-status-and-repair-status.md)  
 [Huollon kirjaus](service-service-posting.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

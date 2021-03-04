@@ -33,3 +33,6 @@ Valmiit tapahtumat voidaan lähettää tiedostona Intrastat-viranomaisille tai v
 
 ## <a name="see-also"></a>Katso myös  
  [Intrastat-raportoinnin määrittäminen](../../finance-how-setup-report-intrastat.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

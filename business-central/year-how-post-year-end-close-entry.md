@@ -36,3 +36,6 @@ Kun olet luonut vuositilinpäätöstapahtuman tai -tapahtumat **Sulje tuloslaske
 [Kirjojen sulkeminen](year-close-books.md)  
 [Sulje tuloslaskelma](year-close-income-statement.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

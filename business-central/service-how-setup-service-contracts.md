@@ -56,3 +56,5 @@ Seuraavat on määritettävä, ennen kuin sopimuksia voi käyttää:
 
 ## <a name="see-also"></a>Katso myös
 [Huoltohallinnon määrittäminen](service-setup-service.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

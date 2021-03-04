@@ -72,3 +72,6 @@ Seuraavassa taulukossa on luettelo kentistä [!INCLUDE[prod_short](includes/prod
 [Tietojen vaihtaminen sähköisesti](across-data-exchange.md)
 [AMC Banking 365 Fundamentals -laajennuksen käyttäminen](ui-extensions-amc-banking.md)   
 [Maksujen suorittaminen AMC Banking 365 Fundamentals -laajennuksen tai SEPA-tilisiirron avulla](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

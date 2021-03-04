@@ -34,3 +34,6 @@ Kun olet asentanut laajennuksen [!INCLUDE [prod_short](includes/prod_short.md)]i
 [Työnhallinta useiden yritysten välillä yrityksen keskittimessä](company-hub.md)  
 [Kirjanpitäjän käyttökokemukset Business Central -sovelluksessa](finance-accounting.md)  
 [Rahoitus](finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

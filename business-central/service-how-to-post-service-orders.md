@@ -132,3 +132,6 @@ Seuraavassa ohjeessa neuvotaan, miten toimitus kirjataan suoraan huoltotilaukses
 ## <a name="see-also"></a>Katso myös  
 [Kirjaaminen huoltohallinnassa](service-service-posting.md)  
 [Huoltotilauksen luominen](service-how-to-create-service-orders.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

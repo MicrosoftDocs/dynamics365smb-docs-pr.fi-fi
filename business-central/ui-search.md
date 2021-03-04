@@ -68,3 +68,6 @@ Eri sidosryhmät ovat tutustuneet Kerro, mitä haluat tehdä -toimintoon ja esit
 ## <a name="see-also"></a>Katso myös
 [Business Centralin käyttäminen](ui-work-product.md)  
 [Sivutoiminnon lisääminen roolikeskukseen](ui-bookmarks.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

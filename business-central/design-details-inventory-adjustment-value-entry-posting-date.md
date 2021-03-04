@@ -365,3 +365,6 @@ Toinen arvotapahtuma (381) edustaa laskua.
 ## <a name="see-also"></a>Katso myös  
 [Rakennetiedot: Varaston arvostus](design-details-inventory-costing.md)  
 [Rakennetiedot: Nimikkeen kohdistus](design-details-item-application.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

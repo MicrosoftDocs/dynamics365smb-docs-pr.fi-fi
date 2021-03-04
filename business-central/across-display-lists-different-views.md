@@ -30,3 +30,6 @@ Voit tuoda nimikekuvia joko yksitellen tai useita nimikkeitä samanaikaisesti. L
 ## <a name="see-also"></a>Katso myös
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

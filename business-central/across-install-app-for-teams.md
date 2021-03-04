@@ -65,3 +65,6 @@ Olet nyt valmis käyttämään sovellusta Teamsissa jakaaksesi Business Centrali
 [Teamsin integroinnin kehittäminen](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

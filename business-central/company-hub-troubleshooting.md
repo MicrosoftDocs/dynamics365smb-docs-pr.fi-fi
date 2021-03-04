@@ -50,3 +50,6 @@ Jos olet lisännyt yrityksen, mutta se ei näy luettelossa, voit päivittää lu
 [Työnhallinta useiden yritysten välillä yrityksen keskittimessä](company-hub.md)  
 [Yritysten lisääminen yrityksen keskittimeen](company-hub-add-company.md)  
 [Kirjanpitäjän käyttökokemukset Business Centralissa](finance-accounting.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

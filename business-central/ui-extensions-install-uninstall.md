@@ -92,3 +92,6 @@ Osa laajennuksista on pakollisia. Niiden asennuksen poistaminen **Laajennusten h
 [Käytön aloittaminen](product-get-started.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

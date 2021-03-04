@@ -47,3 +47,6 @@ Vian raportointia määritettäessä voidaan myös liittää korjauksia ja ratka
 ## <a name="see-also"></a>Katso myös
 [Huoltohallinnon määrittäminen](service-setup-service.md)  
 [Huoltohallinto](service-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

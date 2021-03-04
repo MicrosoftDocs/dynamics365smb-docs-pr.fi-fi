@@ -73,3 +73,6 @@ Useimmat raportit ja tilastot perustuvat kirjattuihin kustannustapahtumiin. Voit
  [Rahoitus](finance.md)   
  [Termit kustannuslaskennassa](finance-terminology-in-cost-accounting.md)  
  [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

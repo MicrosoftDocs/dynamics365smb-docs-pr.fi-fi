@@ -35,3 +35,6 @@ Uuden liiketoimintaohjelmiston toimivuuden vuoksi on tärkeää, että annettava
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

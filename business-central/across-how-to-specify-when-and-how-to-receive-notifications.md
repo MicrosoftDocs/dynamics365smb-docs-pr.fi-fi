@@ -66,3 +66,6 @@ Kun määrität käyttäjiä hyväksynnän työnkulkuihin, **Ilmoituksen asetuks
  [Työnkulkuilmoitusten määrittäminen](across-setting-up-workflow-notifications.md)   
  [Työnkulkujen määrittäminen](across-set-up-workflows.md)   
  [Työnkulkujen käyttäminen](across-use-workflows.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -58,3 +58,6 @@ Asiakkaiden nimikkeitä, joita huolletaan (esimerkiksi tulostin), sanotaan huolt
 [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)  
 [Vaihto-omaisuus](inventory-manage-inventory.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

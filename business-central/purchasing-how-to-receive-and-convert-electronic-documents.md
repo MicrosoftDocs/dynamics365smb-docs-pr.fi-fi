@@ -65,3 +65,6 @@ ms.locfileid: "4748666"
 [Sähköisten asiakirjojen vastaanottamisen ja lähettämisen määrittäminen](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
 [Sähköinen tiedonsiirto](across-data-exchange.md)   
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

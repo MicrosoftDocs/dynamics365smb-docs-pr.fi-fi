@@ -70,3 +70,6 @@ Voit luoda yhden ostolaskun yhdelle tai usealle myyntiasiakirjan riville valitse
 [Myynnin laskutus](sales-how-invoice-sales.md)  
 [Uusien toimittajien rekisteröiminen](purchasing-how-register-new-vendors.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

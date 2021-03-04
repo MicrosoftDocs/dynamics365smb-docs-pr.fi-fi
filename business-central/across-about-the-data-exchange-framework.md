@@ -66,3 +66,6 @@ Voit valmistella kaikille XML-tiedostojen tiedonsiirroille tiedonsiirtoasetukset
 [Tiedonsiirron määrittäminen](across-set-up-data-exchange.md)  
 [Saapuvat asiakirjat](across-income-documents.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

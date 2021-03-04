@@ -143,3 +143,6 @@ Tässä aiheessa kuvataan esimerkki siitä, kuinka kohdistuksia määritetään 
  [Kustannuslaskenta](finance-manage-cost-accounting.md)   
  [Termit kustannuslaskennassa](finance-terminology-in-cost-accounting.md)   
  [Tietoja kustannuslaskennasta](finance-about-cost-accounting.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

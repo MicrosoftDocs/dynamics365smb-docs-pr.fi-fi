@@ -145,3 +145,6 @@ Voit poistaa myös profiilin yksittäisiä sivun mukautukset. Lisätietoja on ko
 [Määritä käyttöoikeudet käyttäjille ja ryhmille](ui-define-granular-permissions.md)  
 [Profiilien sivujen mukauttaminen](ui-personalization-manage.md)  
 [Työtilan mukauttaminen](ui-personalization-user.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
