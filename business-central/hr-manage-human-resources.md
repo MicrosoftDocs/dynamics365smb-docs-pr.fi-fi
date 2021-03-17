@@ -5,35 +5,38 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e3339e5e08f8dc67dfcee469b89604c9c229e478
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 6bd2e67bf1c8db5e80dfa427d2e92c1c0ceb0ce2
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4746464"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393197"
 ---
-# <a name="manage-human-resources"></a><span data-ttu-id="2a2aa-103">Henkilöstöresurssien hallinta</span><span class="sxs-lookup"><span data-stu-id="2a2aa-103">Manage Human Resources</span></span>
-<span data-ttu-id="2a2aa-104">Voit luoda tarkat työntekijätietueet [!INCLUDE[prod_short](includes/prod_short.md)]issa.</span><span class="sxs-lookup"><span data-stu-id="2a2aa-104">In [!INCLUDE[prod_short](includes/prod_short.md)], you can keep detailed records of your employees.</span></span> <span data-ttu-id="2a2aa-105">Voit rekisteröidä ja ylläpitää työntekijöiden tietoja, kuten työsopimuksia, luottamuksellisia tietoja, pätevyystietoja ja työntekijäkontakteja.</span><span class="sxs-lookup"><span data-stu-id="2a2aa-105">You can register and maintain employee information, such as employment contracts, confidential information, qualifications, and employee contacts.</span></span>
+# <a name="manage-human-resources"></a><span data-ttu-id="8477c-103">Henkilöstöresurssien hallinta</span><span class="sxs-lookup"><span data-stu-id="8477c-103">Manage Human Resources</span></span>
+<span data-ttu-id="8477c-104">Voit luoda tarkat työntekijätietueet [!INCLUDE[prod_short](includes/prod_short.md)]issa.</span><span class="sxs-lookup"><span data-stu-id="8477c-104">In [!INCLUDE[prod_short](includes/prod_short.md)], you can keep detailed records of your employees.</span></span> <span data-ttu-id="8477c-105">Voit rekisteröidä ja ylläpitää työntekijöiden tietoja, kuten työsopimuksia, luottamuksellisia tietoja, pätevyystietoja ja työntekijäkontakteja.</span><span class="sxs-lookup"><span data-stu-id="8477c-105">You can register and maintain employee information, such as employment contracts, confidential information, qualifications, and employee contacts.</span></span>
 
-<span data-ttu-id="2a2aa-106">Voit myös rekisteröidä työntekijöiden poissaolot. Rekisteröityjä poissaoloja voi analysoida tarvittaessa.</span><span class="sxs-lookup"><span data-stu-id="2a2aa-106">You can also register employee absences, which allows you to analyze registered absences as necessary.</span></span>
+<span data-ttu-id="8477c-106">Voit myös rekisteröidä työntekijöiden poissaolot. Rekisteröityjä poissaoloja voi analysoida tarvittaessa.</span><span class="sxs-lookup"><span data-stu-id="8477c-106">You can also register employee absences, which allows you to analyze registered absences as necessary.</span></span>
 
-<span data-ttu-id="2a2aa-107">Henkilöstöhallinnon toimintojen käyttö alkaa työntekijöiden ja muiden perustietojen määrittämisestä.</span><span class="sxs-lookup"><span data-stu-id="2a2aa-107">To start using the Human Resources functionality, you must set up employees and other basic information.</span></span> <span data-ttu-id="2a2aa-108">Työntekijöille voi liittää erilaisia koodeja, joiden avulla voi suodattaa tiettyjen työntekijöiden tietoja.</span><span class="sxs-lookup"><span data-stu-id="2a2aa-108">You can then associate various codes to an employee, which allows you to filter information for specific employees.</span></span>
+<span data-ttu-id="8477c-107">Henkilöstöhallinnon toimintojen käyttö alkaa työntekijöiden ja muiden perustietojen määrittämisestä.</span><span class="sxs-lookup"><span data-stu-id="8477c-107">To start using the Human Resources functionality, you must set up employees and other basic information.</span></span> <span data-ttu-id="8477c-108">Työntekijöille voi liittää erilaisia koodeja, joiden avulla voi suodattaa tiettyjen työntekijöiden tietoja.</span><span class="sxs-lookup"><span data-stu-id="8477c-108">You can then associate various codes to an employee, which allows you to filter information for specific employees.</span></span>
 
-<span data-ttu-id="2a2aa-109">Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisiin.</span><span class="sxs-lookup"><span data-stu-id="2a2aa-109">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span>
+<span data-ttu-id="8477c-109">Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisiin.</span><span class="sxs-lookup"><span data-stu-id="8477c-109">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span>
 
-| <span data-ttu-id="2a2aa-110">Toiminta</span><span class="sxs-lookup"><span data-stu-id="2a2aa-110">To</span></span> | <span data-ttu-id="2a2aa-111">Katso</span><span class="sxs-lookup"><span data-stu-id="2a2aa-111">See</span></span> |
+| <span data-ttu-id="8477c-110">Toiminta</span><span class="sxs-lookup"><span data-stu-id="8477c-110">To</span></span> | <span data-ttu-id="8477c-111">Katso</span><span class="sxs-lookup"><span data-stu-id="8477c-111">See</span></span> |
 | --- | --- |
-| <span data-ttu-id="2a2aa-112">Voit rekisteröidä uusia työntekijöitä tai muokata vanhoja työntekijätietueita, sekä liittää lisätietoja, kuten sopimuksia ja artikkeleita.</span><span class="sxs-lookup"><span data-stu-id="2a2aa-112">Register new employees or edit records for existing employees, and attach related information, such as contracts and articles.</span></span> |[<span data-ttu-id="2a2aa-113">Työntekijöiden rekisteröiminen</span><span class="sxs-lookup"><span data-stu-id="2a2aa-113">Register Employees</span></span>](hr-how-register-employees.md) |
-| <span data-ttu-id="2a2aa-114">Kirjaa työntekijöiden poissaoloja ja tarkastele poissaolotilastoja eri suodattimien avulla.</span><span class="sxs-lookup"><span data-stu-id="2a2aa-114">Record employees' absence and view absence statistics by various filters.</span></span> |[<span data-ttu-id="2a2aa-115">Työntekijöiden poissaolojen hallinta</span><span class="sxs-lookup"><span data-stu-id="2a2aa-115">Manage Employee Absence</span></span>](hr-how-manage-absence.md) |
+| <span data-ttu-id="8477c-112">Voit rekisteröidä uusia työntekijöitä tai muokata vanhoja työntekijätietueita, sekä liittää lisätietoja, kuten sopimuksia ja artikkeleita.</span><span class="sxs-lookup"><span data-stu-id="8477c-112">Register new employees or edit records for existing employees, and attach related information, such as contracts and articles.</span></span> |[<span data-ttu-id="8477c-113">Työntekijöiden rekisteröiminen</span><span class="sxs-lookup"><span data-stu-id="8477c-113">Register Employees</span></span>](hr-how-register-employees.md) |
+| <span data-ttu-id="8477c-114">Kirjaa työntekijöiden poissaoloja ja tarkastele poissaolotilastoja eri suodattimien avulla.</span><span class="sxs-lookup"><span data-stu-id="8477c-114">Record employees' absence and view absence statistics by various filters.</span></span> |[<span data-ttu-id="8477c-115">Työntekijöiden poissaolojen hallinta</span><span class="sxs-lookup"><span data-stu-id="8477c-115">Manage Employee Absence</span></span>](hr-how-manage-absence.md) |
 
-## <a name="see-also"></a><span data-ttu-id="2a2aa-116">Katso myös</span><span class="sxs-lookup"><span data-stu-id="2a2aa-116">See Also</span></span>
-[<span data-ttu-id="2a2aa-117">Rahoitus</span><span class="sxs-lookup"><span data-stu-id="2a2aa-117">Finance</span></span>](finance.md)  
-<span data-ttu-id="2a2aa-118">[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="2a2aa-118">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>  
-[<span data-ttu-id="2a2aa-119">Näytettävien ominaisuuksien muuttaminen</span><span class="sxs-lookup"><span data-stu-id="2a2aa-119">Change Which Features are Displayed</span></span>](ui-experiences.md)        
+## <a name="see-also"></a><span data-ttu-id="8477c-116">Katso myös</span><span class="sxs-lookup"><span data-stu-id="8477c-116">See Also</span></span>
+[<span data-ttu-id="8477c-117">Rahoitus</span><span class="sxs-lookup"><span data-stu-id="8477c-117">Finance</span></span>](finance.md)  
+<span data-ttu-id="8477c-118">[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="8477c-118">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>  
+[<span data-ttu-id="8477c-119">Näytettävien ominaisuuksien muuttaminen</span><span class="sxs-lookup"><span data-stu-id="8477c-119">Change Which Features are Displayed</span></span>](ui-experiences.md)        
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -110,6 +110,7 @@
 #### [Muistutusehtojen ja -tasojen määrittäminen](finance-setup-reminders.md)
 #### [Viivästyskuluehtojen määrittäminen](finance-setup-finance-charges.md)
 #### [Määritä arvolisävero (ALV)](finance-setup-vat.md)
+#### [Arvonlisäveron (ALV) laskemisen ja kirjaustapojen määrittäminen](finance-setup-vat.md)
 #### [Ei-realisoituneen arvonlisäveron määrittäminen kassaperusteista kirjanpitoa varten](finance-setup-unrealized-vat.md)
 #### [ALV-rekisterinumeroiden vahvistaminen](finance-how-validate-vat-registration-number.md)
 #### [Kirjausketjujen lähdekoodien ja syykoodien määrittäminen](finance-setup-trail-codes.md)
@@ -437,6 +438,7 @@
 ##### [AMC Banking 365 Fundamentals -laajennuksen kenttämääritykset](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
 ## Rahoitus
 ### [Rahoituksen yleiskatsaus](finance.md)
+### [Talousraportit](finance-reports.md)
 ### Myyntisaamisten hallinta
 #### [Myyntisaamisten yleiskatsaus](receivables-manage-receivables.md)
 #### Maksujen kohdistaminen automaattisesti ja pankkitilien täsmäyttäminen
@@ -560,8 +562,9 @@
 ### [Siirrä pankkivarat](bank-how-transfer-bank-funds.md)
 ### [Kirjanpitäjän käyttökokemukset Business Centralissa](finance-accounting.md)
 
-## Business Intelligence
-### [BI:n yleiskatsaus](bi.md)
+## Business Intelligence ja taloushallinnon raportointi
+### [Business Intelligencen ja taloushallinnon raportoinnin yleiskatsaus](bi.md)
+### [Talousraportit](finance-reports.md)
 ### [Todellisten summien analysointi budjetoituihin summiin nähden](bi-how-analyze-actual-versus-budget.md)
 ### [Talousraportoinnin valmisteleminen KP-raporttimallien ja tililuokkien avulla](bi-how-work-account-schedule.md)
 ### [KP-raporttimalleihin perustuvan KPI-verkkopalvelun määrittäminen ja julkaiseminen](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
@@ -1533,7 +1536,7 @@
 
 # Suojaus, tietosuoja, vaatimustenmukaisuus
 ## Tietosuoja ja tietoturva
-### [Tietosuojan ja tietoturvan yleiskatsaus](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
+### [Tietoturvan ja suojauksen yleiskatsaus (vain englanniksi)](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
 ## Tietosuoja
 ### [Tietosuoja (microsoft.com)](https://www.microsoft.com/en-us/trust-center/privacy)
 ## Yhteensopivuus
@@ -1541,6 +1544,7 @@
 ### [Sovelluksen yhteensopivuus](compliance/compliance-application-compliance.md)
 ### [Palvelun yhteensopivuus](compliance/compliance-service-compliance.md)
 ### [Sertifikaatit](compliance/compliance-certifications.md)
+## [Palvelun yleiskuvaus (vain englanniksi)](/dynamics365/business-central/dev-itpro/service-overview?toc=/dynamics365/business-central/toc.json)
 
 # Kehittäminen ja hallinto
 ## [Aloita kehitys- ja hallintodokumentaation käyttö](/dynamics365/business-central/dev-itpro/index?toc=/dynamics365/business-central/toc.json)

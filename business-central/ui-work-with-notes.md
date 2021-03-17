@@ -3,7 +3,7 @@ title: Tietojen lisääminen tietueisiin omaa käyttöä varten | Microsoft Docs
 description: Voit liittää muistiinpanon mihin tahansa sovelluksen tietueeseen. Jos sinulla on esimerkiksi myyntitilaukseen liittyviä lisätietoja, jotka eivät kuitenkaan sovi mihinkään myyntitilauksen kenttään, voit kirjoittaa muistion.
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -11,18 +11,18 @@ ms.search.keywords: ''
 ROBOTS: NOINDEX,NOFOLLOW
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 3fa0ed8b91d4bdae845fe4a7f20a500665856a7d
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 5a8e71aacee92b77e5da3ebdfab720723c9f6326
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756565"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392372"
 ---
-# <a name="add-and-view-notes-on-records"></a><span data-ttu-id="4ade6-104">Muistiinpanojen lisääminen tietueisiin ja niiden tarkasteleminen</span><span class="sxs-lookup"><span data-stu-id="4ade6-104">Add and View Notes on Records</span></span>
- <span data-ttu-id="4ade6-105">Voit</span><span class="sxs-lookup"><span data-stu-id="4ade6-105">You</span></span> <!--OnPrem and your colleagues --><span data-ttu-id="4ade6-106">lisätä muistiinpanoja sovelluksen tietueisiin.</span><span class="sxs-lookup"><span data-stu-id="4ade6-106">can add notes to records in the application.</span></span> <span data-ttu-id="4ade6-107">Monilla sivuilla, etenkin niillä sivuilla, joissa näkyy tietueluetteloita, kuten **Myyntitilaukset**-sivulla, on **Muistiinpanot**-toiminto tai **Muistiinpanot**-tietoruutu.</span><span class="sxs-lookup"><span data-stu-id="4ade6-107">Many pages, particularly those that display a list of records, such as the **Sales Orders** page, include the **Notes** action or the **Notes** FactBox.</span></span> <!--OnPrem Notes is where you can write notes about a record to yourself or others, and where you can view notes to you from others. For example, a note could be a general comment or processing instruction to your colleague, who can then respond to your note using their own **Notes**. Or, your colleague can add a note that gives you extra information about a sales order that is not covered by the information on the sales order. These notes and correspondences will follow the record as it is processed in the company.-->
+# <a name="add-and-view-notes-on-records"></a><span data-ttu-id="e7247-104">Muistiinpanojen lisääminen tietueisiin ja niiden tarkasteleminen</span><span class="sxs-lookup"><span data-stu-id="e7247-104">Add and View Notes on Records</span></span>
+ <span data-ttu-id="e7247-105">Voit</span><span class="sxs-lookup"><span data-stu-id="e7247-105">You</span></span> <!--OnPrem and your colleagues --><span data-ttu-id="e7247-106">lisätä muistiinpanoja sovelluksen tietueisiin.</span><span class="sxs-lookup"><span data-stu-id="e7247-106">can add notes to records in the application.</span></span> <span data-ttu-id="e7247-107">Monilla sivuilla, etenkin niillä sivuilla, joissa näkyy tietueluetteloita, kuten **Myyntitilaukset**-sivulla, on **Muistiinpanot**-toiminto tai **Muistiinpanot**-tietoruutu.</span><span class="sxs-lookup"><span data-stu-id="e7247-107">Many pages, particularly those that display a list of records, such as the **Sales Orders** page, include the **Notes** action or the **Notes** FactBox.</span></span> <!--OnPrem Notes is where you can write notes about a record to yourself or others, and where you can view notes to you from others. For example, a note could be a general comment or processing instruction to your colleague, who can then respond to your note using their own **Notes**. Or, your colleague can add a note that gives you extra information about a sales order that is not covered by the information on the sales order. These notes and correspondences will follow the record as it is processed in the company.-->
 
  > [!NOTE]  
- >  <span data-ttu-id="4ade6-108">Tämä toiminto ei ole käytettävissä tällä hetkellä.</span><span class="sxs-lookup"><span data-stu-id="4ade6-108">This feature is currently not available.</span></span>  
+ >  <span data-ttu-id="e7247-108">Tämä toiminto ei ole käytettävissä tällä hetkellä.</span><span class="sxs-lookup"><span data-stu-id="e7247-108">This feature is currently not available.</span></span>  
 
 <!--OnPrem
 > [!NOTE]  
@@ -47,5 +47,8 @@ ms.locfileid: "4756565"
      If **Notify** is selected, the note will be sent as a notification to the user's **My Notifications** on the Role Center.  -->
 <!--OnPrem
 3.  Choose the **OK** button.  -->
-## <a name="see-also"></a><span data-ttu-id="4ade6-109">Katso myös</span><span class="sxs-lookup"><span data-stu-id="4ade6-109">See Also</span></span>
-<span data-ttu-id="4ade6-110">[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="4ade6-110">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>  
+## <a name="see-also"></a><span data-ttu-id="e7247-109">Katso myös</span><span class="sxs-lookup"><span data-stu-id="e7247-109">See Also</span></span>
+<span data-ttu-id="e7247-110">[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="e7247-110">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
