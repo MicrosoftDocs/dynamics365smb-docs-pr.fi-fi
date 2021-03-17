@@ -3,15 +3,15 @@ title: Hallitse tallennustilaa poistamalla asiakirjoja tai pakkaamalla tietoja.
 description: Tietoja siitä, miten voit säilyttää historialliset tiedot pakkaamalla tapahtumia tai poistaa ne.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f0d713f57345c312ddbfe6b5462f2623b1088dfc
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: b17e4df039ef713bf5c0048d258aefd175157ba4
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753865"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493045"
 ---
 # <a name="manage-storage-by-deleting-documents-or-compressing-data"></a>Hallitse tallennustilaa poistamalla asiakirjoja tai pakkaamalla tietoja.
 
@@ -47,7 +47,13 @@ Voit pakata seuraavan tyyppisiä tietoja [!INCLUDE [prod_short](includes/prod_sh
   Tiivistyksen jälkeen **Säilytä kentän sisältö** -toiminnon avulla voit myös säilyttää seuraavien kenttien sisällön: **Asiakirjan nro, Kontaktimme**, **Globaali dimensio 1 koodi** ja **Globaali dimensio 2 koodi**.
 * Toimittajatapahtumat
 
-  Tiivistyksen jälkeen seuraavien kenttien sisältö säilytetään aina: **Kirjauspvm**, **Toimittajanro**, **Asiakirjan tyyppi**, **Valuutan koodi**, **Kirjausryhmä**, **Summa**, **Jäljellä oleva summa**, **Alkuperäinen summa (PVA)**, **Jäljellä oleva summa (PVA)**, **Summa (PVA)**, **Osto (PVA)**, **Laskualennus (PVA)**, **Annettu maksualennus (PVA)** ja **Maksualennus mahdollinen**.
+> [!NOTE]
+> Asiakkaiden, toimittajien, pankki-ja KO-alikirjanpidon pakatut tapahtumat kirjataan hieman eri tavalla kuin vakiokirjaus. Tämä vähentää tiivistyksen avulla luotujen uusien pääkirjanpidon tapahtumien määrää, ja se on erityisen tärkeää, kun pidät yllä tietoja, kuten dimensioita ja asiakirjanumeroita. Päivämäärätiivistys luo uusia tapahtumia seuraavasti:
+>* **Pääkirjanpidon tapahtumat** -sivulla uusille tapahtumille luodaan uusia tapahtuma numeroita tiivistetyistä tapahtumista. **Kuvaus**-kenttä sisältää **Tiivistetty**-päivämäärän niin, että tiivistetyt tapahtumat on helppo yksilöidä. 
+>* Kirjanpitosivuilla, kuten **Asiakastapahtumat**-sivulla, luodaan yksi tai useampia tapahtumia uusien tapahtumanumeroiden avulla. 
+> Kirjausprosessi luo numerosarjojen aukkoja **Pääkirjanpidon tapahtumat** -sivulla oleville tapahtumille. Nämä numerot on määritelty vain kirjanpitosivujen tapahtumille. Tapahtumiin liitetty numeroalue on saatavilla **KP-rekisteri**-sivun **Tapahtumasta nro**- ja **Tapahtumaan nro** -kentistä. 
+
+Tiivistyksen jälkeen seuraavien kenttien sisältö säilytetään aina: **Kirjauspvm**, **Toimittajanro**, **Asiakirjan tyyppi**, **Valuutan koodi**, **Kirjausryhmä**, **Summa**, **Jäljellä oleva summa**, **Alkuperäinen summa (PVA)**, **Jäljellä oleva summa (PVA)**, **Summa (PVA)**, **Osto (PVA)**, **Laskualennus (PVA)**, **Annettu maksualennus (PVA)** ja **Maksualennus mahdollinen**.
 
   **Säilytä kentän sisältö** -ominaisuuden avulla voidaan säilyttää myös seuraavien lisäkenttien sisältö: **Asiakirjan nro**, **Tavarantoimittajan nro**, **Ostokoodi**, **Globaali dimensio 1 koodi** ja **Globaali dimensio 2 koodi**.
 

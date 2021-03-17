@@ -3,23 +3,23 @@ title: Siirtyminen toiseen yritykseen tai ympäristöön | Microsoft Docs
 description: Jos käytät useita organisaatioita, voivat ympäristöjä yrityksiä nopeasti.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: environments, companies, tenants, organization
-ms.date: 10/01/2020
+ms.date: 03/04/2020
 ms.author: bholtorf
-ms.openlocfilehash: fea55295867e42f450dc7e3826224d7e1698666a
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 2847d3240ed12acf356f6c68f4c0fcb67c362f61
+ms.sourcegitcommit: 35f7e24c301926b39094aa64fe608afd04fdb8e1
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4760415"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5573449"
 ---
 # <a name="switching-to-another-company-or-environment"></a>Siirtyminen toiseen yritykseen tai ympäristöön
 
 [!INCLUDE [company_environment](includes/company_environment.md)] Lisätietoja on kohdassa [Uusien yritysten luominen [!INCLUDE[prod_short](includes/prod_short.md)]issa](about-new-company.md).  
 
 > [!TIP]
-> Jos vaihdat yrityksiä usein, on hankala pysyä selvillä siitä, missä kullakin hetkellä on. Lisäämällä yrityksen nimen sisältävän tunnuksen lisääminen on helppo tarkistaa nopeasti, että olet oikeassa yrityksessä. Lisätietoja kohdassa [Yrityksen tietojen nopea käyttäminen näyttämällä yrityksen tunnus](ui-change-basic-settings.md#to-display-a-company-badge-for-quick-access-to-company-information).
+> Jos siirryt usein yritysten välillä tai työskentelet [!INCLUDE[prod_short](includes/prod_short.md)]issa toisen sovelluksen, kuten Microsoft Teamsin, sisällä, voit helposti unohtaa missä kohdassa olet. Lisäämällä yrityksen nimen sisältävän tunnuksen lisääminen on helppo tarkistaa nopeasti, että olet oikeassa paikassa. Lisätietoja kohdassa [Yrityksen tietojen nopea käyttäminen näyttämällä yrityksen tunnus](ui-change-basic-settings.md#badge).
 
 ## <a name="switch-to-another-environment"></a>Toiseen ympäristöön vaihtaminen
 

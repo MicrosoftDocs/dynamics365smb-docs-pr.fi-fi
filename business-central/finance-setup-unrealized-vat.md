@@ -3,19 +3,19 @@ title: Ei-realisoituneen arvonlisäveron määrittäminen | Microsoft Docs
 description: Jos käytät kassaperusteista kirjanpitoa, voit määrittää, miten myynnin ja ostojen ei-realisoitunut ALV käsitellään.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cash, VAT, unrealized, cash-based
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 36404306909fb7c2e9d2de97e43fa181dc65a069
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 9320a06b8224aae334e8b3b8682df4d8b5fbdb81
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4746521"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5492890"
 ---
 # <a name="set-up-unrealized-vat-for-cash-based-accounting"></a>Ei-realisoituneen arvonlisäveron määrittäminen kassaperusteista kirjanpitoa varten
 Jos käytät kassaperusteista kirjanpitoa, voit määrittää [!INCLUDE[prod_short](includes/prod_short.md)]in käsittelemään ei-realisoidun arvonlisäveron.
@@ -49,7 +49,6 @@ Käytä ei-realisoituneen arvonlisäveron tilejä seuraavasti:
 > ALV-summa kirjataan tälle tilille, jossa se on asiakkaan maksun kirjaamisen saakka. Summa siirretään sitten oston ALV-tilille.
 
 ## <a name="see-also"></a>Katso myös
-[Arvolisäveron määrittäminen](finance-setup-vat.md)
-
+[Arvonlisäveron laskemisen ja kirjaustapojen määrittäminen](finance-setup-vat.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
-ms.date: 01/26/2021
+ms.date: 03/04/2021
 ms.author: jswymer
-ms.openlocfilehash: 79b6069ffb4c73d783b2c05d3a44a55763805a52
-ms.sourcegitcommit: 1c9eec7554305603d688bf85ce3986d0b1f72ede
+ms.openlocfilehash: d95e97a232cfb7fda8f40f68875b747723abbd4b
+ms.sourcegitcommit: 35f7e24c301926b39094aa64fe608afd04fdb8e1
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "5068432"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5573374"
 ---
 # <a name="teams-faq"></a>Teams – usein kysytyt kysymykset
 
@@ -50,7 +50,6 @@ Kyllä. Kun [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovellus laajent
 Kyllä. Sovelluksen on tarkoitus toimia minkä tahansa [!INCLUDE [prod_short.md](includes/prod_short.md)] -lokalisoinnin kanssa riippumatta siitä, tarjotaanko lokalisointia suoraan Microsoftilta vai kumppanilta. Lisätietoja on kohdassa [Maa- ja aluekohtainen saatavuus ja tuetut kielet](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).
 
 ### <a name="which-languages-does-the-prod_shortmd-app-support"></a><a name="language"></a>Mitä kieliä [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovellus tukee?
-<!--TODO Run by Mike -->
 
 Kaksi asiaa määrittää kielen, jota käytetään korteissa ja korttien tiedoissa Teamsissa:
 
@@ -66,15 +65,19 @@ Seuraavassa taulukossa kuvataan, miten viestin tekijöiden ja vastaanottajien ko
 
 Luettelo [!INCLUDE [prod_short.md](includes/prod_short.md)]in tuetuista kielistä on kohdassa [Tuetut kielet](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json#supported-languages).
 
+### <a name="does-the-business-central-app-work-with-industry-solutions"></a>Toimiiko Business Central -sovellus toimialan ratkaisujen kanssa?
+
+Kyllä. Sovellus toimii linkeissä, jotka perustuvat **\*.bc.dynamics.com**-malliin, jota käytetään tyypillisesti [upotetuissa sovelluksissa](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview).
+
 ### <a name="where-can-i-find-teams-integration-inside-the-prod_shortmd-web-client"></a>Mistä löydän Teams-integroinnin [!INCLUDE [prod_short.md](includes/prod_short.md)] -verkkoasiakkaan sisällä? 
 
-Teams-komponentteja tai Teamsin ominaisuuksia ei tällä hetkellä upoteta [!INCLUDE [prod_short.md](includes/prod_short.md)] -verkkoasiakkaaseen tai muihin asiakkaisiin.  
+Teams-komponentteja tai Teamsin ominaisuuksia ei tällä hetkellä upoteta [!INCLUDE [prod_short.md](includes/prod_short.md)] -verkkoasiakkaaseen tai muihin asiakkaisiin.
 
 ### <a name="does-prod_shortmd-work-with-the-teams-mobile-app"></a>Toimiiko [!INCLUDE [prod_short.md](includes/prod_short.md)] Teamsin mobiilisovelluksen kanssa?
 
 Kyllä. [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovellus voidaan asentaa tiimien Teams-työpöytäsovelluksesta tai selaimesta tai järjestelmänvalvoja kaikille käyttäjille. Kun [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovellus on asennettu, se on automaattisesti saatavilla Teamsin iOS- ja Android-sovelluksissa. Mobiililaitteissa voit katsella muiden lähettämiä kortteja, käyttää tietoja tai avata kortin koko käyttökokemuksessa [!INCLUDE [prod_short.md](includes/prod_short.md)] -mobiilisovelluksessa. Et voi kuitenkaan liittää linkkejä, jotka laajentuvat korteiksi viestejä kirjoittaessasi. Mobiilisovelluksen vähimmäisvaatimukset ovat kohdassa [Business Centralin käyttämisen vähimmäisvaatimukset](product-requirements.md).
 
-### <a name="is-the-prod_shortmd-app-for-teams-the-same-as-the-prod_shortmd-app-for-ios-and-android"></a>Onko [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovellus Teamsille sama kuin [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovelluksen iOS- ja Android-versiot? 
+### <a name="is-the-prod_shortmd-app-for-teams-the-same-as-the-prod_shortmd-app-for-ios-and-android"></a>Onko [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovellus Teamsille sama kuin [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovelluksen iOS- ja Android-versiot?
 
 Ei. Sovellus Teamsille on Microsoft Teamsin apuohjelma, joka on suunniteltu erityisesti yhteistyökokemuksiin Teamsissa. Toisaalta [!INCLUDE [prod_short.md](includes/prod_short.md)] -mobiilisovelluksessa on monipuoliset käyttökokemukset [!INCLUDE [prod_short.md](includes/prod_short.md)] -tietojen työstöön mobiililaitteissa.
 
@@ -108,13 +111,26 @@ Teamsin [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovellus voi näytt�
 
 Teamsissa kortilla näkyviin kenttiin voivat vaikuttaa myös organisaatioosi asennetut [!INCLUDE [prod_short.md](includes/prod_short.md)] -mukautukset. Kortit eivät ota huomioon roolikohtaisia mukautuksia tai käyttäjän mukauttamista. Kortin tiedot -ikkunassa näkyvät kuitenkin tietueiden yksityiskohdat siinä muodossa kuin näkisit ne [!INCLUDE [prod_short.md](includes/prod_short.md)]issa, mukaan lukien laajennukset, roolien mukautukset ja käyttäjän personoinnit.
 
+### <a name="how-do-the-permissions-required-by-the-app-affect-my-privacy"></a>Miten sovelluksen vaatimat käyttöoikeudet vaikuttavat tietosuojaan?
+
+Ennen kuin asennat Teamsin [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovelluksen, voit tarkastella sovelluksen toiminnan edellyttämiä vähimmäisoikeuksia. Asentamalla sovelluksen hyväksyt sen, että sovelluksella on oikeus vastaanottaa sille tarjoatut viestit ja tiedot, ja Teamsilla on oikeus säilyttää ja käsitellä näitä viestejä.
+
+Myös jotkin [!INCLUDE [prod_short.md](includes/prod_short.md)] -ominaisuudet edellyttävät ulkoisten linkkien avaamista tai kameran tai maantieteellisen sijainnin käyttöä. Oletetaan esimerkiksi, että haluat siepata kuvan ostolaskusta käsittelyä varten. [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovellus ei käytä näitä ominaisuuksia ilman suostumustasi, ja ne ovat vain tiettyjen ominaisuuksien käytössä **Tiedot**-ikkunassa. Kun käytät jotakin näistä ominaisuuksista ensimmäistä kertaa, Teams näyttää valintaikkunan, jossa sinua pyydetään myöntämään käyttöoikeus tarvittaviin laiteominaisuuksiin.
+
+- Teams-työpöydällä voit tarkastella ja muuttaa sovelluksen käyttö oikeuksia **Asetukset**-ikkunassa. Valitse profiilikuvasi sovelluksen yläosasta, valitse **Asetukset** > **Käyttöoikeudet** ja valitse sitten [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovellus.
+
+- Jos käytät Teamsia selaimella tai iOS- tai Android-laitteessa, voit tarkistaa tai muuttaa käyttöoikeuksia selaimen tai laitteen asetuksissa.
+
+> [!NOTE]
+> Se, mitkä [!INCLUDE [prod_short.md](includes/prod_short.md)] -ominaisuudet kehottavat sinua antamaan käyttöoikeuksia, riippuu niistä lisäsovelluksista ja mukautuksista, jotka on otettu käyttöön [!INCLUDE [prod_short.md](includes/prod_short.md)] -ympäristössä, johon muodostat yhteyden.
+
 ### <a name="where-can-i-learn-about-my-privacy"></a>Mistä saan tietoja tietosuojasta? 
 
 [Microsoftin tietosuojatiedoissa](https://go.microsoft.com/fwlink/?linkid=2030602) on tietoja siitä, miten Microsoft käsittelee tietojasi. 
 
-Järjestelmänvalvojaltasi saat tietoja siitä, miten organisaatiosi käsittelee tietojesi yksityisyyttä. 
+Järjestelmänvalvojaltasi saat tietoja siitä, miten organisaatiosi käsittelee tietojesi yksityisyyttä.
 
-### <a name="how-do-i-uninstall-the-prod_shortmd-app-for-teams"></a>Miten poistan Teamsin [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovelluksen asennuksen? 
+### <a name="how-do-i-uninstall-the-prod_shortmd-app-for-teams"></a>Miten poistan Teamsin [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovelluksen asennuksen?
 
 Jos haluat poistaa sovelluksen, jonka asensit itse, siirry mihin tahansa keskusteluruutuun, etsi alla oleva [!INCLUDE [prod_short.md](includes/prod_short.md)] -kuvake, napsauta kuvaketta hiiren kakkospainikkeella ja valitse Poista asennus.  
 
@@ -153,29 +169,33 @@ Ei. Teamsissa korttien kenttien arvot, myös kuvat, perustuvat tietoihin, jotka 
 
 Kun kirjoitat ja lähetät viestin keskusteluun, jossa on kortti, kaikki käyttäjät näkevät kortin, vaikka he eivät olisikaan asentaneet Teamsin [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovellusta.
 
+### <a name="how-do-i-find-out-which-company-a-card-in-teams-belongs-to"></a>Miten saan selville, mihin yritykseen Teams-kortti kuuluu?
+
+Jos työskentelet eri [!INCLUDE [prod_short.md](includes/prod_short.md)] -yrityksissä, kysy järjestelmänvalvojalta yritystunnuksen käyttöönottoa jokaiselle yritykselle. Kun toiminto on käytössä, tämä selkeä vihje näkyy Teamsissa kaikissa tietoikkunoissa ja siinä näkyy yritys ja ympäristö, johon tietue kuuluu. Lisätietoja yritysmerkin määrittämisestä on ohjeaiheessa [Yrityksen tietojen nopea käyttäminen näyttämällä yrityksen tunnus](ui-change-basic-settings.md#badge).
+
 ## <a name="working-with-card-details"></a>[Korttitietojen käsitteleminen](#tab/carddetails)
 
-### <a name="where-is-the-save-button-in-the-details-window-in-teams"></a>Missä on tietoikkunan Tallenna-painike Teamsissa? 
+### <a name="where-is-the-save-button-in-the-details-window-in-teams"></a>Missä on tietoikkunan Tallenna-painike Teamsissa?
 
 [!INCLUDE [prod_short.md](includes/prod_short.md)] tallentaa mihin tahansa kenttään tekemäsi muutokset automaattisesti heti, kun poistut kentästä. Jos haluat poistua kentästä, napsauta/napauta mitä tahansa kohtaa kentän ulkopuolella tai siirry seuraavaan kenttään sarkaimen avulla. Kun tiedot tulevat näkyviin tietoikkunan valintaikkunaan, sinun on ehkä valittava **OK**-painike jotta [!INCLUDE [prod_short.md](includes/prod_short.md)] tallentaisi muutokset.
 
-### <a name="if-i-choose-to-view-details-for-a-card-will-other-users-see-my-details-window"></a>Jos valitsen katsoa kortin tiedot, näkevätkö muut käyttäjät tietoikkunani? 
+### <a name="if-i-choose-to-view-details-for-a-card-will-other-users-see-my-details-window"></a>Jos valitsen katsoa kortin tiedot, näkevätkö muut käyttäjät tietoikkunani?
 
 Ei. Kun kaikki chatissa olevat voivat tarkastella itse korttia, Tiedot-ikkuna tulee näkyviin vain omassa laitteessasi, kun valitset **Tiedot**. Muiden käyttäjien täytyy valita **Tiedot**, jos he haluaisivat tarkastella tietoikkunaa laitteissaan.
 
-### <a name="can-i-start-a-teams-call-from-the-details-window-in-teams"></a>Voinko aloittaa Teams-puhelun Tiedot-ikkunasta Teamsissa? 
+### <a name="can-i-start-a-teams-call-from-the-details-window-in-teams"></a>Voinko aloittaa Teams-puhelun Tiedot-ikkunasta Teamsissa?
 
 Kyllä. Voit aloittaa puhelun valitsemalla linkitetyn soittonumeron Puhelinnumero-kentästä, esimerkiksi **Matkapuhelimen numero** kentästä **Yhteyshenkilö**-kortissa. Teamsin täytyy olla määritetty soittovalintasovelluksesi.
 
 Jos haluat soittaa paikallisiin tai kansainvälisiin lankapuhelimiin ja matkapuhelimiin Teamsista, sinulla täytyy olla Teams-lisenssi yrityspuheluita varten. Sinun täytyy myös määrittää Teams puheluratkaisuksesi. Lisätietoja on Teams-dokumentaation ohjeaiheessa [Teams-ääniratkaisun suunnitteleminen](/microsoftteams/cloud-voice-landing-page).
 
-### <a name="can-i-print-documents-from-the-details-window-in-teams"></a>Voinko tulostaa asiakirjoja Teamsin tietoikkunasta? 
+### <a name="can-i-print-documents-from-the-details-window-in-teams"></a>Voinko tulostaa asiakirjoja Teamsin tietoikkunasta?
 
 Kyllä. Tulostat raportteja ja muita asiakirjoja käyttämällä [!INCLUDE [prod_short.md](includes/prod_short.md)] -vakiotulostustoimintoa ja mitä tahansa pilvipohjaista tulostinta, joka on määritetty **Tulostimen hallinta** -sivulla [!INCLUDE [prod_short.md](includes/prod_short.md)]issa. Et voi tulostaa Teamsista asiakaslaitteesi tunnistamiin paikallisiin tulostimiin, kuten tulostimiin, joilla tavallisesti tulostetaan selaimesta. Tästä syystä et voi tulostaa raportin esikatseluikkunasta, vaan vain pääraportin pyyntösivulta suoraan pilvitulostimiin.
 
 Lisätietoja pilvitulostimien määrittämisestä on kohdassa [Tulostimien määrittäminen](ui-specify-printer-selection-reports.md).
 
-### <a name="can-i-access-the-camera-from-the-details-window-in-teams"></a>Voinko käyttää kameraa Teamsin tietoikkunasta? 
+### <a name="can-i-access-the-camera-from-the-details-window-in-teams"></a>Voinko käyttää kameraa Teamsin tietoikkunasta?
 
 Kyllä. Kaikki tietoikkunan [!INCLUDE [prod_short.md](includes/prod_short.md)] -ominaisuudet, jotka käyttävät kameraa, ovat saatavilla kaikissa Teams-asiakkaissa.
 
@@ -185,7 +205,7 @@ Jos käytät [!INCLUDE [prod_short.md](includes/prod_short.md)] -ohjelman nykyis
 
 ## <a name="collaborating-with-guests"></a>[Yhteistyö vieraiden kanssa](#tab/collaborating)
 
-### <a name="can-i-share-cards-with-users-outside-my-organization"></a>Voinko jakaa kortteja organisaation ulkopuolisten käyttäjien kanssa? 
+### <a name="can-i-share-cards-with-users-outside-my-organization"></a>Voinko jakaa kortteja organisaation ulkopuolisten käyttäjien kanssa?
 
 Kyllä. Kun kirjoitat ja lähetät viestin, jossa on kortti, kaikki chatin vastaanottajat näkevät kortin – vaikka he olisivat vieraita tai organisaation ulkopuolisia. Asiakkaat voivat myös avata tiedot-ikkunan, jos heille on myönnetty käyttöoikeus [!INCLUDE [prod_short.md](includes/prod_short.md)] -tietoihin.
 

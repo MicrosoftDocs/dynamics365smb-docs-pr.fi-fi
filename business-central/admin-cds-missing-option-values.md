@@ -6,21 +6,23 @@ ms.author: bholtorf
 ms.custom: na
 ms.reviewer: na
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.date: 10/01/2020
-ms.openlocfilehash: 65911039894d1f0eb81aeb1160a6b2aafc2fae0c
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 2b6d27ed04eb7f09bc884930105867c25b2b4a5f
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752873"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5492956"
 ---
 # <a name="handling-missing-option-values"></a>Puuttuvien asetusarvojen käsitteleminen
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
 
-[!INCLUDE[prod_short](includes/cds_long_md.md)] sisältää vain kolme asetusjoukkokenttää, jotka sisältävät Asetus-tyyppiset [!INCLUDE[prod_short](includes/prod_short.md)] -kenttiin yhdistettävissä olevat asetusarvot<!-- Option type, not enum? @Onat can you vertify this? --> automaattista synkronointia varten. Synkronoinnin aikana muut kuin yhdistetyt asetukset ohitetaan ja puuttuvat asetukset liitetään liittyvään [!INCLUDE[prod_short](includes/prod_short.md)] -tauluun ja lisätään **CDS-asetuksen yhdistäminen** -järjestelmätauluun myöhemmin tapahtuvaa manuaalista käsittelemistä varten. Voit esimerkiksi lisätä puuttuvat asetukset tuotteeseen ja päivittää sitten yhdistämismäärityksen. Tässä osassa kuvataan, miten tämä tehdään.
+Tämä aihe on tarkoitettu tekniselle yleisölle. Siinä kuvatut prosessit edellyttävät kehittäjän apua.
 
-**Integrointitaulukon yhdistämismääritys** -sivulla on kolme kenttäyhdistämistä, jotka sisältävät vähintään yhden yhdistetyn asetusarvon. Täyden synkronoinnin jälkeen **CDS-asetuksen yhdistäminen** -sivu sisältää vastaavasti kolmen kentän muut kuin yhdistetyt asetukset.
+[!INCLUDE[prod_short](includes/cds_long_md.md)] sisältää kolme asetusjoukkokenttää, joissa on Asetus-tyyppiä oleviin [!INCLUDE[prod_short](includes/prod_short.md)] -kenttiin yhdistettävät arvot automaattista synkronointia varten. Synkronoinnin aikana muut kuin yhdistetyt asetukset ohitetaan ja puuttuvat asetukset liitetään liittyvään [!INCLUDE[prod_short](includes/prod_short.md)] -tauluun ja lisätään **Dataverse-asetuksen yhdistäminen** -järjestelmätauluun myöhemmin tapahtuvaa manuaalista käsittelemistä varten. Voit esimerkiksi lisätä puuttuvat asetukset tuotteeseen ja päivittää sitten yhdistämismäärityksen.
+
+**Integrointitaulukon yhdistämismääritys** -sivulla on kolme kenttää, jotka sisältävät vähintään yhden yhdistetyn asetusarvon. Täyden synkronoinnin jälkeen **Dataverse-asetuksen yhdistäminen** -sivu sisältää kolmen kentän muut kuin yhdistetyt asetukset.
 
 |         Tietue             | Asetusarvo | Asetusarvon otsikko |
 |----------------------------|--------------|----------------------|
@@ -38,7 +40,7 @@ ms.locfileid: "4752873"
 | Kuljetusliike: FULLLOAD   | 6            | Täysi kuorma            |
 | Kuljetusliike: WILLCALL   | 7            | Noutoasiakas            |
 
-**CDS-asetuksen yhdistäminen** -sivu perustuu **CDS-tili**-taulun enum-arvoihin. [!INCLUDE[prod_short](includes/cds_long_md.md)] -sovelluksessa tilitaulukon seuraavat kentät yhdistetään asiakas- ja toimittajatietueiden kenttiin:
+**Dataverse-asetuksen yhdistäminen** -sivu perustuu **CRM-tili**-taulun enum-arvoihin. [!INCLUDE[prod_short](includes/cds_long_md.md)] -sovelluksessa tilitaulukon seuraavat kentät yhdistetään asiakas- ja toimittajatietueiden kenttiin:
 
 - **Osoite 1: Kuljetusehdot**, jonka tietojen tyyppi on Enum ja jonka arvot määritetään seuraavasti:
 
@@ -55,7 +57,6 @@ enum 5335 "CDS Shipment Method Code"
 - **Osoite 1: Toimitustapa**, jonka tietojen tyyppi on Enum ja jonka arvot määritetään seuraavasti:
 
 ```
-enum 5336 "CDS Shipping Agent Code"
 enum 5336 "CDS Shipping Agent Code"
 {
     Extensible = true;
@@ -111,7 +112,7 @@ enumextension 50100 "CDS Payment Terms Code Extension" extends "CDS Payment Term
 ### <a name="update-prod_short-option-mapping"></a>[!INCLUDE[prod_short](includes/cds_long_md.md)] -sovelluksen asetusten yhdistämisen päivittäminen
 Nyt voit luoda uudelleen [!INCLUDE[prod_short](includes/cds_long_md.md)] -asetusten ja [!INCLUDE[prod_short](includes/prod_short.md)] -tietueiden välisen yhdistämismäärityksen.
 
-Valitse **Integrointitaulukon yhdistämismääritys** -sivulla rivi **Maksuehdot**-yhdistämistä varten. Valitse sitten **Synkronoi muokatut tietueet** -toiminto. **CDS-asetuksen yhdistäminen** -sivulle päivitetään alla olevat lisätietueet.
+Valitse **Integrointitaulukon yhdistämismääritys** -sivulla rivi **Maksuehdot**-yhdistämistä varten. Valitse sitten **Synkronoi muokatut tietueet** -toiminto. **Dataverse-asetuksen yhdistäminen** -sivulle päivitetään alla olevat lisätietueet.
 
 |         Tietue                 | Asetusarvo   | Asetusarvon otsikko |
 |--------------------------------|----------------|----------------------|
@@ -122,7 +123,7 @@ Valitse **Integrointitaulukon yhdistämismääritys** -sivulla rivi **Maksuehdot
 | **Maksuehdot: CASH PAYME**  | **779800001**  | **Kassamaksu**     |
 | **Maksuehdot: TRANSFER**    | **779800002**  | **Siirto**         |
 
-**Maksuehdot**-taulukko [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksessa sisältää nyt [!INCLUDE[prod_short](includes/cds_long_md.md)] -palvelun asetusten uudet tietueet. Seuraavassa taulukossa uudet asetukset ovat lihavoituna. Kursivoidut rivit edustavat kaikkia asetuksia, jotka voidaan nyt synkronoida. Jäljellä olevat rivit kuvaavat asetuksia, joita ei käytetä. Ne ohitetaan synkronoinnin aikana. Voit poistaa ne tai laajentaa CDS-asetukset käyttämällä samoja nimiä.)
+**Maksuehdot**-taulukko [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksessa sisältää nyt [!INCLUDE[prod_short](includes/cds_long_md.md)] -palvelun asetusten uudet tietueet. Seuraavassa taulukossa uudet asetukset ovat lihavoituna. Kursivoidut rivit edustavat kaikkia asetuksia, jotka voidaan nyt synkronoida. Jäljellä olevat rivit kuvaavat asetuksia, joita ei käytetä. Ne ohitetaan synkronoinnin aikana. Voit poistaa ne tai laajentaa Dataverse-asetukset käyttämällä samoja nimiä.)
 
 | Koodi       | Eräpäivän laskenta | Alennuspvm:n laskenta | Alennus-% | Laske maksualen. hyvityslask. | Kuvaus       |
 |------------|----------------------|---------------------------|------------|-------------------------------|-------------------|
@@ -136,10 +137,10 @@ Valitse **Integrointitaulukon yhdistämismääritys** -sivulla rivi **Maksuehdot
 | 30 PÄIVÄÄ    | 30D                  |                           | 0.         | EPÄTOSI                         | 30 päivää netto       |
 | 60 PÄIVÄÄ    | 60D                  |                           | 0.         | EPÄTOSI                         | 60 päivää netto       |
 | 7 PÄIVÄÄ     | 7D                   |                           | 0.         | EPÄTOSI                         | 7 päivää netto        |
-| ***CASH PAYME** _ |                      |                           | 0.         | EPÄTOSI                         |                   |
+| ***CASH PAYME*** |                      |                           | 0.         | EPÄTOSI                         |                   |
 | NK         | NK                   |                           | 0.         | EPÄTOSI                         | Nykyinen kuukausi     |
 | JV        | 0D                   |                           | 0.         | EPÄTOSI                         | Jälkivaatimuksella  |
-| _NET30*      |                      |                           | 0.         | EPÄTOSI                         |                   |
+| *NET30*      |                      |                           | 0.         | EPÄTOSI                         |                   |
 | *NET45*      |                      |                           | 0.         | EPÄTOSI                         |                   |
 | *NET60*      |                      |                           | 0.         | EPÄTOSI                         |                   |
 | ***TRANSFER*** |                      |                           | 0.         | EPÄTOSI                         |                   |

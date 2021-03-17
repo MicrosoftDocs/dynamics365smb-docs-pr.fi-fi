@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: a747a0bdb67187597cc33185b418844247b2e2b2
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 8cf8946d8b9792c7fb557969257380d0b48d0d83
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752973"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5492941"
 ---
 # <a name="working-with-power-bi-reports-in-prod_short"></a>Power BI -raporttien käyttäminen [!INCLUDE [prod_short](includes/prod_short.md)]issa
 
@@ -40,11 +40,11 @@ Jos käytössä on paikallinen [!INCLUDE[prod_short](includes/prod_short.md)], P
 
 Rekisteröidy Power BI -palveluun. Jos et ole vielä rekisteröitynyt, siirry osoitteeseen [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Käytä rekisteröityessä työpaikan sähköpostiosoitetta ja salasanaa.
 
-## <a name="connect-to-power-bi---one-time-only"></a>Power BI -yhteyden muodostaminen – kerran
+## <a name="connect-to-power-bi---one-time-only"></a><a name="connect"></a>Power BI -yhteyden muodostaminen – kerran
 
 Kun [!INCLUDE [prod_short](includes/prod_short.md)]iin kirjaudutaan ensimmäisen kerran, jollakin sivulla voi näkyä tyhjä Power BI -osa, kuten edellisessä kuvassa. Ensimmäiseksi onkin muodostettava yhteys Power BI -tiliin. Kun yhteys on muodostettu, raportit ovat näkyvissä. Tämä vaihe tarvitsee tehdä vain kerran.
 
-Muodosta yhteys Power BI:hin valitsemalla **Aloita Power BI:n käyttö** -linkki **Power BI -raportit** -osassa.
+Muodosta yhteys Power BI:hin valitsemalla **Aloita Power BI:n käyttö** -linkki **Power BI -raportit** -osassa. 
 
 [!INCLUDE [prod_short](includes/prod_short.md)] on yhteydessä Power BI -palveluun yhdistämisprosessin aikana ja selvittää, onko sinulla kelvollinen Power BI -tili ja -käyttöoikeus. Kun käyttöoikeus on tarkistettu, Power BI -raportti näkyy sivulla. Jos raportti ei tule näkyviin, voit valita raportin osassa.
 
@@ -53,7 +53,7 @@ Muodosta yhteys Power BI:hin valitsemalla **Aloita Power BI:n käyttö** -linkki
 
 ##### <a name="from-prod_short-on-premises"></a>Paikallinen [!INCLUDE [prod_short](includes/prod_short.md)]
 
-Power BI -yhteyden muodostaminen [!INCLUDE [prod_short](includes/prod_short.md)]ista muistuttaa online-version yhteydenmuodostusta. Sinua kuitenkin pyydetään myöntämään Power BI -palvelujen käyttöoikeus **AZURE ACTIVE DIRECTORY -PALVELUN KÄYTTÖOIKEUDET** -sivulla. Voit myöntää käyttöoikeuden valitsemalla ensin **Valtuuta Azure-palvelut** ja sitten **Hyväksy**.
+Power BI -yhteyden muodostaminen [!INCLUDE [prod_short](includes/prod_short.md)]ista muistuttaa online-version yhteydenmuodostusta. Sinua kuitenkin saatetaan pyytää myöntämään Power BI -palvelujen käyttöoikeus **AZURE ACTIVE DIRECTORY -PALVELUN KÄYTTÖOIKEUDET** -sivulla. Voit myöntää käyttöoikeuden valitsemalla ensin **Valtuuta Azure-palvelut** ja sitten **Hyväksy**.
 
 Kun yhteys on muodostettu, voit valita Power BI -osan sivuilla.
 

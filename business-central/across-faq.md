@@ -3,16 +3,16 @@ title: Business Centralin käyttäminen – usein kysytyt kysymykset
 description: Vastaa yleisiin kysymyksiin Business Centralin rekisteröimisestä tai ostamisesta, kokeilujakson jatkamisesta, tilauksen peruuttamisesta sekä koulutuksen ja muun tuen etsimisestä.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e674aed9dd6f2e3fade52675f77113ac4ee42a0b
-ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+ms.openlocfilehash: 2e446b3e5415299954098abb92088277b7da2bbc
+ms.sourcegitcommit: 026484766988b8727649c02fc8990b0646999bf1
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5014023"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5498560"
 ---
 # <a name="frequently-asked-questions-about-using-business-central"></a>Usein kysyttyjä kysymyksiä Business Centralin käyttämisestä
 
@@ -40,7 +40,9 @@ Viime kädessä voi ottaa yhteyttä [!INCLUDE[prod_short](includes/prod_short.md
 ## <a name="why-cant-i-find-that-capability-in-my-prod_short"></a>Miksi tätä toimintoa ei löydy omasta [!INCLUDE[prod_short](includes/prod_short.md)]ista?
 Luitko uudesta toiminnosta julkaisusuunnitelmasta vai blogistamme? Siinä tapauksessa [!INCLUDE[prod_short](includes/prod_short.md)]-versiotasi ei ehkä ole vielä päivitetty uusimpaan versioon. Voit tarkistaa, mihin versioon [!INCLUDE[prod_short](includes/prod_short.md)] perustuu, [Ohje ja tuki](product-help-and-support.md) -sivulla.  
 
-Jos toiminto on lisäksi julkaistu laajennuksena AppSourcessa, laajennuksen julkistamisesta kuluu hetki, ennen kuin se on saatavilla AppSourcessa.  
+Tämä koskee [!INCLUDE [prod_short](includes/prod_short.md)] online - ja on-premises-versioita.  
+
+Jos toiminto on lisäksi julkaistu laajennuksena AppSourcessa, laajennuksen julkistamisesta kuluu hetki, ennen kuin se on saatavilla AppSourcessa. Tämä koskee vain [!INCLUDE [prod_short](includes/prod_short.md)] online -versiota.  
 
 ## <a name="are-there-any-differences-between-an-on-premises-deployment-and-the-cloud-version-of-business-central"></a>Onko Business Central -sovelluksen paikallisessa käyttöönotossa ja pilviversiossa eroja?
 Kyllä. Jotkin pilvipohjaiset toiminnot toimivat paikallisesti tietyissä tapauksissa. Joitakin taas ei tueta lainkaan. Lisätietoja on kohdassa [Ominaisuudet, joita ei ole otettu käyttöön Dynamics 365 Business Central -sovelluksen paikallisissa käyttöönotoissa](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises).
@@ -65,8 +67,9 @@ Jos **Yrityksen tiedot** -sivun käyttökokemusasetukseksi on määritetty **Ess
 
 Sivuilla ei ole muista ohjelmista tuttua *tallennuspainiketta*. [!INCLUDE[prod_short](includes/prod_short.md)]issa kenttään tehdyt muutokset tallennetaan automaattisesti heti, kun siirryt seuraavaan kenttään tai suljet sivun, mikäli virheitä ei ole. Kun teet muutoksia kenttään tai siirryt toiseen kenttään, sivun oikeassa yläkulmassa on teksti **Tallennetaan**, joka tilalle vaihtuu nopeasti teksti **Tallennettu**, jos virheitä ei ole. Jos tapahtuu virhe, tekstiksi tulee **Ei tallennettu**.
 
-## <a name="what-email-address-can-i-use-with-prod_short"></a><a name="email"></a>Mitä sähköpostiosoitetta käytetään [!INCLUDE[prod_short](includes/prod_short.md)]:n kanssa?
-[!INCLUDE[prod_short](includes/prod_short.md)] edellyttää työ- tai opiskelupaikan antaman sähköpostiosoitteen käyttämistä rekisteröitymisen yhteydessä. [!INCLUDE[prod_short](includes/prod_short.md)] ei tue kuluttajille tarkoitettujen sähköpostipalveluiden ja tietoliikennepalveluiden tarjoajien sähköpostiosoitteita. Näitä ovat esimerkiksi outlook.com, hotmail.com ja gmail.com.  
+## <a name="what-email-address-can-i-use-with-prod_short-online"></a><a name="email"></a>Mitä sähköpostiosoitetta käytetään [!INCLUDE[prod_short](includes/prod_short.md)] onlinen kanssa?
+
+[!INCLUDE[prod_short](includes/prod_short.md)] online edellyttää työ- tai opiskelupaikan antaman sähköpostiosoitteen käyttämistä rekisteröitymisen yhteydessä. [!INCLUDE[prod_short](includes/prod_short.md)] online ei tue kuluttajille tarkoitettujen sähköpostipalveluiden ja tietoliikennepalveluiden tarjoajien sähköpostiosoitteita. Näitä ovat esimerkiksi outlook.com, hotmail.com ja gmail.com.  
 
 Jos yrität rekisteröityä käyttämällä henkilökohtaista sähköpostiosoitetta, saat viestin, jossa pyydetään käyttämään työ- tai opiskelupaikan antamaa sähköpostiosoitetta. Lisätietoja on kohdassa [Itsepalvelun rekisteröitymisen vianmääritys](ui-troubleshoot-self-signup.md).  
 
@@ -147,6 +150,5 @@ Tiedostamme, että tämä voi aiheuttaa ongelmia, ja kannustamme etsimään tiet
 [Usein kysytyt kysymykset Developer- ja ITPro-käyttökokemuksista](/dynamics365/business-central/dev-itpro/faq)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

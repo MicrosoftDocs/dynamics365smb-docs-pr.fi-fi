@@ -3,19 +3,19 @@ title: Töiden aikatauluttaminen automaattisesti suoritettavaksi
 description: Ajoitettuja tehtäviä hallitaan työjonon avulla. Näillä töillä suoritetaan raportteja ja codeuniteja. Voit määrittää töitä suoritettavaksi yhtä aikaa tai toistuvasti.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 01/12/2021
 ms.author: edupont
-ms.openlocfilehash: 29b5b3f633b0fd9fcac648f0bf7149b87ae0b20d
-ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+ms.openlocfilehash: 074a110a4aac42d9b6058e377c45de0c23409bb2
+ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5013944"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470260"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Käytä työjonoja ajoitustehtäviin
 
@@ -57,7 +57,7 @@ Seuraavassa taulukossa kuvataan **Tila**-kentän arvot.
 2. Valitse **Työjonotapahtumat**-sivulla ensin työjonotapahtuma ja sitten **Lokitapahtumat**-toiminto.  
 
 > [!TIP]
-> [!INCLUDE [prod_short](includes/prod_short.md)] onlinessa voit tarkastella työjonotapahtumien tilaa myös Microsoft Azuren Application Insightsissa. Lisätietoja on kehittäjien ja IT-ammattilaisten ohjeessa [Työjonon elinkaaren jäljityksen telemetrian analysoiminen](/dynamics365smb-devitpro\dev-itpro\administration\telemetry-job-queue-lifecycle-trace)[!INCLUDE [prod_short](includes/prod_short.md)].
+> [!INCLUDE [prod_short](includes/prod_short.md)] onlinessa voit tarkastella työjonotapahtumien tilaa myös Microsoft Azuren Application Insightsissa. Lisätietoja on kehittäjien ja järjestelmänvalvojien ohjeessa [Työjonon elinkaaren jäljityksen telemetrian analysoiminen](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace)[!INCLUDE [prod_short](includes/prod_short.md)].
 
 ## <a name="the-my-job-queue-part"></a>Oma työjono -osa
 Roolikeskuksen **Oma työjono** -osa sisältää työjonotapahtumat, jotka olet aloittanut mutta jotka eivät ole vielä valmiita. Oletusarvoisesti osa ei ole näkyvissä, joten se on lisättävä omaan roolikeskukseesi. Lisätietoja on kohdassa [Työtilan mukauttaminen](ui-personalization-user.md).  
@@ -92,7 +92,7 @@ Lisätietoja on kohdassa [Taustakirjauksen määrittäminen työjonojen avulla](
 [Hallinta](admin-setup-and-administration.md)  
 [Business Central -sovelluksen määrittäminen](setup.md)  
 [Perusasetusten muuttaminen](ui-change-basic-settings.md)  
-[Työjonon elinkaaren jäljityksen telemetrian analysoiminen](/dynamics365smb-devitpro\dev-itpro\administration\telemetry-job-queue-lifecycle-trace)  
+[Työjonon elinkaaren jäljityksen telemetrian analysoiminen](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -3,19 +3,19 @@ title: Automaattinen maksujen soveltamisen sääntöjen määrittäminen
 description: Määritä Maksusovelluksen säännöt -sivulla säännöt, jotka hallinnoivat sitä, kuinka maksuja/pankkitapahtumia sovelletaan automaattisesti niihin liittyviin avoimiin kirjanpitotapahtumiin, kun käytät Sovella automaattisesti -toimintoa Maksujen täsmäytyskirjauskansio -sivulla.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6ffd2a12d399f0a05517d9e1031df3227aa7248a
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: a0aad6bce483dba6edf7c6d5ab37033475413d4b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4758340"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392597"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Automaattinen maksujen soveltamisen sääntöjen määrittäminen
 
@@ -50,8 +50,9 @@ Kohdistustietojen lisäksi seuraavaa sovelletaan maksumäärän etumerkkiin:
 |**Liittyvän osapuolen vastaavuus**|Määrittää, kuinka paljon tietoja asiakkaasta tai toimittajasta, kuten osoite, kaupungin nimi ja pankkitilin numero, tulee vastata maksujen täsmäytyskirjauskansion rivillä avoimen tapahtuman tietoihin, ennen kuin sovellussääntöä käytetään soveltamaan automaattisesti maksua avoimeen tapahtumaan.|
 |**Asiak. nro / Ulk. asiak. nro vastaavuus**|Määrittää, pitääkö maksujen täsmäytyskirjauskansion rivin tekstin vastata avoimen tapahtuman **Asiakirjan nro**- vai **Ulkoisen asiakirjan nro** - kentän arvoa, ennen kuin kohdistussääntö automaattisesti kohdistaa maksun avoimeen tapahtumaan.|
 |**Kohdistustoleranssin sis. summa**|Määrittää, kuinka monen asiakkaan tai toimittajan tapahtumanon vastattava summaa, maksutoleranssi mukaan lukien, ennen kuin kohdistussääntöä käytetään automaattisesti kohdistamaan maksu avoimeen tapahtumaan.|
+|**Tarkistus vaaditaan**|Määrittää, suositetaanko automaattista maksukohdistusta käyttäjän manuaaliseen tarkistukseen ennen kirjausta. **Tarkistettavat rivit** -kentän valitseminen **Maksujen kohdistuksen kirjauskansio** -sivulla aloittaa ohjatun käyttökokemuksen, jossa voit helposti tarkastella useita kohdistuksia **Maksun kohdistuksen tarkistus** -sivulla.|
 
-Seuraavassa taulukossa on esitetty, mitä maksun kohdistuksen sääntöjä [!INCLUDE[prod_short](includes/prod_short.md)]-järjestelmän yleisessä versiossa on määritetty.
+Seuraavassa taulukossa kuvataan [!INCLUDE[prod_short](includes/prod_short.md)]in maksujen vakiokohdistuksen säännöt.
 
 > [!Important]
 > Maksun kohdistussäännöt saattavat vaihdella [!INCLUDE[prod_short](includes/prod_short.md)]-järjestelmän asennuksessasi.

@@ -3,19 +3,19 @@ title: Aiemmin luotujen nimikkeiden kopiointi uusiin nimikkeisiin
 description: Kun lisäät uuden nimikkeen, voit säästää aikaa kopioimalla aiemmin luodun nimikkeen Kopioi nimike -toiminnolla uuden nimikkeen malliksi.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ebba20114f658bd440908d7346d467ae885fbb76
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c60531dc27008f42decdc540f392f1a9fdb90d5c
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920470"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393147"
 ---
 # <a name="copy-existing-items-to-create-new-items"></a>Uusien nimikkeiden luominen kopioimalla aiemmin luotuja nimikkeitä
 

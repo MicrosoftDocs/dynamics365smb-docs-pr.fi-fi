@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 12/15/2020
 ms.author: edupont
-ms.openlocfilehash: 965171f23fb774ecfd865c1004cb9a224015ea21
-ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
+ms.openlocfilehash: 836c3957f43d4b2d6ccb5e10bf8ef5efa3ba1177
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/29/2020
-ms.locfileid: "4817204"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493200"
 ---
 # <a name="welcome-to-prod_long"></a>Tervetuloa [!INCLUDE[prod_long](includes/prod_long.md)]iin
 
@@ -32,7 +32,7 @@ Jos sinulla on jo [!INCLUDE[prod_short](includes/prod_short.md)], kirjaudu sivus
 Voit myös [vierailla videokirjastossamme](across-videos.md) tai aloittaa [Microsoft Dynamics 365 Business Centralin käytön aloittaminen](/learn/paths/get-started-dynamics-365-business-central/) -oppimispolun [Microsoft Learnissa](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
 
 > [!NOTE]
-> Ellei muuta todeta, Docs.microsoft.com-sivusto sisältö vastaa uusinta [!INCLUDE[prod_short](includes/prod_short.md)] online -versiota. Jos organisaatiossa on käytössä jokin muu [!INCLUDE[prod_short](includes/prod_short.md)] online -versio, osa ominaisuuksista ei ehkä ole vielä saatavana. Jos organisaatiossa on käytössä [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, se voi olla aikaisempi versio. Lisätietoja on kohdassa [Usein kysytyt kysymykset](across-faq.md).
+> Ellei muuta todeta, [Docs.microsoft.com](https://docs.microsoft.com/dynamics365/business-central/)-sivusto sisältö vastaa uusinta [!INCLUDE[prod_short](includes/prod_short.md)] online -versiota. Jos organisaatiossa on käytössä jokin muu [!INCLUDE[prod_short](includes/prod_short.md)] online -versio, osa ominaisuuksista ei ehkä ole vielä saatavana. Jos organisaatiossa on käytössä [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, se voi olla aikaisempi versio. Lisätietoja on kohdassa [Usein kysytyt kysymykset](across-faq.md).
 
 Seuraavat osiot viittaavat tärkeimpiin artikkeleihin, joiden avulla voit tutustua [!INCLUDE [prod_short](includes/prod_short.md)]iin.  
 
@@ -69,6 +69,10 @@ Seuraavat osiot viittaavat tärkeimpiin artikkeleihin, joiden avulla voit tutust
 - [AL-kehittäminen](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)
 - [AL-kehitysympäristö](/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)
 - [AL-koodin säännöt ja ohjeistus](/dynamics365/business-central/dev-itpro/compliance/apptest-overview)
+
+## <a name="learn"></a>Lisätietoja
+
+Etsi maksutonta e-oppimissisältöä [Microsoft Learnista](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
 
 ## <a name="community-resources"></a>Yhteisöresurssit
 

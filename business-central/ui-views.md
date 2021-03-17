@@ -3,19 +3,19 @@ title: Luettelonäkymien tallentaminen ja mukauttaminen | Microsoft Docs
 description: Lisätietoja omien suodatetuista luetteloista koostuvien näkymien muodostamisesta.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 37fa84f9d0bb97f7e2b6fe94cc6180ef3eb83689
-ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
+ms.openlocfilehash: 04a7040f23304408fb30d65590663de43d447cd4
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "5024485"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392422"
 ---
 # <a name="save-and-personalize-list-views"></a>Luettelonäkymien tallentaminen ja mukauttaminen
 Jos olet määrittänyt luettelon suodattimen ja haluat säilyttää suodattimen myöhempää käyttöä varten, voit tallentaa sen näkymänä. Lisätietoja luetteloiden suodattamisesta on kohdassa [Suodattimien määrittäminen luetteloissa](ui-enter-criteria-filters.md#setting-filters-on-lists).

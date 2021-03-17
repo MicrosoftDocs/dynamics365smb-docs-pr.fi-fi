@@ -3,24 +3,27 @@ title: Myynnin ja ostojen ALV:n käsittely | Microsoft Docs
 description: Tässä ohjeaiheessa käsitellään, miten ALV-laskelmat koskevat kaikkia myynti- ja ostotapahtumia, kuten EU-maissa ja EU:n alueella kirjatun ALV:n oikaisua. Tässä ohjeaiheessa kerrotaan, miten se tehdään.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: bce25a87849a65d0307e6475716891396167697c
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: f66d061f383236cd7fbe96ebebaf1a790202b758
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4746614"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493090"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Myynnin ja ostojen ALV:n käsitteleminen
 Jos maasi tai alueesi edellyttää arvonlisäveron (ALV:n) laskemista myynti- ja ostotapahtumille siten, että voit ilmoittaa summat veroviranomaiselle, voit määrittää [!INCLUDE[prod_short](includes/prod_short.md)]in laskemaan ALV:n automaattisesti myynti- ja ostoasiakirjoissa. Lisätietoja on kohdassa [Arvolisäveron laskelmien ja kirjausmenetelmien määrittäminen](finance-setup-vat.md).
 
-Jotkin arvolisäveroon liittyvät tehtävät voidaan tehdä manuaalisesti. Kirjattu summa on ehkä oikaistava, jos havaitset, että toimittaja käyttää toista pyöristysmenetelmää.
+Jotkin arvolisäveroon liittyvät tehtävät voidaan tehdä manuaalisesti. Kirjattu summa on ehkä oikaistava, jos havaitset, että toimittaja käyttää toista pyöristysmenetelmää.  
+
+> [!TIP]
+> Voit antaa [!INCLUDE[prod_short](includes/prod_short.md)]in tarkistaa ALV-rekisterinumerot ja muut yritystiedot, kun luot tai päivität asiakirjoja. Lisätietoja on ohje aiheessa [ALV-rekisterinumeroiden tarkistaminen](finance-how-validate-vat-registration-number.md).
 
 ## <a name="calculating-and-displaying-vat-amounts-in-sales-and-purchase-documents"></a>ALV-summien laskeminen ja näyttäminen myynti- ja ostoasiakirjoissa  
 Voit laskea ja näyttää myynti- ja ostoasiakirjojen ALV-summat eri tavoin kulloisenkin asiakas- tai toimittajatyypin mukaan. Voit myös korvata tietylle tapahtumalle lasketun ALV-summan toimittajan laskemalla ALV-summalla.  
@@ -173,15 +176,16 @@ Voit tarkastella sertifikaattiryhmiä aloittamalla **Tarjontasertifikaatit**-siv
 
     > [!NOTE]  
     >  Et voi luoda uutta tarjontasertifikaattia **Tarjontasertifikaatit**-sivulla, kun siirryt siihen tällä menetelmällä. Voit luoda sertifikaatin toimitukselle, jota ei asetettu vaatimaan sitä avaamalla kirjatun myyntitoimituksen, ja käyttämällä yhtä kahdesta yllä kuvatusta toimenpiteestä:  
-    >   
+    >
     > * Tarjontasertifikaatin luominen manuaalisesti  
     > * Tarjontasertifikaatin tulostaminen.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Katso myös  
-[Arvonlisäveron laskemisen ja kirjaustapojen määrittäminen](finance-setup-vat.md)   
-[ALV:n raportointi veroviranomaisille](finance-how-report-vat.md)   
+## <a name="see-also"></a>Katso myös
 
+[Arvonlisäveron laskemisen ja kirjaustapojen määrittäminen](finance-setup-vat.md)  
+[ALV:n raportointi veroviranomaisille](finance-how-report-vat.md)  
+[ALV-rekisterinumeron vahvistaminen](finance-how-validate-vat-registration-number.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

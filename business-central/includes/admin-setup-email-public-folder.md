@@ -4,12 +4,12 @@ ms.service: dynamics365-accountant
 ms.topic: include
 ms.date: 10/02/2020
 ms.author: edupont
-ms.openlocfilehash: 1b9f60eab5b0bcf812343e82389087ac5535301a
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: d58d8d628577f163d36199b8fc5785982aac830a
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4749778"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5492998"
 ---
 Ennen sähköpostin lokiinkirjauksen määrittämistä Exchange Onlineen on valmisteltava [yleiset kansiot](/exchange/collaboration/public-folders/public-folders?view=exchserver-2019&preserve-view=true ). Se voidaan tehdä [Exchangen hallintakeskuksessa](/Exchange/architecture/client-access/exchange-admin-center?view=exchserver-2019&preserve-view=true ) tai käyttämällä [Exchange-palvelimen hallintaliittymää](/powershell/exchange/exchange-management-shell?view=exchange-ps&preserve-view=true ).  
 
@@ -72,4 +72,4 @@ Seuraavassa on luettelossa keskeiset vaiheet sekä linkkejä lisätietoihin.
   Lisätietoja on kohdassa [Postityönkulkusääntöjen hallinta Exchange Onlinessa](/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules) ja [Postityönkulkusäännön toiminnot Exchange Onlinessa](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions).
 
 > [!NOTE]
-> Jos Exchange-palvelimen hallintaliittymään tehdään muutoksia, muutokset tulevat näkyviin Exchangen hallintakeskuksessa viiveen jälkeen. Myös Exchangeen tehdyt muutokset ovat käytettävissä [!INCLUDE[prod_short](prod_short.md)]issa viiveen jälkeen.
+> Jos Exchange-palvelimen hallintaliittymään tehdään muutoksia, muutokset tulevat näkyviin Exchangen hallintakeskuksessa viiveen jälkeen. Myös Exchangeen tehdyt muutokset ovat käytettävissä [!INCLUDE[prod_short](prod_short.md)]issa viiveen jälkeen. Viive voi olla useita tunteja.

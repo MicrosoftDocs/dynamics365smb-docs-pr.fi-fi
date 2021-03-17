@@ -3,19 +3,19 @@ title: Sähköpostin lokiinkirjauksen määrittäminen | Microsoft Docs
 description: Lisätietoja siitä, miten myyjien ja asiakkaiden sähköpostivuorovaikutukset voidaan muuttaa todellisiksi myyntimahdollisuuksiksi.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect, opportunity, email
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: f099072561e5a35f893a42edbbe6f27a5b4722ed
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: a431eba8881eb6bb32e01d67f25ea53981da445e
+ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4749803"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470335"
 ---
 # <a name="track-email-message-exchanges-between-salespeople-and-contacts"></a>Myyjien ja yhteyshenkilöiden välisten sähköpostiviestien seuraaminen
 
@@ -65,7 +65,7 @@ Seuraavissa vaiheissa oletetaan, käyttäjätietojen ja käyttöoikeuksien halli
     > Jos et määritä uudelleenohjauksen URL-osoitetta, voit tehdä sen myöhemmin valitsemalla **Lisää ympäristö** ja valitsemalla sitten **Verkko**, jos haluat lisätä verkkosovelluksen ja uudelleenohjauksen URL-osoitteen. 
 
 3. Valitse **Hallinta**-kohdassa **Kokoonpanotiedot**.
-4. Etsi kokoonpanotiedoista **requiredResourceAccess**-ominaisuus luetteloluettelosta ja lisää tarvittavat käyttöoikeudet lisäämällä seuraava koodi hakasulkeisiin ([]). Lisätietoja on kohdassa [Sovelluksen rekisteröiminen](/exchange/client-developer/exchange-web-services/how-to-authenticate-an-ews-application-by-using-oauth.md#register-your-application).
+4. Etsi kokoonpanotiedoista **requiredResourceAccess**-ominaisuus luetteloluettelosta ja lisää tarvittavat käyttöoikeudet lisäämällä seuraava koodi hakasulkeisiin ([]). Lisätietoja on kohdassa [Sovelluksen rekisteröiminen](/exchange/client-developer/exchange-web-services/how-to-authenticate-an-ews-application-by-using-oauth#register-your-application).
 
 ```
 {

@@ -1,30 +1,29 @@
 ---
-title: Poistomenetelmien määrittäminen| Microsoft Docs
+title: Poistomenetelmien määrittäminen
 description: Voit määrittää poistokirjaan, miten haluat käyttöomaisuuden poiston tai alaskirjauksen tapahtuvan.
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
 ms.search.keywords: write down
-ms.date: 10/01/2020
+ms.date: 02/22/2021
 ms.author: edupont
-ms.openlocfilehash: c9eea613db52d327caa1c3d5449864900fc867d1
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: e5d000b1ff7d1b83188449c80a9a9eefe79e8676
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4749267"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493226"
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Käyttöomaisuuden poiston määrittäminen
- Rahoituslaskelmien ja tuloveropalautusten valmistelussa voi käyttää useita poistomenetelmiä. Monet suuret yritykset käyttävät tasapoistoja rahoituslaskelmissaan, koska sen avulla voidaan yleensä raportoida suurempia tuloja. Tuloverotarkoituksia varten monet yritykset käyttävät kuitenkin nopeutettua poistomenetelmää, kuten vähenevän saldon poistoa. Käyttöomaisuuden poistomenetelmä määritetään **Poistomenetelmä**-kentässä **Käyttöomaisuuden kortti** -sivulla. Lisätietoja eri menetelmistä on kohdassa [Poistomenetelmät](fa-depreciation-methods.md).
 
- Poistokirjoissa määritetään eri käyttöomaisuuksien poistojen laskentatavat. Kussakin kirjassa voidaan määrittää yksittäisiä poistoehtoja. Voidaan määrittää esimerkiksi, että käyttöomaisuudelle tulisi tehdä poisto kolmen vuoden jaksolla yhteen kirjaan ja viiden vuoden jaksolla toiseen kirjaan.
+Rahoituslaskelmien ja tuloveropalautusten valmistelussa voi käyttää useita poistomenetelmiä. Monet suuret yritykset käyttävät tasapoistoja rahoituslaskelmissaan, koska sen avulla voidaan yleensä raportoida suurempia tuloja. Tuloverotarkoituksia varten monet yritykset käyttävät kuitenkin nopeutettua poistomenetelmää, kuten vähenevän saldon poistoa. Käyttöomaisuuden poistomenetelmä määritetään **Poistomenetelmä**-kentässä **Käyttöomaisuuden kortti** -sivulla. Lisätietoja eri menetelmistä on kohdassa [Poistomenetelmät](fa-depreciation-methods.md).
 
- Kun olet luonut asianmukaiset poistokirjat, kuhunkin käyttöomaisuuserään tulee liittää yksi tai usea poistokirja. Käyttöomaisuuteen liitettyä poistokirjaa kutsutaan käyttöomaisuuden poistokirjaksi. Poistokirjoja käyttöomaisuudelle voi määrittää kuinka monta tahansa. 
+Poistokirjoissa määritetään eri käyttöomaisuustyyppien poistojen laskentatavat. Kussakin poistokirjassa määritetään yksittäisiä poistoehtoja. Voidaan määrittää esimerkiksi, että käyttöomaisuudelle tulisi tehdä poisto kolmen vuoden jaksolla yhteen kirjaan ja viiden vuoden jaksolla toiseen kirjaan.
+
+Kun olet luonut asianmukaiset poistokirjat, kuhunkin käyttöomaisuuserään tulee liittää yksi tai usea poistokirja. Käyttöomaisuuteen liitettyä poistokirjaa kutsutaan käyttöomaisuuden poistokirjaksi. Poistokirjoja käyttöomaisuudelle voi määrittää kuinka monta tahansa.  
 
 ## <a name="to-create-a-depreciation-book"></a>Poistokirjan luominen
+
 Käyttöomaisuuden poistokirjaan voidaan määrittää, miten käyttöomaisuus poistetaan. Useiden erilaisten poistomenetelmien hallitsemiseksi voidaan määrittää useita poistokirjoja.  
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Poistokirjat** ja valitse sitten liittyvä linkki.
@@ -32,9 +31,14 @@ Käyttöomaisuuden poistokirjaan voidaan määrittää, miten käyttöomaisuus p
 3. Täytä **Poistokirjakortti**-sivun kentät tarvittaessa. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
-    >   Voit tallentaa käyttöomaisuustapahtumat **Käyttöomaisuuden KP-päiväkirja**- tai **Käyttöomaisuuspäiväkirja**-sivulle sen mukaan, koskevatko tapahtumat talousraportointia vai sisäistä hallintaa. Määritä seuraavan vaiheen mukaisesti eri käyttöomaisuustoiminnoissa oletusarvoisesti käytettävien päiväkirjojen tyypit.
+    > Voit tallentaa käyttöomaisuustapahtumat **Käyttöomaisuuden KP-päiväkirja**- tai **Käyttöomaisuuspäiväkirja**-sivulle sen mukaan, koskevatko tapahtumat talousraportointia vai sisäistä hallintaa. Määritä seuraavan vaiheen mukaisesti eri käyttöomaisuustoiminnoissa oletusarvoisesti käytettävien päiväkirjojen tyypit.
 4. Valitse **Integrointi**-pikavälilehdessä niiden käyttöomaisuustoimintojen valintaruudut, jotka haluat kirjata **Käyttöomaisuuden KP-päiväkirja** -sivun avulla.
 5. Toista vaiheet 2–4 jokaisen sellaisen poisto- tai kirjaustavan kohdalla, jonka haluat liittää käyttöomaisuuserään poistokirjana.
+
+> [!IMPORTANT]
+> Valitse **Pyöristä jaksottain poist.** -kenttää, jos haluat pyöristää lasketut kausittaiset poistosummat kokonaisluvuiksi. Esimerkiksi jos yrityksesi käyttää myös laskun pyöristystä kokonaislukuihin **Pääkirjanpidon asetukset** -sivulla, myös poistosummien pyöristäminen kokonaislukuihin voi auttaa läpinäkyvyyttä.
+
+Jos esimerkiksi hävität käyttöomaisuuserän, jolle poistokirjassa ei määritetä pyöristystä, mutta yrityksesi pääkirjanpidon asetukset edellyttävät pyöristystä, ja käyttöomaisuudesta luovutaan, näyttöön tulee virhesanoma siitä, että summa on pyöristettävä tapahtumassa.  
 
 ## <a name="to-assign-a-depreciation-book-to-a-fixed-asset"></a>Poistokirjan liittäminen käyttöomaisuuteen
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Käyttöomaisuus** ja valitse sitten liittyvä linkki.

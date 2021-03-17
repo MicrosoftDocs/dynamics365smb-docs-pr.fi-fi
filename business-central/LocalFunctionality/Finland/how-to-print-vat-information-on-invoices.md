@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 51a1aaec6dd8bacedb3c609c76f4d270b4bc6665
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a5a8f9b10bc454290ce461c02dc1d1d858d5839e
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920174"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493137"
 ---
 # <a name="print-vat-information-on-invoices"></a>ALV-tietojen tulostaminen laskuihin
 Kirjausryhmien avulla voit tulostaa ALV-tiedot myyntilaskun jokaiselle nimikkeelle.  
@@ -29,10 +29,10 @@ Kirjausryhmien avulla voit tulostaa ALV-tiedot myyntilaskun jokaiselle nimikkeel
 3.  Valitse **Tulosta ALV-tiedot laskuun**, kun haluat tulostaa kunkin nimikkeen ALV-tiedot vastaavaan myyntilaskuun.  
 4.  Luo ja kirjaa myyntilasku. Valitse **Esikatselu**-painike ja tarkista lasku. Varmista, että se sisältää kirjausryhmän kunkin rivin ALV-tiedot.  
 
-## <a name="see-also"></a>Katso myös  
- [Verkkopankkitoiminta Suomessa](electronic-banking-in-finland.md)  
- [Kirjausryhmien määrittäminen](../../finance-posting-groups.md)   
- [Arvolisäveron määrittäminen](../../finance-setup-vat.md)
+## <a name="see-also"></a>Katso myös
 
+[Verkkopankkitoiminta Suomessa](electronic-banking-in-finland.md)  
+[Määritä kirjanpidon kirjausryhmät](../../finance-posting-groups.md)  
+[Arvonlisäveron laskemisen ja kirjaustapojen määrittäminen](../../finance-setup-vat.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

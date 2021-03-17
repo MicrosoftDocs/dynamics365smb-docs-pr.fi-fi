@@ -3,19 +3,19 @@ title: Rakennetiedot – Nimikeseurannan rakenne | Microsoft Docs
 description: Tässä aiheessa käsitellään Business Central -sovelluksen nimikeseurannan rakennetta.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item, tracking, tracing
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 87c85de9f501e093679512b709841d0027fe17bf
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: a0c60381634543f367e85a465c4ee74c3396d5ad
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4751328"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390990"
 ---
 # <a name="design-details-item-tracking-design"></a>Rakennetiedot: nimikkeen seurannan rakenne
 [!INCLUDE[prod_short](includes/prod_short.md)] 2.60:n ensimmäisessä nimikeseurantaversiossa sarja- tai eränumerot tallennettiin suoraan nimiketapahtumiin. Tämä rakenne tarjosi täydet saatavuustiedot ja yksinkertaisen aiempien tapahtumien seurannan, mutta siitä puuttui joustavuus ja toiminnallisuus.  

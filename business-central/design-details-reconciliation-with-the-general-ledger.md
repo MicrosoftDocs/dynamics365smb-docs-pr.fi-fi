@@ -3,19 +3,19 @@ title: Rakennetiedot –Täsmäytys pääkirjanpidon kanssa | Microsoft Docs
 description: Tässä ohjeaiheessa käsitellään täsmäytys pääkirjanpidon kanssa varastotapahtumia kirjattaessa. Näitä tapahtumia ovat esimerkiksi tapahtumat, tuotannon tuotos ja negatiiviset muutokset.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, reconciliation, general ledger, inventory
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3f3a90142081ad0bc3096bdde1830924c2998d68
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 7b715a76bc17810ec956923fc223d14115bfd8a3
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4751228"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390697"
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Rakennetiedot: täsmäytys pääkirjanpidon kanssa
 Kun kirjaat varastotapahtumia, kuten myyntitoimituksia, tuotannon tuloksia tai negatiivisia muutoksia, ohjelma kirjaa varaston määrien muutokset nimiketapahtumiin ja varaston arvojen muutokset arvotapahtumiin. Prosessin seuraava vaihe on kirjata varastoarvot pääkirjanpidon varastotileille.  

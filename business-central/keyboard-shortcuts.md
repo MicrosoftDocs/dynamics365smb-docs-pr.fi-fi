@@ -3,19 +3,19 @@ title: Pikanäppäimet
 description: Pikanäppäinyhdistelmien täydellinen luettelo tietojen tehokasta käyttämistä varten.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 11/26/2020
 ms.author: bholtorf
-ms.openlocfilehash: f3c36a1b5d3477d6564c66ede9c1a6bff51281df
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 23ab336997bdc89e6de617676e2c2f5e2bd689e5
+ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4746114"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470485"
 ---
 # <a name="keyboard-shortcuts"></a>Pikanäppäimet
 
@@ -56,7 +56,6 @@ Seuraavassa taulukossa on kuvattu sivun eri elementtien selaamiseen ja käyttäm
 |Alt+Vaihto+N |Sulje juuri luotu sivu ja luo uusi tietue avaamalla uusi sivu. Vastaavasti ALT+F9 kirjaa asiakirjan ja luo uuden.|
 |Alt+T|Avaa **Omat asetukset** -sivu.|
 |Alt+Oikea nuoli|Etsi sen kentän lisätietoja tai taustalla olevia arvoja, joka sisältää ![MuokkausApu](media/assist-edit-icon.png "MuokkausApu-painike")-painikkeen. Tätä pikanäppäintä käytetään silloin, kun tavallista avattavan luettelon painiketta (Alt+alanuoli) käytetään samassa kentässä toiseen tarkoitukseen.|
-|Shift+F12|Avaa roolinhallinta, ominaisuuksien yleiskuvaus. Lisätietoja on kohdassa [Sivujen etsiminen roolinhallinnalla](ui-role-explorer.md).|
 |Ctrl+Alt+Vaihto+C|Näytä yrityksen tunnuksessa olevat tiedot.|
 |Ctrl+Alt+F1|Avaa ja sulje sivun tarkastusruutu Sivun tarkastusruudussa on tietoja sivusta, kuten sen lähdetaulukko, kentät, suodattimet ja laajennukset.<br /><br />Lisätietoja on kohdassa [Tarkastussivut](across-inspect-page.md).|
 |Ctrl+C |Kopioi kentän arvo. Jos kohdistus on kentässä etkä ole valinnut kentässä tekstiä, koko arvo kopioidaan. Jos olet valinnut kentässä tekstiä, vain valittu teksti valitaan.|
@@ -214,7 +213,19 @@ Päivämääräkenttää määrittäessäsi voit syöttää päivämäärän man
 |Ctrl+-|Loitonna nykyistä sivua.|  
 |Ctrl+0|Lähennä tai loitonna nykyistä sivua 100 prosentin kokoon.|  
 
-## <a name="see-also"></a>Katso myös .
+## <a name="keyboard-shortcuts-for-role-explorer"></a><a name="roleexplorer"></a>Roolien hallinnan pikanäppäimet
+
+Roolien hallinta tarjoaa yleiskatsauksen ja nopean pääsyn kaikkiin roolisi käytettävissä oleviin liiketoimintaominaisuuksiin. Lisätietoja on kohdassa [Sivujen etsiminen roolinhallinnalla](ui-role-explorer.md).
+
+|Paina näitä näppäimiä<br />(macOS)|Tehtävä|
+|--------------------------------|----------|
+|Shift+F12|Avaa roolien hallinta.|
+|F3|Avaa **Etsi**-ruutu roolien hallinnassa löytääksesi ominaisuuksia tietyllä hakusanalla tai termillä.|
+|F3 tai Ctrl+ alanuoli|Siirtää kohdistuksen roolien hallinnan seuraavaan löytyneeseen toimintoon. F3 siirtää kohdistuksen **Etsi**-ruutuun viimeisen löydetyn ominaisuuden jälkeen.|
+|VAIHTO + F3 tai CTRL + YLÄNUOLI|Siirrä kohdistus roolien hallinnan edelliseen löytyneeseen toimintoon.|
+|Ctrl+Shift|Laajenna tai tiivistä kaikki alisolmut ylimmän tason solmujen lisäksi, kun valitset **Laajenna**- tai **Tiivistä**-toiminnon.|
+
+## <a name="see-also"></a>Katso myös
 
 [Näppäimistön Pikaohje - Vain PC](keyboard-shortcuts-cheatsheet.md)  
 [Aputoiminnot](ui-accessibility.md)  

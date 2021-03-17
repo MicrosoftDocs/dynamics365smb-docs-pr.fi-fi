@@ -1,21 +1,21 @@
 ---
-title: Kirjaaminen suoraan pääkirjanpitoon yleisten päiväkirjojen avulla| Microsoft Docs
-description: Tutustu siihen, miten päiväkirjoja käytetään rahoitustapahtumien kirjaamisessa pääkirjanpitotileille sekä muille tileille, kuten pankki- ja toimittajatileille.
+title: Kirjaaminen suoraan pääkirjanpitoon yleisten päiväkirjojen avulla
+description: Tutustu siihen, miten päiväkirjoja käytetään rahoitustapahtumien kirjaamisessa pääkirjanpitotileille sekä muille tileille, kuten pankki- ja toimittajatileille. Käytä toistuvia päiväkirjoja jaksotusten kirjaamiseen ja saldojen kohdistamiseen dimension arvojen mukaan.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: journals, recurring, accrual
-ms.date: 10/01/2020
+ms.date: 02/15/2021
 ms.author: edupont
-ms.openlocfilehash: 18c36bf409b2bb5d4e67eeccfdf16193ec4dac62
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: c6a2c6ed0c3fe163f64a3eb7d55f8e128f53a50d
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4760091"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393597"
 ---
 # <a name="working-with-general-journals"></a>Yleisten päiväkirjojen käyttäminen
 
@@ -74,24 +74,27 @@ Jos olet määrittänyt päiväkirjan erille oletusvastatilit **Yleiset päiväk
 >   ALV lasketaan erikseen päätiliä varten ja vastatiliä varten, joten niillä voi olla eri ALV-prosentit.
 
 ## <a name="working-with-recurring-journals"></a>Toistuvien tapahtumien päiväkirjojen käyttäminen
-Toistuvien tapahtumien päiväkirja on yleinen päiväkirja, jossa on erityiskenttiä sellaisten tapahtumien hallintaa varten, jotka kirjataan usein vähäisin muutoksin tai ilman muutoksia. Näitä ovat esimerkiksi vuokra, lehtitilaukset, sähkö ja lämmitys. Käyttämällä näitä kenttiä toistuviin tapahtumiin, voit kirjata sekä vakiosummia että muuttuvia summia. Voit myös määrittää automaattiset peruutustapahtumat kirjauspäivämäärän jälkeisenä päivänä. Voit myös käyttää kohdistusavaimia ja jakaa toistuvat tapahtumat eri tileille. Lisätietoja on kohdassa [Toistuvien tapahtumien päiväkirjan summien kohdistaminen useisiin tileihin](ui-work-general-journals.md#allocating-recurring-journal-amounts-to-several-accounts).
+Toistuvien tapahtumien päiväkirja on yleinen päiväkirja, jossa on erityiskenttiä sellaisten tapahtumien hallintaa varten, jotka kirjataan usein vähäisin muutoksin tai ilman muutoksia. Näitä ovat esimerkiksi vuokra, lehtitilaukset, sähkö ja lämmitys. Käyttämällä näitä kenttiä toistuviin tapahtumiin, voit kirjata sekä vakiosummia että muuttuvia summia. Voit myös määrittää automaattiset peruutustapahtumat kirjauspäivämäärän jälkeisenä päivänä. Voit myös käyttää kohdistusavaimia ja jakaa toistuvat tapahtumat eri tileille. Lisätietoja on kohdassa [Toistuvien tapahtumien päiväkirjan summien kohdistaminen useisiin tileihin](#allocating-recurring-journal-amounts-to-several-accounts).
 
 Toistuvassa päiväkirjassa säännöllisesti kirjattavat tapahtumat tarvitsee syöttää vain kerran. Siten tilit, dimensiot , dimension arvot ym. tiedot jotka syötät, säilyvät päiväkirjassa kirjauksen jälkeen. Jos sinun tarvitsee tehdä muutoksia, voit tehdä niitä jokaisen kirjauksen yhteydessä.
 
 ### <a name="recurring-method-field"></a>Toistotapa-kenttä
+
 Tämä kenttä määrittää, miten päiväkirjan rivin summaa käsitellään kirjauksen jälkeen. Jos esimerkiksi haluat käyttää samaa summaa aina kun kirjaat rivin, voit valita, että summa säilyy rivillä. Jos käytät rivillä samoja tilejä ja tekstiä, mutta summa vaihtelee kirjattaessa, voit valita sen vaihtoehdon, että summa poistuu riviltä kirjauksen jälkeen.
 
-| Vastaanottaja | Katso |
+| Tehtävä | Katso |
 | --- | --- |
-|Kiinteä|Summa säilyy päiväkirjan rivillä kirjauksen jälkeen.|
-|Muuttuva|Ohjelma poistaa summan päiväkirjan riviltä kirjauksen jälkeen.|
-|Saldo|Rivin tilille kirjattu summa jaetaan niiden tilien kesken, jotka on määritelty riville Yleisen päiväkirjan kohdistus -taulukossa. Tilin saldoksi tulee siten nolla. Muista täyttää **Kohdistus-%**-kenttä **Kohdistukset**-sivulla. Lisätietoja on kohdassa [Toistuvien tapahtumien päiväkirjan summien kohdistaminen useisiin tileihin](ui-work-general-journals.md#allocating-recurring-journal-amounts-to-several-accounts).|
-|Muuttuva vastakirjaus|Päiväkirjan rivillä oleva summa säilyy kirjauksen jälkeen, ja vastakirjaus kirjataan seuraavana päivänä.|
-|Muuttuva vastakirjaus|Päiväkirjan rivillä oleva summa poistuu kirjauksen jälkeen, ja vastakirjaus kirjataan seuraavana päivänä.|
-|Vasta-saldo|Rivin tilille kirjattu summa jaetaan niiden tilien kesken, jotka on määritelty riville **Kohdistukset**-sivulla. Tilin saldoksi määritetään nolla ja vastatapahtuma kirjataan seuraavana päivänä.|
+|K Kiinteä|Summa säilyy päiväkirjan rivillä kirjauksen jälkeen.|
+|M Muuttuva|Ohjelma poistaa summan päiväkirjan riviltä kirjauksen jälkeen.|
+|S Saldo|Rivin tilille kirjattu summa jaetaan niiden tilien kesken, jotka on määritelty riville Yleisen päiväkirjan kohdistus -taulukossa. Tilin saldoksi tulee siten nolla. Muista täyttää **Kohdistus-%**-kenttä **Kohdistukset**-sivulla. Lisätietoja on kohdassa [Toistuvien tapahtumien päiväkirjan summien kohdistaminen useisiin tileihin](#allocating-recurring-journal-amounts-to-several-accounts).|
+|KV Kiinteä vastakirjaus|Päiväkirjan rivillä oleva summa säilyy kirjauksen jälkeen, ja vastakirjaus kirjataan seuraavana päivänä.|
+|MV Muuttuva vastakirjaus|Päiväkirjan rivillä oleva summa poistuu kirjauksen jälkeen, ja vastakirjaus kirjataan seuraavana päivänä.|
+|VS Vastasaldo|Rivin tilille kirjattu summa jaetaan niiden tilien kesken, jotka on määritelty riville **Kohdistukset**-sivulla. Tilin saldoksi määritetään nolla ja vastatapahtuma kirjataan seuraavana päivänä.|
+|SD Saldo dimensioittain|Päiväkirjan rivi kohdistaa kustannukset, jotka perustuvat KP-tilin saldoon dimensioittain. Sinua pyydetään asettamaan dimensiosuodattimia, joiden avulla lasketaan lähteen KP-tilin saldo dimensioittain, josta haluat kohdistaa kustannukset. Vaihtoehtoisesti voit valita **Aseta dimensiosuodattimet** -toiminnon myöhemmin.|
+|VSD Vastasaldo dimensioittain|Päiväkirjan rivi kohdistaa kustannukset, jotka perustuvat KP-tilin vastasaldoon dimensioittain. Sinua pyydetään asettamaan dimensiosuodattimia, joiden avulla lasketaan lähteen KP-tilin saldo dimensioittain, josta haluat kohdistaa kustannukset. Vaihtoehtoisesti voit valita **Aseta dimensiosuodattimet** -toiminnon myöhemmin.|
 
 > [!NOTE]  
->  ALV-kentät voidaan täyttää joko toistuvan päiväkirjan rivillä tai kohdistuspäiväkirjan rivillä, mutta ei molemmilla. Siten ne voidaan täyttää **Kohdistukset**-sivulla vain, jos vastaavia kenttiä ei ole täytetty toistuvassa päiväkirjassa.
+> ALV-kentät voidaan täyttää joko toistuvan päiväkirjan rivillä tai kohdistuspäiväkirjan rivillä, mutta ei molemmilla. Siten ne voidaan täyttää **Kohdistukset**-sivulla vain, jos vastaavia kenttiä ei ole täytetty toistuvassa päiväkirjassa.
 
 ### <a name="recurring-frequency-field"></a>Toistotiheys-kenttä
 Tämä kenttä määrittää, kuinka usein päiväkirjarivillä oleva tapahtuma kirjataan. Se on Päivämäärän kaava -kenttä, joka on täytettävä toistuvien tapahtumien päiväkirjan riveille. Lisätietoja on kohdassa [Päivämäärän kaavojen käyttäminen](ui-enter-date-ranges.md#using-date-formulas).
@@ -113,11 +116,19 @@ Kentän käyttämisessä on se etu, että rivi ei poistu päiväkirjasta heti, j
 Jos kenttä on tyhjä, rivi kirjataan joka kerta, kun kirjaat siihen asti, kun se poistetaan päiväkirjasta.
 
 ### <a name="allocating-recurring-journal-amounts-to-several-accounts"></a>Toistuvien tapahtumien päiväkirjan summien kohdistaminen useisiin tileihin
+
 Valitse **Toistuva yleinen päiväkirja** -sivulla **Kohdistukset**-toiminto, kun haluat nähdä, miten toistuvien tapahtumien päiväkirjan rivin summat on kohdistettu useille tileille ja useisiin dimensioihin. Toiminnon avulla voit myös hallita näitä summia. Huomaa, että kohdistus toimii toistuvien tapahtumien päiväkirjan rivin vastatilin rivinä.
 
 Kuten toistuvien tapahtumien päiväkirjassa, sinun tarvitsee syöttää kohdistus vain kerran. Kohdistus säilyy kohdistuspäiväkirjassa kirjauksen jälkeen, joten sinun ei tarvitse syöttää summia ja kohdistuksia aina kun kirjaat toistuvan päiväkirjan rivin.
 
-Jos Toistotapa-kenttään toistuvien tapahtumien päiväkirjassa on asetettu **Saldo** tai **Vasta-saldo**, ohjelma ei huomioi mitään dimension arvokoodeja toistuvassa päiväkirjassa, kun tili on nollattu. Jos siis kohdistat toistuvan rivin useampaan dimension arvoon **Kohdistukset**-sivulla, syntyy vain yksi vastakirjaus. Jos kohdistat toistuvan rivin, jolla on dimension arvon koodi, et voi syöttää samaa koodia **Kohdistukset**-sivulle. Jos teet niin, dimension arvot ovat virheellisiä.
+Jos *Toistotapa*-kenttään toistuvien tapahtumien päiväkirjassa on asetettu **Saldo** tai **Vastasaldo**, ohjelma ei huomioi mitään dimension arvokoodeja toistuvassa päiväkirjassa, kun tili on nollattu. Jos siis kohdistat toistuvan rivin useampaan dimension arvoon **Kohdistukset**-sivulla, syntyy vain yksi vastakirjaus. Jos kohdistat toistuvan rivin, jolla on dimension arvon koodi, et voi syöttää samaa koodia **Kohdistukset**-sivulle. Jos teet niin, dimension arvot ovat virheellisiä.  
+
+Jos haluat kohdistaa toistuvan päiväkirjan arvot dimensioiden perusteella, määritä **Toistotapa**-kenttään sen sijaan **Saldo dimensioittain** tai **Vastasaldo dimensioittain**. Jos Toistotapa-kenttään toistuvien tapahtumien päiväkirjassa on asetettu **Saldo dimensioittain** tai **Vastasaldo dimensioittain**, ohjelma huomioi dimension arvokoodit toistuvassa päiväkirjassa, kun tili on nollattu. Jos kohdistat toistuvan rivin useisiin dimension arvoihin **Kohdistukset**-sivulla, ohjelma luo useita peruuttavia tapahtumia, jotka vastaavat niiden dimensioarvoyhdistelmien määrää, joista saldo koostuu. Jos kohdistat tilin saldon toistuvan päiväkirjan kautta, joka sisältää dimensioarvokoodin, käytä **Saldo dimensioittain**- tai **Vastasaldo dimensioittain** -kohteita, jotta voit varmistaa, että dimensioarvot tasapainotetaan tai palautetaan oikein lähdetililtä.  
+
+Yritykselläsi on esimerkiksi pari liiketoiminta yksikköä ja kourallinen osastoja, jotka valvojat ovat asettaneet dimensioiksi. Ostolaskutapahtumaprosessin nopeuttamiseksi päätät vaatia, että ostoreskontran kirjaajat voivat syöttää vain liiketoimintayksikön dimensiot. Koska jokaisella liiketoimintayksiköllä on erityiset kohdistusavaimet Osasto-dimensiolle, esimerkiksi työntekijöiden lukumäärän perusteella, voit käyttää **SD Saldo dimensioittain** tai **VSD Vastasaldo dimensioittain** -toistumismenetelmiä ja kohdistaa kustannukset uudelleen kunkin liiketoimintayksikön osalta oikeisiin osastoihin kohdistusavainten perusteella.  
+
+> [!NOTE]
+> Kohdistusriveillä määritettyjä dimensioita ei lasketa automaattisesti, ja sinun täytyy määrittää, mitkä dimension arvot on määritettävä kohdistustileille. Jos haluat säilyttää linkin lähdetili- ja kohdistustilidimension välillä, on suositeltavaa käyttää sen sijaan [kustannuslaskennan](finance-about-cost-accounting.md) ominaisuuksia.
 
 #### <a name="example-allocating-rent-payments-to-different-departments"></a>Esimerkki: Vuokramaksujen kohdistaminen eri osastoihin
 Jos maksat vuokraa joka kuukausi, olet syöttänyt vuokrasumman kassatilille toistuvien tapahtumien päiväkirjan rivillä. **Kohdistukset**-sivulla voit jakaa kulun useamman osaston (Osasto-dimension) kesken osastojen pinta-alaneliöiden mukaan. Laskenta perustuu kunkin rivin kohdistusprosenttiin. Voit syöttää erilaisia tilejä jokaiselle eri kohdistusriville (jos myös vuokra jaetaan useammalle tilille) tai voit syöttää saman tilin erilaisilla dimension arvokoodeilla Osasto-dimension jokaisella rivillä.

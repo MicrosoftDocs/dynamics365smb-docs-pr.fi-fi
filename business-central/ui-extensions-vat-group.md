@@ -4,19 +4,19 @@ description: Voit olla yhteydessä muihin yrityksiin, jos haluat muodostaa alv-r
 author: bholtorf
 manager: annbe
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: VAT, value added tax, report
 ms.date: 10/06/2020
 ms.author: bholtorf
-ms.openlocfilehash: ebe3c8748da04a2552f8f3d10967303459ba23c4
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: f3fb73580eebc9468b0c66408adf758257b3a658
+ms.sourcegitcommit: 026484766988b8727649c02fc8990b0646999bf1
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757040"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5498585"
 ---
 # <a name="the-vat-group-management-extension"></a>ALV-ryhmän hallinnan laajennus
 
@@ -64,7 +64,7 @@ Kun luot sovelluksen rekisteröinnin Azure Active Directory -ohjelmassa, sinun t
 * Valitse **Tuetut tili tyypit** -kohdassa **Todennus**-osassa **tilit mistä tahansa organisaatiohakemistosta** (mikä tahansa Azure AD -hakemisto - palveluna tarjottava sovellus).
 * **Luo sertifikaatit & salaisuudet** -osassa uusi asiakassalaisuus ja merkitse arvo muistiin. Alv-ryhmän jäsenet tarvitsevat salaisuuden, kun he muodostavat yhteyden ryhmän edustajaan.
 * Lisää käyttöoikeudet **API-oikeudet**-osiossa [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmaan. Ota käyttöön delegoitu käyttöoikeus kohteisiin **Financials.ReadWrite.All** ja **user_impersonation**.
-* Huomioi **Sovelluksen (asiakkaan) tunnus** **Yhteenveto**-osassa . Alv-ryhmän jäsenet tarvitsevat tunnuksen, kun he muodostavat yhteyden ryhmän edustajaan. 
+* Huomioi **Sovelluksen (asiakkaan) tunnus** **Yhteenveto**-osassa. Alv-ryhmän jäsenet tarvitsevat tunnuksen, kun he muodostavat yhteyden ryhmän edustajaan. 
 
 ## <a name="vat-group-member-setup"></a>ALV-ryhmän jäsenasetukset
 Määritä alv-ryhmän jäsen suorittamalla **Määritä alv-ryhmän hallinnan** avustettu asetusopas. 
@@ -111,6 +111,9 @@ Kun alv-ryhmän edustajan ALV-ilmoitus on lähetetty viranomaisille koko ryhmän
 
 > [!NOTE]
 > ALV-ryhmän jäsenet voivat korjata lähetetyt alv-palautukset niin kauan kuin ryhmän edustaja ei ole vapauttanut konsernin ALV-tuottoa. Korjauksen tekemistä varten alv-ryhmän jäsenen täytyy luoda uusi ALV-palautus ALV-palautus jaksolle ja lähettää se alv-ryhmän edustajalle. Alv-ryhmän edustajan puolelta Viimeisin ALV-palautus lisätään **ALV-palautus**-sivulle. 
+
+> [!IMPORTANT]
+> ALV-ryhmien toimintoa tuetaan vain niillä markkina-alueilla, joissa [!INCLUDE[prod_short](includes/prod_short.md)] käyttää ALV-palautuksista ja ALV-palautusjaksoista koostuvaa ALV-kehystä. Et voi käyttää ALV-ryhmiä muilla markkina-alueilla, joilla on muita paikallisia ALV-raportoinnin toteutuksia, kuten Itävalta, Saksa, Italia, Espanja ja Sveitsi. 
 
 ## <a name="see-also"></a>Katso myös
 [Myynnin ja ostojen ALV:n käsitteleminen](finance-work-with-vat.md)  

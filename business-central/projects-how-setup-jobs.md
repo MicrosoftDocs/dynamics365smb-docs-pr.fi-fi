@@ -3,17 +3,17 @@ title: Projektihintojen ja projektin kirjausryhmien määrittäminen| Microsoft 
 description: Tässä ohjeaiheessa kerrotaan, miten yleiset projektitiedot määritetään, sekä määritetään projektin nimikkeiden, resurssien sekä KP-tilien ja projektien kirjausryhmien hinnat.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: project management
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6fe583e93261b58d13802eadef5f3d807045fa20
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 04f5538b7c904b64c921cc50f64924bcaef93401
+ms.sourcegitcommit: a9b771cc2b4b75aed835efca63ef7a6a44219d59
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4758640"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "5476768"
 ---
 # <a name="set-up-jobs"></a>Projektien määrittäminen
 
@@ -47,44 +47,31 @@ Kun **Käytä käyttölinkkiä oletusarvoisesti** -valintaruutu on valittuna ja 
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") -kuvake, syötä **Töiden määritys lukitukset** ja valitse sitten aiheeseen liittyvä linkki.
 2. Valitse **Käytä käyttölinkkiä oletusarvoisesti** -valintaruutu.
 
-## <a name="to-set-up-prices-for-job-resources"></a>Projektin resurssien hintojen määrittäminen
-Voit määrittää projektin resursseja varten tietyt hinnat. Tähän käytetään **Projektiresurssien hinnat** -sivua.
+## <a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-jobs"></a>Hintojen määrittäminen töiden nimikkeille, resursseille ja KP-tileille
+> [!NOTE]
+> Vuoden 2020 julkaisuaallossa 2 julkaisimme uudet prosessit hintojen ja alennusten määritykseen ja hallintaan. Jos olet uusi asiakas, käytät uutta käyttökokemusta. Jos olet jo asiakas, uuden käyttöokemuksen käyttö riippuu siitä, onko järjestelmänvalvoja ottanut käyttöön **Uusi myyntihinnoittelukokemus** -ominaisuuden päivityksen **ominaisuuksien hallinnassa**. Lisätietoja on kohdassa [Tulevien ominaisuuksien ottaminen käyttöön etuajassa](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
+Voit määrittää hintoja työhön liittyville nimikkeille, resursseille ja KP-tileille. 
+
+#### <a name="current-experience"></a>[Nykyinen kokemus](#tab/current-experience)
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Työt** ja valitse sitten liittyvä linkki.  
-2. Valitse asianmukainen projekti ja valitse sitten **Resurssi**-toiminto.
-3. Täytä **Projektiresurssien hinnat** -sivulla tarvittavat kentät.
+2. Valitse projekti ja valitse sitten **Resurssi**- **Nimike**- tai **KP-tili**-toiminto.
+3. Täytä **Projektiresurssien hinnat**-, **Projektinimikkeiden hinnat**- tai **Projektin kirjanpitotilin hinnat** -sivulla tarvittavat kentät.
 
-**Projektitehtävän nro**-, **Työtyyppi**-, **Valuutan koodi**-, **Rivialennus-%**- ja **Yksikkökustannustekijä**-kentän valinnaisia tietoja käytetään projektin suunnitteluriveillä ja käyttöpäiväkirjoissa, kun tämä resurssi syötetään ja lisätään projektiin.  
+Seuraavasta taulukosta näkee, miten valinnaisten kenttien tietoja käytetään projektin suunnitelma riveillä ja päiväkirjoissa, kun projektille valitaan resurssi, nimike tai kirjanpitotili.
 
-Resurssin **Yksikköhinta**-kentän arvoa käytetään projektin suunnitteluriveillä ja projektipäiväkirjoissa, kun tämä resurssi, resurssiryhmään liitetty resurssi tai mikä tahansa resurssi määritetään.  
+|Sarake1  |Sarake2  |
+|---------|---------|
+|**Projektiresurssit**|**Projektitehtävänro**-, **Työtyyppi**-, **Valuuttakoodi**-, **Rivialennus-%**- ja **Yksikkökustannustekijä**-kentät. Resurssin **Yksikköhinta**-kentän arvoa käytetään projektin suunnitteluriveillä ja projektipäiväkirjoissa, kun tämä resurssi, resurssiryhmään liitetty resurssi tai mikä tahansa resurssi määritetään. Huomaa, että tämä hinta ohittaa aina aiemmin määritetyissä **Resurssihinta / resurssiryhmän hinta** -sivulla olevat hinnat.|
+|**Projektinimikkeet**|**Projektitehtävänro**-, **Valuuttakoodi**- ja **Rivialennus-%**-kentät. Nimikkeen **Yksikköhinta**-kentän arvoa käytetään projektin suunnitteluriveillä ja projektipäiväkirjoissa tämän nimikkeen syöttämisen yhteydessä. Huomaa, että tämä hinta ohittaa aina nimikkeiden normaalin asiakashinnan (parhaan hinnan mekanismi). Jos haluat käyttää säännöllisiä asiakashintamekanismeja, älä luo projektille projektinimikkeiden hintoja.|
+|**Kirjanpitotilit**|**Projektitehtävän nro**-, **Valuutan koodi**-, **Rivialennus-%**-, **Yksikkökustannustekijä**- ja **Yksikkökustannus**-kentän tietoja käytetään projektin suunnitteluriveillä ja projektipäiväkirjoissa, kun tämä kirjapitotili syötetään ja lisätään projektiin. Pääkirjanpidon projektikulujen **Yksikköhinta**-kentän arvoa käytetään projektin suunnitteluriveillä ja projektipäiväkirjoissa, kun tämä kirjanpitotili syötetään.|
 
-> [!NOTE]  
->   Tämä hinta ohittaa aina aiemmin määritetyissä **Resurssihinta / resurssiryhmän hinta** -sivulla olevat hinnat.
-
-## <a name="to-set-up-prices-for-job-items"></a>Projektinimikkeiden hintojen määrittäminen
-Voit määrittää projektin nimikkeille tietyt hinnat. Tähän käytetään **Projektinimikkeiden hinnat** -sivua.
-
+---
+#### <a name="new-experience"></a>[Uusi kokemus](#tab/new-experience)
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Työt** ja valitse sitten liittyvä linkki.  
-2. Valitse asianmukainen projekti ja valitse sitten **Nimike**-toiminto.
-3. Täytä **Projektinimikkeen hinnat** -sivulla tarvittavat kentät.
+2. Valitse soveltuva projekti ja valitse sitten **Myyntihinnastot**-toiminto.
 
-**Projektitehtävän nro**-, **Valuutan koodi**- ja **Rivialennus-%**-kentän valinnaisia tietoja käytetään projektin suunnitteluriveillä ja projektipäiväkirjoissa, kun kyseessä oleva nimike syötetään tai lisätään projektiin.  
-
-Nimikkeen **Yksikköhinta**-kentän arvoa käytetään projektin suunnitteluriveillä ja projektipäiväkirjoissa tämän nimikkeen syöttämisen yhteydessä.  
-
-> [!NOTE]  
->   Tämä hinta ohittaa aina nimikkeiden normaalin asiakashinnan (parhaan hinnan mekanismi). Jos haluat käyttää säännöllisiä asiakashintamekanismeja, älä luo projektille projektinimikkeiden hintoja.
-
-## <a name="to-set-up-prices-for-job-general-ledger-accounts"></a>Kirjanpitotilin hintojen määrittäminen
-Määritä hinnat projektin kirjanpidon kuluille. Tähän käytetään **Projektin kirjanpitotilin hinnat** -sivua.
-
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Työt** ja valitse sitten liittyvä linkki.  
-2. Valitse asianmukainen projekti ja valitse sitten **KP-tili**-toiminto.  
-3. Täytä **Projektin kirjanpitotilin hinnat** -sivulla tarvittavat kentät.
-
-**Projektitehtävän nro**-, **Valuutan koodi**-, **Rivialennus-%**-, **Yksikkökustannustekijä**- ja **Yksikkökustannus**-kentän valinnaisia tietoja käytetään projektin suunnitteluriveillä ja projektipäiväkirjoissa, kun tämä kirjapitotili syötetään ja lisätään projektiin.  
-
-Pääkirjanpidon projektikulujen **Yksikköhinta**-kentän arvoa käytetään projektin suunnitteluriveillä ja projektipäiväkirjoissa, kun tämä kirjanpitotili syötetään.
+---
 
 ## <a name="to-set-up-job-posting-groups"></a>Projektin kirjausryhmien määrittäminen
 Yksi näkökulma projektien suunnittelussa on sen päättäminen, mitä kirjaustilejä projektin kustannuslaskentaan käytetään. Projektien kirjaus edellyttää, että määrität kullekin projektin kirjausryhmälle tilit kirjausta varten. Kirjausryhmä edustaa linkkiä työn ja sen kirjanpitokäsittelyn välillä. Kun luot työn, määrität kirjausryhmän ja oletusarvon mukaan jokainen tehtävä, jonka luot työlle, liittyy kyseiseen kirjausryhmään. Voit kuitenkin ohittaa oletusarvon tehtävien luonnin yhteydessä ja valita sopivamman kirjausryhmän.  

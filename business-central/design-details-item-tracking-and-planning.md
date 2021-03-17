@@ -3,19 +3,19 @@ title: Rakennetiedot – Nimikkeen seuranta ja suunnittelu | Microsoft Docs
 description: Nimikkeen seurantanumerot on sovitettu täysin yhteen tilausseurannan tietueiden kanssa, koska ne ovat tallennettu varausjärjestelmään.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4f9fd9287055bed116201d13417a6a392cf9b477
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5cb0e5616bb2b04fba3c8819f58f8da2f396601d
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926995"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390972"
 ---
 # <a name="design-details-item-tracking-and-planning"></a>Rakennetiedot: nimikkeen seuranta ja suunnittelu
 Nimikkeen seurantanumerot on sovitettu täysin yhteen tilausseurannan tietueiden kanssa, koska ne ovat tallennettu varausjärjestelmään. Tämä tarkoittaa sitä, että nimikkeille, joilla on tilauksen seurantatietueet, voidaan määrittää nimikkeen seurantanumerot. Käänteisesti, seurantanumerot omaavat nimikkeet voivat muuttua tilauksen seurantatietueiksi. Lisätietoja on kohdassa [Rakennetiedot: nimikeseurannan rakenne](design-details-item-tracking-design.md).

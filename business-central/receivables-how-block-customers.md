@@ -3,19 +3,19 @@ title: Myynnin estäminen asiakkaille
 description: Voit tarvittaessa estää asiakasta sisältymästä myyntiasiakirjoihin ja muihin myyntitapahtumiin.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dc8014cf0896db1ebbc5f0c5ea22e0f160c1b06d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8401b02677be48d06de2c3dbd67efd1ea8dd18cd
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926545"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392697"
 ---
 # <a name="block-customers"></a>Asiakkaiden estäminen
 Voit estää asiakkaan esimerkiksi maksukyvyttömyyden vuoksi niin, että asiakasta ei voi lisätä myyntiasiakirjaan tai asiakkaalle ei voi kirjata tapahtumia.
@@ -34,7 +34,7 @@ Seuraavassa taulukossa kuvaillaan eri asiakkaiden estoasetukset.
 ## <a name="to-block-a-customer"></a>Asiakkaan estäminen  
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Asiakkaat** ja valitse sitten liittyvä linkki.
 2. Valitse asiakas ja valitse sitten **Muokkaa**-toiminto.
-3. Valitse**Estetty**-kentässä, mitä haluat estää, kuten yllä olevassa taulukossa on kuvattu.
+3. Valitse **Estetty**-kentässä, mitä haluat estää, kuten yllä olevassa taulukossa on kuvattu.
 
 ## <a name="see-also"></a>Katso myös  
 [Uusien asiakkaiden rekisteröinti](sales-how-register-new-customers.md)  

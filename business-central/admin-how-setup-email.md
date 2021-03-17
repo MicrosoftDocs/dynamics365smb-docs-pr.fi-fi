@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
 ms.date: 06/15/2020
 ms.author: bholtorf
-ms.openlocfilehash: 44fb1f467b0b44c41456a64c8de3f5ae9dc85786
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: b683a8567afbbec812a229e8e8ee0fda81d55bfb
+ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752748"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470435"
 ---
 # <a name="set-up-email"></a>Määritä sähköposti
 Ihmiset yrityksissä lähettävät päivittäin sähköpostitse tietoja ja asiakirjoja, kuten myynti- ja ostotilauksia ja laskuja. Järjestelmänvalvojat voivat helpottaa tätä yhdistämällä yhden tai useamman sähköpostitilin [!INCLUDE[prod_short](includes/prod_short.md)] -sovellukseen, joten voit lähettää asiakirjoja avaamatta sähköpostisovellusta. Voit kirjoittaa jokaisen viestin yksitellen perusmuotoilutyökaluilla, kuten fontilla, tyyleillä, väreillä ja niin edelleen, ja lisätä liitteitä, joiden koko on enintään 100 Mt. Järjestelmänvalvojat voivat myös määrittää raporttiasetteluja, jotka sisältävät vain asiakirjojen tärkeimmät tiedot. Lisätietoja on kohdassa [Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md).
@@ -37,7 +37,7 @@ Seuraavassa taulukossa kuvataan oletusarvoisesti käytettävissä olevat sähkö
 
 |Laajennus  |Kuvaus  |Esimerkkejä siitä, milloin käytetään  |
 |---------|---------|---------|
-|**Microsoft 365**|Kaikki lähettävät sähköpostia jaetusta Exchange Online -postilaatikosta.|Kun kaikki viestit tulevat samalta osastolta, esimerkiksi myyntiorganisaatiosi lähettää viestejä tilistä sales@cronus.com. Tämä edellyttää, että määrität jaetun postilaatikon Office 365 -hallintakeskuksessa. Lisätietoja on kohdassa [Jaetut postilaatikot](/Exchange/collaboration/shared-mailboxes/shared-mailboxes.md).|
+|**Microsoft 365**|Kaikki lähettävät sähköpostia jaetusta Exchange Online -postilaatikosta.|Kun kaikki viestit tulevat samalta osastolta, esimerkiksi myyntiorganisaatiosi lähettää viestejä tilistä sales@cronus.com. Tämä edellyttää, että määrität jaetun postilaatikon Office 365 -hallintakeskuksessa. Lisätietoja on kohdassa [Jaetut postilaatikot](/Exchange/collaboration/shared-mailboxes/shared-mailboxes).|
 |**Nykyinen käyttäjä**|Kaikki lähettävät sähköpostia tililtä, jolla he ovat kirjautuneet [!INCLUDE[prod_short](includes/prod_short.md)]iin.|Salli viestintä yksittäisiltä tileiltä.|
 |**Muu (SMTP)**|Lähetä sähköpostit SMTP-protokollan avulla.|Salli tietoliikenne SMTP-sähköpostipalvelimen kautta. |
 
@@ -47,7 +47,7 @@ Seuraavassa taulukossa kuvataan oletusarvoisesti käytettävissä olevat sähkö
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4JsUk]
 
 ## <a name="legacy-smtp-settings-and-the-email---smtp-connector-extension"></a>Vanhat SMTP-asetukset ja Sähköposti – SMTP-yhdistin -laajennus
-Jos käytät jo [!INCLUDE[prod_short](includes/prod_short.md)]ia ja olet määrittänyt sähköpostin vanhojen SMTP-asetusten avulla, voit jatkaa asetusten käyttöä yhdessä Sähköposti – SMTP-yhdistin -laajennuksen avulla. Kun päivitämme [!INCLUDE[prod_short](includes/prod_short.md)]in seuraavaan versioon, kopioimme vanhat SMTP-asetuksesi Sähköposti –SMTP-yhdistin -laajennukseen. Kun päivitys on valmis, järjestelmänvalvoja voi ottaa parannetut sähköpostiominaisuudet käyttöön ja aloitat Sähköposti – SMTP-yhdistin -laajennuksen käyttämisen. Lisätietoja on kohdassa [Tietoja ominaisuuksien hallinnasta](/dynamics365/business-central/dev-itpro/administration/feature-management.md#about-feature-management). SMTP-yhdistin -laajennuksen ja vanhojen asetusten välillä ei kuitenkaan ole synkronointia. Jos muutat laajennuksen SMTP-asetuksia, tee samat muutokset myös vanhoihin SMTP-asetuksiin – tai päinvastoin.
+Jos käytät jo [!INCLUDE[prod_short](includes/prod_short.md)]ia ja olet määrittänyt sähköpostin vanhojen SMTP-asetusten avulla, voit jatkaa asetusten käyttöä yhdessä Sähköposti – SMTP-yhdistin -laajennuksen avulla. Kun päivitämme [!INCLUDE[prod_short](includes/prod_short.md)]in seuraavaan versioon, kopioimme vanhat SMTP-asetuksesi Sähköposti –SMTP-yhdistin -laajennukseen. Kun päivitys on valmis, järjestelmänvalvoja voi ottaa parannetut sähköpostiominaisuudet käyttöön ja aloitat Sähköposti – SMTP-yhdistin -laajennuksen käyttämisen. Lisätietoja on kohdassa [Tietoja ominaisuuksien hallinnasta](/dynamics365/business-central/dev-itpro/administration/feature-management#about-feature-management). SMTP-yhdistin -laajennuksen ja vanhojen asetusten välillä ei kuitenkaan ole synkronointia. Jos muutat laajennuksen SMTP-asetuksia, tee samat muutokset myös vanhoihin SMTP-asetuksiin – tai päinvastoin.
 
 > [!NOTE]
 > Jos sinulla on mukautuksia, jotka perustuvat vanhaan SMTP-sähköpostiasetukseen, on mahdollista, että jokin menee vikaan mukautusten yhteydessä, jos aloitat sähköpostilaajennusten käyttämisen. Microsoft suosittelee, että määrität ja testaat laajennuksia, ennen kuin otat käyttöön toimintovalitsimen parannetuille sähköpostiominaisuuksille.
@@ -157,7 +157,7 @@ Seuraavaksi [!INCLUDE[prod_short](includes/prod_short.md)] yhdistetään Exchang
 > * Uudelleenohjauksen URI-osoite (valinnainen)
 > * Asiakasohjelman salaisuus
 
-Sovelluksen rekisteröimisen yleiset ohjeet: [Pika-aloitus: sovelluksen rekisteröinti Microsoftin käyttäjätietoympäristössä](/azure/active-directory/develop/quickstart-register-app.md). 
+Sovelluksen rekisteröimisen yleiset ohjeet: [Pika-aloitus: sovelluksen rekisteröinti Microsoftin käyttäjätietoympäristössä](/azure/active-directory/develop/quickstart-register-app). 
 
 ### <a name="connect-prod_short-to-your-app-registration"></a>Yhdistä [!INCLUDE[prod_short](includes/prod_short.md)] sovellusrekisteröintiisi
 Kun olet rekisteröinyt sovelluksen Azure-portaalissa, voit [!INCLUDE[prod_short](includes/prod_short.md)]issa käyttää ohjattua **Sähköpostisovelluksen AAD-rekisteröinti** -määritystä yhdistääksesi [!INCLUDE[prod_short](includes/prod_short.md)]in siihen.

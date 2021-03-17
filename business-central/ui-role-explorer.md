@@ -3,19 +3,19 @@ title: Roolin mukainen sivuihin tutustuminen ja niissä siirtyminen| Microsoft D
 description: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dc96e0f21a85e98bc871cf90972d397f70e1eb44
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: ef447ca9d0341983b43c0c90c96698ccc0eab77a
+ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756691"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470310"
 ---
 # <a name="finding-pages-with-the-role-explorer"></a>Sivujen etsiminen roolienhallinnan avulla
 Saat yleiskuvan kaikista roolin käytössä olevista liiketoimintaominaisuuksista ja muiden roolien toiminnoista, jos siirryt yhden vaiheen eteenpäin. Seuraavassa dokumentaatiossa tätä ominaisuutta kutsutaan *Roolienhallinnaksi*.
@@ -39,7 +39,9 @@ Sivujen avoimet toiminnot on järjestetty ominaisuuksien tai sovellusalueiden mu
 
 - Jos haluat laajentaa tai supistaa solmun, valitse solmu. Tämä koskee ylimmän tason solmuja ja alisolmuja.
 - Voit laajentaa tai kutistaa kaikki sivun ylätason solmut valitsemalla **Laajenna**- tai **Tiivistä** -toiminnon oikeasta yläkulmasta.
-- Jos haluat laajentaa tai kutistaa ylimmän tason solmun ja sen alisolmut, paina Ctrl+Shift-näppäimiä samalla kun valitset **Laajenna**- tai **Tiivistä** -toiminnon oikeassa yläkulmassa.
+- Voit laajentaa/tiivistää kaikki ylimmän tason solmut ja niiden alla olevat alisolmut tekemällä jommankumman seuraavista toimista:
+    - Paina Ctrl+Vaihto-näppäimiä samalla kun valitset **Laajenna** tai **Tiivistä**-toiminnon oikeassa yläkulmassa.
+    - Valitse oikeassa yläkulmassa **...** ja valitse sitten **Laajenna kaikki**- tai **Tiivistä kaikki** -toiminto.
 
 ## <a name="see-also"></a>Katso myös
 [Sivujen ja tietojen etsiminen Kerro, mitä haluat tehdä -toiminnolla](ui-search.md)  

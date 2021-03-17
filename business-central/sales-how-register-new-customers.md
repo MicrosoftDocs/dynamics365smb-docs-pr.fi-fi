@@ -1,21 +1,21 @@
 ---
-title: Uusien asiakkaiden rekisteröinti asiakkaan kortin luonnin avulla | Microsoft Docs
+title: Uusien asiakkaiden rekisteröiminen asiakkaan kortin luomisen avulla
 description: Tässä ohjeaiheessa kerrotaan, miten asiakkaan kortti luodaan rekisteröimään tietoja kustakin uudesta asiakkaasta, jolle myyt.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: client
-ms.date: 10/01/2020
+ms.search.keywords: client, customer, credit
+ms.date: 03/09/2021
 ms.author: edupont
-ms.openlocfilehash: 86527387653d198bc8cf6f7817058b5ff551e1d0
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: d873c1546cebfccc6d2549b1de2b9d111589c553
+ms.sourcegitcommit: 35f7e24c301926b39094aa64fe608afd04fdb8e1
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748317"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5573424"
 ---
 # <a name="register-new-customers"></a>Uusien asiakkaiden rekisteröinti
 
@@ -64,6 +64,29 @@ Asiakasmalli lisätään asiakasmallien luetteloon niin, että sen avulla voit l
 
 Jos olet kirjannut asiakkaalle tapahtuman, et voi poistaa korttia, koska nimiketapahtumia voi tarvita valvontaan. Voit poistaa asiakaskortin, jossa on tapahtumakirjauksia ottamalla yhteyttä Microsoft-kumppaniisi koodin avulla.  
 
+## <a name="managing-credit-limits"></a>Luottorajojen hallinta
+
+Luottoraja-, saldosumma- ja maksuehto-ominaisuudet mahdollistavat sen, että [!INCLUDE [prod_short](includes/prod_short.md)] antaa luottovaroituksen ja erääntynyt saldo -varoituksen tullessasi myyntitilaukseen.  Lisäksi muistutusehto- ja viivästyskuluehto-ominaisuuksien ansiosta voit laskuttaa korkoja ja/tai lisämaksuja.  
+
+Asiakaskortin **Luottoraja**-kentässä määritetään enimmäissumma, jonka sallit asiakkaan ylittää maksusaldon ennen varoitusten antamista. Kun sitten syötät tietoja päiväkirjoihin, tarjouksiin, tilauksiin ja laskuihin, [!INCLUDE [prod_short](includes/prod_short.md)] testaa myynnin tunnistetiedot ja yksittäiset myyntirivit ja tarkistaa, onko luottoraja ylitetty.
+
+Vaikka luottoraja on ylitetty, silti voidaan kirjata. Jos kenttä on jätetty tyhjäksi, tällä asiakkaalla ei ole luottorajaa.  
+
+Voit valita, ettet saa varoitusta siitä, että asiakkaan luottoraja on ylitetty, ja voit määrittää, minkä tyyppisiä varoituksia haluat nähdä.
+
+### <a name="to-specify-credit-limit-warnings"></a>Luottorajavaroitusten määrittäminen
+
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Myyntien ja myyntisaamisten asetukset** ja valitse sitten liittyvä linkki.
+
+2. Valitse **Yleiset**-pikavälilehden **Luottovaroitukset**-kentässä haluamasi vaihtoehdot seuraavassa taulukossa kuvatulla tavalla:
+
+    |Asetus| Kuvaus|
+    |------|------------|
+    |**Molemmat varoitukset**| Kun käytät tätä vaihtoehtoa, ohjelma tarkastaa sekä **Luottoraja**- että **Erääntyvä saldo**-kentät asiakaskortista ja antaa varoituksen, jos asiakas on ylittänyt luottorajansa, ja jos asiakkaalla on erääntynyt saldo.|
+    |**Luottoraja**|Asiakaskortin **Luottoraja**-kentän arvoa verrataan asiakkaan saldoon, ja näyttöön tulee varoitus, jos asiakkaan saldo ylittää kentän arvon.|
+    |**Erääntynyt saldo**|**Erääntynyt saldo** -kenttä asiakkaan kortilla on valittuna ja jos asiakkaalla on erääntyneitä saldoja, näytetään varoitus.|
+    |**Ei varoitusta**|Asiakkaan tilasta ei näytetä varoituksia.|
+
 ## <a name="see-also"></a>Katso myös
 
 [Maksutapojen määrittäminen](finance-payment-methods.md)  
@@ -72,6 +95,5 @@ Jos olet kirjannut asiakkaalle tapahtuman, et voi poistaa korttia, koska nimiket
 [Myynti](sales-manage-sales.md)  
 [Myynnin määrittäminen](sales-setup-sales.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

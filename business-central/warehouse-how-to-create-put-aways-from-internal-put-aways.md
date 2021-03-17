@@ -1,21 +1,21 @@
 ---
-title: Hyllytyksen luominen sisäisestä hyllytyksestä | Microsoft Docs
+title: Hyllytyksen luominen sisäisestä hyllytyksestä
 description: Kun nimikkeet on hyllytetty ja ennen kuin ne poimitaan täyttämään tuotantotilauksen tai toimituksen tarpeita, ne varastoidaan fyysiseen varastoon osaksi saatavilla olevaa varastoa.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5095b4dde92b2d6982bfc8a984f10f5b62454800
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: d0f91182196aebf9b0123225603ed303cd39e66f
+ms.sourcegitcommit: 026484766988b8727649c02fc8990b0646999bf1
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756240"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5498610"
 ---
 # <a name="pick-and-put-away-without-a-source-document"></a>Poimiminen ja hyllyttäminen ilman lähdeasiakirjaa
 Kun nimikkeet on hyllytetty ja ennen kuin ne poimitaan täyttämään tuotantotilauksen tai toimituksen tarpeita, ne varastoidaan fyysiseen varastoon osaksi saatavilla olevaa varastoa.  
@@ -35,19 +35,25 @@ Samoin nimikkeitä voidaan palauttaa fyysiseen varastoon hyllytettäviksi. Nimik
 
 ## <a name="to-create-an-internal-pick"></a>Sisäisen poiminnan luominen  
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **F.var. sisäinen poiminta** ja valitse sitten liittyvä linkki.  
-2.  Syötä **Nro** Kirjoita **Yleinen**-pikavälilehden Nro-kentän ja **Varastopaikkakoodiin**-kentän arvot. **Varastopaikkakoodiin**-kentässä määritetään varastopaikka, josta haluat hakea nimikkeet. Tuotannon yhteydessä tämä varastopaikka olisi saapuvan tuotannon varastopaikka tai avoin tuotannon varastopaikka. Muita tarkoituksia varten tulee valita sellainen Varastopaikkakoodiin-koodi, jonka varastopaikan tyyppiä ei käytetä ohjelmassa poimimiseen – todennäköisesti se on välivarastoinnin, toimituksen tai erityistarkoituksen varastopaikka.  
-3.  Valitse nimike **Nimikkeen nro** -kentästä ja täytä määrät, jotka haluat poimia.  
-4. Valitse **Luo poiminta** -toiminto. Fyysisen varastoinnin poimintaohje on nyt valmis varaston työntekijälle suoritettavaksi.  
+2. Valitse **Uusi**-toiminto.
+3. Anna **Nro** Kirjoita **Yleiset**-pikavälilehden **Sijaintikoodi**- ja **Varastopaikkakoodiin**-kentän arvot. **Varastopaikkakoodiin**-kentässä määritetään varastopaikka, johon haluat sijoittaa keräillyt nimikkeet. Tuotannon yhteydessä tämä varastopaikka olisi saapuvan tuotannon varastopaikka tai avoin tuotannon varastopaikka. Muita tarkoituksia varten tulee valita sellainen varastopaikkakoodi, jonka varastopaikan tyyppiä ei käytetä ohjelmassa poimimiseen – todennäköisesti se on välivarastoinnin, toimituksen tai erityistarkoituksen varastopaikka.  
+4.  Valitse nimike **Nimikkeen nro** -kentästä ja täytä määrät, jotka haluat poimia.  
+5. Valitse **Luo poiminta** -toiminto. Fyysisen varastoinnin poimintaohje on nyt valmis varaston työntekijälle suoritettavaksi. Vaihtoehtoisesti voit valita **Vapautus**-toiminnon ja luoda fyysisen varastoinnin poiminnat käyttämällä **poimintatyökirjaa**. Lisätietoja on kohdassa [Poimintojen suunnitteleminen työkirjassa](warehouse-how-to-plan-picks-in-worksheets.md)
 
 ## <a name="to-create-an-internal-put-away"></a>Sisäisen hyllytyksen luominen  
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **F.var. sisäinen hyllytys** ja valitse sitten liittyvä linkki.  
-2.  Anna **Nro** Täytä **Yleinen**-pikavälilehden Nro-kenttä ja **Var.paikasta**-kenttä. **Var.paikasta**-kentässä määritetään varastopaikka, jossa esimerkiksi tuotannosta fyysiseen varastoon palautetut nimikkeet sijaitsevat.  
-3.  Täytä riveille nimikenumerot ja määrät.  
-4.  Valitse **Luo hyllytys** -toiminto. Fyysisen varastoinnin hyllytysohje on nyt valmis varaston työntekijälle suoritettavaksi.  
+2. Valitse **Uusi**-toiminto.
+3. Kirjoita uuden sisäisen hyllytyksen otsikkoon ainakin **Nro**-kentän arvo. ja **Sijaintikoodi**.
+4. Täytä rivi jokaiselle nimikkeelle, jonka haluat siirtää fyysiseen varastoon. Vain **Nimikkeen nro**- ja **Määrä**-kenttien arvot on määritettävä.
+
+  > [!NOTE]  
+  > Kun valitset **Nimikkeen nro** -kentän, **Varastopaikan sisältöluettelo** avautuu **nimikeluettelon** sijasta. Näin tapahtuu siksi, että haluat hyllyttää nimikkeen, joka on tietyssä varastopaikassa (*varastopaikan sisällössä*), etkä mitä tahansa nimikettä, ja tiedät jo varastopaikan, josta nimike otetaan.  <!--If you filled in **From Bin Code** in the header, the bin content will be filtered by value defined in the **From Bin Code**.-->
+5. Voit täyttää rivit sijainnin varastopaikkojen koko sisällöllä tai suodatetulla sisällöllä valitsemalla **Hae var.paikan sisältö** -toiminnon.  
+6. Valitse **Luo hyllytys** -toiminto. Fyysisen varastoinnin hyllytysohje on nyt valmis varaston työntekijälle suoritettavaksi. Vaihtoehtoisesti voit valita **Vapautus**-toiminnon ja luoda fyysisen varastoinnin hyllytykset käyttämällä **hyllytystyökirjaa**. Lisätietoja on kohdassa [Hyllytysten suunnitteleminen työkirjoissa](warehouse-how-to-plan-put-aways-in-worksheets.md)
 
 ## <a name="see-also"></a>Katso myös  
 [Varastoinninhallinta](warehouse-manage-warehouse.md)  
-[Vaihto-omaisuus](inventory-manage-inventory.md)  
+[Varasto](inventory-manage-inventory.md)  
 [Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md)     
 [Kokoonpanon hallinta](assembly-assemble-items.md)    
 [Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
