@@ -3,35 +3,38 @@ title: Työnkulkujen ottaminen käyttöön | Microsoft Docs
 description: Kun olet luonut työnkulun ja olet varma, että se on valmis, työnkulku on otettava käyttöön.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b04f9edd37c96efb9ee6b215d85335c743de6214
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 802cd2a07a45e459070d821e1a8aab2688d926f2
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916316"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5384447"
 ---
-# <a name="enable-workflows"></a><span data-ttu-id="acaca-103">Työnkulkujen ottaminen käyttöön</span><span class="sxs-lookup"><span data-stu-id="acaca-103">Enable Workflows</span></span>
-<span data-ttu-id="acaca-104">Kun olet luonut työnkulun ja olet varma, että se on valmis, työnkulku on otettava käyttöön.</span><span class="sxs-lookup"><span data-stu-id="acaca-104">When you have created a workflow and you are sure that it is ready to start, you must enable the workflow.</span></span>  
+# <a name="enable-workflows"></a><span data-ttu-id="c8a6a-103">Työnkulkujen ottaminen käyttöön</span><span class="sxs-lookup"><span data-stu-id="c8a6a-103">Enable Workflows</span></span>
+<span data-ttu-id="c8a6a-104">Kun olet luonut työnkulun ja olet varma, että se on valmis, työnkulku on otettava käyttöön.</span><span class="sxs-lookup"><span data-stu-id="c8a6a-104">When you have created a workflow and you are sure that it is ready to start, you must enable the workflow.</span></span>  
 
- <span data-ttu-id="acaca-105">Voit luoda **Työnkulku**-sivulla työnkulun mainitsemalla liittyvät toimet riveillä.</span><span class="sxs-lookup"><span data-stu-id="acaca-105">On the **Workflow** page, you create a workflow by listing the involved steps on the lines.</span></span> <span data-ttu-id="acaca-106">Jokainen vaihe koostuu työnkulun tapahtumasta, jota valvotaan tapahtuman ehtojen mukaan, ja työnkulun vastauksesta, jota valvotaan vastausvaihtoehtojen mukaan.</span><span class="sxs-lookup"><span data-stu-id="acaca-106">Each step consists of a workflow event, moderated by event conditions, and a workflow response, moderated by response options.</span></span> <span data-ttu-id="acaca-107">Työnkulku määritetään täyttämällä työnkulkurivien kentät tapahtumien kiinteistä luetteloista ja vastausarvot, jotka edustavat sovelluskoodin tukemia skenaarioita.</span><span class="sxs-lookup"><span data-stu-id="acaca-107">You define workflow steps by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code.</span></span> <span data-ttu-id="acaca-108">Lisätietoja on kohdassa [Työnkulkujen luominen](across-how-to-create-workflows.md).</span><span class="sxs-lookup"><span data-stu-id="acaca-108">For more information, see [Create Workflows](across-how-to-create-workflows.md).</span></span>  
+ <span data-ttu-id="c8a6a-105">Voit luoda **Työnkulku**-sivulla työnkulun mainitsemalla liittyvät toimet riveillä.</span><span class="sxs-lookup"><span data-stu-id="c8a6a-105">On the **Workflow** page, you create a workflow by listing the involved steps on the lines.</span></span> <span data-ttu-id="c8a6a-106">Jokainen vaihe koostuu työnkulun tapahtumasta, jota valvotaan tapahtuman ehtojen mukaan, ja työnkulun vastauksesta, jota valvotaan vastausvaihtoehtojen mukaan.</span><span class="sxs-lookup"><span data-stu-id="c8a6a-106">Each step consists of a workflow event, moderated by event conditions, and a workflow response, moderated by response options.</span></span> <span data-ttu-id="c8a6a-107">Työnkulku määritetään täyttämällä työnkulkurivien kentät tapahtumien kiinteistä luetteloista ja vastausarvot, jotka edustavat sovelluskoodin tukemia skenaarioita.</span><span class="sxs-lookup"><span data-stu-id="c8a6a-107">You define workflow steps by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code.</span></span> <span data-ttu-id="c8a6a-108">Lisätietoja on kohdassa [Työnkulkujen luominen](across-how-to-create-workflows.md).</span><span class="sxs-lookup"><span data-stu-id="c8a6a-108">For more information, see [Create Workflows](across-how-to-create-workflows.md).</span></span>  
 
-## <a name="to-enable-a-workflow"></a><span data-ttu-id="acaca-109">Työnkulun ottaminen käyttöön</span><span class="sxs-lookup"><span data-stu-id="acaca-109">To enable a workflow</span></span>  
-1.  <span data-ttu-id="acaca-110">Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvake, syötä **Työnkulut** ja valitse sitten liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="acaca-110">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="acaca-111">Avaa työnkulku, jonka haluat ottaa käyttöön.</span><span class="sxs-lookup"><span data-stu-id="acaca-111">Open the workflow that you want to enable.</span></span>  
-3.  <span data-ttu-id="acaca-112">Valitse **Työnkulku**-sivun **Käytössä**-valintaruutu.</span><span class="sxs-lookup"><span data-stu-id="acaca-112">On the **Workflow** page, select the **Enabled** check box.</span></span>  
+## <a name="to-enable-a-workflow"></a><span data-ttu-id="c8a6a-109">Työnkulun ottaminen käyttöön</span><span class="sxs-lookup"><span data-stu-id="c8a6a-109">To enable a workflow</span></span>  
+1.  <span data-ttu-id="c8a6a-110">Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvake, syötä **Työnkulut** ja valitse sitten liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="c8a6a-110">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, and then choose the related link.</span></span>  
+2.  <span data-ttu-id="c8a6a-111">Avaa työnkulku, jonka haluat ottaa käyttöön.</span><span class="sxs-lookup"><span data-stu-id="c8a6a-111">Open the workflow that you want to enable.</span></span>  
+3.  <span data-ttu-id="c8a6a-112">Valitse **Työnkulku**-sivun **Käytössä**-valintaruutu.</span><span class="sxs-lookup"><span data-stu-id="c8a6a-112">On the **Workflow** page, select the **Enabled** check box.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="acaca-113">Katso myös</span><span class="sxs-lookup"><span data-stu-id="acaca-113">See Also</span></span>  
- <span data-ttu-id="acaca-114">[Työnkulkujen luominen](across-how-to-create-workflows.md) </span><span class="sxs-lookup"><span data-stu-id="acaca-114">[Create Workflows](across-how-to-create-workflows.md) </span></span>  
- <span data-ttu-id="acaca-115">[Arkistoitujen työnkulun osavaiheen ilmentymien tarkasteleminen](across-how-to-view-archived-workflow-step-instances.md) </span><span class="sxs-lookup"><span data-stu-id="acaca-115">[View Archived Workflow Step Instances](across-how-to-view-archived-workflow-step-instances.md) </span></span>  
- <span data-ttu-id="acaca-116">[Työnkulkujen poistaminen](across-how-to-delete-workflows.md) </span><span class="sxs-lookup"><span data-stu-id="acaca-116">[Delete Workflows](across-how-to-delete-workflows.md) </span></span>  
- <span data-ttu-id="acaca-117">[Työnkulkujen määrittäminen](across-set-up-workflows.md) </span><span class="sxs-lookup"><span data-stu-id="acaca-117">[Setting Up Workflows](across-set-up-workflows.md) </span></span>  
- <span data-ttu-id="acaca-118">[Työnkulkujen käyttäminen](across-use-workflows.md) </span><span class="sxs-lookup"><span data-stu-id="acaca-118">[Using Workflows](across-use-workflows.md) </span></span>  
- <span data-ttu-id="acaca-119">[Vaihekuvaus: Ostojen hyväksyntätyönkulun määrittäminen ja käyttäminen](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md) </span><span class="sxs-lookup"><span data-stu-id="acaca-119">[Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md) </span></span>  
- [<span data-ttu-id="acaca-120">Työnkulku</span><span class="sxs-lookup"><span data-stu-id="acaca-120">Workflow</span></span>](across-workflow.md)   
+## <a name="see-also"></a><span data-ttu-id="c8a6a-113">Katso myös</span><span class="sxs-lookup"><span data-stu-id="c8a6a-113">See Also</span></span>  
+ <span data-ttu-id="c8a6a-114">[Työnkulkujen luominen](across-how-to-create-workflows.md) </span><span class="sxs-lookup"><span data-stu-id="c8a6a-114">[Create Workflows](across-how-to-create-workflows.md) </span></span>  
+ <span data-ttu-id="c8a6a-115">[Arkistoitujen työnkulun osavaiheen ilmentymien tarkasteleminen](across-how-to-view-archived-workflow-step-instances.md) </span><span class="sxs-lookup"><span data-stu-id="c8a6a-115">[View Archived Workflow Step Instances](across-how-to-view-archived-workflow-step-instances.md) </span></span>  
+ <span data-ttu-id="c8a6a-116">[Työnkulkujen poistaminen](across-how-to-delete-workflows.md) </span><span class="sxs-lookup"><span data-stu-id="c8a6a-116">[Delete Workflows](across-how-to-delete-workflows.md) </span></span>  
+ <span data-ttu-id="c8a6a-117">[Työnkulkujen määrittäminen](across-set-up-workflows.md) </span><span class="sxs-lookup"><span data-stu-id="c8a6a-117">[Setting Up Workflows](across-set-up-workflows.md) </span></span>  
+ <span data-ttu-id="c8a6a-118">[Työnkulkujen käyttäminen](across-use-workflows.md) </span><span class="sxs-lookup"><span data-stu-id="c8a6a-118">[Using Workflows](across-use-workflows.md) </span></span>  
+ <span data-ttu-id="c8a6a-119">[Vaihekuvaus: Ostojen hyväksyntätyönkulun määrittäminen ja käyttäminen](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md) </span><span class="sxs-lookup"><span data-stu-id="c8a6a-119">[Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md) </span></span>  
+ [<span data-ttu-id="c8a6a-120">Työnkulku</span><span class="sxs-lookup"><span data-stu-id="c8a6a-120">Workflow</span></span>](across-workflow.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

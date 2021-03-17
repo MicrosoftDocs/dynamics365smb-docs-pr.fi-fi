@@ -3,43 +3,46 @@ title: Ostojen määritystehtävien yleiskatsaus | Microsoft Docs
 description: Ohjeaiheessa kerrotaan tehtävistä, joilla määritetään yrityksen hallintakäytäntöjä, ja määritetään ostoprosessit.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 219c1fcf1d4929a548f9a8d5849dde77f1c0b24a
-ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
+ms.openlocfilehash: f16e82531825ccb0350b45bf4be20c3f8b5b9914
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "5024585"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5383822"
 ---
-# <a name="setting-up-purchasing"></a><span data-ttu-id="7a206-103">Ostojen määrittäminen</span><span class="sxs-lookup"><span data-stu-id="7a206-103">Setting Up Purchasing</span></span>
-<span data-ttu-id="7a206-104">Ennen ostoprosessien hallinnan aloittamista on määritettävä yrityksen ostokäytäntöjen säännöt ja arvot.</span><span class="sxs-lookup"><span data-stu-id="7a206-104">Before you can manage purchase processes, you must configure the rules and values that define the company's purchase policies.</span></span>
+# <a name="setting-up-purchasing"></a><span data-ttu-id="1df26-103">Ostojen määrittäminen</span><span class="sxs-lookup"><span data-stu-id="1df26-103">Setting Up Purchasing</span></span>
+<span data-ttu-id="1df26-104">Ennen ostoprosessien hallinnan aloittamista on määritettävä yrityksen ostokäytäntöjen säännöt ja arvot.</span><span class="sxs-lookup"><span data-stu-id="1df26-104">Before you can manage purchase processes, you must configure the rules and values that define the company's purchase policies.</span></span>
 
-<span data-ttu-id="7a206-105">Yleiset asetukset on määritettävä. Yleisiä asetuksia ovat esimerkiksi se, mitä ostoasiakirjoja tarvitaan ja miten niiden arvot kirjataan.</span><span class="sxs-lookup"><span data-stu-id="7a206-105">You must define the general setup, such as which purchase documents are required and how their values are posted.</span></span> <span data-ttu-id="7a206-106">Nämä yleiset asetukset tehdään tavallisesti kerran alustavan käyttöönoton yhteydessä.</span><span class="sxs-lookup"><span data-stu-id="7a206-106">This general setup is typically performed once during the initial implementation.</span></span>
+<span data-ttu-id="1df26-105">Yleiset asetukset on määritettävä. Yleisiä asetuksia ovat esimerkiksi se, mitä ostoasiakirjoja tarvitaan ja miten niiden arvot kirjataan.</span><span class="sxs-lookup"><span data-stu-id="1df26-105">You must define the general setup, such as which purchase documents are required and how their values are posted.</span></span> <span data-ttu-id="1df26-106">Nämä yleiset asetukset tehdään tavallisesti kerran alustavan käyttöönoton yhteydessä.</span><span class="sxs-lookup"><span data-stu-id="1df26-106">This general setup is typically performed once during the initial implementation.</span></span>
 
-<span data-ttu-id="7a206-107">Uusien toimittajien rekisteröintiin liittyy erillinen sarja tehtäviä, joilla kirjataan kunkin toimittajan mahdolliset erikoishinta- tai alennussopimukset.</span><span class="sxs-lookup"><span data-stu-id="7a206-107">A separate series of tasks related to registering new vendors is to record any special price or discount agreements that you have with each vendor.</span></span>
+<span data-ttu-id="1df26-107">Uusien toimittajien rekisteröintiin liittyy erillinen sarja tehtäviä, joilla kirjataan kunkin toimittajan mahdolliset erikoishinta- tai alennussopimukset.</span><span class="sxs-lookup"><span data-stu-id="1df26-107">A separate series of tasks related to registering new vendors is to record any special price or discount agreements that you have with each vendor.</span></span>
 
-<span data-ttu-id="7a206-108">Maksumenetelmiä ja valuuttoja sekä muita rahoitukseen liittyviä ostoasetuksia käsitellään Rahoituksen asetukset -osassa.</span><span class="sxs-lookup"><span data-stu-id="7a206-108">Finance-related purchase setup, such as payment methods and currencies, are covered in the Finance Setup section.</span></span> <span data-ttu-id="7a206-109">Lisätietoja on kohdassa [Rahoituksen määrittäminen](finance-setup-finance.md).</span><span class="sxs-lookup"><span data-stu-id="7a206-109">For more information, see [Setting Up Finance](finance-setup-finance.md).</span></span>
+<span data-ttu-id="1df26-108">Maksumenetelmiä ja valuuttoja sekä muita rahoitukseen liittyviä ostoasetuksia käsitellään Rahoituksen asetukset -osassa.</span><span class="sxs-lookup"><span data-stu-id="1df26-108">Finance-related purchase setup, such as payment methods and currencies, are covered in the Finance Setup section.</span></span> <span data-ttu-id="1df26-109">Lisätietoja on kohdassa [Rahoituksen määrittäminen](finance-setup-finance.md).</span><span class="sxs-lookup"><span data-stu-id="1df26-109">For more information, see [Setting Up Finance](finance-setup-finance.md).</span></span>
 
-| <span data-ttu-id="7a206-110">Toiminta</span><span class="sxs-lookup"><span data-stu-id="7a206-110">To</span></span> | <span data-ttu-id="7a206-111">Katso</span><span class="sxs-lookup"><span data-stu-id="7a206-111">See</span></span> |
+| <span data-ttu-id="1df26-110">Toiminta</span><span class="sxs-lookup"><span data-stu-id="1df26-110">To</span></span> | <span data-ttu-id="1df26-111">Katso</span><span class="sxs-lookup"><span data-stu-id="1df26-111">See</span></span> |
 | --- | --- |
-| <span data-ttu-id="7a206-112">Toimittajan kortin luominen kullekin toimittajalle, jolta ostetaan</span><span class="sxs-lookup"><span data-stu-id="7a206-112">Create a vendor card for each vendor that you purchase from</span></span>|[<span data-ttu-id="7a206-113">Uusien toimittajien rekisteröiminen</span><span class="sxs-lookup"><span data-stu-id="7a206-113">Register New Vendors</span></span>](purchasing-how-register-new-vendors.md) |
-| <span data-ttu-id="7a206-114">Toimittajien nimikkeiden, määrien ja/tai päivämäärien perusteella myöntäminen eri alennusten ja erikoishintojen antaminen</span><span class="sxs-lookup"><span data-stu-id="7a206-114">Enter the different discounts and special prices that vendors grant you depending on item, quantities, and/or date</span></span> |[<span data-ttu-id="7a206-115">Ostohinnan, alennuksen ja maksusopimusten tallentaminen</span><span class="sxs-lookup"><span data-stu-id="7a206-115">Record Purchase Price, Discount, and Payment Agreements</span></span>](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
-| <span data-ttu-id="7a206-116">Toimittajien priorisointi</span><span class="sxs-lookup"><span data-stu-id="7a206-116">Prioritize vendors</span></span> |[<span data-ttu-id="7a206-117">Toimittajien priorisointi</span><span class="sxs-lookup"><span data-stu-id="7a206-117">Prioritize Vendors</span></span>](purchasing-how-prioritize-vendors.md) |
-| <span data-ttu-id="7a206-118">Ostajien määrittäminen</span><span class="sxs-lookup"><span data-stu-id="7a206-118">Set up purchasers</span></span> |[<span data-ttu-id="7a206-119">Ostajien määrittäminen</span><span class="sxs-lookup"><span data-stu-id="7a206-119">Set Up Purchasers</span></span>](purchasing-how-setup-purchasers.md) |
-|<span data-ttu-id="7a206-120">Määritä oletusraportteja, joita käytetään eri asiakirjatyypeille.</span><span class="sxs-lookup"><span data-stu-id="7a206-120">Specify default reports to be used for different document types.</span></span>|[<span data-ttu-id="7a206-121">Raporttien valinta Business Centralissa</span><span class="sxs-lookup"><span data-stu-id="7a206-121">Report Selection in Business Central</span></span>](across-report-selections.md)|
+| <span data-ttu-id="1df26-112">Toimittajan kortin luominen kullekin toimittajalle, jolta ostetaan</span><span class="sxs-lookup"><span data-stu-id="1df26-112">Create a vendor card for each vendor that you purchase from</span></span>|[<span data-ttu-id="1df26-113">Uusien toimittajien rekisteröiminen</span><span class="sxs-lookup"><span data-stu-id="1df26-113">Register New Vendors</span></span>](purchasing-how-register-new-vendors.md) |
+| <span data-ttu-id="1df26-114">Toimittajien nimikkeiden, määrien ja/tai päivämäärien perusteella myöntäminen eri alennusten ja erikoishintojen antaminen</span><span class="sxs-lookup"><span data-stu-id="1df26-114">Enter the different discounts and special prices that vendors grant you depending on item, quantities, and/or date</span></span> |[<span data-ttu-id="1df26-115">Ostohinnan, alennuksen ja maksusopimusten tallentaminen</span><span class="sxs-lookup"><span data-stu-id="1df26-115">Record Purchase Price, Discount, and Payment Agreements</span></span>](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
+| <span data-ttu-id="1df26-116">Toimittajien priorisointi</span><span class="sxs-lookup"><span data-stu-id="1df26-116">Prioritize vendors</span></span> |[<span data-ttu-id="1df26-117">Toimittajien priorisointi</span><span class="sxs-lookup"><span data-stu-id="1df26-117">Prioritize Vendors</span></span>](purchasing-how-prioritize-vendors.md) |
+| <span data-ttu-id="1df26-118">Ostajien määrittäminen</span><span class="sxs-lookup"><span data-stu-id="1df26-118">Set up purchasers</span></span> |[<span data-ttu-id="1df26-119">Ostajien määrittäminen</span><span class="sxs-lookup"><span data-stu-id="1df26-119">Set Up Purchasers</span></span>](purchasing-how-setup-purchasers.md) |
+|<span data-ttu-id="1df26-120">Määritä oletusraportteja, joita käytetään eri asiakirjatyypeille.</span><span class="sxs-lookup"><span data-stu-id="1df26-120">Specify default reports to be used for different document types.</span></span>|[<span data-ttu-id="1df26-121">Raporttien valinta Business Centralissa</span><span class="sxs-lookup"><span data-stu-id="1df26-121">Report Selection in Business Central</span></span>](across-report-selections.md)|
 
 > [!TIP]
-> <span data-ttu-id="7a206-122">Maantieteellinen sijaintisi mukaan jotkin sivut voivat sisältää kenttiä, joita ei ole kuvattu tässä luettelossa, koska ne koskevat paikallisia toimintoja tai mukautuksia.</span><span class="sxs-lookup"><span data-stu-id="7a206-122">Depending on your geographical location, some pages can contain fields that are not described in the articles that are listed here because they apply to local functionality or customizations.</span></span> [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
+> <span data-ttu-id="1df26-122">Maantieteellinen sijaintisi mukaan jotkin sivut voivat sisältää kenttiä, joita ei ole kuvattu tässä luettelossa, koska ne koskevat paikallisia toimintoja tai mukautuksia.</span><span class="sxs-lookup"><span data-stu-id="1df26-122">Depending on your geographical location, some pages can contain fields that are not described in the articles that are listed here because they apply to local functionality or customizations.</span></span> [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-related-training-at-microsoft-learn"></a><span data-ttu-id="7a206-123">Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)</span><span class="sxs-lookup"><span data-stu-id="7a206-123">See Related Training at [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)</span></span>
+## <a name="see-related-training-at-microsoft-learn"></a><span data-ttu-id="1df26-123">Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)</span><span class="sxs-lookup"><span data-stu-id="1df26-123">See Related Training at [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="7a206-124">Katso myös</span><span class="sxs-lookup"><span data-stu-id="7a206-124">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1df26-124">Katso myös</span><span class="sxs-lookup"><span data-stu-id="1df26-124">See Also</span></span>
 
-[<span data-ttu-id="7a206-125">Osto</span><span class="sxs-lookup"><span data-stu-id="7a206-125">Purchasing</span></span>](purchasing-manage-purchasing.md)  
-<span data-ttu-id="7a206-126">[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="7a206-126">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>
+[<span data-ttu-id="1df26-125">Osto</span><span class="sxs-lookup"><span data-stu-id="1df26-125">Purchasing</span></span>](purchasing-manage-purchasing.md)  
+<span data-ttu-id="1df26-126">[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="1df26-126">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

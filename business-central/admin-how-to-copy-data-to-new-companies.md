@@ -3,31 +3,34 @@ title: Tietojen kopioiminen uusiin yrityksiin | Microsoft Docs
 description: Voit kopioida yleisesti käytettyjä arvoja olemassa olevasta yrityksestä uuteen, niin kauan kuin molemmat yhtiöt ovat samassa tietokannassa. Jos sinulla on esimerkiksi sellaisten oirekoodien vakioluettelo, jotka ovat tavallisia kaikissa huoltohallinnan toteutuksissa, voit kopioida koodeja helposti yritysten välillä.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d43d41541607985f9e4e9d94788099fd5e438a17
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6776fcd85ce353dd63cc222a59b6ceef28bcd751
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911428"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5378371"
 ---
-# <a name="copy-data-to-new-companies"></a><span data-ttu-id="cce5d-104">Tietojen kopioiminen uusiin yrityksiin</span><span class="sxs-lookup"><span data-stu-id="cce5d-104">Copy Data to New Companies</span></span>
-<span data-ttu-id="cce5d-105">Voit kopioida yleisesti käytettyjä arvoja olemassa olevasta yrityksestä uuteen, niin kauan kuin molemmat yhtiöt ovat samassa tietokannassa.</span><span class="sxs-lookup"><span data-stu-id="cce5d-105">You can copy commonly used values from an existing company to a new one, as long as both companies are in the same database.</span></span> <span data-ttu-id="cce5d-106">Jos sinulla on esimerkiksi sellaisten oirekoodien vakioluettelo, jotka ovat tavallisia kaikissa huoltohallinnan toteutuksissa, voit kopioida koodeja helposti yritysten välillä.</span><span class="sxs-lookup"><span data-stu-id="cce5d-106">For example, if you have a standard list of symptom codes that is common to all your service management implementations, you can copy the codes easily from one company to another.</span></span>  
+# <a name="copy-data-to-new-companies"></a><span data-ttu-id="896ce-104">Tietojen kopioiminen uusiin yrityksiin</span><span class="sxs-lookup"><span data-stu-id="896ce-104">Copy Data to New Companies</span></span>
+<span data-ttu-id="896ce-105">Voit kopioida yleisesti käytettyjä arvoja olemassa olevasta yrityksestä uuteen, niin kauan kuin molemmat yhtiöt ovat samassa tietokannassa.</span><span class="sxs-lookup"><span data-stu-id="896ce-105">You can copy commonly used values from an existing company to a new one, as long as both companies are in the same database.</span></span> <span data-ttu-id="896ce-106">Jos sinulla on esimerkiksi sellaisten oirekoodien vakioluettelo, jotka ovat tavallisia kaikissa huoltohallinnan toteutuksissa, voit kopioida koodeja helposti yritysten välillä.</span><span class="sxs-lookup"><span data-stu-id="896ce-106">For example, if you have a standard list of symptom codes that is common to all your service management implementations, you can copy the codes easily from one company to another.</span></span>  
 
-## <a name="to-copy-data-to-a-new-company-using-rapidstart-services"></a><span data-ttu-id="cce5d-107">Kopioi tiedot uuteen yritykseen RapidStart Servicesin avulla</span><span class="sxs-lookup"><span data-stu-id="cce5d-107">To copy data to a new company using RapidStart Services</span></span>  
-1. <span data-ttu-id="cce5d-108">Avaa uusi yritys</span><span class="sxs-lookup"><span data-stu-id="cce5d-108">Open the new company.</span></span>  
-2. <span data-ttu-id="cce5d-109">Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Määritystyökirja** ja valitse sitten liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="cce5d-109">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet**, and then choose the related link.</span></span>  
-3. <span data-ttu-id="cce5d-110">Valitse **Kopioi tiedot yrityksestä**.</span><span class="sxs-lookup"><span data-stu-id="cce5d-110">Choose the **Copy Data from Company**.</span></span>  
-4. <span data-ttu-id="cce5d-111">Valitse **Kopioi yrityksen tiedot** -sivun **Kopioi kohteesta** -kentässä yritys, josta kopioidaan. Valitse sitten **OK**-painike.</span><span class="sxs-lookup"><span data-stu-id="cce5d-111">On the **Copy Company Data** page, choose a company to copy from in the **Copy From** field, and then choose the **OK** button.</span></span>  
-5. <span data-ttu-id="cce5d-112">Valitse taulukko yhdestä määrityspaketeista, jotka olet tuonut. Valitse sitten **Kopioi tiedot** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="cce5d-112">Select a table from one of the configuration packages that you have imported, and then choose the **Copy Data** action.</span></span>
+## <a name="to-copy-data-to-a-new-company-using-rapidstart-services"></a><span data-ttu-id="896ce-107">Kopioi tiedot uuteen yritykseen RapidStart Servicesin avulla</span><span class="sxs-lookup"><span data-stu-id="896ce-107">To copy data to a new company using RapidStart Services</span></span>  
+1. <span data-ttu-id="896ce-108">Avaa uusi yritys</span><span class="sxs-lookup"><span data-stu-id="896ce-108">Open the new company.</span></span>  
+2. <span data-ttu-id="896ce-109">Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Määritystyökirja** ja valitse sitten liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="896ce-109">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet**, and then choose the related link.</span></span>  
+3. <span data-ttu-id="896ce-110">Valitse **Kopioi tiedot yrityksestä**.</span><span class="sxs-lookup"><span data-stu-id="896ce-110">Choose the **Copy Data from Company**.</span></span>  
+4. <span data-ttu-id="896ce-111">Valitse **Kopioi yrityksen tiedot** -sivun **Kopioi kohteesta** -kentässä yritys, josta kopioidaan. Valitse sitten **OK**-painike.</span><span class="sxs-lookup"><span data-stu-id="896ce-111">On the **Copy Company Data** page, choose a company to copy from in the **Copy From** field, and then choose the **OK** button.</span></span>  
+5. <span data-ttu-id="896ce-112">Valitse taulukko yhdestä määrityspaketeista, jotka olet tuonut. Valitse sitten **Kopioi tiedot** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="896ce-112">Select a table from one of the configuration packages that you have imported, and then choose the **Copy Data** action.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="cce5d-113">Katso myös</span><span class="sxs-lookup"><span data-stu-id="cce5d-113">See Also</span></span>
-[<span data-ttu-id="cce5d-114">Kokoonpanojen käyttäminen uusissa yrityksissä</span><span class="sxs-lookup"><span data-stu-id="cce5d-114">Apply Configurations to New Companies</span></span>](admin-apply-configuration-to-new-companies.md)  
-[<span data-ttu-id="cce5d-115">Yrityksen määrittäminen RapidStart Servicesin avulla</span><span class="sxs-lookup"><span data-stu-id="cce5d-115">Setting Up a Company With RapidStart Services</span></span>](admin-set-up-a-company-with-rapidstart.md)  
-[<span data-ttu-id="cce5d-116">Hallinta</span><span class="sxs-lookup"><span data-stu-id="cce5d-116">Administration</span></span>](admin-setup-and-administration.md)
+## <a name="see-also"></a><span data-ttu-id="896ce-113">Katso myös</span><span class="sxs-lookup"><span data-stu-id="896ce-113">See Also</span></span>
+[<span data-ttu-id="896ce-114">Kokoonpanojen käyttäminen uusissa yrityksissä</span><span class="sxs-lookup"><span data-stu-id="896ce-114">Apply Configurations to New Companies</span></span>](admin-apply-configuration-to-new-companies.md)  
+[<span data-ttu-id="896ce-115">Yrityksen määrittäminen RapidStart Servicesin avulla</span><span class="sxs-lookup"><span data-stu-id="896ce-115">Setting Up a Company With RapidStart Services</span></span>](admin-set-up-a-company-with-rapidstart.md)  
+[<span data-ttu-id="896ce-116">Hallinta</span><span class="sxs-lookup"><span data-stu-id="896ce-116">Administration</span></span>](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

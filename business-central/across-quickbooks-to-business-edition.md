@@ -4,36 +4,39 @@ description: Voit siirtää tietoja, kuten asiakkaat, toimittajat, varastonimikk
 documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, import, migrate, data, transfer, QuickBooks, customize
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 8d680d80dca8fae08ef4ecf5d88c97f983b47167
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: d6f75b5ee339606e4131e0e8acfe7be6457d9a22
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4754265"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5379046"
 ---
-# <a name="changing-from-a-quickbooks-app-to-dynamics-365-business-central"></a><span data-ttu-id="e8277-103">Vaihtaminen QuickBooks-sovelluksesta Dynamics 365 Business Centraliin</span><span class="sxs-lookup"><span data-stu-id="e8277-103">Changing from a QuickBooks App to Dynamics 365 Business Central</span></span>
-<span data-ttu-id="e8277-104">Yhtä useammat kasvavat yritykset ovat vaihtamassa startup-yrityksille ja muille pienyrityksille tarkoitetuista taloushallinnon sovelluksista, kuten QuickBooks Desktop ja QuickBooks Online, [!INCLUDE[prod_short](includes/prod_short.md)]iin, joka tukee myös suuria ja monimutkaisia organisaatioita.</span><span class="sxs-lookup"><span data-stu-id="e8277-104">More and more growing businesses are changing from finance apps like QuickBooks Desktop and QuickBooks Online, which are designed for startups and other small businesses, to [!INCLUDE[prod_short](includes/prod_short.md)], which also supports larger, more complex organizations.</span></span> 
+# <a name="changing-from-a-quickbooks-app-to-dynamics-365-business-central"></a><span data-ttu-id="67cd0-103">Vaihtaminen QuickBooks-sovelluksesta Dynamics 365 Business Centraliin</span><span class="sxs-lookup"><span data-stu-id="67cd0-103">Changing from a QuickBooks App to Dynamics 365 Business Central</span></span>
+<span data-ttu-id="67cd0-104">Yhtä useammat kasvavat yritykset ovat vaihtamassa startup-yrityksille ja muille pienyrityksille tarkoitetuista taloushallinnon sovelluksista, kuten QuickBooks Desktop ja QuickBooks Online, [!INCLUDE[prod_short](includes/prod_short.md)]iin, joka tukee myös suuria ja monimutkaisia organisaatioita.</span><span class="sxs-lookup"><span data-stu-id="67cd0-104">More and more growing businesses are changing from finance apps like QuickBooks Desktop and QuickBooks Online, which are designed for startups and other small businesses, to [!INCLUDE[prod_short](includes/prod_short.md)], which also supports larger, more complex organizations.</span></span> 
 
-<span data-ttu-id="e8277-105">Yritykset haluavat yleensä tuoda siirtymisvaiheessa vanhat tiedot mukanaan, jotka kaikkea ei tarvitse aloittaa alusta.</span><span class="sxs-lookup"><span data-stu-id="e8277-105">As they transition, companies typically want to bring their business data with them so they don't start from scratch.</span></span> <span data-ttu-id="e8277-106">[!INCLUDE[prod_short](includes/prod_short.md)] sisältää valmiita laajennuksia, jotka auttavat siirtämään tietoja, kuten asiakkaat, toimittajat, varastonimikkeet ja kirjanpitotilit.</span><span class="sxs-lookup"><span data-stu-id="e8277-106">To help transfer data, [!INCLUDE[prod_short](includes/prod_short.md)] offers built-in extensions that migrate data such as customers, vendors, inventory items, and general ledger accounts.</span></span> <span data-ttu-id="e8277-107">Seuraavat laajennukset on asennettu ja valmiita käytettäväksi **tietojen siirtoasetusten** ohjatun määrityksen osana:</span><span class="sxs-lookup"><span data-stu-id="e8277-107">The following extensions are installed and ready to go as an integrated part of the **Data Migration** assisted setup guide:</span></span>
+<span data-ttu-id="67cd0-105">Yritykset haluavat yleensä tuoda siirtymisvaiheessa vanhat tiedot mukanaan, jotka kaikkea ei tarvitse aloittaa alusta.</span><span class="sxs-lookup"><span data-stu-id="67cd0-105">As they transition, companies typically want to bring their business data with them so they don't start from scratch.</span></span> <span data-ttu-id="67cd0-106">[!INCLUDE[prod_short](includes/prod_short.md)] sisältää valmiita laajennuksia, jotka auttavat siirtämään tietoja, kuten asiakkaat, toimittajat, varastonimikkeet ja kirjanpitotilit.</span><span class="sxs-lookup"><span data-stu-id="67cd0-106">To help transfer data, [!INCLUDE[prod_short](includes/prod_short.md)] offers built-in extensions that migrate data such as customers, vendors, inventory items, and general ledger accounts.</span></span> <span data-ttu-id="67cd0-107">Seuraavat laajennukset on asennettu ja valmiita käytettäväksi **tietojen siirtoasetusten** ohjatun määrityksen osana:</span><span class="sxs-lookup"><span data-stu-id="67cd0-107">The following extensions are installed and ready to go as an integrated part of the **Data Migration** assisted setup guide:</span></span>
 
-* <span data-ttu-id="e8277-108">QuickBooks-tietojen siirto</span><span class="sxs-lookup"><span data-stu-id="e8277-108">QuickBooks Data Migration</span></span> 
-* <span data-ttu-id="e8277-109">QuickBooks Online -tietojen siirto</span><span class="sxs-lookup"><span data-stu-id="e8277-109">QuickBooks Online Data Migration</span></span>
+* <span data-ttu-id="67cd0-108">QuickBooks-tietojen siirto</span><span class="sxs-lookup"><span data-stu-id="67cd0-108">QuickBooks Data Migration</span></span> 
+* <span data-ttu-id="67cd0-109">QuickBooks Online -tietojen siirto</span><span class="sxs-lookup"><span data-stu-id="67cd0-109">QuickBooks Online Data Migration</span></span>
 
-<span data-ttu-id="e8277-110">Lue lisää QuickBooks-sovellukseen sopivasta laajennuksesta:</span><span class="sxs-lookup"><span data-stu-id="e8277-110">For more information, read about the extension that suits your QuickBooks app:</span></span>   
+<span data-ttu-id="67cd0-110">Lue lisää QuickBooks-sovellukseen sopivasta laajennuksesta:</span><span class="sxs-lookup"><span data-stu-id="67cd0-110">For more information, read about the extension that suits your QuickBooks app:</span></span>   
 
-* [<span data-ttu-id="e8277-111">QuickBooks Desktopin tietojen siirtolaajennus</span><span class="sxs-lookup"><span data-stu-id="e8277-111">The QuickBooks Desktop Data Migration Extension</span></span>](ui-extensions-quickbooks-data-migration.md)
-* [<span data-ttu-id="e8277-112">QuickBooks Onlinen tietojen siirtolaajennus</span><span class="sxs-lookup"><span data-stu-id="e8277-112">The QuickBooks Online Data Migration Extension</span></span>](ui-extensions-quickbooks-online-data-migration.md)
+* [<span data-ttu-id="67cd0-111">QuickBooks Desktopin tietojen siirtolaajennus</span><span class="sxs-lookup"><span data-stu-id="67cd0-111">The QuickBooks Desktop Data Migration Extension</span></span>](ui-extensions-quickbooks-data-migration.md)
+* [<span data-ttu-id="67cd0-112">QuickBooks Onlinen tietojen siirtolaajennus</span><span class="sxs-lookup"><span data-stu-id="67cd0-112">The QuickBooks Online Data Migration Extension</span></span>](ui-extensions-quickbooks-online-data-migration.md)
 
-## <a name="ready-now"></a><span data-ttu-id="e8277-113">Oletko valmis aloittamaan?</span><span class="sxs-lookup"><span data-stu-id="e8277-113">Ready now?</span></span>
-<span data-ttu-id="e8277-114">Jos olet valmis aloittamaan käytön nyt, valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asetusten ohjattu määritys** ja valitse sitten liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="e8277-114">If you are ready to get started now, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose the related link.</span></span> <span data-ttu-id="e8277-115">Valitse **Siirrä liiketoimintatiedot** ja noudata oppaan ohjeita.</span><span class="sxs-lookup"><span data-stu-id="e8277-115">Choose **Migrate business data**, and then follow the steps in the guide.</span></span>
+## <a name="ready-now"></a><span data-ttu-id="67cd0-113">Oletko valmis aloittamaan?</span><span class="sxs-lookup"><span data-stu-id="67cd0-113">Ready now?</span></span>
+<span data-ttu-id="67cd0-114">Jos olet valmis aloittamaan käytön nyt, valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asetusten ohjattu määritys** ja valitse sitten liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="67cd0-114">If you are ready to get started now, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose the related link.</span></span> <span data-ttu-id="67cd0-115">Valitse **Siirrä liiketoimintatiedot** ja noudata oppaan ohjeita.</span><span class="sxs-lookup"><span data-stu-id="67cd0-115">Choose **Migrate business data**, and then follow the steps in the guide.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="e8277-116">Katso myös</span><span class="sxs-lookup"><span data-stu-id="e8277-116">See Also</span></span>
-[<span data-ttu-id="e8277-117">Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä</span><span class="sxs-lookup"><span data-stu-id="e8277-117">Importing Business Data from Other Finance Systems</span></span>](across-import-data-configuration-packages.md)  
-[<span data-ttu-id="e8277-118">Business Central -sovelluksen mukauttaminen laajennusten avulla</span><span class="sxs-lookup"><span data-stu-id="e8277-118">Customizing Business Central Using Extensions</span></span>](ui-extensions.md)   
+## <a name="see-also"></a><span data-ttu-id="67cd0-116">Katso myös</span><span class="sxs-lookup"><span data-stu-id="67cd0-116">See Also</span></span>
+[<span data-ttu-id="67cd0-117">Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä</span><span class="sxs-lookup"><span data-stu-id="67cd0-117">Importing Business Data from Other Finance Systems</span></span>](across-import-data-configuration-packages.md)  
+[<span data-ttu-id="67cd0-118">Business Central -sovelluksen mukauttaminen laajennusten avulla</span><span class="sxs-lookup"><span data-stu-id="67cd0-118">Customizing Business Central Using Extensions</span></span>](ui-extensions.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
