@@ -3,19 +3,19 @@ title: Uusien yritysten luominen asetusten ohjatun määritysoppaan avulla | Mic
 description: Business Central -sovellukseen on helppo luoda uusi, tyhjä yritys. Asetusten ohjattu määritysopas antaa tarkkoja ohjeita, ja voit tuoda aiemmin luomasi liiketoimintatiedot.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: company, setup wizard
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7724afe2cbc8872fe71f881e436f175668d09a9e
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: fc318d3de70cb56e722bd02c868fc570fb62692b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753590"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385047"
 ---
 # <a name="creating-new-companies-in-prod_short"></a>Uusien yritysten luominen [!INCLUDE[prod_short](includes/prod_short.md)]issa
 

@@ -3,19 +3,19 @@ title: Raporttien luominen Power BI Desktopissa näyttämään Business Central 
 description: Määritä tiedot käytettäviksi Power BI:n tietolähteenä ja tehokkaiden liiketoiminnan tilasta kertovien raporttien luomista varten.
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: ce1ce3039758d5991eb3a770713d2f1e273bbe0c
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 7226a8b8c1acd624890cd668cd9a8437e7bd08b7
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4754515"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5384172"
 ---
 # <a name="building-power-bi-reports-to-display-prod_long-data"></a>Power BI -raporttien luominen näyttämään [!INCLUDE [prod_long](includes/prod_long.md)] -tietoja
 
@@ -97,7 +97,7 @@ Voit luoda [!INCLUDE [prod_short](includes/prod_short.md)] -luettelosivun tietor
 
 ### <a name="download-the-theme"></a>Teeman lataaminen
 
-Teematiedosto on saatavana json-tiedostona Microsoft Power BI -yhteisön teemavalikoimassa. Teematiedosto ladataan seuraavasti:
+Teematiedosto on saatavana JSON-tiedostona Microsoft Power BI -yhteisön teemavalikoimassa. Teematiedosto ladataan seuraavasti:
 
 1. Siirry [Microsoft Dynamics 365 Business Centralin Microsoft Power BI -yhteisön teemavalikoimaan](https://community.powerbi.com/t5/Themes-Gallery/Microsoft-Dynamics-365-Business-Central/m-p/385875).
 2. Valitse ladattava liite **Microsoft Dynamics Business Central.json**.

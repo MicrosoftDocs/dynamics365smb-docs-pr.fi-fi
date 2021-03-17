@@ -3,19 +3,19 @@ title: Toimintojen ja tietojen etsiminen | Microsoft Docs
 description: Tässä ohjeaiheessa käsitellään, miten haun avulla voi etsiä toimintoja, sivuja, raportteja, ohjeistusta ja tietoja sekä muita sovelluksia ja konsultointipalveluja.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: aa0bfb351cf1777ec7a8c1bde4d495e7455b9531
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 6de3033333e997fa335f085499b81e1caa4146d7
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4760265"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5381677"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Sivujen ja tietojen etsiminen Kerro, mitä haluat tehdä -toiminnolla  
 Tässä ohjeaiheessa käsitellään, miten Kerro, mitä haluat tehdä -toiminnolla voi siirtyä nopeasti esimerkiksi toimintoihin tai raportteihin, etsiä tietoja tietyn tehtävän suorittamisesta sekä löytää muita [!INCLUDE[prod_short](includes/prod_short.md)]in sovelluksia ja konsultointipalveluja.  

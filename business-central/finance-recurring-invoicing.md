@@ -3,7 +3,7 @@ title: Toistuvan tuoton käsitteleminen | Microsoft Docs
 description: Tietoja käytettävissä olevista vaihtoehdoista, jotka automatisoivat tilauslaskujen lähettämisen asiakkaille ja rekisteröivät toistuvan tuoton.
 author: AndreiPanko
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -11,12 +11,12 @@ ms.search.keywords: recurring, invoicing, subscription, billing
 ms.reviewer: edupont
 ms.date: 10/01/2020
 ms.author: andreipa
-ms.openlocfilehash: 311af347fede15b3d246e66d66b47a5fd09c90db
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 657c473301b52011c1f1cbe2767f3c0ceaeb4725
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4750478"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380000"
 ---
 # <a name="work-with-recurring-revenue-in-prod_short"></a>Toistuvan tuoton käsitteleminen kohteessa [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -109,7 +109,7 @@ Lisätietoja on kohdassa [Toistuvat tilaukset](LocalFunctionality/Norway/recurri
 
 Osoitteessa [AppSource.microsoft.com](https://appsource.microsoft.com/) on laajennuksia Business Centralille. Jotkin ovat Microsoftin laajennuksia, jotkin muiden yritysten. Luettelo muiden yritysten laajennuksista kasvaa joka kuukausi. Sivustoa[AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646) kannattaakin tarkkailla ja sieltä voi ladata Business Centralin käyttöä helpottavia sovelluksia.  
 
-## <a name="see-also"></a>Katso myös .
+## <a name="see-also"></a>Katso myös
 
 [Pvm-kaavat](ui-enter-date-ranges.md#using-date-formulas)  
 [Toistuvien tapahtumien päiväkirjojen käyttäminen](ui-work-general-journals.md#working-with-recurring-journals)  

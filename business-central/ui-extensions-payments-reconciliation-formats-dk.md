@@ -3,19 +3,19 @@ title: Maksujen ja täsmäytysten (DK) laajennuksen käyttäminen | Microsoft Do
 description: Tämän laajennuksen avulla on helppo viedä esimuotoiltuja tiedostoja, jotka täyttävät pankin sähköisiä lähetyksiä koskevat vaatimukset.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, bank, formats
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: c8dd465213a9882a98c1ac1623d8a093f3eecb9a
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 13ef7eb6cdda472d68758e7e6ef5cb7d73d9fba4
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757490"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5384072"
 ---
 # <a name="the-payments-and-reconciliations-dk-extension"></a>Maksujen ja täsmäytysten (DK) laajennus
 
@@ -103,7 +103,7 @@ Seuraavassa taulukossa ovat [!INCLUDE[prod_short](includes/prod_short.md)] -ohje
 4. Valitse **Pankkimaksun tyyppi** -kentässä **Sähköinen maksu**.  
 5. Valitse **Vie**-toiminto.  
 
-## <a name="see-also"></a>Katso myös .
+## <a name="see-also"></a>Katso myös
 
 [Business Central -sovelluksen mukauttaminen [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmaa varten laajennusten avulla](ui-extensions.md)  
 [Maksujen kerääminen SEPA-suoraveloitusperintänä.](finance-collect-payments-with-sepa-direct-debit.md)  

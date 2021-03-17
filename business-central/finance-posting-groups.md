@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: posting setup, initialize
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: c36b365b0828a19fa82ef28f8d901915937995c2
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: b94b3ed97c0bd4d76c2ee5072bfda5de6ba86604
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4746664"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5379958"
 ---
 # <a name="setting-up-posting-groups"></a>Kirjausryhmien määrittäminen
 Kirjausryhmät yhdistävät objektit, kuten asiakkaat, toimittajat, nimikkeet, resurssit sekä myynti- ja ostoasiakirjoja pääkirjanpidon tileille. Ne säästävät aikaa ja auttavat välttämään virheitä tapahtumia kirjattaessa. Tapahtuman arvot viedään kyseisen objektin kirjausryhmässä määritetylle tilille. Kirjausryhmiä varten tarvitaan vain tilikartta. Lisätietoja on kohdassa [Tilikartan määrittäminen](finance-setup-chart-accounts.md).  
@@ -75,7 +75,7 @@ Kirjausajankohta määräytyy asetusten mukaan. Esimerkiksi jaksoittaiset toimin
 ## <a name="copying-posting-setup-lines"></a>Kirjausasetusrivien kopioiminen
 Mitä enemmän tuotteen ja liiketoiminnan kirjausryhmiä on luotu, sitä enemmän rivejä näkyy Yleiset kirjausasetukset -sivulla. Yrityksen yleisten kirjausasetusten määrittäminen voi siis vaatia paljon tietojen syöttämistä. Vaikka liiketoiminnan ja tuotteen kirjausryhmiä saattaa olla useita, eri yhdistelmillä voi kuitenkin kirjata samoille pääkirjanpidon tileille. Manuaalisia vientejä voi rajoittaa kopioimalla pääkirjanpidon tilit aiemmin luodulta riviltä **Yleiset kirjausasetukset** -sivulla.
 
-## <a name="see-also"></a>Katso myös .
+## <a name="see-also"></a>Katso myös
 [Pääkirjanpito ja tilikartta](finance-general-ledger.md)  
 [Rahoituksen määrittäminen](finance-setup-finance.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)

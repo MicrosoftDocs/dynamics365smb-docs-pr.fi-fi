@@ -3,17 +3,17 @@ title: Tietoja hakemisesta ja suodattamisesta Business Central -sovelluksessa
 description: Vastaa hakemiseen ja suodattamiseen liittyviin usein kysyttyihin kysymyksiin.
 author: mikebcMSFT
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.reviewer: edupont04
 ms.search.keywords: keyboarding, productivity, how do i, filter pane
 ms.date: 11/16/2020
 ms.author: mikebc
-ms.openlocfilehash: b993fd047db09b1dc412d9927168aa0233c057a6
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: debbf621795564344f11609236b2faac397c6762
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756715"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5386797"
 ---
 # <a name="searching-and-filtering-faq"></a>Usein kysyttyjen kysymysten haku ja suodatus
 Tässä artikkelissa on vastauksia hakemiseen ja suodattamiseen liittyviin yleisiin kysymyksiin.
@@ -55,7 +55,7 @@ Paikallinen järjestelmänvalvoja voi muuttaa hakujen aikarajaa suuremmaksi muut
 ## <a name="will-microsoft-extend-the-filter-pane-experience"></a>Laajentaako Microsoft suodatinruudun ominaisuuksia?
 Microsoft saa jatkuvasti palautetta monipuoliselta käyttäjäyhteisöltä ja ottaa parhaat ehdotukset huomioon. Jos haluat laajentaa suodatinruudun useammille laitemuodoille ja luettelotyypeille tai jos sinulla on parannusehdotuksia, voit lisätä ne osoitteessa [aka.ms/BusinessCentralIdeas](https://aka.ms/businesscentralideas). Siellä voit myös äänestää aiemmin tehtyjä ehdotuksia.
 
-## <a name="see-also"></a>Katso myös .
+## <a name="see-also"></a>Katso myös
 [Lajitteleminen, hakeminen ja suodattaminen](ui-enter-criteria-filters.md)  
 [Sivujen ja tietojen etsiminen Kerro, mitä haluat tehdä -toiminnolla](ui-search.md)  
 [Sivujen etsiminen roolienhallinnan avulla](ui-role-explorer.md)  

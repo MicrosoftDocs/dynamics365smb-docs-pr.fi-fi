@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ba177ba40a11048a19cd401b18b8e4a5a7198d87
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 98dd55a41ccd987d810e4fb747b5cb7355a380dc
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752278"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5382627"
 ---
 # <a name="create-reports-with-xbrl"></a>Luo raportteja XBRL-linkityksellä.
 XBRL, joka tarkoittaa eXtensible Business Reporting Language, on XML-pohjainen kieli taloudellisten tietojen merkitsemiseen ja yrityskäyttöön, jotta nämä voivat tehokkaasti ja tarkasti käsitellä ja jakaa tietojaan. XBRL-aloite sallii lukuisten ERP-ohjelmistoyritysten ja kansainvälisten kirjanpitojärjestöjen tekemän maailmanlaajuisen taloudellisen raportoinnin. Aloitteen tavoitteena on tarjota standardi pankkien, sijoittajien ja julkishallinnon taloudellisen tiedon raportointiin. Liiketoiminnan raportointi voi olla:  
@@ -27,7 +27,12 @@ XBRL, joka tarkoittaa eXtensible Business Reporting Language, on XML-pohjainen k
  • muita kuin rahoituksellisia tietoja  
  • säädösten alaisia kirjauksia, kuten vuosittaiset ja neljännesvuosittaiset tilinpäätökset.  
 
- [!INCLUDE[prod_short](includes/prod_short.md)]in avulla yritykset voivat tuottaa XBRL-muotoisia tietoja ja hyödyntää kielen mahdollistaman joustavuuden ja automatisoinnin sekä tietojen keräämisessä että jakamisessa.  
+> [!NOTE]
+> Voit tuoda KP-malleja ja luoda XBRL-instanssiasiakirjoja yhdistämällä tilikartan KP-tietoja rahoitusraportteja varten suunniteltujen taksonomioiden elementteihin, kuten tase- ja tulosraportteihin.
+> 
+> XBRL-ominaisuudet Business Centralissa tukevat Specification 2.1 -taksonomioita , mutta taksonomiat voivat sisältää ei-tuettuja elementtejä, kuten kaavojen linkkijoukkoja, iXBRL, tai muita rakenteellisia eroja. On suositeltavaa vahvistaa XBRL-ominaisuudet ennen sen käyttöä raportoinnissa.
+> 
+> Taksonomioiden täysi tuki voi vaatia kolmannen osapuolen XBRL-koodausta ja -työkaluja. XBRL International -organisaatiolla on luettelo työkaluista ja palveluista, joita voit käyttää XBRL-raportoinnissa. Tietyn taksonomian XBRL-raportointivaatimusten mukaan haluat ehkä tutkia näitä resursseja. Lisätietoja on kohdassa [Aloita käyttö yrityksessä](https://go.microsoft.com/fwlink/?linkid=2153466) ja [Työkalut ja palvelut](https://go.microsoft.com/fwlink/?linkid=2153356).
 
 ## <a name="extensible-business-reporting-language"></a>XBRL (eXtensible Business Reporting Language)
 XBRL (e **X** tensible **B** usiness **R** eporting **L** anguage) on XML-pohjainen kieli talousraportointiin. XBRL mahdollistaa standardin vakiomuotoisen raportoinnin koko finanssitietojen käyttäjäketjulle; noteeratut ja yksityiset yritykset, tilintarkastajat, viranomaiset, analyytikot, sijoitusyhteisöt, pääomamarkkinat ja luotottajat sekä kolmannet osapuolet kuten ohjelmistotalot ja tiedon jalostajat.  

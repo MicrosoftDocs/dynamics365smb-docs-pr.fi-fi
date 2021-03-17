@@ -3,19 +3,19 @@ title: Huoltotarjousten luominen | Microsoft Docs
 description: '**Huoltotarjous**-sivulla voidaan luoda asiakirjoja, joihin syötetään tietoja asiakkaan pyynnöstä tehtävästä huoltonimikkeiden huollosta (korjauksesta tai ylläpidosta). Voit käyttää huoltotarjousta huoltotilauksen luonnoksena ja muuntaa tarjouksen sitten huoltotilaukseksi.'
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 41cb742ac256e124a273ac202a1c7f112a69795d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 92c93b2e0b876920f1c259d31b4d839a5b2ecbc0
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918636"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5388797"
 ---
 # <a name="create-service-quotes"></a>Huoltotarjousten luominen
 Huoltotarjoukset voidaan mieltää huoltotilausten pohjaksi. Ne ovatkin itse asiassa lähes samanlaisia. Kummassakin on tietoja esimerkiksi asiakkaasta, tilaustyypistä, huollettavista nimikkeistä, laskutus- ja toimitustiedoista sekä tehtävästä huoltotyöstä.

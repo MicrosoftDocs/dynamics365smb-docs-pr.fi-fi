@@ -3,17 +3,17 @@ title: Lakisääteisten ilmoitusten lähettäminen | Microsoft Docs
 description: Jos olet tietoinen uudesta lainsäädännöstä, jota mielestäsi on tuettava Business Centralissa, voit lähettää lakisääteisen ilmoituksen tuotetiimille tämän oppaan ohjeiden avulla.
 author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.reviewer: edupont
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: 4176f79aabba652208f7c0aacb6a000924009451
-ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
+ms.openlocfilehash: f2659bcebc046153948ca2a90f97d8437e86a610
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/29/2020
-ms.locfileid: "4817254"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380354"
 ---
 # <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Maa- tai aluekohtaisten lakisääteisiä ominaisuuksia koskevien ilmoitusten lähettäminen
 
@@ -52,7 +52,7 @@ Voit lähettää lakisääteisiä ilmoituksia Microsoft Dynamics Lifecycle Servi
         |Description  | Kirjoita lyhyt lainsäädännön kuvaus. Kuvauksen pitäisi keskittyä tuotannonohjaus- eli ERP-toimiin liittyviin ongelmiin, jotta käyttäjät ymmärtävät ylätason vaatimukset lainsäädäntöön tutustumatta.|
         |Maa  | Määritä maa tai alue, jota lainsäädäntö koskee.|
         |Toimiala| Määritä toimiala, jos vaatimus koskee vain tiettyjä toimialoja. Valitse esimerkiksi **julkinen sektori**, **vähittäismyynti** tai **tuotanto**.|
-        |Ominaisuusviite  | Tämä ei koske Dynamics 365 Business Centralia, mutta jos sinulla on ominaisuusviite, voit antaa sen. Maakohtainen ominaisuusluettelo on CustomerSource-sivuston [lokalisointiportaalissa](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC). |
+        |Ominaisuusviite  | Tämä ei koske Dynamics 365 Business Centralia, mutta jos sinulla on ominaisuusviite, voit antaa sen. Maakohtainen ominaisuusluettelo on CustomerSource-sivuston [lokalisointiportaalissa](https://docs.microsoft.com/dynamics/s-e/). |
         |Lainsäädännön voimaantulopäivä  | Määritä päivämäärä, jolloin asiakkaiden on aloitettava lainsäädännön noudattaminen.|
         |Julkishallinnon ilmoituspäivä  | Määritä päivämäärä, jolloin viranomainen ilmoitti muutoksesta.|
         |Viimeisin ilmoituspäivä  | Valitse määräaika, jolloin uusi tai muuttunut raportti on lähetettävä ensimmäisen kerran.|

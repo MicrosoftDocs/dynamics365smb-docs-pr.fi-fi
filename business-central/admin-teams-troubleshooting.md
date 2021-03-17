@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
 ms.date: 01/20/2021
 ms.author: jswymer
-ms.openlocfilehash: 10612a3e5e257969b2daf0839ea0826316a956ee
-ms.sourcegitcommit: 36a32c997b201ff32ed8c1cff8179b36e2468c47
+ms.openlocfilehash: 7a98b53a34ddf403cf6507da7740b97924d4c81c
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "5046530"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385197"
 ---
 # <a name="troubleshooting-microsoft-teams-integration-with-prod_short"></a>[!INCLUDE [prod_short](includes/prod_short.md)] ja Microsoft Teamsin integroinnin vianmääritys
 
@@ -103,19 +103,34 @@ Lisätietoja näiden asetusten muuttamisesta on Microsoft-tuen ohjeaiheessa [Kam
 
 Joissakin selaimissa, kuten uudessa Microsoft Edgessä, voit valita, mitä laitekameraa käytetään, kun laitteesi tukee useaa kameraa. 
 
-## <a name="teams-displays-mixed-languages-for-my-cards-and-card-details"></a>Teams näyttää useita kieliä korteissani ja korttien tiedoissa 
+## <a name="teams-displays-mixed-languages-for-my-cards-and-card-details"></a>Teams näyttää useita kieliä korteissani ja korttien tiedoissa
 
 Jotta korttien ja korttien tiedot näkyvät johdonmukaisesti samalla kielellä Teamsissa, Teams-asiakkaan kielen ja [!INCLUDE [prod_short](includes/prod_short.md)] -verkkoasiakkaassa käytettävän kielen on vastattava toisiaan.
 
 - Lisätietoja Teamsin kielen vaihtamisesta on Microsoft-tuen kohdassa [Teamsi asetusten muuttaminen ](https://support.microsoft.com/en-us/office/change-settings-in-teams-b506e8f1-1a96-4cf1-8c6b-b6ed4f424bc7). 
 
-- Lisä tietoja [!INCLUDE [prod_short](includes/prod_short.md)]in kielen vaihtamisesta on ohjeaiheessa [Perusasetusten muuttaminen –kieli](ui-change-basic-settings.md#language).
+- Lisätietoja [!INCLUDE [prod_short](includes/prod_short.md)]in kielen vaihtamisesta on ohjeaiheessa [Perusasetusten muuttaminen –kieli](ui-change-basic-settings.md#language).
 
 Lisätietoja siitä, miten kielet toimivat Teamsin ja [!INCLUDE [prod_short](includes/prod_short.md)]in välillä, on kohdassa [Teams – usein kysytyt kysymykset](teams-faq.md#language).
 
 ## <a name="i-edited-a-field-in-the-details-window-but-my-change-wasnt-saved"></a>Muokkasin tietoikkunan kenttä, mutta muutosta ei tallennettu
 
 Tiedot-ikkunoissa kenttään tekemäsi muutokset tallentuvat automaattisesti, kun poistut kentästä. Ennen kuin suljet ikkunan sen jälkeen, kun olet muuttanut kenttää, pidä sarkainta painettuna tai napsauta/napauta kentän ulkopuolella.
+
+## <a name="a-new-tile-appeared-in-the-app-launcher-how-do-i-remove-it"></a>Uusi ruutu ilmestyi sovelluksen käynnistimeen. Miten poistan sen?
+
+Kun tarkastelet sovelluksia Office 365 -kotisivulla (https://home.office.com) tai sovelluksen käynnistimessä, uusi "Business Central teams Integration Service Connector" -niminen ruutu tulee näkyviin, kun Teamsin [!INCLUDE [prod_short](includes/prod_short.md)] -sovellus on asennettu. Tämä ruutu ei tarjoa arvoa itsessään, ja se voidaan piilottaa turvallisesti.
+
+Järjestelmänvalvoja, jolla on Azure Active Directory -järjestelmänvalvojan käyttöoikeudet, voit piilottaa ruudun toimimalla seuraavasti:
+
+1. Kirjaudu [Azure Active Directory -hallintakeskukseen](https://aad.portal.azure.com/).
+2. Valitse **Yrityssovellukset** ja valitse sitten **Business Central Teams Integration Service Connector**.
+3. Valitse **Ominaisuudet**, määritä sitten **Näkyy käyttäjille** -valitsin asentoon **Ei**.
+4. Valitse **Tallenna**.
+
+> [!NOTE]
+> Tämä muutos tulee voimaan jonkin ajan kuluttua.
+
 
 ## <a name="see-also"></a>Katso myös
 

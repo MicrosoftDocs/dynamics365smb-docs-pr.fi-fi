@@ -3,19 +3,19 @@ title: Mobiilisovellukset – usein kysytyt kysymykset
 description: Katso vastauksia usein kysyttyihin kysymyksiin Business Centralin käyttämisestä puhelimessa tai tabletissa.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: phone, tablet
 ms.date: 10/15/2020
 ms.author: edupont
-ms.openlocfilehash: e551bb66131c4c5b472f6088e283e9ba8dab4014
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 3b00eb417f2e51d87a58885a50e1262150837d93
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756790"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385447"
 ---
 # <a name="mobile-apps-faq"></a>Mobiilisovellukset – usein kysytyt kysymykset
 
@@ -63,7 +63,7 @@ Melkein, mutta ei aivan. Katso luettelo [Onko kokemus sama sovelluksissa kuin se
 
 Kyllä saat. Se on hieman erilainen tapa kirjautua sisään, siinä kaikki. Lisätietoja on kohdassa [Business Central on-premises -version käyttäminen](install-mobile-app.md#using-business-central-on-premises).  
 
-## <a name="see-also"></a>Katso myös .
+## <a name="see-also"></a>Katso myös
 
 [Business Central -sovelluksen hakeminen mobiililaitteeseen](install-mobile-app.md)  
 [Business Central -sovelluksen asentaminen Microsoft Teamsiin](across-install-app-for-teams.md)  

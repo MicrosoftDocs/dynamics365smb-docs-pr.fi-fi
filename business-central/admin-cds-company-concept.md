@@ -3,19 +3,19 @@ title: Yrityksen ja liiketoimintayksikön yhdistämismääritys | Microsoft Docs
 description: Yritykset ovat sekä oikeushenkilö- että liiketoimintarakenteita. Niiden avulla suojataan ja visualisoidaan liiketoimintatiedot.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: CDS, , integration, sync
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 22411c8392cf81b25b1f11f221bbd98942f653f4
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: f218b50e40f6bb0e8e9ab3be8fcd00d23b1adbe2
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4754090"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5378721"
 ---
 # <a name="data-ownership-models"></a>Tietojen omistusmallit
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -73,7 +73,7 @@ Jos valitset henkilön omistusmallin, määritä kaikki myyjät, jotka omistavat
 
 Oletusliiketoimintayksikköä käytetään, kun henkilön omistajuus -malli valitaan, eikä toista liiketoimintayksikköä voi valita. Oletusliiketoimintayksikköön liitetty ryhmä omistaa tietueita yleisille taulukoille, kuten tuotetaulukolle, jotka eivät liity tiettyihin myyjiin.
 
-Kun lisäät myyjiä [!INCLUDE[prod_short](includes/prod_short.md)]:ssä [!INCLUDE[prod_short](includes/cds_long_md.md)] -ohjelman käyttäjiin, [!INCLUDE[prod_short](includes/prod_short.md)] lisää käyttäjän oletusryhmään [!INCLUDE[prod_short](includes/cds_long_md.md)] -ohjelmaan. Voit varmistaa, että käyttäjät lisätään tarkastelemalla **Käyttäjät - Common Data Service** -sivun **Oletusryhmänjäsen**-saraketta . Jos käyttäjää ei lisätä, voit lisätä ne manuaalisesti käyttämällä **Lisää sidotut käyttäjät tiimiin** -toimintoa. Lisätietoja on kohdassa [Business Centralin tietojen synkronointi Dataversen avulla](admin-synchronizing-business-central-and-sales.md).
+Kun lisäät myyjiä [!INCLUDE[prod_short](includes/prod_short.md)]:ssä [!INCLUDE[prod_short](includes/cds_long_md.md)] -ohjelman käyttäjiin, [!INCLUDE[prod_short](includes/prod_short.md)] lisää käyttäjän oletusryhmään [!INCLUDE[prod_short](includes/cds_long_md.md)] -ohjelmaan. Voit varmistaa, että käyttäjät lisätään tarkastelemalla **Käyttäjät - Common Data Service** -sivun **Oletusryhmänjäsen**-saraketta. Jos käyttäjää ei lisätä, voit lisätä ne manuaalisesti käyttämällä **Lisää sidotut käyttäjät tiimiin** -toimintoa. Lisätietoja on kohdassa [Business Centralin tietojen synkronointi Dataversen avulla](admin-synchronizing-business-central-and-sales.md).
 
 ## <a name="see-also"></a>Katso myös
 [Tietoja [!INCLUDE[prod_short](includes/cds_long_md.md)]](admin-common-data-service.md) -sovelluksesta

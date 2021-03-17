@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contract, agreement, configure
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 27bdbb3fffab0e946dabdbdfe5fd2172895ac4ad
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 16226b3c8cc7661ee44bcac0e6934d175ea460b5
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910353"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377421"
 ---
 # <a name="fulfilling-service-contracts"></a>Huoltosopimusten toteuttaminen 
 Huoltohallinnon liiketoiminnan voi määrittää luomalla yrityksen ja asiakkaan väliset vakiosopimukset, jotka kuvaavat huollon tason ja odotukset. Voit luoda tarvittavat tiedot sisältäviä huoltomalleja. Näitä tietoja ovat esimerkiksi asiakas, sopimuksen alkamispäivä ja laskutuskausi.  
@@ -32,7 +32,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 |Voit luoda huoltosopimuksia joko manuaalisesti tai huoltosopimustarjouksesta.| [Huoltosopimusten ja huoltosopimustarjousten luominen](service-how-to-create-service-contracts-and-service-contract-quotes.md)|
 |Voit muuttaa huoltosopimuksen tai sopimustarjouksen vuosittaista summaa, joten varmista, että laskutat oikean summan.|[Huoltosopimuksen tai sopimustarjouksen vuosittaisen summan muuttaminen](service-how-to-change-the-annual-amount-on-service-contracts-or-contract-quotes.md)|
 
-## <a name="see-also"></a>Katso myös .
+## <a name="see-also"></a>Katso myös
 [Huollon suunnittelu](service-plan-service.md)  
 [Huollon toimittaminen](service-deliver-service.md)  
 [Huoltohallinnon määrittäminen](service-setup-service.md)  

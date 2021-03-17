@@ -3,19 +3,19 @@ title: Automaattiset tilikoodit suomenkielisessä versiossa
 description: Mukautettujen kirjausryhmien avulla voit automatisoida päiväkirjojen, myyntiasiakirjojen tai ostoasiakirjojen toistuvat tapahtumat suomenkielisessä versiossa.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: baf705069d9000fe4776d34def9e7157bcf0aad4
-ms.sourcegitcommit: 428f180604e5afcf94fa0e92a0615f58c88e13cd
+ms.openlocfilehash: fd308413f26de65186e42c014bcadc78efa0d2a4
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3931342"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380347"
 ---
 # <a name="automatic-account-codes-in-the-finnish-version"></a>Automaattiset tilikoodit suomenkielisessä versiossa
 

@@ -3,19 +3,19 @@ title: Varastopaikkojen luominen | Microsoft Docs
 description: Tehokkain tapa luoda fyysisen varaston varastopaikkoja on luoda samankaltaisten varastopaikkojen ryhmiä varastopaikan luontityökirjassa, mutta varastopaikkoja voi luoda myös yksittäin.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 11113ceaa153ea7e3c9a4ea36b8eddba8235f28f
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: ea28885b7f7ff41b7ef1250e692895543ca46042
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4759865"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385672"
 ---
 # <a name="create-bins"></a>Varastopaikkojen luominen
 Tehokkain tapa luoda fyysisen varaston varastopaikkoja on luoda samankaltaisten varastopaikkojen ryhmiä varastopaikan luontityökirjassa, mutta varastopaikkoja voi luoda myös yksittäin sijainnin kortista. Voit luoda varastopaikkoja myös automaattisesti **Var.paikan luontityökirja** -sivulla.  
@@ -62,7 +62,7 @@ Voit käyttää **Var.paikan luontityökirja** -sivua, jos sinut on määritetty
 
 6.  Jos haluat jonkin merkin, esimerkiksi yhdysmerkin, erottavan luokkakenttiä, jotka on määritelty osaksi varastopaikkakoodia, täytä **Kenttäerotin**-kenttään tämä merkki.  
 7.  Jos et halua sovelluksen luovan riviä varastopaikalle, jos se on jo luotu, valitse **Tarkasta olemassa olevat var.paikat** -kenttä.  
-8. Sen jälkeen kun olet täyttänyt kaikki kentät, paina **OK**-painiketta .
+8. Sen jälkeen kun olet täyttänyt kaikki kentät, paina **OK**-painiketta.
 
     Sovellus luo työkirjaan rivin kullekin varastopaikalle. Voit nyt poistaa joitain varastopaikoista, jos sinulla on esimerkiksi hylly, jossa on käytävä parin osion kahden ensimmäisen tason välillä.  
 

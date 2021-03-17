@@ -3,19 +3,19 @@ title: Sarja- ja eränumeroiden määrittäminen nimikkeille seurantaa varten | 
 description: Voit lisätä sarja- ja eränumeroita mihin tahansa lähtevään tai saapuvaan asiakirjaan, ja sen kirjatut nimikeseurantatapahtumat näkyvät niihin liittyvissä nimiketapahtumissa.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f0136c253e38f4950837bc0fdafae5f5c35cab28
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 1ffb80f4571e96dcaa8acfbcb106f7fb582b4783
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4746089"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377571"
 ---
 # <a name="work-with-serial-and-lot-numbers"></a>Sarja- ja eränumeroiden käsitteleminen
 Voit määrittää sarja- ja eränumeroita mihin tahansa lähtevään tai saapuvaan asiakirjaan, ja sen kirjatut nimikeseurantatapahtumat näkyvät niihin liittyvissä nimiketapahtumissa. Työ suoritetaan **Nimikkeen seurantarivit** -sivulla, joka avataan saapuvasta tai lähtevästä asiakirjasta.
@@ -226,9 +226,9 @@ Jos sinun täytyy linkittää erityistietoja erityiseen nimikkeen seurantanumero
 5. Luo erillinen kommenttitietue valitsemalla **Kommentti**.  
 6. Valitse **Estetty** -valintaruutu sulkeaksesi sarja-/eränumerot pois kaikista transaktioista.  
 
-Jos luot sarja numeroita joukkotoimintona käyttämällä **Luo räätälöity SN**- tai **Määritä sarjanro** -toimintoa, voit ottaa käyttöön **Luo sarjanrotiedot** ja jokaiselle seurantariville luodaan tietokortti.
+<!--If you create serial numbers in bulk by using the **Create Customized SN** or **Assign Serial No.** actions, you can enable **Create SN Information** and an information card will be created for each tracking line.
 
-Vaihtoehtoisesti voit luoda tietokortin, kun kirjaat päiväkirjoja tai asiakirjoja, ottamalla käyttöön **Nimikkeen seurantakoodi** -sivulla **Luo sarjanrotiedot kirjattaessa**- tai **Luo sarjanrotiedot kirjattaessa**- valitsimet. 
+Alternatively, you can create an information card when you post journals or documents. On the **Item Tracking Code** page, turn on the **Create SN Info. on posting** or **Create SN Info. on posting** toggles. -->
 
 Voit muokata luotuja sarja- tai erätietokortteja myöhemmin.
 

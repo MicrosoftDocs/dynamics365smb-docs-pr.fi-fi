@@ -3,19 +3,19 @@ title: ALV-ilmoituksen määrittäminen | Microsoft-dokumentit
 description: ALV-ilmoituksen määrittäminen
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 9e750f5c68361d0582ce59784bab41337d331152
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 05c186b87935efa4a0adbafb6f3096f0dd26abae
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913636"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5389047"
 ---
 # <a name="set-up-a-vat-statement"></a>ALV-ilmoituksen määrittäminen
 
@@ -26,7 +26,7 @@ Veroviranomaiset voivat muuttaa ALV:n kirjausvaatimuksia. ALV-ilmoitusmallit ja 
 ALV-ilmoitusten avulla voi laskea ALV-laskelman summan tietyltä kaudelta, esimerkiksi neljännesvuoden ajalta.
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **ALV-ilmoitukset** ja valitse sitten liittyvä linkki.  
-2. Valitse **Nimi**-kenttä ja valitse sitten **ALV-ilmoitusten nimet** -sivulla **Uusi** .
+2. Valitse **Nimi**-kenttä ja valitse sitten **ALV-ilmoitusten nimet** -sivulla **Uusi**.
 3. Täytä vaaditut kentät. Tavallisesti halutaan määritys jokaiselle Liiketoiminnan kirjausryhmän/tuotteen ALV-kirjausryhmän yhdistelmälle. Rivinumeroiden osalta on järkevää käyttää samoja numeroita tai koodeja kuin virallisen ALV-ilmoituksen yhteydessä [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 
 

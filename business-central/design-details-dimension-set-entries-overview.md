@@ -3,19 +3,19 @@ title: Dimensioyhdistelmän tapahtumien yleiskatsaus | Microsoft Docs
 description: Tässä aiheessa kuvataan, kuinka dimensioyhdistelmän tapahtumat tallennetaan ja kirjataan Dynamics 365:ssä.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dimension
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 40f6a55adc0c2ade279638b43136475d81cb2c58
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: c0df3fc05935f5a3142564b132e89931fb2647f1
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4751678"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377186"
 ---
 # <a name="dimension-set-entries-overview"></a>Dimensioyhdistelmätapahtumien yleiskuva
 Tässä aiheessa kuvataan, kuinka dimensioyhdistelmän tapahtumat tallennetaan ja kirjataan kohteeseen [!INCLUDE[prod_short](includes/prod_short.md)].  

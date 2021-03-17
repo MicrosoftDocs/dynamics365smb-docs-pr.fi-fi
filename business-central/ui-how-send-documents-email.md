@@ -3,17 +3,17 @@ title: Asiakirjakohtaisen sähköpostisisällön määrittäminen | Microsoft Do
 description: Voit määrittää sähköpostiviestin perustekstiin lisättävän sisällön, kuten PayPal-linkin. Voit myös liittää asiakirjoja sähköpostiviesteihin.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f318825b87b0c9aa51ef8493ba89a74a02384b73
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 8e22efc92cba6d9a59cc06c66422387d5b35f227
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756865"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5389622"
 ---
 # <a name="send-documents-and-emails"></a>Asiakirjojen ja sähköpostien lähettäminen
 Voit helposti jakaa tietoja ja asiakirjoja, kuten myynti- ja ostoilauksia ja laskuja, sähköpostitse suoraan [!INCLUDE[prod_short](includes/prod_short.md)]ista ilman sähköpostisovelluksen avaamista. 

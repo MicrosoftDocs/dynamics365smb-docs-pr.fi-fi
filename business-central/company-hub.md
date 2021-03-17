@@ -3,16 +3,16 @@ title: Työnhallinta useiden yritysten välillä yritystoiminnossa
 description: Tutustu yritystoimintoon Dynamics 365 Business Centralissa, jossa työskentelet useiden yritysten kesken.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 10/29/2020
 ms.author: edupont
-ms.openlocfilehash: e8a1e6de5cc8889f144e08db8ed77e4543cb9b4c
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: d85358c9fa1e4f6fb6d581daed45c4333511b990
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752053"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5387472"
 ---
 # <a name="manage-work-across-multiple-companies-in-the-company-hub"></a>Työnhallinta useiden yritysten välillä yritystoiminnossa
 
@@ -88,7 +88,7 @@ Esimerkiksi, jos olet kirjanpitäjä, asiakkaasi voivat kutsua sinut heidän [!I
 
 Järjestelmänvalvojat voivat käyttää samaa avustettua Ohjatun määrityksen opasta käyttäjien lisäämiseen [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmassa, tai he voivat lisätä sinut asianmukaiseen Azure AD -tiliin Microsoft 365 -hallintakeskuksessa. Lisätietoja on kohdassa [Käyttäjien ja ryhmien hallinta](/microsoft-365/admin/add-users/?view=o365-worldwide&preserve-view=true).  
 
-## <a name="see-also"></a>Katso myös .
+## <a name="see-also"></a>Katso myös
 
 [Yritysten lisääminen yrityksen keskittimeen](company-hub-add-company.md)  
 [Kirjanpitäjän käyttökokemukset Business Centralissa](finance-accounting.md)  

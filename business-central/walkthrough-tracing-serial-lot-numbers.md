@@ -3,19 +3,19 @@ title: Vaihekuvaus – Sarja- ja eränumeroiden jäljittäminen | Microsoft Docs
 description: Tässä aiheessa käsitellään viallisen nimikkeen myynnin lopettamisen toimintojen.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 8fc5da8ca5dc69f93dfa81d4f581a7323ad01811
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 51486dac343ed6047988acedc97122136ab61b3b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756365"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385722"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Vaihekuvaus: Sarja-/eränumeroiden jäljitys
 
@@ -25,7 +25,7 @@ Kun virheellisiä tuotteita havaitaan, on tarpeen määrittää virheet ja estä
 
 Vikojenhallinnan ensimmäinen tehtävä on tutkia mistä viallisten nimikkeiden olivat peräisin ja missä niitä käytettiin. Tämä tutkimus perustuu historiatietoihin ja se helpottaa hakua nimikeseurantatapahtumista **Nimikkeen jäljitys** -sivun avulla.  
 
-Toisessa vaiheessa määritetäänkö, onko jäljitettyjä nimikkeitä käytetty suunnitteluun avoimissa asiakirjoissa, kuten kirjaamattomissa myyntitilauksissa tai kulutuspäiväkirjoissa. Tämä työ tehdään ****-sivulla. Etsi merkintöjä -toiminnon avulla voit etsiä kaikenlaisia tietokantatietueita.  
+Toisessa vaiheessa määritetäänkö, onko jäljitettyjä nimikkeitä käytetty suunnitteluun avoimissa asiakirjoissa, kuten kirjaamattomissa myyntitilauksissa tai kulutuspäiväkirjoissa. Tämä työ tehdään **Etsi tapahtumat**-sivulla. Etsi merkintöjä -toiminnon avulla voit etsiä kaikenlaisia tietokantatietueita.  
 
 ## <a name="about-this-walkthrough"></a>Tietoja tästä vaihekuvauksesta
 
@@ -64,7 +64,7 @@ Myyntiosastolta kerrotaan laatupäällikölle, että palautetun kilpapyörän (n
 
 Nimikkeen jäljityksen ensimmäisen tehtävän tulokset ilmaisevat, mitkä kilpapyörän rungot olivat viallisia ja miltä toimittajalta ne ovat peräisin. Myöhemmin saman jäljitysprosessin aikana laatupäällikön on etsittävät kaikki myydyt kilpapyörät, joihin käytettiin viallisesta erästä peräisin olevia kilpapyörän runkoja, jotta nämä tilaukset voidaan pysäyttää tai kutsua takaisin. Lopuksi laatupäällikön on etsittävä kaikki avoimet asiakirjat, joissa viallista erää käytetään, jotta niissä ei suoriteta enempää tapahtumia.  
 
-Vianhallinnan kaksi ensimmäistä tehtävää tehdään **Nimikkeen jäljitys** -sivulla. Viimeinen tehtävä tehdään **Etsi merkintöjä**- ja **Nimikkeen jäljitys** -sivuilla.  
+Vianhallinnan kaksi ensimmäistä tehtävää tehdään **Nimikkeen jäljitys** -sivulla. Viimeinen tehtävä tehdään **Etsi tapahtumat**- ja **Nimikkeen jäljitys** -sivuilla.  
 
 ## <a name="prepare-sample-data"></a>Esimerkkitietojen valmisteleminen
 
@@ -279,17 +279,17 @@ Seuraavaksi näille kahdelle nimikkeelle luodaan osto-, tuotanto- ja myyntitilau
 
     Samalla laatupäällikkö havaitsee kolmelta viimeiseltä jäljitysriviltä, että kahden muun nimikkeen, Snro3 ja Snro4, tuotannossa on käytetty ERÄ1:n kilpapyörän runkoja. Hän estää näiden valmiiden tuotteiden toimituksen varastosta.  
 
-    Nyt toinen virheenhallinnan **Nimikkeen jäljitys** -sivulla toteutettavista tehtävistä on valmis. Koska **Nimikkeen jäljitys** -sivu perustuu vain kirjattuihin tapahtumiin, laatupäällikön on **Etsi merkintöjä** -sivun avulla varmistettava, ettei ERÄ1:tä ole käytetty kirjaamattomissa asiakirjoissa.  
+    Nyt toinen virheenhallinnan **Nimikkeen jäljitys** -sivulla toteutettavista tehtävistä on valmis. Koska **Nimikkeen jäljitys** -sivu perustuu vain kirjattuihin tapahtumiin, laatupäällikön on **Etsi tapahtumat** -sivun avulla varmistettava, ettei ERÄ1:tä ole käytetty kirjaamattomissa asiakirjoissa.  
 
 ## <a name="finding-all-records-of-a-seriallot-number"></a>Sarja-/eränumeron kaikkien tietueiden etsiminen  
- **Nimikkeen jäljitys** -sivun avulla laatu-ohjain havaitsi, että LOT1 sisälsi viallisia kilpakehyksiä, jotka toimittaja on toimittanut, ja kirjatun tapahtuman, jossa niitä on käytetty. Hänen on nyt selvitettävä, sisältyykö ERÄ1 mihinkään avoimeen asiakirjaan integroimalla jäljitystulos **Etsi merkintöjä** -sivulle, jossa hän voi suorittaa haun kaikista tietokantatietueista.  
+ **Nimikkeen jäljitys** -sivun avulla laatu-ohjain havaitsi, että LOT1 sisälsi viallisia kilpakehyksiä, jotka toimittaja on toimittanut, ja kirjatun tapahtuman, jossa niitä on käytetty. Hänen on nyt selvitettävä, sisältyykö ERÄ1 mihinkään avoimeen asiakirjaan integroimalla jäljitystulos **Etsi tapahtumat** -sivulle, jossa hän voi suorittaa haun kaikista tietokantatietueista.  
 
 ### <a name="to-find-all-occurrences-of-lot1-in-non-posted-records-such-as-open-orders"></a>ERÄ1:n kaikkien esiintymien etsiminen avoimista tilauksista ja muista kirjaamattomista tietueista  
 
 1.  Valitse **Nimikkeen jäljitys** -sivulla ensimmäisen jäljitysrivin eli ERÄ1:n ostovastaanoton osoitin.  
-2.  Valitse **Etsi merkintöjä** -toiminto.  
+2.  Valitse **Etsi tapahtumat** -toiminto.  
 
-    **Etsi merkintöjä** -sivu sisältää valmiiksi ERÄ1:n jäljitystuloksiin perustuvat hakusuodattimet. Laatupäällikkö havaitsee, että suurin osa tietueista kuuluu **Nimikkeen jäljitys** -sivulla määritettyihin asiakirjoihin. Esimerkiksi Tuotantotilaus-tyypin viimeinen Etsi merkintöjä -rivi viittaa kahteen vapautettuun tuotantotilaukseen, joissa käytettiin ERÄ1:stä peräisin olevia kilpapyörän runkoja.  
+    **Etsi tapahtumat** -sivu sisältää valmiiksi ERÄ1:n jäljitystuloksiin perustuvat hakusuodattimet. Laatupäällikkö havaitsee, että suurin osa tietueista kuuluu **Nimikkeen jäljitys** -sivulla määritettyihin asiakirjoihin. Esimerkiksi Tuotantotilaus-tyypin viimeinen Etsi merkintöjä -rivi viittaa kahteen vapautettuun tuotantotilaukseen, joissa käytettiin ERÄ1:stä peräisin olevia kilpapyörän runkoja.  
 
     Sen sijaan **Myyntirivi**-tyypin toinen Etsi merkintöjä -rivi on kirjaamaton asiakirjarivi. Laatupäällikkö tutustuu tämän rivin tietoihin.  
 
@@ -297,7 +297,7 @@ Seuraavaksi näille kahdelle nimikkeelle luodaan osto-, tuotanto- ja myyntitilau
 
     Tässä laatupäällikkö näkee yhden avoimen myyntirivin, joka sisältää virheellisiä kilpapyörän runkoja. Hän ehdottaa välittömästi myyntiosastolle, että tämä tilaus peruutetaan ja uusi, virheettömiin runkoihin perustuva tuotantotilaus luodaan.  
 
- **Etsi merkintöjä**- ja **Nimikkeen jäljitys** -sivujen käytön integrointia vikojen hallinnassa käsittelevä vaihekuvaus on nyt käyty läpi.  
+ **Etsi tapahtumat**- ja **Nimikkeen jäljitys** -sivujen käytön integrointia vikojen hallinnassa käsittelevä vaihekuvaus on nyt käyty läpi.  
 
 ## <a name="see-also"></a>Katso myös
 [Sarja- ja eränumeroiden käsitteleminen](inventory-how-work-item-tracking.md)  

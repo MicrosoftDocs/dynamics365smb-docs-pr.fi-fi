@@ -4,19 +4,19 @@ description: Olennaisten liiketoimintanäkemysten laajennus kierrättää liiket
 documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: BI, add-in, insight, headline, data
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 2be073fbb2216e9a87c54b7c4d9fd3fa86e02aee
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 5fe9f0907611843951b682a9bf07c0c153486700
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757215"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377321"
 ---
 # <a name="the-essential-business-insights-extension"></a>Essential-liiketoimintatietojen laajennus
 Olennaisten liiketoimintanäkemysten laajennus etsii kiinnostavia liiketoimintatietoja yrityksen tiedoista ja näyttää ne sanomalehdistä tutuksi tulleiden otsikoiden tyyliin roolikeskuksissa. Näkemykset ovat edellisen viikon, edellisen kuukauden tai kolmen edellisen kuukauden ajalta riippuen siitä, millaisia tietoja laajennus löytää. Näkemykset päivitetään 10 minuutin välein.  

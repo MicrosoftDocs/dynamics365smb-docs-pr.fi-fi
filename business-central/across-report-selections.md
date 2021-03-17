@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: setup, reporting
 ms.date: 01/18/2021
 ms.author: edupont
-ms.openlocfilehash: d30baa44894658c03c3deffdf24a7923293b88fd
-ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
+ms.openlocfilehash: 9d282ea35f7b4bdf317e818504f061d4145404bd
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "5024635"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5378996"
 ---
 # <a name="report-selection-in-business-central"></a>Raporttien valinta Business Centralissa
 
@@ -60,7 +60,7 @@ Esimerkiksi **Raporttivalinta – Myynti** ja **Raporttivalinta – Osto** -sivu
 |**Käytä sähköpostin liitteenä**| Määrittää, että liittyvä asiakirja liitetään sähköpostiin.|
 |**Sähköpostin perustekstin asettelun kuvaus**|Määrittää käytetyn sähköpostin perustekstin asettelun, yleensä mukautetun raporttiasettelun. |
 
-## <a name="see-also"></a>Katso myös .
+## <a name="see-also"></a>Katso myös
 
 [Uudelleenkäytettävien sähköpostitekstien ja -asettelujen määrittäminen myynti- ja ostoasiakirjoille](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts-for-sales-and-purchase-documents)  
 [Sekin asettelun valitseminen](finance-how-define-check-layouts.md)  

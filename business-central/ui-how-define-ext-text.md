@@ -3,18 +3,18 @@ title: Laajennettujen kuvausten määrittäminen ylimääräisiä rivejä lisä�
 description: Voit laajentaa nimikkeen, KP-tilin ja muiden tietojen kuvauksena käytettävää vakiotekstiä lisäämällä ylimääräisiä rivejä.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9e443a44135bbdaf75f6a064370983592797b10b
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: ec924b103e6767eaaa888144af5d7ea0cca8f2c1
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756915"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385772"
 ---
 # <a name="add-extended-text"></a>Lisätekstin lisääminen
 

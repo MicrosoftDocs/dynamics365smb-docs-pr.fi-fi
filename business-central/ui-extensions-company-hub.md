@@ -3,19 +3,19 @@ title: Yritystoiminnon käyttö
 description: Tietoja Business Centralin yritystoimintojen laajennuksesta, jonka avulla työskentelet useiden yritysten kesken.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ec59a17d9a3a32e1c17cf6670f69bcc4077993aa
-ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+ms.openlocfilehash: cfd44c40b36c83c8a48b6691bfb50134e7295e56
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5014123"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377371"
 ---
 # <a name="the-company-hub-for-business-central-extension"></a>Business Central -laajennuksen yritystoiminto
 
@@ -29,7 +29,7 @@ Kun laajennus asennetaan ensimmäisen kerran, pääset alkuun malliyrityksen avu
 
 Kun olet asentanut laajennuksen [!INCLUDE [prod_short](includes/prod_short.md)]iin, sinulta kysytään, haluatko käyttää sitä heti. Jos haluat aloittaa käytön heti, sinun on kirjauduttava ensin ulos ja sitten takaisin sisään, koska laajennus korvaa nykyisen roolikeskuksen ja lisää käyttöoikeudet käyttäjäprofiiliisi.
 
-## <a name="see-also"></a>Katso myös .
+## <a name="see-also"></a>Katso myös
 
 [Työnhallinta useiden yritysten välillä yrityksen keskittimessä](company-hub.md)  
 [Kirjanpitäjän käyttökokemukset Business Central -sovelluksessa](finance-accounting.md)  
