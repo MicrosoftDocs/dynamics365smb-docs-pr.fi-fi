@@ -2,18 +2,12 @@
 metadata:
   title: Tietojen kopioiminen ja liittäminen – usein kysytyt kysymykset
   description: Vastauksia usein kysyttyihin kysymyksiin kenttien ja rivien tietojen kopioimisesta ja liittämisestä Business Centralin sivuilta.
-  author: SorenGP
-  ms.topic: article
-  ms.service: dynamics365-business-central
-  ms.search.keywords: accessibility, shortcuts, keyboarding
-  ms.date: 01/08/2021
-  ms.author: edupont
-  ms.openlocfilehash: 93b9f28fec418fef9968fb729ee03b3b0df3918a
-  ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+  ms.openlocfilehash: 7d3d0e29bb6751913297974f611aa9695677ed66
+  ms.sourcegitcommit: 5f403a0567dcfa77493178d116ac64e531c269ad
   ms.translationtype: HT
   ms.contentlocale: fi-FI
-  ms.lasthandoff: 01/15/2021
-  ms.locfileid: "5013919"
+  ms.lasthandoff: 02/15/2021
+  ms.locfileid: "5181827"
 title: Kopioimisen ja liittämisen usein kysytyt kysymykset
 summary: "Voit kopioida yhden rivin tai useita rivejä (tietueita) luettelosta tai yhden kentän sivulta ja liittää kopioidut kohteet samalle sivulle, toiselle sivulle tai ulkoiseen asiakirjaan (kuten Microsoft Exceliin tai Outlook-sähköpostiin).  \n\nJos haluat kopioida, paina näppäimiä CTRL+C (cmd+C macOS-käyttöjärjestelmässä). Jos haluat liittää, paina näppäimiä CTRL+V (cmd+V macOS-käyttöjärjestelmässä). Kopioimiseen ja liittämiseen on useita muita pikanäppäimiä nopeaa tietojen syöttämistä varten. Lisätietoja on kohdassa [Pikanäppäimet](keyboard-shortcuts.md#CopyRows). Tässä artikkelissa on vastauksia kopioimiseen ja liittämiseen liittyviin yleisiin kysymyksiin.  \n"
 sections:
@@ -40,7 +34,7 @@ sections:
 
       Jos haluat kopioida enemmän rivejä, tee seuraavat toiminnot:
 
-      - Käytä toisen rivin kohdalla pikanäppäimiä Ctrl+napsautus tai Vaihto+napsautus ja valitse rivi tai kaikki välissä olevat rivit. Lisätietoja hiiren ja näppäimistön yhdistelmistä rivien valitsemisessa on kohdassa [Pikanäppäimet](keyboard-shortcuts.md#CopyRows) .
+      - Käytä toisen rivin kohdalla pikanäppäimiä Ctrl+napsautus tai Vaihto+napsautus ja valitse rivi tai kaikki välissä olevat rivit. Lisätietoja hiiren ja näppäimistön yhdistelmistä rivien valitsemisessa on kohdassa [Pikanäppäimet](keyboard-shortcuts.md#CopyRows).
 
       - Valitse ![Näytä enemmän vaihtoehtoja](media/show-more-options-icon.png "Näytä enemmän vaihtoehtoja kuvakkeen") ensimmäisessä sarakkeessa. Valitse **Valitse lisää**, valitse sitten kopioitavien rivien kohdalla oleva valintaruutu ja paina näppäinyhdistelmää Ctrl+C.
   - question: Miten liitän rivejä?
