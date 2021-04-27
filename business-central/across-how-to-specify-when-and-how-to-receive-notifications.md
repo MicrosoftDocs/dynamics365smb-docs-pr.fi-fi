@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 85c1c7408394e7f1420e5036257c230adb948aaf
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: d96d094547b71fc722c06facb80a131786df0e58
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5384222"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5774609"
 ---
 # <a name="specify-when-and-how-to-receive-notifications"></a>Ilmoitusten vastaanoton ajankohdan ja tavan määrittäminen
 Kun määrität käyttäjiä hyväksynnän työnkulkuihin, **Ilmoituksen asetukset**- ja **Ilmoitusaikataulu**-sivuilla on määritettävä miten ja milloin käyttäjät saavat ilmoituksia hyväksynnän työnkulun osavaiheista. Yksittäiset käyttäjät voivat muuttaa ilmoitusasetuksiaan valitsemalla **Muuta ilmoitusasetuksia** -painikkeen, joka näytetään kaikissa ilmoituksissa.  

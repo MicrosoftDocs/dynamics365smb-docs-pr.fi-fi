@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9f5bedb69782d77ea64a3779abd26143969925b3
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 8c62a19a9dda2f9af72f03130c7b3cc5e00c1d41
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5390272"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776664"
 ---
 # <a name="managing-report-and-document-layouts"></a>Raporttien ja asiakirjojen asettelujen hallinta
 Raporttiasettelu ohjaa raportin sisältöä ja muotoa, mukaan lukien, mitkä tietojen kentät näkyvät raportissa ja miten ne järjestetään, tekstityylin, kuvia ja muita ominaisuuksia. Voit luoda [!INCLUDE[prod_short](includes/prod_short.md)]ista uuden asettelun, muuttaa raportissa käytettävää asettelua tai muokata nykyisiä asetteluja.

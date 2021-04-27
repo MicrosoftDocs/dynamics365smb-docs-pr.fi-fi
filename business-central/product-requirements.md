@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 01/08/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ea421a1e4c1961bd5df2fac9a8112c9969f206ac
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 5273539fa1dfa3916443bc3e0bf21efb19a4571b
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393672"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5779455"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Business Central -sovelluksen käytön vähimmäisvaatimukset
 
@@ -23,32 +23,34 @@ Suosittelemme, että tietokoneen tai mobiililaitteen tuotteelle asetettujen jär
 
 ## <a name="browsers"></a>Selaimet
 
-### <a name="recommended-browsers"></a>Suositellut selaimet
-
-**Microsoft Edge:** [!INCLUDE[prod_short](includes/prod_short.md)] on suunniteltu käytettäväksi uuden Microsoft Edgen nykyisen version kanssa.  
-**Chrome Windowsille ja Firefox Windowsille**: [!INCLUDE[prod_short](includes/prod_short.md)] on suunniteltu käytettäväksi näiden työpöytäselaimien nykyisten versioiden kanssa.  
+**Microsoft Edge:** [!INCLUDE[prod_short](includes/prod_short.md)] on suunniteltu käytettäväksi uuden Microsoft Edgen nykyisen version kanssa.
+  
+**Chrome Windowsille ja Firefox Windowsille**: [!INCLUDE[prod_short](includes/prod_short.md)] on suunniteltu käytettäväksi näiden työpöytäselaimien nykyisten versioiden kanssa. 
+ 
 **Safari:** [!INCLUDE[prod_short](includes/prod_short.md)] on suunniteltu käytettäväksi macOS-käyttöjärjestelmän nykyisen Safari-version kanssa.  
-
-### <a name="other-supported-browsers"></a>Muut tuetut selaimet
-
-**Microsoft Edge vanha:** [!INCLUDE[prod_short](includes/prod_short.md)] on suunniteltu käytettäväksi Microsoft Edgen vanhan version kanssa, mutta suosittelemme, että siirryt uuteen Edgeen.  
-**Internet Explorer:** [!INCLUDE[prod_short](includes/prod_short.md)] on suunniteltu toimimaan Windows 10:n (32- ja 64-bittiset versiot) Internet Explorer 11:n (koontiversio 11.0.9600.17239) kanssa. Suosittelemme Internet Explorerin päivittämistä uusimpaan Windows-versiosi tukemaan versioon. Voit myös käyttää uutta Edgeä ja silti käyttää muita Internet Exploreria edellyttäviä sivustoja. Lisätietoja on [Microsoft Edge -dokumentaatiossa](/deployedge/edge-ie-mode).
-
-> [!IMPORTANT]
-> Huhtikuusta 2021 alkaen Internet Explorer 11- ja vanhaa Edge-selainta ei enää tueta. Siirtyminen johonkin suositelluista moderneista selaimista kannattaakin tehdä mahdollisimman pian.
 
 ## <a name="mobile-devices"></a>Mobiililaitteet
 
-**Windows:** [!INCLUDE[prod_short](includes/prod_short.md)] for Windows voidaan asentaa laitteisiin, joissa on vähintään 1 Gt RAM-muistia ja Windows 10 S, Home-, Pro-, Enterprise- tai Education-versioihin (32- ja 64-bittiset versiot).  
-**iOS:** [!INCLUDE[prod_short](includes/prod_short.md)] iPadille ja iPhonelle edellyttää iOS 10.0 -käyttöjärjestelmän tai uudemman.  
-**Android:** [!INCLUDE[prod_short](includes/prod_short.md)] Android-tabletille ja Android-puhelimelle voidaan asentaa laitteisiin, joissa on vähintään 1Gt RAM-muistia ja vähintään Android 6.0.  
-**Laitteen koko:** [!INCLUDE[prod_short](includes/prod_short.md)]ia tuetaan älypuhelimissa, joiden näytön koko on vähintään 4 tuumaa ja taulutietokoneissa, joiden näytön koko on vähintään 7 tuumaa.  
+**Windows:** Windows 10 S, Home, Pro, Enterprise tai Education (32- ja 64-bittiset versiot).
 
+**Android (tabletti ja puhelin):** jokin kolmesta viimeisimmästä pääversiosta ja niiden päivityksistä.
+
+**iOS (iPad ja puhelin):** jokin kolmesta viimeisimmästä pääversiosta ja niiden päivityksistä.
+
+<!--
+
+**Windows:** [!INCLUDE[prod_short](includes/prod_short.md)] for Windows can be installed on devices with at least 1 GB of RAM and Windows 10 S, Home, Pro, Enterprise, or Education (32-bit and 64-bit editions).  
+**iOS:** [!INCLUDE[prod_short](includes/prod_short.md)] for iPad and iPhone requires iOS 10.0 or later.  
+**Android:** [!INCLUDE[prod_short](includes/prod_short.md)] for Android tablet and Android phone can be installed on devices with at least 1 GB of RAM and Android 6.0 or higher.  
+**Device size:** [!INCLUDE[prod_short](includes/prod_short.md)] is supported on smart phones with a minimum screen size of 4" and tablets with a minimum screen size of 7".  
+-->
 ## <a name="outlook"></a>Outlook 
 
-**Outlook-sovellukset:** Jos haluat käyttää [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen online-versiota Outlookin yrityssähköpostina, tarvitset Outlook 2019:n tai uudemman, Outlookin verkossa, Outlook for iPhonen, Outlook for iPadin tai Outlook for Androidin. Organisaatiossa on oltava käytössä myös Microsoft 365. Et voi käyttää [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen online-versiota Outlookin yrityssähköpostina, jos organisaatiossa on käytössä paikallinen Exchange Server.  
-**Selaimet:** Kun [!INCLUDE[prod_short](includes/prod_short.md)] on käytössä Outlookin yrityssähköpostina Outlookin selaimessa, apuohjelma edellyttää, että yritys käyttää jotakin aiemmin tässä artikkelissa mainittua tuettua selainta.  
-**Alustat:** Kun käytössä on [!INCLUDE[prod_short](includes/prod_short.md)] Outlookin apuohjelma Outlook for iPhone-, Outlook for iPad- tai Outlook for Android -sovelluksessa, apuohjelma edellyttää, että mobiililaitteessa käytetään [!INCLUDE[prod_short](includes/prod_short.md)]in tuettujen mobiililaitteiden luettelossa mainittua mobiililaitetta.  
+**Outlook-sovellukset:** jos haluat käyttää [!INCLUDE[prod_short](includes/prod_short.md)] online -versiota Outlookin yrityssähköpostina, tarvitset Outlook 2019:n tai uudemman, Outlookin verkkoversion, Outlook for iOS:n tai Outlook for Androidin. Organisaatiossa on oltava käytössä myös Microsoft 365. Et voi käyttää [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen online-versiota Outlookin yrityssähköpostina, jos organisaatiossa on käytössä paikallinen Exchange Server. 
+ 
+**Selaimet:** Kun [!INCLUDE[prod_short](includes/prod_short.md)] on käytössä Outlookin yrityssähköpostina Outlookin selaimessa, apuohjelma edellyttää, että yritys käyttää jotakin aiemmin tässä artikkelissa mainittua tuettua selainta. 
+ 
+**Ympäristöt:** jos käytössä on [!INCLUDE[prod_short](includes/prod_short.md)] Outlookin apuohjelma Outlook for iOS- tai Outlook for Android, apuohjelma edellyttää, että mobiililaitteessa käytetään [!INCLUDE[prod_short](includes/prod_short.md)]in tuettujen mobiililaitteiden luettelossa mainittua mobiililaitetta.  
 
 ## <a name="teams"></a>Teams
 
@@ -73,12 +75,11 @@ Administration Center toimii seuraavien selainten uusimman version kanssa:
 
 ## <a name="using-business-central-on-premises"></a>Paikallisen Business Central -sovelluksen käyttäminen
 
-Jos haluat ottaa käyttöön paikallisen Business Central -sovelluksen, tarkista järjestelmän vaatimukset. Lisätietoja on kohdassa [Dynamics 365 Business Central -sovelluksen järjestelmävaatimukset](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central-v17) ja [Käyttöönoton yleiskatsaus](/dynamics365/business-central/dev-itpro/deployment/deployment)  
+Jos haluat ottaa käyttöön paikallisen Business Central -sovelluksen, tarkista järjestelmän vaatimukset. Lisätietoja on kohdassa [Dynamics 365 Business Centralin järjestelmävaatimukset](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v18) ja [Käyttöönoton yleiskatsaus](/dynamics365/business-central/dev-itpro/deployment/deployment).  
 
 ## <a name="see-also"></a>Katso myös
 
-[Käytön aloittaminen](product-get-started.md)  
-[Dynamics 365 Business Central -sovelluksen järjestelmävaatimukset](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central-v17)  
-
+[Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
+[Dynamics 365 Business Centralin järjestelmävaatimukset](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v18)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

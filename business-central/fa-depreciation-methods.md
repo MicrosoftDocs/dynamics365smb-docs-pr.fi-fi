@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 02/22/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 59bf311e24f11e062a243026ec35ca4c7b779952
-ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
+ms.openlocfilehash: 9e531a4f304829b0549fbe21e8d671708373ab22
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5493326"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5774153"
 ---
 # <a name="depreciation-methods-for-fixed-assets"></a>Käyttöomaisuuden poistomenetelmät
 
@@ -154,16 +154,16 @@ Laskentamenetelmä:
 
 Poistosumman laskennan kaava on:  
 
-*PS* = *KP* x (1 – (1 –P)<sup>P<sup> 
+*PS* = *KP* x (1 – (1 –P)<sup>P</sup>)
 
 Poistojen arvot ovat:  
 
 | Pvm | Laskenta |
 | --- | --- |
-| 06/30/20 |PS = 100 000,00 x (1 -(1 - 0.25)<sup>0,5<sup>) = 13 397,46 |
-| 12/31/20 |PS = 86 602,54 x (1 - (1 - 0,25)<sup>0,5<sup>) = 11 602,54 |
-| 06/30/21 |PS = 75 000,00 x (1 - (1 - 0,25)<sup>0,5<sup>) = 10 048,09 |
-| 12/31/21 |PS = 64 951,91 x (1 - (1 - 0,25)<sup>0,5<sup>) = 8 701,91 |
+| 06/30/20 |PS = 100 000,00 x (1 -(1 - 0,25)<sup>0,5</sup>) = 13 397,46 |
+| 12/31/20 |PS = 86 602,54 x (1 - (1 - 0,25)<sup>0,5</sup>) = 11 602,54 |
+| 06/30/21 |PS = 75 000,00 x (1 - (1 - 0,25)<sup>0,5</sup>) = 10 048,09 |
+| 12/31/21 |PS = 64 951,91 x (1 - (1 - 0,25)<sup>0,5</sup>) = 8 701,91 |
 
 ## <a name="db1sl-depreciation"></a>MJP1/TP-poisto
 
@@ -205,7 +205,7 @@ Käyttöomaisuustapahtumat näyttävät seuraavalta:
 
 Laskentamenetelmä:  
 
-* Vuosi 1:  
+* Vuosi 1 (2020):  
 
     *Menojäännöspoistosumma: 25 % 100 000:sta = 25 000 = 12 500 + 12 500*  
 
@@ -373,7 +373,7 @@ Kun käyttöomaisuuden KP-päiväkirjan B1:een annetaan tapahtuma ja **Käytä m
 [Käyttöomaisuus](fa-manage.md)  
 [Käyttöomaisuuden määrittäminen](fa-setup.md)  
 [Rahoitus](finance.md)  
-[Käytön aloittaminen](product-get-started.md)  
+[Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
 
 

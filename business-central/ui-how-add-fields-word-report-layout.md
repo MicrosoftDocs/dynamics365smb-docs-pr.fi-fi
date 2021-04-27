@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 8dc64aeb028fdbc964bb7124f578014d3e6f0cde
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 52cfb4ba4ca0ba645ecca48e08d63722c2c5c5b4
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393873"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771108"
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Kenttien lisääminen Word-raporttiasetteluun
 Raportin tietojoukko voi sisältää kenttiä, joissa näkyvät otsikot, tiedot ja kuvat. Tässä ohjeaiheessa käsitellään raportin tietojoukon kenttien lisääminen olemassa olevaan raportin Word-raporttiasetteluun. Lisäät kenttiä käyttämällä raportille mukautettua XML-osaa ja lisäämällä sisällön ohjausobjekteja, jotka on yhdistetty raportin tietojoukon kenttiin. Kenttien lisääminen edellyttää, että tunnet jonkin raportin tietojoukon niin, että voit tunnistaa kentät, jotka haluat lisätä asetteluun.  
@@ -31,7 +31,7 @@ Raportin tietojoukko voi sisältää kenttiä, joissa näkyvät otsikot, tiedot 
   
 2.  Näytä **Kehittäjä**-välilehti Microsoft Wordin valintanauhassa.  
   
-     Oletuksena on, että **Kehittäjä**-välilehti ei ole näkyvissä valintanauhassa. Lisätietoja on kohdassa [Valintanauhan Kehitystyökalut-välilehden näyttäminen](https://go.microsoft.com/fwlink/?LinkID=389631).  
+     Oletuksena on, että **Kehittäjä**-välilehti ei ole näkyvissä valintanauhassa. Lisätietoja on kohdassa [Valintanauhan Kehitystyökalut-välilehden näyttäminen](/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon).  
   
 3.  Valitse **Kehittäjä**-välilehdellä **XML-yhdistäminen-ruutu**.  
   
@@ -105,7 +105,7 @@ Seuraavassa taulukossa on yksinkertaistettu yhteenveto mukautetun XML-osan XML-k
 |`..</DataItem1>`<br /><br /> `</WordReportXmlPart>`|Elementin sulkeminen.|  
   
 ### <a name="custom-xml-part-in-word"></a>Mukautettu XML-osa Wordissa  
- Word -ohjelmassa mukautettu XML-osa avataan **XML-yhdistäminen**-ruudussa ja elementit yhdistetään ruudun avulla Word-asiakirjassa. **XML-yhdistäminen**-ruutua voi käyttää **Kehitystyökalut**-välilehdessä. (Lisätietoja on kohdassa [Valintanauhan Kehitystyökalut-välilehden näyttäminen](https://go.microsoft.com/fwlink/?LinkID=389631)).  
+ Word -ohjelmassa mukautettu XML-osa avataan **XML-yhdistäminen**-ruudussa ja elementit yhdistetään ruudun avulla Word-asiakirjassa. **XML-yhdistäminen**-ruutua voi käyttää **Kehitystyökalut**-välilehdessä. (Lisätietoja on kohdassa [Valintanauhan Kehitystyökalut-välilehden näyttäminen](/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon)).  
   
  **XML-yhdistäminen**-ruudun elementit näkyvät rakenteessa, joka vastaa XML-lähdettä. Otsikkokentät ryhmitellään yleisen **Otsikot**-elementin alle, tietokohteet ja sarakkeet järjestetään hierarkkiseen rakenteeseen, joka vastaa XML-tietolähdettä ja sarakkeet ovat aakkosjärjestyksessä. Elementit tunnistetaan nimen perusteella. Tämän nimen määrittää ADD INCLUDE -raportin raportin tietojoukon suunnittelutoiminnon nimiominaisuus.<!--[!INCLUDE[nav_dev_short](../../includes/nav_dev_short_md.md)]-->.  
   

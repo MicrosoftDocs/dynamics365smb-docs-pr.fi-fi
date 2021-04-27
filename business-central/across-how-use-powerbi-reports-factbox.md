@@ -1,6 +1,6 @@
 ---
 title: Business Central -tietojen mukautettujen Power BI -raporttien näyttäminen | Microsoft Docs
-description: Saat Power BI -raporttien avulla lisätietoja luetteloissa olevista tiedoista.
+description: Power BI -raporttien avulla saadaan lisätietoja luetteloissa olevista tiedoista.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,39 +8,81 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 6c818940357ed21a994e7553517989a0c16accec
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: a600b24e16172134d4f8e78cf47efa4e262cac09
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5379271"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777514"
 ---
 # <a name="creating-power-bi-reports-for-displaying-list-data-in-prod_short"></a>[!INCLUDE[prod_short](includes/prod_short.md)]in luettelotiedot näyttävien Power BI -raporttien luominen
 
-[!INCLUDE[prod_long](includes/prod_long.md)]in useilla tärkeillä luettelosivuilla on ohjausobjektina tietoruutu, jossa on lisätietoja luettelon tiedoista. Raportti päivitetään ja suodatetaan valitun tapahtuman mukaan, kun siirryt luettelon riveillä. Voit luoda mukautettuja raportteja näyttämään tämän ohjausobjektin. Raporttien toimiminen odotetusti edellyttää muutamien sääntöjen noudattamista.  
+[!INCLUDE[prod_long](includes/prod_long.md)] sisältää Power BI -tietoruudun ohjausobjektielementin monilla tärkeillä luettelosivuilla. Tietoruudun tarkoitus on näyttää Power BI -raportteja, jotka liittyvät luetteloissa oleviin tietueisiin. Tällä tavoin tiedoista saadaan parempi käsitys. Ajatuksena on, että kun luettelon riveillä siirrytään, raportti päivitetään ja suodatetaan valitun tapahtuman mukaan.
+
+Osa näistä raporteista toimitetaan [!INCLUDE[prod_long](includes/prod_long.md)]in mukana. Lisäksi tässä tietoruudussa näytettäväksi voi luoda omia mukautettuja raportteja. Näiden raporttien luonti muistuttaa muiden raporttien luontia. On kuitenkin muutamia suunnittelusääntöjä, joita noudattamalla voidaan varmistaa, että raportit näkyvät odotetusti. Näitä sääntöjä käsitellään tässä artikkelissa.
+
+> [!NOTE]
+> Yleisiä tietoja Business Centralin Power BI -raporttien luomisesta ja julkaisemisesta on kohdassa [Power BI -raporttien muodostaminen näyttämään [!INCLUDE [prod_long](includes/prod_long.md)] -tietoja](across-how-use-financials-data-source-powerbi.md). 
 
 ## <a name="prerequisites"></a>Vaatimukset
 
 - Power BI -tili.
 - Power BI Desktop.
 
-Lisätietoja aloittamisesta on kohdassa [[!INCLUDE[prod_short](includes/prod_short.md)]in käyttäminen Power BI -tietolähteenä](across-how-use-financials-data-source-powerbi.md).
+<!-- 
+For more information about getting started, see [Using [!INCLUDE[prod_short](includes/prod_short.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md).-->
 
-## <a name="defining-the-report-data-set"></a>Raportin tietojoukon määrittäminen
+## <a name="create-a-report-for-a-list-page"></a>Raportin luominen luettelosivulle
 
-Määritä tietolähde, joka sisältää luetteloon liittyvät tiedot. Esimerkiksi myyntiluetteloa koskevaa raporttia luotaessa on varmistettava, että tietojoukko sisältää myyntiin liittyviä tietoja.  
+1. Käynnistä Power BI Desktop.
+2. Valitse **Hae tiedot** ja aloita raportin tietolähteen valitseminen.
 
-## <a name="defining-the-report-filter"></a>Raporttisuodattimen määrittäminen
+    Tässä vaiheessa määritetään Business Centralin luettelosivut, jotka sisältävät raportissa käytettävät tiedot. Esimerkiksi myyntiluetteloa koskevaa raporttia luotaessa on varmistettava, että tietojoukko sisältää myyntiin liittyviä tietoja.
 
-Lisäämällä suodatin raporttiin voidaan varmistaa, että tiedot päivittävät valitun tietueen luettelossa. Suodattimessa on oltava kenttä sen tietolähteen kenttä, jota käytetään *perusavaimena*. Useimmissa tapauksissa luettelon perusavain on **Nro** -kentässä.
+    Lisätietoja on kohdassa [[!INCLUDE[prod_short](includes/prod_short.md)]in lisääminen tietolähteenä Power BI Desktopissa](across-how-use-financials-data-source-powerbi.md#getdata).
 
-Voit määrittää raporttisuodattimen valitsemalla käytettävissä olevien kenttien luettelosta perusavaimen sekä vetämällä ja pudottamalla kyseisen kentän **Raporttisuodatin**-kenttään. Suodattimen on oltava kaikille sivuille määritetty perusraporttisuodatin. Se ei voi olla sivu, visualisointi tai lisäsuodatus.
+3. Määritä raporttisuodatin.
 
-![Myyntilaskuaktiviteetti-raportin raporttisuodattimen määrittäminen](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-filter-v3.png)
+    Lisäämällä suodatin raporttiin voidaan varmistaa, että tiedot päivittävät valitun tietueen luettelossa. Suodattimessa on oltava sen tietolähteen kenttä, jota käytetään luettelon kunkin tietueen yksilöivään tunnistamiseen. Kehittäjät kutsuvat tätä kenttää *perusavaimeksi*. Useimmissa tapauksissa luettelon perusavain on **Nro** -kentässä.
 
-## <a name="setting-the-report-size-and-color"></a>Raportin koon ja värin määrittäminen
+    Määritä suodatin seuraavasti:
+
+    1. Valitse **Suodattimet**-kohdassa perusavainkenttä käytettävissä olevien kenttien luettelosta.
+    2. Vedä kenttä **Suodattimet**-ruutuun ja pudota se **Suodattimet kaikilla sivuilla** -ruutuun.
+    3. Määritä **suodattimen tyypiksi** **Perussuodatus**. Se ei voi olla sivu, visualisointi tai lisäsuodatus.
+
+    ![Myyntilaskuaktiviteetti-raportin raporttisuodattimen määrittäminen](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-filter-v3.png)
+4. Suunnittele raportin asettelu.
+
+    Luo suunnittelu vetämällä kenttiä ja lisäämällä visualisointeja. Lisätietoja on Power BI -dokumentaation kohdassa [Raporttinäkymän käyttäminen Power BI Desktopissa](/power-bi/create-reports/desktop-report-view).
+
+5. Seuraavissa osissa on tietoja raportin koon muuttamisesta ja useiden sivujen käyttämisestä.
+
+6. Tallenna raportti ja anne sille nimi.
+
+    On tärkeää, että raportin nimi raporttiin liitetyn luettelosivun nimen. Jos raportti koskee esimerkiksi **Nimikkeet**-luettelosivua, nimessä on oltava sana *nimike*.  
+
+    Tätä nimeämiskäytäntöä ei ole pakko noudattaa. Se kuitenkin nopeuttaa raporttien valitsemista [!INCLUDE[prod_short](includes/prod_short.md)]issa. Jos raportin valintasivu avautuu luettelosivulta, se suodatetaan automaattisesti sivun nimen mukaan. Tämän suodatuksen avulla voidaan rajoittaa näytettävien raporttien määrää. Tyhjentämällä suodattimen käyttäjät saavat näkyviin luettelon kaikista Power BI:ssa käytettävistä raporteista.
+
+7. Kun olet valmis, julkaise raportti tavalliseen tapaan.
+
+    Lisätietoja on kohdassa [Raportin julkaiseminen](across-how-use-financials-data-source-powerbi.md#publish-reports).
+
+8. Testaa raporttia.
+
+    Kun raportti on julkaistu työtilaan, sitä pitäisi voida käyttää Power BI -tietoruudusta [!INCLUDE[prod_short](includes/prod_short.md)]in luettelosivulla.
+
+    Testaa seuraavasti, että näin on:
+
+    1. Avaa [!INCLUDE[prod_short](includes/prod_short.md)] ja siirry luettelosivulle.
+    2. Jos Power BI -tietoruutu ei ole näkyvissä, valitse siinä tapauksessa toimintorivillä **Toiminnot** > **Näytä** > **Näytä tai piilota Power BI -raportit**.
+    3. Valitse Power BI -tietoruudussa ensin **Valitse raportit**, sitten raportin **Ota käyttöön** -ruutu ja lopuksi **OK**.
+
+    Oikein suunniteltu raportti tulee näkyviin.  
+
+## <a name="set-the-report-size-and-color"></a>Raportin koon ja värin määrittäminen
 
 Raportin kooksi on määritettävä 325 x 310 kuvapistettä. Koon avulla raportti voidaan skaalata oikein Power BI:n tietoruutuohjausobjektin sallimassa tilassa [!INCLUDE[prod_short](includes/prod_short.md)]issa. Voit määrittää raportin koon viemällä kohdistuksen raportin asettelualueen ulkopuolelle ja valitsemalla maalitelakuvakkeen.
 
@@ -48,35 +90,36 @@ Raportin kooksi on määritettävä 325 x 310 kuvapistettä. Koon avulla raportt
 
 Voit muuttaa raportin leveyttä ja korkeutta valitsemalla **Tyyppi**-kentässä **Mukautettu**.
 
-Jos haluat, että raportin tausta sulautuu Power BI:n tietoruutuohjausobjektin taustaväriin, määritä raportin taustaväriksi *#FFFFFF*. 
+Jos haluat, että raportin tausta sulautuu Power BI:n tietoruutuohjausobjektin taustaväriin, määritä raportin taustaväriksi *#FFFFFF* (valkoinen). 
 
-## <a name="using-reports-with-multiple-pages"></a>Useita sivuja sisältävien raporttien käyttäminen
+> [!TIP]
+> Muodosta [!INCLUDE [prod_short](includes/prod_short.md)] -teematiedoston avulla raportteja, joissa on käytössä sama värityyli kuin [!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksissa. Lisätietoja on kohdassa [[!INCLUDE [prod_short](includes/prod_short.md)] -raportin teema](across-how-use-financials-data-source-powerbi.md#theme).
+
+## <a name="reports-with-multiple-pages"></a>Useita sivuja sisältävät raportit
 
 Voit luoda Power BI:ssa yhden raportin, jossa on useita sivuja. Jos raportissa kuitenkin näytetään luettelosivuja, useamman kuin yhden sivun käyttö ei ole suositeltavaa. Power BI -tietoruudussa näkyy vain raportin ensimmäinen sivu.
 
-## <a name="naming-the-report"></a>Raportin nimeäminen
-
-Anna raportille nimi, joka sisältää raporttiin liitetyn luettelosivun nimen. Jos raportti koskee esimerkiksi **Toimittaja**-luettelosivua, nimessä on oltava sana *toimittaja*.  
-
-Tätä nimeämiskäytäntöä ei ole pakko noudattaa. Se kuitenkin nopeuttaa raporttien valitsemista [!INCLUDE[prod_short](includes/prod_short.md)]issa. Jos raportin valintasivu avautuu luettelosivulta, se suodatetaan automaattisesti sivun nimen mukaan. Tämän suodatuksen avulla voidaan rajoittaa näytettävien raporttien määrää. Tyhjentämällä suodattimen käyttäjät saavat näkyviin luettelon kaikista Power BI:ssa käytettävistä raporteista.  
-
 ## <a name="fixing-problems"></a>Ongelmien korjaaminen
 
-Tämän osan ohjeiden avulla voi kiertää tavallisimmat Power BI -raportin luomiseen liittyvät ongelmat.  
+Tässä osassa on ohjeet sellaisten ongelmien korjaamiseen, joita voi esiintyä yritettäessä näyttää [!INCLUDE[prod_short](includes/prod_short.md)]in luettelosivun Power BI -raporttia.  
 
-#### <a name="you-cant-see-a-report-on-the-select-report-page"></a>Raportti ei ole näkyvissä Valitse raportti -sivulla
+### <a name="you-cant-see-the-power-bi-factbox-on-a-list-page"></a>Power BI -tietoruutu ei näy luettelosivulla.
 
-Syynä luultavasti se, että raportin nimi ei sisällä luettelosivun nimeä. Saat näkyviin luettelon kaikista Power BI:ssa käytettävistä raporteista tyhjentämällä suodattimen.  
+Power BI -tietoruutu on oletusarvoisesti piilotettu. Tietoruudun voi näyttää sivulla valitsemalla toimintorivillä **Toiminnot** > **Näytä** > **Näytä tai piilota Power BI -raportit**.
 
-#### <a name="report-is-loaded-but-blank-not-filtered-or-filtered-incorrectly"></a>Raportti ladataan, mutta se jää tyhjäksi, sitä ei suodateta tai se suodatetaan virheellisesti
+### <a name="you-cant-see-the-report-in-the-select-report-pane"></a>Raportti ei ole näkyvissä Valitse raportti -ruudussa
+
+Tämä johtuu luultavasti siitä, että raportin nimi ei sisällä näytettävän luettelosivun nimeä. Saat näkyviin luettelon kaikista Power BI:ssa käytettävistä raporteista tyhjentämällä suodattimen.  
+
+### <a name="report-is-loaded-but-blank-not-filtered-or-filtered-incorrectly"></a>Raportti ladataan, mutta se jää tyhjäksi, sitä ei suodateta tai se suodatetaan virheellisesti
 
 Tarkista, että raportin suodattimessa on oikea perusavain. Useimmissa tapauksissa se on **Nro**-kenttä, mutta esimerkiksi **KP-tapahtuma**-kentässä on käytettävä **Tapahtumanro**-kenttää.
 
-#### <a name="report-is-loaded-but-it-shows-a-page-you-didnt-expect"></a>Raportti ladataan, mutta siinä ei näy odotettua sivua.
+### <a name="report-is-loaded-but-it-shows-a-page-you-didnt-expect"></a>Raportti ladataan, mutta siinä ei näy odotettua sivua.
 
 Tarkista, että sivu, jonka haluat näkyvän, on raportin ensimmäinen sivu.  
 
-#### <a name="report-appears-with-an-unwanted-gray-boarder-or-its-too-small-or-too-large"></a>Raportissa on tarpeettomat harmaat rajat tai se on liian pieni tai liian suuri
+### <a name="report-appears-with-an-unwanted-gray-boarder-or-its-too-small-or-too-large"></a>Raportissa on tarpeettomat harmaat rajat tai se on liian pieni tai liian suuri
 
 Tarkista, että raportin kooksi on määritetty 325 x 310 kuvapistettä. Tallenna raportti ja päivitä sitten luettelosivu.  
 
@@ -86,7 +129,7 @@ Tarkista, että raportin kooksi on määritetty 325 x 310 kuvapistettä. Tallenn
 
 [Yritystietojen ottaminen käyttöön Power BI:tä varten](admin-powerbi.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)]in käyttäminen Power BI:n tietolähteenä](across-how-use-financials-data-source-powerbi.md)  
-[Käytön aloittaminen](product-get-started.md)  
+[Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)]in määrittäminen](setup.md)  
 [Rahoitus](finance.md)  
 

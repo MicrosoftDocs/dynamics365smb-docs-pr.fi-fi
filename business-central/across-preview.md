@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3f8d8b2744fb5179183e223c8741669f7af9754b
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: c3f807a7e02a9791fb8ea465bc399e3e3345a0f3
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5379096"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777489"
 ---
 # <a name="prod_long-trials-and-subscriptions"></a>[!INCLUDE[prod_long](includes/prod_long.md)] – Kokeilut ja tilaukset
 
@@ -27,7 +27,7 @@ Voit rekisteröityä maksuttomaan kokeiluversioon [täällä](https://go.microso
 
 Maasi tai alueesi mukaan kokeiluversio sisältää maan tai alueen edellyttämät kielet ja toiminnot. Lisätietoja on kohdassa [Kielen ja alueen muuttaminen](about-locale-language.md).  
 
-[!INCLUDE[prod_short](includes/prod_short.md)]issa on sekä tuttuja että uusia ominaisuuksia. Kun kirjaudut esittely-yritykseen sisään ensimmäisen kerran, pääset aloitussivulle, jossa on linkkejä videoihin. Niiden avulla pääset alkuun. Lisätietoja on kohdassa [[!INCLUDE[prod_long](includes/prod_long.md)]in käytön aloittaminen](product-get-started.md).  
+[!INCLUDE[prod_short](includes/prod_short.md)]issa on sekä tuttuja että uusia ominaisuuksia. Kun kirjaudut esittely-yritykseen sisään ensimmäisen kerran, pääset aloitussivulle, jossa on linkkejä asetusten ohjattuihin määritysoppaisiin. Niiden avulla pääset alkuun. Lisätietoja on kohdassa [Valmistautuminen liiketoimintaan](ui-get-ready-business.md).  
 
 Jos kohtaat ongelmia, [Usein kysytyt kysymykset](across-faq.md) -sivu voi auttaa sinua löytämään vastaukset joihinkin kysymyksiisi. Jos et voi rekisteröityä kokeiluversioon, katso apua sivulta [Itsepalvelun rekisteröitymisen vianmääritys](ui-troubleshoot-self-signup.md). Voit myös ottaa yhteyttä [kumppaniin](across-faq.md#findpartner) ja pyytää tätä luomaan maksuton kokeiluversion tai erilainen sovelluksen [!INCLUDE[prod_short](includes/prod_short.md)] esikatselu organisaatiollesi.  
 
@@ -89,7 +89,7 @@ Tällä hetkellä kaikki asiakkaat voivat käyttää Sandbox-ympäristöä, muka
 
 ## <a name="see-also"></a>Katso myös
 
-[Käytön aloittaminen](product-get-started.md)  
+[Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 [Kokeilujakson jatkaminen](admin-extend-trial.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Usein kysytyt kysymykset](across-faq.md)  

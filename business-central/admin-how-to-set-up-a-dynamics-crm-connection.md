@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/20/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 47a042f1825eca548ecbf08c6901e5af26cbeb43
-ms.sourcegitcommit: 35f7e24c301926b39094aa64fe608afd04fdb8e1
+ms.openlocfilehash: 96ba755a1a32a23197b2bb839e50ebe6a0a1e63b
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "5573399"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5779780"
 ---
 # <a name="connect-to-microsoft-dataverse"></a>Yhteyden muodostaminen Microsoft Dataverseen
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -110,7 +110,18 @@ The following video shows the steps to connect [!INCLUDE[prod_short](includes/pr
 
 [!INCLUDE[prod_short](includes/prod_short.md)] on-premises -version yhdistäminen [!INCLUDE[cds_long_md](includes/cds_long_md.md)]en edellyttää, että **Dataverse -yhteyden määritys** -sivulla määritetään joitakin tietoja.
 
-Jos haluat muodostaa yhteyden käyttämällä Azure Active Directory (Azure AD) -tiliä, sovellus on rekisteröitävä Azure AD:ssä, minkä lisäksi on asennettava sovelluksen tunnus, avainsäilön salaisuus ja käytettävä uudelleenohjauksen URL-osoite. Uudelleenohjauksen URL-osoite täytetään valmiiksi, ja sen pitäisi toimia useimmissa asennuksissa. Asennus on määritettävä käyttämään HTTPS-yhteyttä. Lisätietoja on kohdassa [SSL:n määrittäminen suojaamaan Business Centralin verkkoasiakasohjelman yhteyttä](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Jos palvelimelle määritetään jokin muu aloitussivu, URL-osoitteen voi vaihtaa. Asiakasohjelman salaisuus tallennetaan tietokantaan salattuna merkkijonona.  
+Jos haluat muodostaa yhteyden käyttämällä Azure Active Directory (Azure AD) -tiliä, sovellus on rekisteröitävä Azure AD:ssä, minkä lisäksi on asennettava sovelluksen tunnus, avainsäilön salaisuus ja käytettävä uudelleenohjauksen URL-osoite. Uudelleenohjauksen URL-osoite täytetään valmiiksi, ja sen pitäisi toimia useimmissa asennuksissa. Asennus on määritettävä käyttämään HTTPS-yhteyttä. Lisätietoja on kohdassa [SSL:n määrittäminen suojaamaan Business Centralin verkkoasiakasohjelman yhteyttä](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Jos palvelimelle määritetään jokin muu aloitussivu, URL-osoitteen voi vaihtaa. Asiakasohjelman salaisuus tallennetaan tietokantaan salattuna merkkijonona. 
+
+### <a name="prerequisites"></a>Vaatimukset
+
+Dataversen on käytettävä jotakin seuraavista todennustyypeistä:
+
+- Office365 (vanha)
+
+  > [!IMPORTANT]
+  > Huhtikuusta 2022 alkaen Office365 (vanha) -versiota ei enää tueta. Lisätietoja on kohdassa [Power Appsiin, Power Automateen ja asiakasvuorovaikutussovelluksiin tulevia tärkeitä muutoksia (vanhentumisia)](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse).
+- Office365 (moderni, OAuth2-asiakasohjelman salaiseen koodiin perustuva)
+- OAuth
 
 ### <a name="to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-dataverse"></a>Sovelluksen rekisteröiminen Azure AD:ssä muodostamaan yhteys Business Centralista Dataverseen
 

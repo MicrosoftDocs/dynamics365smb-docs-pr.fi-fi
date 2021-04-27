@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3d073a17f900b3f1691c6b108af021aec6b93fd3
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: c24e6142780fa5935576320a0d5edf683caf0a9f
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5384947"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776270"
 ---
 # <a name="business-functionality"></a>Liiketoiminnan toiminnallisuus
 [!INCLUDE[prod_short](includes/prod_short.md)]issa on lähinnä tukkukauppa- ja palvelualalla toimivien PK-yritysten tavallisissa liiketoimintaprosesseissa tarvitsemat toiminnot. Tämän lisäksi tuetaan myös monimutkaisia prosesseja, kuten kokoonpanoa, tuotantoa, huoltoa ja ohjattua varastoinninhallintaa.
@@ -47,7 +47,7 @@ ms.locfileid: "5384947"
 [Tutki Dynamics 365 Business Central -ominaisuuksia](https://dynamics.microsoft.com/business-central/capabilities/)  
 [Hallinta](admin-setup-and-administration.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)]in määrittäminen](setup.md)  
-[Käytön aloittaminen](product-get-started.md)  
+[Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
 
 

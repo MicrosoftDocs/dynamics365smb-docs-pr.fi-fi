@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 11/05/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5fbe696c8f85327ad775ad3bcf071b3e7ec16dd6
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 9e6dd99b1ea8da7099932185a7da18b0419a244e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5391247"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780933"
 ---
 # <a name="accountant-experiences-in-prod_long"></a>Kirjanpitäjän käyttökokemukset [!INCLUDE[prod_long](includes/prod_long.md)]issa
 
@@ -92,7 +92,7 @@ Kirjanpitäjä saa sähköpostiviestin, joka ilmoittaa hänelle, että hänelle 
 
 1. Avaa [!INCLUDE[prod_short](includes/prod_short.md)]-yritys, johon haluat antaa kirjanpitäjälle käyttöoikeuden, kohteessa [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com).
 2. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttäjät** ja valitse sitten liittyvä linkki.  
-3. Valitse **Hae uudet käyttäjät Office 365:stä** -toiminto.
+3. Valitse **Hae uudet käyttäjät Microsoft 365:sta** -toiminto.
 
 Tämä tuo käyttäjätilin, jonka loit Azure-portaalissa yritykselle. Lisätietoja on kohdassa [Käyttäjän lisääminen Business Centralissa](ui-how-users-permissions.md#adduser).  
 

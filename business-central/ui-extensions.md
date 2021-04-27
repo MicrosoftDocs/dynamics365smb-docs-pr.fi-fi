@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 03/02/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d92fbe7c21da74c7818be4f249cdb373ed73539f
-ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
+ms.openlocfilehash: 805350a7b1213ec0e0d0550e5c5b63c557ee470a
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5493276"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771337"
 ---
 # <a name="customizing-business-central-online-using-extensions"></a>Business Central Onlinen mukauttaminen laajennusten avulla
 
@@ -79,6 +79,27 @@ Microsoft tarjoaa seuraavat laajennukset:
 > [!NOTE]  
 > Voit pitää silmällä Microsoftin ja muiden toimittajien uusia laajennuksia osoitteessa [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).
 
+
+## <a name="extensions-and-data-transfer"></a>Laajennukset ja tietojen siirto
+
+Koska seuraavia laajennuksia käytetään viestintään muiden palvelujen kanssa, ne saattavat siirtää tietoja [!INCLUDE[prod_short](includes/prod_short.md)] -ympäristön maantieteellisen alueen ulkopuolelle:
+
+* AMC Banking 365 Fundamentals -laajennus
+* Image Analyzer
+* Myöhästyneen maksun ennuste
+* PayPal Payments Standard
+* Myynti- ja varastoennuste
+* WorldPay Payments Standard
+
+Tämä koskee myös joitakin perussovelluksen toimintoja, kuten seuraavia ominaisuuksia:
+
+* Kassavirtaennuste
+* Document Exchange -palvelu
+* Dataverse-yhteys
+* OCR-palvelu
+* Online Map
+* EU:n ALV-nron tarkistuksen Palvelu
+
 ## <a name="see-also"></a>Katso myös
 
 [Business Centralin mukauttaminen](ui-customizing-overview.md)  
@@ -88,7 +109,7 @@ Microsoft tarjoaa seuraavat laajennukset:
 [Liiketoiminnan tietojen siirtäminen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md)  
 [Ison-Britannian postinumeroiden GetAddress.io-laajennuksen määrittäminen](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)  
 [Muiden palveluntarjoajien [!INCLUDE[prod_short](includes/prod_short.md)]in laajennukset](ui-extensions-other.md)  
-[Käytön aloittaminen](product-get-started.md)  
+[Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

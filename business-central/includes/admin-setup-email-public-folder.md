@@ -2,14 +2,14 @@
 author: edupont04
 ms.service: dynamics365-accountant
 ms.topic: include
-ms.date: 10/02/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d58d8d628577f163d36199b8fc5785982aac830a
-ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
+ms.openlocfilehash: 2867dbccab19226c16f761bb974528bbdcf0a21f
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5492998"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777646"
 ---
 Ennen sähköpostin lokiinkirjauksen määrittämistä Exchange Onlineen on valmisteltava [yleiset kansiot](/exchange/collaboration/public-folders/public-folders?view=exchserver-2019&preserve-view=true ). Se voidaan tehdä [Exchangen hallintakeskuksessa](/Exchange/architecture/client-access/exchange-admin-center?view=exchserver-2019&preserve-view=true ) tai käyttämällä [Exchange-palvelimen hallintaliittymää](/powershell/exchange/exchange-management-shell?view=exchange-ps&preserve-view=true ).  
 

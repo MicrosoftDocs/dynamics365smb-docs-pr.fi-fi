@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 01/05/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f07bc493a88f7ce46d3845a97774d0971c0fe5ba
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 305d1460b93c1294335b5a8afcf42593c465ebe4
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5388897"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780796"
 ---
 # <a name="create-contacts"></a>Kontaktien luominen
 Kun luot liiketoiminnan kontaktin johonkuhun toisessa yrityksessä, lisää heidät yhteyshenkilönä [!INCLUDE[prod_short](includes/prod_short.md)]iin. Lisää sitten kontakteista tai kontaktien yrityksestä tietoja, jotka voivat olla hyödyllisiä tulevissa yhteyksissä. **Kontaktin kortti** -sivulla voit luoda seuraavanlaisia kontaktityyppejä:

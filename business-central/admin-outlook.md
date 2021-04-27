@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6d2e396b21f2d5de2bb341e864df031070df1ca4
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: ee9587b323fe1b104a85319eba03bfdcfce8c13e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5377946"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777439"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Business Central -sovelluksen käyttäminen yrityssähköpostina Outlookissa
 
@@ -70,12 +70,12 @@ Jos [!INCLUDE[prod_short](includes/prod_short.md)]ia ei voi edelleenkään käyt
 
 Apuohjelmat on suunniteltu Microsoft 365:n kanssa käytettäväksi. Jos käytät paikallista [!INCLUDE[prod_short](includes/prod_short.md)] -versiota, järjestelmänvalvoja tietää, voitko käyttää [!INCLUDE[prod_short](includes/prod_short.md)]in apuohjelmia Outlookissa. Lisätietoja on ohjeaiheessa [Mitä sähköpostiosoitetta voin käyttää [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman kanssa?](across-faq.md#email), ja [Ominaisuudet, jotka vaativat tiettyjä olosuhteita](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances?toc=/dynamics365/business-central/toc.json) -artikkelin ja [Miksei Outlook-apuohjelma toimi käyttäjieni osalta?](/dynamics365/business-central/dev-itpro/faq#why-doesnt-the-outlook-add-in-work-for-my-users?toc=/dynamics365/business-central/toc.json) -osassa yleisen FAQ-sisällön hallintasisällössä.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on [Microsoft Learnissa](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Katso myös
 
-[Käytön aloittaminen](product-get-started.md)  
-[Business Central -sovelluksen hakeminen omaan mobiililaitteeseen](install-mobile-app.md)  
+[Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
+[Business Centralin hakeminen omaan mobiililaitteeseen](install-mobile-app.md)  
 [Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md)  
 [Rahoitus](finance.md)  
 [Myynti](sales-manage-sales.md)  

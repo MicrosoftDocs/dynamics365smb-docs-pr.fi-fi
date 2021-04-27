@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a2d6e2a115c39045f0a0d6221df0f74d8b3c7ace
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: c17aec818a65aef9e298b40301142cbb40715306
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5381086"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5782328"
 ---
 # <a name="revalue-fixed-assets"></a>Käyttöomaisuuden uudelleenarvostus
 Käyttöomaisuuserien uudelleenarvostus voi koostua arvonkorotuksista, arvonalennuksista tai yleisistä arvon oikaisuista.
@@ -120,7 +120,7 @@ Jos et valinnut **Poisto KO-kirjauspvm:ään asti** -kenttää, omaisuuserä men
 [Käyttöomaisuus](fa-manage.md)  
 [Käyttöomaisuuden määrittäminen](fa-setup.md)  
 [Rahoitus](finance.md)  
-[Käytön aloittaminen](product-get-started.md)  
+[Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
 
 

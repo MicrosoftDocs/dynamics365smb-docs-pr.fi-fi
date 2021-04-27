@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f66d061f383236cd7fbe96ebebaf1a790202b758
-ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
+ms.openlocfilehash: ec880df940816b68a9b6f8a82098985471720984
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5493090"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5781554"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Myynnin ja ostojen ALV:n käsitteleminen
 Jos maasi tai alueesi edellyttää arvonlisäveron (ALV:n) laskemista myynti- ja ostotapahtumille siten, että voit ilmoittaa summat veroviranomaiselle, voit määrittää [!INCLUDE[prod_short](includes/prod_short.md)]in laskemaan ALV:n automaattisesti myynti- ja ostoasiakirjoissa. Lisätietoja on kohdassa [Arvolisäveron laskelmien ja kirjausmenetelmien määrittäminen](finance-setup-vat.md).

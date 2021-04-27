@@ -2,16 +2,16 @@
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: include
-ms.date: 01/25/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 539ee2eb2c9e4a71eacfb78d95320870128fb1d9
-ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
+ms.openlocfilehash: 95121642b62f33ea1fc160c103ee845816706530
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5470285"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5778645"
 ---
-Kun kaikki nimikkeet on syötetty myyntiriveille, laskun alennus voidaan laskea koko asiakirjalle valitsemalla **Laske laskun alennus** -toiminto.
+Kun kaikki nimikkeet on annettu riveinä, laskun alennus voidaan laskea koko myyntiasiakirjalle valitsemalla **Laske laskun alennus** -toiminto.
 
 Alennus lasketaan kaikkien myyntiasiakirjan rivien perusteella niille nimikkeille, joilla on ostorivin **Salli laskualennus** -kentässä **Kyllä**. Tämä on oletusasetus nimikkeille. Esimerkiksi nimikekuluja sisältäviä rivejä ei sisällytetä laskualennuksen laskentaan. Jos haluat kohdistaa alennuksen tällaisiin riveihin, sinun täytyy asettaa **Rivialennus-%**-kenttä asianmukaisille riveille.  
 

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, service items, respond, response
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 356ca50a1814756d0ef2ad9c3e478d94af5fd461
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: efb5942dfd58365effdf4d46759ea81f75fe718e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5377446"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5778320"
 ---
 # <a name="delivering-service"></a>Huollon toimittaminen
 [!INCLUDE[prod_short](includes/prod_short.md)]:n toiminnot helpottavat huollon toimittamista luotujen sopimusten ja huoltotilausten mukaisesti. Huoltoteknikot ja huollon aikatauluttajat voivat tarkastaa odottavat huoltotilaukset helposti **lähetystaulukosta**. **Lähetystaulukosta** ilmenevät sekä käynnissä olevat että valmiit tilaukset.  

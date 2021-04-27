@@ -1,5 +1,5 @@
 ---
-title: Käyttäjäasetusten ja asetusten hallinta Dynamics 365 Business Centralissa
+title: Käyttäjäasetusten ja asetusten hallinta järjestelmänvalvojana
 description: Käyttäjäasetusten ja asetusten hallinta Dynamics 365 Business Centralissa.
 author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
@@ -7,70 +7,82 @@ ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.reviewer: edupont
 ms.search.keywords: user settings, preferences, language, region, time zone, regional settings
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: soalex
-ms.openlocfilehash: 2ad6c564d20a13d5a8b47c53db62f939a3207337
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 36850a2d0d8f85a0436b5d268c3cd2653b2f785f
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5378046"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5779755"
 ---
 # <a name="manage-user-settings-and-preferences"></a>Käyttäjäasetusten ja asetusten hallinta
 
-Järjestelmänvalvojana voit hallita käyttäjäasetuksia [!INCLUDE[prod_short](includes/prod_short.md)]issa samalla tavoin kuin yksittäiset käyttäjät voivat hallita omia asetuksiaan **Omat asetukset** -sivulla.  
+Järjestelmänvalvojana voit määrittää käyttäjäasetuksia [!INCLUDE[prod_short](includes/prod_short.md)]issa samalla tavoin kuin yksittäiset käyttäjät voivat hallita omia asetuksiaan **Omat asetukset** -sivulla.  
+
+**Käyttäjät**-luettelosta saa yleiskuvan kaikista käyttäjistä ja yksittäisen käyttäjän asetuksia voi muuttaa valitsemalla kyseisen käyttäjän **Käyttäjäasetukset**-toiminnon.
+
+> [!TIP]
+> **Käyttäjäasetukset**-luettelo näyttää kunkin käyttäjän nykyiset asetukset. Kutakin yksittäistä käyttäjää voi tarkastella tai muokata valitsemalla **Näytä**- tai **Muokkaa**-toiminnon.
+
+**Käyttäjäasetukset-kortti**-sivu muistuttaa kunkin käyttäjän käytettävissä olevaa **Omat asetukset** -sivua, ja kyseinen sivu on tehokas työkalu, jossa järjestelmänvalvoja voi esimerkiksi määrittää oletusasetuksia ja poistaa mukautettuja sivuja.  
 
 ## <a name="types-of-user-settings"></a>Käyttäjäasetusten tyypit
 
-*Käyttäjäasetukset* eivät ole sama asia kuin *käyttäjän määritykset*, jotka koskevat käyttäjää entiteettinä ja käyttäjän järjestelmän käyttöoikeuksia. Käyttäjäasetuksilla ei ole myöskään mitään tekemistä käyttäjän mukauttamisella, mikä tarkoittaa pinnallisia käyttöliittymän muutoksia. Käyttäjäasetuksilla määritetään käyttäjän mieltymysten mukaan, miten sovelluksen eri osat näkyvät käyttäjälle. Seuraavaksi käsitellään viisi käyttäjäasetus- ja määritystyyppiä, jotka yksittäinen käyttäjä voi määrittää tai jotka järjestelmänvalvoja voi määrittää keskitetysti.
+*Käyttäjäasetukset* eivät ole sama asia kuin *käyttäjän määritykset*, jotka koskevat käyttäjää entiteettinä ja käyttäjän järjestelmän käyttöoikeuksia. Käyttäjäasetuksilla ei ole myöskään mitään tekemistä käyttäjän mukauttamisella, mikä tarkoittaa pinnallisia käyttöliittymän muutoksia. Käyttäjäasetuksilla määritetään kunkin käyttäjän esimääritetyt asetukset siltä osin, miten sovelluksen eri osat näkyvät käyttäjälle. Seuraavaksi käsitellään viisi käyttäjäasetus- ja määritystyyppiä, jotka yksittäinen käyttäjä voi määrittää tai jotka järjestelmänvalvoja voi määrittää keskitetysti.
 
 - **Yritys**  
 
   Tämä asetus määrittää yrityksen, joka kirjaudutaan seuraavan kirjautumisen yhteydessä. Käyttäjällä voi olla useiden yritysten käyttöoikeus ja käyttäjä voi olla aktiivinen useissa yrityksissä.
 
-- **Profiili (roolit)**  
+- **Rooli**  
 
-  Profiili tarkoittaa käyttäjän tehtävää yrityksessä, kuten *myyntipäällikköä*, *kirjanpitäjää* tai *ostajaa*. Profiili määrittää sitten käyttäjän roolikeskuksen eli aloitussivun, joka avautuu käyttäjille kirjauduttaessa. Profiili ei vaikuta [!INCLUDE[prod_short](includes/prod_short.md)]in toimintojen käyttöoikeuksiin.  
-
-- **Kielialueen tunnus (aluekohtaiset asetukset)**  
-
-  Määrittää, miten päivämäärät ja numerot esitetään [!INCLUDE[prod_short](includes/prod_short.md)] -asiakasohjelmassa (esimerkiksi, käytetäänkö eurooppalaisia vai amerikkalaisia päivämäärämuotoja) tai miten desimaali ja tuhaterottimet näytetään summissa. Jos [!INCLUDE[prod_short](includes/prod_short.md)]in käyttäjiä synkronoidaan Microsoft 365:stä, käytössä on Microsoft 365:n aluekohtaiset asetukset olettaen, että käyttäjä haluaa käyttää samoja asetuksia Office-tuotteissa ja [!INCLUDE[prod_short](includes/prod_short.md)]issa. Järjestelmänvalvoja tai käyttäjä voi muuttaa näitä asetuksia manuaalisesti [!INCLUDE[prod_short](includes/prod_short.md)]issa, mutta ne palautetaan Microsoft 365:n arvoon seuraavan synkronoinnin yhteydessä.
+  Rooli tai profiili tarkoittaa käyttäjän tehtävää yrityksessä, kuten *myyntipäällikköä*, *kirjanpitäjää* tai *ostajaa*. Profiili määrittää sitten käyttäjän roolikeskuksen eli aloitussivun, joka avautuu käyttäjille kirjauduttaessa. Profiili ei vaikuta [!INCLUDE[prod_short](includes/prod_short.md)]in toimintojen käyttöoikeuksiin.  
 
 - **Kieli**  
 
-  Määrittää kielen, jolla [!INCLUDE[prod_short](includes/prod_short.md)] näyttää tekstin, kuvatekstit ja virhesanomat sovelluksessa. Jos [!INCLUDE[prod_short](includes/prod_short.md)]in käyttäjiä synkronoidaan Microsoft 365:stä, käytössä on Microsoft 365:n kieliasetukset olettaen, että käyttäjä haluaa käyttää samoja asetuksia Office-tuotteissa ja [!INCLUDE[prod_short](includes/prod_short.md)]issa. Järjestelmänvalvoja tai käyttäjä voi muuttaa näitä asetuksia manuaalisesti [!INCLUDE[prod_short](includes/prod_short.md)]issa, mutta ne palautetaan Microsoft 365:n arvoon seuraavan synkronoinnin yhteydessä.
+  Määrittää kielen, jolla [!INCLUDE[prod_short](includes/prod_short.md)] näyttää tekstin, kuvatekstit ja virhesanomat sovelluksessa. Jos [!INCLUDE[prod_short](includes/prod_short.md)]in käyttäjiä synkronoidaan Microsoft 365:stä, käytössä on Microsoft 365:n kieliasetukset olettaen, että käyttäjä haluaa käyttää samoja asetuksia Office-tuotteissa ja [!INCLUDE[prod_short](includes/prod_short.md)]issa. Järjestelmänvalvoja voi muuttaa oletusasetuksen, ja kukin käyttäjä tehdä Omat asetukset -sivulla valinnan käytettävissä olevista kielistä. Ne kuitenkin palautetaan Microsoft 365:n arvoon, kun synkronointi suoritetaan seuraavan kerran.
 
   Jos Microsoft 365:n kieliasetus vastaa [!INCLUDE[prod_short](includes/prod_short.md)]in tukemaa kieltä, kyseinen kieli valitaan käyttäjälle.  
 
   > [!NOTE]
   > Kielen näyttäminen oikein voi edellyttää, [!INCLUDE[prod_short](includes/prod_short.md)]in kielisovelluksen asentamista. Tämän vuoksi tarvittavat kielisovelluksen kannattaakin asentaa, ennen kuin kukaan on kirjautunut sisään ensimmäisen kerran, jotta käyttökokemus on hyvä alusta alkaen. Lisätietoja on [tuettujen kielien](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations) luettelossa.  
   
+- **Alue**  
+
+  Määrittää, miten päivämäärät ja numerot esitetään [!INCLUDE[prod_short](includes/prod_short.md)] -asiakasohjelmassa (esimerkiksi, käytetäänkö eurooppalaisia vai amerikkalaisia päivämäärämuotoja) tai miten desimaali ja tuhaterottimet näytetään summissa. Jos [!INCLUDE[prod_short](includes/prod_short.md)]in käyttäjiä synkronoidaan Microsoft 365:stä, käytössä on Microsoft 365:n aluekohtaiset asetukset olettaen, että käyttäjä haluaa käyttää samoja asetuksia Office-tuotteissa ja [!INCLUDE[prod_short](includes/prod_short.md)]issa. Järjestelmänvalvoja tai käyttäjä voi muuttaa näitä asetuksia manuaalisesti [!INCLUDE[prod_short](includes/prod_short.md)]issa, mutta ne palautetaan Microsoft 365:n arvoon seuraavan synkronoinnin yhteydessä.
+
 - **Aikavyöhyke**  
 
   Määrittää käyttäjän aikavyöhykkeen. Tätä ei tällä hetkellä synkronoida Microsoft 365:stä, joten se on määritettävä manuaalisesti.  
 
+- **Opastusvihjeitä**
+
+  [!INCLUDE [ua-teachingtips](includes/ua-teachingtips.md)] Järjestelmänvalvoja voi poistaa opastusvihjeet käytöstä kaikilta käyttäjiltä esimerkiksi silloin, kun käyttöön otetaan uusia käyttäjiä, joille [!INCLUDE [prod_short](includes/prod_short.md)] on jo tuttu.  
+
 > [!NOTE]
 > Jos Microsoft 365 -käyttäjän synkronointi tapahtuu silloin, kun käyttäjät ovat kirjautuneet [!INCLUDE[prod_short](includes/prod_short.md)]iin, kyseisten käyttäjien on ladattava selain uudelleen tai kirjauduttava ensin ulos ja sitten takaisin [!INCLUDE[prod_short](includes/prod_short.md)]iin, jotta synkronointitoiminnon mahdollisesti määrittämä toinen kielijoukko on näkyvissä.
 
-## <a name="overview-of-all-user-settings"></a>Kaikkien käyttäjäasetusten yleiskuvaus
+## <a name="overview-of-all-user-specific-changes"></a>Kaikkien käyttäjäkohtaisten muutosten yleiskuvaus
 
-Järjestelmänvalvojilla on mahdollisuus määrittää tai muuttaa näitä käyttäjien asetuksia kussakin yrityksessä. Se tehdään **Käyttäjän mukautukset** -sivulla. Tällä sivulla olevat tietueet ilmaisevat käyttäjien edellä olevia asetuksia koskevat valinnat. Tietueita on yksi kullakin käyttäjällä. Kun käyttäjät tekevät muutoksia asetuksiin **Omat asetukset** -sivulla, nämä muutokset ilmenevät myös **Käyttäjän mukautukset** -luettelossa. Järjestelmänvalvojat voivat myös määrittää nämä asetukset käyttäjille ennen käyttäjien ensimmäistä kirjautumista, jolloin käyttäjien ei tarvitse tehdä sitä itse, mikä puolestaan parantaa käyttäjien *aloituskokemusta*.
+Järjestelmänvalvoja voi saada yleiskuvan niistä [!INCLUDE [prod_short](includes/prod_short.md)]iin tehdyistä yksittäisistä muutoksista, joita kukin käyttäjä on voinut tehdä [!INCLUDE [prod_short](includes/prod_short.md)]in eri sivuille. Kun käyttäjät tekevät muutoksia omaan [!INCLUDE [prod_short](includes/prod_short.md)] -kokemukseen, nämä muutokset näkyvät myös **Käyttäjän mukautukset** -luettelossa. <!--Administrators can also set these settings for users before they log in the first time, so users do not have to do it themselves, providing them a better *getting started* experience.-->
 
-> [!NOTE]
-> Käyttäjien mukautuksilla ei ole mitään tekemistä käyttäjien *omien* pinnallisten käyttökokemusmuutosten kanssa.
+<!-- >[!NOTE]
+> User personalizations do not have anything to do with the *personal* lightweight changes a user can make to the user experience.-->
 
-## <a name="to-review-or-make-changes-to-user-settings"></a>Käyttäjäasetusten tarkasteleminen tai muuttaminen
+## <a name="to-review-or-delete-user-personalizations"></a>Käyttäjän mukautusten tarkasteleminen ja poistaminen
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") -kuvake, anna **Käyttäjän mukautukset** ja valitse sitten aiheeseen liittyvä linkki.
-2. Näkyviin tulee luettelo käyttäjistä ja heidän asetuksistaan. Käyttäjän asetuksia voi muokata valitsemalla **Käyttäjän tunnus** tai valitsemalla ensin **Hallinta** ja sitten **Muokkaa**.
-3. Näkyviin tulee tietyn käyttäjän asetusten **Käyttäjän mukautus** -kortti, johon voi tehdä tarvittavat muutokset.  
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") -kuvake, kirjoita **Mukautetut sivut** ja valitse sitten aiheeseen liittyvä linkki.
+2. Näkyviin tulee luettelo käyttäjistä ja heidän mukautetuista sivuistaan. Käyttäjän mukautukset poistetaan napsauttamalla kyseistä riviä tai valitsemalla ensin **Hallinta** ja sitten **Poista**.
+
+Mukautus poistetaan ja kyseisen sivun käyttökokemus palautuu oletustilaan.
 
 ## <a name="see-also"></a>Katso myös
 
-[Käytön aloittaminen](product-get-started.md)  
+[Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 [Maa- ja aluekohtainen saatavuus ja tuetut kielet](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 [Kielen ja kielialueen muuttaminen](about-locale-language.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

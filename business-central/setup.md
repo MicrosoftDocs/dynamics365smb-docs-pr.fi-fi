@@ -8,22 +8,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 01/18/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4c46aa4f920924c4b1d11f3d6ef636ce96feb22f
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 01354575a7d96017684fe885411be364058b57e4
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385547"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5781454"
 ---
-# <a name="setting-up-prod_short"></a>[!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen määrittäminen
+# <a name="overview-of-tasks-to-set-up-prod_short"></a>[!INCLUDE[prod_short](includes/prod_short.md)]in määritystehtävien yleiskatsaus
 
-[!INCLUDE[prod_short](includes/prod_short.md)] sisältää vakiomääritykset useimmille liiketoimintaprosesseille. Voit muuttaa määritykset organisaatiosi tarpeita vastaaviksi.
+[!INCLUDE[prod_short](includes/prod_short.md)] sisältää vakiomääritykset useimmille liiketoimintaprosesseille. Voit muuttaa määritykset organisaatiosi tarpeita vastaaviksi.  
 
 Esimerkiksi tilikarttaan on kerätty käyttövalmiita kirjaustilejä. Voit tietysti muuttaa tilikarttaa liiketoimintasi vaatimalla tavalla. Lisätietoja on kohdassa [Rahoitus](finance.md).
 
-Voit avata ![Asetukset-valikko](media/ui-experience/settings_icon_small.png) -valikon ketju pyörä kuvakkeesta ja käyttää asetusten ohjattuja määritysoppaita, jotka auttavat tiettyjen skenaarioiden määrittämisessä ja ominaisuuksien lisäämiseen [!INCLUDE[prod_short](includes/prod_short.md)]. Lisätietoja siitä, miten käytät kaikkia avustettuja sekä manuaalisia määrityssivuja, on ohjeessa [Valmistautuminen liiketoimintaan](ui-get-ready-business.md).
+Voit avata ![Asetukset-valikko](media/ui-experience/settings_icon_small.png) -valikon ketju pyörä kuvakkeesta ja käyttää asetusten ohjattuja määritysoppaita, jotka auttavat tiettyjen skenaarioiden määrittämisessä ja ominaisuuksien lisäämiseen [!INCLUDE[prod_short](includes/prod_short.md)]. Lisätietoja siitä, miten käytät kaikkia avustettuja sekä manuaalisia määrityssivuja, on ohjeessa [Valmistautuminen liiketoimintaan](ui-get-ready-business.md).  
+
+> [!NOTE]
+> [!INCLUDE [ua-checklist](includes/ua-checklist.md)]
 
 Tietyt joko yleiset tai erityiset liiketoimintaprosessien toiminnot voidaan määrittää manuaalisesti tai asetusten ohjattuna määrityksenä. Seuraavassa luettelossa on joitakin manuaalisesti määritettäviä toimintoja.
 
@@ -73,7 +76,7 @@ Joidenkin alueiden edellytyksenä on, että käyttäjä on [!INCLUDE[prod_short]
 [Varastoinninhallinta](warehouse-manage-warehouse.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Uusien yritysten luominen [!INCLUDE[prod_short](includes/prod_short.md)]issa](about-new-company.md)  
-[Käytön aloittaminen](product-get-started.md)  
+[Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

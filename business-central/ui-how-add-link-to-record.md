@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6aa7018a43db8c663c209894e118518c3de2f7cf
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 3acc0113cb14170b84363ab40a803da8b7551c75
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393879"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771133"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Korttien ja asiakirjojen liitteiden, linkkien ja muistioiden hallinta
 
@@ -26,7 +26,9 @@ Jos haluat tarkastella tai muuttaa näitä liitettyjä tietotyyppejä, sinun on 
 Liitteet, linkit ja muistiot pysyvät liitteinä, kun korttia tai asiakirjaa käsitellään muihin tiloihin, kuten siirtyminen jatkuvasta myyntitilauksesta kirjattuun myyntilaskuun. Järjestelmä ei kuitenkaan käsittele mitään liitetyyppiä esimerkiksi tulostettaessa tai tallennettaessa tiedostoon.
 
 > [!NOTE]
-> Kun toimitat ja laskutat myyntitilauksen tai ostotilauksen osittain, liite liitetään vain kyseisen tilauksen lopulliseen laskuun. Samoin kun laskutat käyttämällä lykkäysominaisuutta, liite liitetään vain asiakirjan pääkirjanpidontapahtumiin, mutta ei lykkäystapahtumiin.
+> Kun toimitat ja laskutat myynti- tai ostotilauksen osittain, liite liitetään vain kyseisen tilauksen lopulliseen laskuun. Vastaavasti kun laskutuksessa käytetään lykkäysominaisuutta, liite liitetään asiakirjan KP-tapahtumiin mutta ei lykkäystapahtumiin.
+>
+> Jos tilaus poistetaan ennen laskutusta, myös liite poistetaan. Jos ostotilaukset laskutetaan käyttämällä ostolaskun Hae vastaanoton rivit -toiminto, ostotilauksen liitettä ei lisätä ostolaskuun.
 
 ## <a name="to-attach-a-file-to-a-purchase-invoice"></a>Tiedoston liittäminen ostolaskuun
 Korttiin tai asiakirjaan liitettävän tiedoston tyypillä ei ole merkitystä, ja se voi sisältää tekstiä, kuvan tai videon. Tämä on kätevää esimerkiksi silloin, kun haluat tallentaa toimittajan laskun PDF-tiedostona liittyvään [!INCLUDE[prod_short](includes/prod_short.md)]in ostolaskuun.

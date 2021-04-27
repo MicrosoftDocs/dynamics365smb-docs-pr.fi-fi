@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 399f020f1b7a792a4c2db453aa94cb144a8f64dc
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 61890301542ea7225039341eb30fbf4e3dd035d0
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385972"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5778270"
 ---
 # <a name="create-service-invoices-or-credit-memos"></a>Huoltolaskujen ja hyvityslaskujen luominen
 Huoltotilausten laskuttamisen helppous on yksi [!INCLUDE[prod_short](includes/prod_short.md)]:n tärkeimmistä ominaisuuksista. Järjestelmän voi määrittää kohteen [!INCLUDE[prod_short](includes/prod_short.md)] niin, että huoltoteknikko voi luoda laskun kentällä, vaikka palvelua ei olisikaan liitetty sopimukseen tai tilaukseen. Vaihtoehtoisesti voit määrittää [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman niin, että laskutat huoltosopimukset jaksoittain. Kunkin sopimuksen laskutusjakso määrää, kuinka usein sopimus laskutetaan.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: components, service item, service
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2aa988e4a0424a7ec7c0d703fc5ed872ff4d7974
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: fd53cd8d78641bc2fb4e45b5776ba263e04ef49c
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5391694"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5770761"
 ---
 # <a name="set-up-service-offerings"></a>Huoltotarjousten määrittäminen
 Huoltohallintoa määritettäessä on päätettävä, mitä huoltoja tarjoat asiakkaille ja mikä kyseisten huoltojen aikataulu on. Palvelu on yhden tai useamman resurssin suorittama työ, joka toimitetaan asiakkaalle. Huolto voi olla esimerkiksi tietokoneen korjaamista. Huoltonimike on huoltoa tarvitseva laite tai nimike, kuten asiakkaalle asennettu korjausta tarvitseva tietokone. Voit määrittää palvelut osaksi toisiinsa liittyviä korjaus- ja huoltonimikkeiden ryhmää.  

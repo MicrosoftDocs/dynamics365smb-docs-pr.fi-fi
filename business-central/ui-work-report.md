@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 7fe5d0870cfc18ab103dc57044fd0ba84b151662
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 81df1625531b3b4c5bf1a55a9e09d37af8b6f7fe
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5392438"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5782982"
 ---
 # <a name="working-with-reports-batch-jobs-and-xmlports"></a>Raporttien, eräajojen ja XMLportien käsitteleminen
 
@@ -42,14 +42,7 @@ Useimmat pyyntösivut sisältävät **Käytä oletusarvoja** -kentän. Tämän k
 
 >[!NOTE]
 > Järjestelmänvalvoja määrittää ja hallinnoi tavallisesti esimääritettyjä asetuksia. Lisätietoja on kohdassa [Raporttien ja erätöiden tallennettujen asetusten hallinta](reports-saving-reusing-settings.md).
-<!--
-Depending on the report, the request page might include the **Use default values from** field. This field lets you select a predefined set of can include the **Saved Settings** section that contains one or more entries in the **Use default value from** box. A saved setting is basically a predefined group of options and filters that you can apply to the report before previewing or sending the report to a file. The saved settings entry called **Last used options and filters** is always available. This entry sets the report to use options and filters that were used the last time you used the report.
 
-Using saved settings is a fast and reliable way to consistently generate reports that contain the correct data. After you set the **Use default value from** box to a saved settings entry, you can change any of the options and filters before previewing or saving the report. The changes that you make will not be saved to the saved settings entry you selected, but they will be saved to the **Last used options and filters** entry.
-
->[!NOTE]
->If you are an administrator, you can create and manage the saved settings for reports for all users. For more information, see [Manage Saved Settings for Reports and Batch Jobs](reports-saving-reusing-settings.md).
--->
 ## <a name="specifying-the-data-to-include-in-reports"></a>Raportteihin sisällytettävien tietojen määrittäminen
 
 Käytä **vaihtoehtojen** ja **suodattimien** alla olevia kenttiä muuttaaksesi raporttiin haluamasi tietojen rajoja. Raportin suodattimet määritetään käytännössä samalla tavoin kuin luetteloiden suodattimet. Lisätietoja on kohdassa [Suodattaminen](ui-enter-criteria-filters.md#filtering).
@@ -63,12 +56,12 @@ Käytä **vaihtoehtojen** ja **suodattimien** alla olevia kenttiä muuttaaksesi 
 
 ## <a name="previewing-a-report"></a>Raportin esikatselu
 
-Raportin esikatselussa voit nähdä, miltä raportti näyttää ennen tulostamista. Esikatselu määrittää raportin asetukset pyyntösivun **Tulostin**-kentässä näkyvän [tulostimen](#Printer) perusteella. Esikatselun jälkeen voit palata pyyntösivulle ja tehdä muutoksia asetuksiin ja suodattimiin tarpeen mukaan.
+Raportin esikatselussa voit nähdä, miltä raportti näyttää ennen tulostamista. Esikatselu ei perustu pyyntösivun **Tulostin**-kentässä valittuun tulostimeen. Se on selaimen hallinnassa. Esikatselun jälkeen voit palata pyyntösivulle ja tehdä muutoksia asetuksiin ja suodattimiin tarpeen mukaan.
 
 Voit esikatsella raporttia valitsemalla raportin pyyntösivun **Esikatselu**- tai **Esikatsele & Sulje** -painikkeen. Näyttöön tulee raportti, jossa näkyy **Esikatselu**-painike, ja toisissa on **Esikatsele & Sulje** -painike. Molemmat painikkeet avaavat raportin esikatselun. Erona on, että **Esikatselu** pitää pyyntösivun avoinna, joten voit palata siihen, tehdä muutoksia, esikatsella uudelleen tai tulostaa. Kun **Esikatsele & sulje** -vaihtoehdossa pyyntösivu sulkeutuu, joten sinun on avattava raportti uudelleen, jotta voit tehdä muutoksia tai tulostaa.
 
 > [!NOTE]
-> Jos käytät Business Central 2020 julkaisuaalto 1-versiota tai sitä vanhempaa versiota, saatavilla on vain **Esikatselu**-painike, joka sulkee pyyntösivun esikatselussa, kuten **Esikatsele & sulje** -toiminto.
+> Jos käytät Business Centralin vuoden 2020 1. julkaisuaaltoa tai sitä vanhempaa versiota, saatavilla on vain **Esikatselu**-painike, joka sulkee pyyntösivun esikatselussa, kuten **Esikatsele ja sulje** -toiminnossa on kuvattu.
 
 ### <a name="working-with-the-preview"></a>Esikatselun käyttäminen
 
@@ -103,37 +96,16 @@ Voit tallentaa raportin tiedostoon, kuten Excel-, Word- tai PDF-tiedostoon, tulo
 
 Tulosta raportti, valitse **Tulosta**-painike pyyntösivulla tai **Esikatselu**-sivun valikkorivillä.
 
-<!--
-### Printer selection
-
-The report prints to the printer shown in the **Selected printer** field on the report request page. You can't change the printer from this page.
-
-The selected printer is either set on the **Printer Selections** page or it's the default printer set up on the **Printer Management** page. If you want to use another printer, see  [Set Up Printers](ui-specify-printer-selection-reports.md).
-
-If no printer is specified on the **Printer Selections** page or set as default on the **Printer Management** page, the browser printing feature is used. In this case, **Browser** appears in the **Selected printer** field on the report request page.
--->
 ### <a name="printer"></a><a name="Printer"></a>Tulostin
 
-**Tulostin**-kentässä raportin pyyntösivulla näkyy mille tulostimelle raportti tulostetaan. **(Selaimen käsittelemä)** ilmaisee, että raportille ei ole määritetty tulostinta. Tässä tapauksessa selain käsittelee tulosteen ja näyttää vakiokokemuksen, jossa voit valita laitteeseesi yhdistetyn paikallisen tulostimen.
-
-Tulostinta ei voi muuttaa **tulostin**-kentän avulla. Jos haluat muuttaa tulostinta, siirry **tulostimen valinnat**- tai **tulostimen hallinta** -sivulle. Tulostimen määrittäminen on yleensä järjestelmänvalvojan tehtävä. Jos haluat lukea lisää, katso [Tulostimien määrittäminen](ui-specify-printer-selection-reports.md).
-
-<!--
-### Browser printing
-
-Because [!INCLUDE[prod_short](includes/prod_short.md)] is a cloud service, it can't reach local printers connected to your computer. However, it can connect to cloud-enabled printers. In the generic version of [!INCLUDE[prod_short](includes/prod_short.md)], a cloud printer named **Email Printer** is installed as an extension and is ready to use after initial setup.
-
-If a cloud printer is not installed and set up, or if an installed printer fails, then printing will default to the printing options for the browser.
+**Tulostin**-kentässä raportin pyyntösivulla näkyy mille tulostimelle raportti tulostetaan. Tulostimen voi vaihtaa valitsemalla tulostimen luettelossa.
 
 > [!NOTE]
-> The browser printing options work independently of [!INCLUDE[prod_short](includes/prod_short.md)]. So any printer settings that might have been set up from printers in [!INCLUDE[prod_short](includes/prod_short.md)] aren't carried over to the browser print options.
+> **(Käsitellään selaimessa)** ilmaisee, että raportille ei ole määritetty tulostinta. Tässä tapauksessa selain käsittelee tulosteen ja näyttää vakiokokemuksen, jossa voit valita laitteeseesi yhdistetyn paikallisen tulostimen. **(Käsitellään selaimessa)** ei ole käytössä [!INCLUDE[prod_short](includes/prod_short.md)] -mobiilisovelluksessa tai Microsoft Teamsin selaimessa.
 
-<!-- 
-On the **Printer Management** page, you can see the printers that are set up. For more information, see [Set Up Printers](ui-specify-printer-selection-reports.md).
+> [!TIP]
+> Oletustulostimeksi valittu tulostin määritetään **Tulostimen valinnat** -sivulla. Lisätietoja oletustulostimen vaihtamisesta on kohdassa [Tulostimien ja niiden tulostamien raporttien valitseminen](ui-specify-printer-selection-reports.md#default).
 
-> [!NOTE]
-> You can't change the **Printer** field on the report request page. To use another printer, you must select it from the **Printer Management** page.
--->
 ### <a name="printing-reports-in-thai"></a>Thainkielisten raporttien tulostaminen
 
 Koskien erityisesti [!INCLUDE[prod_short](includes/prod_short.md)]in Thaimaalaista versioita, **Tulosta** painike ei voi tulostaa raportteja oikein, johtuen tulostettavien PDF tiedostojen palvelun rajoituksista. Sen sijaan, raportin voi avata Wordilla, ja tallentaa sen tulostettavaan PDF muotoon.  

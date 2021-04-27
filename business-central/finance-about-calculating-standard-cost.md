@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e7298cd5408f8c8a1277ce2e1f455e3c923fbe52
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 2f4cae6c25a2ea75e93a588ab987acab3835b750
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5376631"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5781084"
 ---
 # <a name="about-calculating-standard-cost"></a>Tietoja standardikustannuksen laskemisesta
 Useat tuotantoyritykset valitsevat vakiokustannusten perustaksi arvostuksen. Tämä pätee myös yrityksiin, jotka tekevät vain kevyitä tuotantotöitä, kuten kokoonpanoa ja varustelua. Vakiokustannusjärjestelmässä varastoyksikkö määritetään kohtuullisten aiempien tai odotettujen kustannusten perusteella. Tällöin aiempien ja arvioitujen kustannusten tarkastelut muodostavat vakiokustannusten perustan. Nämä kustannukset jäädytetään, kunnes niiden muutosta koskeva päätös on tehty. Tuotteen todelliset tuotantokustannukset eroavat väistämättä arvioiduista vakiokustannuksista. Todellisia kustannuksia vertaillaan tietyn nimikkeen vakiokustannuksiin johdon hallintotarkoituksia varten, ja *erot* tunnistetaan ja analysoidaan.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 02633c21025fe13b3cb781d8750d7c839640289c
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 136a96c880c7abf9b082d7f8859e484be54da4e1
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385372"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777319"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Dynamics 365 Sales -integrointi
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -75,7 +75,7 @@ Anna seuraavat tiedot yhteyden muodostamiseen [!INCLUDE[crm_md](includes/crm_md.
 |**Dynamics 365 Business Centralin OData-verkkopalvelun URL-osoite**|Jos otat Nimikkeen saatavuus -verkkopalvelun käyttöön, saat OData-verkkopalvelun URL-osoitteen. Määritä tämän kentän arvoksi käytettävän [!INCLUDE[prod_short](includes/prod_short.md)] -esiintymän URL-osoite.<br /><br /> Voit palauttaa kenttään [!INCLUDE[prod_short](includes/prod_short.md)]in oletusarvoisen URL-osoitteen valitsemalla **Palauta verkkoasiakasohjelman URL-osoite** -toiminnon.<br /><br /> Tällä kentällä on merkitystä vain, jos [!INCLUDE[prod_short](includes/prod_short.md)] -integrointiratkaisu on asennettu [!INCLUDE[crm_md](includes/crm_md.md)]issa.|
 |**Dynamics 365 Business Centralin OData-verkkopalvelun käyttäjätunnus**|Sen käyttäjätilin nimi, jolla [!INCLUDE[crm_md](includes/crm_md.md)] hakee tietoja nimikkeen saatavuudesta [!INCLUDE[prod_short](includes/prod_short.md)]issa OData-verkkopalvelun kautta.|
 |**Dynamics 365 Business Centralin OData-verkkopalvelun käyttöoikeusavain**|Sen käyttäjätilin käyttöoikeusavain, jolla [!INCLUDE[crm_md](includes/crm_md.md)] hakee tietoja nimikkeen saatavuudesta [!INCLUDE[prod_short](includes/prod_short.md)]ista OData-verkkopalvelun kautta. Avain on määritetty käyttäjälle, joka on valittu **Dynamics 365 Business Centralin OData-verkkopalvelun käyttäjätunnus** -kentässä. Voit hakea avaimen valitsemalla ensin käyttäjänimen vieressä **Hae arvo** -painikkeen ja sitten käyttäjän. Valitse seuraavaksi **Hallitse** ja lopuksi **Muokkaa**. Valitse käyttäjän kortissa ensin **Toiminnot**, **Tarkistus** ja sitten **Muuta verkkopalvelun käyttöoikeusavainta**.|
-|**Dynamics 365 SDK -versio**|Jos integroit [!INCLUDE[crm_md](includes/crm_md.md)]in paikallisen version, muodosta yhteys [!INCLUDE[prod_short](includes/prod_short.md)]ista [!INCLUDE[crm_md](includes/crm_md.md)]iin tämän Dynamics 365 SDK -version avulla (joka tunnetaan myös nimellä Xrm). Valitsemasi version on oltava yhteensopiva [!INCLUDE[crm_md](includes/crm_md.md)]in käyttämän SDK-version kanssa. Tämä versio on sama tai uudempi kuin [!INCLUDE[crm_md](includes/crm_md.md)]in käyttämä versio.|-->
+|**Dynamics 365 SDK -versio**|Jos integroit [!INCLUDE[crm_md](includes/crm_md.md)]in paikallisen version, muodosta yhteys [!INCLUDE[prod_short](includes/prod_short.md)]ista [!INCLUDE[crm_md](includes/crm_md.md)]iin tämän Dynamics 365 SDK -version avulla (joka tunnetaan myös nimellä Xrm). Valitsemasi version on oltava yhteensopiva [!INCLUDE[crm_md](includes/crm_md.md)]in käyttämän SDK-version kanssa. Tämä versio on sama tai uudempi kuin [!INCLUDE[crm_md](includes/crm_md.md)]in käyttämä versio.|
 
 Syötä yllä olevien asetusten lisäksi seuraavat asetukset [!INCLUDE[crm_md](includes/crm_md.md)] -sovellukselle.
 
@@ -110,7 +110,7 @@ Seuraavassa taulukossa on luettelo [!INCLUDE[prod_short](includes/prod_short.md)
 
 ### <a name="synchronization-rules"></a>Synkronointisäännöt
 
-Seuraavassa taulukossa ovat säännöt, jotka ohjaavat [!INCLUDE[crm_md](includes/crm_md.md)]- ja [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen välistä synkronointia. Nämä ovat myös Dataverse -palvelussa määritettyjä sääntöjä, jotka otetaan käyttöön. Lisätietoja on kohdassa [Vakioentiteetin yhdistämismääritys](/dynamics365/business-central/admin-synchronizing-business-central-and-sales?branch=master-cds-crm#standard-table-mapping-for-synchronization).
+Seuraavassa taulukossa ovat säännöt, jotka ohjaavat [!INCLUDE[crm_md](includes/crm_md.md)]- ja [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen välistä synkronointia. Nämä ovat myös Dataverse -palvelussa määritettyjä sääntöjä, jotka otetaan käyttöön. Lisätietoja on kohdassa [Vakioentiteetin yhdistämismääritys](admin-synchronizing-business-central-and-sales.md#standard-table-mapping-for-synchronization).
 
 > [!NOTE]  
 > Integroinnin käyttäjätilin tekemiä muutoksia ei synkronoida. Tämän vuoksi on suositeltavaa, että tietoja ei muuteta kyseistä tiliä käytettäessä. Lisätietoja on kohdassa [Dynamics 365 Sales -integroinnissa käytettävien käyttäjätilien määrittäminen](admin-setting-up-integration-with-dynamics-sales.md).
@@ -128,7 +128,7 @@ Seuraavassa taulukossa ovat säännöt, jotka ohjaavat [!INCLUDE[crm_md](include
 
 ### <a name="synchronization-jobs-for-a-sales-integration"></a>Myynnin integroinnin synkronointityöt
 
-Työt suoritetaan seuraavassa järjestyksessä, jotta taulukoiden välille ei muodostu yhdistämisen riippuvuussuhteita. Dataverse -palvelussa on lisätöitä. Lisätietoja on kohdassa [Tehtävien aikatauluttaminen työjonojen avulla](/dynamics365/business-central/admin-job-queues-schedule-tasks).
+Työt suoritetaan seuraavassa järjestyksessä, jotta taulukoiden välille ei muodostu yhdistämisen riippuvuussuhteita. Dataverse -palvelussa on lisätöitä. Lisätietoja on kohdassa [Tehtävien aikatauluttaminen työjonojen avulla](./admin-job-queues-schedule-tasks.md).
 
 1. MITTAYKSIKKÖ – Dynamics 365 Salesin synkronointityö  
 2. RESURSSI-TUOTE – Dynamics 365 Salesin synkronointityö  
@@ -154,12 +154,22 @@ Seuraavassa taulukossa kuvaillaan Salesin synkronoinnin oletustyöt.
 ## <a name="connecting-business-central-on-premises-versions-earlier-than-version-16"></a>Versiota 16 aikaisempien Business Central On-Premises -versioiden yhdistäminen
 Microsoft Power Platform -tiimi on [ilmoittanut](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse), että se poistaa käytöstä Office365-todennus tyypin. Jos käytät [!INCLUDE[prod_short](includes/prod_short.md)] on-premises -versioita, jotka ovat vanhempia kuin 16, sinun on käytettävä OAuth-todennustyyppiä yhteyden muodostamiseen [!INCLUDE[crm_md](includes/crm_md.md)] onlineen. Tässä osassa kerrotaan, miten yhteys muodostetaan.
 
-### <a name="requirements"></a>Tarpeet
-Sinulla täytyy olla Microsoft Azure -tilaus. Kokeilutili toimii sovelluksen rekisteröinnissä.
+### <a name="prerequisites"></a>Vaatimukset
+
+- Sinulla täytyy olla Microsoft Azure -tilaus. Kokeilutili toimii sovelluksen rekisteröinnissä.
+- [!INCLUDE[crm_md](includes/crm_md.md)] on määritetty käyttämään jotakin seuraavista todennustyypeistä:
+
+   - Office365 (vanha)
+
+     > [!IMPORTANT]
+     > Huhtikuusta 2022 alkaen Office365 (vanha) -versiota ei enää tueta. Lisätietoja on kohdassa [Power Appsiin, Power Automateen ja asiakasvuorovaikutussovelluksiin tulevia tärkeitä muutoksia (vanhentumisia)](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse).
+
+   - OAuth
 
 ### <a name="to-connect-a-version-of-business-central-earlier-than-version-16"></a>Versiota 16 aikaisempien Business Central -versioiden yhdistäminen
+
 1. Tuo Microsoft Dynamics 365 Business Central -integrointiratkaisu [!INCLUDE[crm_md](includes/crm_md.md)] -ympäristöösi. Integrointiratkaisu on käytettävissä Business Centralin DVD-asennuslevyn CrmCustomization-kansiossa. Ratkaisusta on monta versiota, kuten DynamicsNAVIntegrationSolution_v8, DynamicsNAVIntegrationSolution_v9 tai DynamicsNAVIntegrationSolution_v91. Tuotava ratkaisu riippuu siitä, mihin [!INCLUDE[crm_md](includes/crm_md.md)] -versioon olet muodostamassa yhteyttä. [!INCLUDE[crm_md](includes/crm_md.md)] online edellyttää DynamicsNAVIntegrationSolution_v91-integrointiratkaisun.
-2. Luo [!INCLUDE[crm_md](includes/crm_md.md)] -ympäristöösi ei-vuorovaikutteinen integrointikäyttäjä ja määritä käyttäjälle seuraavat käyttöoikeusroolit. Lisätietoja on kohdassa [Ei-vuorovaikutteisen käyttäjätilin luominen](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles#create-a-non-interactive-user-account).
+2. Luo [!INCLUDE[crm_md](includes/crm_md.md)] -ympäristöösi ei-vuorovaikutteinen integrointikäyttäjä ja määritä käyttäjälle seuraavat käyttöoikeusroolit. Lisätietoja on kohdassa [Ei-vuorovaikutteisen käyttäjätilin luominen](/power-platform/admin/create-users-assign-online-security-roles#create-a-non-interactive-user-account).
 
    * Dynamics 365 Business Central -sovelluksen integroinnin järjestelmänvalvoja
    * Dynamics 365 Business Central -sovelluksen integroinnin käyttäjä
@@ -167,7 +177,7 @@ Sinulla täytyy olla Microsoft Azure -tilaus. Kokeilutili toimii sovelluksen rek
    > [!Important]
    > Käyttäjällä ei saa olla järjestelmänvalvojan käyttöoikeusroolia. Et voi myöskään käyttää järjestelmänvalvojan tiliä integrointikäyttäjänä.
 
-3.  Luo [!INCLUDE[prod_short](includes/prod_short.md)]in sovellusrekisteröinti Azure-portaalissa. Ohjeita on kohdassa [Sovelluksen rekisteröinti Azure Active Directoryssä](/business-central/dev-itpro/administration/register-app-azure?branch=live#register-an-application-in-azure-active-directory). [!INCLUDE[crm_md](includes/crm_md.md)] -yhteyden muodostamiseen liittyvät asetukset ovat delegoituja oikeuksia. Seuraavassa taulukossa on luettelo ja kuvaukset oikeuksista.
+3.  Luo [!INCLUDE[prod_short](includes/prod_short.md)]in sovellusrekisteröinti Azure-portaalissa. Ohjeita on kohdassa [Sovelluksen rekisteröinti Azure Active Directoryssa](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory). [!INCLUDE[crm_md](includes/crm_md.md)] -yhteyden muodostamiseen liittyvät asetukset ovat delegoituja oikeuksia. Seuraavassa taulukossa on luettelo ja kuvaukset oikeuksista.
 
    |Ohjelmistorajapinta / käyttöoikeuden nimi |Tyyppi  |Kuvaus  |
    |---------|---------|---------|
@@ -193,7 +203,7 @@ Sinulla täytyy olla Microsoft Azure -tilaus. Kokeilutili toimii sovelluksen rek
 9. Ota yhteys käyttöön.
 
 > [!Note]
-> Jos haluat määrittää yhteyden [!INCLUDE[crm_md](includes/crm_md.md)] -ilmentymään tietyllä todennustyypillä, täytä **Todennustyypin tiedot** -pikavälilehden kentät. Lisätietoja on kohdassa [Yhteyden muodostaminen Dynamics 365:een XRM-työkalujen yhteysmerkkijonojen avulla](https://go.microsoft.com/fwlink/?linkid=843055). Tätä vaihetta tarvita yhdistettäessä [!INCLUDE[prod_short](includes/prod_short.md)]in online-versiota.
+> Jos haluat määrittää yhteyden [!INCLUDE[crm_md](includes/crm_md.md)] -ilmentymään tietyllä todennustyypillä, täytä **Todennustyypin tiedot** -pikavälilehden kentät. Lisätietoja on kohdassa [Microsoft Dataverse -verkkopalvelujen käyttö todennuksessa](/powerapps/developer/data-platform/authentication). Tätä vaihetta tarvita yhdistettäessä [!INCLUDE[prod_short](includes/prod_short.md)]in online-versiota.
 
 ## <a name="see-also"></a>Katso myös
 

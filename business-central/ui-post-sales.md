@@ -1,5 +1,5 @@
 ---
-title: Myyntiasiakirjojen kirjaaminen | Microsoft Docs
+title: Myyntiasiakirjojen kirjaaminen
 description: Lisätietoja myyntiasiakirjojen kirjaamisessa käytetyistä kirjaustoiminnoista ja kirjattujen asiakirjojen päivittämisestä.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 12/03/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e0d1bd7770eb3bb44a2e9b3203ffa158a246cfa9
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: e59c48c31e897d235c7920f4231313a2332fdf06
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5392047"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5783257"
 ---
 # <a name="posting-sales"></a>Myynnin kirjaaminen
 
@@ -28,7 +28,8 @@ Kun valitset myyntiasiakirjan **Kirjaus**-valikon, voit valita seuraavista kirja
 * **Kirjaa erä**
 * **Testiraportti**
 
-> [HUOMAUTUS!] Myyntitilausten osalta voit tarkastella myös ennakkomaksutoimintoihin liittyviä asetuksia. Lisätietoja on kohdassa [Ennakkomaksujen laskuttaminen](finance-invoice-prepayments.md). 
+> [!NOTE]
+> Myyntitilausten osalta voit tarkastella myös ennakkomaksutoimintoihin liittyviä asetuksia. Lisätietoja on kohdassa [Ennakkomaksujen laskuttaminen](finance-invoice-prepayments.md).
 
 Kun olet täyttänyt kaikki rivit ja syöttänyt kaikki tiedot myyntitilaukseen, voit kirjata sen eli luoda vastaanoton ja laskun. Tämä luo toimituksen ja laskun.
 
@@ -65,5 +66,4 @@ Voit muokata arvoja kirjattujen ostoasiakirjojen tietyissä kentissä, kuten **P
 [Sivujen ja tietojen etsiminen Kerro, mitä haluat tehdä -toiminnolla](ui-search.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
 
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[!INCLUDE[footer-include](includes/footer-banner.md)]  

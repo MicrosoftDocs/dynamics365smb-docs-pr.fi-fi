@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: API, extension, Cognitive Services, image, computer vision, attribute, tag, recognition
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: e7fb77ab485489158798cdd03660325c678390e1
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 841ad4ff4963d8cfc6a284859affb60336e805a5
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5377271"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771310"
 ---
 # <a name="the-image-analyzer-extension"></a>Kuvan analysointilaajennus
 
@@ -102,8 +102,8 @@ Voit tarkistaa, kuinka monta analyysia olet kuluvalla jaksolla tehnyt ja kuinka 
 ## <a name="see-also"></a>Katso myös
 
 [Nimikkeen määritteiden käsitteleminen](inventory-how-work-item-attributes.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md)  
-[Käytön aloittaminen](product-get-started.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)]in mukauttaminen laajennusten avulla](ui-extensions.md)  
+[Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

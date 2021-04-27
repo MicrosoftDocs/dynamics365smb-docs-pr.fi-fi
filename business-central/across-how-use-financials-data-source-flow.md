@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
 ms.search.keywords: workflow, OData, Power App, SOAP
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1608330b5d2b2955a144498e5c44d40072b22a8b
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: d179275dd5bd225ace1555bb312b81a9553db0c3
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5384197"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5781334"
 ---
 # <a name="using-prod_short-in-an-automated-workflow"></a>[!INCLUDE[prod_short](includes/prod_short.md)]in käyttäminen automaattisessa työnkulussa
 
@@ -80,7 +80,7 @@ Lisätietoja on [Power Automate -dokumentaatiossa](/power-automate/getting-start
 
 ## <a name="see-also"></a>Katso myös
 
-[Käytön aloittaminen](product-get-started.md)  
+[Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 [Työnkulku](across-workflow.md)  
 [Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md)  
 [Määritä käyttöoikeudet käyttäjille ja ryhmille](ui-define-granular-permissions.md)  

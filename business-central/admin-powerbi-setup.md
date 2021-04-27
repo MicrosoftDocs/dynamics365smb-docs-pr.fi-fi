@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 17e41dd44dd4f7f99eabd4904d5ebd7c48d9964d
-ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
+ms.openlocfilehash: 88b6448587b4888ff33674d5118476ad284f73d0
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5492979"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777332"
 ---
 # <a name="enabling-power-bi-integration-with-prod_short"></a>Power BI:n ja [!INCLUDE[prod_short](includes/prod_short.md)]in integroinnin ottaminen käyttöön
 
@@ -49,6 +49,10 @@ Tässä osassa käsitellään paikallisen [!INCLUDE[prod_short](includes/prod_sh
 3. Anna [!INCLUDE[prod_short](includes/prod_short.md)] -käyttäjätileille verkkopalvelun käyttöoikeusavain.
 
     Verkkopalvelun käyttöoikeusavain tarvitaan vain [!INCLUDE[prod_short](includes/prod_short.md)] -tietojen tarkastelemiseen Power BI:ssa. Verkkopalvelun käyttöoikeusavain voidaan määrittää kullekin käyttäjätilille. Vaihtoehtoisesti voidaan luoda tietty tili, jonka verkkopalvelun käyttöoikeusavainta kaikki käyttäjät voivat käyttää. Lisätietoja on kohdassa [Verkkopalvelujen todennus](/dynamics365/business-central/dev-itpro/webservices/web-services-authentication#generate-a-web-service-access-key).
+
+    <!--
+    > [!IMPORTANT]
+    > With [!INCLUDE[prod_short](../developer/includes/prod_short.md)] online, the use of access keys (Basic Auth) for web service authentication is [deprecated](../upgrade/deprecated-features-w1.md#accesskeys). We recommend that you use OAuth2 instead. For more information, see [Using OAuth to Authorize Business Central Web Services](../webservices/authenticate-web-services-using-oauth.md).-->
 
 4. Luo sovelluksen rekisteröinti [!INCLUDE[prod_short](includes/prod_short.md)]ille Microsoft Azuressa.
 
@@ -84,7 +88,7 @@ Lisätietoja verkkopalvelujen julkaisemisesta on kohdassa [Verkkopalvelun julkai
 [Pika-aloitus: Tietojen yhdistäminen Power BI Desktopiin](/power-bi/desktop-quickstart-connect-to-data)  
 [Power BI -dokumentaatio](/power-bi/)  
 [Business Intelligence](bi.md)  
-[Käytön aloittaminen](product-get-started.md)  
+[Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 [Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)]in määrittäminen](setup.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)]in käyttäminen Power BI:n tietolähteenä](across-how-use-financials-data-source-powerbi.md)  

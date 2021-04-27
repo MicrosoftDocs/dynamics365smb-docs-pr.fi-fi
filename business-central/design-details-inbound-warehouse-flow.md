@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4ab1b8a7dce90f2bb2122f1f77c04da2ff795aa8
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 67c93eddcb84c3cf87edb6f407cea7af5aecda59
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5390022"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5770539"
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Rakennetiedot: saapuvan fyysisen varastoinnin virta
 Fyysiseen varastoon saapuva virta alkaa, kun nimikkeet saapuvat yrityksen sijainnin fyysiseen varastoon joko vastaanotettuina ulkoisista lähteistä tai toisesta yrityksen sijainnista. Työntekijä rekisteröi nimikkeet tavallisesti skannaamalla viivakoodin. Varastotoiminnot suoritetaan vastaanottavasta laiturista erilaisilla monimutkaisuustasoilla nimikkeiden siirtämiseksi varastointialueelle.  

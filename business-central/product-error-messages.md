@@ -1,17 +1,17 @@
 ---
-title: Varoitukset ja virhesanomat | Microsoft Docs
+title: Varoitukset ja virhesanomat
 description: Tutustu siihen, miten voit tehdä vianmäärityksen ja löytää ratkaisuja virheviesteihin, kun työskentelet Business Centralin kanssa.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d57ffe82cefb3e15d9b175c3ac17631e75a3edb3
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: fa01f29859b8076ffd9b7786a619ef932903b8d9
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5387170"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5779480"
 ---
 # <a name="warnings-and-error-messages-in-dynamics-365-business-central"></a>Varoitukset ja virhesanomat Dynamics 365 Business Centralissa
 
@@ -19,7 +19,7 @@ Työpäivän aikana voi näkyä ilmoituksia [!INCLUDE [prod_short](includes/prod
 
 ## <a name="in-product-user-assistance"></a>Tuotteen sisäinen käyttäjätuki
 
-[!INCLUDE [prod_short](includes/prod_short.md)] -ohjelman oletusversio sisältää useimpien kenttien, sarakkeiden ja toimintojen kuvaukset, joita voi käyttää, kun valitset nimen. Yhdessä kuvailevien kuvatekstien ja ohjetekstien kanssa nämä vihjeet tai kuvatekstit ovat nykyinen toteutuksemme *sulautetusta käyttäjätuesta*, joka on tärkeä periaate nykypäivän ohjelmistosuunnittelun maailmassa.  
+[!INCLUDE [prod_short](includes/prod_short.md)] -ohjelman oletusversio sisältää useimpien kenttien, sarakkeiden ja toimintojen kuvaukset, joita voi käyttää, kun valitset nimen. Yhdessä tärkeiden sivujen, kuvailevien kuvatekstien ja ohjetekstien opastusvihjeiden kanssa nämä työkaluvihjeet tai kuvatekstit ovat nykyinen *upotetun käyttäjätuen* toteutus, mikä on tärkeä periaate nykyisessä ohjelmistosuunnittelussa.  
 
 Jos sinulla on kysyttävää jostakin kentästä tai käyttöliittymän jostakin muusta osasta, valitse nimi ja lyhyt kuvaus tulee näkyviin. Valitse *lisätietoja*-linkki, jos se ei riitä.  
 
@@ -41,7 +41,7 @@ Jos olet järjestelmänvalvoja tai pääkäyttäjä, voit auttaa muita käyttäj
 [Usein kysyttyjen kysymysten haku ja suodatus](ui-search-filter-faq.md)  
 [Kopioimisen ja liittämisen usein kysytyt kysymykset](faq-copy-paste.yml)  
 [Perusasetusten muuttaminen](ui-change-basic-settings.md)  
-[Käytön aloittaminen](product-get-started.md)  
+[Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

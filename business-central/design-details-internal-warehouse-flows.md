@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 62764eed0792a20fbc303599a0cfa2baabb638cc
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: b21c1cf7b6e8199d72e8ed519d8d95b5ae9f98ee
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5389972"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5783582"
 ---
 # <a name="design-details-internal-warehouse-flows"></a>Rakennetiedot: sisäisen fyysisen varastoinnin virta
 Nimikkeiden kulku varastopaikkojen välillä yrityksen sijaintikeskuksissa kokoonpano- tai tuotantotilauksien komponentteja poimittaessa ja loppunimikkeitä hyllytettäessä sekä suunnittelemattomissa siirroissa, kuten varastopaikkojen täydennyksissä, ilman suhdetta lähdeasiakirjoihin. Liittyvien toimenpiteiden laajuus ja luonne vaihtelee perus- ja kehittyneen varastoinnin välillä.  

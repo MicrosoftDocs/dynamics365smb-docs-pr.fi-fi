@@ -5,15 +5,15 @@ author: bholtorf
 ms.service: dynamics365-business-central
 ms.author: bholtorf
 ms.custom: na
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.reviewer: na
 ms.topic: conceptual
-ms.openlocfilehash: cdab3e07d2f522be01a6bd1096ae724d824b52bf
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: b7762f9da2a6e3acfbd57a4b5af4806ead710c9d
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385347"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777379"
 ---
 # <a name="responding-to-requests-about-personal-data"></a>Henkilökohtaisia tietoja koskeviin pyyntöihin vastaaminen  
 Tietojen kohteet voivat pyytää erilaisia henkilökohtaisia tietoja koskevia toimintoja. Esimerkiksi yleisen tietosuoja-asetuksen (GDPR) ansiosta, EU-alueella asuvilla on oikeus pyytää henkilökohtaisten tietojensa vientiä, poistamista ja muokkaamista. Tätä kutsutaan *tietojen kohteen pyynnöksi*. Jos olet luokitellut tietojen luottamuksellisuuden ja olet varma, että ne ovat oikein, järjestelmänvalvoja voi vastata pyyntöihin **IT-päällikkö**-roolikeskuksen **Tietosuoja**-välilehden vaihtoehtojen avulla. Lisätietoja tietojen luokittelusta ja tietojen luottamuksellisuuden luokittelusta [!INCLUDE[prod_long](includes/prod_long.md)]ssa on kohdissa [Tietojen luokitteleminen](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) ja [Tietojen luottamuksellisuuden luokitteleminen](admin-classifying-data-sensitivity.md).  

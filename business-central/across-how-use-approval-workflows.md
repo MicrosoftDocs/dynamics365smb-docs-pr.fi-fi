@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: db43728efb4c57a60f23a62c03246f1059373a54
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 6d568ac9bebb99818f9a47119a177d9d704d3e74
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5379371"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5774509"
 ---
 # <a name="use-approval-workflows"></a>Hyväksymistyönkulkujen käyttäminen
 Jos organisaatiosi henkilön pitää hyväksyä tietue, kuten ostoasiakirja tai asiakaskortti, hänelle lähetetään hyväksyntäpyyntö työnkulun osana. Hyväksyjä saa työnkulun määrityksen mukaan ilmoituksen siitä, että tietue odottaa hänen hyväksyntäänsä.
@@ -25,7 +25,7 @@ Hyväksyntätyönkulut määritetään **Työnkulku**-sivulla. Lisätietoja on k
 
 Tässä ohjeaiheessa kuvattujen hyväksyntätyönkulkujen lisäksi voit suorittaa useita muita työnkulun tehtäviä. Lisätietoja on kohdassa [Työnkulkujen käyttäminen](across-use-workflows.md).
 
-Ostoasiakirjojen, myyntiasiakirjojen, maksupäiväkirjojen, asiakaskorttien ja nimikekorttien perushyväksyntätyönkulut ovat valmiita käynnistettäväksi oppaina. Lisätietoja on kohdassa [Käytön aloittaminen](product-get-started.md).
+Ostoasiakirjojen, myyntiasiakirjojen, maksupäiväkirjojen, asiakaskorttien ja nimikekorttien perushyväksyntätyönkulut ovat valmiita käynnistettäväksi oppaina. Lisätietoja on kohdassa [Valmistautuminen liiketoimintaan](ui-get-ready-business.md).
 
 ## <a name="to-request-approval-of-a-record"></a>Tietueen hyväksynnän pyytäminen
 Hyväksynnän käyttäjä suorittaa seuraavan tehtävän.

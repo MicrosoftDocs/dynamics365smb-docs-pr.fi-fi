@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 01/22/2021
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 27c0674ef3bbb611f965fb32d3a9f264d080127a
-ms.sourcegitcommit: a9b771cc2b4b75aed835efca63ef7a6a44219d59
+ms.openlocfilehash: 6c5b7f3d4ac36bb2d4a3213217a521e5286f74bb
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "5476793"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5778670"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Erikoismyyntihintojen ja -alennusten kirjaaminen
 > [!NOTE]
@@ -108,7 +108,7 @@ Nämä vaiheet vaihtelevat sen mukaan, onko järjestelmänvalvoja ottanut käytt
 > [!Note]
 > Kun avaat tietyn asiakkaan **Myyntihinnat**- ja **Myyntirivialennukset**-sivut, **Myyntityypin suodatus**-ja **Myyntikoodin suodatus** -kentät on määritetty asiakkaalle, eikä niitä voi muuttaa tai poistaa.
 >
-> Kun haluat määrittää hinnat tai rivialennukset kaikille asiakkaille, asiakkaan hintaryhmälle tai kampanjalle, sinun täytyy avata sivut nimikekortista. Vaihtoehtoisesti voit käyttää myyntihinnoille **Myyntihinnan työkirja** -sivua. Lisätietoja on kohdassa [Nimike hintojen ryhmäpäivitys](sales-how-record-sales-price-discount-payment-agreements.md#to-bulk-update-item-prices).  
+> Kun haluat määrittää hinnat tai rivialennukset kaikille asiakkaille, asiakkaan hintaryhmälle tai kampanjalle, sinun täytyy avata sivut nimikekortista. Vaihtoehtoisesti voit käyttää myyntihinnoille **Myyntihinnan työkirja** -sivua. Lisätietoja on kohdassa [Nimikehintojen joukkopäivitys](sales-how-record-sales-price-discount-payment-agreements.md#to-bulk-update-item-prices).  
 
 #### <a name="new-experience"></a>[Uusi kokemus](#tab/new-experience/)  
 

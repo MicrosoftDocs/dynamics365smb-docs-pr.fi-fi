@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6f47b137a2915f790b510c0fd66944a4fe7814ca
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: de18f704edf03a569d609dbee891b84bb7bfa748
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5384422"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5775745"
 ---
 # <a name="export-and-import-workflows"></a>Työnkulkujen vienti ja tuonti
 Voit siirtää työnkulkuja muihin [!INCLUDE[prod_short](includes/prod_short.md)] tietokantoihin. esimerkiksi luotaessa uusia työnkuluja voidaan aikaa säästääksesi viedä ja tuoda työnkulkuja.  

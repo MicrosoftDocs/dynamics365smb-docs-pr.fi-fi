@@ -7,14 +7,14 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 98838737ec9c20cfe5cedc7372af028fd5b1c636
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 3dff984847a3c74a6c4dad41385839c4cefdc75e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393572"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5772127"
 ---
 # <a name="working-with-prod_short"></a>[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen
 Kun tehdään liiketoimintaan liittyviä tehtäviä, voit käsitellä tietoja eri tavoin, kuten tietueiden luominen ja tietojen syöttäminen, tietojen lajittelu ja suodatus, kirjalliset huomautukset ja tietojen lähettäminen muihin sovelluksiin.
@@ -61,18 +61,18 @@ Seuraavassa on lyhyt video [!INCLUDE[prod_short](includes/prod_short.md)] -sovel
 
 ## <a name="choosing-a-desktop-browser"></a>Työpöydän selaimen valitseminen
 
-[!INCLUDE[prod_short](includes/prod_short.md)] tukee useita selaimia, jotka sisältävät erilaisia toimintoja ja ominaisuuksia. Selain on merkittävässä roolissa käyttöliittymän reaktioissa ja toimivuudessa. Katso luettelo tuetuista, suositelluista selaimista [Business Central Onlinea](https://go.microsoft.com/fwlink/?linkid=2110804) ja [paikallista Business Centralia](https://go.microsoft.com/fwlink/?linkid=2110719) varten.
+[!INCLUDE[prod_short](includes/prod_short.md)] tukee useita selaimia, jotka sisältävät erilaisia toimintoja ja ominaisuuksia. Selain on merkittävässä roolissa käyttöliittymän reaktioissa ja toimivuudessa. Katso luettelo tuetuista, suositelluista selaimista [Business Central Onlinea](./product-requirements.md) ja [paikallista Business Centralia](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central-v15) varten.
 
 - Vältä mahdollisuuksien vanhoja selaimia, kuten Internet Exploreria, ja siirry johonkin suositeltuun selaimeen, kuten [uuteen Microsoft Edgeen](https://www.microsoft.com/edge/).  
 
-    Internet Exploreria tuetaan yhä, mutta koska uusi Edge-selain on käytettävissä nyt Windows Serverissä, Internet Exploreria ei enää käytetä niin paljon kuin ennen. Käytettävissä on myös [Edgen pilottiversio IE-tilassa](https://www.microsoft.com/edge/business). Lisätietoja on [Microsoft Edge -dokumentaatiossa](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
+    Internet Exploreria ei tueta enää. Lisätietoja on [Microsoft Edge -dokumentaatiossa](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
 - Pidä selain aina päivitettynä uusimpaan versioon.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/paths/work-pro-data-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
 
-[Käytön aloittaminen](product-get-started.md)  
+[Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 [Business Central -sovelluksen määrittäminen](setup.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)  
 [Suorituskykyä lisääviä vihjeitä yrityskäyttäjille](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)

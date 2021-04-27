@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: language, locale, localization, culture, region, regional settings
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b7dad6212361eaebc4e08cc2c638a84c41850e9d
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: c565b3df229c9fe844c08274e813bc24ba70a8dc
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385072"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776445"
 ---
 # <a name="changing-language-and-region"></a>Kielen ja alueen muuttaminen
 
@@ -36,10 +36,10 @@ Sovellusdatana tallennettujen tekstien kielen muuttaminen ei ole osa monikielisy
 ## <a name="changing-the-region"></a>Alueen muuttaminen
 Alue on eri asia kuin paikallisten markkina-alueiden kielivaatimukset ja lainsäädännölliset vaatimukset. Alue määrittää, käytetäänkö tietoja annettaessa esimerkiksi pilkkuerotinta ja tapahtuuko kohdistus vasemmalle vai oikealle. Alue määrittää myös jotkin selaimen järjestelmäelementit, kuten toiminnon, jolla luetteloon luodaan uusi nimike.  
 
-Voit muuttaa alueen siinä selaimen välilehdessä, jossa käytät [!INCLUDE[prod_short](includes/prod_short.md)]ia. Tämä muutos koskee vain muutoksen tehnyttä käyttäjää – se ei siis koske yrityksen muita käyttäjiä.  Huomaa, että aluevalinta palautetaan Microsoft 365 -profiilin asetukseen, jos järjestelmänvalvoja synkronoi käyttäjät Microsoft 365:stä [!INCLUDE[prod_short](includes/prod_short.md)]iin.
+Voit muuttaa alueen siinä selaimen välilehdessä, jossa käytät [!INCLUDE[prod_short](includes/prod_short.md)]ia. Tämä muutos koskee vain muutoksen tehnyttä käyttäjää – se ei siis koske yrityksen muita käyttäjiä.  Aluevalinta palautetaan Microsoft 365 -profiilin asetukseen, jos järjestelmänvalvoja synkronoi käyttäjät Microsoft 365:stä [!INCLUDE[prod_short](includes/prod_short.md)]iin.
 
 > [!IMPORTANT]  
->  Kun muutat alueen asetuksia, näkyviin tulee pitkä kieli- ja alueluettelo. Alueen valinta ei kuitenkaan vaikuta kieleen.  
+> Kun muutat alueen asetuksia, näkyviin tulee pitkä kieli- ja alueluettelo. Alueen valinta ei kuitenkaan vaikuta kieleen.  
 
 Voit muuttaa alueen **Omat asetukset** -sivulla. Lisätietoja on kohdassa [Perusasetusten muuttaminen](ui-change-basic-settings.md).  
 
@@ -48,19 +48,21 @@ Voit muuttaa alueen **Omat asetukset** -sivulla. Lisätietoja on kohdassa [Perus
 Voit tarkistaa **Ohje ja tuki** -sivulla mihin [!INCLUDE[prod_short](includes/prod_short.md)] -versioon yrityksesi perustuu. Jos haluat perustaa yrityksen eri versioon, järjestelmänvalvoja voi luoda uuden tuotantoympäristön. Lisätietoja on kohdassa [Uuden tuotanto ympäristön luominen](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-production-environment) Kehittäjän ja IT-ammattilaisen sisällössä.  
 
 ## <a name="languages-of-the-prod_short-help"></a>[!INCLUDE[prod_short](includes/prod_short.md)]-ohjeen kielet
+
 [!INCLUDE[prod_short](includes/prod_short.md)]in perustoimintojen ohjesisältö julkaistaan Microsoft Docs -sivustossa ja on luettavissa useilla eri kielillä. Jos siirryt asiakirjoihin [!INCLUDE[prod_short](includes/prod_short.md)]ista, sisältö näkyy omalla kielelläsi. Jos tiettyä sivua ei ole vielä käännetty omalle kielellesi, se näkyy englanninkielisenä.
 
-### <a name="how-do-i-change-the-language"></a>Kielen vaihtaminen
+### <a name="how-do-i-change-the-language-of-the-microsoft-docs-site"></a>Miten Microsoft Docs -sivuston kieli muutetaan?
+
 Kielen vaihtaminen on helppoa: siirry selainsivun alareunaan ja valitse vasemmassa kulmassa maapallokuvake.
 
 > [!NOTE]  
-> Avautuvassa luettelossa on kaikki Microsoft Docs-sivuston tukemat kielet. [!INCLUDE[prod_short](includes/prod_short.md)] on käytettävissä vain tietyissä maissa ja tietyillä alueilla, mutta ohjesisältö on luettavissa myös monilla muilla kielillä. Ohjesisältö ei kuitenkaan ole luettavissa kaikilla Microsoft Docs -sivuston tukemissa kielillä.
+> Avautuvassa luettelossa on kaikki Microsoft Docs-sivuston tukemat kielet. [!INCLUDE[prod_short](includes/prod_short.md)] on saatavana vain tietyissä maissa ja tietyillä alueilla eikä [!INCLUDE [prod_short](includes/prod_short.md)] -ohjesisältö ole saatavana kaikilla kielillä, joita Microsoft Docs -sivusto tukee.
 
 ## <a name="see-also"></a>Katso myös
 
 [Ohje- ja tukiresurssit](product-help-and-support.md)  
 [Perusasetusten muuttaminen](ui-change-basic-settings.md)  
-[Käytön aloittaminen](product-get-started.md)  
+[Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

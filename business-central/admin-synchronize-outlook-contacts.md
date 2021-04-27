@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contacts, Microsoft 365
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7c9d267df2fb58da3b4a7aa1505030c9510bdf4f
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 1ccada415d506193e52ac37981252a47e6088971
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5386097"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777164"
 ---
 # <a name="synchronize-contacts-in-business-central-with-contacts-in-microsoft-outlook"></a>Business Centralin kontaktien synkronisointi Microsoft Outlookin yhteystietojen kanssa
 Näet samat kontaktit [!INCLUDE[prod_short](includes/prod_short.md)]:ssa kuin Outlookissa, jos synkronointi määritetään. Esimerkiksi jos olet myyjä, sinun kannattaa tehdä joitakin töitä Outlookissa ja joitakin töitä [!INCLUDE[prod_short](includes/prod_short.md)]:ssä. Jos kontaktit ovat samat molemmissa, työ on yksinkertaisempaa.  
@@ -32,15 +32,15 @@ Kun tämä synkronointi on määritetty, tekemäsi muutokset kontaktiin joko Out
 Kunkin työtovereistasi voi myös määrittää oman Exchange-synkronointinsa ja määrittää suodattimen sille, mitkä kontaktit halutaan synkronoida.  
 
 ## <a name="synchronize-contacts"></a>Kontaktien synkronointi
-Jos olet tottunut käyttämään yhteyshenkilöitä [!INCLUDE[prod_short](includes/prod_short.md)]:ssa, sinun on helppo aloittaa synkronointi manuaalisesti aina, kun se sinulle sopii,  **Kontaktit**-luettelosta. Valitse vain **Synkronoi Office 365:n kanssa** -toiminto, ja päätä, haluatko muuttaa suodatinta, joka on määritetty. Kun valitset OK-painikkeen, synkronointi alkaa välittömästi ja uusimmat muutokset kohdistetaan Outlook-yhteystietoihisi.  
+Jos olet tottunut käyttämään yhteyshenkilöitä [!INCLUDE[prod_short](includes/prod_short.md)]:ssa, sinun on helppo aloittaa synkronointi manuaalisesti aina, kun se sinulle sopii,  **Kontaktit**-luettelosta. Valitse vain **Synkronoi Microsoft 365:n kanssa** -toiminto, ja päätä, haluatko muuttaa määritettyä suodatinta. Kun valitset OK-painikkeen, synkronointi alkaa välittömästi ja uusimmat muutokset kohdistetaan Outlook-yhteystietoihisi.  
 
 Voit **Kontaktit**-luettelossa synkronoida kontaktejasi kahdella tavalla:
 
-* **Synkronoi Office 365:nn kanssa**
+* **Synkronointi Microsoft 365:n kanssa**
 
   Tämä toiminto synkronoi kaikki edellisen synkronoinnin jälkeiset muutokset [!INCLUDE[prod_short](includes/prod_short.md)]:sta Microsoft 365:een viimeisimmän muokkauksen päivämäärän perusteella. Kaikki uudet yhteystiedot Microsoft 365:ssä synkronoidaan myös takaisin [!INCLUDE[prod_short](includes/prod_short.md)]:een. Tämä on yleensä nopeampaa kuin täydellisen synkronoinnin suorittaminen.  
 
-* **Täysi synkronointi Office 365:n kanssa**
+* **Täydellinen synkronointi Microsoft 365:n kanssa**
 
   Tämä toiminto synkronoi kaikki yhteyshenkilöt molempiin suuntiin riippumatta viimeisen synkronoinnin päivämäärästä tai viimeksi muokattu -päivämäärästä.  
 
@@ -49,7 +49,7 @@ Molemmissa tapauksissa kontaktit synkronoidaan Outlookista vain jos niiden pakol
 Outlookissa kontaktit [!INCLUDE[prod_short](includes/prod_short.md)]:sta näytetään **Muut kontaktit** -kansiossa **Henkilöt**-näkymässä. Jos et tunne Outlookin Henkilöt-näkymää, pääset siihen siirtymisvaihtoehdoista Outlookin vasemmassa alakulmassa.  
 
 ## <a name="see-also"></a>Katso myös
-[Käytön aloittaminen](product-get-started.md)  
+[Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 [Rahoitus](finance.md)  
 [Myynti](sales-manage-sales.md)  
 [Osto](purchasing-manage-purchasing.md)  

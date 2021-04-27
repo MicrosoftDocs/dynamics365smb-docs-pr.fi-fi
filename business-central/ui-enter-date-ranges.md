@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3a48863231c06742e5cc1b2f13d554e65cb8ae91
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 404c39cba663cebc4d9ab30126de97bd20cf7e8e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5381213"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773528"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Kalenterin päivämäärien ja aikojen käsitteleminen
 
@@ -76,7 +76,7 @@ Syötä sana today-määritteelle **Kieli**-asetuksen määrittämällä kielell
 
 ### <a name="period"></a>Jakso
 
-Voit suodattaa tietyn kirjanpitojakson antamalla päivämääräkentässä kirjaimen j tai sanan jakso ja lisäämällä sen perään luvun, joka yksilöi kirjanpitojakson, kuten j2 tai jakso4. Kirjapitojakso liittyy roolikeskuksessa määritetyn kuluvan käsittelypäivän tilikauteen. Jos esimerkiksi käsittelypäivämäärä on **21.3.20**, j1 tai vain j suodattaa tilikauden 2020 ensimmäisen kirjanpitojakson (kuten 01.01.20-31.1.20). j15 suodattaa 15:nnen kirjanpitojakson tilikauden 2020 alusta (kuten 1.3.31-31.3.21).
+Voit suodattaa tietyn kirjanpitojakson antamalla päivämääräkentässä kirjaimen j tai sanan jakso ja lisäämällä sen perään luvun, joka yksilöi kirjanpitojakson, kuten j2 tai jakso4. Kirjapitojakso liittyy roolikeskuksessa määritetyn kuluvan käsittelypäivän tilikauteen. Jos esimerkiksi käsittelypäivämäärä on **21.3.22**, j1 tai vain j suodattaa tilikauden 2022 ensimmäisen kirjanpitojakson (kuten 1.1.2022–31.1.2022). j15 suodattaa 15:nnen kirjanpitojakson tilikauden 2022 alusta (kuten 1.3.2023–31.3.2023).
 
 Kirjanpitojaksot määritetään **Kirjanpitojaksot**-sivulla. Voit tarkastella tai muuttaa kirjanpitojaksoja avaamalla sivun [täällä](https://businesscentral.dynamics.com/?page=100).
 
@@ -102,12 +102,12 @@ Seuraavassa taulukossa on esimerkkejä kaikkia muotoja käyttävistä päivämä
 
 |**Tapahtuma**      |**Tulkinta**      |
 |---------------|------------------------|
-|2018.12.31.|31.12.2018|
-|31.12.18|31.12.2018|
-|18.12.31.|31.12.2018|
-|18.12.31.|31.12.2018|
-|20181231|31.12.2018|
-|18/12,31|31.12.2018|
+|2022.12.31.|2022.12.31.|
+|221231|2022.12.31.|
+|22.12.31.|2022.12.31.|
+|22.12.31.|2022.12.31.|
+|20221231|2022.12.31.|
+|22/12,31|2022.12.31.|
 |11|käsittelypvm:n vuosi.käsittelypvm:n kuukausi.11.|
 |11.12|käsittelypvm:n vuosi.11.12.|
 |t tai tänään|tämän päivän päivämäärä|
@@ -194,7 +194,7 @@ Miinus-merkin avulla pystyt ilmaisemaan menneitä päiviä. Esimerkiksi:
 |-1 V.|1 vuosi taaksepäin tästä päivästä|
 
 > [!IMPORTANT]
->  Jos sijainti käyttää peruskalenteria, sitten päivämääräkaava, jonka annat esimerkiksi **Toimitusaika** -kenttään, tulkitaan kalenterin mukaan työskentelypäiviksi. Esimerkiksi 1K tarkoittaa seitsemää käsittelypäivää.
+> Jos sijainti käyttää peruskalenteria, sitten päivämääräkaava, jonka annat esimerkiksi **Toimitusaika** -kenttään, tulkitaan kalenterin mukaan työskentelypäiviksi. Esimerkiksi 1K tarkoittaa seitsemää käsittelypäivää.
 <!--
 # Entering Date Ranges
 You can set filters containing a start date and an end date to display only the data contained in that date range or time interval. Special rules apply to the way you set date ranges. Let's take the **Customer Top 10** as an example:
@@ -314,36 +314,9 @@ Et voi käyttää arvoa 24:00, jos tarkoitat keskiyötä, etkä mitään arvoa, 
 
 Aika-sana [!INCLUDE[prod_short](includes/prod_long.md)] -sovelluksen käyttämällä kielellä arvioidaan tietokoneen tai mobiililaitteen nykyiseksi ajaksi. Voit syöttää sanan minkä tahansa alkuosan, kuten a tai AIK.
 
-## <a name="entering-combined-dates-and-times"></a>Yhdistettyjen pvm:ien ja aikojen syöttäminen
-Kun syötät päivämääriä ja aikoja, joissa päivämäärä ja aika on yhdistetty yhdeksi kentäksi, päivämäärän ja ajan välissä on oltava välilyönti. Päivämääräosa voi sisältää välilyöntejä vain alueasetusten virallisen päivämääräerottimen muodossa. Ajan välilyönnit voivat olla AM/PM-osoittimen ympärillä.
+## <a name="entering-combined-dates-and-times"></a>Yhdistettyjen päivämäärien ja aikojen syöttäminen
 
-Päivämäärän ja ajan kenttään on mahdollista syöttää myös vain päivämäärä, mutta vain aikaa ei voi syöttää.
-
-Seuraavassa luettelossa on joitakin esimerkkejä päivämäärän ja ajan yhdistelmistä. Esimerkkien alueasetuksissa näytetään päivämäärät muodossa päivä\-kuukausi\-vuosi. Niissä käytetään AM/PM-tunnuksia ja englannin kieltä. Sunnuntai on viikon ensimmäinen päivä.
-
-|**Tapahtuma**      |**Tulkinta**      |
-|---------------|------------------------|
-|08-01-2016 05:48:12 PM|1.8.2016 17:48:12|
-|131202 132455|13.12.2002 13:24:55|
-|1-12-02 10|01.12.2002 10:00:00|
-|1.12.02 5|01.12.2002 05:00:00|
-|1.12.02|01.12.2002 00:00:00|
-|11 12|11.käsittelypvm:n kuukausi.käsittelypvm:n vuosi 12:00:00|
-|1112 12|11.12.käsittelypvm:n vuosi 12:00:00|
-|t tai tänään|tämän päivän päivämäärä 00:00:00|
-|t 10:30:00|tämän päivän päivämäärä 10:30:00|
-|t 3:3:3|tämän päivän päivämäärä 03:03:03|
-|k tai käsittelypvm|käsittelypvm 00:00:00|
-|ma tai maanantai|Käsittelypvm:n viikon maanantai 00:00:00|
-|ti tai tiistai|Käsittelypvm:n viikon tiistai 00:00:00|
-|la tai lauantai|Käsittelypvm:n viikon lauantai 00:00:00|
-|su tai sunnuntai|Käsittelypvm:n viikon sunnuntai 00:00:00|
-|ti 10:30:00|Käsittelypvm:n viikon tiistai 10:30:00|
-|ti 3:3:3|Käsittelypvm:n viikon tiistai 03:03:03|
-|t23 t|Käsittelypvm:n vuoden viikon 23 tiistai, nykyinen aika|
-|t23|Käsittelypvm:n vuoden viikon 23 tiistai|
-|t 23|Tänään 23:00:00|
-|t-1|Käsittelypvm:n vuoden viikon 1 tiistai|
+[!INCLUDE [datetimes](includes/datetimes.md)]
 
 ## <a name="entering-duration"></a>Keston syöttäminen
 Sovelluksen jotkin kentät edustavat kestoa tai kuluneen ajan määrää tietyn päivämäärän tai ajan sijaan. Kesto syötetään numerona, jota seuraa sen mittayksikkö.

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a5a8f9b10bc454290ce461c02dc1d1d858d5839e
-ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
+ms.openlocfilehash: 71361e3408b40116a4791b737afb439de4b3a6ec
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5493137"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5774386"
 ---
 # <a name="print-vat-information-on-invoices"></a>ALV-tietojen tulostaminen laskuihin
 Kirjausryhmien avulla voit tulostaa ALV-tiedot myyntilaskun jokaiselle nimikkeelle.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5cb0e5616bb2b04fba3c8819f58f8da2f396601d
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 333e79076fc8d991cc33129c1786fd6dee83f63a
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5390972"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5774937"
 ---
 # <a name="design-details-item-tracking-and-planning"></a>Rakennetiedot: nimikkeen seuranta ja suunnittelu
 Nimikkeen seurantanumerot on sovitettu täysin yhteen tilausseurannan tietueiden kanssa, koska ne ovat tallennettu varausjärjestelmään. Tämä tarkoittaa sitä, että nimikkeille, joilla on tilauksen seurantatietueet, voidaan määrittää nimikkeen seurantanumerot. Käänteisesti, seurantanumerot omaavat nimikkeet voivat muuttua tilauksen seurantatietueiksi. Lisätietoja on kohdassa [Rakennetiedot: nimikeseurannan rakenne](design-details-item-tracking-design.md).

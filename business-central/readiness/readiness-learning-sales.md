@@ -2,15 +2,15 @@
 title: Kumppanimyynti- ja markkinointiopintoluettelo
 description: Etsi kaikki käytettävissä olevat oppimiskumppanit myynti- ja markkinointirooleista Business Centralin avulla.
 author: loreleishannonmsft
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.topic: conceptual
 ms.author: margoc
-ms.openlocfilehash: edb42bb6dce30aee77b45a383f77b3bd0d104009
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 9830e4e842cc7fe3febcbe809547ad26701f527d
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5389272"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5781836"
 ---
 # <a name="partner-sales-and-marketing-learning-catalog"></a>Kumppanimyynti- ja markkinointiopintoluettelo
 
@@ -24,15 +24,15 @@ Seuraava luettelo on järjestetty perustiedoista tiettyihin toimialueisiin ja pe
 |-------------|----------------|---------------------------------------|---------------------|
 | [Dynamics 365 Business Central (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101760)                              | (Vain kumppanit) Tässä istunnossa esitellään Business Centralin arvo. Business Central tarjoaa upean arvon, koska se integroituu muihin Microsoft Cloud -palveluihin, kuten Microsoft 365:een ja se voidaan mukauttaa tai laajentaa tietyn alan tarpeisiin Power Appsin, Power Automaten ja Power BI:n avulla. | Video                                 | 8 minuuttia 5 sekuntia |
 | [Tutki Dynamics 365 Business Central -ominaisuuksia](https://dynamics.microsoft.com/business-central/capabilities/) | Tutki Dynamics 365 Business Central -ominaisuuksia    | Sivusto    |                     |
-| [Dynamics 365 Business Central](https://docs.microsoft.com/learn/modules/dynamics-365-business-central/)            | Tämä moduuli näyttää sovelluksen ominaisuudet, hyödyt ja esimerkit Dynamics 365 Business Centralista käytännössä.    | Ilmainen, omaan tahtiin etenevä verkko-oppimispolku | 24 minuuttia          |
+| [Dynamics 365 Business Central](/learn/modules/dynamics-365-business-central/)            | Tämä moduuli näyttää sovelluksen ominaisuudet, hyödyt ja esimerkit Dynamics 365 Business Centralista käytännössä.    | Ilmainen, omaan tahtiin etenevä verkko-oppimispolku | 24 minuuttia          |
 
 ## <a name="getting-started"></a>Käytön aloittaminen<a name="get-started"></a>
 
 | Sisältö   | Kuvaus   | Muoto                                | Pituus              |
 |-----------|---------------|---------------------------------------|---------------------|
-| [Microsoftin käytön aloittaminen Dynamics 365 Business Central](https://docs.microsoft.com/learn/paths/get-started-dynamics-365-business-central/)                          | Kiinnostaako sinua Business Central? Jos kiinnostaa, tämä oppimispolku antaa hyvän johdannon. Siinä kerrotaan, kuinka kokeiluversio luodaan, annetaan perustietoja käytettävissä olevista tiedoista ja esitetään mukautusasetuksia, joita voit käyttää Business Centralin mukauttamiseen.          | Ilmainen, omaan tahtiin etenevä verkko-oppimispolku | 3 tuntia 4 minuuttia   |
-| [Microsoft Dynamics 365 Business Central -käyttöliittymän käsitteleminen](https://docs.microsoft.com/learn/paths/work-with-user-interface-dynamics-365-business-central/) | Haluatko lisätietoja Business Central -käyttöliittymästä? Tämä oppimispolku näyttää käyttöliittymän ja myös sen, miten sitä voi mukauttaa. Siinä käsitellään myös vaihtoehtoisia käyttöliittymiä, kuten älypuhelinta.    | Ilmainen, omaan tahtiin etenevä verkko-oppimispolku | 2 tuntia 27 minuuttia  |
-| [Käsittele Business Central -tietoja kuin ammattilainen](https://docs.microsoft.com/learn/paths/work-pro-data-dynamics-365-business-central) | Oletko juuri aloittanut Business Centralin käytön? Tämä oppimispolku auttaa sinua valmistautumaan Business Centralin tietotyyppeihin ja siihen, miten löydät tarvitsemasi tiedot sovelluksesta.      | Ilmainen, omaan tahtiin etenevä verkko-oppimispolku | 2 tuntia 27 minuuttia  |
+| [Microsoft Dynamics 365 Business Centralin käytön aloittaminen ](/learn/paths/get-started-dynamics-365-business-central/)                          | Kiinnostaako sinua Business Central? Jos kiinnostaa, tämä oppimispolku antaa hyvän johdannon. Siinä kerrotaan, kuinka kokeiluversio luodaan, annetaan perustietoja käytettävissä olevista tiedoista ja esitetään mukautusasetuksia, joita voit käyttää Business Centralin mukauttamiseen.          | Ilmainen, omaan tahtiin etenevä verkko-oppimispolku | 3 tuntia 4 minuuttia   |
+| [Microsoft Dynamics 365 Business Central -käyttöliittymän käsitteleminen](/learn/paths/work-with-user-interface-dynamics-365-business-central/) | Haluatko lisätietoja Business Central -käyttöliittymästä? Tämä oppimispolku näyttää käyttöliittymän ja myös sen, miten sitä voi mukauttaa. Siinä käsitellään myös vaihtoehtoisia käyttöliittymiä, kuten älypuhelinta.    | Ilmainen, omaan tahtiin etenevä verkko-oppimispolku | 2 tuntia 27 minuuttia  |
+| [Käsittele Business Central -tietoja kuin ammattilainen](/learn/paths/work-pro-data-dynamics-365-business-central) | Oletko juuri aloittanut Business Centralin käytön? Tämä oppimispolku auttaa sinua valmistautumaan Business Centralin tietotyyppeihin ja siihen, miten löydät tarvitsemasi tiedot sovelluksesta.      | Ilmainen, omaan tahtiin etenevä verkko-oppimispolku | 2 tuntia 27 minuuttia  |
 | [Business Central YouTube -soittolista](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4) | YouTuben saapumissivu Dynamics 365 Business Central -videoille  | YouTube-videot  |                     |
 
 ## <a name="grow-your-business"></a>Kasvata yritystäsi<a name="grow"></a>
@@ -42,7 +42,7 @@ Seuraava luettelo on järjestetty perustiedoista tiettyihin toimialueisiin ja pe
 | [Dynamics 365 Business Central - Mielenkiintoiset prospektikeskustelut (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101761)    | (Vain kumppanit) Liity Errol Schosfishin, tuotemarkkinointijohtajan seuraan, kun hän puhuu siitä, miten saada aikaan mielenkiintoisia keskusteluja prospektien kanssa Microsoft Dynamics 365 Business Centralista.   | Video    | 11 minuuttia 15 sekuntia |
 | [Pilvipalveluratkaisuohjelma](https://partner.microsoft.com/membership/cloud-solution-provider)    | (Vain kumppanit) Tietoja pilvipalveluratkaisuohjelmasta     | Sivusto |                       |
 | [Markkinointi pilviympäristössä](https://mbspartner.microsoft.com/OSS/Topic/19) | (Vain Partner) Se, miten optimoit markkinointikäytännöt ja uudelleensuuntaavat markkinointiperiaatteet pilvipalveluun keskittyneessä maailmassa, on ensisijainen tekijä, kun organisaation onnistuminen tai epäonnistuminen etenee. Tämä sarja videoita ja resursseja tarjoaa markkinoinnin parhaita käytäntöjä, sisällön luomisen ohjausta, pragmaattisia vinkkejä ja hyödyllisiä työkaluja pilvimarkkinointiperiaatteiden soveltamiseen ratkaisujen kysynnän kasvattamiseksi. | Aihesivu | 35 minuuttia |
-| [Pilvipalveluratkaisuohjelma - kysynnän mukaisten pilviratkaisujen myynti](https://docs.microsoft.com/partner-center/csp-overview)  | Pilvipalveluratkaisuohjelma (CSP) auttaa sinua jälleenmyyjälisenssien ulkopuolella, jotta voisit osallistua paremmin asiakkaan liiketoimintaan.   | Sivusto      |                       |
+| [Pilvipalveluratkaisuohjelma - kysynnän mukaisten pilviratkaisujen myynti](/partner-center/csp-overview)  | Pilvipalveluratkaisuohjelma (CSP) auttaa sinua jälleenmyyjälisenssien ulkopuolella, jotta voisit osallistua paremmin asiakkaan liiketoimintaan.   | Sivusto      |                       |
 | [Pilvipalveluratkaisuohjelma - vertaile kumppanien tukiohjelmia](https://partner.microsoft.com/support/partnersupport) | Katsomalla tämän videon näet, miten voit valita yrityksellesi sopivan kumppanitukisuunnitelman. Katso sitten alla oleva rinnakkaisvertailu.    | Sivusto                               |                       |
 | [Cloud SureStepin nopeutettu myynti](https://mbspartner.microsoft.com/OSS/Topic/20)  | (Vain kumppanit) Cloud SureStepin nopeutettu myyntiprosessi rakentuu modernin ostajan tarpeisiin ja pyrkii käynnistämään emotionaalisen, kokemukseen perustuvan strategisen käännekohdan myyntiprosessin alussa. Tämä sarja videoita ja resursseja selittää ohjailevan myyntiprosessin, joka on erityisesti suunniteltu vastaamaan perinteistä resurssitehokasta, "demo-suuntautunutta" ratkaisumyynnin lähestymistapaa, joka tyypillisesti johtaa hyvin räätälöityihin tuote-esittelyihin, monimutkaisiin myyntisykleihin ja pitkiin toteutusprojekteihin. Resurssikirjasto sisältää useita mukautettavia malleja, joiden avulla voit luoda oman joukon myyntiresursseja, jotka tukevat nopeutettua myyntiä. | Sivusto     |                       |
 | [Siirtymiskumppanikäsikirjan täydennys (heinäkuu 2019) ](https://assetsprod.microsoft.com/d365-business-central-supplement-to-transition-partner-playbook.pptx) | Tässä siirtymiskumppanin käsikirjan täydennysosassa on uusia ja päivitettyjä ja ohjeita kumppaneille. Kumppanit voivat varmistaa näiden ohjeiden avulla, että nykyinen asiakaskunta ei siirry käyttämään kilpailijoiden ja uusien SaaS-toimijoiden palveluja.  | PowerPoint-diaesitys | 15 diaa |

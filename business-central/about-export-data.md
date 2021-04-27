@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a65087c484e9e26cead2c6fb879e31184ed1a8cf
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 4a6bfb8d20c13019807b2308737380c4fd31dcc6
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385147"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776495"
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Liiketoimintatietojen vienti Exceliin
 Jos haluat käsitellä [!INCLUDE[prod_short](includes/prod_short.md)]in tietoja Excelissä, voit avata kaikki luettelot Excelissä ja käsitellä niitä siellä. Jos haluat vastaavasti peruuttaa [!INCLUDE[prod_short](includes/prod_short.md)]in tilauksen, voit viedä tiedot Exceliin, jotta ne ovat edelleen käytettävissä.

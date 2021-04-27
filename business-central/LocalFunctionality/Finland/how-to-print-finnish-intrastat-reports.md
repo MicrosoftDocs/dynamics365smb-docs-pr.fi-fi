@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5c6348a521d67690ac6f712c6dbe5cb872292bed
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: c3be6c99eebd485a1588c1a8ccbfccefabec325d
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5380337"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5782235"
 ---
 # <a name="print-finnish-intrastat-reports"></a>Suomen Intrastat-raporttien tulostaminen
 Euroopan unionissa olevien yritysten on raportoitava kaupankäyntinsä muiden EU-maiden/alueiden kanssa tiettyjen sääntöjen mukaisesti. Tavaroiden siirrot on raportoitava omien maiden/alueiden Intrastat-viranomaisille.  

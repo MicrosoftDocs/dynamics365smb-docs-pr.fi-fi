@@ -8,24 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: CDS, , integration, sync
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f218b50e40f6bb0e8e9ab3be8fcd00d23b1adbe2
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: abeab28a87c395328accfd850a0753649515f8dc
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5378721"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773334"
 ---
 # <a name="data-ownership-models"></a>Tietojen omistusmallit
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
 
-[!INCLUDE[prod_short](includes/cds_long_md.md)] edellyttää, että määrität tallennettavien tietojen omistajan. Lisätietoja on Power Apps -dokumentaation kohdassa [Entiteetin omistus](https://docs.microsoft.com/powerapps/maker/common-data-service/types-of-tables#table-ownership). Kun määrität [!INCLUDE[prod_short](includes/cds_long_md.md)]- ja [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen välisen integroinnin, sinun on valittava synkronoiduille tietueille toinen seuraavista kahdesta omistusmallista:
-
-* Tiimi 
-* Henkilö (käyttäjä)
-
-Näille tietueille suoritettavia toimintoja voidaan hallita käyttäjätasolla. Lisätietoja on kohdassa [Käyttäjän ja ryhmän taulukot](https://docs.microsoft.com/powerapps/developer/common-data-service/user-team-tables). Suosittelemme tiimin omistuksen mallia, koska sen avulla on helppo hallita useiden henkilöiden omistusta.
+[!INCLUDE[prod_short](includes/cds_long_md.md)] edellyttää, että määrität tallennettavien tietojen omistajan. Lisätietoja on Power Apps -dokumentaation kohdassa [Taulukkotyypit](/powerapps/maker/data-platform/types-of-entities). Kun määrität [!INCLUDE[prod_short](includes/cds_long_md.md)]- ja [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen välisen integroinnin, sinun on valittava synkronoiduille tietueille omistajaksi **käyttäjä tai ryhmä**. Näille tietueille suoritettavia toimintoja voidaan hallita käyttäjätasolla. <!--We recommend the Team ownership model because it makes it easier to manage ownership for multiple people.NO LONGER TRUE IN DATAVERSE-->
 
 ## <a name="team-ownership"></a>Tiimin omistus
 [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksessa yritys on oikeushenkilö- ja yritystaulukko, jonka avulla liiketoimintatiedot voidaan suojata ja visualisoida. Käyttäjät työskentelevät aina yrityksen kontekstissa. Lähimpänä tätä konseptia [!INCLUDE[prod_short](includes/cds_long_md.md)] -sovelluksessa on liiketoimintataulukko. Se ei sisällä oikeushenkilö- tai yritysviittauksia.

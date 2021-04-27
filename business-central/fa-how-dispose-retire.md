@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: scrap
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 762f14992f9834c557da7ed193b93a661d6b4b2e
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 041f228a0ea2e34fb9986ebb45e98c1300f02f8d
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5381440"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5774028"
 ---
 # <a name="dispose-of-or-retire-fixed-assets"></a>Käyttöomaisuuden käytöstä poistaminen
 
@@ -56,7 +56,7 @@ Näyttöön tulee **Pääkirjanpidon tapahtumat** -sivu, jossa näkyvät tapahtu
 [Käyttöomaisuuden määrittäminen](fa-setup.md)  
 [Käyttöomaisuuden kirjausryhmien määrittäminen](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).  
 [Rahoitus](finance.md)  
-[Käytön aloittaminen](product-get-started.md)  
+[Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Etsi tapahtumat](ui-find-entries.md)  
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6b8e0a46375bce9ffd22b160766925bf803025f0
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: f90ba5929cad841e16a6a1a719024fdf085b05be
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5378196"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5781284"
 ---
 # <a name="prepare-a-configuration-package"></a>Määrityspaketin valmisteleminen
 
@@ -174,7 +174,7 @@ Kun olet tarkistanut ja testannut kaikki asetustiedot, voit jatkaa tietojen kopi
 [Yrityksen konfiguroinnin määrittäminen](admin-set-up-company-configuration.md)  
 [Yrityksen määrittäminen RapidStart Servicesin avulla](admin-set-up-a-company-with-rapidstart.md)  
 [Hallinta](admin-setup-and-administration.md)  
-[Konfigurointipaketin jäljityksen telemetrian analysointi](/dynamics365smb-devitpro/dev-itpro/administration/telemetry-configuration-package-trace)  
+[Konfigurointipaketin jäljityksen telemetrian analysointi](/dynamics365/business-central/dev-itpro/administration/telemetry-configuration-package-trace)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

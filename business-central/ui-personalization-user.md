@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 083692ce38e9403705c6d683afb58a17dbecec90
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 6069e3d1bcfde5c7aead1daeb33b35201c9f05a4
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393797"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5783309"
 ---
 # <a name="personalize-your-workspace"></a>Työtilan mukauttaminen
 Voit mukauttaa työtilan työskentelyysi ja valintoihisi sopivaksi muuttamalla sivujen ulkoasua siten, että vain tarvitsemasi tiedot näkyvät siellä, missä niitä tarvitset. Mukauttamalla tehdyt muutokset koskevat vain omaa näkymääsi; muut käyttäjät eivät siis näe mukautuksiasi.
@@ -65,7 +65,7 @@ Muiden mukautusten tavoin sarakkeen leveyteen tehdyt muutokset tallennetaan tili
 |Esimerkiksi kentän, luettelon sarakkeen, ruudun, toiminnon tai osan piilottaminen|Valitse ensin nuolenpää ja sitten <b>Piilota</b>.|Elementti näkyy harmaana, kun olet mukautustilassa. Jos piilottamasi kenttä näkyy myös tiivistetyn pikavälilehden otsikossa, kenttä ei enää näy tässä kohdassa.|
 |Piilotettujen toimintojen ja osien näyttäminen.|Valitse ensin harmaan (piilotetun) elementin nuolenpää ja sitten <b>Näytä</b>.|Piilotettu elementti on taas näkyvissä.|
 |Kentän tai sarakkeen lisääminen|Valitse <b>Mukauttaminen</b>-palkissa <b>+ Kenttä</b>-toiminto.<br /></br><b>Lisää kenttä sivulle</b> -ruutu avautuu näytössä oikealla. Siinä on luettelo sivulle lisättävistä kentistä.<br /><br />Lisää kenttä vetämällä se ruudusta haluamaasi paikkaa. Paikka osoitetaan paksulla vaaka- tai pystyviivalla.|Kullakin sivulla on valmiiksi määritetty joukko näytettäviä kenttiä. Voit lisätä tällä tavalla kenttiä tai sarakkeita, joita ei ole aiemmin näytetty, tai näyttää piilotettuja kenttiä.|
-|Kentän näyttäminen kutistetun pikavälilehden otsikossa|Valitse ensin nuolenpää ja sitten <b>Näytä, kun tiivistetty</b>. <br /> <br />Jos tämä vaihtoehto ei näy, se on jo määritetty. Valitse tässä tapauksessa <b>Näytä aina</b>, jos haluat, että kenttä ei enää näy pikavälilehden otsikossa.|*Pikavälilehdellä* tarkoitetaan kenttiä, jotka on ryhmitetty yhteisen otsikon alle. Tärkeimmät kentät näkyvät, kun valitset <b>Näytä, kun tiivistetty</b>. Jos valitset otsikossa olevan kentän, pikavälilehti avautuu ja kohdistus on valitussa kentässä.<br /><br />Tämä vaihtoehto on käytettävissä vain, jos sivulla on useita pikavälilehtiä. Jos pikavälilehtiä on vain yksi, sitä ei voi tiivistää, joten <b>Näytä, kun tiivistetty</b> -vaihtoehto ei ole käytettävissä.|
+|Kentän näyttäminen kutistetun pikavälilehden otsikossa.|Valitse ensin nuolenpää ja sitten <b>Näytä, kun tiivistetty</b>. <br /> <br />Jos tämä vaihtoehto ei näy, se on jo määritetty. Valitse tässä tapauksessa <b>Näytä aina</b>, jos haluat, että kenttä ei enää näy pikavälilehden otsikossa.|*Pikavälilehdellä* tarkoitetaan kenttiä, jotka on ryhmitetty yhteisen otsikon alle. Tärkeimmät kentät näkyvät, kun valitset <b>Näytä, kun tiivistetty</b>. Jos valitset otsikossa olevan kentän, pikavälilehti avautuu ja kohdistus on valitussa kentässä.<br /><br />Tämä vaihtoehto on käytettävissä vain, jos sivulla on useita pikavälilehtiä. Jos pikavälilehtiä on vain yksi, sitä ei voi tiivistää, joten <b>Näytä, kun tiivistetty</b> -vaihtoehto ei ole käytettävissä.|
 |Kentän näyttäminen vain, kun **Näytä enemmän** on valittu|Valitse ensin nuolenpää ja sitten <b>Näytä kohdassa Näytä lisää</b>. <br /> <br />Jos <b>Näytä kohdassa Näytä lisää</b> -vaihtoehto ei ole näkyvissä, se on jo määritetty. Tällöin saat näkyviin aina, eikä vain, kun valitset-kentän **Näytä useita**, valitse <b>Näytä aina</b>.||
 |Kiinnitysruudun muuttaminen toiseen sarakkeeseen luettelossa |Valitse sen sarakkeen nuolenpää, jonka haluat olevan kiinnitysruudun viimeinen sarake, ja valitse sitten <b>Määritä kiinnitysruutu</b>.<br /><br/>Jos haluat määrittää kiinnitysruudun takaiseen alkuperäiseen paikkaan, valitse ensin nykyisen kiinnitysruutusarakkeen nuolenpää ja sitten <b>Tyhjennä kiinnitysruutu</b>. Huomautus: Et voi poistaa tätä kiinnitysruutua.|Kiinnitysruutu määrittää aina vasemmalla puolella näkyvät sarakkeet; nämä sarakkeet näkyvät myös vaakasuoraan vieritettäessä.|  
 |Kentän ohittaminen Enter-näppäintä painettaessa|Valitse ensin kentän vieressä oleva nuolenpää tai sarakkeen otsikko luettelossa ja valitse sitten **Sulje pois pikatapahtumasta**. <br /><br /> Jos tämä vaihtoehto ei ole näkyvissä, kenttä on jo määritetty ohitettavaksi. Voit siinä tapauksessa lopettaa kentän ohittamisen valitsemalla **Sisällytä pikatapahtumaan**. |Lisätietoja on kohdassa [Tietojen syöttämisen helpottaminen pikatapahtuman avulla](ui-enter-data.md#QuickEntry)|

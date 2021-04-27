@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 92c147e8fce8add20ec9b4878a1ca9a51cd32d1e
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: f7222fc8284c24d44c0eef55d4a99660271e9d19
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5380328"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5782233"
 ---
 # <a name="posting-depreciation-differences"></a>Poistoerojen kirjaaminen
 Suomessa käyttöomaisuuden poistoissa käytetään yleisesti seuraavia poistotapoja:  

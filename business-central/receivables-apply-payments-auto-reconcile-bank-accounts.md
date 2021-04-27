@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e89a21ddecdce2bab0da44c447612a24d2173ec7
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 6b1009c028bab2204c359e09a69472ecd3ecbf42
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5394122"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5781811"
 ---
 # <a name="applying-payments-automatically-and-reconciling-bank-accounts"></a>Maksujen kohdistaminen automaattisesti ja pankkitilien täsmäyttäminen
 Pankin, myyntisaamisten ja ostovelkojen tilit on täsmäytettävä säännöllisesti kohdistamalla pankkiin tallennetut maksut niiden vastaaviin avoimiin (maksamattomiin) laskuihin ja hyvityslaskuihin tai muihin avoimiin tapahtumiin [!INCLUDE[prod_short](includes/prod_short.md)]issa.  
@@ -29,6 +29,9 @@ Logiikka, joka ohjaa sitä, miten maksuteksti täsmäytetään automaattisesti t
 Voit täsmäyttää pankkitilejä myös niin, että maksuja ei kohdisteta samanaikaisesti. Voit tehdä tämän **Pankkitilin täsmäytys** -sivulla. Lisätietoja on kohdassa [Pankkitilien täsmäyttäminen](bank-how-reconcile-bank-accounts-separately.md).   
 
 Voit tuoda pankin tiliotteet pankkisyötteenä määrittämällä ensin Envestnet Yodlee Bank Feeds -palvelun ja linkittämällä sitten pankkitilit liittyviin verkkopankkitileihin. Lisätietoja on kohdassa [Envestnet Yodlee Bank Feeds -palvelun määrittäminen](bank-how-setup-bank-statement-service.md).  
+
+> [!TIP]
+> Tiliotetiedostoja voi tuoda myös pilkuin tai puolipistein erotellussa muodossa (.CSV). Tiliotteen tuontimuodot voidaan määrittää ja muoto liittää pankkitiliin käyttämällä asetusten ohjattua määritystä **Määritä tiliotetiedoston tuontimuoto**. Näitä muotoja voi sitten käyttää, kun tiliotteita tuodaan **Pankkitilin täsmäytys** -sivulla.
 
 Vaihtoehtoisesti voit käyttää AMC Banking 365 Fundamentals -laajennusta muuntamaan tiliotteen tiedostomuodosta riippumatta tietovirraksi, jonka voit tämän jälkeen tuoda [!INCLUDE[prod_short](includes/prod_short.md)]iin. Lisätietoja on kohdassa [AMC Banking 365 Fundamentals -laajennuksen käyttäminen](ui-extensions-amc-banking.md).  
 

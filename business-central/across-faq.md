@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2e446b3e5415299954098abb92088277b7da2bbc
-ms.sourcegitcommit: 026484766988b8727649c02fc8990b0646999bf1
+ms.openlocfilehash: afd64672bac5af39bd5377db417a36ec0ea39fe0
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5498560"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776145"
 ---
 # <a name="frequently-asked-questions-about-using-business-central"></a>Usein kysyttyjä kysymyksiä Business Centralin käyttämisestä
 
@@ -44,8 +44,9 @@ Tämä koskee [!INCLUDE [prod_short](includes/prod_short.md)] online - ja on-pre
 
 Jos toiminto on lisäksi julkaistu laajennuksena AppSourcessa, laajennuksen julkistamisesta kuluu hetki, ennen kuin se on saatavilla AppSourcessa. Tämä koskee vain [!INCLUDE [prod_short](includes/prod_short.md)] online -versiota.  
 
-## <a name="are-there-any-differences-between-an-on-premises-deployment-and-the-cloud-version-of-business-central"></a>Onko Business Central -sovelluksen paikallisessa käyttöönotossa ja pilviversiossa eroja?
-Kyllä. Jotkin pilvipohjaiset toiminnot toimivat paikallisesti tietyissä tapauksissa. Joitakin taas ei tueta lainkaan. Lisätietoja on kohdassa [Ominaisuudet, joita ei ole otettu käyttöön Dynamics 365 Business Central -sovelluksen paikallisissa käyttöönotoissa](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises).
+## <a name="are-there-any-differences-between-an-on-premises-deployment-and-business-central-online"></a>Onko Business Centralin paikallisessa ympäristössä ja verkkoversiossa eroja?
+
+Kyllä. [!INCLUDE [prod_short](includes/prod_short.md)] on optimoitu verkkoympäristöön, ja joitakin ominaisuuksia voidaan suorittaa paikallisesti vain tietyissä tilanteissa, kun taas toisia ei tueta lainkaan. Lisätietoja on kohdassa [Ominaisuudet, joita ei ole otettu käyttöön Dynamics 365 Business Centralin paikallisissa ympäristöissä](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises) (saatavana vain englanniksi).
 
 ## <a name="can-i-get-training-in-prod_short"></a>Saanko [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen käyttöä koskevaa koulutusta?
 Kyllä saat. Maksutonta eLearning-sisältöä voi etsiä [Microsoft Learn sivustossa](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs). Voit pyytää lisäkoulutusta myös jälleenmyyntikumppanilta. Jos et tiedä kuka se on, katso [Miten löydän jälleenmyyjäpartnerin?](#findpartner) osassa.  
@@ -60,12 +61,23 @@ Lisätietoja Microsoftin tarjoamasta Dynamics 365 -koulutuksesta on [Microsoft D
 
 Lisätietoja on [Ohje ja tuki](product-help-and-support.md) -osassa ja [Miten löydän jälleenmyyjäpartnerin?](#findpartner) -osassa.  
 
-## <a name="why-does-help-describe-functionality-that-i-cannot-access"></a>Miksi ohjeessa kerrotaan toiminnoista, joita en voi käyttää?
-Jos **Yrityksen tiedot** -sivun käyttökokemusasetukseksi on määritetty **Essential**, valmistuksen ja huoltohallinnan toimintojen käyttöliittymän elementit eivät näy, koska ne vaativat **Premium**-käyttökokemuksen. Seuraava tekstimuistiinpano lisätään näiden toimintoalueiden ylätason ohjeaiheisiin. Lisätietoja on kohdassa [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md).
-
 ## <a name="where-is-the-save-button"></a>Missä tallennuspainike on?
 
-Sivuilla ei ole muista ohjelmista tuttua *tallennuspainiketta*. [!INCLUDE[prod_short](includes/prod_short.md)]issa kenttään tehdyt muutokset tallennetaan automaattisesti heti, kun siirryt seuraavaan kenttään tai suljet sivun, mikäli virheitä ei ole. Kun teet muutoksia kenttään tai siirryt toiseen kenttään, sivun oikeassa yläkulmassa on teksti **Tallennetaan**, joka tilalle vaihtuu nopeasti teksti **Tallennettu**, jos virheitä ei ole. Jos tapahtuu virhe, tekstiksi tulee **Ei tallennettu**.
+Sivuilla ei ole muista ohjelmista tuttua *tallennuspainiketta*. [!INCLUDE[prod_short](includes/prod_short.md)]issa kenttään tehdyt muutokset tallennetaan automaattisesti heti, kun siirryt seuraavaan kenttään tai suljet sivun, mikäli virheitä ei ole. Kun teet muutoksia kenttään tai siirryt toiseen kenttään, sivun oikeassa yläkulmassa on teksti **Tallennetaan**, joka tilalle vaihtuu nopeasti teksti **Tallennettu**, jos virheitä ei ole. Jos tapahtuu virhe, tekstiksi tulee **Ei tallennettu**.  
+
+## <a name="where-do-i-find-that-line-number"></a>Mistä löydän tämän rivinumeron?
+
+Esimerkiksi myyntitilauksen tai ostolaskun asiakirjat koostuvat otsikoista ja riveistä. Kullakin rivillä on numero, jota [!INCLUDE [prod_short](includes/prod_short.md)] käyttää tämän rivin tunnistamiseen. Tämän seurauksena näyttöön voi tulla esimerkiksi varoitus- tai virhesanoma, jonka mukaan rivillä numero 1000 on jotain vikaa. Rivi numerot on piilotettu [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelman oletusversiossa. Jos haluat nähdä rivinumerot, sinun täytyy mukauttaa nykyistä sivua ja lisätä **Rivinro.** -kentässä. Lisätietoja on kohdassa [Työtilan mukauttaminen](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).  
+
+
+## <a name="why-does-help-describe-functionality-that-i-cannot-access"></a>Miksi ohjeessa kerrotaan toiminnoista, joita en voi käyttää?
+Jos **Yrityksen tiedot** -sivun käyttökokemusasetukseksi on määritetty **Essential**, valmistuksen ja huoltohallinnan toimintojen käyttöliittymän elementit eivät näy, koska ne vaativat **Premium**-käyttökokemuksen. Seuraava tekstimuistiinpano lisätään näiden toimintoalueiden ylätason ohjeaiheisiin. Lisätietoja on kohdassa [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md).  
+
+## <a name="why-is-new-information-not-available-in-my-language"></a>Miksi uudet tiedot eivät ole saatavana kielelläni?
+
+Liiketoimintatoimintojen sisältöä julkaistaan useilla kielillä docs.microsoft.com-sivustossa. Sisältö on kirjoitetaan englanniksi ja julkaistaan URL-osoitteissa, joiden kielikoodi on *en-us*. Englanniksi kirjoitetut uudet tiedot lähetetään sitten käännettäviksi tuetuille kielille. Tämän vuoksi uusi sisältö ei ole luettavissa omalla kielellä jopa 4 viikkoon.  
+
+Tiedostamme, että tämä voi aiheuttaa ongelmia, ja kannustamme etsimään tietoja englanninkielisestä sisällöstä, jos sitä ei löydy omalla kielellä.  
 
 ## <a name="what-email-address-can-i-use-with-prod_short-online"></a><a name="email"></a>Mitä sähköpostiosoitetta käytetään [!INCLUDE[prod_short](includes/prod_short.md)] onlinen kanssa?
 
@@ -80,7 +92,7 @@ Ei. Mutta jos haluat käyttää Microsoft 365:een täysin integroitua [!INCLUDE[
 
 Jos kirjaudut jollain muulla kuin Microsoft 365 -työtilillä (kuten joe@mysolution.com) ja sinulla on Microsoft 365 -tilaus, voit liittää toimialueen (*mysolution.com*) Microsoft 365 -tilaukseen. Lisätietoja on ohjeiheessa [Mikä on toimialue?](/microsoft-365/admin/get-help-with-domains/what-is-a-domain?view=o365-worldwide&preserve-view=true) Microsoft 365 -sisällössä.  
 
-Jos sinulla ei ole Microsoft 365 -tilausta etkä halua ostaa sitä, valmistelemme sinulle kirjautumisesi yhteydessä uuden Azure Active Directory -vuokraajan, jonka avulla voit käyttää Azure-portaalia ja sen kautta edistyneitä järjestelmätyökaluja.  
+Jos sinulla ei ole Microsoft 365 -tilausta etkä halua ostaa sitä, kirjautumisen yhteydessä valmistellaan uuden Azure Active Directory -vuokraajan, jonka avulla voi käyttää edistyneitä hallintatyökaluja Azure-portaalissa.  
 
 ## <a name="what-is-the-integration-with-microsoft-365-about"></a>Mitä integroiminen Microsoft 365:n kanssa tarkoittaa?
 [!INCLUDE[prod_short](includes/prod_short.md)] -online on täysin integroitu Microsoft 365:een, joten voit siirtyä vapaasti Microsoft 365 -sovellusten ja [!INCLUDE[prod_short](includes/prod_short.md)]in välillä sovellusten käynnistysohjelman avulla. Voit esimerkiksi avata [!INCLUDE[prod_short](includes/prod_short.md)]in tietoja Excelissä, tulostaa raportteja Wordin avulla ja käyttää [!INCLUDE[prod_short](includes/prod_short.md)]in tietoja Outlookissa. Lisätietoja on kohdassa [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen yrityssähköpostina Outlookissa](admin-outlook.md).  
@@ -104,7 +116,7 @@ Selitys on hieman monimutkainen, mutta ilmeisesti järjestelmänvalvoja ei vaiht
 Kyllä voit. Huomaa kuitenkin, että tietosi poistetaan tai säilytetään sen perusteella, miten rekisteröidyit [!INCLUDE[prod_short](includes/prod_short.md)]iin. Lisätietoja on kohdassa [[!INCLUDE[prod_short](includes/prod_short.md)] -tilauksen peruuttaminen](admin-cancel.md).  
 
 ## <a name="can-i-use-multi-factor-authentication"></a>Voinko käyttää monimenetelmäistä todentamista?
-Kyllä. Jos käytät sitä, tarvitset sovelluksen salasanan, jotta voit lähettää sähköpostiviestejä. Sovelluksen salasanoilla sovellus tai laite voi käyttää sähköpostitiliä. Sovelluksen salasanan hakeminen vaihtelee sähköpostipalvelun mukaan. Pyydä lisätietoja palveluntarjoajalta. Jos esimerkiksi käytä Outlookia, katso [Microsoft 365:n monimenetelmäinen todentaminen](https://go.microsoft.com/fwlink/?linkid=2082543).  
+Kyllä. Jos käytät sitä, tarvitset sovelluksen salasanan, jotta voit lähettää sähköpostiviestejä. Sovelluksen salasanoilla sovellus tai laite voi käyttää sähköpostitiliä. Sovelluksen salasanan hakeminen vaihtelee sähköpostipalvelun mukaan. Pyydä lisätietoja palveluntarjoajalta. Jos käytössä on esimerkiksi Outlook, lisätietoja on kohdassa [Microsoft 365:n monimenetelmäinen todentaminen](/microsoft-365/admin/security-and-compliance/multi-factor-authentication-microsoft-365).  
 
 ## <a name="how-do-i-find-a-reselling-partner"></a><a name="findpartner"></a>Miten löydän jälleenmyyjäkumppanin?
 
@@ -116,23 +128,13 @@ Jos haluat opastusta Microsoftilta, ota yhteyttä [Microsoftin myyntitiimiin](ht
 
 Jälleenmyyjäkumppanisi voi myös antaa teknistä tukea sinulle. Lisätietoja on kohdassa [Resurssit ohjeelle ja tuelle](product-help-and-support.md).  
 
-## <a name="where-do-i-find-that-line-number"></a>Mistä löydän tämän rivinumeron?
-
-Esimerkiksi myyntitilauksen tai ostolaskun asiakirjat koostuvat otsikoista ja riveistä. Kullakin rivillä on numero, jota [!INCLUDE [prod_short](includes/prod_short.md)] käyttää tämän rivin tunnistamiseen. Tämän seurauksena näyttöön voi tulla esimerkiksi varoitus- tai virhesanoma, jonka mukaan rivillä numero 1000 on jotain vikaa. Rivi numerot on piilotettu [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelman oletusversiossa. Jos haluat nähdä rivinumerot, sinun täytyy mukauttaa nykyistä sivua ja lisätä **Rivinro.** -kentässä. Lisätietoja on kohdassa [Työtilan mukauttaminen](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).  
-
-## <a name="why-is-new-information-not-available-in-my-language"></a>Miksi uudet tiedot eivät ole saatavana kielelläni?
-
-Liiketoimintatoimintojen sisältöä julkaistaan useilla kielillä docs.microsoft.com-sivustossa. Sisältö on kirjoitetaan englanniksi ja julkaistaan URL-osoitteissa, joiden kielikoodi on *en-us*. Englanniksi kirjoitetut uudet tiedot lähetetään sitten käännettäviksi tuetuille kielille. Tämän vuoksi uusi sisältö ei ole luettavissa omalla kielellä jopa 4 viikkoon.  
-
-Tiedostamme, että tämä voi aiheuttaa ongelmia, ja kannustamme etsimään tietoja englanninkielisestä sisällöstä, jos sitä ei löydy omalla kielellä.  
-
 ## <a name="is-the-windows-client-supported"></a>Tuetaanko Windows-työasemaohjelmaa?
 
 [!INCLUDE[prod_short](includes/prod_short.md)]-ohjelman ensimmäiset versiot sisälsivät asennetun asiakkaan, joka on johdettu Microsoft Dynamics NAV -ohjelmasta. Tämä vanha komponentti, johon viitataan nimellä "Windows-asiakasohjelma", ei enää ole saatavilla vuoden 2019 2. julkaisuaallon [!INCLUDE[prod_short](includes/prod_short.md)] -versiosta lähtien. Lisätietoja on ohjeaiheessa [Windows-työasemaohjelman ja Business Centralin usein kysytyt kysymykset](/dynamics365/business-central/dev-itpro/faq-win-cli).
 
 ## <a name="see-also"></a>Katso myös
 
-[Käytön aloittaminen](product-get-started.md)  
+[Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 [Kerro, mitä haluat tehdä -toiminnon usein kysytyt kysymykset](ui-search-faq.md)  
 [Usein kysyttyjen kysymysten haku ja suodatus](ui-search-filter-faq.md)  
 [Luettelonäkymien usein kysytyt kysymykset](ui-views-faq.md)  

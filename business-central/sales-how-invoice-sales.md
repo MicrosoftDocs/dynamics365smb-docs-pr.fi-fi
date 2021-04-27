@@ -1,5 +1,5 @@
 ---
-title: Myyntilaskun tai myyntitilauksen luominen
+title: Myynnin laskutus
 description: Tässä ohjeaiheessa kerrotaan, miten luodaan kauppakirja tai myyntilasku tai myyntitilaus kirjaamaan asiakkaan kanssa tehty sopimus tuotteiden myynnistä tietyin ehdoin.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
-ms.date: 01/25/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 625259457528ed79b863604e65a55ff63a879ec3
-ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
+ms.openlocfilehash: c43d72e3e87c5a9a9c8512c687a480f3bcd37a43
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5470410"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5778795"
 ---
 # <a name="invoice-sales"></a>Myynnin laskutus
 
@@ -31,23 +31,20 @@ Kaikilta muilta osin myyntitilaukset ja myyntilaskut toimivat samalla tavalla. L
 
 Voit neuvotella asiakkaan kanssa luomalla ensin myyntitarjoukseen, jonka voit muuntaa myyntilaskuksi, kun hyväksyt myynnin. Lisätietoja on kohdassa [Myyntitarjousten tekeminen](sales-how-make-offers.md).
 
+## <a name="create-sales-invoices"></a>Luo myyntilaskut
+
 Jos asiakas päättää tehdä oston, luo liittyvä määrä- ja arvotapahtuma kirjaamalla myyntilasku. Kun kirjaat myyntilaskun, voit myös lähettää asiakirjan PDF-liitteenä sähköpostitse. Sähköpostin perusteksti voidaan esitäyttää laskun ja maksun tietojen yhteenvedolla. Tietoihin voi kuulua esimerkiksi PayPal-linkki. Lisätietoja on kohdassa [Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md). Kun asiakas maksaa laskun, voit rekisteröidä maksun eri tavoilla organisaation koosta ja ensisijaisista työnkuluista riippuen. Lisätietoja on [Maksujen rekisteröiminen](#registering-payments) -osassa.  
 
-
-Voit helposti korjata tai peruuttaa kirjatun myyntilaskun ennen kuin se on maksettu. Tästä on hyötyä esimerkiksi, jos haluat korjata kirjoitusvirheen tai jos asiakas pyytää muutosta prosessin alkuvaiheessa. Lisätietoja on kohdassa [Maksamattomien myyntilaskujen korjaaminen tai peruuttaminen](sales-how-correct-cancel-sales-invoice.md). Jos kirjattu myyntilasku maksetaan, sinun on luotava myyntihyvityslasku kaupan peruuttamiseksi. Lisätietoja on kohdassa [Myyntipalautusten tai -peruutusten käsitteleminen](sales-how-process-sales-returns-cancellations.md).
-
-Nimikkeen kortin tyyppi voi olla **Varasto**, **Huolto** ja **Muu kuin huolto**. Se määrittää, onko nimike fyysisen varasto yksikkö, työn aikayksikkö vai fyysinen yksikkö, jota ei säilytetä varastossa. Lisätietoja on ohjeaiheessa [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md). Myyntilaskuprosessi on sama kaikille kolmelle nimiketyypeille.
+Nimikkeen korttien tyyppi voi olla **Varasto**, **Huolto** ja **Muu kuin varasto**. Se määrittää, onko nimike fyysinen varastoyksikkö, työn aikayksikkö vai fyysinen yksikkö, jota ei säilytetä varastossa. Lisätietoja on ohjeaiheessa [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md). Myyntilaskuprosessi on sama kaikille kolmelle nimiketyypeille.
 
 Voit täyttää myyntilaskun asiakkaan kentät kahdella tavalla sen mukaan, onko asiakas jo rekisteröity. Katso vaihe 2 seuraavassa menettelyssä.
 
-## <a name="to-create-a-sales-invoice"></a>Myyntilaskujen luominen
+### <a name="to-create-a-sales-invoice"></a>Myyntilaskujen luominen
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Myyntilaskut** ja valitse sitten liittyvä linkki.  
 2. Syötä **Asiakas**-kenttään nykyisen asiakkaan nimi.
 
-    Muut **Myyntilasku**-sivun kentät sisältävät vakiotietoja valitusta asiakkaasta.  
-
-    Jos asiakasta ei ole rekisteröity, toimi seuraavasti:
+   Muut **Myyntilasku**-sivun kentät sisältävät vakiotietoja valitusta asiakkaasta. Jos asiakasta ei ole rekisteröity, toimi seuraavasti:
 
     1. Syötä **Asiakas**-kenttään uuden asiakkaan nimi.
     2. Valitse uuden asiakkaan rekisteröimisen valintaikkunassa **Kyllä**-painike.
@@ -80,18 +77,16 @@ Voit täyttää myyntilaskun asiakkaan kentät kahdella tavalla sen mukaan, onko
     **Rivisumma**-kentän arvo lasketaan *Yksikköhinta* x *Määrä*.  
 
     Hinta ja rivin summat ilmaistaan ALV:n kanssa tai ilman sitä sen mukaan, mitä valitsit **Hinnat sisältävät verot** -kenttään asiakkaan kortissa.  
-7. Jos haluat antaa alennuksen myyntirivillä, anna prosentti **Rivialennus-%**-kentässä. **Rivisumma**-kentän arvo päivittyy vastaavasti.  
+7. Jos haluat antaa alennuksen, anna prosentti **Rivialennus-%**-kentässä. **Rivisumma**-kentän arvo päivittyy vastaavasti.  
 
-    Jos nimikkeiden erikoishinnat on määritetty asiakkaan tai nimikkeen kortissa, myyntiriviin hinta ja summa päivittyvät automaattisesti, jos sovitut hinnan ehdot täyttyvät. Lisätietoja on kohdassa [Myyntihinnan, alennuksen ja maksusopimusten tallentaminen](sales-how-record-sales-price-discount-payment-agreements.md).  
+    Jos nimikkeiden erikoishinnat on määritetty asiakkaan tai nimikkeen kortin **Myyntihinnat ja myyntirivien alennukset**-pikavälilehdellä, myyntiriviin hinta ja summa päivittyvät automaattisesti, jos sovitut hinnan ehdot täyttyvät. Lisätietoja on kohdassa [Myyntihinnan, alennuksen ja maksusopimusten tallentaminen](sales-how-record-sales-price-discount-payment-agreements.md).  
 8. Toista vaiheet 9–12 jokaiselle tuotteelle tai kululle, jonka haluat laskuttaa asiakkaalta.  
 
     Rivien alla olevat summakentät päivitetään automaattisesti aina, kun luot tai muokkaat rivejä ja näytät summat, jotka kirjataan päiväkirjoihin.
 
     > [!NOTE]
-    > Hyvin harvoin kirjatut summat ovat erilaisia kuin summakenttien summat. Tämä johtuu yleensä arvonlisäveroon liittyvistä pyöristyslaskelmista.
-    >
-    > Voit tarkistaa kirjattavat summat käyttämällä **Tilastot**-sivua. Sivulla otetaan huomioon pyöristyslaskelmat. Jos valitset **Vapauta**-toiminnon, summakentät päivitetään niin, että ne sisältävät pyöristyslaskelmat.
-9. Valinnaisesti voit syöttää **Laskun alennussumma** -kenttään summan, joka vähennetään **Yhteensä sis. ALV:n** -kentässä olevasta arvosta.
+    > Hyvin harvoin kirjatut summat ovat erilaisia kuin summakenttien summat. Tämä johtuu yleensä arvonlisäveroon liittyvistä pyöristyslaskelmista.<br /><br />Voit tarkistaa kirjattavat summat käyttämällä **Tilastot**-sivua. Sivulla otetaan huomioon pyöristyslaskelmat. Jos valitset **Vapauta**-toiminnon, summakentät päivitetään niin, että ne sisältävät pyöristyslaskelmat.
+9. Syötä **Laskun alennussumma** -kenttään summa, joka vähennetään **Yhteensä sis. ALV:n** -kentässä olevasta arvosta.
 
     Jos asiakkaalle on määritetty laskualennukset, määritetty prosenttiluvun arvo lisätään automaattisesti **Asiakkaan laskun alennus-%** -kenttään, jos ehdot täyttyvät. Liittyvä summa lisätään **Laskun alennussumma ilman ALV:a** -kenttään. Lisätietoja on kohdassa [Myyntihinnan, alennuksen ja maksusopimusten tallentaminen](sales-how-record-sales-price-discount-payment-agreements.md).  
 10. Kun myyntilaskun rivit ovat valmiit, valitse **Kirjaa ja lähetä** -toiminto.  
@@ -103,6 +98,14 @@ Nyt järjestelmässä luodaan liittyvä nimike ja asiakastapahtumat. Myyntilasku
 ### <a name="calculating-invoice-discounts-on-sales"></a>Myynnin laskualennusten laskenta
 
 [!INCLUDE [sales-invoice-discounts](includes/sales-invoice-discounts.md)]
+
+## <a name="posted-invoices"></a>Kirjatut laskut
+
+[!INCLUDE [posted-invoices](includes/posted-invoices.md)]
+
+Voit helposti korjata tai peruuttaa kirjatun myyntilaskun ennen kuin se on maksettu. Tästä on hyötyä esimerkiksi, jos haluat korjata kirjoitusvirheen tai jos asiakas pyytää muutosta prosessin alkuvaiheessa. Lisätietoja on kohdassa [Maksamattomien myyntilaskujen korjaaminen tai peruuttaminen](sales-how-correct-cancel-sales-invoice.md). Jos kirjattu myyntilasku maksetaan, sinun on luotava myyntihyvityslasku kaupan peruuttamiseksi. Lisätietoja on kohdassa [Myyntipalautusten tai -peruutusten käsitteleminen](sales-how-process-sales-returns-cancellations.md).  
+
+[Avaa **Kirjatut myyntilaskut** -luettelo](https://businesscentral.dynamics.com/?page=143) [!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksessa.
 
 ## <a name="registering-payments"></a>Maksujen rekisteröiminen
 

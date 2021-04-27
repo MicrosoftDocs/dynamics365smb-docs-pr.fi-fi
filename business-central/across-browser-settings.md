@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, web client, troubleshooting, errors
-ms.date: 01/08/2021
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: b5083735be31b635cb3fc3ce404e7f182d04640f
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 90625ed6d5664efc9605aeacbc66d8174e55799d
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5384972"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776295"
 ---
 # <a name="setting-up-and-troubleshooting-your-browser-to-work-with-business-central-web-client"></a>Selaimen määrittäminen ja vianetsintä Business Central -verkkoasiakkaan kanssa työskentelyä varten
 
@@ -25,7 +25,7 @@ Artikkelissa on yksityiskohtaisia tietoja Microsoft Edgen määrityksestä, mutt
 
 ## <a name="use-a-supported-browser"></a>Käytä tuettua selainta
 
-Varmista, että käytät jotakin tuetuista selaimista. Lisätietoja: [Business Central -sovelluksen käytön vähimmäisvaatimukset](product-requirements.md#recommended-browsers).  
+Varmista, että käytät jotakin tuetuista selaimista. Lisätietoja on kohdassa [Business Centralin käytön vähimmäisvaatimukset](product-requirements.md#browsers).  
 
 ## <a name="allow-javascript-from-business-central"></a>Salli JavaScript Business Centralista
 

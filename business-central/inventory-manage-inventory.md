@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ce17373d3355c795c8a3c8d4c70aea904432b80e
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: f72ef570151babaa9bf32150c214e82374ddd0ec
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5389347"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780755"
 ---
 # <a name="inventory"></a>Vaihto-omaisuus
 Jokaiselle fyysiselle tuotteelle, jolla käydään kauppaa, on luotava **Varasto**-tyyppinen nimikekortti. Asiakkaille tarjottavat nimikkeet, joita ei säilytetä varastossa, voidaan rekisteröidä luettelonimikkeiksi. Ne voidaan muuntaa varastonimikkeiksi tarvittaessa. Voit suurentaa tai pienentää varastossa olevien nimikkeiden määrää kirjaamalla arvon suoraan nimiketapahtumiin esimerkiksi fyysisen määrän jälkeen tai jättämällä ostoja kirjaamatta.
@@ -51,7 +51,6 @@ Seuraavassa taulukossa on esitetty liittyviä tehtäviä.
 |Näytä nimikkeiden saatavuus sijainnin, jakson tai myynti- tai ostotapahtuman mukaan tai sen mukaan, miten niitä käytetään tuotannon tuoterakenteessa.|[Nimikkeiden saatavuuden tarkasteleminen](inventory-how-availability-overview.md)|
 |Voit siirtää varastonimikkeitä sijaintien välillä siirtotilausten, varastotapahtumien hallinnan tai nimikkeen uudelleenluokituspäiväkirjan avulla.|[Varastonimikkeiden siirtäminen sijaintien välillä](inventory-how-transfer-between-locations.md)|
 |Varaa varaston nimikkeitä tai saapuvia nimikkeitä myyntitilauksiin, ostotilauksiin, huoltotilauksiin, kokoonpanotilauksiin tai tuotantotilauksiin.|[Nimikkeiden varaaminen](inventory-how-to-reserve-items.md)|
-|Määritä toimittajan tai asiakkaan oma nimikkeen kuvaus, jotta voit lisätä heidän nimikkeen kuvauksensa helposti kaupankäyntiasiakirjoihin.|[Nimikkeen viittausten käyttäminen](inventory-how-use-item-cross-refs.md)|
 |Määritä sarja- tai eränumerot lähtevän tai saapuvan asiakirjan tai päiväkirjan riville esimerkiksi silloin, kun nimikkeitä on seurattava tuotepalautusten vuoksi.|[Sarja- ja eränumeroiden käsitteleminen](inventory-how-work-item-tracking.md)|
 |Määritä nimikkeen kortissa toimittajan tai asiakkaan oma nimikkeen kuvaus, jotta voit lisätä heidän nimikkeen kuvauksensa nopeasti kaupankäyntiasiakirjoihin.|[Nimikkeen viittausten käyttäminen](inventory-how-use-item-cross-refs.md)|
 |Etsi esimerkiksi palautustilanteissa, missä sarja- tai eränumeroita käytettiin toimitusketjussa.|[Nimikeseurannan nimikkeiden jäljittäminen](inventory-how-to-trace-item-tracked-items.md)|

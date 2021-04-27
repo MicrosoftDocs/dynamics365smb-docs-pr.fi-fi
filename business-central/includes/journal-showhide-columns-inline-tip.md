@@ -2,13 +2,13 @@
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: include
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 816379d546c291752465dfab2835541a6c6c0ceb
-ms.sourcegitcommit: 01524e0ec6368b6c019c5ac1816e202d52ab1fe0
+ms.openlocfilehash: c08f343fa75c31319ba5acb6be93b2667fdf3df1
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4400619"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5782403"
 ---
 Yleisessä päiväkirjassa on oletusarvoisesti vain rajoitettu määrä kenttiä päiväkirjarivillä. Jos haluat nähdä lisäkenttiä, kuten **Tilityyppi**-kentän, valitse **Näytä enemmän sarakkeita** -toiminnon. Jos haluat piilottaa lisäkentät uudelleen, valitse **Näytä vähemmän sarakkeita** -toiminto. Kun sarakkeita näkyy vähemmän, samaa kirjauspäivämäärää käytetään kaikilla riveillä. Jos haluat, että samalla kirjauskansiotapahtumalla on useita kirjauspäivämääriä, valitse **Näytä enemmän sarakkeita** -toiminto.

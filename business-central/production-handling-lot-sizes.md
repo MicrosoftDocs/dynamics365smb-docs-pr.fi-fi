@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 4d119b5ea35ba41d658226f108f9bd14014ef644
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: ef3863a372db074d4be3a7e9b72cfda5f47279d1
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5376735"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5779380"
 ---
 # <a name="handling-lot-sizes-in-production"></a>Eräkokojen käsitteleminen tuotannossa
 Määrän osalta tuotantotoiminnossa tuotettujen nimikkeiden määrä ei välttämättä korreloi niiden myynnin kanssa. Voit esimerkiksi tuottaa satoja nimikkeitä yksittäisessä erässä, mutta myydä jokaisen nimikkeen yksittäin. Kun tuotantoreitit ja tuoterakenteet määritetään, on olemassa muutamia asioita, joita kannattaa miettiä eräkokojen osalta. Tässä ohjeaiheessa kuvataan, miten eräkoot vaikuttavat kustannusten laskentaan ja resurssien suunnitteluun.

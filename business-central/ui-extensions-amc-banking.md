@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: bank, format, data
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 19331b3897c6ca0ec848298a105729ecda1d3a87
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: e9c7e20f73b154eeb4c9f47d9100222e0723c42f
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5377010"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773503"
 ---
 # <a name="using-the-amc-banking-365-fundamentals-extension"></a>AMC Banking 365 Fundamentals -laajennuksen käyttäminen
-AMC Banking 365 Fundamentals -laajennus helpottaa ja tarkentaa tietojen lähettämistä pankkeihin. Laajennus yhdistää [!INCLUDE[prod_short](includes/prod_short.md)]:n ja AMC Banking 365 Fundamentalsin Microsoft Dynamics 365 Business Central -palveluun, joka voi muuntaa pankkitietoja [!INCLUDE[prod_short](includes/prod_short.md)]:sta muodoiksi, joita tarvitaan yli 600 pankissa ympäri maailmaa. Tämä helpottaa esimerkiksi maksujen ja hyvitysten siirtämistä toimittajille syöttämällä maksut [!INCLUDE[prod_short](includes/prod_short.md)]-ohjelmaan ja lataamalla ne sitten pankkiin. Muodot voivat myös tasoittaa pankin täsmäytysprosesseja. Lisätietoja on kohdassa [AMC Banking Microsoft Dynamics 365 Business Centralille](https://amcbanking.com/landing365bc/help).
+AMC Banking 365 Fundamentals -laajennus helpottaa ja tarkentaa tietojen lähettämistä pankkeihin. Laajennus yhdistää [!INCLUDE[prod_short](includes/prod_short.md)]:n ja AMC Banking 365 Fundamentalsin Microsoft Dynamics 365 Business Central -palveluun, joka voi muuntaa pankkitietoja [!INCLUDE[prod_short](includes/prod_short.md)]:sta muodoiksi, joita tarvitaan yli 600 pankissa ympäri maailmaa. Tämä helpottaa esimerkiksi maksujen ja hyvitysten siirtämistä toimittajille syöttämällä maksut [!INCLUDE[prod_short](includes/prod_short.md)]-ohjelmaan ja lataamalla ne sitten pankkiin. Muodot voivat myös tasoittaa pankin täsmäytysprosesseja. Lisätietoja on kohdassa [AMC Banking Microsoft Dynamics 365 Business Centralille](https://www.amcbanking.com/bc-fundamentals/).
 
 > [!Note]
 > AMC Banking on rakentanut lisälaajennuksia, jotka toimivat [!INCLUDE[prod_short](includes/prod_short.md)]:n kanssa. Tässä ohjeaiheessa kuvataan vain peruslaajennus.
@@ -85,8 +85,8 @@ Tämän laajennuksen käyttäminen on vain asia, jossa tiedot viedään **Maksup
    [!INCLUDE[prod_short](includes/prod_short.md)] luo uuden maksun täsmäytyskirjauskansion, joka sisältää tiedoston tiedot. Lisätietoja on kohdassa [Maksujen kohdistaminen automaattisesti ja pankkitilien täsmäyttäminen](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 ## <a name="see-also"></a>Katso myös
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md)  
-[Käytön aloittaminen](product-get-started.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)]in mukauttaminen laajennusten avulla](ui-extensions.md)  
+[Valmistautuminen liiketoimintaan](ui-get-ready-business.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

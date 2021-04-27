@@ -7,14 +7,14 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 62eeab6d03f0fde0b1f55f414d48c2d3cd3f573c
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 877891affde9b1719c30bc265cd0c08bf14824b0
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5380200"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5770514"
 ---
 # <a name="set-up-general-fixed-assets-information"></a>Käyttöomaisuuden yleisten tietojen määrittäminen
 Ennen kuin voit hallita käyttöomaisuuseriä, sinun on määritettävä oletusarvoiset KP-tilit, kohdistustunnukset, päiväkirjamallit ja -erät käyttöomaisuuden kirjaamista ja uudelleenluokittelua varten. Voit luokitella käyttöomaisuuserät luokkiin, kuten aineellisiin ja aineettomiin.
@@ -121,7 +121,7 @@ Jos käyttöomaisuutta ei ole integroitu käyttöomaisuuden kanssa, ohita työva
 [Käyttöomaisuuden määrittäminen](fa-setup.md)  
 [Käyttöomaisuus](fa-manage.md)  
 [Rahoitus](finance.md)  
-[Käytön aloittaminen](product-get-started.md)  
+[Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
 
 
