@@ -2,13 +2,13 @@
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: include
-ms.date: 01/05/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: acbe4a7ca4fbce3e7bcffe2bf21ff7b521e0206a
-ms.sourcegitcommit: cdba82235c0c07497bd04b9bd5134ef245d92c09
+ms.openlocfilehash: 2925fe74fd10cb991cb523c972cefa22109f8a64
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "4838504"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5782011"
 ---
-<span data-ttu-id="725cd-101">Jotta kokoonpanon tai tuotannon tuoterakenteen yksikkökustannus voidaan laskea, ylätason kohteen ja sen osien nimikkeiden on käytettävä *Vakio*-arvostusmenetelmää.</span><span class="sxs-lookup"><span data-stu-id="725cd-101">To calculate the unit cost of an assembly or production BOM, the parent item and its component items must use the *Standard* costing method.</span></span> <span data-ttu-id="725cd-102">Kaikki tuoterakenteen resurssit kootaan, jos niiden yksikkökustannus on resurssikortissa määritetyn mukainen.</span><span class="sxs-lookup"><span data-stu-id="725cd-102">Any resources in the BOM are rolled up if they have a unit cost that is defined on the resource card.</span></span>
+<span data-ttu-id="fd4f1-101">Jotta kokoonpanon tai tuotannon tuoterakenteen yksikkökustannus voidaan laskea, ylätason kohteen ja sen osien nimikkeiden on käytettävä *Vakio*-arvostusmenetelmää.</span><span class="sxs-lookup"><span data-stu-id="fd4f1-101">To calculate the unit cost of an assembly or production BOM, the parent item and its component items must use the *Standard* costing method.</span></span> <span data-ttu-id="fd4f1-102">Kaikki tuoterakenteen resurssit kootaan, jos niiden yksikkökustannus on resurssikortissa määritetyn mukainen.</span><span class="sxs-lookup"><span data-stu-id="fd4f1-102">Any resources in the BOM are rolled up if they have a unit cost that is defined on the resource card.</span></span>

@@ -8,25 +8,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 1699d10a0d01d2143f26fe59313d6ba073272eef
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 2717196a170aede43bfb56d796b1da9307ff8d3f
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385247"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777189"
 ---
-# <a name="setting-up-user-accounts-for-integrating-with-microsoft-dataverse"></a><span data-ttu-id="a8ed8-103">Microsoft Dataverse -integroinnissa käytettävien käyttäjätilien määrittäminen</span><span class="sxs-lookup"><span data-stu-id="a8ed8-103">Setting Up User Accounts for Integrating with Microsoft Dataverse</span></span>
+# <a name="setting-up-user-accounts-for-integrating-with-microsoft-dataverse"></a><span data-ttu-id="51e13-103">Microsoft Dataverse -integroinnissa käytettävien käyttäjätilien määrittäminen</span><span class="sxs-lookup"><span data-stu-id="51e13-103">Setting Up User Accounts for Integrating with Microsoft Dataverse</span></span>
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
 
-<span data-ttu-id="a8ed8-104">Tässä artikkelissa on yleiskatsaus [!INCLUDE[prod_short](includes/cds_long_md.md)]in ja [!INCLUDE[prod_short](includes/prod_short.md)]in integroinnissa tarvittavien käyttäjätilien määrittämisestä.</span><span class="sxs-lookup"><span data-stu-id="a8ed8-104">This article provides an overview of how to set up the user accounts that are required to integrate [!INCLUDE[prod_short](includes/cds_long_md.md)] with [!INCLUDE[prod_short](includes/prod_short.md)].</span></span>  
+<span data-ttu-id="51e13-104">Tässä artikkelissa on yleiskatsaus [!INCLUDE[prod_short](includes/cds_long_md.md)]in ja [!INCLUDE[prod_short](includes/prod_short.md)]in integroinnissa tarvittavien käyttäjätilien määrittämisestä.</span><span class="sxs-lookup"><span data-stu-id="51e13-104">This article provides an overview of how to set up the user accounts that are required to integrate [!INCLUDE[prod_short](includes/cds_long_md.md)] with [!INCLUDE[prod_short](includes/prod_short.md)].</span></span>  
 
-## <a name="setting-up-the-administrator-user-account"></a><span data-ttu-id="a8ed8-105">Järjestelmänvalvojan käyttäjätilin määrittäminen</span><span class="sxs-lookup"><span data-stu-id="a8ed8-105">Setting Up the Administrator User Account</span></span>
-<span data-ttu-id="a8ed8-106">Järjestelmänvalvojan käyttäjätili [!INCLUDE[prod_short](includes/prod_short.md)]:ssä on lisättävä käyttäjänä [!INCLUDE[prod_short](includes/cds_long_md.md)]:een.</span><span class="sxs-lookup"><span data-stu-id="a8ed8-106">You must add your administrator user account for [!INCLUDE[prod_short](includes/prod_short.md)] as a user in [!INCLUDE[prod_short](includes/cds_long_md.md)].</span></span> <span data-ttu-id="a8ed8-107">Kun määrität yhteyden [!INCLUDE[prod_short](includes/prod_short.md)]- ja [!INCLUDE[prod_short](includes/cds_long_md.md)] -sovelluksen välille, tätä tiliä käytetään kerran asennuksen ja joidenkin pakollisten osien määrityksen aikana.</span><span class="sxs-lookup"><span data-stu-id="a8ed8-107">When you set up the connection between [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[prod_short](includes/cds_long_md.md)] we will use this account one time to install and configure some required components.</span></span> 
+## <a name="setting-up-the-administrator-user-account"></a><span data-ttu-id="51e13-105">Järjestelmänvalvojan käyttäjätilin määrittäminen</span><span class="sxs-lookup"><span data-stu-id="51e13-105">Setting Up the Administrator User Account</span></span>
+<span data-ttu-id="51e13-106">Järjestelmänvalvojan käyttäjätili [!INCLUDE[prod_short](includes/prod_short.md)]:ssä on lisättävä käyttäjänä [!INCLUDE[prod_short](includes/cds_long_md.md)]:een.</span><span class="sxs-lookup"><span data-stu-id="51e13-106">You must add your administrator user account for [!INCLUDE[prod_short](includes/prod_short.md)] as a user in [!INCLUDE[prod_short](includes/cds_long_md.md)].</span></span> <span data-ttu-id="51e13-107">Kun määrität yhteyden [!INCLUDE[prod_short](includes/prod_short.md)]- ja [!INCLUDE[prod_short](includes/cds_long_md.md)] -sovelluksen välille, tätä tiliä käytetään kerran asennuksen ja joidenkin pakollisten osien määrityksen aikana.</span><span class="sxs-lookup"><span data-stu-id="51e13-107">When you set up the connection between [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[prod_short](includes/cds_long_md.md)] we will use this account one time to install and configure some required components.</span></span> 
 
-## <a name="permissions-and-security-roles-for-user-accounts-in-prod_short"></a><span data-ttu-id="a8ed8-108">[!INCLUDE[prod_short](includes/cds_long_md.md)] -sovelluksen käyttäjätilien käyttöoikeudet ja ja käyttöoikeusroolit</span><span class="sxs-lookup"><span data-stu-id="a8ed8-108">Permissions and Security Roles for User Accounts in [!INCLUDE[prod_short](includes/cds_long_md.md)]</span></span>
-<span data-ttu-id="a8ed8-109">Kun CDS-perusintegrointiratkaisua asennetaan, integroinnin käyttäjätilin käyttöoikeudet määritetään.</span><span class="sxs-lookup"><span data-stu-id="a8ed8-109">When you install the CDS Base Integration Solution, permissions for the integration user account are configured.</span></span> <span data-ttu-id="a8ed8-110">Jos näitä käyttöoikeuksia on muutettu manuaalisesti, ne voidaan palauttaa alkuperäisiksi.</span><span class="sxs-lookup"><span data-stu-id="a8ed8-110">If those permissions are changed manually you can reset them.</span></span> <span data-ttu-id="a8ed8-111">Voit tehdä tämän asentamalla CDS-perusintegrointiratkaisun uudelleen valitsemalla **Ota integraatioratkaisu uudelleen käyttöön** **Common Data Service -yhteyden määritys** -sivulla.</span><span class="sxs-lookup"><span data-stu-id="a8ed8-111">You can do that by reinstalling the CDS Base Integration Solution by choosing **Redeploy Integration Solution** on the **Common Data Service Connection Setup** page.</span></span> <span data-ttu-id="a8ed8-112">Business Centralin CDS-integroinnin käyttöoikeusrooli otetaan käyttöön.</span><span class="sxs-lookup"><span data-stu-id="a8ed8-112">The Business Central CDS Integration security role is deployed.</span></span>
+## <a name="permissions-and-security-roles-for-user-accounts-in-prod_short"></a><span data-ttu-id="51e13-108">[!INCLUDE[prod_short](includes/cds_long_md.md)] -sovelluksen käyttäjätilien käyttöoikeudet ja ja käyttöoikeusroolit</span><span class="sxs-lookup"><span data-stu-id="51e13-108">Permissions and Security Roles for User Accounts in [!INCLUDE[prod_short](includes/cds_long_md.md)]</span></span>
+<span data-ttu-id="51e13-109">Kun CDS-perusintegrointiratkaisua asennetaan, integroinnin käyttäjätilin käyttöoikeudet määritetään.</span><span class="sxs-lookup"><span data-stu-id="51e13-109">When you install the CDS Base Integration Solution, permissions for the integration user account are configured.</span></span> <span data-ttu-id="51e13-110">Jos näitä käyttöoikeuksia on muutettu manuaalisesti, ne voidaan palauttaa alkuperäisiksi.</span><span class="sxs-lookup"><span data-stu-id="51e13-110">If those permissions are changed manually you can reset them.</span></span> <span data-ttu-id="51e13-111">Voit tehdä tämän asentamalla CDS-perusintegrointiratkaisun uudelleen valitsemalla **Ota integraatioratkaisu uudelleen käyttöön** **Common Data Service -yhteyden määritys** -sivulla.</span><span class="sxs-lookup"><span data-stu-id="51e13-111">You can do that by reinstalling the CDS Base Integration Solution by choosing **Redeploy Integration Solution** on the **Common Data Service Connection Setup** page.</span></span> <span data-ttu-id="51e13-112">Business Centralin CDS-integroinnin käyttöoikeusrooli otetaan käyttöön.</span><span class="sxs-lookup"><span data-stu-id="51e13-112">The Business Central CDS Integration security role is deployed.</span></span>
 
 <!--
 The following tables list the minimum permissions for the user accounts in [!INCLUDE[prod_short](includes/cds_long_md.md)].
@@ -121,9 +121,9 @@ You can allow sales people to view inventory levels for the items they sell by g
 
 -->
 
-## <a name="see-also"></a><span data-ttu-id="a8ed8-113">Katso myös</span><span class="sxs-lookup"><span data-stu-id="a8ed8-113">See Also</span></span>  
-[<span data-ttu-id="a8ed8-114">Integrointi Microsoft Dataversein kanssa</span><span class="sxs-lookup"><span data-stu-id="a8ed8-114">Integrating with Microsoft Dataverse</span></span>](admin-common-data-service.md)  
-[<span data-ttu-id="a8ed8-115">Dynamics 365 Sales -integrointi</span><span class="sxs-lookup"><span data-stu-id="a8ed8-115">Integrating with Dynamics 365 Sales</span></span>](admin-prepare-dynamics-365-for-sales-for-integration.md)  
+## <a name="see-also"></a><span data-ttu-id="51e13-113">Katso myös</span><span class="sxs-lookup"><span data-stu-id="51e13-113">See Also</span></span>  
+[<span data-ttu-id="51e13-114">Integrointi Microsoft Dataversein kanssa</span><span class="sxs-lookup"><span data-stu-id="51e13-114">Integrating with Microsoft Dataverse</span></span>](admin-common-data-service.md)  
+[<span data-ttu-id="51e13-115">Dynamics 365 Sales -integrointi</span><span class="sxs-lookup"><span data-stu-id="51e13-115">Integrating with Dynamics 365 Sales</span></span>](admin-prepare-dynamics-365-for-sales-for-integration.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

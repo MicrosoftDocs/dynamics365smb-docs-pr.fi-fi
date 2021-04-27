@@ -7,39 +7,39 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: a4695594573056ec492bc15c29d1b6fca3100e97
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 7a01143dd7928d5996c1620676a758ea634bdf5d
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5388672"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776889"
 ---
-# <a name="viewing-table-information"></a><span data-ttu-id="c555d-103">Näyttää taulukon tiedot</span><span class="sxs-lookup"><span data-stu-id="c555d-103">Viewing Table Information</span></span>
+# <a name="viewing-table-information"></a><span data-ttu-id="abaa0-103">Näyttää taulukon tiedot</span><span class="sxs-lookup"><span data-stu-id="abaa0-103">Viewing Table Information</span></span>
 
-<span data-ttu-id="c555d-104">Sivun **8700 taulukossa on tietoja** kaikista Business Central -ratkaisun järjestelmä- ja liiketoimintataulukoista.</span><span class="sxs-lookup"><span data-stu-id="c555d-104">The page **8700 Table Information** provides information about all system and business tables in a Business Central solution.</span></span> <span data-ttu-id="c555d-105">Sivulla on tietoja erityisesti taulukoiden sisältämien tietojen määrästä.</span><span class="sxs-lookup"><span data-stu-id="c555d-105">In particular, the page displays information about the amount of data the tables contain.</span></span>
+<span data-ttu-id="abaa0-104">Sivun **8700 taulukossa on tietoja** kaikista Business Central -ratkaisun järjestelmä- ja liiketoimintataulukoista.</span><span class="sxs-lookup"><span data-stu-id="abaa0-104">The page **8700 Table Information** provides information about all system and business tables in a Business Central solution.</span></span> <span data-ttu-id="abaa0-105">Sivulla on tietoja erityisesti taulukoiden sisältämien tietojen määrästä.</span><span class="sxs-lookup"><span data-stu-id="abaa0-105">In particular, the page displays information about the amount of data the tables contain.</span></span>
 
-<span data-ttu-id="c555d-106">Näistä tiedoista on hyötyä suorituskykyongelmien vianmäärityksessä, sillä se näyttää tietojen koon jakautumisen eri taulukoissa.</span><span class="sxs-lookup"><span data-stu-id="c555d-106">This information is useful for troubleshooting performance problems, because let's you see the distribution of data size across tables.</span></span>
+<span data-ttu-id="abaa0-106">Näistä tiedoista on hyötyä suorituskykyongelmien vianmäärityksessä, sillä se näyttää tietojen koon jakautumisen eri taulukoissa.</span><span class="sxs-lookup"><span data-stu-id="abaa0-106">This information is useful for troubleshooting performance problems, because let's you see the distribution of data size across tables.</span></span>
 
-## <a name="viewing-table-information"></a><span data-ttu-id="c555d-107">Näyttää taulukon tiedot</span><span class="sxs-lookup"><span data-stu-id="c555d-107">Viewing table information</span></span>
+## <a name="viewing-table-information"></a><span data-ttu-id="abaa0-107">Näyttää taulukon tiedot</span><span class="sxs-lookup"><span data-stu-id="abaa0-107">Viewing table information</span></span>
 
-<span data-ttu-id="c555d-108">Avataksesi tämän sivun, valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") -kuvake, anna **Taulukon tiedot** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="c555d-108">To open this page, select the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Table Information**, and then choose the related link.</span></span>
+<span data-ttu-id="abaa0-108">Avataksesi tämän sivun, valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") -kuvake, anna **Taulukon tiedot** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="abaa0-108">To open this page, select the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Table Information**, and then choose the related link.</span></span>
 
-<span data-ttu-id="c555d-109">Seuraavassa taulukossa kuvataan kunkin taulukon tiedot:</span><span class="sxs-lookup"><span data-stu-id="c555d-109">The following table describes the information provided for each table:</span></span>
+<span data-ttu-id="abaa0-109">Seuraavassa taulukossa kuvataan kunkin taulukon tiedot:</span><span class="sxs-lookup"><span data-stu-id="abaa0-109">The following table describes the information provided for each table:</span></span>
 
-|<span data-ttu-id="c555d-110">Sarake</span><span class="sxs-lookup"><span data-stu-id="c555d-110">Column</span></span>|<span data-ttu-id="c555d-111">Kuvaus</span><span class="sxs-lookup"><span data-stu-id="c555d-111">Description</span></span>|
+|<span data-ttu-id="abaa0-110">Sarake</span><span class="sxs-lookup"><span data-stu-id="abaa0-110">Column</span></span>|<span data-ttu-id="abaa0-111">Kuvaus</span><span class="sxs-lookup"><span data-stu-id="abaa0-111">Description</span></span>|
 |------|-----------|
-|<span data-ttu-id="c555d-112">Yrityksen nimi</span><span class="sxs-lookup"><span data-stu-id="c555d-112">Company Name</span></span>|<span data-ttu-id="c555d-113">Sen yrityksen nimi, jos sellainen on, johon taulukko kuuluu.</span><span class="sxs-lookup"><span data-stu-id="c555d-113">The name of the company, if any, that the table belongs to.</span></span>|
-|<span data-ttu-id="c555d-114">Taulukon nimi</span><span class="sxs-lookup"><span data-stu-id="c555d-114">Table Name</span></span>|<span data-ttu-id="c555d-115">Taulukon nimi.</span><span class="sxs-lookup"><span data-stu-id="c555d-115">The name of the table.</span></span>|
-|<span data-ttu-id="c555d-116">Taulukon nro</span><span class="sxs-lookup"><span data-stu-id="c555d-116">Table No.</span></span>|<span data-ttu-id="c555d-117">Taulukon tunnus</span><span class="sxs-lookup"><span data-stu-id="c555d-117">The ID of the table</span></span>|
-|<span data-ttu-id="c555d-118">Ei.</span><span class="sxs-lookup"><span data-stu-id="c555d-118">No.</span></span> <span data-ttu-id="c555d-119">tietuetta</span><span class="sxs-lookup"><span data-stu-id="c555d-119">of Records</span></span>|<span data-ttu-id="c555d-120">Taulukkoon tallennettujen tietueiden kokonaismäärä.</span><span class="sxs-lookup"><span data-stu-id="c555d-120">The total number of records stored in the table.</span></span>|
-|<span data-ttu-id="c555d-121">Tietueen koko</span><span class="sxs-lookup"><span data-stu-id="c555d-121">Record Size</span></span>|<span data-ttu-id="c555d-122">Tietueiden keskimääräinen koko kilotavuina/tietueessa.</span><span class="sxs-lookup"><span data-stu-id="c555d-122">The average record size in KB/record.</span></span> <span data-ttu-id="c555d-123">Arvo lasketaan seuraavan kaavan avulla: 1024 (koko)/(Tietueiden</span><span class="sxs-lookup"><span data-stu-id="c555d-123">The value is calculated using the following formula: 1024(Size)/(No.</span></span> <span data-ttu-id="c555d-124">määrä).</span><span class="sxs-lookup"><span data-stu-id="c555d-124">of Records)\`.</span></span> |
+|<span data-ttu-id="abaa0-112">Yrityksen nimi</span><span class="sxs-lookup"><span data-stu-id="abaa0-112">Company Name</span></span>|<span data-ttu-id="abaa0-113">Sen yrityksen nimi, jos sellainen on, johon taulukko kuuluu.</span><span class="sxs-lookup"><span data-stu-id="abaa0-113">The name of the company, if any, that the table belongs to.</span></span>|
+|<span data-ttu-id="abaa0-114">Taulukon nimi</span><span class="sxs-lookup"><span data-stu-id="abaa0-114">Table Name</span></span>|<span data-ttu-id="abaa0-115">Taulukon nimi.</span><span class="sxs-lookup"><span data-stu-id="abaa0-115">The name of the table.</span></span>|
+|<span data-ttu-id="abaa0-116">Taulukon nro</span><span class="sxs-lookup"><span data-stu-id="abaa0-116">Table No.</span></span>|<span data-ttu-id="abaa0-117">Taulukon tunnus</span><span class="sxs-lookup"><span data-stu-id="abaa0-117">The ID of the table</span></span>|
+|<span data-ttu-id="abaa0-118">Ei.</span><span class="sxs-lookup"><span data-stu-id="abaa0-118">No.</span></span> <span data-ttu-id="abaa0-119">tietuetta</span><span class="sxs-lookup"><span data-stu-id="abaa0-119">of Records</span></span>|<span data-ttu-id="abaa0-120">Taulukkoon tallennettujen tietueiden kokonaismäärä.</span><span class="sxs-lookup"><span data-stu-id="abaa0-120">The total number of records stored in the table.</span></span>|
+|<span data-ttu-id="abaa0-121">Tietueen koko</span><span class="sxs-lookup"><span data-stu-id="abaa0-121">Record Size</span></span>|<span data-ttu-id="abaa0-122">Tietueiden keskimääräinen koko kilotavuina/tietueessa.</span><span class="sxs-lookup"><span data-stu-id="abaa0-122">The average record size in KB/record.</span></span> <span data-ttu-id="abaa0-123">Arvo lasketaan seuraavan kaavan avulla: 1024 (koko)/(Tietueiden</span><span class="sxs-lookup"><span data-stu-id="abaa0-123">The value is calculated using the following formula: 1024(Size)/(No.</span></span> <span data-ttu-id="abaa0-124">määrä).</span><span class="sxs-lookup"><span data-stu-id="abaa0-124">of Records)\`.</span></span> |
 
-## <a name="see-also"></a><span data-ttu-id="c555d-125">Katso myös</span><span class="sxs-lookup"><span data-stu-id="c555d-125">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="abaa0-125">Katso myös</span><span class="sxs-lookup"><span data-stu-id="abaa0-125">See Also</span></span>
 
-[<span data-ttu-id="c555d-126">Sivujen tarkistaminen</span><span class="sxs-lookup"><span data-stu-id="c555d-126">Inspecting Pages</span></span>](across-inspect-page.md)  
-[<span data-ttu-id="c555d-127">Suorituskykyartikkelit kehittäjille</span><span class="sxs-lookup"><span data-stu-id="c555d-127">Performance Articles For Developers</span></span>](/dynamics365/business-central/dev-itpro/performance/performance-developer)  
+[<span data-ttu-id="abaa0-126">Sivujen tarkistaminen</span><span class="sxs-lookup"><span data-stu-id="abaa0-126">Inspecting Pages</span></span>](across-inspect-page.md)  
+[<span data-ttu-id="abaa0-127">Suorituskykyartikkelit kehittäjille</span><span class="sxs-lookup"><span data-stu-id="abaa0-127">Performance Articles For Developers</span></span>](/dynamics365/business-central/dev-itpro/performance/performance-developer)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
