@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 2d1d04b5273329186c362866493303f5f4ad7450
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 4948dac105a62501ee3006cce0683be819db7ce8
+ms.sourcegitcommit: 951d3c9d541f0b1d26712d37e253c2958dae3321
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385322"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889203"
 ---
 # <a name="scheduling-a-synchronization-between-business-central-and-dataverse"></a>Business Centralin ja Dataversein synkronoinnin ajoittaminen
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -72,7 +72,7 @@ Jotkin työjonotapahtumat, esimerkiksi ne, jotka ajoittavat [!INCLUDE[prod_short
 
 Jos tämän kentän arvo ei ole nolla eikä työjono löytänyt muutoksia viimeisen suorituksen aikana, [!INCLUDE[prod_short](includes/prod_short.md)] siirtää työjonotapahtuman pitoon. Kun näin tapahtuu, **Työjonon tila** -kentässä näkyy **Estossa toimettomuuden vuoksi**, ja [!INCLUDE[prod_short](includes/prod_short.md)] odottaa **Käyttämättömyyden aikakatkaisu** -kentässä määritetyn ajan, ennen kuin se suorittaa työjonotapahtuman uudelleen.  
 
-Oletusarvon mukaan esimerkiksi CURRENCY-työjonotapahtuma, joka synkronoi valuutat [!INCLUDE[cds_long_md](includes/cds_long_md.md)] -ohjelmassa [!INCLUDE[prod_short](includes/prod_short.md)]n valuuttakurssien mukaan, etsii vaihtokurssien muutoksia 30 minuutin välein. Jos muutoksia ei löydy, [!INCLUDE[prod_short](includes/prod_short.md)] asettaa CURRENCY-työjonotapahtuman Estossa olevaksi 720 minuutin (kuuden tunnin) ajaksi. Jos vaihtokurssia muutetaan, [!INCLUDE[prod_short](includes/prod_short.md)]ssa, kun työjonotapahtuma on Estossa, [!INCLUDE[prod_short](includes/prod_short.md)] aktivoi automaattisesti uudelleen työjonontapahtuman ja työjono käynnistetään uudelleen. 
+Oletusarvon mukaan esimerkiksi CURRENCY-työjonotapahtuma, joka synkronoi valuutat [!INCLUDE[cds_long_md](includes/cds_long_md.md)] -ohjelmassa [!INCLUDE[prod_short](includes/prod_short.md)]n valuuttakurssien mukaan, etsii vaihtokurssien muutoksia 30 minuutin välein. Jos muutoksia ei löydy, [!INCLUDE[prod_short](includes/prod_short.md)] asettaa CURRENCY-työjonotapahtuman pitoon 720 minuutin (kahdentoista tunnin) ajaksi. Jos vaihtokurssia muutetaan, [!INCLUDE[prod_short](includes/prod_short.md)]ssa, kun työjonotapahtuma on Estossa, [!INCLUDE[prod_short](includes/prod_short.md)] aktivoi automaattisesti uudelleen työjonontapahtuman ja työjono käynnistetään uudelleen. 
 
 > [!Note]
 > [!INCLUDE[prod_short](includes/prod_short.md)] aktivoi pidossa olevat työjonotapahtumat automaattisesti vain, kun [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa tehdään muutoksia. Muutokset [!INCLUDE[cds_long_md](includes/cds_long_md.md)]ssa eivät aktivoi työjonotapahtumia.

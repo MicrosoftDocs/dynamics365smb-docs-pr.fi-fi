@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 32532dfb1d78f27dc2dac8b61cfc8d0c47e6b6b4
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 93889510c01a2feecface046440de19dcb1e83eb
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5386847"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5787350"
 ---
 # <a name="the-late-payment-prediction-extension"></a>Myöhästyneen maksun ennusteen laajennus  
 Tehokas myyntisaamisten hallinta on tärkeää yrityksen taloudellisen tilanteen yleiskuvan kannalta. Myöhästyneen maksun ennusteen laajennus voi auttaa avointen myyntisaamisten vähentämisessä ja perintästrategian tarkentamisessa ennustamalla, maksetaanko myyntilaskut ajoissa. Jos maksun ennustetaan olevan myöhässä, voit esimerkiksi muuttaa asiakkaan maksuehtoja tai maksutapaa.
@@ -108,7 +108,7 @@ Voit myös luoda oman ennakoivan verkkopalvelun **Dynamics 365 Business Centrali
 8. Syötä **Oman mallin tunnistetiedot** -pikavälilehteen mallin ohjelmointirajapinnan URL-osoite ja avain.  .  
 
 ## <a name="see-also"></a>Katso myös  
-[Azure Machine Learning Studio -dokumentaatio](https://go.microsoft.com/fwlink/?linkid=861765)  
+[Azure Machine Learning Studio -dokumentaatio](/azure/machine-learning/classic/)  
 [Business Central -sovelluksen mukauttaminen laajennusten avulla](ui-extensions.md)  
 [Tervetuloa [!INCLUDE[prod_long](includes/prod_long.md)]iin!](index.md)  
 

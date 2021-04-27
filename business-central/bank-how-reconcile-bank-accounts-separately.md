@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 08b7f6c092267b965af491cd80144950db138c3d
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 1049043da0fd4cd5db2dc76f41a3c3df0402bbfc
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5388697"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5786805"
 ---
 # <a name="reconcile-bank-accounts"></a>Pankkitilien täsmäytys
 
@@ -40,11 +40,11 @@ Kun **Kokonaissaldo**-kentän arvo **Pankin tiliotteen rivit** -ruudussa on sama
 
 Kaikki rivit, joita ei voi kohdentaa, ilmaistuina arvoina **Erotus**-kentässä, pysyvät **Pankkitilin täsmäytys** -sivulla kirjauksen jälkeen. Ne edustavat eroa, joka sinun on ratkaistava, ennen kuin voit suorittaa pankkitilin täsmäytyksen. Tyypilliset liiketoimintatilanteet, jotka voivat aiheuttaa eroja:
 
-|Ero|Syy|Ratkaisu|
-|-|-|
-|Sisäisen pankkitilin tapahtuma ei ole pankin tiliotteessa.|Pankkitapahtumaa ei tapahtunut, vaikka kirjaus tehtiin kohteessa [!INCLUDE[prod_short](includes/prod_short.md)].|Tee puuttuva rahatapahtuma (tai pyydä velkojaa tekemään se) ja tuo sitten tiliotetiedosto uudelleen tai syötä tapahtuma manuaalisesti.|
-|Pankin tiliotteen tapahtumaa ei ole asiakirjana tai kirjauskansion rivinä järjestelmässä [!INCLUDE[prod_short](includes/prod_short.md)].|Pankkitapahtuma tehtiin ilman vastaavaa kirjausta kohteessa [!INCLUDE[prod_short](includes/prod_short.md)], esimerkiksi kulun kirjauskansiorivin kirjausta varten.|Luo ja kirjaa puuttuva tapahtuma. Lisätietoja nopeasta tavasta tämän aloittamiseksi on aiheessa [Puuttuvien tapahtumien luominen pankkitapahtumien kohdistamiseksi.](bank-how-reconcile-bank-accounts-separately.md#to-create-missing-ledger-entries-to-match-bank-statement-lines-with) kanssa.|
-|Sisäisen pankkitilin tapahtuma vastaa pankkitapahtumaa, mutta jotkin tiedot ovat liian erilaisia, jotta ne antaisivat vastaavuuden.|Tiedot, kuten summa tai asiakkaan nimi, on syötetty eri tavalla pankkitapahtuman tai sisäisen kirjauksen yhteydessä.|Tarkista tiedot ja kohdenna nämä kaksi manuaalisesti. Vaihtoehtoisesti voit korjata tietojen ristiriidan.||
+| Ero | Syy | Ratkaisu |
+|------------|--------|------------|
+| Sisäisen pankkitilin tapahtuma ei ole pankin tiliotteessa. | Pankkitapahtumaa ei tapahtunut, vaikka kirjaus tehtiin kohteessa [!INCLUDE[prod_short](includes/prod_short.md)]. | Tee puuttuva rahatapahtuma (tai pyydä velkojaa tekemään se) ja tuo sitten tiliotetiedosto uudelleen tai syötä tapahtuma manuaalisesti. |
+| Pankin tiliotteen tapahtumaa ei ole asiakirjana tai kirjauskansion rivinä järjestelmässä [!INCLUDE[prod_short](includes/prod_short.md)]. | Pankkitapahtuma tehtiin ilman vastaavaa kirjausta kohteessa [!INCLUDE[prod_short](includes/prod_short.md)], esimerkiksi kulun kirjauskansiorivin kirjausta varten. | Luo ja kirjaa puuttuva tapahtuma. Lisätietoja nopeasta tavasta tämän aloittamiseksi on aiheessa [Puuttuvien tapahtumien luominen pankkitapahtumien kohdistamiseksi.](bank-how-reconcile-bank-accounts-separately.md#to-create-missing-ledger-entries-to-match-bank-statement-lines-with) kanssa. |
+| Sisäisen pankkitilin tapahtuma vastaa pankkitapahtumaa, mutta jotkin tiedot ovat liian erilaisia, jotta ne antaisivat vastaavuuden. | Tiedot, kuten summa tai asiakkaan nimi, on syötetty eri tavalla pankkitapahtuman tai sisäisen kirjauksen yhteydessä. | Tarkista tiedot ja kohdenna nämä kaksi manuaalisesti. Vaihtoehtoisesti voit korjata tietojen ristiriidan. |
 
 Erot on ratkaistava esimerkiksi luomalla puuttuvia merkintöjä ja korjaamalla ei-vastaavia tietoja tai tekemällä puuttuvia rahatapahtumia, kunnes pankkitilin täsmäytys on suoritettu ja kirjattu.
 
@@ -57,7 +57,10 @@ Voit täyttää **Pankin tiliotteen rivit** -ruudun **Pankkitilin täsmäytys** 
 
 **Pankin tiliotteen rivit** -ruutu täytetään pankkitapahtumilla tuodun tiedoston tai pankin antaman tietovirran mukaan.
 
-Jos haluat ottaa pankin tiliotteet käyttöön pankkisyötteinä, määritä ensin Envestnet Yodlee Bank Feeds -palvelu ja linkitä sitten pankkitilit liittyviin verkkopankkitileihin. Lisätietoja on kohdassa [Envestnet Yodlee Bank Feeds -palvelun määrittäminen](bank-how-setup-bank-statement-service.md).
+Jos haluat ottaa pankin tiliotteet käyttöön pankkisyötteinä, määritä ensin Envestnet Yodlee Bank Feeds -palvelu ja linkitä sitten pankkitilit liittyviin verkkopankkitileihin. Lisätietoja on kohdassa [Envestnet Yodlee Bank Feeds -palvelun määrittäminen](bank-how-setup-bank-statement-service.md).  
+
+> [!TIP]
+> Tiliotetiedostoja voi tuoda myös pilkuin tai puolipistein erotellussa muodossa (.CSV). Tiliotteen tuontimuodot voidaan määrittää ja muoto liittää pankkitiliin käyttämällä asetusten ohjattua määritystä **Määritä tiliotetiedoston tuontimuoto**. Näitä muotoja voi sitten käyttää, kun tiliotteita tuodaan **Pankkitilin täsmäytys** -sivulla.
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Pankkitilin täsmäytys** ja valitse sitten liittyvä linkki.
 2. Valitse **Uusi**-toiminto.
@@ -148,7 +151,7 @@ Jos teet seuraavan pankkitäsmäytyksen elokuun osalta, harkitse arvojen muuttam
 > [!NOTE]
 > Tiliotteen numero on tärkeä, kun teet pankkitäsmäytyksiä tuotujen CAMT-tiedostojen kanssa, jotka sisältävät tiliotteen numeroita, tai kun täsmäytetään tulostettujen tiliotteiden perusteella. Jos vain lataat joukon pankkitapahtumia verkkopankista, tiliotteen numero ei yleensä ole tärkeä. 
 >
->Viimeisen tiliotteen saldo -arvoa pidetään pankkitilillä virheiden minimoimiseksi pankkitäsmäytyksiä tehtäessä, mutta se on myös muokattavissa, jolloin voit tehdä pankkitäsmäytykset missä tahansa järjestyksessä haluat. Tämä tarkoittaa myös sitä, että jos peruutat pankin tiliotteen, uusi loppusaldo ei ehkä ole seuraavassa tiliotteessa Viimeisen tiliotteen saldo. Ei ole mitään toimintoa, jonka avulla voit siirtää saldon eteenpäin kaikille myöhemmille tiliotteille, joten ole tietoinen tästä, kun käytät Kumoa-toimintoa. 
+>Viimeisen tiliotteen saldo -arvoa pidetään pankkitilillä virheiden minimoimiseksi pankkitäsmäytyksiä tehtäessä. Sitä voi myös muokata, joten pankkitilin täsmäytykset voidaan tehdä missä tahansa järjestyksessä. Tämä tarkoittaa myös sitä, että jos peruutat pankin tiliotteen, uusi loppusaldo ei ehkä ole seuraavassa tiliotteessa Viimeisen tiliotteen saldo. Ei ole mitään toimintoa, jolla voi siirtää saldon eteenpäin kaikille myöhemmille tiliotteille. Tämä on hyvä ottaa huomioon Kumoa-toimintoa käytettäessä. 
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/bank-reconciliation-dynamics-365-business-central/index)
 

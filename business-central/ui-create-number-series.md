@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: numbers, numbering
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: db90c35bde2a08d6131e4a7102f9cdda1f36dfe8
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 75bcb6763c9253bba72ca7f1ff980222263b4e9c
+ms.sourcegitcommit: 8b44a7bcba45ae852cc6dd07b90b9a383c1be488
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385947"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "5869996"
 ---
 # <a name="create-number-series"></a>Numerosarjojen luominen
 Jokaiselle yritykselle on määritettävä yksilölliset tunnuskoodit esimerkiksi pääkirjanpidon tilejä, asiakas- ja toimittajatilejä, laskuja ja muita asiakirjoja varten. Numerointi ei ole tärkeää pelkästään tunnistamisen kannalta. Hyvin suunniteltu numerointijärjestelmä helpottaa myös yrityksen hallittavuutta ja analysointia ja voi vähentää tietojen syötössä tapahtuvien virheiden määrää.
@@ -29,6 +29,9 @@ Jos haluat sallia aukot tietyissä numerosarjoissa, varmista ensin tilintarkista
 >   On suositeltavaa käyttää niitä numerosarjan koodeja, jotka on mainittu CRONUS-esittely-yrityksen **Numerosarjaluettelo**-sivulla. Koodit, kuten *O-LASKU+*, eivät ehkä avaudu heti, mutta [!INCLUDE[prod_short](includes/prod_short.md)]issa on tiettyjä oletusasetuksia, jotka perustuvat näihin numerosarjan koodeihin.
 
 Numerointijärjestelmä luodaan määrittämällä koodeja kullekin perustietotyypille tai asiakirjalle. Voit määrittää koodin esimerkiksi asiakkaiden, myyntilaskujen ja yleisten päiväkirjojen numerointia varten. Kun olet määrittänyt koodin, sinun on määritettävä vähintään yksi numerosarjarivi. Numerosarjarivit sisältävät erilaisia tietoja, kuten sarjan ensimmäisen ja viimeisen numeron sekä alkupäivämäärän. Voit määrittää yhtä numerosarjakoodia kohti useita numerosarjarivejä, joilla kullakin on eri alkupäivämäärä. Numerosarjoja käytetään peräkkäin kulloisestakin alkupäivämäärästä alkaen.
+
+> [!NOTE]
+> Numerosarjan luvun enimmäispituus on 20 merkkiä. Joissakin tilanteissa [!INCLUDE[prod_short](includes/prod_short.md)] liittää lukuun järjestelmän muodostaman tunnuksen. Jos esimerkiksi asiakirjojen, kuten laskuja, käytetään tapahtumien, kuten maksujen, kohdistamiseen, [!INCLUDE[prod_short](includes/prod_short.md)] luo tunnukset kohdistetuille tapahtumille. Tunnus koostuu numerosarjan luvusta ja kuusimerkkisestä järjestelmän määrittämästä tunnuksesta, kuten -12345. Jos käsiteltävissä olevissa pankki- tai pankkisiirtokirjauskansioissa tai kassapäiväkirjoissa odotetaan olevan yli 9 999 asiakirjaa, kyseisten asiakirjatyyppien numerosarjoihin on määritettävä alle 14 merkkiä.
 
 Numerosarjat määritetään yleensä lisäämään seuraava peräkkäinen numero automaattisesti luotuihin uusiin kortteihin tai asiakirjoihin. Voit kuitenkin määrittää myös numerosarjoja, joissa uuden numeron voi antaa manuaalisesti. Se määritetään **Manuaaliset nrot** -valintaruudussa.
 

@@ -2,17 +2,17 @@
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: include
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4577e4614dc068d7a790b2e257d528d3e52a169f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8c9cb9d74242f379cee0ba13cec5cade9ae48a27
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925172"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5788025"
 ---
 > [!IMPORTANT]
 >
 > Haluatko tietoja tulevista ja juuri julkaistuista Dynamics 365 Business Centralin ominaisuuksista?
 >
-> [Tutustu julkaisusuunnitelman uusimpaan versioon](https://go.microsoft.com/fwlink/?linkid=2047422). Olemme koonneet kaikki tarvittavat tiedot, joita voit käyttää suunnittelun apuna. Kunkin version yhteydessä julkaisusuunnitelma annetaan yhtenä PDF-tiedostona.  
+> [Julkaisusuunnitelman uusimpaan versioon tutustuminen](/dynamics365/release-plans/). Olemme koonneet kaikki tarvittavat tiedot, joita voit käyttää suunnittelun apuna. Kunkin version yhteydessä julkaisusuunnitelma annetaan yhtenä PDF-tiedostona.

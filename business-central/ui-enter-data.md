@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6ad3faedc77b1293fa9e42d65e59db4c2d00b529
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: d27633b6ae86c62a6ba95de51fe359094825e64d
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393297"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5784813"
 ---
 # <a name="entering-data"></a>Tietojen antaminen
 
@@ -242,34 +242,9 @@ Seuraavassa taulukossa on luettelo eri tavoista, joilla aikoja voi syöttää ja
 
  Jos et käytä erotinmerkkiä, jokaiselle aikayksikölle tulee syöttää kaksi numeroa.  
 
-## <a name="entering-datetimes"></a>Päivämäärien ja aikojen syöttäminen
+## <a name="entering-combined-datetimes"></a>Yhdistettyjen päivämäärien ja aikojen syöttäminen
 
-Kun syötät päivämääriä ja aikoja, päivämäärän ja ajan väliin on lisättävä tyhjätilamerkki.  
-
-Seuraavassa taulukossa on luettelo eri tavoista, joilla päivämääriä ja aikoja voi syöttää ja miten niitä tulkitaan:  
-
-|Tapahtuma|Tulkinta|  
-|---------------|------------------------|  
-|`131202` 132455|13.12.02 13:24:55|  
-|1-12-02 10|01.12.02 10:00:00|  
-|1.12.02 5|01.12.02 05:00:00|  
-|1.12.02|01.12.02 00:00:00|  
-|11 12|11.nykyinen kuukausi.nykyinen vuosi 12:00:00|  
-|1112 12|11.12.nykyinen vuosi 12:00:00|  
-|t tai tänään|tämän päivän päivämäärä 00:00:00|  
-|a aika|tämän päivän pvm tämänhetkinen aika|  
-|t 10:30:00|tämän päivän päivämäärä 10:30:00|  
-|t 3:3:3|tämän päivän päivämäärä 03:03:03|  
-|k tai käsittelypvm|käsittelypvm 00:00:00|  
-|ma tai maanantai|nykyisen viikon maanantai 00:00:00|  
-|ti tai tiistai|nykyisen viikon tiistai 00:00:00|  
-|ke tai keskiviikko|nykyisen viikon keskiviikko 00:00:00|  
-|to tai torstai|nykyisen viikon torstai 00:00:00|  
-|pe tai perjantai|nykyisen viikon perjantai 00:00:00|  
-|la tai lauantai|nykyisen viikon lauantai 00:00:00|  
-|su tai sunnuntai|nykyisen viikon sunnuntai 00:00:00|  
-|ti 10:30:00|nykyisen viikon tiistai 10:30:00|  
-|ti 3:3:3|nykyisen viikon tiistai 03:03:03|  
+[!INCLUDE [datetimes](includes/datetimes.md)]
 
 ## <a name="entering-duration"></a>Keston syöttäminen
 

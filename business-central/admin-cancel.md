@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: remove, delete
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a34e79b1cc77844ce712a6a6df294b2f3218f363
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 6330aeb05bf2f0ba84585c0cd8391b7cf3338de4
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5378746"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5786855"
 ---
 # <a name="unsubscribe-or-remove-prod_short"></a>[!INCLUDE[prod_short](includes/prod_short.md)]in tilauksen peruuttaminen tai poistaminen
 
@@ -41,7 +41,7 @@ Käyttäjätilejä ja käyttöoikeustiedostoja hallitaan kohdassa [Microsoft 365
 Jos haluat piilottaa [!INCLUDE[prod_short](includes/prod_short.md)]in sovellusten käynnistysohjelmalta, sinun tarvitsee vain poistaa sen kiinnitys. Tällöin tietoja ei poisteta, eikä tilausta peruuteta.  
 
 ## <a name="see-also"></a>Katso myös
-[Käytön aloittaminen](product-get-started.md)  
+[Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 [Uusien yritysten luominen](about-new-company.md)  
 [Liiketoimintatietojen vienti Exceliin](about-export-data.md)  
 [Microsoft 365 -hallintakeskus](https://admin.microsoft.com/)  

@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8a09aa00b23abab7849c4a5099132c9729d7592e
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: f669944766894e57a772e229a436953953f3892c
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5389470"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5785187"
 ---
 # <a name="design-details"></a>Rakennetiedot
 Tässä sisällössä on yksityiskohtaisia teknisiä tietoja [!INCLUDE[prod_short](includes/prod_short.md)] monimutkaisista ominaisuuksista.  
@@ -30,16 +30,14 @@ Tässä sisällössä on yksityiskohtaisia teknisiä tietoja [!INCLUDE[prod_shor
 |Lue lisää laajennetun varastoinnin ja perusvarastoinnin ominaisuuksien keskeisistä periaatteista ja kuinka ne integroituvat muiden toimitusketjun ominaisuuksien kanssa.|[Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)|  
 |Lisätietoja nimikeseurannan historiallisesta ja nykyisestä rakenteesta, ja kuinka se integroituu varausjärjestelmään, ja sisällyttää sarja-/ eränumerot saatavuuslaskelmiin.|[Rakennetiedot: nimikkeen seuranta](design-details-item-tracking.md)|  
 |Tietoja yleisen päiväkirjan kirjausrivi -ominaisuudesta, kuten viimeisimmät yksinkertaistukset codeunit 12:n suunnitteluun.|[Rakenteen tiedot: Yleisen päiväkirjan kirjausrivi](design-details-general-journal-post-line.md)|
-|Katso lisätietoja dimensioiden tallennuksen ja kirjauksen suunnittelusta, kuten koodiesimerkkejä dimensiokoodien siirrosta ja päivityksestä.|[Rakennetiedot: Dimensioyhdistelmä-tapahtumat](design-details-dimension-set-entries.md)| 
+|Katso lisätietoja dimensioiden tallennuksen ja kirjauksen suunnittelusta, kuten koodiesimerkkejä dimensiokoodien siirrosta ja päivityksestä.|[Rakennetiedot: Dimensioyhdistelmä-tapahtumat](design-details-dimension-set-entries-overview.md)|
 
-## <a name="see-also"></a>Katso myös  
- [Suunnittelu](production-planning.md)   
- [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)   
- [Varastoinninhallinta](warehouse-manage-warehouse.md)   
- [Monimutkaisten sovellusalueiden määrittäminen parhaiden käytäntöjen avulla](set-up-complex-application-areas-using-best-practices.md)  
- [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+## <a name="see-also"></a>Katso myös
 
- ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+[Suunnittelu](production-planning.md)  
+[Varaston kustannusten hallinta](finance-manage-inventory-costs.md)  
+[Varastoinninhallinta](warehouse-manage-warehouse.md)  
+[Monimutkaisten sovellusalueiden määrittäminen parhaiden käytäntöjen avulla](set-up-complex-application-areas-using-best-practices.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
 
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

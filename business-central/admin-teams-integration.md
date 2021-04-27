@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
-ms.date: 01/20/2021
+ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 5fc5957695145ad3bbc4225c7c7e18dd7ca0c728
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: ecb3f88bf14c74f026f10fd49efe28f189036589
+ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5386297"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5882203"
 ---
 # <a name="managing-microsoft-teams-integration-with-prod_short"></a>Microsoft Teamsin ja [!INCLUDE [prod_short](includes/prod_short.md)]in integroinnin hallinta
 
@@ -35,6 +35,7 @@ Tässä osassa kuvataan vähimmäisvaatimukset, jotka koskevat [!INCLUDE [prod_s
 
     |Mikä|Teams-lisenssi|[!INCLUDE [prod_short](includes/prod_short.md)] -käyttöoikeus|
     |----|---|---|
+    |Hae [!INCLUDE [prod_short](includes/prod_short.md)] yhteyshenkilöitä.|![valintamerkki](media/check.png "tarkistus")|![valintamerkki](media/check.png "tarkistus")|
     |Liitä linkki [!INCLUDE [prod_short](includes/prod_short.md)] -tietueeseen keskusteluun ja lähetä se korttina.|![valintamerkki](media/check.png "tarkistus")|![valintamerkki](media/check.png "tarkistus")|
     |Näytä [!INCLUDE [prod_short](includes/prod_short.md)] -tietueen kortti keskustelussa.|![valintamerkki](media/check.png "tarkistus")||
     |Näytä lisätietoja [!INCLUDE [prod_short](includes/prod_short.md)] -tietueen kortista keskustelussa.|![valintamerkki](media/check.png "tarkistus")|![valintamerkki](media/check.png "tarkistus")|
@@ -49,8 +50,8 @@ Teamsin järjestelmänvalvojana voit hallita kaikkia organisaatiosi sovelluksia,
 
 Lisätietoja on seuraavissa Microsoft Teams -asiakirjojen artikkeleissa:
 
-- [Hallitse sovelluksiasi Microsoft Teams -hallintakeskuksessa](https://docs.microsoft.com/MicrosoftTeams/manage-apps)
-- [Sovelluksen asetuskäytäntöjen hallinta Microsoft Teamsissa](https://docs.microsoft.com/microsoftteams/teams-app-setup-policies)
+- [Sovellusten hallinta Microsoft Teams -hallintakeskuksessa](/MicrosoftTeams/manage-apps)
+- [Sovelluksen määrityskäytäntöjen hallinta Microsoft Teamsissa](/microsoftteams/teams-app-setup-policies)
 
 ## <a name="in-prod_short"></a>[!INCLUDE [prod_short](includes/prod_short.md)]issa
 
@@ -58,7 +59,7 @@ Lisätietoja on seuraavissa Microsoft Teams -asiakirjojen artikkeleissa:
 
 - [!INCLUDE [prod_short](includes/prod_short.md)] -versio:
 
-    [!INCLUDE [prod_short](includes/prod_short.md)] 2020 2. julkaisuaalto (päivitys 17.3 tai uudempi). Teamsin integrointia tuetaan vain [!INCLUDE [prod_short](includes/prod_short.md)] online-tilassa, ei paikallisesti.
+    [!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksen vuoden 2021 1. julkaisuaalto tai uudempi. Teamsin integrointia tuetaan vain [!INCLUDE [prod_short](includes/prod_short.md)] online-tilassa, ei paikallisesti.
 
 - Codeunit **2718 Sivun yhteenvedon toimittaja** on julkaistu verkkopalveluna:
 
@@ -66,8 +67,9 @@ Lisätietoja on seuraavissa Microsoft Teams -asiakirjojen artikkeleissa:
 
 - <a name="permissions"></a>Käyttöoikeudet:
 
-    Suurin osa niistä sivuista ja tiedoista, joita käyttäjät voivat tarkastella ja muokata Teams-keskusteluissa, määräytyy niiden käyttöoikeuksien mukaan [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmassa.
+    Suurin osa niistä yhteyshenkilöhauista, sivuista ja tiedoista, joita käyttäjät voivat tarkastella ja muokata Teams-keskusteluissa, määräytyy niiden käyttöoikeuksien mukaan [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmassa.
     
+    - Käyttäjät voivat hakea yhteyshenkilöitä, jos heillä on ainakin **Yhteyshenkilöt**-taulukon lukuoikeus. 
     - Jos haluat liittää [!INCLUDE [prod_short](includes/prod_short.md)] -linkin Teams-keskusteluun ja lisätä sen korttiin, käyttäjillä on oltava vähintään lukuoikeus sivulle ja sen tietoihin.
     - Kun kortti on lähetetty keskusteluun, kuka tahansa kyseisessä keskustelussa oleva käyttäjä voi tarkastella korttia ilman [!INCLUDE [prod_short](includes/prod_short.md)]in käyttöoikeutta.
     - Jotta voisit katsoa lisätietoja kortista tai avata sen [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmassa, käyttäjillä on oltava sivun ja sen tietojen lukuoikeus.
@@ -92,13 +94,13 @@ Voit estää tiettyjä käyttäjiä tai ryhmiä lähettämästä kortteja chatte
 
 Tietoesteiden avulla voit myös estää yksittäisiä henkilöitä tai ryhmiä viestimästä keskenään. Lisätietoja on kohdassa [Tietoesteet Microsoft Teamsissa](/microsoftteams/information-barriers-in-teams).
 
-Microsoft 365 Security & Compliance Centerin tietojen menetyksen estämisen ominaisuuksia ei voi kohdistaa erityisesti kortteihin. Mutta niitä voidaan käyttää chat-viesteihin, jotka sisältävät kortteja. Jos haluat seurata tulevia lisätoimintoja, jotka sisältävät DLP-käytäntöjä kortteille, katso [https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093](https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093).
+Microsoft 365 Security & Compliance Centerin tietojen menetyksen estämisen ominaisuuksia ei voi kohdistaa erityisesti kortteihin. Mutta niitä voidaan käyttää chat-viesteihin, jotka sisältävät kortteja. <!-- To track upcoming advanced features that include enabling DLP for cards, see [https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093](https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093).-->
 
 ### <a name="responding-to-data-requests"></a>Tietopyyntöihin vastaaminen
 
 Annat tiimin jäsenille ja tiimin omistajille mahdollisuuden poistaa viestejä, jotka sisältävät arkaluonteisia kortteja, määrittämällä viestikäytännöt, kuten: **Omistajat voivat poistaa lähetettyjä viestejä** ja **Käyttäjät voivat poistaa lähetettyjä viestejä**. Lisätietoja: [Teamsin viestintäkäytäntöjen hallinta](/microsoftteams/messaging-policies-in-teams).
 
-Microsoft 365 Security & Compliance Centerin sisältöhaun ja eDiscoveryn vaatimustenmukaisuuden ominaisuuksia ei voi kohdistaa erityisesti kortteihin. Mutta niitä voidaan käyttää chat-viesteihin, jotka sisältävät kortteja. Jos haluat seurata korttien tulevia yhteensopivuusominaisuuksia, katso [https://www.microsoft.com/microsoft-365/roadmap?featureid=68875](https://www.microsoft.com/microsoft-365/roadmap?featureid=68875).
+Microsoft 365:n tietoturva- ja yhteensopivuuskeskuksen sisältöhaun ja eDiscoveryn vaatimustenmukaisuuden ominaisuudet voidaan kohdistaa myös kortteihin.
 
 Koska Teamsin korttien tiedot ovat kopio [!INCLUDE [prod_short](includes/prod_short.md)]in tiedoista, voit myös käyttää [!INCLUDE [prod_short](includes/prod_short.md)] -ominaisuuksia asiakkaan tietojen viemiseen pyydettäessä. Lisä tietoja tietosuojasta on [!INCLUDE [prod_short](includes/prod_short.md)][Business Central-asiakkaiden tietosuojan usein kysytyissä kysymyksissä](/dynamics365/business-central/dev-itpro/security/privacyfaq).
 

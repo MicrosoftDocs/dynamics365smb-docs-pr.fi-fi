@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/20/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 79ce3aba4acf5d5d889bce5ff37bf6d91d83e47c
-ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
+ms.openlocfilehash: 0267d4af029410da2107fbb4bbbde2e27c364e31
+ms.sourcegitcommit: 8b44a7bcba45ae852cc6dd07b90b9a383c1be488
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5493252"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "5869971"
 ---
 # <a name="available-fonts"></a>Käytettävissä olevat fontit
 
@@ -58,11 +58,13 @@ Seuraavia viivakoodisymbolijärjestelmiä tuetaan:
 * MSI
 * Interleaved 2 ja 5
 
+Lisätietoja on kohdassa [Business Central Onlineen sisältyvät viivakoodifontit](/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts.md)
+
 ## <a name="see-also"></a>Katso myös
 
 [Raporttiasetteluiden hallinta](ui-manage-report-layouts.md)  
 [Sekin asettelun valitseminen](finance-how-define-check-layouts.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
-
+[[!INCLUDE[prod_short](includes/prod_short.md)]in käyttäminen](ui-work-product.md)
+[Business Central Onlineen sisältyvät viivakoodifontit](/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

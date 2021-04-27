@@ -1,1 +1,1 @@
-> **KOHDE:** Business Central online
+**KOHDE:** Business Central online

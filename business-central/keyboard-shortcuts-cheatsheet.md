@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 33365f7cd9abe8844b1ba9387c908d7189c28bde
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 34494802f001e78c56cb2eeab997f60cda320472
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5392972"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5784515"
 ---
 # <a name="keyboard-quick-reference---pc-only"></a>Näppäimistön Pikaohje - Vain PC
 
@@ -23,32 +23,63 @@ ms.locfileid: "5392972"
 
 |Paina näitä näppäimiä|Tehtävä|  
 |-|-|
-|Alt+F2<br />Alt+N<br />Alt+Vaihto+N<br />Alt+O<br />Alt+Q<br />Alt+Ylänuoli<br />Alt+alanuoli<br />Alt+T<br />Alt+Vaihto+W<br />Ctrl+Insert<br />Ctrl-Delete<br />Ctrl+Shift+F12<br />Ctrl+F1<br />Ctrl+napsautus<br />Shift+F12<br />F5/Ctrl+F5<br />Sarkain/vaihto+sarkain<br />F6/Vaihto+F6<br />|Näytä ja piilota tietoruutu<br />Luo uusi tietue<br />Sulje juuri luotu tietue ja luo uusi tietue<br />Lisää uusi huomautus valittuun tietueeseen<br />Avaa **Kerro**<br />Avaa työkaluvihje tai tarkistusvirhe<br />Avaa avattava luettelo tai haku<br />Avaa **Omat asetukset** -sivu<br />Avaa nykyinen kortti tai asiakirja uudessa ikkunassa<br />Lisää uusi rivi asiakirjaan<br />Poista asiakirjan, päiväkirjan tai työkirjan rivi<br />Suurenna asiakirjasivun rivinimikeosa<br />Avaa sivun ohje<br />Siirry mukautettaessa<br />Avaa roolinhallinta, ominaisuuksien yleiskuvaus<br />Päivitä tai lataa sivu uudelleen<br />Siirrä kohdistus seuraavaan/edelliseen elementtiin<br />Siirry seuraavaan pikavälilehteen/osaan|
+|Alt+F2|Näytä ja piilota tietoruutu|
+|Alt+N|Luo uusi tietue|
+|Alt+Vaihto+N|Sulje juuri luotu tietue ja luo uusi tietue|
+|Alt+O|Lisää uusi huomautus valittuun tietueeseen|
+|Alt+Q|Avaa **Kerro**|
+|Alt+Ylänuoli|Avaa työkaluvihje tai tarkistusvirhe|
+|Alt+alanuoli|Avaa avattava luettelo tai haku|
+|Alt+T|Avaa **Omat asetukset** -sivu|
+|Alt+Vaihto+W|Avaa nykyinen kortti tai asiakirja uudessa ikkunassa|
+|Ctrl+Insert|Lisää uusi rivi asiakirjaan|
+|Ctrl-Delete|Poista asiakirjan, päiväkirjan tai työkirjan rivi|
+|Ctrl+Shift+F12|Suurenna asiakirjasivun rivinimikeosa|
+|Ctrl+F1|Avaa sivun ohje<br />Siirry mukautettaessa|
+|Ctrl+napsautus|Siirry mukautettaessa|
+|Shift+F12|Avaa roolinhallinta, ominaisuuksien yleiskuvaus|
+|F5/Ctrl+F5|Päivitä tai lataa sivu uudelleen|
+|Sarkain/vaihto+sarkain|Siirrä kohdistus seuraavaan/edelliseen elementtiin|
+|F6/Vaihto+F6|Siirry seuraavaan pikavälilehteen/osaan|
 
 #### <a name="navigate--select-rows"></a>Siirtyminen ja rivien valitseminen
 
 |Paina näitä näppäimiä|Tehtävä|
 |-|-|
-|Home/End<br />Ctrl+Home/End <br />Ctrl+ylä-/alanuoli<br />Ctrl+A <br />Ctrl+välilyönti<br />Ctrl/Vaihto+napsautus<br />Vaihto+ylä-/alanuoli<br />Vaihto+sivu ylös/alas<br />Ctrl+Enter|Siirry ensimmäiseen/viimeiseen kenttään<br />Siirry ensimmäiselle/viimeiselle riville<br />Siirry menettämättä valintaa<br />Valitse kaikki<br />Vaihda rivin valintaa<br /> Lisää rivit valintaan<br />Lisää rivi valinnan ylä-/alapuolelle<br />Valitse näkyvät rivit ylä-/alapuolella <br />Kohdistus luettelon ulkopuolella|
+|Home/End|Siirry ensimmäiseen/viimeiseen kenttään|
+|Ctrl+Home/End |Siirry ensimmäiselle/viimeiselle riville|
+|Ctrl+ylä-/alanuoli|Siirry menettämättä valintaa|
+|Ctrl+A |Valitse kaikki|
+|Ctrl+välilyönti|Vaihda rivin valintaa|
+|Ctrl/Vaihto+napsautus|Lisää rivit valintaan|
+|Vaihto+ylä-/alanuoli|Lisää rivi valinnan ylä-/alapuolelle|
+|Vaihto+sivu ylös/alas|Valitse näkyvät rivit ylä-/alapuolella|
+|Ctrl+Enter|Kohdistus luettelon ulkopuolella|
 
 #### <a name="copy--paste"></a>Kopioi ja liitä
 
 |Paina näitä näppäimiä|Tehtävä|
 |-|-|
-|Ctrl+C/V<br />F8|Kopioi/liitä rivit<br />Kopioi yläpuolella oleva kenttä nykyiselle riville|
+|Ctrl+C/V|Kopioi/liitä rivit|
+|F8|Kopioi yläpuolella oleva kenttä nykyiselle riville|
 
 #### <a name="search-filter--sort"></a>Haku, suodatus ja lajittelu
 
 |Paina näitä näppäimiä|Tehtävä|
 |-|-|
-|Alt+F7<br />F3<br />Shift+F3<br />Ctrl+Shift+F3<br />Alt+F3<br />Vaihto+Alt+F3<br />Ctrl+Alt+Vaihto+F3|Lajittele sarake nousevaan/laskevaan järjestykseen<br />Vaihda hakuun<br />Vaihda suodatinruutuun: kohdistus kenttäsuodattimissa<br />Vaihda suodatinruutuun: kohdistus yhteissummasuodattimissa<br />Suodata valitun solun arvon mukaan<br />Lisää valittuun kenttään suodatin<br />Nollaa suodattimet|
+|Alt+F7|Lajittele sarake nousevaan/laskevaan järjestykseen|
+|F3|Vaihda hakuun|
+|Shift+F3|Vaihda suodatinruutuun: kohdistus kenttäsuodattimissa|
+|Alt+F3|Suodata valitun solun arvon mukaan|
+|Vaihto+Alt+F3|Lisää valittuun kenttään suodatin|
+|Ctrl+Alt+Vaihto+F3|Nollaa suodattimet|
 
 #### <a name="quick-entry"></a>Pikatapahtuma
 
 |Paina näitä näppäimiä|Tehtävä|
 |-|-|
-|Ctrl+Vaihto+Enter<br />Enter/vaihto+Enter|Siirry seuraavaan pikatapahtumakenttään luettelon ulkopuolella<br />Siirry seuraavaan/edelliseen pikatapahtumakenttään|
-
+|Ctrl+Vaihto+Enter|Siirry seuraavaan pikatapahtumakenttään luettelon ulkopuolella|
+|Enter/vaihto+Enter|Siirry seuraavaan/edelliseen pikatapahtumakenttään|
 ##### <a name="report-preview"></a>Raportin esikatselu
 
 |Paina näitä näppäimiä|Tehtävä|

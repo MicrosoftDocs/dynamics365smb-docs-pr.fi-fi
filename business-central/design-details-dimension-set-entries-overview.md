@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dimension
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c0df3fc05935f5a3142564b132e89931fb2647f1
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: e03275c55290cccb2d8e91d7a934379184744a36
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5377186"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5788331"
 ---
 # <a name="dimension-set-entries-overview"></a>Dimensioyhdistelmätapahtumien yleiskuva
 Tässä aiheessa kuvataan, kuinka dimensioyhdistelmän tapahtumat tallennetaan ja kirjataan kohteeseen [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -46,7 +46,7 @@ Codeunit 408, dimension hallinta, on toimintokirjasto, joka käsittelee yleiset 
 ## <a name="performance-improvement"></a>Suorituskyvyn parantaminen  
 Määrittämällä dimensioyhdistelmän kerran tietokannassa tietokannan tilaa säästyy ja yleinen suorituskyky on entistä parempi.  
 
-## <a name="see-also"></a>Katso myös  
+## <a name="see-also"></a>Katso myös
 [Rakennetiedot: dimensioyhdistelmien etsiminen](design-details-searching-for-dimension-combinations.md)   
 [Rakennetiedot: taulukkorakenne](design-details-table-structure.md)   
 [Rakennetiedot: Dimensioyhdistelmä-tapahtumat](design-details-dimension-set-entries.md)   

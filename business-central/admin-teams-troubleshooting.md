@@ -8,20 +8,43 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
-ms.date: 01/20/2021
+ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 7a98b53a34ddf403cf6507da7740b97924d4c81c
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 9783d5d25c31bd830931cf3f363359880a6e19bf
+ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385197"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5882168"
 ---
 # <a name="troubleshooting-microsoft-teams-integration-with-prod_short"></a>[!INCLUDE [prod_short](includes/prod_short.md)] ja Microsoft Teamsin integroinnin vianmääritys
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
 Tässä artikkelissa on tietoja tavallisten käyttäjien tai järjestelmänvalvojien kohtaamien ongelmien tunnistamisesta ja korjaamisesta, kun käytetään Microsoft Teamsia [!INCLUDE [prod_short](includes/prod_short.md)]in kanssa.
+
+## <a name="the-sign-in-link-doesnt-work"></a>Sisäänkirjautumislinkki ei toimi
+
+Jos yritit kirjautua Teamsin [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovellukseen heti sovelluksen asentamisen jälkeen eikä kirjautumislinkki toiminut, sovelluksen asennus ei ehkä ole vielä täysin valmis. Yritä korjata ongelma kirjautumalla ulos Teams-asiakasohjelmasta ja kirjautumalla sitten uudelleen sisään.
+
+## <a name="the-settings-page-is-empty"></a>Asetukset-sivu on tyhjä
+
+Asetuksiin pääsee vasta kirjautumisen jälkeen. Kirjaudu sovellukseen joko liittämällä linkki [!INCLUDE [prod_short.md](includes/prod_short.md)] -tietueeseen ja yrittämällä hakea yhteyshenkilöitä. Kumpikin toiminto vie kirjautumiskokemukseen, jonka jälkeen **Asetukset**-sivu on käytettävissä.
+
+## <a name="i-changed-company-but-it-didnt-seem-to-work"></a>Yrityksen vaihtaminen ei näytä onnistuneen
+
+Kun yritys on vaihdettu **Asetukset**-sivulla, komentoruudun avattava luettelo voi ilmaista, että haku tapahtuu edelleen edellisessä yrityksessä. Tämä ongelma esiintyy, kun **Asetukset**-sivu avataan suoraan komentoruudussa. Tässä tapauksessa yrityksen vaihtaminen onnistui ja haku tehdään vaihdetussa yrityksessä. Ongelmana on vain se, että komentoruudun avattavaa luetteloa ei ole vielä päivitetty. Jotta avattava luettelo ilmaisisi haun kohteena olevan yrityksen oikein, [!INCLUDE [prod_short.md](includes/prod_short.md)] on suljettava komentoruudussa tai sen kiinnitys poistettava, jonka jälkeen sovellus on avattava uudelleen.
+
+
+<!--When you change company from the **Settings** page that you reach from the command box, returning to the command box drop-down continues to show the previous company even though the company was successfully changed. For the drop-down accurately reflect the company you'll search in, you must close or unpin [!INCLUDE [prod_short.md](includes/prod_short.md)] from the command box and then find it again.-->
+
+## <a name="something-went-wrong-error-when-searching-for-contacts"></a>Tapahtui virhe -ilmoitus yhteyshenkilöitä haettaessa
+
+Tämä virhe voi esiintyä, kun haku koskee yritystä, jota ei ole käynnistetty tai joka ei vastaa. Hakua ei voi esimerkiksi tehdä uudessa kokeiluversion yrityksessä, joka ei vielä hyväksynyt käyttöehtoja. Ongelman voi ratkaista kokeilemalla kirjautumista [!INCLUDE [prod_short.md](includes/prod_short.md)] -verkkoasiakasohjelmaan sekä toimimalla avautuvien valintaikkunoiden ohjeiden mukaisesti tai hylkäämällä ne.
+
+## <a name="the-contacts-api-was-not-found-error-when-searching-for-contacts"></a>Yhteyshenkilön ohjelmointirajapintaa ei löydy -virhe yhteyshenkilöitä haettaessa
+
+Tämän ongelman syynä voivat olla mukautukset tai toimialakohtaiset ratkaisut, jotka vaikuttavat yhteyshenkilön ohjelmointirajapintaan [!INCLUDE [prod_short.md](includes/prod_short.md)]issa, muokkaavat sitä tai eivät toimita sitä. Jos ongelma toistuu, ota yhteys järjestelmänvalvojaan tai tukeen.
 
 ## <a name="none-of-my-links-expand-into-a-card"></a>Yksikään linkkini ei laajennu kortiksi 
 
@@ -36,7 +59,7 @@ Jos kohtaat tämän ongelman, kokeile seuraavia asioita:
 
 2. Tarkista seuraavaksi, että olet kirjautunut sisään oikeilla tunnistetiedoilla.
 
-    Siirry Teamsissa mihin tahansa keskusteluun ja valitse viestiruudusta [!INCLUDE [prod_short](includes/prod_short.md)] -kuvake. Kun näyttöön tulee ikkuna, tarkista, että yhdistetty käyttäjä vastaa sitä, mitä käytät yhteyden muodostamiseen [!INCLUDE [prod_short](includes/prod_short.md)]iin.
+    Siirry Teamsissa mihin tahansa keskusteluun, valitse viestiruudussa [!INCLUDE [prod_short](includes/prod_short.md)] -kuvake hiiren kakkospainikkeella ja valitse sitten **Asetukset**. Kun näyttöön tulee ikkuna, tarkista, että yhdistetty käyttäjä vastaa sitä, mitä käytät yhteyden muodostamiseen [!INCLUDE [prod_short](includes/prod_short.md)]iin.
 
 3. Varmista, että codeunit 2718 **Sivun yhteenvedon toimittaja** on julkaistu verkkopalveluna.
 
@@ -48,9 +71,8 @@ Jos kohtaat tämän ongelman, kokeile seuraavia asioita:
 
 Linkki ei laajennu kortiksi seuraavissa tilanteissa:
 
-- Linkki kohdistuu sellaiseen sivutyyppiin, joka ei edusta tietuetta. Se voi olla esimerkiksi linkki [!INCLUDE [prod_short](includes/prod_short.md)] -roolikeskukseen. Voit tarkistaa sivutyypin verkkoasiakkaan sivun tarkastusruudun avulla [!INCLUDE [prod_short](includes/prod_short.md)]issa. Lisätietoja sivun tarkastuksesta on kohdassa [Sivujen tarkastaminen](across-inspect-page.md).
-- Linkki kohdistuu sivuun, jota (teknisellä tasolla) ei ole liitetty [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelman lähdetaulukkoon. Voit tarkistaa, onko sivulla lähdetaulukko, verkkoasiakkaan sivun tarkastusruudun avulla [!INCLUDE [prod_short](includes/prod_short.md)]issa. Lisätietoja sivun tarkastuksesta on kohdassa [Sivujen tarkastaminen](across-inspect-page.md). 
-- Teams ei tue linkkien esikatseluita joissakin ominaisuuksissa. Kun esimerkiksi avaat chatin ponnahdusikkunassa, olet kokouksessa tai vieras toisessa organisaatiossa.
+- Linkki kohdistuu sivuun, jota (teknisellä tasolla) ei ole liitetty [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelman lähdetaulukkoon. Voit tarkistaa, onko sivulla lähdetaulukko, verkkoasiakkaan sivun tarkastusruudun avulla [!INCLUDE [prod_short](includes/prod_short.md)]issa. Lisätietoja sivun tarkastuksesta on kohdassa [Sivujen tarkastaminen](across-inspect-page.md).
+- Teams ei tue linkkien esikatseluita joissakin ominaisuuksissa. Avaa esimerkiksi keskustelun ponnahdusikkunassa tai olet vieras toisessa organisaatiossa.
 - Teams hiljaa hylkää kortin näyttämisen yrittämisen 15 sekunnin kuluttua esimerkiksi verkko-ongelmien vuoksi.
 - Teams ei välttämättä laajenna linkkiä, jos olet jo liittänyt linkin samaan viestiruutuun ja poistanut kortin.
 
@@ -66,10 +88,6 @@ Esimerkiksi:
 `https://businesscentral.dynamics.com/?environmentname=Production&company=CRONUS%20USA%2C%20Inc.&page=21&dc=0&bookmark=21%3bEgAAAAJ7BTEAMAAwADAAMA%3d%3d`
 
 Teknisiä tietoja [!INCLUDE [prod_short](includes/prod_short.md)]in URL-osoitteista on [!INCLUDE [prod_short](includes/prod_short.md)]in kehittäjän ja IT-ammattilaisen ohjeessa kohdassa [Verkkoasiakkaan URL-osoite](/dynamics365/business-central/dev-itpro/developer/devenv-web-client-urls).
-
-## <a name="the-card-is-displayed-in-the-message-compose-box-but-selecting-the-details-button-does-nothing"></a>Kortti näkyy viestiruudussa, mutta Tiedot-painikkeen valitseminen ei tee mitään 
-
-Kun linkki laajenee kortiksi viestiruudussa, sinun on lähetettävä viesti keskusteluun, ennen kuin voit käyttää **Tiedot**-painiketta.
 
 ## <a name="the-details-window-opens-but-shows-an-error-before-details-are-shown"></a>Tiedot-ikkuna aukeaa, mutta näyttöön tulee virhe, ennen kuin tiedot näkyvät
 
@@ -89,7 +107,7 @@ Tämä ongelma voi johtua muutamasta asiasta: käyttöoikeuksien puutteesta [!IN
 
     Lisätietoja selaimen vähimmäisvaatimuksista on kohdassa [[!INCLUDE [prod_short](includes/prod_short.md)]in käytön vähimmäisvaatimukset](product-requirements.md#browsers) 
 
-## <a name="im-having-problems-with-the-camera-or-location-in-teams"></a>Minulla on ongelmia kameran tai sijainnin kanssa Teamsissa 
+## <a name="im-having-problems-with-the-camera-or-location-in-teams"></a>Minulla on ongelmia kameran tai sijainnin kanssa Teamsissa
 
 Kun käytät [!INCLUDE [prod_short](includes/prod_short.md)]issa tietoikkunassa ominaisuuksia, jotka vaativat sijainnin tai laitteen kameran käyttöä, sinun on ensin annettava Teamsille suostumuksesi näiden laiteominaisuuksien käyttämiseen.  
 

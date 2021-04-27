@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
-ms.date: 03/04/2021
+ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: d95e97a232cfb7fda8f40f68875b747723abbd4b
-ms.sourcegitcommit: 35f7e24c301926b39094aa64fe608afd04fdb8e1
+ms.openlocfilehash: 86e540a34efba3fccbc0615cac692fd6c405bee0
+ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "5573374"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5882228"
 ---
 # <a name="teams-faq"></a>Teams – usein kysytyt kysymykset
 
@@ -25,13 +25,13 @@ Tässä artikkelissa vastataan joihinkin kysymyksiin, joita sinulla voi olla Tea
 
 ## <a name="general"></a>[Yleiset](#tab/general)
 
-### <a name="how-do-i-sign-in-to-the-prod_shortmd-app-in-teams"></a>Miten kirjaudun [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovellukseen Teamsissa? 
+### <a name="how-do-i-sign-in-to-the-prod_shortmd-app-in-teams"></a>Miten kirjaudun [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovellukseen Teamsissa?
 
-Kun olet asentanut sovelluksen, sinua pyydetään kirjautumaan sisään, kun liität [!INCLUDE [prod_short.md](includes/prod_short.md)] -linkin ensimmäisen kerran Teams-keskusteluun tai kun valitset **Tiedot**-toiminnon kortissa Teamsissa. Teams-asiakkaan mukaan sinun on ehkä annettava tunnistetiedot, joita käytät [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovellukseen kirjautumiseen. 
+Sovelluksen asennuksen jälkeen sinua pyydetään kirjautumaan sisään, kun käytät sovellusten ensimmäisen kerran, kun liität [!INCLUDE [prod_short.md](includes/prod_short.md)] -linkin Teams-keskusteluun tai kun valitset Teamsin kortissa **Tiedot**-toiminnon. Teams-asiakkaan mukaan sinun on ehkä annettava tunnistetiedot, joita käytät [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovellukseen kirjautumiseen.
 
-### <a name="how-do-i-sign-out-of-the-prod_shortmd-app-in-teams"></a>Miten kirjaudun ulos [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovelluksesta Teamsissa? 
+### <a name="how-do-i-sign-out-of-the-prod_shortmd-app-in-teams"></a>Miten kirjaudun ulos [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovelluksesta Teamsissa?
 
-Kun haluat kirjautua ulos Teamsin käyttäjähenkilöllisyydestä, jota käytettiin yhteyden muodostamiseen [!INCLUDE [prod_short.md](includes/prod_short.md)]iin, siirry mihin tahansa keskusteluruutuun ja valitse alla oleva [!INCLUDE [prod_short.md](includes/prod_short.md)] -kuvake. Kun ikkuna tulee näkyviin, tarkista kirjautuneena oleva käyttäjähenkilöllisyys ja valitse **Kirjaudu ulos**. Jos käytät Teamsia selaimessa, sinut kirjataan myös ulos kaikista [!INCLUDE [prod_short.md](includes/prod_short.md)] -verkkoasiakasohjelmista samassa selainikkunassa.
+Voit kirjautua ulos Teamsin käyttäjätiedoista, jota käytettiin yhteyden muodostamiseen [!INCLUDE [prod_short.md](includes/prod_short.md)]iin, siirtymällä johonkin keskusteluruutuun, napsauttamalla hiiren kakkospainikkeella alla olevaa [!INCLUDE [prod_short.md](includes/prod_short.md)] -kuvaketta ja valitsemalla sitten **Asetukset**. Kun ikkuna avautuu, valitse käyttäjätiedot, joilla olet kirjautuneena, ja valitse lopuksi **Kirjaudu ulos**.
 
 ### <a name="does-the-app-for-teams-connect-to-prod_shortmd-on-premises"></a>Yhdistyykö Teams-sovellus [!INCLUDE [prod_short.md](includes/prod_short.md)]in paikalliseen versioon? 
 
@@ -39,7 +39,7 @@ Ei. [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovellus Teamsille toimi
 
 ### <a name="does-the-app-work-with-multiple-companies-and-environments"></a>Toimiiko sovellus useissa yrityksissä ja ympäristöissä? 
 
-Kyllä. Kun [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovellus laajentaa linkin korttiin, linkin tulee sisältää sovelluksen ympäristön ja yrityksen nimet, jotka vastaavat oikean yrityksen tietueita. Voit liittää linkkejä kaikkiin yrityksiin ja ympäristöihin, joihin sinulla on käyttöoikeus organisaatiossasi, ja [!INCLUDE [prod_short.md](includes/prod_short.md)] -tililtä, jota käytit sisäänkirjautuessa. Chatin osanottajat näkevät kortin. He eivät kuitenkaan voi tarkastella kortin tietoja, ellei heillä ole oikeuksia yritykseen tai ympäristöön, jossa kyseinen tietue on tallennettuna.
+Kyllä. Toisessa yrityksessä olevia yhteyshenkilöitä voi hakea valitsemalla [Asetukset](across-teams-settings.md). Kun [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovellus laajentaa linkin korttiin, linkin tulee sisältää sovelluksen ympäristön ja yrityksen nimet, jotka vastaavat oikean yrityksen tietueita. Voit liittää linkkejä kaikkiin yrityksiin ja ympäristöihin, joihin sinulla on käyttöoikeus organisaatiossasi, ja [!INCLUDE [prod_short.md](includes/prod_short.md)] -tililtä, jota käytit sisäänkirjautuessa. Chatin osanottajat näkevät kortin. He eivät kuitenkaan voi tarkastella kortin tietoja, ellei heillä ole oikeuksia yritykseen tai ympäristöön, jossa kyseinen tietue on tallennettuna.
 
 ### <a name="in-which-countries-or-regions-is-the-prod_shortmd-app-available"></a>Missä maissa tai millä alueilla [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovellus on saatavilla? 
 
@@ -65,9 +65,12 @@ Seuraavassa taulukossa kuvataan, miten viestin tekijöiden ja vastaanottajien ko
 
 Luettelo [!INCLUDE [prod_short.md](includes/prod_short.md)]in tuetuista kielistä on kohdassa [Tuetut kielet](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json#supported-languages).
 
-### <a name="does-the-business-central-app-work-with-industry-solutions"></a>Toimiiko Business Central -sovellus toimialan ratkaisujen kanssa?
+### <a name="does-the-prod_shortmd-app-work-with-industry-solutions"></a>Voiko [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovellusta käyttää toimialaratkaisujen kanssa?
 
-Kyllä. Sovellus toimii linkeissä, jotka perustuvat **\*.bc.dynamics.com**-malliin, jota käytetään tyypillisesti [upotetuissa sovelluksissa](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview).
+Kyllä. Kuitenkin vain joitakin sovelluksen ominaisuuksia voi käyttää [upotettujen sovellusten](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview) kanssa:
+
+- Sovellus toimii linkeissä, jotka perustuvat upotettujen sovellusten kanssa tyypillisesti käytetyssä **\*.bc.dynamics.com**-mallissa.
+- Yhteyshenkilöhaku ei ole käytettävissä upotetuissa sovelluksissa, jotka korvaavat Microsoftin perussovelluksen.
 
 ### <a name="where-can-i-find-teams-integration-inside-the-prod_shortmd-web-client"></a>Mistä löydän Teams-integroinnin [!INCLUDE [prod_short.md](includes/prod_short.md)] -verkkoasiakkaan sisällä? 
 
@@ -75,7 +78,7 @@ Teams-komponentteja tai Teamsin ominaisuuksia ei tällä hetkellä upoteta [!INC
 
 ### <a name="does-prod_shortmd-work-with-the-teams-mobile-app"></a>Toimiiko [!INCLUDE [prod_short.md](includes/prod_short.md)] Teamsin mobiilisovelluksen kanssa?
 
-Kyllä. [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovellus voidaan asentaa tiimien Teams-työpöytäsovelluksesta tai selaimesta tai järjestelmänvalvoja kaikille käyttäjille. Kun [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovellus on asennettu, se on automaattisesti saatavilla Teamsin iOS- ja Android-sovelluksissa. Mobiililaitteissa voit katsella muiden lähettämiä kortteja, käyttää tietoja tai avata kortin koko käyttökokemuksessa [!INCLUDE [prod_short.md](includes/prod_short.md)] -mobiilisovelluksessa. Et voi kuitenkaan liittää linkkejä, jotka laajentuvat korteiksi viestejä kirjoittaessasi. Mobiilisovelluksen vähimmäisvaatimukset ovat kohdassa [Business Centralin käyttämisen vähimmäisvaatimukset](product-requirements.md).
+Kyllä. [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovellus voidaan asentaa tiimien Teams-työpöytäsovelluksesta tai selaimesta tai järjestelmänvalvoja kaikille käyttäjille. Kun [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovellus on asennettu, se on automaattisesti saatavilla Teamsin iOS- ja Android-sovelluksissa. Mobiililaitteissa voi vain katsella muiden lähettämiä kortteja, käyttää tietoja tai avata kortti koko käyttökokemuksessa [!INCLUDE [prod_short.md](includes/prod_short.md)] -mobiilisovelluksessa. Et voi kuitenkaan liittää linkkejä, jotka laajentuvat korteiksi viestejä kirjoittaessa, etkä hakea yhteyshenkilöitä. Mobiilisovelluksen vähimmäisvaatimukset ovat kohdassa [Business Centralin käyttämisen vähimmäisvaatimukset](product-requirements.md).
 
 ### <a name="is-the-prod_shortmd-app-for-teams-the-same-as-the-prod_shortmd-app-for-ios-and-android"></a>Onko [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovellus Teamsille sama kuin [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovelluksen iOS- ja Android-versiot?
 
@@ -98,7 +101,8 @@ Lisätietoja Teams-asiakkaiden valinnasta ja niiden asentamisesta on Teamsin dok
 
 Teams-asiakkaiden välillä on vain vähäisiä eroja ja rajoituksia, jotka voivat vaikuttaa Teamsin [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovelluksen käyttökokemukseen. Kun valitset Teams-asiakasta, harkitse seuraavia asioita:
 
-- Kameraa ja sijaintia ei voi käyttää Teams-työpöytäsovelluksen Tiedot-ikkunasta 
+- Kameraa ja sijaintia ei voi käyttää Teams-työpöytäsovelluksen Tiedot-ikkunasta.
+- Puhelinnumeroita ei voi aktivoida iOS:n ja Androidin Teamsin tai selaimen Teamsin tietoikkunassa.
 - Käyttämällä Microsoft Edgeä Teamsin kanssa selaimessa voit helposti työskennellä eri tunnistetiedoilla ja tileillä kirjautumalla Teamsiin eri profiileista. Jos haluat lisätietoja profiilien käyttämisestä Microsoft Edge -ohjelmassa, katso ohjeaihe [Kirjautuminen ja usean profiilin luominen Microsoft Edgessä](https://support.microsoft.com/office/sign-in-and-create-multiple-profiles-in-microsoft-edge-df94e622-2061-49ae-ad1d-6f0e43ce6435).
 
 ### <a name="what-is-the-best-way-for-me-to-demonstrate-prod_shortmd-and-microsoft-teams-to-prospective-customers"></a>Mikä on paras tapa esitellä [!INCLUDE [prod_short.md](includes/prod_short.md)]ia ja Microsoft Teamsia mahdollisille asiakkaille?
@@ -110,6 +114,8 @@ Jos olet jälleenmyyjäkumppani, haluat ehkä saada ympäristön, jonka voit nä
 Teamsin [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovellus voi näyttää kortteja, joissa on linkkejä asiakkaan sivuihin ja taulukoihin [!INCLUDE [prod_short.md](includes/prod_short.md)]issa, kuten sivuihin ja taulukoihin, jotka ovat peräisin omista mukautetuista laajennuksistasi tai AppSourcesta.
 
 Teamsissa kortilla näkyviin kenttiin voivat vaikuttaa myös organisaatioosi asennetut [!INCLUDE [prod_short.md](includes/prod_short.md)] -mukautukset. Kortit eivät ota huomioon roolikohtaisia mukautuksia tai käyttäjän mukauttamista. Kortin tiedot -ikkunassa näkyvät kuitenkin tietueiden yksityiskohdat siinä muodossa kuin näkisit ne [!INCLUDE [prod_short.md](includes/prod_short.md)]issa, mukaan lukien laajennukset, roolien mukautukset ja käyttäjän personoinnit.
+
+Yhteyshenkilöitä haettaessa mukautuksella tai mukauttamisella ei ole vaikutusta kenttiin, jotka vastaavat hakutuloksissa näytettyä **Yhteyshenkilöt**-taulukkoa tai -kenttiä.
 
 ### <a name="how-do-the-permissions-required-by-the-app-affect-my-privacy"></a>Miten sovelluksen vaatimat käyttöoikeudet vaikuttavat tietosuojaan?
 
@@ -132,13 +138,105 @@ Järjestelmänvalvojaltasi saat tietoja siitä, miten organisaatiosi käsittelee
 
 ### <a name="how-do-i-uninstall-the-prod_shortmd-app-for-teams"></a>Miten poistan Teamsin [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovelluksen asennuksen?
 
-Jos haluat poistaa sovelluksen, jonka asensit itse, siirry mihin tahansa keskusteluruutuun, etsi alla oleva [!INCLUDE [prod_short.md](includes/prod_short.md)] -kuvake, napsauta kuvaketta hiiren kakkospainikkeella ja valitse Poista asennus.  
+Jos haluat poistaa itsellesi asennetun sovelluksen, siirry johonkin keskusteluruutuun, etsi alla oleva [!INCLUDE [prod_short.md](includes/prod_short.md)] -kuvake, napsauta kuvaketta hiiren kakkospainikkeella ja valitse **Poista asennus**.  
 
 ### <a name="will-microsoft-continue-to-improve-the-prod_shortmd-app-for-teams"></a>Jatkaako Microsoft Teamsin [!INCLUDE [prod_short.md](includes/prod_short.md)]-sovelluksen parantamista?
 
-Microsoft saa jatkuvasti palautetta monipuoliselta käyttäjäyhteisöltä ja ottaa parhaat ehdotukset huomioon. Jos haluat tietää, mitä on seuraavaksi tulossa Teamsin [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovellukselle, tutustu [Dynamics 365:n julkaisusuunnitelmaan](https://aka.ms/dynamics365releaseplan).
+Microsoft saa jatkuvasti palautetta monipuoliselta käyttäjäyhteisöltä ja ottaa parhaat ehdotukset huomioon. Jos haluat tietää, mitä on seuraavaksi tulossa Teamsin [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovellukselle, tutustu [Dynamics 365:n julkaisusuunnitelmaan](/dynamics365-release-plan/2021wave1/).
 
-Jos haluat osallistua Teamsin sovelluksen parantamiseen tai sinulla on hyvä idea, joka auttaisi yksinkertaistamaan työtä tai yhteistyökokemuksia Teamsissa, lisätä idea tai äänestää olemassa olevia ideoita osoitteessa [https://aka.ms/BusinessCentralIdeas](https://aka.ms/BusinessCentralIdeas).
+Jos haluat osallistua Teamsin sovelluksen parantamiseen tai sinulla on idea, joka auttaisi yksinkertaistamaan työtä tai yhteistyökokemuksia Teamsissa, lisää idea tai äänestä olemassa olevia ideoita osoitteessa [https://aka.ms/BusinessCentralIdeas](https://aka.ms/BusinessCentralIdeas).
+
+## <a name="searching-for-contacts"></a>[Yhteyshenkilöiden hakeminen](#tab/contacts)
+
+### <a name="which-tables-does-the-app-search-in"></a>Missä taulukoissa sovellus tekee hakuja?
+
+Kun yhteyshenkilöitä haetaan Teamsin [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovelluksesta, hakusanoja verrataan [!INCLUDE [prod_short.md](includes/prod_short.md)]in **Yhteyshenkilöt**-taulukon tietueisiin. 
+
+### <a name="which-fields-in-the-contacts-table-can-i-search"></a>Missä yhteyshenkilötaulukon kentissä voi tehdä hakuja?
+
+Kun hakusanoja kirjoitetaan hakuruutuun, niitä verrataan useimpiin **Yhteyshenkilöt**-taulukon kenttiin. Näitä kenttiä ovat esimerkiksi **Nro**-, **Nimi**-ja **Osoite**-kentät, **Puhelinnro** tai **Matkapuhelinnro** ja **Sähköposti**.  
+
+### <a name="do-search-results-include-companies-and-persons"></a>Sisältävätkö hakutulokset yritykset ja henkilöt?
+
+Kyllä. Yhteyshenkilöiden tyyppi [!INCLUDE [prod_short.md](includes/prod_short.md)]issa voi olla **Yritys** tai **Henkilö**, kun vähintään yksi henkilö voi olla liitetty yritykseen. Yrityksillä ja henkilöillä on hakutuloksissa erilainen kuvake.
+
+### <a name="do-contacts-of-any-business-relationship-appear-in-the-results"></a>Sisältyvätkö liikesuhteiden yhteyshenkilöt tuloksiin?
+
+Kyllä. Jotkin yhteyshenkilöt voivat ilmaista asiakkaita tai toimittajia tai molempia. Muut yhteyshenkilöt, joilla ei ole määritetty liikesuhdetta, ilmaisevat yleensä mahdollisen asiakkaan. Yhteyshenkilöt, joissa on muita liikesuhteita, kuten [!INCLUDE [prod_short.md](includes/prod_short.md)]issa mahdollisesti määritettyjä mukautettuja suhteita, näkyvät myös hakutuloksissa.
+
+### <a name="can-i-look-up-contact-details-during-meetings"></a>Voinko hakea yhteyshenkilön tietoja kokousten aikana?
+
+Kyllä. Voit hakea asiakkaan tai toimittajan yhteystiedot, vuorovaikutushistorian ja liittyvät asiakirjat Teams-kokouksen tai puhelun aikana Teamsista poistumatta.
+
+Voit itse asiassa hakea yhteyshenkilön tietoja mistä tahansa Teamsissa komentoruudun avulla. Voit esimerkiksi hakea yhteyshenkilön tiedot Teams-kalenterista, mikä auttaa sopimaan tapaamisen.
+
+### <a name="how-do-i-view-my-last-interactions-with-a-contact"></a>Miten viimeisimpiä vuorovaikutuksia yhteyshenkilön kanssa tarkastellaan?
+
+Yhteyshenkilön tietoikkunassa on näkyvissä vuorovaikutuslokin tapahtumat. Vuorovaikutuslokin tapahtumat ilmaisevat organisaation ja tietyn yhteyshenkilön vuorovaikutushistorian. Vuorovaikutuksia ovat esimerkiksi sähköpostikirjeenvaihto, vastaanotetut puhelut ja lähetetyt asiakirjat.
+
+Vuorovaikutusten näyttäminen edellyttää, että [!INCLUDE [prod_short.md](includes/prod_short.md)] on määritetty seuraamaan vuorovaikutuksia. Lisätietoja vuorovaikutusten kirjaamisesta lokiin on kohdassa [Yhteyshenkilöiden kanssa tapahtuvien vuorovaikutusten kirjaaminen](marketing-interactions.md).
+
+### <a name="how-do-i-register-a-teams-call-or-meeting-as-an-interaction"></a>Miten Teams-puhelu tai -kokous rekisteröidään vuorovaikutuksena?
+
+Etsi yhteyshenkilön tietoikkunassa **Luo vuorovaikutus** -toiminto ja valitse saapuvat tai lähtevät puhelut vuorovaikutusmalleina. Voit luoda myös omia mukautettuja vuorovaikutusmalleja nimenomaan Teams-keskusteluissa käytettäviksi.
+
+### <a name="can-i-call-a-contact-from-the-prod_shortmd-app-for-teams"></a>Voinko soittaa yhteyshenkilölle Teamsin [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovelluksesta?
+
+[!INCLUDE [prod_short.md](includes/prod_short.md)] on integroitu jossain määrin Teamsin puheluominaisuuksiin. VOIP-puhelua ei aloittaa välittömästi yhteyshenkilökortista tai yhteyshenkilön tietoikkunasta. Kun yhteyshenkilötietoja kuitenkin tarkastellaan Teams-työpöytäsovelluksesta, puhelinnumerokentän valitsemalla voidaan soittaa kyseiseen numeroon, jos Teams on määritetty laitteessa soitonvalintasovellukseksi. Jos Teamsissa soitetaan lankapuhelimeen tai matkapuhelinnumeroihin perinteisellä PSTN-puhelinjärjestelmä, käytössä on oltava Microsoft 365 Business Voice -sovellus. Lisätietoja on kohdassa [Mikä on Microsoft 365 Business Voice?](/MicrosoftTeams/business-voice/whats-business-voice).
+
+### <a name="how-do-i-view-recent-documents-for-a-customer-or-vendor"></a>Miten voin tarkastella asiakkaan tai toimittajan viimeaikaisia asiakirjoja?
+
+[!INCLUDE [prod_short.md](includes/prod_short.md)] liittää yhteyshenkilön yleensä asiakas- tai toimittajatietueeseen, joka puolestaan liittyy liiketapahtumatietueisiin, kuten myyntitarjouksiin tai ostolaskuihin. Voit tarkastella yhteyshenkilön liittyviä asiakirjoja siirtymällä yhteyshenkilön tietoikkunaan, valitsemalla **Liikesuhde**-kentän arvon tai siirtymällä liitettyyn asiakkaaseen tai toimittajaan toimintojen avulla. Laajenna asiakas- tai toimittajasivulla tietoruutu. Näkyviin tulee erilaisten asiakirjojen tilastoja, joihin voi porautua. Kokemus voi olla erilainen omien mukautusten tai mukauttamisten vuoksi.
+
+### <a name="how-do-i-search-for-contacts-using-special-characters"></a>Miten erikoismerkkejä käyttäviä yhteyshenkilöjä haetaan?
+
+Hakuehdoissa voidaan käyttää lähes kaikki unicode-merkkejä. [!INCLUDE [prod_short.md](includes/prod_short.md)] varaa kuitenkin seuraavat symbolit muuta käyttöä varten: **=**, **.**, **\**_ ja _*@**. Näiden symbolien käyttö hakusanoissa ei ehkä palauta odotuksenmukaisia tuloksia. Jos tulokset eivät ole odotuksenmukaiset, käytä heittomerkkejä hakusanojen ympärillä, kuten seuraavassa: **Contoso'='2**.
+
+### <a name="how-can-i-search-contacts-stored-in-a-different-company"></a>Miten haetaan toiseen yritykseen tallennettuja yhteyshenkilöitä?
+
+Teamsin [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovellus voi hakea asiakkaita, toimittajia ja muita yhteyshenkilöitä samanaikaisesti yhdestä yrityksestä.  
+Toiseen [!INCLUDE [prod_short.md](includes/prod_short.md)] -yritykseen tallennettuja yhteyshenkilöitä voi hakea avaamalla [Asetukset](across-teams-settings.md) sekä vaihtamalla ympäristön ja yrityksen siellä.
+
+### <a name="are-prod_shortmd-contacts-different-than-the-ones-in-the-teams-contacts-screen"></a>Ovatko [!INCLUDE [prod_short.md](includes/prod_short.md)]in yhteyshenkilöt erilaisia kuin Teamsin yhteyshenkilönäytön yhteyshenkilöt?
+
+Kyllä. [!INCLUDE [prod_short.md](includes/prod_short.md)]iin tallennetut yhteyshenkilöt ilmaisevat organisaatiossa käytettävissä olevia liiketoiminnan yhteyshenkilöitä. Ne ovat yhteyshenkilöitä, jotka on muodostettu ja joilla on hyvin määritetty liikesuhde, tai yhteyshenkilöitä, jotka ilmaisevat mahdollisia asiakkaita. Nämä yhteyshenkilöt ovat tyypillisesti ulkoisia yhteyshenkilöitä. Teamsin puhelujen yhteyshenkilöluettelossa näkyvät yhteyshenkilöt ovat sen sijaan omia yhteyshenkilöitä. Näitä yhteyshenkilöitä ei välttämättä jaeta muiden kanssa organisaatiossa, ja ne ilmaisevat tyypillisesti organisaation sisäisiä yhteyshenkilöitä.
+
+### <a name="does-prod_shortmd-synchronize-contacts-with-teams"></a>Synkronoiko [!INCLUDE [prod_short.md](includes/prod_short.md)] yhteyshenkilöt Teamsin kanssa?
+
+Ei. [!INCLUDE [prod_short.md](includes/prod_short.md)]iin tallennetut yhteyshenkilöt jäävät erilleen Teamsiin tallennetuista yhteyshenkilöistä.
+Tällä hetkellä kahden luettelon synkronointia ei suunnitella.
+
+### <a name="what-is-the-minimum-version-of-prod_shortmd-for-contact-search"></a>Mikä on yhteyshenkilöhaussa käytettävä [!INCLUDE [prod_short.md](includes/prod_short.md)]in vähimmäisversio?
+
+Yhteyshenkilöhakua varten on asennettava Teamsin [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovelluksen versio 1.0.4 tai sitä uudempi versio ja muodostettava yhteys [!INCLUDE [prod_short.md](includes/prod_short.md)] -ympäristön versioon 18 tai sitä uudempaan versioon.
+
+### <a name="can-i-search-from-my-mobile-device"></a>Voiko haun tehdä mobiililaitteesta?
+
+Yhteyshenkilöhaku ei ole käytettävissä iOS:n ja Androidin Teamsissa tällä hetkellä.
+
+### <a name="which-permissions-do-i-need-for-contact-search"></a>Mitä oikeuksia tarvitaan yhteyshenkilöhakuun?
+
+Yhteyshenkilöhakua varten tarvitaan **Yhteyshenkilöt**-taulukon objektitason oikeus haettavassa [!INCLUDE [prod_short.md](includes/prod_short.md)] -yrityksessä. Yhteyshenkilön tietoikkunan näyttämiseen tarvitaan ainakin **Yhteyshenkilö**-sivun ja muiden liittyvien objektien lukuoikeudet [!INCLUDE [prod_short.md](includes/prod_short.md)] -yrityksessä.
+
+### <a name="can-i-use-contact-search-if-im-a-delegated-admin"></a>Voiko delegoitu järjestelmänvalvoja käyttää yhteyshenkilöhakua?
+
+Kyllä. Yhteyshenkilöitä ja yhteyshenkilön tietoja voi hakea, jos käyttäjällä on delegoidun järjestelmänvalvojan rooli organisaatiossa.
+
+### <a name="is-contact-search-affected-by-api-limits"></a>Vaikuttavatko ohjelmointirajapinnan rajoitukset yhteyshenkilöhakuun?
+
+Kyllä. Yhteyshenkilöiden haku Teamsista perustuu [!INCLUDE [prod_short.md](includes/prod_short.md)] v2.0 -ohjelmointirajapintoihin ja kaikki käytön hallinnassa käytetyt ohjelmointirajapintojen rajoitukset koskevat sitä. Lisätietoja rajoituksista on kohdassa [Tämän hetkiset ohjelmointirajapintojen rajoitukset](/dynamics-nav/api-reference/v2.0/dynamics-current-limits).
+
+### <a name="why-does-it-sometimes-ask-me-to-set-up-the-app"></a>Miksi sovelluksen määrittämistä pyydetään joskus?
+
+Kun kirjaudut Teamsin [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovellukseen ensimmäisen kerran, sovellus yrittää määrittää [!INCLUDE [prod_short.md](includes/prod_short.md)]in ensisijaisen yrityksen. Jos sovellus ei pysty määrittämään yritystä, on ehkä siirryttävä **asetuksiin** valitsemaan yritys, jossa haku halutaan tehdä. Näin voi tapahtua esimerkiksi silloin, jos käytettävissä on useita yrityksiä organisaation eri ympäristöissä. Siinä tapauksessa yritys on valittava ennen haun aloittamista.  
+
+Sovellus voi myös pyytää siirtymään **asetuksiin**, jos näyttää siltä, ettei sinulla ole [!INCLUDE [prod_short.md](includes/prod_short.md)] -tilausta, [!INCLUDE [prod_short.md](includes/prod_short.md)] -ympäristöä ei ole tai tilillä ei ole [!INCLUDE [prod_short.md](includes/prod_short.md)] -käyttöoikeutta.
+
+### <a name="id-like-to-search-for-items-or-records-from-other-tables-can-i-do-this-from-teams"></a>Haluan hakea nimikkeitä tai tietueita muista taulukoista. Onko tämä mahdollista myös Teamsissa?
+
+Haku muista taulukoista ei ole mahdollista tällä hetkellä. Teamsin [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovellus tekee hakuja vain [!INCLUDE [prod_short.md](includes/prod_short.md)] -yhteyshenkilöluettelossa, joka voi sisältää toimittajia, asiakkaita ja muita yhteyshenkilöitä.
+
+Jos haluat, että hakuominaisuudet kehittyvät sisältämään muita taulukoita, yhteisöä kannustetaan lisäämään idea tai äänestämään aiemmin luotuja ideoita osoitteessa https://aka.ms/BusinessCentralIdeas.
 
 ## <a name="working-with-cards"></a>[Korttien käsitteleminen](#tab/cards)
 
@@ -153,7 +251,7 @@ Teamsin [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovellus reagoi usei
 
 Kun liität linkin verkkoasiakkaan URL-pääosoitteeseen, esimerkiksi https://businesscentral.dynamics.com, kortissa näkyy tietoja, joiden avulla uudet käyttäjät voivat aloittaa [!INCLUDE [prod_short.md](includes/prod_short.md)]in käytön.
 
-### <a name="how-do-i-delete-a-card-i-sent-to-a-chat"></a>Miten poistan keskusteluun lähettämääni kortin? 
+### <a name="how-do-i-delete-a-card-i-sent-to-a-chat"></a>Miten poistan keskusteluun lähettämääni kortin?
 
 Et voi poistaa korttia, jonka olet jo lähettänyt keskusteluun. Voit kuitenkin poistaa koko viestin, johon kortti kuuluu.
 
@@ -181,13 +279,13 @@ Jos työskentelet eri [!INCLUDE [prod_short.md](includes/prod_short.md)] -yrityk
 
 ### <a name="if-i-choose-to-view-details-for-a-card-will-other-users-see-my-details-window"></a>Jos valitsen katsoa kortin tiedot, näkevätkö muut käyttäjät tietoikkunani?
 
-Ei. Kun kaikki chatissa olevat voivat tarkastella itse korttia, Tiedot-ikkuna tulee näkyviin vain omassa laitteessasi, kun valitset **Tiedot**. Muiden käyttäjien täytyy valita **Tiedot**, jos he haluaisivat tarkastella tietoikkunaa laitteissaan.
+Ei. Siinä missä kaikki keskustelussa tai kokouksessa olevat voivat tarkastella itse korttia, tietoikkuna avautuu vain omassa laitteessa, kun valitset **Tiedot**. Muiden käyttäjien täytyy valita **Tiedot**, jos he haluaisivat tarkastella tietoikkunaa laitteissaan.
 
 ### <a name="can-i-start-a-teams-call-from-the-details-window-in-teams"></a>Voinko aloittaa Teams-puhelun Tiedot-ikkunasta Teamsissa?
 
-Kyllä. Voit aloittaa puhelun valitsemalla linkitetyn soittonumeron Puhelinnumero-kentästä, esimerkiksi **Matkapuhelimen numero** kentästä **Yhteyshenkilö**-kortissa. Teamsin täytyy olla määritetty soittovalintasovelluksesi.
+Kyllä. Jos käytät Teams-työpöytäsovellusta, voit aloittaa puhelun valitsemalla linkitetyn numeron puhelinnumerokentässä. Tällainen kenttä on esimerkiksi **Matkapuhelimen numero**. kentästä **Yhteyshenkilö**-kortissa. Teamsin täytyy olla määritetty soittovalintasovelluksesi.
 
-Jos haluat soittaa paikallisiin tai kansainvälisiin lankapuhelimiin ja matkapuhelimiin Teamsista, sinulla täytyy olla Teams-lisenssi yrityspuheluita varten. Sinun täytyy myös määrittää Teams puheluratkaisuksesi. Lisätietoja on Teams-dokumentaation ohjeaiheessa [Teams-ääniratkaisun suunnitteleminen](/microsoftteams/cloud-voice-landing-page).
+Jos haluat soittaa paikallisiin tai kansainvälisiin lankapuhelimiin ja matkapuhelimiin, Teams edellyttää, että sinulla on Business Voice -käyttöoikeus yrityspuheluita varten. Sinun täytyy myös määrittää Teams puheluratkaisuksesi. Lisätietoja on Teams-dokumentaation ohjeaiheessa [Teams-ääniratkaisun suunnitteleminen](/microsoftteams/cloud-voice-landing-page).
 
 ### <a name="can-i-print-documents-from-the-details-window-in-teams"></a>Voinko tulostaa asiakirjoja Teamsin tietoikkunasta?
 
@@ -211,7 +309,7 @@ Kyllä. Kun kirjoitat ja lähetät viestin, jossa on kortti, kaikki chatin vasta
 
 ### <a name="is-the-experience-any-different-for-users-that-are-guests"></a>Onko kokemus erilainen käyttäjille, jotka ovat vieraita?
 
-Kyllä. Organisaation ulkopuolisten vieraskäyttäjien kutsuminen osallistumaan keskusteluun tai kanavaan antaa heille samankaltaisen mutta ei identtisen kokemuksen kuin organisaation käyttäjille. Kun vieras vastaanottaa viestin, jossa on kortti, hän voi tarkastella sitä. Asiakkaat voivat myös avata Tiedot-ikkunan, jos heille on myönnetty käyttöoikeus [!INCLUDE [prod_short.md](includes/prod_short.md)] -tietoihin ja määritetty [!INCLUDE [prod_short.md](includes/prod_short.md)] -lisenssi organisaation sisällä. Kun vieras kirjoittaa viestin, linkit [!INCLUDE [prod_short.md](includes/prod_short.md)]iin eivät laajennu korteiksi.
+Kyllä. Organisaation ulkopuolisten vieraskäyttäjien kutsuminen osallistumaan keskusteluun tai kanavaan antaa heille samankaltaisen mutta ei identtisen kokemuksen kuin organisaation käyttäjille. Kun vieras vastaanottaa viestin, jossa on kortti, hän voi tarkastella sitä. Asiakkaat voivat myös avata Tiedot-ikkunan, jos heille on myönnetty käyttöoikeus [!INCLUDE [prod_short.md](includes/prod_short.md)] -tietoihin ja määritetty [!INCLUDE [prod_short.md](includes/prod_short.md)] -lisenssi organisaation sisällä. Kun vieras kirjoittaa viestin, linkit kummankaan [!INCLUDE [prod_short.md](includes/prod_short.md)]iin eivät laajene korteiksi.
 
 Jos haluat tietää vieraiden ja tiimin jäsenten kokemusten samankaltaisuuksista ja eroista, katso [Teamsin vieraskokemus](/MicrosoftTeams/guest-experience) Teams-dokumentaatiossa.
 
@@ -219,7 +317,6 @@ Jos haluat tietää vieraiden ja tiimin jäsenten kokemusten samankaltaisuuksist
 
 Vierailla ei ole pääsyä sovelluskauppaan, jotta he voisivat asentaa itse sovelluksia. Sovellus voidaan kuitenkin asentaa heille automaattisesti organisaatiosi käytäntöjen mukaan. Toinen tapa, jolla vieraskäyttäjä voi asentaa [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovelluksen, on vastaanottaa chat-viesti, joka sisältää [!INCLUDE [prod_short.md](includes/prod_short.md)] -kortin. Tässä tapauksessa käyttäjä valitsee kortin **Tiedot**-painikkeen tai -valikon ja asentaa sitten [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovelluksen käytettäväksi organisaatiosi kanssa. Sovelluksen asentamisen jälkeen käyttäjä ei automaattisesti saa mitään oikeuksia käyttää [!INCLUDE [prod_short.md](includes/prod_short.md)] -tietojasi.
 
-<!--TODO - check with Mike on this -->
 ---
 
 ## <a name="see-also"></a>Katso myös

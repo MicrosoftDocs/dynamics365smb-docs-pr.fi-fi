@@ -1,31 +1,32 @@
 ---
-title: Varaston laskenta asiakirjapohjaisilla toiminnoilla
-description: Tietoja inventoinnista käyttämällä Inventointitilaus- ja Inventointitallennus-sivuja.
+title: Varaston laskeminen ja muuttaminen
+description: Käsitellään inventoinnin suorittamista Inventointitilaukset- ja Inventointitallennus-sivujen avulla sekä negatiivisten tai positiivisten muutosten tekemistä varastoasiakirjojen avulla.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: adjustment, status, negative, positive, increase, decrease
-ms.date: 10/20/2020
+ms.search.keywords: adjustment, status, negative, positive, increase, decrease, inventory
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: be22209240f3bff70619a31f60cb0acac7e51228
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 8804f64dd2cee60514d18785feee4f8fd6cf67aa
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393171"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5785946"
 ---
-# <a name="count-inventory-using-documents"></a>Varastojen laskenta asiakirjoja käyttämällä
+# <a name="count-and-adjust-inventory-using-documents"></a>Varastojen laskenta ja muutos asiakirjoja käyttämällä
 
 Voit inventoida nimikkeet käyttämällä inventointitilauksen ja inventointitallennuksen asiakirjoja. **Inventointitilaus**-sivulla järjestetään täydellinen inventointiprojekti, kuten yksi kussakin toimipisteessä. **Inventointitallennus**-sivun avulla ilmoitetaan ja tallennetaan nimikkeiden varsinainen inventointi. Voit luoda yhdelle tilaukselle useita  tallenteita, jolloin voit esimerkiksi jakaa nimekeryhmiä eri työntekijöille.
 
 Jokaisesta tallenteesta voidaan tulostaa **Inventointitallennus**-raportti. Tämän raportin määräkentät ovat tyhjiä, ja laskettu varasto voidaan sitten lisätä näihin kenttiin. Kun käyttäjä lopettaa inventoinnin ja määrät on lisätty **Inventointitallennus**-sivulla, valitse **Valmis**-toiminto. Määrät siirretään nyt liittyville riveille **Inventointitilaus**-sivulla. Toiminto varmistaa, ettei mitään nimikettä tallennetta kahdesti.  
 
 > [!NOTE]
-> Tässä artikkelissa käsitellään asiakirjoja hyödyntävää inventointia, joka parantaa hallintaa ja tukee inventoinnin jakamista useille työntekijöille. Tehtävän voi suorittaa myös käyttämällä päiväkirjojen, kuten **Varastopäiväkirjat**- ja **F. var. inventointipäiväkirjat**, sivuja. Lisätietoja on kohdassa [Varaston laskeminen, muuttaminen ja uudelleenluokitus päiväkirjojen avulla](inventory-how-count-adjust-reclassify.md).<br /><br />
-> Huomaa, että jos käytät Alueet-toimintoja, et voi käyttää inventointitilauksia. Käytä sen sijaan **F. var. inventointipäiväkirja** -sivua fyysisen varastoinnin tapahtumien laskemiseen, ennen kuin ne synkronoidaan nimiketapahtumien kanssa.
+> Asiakirjoja hyödynnetään inventoinnissa, mikä parantaa hallintaa ja tukee inventoinnin jakamista useille työntekijöille. Tehtävän voi suorittaa myös käyttämällä päiväkirjojen, kuten **Varastopäiväkirjat**- ja **F. var. inventointipäiväkirjat**, sivuja. Lisätietoja on kohdassa [Varaston laskeminen, muuttaminen ja uudelleenluokitus päiväkirjojen avulla](inventory-how-count-adjust-reclassify.md). Tässä artikkelissa käsitellään inventointia asiakirjoja käyttämällä.
+>
+> Jos vyöhykkeet ovat käytössä, inventointitilauksia ei voi käyttää. Käytä sen sijaan **Fyysisen varaston inventointipäiväkirja** -sivua fyysisten varastointitapahtumien laskemiseen, ennen kuin ne synkronoidaan nimiketapahtumien kanssa.
 
 Asiakirjoja hyödyntävä varaston laskenta sisältää yleisesti seuraavat vaiheet:
 
@@ -77,7 +78,6 @@ Jos kyse on manuaalisesta laskennasta, voit tulostaa luettelon, **Inventointital
 9. Valmistele fyysinen asiakirja, johon työntekijät kirjoittavat lasketut määrät, valitsemalla **Tulosta**-toiminto.
 
 ## <a name="to-finish-a-physical-inventory-recording"></a>Inventointitallennuksen valmistuminen
-
 Kun työntekijät ovat laskeneet varastomäärät, niiden kirjaaminen järjestelmään on valmisteltava.
 
 1. Valitse **Inventointitallennusluettelo**-sivulla viimeisteltävä inventointitallenne ja valitse sitten **Muokkaa**-toiminto.
@@ -185,8 +185,52 @@ Eräseurattu nimike tallennetaan varastoon LOT-numerosarjaan.
 
 **Inventointitilaus**-sivun **Negat. määrä (perus)** -kentän arvo on *8*. Kyseisen tilausrivin **Inventoinnin nimikeseurantaluettelo** -sivulla on yksittäisten eränumeroiden positiiviset tai negatiiviset määrät.
 
-## <a name="see-also"></a>Katso myös
+## <a name="inventory-documents"></a>Varastoasiakirjat
+Seuraavat asiakirjatyypit ovat käteviä fyysisen varaston hallinnassa:
 
+- **Varaston vastaanotoilla** voi rekisteröidä nimikkeiden positiiviset muutokset määrän, laadun ja kustannuksen perusteella.
+- **Varaston lähetysten** avulla voi kirjata pois puuttuvia tai vaurioituneita tuotteita.
+
+Nämä asiakirjat voidaan tulostaa koska tahansa. Ne voidaan vapauttaa ja avata uudelleen, minkä lisäksi niiden otsikkoon voidaan määrittää yleisiä arvoja, mukaan lukien dimensioita. Jos haluat tulostaa asiakirjat uudelleen sen jälkeen, kun ne on kirjattu, se voidaan tehdä **Kirjatut varastovastaanotot**- ja **Kirjatut varastolähetykset** -sivuilla.
+
+> [!NOTE]
+> Ennen kuin näitä asiakirjoja voidaan käyttää, niille on luotava tunnisteet määrittämällä numerosarja. Lisätietoja on seuraavassa osassa.
+
+### <a name="to-set-up-numbering-for-inventory-documents"></a>Varastoasiakirjojen numeroinnin määrittäminen
+Seuraavaksi käsitellään varastoasiakirjojen numeroinnin määrittämistä.
+
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita **Varastonhallinnan asetukset** ja valitse sitten liittyvä linkki.
+2. Määritä seuraavissa **Numerointi**-pikavälilehden kentissä asiakirjojen numerosarjat:
+   - **Varaston vastaanoton nrot**  
+   - **Kirjattujen varastovastaanottojen nrot**  
+   - **Varastotoimitusten nrot**  
+   - **Kirjattujen varastotoimitusten nrot**  
+
+### <a name="to-create-and-post-an-inventory-document"></a>Varastoasiakirjan luominen ja kirjaaminen
+Seuraavaksi käsitellään varastovastaanoton luomista, tulostamista ja kirjaamista. Varastotoimitusten vaiheet ovat vastaavanlaiset.
+
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, kirjoita **Varastovastaanotot** ja valitse sitten liittyvä linkki.  
+2. Valitse **Varaston vastaanotto** -sivulla **Sijaintikoodi**-kentän sijainti ja täytä sitten jäljellä olevat kentät tarpeen mukaan.
+3. Valitse **Rivit**-pikavälilehden **Nimike**-kentässä varastonimike. Anna lisättävien nimikkeiden lukumäärä **Määrä**-kentässä. 
+4. **Varaston vastaanotto** -raportin voi tulostaa **Varaston vastaanotto** -sivulla valitsemalla **Tulosta**-toiminnon.
+
+**Varaston vastaanotto** -sivulla on käytössä seuraavat toiminnot:
+
+- Seuraavan käsittelyvaiheen tila määritetään **Vapauta**- tai **Avaa uudelleen** -toiminnolla  
+- Kirjaa varaston vastaanotto valitsemalla **Kirjaa**-toiminto tai kirjaa vastaanotto ja tulosta testiraportti valitsemalla **Kirjaa ja tulosta**  
+
+## <a name="printing-inventory-documents"></a>Varastoasiakirjojen tulostaminen
+Eri vaiheissa tulostettavat raportit voidaan määrittää valitsemalla jokin seuraavista vaihtoehdoista **Raportin valinta – varasto** -sivun **Käyttö**-kentässä:
+
+- Varaston vastaanotto
+- Varastotoimitus
+- Kirjattu varaston vastaanotto
+- Kirjattu varastotoimitus
+
+> [!NOTE]
+> Käytettävissä olevat raportit voivat vaihdella maan lokalisoinnin mukaan. Perussovellus ei sisällä asetteluja.
+
+## <a name="see-also"></a>Katso myös
 [Varaston laskeminen, muuttaminen ja uudelleenluokitus käyttämällä päiväkirjoja](inventory-how-count-adjust-reclassify.md)  
 [Sarja- ja eränumeroiden käsitteleminen](inventory-how-work-item-tracking.md)  
 [Varasto](inventory-manage-inventory.md)  

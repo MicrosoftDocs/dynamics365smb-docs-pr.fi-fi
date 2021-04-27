@@ -1,5 +1,5 @@
 ---
-title: Business Central Älykäs pilvi -laajennukset pilvipohjaiseen siirtoon | Microsoft-dokumentit
+title: Pilvipalveluihin siirtymisen laajennukset
 description: Pilvipohjaisen siirron laajennusten avulla voit siirtää paikallisen datan Business Central -verkkopalveluun. Nämä laajennukset siirtävät sisäiset tiedot pilveen, jotta voit käyttää Business Centralin tietoja verkossa aiemmin luotujen tietojesi kanssa.
 author: jenolson
 ms.service: dynamics365-business-central
@@ -9,16 +9,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.reviewer: edupont
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5d6110744f14cb959494e2fd5c9b970bd339a77f
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: f02face497affd1fd1467c118e10e69f2be39b85
+ms.sourcegitcommit: 951d3c9d541f0b1d26712d37e253c2958dae3321
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5377346"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889122"
 ---
-# <a name="intelligent-cloud-extensions-for-cloud-migration"></a>Pilvisiirron älykkäät pilvilaajennukset
+# <a name="cloud-migration-extensions-for-migrating-to-business-central-online"></a>Business Central Onlineen siirtymisen pilvipalvelujen siirtymislaajennukset
 
 Paikallisen ratkaisun mukaan sinun on käytettävä eri laajennuksia, jotta voisit yhdistää tiedot [!INCLUDE[prod_short](includes/prod_short.md)] -verkkoon, jotta voisit siirtää ratkaisun pilveen.  
 
@@ -43,8 +43,7 @@ Jos käytät Dynamics SL_ää, hanki **Älykäs pilvipohjainen** -laajennus, **M
 
 ## <a name="see-also"></a>Katso myös
 
-[Älykkäät Tiedot ](about-intelligent-cloud.md)  
-[Älykäs pilvipohjainen laajennus](ui-extensions-intelligent-cloud.md)  
-
+[Pilvipalveluihin siirtymisen peruslaajennus](ui-extensions-intelligent-cloud.md)  
+[Paikallisten tietojen siirtäminen Business Central Onlineen](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

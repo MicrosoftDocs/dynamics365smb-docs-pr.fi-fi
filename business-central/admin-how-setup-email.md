@@ -1,5 +1,5 @@
 ---
-title: Business Central -sovelluksen sähköpostin määrittäminen | Microsoft Docs
+title: Business Centralin sähköpostin määrittäminen
 description: Tässä artikkelissa kuvataan, miten sähköpostitilit yhdistetään Business Centraliin, jotta voit lähettää lähteviä viestejä avaamatta toista sovellusta.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
-ms.date: 06/15/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: b683a8567afbbec812a229e8e8ee0fda81d55bfb
-ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
+ms.openlocfilehash: 1ac53955d897e8c69da5136c6326353999460625
+ms.sourcegitcommit: 951d3c9d541f0b1d26712d37e253c2958dae3321
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5470435"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889150"
 ---
 # <a name="set-up-email"></a>Määritä sähköposti
 Ihmiset yrityksissä lähettävät päivittäin sähköpostitse tietoja ja asiakirjoja, kuten myynti- ja ostotilauksia ja laskuja. Järjestelmänvalvojat voivat helpottaa tätä yhdistämällä yhden tai useamman sähköpostitilin [!INCLUDE[prod_short](includes/prod_short.md)] -sovellukseen, joten voit lähettää asiakirjoja avaamatta sähköpostisovellusta. Voit kirjoittaa jokaisen viestin yksitellen perusmuotoilutyökaluilla, kuten fontilla, tyyleillä, väreillä ja niin edelleen, ja lisätä liitteitä, joiden koko on enintään 100 Mt. Järjestelmänvalvojat voivat myös määrittää raporttiasetteluja, jotka sisältävät vain asiakirjojen tärkeimmät tiedot. Lisätietoja on kohdassa [Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md).
@@ -37,12 +37,12 @@ Seuraavassa taulukossa kuvataan oletusarvoisesti käytettävissä olevat sähkö
 
 |Laajennus  |Kuvaus  |Esimerkkejä siitä, milloin käytetään  |
 |---------|---------|---------|
-|**Microsoft 365**|Kaikki lähettävät sähköpostia jaetusta Exchange Online -postilaatikosta.|Kun kaikki viestit tulevat samalta osastolta, esimerkiksi myyntiorganisaatiosi lähettää viestejä tilistä sales@cronus.com. Tämä edellyttää, että määrität jaetun postilaatikon Office 365 -hallintakeskuksessa. Lisätietoja on kohdassa [Jaetut postilaatikot](/Exchange/collaboration/shared-mailboxes/shared-mailboxes).|
+|**Microsoft 365**|Kaikki lähettävät sähköpostia jaetusta Exchange Online -postilaatikosta.|Kun kaikki viestit tulevat samalta osastolta, esimerkiksi myyntiorganisaatiosi lähettää viestejä tilistä sales@cronus.com. Tämä edellyttää, että määrität jaetun postilaatikon Microsoft 365 -hallintakeskuksessa. Lisätietoja on kohdassa [Jaetut postilaatikot](/Exchange/collaboration/shared-mailboxes/shared-mailboxes.md).|
 |**Nykyinen käyttäjä**|Kaikki lähettävät sähköpostia tililtä, jolla he ovat kirjautuneet [!INCLUDE[prod_short](includes/prod_short.md)]iin.|Salli viestintä yksittäisiltä tileiltä.|
 |**Muu (SMTP)**|Lähetä sähköpostit SMTP-protokollan avulla.|Salli tietoliikenne SMTP-sähköpostipalvelimen kautta. |
 
 > [!NOTE]
-> **Microsoft 365** ja **Nykyinen käyttäjä** -laajennukset käyttävät tilejä, jotka määrität käyttäjille Microsoft 365 -hallintakeskuksessa Office 365 -tilaukselle. Jotta voisit lähettää sähköpostia laajennusten avulla, käyttäjillä on oltava voimassa oleva Exchange Online -käyttöoikeus. 
+> **Microsoft 365**- ja **Nykyinen käyttäjä** -laajennukset käyttävät tilejä, jotka määrität käyttäjille Microsoft 365 -hallintakeskuksessa Microsoft 365 -tilaukselle. Jotta voisit lähettää sähköpostia laajennusten avulla, käyttäjillä on oltava voimassa oleva Exchange Online -käyttöoikeus. 
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4JsUk]
 
@@ -51,6 +51,9 @@ Jos käytät jo [!INCLUDE[prod_short](includes/prod_short.md)]ia ja olet määri
 
 > [!NOTE]
 > Jos sinulla on mukautuksia, jotka perustuvat vanhaan SMTP-sähköpostiasetukseen, on mahdollista, että jokin menee vikaan mukautusten yhteydessä, jos aloitat sähköpostilaajennusten käyttämisen. Microsoft suosittelee, että määrität ja testaat laajennuksia, ennen kuin otat käyttöön toimintovalitsimen parannetuille sähköpostiominaisuuksille.
+
+> [!IMPORTANT]
+> Jos käytössä on [!INCLUDE[prod_short](includes/prod_short.md)] online, OAuth 2.0 -todennusmenetelmän käyttö ei ole mahdollista.<br> Jos käytössä on paikallinen [!INCLUDE[prod_short](includes/prod_short.md)], OAuth 2.0 -todennusta voi käyttää mutta Azure-portaalissa on luotava sovelluksen rekisteröinti, minkä jälkeen Azure AD on yhdistettävä suorittamalla ohjattu **Määritä Azure Active Directory** -asetuksen määritysopas [!INCLUDE[prod_short](includes/prod_short.md)]issa. Lisätietoja on kohdassa [Business Centralin sovelluksen rekisteröinnin luonti Azure-portaalissa](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
 
 ## <a name="add-email-accounts"></a>Sähköpostitilien lisääminen
 Asetusten ohjattu **Määritä sähköposti** -määritys auttaa sinua pääsemään alkuun nopeasti sähköpostiviestien käytössä.
@@ -61,9 +64,10 @@ Asetusten ohjattu **Määritä sähköposti** -määritys auttaa sinua pääsem�
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sähköpostitilien määrittäminen** ja valitse sitten liittyvä linkki.
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 
+
 <!--
 > [!NOTE]
-> If you choose **Other (SMTP)** and are using an account that requires two-factor authentication, the password that you enter in the **Password** field must be the same that you use for your Office 365 subscription, and it must be of type **App Password**. For more information, see [Manage app passwords for two-step verification](/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords). 
+> If you choose **Other (SMTP)** and are using an account that requires two-factor authentication, the password that you enter in the **Password** field must be the same that you use for your Microsoft 365 subscription, and it must be of type **App Password**. For more information, see [Manage app passwords for two-step verification](/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords). 
 
 is this still true?-->
 ## <a name="assign-email-scenarios-to-email-accounts"></a>Määritä skenaariot sähköpostitileille
@@ -89,10 +93,10 @@ Raporttien avulla voit sisällyttää myynti- ja ostoasiakirjojen avaintietoja s
 2. Valitse **Raporttivalinta - Myynti** -sivun **Käyttö**-kentässä **Lasku**.
 3. Valitse **Raportin tunnus** -kentän uudella rivillä esimerkiksi vakioraportti 1306.
 4. Valitse **Käytä sähköpostin perustekstinä** -valintaruutu.
-5. Valitse ensin **Sähköpostin perustekstin asettelun koodi** -kenttä ja sitten asettelu avattavasta luettelosta.
+5. Valitse ensin **Sähköpostin perustekstin asettelun kuvaus** -kenttä ja sitten asettelu luettelosta.
 
-    Raporttiasettelut määrittävät sähköpostin perustekstin tyylin ja sisällön, myös teksteille kuten tervehdys tai ohjeet, jotka edeltävät asiakirjan tietoja. Saat kaikki käytettävissä olevat raporttiasettelut näkyviin, jos valitset **Valitse koko luettelosta**.
-6. Voit tarkastella tai muokata asettelua, johon sähköpostin teksti perustuu, valitsemalla ensin asettelun **Mukautetut raporttiasettelut** -sivulla ja sitten **Muokkaa asettelua** -toiminnon.
+    Raporttiasettelut määrittävät sähköpostin perustekstin tyylin ja sisällön, myös teksteille kuten tervehdys tai ohjeet, jotka edeltävät asiakirjan tietoja. Jos organisaatiossa on useita asetteluja, kaikki käytettävissä olevat raporttiasettelut ovat näkyvissä, jos valitset **Valitse koko luettelosta**.
+6. Voit tarkastella tai muokata asettelua, johon sähköpostin teksti perustuu, valitsemalla ensin asettelun **Mukautetut raporttiasettelut** -sivulla ja sitten **Päivitä asettelua** -toiminnon.
 7. Jos haluat tarjota asiakkaillesi mahdollisuuden maksaa sähköisesti, voit määrittää liittyvän maksupalvelun, kuten PayPalin. Tämän jälkeen sähköpostin tekstiin voi lisätä myös PayPal-tiedot ja -linkin. Lisätietoja on kohdassa [Asiakkaan maksujen ottaminen käyttöön PayPalin kautta](sales-how-enable-payment-service-extensions.md).
 8. Valitse **OK**-painike.
 
@@ -140,7 +144,7 @@ Seuraavaksi [!INCLUDE[prod_short](includes/prod_short.md)] yhdistetään Exchang
 ## <a name="setting-up-email-for-business-central-on-premises"></a>Sähköpostin määrittäminen Business Central On-Premises -versiossa 
 [!INCLUDE[prod_short](includes/prod_short.md)] on-premises voidaan integroida Microsoft Azure -järjestelmään perustuvien palveluiden kanssa. Voit esimerkiksi käyttää Cortana Intelligence -toimintoa entistä älykkäämpien kassavirtaennusteiden muodostamiseksi, Power BI:tä visualisoidaksesi liiketoimintaasi ja Exchange Onlinea lähettääksesi sähköpostia. Integrointi näihin palveluihin perustuu sovelluksen rekisteröintiin Azure Active Directoryssa. Sovelluksen rekisteröinti tarjoaa todennus- ja valtuutuspalveluita viestintää varten. Jotta voisit käyttää [!INCLUDE[prod_short](includes/prod_short.md)] on-premises -version sähköpostitoimintoja , sinun täytyy rekisteröidä [!INCLUDE[prod_short](includes/prod_short.md)]in sovelluksena Azure-portaalissa ja yhdistää [!INCLUDE[prod_short](includes/prod_short.md)] sovellusrekisteröintiin. Seuraavissa luvuissa kerrotaan, miten tämä tehdään.
 
-### <a name="create-an-app-registration-for-prod_short-in-azure-portal"></a>Sovellusrekisteröinnin luominen [!INCLUDE[prod_short](includes/prod_short.md)]ille Azure-portaalissa
+### <a name="create-an-app-registration-for-business-central-in-azure-portal"></a>Business Centralin sovelluksen rekisteröinnin luonti Azure-portaalissa
 [!INCLUDE[prod_short](includes/prod_short.md)]in Azure-portaaliin rekisteröimisen vaiheet on kuvattu kohdassa [Rekisteröi sovellus Azure Active Directoryssa](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory). Sähköpostiominaisuuksiin liittyvät asetukset ovat delegoituja käyttöoikeuksia, jotka myönnetään sovellusrekisteröinnille. Seuraavassa taulukossa on luettelo vähimmäisoikeuksista.
 
 |Ohjelmistorajapinta / käyttöoikeuden nimi  |Tyyppi  |Kuvaus  |
@@ -148,16 +152,28 @@ Seuraavaksi [!INCLUDE[prod_short](includes/prod_short.md)] yhdistetään Exchang
 |Microsoft Graph / User.Read |Delegoitu|Kirjaudu sisään ja lue käyttäjäprofiili.         |
 |Microsoft Graph / Mail.ReadWrite |Delegoitu|Luo sähköpostiviestejä.         |
 |Microsoft Graph / Mail.Send|Delegoitu|Lähetä sähköpostiviestejä.         |
-|Microsoft Graph / offline_access|Delegoitu|Ylläpidä tietojen käyttöoikeuden hyväksyntää. <!--need to verify this-->|
+|Microsoft Graph / offline_access|Delegoitu|Ylläpidä tietojen käyttöoikeuden hyväksyntää.|
 
-> [!TIP]
-> Kun luot sovelluksen rekisteröinnin, huomaa seuraavat tiedot. Sinun on yhdistettävä [!INCLUDE[prod_short](includes/prod_short.md)] sovellusrekisteröintiin.
-> 
-> * Sovelluksen (asiakkaan) tunnus 
-> * Uudelleenohjauksen URI-osoite (valinnainen)
-> * Asiakasohjelman salaisuus
+Jos käytössä on vanha SMTP-määritys tai SMTP-yhdistin ja haluat käyttää OAuth-todennusta, oikeudet ovat hieman erilaiset. Seuraavassa taulukossa on oikeusluettelo.
+
+|Ohjelmistorajapinta / käyttöoikeuden nimi  |Tyyppi  |Kuvaus  |
+|---------|---------|---------|
+|Microsoft Graph / offline_access|Delegoitu|Ylläpidä tietojen käyttöoikeuden hyväksyntää.|
+|Microsoft Graph / openid|Delegoitu|Käyttäjien sisäänkirjautuminen.|
+|Microsoft Graph / User.Read |Delegoitu|Kirjaudu sisään ja lue käyttäjäprofiili.         |
+|Microsoft Graph / SMTP.Send|Delegoitu|Sähköpostien lähettäminen postilaatikosta SMTP AUTH -todennuksella.         |
+|Office 365 Exchange Online / User.Read |Delegoitu|Kirjaudu sisään ja lue käyttäjäprofiili.         |
+
+Kun luot sovelluksen rekisteröinnin, huomaa seuraavat tiedot. Sinun on yhdistettävä [!INCLUDE[prod_short](includes/prod_short.md)] sovellusrekisteröintiin.
+ 
+* Sovelluksen (asiakkaan) tunnus 
+* Uudelleenohjauksen URI-osoite (valinnainen)
+* Asiakasohjelman salaisuus
 
 Sovelluksen rekisteröimisen yleiset ohjeet: [Pika-aloitus: sovelluksen rekisteröinti Microsoftin käyttäjätietoympäristössä](/azure/active-directory/develop/quickstart-register-app). 
+
+> [!NOTE]
+Jos vanhan SMTP-määrityksen käyttäminen sähköpostin lähettämiseen aiheuttaa ongelmia sen jälkeen, kun [!INCLUDE[prod_short](includes/prod_short.md)] yhdistettiin sovelluksen rekisteröintiin, syynä voi olla se, että SMTP AUTH ei ole otettu käyttöön vuokraajassa. Suositeltavaa onkin käyttää Microsoft 365- ja Nykyinen käyttäjä -yhdistimiä, sillä ne käyttävät Microsoft Graphin Mail-ohjelmointirajapintoja. Jos SMTP-määritystä on kuitenkin käytettävä, SMTP AUTH voidaan ottaa käyttöön. Lisätietoja on kohdassa [Todennetun asiakasohjelman SMTP-lähetyksen (SMTP AUTH) ottaminen käyttöön tai poistaminen käytöstä Exchange Onlinessa](/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission#disable-smtp-auth-in-your-organization).
 
 ### <a name="connect-prod_short-to-your-app-registration"></a>Yhdistä [!INCLUDE[prod_short](includes/prod_short.md)] sovellusrekisteröintiisi
 Kun olet rekisteröinyt sovelluksen Azure-portaalissa, voit [!INCLUDE[prod_short](includes/prod_short.md)]issa käyttää ohjattua **Sähköpostisovelluksen AAD-rekisteröinti** -määritystä yhdistääksesi [!INCLUDE[prod_short](includes/prod_short.md)]in siihen.
@@ -199,6 +215,7 @@ Kun olet rekisteröinyt sovelluksen Azure-portaalissa, voit [!INCLUDE[prod_short
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)]in käyttäminen yrityssähköpostina Outlookissa](admin-outlook.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)]in hakeminen mobiililaitteeseen](install-mobile-app.md)
-
+[[!INCLUDE[prod_short](includes/prod_short.md)]in hakeminen mobiililaitteeseen](install-mobile-app.md)
+[Jäljityksen telemetrian analysointi (järjestelmänvalvojan sisältö)](/dynamics365/business-central/dev-itpro/administration/telemetry-email-trace)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
