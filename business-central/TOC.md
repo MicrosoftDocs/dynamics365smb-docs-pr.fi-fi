@@ -80,16 +80,15 @@
 ##### [Rakenteen tiedot: Kirjausliittymän rakenne](design-details-posting-interface-structure.md)  
 ##### [Rakenteen tiedot: Kirjausohjelman rakenne](design-details-posting-engine-structure.md)  
 ##### [Rakennetiedot: Codeunitin 12 muutokset: Yleisten muuttujien linkitys yleisen päiväkirjan kirjausriviin](design-details-codeunit-12-changes-mapping-global-variables-for-general-journal-post-line.md)  
-##### [Rakennetiedot: Codeunitin 12 muutokset: Päiväkirjakirjausten menettelytapojen muutokset](design-details-codeunit-12-changes-changes-in-general-journal-post-procedures.md)
+##### [Rakennetiedot: Koodiyksikön 12 muutokset: Päiväkirjakirjausten menettelytapojen muutokset](design-details-codeunit-12-changes-changes-in-general-journal-post-procedures.md)
 #### Rakennetiedot: dimensioyhdistelmä-tapahtumat
-##### [Dimensioyhdistelmätapahtumien yleiskuva](design-details-dimension-set-entries.md)
 ##### [Rakennetiedot: Dimensioyhdistelmätapahtumien yleiskatsaus](design-details-dimension-set-entries-overview.md)  
 ##### [Rakennetiedot: Dimensioyhdistelmien etsiminen](design-details-searching-for-dimension-combinations.md)  
 ##### [Rakennetiedot: taulukkorakenne](design-details-table-structure.md)  
 
 ## Kokeile
 ### [Kokeilut ja tilaukset](across-preview.md)
-### [Business Centralin käytön aloittaminen](product-get-started.md)
+### [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)
 ### [Itsepalvelun rekisteröitymisen vianmääritys](ui-troubleshoot-self-signup.md)
 ### [Kokeilujakson jatkaminen](admin-extend-trial.md)
 ### [Business Centralin poistaminen tai tilauksen peruuttaminen](admin-cancel.md)
@@ -98,7 +97,7 @@
 
 <!--setup-->
 ## Business Central -sovelluksen määrittäminen
-### [Business Central -sovelluksen määrittäminen](setup.md)
+### [Tehtävien yleiskuvaus](setup.md)
 ### Rahoituksen määrittäminen
 #### [Rahoituksen määrittäminen](finance-setup-finance.md)
 #### [Maksutapojen määrittäminen](finance-payment-methods.md)
@@ -240,42 +239,51 @@
 #### [Asiakastietojen siirtäminen](admin-migrate-customer-data.md)
 #### [Yrityksen mukautettujen määrityspakettien luominen](admin-how-to-create-custom-company-configuration-packages.md)
 #### [Vihjeitä: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
-### Outlookin käyttäminen Business Centralin kanssa
-#### [Business Central -sovelluksen käyttäminen yrityssähköpostina Outlookissa](admin-outlook.md)
-#### [Kontaktien synkronointi Microsoft Outlookissa](admin-synchronize-outlook-contacts.md)
-#### [Business Central -sovelluksen käyttäminen ilman Outlookia](admin-no-outlook.md)
-### Microsoft Teams:n käyttäminen Business Centralin kanssa
-#### [Yleiskuvaus](across-teams-overview.md)
-#### [Teamsin integroinnin hallinta](admin-teams-integration.md)
-#### [Business Central -sovelluksen asentaminen Teamsiin](across-install-app-for-teams.md)
-#### [Business Centralin tietojen käyttäminen Teamsissa](across-working-with-teams.md)
-#### [Teams – usein kysytyt kysymykset](teams-faq.md)
-#### [Vianetsintä](admin-teams-troubleshooting.md)
-### Power BI:n käyttäminen Business Centralin kanssa
-#### [Esittely](admin-powerbi.md)
-#### Järjestelmänvalvoja
-##### [Integroinnin yleiskatsaus](admin-powerbi-overview.md)
-##### [Power BI -integroinnin ottaminen käyttöön](admin-powerbi-setup.md)
-#### Rakennenäkymä
-##### [Raporttien muodostamisen aloittaminen](across-how-use-financials-data-source-powerbi.md)
-##### [Luettelotiedot näyttävien raporttien luominen](across-how-use-powerbi-reports-factbox.md)
-#### Kuluttaja
-##### [Power BI -raporttien käyttäminen Business Centralissa](across-working-with-powerbi.md)
-##### [Business Centralin tietojen käyttäminen Power BI:ssa](across-working-with-business-central-in-powerbi.md)
-##### [Business Central -sovellusten käyttäminen Power BI:ssa](across-powerbi-business-central-apps.md)
-### Power Automate:n käyttäminen Business Centralin kanssa
-#### [Business Central -sovelluksen käyttäminen automaattisessa työnkulussa](across-how-use-financials-data-source-flow.md)
-### Power Apps:n käyttäminen Business Centralin kanssa
-#### [Yhteyden muodostaminen Business Central -tietoihin yrityssovelluksen luomista varten Power Appsin avulla](across-how-use-financials-data-source-powerapps.md)
-### [Vaihtaminen QuickBooks-sovelluksesta Business Centraliin](across-quickbooks-to-business-edition.md)
-### [Business Central -sovelluksen hakeminen mobiililaitteeseen](install-mobile-app.md)
-### [Microsoft Bookingsin massalaskutus](finance-bookings.md)
-### [Saman Microsoft 365 -tilin käyttäminen Business Centralissa ja Microsoft Invoicingissa](about-reuse-company-invoicing.md)
-### [Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md)
-### [Määritä sähköposti](admin-how-setup-email.md)
+### Sähköpostin määrittäminen
+#### [Määritä sähköposti](admin-how-setup-email.md)
+#### Määritä Outlookin yrityssähköposti 
+##### [Business Central -sovelluksen käyttäminen yrityssähköpostina Outlookissa](admin-outlook.md)
+##### [Kontaktien synkronointi Microsoft Outlookissa](admin-synchronize-outlook-contacts.md)
+##### [Business Central -sovelluksen käyttäminen ilman Outlookia](admin-no-outlook.md)
+### Raporttien määrittäminen
+#### [Raporttivalinta](across-report-selections.md)
+### Yhteyksien määrittäminen
+#### Business Central -sovelluksen käyttäminen yrityssähköpostina Outlookissa 
+##### [Yleiskuvaus](admin-outlook.md)
+##### [Yhteyshenkilöiden synkronointi Microsoft Outlookissa](admin-synchronize-outlook-contacts.md)
+##### [Business Central -sovelluksen käyttäminen ilman Outlookia](admin-no-outlook.md)
+#### Microsoft Teams:n käyttäminen Business Centralin kanssa
+##### [Yleiskuvaus](across-teams-overview.md)
+##### [Teamsin integroinnin hallinta](admin-teams-integration.md)
+##### [Business Central -sovelluksen asentaminen Teamsiin](across-install-app-for-teams.md)
+##### [Asiakkaiden, toimittajien ja yhteyshenkilöiden hakeminen](across-search-contacts-teams.md)
+##### [Business Centralin tietojen käyttäminen Teamsissa](across-working-with-teams.md)
+##### [Yrityksen ja muiden asetusten muuttaminen](across-teams-settings.md)
+##### [Teams – usein kysytyt kysymykset](teams-faq.md)
+##### [Vianetsintä](admin-teams-troubleshooting.md)
+#### Power BI:n käyttäminen Business Centralin kanssa
+##### [Esittely](admin-powerbi.md)
+##### Järjestelmänvalvoja
+###### [Integroinnin yleiskatsaus](admin-powerbi-overview.md)
+###### [Power BI -integroinnin ottaminen käyttöön](admin-powerbi-setup.md)
+##### Rakennenäkymä
+###### [Raporttien muodostamisen aloittaminen](across-how-use-financials-data-source-powerbi.md)
+###### [Luettelotiedot näyttävien raporttien luominen](across-how-use-powerbi-reports-factbox.md)
+##### Kuluttaja
+###### [Power BI -raporttien käyttäminen Business Centralissa](across-working-with-powerbi.md)
+###### [Business Centralin tietojen käyttäminen Power BI:ssa](across-working-with-business-central-in-powerbi.md)
+###### [Business Central -sovellusten käyttäminen Power BI:ssa](across-powerbi-business-central-apps.md)
+#### Power Automate:n käyttäminen Business Centralin kanssa
+##### [Business Central -sovelluksen käyttäminen automaattisessa työnkulussa](across-how-use-financials-data-source-flow.md)
+#### Power Apps:n käyttäminen Business Centralin kanssa
+##### [Yhteyden muodostaminen Business Central -tietoihin yrityssovelluksen luomista varten Power Appsin avulla](across-how-use-financials-data-source-powerapps.md)
+#### [Vaihtaminen QuickBooks-sovelluksesta Business Centraliin](across-quickbooks-to-business-edition.md)
+#### [Microsoft Bookingsin massalaskutus](finance-bookings.md)
+#### [Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md)
 ### [Numerosarjojen luominen](ui-create-number-series.md)
-### [Raporttivalinta](across-report-selections.md)
 ### [Peruskalenterien määrittäminen](across-how-to-assign-base-calendars.md)
+### [Tulostimien määrittäminen](ui-specify-printer-selection-reports.md)
+### [Business Central -sovelluksen hakeminen mobiililaitteeseen](install-mobile-app.md)
 
 ## Usein kysytyt kysymykset
 ### [Usein kysytyt kysymykset](across-faq.md)
@@ -290,8 +298,7 @@
 
 ## Ohje ja tuki
 ### [Ohje- ja tukiresurssit](product-help-and-support.md)
-### [Ohjejärjestelmä](/dynamics365/business-central/dev-itpro/user-assistance?toc=/dynamics365/business-central/toc.json)
-### [Vieraile Microsoftin videokirjastossa](across-videos.md)
+### [Microsoftin videokirjastoon tutustuminen](across-videos.md)
 ### [Tekninen tuki](/dynamics365/business-central/dev-itpro/technical-support?toc=/dynamics365/business-central/toc.json)
 <!--## Learn
 ### [Dynamics 365 Business Central on Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
@@ -299,10 +306,10 @@
 ### [Business Functionality Learning Paths](/learn/browse/?products=dynamics-business-central&roles=business-user&resource_type=learning%20path)
 ### Resources for a Business Decision Maker
 #### [Learning catalog](readiness/readiness-learning-bus-decision-makers.md)
-#### [Documentation](product-get-started.md)
+#### [Getting Ready for Doing Business](ui-get-ready-business.md)
 ### Resources for a Business User
 #### [Learning catalog](readiness/readiness-learning-bus-users.md)
-#### [Documentation](product-get-started.md)
+#### [Getting Ready for Doing Business](ui-get-ready-business.md)
 ### Resources for a Developer
 #### [Learning catalog](readiness/readiness-learning-developers.md)
 #### [Documentation](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview?toc=/dynamics365/business-central/toc.json)-->
@@ -352,10 +359,9 @@
 ## Pikanäppäimien käyttäminen
 ### [Helppokäyttötoiminnot ja pikanäppäimet](ui-accessibility.md)
 ### [Pikanäppäimet](keyboard-shortcuts.md)
-### [Näppäimistön Pikaohje - Vain PC](keyboard-shortcuts-cheatsheet.md)
+### [Näppäimistön pikaohje - Vain PC](keyboard-shortcuts-cheatsheet.md)
 ## [Vian etsintä: kameran ja sijainnin käyttäminen](ui-troubleshooting-camera-location.md)
-## [Älykkään pilven käyttäminen Business Centralin kanssa](about-intelligent-cloud.md)
-## [Vaihekuvaus: Sarja-/eränumeroiden jäljitys](walkthrough-tracing-serial-lot-numbers.md)
+## [Älykkäät tiedot (vain verkkoversio)](about-intelligent-cloud.md)
 # Liiketoiminnan toiminnallisuus
 ## [Liiketoimintatoimintojen yleiskatsaus](across-business-functionality.md)
 <!--general-->
@@ -618,12 +624,12 @@
 ### [Nimikkeiden luokitteleminen](inventory-how-categorize-items.md)
 ### [Nimikkeen määritteiden käsitteleminen](inventory-how-work-item-attributes.md)
 ### [Luettelonimikkeiden käsitteleminen](inventory-how-work-nonstock-items.md)
-### [Varastojen laskenta asiakirjoja käyttämällä](inventory-how-count-inventory-with-documents.md)
+### [Varastojen laskenta ja muutos asiakirjoja käyttämällä](inventory-how-count-inventory-with-documents.md)
 ### [Varaston laskeminen, muuttaminen ja uudelleenluokitus käyttämällä päiväkirjoja](inventory-how-count-adjust-reclassify.md)
 ### [Nimikkeiden saatavuuden tarkasteleminen](inventory-how-availability-overview.md)
 ### [Varastonimikkeiden siirtäminen sijaintien välillä](inventory-how-transfer-between-locations.md)
 ### [Nimikkeiden varaaminen](inventory-how-to-reserve-items.md)
-### [Sarja- ja eränumeroiden käsitteleminen](inventory-how-work-item-tracking.md)
+### [Sarja-, erä- ja pakettinumeroita sisältävien nimikkeiden seuraaminen](inventory-how-work-item-tracking.md)
 ### [Nimikkeen viittausten käyttäminen](inventory-how-use-item-cross-refs.md)
 ### [Nimikeseurannan nimikkeiden jäljittäminen](inventory-how-to-trace-item-tracked-items.md)
 ### [Nimikkeiden estäminen](inventory-how-block-items.md)
@@ -865,34 +871,27 @@
 ##### [Ilmoitustyyppien määrittäminen](LocalFunctionality/Belgium/how-to-set-up-declaration-types.md)
 ##### [Intrastatin kolmannen osapuolen ilmoitusten vieminen](LocalFunctionality/Belgium/how-to-export-intrastat-third-party-declararations.md)
 #### Pankkitoiminta ja maksut
-##### [CODA-tilien määrittäminen:](LocalFunctionality/Belgium/how-to-set-up-bank-accounts-for-coda.md)
-##### [CODA-tiliotteiden käyttäminen](LocalFunctionality/Belgium/how-to-apply-coda-statements.md)
-##### [CODA-tiliotteiden automaattinen siirto ja kirjaus](LocalFunctionality/Belgium/how-to-automatically-transfer-and-post-coda-statements.md)
-##### [CODA-tiliotteet](LocalFunctionality/Belgium/coda-bank-statements.md)
-##### [Verkkopankkitoiminta Belgiassa](LocalFunctionality/Belgium/belgian-electronic-banking.md)
-##### [Sähköisen maksuliikenteen määrittäminen](LocalFunctionality/Belgium/how-to-set-up-electronic-banking.md)
+##### [Verkkopankkitoiminta](LocalFunctionality/Belgium/belgian-electronic-banking.md)
+##### [Sähköiset maksut](LocalFunctionality/Belgium/belgian-electronic-payments.md)
 ##### [Tietojen vientiprotokollien määrittäminen](LocalFunctionality/Belgium/how-to-set-up-export-protocols.md)
-##### [Sähköiset maksut Belgiassa](LocalFunctionality/Belgium/belgian-electronic-payments.md)
-##### [IBLC-BLWI-tapahtumakoodien määrittäminen](LocalFunctionality/Belgium/how-to-set-up-iblc-blwi-transaction-codes.md)
+##### [Maksurivien ja yleisen päiväkirjan yhteenveto](LocalFunctionality/Belgium/summarizing-payment-lines-and-general-journal-lines.md)
 ##### [Automaattisten maksuehdotusten toimittajien määrittäminen](LocalFunctionality/Belgium/how-to-set-up-vendors-for-automatic-payment-suggestions.md)
 ##### [Maksupäiväkirjamallien ja -erien luominen](LocalFunctionality/Belgium/how-to-create-payment-journal-templates-and-batches.md)
 ##### [Sähköisten maksujen testaaminen](LocalFunctionality/Belgium/how-to-test-electronic-payments.md)
-##### [Maksuehdotusten luominen](LocalFunctionality/Belgium/how-to-generate-payment-suggestions.md)
-##### [CODA-tiliotteiden tuominen](LocalFunctionality/Belgium/how-to-import-coda-statements.md)
-##### [Sähköisten maksurivien hallinta](LocalFunctionality/Belgium/how-to-manage-electronic-payment-lines.md)
-##### [CODA-tiliotteiden manuaalinen siirto ja kirjaus](LocalFunctionality/Belgium/how-to-manually-transfer-and-post-coda-statements.md)
 ##### [Maksutiedostojen tulostaminen](LocalFunctionality/Belgium/how-to-print-payment-files.md)
-##### [SEPA-maksut](LocalFunctionality/Belgium/sepa-payments.md)
 ##### [SEPA-maksujen aktivointi](LocalFunctionality/Belgium/how-to-activate-sepa-payments.md)
 ##### [Euroalueen ulkopuolisten SEPA-maksujen lähettäminen](LocalFunctionality/Belgium/how-to-file-non-euro-sepa-payments.md)
-##### [SEPA-maksujen lähettäminen](LocalFunctionality/Belgium/how-to-file-sepa-payments.md)
 ##### [Suoraveloitus domisilioinnin avulla](LocalFunctionality/Belgium/direct-debit-using-domiciliation.md)
 ##### [Domisiliointien määrittäminen](LocalFunctionality/Belgium/how-to-set-up-domiciliations.md)
 ##### [Domisiliointirivien muokkaaminen ja poistaminen](LocalFunctionality/Belgium/how-to-edit-and-delete-domiciliation-lines.md)
 ##### [Domisiliointien testaaminen](LocalFunctionality/Belgium/how-to-test-domiciliations.md)
 ##### [Domisiliointien vieminen ja kirjaaminen](LocalFunctionality/Belgium/how-to-export-and-post-domiciliations.md)
 ##### [Domisiliointiehdotusten luominen](LocalFunctionality/Belgium/how-to-generate-domiciliation-suggestions.md)
-##### [Maksurivien ja yleisen päiväkirjan yhteenveto](LocalFunctionality/Belgium/summarizing-payment-lines-and-general-journal-lines.md)
+##### [CODA-tiliotteet](LocalFunctionality/Belgium/coda-bank-statements.md)
+##### [CODA-tiliotteiden käyttäminen](LocalFunctionality/Belgium/how-to-apply-coda-statements.md)
+##### [CODA-tiliotteiden automaattinen siirto ja kirjaus](LocalFunctionality/Belgium/how-to-automatically-transfer-and-post-coda-statements.md)
+##### [CODA-tiliotteiden manuaalinen siirto ja kirjaus](LocalFunctionality/Belgium/how-to-manually-transfer-and-post-coda-statements.md)
+##### [CODA-tiliotteiden tuominen](LocalFunctionality/Belgium/how-to-import-coda-statements.md)
 #### Perusrahoitus
 ##### [Pääkirjanpidon tapahtumien käyttäminen ja poistaminen käytöstä](LocalFunctionality/Belgium/how-to-apply-and-unapply-general-ledger-entries.md)
 ##### [Taloudellisten raporttien luominen](LocalFunctionality/Belgium/how-to-create-financial-journals.md)
@@ -918,6 +917,8 @@
 
 ### Tšekin tasavalta
 #### [Paikallinen toiminnallisuus Tšekin versiossa](LocalFunctionality/Czech/czech-local-functionality.md)
+#### [Perustoimintojen lokalisointipaketti – Tšekki (laajennus)](LocalFunctionality/Czech/ui-extensions-core-localization-pack-cz.md)
+#### [Lisätoimintojen lokalisointipaketti – Tšekki (laajennus)](LocalFunctionality/Czech/ui-extensions-advanced-localization-pack-cz.md)
 #### Perusrahoitus  
 ##### [Rahoitus](LocalFunctionality/Czech/finance.md)
 ##### [Vuoden sulkemistoiminnot](LocalFunctionality/Czech/year-close-operations.md)
@@ -928,6 +929,7 @@
 ##### [ALV:n valvontaraportti](LocalFunctionality/Czech/vat-control-report.md)
 #### Käyttöomaisuus
 ##### [Käyttöomaisuus](LocalFunctionality/Czech/fixed-assets.md)
+##### [Käyttöomaisuuden lokalisointi – Tšekki (laajennus)](LocalFunctionality/Czech/ui-extensions-fixed-asset-localization-cz.md)
 #### Pankkitoiminta ja maksut
 ##### [Pankkiominaisuus](LocalFunctionality/Czech/bank-feature.md)
 ##### [Kassanhallinta](LocalFunctionality/Czech/cash-desk-management.md)
@@ -943,7 +945,6 @@
 #### Yleiset
 ##### [Laajennettu käyttäjän valvonta](LocalFunctionality/Czech/general.md)
 ##### [Parhaat käytännöt](LocalFunctionality/Czech/best-practices.md)
-##### [Perustoimintojen lokalisointipaketti – Tšekki (laajennus)](LocalFunctionality/Czech/ui-extensions-core-localization-pack-cz.md)
 
 ### Tanska
 #### [Paikallinen toiminnallisuus Tanskan versiossa](LocalFunctionality/Denmark/denmark-local-functionality.md)
@@ -1126,6 +1127,16 @@
 ###### [GST E -rahtikirja](LocalFunctionality/India/GST-E-Way-Bill.md)
 ###### [GST-syötteen saldon oikaisu](LocalFunctionality/India/GST-Input-Tax-Credit-Adjustment.md)
 ###### [GST-laskelma](LocalFunctionality/India/GST-Settelement.md)
+###### [GST – sähköinen lasku](LocalFunctionality/India/GST-E-Invoice.md)
+##### GST-vero
+###### [GST-veron perusasetukset](LocalFunctionality/India/GST-Cess-Basic-Setup.md)
+###### [GST-veron laskenta](LocalFunctionality/India/GST-Cess-Calculations.md)
+##### GST – huoltohallinto
+###### [GST – huoltohallinto](LocalFunctionality/India/GST-Service-Management.md)
+##### GST – syötepalvelun jakelu
+###### [GST – syötepalvelun jakelun yleiskuvaus](LocalFunctionality/India/GST-Input-Service-Distribution-Overview.md)
+###### [GST – syötepalvelun jakeluprosessi](LocalFunctionality/India/GST-Input-Service-Distribution-Process.md)
+###### [GST – syötepalvelun jakelutapahtuma](LocalFunctionality/India/GST-Input-Service-Distribution-Transaction.md)
 #### TDS
 ##### [TDS:n yleiskuvaus](LocalFunctionality/India/TDS-Overview.md)
 ##### [TDS-tapahtumat](LocalFunctionality/India/TDS-Transactions.md)
@@ -1143,9 +1154,23 @@
 ##### [TCS-raja](LocalFunctionality/India/TCS-Threshold.md)
 ##### [TCS-muutoksen merkintä](LocalFunctionality/India/TCS-Adjustment-Entries.md)
 ##### [TCS-maksu viranomaiselle](LocalFunctionality/India/TCS-Payment-to-Authority.md)
+##### [206C-1H-yleiskatsaus](LocalFunctionality/India/TCS-206C-1H-Overview.md)
+##### [206C-1H-tapahtuma](LocalFunctionality/India/TCS-206C-1H-Transactions.md)
 #### Tositteen liittymä
 ##### [Tositeliittymän yleiskuvaus](LocalFunctionality/India/Vouche-Interface-Overview.md)
 ##### [Tositeliittymän tapahtuma](LocalFunctionality/India/Voucher-Interface-Transactions.md)
+#### Käyttöomaisuus
+##### [Käyttöomaisuuden yleiskuvaus](LocalFunctionality/India/FA_Overview.md)
+##### [Käyttöomaisuuden poisto](LocalFunctionality/India/FA_Depreciation.md)
+#### Porttitapahtuma
+##### [Porttitapahtuma yleiskuvaus](LocalFunctionality/India/Gate-Entry-001-Basic-Setup.md)
+##### [Portin sisääntulotapahtuma](LocalFunctionality/India/Gate-Entry-Inward_Transactions.md)
+##### [Portin ulostulotapahtuma](LocalFunctionality/India/Gate-Entry-Outward_Transactions.md)
+#### Alihankinta
+##### [Alihankinnan yleiskuvaus](LocalFunctionality/India/Subcontracting-001-Basic-Setup.md)
+##### [Alihankintatapahtumat](LocalFunctionality/India/Subcontracting-Transactions.md)
+##### [GST-velan luonti](LocalFunctionality/India/Subcontracting-Create-GST-Liability.md)
+##### [Alihankintaraportti](LocalFunctionality/India/Subcontracting-Reports.md)
 
 ### Italia
 #### [Paikallinen toiminnallisuus Italian versiossa](LocalFunctionality/Italy/italy-local-functionality.md)
@@ -1585,8 +1610,8 @@
 #### [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)
 #### [Olennaiset liiketoimintanäkemykset](ui-extensions-essential-business-insights.md)
 #### [Kuvan analysointitoiminto](ui-extensions-image-analyzer.md)
-#### [Älykäs pilvi](ui-extensions-data-replication.md)
-#### [Älykäs Pilvipohja](ui-extensions-intelligent-cloud.md)
+#### [Pilvipalveluihin siirtymisen laajennukset](ui-extensions-data-replication.md)
+#### [Pilvipalveluihin siirtymisperusta](ui-extensions-intelligent-cloud.md)
 #### [Myöhästyneen maksun ennusteet](ui-extensions-late-payment-prediction.md)
 #### [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)
 #### [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)
@@ -1622,7 +1647,7 @@
 ### [Siirtäminen paikallisesta Business Centralista](/dynamics365/business-central/dev-itpro/administration/migrate-business-central-on-premises?toc=/dynamics365/business-central/toc.json)
 ### [Siirtyminen Dynamics GP:stä](/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp?toc=/dynamics365/business-central/toc.json)
 ### [Siirtyminen Dynamics NAVista](/dynamics365/business-central/dev-itpro/upgrade/Upgrade-Considerations#online?toc=/dynamics365/business-central/toc.json)
-### [Usein kysytyt kysymykset yhteyden muodostamisesta älykkääseen pilveen](/dynamics365/business-central/dev-itpro/administration/faq-intelligent-cloud?toc=/dynamics365/business-central/toc.json)
+### [Usein kysyttyjä kysymyksiä pilvipalveluihin siirtymisestä](/dynamics365/business-central/dev-itpro/administration/faq-intelligent-cloud?toc=/dynamics365/business-central/toc.json)
 ## [Business Central Onlinen hallintatehtävät](/dynamics365/business-central/dev-itpro/administration/tenant-administration?toc=/dynamics365/business-central/toc.json)
 ## [Kehittämismenot](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview?toc=/dynamics365/business-central/toc.json)
 ## [Tietosuoja ja tietoturva](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
