@@ -1,0 +1,72 @@
+### YamlMime:FAQ
+metadata:
+  title: Tietoja hakemisesta ja suodattamisesta Business Central -sovelluksessa
+  description: Vastaa hakemiseen ja suodattamiseen liittyviin usein kysyttyihin kysymyksiin.
+  author: mikebcMSFT
+  ms.service: dynamics365-business-central
+  ms.topic: conceptual
+  ms.reviewer: edupont04
+  ms.search.keywords: keyboarding, productivity, how do i, filter pane
+  ms.date: 04/01/2021
+  ms.author: mikebc
+  ms.openlocfilehash: 782afb4a5cc811f950226d5812558055772edcad
+  ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
+  ms.translationtype: HT
+  ms.contentlocale: fi-FI
+  ms.lasthandoff: 05/11/2021
+  ms.locfileid: "6017303"
+title: Usein kysyttyjen kysymysten haku ja suodatus
+summary: Tässä artikkelissa on vastauksia hakemiseen ja suodattamiseen liittyviin yleisiin kysymyksiin.
+sections:
+- name: Ohitettu
+  questions:
+  - question: >
+      Onko hakemisella ja suodattamisella eroa?
+    answer: >
+      Kyllä.
+
+      - Hakeminen on yksinkertainen ja laaja toiminto. Se hakee tietueet, jotka sisältävät hakutekstin sivulla näkyvissä kentissä. Kirjainkoolla ei ole merkitystä.
+
+      - Suodattaminen on erittäin mukautuvaa ja sitä voidaan hyödyntää erityisissä kentissä, myös sellaisissa joita ei näy sivulla: se esittää tietuut tarkkoina, kirjainkoon huomioon ottavina osumina, mutta sitä voidaan myös säätää voimakkailla hakusymboleilla, -tunnuksilla ja -kaavoilla. Lisätietoja näiden tietojen käyttämisestä on kohdassa [Lajitteleminen, hakeminen ja suodattaminen](ui-enter-criteria-filters.md)
+  - question: >
+      Mitkä kentät tarkalleen yhdistetään haun yhteydessä?
+    answer: >
+      [!INCLUDE[prod_short](includes/prod_short.md)] käyttää hakuehtoja kaikissa sivulla näkyvissä kentissä. Jos kenttä on piilotettu, esimerkiksi käyttämällä mukautustoimintoa, haku ei ota tätä kenttää huomioon. Hakuehdot kohdistetaan kenttiin vain, jos niiden tietotyyppi vastaa hakuehtojen tietotyyppiä. Esimerkiksi hakutermillä *tänään* etsitään kaikkia teksti- ja koodikenttiä literaaliarvolle "tänään" ja myös sellaisia päivämääräkenttiä, joissa *tänään* on laskettu kuluvan päivän lausekkeena, mutta ei etsitä numeerisia kenttiä. Lisätietoja suodausehdoista on kohdassa [Luetteloiden lajitteleminen ja suodattaminen sekä luetteloista hakeminen](ui-enter-criteria-filters.md#-filter-criteria-and-operators).
+  - question: >
+      Voiko hakemista ja suodattamista käyttää näppäimistön avulla?
+    answer: >
+      Hakemista ja suodattamista voi käyttää tehokkaasti myös ilman hiirtä. Käytettävissä on useita pikanäppäimiä, joiden avulla toimintoja voi käyttää nopeasti. Lisätietoja on kohdassa [Pikanäppäimet](keyboard-shortcuts.md#KeyboardFilter).
+  - question: >
+      Onko suodatinruutu käytettävissä kaikissa luetteloissa?
+    answer: >
+      Suodatinruutu on käytettävissä sivuilla, joissa luettelo on sivun ensisijainen sisältö. Tällaisia ovat esimerkiksi työkirjat ja luettelosivut, kuten siirtymispalkin avulla käytettävät luettelot. Suodatinruutu ei ole vielä käytettävissä luetteloille, jotka näkyvät osina, kuten tietoruuduille tai roolikeskuksen osille, tai valintaikkunoina näytettäville luetteloille, kuten valinnoille. Kun listä on sisällytetty sivuun, kuten myyntirivi myyntitilauksessa, suodatusruutu on käytettävissä kun tämä rivi kohdistetaan kohdistustila painikkeella. Lisätietoja on kohdassa [Kohdistaminen rivinimikkeisiin](ui-enter-data.md#Focus).
+  - question: >
+      Miten voin tallentaa suodattimeni?
+    answer: >
+      Suodattimet ja esimääritettyjen suodatinten muutokset jäävät muistiin istunnon ajaksi (kun olet kirjautuneena), vaikka siirtyisit pois sivulta. Voit tallentaa suodattimet pysyvästi nimettynä luettelonäkymänä valitsemalla suodatinruudussa ![Tallenna näkymä](media/save_view_icon.png "Tallenna näkymä") -kuvake. Lisätietoja on kohdassa [Luettelonäkymien usein kysytyt kysymykset](ui-views-faq.yml). Huomaa, että suodattimista poiketen hakutekstiä ei muisteta, kun poistut sivulta, eikä sitä tallenneta, kun tallennat näkymän.
+
+
+      Voit lisäksi tallentaa suodattimia tai käyttää valmiiksi määritettyjä suodattimia raportin pyyntösivulla. Lisätietoja on kohdassa [Tallennettujen asetusten käyttäminen](ui-work-report.md#SavedSettings).
+  - question: >
+      Onko tämä samanlainen kuin Microsoft Dynamics NAV:n lisäsuodattimien ja kokonaisarvojen rajoituksen toiminto?
+    answer: "[!INCLUDE[prod_short](includes/prod_short.md)] muodostuu näistä suosituista toiminnoista. Sen avulla voi etsiä ja analysoida tietoja nykyaikaisella ja helposti käytettävällä tavalla. [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksessa on enemmän pikanäppäimiä kuin Dynamics NAV -sovelluksessa sekä haun esittely. Tämän vuoksi sen toiminnot ovat entistäkin parempia.  \n"
+  - question: >
+      Voinko hakea ja suodattaa kumppanien sovellusten ja Microsoft 365 -laajennusten avulla?
+    answer: >
+      Erilaisissa näyttökohteissa, kuten mobiililaitteissa tai Outlookissa, voit tehdä hakuja luetteloista mutta useimmiten yksittäisiä kenttiä ei voi suodattaa. Microsoft Teamsin  [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksessa sekä haku että suodatin ovat käytettävissä luetteloille.
+  - question: >
+      Miten voin tarkastella, miten hakutermejäni on käytetty luettelon kentissä?
+    answer: >
+      Kun olet syöttänyt hakuehdot hakuuutuun, voit tarkastella tarkkoja hakuehtoja ja kenttiä, joihin ne on kohdistettu, avaamalla sivun tarkastusruudun ( **Ctrl + Alt + F1**) ja valitsemalla **Sivun suodattimet** -välilehden.
+  - question: >
+      Voinko tehdä jotain, jos näyttöön tulee Rivien hakeminen kestää liian kauan -sanoma?
+    answer: >
+      Hakutoiminnon kestolle on määritetty aikaraja. Muuta ensin hakuehtoja ja tee haku uudelleen. Jos käytössä on paikallinen [!INCLUDE[prod_short](includes/prod_short.md)], ota yhteyttä järjestelmänvalvojaan. Hän voi muuttaa hakujen aikarajaa suuremmaksi.
+
+
+      Paikallinen järjestelmänvalvoja voi muuttaa hakujen aikarajaa suuremmaksi muuttamalla [!INCLUDE[prod_short](includes/prod_short.md)] -palvelimen **Haun aikakatkaisu** -asetusta. Lisätietoja on Business Central -sovelluksen kehittäjät ja IT-ammattilaiset -kohdan [Business Central Server -ratkaisun määrittäminen](/dynamics365/business-central/dev-itpro/administration/configure-server-instance?#Database) -kohdassa.
+  - question: >
+      Laajentaako Microsoft suodatinruudun ominaisuuksia?
+    answer: >
+      Microsoft saa jatkuvasti palautetta monipuoliselta käyttäjäyhteisöltä ja ottaa parhaat ehdotukset huomioon. Jos haluat laajentaa suodatinruudun useammille laitemuodoille ja luettelotyypeille tai jos sinulla on parannusehdotuksia, voit lisätä ne osoitteessa [aka.ms/BusinessCentralIdeas](https://aka.ms/businesscentralideas). Siellä voit myös äänestää aiemmin tehtyjä ehdotuksia.
+additionalContent: "\n## <a name=\"see-also\"></a>Katso myös\n   [Lajitteleminen, hakeminen ja suodattaminen](ui-enter-criteria-filters.md)  \n   [Sivujen ja tietojen etsiminen Kerro, mitä haluat tehdä -toiminnolla](ui-search.md)  \n   [Sivujen etsiminen roolienhallinnan avulla](ui-role-explorer.md)  \n   [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  \n        \n        \n   [!INCLUDE[footer-include](includes/footer-banner.md)]"

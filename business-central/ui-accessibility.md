@@ -1,86 +1,90 @@
 ---
 title: Aputoiminnot
 description: Pikanäppäinten ja muiden ominaisuuksien käyttöä.
-author: edupont04
+author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: c303c39850e22d3df375838d42703133428b4c7d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.search.keywords: accessibility, shortcuts, charts, tooltips, screen reader
+ms.date: 04/29/2021
+ms.author: jswymer
+ms.openlocfilehash: 5de8096338cef264b599701abf2e21a906417bac
+ms.sourcegitcommit: 103d1433454dbedf8a72a292853eac3501872f24
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772352"
+ms.lasthandoff: 04/29/2021
+ms.locfileid: "5961550"
 ---
-# <a name="accessibility-and-keyboard-shortcuts"></a><span data-ttu-id="d94b6-103">Helppokäyttötoiminnot ja pikanäppäimet</span><span class="sxs-lookup"><span data-stu-id="d94b6-103">Accessibility and Keyboard Shortcuts</span></span>
+# <a name="accessibility-and-keyboard-shortcuts"></a><span data-ttu-id="c8a52-103">Helppokäyttötoiminnot ja pikanäppäimet</span><span class="sxs-lookup"><span data-stu-id="c8a52-103">Accessibility and Keyboard Shortcuts</span></span>
 
-<span data-ttu-id="d94b6-104">Tässä ohjeaiheessa on tietoja toiminnoista, jotka helpottavat [!INCLUDE[prod_short](includes/prod_short.md)]:n käyttöä.</span><span class="sxs-lookup"><span data-stu-id="d94b6-104">This topic provides information about the features that make [!INCLUDE[prod_short](includes/prod_short.md)] readily available to people with disabilities.</span></span> [!INCLUDE[prod_short](includes/prod_short.md)] <span data-ttu-id="d94b6-105">tukee seuraavia helppokäyttötoimintoja:</span><span class="sxs-lookup"><span data-stu-id="d94b6-105">supports the following accessibility features:</span></span>  
+<span data-ttu-id="c8a52-104">Tässä artikkelissa on tietoja toiminnoista, joiden ansiosta [!INCLUDE[prod_short](includes/prod_short.md)] on jo toimintarajoitteisten käyttäjien käytettävissä.</span><span class="sxs-lookup"><span data-stu-id="c8a52-104">This article provides information about the features that make [!INCLUDE[prod_short](includes/prod_short.md)] readily available to people with disabilities.</span></span> [!INCLUDE[prod_short](includes/prod_short.md)] <span data-ttu-id="c8a52-105">tukee seuraavia helppokäyttötoimintoja:</span><span class="sxs-lookup"><span data-stu-id="c8a52-105">supports the following accessibility features:</span></span>  
 
-- <span data-ttu-id="d94b6-106">Näppäimistön pikanäppäimet</span><span class="sxs-lookup"><span data-stu-id="d94b6-106">Keyboard shortcuts</span></span>
+- <span data-ttu-id="c8a52-106">Pikanäppäimet.</span><span class="sxs-lookup"><span data-stu-id="c8a52-106">Keyboard shortcuts.</span></span> <span data-ttu-id="c8a52-107">Katso [Pikanäppäimet](keyboard-shortcuts.md).</span><span class="sxs-lookup"><span data-stu-id="c8a52-107">See [Keyboard Shortcuts](keyboard-shortcuts.md).</span></span>
+- <span data-ttu-id="c8a52-108">Tablettien ja puhelinten kosketuseleet ja kynän liikkeet.</span><span class="sxs-lookup"><span data-stu-id="c8a52-108">Touch and pen gestures on tablets and phones.</span></span> <span data-ttu-id="c8a52-109">Katso [Kosketuseleet ja kynän liikkeet](touch-gestures.md).</span><span class="sxs-lookup"><span data-stu-id="c8a52-109">See [Touch and Pen Gestures](touch-gestures.md).</span></span>
+- <span data-ttu-id="c8a52-110">Siirtyminen</span><span class="sxs-lookup"><span data-stu-id="c8a52-110">Navigation</span></span>  
+- <span data-ttu-id="c8a52-111">Otsikot</span><span class="sxs-lookup"><span data-stu-id="c8a52-111">Headings</span></span>  
+- <span data-ttu-id="c8a52-112">Kuvien ja linkkien vaihtoehtoinen teksti</span><span class="sxs-lookup"><span data-stu-id="c8a52-112">Alternative text for images and links</span></span>  
+- <span data-ttu-id="c8a52-113">Yleisten käyttöä tukevien tekniikoiden tuki</span><span class="sxs-lookup"><span data-stu-id="c8a52-113">Support for common assistive technologies</span></span> 
+- <span data-ttu-id="c8a52-114">Lähennä tai loitonna millä tahansa sivulla</span><span class="sxs-lookup"><span data-stu-id="c8a52-114">Zoom in or out on any page</span></span>
+- <span data-ttu-id="c8a52-115">Käyttöliittymän elementtien työkaluvihjeet</span><span class="sxs-lookup"><span data-stu-id="c8a52-115">Tooltips on elements in the user interface</span></span>
 
-    <span data-ttu-id="d94b6-107">Lisätietoja on kohdassa [Pikanäppäimet](keyboard-shortcuts.md)</span><span class="sxs-lookup"><span data-stu-id="d94b6-107">For more information, see [Keyboard Shortcuts](keyboard-shortcuts.md)</span></span>
+## <a name="navigation"></a><a name="Navigation"></a> <span data-ttu-id="c8a52-116">Siirtyminen</span><span class="sxs-lookup"><span data-stu-id="c8a52-116">Navigation</span></span>
+  
+<span data-ttu-id="c8a52-117">Voit käyttää näppäimistön sarkain-, vaihto- ja nuolinäppäimiä, jos haluat siirtyä sivun elementtien välillä.</span><span class="sxs-lookup"><span data-stu-id="c8a52-117">You can use different combinations of the Tab, Shift, and arrow keys of your keyboard to move between elements on a page.</span></span> <span data-ttu-id="c8a52-118">Elementtejä ovat toiminnot, kentät ja sarakkeet, osat ja muut ohjausobjektit.</span><span class="sxs-lookup"><span data-stu-id="c8a52-118">Elements include actions, fields and columns, parts, and other controls.</span></span> <span data-ttu-id="c8a52-119">Yleensä voit siirtyä seuraavaan tai edelliseen elementtiin painamalla sarkain- tai vaihto+sarkain-näppäimiä.</span><span class="sxs-lookup"><span data-stu-id="c8a52-119">In general, press Tab or Shift+Tab to move to the next or previous element.</span></span>
 
-- <span data-ttu-id="d94b6-108">Siirtyminen</span><span class="sxs-lookup"><span data-stu-id="d94b6-108">Navigation</span></span>  
+<span data-ttu-id="c8a52-120">Kun keskitys tehdään toimintoja sisältävälle alueelle, siirry nuolinäppäinten avulla eri toimintojen ja ryhmien välillä. Toimintoja ovat esimerkiksi roolikeskuksen yläosan siirtymispalkki ja muiden sivujen toimintopalkit.</span><span class="sxs-lookup"><span data-stu-id="c8a52-120">When you focus on an area that contains actions, like the navigation bar on the top of role center or action bar on other pages, use the arrows keys to move through the different actions and groups.</span></span> <span data-ttu-id="c8a52-121">Paina sen ryhmän Enter-näppäintä, jonka pohjana olevat toiminnot haluat avata, ja jatka sitten nuolinäppäinten avulla.</span><span class="sxs-lookup"><span data-stu-id="c8a52-121">Press Enter on a group to open its underlying actions, and then continue using the arrows keys.</span></span> <span data-ttu-id="c8a52-122">Siitty toimintoalueelta pois sarkain- tai vaihto+sarkain-näppäinten avulla.</span><span class="sxs-lookup"><span data-stu-id="c8a52-122">Press Tab or Shift+Tab to move out of the action area.</span></span>
 
-- <span data-ttu-id="d94b6-109">Otsikot</span><span class="sxs-lookup"><span data-stu-id="d94b6-109">Headings</span></span>  
+<span data-ttu-id="c8a52-123">Voit siirtyä sarkaimella järjestyksessä pääselainsivun ja esimerkiksi vahvistusta pyytävän valintaikkunan tai kirjautumissivun välillä.</span><span class="sxs-lookup"><span data-stu-id="c8a52-123">By using the tab order, you can also switch between the main browser page and dialog boxes that request confirmation, for example, or the sign-in page.</span></span>  
 
-- <span data-ttu-id="d94b6-110">Kuvien ja linkkien vaihtoehtoinen teksti</span><span class="sxs-lookup"><span data-stu-id="d94b6-110">Alternative text for images and links</span></span>  
+## <a name="headings-in-content"></a><a name="Headings"></a><span data-ttu-id="c8a52-124">Sisällön otsikot</span><span class="sxs-lookup"><span data-stu-id="c8a52-124">Headings in Content</span></span>
 
-- <span data-ttu-id="d94b6-111">Yleisten käyttöä tukevien tekniikoiden tuki</span><span class="sxs-lookup"><span data-stu-id="d94b6-111">Support for common assistive technologies</span></span>  
+<span data-ttu-id="c8a52-125">[!INCLUDE[prod_short](includes/prod_short.md)]:n sisällön HTML-lähde käyttää tunnisteita, jotka auttavat helppokäyttötoimintojen käyttäjiä ymmärtämään sivun rakennetta ja sisältöä.</span><span class="sxs-lookup"><span data-stu-id="c8a52-125">The HTML source for [!INCLUDE[prod_short](includes/prod_short.md)] content uses tags to help users of assistive technology to understand the structure and content of the page.</span></span> <span data-ttu-id="c8a52-126">Esimerkiksi luettelosivuilla sarakkeet määritetään TH.-tunnisteilla ja sarakeotsikot määritetään tunnisteen sisällä olevalla TITLE-määritteellä.</span><span class="sxs-lookup"><span data-stu-id="c8a52-126">For example, on list pages, the columns are defined in TH tags and the column headings are set with TITLE attribute inside the tag.</span></span> <span data-ttu-id="c8a52-127">Otsikkotunnisteet (H1, H2, H3 ja H4) sisältävät elementtien, kuten pikavälilehtien, tietoruutujen ja kenttien, selosteet.</span><span class="sxs-lookup"><span data-stu-id="c8a52-127">Captions for elements, such as FastTabs, FactBoxes, and fields are included in heading tags (H1, H2, H3, and H4).</span></span>  
 
-- <span data-ttu-id="d94b6-112">Lähennä tai loitonna millä tahansa sivulla pikanäppäinten avulla</span><span class="sxs-lookup"><span data-stu-id="d94b6-112">Use keyboard shortcuts to zoom in or out on any page</span></span>
+## <a name="image-and-links"></a><a name="Images"></a> <span data-ttu-id="c8a52-128">Kuva ja linkit</span><span class="sxs-lookup"><span data-stu-id="c8a52-128">Image and Links</span></span>
 
-<!-- moved to separate article
-##  <a name="Keyboard"></a> Keyboard Shortcuts in the browser
- [!INCLUDE[prod_short](includes/prod_short.md)] supports the keyboard shortcuts that are supported by most web browsers. The keyboard shortcuts described here refer to the U.S. keyboard layout. The layout of the keys on other keyboards may not correspond exactly to the keys on a U.S. keyboard.  
+<span data-ttu-id="c8a52-129">Kuvien kuvaileva teksti määritetään IMG-tunnisteeseen sisältyvällä ALT-määritteellä.</span><span class="sxs-lookup"><span data-stu-id="c8a52-129">A descriptive text for images is set with the ALT attribute inside the IMG tag.</span></span> <span data-ttu-id="c8a52-130">Hyperlinkkien kuvaileva teksti määritetään A-tunnisteeseen sisältyvällä TITLE-määritteellä.</span><span class="sxs-lookup"><span data-stu-id="c8a52-130">A descriptive text for hyperlinks is set with the title attribute inside the A tag.</span></span>  
 
-|To do this|Press|  
-|----------------|-----------|  
-|To move focus to the next or previous control or element on a page, such as buttons, fields, or items in a list.|Tab, Shift+Tab|  
-|To enable or access the element or control that is in focus.|Enter|  
-|To scroll items up and down in a list.|Up Arrow, Down Arrow|  
-|To scroll columns of an item left and right in a list.|Left Arrow, Right Arrow|  
-|To open a drop-down list or look up a value for a field.|Alt+Down Arrow|  
-|To move focus to the next element outside the list.|Ctrl + Enter|  
-|To see the transactions that resulted in a calculated value in a field.|Alt+Right Arrow|  
+## <a name="assistive-technologies"></a><a name="AssistiveTech"></a> <span data-ttu-id="c8a52-131">Käyttöä tukevat tekniikat</span><span class="sxs-lookup"><span data-stu-id="c8a52-131">Assistive Technologies</span></span>
+
+[!INCLUDE[prod_short](includes/prod_short.md)] <span data-ttu-id="c8a52-132">tukee erilaisia käyttöä helpottavia tekniikoita, kuten suurta kontrasti, näytönlukuohjelmia ja puheentunnistusohjelmistoja.</span><span class="sxs-lookup"><span data-stu-id="c8a52-132">supports various assistive technologies, such as high contrast, screen readers, and voice recognition software.</span></span> <span data-ttu-id="c8a52-133">Jotkin käyttöä helpottavat tekniikat eivät ehkä toimi hyvin tiettyjen [!INCLUDE[prod_short](includes/prod_short.md)]:n sivuelementtien kanssa.</span><span class="sxs-lookup"><span data-stu-id="c8a52-133">Some assistive technologies may not work well with certain elements in [!INCLUDE[prod_short](includes/prod_short.md)] pages.</span></span>  
+
+## <a name="zoom"></a><a name="zoom"></a><span data-ttu-id="c8a52-134">Zoomaa</span><span class="sxs-lookup"><span data-stu-id="c8a52-134">Zoom</span></span>
+
+<span data-ttu-id="c8a52-135">Useimmat selaimet käyttävät vakiopikanäppäimiä, kun haluat lähentää ja loitontaa nykyistä sivua.</span><span class="sxs-lookup"><span data-stu-id="c8a52-135">Most browsers use standard keyboard shortcuts to zoom in and out on the current page.</span></span> <span data-ttu-id="c8a52-136">Nämä pikanäppäimet eivät ole tuotteelle [!INCLUDE [prod_short](includes/prod_short.md)] ominaisia, mutta ne toimivat, kun [!INCLUDE [prod_short](includes/prod_short.md)] on käytössä selaimessa.</span><span class="sxs-lookup"><span data-stu-id="c8a52-136">These keyboard shortcuts aren't specific to [!INCLUDE [prod_short](includes/prod_short.md)], but they work when you use [!INCLUDE [prod_short](includes/prod_short.md)] in a browser.</span></span> <span data-ttu-id="c8a52-137">Luettelo tuetuista pikanäppäimistä on kohdassa [Pikanäppäimet lähentämistä ja loitontamista varten](keyboard-shortcuts.md#zoomshortcuts).</span><span class="sxs-lookup"><span data-stu-id="c8a52-137">For a list of supported keyboard shortcuts, see [Keyboard Shortcuts for Zooming In and Out](keyboard-shortcuts.md#zoomshortcuts).</span></span>
+
+## <a name="tooltips"></a><span data-ttu-id="c8a52-138">Työkaluvihjeet</span><span class="sxs-lookup"><span data-stu-id="c8a52-138">Tooltips</span></span>
+
+<span data-ttu-id="c8a52-139">Työkaluvihjeet ovat käytettävissä useimmissa käyttöliittymän elementeissä, kuten sivun kentissä ja sarakkeissa, toiminnoissa, pinoruuduissa ja kaavioissa.</span><span class="sxs-lookup"><span data-stu-id="c8a52-139">Tooltips are available on most elements in the user interface, like page fields and columns, actions, cues tiles, and charts.</span></span> <span data-ttu-id="c8a52-140">Työkalu Vihje sisältää lisä tekstin, jossa selitetään elementti, joka helpottaa sen tarkoituksen ymmärtämistä.</span><span class="sxs-lookup"><span data-stu-id="c8a52-140">A tooltip provides extra text that explains an element to help you better understand its purpose.</span></span> 
+
+<span data-ttu-id="c8a52-141">Työkaluvihjeet ovat käytettävissä eri tavoilla asiakasohjelman (verkko tai mobiili) ja käyttämäsi laitteen mukaan.</span><span class="sxs-lookup"><span data-stu-id="c8a52-141">Tooltips are accessed in different ways, depending on the client (web or mobile) and the device that you're working with.</span></span> <span data-ttu-id="c8a52-142">Käytä seuraavaa taulukkoa oppaana.</span><span class="sxs-lookup"><span data-stu-id="c8a52-142">Use the following table as a guide.</span></span> <span data-ttu-id="c8a52-143">Näytönlukuohjelmat voivat lukea osan työkaluvihjeistä.</span><span class="sxs-lookup"><span data-stu-id="c8a52-143">Some tooltips can be read by screen-readers.</span></span> <span data-ttu-id="c8a52-144">Tässä tapauksessa työkaluvihjeitä käytetään taulukossa kuvatulla tavalla. Tämän jälkeen siirrytään työkaluvihjeeseen näytönlukuohjelman avulla samalla tavalla kuin mihin tahansa muuhun elementtiin.</span><span class="sxs-lookup"><span data-stu-id="c8a52-144">In this case, you access the tooltips as described in the table, then use the screen reader to navigate to the tooltip as you would with any other element.</span></span>
+
+#### <a name="accessing-tooltips"></a><span data-ttu-id="c8a52-145">Työkaluvihjeiden käyttäminen</span><span class="sxs-lookup"><span data-stu-id="c8a52-145">Accessing tooltips</span></span>
+
+|<span data-ttu-id="c8a52-146">Elementti</span><span class="sxs-lookup"><span data-stu-id="c8a52-146">Element</span></span>|<span data-ttu-id="c8a52-147">Hiiritoiminto verkkoasiakasohjelmassa</span><span class="sxs-lookup"><span data-stu-id="c8a52-147">Mouse action for web client</span></span>|<span data-ttu-id="c8a52-148">Verkkoasiakasohjelman pikanäppäimet</span><span class="sxs-lookup"><span data-stu-id="c8a52-148">Keyboard shortcut for web client</span></span>|<span data-ttu-id="c8a52-149">Mobiilisovelluksen kosketusele tabletissa/puhelimessa</span><span class="sxs-lookup"><span data-stu-id="c8a52-149">Touch gesture on tablet/phone for mobile app</span></span>|<span data-ttu-id="c8a52-150">Näytönlukuohjelman tuki</span><span class="sxs-lookup"><span data-stu-id="c8a52-150">Screen reader support</span></span>|
+|-------|-----------------|------------|--------------------------|---------------------|
+|<span data-ttu-id="c8a52-151">Sivun kenttien ja sarakkeiden otsikot</span><span class="sxs-lookup"><span data-stu-id="c8a52-151">Page fields and column headings</span></span>|<span data-ttu-id="c8a52-152">Valitse kentän tai sarakkeen otsikko osoittamalla tai napsauta sitä</span><span class="sxs-lookup"><span data-stu-id="c8a52-152">Hover over or click the field caption or column heading</span></span>|<span data-ttu-id="c8a52-153">Siirrä kohdistus kentän tai sarakkeen otsikkoon ja paina Alt+ylänuolinäppäin</span><span class="sxs-lookup"><span data-stu-id="c8a52-153">Move focus to the field or column heading, and press Alt+Up Arrow keys</span></span>|<span data-ttu-id="c8a52-154">Napauta kentän otsikkoa</span><span class="sxs-lookup"><span data-stu-id="c8a52-154">Tap the field caption</span></span> |<span data-ttu-id="c8a52-155">kyllä</span><span class="sxs-lookup"><span data-stu-id="c8a52-155">yes</span></span>|
+|<span data-ttu-id="c8a52-156">Kaavioiden elementit, kuten palkki, viiva ja ympyrän sektori</span><span class="sxs-lookup"><span data-stu-id="c8a52-156">Charts elements, like a bar, line, pie slice</span></span>|<span data-ttu-id="c8a52-157">Valitse elementti osoittamalla</span><span class="sxs-lookup"><span data-stu-id="c8a52-157">Hover over the element</span></span>|<span data-ttu-id="c8a52-158">Siirrä kohdistus elementtiin käyttämällä esimerkiksi nuolinäppäimiä</span><span class="sxs-lookup"><span data-stu-id="c8a52-158">Move focus to element, for example, by using arrow keys</span></span>|<span data-ttu-id="c8a52-159">Napauta elementtiä ja pidä sitä painettuna</span><span class="sxs-lookup"><span data-stu-id="c8a52-159">Tap and hold the element</span></span>|<span data-ttu-id="c8a52-160">kyllä</span><span class="sxs-lookup"><span data-stu-id="c8a52-160">yes</span></span>|
+|<span data-ttu-id="c8a52-161">Toiminnot</span><span class="sxs-lookup"><span data-stu-id="c8a52-161">Actions</span></span>|<span data-ttu-id="c8a52-162">Valitse toiminto osoittamalla</span><span class="sxs-lookup"><span data-stu-id="c8a52-162">Hover over the action</span></span>|<span data-ttu-id="c8a52-163">ei mitään</span><span class="sxs-lookup"><span data-stu-id="c8a52-163">none</span></span>|<span data-ttu-id="c8a52-164">ei mitään</span><span class="sxs-lookup"><span data-stu-id="c8a52-164">none</span></span> |<span data-ttu-id="c8a52-165">ei</span><span class="sxs-lookup"><span data-stu-id="c8a52-165">no</span></span>|
+|<span data-ttu-id="c8a52-166">Pinoruudut</span><span class="sxs-lookup"><span data-stu-id="c8a52-166">Cue tiles</span></span>|<span data-ttu-id="c8a52-167">Valitse ruutu osoittamalla</span><span class="sxs-lookup"><span data-stu-id="c8a52-167">Hover over the tile</span></span> |<span data-ttu-id="c8a52-168">ei mitään</span><span class="sxs-lookup"><span data-stu-id="c8a52-168">none</span></span>|<span data-ttu-id="c8a52-169">ei mitään</span><span class="sxs-lookup"><span data-stu-id="c8a52-169">none</span></span>|<span data-ttu-id="c8a52-170">ei</span><span class="sxs-lookup"><span data-stu-id="c8a52-170">no</span></span>|
+
+
+<!--
+- With a mouse, hover over the element.
+- With keyboard, press the Alt+Up Arrow keys.
+- On a tablet or phone, tap and hold on the element. To learn about more gestures, see [Touch and Pen Gestures](touch-gestures.md)
 
 -->
 
-## <a name="navigation"></a><a name="Navigation"></a> <span data-ttu-id="d94b6-113">Siirtyminen</span><span class="sxs-lookup"><span data-stu-id="d94b6-113">Navigation</span></span>  
- <span data-ttu-id="d94b6-114">Voit siirtyä valintanauhan välilehtien ja toimintojen, siirtymispalkin elementtien sekä muiden [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman sivujen ja raporttien välillä näppäimistön avulla.</span><span class="sxs-lookup"><span data-stu-id="d94b6-114">You can navigate between the tabs and actions in the ribbon, elements in the navigation bar, and other controls on [!INCLUDE[prod_short](includes/prod_short.md)] pages and reports using the keyboard.</span></span> <span data-ttu-id="d94b6-115">Voit siirtää kohdistuksen yhdestä välilehdestä, toiminnosta tai ohjausobjektista toiseen painamalla sarkainnäppäintä, jos haluat siirtyä eteenpäin.</span><span class="sxs-lookup"><span data-stu-id="d94b6-115">To move the focus from one tab, action, or control to another, press the Tab key to move forward.</span></span> <span data-ttu-id="d94b6-116">Jos haluat siirtyä taaksepäin, paina näppäinyhdistelmään vaihto+sarkain.</span><span class="sxs-lookup"><span data-stu-id="d94b6-116">Press Shift+Tab to move backward.</span></span>  
+## <a name="for-more-accessibility-information"></a><span data-ttu-id="c8a52-171">Lisätietoja helppokäyttötoiminnoista</span><span class="sxs-lookup"><span data-stu-id="c8a52-171">For more accessibility information</span></span>
 
- <span data-ttu-id="d94b6-117">Voit siirtyä sarkaimella järjestyksessä pääselainsivun ja esimerkiksi vahvistusta pyytävän valintaikkunan tai kirjautumissivun välillä.</span><span class="sxs-lookup"><span data-stu-id="d94b6-117">By using the tab order, you can also switch between the main browser page and dialog boxes that request confirmation, for example, or the login page.</span></span>  
+<span data-ttu-id="c8a52-172">Lisätietoja Microsoftin tuotteiden helppokäyttötoiminnoista ja käyttöä helpottavista tekniikoista on [Microsoftin helppokäyttötoimintojen](https://go.microsoft.com/fwlink/?LinkId=262160) sivustossa.</span><span class="sxs-lookup"><span data-stu-id="c8a52-172">You can find additional information about accessibility with Microsoft products and assistive technologies on the [Microsoft Accessibility](https://go.microsoft.com/fwlink/?LinkId=262160) site.</span></span>
 
-## <a name="headings-in-content"></a><a name="Headings"></a><span data-ttu-id="d94b6-118">Sisällön otsikot</span><span class="sxs-lookup"><span data-stu-id="d94b6-118">Headings in Content</span></span>
- 
- <span data-ttu-id="d94b6-119">[!INCLUDE[prod_short](includes/prod_short.md)]:n sisällön HTML-lähde käyttää tunnisteita, jotka auttavat helppokäyttötoimintojen käyttäjiä ymmärtämään sivun rakennetta ja sisältöä.</span><span class="sxs-lookup"><span data-stu-id="d94b6-119">The HTML source for [!INCLUDE[prod_short](includes/prod_short.md)] content uses tags to help users of assistive technology to understand the structure and content of the page.</span></span> <span data-ttu-id="d94b6-120">Esimerkiksi luettelosivuilla sarakkeet määritetään TH.-tunnisteilla ja sarakeotsikot määritetään tunnisteen sisällä olevalla TITLE-määritteellä.</span><span class="sxs-lookup"><span data-stu-id="d94b6-120">For example, on list pages, the columns are defined in TH tags and the column headings are set with TITLE attribute inside the tag.</span></span> <span data-ttu-id="d94b6-121">Otsikkotunnisteet (H1, H2, H3 ja H4) sisältävät elementtien, kuten pikavälilehtien, tietoruutujen ja kenttien, selosteet.</span><span class="sxs-lookup"><span data-stu-id="d94b6-121">Captions for elements, such as FastTabs, FactBoxes, and fields are included in heading tags (H1, H2, H3, and H4).</span></span>  
+## <a name="see-also"></a><span data-ttu-id="c8a52-173">Katso myös</span><span class="sxs-lookup"><span data-stu-id="c8a52-173">See Also</span></span>
 
-## <a name="image-and-links"></a><a name="Images"></a> <span data-ttu-id="d94b6-122">Kuva ja linkit</span><span class="sxs-lookup"><span data-stu-id="d94b6-122">Image and Links</span></span>
-
- <span data-ttu-id="d94b6-123">Kuvien kuvaileva teksti määritetään IMG-tunnisteeseen sisältyvällä ALT-määritteellä.</span><span class="sxs-lookup"><span data-stu-id="d94b6-123">A descriptive text for images is set with the ALT attribute inside the IMG tag.</span></span> <span data-ttu-id="d94b6-124">Hyperlinkkien kuvaileva teksti määritetään A-tunnisteeseen sisältyvällä TITLE-määritteellä.</span><span class="sxs-lookup"><span data-stu-id="d94b6-124">A descriptive text for hyperlinks is set with the title attribute inside the A tag.</span></span>  
-
-## <a name="assistive-technologies"></a><a name="AssistiveTech"></a> <span data-ttu-id="d94b6-125">Käyttöä tukevat tekniikat</span><span class="sxs-lookup"><span data-stu-id="d94b6-125">Assistive Technologies</span></span>
-
-[!INCLUDE[prod_short](includes/prod_short.md)] <span data-ttu-id="d94b6-126">tukee erilaisia käyttöä helpottavia tekniikoita, kuten suurta kontrasti, näytönlukuohjelmia ja puheentunnistusohjelmistoja.</span><span class="sxs-lookup"><span data-stu-id="d94b6-126">supports various assistive technologies, such as high contrast, screen readers, and voice recognition software.</span></span> <span data-ttu-id="d94b6-127">Jotkin käyttöä helpottavat tekniikat eivät ehkä toimi hyvin tiettyjen [!INCLUDE[prod_short](includes/prod_short.md)]:n sivuelementtien kanssa.</span><span class="sxs-lookup"><span data-stu-id="d94b6-127">Some assistive technologies may not work well with certain elements in [!INCLUDE[prod_short](includes/prod_short.md)] pages.</span></span>  
-
-## <a name="zoom"></a><a name="zoom"></a><span data-ttu-id="d94b6-128">Zoomaa</span><span class="sxs-lookup"><span data-stu-id="d94b6-128">Zoom</span></span>
-
-<span data-ttu-id="d94b6-129">Useimmat selaimet käyttävät vakiopikanäppäimiä, kun haluat lähentää ja loitontaa nykyistä sivua.</span><span class="sxs-lookup"><span data-stu-id="d94b6-129">Most browsers use standard keyboard shortcuts to zoom in and out on the current page.</span></span> <span data-ttu-id="d94b6-130">Nämä pikanäppäimet eivät ole ominaisia [!INCLUDE [prod_short](includes/prod_short.md)]ille, mutta ne toimivat, kun käytät [!INCLUDE [prod_short](includes/prod_short.md)]ia selaimessa.</span><span class="sxs-lookup"><span data-stu-id="d94b6-130">These keyboard shortcuts are not specific to [!INCLUDE [prod_short](includes/prod_short.md)], but they work when you use [!INCLUDE [prod_short](includes/prod_short.md)] in a browser.</span></span> <span data-ttu-id="d94b6-131">Luettelo tuetuista pikanäppäimistä on kohdassa [Pikanäppäimet lähentämistä ja loitontamista varten](keyboard-shortcuts.md#zoomshortcuts).</span><span class="sxs-lookup"><span data-stu-id="d94b6-131">For a list of supported keyboard shortcuts, see [Keyboard Shortcuts for Zooming In and Out](keyboard-shortcuts.md#zoomshortcuts).</span></span>  
-
-## <a name="for-more-accessibility-information"></a><span data-ttu-id="d94b6-132">Lisätietoja helppokäyttötoiminnoista</span><span class="sxs-lookup"><span data-stu-id="d94b6-132">For more accessibility information</span></span>
-
-<span data-ttu-id="d94b6-133">Lisätietoja Microsoftin tuotteiden helppokäyttötoiminnoista ja käyttöä helpottavista tekniikoista on [Microsoftin helppokäyttötoimintojen](https://go.microsoft.com/fwlink/?LinkId=262160) sivustossa.</span><span class="sxs-lookup"><span data-stu-id="d94b6-133">You can find additional information about accessibility with Microsoft products and assistive technologies on the [Microsoft Accessibility](https://go.microsoft.com/fwlink/?LinkId=262160) site.</span></span>
-
-## <a name="see-also"></a><span data-ttu-id="d94b6-134">Katso myös</span><span class="sxs-lookup"><span data-stu-id="d94b6-134">See Also</span></span>
-
-[<span data-ttu-id="d94b6-135">Valmistautuminen liiketoimintaan</span><span class="sxs-lookup"><span data-stu-id="d94b6-135">Getting Ready for Doing Business</span></span>](ui-get-ready-business.md)  
-<span data-ttu-id="d94b6-136">[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="d94b6-136">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>  
-[<span data-ttu-id="d94b6-137">Usein kysytyt kysymykset</span><span class="sxs-lookup"><span data-stu-id="d94b6-137">Frequently Asked Questions</span></span>](across-faq.md)  
-
+[<span data-ttu-id="c8a52-174">Valmistautuminen liiketoimintaan</span><span class="sxs-lookup"><span data-stu-id="c8a52-174">Getting Ready for Doing Business</span></span>](ui-get-ready-business.md)  
+<span data-ttu-id="c8a52-175">[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="c8a52-175">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>  
+[<span data-ttu-id="c8a52-176">Usein kysytyt kysymykset</span><span class="sxs-lookup"><span data-stu-id="c8a52-176">Frequently Asked Questions</span></span>](across-faq.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
