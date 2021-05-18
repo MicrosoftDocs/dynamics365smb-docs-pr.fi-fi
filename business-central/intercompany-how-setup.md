@@ -1,5 +1,5 @@
 ---
-title: Konsernitapahtuman kirjauksen määrittäminen| Microsoft Docs
+title: Konsernitapahtuman kirjauksen määrittäminen
 description: Luo konsernitoimittajat ja -asiakkaat konsernikumppaneina ja määritä konsernin tilikartta.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,14 +10,14 @@ ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c323aee8139912e103b09066f2f6a7a25e2832c3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 79c204a6c8a173985a5d3558d5ce1af5a2d8fc39
+ms.sourcegitcommit: 6add995f289c56e5497409308825c73eeaa4f62f
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786196"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5941515"
 ---
-# <a name="set-up-intercompany"></a>Konsernin tietojen määrittäminen
+# <a name="set-up-intercompany-transaction-posting"></a>Konsernitapahtuman kirjauksen määrittäminen
 
 Jos haluat lähettää yhdestä yrityksestä tapahtuman (kuten myyntipäiväkirjan rivin), jolle luodaan automaattisesti vastaava tapahtuma (kuten ostopäiväkirjan rivi) kumppaniyrityksessä, yrityksillä on oltava yhteinen tilikartta ja dimensiojoukko konsernin tapahtumia varten. Konsernin tilikartta voi olla esimerkiksi pääyrityksen tilikartan yksinkertaistettu versio. Jokainen yritys määrittää oman tilikarttansa vastaavuuden konsernin jaetun tilikartan kanssa ja myös omien dimensioidensa vastaavuuden konsernin dimensioiden kanssa.  
 
@@ -34,7 +34,7 @@ Jos suorittamiisi konsernin myyntitapahtumiin sisältyy resursseja, täytä kunk
 ## <a name="to-set-intercompany-partners"></a>Konsernikumppanien määrittäminen
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Konsernikumppani** ja valitse sitten liittyvä linkki.
 2. Valitse **Uusi**-toiminto.
-3. Täytä tarvittavat kentät **Konsernikumppanit**-sivulla.
+3. Täytä tarvittavat kentät **Konsernikumppanit**-sivulla.[!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
 > Et voi käyttää [!INCLUDE[prod_short](includes/prod_short.md)] onlinessa tiedostosijainteja tapahtumien siirtämiseen kumppaneille, koska[!INCLUDE[prod_short](includes/prod_short.md)]illa ei ole paikallisen verkon käyttöoikeutta. Niinpä jos valitset **Tiedoston sijainti** **Siirron tyyppi** -kentässä **Kansiopolku**-kenttä ei ole käytettävissä. Tiedosto ladataan sen sijaan tietokoneen Ladatut tiedostot -kansioon. Voit sitten lähettää tiedoston sähköpostitse esimerkiksi jollekin kumppaniyrityksessä. Kätevämpää on kuitenkin valita suoraan **Lähetä sähköpostitse**.

@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 342d58b58945f9d09da406723ea7dd6c86785482
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 3811841784144d1c9dc786f8ae6435bedb5fb1d5
+ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786271"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017097"
 ---
 # <a name="welcome-to-prod_long"></a>Tervetuloa [!INCLUDE[prod_long](includes/prod_long.md)]iin
 
@@ -102,7 +102,7 @@ Videokirjastossa voi katsoa myös uusia ja usein käytettyjä ominaisuuksia kosk
 [Ohje- ja tukiresurssit](product-help-and-support.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)]in vaatimustenmukaisuus](compliance/compliance-overview.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -verkkopalvelun ehdot](compliance/compliance-service-compliance.md#service-terms)  
-[Business Central Onlinen tärkeimmät päivitykset](/dynamics365/business-central/dev-itpro/administration/update-rollout-timelime)  
+[Business Central Onlinen suuret ja pienet päivitykset](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline)  
 [Dynamics 365:n ohjeistus](/dynamics365/)  
 [Dynamics 365 Business Central microsoft.comissa](https://dynamics.microsoft.com/business-central/overview/)  
 [Tutki Dynamics 365 Business Central -ominaisuuksia](https://dynamics.microsoft.com/business-central/capabilities/)  
@@ -110,5 +110,6 @@ Videokirjastossa voi katsoa myös uusia ja usein käytettyjä ominaisuuksia kosk
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
+<!--comment out for 3 days[![RSS Subscription](/dynamics365-release-plan/media/feed-icon.png "RSS Subscription")](https://go.microsoft.com/fwlink/?linkid=2161350) Updates to Dynamics 365 Business Central documentation-->
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a36e40796978ddd20df818c3bccb1e148d50a4e1
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: dd4ae64c008c45fb6876387d98dac27440f17141
+ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783770"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935284"
 ---
 # <a name="financial-reports-in-business-central"></a>Business Centralin talousraportit
 
@@ -24,7 +24,6 @@ Seuraavassa taulukossa kuvataan joitakin talousraportoinnin keskeisiä raporttej
 
 |Raportti |Kuvaus  |
 |---------|---------|
-|**Muuta kustannuksia – Nimiketapahtumat** | Muuttaa arvotapahtumien varastoarvoja niin, että pääkirjanpitoa päivitettäessä käytetään oikeaa muutettua kustannusta ja tuottotilastot ovat ajan tasalla. Kustannusten muuttaminen siirtää kustannusmuutokset saapuvista tapahtumista, esimerkiksi osto- tai tuotantotapahtumista, niihin liittyviin lähteviin tapahtumiin, esimerkiksi myynteihin tai siirtoihin.  |
 |**Alustava tulos/tase**| Raportissa näkyy tilikartta saldoineen ja nettomuutoksineen. Voit haluta esimerkiksi tarkastella tiettyjen dimensioiden alustavia saldoja. Raporttia voi käyttää kirjanpitojakson tai tilikauden päättyessä. |
 |**Alustava tulos jakson mukaan**  | Tässä raportissa on KP-tilikohtainen alkusaldo, valitun jakson (kuukauden, vuosineljänneksen tai vuoden) tapahtumat ja tuloksena oleva loppusaldo.         |
 |**Alustava tulos/tase / Budjetti** | Raportissa näkyy alustava saldo verrattuna budjettiin. Voit haluta esimerkiksi tarkastella tiettyjen dimensioiden alustavia saldoja. Raporttia voi käyttää kirjanpitojakson tai tilikauden päättyessä.        |

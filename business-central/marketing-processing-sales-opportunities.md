@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: bde08ec0b6f970dc65023cfcc7ab3e4021d4d29f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bcdbfe7077b2038879d38a962272c532f97500b1
+ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784440"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017247"
 ---
 # <a name="process-sales-opportunities"></a>Myyntimahdollisuuksien käsitteleminen
 Mahdollisuuden luomisen jälkeen sen hallinnassa ja valmistumisprosessissa voidaan käyttää useita toimintoja.
@@ -44,7 +44,8 @@ Voit sulkea mahdollisuuden, kun neuvottelut ovat ohi. Mahdollisuuden sulkemisen 
    Valitse **Sulje mahdollisuuden koodi** -kentässä jokin olemassa olevista suljettujen mahdollisuuksien koodeista tai lisää uusi koodi. Voit lisätä uuden koodin valitsemalla avattavasta luettelosta **Valitse koko luettelosta** ja valitsemalla sitten **Uusi**. Täytä tyhjän rivin **Koodi**-, **Tyyppi**- ja **Kuvaus**-kenttä ja valitse sitten **OK**-painike.
 
 ## <a name="to-create-quotes-for-opportunities"></a>Tarjousten luominen mahdollisuuksille
-Voit luoda myyntitarjouksia kontakteille, joita ei ole tallennettu asiakkaiksi.
+> [!NOTE]
+> Voit luoda myyntitarjouksia vain mahdollisuuksista, joiden yhteyshenkilön tyyppi on Yritys.
 
 1. Valitse **Mahdollisuusluettelo**-sivulla mahdollisuus ja valitse sitten **Määritä myyntitarjous** -toiminto. **Myyntitarjous**-sivu aukeaa.
 2. Täytä asianmukaiset kentät.

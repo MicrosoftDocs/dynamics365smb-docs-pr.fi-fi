@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 67e6c0fe9a9653d243b7fd221ed004a1f1495ddf
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 69c5ab889ae1fe98d50c04e31f47ecc28cc0e1b0
+ms.sourcegitcommit: 08ca5798cf3f04fc3ea38fff40c1860196a70adf
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783132"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "5985410"
 ---
 # <a name="set-up-printers"></a>Tulostimien määrittäminen
 
@@ -36,11 +36,13 @@ Asiakirjojen ja raporttien tulostaminen [!INCLUDE[prod_short](includes/prod_shor
 
 Yleistulostus on tilauspohjainen Microsoft 365 -palvelu, joka suoritetaan kokonaisuudessaan Microsoft Azuressa. Yleistulostusportaalin kautta käytettävissä on keskitetty tulostimen hallinta. [!INCLUDE[prod_short](includes/prod_short.md)] tuo yleistulostuksessa määritetyt tulostimet asiakasohjelmakäyttäjien käyttöön **Yleistulostuksen integrointi** -laajennuksen avulla.
 
+![Yleistulostus-asetus](media/Universal-Print-arch.png)
+
 Täydellinen määritys edellyttää, että sekä Microsoft Azure [Azure-portaalin](https://posrtal.azure.com) kautta että [!INCLUDE[prod_short](includes/prod_short.md)] ovat käytettävissä.
 
 ### <a name="supported-printers"></a>Tuetut tulostimet
 
-[!INCLUDE[prod_short](includes/prod_short.md)] tukee samoja tulostimia kuin yleistulostus, ja nämä tulostimet voivat olla joko yhteensopivia yleistulostuksen kanssa tai sitten ne eivät ole sitä. Yhteensopimattomat tulostimet eivät voi olla suoraan yhteydessä yleistulostukseen, joten niissä tarvitaan ylimääräinen yleistulostuksen toimittama yhdistinohjelmisto. Joitakin vanhoja tulostimia ei ehkä tueta.
+[!INCLUDE[prod_short](includes/prod_short.md)] tukee samoja tulostimia kuin yleistulostus, ja nämä tulostimet voivat olla joko yhteensopivia yleistulostuksen kanssa tai sitten ne eivät ole sitä. Yhteensopimattomat tulostimet eivät voi olla suoraan yhteydessä yleistulostukseen, joten niissä tarvitaan ylimääräinen yleistulostuksen toimittama yhdistinohjelmisto. Joitakin vanhoja tulostimia ei ehkä tueta. 
 
 <!-- TODO If not installed, go to AppSource -->
 

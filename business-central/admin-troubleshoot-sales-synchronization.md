@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: bb3c0684d476fbba2a23a73dd821384d32afbbab
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 91c64ecbd32ec8fe6a528c87d2e102e1a1322816
+ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777039"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017222"
 ---
 # <a name="troubleshooting-synchronization-errors"></a>Synkronointivirheiden vianmääritys
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -27,7 +27,7 @@ Sovellusten [!INCLUDE[prod_short](includes/prod_short.md)] ja [!INCLUDE[prod_sho
 Virheet johtuvat usein siitä, että käyttäjä on tehnyt jotain yhdistetyille tietueille tai integroinnin määrittämisessä on tapahtunut virhe. Jos virheet ovat tapahtuneet yhdistettyjen tietueiden vuoksi, käyttäjät voivat ratkaista ne itse. Nämä virheet johtuvat esimerkiksi siitä, että poistat tietoja yhdestä liiketoimintasovelluksesta, mutta et molemmista, ja synkronoit tämän jälkeen. Lisätietoja on kohdassa [Synkronoinnin tilan näyttäminen](admin-how-to-view-synchronization-status.md).
 
 ## <a name="example"></a>Esimerkki
-Tässä videossa on esimerkki siitä, miten Salesin synkronoinnissa tapahtuneet virheet voidaan korjata. Prosessi on sama kaikille integroinneille. 
+Tässä videossa on esimerkki siitä, miten tuotteen [!INCLUDE[prod_short](includes/cds_long_md.md)] synkronoinnissa tapahtuneet virheet voidaan korjata. Prosessi on sama kaikille integroinneille. 
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2097304]
 
@@ -45,9 +45,9 @@ Nämä virheet on ratkaistava manuaalisesti. Sivulla olevat toiminnot voivat kui
 
 Joskus tietueiden aikaleimat voivat aiheuttaa ristiriitoja. "CDS-integrointitietue" -taulukossa on aikaleimat "Viimeinen synkronointi muokattu" ja "Synkronoitu viimeksi CDS muokattu" viimeiselle yhdistämiselle, joka on tehty riville molempiin suuntiin. Näitä aikaleimoja verrataan liike Business Centralin ja myyntitietueiden aikaleimoihin. Business Centralin aikaleima on Integrointitietue -taulukossa.
 
-Voit suodattaa synkronoitavat tietueet vertaamalla rivin aikaleimoja taulukossa "Integrointitaulukon linkitys" kentissä "Synkronoi mukautettu suodattimessa" ja "Synkronoi sis. taul. Muok. Suodattimella.”.
+Voit suodattaa synkronoitavat tietueet vertaamalla rivin aikaleimoja taulukossa Integrointitaulukon linkitys -kentissä Synkronoi mukautettu suodattimessa ja Synkronoi sis. taul. Muok. Suodattimella.”.
 
-Ristiriidan virhesanoma "Asiakastietuetta ei voida päivittää, koska sen muokkauspäivämäärä on myöhäisempi kuin tilitietueessa" tai "Tilitietuetta ei voida päivittää, koska sen muokkauspäivämäärä on myöhäisempi kuin asiakastietueessa" voi tapahtua, jos rivillä on aikaleima, joka on suurempi kuin IntegrationTableMapping."Synch. Modified On Filter", mutta se ei ole myöhäisempi kuin myynnin integroinnin tietueen aikaleima. Se tarkoittaa sitä, että lähderivi synkronoitiin manuaalisesti, ei työjonotapahtuman mukaan. 
+Ristiriidan virhesanoma "Asiakastietuetta ei voida päivittää, koska sen muokkauspäivämäärä on myöhäisempi kuin tilitietueessa" tai "Tilitietuetta ei voida päivittää, koska sen muokkauspäivämäärä on myöhäisempi kuin asiakastietueessa" voi tapahtua, jos rivillä on aikaleima, joka on suurempi kuin IntegrationTableMapping."Synch. Modified On Filter", mutta se ei ole myöhäisempi kuin myynnin integroinnin tietueen aikaleima. Se tarkoittaa sitä, että lähderivi synkronoitiin manuaalisesti, mutta ei työjonotapahtuman mukaan. 
 
 Ristiriita johtuu siitä, että myös kohderiviä on muutettu – rivin aikaleima on uudempi kuin myynnin integroinnin tietueen aikaleima. Kohde tarkistetaan vain kaksisuuntaisissa taulukoissa. 
 
@@ -55,6 +55,8 @@ Nämä tietueet siirretään nyt "Ohitettu synkronointi" -sivulle, jonka voit av
 
 ## <a name="remove-couplings-between-records"></a>Liitosten poistaminen tietueiden väliltä
 Kun integraatiossa on jotain vikaa ja haluat poistaa tietueiden synkronoinnin pysäyttämisen, voit tehdä sen yhden tai usean tietueen kanssa kerralla. Voit irrottaa yhden tai useamman tietueen luettelosivuilta tai **Yhdistettyjen tietojen synkronointivirheet** -sivulta valitsemalla yhden tai useamman rivin ja valitsemalla **Poista yhdistäminen**. Voit myös poistaa kaikki yhden tai useamman taulukon yhdistämismäärityksen yhdistämiset **Integrointitaulukon yhdistämismääritykset** -sivulla. 
+
+Jos entiteetti, jolla on yksisuuntainen yhdistämismääritys, on poistettu tuotteesta [!INCLUDE[prod_short](includes/prod_short.md)], rikottu yhdistämismääritys on poistettava manuaalisesti. Voit tehdä tämän **Yhdistettyjen tietojen synkronointivirheet** -sivulla valitsemalla **Etsi poistettavaksi** -toiminnon ja poistamalla yhdistämismääritykset.
 
 ## <a name="see-also"></a>Katso myös
 [Integrointi Microsoft Dataversein kanssa](admin-prepare-dynamics-365-for-sales-for-integration.md)  

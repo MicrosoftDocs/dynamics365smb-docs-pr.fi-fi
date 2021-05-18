@@ -1,8 +1,6 @@
 ---
-title: Projektin ostonimikkeiden tai palvelujen ostaminen ja tarvikkeiden hallinta| Microsoft Docs
+title: Projektin tarvikkeiden hallinta
 description: Ohjeaiheessa kerrotaan, miten tarvikkeita hallitaan sekä projekteille ostetaan materiaaleja ja palveluja.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -12,17 +10,17 @@ ms.workload: na
 ms.search.keywords: project management, material, purchase
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 12068b06bfa725c44232c1dd91a157ef8559f6e0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 7e1f6f52a8ef5f7d4620a70c4611ba259dc00c20
+ms.sourcegitcommit: 93c8681054b059cec38cb29b86de20be37980676
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785371"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5938169"
 ---
 # <a name="manage-job-supplies"></a>Projektin tarvikkeiden hallinta
 Projektin nimikkeiden, palveluiden ja kulujen tarvikkeiden hallinta on olennainen ja tärkeä osa kaikkia projekteja. Voit käyttää varastomääriä tai tehdä projektikohtaisia ostoja ostotilausten tai ostolaskujen avulla. Oletetaan esimerkiksi, että tietokoneen huoltoprojektia varten tarvitaan uusi levy. Tällöin luot ostolaskun uuden levyn ostamista varten ja kirjaat projektin, jossa sitä käytetään.
 
-Jos ostoprosessi ei edellytä, että fyysinen tapahtuma kirjataan erikseen, osto voidaan käsitellä vain ostolaskussa tai **Projektin KP-päiväkirja** -sivulla. Lisätietoja on kohdassa [Projektien käytön kirjaaminen](projects-how-record-job-usage.md).
+Jos ostoprosessi ei edellytä, että fyysinen tapahtuma kirjataan erikseen, osto voidaan käsitellä vain ostolaskussa tai **Projektin KP-päiväkirja** -sivulla. Lisätietoja on kohdassa [Projektiin liittyvän kulun kirjaaminen](projects-how-manage-project-supplies.md#to-post-a-job-related-expense).
 
 ## <a name="to-purchase-items-or-services-for-a-job"></a>Nimikkeiden tai palveluiden ostaminen projektille
 Seuraavassa kerrotaan, miten projektille ostetaan tuotteita ostolaskun avulla. Samat vaiheet toimivat myös silloin, kun käytetään ostotilausta.  

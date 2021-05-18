@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 86e540a34efba3fccbc0615cac692fd6c405bee0
-ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
+ms.openlocfilehash: 6980e56f8bda750f9afae9bed6577bb1ab1fec49
+ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5882228"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935209"
 ---
 # <a name="teams-faq"></a>Teams – usein kysytyt kysymykset
 
@@ -230,7 +230,7 @@ Kyllä. Yhteyshenkilöiden haku Teamsista perustuu [!INCLUDE [prod_short.md](inc
 
 Kun kirjaudut Teamsin [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovellukseen ensimmäisen kerran, sovellus yrittää määrittää [!INCLUDE [prod_short.md](includes/prod_short.md)]in ensisijaisen yrityksen. Jos sovellus ei pysty määrittämään yritystä, on ehkä siirryttävä **asetuksiin** valitsemaan yritys, jossa haku halutaan tehdä. Näin voi tapahtua esimerkiksi silloin, jos käytettävissä on useita yrityksiä organisaation eri ympäristöissä. Siinä tapauksessa yritys on valittava ennen haun aloittamista.  
 
-Sovellus voi myös pyytää siirtymään **asetuksiin**, jos näyttää siltä, ettei sinulla ole [!INCLUDE [prod_short.md](includes/prod_short.md)] -tilausta, [!INCLUDE [prod_short.md](includes/prod_short.md)] -ympäristöä ei ole tai tilillä ei ole [!INCLUDE [prod_short.md](includes/prod_short.md)] -käyttöoikeutta.
+Sovellus voi myös pyytää siirtymään **asetuksiin**, jos sinulla ei ole tuotteen [!INCLUDE [prod_short.md](includes/prod_short.md)] tilausta, jos tuotteen [!INCLUDE [prod_short.md](includes/prod_short.md)] ympäristöjä ei ole tai tilillä ei ole tuotteen [!INCLUDE [prod_short.md](includes/prod_short.md)] käyttöoikeutta.
 
 ### <a name="id-like-to-search-for-items-or-records-from-other-tables-can-i-do-this-from-teams"></a>Haluan hakea nimikkeitä tai tietueita muista taulukoista. Onko tämä mahdollista myös Teamsissa?
 

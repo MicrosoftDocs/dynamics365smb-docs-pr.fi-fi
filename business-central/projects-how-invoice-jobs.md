@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: project invoice
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f9290bda4437ea43edcaa19d7759f2fdee24e8c4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 873135d2fa6053b7101a999981fb3117ee8689ab
+ms.sourcegitcommit: 93c8681054b059cec38cb29b86de20be37980676
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775063"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5938144"
 ---
 # <a name="invoice-jobs"></a>Projektien laskuttaminen
 Projektin aikana voi kertyä projektin kustannuksia resurssien käytöstä, materiaaleista ja projektiin liittyvistä ostoista. Projektin edetessä nämä tapahtumat kirjataan projektipäiväkirjaan. On tärkeää, että kaikki kustannukset kirjataan projektipäiväkirjaan ennen asiakkaan laskuttamista.
@@ -61,21 +61,6 @@ Voit luoda laskun projektin suunnitteluriveiltä ja määrittää samalla nimikk
 > [!NOTE]  
 >   Projektiin liittyvän myyntihyvityslaskun luominen, tarkistaminen ja kirjaaminen tapahtuu vastaavalla tavalla.
 
-## <a name="to-calculate-and-post-job-completion-entries"></a>Projektin valmistumistapahtumien laskeminen ja kirjaaminen
-Kun olet saanut kaikki projektin toimenpiteet, kuten käytön kirjauksen ja laskutuksen, valmiiksi, projekti on päivitettävä **tilaan** **Valmis**. Tämän jälkeen mahdollinen kirjanpitoon kirjattu KET peruuntuu.
-
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Työt** ja valitse sitten liittyvä linkki.  
-2. Valitse avoin projekti ja valitse sitten **Muokkaa**-toiminto.
-3. Valitse **Tila**-kentässä **Valmis**.
-4. Laske ja kirjaa KET ohjattujen vaiheiden avulla. Vaihtoehtoisesti voit tehdä toiminnot manuaalisesti vaiheiden 5 ja 6 mukaisesti.  
-5. Valitse **Laske KET** -toiminto.
-6. Täytä **Laske projektin KET** -sivulla tarvittavat kentät.  
-
-     Erätyön luomien projektin KET-tapahtumien vieressä on nyt valintamerkki **Projekti valmis** -kentässä. Valintamerkki osoittaa, että kyseessä ovat valmistumistapahtumat.  
-7. Valitse **Kirjaa projektin KET kirjanpitoon** -toiminto.
-8. Täytä **Kirjaa projektin KET kirjanpitoon** -sivulla tarvittavat kentät.  
-
-     Erätyön luomien projektin pääkirjanpidon KET-tapahtumien vieressä on nyt valintamerkki **Projekti valmis** -kentässä. Valintamerkki osoittaa, että kyseessä ovat valmistumistapahtumat.
 
 ## <a name="see-also"></a>Katso myös
 [Projektien hallinta](projects-manage-projects.md)  

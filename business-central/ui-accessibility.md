@@ -1,68 +1,50 @@
 ---
 title: Aputoiminnot
 description: Pikanäppäinten ja muiden ominaisuuksien käyttöä.
-author: edupont04
+author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: c303c39850e22d3df375838d42703133428b4c7d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.search.keywords: accessibility, shortcuts, charts, tooltips, screen reader
+ms.date: 04/29/2021
+ms.author: jswymer
+ms.openlocfilehash: 5de8096338cef264b599701abf2e21a906417bac
+ms.sourcegitcommit: 103d1433454dbedf8a72a292853eac3501872f24
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772352"
+ms.lasthandoff: 04/29/2021
+ms.locfileid: "5961550"
 ---
 # <a name="accessibility-and-keyboard-shortcuts"></a>Helppokäyttötoiminnot ja pikanäppäimet
 
-Tässä ohjeaiheessa on tietoja toiminnoista, jotka helpottavat [!INCLUDE[prod_short](includes/prod_short.md)]:n käyttöä. [!INCLUDE[prod_short](includes/prod_short.md)] tukee seuraavia helppokäyttötoimintoja:  
+Tässä artikkelissa on tietoja toiminnoista, joiden ansiosta [!INCLUDE[prod_short](includes/prod_short.md)] on jo toimintarajoitteisten käyttäjien käytettävissä. [!INCLUDE[prod_short](includes/prod_short.md)] tukee seuraavia helppokäyttötoimintoja:  
 
-- Näppäimistön pikanäppäimet
-
-    Lisätietoja on kohdassa [Pikanäppäimet](keyboard-shortcuts.md)
-
+- Pikanäppäimet. Katso [Pikanäppäimet](keyboard-shortcuts.md).
+- Tablettien ja puhelinten kosketuseleet ja kynän liikkeet. Katso [Kosketuseleet ja kynän liikkeet](touch-gestures.md).
 - Siirtyminen  
-
 - Otsikot  
-
 - Kuvien ja linkkien vaihtoehtoinen teksti  
+- Yleisten käyttöä tukevien tekniikoiden tuki 
+- Lähennä tai loitonna millä tahansa sivulla
+- Käyttöliittymän elementtien työkaluvihjeet
 
-- Yleisten käyttöä tukevien tekniikoiden tuki  
+## <a name="navigation"></a><a name="Navigation"></a> Siirtyminen
+  
+Voit käyttää näppäimistön sarkain-, vaihto- ja nuolinäppäimiä, jos haluat siirtyä sivun elementtien välillä. Elementtejä ovat toiminnot, kentät ja sarakkeet, osat ja muut ohjausobjektit. Yleensä voit siirtyä seuraavaan tai edelliseen elementtiin painamalla sarkain- tai vaihto+sarkain-näppäimiä.
 
-- Lähennä tai loitonna millä tahansa sivulla pikanäppäinten avulla
+Kun keskitys tehdään toimintoja sisältävälle alueelle, siirry nuolinäppäinten avulla eri toimintojen ja ryhmien välillä. Toimintoja ovat esimerkiksi roolikeskuksen yläosan siirtymispalkki ja muiden sivujen toimintopalkit. Paina sen ryhmän Enter-näppäintä, jonka pohjana olevat toiminnot haluat avata, ja jatka sitten nuolinäppäinten avulla. Siitty toimintoalueelta pois sarkain- tai vaihto+sarkain-näppäinten avulla.
 
-<!-- moved to separate article
-##  <a name="Keyboard"></a> Keyboard Shortcuts in the browser
- [!INCLUDE[prod_short](includes/prod_short.md)] supports the keyboard shortcuts that are supported by most web browsers. The keyboard shortcuts described here refer to the U.S. keyboard layout. The layout of the keys on other keyboards may not correspond exactly to the keys on a U.S. keyboard.  
-
-|To do this|Press|  
-|----------------|-----------|  
-|To move focus to the next or previous control or element on a page, such as buttons, fields, or items in a list.|Tab, Shift+Tab|  
-|To enable or access the element or control that is in focus.|Enter|  
-|To scroll items up and down in a list.|Up Arrow, Down Arrow|  
-|To scroll columns of an item left and right in a list.|Left Arrow, Right Arrow|  
-|To open a drop-down list or look up a value for a field.|Alt+Down Arrow|  
-|To move focus to the next element outside the list.|Ctrl + Enter|  
-|To see the transactions that resulted in a calculated value in a field.|Alt+Right Arrow|  
-
--->
-
-## <a name="navigation"></a><a name="Navigation"></a> Siirtyminen  
- Voit siirtyä valintanauhan välilehtien ja toimintojen, siirtymispalkin elementtien sekä muiden [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman sivujen ja raporttien välillä näppäimistön avulla. Voit siirtää kohdistuksen yhdestä välilehdestä, toiminnosta tai ohjausobjektista toiseen painamalla sarkainnäppäintä, jos haluat siirtyä eteenpäin. Jos haluat siirtyä taaksepäin, paina näppäinyhdistelmään vaihto+sarkain.  
-
- Voit siirtyä sarkaimella järjestyksessä pääselainsivun ja esimerkiksi vahvistusta pyytävän valintaikkunan tai kirjautumissivun välillä.  
+Voit siirtyä sarkaimella järjestyksessä pääselainsivun ja esimerkiksi vahvistusta pyytävän valintaikkunan tai kirjautumissivun välillä.  
 
 ## <a name="headings-in-content"></a><a name="Headings"></a>Sisällön otsikot
- 
- [!INCLUDE[prod_short](includes/prod_short.md)]:n sisällön HTML-lähde käyttää tunnisteita, jotka auttavat helppokäyttötoimintojen käyttäjiä ymmärtämään sivun rakennetta ja sisältöä. Esimerkiksi luettelosivuilla sarakkeet määritetään TH.-tunnisteilla ja sarakeotsikot määritetään tunnisteen sisällä olevalla TITLE-määritteellä. Otsikkotunnisteet (H1, H2, H3 ja H4) sisältävät elementtien, kuten pikavälilehtien, tietoruutujen ja kenttien, selosteet.  
+
+[!INCLUDE[prod_short](includes/prod_short.md)]:n sisällön HTML-lähde käyttää tunnisteita, jotka auttavat helppokäyttötoimintojen käyttäjiä ymmärtämään sivun rakennetta ja sisältöä. Esimerkiksi luettelosivuilla sarakkeet määritetään TH.-tunnisteilla ja sarakeotsikot määritetään tunnisteen sisällä olevalla TITLE-määritteellä. Otsikkotunnisteet (H1, H2, H3 ja H4) sisältävät elementtien, kuten pikavälilehtien, tietoruutujen ja kenttien, selosteet.  
 
 ## <a name="image-and-links"></a><a name="Images"></a> Kuva ja linkit
 
- Kuvien kuvaileva teksti määritetään IMG-tunnisteeseen sisältyvällä ALT-määritteellä. Hyperlinkkien kuvaileva teksti määritetään A-tunnisteeseen sisältyvällä TITLE-määritteellä.  
+Kuvien kuvaileva teksti määritetään IMG-tunnisteeseen sisältyvällä ALT-määritteellä. Hyperlinkkien kuvaileva teksti määritetään A-tunnisteeseen sisältyvällä TITLE-määritteellä.  
 
 ## <a name="assistive-technologies"></a><a name="AssistiveTech"></a> Käyttöä tukevat tekniikat
 
@@ -70,7 +52,30 @@ Tässä ohjeaiheessa on tietoja toiminnoista, jotka helpottavat [!INCLUDE[prod_s
 
 ## <a name="zoom"></a><a name="zoom"></a>Zoomaa
 
-Useimmat selaimet käyttävät vakiopikanäppäimiä, kun haluat lähentää ja loitontaa nykyistä sivua. Nämä pikanäppäimet eivät ole ominaisia [!INCLUDE [prod_short](includes/prod_short.md)]ille, mutta ne toimivat, kun käytät [!INCLUDE [prod_short](includes/prod_short.md)]ia selaimessa. Luettelo tuetuista pikanäppäimistä on kohdassa [Pikanäppäimet lähentämistä ja loitontamista varten](keyboard-shortcuts.md#zoomshortcuts).  
+Useimmat selaimet käyttävät vakiopikanäppäimiä, kun haluat lähentää ja loitontaa nykyistä sivua. Nämä pikanäppäimet eivät ole tuotteelle [!INCLUDE [prod_short](includes/prod_short.md)] ominaisia, mutta ne toimivat, kun [!INCLUDE [prod_short](includes/prod_short.md)] on käytössä selaimessa. Luettelo tuetuista pikanäppäimistä on kohdassa [Pikanäppäimet lähentämistä ja loitontamista varten](keyboard-shortcuts.md#zoomshortcuts).
+
+## <a name="tooltips"></a>Työkaluvihjeet
+
+Työkaluvihjeet ovat käytettävissä useimmissa käyttöliittymän elementeissä, kuten sivun kentissä ja sarakkeissa, toiminnoissa, pinoruuduissa ja kaavioissa. Työkalu Vihje sisältää lisä tekstin, jossa selitetään elementti, joka helpottaa sen tarkoituksen ymmärtämistä. 
+
+Työkaluvihjeet ovat käytettävissä eri tavoilla asiakasohjelman (verkko tai mobiili) ja käyttämäsi laitteen mukaan. Käytä seuraavaa taulukkoa oppaana. Näytönlukuohjelmat voivat lukea osan työkaluvihjeistä. Tässä tapauksessa työkaluvihjeitä käytetään taulukossa kuvatulla tavalla. Tämän jälkeen siirrytään työkaluvihjeeseen näytönlukuohjelman avulla samalla tavalla kuin mihin tahansa muuhun elementtiin.
+
+#### <a name="accessing-tooltips"></a>Työkaluvihjeiden käyttäminen
+
+|Elementti|Hiiritoiminto verkkoasiakasohjelmassa|Verkkoasiakasohjelman pikanäppäimet|Mobiilisovelluksen kosketusele tabletissa/puhelimessa|Näytönlukuohjelman tuki|
+|-------|-----------------|------------|--------------------------|---------------------|
+|Sivun kenttien ja sarakkeiden otsikot|Valitse kentän tai sarakkeen otsikko osoittamalla tai napsauta sitä|Siirrä kohdistus kentän tai sarakkeen otsikkoon ja paina Alt+ylänuolinäppäin|Napauta kentän otsikkoa |kyllä|
+|Kaavioiden elementit, kuten palkki, viiva ja ympyrän sektori|Valitse elementti osoittamalla|Siirrä kohdistus elementtiin käyttämällä esimerkiksi nuolinäppäimiä|Napauta elementtiä ja pidä sitä painettuna|kyllä|
+|Toiminnot|Valitse toiminto osoittamalla|ei mitään|ei mitään |ei|
+|Pinoruudut|Valitse ruutu osoittamalla |ei mitään|ei mitään|ei|
+
+
+<!--
+- With a mouse, hover over the element.
+- With keyboard, press the Alt+Up Arrow keys.
+- On a tablet or phone, tap and hold on the element. To learn about more gestures, see [Touch and Pen Gestures](touch-gestures.md)
+
+-->
 
 ## <a name="for-more-accessibility-information"></a>Lisätietoja helppokäyttötoiminnoista
 
@@ -81,6 +86,5 @@ Lisätietoja Microsoftin tuotteiden helppokäyttötoiminnoista ja käyttöä hel
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Usein kysytyt kysymykset](across-faq.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Business Centralin Power BI -integrointiosa ja arkkitehtuurin yleiskatsaus | Microsoft Docs
-description: Analyysitietojen, liiketoimintatietojen ja tunnuslukujen hakeminen Business Centralin tiedoista on helppoa Power BI:n Business Central -sovelluksia.
+description: Lisätietoja Power BI:n integroinnista Business Centralin kanssa.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -11,12 +11,12 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: e1091496b7d4ec4bed4cc8c49fa1e2e00a336a3c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a1d0d0403798f8cd2af6b29249f01f529fb789be
+ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777414"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935234"
 ---
 # <a name="power-bi-integration-component-and-architecture-overview-for-prod_short"></a>[!INCLUDE[prod_short](includes/prod_short.md)]in Power BI -integrointiosa ja arkkitehtuurin yleiskatsaus
 
@@ -80,8 +80,6 @@ Seuraava kaavio näyttää käyttäjien perustyönkulun yhdistettäessä [!INCLU
 [[!INCLUDE[prod_short](includes/prod_short.md)]in käyttäminen Power BI:n tietolähteenä](across-how-use-financials-data-source-powerbi.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)]in käyttäminen Power Apps:n tietolähteenä](across-how-use-financials-data-source-powerapps.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)]in käyttäminen Power Automate'ssa](across-how-use-financials-data-source-flow.md)  
-
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

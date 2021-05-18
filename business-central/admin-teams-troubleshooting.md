@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 9783d5d25c31bd830931cf3f363359880a6e19bf
-ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
+ms.openlocfilehash: a26414ae33b0139257c542966ba9ccd934241a66
+ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5882168"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017122"
 ---
 # <a name="troubleshooting-microsoft-teams-integration-with-prod_short"></a>[!INCLUDE [prod_short](includes/prod_short.md)] ja Microsoft Teamsin integroinnin vianmääritys
 
@@ -42,9 +42,9 @@ Kun yritys on vaihdettu **Asetukset**-sivulla, komentoruudun avattava luettelo v
 
 Tämä virhe voi esiintyä, kun haku koskee yritystä, jota ei ole käynnistetty tai joka ei vastaa. Hakua ei voi esimerkiksi tehdä uudessa kokeiluversion yrityksessä, joka ei vielä hyväksynyt käyttöehtoja. Ongelman voi ratkaista kokeilemalla kirjautumista [!INCLUDE [prod_short.md](includes/prod_short.md)] -verkkoasiakasohjelmaan sekä toimimalla avautuvien valintaikkunoiden ohjeiden mukaisesti tai hylkäämällä ne.
 
-## <a name="the-contacts-api-was-not-found-error-when-searching-for-contacts"></a>Yhteyshenkilön ohjelmointirajapintaa ei löydy -virhe yhteyshenkilöitä haettaessa
+## <a name="cannot-find-the-contactcontact-summary-api-error-when-searching-for-contacts"></a>Yhteyshenkilön tai yhteyshenkilön yhteenvedon ohjelmointirajapintaa ei löydy -virhe, kun yhteyshenkilöitä haetaan
 
-Tämän ongelman syynä voivat olla mukautukset tai toimialakohtaiset ratkaisut, jotka vaikuttavat yhteyshenkilön ohjelmointirajapintaan [!INCLUDE [prod_short.md](includes/prod_short.md)]issa, muokkaavat sitä tai eivät toimita sitä. Jos ongelma toistuu, ota yhteys järjestelmänvalvojaan tai tukeen.
+Mukauttamiset tai toimialasovellukset voivat aiheuttaa tämän virheen vaikuttaessaan tuotteeseen [!INCLUDE [prod_short.md](includes/prod_short.md)] tai muokatessaan sitä, tai ne eivät sisällä yhteyshenkilön tai yhteyshenkilön yhteenvedon ohjelmointirajapintaa. Jos ongelma toistuu, ota yhteys järjestelmänvalvojaan tai tukeen.
 
 ## <a name="none-of-my-links-expand-into-a-card"></a>Yksikään linkkini ei laajennu kortiksi 
 

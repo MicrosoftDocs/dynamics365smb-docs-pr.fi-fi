@@ -1,5 +1,5 @@
 ---
-title: Projektihintojen ja projektin kirjausryhmien määrittäminen| Microsoft Docs
+title: Projektien, hintojen ja projektin kirjausryhmien määrittäminen
 description: Tässä ohjeaiheessa kerrotaan, miten yleiset projektitiedot määritetään, sekä määritetään projektin nimikkeiden, resurssien sekä KP-tilien ja projektien kirjausryhmien hinnat.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.workload: na
 ms.search.keywords: project management
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 597d0ceb94e72305675b446af0031d97e0bc6478
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fc936a6839bbed7fee061b62a851441caddb5a4f
+ms.sourcegitcommit: 93c8681054b059cec38cb29b86de20be37980676
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780455"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5938069"
 ---
-# <a name="set-up-jobs"></a>Projektien määrittäminen
+# <a name="set-up-jobs-prices-and-job-posting-groups"></a>Projektien, hintojen ja projektin kirjausryhmien määrittäminen
 
 Määrität projektipäällikkönä projektit, jotka määrittävät jokaisen [!INCLUDE[prod_short](includes/prod_short.md)]issa hallittavan projektin. Määritä **Projektienhallinnan asetukset** -sivulla projektin tiettyjen toimintojen asetukset.
 
@@ -26,26 +26,27 @@ Kullekin projektille määritetään sitten yksittäiset projektikortit, joissa 
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
-> **Käytä käyttölinkkiä oletusarvoisesti** -kentän vaikutus on varsin monisyinen. Seuraavassa osassa kerrotaan siitä enemmän.
+> **Käytä käyttölinkkiä oletusarvoisesti** -kenttä osoittaa, ovatko projektitapahtumat linkitetty projektin suunnitteluriveihin oletusarvoisesti. Valitse kenttä, jos haluat ottaa tämän asetuksen käyttöön kaikkiin luomiisi projekteihin. Voit ottaa käyttöön projektin käytön seurannan tietyssä projektissa tai poistaa sen käytöstä muuttamalla **Käytä käyttölinkkiä** -kentän arvoa yksittäisessä projektikortissa. Seurauksista kerrotaan seuraavassa osassa.
 
 ### <a name="to-set-up-job-usage-tracking"></a>Projektin käytön seurannan määrittäminen
 
-Kun suoritat työtä, haluat ehkä tietää, miten käyttöäsi seurataan suunnitelmaasi. Voit tehdä tämän helposti luomalla linkin työsuunnittelurivien ja toteutuneen käytön välille. Tämän avulla voi seurata kustannuksia ja helposti nähdä, miten paljon työtä on vielä jäljellä. Oletusarvon mukaan työn suunnittelurivin tyyppi on **Budjetti**, mutta käyttämällä rivin tyyppiä **Sekä budjetti että laskutettava** on samanlainen vaikutus.
+Kun työskentelet projektin parissa, haluat ehkä tietää, miten käyttöäsi seurataan suunnitelmaasi. Voit tehdä tämän helposti luomalla linkin työsuunnittelurivien ja toteutuneen käytön välille. Tämän avulla voi seurata kustannuksia ja helposti nähdä, miten paljon työtä on vielä jäljellä. Oletusarvon mukaan työn suunnittelurivin tyyppi on *Budjetti*, mutta käyttämällä rivin tyyppiä **Sekä budjetti että laskutettava** on samanlainen vaikutus.
 
-Jos valitset **Käytä käyttölinkkiä oletusarvoisesti** -kentän, voit tarkastella tietoja projektin suunnittelurivillä. Voit määrittää resurssin, nimikkeen tai pääkirjanpidon tilin määrän ja ilmaista projektipäiväkirjaan siirrettävän määrän. Projektin suunnittelurivin **Jäljellä oleva määrä** -kenttä osoittaa projektipäiväkirjaan siirrettävän ja kirjattavan jäljellä olevan määrän.
+Kun olet valinnut käytön seurannan valitsemalla **Käytä käyttölinkkiä** -kentän, voit tarkastella tietoja projektin suunnittelurivillä. Voit määrittää resurssin, nimikkeen tai pääkirjanpidon tilin määrän ja ilmaista projektipäiväkirjaan siirrettävän määrän. Projektin suunnittelurivin **Jäljellä oleva määrä** -kenttä osoittaa projektipäiväkirjaan siirrettävän ja kirjattavan jäljellä olevan määrän.
 
-> [!TIP]  
-> Voit ottaa käyttöön tietyn projektin projektin käytön seurannan tai poistaa sen käytöstä. Yksittäisen projektin kortin **Käytä käyttölinkkiä** -kenttä korvaa **Projektienhallinnan asetukset** -sivun asetuksen.  
-
-Kun **Käytä käyttölinkkiä oletusarvoisesti** -valintaruutu on valittuna ja projektin suunnittelurivin tyyppi on **Laskutettava**, **Budjetti**-tyyppisen projektin suunnittelurivi luodaan projektin päiväkirjarivin kirjaamisen jälkeen.
+>[!NOTE]
+> Jos yksittäisen projektin **Käytä käyttölinkkiä** -valintaruutu on valittu ja päiväkirjarivin **Rivityyppi**-kenttä tai ostorivi on *Laskutettava*, *Budjetti*-tyyppiset projektin uudet suunnittelurivit luodaan projektipäiväkirjan tai ostoasiakirjan kirjaamisen yhteydessä.  
+> Lisätietoja on kohdassa [Projektien käytön kirjaaminen](projects-how-record-job-usage.md) ja [Projektin tarvikkeiden hallinta](projects-how-manage-project-supplies.md)
 
 > [!IMPORTANT]
-> Jos projektin käytön seuranta on otettu käyttöön **Projektienhallinnan asetukset** -sivulla tai yksittäisessä projektissa ja päiväkirjarivin **Rivityyppi**-kenttä on tyhjä, **Budjetti**-tyyppiset projektin uudet suunnittelurivit luodaan projektipäiväkirjan rivien kirjaamisen yhteydessä.  
->  
-> Jos projektin käytön seurantaa *ei* ole otettu käyttöön **Projektienhallinnan asetukset** -sivulla tai yksittäisessä projektissa ja päiväkirjarivin **Rivityyppi**-kenttä on tyhjä, mitään projektin suunnittelurivejä ei luoda projektipäiväkirjan rivien kirjaamisen yhteydessä. Lisätietoja on kohdassa [Projektien käytön kirjaaminen](projects-how-record-job-usage.md).
+> Jos projektipäiväkirjarivin tai ostorivin **Rivityyppi**-kenttä on tyhjä, projektin suunnittelurivejä ei luoda, kun projektipäiväkirja tai ostoasiakirja kirjataan.
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") -kuvake, syötä **Töiden määritys lukitukset** ja valitse sitten aiheeseen liittyvä linkki.
-2. Valitse **Käytä käyttölinkkiä oletusarvoisesti** -valintaruutu.
+<!--
+>[!Important]
+If job usage tracking is enabled on the individual job and the **Line Type** field on the job journal or purchase line line is blank, then new job planning lines of line type *Budget* are created when you post job journal or purchase document.
+If job usage tracking is not enabled and the **Line Type** field on the job journal line or purchase line is blank, then no job planning lines are created when you post job journal or purchase document.
+-->
+
 
 ## <a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-jobs"></a>Hintojen määrittäminen töiden nimikkeille, resursseille ja KP-tileille
 > [!NOTE]
@@ -79,7 +80,7 @@ Yksi näkökulma projektien suunnittelussa on sen päättäminen, mitä kirjaust
 > [!NOTE]  
 >   Tarvittavat tilikartat tulee määrittää Tilikartta-taulukossa ennen kirjausryhmien määrittämistä. Lisätietoja on kohdassa [Tilikartan määrittäminen tai muuttaminen](finance-setup-chart-accounts.md).  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektin kirjausryhmät** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **projektin kirjausryhmät** ja valitse liittyvä linkki.  
 2. Valitse **Uusi**-toiminto ja täytä kentät seuraavassa taulukossa kuvatulla tavalla.  
 
 | Summakentät | Kuvaus |

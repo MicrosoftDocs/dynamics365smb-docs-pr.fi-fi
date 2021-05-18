@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: ee7e6a132f463f35206dd9ac4fe75ce1a41fd40d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a80b6515b8397a275285ae15086a11bad9c35921
+ms.sourcegitcommit: 103d1433454dbedf8a72a292853eac3501872f24
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780080"
+ms.lasthandoff: 04/29/2021
+ms.locfileid: "5961500"
 ---
 # <a name="building-power-bi-reports-to-display-prod_long-data"></a>Power BI -raporttien luominen näyttämään [!INCLUDE [prod_long](includes/prod_long.md)] -tietoja
 
@@ -77,12 +77,16 @@ Raporttien luomisen ensimmäinen tehtävä on [!INCLUDE[prod_short](includes/pro
 
     Ohjatussa Power BI -toiminnossa on luettelo Microsoft [!INCLUDE[prod_short](includes/prod_short.md)]:n ympäristöistä, yrityksistä ja tietolähteistä. Nämä tietolähteet viittaavat kaikkiin [!INCLUDE [prod_short](includes/prod_short.md)]iin julkaistuihin verkkopalveluihin.
 6. Määritä tietomalliin lisättävät tiedot ja valitse sitten **Lataa**-painike.
-7. Lisää uusia [!INCLUDE [prod_short](includes/prod_short.md)]in tai muita tietoja Power BI -tietomalliin toistamalla edellä olevat vaiheet.
+7. Toista edelliset vaiheet, jos haluat lisätä tuotteen [!INCLUDE [prod_short](includes/prod_short.md)] tietoja tai muita tietoja Power BI:n tietomalliin.
 
 Kun tiedot on ladattu, ne näkyvät sivun oikeassa siirtymisruudussa. Olet nyt muodostanut yhteyden [!INCLUDE[prod_short](includes/prod_short.md)] -tietoihin ja voit aloittaa Power BI -raportin luomisen.  
 
 > [!TIP]
 > Lisätietoja Power BI Desktopin käytöstä on kohdassa [Power BI Desktopin käytön aloittaminen](/power-bi/fundamentals/desktop-getting-started).
+
+## <a name="creating-accessible-reports"></a>Helppokäyttötoimintoja sisältävien raporttien luominen
+
+Raportit on tärkeä luoda sellaisiksi, että mahdollisimman moni henkilö voi käyttää niitä. Yritä suunnitella raportit niin, että ne eivät vaadi erityistä mukauttamista henkilöiden erityisten tarpeiden täyttämiseksi. Varmista, että suunnittelija käyttää hyväksi käyttöä tukevia vakiotekniikoita, kuten näytönlukuohjelmia. Power BI sisältää erilaisia helppokäyttötoimintoja, työkaluja ja ohjeita tämän tavoitteen saavuttamiseksi. Lisätietoja on Power BI:n ohjeiden kohdassa [Power BI:n raporttien suunnitteleminen helppokäyttötoimintoja varten](/power-bi/create-reports/desktop-accessibility-creating-reports).
 
 ## <a name="creating-reports-to-display-data-associated-with-a-list"></a>Raporttien luominen näyttämään luetteloon liitetyt tiedot
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delete, data, retention, policy, policies
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: e9d8f9fc9b74df561aab3109b631fc10c7f46108
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5b962ed463a37e578371df193bca887774232ba5
+ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780055"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935334"
 ---
 # <a name="define-retention-policies"></a>Määritä säilytyskäytännöt
 Järjestelmänvalvojat voivat määrittää säilytyskäytäntöjä ja määrittää, kuinka usein he haluavat [!INCLUDE[prod_short](includes/prod_short.md)]:n poistavan vanhentuneita tietoja lokimerkintöjä ja arkistoituja tietueita sisältävissä taulukoissa. Esimerkiksi lokitapahtumien puhdistaminen voi helpottaa todella merkityksellisten tietojen käyttöä. Käytännöt voivat sisältää kaikki niiden taulukoiden tiedot, joiden vanhentumispäivämäärä on kulunut, tai voit lisätä suodatusehtoja, jotka sisältävät vain tietyt käytännön vanhentuneet tiedot. 
@@ -67,7 +67,7 @@ Kun kehittäjä lisää taulukon, hän voi määrittää pakollisia ja oletussuo
 
 Seuraavassa on esimerkkejä siitä, kuinka voit lisätä taulukon sallittujen taulukoiden luetteloon pakollisten- tai oletussuodattimien avulla ja ilman niitä. Monimutkaisempaa esimerkkiä varten katso codeunit 3999 "Reten. Pol. Install-BaseApp". 
 
-```
+```al
  trigger OnInstallAppPerCompany()
     var
         RetenPolAllowedTables: Codeunit "Reten. Pol. Allowed Tables";
@@ -78,7 +78,7 @@ Seuraavassa on esimerkkejä siitä, kuinka voit lisätä taulukon sallittujen ta
 
 Seuraavassa esimerkissä on pakollinen suodatin.
 
-```
+```al
  trigger OnInstallAppPerCompany()
     var
         ChangeLogEntry: Record "Change Log Entry";
@@ -98,9 +98,12 @@ Seuraavassa esimerkissä on pakollinen suodatin.
         RetenPolAllowedTables.AddAllowedTable(Database::"Change Log Entry", ChangeLogEntry.FieldNo(SystemCreatedAt), TableFilters);
     end;
 ```
+
 Kun kehittäjä on lisännyt taulukoita luetteloon, järjestelmänvalvoja voi sisällyttää ne säilytyskäytäntöihin. 
 
 ## <a name="see-also"></a>Katso myös
+
+[Säilytyskäytännön jäljityksen telemetrian analysoiminen](/dynamics365/business-central/dev-itpro/administration/telemetry-retention-policy-trace)  
 [Business Centralin tilintarkastuksen muutokset](across-log-changes.md)  
 [Suodattaminen](ui-enter-criteria-filters.md#filtering)  
 [Työjonojen käyttäminen ajoitustehtäviin](admin-job-queues-schedule-tasks.md)  

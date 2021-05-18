@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: trade, sell
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7a7d013ab7a630703b38163252359ba803140da9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8c80cbbc4ed4feb088116577157407dd8fb98aaf
+ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773803"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935009"
 ---
 # <a name="sales"></a>Myynti
 Luo myyntilasku tai -tilaus tallentaaksesi sopimuksesi asiakkaan kanssa ja myydäksesi määrätyt tuotteet määrätyillä toimitus- ja maksuehdoilla.
@@ -55,7 +55,6 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 |Myy kokoonpanon nimikkeet, jotka eivät ole tällä hetkellä saatavilla, luomalla linkitetty kokoonpanotilaus toimittamaan myyntilauksen koko määrä tai sen osa.|[Kokoonpano tilausta varten -nimikkeiden myyminen](assembly-how-to-sell-items-assembled-to-order.md)|
 |Laskuta asiakasta vain kerran yhdistämällä useiden toimitusten toimitukset yhteen laskuun.|[Toimitusten yhdistäminen yhteen laskuun](sales-how-to-combine-shipments-on-a-single-invoice.md)|
 |Ilmoitta tilauksen toimiaika asiakkaille laskemalla joko mahdollinen luvattavaksi- tai luvattavissa -päivämäärä.|[Toimituksen lupaamisen päivämäärien laskeminen](sales-how-to-calculate-order-promising-dates.md)|
-|Rekisteröi nimike- ja kausikohtaisesti määritetyt tulevan myynnin arviot, jotka toimivat lähinnä tuotantosuunnittelun syöttötietoina.|[Ennusteen luominen](production-how-to-create-a-forecast.md)|
 |Ratkaise ristiriita, kun samalla asiakkaalla on ainakin kaksi tietuetta.|[Tietueiden kaksoiskappaleiden yhdistäminen](sales-how-merge-duplicate-records.md)|
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/paths/sell-items-services-dynamics-365-business-central/)

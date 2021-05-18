@@ -1,6 +1,6 @@
 ---
-title: Yhteyden muodostaminen Microsoft Dataverseiin | Microsoft Docs
-description: Voit integroida muita sovelluksia Business Centralin avulla Microsoft Dataversen kautta.
+title: Yhteyden muodostaminen Microsoft Dataverseen
+description: Voit integroida muita sovelluksia Business Centralin avulla Microsoft Dataversen kautta. Tässä artikkelissa on vihjeitä ja niksejä yhteyksien määrittämiseksi.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 04/26/2021
 ms.author: bholtorf
-ms.openlocfilehash: 96ba755a1a32a23197b2bb839e50ebe6a0a1e63b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 00034e8f1be2f88074fb33b53a1c048f81f69ede
+ms.sourcegitcommit: 57e8ab70d70849752567eecf29529efe2dcdf3af
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779780"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5941661"
 ---
 # <a name="connect-to-microsoft-dataverse"></a>Yhteyden muodostaminen Microsoft Dataverseen
+
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
 
 Tässä ohjeaiheessa kuvataan, kuinka [!INCLUDE[prod_short](includes/prod_short.md)] ja [!INCLUDE[cds_long_md](includes/cds_long_md.md)] välille määritetään yhteys. Yleensä yritykset luovat yhteyden integroidakseen ja synkronoidakseen tietoja toisen Dynamics 365 -liiketoimintasovelluksen kanssa. Sovellus voi olla esimerkiksi [!INCLUDE[crm_md](includes/crm_md.md)].  
@@ -29,6 +30,7 @@ Ennen yhteyden luomista tarvitaan seuraavat tiedot:
 * Sen [!INCLUDE[cds_long_md](includes/cds_long_md.md)] -ympäristön URL-osoite, johon haluat muodostaa yhteyden. Jos käytät **Dataverse -yhteyden määrityksen** asetusten ohjattua määritysopasta yhteyden luomiseen, ympäristöt löydetään. Sinun on kuitenkin annettava myös vuokraajan toisen ympäristön URL-osoite.  
 * Sen tilin käyttäjätili ja salasana, jolla on järjestelmänvalvojan oikeudet [!INCLUDE[prod_short](includes/prod_short.md)]- ja [!INCLUDE[cds_long_md](includes/cds_long_md.md)] -sovelluksessa.  
 * Jos käytössäsi on [!INCLUDE[prod_short](includes/prod_short.md)]vuoden 2020 1. julkaisuaallon on-premises-versio 16.5, lue [Joitakin tunnettuja ongelmia](/dynamics365/business-central/dev-itpro/upgrade/known-issues#wrong-net-assemblies-for-external-connected-services) -artikkeli. Sinun on toteutettava kuvattu kiertotapa, ennen kuin voit luoda yhteyden [!INCLUDE[cds_long_md](includes/cds_long_md.md)]en.
+* Tuotteen [!INCLUDE[prod_short](includes/prod_short.md)] yrityksen paikallisvaluutan on oltava sama kuin tuotteen [!INCLUDE[cds_long_md](includes/cds_long_md.md)] perustapahtumavaluutta. Kun perustapahtuma on määritetty tuotteessa [!INCLUDE[cds_long_md](includes/cds_long_md.md)], sitä ei voi muuttaa. Lisätietoja on kohdassa [Tapahtuman valuutta (valuutta) -entiteetti](/powerapps/developer/data-platform/transaction-currency-currency-entity). Tämä tarkoittaa sitä, että kaikissa tuotteen [!INCLUDE[prod_short](includes/prod_short.md)] yrityksissä, joista muodostetaan yhteys organisaatioon [!INCLUDE[cds_long_md](includes/cds_long_md.md)] , on käytettävä samaa valuuttaa.
 
 > [!IMPORTANT]
 > [!INCLUDE[cds_long_md](includes/cds_long_md.md)] -ympäristösi ei saa olla järjestelmänvalvojan tilassa. Järjestelmänvalvojan tila aiheuttaa yhteyden epäonnistumisen, koska yhteyden integrointikäyttäjätilillä ei ole järjestelmänvalvojan käyttöoikeuksia. Lisätietoja on kohdassa [Järjestelmänvalvojan tila](/power-platform/admin/admin-mode).
@@ -86,17 +88,16 @@ Seuraavassa kerrotaan, miten yhteys määritetään manuaalisesti **Dataverse -y
     <!--Need to verify the details in this table, are these specific to Sales maybe?  IK: No they are not and no longer relevant 
     Enter the following advanced settings.-->
 
-   <!-- |Field|Description|
+    <!-- |Field|Description|
     |-----|-----|
     |**[!INCLUDE[prod_short](includes/prod_short.md)] Users Must Map to CDS Users**|If you are using the Person ownership model, specify whether [!INCLUDE[prod_short](includes/prod_short.md)] user accounts must have a matching user accounts in [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. The **Microsoft 365 Authentication Email** of the [!INCLUDE[prod_short](includes/prod_short.md)] user must be the same as the **Primary Email** of the [!INCLUDE[crm_md](includes/crm_md.md)] user.<br /><br /> If you set the value to **Yes**, [!INCLUDE[prod_short](includes/prod_short.md)] users who do not have a matching [!INCLUDE[crm_md](includes/crm_md.md)] user account will not have [!INCLUDE[prod_short](includes/prod_short.md)] integration capabilities in the user interface. Access to [!INCLUDE[crm_md](includes/crm_md.md)] data directly from [!INCLUDE[prod_short](includes/prod_short.md)] is done on behalf of the [!INCLUDE[crm_md](includes/crm_md.md)] user account.<br /><br /> If you set the value to **No**, all [!INCLUDE[prod_short](includes/prod_short.md)] users will have [!INCLUDE[crm_md](includes/crm_md.md)] integration capabilities in the user interface. Access to [!INCLUDE[crm_md](includes/crm_md.md)] data is done on behalf of the [!INCLUDE[crm_md](includes/crm_md.md)] connection (integration) user.|
     |**Current Business Central Salesperson is Mapped to a User**|Indicates whether your user account is mapped to an account in [!INCLUDE[crm_md](includes/crm_md.md)] double check the name of this field-->|
-
 4. Jos haluat testata yhteysasetukset, valitse **Yhteys** ja valitse sitten **Testaa yhteys**.  
 
     > [!NOTE]  
     > Jos tietojen salaus ei ole käytössä [!INCLUDE[prod_short](includes/prod_short.md)]issa, sinulta kysytään, haluatko ottaa sen käyttöön. Ota tietojen salaus käyttöön valitsemalla **Kyllä** ja määritä tarvittavat tiedot. Valitse muussa tapauksessa **Ei**. Voit ottaa tietojen salauksen käyttöön myöhemmin. Lisätietoja on kehittäjän ja järjestelmänvalvojan ohjeen kohdassa [Tietojen salaus Dynamics 365 Business Centralissa](/dynamics365/business-central/dev-itpro/developer/devenv-encrypting-data).  
-
 5. Jos [!INCLUDE[cds_long_md](includes/cds_long_md.md)]in synkronointia ei ole määritetty, sinulta kysytään, haluatko käyttää oletussynkronointiasetuksia. Valitse **Kyllä** tai **Ei** sen mukaan, haluatko pitää [!INCLUDE[cds_long_md](includes/cds_long_md.md)]in ja [!INCLUDE[prod_short](includes/prod_short.md)]in tietueet kohdistettuina.
+
 <!--
 ## Show Me the Process
 
@@ -116,12 +117,12 @@ Jos haluat muodostaa yhteyden käyttämällä Azure Active Directory (Azure AD) 
 
 Dataversen on käytettävä jotakin seuraavista todennustyypeistä:
 
-- Office365 (vanha)
+* Office365 (vanha)
 
   > [!IMPORTANT]
   > Huhtikuusta 2022 alkaen Office365 (vanha) -versiota ei enää tueta. Lisätietoja on kohdassa [Power Appsiin, Power Automateen ja asiakasvuorovaikutussovelluksiin tulevia tärkeitä muutoksia (vanhentumisia)](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse).
-- Office365 (moderni, OAuth2-asiakasohjelman salaiseen koodiin perustuva)
-- OAuth
+* Office365 (moderni, OAuth2-asiakasohjelman salaiseen koodiin perustuva)
+* OAuth
 
 ### <a name="to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-dataverse"></a>Sovelluksen rekisteröiminen Azure AD:ssä muodostamaan yhteys Business Centralista Dataverseen
 
@@ -148,7 +149,7 @@ Seuraavissa vaiheissa oletetaan, käyttäjätietojen ja käyttöoikeuksien halli
 
 #### <a name="using-another-identity-and-access-management-service"></a>Jonkin muun käyttäjätieto- ja käyttöoikeuspalvelun käyttäminen
 
-Jos Azure Active Directorya ei käytetä käyttäjätietojen ja käyttöoikeuksien hallintaa, apua on pyydettävä kehittäjältä. Jos haluat tallentaa sovelluksen tunnuksen ja salaisen avaimen eri sijaintiin, Asiakasohjelman tunnus- ja Asiakasohjelman salainen avain -kentät voidaan jättää tyhjäksi. Tunnuksen ja salaisen avaimen sijainnista noutoa varten on siinä tapauksessa kirjoitettava laajennus. Salainen avain voidaan antaa suorituspalvelussa tilaamalla OnGetCDSConnectionClientId- ja OnGetCDSConnectionClientSecret-tapahtumat codeunitissa 7201 CDS Integration Impl.
+Jos Azure Active Directorya ei käytetä käyttäjätietojen ja käyttöoikeuksien hallintaa, apua on pyydettävä kehittäjältä. Jos haluat tallentaa sovelluksen tunnuksen ja salaisen avaimen eri sijaintiin, Asiakasohjelman tunnus- ja Asiakasohjelman salainen avain -kentät voidaan jättää tyhjäksi. Tunnuksen ja salaisen avaimen sijainnista noutoa varten on siinä tapauksessa kirjoitettava laajennus. Voit määrittää salaisen koodin suorituksen aikana tilaamalla tapahtumat `OnGetCDSConnectionClientId` ja `OnGetCDSConnectionClientSecret` codeunitissa 7201 `CDS Integration Impl.`.
 
 ### <a name="to-disconnect-from-cds_long_md"></a>[!INCLUDE[cds_long_md](includes/cds_long_md.md)] -yhteyden katkaiseminen
 
@@ -158,6 +159,5 @@ Jos Azure Active Directorya ei käytetä käyttäjätietojen ja käyttöoikeuksi
 ## <a name="see-also"></a>Katso myös
 
 [Synkronoinnin tilan näyttäminen](admin-how-to-view-synchronization-status.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

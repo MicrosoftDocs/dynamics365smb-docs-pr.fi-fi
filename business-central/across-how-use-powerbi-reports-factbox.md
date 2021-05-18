@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 04/01/2021
+ms.date: 04/26/2021
 ms.author: jswymer
-ms.openlocfilehash: a600b24e16172134d4f8e78cf47efa4e262cac09
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c74593a429c520730efbd503a1884065ca6cd7e4
+ms.sourcegitcommit: 57e8ab70d70849752567eecf29529efe2dcdf3af
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777514"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5941611"
 ---
 # <a name="creating-power-bi-reports-for-displaying-list-data-in-prod_short"></a>[!INCLUDE[prod_short](includes/prod_short.md)]in luettelotiedot näyttävien Power BI -raporttien luominen
 
-[!INCLUDE[prod_long](includes/prod_long.md)] sisältää Power BI -tietoruudun ohjausobjektielementin monilla tärkeillä luettelosivuilla. Tietoruudun tarkoitus on näyttää Power BI -raportteja, jotka liittyvät luetteloissa oleviin tietueisiin. Tällä tavoin tiedoista saadaan parempi käsitys. Ajatuksena on, että kun luettelon riveillä siirrytään, raportti päivitetään ja suodatetaan valitun tapahtuman mukaan.
+[!INCLUDE[prod_long](includes/prod_long.md)] sisältää Power BI -tietoruudun ohjausobjektielementin monilla tärkeillä luettelosivuilla. Tietoruudun tarkoitus on näyttää Power BI -raportteja, jotka liittyvät luetteloissa oleviin tietueisiin. Tällä tavoin tiedoista saadaan parempi käsitys. Raportti päivitetään valitun tapahtuman mukaan, kun siirryt luettelon riveillä.
 
 Osa näistä raporteista toimitetaan [!INCLUDE[prod_long](includes/prod_long.md)]in mukana. Lisäksi tässä tietoruudussa näytettäväksi voi luoda omia mukautettuja raportteja. Näiden raporttien luonti muistuttaa muiden raporttien luontia. On kuitenkin muutamia suunnittelusääntöjä, joita noudattamalla voidaan varmistaa, että raportit näkyvät odotetusti. Näitä sääntöjä käsitellään tässä artikkelissa.
 
@@ -39,7 +39,7 @@ For more information about getting started, see [Using [!INCLUDE[prod_short](inc
 1. Käynnistä Power BI Desktop.
 2. Valitse **Hae tiedot** ja aloita raportin tietolähteen valitseminen.
 
-    Tässä vaiheessa määritetään Business Centralin luettelosivut, jotka sisältävät raportissa käytettävät tiedot. Esimerkiksi myyntiluetteloa koskevaa raporttia luotaessa on varmistettava, että tietojoukko sisältää myyntiin liittyviä tietoja.
+    Määritä Business Centralin luettelosivut, jotka sisältävät raportissa käytettävät tiedot. Esimerkiksi **myyntilaskuluetteloa** koskevaa raporttia luotaessa sisällytetään myyntiin liittyvät sivut.
 
     Lisätietoja on kohdassa [[!INCLUDE[prod_short](includes/prod_short.md)]in lisääminen tietolähteenä Power BI Desktopissa](across-how-use-financials-data-source-powerbi.md#getdata).
 
@@ -62,9 +62,9 @@ For more information about getting started, see [Using [!INCLUDE[prod_short](inc
 
 6. Tallenna raportti ja anne sille nimi.
 
-    On tärkeää, että raportin nimi raporttiin liitetyn luettelosivun nimen. Jos raportti koskee esimerkiksi **Nimikkeet**-luettelosivua, nimessä on oltava sana *nimike*.  
+    Anna raportille nimi, joka sisältää raporttiin liitetyn luettelosivun nimen, koska se on asiakasohjelmassa. Kirjainkoolla ei ole merkitystä. Oletetaan, että raportti on **Myyntilaskut**-luettelosivulla. Tässä tapauksessa sisällytetään sana **myyntilaskut** jonnekin kohtaa nimeä, esimerkiksi **omat myyntilaskut.pbix** tai **omat_myyntilaskut_luettelona.pbix**.
 
-    Tätä nimeämiskäytäntöä ei ole pakko noudattaa. Se kuitenkin nopeuttaa raporttien valitsemista [!INCLUDE[prod_short](includes/prod_short.md)]issa. Jos raportin valintasivu avautuu luettelosivulta, se suodatetaan automaattisesti sivun nimen mukaan. Tämän suodatuksen avulla voidaan rajoittaa näytettävien raporttien määrää. Tyhjentämällä suodattimen käyttäjät saavat näkyviin luettelon kaikista Power BI:ssa käytettävistä raporteista.
+    Tätä nimeämiskäytäntöä ei ole pakko noudattaa. Se kuitenkin nopeuttaa raporttien valitsemista [!INCLUDE[prod_short](includes/prod_short.md)]issa. Jos raportin valintasivu avautuu luettelosivulta, siihen kohdistetaan automaattisesti suodatin sivun nimen mukaan. Suodattimella on syntaksi `@*<caption>*`, esimerkiksi `@*Sales Invoices*`. Tämän suodatuksen avulla voidaan rajoittaa näytettävien raporttien määrää. Tyhjentämällä suodattimen käyttäjät saavat näkyviin luettelon kaikista Power BI:ssa käytettävistä raporteista.
 
 7. Kun olet valmis, julkaise raportti tavalliseen tapaan.
 
@@ -101,7 +101,7 @@ Voit luoda Power BI:ssa yhden raportin, jossa on useita sivuja. Jos raportissa k
 
 ## <a name="fixing-problems"></a>Ongelmien korjaaminen
 
-Tässä osassa on ohjeet sellaisten ongelmien korjaamiseen, joita voi esiintyä yritettäessä näyttää [!INCLUDE[prod_short](includes/prod_short.md)]in luettelosivun Power BI -raporttia.  
+Tässä osassa on ohjeet sellaisten ongelmien korjaamiseen, joita voi esiintyä yrittäessäsi näyttää tuotteen [!INCLUDE[prod_short](includes/prod_short.md)] luettelosivun Power BI -raporttia.  
 
 ### <a name="you-cant-see-the-power-bi-factbox-on-a-list-page"></a>Power BI -tietoruutu ei näy luettelosivulla.
 
@@ -109,7 +109,7 @@ Power BI -tietoruutu on oletusarvoisesti piilotettu. Tietoruudun voi näyttää 
 
 ### <a name="you-cant-see-the-report-in-the-select-report-pane"></a>Raportti ei ole näkyvissä Valitse raportti -ruudussa
 
-Tämä johtuu luultavasti siitä, että raportin nimi ei sisällä näytettävän luettelosivun nimeä. Saat näkyviin luettelon kaikista Power BI:ssa käytettävistä raporteista tyhjentämällä suodattimen.  
+Raportin nimi ei sisällä näytettävän luettelosivun nimeä. Saat näkyviin luettelon kaikista Power BI:ssa käytettävistä raporteista tyhjentämällä suodattimen.  
 
 ### <a name="report-is-loaded-but-blank-not-filtered-or-filtered-incorrectly"></a>Raportti ladataan, mutta se jää tyhjäksi, sitä ei suodateta tai se suodatetaan virheellisesti
 

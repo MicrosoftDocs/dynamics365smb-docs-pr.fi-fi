@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b66b9f0e158e7947ebaa3f8835d5ca0ca4531113
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a36d513e0285e197f9ca651bab55f745b448773d
+ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772170"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017072"
 ---
 # <a name="save-and-personalize-list-views"></a>Luettelonäkymien tallentaminen ja mukauttaminen
 Jos olet määrittänyt luettelon suodattimen ja haluat säilyttää suodattimen myöhempää käyttöä varten, voit tallentaa sen näkymänä. Lisätietoja luetteloiden suodattamisesta on kohdassa [Suodattimien määrittäminen luetteloissa](ui-enter-criteria-filters.md#setting-filters-on-lists).
@@ -35,7 +35,7 @@ Jos näkymä on jo luotu, **Näkymät**-ryhmä näkyy suodatinruudun yläreunass
 Jos et anna näkymälle nimeä, sen nimeksi tulee **Kaikki (kopio)**.
 
 > [!TIP]
-> Etkö näe ![Tallenna näkymä](media/save_view_icon.png "Tallenna näkymä") -kuvaketta? Lisäietoja on ohjeaiheessa [Miksi tallennuskuvaketta ei ole](ui-views-faq.md#save).
+> Etkö näe ![Tallenna näkymä](media/save_view_icon.png "Tallenna näkymä") -kuvaketta? Lisätietoja on kohdassa [Miksi tallennuskuvaketta ei ole](/dynamics365/business-central/ui-views-faq#save).
 
 ## <a name="to-rename-or-remove-a-view"></a>Näkymän nimeäminen uudelleen tai poistaminen
 1. Voit tarkastella luettelon tällä hetkellä näyttävän näkymän käytössä olevia vaihtoehtoja valitsemalla ![Näytä enemmän vaihtoehtoja](media/show-more-options-icon.png "Näytä enemmän vaihtoehtoja") -kuvakkeen.
@@ -45,7 +45,7 @@ Jos et anna näkymälle nimeä, sen nimeksi tulee **Kaikki (kopio)**.
 Kun sivulla olevien näkymien määrä kasvaa, näkymien näkymistä suodatinruudussa on ehkä voitava hallita paremmin. **Mukautus**-palkin avulla voit piilottaa tarpeettomat näkymät tai järjestää näkymät parhaaseen mahdolliseen järjestykseen. Lisätietoja on kohdassa [Työtilan mukauttaminen](ui-personalization-user.md).
 
 ## <a name="see-also"></a>Katso myös
-[Luettelonäkymien usein kysytyt kysymykset](ui-views-faq.md)  
+[Luettelonäkymien usein kysytyt kysymykset](ui-views-faq.yml)  
 [Työtilan mukauttaminen](ui-personalization-user.md)    
 [[!INCLUDE[prod_short](includes/prod_short.md)]in käyttäminen](ui-work-product.md)    
 [Perusasetusten muuttaminen](ui-change-basic-settings.md)  

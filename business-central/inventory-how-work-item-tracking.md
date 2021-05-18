@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 36c4d1498048b1bc510455afe11069387cb5c507
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 10483de41b1106914a1fa477309e5b39a3f41e6b
+ms.sourcegitcommit: cbd00f24fb471381bbfd64670237eda176bd78e5
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774812"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947411"
 ---
 # <a name="track-items-with-serial-lot-and-package-numbers"></a>Sarja-, erä- ja pakettinumeroita sisältävien nimikkeiden seuraaminen
 
@@ -289,7 +289,7 @@ Nimikkeiden seurannan uudelleenluokittelu tarkoittaa erä- tai sarjanumeron muut
 ## <a name="see-also"></a>Katso myös
 
 [Nimikeseurannan nimikkeiden jäljittäminen](inventory-how-to-trace-item-tracked-items.md)  
-[Varasto](inventory-manage-inventory.md)  
+[Vaihto-omaisuus](inventory-manage-inventory.md)  
 [Rakennetiedot: Nimikkeen seuranta](design-details-item-tracking.md)  
 [Rakennetiedot – nimikkeen seuranta ja varaukset](design-details-item-tracking-and-reservations.md)  
 [Nimikkeiden varaaminen](inventory-how-to-reserve-items.md)  

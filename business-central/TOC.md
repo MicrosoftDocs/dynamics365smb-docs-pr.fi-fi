@@ -80,7 +80,7 @@
 ##### [Rakenteen tiedot: Kirjausliittymän rakenne](design-details-posting-interface-structure.md)  
 ##### [Rakenteen tiedot: Kirjausohjelman rakenne](design-details-posting-engine-structure.md)  
 ##### [Rakennetiedot: Codeunitin 12 muutokset: Yleisten muuttujien linkitys yleisen päiväkirjan kirjausriviin](design-details-codeunit-12-changes-mapping-global-variables-for-general-journal-post-line.md)  
-##### [Rakennetiedot: Koodiyksikön 12 muutokset: Päiväkirjakirjausten menettelytapojen muutokset](design-details-codeunit-12-changes-changes-in-general-journal-post-procedures.md)
+##### [Rakennetiedot: Codeunitin 12 muutokset: Päiväkirjakirjausten menettelytapojen muutokset](design-details-codeunit-12-changes-changes-in-general-journal-post-procedures.md)
 #### Rakennetiedot: dimensioyhdistelmä-tapahtumat
 ##### [Rakennetiedot: Dimensioyhdistelmätapahtumien yleiskatsaus](design-details-dimension-set-entries-overview.md)  
 ##### [Rakennetiedot: Dimensioyhdistelmien etsiminen](design-details-searching-for-dimension-combinations.md)  
@@ -273,6 +273,7 @@
 ###### [Power BI -raporttien käyttäminen Business Centralissa](across-working-with-powerbi.md)
 ###### [Business Centralin tietojen käyttäminen Power BI:ssa](across-working-with-business-central-in-powerbi.md)
 ###### [Business Central -sovellusten käyttäminen Power BI:ssa](across-powerbi-business-central-apps.md)
+##### [Usein kysytyt kysymykset](power-bi-faq.md)
 #### Power Automate:n käyttäminen Business Centralin kanssa
 ##### [Business Central -sovelluksen käyttäminen automaattisessa työnkulussa](across-how-use-financials-data-source-flow.md)
 #### Power Apps:n käyttäminen Business Centralin kanssa
@@ -288,8 +289,8 @@
 ## Usein kysytyt kysymykset
 ### [Usein kysytyt kysymykset](across-faq.md)
 ### [Kerro, mitä haluat tehdä -toiminnon usein kysytyt kysymykset](ui-search-faq.md)
-### [Usein kysyttyjen kysymysten haku ja suodatus](ui-search-filter-faq.md)
-### [Luettelonäkymien usein kysytyt kysymykset](ui-views-faq.md)
+### [Usein kysyttyjen kysymysten haku ja suodatus](ui-search-filter-faq.yml)
+### [Luettelonäkymien usein kysytyt kysymykset](ui-views-faq.yml)
 ### [Kopioimisen ja liittämisen usein kysytyt kysymykset](faq-copy-paste.yml)
 ### [Mobiilisovellukset – usein kysytyt kysymykset](ui-mobile-faq.md)
 ### [Teams – usein kysytyt kysymykset](teams-faq.md)
@@ -321,7 +322,7 @@
 ## [Sivujen etsiminen roolienhallinnan avulla](ui-role-explorer.md)
 ## [Kerro, mitä haluat tehdä -toiminnon usein kysytyt kysymykset](ui-search-faq.md)
 ## [Lajitteleminen, hakeminen ja suodattaminen](ui-enter-criteria-filters.md)
-## [Usein kysyttyjen kysymysten haku ja suodatus](ui-search-filter-faq.md)
+## [Usein kysyttyjen kysymysten haku ja suodatus](ui-search-filter-faq.yml)
 ## [Tietojen antaminen](ui-enter-data.md)
 ## [Kopioimisen ja liittämisen usein kysytyt kysymykset](faq-copy-paste.yml)
 ## [Kalenterin päivämäärien ja aikojen käsitteleminen](ui-enter-date-ranges.md)
@@ -356,10 +357,11 @@
 ### [Asiakirja-asettelujen määrittäminen asiakkaille ja toimittajille](ui-define-customer-vendor-document-layouts.md)
 ### [Kenttien lisääminen Word-raporttiasetteluun](ui-how-add-fields-word-report-layout.md)
 ### [Käytettävissä olevat fontit](ui-fonts.md)
-## Pikanäppäimien käyttäminen
-### [Helppokäyttötoiminnot ja pikanäppäimet](ui-accessibility.md)
+## Helppokäyttötoiminnot, pikanäppäimet ja kosketuseleet
+### [Helppokäyttötoiminnot](ui-accessibility.md)
 ### [Pikanäppäimet](keyboard-shortcuts.md)
 ### [Näppäimistön pikaohje - Vain PC](keyboard-shortcuts-cheatsheet.md)
+### [Kosketuseleet ja kynän liikkeet](touch-gestures.md)
 ## [Vian etsintä: kameran ja sijainnin käyttäminen](ui-troubleshooting-camera-location.md)
 ## [Älykkäät tiedot (vain verkkoversio)](about-intelligent-cloud.md)
 # Liiketoiminnan toiminnallisuus
@@ -429,9 +431,10 @@
 ##### [Pankin tiliotepalvelun määrittäminen](bank-how-setup-bank-statement-service.md)
 ##### [Pankkitilien määrittäminen](bank-how-setup-bank-accounts.md)
 ##### [XML-mallien käyttäminen tietojenvaihtomääritysten valmisteluun](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)
-##### [Tietojenvaihtomääritysten määrittäminen](across-how-to-set-up-data-exchange-definitions.md)
+
 #### Tietojen vaihtaminen
 ##### [Tietojen vaihto](across-exchange-data.md)
+##### [Tietojenvaihtomääritysten määrittäminen](across-how-to-set-up-data-exchange-definitions.md)
 ##### [Sähköisten asiakirjojen lähettäminen](sales-how-to-send-electronic-documents.md)
 ##### [PDF- ja kuvatiedostojen muuntaminen sähköisiksi asiakirjoiksi OCR-palvelun avulla](across-how-use-ocr-pdf-images-files.md)
 ##### [Sähköisten asiakirjojen vastaanottaminen ja muuntaminen](purchasing-how-to-receive-and-convert-electronic-documents.md)
@@ -550,6 +553,7 @@
 #### [Määritä yrityksen konsolidointi](finance-consolidated-company-reporting-setup.md)
 ### [Pääkirjanpito ja aitoustodistus](finance-general-ledger.md)
 ### [Dimensioiden käyttäminen](finance-dimensions.md)
+### [Vianmääritys ja dimensioiden korjaaminen](finance-troubleshooting-correcting-dimensions.md)
 ### [KP-budjettien luominen](finance-how-create-budgets.md)
 ### [Tapahtumien kirjaaminen suoraan pääkirjanpitoon](finance-how-post-transactions-directly.md)
 ### [Päiväkirjakirjauksen peruuttaminen sekä vastaanottojen tai toimitusten kumoaminen](finance-how-reverse-journal-posting.md)
@@ -567,6 +571,7 @@
 ### [Rahoituslaskelmien analysointi Excelissä](finance-analyze-excel.md)
 ### [Siirrä pankkivarat](bank-how-transfer-bank-funds.md)
 ### [Kirjanpitäjän käyttökokemukset Business Centralissa](finance-accounting.md)
+### [Useat toimipaikat ja kansainväliset organisaatiot](finance-multi-site-organizations.md)
 
 ## Business Intelligence ja taloushallinnon raportointi
 ### [Business Intelligencen ja taloushallinnon raportoinnin yleiskatsaus](bi.md)
@@ -705,6 +710,8 @@
 ### [Kokonaisvaltaisen suunnittelun, tuotanto-ohjelman tai tarvelaskennan suorittaminen](production-how-to-run-mps-and-mrp.md)
 ### [Tuotantotilausten suora uudelleensuunnittelu tai päivittäminen](production-how-to-replan-refresh-production-orders.md)
 ### [Kysynnän ja tarjonnan välisten suhteiden seuraaminen](production-how-track-demand-supply.md)
+### [Vaihekuvaus: Toimitusten manuaalinen suunnittelu](walkthrough-planning-supplies-manually.md)
+### [Vaihekuvaus: Toimitusten automaattinen suunnittelu](walkthrough-planning-supplies-automatically.md)
 <!--## [Modify Planning Suggestions in a Graphical View](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)-->
 
 ## Kokoonpanon hallinta
@@ -745,8 +752,6 @@
 #### [Tuotannon tai kokoonpanon tuotoksen hyllyttäminen](warehouse-how-to-put-away-production-output.md)
 #### [Hyllytysten suunnitteleminen työkirjoissa](warehouse-how-to-plan-put-aways-in-worksheets.md)
 #### [Poimiminen ja hyllyttäminen ilman lähdeasiakirjaa](warehouse-how-to-create-put-aways-from-internal-put-aways.md)
-#### [Vaihekuvaus: Vastaanotto ja hyllytys fyysisen varastoinnin perusmäärityksissä](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)
-#### [Vaihekuvaus: Vastaanotto ja hyllytys laajennetuissa varastomäärityksissä](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
 ### Nimikkeiden siirtäminen
 #### [Nimikkeiden siirtäminen](warehouse-move-items.md)
 #### [Nimikkeiden suunnittelematon siirtäminen fyysisen varastoinnin perusmäärityksissä](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)
@@ -770,8 +775,6 @@
 ### [ADCS (Automated Data Capture System) -järjestelmä](warehouse-use-automated-data-capture-systems-adcs.md)
 ### [Vaihekuvaus: Vastaanotto ja hyllytys fyysisen varastoinnin perusmäärityksissä](walkthrough-picking-and-shipping-in-basic-warehousing.md)
 ### [Vaihekuvaus: Vastaanotto ja hyllytys laajennetuissa varastomäärityksissä](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
-### [Vaihekuvaus: Toimitusten manuaalinen suunnittelu](walkthrough-planning-supplies-manually.md)
-### [Vaihekuvaus: Toimitusten automaattinen suunnittelu](walkthrough-planning-supplies-automatically.md)
 
 ## Huoltohallinto
 ### [Huoltohallinto](service-service.md)

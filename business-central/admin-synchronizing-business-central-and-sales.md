@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Dataverse, integration, sync, synchronize, mapping
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 9a912596a71e77a09a7491fe20032056d1a9b808
-ms.sourcegitcommit: 8b44a7bcba45ae852cc6dd07b90b9a383c1be488
+ms.openlocfilehash: d568b9b40f2ed8db264db9736cf8e87f4165ea2c
+ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "5870021"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935084"
 ---
 # <a name="synchronizing-data-in-business-central-with-microsoft-dataverse"></a>Tietojen synkronointi Business Centralissa Microsoft Dataversen avulla
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -55,6 +55,8 @@ Seuraavassa taulukossa on luettelo tavallisista yhdistämismäärityksistä [!IN
 | Kontakti | Kontakti | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] ja [!INCLUDE[prod_short](includes/cds_long_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | [!INCLUDE[prod_short](includes/prod_short.md)] kontaktisuodatus: **Tyyppi** on **Henkilö** ja kontakti on määritetty yritykselle. [!INCLUDE[prod_short](includes/cds_long_md.md)] -kontaktisuodatin: kontakti on liitetty yritykseen ja pääasiakkaan tyyppi on **Tili** |
 | Valuutta | Tapahtumavaluutta | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] |  |
 
+> [!NOTE]
+> **Dataverse**-toiminnot eivät ole käytettävissä sivuilla, esimerkiksi Asiakaskortti-sivulla, jos tietueessa ei ole käytössä integroinnin taulukon yhdistämismäärityksen taulukkosuodatusta.
 
 ### <a name="tip-for-admins-viewing-table-mappings"></a>Järjestelmänvalvojan vihje: taulukon yhdistämismääritysten näyttäminen
 Voit tarkastella [!INCLUDE[prod_short](includes/cds_long_md.md)]in taulukoiden ja [!INCLUDE[prod_short](includes/prod_short.md)]in taulukoiden välistä yhdistämismääritystä **Integrointitaulukon yhdistämismääritykset** -sivulla, jossa voit käyttää myös suodattimia. [!INCLUDE[prod_short](includes/prod_short.md)]in taulukoiden kenttien ja [!INCLUDE[prod_short](includes/cds_long_md.md)]in taulukoiden sarakkeiden välinen yhdistämismääritys määritetään **Integrointitaulukon yhdistämismääritykset** -sivulla, jossa voit lisätä myös lisämäärityksen logiikan. Tässä voi hyötyä esimerkiksi synkronoinnin vianmäärityksessä.

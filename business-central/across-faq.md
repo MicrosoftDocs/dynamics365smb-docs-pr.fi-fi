@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: afd64672bac5af39bd5377db417a36ec0ea39fe0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: af13192ed4b5ca94d4a01ec913d3c94fd85e5fbc
+ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776145"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017147"
 ---
 # <a name="frequently-asked-questions-about-using-business-central"></a>Usein kysyttyjä kysymyksiä Business Centralin käyttämisestä
 
@@ -136,8 +136,8 @@ Jälleenmyyjäkumppanisi voi myös antaa teknistä tukea sinulle. Lisätietoja o
 
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 [Kerro, mitä haluat tehdä -toiminnon usein kysytyt kysymykset](ui-search-faq.md)  
-[Usein kysyttyjen kysymysten haku ja suodatus](ui-search-filter-faq.md)  
-[Luettelonäkymien usein kysytyt kysymykset](ui-views-faq.md)  
+[Usein kysyttyjen kysymysten haku ja suodatus](ui-search-filter-faq.yml)  
+[Luettelonäkymien usein kysytyt kysymykset](ui-views-faq.yml)  
 [Kielen ja kielialueen muuttaminen](about-locale-language.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)]in käyttäminen yrityssähköpostina Outlookissa](admin-outlook.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen ilman Outlookia](admin-no-outlook.md)  

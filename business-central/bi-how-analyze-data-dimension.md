@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 418da0f0e30fb36345508f36e943b68c930e1ca7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ea949363506e9bc0d9bb3a1a4d53937501e8a5bb
+ms.sourcegitcommit: cbd00f24fb471381bbfd64670237eda176bd78e5
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770911"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947386"
 ---
 #  <a name="analyze-data-by-dimensions"></a>Analysoi tiedot mittojen mukaan
 Talousanalyysissä dimensio on tieto, jonka voi lisätä tapahtumaan eräänlaiseksi merkiksi. Tämän tiedon avulla voi yhdistää ryhmiksi tapahtumia, joilla on samoja ominaisuuksia, kuten asiakkaita, alueita, tuotteita tai myyjiä, sekä noutaa nämä ryhmät helposti analysoitavaksi. Dimensioita voi käyttää päiväkirjojen tapahtumissa, asiakirjoissa ja budjeteissa. Dimensiotermi kuvaa, miten analysointi tapahtuu. Esimerkiksi kaksidimensioinen analyysi voisi olla myynti per alue. Käyttämällä tapahtumaa luodessasi useita dimensiota voit luoda monimutkaisia analyysejä, kuten myynti per myyntikampanja per asiakasryhmä per alue. Lisätietoja on kohdassa [Dimensioiden käyttäminen](finance-dimensions.md).
@@ -26,6 +26,9 @@ Analysoimalla tietoja dimensioittain saat liiketoiminnasta selkeän kuvan ja voi
 
 > [!TIP]
 > Tapahtumatietoja voi analysoida nopeasti dimensioiden mukaan suodattamalla tilikarttojen loppusummat ja kaikkien **Tapahtumat**-sivujen tapahtumat dimensioittain. Hae **Määritä dimension suodatus** -toiminto.
+
+> [!NOTE]
+> Jos havaitset, että kirjatuissa pääkirjanpidon tapahtumissa on käytetty virheellistä dimensiota, voit korjata dimension arvot ja päivittää analyysinäkymät. Lisätietoja on kohdassa [Vianmääritys ja dimensioiden korjaaminen](finance-troubleshooting-correcting-dimensions.md#changing-dimension-assignments-after-posting)
 
 ## <a name="to-set-up-an-analysis-view"></a>Analyysinäkymän luominen  
 Analyysissa dimensioittain näkyy valittu dimensioyhdistelmä. Voit tallentaa ja hakea jokaisen määrittelemäsi analyysin. Analyysin määrityksen tiedot tallentuvat **analyysinäkymän** korttiin, jotta tulevien analyysien laatiminen olisi yksinkertaisempaa.  
