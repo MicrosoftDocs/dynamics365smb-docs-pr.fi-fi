@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ab3929a410a280494d806e7aeea5c54ce966769e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bed73380344c0900a00d6d704ee2d853a1bf165d
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787975"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216228"
 ---
 # <a name="plan-for-new-demand-order-by-order"></a>Uuden kysynnän tilauskohtainen suunnittelu
 Tämä suunnittelutehtävä voidaan suorittaa **Tilauksen suunnittelu** -sivulla, jossa näkyvät kaikki uusi kysyntä, saatavuustiedot sekä tarjontaa koskevat ehdotukset. Ikkunan tietojen ja työkalujen avulla voidaan suunnitella tehokkaasti myynti- ja komponenttirivien synnyttämä kysyntä sekä luoda erityyppisiä toimitustilauksia suoraan.  
@@ -109,11 +109,11 @@ Kun **Tilauksen suunnittelu** -sivun suunnitelma on valmis (nimikkeelle on esime
 >  Luodut toimitustilaukset saattavat synnyttää uuden, ei-itsenäisen kysynnän, esimerkiksi osakomponentin tuotantotilaustarpeen. Etsi ja käsittele tällainen kysyntä valitsemalla **Laske suunnitelma** -toiminto uudelleen, ennen kuin siirryt luettelossa eteenpäin.  
 
 ## <a name="see-also"></a>Katso myös  
-[Vaihekuvaus: Toimitusten manuaalinen suunnittelu](walkthrough-planning-supplies-manually.md)  
+<!-- [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)   -->
 [Suunnittelu](production-planning.md)  
 [Tuotannon määrittäminen](production-configure-production-processes.md)  
 [Tuotanto](production-manage-manufacturing.md)    
-[Varasto](inventory-manage-inventory.md)  
+[Vaihto-omaisuus](inventory-manage-inventory.md)  
 [Osto](purchasing-manage-purchasing.md)  
 [Rakennetiedot: Toimitusten suunnittelu](design-details-supply-planning.md)   
 [Asetukset - parhaat käytännöt: toimitusten suunnittelu](setup-best-practices-supply-planning.md)  

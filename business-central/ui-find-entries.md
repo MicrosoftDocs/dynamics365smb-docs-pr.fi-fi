@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: find
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 5f8ddd7176e69c9d1eb3b8d8ff98c93695d50993
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a29cea15cba15da1bc68816e07f76de59f43958b
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771159"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216126"
 ---
 # <a name="finding-related-entries-for-posted-documents"></a>Liittyvien tapahtumien etsiminen kirjatuista asiakirjoista 
 
@@ -67,7 +67,7 @@ Voit hakea tapahtumia joko asiakirjan, työyhteyshenkilön tai nimikeviittauksen
 Kun olet tehnyt valinnan, syötä asianmukaiset hakutiedot yläreunan kenttiin. Käytä ohjeen työkaluvihjeitä. Kun olet valmis, aloita haku valitsemalla **Etsi**. Jos muutat suodattimia, sinun täytyy valita **Etsi** uudelleen.
 
 > [!TIP]
-> Pari esimerkkiä **Hae tapahtumia** -toiminnon käyttämisestä on kohdassa [Jäljitä nimike-seuratut nimikkeet](inventory-how-to-trace-item-tracked-items.md) ja [vaihekuvaus: sarja-eränumeroiden jäljittäminen](walkthrough-tracing-serial-lot-numbers.md).
+> Esimerkkejä **Etsi merkintöjä** -käytöstä löytyy kohdasta [Nimikeseurattujen nimikkeiden jäljittäminen](inventory-how-to-trace-item-tracked-items.md) <!--and [Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md). -->
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/user-interface-dynamics-365-business-central/index)
 

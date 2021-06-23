@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 14505ea500375fac1cd52c125e28a13a4928523c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 111f78578f298c662cc5a923a0b05c487f68b4c7
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773052"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215601"
 ---
 # <a name="assembly-management"></a>Kokoonpanon hallinta
 Tukeakseen yrityksiä, jotka toimittavat asiakkailleen tuotteita yhdistämällä osia yksinkertaisissa prosesseissa ilman tuotantotoimintojen tarvetta, [!INCLUDE[prod_short](includes/prod_short.md)] sisältää ominaisuuksia, jotka kokoavat nimikkeitä, joissa on olemassa olevia ominaisuuksia, kuten myynti, suunnittelu, varaukset, ja varastointi.  
@@ -54,8 +54,8 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 [Varasto](inventory-manage-inventory.md)  
 [Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
 [Rakennetiedot: Tarjonnan suunnittelu](design-details-supply-planning.md)  
-[Vaihekuvaus: Toimitusten manuaalinen suunnittelu](walkthrough-planning-supplies-manually.md)  
-[Vaihekuvaus: Tuotepakettien myynti, kokoaminen ja toimitus](walkthrough-selling-assembling-and-shipping-kits.md)  
+<!-- [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)   -->
+<!-- [Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md)   -->
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

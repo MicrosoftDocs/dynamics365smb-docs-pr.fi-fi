@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6c5b7f3d4ac36bb2d4a3213217a521e5286f74bb
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bb93853d878ec1aa9b8b0095eb89589c35610f1a
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778670"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216151"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Erikoismyyntihintojen ja -alennusten kirjaaminen
 > [!NOTE]
@@ -127,7 +127,7 @@ Nämä vaiheet vaihtelevat sen mukaan, onko järjestelmänvalvoja ottanut käytt
     > Laskualennuksen koodit löytyvät olemassa olevien asiakkaiden korteista. Näin voit nopeasti liittää laskualennusten ehtoja asiakkaisiin poimimalla sellaisen asiakkaan nimen, jolla on samat ehdot. Voit määrittää asiakaskohtaisia laskualennusehtoja määrittämällä **Laskun alennuskoodi** -kentän asiakkaan asiakaskoodille ja jatkamalla sitten seuraavaan vaiheeseen.
 
 8. Valitse **Asiakkaan kortti** -sivulla **Laskualennukset**-toiminto. **Asiakkaan laskualennukset** -sivu avautuu.
-9. Anna **Valuutan koodi** -kenttään sen valuutan koodi, johon rivin laskualennuksen ehdot kohdistetaan. Jätä kenttä tyhjäksi, jos laskualennuksen ehtojen määritys tapahtuu valuutassa EUR.
+9. Anna **Valuutan koodi** -kenttään sen valuutan koodi, johon rivin laskualennuksen ehdot kohdistetaan. Jätä kenttä tyhjäksi, jos laskualennuksen ehtojen määritys tapahtuu paikallisessa valuutassasi.
 10. Valinnainen: Syötä **Vähimmäissumma**-kenttään laskun vähimmäissumma, joka oikeuttaa alennukseen.
 11. Syötä **Alennus-%**-kohtaan laskun alennus prosentteina laskun summasta.
 12. Toista vaiheet 5–7 jokaiselle valuutalle, jossa asiakas saa eri laskualennuksen.
@@ -149,7 +149,7 @@ Kun olet määrittänyt asiakkaat, joille myönnetään laskun alennuksia, mää
 Jatka uuden myyntilaskun alennusehtojen määrittämiseen.
 
 1. Valitse **Asiakkaat** -sivulla **Laskualennukset**-toiminto. **Asiakkaan laskualennukset** -sivu avautuu.
-2. Anna **Valuutan koodi** -kenttään sen valuutan koodi, johon rivin laskualennuksen ehdot kohdistetaan. Jätä kenttä tyhjäksi, jos laskualennuksen ehtojen määritys tapahtuu valuutassa EUR.
+2. Anna **Valuutan koodi** -kenttään sen valuutan koodi, johon rivin laskualennuksen ehdot kohdistetaan. Jätä kenttä tyhjäksi, jos laskualennuksen ehtojen määritys tapahtuu paikallisessa valuutassasi.
 3. Syötä **Vähimmäissumma**-kenttään laskun vähimmäissumma, joka oikeuttaa alennukseen.
 4. Syötä **Alennus-%**-kohtaan laskun alennus prosentteina laskun summasta.
 5. Toista vaiheet 5–7 jokaiselle valuutalle, jossa asiakas saa eri laskualennuksen.

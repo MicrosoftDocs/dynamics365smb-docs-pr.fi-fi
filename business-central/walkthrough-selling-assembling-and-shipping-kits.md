@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ab6625213bdca813bb2ace08b0b07c828ef99678
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 98fe9a8e3600156f158cdfc1ce37ad3349cafa1b
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782857"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216303"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Vaihekuvaus: pakettien myynti, kokoaminen ja toimitus
 
-[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 Just-In-Time -varastoinnin ja kyvyn mukauttaa tuotteet asiakkaan vaatimusten mukaisiksi tukemiseksi kokoonpanotilauksia voidaan automaattisesti luoda ja linkittää heti kun myyntitilausrivi on luotu. Linkki myyntikysynnän ja kokoonpanotarjonnan välillä mahdollistaa myyntitilauksen käsittelijöille kokoonpanonimikkeen mukauttamisen sekä toimituspäivien lupaamisen osan saatavuuden mukaan. Lisäksi linkitetyn myyntitilauksen toimitukseen kirjataan automaattisesti kokoonpanon kulutus ja tuotos.  
 
@@ -107,7 +107,7 @@ Poista sisäisten prosessien oletusläpimenoaika seuraavasti:
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Tuotannon asetukset** ja valitse sitten liittyvä linkki.  
 2.  Poista **Tuotannon asetukset** -sivun **Suunnittelu**-pikavälilehden **Oletus toimitusajan varmistus** -kentän arvo.  
 
-Luo kokoonpanon komponenttien varasto kohdan [Esimerkkitietojen valmisteleminen](walkthrough-selling-assembling-and-shipping-kits.md#prepare-sample-data) mukaisesti.  
+<!-- Create inventory for assembly components by following [Prepare Sample Data](walkthrough-selling-assembling-and-shipping-kits.md#prepare-sample-data).   -->
 
 ## <a name="story"></a>Taustatietoja  
 23. tammikuuta myyntitilausten käsittelijä Sanna ottaa Laitekauppa-yritykseltä tilauksen kolmesta tuotepaketti B:stä, joka on ATO-nimike. Kaikki kolme yksikköä on mukautettu, ja niissä on oltava tehokas grafiikkakorttti ja ylimääräistä RAM-muistia. Levyasemat päivitetään DVD-asemiksi, koska CD-asemia ei ole saatavilla. Sanna tietää, että yksiköt voidaan koota heti, joten hän jättää ehdotetuksi toimituspäiväksi tammikuun 23. päivän.  
@@ -443,7 +443,7 @@ Kun myyntitilaus on myöhemmin kirjattu kokonaan laskutetuksi, myyntitilaus ja l
  [Rakennetiedot: kokoonpanotilauksen kirjaus](design-details-assembly-order-posting.md)   
  [Rakennetiedot: sisäisen fyysisen varastoinnin virta](design-details-internal-warehouse-flows.md)   
  [Rakennetiedot: lähtevän fyysisen varastoinnin virta](design-details-outbound-warehouse-flow.md)   
- [Vaihekuvaus: Toimitusten automaattinen suunnittelu](walkthrough-planning-supplies-automatically.md)
+<!--  [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -6,34 +6,38 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
-ms.date: 04/01/2021
+ms.date: 06/07/2021
 ms.author: edupont
-ms.openlocfilehash: c3f807a7e02a9791fb8ea465bc399e3e3345a0f3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c3d12e316e78516d355c7d1313cd37bbeedb7a29
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777489"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216051"
 ---
 # <a name="prod_long-trials-and-subscriptions"></a>[!INCLUDE[prod_long](includes/prod_long.md)] – Kokeilut ja tilaukset
 
 [!INCLUDE[prod_short](includes/prod_short.md)] on saatava yhä useammassa maassa eri puolilla maailmaa. Jos haluat oppia [!INCLUDE[prod_short](includes/prod_short.md)]n käyttöä, voit rekisteröidä maksuttoman kokeiluversion. Kun olet valmis, voit keskustella jälleenmyyjäkumppanin kanssa tilauksen hankkimisesta.  
 
-Jos sinulla ei vielä ole kumppania, katso [Miten löydän jälleenmyyjäkumppanin?](across-faq.md#findpartner).  
+Jos sinulla ei vielä ole kumppania, katso [Miten löydän jälleenmyyjäkumppanin?](/dynamics365/business-central/across-faq#findpartner).  
 
 ## <a name="getting-started-with-a-trial"></a>Kokeilun käytön aloittaminen
 
-Voit rekisteröityä maksuttomaan kokeiluversioon [täällä](https://go.microsoft.com/fwlink/?linkid=847861). Microsoft suosittelee, että työskentelet [jälleenmyyjäkumppanin](across-faq.md#findpartner) kanssa, jotta organisaatiosi voi aloittaa sovelluksen [!INCLUDE[prod_short](includes/prod_short.md)] käyttämisen.  
+Voit rekisteröityä maksuttomaan kokeiluversioon [täällä](https://go.microsoft.com/fwlink/?linkid=847861). Suosittelemme, että työskentelet [jälleenmyyjäkumppanin](/dynamics365/business-central/across-faq#findpartner) kanssa, jotta organisaatiosi voi aloittaa sovelluksen [!INCLUDE[prod_short](includes/prod_short.md)] käyttämisen.  
 
 Maasi tai alueesi mukaan kokeiluversio sisältää maan tai alueen edellyttämät kielet ja toiminnot. Lisätietoja on kohdassa [Kielen ja alueen muuttaminen](about-locale-language.md).  
 
 [!INCLUDE[prod_short](includes/prod_short.md)]issa on sekä tuttuja että uusia ominaisuuksia. Kun kirjaudut esittely-yritykseen sisään ensimmäisen kerran, pääset aloitussivulle, jossa on linkkejä asetusten ohjattuihin määritysoppaisiin. Niiden avulla pääset alkuun. Lisätietoja on kohdassa [Valmistautuminen liiketoimintaan](ui-get-ready-business.md).  
 
-Jos kohtaat ongelmia, [Usein kysytyt kysymykset](across-faq.md) -sivu voi auttaa sinua löytämään vastaukset joihinkin kysymyksiisi. Jos et voi rekisteröityä kokeiluversioon, katso apua sivulta [Itsepalvelun rekisteröitymisen vianmääritys](ui-troubleshoot-self-signup.md). Voit myös ottaa yhteyttä [kumppaniin](across-faq.md#findpartner) ja pyytää tätä luomaan maksuton kokeiluversion tai erilainen sovelluksen [!INCLUDE[prod_short](includes/prod_short.md)] esikatselu organisaatiollesi.  
+Jos kohtaat ongelmia, [Usein kysytyt kysymykset](across-faq.yml) -sivu voi auttaa sinua löytämään vastaukset joihinkin kysymyksiisi. Jos et voi rekisteröityä kokeiluversioon, katso apua sivulta [Itsepalvelun rekisteröitymisen vianmääritys](ui-troubleshoot-self-signup.md). Voit myös ottaa yhteyttä [kumppaniin](/dynamics365/business-central/across-faq#findpartner) ja pyytää tätä luomaan maksuttoman kokeiluversion tai erilaisen [!INCLUDE[prod_short](includes/prod_short.md)] -esiversion organisaatiollesi.  
+
+Jos päätät olla käyttämättä [!INCLUDE [prod_short](includes/prod_short.md)] -sovellusta, voit vain antaa kokeilujakson umpeutua.  
+
+[!INCLUDE [admin-viral-trial-expiry](includes/admin-viral-trial-expiry.md)]
 
 ### <a name="try-out-your-own-company"></a>Kokeile omaa yritystä
 
-Jos haluat kokeilla [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmaa omilla tiedoillasi, voit vaihtaa maksuttomaan 30 päivän kokeiluversioon, jossa on tyhjä yritys. **Määritä yritykseni** -avustetun asennusoppaan avulla voit määrittää perustietoja yrityksestäsi. Vaihtoehtoisesti voit tuoda tietoja olemassa olevasta yrityksenhallintaratkaisusta, jotta voit arvioida [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmaa omia tietojasi käyttäen. Microsoft ei kuitenkaan suosittele maksuttoman kokeiluversion käyttämistä liiketoiminnassa. Ota yhteyttä [jälleenmyyjäkumppaniin](across-faq.md#findpartner) ja lue lisää sovelluksen [!INCLUDE[prod_short](includes/prod_short.md)] käytön aloittamisesta.  
+Jos haluat kokeilla [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmaa omilla tiedoillasi, voit vaihtaa maksuttomaan 30 päivän kokeiluversioon, jossa on tyhjä yritys. **Määritä yritykseni** -avustetun asennusoppaan avulla voit määrittää perustietoja yrityksestäsi. Vaihtoehtoisesti voit tuoda tietoja olemassa olevasta yrityksenhallintaratkaisusta, jotta voit arvioida [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmaa omia tietojasi käyttäen. Microsoft ei kuitenkaan suosittele maksuttoman kokeiluversion käyttämistä liiketoiminnassa. Ota yhteyttä [jälleenmyyjäkumppaniin](/dynamics365/business-central/across-faq#findpartner) ja lue lisää sovelluksen [!INCLUDE[prod_short](includes/prod_short.md)] käytön aloittamisesta.  
 
 Jos 30 päivää ei ole tarpeeksi päätöksen tekemiseksi, voit jatkaa kokeilua. Lisätietoja on kohdassa [Tarvitsetko lisää aikaa, ennen kuin päätät tilauksen tekemisestä?](admin-extend-trial.md).  
 
@@ -68,7 +72,7 @@ Jos olet lisännyt tietoja maksuttomaan [!INCLUDE[prod_short](includes/prod_shor
 
 ## <a name="getting-started-with-a-subscription"></a>Tilauksen käytön aloittaminen
 
-Aina kun kirjaudut sovellukseen kokeilujakson aikana, jäljellä oleva aika näkyy yläreunassa olevassa sinisessä palkissa. Jos päätät tehdä tilauksen, voit etsiä [!INCLUDE[prod_short](includes/prod_short.md)] -kumppanin. Lisätietoja on kohdassa [Miten löydän jälleenmyyjäpartnerin?](across-faq.md#findpartner). Jälleenmyyjäkumppanin avulla voit määrittää sovelluksen [!INCLUDE[prod_short](includes/prod_short.md)] yrityksesi tarpeiden mukaan, kuten tietojen tuomisen aiemmasta järjestelmästä. Voit myös mukauttaa sovelluksen [!INCLUDE[prod_short](includes/prod_short.md)] lisäämällä sovellukset [Microsoft AppSourcesta](https://go.microsoft.com/fwlink/?linkid=2081646).  
+Aina kun kirjaudut sovellukseen kokeilujakson aikana, jäljellä oleva aika näkyy yläreunassa olevassa sinisessä palkissa. Jos päätät tehdä tilauksen, voit etsiä [!INCLUDE[prod_short](includes/prod_short.md)] -kumppanin. Lisätietoja on kohdassa [Miten löydän jälleenmyyjäkumppanin?](/dynamics365/business-central/across-faq#findpartner). Jälleenmyyjäkumppanin avulla voit määrittää sovelluksen [!INCLUDE[prod_short](includes/prod_short.md)] yrityksesi tarpeiden mukaan, kuten tietojen tuomisen aiemmasta järjestelmästä. Voit myös mukauttaa sovelluksen [!INCLUDE[prod_short](includes/prod_short.md)] lisäämällä sovellukset [Microsoft AppSourcesta](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
 [!INCLUDE[prod_short](includes/prod_short.md)] online käyttää Microsoft 365:ttä. Jos yrityksesi käyttää eri tyyppisiä sähköpostiasetuksia, jälleenmyynnin kumppani voi auttaa sinua päättämään, miten tiedot siirretään tai pitäisikö käyttää [!INCLUDE[prod_short](includes/prod_short.md)] on-premises -versiota.  
 
@@ -83,17 +87,19 @@ Sandbox-ympäristön avulla kehittäjät voivat turvallisesti luoda ja testata l
 Tällä hetkellä kaikki asiakkaat voivat käyttää Sandbox-ympäristöä, mukaan lukien organisaatiot, jotka ovat ottaneet käyttöön kokeiluversion. Lisätietoja sandbox-ympäristön käytön aloittamisesta on kohdassa [Sandbox-ympäristön luominen](across-how-create-sandbox-environment.md).  
 
 > [!NOTE]
-> Näin luodut sandbox-ympäristöt sisältävät kuvitteellisen CRONUS-yrityksen esittelytiedot. Mitään tietoja ei kopioida tai muutoin siirretä tuotantoympäristöstä.  
+> Näin luodut sandbox-ympäristöt sisältävät kuvitteellisen CRONUS-yrityksen esittelytiedot. Mitään tietoja ei kopioida tai muutoin siirretä tuotantoympäristöstä.   
 
 [!INCLUDE[prod_short](includes/prod_short.md)] -järjestelmänvalvojasi ja jälleenmyyjäkumppanisi voivat luoda lisää ympäristöjä hallintakeskuksessa. Lisätietoja on kohdassa [Business Centralin hallintakeskus](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
+
+
 
 ## <a name="see-also"></a>Katso myös
 
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 [Kokeilujakson jatkaminen](admin-extend-trial.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
-[Usein kysytyt kysymykset](across-faq.md)  
-[Miten löydän jälleenmyyjäkumppanin?](across-faq.md#findpartner)  
+[Usein kysytyt kysymykset](across-faq.yml)  
+[Miten löydän jälleenmyyjäkumppanin?](/dynamics365/business-central/across-faq#findpartner)  
 [Sandbox-ympäristön valitseminen Dynamics 365 Business Centralin kehittämiseen](/dynamics365/business-central/dev-itpro/developer/devenv-sandbox-overview?toc=/dynamics365/business-central/toc.json)  
 [Saatavuus maassa/alueella ja tuetut käännökset](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
 [Kokeiluversioiden jatkaminen (järjestelmänvalvojana)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials)  

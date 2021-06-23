@@ -9,23 +9,26 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
-ms.date: 04/01/2021
+ms.date: 06/03/2021
 ms.author: solsen
-ms.openlocfilehash: 98bb45f10b228077114d7387e9bc30a30cf7e3c6
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 564b9574188acd63acaa660f4a440be791846ef7
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774251"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216203"
 ---
 # <a name="installing-and-uninstalling-extensions-in-business-central"></a>Laajennusten asentaminen ja asennusten poistaminen Business Centralissa
 
 Voit muuttaa [!INCLUDE[prod_short](includes/prod_short.md)]ia asentamalla laajennuksia, jotka esimerkiksi sisältävät lisätoimintoja, muuttavat toimintaa tai mahdollistavat uusien verkkopalveluiden käyttämisen. Lisätietoja on kohdassa [Business Centralin mukauttaminen laajennusten avulla](ui-extensions.md).
 
 > [!NOTE]
-> Jos haluat asentaa AppSourcen laajennuksia tai lisätä vuokraajakohtaisia laajennuksia, sinulla on oltava vaaditut käyttöoikeudet. Sinun on oltava D365 EXTENSION MGT -käyttäjäryhmän jäsen tai sinulla on oltava D365 EXTENSION MGT -käyttöoikeuksien joukko. Jos olet järjestelmänvalvoja, voit määrittää käyttäjäryhmiä ja käyttöoikeuksia yrityksesi muille käyttäjille.
+> Jos haluat asentaa AppSourcen laajennuksia tai lisätä vuokraajakohtaisia laajennuksia, sinulla on oltava vaaditut käyttöoikeudet. Sinun täytyy olla jäsen joko EXTEND. MGT. - ADMIN -käyttäjäryhmässsä tai sinulla on oltava EXTEND. MGT. - ADMIN -käyttöoikeudet. Jos olet järjestelmänvalvoja, voit määrittää käyttäjäryhmiä ja käyttöoikeuksia yrityksesi muille käyttäjille.
 >
 > Jos haluat käyttää laajennuksen mahdollistamaa toimintoa, kuten avata sivuja, suorittaa raportteja tai valita toimintoja, sinulla on oltava käyttöoikeuksien joukko, joka on asennettu laajennuksen osana.
+
+> [!NOTE]  
+> **EXTEND. MGT. - ADMIN** -käyttöoikeudet otettiin käyttöön Business Central 2021:n julkaisuaallossa 1, ja ne korvasivat aiemmissa versioissa olleet **D365 EXTENSION MGT** -käyttöoikeudet.
 
 ## <a name="installing-an-extension"></a>Laajennuksen asentaminen
 

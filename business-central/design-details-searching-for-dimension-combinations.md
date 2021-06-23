@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: db971af61719bfa84566c78cc91b4c805c14ab9b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 544cb3a1844aaf85ab937031a23d6d00506ffa74
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783845"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215751"
 ---
 # <a name="design-details-searching-for-dimension-combinations"></a>Rakennetiedot: dimensioyhdistelmien etsiminen
 Kun suljet sivun dimensioyhdistelmän muokkaamisen jälkeen, [!INCLUDE[prod_short](includes/prod_short.md)] arvioi, onko muokattu dimensiojoukko olemassa. Jos yhdistelmää ei ole olemassa, järjestelmän luo uuden ja palauttaa dimensioyhdistelmän tunnuksen.  
@@ -73,9 +73,8 @@ EXIT(DimSet.ID);
 ```  
 
 ## <a name="see-also"></a>Katso myös
-
- [GET-funktio (tietue)](/dynamics-nav/GET-Function--Record-)    
- [Rakennetiedot: Dimensioyhdistelmätapahtumat](design-details-dimension-set-entries.md)   
+    
+ [Rakennetiedot: dimensioyhdistelmä-tapahtumat](design-details-dimension-set-entries.md)   
  [Dimensioyhdistelmätapahtumien yleiskuva](design-details-dimension-set-entries-overview.md)   
  [Rakennetiedot: taulukkorakenne](design-details-table-structure.md)   
  

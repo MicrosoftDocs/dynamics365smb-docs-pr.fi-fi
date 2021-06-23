@@ -1,6 +1,6 @@
 ---
-title: Sandbox-ympäristön luominen | Microsoft Docs
-description: Luo tutustumista, oppimista, esittelyä, kehittämistä ja testausta varten sopiva ympäristö.
+title: Eristysympäristön (sandbox) luominen
+description: Luo Business Centralissa sopiva ympäristö tutustumista, oppimista, esittelyä, kehittämistä ja testausta varten.
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,23 +8,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: solsen
-ms.openlocfilehash: 3419272afd092d2ddb1374940e556d42709c1534
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a76ae33815b8e9368f45b72fd8703bfc47cbd079
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776020"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215626"
 ---
 # <a name="creating-a-sandbox-environment-in-prod_short"></a>Sandbox-ympäristön luominen [!INCLUDE[prod_short](includes/prod_short.md)]issa
 
 [!INCLUDE[prod_short](includes/prod_short.md)]n avulla voit helposti luoda turvallisen ympäristön, jossa voit testata, kouluttaa tai tehdä vianmäärityksiä häiritsemättä yrityksen työprosesseja tai liiketoimintatietoja. Tällaista ei-tuotantoympäristöä kutsutaan *eristysympäristöksi (sandbox)*. Tuotannosta eristetty Sandbox-ympäristö on paikka, jossa voi turvallisesti tutustua palveluun, opetella sen käyttöä sekä kehittää ja testata sitä ilman, että tuotantoympäristön tiedot ja asetukset vaarantuvat.  
 
-Järjestelmänvalvoja voi luoda eristysympäristöjä [hallintakeskuksessa](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments?toc=/dynamics365/business-central/toc.json), mutta jos haluat testata jotain nopeasti, voit luoda [!INCLUDE[prod_short](includes/prod_short.md)]ssa eristetyn ympäristön.  
+Järjestelmänvalvoja hallinnoi eristysympäristöjä [hallintakeskuksessa](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments?toc=/dynamics365/business-central/toc.json), mutta jos haluat testata jotain nopeasti, voit luoda [!INCLUDE[prod_short](includes/prod_short.md)]ssa eristetyn ympäristön. Kun olet valmis, voit poistaa eristysympäristön hallintakeskuksen avulla.  
 
 > [!NOTE]
-> Teknisesti eristysympäristöt ovat hyvin erilaisia tuotantoympäristöihin verrattuna, vaikka järjestelmänvalvoja luo eristysympäristön, joka sisältää tuotantotiedot. Sandbox-ominaisuutta ei voi käyttää vertailuun, eikä esimerkiksi tietokannan vientiä voi pyytää. Jos haluat luoda eristysympäristön vertailuun, järjestelmänvalvoja voi luoda erillisen tuotantoympäristön hallintakeskuksessa. Lisätietoja on kohdassa [Ympäristötyypit](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#types-of-environments).
+> Teknisesti eristysympäristöt ovat hyvin erilaisia tuotantoympäristöihin verrattuna, vaikka järjestelmänvalvoja luo eristysympäristön, joka sisältää tuotantotiedot. Sandbox-ominaisuutta ei voi käyttää vertailuun, eikä esimerkiksi tietokannan vientiä voi pyytää. Jos haluat luoda eristysympäristön vertailua varten, järjestelmänvalvoja voi luoda erillisen ympäristön hallintakeskuksessa. Lisätietoja on kohdassa [Tuotanto- ja eristysympäristöt](/dynamics365/business-central/dev-itpro/administration/environment-types).
 
 ## <a name="to-create-a-sandbox-environment-in-your-prod_short"></a>Sandbox-ympäristön luominen [!INCLUDE[prod_short](includes/prod_short.md)]ssa
 
@@ -48,8 +48,9 @@ Roolikeskuksen yläreunaan avautuvassa ilmoituksessa ilmoitetaan, että kyse on 
     <!-- ![Sandbox RoleCenter Notification](./media/across-sandbox/sandbox-rolecenter-notification.png) -->
 
 > [!NOTE]
-> Näin luotu sandbox-ympäristö sisältää vain CRONUS-yrityksen oletusesittelytiedot. Mitään tietoja ei kopioida tai muutoin siirretä tuotantoympäristöstä.<br /><br />
-> Voit luoda myös sandbox-ympäristön, joka sisältää tuotantotiedot. Tämä on tehtävä hallintakeskuksen kautta. Lisätietoja on kehittäjien ja IT-ammattilaisten ohjeaiheessa [Ympäristöjen hallinta](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments).  
+> Näin luotu sandbox-ympäristö sisältää vain CRONUS-yrityksen oletusesittelytiedot. Mitään tietoja ei kopioida tai muutoin siirretä tuotantoympäristöstä.
+>
+> Vaihtoehtoisesti voit luoda tuotantotietoihin perustuvan eristysympäristön. Tämä on tehtävä hallintakeskuksen kautta. Lisätietoja on kehittäjä- ja hallintasisällön kohdassa [Ympäristöjen hallinta](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments).  
 
 <!--To switch between your production and sandbox environments, you can use the Business Central app launcher.
     ![Sandbox Dynamics365 Menu](./media/across-sandbox/sandbox-dynamics365-menu.png) -->
@@ -60,17 +61,22 @@ Järjestelmänvalvoja voi rajoittaa tai jopa estää joidenkin käyttäjien mahd
 
 ## <a name="advanced-functionality-in-the-sandbox-environment"></a>Sandbox-ympäristön lisätoiminnot
 
-Eristysympäristö ei ole vähiten hyödyllinen, koska se sisältää muutamia käteviä ominaisuuksia.
+Eristysympäristö on hyödyllinen muun muassa seuraavien kätevien ominaisuuksien ansiosta:
 
-### <a name="to-enable-the-advanced-user-experience"></a>Käyttäjäkokemuksen lisätoimintojen ottaminen käyttöön
+* [Käyttäjäkokemuksen parannus](#advanced-user-experience)  
+* [Täydelliset esimerkkitiedot](#complete-sample-data)  
+* [Suunnitteluohjelma](#designer)  
+
+### <a name="advanced-user-experience"></a>Käyttäjäkokemuksen parannus
 
 [!INCLUDE[prod_short](includes/prod_short.md)]in perusversion voi ottaa käyttöön ja sen kaikkia toimintoja voi käyttää eristysvuokraajassa määrittämällä **Kokemus**-kentän asetukseksi *Premium* **Yrityksen tiedot** -sivulla. Etsi **Yrityksen tiedot** -sivu :::image type="content" source="media/ui-experience/settings_icon_small.png" alt-text="Asetuskuvake":::-valikossa.  
 
-Kun olet ottanut käyttöön *Premium*-käyttökokemuksen, saat käyttöösi kaikki vakioprofiilit (roolit) ja roolikeskukset vakioversiossa. Voit myös luoda täysin määritetyn arviointiyrityksen. Tämä yritys sisältää esittelytiedot ja tuotteen lisäalueiden käyttöoikeuden. Vaihtoehtoisesti voit ottaa yhteyttä jälleenmyyntiyhteistyökumppaniin, jotta saat esittelyn ominaisuuksista. Lisätietoja on kohdassa [Miten löydän jälleenmyyjäpartnerin?](across-faq.md#findpartner).  
+Kun olet ottanut käyttöön *Premium*-käyttökokemuksen, saat käyttöösi kaikki vakioprofiilit (roolit) ja roolikeskukset vakioversiossa. Voit myös luoda täysin määritetyn arviointiyrityksen. Tämä yritys sisältää esittelytiedot ja tuotteen lisäalueiden käyttöoikeuden. Vaihtoehtoisesti voit ottaa yhteyttä jälleenmyyntiyhteistyökumppaniin, jotta saat esittelyn ominaisuuksista. Lisätietoja on kohdassa [Miten löydän jälleenmyyjäkumppanin?](/dynamics365/business-central/across-faq.yml#findpartner).  
 
-### <a name="to-enable-complete-sample-data"></a>Täydellisten esimerkkitietojen käyttöönottaminen
+### <a name="complete-sample-data"></a>Täydelliset esimerkkitiedot
 
-Eristysympäristössä uuden ympäristön luontiin voidaan käyttää myös **Laajennettu arviointi - Kaikki mallitiedot** -vaihtoehtoa, jolloin voit käyttää koulutusta tai vaihekuvauksia, joissa tarvitaan lisää esimerkkitietoja, kuten [Vaihekuvaus: Vastaanotto ja hyllytys fyysisen varastoinnin perusmäärityksissä](walkthrough-receiving-and-putting-away-in-basic-warehousing.md).  
+Jos tarvitset lisää esimerkkitietoja, käänny jälleenmyyjäkumppanin puoleen.
+<!-- In the sandbox environment, you can also create a new company with the **Advanced Evaluation - Complete Sample Data** option so that you can take training or step through walkthroughs that require additional sample data, such as [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md).   -->
 
 #### <a name="to-create-a-company-with-complete-sample-data-in-a-sandbox"></a>Täydelliset näytetiedot sisältävän yrityksen luonti eristysympäristössä
 
@@ -84,7 +90,9 @@ Kun asetuksen ohjattu määritysopas on suoritettu, voi aloittaa uuteen yritykse
 
 ### <a name="designer"></a>Rakennenäkymä
 
-Sandbox-ympäristössä on **Rakennenäkymä** käytössä. Voit aktivoida Rakennenäkymän valitsemalla Rakennenäkymä-kuvakkeen ![Rakennenäkymä](./media/across-sandbox/sandbox-inclient-design-icon.png) sivulta tai valitsemalla **Rakennenäkymä**-valikkovaihtoehdon ![Asetukset](media/ui-experience/settings_icon_small.png) Asetukset-valikosta.
+Sandbox-ympäristössä on **Rakennenäkymä** käytössä. Voit aktivoida Rakennenäkymän valitsemalla Rakennenäkymä-kuvakkeen ![Rakennenäkymä](./media/across-sandbox/sandbox-inclient-design-icon.png) sivulta tai valitsemalla **Rakennenäkymä**-valikkovaihtoehdon ![Asetukset](media/ui-experience/settings_icon_small.png) Asetukset-valikosta.  
+
+Lisätietoja on kehittäjä- ja järjestelmänvalvojasisällön kohdassa [Suunnitteluohjelman käyttäminen ](/dynamics365/business-central/dev-itpro/developer/devenv-inclient-designer) (vain englanniksi).  
 
 <!-- ![In-client Designer](./media/across-sandbox/sandbox-inclient-designer.png) -->
 

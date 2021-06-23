@@ -10,16 +10,16 @@
 #### [Käytettävissä olevat vaihekuvaukset](walkthrough-business-process-walkthroughs.md)
 #### [Vaihekuvaus: Myyntikampanjan suorittaminen](walkthrough-conducting-a-sales-campaign.md)
 #### [Vaihekuvaus: Myynnin ennakkomaksujen määrittäminen ja laskuttaminen](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
-#### [Vaihekuvaus: Ostojen hyväksyntätyönkulun määrittäminen ja käyttäminen](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
-#### [Vaihekuvaus: Vastaanotto ja hyllytys fyysisen varastoinnin perusmäärityksissä](walkthrough-picking-and-shipping-in-basic-warehousing.md)
-#### [Vaihekuvaus: Vastaanotto ja hyllytys laajennetuissa varastomäärityksissä](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
-#### [Vaihekuvaus: Toimitusten manuaalinen suunnittelu](walkthrough-planning-supplies-manually.md)
-#### [Vaihekuvaus: Toimitusten automaattinen suunnittelu](walkthrough-planning-supplies-automatically.md)
-#### [Vaihekuvaus: Tuotepakettien myynti, kokoaminen ja toimitus](walkthrough-selling-assembling-and-shipping-kits.md)
+#### [Vaihekuvaus: Ostojen hyväksyntä -työnkulun määrittäminen ja käyttäminen](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
+<!-- #### [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md) -->
+<!-- #### [Walkthrough: Receiving and Putting Away in Advanced Warehouse Configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md) -->
+<!-- #### [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md) -->
+<!-- #### [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
+<!-- #### [Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md) -->
 #### [Vaihekuvaus: Projektinhallinta Projektit-sovellusalueen avulla](walkthrough-managing-projects-with-jobs.md)
 #### [Vaihekuvaus: Projektin keskeneräisen työn laskeminen](walkthrough-calculating-work-in-process-for-a-job.md)
 #### [Vaihekuvaus: Poiminta ja toimitus fyysisen varastoinnin perusmäärityksissä](walkthrough-picking-and-shipping-in-basic-warehousing.md)
-#### [Vaihekuvaus: Sarja-/eränumeroiden jäljitys](walkthrough-tracing-serial-lot-numbers.md)
+<!-- #### [Walkthrough: Tracing Serial/Lot Numbers](walkthrough-tracing-serial-lot-numbers.md) -->
 #### [Vaihekuvaus: tehdään kassavirtaennusteita käyttäen KP-raporttimalleja](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 
 ### Rakennetiedot
@@ -79,8 +79,6 @@
 ##### [Yleisen päiväkirjan kirjausrivin yleiskuva](design-details-general-journal-post-line-overview.md)  
 ##### [Rakenteen tiedot: Kirjausliittymän rakenne](design-details-posting-interface-structure.md)  
 ##### [Rakenteen tiedot: Kirjausohjelman rakenne](design-details-posting-engine-structure.md)  
-##### [Rakennetiedot: Codeunitin 12 muutokset: Yleisten muuttujien linkitys yleisen päiväkirjan kirjausriviin](design-details-codeunit-12-changes-mapping-global-variables-for-general-journal-post-line.md)  
-##### [Rakennetiedot: Codeunitin 12 muutokset: Päiväkirjakirjausten menettelytapojen muutokset](design-details-codeunit-12-changes-changes-in-general-journal-post-procedures.md)
 #### Rakennetiedot: dimensioyhdistelmä-tapahtumat
 ##### [Rakennetiedot: Dimensioyhdistelmätapahtumien yleiskatsaus](design-details-dimension-set-entries-overview.md)  
 ##### [Rakennetiedot: Dimensioyhdistelmien etsiminen](design-details-searching-for-dimension-combinations.md)  
@@ -241,9 +239,10 @@
 #### [Vihjeitä: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
 ### Sähköpostin määrittäminen
 #### [Määritä sähköposti](admin-how-setup-email.md)
-#### Määritä Outlookin yrityssähköposti 
+#### Määritä yrityssähköpostisi Microsoft Outlookiin 
 ##### [Business Central -sovelluksen käyttäminen yrityssähköpostina Outlookissa](admin-outlook.md)
-##### [Kontaktien synkronointi Microsoft Outlookissa](admin-synchronize-outlook-contacts.md)
+##### [Synkronoiminen Outlookin kontaktien kanssa](admin-synchronize-outlook-contacts.md)
+##### [Optimoi Outlook](admin-outlook-optimize.md)
 ##### [Business Central -sovelluksen käyttäminen ilman Outlookia](admin-no-outlook.md)
 ### Raporttien määrittäminen
 #### [Raporttivalinta](across-report-selections.md)
@@ -257,7 +256,7 @@
 ##### [Teamsin integroinnin hallinta](admin-teams-integration.md)
 ##### [Business Central -sovelluksen asentaminen Teamsiin](across-install-app-for-teams.md)
 ##### [Asiakkaiden, toimittajien ja yhteyshenkilöiden hakeminen](across-search-contacts-teams.md)
-##### [Business Centralin tietojen käyttäminen Teamsissa](across-working-with-teams.md)
+##### [Tietueiden jakaminen Teamsissa](across-working-with-teams.md)
 ##### [Yrityksen ja muiden asetusten muuttaminen](across-teams-settings.md)
 ##### [Teams – usein kysytyt kysymykset](teams-faq.md)
 ##### [Vianetsintä](admin-teams-troubleshooting.md)
@@ -287,12 +286,12 @@
 ### [Business Central -sovelluksen hakeminen mobiililaitteeseen](install-mobile-app.md)
 
 ## Usein kysytyt kysymykset
-### [Usein kysytyt kysymykset](across-faq.md)
+### [Usein kysytyt kysymykset](across-faq.yml)
 ### [Kerro, mitä haluat tehdä -toiminnon usein kysytyt kysymykset](ui-search-faq.md)
 ### [Usein kysyttyjen kysymysten haku ja suodatus](ui-search-filter-faq.yml)
 ### [Luettelonäkymien usein kysytyt kysymykset](ui-views-faq.yml)
 ### [Kopioimisen ja liittämisen usein kysytyt kysymykset](faq-copy-paste.yml)
-### [Mobiilisovellukset – usein kysytyt kysymykset](ui-mobile-faq.md)
+### [Mobiilisovellukset – usein kysytyt kysymykset](ui-mobile-faq.yml)
 ### [Teams – usein kysytyt kysymykset](teams-faq.md)
 ### [Sähköinen laskutus – usein kysytyt kysymykset](faq-electronic-invoicing.yml)
 ### [Vähimmäisvaatimukset](product-requirements.md)
@@ -534,6 +533,10 @@
 #### [Nimikepäiväkirjan kiinteästä kohdistuksesta aiheutuvien avointen nimiketapahtumien sulkeminen](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)
 #### [Varaston kustannusten täsmäyttäminen pääkirjanpitoon](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
 
+### Kassavirtojen hallinta
+#### [Kassavirta – yleistä](finance-cash-flow-overview.md)
+#### [Yrityksen kassavirtojen analysoiminen](finance-analyze-cash-flow.md)
+
 ### Vuosien ja kausien sulkeminen
 #### [Tilinpäätöksen yleiskuvaus](year-close-years-periods.md)
 #### [Kirjanpitojaksojen ja tilikausien käyttäminen](finance-accounting-periods-and-fiscal-years.md)
@@ -566,8 +569,7 @@
 ### [ALV:n raportointi veroviranomaisille](finance-how-report-vat.md)
 ### [ALV-summia sisältävien huoltosopimusten muuntaminen](service-how-to-convert-service-contracts.md)
 ### [ALV-prosenttimuutosten hallinta](finance-how-use-vat-rate-change-tool.md)
-### [Yrityksen kassavirtojen analysoiminen](finance-analyze-cash-flow.md)
-### [Vaihekuvaus: tehdään kassavirtaennusteita käyttäen KP-raporttimalleja](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+### [Vaihekuvaus: Kassavirtaennusteiden tekeminen käyttäen KP-raporttimalleja](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 ### [Rahoituslaskelmien analysointi Excelissä](finance-analyze-excel.md)
 ### [Siirrä pankkivarat](bank-how-transfer-bank-funds.md)
 ### [Kirjanpitäjän käyttökokemukset Business Centralissa](finance-accounting.md)
@@ -586,6 +588,7 @@
 
 ## Myynti
 ### [Myynnin yleiskatsaus](sales-manage-sales.md)
+### [Myyntiraportit](sales-reports.md)
 ### [Vaihekuvaus: Myyntikampanjan suorittaminen](walkthrough-conducting-a-sales-campaign.md)
 ### [Vaihekuvaus: Myynnin ennakkomaksujen määrittäminen ja laskuttaminen](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
 ### [Uusien asiakkaiden rekisteröinti](sales-how-register-new-customers.md)
@@ -606,9 +609,11 @@
 ### [Myynnin päivämäärälaskenta](sales-date-calculation-for-sales.md)
 ### [Tietueiden kaksoiskappaleiden yhdistäminen](sales-how-merge-duplicate-records.md)
 ### [Toistuvan tuoton käsitteleminen](finance-recurring-invoicing.md)
+### [Ulkoisen tiedoston numeron antaminen](across-enter-external-document-numbers.md)
 
 ## Ostaminen
 ### [Oston yleiskuvaus](purchasing-manage-purchasing.md)
+### [Ostoraportit](purchase-reports.md)
 ### [Vaihekuvaus: Ostojen hyväksyntä -työnkulun määrittäminen ja käyttäminen](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
 ### [Ostojen kirjaus](purchasing-how-record-purchases.md)
 ### [Tarjousten pyytäminen](purchasing-how-request-quotes.md)
@@ -621,9 +626,13 @@
 ### [Ostojen päivämäärälaskenta](purchasing-date-calculation-for-purchases.md)
 ### [Tietueiden kaksoiskappaleiden yhdistäminen](sales-how-merge-duplicate-records.md)
 ### [Puiteostotilausten käyttäminen](sales-how-to-create-blanket-sales-orders.md)
+### [Ulkoisen tiedoston numerot ostoasiakirjoissa](purchasing-ext-doc-no.md)
+### [Ulkoisen tiedoston numeron antaminen](across-enter-external-document-numbers.md)
+
 
 ## Varasto
 ### [Varaston yleiskuvaus](inventory-manage-inventory.md)
+### [Varaston ja fyysisen varastoinnin raportit](inventory-WMS-reports.md)
 ### [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md)
 ### [Tuoterakenteen käyttäminen](inventory-how-work-BOMs.md)
 ### [Nimikkeiden luokitteleminen](inventory-how-categorize-items.md)
@@ -642,6 +651,7 @@
 
 ## Projektinhallinta
 ### [Projektinhallinnan yleiskatsaus](projects-manage-projects.md)
+### [Projektiraportit](project-reports.md)
 ### [Projektien luominen](projects-how-create-jobs.md)
 ### [Resurssien käyttäminen projekteissa](projects-how-use-resources.md)
 ### [Aikaraporttien käyttäminen projekteissa](projects-how-use-time-sheets.md)
@@ -701,21 +711,20 @@
 ## Suunnittelu
 ### [Tuotantosuunnittelu](production-planning.md)
 ### [Tietoja toimintojen suunnittelusta](production-about-planning-functionality.md)
-### [Tuotanto alihankintana](production-how-to-subcontract-manufacturing.md)
 ### [Suunnittelu sijainteja käyttämällä tai ilman niitä](production-planning-with-without-locations.md)
 ### [Ennusteen luominen](production-how-to-create-a-forecast.md)
 ### [Tuotantotilausten luominen myyntitilauksista:](production-how-to-create-production-orders-from-sales-orders.md)
-### [Projektitilausten suunnitteleminen](production-how-to-plan-project-orders.md)
 ### [Uuden kysynnän tilauskohtainen suunnittelu](production-how-to-plan-for-new-demand.md)
 ### [Kokonaisvaltaisen suunnittelun, tuotanto-ohjelman tai tarvelaskennan suorittaminen](production-how-to-run-mps-and-mrp.md)
 ### [Tuotantotilausten suora uudelleensuunnittelu tai päivittäminen](production-how-to-replan-refresh-production-orders.md)
 ### [Kysynnän ja tarjonnan välisten suhteiden seuraaminen](production-how-track-demand-supply.md)
-### [Vaihekuvaus: Toimitusten manuaalinen suunnittelu](walkthrough-planning-supplies-manually.md)
-### [Vaihekuvaus: Toimitusten automaattinen suunnittelu](walkthrough-planning-supplies-automatically.md)
+<!-- ### [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md) -->
+<!-- ### [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
 <!--## [Modify Planning Suggestions in a Graphical View](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)-->
 
 ## Kokoonpanon hallinta
 ### [Kokoa nimikkeet](assembly-assemble-items.md)
+### [Kokoonpanoraportit](assembly-reports.md)
 ### [Tietoja Kokoonpano tilausta varten- ja Kokoonpano varastoon -toiminnoista](assembly-assemble-to-order-or-assemble-to-stock.md)
 ### [Kokoonpano tilausta varten -myynnin tarjous](assembly-how-to-quote-an-assemble-to-order-sale.md)
 ### [Kokoa nimikkeet](assembly-how-to-assemble-items.md)
@@ -729,6 +738,7 @@
 
 ## Tuotanto
 ### [Valmistuksen yleiskatsaus](production-manage-manufacturing.md)
+### [Tuotantoraportit](production-reports.md)
 ### [Tietoja tuotantotilauksista](production-about-production-orders.md)
 ### [Tuotantotilausten luominen](production-how-to-create-production-orders.md)
 ### [Tuotanto alihankintana](production-how-to-subcontract-manufacturing.md)
@@ -743,6 +753,7 @@
 
 ## Varastoinninhallinta
 ### [Varastoinninhallinta](warehouse-manage-warehouse.md)
+### [Varaston ja fyysisen varastoinnin raportit](inventory-WMS-reports.md)
 ### [Nimikkeiden vastaanottaminen](warehouse-how-receive-items.md)
 ### [Nimikkeiden laiturointi](warehouse-how-to-cross-dock-items.md)
 ### Nimikkeiden hyllyttäminen
@@ -773,8 +784,8 @@
 ### [Nimikkeiden lähettäminen](warehouse-how-ship-items.md)
 ### [Fyysisen varaston varausten etsiminen](warehouse-how-to-find-your-warehouse-assignments.md)
 ### [ADCS (Automated Data Capture System) -järjestelmä](warehouse-use-automated-data-capture-systems-adcs.md)
-### [Vaihekuvaus: Vastaanotto ja hyllytys fyysisen varastoinnin perusmäärityksissä](walkthrough-picking-and-shipping-in-basic-warehousing.md)
-### [Vaihekuvaus: Vastaanotto ja hyllytys laajennetuissa varastomäärityksissä](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
+<!-- ### [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md) -->
+<!-- ### [Walkthrough: Receiving and Putting Away in Advanced Warehouse Configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md) -->
 
 ## Huoltohallinto
 ### [Huoltohallinto](service-service.md)
@@ -840,6 +851,7 @@
 ##### [Myyntihinnan määrittäminen lisäämällä kustannukseen prosenttiosuus](LocalFunctionality/Australia/how-to-determine-sales-price-by-cost-plus-percentage.md)
 ##### [Australialaiset yritysnumerot ja muutosten huomautukset](LocalFunctionality/Australia/australian-business-numbers-and-adjustment-notes.md)
 ##### [Australialaisen yritysnumeron antaminen](LocalFunctionality/Australia/how-to-enter-australian-business-numbers.md)
+##### [Maksuaikojen raportointi](LocalFunctionality/Australia/payment-times-reporting.md)
 
 ### Itävalta
 #### [Paikallinen toiminnallisuus Itävallan versiossa](LocalFunctionality/Austria/austria-local-functionality.md)
@@ -1544,7 +1556,6 @@
 ##### [Lakisääteisteisten tietojen antaminen](LocalFunctionality/UnitedKingdom/how-to-enter-statutory-information.md)
 ##### [Ison-Britannian postinumeroiden GetAddress.io-laajennus](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)
 ##### [Ison-Britannian postinumeroiden GetAddress.io-laajennuksen määrittäminen](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)
-##### [Ulkoisten asiakirjanumeroiden antaminen](LocalFunctionality/UnitedKingdom/how-to-enter-external-document-numbers.md)
 
 ### Yhdysvallat
 #### [Paikallinen toiminnallisuus Yhdysvaltalaisessa versiossa](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
@@ -1599,6 +1610,7 @@
 ### [Näyttää taulukon tiedot](admin-view-table-information.md)
 ### [Sandbox-ympäristön luominen](across-how-create-sandbox-environment.md)
 ### [Uusien ominaisuuksien käyttöönotto etuajassa](admin-feature-management.md)
+### [Käyttäjien perehdyttäminen tarkistusluetteloiden avulla](admin-checklist.md)
 ## Business Central -sovelluksen mukauttaminen
 ### [Mukautuksen yleiskuvaus](ui-customizing-overview.md)
 ### [Profiilien sivujen mukauttaminen](ui-personalization-manage.md)
