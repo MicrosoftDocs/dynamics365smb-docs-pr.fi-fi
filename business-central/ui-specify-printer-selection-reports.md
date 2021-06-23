@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
-ms.date: 04/01/2021
+ms.date: 05/17/2021
 ms.author: jswymer
-ms.openlocfilehash: 69c5ab889ae1fe98d50c04e31f47ecc28cc0e1b0
-ms.sourcegitcommit: 08ca5798cf3f04fc3ea38fff40c1860196a70adf
+ms.openlocfilehash: c98006d85607a62f99286e1179728b969fa4d005
+ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "5985410"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6063450"
 ---
 # <a name="set-up-printers"></a>Tulostimien määrittäminen
 
@@ -38,7 +38,7 @@ Yleistulostus on tilauspohjainen Microsoft 365 -palvelu, joka suoritetaan kokona
 
 ![Yleistulostus-asetus](media/Universal-Print-arch.png)
 
-Täydellinen määritys edellyttää, että sekä Microsoft Azure [Azure-portaalin](https://posrtal.azure.com) kautta että [!INCLUDE[prod_short](includes/prod_short.md)] ovat käytettävissä.
+Täydellinen määritys edellyttää, että työskentelet sekä Microsoft Azuressa [Azure-portaalia](https://portal.azure.com) käyttäen että [!INCLUDE[prod_short](includes/prod_short.md)]ssa.
 
 ### <a name="supported-printers"></a>Tuetut tulostimet
 
@@ -78,7 +78,7 @@ Täydellinen määritys edellyttää, että sekä Microsoft Azure [Azure-portaal
 
 Ennen kuin yleistulostuksen tulostimia voi hallita Business Centralissa, yleistulostus on otettava käyttöön Azuressa ja siihen on määritettävä käytettävät tulostimet.
 
-Lisätietoja määrittämisestä on yleistulostuksen ohjeiden kohdassa [Aloitus: yleistulostuksen määrittäminen](https://docs.microsoft.com/universal-print/fundamentals/universal-print-getting-started). Seuraavassa on yhteenveto suoritettavista vaiheista. Suurin osa näistä vaiheista tehdään Azure-portaalissa.
+Lisätietoja määrittämisestä on yleistulostuksen ohjeiden kohdassa [Aloitus: yleistulostuksen määrittäminen](/universal-print/fundamentals/universal-print-getting-started). Seuraavassa on yhteenveto suoritettavista vaiheista. Suurin osa näistä vaiheista tehdään Azure-portaalissa.
 
 1. Määritä yleistulostuksen käyttöoikeudet itsellesi ja muille käyttäjille.
 
@@ -104,29 +104,34 @@ Lisätietoja määrittämisestä on yleistulostuksen ohjeiden kohdassa [Aloitus:
 
     - Rekisteröi muut tulostimet käyttämällä yleistulostuksen yhdistintä. 
 
-      Lisätietoja on kohdassa [Tulostimen rekisteröinti](/universal-print-connector-printer-registration).
+      Lisätietoja on kohdassa [Tulostimen rekisteröinti](/universal-print/fundamentals/universal-print-connector-printer-registration).
 
 4. Tulostimen ominaisuuksien muuttaminen (valinnainen)
 
     Kun tulostin on rekisteröity, tulostimen ominaisuuksia, kuten oletusasetuksia, voi tarkastella ja muuttaa.
 
-    Lisätietoja on kohdassa [Tulostimen metatietoasetusten hallinta](/universal-print/fundamentals/universal-print-printer-property-settings).
+    Lisätietoja on kohdassa [Tulostimen asetusten hallinta yleistulostusportaalin avulla](/universal-print/portal/configure-printer-settings).
 
-5. Anna tulostimien käyttöoikeudet käyttäjille.
-
-    Lisätietoja on kohdassa [Tulostimen käyttöoikeudet](/universal-print/fundamentals/universal-print-printer-permissions#printer-permissions).
-
-6. Jaa tulostimet.
+5. Jaa tulostimet.
 
     Jokainen tulostin, jota halutaan käyttää [!INCLUDE[prod_short](includes/prod_short.md)]issa, on jaettava yleistulostuksessa. avulla.
 
-    Lisätietoja on kohdassa [Tulostimen jakaminen](/universal-print/fundamentals/universal-print-printer-permissions#share-a-printer).
+    <!--For more information, see [Share a Printer](/universal-print/fundamentals/universal-print-printer-permissions#share-a-printer). -->
+
+    Lisätietoja on kohdassa [Tulostimen jakaminen](/universal-print/portal/share-printers).
+
+6. Anna jaettujen tulostimien käyttöoikeudet käyttäjille.
+
+    <!--For more information, see [Printer Permissions](/universal-print/fundamentals/universal-print-printer-permissions#printer-permissions).-->
+
+    Lisätietoja on kohdassa [Tulostimen käyttöoikeudet](/universal-print/portal/share-printers#configure-user-permissions-for-a-printer-share).
+
 
 7. Ota asiakirjan muuntaminen käyttöön.
 
     Yleistulostus hahmontaa tulostuksen sisällön XPS-muodossa. Osa markkinoilla olevista vanhoista tulostimista ei tue XPS-sisällön hahmontamista vaan usein tuetaan vain PDF-muotoa. Tulostaminen tällaisiin tulostimiin epäonnistuu, ellei yleistulostusta ole määritetty muuntamaan asiakirjat tulostimen tukemaan muotoon.
 
-    Lisätietoja on kohdassa [Asiakirjan muuntamisen yleiskatsaus](/universal-print/fundamentals/universal-print-document-conversion).
+    Lisätietoja on kohdassa [Asiakirjan muuntamisen yleiskatsaus](/universal-print/portal/document-conversion).
 
     > [!TIP]
     > Jos mikään tulostimista ei edellytä PDF-muotoista sisällön hahmontamista, asiakirjan muuntamista ei kannata ottaa käyttöön, sillä se voi vaikuttaa tulostuksen tulostuslaatuun.

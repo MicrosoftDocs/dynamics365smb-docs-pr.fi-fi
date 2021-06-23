@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, charts, tooltips, screen reader
 ms.date: 04/29/2021
 ms.author: jswymer
-ms.openlocfilehash: 5de8096338cef264b599701abf2e21a906417bac
-ms.sourcegitcommit: 103d1433454dbedf8a72a292853eac3501872f24
+ms.openlocfilehash: 5a9b99b367ca732f5b6347462a07b0d0c3f5c522
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "5961550"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115888"
 ---
 # <a name="accessibility-and-keyboard-shortcuts"></a>Helppokäyttötoiminnot ja pikanäppäimet
 
@@ -85,6 +85,6 @@ Lisätietoja Microsoftin tuotteiden helppokäyttötoiminnoista ja käyttöä hel
 
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
-[Usein kysytyt kysymykset](across-faq.md)  
+[Usein kysytyt kysymykset](across-faq.yml)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

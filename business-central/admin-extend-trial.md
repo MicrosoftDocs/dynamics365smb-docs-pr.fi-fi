@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: a061eb42342859cb6b2d138bee2ba0b6b881d517
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0843dee0e0ac392f138bfa7632635dff8d6411ce
+ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780030"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6184272"
 ---
 # <a name="need-more-time-to-decide-whether-to-subscribe"></a>Tarvitsetko lisää aikaa, ennen kuin päätät tilauksen tekemisestä?
 
 Liiketoimintasovellusta valittaessa on oltava tarkkana, ja tiedämme, että [!INCLUDE[prod_short](includes/prod_short.md)]in kaikkiin ominaisuuksiin tutustuminen vie aikaa. Jos tarvitset arviontiin lisäaikaa, voit jatkaa itse kokeilujaksoa 30 päivällä. Kun kokeilujakson päättyminen on lähellä, kirjautumisen yhteydessä näkyy ilmoitus asiasta. Ilmoituksessa on linkki **kokeilujakson jatkamisen** oppaaseen, jonka avulla voit jatkaa kokeilujaksoa. 30 päivän lisäjakso alkaa heti, kun valitset oppaassa **Jatka kokeilujaksoa**.
 
-Kokeilujaksoa voi kuitenkin jatkaa itse vain kerran. Et siis voi jatkaa sitä itse kahdesti. Jos olet jo jatkanut kokeilujaksoa itse, Microsoft-kumppani voi jatkaa sitä uudelleen puolestasi. Sekin on kuitenkin mahdollista vain kerran. Jos sinulla ei vielä ole kumppania, katso [Miten löydän jälleenmyyjäkumppanin?](across-faq.md#findpartner).  
+Kokeilujaksoa voi kuitenkin jatkaa itse vain kerran. Et siis voi jatkaa sitä itse kahdesti. Jos olet jo jatkanut kokeilujaksoa itse, Microsoft-kumppani voi jatkaa sitä uudelleen puolestasi. Sekin on kuitenkin mahdollista vain kerran. Jos sinulla ei vielä ole kumppania, katso [Miten löydän jälleenmyyjäkumppanin?](/dynamics365/business-central/across-faq#findpartner).  
 
 ## <a name="to-extend-your-trial-period"></a>Kokeilujakson laajentaminen
 
@@ -49,11 +49,13 @@ Kuitenkin, kun tämä toinen jatkoaika, joka on antanut organisaatiolle jopa 90 
 
 Kun jatkettu kokeilujakso on päättynyt, voit [tilata](https://go.microsoft.com/fwlink/?linkid=828659) [!INCLUDE[prod_short](includes/prod_short.md)]in 90 päivän kuluessa ja jatkaa luomasi yrityksen käyttöä. 90 päivää sen jälkeen, kun laajennettu koeaika päättyy, poistamme yrityksesi ja tiedot, ellet tilaa.  
 
+[!INCLUDE [admin-viral-trial-expiry](includes/admin-viral-trial-expiry.md)]
+
 ## <a name="see-also"></a>Katso myös
 
 [Uusien yritysten luominen](about-new-company.md)  
 [Kokeilut ja tilaukset](across-preview.md)  
-[Miten löydän jälleenmyyjäkumppanin?](across-faq.md#findpartner)  
+[Miten löydän jälleenmyyjäkumppanin?](/dynamics365/business-central/across-faq#findpartner)  
 [Kokeiluversioiden jatkaminen (järjestelmänvalvojana)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials)  
 [Aloittaminen Business Central Online -jälleenmyyjänä](/dynamics365/business-central/dev-itpro/administration/get-started-online)  
 

@@ -1,5 +1,5 @@
 ---
-title: Business Central -tietojen mukautettujen Power BI -raporttien näyttäminen | Microsoft Docs
+title: Business Central -tietojen mukautettujen Power BI -raporttien näyttäminen
 description: Power BI -raporttien avulla saadaan lisätietoja luetteloissa olevista tiedoista.
 author: jswymer
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 04/26/2021
 ms.author: jswymer
-ms.openlocfilehash: c74593a429c520730efbd503a1884065ca6cd7e4
-ms.sourcegitcommit: 57e8ab70d70849752567eecf29529efe2dcdf3af
+ms.openlocfilehash: d2ce2588604ae676ba8b2cb73878a2d8dfd32b63
+ms.sourcegitcommit: 652e4b0e1a09bff265014d9f8eb3b038ab0db79e
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5941611"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "6087692"
 ---
 # <a name="creating-power-bi-reports-for-displaying-list-data-in-prod_short"></a>[!INCLUDE[prod_short](includes/prod_short.md)]in luettelotiedot näyttävien Power BI -raporttien luominen
 

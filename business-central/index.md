@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3811841784144d1c9dc786f8ae6435bedb5fb1d5
-ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
+ms.openlocfilehash: 9042f49795f5ee6bb9e0bced2b8ba48ba1e093b4
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6017097"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115259"
 ---
 # <a name="welcome-to-prod_long"></a>Tervetuloa [!INCLUDE[prod_long](includes/prod_long.md)]iin
 
@@ -36,7 +36,7 @@ Jos sinulla on jo [!INCLUDE[prod_short](includes/prod_short.md)], kirjaudu sivus
 Voit myös [vierailla videokirjastossamme](across-videos.md) tai aloittaa [Microsoft Dynamics 365 Business Centralin käytön aloittaminen](/learn/paths/get-started-dynamics-365-business-central/) -oppimispolun [Microsoft Learnissa](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
 
 > [!NOTE]
-> Ellei muuta todeta, Docs.microsoft.com-sivusto sisältö vastaa uusinta [!INCLUDE[prod_short](includes/prod_short.md)] online -versiota. Jos organisaatiossa on käytössä jokin muu [!INCLUDE[prod_short](includes/prod_short.md)] online -versio, osa ominaisuuksista ei ehkä ole vielä saatavana. Jos organisaatiossa on käytössä [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, se voi olla aikaisempi versio. Lisätietoja on kohdassa [Usein kysytyt kysymykset](across-faq.md).
+> Ellei muuta todeta, Docs.microsoft.com-sivusto sisältö vastaa uusinta [!INCLUDE[prod_short](includes/prod_short.md)] online -versiota. Jos organisaatiossa on käytössä jokin muu [!INCLUDE[prod_short](includes/prod_short.md)] online -versio, osa ominaisuuksista ei ehkä ole vielä saatavana. Jos organisaatiossa on käytössä [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, se voi olla aikaisempi versio. Lisätietoja on kohdassa [Usein kysytyt kysymykset](across-faq.yml).
 
 Seuraavat osiot viittaavat tärkeimpiin artikkeleihin, joiden avulla voit tutustua [!INCLUDE [prod_short](includes/prod_short.md)]iin.  
 

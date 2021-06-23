@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: journals, recurring, accrual
+ms.search.keywords: journals, recurring, accrual, renumber, bulk-post
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ba7ed8bba5510e4e17cc645c5dd8f935f50a7fac
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d452720f5fff046a994ff5df0b2ea7bb5a209236
+ms.sourcegitcommit: 652e4b0e1a09bff265014d9f8eb3b038ab0db79e
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783032"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "6087717"
 ---
 # <a name="working-with-general-journals"></a>Yleisten päiväkirjojen käyttäminen
 
@@ -71,7 +71,7 @@ Jos haluat sallia päiväkirjojen kirjausten kopioimisen yleisiin päiväkirjoih
 Jos olet määrittänyt päiväkirjan erille oletusvastatilit **Yleiset päiväkirjat** -sivulla, vastatili täytetään automaattisesti, kun täytät **Tilinro**-kentän. Muussa tapauksessa täytä sekä **Tilinro**-kenttä että **Vastatilin nro** -kenttä manuaalisesti. Positiivinen summa **Summa**-kentässä veloitetaan päätililtä ja hyvitetään vastatilille. Negatiivinen summa hyvitetään päätilille ja veloitetaan vastatililtä.
 
 > [!NOTE]  
->   ALV lasketaan erikseen päätiliä varten ja vastatiliä varten, joten niillä voi olla eri ALV-prosentit.
+> ALV lasketaan erikseen päätiliä varten ja vastatiliä varten, joten niillä voi olla eri ALV-prosentit.
 
 ## <a name="working-with-recurring-journals"></a>Toistuvien tapahtumien päiväkirjojen käyttäminen
 Toistuvien tapahtumien päiväkirja on yleinen päiväkirja, jossa on erityiskenttiä sellaisten tapahtumien hallintaa varten, jotka kirjataan usein vähäisin muutoksin tai ilman muutoksia. Näitä ovat esimerkiksi vuokra, lehtitilaukset, sähkö ja lämmitys. Käyttämällä näitä kenttiä toistuviin tapahtumiin, voit kirjata sekä vakiosummia että muuttuvia summia. Voit myös määrittää automaattiset peruutustapahtumat kirjauspäivämäärän jälkeisenä päivänä. Voit myös käyttää kohdistusavaimia ja jakaa toistuvat tapahtumat eri tileille. Lisätietoja on kohdassa [Toistuvien tapahtumien päiväkirjan summien kohdistaminen useisiin tileihin](#allocating-recurring-journal-amounts-to-several-accounts).
@@ -167,6 +167,7 @@ Kun olet luonut päiväkirjan rivejä, joita todennäköisesti käytät myös va
 Kun olet tallentanut vakionimikepäiväkirjan, ohjelma siirtyy takaisin Nimikepäiväkirja-sivulle, jossa voit kirjata rivit. Tämän jälkeen voit kirjata samat tai vastaavat rivit vaivattomasti aina, kun tilanne sitä edellyttää.
 
 ### <a name="to-reuse-a-standard-journal"></a>Vakiopäiväkirjan käyttäminen uudelleen
+
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Nimikepäiväkirjat** ja valitse sitten liittyvä linkki.
 2. Valitse **Hae vakiopäiväkirjat** -toiminto.
 
@@ -181,23 +182,26 @@ Kun olet tallentanut vakionimikepäiväkirjan, ohjelma siirtyy takaisin Nimikep�
     Jos **Tallenna yksikkösumma** -kenttään ei lisätä valintamerkkiä **Tallenna vakionimikepäiväkirjana** -toiminnon suorittamisen yhteydessä, päiväkirjasta lisättyjen rivien **Yksikkösumma**-kenttä täytetään automaattisesti nimikkeen nykyisellä arvolla (joka kopioidaan nimikkeen kortin **Yksikkökustannus**-kentästä).
 
     > [!NOTE]  
-    >   Jos lisäät **Tallenna yksikkösumma**- ja/tai **Tallenna määrä** -kenttään valintamerkin, varmista, että lisätyt arvot ovat oikein tämän varastonmuutoksen osalta ennen niiden kirjaamista nimikepäiväkirjaan.
+    > Jos lisäät **Tallenna yksikkösumma**- ja/tai **Tallenna määrä** -kenttään valintamerkin, varmista, että lisätyt arvot ovat oikein tämän varastonmuutoksen osalta ennen niiden kirjaamista nimikepäiväkirjaan.
 
     Jos lisätyillä nimikepäiväkirjan riveillä on tallennettuja yksikkösummia, joita ei ole tarkoitus kirjata, voit muuttaa summan nopeasti nimikkeen nykyisen arvon mukaiseksi seuraavasti:
 
-6. Valitse ensin muutettavat päiväkirjanrivit ja sitten **Laske yksikkösummat uudelleen** -toimintoa. Tällöin nimikkeen nykyinen yksikkökustannus tallennetaan Yksikkösumma-kenttään.
-7. Valitse **Kirjaa**-toiminto.
+5. Valitse ensin muutettavat päiväkirjanrivit ja sitten **Laske yksikkösummat uudelleen** -toimintoa. Tällöin nimikkeen nykyinen yksikkökustannus tallennetaan Yksikkösumma-kenttään.
+6. Valitse **Kirjaa**-toiminto.
 
 ## <a name="to-renumber-document-numbers-in-journals"></a>Asiakirjanumeroiden uudelleennumerointi päiväkirjoissa
+
 Jos haluat varmistaa, että et saa kirjausvirheitä asiakirjan numerojärjestyksestä, voit käyttää **Numeroi asiakirjanumerot uudelleen**-toimintoa ennen päiväkirjan kirjaamista.
 
 Kaikissa yleiseen päiväkirjaan perustuvissa päiväkirjoissa **Asiakirjanumero**-kenttä on muokattava, joten voit määrittää erilaisia asiakirjanumeroita päiväkirjan eri riveille tai saman asiakirjanumeron liittyville päiväkirjan riveille.
 
-Jos **Nrosarja**-kenttä on kuitenkin täytetty päiväkirjaerässä, toiminnon kirjaaminen yleisessä päiväkirjassa vaatii, että asiakirjan numero yksittäisissä tai ryhmitetyissä päiväkirjarivissä on peräkkäisessä järjestyksessä. Jos haluat varmistaa, että et saa kirjausvirheitä asiakirjan numerojärjestyksestä, voit käyttää **Numeroi asiakirjanumerot uudelleen**-toimintoa ennen kuin kirjasit päiväkirjan. Jos liittyvät päiväkirjarivit ryhmitellään asiakirjanumeron mukaan ennen kuin käytit toimintoa, ne pysyvät ryhmiteltyinä, mutt saatetaan kohdistaa eri asiakirjanumeroon.
+Jos **Nrosarja**-kenttä on kuitenkin täytetty päiväkirjaerässä, toiminnon kirjaaminen yleisessä päiväkirjassa vaatii, että asiakirjan numero yksittäisissä tai ryhmitetyissä päiväkirjarivissä on peräkkäisessä järjestyksessä. Kun valitset **Numeroi asiakirjat uudelleen** -toiminnon, asiaankuuluvat **Asiakirjanumero**-kentät päivitetään. Jos liittyvät päiväkirjarivit ryhmitellään asiakirjanumeron mukaan ennen kuin käytit toimintoa, ne pysyvät ryhmiteltyinä, mutt saatetaan kohdistaa eri asiakirjanumeroon.  
 
 Tämä toiminto toimii myös suodatetuissa näkymissä.
 
 Kaikissa asiakirjan numeroinneissa täytyy ottaa huomioon niihin liittyvät kohdistukset, kuten maksun kohdistus, joka on tehty asiakirjasta päiväkirjan rivillä toimittajan tiliin. Niinpä kyseisten tapahtumien **Kohdistetaan tunnisteeseen**- ja **Kohdistetaan asiakirjaan nro** -kentät voidaan päivittää.
+
+### <a name="to-renumber-documents-in-journals"></a>Asiakirjanumeroiden uudelleennumerointi päiväkirjoissa
 
 Seuraavat toimenpiteet perustuvat **Yleinen päiväkirja** -sivuun, mutta niitä sovelletaan kaikkiin muihin päiväkirjoihin, jotka perustuvat yleiseen päiväkirjaan, kuten **Maksupäiväkirja**-sivu.
 

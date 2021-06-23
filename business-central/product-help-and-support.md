@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: dynamics365-business-central
 ms.author: edupont
 ms.date: 04/09/2021
-ms.openlocfilehash: 0487bd06f6a28313e90d6353aecf123a7fc3a708
-ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
+ms.openlocfilehash: 8f3a5d39cfd9e28233055d902852151581e53e5e
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5882253"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115409"
 ---
 # <a name="resources-for-help-and-support"></a>Ohje- ja tukiresurssit
 
@@ -78,7 +78,7 @@ Sisäinen järjestelmänvalvoja voi käyttää hallintakeskusta, jossa voit jatk
 [!INCLUDE[prod_short](includes/prod_short.md)] -jälleenmyyntikumppani antaa teknistä tukea. Tämä osa helpottaa yhteyden ottamista jälleenmyyntikumppaniin, jos tämä on antanut tuen yhteystiedot. Jos [!INCLUDE[prod_short](includes/prod_short.md)] -kumppani, ei pysty ratkaisemaan ongelmaan, he voivat tehdä tukipyynnön Microsoftille. Lisätietoja on ohjeaiheessa [Tukiongelmien eskalointi Microsoftille](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#escalating-support-issues-to-microsoft) hallintasisällössä.  
 
 > [!NOTE]
-> Tämä osa on käytettävissä vain, jos sinulla on maksullinen [!INCLUDE[prod_short](includes/prod_short.md)] -tilaus. Jos olet rekisteröitynyt kokeiluversioon etkä ole vielä ostanut [!INCLUDE[prod_short](includes/prod_short.md)]ia, sinulla ei ole jälleenmyyntikumppania etkä voi ottaa yhteyttä Microsoftin tukeen. Voit etsiä [!INCLUDE[prod_short](includes/prod_short.md)] -kumppanin [Ratkaisutoimittajan haku](https://go.microsoft.com/fwlink/?linkid=2038145) -sivulla. Lisätietoja on kohdassa [Miten löydän jälleenmyyjäpartnerin?](across-faq.md#findpartner).  
+> Tämä osa on käytettävissä vain, jos sinulla on maksullinen [!INCLUDE[prod_short](includes/prod_short.md)] -tilaus. Jos olet rekisteröitynyt kokeiluversioon etkä ole vielä ostanut [!INCLUDE[prod_short](includes/prod_short.md)]ia, sinulla ei ole jälleenmyyntikumppania etkä voi ottaa yhteyttä Microsoftin tukeen. Voit etsiä [!INCLUDE[prod_short](includes/prod_short.md)] -kumppanin [Ratkaisutoimittajan haku](https://go.microsoft.com/fwlink/?linkid=2038145) -sivulla. Lisätietoja on kohdassa [Miten löydän jälleenmyyjäkumppanin?](/dynamics365/business-central/across-faq#findpartner).  
 
 ### <a name="support-contacts"></a>Tukikontaktit
 
@@ -163,7 +163,7 @@ Tämä koskee myös [!INCLUDE [prod_short](includes/prod_short.md)]in paikallist
 ## <a name="see-also"></a>Katso myös
 
 [Business Central -opintoluettelo](readiness/readiness-learning-catalog.md)  
-[Miten löydän jälleenmyyjäkumppanin?](across-faq.md#findpartner)  
+[Miten löydän jälleenmyyjäkumppanin?](/dynamics365/business-central/across-faq#findpartner)  
 [Ohjejärjestelmä (vain englanninkielinen)](/dynamics365/business-central/dev-itpro/user-assistance?toc=/dynamics365/business-central/toc.json)  
 [Blogikirjoitus: Oikeiden resurssien etsiminen ja palautteen antaminen](https://community.dynamics.com/business/b/financials/posts/find-the-right-resources-and-provide-feedback)  
 [Business Centralin kehittäjän ja järjestelmänvalvojien dokumentaatio](/dynamics365/business-central/dev-itpro/)  

@@ -10,20 +10,22 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b8f21ea01cd3676320dee3cf6949fdde01b09877
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bb9ace03ee8e47b25a7812e1ace624b8e88e990c
+ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771208"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6074660"
 ---
 # <a name="getting-ready-for-doing-business"></a>Valmistautuminen liiketoimintaan
 
 Olet juuri aloittanut ensimmäisen yrityksen [!INCLUDE[prod_short](includes/prod_short.md)]issa.
 
-Pääset liiketoiminnassa alkuun tutustumalla **Asetusten ohjattu määritys** -sivuun, jossa voit käynnistää avustettuja asennusoppaita, videoita tai valittujen asennustehtävien ohjeaiheita. Voit käyttää sivua yksinkertaisesti valitsemalla ![Hammaspyöräkuvake Asetukset-valikon avaamista varten](media/ui-experience/settings_icon_small.png) -kuvakkeen ja sitten **Asetusten ohjattu määritys** -toiminnon.
+Pääset liiketoiminnassa alkuun tutustumalla **Asetusten ohjattu määritys** -sivuun, jossa voit käynnistää avustettuja asennusoppaita, videoita tai valittujen asennustehtävien ohjeaiheita. Voit avata sivun valitsemalla [tämän linkin](https://businesscentral.dynamics.com/?page=1801).  
 
-Vaihtoehtoisesti voit avata minkä tahansa roolin asetusten ohjattujen määritysoppaiden luettelon valitsemalla ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvakkeen, kirjoittamalla **Asetusten ohjattu määritys** ja valitsemalla sitten liittyvän linkin.  
+Vaihtoehtoisesti voit valita ![Hammaspyöräkuvake Asetukset-valikon avaamista varten](media/ui-experience/settings_icon_small.png) -kuvakkeen ja sitten **Asetusten ohjattu määritys** -toiminnon.
+
+Vaihtoehtoisesti voit etsiä asetusten ohjattujen määritysoppaiden luettelon valitsemalla ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvakkeen, kirjoittamalla **Asetusten ohjattu määritys** ja valitsemalla sitten liittyvän linkin.  
 
 > [!TIP]
 > [!INCLUDE [ua-get-help](includes/ua-get-help.md)]

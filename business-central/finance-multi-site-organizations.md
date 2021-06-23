@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: hub-and-spoke, multi-site, headquarter, sites
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: cfdcdd68baa8fdd73ebc75d46650eeee65a28802
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: 7002c5a3f523943e87757f7e2196e683888c21fe
+ms.sourcegitcommit: 652e4b0e1a09bff265014d9f8eb3b038ab0db79e
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935413"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "6087667"
 ---
 # <a name="business-central-for-multi-site-and-international-organizations"></a>Business Central kansainvälisille organisaatioille ja organisaatioille, joilla on useita toimipaikkoja
 Organisaatiot, joilla on useita toimipaikkoja, käyttävät usein säteittäisen ryhmän mallia. Siinä pääyritys tai pääkonttori hallinnoi liiketoiminnan yleisiä toimintoja samalla, kun kukin toimipaikka toimii yksittäisenä, erillisenä yksikkönä. Alueet ovat usein maantieteellisesti jakautuneet ja niillä on erilaiset tiedon jakamisen tarpeet pääkonttorin yrityksen kanssa. Lisäksi toimipaikat eivät yleensä tarvitse kovin monimutkaisia toimintoja, eikä niillä ole resursseja ylläpitää suurta järjestelmää.
@@ -38,8 +38,8 @@ Liiketoiminnan tarpeet toimipaikoissa eroavat usein toimialan, liiketoimintamene
 
 [!INCLUDE[prod_short](includes/prod_short.md)] tukee kansainvälisten organisaatioiden aluekohtaisten asetusten lakisääteisiä vaatimuksia ja liiketoiminnan käytäntöjä.
 
-* Online-versioissa on yli [40 lokalisoitua maaversiota](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json), jotka voi asentaa laajennuksina Microsoft AppSourcesta.  
-* Paikallisten versioiden [maaversiot](https://docs.microsoft.com/azure/architecture/solution-ideas/articles/business-central) ovat käytettävissä Microsoftin lokalisoimina versioina tai kumppanin lisäosien lokalisointeina.
+* Online-versioissa on yli [40 lokalisoitua maaversiota](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json), jotka voi asentaa laajennuksina Microsoft AppSourcesta.  
+* Paikallisten versioiden [maaversiot](/azure/architecture/solution-ideas/articles/business-central) ovat käytettävissä Microsoftin lokalisoimina versioina tai kumppanin lisäosien lokalisointeina.
 
 Microsoftin kumppaneiden verkosto sisältää yli 4 000 kumppania maailmanlaajuisesti. Nämä tarjoavat paikallista asiantuntemusta.
 
@@ -80,12 +80,12 @@ Ohjelmointirajapinnat ja XMLport-objektit yksinkertaistavat tuotteen [!INCLUDE[p
 | **Liiketoiminnan vaatimus** | **Miten Business Central tukee sitä** | **Lisätietoja** |
 |-------------------------|-------------------------|-------------------------|
 | Yhdistä mukautetut versiot toimipaikkojen ja pääkonttorin yrityksen välillä. | Ohjelmointirajapinnan sivut voivat näyttää entiteetin minkä tahansa esityksen, myös sen mukautukset. | [Business Centralin ohjelmointirajapintojen käyttöönotto](/dynamics-nav/enabling-apis-for-dynamics-nav) |
-| Versiointi ja suojaus. | Ohjelmointirajapintojen käytössä on ODataV4, joka sisältää versionhallinnan, webhook-objektit ja muutosten seurannan. | [Tietosuoja ja tietoturva](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/security/security-and-protection) |
-| Kirjaa ja tuo XML-asiakirjoja. | Codeunitia voidaan käyttää sitoutumattomana toimintoja, joka tukee XML-asiakirjojen kirjaamista ja käsittelemistä. XML-asiakirjojen käsittelemistä varten voidaan kohdistaa XMLport-objektit. Sitoutumattomat toiminnot voivat myös luoda XML- tai JSON-asiakirjoja. | [XMLport-objektit](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-object) |
+| Versiointi ja suojaus. | Ohjelmointirajapintojen käytössä on ODataV4, joka sisältää versionhallinnan, webhook-objektit ja muutosten seurannan. | [Tietosuoja ja tietoturva](/dynamics365/business-central/dev-itpro/security/security-and-protection) |
+| Kirjaa ja tuo XML-asiakirjoja. | Codeunitia voidaan käyttää sitoutumattomana toimintoja, joka tukee XML-asiakirjojen kirjaamista ja käsittelemistä. XML-asiakirjojen käsittelemistä varten voidaan kohdistaa XMLport-objektit. Sitoutumattomat toiminnot voivat myös luoda XML- tai JSON-asiakirjoja. | [XMLport-objektit](/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-object) |
 | Helpota ylläpitoa sähköisen tiedonvaihdon avulla. | Sähköisen tietojenvaihdon ratkaisu voidaan lisätä integrointitasoksi pääkonttorin yrityksen ja toimipaikkojen välille. | [Tietojen vaihtokehys](across-about-the-data-exchange-framework.md) |
-| Vaihda tietoja eri järjestelmien välillä. | Käytä XMLport-objekteja luodessasi XML-asiakirjoja, joita voidaan vuorostaan siirtää yhtä järjestelmää käyttävän pääkonttorin yrityksen ja Business Centralia käyttävien toimipaikkojen välillä. | [XMLport-objektin yleiskuvaus](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-overview) |
+| Vaihda tietoja eri järjestelmien välillä. | Käytä XMLport-objekteja luodessasi XML-asiakirjoja, joita voidaan vuorostaan siirtää yhtä järjestelmää käyttävän pääkonttorin yrityksen ja Business Centralia käyttävien toimipaikkojen välillä. | [XMLport-yleiskuvaus](/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-overview) |
 | Orkestroi monimutkaista tietojenvaihtoa. | Käytä XMLport-objektien ja Business Centralin sekä Microsoft BizTalk Serverin yhdistelmää, jotta voit täyttää toimipaikkojen yksilölliset tarpeet.</br>Voit täyttää vaativat tarpeet käyttämällä Business Centralin BizTalk Server- ja Commerce Gateway -ratkaisuihin perustuvaa sähköistä tietojenvaihdon ratkaisua yhdessä XMLport-objektien kanssa. | [Raporttien, eräajojen ja XMLportien käsitteleminen](ui-work-report.md) |
-| Muodosta yhteys kolmannen osapuolen ratkaisuihin ja palveluihin. | Ohjelmointirajapinnat muodostavat pisteestä pisteeseen -yhteyden Business Centralin ja kolmannen osapuolen ratkaisujen ja palveluiden välille. | [Ohjelmointirajapinta v2.0](https://docs.microsoft.com/dynamics-nav/api-reference/v2.0/) |
+| Muodosta yhteys kolmannen osapuolen ratkaisuihin ja palveluihin. | Ohjelmointirajapinnat muodostavat pisteestä pisteeseen -yhteyden Business Centralin ja kolmannen osapuolen ratkaisujen ja palveluiden välille. | [Ohjelmointirajapinta v2.0](/dynamics-nav/api-reference/v2.0/) |
 
 
 ## <a name="promote-an-efficient-intercompany-supply-chain"></a>Konsernin tehokkaan toimitusketjun määrittäminen

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ee9587b323fe1b104a85319eba03bfdcfce8c13e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2c8746098081a8f0b961f6ab2efd11c491104acc
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777439"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115360"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Business Central -sovelluksen käyttäminen yrityssähköpostina Outlookissa
 
@@ -68,7 +68,7 @@ Jos [!INCLUDE[prod_short](includes/prod_short.md)]ia ei voi edelleenkään käyt
 
 ## <a name="using-other-email-accounts"></a>Muiden sähköpostitilien käyttäminen
 
-Apuohjelmat on suunniteltu Microsoft 365:n kanssa käytettäväksi. Jos käytät paikallista [!INCLUDE[prod_short](includes/prod_short.md)] -versiota, järjestelmänvalvoja tietää, voitko käyttää [!INCLUDE[prod_short](includes/prod_short.md)]in apuohjelmia Outlookissa. Lisätietoja on ohjeaiheessa [Mitä sähköpostiosoitetta voin käyttää [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman kanssa?](across-faq.md#email), ja [Ominaisuudet, jotka vaativat tiettyjä olosuhteita](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances?toc=/dynamics365/business-central/toc.json) -artikkelin ja [Miksei Outlook-apuohjelma toimi käyttäjieni osalta?](/dynamics365/business-central/dev-itpro/faq#why-doesnt-the-outlook-add-in-work-for-my-users?toc=/dynamics365/business-central/toc.json) -osassa yleisen FAQ-sisällön hallintasisällössä.  
+Apuohjelmat on suunniteltu Microsoft 365:n kanssa käytettäväksi. Jos käytät paikallista [!INCLUDE[prod_short](includes/prod_short.md)] -versiota, järjestelmänvalvoja tietää, voitko käyttää [!INCLUDE[prod_short](includes/prod_short.md)]in apuohjelmia Outlookissa. Lisätietoja on ohjeaiheessa [Mitä sähköpostiosoitetta voin käyttää [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman kanssa?](/dynamics365/business-central/across-faq#email), ja [Ominaisuudet, jotka vaativat tiettyjä olosuhteita](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances?toc=/dynamics365/business-central/toc.json) -artikkelin ja [Miksei Outlook-apuohjelma toimi käyttäjieni osalta?](/dynamics365/business-central/dev-itpro/faq#why-doesnt-the-outlook-add-in-work-for-my-users?toc=/dynamics365/business-central/toc.json) -osassa yleisen FAQ-sisällön hallintasisällössä.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on [Microsoft Learnissa](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 

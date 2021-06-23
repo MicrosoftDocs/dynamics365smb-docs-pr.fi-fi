@@ -8,22 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 3685a2145186d3e26da7ba0ad6ace0af0b8c0dd7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 918a450ea40676447f872ba95eb489c7cc210211
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786780"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215101"
 ---
 # <a name="design-details-posting-date-on-adjustment-value-entry"></a>Rakennetiedot: Muutoksen arvotapahtuman kirjauspäivämäärä
 Tässä artikkelissa on ohjeita [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen varaston arvostustoimintojen käyttäjille. Tässä artikkelissa on ohjeita siitä, miten **Muuta kustannuksia - Nimiketapahtumat** -eräajo tunnistaa ja määrittää niiden arvotapahtumien kirjauspäivämäärän, joita eräajo on luomassa.  
 
-Ensin tarkistetaan prosessin käsite eli miten eräajo tunnistaa ja määrittää luotavan arvotapahtuman kirjauspäivämäärän. Tämän jälkeen jaetaan muutamia skenaarioita, joihin tukitiimit tärmäävät silloin tällöin. Lopuksi tutustutaan versiossa 3.0 käytettävien käsitteiden yhteenvetoon.  
+Ensin tarkistetaan prosessin käsite eli miten eräajo tunnistaa ja määrittää luotavan arvotapahtuman kirjauspäivämäärän. Tämän jälkeen jaetaan muutamia skenaarioita, joihin tukitiimit tärmäävät silloin tällöin. Lopuksi tutustutaan käsitteiden yhteenvetoon.  
 
 ## <a name="the-concept"></a>Käsite  
-Versiossa 5.0 **Muuta kustannuksia - Nimiketapahtumat** -eräajo määrittää kirjauspäivämäärän arvotapahtumalle, jonka se luo seuraavien vaiheiden avulla:  
+**Muuta kustannuksia - Nimiketapahtumat** -eräajo määrittää kirjauspäivämäärän arvotapahtumalle, jonka se luo seuraavien vaiheiden avulla:  
 
 1.  Alussa luotavan tapahtuman kirjauspäivämäärä on sama kuin päivämäärän, jota se muuttaa.  
 
@@ -55,7 +55,7 @@ Toinen arvotapahtuma (381) edustaa laskua.
 
 ![Varastokaudet skenaariossa](media/helene/TechArticleAdjustcost3.png "Varastokaudet skenaariossa")
 
- Ensimmäinen sallittu kirjauspäivämäärä on ensimmäisen avoimen kauden ensimmäinen päivä. 1.9.2013  
+ Ensimmäinen sallittu kirjauspäivämäärä on ensimmäisen avoimen kauden ensimmäinen päivä. 1. syyskuuta 2013.  
 
  Pääkirjanpidon asetukset:  
 
@@ -88,7 +88,7 @@ Toinen arvotapahtuma (381) edustaa laskua.
 
 ![Käyttäjän sallittujen kirjauspäivämäärien asetus](media/helene/TechArticleAdjustcost7.png "Käyttäjän sallittujen kirjauspäivämäärien asetus")
 
- Tässä tapauksessa käyttäjälle määritetty sallittu kirjauspäivämääräalue on 11.9. - 30.9. Muutoksen arvotapahtuman kirjauspäivämäärä ei siis voi olla 10.9.  
+ Tässä tapauksessa käyttäjälle määritetty sallittu kirjauspäivämääräalue on 11.9.–30.9. Muutoksen arvotapahtuman kirjauspäivämäärä ei siis voi olla 10.9.  
 
 ![Asiaankuuluvan kirjauspäivämäärän asetuksen yleiskuvaus](media/helene/TechArticleAdjustcost8.png "Asiaankuuluvan kirjauspäivämäärän asetuksen yleiskuvaus")
 
@@ -333,31 +333,17 @@ Toinen arvotapahtuma (381) edustaa laskua.
  Tässä skenaariossa eräs vaihtoehto olisi ollut määrittää pääkirjanpidon asetusten Ensimm. sallittu kirjauspvm -kentän arvoksi muutamaa päivää aikaisempi joulukuun päivämäärä ja kirjata ensimmäinen nimikekulu viiveellä, jolloin edellisen kauden/tilivuoden kaikki kustannukset tuloutettaisiin kaudelle, jolle ne alussa kuuluivat. Tämän jälkeen suoritettaisiin Muuta kustannuksia - Nimiketapahtumat -eräajo ja siirrettäisiin sallittu kirjauspäivämäärä seuraavaan kauteen\/tilivuoteen. Kirjatuksi olisi tullut ensimmäinen nimikekulu, jonka kirjauspäivämäärä on 2.1.  
 
 ## <a name="history-of-adjust-cost--item-entries-batch-job"></a>Muuta kustannuksia - Nimiketapahtumat -eräajon historia  
- Alla on Muuta kustannuksia - Nimiketapahtumat -eräajon muutoksen arvotapahtumien kirjauspäivämäärien määrittämisen yhteenveto versiosta 3.0 lähtien.  
+ Alla on Muuta kustannuksia - Nimiketapahtumat -eräajon muutoksen arvotapahtumien kirjauspäivämäärien määrittämisen yhteenveto.  
 
-### <a name="from-version-30370a"></a>Versiosta 3.0..3.70.A lähtien  
- Muuta kustannuksia - Nimiketapahtumat -eräajon pyyntölomakkeessa on käyttäjän antama kirjauspäivämäärä. Eräajo käy läpi kaikki pakolliset muutokset ja luo arvotapahtumat, joille annetaan pyyntölomakkeen kirjauspäivämäärät. Ehdotettu kirjauspäivämäärä on tämän päivän päivämäärä.  
-
-### <a name="version-370b40"></a>Versio 3.70.B..4.0  
- Muuta kustannuksia - Nimiketapahtumat -eräajon pyyntölomakkeessa on käyttäjän antama suljetun kauden tapahtuman kirjauspäivämäärä. Eräajo käy läpi kaikki tarvittavat muutokset ja luo arvotapahtumat ja päänimikkeen tapahtuman kirjauspäivämäärän (sen myynnin toimituspäivämäärä, jota muutos koskee). Jos päänimikkeen tapahtuma ei kuulu sallittuun kirjauspäivämääräalueeseen, suljetun kauden tapahtuman kirjauspäivämääränä ilmoitetulle kirjauspäivämäärälle määritetää muutoksen arvotapahtuma. Päivämäärä on suljetulla kaudella, kun se on aikaisempi kuin pääkirjanpidon asetusten Ensimm. sallittu kirjauspvm -kentän päivämäärä.  
-
-### <a name="from-version-50"></a>Versiosta 5.0 lähtien:  
+### <a name="about-the-request-form-posting-date"></a>Tietoja pyyntölomakkeen kirjauspäivämäärästä:  
  Muuta kustannuksia - Nimiketapahtumat -eräajon pyyntölomakkeessa ei ole enää ilmoitettavaa kirjauspäivämäärää. Eräajo käy läpi kaikki pakolliset muutokset ja luo arvotapahtumat, joilla on sen arvotapahtuman kirjauspäivämäärä, jonka eräajo muuttaa. Jos kirjauspäivämäärä ei kuulu sallittuun kirjauspäivämääräalueeseen, käytetään pääkirjanpidon asetusten Ensimm. sallittu kirjauspvm -kentän kirjauspäivämäärä tai mahdollisesti käytössä olevien varastokausien kirjauspäivämäärää sen mukaan, kumpi on myöhempi. Katso edellä kuvattua käsitettä.  
 
 ## <a name="history-of-post-inventory-cost-to-gl-batch-job"></a>Kirjaa varaston kustannukset kirjanpitoon -eräajon historia  
  Kirjaa varaston kustannukset kirjanpitoon -eräajo liittyy läheisesti Muuta kustannuksia - Nimiketapahtumat -eräajoon. Tämän vuoksi kyseisen eräajon historiasta tehdään yhteenveto, joka jaetaan myös täällä.  
-
-### <a name="from-version-30370a"></a>Versiosta 3.0..3.70.A lähtien  
- Kirjaa varaston kustannukset kirjanpitoon -eräajon pyyntölomakkeessa on käyttäjän antama kirjauspäivämäärä. Eräajo käy läpi kaikki suodattimen mahdolliset arvotapahtumat ja luo pääkirjanpidon tapahtumat, joille annetaan pyyntölomakkeen kirjauspäivämäärät.  
-
-### <a name="version-370b40"></a>Versio 3.70.B..4.0  
- Kirjaa varaston kustannukset kirjanpitoon -eräajon pyyntölomakkeessa on käytettävissä Suljetun kauden tapahtuman kirjauspäivämäärä -kenttä. Sovellus käyttää tähän kenttään annettua päivämäärää niiden pääkirjanpidon tapahtumien kirjauspäivämääränä, jotka se luo arvotapahtumille, joiden kirjauspäivämäärät ovat suljetuilla tilikausilla. Muussa tapauksessa pääkirjanpidon tapahtumilla on samat kirjauspäivämäärät kuin alkuperäisillä arvotapahtumilla. Päivämäärä on suljetulla kaudella, kun se on aikaisempi kuin pääkirjanpidon asetusten Ensimm. sallittu kirjauspvm -kentän päivämäärä. Jos kirjaus tehdään kirjanpitoon kirjausryhmän mukaan, pääkirjanpidon tapahtumien kirjauspäivämäärä on pyyntölomakkeen Kirjauspäivämäärä-kentässä määritetty päivämäärä.  
-
- Versioissa 3 ja 4 eräajo skannaa kaikki arvotapahtumat ja määrittää, löytyykö arvotapahtumia, joiden kustannussumma (todellinen) on eri kuin kirjanpitoon kirjattu kustannus. Jos eroja löytyy, eroava summa kirjataan KP-tapahtumaan. Jos käytössä on oletettujen kustannusten kirjaus, vastaavat kentät käsitellään samalla tavalla.  
-
+ 
 ![Todelliset kustannukset vs. oletetut kustannukset](media/helene/TechArticleAdjustcost14.png "Todelliset kustannukset vs. oletetut kustannukset")
 
-### <a name="from-version-50"></a>Versiosta 5.0 lähtien:  
+### <a name="about-the-posting-date"></a>Tietoja kirjauspäivämäärästä
  Kirjaa varaston kustannukset kirjanpitoon -eräajon pyyntölomakkeessa ei ole enää ilmoitettavaa kirjauspäivämäärää. Luodaan KP-tapahtuma, jolla on sama kirjauspäivämäärä kuin liittyvällä arvotapahtumalla. Jotta eräajo voidaan suorittaa, sallitun kirjauspäivämääräalueen on sallittava luodun KP-tapahtuman kirjauspäivämäärä. Muussa tapauksessa sallittu kirjauspäivämääräalue on avattava uudelleen tilapäisesti joko muuttamalla päivämääriä tai poistamalla niitä pääkirjanpidon asetusten Ensimm. sallittu kirjauspvm- ja Viimeinen sallittu kirjauspvm -kentissä. Vältät täsmäytysongelmat, kun KP-tapahtuman kirjauspäivämäärä vastaa arvotapahtuman kirjauspäivämäärää.  
 
  Kirjaa arvotapahtuma kirjanpitoon -eräajo skannaa taulukon 5811 ja tunnistaa alueeseen kuuluvat arvotapahtumat pääkirjanpitoon kirjaamista varten. Kun eräajo on suoritettu, taulukko tyhjennetään.

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 1ac53955d897e8c69da5136c6326353999460625
-ms.sourcegitcommit: 951d3c9d541f0b1d26712d37e253c2958dae3321
+ms.openlocfilehash: e38882e31a14c7918348d0db584a870fe9ceeb73
+ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5889150"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6063425"
 ---
 # <a name="set-up-email"></a>Määritä sähköposti
 Ihmiset yrityksissä lähettävät päivittäin sähköpostitse tietoja ja asiakirjoja, kuten myynti- ja ostotilauksia ja laskuja. Järjestelmänvalvojat voivat helpottaa tätä yhdistämällä yhden tai useamman sähköpostitilin [!INCLUDE[prod_short](includes/prod_short.md)] -sovellukseen, joten voit lähettää asiakirjoja avaamatta sähköpostisovellusta. Voit kirjoittaa jokaisen viestin yksitellen perusmuotoilutyökaluilla, kuten fontilla, tyyleillä, väreillä ja niin edelleen, ja lisätä liitteitä, joiden koko on enintään 100 Mt. Järjestelmänvalvojat voivat myös määrittää raporttiasetteluja, jotka sisältävät vain asiakirjojen tärkeimmät tiedot. Lisätietoja on kohdassa [Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md).
@@ -53,7 +53,7 @@ Jos käytät jo [!INCLUDE[prod_short](includes/prod_short.md)]ia ja olet määri
 > Jos sinulla on mukautuksia, jotka perustuvat vanhaan SMTP-sähköpostiasetukseen, on mahdollista, että jokin menee vikaan mukautusten yhteydessä, jos aloitat sähköpostilaajennusten käyttämisen. Microsoft suosittelee, että määrität ja testaat laajennuksia, ennen kuin otat käyttöön toimintovalitsimen parannetuille sähköpostiominaisuuksille.
 
 > [!IMPORTANT]
-> Jos käytössä on [!INCLUDE[prod_short](includes/prod_short.md)] online, OAuth 2.0 -todennusmenetelmän käyttö ei ole mahdollista.<br> Jos käytössä on paikallinen [!INCLUDE[prod_short](includes/prod_short.md)], OAuth 2.0 -todennusta voi käyttää mutta Azure-portaalissa on luotava sovelluksen rekisteröinti, minkä jälkeen Azure AD on yhdistettävä suorittamalla ohjattu **Määritä Azure Active Directory** -asetuksen määritysopas [!INCLUDE[prod_short](includes/prod_short.md)]issa. Lisätietoja on kohdassa [Business Centralin sovelluksen rekisteröinnin luonti Azure-portaalissa](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
+> Jos käytössä on paikallinen [!INCLUDE[prod_short](includes/prod_short.md)], OAuth 2.0 -todennusta voi käyttää mutta Azure-portaalissa on luotava sovelluksen rekisteröinti, minkä jälkeen Azure AD on yhdistettävä suorittamalla ohjattu **Määritä Azure Active Directory** -asetuksen määritysopas [!INCLUDE[prod_short](includes/prod_short.md)]issa. Lisätietoja on kohdassa [Business Centralin sovelluksen rekisteröinnin luonti Azure-portaalissa](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
 
 ## <a name="add-email-accounts"></a>Sähköpostitilien lisääminen
 Asetusten ohjattu **Määritä sähköposti** -määritys auttaa sinua pääsemään alkuun nopeasti sähköpostiviestien käytössä.

@@ -1,5 +1,5 @@
 ---
-title: Ostojen hyväksyntätyönkulun määrittäminen ja käyttäminen | Microsoft Docs
+title: Ostojen hyväksyntä -työnkulun määrittäminen ja käyttäminen
 description: Voit automatisoida uusien tai muuttuneiden tietueiden hyväksymisprosessin esimerkiksi asiakirjojen, kirjausrivien ja asiakaskorttien kohdalla luomalla työnkulkuihin hyväksymisvaiheet. Ennen kuin luot hyväksymistyönkulkuja, määritä hyväksyjä ja varahyväksyjä jokaiselle hyväksyjäkäyttäjälle. Voit myös määrittää hyväksyjille rajat niille myynti -ja ostotietueille, joita he saavat hyväksyä. Hyväksymispyynnöt ja muut ilmoitukset voidaan lähettää sähköpostina tai sisäisenä muistiona. Kunkin hyväksyjäkäyttäjän asetuksiin voit määrittää myös milloin he saavat ilmoituksia.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 05/26/2021
 ms.author: edupont
-ms.openlocfilehash: 11a4bd84395d50a1b39417c5c3abab0dd757e7ff
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 964e1dae3dc754198777c703a15c1ef0b6fe82a7
+ms.sourcegitcommit: 6bce51954f17b80491e180f25d67ff18b1618a88
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782807"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6110977"
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Vaihekuvaus: Ostojen hyväksyntä -työnkulun määrittäminen ja käyttäminen
 
@@ -30,11 +30,11 @@ Voit automatisoida uusien tai muuttuneiden tietueiden hyväksymisprosessin esime
 
 Tässä vaihekuvauksessa käsitellään seuraavia tehtäviä:  
 
-- Hyväksyjäkäyttäjien määrittäminen.  
-- Hyväksyjäkäyttäjien ilmoitusten määrittäminen.  
-- Hyväksynnän työnkulun muokkaaminen ja ottaminen käyttöön.  
-- Pyytää hyväksynnän ostotilaukseen, Alicia.  
-- Ilmoituksen vastaanottaminen ja sitten hyväksyminen, Sean.  
+- Hyväksyjäkäyttäjien määrittäminen  
+- Hyväksyjäkäyttäjien ilmoitusten määrittäminen  
+- Hyväksynnän työnkulun muokkaaminen ja ottaminen käyttöön  
+- Hyväksynnän pyytäminen ostotilaukseen, nimellä Alicia  
+- Ilmoituksen vastaanottaminen ja sitten pyynnön hyväksyminen, nimellä Sean  
 
 ## <a name="story"></a>Taustatietoja
 
@@ -87,8 +87,8 @@ Luo ostotilauksen hyväksymisen työnkulku kopioimalla vaiheet **Ostotilauksen h
 ### <a name="to-create-and-enable-a-purchase-order-approval-workflow"></a>Ostotilauksen hyväksymisen työnkulun luominen ja lähettäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Työnkulut** ja valitse sitten liittyvä linkki.  
-2. Valitse **Työnkulut**-sivulla **Uusi työnkulku mallista** -toiminto.  
-3. Valitse **Työnkulkumallit**-sivulla työnkulkumalli **Ostotilauksen hyväksymistyönkulku** ja valitse sitten **OK**.  
+2. Valitse **Työnkulut**-sivulla **Toiminnot**, valitse **Uusi** ja valitse sitten **Uusi työnkulku mallista** -toiminto.  
+3. Valitse **Työnkulkumallit** sivulla työnkulkumalli nimeltä **Ostotilauksen hyväksymistyönkulku**.  
 
     Uuden työnkulun avautuvalla **Työnkulku**-sivulla on kaikki valitun mallin tiedot. **Koodi**-kentän arvoon liitetään *-01*, joka osoittaa, että kyseessä on ensimmäinen **Ostotilauksen hyväksymistyönkulku** -mallista luotu työnkulku.  
 4. Valitse **Työnkulku**-sivun otsikossa **Käytössä**-valintaruutu.  
@@ -100,9 +100,9 @@ Käytä uutta ostotilauksen hyväksymistyönkulkua kirjautumalla ensin [!INCLUDE
 ### <a name="to-request-approval-of-a-purchase-order-as-alicia"></a>Pyydä hyväksyntä ostotilaukseen, Aliciana
 
 1. Kirjaudu sisään Aliciana.
-2. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostotilaukset** ja valitse sitten liittyvä linkki.  
-3. Valitse ensin avoimen ostotilauksen 106001 rivi ja sitten **Muokkaa**-toiminto.  
-4. Valitse **Ostotilaus**-sivulla **Lähetä hyväksymispyyntö** -toiminto.  
+2. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Ostotilaukset** ja valitse sitten liittyvä linkki.  
+3. Valitse rivi avataksesi myyntitilauksen 106001.  
+4. Valitse **Ostotilaus** -sivulla **Toiminnot**, valitse **Pyydä hyväksyntä** ja valitse sitten **Lähetä hyväksymispyyntö** -toiminto.  
 
 Huomaa, että arvo **Tila**-kentässä on nyt **Odottaa hyväksyntää**.  
 

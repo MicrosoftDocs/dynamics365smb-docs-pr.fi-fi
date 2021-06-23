@@ -6,12 +6,12 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 30ae76f4347a8297a84092573a59835be5569ec4
-ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
+ms.openlocfilehash: af846556e09a2c1246e5c6769399d2c9d545e4a8
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6017197"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115613"
 ---
 # <a name="warnings-and-error-messages-in-dynamics-365-business-central"></a>Varoitukset ja virhesanomat Dynamics 365 Business Centralissa
 
@@ -36,7 +36,7 @@ Jos olet järjestelmänvalvoja tai pääkäyttäjä, voit auttaa muita käyttäj
 ## <a name="see-also"></a>Katso myös
 
 [Ohje- ja tukiresurssit](product-help-and-support.md)  
-[Usein kysytyt kysymykset](across-faq.md)  
+[Usein kysytyt kysymykset](across-faq.yml)  
 [Kerro, mitä haluat tehdä -toiminnon usein kysytyt kysymykset](ui-search-faq.md)  
 [Usein kysyttyjen kysymysten haku ja suodatus](ui-search-filter-faq.yml)  
 [Kopioimisen ja liittämisen usein kysytyt kysymykset](faq-copy-paste.yml)  

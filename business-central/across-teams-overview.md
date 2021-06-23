@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: bc4e39727abcb0bfabb9580ad79e47e9c0b4495b
-ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
+ms.openlocfilehash: 15a6f009095c2e20cf65d38503a7c737e64e7bb8
+ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5882153"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6074685"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Business Centralin ja Microsoft Teamsin integraatio
 
@@ -49,7 +49,7 @@ Kopioida linkin mihin tahansa Business Central -tietueeseen ja liittää sen Tea
 
 Keskustelun aikana sinä ja työtoverisi voitte tarkastella lisätietoja tietueesta, muokata tietoja ja toimia – poistumatta Teamsista.
 
-Lisätietoja on kohdassa [Business Centralin tietojen käyttäminen Microsoft Teamsissa](across-working-with-teams.md).
+Lisätietoja on kohdassa [Jaa tietueita Microsoft Teams](across-working-with-teams.md)issa.
 
 ## <a name="get-started"></a>Aloita
 
@@ -62,7 +62,7 @@ Lisätietoja on kohdassa [Business Centralin tietojen käyttäminen Microsoft Te
 
 2. Katso järjestelmänvalvojana [Microsoft Teamsin ja Business Centralin integroinnin hallinta](admin-teams-integration.md) saadaksesi tietoja käyttäjien asetusten käyttämisestä [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmassa ja Teamsissa.
 3. [!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksen asentaminen Teamsiin. Katso [Asenna [!INCLUDE [prod_short](includes/prod_short.md)] -sovellus Microsoft Teamsiin](across-install-app-for-teams.md).
-4. Kun sovellus on asennettu, olet valmis aloittamaan. Katso [Business Centralin tietojen käyttäminen Teamsissa](across-working-with-teams.md). 
+4. Kun sovellus on asennettu, olet valmis aloittamaan. Lisätietoja on kohdassa [Asiakkaiden, toimittajien ja muiden yhteystietojen etsiminen Microsoft Teams](across-search-contacts-teams.md)issa ja [Jaa tietueita Microsoft Teams](across-working-with-teams.md)issa. 
 
 ## <a name="see-also"></a>Katso myös
 

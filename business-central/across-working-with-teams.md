@@ -1,5 +1,5 @@
 ---
-title: Business Central -tietojen käyttäminen Microsoft Teamsissa | Microsoft Docs
+title: Business Central -tietueiden jakaminen Microsoft Teamsissa
 description: Microsoft Teamsin Business Central -sovelluksen käyttäminen.
 author: jswymer
 ms.service: dynamics365-business-central
@@ -7,21 +7,21 @@ ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
-ms.date: 04/01/2021
+ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records
+ms.date: 05/19/2021
 ms.author: jswymer
-ms.openlocfilehash: e20208d50eb65f1a92e6661396bf53007ab88eb8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8add662badbc0d791d6a37d0feb4e3a756519f00
+ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786880"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6074585"
 ---
-# <a name="working-with-business-central-data-in-microsoft-teams"></a>Business Centralin tietojen käyttäminen Microsoft Teamsissa
+# <a name="sharing-business-central-records-in-microsoft-teams"></a>Business Central -tietueiden jakaminen Microsoft Teamsissa
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
-[!INCLUDE [prod_short](includes/prod_short.md)] tarjoaa sovelluksen, joka yhdistää Microsoft Teamsin yrityksen tietoihin [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmassa, joten voit jakaa tiedot nopeasti tiimin jäsenten kesken ja reagoida nopeammin kyselyihin. Tässä artikkelissa kerrotaan, miten sovellusta käytetään [!INCLUDE [prod_short](includes/prod_short.md)] -tietojen jakamiseen työtovereiden kanssa Teams-keskusteluissa.
+[!INCLUDE [prod_short](includes/prod_short.md)] tarjoaa sovelluksen, joka yhdistää Microsoft Teamsin yrityksen tietoihin [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmassa, joten voit jakaa tiedot nopeasti tiimin jäsenten kesken ja reagoida nopeammin kyselyihin. Tässä artikkelissa opit käyttämään sovellusta [!INCLUDE [prod_short](includes/prod_short.md)] tietueiden, kuten asiakkaan, myyntitilauksen tai laskun, jakamiseen työtoverien kanssa Teams-keskusteluissa.
 
 ## <a name="overview"></a>Yleiskuvaus
 
