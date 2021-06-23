@@ -2,12 +2,12 @@
 metadata:
   title: Tietojen kopioiminen ja liittäminen – usein kysytyt kysymykset
   description: Vastauksia usein kysyttyihin kysymyksiin kenttien ja rivien tietojen kopioimisesta ja liittämisestä Business Centralin sivuilta.
-  ms.openlocfilehash: 41f92191cf00ff7cbf0a3be2d0902bb9386efc56
-  ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+  ms.openlocfilehash: e52c60da284ba8144975c88b138ca4e7218fa2ab
+  ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
   ms.translationtype: HT
   ms.contentlocale: fi-FI
-  ms.lasthandoff: 03/31/2021
-  ms.locfileid: "5775573"
+  ms.lasthandoff: 05/28/2021
+  ms.locfileid: "6115739"
 title: Kopioimisen ja liittämisen usein kysytyt kysymykset
 summary: "Voit kopioida yhden rivin tai useita rivejä (tietueita) luettelosta tai yhden kentän sivulta ja liittää kopioidut kohteet samalle sivulle, toiselle sivulle tai ulkoiseen asiakirjaan (kuten Microsoft Exceliin tai Outlook-sähköpostiin).  \n\nJos haluat kopioida, paina näppäimiä CTRL+C (cmd+C macOS-käyttöjärjestelmässä). Jos haluat liittää, paina näppäimiä CTRL+V (cmd+V macOS-käyttöjärjestelmässä). Kopioimiseen ja liittämiseen on useita muita pikanäppäimiä nopeaa tietojen syöttämistä varten. Lisätietoja on kohdassa [Pikanäppäimet](keyboard-shortcuts.md#CopyRows). Tässä artikkelissa on vastauksia kopioimiseen ja liittämiseen liittyviin yleisiin kysymyksiin.  \n"
 sections:
@@ -72,4 +72,4 @@ sections:
   - question: Milloin rivien liittämisen yhteydessä voi tulla virhesanomia?
     answer: >
       Jos liittäminen tehdään [!INCLUDE[prod_short](includes/prod_short.md)] -sovellukseen, jokainen rivi tarkistetaan. Näin varmistetaan, että kaikkien sarakkeiden arvot ovat sallittuja. Jos sarakkeessa on arvo, joka ei ole sallittu, liittäminen pysäytetään ja näyttöön tulee virhesanoma. Tämän voi välttää varmistamalla ennen liittämistä, että sarakkeissa on sallitut arvot.
-additionalContent: "## <a name=\"next-steps\"></a>Seuraavat vaiheet\nEtsi liittyvää tietoa täältä: \n  - [Aputoiminnot](ui-accessibility.md)  \n  - [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  \n  - [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  \n  - [Usein kysytyt kysymykset](across-faq.md)"
+additionalContent: "## <a name=\"next-steps\"></a>Seuraavat vaiheet\nEtsi liittyvää tietoa täältä: \n  - [Aputoiminnot](ui-accessibility.md)  \n  - [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  \n  - [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  \n  - [Usein kysytyt kysymykset](across-faq.yml)"
