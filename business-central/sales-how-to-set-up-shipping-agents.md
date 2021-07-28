@@ -1,6 +1,6 @@
 ---
-title: Kuljetusliikkeiden määrittäminen | Microsoft Docs
-description: Voit määrittää koodin jokaiselle kuljetusliikkeelle, ja syöttää tietoja niistä.
+title: Kuljetusliikkeiden määrittäminen
+description: Lue, miten voit määrittää koodin kullekin kuljetusliikkeelle ja syöttää kuvailevat tiedot kustakin sekä niiden tarjoamista palveluista.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 221578a174c6bd0dd87377340e97cd54a98d177b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1e74be125909db7f7d1c4301a33da1b12648e70a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778395"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440226"
 ---
 # <a name="set-up-shipping-agents"></a>Kuljetusliikkeiden määrittäminen
 Voit määrittää koodin jokaiselle kuljetusliikkeelle, ja syöttää tietoja niistä.  
@@ -28,7 +28,7 @@ Voit määrittää rajoittamattoman määrän palveluita jokaiselle kuljetusliik
 Kun olet määrittänyt kuljetusliikkeen palvelun myyntitilausriville, palvelun toimitusaika sisällytetään sille riville toimituksen lupaamisen laskentaan. Lisätietoja on kohdassa [Toimituksen lupaamisen päivämäärän laskeminen](sales-how-to-calculate-order-promising-dates.md).
 
 ## <a name="to-set-up-a-shipping-agent"></a>Kuljetusliikkeiden määrittäminen  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Kuljetusliikkeet** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kuljetusliikkeet** ja valitse sitten vastaava linkki.  
 2.  Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].  
 3.  Valitse **Kuljetusliikkeen palvelut** -toiminto.
 4. Täytä tarvittavat **Kuljetusliikkeen palvelut** -kentät.

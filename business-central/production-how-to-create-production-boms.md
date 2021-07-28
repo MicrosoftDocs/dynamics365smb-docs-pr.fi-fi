@@ -1,6 +1,6 @@
 ---
 title: Tuotannon tuoterakenteiden luominen
-description: Tuotannon tuoterakenne sisältää perustiedot päänimikkeen tuotannossa käytettävistä komponenteista ja osakokoonpanoista. Kun päänimikkeelle luodaan tuotantotilaus, tuotannon tuoterakenne ohjaa materiaalitarpeiden laskentaa **Tuot.til. komponentit** -sivulla näkyvällä tavalla.
+description: Lue, miten voit luoda tuotannon tuoterakenteen, tuotannon tuoterakenteen uudet versiot ja käyttää määrälaskentakaavaa.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 122a907e7b61c9fe19853226de8549a073f0cddd
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ffd57ed4f69870e04e8081d0ef6189788dc01ce6
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781986"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438676"
 ---
 # <a name="create-production-boms"></a>Tuotannon tuoterakenteiden luominen
 
@@ -29,7 +29,7 @@ Seuraavat toimet on oltava tehtynä ennen reitityksen määrittämistä:
 - Tuotantoresurssit on määritetty. Lisätietoja on kohdassa [Tuotantosolujen ja kuormituskeskusten määrittäminen](production-how-to-set-up-work-and-machine-centers.md).
 
 ## <a name="to-create-a-production-bom"></a>Tuotannon tuoterakenteen luominen  
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Tuotannon tuoterakenne** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tuotannon tuoterakenne** ja valitse sitten vastaava linkki.  
 2. Valitse **Uusi**-toiminto.  
 3. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Jos haluat muokata tuoterakennetta, aseta **Tila**-kentän arvoksi **Uusi** tai **Kehityksen alla**. Jos haluat aktivoida tuoterakenteen, aseta **Tila**-kentän arvoksi **Hyväksytty**.  
@@ -56,7 +56,7 @@ Tuotannon tuoterakenteen uusia versioita käytetään esimerkiksi silloin, kun n
 
 Aloituspäivämäärä osoittaa alun jaksolle, jolloin kyseinen versio on voimassa. Aloituspäivämäärä on myös suodatuskriteeri laskennoille ja arvioinneille. Tuoterakenteen versio on voimassa niin kauan kuin seuraava versio tulee voimaan sen aloituspäivämäärän perusteella.  
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Tuotannon tuoterakenne** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tuotannon tuoterakenne** ja valitse sitten vastaava linkki.  
 2.  Valitse ensin kopioitava tuotannon tuoterakenne ja sitten **Versiot**-toiminto.  
 3.  Valitse **Uusi**-toiminto.  
 4. Täytä tarvittavat kentät.

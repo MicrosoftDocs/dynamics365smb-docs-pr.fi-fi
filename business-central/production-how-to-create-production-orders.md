@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 90d04a6f951c3312f88f536bfab680bcd071de63
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6b13be85c47cc2a280b2cf2e7cf3bf4866633343
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781936"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438600"
 ---
 # <a name="create-production-order-headers"></a>Tuotantotilausten otsikoiden luominen
 Tuotantotilauksen voi luoda manuaalisesti. Ensimmäinen työvaihe on tuotantotilauksen otsikon luominen.
@@ -25,7 +25,7 @@ Suunnittelutoiminto luo tuotantotilaukset tavallisesti automaattisesti toteuttam
 Seuraavassa toienpiteessä luodaan sitovasti suunniteltu tuotantotilaus. Voit luoda myös tuotantotilauksia, joilla on eri tila.  
 
 ## <a name="to-create-a-production-order-header"></a>Tuotantotilausten otsikoiden luominen  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Sitovasti suunn. tuotantotil.** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sitovasti suunn. tuotantotil.** ja valitse sitten vastaava linkki.  
 2.  Valitse **Uusi**-toiminto.  
 3.  Valitse **Nro**-kenttään seuraava numero sarjasta.  
 4.  Valitse **Lähdetyyppi**-kentässä tuotantotilauksen lähde.

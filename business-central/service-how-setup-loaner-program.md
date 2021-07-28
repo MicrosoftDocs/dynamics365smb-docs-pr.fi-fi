@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 04d5679ccb2d335fd308343724c09a9f827cd059
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c1fd69db741a932bd4088362e58f2963b9cbf134
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778245"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440101"
 ---
 # <a name="set-up-a-loaner-program"></a>Lainatavaraohjelman määrittäminen
 Ajoittain on tarpeen toimittaa asiakkaan käyttöön lainatavara, kunnes huoltohenkilökunta korjaa asiakkaan tavaran. Voit määrittää [!INCLUDE[prod_short](includes/prod_short.md)]iin lainatavaraohjelman, lainata nimikkeitä asiakkaille ja seurata nimikkeiden vastaanottoa, kun asiakkaat palauttavat ne. Voit myös lisätä lainatavaroita koskevia kommentteja kahdella tavalla:  
@@ -24,7 +24,7 @@ Ajoittain on tarpeen toimittaa asiakkaan käyttöön lainatavara, kunnes huoltoh
 * Määritä lainatavaraa edellyttävän huoltonimikkeen huomautus.  
 
 ## <a name="to-set-up-a-loaner"></a>Lainatavaran määrittäminen  
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Lainatavarat** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Lainatavarat** ja valitse sitten vastaava linkki.  
 2. Luo uusi lainatavarakortti. 
 3. Valitse **Nro**-kenttään lainatavaran numero. Vaihtoehtoisesti jos olet määrittänyt lainatavaroille numerosarjan **Huoltohallinnon asetukset**-sivulla, voit painaa Enter-näppäintä antaaksesi ohjelman syöttää seuraavan saatavilla olevan lainatavaran numeron.  
 4. Täytä **Kuvaus** -, **Kuvaus 2** - ja **Sarjanro** -kentät.  

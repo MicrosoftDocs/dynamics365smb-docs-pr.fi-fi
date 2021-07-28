@@ -1,6 +1,6 @@
 ---
-title: Roolin mukainen sivuihin tutustuminen ja niissä siirtyminen| Microsoft Docs
-description: ''
+title: Roolin mukainen sivuihin tutustuminen ja niissä siirtyminen
+description: Roolien hallinnan avulla saat yleiskuvan kaikista roolin käytössä olevista liiketoimintaominaisuuksista ja muiden roolien toiminnoista.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 9b0c85b181f68e0fd6078b85d43b7b0d08bccd80
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2c6acdd0370144c4a49f068a26c5f5f6c6f6a9a0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783232"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440025"
 ---
 # <a name="finding-pages-with-the-role-explorer"></a>Sivujen etsiminen roolienhallinnan avulla
 Saat yleiskuvan kaikista roolin käytössä olevista liiketoimintaominaisuuksista ja muiden roolien toiminnoista, jos siirryt yhden vaiheen eteenpäin. Seuraavassa dokumentaatiossa tätä ominaisuutta kutsutaan *Roolienhallinnaksi*.
@@ -24,7 +24,7 @@ Jokainen roolienhallinnan elementti on sivun avaava toiminto. Niinpä voitkin si
 
 Voit avata roolienhallinnan roolikeskuksesta ja kaikilta luettelosivuilta sekä **Kerro, mitä haluat tehdä** -ikkunasta.
 
-- Valitse roolikeskuksessa tai luettelosivulla ![Valikkopainike](media/ui_menu_button.png "Valikko-painike")-painike siirtymispalkin oikealla puolella tai paina Shift+F12.
+- Valitse Roolikeskuksessa tai millä tahansa luettelosivulla ![Valikko-painike.](media/ui_menu_button.png "Valikko-painike") -painike siirtymispalkin oikealla puolella tai paina näppäinyhdistelmä Vaihto+F12.
 - Valitse **Kerro, mitä haluat tehdä** -ikkunassa alareunassa oleva **tutustumistoiminto**.
 
 Valitse **Etsi**-toiminto roolinhallinnan yläosasta, jos haluat löytää nopeasti tietyn termin sisältävät toimintojen nimet.

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c59ce4576f4c7916ef6b587d4bc6b21cb1047acb
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f2c12e89ced755a220cabf2d4b5712741deab7aa
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781761"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439408"
 ---
 # <a name="collect-outstanding-balances"></a>Avointen saldojen perintä
 
@@ -29,7 +29,7 @@ Asiakaskortissa voit luoda ilmoituksen asiakkaan kanssa tapahtuville tapahtumill
 
 ### <a name="to-send-the-customer-statement-report"></a>Asiakkaan tilioteraportin lähettäminen
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Asiakkaan tiliote** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asiakkaan tiliote** ja valitse sitten vastaava linkki.
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Valitse **Tulostusvaihtoehdot**-kohdassa, miten raportti lähetetään asiakkaalle.
 
@@ -52,7 +52,7 @@ Kun olet luonut muistutukset ja tehnyt tarvittavat muutokset, voit joko tulostaa
 
 Muistutus on vastaava kuin lasku. Kun luot muistutuksen, muistutuksen otsikko ja vähintään yksi muistutusrivi on oltava lisättynä. Voit luoda toiminnolla muistutuksia kaikille asiakkaille automaattisesti.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Muistutukset** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Muistutukset** ja valitse sitten vastaava linkki.
 2. Valitse **Muistutus**-sivulla **Luo muistutuksia** -toiminto.
 3. Täytä **Luo muistutukset** -sivulla kentät, joilla määrität, miten muistutukset luodaan ja kenelle ne luodaan.
 4. Valitse **OK**-painike.
@@ -61,7 +61,7 @@ Muistutus on vastaava kuin lasku. Kun luot muistutuksen, muistutuksen otsikko ja
 
 Voit täyttää **Muistutus**-sivulla **Yleiset**-pikavälilehden tiedot manuaalisesti, jonka jälkeen rivit täytetään automaattisesti.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Muistutukset** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Muistutukset** ja valitse sitten vastaava linkki.
 2. Valitse **Uusi**-toiminto.
 3. Täytä **Yleiset**-pikavälilehdessä tarvittavat kentät.
 4. Valitse **Ehdota muistutusrivejä** -toiminto.
@@ -78,7 +78,7 @@ Voit täyttää **Muistutus**-sivulla **Yleiset**-pikavälilehden tiedot manuaal
 
 On monta tapaa määrittää teksti, joka näkyy tulostetussa muistutuksessa. Joskus voit haluta korvata nykyiselle luokalle määritetyt alku- ja lopputekstit eri luokkien teksteillä.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Muistutukset** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Muistutukset** ja valitse sitten vastaava linkki.
 2. Avaa sopiva muistutus ja valitse sitten **Päivitä muistutusteksti** -toiminto.
 3. Anna **Päivitä muistutusteksti** -sivun **Muistutustaso**-kentässä tarvittava taso.
 4. Päivitä aloitus- ja lopputekstit valitsemalla **OK**.
@@ -101,7 +101,7 @@ Jos **Kirjaa korko**- tai **Kirjaa lisämaksu** -valintaruudut on valittu **Muis
 
 Lisäksi muistutuksen lähettämisestä voi seurata ALV-tapahtumia.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Muistutukset** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Muistutukset** ja valitse sitten vastaava linkki.
 2. Valitse ensin soveltuva muistutus ja sitten **Lähetä**-toiminto.
 3. Täytä **Lähetä muistutukset** -sivulla tarvittavat kentät.
 4. Valitse **OK**-painike.
@@ -134,7 +134,7 @@ Kun olet luonut viivästyskululaskut ja tehnyt tarvittavat muutokset, voit joko 
 
 Viivästyskululasku on samanlainen kuin tavallinen lasku. Voit täyttää otsikon manuaalisesti ja antaa ohjelman täyttää rivit, tai voit antaa ohjelman luoda viivästyskululaskut kaikille asiakkaille automaattisesti.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Viivästyskululaskut** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Viivästyskululaskut** ja valitse sitten vastaava linkki.  
 2. Valitse **Uusi**-toiminto ja täytä tarvittavat kentät.  
 3. Valitse **Ehdota lisäkululaskurivejä** -toiminto.
 4. Määritä suodatin **Ehdota lisäkululaskurivejä** -sivun **Asiakastapahtuma**-pikavälilehdessä, jos haluat luoda viivästyskululaskuja vain tietyille tapahtumille.
@@ -146,7 +146,7 @@ Viivästyskululasku on samanlainen kuin tavallinen lasku. Voit täyttää otsiko
 ### <a name="to-update-finance-charge-memo-texts"></a>Viivästyskululaskutekstien päivitys  
 Joskus voit haluta muuttaa viivästyskuluehtoihin määrittämiäsi alku- ja lopputekstejä. Jos teet tämän silloin, kun olet luonut viivästyskululaskut – mutta et vielä lähettänyt niitä, voit antaa ohjelman päivittää muutetut tekstit laskuihin.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Viivästyskululasku** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Viivästyskululasku** ja valitse sitten vastaava linkki.  
 2. Avaa viivästyskululaskun, jonka tekstiä haluat muuttaa, ja valitse sitten **Päivitä lisäkulun teksti** -toiminto.
 3. Voit määrittää **Päivitä lisäkulun teksti** -sivulla suodattimen, jos haluat päivittää useita laskuja.
 4. Päivitä aloitus- ja lopputekstit valitsemalla **OK**.  
@@ -166,7 +166,7 @@ Jos **Kirjaa korko**- tai **Kirjaa lisämaksu** -valintaruudut on valittu **Viiv
 
 Lisäksi viivästyskululaskun lähettämisen seurauksena voi olla ALV-tapahtumia.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Viivästyskululaskut** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Viivästyskululaskut** ja valitse sitten vastaava linkki.
 2. Valitse ensin soveltuva lasku ja sitten **Lähetä**-toiminto.
 3. Täytä **Lähetä viivästyskululaskut** -sivulla tarvittavat kentät.
 4. Valitse **OK**-painike.
@@ -180,7 +180,7 @@ Jos viivästyskululaskut lähetettiin vahingossa, voit peruuttaa ne, ennen kuin 
 
 ### <a name="to-view-reminder-and-finance-charge-entries"></a>Muistutus-/Viivästyskulutapahtumien katsominen  
 Kun lähetät muistutuksen, muistutustapahtuma luodaan **Muistutus-/viivästyskulutap.**-sivulle kullekin asiakastapahtuman sisältävälle muistutusriville. Voit sitten hakea tietyn asiakkaan muistutustapahtumien yleiskuvauksen.    
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Asiakkaat** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asiakkaat** ja valitse sitten vastaava linkki.  
 2. Avaa kyseessä olevan asiakkaan kortti ja valitse **Tapahtumakirjaukset**-toiminto.
 3. Valitse **Asiakastapahtumat**-sivulla tapahtumarivi, jonka muistutukset haluat nähdä, ja valitse sitten **Muistutus-/viivästyskulutapah.**-toiminto.
 

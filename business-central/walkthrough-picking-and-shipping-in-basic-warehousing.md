@@ -1,6 +1,6 @@
 ---
 title: Poiminta ja toimitus fyysisen varastoinnin perusmäärityksissä
-description: Business Central -sovelluksessa noudon ja toimituksen lähtevät prosessit voidaan suorittaa neljällä tavalla käyttämällä eri toimintoja varastotason monimutkaisuudesta riippuen.
+description: Business Central -sovelluksessa noudon ja toimituksen lähtevät prosessit voidaan suorittaa seuraavilla neljällä tavalla käyttämällä eri toimintoja varastotason monimutkaisuudesta riippuen.
 author: jill-kotel-andersson
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 05/27/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: e1763e6288c8b8218955049ba7ef4c461ee5164e
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 3eefe17d0ebe89d006c5904cb73a75975b6c38f2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214651"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439065"
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Vaihekuvaus: Poiminta ja toimitus fyysisen varastoinnin perusmäärityksissä
 
@@ -81,7 +81,7 @@ Jotta voisit käyttää tätä toimintoa, sinun on lisättävä itsesi varastoty
 
 #### <a name="to-make-yourself-a-warehouse-employee"></a>Tee itsestäsi varastotyöntekijä
 
-  1. Valitse ensimmäinen ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Varastotyöntekijät** ja valitse sitten liittyvä linkki.  
+  1. Valitse ![Lamppu, joka avaa ensin Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Fyysisen varaston työntekijät** ja valitse sitten vastaava linkki.  
   2. Valitse ensin **Käyttäjätunnus**-kenttä ja valitse oma käyttäjätilisi **F.var. työntekijät** -sivulla.
   3. Valitse **Sijaintikoodi**-kentässä ETELÄ.  
   4. Valitse **Oletus**-kenttä ja sitten **Kyllä**-painike..  
@@ -90,7 +90,7 @@ Jotta voisit käyttää tätä toimintoa, sinun on lisättävä itsesi varastoty
 
 Tehdäksesi nimikkeen 1928-S saatavaksi ETELÄ-sijainnissa noudata seuraavia vaiheita:  
 
-  1. Valitse toinen ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikepäiväkirjat** ja valitse sitten liittyvä linkki.  
+  1. Valitse ![Lamppu, joka avaa toisena Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikepäiväkirjat** ja valitse sitten vastaava linkki.  
   2. Avaa oletuspäiväkirja ja luo kaksi nimikepäiväkirjan riviä seuraavilla käsittelypäivämäärän tiedoilla (23. tammikuuta).  
 
         |Tapahtuman tyyppi|Nimikenumero|Sijaintikoodi |Varastopaikan koodi|määrä|  
@@ -109,7 +109,7 @@ Myyntitilaukset ovat yleisin lähtevien lähdeasiakirjojen tyyppi.
 
 ### <a name="to-create-the-sales-order"></a>Myyntitilauksen luominen
 
-1. Valitse kolmas ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa kolmantena Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten vastaava linkki.  
 2. Valitse **Uusi**-toiminto.  
 3. Luo myyntitilaus asiakkaalle 10000 (23.1.) käsittelypäivämääränä seuraavien myyntitilausrivin kanssa.  
 
@@ -129,7 +129,7 @@ Myyntitilaukset ovat yleisin lähtevien lähdeasiakirjojen tyyppi.
 
 ### <a name="to-pick-and-ship-items"></a>Nimikkeiden poiminta ja lähettäminen
 
-1. Valitse neljäs ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Varaston poiminnat** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa neljäntenä Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varaston poiminnat** ja valitse sitten vastaava linkki.  
 2. Valitse **Uusi**-toiminto.  
 
     Varmista, että **Nro**-kenttä täytetään **Yleinen**-pikavälilehdessä.

@@ -1,18 +1,18 @@
 ---
-title: Pakettien seuraaminen | Microsoft Docs
-description: Voit seurata toimituksen etenemistä kuljetusliikkeiden seurantapalvelun avulla.
+title: Kollien seuraaminen
+description: Seuraa paketteja ja seuraa toimituksen edistymistä kuljetusliikkeen internetseurantapalvelun avulla.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: rfq
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: fea12afc4c9c1273fe8ba6da563240781fb1bc9d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c4272e26021cecd04d6bd81ec66957032def6a8e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778345"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440201"
 ---
 # <a name="track-packages"></a>Kollien seuraaminen
 
@@ -22,7 +22,7 @@ Seuraavassa kuvataan, miten pakettia seurataan kirjatusta myyntitoimituksesta, m
 
 ## <a name="to-track-a-package"></a>Paketin seuraaminen
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kirjattu myyntitoimitus** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kirjattu myyntitoimitus** ja valitse sitten vastaava linkki.
 2. Avaa käsiteltävä toimitus.
 3. Valitse **Päivitä tiedosto** -toiminto.
 4. Anna **Kollin seurantanro** -kentässä kollinnumero, jonka olet saanut kuljetusliikkeeltä. Päivitä **kuljetusliike** tarvittaessa ja sulje sivu.

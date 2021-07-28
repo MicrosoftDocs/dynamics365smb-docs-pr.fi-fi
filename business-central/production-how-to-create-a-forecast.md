@@ -1,6 +1,6 @@
 ---
 title: Kysyntäennusteen luominen
-description: Voit luoda myynti- ja tuotantoennusteita **Kysyntäennuste**-sivulla.
+description: Tietoja Business Centralin ennusteominaisuudesta sekä myynti- ja tuotantoennusteiden luomisesta.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 08b2a24eeb4e50cb6f7a1c9e02c861ec51668438
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 19b168e60fab61f12a631d8e449b7e05753640eb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779326"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438685"
 ---
 # <a name="create-a-demand-forecast"></a>Kysyntäennusteen luominen
 Voit luoda myynti- ja tuotantoennusteita **Kysyntäennuste**-sivulla.  
@@ -62,7 +62,7 @@ Harkitse tätä esimerkkiä: yrityksesi ostaa ja myy nimikkeitä kahdessa paikas
 Luo sitten myyntitilaus, jonka määrä on 12 sijainnissa LÄNSI. Suunnittelujärjestelmä ehdottaa seuraavaa:
 
 - Täydennä 10 kappaletta sijainnille ITÄ ennusteen tietojen perusteella.  
-- Täydennä 12 kappaletta sijainnille LÄNSI myyntitilauksen perusteella. Myyntitilauksen todellinen kysyntä kuluttaa kokonaan ennusteessa määritetyt 4 kappaletta. Katso lisätietoja: [Myyntitilaukset vähentävät ennustettua kysyntää](design-details-balancing-demand-and-supply.md#forecast-demand-is-reduced-by-sales-orders). 
+- Täydennä 12 kappaletta sijainnille LÄNSI myyntitilauksen perusteella. Myyntitilauksen todellinen kysyntä kuluttaa kokonaan ennusteessa määritetyt neljä kappaletta. Katso lisätietoja: [Myyntitilaukset vähentävät ennustettua kysyntää](design-details-balancing-demand-and-supply.md#forecast-demand-is-reduced-by-sales-orders). 
 
 > [!NOTE]  
 >  Jos sijaintiperustaisia ennusteita tarkastellaan erillään muista, kokonaisennuste ei välttämättä ole totuudenmukainen.
@@ -85,7 +85,7 @@ Luo sitten myyntitilaus, jonka määrä on 12 sijainnissa LÄNSI. Suunnittelujä
 
 ## <a name="to-create-a-demand-forecast"></a>Kysyntäennusteen luominen
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Kysyntäennuste** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kysynnän ennuste** ja valitse sitten vastaava linkki.  
 2. Valitse **Yleinen**-pikavälilehden **Kysyntäennusteen nimi** -kentässä ennuste. Ennusteita voi olla useita erinimisiä ja -tyyppisiä.  
 3. Valitse **Sijaintisuodatus**-kentässä sijainti, jota tämä ennuste koskee.
 4. **Näyttösivu** -kentässä voit muuttaa sarakkeissa näkyvän jakson. Mahdollisia valittavia aikavälejä ovat **Päivä**, **Viikko**, **Kuukausi**, **Vuosineljännes**, **Vuosi** tai taloushallinnossa määritetty **Kirjanpitojakso**.    

@@ -1,6 +1,6 @@
 ---
-title: 'Toimintaohje: Tuotantotilausten suora uudelleensuunnittelu tai päivittäminen| Microsoft Docs'
-description: Tuotantotilauksen rivit sisältävät nimikkeet, jotka tuotetaan tuotantotilauksessa.
+title: Tuotantotilausten suora uudelleensuunnittelu tai päivittäminen
+description: Tässä ohjeaiheessa kuvataan tuotantotilausten uudelleensuunnittelu ja tuotantotilausten päivittäminen suoraan.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: e3e1fa5535637f204c942aa8d3589dfff0392333
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5e8543d64c1ecfea1f554f13f753743684d1f463
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787800"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440376"
 ---
 # <a name="replan-or-refresh-production-orders-directly"></a>Tuotantotilausten suora uudelleensuunnittelu tai päivittäminen
 Tuotantotilausten **Uudelleensuunnittelu**-toimintoa käytetään yleensä sen jälkeen, kun alemman tason tuotantotilauksiin vaikuttavia komponentteja on lisätty tai muutettu. Toiminto laskee komponentti- ja reititysriveille tehdyt muutokset. Toiminto vaikuttaa myös tuotannon tuoterakenteen alitasoihin, joille saatetaan luoda uusia tuotantotilauksia.  
@@ -35,7 +35,7 @@ Tuotantotilausrivit voidaan syöttää joko manuaalisesti tai voidaan käyttää
 > Jos päivitystoimintoa käytetään laskemaan tuotantotilausrivit uudelleen, ohjelma poistaa vanhat tuotantotilausrivit ja laskee uudet rivit.  
 
 ## <a name="to-replan-a-production-order"></a>Tuotantotilauksen uudelleensuunnittelu  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Sitovasti suunn. tuotantotil.** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sitovasti suunn. tuotantotil.** ja valitse sitten vastaava linkki.  
 2.  Avaa uudelleensuunniteltava tuotantotilausrivi.  
 3.  Valitse **Rivit**-pikavälilehdessä ensin **Rivit**-toiminto ja sitten **Komponentit**-toiminto.  
 4.  Lisää komponentti, joka on tuotantonimeke (osakokoonpano).  
@@ -65,12 +65,12 @@ Tuotantotilausrivit voidaan syöttää joko manuaalisesti tai voidaan käyttää
 ## <a name="to-refresh-a-production-order"></a>Tuotantotilauksen päivittäminen  
 Jos olet muuttanut tuotantotilausrivejä, komponentteja tai reititysrivejä, myös tuotantotilauksen tiedot on päivitettävä. Seuraavassa toimenpiteessä komponentit lasketaan sitovasti suunnitellulle tuotantotilaukselle. Reititysrivejä koskevat vaiheet ovat samanlaisia.
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Sitovasti suunn. tuotantotil.** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sitovasti suun. tuotantotil.** ja valitse sitten vastaava linkki.  
 2.  Valitse **Uusi**-toiminto. Lisätietoja on kohdassa [Tuotantotilausten luominen](production-how-to-create-production-orders.md).  
 3.  Valitse **Päivitä**-toiminto.
 4. Valitse **Päivitä tuotantotilaus** -sivulla jokin seuraavista vaihtoehdoista:
 
-    |Asetus|Description|  
+    |Asetus||Description|  
     |----------------------------------|---------------|---------------------------------------|  
     |**Aikataulutuksen suunta**|**Eteenpäin**|Aikataulutus alkaa aloituspäivämäärästä ja jatkuu eteenpäin (lopetuspäivämäärään saakka). Tämän valinnan käyttäminen edellyttää, että määrität aloituspäivämäärän.|  
     ||**Taaksepäin**|Aikataulutus alkaa lopetuspäivämäärästä ja jatkuu taaksepäin (aloituspäivämäärään asti).|  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Power BI, reports, faq, errors
 ms.date: 04/22/2021
 ms.author: jswymer
-ms.openlocfilehash: 939b280e631113d3196f6fbbc90d9bf19b9fc408
-ms.sourcegitcommit: a76475f124e79440a5bba20577b335c4d50a2d83
+ms.openlocfilehash: ef63963c7c37f36db34e3e8292e73d64c1b67538
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025831"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438750"
 ---
 # <a name="power-bi--faq"></a>Power BI – usein kysytyt kysymykset
 
@@ -65,8 +65,20 @@ Emme voi tehdä tätä päätöstä. Sen tekee Power BI. Lisätietoja on kohdass
 <!-- 7 -->
 ### <a name="does-the-connector-work-with-api-pages"></a>Toimiiko yhdistin ohjelmointirajapinnan sivujen kanssa?
 
-Ei vielä. Mutta vuoden 2021 kesäkuun jälkeen uusi Power BI -yhdistin tukee sekä Business Centralin verkkosivuja että ohjelmointirajapinnan sivuja. Lisätietoja on kohdassa [Power BI -yhdistimen käytön aloittaminen yhdessä Business Centralin ohjelmointirajapintojen kanssa pelkkien verkkopalveluiden sijaan](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/enable-power-bi-connector-work-business-central-apis-instead-web-services-only).
+Kyllä. Vuoden 2021 kesäkuun jälkeen uusi Power BI -yhdistin tukee sekä Business Centralin verkkosivuja että ohjelmointirajapinnan sivuja. Lisätietoja on kohdassa [Power BI -yhdistimen käytön aloittaminen yhdessä Business Centralin ohjelmointirajapintojen kanssa pelkkien verkkopalveluiden sijaan](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/enable-power-bi-connector-work-business-central-apis-instead-web-services-only).
 
+### <a name="can-i-build-a-power-bi-report-using-the-sales-invoice-lines-or-journal-lines-apis"></a>Voinko luoda Power BI -raportin käyttämällä myyntilaskurivejä tai päiväkirjan rivien ohjelmointirajapintoja?
+
+Yleisimmin käytetyt rivitietueet ovat käytettävissä [Business Central APIs v2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/):ssa). Voit siis käyttää niitä raporttien rakentamiseen Power BI:ssä valitsemalla ne **Dynamics 365 Business Central** -yhdistimessä. **Rivit**-ohjelmointirajapinnat on kuitenkin suunniteltu käytettäviksi vain joidenkin erityisten suodattimien kanssa, eivätkä ne välttämättä toimi kaikissa skenaarioissa. Saatat saada virheen kuten "Sinun on määritettävä tunnus tai asiakirjatunnus saadaksesi rivit". Voit korjata tämän ongelman seuraavasti, kun saat Business Centralista Power BI Desktop -raportin tiedot:
+
+1. Sen sijaan, että lisäisit rivientiteetin tietolähteen, lisää päätietolähde. Lisää esimerkiksi **Myyntilasku** sen sijaan, että lisäisit **Myyntilaskun rivit**.
+2. Valitse **Muunna tiedot** Power BI Desktopin toimintopalkista.
+3. Valitse juuri lisätty kysely, esimerkiksi **Myyntilaskut**.
+4. Vähennä raporttiin ladattujen tietueiden määrää suodattamalla tietueita.
+5. Vieritä oikealle, kunnes löydät riveiksi nimetyn sarakkeen, esimerkiksi **SalesInvoiceLines**.
+6. Valitse laajennuspainike sarakkeen otsikossa, sarakenimen vieressä.
+
+   :::image type="content" source="media/saleinvoicelines.png" alt-text="Näyttää SalesInvoiceLines-sarakkeen Power BI Desktopissa.":::
 <!-- 11 --> 
 ### <a name="is-it-possible-to-choose-which-business-central-environment-to-get-data-from-for-power-bi-for-example-like-a-sandbox-or-production-environment"></a>Onko mahdollista valita Business Central -ympäristö, josta tiedot haetaan Power BI:iin, esimerkiksi eristys- tai tuotantoympäristö? 
 
@@ -137,14 +149,23 @@ Verkkopalveluissa julkaistut kyselyt ovat yleensä nopeampia kuin vastaavat julk
 Uusi yhdistin on saatavilla vuoden 2021 kesäkuussa. Tämän jälkeen on suositeltavaa käyttää ohjelmointirajapinnan sivuja verkkopalveluina julkaistujen kyselyjen sijaan.
 
 <!-- 13 --> 
-### <a name="is-there-a-way-for-an-end-user-to-create-a-web-service-with-a-column-thats-in-a-business-central-table-but-not-a-page-or-will-developer-have-to-create-a-custom-query"></a>Voiko käyttäjä luoda verkkopalvelun sellaisen sarakkeen avulla, joka on Business Centralin taulukossa, mutta ei sivulla? Vai onko kehittäjän luotava mukautettu kysely? 
+### <a name="is-there-a-way-for-an-end-user-to-create-a-web-service-with-a-column-thats-in-a-business-central-table-but-not-a-page-or-will-the-developer-have-to-create-a-custom-query"></a>Voiko käyttäjä luoda verkkopalvelun sellaisen sarakkeen avulla, joka on Business Centralin taulukossa, mutta ei sivulla? Vai onko kehittäjän luotava mukautettu kysely? 
 
-Ei vielä. Mutta kun uusi yhdistin on saatavilla vuoden 2021 kesäkuussa, kehittäjä voi luoda uuden ohjelmointirajapinnan sivun tämän vaatimuksen täyttämiseksi. 
+Kyllä. Kun uusi yhdistin on saatavilla vuoden 2021 kesäkuussa, kehittäjä voi luoda uuden API-sivun tämän vaatimuksen täyttämiseksi. 
 
 <!-- 28 --> 
 ### <a name="can-i-connect-power-bi-to-a-read-only-database-server-of-business-central-online"></a>Voinko yhdistää Power BI:n Business Central Onlinen vain luku -tilassa olevaan tietokantapalvelimeen? 
 
 Ei. Mutta tämä toiminto on pitkän aikavälin toteutussuunnitelmassamme. 
+
+### <a name="how-do-i-change-or-clear-the-user-account-im-currently-using-to-connect-to-business-central-from-power-bi-desktop"></a><a name="perms"></a>Miten muutan tai tyhjennän käyttäjän, jota tällä hetkellä käytän yhteyden muodostamiseen Business Centraliin Power BI Desktopista?
+
+Tee Power BI Desktopissa seuraavat vaiheet:
+
+1. Valitse Tiedosto-valikossa **Asetukset ja vaihtoehdot** > **Tietolähteen asetukset**.
+2. Valitse luettelosta **Dynamics Business Central** ja valitse sitten **Tyhjennä käyttöoikeudet** > **Poista**.
+
+Kun seuraavan kerran muodostat yhteyden Business Centraliin tietojen saamiseksi, sinua pyydetään kirjautumaan sisään.
 
 ## <a name="performance"></a>[Suoritustaso](#tab/performance)
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: find
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: d5af514baf18d1d5fbfd3de900d0ef964ff40bc9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2df1a204ef2ab3063293274748e5e777d03be4d1
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783182"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440000"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Sivujen ja tietojen etsiminen Kerro, mitä haluat tehdä -toiminnolla  
 Tässä ohjeaiheessa käsitellään, miten Kerro, mitä haluat tehdä -toiminnolla voi siirtyä nopeasti esimerkiksi toimintoihin tai raportteihin, etsiä tietoja tietyn tehtävän suorittamisesta sekä löytää muita [!INCLUDE[prod_short](includes/prod_short.md)]in sovelluksia ja konsultointipalveluja.  
@@ -23,7 +23,7 @@ Tässä ohjeaiheessa käsitellään, miten Kerro, mitä haluat tehdä -toiminnol
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2086048]
 
-Jos tarvitset apua jonkin asian etsimiseen, hae sitä ![Kerro, mitä haluat tehdä](media/ui-search/search.png "Etsi sivua tai raporttia") **Kerro, mitä haluat tehdä** -kuvakkeen avulla. Voit ottaa Kerro, mitä haluat tehdä -toiminnon käyttöön myös painamalla näppäimiä ALT+Q.
+Kun tarvitset apua jonkin löytämisessä, käytä ![Kerro minulle, mitä haluat tehdä.](media/ui-search/search.png "Etsi sivua tai raporttia") **Kerro, mitä haluat tehdä** -kuvaketta etsiäksesi sitä. Voit ottaa Kerro, mitä haluat tehdä -toiminnon käyttöön myös painamalla näppäimiä ALT+Q.
 
 Kun aloitat merkkien kirjoittamisen, [!INCLUDE[prod_short](includes/prod_short.md)] näyttää heti vastineet. Luettelon tulokset muuttuvat samalla, kun kirjoitat merkkejä. Jos huomaat, että antaessasi sanan "tuote" tulokset sisältävät myös **nimikkeitä**, tämä johtuu siitä, että Kerro, mitä haluat tehdä -toiminto käyttää synonyymeja ja vaihtoehtoisia hakusanoja helpottamaan toimintojen, sivujen ja raporttien etsimistä.
 

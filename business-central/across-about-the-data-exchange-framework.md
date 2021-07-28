@@ -1,21 +1,21 @@
 ---
-title: Tietoja tiedonsiirtokehyksestä | Microsoft Docs
-description: Pankkitiedostojen, sähköisten asiakirjojen, valuutanvaihtokurssien ja muiden ERP-järjestelmien tiedostonvaihtomuoto vaihtelee datatiedoston, virran ja maan tai alueen mukaan.
+title: Tietoja tiedonvaihto-kehyksestä
+description: Tässä aiheessa kerrotaan, miten tiedonsiirtokehyksen avulla hallitaan yritysasiakirjojen, kuten laskujen, tiedonsiirtoa liikekumppaneiden kanssa.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.search.keywords: Data exchange framework, data files, data exchange, electronic document, invoice, Business Central, business document, standard-compliant file, OCR
+ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: 6ae76aa8f8522b7d93dd442d6d8cc748f1d2dac4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 53c0bcbf03f989175783ebb93228815712c25552
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776320"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439116"
 ---
 # <a name="about-the-data-exchange-framework"></a>Tietoja tiedonvaihto-kehyksestä
 
@@ -25,9 +25,9 @@ Järjestelmänvalvojana tai Microsoft-kumppanina voit käyttää kehystä uusiss
 
  Seuraavat kaaviot näyttävät tiedonsiirtokehyksen rakenteen.  
 
- ![Tietojen vaihtokehys &#45; Tuo](media/across-data-exchange/dataexchangeframework_import.png)  
+ ![Tiedonsiirtokehys &#45; Tuo.](media/across-data-exchange/dataexchangeframework_import.png)  
 
- ![Tietojen vaihtokehys &#45; Vie](media/across-data-exchange/dataexchangeframework_export.png)  
+ ![Tiedonsiirtokehys &#45; Vie.](media/across-data-exchange/dataexchangeframework_export.png)  
 
 ## <a name="electronic-documents"></a>Sähköiset asiakirjat
 
