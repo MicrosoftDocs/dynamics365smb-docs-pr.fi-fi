@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 2f51679cfb1481632ea1f425e4a614764410c679
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d72025a95f6d12ab64ba6ec29de754bb9c318ab0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784465"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435795"
 ---
 # <a name="record-interactions-with-contacts"></a>Kontaktien kanssa tapahtuvien vuorovaikutusten tallentaminen
 Sovelluksen määrittäminen niin, että se tallentaa vuorovaikutukset, sisältää seuraavat tehtävät:
@@ -50,7 +50,7 @@ Tällä sivulla voit
 * tarkastella vuorovaikutusten tilaa
 * merkitä vuorovaikutukset peruutetuiksi.
 
-Voit poistaa vuorovaikutuslokin tapahtumia, jotka on peruutettu. Voit poistaa vuorovaikutuslokin tapahtumia valitsemalla ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvakkeen, syöttämällä **Poista peruutetut vuorovaikutuslokin tapahtumat** ja valitsemalla sitten liittyvän linkin. Täytä tämän jälkeen tiedot.
+Voit poistaa vuorovaikutuslokin tapahtumia, jotka on peruutettu. Poistaaksesi vuorovaikutuslokin valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poista peruutetut vuorovaikutuslokin merkinnät**, valitse liittyvä linkki ja täytä sitten tiedot.
 
 ## <a name="see-also"></a>Katso myös
 [Kontaktien hallinta](marketing-contacts.md)  

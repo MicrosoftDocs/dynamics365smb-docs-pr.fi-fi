@@ -1,6 +1,6 @@
 ---
 title: Palvelun sertifioinnit
-description: Tässä sisällössä on tietoja Business Centraliin liittyvistä varmenteista.
+description: Tämä sisältö sisältää tietoja Business Centraliin liittyvistä sertifikaateista, kuten aluekohtaisista sertifikaateista ja akkreditoinneista.
 author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: soalex
-ms.openlocfilehash: 69a8012631c38e949d2aa0ccd6ba3f3d51f69b50
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c34c3843751fda22365479060fc979b2f14ea8f1
+ms.sourcegitcommit: 8566399d5181f1c171c7536fff9c890a34e94ba4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5788431"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6373185"
 ---
 # <a name="certifications"></a>Sertifikaatit
 
@@ -28,7 +28,7 @@ Joissakin maissa tai alueilla kirjanpito-ohjelmiston on sertifioitava paikallisi
 > [!NOTE]
 > Tämä vaatimus on vain joissakin maissa.
 
-- Ranska (verotarkastussertifiointi) [(linkki ranskankieliseen sertifiointiin)](https://certificates.infocert.org/#)<!--(https://certificates.infocert.org/certificates/CERTIF-07-181-R16.pdf)-->  
+- Ranska (verotarkastustodistus) [(hae tuotteen nimen perusteella osoitteessa https://certificates.infocert.org/#)](https://certificates.infocert.org/#)  
 - Saksa (kattaa myös Itävallan ja Sveitsin) [(linkki saksankieliseen sertifiointiin)](https://www.bdo.de/de-de/themen/softwarebescheinungen/bdo/microsoft-dynamics-365-business-central)  
 
 > [!NOTE]  

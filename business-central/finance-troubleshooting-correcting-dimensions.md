@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: dimension, correction, correct, business intelligence
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 018e0ebdb96e155959fc0042e4c2a9b778ecffb0
-ms.sourcegitcommit: cbd00f24fb471381bbfd64670237eda176bd78e5
+ms.openlocfilehash: 0475e814807c2218b2dcc72f3c07359b80546cc3
+ms.sourcegitcommit: 8566399d5181f1c171c7536fff9c890a34e94ba4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947487"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6373236"
 ---
 # <a name="troubleshooting-and-correcting-dimensions"></a>Vianmääritys ja dimensioiden korjaaminen
 Talousraportointi ja analyysinäkymät perustuvat usein dimensioiden tietoihin. Käytettävissä olevista turvatoimista huolimatta tapahtuu joskus vahinkoja, jotka johtavat epätarkkuuksiin. Tässä ohjeaiheessa kuvataan joitakin tyypillisiä virheitä ja kerrotaan, miten kirjattujen tapahtumien dimensiomääritykset korjataan talousraporttien saattamiseksi ajan tasalle.
@@ -109,3 +109,17 @@ Jos korjaus on keskeneräinen, korjauskortissa näkyy varoitus. Korjauksen voi s
 
 ### <a name="using-cost-accounting-with-corrected-gl-entries"></a>Kustannuslaskennan käyttäminen korjatuissa KP-tapahtumissa
 Dimensioiden korjauksen jälkeen kustannuslaskennan tiedot eivät ole synkronoituja. Kustannuslaskenta käyttää dimensioita koostamaan kustannuspaikkoja ja kustannuskohteita ja suorittamaan kustannusten kohdistamiset. KP-tapahtumien dimensioiden muuttaminen aiheuttaa todennäköisesti kustannuslaskentamallien uudelleensuorittamisen. Se, onko poistettava vain muutamia kustannusrekistereitä ja onko kohdistus suoritettava uudelleen vai onko kaikki poistettava ja kaikki mallit suoritettava uudelleen, perustuu tietoihin, jotka on päivitetty, ja siihen, miten kustannuslaskentaominaisuudet on määritetty. Sen määrittäminen, miten dimension korjaukset vaikuttavat kustannuslaskentaan ja missä päivityksiä tarvitaan, on manuaalinen prosessi. [!INCLUDE[prod_short](includes/prod_short.md)]issa ei ole tällä hetkellä tapaa tehdä tätä automaattisesti.
+
+## <a name="correcting-number-assignments-for-global-dimensions"></a>Yleisten dimensioiden numeromääritysten korjaaminen
+Dimensioyhdistelmän tapahtuma -taulukossa yleisille dimensioille määritetään **0** Pikadimension numero  -kenttään, ja pikadimensioille määritetään niiden pikadimension numero, joka voi olla 1–8. Jotkin raportit käyttävät näitä numeromäärityksiä laskutoimituksissa käytettävän arvon määrittämiseen.
+
+Kun dimension arvoja tuodaan käyttämällä määrityspaketteja, jotka on luotu ilman vahvistuskäynnistimiä tai käyttämällä mukautettua koodia Lisää- tai Muokkaa-menetelmien kutsumiseen ilman OnInsert- tai OnModify -vahvistuskäynnistimiä, pikadimensioille määritetään joskus muu numero kuin 0. Kun näin tapahtuu, laskutoimitukset ovat virheellisiä toistuvien yleisten päiväkirjojen dimensioille, jotka käyttävät toistuvia menetelmiä BD-saldo tilin mukaan tai BD-saldo dimensioiden mukaan. 
+
+Jos määritetty numero on virheellinen ja kun yrität kirjata tai esikatsella päiväkirjoja **Toistuvat yleiset päiväkirjat** -sivulla, näkyviin tulee **Virhesanomat**-sivu. Voit valita linkin Virhesanomat-sivun **Lähde**-kentässä suorittaaksesi raportin, joka korjaa pikadimension numeromääritykset Dimensioyhdistelmän tapahtuma -taulukossa. Vaihtoehtoisesti voit myös etsiä **Päivitä pikadimension numero dimensioyhdistelmän tapahtumille** suorittaaksesi raportin.
+
+Kun olet suorittanut raportin, voit tarkastella **Muutoslokin tapahtumat** -sivulla Yleisen dimension numero -kohtaan tehtyihin muutoksiin. -kentässä. [!INCLUDE[prod_short](includes/prod_short.md)] tallentaa aina edelliset ja uudet arvot. 
+
+## <a name="see-also"></a>Katso myös
+[Dimensioyhdistelmän tapahtumien yleiskatsaus](design-details-dimension-set-entries-overview.md)
+[Dimensioiden käyttäminen](finance-dimensions.md)
+[Tietojen analysointi dimension mukaan](bi-how-analyze-data-dimension.md)

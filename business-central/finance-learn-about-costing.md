@@ -1,6 +1,6 @@
 ---
-title: Tietoja varaston arvostuksesta | Microsoft Docs
-description: Varastokustannusten hallinta käsittelee liiketoiminnan toimintokustannusten tallennusta ja raportointia. Se sisältää tuotanto- ja varastointikustannusten eli nimikkeiden arvon raportoinnin..
+title: Tietoja varaston arvostuksesta
+description: Varastokustannusten hallinta käsittelee liiketoiminnan toimintokustannusten tallennusta ja raportointia. Se sisältää esimerkiksi tuotanto- ja varastointikustannusten eli nimikkeiden arvon raportoinnin.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 33a6a66cb2ccdcee1cd5925548e7c224d244459e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 36420747117425e1f66e30ed6090f300e27776f4
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770364"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6325759"
 ---
 # <a name="about-inventory-costing"></a>Tietoja varaston arvostuksesta
 Varastokustannusten hallinta käsittelee liiketoiminnan toimintokustannusten tallennusta ja raportointia. Se sisältää tuotanto- ja varastointikustannusten eli nimikkeiden arvon raportoinnin..  

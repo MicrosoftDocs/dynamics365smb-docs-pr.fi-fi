@@ -1,6 +1,6 @@
 ---
-title: Myyntiasiakirjojen myöhästyvien maksujen ennustaminen | Microsoft Docs
-description: Käytä ennakoivaa malliamme, kun haluat ennustaa, suoritetaanko laskun maksu ajoissa.
+title: Ennusta myyntiasiakirjojen myöhästyvät maksut
+description: Tämä aihe selittää, miten voit käyttää ennakoivaa malliamme, kun haluat ennustaa, suoritetaanko laskun maksu ajoissa.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 93889510c01a2feecface046440de19dcb1e83eb
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: be2916e266e404ae1975eb4b721a8b83f1d02791
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787350"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6434906"
 ---
 # <a name="the-late-payment-prediction-extension"></a>Myöhästyneen maksun ennusteen laajennus  
 Tehokas myyntisaamisten hallinta on tärkeää yrityksen taloudellisen tilanteen yleiskuvan kannalta. Myöhästyneen maksun ennusteen laajennus voi auttaa avointen myyntisaamisten vähentämisessä ja perintästrategian tarkentamisessa ennustamalla, maksetaanko myyntilaskut ajoissa. Jos maksun ennustetaan olevan myöhässä, voit esimerkiksi muuttaa asiakkaan maksuehtoja tai maksutapaa.
@@ -26,7 +26,7 @@ Kun avaat kirjatun myyntiasiakirjan, sivun yläosaan tulee ilmoitus. Jos haluat 
 
 Voit ottaa laajennuksen käyttöön manuaalisesti seuraavasti:
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myöhästyneen maksun ennusteen asetus** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myöhästyneen maksun ennusteen asetukset** ja valitse sitten liittyvä linkki.  
 2. Täytä tarvittavat kentät.
 
 > [!Note]
@@ -91,7 +91,7 @@ Jos näyttää siltä, että prosessit eivät vastaa vakiomallia, voit yhä käy
 [!INCLUDE[prod_short](includes/prod_short.md)] suorittaa koulutuksen ja arvioimisen automaattisesti, kun maksettuja ja myöhässä olevia laskuja on riittävästi saatavilla. Halutessasi voit suorittaa nämä manuaalisesti milloin tahansa.
 
 #### <a name="to-train-and-use-your-model"></a>Mallin kouluttaminen ja käyttäminen
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myöhästyneen maksun ennusteen asetus** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myöhästyneen maksun ennusteen asetukset** ja valitse sitten liittyvä linkki.  
 2. Valitse **Valittu malli** -kentässä **Oma malli**.
 3. Valitse **Luo oma malli** -toiminto, jos haluat kouluttaa tietojen mallia.  
 
@@ -103,7 +103,7 @@ Voit myös luoda oman ennakoivan verkkopalvelun **Dynamics 365 Business Centrali
 3. Kirjaudu työtilaan Microsoft-tilin avulla ja kopioi malli.  
 4. Aja malli ja julkaise se verkkopalveluna.  
 5. Kirjoita API:n URL-osoite ja API-avain muistiin. Näitä tunnistetietoja käytetään kassavirran asetuksissa.  
-6. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myöhästyneen maksun ennusteen asetus** ja valitse sitten liittyvä linkki.  
+6. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myöhästyneen maksun ennusteen asetukset** ja valitse sitten liittyvä linkki.  
 7. Valitse **Käytä omaa Azure-tilausta** -valintaruutu.
 8. Syötä **Oman mallin tunnistetiedot** -pikavälilehteen mallin ohjelmointirajapinnan URL-osoite ja avain.  .  
 

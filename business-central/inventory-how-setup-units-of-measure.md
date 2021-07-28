@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: UOM
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c7f30b26c05be77fd8c601635c58399198e2f595
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 92fc62cf5b1e2db5d1eb34ab2aa9f86823cfe3bb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785746"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435545"
 ---
 # <a name="set-up-units-of-measure"></a>Mittayksikön määrittäminen
 
@@ -30,7 +30,7 @@ Jos nimike varastoidaan yhtä mittayksikköä ja tuotetaan toista mittayksikkö�
 
 ## <a name="to-set-up-units-of-measure"></a>Mittayksikön määrittäminen
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Mittayksiköt** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Mittayksiköt** ja valitse sitten vastaava linkki.  
 2. Valitse **Uusi**-toiminto. Uusi tyhjä rivi lisätään.  
 3. Täytä kentät. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 4. Jos tiedät, että organisaatio myy tätä mittayksikköä käyttäviä nimikkeitä asiakkaille muissa maissa, voi lisätä käännökset.  
@@ -43,7 +43,7 @@ Kun rekisteröit uuden nimikkeen, voit valita perusmittayksikön mittayksikkölu
 
 ## <a name="to-set-up-multiple-item-units-of-measure"></a>Useiden nimikkeiden mittayksikön määrittäminen
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Nimikkeet** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten vastaava linkki.
 2. Avaa nimikkeen kortti, jolle haluat määrittää vaihtoehtoisen mittayksikön.
 3. Valitse **Mittayksiköt**-toiminto. Näyttöön tulee **Nimikkeen mittayksiköt** -sivu.
 4. Jos nimikekortin **Perusmittayksikkö**-kenttä on täytetty, kyseinen mittayksikkö on jo määritetty.
@@ -63,7 +63,7 @@ Vaihtoehtoista mittayksikköä voi nyt käyttää osto-, tuotanto- ja myyntiasia
 
 Jos myyt nimikkeitä ulkomaisille asiakkaille, mittayksikkö halutaan enkä määrittää asiakkaan kielellä. Tällä tavalla voi tehdä sen jälkeen kun tarpeelliset mittayksiköiden käännökset on määritetty.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Mittayksiköt** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Mittayksiköt** ja valitse sitten vastaava linkki.
 2. Valitse koodi, jonka käännökset haluat määrittää, ja valitse sitten **Käännökset** -toiminto.
 3. Valitse **Kielikoodi**-kentässä alanuolipainike, jolloin näyttöön tulee luettelo saatavilla olevista kielikoodeista. Valitse kielikoodi, jolle haluat syöttää käännöksen, ja kopioi sitten koodi kenttään valitsemalla OK.
 4. Syötä **Kuvaus**-kenttään asianmukainen teksti.
@@ -73,7 +73,7 @@ Jos myyt nimikkeitä ulkomaisille asiakkaille, mittayksikkö halutaan enkä mä�
 
 Jos ostat tai myyt tavallisesti eri yksiköissä kuin perusmittayksiköissä, voit määrittää erillisiä mittayksiköitä ostoille ja myynneille. Tehdäksesi näin **Nimikkeen mittayksiköt** -sivulla tulee määrittää mittayksiköitä.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten vastaava linkki.
 2. Avaa sen nimikkeen kortti, jolle haluat määrittää myynnin tai oston oletusmittayksikön koodin.
 3. Avaa myynnin osalta **Laskutus**-pikavälilehden **Myynnin mittayksikkö** -kentässä **Nimikkeen mittayksiköt** -sivu.
 4. Avaa oston osalta **Täydennys**-pikavälilehden **Oston mittayksikkö** -kentässä **Nimikkeen mittayksiköt** -sivu.

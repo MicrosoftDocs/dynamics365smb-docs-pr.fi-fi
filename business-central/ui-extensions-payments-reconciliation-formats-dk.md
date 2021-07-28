@@ -1,5 +1,5 @@
 ---
-title: Maksujen ja täsmäytysten (DK) laajennuksen käyttäminen | Microsoft Docs
+title: Maksujen ja täsmäytysten (DK) laajennus
 description: Tämän laajennuksen avulla on helppo viedä esimuotoiltuja tiedostoja, jotka täyttävät pankin sähköisiä lähetyksiä koskevat vaatimukset.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, bank, formats
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: fdd8fced06d8efd5ab6959267bfc0171c4decdd2
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ef87f41ec58dbc37caff647ad577f1cfcc205dfc
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785058"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6434883"
 ---
 # <a name="the-payments-and-reconciliations-dk-extension"></a>Maksujen ja täsmäytysten (DK) laajennus
 
@@ -55,7 +55,7 @@ Lisäksi on määritettävä toimittajat kotimaan **Ylein. liiketoim. kirjausryh
 
 ### <a name="to-allow-prod_short-to-export-payment-data"></a>[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman salliminen maksutietojen vientiä varten
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maksupäiväkirja** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maksupäiväkirja** ja valitse sitten vastaava linkki.  
 2. Valitse **Muokkaa maksupäiväkirjaa** -sivulla **Pankin** erä.  
 3. Valitse **Salli maksun vienti** -valintaruutu.  
 
@@ -69,19 +69,19 @@ Seuraavassa taulukossa ovat [!INCLUDE[prod_short](includes/prod_short.md)] -ohje
 |Sallii viestin lähettämisen vastaanottajalle? | Kyllä |Ei |Ei | Kyllä |
 |Sisältää maksun viitenumeron? | Ei | Kyllä, 16 numeroa. | Kyllä, 15 numeroa. | Ei|
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Toimittajat** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Toimittajat** ja valitse sitten vastaava linkki.  
 2. Avaa kortti, laajenna **Maksut**-välilehti ja valitse maksutapa **Maksutapa**-kentässä.  
 3. Täytä myös muita kenttiä valinnastasi riippuen. Yhdistelmien kuvaukset löytyvät yllä olevasta taulukosta.  
 
 ### <a name="to-specify-the-format-to-use-for-a-bank-account"></a>Pankkitilin käytettävän muodon määrittäminen
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tilit** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pankkitilit** ja valitse sitten vastaava linkki.  
 2. Avaa pankkitilin kortti.  
 3. Valitse **Maksun vientimuoto** -kentässä vientitiedoston muoto.  
 
 ## <a name="choosing-the-fik-or-giro-payment-information-for-vendor-invoices"></a>Toimittajan laskujen FIK:n tai tilisiirron tietojen valitseminen
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Ostolaskut** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostolaskut** ja valitse sitten vastaava linkki.
 2. Valitse toimittaja. Muista, että toimittajan on oltava tanskalainen, jolla on myös osoite Tanskassa.
 3. Luo lasku. **Maksutapa**- ja **Toimittajan numero** -kentät täytetään toimittajan kortin asetusten perusteella. Voit halutessasi muuttaa tietoja.
 4. Syötä **Maksuviittaus**-kenttään toimittajan laskun 15 numeron sarja.  
@@ -93,7 +93,7 @@ Seuraavassa taulukossa ovat [!INCLUDE[prod_short](includes/prod_short.md)] -ohje
 
 ## <a name="to-use-the-extension-to-export-payment-data"></a>Laajennuksen käyttäminen maksutietojen viennissä
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maksupäiväkirjat** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maksupäiväkirjat** ja valitse sitten vastaava linkki.  
 2. Valitse **Ehdota toimittajan maksupäiväkirjat** -toiminto.  
 
     > [!Tip]

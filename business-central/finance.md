@@ -1,6 +1,6 @@
 ---
 title: Taloushallinto
-description: Tutustu siihen, miten Business Central tukee taloushallinnon, kirjanpidon, tilintarkastuksen tai kirjanpidon tarpeita.
+description: Tutustu siihen, miten Business Central tukee taloushallinnon, kirjanpidon, tilintarkastuksen ja kirjanpidon tarpeita.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 04/01/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: e6f6769ec8aefebaf1cabd6c2ec764c454780426
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 842c2723fb62775e35673614c609257fe9439115
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773753"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6326886"
 ---
-# <a name="finance"></a>Rahoitus
+# <a name="financial-management"></a>Taloushallinto
 
 [!INCLUDE[prod_short](includes/prod_short.md)] sisältää useimpien taloushallinnon prosessien vakiomäärityksen. Voit muuttaa määritystä omaa liiketoimintaasi vastaavaksi. Lisätietoja on kohdassa [Rahoituksen määrittäminen](finance-setup-finance.md).
 
@@ -44,14 +44,14 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 | Liitä lisäkustannukset, kuten rahti- ja fyysisen käsittelyn kustannukset, joita joudut maksamaan kaupan yhteydessä nimikkeisiin, jotta kustannukset vaikuttavat varastonarvostukseen. |[Kaupan lisäkustannusten huomiointi nimikekulujen avulla](payables-how-assign-item-charges.md) |
 |Kirjaa työntekijöiden liiketoimintaan liittyvät henkilökohtaiset kulut ja tee hyvitykset suorittamalla maksu työntekijän pankkitilille.|[Työntekijöiden kulujen kirjaaminen ja hyvittäminen](finance-how-record-reimburse-employee-expenses.md)|
 | Tulouta tuotot ja kulut muissa kuin niissä jaksoissa, joiden tapahtumat on kirjattu. |[Tuottojen ja kulujen siirtäminen](finance-how-defer-revenue-expenses.md)|
-| Tietoja käytettävissä olevista vaihtoehdoista, jotka automatisoivat tilauslaskujen lähettämisen asiakkaille ja rekisteröivät toistuvan tuoton. |[Toistuva (tilaus-) tuotto](finance-recurring-invoicing.md)|
+| Tietoja käytettävissä olevista vaihtoehdoista, jotka automatisoivat tilauslaskujen lähettämisen asiakkaille ja rekisteröivät toistuvan tuoton. |[Toistuvan tuoton käsitteleminen](finance-recurring-invoicing.md)|
 |Lisätietoja lisävaluuttojen käytöstä ja vaihtokurssien päivittämisestä automaattisesti. |[Valuutan vaihtokurssien päivittäminen](finance-how-update-currencies.md)|
 | Tuo palkkatapahtumat palkanlaskennan tarjoajalta pääkirjanpitoon. |[Tuo palkkatapahtumat](finance-how-import-payroll-transactions.md)|
 |Laske myynti- ja ostotapahtumien arvonlisävero (ALV) funktioiden avulla, jotta voit raportoida summat veroviranomaisille.|[Myynnin ja ostojen ALV:n käsitteleminen](finance-work-with-vat.md)|
 |valmistele raportti, jossa luetellaan myynneistä saatu arvonlisävero ja lähetä raportti EU:n veroviranomaiselle. | [ALV:n raportointi veroviranomaisille](finance-how-report-vat.md)|
 |Muunna palvelusopimusten ALV-prosentti muuntamalla palvelusopimuksia manuaalisesti.|[ALV-summia sisältävien huoltosopimusten muuntaminen](service-how-to-convert-service-contracts.md)|
 | Seuraa yrityksen kassavirtaliikennettä. |[Yrityksen kassavirtojen analysoiminen](finance-analyze-cash-flow.md) |
-|Seuranta ja päästä päähän -menettely kassavirtaennusteiden tekemisessä KP-raporttimallien avulla,|[Vaihekuvaus: tehdään kassavirtaennusteita käyttäen KP-raporttimalleja](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)|
+|Noudata ja päästä päähän -menettelyä kassavirtaennusteiden tekemisessä KP-raporttimallien avulla.|[Vaihekuvaus: Kassavirtaennusteiden tekeminen käyttäen KP-raporttimalleja](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)|
 | Käsittele tilinpäätöksiä ja yhteenvetoja Excelissä. |[Rahoituslaskelmien analysointi Excelissä](finance-analyze-excel.md) |
 |Lisätietoja kirjanpitäjän roolikeskuksesta, ulkoisen kirjanpitäjän kutsumisesta ja useiden asiakkaiden tilien hallinnasta yritystoiminnon avulla.|[Kirjanpitäjän käyttökokemukset Business Centralissa](finance-accounting.md)|  
 

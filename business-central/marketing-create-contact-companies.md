@@ -1,6 +1,6 @@
 ---
 title: Liiketoiminnan kontaktien luominen
-description: Määrittää tehtävät luomaan kontakteja ja määrittämään liikesuhteet.
+description: Hahmottelee kontaktien luomiseen ja liikesuhteiden määrittämiseen liittyvät tehtävät kontaktin kortissa.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2021
+ms.date: 07/08/2021
 ms.author: edupont
-ms.openlocfilehash: 305d1460b93c1294335b5a8afcf42593c465ebe4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4ab9b6051f93daa9f1b342ed8a5fbaa7bbd9c4b2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780796"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435317"
 ---
 # <a name="create-contacts"></a>Kontaktien luominen
+
 Kun luot liiketoiminnan kontaktin johonkuhun toisessa yrityksessä, lisää heidät yhteyshenkilönä [!INCLUDE[prod_short](includes/prod_short.md)]iin. Lisää sitten kontakteista tai kontaktien yrityksestä tietoja, jotka voivat olla hyödyllisiä tulevissa yhteyksissä. **Kontaktin kortti** -sivulla voit luoda seuraavanlaisia kontaktityyppejä:
 
 * **Henkilö** - Yleensä olet ollut suorassa kosketuksessa jonkun kanssa ja sinulla on heidän yhteystietonsa.
@@ -29,8 +30,13 @@ Voit myös muuttaa **Tyyppi**-kentän arvoa myöhemmin. Vaihtoehtoisesti voit k�
 
 Kun yhteyshenkilö muunnetaan esimerkiksi asiakkaaksi, yhteyshenkilö tai yhteyshenkilön yrityksestä tulee asiakkaan nimi. Kontaktin tietueet säilytetään, ja voit linkittää kontaktin ja asiakkaan niin, että heidän tietonsa synkronoidaan eteenpäin.
 
+> [!NOTE]
+> Jos otat käyttöön [muuntomallien ominaisuuspäivityksen](/dynamics365-release-plan/2020wave2/smb/dynamics365-business-central/use-conversion-templates-convert-contacts-vendors-employees), voit luoda liiketoimintakontakteista myös toimittajia tai työntekijöitä.
+>
+> Jos kuitenkin käytät jo sisäänrakennettua toimintoa asiakkaiden tai nimikkeiden automaattiseen luomiseen, tämä ominaisuuspäivitys ei tue mukautettuja kenttiä, eivätkä äskettäin luodut asiakkaat tai kohteet sisällä tällaisia tietoja.
+
 ## <a name="to-create-a-contact-manually"></a>Kontaktin luominen manuaalisesti
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Yhteyshenkilöt** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kontaktit** ja valitse sitten vastaava linkki.
 2. Valitse **Uusi**-toiminto.
 3. Valitse **Nro**-kenttään kontaktin numero.
 
@@ -43,7 +49,7 @@ Jos sinulla on asiakkaita, toimittajia ja pankkitilejä, joille haluat luoda kon
 > [!NOTE]  
 > Ennen aiemmin luotuihin tietoihin perustuvien kontaktien luontia asiakkaiden, toimittajien tai pankkitilien liikesuhteen koodi on määritettävä **Kontaktienhallinnan asetukset** -sivun **Vuorovaikutukset**-pikavälilehdessä. Lisätietoja on kohdassa [Yhteyshenkilöiden määrittäminen](marketing-setup-contacts.md).
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna jokin seuraavista sen perusteella, mistä haluat luoda kontakteja, ja valitse liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä jokin seuraavista sen mukaan, mistä haluat luoda kontaktit, ja valitse sitten vastava linkki.
    * **Luo kontakteja asiakkaista**
    * **Luo kontakteja toimittajista**
    * **Luo kontakteja pankkitileistä**
@@ -61,7 +67,7 @@ Jos yrityksellä, jolle haluat luoda yhteyshenkilön, on asiakas, toimittaja, ty
 > [!NOTE]  
 > Ennen kontaktien luontia asiakkaiden, toimittajien, työntekijöiden tai pankkitilien liikesuhteen koodi on määritettävä **Kontaktienhallinnan asetukset** -sivun **Vuorovaikutukset**-pikavälilehdessä. Lisätietoja on kohdassa [Kontaktien määrittäminen](marketing-setup-contacts.md).
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Yhteyshenkilöt** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kontaktit** ja valitse sitten vastaava linkki.
 2. Valitse kontakti, jonka haluat luoda asiakkaana, toimittajana, työntekijänä tai pankkitilinä.
 3. Valitse **Luo**-toiminto ja valitse sitten **Asiakas**, **Toimittaja**, **Pankki** tai **Työntekijä**.
 4. Valitse **OK**-painike.
@@ -109,7 +115,7 @@ Tietojen synkronointi asiakkaiden, toimittajien, työntekijöiden tai pankkitili
 * Linkittämällä kontakteja aiemmin luotuihin asiakkaisiin, toimittajiin, työntekijöihin tai pankkitileihin kontaktikortista. Katso [Kontaktin linkittäminen olemassa olevaan asiakkaaseen, toimittajaan tai pankkitiliin](marketing-create-contact-companies.md#to-link-a-contact-to-an-existing-customer-vendor-employee-or-bank-account).
 
 ## <a name="to-view-which-customer-vendor-employee-or-bank-account-a-contact-is-related-to"></a>Tarkistetaan, mihin asiakkaaseen, toimittajaan, työntekijään tai pankkitiliin yhteyshenkilö liittyy
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Yhteyshenkilöt** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kontaktit** ja valitse sitten vastaava linkki.
 2. Valitse yhteyshenkilön rivi. Valitse **Liittyvät tiedot** -toiminto ja valitse sitten **Asiakas/toimittaja/pankkitili/työntekijä**-toiminto.
 
 ## <a name="see-also"></a>Katso myös

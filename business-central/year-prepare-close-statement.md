@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: f58ee0ab43e8d43ae2d08e67cec52a9dd63ac202
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: dadfa25189aa44c032dd03aee053be39d87bc4d2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776639"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435907"
 ---
 # <a name="preparing-closing-statements"></a>Tilinpäätöslaskelmien valmisteleminen
 Yrityksen tilinpäätöslaskelmien laatimiseen tarvittavien tietojen keräämistä varten on useita vakioraportteja.
@@ -32,7 +32,7 @@ Seuraavassa taulukossa on luettelo raporteista, joista voi olla hyötyä tässä
 | KP-raporttimallin tulostaminen kirjanpitotilien lukujen analysoimista varten tai todellisten pääkirjanpidon tapahtumien vertaamiseksi pääkirjanpidon budjettitapahtumiin. |**KP-raporttimalli** |
 | Tarkistaminen, täsmäävätkö asiakas- ja toimittajatapahtumat vastaavien pääkirjanpidon tapahtumien kanssa. |**Täsm. asiak.- ja toim.tilit** |
 
-Jos haluat nähdä kaikki raportin, valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvakkeen, kirjoita taulukossa oleva nimi ja valitse sitten liittyvä linkki.
+Raportin nähdäksesi valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita nimi sellaisena kuin se näkyy taulukossa ja valitse sitten liittyvä linkki.
 
 ## <a name="see-also"></a>Katso myös
 [Vuosien ja jaksojen sulkeminen](year-close-years-periods.md)  

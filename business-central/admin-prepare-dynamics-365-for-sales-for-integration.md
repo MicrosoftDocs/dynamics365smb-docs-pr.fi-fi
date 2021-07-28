@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 Sales -integrointi| Microsoft Docs
-description: Tietoja Dynamics 365 Business Centralin valmistelusta Dynamics 365 Sales -integrointia varten.
+title: Dynamics 365 Sales -integrointi
+description: Lue, miten Dynamics 365 Business Centralin voi valmistaa integroimaan Dynamics 365 Salesin kanssa nähdäksesi, mitä taustasovelluksessa tapahtuu.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6683d8b3a01693d23366f95292eb92f0aabcd268
-ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
+ms.openlocfilehash: 437287401003cc008e3a998e7d28fb7862415abc
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6184497"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6325466"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Dynamics 365 Sales -integrointi
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -67,7 +67,6 @@ Anna seuraavat tiedot yhteyden muodostamiseen [!INCLUDE[crm_md](includes/crm_md.
 
 | Kenttä | Kuvaus |
 |--|--|
-| **Dynamics 365 Sales -ohjelman URL-osoite** | [!INCLUDE[crm_md](includes/crm_md.md)] -ilmentymän URL-osoite. Näin käyttäjät voivat avata vastaavat tietueet [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksessa [!INCLUDE[crm_md](includes/crm_md.md)] -sovelluksen tietueista, kuten tilistä tai tuotteesta. [!INCLUDE[prod_short](includes/prod_short.md)]in tietueet avautuvat [!INCLUDE[prod_short](includes/prod_short.md)]issa. |
 |**Dynamics 365 Sales -ohjelman URL-osoite**|[!INCLUDE[crm_md](includes/crm_md.md)] -ilmentymän URL-osoite. Näin käyttäjät voivat avata vastaavat tietueet [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksessa [!INCLUDE[crm_md](includes/crm_md.md)] -sovelluksen tietueista, kuten tilistä tai tuotteesta. [!INCLUDE[prod_short](includes/prod_short.md)]in tietueet avautuvat [!INCLUDE[prod_short](includes/prod_short.md)]issa.|
 |**Nimikkeen saatavuus -verkkopalvelu käytössä**|Antaa [!INCLUDE[crm_md](includes/crm_md.md)]ia käyttäville henkilöille mahdollisuuden tarkastella nimikkeiden (tuotteiden) varastosaatavuutta [!INCLUDE[prod_short](includes/prod_short.md)]issa. Jos otat tämän vaihtoehdon käyttöön, sinun on annettava myös [!INCLUDE[crm_md](includes/crm_md.md)]in käyttäjänimi ja käyttöoikeusavain, mikäli haluat tehdä nimikkeiden (tuotteiden) saatavuuskyselyn OData-verkkopalvelun avulla. Lisätietoja on kohdassa [OData-verkkopalvelut](/dynamics365/business-central/dev-itpro/webservices/odata-web-services).|
 |**Dynamics 365 Business Centralin OData-verkkopalvelun URL-osoite**|Jos otat Nimikkeen saatavuus -verkkopalvelun käyttöön, saat OData-verkkopalvelun URL-osoitteen. Määritä tämän kentän arvoksi käytettävän [!INCLUDE[prod_short](includes/prod_short.md)] -esiintymän URL-osoite.<br /><br /> Voit palauttaa kenttään [!INCLUDE[prod_short](includes/prod_short.md)]in oletusarvoisen URL-osoitteen valitsemalla **Palauta verkkoasiakasohjelman URL-osoite** -toiminnon.<br /><br /> Tällä kentällä on merkitystä vain, jos [!INCLUDE[prod_short](includes/prod_short.md)] -integrointiratkaisu on asennettu [!INCLUDE[crm_md](includes/crm_md.md)]issa.|
@@ -149,8 +148,11 @@ Seuraavassa taulukossa kuvaillaan Salesin synkronoinnin oletustyöt.
 |KIRJMNTILASKU-LASK – Dynamics 365 Salesin synkronointityö|Synkronoi [!INCLUDE[crm_md](includes/crm_md.md)]in laskut ja [!INCLUDE[prod_short](includes/prod_short.md)]in kirjatut myyntilaskut.|[!INCLUDE[prod_short](includes/prod_short.md)]ista [!INCLUDE[crm_md](includes/crm_md.md)]iin|LASKUT-KIRJATUT MYYNTILASKUT|30|1440<br> (24 tuntia)|
 |Asiakastilastot – Dynamics 365 Salesin synkronointityö|Päivittää [!INCLUDE[crm_md](includes/crm_md.md)]in tilit uusilla [!INCLUDE[prod_short](includes/prod_short.md)]in asiakastiedoilla. Nämä tiedot näkyvät [!INCLUDE[crm_md](includes/crm_md.md)]issa niiden tilien **Business Central -tilin tilastot** -pikanäkymälomakkeessa, jotka on yhdistetty [!INCLUDE[prod_short](includes/prod_short.md)]in asiakkaisiin.<br /><br /> Nämä tiedot voidaan päivittää myös manuaalisesti kustakin asiakastietueesta. Lisätietoja on kohdassa [Tietueiden yhdistäminen ja synkronoiminen manuaalisesti](admin-how-to-couple-and-synchronize-records-manually.md). </BR></BR>**Huomautus:** Tällä työjonotapahtumalla on merkitystä vain, jos [!INCLUDE[prod_short](includes/prod_short.md)] -integrointiratkaisu on asennettu [!INCLUDE[crm_md](includes/crm_md.md)]iin. |Ei sovellu|Ei sovellu|30|Ei sovellu| 
 
-## <a name="connecting-business-central-on-premises-versions-earlier-than-version-16"></a>Versiota 16 aikaisempien Business Central On-Premises -versioiden yhdistäminen
-Microsoft Power Platform -tiimi on [ilmoittanut](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse), että se poistaa käytöstä Office365-todennus tyypin. Jos käytät [!INCLUDE[prod_short](includes/prod_short.md)] on-premises -versioita, jotka ovat vanhempia kuin 16, sinun on käytettävä OAuth-todennustyyppiä yhteyden muodostamiseen [!INCLUDE[crm_md](includes/crm_md.md)] onlineen. Tässä osassa kerrotaan, miten yhteys muodostetaan.
+## <a name="connecting-to-on-premises-versions-of-business-central-2019-release-wave-1-and-microsoft-dynamics-nav-2018"></a>Yhteyden muodostaminen Business Central 2019:n julkaisuaallon 1 ja Microsoft Dynamics NAV 2018:n paikallisiin versioihin
+Microsoft Power Platform -tiimi on [ilmoittanut](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse), että se poistaa käytöstä Office365-todennus tyypin. Jos käytät [!INCLUDE[prod_short](includes/prod_short.md)]in paikallista versioita, joka on vanhempi kuin Business Central 2019:n julkaisuaalto 1, sinun on käytettävä OAuth-todennustyyppiä yhteyden muodostamiseen [!INCLUDE[crm_md](includes/crm_md.md)] onlineen. Tässä osassa kerrotaan, miten seuraavat tuoteversiot yhdistetään:
+
+* Business Central 2019:n julkaisuaalto 1
+* Microsoft Dynamics NAV 2018
 
 ### <a name="prerequisites"></a>Vaatimukset
 
@@ -164,9 +166,13 @@ Microsoft Power Platform -tiimi on [ilmoittanut](/power-platform/important-chang
 
    - OAuth
 
-### <a name="to-connect-a-version-of-business-central-earlier-than-version-16"></a>Versiota 16 aikaisempien Business Central -versioiden yhdistäminen
+### <a name="to-connect-business-central-2019-release-wave-1-and-dynamics-nav-2018"></a>Business Central 2019:n julkaisuaallon 1 ja Dynamics NAV 2018:n yhdistäminen
 
-1. Tuo Microsoft Dynamics 365 Business Central -integrointiratkaisu [!INCLUDE[crm_md](includes/crm_md.md)] -ympäristöösi. Integrointiratkaisu on käytettävissä Business Centralin DVD-asennuslevyn CrmCustomization-kansiossa. Ratkaisusta on monta versiota, kuten DynamicsNAVIntegrationSolution_v8, DynamicsNAVIntegrationSolution_v9 tai DynamicsNAVIntegrationSolution_v91. Tuotava ratkaisu riippuu siitä, mihin [!INCLUDE[crm_md](includes/crm_md.md)] -versioon olet muodostamassa yhteyttä. [!INCLUDE[crm_md](includes/crm_md.md)] online edellyttää DynamicsNAVIntegrationSolution_v91-integrointiratkaisun.
+1. Tuo Microsoft Dynamics 365 Business Central -integrointiratkaisu [!INCLUDE[crm_md](includes/crm_md.md)] -ympäristöösi. Integrointiratkaisu on käytettävissä CrmCustomization-kansiossa [!INCLUDE[prod_short](includes/prod_short.md)]- tai Dynamics NAV -DVD-asennuslevyllä. Tuo tuoteversiostasi riippuen jokin seuraavista:
+
+   * [!INCLUDE[prod_short](includes/prod_short.md)]: kansio, joka sisältää DynamicsNAVIntegrationSolution_v9 and DynamicsNAVIntegrationSolution_v91. -ratkaisut. Tuotava ratkaisu riippuu siitä, mihin [!INCLUDE[crm_md](includes/crm_md.md)] -versioon olet muodostamassa yhteyttä. [!INCLUDE[crm_md](includes/crm_md.md)] online edellyttää DynamicsNAVIntegrationSolution_v91-integrointiratkaisun.
+   * Dynamics NAV 2018: asenna DynamicsNAVIntegrationSolution-ratkaisu.
+
 2. Luo [!INCLUDE[crm_md](includes/crm_md.md)] -ympäristöösi ei-vuorovaikutteinen integrointikäyttäjä ja määritä käyttäjälle seuraavat käyttöoikeusroolit. Lisätietoja on kohdassa [Ei-vuorovaikutteisen käyttäjätilin luominen](/power-platform/admin/create-users-assign-online-security-roles#create-a-non-interactive-user-account).
 
    * Dynamics 365 Business Central -sovelluksen integroinnin järjestelmänvalvoja
@@ -175,17 +181,29 @@ Microsoft Power Platform -tiimi on [ilmoittanut](/power-platform/important-chang
    > [!Important]
    > Käyttäjällä ei saa olla järjestelmänvalvojan käyttöoikeusroolia. Et voi myöskään käyttää järjestelmänvalvojan tiliä integrointikäyttäjänä.
 
-3.  Luo [!INCLUDE[prod_short](includes/prod_short.md)]in sovellusrekisteröinti Azure-portaalissa. Ohjeita on kohdassa [Sovelluksen rekisteröinti Azure Active Directoryssa](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory). [!INCLUDE[crm_md](includes/crm_md.md)] -yhteyden muodostamiseen liittyvät asetukset ovat delegoituja oikeuksia. Seuraavassa taulukossa on luettelo ja kuvaukset oikeuksista.
+3.  Azure-portaali: luo sovellusrekisteröinti [!INCLUDE[prod_short](includes/prod_short.md)]ille. Lisätietoja on kohdassa [Sovelluksen rekisteröiminen Azure Active Directoryssa](/powerapps/developer/data-platform/walkthrough-register-app-azure-active-directory). 
+  
+   > [!NOTE]
+   > Suosittelemme, että rekisteröit sovelluksen samaan vuokraajaan Dataverse-ympäristösi kanssa, jotta sinun ei tarvitse antaa sovellukselle suostumusta käyttää ympäristöä. Jos rekisteröit sovelluksen toisessa ympäristössä, sinun on kirjauduttava sisään Dataverse-ympäristösi Azure AD -järjestelmänvalvojan tilille ja annettava suostumus.
+   >
+   > Lisäksi rekisteröimälläsi sovelluksella ei saa olla salaisuutta. Sovelluksen yhdistäminen salaisuuden kanssa Dataverseen on käytettävissä vain Business Central 2020:n julkaisuaallossa 1 ja sitä uudemmissa.
+  
+4. Tee tuoteversiostasi riippuen jokin seuraavista:
 
-   |Ohjelmistorajapinta / käyttöoikeuden nimi |Tyyppi  |Kuvaus  |
-   |---------|---------|---------|
-   |Financials.ReadWrite.All     |Delegoitu|Pakollinen kohteelle: [!INCLUDE[prod_short](includes/prod_short.md)].    |
-   |user_impersonation     |Delegoitu|Pakollinen kohteelle: [!INCLUDE[crm_md](includes/crm_md.md)].|
-   
-4. Etsi [!INCLUDE[prod_short](includes/prod_short.md)]issa **Microsoft Dynamics 365 -yhteysasetukset** ja valitse sitten liittyvä linkki. 
-5. Valitse **Microsoft Dynamics 365 -yhteysasetukset** -sivun **Todennustyyppi**-kentässä OAuth-asetus. 
+    * Etsi [!INCLUDE[prod_short](includes/prod_short.md)]issa **Microsoft Dynamics 365 -yhteysasetukset** ja valitse sitten liittyvä linkki. 
+    * Etsi Dynamics NAV 2018:ssa **Microsoft Dynamics 365 for Sales -yhteysasetukset** ja valitse sitten liittyvä linkki.
+
+5. Valitse **Todennustyyppi**-kentässä OAuth-vaihtoehto. 
 6. Valitse CRM SDK -versio, joka vastaa vaiheessa 1 tuotua ratkaisuversiota.
-7. Kirjoita **Palvelimen osoite** -kenttään [!INCLUDE[crm_md](includes/crm_md.md)] -ympäristösi URL-osoite ja kirjoita sitten integrointikäyttäjän käyttäjänimi ja salasana.
+
+   > [!NOTE]
+   > Tämä vaihe on merkityksellinen vain [!INCLUDE[prod_short](includes/prod_short.md)]ille
+
+7. Syötä [!INCLUDE[crm_md](includes/crm_md.md)] -ympäristösi URL-osoite ja syötä sitten integrointikäyttäjän käyttäjänimi ja salasana. 
+
+   * Käytä [!INCLUDE[prod_short](includes/prod_short.md)]issa **Palvelimen osoite** -kenttää.
+   * Käytä Dynamics NAV 2018:ssa **Dynamics 365 Sales URL** -kenttää.
+
 8. Kirjoita **Yhteysmerkkijono**-kenttään sovellusrekisteröinnin tunnus. Tässä kentässä on kaksi tunnusmerkkijonoa, joissa on määritettävä sovelluksen tunnus.
 
    |Tunnus           |Kuvaus  |

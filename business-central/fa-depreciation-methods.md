@@ -1,6 +1,6 @@
 ---
 title: Käyttöomaisuuden poistomenetelmät
-description: Tietoja eri sisäänrakennetusta käyttöomaisuuserien poiston tai arvon alennuksen menetelmistä Business Centralin oletusversiossa.
+description: Tietoja eri sisäänrakennetusta käyttöomaisuuserien poiston tai arvon alennuksen kahdeksasta menetelmästä Business Centralin oletusversiossa.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 04/01/2021
+ms.date: 07/05/2021
 ms.author: edupont
-ms.openlocfilehash: 9e531a4f304829b0549fbe21e8d671708373ab22
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 649a60f815da072a1a2794492c4e957ca74d8e08
+ms.sourcegitcommit: a8a01561f46c0a60f8bfd7985be0dcd3e28441fa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774153"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343372"
 ---
 # <a name="depreciation-methods-for-fixed-assets"></a>Käyttöomaisuuden poistomenetelmät
 
@@ -29,7 +29,7 @@ ms.locfileid: "5774153"
 * Käyttäjäkohtainen  
 
   > [!NOTE]  
-  > Määritä oma poistotapa määrittämällä poistotaulukot.
+  > Määritä oma poistotapa määrittämällä poistotaulukot. Lisätietoja käyttäjän määrittämän poistomenetelmän soveltamisesta on kohdassa [Käyttäjän määrittämän poistomenetelmän määrittäminen](fa-how-setup-user-defined-depreciation-method.md).
 * Manuaalinen  
 
   > [!NOTE]  
@@ -220,74 +220,6 @@ Laskentamenetelmä:
     *Tasapoistosumma = 23 730,46/3 = 7 910,15=3 995,07+3 995,08*  
 
     Tässä käytetään tasapoistosummaa, koska se on suurempi.  
-
-## <a name="user-defined-depreciation"></a>Käyttäjän määrittämä poisto
-
-Sovelluksessa on ominaisuus, joka mahdollistaa käyttäjäkohtaisten poistomenetelmien määrittämisen.  
-
-Käyttäjäkohtaisessa menetelmässä käytetään **Poistotaulukot**-sivu, johon tulee syöttää poistoprosentti kullekin jaksolle (kuukaudelle, vuosineljännekselle tai kirjanpitojaksolle). Kun käyttöomaisuudelle liitetään poistoirja, jossa on käyttäjän määrittämä menetelmä, sinun täytyy määrittää **Ens. käyttäjäkoht. poistopvm**- ja **Poiston aloituspvm** -kentät tietyn käyttöomaisuuserän **KO-poistokirjat**-sivulla.  
-
-Poistosumman laskennan kaava on:  
-
-*Poistosumma = (Poisto-% x Poistopäivien lkm x Poistopohja) / (100 x 360)*  
-
-### <a name="depreciation-based-on-number-of-units"></a>Yksiköiden lukumäärään perustuvat poistot
-
-Tätä käyttäjäkohtaista menetelmää voidaan käyttää myös poistoissa, jotka perustuvat yksiköiden lukumäärään, esimerkiksi sellaisten tuotantokoneiden kohdalla, joiden eliniän kapasiteetti on vakio. **Poistotaulukot**-sivulle voidaan syöttää yksiköiden lukumäärä, joka voidaan tuottaa kullakin ajanjaksolla (kuukaudessa, neljännesvuodessa, vuodessa tai kirjanpitojakson aikana).  
-
-### <a name="to-set-up-user-defined-depreciation-methods"></a>Käyttäjäkohtaisten poistomenetelmien määrittäminen
-
-**Poistotaulukon kortti** -sivulla voidaan määrittää käyttäjäkohtaiset poistomenetelmät. Voit esimerkiksi määrittää poiston yksiköiden määrän perusteella.  
-
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poistotaulukot** ja valitse sitten liittyvä linkki.  
-2. Valitse **Poistotaulukkoluettelo**-sivulla **Uusi**-toiminto.  
-3. Täytä **Poistotaulukon kortti** -sivulla tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-
-> [!TIP]
-> Käytä **Luo numeroiden summataulukko** -funktiota, jotta voit määrittää poistotaulukon, joka perustuu *Numeroiden summa* -menetelmään.
-
-Jos käyttöomaisuudelle tehdään poistoja neljän vuoden aikana, kunkin vuoden poisto lasketaan seuraavalla tavalla *Numeroiden summa* -menetelmällä:
-
-Numeroiden summa = 1 + 2 + 3 + 4 = 10 Poisto:
-
-* Vuosi 1 = 4/10  
-* Vuosi 2 = 3/10  
-* Vuosi 3 = 2/10  
-* Vuosi 4 = 1/10  
-
-### <a name="example---user-defined-depreciation"></a>Esimerkki - käyttäjän määrittämä poisto
-
-Käytä poistomenetelmää, joka mahdollistaa poistojen tekemisen käyttöomaisuuseriin nopeutetusti tuloverotarkoituksia varten.  
-
-Voit käyttää seuraavia poistoarvoja verotustarkoituksia varten käyttöomaisuudelle, jonka ikä on kolme vuotta:  
-
-* Vuosi 1: 25 %  
-* Vuosi 2: 38 %  
-* Vuosi 3: 37 %  
-
-Hankintameno on 100 000 PVA ja poistoaika on viisi vuotta. Poisto lasketaan vuosittain.  
-
-| Pvm | KO:n kirjaustyyppi | Päivää | Summa | Kirjanpitoarvo |
-| --- | --- | --- | --- | --- |
-| 01/01/20 |Hankintameno |(Poiston aloituspvm) |100,000.00 |100,000.00 |
-| 12/31/20 |Arvonalennus |360 |-25.000,00 |75,000.00 |
-| 12/31/21 |Arvonalennus |360 |-38.000,00 |37,000.00 |
-| 12/31/22 |Arvonalennus |360 |-37.000,00 |0 |
-| 12/31/23 |Arvonalennus |Ei yhtään |Ei yhtään |0 |
-| 12/31/24 |Arvonalennus |Ei yhtään |Ei yhtään |0 |
-
-Jos käytät käyttäjäkohtaista menetelmää, **Ens. käyttäjäkoht. poistopvm**- ja **Poiston aloituspvm**-kenttä tulee olla täytettynä tietyn käyttöomaisuuserän **KO-poistokirjat**-sivulla. **Ens. käyttäjäkoht. poistopvm** -kenttää ja **Poistotaulukot**-sivun **Jakson pituus** -kentän sisältöä käytetään määrittämään poistolaskennassa käytettäviä aikavälejä. Näin varmistetaan, että sovellus aloittaa määritetyn prosenttiosuuden käyttämisen samana päivinä kaikissa omaisuuserissä. **Poiston aloituspvm** -kenttää käytetään laskemaan poistopäivien lukumäärä.  
-
-Edellisessä esimerkissä sekä **Ens. käyttäjäkoht. poistopvm**- ja **Poiston aloituspvm** -kentissä olisi arvo 01/01/20 tietyn käyttöomaisuuserän **KO-poistokirjat** -sivulla. Jos kuitenkin **Ens. käyttäjäkoht. poistopvm** -kentässä oli 1.1.20 ja **Poiston aloituspvm** -kentässä oli 1.4.20, tuloksena olisi:  
-
-| Pvm | KO:n kirjaustyyppi | Päivää | Summa | Kirjanpitoarvo |
-| --- | --- | --- | --- | --- |
-| 01/01/20 |Hankintameno |(Poiston aloituspvm) |100,000.00 |100,000.00 |
-| 12/31/20 |Arvonalennus |270 |-18.750,00 |81,250.00 |
-| 12/31/21 |Arvonalennus |360 |-38.000,00 |42,250.00 |
-| 12/31/22 |Arvonalennus |360 |-37.000,00 |6,250.00 |
-| 12/31/23 |Arvonalennus |90 |-6.250,00 |0 |
-| 12/31/24 |Arvonalennus |Ei yhtään |Ei yhtään |0 |
 
 ## <a name="half-year-convention-depreciation"></a>Poisto puolivuotissopimusta käyttämällä
 

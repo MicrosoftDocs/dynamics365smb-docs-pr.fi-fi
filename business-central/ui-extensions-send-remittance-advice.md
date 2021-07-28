@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms. search.keywords: app, add-in, manifest, customize, stream, remittance, advice
-ms.date: 04/01/2021
+ms.search.keywords: app, add-in, manifest, customize, stream, remittance, advice
+ms.date: 07/06/2021
 ms.author: edupont
-ms.openlocfilehash: 7560131ec60d9cf494bdd87884f169e00ec89382
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a5b1245a47975f2db9465c5dc101ee13eea74248
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784713"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6434857"
 ---
 # <a name="send-remittance-advice"></a>Lähetä Maksusuoritustietojen Ohjeet
 
@@ -35,6 +35,13 @@ Voit lähettää maksusuoritetietojen ohjeita kahdella eri tapaa:
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md)  
-
+[Sähköinen rahansiirto (EFT) Australia-versiossa](localfunctionality/australia/electronic-funds-transfer-eft-.md)  
+[Sähköisten maksujen suorittaminen (CA)](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  
+[Sähköinen rahansiirto (EFT) Uusi-Seelanti-versiossa](localfunctionality/newzealand/electronic-funds-transfer-eft-.md)  
+[Uusi-Seelannin paikalliset toiminnot](localfunctionality/newzealand/new-zealand-local-functionality.md)  
+[Yhdistyneen kuningaskunnan paikallinen toiminnallisuus brittiversiossa](localfunctionality/unitedkingdom/united-kingdom-local-functionality.md)  
+[Maksuosoitusehdotuksen tulostaminen brittiversiossa](localfunctionality/unitedkingdom/how-to-print-remittance-advice.md)  
+[Sähköisten maksujen suorittaminen (US)](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  
+  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

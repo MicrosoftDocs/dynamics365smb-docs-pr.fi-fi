@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: task, process
 ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: 05b65f5b001259fff25d0f59dfc6267d9ee00c7f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 42cb5f19dde06211136b0b3b276fed2ba267ec62
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782251"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435267"
 ---
 # <a name="run-batch-jobs-and-xmlports"></a>Eräajojen ja XMLportien suorittaminen
 Eräajo on rutiini, joka käsittelee tietoja erissä, esimerkiksi **Valuuttakurssien muutoksen** eräajo. Ohjelmassa on eräajoja, jotka suorittavat säännöllisiä kirjanpidon toimintoja, kuten tuloslaskelman sulkeminen tilikauden päättyessä. Monet eräajot suorittavat laskutoimituksia. Tällaiset eräajot voivat esimerkiksi laskea viivästyskulut, vaihtokurssien muutoksen tai yksikköhinnat.
@@ -27,7 +27,7 @@ Eräajo vastaa raporttia, mutta se päivittää tiedot suoraan saatujen tulosten
 Voit aikatauluttaa eräajon suorittamisen. Lisätietoja on kohdassa [Tehtävien aikatauluttaminen työjonojen avulla](admin-job-queues-schedule-tasks.md).
 
 ## <a name="to-run-a-batch-job"></a>Eräajon suorittaminen
-1. Jos haluat avata liittyvän erätyön pyyntösivun, valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna erätyön nimi ja valitse sitten liittyvä linkki.
+1. Jos haluat avata asianomaisen eräajon pyyntösivun, valitse ![Hehkulamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä eräajon nimi ja valitse sitten liittyvä linkki.
 2. Jos eräajolla on **Vaihtoehdot**-pikavälilehti, voit määrittää eräajon toiminnan täyttämällä kentät.
 3. Sivulla voi olla yksi tai useita pikavälilehtiä ja suodattimia, joiden avulla voidaan rajoittaa eräajoon sisällytettyjä tietoa. Voit syöttää kriteerin ehdotetuille suodattimille tai lisätä suodattimia.
 4. Aloita eräajo valitsemalla **OK**.

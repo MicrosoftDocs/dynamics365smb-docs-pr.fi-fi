@@ -1,6 +1,6 @@
 ---
-title: Nimikkeiden toimittaminen | Microsoft Docs
-description: Fyysisen varaston määritysten mukaan voit joko kirjata toimituksen suoraan liittyvään lähtevään asiakirjaan, kuten myyntitilaukseen, tai voit käyttää fyysisen varaston toimitusasiakirjoja, jotka noudattavat työnkulkua tai integroituvat fyysisen varaston eri toimintoihin.
+title: Nimikkeiden toimittaminen
+description: Tässä ohjeaiheessa kuvataan, miten nimikkeet toimitetaan varastosta sen mukaan, millainen fyysisen varastoinnin konfiguraatio toimituksen käsittelyä varten on.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 22404e97c578f6bcaaa5f74ec40408beca7fe3c8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 60274947bb0f38ed6e116767ac5c74357482298c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782757"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435932"
 ---
 # <a name="ship-items"></a>Nimikkeiden toimittamimen
 
@@ -30,7 +30,7 @@ Kun toimitat nimikkeitä fyysisestä varastosta, johon määritetty toimituksen 
 
 Seuraavaksi käsitellään, miten nimikkeitä lähetetään myyntitilauksesta. Vaiheet ovat samankaltaiset ostopalautustilaukset, huoltotilauksille ja lähtevät siirtotilauksille.  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Myyntitilaukset** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten vastaava linkki.
 2. Avaa aiemmin luotu myyntitilaus tai luo uusi myyntitilaus. Lisätietoja on kohdassa [Tuotteiden myyminen](sales-how-sell-products.md).
 3. Anna **Toimitettava määrä** -kenttään lähetetty määrä.
 
@@ -48,7 +48,7 @@ Luo ensin toimitusasiakirjan lähdeasiakirjasta. Poimi sitten toimitukseen mää
 
 Yleensä toimituksesta vastaava työntekijä luo fyysisen varastoinnin toimituksen. Seuraavaksi kuvataan tapa, jolla luodaan toimitus manuaalisesti [!INCLUDE[prod_short](includes/prod_short.md)]in oletusversiossa, mutta organisaatio on voinut myös automatisoida osan prosessista käyttämällä esimerkiksi ulkoisten palveluntarjoajien tukemia kannettavia tai kiinteitä skannereita.  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Fyysisen varaston toimitukset** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Fyysisen varaston toimitukset** ja valitse sitten vastaava linkki.  
 2. Valitse **Uusi**-toiminto.  
 
     Täytä **Yleinen**-pikavälilehden kentät. Kun haet lähdeasiakirjan rivit, ohjelma kopioi otsikon tiedot kullekin riville.  
@@ -83,12 +83,12 @@ Kun olet hakenut rivit, jotka haluat toimittaa, aloita seuraavassa kuvatulla tav
 
 Yleensä poiminnasta vastuussa oleva varastotyöntekijä luo poiminta-asiakirjan tai avaa jo luodun poiminta-asiakirjan.  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Fyysisen varaston toimitukset** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Fyysisen varaston toimitukset** ja valitse sitten vastaava linkki.
 2. Valitse ensin poimittava fyysisen varastoinnin toimitus ja sitten **Luo poiminta** -toiminto.
 3. Täytä pyyntösivun kentät ja valitse sitten **OK**. Määritetty fyysisen varastoinnin poiminta-asiakirja luodaan.
 
     Vaihtoehtoisesti voit avata aiemmin luodun fyysisen varaston poiminnan.
-4. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Keräilyt** ja valitse sitten liittyvä linkki. Valitse varastoinnin poiminta, jota haluat työstää.
+4. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poiminnat** ja valitse sitten vastaava linkki. Valitse varastoinnin poiminta, jota haluat työstää.
 
     Jos fyysisessä varastoinnissa käytetään varastopaikkoja, poimintarivit on muunnettu "ota ja aseta" -toimintoriveiksi.
 
