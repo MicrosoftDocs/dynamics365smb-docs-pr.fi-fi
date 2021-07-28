@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 4b7da11bb8ec1198be9f1a86fccc29a62125d281
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: f83186ec6f8c278bf0d0f8c83f74af70f78baaa6
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935309"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440872"
 ---
 # <a name="using-the-prod_short-apps-in-power-bi"></a>[!INCLUDE [prod_short](includes/prod_short.md)] -sovellusten käyttäminen Power BI:ssa
 
@@ -63,7 +63,7 @@ Rekisteröidy Power BI -palveluun. Jos et ole vielä rekisteröitynyt, siirry os
 1. Avaa selain, siirry sivustoon [https://powerbi.microsoft.com](https://powerbi.microsoft.com) ja kirjaudu tilille.
 2. Valitse **Nouda tiedot** vasemman siirtymisruudun alareunassa.  
 
-    ![Siirtyminen tietoja noudettaessa](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
+    ![Siirtyminen tietoja noudettaessa.](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
 
     Voit aloittaa käyttämisen myös [!INCLUDE [prod_short](includes/prod_short.md)]ista. Siirry aloitussivulla Power BI -osan **raporttivalintaan**. Valitse valintanauhassa joko **Palvelu** tai **Oma organisaatio**. Joko Power BI:n organisaatiovalikoima tai Microsoft AppSource avautuu suodatettuna siten, että vain [!INCLUDE[prod_short](includes/prod_short.md)]iin liittyvät sovellukset ovat näkyvissä.
 
@@ -89,7 +89,7 @@ Rekisteröidy Power BI -palveluun. Jos et ole vielä rekisteröitynyt, siirry os
 5. Anna pyydettäessä käyttäjänimi ja salasana, jolla kirjaudutaan [!INCLUDE[prod_short](includes/prod_short.md)]iin.
 6. Kun yhteys on muodostettu, koontinäyttö ja raportit lisätään Power BI -työtilaan. Kun tämä on tehty, ruudut näyttävä [!INCLUDE[prod_short](includes/prod_short.md)] -yrityksen tiedot.
 
-    ![Dynamics 365 Business Centralin ja Hae se nyt -vaihtoehdon valinta](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
+    ![Valitse Dynamics 365 Business Central ja valitse Hanki se nyt.](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
 
 ## <a name="fixing-problems"></a>Ongelmien korjaaminen
 

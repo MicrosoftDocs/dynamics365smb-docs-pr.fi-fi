@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b0abd3da4abd0b91b7541fb545606c569f98b987
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d13bfaf069a10cb1ff92806dbceb46811a770fac
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787850"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441570"
 ---
 # <a name="post-scrap-manually"></a>Hukkatavaran kirjaaminen manuaalisesti
 Jos käsittelyn aikana on tuotettu hukkatavaraa, se voidaan kirjata myös tuotospäiväkirjaan. 
@@ -24,7 +24,7 @@ Jos käsittelyn aikana on tuotettu hukkatavaraa, se voidaan kirjata myös tuotos
 > Hukkatavaran määrä ei lisää tuotosmäärää.  
 
 ## <a name="to-post-scrap-manually"></a>Hukkatavaran kirjaaminen manuaalisesti  
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Tuotospäiväkirja** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tuotospäiväkirja** ja valitse sitten vastaava linkki.  
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Syötä **Hylätyn tavaran määrä** -kenttään hukkatavaran määrä.  
 4. Syötä **Hukkatavarakoodi**-kenttään hukkatavaran koodi.  

@@ -1,6 +1,6 @@
 ---
-title: Käyttöomaisuuden poisto tai kuoletus| Microsoft Docs
-description: Määritä, miten toteutat käyttöomaisuutesi arvonalennukset, poistot tai kuoletukset.
+title: Käyttöomaisuuden poistaminen tai kuolettaminen
+description: Määritä, miten kukin käyttöomaisuuserä, kuten koneet ja laitteet, arvostetaan, poistetaan tai kuoletetaan niiden elinkaaren aikana.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 04/01/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: a800c164e828a65ff1d66a8abe4f4f88b6c2581d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5ef67d3720ea83ead055e9ed2f9e83310c75ac16
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774103"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442258"
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Käyttöomaisuuden poisto tai kuolettaminen
 Poistoja käytetään jakamaan käyttöomaisuuden, esimerkiksi koneiden ja laitteiden, kustannuksia niiden poistoajalle. Jokaisen käyttöomaisuuserän osalta tulee määrittää, miten sille tehdään poistoja.  
@@ -36,19 +36,22 @@ Indeksointia käytetään muuttamaan arvoja yleisten hintatason muutosten mukaan
 ## <a name="to-calculate-depreciation-automatically"></a>Poistojen laskeminen automaattisesti
 **Laske poisto** -eräajon voi suorittaa kerran kuukaudessa tai valitsemanasi ajankohtana. Eräajo ei huomioi myytyjä tai suljettuja käyttöomaisuuseriä eikä käyttöomaisuuseriä, jotka eivät ole aktiivisia ja jotka käyttävät manuaalista poistomenetelmää.  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Laske poisto** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Laske poisto** ja valitse sitten vastaava linkki.  
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Valitse **OK**-painike.  
 
     Eräajo laskee poiston ja luo rivejä käyttöomaisuuden KP-päiväkirjaan.
 
-4. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Käyttöomaisuuden KP-päiväkirjat** ja valitse sitten liittyvä linkki.  
+4. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KO - KP-päiväkirjat** ja valitse sitten vastaava linkki.  
 
     **Käyttöomaisuuden KP-päiväkirja** -sivun **Poistopäivien lukumäärä** -kentän avulla nähdään, kuinka monta poistopäivää on laskettu.  
 5. Valitse **Kirjaa**-toiminto.  
 
+> [!NOTE]
+> Jos valitset **Pakota päivien lukumäärä** -kentän ja **Pakota päivien lukumäärä** -kenttään on määritetty arvo, jonka tuloksena kirjauspäivämäärä miinus **Päivien lukumäärä** -kenttien arvo on edellisen kalenterivuoden päivämäärä, poistoa ei voi kirjata. Kiertotapa on vähentää **Pakota päivien lukumäärä** -arvo korkeintaan laskettuihin päiviin kirjauspäivämäärään asti käyttämällä 30 päivää/kuukausi -mallia TAI valita **Tilikausi 365 päivää** -kenttä poistokirjassa. Suosittelemme ensimmäistä vaihtoehtoa, koska et ehkä halua muuttaa 30 päivää/kuukausi -mallin käyttöä poistoissa. Lisätietoja on kohdassa [Tilikausi 365 päivää -kentän poisto](fa-how-setup-depreciation.md#fiscal-year-365-days-field-depreciation).
+
 ## <a name="to-post-depreciation-manually-from-the-fixed-asset-gl-journal"></a>Poistojen kirjaaminen manuaalisesti käyttöomaisuuden KP-päiväkirjasta
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Käyttöomaisuuden KP-päiväkirja** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttöom. KP-päiväkirja** ja valitse sitten liittyvä linkki.  
 2. Luo alkuperäisen päiväkirjan rivi ja täytä kentät tarpeen mukaan.  
 3. Valitse **KO:n kirjaustyyppi** -kentässä **Poisto**.  
 4. Valitse **Syötä KO-vastatili** -toiminto. Toinen päiväkirjan rivi luodaan vastatilille, joka on määritetty poiston kirjaamista varten. Lisätietoja on kohdassa [Käyttöomaisuuden kirjausryhmien määrittäminen](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).
@@ -68,7 +71,7 @@ Jos summien kohdistamiseksi eri osastoille tai projekteille on määritetty käy
 ## <a name="to-calculate-allocations-in-the-fixed-asset-gl-journal"></a>Käyttöomaisuuden KO-päiväkirjan kohdistusten laskeminen
 Jos useat osastot käyttävät käyttöomaisuuserää, jaksottaiset poistot voidaan kohdistaa automaattisesti näille osastoille käyttäjäkohtaisen kohdistustaulukon mukaisesti.  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Käyttöomaisuuden KP-päiväkirja** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttöom. KP-päiväkirja** ja valitse sitten liittyvä linkki.  
 2. Luo alkuperäinen rivi ja täytä kentät tarpeen mukaan.
 3. Valitse **KO:n kirjaustyyppi** -kentässä **Kohdistus**.  
 4. Valitse **Syötä KO-vastatili** -toiminto. Toinen päiväkirjan rivi luodaan vastatilille, joka on määritetty kohdistuksen kirjaamista varten.  
@@ -77,18 +80,18 @@ Jos useat osastot käyttävät käyttöomaisuuserää, jaksottaiset poistot void
 ## <a name="use-duplication-lists-to-prepare-to-post-to-multiple-depreciation-books"></a>Valmistele useiden poistokirjojen kirjaaminen monistusluetteloiden avulla
 Kun täytät poistokirjaan kirjattavat päiväkirjarivit, voit monistaa rivit erilliseen päiväkirjaan, josta ne voidaan kirjata eri poistokirjaan. Lisätietoja on kohdassa [Tapahtumien kirjaaminen eri poistokirjoihin](fa-how-depreciate-amortize.md#to-post-entries-to-different-depreciation-books).
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Poistokirjat** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poistokirjat** ja valitse sitten vastaava linkki.  
 2. Avaa poistokirja ja valitse **Osa monistusluettelosta** -valintaruutu.  
 
 > [!IMPORTANT]  
 >   Jos olet lisännyt valintamerkin **Käytä monistusluetteloa** -kenttään, älä käytä päiväkirjassa numerosarjaa. Tämä sen vuoksi, että käyttöomaisuuden KP-päiväkirjan numerosarjat ja käyttöomaisuuspäiväkirjan numerosarjat eivät ole samoja.  
 
 ## <a name="to-post-entries-to-different-depreciation-books"></a>Tapahtumien kirjaaminen eri poistokirjoihin
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Käyttöomaisuuden KP-päiväkirja** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttöom. KP-päiväkirja** ja valitse sitten liittyvä linkki.  
 2. Valitse **Käytä monistusluetteloa** -valintaruutu siinä päiväkirjassa, johon poisto kirjataan.  
 3. Täytä tarvittavat jäljellä olevat kentät.  
 4. Valitse **Kirjaa**-toiminto.  
-5. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **KO-päiväkirjat** ja valitse sitten liittyvä linkki.  
+5. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KO-päiväkirjat** ja valitse sitten vastaava linkki.  
 
     > [!NOTE]  
     >   **Käyttöomaisuuspäiväkirja**-sivu sisältää uusia rivejä eri poistokirjoille monistusluettelon mukaan.  
@@ -100,7 +103,7 @@ Kun täytät poistokirjaan kirjattavat päiväkirjarivit, voit monistaa rivit er
 Tapahtumia voidaan kopioida poistokirjasta toiseen käyttämällä **Kopioi poistokirja** -eräajoa. Eräajo luo päiväkirjarivejä päiväkirjan erään, jonka olet määrittänyt **KO-päiväkirjan asetukset** -sivulla poistokirjalle, johon haluat kopioida. Katso lisätietoja seuraavasta menettelystä.  
 
 ## <a name="to-copy-fixed-asset-ledger-entries-between-depreciation-books"></a>Käyttöomaisuustapahtumien kopioiminen poistokirjojen välillä
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Poistokirjat** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poistokirjat** ja valitse sitten vastaava linkki.  
 2. Avaa poistokirjan kortti ja valitse **Kopioi poistokirja** -toiminto.  
 3. Täytä **Kopioi poistokirja** -sivun kentät tarvittaessa.  
 4. Valitse **OK**-painike.  

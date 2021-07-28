@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4a0eb78d64948498b315679c45eb9a8b48fd5606
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e788fc7af4335eab99ddce35bf2822e52332a9b9
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784340"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441445"
 ---
 # <a name="setup-best-practices-reordering-policies"></a>Asetukset - parhaat käytännöt: uusintatilaustavat
 **Uusintatilaustapa**-kenttä nimikekorteissa antaa neljä eri suunnittelumetodia, jotka määrittävät, kuinka yksittäiset suunnitteluparametrit käyttäytyvät.  
@@ -30,7 +30,7 @@ Yksi hyvä perusta uusintatilaustavan valitsemiseen on nimikkeen ABC-luokittelu.
 
 ABC-luokittelun mukaisesti vaivaa ja rahaa voidaan säästää soveltamalla matalampiarvoisiin nimikkeisiin alemmantasoista valvontaa kuin korkea-arvoisiin nimikkeisiin. Seuraavassa kuvassa näytetään, mikä [!INCLUDE[prod_short](includes/prod_short.md)]:n sopivin kullekin A,- B,- ja C-kohteille.
 
-![ABC-luokittelu](media/abc_classification.png "abc_classification")
+![ABC-luokittelu.](media/abc_classification.png "abc_classification")
 
 Seuraava taulukko sisältää parhaat käytännöt neljästä tavasta valitsemiseen.  
 

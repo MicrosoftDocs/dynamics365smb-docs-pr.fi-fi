@@ -1,6 +1,6 @@
 ---
 title: Business Centralin määritystehtävien yleiskatsaus
-description: Tässä ohjeaiheessa kerrotaan tehtävistä, jolla Business Central asennetaan, alustetaan ja määritetään omia tarpeita vastaavaksi.
+description: Lue yleiskatsaus tehtävistä, joilla Business Central asennetaan, alustetaan ja määritetään omia tarpeita vastaavaksi.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 01354575a7d96017684fe885411be364058b57e4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c2edc726ef61f832e0db4ca93300c89342b400e0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781454"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441420"
 ---
 # <a name="overview-of-tasks-to-set-up-prod_short"></a>[!INCLUDE[prod_short](includes/prod_short.md)]in määritystehtävien yleiskatsaus
 
@@ -23,7 +23,7 @@ ms.locfileid: "5781454"
 
 Esimerkiksi tilikarttaan on kerätty käyttövalmiita kirjaustilejä. Voit tietysti muuttaa tilikarttaa liiketoimintasi vaatimalla tavalla. Lisätietoja on kohdassa [Rahoitus](finance.md).
 
-Voit avata ![Asetukset-valikko](media/ui-experience/settings_icon_small.png) -valikon ketju pyörä kuvakkeesta ja käyttää asetusten ohjattuja määritysoppaita, jotka auttavat tiettyjen skenaarioiden määrittämisessä ja ominaisuuksien lisäämiseen [!INCLUDE[prod_short](includes/prod_short.md)]. Lisätietoja siitä, miten käytät kaikkia avustettuja sekä manuaalisia määrityssivuja, on ohjeessa [Valmistautuminen liiketoimintaan](ui-get-ready-business.md).  
+Valikosta ![Hammaspyörä-kuvake, joka avaa Asetukset-valikon.](media/ui-experience/settings_icon_small.png) saat käyttöösi asetusten ohjatun määrityksen oppaita, jotka auttavat tiettyjen skenaarioiden määrityksessä ja ominaisuuksien lisäämisessä [!INCLUDE[prod_short](includes/prod_short.md)]iin. Lisätietoja siitä, miten käytät kaikkia avustettuja sekä manuaalisia määrityssivuja, on ohjeessa [Valmistautuminen liiketoimintaan](ui-get-ready-business.md).  
 
 > [!NOTE]
 > [!INCLUDE [ua-checklist](includes/ua-checklist.md)]

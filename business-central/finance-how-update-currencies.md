@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: multiple currencies, adjust exchange rates
 ms.date: 06/03/2021
 ms.author: edupont
-ms.openlocfilehash: 75f8f3ead0bdf0e09ca2484d1a0c91ee771cb837
-ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
+ms.openlocfilehash: 0baa12a7f63e67184a00dab893c8222facfe269d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6184447"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441620"
 ---
 # <a name="update-currency-exchange-rates"></a>Valuutan vaihtokurssien päivittäminen
 
@@ -23,7 +23,10 @@ Seuraavaksi sinun täytyy määrittää valuuttakoodit jokaiselle valuutalle, jo
 > [!Important]
 > Älä luo paikallisen valuutan koodia sekä **Pääkirjanpidon asetukset**- että **Valuutat**-sivulle. Tämä aiheuttaa sekaannusta valuuttataulukon tyhjän valuutan ja PVA-koodin välillä. Pankkitilejä, asiakkaita tai toimittajia saatetaan vahingossa luoda, ja niille voi tulla tyhjiä valuuttoja tai PVA-koodeja.
 
-Pääkirjanpito määritetään käyttämään paikallista valuuttaa (PVA), mutta voit määrittää sen käyttämään myös toista valuuttaa, jolle määritetään ajantasainen vaihtokurssi. Kun toinen valuutta määritetään niin sanotuksi lisäraportointivaluutaksi, [!INCLUDE[prod_short](includes/prod_short.md)] tallentaa summat automaattisesti sekä PVA:na että lisäraportointivaluuttana kuhunkin KP-tapahtumaan sekä muihin tapahtumiin, kuten ALV-tapahtumiin. Lisätietoja on kohdassa [Lisäraportointivaluutan määrittäminen](finance-how-setup-additional-currencies.md). Lisäraportointivaluuttaa käytetään useimmiten taloudelliseen raportointiin omistajille, jotka asuvat muita kuin paikallista valuuttaa (PVA) käyttävissä maissa tai alueilla.
+Pääkirjanpito määritetään käyttämään paikallista valuuttaa (PVA), mutta voit määrittää sen käyttämään myös toista valuuttaa, jolle määritetään ajantasainen vaihtokurssi. Kun toinen valuutta määritetään niin sanotuksi lisäraportointivaluutaksi, [!INCLUDE[prod_short](includes/prod_short.md)] tallentaa summat automaattisesti sekä PVA:na että lisäraportointivaluuttana kuhunkin KP-tapahtumaan sekä muihin tapahtumiin, kuten ALV-tapahtumiin. Lisätietoja on kohdassa [Lisäraportointivaluutan määrittäminen](finance-how-setup-additional-currencies.md). Lisäraportointivaluuttaa käytetään useimmiten taloudelliseen raportointiin omistajille, jotka asuvat muita kuin paikallista valuuttaa (PVA) käyttävissä maissa tai alueilla.  
+
+> [!IMPORTANT]
+> Jos haluat käyttää lisäraportointivaluuttaa taloudellisessa raportoinnissa, varmista, että ymmärrät rajoitukset. Lisätietoja on kohdassa [Lisäraportointivaluutan määrittäminen](finance-how-setup-additional-currencies.md).
 
 ## <a name="currencies"></a>Valuutat
 
@@ -65,6 +68,8 @@ Valuuttakoodit määritetään kohdassa **Valuutat**, mukaan lukien lisätiedot 
 |**ALV-pyöristystyyppi**|Määrittää pyöristystavan ALV-summien oikaisemiseksi manuaalisesti myynti- ja ostoasiakirjoissa. Tämä kenttä ei välttämättä ole näkyvissä oletusarvoisesti. Sen voi hakea mukauttamalla sivua.|
 
 ### <a name="example-of-a-receivable-currency-transaction"></a>Esimerkki saamisen valuuttatapahtumasta
+
+Kun saat laskun yritykseltä ulkomaan valuutassa, laskun paikallisen valuutan (PVA) arvo on melko helppo laskea tämän päivän valuuttakurssin perusteella. Laskussa on kuitenkin usein maksuehdot, joiden nojalla voit viivyttää maksua myöhemmälle päivämäärälle, mikä taas tarkoittaa mahdollisesti erilaista valuuttakurssia. Kun vielä pankkien valuuttakurssit eroavat aina virallisista valuuttakursseista, on mahdotonta ennakoida tarkkaa paikallisen valuutan (PVA) summaa, joka tarvitaan laskun kattamiseen. Jos laskun eräpäivä ulottuu seuraavaan kuukauteen, saatat joutua myös uudelleenarvostamaan paikallisen valuutan (PVA) summan kuun lopussa. Valuutan oikaisu on tarpeen, koska laskun summan kattamiseen tarvittava uusi PVA-arvo saattaa olla erilainen, ja yrityksen velka toimittajalle on mahdollisesti muuttunut. Uusi PVA-summa voi olla edellistä summaa suurempi tai pienempi, joten se edustaa voittoa tai tappiota. Koska laskua ei ole kuitenkaan vielä maksettu, voiton tai tappion katsotaan olevan *toteutumaton*. Myöhemmin lasku maksetaan, ja pankki palauttaa maksun todellisen valuuttakurssin mukaisesti. Vasta nyt lasketaan *toteutunut* voitto tai tappio. Tämä toteutumaton voitto tai tappio peruutetaan ja toteutunut voitto tai tappio kirjataan sen sijaan.
 
 Seuraavassa esimerkissä lasku vastaanotetaan 1.1., ja valuuttasumma on 1 000. Valuuttakurssi on 1,123.
 
@@ -117,14 +122,14 @@ Yleisesti arvoja **Vaihtokurssisumma**- ja **Suhteellinen vaihtokurssisumma** -k
 
 > [!Note]
 > Todellinen valuuttakurssi lasketaan tämän kaavan avulla:
-> 
+>
 > `Currency Amount = Amount / Exchange Rate Amount * Relational Exch. Rate Amount`
 
 Muutoksen vaihtokurssisummaa tai suhteellista vaihtokurssisumman muutosta käytetään kaikkein avoimien pankki-, saamis- ja ostovelkatransaktioiden päivittämiseen.  
 
 > [!Note]
 > Todellinen valuuttakurssi lasketaan tämän kaavan avulla:
-> 
+>
 > `Currency Amount = Amount / Adjustment Exch. Rate Amount * Relational Adjmt Exch. Rate Amt`
 
 ## <a name="adjusting-exchange-rates"></a>Vaihtokurssien muuttaminen
@@ -143,12 +148,15 @@ Asiakkaan ja toimittajan tileillä eräajo muuttaa valuutan käyttäen sitä vai
 Eräajo käsittelee kaikki avoimet asiakas- ja toimittajatapahtumat. Jos tapahtumassa on valuuttaero, eräajo luo uuden, eritellyn asiakas- tai toimittajatapahtuman, josta näkyy muutettu summa asiakas- tai toimittajatapahtumassa.
 
 #### <a name="dimensions-on-customer-and-vendor-ledger-entries"></a>Asiakas- ja toimittajatapahtumien dimensiot
+
 Muutostapahtumille on määritetty dimensiot asiakas-/toimittajatapahtumilta, ja muutokset on kirjattu dimensioarvojen kombinaatioiden mukaan.
 
 ### <a name="effect-on-bank-accounts"></a>Vaikutus pankkitileihin
+
 Pankkitileillä eräajo muuttaa valuutan käyttäen sitä vaihtokurssia, joka on kirjauspäivämääränä voimassa eräajossa. Eräajo laskee eron jokaiselle tilille, jolla on valuuttakoodi ja kirjaa summat sille kirjanpitotilille, joka on määritetty **Valuutat**-sivun **Realisoitun. val.voitt. tili** -kentässä tai **Realisoit. val.tapp. tili** -kentässä. Vastatapahtumat kirjataan automaattisesti niille KP:n pankkitileille, jotka on määritelty pankkitilien postitusryhmissä. Eräajo laskee yhden tapahtuman valuuttaa ja kirjausryhmää kohden.
 
 #### <a name="dimensions-on-bank-account-entries"></a>Dimensiot pankkitilitapahtumilla
+
 Muutostapahtumien pankkitilin KP-tilille ja voitto/tappio tileille määritetään oletusdimensiot.
 
 ### <a name="effect-on-gl-accounts"></a>Vaikutus KP-tileihin
@@ -165,20 +173,20 @@ Muutostapahtumille on määritetty niiden KP-tilien dimensiot, joille ne on kirj
 ## <a name="to-set-up-a-currency-exchange-rate-service"></a>Valuutanvaihdon kurssipalvelun määrittäminen
 Voit pitää valuutan vaihtokurssit ajan tasalla ulkoisen palvelun, kuten FloatRatesin avulla.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Valuutanvaihtokurssipalvelut** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvake, syötä **Valuutanvaihdon kurssipalvelut** ja valitse liittyvä linkki.
 2. Valitse **Uusi**-toiminto.
 3. Täytä tarvittavat kentät **Valuutanvaihtokurssipalvelut**-sivulla. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Valitse **Käytössä**-tilanvaihtonäppäin ottaaksesi palvelun käyttöön.
 
 > [!NOTE]
-> Seuraava video näyttää esimerkin siitä, miten voit muodostaa yhteyden valuutan vaihtokurssipalveluun. Esimerkissä käytetään Euroopan keskuspankkia. Segmentissä, joka kuvaa, miten kenttien yhdistämismääritykset tehdään, **Valuutan koodin pääsolmu** -kohdan **Lähde**-sarakkeen asetus palauttaa vain ensimmäisen löydetyn valuutan. Asetuksen on oltava **/gesmes:Envelope/Code/Code/Code**.
+> Seuraava video näyttää esimerkin siitä, miten voit muodostaa yhteyden valuutan vaihtokurssipalveluun. Esimerkissä käytetään Euroopan keskuspankkia. Segmentissä, joka kuvaa, miten kenttien yhdistämismääritykset tehdään, **Valuutan koodin pääsolmu** -kohdan **Lähde**-sarakkeen asetus palauttaa vain ensimmäisen löydetyn valuutan. Asetuksen on oltava `/gesmes:Envelope/Code/Code/Code`.
 
 <br><br>  
   
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4A1jy?rel=0]
 
 ## <a name="to-update-currency-exchange-rates-through-a-service"></a>Valuutan vaihtokurssien päivittäminen palvelun avulla
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Valuutat** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Valuutat** ja valitse sitten vastaava linkki.
 2. Valitse **Päivitä valuutan vaihtokurssit** -toiminto.
 
 **Valuutat**-sivun **Vaihtokurssi**-kentän arvo päivittyy uusimman valuutan vaihtokurssin mukaan.

@@ -1,6 +1,6 @@
 ---
-title: Rakennetiedot – sisäisen fyysisen varastoinnin virrat | Microsoft Docs
-description: Nimikkeiden kulku binien välillä yrityksen sijaintikeskuksissa osien poimintaan ja loppunimikkeiden poistoon kokoonpano- tai tuotantotilauksissa ja tilapäisissä liikkeissä, kuten binin täydentämisissä ilman suhdetta lähdedokumentteihin.
+title: Rakennetiedot – fyysisen varaston sisäiset virrat
+description: Työnkulku varastopaikkojen välillä komponenttien poiminnassa ja kokoonpano- tai tuotantotilausten loppunimikkeiden ja suunnittelemattomien siirtojen hyllyttämisessä ilman lähdeasiakirjoja.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 7be0a3907b59a17e6f77e4ae8eb3a36fc62d8f7a
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 6749921fc02776fc267f7f40cde7ccea4b8fe6cf
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215126"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441745"
 ---
 # <a name="design-details-internal-warehouse-flows"></a>Rakennetiedot: sisäisen fyysisen varastoinnin virta
 Nimikkeiden kulku varastopaikkojen välillä yrityksen sijaintikeskuksissa kokoonpano- tai tuotantotilauksien komponentteja poimittaessa ja loppunimikkeitä hyllytettäessä sekä suunnittelemattomissa siirroissa, kuten varastopaikkojen täydennyksissä, ilman suhdetta lähdeasiakirjoihin. Liittyvien toimenpiteiden laajuus ja luonne vaihtelee perus- ja kehittyneen varastoinnin välillä.  
@@ -114,7 +114,7 @@ Nimikkeiden kulku varastopaikkojen välillä yrityksen sijaintikeskuksissa kokoo
 
  Seuraavassa kuvassa esitetään, milloin **Bin-koodi** -kenttä osaluettelossa täytetään sijainnin tai koneen/työkeskuksen asetusten mukaisesti.  
 
- ![Yleiskuvaus siitä, milloin/miten Varastopaikkakoodi-kenttä täytetään](media/binflow.png "Yleiskuvaus siitä, milloin/miten Varastopaikkakoodi-kenttä täytetään")  
+ ![Yleiskuvaus siitä, milloin/miten Varastopaikkakoodi-kenttä täytetään.](media/binflow.png "Yleiskuvaus siitä, milloin/miten Varastopaikkakoodi-kenttä täytetään")  
 
 ## <a name="see-also"></a>Katso myös  
  [Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)

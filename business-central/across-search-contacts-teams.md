@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, contacts, search, messaging extensions
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 6d094e365ad0c7da73467e5a3160d926902c45d9
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: 18a0eaf953c99050edb3b047cb5b4a31c83feeeb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935159"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440747"
 ---
 # <a name="searching-for-customers-vendors-and-other-contacts-from-microsoft-teams"></a>Asiakkaiden, toimittajien ja muiden yhteyshenkilöiden hakeminen Microsoft Teamsista
 
@@ -42,13 +42,13 @@ Komentoruutu on jokaisen Teamsin näytön yläosassa. Sen avulla voi hakea, tehd
 
 1. Kirjoita komentoruutuun **@Business Central** ja valitse sitten tuloksissa Business Central -sovellus.
 
-    ![Yhteyshenkilöiden hakeminen komentoruudussa avaamalla Business Central -sovellus](media/teams-contacts-command-1.png)
+    ![Avaa Business Central -sovellus ja hae yhteyshenkilöitä komentoruudussa.](media/teams-contacts-command-1.png)
 
 2. Aloita tekstin, kuten nimen, osoitteen tai puhelinnumeron, kirjoittaminen **Business Central** -ruutuun.
 
     Hakua vastaavia tuloksia näytetään hakusanaa kirjoitettaessa.
 
-    ![Business Central -yhteyshenkilöiden haku Teamsin komentoruudussa](media/teams-contacts-command-2.png)
+    ![Business Central -yhteyshenkilöiden haku Teamsin komentoruudussa.](media/teams-contacts-command-2.png)
 3. Valitse yhteyshenkilö tuloksista.
 
     Yhteyshenkilökortti avautuu komentoruudun alapuolella.
@@ -65,13 +65,13 @@ Viestiruudun käytön etuna on se, että yhteyshenkilökortti voidaan lisätä s
 
     Jos **Business Central** -kuvake ei ole näkyvissä, valitse **... (Viestilaajennukset)**.
 
-    ![Yhteyshenkilöiden hakeminen viestiruudussa avaamalla Business Central -sovellus](media/teams-contacts-message-box.png)
+    ![Yhteyshenkilöiden hakeminen viestiruudussa avaamalla Business Central -sovellus.](media/teams-contacts-message-box.png)
 
 2. Aloita tekstin, kuten nimen, osoitteen tai puhelinnumeron, kirjoittaminen **Business Central** -ruutuun.
 
     Hakua vastaavia tuloksia näytetään hakusanaa kirjoitettaessa.
 
-    ![Business Central -yhteyshenkilöiden hakeminen viestiruudussa](media/teams-contacts-5.png)
+    ![Business Central -yhteyshenkilöiden hakeminen viestiruudussa.](media/teams-contacts-5.png)
 3. Valitse yhteyshenkilö tuloksista.
 
     Yhteishenkilökortti avautuu viestiruudussa.
@@ -99,8 +99,10 @@ Yhteyshenkilökortti toimii samoin kuin tietueiden, kuten nimikkeiden, asiakkaid
 ## <a name="see-also"></a>Katso myös
 
 [Business Centralin ja Microsoft Teamsin integraation yleiskatsaus](across-teams-overview.md)  
-[Asenna [!INCLUDE [prod_short](includes/prod_short.md)] -sovellus Microsoft Teamsiin](across-install-app-for-teams.md)  
+[Microsoft Teamsin [!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksen asentaminen](across-install-app-for-teams.md)  
 [Teams – usein kysytyt kysymykset](teams-faq.md)  
+[Yrityksen ja muiden asetusten muuttaminen Teamsissa](across-teams-settings.md)  
+[Tietueiden jakaminen Microsoft Teams -keskusteluissa](across-working-with-teams.md)  
 [Vianetsintä – Teams](admin-teams-troubleshooting.md)  
 [Teamsin integroinnin kehittäminen](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 

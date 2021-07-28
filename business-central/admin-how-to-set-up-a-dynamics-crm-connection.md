@@ -1,6 +1,6 @@
 ---
 title: Yhteyden muodostaminen Microsoft Dataverseen
-description: Voit integroida muita sovelluksia Business Centralin avulla Microsoft Dataversen kautta. Tässä artikkelissa on vihjeitä ja niksejä yhteyksien määrittämiseksi.
+description: Yhteyden määrittäminen Business Centralin ja Dataversen välille. Yleensä yritykset luovat yhteyden integroidakseen tietoja toisen Dynamics 365 -liiketoimintasovelluksen kanssa.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/26/2021
+ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: ebe708efacbaa03d5f10deb7b21b090222f28818
-ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
+ms.openlocfilehash: a29fb1e0a8e10e91a811914a9188548149d5125a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6063475"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441341"
 ---
 # <a name="connect-to-microsoft-dataverse"></a>Yhteyden muodostaminen Microsoft Dataverseen
 
@@ -64,7 +64,7 @@ Dataverse -yhteyden asetusopas helpottaa sovellusten yhdistämistä, ja se voi a
 > [!IMPORTANT]
 > Yleensä täysi synkronointi on käytössä vain, kun sovellukset integroidaan ensimmäistä kertaa ja vain yksi sovellus sisältää tietoja. Täydellisestä synkronoinnista voi olla hyötyä demoympäristössä, koska se luo ja yhdistää tietueet automaattisesti kummassakin sovelluksessa, minkä ansiosta synkronoitujen tietojen käsittelemisen aloittaminen nopeutuu. Suorita täysi synkronointi kuitenkin vain, jos haluat taulukon yhdistämismäärityksille yhden rivin [!INCLUDE[prod_short](includes/prod_short.md)]issa kutakin [!INCLUDE[cds_long_md](includes/cds_long_md.md)]n riviä kohden. Muussa tapauksessa tuloksena voi olla tietueiden kaksoiskappaleita.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asetusten ohjattu määritys** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asetusten ohjattu määritys** ja valitse sitten vastaava linkki.
 2. Käynnistä asetusten ohjattu määritys valitsemalla **Microsoft Dataverse -yhteyden määritys**.
 3. Täytä tarvittavat kentät.
 
@@ -75,7 +75,7 @@ Dataverse -yhteyden asetusopas helpottaa sovellusten yhdistämistä, ja se voi a
 
 Seuraavassa kerrotaan, miten yhteys määritetään manuaalisesti **Dataverse -yhteyden määritys** -sivulla. Tällä sivulla hallitaan myös integroinnin asetuksia.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Dataverse -yhteyden määritys** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Dataverse-yhteyden määritys** ja valitse sitten vastaava linkki.
 2. Anna seuraavat tiedot yhteyden muodostamiseen [!INCLUDE[prod_short](includes/prod_short.md)]ista [!INCLUDE[cds_long_md](includes/cds_long_md.md)]iin.
 
     |Kenttä|Kuvaus|
@@ -106,6 +106,28 @@ The following video shows the steps to connect [!INCLUDE[prod_short](includes/pr
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ArlP]
 
 -->
+
+## <a name="upgrade-connections-from-business-central-online-to-use-certificate-based-authentication"></a>Päivitä yhteydet Business Central Onlinesta käyttääksesi varmennepohjaista todennusta
+> [!NOTE]
+> Tämä osa on merkityksellinen vain Microsoftin isännöimille Business Central online -vuokraajille. Tämä ei vaikuta ISV-isännöityihin online-vuokralaisiin tai paikan päällä tehtyihin asennuksiin.
+
+Huhtikuussa 2022 [!INCLUDE[cds_long_md](includes/cds_long_md.md)]issa vanhentuu Office365-todennustyyppi (käyttäjänimi/salasana). Lisätietoja on kohdassa [Office365-todennustyypin vanheneminen](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse). Lisäksi maaliskuussa 2022 [!INCLUDE[prod_short](includes/prod_short.md)]issa vanhenee online-vuokraajien asiakassalaisuuspohjaisen palvelujenvälisen todennuksen käyttö [!INCLUDE[cds_long_md](includes/cds_long_md.md)] -yhteyksissä. [!INCLUDE[cds_long_md](includes/cds_long_md.md)]in ISV-isännöidyt online-vuokraajat ja paikan päällä tehdyt asennukset voivat jatkaa Microsoft-kumppaninsa määrittämän Office365-todennuksen käyttöä.
+
+Jotta integraatiot eivät häiriinny, yhteys _on päivitettävä_ käyttämään varmennepohjaista todennusta. Vaikka muutos ajoittuu maaliskuulle 2022, suosittelemme, että päivität mahdollisimman pian. Seuraavissa vaiheissa kuvataan, miten varmennepohjaiseen todennukseen päivitetään. 
+
+### <a name="to-upgrade-your-business-central-online-connection-to-use-certificate-based-authentication"></a>Business Central online -yhteyden päivittäminen käyttämään varmennepohjaista todennusta
+> [!NOTE]
+> Varmennepohjainen todennus on käytettävissä Business Central 2021:n julkaisuaallossa 1 ja sitä uudemmissa. Jos käytät aiempaa versiota, sinun on ajoitettava Business Central 2021:n julkaisuaallon 1 päivitys ennen maaliskuuta 2022. Lisätietoja on kohdassa [Päivitysten ajoitus](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline#scheduling-updates). Jos sinulla on ongelmia, ota yhteyttä kumppaniisi tai tukeen.
+
+1. Varmista kohdassa [Business Central administration center]/dynamics365/business-central/dev-itpro/administration/tenant-admin-center), että käytät Business Central 2021:n julkaisuaaltoa 1 tai uudempaa (versiota 18 tai uudempaa).
+2. Tee jokin seuraavista toimista sen mukaan, integroitko Dynamics 365 Salesiin:
+   * Jos kyllä, avaa **Microsoft Dynamics 365 -yhteysasetukset** -sivu.
+   * Jos ei, avaa **Dataverse-yhteysasetukset**-sivu.
+3. Valitse **Yhteys** ja sitten **Käytä varmennetodennusta** päivittääksesi yhteyden käyttämään varmennepohjaista todennusta.
+4. Kirjaudu sisään Dataverse-järjestelmänvalvojan tunnistetiedoilla. Sisäänkirjautuminen kestää alle minuutin.
+
+> [!NOTE]
+> Nämä vaiheet on toistettava jokaisessa [!INCLUDE[prod_short](includes/prod_short.md)] -ympäristössä, mukaan lukien tuotanto- ja eristysympäristöt ja jokaisessa yrityksessä, jolla on yhteys [!INCLUDE[cds_long_md](includes/cds_long_md.md)]iin.
 
 ## <a name="connecting-on-premises-versions"></a>Paikallisten versioiden yhdistäminen
 
@@ -149,7 +171,7 @@ Seuraavissa vaiheissa oletetaan, käyttäjätietojen ja käyttöoikeuksien halli
 
 ### <a name="to-disconnect-from-cds_long_md"></a>[!INCLUDE[cds_long_md](includes/cds_long_md.md)] -yhteyden katkaiseminen
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Dataverse -yhteyden määritys** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Dataverse-yhteyden määritys** ja valitse sitten vastaava linkki.
 2. Poista käytöstä **Dataverse -yhteyden määritys** -sivulla **Käytössä**-valitsin.  
 
 ## <a name="see-also"></a>Katso myös
