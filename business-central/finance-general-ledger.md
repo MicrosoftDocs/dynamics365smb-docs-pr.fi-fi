@@ -1,6 +1,6 @@
 ---
-title: Tietoja pääkirjanpidosta ja aitoustodistuksesta| Microsoft Docs
-description: Tämä artikkeli sisältää tietoja pääkirjanpidosta, tilikartasta ja tililuokista.
+title: Tietoa pääkirjanpidosta ja tilikartasta
+description: Tämä artikkeli sisältää tietoja pääkirjanpidosta, tilikartasta ja tililuokista. Määritä Pääkirjanpidon asetukset -sivulla, miten yrityksen kirjanpitoasiat käsitellään.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: f242bce26f55fe446ac8dc96335a8da835dd259c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8590571283ae810d442d514e6968c1feb9865cd8
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774003"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6321112"
 ---
 # <a name="understanding-the-general-ledger-and-the-coa"></a>Pääkirjanpito ja aitoustodistus
 
@@ -58,19 +58,29 @@ Voit luoda luokkaryhmän sisentämällä **KP-tilin luokat** -sivun rivin alla o
 
 Voit määrittää, onko kunkin alaluokan tilit sisällytettävä tietyn tyyppisiin raportteihin. Tililuokat auttavat rahoituslaskelmien asettelun määrittämisessä.  
 
-Esimerkiksi oletussaldon tiliotteessa on Käteisvarat-alaluokka Vastaavaa-kohdassa. Jos haluat, että tiliote ottaa käteiskassan ja sekit huomioon, voit  
+### <a name="example"></a>Esimerkki
 
-1. lisätä kaksi uutta alaluokkaa. Niistä toinen on tarkoitettu käteiskassalle ja toinen sekkitilille.  
+Esimerkiksi oletussaldon tiliotteessa on *Käteisvarat*-alaluokka *Vastaavaa*-kohdassa. Kun haluat, että tiliote ottaa käteiskassan ja sekit huomioon, voit suorittaa seuraavat vaiheet:  
+
+1. Lisää kaksi uutta alaluokkaa:
+
+    * Yksi käteiskassalle  
+    * Yksi sekkitilillesi  
 2. Määritä näille alaluokille lisäraporttimääritys **Käteistilit**.  
 3. Sisennä ne **Käteisvarat**-alaluokassa.  
 
 Kun luot seuraavan kerran KP-raporttimalleja, tiliotteessa näkyy käteisvarojen kokonaissaldo sekä käteiskassan ja sekkitilin saldojen kaksi riviä.  
+
+## <a name="access-to-create-and-edit-accounts-and-account-categories"></a>Luo ja muokkaa tilejä ja tililuokkia
+
+Pienessä organisaatiossa, kuten CRONUS-esittely-yrityksessä, useimmat käyttäjät voivat muokata tilikarttaa lukuun ottamatta käyttäjiä, joilla on TEAM MEMBER -käyttöoikeus. Suuremmissa organisaatioissa roolit ja käyttöoikeudet rajoittavat kuitenkin tilikartan muokkausoikeutta. Jos olet järjestelmänvalvoja tai sinulla on *Liiketoimintajohtaja*- tai *Kirjanpitäjä*-rooli, voit tarkistaa kaikkien käyttäjien käyttöoikeudet ja varmistaa, että oikeat käyttäjät voivat käyttää asianomaisia taulukoita. Lisätietoja on kohdassa [Käyttäjän käyttöoikeuksien yleiskatsauksen hankkiminen](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).  
 
 ## <a name="see-also"></a>Katso myös
 
 [Rahoitus](finance.md)  
 [Tilikartan määrittäminen tai muuttaminen](finance-setup-chart-accounts.md)  
 [Business Intelligence](bi.md)  
+[Käyttöoikeuksien määrittäminen käyttäjille ja ryhmille](ui-define-granular-permissions.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,19 +1,19 @@
 ---
-title: Resurssien ja aikaraporttien käyttö projektitehtävissä| Microsoft Docs
-description: Yleisiä tietoja projektien hallinnasta resurssien, aikaraporttien ja projektitöiden avulla.
+title: Resurssien ja tuntiraporttien käyttäminen projektitehtävissä
+description: Tässä ohjeaiheessa kerrotaan, miten resursseja, tuntiraportteja ja projekteja käytetään hallitsemaan projekteja ja niiden budjetteja.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: projects
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 2dbe4a82f6cc2e9f28fbd06a3f235d9630a75cca
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bbb0fbf1500daa284ac99e03d01e8c9a64e417bf
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780330"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6321087"
 ---
 # <a name="project-management"></a>Projektinhallinta
 [!INCLUDE[prod_short](includes/prod_short.md)]issa voi suorittaa yleisiä projektinhallinnan tehtäviä, kuten projektin määrittämistä ja resurssin aikatauluttamista, sekä budjettien hallinnassa ja projektin etenemisen valvonnassa tarvittavien tietojen antamista. Voit seurata projektin koneiden käyttötunteja ja työntekijöiden työtunteja käyttämällä aikaraportteja. Projektipäällikkönä saat hyvän yleiskuvan yksittäisten projektien lisäksi työntekijöiden varauksista sekä koneiden ja muiden resurssien käytöstä kaikissa projekteissa.

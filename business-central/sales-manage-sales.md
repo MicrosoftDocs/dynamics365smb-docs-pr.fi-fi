@@ -1,6 +1,6 @@
 ---
-title: Myynnin hallintatehtävien yleiskatsaus | Microsoft Docs
-description: Tässä artikkelissa määritetään, miten myyntiaktiviteetteja hallitaan.
+title: Myynnin hallintatehtävien yleiskatsaus
+description: 'Lue lisää Business Centralin palveluiden käytöstä myynnin aktiviteettien hallintaan asiakkaiden kanssa: esimerkkeinä myyntilaskut, tilaukset ja tarjoukset.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 8c80cbbc4ed4feb088116577157407dd8fb98aaf
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: 376e2af791a8e9e37b72b27d7f4fcfbe8d9a654b
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935009"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6321989"
 ---
 # <a name="sales"></a>Myynti
 Luo myyntilasku tai -tilaus tallentaaksesi sopimuksesi asiakkaan kanssa ja myydäksesi määrätyt tuotteet määrätyillä toimitus- ja maksuehdoilla.

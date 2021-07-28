@@ -1,6 +1,6 @@
 ---
 title: Suomen paikalliset toiminnot
-description: Seuraavissa ohjeaiheissa kerrotaan Business Central -sovelluksen suomalaisen version paikallisista toiminnoista.
+description: Seuraavissa ohjeaiheissa kerrotaan Business Central -sovelluksen suomalaisen version erilaisista paikallisista toiminnoista.
 author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/18/2021
 ms.author: soalex
-ms.openlocfilehash: 737ab7ddd3bd01d2f72bc617c61ddab3d806ddc1
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ca099c7e8efe173dbfb19817a03045f667378236
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774389"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6321752"
 ---
 # <a name="finland-local-functionality"></a>Suomen paikalliset toiminnot
 

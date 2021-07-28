@@ -1,6 +1,6 @@
 ---
-title: Business Centralin paikalliset toiminnot
-description: Tutustu Business Centralin paikalliseen saatavuuteen ja sääntelynmukaisuuteen niissä maissa ja alueilla, joissa Microsoft tarjoaa paikallisia toimintoja.
+title: Paikalliset toiminnot ja lokalisointistrategia
+description: Tutustu Business Centralin paikalliseen saatavuuteen ja sääntelynmukaisuuteen niissä maissa ja niillä alueilla, joissa Microsoft tarjoaa paikallisia toimintoja.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: availability, localization
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 8a6d4bfbf4d61df0a42f9f866243c44f8809894b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6967e54999c1bb2a0a9e7fe095e8c3cca9543ec8
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776420"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6321693"
 ---
 # <a name="local-functionality-in-prod_long"></a>[!INCLUDE[prod_long](includes/prod_long.md)]in paikalliset toiminnot
 
@@ -51,6 +51,7 @@ Saat lisätietoja kunkin maan/alueen paikallisista toiminnoista valitsemalla sop
 |        | Yhdysvallat|[Paikalliset toiminnot Yhdysvalloissa](localfunctionality/unitedstates/united-states-local-functionality.md) |
 | Aasia ja Tyynenmeren alue |       |  |
 |        | Australia | [Australian paikalliset toiminnot](localfunctionality/australia/australia-local-functionality.md) |
+|        | Intia | [Intian paikalliset toiminnot](LocalFunctionality/India/india-local-functionality.md) |
 |        | Uusi-Seelanti | [Uusi-Seelannin paikalliset toiminnot](localfunctionality/newzealand/new-zealand-local-functionality.md) |
 
 ### <a name="other-countries"></a>Muut maat

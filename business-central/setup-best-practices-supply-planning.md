@@ -1,6 +1,6 @@
 ---
-title: Asetukset - parhaat käytännöt – Toimitusten suunnittelu | Microsoft Docs
-description: Tarjonnan suunnittelu on kriittinen liiketoiminta-alue. Kun tarjonnan suunnittelu on määritetty ja käytetty oikein, sen avulla yritys välttää varaston loppumista ja vähentää sekä kustannusten että varaston kuluja.
+title: Asetusten parhaat käytännöt – toimitusten suunnittelu
+description: Kun tarjonnan suunnittelu on määritetty ja käytetty oikein, sen avulla yritys välttää varaston loppumista ja vähentää sekä kustannusten että varaston kuluja.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: c583598038a1c79c0bba32aec24363a56b2830e5
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 423d26aad7fe708cf51d614449cb7a3666c27dd6
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778045"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320029"
 ---
 # <a name="setup-best-practices-supply-planning"></a>Asetukset - parhaat käytännöt: toimitusten suunnittelu
 Tarjonnan suunnittelu on kriittinen liiketoiminta-alue. Kun tarjonnan suunnittelu on määritetty ja käytetty oikein, sen avulla yritys välttää varaston loppumista ja vähentää sekä kustannusten että varaston kuluja.  

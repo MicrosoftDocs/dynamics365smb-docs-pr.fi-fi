@@ -1,6 +1,6 @@
 ---
-title: Rakennetiedot – Nimikkeen seuranta | Microsoft Docs
-description: Tässä ohjeaiheessa on yleiskatsaus nimikeseurannan rakennetiedoista.
+title: Rakennetiedot – nimikeseuranta
+description: Nimikeseurantajärjestelmä helpottaa sarja- ja eränumeroiden käsittelyä. Numeroita saatetaan tarvita lakisääteisten vaatimusten täyttämiseen tai takuukäsittelyyn.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 6e5f20d2f450f3f544cc2f7023160e4e9babdf33
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 788d003324ccf7314d316f201cc561e0a2877933
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772802"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320287"
 ---
 # <a name="design-details-item-tracking"></a>Rakennetiedot: nimikkeen seuranta
 Samalla kun tämän hetkinen tarjontaketjun tavaravirta monimutkaistuu koko ajan, nimikkeiden seurannasta tulee yrityksille entistä tärkeämpää. Nimikkeen tapahtumatyönkulun valvonta on lakisääteinen vaatimus lääke- ja kemianteollisuuden toimituksissa, mutta muut yritykset haluavat ehkä tuotteiden takuita tai vanhentumispäiviä asiakaspalvelun vuoksi.  

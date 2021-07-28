@@ -1,6 +1,6 @@
 ---
-title: Rakenteen tiedot – Kirjausliittymän rakenne | Microsoft Docs
-description: Tässä aiheessa on yleiskatsaus kirjausliittymän rakenteen yleisistä toimintaohjeista.
+title: Rakenteen tiedot – kirjausliittymän rakenne
+description: Tässä aiheessa on yleiskatsaus kirjausliittymän rakenteen yleisistä toimintaohjeista ja rakennetiedoista.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: posting, interface, design
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 529a0e42d814f0754e62fcc4b93b793d44b8daa7
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 80805675a3ecb1c847f0a55c2dc50008faa3b21f
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215826"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6318382"
 ---
 # <a name="design-details-posting-interface-structure"></a>Rakenteen tiedot: Kirjausliittymän rakenne
 [!INCLUDE[prod_short](includes/prod_short.md)] -kirjausliittymän rakenteessa on useita globaaleja proseduureja, jotka käyttävät samaa rakennetta:  
