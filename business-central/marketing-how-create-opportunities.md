@@ -1,5 +1,5 @@
 ---
-title: Myyntimahdollisuuksien luominen| Microsoft Docs
+title: Myyntimahdollisuuksien luominen
 description: Tässä artikkelissa kerrotaan, miten Business Central -sovelluksessa luodaan mahdollisuuksia myyjästä tai kontaktista.
 services: project-madeira
 documentationcenter: ''
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: jswymer
-ms.openlocfilehash: aa41064ceaae8366b9d588ace3de9230ec654423
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 68074c38203f987ed4ff48d9c14ad4a25891e8ba
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785471"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437264"
 ---
 # <a name="create-sales-opportunities"></a>Myyntimahdollisuuksien luominen
 Voit luoda mahdollisuuksia kontaktiesi myynneille. Kaikki mahdollisuudet täytyy liittää myyjään/ostajaan, ja mahdollisuuteen täytyy sisältyä kontakti.
@@ -27,7 +27,7 @@ Voit luoda mahdollisuuksia **Mahdollisuusluettelo**-sivulla. Yleensä mahdollisu
 Ennen mahdollisuuksien luomista sinun täytyy määrittää myyntisyklit. Lisätietoja on kohdassa [Mahdollisuuden myyntisyklien ja syklin vaiheiden määrittäminen](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## <a name="to-create-an-opportunity-from-a-salesperson"></a>Mahdollisuuden luominen myyjästä
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyjät** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyjät** ja valitse sitten vastaava linkki.
 2. Valitse luettelosta myyjä, jolle haluat luoda mahdollisuuden.
 3. Valitse **Mahdollisuudet**-toiminto ja valitse sitten **Luettelo**.
 4. Valitse **Uusi** ja täytä sitten tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -35,7 +35,7 @@ Ennen mahdollisuuksien luomista sinun täytyy määrittää myyntisyklit. Lisät
 
 
 ## <a name="to-create-an-opportunity-from-a-contact"></a>Mahdollisuuden luominen kontaktista
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Yhteyshenkilöt** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kontaktit** ja valitse sitten vastaava linkki.
 2. Valitse luettelosta kontakti, jolle haluat luoda mahdollisuuden.
 3. Tee jompikumpi seuraavista toimista:
    * Valitse **Luo mahdollisuus** -toiminto.

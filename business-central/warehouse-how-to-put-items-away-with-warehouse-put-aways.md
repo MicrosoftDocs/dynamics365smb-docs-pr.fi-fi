@@ -1,6 +1,6 @@
 ---
 title: Nimikkeiden hyllyttäminen fyysisen varastoinnin hyllytyksen avulla | Microsoft Docs
-description: Kun sijainnissa on määritetty pakolliseksi fyysisen varastoinnin hyllytyksen ja vastaanoton käsittely, voit ohjata nimikkeiden hyllytystä fyysisen varastoinnin hyllytysasiakirjojen avulla.
+description: Lue, miten voit hyllyttää nimikkeitä Business Centralissa seuraavien fyysisen varaston hyllytystehtävien avulla.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: ed7374fb2d718417639a2f1f74c69bff61847d2e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0f4dbac3c3131cf31690710cba9457e7508acad5
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782507"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438080"
 ---
 # <a name="put-items-away-with-warehouse-put-aways"></a>Nimikkeiden hyllyttäminen ja fyysisen varaston hyllytykset
 Kun sijainnissa on määritetty pakolliseksi fyysisen varastoinnin hyllytyksen ja vastaanoton käsittely, voit ohjata nimikkeiden hyllytystä fyysisen varastoinnin hyllytysasiakirjojen avulla.  
@@ -27,7 +27,7 @@ Fyysisen varastoinnin määritysten mukaan ohjelma ottaa rivit käyttöön hylly
 Tässä ohjeaiheessa kuvattujen fyysisen varaston hyllytysten luonnin vakiotapojen lisäksi voit luoda hyllytyksen liittyvästä kirjatusta fyysisen varaston vastaanotosta. Tämä on kätevää, jos olet poistanut hyllytysrivit tai jos käytät ohjattua hyllytystä ja poimintaa ja olet päättänyt olla käyttämättä hyllytystyökirjaa, koska voit luoda tai uudelleenluoda vastaanottorivien hyllytysohjeet.  
 
 ## <a name="to-put-items-away-without-directed-put-away-and-pick"></a>Nimikkeiden hyllytys ilman ohjattua hyllytystä ja poimintaa  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Hyllytykset** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Hyllytykset** ja valitse sitten vastaava linkki.  
 2.  Avaa varastohyllytys, joka on valmis käsiteltäväksi.  
 
     Voit lajitella hyllytysrivejä eri kriteerien mukaan, esimerkiksi nimikkeen, hyllynumeron tai eräpäivän mukaan ja näin optimoida hyllytysprosessin.  
@@ -35,7 +35,7 @@ Tässä ohjeaiheessa kuvattujen fyysisen varaston hyllytysten luonnin vakiotapoj
 4.  Kun olet saanut nimikkeiden hyllytyksen valmiiksi, tallenna toiminnon valmistuminen ja määritä nimikkeet poimittaviksi valitsemalla **Rekisteröi hyllytys** -toiminto.  
 
 ## <a name="to-put-items-away-with-directed-put-away-and-pick"></a>Nimikkeiden hyllytys ohjatun hyllytyksen ja poiminnan avulla  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Hyllytykset** ja valitse sitten liittyvä linkki.
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Hyllytykset** ja valitse sitten vastaava linkki.
     Jos hyllytysohjeet on luotu, ikkunassa näkyy fyysisen varastoinnin hyllytys.  
 2.  Avaa varastohyllytys, jota haluat käsitellä.  
 3.  Jos fyysinen varastointi edellyttää sitä, kirjoita käyttäjätunnuksesi **Yleinen**-pikavälilehteen, kun aloitat tietyn hyllytyksen käsittelyn.  
@@ -63,7 +63,7 @@ Kun hyllytysmallin ehtoja vastaavia varastopaikkoja on useita, ohjelma käyttä�
 ## <a name="to-create-a-put-away-from-a-posted-receipt"></a>Luo hyllytys kirjatusta vastaanotosta  
  Jos sijainnissa käytetään sekä hyllytyskäsittelyä että vastaanoton käsittelyä ja olet poistanut hyllytysrivit tai jos käytät ohjattua hyllytystä ja poimintaa ja olet päättänyt olla käyttämättä hyllytystyökirjaa, voit luoda tai uudelleenluoda kirjattujen vastaanottorivien hyllytysohjeet.
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Kirjatut f.var. vast.otot** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kirjatut f. var. vast.otot** ja valitse sitten vastaava linkki.  
 2.  Valitse kirjattu vastaanotto, joka täytyy ehkä hyllyttää.  
 3.  Valitse **Kortti**-toiminto.  
 

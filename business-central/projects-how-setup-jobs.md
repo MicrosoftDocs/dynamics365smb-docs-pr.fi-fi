@@ -8,12 +8,12 @@ ms.workload: na
 ms.search.keywords: project management
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: fc936a6839bbed7fee061b62a851441caddb5a4f
-ms.sourcegitcommit: 93c8681054b059cec38cb29b86de20be37980676
+ms.openlocfilehash: cff8ae1b376079aa1b9162cade59e88da985e263
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938069"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436146"
 ---
 # <a name="set-up-jobs-prices-and-job-posting-groups"></a>Projektien, hintojen ja projektin kirjausryhmien määrittäminen
 
@@ -22,7 +22,7 @@ Määrität projektipäällikkönä projektit, jotka määrittävät jokaisen [!
 Kullekin projektille määritetään sitten yksittäiset projektikortit, joissa on tietoja projektinimikkeiden hinnoista, projektin resursseista ja KP-tileistä. Määritä myös projektin kirjausryhmät.
 
 ## <a name="to-set-general-information-for-jobs"></a>Projektien yleistietojen määrittäminen
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Töiden määritys** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektienhallinnan asetukset** ja valitse sitten vastaava linkki.
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
@@ -55,7 +55,7 @@ If job usage tracking is not enabled and the **Line Type** field on the job jour
 Voit määrittää hintoja työhön liittyville nimikkeille, resursseille ja KP-tileille. 
 
 #### <a name="current-experience"></a>[Nykyinen kokemus](#tab/current-experience)
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Työt** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektit** ja valitse sitten vastaava linkki.  
 2. Valitse projekti ja valitse sitten **Resurssi**- **Nimike**- tai **KP-tili**-toiminto.
 3. Täytä **Projektiresurssien hinnat**-, **Projektinimikkeiden hinnat**- tai **Projektin kirjanpitotilin hinnat** -sivulla tarvittavat kentät.
 
@@ -69,7 +69,7 @@ Seuraavasta taulukosta näkee, miten valinnaisten kenttien tietoja käytetään 
 
 ---
 #### <a name="new-experience"></a>[Uusi kokemus](#tab/new-experience)
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Työt** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektit** ja valitse sitten vastaava linkki.  
 2. Valitse soveltuva projekti ja valitse sitten **Myyntihinnastot**-toiminto.
 
 ---
@@ -80,7 +80,7 @@ Yksi näkökulma projektien suunnittelussa on sen päättäminen, mitä kirjaust
 > [!NOTE]  
 >   Tarvittavat tilikartat tulee määrittää Tilikartta-taulukossa ennen kirjausryhmien määrittämistä. Lisätietoja on kohdassa [Tilikartan määrittäminen tai muuttaminen](finance-setup-chart-accounts.md).  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **projektin kirjausryhmät** ja valitse liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektin kirjausryhmät** ja valitse sitten vastaava linkki.  
 2. Valitse **Uusi**-toiminto ja täytä kentät seuraavassa taulukossa kuvatulla tavalla.  
 
 | Summakentät | Kuvaus |

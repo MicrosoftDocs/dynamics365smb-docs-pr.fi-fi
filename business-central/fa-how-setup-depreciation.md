@@ -1,18 +1,18 @@
 ---
 title: Poistomenetelmien määrittäminen
-description: Voit määrittää poistokirjaan, miten haluat käyttöomaisuuden poiston tai alaskirjauksen tapahtuvan.
+description: Saatavilla olevia poistomenetelmiä on monia. Business Centralissa määritetään käyttöomaisuuden poistomenetelmä **Käyttöomaisuuskortti**-sivulla.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: write down
-ms.date: 04/01/2021
+ms.date: 06/28/2021
 ms.author: edupont
-ms.openlocfilehash: eb7e0d0d082d8a86ce61b6dffab46ce6248a29d9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 166e0a534632b0bf67dc14a860088e6a846d6957
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782277"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437860"
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Käyttöomaisuuden poiston määrittäminen
 
@@ -26,7 +26,7 @@ Kun olet luonut asianmukaiset poistokirjat, kuhunkin käyttöomaisuuserään tul
 
 Käyttöomaisuuden poistokirjaan voidaan määrittää, miten käyttöomaisuus poistetaan. Useiden erilaisten poistomenetelmien hallitsemiseksi voidaan määrittää useita poistokirjoja.  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Poistokirjat** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poistokirjat** ja valitse sitten vastaava linkki.
 2. Valitse **Poistokirjaluettelo**-sivulla **Uusi**-toiminto.
 3. Täytä **Poistokirjakortti**-sivun kentät tarvittaessa. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -41,7 +41,7 @@ Käyttöomaisuuden poistokirjaan voidaan määrittää, miten käyttöomaisuus p
 Jos esimerkiksi hävität käyttöomaisuuserän, jolle poistokirjassa ei määritetä pyöristystä, mutta yrityksesi pääkirjanpidon asetukset edellyttävät pyöristystä, ja käyttöomaisuudesta luovutaan, näyttöön tulee virhesanoma siitä, että summa on pyöristettävä tapahtumassa.  
 
 ## <a name="to-assign-a-depreciation-book-to-a-fixed-asset"></a>Poistokirjan liittäminen käyttöomaisuuteen
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Käyttöomaisuus** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttöomaisuus** ja valitse sitten vastaava linkki.
 2. Valitse käyttöomaisuus, jolle haluat määrittää käyttöomaisuuden poistokirjan.
 3. Täytä **Poistokirja**-pikavälilehden kentät tarvittaessa.
 4. Jos käyttöomaisuuteen on liitettävä useita poistokirjoja, valitse **Lisää poistokirjoja** -toiminto.
@@ -50,10 +50,13 @@ Jos esimerkiksi hävität käyttöomaisuuserän, jolle poistokirjassa ei määri
     > [!NOTE]  
     >   Kun käytössä on manuaalinen poistomenetelmä, poistot on vietävä manuaalisesti käyttöomaisuuden KP-päiväkirjaan. **Laske poisto** -toiminto jättää huomiotta käyttöomaisuuserät, joille käytetään manuaalista poistomenetelmää. Tätä tapaa voidaan käyttää omaisuuserille, joille ei tehdä poistoja, kuten maa-alueille.
 
+    > [!NOTE]  
+    > Kun käytät käyttäjän määrittämää poistomenetelmää, poistokirja on määritettävä eri tavalla. Lisätietoja on kohdassa [Käyttäjän määrittämän poistomenetelmän määrittäminen](fa-how-setup-user-defined-depreciation-method.md).
+
 ## <a name="to-assign-a-depreciation-book-to-multiple-fixed-assets-with-a-batch-job"></a>Poistokirjan liittäminen useisiin käyttöomaisuuseriin eräajon avulla
 Jos haluat määrittää poistokirjan moneen käyttöomaisuuteen, voit luoda **Luo KO:n poistokirjat** -eräajolla käyttöomaisuuden poistokirjat.  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Käyttöomaisuus** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttöomaisuus** ja valitse sitten vastaava linkki.
 2. Valitse käyttöomaisuus, jolle haluat määrittää ja liittää poistokirjan. Valitse sitten **Muokkaa**-toiminto.
 3. Valitse **Poistokirjakortti**-sivulla **Luo KO:n poistokirjat** -toiminto.
 4. Täytä **Luo KO:n poistokirjat** -sivun **Poistokirja**-kenttä.
@@ -66,7 +69,7 @@ Jos haluat määrittää poistokirjan moneen käyttöomaisuuteen, voit luoda **L
 ## <a name="to-set-up-depreciation-posting-types"></a>Poiston kirjaustyyppien määrittäminen
 Kunkin poistokirjan osalta on määritettävä, miten [!INCLUDE[prod_short](includes/prod_short.md)] käsittelee eri kirjaustyyppejä. Voit esimerkiksi määrittää, että tuleeko kirjauksen olla debet vai kredit, ja tuleeko kirjaustyyppi sisällyttää poistopohjaan.  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Poistokirjat** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poistokirjat** ja valitse sitten vastaava linkki.  
 2. Valitse poistokirja, jonka. Valitse sitten **KO:n kirjaustyypin asetukset** -toiminto.
 3. Täytä **KO:n kirjaustyypin asetukset** -sivulla tarvittavat kentät.
 
@@ -78,10 +81,17 @@ On hyvin suositeltavaa, ettei niiden poistokirjojen asetuksia muuteta, joiden os
 ## <a name="to-set-up-default-templates-and-batches-for-fixed-asset-depreciation"></a>Käyttöomaisuuden poiston oletusmallien ja -erien määrittäminen
 Kunkin poistokirjan osalta määritellään mallien ja erien oletusasetukset. Voit monistaa näillä oletusarvoilla yhden päiväkirjan rivit toiseen päiväkirjaan, luomaan päiväkirjarivejä **Laske poisto**- tai **Tee indeksimuutos KO:teen** -eräajoilla ja monistamaan vakuutuspäiväkirjan hankintamenoja.  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Poistokirjat** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poistokirjat** ja valitse sitten vastaava linkki.  
 2. Valitse poistokirja, jolle haluat määrittää oletuspäiväkirjat. Valitse sitten **KO-päiväkirjan asetukset** -toiminto.  
 3. Jos haluat, että jokaisella käyttäjällä on oletusasetukset, valitse **Käyttäjätunnus**-kenttä, jotta voit tehdä valinnan **Käyttäjät**-sivulla.  
 4. Valitse muille kentille oletusarvoisesti käytettävä päiväkirjamalli tai -erä.  
+
+## <a name="fiscal-year-365-days-field-depreciation"></a>Tilikausi 365 päivää -kentän poisto
+
+Kun Laske poisto -eräajo laskee poistot, eräajo käyttää tavallisesti standardisoitua 360 päivän vuotta, jossa kussakin 12 kuukaudessa on 30 päivää.
+
+Jos valitset tämän kentän, Laske poisto -eräajo käyttää sen sijaan 365 päivän kalenterivuotta, jossa kullekin kuukaudelle lasketaan sama päivien määrä kuin kalenterissa. Ainoa poikkeus on karkausvuosien helmikuu, jolloin helmikuussa ei katsota olevan 29 vaan 28 päivää. Tämän vuoksi kaikki vuodet, myös karkausvuodet, katsotaan 365 päivän pituisiksi.
+
 
 ## <a name="see-also"></a>Katso myös
 [Käyttöomaisuuden määrittäminen](fa-setup.md)  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales rep
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a16c48821aef828aeba61e8bc859007b5678a473
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 07fa5963f79f091dffd49af7d20669616923797f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778520"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436649"
 ---
 # <a name="set-up-salespeople"></a>Myyjien määrittäminen
 Useat yritykset haluavat seurata yksittäisen työntekijän suoritusta perustana myyntiprovision tai bonuksen laskennalle. Tarkastele esimerkiksi **myyjien provisioiden** raporttia. Yritys voi myös haluta määrittää myyjän kullekin kontaktilleen.
@@ -25,7 +25,7 @@ Kun olet määrittänyt myyjän **Myyjät**-sivulla, voit valita luomasi myyjän
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43Vhm?rel=0]
 
 ## <a name="to-set-up-a-salesperson-code"></a>Myyjäkoodin määrittäminen
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyjät** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyjät** ja valitse sitten vastaava linkki.
 2. Valitse **Myyjät**-sivulla **Uusi**-toiminto.
 
 Voit käyttää myyjiä erilaisissa asiakkuudenhallinta- ja markkinointitöissä. Voit esimerkiksi määrittää tehtäviä myyjille siten, että tehtävät sisältyvät niihin myyntimahdollisuuksiin, jotka on määritetty myyjälle. Lisätietoja on ohjeaiheessa [Mahdollisuuden myyntisyklien ja syklin vaiheiden määrittäminen](marketing-how-setup-opportunity-sales-cycles-stages.md).

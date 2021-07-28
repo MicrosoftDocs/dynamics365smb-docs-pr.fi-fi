@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5f892333d08036efe751cbcabf49945377990807
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1543627340cb4947eafafffc362acddacb52ceb6
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770861"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436196"
 ---
 # <a name="defining-and-allocating-costs"></a>Kustannusten määrittäminen ja kohdistaminen
 Kustannusten kohdistukset siirtävät kustannuksia ja tuottoja eri kustannustyyppien, kustannuspaikkojen ja kustannuskohteiden välillä. Voit määrittää niin monta kodhistusta kuin on tarpeen. Jokainen kohdistus koostuu:  
@@ -38,7 +38,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 Jokainen kohdistus koostuu kohdistuslähteestä ja sekä vähintään yhdestä kohdistuskohteesta. Kohdistuksen lähde määrittää, mitkä kustannukset kohdistetaan. Kohdistuskohteet määrittävät, mihin kustannukset kohdistetaan.  
 
 ### <a name="to-set-up-cost-allocations"></a>Määritä kustannusten kohdistamiset  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Kustannusten kohdistaminen** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kustannusten kohdistaminen** ja valitse sitten vastaava linkki.  
 2.  Valitse **Kustannusten kohdistaminen** -sivulla **Muokkaa**-toiminto.  
 3.  Kirjoita tunnus kohdistuslähteelle **Tunnus**-kentässä.  
 4.  Määritä taso numerona väliltä 1-99 **Taso**-kentässä Kohdistuksen kirjauksen tulee noudattaa tasojen järjestystä.  
@@ -82,7 +82,7 @@ Tässä aiheessa kuvataan, miten määrittää kolmen uuden kohdistuskohteen kus
 
 ### <a name="to-define-the-allocation-source-prod-cost-center-on-the-general-fasttab"></a>Määritä varauksen lähde TUOT kustannuspaikka yleisessä pikavälilehdessä  
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Kustannusten kohdistaminen** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kustannusten kohdistaminen** ja valitse sitten vastaava linkki.  
 2.  Valitse **Kustannusten kohdistaminen** -sivulla **Uusi**-toiminto.  
 3.  Paina **Tunnus**-kentässä Enter tai kirjoita tunnus.  
 4.  Syötä **Taso**-kenttään **1**.  
@@ -119,7 +119,7 @@ Tässä aiheessa kuvataan esimerkki siitä, kuinka kohdistuksia määritetään 
 
 ### <a name="to-define-dynamic-allocations-based-on-items-sold-in-the-previous-year"></a>Märitä edellisvuonna myyytihin nimikkeisiin perustuvat dynaamiset kohdistukset  
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Kustannusten kohdistukset** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kustannusten kohdistamiset** ja valitse sitten vastaava linkki.  
 2.  Valitse **Kustannusten kohdistaminen** -sivulla **Uusi**-toiminto.  
 3.  Paina **Tunnus**-kentässä Enter tai kirjoita tunnus.  
 4.  Syötä **Taso**-kenttään **1**.  

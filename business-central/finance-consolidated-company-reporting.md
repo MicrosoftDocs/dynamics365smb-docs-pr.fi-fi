@@ -1,6 +1,6 @@
 ---
-title: Usean yrityksen tietojen konsolidointi | Microsoft Docs
-description: Hae yhteenvetonäkymä kaikkien liiketoimintayksikköjesi taloudellisesta tilanteesta.
+title: Usean yrityksen tietojen konsolidointi
+description: Tämä aihe selittää, miten voit konsolidoida yritysten (tytäryritysten) pääkirjanpidon tapahtumat konsolidoituun yritykseen.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 2be133009314b714d7b86e6257f642f13720b5e8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 24b9dd8d332091508a21620c3ac1d32fd7be8d55
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774327"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436246"
 ---
 # <a name="consolidating-financial-data-from-multiple-companies"></a>Usean yrityksen kirjanpitotietojen konsolidoiminen
 
@@ -55,7 +55,7 @@ Varsinainen konsolidointi on prosessi, jossa luvut siirretään liiketoimintayks
 Voit testata tiedot, ennen kuin siirrät ne konsolidoituun yritykseen. [!INCLUDE[prod_short](includes/prod_short.md)] etsii eroavaisuuksia liiketoimintayksiköiden tietojen ja konsolidoidun yrityksen tietojen välillä. Tarkistettavia kohteita ovat esimerkiksi erot tilinumeroiden tai dimensiokoodien välillä. Virheet on korjattava ennen raportin suorittamista. Voit testata tietokannan. Jos tuot tietoja XML-tiedostosta, voit testata myös tiedoston.  
 
 1. Avaa konsolidoitu yritys.  
-2. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Liiketoimintayksiköt** ja valitse sitten liittyvä linkki.  
+2. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Liiketoimintayksiköt** ja valitse sitten vastaava linkki.  
 3. Tee jompikumpi seuraavista toimista:  
 
     * Testaa tiedosto valitsemalla **Testaa tiedosto** -toiminto, antamalla testattavan tiedoston nimen ja valitsemalla **Tulosta**.  

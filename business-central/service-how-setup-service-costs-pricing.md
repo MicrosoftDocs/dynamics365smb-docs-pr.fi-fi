@@ -1,6 +1,6 @@
 ---
-title: Huollon hinnoittelun ja kustannusten määrittäminen | Microsoft Docs
-description: Lisätietoja huollon hintojen ja lisäkustannusten määrittämisestä.
+title: Huollon hinnoittelun ja kustannusten määrittäminen
+description: Tietoja siitä, miten voit käyttää hinnoitteluominaisuuksia määrittääksesi ja mukauttaaksesi sovellusta niin, että voit käyttää ja säätää huoltonimikkeiden, korjausten ja tilausten hinnoittelun.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, cost, service order
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 44f6064d33d132f4a7d80bc8adc9dbff55d3a516
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 595f25f872cf669d4b79f1cc10542b46e2da22d2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773703"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436549"
 ---
 # <a name="set-up-pricing-and-additional-costs-for-services"></a>Huollon hintojen ja lisäkustannusten määrittäminen
 Voit käyttää [!INCLUDE[prod_short](includes/prod_short.md)] hinnoitteluominaisuuksia määrittääksesi ja mukauttaaksesi sovellusta niin, että voit käyttää ja säätää palvelunimikkeiden, korjausten ja tilausten hinnoittelun. Nämä hinnoittelupäätökset on sitten helppo siirtää laskutusprosessiin.  
@@ -25,7 +25,7 @@ Tarpeen mukaan voit määrittää hinnoitteluryhmiä ja liittää niitä ajanjak
 ## <a name="to-set-up-a-service-price-group"></a>Huoltohintaryhmien määrittäminen
 Voit määrittää huoltonimikkeitä sisältäviä ryhmiä, joissa haluat käyttää samoja erikoishuoltohinnoittelua. Huoltohintaryhmiä määritellään huoltonimikeriveillä oleville huoltonimikkeille. Huoltohintaryhmiä voidaan liittää myös huoltonimikeryhmiin.  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Huoltohintaryhmät** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltohintaryhmät** ja valitse sitten vastaava linkki.  
 2. Luo uusi huoltohintaryhmä.  
 3. Täytä **Koodi**- ja **Kuvaus**-kentät.  
 4. Valitse **Asetukset**-toiminto.  
@@ -37,7 +37,7 @@ Voit määrittää huoltonimikkeitä sisältäviä ryhmiä, joissa haluat käytt
 ## <a name="to-set-up-a-service-price-adjustment-group"></a>Huoltohintamuutoksen ryhmien määrittäminen  
 Voit muuttaa huoltonimikkeiden huoltohinnoittelua määrittämällä hinnan muutosryhmän. Voit määrittää esimerkiksi hinnanmuutosryhmiä, jotka muuttavat rahdin tai varaosien hintaa.  
   
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Huoltohintamuutoksen ryhmät** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltohintamuutoksen ryhmät** ja valitse sitten vastaava linkki.  
 2. Luo uusi huoltohintamuutoksen ryhmä.  
 3. Täytä **Koodi**- ja **Kuvaus**-kentät.  
 4. ANna **Tyyppi**-kentässä säädettävän tapahtuman tyyppi.  
@@ -55,11 +55,11 @@ Voit muuttaa huoltonimikkeiden huoltohinnoittelua määrittämällä hinnan muut
 Kun käsittelet huoltonimikkeitä ja -tilauksia, on ehkä rekisteröitävä lisäkustannuksia, kuten matkakulut tietyille huoltoalueille tai aloitusmaksut. Kun luot huoltotilauksen, voit lisätä nämä kustannukset ja **Kustannus**-tyypin rivi lisätään tilaukseen. Jos puolestaan haluat kohdistaa kustannukset kaikkiin huoltotilauksiin, voit määrittää oletuskustannuksen. Voit esimerkiksi haluta aina käyttää aloitusmaksua.
   
 ### <a name="to-set-up-service-costs"></a>Huoltokustannusten määrittäminen
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Huoltokustannukset** ja valitse sitten liittyvä linkki. 
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltokustannukset** ja valitse sitten vastaava linkki. 
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ### <a name="to-specify-a-default-cost-for-service-orders"></a>Huoltotilausten oletuskustannusten määrittäminen
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Huollon asetukset** ja valitse sitten liittyvä linkki. 
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huollon asetukset** ja valitse sitten vastaava linkki. 
 2. Valitse **Huoltotilauksen aloituspalkkio** -kentässä sopiva palvelukustannus.
 
 ## <a name="see-also"></a>Katso myös

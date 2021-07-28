@@ -1,6 +1,6 @@
 ---
-title: Myyntipalautusten tai -peruutusten käsitteleminen | Microsoft Docs
-description: Ohjeaiheessa kerrotaan, miten luodaan myyntihyvityslasku joko suoraan tai myyntipalautustilauken kautta käsittelemään sellaisten nimikkeiden tai palvelujen palautus, peruutus tai hyvitys, joiden maksun olet vastaanottanut.
+title: Myynnin palautusten tai peruutusten käsittely
+description: Ohjeaiheessa kerrotaan, miten luodaan myyntihyvityslasku käsittelemään sellaisten nimikkeiden tai palvelujen palautus, peruutus tai hyvitys, joiden maksun olet vastaanottanut.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: b5f6daba9251dad73b8924312e35a5cb1474bdb3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: b668e37e7cbe9348aab84b2892543a73bc658b43
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778695"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436799"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Myynnin palautusten tai peruutusten käsittely
 Jos asiakas haluaa palauttaa nimikkeitä tai saada hyvitystä nimikkeistä tai palveluista, jotka olet myynyt ja joista olet saanut maksun, sinun on luotava ja kirjattava myyntihyvityslasku, joka määrittää pyydetyn muutoksen. Voit sisällyttää oikeat myyntilaskun tiedot luomalla myyntihyvityslaskun suoraan kirjatusta myyntilaskusta. Vaihtoehtoiesti voi luoda uuden myyntihyvityslaskun, johon laskun tiedot on kopioitu.
@@ -51,7 +51,7 @@ Jos haluat määrittää todellisten kustannusten peruuttamisen manuaalisesti, s
 Lisätietoja on ohjeaiheessa [Rakenteen tiedot: Varaston arvostus](design-details-inventory-costing.md).
 
 ## <a name="to-create-a-sales-credit-memo-from-a-posted-sales-invoice"></a>Myyntihyvityslaskun luominen kirjatusta myyntilaskusta
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Kirjatut myyntilaskut** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kirjatut myyntilaskut** ja valitse sitten vastaava linkki.  
 2. Valitse **Kirjatut myyntilaskut** -sivulla kirjattu myyntilasku, jonka haluat peruuttaa, ja valitse sitten **Luo korjaava hyvityslasku** -toiminto.
 
     Ostohyvityslaskun otsikossa on tietoja kirjatusta myyntilaskusta. Voit muokata sitä esimerkiksi palautussopimusta vastaavilla uusilla tiedoilla.  
@@ -73,7 +73,7 @@ Lisätietoja on ohjeaiheessa [Rakenteen tiedot: Varaston arvostus](design-detail
 Kirjatut myyntiasiakirjat, jotka kohdistettiin hyvityslaskuun, on nyt peruutettu, ja asiakkaalle voidaan luoda palautusmaksu. Myyntihyvityslasku poistetaan ja korvataan uudella kirjattujen myyntihyvityslaskujen luettelon asiakirjalla.
 
 ## <a name="to-create-a-sales-credit-memo-by-copying-a-posted-sales-invoice"></a>Myyntihyvityslaskun luominen kopioimalla kirjattu myyntilasku
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Myyntihyvityslaskut** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntihyvityslaskut** ja valitse sitten vastaava linkki.
 2. Avaa uusi tyhjä myyntihyvityslasku valitsemalla **Uusi**-toiminto.
 3. Syötä **Asiakas**-kenttään nykyisen asiakkaan nimi.
 4. Valitse **Kopioi asiakirjasta** -toiminto.
@@ -84,7 +84,7 @@ Kirjatut myyntiasiakirjat, jotka kohdistettiin hyvityslaskuun, on nyt peruutettu
 9. Täytä myyntihyvityslasku kohdan [Myyntihyvityslaskun luominen kirjatusta myyntilaskusta](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-credit-memo-from-a-posted-sales-invoice) mukaisesti.
 
 ## <a name="to-create-a-sales-return-order-based-on-one-or-more-posted-sales-documents"></a>Myyntipalautustilauksen luominen vähintään yhden kirjatun myyntiasiakirjan perusteella
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Myyntipalautustilaukset** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntipalautustilaukset** ja valitse sitten vastaava linkki.
 2. Valitse **Uusi**-toiminto.  
 3. Täytä **Yleiset**-pikavälilehdessä tarvittavat kentät.
 4. Täytä **Rivit**-pikavälilehdessä rivit manuaalisesti. Jos kopioit tiedot muista asiakirjoista, rivit täytetään automaattisesti:
@@ -164,7 +164,7 @@ Kun kirjaat myyntipalautustilauksen, ohjelma lisää täydennysmaksun asianmukai
 Joskus asiakkaalle täytyy lähettää hyvityslasku, jossa on hinnanalennus, jos asiakas on esimerkiksi vastaanottanut nimikkeet hieman vahingoittuneina tai saanut ne myöhässä.  
 Voit kirjata tämän alennushinnan nimikekuluna hyvityslaskuun tai palautustilaukseen ja määritellä sen kirjattuun toimitukseen. Seuraavassa se käsitellään myyntihyvityslaskun osalta, mutta samat vaiheet koskevat myös myyntipalautustilausta.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Myyntihyvityslaskut** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntihyvityslaskut** ja valitse sitten vastaava linkki.
 2. Avaa uusi tyhjä myyntihyvityslasku valitsemalla **Uusi**-toiminto.
 3. Täytä hyvityslaskun otsikko asianmukaisilla tiedoilla asiakkaasta, jolle haluat antaa myyntialennuksen.  
 4. Valitse **Rivit**-pikavälilehden **Tyyppi**-kentässä **Kulu (nimike)**.  
@@ -187,7 +187,7 @@ Sitten kun olet valmis laskuttamaan asiakasta, voit luoda myyntihyvityslaskun ja
 
 ### <a name="to-manually-combine-return-receipts"></a>Palautusvastaanottojen yhdistäminen manuaalisesti  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Myyntihyvityslasku** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntihyvityslasku** ja valitse sitten vastaava linkki.  
 2. Valitse **Uusi**-toiminto.
 3. Täytä **Yleiset**-pikavälilehdessä tarvittavat kentät.  
 4. Valitse **Hae pal. vastaanottorivit** -toiminto.  
@@ -203,7 +203,7 @@ Sitten kun olet valmis laskuttamaan asiakasta, voit luoda myyntihyvityslaskun ja
 ### <a name="to-automatically-combine-return-receipts"></a>Palautusvastaanottojen yhdistäminen automaattisesti  
 Voit yhdistää palautusvastaanotot automaattisesti. Voit myös kirjata hyvityslaskut automaattisesti  **Yhdistä palautusvastaanotot** -toiminnolla.  
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Yhdistä palautuskuitit** ja valitse sitten liittyvä linkki.
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Yhdistä palautusvastaanotot** ja valitse sitten vastaava linkki.
 2. Valitse soveltuvat palautusvastaanotot täyttämällä kentät **Yhdistä palautusvastaanotot** -sivulla.
 3. Valitse **Kirjaa hyvityslaskut** -valintaruutu. Muussa tapauksessa saatavat ostohyvityslaskut on kirjattava manuaalisesti.
 4.  Valitse **OK**-painike.  
@@ -212,7 +212,7 @@ Voit yhdistää palautusvastaanotot automaattisesti. Voit myös kirjata hyvitysl
 Kun laskutat palautusvastaanotot näin, säilyvät palautustilaukset, joista palautusvastaanotot kirjattiin, vaikka ne olisi vastaanotettu ja laskutettu täysin.  
 
 Kun palautusvastaanotot yhdistetään hyvityslaskuun ja kirjataan, hyvitetyille riveille luodaan kirjattu myyntihyvityslasku. Alkuperäisen myyntipalautustilauksen **Laskutettu määrä** -kenttä päivitetään laskutetun määrän perusteella.   
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Poista laskutetut myyntpalautusitilaukset** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poista laskutetut myyntipalautustilaukset** ja valitse sitten linkki.  
 2.  Määritä **Numero** -kenttään , mitkä palautustilaukset poistetaan.  
 3.  Valitse **OK**-painike.  
 

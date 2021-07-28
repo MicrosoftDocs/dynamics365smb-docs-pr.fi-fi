@@ -1,6 +1,6 @@
 ---
-title: Nimikkeiden hyllyttäminen varastohyllytyksen avulla | Microsoft Docs
-description: Kun sijanti on asetettu vaatimaan hyllytysprosessia mutta ei vastaanottoprosessia, sinun tulee käyttää **Varastohyllytys** -asiakirjaa kirjataksesi hyllytys ja vastaanotto tietoja lähdeasiakirjoillesi. Saapuva lähdeasiakirja voi olla ostotilaus, myyntipalautustilaus, saapuva siirtotilaus tai tuotantilaus jonka tuotos odottaa hyllytystä.
+title: Nimikkeiden hyllyttäminen varaston hyllytyksen avulla
+description: Lue, miten varaston hyllytysasiakirjan avulla kirjataan ja julkaistaan lähdeasiakirjojen hyllytys- ja vastaanottotiedot.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 35d512bc6d8181c03752c1de6b9f1275de85e815
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e28e565858f4dc6fc1e01c614914b0b1620c9659
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782557"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438105"
 ---
 # <a name="put-items-away-with-inventory-put-aways"></a>Nimikkeiden hyllyttäminen varastohyllytyksen avulla
 Kun sijainti on määritetty edellyttämään hyllytyskäsittelyä mutta ei vastaanottokäsittelyä, lähdeasiakirjojen hyllytys- ja vastaanottotiedot tallennetaan ja kirjataan **Varastohyllytys**-asiakirjaan. Saapuva lähdeasiakirja voi olla ostotilaus, myyntipalautustilaus, saapuva siirtotilaus tai kokoonpano- tai tuotantotilaus, jonka tuotos odottaa hyllytystä.  
@@ -29,11 +29,11 @@ Varastohyllytyksen voi luoda kolmella tavalla:
 ## <a name="to-request-an-inventory-put-away-by-releasing-the-source-document"></a>Pyydä varaston hyllytys vapauttamalla lähdeasiakirja
 Jos kyseessä on ostotilaus, myyntipalautustilaus, saapuva siirtotilaus tai kokoonpanotilaus, voit luoda fyysisen varastoinnin pyynnön vapauttamalla tilauksen. Seuraavaksi käsitellään, miten se tehdään ostotilauksesta.  
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Ostotilaukset** ja valitse sitten liittyvä linkki.
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostotilaukset** ja valitse sitten vastaava linkki.
 2. Valitse ensin vapautettava ostotilaus ja sitten **Vapauta**-toiminto.  
 
     Tuotantotilausten fyysisen varastoinnin pyyntö luodaan luomalla saapuva pyyntö vapautetusta tuotantotilauksesta.  
-3.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Vapautetut tuotantotilaukset** ja valitse sitten liittyvä linkki.  
+3.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Vapautetut tuotantotilaukset** ja valitse sitten vastaava linkki.  
 4. Valitse **Luo saapuva f. var. pyyntö** -toiminto.  
 
 > [!NOTE]  
@@ -43,7 +43,7 @@ Kun fyysisen varastoinnin pyyntö on luotu, varastossa hyllytystä tekevä työn
 
 ## <a name="to-create-an-inventory-put-away-based-on-the-source-document"></a>Varastohyllytyksen lähdeasiakirjasta luominen
 Nyt kun pyyntö on luotu, varastotyöntekijä voi luoda uuden varastohyllytyksen vapautetun lähdeasiakirjan perusteella.   
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Varastohyllytys** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varaston hyllytys** ja valitse sitten vastaava linkki.  
 2. Valitse **Uusi**-toiminto.  
 3. Valitse **Lähdeasiakirja**-kentässä hyllytettävän lähdeasiakirjan tyyppi.  
 4. Valitse **Lähteen nro** -kentässä lähdeasiakirja.  
@@ -56,7 +56,7 @@ Nyt kun pyyntö on luotu, varastotyöntekijä voi luoda uuden varastohyllytyksen
 3. Valitse **OK**-painike. Uusi varaston hyllytys on luotu.
 
 ## <a name="to-create-multiple-inventory-put-aways-with-a-batch-job"></a>Useiden varastohyllytysten luominen eräajon avulla  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Luo var. hyllytys/poiminta** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Luo var. hyllytys / poiminta** ja valitse sitten vastaava linkki.  
 2.  Pyyntösivun **F.var. pyyntö** -pikavälilehdessä voit käyttää **Lähdeasiakirja**- ja **Lähdenro**-kenttiä ja suodattaa tietyn tyyppisiä asiakirjoja (esim. luoda poimintoja vain myyntitilaukselle) tai asiakirjanumerovälejä.  
 3.  Valitse **Asetukset**-pikavälilehdessä **Luo varaston hyllytys** -valintaruutu.
 4.  Valitse **OK**-painike. Määritetyt varastohyllytykset luodaan.

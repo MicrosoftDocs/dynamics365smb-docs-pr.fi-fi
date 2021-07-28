@@ -1,6 +1,6 @@
 ---
-title: Nimikekulujen määrittäminen myyntiin ja ostoihin| Microsoft Docs
-description: Jos haluat, että varastonimikkeisiin liittyy lisäkustannuksia, kuten nimikkeiden ostamisessa ja myynnissä syntyvät rahti-, käsittely-, vakuutus- ja kuljetuskulut, voit käyttää nimikekuluominaisuutta.
+title: Nimikekulujen määrittäminen myyntiin ja ostoihin
+description: Määritä nimikekuluja, kun haluat, että varastonimikkeisiin liittyy lisäkustannuksia (rahti, fyysinen käsittely), joita aiheutuu nimikkeitä ostaessasi tai myydessäsi.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: transportation, added cost, landed cost
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: dbf96c4f09c82bf409c0e082b6df116f3563402f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9ef440a79cec7c59fe6aa7c6cfe34c441817bad5
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773778"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436899"
 ---
 # <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Kaupan lisäkustannusten huomiointi nimikekulujen avulla
 Voit varmistaa oikean arvostuksen liittämällä varastonimikkeisiin lisäkustannukset, kuten nimikkeiden ostamisessa ja myynnissä syntyvät rahti-, käsittely-, vakuutus- ja kuljetuskulut. Ostoissa ostetun nimikkeen kokonaiskustannukset koostuvat toimittajan ostohinnasta ja kaikista suorista lisänimikekuluista, jotka voidaan määritellä yksittäisiin vastaanottoihin tai palautustoimituksiin. Myynnissä Myytyjen nimikkeiden lähetyskulujen tietäminen voi olla yritykselle yhtä tärkeää kuin ostettujen nimikkeiden kokonaiskustannusten tietäminen.
@@ -26,7 +26,7 @@ Lisäkustannuksen varastoarvoon kirjaamisen lisäksi voit käyttää nimikekuluo
 
 - Saapuneen nimikkeen kulun määrittäminen, jotta voidaan tehdä täsmällisiä päätöksiä jakeluverkon optimoimiseksi.
 - Nimikkeen yksikkökulun tai yksikköhinnan erittely analyysia varten.
-- Ostohyvitysten sisällyttäminen yksikkökuluun ja myyntihyvitysten yksikköhintaan.
+- Ostohyvitysten sisällyttäminen yksikkökustannukseen ja myyntihyvitysten yksikköhintaan.
 
 Ennen nimikekulujen määrittämistä on määritettävä erityyppisten nimikekulujen nimikekulunumerot, mukaan lukin KP-tilit, joille myyntiin, ostoihin ja varaston muutoksiin liittyvät kustannukset kirjataan. Nimikekulunumero sisältää yleisen tuotteen kirjausryhmän, veroryhmäkoodin, tuotteen ALV-kirjausryhmän ja nimikekulun yhdistelmä. Kun nimikekulunumero annetaan osto- tai myyntiasiakirjassa, liittyvä KP-tili haetaan nimikkeen kulunumeroasetusten ja yksittäisen asiakirjan tietojen perusteella.
 
@@ -45,14 +45,14 @@ Tässä videossa näytetään, miten lisätoimituskuluja käsitellään osana va
 ## <a name="to-set-up-item-charge-numbers"></a>Nimikekulunumeroiden määrittäminen
 Nimikekulunumeroita käytetään erottelemaan eri tyyppisiä nimikekuluja, joita yrityksessäsi käytetään ostoasiakirjoille.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Nimikekulut** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikekulut** ja valitse sitten vastaava linkki.
 2. Luo uusi rivi valitsemalla **Nimikekulut**-sivulla **Uusi**-toiminto.
 3. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item"></a>Nimikekulun määrittäminen suoraan nimikkeen ostolaskuun
 Jos tiedät nimikekulun nimikkeen ostolaskua kirjatessa, toimi seuraavasti.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostolaskut** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostolaskut** ja valitse sitten vastaava linkki.
 2. Luo uusi ostolasku. Lisätietoja on kohdassa [Ostojen kirjaaminen](purchasing-how-record-purchases.md).
 3. Varmista, että ostolasku on vähintään yksi rivi Nimike-tyyppinen rivi.
 4. Valitse uuden rivin **Tyyppi**-kentässä **Kulu (nimike)**.

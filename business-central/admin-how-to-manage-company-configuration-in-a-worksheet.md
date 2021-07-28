@@ -1,6 +1,6 @@
 ---
-title: Yrityksen määrittämisen hallinta työkirjassa | Microsoft Docs
-description: Määritykset-työkirja on keskitetty sijainti, jossa voit suunnitella, seurata ja tehdä määrityksiä. Voit luoda taulukon kunkin yrityksen osalta, jonka kanssa toimit tai luoda perusmäärityskirjan, jonka avulla voidaan määrittää useita samankaltaisia yrityksiä.
+title: Yrityksen määrittämisen hallinta työkirjassa
+description: Määritykset-työkirja on keskitetty sijainti, jossa voit suunnitella, seurata ja tehdä yrityksen määrityksiä.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: fb50a620f4fc978778a7b6f26581d8768802d0a7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 34d21b0daca39c1b7895800a5f7fbc48485c6c20
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779830"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437960"
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>Yrityksen määrittämisen hallinta työkirjassa
 Määritykset-työkirja on keskitetty sijainti, jossa voit suunnitella, seurata ja tehdä määrityksiä. Voit luoda taulukon kunkin yrityksen osalta, jonka kanssa toimit tai luoda perusmäärityskirjan, jonka avulla voidaan määrittää useita samankaltaisia yrityksiä.  
@@ -28,7 +28,7 @@ Seuraavissa ohjeissa näytetään, miten voit lisätä ja mukauttaa kokoonpanosi
 
 ## <a name="to-open-the-configuration-worksheet"></a>Avaa määritystyökirja  
 1.  Avaa [!INCLUDE[prod_short](includes/prod_short.md)]issa yritys, joka on määrityksen pohjana, ja avaa sitten sen RapidStart Servicesin käyttöönottajien roolikeskus.  
-2.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Määritystyökirja** ja valitse sitten liittyvä linkki.  
+2.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Määritystyökirja** ja valitse sitten liittyvä linkki.  
 
 ## <a name="to-add-a-table-to-the-worksheet"></a>Taulukon lisääminen työkirjaan  
 1.  Valitse **Määritä työkirja** -sivulla **Muokkaa luetteloa** -toiminto.  

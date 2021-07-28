@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8ed7c53d4352dcebc1475f4cafdd6a13db5385bc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e64624006c8760037acaab48ab351dad9636bfdb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783432"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437550"
 ---
 # <a name="setting-up-relationship-management"></a>Kontaktienhallinnan määrittäminen
 
@@ -23,7 +23,7 @@ Ennen kuin aloitat kontaktien ja markkinoinnin käsittelemisen, määritä, mite
 
 Kontaktien hallinta ja strategian luominen asiakkaiden tunnistamiseksi, houkuttelemiseksi ja säilyttämiseksi auttaa liiketoiminnan optimoinnissa ja asiakastyytyväisyyden parantamisessa. Hyvän kontaktienhallintajärjestelmän käyttäminen auttaa myös asiakassuhteiden luomisessa ja ylläpitämisessä. Tärkein tekijä asiakassuhteissa on yhteydenpito. Yrityksen menestyksen kannalta on keskeistä, että yhteydenpito mahdollisiin ja olemassa oleviin asiakkaisiin, toimittajiin ja liikekumppaneihin pystytään mukauttamaan kulloisinkiin tarpeisiin. Strategian muodostaminen ja yhteystietojen käytön määrittäminen on ensimmäinen vaihe. Näitä tietoja tarkastelevat useat yrityksen ryhmät, joten hyvän järjestelmän avulla jokainen käyttäjä voi lisätä tuottavuuttaan.
 
-Voit määrittää markkinoinnin ja kontaktien hallinnan **Kontaktienhallinnan asetukset** -sivulla. Jos haluat avata **Markkinoinnin asetukset** -sivun, valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvakkeen, anna **Markkinoinnin asetukset** ja valitse liittyvä linkki.
+Voit määrittää markkinoinnin ja kontaktien hallinnan **Kontaktienhallinnan asetukset** -sivulla. Avataksesi **Kontaktienhallinnan asetukset** -sivun valitse ![Kerro-ominaisuuden avaava hehkulamppu.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kontaktienhallinnan asetukset** ja valitse sitten vastaava linkki.
 
 ## <a name="automatically-copying-specific-information-from-contact-companies-to-contact-persons"></a>Tiettyjen tietojen kopioiminen automaattisesti kontaktiyrityksistä kontaktihenkilöille
 Jotkin kontaktiyritysten tiedoista ovat samat kuin tämän yrityksen kontaktihenkilön tiedot, esimerkiksi osoitetiedot. Voit määrittää **Kontaktienhallinnan asetukset** -sivun **Periytyminen**-osassa sovelluksen, joka kopioi automaattisesti tietyt kentät kontaktiyrityksen kortista kontaktihenkilön korttiin aina, kun luot kontaktiyritykseen kontaktihenkilön. Voit esimerkiksi kopioida myyjän koodin, osoitetiedot (osoite, osoite 2, postinumero ja maa), yhteystiedot (faksinumero, teleksivastaus ja puhelinnumero) ja muita tietoja.

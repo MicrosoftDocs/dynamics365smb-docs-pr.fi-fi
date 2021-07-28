@@ -1,6 +1,6 @@
 ---
 title: Tulostimien määrittäminen
-description: Tietoja raporttien ja asiakirjojen tulostamiseen käytettävien tulostimien määrittämisestä.
+description: Tietoja raporttien ja asiakirjojen käytettävissä olevien tulostimien määrittämisestä sekä Business Centralin erilaisista tulostusominaisuuksista.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
-ms.date: 05/17/2021
+ms.date: 06/24/2021
 ms.author: jswymer
-ms.openlocfilehash: c98006d85607a62f99286e1179728b969fa4d005
-ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
+ms.openlocfilehash: 4f59ac35a6c5ffb266603ac2e98c513d279ddd1e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6063450"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437214"
 ---
 # <a name="set-up-printers"></a>Tulostimien määrittäminen
 
@@ -25,8 +25,8 @@ Asiakirjojen ja raporttien tulostaminen [!INCLUDE[prod_short](includes/prod_shor
 
 |Ominaisuus|Kuvaus|Verkkoasiakasohjelma| Mobiilisovellus|Teamsin käyttöön sopiva sovellus|
 |-------|-----------|----------|-----------|--------------|
-|Yleistulostus|Yleistulostus on Microsoftin pilvipalveluna saatava tulostimen hallintaratkaisu. Tällä ominaisuudessa tulostimet voidaan määrittää yleistulostuksessa, jonka jälkeen rekisteröidään käyttöä varten [!INCLUDE[prod_short](includes/prod_short.md)]issa. Ominaisuuden käyttöä varten tarvitaan yleistulostustilaus ja **Yleistulostuksen integrointi** -laajennus.|![toimii verkossa](media/check.png)|![toimii verkossa](media/check.png)|![toimii verkossa](media/check.png)|
-|Sähköpostitulostus|Tällä ominaisuudella voidaan määrittää sähköpostitulostukseen sopivia tulostimia. [!INCLUDE[prod_short](includes/prod_short.md)] lähettää sitten tulostustyöt tulostimeen käyttämällä tulostimen sähköpostiosoitetta. Ominaisuuden käyttöä varten tarvitaan tulostin, jossa sähköpostitulostus on otettu käyttöön, ja **Lähetä sähköpostitulostimeen** -laajennus.|![toimii verkossa](media/check.png)|![toimii verkossa](media/check.png)|![toimii verkossa](media/check.png)|
+|Yleistulostus|Yleistulostus on Microsoftin pilvipalveluna saatava tulostimen hallintaratkaisu. Tällä ominaisuudessa tulostimet voidaan määrittää yleistulostuksessa, jonka jälkeen rekisteröidään käyttöä varten [!INCLUDE[prod_short](includes/prod_short.md)]issa. Ominaisuuden käyttöä varten tarvitaan yleistulostustilaus ja **Yleistulostuksen integrointi** -laajennus.|![toimii verkossa.](media/check.png)|![toimii verkossa.](media/check.png)|![toimii verkossa](media/check.png)|
+|Sähköpostitulostus|Tällä ominaisuudella voidaan määrittää sähköpostitulostukseen sopivia tulostimia. [!INCLUDE[prod_short](includes/prod_short.md)] lähettää sitten tulostustyöt tulostimeen käyttämällä tulostimen sähköpostiosoitetta. Ominaisuuden käyttöä varten tarvitaan tulostin, jossa sähköpostitulostus on otettu käyttöön, ja **Lähetä sähköpostitulostimeen** -laajennus.|![toimii verkossa.](media/check.png)|![toimii verkossa](media/check.png)|![toimii verkossa](media/check.png)|
 |Selaimesta tulostaminen|Käyttäjän selaimen tulostustoiminto käsittelee tulostustyöt. Jos pilvitulostinta ei ole asennettu ja määritetty tai jos asennettu tulostin ei toimi kunnolla, tulostuksessa käytetään selaimen tulostusasetusten oletustulostinta. Raportin pyyntösivun **Tulostin**-kentässä on teksti *(Käsitellään selaimessa)*.|![toimii verkossa](media/check.png)|||
 
 > [!NOTE]
@@ -36,7 +36,7 @@ Asiakirjojen ja raporttien tulostaminen [!INCLUDE[prod_short](includes/prod_shor
 
 Yleistulostus on tilauspohjainen Microsoft 365 -palvelu, joka suoritetaan kokonaisuudessaan Microsoft Azuressa. Yleistulostusportaalin kautta käytettävissä on keskitetty tulostimen hallinta. [!INCLUDE[prod_short](includes/prod_short.md)] tuo yleistulostuksessa määritetyt tulostimet asiakasohjelmakäyttäjien käyttöön **Yleistulostuksen integrointi** -laajennuksen avulla.
 
-![Yleistulostus-asetus](media/Universal-Print-arch.png)
+![Yleistulostus-asetus.](media/Universal-Print-arch.png)
 
 Täydellinen määritys edellyttää, että työskentelet sekä Microsoft Azuressa [Azure-portaalia](https://portal.azure.com) käyttäen että [!INCLUDE[prod_short](includes/prod_short.md)]ssa.
 
@@ -146,7 +146,7 @@ Jos tulostimet lisätään yksitellen, sama yleistulostuksen tulostin voidaan m�
   
 <!-- To Do Adding printers individually lets you duplicate printers with custom , like different paper trays and paper size and orientation.  To add printers individually, you'll need to know printer's share name in Universal Print. -->
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tulostimen hallinta** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tulostimien hallinta** ja valitse sitten vastaava linkki.
 2. Valitse ensin **Yleistulostus** ja sitten jokin seuraavista vaihtoehdoista:
 
     - **Lisää kaikki yleistulostuksen tulostimet** -vaihtoehdolla voi lisätä kaikki tulostimet, joita ei ole vielä lisätty. Tätä vaihtoehtoa voi käyttää, vaikka tulostimia olisi jo lisätty. 
@@ -206,7 +206,7 @@ There is a technical problem withe the printer. Unsupported document-format: app
 
 **Tulostimen hallinta** -sivulla on näkyvissä tällä hetkellä määritetyt tulostimet. Sivulta pääsee myös kunkin tulostimen **Asetukset**-sivulle, jossa voi muokata nykyisiä määrityksiä ja määrittää uuden tulostimen.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Tulostimen hallinta** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tulostimien hallinta** ja valitse sitten vastaava linkki.
 2. Valitse ensin **Sähköpostitulostus** ja sitten **Lisää sähköpostitulostin**.
 3. Täytä tarvittavat kentät **Sähköpostitulostimen asetukset** -sivulla. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -230,7 +230,7 @@ Tulostustöissä oletusarvoisesti käytettävät tulostimet voidaan määrittä�
 
 Tulostimen voi määrittää kaikkien tulostustöiden oletustulostimeksi **Tulostimen hallinta** -sivulla. Tulostimen voi määrittää oletustulostimeksi joko itselle tai kaikille käyttäjille.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Tulostimen hallinta** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tulostimien hallinta** ja valitse sitten vastaava linkki.
 
     > [!TIP]
     > **Tulostimen hallinta** -sivun voi avata myös valitsemalla **Tulostimen hallinta** **Tulostimen valinnat** -sivulla.  
@@ -246,7 +246,7 @@ Tulostimen voi määrittää kaikkien tulostustöiden oletustulostimeksi **Tulos
 > [!IMPORTANT]
 > [!INCLUDE[prod_short](includes/prod_short.md)]in paikallisessa versiossa **Tulostimen valinnat** -sivua voidaan käyttää vain tulostinlaajennusten, kuten sähköpostitulostuksen tai yleistulostuksen tulostimien, määrittämissä pilvitulostimissa. Sitä ei voi käyttää paikallisissa tulostimissa.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Tulostimen valinnat** ja valitse sitten liittyvä linkki. Sen sijaan voit valita **Tulostimen hallinta** -sivulla tulostimen ja valita sitten **Tulostimen valinnat**-toiminnon.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tulostimien valinta** ja valitse sitten vastaava linkki. Sen sijaan voit valita **Tulostimen hallinta** -sivulla tulostimen ja valita sitten **Tulostimen valinnat**-toiminnon.
 2. Valitse **Uusi**-toiminto, jos haluat lisätä tulostinvalinnan tiettyä raporttia varten.
 3. Täytä tarvittavat kentät.
 

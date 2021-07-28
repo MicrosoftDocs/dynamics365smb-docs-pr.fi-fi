@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: client
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f5972e7489b9aa8c537d8aaa6677c79ffd4a6414
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 336c10e93a50e7fb880f9bf5856c85b44daef266
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778745"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436849"
 ---
 # <a name="merge-duplicate-records"></a>Tietueiden kaksoiskappaleiden yhdistäminen
 Kun eri käyttäjät luovat uusia asiakkaan, toimittajan tai kontaktin kortteja ajan mittaan tai kun uusia tietueita luodaan automaattisesti siirron aikana, asiakkaalle, toimittajalle tai kontaktille voi tulla järjestelmään useita tietueita. Voit siinä tapauksessa käyttää säilytettävän tietueen kortin **Yhdistä kaksoiskappale** -sivua. Sivulla on yleiskatsaus kenttäarvoista, joilla on kaksoiskappaleita, ja toimintoja, joilla valitaan, mitkä arvot säilytetään tai hylätään, kun kaksi tietuetta yhdistetään.
@@ -28,7 +28,7 @@ Kun eri käyttäjät luovat uusia asiakkaan, toimittajan tai kontaktin kortteja 
 
 Seuraava toimenpide perustuu asiakaskorttiin. Toimittajan ja kontaktin korttien vaiheet ovat samankaltaisia.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Asiakkaat** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asiakkaat** ja valitse sitten vastaava linkki.
 2. Valitse asiakas, johon tiedät tai epäilet tietueen kaksoiskappaleen liittyvän, ja valitse sitten **Muokkaa**-toiminto.
 3. Valitse **Asiakkaan kortti** -sivulla **Yhdistä kohteeseen** -toiminto.
 4. Valitse **Yhdistä kaksoiskappale** -sivun **Yhdistä kohteeseen** -kentässä asiakas, jonka uskot olevan **Nykyinen**-kentän avatun asiakkaan kaksoiskappale.

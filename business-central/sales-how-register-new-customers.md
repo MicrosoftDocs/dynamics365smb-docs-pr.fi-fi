@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: client, customer, credit
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 178bc8374d50bac5b7f7a6793c596c5109943fa6
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bb323a5cceb4988035d442d6bc8347125f927bf4
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778595"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436749"
 ---
 # <a name="register-new-customers"></a>Uusien asiakkaiden rekisteröinti
 
@@ -34,7 +34,7 @@ Uusi asiakas rekisteröidään täyttämällä asiakaskortti. Eri asiakasprofiil
 
 ### <a name="to-create-a-new-customer-card"></a>Uuden asiakkaan kortin luominen
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Asiakkaat** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asiakkaat** ja valitse sitten vastaava linkki.  
 2. Valitse **Asiakkaat** -sivulla **Uusi**-toiminto.
 
     Jos vain yksi asiakasmalli on olemassa, uusi asiakkaan kortin avautuu. Osa kortin kentistä täytetty mallin tiedoilla.
@@ -76,7 +76,7 @@ Voit valita, ettet saa varoitusta siitä, että asiakkaan luottoraja on ylitetty
 
 ### <a name="to-specify-credit-limit-warnings"></a>Luottorajavaroitusten määrittäminen
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Myyntien ja myyntisaamisten asetukset** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntien ja myyntisaamisten asetukset** ja valitse sitten vastaava linkki.
 
 2. Valitse **Yleiset**-pikavälilehden **Luottovaroitukset**-kentässä haluamasi vaihtoehdot seuraavassa taulukossa kuvatulla tavalla:
 

@@ -1,6 +1,6 @@
 ---
-title: Huoltotilastot | Microsoft Docs
-description: Saat nopean yleiskuvan koko huoltoasiakirjojen, kuten tilausten, tarjousten, laskujen tai hyvityslaskujen sisällöstä, tietyn huoltorivin tiedoista ja huoltonimikkeistä.
+title: Huoltotilastot
+description: Saat nopean yleiskuvan huoltoasiakirjojen, esimerkiksi tilausten, tarjousten, laskujen tai hyvityslaskujen sisällöstä ja tilastoista, tietyn huoltorivin tiedoista ja huoltonimikkeistä.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: e9b3c9199e018b9bb4607cbb5919195aa526aa56
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: eaec4f99ea07e84b1a328be3022005fac01de38d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776739"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438255"
 ---
 # <a name="viewing-service-statistics"></a>Huoltotilastojen tarkasteleminen
 Voit käyttää tilastoja huoltoasiakirjojen analysoimisessa ja selvittää, miten hyvin hallitse huoltoprosesseja. Voit analysoida huoltosopimuksia, tarjouksia, tilauksia, laskuja ja hyvityslaskuja valitsemalla **Tilastot**-toiminnon. Voit käyttää huoltonimikkeissä ja -sopimuksissa myös **huoltonimikkeen Trendscape-näkymää** tai **sopimuksen Trendscape-näkymää**. Voit tarkastella näissä näkymissä tietyn huoltonimikkeen huoltotapahtumia.   
@@ -84,7 +84,7 @@ Sopimuksen voitto- tai tappiotapahtumia luodaan, kun sopimustarjous muunnetaan h
 |**Sop. voitto/tappio (syyt)**|Sopimusten voiton/tappion tarkastelu syykoodeittain|  
 |**Sop. voitto/tappio (vast.paik)**|Sopimusten voiton/tappion tarkastelu vastuupaikoittain|  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä näytettävän sivun nimi ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä näytettävän sivun nimi ja valitse sitten liittyvä linkki.  
 2. Täytä suodatusehdot, joita haluat käyttää. Valitse esimerkiksi **Sop. voitto/tappio (syyt)** -sivulla **Syykoodin suodatus** -kohdan arvo.  
 3. Valitse **Näytä matriisi** -toiminto.
 

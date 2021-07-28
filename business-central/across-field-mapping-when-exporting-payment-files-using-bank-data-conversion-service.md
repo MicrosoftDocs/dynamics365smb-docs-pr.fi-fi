@@ -10,18 +10,21 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 52632b540c2795b0e46cbae12037aa2e1ee8c743
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f705334d42d27e22d9108a410ab91a213c725a4d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776120"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437750"
 ---
 # <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a>Kentien yhdistäminen, kun maksutiedostoja viedään AMC Banking 365 Fundamentals -laajennuksen avulla
 Kun viet maksutiedostoja AMC Banking 365 Fundamentals -laajennuksen avulla, vietävät tiedot paljastuvat palveluntarjoajalle. Palveluntarjoaja vastaa näiden tietojen tietosuojasta. Lisätietoja AMC Banking 365 Fundamentals -laajennuksesta on kohdassa [AMC Banking 365 Fundamentals -laajennuksen käyttäminen](ui-extensions-amc-banking.md).  
 
 > [!CAUTION]  
 >  Kun viet maksutiedostoja AMC Banking 365 Fundamentals -laajennuksen avulla, joitakin yritystietoja paljastuu palveluntarjoajalle. Palveluntarjoaja, AMC Consult A/S, vastaa näiden tietojen tietosuojasta. Lisätietoja on kohdassa [AMC:n tietosuojakäytäntö](https://go.microsoft.com/fwlink/?LinkId=510158).  
+
+> [!NOTE]
+> [!INCLUDE[prod_short](includes/prod_short.md)]in yleisessä versiossa asetetaan ja yhdistetään yleiset palvelut pankkitietojen muuntamiseen mihin tahansa pankkisi vaatimaan muotoon. Pohjois-Amerikan versioissa samaa palvelua voi käyttää maksutiedostojen lähettämiseen sähköisenä rahansiirtona (EFT), esimerkkinä usein käytetty ACH-verkko (Automated Clearing House), joskin prosessi on hieman erilainen.
 
 Seuraavassa taulukossa on luettelo kentistä [!INCLUDE[prod_short](includes/prod_short.md)]:ssä, joista voit viedä tietoja.  
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f1e29820a3bb8254368e14ba1fa8b7dba17ed661
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f180efb198fce757af263710fab2561323fd69b4
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786585"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437024"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Talousraportoinnin valmisteleminen KP-raporttimallien ja tililuokkien avulla
 
@@ -54,7 +54,7 @@ KP-raporttimallien käyttäminen kirjanpitotilien lukujen analysoimista varten t
 
 **KP-raporttimallin yleiskuvaus** -sivulla voi esikatsella KP-raporttimallin määrittämän talousraportin. Seuraavassa kohdassa on olennaista tiedostaa, että KP-raporttimalleiksi määritetyt rivit ja sarakkeet ovat näkyvissä vain **KP-raporttimallin yleiskuvaus** -sivulla, jossa ne voidaan myös tarkistaa. Tämä sivu avataan KP-raporttimallista valitsemalla **Yleiskuvaus**-toiminto. **KP-raporttimalli**-sivu puolestaan on pelkkä määritysalue.  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **KP-raporttimallit** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KP-raporttimallit** ja valitse sitten vastaava linkki.  
 2. Valitse **KP-raporttimallit**-sivulla **Uusi**-toiminto ja luo uusi KP-raporttimallin nimi.
 3. Voit vaihtoehtoisesti valita **Kopioi KP-raporttimalli**-toiminnon, täyttää kaksi kenttä ja valitse lopuksi **OK**.
 4. Täytä tarvittavat kentät. Valitse **Sarakeasettelun oletusarvo** -kentässä aiemmin luotu asettelu. Voit muokata sitä tarvittaessa myöhemmin.
@@ -88,7 +88,7 @@ Määritä sarakeasettelun avulla, mitkä sarakkeet sisältyvät tuloksena oleva
 
 Joskus haluat ehkä sisällyttää KP-raporttimalliin sarakkeen, joka laskee prosenttiluvut kokonaissummasta. Jos esimerkiksi eri rivit jakavat myynnin dimensioittain, voit lisätä sarakkeen, joka ilmoittaa kunkin rivin prosenttiosuuden kokonaissummasta.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **KP-raporttimallit** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KP-raporttimallit** ja valitse sitten vastaava linkki.
 2. Valitse **KP-raporttimallien nimet** -sivulla KP-raporttimalli.  
 3. Valitse **Muokkaa KP-raporttimallia** -toiminto, jos haluat määrittää KP-raporttimallin rivin, joka laskee prosenttilukujen perustana olevan kokonaissumman.  
 4. Lisää KP-raporttimalli-ikkunaan rivi välittömästi ensimmäisen sellaisen rivin yläpuolelle, jolla haluat näyttää prosenttiluvun.  
@@ -101,7 +101,7 @@ Joskus haluat ehkä sisällyttää KP-raporttimalliin sarakkeen, joka laskee pro
 
 KP-raporttimallin käyttäminen pääkirjanpidon lukuja ja pääkirjanpidon budjettilukuja vertaavan laskelman luomiseksi.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **KP-raporttimallit** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KP-raporttimallit** ja valitse sitten vastaava linkki.
 2. Valitse **KP-raporttimallien nimet** -sivulla KP-raporttimalli.  
 3. Valitse **Muokkaa KP-raporttimallia** -toiminto  
 4. Valitse **KP-raporttimalli**-sivun **Nimi**-kentässä haluamasi KP-raporttimallin nimi.

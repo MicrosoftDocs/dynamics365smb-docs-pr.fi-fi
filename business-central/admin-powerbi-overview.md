@@ -11,12 +11,12 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: a1d0d0403798f8cd2af6b29249f01f529fb789be
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: b1328b618761a33d3dc0856c7623bd986008d283
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935234"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437439"
 ---
 # <a name="power-bi-integration-component-and-architecture-overview-for-prod_short"></a>[!INCLUDE[prod_short](includes/prod_short.md)]in Power BI -integrointiosa ja arkkitehtuurin yleiskatsaus
 
@@ -42,19 +42,19 @@ Seuraavassa taulukossa käsitellään käytettävissä olevat ominaisuudet.
 |Tietyn raportin upotettu tarkastelukokemus [!INCLUDE[prod_short](includes/prod_short.md)]in tietoruudussa|Molemmat. Edellyttää paikallisen version raporttien näyttämisen määrittämistä.|
 |Power BI -raportin hallinta [!INCLUDE[prod_short](includes/prod_short.md)]issa|Online|
 |Power BI:ssa näkyvät roolikeskusten Power BI -oletusraportit|Online|
-|Power BI -sovellukset Microsoft AppSourcessa|Online.|
+|Power BI -sovellukset Microsoft AppSourcessa|Online|
 
 ## <a name="architecture"></a>Arkkitehtuuri
 
-[!INCLUDE[prod_short](includes/prod_short.md)] integroidaan Power BI:n kanssa ODataa käyttävällä yhdistimellä. Power BI -raporttien tietolähde näkyy OData-verkkopalveluina.
+[!INCLUDE[prod_short](includes/prod_short.md)] integroidaan Power BI:n kanssa ODataa käyttävällä yhdistimellä. Power BI -raporttien tietolähde näkyy API-sivuina ja OData-verkkopalveluina.
 
-![Power BI:n ja Business Centralin integrointiarkkitehtuuri](./media/power-bi-architecture.png)
+![Power BI:n ja Business Centralin integrointiarkkitehtuuri.](./media/power-bi-architecture.png)
 
 ## <a name="general-flow"></a>Yleinen työnkulku
 
 Seuraava kaavio näyttää käyttäjien perustyönkulun yhdistettäessä [!INCLUDE[prod_short](includes/prod_short.md)] Power BI:hin.
 
-![Power BI:n ja Business Centralin integroinnin työnkulku](./media/power-bi-flow.png)
+![Power BI:n ja Business Centralin integroinnin työnkulku.](./media/power-bi-flow.png)
 
 1. Käyttää rekisteröityy Power BI -tilille.
 2. Käyttää muodostaa yhteyden [!INCLUDE[prod_short](includes/prod_short.md)]sta Power BI:hin.

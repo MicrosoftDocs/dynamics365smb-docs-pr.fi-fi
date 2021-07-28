@@ -1,6 +1,6 @@
 ---
-title: Vakiohuoltokoodien määrittäminen | Microsoft Docs
-description: Lisätietoja usein tehtävien huoltotoimintojen koodien määrittämisestä.
+title: Vakiohuoltokoodien määrittäminen
+description: Tietoja säännöllisesti suoritettavien huoltoaktiviteettien koodien määrittämisestä ennalta määritetyillä huoltoriveillä.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, service item, service order, repairs, maintenance
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 494a3dd93906a8a9d663455f7410d27c9fc34eb9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c5f5e6dbe647fc8957c42a78163f6871d7a7b382
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778220"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436599"
 ---
 # <a name="set-up-standard-service-codes"></a>Vakiohuoltokoodien määrittäminen
 
@@ -26,13 +26,13 @@ Kun suoritat tavallisen huollon, sinun on usein luotava samat tiedot sisältäv�
   
 ## <a name="to-set-up-a-standard-service-code"></a>Vakiohuoltokoodien määrittäminen
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Vakiohuoltokoodit** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Vakiohuoltokoodit** ja valitse sitten vastaava linkki.  
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Täytä tähän huoltokoodiin linkitetyt huoltorivit.  
 
 ## <a name="to-assign-a-standard-service-code-to-a-service-item-group"></a>Vakiohuoltokoodin liittäminen huoltonimikeryhmään:
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Huoltonimikeryhmät** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltonimikeryhmät** ja valitse sitten vastaava linkki.  
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Täytä tähän huoltokoodiin linkitetyt huoltorivit.  
 

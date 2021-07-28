@@ -1,6 +1,6 @@
 ---
 title: 'Vaihekuvaus: Myyntikampanjan suorittaminen'
-description: Kampanja voi olla mikä tahansa toimi, jossa on mukana useita kontakteja. Kampanjan määrittämisen tärkeä osa liittyy kampanjan kohderyhmän valitsemiseen. Tätä tarkoitusta varten Business Central -sovelluksessa luodaan segmentti tai yhteystietoryhmä suodattimien avulla.
+description: Tässä vaihekuvauksessa on yksityiskohtainen yleiskuvaus kaikista tehtävistä, jotka liittyvät myyntikampanjan toteuttamiseen Business Centralissa.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 05/25/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 653638cd056313c6f4bdb830f0b0ec32fa5e8cbf
-ms.sourcegitcommit: cce6bacca46d489423a9538d410d2d9371de0ddf
+ms.openlocfilehash: 63e2c298c7830fb993c99587a0b7475d1ece7223
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6102431"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437835"
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Vaihekuvaus: Myyntikampanjan suorittaminen
 
@@ -69,7 +69,7 @@ Kampanja voi olla mikä tahansa toimi, jossa on mukana useita kontakteja. Kampan
 
 ### <a name="to-set-up-a-campaign"></a>Kampanjan määrittäminen  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kampanjat** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kampanjat** ja valitse sitten vastaava linkki.  
 2. Luo uusi kampanja valitsemalla **Uusi**-toiminto. Paina kampanjan kortissa **Enter** jos haluat, että kampanjanumero lisätään automaattisesti.  
 3. Lisää kampanjan kuvaus **Kuvaus**-kenttään. Kuvaus voi olla esimerkiksi **Office Futurus -messut**.  
 4. Valitse **Tilakoodi**-kenttä ja valitse tilakoodi "1-PLAN". 
@@ -161,11 +161,11 @@ Markkinointipäällikkö päättää, että karsittu luettelo on kampanjan lopul
 
 Liitteet lähetetään. Kun prosessi on valmis, valitse **OK** -painike viestille, joka ilmoittaa, että segmentti on kirjattu lokiin.  
 
- Kirjeet tulostetaan automaattisesti ja segmentti kirjataan lokiin. Koska segmentti on kirjattu lokiin, ei ole enää segmenttien luettelossa, vaan siirretty luetteloon lokiin kirjatuista segmenteistä. Jos haluat nähdä luettelon, valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Lokiin kirjatut segmentit** ja valitse sitten liittyvä linkki.  
+ Kirjeet tulostetaan automaattisesti ja segmentti kirjataan lokiin. Koska segmentti on kirjattu lokiin, ei ole enää segmenttien luettelossa, vaan siirretty luetteloon lokiin kirjatuista segmenteistä. Luettelon nähdäksesi valitse ![Lamppu, joka avaa toisena Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Lokiin kirjatut segmentit** ja valitse sitten vastaava linkki.  
 
 Kun segmentti kirjataan lokiin, jokainen lähetetty kirje tallennetaan vuorovaikutuksena, jossa voit tarkastella lokia.  
 
-Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Vuorovaikutuslokin tapahtumat** ja valitse sitten liittyvä linkki. Jokaiselle lähetetylle kirjeelle on olemassa merkintä.  
+Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Vuorovaikutuslokin tapahtumat** ja valitse sitten vastaava linkki. Jokaiselle lähetetylle kirjeelle on olemassa merkintä.  
 
 ### <a name="to-send-an-email-message-to-a-contact"></a>Lähetä sähköpostiviesti yhteyshenkilölle  
 
@@ -178,7 +178,7 @@ Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-sear
 7. Valitse **Luo seurantasegmentti** -valintaruutu.  
 8. Valitse **OK**-painike.  
 
- Kirjeet lähetetään automaattisesti sähköpostilla ja segmentti kirjataan lokiin. Koska segmentti on kirjattu lokiin, ei ole enää segmenttien luettelossa, vaan tallennettu luetteloon lokiin kirjatuista segmenteistä. Jos haluat nähdä luettelon, valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Lokiin kirjatut segmentit** ja valitse sitten liittyvä linkki.  
+ Kirjeet lähetetään automaattisesti sähköpostilla ja segmentti kirjataan lokiin. Koska segmentti on kirjattu lokiin, ei ole enää segmenttien luettelossa, vaan tallennettu luetteloon lokiin kirjatuista segmenteistä. Luettelon nähdäksesi valitse ![Lamppu, joka avaa toisena Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Lokiin kirjatut segmentit** ja valitse sitten vastaava linkki.  
 
 ## <a name="registering-campaign-responses"></a>Kampanjareaktioiden rekisteröiminen
 

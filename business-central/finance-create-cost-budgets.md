@@ -1,6 +1,6 @@
 ---
-title: Kustannusbudjettien luominen | Microsoft Docs
-description: Tässä ohjeaiheessa käsitellään yleisesti kustannusbudjettien luontia ja analysointia.
+title: Kustannusbudjettien luominen
+description: Tässä ohjeaiheessa käsitellään yleisesti kustannusbudjettien luontia ja analysointia. Budjetointi kustannuslaskennassa muistuttaa pääkirjanpidon budjetointia.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: da976e1e8ac2988aa2842925c2b10f4f8515ea47
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 52ed39805c70fe686d96525b33ad82923628db82
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785242"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436171"
 ---
 # <a name="creating-cost-budgets"></a>Kustannusbudjettien luominen
 Budjetointi kustannuslaskennassa muistuttaa pääkirjanpidon budjetointia. Kustannusbudjetti luodaan kustannustyyppien perusteella samalla tavalla kuin pääkirjanpidon budjetti luodaan pääkirjanpitotilien perusteella.  
 
 Kustannusbudjetti luodaan tietylle aikajaksolle, esimerkiksi tilikaudelle. Kustannusbudjetteja voi määrittää niin monta kuin tarvitaan. Voit luoda uuden kusannusbudjeti manuaalisesti tai tuomalla kustannusbudjetin tai kopioimalla aiemmin luodun kustannusbudjetin talousarvion perustaksi. Lisätietoja on kohdassa [KP-budjettien luominen](finance-how-create-budgets.md).
 
-Voit luoda ja analysoida kustannusbudjetteja seuraavilla sivuilla. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen ja etsi sivu. Lue sitten kunkin sivun työkaluvihje.
+Voit luoda ja analysoida kustannusbudjetteja seuraavilla sivuilla. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake sivun etsimistä varten ja lue sitten työkaluvihjeet.
 
 |Tehtävä|Katso|  
 |--------|---------|  

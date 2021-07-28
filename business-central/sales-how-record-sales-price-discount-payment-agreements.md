@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: bb93853d878ec1aa9b8b0095eb89589c35610f1a
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 6d358afec4689a3543245295427d5fae992dd680
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216151"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436774"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Erikoismyyntihintojen ja -alennusten kirjaaminen
 > [!NOTE]
@@ -53,13 +53,13 @@ Nämä vaiheet vaihtelevat sen mukaan, onko järjestelmänvalvoja ottanut käytt
 
 #### <a name="current-experience"></a>[Nykyinen kokemus](#tab/current-experience/)
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Asiakkaat** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asiakkaat** ja valitse sitten vastaava linkki.
 2. Valitse asiakas ja valitse sitten **Hinnat**-toiminto.
 3. Täytä tarvittaessa rivin muut kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Täytä rivi jokaiselle yhdistelmälle, jossa asiakkaalle myönnetään erikoismyyntihinta.
 
 #### <a name="new-experience"></a>[Uusi kokemus](#tab/new-experience/)  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Asiakkaat** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asiakkaat** ja valitse sitten vastaava linkki.
 2. Valitse asiakas ja valitse sitten **Myyntihinnastot**-toiminto. 
 3. Luo uusi myyntihinnasto valitsemalla **Uusi**.
 4. Täytä **Yleiset**- ja **Vero**-pikavälilehdissä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -101,7 +101,7 @@ Nämä vaiheet vaihtelevat sen mukaan, onko järjestelmänvalvoja ottanut käytt
 
 #### <a name="current-experience"></a>[Nykyinen kokemus](#tab/current-experience/)  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Asiakkaat** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asiakkaat** ja valitse sitten vastaava linkki.
 2. Avaa kyseessä olevan asiakkaan kortti ja valitse **Rivialennukset**-toiminto.
 3. Täytä tarvittaessa rivin muut kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Täytä rivi jokaiselle yhdistelmälle, jossa asiakkaalle myönnetään myyntirivialennus.
 
@@ -112,7 +112,7 @@ Nämä vaiheet vaihtelevat sen mukaan, onko järjestelmänvalvoja ottanut käytt
 
 #### <a name="new-experience"></a>[Uusi kokemus](#tab/new-experience/)  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Asiakkaat** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asiakkaat** ja valitse sitten vastaava linkki.
 2. Valitse asiakas ja valitse sitten **Myyntihinnastot**-toiminto.
 3. Avaa hinnasto, jolle rivialennus määritetään.
 4. Ota käyttöön **Salli rivialennus** -valinta.
@@ -139,7 +139,7 @@ Laskualennus on nyt määritetty ja liitetty asiakkaalle. Kun valitset asiakasko
 ## <a name="to-set-up-an-invoice-discount-for-a-customer"></a>Laskualennuksen määrittäminen asiakkaalle
 Kun olet määrittänyt asiakkaat, joille myönnetään laskun alennuksia, määritä laskun alennuskoodi asiakkaiden kortteihin ja määritä kunkin koodin ehdot.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Asiakkaat** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asiakkaat** ja valitse sitten vastaava linkki.
 2. Avaa sen asiakkaan sivu, jolle myönnetään laskun alennuksia.
 3. Valitse **Laskualennuksen koodi** -kentässä asianmukaisille laskualennuksen ehdoille koodi, jonka avulla asiakkaan laskualennukset lasketaan. <!--Looks like I can only choose customers in this list-->
 
@@ -161,7 +161,7 @@ Nämä vaiheet vaihtelevat sen mukaan, onko järjestelmänvalvoja ottanut käytt
 
 Jos haluat kopioida myyntihintoja, kuten jonkin yksittäisen asiakkaan hintoja koko asiakashintaryhmälle, sinun tulee ajaa **Ehdota myyntihinta työkirja** -erätyö **Myyntihintatyökirja**-sivulla.  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Myyntihintatyökirja** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntihintatyökirja** ja valitse sitten liittyvä linkki.  
 2. Valitse **Ehdota myyntihintaa työkirjalle**. -toiminto.  
 3. Täytä **Myyntihinnat**-pikavälilehden kenttiin kopioitavien, alkuperäisten myyntihintojen **Myynnin tyyppi** ja **Myyntikoodi**.  
 4. Täytä pyyntösivun yläosassa **Myynnin tyyppi**- ja **Myyntikoodi**-kenttiin tyyppi ja nimi, joihin haluat kopioida myyntihinnat.  
@@ -175,7 +175,7 @@ Jos haluat kopioida myyntihintoja, kuten jonkin yksittäisen asiakkaan hintoja k
 
 Hinnaston rivin tilan on oltava **Luonnos**. 
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Myyntihinnastot** ja valitse sitten liittyvä linkki. 
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntihinnastot** ja valitse sitten liittyvä linkki. 
 2. Valitse kopioitava hinnasto ja valitse sitten **Kopioi rivit**.
 3. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -191,7 +191,7 @@ Nämä vaiheet vaihtelevat sen mukaan, onko järjestelmänvalvoja ottanut käytt
 
 Jos haluat tehdä nimikehintojen joukkopäivityksen, kuten nostaa kaikkien nimikkeiden hintoja tietyllä prosenttiosuudella, sinun on suoritettava **Ehdota nimikehintaa työkirjaan**  eräajo. Eräajon linkki sijaitsee **Myyntihinnan työkirja** -sivulla.  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Myyntihintatyökirja** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntihintatyökirja** ja valitse sitten liittyvä linkki.  
 2. Valitse **Ehdota nimikehintaa työkirjaan** -toiminto.  
 3. Täytä **Nimike**-pikavälilehdessä **Nro**- tai **Varaston kirjausryhmä** -kenttään tai muihin kenttiin päivitettävät alkuperäiset hinnat.  
 4. Täytä pyyntösivun yläosassa **Myynnin tyyppi** ja **Myyntikoodi** tyypillä ja nimellä, joihin haluat kopioida myyntihinnat.

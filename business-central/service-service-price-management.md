@@ -1,6 +1,6 @@
 ---
-title: Huoltohinnan hallinta | Microsoft Docs
-description: Tässä ohjeaiheessa käsitellään parhaiden hintojen käyttämistä huoltotilauksissa, yksilöllisten huoltohintasopimusten määrittämistä asiakkaille, huoltohenkilöstön toiminnan tehostamista ja laskutusprosessin nopeuttamista.
+title: huoltohallinnan asetukset
+description: Huoltohintojen hallinnan avulla voit määrittää esimerkiksi huoltohintaryhmiä, huoltohinnoittelua ja palvelun hinnoittelun oikaisua.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: af69e0aeb80b3406e26200a7a2f8f04aceb10914
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1857efe5dd3accf7f8ec53a57ce9a614efbeacad
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776764"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438280"
 ---
 # <a name="service-price-management"></a>huoltohallinnan asetukset
 Huoltohinnan hallinnan toimintojen avulla voidaan soveltaa oikeita hintoja huoltotilauksiin, määrittää asiakkaille yksilöllisiä huoltohintasopimuksia, parantaa huoltohenkilöstön tehokkuutta ja nopeuttaa laskutusprosessia.  
@@ -52,7 +52,7 @@ Todelliset huoltohinnoittelun tyypit (hinnanmuutoksen tyyppi ja hinta) määrite
 Huoltohinnoittelun tyyppejä voi määrittää esimerkiksi radioiden huoltohintaryhmälle. Asiakkaille, joilla ei ole hintaryhmää, voidaan määritellä huoltohinnoittelu, jossa työllä on enimmäishinta (työn hinnanmuutosryhmä). Asiakkaille, joilla on tietty hintaryhmä, voidaan määritellä huoltohinnoittelu, jossa työllä on kiinteä hinta (sama työn hinnanmuutosryhmä).  
 
 #### <a name="current-experience"></a>[Nykyinen kokemus](#tab/current-experience)
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Huoltonimikkeet** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltonimikkeet** ja valitse sitten vastaava linkki.  
 2. Valitse huoltoimike, laajenna **Hinnat ja myynti** -pikavälilehti, valitse **Resurssi**, **Nimike** tai **KP-tili**-toiminto.
 3. Täytä **Projektiresurssien hinnat**-, **Projektinimikkeiden hinnat**- tai **Projektin kirjanpitotilin hinnat** -sivulla tarvittavat kentät.
 

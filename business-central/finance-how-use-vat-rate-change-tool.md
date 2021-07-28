@@ -1,20 +1,20 @@
 ---
-title: ALV-prosenttimuutosten hallinta | Microsoft Docs
-description: tietoja Dynamics 365 Business Centralin ALV-prosenttimuutostyökalusta.
+title: ALV-prosenttimuutosten hallinta
+description: lue, miten ALV-prosentin muutostyökalua käytetään Dynamics 365 Business Centralissa ALV-prosentin muuttamiseen paikallisen lainsäädännön mukaiseksi.
 author: andregu
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.workload: na
 ms.search.keywords: VAT, VAT rate, posting, tax, value-added tax
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: andregu
-ms.openlocfilehash: 2f9bef0d4a2aace08d5f8fb09eae6186213a9563
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9d90364691e393ddb376b0446d298ba96a92b383
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770439"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437389"
 ---
 # <a name="managing-vat-rate-changes"></a>ALV-prosenttimuutosten hallinta
 
@@ -71,13 +71,13 @@ Ennen ALV:n muutostyökalun määrittämistä sinun on tehtävä seuraavat valmi
 
 ### <a name="to-set-up-the-vat-rate-change-tool"></a>Määritä ALV-prosentin muutostyökalu
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **ALV-prosentin muutos** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **ALV-prosenttimuutoksen asetukset** ja valitse sitten vastaava linkki.  
 2. Valitse **Päätiedot**-, **Päiväkirjat**- ja **Asiakirjat**-pikavälilehdissä kirjausryhmän arvo tarvittavien kenttien asetusluettelosta. Kullekin ryhmälle voidaan valita, muunnetaanko tuotteen ALV-kirjausryhmät vai yleiset tuotteen kirjausryhmät vai muunnetaanko molemmat arvot, jos ne ovat käytettävissä päätietokohteessa. Joillakin alueilla voit myös asettaa suodattimen, joka muuntaa vain arvon alijoukon, esimerkiksi KP-tilit. 
 3. Valitse **Hinnat sisältävät ALV:n** -pikavälilehdessä rivityypit tilauksissa, joiden yksikköhinnat haluat päivittää. Nimike-ja Resurssi-tyypin rivien yksikköhinnat päivitetään aina.
 
 ### <a name="to-set-up-product-posting-group-conversion"></a>Määritä tuotteiden ALV-kirjausryhmien muunnos
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **ALV-prosentin muutos** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **ALV-prosenttimuutoksen asetukset** ja valitse sitten vastaava linkki.  
 2. Valitse **ALV-prosenttimuutoksen asetukset** -sivulla joko **Tuotteen ALV-kirjausryhmän muunto** tai **Yleisen tuotteen kirjausryhmän muunto** -toiminto.  
 3. Anna **Koodista** -kentässä nykyinen kirjausryhmä.  
 4. Syötä uusi kirjausryhmä **Koodiin**-kenttään.  
@@ -92,7 +92,7 @@ ALV-prosentin muutostyökalun avulla voit hallita muutoksia ALV:n vakiokorvaukse
 > [!IMPORTANT]  
 > Testaa muunto ennen ALV-prosentin muutosta. Voit tehdä sen seuraavien ohjeiden mukaisesti, mutta muista poistaa **Suorita muuntaminen**- ja **ALV-prosentin muutostyökalu valmis** -valintaruutujen valinta. Testimuunnoksen aikana **ALV-prosentin muutoslokin tapahtuma** -taulukon **Muunnettu**-kenttä tyhjennetään ja **ALV-prosentin muutoslokin tapahtuma** -taulukon **Muunnospvm** -kenttä on tyhjä. Kun muuntaminen on valmis, voit tarkastella testimuutoksen tulokset valitsemalla **ALV-prosentin muutoslokin tapahtumat**. Tarkista jokainen tapahtuma ennen muuntamista. Tarkista erityisesti tapahtumat, jotka käyttävät vanhaa ALV-prosenttia.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **ALV-prosentin muutos** ja valitse sitten **ALV-prosentin muutoksen asetukset** -linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **ALV-prosentin muutos** ja valitse sitten **ALV-prosenttimuutoksen asetukset** -linkki.  
 2. Varmista, että olet jo määrittänyt tuotteen ALV-kirjausryhmän muunnoksen tai yleisen tuotteen kirjausryhmän muunnoksen.  
 3. Valitse **Suorita muuntaminen** -valintaruutu.  
 

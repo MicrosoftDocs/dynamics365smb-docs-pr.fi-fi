@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 718131ab06bd81a2394d82b9645a9e70be3f95a0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bb4fa7b9d75afa49846247b1fdce3fa25f19334a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775323"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436425"
 ---
 # <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Huoltosopimuksen tai sopimustarjouksen vuosittaisen summan muuttaminen
 Huoltosopimuksen tai sopimustarjouksen vuosittaista summaa voidaan muuttaa, jos vuosittain laskutettavaa summaa tarvitsee korjata.  
 
 ## <a name="to-change-the-annual-amount-of-the-service-contract-or-contract-quote"></a>Huoltosopimuksen tai sopimustarjouksen vuosittaisen summan muuttaminen  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Huoltosopimukset** tai **Huoltosopimustarjoukset**, ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltosopimukset** tai **Huoltosopimustarjoukset** ja valitse sitten vastaava linkki.  
 2. Valitse sopimus tai sopimustarjous.  
 3. Avaa muokattava sopimus tai sopimustarjous valitsemalla **Avaa sopimus** -toiminto.  
 4. Valitse **Salli epätäsmäävät summat** -valintaruutu, jos haluat muuttaa vuosittaista summaa ja jakaa vuosittaisen summan eron manuaalisesti sopimusriveille. Poista muussa tapauksessa valintaruudun valinta, jotta vuosittainen summa neron jaetaan automaattisesti sopimusriveille, kun vuosittaista summaa on muutettu.  

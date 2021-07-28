@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bank account transfer, multiple currencies
 ms.date: 04/29/2021
 ms.author: edupont
-ms.openlocfilehash: da9c8711751040cecb267a3b2209bad2534b618b
-ms.sourcegitcommit: 08ca5798cf3f04fc3ea38fff40c1860196a70adf
+ms.openlocfilehash: e9a285db48593828fbb01b281459df6c1e3111d0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "5985385"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437149"
 ---
 # <a name="transfer-bank-funds"></a>Siirrä pankkivarat
 
@@ -23,7 +23,7 @@ Joskus on siirrettävä varoja yhdeltä pankkitililtä kohteessa [!INCLUDE[prod_
 
 ## <a name="to-post-a-transfer-between-bank-accounts-with-the-same-currency-code"></a>Siirtojen kirjaaminen pankkitileillä, jotka käyttävät samaa valuuttakoodia
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Yleinen päiväkirja** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Yleinen päiväkirja** ja valitse sitten vastaava linkki.
 2. Täytä päiväkirjan rivillä **Kirjauspvm**- ja **Asiakirjan nro** -kentät.
 3. Valitse **Tilityyppi**-kentässä **Pankkitili**.
 4. Valitse **Tilinro**-kentässä pankkitili, josta haluat siirtää varat.
@@ -38,7 +38,7 @@ Joskus on siirrettävä varoja yhdeltä pankkitililtä kohteessa [!INCLUDE[prod_
 
 Voit siirtää varoja eri valuuttoja käyttävien pankkitilien välillä kirjaamalla kaksi yleisen päiväkirjan riviä.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Yleinen päiväkirja** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Yleinen päiväkirja** ja valitse sitten vastaava linkki.
 2. Luo kaksi päiväkirjan riviä ja täytä **Kirjauspvm**- ja **Asiakirjan nro.** -kentät.
 3. Valitse **Tyyppi**-kentän ensimmäisellä rivillä **Pankkitili**.
 4. Valitse **Tilinro**-kentässä pankkitili, josta haluat siirtää varat.

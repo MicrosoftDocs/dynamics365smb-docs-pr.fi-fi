@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 05/28/2021
 ms.author: edupont
-ms.openlocfilehash: abb6a3a910f8ac628587a58637b96d69bca4266f
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: 2841473825ebc0fee7c9357e14e7520b94fd3793
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115947"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437775"
 ---
 # <a name="enter-external-document-numbers"></a>Ulkoisten asiakirjanumeroiden syöttäminen
 
@@ -28,7 +28,7 @@ Seuraavassa kuvataan, miten ulkoinen asiakirjanumero määritetään myyntitilau
 
 ## <a name="to-enter-external-document-numbers-in-a-sales-order"></a>Ulkoisten asiakirjanumeroiden syöttäminen myyntitilaukseen  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Myyntitilaukset** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten vastaava linkki.  
 2. Valitse käsiteltävä myyntitilaus ja sitten **Muokkaa**-toiminto.  
 3. Syötä laskun numero **Yleiset**-pikavälilehden kenttään **Ulkoinen asiakirja nro**.  
 

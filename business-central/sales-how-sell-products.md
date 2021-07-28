@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: trade
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 19b32e8faa6b9e56505379d1f06fd5ad79466614
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: 67d7ad0d10ddc5c6065df482c7ceb4b98058d504
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115513"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436724"
 ---
 # <a name="sell-products"></a>Tuotteiden myyminen
 
@@ -44,7 +44,7 @@ Voit täyttää myyntitilauksen asiakkaan kentät kahdella tavalla sen mukaan, o
 
 ## <a name="to-create-a-sales-order"></a>Myyntitilauksen luominen
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten vastaava linkki.
 2. Syötä **Asiakas**-kenttään nykyisen asiakkaan nimi.
 
     Muut **Myyntitilaus**-sivun kentät täytetään nyt valitun asiakkaan vakiotiedoilla.  

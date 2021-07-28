@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: marketing, relationship, prospect, contact, client, customer
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: dba492551546c18cbda1b3bbb7dfd4b70c4052a6
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0d6365bda6f8d027f01cc9cfa381463fa925ad91
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785546"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437289"
 ---
 # <a name="recording-interactions-with-contacts-automatically"></a>Kontaktien kanssa tapahtuvien vuorovaikutusten tallentaminen automaattisesti
 Voit määrittää sovelluksen niin, että myynti-, osto- ja huoltoasiakirjojen, kansilehtien, sähköpostien ja puheluiden vuorovaikutukset tallennetaan automaattisesti seuraavasti:
@@ -29,7 +29,7 @@ Voit määrittää sovelluksen niin, että myynti-, osto- ja huoltoasiakirjojen,
 * Soita kontakteillesi, jos sinulla on TAPI-yhteensopiva puhelin, ja se on oikein asennettu.
 
 Voit määrittää näille vuorovaikutuksille automaattisen tallentamisen määrittämällä asiakirjojen ja toimintojen vuorovaikutusmallit **Vuorovaikutusmallin asetukset** -sivulla.  
-Jos haluat avata **Markkinoinnin asetukset** -sivun, valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvakkeen, syötä **Vuorovaikutusmallin asetukset** ja valitse liittyvä linkki.
+Avataksesi **Vuorovaikutusmallin asetukset** -sivun valitse ![Kerro-ominaisuuden avaava hehkulamppu.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Vuorovaikutusmallin asetukset** ja valitse sitten vastaava linkki.
 
 ## <a name="see-also"></a>Katso myös
 [Kontaktien kanssa tapahtuvien vuorovaikutusten tallentaminen](marketing-interactions.md)  

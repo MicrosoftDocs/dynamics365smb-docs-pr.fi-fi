@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 82c60333f038f647fa4c9c2bbd68019b9c1f8026
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 10ae5c1932e21b452efd41a1212f1840101a277b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783795"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437314"
 ---
 # <a name="set-up-payment-terms"></a>Maksuehtojen määrittäminen
 
@@ -28,7 +28,7 @@ Jos haluat lähettää asiakkaille muistutuksia erääntyneistä maksuista, sinu
 
 ## <a name="to-set-up-payment-terms"></a>Maksuehtojen määrittäminen
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maksuehdot** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maksuehdot** ja valitse sitten vastaava linkki.  
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 Kun olet määrittänyt maksuehdot, voit määrittää ne asiakkaille ja toimittajille. Vaihtoehtoisesti voit liittää maksuehdot maksutapoihisi.  

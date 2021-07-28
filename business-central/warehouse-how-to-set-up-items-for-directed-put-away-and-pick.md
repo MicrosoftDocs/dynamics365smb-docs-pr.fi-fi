@@ -1,6 +1,6 @@
 ---
-title: Ohjatun hyllytyksen ja poiminnan määrittäminen | Microsoft Docs
-description: Kun otat ohjatun hyllytyksen ja poiminnan käyttöön fyysisen varastoinnin sijainnissa, voit tehostaa fyysistä varastointia uusien toimintojen avulla.
+title: Ohjatun hyllytyksen ja poiminnan määrittäminen
+description: Määritä fyysisen varaston sijainnit ohjatulle hyllytykselle ja poiminnalle, jotta saat käyttöön uuden toiminnon, jonka avulla voit varmistaa, että fyysistä varastoa hoidetaan mahdollisimman tehokkaasti.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: e8fcf123e923e524a0055aaa7d20504318b34b4e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0c7a49208216b12c234c0b40576b26f4f39e9ab5
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782432"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438030"
 ---
 # <a name="set-up-items-and-locations-for-directed-put-away-and-pick"></a>Nimikkeiden ja sijaintien määrittäminen ohjattua hyllytystä ja poimintaa varten
 Kun otat ohjatun hyllytyksen ja poiminnan käyttöön fyysisen varastoinnin sijainnissa, voit tehostaa fyysistä varastointia uusien toimintojen avulla. Jotta hyötyisit mahdollisimman paljon näistä toiminnoista, anna ohjelmalle nimikkeistä lisätietoja, joiden avulla ohjelma voi laskea tehokkaimman fyysisen varastoinnin aktiviteettien suoritustavan. Katso lisätietoja kohdasta [Rakennetiedot: Fyysisen varastoinnin asetukset](design-details-warehouse-setup.md).
 
 ## <a name="to-set-up-an-item-for-directed-put-away-and-pick"></a>Nimikkeen määritys ohjattua hyllytystä ja poimintaa varten  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten vastaava linkki.  
 2.  Avaa ohjattua hyllytystä ja poimintaa varten määritettävän nimikkeen kortti.
 3. Määritä nimikkeen kortin **F. varastointi** -pikavälilehden kenttien avulla, miten nimikettä käsitellään fyysisessä varastoinnissa.  
 4.  Valitse **Mittayksiköt**-toiminto.
@@ -33,7 +33,7 @@ Kun otat ohjatun hyllytyksen ja poiminnan käyttöön fyysisen varastoinnin sija
 Ohjatun hyllytyksen ja poiminnan avulla voit käyttää laajennettuja varastomääritystoimintoja, jotka tehostavat varastointia ja parantavat tietojen luotettavuutta. Jotta voisit käyttää tätä toimintoa, tietyt fyysisen varastoinnin sijainnin parametrit on määritettävä ensin.  
 
 Voidaksesi käyttää ohjattua hyllytystä ja poimintaa, ota käyttöön sijaintikortin toiminnot seuraavasti:    
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Sijainnit** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sijainnit** ja valitse sitten vastaava linkki.  
 2.  Valitse sijainti, jossa haluat käyttää ohjattua hyllytystä ja poimintaa, ja valitse sitten **Muokkaa**-toiminto.  
 3.  Valitse **F. varastointi** -pikavälilehdessä **Ohjattu hyllytys ja poiminta** -valintaruutu.  
 
@@ -49,7 +49,7 @@ C. Voit myös määrittää fyysisen varastoinnin luokkakoodeja, jos fyysisessä
 D. Nyt voit määrittää alueet, jos haluat käyttää alueita fyysisessä varastoinnissa. Käyttämällä alueita voidaan vähentää varastopaikkoja määritettäessä täytettävien kenttien määrää, koska alueille luodut varastopaikat perivät useita ominaisuuksia alueelta. Alueet voivat myös helpottaa uusien tai väliaikaisten työntekijöiden toimia fyysisessä varastoinnissa. Huomaa, että varastopaikat ohjaavat työnkulkua, ja siksi on mahdollista käytää varastopaikkoja ja vain yhtä aluetta.  
 
 ## <a name="to-set-up-a-zone-in-your-warehouse"></a>Alueen määrittäminen fyysiseen varastoon  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Sijainnit** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sijainnit** ja valitse sitten vastaava linkki.  
 2.  Valitse sijainti, johon haluat määrittää alueen, ja avaa sijaintikortti. Valitse sitten **Alueet**-toiminto.  
 3.  Täytä **Alueet**-sivulla tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 

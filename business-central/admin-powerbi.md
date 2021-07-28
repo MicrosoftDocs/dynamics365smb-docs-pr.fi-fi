@@ -11,18 +11,18 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 38d7cc9bf45c3bef239a68cd0e4865ef2833776e
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: 3c8ad52667ad8ff0a2cb399ac6354012d7ef9275
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935134"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437910"
 ---
 # <a name="prod_short-and-power-bi"></a>[!INCLUDE[prod_short](includes/prod_short.md)] ja Power BI
 
 [!INCLUDE[prod_short](includes/prod_short.md)] -tiedoista saa kätevästi merkityksellisiä tietoja Microsoftin tietojen visualisointiin käytetyn [Power BI:n](https://powerbi.microsoft.com). Power BI noutamista [!INCLUDE[prod_short](includes/prod_short.md)] -tiedoista voidaan muodostaa tietoihin perustuvia koontinäyttöjä ja raportteja. Power BI on joustava vaihtoehto [!INCLUDE[prod_short](includes/prod_short.md)]in raporteille, sillä sen avulla voi porautua tietoja ja mukauttaa visualisointia sekä jopa yhdistää tietoja [!INCLUDE[prod_short](includes/prod_short.md)]in eri yrityksistä. Jotkin Power BI -raportit voidaan myös upottaa Business Centraliin, jossa niitä voidaan tarkastella järjestelmästä poistumatta. Monimutkaisia koontinäyttöjä kannattaa kuitenkin tarkastella Power BI -sivustossa.
 
-![Power BI ja Business Central](media/power-bi-intro.png)
+![Power BI ja Business Central.](media/power-bi-intro.png)
 
 ## <a name="what-you-can-do-with-power-bi-and-prod_short"></a>Power BI:n ja [!INCLUDE[prod_short](includes/prod_short.md)]in käyttötapoja
 
@@ -30,32 +30,50 @@ ms.locfileid: "5935134"
 
 |Ominaisuus|Kuvaus|Online|Paikallinen|Lisätietoja|
 |-------|-----------|--------------|-----------|----------------|
-|[!INCLUDE[prod_short](includes/prod_short.md)] -tietojen näyttäminen Power BI:ssa|Voit tarkastella [!INCLUDE[prod_short](includes/prod_short.md)]in tietoja Power BI -raporteissa. [!INCLUDE[prod_short](includes/prod_short.md)] online sisältää muutamia esimääritettyjä Power BI -raportteja. Organisaatiolla voi lisäksi olla joitakin valmiita mukautettuja raportteja.|![Toimii verkossa](media/check.png)|![Toimii paikallisesti](media/check.png)|[Katso...](across-working-with-business-central-in-powerbi.md)|
-|Power BI -raporttien näyttäminen [!INCLUDE[prod_short](includes/prod_short.md)] -asiakasohjelmassa.| [!INCLUDE[prod_short](includes/prod_short.md)] -tietoja näyttävät Power BI -raportit voidaan upottaa suoraan osien [!INCLUDE[prod_short](includes/prod_short.md)] -sivuille. Osan voi vaihtaa näyttämään minkä tahansa käytettävissä olevan raportin. |![toimii verkossa](media/check.png)|![Toimii paikallisesti](media/check.png)<sup>[*](#onprem)</sup>|[Katso...](across-working-with-powerbi.md).|
-|Voit luoda Power BI:ssa raportteja ja koontinäyttöjä, joissa näytetään [!INCLUDE[prod_short](includes/prod_short.md)] -tietoja.|Voit luoda omia raportteja ja koontinäyttöjä Power BI Desktopissa. Voit julkaista raportit omaan Power BI -palveluun tai jakaa ne muiden kanssa organisaatiossa.|![Toimii verkossa](media/check.png)|![toimii paikallisesti](media/check.png)|[Katso...](across-how-use-financials-data-source-powerbi.md)
-|[!INCLUDE[prod_short](includes/prod_short.md)] -sovellukset Power BI:ssa| [!INCLUDE[prod_short](includes/prod_short.md)] julkaisee Microsoft AppSource kolme Power BI -sovellusta. Nämä sovellukset luovat yksityiskohtaisia raportteja ja koontinäyttöjä Power BI -palvelussa [!INCLUDE[prod_short](includes/prod_short.md)] -tietojen tarkastelua varten. Käytettävissä olevat sovellukset: <ul><li>[!INCLUDE [prod_long](includes/prod_long.md)] – CRM </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] – Finance </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] – Sales </li></ul>  |![Toimii verkossa](media/check.png)||[Katso...](across-powerbi-business-central-apps.md)
+|[!INCLUDE[prod_short](includes/prod_short.md)] -tietojen näyttäminen Power BI:ssa|Voit tarkastella [!INCLUDE[prod_short](includes/prod_short.md)]in tietoja Power BI -raporteissa. [!INCLUDE[prod_short](includes/prod_short.md)] online sisältää muutamia esimääritettyjä Power BI -raportteja. Organisaatiolla voi lisäksi olla joitakin valmiita mukautettuja raportteja.|![Toimii verkossa.](media/check.png)|![Toimii paikallisesti](media/check.png)|[Katso...](across-working-with-business-central-in-powerbi.md)|
+|Power BI -raporttien näyttäminen [!INCLUDE[prod_short](includes/prod_short.md)] -asiakasohjelmassa.| [!INCLUDE[prod_short](includes/prod_short.md)] -tietoja näyttävät Power BI -raportit voidaan upottaa suoraan osien [!INCLUDE[prod_short](includes/prod_short.md)] -sivuille. Osan voi vaihtaa näyttämään minkä tahansa käytettävissä olevan raportin. |![toimii verkossa.](media/check.png)|![Toimii paikallisesti](media/check.png)<sup>[*](#onprem)</sup>|[Katso...](across-working-with-powerbi.md).|
+|Voit luoda Power BI:ssa raportteja ja koontinäyttöjä, joissa näytetään [!INCLUDE[prod_short](includes/prod_short.md)] -tietoja.|Voit luoda omia raportteja ja koontinäyttöjä Power BI Desktopissa. Voit julkaista raportit omaan Power BI -palveluun tai jakaa ne muiden kanssa organisaatiossa.|![Toimii verkossa.](media/check.png)|![toimii paikallisesti](media/check.png)|[Katso...](across-how-use-financials-data-source-powerbi.md)
+|[!INCLUDE[prod_short](includes/prod_short.md)] -sovellukset Power BI:ssa| [!INCLUDE[prod_short](includes/prod_short.md)] julkaisee Microsoft AppSource kolme Power BI -sovellusta. Nämä sovellukset luovat yksityiskohtaisia raportteja ja koontinäyttöjä Power BI -palvelussa [!INCLUDE[prod_short](includes/prod_short.md)] -tietojen tarkastelua varten. Käytettävissä olevat sovellukset: <ul><li>[!INCLUDE [prod_long](includes/prod_long.md)] – CRM </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] – Finance </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] – Sales </li></ul>  |![Toimii verkossa.](media/check.png)||[Katso...](across-powerbi-business-central-apps.md)
 
 <a name="onprem"><sup>*</sup></a> Tätä ominaisuutta varten tarvitaan Microsoft Azuressa rekisteröity Business Centralin sovellus. Lisätietoja on kohdassa [Paikallisen Business Centralin rekisteröinti Azure AD:ssä muiden palvelujen integrointia varten](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
 
 ## <a name="getting-ready-to-use-power-bi"></a>Power BI:n valmistelu käyttöä varten
 
-Muutama tehtävä on suoritettava, ennen kuin Power BI:ta voi käyttää [!INCLUDE[prod_short](includes/prod_short.md)]in kanssa. Osan tehtävistä tekee yleensä vain järjestelmänvalvoja tai super-käyttäjä.
+Muutama tehtävä on suoritettava, ennen kuin Power BI:ta voi käyttää [!INCLUDE[prod_short](includes/prod_short.md)]in kanssa. <!-- Some of the tasks are typically only done by administrators or super users.--> Tehtävät määräytyvät sen mukaan, mikä roolisi organisaatiossa on ja mitä haluat tehdä Power BI:ssä.
 
-1. Jos käytössä on paikallinen [!INCLUDE[prod_short](includes/prod_short.md)], varmista, että käyttöönotto vastaa vaatimuksia, jotka on käsitelty kohdassa [Paikallisen [!INCLUDE[prod_short](includes/prod_short.md)] -version määrittäminen Power BI -integraatiota varten](admin-powerbi-setup.md#setup). Tämä on yleensä järjestelmänvalvojan tehtävä.
+- Jos olet *yrityskäyttäjä*, haluat tarkastella Power BI -raportteja joko Power BI -palvelussa tai Business Centralissa.
+- Jos olet *järjestelmänvalvoja*, hallitset koko organisaation asetuksia, jotka hallinnoivat sitä, miten Business Central ja Power BI toimivat.
+- Jos olet *raporttien tekijä*, haluat luoda mukautettuja Power BI -raportteja, joita voit jakaa muiden käyttäjien kanssa.
 
-2. Tietojen julkaisu verkkopalveluina.
+|Tehtävä|Yrityskäyttäjä|Järjestelmänvalvoja|Raportin tekijä|Lisätietoja|
+|----|-------------|-------------|-----------------------|----------------|
+|Power BI -tilin hankkiminen.|![vielä yksi valintamerkki.](media/check.png)|![se on valintamerkki](media/check.png)|![jälleen valintamerkki](media/check.png)|Siirry kohteeseen [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Käytä rekisteröityessä työpaikan sähköpostiosoitetta ja salasanaa. <br /><br/>Rekisteröitymiseen tarvitaan käyttöoikeus, mutta useimmissa tapauksissa käytössä on jo maksuton käyttöoikeus. Lisätietoja on kohdassa [Power BI -käyttöoikeudet](admin-powerbi-setup.md#license).|
+|Hanki Power BI Desktop|||![jälleen valintamerkki.](media/check.png)|Lataa osoitteesta [Power BI Desktop](https://powerbi.microsoft.com/desktop/). Lisätietoja on kohdassa [Power BI Desktopin hankkiminen](/power-bi/fundamentals/desktop-get-the-desktop).
+|Business Central -tietojen julkaiseminen Power BI:hin||![se on valintamerkki.](media/check.png)|![jälleen valintamerkki](media/check.png)|[Tietojen näyttäminen API-sivujen tai OData-verkkopalvelujen kautta](admin-powerbi-setup.md#exposedata)
+|Ota Power BI -integrointi käyttöön<br />(vain paikallinen)||![se on valintamerkki.](media/check.png)||[Määritä paikallinen Business Central Power BI -integraatiota varten](admin-powerbi-setup.md#setup)|
 
-    Codeunitit, sivut ja kyselyt, joita halutaan käyttää Power BI -raporttien tietolähteenä, on julkaistava verkkopalveluina. Useita verkkopalveluja julkaistaan oletusarvoisesti. Verkkopalveluja voi etsiä kätevästi hakemalla *verkkopalveluja* [!INCLUDE[prod_short](includes/prod_short.md)]issa.
 
-    Lisätietoja verkkopalvelujen julkaisemisesta on kohdassa [Verkkopalvelun julkaiseminen](across-how-publish-web-service.md).
+<!--
 
-3. Power BI -tilin hankkiminen.
 
-    Power BI:n ja [!INCLUDE[prod_short](includes/prod_short.md)]in yhteiskäyttöön tarvitaan Power BI -palvelutili riippumatta siitä, onko kyse järjestelmänvalvojasta vai kuluttajasta. Tilin voi hankkia siirtymällä sivustoon [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Käytä rekisteröityessä työpaikan sähköpostiosoitetta ja salasanaa. Rekisteröitymiseen tarvitaan käyttöoikeus, mutta useimmissa tapauksissa käytössä on jo maksuton käyttöoikeus. Lisätietoja on kohdassa [Power BI:n käyttöoikeudet](admin-powerbi-setup.md#license).
 
-4. Jos haluat luoda omia Power BI -raportteja, hanki Power BI Desktop.
+1. If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, make sure your deployment meets the requirements outlined in [Set up [!INCLUDE[prod_short](includes/prod_short.md)] on-premises for Power BI integration](admin-powerbi-setup.md#setup). This task is typically an administrative task.
 
-    Voit ladata [Power BI Desktopin](https://powerbi.microsoft.com/desktop/). Lisätietoja on kohdassa [Power BI Desktopin hankkiminen](/power-bi/fundamentals/desktop-get-the-desktop).
+2. Expose Business Central data through API pages or published web services.
+
+    Business Central online automatically included several pages as APIs. For more information, see [Business Central API V2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/). Application developers for Business Central online can create custom API pages that you can then consume in reports. For more information, see [Developing a Custom API](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api).
+
+   Codeunit, page, and query objects can be published as OData web services. There are many web services published by default. An easy way to find the web services is to search for *web services* in [!INCLUDE[prod_short](includes/prod_short.md)]. For more information about publishing web services, see [Publish a Web Service](across-how-publish-web-service.md).
+
+3. Get a Power BI account.
+
+   To do anything with Power BI and [!INCLUDE[prod_short](includes/prod_short.md)], whether you're an administrator or just a consumer, you'll need Power BI service account. To get an account, go to [https://powerbi.microsoft.com](https://powerbi.microsoft.com). To sign up for an account, use your work email address and password. Sign-up requires that you have a license, but in most cases you should already have a free license. For more information, see [Power BI Licensing](admin-powerbi-setup.md#license).
+
+4. If you want to create your own Power BI reports, get Power BI Desktop.
+
+   You can download [Power BI Desktop](https://powerbi.microsoft.com/desktop/). For more information, see [Get Power BI Desktop](/power-bi/fundamentals/desktop-get-the-desktop).
+
+-->
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 

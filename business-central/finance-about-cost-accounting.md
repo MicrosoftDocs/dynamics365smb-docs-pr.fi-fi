@@ -1,6 +1,6 @@
 ---
-title: Tietoja kustannuslaskennasta | Microsoft Docs
-description: Kustannuslaskennan avulla voit ymmärtää käynnissä olevan liiketoiminnan kustannuksia.
+title: Tietoja kustannuslaskennasta
+description: Kustannuslaskennan avulla voit ymmärtää käynnissä olevan liiketoiminnan kustannuksia. Kustannuslaskennan tiedot on suunniteltu analysoimaan monia seikkoja.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 7ba956c883c567e7acc2cd625d8d5e51d94ee753
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 461bdff64d785291923fe5f954887eb052805124
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784913"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436271"
 ---
 # <a name="about-cost-accounting"></a>Tietoja kustannuslaskennasta
-Kustannuslaskenta auttaa tiedostamaan liiketoimintaan sisältyviä kustannuksia. Kustannuslaskennan tiedot on suunniteltu analysoimaan:  
+Kustannuslaskennan avulla voit ymmärtää käynnissä olevan liiketoiminnan kustannuksia. Kustannuslaskennan tiedot on suunniteltu analysoimaan:  
 
 -   Millaisia kustannuksia voi syntyä yritysoiminnasta?  
 -   Mistä kustannukset johtuvat?  
@@ -37,7 +37,7 @@ Kustannuslaskennassa on seuraavat pääosat:
 
 Seuraava kaavio näyttää työnkulun kustannuslaskennassa.  
 
-![Kustannuslaskennan yleiskatsaus](media/costaccountingoverview.png "CostAccountingOverview")  
+![Kustannuslaskennan yleiskatsaus.](media/costaccountingoverview.png "CostAccountingOverview")  
 
 ## <a name="cost-types-cost-centers-and-cost-objects"></a>Kustannustyypit, kustannuspaikat ja kustannuskohteet  
 Määritä kustannustyypit, kustannuspaikat ja kustannuskohteet analysoidaksesi mitä kustannukset ovat, mistä kustannukset ovat peräisin ja kuka vastaa kustannuksista.  

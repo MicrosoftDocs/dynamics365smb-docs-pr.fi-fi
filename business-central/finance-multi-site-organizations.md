@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: hub-and-spoke, multi-site, headquarter, sites
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7002c5a3f523943e87757f7e2196e683888c21fe
-ms.sourcegitcommit: 652e4b0e1a09bff265014d9f8eb3b038ab0db79e
+ms.openlocfilehash: c6821a8e542b27338ee6f9ce0c14875896019449
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "6087667"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437364"
 ---
 # <a name="business-central-for-multi-site-and-international-organizations"></a>Business Central kansainvälisille organisaatioille ja organisaatioille, joilla on useita toimipaikkoja
 Organisaatiot, joilla on useita toimipaikkoja, käyttävät usein säteittäisen ryhmän mallia. Siinä pääyritys tai pääkonttori hallinnoi liiketoiminnan yleisiä toimintoja samalla, kun kukin toimipaikka toimii yksittäisenä, erillisenä yksikkönä. Alueet ovat usein maantieteellisesti jakautuneet ja niillä on erilaiset tiedon jakamisen tarpeet pääkonttorin yrityksen kanssa. Lisäksi toimipaikat eivät yleensä tarvitse kovin monimutkaisia toimintoja, eikä niillä ole resursseja ylläpitää suurta järjestelmää.
@@ -30,7 +30,7 @@ Tässä artikkelissa kerrotaan joitakin tapoja, joilla [!INCLUDE[prod_short](inc
 
 Seuraava kaavio on esimerkki pääkonttorin yritykseen integroiduista eri toimipaikoista.
 
-![Kaavion kuvaus luodaan automaattisesti](media/multisite-headquarter-sites.png)
+![Kaavion kuvaus luodaan automaattisesti.](media/multisite-headquarter-sites.png)
 
 ## <a name="meet-the-needs-of-domestic-and-international-sites"></a>Kansallisten ja kansainvälisten toimipaikkojen tarpeiden täyttäminen
 
@@ -85,7 +85,7 @@ Ohjelmointirajapinnat ja XMLport-objektit yksinkertaistavat tuotteen [!INCLUDE[p
 | Helpota ylläpitoa sähköisen tiedonvaihdon avulla. | Sähköisen tietojenvaihdon ratkaisu voidaan lisätä integrointitasoksi pääkonttorin yrityksen ja toimipaikkojen välille. | [Tietojen vaihtokehys](across-about-the-data-exchange-framework.md) |
 | Vaihda tietoja eri järjestelmien välillä. | Käytä XMLport-objekteja luodessasi XML-asiakirjoja, joita voidaan vuorostaan siirtää yhtä järjestelmää käyttävän pääkonttorin yrityksen ja Business Centralia käyttävien toimipaikkojen välillä. | [XMLport-yleiskuvaus](/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-overview) |
 | Orkestroi monimutkaista tietojenvaihtoa. | Käytä XMLport-objektien ja Business Centralin sekä Microsoft BizTalk Serverin yhdistelmää, jotta voit täyttää toimipaikkojen yksilölliset tarpeet.</br>Voit täyttää vaativat tarpeet käyttämällä Business Centralin BizTalk Server- ja Commerce Gateway -ratkaisuihin perustuvaa sähköistä tietojenvaihdon ratkaisua yhdessä XMLport-objektien kanssa. | [Raporttien, eräajojen ja XMLportien käsitteleminen](ui-work-report.md) |
-| Muodosta yhteys kolmannen osapuolen ratkaisuihin ja palveluihin. | Ohjelmointirajapinnat muodostavat pisteestä pisteeseen -yhteyden Business Centralin ja kolmannen osapuolen ratkaisujen ja palveluiden välille. | [Ohjelmointirajapinta v2.0](/dynamics-nav/api-reference/v2.0/) |
+| Muodosta yhteys kolmannen<sup></sup> osapuolen ratkaisuihin ja palveluihin. | Ohjelmointirajapinnat muodostavat pisteestä pisteeseen -yhteyden Business Centralin ja kolmannen <sup></sup>  osapuolen ratkaisujen ja palveluiden välille. | [Ohjelmointirajapinta v2.0](/dynamics-nav/api-reference/v2.0/) |
 
 
 ## <a name="promote-an-efficient-intercompany-supply-chain"></a>Konsernin tehokkaan toimitusketjun määrittäminen
@@ -101,7 +101,7 @@ Toimipaikoissa tarvitaan usein toimitusketjun käyttöoikeus sekä oikeus hallin
 
 Pääkonttorin yrityksen on reagoitava nopeasti liiketoiminnan muutoksiin kussakin toimipaikassa. [!INCLUDE[prod_short](includes/prod_short.md)] voi toimia ennakoivana varoitusmekanismina yhdessä Power Automaten kanssa.
 
-![Yhteisöpalveluiden viestin automaattisesti luodun kuvauksen näyttökuva](media/multisite-apps.png)
+![Yhteisöpalveluiden viestin automaattisesti luodun kuvauksen näyttökuva.](media/multisite-apps.png)
 
 | **Liiketoiminnan vaatimus** | **Miten Business Central tukee sitä** | **Lisätietoja** |
 |-------------------------|-------------------------|-------------------------|

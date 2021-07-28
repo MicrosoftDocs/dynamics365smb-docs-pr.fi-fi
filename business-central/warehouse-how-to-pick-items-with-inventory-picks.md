@@ -1,6 +1,6 @@
 ---
-title: Nimikkeiden poiminta varaston poiminnoissa | Microsoft Docs
-description: Kun sijainti on määritetty vaatimaan poiminnan prosessointia, mutta ei toimituksen prosessointia, sinun on käytettävä varaston poiminnan asiakirjoja lähdeasiakirjan poiminnan ja toimituksen tietojen tallennuksessa ja kirjaamisessa.
+title: Nimikkeiden poiminta varaston poiminnalla
+description: Kun sijainti vaatii poiminnan prosessointia, mutta ei toimituksen prosessointia, sinun on käytettävä varaston poiminnan asiakirjoja lähdeasiakirjan poiminnan ja toimituksen tietojen tallennuksessa ja kirjaamisessa.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7e8798f9581d3f0ae416a52bfdd53c7bb4893eab
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 05bd840f0e4db2f383544b99d3edc26a443f423b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771702"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438205"
 ---
 # <a name="pick-items-with-inventory-picks"></a>Nimikkeiden poiminta varastopoiminnalla
 
@@ -36,7 +36,7 @@ Varaston poiminnan voi luoda kolmella tavalla:
 
 Jos kyseessä on myyntitilaus, ostopalautustilaus tai lähtevä siirto, voit luoda fyysisen varastoinnin pyynnön vapauttamalla tilauksen. Seuraavaksi käsitellään, miten se tehdään myyntitilauksesta.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Myyntitilaukset** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten vastaava linkki.
 2. Valitse ensin vapautettava myyntitilaus ja sitten **Vapauta**-toiminto.
 
 Tuotantotilauksissa osien poiminnan fyysisen varastoinnin pyyntö eli *materiaaliotto* luodaan automaattisesti, kun tuotantotilauksen tilaksi tulee **Vapautettu** tai kun vapautettu tuotantotilaus luodaan. Lisätietoja on kohdassa [Tuotannon tai kokoonpanon poiminta](warehouse-how-to-pick-for-production.md).
@@ -47,7 +47,7 @@ Kun fyysisen varaston pyyntö on luotu, varastotyöntekijä, jolle nimikkeiden p
 
 Nyt kun pyyntö on luotu, varastotyöntekijä voi luoda uuden varaston poiminnan vapautetun lähdeasiakirjan perusteella.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Varaston poiminnat** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varaston poiminnat** ja valitse sitten vastaava linkki.  
 2. Valitse **Uusi**-toiminto.  
     Varmista, että **Nro**-kenttä täytetään **Yleinen**-pikavälilehdessä.
 3. Valitse **Lähdeasiakirja**-kentässä sen lähdeasiakirjan tyyppi, jolle teet poiminnan.  
@@ -63,7 +63,7 @@ Nyt kun pyyntö on luotu, varastotyöntekijä voi luoda uuden varaston poiminnan
 
 ## <a name="to-create-multiple-inventory-picks-with-a-batch-job"></a>Useiden varaston poimintojen luominen eräajon avulla
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Luo var. hyllytys/poiminta** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Luo var. hyllytys / poiminta** ja valitse sitten vastaava linkki.  
 2. Suodata **F.varastoinnin pyyntö** -pikavälilehden **Lähdeasiakirja**- ja **Lähteen nro** -kenttien avulla tietyntyyppiset asiakirjat tai asiakirjanumerovälit. Voit esimerkiksi luoda poimintoja vain myyntitilauksille.  
 3. Valitse **Asetukset**-pikavälilehdessä **Luo varaston poiminta** -valintaruutu.
 4. Valitse **OK**-painike. Määritetyt varaston poiminnat luodaan.
@@ -75,7 +75,7 @@ Nyt kun pyyntö on luotu, varastotyöntekijä voi luoda uuden varaston poiminnan
 
 ## <a name="to-record-the-inventory-picks"></a>Varaston poimintojen kirjaaminen
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Varaston poiminta** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varaston poiminta** ja valitse sitten vastaava linkki.  
 2. Poimintarivien **Varastopaikkakoodi**-kentässä varastopaikka, josta nimikkeet on poimittava, ehdotetaan nimikkeen oletusvarastopaikan mukaan. Voi muuttaa tarvittaessa varastopaikkaa tällä sivulla.  
 3. Suorita poiminta ja annan todellisia hyllytysmääriä koskevat tiedot **Käsiteltävä määrä** -kentässä.
 

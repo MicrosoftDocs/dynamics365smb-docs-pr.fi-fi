@@ -1,6 +1,6 @@
 ---
-title: Hyllytysten suunnitteleminen työkirjoissa | Microsoft Docs
-description: Jos sijainnissa on määritetty sekä hyllytyksen että vastaanoton käsittely pakolliseksi ja haluat suunnitella hyllytysohjeita useille vastaanotoille, voit käyttää hyllytystyökirjaa sen sijaan, että työntekijät noudattaisivat sovelluksen luomia ohjeita erillisille kirjatuille vastaanotoille.
+title: Hyllytysten suunnitteleminen työkirjoissa
+description: Määritä fyysinen varasto niin, että vastaanottorivit ovat käytettävissäsi hyllytystyökirjassa, kun haluat suunnitella vastaanoton hyllytysohjeita.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 7d22ba919883fd45ff0b04410a0a19ee77aa3326
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: cfe8f04e84c2bb5cddcbad71fd71b1253043b60f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771677"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438180"
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Hyllytysten suunnitteleminen työkirjoissa
 Jos sijainnissa on määritetty sekä hyllytyksen että vastaanoton käsittely pakolliseksi ja haluat suunnitella hyllytysohjeita useille vastaanotoille, voit käyttää hyllytystyökirjaa sen sijaan, että työntekijät noudattaisivat sovelluksen luomia ohjeita erillisille kirjatuille vastaanotoille.  
@@ -31,7 +31,7 @@ Jos et valitse tätä kenttää, sovellus luo automaattisesti hyllytysohjeita va
 > 2.  Jatka prosessia niin monessa hyllytyksessä kuin haluat siihen asti, kun olet poistanut kaikki rivit, joiden parissa haluat työskennellä työkirjassa. Napsauta nyt **Hyllytystyökirjat** ja jatka suunnittelua.  
 
 ## <a name="to-plan-instructions-in-the-put-away-worksheet"></a>Ohjeiden suunnittelu hyllytystyökirjassa  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Hyllytystyökirja** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Hyllytystyökirja** ja valitse sitten liittyvä linkki.  
 2.  Valitse **Hae f. varastoinnin asiakirjat** -toiminto. Näyttöön tulee **Hyllytyksen valinta** -sivu.  
 
     Näet kaikki kirjatut vastaanotot ja rekisteröidyt sisäiset hyllytykset, jotka on lähetetty eteenpäin hyllytys-funktioon, mukaan lukien ne, joille hyllytysohjeita on jo luotu. Asiakirjat, joissa on hyllytysrivejä, joita ei ole täysin hyllytetty ja rekisteröity, ei näytetä tässä luettelossa.  
