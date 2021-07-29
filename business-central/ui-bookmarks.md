@@ -1,6 +1,6 @@
 ---
-title: Lisää kirjanmerkkeihin linkki sivulle tai raporttiin roolikeskuksessasi | Microsoft Docs
-description: Lisätietoja linkin lisäämisestä roolikeskukseen.
+title: Sivun tai raportin kirjanmerkkilinkki roolikeskuksessa
+description: Voit lisätä kirjanmerkin kuvakkeella toimintolinkin, joka avaa sivun tai raportin roolikeskuksen siirtymisvalikosta.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,35 +8,35 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 7f93d54984106cb0fce2d886f6826ba22b1d8185
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ec89d35da258020ce08710d3eafc4bce32cf81a8
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787475"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446020"
 ---
 # <a name="bookmark-a-page-or-report-on-your-role-center"></a>Sivun tai raportin kirjanmerkin luominen roolikeskuksessa
-Voit lisätä kirjanmerkin kuvakkeella toimintolinkin, joka avaa sivun tai raportin roolikeskuksen siirtymisvalikosta. Tämän ansiosta voit nopeasti tavoittaa haluamasi sisällön tai liiketoiminnan. Kirjanmerkki lisätään kohdesivulta tai raportista eli ruudusta, jonka haluat roolikeskuksen linkin avaavan.
+Voit lisätä kirjanmerkin kuvakkeella toimintolinkin, joka avaa sivun tai raportin roolikeskuksen siirtymisvalikosta. Kirjanmerkkien ansiosta voit nopeasti tavoittaa haluamasi sisällön tai liiketoimintatehtävän. Kirjanmerkki lisätään kohdesivulta tai raportista eli ruudusta, jonka haluat roolikeskuksen linkin avaavan.
 
 Kirjanmerkkikuvake näkyy sivun oikeassa yläkulmassa sekä **Kerro, mitä haluat tehdä** -ikkunassa, jossa voit lisätä kirjanmerkin useille sivuille tai raportteihin. Jos sivulla on jo kirjanmerkki, kuvake on tumma ja työkaluvihjeessä lukee Lisätty kirjanmerkkeihin.
 
 ## <a name="to-bookmark-the-target-page"></a>Voit merkitä kohdesivun kirjanmerkiksi
 1. Avaa sivu, johon haluat roolikeskuksen linkin kohdistuvan.
-2. Valitse ![Kirjanmerkki](media/ui_bookmark_icon.png "Kirjanmerkki")-kuvake.
+2. Valitse ![Kirjanmerkki.](media/ui_bookmark_icon.png "Kirjanmerkki") -kuvake.
 
 Sivun mukaan nimetty toiminto lisätään nyt roolikeskuksen siirtymisvalikkoon.
 
 ## <a name="to-bookmark-the-target-report"></a>Voit merkitä kohderaportin kirjanmerkiksi
 1. Avaa raporttipyyntö, johon haluat roolikeskuksen linkin kohdistuvan.
-2. Valitse ![Kirjanmerkki](media/ui_bookmark_icon.png "Kirjanmerkki")-kuvake.
+2. Valitse ![Kirjanmerkki.](media/ui_bookmark_icon.png "Kirjanmerkki") -kuvake.
 
 Raportin mukaan nimetty toiminto lisätään nyt roolikeskuksen siirtymisvalikkoon.
 
 ## <a name="to-bookmark-a-page-or-report-from-the-tell-me-window"></a>Sivun tai raportin kirjanmerkin lisääminen Ilmoita-ikkunasta
 1. Avaa **Kerro, mitä haluat tehdä** -ikkuna ja kirjoita esimerkiksi **Myyntitilaukset**.
-2. Siirrä osoitin **Myyntitilaukset**-sivun tai raportin hakutulosten päälle ja valitse ![Kirjanmerkki](media/ui_bookmark_icon.png "Kirjanmerkki")-kuvake.
+2. Siirrä osoitin **Myyntitilaukset**-sivun tai raportin hakutulosten päälle ja valitse sitten ![Kirjanmerkki.](media/ui_bookmark_icon.png "Kirjanmerkki") -kuvake.
 
 Sivun tai raportin mukaan nimetty toiminto lisätään nyt roolikeskuksen siirtymisvalikkoon.
 
@@ -60,7 +60,7 @@ Sivun tai raportin kirjanmerkkien käyttäminen on yksi useista Business Central
 - **Miksi tiettyjä sivuja tai raportteja ei voi merkitä kirjanmerkkeihin?**  
 Kaikkia sivuja ja raportteja ei voi merkitä kirjanmerkkeihin. Kun sivu tai raportti suoritetaan yrityssovelluksen hallitsemassa erikoiskontekstissa, kirjanmerkkikuvaketta ei näytetä. Esimerkiksi sivut, joita ei löydy **Ilmoita**-ikkunasta, mutta jotka on käynnistetty muualta, eivät näytä kirjanmerkkikuvaketta. Vastaavasti raportin pyyntösivut, joita käytetään vain suodatinten keräämiseen ilman raportin suorittamista, eivät näytä kirjanmerkkikuvaketta.
 
-Katso lisätietoja teknisistä [RunRequestPage](/dynamics365/business-central/dev-itpro/developer/methods-auto/report/reportinstance-runrequestpage-method)- ja [FilterPageBuilder](/dynamics365/business-central/dev-itpro/developer/methods-auto/filterpagebuilder/filterpagebuilder-data-type)-tiedoista.
+  Katso lisätietoja teknisistä [RunRequestPage](/dynamics365/business-central/dev-itpro/developer/methods-auto/report/reportinstance-runrequestpage-method)- ja [FilterPageBuilder](/dynamics365/business-central/dev-itpro/developer/methods-auto/filterpagebuilder/filterpagebuilder-data-type)-tiedoista.
 
 - **Onko omat kirjanmerkkini poistettu yksilöinnin poistamisen yhteydessä?**  
 Kyllä. Kirjanmerkit sijaitsevat navigointivalikossa. Jos tyhjennät navigointivalikkoon miltä tahansa sivulta tekemäsi muutokset tai poistat kaikki roolikeskuksen mukautukset, kaikki uudet toiminnot poistetaan pysyvästi.
@@ -77,6 +77,8 @@ Ei. Tällä hetkellä XMLports-toimintojen lisääminen ei ole mahdollista käyt
 
 - **Käännetäänkö kirjanmerkkini, kun vaihdan kieltä Business Centralissa?**  
 Kun lisäät uuden toiminnon, kaikkia käännettyjä tekstejä, jotka olivat saatavilla kyseisellä hetkellä, käytetään myös kirjanmerkkejä lisättäessä. Jos uusi käännetty teksti lisätään myöhemmin, uusi toiminto ei sisällä uudempia käännöksiä.
+
+- **Miksi sivulle ei voi lisätä tekstiä heti sen jälkeen, kun se on avattu kirjanmerkillä?**<br> Kun sivu on merkitty kirjanmerkkeihin, sivu avautuu aina näkymätilassa kirjanmerkistä&mdash;vaikka se olisi ollut muokkaustilassa silloin, kun se asetettiin kirjanmerkiksi. Kuvakkeen **Tee muutoksia sivulla** valitseminen ![Näyttää kynäkuvakkeen sivun muokkaamista varten.](media/edit-pencil.png) sallii sinun lisätä tekstiä muokattaviin kenttiin.
 
 
 ## <a name="see-also"></a>Katso myös

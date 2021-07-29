@@ -1,6 +1,6 @@
 ---
-title: Myyntitarjouksen tekeminen asiakkaalle
-description: Ohjeaiheessa käsitellään, miten luodaan myyntitarjous- tai tarjouspyyntöasiakirja kirjaamaan asiakkaalle tehty tarjous tuotteiden myynnistä tietyin ehdoin.
+title: Myyntitarjousten tekeminen
+description: Ohjeaiheessa käsitellään, miten luodaan myyntitarjous- tai tarjouspyyntöasiakirja kirjaamaan asiakkaalle tai mahdolliselle asiakkaalle tehty tarjous tuotteiden myynnistä tietyin ehdoin.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,36 +8,46 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
-ms.date: 05/27/2021
+ms.date: 07/12/2021
 ms.author: edupont
-ms.openlocfilehash: a538b7099521b10227bf5aeaefad0a9c60971068
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: a3a35738bc15e401edbd0fd3bf02ef50ff015520
+ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115538"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6543118"
 ---
 # <a name="make-sales-quotes"></a>Myyntitarjousten tekeminen
 
-Luot myyntitarjouksen tallentaaksesi tarjouksen asiakkaalle myydäksesi määrätyt tuotteet määrätyillä toimitus- ja maksuehdoilla. Voit lähettää myyntitarjouksen asiakkaalle kommunikoidaksenne tarjouksesta. Voit lähettää asiakirjan sähköpostitse PDF-liitteenä. Sähköpostin perusteksti voidaan esitäyttää tarjouksen yhteenvedolla. Lisätietoja on kohdassa [Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md).
+Luot myyntitarjouksen tallentaaksesi tarjouksen asiakkaalle tai mahdolliselle asiakkaalle myydäksesi määrätyt tuotteet määrätyillä toimitus- ja maksuehdoilla. Voit lähettää myyntitarjouksen asiakkaalle kommunikoidaksenne tarjouksesta. Voit lähettää asiakirjan sähköpostitse PDF-liitteenä. Sähköpostin perusteksti voidaan esitäyttää tarjouksen yhteenvedolla. Lisätietoja on kohdassa [Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md).
 
-Kun neuvottelet asiakkaan kanssa, voit muuttaa ja lähettää myyntitarjouksen uudelleen niin paljon kuin tarvitaan. Kun asiakas hyväksyy tarjouksen, voit muuntaa myyntitarjouksen myyntilaskuksi tai -tilaukseksi, jossa myynti käsitellään. Lisätietoja on kohdassa [Myynnin laskuttaminen](sales-how-invoice-sales.md) tai [Tuotteiden myyminen](sales-how-sell-products.md).
+Kun neuvottelet asiakkaan tai mahdollisen asiakkaan kanssa, voit muuttaa ja lähettää myyntitarjouksen uudelleen niin usein kuin tarvitaan. Kun asiakas hyväksyy tarjouksen, voit muuntaa myyntitarjouksen myyntilaskuksi tai -tilaukseksi, jossa myynti käsitellään. Lisätietoja on kohdassa [Myynnin laskuttaminen](sales-how-invoice-sales.md) tai [Tuotteiden myyminen](sales-how-sell-products.md).
 
-Voit täyttää myyntitarjouksen asiakkaan kentät kahdella tavalla sen mukaan, onko asiakas jo rekisteröity. Katso vaiheet 2 ja 3 seuraavassa menettelyssä.
+Useimmissa tapauksissa myyntitarjouksia lähetetään mahdollisille asiakkaille. Sinulla on usein yhteyshenkilö, jonka kanssa neuvottelet. Jos he hyväksyvät tarjouksesi, muutat myyntitarjouksen tilaukseksi ja rekisteröit mahdollisen asiakkaan asiakkaaksi [!INCLUDE [prod_short](includes/prod_short.md)]issa. Seuraavassa vaiheessa keskitymme kontakteihin, mutta voit myös lähettää tarjouksia nykyisille asiakkaille.  
 
 ## <a name="to-create-a-sales-quote"></a>Myyntitarjousten luominen
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitarjoukset** ja valitse sitten liittyvä linkki.
-2. Syötä **Asiakas**-kenttään nykyisen asiakkaan nimi.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvake, syötä **Myyntitarjoukset** ja valitse sitten vastaava linkki.
+2. Määritä kontakti tai asiakas, jolle haluat lähettää myyntitarjouksen.
 
-   Muut **Myyntitarjous**-sivun kentät sisältävät valitun asiakkaan vakiotiedot.  
+    - Jos myyntitarjous on aiemmin luodulle kontaktille, määritä nimi kohtaan **Kontaktin nro.** -kentässä.  
 
-    [!INCLUDE [sales-create-customer](includes/sales-create-customer.md)]
+        Jos myyntitarjous on aiemmin luodulle asiakkaalle, määritä asiakas **Asiakas**-kenttään.
+    - Jos kontaktia ei ole rekisteröity, toimi seuraavasti:
 
-    Myyntitarjouksen useat kentät täytetään nyt tiedoilla, jotka olet määrittänyt uuden asiakkaan kortissa.  
+        1. **Kontaktin nro** - kentässä valitse muokkauspainike :::image type="icon" source="media/assist-edit-icon.png" border="false":::.
+        2. Valitse kontaktin valintaa koskevassa valintaikkunassa **Uusi**-toiminto ja täytä sitten asianmukaiset kentät. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] Lisätietoja on kohdassa [Kontaktien luominen](marketing-create-contact-companies.md).  
+        3. Kun olet täyttänyt kontaktikortin, valitse juuri luotu kontakti kontaktiluettelosta ja palaa sitten myyntitarjoukseen valitsemalla OK-painike.
+
+        Myyntitarjouksen useat kentät täytetään nyt tiedoilla, jotka olet määrittänyt uuden kontaktin kortissa.
+
+        > [!NOTE]
+        > Laskeaksesi tarjouksen verot ja hinnat oikein, valitse asianmukainen asiakasmalli **Asiakasmallin koodi** -kentässä. Mallia käytetään kontaktin muuntamiseksi asiakkaaksi, kun tarjous on muunnettu myyntitilaukseksi tai laskuksi.
+    -  Jos tarjous on uudelle asiakkaalle, sinun on lisättävä asiakas. Lisätietoja on kohdassa [Uusien asiakkaiden rekisteröinti](sales-how-register-new-customers.md).  
+
 3. Täytä tarvittaessa jäljellä olevat kentät **Myyntitarjous**-sivulla. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-    Voit nyt täyttää asiakkaille myytävien tuotteiden tai KP-tilille kirjattavan asiakastapahtuman myyntitilauksen rivit.  
+    Voit nyt täyttää asiakkaille tai mahdollisille asiakkaille myytävien tuotteiden tai KP-tilille kirjattavan asiakastapahtuman myyntitilauksen rivit.  
 
     Jos olet määrittänyt toistuvien myyntien rivin asiakkaalle, kuten kuukausittainen täydennystilaus, voit lisätä nämä rivit tilaukseen valitsemalla **Nouda toistuvat myyntirivit** -toiminto.  
 
@@ -59,7 +69,7 @@ Voit täyttää myyntitarjouksen asiakkaan kentät kahdella tavalla sen mukaan, 
 7. Jos haluat antaa alennuksen, anna prosentti **Rivialennus-%**-kentässä. **Rivisumma**-kentän arvo päivittyy vastaavasti.  
 
     Jos nimikkeiden erikoishinnat on määritetty asiakkaan tai nimikkeen kortin **Myyntihinnat ja myyntirivien alennukset**-pikavälilehdellä, myyntiriviin hinta ja summa päivittyvät automaattisesti, jos sovitut hinnan ehdot täyttyvät. Lisätietoja on kohdassa [Myyntihinnan, alennuksen ja maksusopimusten tallentaminen](sales-how-record-sales-price-discount-payment-agreements.md).  
-8. Toista vaiheet 4–7 jokaiselle tuotteelle, jonka haluat tarjota asiakkaalle.
+8. Toista vaiheet 4–7 jokaiselle tuotteelle, jonka haluat tarjota kontaktille.
 
     Rivien kokonaissummat lasketaan automaattisesti samalla, kun rivejä luodaan ja muokataan.  
 9. Syötä **Laskun alennussumma** -kenttään summa, joka vähennetään **Yhteensä sis. ALV:n** -kentässä olevasta arvosta.
@@ -71,9 +81,18 @@ Voit täyttää myyntitarjouksen asiakkaan kentät kahdella tavalla sen mukaan, 
 
 10. Kun myyntitarjouksen rivit ovat valmiit, valitse **Lähetä sähköpostitse** -toiminto.
 11. Täytä **Lähetä sähköpost** -sivulla jäljellä olevat kentät ja tarkista upotettu myyntitarjous. Lisätietoja on kohdassa [Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md).
-12. Jos asiakas hyväksyy tarjouksen, valitse **Luo lasku**- tai **Tee tilaus** -toiminto.
+12. Jos kontakti hyväksyy tarjouksen, valitse **Tee tilaus** -toiminto.  
 
-Myyntitarjous on poistettu tietokannasta. Myyntilasku tai -tilaus luodaan myyntitarjouksen tietojen perusteella, jossa voit käsitellä myynnin. Myyntilaskun tai myyntitilauksen **Tarjouksen nro** -kenttä määrittää sen myyntitarjouksen numeron, josta tilaus on muunnettu. Lisätietoja on kohdassa [Myynnin laskuttaminen](sales-how-invoice-sales.md) tai [Tuotteiden myyminen](sales-how-sell-products.md).  
+    Voit valita myös **Tee lasku** -toiminnon, jos organisaatiosi suosii tätä prosessia.  
+    > [!NOTE]
+    > Jos lisäsit asiakkaan vaiheessa 2, sinua pyydetään vahvistamaan tarjouksen muuntaminen tilaukseksi.  
+    >
+    > Jos lisäsit mahdollisen asiakkaan yhteyshenkilön vaiheessa 2, sinua pyydetään tekemään seuraavat toimet:
+    >
+    >  - Muunna kontakti tai mahdollinen asiakas asiakkaaksi valitsemalla jokin kontaktin muuntomalleista. Lisätietoja on kohdassa [Asiakkaan, toimittajan, työntekijän tai pankkitilin luominen yhteyshenkilöstä](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
+    > - Vahvista tarjouksen muuntaminen tilaukseksi.
+
+Muunnos poistaa myyntitarjouksen tietokannasta. Myyntilasku tai -tilaus luodaan myyntitarjouksen tietojen perusteella, jotta voit käsitellä myynnin. Myyntilaskun tai myyntitilauksen **Tarjouksen nro** -kenttä määrittää sen myyntitarjouksen numeron, josta tilaus on muunnettu. Lisätietoja on kohdassa [Myynnin laskuttaminen](sales-how-invoice-sales.md) tai [Tuotteiden myyminen](sales-how-sell-products.md).  
 
 ## <a name="external-document-number"></a>Ulkoisen tiedoston numero
 
@@ -84,6 +103,7 @@ Myyntitarjous on poistettu tietokannasta. Myyntilasku tai -tilaus luodaan myynti
 [Myynti](sales-manage-sales.md)  
 [Myynnin määrittäminen](sales-setup-sales.md)  
 [Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md)  
+[Asiakirjojen arkistointi](across-how-to-archive-documents.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

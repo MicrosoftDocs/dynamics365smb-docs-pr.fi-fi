@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 06853911f5b2858fbde4ff5371971c86f2960543
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ba76f1f48249de12af6dc99057a92ef6aaeef13a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783482"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446238"
 ---
 # <a name="set-up-reminder-terms-and-levels"></a>Muistutusehtojen ja -tasojen määrittäminen.
 
@@ -30,7 +30,7 @@ Jos asiakkailla on erääntyneitä maksuja, sinun täytyy päättää, milloin j
 
 ### <a name="to-set-up-reminder-terms"></a>Muistutusehtojen määrittäminen
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Muistutusehdot** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Muistutusehdot** ja valitse sitten vastaava linkki.  
 2. Täytä tarvittavat kentät. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 3. Voit käyttää useita muistutusehtoyhdistelmä, kun määrität kullekin koodin.
 
@@ -42,7 +42,7 @@ Jos luot enemmän muistutuksia kuin mille olet määrittänyt tasoja, ohjelma k�
 
 ### <a name="to-set-up-reminder-levels"></a>Muistutustasojen määrittäminen
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Muistutusehdot** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Muistutusehdot** ja valitse sitten vastaava linkki.  
 2. Valitse **Muistutusehdot**-sivulla rivi, jonka ehdoille haluat määrittää tasoja, ja valitse sitten **Tasot**-toiminto.  
 3. Täytä tarvittavat kentät. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 

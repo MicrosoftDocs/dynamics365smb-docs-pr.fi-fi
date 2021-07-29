@@ -1,6 +1,6 @@
 ---
-title: Kassavirta-analyysin määrittäminen| Microsoft Docs
-description: Kaavioiden määrittäminen kirjanpitäjän roolikeskuksessa auttaa analysoimaan yrityksen rahavirtaa, kuten menoja ja tuloja, maksuvalmiutta ja kassaanmaksuista vähennettyjä kassamaksuja.
+title: Kassavirta-analyysin määrittäminen
+description: Kaavioiden käyttäminen kirjanpitäjän roolikeskuksessa auttaa analysoimaan yrityksen rahavirtaa, kuten menoja ja tuloja, maksuvalmiutta ja kassaanmaksuista vähennettyjä kassamaksuja.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: e197155f272d4435f838fbc67fb336f339c1a290
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 919c5cc5781f0f93fbfb79b9e306e42180eb6968
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783670"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446288"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Kassavirta-analyysin määrittäminen
 Jos tarvitset apua käteisvarojen käytöstä päättämiseen, tutustu Kirjanpitäjä-roolikeskuksen kaavioihin:  
@@ -70,14 +70,14 @@ Voit käyttää avustettua asennusopasta seuraavissa toiminnoissa:
 
 1. Valitse Kirjanpitäjä-roolikeskuksen **Kassavirtaennuste**-kaaviossa **Avaa avustettu määritys** -toiminto.  
 2. Täytä kentät oppaan kussakin vaiheessa.  
-3. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Kassavirtaennuste** ja valitse sitten liittyvä linkki.
+3. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kassavirtaennuste** ja valitse sitten vastaava linkki.
 4. Valitse **Kassavirtaennuste**-sivulla **Laske ennuste uudelleen** -toiminto.  
 
 Voit käyttää manuaalista prosessia seuraavasti:  
 
 1. Etsi Kirjanpitäjä-roolikeskuksessa **Kassavirran asetukset** ja valitse sitten vastaava linkki.  
 2. Laajenna **Azure AI** -pikavälilehti ja valitse sitten **Azure AI käytössä** -valintaruutu.  
-3. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Kassavirtaennuste** ja valitse sitten liittyvä linkki.
+3. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kassavirtaennuste** ja valitse sitten vastaava linkki.
 4. Valitse **Kassavirtaennuste**-sivulla **Laske ennuste uudelleen** -toiminto.  
 
 > [!TIP]  
@@ -123,7 +123,7 @@ Voit myös luoda oman ennakoivan verkkopalvelun **Microsoft Business Central -so
 3. Kirjaudu työtilaan Microsoft-tilin avulla ja kopioi malli.  
 4. Aja malli ja julkaise se verkkopalveluna.  
 5. Kirjoita API:n URL-osoite ja API-avain muistiin. Näitä tunnistetietoja käytetään kassavirran asetuksissa.  
-6. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Kassavirran asetukset** ja valitse sitten liittyvä linkki.  
+6. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kassavirran asetukset** ja valitse sitten vastaava linkki.  
 7. Laajenna **Azure AI** -pikavälilehti ja täytä sitten kentät.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)

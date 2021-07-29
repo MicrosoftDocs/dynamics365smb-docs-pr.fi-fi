@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8c62a19a9dda2f9af72f03130c7b3cc5e00c1d41
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2b3dcc5c40346f6bd63d431b3024d64bc5a0d434
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776664"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445945"
 ---
 # <a name="managing-report-and-document-layouts"></a>Raporttien ja asiakirjojen asettelujen hallinta
 Raporttiasettelu ohjaa raportin sisältöä ja muotoa, mukaan lukien, mitkä tietojen kentät näkyvät raportissa ja miten ne järjestetään, tekstityylin, kuvia ja muita ominaisuuksia. Voit luoda [!INCLUDE[prod_short](includes/prod_short.md)]ista uuden asettelun, muuttaa raportissa käytettävää asettelua tai muokata nykyisiä asetteluja.
@@ -39,7 +39,7 @@ Raporteissa käytettävän raporttiasettelun tyyppi voi olla Word tai RDLC.
 ## <a name="word-report-layout-overview"></a>Word-raporttiasettelun esittely
 Word-raportin asettelu perustuu Word-asiakirjaan (.docx-tiedostotyyppi). Word-raporttiasetteluiden avulla voit suunnitella raporttiasetteluita käyttämällä Microsoft Word 2013 -versiota tai uudempaa. Word-raporttiasettelu määrittää raportin sisällön ja ohjaa sitä, miten sisältöelementit järjestetään ja miltä ne näyttävät. Raportin asettelu Word-asiakirjassa käyttää yleensä taulukoita, joiden avulla voit järjestää sisältöä, jossa solut sisältävät tietokentät, tekstiä tai kuvia.
 
- ![Esimerkki Word-raporttiasetteluasiakirjasta NAV:lle](media/nav_wordreportlayout_edit_in_word_example.png "NAV_WordReportLayout_Edit_In_Word_Example")  
+ ![Esimerkki Wordin raporttiasetteluasiakirjasta NAVille.](media/nav_wordreportlayout_edit_in_word_example.png "NAV_WordReportLayout_Edit_In_Word_Example")  
 
 ## <a name="rdlc-layout-overview"></a>RDLC-asettelun yleiskuvaus
 RDLC-asettelut perustuvat asiakkaan määrittelemiin raportinasetteluihin (.rdlc- tai .rdl-tiedostotyypit). Näitä asetteluja luodaan ja muokataan käyttämällä SQL Server Report Builderia. RDLC-asetteluiden rakenne muistuttaa Word-asetteluja, joissa asettelu määrittää raportin yleisen muodon ja määrää sisällytettävät tietojoukon kentät. RDLC-asetteluiden suunnitteleminen on monimutkaisempaa kuin Word-asetteluiden. Lisätietoja on kohdassa [RDLC-raporttiasetteluiden suunnitteleminen](/dynamics-nav/Designing-RDLC-Report-Layouts).

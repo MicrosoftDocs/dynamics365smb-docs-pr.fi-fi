@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 08a2443f94efbc9920145109b4b7499a3a4e05b3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 36d841a7231794e1cfb61a928efbbf3f83bbdc27
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783620"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446263"
 ---
 # <a name="set-up-finance-charge-terms"></a>Viivästyskuluehtojen määrittäminen
 
@@ -41,7 +41,7 @@ Lisäksi jokainen Viivästyskuluehdot-taulukon ehto on linkitetty alitaulukkoon,
 
 ### <a name="to-set-up-finance-charge-terms"></a>Viivästyskuluehtojen määrittäminen
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Viivästyskuluehdot** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Viivästyskuluehdot** ja valitse sitten vastaava linkki.  
 2. Täytä tarvittavat kentät.
 3. Voit käyttää useita viivästyskuluehtoyhdistelmä, kun määrität kullekin koodin.
 

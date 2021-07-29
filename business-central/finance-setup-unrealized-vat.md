@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: cash, VAT, unrealized, cash-based
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7e47e33c0a3e8907cc68243d1688fc0c48d67c07
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ca04192ef31e281e7d3e07e2f1823079e1f89151
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783457"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446188"
 ---
 # <a name="set-up-unrealized-vat-for-cash-based-accounting"></a>Ei-realisoituneen arvonlisäveron määrittäminen kassaperusteista kirjanpitoa varten
 Jos käytät kassaperusteista kirjanpitoa, voit määrittää [!INCLUDE[prod_short](includes/prod_short.md)]in käsittelemään ei-realisoidun arvonlisäveron.
@@ -24,9 +24,9 @@ Jos käytät kassaperusteista kirjanpitoa, voit määrittää [!INCLUDE[prod_sho
 ALV-summat voidaan laskea ja kirjata väliaikaiselle kirjanpitotilille laskun kirjaamisen yhteydessä. Sen jälkeen ne voidaan kirjata oikealle kirjanpitotilille ja sisällyttää ALV-ilmoituksiin laskun maksun kirjaamisen yhteydessä. Ennen sitä sinun täytyy määrittää ALV-kirjausasetukset.
 
 Käytä ei-realisoituneen arvonlisäveron tilejä seuraavasti:
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake ja syötä **Kirjanpidon asetukset**.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake ja syötä **Kirjanpidon asetukset**.
 2. Valitse **Pääkirjanpidon asetukset**-sivulla **Ei-realisoitunut ALV** -valintaruutu.
-3. Valitse **Hae sivua tai raporttia** -kuvake ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") ja syötä **ALV-kirjausten asetukset**.
+3. Valitse **Hae sivua tai raporttia** -kuvake ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") ja syötä **ALV-kirjausten asetukset**.
 4. Valitse ensin **ALV-kirjausten asetukset** -sivulla ALV-kirjausryhmä ja sitten **Muokkaa**-toiminto.
 5. Valitse **Ei-realisoituneen ALV:n tyyppi** -kentässä vaihtoehto määrittämään maksujen kohdistus laskun summalle (ilman ALV:tä) ja itse ALV-summalle, ja miten ALV-summat siirretään ei-realisoituneen ALV:n tililtä realisoituneelle tilille. Asetukset kuvaillaan seuraavassa taulukossa.
 

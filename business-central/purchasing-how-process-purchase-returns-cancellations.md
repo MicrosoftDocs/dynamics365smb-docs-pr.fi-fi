@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: cancel, undo, correct
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5dbb243225e4e5362a715165f28dff00c6fbf47b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e43f5c5dd2a785a0268b9cf61794de1f8fa73a9a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772752"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445549"
 ---
 # <a name="process-purchase-returns-or-cancellations"></a>Ostopalautusten tai peruutusten käsittely
 
@@ -50,7 +50,7 @@ Lisätietoja on ohjeaiheessa [Rakenteen tiedot: Varaston arvostus](design-detail
 
 ## <a name="to-create-a-purchase-credit-memo-from-a-posted-purchase-invoice"></a>Ostohyvityslaskun luominen kirjatusta ostolaskusta
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Kirjatut ostolaskut** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kirjatut ostolaskut** ja valitse sitten vastaava linkki.  
 2. Valitse **Kirjatut ostolaskut** -sivulla kirjattu ostolasku, jonka haluat peruuttaa, ja valitse sitten **Luo korjaava hyvityslasku** -toiminto.
 
     Useimpiin ostohyvityslaskun otsikon kenttiin täytetään kirjatun ostolaskun tiedot. Voit muokata kaikkia kenttiä, kuten esimerkiksi palautussopimusta vastaavia uusia tietoja.
@@ -71,7 +71,7 @@ Ostohyvityslasku poistetaan ja korvataan uudella kirjattujen ostohyvityslaskujen
 
 ## <a name="to-create-a-purchase-credit-memo-by-copying-a-posted-purchase-invoice"></a>Uuden ostohyvityslaskun luominen kopioimalla kirjattu ostolaskun
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Ostohyvityslaskut** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostohyvityslaskut** ja valitse sitten vastaava linkki.
 2. Avaa uusi tyhjä ostohyvityslasku valitsemalla **Uusi**-toiminto.
 3. Syötä **Toimittaja**-kenttään nykyisen toimittajan nimi.
 4. Valitse **Kopioi asiakirjasta** -toiminto.
@@ -83,7 +83,7 @@ Ostohyvityslasku poistetaan ja korvataan uudella kirjattujen ostohyvityslaskujen
 
 ## <a name="to-create-a-purchase-return-order-based-on-one-or-more-posted-purchase-documents"></a>Ostopalautustilauksen luominen vähintään yhden kirjatun ostoasiakirjan perusteella
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Ostopalautustilaukset** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostopalautustilaukset** ja valitse sitten vastaava linkki.  
 2. Valitse **Uusi**-toiminto.  
 3. Täytä **Yleiset**-pikavälilehdessä tarvittavat kentät.
 4. Täytä **Rivit**-pikavälilehdessä rivit manuaalisesti. Jos kopioit tiedot muista asiakirjoista, rivit täytetään automaattisesti:
@@ -146,7 +146,7 @@ Jos vastaanotat toimittajaltasi nimikkeitä, jotka eivät ole sellaisia kuin hal
 
 Tämän alennetun ostokustannuksen voi kirjata nimikekuluna hyvityslaskuun tai palautustilaukseen sekä linkittää kirjattuun vastaanottoon. Seuraavassa se käsitellään ostopalautustilauksen osalta, mutta samat vaiheet koskevat myös ostohyvityslaskua.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Ostohyvityslaskut** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostohyvityslaskut** ja valitse sitten vastaava linkki.
 2. Avaa uusi tyhjä ostohyvityslasku valitsemalla **Uusi**-toiminto.  
 3. Täytä hyvityslaskun otsikko sen toimittajan tiedoilla, joka on lähettänyt ostoalennuksen.  
 4. Valitse **Rivit**-pikavälilehden **Tyyppi**-kentässä **Kulu (nimike)**.  
@@ -172,7 +172,7 @@ Kun palautustilaukset yhdistetään hyvityslaskuun ja kirjataan, laskutetuista r
 > [!NOTE]  
 > Oletetaan esimerkiksi, että toimittajalla on useita toimitetuiksi kirjattuja ostopalautustilauksia.     
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Ostohyvityslaskut** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostohyvityslaskut** ja valitse sitten vastaava linkki.  
 2. Valitse **Uusi**-toiminto.  
 3. Täytä **Yleiset**-pikavälilehdessä tarvittavat kentät.  
 4. Valitse **Hae palautustoimitusrivit** -toiminto.  
@@ -183,7 +183,7 @@ Kun palautustilaukset yhdistetään hyvityslaskuun ja kirjataan, laskutetuista r
 
 ### <a name="to-remove-open-purchase-return-orders-after-combined-return-shipment-posting"></a>Poista avoin ostotilaus yhdistetyn palautustoimituksen kirjauksen jälkeen  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Poista laskutetut ostopalautustilaukset** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poista laskutetut ostopalautustilaukset** ja valitse sitten vastaava linkki.  
 2. Täytä tarvittavat kentät ja valitse sitten **OK**-painike.  
 3. Voit poistaa yksittäiset ostopalautustilaukset myös manuaalisesti.
 

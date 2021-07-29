@@ -1,6 +1,6 @@
 ---
-title: Useiden asiakirjojen kirjaaminen samanaikaisesti | Microsoft Docs
-description: Sen sijaan että yksittäisiä asiakirjoja yksi kerrallaan, voit valita luettelosta useita kirjaamattomia asiakirjoja eräkirjausta varten. Tämä kirjaus voidaan tehdä heti tai se voidaan aikatauluttaa tapahtumaan esimerkiksi päivän päätteeksi.
+title: Useiden asiakirjojen kirjaaminen samanaikaisesti
+description: Sen sijaan että yksittäisiä asiakirjoja yksi kerrallaan, voit valita luettelosta useita kirjaamattomia asiakirjoja välitöntä tai ajoitettua eräkirjausta varten.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: d26b98bac791bca2dc910f010c135fe187d6abff
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 33e21834dc1417f5177b167e911e002ca56f648c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773628"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446045"
 ---
 # <a name="post-multiple-documents-at-the-same-time"></a>Useiden asiakirjojen kirjaaminen samanaikaisesti
 
@@ -25,7 +25,7 @@ Sen sijaan että yksittäisiä asiakirjoja yksi kerrallaan, voit valita luettelo
 
 Useita ostotilauksia voi kirjata heti toimimalla seuraavasti. Vaiheet ovat samanlaiset kaikissa osto- ja myyntiasiakirjoissa.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Ostotilaukset** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostotilaukset** ja valitse sitten vastaava linkki.
 2. Siirry valitsemaan kaikki kirjattavat tilaukset **Ostotilaukset**-sivulla:
 3. Valitse **Nro**-kenttään kolme allekkain olevaa pistettä. Pikavalikko avautuu, ja voit valita **Valitse lisää** -toiminnon.
 4. Valitse kaikkien samaan aikaan kirjattavien tilausrivien valintaruudut.
@@ -36,7 +36,7 @@ Useita ostotilauksia voi kirjata heti toimimalla seuraavasti. Vaiheet ovat saman
 
 Ostotilauksia voi eräkirjata toimimalla seuraavasti. Vaiheet ovat samat kaikissa osto- ja myyntiasiakirjoissa, joissa **Eräkirjaus**-toiminto on käytettävissä.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostotilaukset** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostotilaukset** ja valitse sitten vastaava linkki.  
 2. Siirry valitsemaan kaikki kirjattavat tilaukset **Ostotilaukset**-sivulla:
 3. Valitse **Nro**-kenttään kolme allekkain olevaa pistettä. Pikavalikko avautuu, ja voit valita **Valitse lisää** -toiminnon.
 4. Valitse kaikkien samaan aikaan kirjattavien tilausrivien valintaruudut.
@@ -53,7 +53,7 @@ Työjonot ovat tehokas työkalu taustalla suoritettavien liiketoimintaprosessien
 
 Seuraavaksi käsitellään myyntitilausten taustakirjausta. Ostoa koskevat vaiheet ovat samanlaisia.  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Myyntien ja myyntisaamisten asetukset** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntien ja myyntisaamisten asetukset** ja valitse sitten vastaava linkki.
 2. Valitse **Myyntien ja myyntisaamisten asetukset** -sivulla **Kirjaa työjonolla** -valintaruutu.
 3. Valitse **Työjonokategorian koodi** -kenttä ja määritä sitten **MKIRJAUS** -koodi.
 
@@ -86,7 +86,7 @@ Vaihtoehtoisesti voit lykätä kirjaukset organisaatiolle parhaiten sopivaan aja
 
 Seuraavaksi selitetään, miten **Eräkirjaa myyntitilaukset** -raportti määritetään kirjaamaan myyntitilaukset automaattisesti arkipäivisin kello 16.  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Työjonotapahtumat** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Työjonon tapahtumat** ja valitse sitten vastaava linkki.  
 2. Valitse **Uusi**-toiminto.  
 3. Valitse **Suoritettavan objektin tyyppi** -kentässä **Raportti**.  
 4. Valitse **Suoritettavan objektin tunnus** -kentässä 296, **Eräkirjaa myyntitilaukset**.

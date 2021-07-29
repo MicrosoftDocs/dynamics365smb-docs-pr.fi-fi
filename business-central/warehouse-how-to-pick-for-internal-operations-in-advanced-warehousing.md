@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ea056bf4255cf557c711113854821f9dece17cad
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5ef90e4c99a567e6abe18f06b8a9be29365323bb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771033"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445770"
 ---
 # <a name="pick-for-production-or-assembly-in-advanced-warehouse-configurations"></a>Tuotanto- tai kokoonpanopoiminta laajennetuissa varastointimäärityksissä
 Jos sijainti on määritetty laajennetuissa varastomäärityksissä käyttämään sekä poimintaa että toimitusta, tuotannon ja kokoonpanon toimintojen komponentteja voi poimia **F.varastoinnin poiminta** -sivulla.  
@@ -40,7 +40,7 @@ Luodaksesi poimintapyynnöt sekä veto- että työntötilanteille, kyseiset läh
 |Kokoonpanotilaus|Muuta tilaksi Vapautettu.|  
 
 ## <a name="to-pick-components-using-the-pick-worksheet"></a>Komponenttien poiminta poimintatyökirjoista  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Poimintatyökirja** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poimintatyökirja** ja valitse sitten vastaava linkki.  
 2.  Valitse ensin **Hae f. varastoinnin asiakirjat** -toiminto ja sitten komponenttirivit vapautetusta tuotantotilauksesta.  
 3.  Käy rivit läpi, järjestele ne tehokkaaksi poimintakierrokseksi ja yhdistele niitä tarpeen mukaan muiden työkirjarivien kanssa siten, että työntekijän aika käytetään mahdollisimman tehokkaasti.  
 4.  Valitse **Luo poiminta** -toiminto.  
@@ -52,7 +52,7 @@ Jos sisäiselle toimintoalueelle, kuten tuotantokerrokselle, määritetään ole
 ## <a name="filling-the-consumption-bin"></a>Kulutuksen varastopaikan täyttäminen
 Tämä työnkulkukaavio näyttää, miten tuotantotilauksen osarivien **Varastopaikkakoodi**-kenttä täytetään sijaintiasetusten mukaisesti.
 
-![Varastopaikkojen työnkulkukaavio](media/binflow.png "BinFlow")  
+![Varastopaikkojen työnkulkukaavio.](media/binflow.png "BinFlow")  
 
 ## <a name="see-also"></a>Katso myös
 [Varastoinninhallinta](warehouse-manage-warehouse.md)  

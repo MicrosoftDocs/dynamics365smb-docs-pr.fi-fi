@@ -1,21 +1,21 @@
 ---
-title: Maksujen kohdistaminen liittyviin asiakirjoihin ja sekä maksujen kirjaaminen | Microsoft Docs
-description: Kuvaa, miten kirjataan maksut toimittajille tai hyvitykset asiakkaille.
+title: Maksujen ja hyvitysten tallentaminen maksupäiväkirjaan
+description: Tietoja siitä, miten kirjaat maksut toimittajille tai hyvitykset asiakkaille Maksupäiväkirja-sivulla.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: payment journal, print check, vendor payment, customer refund, creditor, debt, balance due, AP
-ms.date: 04/01/2021
+ms.search.keywords: payment journal, print check, vendor payment, customer refund, refund check, creditor, debt, balance due, AP
+ms.date: 07/09/2021
 ms.author: edupont
-ms.openlocfilehash: 1316bb7c5f1385ffef2ebe330d02e5a352e8561a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 61a47f68de6466c177ab8683f4167a77ec04dc3f
+ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782061"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6543195"
 ---
 # <a name="record-payments-and-refunds-in-the-payment-journal"></a>Maksujen ja hyvitysten tallentaminen maksupäiväkirjaan
 
@@ -37,16 +37,31 @@ Maksupäiväkirja on yleinen päiväkirja, joka on tarkoitettu erityisesti maksu
 
 ## <a name="to-make-payments-in-the-payment-journal"></a>Maksujen tekeminen maksupäiväkirjaan
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maksupäiväkirjat** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maksupäiväkirjat** ja valitse sitten vastaava linkki.
 2. Avaa päiväkirjaerä, joka on varattu maksuja varten.
-3. Jos tiedät, kenelle olet maksamassa maksun tai hyvityksen, täytä kentät manuaalisesti. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Jos tiedät, kenelle olet maksamassa, täytä kentät manuaalisesti. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Voit myös kohdistaa maksun liittyvään laskuun tai hyvityslaskuun valitsemalla **Kohdistetaan asiakirjaan nro** -kentän **Kohdista toimittajatapahtumat** -sivulla, valitsemalla asianmukaisen laskun tai hyvityslaskun ja valitsemalla sitten **OK**-painikkeen.
 
     Monet kentät, kuten **Asiakirjan summa** ja **Eräpäivä**, täytetään nyt valitun asiakirjan tiedoilla.
 5. Vaihtoehtoisesti voit käyttää **Ehdota toimittajamaksuja** -toimintoa. Myös kaikki kohdistustiedot ja summat syötetään päiväkirjariveille. Lisätietoja on kohdassa [Toimittajamaksujen ehdottaminen](payables-how-suggest-vendor-payments.md).
 
     Sanomat opastavat sinua täyttämään pakolliset kentät oikein.
-6.  Kun kaikki maksupäiväkirjan rivit ovat valmiit, valitse **Kirjaa**-toiminto.
+6. Kun kaikki maksupäiväkirjan rivit ovat valmiit, valitse **Kirjaa**-toiminto.
+
+
+## <a name="to-issue-a-refund-check"></a>Palautussekin julkaiseminen
+
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maksupäiväkirjat** ja valitse sitten liittyvä linkki.
+2. Valitse **Asiakirjatyyppi**-kentässä **Hyvitys**.  
+3. Käytä **Ulkoisen asiakirjan nro** -kentässä tätä viitteenä palautussekille (esimerkiksi palautustilauksen numero).  
+4. Valitse **Tilityyppi**-kentässä **Asiakas**.  
+5. Valitse **Tilinumero** -kentässä asiakkaan tilinumero, jolle palautussekki julkaistaan.  
+6. Syötä hyvitettävä summa **Summa**-kenttään.  
+7. Valitse **Vastatilin tyyppi** -kentässä **Pankkitili**.  
+8. Valitse **Vastatilin nro** -kentässä pankkitili, jolta sekki tulee.  
+9. Valitse **Kohdistetaan asiakirjaan nro** -kentässä hyvitystä vaativat asiakirjat.  
+10. Kun kaikki maksupäiväkirjan rivit on täytetty, valitse **Kirjaa/tulosta**-toiminto, valitse **Kirjaa ja tulosta** -toiminto ja valitse sitten **Kyllä**.  
+  
 
 ## <a name="see-also"></a>Katso myös
 [Sekkimaksujen suorittaminen](payables-how-work-checks.md)  

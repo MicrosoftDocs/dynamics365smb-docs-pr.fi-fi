@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: acc1bf44ddf3886d57729fb28ba81c6e7580ce40
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1757f1c02bb6623f59996d372f544f224b94237e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775177"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445724"
 ---
 # <a name="manage-work-across-multiple-companies-in-the-company-hub"></a>Työnhallinta useiden yritysten välillä yritystoiminnossa
 
@@ -30,7 +30,7 @@ Jos käytät **Yritystoiminto**-roolia, kotisivusi näyttää luettelon yrityksi
 > [!TIP]
 > Jos haluat käyttää tiettyä yritystä [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelman yrityksessä, valitse yrityksen nimi tai valitse **Siirry yritykseen** -valikkovaihtoehto. Olet kirjautunut sisään automaattisesti uudessa selainvälilehdessä.
 
-:::image type="content" source="media/company-hub-company-list-actions.png" alt-text="Yritystoiminnon luettelossa olevan yrityksen toiminnot":::
+:::image type="content" source="media/company-hub-company-list-actions.png" alt-text="Yritystoiminnon luettelossa olevan yrityksen toiminnot.":::
 
 Voit lisätä uusia yrityksiä, esimerkiksi silloin, kun saat uuden asiakkaan, tai kun yritys lisää uuden tytäryrityksen. Lisätietoja on kohdassa [Yritysten lisääminen yritystoimintoon](company-hub-add-company.md).  
 

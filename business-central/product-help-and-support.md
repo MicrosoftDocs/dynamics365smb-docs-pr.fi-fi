@@ -1,18 +1,18 @@
 ---
-title: Ohje ja tuki
+title: Ohje- ja tukiresurssit
 description: Tuotteen ohjetta, opastusta, vianetsintää koskevia vihjeitä ja tukea sekä tietoja Business Centralin teknisestä tuesta.
 author: edupont04
 ms.reviewer: na
 ms.topic: conceptual
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 04/09/2021
-ms.openlocfilehash: 8f3a5d39cfd9e28233055d902852151581e53e5e
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.date: 07/09/2021
+ms.openlocfilehash: 44b354818d75de8e36abccca0de5b5189d2d4268
+ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115409"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6543068"
 ---
 # <a name="resources-for-help-and-support"></a>Ohje- ja tukiresurssit
 
@@ -71,11 +71,20 @@ Varmista, että käyt läpi lähetettyjen ehdotusten luettelon. On todennäköis
 
 **Vianetsintä**-osassa on teknisiä tietoja, joiden avulla järjestelmänvalvoja tai [!INCLUDE[prod_short](includes/prod_short.md)] -kumppani voi auttaa käyttäjiä selviämään ongelmista. Nämä tiedot sisältävät myös viimeisen virhesanomat tiedot, [!INCLUDE[prod_short](includes/prod_short.md)]in nykyisen version ja linkin **Sivun tarkastus** -sivulle. Lisätietoja on kohdassa [Sivujen tarkastaminen Business Centralissa](across-inspect-page.md).  
 
-Sisäinen järjestelmänvalvoja voi käyttää hallintakeskusta, jossa voit jatkaa vian etsintää. Voit tarkastella telemetriaa sekä hallita ympäristöjä ja käyttäjäistuntoja. Lisätietoja on hallintasisällön kohdissa [Teknisten tietojen etsiminen](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#finding-technical-information) ja [Ympäristöjen hallinta](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments).  
+Lisätietojen lokiinkirjauksen ottaminen käyttöön **Ilmoita ongelmasta** -osassa auttaa sinua tai tukikumppaniasi vianmäärityksessä. Tämän jälkeen voit analysoida lisätelemetrian esimerkiksi hallintakeskuksessa tai Application Insightsissa.  
+
+Sisäinen järjestelmänvalvoja voi käyttää hallintakeskusta, jossa voit jatkaa vian etsintää. Voit tarkastella telemetriaa sekä hallita ympäristöjä ja käyttäjäistuntoja. Seuraavissa hallintasisällön artikkeleissa on lisätietoja:
+
+- [Teknisten tietojen etsiminen](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#finding-technical-information)  
+- [Ympäristöjen hallinta](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)  
+- [Telemetrian seuranta ja analysointi](/dynamics365/business-central/dev-itpro/administration/telemetry-overview)  
+- [Ota käyttöön telemetrian lähettäminen Application Insights iin](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights)  
 
 ## <a name="report-a-problem"></a>Ongelman ilmoittaminen
 
-[!INCLUDE[prod_short](includes/prod_short.md)] -jälleenmyyntikumppani antaa teknistä tukea. Tämä osa helpottaa yhteyden ottamista jälleenmyyntikumppaniin, jos tämä on antanut tuen yhteystiedot. Jos [!INCLUDE[prod_short](includes/prod_short.md)] -kumppani, ei pysty ratkaisemaan ongelmaan, he voivat tehdä tukipyynnön Microsoftille. Lisätietoja on ohjeaiheessa [Tukiongelmien eskalointi Microsoftille](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#escalating-support-issues-to-microsoft) hallintasisällössä.  
+[!INCLUDE[prod_short](includes/prod_short.md)] -jälleenmyyntikumppani antaa teknistä tukea. Tämä osa helpottaa yhteyden ottamista jälleenmyyntikumppaniin, jos tämä on antanut tuen yhteystiedot. Jos [!INCLUDE[prod_short](includes/prod_short.md)] -kumppani, ei pysty ratkaisemaan ongelmaan, he voivat tehdä tukipyynnön Microsoftille.  
+
+Lisätietoja on ohjeaiheessa [Tukiongelmien eskalointi Microsoftille](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#escalating-support-issues-to-microsoft) hallintasisällössä.  
 
 > [!NOTE]
 > Tämä osa on käytettävissä vain, jos sinulla on maksullinen [!INCLUDE[prod_short](includes/prod_short.md)] -tilaus. Jos olet rekisteröitynyt kokeiluversioon etkä ole vielä ostanut [!INCLUDE[prod_short](includes/prod_short.md)]ia, sinulla ei ole jälleenmyyntikumppania etkä voi ottaa yhteyttä Microsoftin tukeen. Voit etsiä [!INCLUDE[prod_short](includes/prod_short.md)] -kumppanin [Ratkaisutoimittajan haku](https://go.microsoft.com/fwlink/?linkid=2038145) -sivulla. Lisätietoja on kohdassa [Miten löydän jälleenmyyjäkumppanin?](/dynamics365/business-central/across-faq#findpartner).  

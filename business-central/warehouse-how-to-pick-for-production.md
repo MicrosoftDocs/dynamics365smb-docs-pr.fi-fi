@@ -1,6 +1,6 @@
 ---
-title: Tuotanto- tai kokoonpanopoiminta perusvarastointimäärityksissä
-description: Kun fyysisen varastoinnin sijainnissa on pakollinen poiminnan käsittely mutta ei pakollista toimituksen käsittelyä, voit järjestää ja kirjata komponenttien poiminnan **Varaston poiminta** -sivun avulla.
+title: Poiminta tuotantoon tai kokoonpanoon fyysisen varaston perusmäärityksissä
+description: Kun fyysisen varaston sijainnissa on pakollinen poiminnan käsittely mutta ei pakollista toimituksen käsittelyä, voit järjestää ja kirjata komponenttien poiminnan Varaston poiminta -sivun avulla.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 005532799378248f67ff21b8e50955342ff1c24a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c3827bb8ab272b38972c17d79933ce0aa187e32d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782607"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445795"
 ---
 # <a name="pick-for-production-or-assembly-in-basic-warehouse-configurations"></a>Tuotanto- tai kokoonpanopoiminta perusvarastointimäärityksissä
 Tuotantoon tai koonpanotilauksiin poimittujen komponenttien hyllytystapa määräytyy sen mukaan, miten fyysinen varasto on määritetty sijaintina. Lisätietoja on kohdassa [Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md).
@@ -43,7 +43,7 @@ Järjestelmän ennakkoehto komponenttien poiminnalle tai siirtämiselle lähdeas
 ## <a name="to-pick-production-components-in-basic-warehouse-configurations-using-inventory-pick"></a>Tuotantokomponenttien poiminta fyysisen varaston perusmäärityksissä Varaston poiminta -toiminnolla
 Fyysisen varaston perusmäärityksissä, joissa sijainti on määritetty käyttämään vain poimintaa, komponentteja voi poimia tuotantotoimintoihin **Varaston poiminta** -sivulla. Lisätietoja on kohdassa [Nimikkeiden poiminta varastopoiminnalla](warehouse-how-to-pick-items-with-inventory-picks.md).
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Varaston poiminnat** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varaston poiminnat** ja valitse sitten vastaava linkki.  
 2.  Voit tarkastella tuotantotilauksen komponentteja valitsemalla ensin **Hae lähdedokumentit** -toiminnon ja sitten vapautetun tuotantotilauksen.  
 3.  Tee poiminta ja kirjaa sitten varsinaiset poimintatiedot **Käsiteltävä määrä** -kenttään.  
 4.  Kun rivit ovat valmiit kirjaamista varten, valitse **Kirjaa**-toiminto. Kirjaus luo tarvittavat fyysisen varaston tapahtumat ja kirjaa nimikkeiden kulutuksen.  
@@ -81,7 +81,7 @@ Yhdistelmätilanteissa, joissa osa määrästä on koottava ensin ja toinen poim
 ## <a name="filling-the-consumption-bin"></a>Kulutuksen varastopaikan täyttäminen
 Tämä työnkulkukaavio näyttää, miten tuotantotilauksen osarivien **Varastopaikkakoodi**-kenttä täytetään sijaintiasetusten mukaisesti.
 
-![Varastopaikkojen työnkulkukaavio](media/binflow.png "BinFlow")
+![Varastopaikkojen työnkulkukaavio.](media/binflow.png "BinFlow")
 
 ## <a name="see-also"></a>Katso myös
 [Varastoinninhallinta](warehouse-manage-warehouse.md)  

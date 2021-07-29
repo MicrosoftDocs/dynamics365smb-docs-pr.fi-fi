@@ -1,6 +1,6 @@
 ---
-title: Peruskalenterien määrittäminen | Microsoft Docs
-description: Peruskalenterin voi määritellä yrityksellesi ja sen liiketoimintakumppaneille, esimerkiksi asiakkaille, toimittajille tai sijainneille. Toimituksen ja vastaanoton päivämäärät lasketaan tuleville myyntitilaus-, ostotilaus-, siirtotilaus- ja tuotantotilausriveille kalenteriin määritettyjen työpäivien mukaisesti.
+title: Peruskalenterien määrittäminen
+description: Voit määrittää yrityksellesi ja sen liikekumppaneille peruskalenterin toimitus- ja vastaanottopäivämäärien laskemista varten määritettyjen työpäivien mukaan.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 87b68711db42ec5240382cc4c9d052fb80fc2a31
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5c82ce068f22e9cf458fdedf84504c880838c648
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775870"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446488"
 ---
 # <a name="set-up-base-calendars"></a>Peruskalenterien määrittäminen
-Peruskalenterin voi määrittää yritykselle ja sen liikekumppaneille, esimerkiksi asiakkaille, toimittajille tai sijainneille. Toimituksen ja vastaanoton päivämäärät lasketaan tuleville myyntitilaus-, ostotilaus-, siirtotilaus- ja tuotantotilausriveille kalenteriin määritettyjen työpäivien mukaisesti. Päätehtävä uuden peruskalenterin määrittämisessä on käytettävien, muiden kuin työpäivien eritteleminen ja määritteleminen.  
+Peruskalenterin voi määritellä yrityksellesi ja sen liiketoimintakumppaneille, esimerkiksi asiakkaille, toimittajille tai sijainneille. Toimituksen ja vastaanoton päivämäärät lasketaan tuleville myyntitilaus-, ostotilaus-, siirtotilaus- ja tuotantotilausriveille kalenteriin määritettyjen työpäivien mukaisesti. Päätehtävä uuden peruskalenterin määrittämisessä on käytettävien, muiden kuin työpäivien eritteleminen ja määritteleminen.  
 
 ## <a name="to-set-up-a-base-calendar"></a>Peruskalenterin määrittäminen  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Peruskalenteri** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Peruskalenteri** ja valitse sitten vastaava linkki.  
 2.  Valitse **Uusi**-toiminto.  
 3.  Täytä **Koodi**-kenttä.  
 4. Valitse **Ylläpidä peruskalenterin muutokset** -toiminto.
@@ -64,7 +64,7 @@ Kun esimerkiksi peruskalenterissa on tavallisesti luetteloitu kaikki lauantait e
 
 Seuraavassa menettelyssä käytetään esimerkkinä sijainnin tapausta. Huomaa, että tässä vaiheessa sijainnille on jo määritelty peruskalenteri.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Sijainnit** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sijainnit** ja valitse sitten vastaava linkki.
 2. Avaa päivitettävä sijainti ja valitse sitten **Muokattu kalenteri** -kenttä. Huomaa, että kalenteri on valittava **Peruskalenterin koodi** -kentässä.
 3. Valitse avautuvassa **Räätälöidyt kalenteritapahtumat** -sivulla **Ylläpidä räätälöityjä kalenterimuutoksia** -toimintoja.
 4. Lisää räätälöityjen kalenteritapahtumien rivit **Räätälöity kalenterimuutos** -ikkunassa.
@@ -100,7 +100,7 @@ Peruskalenterit määritetään omalle yritykselle, asiakkaille, toimittajille, 
 -   **Sijainti**-kortissa peruskalenteri määritetään **Fyysinen varasto** -pikavälilehdessä.  
 -   **Kuljetusliikkeet**-sivulla oleva peruskalenteri määritetään **Kuljetusliikkeen palvelut** -sivulla.  
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Asiakkaat** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asiakkaat** ja valitse sitten vastaava linkki.  
 2.  Avaa **Asiakkaan** kortti, jolle haluat määrittää peruskalenterin.  
 3.  Valitse **Toimitus**-pikavälilehden **Peruskalenterin koodi** -kentässä peruskalenteri, jonka haluat määrittää.  
 

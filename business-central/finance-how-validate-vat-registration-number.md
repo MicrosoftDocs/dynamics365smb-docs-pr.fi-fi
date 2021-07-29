@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: andregu
-ms.openlocfilehash: 9e7c60e884ad65e209a2513d63c9434a90d9b449
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 093fec7b7d456f4145e8450d06f17f1aa78ad4c1
+ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770289"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6543220"
 ---
 # <a name="validate-vat-registration-numbers"></a>ALV-rekisterinumeroiden vahvistaminen
 
@@ -43,8 +43,6 @@ ALV-tietojen vaihtojärjestelmästä (VIES-palvelusta) on hyvä muistaa pari asi
 > Sinun vastuullasi on tarkistaa, että tiedot ovat voimassa. Toisinaan VIES-ohjelman ALV-numeron vahvistuspalvelu palauttaa virheitä sisältävät tiedot. Jos vahvistus epäonnistuu, tarkista [sivuston](https://ec.europa.eu/taxation_customs/vies/) ALV-rekisterinumerot, tulosta tulos tai tallenna se jaettuun sijaintiin ja lisää sitten linkki asiakkaan, toimittajan tai kontaktin tietueeseen. Lue lisätietoja kohteesta [Korttien ja asiakirjojen liitteiden, linkkien ja muistioiden hallinta](ui-how-add-link-to-record.md)
 
 ## <a name="validation-templates"></a>Tarkistusmallit
-
-[!INCLUDE [2020rw_online_only](includes/2020rw_online_only.md)]
 
 Voit käyttää VIES-palvelua myös muiden yritystietojen, kuten osoitteen, sekä ALV-rekisterinumeron tarkastamiseen. **ALV-rekisterinumeron tarkistusmallit** -sivulla voit luoda merkinnän kullekin maalle/alueelle, jolle haluat lisätarkistuksen, ja määrittää sitten tiedot, jotka tarkistetaan automaattisesti.  
 

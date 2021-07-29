@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 06/01/2021
 ms.author: andreipa
-ms.openlocfilehash: 5fc64db4120b80203f99742ed3ed834b23370c47
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 3f818e556b2ebe3f50189b0057f1302a5598d904
+ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216350"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6543168"
 ---
 # <a name="purchase-reports-and-analytics-in-business-central"></a>Business Centralin ostoraportit ja analytiikka
 
@@ -24,8 +24,7 @@ Seuraavassa taulukossa kuvataan joitakin ostoraportoinnin keskeisiä raportteja.
 
 |Raportti |Objektin tunnus|Kuvaus  |
 |---------|---------|---------|
-|**Ostotilastot**|312|Näyttää kunkin toimittajan ostotilastot. Tiedot sisältävät viisi jaksoa ja alkavat määrittämästäsi päivämäärästä.<br>
-Raportti sisältää kaikki ostot, maksut, viivästyskulut ja alennustiedot, mukaan lukien toteutetut ja menetetyt maksualennukset. Tilastot lasketaan ennen syötettyä päivämäärää tapahtuneista ostoista, kolmelta kuukauden mittaiselta väliltä syötetystä päivämäärästä sekä ajalta, joka sisältää kaikki kolmannen kuukausivälin jälkeen tehdyt ostot.|
+|**Ostotilastot**|312|[!INCLUDE [reports-purchase-statistics](includes/reports-purchase-statistics.md)]|
 |**10 päätoimittajaa**|311|Tässä raportissa näkyy tietoja toimittajilta tehdyistä ostoista valitulta ajanjaksolta. Voit valita raporttiin sisällytettävien toimittajien lukumäärän.<br>Toimittajat lajitellaan summan mukaan, ja voit valita, lajitellaanko ne ostosummittain vai saldoittain. Raportti antaa katsauksen toimittajista, joilta ostat eniten tai joille olet velkaa eniten.|
 |**Toimittajakoht. nimikeluettelo** tai **Nimike-/toimittajaluettelo**|320 tai 720|Näyttää luettelon valittujen nimikkeiden toimittajista tai valittujen toimittajien nimikkeistä. Raportissa on jokaisen nimikkeen ja toimittajan osalta välitön yksikkökustannus, toimitusajan laskenta ja toimittajan nimikenumero.<br>Yhdysvalloissa, Kanadassa ja Meksikossa tämä raportti ei ole käytettävissä. Käytä sen sijaan **Nimike/toimittaja luettelo** (10164) -raporttia.|
 |**Toimittaja-/nimikeostot**|313|Tässä raportissa näkyy luettelo nimiketapahtumista kunkin toimittajan osalta valitulta ajanjaksolta. Raportissa on tietoja laskutetusta määrästä, summasta ja mahdollisista alennuksista. Raporttia käytetään esimerkiksi analysoimaan yrityksen nimikeostoja ja näyttämään, onko alennuksilla ja nimikeostoilla yhteyttä.|

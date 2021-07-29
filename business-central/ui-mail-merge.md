@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: document, mail, merge, Word, template, email
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: d29e29eca7dfc24ded51aed994ac7003fb4d30ab
-ms.sourcegitcommit: 6bce51954f17b80491e180f25d67ff18b1618a88
+ms.openlocfilehash: 84b6a9fa74cea99f8b939edcf0cd883e39eb6937
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "6110952"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445970"
 ---
 # <a name="using-word-templates-for-bulk-communication"></a>Word-mallien käyttö joukkoviestinnässä
 Microsoft Word -mallit helpottavat entiteettien, kuten asiakkaiden ja toimittajien, kanssa tapahtuvaa joukkoviestintää. Voit luoda esimerkiksi esitteitä, joissa kerrotaan asiakkaille myyntikampanjoista, kirjeitä, joissa toimittajille kerrotaan uudesta ostokäytännöstä, tai kutsuja, joilla houkutellaan yhteyshenkilöitä tulevaan tapahtumaan.
@@ -38,7 +38,7 @@ Kun mallia määritetään Wordissa, yhdistämiskentät voidaan lisätä **Posti
 Kun Word-malli on valmis, asiakirjat voidaan luoda valitsemalla **Word-mallit**-sivulla **Käytä**. Voit luoda joko yhden asiakirjan, jossa on osa kullekin entiteetille, tai jakaa toiminnon luomaan uuden asiakirjan kullekin entiteetille.
 
 ## <a name="to-create-a-word-template"></a>Word-mallin luominen
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, kirjoita **Word-mallit** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Word-mallit** ja valitse sitten vastaava linkki.
 2. Noudata asetusten ohjatun määritysoppaan ohjeita. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="see-also"></a>Katso myös

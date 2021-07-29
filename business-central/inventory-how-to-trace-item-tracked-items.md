@@ -1,6 +1,6 @@
 ---
 title: Nimikeseurannan nimikkeiden jäljittäminen
-description: Näet, missä nimikeseurannassa olevaa nimikettä on käytetty, mukaan lukien kuinka ja missö se oli vastaanotettu tai tuotettu, siirretty, myyty, kulutettu tai palautettu. Voit myös etsiä kaikki nykyiset esiintymät tietystä sarja- tai eränumerosta tietokannassa. Voit tehdä tämän käyttämällä nimikkeen jäljitystä ja tapahtumien etsintätoimintoja.
+description: Näet, missä nimikeseurannassa olevaa nimikettä on käytetty, mukaan lukien kuinka ja missä se oli vastaanotettu, tuotettu, tai palautettu, käyttäen nimikkeen jäljitys- ja etsi merkintöjä -ominaisuuksia.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: bbfe0237beb58f22d3be7bc388d7b2726f05d4ba
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: a511cc2496d32f2feee7c684d073395db2ef8c5e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214751"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445624"
 ---
 # <a name="trace-item-tracked-items"></a>Nimikeseurannan nimikkeiden jäljittäminen
 Näet, missä nimikeseurannassa olevaa nimikettä on käytetty, mukaan lukien kuinka ja missä se oli vastaanotettu tai tuotettu, siirretty, myyty, kulutettu tai palautettu. Voit myös etsiä kaikki nykyiset esiintymät tietystä sarja- tai eränumerosta tietokannassa. Voit tehdä tämän käyttämällä nimikkeen jäljitystä ja [Etsi tapahtumat](ui-find-entries.md) -toimintoja.  
@@ -30,7 +30,7 @@ Nämä toiminnot ovat erityisen hyödyllisiä laaduntarkkailussa, kun haluat tie
 
 ## <a name="to-trace-item-tracked-items"></a>Nimikeseurannan nimikkeiden jäljittäminen  
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Nimikkeen jäljitys** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeen jäljitys** ja valitse sitten vastaava linkki.  
 2.  Anna sivun yläosan suodatinkenttiin tietyt nimikenumerot tai niiden nimikenumeroiden suodatin, joita haluat jäljittää.  
 3.  Valitse **Näytä komponentit** -kentässä, haluatko tarkastaa myös sen, mistä nimikkeiden komponentit ovat lähtöisin. Vaihtoehtosi tässä kentässä ovat seuraavat.  
 
@@ -59,7 +59,7 @@ Nämä toiminnot ovat erityisen hyödyllisiä laaduntarkkailussa, kun haluat tie
 
 ## <a name="to-find-item-tracked-items-with-find-entries"></a>Voit etsiä nimikeseurannassa olevia nimikkeitä Etsi tapahtumat -toiminnolla  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Etsi tapahtumat** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Etsi merkintöjä** ja valitse sitten vastaava linkki.  
 2. Valitse **Toiminnot** > **Etsi perusteella** > **Nimike viittauksen mukaan**.
 3. Anna **Sarjanumero**- ja **Eränro**-kenttiin nimikeseurantanumerot, joita haluat seurata.  
 4. Etsi kaikki sarja- tai eränumeron ilmentymät tietokannasta valitsemalla **Etsi**-toiminto.  

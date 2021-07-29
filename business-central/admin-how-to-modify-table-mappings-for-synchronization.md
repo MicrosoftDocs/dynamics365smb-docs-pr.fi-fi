@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 9c11e4f5acb0055b42a2d172f9a7deba75edfb08
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 185d0a1c55830f6e4ed979154744076d457b5724
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779805"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446388"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>Synkronoitavien taulujen ja kenttien yhdistäminen
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -68,7 +68,7 @@ Kytkennät voidaan määrittää automaattisesti synkronoinnin töiden avulla ta
 Jos et halua synkronoida kaikkia tietyn [!INCLUDE[prod_short](includes/cds_long_md.md)] -taulukon tai [!INCLUDE[prod_short](includes/prod_short.md)] -taulukon rivejä, voit määrittää suodattimia rajoittamaan synkronoitavia tietoja. Suodattimet määritetään **Integrointitaulukon yhdistämismääritykset** -sivulla.  
 
 #### <a name="to-filter-records-or-rows-for-synchronization"></a>Synkronoitavien tietueiden tai rivien suodattaminen  
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Integrointitaulukon yhdistämismääritykset** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Integroinnin yhdistämistaulukot** ja valitse sitten liittyvä linkki.
 
 2.  Voit suodattaa [!INCLUDE[prod_short](includes/prod_short.md)]in tietueita määrittämällä **Taulukkosuodatus**-kentän.  
 
@@ -80,7 +80,7 @@ Oletusarvoisesti vain yhdistetyt [!INCLUDE[prod_short](includes/prod_short.md)]i
 Esimerkiksi MYYJÄT - Dynamics 365 Sales -synkronointityö käyttää taulukon yhdistämismääritystä MYYJÄT. Synkronointityö kopioi tiedot [!INCLUDE[prod_short](includes/cds_long_md.md)]in käyttäjistä [!INCLUDE[prod_short](includes/prod_short.md)]in myyjiin. Jos määrität yhdistämismääritykset luomaan uusia tietueita, jokaiselle [!INCLUDE[prod_short](includes/cds_long_md.md)]in käyttäjälle, jota ei vielä ole yhdistetty [!INCLUDE[prod_short](includes/prod_short.md)]in myyjään, luodaan uusi myyjärivi [!INCLUDE[prod_short](includes/prod_short.md)]issa.  
 
 #### <a name="to-create-new-records-during-synchronization"></a>Uusien tietueiden luominen synkronoinnin aikana  
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Integrointitaulukon yhdistämismääritykset** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Integroinnin yhdistämistaulukot** ja valitse sitten liittyvä linkki.
 
 2.  Poista luettelossa taulukon yhdistämismäärityksessä **Synkronoi vain yhdistetyt tietueet** -kentän arvo.  
 
@@ -96,7 +96,7 @@ Jos asennat oletussynkronointimäärityksen, kaksi määritysmallia luodaan usei
 -   **CDSACCOUNT** luo ja synkronoi uusia käyttäjätilejä [!INCLUDE[prod_short](includes/cds_long_md.md)]ssa [!INCLUDE[prod_short](includes/prod_short.md)] tilin perusteella.  
 
 #### <a name="to-specify-configuration-templates-on-a-table-mapping"></a>Määritysmallien määrittäminen taulukon yhdistämismäärityksessä  
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Integrointitaulukon yhdistämismääritykset** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Integroinnin yhdistämistaulukot** ja valitse sitten liittyvä linkki.
 
 2.  Valitse luettelossa taulukon yhdistämismääritystapahtuman **Taulukon määritysmallin koodi** -kentässä [!INCLUDE[prod_short](includes/prod_short.md)]in uusissa tietueissa käytettävä määritysmalli.  
 

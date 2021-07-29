@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: journals, recurring, accrual, renumber, bulk-post
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d452720f5fff046a994ff5df0b2ea7bb5a209236
-ms.sourcegitcommit: 652e4b0e1a09bff265014d9f8eb3b038ab0db79e
+ms.openlocfilehash: 349dd312ae709c29138555ba6e8554a4f5e18122
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "6087717"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445473"
 ---
 # <a name="working-with-general-journals"></a>Yleisten päiväkirjojen käyttäminen
 
@@ -152,7 +152,7 @@ Kun olet luonut päiväkirjan rivejä, joita todennäköisesti käytät myös va
 >   Vaikka seuraavassa puhutaan nimikepäiväkirjasta, samat tiedot koskevat myös yleistä päiväkirjaa.
 
 ### <a name="to-save-a-standard-journal"></a>Tallentaminen vakiopäiväkirjana
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Nimikepäiväkirjat** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikepäiväkirjat** ja valitse sitten vastaava linkki.
 2. Lisää koodi yhdelle tai usealle päiväkirjariville.
 3. Valitse ne päiväkirjan rivit, joita haluat käyttää uudelleen.
 4. Valitse **Tallenna vakiopäiväkirjana** -toiminto.
@@ -168,7 +168,7 @@ Kun olet tallentanut vakionimikepäiväkirjan, ohjelma siirtyy takaisin Nimikep�
 
 ### <a name="to-reuse-a-standard-journal"></a>Vakiopäiväkirjan käyttäminen uudelleen
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Nimikepäiväkirjat** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikepäiväkirjat** ja valitse sitten vastaava linkki.
 2. Valitse **Hae vakiopäiväkirjat** -toiminto.
 
     Näkyviin tulee Vakionimikepäiväkirjat-sivu, jossa on kaikkien luotujen vakionimikepäiväkirjojen koodit ja kuvaukset.
@@ -205,7 +205,7 @@ Kaikissa asiakirjan numeroinneissa täytyy ottaa huomioon niihin liittyvät kohd
 
 Seuraavat toimenpiteet perustuvat **Yleinen päiväkirja** -sivuun, mutta niitä sovelletaan kaikkiin muihin päiväkirjoihin, jotka perustuvat yleiseen päiväkirjaan, kuten **Maksupäiväkirja**-sivu.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Yleiset päiväkirjat** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Yleiset päiväkirjat** ja valitse sitten vastaava linkki.
 2. Kun olet valmis kirjaamaan päiväkirjan, valitse **Numeroi asiakirjanumerot uudelleen** -toiminto.
 
 **Asiakirjanumero**-kentän arvoja muutetaan tarvittaessa siten, että yksittäisten tai ryhmitettyjen päiväkirjojen rivien asiakirjanumerot ovat peräkkäisessä järjestyksessä. Voit kirjata päiväkirjan, kun asiakirjat on numeroitu uudelleen.

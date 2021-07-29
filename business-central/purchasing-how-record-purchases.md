@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: procurement
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3822566d239d6fda0cc314a3c9f20ac909943886
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: 74c984d1abdd78f4d8af1364b3c8d285297a1cdd
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115838"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445499"
 ---
 # <a name="record-purchases-with-purchase-invoices"></a>Ostojen kirjaaminen ostolaskujen avulla
 
@@ -49,7 +49,7 @@ Voit täyttää ostolaskun toimittajan kentät kahdella tavalla sen mukaan, onko
 
 Seuraavassa kerrotaan, miten ostolasku luodaan. Vaiheet ovat samankaltaisia ostotilaukselle. Tärkein ero on se, että ostotilauksilla on lisäkenttiä ja -toimintoja nimikkeiden fyysistä käsittelemistä varten.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Ostolaskut** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostolaskut** ja valitse sitten vastaava linkki.  
 2. Syötä **Toimittaja**-kenttään nykyisen toimittajan nimi.
 
     Muut **Ostolasku**-sivun kentät täytetään nyt valitun toimittajan vakiotiedoilla. Jos toimittajaa ei ole rekisteröity, toimi seuraavasti:

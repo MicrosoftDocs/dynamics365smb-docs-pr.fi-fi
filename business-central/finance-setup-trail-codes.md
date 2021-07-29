@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6c20c57f05d17b0b52fcc1d4c9b1234cf03c6e97
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fb3db7a2fc2c156debd36942ecc61d35d1e38f82
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773837"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446213"
 ---
 # <a name="setting-up-source-codes-and-reason-codes-for-audit-trails"></a>Kirjausketjujen lähdekoodien ja syykoodien määrittäminen
 
@@ -33,7 +33,7 @@ Kun kirjaat tai suoritat eräajon, ohjelma liittää tapahtumaan automaattisesti
 
 ### <a name="to-define-source-codes"></a>Lähdekoodien määrittely
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") -kuvake, anna **Lähdekoodin määrittely** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Etsi sivua tai raporttia.](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") -kuvake, syötä **Lähdekoodin määritys** ja valitse sitten vastaava linkki.  
 
 2. Määritä **lähdekoodin määrittely** -ikkunassa kunkin kirjaustyypin ja eräajon osalta asianmukainen lähdekoodi.  
 
@@ -45,7 +45,7 @@ Haluat ehkä muuttaa lähdekoodia. Saatat haluta muuttaa lähdekoodin *YLEINENPV
 
 ### <a name="to-change-source-codes"></a>Lähdekoodien muuttaminen
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") -kuvake, anna **Lähdekoodit** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Etsi sivua tai raporttia.](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") -kuvake, syötä **Lähdekoodit** ja valitse sitten vastaava linkki.
 
 2. Valitse sillä rivillä, jolla muutettava koodi on, koodi **Koodi**-kentästä.
 
@@ -59,7 +59,7 @@ Syykoodit täydentävät lähdekoodeja, ja niiden avulla ilmaistaan, miksi tapah
 
 ### <a name="to-set-up-reason-codes"></a>Syykoodien määrittäminen
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") -kuvake, anna **Syykoodit** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Etsi sivua tai raporttia.](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake")  -kuvake, syötä **Syykodit** ja valitse sitten vastaava linkki.
 
 2. Anna **Syykoodit**-ikkunan **Koodi**-kenttään ensimmäinen koodi. Syötä **Kuvaus**-kenttään selittävä teksti.
 
@@ -69,7 +69,7 @@ Seuraavassa kuvataan, miten syykoodi lisätään päiväkirjan malliin, mutta va
 
 ### <a name="to-assign-reason-codes-to-journal-templates"></a>Syykoodien määrittäminen päiväkirjan malleissa
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") -kuvake, anna **Yleinen päiväkirjamalli** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Etsi sivua tai raporttia.](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake")  -kuvake, syötä **Yleisen päiväkirjan mallit** ja valitse sitten liittyvä linkki.
 
 2. Määritä haluamasi koodi valitsemasi päiväkirjan mallin sisältävän rivin **Syykoodi**-kenttään.
 

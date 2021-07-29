@@ -1,6 +1,6 @@
 ---
 title: Profiilien avulla voit luokitella kontaktisi
-description: Liiketoimintakontaktien luokittelu profiilikyselyiden avulla
+description: Tietoja profiilikyselyjen määrittämisestä. Kyselyjen avulla voidaan luokitella liiketoimintakontakteja.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contacts, profiles
 ms.author: edupont
-ms.date: 04/01/2021
-ms.openlocfilehash: 31321ce4cafd17efc8a7732c81e874df1a1d763a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.date: 06/22/2021
+ms.openlocfilehash: b71c63b8a02b2ddbf6f6135f30cba297dfcf418b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785496"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445524"
 ---
 # <a name="use-profile-questionnaires-to-classify-business-contacts"></a>Liiketoimintakontaktien luokittelu profiilikyselyiden avulla
 Voit määrittää kyselyprofiileja niille kyselyille, joita haluat käyttää, kun syötät tietoja kontaktiesi profiileista. Jokaisessa kyselyssä voit määrittää eri kysymykset, jotka aiot esittää kontakteillesi.  
@@ -23,7 +23,7 @@ Voit määrittää kyselyprofiileja niille kyselyille, joita haluat käyttää, 
 Voit saada ohjelman vastaamaan automaattisesti joihinkin kysymyksiin kontakti-, asiakas- tai toimittajatietojen pohjalta.  
 
 ## <a name="to-add-a-profile-questionnaire"></a>Profiilikyselyjen lisääminen
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kyselyn asetukset** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kyselyn asetukset** ja valitse sitten vastaava linkki.  
 2.  Valitse **Uusi**-toiminto.  
 3.  Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 

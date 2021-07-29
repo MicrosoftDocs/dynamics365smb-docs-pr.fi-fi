@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: tasks, work
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 71e9c93eede8b39561dc78ff61732273003ce8de
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6c1e9a1e296abab8a77e47564eb70e97bfa7d57e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786980"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446413"
 ---
 # <a name="define-user-tasks"></a>Käyttäjätehtävien määrittäminen
 
@@ -27,7 +27,7 @@ Voit luoda [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa tehtäviä
 
 Voit luoda itsellesi tai työtoverillesi esimerkiksi tehtävän, jossa tarkistetaan kaikki kirjatut myyntilaskut. Tässä tapauksessa tehtävä linkitetään sivulle 143, jonka nimi on **Kirjatut myyntilaskut**. Seuraavassa kuvakaappauksessa joku luo tehtävän MeganB:lle ja tarkastelee kirjattuja myyntilaskuja.  
 
-:::image type="content" source="media/across-user-tasks/sample-user-task.png" alt-text="Esimerkki käyttäjän tehtävästä":::
+:::image type="content" source="media/across-user-tasks/sample-user-task.png" alt-text="Esimerkki käyttäjän tehtävästä.":::
 
 > [!TIP]  
 > Käytä **Sivu**-kentän hakutoimintoa ja etsi sitten haluamasi sivu **Etsi**-kentän avulla.  

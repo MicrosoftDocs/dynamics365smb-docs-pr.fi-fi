@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: environments, companies, tenants, organization
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f6a5d435243b6912ddac449fd55aa4c2bce3f291
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 661a6dafc72995b74623ebad9d594755b227f697
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783386"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445920"
 ---
 # <a name="switching-to-another-company-or-environment"></a>Siirtyminen toiseen yritykseen tai ympäristöön
 
@@ -23,7 +23,7 @@ ms.locfileid: "5783386"
 
 ## <a name="switch-to-another-environment"></a>Toiseen ympäristöön vaihtaminen
 
-Kun olet kirjautunut [!INCLUDE[prod_short](includes/prod_short.md)]iin, käytettävissä olevat ympäristöt ovat Dynamics 365:n aloitussivulla. Voit avata sivun valitsemalla ensin **Sovellusten käynnistin** -kuvakkeen ![Sovellusten käynnistin](media/app-launcher-icon.png "Sovelluksen käynnistimen avulla voi käyttää myös muita ominaisuuksia") ja sitten **Dynamics 365**. Voit siirtyä ympäristön oletusyritykseen valitsemalla ruudun. Kullakin ympäristötyypillä on yksi ruutu. Jos tietyn tyyppisiä ympäristöjä on enemmän kuin yksi, valitsemalla ruudun voi valita käytettävän ympäristön.
+Kun olet kirjautunut [!INCLUDE[prod_short](includes/prod_short.md)]iin, käytettävissä olevat ympäristöt ovat Dynamics 365:n aloitussivulla. Voit avata sivun valitsemalla **Sovellusten käynnistys** -kuvakkeen ![Sovellusten käynnistys.](media/app-launcher-icon.png "Sovelluksen käynnistimen avulla voi käyttää myös muita ominaisuuksia") ja valitsemalla **Dynamics 365**. Voit siirtyä ympäristön oletusyritykseen valitsemalla ruudun. Kullakin ympäristötyypillä on yksi ruutu. Jos tietyn tyyppisiä ympäristöjä on enemmän kuin yksi, valitsemalla ruudun voi valita käytettävän ympäristön.
 
 Seuraavassa kuvan on tuotanto- ja eristysympäristön ruudut Dynamics 365:n aloitussivulla.
 
@@ -33,7 +33,7 @@ Seuraavassa kuvan on tuotanto- ja eristysympäristön ruudut Dynamics 365:n aloi
 
 Jos olet kirjautunut [!INCLUDE[prod_short](includes/prod_short.md)]iin, voit vaihtaa nopeasti toiseen yritykseen. Valitsemastasi yrityksestä tulee vaihdon jälkeen oletusyritys, ja se näkyy, kun kirjaudut sisään seuraavan kerran.
 
-1. Valitse oikeassa yläkulmassa **Asetukset**-kuvake ![Asetukset](media/ui-experience/settings_icon_small.png "Roolikeskuksen Asetukset-kuvake") ja valitse sitten **Omat asetukset** -toiminto.
+1. Valitse oikeassa yläkulmassa **Asetukset**-kuvake ![Asetukset.](media/ui-experience/settings_icon_small.png "Roolikeskuksen Asetukset-kuvake") ja valitse sitten **Omat asetukset** -toiminto.
 
     > [!TIP]
     > Voit myös avata nopeasti Omat asetukset -sivun Alt+T-näppäinyhdistelmällä.

@@ -165,6 +165,7 @@
 #### [Käyttöomaisuuden yleisten tietojen määrittäminen](fa-how-setup-general.md)
 #### [Käyttöomaisuuden poiston määrittäminen](fa-how-setup-depreciation.md)
 #### [Poistomenetelmän määrittäminen](fa-depreciation-methods.md)
+#### [Käyttäjäkohtaisten poistomenetelmien määrittäminen](fa-how-setup-user-defined-depreciation-method.md)
 #### [Käyttöomaisuuserän määrittäminen](fa-how-setup-insurance.md)
 #### [Käyttöomaisuuden huollon määrittäminen](fa-how-setup-maintenance.md)
 ### Varastoinninhallinnan määrittäminen
@@ -265,10 +266,10 @@
 ##### Järjestelmänvalvoja
 ###### [Integroinnin yleiskatsaus](admin-powerbi-overview.md)
 ###### [Power BI -integroinnin ottaminen käyttöön](admin-powerbi-setup.md)
-##### Rakennenäkymä
+##### Raportin tekijä
 ###### [Raporttien muodostamisen aloittaminen](across-how-use-financials-data-source-powerbi.md)
 ###### [Luettelotiedot näyttävien raporttien luominen](across-how-use-powerbi-reports-factbox.md)
-##### Kuluttaja
+##### Yrityskäyttäjä
 ###### [Power BI -raporttien käyttäminen Business Centralissa](across-working-with-powerbi.md)
 ###### [Business Centralin tietojen käyttäminen Power BI:ssa](across-working-with-business-central-in-powerbi.md)
 ###### [Business Central -sovellusten käyttäminen Power BI:ssa](across-powerbi-business-central-apps.md)
@@ -449,6 +450,7 @@
 ### [Talousraportit](finance-reports.md)
 ### Myyntisaamisten hallinta
 #### [Myyntisaamisten yleiskatsaus](receivables-manage-receivables.md)
+#### [Myyntisaatavien raportit ja analytiikka](receivables-reports.md)
 #### Maksujen kohdistaminen automaattisesti ja pankkitilien täsmäyttäminen
 ##### [Maksun kohdistuksen yleiskatsaus](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ##### [Maksujen täsmäyttäminen käyttämällä automaattista kohdistusta](receivables-how-reconcile-payments-auto-application.md)
@@ -466,6 +468,7 @@
 
 ### Ostovelkojen hallinta
 #### [Ostovelkojen yleiskatsaus](payables-manage-payables.md)
+#### [Ostovelkojen raportit ja analytiikka](payables-reports.md)
 #### Maksujen suorittaminen
 ##### [Maksujen suorittaminen](payables-make-payments.md)
 ##### [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md)
@@ -664,6 +667,7 @@
 
 ## Käyttöomaisuus
 ### [Käyttöomaisuuserien yleiskatsaus](fa-manage.md)
+### [Käyttöomaisuuden raportit ja analytiikka](fa-reports.md)
 ### [Hankittu käyttöomaisuus](fa-how-acquire.md)
 ### [Käyttöomaisuuden ylläpito](fa-how-maintain.md)
 ### [Käyttöomaisuuden vakuuttaminen](fa-how-insure.md)
@@ -893,15 +897,8 @@
 ##### [Automaattisten maksuehdotusten toimittajien määrittäminen](LocalFunctionality/Belgium/how-to-set-up-vendors-for-automatic-payment-suggestions.md)
 ##### [Maksupäiväkirjamallien ja -erien luominen](LocalFunctionality/Belgium/how-to-create-payment-journal-templates-and-batches.md)
 ##### [Sähköisten maksujen testaaminen](LocalFunctionality/Belgium/how-to-test-electronic-payments.md)
-##### [Maksutiedostojen tulostaminen](LocalFunctionality/Belgium/how-to-print-payment-files.md)
-##### [SEPA-maksujen aktivointi](LocalFunctionality/Belgium/how-to-activate-sepa-payments.md)
-##### [Euroalueen ulkopuolisten SEPA-maksujen lähettäminen](LocalFunctionality/Belgium/how-to-file-non-euro-sepa-payments.md)
+##### [Vie maksutiedostoja](LocalFunctionality/Belgium/how-to-print-payment-files.md)
 ##### [Suoraveloitus domisilioinnin avulla](LocalFunctionality/Belgium/direct-debit-using-domiciliation.md)
-##### [Domisiliointien määrittäminen](LocalFunctionality/Belgium/how-to-set-up-domiciliations.md)
-##### [Domisiliointirivien muokkaaminen ja poistaminen](LocalFunctionality/Belgium/how-to-edit-and-delete-domiciliation-lines.md)
-##### [Domisiliointien testaaminen](LocalFunctionality/Belgium/how-to-test-domiciliations.md)
-##### [Domisiliointien vieminen ja kirjaaminen](LocalFunctionality/Belgium/how-to-export-and-post-domiciliations.md)
-##### [Domisiliointiehdotusten luominen](LocalFunctionality/Belgium/how-to-generate-domiciliation-suggestions.md)
 ##### [CODA-tiliotteet](LocalFunctionality/Belgium/coda-bank-statements.md)
 ##### [CODA-tiliotteiden käyttäminen](LocalFunctionality/Belgium/how-to-apply-coda-statements.md)
 ##### [CODA-tiliotteiden automaattinen siirto ja kirjaus](LocalFunctionality/Belgium/how-to-automatically-transfer-and-post-coda-statements.md)
@@ -1002,16 +999,14 @@
 ##### [Pääkirjanpidon tapahtumien vienti XML-tiedostoon](LocalFunctionality/France/how-to-export-general-ledger-entries-to-an-xml-file.md)
 ##### [Tavarakauppailmoituksen raportointivaatimukset](LocalFunctionality/France/requirements-for-reporting-declaration-of-trade-in-goods.md)
 #### Pankkitoiminta ja maksut
+##### [Maksujenhallinta](LocalFunctionality/France/payment-management.md)
 ##### [Maksuosoitteiden määrittäminen](LocalFunctionality/France/how-to-set-up-payment-addresses.md)
-##### [Maksun tilojen määrittäminen](LocalFunctionality/France/how-to-set-up-payment-statuses.md)
-##### [Maksun vaiheiden määrittäminen](LocalFunctionality/France/how-to-set-up-payment-steps.md)
 ##### [Maksuluokkien määrittäminen](LocalFunctionality/France/how-to-set-up-payment-classes.md)
-##### [Maksukuittien arkistointi](LocalFunctionality/France/how-to-archive-payment-slips.md)
 ##### [Maksukuittien luominen](LocalFunctionality/France/how-to-create-payment-slips.md)
 ##### [Maksujen vienti](LocalFunctionality/France/how-to-export-payments.md)
-##### [Maksujenhallinnan asetusparametrien vienti tai tuonti](LocalFunctionality/France/how-to-export-or-import-payment-management-setup-parameters.md)
-##### [Maksujenhallinta](LocalFunctionality/France/payment-management.md)
 ##### [Maksukuittien kirjaaminen](LocalFunctionality/France/how-to-post-payment-slips.md)
+##### [Maksukuittien arkistointi](LocalFunctionality/France/how-to-archive-payment-slips.md)
+##### [Maksujenhallinnan asetusparametrien vienti tai tuonti](LocalFunctionality/France/how-to-export-or-import-payment-management-setup-parameters.md)
 #### Perusrahoitus
 ##### [Pääkirjanpito](LocalFunctionality/France/general-ledger.md)
 ##### [Pääkirjanpidon tapahtumien käyttäminen](LocalFunctionality/France/how-to-apply-general-ledger-entries.md)
@@ -1554,6 +1549,7 @@
 #### Yleiset
 ##### [Kirjauspäivämäärävaroituksen määrittäminen](LocalFunctionality/UnitedKingdom/how-to-set-up-a-posting-date-warning.md)
 ##### [Lakisääteisteisten tietojen antaminen](LocalFunctionality/UnitedKingdom/how-to-enter-statutory-information.md)
+##### [Petosten ehkäisytietojen lähettäminen](LocalFunctionality/UnitedKingdom/fraud-prevention-data.md)
 ##### [Ison-Britannian postinumeroiden GetAddress.io-laajennus](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)
 ##### [Ison-Britannian postinumeroiden GetAddress.io-laajennuksen määrittäminen](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)
 
@@ -1577,7 +1573,7 @@
 ## Tietosuoja ja tietoturva
 ### [Tietoturvan ja suojauksen yleiskatsaus (vain englanniksi)](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
 ## Tietosuoja
-### [Tietosuoja (microsoft.com)](https://www.microsoft.com/en-us/trust-center/privacy)
+### [Tietosuoja (microsoft.com)](https://www.microsoft.com/trust-center/privacy)
 ## Yhteensopivuus
 ### [Yhteensopivuuden yleiskatsaus](compliance/compliance-overview.md)
 ### [Sovelluksen yhteensopivuus](compliance/compliance-application-compliance.md)

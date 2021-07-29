@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1cb6ba334d4584d6e3ead25606a612686258eae9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4ba9b99a7c205106b77386f297a361067b2227cc
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776814"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446070"
 ---
 # <a name="set-up-statuses-for-service-orders-and-repairs"></a>Huoltotilausten ja -korjausten tilan määrittäminen
 
@@ -29,7 +29,7 @@ Ennen kuin voit määrittää korjauksen tilan, sinun on asetettava huollon tilo
 
 ## <a name="to-set-up-service-status-priorities"></a>Huoltotilan prioriteettien määrittäminen
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Huoltotilauksen tila** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltotilauksen tila** ja valitse sitten vastaava linkki.  
 2. Valitse huoltotilauksen tila, jolle haluat määrittää prioriteetin.  
 3. Valitse **Prioriteetti**-kentässä kyseisen huoltotilauksen tilan prioriteetti.  
 
@@ -37,7 +37,7 @@ Toista työvaiheita 2 ja 3, kunnes kaikille neljälle tilan vaihtoehdolle on mä
 
 ## <a name="to-set-up-a-repair-status"></a>Korjauksen tilan määrittäminen
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Korjauksen tila** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Korjauksen tila** ja valitse sitten vastaava linkki.
 2. Luo uusi korjauksen tila.  
 3. Täytä **Koodi**- ja **Kuvaus**-kentät.  
 4. Valitse **Huoltotilauksen tila** -kentässä tilauksen tila, johon korjaus linkitetään. Valitsemasi huoltotilauksen tilan prioriteetti näkyy **Prioriteetti**-kentässä.  
