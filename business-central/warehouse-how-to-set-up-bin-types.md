@@ -1,6 +1,6 @@
 ---
-title: Varastopaikkatyyppien määrittäminen | Microsoft Docs
-description: Ohjelma on rakennettu ohjaamaan nimikevirta varastopaikkojen läpi, jotka olet määritellyt tietyille fyysisen varastoinnin aktiviteeteille. Kullekin varastopaikalle annetaan nimikevirran perusaktiviteetit – ja samalla määritellään tapa, jolla ohjelma käyttää varastopaikkaa – määrittelemälle sille varastopaikan tyyppi.
+title: Varastopaikkojen määrittäminen
+description: Määritä varastopaikkojen tyypit ja työnkulkujen perusaktiviteetit ja määritä samalla tapa, jolla varastopaikkoja käytetään tietyissä fyysisen varaston toiminnoissa.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,22 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 5fc0fa5493a42329515bcb9b114028eb5e65c2c6
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 987db7dda73bb527cfa025b7641c445b08cced2a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782457"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442977"
 ---
 # <a name="set-up-bin-types"></a>Varastopaikkatyyppien määrittäminen
-Voit ohjata nimikkeiden kulkua tietyille varastotoiminnoille määritettyjen varastopaikkojen kautta. Kullekin varastopaikalle annetaan nimikevirran perusaktiviteetit – ja samalla määritellään tapa, jolla ohjelma käyttää varastopaikkaa – määrittelemälle sille varastopaikan tyyppi.  
+Ohjelma on rakennettu ohjaamaan nimikevirta varastopaikkojen läpi, jotka olet määritellyt tietyille fyysisen varastoinnin aktiviteeteille. Kullekin varastopaikalle annetaan nimikevirran perusaktiviteetit – ja samalla määritellään tapa, jolla ohjelma käyttää varastopaikkaa – määrittelemälle sille varastopaikan tyyppi.  
 
 Tyyppejä on kuusi. Voit käyttää fyysistä varastointia kaikilla kuudella mahdollisella varastopaikan tyypillä tai voit valita käyttäväsi vain VASTOTTO-, HYLLPOIM-, LÄHETYS- JA QC-varastopaikan tyyppejä. Nämä neljä varastopaikan tyyppiä mahdollistavat sen, että ohjelma voi tehdä ehdotuksia nimikevirran tukemiseksi, ja ne mahdollistavat varaston eroavaisuuksien tallentamisen.  
 
 ## <a name="to-set-up-the-bin-types-you-want-to-use"></a>Haluamiesi varastopaikan tyyppien määrittäminen  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Varastopaikkatyypit** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varastopaikkatyypit** ja valitse sitten vastaava linkki.  
 2.  Luo **Varastopaikkatyypit**-sivulla 10-merkkinen koodi varastopaikan tyypille.  
 3.  Valitse aktiviteetti, jotka voidaan suorittaa kullekin varastopaikan tyypille.  
 

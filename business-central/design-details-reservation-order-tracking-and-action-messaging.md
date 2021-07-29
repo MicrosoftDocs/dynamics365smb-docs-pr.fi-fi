@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, replenishment, reordering
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: d53d813871b154a705676483559f7464bf8469fd
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: f814157dc11737074b1a4b1a83545615c2f4c64d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214901"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442308"
 ---
 # <a name="design-details-reservation-order-tracking-and-action-messaging"></a>Rakennetiedot: varaus, tilauksen seuranta ja toimenpiteiden viestitys
 Varausjärjestelmä on kokonaisvaltainen ja se sisältää Tilausten seurannan ja toimintaviestinnän keskenään yhteydessä olevat ja rinnakkaiset ominaisuudet.  
@@ -138,7 +138,7 @@ Varausjärjestelmä on kokonaisvaltainen ja se sisältää Tilausten seurannan j
 
  Seuraavat tilauksenseurantakirjaukset ovat olemassa **Varauskirjaus** -taulukossa, joka perustuu taulukon tietoihin.  
 
- ![Ensimmäinen esimerkki: Varaustapahtumataulukon tilausten seurantatapahtumat](media/supply_planning_RTAM_1.png "supply_planning_RTAM_1")  
+ ![Ensimmäinen esimerkki: Varaustapahtumataulukon tilausten seurantatapahtumat.](media/supply_planning_RTAM_1.png "supply_planning_RTAM_1")  
 
 ### <a name="entry-numbers-8-and-9"></a>Tapahtumanumerot 8 ja 9  
  Vastaavasti LOTA:n ja LOTB:n komponenttitarpeen osalta seurantalinkit luodaan taulukon 5407, **Tuotantotilauksen komponentti** kysynnästä tarjontaan taulukossa 32, **Nimiketapahtuma**. **Varauksen tila** -kenttä sisältää **Seurannan**, joka ilmaisee, että nämä kirjaukset ovat dynaamisen tilaustenseurannan linkkejä kysynnän ja tarjonnan välillä.  
@@ -156,7 +156,7 @@ Varausjärjestelmä on kokonaisvaltainen ja se sisältää Tilausten seurannan j
 
  Nyt **Varaustapahtuma**-taulukossa on seuraavat tilauksen seurantatapahtumat.  
 
- ![Toinen esimerkki: Varaustapahtumataulukon tilausten seurantatapahtumat](media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  
+ ![Toinen esimerkki: Varaustapahtumataulukon tilausten seurantatapahtumat.](media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  
 
 ### <a name="entry-numbers-8-and-9"></a>Tapahtumanumerot 8 ja 9  
  Komponentin kahden erän tilauksen seurantatapahtumia, jotka kuvaavat kysyntää taulukossa 5407, muutetaan **Seuranta**-varaustilasta arvoon **Ylijäämää**. Syy on se, että siirtotilauksen lähetykseen on käytetty tarjontoja, joihin ne oli linkitetty ennen, taulukossa 32.  
@@ -170,7 +170,7 @@ Varausjärjestelmä on kokonaisvaltainen ja se sisältää Tilausten seurannan j
 
  Nyt **Varaustapahtuma**-taulukossa on seuraavat tilauksen seurantatapahtumat.  
 
- ![Kolmas esimerkki: Varaustapahtumataulukon tilausten seurantatapahtumat](media/supply_planning_RTAM_3.png "supply_planning_RTAM_3")  
+ ![Kolmas esimerkki: Varaustapahtumataulukon tilausten seurantatapahtumat.](media/supply_planning_RTAM_3.png "supply_planning_RTAM_3")  
 
  Tilauksenseurantakirjaukset ovat nyt yhteneväisiä skenaarion ensimmäisen kohdan kanssa, ennen kuin siirtotilaus tiliöitiin ja lähetettiin, lukuun ottamatta sitä, että osakirjaukset ovat nyt varaustilaltaan **Surplus**. Tämä johtuu siitä, että komponentti on yhä LÄNSI-sijainnissa. Se tarkoittaa sitä, että tuotantotilauksen komponenttirivin **Sijaintikoodi**-kenttä sisältää **LÄNSI**-merkinnän **Komponentit sijainnissa** -asetuskentän asetuksissa. Tarjonta kohdistettiin tälle kysynnälle ennen ITÄ-sijaintiin siirtoa, joten sen täysi seuranta on mahdollista, ellei tuotantotilausrivin komponenttitarvetta muuteta ITÄ-sijainnissa.  
 
@@ -178,7 +178,7 @@ Varausjärjestelmä on kokonaisvaltainen ja se sisältää Tilausten seurannan j
 
  Nyt **Varaustapahtuma**-taulukossa on seuraavat tilauksen seurantatapahtumat.  
 
- ![Neljäs esimerkki: Varaustapahtumataulukon tilausten seurantatapahtumat](media/supply_planning_RTAM_4.png "supply_planning_RTAM_4")  
+ ![Neljäs esimerkki: Varaustapahtumataulukon tilausten seurantatapahtumat.](media/supply_planning_RTAM_4.png "supply_planning_RTAM_4")  
 
 ### <a name="entry-numbers-21-and-22"></a>Tapahtumanumeroita 21 ja 22  
  Koska osa pitää vaihtaa sijaintiin EAST ja tarjonta on käytettävissä nimikkeen pääkirjan kirjauksina sijainnissa EAST, kaikkia tilausseurantakirjauksia, jotka kohdistuvat kahteen eränumeroon, seurataan koko ajan ja ne ilmaistaan varaustilassa **Seuranta**.  

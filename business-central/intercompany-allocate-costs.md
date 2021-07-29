@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: incoming document
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 471a5151314645f21f163a8f9044b168ac5a8bb3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: b1946ce8d23a8f9e8f6d48a527060727a9bc3447
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786321"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444253"
 ---
 # <a name="allocate-costs-to-intercompany-partners"></a>Kustannusten kohdistaminen konsernikumppaneille
 Kun käytät konsernin kirjauksia asiakirjojen siirtoon konsernikumppanien välillä, ALV:hen liittyvät asetukset (pääasiassa liiketoiminnan ALV-kirjausryhmä), jotka on määritetty (konsernikumppaniin liittyville) asiakas- tai toimittajatileille, määrittävät, lasketaanko ALV ja miten se lasketaan ja rekisteröidään. Voit myös tehdä kustannusten jakoja suoraan ostotilauksesta kumppaniyrityksiin. Jos esimerkiksi rekisteröit ostolaskun ulkopuoliselle toimittajalle ja haluat jakaa osan kustannuksista tai kaikki kustannukset yhdelle tai useammalle konsernikumppanille.
@@ -30,7 +30,7 @@ Kustannuksia voi kohdistaa yhdelle tai useammalle konsernikumppanille seuraavast
 ## <a name="to-allocate-costs-using-an-intercompany-general-journal"></a>Kustannusten kohdistaminen konsernin yleisen päiväkirjan avulla
 Voit lisätä rivin konsernin yleiseen päiväkirjaan noudattamalla seuraavia vaiheita. 
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Konsernin yleinen päiväkirja** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Konsernin yleinen päiväkirja** ja valitse sitten vastaava linkki.
 2. Lisää tarvittaessa **Ulkoisen asiakirjan nro** -kenttään toimittajan laskun asiakirjanumero.
 3. Valitse **Asiakirjatyyppi**-kentässä **Lasku**.
 4. Valitse **Tilityyppi**-kentässä **Toimittaja**.
@@ -57,7 +57,7 @@ Seuraavassa kuvataan, miten kustannuksia kohdistetaan ostolaskun avulla. Ostotil
 > [!NOTE]
 > Näiden vaiheiden suorittaminen edellyttää **Ostolasku** -sivun mukauttamista lisäämällä **Konsernikumppanin koodi**-, **Konsernikumppanin viitetyyppi**- ja **Konsernikumppani**-kentät. Lisätietoja on kohdassa, jossa [Sivun mukauttaminen mukautusvalintanauhan avulla](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostolasku** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostolasku** ja valitse sitten vastaava linkki.
 2. Valitse **Tyyppi**-kentässä **KP-tili**.
    
    KP-tili on ainoa valinta, jota voi käyttää kustannusten kohdistamiseen.  
@@ -70,7 +70,7 @@ Seuraavassa kuvataan, miten kustannuksia kohdistetaan ostolaskun avulla. Ostotil
 1. Kun haluat kirjata ostotilauksen, valitse **Kirjaa**.
 
 ## <a name="to-send-the-allocated-costs-to-intercompany-partners"></a>Kohdistettujen kustannusten lähettäminen konsernikumppaneille
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Konsernin Lähtevät-kansion tapahtumat** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Konsernin Lähtevät-kansion tapahtumat** ja valitse sitten vastaava linkki.
 2. Valitse lähetettävät rivit ja valitse sitten **Lähetä konsernikumppanille** -toiminto. 
 3. Voit kohdistaa kustannukset valitsemalla **Toteuta rivitoiminnot** -toiminnon.
 

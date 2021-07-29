@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: caacf8eb62dd9539f050dbf55543dee862a6d7f8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0342f6009f91140cea9695caca1517a920ac6613
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779120"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444485"
 ---
 # <a name="report-vat-to-tax-authorities"></a>ALV:n raportointi veroviranomaisille
 Tässä ohjeaiheessa käsitellään [!INCLUDE[prod_short](includes/prod_short.md)]in raportteja, joilla voit lähettää myynnin ja ostojen arvolisäverosummia koskevat tiedot alueesi veronviranomaisille. 
@@ -25,7 +25,7 @@ Käytössä on seuraavat raportit:
 * **EU-myyntiluettelo** Euroopan unionin (EU:n) myyntiluettelo sisältää arvolisävero- eli ALV-summat, jotka olet kerännyt EU-maissa sijaitseville ALV-rekisteröidyille asiakkaille suuntautuneesta myynnistä.  
 * **ALV-palautus**-raportti sisältää kaikissa sellaisissa maissa toimiville asiakkaille suuntautuneen myynnin ja toimittajilta tehtyjen ostojen ALV:n, joissa käytetään arvonlisäveroa.
 
-Jos haluat tarkastella täydellistä ALV-tapahtumahistoriaa, jokainen ALV:n sisältävä kirjaus luo tapahtuman **ALV-tapahtumat**-sivulla. Näitä tapahtumia käytetään laskettaessa ALV-laskelmasi summaa (maksu tai palautus) tietyltä kaudelta. Valitse ALV-tapahtumien katselemiseksi ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **ALV-tapahtumat** ja valitse sitten liittyvä linkki.
+Jos haluat tarkastella täydellistä ALV-tapahtumahistoriaa, jokainen ALV:n sisältävä kirjaus luo tapahtuman **ALV-tapahtumat**-sivulla. Näitä tapahtumia käytetään laskettaessa ALV-laskelmasi summaa (maksu tai palautus) tietyltä kaudelta. ALV-tapahtumat nähdäksesi valitse ![Lamppu, joka avaa toisena Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **ALV-tapahtumat** ja valitse sitten vastaava linkki.
 
 > [!NOTE]
 > Jokaisen [!INCLUDE[prod_short](includes/prod_short.md)] -ympäristön on tarkoitus käsitellä yhden maan lakisääteinen raportointi. Esimerkiksi [!INCLUDE[prod_short](includes/prod_short.md)]in hollantilainen versio käsittelee vain Alankomaiden ALV-raportointia. Vastaavasti Yhdysvaltain [!INCLUDE[prod_short](includes/prod_short.md)]in versio käsittelee 1099-raportointia Yhdysvalloissa, eikä se tue ALV-raportointia muissa maissa ellei sitä ole tuotu kumppaniekosysteemin laajennuksella tai asiakaskohtaisella koodimuokkauksella.
@@ -58,19 +58,19 @@ Tapahtumat voidaan määrittää sisältämään ALV-palautuksia varten seuraava
 
 Jotta voisit ilmoittaa arvonlisäveron viranomaiselle sähköisesti, [!INCLUDE[prod_short](includes/prod_short.md)] on yhdistettävä veroviranomaisen verkkopalveluun. Tämä edellyttää, että luot tilin ALV-viranomaisen kanssa. Kun sinulla on tili, voit ottaa käyttöön [!INCLUDE[prod_short](includes/prod_short.md)]issa tarjotun palveluyhteyden.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Huoltoyhteydet** ja valitse sitten sopiva linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Palveluyhteydet** ja valitse sitten sopiva linkki.
 2. Täytä vaaditut kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     > [!NOTE]  
     > Yhteyden toimivuus kannattaa testata. Sen voi tehdä valitsemalla **Testitila**-valintaruudun sekä valmistelemalla ja lähettämällä ALV-raportin kohdassa _ALV-raportin valmisteleminen ja lähettäminen_ kuvatulla tavalla. Palvelu testaa testitilassa, voiko veroviranomainen vastaanottaa raportin. Raportin tila ilmaisee, onnistuiko testilähetys vai ei. Muista kuitenkin, että tietoja ei ole vielä oikeasti lähetetty. Kun haluat lähettää raportin oikeasti, poista **Testitila**-valintaruudun valinta ja toista sitten lähetysprosessi.
 
 ## <a name="to-set-up-vat-reports-in-prod_short"></a>ALV-raporttien määrittäminen [!INCLUDE[prod_short](includes/prod_short.md)]issa
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **VAT-raportoinnin asetukset** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **ALV-raportin asetukset** ja valitse sitten vastaava linkki.  
 2. Jos haluat, että käyttäjät voivat muuttaa ja uudelleenlähettää näitä raportteja, valitse **Muokkaa lähetettyjä raportteja** -valintaruutu.  
 3. Valitse kussakin raportissa käytettävä numerosarja.  
 
 ## <a name="to-prepare-and-submit-a-vat-report"></a>ALV-raportin valmisteleminen ja lähettäminen
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **EC-myyntiluettelo** tai **ALV-palautus** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **EU-myyntiluettelo** tai **ALV-palautus** ja valitse sitten vastaava linkki.  
 2. Valitse **Uusi** ja täytä sitten tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Voit luoda raportin sisällön **Ehdota rivejä** -toiminnolla.  
 

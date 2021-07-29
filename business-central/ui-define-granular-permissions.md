@@ -1,6 +1,6 @@
 ---
-title: Määritä eritellyt käyttöoikeudet | Microsoft Docs
-description: Tietoja objektien käyttöoikeuksien määrittämisestä käyttäjille määrittämällä niille käyttöoikeusjoukkoja.
+title: Määritä hajautetut käyttöoikeudet
+description: Tässä ohjeaiheessa kuvataan, miten hajautetut käyttöoikeudet määritetään antamalla tietyille käyttäjille objektien käyttöoikeus ja määrittämällä niille käyttöoikeuksien joukkoja.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 52a3963267a7f476943f5a6d67f1d51c395ca927
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 3a3025e94fa05d3e0c0bf49e9afd1f13a55a60fb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776715"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443715"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Määritä käyttöoikeudet käyttäjille ja ryhmille
 
@@ -53,7 +53,7 @@ Voit määrittää käyttöoikeusjoukkoja käyttäjille kahdella seuraavalla tav
 
 ### <a name="to-assign-a-permission-set-on-a-user-card"></a>Käyttäjäoikeuksien joukon määrittäminen käyttäjän kortissa
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttäjät** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttäjät** ja valitse sitten vastaava linkki.
 2. Valitse käyttäjä, jolle haluat määrittää käyttöoikeuden.
 Kaikki käyttäjälle jo määritetyt käyttöoikeusjoukot **Käyttöoikeuksien joukot** -tietoruudussa.
 3. Avaa **Käyttäjän kortti** -sivu valitsemalla **Muokkaa** -toiminto.
@@ -61,14 +61,14 @@ Kaikki käyttäjälle jo määritetyt käyttöoikeusjoukot **Käyttöoikeuksien 
 
 ### <a name="to-assign-a-permission-set-on-the-permission-set-by-user-page"></a>Käyttöoikeuksien joukon määrittäminen Käyttöoikeuksien joukko käyttäjän mukaan -sivulla
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttäjät** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttäjät** ja valitse sitten vastaava linkki.
 2. Valitse **Käyttäjät**-sivulla sopiva käyttäjä ja valitse sitten **Käyttöoikeuksien joukko käyttäjän mukaan** -toiminto.
 3. Valitse **Käyttöoikeuksien joukko käyttäjän mukaan** -sivulla sen käyttöoikeuksien joukon rivin **[käyttäjätunnus]**-valintaruutu, joka määritetään käyttäjälle.
 4. Valitse **Kaikki käyttäjät** -valintaruutu, jos haluat määrittää käyttöoikeuksien joukon kaikille käyttäjille.
 
 ## <a name="to-get-an-overview-of-a-users-permissions"></a>Yleiskuvan saaminen käyttöoikeuksista
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttäjät** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttäjät** ja valitse sitten vastaava linkki.
 2. Avaa asianmukaisen käyttäjän kortti.
 3. Valitse **Voimassa olevat käyttöoikeudet** -toiminto.
 
@@ -103,7 +103,7 @@ Käyttöoikeuksien joukot toimivat käyttöoikeuksien säilöinä. Niiden avulla
 
 ### <a name="to-create-new-permission-set-from-scratch"></a>Uuden käyttöoikeusjoukon luominen tyhjästä
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttöoikeusjoukot** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttöoikeuksien joukot** ja valitse sitten vastaava linkki.
 2. Voit luoda uuden käyttöoikeuksien joukon valitsemalla **Uusi**-toiminnon.
 3. Täytä tarvittavat uuden rivin kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Kun käyttöoikeuksien joukko on luotu, sille on lisättävä todelliset käyttöoikeudet. Lisätietoja on kohdassa [Käyttöoikeuksien luominen tai muuttaminen manuaalisesti](ui-define-granular-permissions.md#to-create-or-modify-permissions-manually).
 
@@ -168,7 +168,7 @@ Käyttäjällä ei kuitenkaan tarvitse olla Ostorivi-taulukon täysiä käyttöo
 
 ## <a name="to-create-or-modify-permissions-by-recording-your-actions"></a>Käyttöoikeuksien luominen tai muokkaaminen toimia tallentamalla
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttöoikeusjoukot** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttöoikeuksien joukot** ja valitse sitten vastaava linkki.
 2. Vaihtoehtoisesti voit valita **Käyttäjät**-sivulla **Käyttöoikeuksien joukko** -toiminnon.
 3. Valitse **Käyttöoikeuksien joukko** -sivulla **Uusi**-toiminto.
 4. Täytä tarvittaessa uuden rivin kentät.
@@ -197,7 +197,7 @@ Käyttäjäryhmän kautta käyttäjälle määritetyt käyttöoikeuksien joukot 
 
 Seuraavissa ohjeissa selitetään, miten käyttäjäryhmiä luodaan manuaalisesti. Lisätietoja käyttäjäryhmien luomisesta automaattisesti on kohdassa [Käyttäjäryhmän ja kaikkien sen käyttöoikeusjoukkojen kopioiminen](ui-define-granular-permissions.md#to-copy-a-user-group-and-all-its-permission-sets).
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttäjäryhmät** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttäjäryhmät** ja valitse sitten vastaava linkki.
 2. Vaihtoehtoisesti voit valita **Käyttäjät**-sivulla **Käyttäjäryhmät**-toiminnon.
 3. Valitse **Käyttäjäryhmä**-sivulla **Käyttäjäryhmän jäsenet** -toiminto.
 4. Valitse **Käyttäjäryhmän jäsenet** -sivulla **Lisää käyttäjät** -toiminto.
@@ -209,7 +209,7 @@ Voit määrittää uuden käyttäjäryhmän nopeasti kopioimalla kaikki käyttö
 > [!NOTE]
 > Käyttäjäryhmän jäseniä ei kopioida uuteen käyttäjäryhmään. Heidät on lisättävä myöhemmin manuaalisesti. Lisätietoja on kohdassa [Käyttäjien ryhmittäminen käyttäjäryhmiin](ui-define-granular-permissions.md#to-group-users-in-user-groups).
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttäjäryhmät** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttäjäryhmät** ja valitse sitten vastaava linkki.
 2. Valitse ensin kopioitava käyttäjäryhmä ja sitten **Kopioi käyttäjäryhmä** -toiminto.
 3. Anna **Uuden käyttäjäryhmän koodi** -kentässä ryhmälle nimi ja valitse sitten **OK**-painike.
 
@@ -217,7 +217,7 @@ Uusi käyttäjäryhmä lisätään **Käyttäjäryhmät**-sivulle. Aloita käytt
 
 ### <a name="to-assign-permission-sets-to-user-groups"></a>Käyttöoikeuksien joukkojen määrittäminen käyttäjäryhmille
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttäjäryhmät** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttäjäryhmät** ja valitse sitten vastaava linkki.
 2. Valitse käyttäjäryhmä, jolle haluat määrittää käyttöoikeuden.
 Kaikki käyttäjälle jo määritetyt käyttöoikeusjoukot **Käyttöoikeuksien joukot** -tietoruudussa.
 3. Avaa **Käyttöoikeuksien joukot**-toiminto, jos haluat avata **Käyttöoikeuksien joukot** -sivun.
@@ -227,7 +227,7 @@ Kaikki käyttäjälle jo määritetyt käyttöoikeusjoukot **Käyttöoikeuksien 
 
 Seuraavassa kerrotaan, miten käyttöoikeuksien joukot määritetään käyttäjäryhmälle **Käyttöoikeuksien joukko käyttäjäryhmän mukaan** -sivulla.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttäjät** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttäjät** ja valitse sitten vastaava linkki.
 2. Valitse **Käyttäjät**-sivulla sopiva käyttäjä ja valitse sitten **Käyttöoikeuksien joukko käyttäjäryhmän mukaan** -toiminto.
 3. Valitse **Käyttöoikeuksien joukko käyttäjäryhmän mukaan** -sivulla sen käyttöoikeuksien joukon rivin **[käyttäjäryhmän nimi]**-valintaruutu, joka määritetään käyttäjäryhmälle.
 4. Valitse **Kaikki käyttäjäryhmät** -valintaruutu, jos haluat määrittää käyttöoikeuksien joukon kaikille käyttäjäryhmille.
@@ -240,7 +240,7 @@ Seuraavassa kerrotaan, miten käyttöoikeuksien joukot määritetään käyttäj
 
 Järjestelmänvalvojat voivat määrittää ajanjaksoja, joiden aikana määritetyt käyttäjät voivat tehdä kirjauksia. He voivat myös määrittää, kirjaako järjestelmä ajan, jonka käyttäjät olivat kirjautuneena. Järjestelmänvalvojat voivat myös määrittää käyttäjille vastuupaikkoja. Lisätietoja on kohdassa [Vastuupaikkojen käyttäminen](inventory-responsibility-centers.md).
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttäjäasetukset** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttäjän määritys** ja valitse sitten vastaava linkki.
 2. Valitse avautuvalla **Käyttäjäasetukset**-sivulla **Uusi**-toiminto.
 3. Anna **Käyttäjätunnus**-kentässä käyttäjän tunnus tai valitse kenttä, jos haluat nähdä kaikki järjestelmässä tällä hetkellä olevat Windows-käyttäjät.
 4. Täytä tarvittavat kentät.

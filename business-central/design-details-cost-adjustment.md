@@ -1,6 +1,6 @@
 ---
-title: Rakennetiedot – Kustannusten muuttaminen | Microsoft Docs
-description: Kustannusten sopeuttamisen päätarkoitus on siirtää eteenpäin kustannusmuutokset kustannuslähteistä kustannusten vastaanottajille nimikkeen kustannuslaskentamenetelmän mukaisesti, jotta se tuottaisi oikean varaston arvostuksen.
+title: Rakennetiedot – kustannuksen muutos
+description: Kustannusten sopeuttaminen siirtää eteenpäin kustannusmuutokset kustannuslähteistä kustannusten vastaanottajille nimikkeen kustannuslaskentamenetelmän mukaisesti, jotta se tuottaisi oikean varaston arvostuksen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 0c0d46c75ca160ba5baa58bd637ead2e0339d368
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 4fdf131d9f32940ed3b909c4bc98a1516f44bf64
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215401"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442458"
 ---
 # <a name="design-details-cost-adjustment"></a>Rakennetiedot: kustannuksen muutos
 
@@ -67,7 +67,7 @@ Tätä tunnistustoimintoa käytetään muunnoksen skenaarioissa, tuotannossa ja 
 
 Tilaustason toimintoa käytetään havaitsemaan kokoonpanotiliöinnin määrittämisessä. Seuraavassa kaaviossa esitetään sopeuttamiskirjauksen rakenne:  
 
-![Kustannusten oikaisuprosessin tapahtumat](media/design_details_assembly_posting_3.png "Kustannusten oikaisuprosessin tapahtumat")  
+![Kustannusten oikaisuprosessin tapahtumat.](media/design_details_assembly_posting_3.png "Kustannusten oikaisuprosessin tapahtumat")  
 
 Lisätietoja on kohdassa [Rakennetiedot: Kokoonpanotilauksen kirjaus](design-details-assembly-order-posting.md).  
 

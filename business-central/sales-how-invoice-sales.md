@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d0a48037123dee4a7c9282432cc2b357b335e794
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: 4cd53cab788f5ee9a7f32f697faa35e8cd2638ae
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115563"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443355"
 ---
 # <a name="invoice-sales"></a>Myynnin laskutus
 
@@ -41,7 +41,7 @@ Voit täyttää myyntilaskun asiakkaan kentät kahdella tavalla sen mukaan, onko
 
 ### <a name="to-create-a-sales-invoice"></a>Myyntilaskujen luominen
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Myyntilaskut** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntilaskut** ja valitse sitten vastaava linkki.  
 2. Syötä **Asiakas**-kenttään nykyisen asiakkaan nimi.
 
    Muut **Myyntilasku**-sivun kentät sisältävät vakiotietoja valitusta asiakkaasta. Jos asiakasta ei ole rekisteröity, toimi seuraavasti:

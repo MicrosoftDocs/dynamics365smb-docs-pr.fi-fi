@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6991b640319abf43718c1832b8bbea17bce0a0f1
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d56c8d6be69e12ced2dc83b884650360e95c0ab2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784290"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443616"
 ---
 # <a name="change-which-features-are-displayed"></a>Näytettävien ominaisuuksien muuttaminen
 [!INCLUDE[prod_short](includes/prod_short.md)] on suunniteltu auttamaan sinua pyörittämään yritystäsi sen koosta ja monimutkaisuudesta riippumatta. Tuotteen ytimessä on olennaisia ominaisuuksia, kuten talousraportointi, myynti, osto ja varastonhallinta. Kun liiketoiminnan monimutkaisuus kasvaa, voit ottaa käyttöön esimerkiksi tuotannon ja huollon hallinnan toiminnot.
@@ -46,14 +46,14 @@ Käyttäjille määritetään suunnitelmat Microsoft 365 -hallintakeskuksessa sa
 Kun olet tehnyt muutoksia käyttäjien suunnitelmiin Microsoft 365 -hallintakeskuksessa (kuten määrittänyt enemmän käyttäjiä Premium-suunnitelmaan), sinun tulee tehdä muutoksia myös [!INCLUDE[prod_short](includes/prod_short.md)]:ssa.
 
 1. Kirjaudu sisään järjestelmänvalvojana.
-2. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttäjät** ja valitse sitten liittyvä linkki.
+2. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttäjät** ja valitse sitten vastaava linkki.
 3. Vaihtoehtoisesti voit valita **Käyttäjät**-sivulla **Päivitä kaikki käyttäjäryhmät** -toiminnon.
 
 Käyttäjien suunnitelmien ja heidän määriteltyjen käyttäjäryhmiensä uudet tiedot päivitetään nyt suunnitelman muutoksien mukaisesti.
 
 ### <a name="to-select-the-premium-experience"></a>Premium-käyttäjäkokemuksen valinta
 Voit nyt siirtyä valitsemaan uuden käyttökokemuksen.
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Yrityksen tiedot** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Yrityksen tiedot** ja valitse sitten vastaava linkki.
 2. Valitse **Yrityksen tiedot** -sivun **Käyttäjäkokemus**-pikavälilehden **Kokemus**-kentässä Premium.
 
 ## <a name="help-assumes-premium-experience"></a>Ohje käsittelee Premium-käyttäjäkokemusta

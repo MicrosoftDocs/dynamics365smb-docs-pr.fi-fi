@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 50e1de8b0e0e1ca5a1890317abe6379e5a71b688
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 7390fd047080fe5282cc949ec81e58ccb5f2e9cf
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783920"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443866"
 ---
 # <a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a>Pinojen värillisen ilmaisimen määrittäminen yrityskäyttäjille tai yksittäisille käyttäjille
 Järjestelmänvalvojana voit määrittää pinot, jotka näkyvät käyttäjien Roolikeskuksissa sisällyttääksesi ilmaisimen, joka vaihtaa väriä pinojen arvojen mukaan.  
@@ -27,7 +27,7 @@ Ilmaisin näkyy värillisenä palkkina pinon ruudun yläreunassa. Se antaa visua
 Jotta voit määrittää ilmaisimen, sinun on määritettävä korkeintaan kaksi raja-arvoa, jotka määrittävät kolme arvoaluetta (matala, keskisuuri ja korkea), joihin voit käyttää eri värejä (tai tyyliä).  
 
 ### <a name="to-set-up-colored-indicators-on-cues"></a>Värillisten ilmaisinten määrittäminen pinoissa  
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvake, syötä **Pinon asetukset** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pinon asetukset** ja valitse sitten vastaava linkki.  
 
      **Pinon asetukset** -sivu avautuu. Sivulla on luettelo ilmaisimista, jotka on tällä hetkellä määritetty pinoissa. Kaikkia yrityksen käyttäjiä koskevissa ilmaisimissa on tyhjä **Käyttäjänimi**-kenttä. Tiettyä käyttäjää koskevat ilmaisimet sisältävät käyttäjän nimen **Käyttäjänimi**-kentässä.  
 

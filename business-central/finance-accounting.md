@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9e6dd99b1ea8da7099932185a7da18b0419a244e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8e988e0b23f29f4b9969a9682eac2e2e91a30fcc
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780933"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442798"
 ---
 # <a name="accountant-experiences-in-prod_long"></a>Kirjanpitäjän käyttökokemukset [!INCLUDE[prod_long](includes/prod_long.md)]issa
 
@@ -44,7 +44,7 @@ Ulkopuolisen kirjanpitäjän kutsumista on helpotettu. Avaa vain **Käyttäjät*
 > [!Note]  
 > Kutsun lähettäminen, edellyttää, että SMTP-sähköposti on määritetty. Lisätietoja on kohdassa [Sähköpostin määrittäminen](admin-how-setup-email.md).  
 
-<!-- ![Invite your accountant](./media/finance-invite-accountant/invite-accountant.png)-->
+<!-- ![Invite your accountant.](./media/finance-invite-accountant/invite-accountant.png)-->
 
 > [!IMPORTANT]  
 > Kirjanpitäjän sähköpostiosoitteen on oltava Azure Active Directoryyn perustuva työsähköpostiosoite. Jos kirjanpitäjä käyttää jotakin muuta sähköpostityyppiä, kutsua ei voi lähettää.
@@ -91,7 +91,7 @@ Kirjanpitäjä saa sähköpostiviestin, joka ilmoittaa hänelle, että hänelle 
 #### <a name="to-add-the-accountant-to-the-right-company"></a>Kirjanpitäjän lisääminen oikeaan yritykseen
 
 1. Avaa [!INCLUDE[prod_short](includes/prod_short.md)]-yritys, johon haluat antaa kirjanpitäjälle käyttöoikeuden, kohteessa [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com).
-2. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttäjät** ja valitse sitten liittyvä linkki.  
+2. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttäjät** ja valitse sitten vastaava linkki.  
 3. Valitse **Hae uudet käyttäjät Microsoft 365:sta** -toiminto.
 
 Tämä tuo käyttäjätilin, jonka loit Azure-portaalissa yritykselle. Lisätietoja on kohdassa [Käyttäjän lisääminen Business Centralissa](ui-how-users-permissions.md#adduser).  

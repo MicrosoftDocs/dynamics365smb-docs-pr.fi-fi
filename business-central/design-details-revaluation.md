@@ -1,6 +1,6 @@
 ---
-title: Rakennetiedot – Uudelleenarvostus | Microsoft Docs
-description: Voit uudelleenarvostaa varaston sen arvostuksen perustan perusteella, joka vastaa varaston arvoa parhaiten. Voit myös päivätä uudelleenarvostuksen vanhemmaksi, jolloin myytyjen tuotteiden kustannukset päivitetään oikein nimikkeille, jotka on jo myyty. Vakio-arvostusmenetelmää käyttävät nimikkeet, joita ei ole laskutettu kokonaan, voidaan myös arvostaa uudelleen.
+title: Rakennetiedot – uudelleenarvostus
+description: Voit uudelleenarvostaa varaston sen arvostuksen perustan perusteella, joka vastaa varaston arvoa parhaiten.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: a052f726169fde9e09e83aeb690169580eaee948
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 2af7425324314c14039ef56bc7e124db033fd8ef
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215776"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444303"
 ---
 # <a name="design-details-revaluation"></a>Rakennetiedot: uudelleenarvostus
-Voit uudelleenarvostaa varaston sen arvostusperustan perusteella, joka vastaa varaston arvoa parhaiten. Voit myös päivätä uudelleenarvostuksen vanhemmaksi, jolloin myytyjen tuotteiden kustannukset päivitetään oikein nimikkeille, jotka on jo myyty. Vakio-arvostusmenetelmää käyttävät nimikkeet, joita ei ole laskutettu kokonaan, voidaan myös arvostaa uudelleen.  
+Voit uudelleenarvostaa varaston sen arvostuksen perustan perusteella, joka vastaa varaston arvoa parhaiten. Voit myös päivätä uudelleenarvostuksen vanhemmaksi, jolloin myytyjen tuotteiden kustannukset päivitetään oikein nimikkeille, jotka on jo myyty. Vakio-arvostusmenetelmää käyttävät nimikkeet, joita ei ole laskutettu kokonaan, voidaan myös arvostaa uudelleen.  
 
 [!INCLUDE[prod_short](includes/prod_short.md)] tukee seuraavaa uudelleenarvostukseen liittyvää joustavuutta:  
 
@@ -39,7 +39,7 @@ Koska uudelleenarvostus voidaan tehdä minä tahansa päivänä, sinun on määr
 ### <a name="example"></a>Esimerkki  
 Seuraavassa esimerkissä kuvataan milloin WIP-nimikkeiden siirroista tulee osa varastoa. Esimerkki perustuu ketjun ja 150 linkin tuotantoon.  
 
-![KET-varasto ja uudelleenarvostus](media/design_details_inventory_costing_10_revaluation_wip.png "KET-varasto ja uudelleenarvostus")  
+![KET-varasto ja uudelleenarvostus.](media/design_details_inventory_costing_10_revaluation_wip.png "KET-varasto ja uudelleenarvostus")  
 
 **1Q**: käyttäjä kirjaa ostetut linkit vastaanotetuksi. Seuraavassa taulukossa kuvataan aiheutuva nimikkeen pääkirjan kirjaus.  
 

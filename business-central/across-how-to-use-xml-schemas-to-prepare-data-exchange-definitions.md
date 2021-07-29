@@ -1,6 +1,6 @@
 ---
-title: XML-mallien käyttäminen tietojenvaihtomääritysten valmisteluun
-description: Voit määrittää asiakirjojen vaihtokehyksen XML-mallien avulla.
+title: XML-mallit tiedonsiirtomääritysten valmistelua varten
+description: Käytä XML-malleja tiedonsiirtokehyksen määrittämiseen, jotta voit määrittää, minkä tietoelementtien kanssa haluat tehdä siirtoja.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 70e80403175c6a77d120a3b405b1b5758410c227
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 42afc2d2de9d705d90a92166084b492c3a328674
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781359"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444066"
 ---
 # <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>XML-mallien käyttäminen tiedonsiirtomääritysten valmisteluun
 
@@ -35,7 +35,7 @@ Voit ottaa XML-tiedostojen tietojen tuonnin ja viennin käyttöön [!INCLUDE[pro
 
 1. Varmista, että sopiva XML-rakennetiedosto on saatavilla. Tiedostotunniste on .xsd.  
 
-2. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **XML-mallit** ja valitse sitten liittyvä linkki.  
+2. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **XML-mallit** ja valitse sitten vastaava linkki.  
 
 3. Valitse **Uusi**-toiminto.  
 
@@ -57,7 +57,7 @@ Voit ottaa XML-tiedostojen tietojen tuonnin ja viennin käyttöön [!INCLUDE[pro
 
 ### <a name="to-select-or-clear-nodes-in-an-xml-schema"></a>Solmujen valitseminen ja tyhjentäminen XML-rakenteessa  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **XML-mallin tarkastelutoiminto** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **XML-mallin tarkastelutoiminto** ja valitse sitten vastaava linkki.  
 
 2. Täytä otsikon kentät seuraavassa taulukossa kuvatulla tavalla.  
 
@@ -95,7 +95,7 @@ Voit ottaa XML-tiedostojen tietojen tuonnin ja viennin käyttöön [!INCLUDE[pro
 
 ### <a name="to-generate-a-data-exchange-definition-that-is-based-on-an-xml-schema"></a>XML-rakenteeseen perustuvan tietojen vaihtamismäärityksen luominen  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **XML-mallit** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **XML-mallit** ja valitse sitten vastaava linkki.  
 
 2. Valitse sopiva XML-malli ja valitse sitten **Avaa XML-mallin tarkastelutoiminto** -toiminto.  
 

@@ -1,20 +1,20 @@
 ---
-title: Käyttäjien ja roolien hallinta | Microsoft Docs
-description: Tässä ohjeaiheessa kerrotaan, miten Business Central -sovelluksen käyttäjiä ja roolikeskuksia hallitaan.
+title: Käyttäjien ja roolien hallinta
+description: Tässä ohjeaiheessa kerrotaan, miten Business Centralissa hallitaan käyttäjäprofiileja ja roolikeskuksia. Profiilien avulla järjestelmänvalvojat voivat keskitetysti määrittää ja hallita, mitä käyttäjät voivat nähdä ja tehdä.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: profiles, users
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 8ccfd6b7e39acc460fcd32dbc2f20fb71fc01ae0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 74f8b0a7bdd4c95bee12b14c8354de68cafc1649
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776964"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443127"
 ---
-# <a name="manage-profiles"></a>Profiilien hallinta
+# <a name="manage-user-profiles"></a>Käyttäjäprofiilien hallinta
 
 Kaikille [!INCLUDE[prod_short](includes/prod_short.md)]in käyttäjille määritetään profiili, joka vastaa heidän liiketoimintorooliaan, osastoaan tai muuta luokittelua. Profiilien avulla järjestelmänvalvojat voivat määrittää ja hallita keskitetysti sitä, mitä erilaiset käyttäjätyypit voida nähdä ja tehdä käyttöliittymässä, jotta he voivat suorittaa työtehtäviään tehokkaasti.
 
@@ -31,7 +31,7 @@ Voit mukauttaa profiilin sivuasettelua siten, että kaikki profiiliin määritet
 ## <a name="to-create-a-profile"></a>Profiilin luominen
 Jos et voi kopioida aiemmin luotua profiilia, voit luoda uuden profiilin manuaalisesti.
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") -kuvake, anna **Profiilit (roolit)** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Etsi sivua tai raporttia.](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") -kuvake, syötä **Profiilit (Roolit)** ja valitse sitten vastaava linkki.  
 2. Valitse **Profiilit (roolit)** -sivulla **Uusi**-toiminto.  
 3. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -66,7 +66,7 @@ Käyttäjät voivat määrittää **Omat asetukset** -sivulla tilinsä perustoim
 
 Voit määrittää järjestelmänvalvojana nämä profiilin asetukset ja siten ottaa asetukset käyttöön kaikille liittyvän roolin käyttäjille.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Profiilit (Roolit)** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Profiilit (Roolit)** ja valitse sitten vastaava linkki.
 2. Valitse sen profiilin rivi, jonka käyttäjän asetuksia haluat muuttaa, ja valitse sitten **Käyttäjän mukautuslista** -toiminto.
 3. Avaa **Käyttäjän mukautukset** -sivulla sen käyttäjän kortti, jonka asetuksia haluat muuttaa.
 4. Muokkaa kenttiä tarvittaessa **Käyttäjän mukautuskortti** -sivulla.
@@ -108,7 +108,7 @@ Voit poistaa profiilin valitsemalla **Poista**-toiminto **Profiilit (roolit)** -
 ## <a name="to-delete-all-personalizations-made-by-a-user"></a>Kaikkien käyttäjän tekemien mukautusten poistaminen
 Voit poistaa kaikki muutokset, jotka käyttäjä on tehnyt työtilan muodostaville sivuille. Tästä voi olla hyötyä esimerkiksi silloin, jos työntekijä on muuttanut roolia eikä enää tarvitse mukautuksia. Käyttäjien mukautusten poistaminen muuttaa sivun asettelun takaisin profiilin määrittämäksi asetteluksi.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttäjän mukautukset** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttäjän mukautukset** ja valitse sitten vastaava linkki.
 
     **Käyttäjän mukautukset** -sivulla on luettelo kaikista käyttäjistä, jotka ovat tehneet mukautuksia.
 
@@ -122,7 +122,7 @@ Voit poistaa myös kaikki profiilin sivun mukautukset. Lisätietoja on kohdassa 
 ## <a name="to-delete-personalizations-for-specific-pages"></a>Tiettyjen sivujen mukautusten poistaminen
 Voit poistaa mukautuksia, joita yksi tai usea käyttäjä on tehnyt tietyille työtilan muodostaville sivuille. Tämä voi olla kätevää esimerkiksi silloin, jos liiketoimintaprosessin muutos tarkoittaa, että käyttäjät eivät enää saa käyttää mukautusta. Käyttäjien mukautusten poistaminen muuttaa sivun asettelun takaisin profiilin määrittämäksi asetteluksi.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttäjäsivun mukautukset** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttäjän sivun mukautukset** ja valitse sitten vastaava linkki.
 
     **Käyttäjän sivun mukautukset** -sivulla on luettelo kaikista mukautetuista sivuista ja käyttäjistä, joille nämä sivut kuuluvat.
 

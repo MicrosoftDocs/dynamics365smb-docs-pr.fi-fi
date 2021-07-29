@@ -1,9 +1,7 @@
 ---
-title: Lisävaluuttojen määrittäminen| Microsoft Docs
+title: Lisävaluuttojen määrittäminen
 description: Pääkirjanpito määritetään käyttämään paikallista valuuttaa (PVA) ja toinen valuutta määritetään lisävaluutaksi, jolle määritetään ajantasainen vaihtokurssi.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
@@ -12,20 +10,23 @@ ms.workload: na
 ms.search.keywords: multiple currencies
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 96ca4139f7a19ea9a5bb3361099cde9910491488
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 23e9f521e43373ff3ee0fd5f8218b2d467b54d72
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775523"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444435"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Lisäraportointivaluutan määrittäminen
+
 Yritysten toimiessa yhä useammassa maassa tai alueella niiden on entistä tärkeämpää pystyä tarkistamaan ja raportoimaan taloustiedot useana valuuttana.
 
 Pääkirjanpito määritetään käyttämään paikallista valuuttaa (PVA), mutta voit määrittää sen käyttämään myös toista valuuttaa, jolle määritetään ajantasainen vaihtokurssi. Kun toinen valuutta määritetään niin sanotuksi lisäraportointivaluutaksi, [!INCLUDE[prod_short](includes/prod_short.md)] tallentaa summat automaattisesti sekä PVA:na että lisäraportointivaluuttana kuhunkin KP-tapahtumaan sekä muihin tapahtumiin, kuten ALV-tapahtumiin.
 
 > [!Warning]
-> Lisäraportointivaluutta-toimintoa ei saa käyttää rahoituslaskelmien käännösten perustana. Tällä työkalulla ei pysty kääntämään ulkomaisten tytäryritysten tilinpäätöksiä osana yrityksen konsolidointia. Lisäraportointivaluuttaa voidaan käyttää vain toista valuttaa käyttävien raporttien valmisteluun siten, että kyseinen valuutta on kuin yrityksen paikallinen valuutta.
+> Lisäraportointivaluutta-toimintoa saa käyttää rahoituslaskelmien käännösten perustana vain, jos ymmärtää siihen liittyvät rajoitukset. Tällä työkalulla ei pysty kääntämään ulkomaisten tytäryritysten tilinpäätöksiä osana yrityksen konsolidointia. Lisäraportointivaluuttaa voidaan käyttää vain toista valuttaa käyttävien raporttien valmisteluun siten, että kyseinen valuutta on kuin yrityksen paikallinen valuutta.
+>
+> Sinulla voi olla esimerkiksi suuri määrä myyntisaamisia Ison-Britannian puntina (GBP), ja olet määrittänyt lisäraportointivaluutan (LVA) GBP:ksi. Tässä skenaariossa myyntisaamisten summia, jotka käyttävät GBP:tä, ei oikaista valuuttakurssivoitoiksi/tappioiksi LVA:ssa, vaan ainoastaan myyntisaamisten summat, jotka ovat eri valuutoissa. Tämä tarkoittaa sitä, että jos ilmoitat tilinpäätöksen LVA:n avulla, se voi johtaa liian pieniin tai liian suuriin avoimiin saldoihin myyntisaamisissa.
 
 ## <a name="displaying-reports-and-amounts-in-the-additional-reporting-currency"></a>Raporttien ja summien näyttäminen lisäraportointivaluuttana
 Lisäraportointivaluutan käyttäminen voi helpottaa yrityksen raportointiprosessia seuraavissa tapauksissa:
@@ -48,7 +49,7 @@ Määritä lisäraportointivaluutta seuraavien ohjeiden mukaisesti:
 
 ### <a name="to-specify-general-ledger-accounts-for-posting-exchange-rate-adjustments"></a>Määritä vaihtokurssien muutosmenetelmä kaikille pääkirjanpidon tileille  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Valuutat** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Valuutat** ja valitse sitten vastaava linkki.  
 2. Täytä **Valuutat**-sivulla seuraavat kentät lisäraportointivaluuttaa varten.  
 
 |Kenttä|Description|  
@@ -64,7 +65,7 @@ Määritä lisäraportointivaluutta seuraavien ohjeiden mukaisesti:
 Kutakin KP-tiliä varten on määritettävä, kuinka tilin KP-summat muutetaan PVA:n ja lisäraportointivaluutan välisen vaihtokurssin muuttuessa.  
 
 ### <a name="to-specify-the-exchange-rate-adjustment-method-for-all-general-ledger-accounts"></a>Määritä vaihtokurssien muutosmenetelmä kaikille pääkirjanpidon tileille  
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tilikartta** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tilikartta** ja valitse sitten vastaava linkki.  
 2. Valitse ensin **Tilikartta**-sivulla sopiva tili ja sitten **Muokkaa**-toiminto.  
 3. Valitse **KP-tilin kortti** -sivun **Vaihtokurssin muutos** -kentässä sopiva menetelmä.  
 
@@ -81,7 +82,7 @@ Kutakin KP-tiliä varten on määritettävä, kuinka tilin KP-summat muutetaan P
 4.  Sulje **KP-tilin kortti** -sivu.  
 
 ### <a name="to-specify-exchange-rate-adjustment-method-for-vat-entries"></a>Vaihtokurssien muutosmenetelmän määrittäminen ALV-tapahtumille  
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pääkirjanpidon määritykset** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pääkirjanpidon asetukset** ja valitse sitten vastaava linkki.  
 2. Valitse **Pääkirjanpidon asetukset** -sivun **ALV:n vaihtokurssin muutos** -kentässä sopiva menetelmä.  
 3. Jos tapahtumat kirjataan lisäraportointivaluuttana, **ALV:n vaihtokurssin muutos** -kentässä voi määrittää, kuinka **ALV-kirjausten asetukset** -sivulla ALV-kirjauksille määritettyjä tilejä muutetaan PVA:n ja lisäraportointivaluutan välisen vaihtokurssin muuttuessa.  
 
@@ -96,7 +97,7 @@ Kutakin KP-tiliä varten on määritettävä, kuinka tilin KP-summat muutetaan P
     |**Muuta lisävaluuttasummaa**|Lisäraportointivaluutta muutetaan aina valuuttakurssitappion ja –voiton yhteydessä. Ohjelma kirjaa kaikki vaihtokurssivoitot ja -tappiot KP-tilille ( **Lisävaluutan summa** -kenttä) sekä **Valuutat**-sivun **Realisoitun. KP-voittojen tili**- tai **Realisoitun. KP-tapp. tili** -kentässä voitoille tai tappioille määritetyille tileille.|  
 
 ### <a name="to-activate-the-additional-reporting-currency"></a>Lisäraportointivaluutan aktivoiminen  
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pääkirjanpidon määritykset** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pääkirjanpidon asetukset** ja valitse sitten vastaava linkki.  
 2. Valitse **Pääkirjanpidon asetukset** -sivulla **Lisäraportointivaluutta**-kenttä ja valitse haluamasi raportoinnin lisävaluutta.  
 3. Kun poistut kentästä, [!INCLUDE[prod_short](includes/prod_short.md)] näyttää vahvistussanoman, jossa kuvataan lisäraportointivaluutan valitsemisen (ja aktivoinnin) vaikutus.  
 4. Vahvista valuutan aktivointi valitsemalla **Kyllä**.  

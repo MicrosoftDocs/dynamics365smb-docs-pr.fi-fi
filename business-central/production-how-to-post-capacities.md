@@ -1,6 +1,6 @@
 ---
-title: Kapasiteettien kirjaaminen | Microsoft Docs
-description: Kapasiteettipäiväkirjaan kirjataan kulutetut kapasiteetit, joita ei ole määritelty tuotantotilaukselle. Esimerkiksi ylläpitotyö tulee määritellä kapasiteetille, muttei tuotantotilaukselle.
+title: Kapasiteettien kirjaaminen
+description: Kirjaa kuluneet kapasiteetit, joita ei ole määritetty tuotantotilaukseen kapasiteettipäiväkirjassa, ja tarkastele kirjattuja kapasiteetteja kapasiteettitapahtumien sivulla.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 8f41a5033c79ec500a635d27f8296d01d895ed27
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 024985cb4a2615f374465e5a387901976509a5db
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787925"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444203"
 ---
 # <a name="post-capacities"></a>Kapasiteettien kirjaaminen
 Kapasiteettipäiväkirjaan kirjataan kulutetut kapasiteetit, joita ei ole määritelty tuotantotilaukselle. Esimerkiksi ylläpitotyö tulee määritellä kapasiteetille, muttei tuotantotilaukselle.  
 
 ## <a name="to-post-capacities"></a>Kapasiteettien kirjaaminen  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Kapasiteettipäiväkirjat** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kapasiteettipäiväkirjat** ja valitse sitten vastaava linkki.  
 2.  Täytä **Kirjauspvm**- ja **Asiakirjan nro** -kentät.  
 3.  Syötä **Tyyppi**-kenttään kapasiteetin tyyppi (**Kuormitusryhmä** tai **Tuotantosolu**), jota olet kirjaamassa.  
 4.  Valitse **Nro**-kenttään kuormitusryhmän tai tuotantosolun numero.  
@@ -30,7 +30,7 @@ Kapasiteettipäiväkirjaan kirjataan kulutetut kapasiteetit, joita ei ole määr
 
 ## <a name="to-view-work-center-ledger-entries"></a>Tuotantosolutapahtumien näyttäminen  
 Voit tarkastella **Tuotantosolukortti**- ja **Kuormitusryhmän kortti** -sivuilla valmiiden tuotantotilausten tuloksena kirjattuja kapasiteetteja.    
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Tuotantosolut** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tuotantosolut** ja valitse sitten vastaava linkki.  
 2.  Avaa käsiteltävä **Tuotantosolukortti** luettelossa ja valitse sitten **Kapasiteettitapahtumat**-toiminto.  
 
 **Kapasiteettitapahtumat**-sivulla näkyvät tuotantosolun kirjatut tapahtumat siinä järjestyksessä kuin ne on kirjattu.   

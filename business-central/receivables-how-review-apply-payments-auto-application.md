@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment process, reconcile payment, expenses, cash receipts
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 158227466a588ee3396a5e4bc073d71bca77faff
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: dce6cdfdf70d968ae06c88ad4d567ad5cde803dd
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779020"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443239"
 ---
 # <a name="review-and-apply-payments-manually-after-automatic-application"></a>Maksujen tarkasteleminen ja kohdistaminen automaattisen kohdistuksen jälkeen
 Voit avata kullekin **Maksujen täsmäytyskirjauskansio** -sivulla maksua esittävälle päiväkirjan riville **Maksun kohdistus** -sivun ja tarkastella kaikkia mahdollisia avoimia maksuja ja yksityiskohtaisia tietoja merkintöjen täsmäytyksestä, joihin maksujen kohdistus perustuu. Tässä voit kohdistaa maksuja manuaalisesti tai kohdistaa uudelleen maksuja, joka kohdistettiin automaattisesti väärään merkintään. Lisätietoja automaattisesta kohdistuksesta on kohdassa [Maksujen täsmäyttäminen käyttämällä automaattista kohdistusta](receivables-how-reconcile-payments-auto-application.md).
@@ -37,7 +37,7 @@ Siksi on suositeltavaa etsiä ulkomaan valuuttakoodit **Valuuttakoodi**-kentäst
 >   Voit nyt kohdistaa maksun yhteen tiliin. Jos haluat jakaa kohdistuksen useisiin avoimiin tapahtumiin, esimerkiksi kertasuorituksen käyttämiseksi, avointen tapahtumien on oltava samalle tilille. Lisätietoja on tämän ohjeaiheen menettelytavan vaiheiden 7 ja 8 mukaisesti.
 
 ## <a name="to-review-or-apply-payments-after-automatic-application"></a>Maksujen tarkastelu tai käyttäminen automaattisen kohdistuksen jälkeen
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maksujen täsmäytyskirjauskansiot** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maksujen täsmäytyskirjauskansiot** ja valitse sitten liittyvä linkki.
 2. Avaa sen pankkitilin maksun täsmäytyspäiväkirja jolle haluat täsmäyttää maksut. Lisätietoja on kohdassa [Maksujen täsmäyttäminen käyttämällä automaattista kohdistusta](receivables-how-reconcile-payments-auto-application.md).
 3. Valitse **Maksujen täsmäytyskirjauskansio** -sivulla maksu, jonka haluat tarkistaa tai kohdistaa manuaalisesti yhteen tapahtumaan tai useisiin tapahtumiin. Valitse sitten **Kohdista manuaalisesti** -toiminto.
 4. Valitse **Kohdistettu**-valintaruutu sen avoimen tapahtuman rivillä johon haluat käyttää maksua.

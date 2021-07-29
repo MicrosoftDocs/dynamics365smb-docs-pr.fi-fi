@@ -1,6 +1,6 @@
 ---
-title: Kirjausjaksojen määrittäminen| Microsoft Docs
-description: Määrittämällä kirjauksen aloitus- ja päättymispäivämäärän määrität, milloin käyttäjä voivat kirjata pääkirjanpitoon.
+title: Kirjausjaksojen määrittäminen
+description: Määrittämällä kirjauskaudet (kirjauksen aloitus- ja päättymispäivämäärän) määrität, milloin käyttäjät voivat kirjata pääkirjanpitoon.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,20 +11,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user setup
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 6f1745dfec453f5864b748d0c876e5ef040fc2df
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e4fb495fc29f28dffd34e492cb33d162d671fbd3
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775471"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444360"
 ---
-# <a name="specify-posting-periods"></a>Kirjausjaksojen määrittäminen
+# <a name="how-to-specify-posting-periods"></a>Kirjausjaksojen määrittäminen
 Voit määrittää kirjausjaksojen avulla, milloin käyttäjät voivat tehdä kirjauksia pääkirjanpitoon.  
 
 ## <a name="to-specify-posting-periods"></a>Kirjausjaksojen määrittäminen
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pääkirjanpidon määritykset** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pääkirjanpidon asetukset** ja valitse sitten vastaava linkki.  
 2. Määritä jakso **Pääkirjanpidon asetukset** -sivulla antamalla päivämäärät **Ensimm. sallittu kirjauspvm**- ja **Viimeinen sallittu kirjauspvm** -kenttiin.  
 
 > [!NOTE]  

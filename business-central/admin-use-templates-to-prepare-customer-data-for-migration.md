@@ -1,6 +1,6 @@
 ---
-title: Asiakastietojen siirtämisen valmisteleminen mallien avulla | Microsoft Docs
-description: Tietoja määritysmallien käyttämisestä nykyisten asiakastietojen jäsentämiseen ennen tietojen siirtämistä uuteen yrityksessä Business Centralissa.
+title: Asiakastietojen siirtämisen valmisteleminen mallien avulla
+description: Tietoja määritysmallien käyttämisestä nykyisten asiakastietojen jäsentämiseen ennen päätietojen siirtämistä uuteen yrityksessä Business Centralissa.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: dca94e321e6a244bdea27b16ec4c041bd97e89b7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9dd985237f0e214c404d7f254c023b67af660e48
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776989"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443152"
 ---
 # <a name="prepare-to-migrate-customer-data-with-templates"></a>Asiakastietojen siirtämisen valmisteleminen mallien avulla
 
@@ -47,7 +47,7 @@ Kun valitset olemassa olevan tietomalliin, sinun tulee arvioida, ovatko uudelle 
 > [!TIP]  
 > Tietomallien avulla voit luoda myös uusia tilien kortteja nopeasti. Käytä niitä nopeampaa ja vaivattomampaa tietojen luomista varten. Lisätietoja on ohjeaiheessa [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md).
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Määritysmallit** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Määritysmallit** ja valitse sitten liittyvä linkki.  
 2. Valitse **Määritysmallit**-sivulla luettelosta tietomalli ja valitse sitten **Muokkaa**-toiminto.  
 
 Jos oletusmallit eivät vastaa tarpeitasi, voit luoda uusia malleja tai lisätä olemassa olevaan malliin kenttiä. Jos oletusmallit ovat riittäviä, voit käyttää niitä tai luoda tietueita päätietomallien perusteella.
@@ -100,7 +100,7 @@ Aiemmin luodun tietomallin taulukkotunnus, nimi ja rivit lisätään uuteen mall
 
 Voit luoda Excel-työkirjan malliksi, joka perustuu olemassa olevan tietokannan taulukon rakenteeseen nopeasti. Mallin avulla voit kerätä yhteen asiakastiedot yhdenmukaisessa muodossa myöhempää tuontia varten [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmaan.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Määritystyökirja** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Määritystyökirja** ja valitse sitten liittyvä linkki.
 2. Lisää taulukko luetteloon tai valitse aiemmin luotu taulukko. Lisätietoja on kohdassa [Yrityksen määrittämisen hallinta työkirjassa](admin-how-to-manage-company-configuration-in-a-worksheet.md).
 3. Määritä malliin taulukosta sisällytettävät kentät valitsemalla **Näytä kentät**.
 4. Valitse **Vie malliin** -toiminto.
@@ -130,11 +130,11 @@ Voit käyttää tietorakennetta, joka sisältyy tietomalleihin, muuntaaksesi tie
 
 Seuraavissa vaiheissa esitellään, miten nimikekortti luodaan nimiketietomallista. Voit luoda tietueen mistä tahansa tietomallista käyttäen samaa menettelyä.  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Määritysmallit** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Määritysmallit** ja valitse sitten liittyvä linkki.  
 2. Valitse **nimikemalli** ja valitse sitten **Muokkaa**-toiminto. Lisätietoja on kohdassa [Tietomallin luominen](admin-use-templates-to-prepare-customer-data-for-migration.md#to-create-a-new-data-template).
 3. Valitse **Luo instanssi** -toiminto. Ohjelma luo nimikkeen kortin.  
 4. Valitse **OK**-painike.  
-5. Jos haluat tarkistaa uuden nimikkeen kortin, valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Nimikkeet** ja valitse sitten liittyvä linkki.  
+5. Jos haluat tarkastella uutta nimikorttia, valitse ![Kerro-ominaisuuden avaava Hehkulamppu.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten vastaava linkki.  
 6. Avaa uusi nimikkeen kortti.  
 7. Laajenna eri pikavälilehdet ja varmista, että niihin on syötetty oikeat tiedot.  
 

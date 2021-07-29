@@ -1,6 +1,6 @@
 ---
 title: Nykyisen käyttäjän perusasetusten muuttaminen
-description: Tietoja siitä, miten joitakin perusasetuksia voi muuttaa. Tällaisia perusasetuksia ovat esimerkiksi roolikeskus, yritys ja käsittelypäivämäärä.
+description: Opi muuttamaan joitakin Business Centralin perusasetuksia, kuten rooliasi ja roolikeskusta, yritystä, työpäivämäärää sekä aikavyöhykkeitä.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: a0a504aa7c06c08d2e9f4251128e4203f0f90dee
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e79ebc40ea98e8e488b0394a19014cefd78c2fd0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787450"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443766"
 ---
 # <a name="change-basic-settings"></a>Perusasetusten muuttaminen
 
@@ -33,7 +33,7 @@ Rooli määrittää aloitussivun, joka on suunniteltu organisaation tiettyä roo
 
 Oletusrooli on **Liiketoimintajohtaja**, mutta voit valita toisen roolin, jotta saat käyttöösi tarpeitasi paremmin vastaavan roolikeskuksen.  
 
-1. Valitse oikeassa yläkulmassa **Asetukset**-kuvake ![Asetukset](media/ui-experience/settings_icon_small.png "Roolikeskuksen Asetukset-kuvake") ja valitse sitten **Omat asetukset** -toiminto.
+1. Valitse oikeassa yläkulmassa **Asetukset**-kuvake ![Asetukset.](media/ui-experience/settings_icon_small.png "Roolikeskuksen Asetukset-kuvake") ja valitse sitten **Omat asetukset** -toiminto.
 2. Valitse **Omat asetukset** -sivun **Roolikeskus**-kentässä oletusarvoisesti käytettävä rooli. Valitse esimerkiksi **Kirjanpitäjä**.
 3. Valitse **OK**-painike.
 
@@ -47,7 +47,7 @@ Oletusyrityksen nimi on CRONUS, ja se sisältää vain esittelytietoja. Voit luo
 
 Yrityksen nimi näkyy aina vasemmassa yläkulmassa. Se on myös toiminto, jonka valitsemalla voit palata roolikeskukseen. Tämän nimen voi muuttaa **Yrityksen tiedot** -sivulla.
 
-1. Valitse ![Hammaspyöräkuvake Asetukset-valikon avaamista varten](media/ui-experience/settings_icon_small.png) -kuvake ja valitse sitten **Yritystiedot**-toiminto.
+1. Valitse ![Hammaspyörä-kuvake, joka avaa Asetukset-valikon.](media/ui-experience/settings_icon_small.png) -kuvake ja valitse sitten **Yrityksen tiedot** -toiminto.
 2. Anna uuden yrityksen nimi **Nimi**-kentässä.
 3. Poistu sivulta. Järjestelmä käynnistyy uudelleen ja uusi yritys näkyy vasemmassa yläkulmassa.
 
@@ -55,7 +55,7 @@ Yrityksen nimi näkyy aina vasemmassa yläkulmassa. Se on myös toiminto, jonka 
 
 Voit lisätä oikeaan yläkulmaan mukautetun tunnuksen, jonka valitsemalla voit katsoa nopeasti yrityksen nimen ja vuokraajan tiedot ponnahdusruudussa. Yrityksen merkki on hyödyllinen myös silloin , kun [!INCLUDE[prod_short](includes/prod_short.md)] on upotettu toiseen sovellukseen, kuten Microsoft Teamsiin tai johonkin muuhun verkkosovellukseen. Näissä tapauksissa, koska [!INCLUDE[web_client](includes/web_client.md)] näyttää vähemmän ympäröiviä kontekstuaalisia tietoja, yrityksen merkki toimii ainoana tapana määrittää, mihin yritykseen tai ympäristöön tietue kuuluu.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Yrityksen tiedot** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Yrityksen tiedot** ja valitse sitten vastaava linkki.
 2. Täytä **Yrityksen tunnus**-pikavälilehden kentät tarvittaessa. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 
 > [!NOTE]

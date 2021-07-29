@@ -1,6 +1,6 @@
 ---
 title: Kirjatun myyntilaskun korjaaminen tai peruuttaminen
-description: Ohjeaiheessa käsitellään, miten kirjattu myyntilasku korjataan, kumotaan tai peruutetaan ja miten myyntihyvityslasku kohdistetaan.
+description: Aiheessa käsitellään, miten kirjattu myyntilasku korjataan, kumotaan tai peruutetaan ja miten myyntihyvityslasku kohdistetaan.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 0d6e05a52cb4028087e4c52c56fb9d2f5ab78795
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4656e99f1227668cdf784ab950d38462da6f6c1c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778846"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443430"
 ---
 # <a name="correct-or-cancel-unpaid-sales-invoices"></a>Maksamattomien myyntilaskujen korjaaminen tai peruuttaminen
 
@@ -38,7 +38,7 @@ Kun korjaat tai peruutat kirjatun myyntilaskun, korjaavaa myyntihyvityslaskua k�
 
 ## <a name="to-cancel-a-posted-sales-invoice"></a>Kirjatun myyntilaskun peruuttaminen
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Kirjatut myyntilaskut** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kirjatut myyntilaskut** ja valitse sitten vastaava linkki.  
 2. Valitse kirjattu myyntilasku, jonka haluat peruuttaa.
 
     > [!NOTE]  
@@ -54,7 +54,7 @@ Jos peruutus liittyy osittaiseen laskun kirjaukseen, alkuperäinen myyntitilausr
 
 ## <a name="to-correct-a-posted-sales-invoice"></a>Kirjatun myyntilaskun korjaaminen
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Kirjatut myyntilaskut** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kirjatut myyntilaskut** ja valitse sitten vastaava linkki.  
 2. Valitse kirjattu myyntilasku, jonka haluat korjata.
 
     > [!NOTE]  

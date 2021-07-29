@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: API templates, configuring templates
 ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: 7d39262993a173fec1eae68bcb44a85332a9866a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fef3b56de7724745dcf8385c0e4665e3e2d4743d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773102"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443990"
 ---
 # <a name="configuring-api-templates"></a>API-mallien määritys
 [!INCLUDE[prod_short_md](includes/prod_short.md)]:n API-kirjasto on taustalla olevien objektien yksinkertaistettu esitys. Sovelluksen kaiki ominaisuudet eivät näy liittyvän API:n kautta. **API-asetukset** -sivulla voidaan määrittää malleja, joita käytetään täyttämään objektin tyhjät ominaisuudet, kun luot POST-toiminnon API:n kautta 
@@ -31,7 +31,7 @@ Jotta voit käyttää malleja API-kirjaston kanssa, sinun tulee ensin määritt�
 
 Voit liittää mallin APIin suorittamalla seuraavat vaiheet.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **API-asetukset** ja valitse liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **API-määrittäminen** ja valitse sitten vastaava linkki.
 2. Valitse **Uusi** ja sitten **Järjestys** tietueen arvoksi.  
 Jos API-liittymälle (Sivun tunnus) on valittu useita malleja, mallit otetaan käyttöön järjestyksessä, joka on määritetty **Järjestys**-sarakkeessa.   
 Kun jokaista mallia käytetään, mallissa määritettyjä kenttäarvoja käytetään vain kenttiin, joilla ei ole jo määritettyä arvoa joko eksplisiittisesti tai API-liittymässä tai järjestyksessä aiemmassa mallissa. 

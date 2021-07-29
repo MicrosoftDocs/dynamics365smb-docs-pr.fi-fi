@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2936e819ba50adde6df021cc0dc2694367c29fc9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1465ce4baadec43d28731dab50870af3c10bd77e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778495"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442723"
 ---
 # <a name="combine-shipments-on-a-single-invoice"></a>Toimitusten yhdistäminen yhteen laskuun
 Jos haluat laskuttaa useamman kuin yhden toimituksen kerralla, voit käyttää koontilasku-ominaisuutta.  
@@ -23,7 +23,7 @@ Jos haluat laskuttaa useamman kuin yhden toimituksen kerralla, voit käyttää k
 Ennen kuin koontilaskun voi luoda, samalle asiakkaalle täytyy kirjata useita myyntitoimituksia samassa valuutassa. Toimintoa voi siis käyttää, kun vähintään kaksi myyntitilausta luodaan ja kirjataan toimitetuiksi, mutta ei laskutetuiksi. 
 
 ## <a name="to-manually-combine-shipments-on-a-single-invoice"></a>Yhdistä manuaalisesti toimitukset yhteen laskuun  
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Myyntilaskut** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntilaskut** ja valitse sitten vastaava linkki.  
 2. Valitse **Uusi**-toiminto. Lisätietoja on kohdassa [Myynnin laskutus](sales-how-invoice-sales.md).
 3. Valitse **Tilausasiakkaan nro** asiakas, jolle toimitettujen nimikkeiden lasku lähetetään.  
 4. Valitse **Rivit**-pikavälilehdessä **Hae toimitusrivit** -toiminto.  
@@ -38,7 +38,7 @@ Ennen kuin koontilaskun voi luoda, samalle asiakkaalle täytyy kirjata useita my
 ## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>Yhdistä automaattisesti toimitukset yhteen laskuun  
 [!INCLUDE[prod_short](includes/prod_short.md)] valitsee vain ne myyntitilaukset, joissa on valittu **koontilasku**. 
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Toimitusten yhdistäminen** ja valitse sitten liittyvä linkki. Eräajon pyynnön sivu aukeaa.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tee koontilasku** ja valitse sitten vastaava linkki. Eräajon pyynnön sivu aukeaa.  
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Valitse **Kirjaa laskut** -valintaruutu.  
 4. Valitse **OK**-painike.  
@@ -51,7 +51,7 @@ Kun koontilasku on tehty ja kirjattu, laskutetuille riveille luodaan kirjattu my
 
 Kun laskutat toimitukset näin, säilyvät tilaukset, joista toimitukset kirjattiin, vaikka ne olisi toimitettu ja laskutettu täysin.   
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Poista laskutetut myyntitilaukset** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poista laskutetut myyntitilaukset** ja valitse sitten linkki.  
 2. Määritä **Numero** -kenttään , mitkä myyntitilaukset poistetaan.  
 3. Valitse **OK**-painike.  
 

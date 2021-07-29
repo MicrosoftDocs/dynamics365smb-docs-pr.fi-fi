@@ -1,6 +1,6 @@
 ---
-title: Dimensioyhdistelmän tapahtumien yleiskatsaus | Microsoft Docs
-description: Tässä aiheessa kuvataan, kuinka dimensioyhdistelmän tapahtumat tallennetaan ja kirjataan Dynamics 365:ssä.
+title: Dimensioyhdistelmätapahtumien yleiskuva
+description: Tässä artikkelissa on yleiskuvaus siitä, miten dimensioyhdistelmätapahtumat tallennetaan dimensioyhdistelmätapahtumina ja miten ne kirjataan.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dimension
-ms.date: 06/08/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: c6e3df748269e2f40e3acf0a28ce0f6bc48ca944
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: f5765b82e3fde5ba35d3c0be9fc6383c9ddb5bf7
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215301"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442408"
 ---
 # <a name="dimension-set-entries-overview"></a>Dimensioyhdistelmätapahtumien yleiskuva
 Tässä aiheessa kuvataan, kuinka dimensioyhdistelmän tapahtumat tallennetaan ja kirjataan kohteeseen [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -34,7 +34,7 @@ Seuraavassa esimerkissä näytetään dimensioyhdistelmä, jolla on kolme dimens
 ## <a name="dimension-set-entries"></a>Dimensioyhdistelmän tapahtumat  
 Dimensioyhdistelmät tallennetaan **Dimensioyhdistelmän tapahtuma** -taulukkoon dimensioyhdistelmätapahtumina, joilla on sama dimensioyhdistelmän tunnus.  
 
-![Dimensiojoukon tapahtumien prosessi](media/dimensionentrynav7.png "Dimensiojoukon tapahtumien prosessi")  
+![Dimensiojoukon tapahtumien prosessi.](media/dimensionentrynav7.png "Dimensiojoukon tapahtumien prosessi")  
 
 Kun luot uuden päiväkirjarivin, asiakirjaotsikon tai asiakirjarivin, voit määrittää dimensioarvojen yhdistelmän. Sen sijaan, että tallentaisit jokaisen dimensioarvon erikseen tietokantaan, dimensioyhdistelmä määritetään päiväkirjan rivillä, asiakirjaotsikossa tai asiakirjan rivillä dimensioyhdistelmän tunnuksen avulla.  
 

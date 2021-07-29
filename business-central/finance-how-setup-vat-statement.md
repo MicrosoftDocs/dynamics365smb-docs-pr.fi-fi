@@ -1,6 +1,6 @@
 ---
-title: ALV-ilmoituksen määrittäminen | Microsoft-dokumentit
-description: ALV-ilmoituksen määrittäminen
+title: ALV-ilmoituksen määrittäminen
+description: Tässä ohjeaiheessa kerrotaan, miten ALV-ilmoitusmalli ja ALV-ilmoitusnimet määritetään vastaamaan muuttuvia veroviranomaisvaatimuksia.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: 8a7373a22cff16a32fe92bf2f2d9064d2f12e950
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 322a501a4b1d404ef39523e93b45409eb60d7c4b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775448"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444385"
 ---
 # <a name="set-up-a-vat-statement"></a>ALV-ilmoituksen määrittäminen
 
@@ -25,7 +25,7 @@ Veroviranomaiset voivat muuttaa ALV:n kirjausvaatimuksia. ALV-ilmoitusmallit ja 
 ## <a name="to-define-a-vat-statements"></a>ALV-ilmoitusten määrittely
 ALV-ilmoitusten avulla voi laskea ALV-laskelman summan tietyltä kaudelta, esimerkiksi neljännesvuoden ajalta.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **ALV-ilmoitukset** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **ALV-ilmoitukset** ja valitse sitten vastaava linkki.  
 2. Valitse **Nimi**-kenttä ja valitse sitten **ALV-ilmoitusten nimet** -sivulla **Uusi**.
 3. Täytä vaaditut kentät. Tavallisesti halutaan määritys jokaiselle Liiketoiminnan kirjausryhmän/tuotteen ALV-kirjausryhmän yhdistelmälle. Rivinumeroiden osalta on järkevää käyttää samoja numeroita tai koodeja kuin virallisen ALV-ilmoituksen yhteydessä [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: a27556350851de61bd31504d0c29ef60df6d890a
-ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
+ms.openlocfilehash: a2dd15629dfde9d2cefe6c04b758c1b88075253b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6017172"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443691"
 ---
 # <a name="sorting-searching-and-filtering"></a>Lajitteleminen, hakeminen ja suodattaminen
 
@@ -24,7 +24,7 @@ Luettelossa, raportissa tai XMLportissa olevien tietueiden skannaamista, etsimis
 Raporteissa ja XMLporteissa suodattimet voidaan määrittää luetteloiden tavoin rajoittamaan raporttiin tai XMLportiin sisällytettäviä tietoja, mutta lajittelu ja haku ei ole mahdollista.
 
 > [!TIP]
-> Kun tarkastelet tietoja ruutuina, voit hakea tietoja ja käyttää suodatusta. Jos haluat käyttää lajittelun, haun ja suodattamisen tehokkaita toimintoja, valitse ![Näytä luettelona](media/ui_show_as_list_icon.png "Näytä luettelona – nuoli vasemmalle") -kuvake, jolloin tietueita voidaan tarkastella luettelona.
+> Kun tarkastelet tietoja ruutuina, voit hakea tietoja ja käyttää suodatusta. Jos haluat käyttää lajittelun, haun ja suodattamisen tehokkaita toimintoja, valitse ![Näytä luettelona.](media/ui_show_as_list_icon.png "Näytä luettelona – nuoli vasemmalle") -kuvake, jos haluat tarkastella tietueita luettelona.
 
 <!--
 When you want to search for data, such as customer names, addresses, or product groups, you enter criteria. In search criteria, you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.
@@ -45,7 +45,7 @@ Voit lajitella luettelon seuraavasti:
 ## <a name="searching"></a>Hakeminen
 
 <!--## Searching by using the Quick Filter -->
-Kunkin luettelosivun yläosassa on ![Hakuluettelon](media/ui-search/search-list.png "Hakuluettelon kuvake") **Haku**-toiminto, jonka avulla luettelon tietueiden määrää on helppo vähentää. Näin näkyvissä ovat vain tietueet, jotka sisältävät käyttäjää kiinnostavia tietoja.
+Jokaisen luettelosivun yläosassa on ![Hakuluettelo.](media/ui-search/search-list.png "Hakuluettelon kuvake") **Haku**-toiminto, jonka avulla luettelon tietueiden määrää on helppo vähentää. Näin näkyvissä ovat vain tietueet, jotka sisältävät käyttäjää kiinnostavia tietoja.
 
 Voit aloittaa haun valitsemalla **Haku**-toiminnon ja kirjoittamalla ruutuun tekstin, jota haetaan. Voit syöttää kirjaimia, numeroita ja muita symboleita.
 
@@ -144,7 +144,7 @@ Voit antaa suodatinruudussa ja pyyntösivulla suodatusehdot suodatuskentän ruud
 
 Suodatettavan kentän tyyppi määrittää, millaisia ehtoja voi antaa. Jos esimerkiksi suodatetaan kenttä, jossa on kiinteitä arvoja, valittavissa on vain nämä arvot. Lisätietoja erityisistä suodatussymboleista on kohdissa [Suodatusehdot](#FilterCriteria) ja [Suodatuksen tunnukset](#FilterTokens).
 
-Sarakkeet, joilla on jo suodattimia, löytyvät, kun käytössä on sarakeotsikon ![Suodatus-kuvake](media/ui-search/filter-icon.png "Suodatin-kuvake"). Voit poistaa suodattimen valitsemalla avattavan luettelon nuolen ja valitsemalla sitten **Tyhjennä suodatin** -toiminnon.
+Sarakkeita, joilla on jo suodattimia, ilmaisee ![Suodatin-kuvake.](media/ui-search/filter-icon.png "Suodatin-kuvake") -kuvake sarakeotsikossa. Voit poistaa suodattimen valitsemalla avattavan luettelon nuolen ja valitsemalla sitten **Tyhjennä suodatin** -toiminnon.
 
 > [!TIP]
 > Nopeuta tietojen etsimistä ja analysoimista pikanäppäinyhdistelmien avulla. Voit esimerkiksi valita kentän ja lisätä kentän suodatinruutuun **Vaihto+Alt+F3**-pikanäppäinten avulla, kirjoittaa suodatinehdot ja palata riveille **Ctrl+Enter**-pikanäppäinten avulla. Valitse toinen kenttä ja suodata sen arvot **Alt+F3**-pikanäppäimillä. Lisätietoja on kohdassa [Pikanäppäimet](keyboard-shortcuts.md#KeyboardFilter).

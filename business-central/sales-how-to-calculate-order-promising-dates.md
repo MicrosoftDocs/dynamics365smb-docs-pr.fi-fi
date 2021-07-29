@@ -1,21 +1,21 @@
 ---
 title: Toimituksen lupaamisen päivämäärien laskeminen
-description: Toimituksen lupaamisen toiminto on työkalu, jolla lasketaan aikaisin mahdollinen päivämäärä, jolloin nimike on saatavilla toimitettavaksi tai lähetettäväksi. Toiminnolla luodaan myös hankintarivejä hyväksymillesi päivämäärille.
-author: SorenGP
+description: Toimituksen lupaamisen toiminto on työkalu, jolla lasketaan aikaisin mahdollinen päivämäärä, jolloin nimike on saatavilla toimitettavaksi tai lähetettäväksi.
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: f9550d81eb193cb76cd846d98e1259226fd77895
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: b7f23153fe59451b6fc943b0e1115ae0bc895b7c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115588"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442748"
 ---
 # <a name="calculate-order-promising-dates"></a>Toimituksen lupaamisen päivämäärien laskeminen
 Yrityksen on voitava ilmoittaa asiakkailleen tilauksen toimituksen päivämäärät. Voit tehdä tämän **Toimituksen lupaamisen rivit** -sivulla myyntitilauksesta.  
@@ -76,7 +76,7 @@ Tilausten käsittelijä päättää CTP-prosessin hyväksymällä päivämäär�
 **Toimituksen lupaamisen rivit** -sivulla suoritettavan ulkoisen toimituksen lupaamisen lisäksi voit luvata tuoterakenteen nimikkeille myös sisäisiä tai ulkoisia päivämääriä. Lisätietoja on kohdassa [Nimikkeiden saatavuuden tarkasteleminen](inventory-how-availability-overview.md).
 
 ## <a name="to-set-up-order-promising"></a>Toimituksen lupaamisen määrittäminen  
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Toimituksen lupaamisen asetuk.** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Toimituksen lupaamisen asetuk.** ja valitse sitten vastaava linkki.  
 2. Syötä **Offset (Aika)** -kenttään numero ja aikayksikön koodi. Valitse yksi seuraavista koodeista:  
 
     |Koodi|Kuvaus|  
@@ -94,14 +94,14 @@ Tilausten käsittelijä päättää CTP-prosessin hyväksymällä päivämäär�
 
 ### <a name="to-enter-inbound-warehouse-handling-time-in-the-inventory-setup-page"></a>Saapuvan fyysisen varastoinnin käsittelyajan antaminen varastonhallinnan asetussivulla  
 Jos haluat ohjelman sisällyttävän saapuvan fyysisen varastoinnin käsittelyajan ostorivin toimituksen lupaamisen laskentaan, voit määrittää sen oletusarvoksi varastolle ja sijainnille.    
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varastonhallinnan asetukset** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varastonhallinnan asetukset** ja valitse sitten vastaava linkki.  
 2. Syötä **Yleinen**-pikavälilehden **Saapuva f. var. käsittelyaika** -kenttään päivien lukumäärä, jonka haluat ohjelman sisällyttävän tilauksen lupaamisen laskentaan.  
 
 > [!NOTE]  
 >  Jos olet täyttänyt **Saapuva f. var. käsittelyaika** -kentän **sijaintikortissa** sijaintisi osalta, ohjelma käyttää kyseisen kentän sisältöä oletusarvoisena saapuvan fyysisen varastoinnin käsittelyaikana.  
 
 ### <a name="to-enter-inbound-warehouse-handling-time-on-location-cards"></a>Saapuvan fyysisen varastoinnin käsittelyajan syöttäminen sijaintikortteihin  
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Sijainti** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sijainti** ja valitse sitten vastaava linkki.  
 2.  Avaa käsiteltävä sijainnin kortti.  
 3.  Syötä **Fyysinen varasto**-pikavälilehden **Saapuva f. var. käsittelyaika** -kenttään päivien lukumäärä, jonka haluat ohjelman sisällyttävän tilauksen lupaamisen laskentaan.  
 
@@ -111,14 +111,14 @@ Jos haluat ohjelman sisällyttävän saapuvan fyysisen varastoinnin käsittelyaj
 ### <a name="to-enter-outbound-warehouse-handling-time-in-the-inventory-setup-page"></a>Lähtevän fyysisen varastoinnin käsittelyajan antaminen varastonhallinnan asetussivulla  
 Jos haluat määrittää lähtevän fyysisen varastoinnin käsittelyajan sisällytettäväksi myyntirivin toimituksen lupaamisen laskentaan, voit määrittää tämän oletusarvoksi varastolle.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varastonhallinnan asetukset** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varastonhallinnan asetukset** ja valitse sitten vastaava linkki.  
 2. Syötä **Yleinen**-pikavälilehden **Lähtevä f. var. käsittelyaika** -kenttään päivien lukumäärä, jonka haluat ohjelman sisällyttävän tilauksen lupaamisen laskentaan.  
 
 > [!NOTE]  
 >  Jos olet täyttänyt **Lähtevä f. var. käsittelyaika** -kentän sijaintikortissa sijaintisi osalta, ohjelma käyttää kyseisen kentän sisältöä oletusarvoisena lähtevän fyysisen varastoinnin käsittelyaikana.  
 
 ### <a name="to-enter-outbound-warehouse-handling-time-on-location-cards"></a>Lähtevän fyysisen varastoinnin käsittelyajan syöttäminen sijaintikortteihin  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Sijainnit** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sijainnit** ja valitse sitten vastaava linkki.  
 2.  Avaa käsiteltävä sijainnin kortti.  
 3.  Syötä **Fyysinen varasto**-pikavälilehden **Lähtevä f. var. käsittelyaika** -kenttään päivien lukumäärä, jonka haluat ohjelman sisällyttävän tilauksen lupaamisen laskentaan.  
 
@@ -127,12 +127,12 @@ Jos haluat määrittää lähtevän fyysisen varastoinnin käsittelyajan sisäll
 
 ## <a name="to-make-an-item-critical"></a>Nimikkeen määritteleminen kriittiseksi  
 Nimike on merkittävä kriittiseksi, ennen kuin sen voi sisällyttää toimituksen lupaamislaskentaan. Tämä asetus varmistaa, etteivät ei-kriittiset nimikkeet aiheuta turhia toimituksen lupaamislaskutoimituksia.   
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Nimikkeet** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten vastaava linkki.  
 2.  Avaa oikea nimikkeen kortti.  
 3.  Valitse **Suunnittelu**-pikavälilehdessä **Kriittinen**-kenttä.  
 
 ## <a name="to-calculate-an-order-promising-date"></a>Toimituksen lupaamisen päivämäärän laskeminen  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Myyntitilaus** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaus** ja valitse sitten vastaava linkki.  
 2.  Avaa asianmukainen myyntitilaus ja valitse myyntitilausrivit, jotka haluat sovelluksen laskevan.  
 3.  Valitse ensin **Toimituksen lupaaminen** -toiminto ja sitten **toimituksen lupaamisen rivit** -toiminto.  
 4.  Valitse ensin rivi ja sitten jokin seuraavista vaihtoehdoista:  

@@ -1,6 +1,6 @@
 ---
-title: Päivämäärien ja aikojen syöttäminen Business Central -sovelluksessa | Microsoft Docs
-description: Tietoja päivämäärien ja aikojen syöttämisestä sekä erilaisista tuottavuutta lisäävistä vihjeistä, jotka liittyvät esimerkiksi pikakirjoitukseen, lausekkeisiin ja alueisiin. Suodata luettelot tai raportit tiettyyn päivämäärään tai tiettyihin ajanjaksoihin.
+title: Päivämäärien ja aikojen syöttäminen Business Centralissa
+description: Tietoja päivämäärien ja aikojen syöttämisestä sekä erilaisista tuottavuutta lisäävistä vihjeistä, jotka liittyvät esimerkiksi pikakirjoitukseen, lausekkeisiin ja alueisiin.
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 404c39cba663cebc4d9ab30126de97bd20cf7e8e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8254afc467474906dd80ae76ba134a0bce88c3a0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773528"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443641"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Kalenterin päivämäärien ja aikojen käsitteleminen
 
@@ -48,7 +48,7 @@ Seuraavissa osissa esiteltyjen menetelmien ja muotojen avulla voit käyttää p�
 
 Mitä tahansa kalenterikuvakkeen sisältävä kenttä voidaan määrittää kalenterin päivämäärän valitsimen avulla. Voit näyttää kalenterin päivämäärän valitsimen aktivoimalla kalenterikuvakkeen tai painamalla kentässä pikanäppäimiä Ctrl + Home.
 
-![Pvm-kentät](media/ui-date-field.png "Esimerkki päivämääräkentästä")
+![Pvm-kentät.](media/ui-date-field.png "Esimerkki päivämääräkentästä")
 
 Katso myös [Kalenterin päivämäärän valitsimen pikanäppäimet](keyboard-shortcuts.md#calendarshortcuts)
 
@@ -72,7 +72,7 @@ Päivämäärä-kenttään voi syöttää kaksi, neljä, kuusi tai kahdeksan num
 
 ### <a name="today"></a>Tänään
 
-Syötä sana today-määritteelle **Kieli**-asetuksen määrittämällä kielellä. Tällöin päivämääräksi tulee nykyinen päivämäärä. Sen sijaan, että syöttäisit koko sanan, voit syöttää sanan alkuosan, kuten t tai tän (sanasta tänään), jos mikään toinen sana ei ala samoilla kirjaimilla.
+Syötä sana _today_ **Omat asetukset** -sivulla määritetyllä kielellä määrittääksesi tietueen päivämäärän tälle päivämäärälle. Sen sijaan, että syötät koko sanan, voit syöttää sanan alkuosan. Esimerkiksi suomeksi voit syöttää _t_ tai _tän_, kunhan se ei ole myös jonkin toisen sanan alku.
 
 ### <a name="period"></a>Jakso
 
@@ -80,15 +80,13 @@ Voit suodattaa tietyn kirjanpitojakson antamalla päivämääräkentässä kirja
 
 Kirjanpitojaksot määritetään **Kirjanpitojaksot**-sivulla. Voit tarkastella tai muuttaa kirjanpitojaksoja avaamalla sivun [täällä](https://businesscentral.dynamics.com/?page=100).
 
-### <a name="current-work-date"></a>Nykyinen käsittelypvm
+### <a name="work-date"></a>Käsittelypäivämäärä
 
-Käsittelypäivämäärän toiminnon avulla voit tallentaa käännökset muun kuin nykyisen päivämäärän avulla.
+Käytä käsittelypäivämäärää määrittääksesi päivämäärän, joka ei ole tietueissa tämä päivämäärä. Käsittelypäivämäärästä on hyötyä esimerkiksi tilanteessa, jossa useille tietueille on asetettava tietty päivämäärä. Käsittelypäivämäärä määritetään **Omat asetukset** -sivulla. 
 
-Käsittelypäivämäärä-sana **Kieli**-asetuksen määrittämällä kielellä määrittää nykyisen käsittelypäivämäärän, joka on määritetty **Omat asetukset** -sivulla. Sen sijaan, että syötät koko sanan, voit syöttää sanan alkuosan, esimerkiksi k, kun sana on käsittely.
+Nopea tapa syöttää tietueiden käsittelypäivämäärä on syöttää sana _work_ tai osa siitä sanan alusta alkaen kielellä, jota käytät [!INCLUDE[prod_short](includes/prod_long.md)]issa. Esimerkiksi suomeksi voit syöttää _k_ tai _käsit_. Myös kieli määritetään **Omat asetukset** -sivulla.
 
-Jos et ole määrittänyt käsittelypäivämäärää, nykyistä päivämäärää käytetään käsittelypäivämääränä. Haluat ehkä käyttää käsittelypäivämäärää, jos sellaisia tapahtumia on paljon, joissa on jokin muu kuin tämän päivän päivämäärä.
-
-Katso myös [Perusasetusten, kuten käsittelypäivämäärän, muuttaminen](ui-change-basic-settings.md#work-date).
+Jos et ole määrittänyt käsittelypäivämäärää, käytetään tämän päivän päivämäärää. Lisätietoja on kohdassa [Perusasetusten, kuten käsittelypäivämäärän, muuttaminen](ui-change-basic-settings.md#work-date).
 
 ### <a name="closing-date"></a>Sulkemispvm
 
@@ -199,7 +197,7 @@ Miinus-merkin avulla pystyt ilmaisemaan menneitä päiviä. Esimerkiksi:
 # Entering Date Ranges
 You can set filters containing a start date and an end date to display only the data contained in that date range or time interval. Special rules apply to the way you set date ranges. Let's take the **Customer Top 10** as an example:
 
-![Setting a date range in the request page for the Customer Top 10 list](./media/ui-enter-date-ranges/customer-top10-list.png)
+![Setting a date range in the request page for the Customer Top 10 list.](./media/ui-enter-date-ranges/customer-top10-list.png)
 
 Here you can limit the report to a date range such as the past 2 weeks, or a total of 6 weeks, or whatever range you want. To set date ranges, you enter dates and then use either **..** or **|** to set the range. In our example, to show the top 10 customers for the first two weeks of May, you would set the date filter to *05 01 17..05 14 17*.
 Here are a couple of other examples:

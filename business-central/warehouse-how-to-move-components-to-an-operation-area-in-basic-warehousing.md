@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4b9a131b890efe1612ec05d6810d5b661447b26f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e8ccd03e24c80e1cd7ac2fe39d272599af7f72fe
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782657"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444153"
 ---
 # <a name="move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Komponenttien siirtäminen toiminta-alueelle fyysisen varastoinnin perusmäärityksissä
 Jos fyysisen varaston sijainnissa on nimikkeen käsittelytoimintoja, nimikkeitä on ehkä siirrettävä sisäisten varastopaikkojen välillä vastaamaan sisäisiä lähdeasiakirjoja, kuten sijainnin tuotantoa, kokoonpanoa tai huoltotilauksia.  
@@ -47,7 +47,7 @@ Myös varastotyöntekijä voi luoda sen valitsemalla kyseisen julkaistun kokoonp
 Tässä toimenpiteessä kuvataan, miten voit luoda varastosiirron **Varastosiirto**-sivulla viittaamalla vapautettuun kokoonpanotilaukseen lähdeasiakirjana. Menettely on sama kun siirrät tuotantotilausten ja huoltotilausten osia.  
 
 ## <a name="to-move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Komponenttien siirtäminen toiminta-alueelle fyysisen varastoinnin perusmäärityksissä  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Varaston siirto** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varastosiirto** ja valitse sitten vastaava linkki.  
 2.  Täytä **Yleinen**-pikavälilehden **Nro** -kentässä. Jos painat Enter-näppäintä valitaksesi numerosarjoista.  
 3.  Anna **Sijaintikoodi**-kentässä sijainti, jossa varaston siirto tapahtuu.  
 4.  Valitse **Hae lähdeasiakirjat** -toiminto. Voit myös täyttää **Lähdeasiakirja**-kentän ja valita sitten **MuokkausApu**-painikkeen **Lähteen nro** -kentässä.  

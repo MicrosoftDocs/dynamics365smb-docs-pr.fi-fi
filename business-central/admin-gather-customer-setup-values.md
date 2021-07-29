@@ -1,6 +1,6 @@
 ---
-title: Asiakkaan asetusarvojen kerääminen | Microsoft Docs
-description: Määrityskyselylomakkeen avulla vähennät toteutuksen kuormitusta virtaviivaistamalla uuden yrityksen määritystehtävän. Voit luoda määrityskyselylomakkeen Business Centralissa ja toimittaa sen asiakkaalle Excel (.xlsx)- tai XML-tiedostona.
+title: Asiakkaan asetusarvojen kerääminen
+description: Määrityskysely helpottaa käyttöönottoa virtaviivaistamalla uusien yritysten perustamista ja tarjoamalla asiakkaille Excel- tai XML-tiedoston.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: af8d2bb31b5f76912d69b123803243cfce1445bd
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d38074c1ba42377707503fc87f242ad483552c93
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783972"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443891"
 ---
 # <a name="gather-customer-setup-values"></a>Asiakkaan asetusarvojen kerääminen
 Määrityskyselylomakkeen avulla vähennät toteutuksen kuormitusta virtaviivaistamalla uuden yrityksen määritystehtävän. Voit luoda määrityskyselylomakkeen [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa ja toimittaa sen asiakkaalle Excel-tai XML-tiedostona.  
@@ -50,9 +50,9 @@ Kyselylomakkeen avulla voit selvittää kokoonpanon laajuuden ja tarpeet. Voit l
 -   Fyys. varastoinnin asetukset  
 
 > [!NOTE]  
->  Jos haluat nähdä asetustaulukoiden täydellisen luettelon, valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, kirjoita **Määritys** ja valitse sitten liittyvä linkki. Määritä tietueiden tietojen siirron laajuus käyttämällä siirtotoimintoa. Lisätietoja on ohjeaiheessa [Asiakastietojen siirtäminen](admin-migrate-customer-data.md).  
+>  Nähdäksesi täydellisen luettelon asetustaulukoista valitse ![Lamppu, joka avaa toisena Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Määritys** ja valitse sitten vastaava linkki. Määritä tietueiden tietojen siirron laajuus käyttämällä siirtotoimintoa. Lisätietoja on ohjeaiheessa [Asiakastietojen siirtäminen](admin-migrate-customer-data.md).  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Konfiguraatiokysely** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Määrityskysely** ja valitse sitten vastaava linkki.  
 2. Valitse **Uusi**-toiminto.   
 3. Syötä **Konfiguraatiokyselylomakkeen** -sivun **koodi** -kenttään... 
 <!--4. In the **Name** field, enter...
@@ -98,7 +98,7 @@ Käytä määrityskyselylomaketta, kun muotoilet ja dokumentoit yksityiskohtaise
 >  Voit myös luoda oman määrityskyselylomakkeen, joka vastaa tarpeitasi.  
 
 1. Avaa yritys, jonka kyselyn haluat viimeistellä.
-2. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Konfiguraatiokysely** ja valitse sitten liittyvä linkki.  
+2. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Määrityskysely** ja valitse sitten vastaava linkki.  
 3. Valitse yrityksen kysely ja valitse sitten **Vie Exceliin** -toiminto tai vaihtoehtoisesti **Vie XML-muotoon** -toiminto.
 4. Pyydä asiakasta täyttämään määrityskyselylomake antamalla vastaukset Excel-työkirjaan. Jokaiselle kysymyslomaketta varten luodulle kysymysalueelle on olemassa työkirjoja.   
 5. Tallenna Excel-työkirja *XML-tietona*. Valitse **Tuo XML-tiedostosta** -toiminto ja valitse asiakkaan vastaukset sisältävä .xml-tiedosto.
@@ -131,7 +131,7 @@ Kun tarkistus on tehty, tiedot ovat valmiita käyttöön tietokantaa varten.
 ## <a name="to-apply-answers-from-the-configuration-questionnaire"></a>Määrityskyselylomakkeen vastausten käyttäminen
 Kun olet tuonut määrityskyselylomakkeen tiedot ja vahvistanut ne, voit siirtää tai käyttää asetustietoja vastaaviin taulukoihin [!INCLUDE[prod_short](includes/prod_short.md)] -tietokannassa.  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Konfiguraatiokysely** ja valitse sitten liittyvä linkki. **Määrityskysely**-sivu avautuu.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Määrityskysely** ja valitse sitten vastaava linkki. **Määrityskysely**-sivu avautuu.  
 2. Valitse määrityskyselylomake luettelosta ja valitse sitten **Muokkaa luetteloa** -toiminto.  
 3. Voit käyttää vastauksia jommalla kummalla tavalla.  
 

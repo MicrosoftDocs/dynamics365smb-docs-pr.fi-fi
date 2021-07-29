@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: supplier, payment priority
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1604113b255a585532677ccb47d7e68d1cc64059
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d83fe736298e4cae3b6b86a495e0567057df2cc5
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772777"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443292"
 ---
 # <a name="prioritize-vendors"></a>Toimittajien priorisointi
 [!INCLUDE[prod_short](includes/prod_short.md)] voi ehdottaa eri maksuja toimittajille, esimerkiksi maksuja, jotka erääntyvät pian, ja maksuja, joista voi saada alennuksen. Lisätietoja on kohdassa [Toimittajamaksujen ehdottaminen](payables-how-suggest-vendor-payments.md).
@@ -27,7 +27,7 @@ Ensin priorisoidaan toimittajat liittämällä heille numerot.
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PRGa?rel=0]
 
 ## <a name="to-prioritize-vendors"></a>Toimittajien priorisointi
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Toimittajat** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Toimittajat** ja valitse sitten vastaava linkki.
 2. Valitse asianmukainen toimittaja ja valitse sitten **Muokkaa**.
 3. Syötä **Prioriteetti**-kenttään numero.
 

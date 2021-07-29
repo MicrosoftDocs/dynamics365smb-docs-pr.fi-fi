@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: fd35c0af4d2b66f99c0a4a3a65f77826cd9af806
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 313de95353fc42b222fa95cd36d320881a7fbdb8
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775920"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442583"
 ---
 # <a name="set-up-incoming-documents"></a>Määritä saapuvat asiakirjat
 
@@ -29,7 +29,7 @@ Kun Saapuvat asiakirjat -ominaisuus on määritetty, voit käyttää erilaisia t
 
 ## <a name="to-set-up-the-incoming-documents-feature"></a>Saapuvat asiakirjat -ominaisuuden määrittäminen
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Saapuvien asiakirjojen asetukset** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Saapuvan asiakirjan määritys** ja valitse sitten vastaava linkki.
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Määritysten osan päätettävä, onko saapuville asiakirjoille pyydettävä hyväksyntää. Hyväksynnän pyytämäistä varten on määritettävä hyväksyjät ja hyväksymistyönkulut. Jos organisaation tarkoituksena ei ole edellyttää hyväksyntää, seuraavan osan voi ohittaa.  
@@ -44,7 +44,7 @@ Ennen kuin voit luoda työnkulkuja, joihin liittyy hyväksyntävaiheita, sinun o
 
 ## <a name="to-set-up-an-ocr-service"></a>OCR-palvelun määrittäminen
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **OCR-huollon asetukset** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **OCR-huollon asetukset** ja valitse sitten vastaava linkki.
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  

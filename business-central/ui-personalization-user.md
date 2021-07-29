@@ -1,6 +1,6 @@
 ---
-title: Sivujen mukauttaminen | Microsoft Docs
-description: Lisätietoja käyttöliittymän mukauttamisesta omaan Business Centralin käyttötapaan sopivaksi.
+title: Sivujen mukauttaminen
+description: Lisätietoja käyttöliittymän ja työtilan mukauttamisesta omaan Business Centralin käyttötapaan ja omiin preferensseihin sopivaksi.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 6069e3d1bcfde5c7aead1daeb33b35201c9f05a4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: dbcf9f396c3f92093241a17cb6a358580f015cbe
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783309"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442673"
 ---
 # <a name="personalize-your-workspace"></a>Työtilan mukauttaminen
 Voit mukauttaa työtilan työskentelyysi ja valintoihisi sopivaksi muuttamalla sivujen ulkoasua siten, että vain tarvitsemasi tiedot näkyvät siellä, missä niitä tarvitset. Mukauttamalla tehdyt muutokset koskevat vain omaa näkymääsi; muut käyttäjät eivät siis näe mukautuksiasi.
@@ -42,7 +42,7 @@ Muiden mukautusten tavoin sarakkeen leveyteen tehdyt muutokset tallennetaan tili
 
 ## <a name="to-start-personalizing-a-page-through-the-personalizing-banner"></a>Sivun mukauttamisen aloittaminen **Mukauttaminen**-palkin avulla
 1. Avaa mukautettava sivu.
-2. Valitse oikeassa yläkulmassa ![Asetukset](media/ui-experience/settings_icon_small.png "Roolikeskuksen Asetukset-kuvake")-kuvake, ja valitse sen jälkeen **Mukauta**-toiminto.
+2. Valitse oikeasta yläkulmasta ![Asetukset.](media/ui-experience/settings_icon_small.png "Roolikeskuksen Asetukset-kuvake") -kuvake ja valitse sitten **Mukauta**-toiminto.
 
     **Mukautetaan**-palkki tulee yläreunaan osoittamaan, että voit aloittaa muutosten tekemisen.
 

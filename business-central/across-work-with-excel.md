@@ -10,37 +10,41 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 7e3abf36444c4701229ffaac7ceade11bb1879cc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6bf12f55f6bce843c4ed12f2a40db542367fffde
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786930"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443471"
 ---
 # <a name="viewing-and-editing-in-excel-from-business-central"></a>Näyttäminen ja muokkaaminen Excelissä Business Centralista
 
-Jos sinulla on riveille ja sarakkeisiin sijoittava tietueluettelo, kuten asiakas-, myyntitilaus- tai laskuluettelo, voit katsoa tietueita myös Microsoft Excelissä. Sen voi tehdä kahdella tavalla. Voit valita sivulla joko **Avaa Excelissä**- tai **Muokkaa Excelissä** -toiminnon. Toimintojen erot ovat seuraavat:  
+Jos sinulla on riveille ja sarakkeisiin sijoittava tietueluettelo, kuten asiakas-, myyntitilaus- tai laskuluettelo, voit katsoa tietueita myös Microsoft Excelissä. Sivusta riippuen Excelissä tarkastelemiseen on kaksi vaihtoehtoa. Voit valita sivulla joko **Avaa Excelissä**- tai **Muokkaa Excelissä** -toiminnon. Tässä artikkelissa selitetään näiden kahden toiminnon erot.
 
 ## <a name="open-in-excel"></a>Avaa Excelissä
 
+**Avaa Excelissä** -toiminnon avulla voit tehdä muutoksia tietueisiin Excelissä, mutta et voi julkaista muutoksia takaisin [!INCLUDE[prod_short](includes/prod_short.md)]iin. Voit ainoastaan tallentaa muutokset Excel-tiedostoon omassa tietokoneessa.
+
 - Tätä toimintoa käytettäessä Excel noudattaa sivulla olevia näytettäviä tietueita, jotka rajoittavat suodattimia. Excel-työkirjassa on samat rivit ja sarakkeet, jotka näkyvät [!INCLUDE[prod_short](includes/prod_short.md)]in sivulla.
 
-- Voit tehdä muutoksia tietueisiin Excelissä, mutta et voi julkaista näitä muutoksia takaisin [!INCLUDE[prod_short](includes/prod_short.md)]iin. Voit ainoastaan tallentaa muutokset Excel-tiedostoon omassa tietokoneessa.
-
 - Tätä toimintoa voi käyttää sekä Windows- että Mac-käyttöjärjestelmässä.
+
+- Päivityksestä 18.3 alkaen voit tarkastella myös sivun osissa näkyviä luetteloita, kuten myyntitilauksen rivejä. Toistaiseksi tämä on valinnainen ominaisuus, joka edellyttää, että otat käyttöön toiminnon **Vie mikä tahansa luettelon osa Exceliin** kohdassa **Ominaisuuksien hallinta**. Lisätietoja on kohdassa [Tulevien ominaisuuksien ottaminen käyttöön etuajassa](/dynamics365/business-central/dev-itpro/administration/feature-management). 
 
 > [!NOTE]
 > Paikallisessa [!INCLUDE[prod_short](includes/prod_short.md)]:ssa **Avaa Excelissä** -toiminto on oletusarvoisesti käytettävissä. Jos kuitenkin [!INCLUDE[prod_short](includes/prod_short.md)] määrität paikallisesti muokkausta varten tietoja Excelissä, **Avaa Excelissä-toiminnon** korvaa **Muokkaa Excelissä** -toiminto.
 
+[!INCLUDE [send-report-excel](includes/send-report-excel.md)]  
+
 ## <a name="edit-in-excel"></a>Muokkaa Excelissä
+
+**Muokkaa Excelissä** -toiminnon avulla voit tehdä muutoksia tietueisiin Excelissä ja voit julkaista muutokset takaisin [!INCLUDE[prod_short](includes/prod_short.md)]iin.
 
 - Tämän toiminnon avulla Excel ottaa huomioon useimmat sivun suodattimet, jotka rajoittavat näytettäviä tietueita, joten Excel-työkirja sisältää lähes samat tietueet ja sarakkeet.
 
-- **Muokkaa Excelissä** -toiminnon etuna on, että voit tehdä muutoksia tietueisiin Excelissä ja julkaista sitten muutokset takaisin [!INCLUDE[prod_short](includes/prod_short.md)]iin.
-
 - Toimintoa voi käyttää vain Windowsissa eikä se toimi Mac-käyttöjärjestelmässä.
 
-- Voit vaihtaa käytössä olevaa yritystä. Voit vaihtaa yritystä valitsemalla **Asetukset**-kuvakkeen ![Excel-apuohjelman asetukset](media/cogwheel.png "Excel-apuohjelman asetukset") Excel-apuohjelma-ruudussa ja valitsemalla sitten yritys **Yritys**-kentässä.  
+- Voit vaihtaa käytössä olevaa yritystä. Voit vaihtaa yrityksen valitsemalla **Asetukset**-kuvakkeen ![Excelin apuohjelma-asetukset.](media/cogwheel.png "Excel-apuohjelman asetukset") Excelin apuohjelmaruudussa ja valitsemalla yrityksen **Yritys**-kentästä.  
 
     > [!IMPORTANT]
     > Kun vaihdat yritystä, varmista, että **Ympäristö**-kenttä ei ole tyhjä. Jos kenttä on tyhjä, määritä siihen jokin käytettävissä olevista asetuksista. Muussa tapauksessa apuohjelma ei toimi oikein.  

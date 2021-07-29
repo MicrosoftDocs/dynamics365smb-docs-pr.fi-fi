@@ -10,12 +10,12 @@ ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 4e9a121efe984e075c54c747fc426bf9a4519b81
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6b146e2a515ffd2a200574c4ce059c8a0205b602
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787400"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443566"
 ---
 # <a name="the-c5-data-migration-extension"></a>Tietojen siirron C5-laajennus
 
@@ -107,7 +107,7 @@ Jos siirrät tilit, myös seuraavat tiedot siirretään:
 Tietojen siirtäminen C5:stä ja tuominen [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmasta edellyttää vain seuraavien vaiheiden suorittamista:  
 
 1. Voit viedä tiedot C5:stä käyttämällä **Vie tietokanta** -toimintoa. Pakkaa sitten viennin kansio.  
-2. Valitse [!INCLUDE[prod_short](includes/prod_short.md)]:ssä ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tietojen siirto** ja valitse **Tietojen siirto**.  
+2. Valitse [!INCLUDE[prod_short](includes/prod_short.md)]issa ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tietojen siirto** ja valitse sitten **Tietojen siirto**.  
 3. Suorita asetusten ohjatun määrityksen oppaan vaiheet. Varmista, että valitset tietolähteeksi **Tuo Microsoft Dynamcis C5 2012 -versiosta** -kohdan.  
 
 ## <a name="viewing-the-status-of-the-migration"></a>Siirron tilan tarkasteleminen

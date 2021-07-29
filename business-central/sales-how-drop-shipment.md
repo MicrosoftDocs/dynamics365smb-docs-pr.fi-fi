@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: direct shipment
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: beb78a3526b95af228ab313b67174633902e7bd7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c5ca9eb1dc14a75d84072f28e7f72fc8b5e89373
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778820"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443405"
 ---
 # <a name="make-drop-shipments"></a>Suoratoimitusten tekeminen
 
@@ -52,7 +52,7 @@ Voit ohjeistaa toimittajaa toimittamaan nimikkeet asiakkaalle esimerkiksi lähet
 
 Voit myös käyttää hankintatyökirjaa luodaksesi ostotilauksen toimittajalle. Hankintatyökirjan käyttämisen etuna on se, että se voi luoda ostotilauksia kaikille avoimille suoratoimituksille, joten sinun ei tarvitse luoda jokaista erikseen.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Hankintalistat** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Hankintalistat** ja valitse sitten liittyvä linkki.
 2. Valitse **Suoratoimitukset**-toiminto ja valitse sitten **Hae myyntitilaus** -toiminto.
 3. Valitse **OK**-painike.
 4. Tarkista ostotilausrivit ja valitse **Toimittajan nro** -kentässä toimittaja, joka toimittaa vaadittuja tavaroita. 
@@ -66,7 +66,7 @@ Voit myös käyttää hankintatyökirjaa luodaksesi ostotilauksen toimittajalle.
 
 Kun toimittaja toimittaa nimikkeet, voit kirjata myyntitilauksen toimitetuksi. Voit kirjata myös ostotilauksen, mutta vain **Vastaanotto**-vaihtoehdon kanssa niin kauan, kunnes myyntitilaus on laskutettu.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten vastaava linkki.
 2. Avaa myyntitilaus, joka luotiin kohdassa [Myyntitilauksen luominen suoratoimitukselle](#to-create-a-sales-order-for-drop-shipment).
 3. Määritä **Toimitettava määrä** -kentässä toimitettava tilausmäärä, joka voi olla koko tai osittainen tilausmäärä.
 4. Valitse **Kirjaa**- tai **Kirjaa ja lähetä** -toiminto.

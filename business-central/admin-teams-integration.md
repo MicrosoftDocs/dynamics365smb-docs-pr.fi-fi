@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: ecb3f88bf14c74f026f10fd49efe28f189036589
-ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
+ms.openlocfilehash: ad1fd27bf6687993fed82ab418d621520e3439a1
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5882203"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443204"
 ---
 # <a name="managing-microsoft-teams-integration-with-prod_short"></a>Microsoft Teamsin ja [!INCLUDE [prod_short](includes/prod_short.md)]in integroinnin hallinta
 
@@ -35,7 +35,7 @@ Tässä osassa kuvataan vähimmäisvaatimukset, jotka koskevat [!INCLUDE [prod_s
 
     |Mikä|Teams-lisenssi|[!INCLUDE [prod_short](includes/prod_short.md)] -käyttöoikeus|
     |----|---|---|
-    |Hae [!INCLUDE [prod_short](includes/prod_short.md)] yhteyshenkilöitä.|![valintamerkki](media/check.png "tarkistus")|![valintamerkki](media/check.png "tarkistus")|
+    |Hae [!INCLUDE [prod_short](includes/prod_short.md)] yhteyshenkilöitä.|![valintamerkki.](media/check.png "tarkistus")|![valintamerkki](media/check.png "tarkistus")|
     |Liitä linkki [!INCLUDE [prod_short](includes/prod_short.md)] -tietueeseen keskusteluun ja lähetä se korttina.|![valintamerkki](media/check.png "tarkistus")|![valintamerkki](media/check.png "tarkistus")|
     |Näytä [!INCLUDE [prod_short](includes/prod_short.md)] -tietueen kortti keskustelussa.|![valintamerkki](media/check.png "tarkistus")||
     |Näytä lisätietoja [!INCLUDE [prod_short](includes/prod_short.md)] -tietueen kortista keskustelussa.|![valintamerkki](media/check.png "tarkistus")|![valintamerkki](media/check.png "tarkistus")|

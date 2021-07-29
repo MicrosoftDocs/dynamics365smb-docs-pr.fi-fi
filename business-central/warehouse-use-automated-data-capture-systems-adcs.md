@@ -1,6 +1,6 @@
 ---
-title: ACDS (Automated Data Capture Systems) -järjestelmän käyttäminen | Microsoft Docs
-description: Automaattista tiedonkeruujärjestelmää (ADCS) voidaan käyttää rekisteröimään kaikki nimikkeiden siirrot fyysisessä varastossa ja rekisteröimään kaikki päiväkirjatoiminnot, joihin sisältyvät määrän muutokset fyysisen varastoinnin nimikepäiväkirjassa, inventoinneissa ja uudelleenluokitteluissa.
+title: ADCS (Automated Data Capture System) -järjestelmä
+description: Automaattisen tiedonkeruujärjestelmän (ADCS) avulla voit rekisteröidä nimikkeiden varaston siirron fyysisessä varastossa ja rekisteröidä joitakin päiväkirjan aktiviteetteja.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: barcode
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 71433b584ea02e4561a2e9e391d3ee92c5284488
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f1e2c24717d9c481f95d2572ee2e1f50b681b0a0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5788231"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442927"
 ---
-# <a name="use-automated-data-capture-systems-adcs"></a>ADCS (Automated Data Capture System) -järjestelmä
+# <a name="use-automated-data-capture-systems-adcs"></a>Käytä ADCS (Automated Data Capture System) -järjestelmää
 
 > [!NOTE]
 > Automaattinen tiedonkeruujärjestelmän (ADCS) ratkaisu tarjoaa [!INCLUDE[prod_short](includes/prod_short.md)]:lle keinon kommunikoida kannettavien laitteiden kanssa verkkopalveluiden avulla. Sinun on toimittava sellaisen Microsoft-palveluntarjoajan kanssa, joka pystyy tarjoamaan linkin Web-palvelun ja tietyn kannettavan laitteen välille. 
@@ -37,7 +37,7 @@ Jotta voisit käyttää automaattista tiedonkeruujärjestelmää, sinun on otett
 
 ## <a name="to-enable-and-publish-the-adcs-web-service"></a>ADCS-verkkopalvelun käyttöönotto ja julkaiseminen  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Verkkopalvelut** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Verkkopalvelut** ja valitse sitten vastaava linkki.
 2. Valitse **Uusi**-toiminto.  
 3. Lisää seuraavat tiedot **verkkopalvelut**-sivun uudelle riville:  
 
@@ -56,14 +56,14 @@ ADCS:n käytössä on määritettävä, mitkä fyysisen varaston sijainnit käyt
 > [!NOTE]  
 >  Suosittelemme, että et määritä varastoa käyttämään automaattista tiedonkeruujärjestelmää, jos varastossa on myös varastopaikan kapasiteettitapa.
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sijainnit** ja valitse liittyvä linkki.
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sijainnit** ja valitse sitten vastaava linkki.
 2.  Valitse luettelosta fyysinen varasto, jossa haluat ottaa käyttöön ADCS-järjestelmä, ja valitse sitten **Muokkaa**-toiminto.
 3. Valitse **Sijainnin kortti** -sivulla **Käytä ADCS** -valintaruutu.  
 
 ## <a name="to-specify-an-item-to-use-adcs"></a>Nimikkeen määrittäminen käyttämään ADCS-järjestelmää  
 Kullekin varastonimikkeelle, jota haluat käyttää ADCS:n kanssa, on määritettävä tunnuskoodia, joka yhdistää sen nimikkeen numeroon. Esimerkiksi nimikkeen viivakoodia voi käyttää tunnuskoodina. Nimikkeellä voi olla myös useita tunnuskoodeja. Saatat pitää tätä hyödyllisenä siinä tapauksessa, että nimike on käytettävissä eri mittayksiköissä, kuten kappaleissa ja kuormalavoissa. Määritä tässä tapauksessa jokaiselle tunnuskoodi.    
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten vastaava linkki.  
 2.  Valitse luettelosta nimike, joka on osa ADCS-ratkaisua, ja valitse sitten **Muokkaa**-toiminto.
 3. Valitse **Nimikkeen kortti** -sivulla **Tunnisteet**-toiminto.
 4. Valitse **Nimiketunnisteet**-sivulla **Uusi**-toiminto.
@@ -76,15 +76,15 @@ Kullekin varastonimikkeelle, jota haluat käyttää ADCS:n kanssa, on määritet
 8.  Voit tarkastella tietoja avaamalla **Nimiketunnisteet**-sivu valitsemalla **Tunnistimen koodi** -kenttä.
 
 ## <a name="to-add-an-adcs-user"></a>ADCS-käyttäjän lisääminen  
-Voit lisätä minkä tahansa käyttäjän Automated Data Capture System (ADCS) -järjestelmän käyttäjäksi. Kun teet tämän, käyttäjän on myös annettava salasana. Voit myös antaa yhteyden, joka määrittää ADCS-käyttäjän fyysisen varastoinnin työntekijäksi. ADCS-käyttäjän salasana voi olla eri kuin käyttäjän Windows-kirjautumissalasana. Lisätietoja on kohdassa [Määritä käyttöoikeudet käyttäjille ja ryhmille](ui-define-granular-permissions.md).
+Voit lisätä minkä tahansa käyttäjän Automated Data Capture System (ADCS) -järjestelmän käyttäjäksi. Kun teet tämän, käyttäjän on myös annettava salasana. Voit myös antaa yhteyden, joka määrittää ADCS-käyttäjän fyysisen varastoinnin työntekijäksi. ADCS-käyttäjän salasana voi olla eri kuin käyttäjän Windows-kirjautumissalasana. Lisätietoja on kohdassa [Käyttöoikeuksien määrittäminen käyttäjille ja ryhmille](ui-define-granular-permissions.md).
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **ADCS-käyttäjät** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **ADCS-käyttäjät** ja valitse sitten vastaava linkki.  
 2. Valitse **Uusi**-toiminto.  
 3.  Kirjoita **Nimi**-kenttään käyttäjän nimi. Nimi voi olla enintään 20 merkkiä pitkä, välilyönnit mukaan lukien.  
 4.  Anna **Salasana**-kenttään salasana. Salasana on peitetty.  
 
 ### <a name="to-specify-that-a-warehouse-employee-is-an-adcs-user"></a>Varastotyöntekijän määrittäminen ADCS-käyttäjäksi  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varastotyöntekijät** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Fyysisen varaston työntekijät** ja valitse sitten vastaava linkki.  
 2.  Lisää tarvittaessa uusi varastotyöntekijä. Lisätietoja on kohdassa [Varastotyöntekijöiden määrittäminen](warehouse-how-to-set-up-warehouse-employees.md).  
 3.  Valitse **Muokkaa luetteloa** -toiminto.  
 4.  Valitse varastotyöntekijä luettelosta. Valitse **ADCS-käyttäjä** -kentässä avattavan nuolipainike ja valitse luettelosta ADCS-käyttäjän nimi.  
@@ -99,7 +99,7 @@ Pienoislomakkeiden avulla voit kuvailla tietoja, jotka haluat esittää käsilai
 > Ota käyttöön tai muuta pienoislomakkeen toiminto luomalla uusi codeunit **Käsittelevä codeunit** -kenttään suorittamaan vaadittu toiminto tai vastaus. Saat lisätietoja ADCS-toiminnosta tarkastelemalla codeuniteja, joita ovat esimerkiksi 7705, 7706, 7712 ja 7713.  
 
 ### <a name="to-create-a-miniform-for-adcs"></a>Luo ADCS-pienoislomake  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pienoislomakkeet** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pienoislomakkeet** ja valitse sitten vastaava linkki.  
 2. Valitse **Uusi**-toiminto.  
 3.  Anna **Koodi**-kenttään pienoislomakkeen koodi. Voit antaa arvot myös muihin kenttiin.  
 
@@ -110,7 +110,7 @@ Pienoislomakkeiden avulla voit kuvailla tietoja, jotka haluat esittää käsilai
 Pienoislomakkeen luonnin jälkeen luodaan seuraavaksi toiminnot ja liitetään toiminnot näppäimistön syötteille.  
 
 ### <a name="to-customize-miniform-functions"></a>Mukauta pienoislomakkeen toiminnot  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pienoislomakkeet** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pienoislomakkeet** ja valitse sitten vastaava linkki.  
 2.  Valitse pienoislomake luettelosta ja valitse sitten **Muokkaa**-toiminto.  
 3.  Valitse **Toiminnot**-toiminto.  
 4.  Valitse avattavasta **Toimintokoodi**-luettelosta sitä toimintoa vastaava koodi, jonka haluat liittää pienoislomakkeeseen. Voit valita esimerkiksi ESC-vaihtoehdon, joka liittää toiminnon ESC-näppäimen painallukseen.  

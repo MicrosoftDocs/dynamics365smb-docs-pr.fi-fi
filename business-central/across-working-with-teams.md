@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records
 ms.date: 05/19/2021
 ms.author: jswymer
-ms.openlocfilehash: 8add662badbc0d791d6a37d0feb4e3a756519f00
-ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
+ms.openlocfilehash: fb134ce04cb6b53f2432f0f371d7ca82411f0cee
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6074585"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444016"
 ---
 # <a name="sharing-business-central-records-in-microsoft-teams"></a>Business Central -tietueiden jakaminen Microsoft Teamsissa
 
@@ -30,7 +30,7 @@ ms.locfileid: "6074585"
 - Kopioida linkin mihin tahansa Business Central -tietueeseen ja liittää sen Teams-keskusteluun, jonka haluat jakaa työtovereidesi kanssa. Sovellus laajentaa linkin kompaktiksi ja vuorovaikutteiseksi kortiksi, joka näyttää tietoja tietueesta.
 - Keskustelun aikana sinä ja työtoverisi voitte tarkastella lisätietoja tietueesta, muokata tietoja ja toimia – poistumatta Teamsista.
 
-[![Teamsin ja Business Centralin integrointi](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
+[![Teamsin ja Business Centralin integrointi.](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
 
 ## <a name="prerequisites"></a>Vaatimukset
 
@@ -49,13 +49,13 @@ ms.locfileid: "6074585"
 
 3. Kopioi koko URL-osoite selaimen osoiteriviltä.
 
-   ![Business Centralin URL-osoitteen kopioiminen selaimesta](media/teams-url-v2.png)
+   ![Business Centralin URL-osoitteen kopioiminen selaimesta.](media/teams-url-v2.png)
 4. Siirry Teamsiin ja aloita keskustelu, joka voi olla keskustelu henkilön, henkilöryhmän tai tiimikanavan kanssa.
 
     <!--Teams imposes a few limitations here eg. you cannot unfurl a link during a Voice/Video call :/ We should probably only mention this in a Troubleshooting section (and i hope it will also be fixed soon)-->
 5. Liitä URL-osoite viestiruutuun, johon kirjoitat viestin.
 
-   ![Liitä Business Central-URL-osoite Teamsiin](media/teams-paste-url-v2.png)
+   ![Liitä Business Centralin URL-osoite Teamsiin.](media/teams-paste-url-v2.png)
 6. Kun liität linkin keskusteluun ensimmäistä kertaa, sinua pyydetään kirjautumaan sisään [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmaan ja antamaan suostumus siihen, että sovellus hakee tiedot. Seuraa vain näytön ohjeita.
 
     > [!NOTE]
@@ -88,8 +88,10 @@ Lisätietoja korttien ja korttiietojen käyttämisestä on kohdassa [Teams – u
 ## <a name="see-also"></a>Katso myös
 
 [Business Centralin ja Microsoft Teamsin integraation yleiskatsaus](across-teams-overview.md)  
-[Asenna [!INCLUDE [prod_short](includes/prod_short.md)] -sovellus Microsoft Teamsiin](across-install-app-for-teams.md)  
+[Microsoft Teamsin [!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksen asentaminen](across-install-app-for-teams.md)  
 [Teams – usein kysytyt kysymykset](teams-faq.md)  
+[Asiakkaiden, toimittajien ja muiden yhteyshenkilöiden hakeminen Microsoft Teamsista](across-search-contacts-teams.md)  
+[Yrityksen ja muiden asetusten muuttaminen Teamsissa](across-teams-settings.md)  
 [Vianetsintä – Teams](admin-teams-troubleshooting.md)  
 [Teamsin integroinnin kehittäminen](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 

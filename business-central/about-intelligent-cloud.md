@@ -11,12 +11,12 @@ ms.reviewer: edupont
 ms. search.keywords: cloud, migrate, insights
 ms.date: 04/12/2021
 ms.author: edupont
-ms.openlocfilehash: b64b1ad037743364b7bd0f4544dbcdb351e2daba
-ms.sourcegitcommit: 951d3c9d541f0b1d26712d37e253c2958dae3321
+ms.openlocfilehash: d98f876648f642484fe44e91da14120265e9a451
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5889253"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442608"
 ---
 # <a name="intelligent-insights-in-prod_short-online"></a>[!INCLUDE[prod_short](includes/prod_short.md)] Onlinen älykkäät tiedot
 
@@ -36,7 +36,7 @@ Jos käytössä on kuitenkin paikallinen [!INCLUDE [prod_short](includes/prod_sh
 KPI-kaavioiden vieressä on tietoja mahdollisista ongelma-alueista, kuten erääntyneistä maksuista. Valitse tiedot, joita haluat tarkastella.  
 
 > [!div class="mx-imgBorder"]
-> ![Älykkään pilven tiedot](media/across-intelligent-cloud/intelligentcloudApril19.png "Näyttää Älykkäät pilvipalvelun Tiedot -sivun Business Central onlinessa")
+> ![Älykkään pilven tiedot.](media/across-intelligent-cloud/intelligentcloudApril19.png "Näyttää Älykkäät pilvipalvelun Tiedot -sivun Business Central onlinessa")
 
 Sivu myös muodostaa yhteyden Power BI:hin, jolloin käytettävissä on entistäkin enemmän tietoja. Vaihtoehtoisesti voit muodostaa yhteyden Azuren tekoälyyn ja saada lisää älykkäitä tietoja. Lisätietoja on kohdassa [Myynti- ja varastoennustelaajennus](ui-extensions-sales-forecast.md).  
 

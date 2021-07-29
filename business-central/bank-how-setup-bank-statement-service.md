@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: fcc05bd73f3912a04e01ced0982c334203bb58cf
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a01bbbcb158e975c2b6f21ce2dd2468f8b3fa431
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776939"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443521"
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Envestnet Yodlee Bank Feeds -palvelun määrittäminen
 
@@ -48,7 +48,7 @@ Kun pankkisyötepalvelu on otettu käyttöön, voit määrittää pankkitilille 
 > Jos käytössä on yrityksen määrittämisen avustettu määritys, jotkin seuraavien toimenpiteiden yrityksen pankkitilin asennusvaiheet suoritetaan automaattisesti. Lisätietoja on ohjeaiheessa [Valmistautuminen liiketoimintaan](ui-get-ready-business.md).
 
 ## <a name="to-enable-the-bank-feed-service"></a>Pankkisyötepalvelun ottaminen käyttöön
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tilit** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pankkitilit** ja valitse sitten vastaava linkki.
 2. Avaa pankkisyötepalvelussa käytettävä pankkitili.
 3. Valitse **Pankkitili**-sivun **Pankin tiliotteen tuontimuoto** -kenttään YODLEEBANKFEED.  
 
@@ -58,7 +58,7 @@ Pankkisyötepalvelu otetaan käyttöön, kun linkität pankkitilin siihen liitty
 > Jos käytät **Yrityksen asennus** -asetusten ohjattua määritystä, voit ottaa palvelun käyttöön valitsemalla **Käytä pankin syötepalvelua** -valintaruudun. Lisätietoja on kohdassa [Uusien yritysten luominen Business Centralissa](about-new-company.md).
 
 ## <a name="to-create-a-new-linked-bank-account"></a>Uuden linkitetyn pankkitilin luominen
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tilit** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pankkitilit** ja valitse sitten vastaava linkki.
 2. Valitse asianmukainen pankkitili ja valitse sitten **Luo uusi linkitetty pankkitili**. Hetken kuluttua näyttöön avautuu **Pankkitilin linkitys** -sivu.
 
     > [!NOTE]  
@@ -86,7 +86,7 @@ Pankkisyötepalvelu otetaan käyttöön, kun linkität pankkitilin siihen liitty
 10. Valitse **Pankkitililuettelo**-sivulla pankkitili, johon linkitys tehdään, ja valitse sitten **OK**-painike.
 
 ## <a name="to-link-a-bank-account-to-an-online-bank-account"></a>Pankkitilin linkittäminen verkkopankkitiliin
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tilit** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pankkitilit** ja valitse sitten vastaava linkki.
 2. Valitse sen pankkitilin rivi, jota ei ole linkitetty verkkopankkitiliin, ja valitse sitten **Linkitä verkkopankkitiliin** -toiminto. Näyttöön avautuu **Verkkopankkitilin linkitys** -sivu, joka sisältää **Linkitä tili** -ruudussa annetun pankin nimen.
 3. Valitse pankin nimi. **Kirjaudu sisään** -ruutu avautuu.
 4. Syötä käyttäjätunnus ja salasana, jota käytät kirjautuessasi verkkopankkiin, ja valitse sitten **Seuraava**-painike.  
@@ -99,20 +99,20 @@ Pankkisyötepalvelu otetaan käyttöön, kun linkität pankkitilin siihen liitty
 **Pankkitililuettelo**-sivun **Linkitetty**-valintaruutu valitaan.
 
 ## <a name="to-unlink-a-bank-account"></a>Pankkitilin linkityksen poistaminen
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tilit** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pankkitilit** ja valitse sitten vastaava linkki.  
 2. Valitse sen linkitetyn pankkitilin rivi, jonka linkityksen liittyvään verkkopankkitiliin haluat poistaa. Valitse sitten **Poista verkkopankkitilin linkitys** -toiminto.
 
 > [!NOTE]  
 > Jos valitset vahvistusvalintaikkunassa **Kyllä**, verkkopankkitilin linkki poistetaan ja sisäänkirjaustiedot poistetaan. Voit linkittää pankkitilin uudelleen verkkopankkitiliin kirjautumalla pankkiin sisään uudelleen. Lisätietoja on “Pankkitilin linkittäminen verkkopankkitiliin“ -osassa.
 
 ## <a name="to-update-bank-account-linking"></a>Pankkitilin linkityksen päivittäminen
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tilit** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pankkitilit** ja valitse sitten vastaava linkki.
 2. Valitse asianmukainen pankkitili ja valitse sitten **Päivitä pankkitilien linkitys** -toiminto.
 
 Jos **Pankkitililuettelo**-sivun linkitetyissä pankkitileissä esiintyy ongelmia, näyttöön avautuu **Pankkitilin linkitys** -sivu, jossa kerrotaan pankkitili, jota ongelmat koskevat. Ongelmien ratkaiseminen tapahtuu parhaiten poistamalla verkkopankkitilin linkitys ja luomalla linkitys uudelleen. Lisätietoja on Pankkitilin linkittäminen verkkopankkitiliin -osassa.
 
 ## <a name="to-enable-automatic-import-of-bank-statements"></a>Pankin tiliotteiden automaattisen tuonnin ottaminen käyttöön
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tilit** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pankkitilit** ja valitse sitten vastaava linkki.
 2. Valitse linkitetyn pankkitilin rivi ja valitse sitten **Pankin tiliotteen automaattisen tuonnin asetukset** -toiminto.
 3. Määritä **Pankin tiliotteen automaattisen tuonnin asetukset** -sivun **Sisällytettyjen päivien lukumäärä** -kentässä, miltä kaukaiselta ajalta uudet pankkitapahtumat haetaan.
 

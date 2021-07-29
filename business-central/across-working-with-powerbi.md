@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 7f2e2fe9719d25e13a33cf1943e7a054a70edffd
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: dcd316d7d1d360733ff15b67cc5a293576812611
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935359"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444041"
 ---
 # <a name="working-with-power-bi-reports-in-prod_short"></a>Power BI -raporttien käyttäminen [!INCLUDE [prod_short](includes/prod_short.md)]issa
 
@@ -27,7 +27,7 @@ Power BI -raporteilla saadaan merkityksellisiä tietoja [!INCLUDE[prod_short](in
 
 [!INCLUDE [prod_short](includes/prod_short.md)]ia käytetään yhdessä Power BI -palvelun kanssa. [!INCLUDE [prod_short](includes/prod_short.md)]issa näytettävät raportit tallennetaan Power BI -palveluun. Voit vaihtaa [!INCLUDE [prod_short](includes/prod_short.md)]in Power BI -osassa näkyvän raportin mihin tahansa Power BI -palvelussa käytettävissä olevaan Power BI -raporttiin. Kun kirjaudut ensimmäisen kerran [!INCLUDE [prod_short](includes/prod_short.md)]iin etkä ole vielä muodostanut yhteyttä Power BI -palveluun, osat ovat tyhjiä, kuten seuraavassa kuvassa:
 
-![Business Centralin Power BI -osa](./media/power-bi-part.png)
+![Power BI osa Business Centralissa.](./media/power-bi-part.png)
 
 ## <a name="get-started"></a>Aloita
 

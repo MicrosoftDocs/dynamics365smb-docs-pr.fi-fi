@@ -1,6 +1,6 @@
 ---
-title: Huollon kirjaaminen | Microsoft Docs
-description: Huollon kirjaustoiminnon avulla voit käsitellä asiakirjoja tehokkaasti ja ylläpitää onnistunutta asiakkaiden huoltomenettelyä. Tämän ominaisuuden avulla ohjelma voi luoda ja päivittää kirjattuja asiakirjoja, luoda tapahtumia huoltoalueella sekä muissa moduuleissa asianmukaisen päivityksen varmistamiseksi.
+title: Huollon kirjaus
+description: Huollon kirjaustoiminnon avulla voit käsitellä asiakirjoja tehokkaasti ja ylläpitää onnistunutta asiakkaiden huoltomenettelyä.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 4f7371f7af5546f75a90f734ebedb6c358783b17
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8bdfb6986f16c580cef6e1fc7bdde2ef25dab14b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776789"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443027"
 ---
 # <a name="service-posting"></a>Huollon kirjaus
 Huollon kirjaustoiminnon avulla voit käsitellä asiakirjoja tehokkaasti ja ylläpitää onnistunutta asiakkaiden huoltomenettelyä. Tämän ominaisuuden avulla ohjelma voi luoda ja päivittää kirjattuja asiakirjoja, luoda tapahtumia huoltoalueella sekä muissa moduuleissa asianmukaisen päivityksen varmistamiseksi.  
@@ -49,7 +49,7 @@ Kun kirjaat huoltolaskun, huoltotoimituksen tai huollon hyvityslaskun, asiakirja
 
 Seuraavassa ohjeessa käytetään esimerkkinä kirjattua huoltolaskua, mutta samaa menettelyä voidaan käyttää kirjattuihin toimituksiin sekä palvelu- ja hyvityslaskuihin.  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kirjattu huoltolasku** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kirjattu huoltolasku** ja valitse sitten vastaava linkki.  
 2. Avaa kirjattu huoltolasku, jonka haluat nähdä.  
 3. Valitse **Tilastot**-toiminto, jos haluat yleiskuvan kirjatusta laskusta.  
 

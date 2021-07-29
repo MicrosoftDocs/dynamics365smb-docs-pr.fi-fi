@@ -1,6 +1,6 @@
 ---
-title: Rakennetiedot – Lähtevän fyysisen varastoinnin virta | Microsoft Docs
-description: Varaston lähtevä virta alkaa kysynnällä liittyvistä lähdeasiakirjoista tuoda nimikkeet varastosijainnista, joko lähetettäviksi ulkoiselle osapuolelle tai yrityksen toiseen sijaintiin. Varastotoiminnot suoritetaan varastoalueelta erilaisilla monimutkaisuustasoilla nimikkeiden siirtämiseksi ulos toimituslaitureille.
+title: Rakennetiedot – lähtevän fyysisen varastoinnin virta
+description: Tässä aiheessa on tietoja fyysisen varaston lähtevän virran järjestyksestä, vapautetuista lähdeasiakirjoista toimitusvalmiisiin nimikkeisiin.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 7e748719454bfbdcbacd9cf53a535ed1e38147bc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 985ef683426c2de2e917b3c3f8d860115d462d83
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777771"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442383"
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Rakennetiedot: lähtevän fyysisen varastoinnin virta
 
-Fyysisen varaston lähtevä virta alkaa liittyvien lähdeasiakirjojen pyynnöllä tuoda nimikkeet varastosijainnista lähetettäviksi joko ulkoiselle osapuolelle tai yrityksen toiseen sijaintiin. Varastotoiminnot suoritetaan varastoalueelta erilaisilla monimutkaisuustasoilla nimikkeiden siirtämiseksi ulos toimituslaitureille.  
+Varaston lähtevä virta alkaa kysynnällä liittyvistä lähdeasiakirjoista tuoda nimikkeet varastosijainnista, joko lähetettäviksi ulkoiselle osapuolelle tai yrityksen toiseen sijaintiin. Varastotoiminnot suoritetaan varastoalueelta erilaisilla monimutkaisuustasoilla nimikkeiden siirtämiseksi ulos toimituslaitureille.  
 
  Jokainen nimike tunnistetaan ja kohdistetaan vastaavaan saapuvaan lähdeasiakirjaan. Seuraavat lähtevät lähdeasiakirjat on olemassa:  
 
@@ -54,7 +54,7 @@ Lisäksi olemassa on seuraavat sisäiset lähdeasiakirjat, jotka toimivat kuten 
 
  Seuraavassa kaaviossa kuvataan lähtevät fyysisen varaston virrat asiakirjatyypeittäin fyysisen varastoinnin perusmäärityksissä. Kaavion luvut vastaavat vaiheita kaavion osa-alueiden mukaan.  
 
- ![Lähtevä työnkulku fyysisen varastoinnin perusmäärityksissä](media/design_details_warehouse_management_outbound_basic_flow.png "Lähtevä työnkulku fyysisen varastoinnin perusmäärityksissä")  
+ ![Lähtevä työnkulku fyysisen varastoinnin perusmäärityksissä.](media/design_details_warehouse_management_outbound_basic_flow.png "Lähtevä työnkulku fyysisen varastoinnin perusmäärityksissä")  
 
 ### <a name="1-release-source-document--create-inventory-pick-or-movement"></a>1: Vapauta lähdeasiakirja / Luo varastopoiminta tai siirto
 
@@ -81,7 +81,7 @@ Lisäksi olemassa on seuraavat sisäiset lähdeasiakirjat, jotka toimivat kuten 
 
  Seuraavassa kaaviossa kuvataan lähtevät fyysisen varaston virrat asiakirjatyypeittäin laajennetuissa varastomäärityksissä. Kaavion luvut vastaavat vaiheita kaavion osa-alueiden mukaan.  
 
- ![Lähtevä työnkulku fyysisen varastoinnin laajennetuissa määrityksissä](media/design_details_warehouse_management_outbound_advanced_flow.png "Lähtevä työnkulku fyysisen varastoinnin laajennetuissa määrityksissä")  
+ ![Lähtevä työnkulku fyysisen varastoinnin laajennetuissa määrityksissä.](media/design_details_warehouse_management_outbound_advanced_flow.png "Lähtevä työnkulku fyysisen varastoinnin laajennetuissa määrityksissä")  
 
 ### <a name="1-release-source-document"></a>1: Vapauta lähdeasiakirja
 

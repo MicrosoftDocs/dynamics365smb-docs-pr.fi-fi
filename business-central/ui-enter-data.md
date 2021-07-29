@@ -1,6 +1,6 @@
 ---
-title: Tietojen antaminen Business Centralissa | Microsoft Docs
-description: Tietoja yleisistä ominaisuuksista, jotka auttavat antamaan tietoja kenttiin.
+title: Tietojen syöttäminen Business Centralissa
+description: Käytettävissä on monia yleisiä ominaisuuksia, jotka helpottavat, nopeuttavat ja täsmentävät tietojen antamista. Perusperiaatteet ja kehittyneet ominaisuudet on kuvattu tässä.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: d27633b6ae86c62a6ba95de51fe359094825e64d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5832f30074c1e1d8215c705c19d75594fc017593
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784813"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443666"
 ---
 # <a name="entering-data"></a>Tietojen antaminen
 
@@ -93,7 +93,7 @@ Seuraavassa luettelossa on joitakin hyödyllisiä tietoja pikatapahtumien käytt
 
 Voit määrittää kenttiin pikasyötön käyttämällä mukauttamista.
 
-1. Aloita mukauttaminen valitsemalla ensin ![Asetukset](media/ui-experience/settings_icon_small.png "Roolikeskuksen Asetukset-kuvake")-kuvake ja sitten **Mukauta**-toiminto.
+1. Aloita mukauttaminen valitsemalla ![Asetukset.](media/ui-experience/settings_icon_small.png "Roolikeskuksen Asetukset-kuvake") -kuvake ja sitten **Mukauta**-toiminto.
 2. Valitse muutettava kenttä. Valitse luettelosta vastaava sarakeotsikko. Valitse sitten **Sisällytä pikasyöttöön** tai **Jätä pois pikasyötöstä** -valinta.
 
 Lisätietoja mukauttamisesta on kohdassa [Työtilan mukauttaminen](ui-personalization-user.md).
@@ -136,9 +136,9 @@ Hyödyt erityisesti, kun työskentelet suurten rivinimikeluetteloiden parissa, j
 
 ### <a name="switching-the-focus-on-and-off"></a>Kohdituksen Kytkeminen Päälle ja Pois
 
-Kohdista rivinimikkeisiin tekemällä valinta missä tahansa rivinimikkeen osassa ja valitse sitten ![Kohdistustilan kuvake](media/focus-mode.png "Tarkennustilan kuvake") oikeassa yläkulmassa tai paina Ctrl+Vaihto+F12.
+Jos haluat keskittyä rivikohteisiin, valitse missä tahansa rivikohteen osassa ja valitse sitten ![Kohdistustila-kuvake.](media/focus-mode.png "Tarkennustilan kuvake") oikeassa yläkulmassa tai paina näppäinyhdistelmää Ctrl+Vaihto+F12.
 
-Voit palata takaisin normaalinäkymään valitsemalla ![Kohdistustilan kuvakkeen](media/focus-mode.png "Tarkennustilan kuvake") tai painamalla jälleen Ctrl+Vaihto+F12.
+Jos haluat palata normaalinäkymään, valitse ![Tarkennustila-kuvake.](media/focus-mode.png "Tarkennustilan kuvake") tai paina Ctrl+Vaihto+F12 uudelleen.
 
 ## <a name="multitasking-across-multiple-pages"></a>Monen tehtävän suorittaminen yhtä aikaa useilla sivuilla
 
@@ -148,15 +148,15 @@ Voit avata kortin tai asiakirjan sivun uudessa ikkunassa. Avaamalla uuden ikkuna
 - Hallita käynnissä olevan tehtävän keskeytyksiä, kuten saapuvan puhelun ottamista.
 - Pitää keskeneräisen tehtävän ikkunan avoinna samalla, kun aloitat tai suoritat toisen tehtävän toisessa ikkunassa.
 
-Avaa nykyinen kortti tai asiakirja uudessa ikkunassa valitsemalla ![Avaa uusi ikkuna](media/open-new-window-icon.png "Avaa uudessa ikkunassa -kuvake") oikeassa yläkulmassa, tai painamalla Alt+Vaihto+W.
+Jos haluat avata nykyisen kortin tai asiakirjan uudessa ikkunassa, valitse ![Avaa uusi ikkuna.](media/open-new-window-icon.png "Avaa uudessa ikkunassa -kuvake") oikeassa yläkulmassa tai paina näppäinyhdistelmää Alt+Vaihto+W.
 
 <!--
 When working on multiple tasks at a time or when managing interruptions to the current task, such as taking an incoming call, you can open a card or document page in a new window. This allows you to keep a window open for an ongoing task while you start or complete another task in one or more other windows.
 -->
-Avaa nykyinen kortti tai asiakirja uudessa ikkunassa valitsemalla ![Avaa uusi ikkuna](media/open-new-window-icon.png "Avaa uudessa ikkunassa -kuvake") oikeassa yläkulmassa, tai painamalla Alt+Vaihto+W.
+Jos haluat avata nykyisen kortin tai asiakirjan uudessa ikkunassa, valitse ![Avaa uusi ikkuna.](media/open-new-window-icon.png "Avaa uudessa ikkunassa -kuvake") oikeassa yläkulmassa tai paina näppäinyhdistelmää Alt+Vaihto+W.
 
 > [!NOTE]
-> Kun avaat uudessa ikkunassa avatusta kortista tai asiakirjasta muita sivuja, kyseiset sivut avautuvat uudessa ikkunassa, vaikka et valitsisi toimintoa ![Avaa uusi ikkuna](media/open-new-window-icon.png "Avaa uudessa ikkunassa -kuvake").
+> Kun avaat uudessa ikkunassa avatusta kortista tai asiakirjasta muita sivuja, kyseiset sivut avautuvat uudessa ikkunassa, vaikka et valitsisi toimintoa ![Avaa uusi ikkuna.](media/open-new-window-icon.png "Avaa uudessa ikkunassa -kuvake").
 
 > [!NOTE]
 > Jos käytössä on Safari-selain, ponnahdusikkunoiden esto voi estää uuden ikkunan avautumisen. Määritä siinä tapauksessa tuotteen URL-osoite sallituksi sivustoksi. Lisätietoja on kohdassa [Safarin asetusten muuttaminen](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />

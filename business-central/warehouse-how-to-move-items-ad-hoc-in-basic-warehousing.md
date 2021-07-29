@@ -1,6 +1,6 @@
 ---
-title: Nimikkeiden suunnittelematon siirtäminen fyysisen varastoinnin perusmäärityksissä | Microsoft Docs
-description: Voit joskus joutua siirtämään nimikkeitä sisäisissä varastopaikoissa, ilman, että vastaanotat tai toimitat varastopaikkoja, ilman erityispyyntöä lähdeasiakirjasta. Voi suorittaa nämä suunnittelemattomat siirrot esimerkiksi silloin, jos haluat järjestellä fyysistä varastoa tuomalla nimikkeitä tarkastusalueelle tai siirtää lisänimikkeitä tuotantoalueelle ja sieltä pois ilman järjestelmäsuhdetta tuotantotilauksen lähdeasiakirjaan.
+title: Nimikkeiden suunnittelematon siirtäminen fyysisen varastoinnin perusmäärityksissä
+description: Tässä aiheessa käsitellään suunnittelemattomia siirtoja, joita tehdään silloin, kun nimikkeitä täytyy siirtää sisäisten varastopaikkojen välillä, ilman että niillä on tiettyä kysyntää lähdeasiakirjasta.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 5204f75801c0af09715b0d8cc4523e57fa33a49a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 11377c1944f47723b97fad9b5ffc699fa8255a4f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771802"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444100"
 ---
 # <a name="move-items-ad-hoc-in-basic-warehouse-configurations"></a>Nimikkeiden suunnittelematon siirtäminen fyysisen varastoinnin perusmäärityksissä
 Voit joskus joutua siirtämään nimikkeitä sisäisissä varastopaikoissa ilman, että vastaanotat tai toimitat varastopaikkoja tai ilman erityispyyntöä lähdeasiakirjasta. Voi suorittaa nämä suunnittelemattomat siirrot esimerkiksi silloin, jos haluat järjestellä fyysistä varastoa tuomalla nimikkeitä tarkastusalueelle tai siirtää lisänimikkeitä tuotantoalueelle ja sieltä pois ilman järjestelmäsuhdetta tuotantotilauksen lähdeasiakirjaan.  
@@ -29,7 +29,7 @@ Fyysisen varaston perusmäärityksissä eli sijainneissa, joissa käytetään **
 >  Fyysisen varaston laajennetuissa määrityksissä eli sijainneissa, joissa **Ohjattu hyllytys ja poiminta** -asetuskenttä on käytössä, nimikkeet siirretään varastopaikasta toiseen ad hoc **Var.siirtotyökirja**-, **Sisäinen f. var. poiminta**- tai **Sisäinen f.var. hyllytys** -sivujen avulla.  
 
 ## <a name="to-move-items-as-an-internal-movement"></a>Siirrä kohteita sisäisenä siirtona  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sisäinen siirto** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sisäinen siirto** ja valitse sitten vastaava linkki.  
 2.  Täytä **Yleinen**-pikavälilehden **Nro** Voit jättää sen tyhjäksi tai valita **MuokkausApu**-painikkeen ja valita sitten numerosarjan.  
 3.  Anna **Sijaintikoodi**-kentässä sijainti, jossa varaston siirto tapahtuu.  
 
@@ -58,7 +58,7 @@ Fyysisen varaston perusmäärityksissä eli sijainneissa, joissa käytetään **
 
 ## <a name="to-move-items-with-the-item-reclassification-journal"></a>Siirrä nimikkeet nimikkeiden uudelleenluokituspäiväkirjan kanssa
 Fyysisen varastoinnin siirtoasiakirjojen käytön sijaan voit kirjata nimikkeiden siirron luokittelemalla niiden varastopaikkakoodit uudelleen. Lisätietoja on kohdassa [Varaston laskeminen, muuttaminen ja uudelleenluokitus päiväkirjojen avulla](inventory-how-count-adjust-reclassify.md).   
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimik. uud.luok.pvk** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimik. uud.luok.pvk** ja valitse sitten vastaava linkki.  
 2.  Määritä jokaiselle päiväkirjariville varastopaikat, josta ja johon haluat siirtää nimikkeitä täyttämällä kentät **Varastopaikkakoodi** ja **Uusi varastopaikkakoodi**.  
 
     1.  Jos haluat siirtää koko sisällön toiseen varastopaikkaan, valitse **Hae var.paikan sisältö** -toiminto.  

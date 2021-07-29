@@ -1,6 +1,6 @@
 ---
 title: Hyllytyksen luominen sisäisestä hyllytyksestä
-description: Kun nimikkeet on hyllytetty ja ennen kuin ne poimitaan täyttämään tuotantotilauksen tai toimituksen tarpeita, ne varastoidaan fyysiseen varastoon osaksi saatavilla olevaa varastoa.
+description: 'Tässä aiheessa käsitellään sitä, miten poimitaan ja hyllytetään ilman lähdeasiakirjaa: sekä sisäisen poiminnan luominen että sisäisen hyllytyksen luominen.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 66abeaaf1d009e994e302fc333c32dae3c3b6abd
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 198c4fb8ead4179667e35957046b3446ce5d8065
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771827"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444178"
 ---
 # <a name="pick-and-put-away-without-a-source-document"></a>Poimiminen ja hyllyttäminen ilman lähdeasiakirjaa
 Kun nimikkeet on hyllytetty ja ennen kuin ne poimitaan täyttämään tuotantotilauksen tai toimituksen tarpeita, ne varastoidaan fyysiseen varastoon osaksi saatavilla olevaa varastoa.  
@@ -34,14 +34,14 @@ Samoin nimikkeitä voidaan palauttaa fyysiseen varastoon hyllytettäviksi. Nimik
 >  Kun sijainnissa on käytössä ohjattu hyllytys ja poiminta ja siten myös varastopaikkatyypit, nimikkeitä ei voi siirtää varastopaikkaan, jonka tyyppi on Vastaanotto, eikä myöskään pois tällaisesta varastopaikasta. Tämä johtuu siitä, että Vastaanotto-tyyppisen varastopaikan nimikkeet on rekisteröitävä hyllytettäviksi, ennen kuin ne voivat olla osa saatavilla olevaa varastoa.  
 
 ## <a name="to-create-an-internal-pick"></a>Sisäisen poiminnan luominen  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **F.var. sisäinen poiminta** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **F.var. sis. poim.** ja valitse sitten vastaava linkki.  
 2. Valitse **Uusi**-toiminto.
 3. Anna **Nro** Kirjoita **Yleiset**-pikavälilehden **Sijaintikoodi**- ja **Varastopaikkakoodiin**-kentän arvot. **Varastopaikkakoodiin**-kentässä määritetään varastopaikka, johon haluat sijoittaa keräillyt nimikkeet. Tuotannon yhteydessä tämä varastopaikka olisi saapuvan tuotannon varastopaikka tai avoin tuotannon varastopaikka. Muita tarkoituksia varten tulee valita sellainen varastopaikkakoodi, jonka varastopaikan tyyppiä ei käytetä ohjelmassa poimimiseen – todennäköisesti se on välivarastoinnin, toimituksen tai erityistarkoituksen varastopaikka.  
 4.  Valitse nimike **Nimikkeen nro** -kentästä ja täytä määrät, jotka haluat poimia.  
 5. Valitse **Luo poiminta** -toiminto. Fyysisen varastoinnin poimintaohje on nyt valmis varaston työntekijälle suoritettavaksi. Vaihtoehtoisesti voit valita **Vapautus**-toiminnon ja luoda fyysisen varastoinnin poiminnat käyttämällä **poimintatyökirjaa**. Lisätietoja on kohdassa [Poimintojen suunnitteleminen työkirjassa](warehouse-how-to-plan-picks-in-worksheets.md)
 
 ## <a name="to-create-an-internal-put-away"></a>Sisäisen hyllytyksen luominen  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **F.var. sisäinen hyllytys** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **F.var. sis. hyllytys** ja valitse sitten vastaava linkki.  
 2. Valitse **Uusi**-toiminto.
 3. Kirjoita uuden sisäisen hyllytyksen otsikkoon ainakin **Nro**-kentän arvo. ja **Sijaintikoodi**.
 4. Täytä rivi jokaiselle nimikkeelle, jonka haluat siirtää fyysiseen varastoon. Vain **Nimikkeen nro**- ja **Määrä**-kenttien arvot on määritettävä.

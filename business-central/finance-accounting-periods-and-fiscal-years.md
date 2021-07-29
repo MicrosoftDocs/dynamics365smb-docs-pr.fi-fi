@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: b4daacd73987e4e747f97d288ecfb51b564de7e6
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e348ce883493ec621b6dbe4bc5855e0c8318178b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781034"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442823"
 ---
 # <a name="working-with-accounting-periods-and-fiscal-years"></a>Kirjanpitojaksojen ja tilikausien käyttäminen
 
@@ -35,7 +35,7 @@ Voit luoda kirjanpitojaksoja joukkotoiminnolla käyttämällä **Luo tilikausi**
 
 Jaa tilikausi saman mittaisiksi jaksoiksi **Luo tilikausi** -eräajon avulla.  
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") -kuvake, anna **Kirjanpitojaksot** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Etsi sivua tai raporttia.](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") -kuvake, syötä **Kirjanpitojaksot** ja valitse sitten vastaava linkki.  
 2. Valitse **Luo vuosi** -toiminto.  <!--What about the Scheduling option? Should we mention that? There's also the Report Output Type field...-->
 3. Anna **Aloituspvm**-kenttään päivämäärä, jolloin tilikausi alkaa.  
 4. Määrittele **Jaksojen lukumäärä** -kentässä, kuinka moneen kirjanpitojaksoon tilikausi jaetaan. Vuodessa voi olla enintään 365 jaksoa.  
@@ -46,7 +46,7 @@ Jaa tilikausi saman mittaisiksi jaksoiksi **Luo tilikausi** -eräajon avulla.
 
 Jos tilikauden kirjanpitojaksojen pituudet vaihtelevat, kuten vähittäismyynnissä käytetty 4-4-5-kalenteri, määritys voidaan tehdä manuaalisesti.  
   
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") -kuvake, anna **Kirjanpitojaksot** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Etsi sivua tai raporttia.](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") -kuvake, syötä **Kirjanpitojaksot** ja valitse sitten vastaava linkki.  
 2. Anna **Aloituspvm**-kenttään päivämäärä, jolloin tilikausi alkaa. **Nimi**-kentässä on kuukauden nimi.  
 3. Ilmaise **Uusi tilikausi** -valintaruudun valinnalla, että kyse on vuoden ensimmäisestä jaksosta. [!INCLUDE[prod_short](includes/prod_short.md)] määrittää tämän jakson perusteella, mitkä jaksot sulkevat tilikauden.
 4. Toista vaiheet 2 ja 3 kunkin jäljellä olevan jakson kohdalla.  
@@ -58,7 +58,7 @@ Tilikauden sulkeminen on yksi kirjojen sulkemistehtävistä. Kun tilikausi on su
 > [!NOTE]  
 > Avoimena on oltava aina ainakin yksi tilikausi. Varmista tilikautta suljettaessa, että tilikausi on luotu. Huomaa myös, että kun tilikausi on suljettu, et voi muuttaa seuraavan tilikauden aloituspäivämäärää.
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") -kuvake, anna **Kirjanpitojaksot** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Etsi sivua tai raporttia.](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") -kuvake, syötä **Kirjanpitojaksot** ja valitse sitten vastaava linkki.  
 2. Valitse **Sulje vuosi** -toiminto.  
 
 ## <a name="posting-entries-to-a-closed-fiscal-year"></a>Tapahtumien kirjaaminen suljettuun tilikauteen

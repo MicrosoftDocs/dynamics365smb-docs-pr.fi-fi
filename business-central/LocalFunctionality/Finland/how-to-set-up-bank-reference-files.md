@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 337848f4a310b8ba5a37fb0cddc445341696ad38
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: df7e1d738f71a5358e9f834762aa85bf16e9e443
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774383"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443514"
 ---
 # <a name="set-up-bank-reference-files"></a>Pankin viitetiedostojen määrittäminen
 Elektronisten maksujen käsittelyä varten on ensin määritettävä pankin viitetiedostot, joiden avulla määritetään, miten maksutiedot tuodaan tai viedään.  
 
 ## <a name="to-set-up-a-bank-reference-file"></a>Pankin viitetiedoston määrittäminen  
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](../../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Pankin viitetiedoston asetukset** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](../../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pankin viitetiedoston asetukset** ja valitse sitten vastaava linkki.  
 2.  Täytä **Yleinen**-pikavälilehden kentät seuraavassa taulukossa kuvatulla tavalla.  
 
     |Kenttä|Kuvaus|  

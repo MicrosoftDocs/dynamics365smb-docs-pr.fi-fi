@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delete, data, retention, policy, policies
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5b962ed463a37e578371df193bca887774232ba5
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: 3ee0149461730e20e996f31dc7175ff3325bceca
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935334"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443916"
 ---
 # <a name="define-retention-policies"></a>Määritä säilytyskäytännöt
 Järjestelmänvalvojat voivat määrittää säilytyskäytäntöjä ja määrittää, kuinka usein he haluavat [!INCLUDE[prod_short](includes/prod_short.md)]:n poistavan vanhentuneita tietoja lokimerkintöjä ja arkistoituja tietueita sisältävissä taulukoissa. Esimerkiksi lokitapahtumien puhdistaminen voi helpottaa todella merkityksellisten tietojen käyttöä. Käytännöt voivat sisältää kaikki niiden taulukoiden tiedot, joiden vanhentumispäivämäärä on kulunut, tai voit lisätä suodatusehtoja, jotka sisältävät vain tietyt käytännön vanhentuneet tiedot. 
@@ -40,7 +40,7 @@ Säilytysjaksot voivat olla niin pitkiä tai lyhyitä kuin haluat. Voit luoda s�
 > Yhteensopivuussyistä olemme määritelleet joillekin taulukoille vähimmäissäilyttämisajan. Jos asetat vähimmäispitoajan, joka on vähimmäisvaatimusta lyhyempi, näyttöön tulee pakollinen jakso.
 
 ### <a name="set-up-a-retention-policy"></a>Säilytyskäytännön määrittäminen
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Säilytyskäytännöt** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Säilytyskäytännöt** ja valitse sitten vastaava linkki.
 2. Valitse **Taulukon tunnus** -kentässä taulukko, jonka haluat sisällyttää käytäntöön.
 3. **Määrittele säilytysaika** -kentässä, kuinka kauan taulukon tiedot säilytetään.
 4. Valinnainen: Jos haluat kohdistaa käytännön taulukon tiettyihin tietoihin, poista Käytä kaikissa tietueissa- vaihtoehto käytöstä. Näyttöön tulee Tietueiden säilytyskäytäntö -pikavälilehti, jossa voit määrittää suodattimia, kun haluat luoda tietojen alijoukkoja kullekin riville. Lisätietoja on kohdassa [Suodattaminen](ui-enter-criteria-filters.md#filtering).

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: c72d5beafde357c22fac396eb3ab76849a9df775
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 219c7a779bc29eda81243362f79e1e7d2cec6b8a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775498"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444410"
 ---
 # <a name="set-up-and-report-intrastat"></a>Intrastat-ilmoituksen määrittäminen ja raportoiminen
 Kaikkien Euroopan unionin alueen yritysten täytyy raportoida kaupastaan muiden EU-maiden/alueiden kanssa. Tavaran liikkuminen on raportoitava kotimaan/-alueen tilastoviranomaisille kuukausittain ja raportti on toimitettava veroviranomaisille. Ohjelmassa tätä kutsutaan Intrastat-raportoinniksi. **Intrastat-ilmoitus**-sivulla voi täyttää jaksottaiset Intrastat-ilmoitukset.  
@@ -45,7 +45,7 @@ Voit viedä tapahtumat tiedostoon, jonka voit lähettää Intrastat-viranomaisil
 > [!Note]
 > Jokaiselle kuukaudelle kannattaa määrittää Intrastat-ilmoituksen erä.  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Intrastat-ilmoitusmallit** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Intrastat-ilmoitusmallit** ja valitse sitten liittyvä linkki.  
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Luo malli jokaiselle käyttämällesi Intrastat-lomakkeelle.  
 3. Luo eriä valitsemalla **Erät**-toiminto.  
 4. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Luo malli jokaiselle käyttämällesi Intrastat-lomakkeelle. 
@@ -56,25 +56,25 @@ Voit viedä tapahtumat tiedostoon, jonka voit lähettää Intrastat-viranomaisil
 ### <a name="to-set-up-commodity-codes"></a>Kauppatavarakoodien määrittäminen
 Kaikilla ostettavilla ja myytävillä nimikkeillä on oltava kauppatavarakoodi.  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Hyödykekoodit** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kauppatavarakoodit** ja valitse sitten vastaava linkki.  
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Määritä kauppatavarakoodi laajentamalla **Nimikkeen kortti** -sivulla **Kustannukset ja kirjaus** -pikavälilehti ja antamalla koodi **Kauppatavarakoodi**-kenttään.   
 
 ### <a name="to-set-up-transaction-nature-codes"></a>Kauppatapahtuman luonteen koodien määrittäminen
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Tapahtumatyyppikoodit** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tapahtuman luonteen koodit** ja valitse sitten vastaava linkki.  
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 > [!Tip]
 > Jos käytät tiettyä kauppatapahtuman luonteen koodia usein, voit määrittää sen oletusasetukseksi. Se onnistuu valitsemalla koodi **Valtiokohtaiset asetukset** -sivulla.
 
 ### <a name="to-set-up-transport-methods"></a>Kuljetusmuotojen määrittäminen
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Kuljetustavat** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kuljetusmuodot** ja valitse sitten vastaava linkki.  
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="to-set-up-which-intrastat-report-fields-are-mandatory"></a>Joidenkin Intrastat-raportin kenttien määrittäminen pakolliseksi
 Joissakin maissa, kuten Espanjassa ja Isossa-Britanniassa, viranomaiset vaativat Intrastat-raportteihin esimerkiksi ostojen toimitustavan tai joitakin arvoja myynnin ylittäessä tietyn raja-arvon. Voit valita **Intrastat-asetukset**-sivulla voi osoittaa, että **Intrastat-tarkistusluettelon asetukset** määrittää pakolliset kentät **Intrastat-ilmoitus**-sivulla.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Instrastat-asetukset** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Valtiokohtaiset asetukset** ja valitse sitten vastaava linkki.
 2. Valitse **Intrastat-tarkistusluettelon asetukset** -toiminto.
 3. Valitse **Intrastat-tarkistusluettelon asetukset** -sivulla **Kentän nimi** ja valitse se Intrastat-raportin kenttä, josta tehdään pakollinen.
 
@@ -82,7 +82,7 @@ Joissakin maissa, kuten Espanjassa ja Isossa-Britanniassa, viranomaiset vaativat
 Kun olet täyttänyt Intrastat-ilmoituksen, voit suorittaa **Tarkistusluettelo-raportti**-toiminnon ja varmistaa, että kaikki ilmoituksen tiedot ovat oikein. **Intrastat-tarkistusluettelon asetukset** -sivulla määritetyt pakolliset kentät, joissa ei ole arvoja, näytetään Virheet ja varoitukset -tietoruudussa **Intrastat-kirjaus**-sivulla. Voit sitten tulostaa Intrastat-raportin lomakkeena tai luoda tiedoston, jonka voit lähettää oman maasi tai alueesi veroviranomaisille.  
 
 ### <a name="to-fill-in-intrastat-journals"></a>Intrastat-ilmoitusten täyttäminen  
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Intrastat-ilmoitus** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Intrastat-ilmoitus** ja valitse sitten vastaava linkki.  
 2. Valitse **Intrastat-ilmoitus**-sivulla **Erän nimi** -kentässä käsiteltävä kirjauskansion erä ja valitse sitten **OK**.  
 3. Valitse **Ehdota rivejä** -toiminto. **Aloituspvm**- ja **Lopetuspvm**-kentissä on valmiina päivämäärät, jotka määriteltiin tilastokaudelle päiväkirjan erässä.  
 4. Voit syöttää **Epäsuorien kustann. pros.osuus** -kenttään prosentin (kattamaan kuljetus- ja vakuutuskustannuksia). Jos syötät prosentin, päiväkirjan **Tilastoarvo**-kentän sisältö on suhteellisesti korkeampi.  
@@ -96,7 +96,7 @@ Eräajo hakee kaikki tämän tilastokauden nimiketapahtumat ja lisää ne riveik
 ### <a name="report-intrastat-on-a-form-or-a-file"></a>Intrastat-raportointi lomakkeella tai tiedostona
 Saat Intrastat-lomakkeeseen tarvittavat tiedot tilastoja ylläpitäviltä viranomaisilta tulostamalla **Intrastat – lomake** -raportin. Ennen sitä sinun täytyy laatia Intrastat-ilmoitus ja täyttää se. Jos sinulla on sekä myyntiin että ostoihin liittyviä kauppatahtumia, sinun täytyy tehdä erillinen lomake molemmille tyypeille, ja sinun täytyy siten tulostaa raportti kahdesti.  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Intrastat-ilmoitukset** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Intrastat-ilmoitukset** ja valitse sitten vastaava linkki.  
 2. Valitse käsiteltävä päiväkirjan erä **Intrastat-ilmoitus**-sivun **Erän nimi** -kentässä.  
 3. Jos et vielä ole tehnyt tätä, täytä ilmoitus manuaalisesti tai valitse **Ehdota rivejä** -toiminto.  
 4. Valitse **Tulostaa Intrastat-ilmoituksen** -toiminnon.  
@@ -106,7 +106,7 @@ Saat Intrastat-lomakkeeseen tarvittavat tiedot tilastoja ylläpitäviltä virano
 ### <a name="report-intrastat-in-a-file"></a>Intrastat-raportointi tiedostona
 Voit nyt lähettää Intrastat-raportin tiedostona. Ennen tiedoston luomista voit tulostaa tarkastusluettelon, jossa on samat tiedo kuin mitä tiedostossa tulee olemaan.  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Intrastat-ilmoitus** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Intrastat-ilmoitus** ja valitse sitten vastaava linkki.  
 2. Valitse käsiteltävä päiväkirjan erä **Intrastat-ilmoitus**-sivun **Erän nimi** -kentässä.  
 3. Jos et vielä ole tehnyt tätä, täytä ilmoitus manuaalisesti tai valitsemalla **Ehdota rivejä** -toiminto.  
 4. Valitse **Luo tiedosto** -toiminto.  
@@ -117,7 +117,7 @@ Voit nyt lähettää Intrastat-raportin tiedostona. Ennen tiedoston luomista voi
 ## <a name="reorganize-intrastat-journals"></a>Intrastat-ilmoitusten uudelleenjärjestely
 Koska Intrastat-raportti on lähetettävä joka kuukausi ja luot uuden päiväkirjan erä kullekin raportille, sinulla tulee olemaan ajan mittaan useita päiväkirjan eriä. Kirjauskansiorivejä ei poisteta automaattisesti. Haluat ehkä järjestää päiväkirjan erien nimet uudelleen jaksoittain. Voit tehdä sen poistamalla ne päiväkirjan erät, joita et enää tarvitse. Näissä erissä olevat päiväkirjan rivit poistuvat myös.  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Intrastat-ilmoitukset** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Intrastat-ilmoitukset** ja valitse sitten vastaava linkki.  
 2. Voit tarkastella asetuksia valitsemalla **Erän nimi** -kentän.  
 3. Valitse ensin poistettavat päiväkirjan erät ja sitten **Poista**-painike.  
 
