@@ -1,6 +1,6 @@
 ---
-title: Ilmoitusten vastaanottoajan ja -tavan määrittäminen | Microsoft Docs
-description: Kun määrität käyttäjiä hyväksynnän työnkulkuihin, Ilmoituksen asetukset- ja Ilmoitusaikataulu-sivuilla on määritettävä miten ja milloin käyttäjät saavat ilmoituksia hyväksynnän työnkulun osavaiheista. Yksittäiset käyttäjät voivat muuttaa ilmoitusasetuksiaan valitsemalla Muuta ilmoitusasetuksia -painikkeen, joka näytetään kaikissa ilmoituksissa.
+title: Ilmoitusten vastaanoton ajankohdan ja tavan määrittäminen
+description: Kun määrität käyttäjiä hyväksymistyönkulkuihin, Ilmoituksen asetukset- ja Ilmoitusaikataulu-sivuilla on määritettävä miten ja milloin käyttäjät saavat ilmoituksia.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: d96d094547b71fc722c06facb80a131786df0e58
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 098d7a5f677310916484bcff652ff9557c96478f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774609"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445043"
 ---
 # <a name="specify-when-and-how-to-receive-notifications"></a>Ilmoitusten vastaanoton ajankohdan ja tavan määrittäminen
 Kun määrität käyttäjiä hyväksynnän työnkulkuihin, **Ilmoituksen asetukset**- ja **Ilmoitusaikataulu**-sivuilla on määritettävä miten ja milloin käyttäjät saavat ilmoituksia hyväksynnän työnkulun osavaiheista. Yksittäiset käyttäjät voivat muuttaa ilmoitusasetuksiaan valitsemalla **Muuta ilmoitusasetuksia** -painikkeen, joka näytetään kaikissa ilmoituksissa.  
@@ -31,7 +31,7 @@ Kun määrität käyttäjiä hyväksynnän työnkulkuihin, **Ilmoituksen asetuks
 
 ## <a name="specify-when-and-how-users-receive-notifications"></a>Määritä, milloin ja miten käyttäjät saavat ilmoituksia  
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Hyväksynnän käyttäjäasetukset** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Hyväksynnän käyttäjäasetukset** ja valitse sitten vastaava linkki.  
 2.  Valitse sen käyttäjän rivi, jonka ilmoitusasetukset haluat määrittää, ja valitse sitten **Ilmoitusasetukset**-toiminto.  
 3.  Täytä **Ilmoituksen asetukset** -sivun kentät seuraavassa taulukossa kuvatulla tavalla.  
 

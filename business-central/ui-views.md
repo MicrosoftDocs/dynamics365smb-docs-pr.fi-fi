@@ -1,6 +1,6 @@
 ---
-title: Luettelonäkymien tallentaminen ja mukauttaminen | Microsoft Docs
-description: Lisätietoja omien suodatetuista luetteloista koostuvien näkymien muodostamisesta.
+title: Luettelonäkymien tallentaminen ja mukauttaminen
+description: Lue, miten voit luoda omia näkymiä suodatetuille luetteloille sekä tallentaa, nimetä uudelleen ja hallita kyseisiä näkymiä.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: a36d513e0285e197f9ca651bab55f745b448773d
-ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
+ms.openlocfilehash: 6ac3489151d9e4e0ebf0867b94b59678bba0f35e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6017072"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445349"
 ---
 # <a name="save-and-personalize-list-views"></a>Luettelonäkymien tallentaminen ja mukauttaminen
 Jos olet määrittänyt luettelon suodattimen ja haluat säilyttää suodattimen myöhempää käyttöä varten, voit tallentaa sen näkymänä. Lisätietoja luetteloiden suodattamisesta on kohdassa [Suodattimien määrittäminen luetteloissa](ui-enter-criteria-filters.md#setting-filters-on-lists).
@@ -24,9 +24,9 @@ Jos näkymä on jo luotu, **Näkymät**-ryhmä näkyy suodatinruudun yläreunass
 
 ## <a name="to-save-a-view"></a>Näkymän tallentaminen
 1. Avaa jokin luettelosivu.
-2. Avaa suodatinruutu valitsemalla ![Suodatinruutukuvake](media/open-filter-pane-icon.png "Suodatinruudun kuvake") luettelon yläreunassa tai painamalla näppäinyhdistelmää Vaihto+F3.
+2. Valitse ![Suodatinruudun kuvake.](media/open-filter-pane-icon.png "Suodatinruudun kuvake") luettelon yläosassa ja paina näppäinyhdistelmä Vaihto+F3 avataksesi suodatinruudun.
 3. Määritä vähintään yksi uusi suodatin. Lisätietoja on kohdassa [Suodattimien määrittäminen luetteloissa](ui-enter-criteria-filters.md#setting-filters-on-lists).
-4. Kun suodattimet on määritetty, valitse ![Tallenna näkymä](media/save_view_icon.png "Tallenna näkymä") -kuvake.
+4. Kun suodattimet on määritetty, valitse ![Tallenna näkymä.](media/save_view_icon.png "Tallenna näkymä") -kuvake.
 
     Jos määrität suodattimen jo näkymänä tallennetulle luettelonäkymälle, tallennus päivittää aiemmin luodun näkymän.
 5. Jos tallennat uuden näkymän, anna näkymälle **Kaikki (kopio)** -ruudussa nimi, kuten Omistamani nimikkeet.
@@ -38,7 +38,7 @@ Jos et anna näkymälle nimeä, sen nimeksi tulee **Kaikki (kopio)**.
 > Etkö näe ![Tallenna näkymä](media/save_view_icon.png "Tallenna näkymä") -kuvaketta? Lisätietoja on kohdassa [Miksi tallennuskuvaketta ei ole](/dynamics365/business-central/ui-views-faq#save).
 
 ## <a name="to-rename-or-remove-a-view"></a>Näkymän nimeäminen uudelleen tai poistaminen
-1. Voit tarkastella luettelon tällä hetkellä näyttävän näkymän käytössä olevia vaihtoehtoja valitsemalla ![Näytä enemmän vaihtoehtoja](media/show-more-options-icon.png "Näytä enemmän vaihtoehtoja") -kuvakkeen.
+1. Valitse näkymässä, jossa luettelo on tällä hetkellä näkyvissä, ![Näytä lisää asetuksia.](media/show-more-options-icon.png "Näytä enemmän vaihtoehtoja") -kuvake nähdäksesi, mitkä vaihtoehdot ovat käytettävissä.
 2. Valitse joko **Nimeä uudelleen**- tai **Poista**-toiminto.
 
 ## <a name="managing-many-views"></a>Useiden näkymien hallinta

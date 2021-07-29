@@ -1,6 +1,6 @@
 ---
-title: Vaihekuvaus – pakettien myynti, kokoaminen ja toimitus | Microsoft Docs
-description: Just-In-Time -varastoinnin ja kyvyn mukauttaa tuotteet asiakkaan vaatimusten mukaisiksi tukemiseksi kokoonpanotilauksia voidaan automaattisesti luoda ja linkittää heti kun myyntitilausrivi on luotu. Linkki myyntikysynnän ja kokoonpanotarjonnan välillä mahdollistaa myyntitilauksen käsittelijöille kokoonpanonimikkeen mukauttamisen sekä toimituspäivien lupaamisen osan saatavuuden mukaan. Lisäksi linkitetyn myyntitilauksen toimitukseen kirjataan automaattisesti kokoonpanon kulutus ja tuotos.
+title: Pakettien myynti, kokoaminen ja toimitus
+description: Just-in-time -varastoinnin tukemiseksi kokoonpanotilaukset voidaan luoda ja linkittää automaattisesti heti kun myyntitilausrivi on luotu.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 98fe9a8e3600156f158cdfc1ce37ad3349cafa1b
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: f14defdd15acd82df76d1446b56d86ecda6e3cb6
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216303"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445199"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Vaihekuvaus: pakettien myynti, kokoaminen ja toimitus
 
@@ -82,7 +82,7 @@ Tee seuraavat toimet ennen tämän vaihekuvauksen tehtävien suorittamista:
 -   Asenna [!INCLUDE[prod_short](includes/prod_short.md)].  
 -   Tee itsestäsi fyysisen varaston työntekijä VALKOISESSA sijainnissa tekemällä seuraavat toimet:  
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varastotyöntekijät** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Fyysisen varaston työntekijät** ja valitse sitten vastaava linkki.  
 2.  Valitse ensin **Käyttäjätunnus**-kenttä ja valitse oma käyttäjätilisi **Käyttäjät**-sivulla.  
 3.  Kirjoita **Sijaintikoodi**-kenttään VALKOINEN.  
 4.  Valitse **Oletus**-kenttä.  
@@ -92,7 +92,7 @@ Tee seuraavat toimet ennen tämän vaihekuvauksen tehtävien suorittamista:
 
 Valmistele VALKOINEN-sijainti kokoonpanon käsittelyä varten seuraavasti:  
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Sijainnit** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sijainnit** ja valitse sitten vastaava linkki.  
 2.  Avaa sijaintikortti VALKOINEN-sijaintia varten.  
 3.  Anna **W-10-0001** **Varastopaikat**-pikavälilehden **Kokoonpanoon-varastop.koodi**-kentässä.  
 
@@ -104,7 +104,7 @@ Valmistele VALKOINEN-sijainti kokoonpanon käsittelyä varten seuraavasti:
 
 Poista sisäisten prosessien oletusläpimenoaika seuraavasti:  
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Tuotannon asetukset** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tuotannon asetukset** ja valitse sitten vastaava linkki.  
 2.  Poista **Tuotannon asetukset** -sivun **Suunnittelu**-pikavälilehden **Oletus toimitusajan varmistus** -kentän arvo.  
 
 <!-- Create inventory for assembly components by following [Prepare Sample Data](walkthrough-selling-assembling-and-shipping-kits.md#prepare-sample-data).   -->
@@ -138,7 +138,7 @@ Kun myyntitilaus on myöhemmin kirjattu kokonaan laskutetuksi, myyntitilaus ja l
 
 ## <a name="prepare-sample-data"></a>Esimerkkitietojen valmisteleminen  
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **F. var. nimikepäiväkirjat** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **F. var. nimikepvk:t** ja valitse sitten vastaava linkki.  
 2.  Valitse **Erän nimi** -kenttä, ja valitse sitten oletuspäiväkirja.  
 3.  Luo positiiviset varastomuutokset sijainnissa VALKOINEN, käsittelypäivänä 23. tammikuuta, kirjoittamalla seuraavat tiedot.  
 
@@ -155,14 +155,14 @@ Kun myyntitilaus on myöhemmin kirjattu kokonaan laskutetuksi, myyntitilaus ja l
 
     Synkronoi seuraavaksi uuden fyysisen varastoinnin tapahtumat varaston kanssa.  
 
-5.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Nimikepäiväkirjat** ja valitse sitten liittyvä linkki. **Nimikepäiväkirja**-sivu avautuu.  
+5.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikepäiväkirjat** ja valitse sitten vastaava linkki. **Nimikepäiväkirja**-sivu avautuu.  
 6.  Valitse **Laske f. var. muutos** -toiminto.  
 7.  Valitse **Laske f. var. muutos** -sivulla **OK**.  
 8.  **Nimikepäiväkirja**-sivulla valitse **Kirjaa**-toiminto ja valitse sitten **Kyllä**-painike.  
 
 ### <a name="creating-the-assembly-items"></a>Kokoonpanon nimikkeiden luominen  
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten vastaava linkki.  
 2.  Valitse **Uusi**-toiminto.  
 3.  Luo ensimmäinen kokoonpanonimike seuraavien tietojen perusteella.  
 
@@ -213,7 +213,7 @@ Kun myyntitilaus on myöhemmin kirjattu kokonaan laskutetuksi, myyntitilaus ja l
 
 ### <a name="selling-the-assembly-items"></a>Kokoonpanon nimikkeiden myynti  
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten vastaava linkki.  
 2.  Valitse **Uusi**-toiminto.  
 3.  Luo kaksi myyntitilausriviä asiakkaalle 62000, Laitekauppa, käsittelypäivänä seuraavilla tiedoilla.  
 
@@ -266,7 +266,7 @@ Kun myyntitilaus on myöhemmin kirjattu kokonaan laskutetuksi, myyntitilaus ja l
 
 ### <a name="planning-for-the-unavailable-ats-items"></a>Ei käytettävissä olevien ATS-nimikkeiden suunnittelu  
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Suunnittelutyökirja** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Suunnittelutyökirja** ja valitse sitten vastaava linkki.  
 2.  Valitse **Laske uudelleensuunnittelu** -toiminto.  
 3.  Määritä **Laske suunnitelma** -sivulla seuraavat suodattimet.  
 
@@ -284,7 +284,7 @@ Kun myyntitilaus on myöhemmin kirjattu kokonaan laskutetuksi, myyntitilaus ja l
 
 ### <a name="assembling-and-shipping-the-first-ato-quantity"></a>Ensimmäisen ATO-määrän kokoaminen ja toimitus  
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Fyysisen varaston toimitus** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Fyysisen varaston toimitus** ja valitse sitten vastaava linkki.  
 
     > [!NOTE]  
     >  Tässä osassa toimituksesta vastaava henkilö tallentaa valmiin ATO-kokoonpanotyön fyysisen varaston toimitusriville. Tämä työnkulku voi ilmetä ympäristöissä, joissa kokoonpanotyön suorittaa henkilö, joka on vastuussa toimituksesta tai toimitusalueen kokoajat.  
@@ -303,7 +303,7 @@ Kun myyntitilaus on myöhemmin kirjattu kokonaan laskutetuksi, myyntitilaus ja l
 
     Suorita seuraavaksi poimijan tehtävä.  
 
-4.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Keräilyt** ja valitse sitten liittyvä linkki.  
+4.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poiminnat** ja valitse sitten vastaava linkki.  
 5.  Avaa varaston poiminta-asiakirja, jonka loit tämän osan vaiheessa 3.  
 
     Huomaa **Lähdeasiakirja**-kentän arvo ja että kaikki poimintarivit ovat kokoonpanon komponenteille.  
@@ -344,7 +344,7 @@ Kun myyntitilaus on myöhemmin kirjattu kokonaan laskutetuksi, myyntitilaus ja l
 
 ### <a name="assembling-and-recording-the-second-ato-quantity"></a>Toisen ATO-määrän kokoonpano ja tallentaminen  
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Kokoonpanotilaukset** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kokoonpanotilaukset** ja valitse sitten vastaava linkki.  
 
     Huomaa, että tuotepaketin B toimitettujen yksiköiden ATO-tilaus on edelleen luettelossa, vaikka **Jäljellä oleva määrä** on tyhjä. Tämä johtuu siitä, että linkitettyä myyntitilausta ei ole vielä laskutettu kokonaan.  
 
@@ -368,7 +368,7 @@ Kun myyntitilaus on myöhemmin kirjattu kokonaan laskutetuksi, myyntitilaus ja l
 
 ### <a name="assembling-the-ats-quantity"></a>ATS-määrän kokoonpano  
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Kokoonpanotilaukset** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kokoonpanotilaukset** ja valitse sitten vastaava linkki.  
 2.  Avaa kokoonpanotilaus tuotepaketin A kymmenen yksikön tilausta varten.  
 
     Huomaa, että **Kokoonpantava määrä** -kenttään on täytetty oletettu määrä.  
@@ -380,7 +380,7 @@ Kun myyntitilaus on myöhemmin kirjattu kokonaan laskutetuksi, myyntitilaus ja l
 
     Suorita seuraavaksi poimijan tehtävä.  
 
-5.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Keräilyt** ja valitse sitten liittyvä linkki.  
+5.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poiminnat** ja valitse sitten vastaava linkki.  
 6.  Avaa varaston poiminta-asiakirja, jonka loit tämän osan vaiheessa 4.  
 
      Rekisteröi rekisteröimään poiminta muuttamatta oletustietoja.  
@@ -396,7 +396,7 @@ Kun myyntitilaus on myöhemmin kirjattu kokonaan laskutetuksi, myyntitilaus ja l
 
 ### <a name="shipping-the-remaining-items-partly-from-stock-and-partly-assembled-to-the-order"></a>Toimitetaan jäljellä olevat nimikkeet osittain varastosta ja osittain kootaan tilausta varten  
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Fyysisen varaston toimitus** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Fyysisen varaston toimitus** ja valitse sitten vastaava linkki.  
 2.  Avaa viimeisimmän fyysisen varastoinnin toimitus, joka on luotu VALKOINEN-sijainnissa.  
 
     Huomaa tuotepaketin A kymmenen yksikön rivillä, että **Toimitettava määrä**- ja **Määrä poimittu** -kentät ovat tyhjiä.  
@@ -407,7 +407,7 @@ Kun myyntitilaus on myöhemmin kirjattu kokonaan laskutetuksi, myyntitilaus ja l
 
     Suorita seuraavaksi poimijan viimeinen tehtävä tätä fyysisen varastoinnin toimitusta varten.  
 
-4.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Keräilyt** ja valitse sitten liittyvä linkki.  
+4.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poiminnat** ja valitse sitten vastaava linkki.  
 5.  Avaa varaston poiminta-asiakirja, jonka loit tämän osan vaiheessa 3.  
 
     Huomaa, että tämä poiminta-asiakirja on kokoonpanon nimikettä varten, ei kokoonpanon komponentteja varten.  
@@ -427,7 +427,7 @@ Kun myyntitilaus on myöhemmin kirjattu kokonaan laskutetuksi, myyntitilaus ja l
 
     Fyysisen varastoinnin toimituksen asiakirja poistetaan, mikä ilmaisee, että asiaan liittyvät varastotoiminnot on suoritettu. Varmista seuraavaksi, että myyntitilaus on käsitelty.  
 
-10. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Myyntitilaukset** ja valitse sitten liittyvä linkki.  
+10. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten vastaava linkki.  
 11. Avaa myyntitilaus Laitekauppa-yritystä varten.  
 
     Huomaa, että **Toimitettu määrä** -kenttä sisältää täyden määrän kummallakin rivillä.  

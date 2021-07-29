@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: postpone
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1a3adebe30e63ea295aed6aa7beffbf581ba1be3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 525cc099b2a9b2630395a092761e0526f4760356
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784888"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444660"
 ---
 # <a name="create-gl-budgets"></a>KP-budjettien luominen
 Sinulla voi olla useita budjetteja samalle ajanjaksolle, kun luot budjetit eri nimillä. Määrittele ensin budjetin nimi ja syötä budjettiluvut. Budjetin nimi tulee sitten kaikkiin luomiisi budjettitapahtumiin.  
@@ -29,7 +29,7 @@ Budjeteilla on tärkeä osa liiketoimintatiedoissa, kuten KP-raporttimalleihin p
 Voit käsitellä kustannusbudjetteja samalla tavoin kustannuslaskennassa. Lisätietoja on kohdassa [Kustannusbudjettien luominen](finance-create-cost-budgets.md).    
 
 ## <a name="to-create-a-new-gl-budget"></a>Uuden KP-budjetin luominen  
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Pääkirjanpidon budjetit** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KP-budjetit** ja valitse sitten vastaava linkki.  
 2. Valitse **Muokkaa luetteloa** -toiminto ja täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Valitse **Muokkaa budjettia** -toiminto.
 4. Täyttämällä **Budjetti**-sivun yläosan kentät määrität, mitä näytetään.  

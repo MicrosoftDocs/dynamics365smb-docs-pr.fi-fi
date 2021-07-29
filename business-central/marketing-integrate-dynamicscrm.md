@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f7e4e4c98a334fcd38d488f721eb99e6edcd77c1
-ms.sourcegitcommit: 08ca5798cf3f04fc3ea38fff40c1860196a70adf
+ms.openlocfilehash: 709624fb0794102012c7db02cf0cfe0bac943d6a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "5985360"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444868"
 ---
 # <a name="using-dynamics-365-sales-from-business-central"></a>Dynamics 365 Salesin käyttäminen Business Centralissa
 Jos käytät Dynamics 365 Salesia asiakassuhteissa, saat käyttöösi saumattoman integroinnin liidistä tuottoon käyttämällä [!INCLUDE[prod_short](includes/prod_short.md)]ia taustatehtäviin, kuten tilausten käsittelyyn, varastonhallintaan ja talousasioihin.
@@ -115,7 +115,7 @@ Nykyisessä hinnoittelukokemuksessa [!INCLUDE[prod_short](includes/prod_short.md
     1. Yhdistä nimikkeet, joiden hinnat asiakkaan hintaryhmä määrittää.
     2. Yhdistä asiakkaan hintaryhmä **Asiakkaan hintaryhmät**-sivulla valitsemalla **Liittyvät**, sitten **Dynamics 365 Sales**, **Yhdistäminen** ja lopuksi **Määritä yhdistäminen**. Yhdistäminen luo aktiivisen hinnaston tuotteelle [!INCLUDE[prod_short](includes/prod_short.md)] samalla nimellä kuin asiakkaan hintaryhmä tuotteella [!INCLUDE[crm_md](includes/crm_md.md)]. Kaikki ne nimikkeet synkronoidaan automaattisesti, joiden asiakkaan hintaryhmä määrittää hinnan.
 
-:::image type="content" source="media/customer-price-group.png" alt-text="Asiakkaan hintaryhmä -sivu":::
+:::image type="content" source="media/customer-price-group.png" alt-text="Asiakkaan hintaryhmä -sivu.":::
 
 #### <a name="new-experience"></a>[Uusi kokemus](#tab/new-experience/)  
 
@@ -131,7 +131,7 @@ Uusi hinnoittelukokemus synkronoi hinnastot, jotka täyttävät seuraavat ehdot:
 
 Voit synkronoida hinnastot valitsemalla **Myyntihinnasto**-sivulla **Liittyvät**, **Dynamics 365 Sales**, **Yhdistäminen** ja lopuksi **Määritä yhdistäminen**. 
 
-:::image type="content" source="media/sales-price-list.png" alt-text="Myyntihinnasto-sivu":::
+:::image type="content" source="media/sales-price-list.png" alt-text="Myyntihinnasto-sivu.":::
 
 ---
 

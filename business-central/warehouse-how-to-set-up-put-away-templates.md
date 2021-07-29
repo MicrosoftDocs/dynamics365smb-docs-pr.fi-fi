@@ -1,6 +1,6 @@
 ---
-title: Hyllytysmallien määrittäminen | Microsoft Docs
-description: 'Ohjatussa hyllytyksessä ja poiminnassa ohjelma etsii kunakin hetkenä sopivimman varastopaikan nimikkeille seuraavien tekijöiden mukaan: fyysisen varastoinnin määritetty hyllytysmalli, varastopaikoille annetut varastopaikan luokittelut ja kiinteille varastopaikoille määritetyt vähimmäis- ja enimmäismäärät.'
+title: Hyllytysmallien määrittäminen
+description: Käytä hyllytysmalleja, jotta nimikkeille ehdotetaan aina sopivimpia varastopaikkoja.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 336a9aa748d997d2cf4c5ae9a93cab6f96495fd6
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 715c2f0c862d720d7123bc585d9b67c642d22005
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784190"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445074"
 ---
 # <a name="set-up-put-away-templates"></a>Hyllytysmallien määrittäminen
 
@@ -25,7 +25,7 @@ Voit määrittää useita hyllytysmalleja ja valita niistä yhden hallitaksesi h
 
 ## <a name="to-set-up-put-away-templates"></a>Hyllytysmallien määrittäminen
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Hyllytysmallit** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Hyllytysmallit** ja valitse sitten liittyvä linkki.  
 2. Valitse **Uusi**-toiminto.  
 3. Syötä koodi, joka on yksilöivä tunniste mallille, jota olet luomassa.  
 4. Syötä halutessasi lyhyt kuvaus.  

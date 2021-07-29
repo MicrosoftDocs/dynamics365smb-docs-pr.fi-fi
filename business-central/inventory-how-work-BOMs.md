@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3489ef57da691e408553b1703c4deab17622167f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2f23357fde2dc86e0be0ee09099d57623056365c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785621"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444918"
 ---
 # <a name="work-with-bills-of-material"></a>Tuoterakenteen käyttäminen
 Tuoterakenteilla voi jäsentää päänimikkeet, jotka resurssien tai kuormituskeskusten on koottava tai tuotettava komponenteista. Kokoonpanon tuoterakennetta voidaan käyttää myös päänimikkeen myyntiin komponenteista koostuvana tuotepakettina.
@@ -56,14 +56,14 @@ Kokoonpanon tuoterakenteen luomisessa on kaksi osaa:
 ## <a name="to-edit-assembly-boms"></a>Kokoonpanon tuoterakenteiden muokkaaminen
 Voit muokata kokoonpanon tuoterakenteen rivejä milloin tahansa. Huomaa kuitenkin, että tuoterakenne voi olla käytössä päätason myynnissä tai kokoonpanoissa, joihin muutos voi vaikuttaa. Valitse **Käyttökohde-**-toiminto, jossa näet, mitä nimikkeitä se käyttää ja voiko se vaikuttaa myynti- tai kokoonpanotilauksiin.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Nimikkeet** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten vastaava linkki.
 2. Valitse **Kyllä**-arvo **Kokoonpanon tuoterakenne** -sarakkeesta.
 3. Valitse **Kokoonpanon tuoterakenne** -sivulla **Muokkaa luetteloa** -toiminto ja muuta sitten mitä tahansa kenttää tarpeen mukaan.
 
 ## <a name="to-view-components-and-resources-indented-according-to-the-bom-structure"></a>Kokoonpanonimikkeen osien ja resurssien näyttäminen tuoterakenteen perusteella sisennettyinä
 Voit avata **Kokoonpanon tuoterakenne** -sivulla erillisen sivun, joka näyttää osat ja resursseja sisennettynä kokoonpanonimikkeen alle niiden tuoterakenteen mukaisen sijainnin perusteella.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Nimikkeet** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten vastaava linkki.
 2. Avaa kokoonpanonimikkeen kortti. (**Nimikkeet**-sivun **Kokoonpanon tuoterakenne** -kentässä on **Kyllä**.)
 3. Valitse **Nimikekortti**-sivulla ensin **Kokoonpano**-toiminto ja sitten **Kokoonpanon tuoterakenne** -toiminto.
 4. Valitse **Kokoonpanon tuoterakenne** -sivulla **Näytä tuoterakenne** -toiminto.
@@ -78,7 +78,7 @@ Pura tuoterakennetoiminto on käytettävissä myös **Kokoonpanon tuoterakenne**
 
 Seuraava toimenpide perustuu myyntilaskuun. Samoja vaiheet koskeva myös muita myyntiasiakirjoja ja kaikki ostoasiakirjoja.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Myyntilaskut** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntilaskut** ja valitse sitten vastaava linkki.
 2. Avaa kokoonpanonimikkeen rivin sisältävä myyntilasku.
 3. Valitse ensin kokoonpanonimikkeen rivi ja sitten **Pura tuoterakenne** -rivitoimintoa.
 

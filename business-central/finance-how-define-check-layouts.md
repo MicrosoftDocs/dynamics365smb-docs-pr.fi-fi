@@ -1,6 +1,6 @@
 ---
-title: Sekin asettelun määrittäminen| Microsoft Docs
-description: Voit suunnitella ja tulostaa sekkisi eri muodoissa standardinmukaisia vaatimuksia noudattaen.
+title: Sekin asettelun määrittäminen
+description: Voit suunnitella ja tulostaa sekkisi eri muodoissa paikallisten viranomaisten säätämiä standardinmukaisia vaatimuksia noudattaen.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, customize
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 24d046d9284797e371a9cca98ad68618bf248be7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6d083e3eea85fde087a431d21bb9eae8bb4b8c5e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781604"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444635"
 ---
 # <a name="select-a-check-layout"></a>Sekin asettelun valitseminen
 Voit suunnitella omat sekit, joiden avulla pystyt noudattamaan paikallisten viranomaisten määrittämiä standardeja. Sekkikuvat voidaan tulostaa englannin-, ranskan ja espanjankielisinä.
@@ -23,7 +23,7 @@ Voit suunnitella omat sekit, joiden avulla pystyt noudattamaan paikallisten vira
 Sekit suunnitellaan tulostettavaksi sekä Yhdysvaltojen että Kanadan sekkikuvamuodoissa joko muodossa sekki-talonki-sekki tai talonki-talonki-sekki.
 
 ## <a name="to-select-a-check-layout"></a>Sekin asettelun valitseminen
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Raporttivalintojen pankkitili** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Raporttivalintojen pankkitili** ja valitse sitten vastaava linkki.
 2. Valitse **Raporttivalinta - Pankkitili** -sivun **Käyttö**-kentässä **Sekki**.
 3. Valitse jompikumpi seuraavista raportin tunnuksista:
 
@@ -52,10 +52,10 @@ Päivityksessä 15.3 ja uudemmissa on asennettu magneettisten merkkien tunnistuk
 ### <a name="micr-e-13b-specifications"></a>MICR E-13B -määritykset
 Seuraavassa on yhteenveto MICR E-13B -fonteista, joista voi olla hyötyä, kun fontteja kalibroidaan sekkiasetteluissa tiettyjen MICR-tulostimien avulla.
 
-![MICR E-13B -määritykset](media/font_MICR_E-13B_Specifications.png "MICR E-13B -määritykset")
+![MICR E-13B -määritykset.](media/font_MICR_E-13B_Specifications.png "MICR E-13B -määritykset")
 
 ### <a name="delimiter-characters"></a>Erottimen merkit
-![Erottimen merkit](media/font-micr-letters.png "Erottimen merkit")
+![Erottimen merkit.](media/font-micr-letters.png "Erottimen merkit")
 
 MICR E-13B -fonttien kokomääritys löytyy toimittajan dokumentaatiosta täältä: (https://www.idautomation.com/micr-fonts/e13b/).
 
@@ -69,17 +69,17 @@ Seuraavat CMC-7 -fontit ovat käytettävissä [!INCLUDE[prod_short](includes/pro
 
 Seuraavassa on yhteenveto MICR CMC-7 -fonteista, joista voi olla hyötyä, kun fontteja kalibroidaan sekkiasetteluissa tiettyjen MICR-tulostimien avulla.
 
-![MICR CMC-7 -määritykset](media/font_MICR_CMC-7_Specifications.png "MICR CMC-7 -määritykset")
+![MICR CMC-7 -määritykset.](media/font_MICR_CMC-7_Specifications.png "MICR CMC-7 -määritykset")
 
 ### <a name="delimiter-characters"></a>Erottimen merkit
-![Erottimen merkit](media/font-cmc7-letters.png "Erottimen merkit")
+![Erottimen CMC-7-merkit.](media/font-cmc7-letters.png "Erottimen CMC-7-merkit")
 
 MICR CMC-7 -fonttien kokomääritys löytyy toimittajan dokumentaatiosta täältä: (http://www.idautomation.com/micr-fonts/cmc7/).
 
 ### <a name="secure-font-specifications"></a>Suojattujen fonttien määritykset
 Seuraavassa on yhteenveto sekkisuojausfonteista, joista voi olla hyötyä, kun fontteja kalibroidaan sekkiasetteluissa tiettyjen MICR-tulostimien avulla.
 
-![Suojausfonttien määritysten tarkistaminen](media/font_check-security-font_Specifications.png "Suojausfonttien määritysten tarkistaminen")
+![Suojausfonttien määritysten tarkistaminen.](media/font_check-security-font_Specifications.png "Suojausfonttien määritysten tarkistaminen")
 
 Sekkisuojausfonttien kokomääritys löytyy toimittajan dokumentaatiosta täältä: (https://www.idautomation.com/security-fonts/).
 

@@ -1,6 +1,6 @@
 ---
-title: avaa nimiketapahtumat
-description: Lisätietoja siitä, miksi varastomäärä on nolla, vaikka avoimia nimiketapahtumia on olemassa.
+title: Nollavaraston avoimien nimiketapahtumien merkinnät
+description: Tässä artikkelissa kerrotaan ongelmasta, jossa varastomäärä on nolla, vaikka avoimia nimiketapahtumia on.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: febd7b4ff379d064f392eb55b7868697a59aacf5
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 75cf8f2ccbf7738c753a25c98ea9c79e13b9d53d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215926"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444993"
 ---
 # <a name="design-details-known-item-application-issue"></a>Rakennetiedot: Nimikkeen kohdistuksen tunnettu ongelma
 Tässä artikkelissa kerrotaan ongelmasta, jossa varastomäärä on nolla, vaikka [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa on avoimia nimiketapahtumia.  
@@ -54,7 +54,7 @@ Artikkelin alussa kerrotaan ongelman tyypilliset oireet. Tämän jälkeen käsit
 
  Seuraavassa kaaviossa näytetään, miten määrän kohdistukset tehdään.  
 
-![Kustannusten oikaisuprosessi ostoista myyntiin](media/helene/TechArticleInventoryZero2.png "Kustannusten oikaisuprosessi ostoista myyntiin")
+![Kustannusten oikaisuprosessi ostoista myyntiin.](media/helene/TechArticleInventoryZero2.png "Kustannusten oikaisuprosessi ostoista myyntiin")
 
  Huomaa, että nimiketapahtuma 1 (osto) on sekä nimikkeen toimittaja että kohdistetun nimiketapahtuman kustannuslähde, nimiketapahtuma 2 (myynti).  
 
@@ -78,7 +78,7 @@ Seuraavassa kaaviossa näytetään, miten kustannusten kohdistukset tehdään.
 
  Seuraavassa kaaviossa esitetään kustannusvirta.  
 
-![Kustannusten oikaisuprosessi myynnistä myyntipalautuksiin](media/helene/TechArticleInventoryZero4.png "Kustannusten oikaisuprosessi myynnistä myyntipalautuksiin")
+![Kustannusten oikaisuprosessi myynnistä myyntipalautuksiin.](media/helene/TechArticleInventoryZero4.png "Kustannusten oikaisuprosessi myynnistä myyntipalautuksiin")
 
  Huomaa, että kustannus ohjataan edelleen nimiketapahtumalle 2 (myynti), tämän jälkeen nimiketapahtumalle 3 (myyntipalautus) ja lopulta nimiketapahtumalle 4 (myynti 2).  
 
@@ -91,7 +91,7 @@ Seuraavassa kaaviossa näytetään, miten kustannusten kohdistukset tehdään.
 
  Seuraavassa kaaviossa näytetään, miten nimikkeen kohdistukset tehdään kummassakin skenaariossa.  
 
-![Kustannusten oikaisuprosessi tapahtuu molempiin suuntiin](media/helene/TechArticleInventoryZero6.png "Kustannusten oikaisuprosessi tapahtuu molempiin suuntiin")  
+![Kustannusten oikaisuprosessi tapahtuu molempiin suuntiin.](media/helene/TechArticleInventoryZero6.png "Kustannusten oikaisuprosessi tapahtuu molempiin suuntiin")  
 
  Huomaa, että kustannuksen kohdistus (siniset nuolet) tehdään, jotta voidaan varmistaa nimiketapahtuman 2 (myyntipalautus) liittäminen samoihin kustannuksiin, joihin sen peruuttama nimiketapahtuma 1 (myynti 1) on liitetty. Määrän kohdistusta (punaiset nuolet) ei tehdä.  
 
@@ -133,7 +133,7 @@ Seuraavassa kaaviossa näytetään, miten kustannusten kohdistukset tehdään.
      |Tapahtumanro|Nimiketapahtuman nro|Saapuvan nimiketapahtuman nro|Lähtevän nimiketapahtuman nro|Määrä|Kirjauspäivämäärä|Kustannusten kohdistus|  
      |---------|---------------------|----------------------|-----------------------|--------|------------|----------------|  
      |299|334|334|333|1|28.1.2018|Kyllä|  
-<!--![Why is inventory zero 8](media/helene/TechArticleInventoryZero8.png "Whyisinventoryzero\_8")  -->
+<!--![Why is inventory zero 8.](media/helene/TechArticleInventoryZero8.png "Whyisinventoryzero\_8")  -->
 
  Huomaa, että saapuvan nimiketapahtuman 334 kustannukset on kohdistettu lähtevään nimiketapahtumaan 333.  
 

@@ -1,6 +1,6 @@
 ---
-title: Uuden toimittajan rekisteröinti toimittajan kortin luonnin avulla | Microsoft Docs
-description: Lisätietoja uuden toimittajan rekisteröinnistä toimittajan kortin luonnin avulla.
+title: Uuden toimittajan rekisteröiminen toimittajan kortin luomisen avulla
+description: Tässä aiheessa opit luomaan toimittajakortin, jotta voit rekisteröidä uuden toimittajan tai alihankkijan ja tallentaa toimittajakortteja malliksi.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: f1028b91101f8faa38d4d4d5d2695ee498ff6d2e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2d4943415af6f5cd91ac35c68a9d8433e024b6be
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772652"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445374"
 ---
 # <a name="register-new-vendors"></a>Uusien toimittajien rekisteröiminen
 
@@ -40,7 +40,7 @@ Uusi toimittaja rekisteröidään täyttämällä toimittajakortti. Eri toimitta
 
 ### <a name="to-create-a-new-vendor-card"></a>Uuden toimittajan kortin luominen
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Toimittajat** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Toimittajat** ja valitse sitten vastaava linkki.  
 2. Valitse **Toimittajat**-sivulla **Uusi**.
 
     Jos on olemassa useita toimittajamalleja, näyttöön avautuu automaattisesti sivu, jossa voit valita toimittajamallin. Noudata tällaisessa tapauksessa kahta seuraavaa vaihetta.

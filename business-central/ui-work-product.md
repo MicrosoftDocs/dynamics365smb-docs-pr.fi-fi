@@ -7,16 +7,17 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 3dff984847a3c74a6c4dad41385839c4cefdc75e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9781e2d064d48b7ce72b3c7f279c33cbfd42be7a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772127"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445249"
 ---
 # <a name="working-with-prod_short"></a>[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen
+
 Kun tehdään liiketoimintaan liittyviä tehtäviä, voit käsitellä tietoja eri tavoin, kuten tietueiden luominen ja tietojen syöttäminen, tietojen lajittelu ja suodatus, kirjalliset huomautukset ja tietojen lähettäminen muihin sovelluksiin.
 
 Voit esimerkiksi säätää minkä tahansa sivun kokoa ja sijaintia, laajentaa sarakkeita ja kasvattaa sarakeotsikoiden korkeutta ja muuttaa sarakkeiden tietojen lajittelua. Ja jos haluat tarkastella kaikkia luettelosivun tai asiakirjarivien sarakkeita vaakavierityspalkin avulla, huomaat, että pystysuuntainen kiinnitysruutu estää tiettyjä sarakkeita vierittymästä.
@@ -26,7 +27,7 @@ Voit esimerkiksi säätää minkä tahansa sivun kokoa ja sijaintia, laajentaa s
 > [!TIP]
 > Jos haluat tulostettavan yleiskuvan eniten käytetyistä toiminnoista, valitse seuraava kuva ja lataa PDF-tiedosto.
 >
-> [ ![PDF-tiedoston kuvake](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf "PDF-tiedoston avaava kuvake")
+> [ ![PDF-tiedoston kuvake.](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf "PDF-tiedoston avaava kuvake")
 
 ## <a name="links-to-learn-more"></a>Lisätietolinkkejä
 
@@ -67,6 +68,21 @@ Seuraavassa on lyhyt video [!INCLUDE[prod_short](includes/prod_short.md)] -sovel
 
     Internet Exploreria ei tueta enää. Lisätietoja on [Microsoft Edge -dokumentaatiossa](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
 - Pidä selain aina päivitettynä uusimpaan versioon.
+
+## <a name="action-bars"></a>Toimintopalkit
+
+[!INCLUDE [prod_short](includes/prod_short.md)]issa teet suurimman osan työstäsi luettelossa, asiakirjassa tai kortissa. Kaikilla kolmella sivutyypillä on palkki, jossa on tiettyyn sivuun liittyviä toimintoja, ja toiminnot ovat lähes samat yksittäiselle kortille tai asiakirjalle ja entiteettiluettelolle. Näin voit hallita yksittäistä myyntitilausta **Myyntitilaus** -sivulla ja **Myyntitilaukset**-luettelossa, mukaan lukien sen kirjaaminen ja laskutus.  
+
+Toiminnot voivat kuitenkin näkyä eri tavalla tai ne saattavat olla kokonaan poissa näkyvistä, riippuen siitä, miten avaat sivun. Luettelosivuille on erityistä se, että luettelosivu, jonka avaat kotisivulta ja sivu, joka hahmonnetaan etsiessäsi sitä käyttäen ![Hehkulamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvaketta, eivät ole identtiset.  
+
+Kun etsit avointa luettelosivua, kuten **Myyntitilaukset**-luetteloa, se on näkymätilassa. Yksittäisen entiteetin, kuten myyntitilauksen, muokkaus-, tarkastelu- ja poistotoiminnot näytetään, kun valitset **Hallinta**-toiminnon.  
+
+> [!TIP]
+> Jos tiedät, että käytät toimintoja toimintopalkin toisella tasolla usein, valitse :::image type="icon" source="media/pin.png" border="false"::: -kuvake kiinnittääksesi toimintopalkin ja saadaksesi eri valikoissa olevat toiminnot heti löydettäviksi.
+>
+> Jos haluat, että toimintopalkin toinen taso katoaa uudelleen, valitse :::image type="icon" source="media/unpin.png" border="false":::-kuvake.
+
+Mutta kun avaat saman luettelosivun kotisivultasi, **Hallinta**-toimintoa ei ole. Sen sijaan voit avata yksittäisen myyntitilauksen valitsemalla **Numero**-kentän. Tässä näkymässä toimintopalkkia ei voi kiinnittää.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/paths/work-pro-data-dynamics-365-business-central/)
 

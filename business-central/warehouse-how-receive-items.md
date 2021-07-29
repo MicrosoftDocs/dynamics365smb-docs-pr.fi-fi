@@ -1,6 +1,6 @@
 ---
-title: Nimikkeiden vastaanottaminen | Microsoft Docs
-description: Kun nimikkeet saapuvat varastolle, jossa on käytössä fyysisen varastoinnin vastaanoton käsittely, niiden vastaanoton käynnistäneestä vapautetusta lähdeasiakirjasta tulee hakea rivit.
+title: Nimikkeiden vastaanotto
+description: Tässä aiheessa on yleiskatsaus eri tavoista vastaanottaa nimikkeitä fyysisessä varastossa, esimerkiksi nimikkeistä, joilla on ostotilaus, tai nimikkeistä, joilla on fyysisen varaston vastaanotto.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 5bf683be6e6d0976464240d08e0546639a46362a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f71e348a5f6b8a232d05c8729a03a7f41534caa8
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771902"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445124"
 ---
 # <a name="receive-items"></a>Nimikkeiden vastaanottaminen
 
@@ -27,7 +27,7 @@ Kun nimikkeet saapuvat varastoon, jossa on käytössä fyysisen varastoinnin vas
 
 Seuraavaksi käsitellään, miten nimikkeitä vastaanotetaan ostotilauksella. Vaiheet ovat samankaltaiset myyntipalautustilauksille ja siirtotilauksille.  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostotilaukset** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostotilaukset** ja valitse sitten vastaava linkki.
 2. Avaa aiemmin luotu ostotilaus tai luo uusi myyntitilaus. Lisätietoja on kohdassa [Ostojen kirjaaminen](purchasing-how-record-purchases.md).
 3. Anna **Vastaanotettava määrä** -kenttään vastaanotettu määrä.
 
@@ -43,7 +43,7 @@ Seuraavaksi käsitellään, miten nimikkeitä vastaanotetaan ostotilauksella. Va
 
 ## <a name="to-receive-items-with-a-warehouse-receipt"></a>Nimikkeiden vastaanottaminen fyysisen varasto vastaanottona
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Fyysisen varaston vastaanotot** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Fyysisen varaston vastaanotot** ja valitse sitten vastaava linkki.  
 2. Valitse **Uusi**-toiminto.  
 
     Täytä **Yleinen**-pikavälilehden kentät. Kun haet lähdeasiakirjan rivit, ohjelma kopioi otsikon tiedot kullekin riville.  
@@ -96,7 +96,7 @@ Sinun on määritettävä prosenttiosuus, jonka verran vastaanotto saa ylittää
 
 Seuraavassa kuvataan, miten nimikkeen vastaanoton ylittävän määrän koodi määritetään ja liitetään nimikkeelle. Toimittajaa koskevat vaiheet ovat samanlaisia.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten vastaava linkki.
 2. Avaa sen nimikkeen kortti, jonka vastaanotettava määrä voi joskus ylittää tilatun määrän.
 3. Valitse **Vastaanoton ylittävän määrän koodi** -kentän valintapainike.
 4. Valitse **Uusi**-toiminto.

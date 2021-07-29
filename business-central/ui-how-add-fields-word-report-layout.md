@@ -1,6 +1,6 @@
 ---
-title: Kenttien lisääminen Word-raportin asetteluun | Microsoft Docs
-description: Tässä ohjeaiheessa käsitellään raportin tietojoukon kenttien lisäämistä aiemmin luodun raportin Word-raporttiasetteluun.
+title: Kenttien lisääminen Wordin raporttiasetteluun
+description: Tässä aiheessa kuvaillaan raportin tietojoukon kenttien lisäämistä aiemmin luodun raportin Wordin raporttiasetteluun.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: jswymer
-ms.openlocfilehash: 52cfb4ba4ca0ba645ecca48e08d63722c2c5c5b4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 87b7bc409c313203e6d24172e60b3f92d1af9bd2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771108"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444793"
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Kenttien lisääminen Word-raporttiasetteluun
 Raportin tietojoukko voi sisältää kenttiä, joissa näkyvät otsikot, tiedot ja kuvat. Tässä ohjeaiheessa käsitellään raportin tietojoukon kenttien lisääminen olemassa olevaan raportin Word-raporttiasetteluun. Lisäät kenttiä käyttämällä raportille mukautettua XML-osaa ja lisäämällä sisällön ohjausobjekteja, jotka on yhdistetty raportin tietojoukon kenttiin. Kenttien lisääminen edellyttää, että tunnet jonkin raportin tietojoukon niin, että voit tunnistaa kentät, jotka haluat lisätä asetteluun.  
@@ -111,7 +111,7 @@ Seuraavassa taulukossa on yksinkertaistettu yhteenveto mukautetun XML-osan XML-k
   
  Seuraavassa kuvassa on yksinkertainen mukautettu XML-osa edellisestä osasta Word-asiakirjan **XML-yhdistäminen**-ruudusta.  
   
- ![XML-määritysruudun leike Wordissa](media/nav_reportlayout_xmlmappingpane.png "NAV_ReportLayout_XMLMappingPane")  
+ ![XML-määritysruudun leike Wordissa.](media/nav_reportlayout_xmlmappingpane.png "NAV_ReportLayout_XMLMappingPane")  
   
 -   Voit lisätä selitteen tai kentän asettelun lisäämällä sisällön ohjausobjektin, joka liittyy **XML-yhdistäminen**-ruudussa olevaan elementtiin.  
   

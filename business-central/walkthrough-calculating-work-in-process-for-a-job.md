@@ -1,6 +1,6 @@
 ---
 title: Vaihekuvaus – Projektin keskeneräisen työn laskeminen | Microsoft Docs
-description: Projektien avulla voit laatia yrityksen resurssien käyttöön liittyviä aikatauluja ja seurata tietyn projektin resurssien käyttöön liittyviä kustannuksia. Projekteissa kuluu esimerkiksi työntekijöiden työtunteja, koneiden käyttötunteja ja varastonimikkeitä, joita täytyy seurata projektin edetessä.
+description: Projekteissa kuluu esimerkiksi työntekijöiden työtunteja, koneiden käyttötunteja ja varastonimikkeitä, joita täytyy seurata projektin edetessä.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0e26df80ecfc0c7921e4f06b3094ae81ae7c29e4
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 58cc257b30829fe0b9a2fe2bdec4ef6e5a5855cc
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216076"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445224"
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Vaihekuvaus: Projektin keskeneräisen työn laskeminen
 
@@ -60,7 +60,7 @@ Projektien avulla voit laatia yrityksen resurssien käyttöön liittyviä aikata
 
 ### <a name="to-calculate-wip"></a>Keskeneräisen työn laskeminen  
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Työt** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektit** ja valitse sitten vastaava linkki.  
 2.  Valitse **Projektit**-luettelossa ensin **Karjaa**-projekti ja sitten **Muokkaa**-toiminto. Työkortti avataan muokkaustilassa.  
 
      Keskeneräinen työ voidaan laskea kustannusarvon, myyntiarvon, myynnin kulujen, valmistumisen prosenttiosuuden ja valmiin sopimuksen perusteella. Tässä esimerkissä CRONUS käyttää kustannusarvomenetelmää.  
@@ -92,7 +92,7 @@ Projektien avulla voit laatia yrityksen resurssien käyttöön liittyviä aikata
 
 ### <a name="to-review-wip-warnings"></a>Tarkastele KET-varoituksia  
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Projektin KET-ohjaamo** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektin KET-ohjaamo** ja valitse sitten vastaava linkki.  
 2.  Valitse ensin **Karjaa**-projekti ja sitten **Näytä varoitukset** -toiminto.  
 3.  Tarkastele **Projektin KET-varoitukset** -sivulla työhön liittyvää varoitusta.  
 

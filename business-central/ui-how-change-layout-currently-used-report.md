@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ad5dd28d10df38fbd780ec4df5d4a87056670b99
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8e833d29df72d10786b050222d342b2d6dce927e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771083"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444752"
 ---
 # <a name="change-the-current-report-layout"></a>Nykyisen raportin asettelun muuttaminen
 Raportti voidaan määrittää useille raportin asetteluille, joita voidaan vaihtaa tarpeen mukaan.
@@ -30,7 +30,7 @@ Kun mukautettuja raportin asetteluita määritetään, voit valita ne asiakas- j
 > Word-raportin asettelua käyttävät asiakirjaraportit (eivät luettelot) ovat yleensä nopeampia kuin RDLC-raporttiasettelua käyttävät raportit. Jos sinulla on mahdollisuus valita asiakirjaraportin asetteluksi joko Word- tai RDLC-raportin asettelua, Word-raporttiasettelu on paras vaihtoehto.
 
 ## <a name="to-change-which-report-layout-to-use-for-a-report-or-document"></a>Raporttia tai asiakirjaa varten käytettävän raporttiasettelun muuttaminen
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Raporttiasetteluvalinta** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Raporttiasetteluvalinta** ja valitse sitten vastaava linkki.  
    **Raporttiasetteluvalinta**-sivulla on luettelo kaikista raporteista, joita voi käyttää sivun yläosan **Yritys**-kentässä määritetyssä yrityksessä. **Valittu asettelu** -kenttä määrittää tällä hetkellä raportissa käytetyn asettelun.
 2. Määritä **Yritys**-kenttä sivun yläosassa yritykseksi, joka sisältää raportin.
 3. Voit muuttaa raportin käyttämää asettelua valitsemalla raportin rivin ja asettamalla **Valittu asettelu** -kentän arvoksi yhden seuraavista vaihtoehdoista:

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bb9ace03ee8e47b25a7812e1ace624b8e88e990c
-ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
+ms.openlocfilehash: 6bac247787efde5e23a7460b696c241e93f5de89
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6074660"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444818"
 ---
 # <a name="getting-ready-for-doing-business"></a>Valmistautuminen liiketoimintaan
 
@@ -23,9 +23,9 @@ Olet juuri aloittanut ensimmäisen yrityksen [!INCLUDE[prod_short](includes/prod
 
 Pääset liiketoiminnassa alkuun tutustumalla **Asetusten ohjattu määritys** -sivuun, jossa voit käynnistää avustettuja asennusoppaita, videoita tai valittujen asennustehtävien ohjeaiheita. Voit avata sivun valitsemalla [tämän linkin](https://businesscentral.dynamics.com/?page=1801).  
 
-Vaihtoehtoisesti voit valita ![Hammaspyöräkuvake Asetukset-valikon avaamista varten](media/ui-experience/settings_icon_small.png) -kuvakkeen ja sitten **Asetusten ohjattu määritys** -toiminnon.
+Vaihtoehtoisesti voit avata ![Hammaspyörä-kuvake, joka avaa Asetukset-valikon.](media/ui-experience/settings_icon_small.png) -kuvakkeen ja sitten **Asetusten ohjattu määritys**-toiminnon.
 
-Vaihtoehtoisesti voit etsiä asetusten ohjattujen määritysoppaiden luettelon valitsemalla ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvakkeen, kirjoittamalla **Asetusten ohjattu määritys** ja valitsemalla sitten liittyvän linkin.  
+Löydät myös luettelon asetusten ohjatun määrityksen oppaista, jos valitset ![Kerro-ominaisuuden avaava Hehkulamppu](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asetusten ohjattu määritys** ja valitse sitten vastaava linkki.  
 
 > [!TIP]
 > [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
@@ -36,7 +36,7 @@ Vuoden 2021 1. julkaisuaallosta alkaen **Aloitus**-tarkistusluettelo opastaa toi
 
 Kun olet siirtänyt olemassa olevasta taloustietojen järjestelmästä tiedot, kuten toimittajat, asiakkaat ja nimikkeet, olet valmis aloittamaan. Voit käyttää tarvittaessa myös luettelon jotain toista avustetun asennuksen opasta.
 
-Jos alue ei kuulu asetusten ohjattuun määritykseen, valitse ![Hammaspyöräkuvake Asetukset-valikon avaamista varten](media/ui-experience/settings_icon_small.png) -kuvake ja valitse sitten **Lisäasetukset**-toiminto. **Lisäasetuksissa** **Manuaalinen asetus** -osassa on asetussivujen käyttömahdollisuus. Siellä voit täyttää asetuskentät kaikille alueille manuaalisesti. Lisätietoja on myös kohdassa [[!INCLUDE[prod_short](includes/prod_short.md)]in määrittäminen](setup.md)
+Jos alue ei kuulu asetusten ohjattuun määritykseen, valitse ![Hammaspyöräkuvake Asetukset-valikon avaamista varten.](media/ui-experience/settings_icon_small.png) -kuvake ja sitten **Lisäasetukset**-toiminto. **Lisäasetuksissa** **Manuaalinen asetus** -osassa on asetussivujen käyttömahdollisuus. Siellä voit täyttää asetuskentät kaikille alueille manuaalisesti. Lisätietoja on myös kohdassa [[!INCLUDE[prod_short](includes/prod_short.md)]in määrittäminen](setup.md)
 
 > [!NOTE]  
 > Käytettävissä olevien asetusten ohjattujen määritysoppaiden, laajennusten ja palvelujen luettelo vaihtelee yritykselle valitun käyttäjäkokemuksen mukaan. **Essential**-kokemuksen valikoima on suppeampi kuin **Premium**-kokemuksen valikoima.

@@ -1,6 +1,6 @@
 ---
-title: Vaihekuvaus – Sarja- ja eränumeroiden jäljittäminen | Microsoft Docs
-description: Tässä aiheessa käsitellään viallisen nimikkeen myynnin lopettamisen toimintojen.
+title: Vaihekuvaus – Sarja-/eränumeroiden jäljitys
+description: Tässä aiheessa kuvataan toimet, joita tarvitaan viallisen nimikkeen myymisen estämiseksi, sekä se, miten nimikkeitä voidaan jäljittää ja peruuttaa tarpeen mukaan.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6d06d39ac3e3b1bb9ad0a3b9089b295c899e9f74
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: eff79c853e5976ce85705b790542854e0e2a6ebc
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216278"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445099"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Vaihekuvaus: Sarja-/eränumeroiden jäljitys
 
@@ -77,7 +77,7 @@ Seuraavaksi näille kahdelle nimikkeelle luodaan osto-, tuotanto- ja myyntitilau
 
 ### <a name="to-create-the-items"></a>Nimikkeiden luominen  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Nimikkeet** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten vastaava linkki.  
 2. Valitse **Uusi**-toiminto.  
 3. Valitse **Nro**-kenttään **2000** ja täytä sitten seuraavat kentät.  
 
@@ -114,7 +114,7 @@ Seuraavaksi näille kahdelle nimikkeelle luodaan osto-, tuotanto- ja myyntitilau
 
 ### <a name="to-purchase-components"></a>Osta osia
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostotilaukset** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostotilaukset** ja valitse sitten vastaava linkki.  
 2. Valitse **Uusi**-toiminto.  
 3. Luo ostotilaus toimittajalle, Custom Metals Incorporated, täyttämällä seuraavat rivikentät.  
 
@@ -128,7 +128,7 @@ Seuraavaksi näille kahdelle nimikkeelle luodaan osto-, tuotanto- ja myyntitilau
 7. Valitse ensin **Kirjaa**-toiminto, sitten **Vastaanota ja laskuta** -asetus ja lopuksi **OK**.  
 
     Osta seuraavaksi kilpapyörän runkoja Huippupuu-tekniikalta.  
-8. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostotilaukset** ja valitse sitten liittyvä linkki.  
+8. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostotilaukset** ja valitse sitten vastaava linkki.  
 9. Valitse **Uusi**-toiminto.
 10. Luo ostotilaus toimittajalle, Coolwood Technologies, täyttämällä seuraavat rivikentät.  
 
@@ -145,7 +145,7 @@ Seuraavaksi näille kahdelle nimikkeelle luodaan osto-, tuotanto- ja myyntitilau
 
 ### <a name="to-produce-end-items"></a>Tuota lopullisia nimikkeitä
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Vapautetut tuotantotilaukset** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Vapautetut tuotantotilaukset** ja valitse sitten vastaava linkki.  
 2. Valitse **Uusi**-ryhmä.  
 3. Luo uusi vapautettu tuotantotilaus täyttämällä seuraavat kentät.  
 
@@ -166,7 +166,7 @@ Seuraavaksi näille kahdelle nimikkeelle luodaan osto-, tuotanto- ja myyntitilau
 
     Tuota seuraavaksi kaksi kilpapolkupyörää lisää, Snro3 ja Snro4.  
 
-11. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Vapautetut tuotantotilaukset** ja valitse sitten liittyvä linkki.  
+11. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Vapautetut tuotantotilaukset** ja valitse sitten vastaava linkki.  
 12. Valitse **Uusi**-toiminto.  
 13. Luo uusi vapautettu tuotantotilaus täyttämällä seuraavat kentät otsikossa.  
 
@@ -191,7 +191,7 @@ Seuraavaksi näille kahdelle nimikkeelle luodaan osto-, tuotanto- ja myyntitilau
     Myy seuraavaksi kilpapolkupyöriä. Myy ensin kilpapyörä (Snro1) Tinayhtymä Oy:lle.  
 
 ### <a name="to-sell-the-end-items"></a>Myy lopullisia nimikkeitä  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten vastaava linkki.  
 2.  Valitse **Uusi**-toiminto ja luo sitten myyntitilaus täyttämällä seuraavat kentät.  
 
     |Asiakas|Nimike|Määrä|Sarjanumero|  
@@ -203,7 +203,7 @@ Seuraavaksi näille kahdelle nimikkeelle luodaan osto-, tuotanto- ja myyntitilau
 
     Myy seuraavaksi kilpa-pyörä SN2 ja Tuotantoyhtymä Oyj:lle.  
 
-5.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Myyntitilaukset** ja valitse sitten liittyvä linkki.  
+5.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten vastaava linkki.  
 6.  Valitse **Uusi**-toiminto ja luo sitten myyntitilaus täyttämällä seuraavat kentät.  
 
     |Asiakas|Nimike|Määrä|Sarjanumero|  
@@ -215,7 +215,7 @@ Seuraavaksi näille kahdelle nimikkeelle luodaan osto-, tuotanto- ja myyntitilau
 
     Lopuksi on tarpeen myydä kilpapyörän runkoja erikseen. Tuotantoyhtymä Oyj tilaa lisäksi neljä erillistä kilpapyörän runkoa omaa tuotantolinjaansa varten.  
 
-9. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten liittyvä linkki.  
+9. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten vastaava linkki.  
 10. Valitse **Uusi**-toiminto ja luo sitten myyntitilaus täyttämällä seuraavat kentät.  
 
     |Asiakas|Nimike|Määrä|Sarjanro|  
@@ -233,7 +233,7 @@ Seuraavaksi näille kahdelle nimikkeelle luodaan osto-, tuotanto- ja myyntitilau
  Myyntiosastolta kerrotaan laatupäällikölle, että palautetun kilpapyörän (nimike 1002) eränumero on Snro1. Käyttämällä näitä perustietoja hän voi määrittää, missä valmista kilpapyörää on viimeksi käytetty, tässä tapauksessa Selangorian Ltd.:hen lähtevässä toimituksessa. Sitten laatupäällikön täytyy jäljittää taaksepäin ensimmäiseen alkuperään saadakseen tietää, mistä eränumerosta viallinen kilpakehys on peräisin, ja kuka oli sen toimittaja.  
 
 ### <a name="to-determine-which-lot-included-the-faulty-frame-and-who-supplied-it"></a>Virheellisen rungon erän ja toimittajan määrittäminen  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Nimikkeen jäljitys** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeen jäljitys** ja valitse sitten vastaava linkki.  
 2.  Kirjoita **Nimikkeen jäljitys** -sivulla **Sarjanron suodatus** -kenttään **Snro1** ja lisää **Nimikesuodatus**-kenttään **1002**.  
 3.  Säilytä **Näytä komponentit** -kentän oletusarvo **Vain nimikeseuranta**. Säilytä myös **Jäljitystapa**-kentän oletusjäljitystapa **Käytöstä alkuperään**.  
 4.  Valitse **Jäljitys**-toiminto.  

@@ -1,6 +1,6 @@
 ---
 title: Ostojen hyväksyntä -työnkulun määrittäminen ja käyttäminen
-description: Voit automatisoida uusien tai muuttuneiden tietueiden hyväksymisprosessin esimerkiksi asiakirjojen, kirjausrivien ja asiakaskorttien kohdalla luomalla työnkulkuihin hyväksymisvaiheet. Ennen kuin luot hyväksymistyönkulkuja, määritä hyväksyjä ja varahyväksyjä jokaiselle hyväksyjäkäyttäjälle. Voit myös määrittää hyväksyjille rajat niille myynti -ja ostotietueille, joita he saavat hyväksyä. Hyväksymispyynnöt ja muut ilmoitukset voidaan lähettää sähköpostina tai sisäisenä muistiona. Kunkin hyväksyjäkäyttäjän asetuksiin voit määrittää myös milloin he saavat ilmoituksia.
+description: Tässä opastuksessa on kaikki vaiheet, jotka liittyvät ostojen hyväksymistyönkulun määrittämiseen ja käyttämiseen Business Centralissa.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 05/26/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 964e1dae3dc754198777c703a15c1ef0b6fe82a7
-ms.sourcegitcommit: 6bce51954f17b80491e180f25d67ff18b1618a88
+ms.openlocfilehash: 5c7575f0b3a35536e412757fe90993b764fc3ba5
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "6110977"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445149"
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Vaihekuvaus: Ostojen hyväksyntä -työnkulun määrittäminen ja käyttäminen
 
@@ -52,7 +52,7 @@ Kun kirjautunut omana itsenäsi, määritä Alicia hyväksyjäkäyttäjäksi, jo
 
 #### <a name="to-set-up-yourself-and-alicia-as-approval-users"></a>Määritä itsesi ja Alicia hyväksyjäkäyttäjiksi
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Hyväksynnän käyttäjäasetukset** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Hyväksynnän käyttäjäasetukset** ja valitse sitten vastaava linkki.  
 2. Valitse **Hyväksynnän käyttäjäasetukset** -sivulla **Uusi**-toiminto.  
 
     > [!NOTE]  
@@ -86,7 +86,7 @@ Luo ostotilauksen hyväksymisen työnkulku kopioimalla vaiheet **Ostotilauksen h
 
 ### <a name="to-create-and-enable-a-purchase-order-approval-workflow"></a>Ostotilauksen hyväksymisen työnkulun luominen ja lähettäminen
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Työnkulut** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Työnkulut** ja valitse sitten vastaava linkki.  
 2. Valitse **Työnkulut**-sivulla **Toiminnot**, valitse **Uusi** ja valitse sitten **Uusi työnkulku mallista** -toiminto.  
 3. Valitse **Työnkulkumallit** sivulla työnkulkumalli nimeltä **Ostotilauksen hyväksymistyönkulku**.  
 
@@ -100,7 +100,7 @@ Käytä uutta ostotilauksen hyväksymistyönkulkua kirjautumalla ensin [!INCLUDE
 ### <a name="to-request-approval-of-a-purchase-order-as-alicia"></a>Pyydä hyväksyntä ostotilaukseen, Aliciana
 
 1. Kirjaudu sisään Aliciana.
-2. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Ostotilaukset** ja valitse sitten liittyvä linkki.  
+2. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostotilaukset** ja valitse sitten vastaava linkki.  
 3. Valitse rivi avataksesi myyntitilauksen 106001.  
 4. Valitse **Ostotilaus** -sivulla **Toiminnot**, valitse **Pyydä hyväksyntä** ja valitse sitten **Lähetä hyväksymispyyntö** -toiminto.  
 

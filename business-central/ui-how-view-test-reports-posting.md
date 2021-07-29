@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: 9c2d32fd87112b839e6f60362fbd929870d47138
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 96e4ef52bc896cd02f0e6b38a470d16a00284c66
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774459"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445418"
 ---
 # <a name="view-test-reports-before-posting"></a>Testiraporttien tarkastelu ennen kirjausta
 Kun olet valmis kirjaamaan asiakirjan, kuten tilauksen, laskun tai hyvityslaskun, voit testata asiakirjan ja varmistaa, ettei kirjausta estäviä ongelmia ole.
@@ -25,7 +25,7 @@ Kun olet valmis kirjaamaan asiakirjan, kuten tilauksen, laskun tai hyvityslaskun
 >   Seuraavassa on tietoja ennen ostoasiakirjan kirjausta tehtävästä testauksesta. Toiminto toimii samalla tavalla myyntiasiakirjoille.
 
 ## <a name="to-print-a-test-report-before-posting-a-purchase-invoice"></a>Testiraporttien tulostaminen ennen ostolaskujen kirjausta
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostolaskut** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostolaskut** ja valitse sitten vastaava linkki.
 2. Avaa ostolasku, jonka haluat testata.
 3. Valitse **Testiraportti**-toiminto.  
 
