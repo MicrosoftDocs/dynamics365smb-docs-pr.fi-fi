@@ -1,5 +1,5 @@
 ---
-title: Yleisten varastonhallinnan asetusten määrittäminen
+title: Yleisten varastotietojen määrittäminen
 description: Kuvaus siitä, miten fyysisen varaston ja varaston hallinta voidaan määrittää.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 04/01/2021
+ms.date: 07/28/2021
 ms.author: edupont
-ms.openlocfilehash: a99de8575891e15712e221f28bbf3f4a46f2f771
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: cc52935e743b0e8af4f934c040898e64665843fc
+ms.sourcegitcommit: 769d20d299155cba30c35636d02b2ef021e4ecc1
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435620"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "6688249"
 ---
 # <a name="set-up-general-inventory-information"></a>Yleisten varastotietojen määrittäminen
 
@@ -31,15 +31,20 @@ Lisätietoja kustannuslaskentakentistä, **Automaattisesta kustannusten kirjaami
 Jos haluat sisällyttää fyysisen varastoinnin käsittelyajan ostorivin toimituksen lupaamisen laskentaan, voit määrittää sen oletusarvoksi varastolle ja sijainnille **Varastonhallinnan asetukset** -sivulla. Lisätietoja on kohdassa [Toimituksen lupaamisen päivämäärän laskeminen](sales-how-to-calculate-order-promising-dates.md).  
 
 > [!NOTE]
-> **Automaattinen kustannusten oikaisu** -näppäin otetaan oletusarvoisesti käyttöön, jotta varaston arvot ovat aina oikeat kirjanpidossa, mikä puolestaan pitää myynti- ja tuottotilastot ajan tasalla. Kustannusten muutokset saapuvista merkinnöistä, kuten ostoista tai tuotannosta, kohdistetaan niihin liittyviin lähteviin tietoihin, kuten myynteihin tai siirtoihin. Tämä on hyödyllistä uusille [!INCLUDE[prod_short](includes/prod_short.md)] -asiakkaille ja pienille yrityksille, joilla on suhteellisen alhaiset varastotransaktiotasot. Yrityksen kasvaessa ja varastotasojen kasvaessa tämä voi kuitenkin hidastaa järjestelmän suorituskykyä. Jos haluat vähentää suorituskykyä kirjauksen aikana, valitse ajan asetus, joka määrittää, kuinka kauas taaksepäin käsittelypäivämäärästä lähtien saapuva tapahtuma voi aiheuttaa liittyvien lähtevien arvotapahtumien muuttamisen. Vaihtoehtoisesti voit muuttaa kustannuksia säännöllisin väliajoin Muuta kust.-nimike tapahtumat -eräajon avulla.
+> **Automaattinen kustannusten oikaisu** -kentän arvona on oletusarvoisesti *Aina*, jotta varaston arvot ovat aina oikeat kirjanpidossa, mikä puolestaan pitää myynti- ja tuottotilastot ajan tasalla. Kustannusten muutokset saapuvista merkinnöistä, kuten ostoista tai tuotannosta, kohdistetaan niihin liittyviin lähteviin tietoihin, kuten myynteihin tai siirtoihin. Tämä on hyödyllistä uusille [!INCLUDE[prod_short](includes/prod_short.md)] -asiakkaille ja pienille yrityksille, joilla on suhteellisen alhaiset varastotransaktiotasot.
+>
+> Yrityksen kasvaessa ja varastotasojen kasvaessa tämä voi kuitenkin hidastaa järjestelmän suorituskykyä. Jos haluat vähentää suorituskykyä kirjauksen aikana, valitse ajan asetus, joka määrittää, kuinka kauas taaksepäin käsittelypäivämäärästä lähtien saapuva tapahtuma voi aiheuttaa liittyvien lähtevien arvotapahtumien muuttamisen.
+>
+> Vaihtoehtoisesti voit muuttaa kustannuksia säännöllisin väliajoin Muuta kust.-nimike tapahtumat -eräajon avulla. Voit myös poistaa automaattisen kustannusten kirjaamisen käytöstä tai määrittää **Automaattinen kustannusten oikaisu** -kentän arvoksi *Ei koskaan*. Molemmissa tapauksissa näyttöön tulee ilmoitus, josta voit käynnistää avustetun asennusoppaan, jonka avulla voit ajoittaa tehtäviä työjonoon. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="see-also"></a>Katso myös
+
 [Varastonhallinnan määrittäminen](inventory-setup-inventory.md)  
-[Rakennetiedot: arvostusmenetelmät](design-details-costing-methods.md)    
+[Rakennetiedot: Arvostusmenetelmät](design-details-costing-methods.md)  
 [Varaston hallinta](inventory-manage-inventory.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md)  
-[Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)
+[Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

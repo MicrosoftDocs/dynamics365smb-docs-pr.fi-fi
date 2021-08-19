@@ -236,7 +236,6 @@
 #### [Asiakkaan asetustietojen kerääminen](admin-gather-customer-setup-values.md)
 #### [Asiakastietojen siirtämisen valmisteleminen mallien avulla](admin-use-templates-to-prepare-customer-data-for-migration.md)
 #### [Asiakastietojen siirtäminen](admin-migrate-customer-data.md)
-#### [Yrityksen mukautettujen määrityspakettien luominen](admin-how-to-create-custom-company-configuration-packages.md)
 #### [Vihjeitä: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
 ### Sähköpostin määrittäminen
 #### [Määritä sähköposti](admin-how-setup-email.md)
@@ -534,7 +533,11 @@
 #### [Vakiokustannusten päivittäminen](finance-how-to-update-standard-costs.md)
 #### [Nimiketapahtumien poistaminen ja uudelleenkohdistaminen](finance-how-to-remove-and-reapply-item-entries.md)
 #### [Nimikepäiväkirjan kiinteästä kohdistuksesta aiheutuvien avointen nimiketapahtumien sulkeminen](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)
-#### [Varaston kustannusten täsmäyttäminen pääkirjanpitoon](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
+#### Kustannukset raportointi ja täsmäyttäminen pääkirjanpidon kanssa
+##### [Raporttikustannukset](finance-report-costs-and-reconcile-with-the-general-ledger.md)
+##### [Varaston kustannusten täsmäyttäminen pääkirjanpitoon](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
+##### [Projektin edistymisen ja suorituskyvyn valvonta](projects-how-monitor-progress-performance.md)
+#### [Varaston kustannusten muuttaminen ja täsmäyttäminen pääkirjanpidon kanssa työjonon avulla](finance-adjust-reconcile-inventory-cost-job-queue.md)
 
 ### Kassavirtojen hallinta
 #### [Kassavirta – yleistä](finance-cash-flow-overview.md)
@@ -722,6 +725,8 @@
 ### [Kokonaisvaltaisen suunnittelun, tuotanto-ohjelman tai tarvelaskennan suorittaminen](production-how-to-run-mps-and-mrp.md)
 ### [Tuotantotilausten suora uudelleensuunnittelu tai päivittäminen](production-how-to-replan-refresh-production-orders.md)
 ### [Kysynnän ja tarjonnan välisten suhteiden seuraaminen](production-how-track-demand-supply.md)
+### [Hankintatyökirja](production-about-planning-functionality.md#requisition-worksheet)
+### [Toimenpideviestit](production-how-to-run-mps-and-mrp.md#action-messages)
 <!-- ### [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md) -->
 <!-- ### [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
 <!--## [Modify Planning Suggestions in a Graphical View](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)-->
@@ -1604,9 +1609,9 @@
 ### [Sivujen tarkistaminen](across-inspect-page.md)
 ### [Tietokannan lukitusten tarkasteleminen](admin-view-database-locks.md)
 ### [Näyttää taulukon tiedot](admin-view-table-information.md)
-### [Sandbox-ympäristön luominen](across-how-create-sandbox-environment.md)
 ### [Uusien ominaisuuksien käyttöönotto etuajassa](admin-feature-management.md)
 ### [Käyttäjien perehdyttäminen tarkistusluetteloiden avulla](admin-checklist.md)
+### [Eristysympäristöt](across-how-create-sandbox-environment.md)
 ## Business Central -sovelluksen mukauttaminen
 ### [Mukautuksen yleiskuvaus](ui-customizing-overview.md)
 ### [Profiilien sivujen mukauttaminen](ui-personalization-manage.md)

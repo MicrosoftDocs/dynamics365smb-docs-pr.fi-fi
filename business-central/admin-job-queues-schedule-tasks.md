@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b1d9893364d7472759a478877ebec49ace5e9647
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d6c67ea5529e885483858064201a1d850bab7eff
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441291"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649860"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Käytä työjonoja ajoitustehtäviin
 
@@ -37,9 +37,10 @@ Kun työjonot on määritetty ja käytössä, tila voi muuttua seuraavasti kunki
 
 Kun työ on valmis, se poistetaan työjonotapahtumien luettelosta, ellei se ole toistuva työ. Jos kyseessä on toistuva työ, **Aloituspvm ja -aika** -kentän arvo muokataan näyttämään seuraava aika, jolloin työ odotetaan suoritettavan.  
 
-## <a name="to-view-status-or-errors-in-the-job-queue"></a>Työjonon tilan tai virheiden näyttäminen
+## <a name="monitor-status-or-errors-in-the-job-queue"></a>Työjonon tilan tai virheiden seuraaminen
 
 Työnjonon suorituksen aikana luotavat tiedot tallennetaan tietokantaan, jotta voit tehdä työjonon virheiden vianmäärityksen.  
+
 Voit tarkastella ja muuttaa kunkin työjonotapahtuman tilaa. Kun luot työjonotapahtuman, sen tilaksi tulee **Estossa**. Voit määrittää tilaksi esimerkiksi **Valmis** ja takaisin tilaksi **Estossa**. Muuten tilatiedot päivitetään automaattisesti.
 
 Seuraavassa taulukossa kuvataan **Tila**-kentän arvot.
@@ -53,11 +54,12 @@ Seuraavassa taulukossa kuvataan **Tila**-kentän arvot.
 | Valmis | Ilmaisee, että työjonotapahtuma valmis. |
 
 ### <a name="to-view-status-for-any-job"></a>Minkä tahansa työn tilan näyttäminen
+
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Työjonon tapahtumat** ja valitse sitten vastaava linkki.
 2. Valitse **Työjonotapahtumat**-sivulla ensin työjonotapahtuma ja sitten **Lokitapahtumat**-toiminto.  
 
 > [!TIP]
-> [!INCLUDE [prod_short](includes/prod_short.md)] onlinessa voit tarkastella työjonotapahtumien tilaa myös Microsoft Azuren Application Insightsissa. Lisätietoja on kehittäjien ja järjestelmänvalvojien ohjeessa [Työjonon elinkaaren jäljityksen telemetrian analysoiminen](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace)[!INCLUDE [prod_short](includes/prod_short.md)].
+> Voit myös tarkastella työjonotapahtumien tilaa käyttämällä Microsoft Azuren Application Insightsin telemetriaan perustuvaa analyysia. Lisätietoja on kohdassa [Telemetrian seuranta ja analysointi](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) sekä [Työjonon elinkaaren jäljitystelemetrian analysointi](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace) [!INCLUDE [prod_short](includes/prod_short.md)] kehittäjän ja hallinnan sisällössä.
 
 ## <a name="the-my-job-queue-part"></a>Oma työjono -osa
 Roolikeskuksen **Oma työjono** -osa sisältää työjonotapahtumat, jotka olet aloittanut mutta jotka eivät ole vielä valmiita. Oletusarvoisesti osa ei ole näkyvissä, joten se on lisättävä omaan roolikeskukseesi. Lisätietoja on kohdassa [Työtilan mukauttaminen](ui-personalization-user.md).  
@@ -65,9 +67,9 @@ Roolikeskuksen **Oma työjono** -osa sisältää työjonotapahtumat, jotka olet 
 Tässä osassa näkee, mitä asiakirjoja, joissa on tunnuksesi **Määritetty käyttäjätunnus** -kentässä, käsitellään tai mitkä ovat jonossa, mukaan lukien taustakirjaukseen liittyvät asiakirjat. Osa tietää yhdellä silmäyksellä, onko asiakirjan kirjaamisessa tai työjonon tapahtumissa tapahtunut virheitä. Osan avulla voit peruuttaa kun asiakirjan kirjaamisen, jos se ei ole käynnissä.
 
 ### <a name="to-view-an-error-from-the-my-job-queue-part"></a>Tarkastele virhettä oma työjono -osasta
+
 1. Valitse tapahtumassa, jonka tila on **Virhe**, **Näytä virhe** -toiminto.
 2. Tarkastele virhesanomaa ja korjaa ongelma.
-
 
 ## <a name="examples-of-what-can-be-scheduled-using-job-queue"></a>Esimerkkejä siitä, mitä voidaan ajoittaa työjonon avulla
 
@@ -86,6 +88,10 @@ Jos [!INCLUDE[prod_short](includes/prod_short.md)] ja [!INCLUDE[prod_short](incl
 Työjonot ovat tehokas työkalu taustalla suoritettavien liiketoimintaprosessien ajoittamiseen. Kyse voi olla esimerkiksi useista käyttäjistä, jotka yrittävät kirjata myyntitilauksia, kun vain yksi tilaus voidaan käsitellä kerralla.  
 
 Lisätietoja on kohdassa [Taustakirjauksen määrittäminen työjonojen avulla](ui-batch-posting.md#to-set-up-background-posting-with-job-queues).
+
+## <a name="monitor-the-job-queue-with-telemetry"></a>Työjonon valvominen telemetrian avulla
+
+Järjestelmänvalvojana voit [Application Insightsin](/azure/azure-monitor/app/app-insights-overview) avulla kerätä ja analysoida telemetriaa, jonka avulla voit tunnistaa ongelmia. Lisätietoja on kehittäjien ja järjestelmänvalvojien ohjeessa [Telemetrian seuranta ja analysoiminen](/dynamics365/business-central/dev-itpro/administration/telemetry-overview).  
 
 ## <a name="see-also"></a>Katso myös
 

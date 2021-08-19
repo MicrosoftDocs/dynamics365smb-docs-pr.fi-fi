@@ -1,5 +1,5 @@
 ---
-title: Rakenteen tiedot – Oletetun kustannuksen kirjaus | Microsoft Docs
+title: Rakennetiedot - oletetun kustannuksen kirjaus
 description: Oletetut kustannukset kuvaavat esimerkiksi arviota ostetun nimikkeen kustannuksesta, jonka kirjaat ennen nimikkeen laskun vastaanottamista.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 07/20/2021
 ms.author: edupont
-ms.openlocfilehash: 181b0168dc73aba7bb4d09b7cda7a2ce7028e142
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 1327eaf9a26ff2bbf8aa3dab8f2e7f64b8f00ab4
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215276"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649835"
 ---
 # <a name="design-details-expected-cost-posting"></a>Rakennetiedot: oletetun kustannuksen kirjaus
 Oletetut kustannukset kuvaavat esimerkiksi arviota ostetun nimikkeen kustannuksesta, jonka kirjaat ennen nimikkeen laskun vastaanottamista.  
@@ -29,10 +29,22 @@ Oletetut kustannukset kuvaavat esimerkiksi arviota ostetun nimikkeen kustannukse
 
  Laskutetussa arvotapahtumassa näkyy väliaikaisten tilien täsmäyttämiseksi kirjattu oletettu kustannussumma. Tämä tukee täsmäytystä ja jäljitystä.  
 
-## <a name="example"></a>Esimerkki  
- Seuraavassa esimerkissä näytetään oletetut kustannukset, jos **Automaattinen kustann. kirjaus** -valintaruutu ja **Oletettu kust. kirjaus KP:toon** -valintaruutu on valittu **Varastonhallinnan asetukset** -sivulla.  
+## <a name="prerequisites-for-posting-expected-costs"></a>Oletetun kustannuksen kirjaamisen edellytykset
 
- Kirjaa ostotilaus vastaanotetuksi. Oletetut kustannukset ovat LCY 95.00.  
+Jotta odotetut kustannukset voidaan kirjata, sinun on tehtävä seuraavat toimet:
+1. **Varastonhallinnan asetukset** -sivulla valitse **Automaattinen kustann. kirjaus** -valintaruutu ja **Oletettu kust. kirjaus KP:oon** -valintaruutu.
+2. Määritä, mitä väliaikaisia tilejä käytetään oletetun kustannuksen kirjausprosessin aikana.  
+
+  Tarkista **Varaston kirjausasetukset** -sivulla **Varastotili**- ja **Varastotili (väliaikainen)** -kentät ostettavan nimikkeen kentälle **Sijaintikoodi ja Varaston kirj.ryhmän koodi**. Lisätietoja näistä tileistä on kohdassa [Rakennetiedot - Tilit pääkirjanpidossa](design-details-accounts-in-the-general-ledger.md).
+3. Tarkista **Yleiset kirjausasetukset** -sivulla **Varaston kertymätili (väliaik)** -kenttä käyttämillesi **Yleinen liiketoim. kirjausryhmä**- ja **Yleinen tuotteen kirjausryhmä** -ryhmille.
+4. Kun luot ostotilauksen, oletusarvona on, että **Toimittajan laskun nro** -kenttä on pakollinen. Sinun on poistettava se käytöstä **Ostojen ja ostovelkojen asetukset** -sivulla poistamalla **Ulkois. asiakirjan nro pakoll.** -kentän valinta.
+
+## <a name="example"></a>Esimerkki  
+
+> [!NOTE]  
+> Tässä esimerkissä käytetyt tilinumerot ovat vain viitteenä, ja ne ovat erilaisia järjestelmässäsi. Määritä ne yllä olevissa edellytyksissä olevien ohjeiden mukaan.
+
+Kirjaa ostotilaus vastaanotetuksi. Oletetut kustannukset ovat LCY 95.00.  
 
  **arvotapahtumat**  
 
@@ -73,7 +85,7 @@ Oletetut kustannukset kuvaavat esimerkiksi arviota ostetun nimikkeen kustannukse
 
  **Pääkirjanpidon tapahtumat**  
 
-|Kirjauspvm|KP-tili|Tilinro (En-US-esittely)|Summa|Tapahtumanro|  
+|Kirjauspäivämäärä|KP-tili|Tilinro (Vain esimerkit!)|Summa|Tapahtumanro|  
 |------------------|------------------|---------------------------------|------------|---------------|  
 |01-15-20|Varastokertymätili (väliaik)|5530|95.00|4|  
 |01-15-20|Varastotili (väliaik)|2131|-95.00|3|  

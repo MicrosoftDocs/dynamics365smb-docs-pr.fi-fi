@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 9dd985237f0e214c404d7f254c023b67af660e48
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 49ea877d2a6a213a1559b7269bc4b70f660745d7
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443152"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649885"
 ---
 # <a name="prepare-to-migrate-customer-data-with-templates"></a>Asiakastietojen siirtämisen valmisteleminen mallien avulla
 
@@ -124,6 +124,7 @@ Tietue, jonka tietoja käytetään tällä tavalla on täydellinen, koska se koo
 > [!NOTE]
 > Jos määrityspaketin taulukoiden tiedot sisältävät päivämääriä, kuten laskujen kirjauspäiviä, päivämäärien katsotaan noudattavan [!INCLUDE[prod_short](includes/prod_short.md)]issa määritettyä aikavyöhykettä. 
 
+
 ## <a name="to-create-a-record-from-a-configuration-template"></a>Luo tietue konfiguraatiomallista
 
 Voit käyttää tietorakennetta, joka sisältyy tietomalleihin, muuntaaksesi tiedot malleihin tietokannassa, yksi kerrallaan. Tee tämä käyttämällä **Luo instanssi** -funktiota. Tämä on tietojen siirtoprosessi pienoiskoossa, ja siitä voi olla hyötyä luotaessa prototyyppejä tai käsiteltäessä pienempiä tietojenluontitehtäviä.  
@@ -137,6 +138,15 @@ Seuraavissa vaiheissa esitellään, miten nimikekortti luodaan nimiketietomallis
 5. Jos haluat tarkastella uutta nimikorttia, valitse ![Kerro-ominaisuuden avaava Hehkulamppu.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten vastaava linkki.  
 6. Avaa uusi nimikkeen kortti.  
 7. Laajenna eri pikavälilehdet ja varmista, että niihin on syötetty oikeat tiedot.  
+
+## <a name="to-use-conversion-templates"></a>Muuntomallien käyttö
+
+Voit muuntaa kontakteja asiakkaiksi, toimittajiksi ja työntekijöiksi. 
+
+### <a name="to-convert-a-contact-into-a-customer-vendor-or-employee"></a>Yhteyshenkilön muuntaminen asiakkaaksi, toimittajaksi tai työntekijäksi
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvaketta, kirjoita **Yhteyshenkilö** ja valitse sitten oikea yhteyshenkilö. 
+2. Valitse kontaktikortissa **Toiminnot**, sitten **Funktiot** ja valitse sitten **Luo asiakkaaksi, toimittajaksi, pankiksi tai työntekijäksi**.
+
 
 ## <a name="to-use-a-configuration-template-on-a-record"></a>Käytä konfigruointimallia tietueessa
 
@@ -152,6 +162,9 @@ Seuraava toimenpide perustuu uuteen asiakaskorttiin.
 3. Valitse **Asiakasmallit**-sivulla jokin malleista ja valitse sitten **OK**-painike.  
 
 Valitun asiakkaan mallin oletusarvot lisätään asiakaskorttiin.
+
+> [!NOTE]
+> Mallia ei voi käyttää asiakkaiden, toimittajien ja muiden vastaavien kohteiden kenttien tyhjentämiseen. Sen sijaan sinun on käytettävä **Muokkaa Excelissä** -toimintoa. Lisätietoja on kohdassa [Muokkaa Excelissä](across-work-with-excel.md#edit-in-excel).
 
 ## <a name="see-also"></a>Katso myös
 

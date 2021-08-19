@@ -1,18 +1,18 @@
 ---
 title: Valuutan vaihtokurssien päivittäminen
-description: Seuraa summia eri valuutoissa valuuttakoodeja käyttäen ja anna Bussiness Centralin auttaa sinua säätämään vaihtokursseja julkaistuille merkinnöille ulkoisen palvelun avulla.
+description: Seuraa summia eri valuutoissa valuuttakoodeja käyttäen ja anna Business Centralin auttaa sinua säätämään FX-vaihtokursseja julkaistuille merkinnöille ulkoisen palvelun avulla.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.search.keywords: multiple currencies, adjust exchange rates
-ms.date: 06/03/2021
+ms.search.keywords: multiple currencies, adjust exchange rates, FX rates
+ms.date: 07/23/2021
 ms.author: edupont
-ms.openlocfilehash: 0baa12a7f63e67184a00dab893c8222facfe269d
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: c4072e0371499982fc86d6c16b4d614552bc4533
+ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441620"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "6660179"
 ---
 # <a name="update-currency-exchange-rates"></a>Valuutan vaihtokurssien päivittäminen
 
@@ -29,6 +29,9 @@ Pääkirjanpito määritetään käyttämään paikallista valuuttaa (PVA), mutt
 > Jos haluat käyttää lisäraportointivaluuttaa taloudellisessa raportoinnissa, varmista, että ymmärrät rajoitukset. Lisätietoja on kohdassa [Lisäraportointivaluutan määrittäminen](finance-how-setup-additional-currencies.md).
 
 ## <a name="currencies"></a>Valuutat
+
+> [!NOTE]  
+> Jos etsit [!INCLUDE[prod_short](includes/prod_short.md)]issa reaaliajassa tietoa valuuttakurssien (FX) hinnoista tai historiallisista hinnoista, löydät sen nimityksellä valuutta. Tämän artikkelin lisäksi on artikkeli [Lisäraportointivaluutan määrittäminen](finance-how-setup-additional-currencies.md).
 
 Valuuttakoodit määritetään kohdassa **Valuutat**, mukaan lukien lisätiedot ja asetukset, jotka ovat välttämättömiä kunkin valuuttakoodin osalta.
 

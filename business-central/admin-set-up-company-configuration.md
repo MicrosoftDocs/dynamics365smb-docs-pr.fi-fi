@@ -1,6 +1,6 @@
 ---
-title: Yrityksen konfiguroinnin määrittäminen | Microsoft Docs
-description: Toteutusprosessi alkaa Business Central -ratkaisun edellytyksistä. Yhdistä kaikki tämä tieto konfigurointipakettien tietoihin.
+title: Määritä yrityksen konfigurointi
+description: Kun olet kumppani, voit määrittää asiakkaalle Business Centralin oikein oletusmäärityksillä tai asiakaskohtaisilla määrityksillä, jotka voit paketoida määrityspaketteihin.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3eefa0fcb40b4e925ca653f223f2d97ed10f370e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5baef81f22e260fa6f582b536dcf356d3ae25d25
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777239"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649710"
 ---
 # <a name="set-up-company-configuration"></a>Määritä yrityksen konfigurointi
-Toteutus alkaa Microsoft-kumppanin kanssa. Kumppani on vastuussa määritystietojen tarkistamisesta ja helposti asiakkaan käytettävissä olevan paketin luomisesta. Ennen kuin luot uuden yhtiön, suunnittele, miten se määritetään. Ota huomioon perusasennuksen tiedot ja tietotyypit, joita [!INCLUDE[prod_short](includes/prod_short.md)] -ratkaisusi edellyttää. Yhdistä kaikki tämä tieto määrityspakettien tietoihin.
+Toteutus alkaa Microsoft-kumppanin kanssa. Kumppanina olet vastuussa määritystietojen tarkistamisesta ja helposti asiakkaan käytettävissä olevan paketin luomisesta. Ennen kuin luot uuden yrityksen [!INCLUDE [prod_short](includes/prod_short.md)] online- tai on-premises-ympäristössä, suunnittele, miten se määritetään. Ota huomioon perusasennuksen tiedot ja tietotyypit, joita [!INCLUDE[prod_short](includes/prod_short.md)] -ratkaisusi edellyttää. Yhdistä kaikki tämä tieto määrityspakettien tietoihin.
 
 RapidStart Services sisältää myös työkalut, joiden avulla voi siirtää vanhat tiedot, kuten asiakkaiden ja toimittajien tiedot.  
 
@@ -33,11 +33,14 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 |**Tehtävä**|**Katso**|  
 |------------|-------------|  
 |Suunnittele yrityksen määritystä täyttämällä määritystyökirja.|[Yrityksen määrittämisen hallinta työkirjassa](admin-how-to-manage-company-configuration-in-a-worksheet.md)|  
-|Luo määrityspaketti, mukauta pakettia, liitä pakettiin taulukoita, tarkista olemassa olevat asiakastiedot tai muokkaa niitä, luo uusi yritys ja siirrä sitten testitiedot tuotantoympäristöön.|[Määrityspaketin valmisteleminen](admin-how-to-prepare-a-configuration-package.md)| 
+|Luo määrityspaketti, mukauta pakettia, liitä pakettiin taulukoita, tarkista olemassa olevat asiakastiedot tai muokkaa niitä, luo uusi yritys ja siirrä sitten testitiedot tuotantoympäristöön.|[Määrityspaketin valmisteleminen](admin-how-to-prepare-a-configuration-package.md)|
 
-## <a name="see-also"></a>Katso myös  
+Voit myös luoda konfigurointipaketteja vakiokonfiguraatioilla, joita voit käyttää uudelleen ja uudelleen. Lisätietoja on kohdassa [Yrityksen vakiomäärityspakettien määrittäminen](/dynamics365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages) kehittäjän ja hallinnan sisällössä.  
+
+## <a name="see-also"></a>Katso myös
+
 [Yrityksen määrittäminen RapidStart Servicesin avulla](admin-set-up-a-company-with-rapidstart.md)  
-[Hallinta](admin-setup-and-administration.md)
+[Hallinta](admin-setup-and-administration.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

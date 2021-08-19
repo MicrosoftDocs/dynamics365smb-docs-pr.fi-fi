@@ -1,5 +1,5 @@
 ---
-title: 'Toimintaohje: Määrityspaketin valmisteleminen'
+title: Määrityspaketin valmisteleminen
 description: Opi valmistelemaan RapidStart-määrityspaketti joka helpottaa uusien yritysten määrittämistä aiemmin luotujen tietojen perusteella.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/14/2021
+ms.date: 07/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 32d30efb86202b1454e307a03e2dd30056e2b149
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: b3b8b7792363d8d44cdfea563b422748ad39de90
+ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440722"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "6660229"
 ---
 # <a name="prepare-a-configuration-package"></a>Määrityspaketin valmisteleminen
 
@@ -74,8 +74,20 @@ Määritä kentät, jotka sisältyvät pakkaukseen. Kaikki kentät ovat oletusar
     - Jos haluat valita vain sisällytettävät kentät, valitse **Tyhjennä sisällytetty** -toiminto. Jos haluat lisätä kaikki kentät, valitse **Aseta sisällytetty** -toiminto.  
     - Määrittääksesi, että kentän tietoja ei tule vahvistaa, poista **Tarkista kenttä** -valintaruutu.  
 
-10. Määritä, oletko toteuttanut mahdollisia virheitä, valitsemalla **Hyväksy paketti** -toiminto. Näin voi tapahtua, kun ei ole otettu mukaan taulukkoja, joihin määritykset perustuvat.  
-11. Valitse **OK**-painike.  
+10. Voit halutessasi käyttää käsittelysuodattimia taulukon tiedoille tai lisätä koodiyksikön, jossa on mitä tahansa pakettiin sisällytettävää koodia, valitsemalla asianomaisen taulukon rivin ja valitsemalla sitten **Käsittelysäännöt**-toiminnon.
+
+    1. Täytä kentät **Määritystaulukon käsittelysäännöt** -sivulla. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
+
+        - Jos haluat käyttää suodattimia tietoihin, määritä asianmukainen toiminto **Toiminto**-kenttään, valitse **Käsittelysuodattimet**-toiminto ja täytä sitten kentät.  
+
+            Esimerkiksi arviointiyritysten Microsoftin konfigurointipaketit määrittävät käsittelysuodattimet **Myynnin tunnistetiedot**- ja **Oston tunnistetiedot** -taulukoihin.
+        - Jos haluat lisätä käsittelevän koodiyksikön, määritä se **Mukautetun käsittelyn koodiyksikön tunnus** -kentässä.
+
+          > [!NOTE]
+          > Tämän koodinyksikön on otettava taulukko 8614 *Määrityspaketin tietue* parametrina `OnRun`-metodissa.
+    2. Sulje sivu.
+11. Määritä, oletko toteuttanut mahdollisia virheitä, valitsemalla **Hyväksy paketti** -toiminto. Näin voi tapahtua, kun ei ole otettu mukaan taulukkoja, joihin määritykset perustuvat.  
+12. Valitse **OK**-painike.  
 
 Kun olet hienosäätänyt sisällytettävät kentät taulukosta, voit tarkistaa tulokset Excelissä.  
 

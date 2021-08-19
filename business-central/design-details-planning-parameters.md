@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 06/15/2021
+ms.date: 07/21/2021
 ms.author: edupont
-ms.openlocfilehash: 31af22184e35b7c9e3c6f995b4c6e8ddbcd5589c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 8d797d88930930d2cc1123a0068e44d0de3035df
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437885"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649810"
 ---
 # <a name="design-details-planning-parameters"></a>Rakennetiedot: suunnittelun parametrit
 Tässä ohjeaiheessa kerrotaan, mitä suunnitteluparametreja [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa voi käyttää.  
@@ -114,7 +114,27 @@ Määrää vähennetään, jos se ylittää maksimitilausmäärän. Tämän jäl
 
 Jos käytetään **Varasto-ohjautuva**-vaihtoehtoa, tilaukset koskevat vain kysymyksessä olevaa nimikettä.  
 
-Jos käytetään **Tilausohjattu**-vaihtoehtoa, suunnittelujärjestelmä analysoi nimikkeen tuotannon tuoterakenteen ja luo ylimääräiset linkitetyt tilausehdotukset näille alemman tason nimikkeille, joilla on myös Tilausohjattu-määritys. Tämä jatkuu niin kauan kunnes laskevissa tuoterakenteissa on tilausohjautuvia nimikkeitä.  
+Jos käytetään **Tilausohjattu**-vaihtoehtoa, suunnittelujärjestelmä analysoi nimikkeen tuotannon tuoterakenteen ja luo ylimääräiset linkitetyt tilausehdotukset näille alemman tason nimikkeille, joilla on myös Tilausohjattu-määritys. Tämä jatkuu niin kauan kunnes laskevissa tuoterakenteissa on tilausohjautuvia nimikkeitä.
+
+## <a name="use-low-level-codes-to-manage-derived-demand"></a>Johdetun kysynnän hallinta matalan tason koodien avulla
+
+Matalan tason koodien avulla komponenttien johdettu kysyntä etenee tuoterakenteen alemmille tasoille. Tarkempi selvitys tästä on kohdassa [Nimikkeen prioriteetti/alatason koodi](design-details-central-concepts-of-the-planning-system.md#item-priority--low-level-code).
+
+Alatason koodin voi määritellä kullekin tuoterakenteen tai sisennetyn tuoterakenteen osalle. Ylin lopullinen kokoonpanon taso merkitään tasoksi 0 – loppunimikkeeksi. Mitä suurempi alatason koodin numero on, sitä matalammalla nimike on hierarkiassa. Esimerkiksi loppunimikkeiden alatason koodi on 0 ja loppunimikkeen kokoonpanoon kuuluvien nimikeosien alatasojen koodit ovat 1, 2, 3 ja niin edelleen. Tulos on komponenttiosien suunnittelu, jota ohjaavat kaikkien ylätason osien numeroiden vaatimukset. Kun suunnitelmaa lasketaan, tuoterakenne puretaan suunnittelutyökirjassa, ja tason 0 bruttotarpeet siirretään suunnittelutasoja alaspäin seuraavan suunnittelutason bruttotarpeeksi.
+
+Valitse **Dynaaminen alatason koodi** -kenttä, jos haluat määrittää, määritetäänkö ja lasketaanko tuoterakenteen kullekin komponentille välittömästi alatason koodit. Jos tietoja on paljon, tällä toiminnolla voi olla negatiivinen vaikutus ohjelman suorituskykyyn esimerkiksi automaattisen kustannusten muuttamisen aikana. Muistathan, että toiminto ei ole takautuva, joten sen käyttämistä kannattaa harkita ennalta.
+
+Kentän valinnan jälkeen dynaamisesti tehtävän automaattisen laskennan sijaan voit suorittaa **Laske alatason koodi** -eräajon valitsemalla  **Tuotanto**-valikossa **Tuotesuunnittelu**, **Laske alatason koodi**.
+
+> [!IMPORTANT]
+> Jos et valitse **Dynaaminen alatason koodi** -kenttää, aja **Laske alatason koodi** -eräajo ennen toimitussuunnitelman laskemista (**Laske suunnitelma** -eräajo).  
+
+> [!NOTE]
+> Vaikka **Dynaaminen alatason koodi** -kenttä on valittu, komponenttinimikkeiden alatason koodeja ei muuteta dynaamisesti, jos päätuoterakenne on poistettu tai sitä ei ole hyväksytty. Tämä voi aiheuttaa ongelmia uusien nimikkeiden lisäyksessä tuoterakenteen loppupäässä, koska alatason koodien enimmäismäärä saattaa ylittyä. Sen vuoksi **Laske alatason koodi** -eräajo kannattaa suorittaa säännöllisesti suurissa tuoterakenteissa, joissa saavutetaan alatason koodien rajan, jotta rakenne säilyy.  
+
+### <a name="optimize-low-level-code-calculation"></a>Optimoi alatason koodin laskenta
+
+Valitse **Optimoi alatason koodin laskenta** -kenttä, jos haluat määrittää, että haluat käyttää uutta, nopeampaa alatason koodin laskentamenetelmää. Huomaa, että uusi laskenta tehdään eri tavalla, ja sen käyttö saattaa rikkoa laajennuksia, jotka perustuvat aiemmin luotuun menetelmään. Uusi laskentamenetelmä korvaa nykyisen menetelmän tulevassa julkaisussa.
 
 ## <a name="see-also"></a>Katso myös  
 [Rakennetiedot: uusintatilauskäytäntöjen käsittely](design-details-handling-reordering-policies.md)   

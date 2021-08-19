@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 46ce62b98e02f934b859dc7191d7fea69ae44af0
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 813ac2b7c8fe074e9c1f2572f947b92156a56d1a
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325417"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649785"
 ---
 # <a name="setting-up-a-company-with-rapidstart-services"></a>Yrityksen määrittäminen RapidStart Servicesin avulla
 Voit määrittää uuden yrityksen [!INCLUDE[prod_short](includes/prod_short.md)]issa RapidStart Servicesin avulla. RapidStart Services on työkalu, joka on suunniteltu lyhentämään käyttöönottoa, parantamaan toteutuksen laatua, esittelemään toistettavia lähestymistapoja toteutuksiin sekä lisäämään tuottavuutta automatisoimalla ja yksinkertaistamalla toistuvia tehtäviä.  
@@ -42,7 +42,7 @@ Voit käyttää seuraavia osia nopeuttaaksesi yrityksen määrittämistä:
 |Määritä ja tarkista asiakkaan asetusarvot kaikilla keskeisillä alueilla, kuten yrityksen tiedoissa, pääkirjanpidossa, varastossa, myynnissä tai valmistuksessa.|[Asiakkaan asetusarvojen kerääminen](admin-gather-customer-setup-values.md)|  
 |Määritä malleja käyttävät keskeiset päätietotietueet, jotta voit valmistella nykyisten asiakastietojen siirron.|[Asiakastietojen siirtämisen valmisteleminen](admin-use-templates-to-prepare-customer-data-for-migration.md)|  
 |Määritä taulukot ja kentät, vahvista aiemmin luotu asiakastietokanta ja siirrä tiedot [!INCLUDE[prod_short](includes/prod_short.md)] -tietokantaan.|[Asiakastietojen siirtäminen](admin-migrate-customer-data.md)|
-|Valmistele yritysmääritysten uudelleenkäyttö muissa yrityksissä.|[Yrityksen mukautettujen määrityspakettien luominen](admin-how-to-create-custom-company-configuration-packages.md)|
+|Valmistaudu yrityksen konfiguraatioiden uudelleenkäyttöön muissa yrityksissä (kehittäjä- ja hallintasisällössä).|[Yrityksen mukautettujen määrityspakettien luominen](/dynamics-365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages)|
 |Etsi ratkaisuja tunnettuihin ongelmiin RapidStart Services -työkaluista.|[Vihjeitä: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)|  
 
 ## <a name="see-also"></a>Katso myös  

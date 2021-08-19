@@ -1,6 +1,6 @@
 ---
 title: Useiden asiakirjojen kirjaaminen samanaikaisesti
-description: Sen sijaan että yksittäisiä asiakirjoja yksi kerrallaan, voit valita luettelosta useita kirjaamattomia asiakirjoja välitöntä tai ajoitettua eräkirjausta varten.
+description: Opi valitsemaan useita kirjaamattomia asiakirjoja luettelosta Business Centralin välitöntä tai ajoitettua eräkirjausta varten.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.workload: na
 ms.reviewer: edupont
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 33e21834dc1417f5177b167e911e002ca56f648c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 4920e363af9b35afb4369682ca0310f095b02bb0
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446045"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649685"
 ---
 # <a name="post-multiple-documents-at-the-same-time"></a>Useiden asiakirjojen kirjaaminen samanaikaisesti
 
@@ -78,7 +78,7 @@ Jos työjono ei voi kirjata myyntitilausta, tilaksi muutetaan **Virhe** ja myynt
 1. Valitse asiakirjassa, jonka yritit kirjata taustakirjauksena, **Työjonon tila** -kenttä, jossa on **Virhe**.
 2. Tarkastele virhesanomaa ja korjaa ongelma.
 
-Vaihtoehtoisesti voit tarkistaa **Työjonon lokitapahtumat** -sivulta, onnistuiko myyntitilauksen kirjaus. Lisätietoja on kohdassa [Työjonon tilan tai virheiden tarkasteleminen](admin-job-queues-schedule-tasks.md#to-view-status-or-errors-in-the-job-queue).
+Vaihtoehtoisesti voit tarkistaa **Työjonon lokitapahtumat** -sivulta, onnistuiko myyntitilauksen kirjaus. Lisätietoja on [Valvo työjonoa](#monitor-the-job-queue) -osassa.
 
 ## <a name="to-create-a-job-queue-entry-for-batch-posting-of-sales-orders"></a>Työjonotapahtuman luonti myyntitilausten eräkirjausta varten
 
@@ -117,6 +117,11 @@ Seuraavaksi selitetään, miten **Eräkirjaa myyntitilaukset** -raportti määri
 
 Määritettyjen suodattimien mukaiset myyntitilaukset kirjataan nyt joka arkipäivä kello 16.
 
+## <a name="monitor-the-job-queue"></a>Valvo työjonoa
+
+Jos määrität taustakirjauksen työjonojen avulla, tee työjonon seuranta tavalliseksi tehtäväksi ongelmien havaitsemiseksi. Voit tarkastella tilaa  **Työjonon tapahtumat** -sivulla. Lisätietoja on kohdassa [Tehtävien aikatauluttaminen työjonojen avulla](admin-job-queues-schedule-tasks.md).  
+
+Järjestelmänvalvojana voit [Application Insightsin](/azure/azure-monitor/app/app-insights-overview) avulla kerätä ja analysoida telemetriaa, jonka avulla voit tunnistaa ongelmia. Lisätietoja on kehittäjien ja järjestelmänvalvojien ohjeessa [Telemetrian seuranta ja analysoiminen](/dynamics365/business-central/dev-itpro/administration/telemetry-overview).  
 
 ## <a name="see-also"></a>Katso myös
 
