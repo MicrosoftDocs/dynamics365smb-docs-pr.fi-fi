@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 0afad844bc58089548885b8e7dcce8c4b947cea9
-ms.sourcegitcommit: acc1871afa889cb699e65b1b318028c05f8e6444
+ms.openlocfilehash: f3aa23c9037d47785bb6d07a51e3d48ff28c5747
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/16/2021
-ms.locfileid: "6636040"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440539"
 ---
 # <a name="connect-to-microsoft-dataverse"></a>Yhteyden muodostaminen Microsoft Dataverseen
 
@@ -111,15 +111,16 @@ The following video shows the steps to connect [!INCLUDE[prod_short](includes/pr
 > [!NOTE]
 > Tämä osa on merkityksellinen vain Microsoftin isännöimille Business Central online -vuokraajille. Tämä ei vaikuta ISV-isännöityihin online-vuokralaisiin tai paikan päällä tehtyihin asennuksiin.
 
-Huhtikuussa 2022 [!INCLUDE[cds_long_md](includes/cds_long_md.md)]issa vanhentuu Office365-todennustyyppi (käyttäjänimi/salasana). Lisätietoja on kohdassa [Office365-todennustyypin vanheneminen](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse). Lisäksi maaliskuussa 2022 [!INCLUDE[prod_short](includes/prod_short.md)]issa vanhenee online-vuokraajien asiakassalaisuuspohjaisen palvelujenvälisen todennuksen käyttö [!INCLUDE[cds_long_md](includes/cds_long_md.md)] -yhteyksissä. [!INCLUDE[cds_long_md](includes/cds_long_md.md)]in ISV-isännöidyt online-vuokraajat ja paikan päällä tehdyt asennukset voivat jatkaa Microsoft-kumppaninsa määrittämän Office365-todennuksen käyttöä.
+Huhtikuussa 2022 [!INCLUDE[cds_long_md](includes/cds_long_md.md)]issa vanhentuu Office365-todennustyyppi (käyttäjänimi/salasana). Lisätietoja on kohdassa [Office365-todennustyypin vanheneminen](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse). Lisäksi maaliskuussa 2022 [!INCLUDE[prod_short](includes/prod_short.md)]issa vanhenee online-vuokraajien asiakassalaisuuspohjaisen palvelujenvälisen todennuksen käyttö [!INCLUDE[cds_long_md](includes/cds_long_md.md)] -yhteyksissä. ISV-toimittajien isännöimät [!INCLUDE[prod_short](includes/prod_short.md)] online -vuokralaiset ja paikalliset asennukset voivat edelleen käyttää asiakkaan salaisuuden todennusta yhteyden muodostamiseen kohteeseen [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 
 Jotta integraatiot eivät häiriinny, yhteys _on päivitettävä_ käyttämään varmennepohjaista todennusta. Vaikka muutos ajoittuu maaliskuulle 2022, suosittelemme, että päivität mahdollisimman pian. Seuraavissa vaiheissa kuvataan, miten varmennepohjaiseen todennukseen päivitetään. 
 
 ### <a name="to-upgrade-your-business-central-online-connection-to-use-certificate-based-authentication"></a>Business Central online -yhteyden päivittäminen käyttämään varmennepohjaista todennusta
+
 > [!NOTE]
 > Varmennepohjainen todennus on käytettävissä Business Central 2021:n julkaisuaallossa 1 ja sitä uudemmissa. Jos käytät aiempaa versiota, sinun on ajoitettava Business Central 2021:n julkaisuaallon 1 päivitys ennen maaliskuuta 2022. Lisätietoja on kohdassa [Päivitysten ajoitus](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline#scheduling-updates). Jos sinulla on ongelmia, ota yhteyttä kumppaniisi tai tukeen.
 
-1. Varmista kohdassa [Business Central administration center]/dynamics365/business-central/dev-itpro/administration/tenant-admin-center), että käytät Business Central 2021:n julkaisuaaltoa 1 tai uudempaa (versiota 18 tai uudempaa).
+1. Varmista [Business Centralin hallintakeskuksessa](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center), että käytät Business Central 2021:n julkaisuaaltoa 1 tai uudempaa versiota (versio 18 tai uudempi).
 2. Tee jokin seuraavista toimista sen mukaan, integroitko Dynamics 365 Salesiin:
    * Jos kyllä, avaa **Microsoft Dynamics 365 -yhteysasetukset** -sivu.
    * Jos ei, avaa **Dataverse-yhteysasetukset**-sivu.

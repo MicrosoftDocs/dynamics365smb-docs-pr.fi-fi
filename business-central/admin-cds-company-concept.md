@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: CDS, , integration, sync
+ms.search.keywords: CDS, Dataverse, integration, sync
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: abeab28a87c395328accfd850a0753649515f8dc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a99ddb6153c65ab16be53b7027833de14dc4884d
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773334"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482193"
 ---
 # <a name="data-ownership-models"></a>Tietojen omistusmallit
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -39,11 +39,11 @@ Seuraavassa kuvassa on esimerkki [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
 ![Pääliiketoimintayksikkö on yläosassa, tiimit keskellä ja yritykset alaosassa.](media/cds_bu_team_company.png)
 
-Tässä määrityksessä Cronus US -yritykseen liittyvät tietueet omistaa tiimi, joka on linkitetty Cronus US -yrityksen <ID> liiketoimintayksikköön [!INCLUDE[prod_short](includes/cds_long_md.md)] -sovelluksessa. Käyttäjät, jotka voivat käyttää kyseistä liiketoimintayksikköä [!INCLUDE[prod_short](includes/cds_long_md.md)] -sovelluksen liiketoimintayksikön tason näkyvyydeksi määritetyn käyttöoikeusroolin avulla, näkevät nämä tietueet. Seuraavassa esimerkissä näytetään, miten näiden tietueiden käyttöoikeus saadaan tiimien avulla.
+Tässä määrityksessä Cronus US -yritykseen liittyvät tietueet omistaa tiimi, joka on linkitetty Cronus US -yrityksen liiketoimintayksikköön [!INCLUDE[prod_short](includes/cds_long_md.md)] -sovelluksessa. Käyttäjät, jotka voivat käyttää kyseistä liiketoimintayksikköä [!INCLUDE[prod_short](includes/cds_long_md.md)] -sovelluksen liiketoimintayksikön tason näkyvyydeksi määritetyn käyttöoikeusroolin avulla, näkevät nämä tietueet. Seuraavassa esimerkissä näytetään, miten näiden tietueiden käyttöoikeus saadaan tiimien avulla.
 
 * Myyntipäällikön rooli on liitetty Cronus US -myyntitiimin jäsenille.
 * Myyntipäällikön roolin omaavat käyttäjät voivat käyttää saman liiketoimintayksikön jäsenten tilitietueita.
-* Cronus US -myyntitiimi on linkitetty aiemmin mainittuun Cronus US -liiketoimintayksikköön. Cronus US -myyntitiimin jäsenet voivat nähdä kaikki Cronus US <ID> -käyttäjän omistamat tilit, jos käyttäjä on peräisin Cronus US -yritystaulukosta [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksessa.
+* Cronus US -myyntitiimi on linkitetty aiemmin mainittuun Cronus US -liiketoimintayksikköön. Cronus US -myyntitiimin jäsenet voivat nähdä kaikki Cronus US -käyttäjän omistamat tilit, jos käyttäjä on peräisin Cronus US -yritystaulukosta [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksessa.
 
 Kuitenkin 1:1-yhdistämismääritys liiketoimintayksikön, yrityksen ja tiimin välillä on vasta aloituskohta seuraavan kuvan mukaisesti.
 
@@ -51,7 +51,7 @@ Kuitenkin 1:1-yhdistämismääritys liiketoimintayksikön, yrityksen ja tiimin v
 
 Tässä esimerkissä luodaan uusi EUR (Eurooppa) -pääliiketoimintayksikkö [!INCLUDE[prod_short](includes/cds_long_md.md)] -sovelluksessa sekä Cronus DE (Saksa)- että Cronus ES (Espanja) -yritykselle. EUR-liiketoimintayksikköä ei ole liitetty synkronointiin. Se voi kuitenkin antaa EUR-myyntitiimeille tilin tietojen käyttöoikeuden sekä Cronus DE- että Cronus ES -yrityksessä määrittämällä tietojen näkyvyydeksi **Pää-/aliliiketoimintayksikkö** liittyvässä käyttöoikeusroolissa [!INCLUDE[prod_short](includes/cds_long_md.md)] -sovelluksessa.
 
-Synkronointi määrittää tietueet omistavan tiimin. **Omistava oletustiimi** -kenttä BCI - <ID> -rivillä ohjaa tätä. Kun BCI - <ID> -tietue on otettu käyttöön synkronointia varten, liittyvä liiketoimintayksikkö ja omistava tiimi luodaan automaattisesti (jos ne eivät vielä ole olemassa) ja **Omistava oletustiimi** -kenttä määritetään. Kun taulukon synkronointi on otettu käyttöön, järjestelmänvalvojat voivat muuttaa omistavaa tiimiä, mutta tiimi on aina määritettävä.
+Synkronointi määrittää tietueet omistavan tiimin. **Omistava oletustiimi** -kenttä BCI -rivillä ohjaa tätä. Kun BCI -tietue on otettu käyttöön synkronointia varten, liittyvä liiketoimintayksikkö ja omistava tiimi luodaan automaattisesti (jos ne eivät vielä ole olemassa) ja **Omistava oletustiimi** -kenttä määritetään. Kun taulukon synkronointi on otettu käyttöön, järjestelmänvalvojat voivat muuttaa omistavaa tiimiä, mutta tiimi on aina määritettävä.
 
 > [!NOTE]
 > Tietueet ovat vain luku -tilassa yrityksen lisäämisen ja tallentamisen jälkeen. Varmista siis, että valitset oikean yrityksen.

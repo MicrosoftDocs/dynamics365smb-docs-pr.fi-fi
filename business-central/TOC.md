@@ -91,6 +91,7 @@
 ### [Kokeilujakson jatkaminen](admin-extend-trial.md)
 ### [Business Centralin poistaminen tai tilauksen peruuttaminen](admin-cancel.md)
 ## Osta
+### [Tilauksen käytön aloittaminen](across-preview.md#getting-started-with-a-subscription)
 ### [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)
 
 <!--setup-->
@@ -649,9 +650,10 @@
 ### [Nimikkeiden saatavuuden tarkasteleminen](inventory-how-availability-overview.md)
 ### [Varastonimikkeiden siirtäminen sijaintien välillä](inventory-how-transfer-between-locations.md)
 ### [Nimikkeiden varaaminen](inventory-how-to-reserve-items.md)
+### [Sarja-, erä- ja pakettinumeroita sisältävien nimikkeiden seurannan määrittäminen](inventory-how-setup-item-tracking.md)
 ### [Sarja-, erä- ja pakettinumeroita sisältävien nimikkeiden seuraaminen](inventory-how-work-item-tracking.md)
-### [Nimikkeen viittausten käyttäminen](inventory-how-use-item-cross-refs.md)
 ### [Nimikeseurannan nimikkeiden jäljittäminen](inventory-how-to-trace-item-tracked-items.md)
+### [Nimikkeen viittausten käyttäminen](inventory-how-use-item-cross-refs.md)
 ### [Nimikkeiden estäminen](inventory-how-block-items.md)
 ### [Vastuupaikkojen käyttäminen](inventory-responsibility-centers.md)
 

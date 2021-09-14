@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect, opportunity, email
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6e2a72b1917fdf419b0f103db39b5cdf84f8b425
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: c1e47dba1c10b994cb43c21afbfdd548f85c774b
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437575"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482343"
 ---
 # <a name="track-email-message-exchanges-between-salespeople-and-contacts"></a>Myyjien ja yhteyshenkilöiden välisten sähköpostiviestien seuraaminen
 
@@ -31,31 +31,36 @@ Seuraavaksi [!INCLUDE[prod_short](includes/prod_short.md)] yhdistetään Exchang
 
 Aloita sähköpostien kirjaaminen seuraavien kahden helpon vaiheen avulla:
 
-1. Muodosta yhteys [!INCLUDE[prod_short](includes/prod_short.md)] -sovellukseen Exchange Onlinen avulla Microsoft 365 -tilauksessa. Exchange Online käsittelee sähköpostiviestisi. Tämä on helppo tehdä asetusten ohjatun määrityksen oppaan avulla. Tarvitset vain järjestelmänvalvojan tunnistetiedot Microsoft 365:n järjestelmänvalvojan tiliä varten. Aloita oppaan käyttäminen siirtymällä **Asetusten ohjattu määritys** -kohtaan ja valitsemalla **Määritä sähköpostin lokiinkirjaus**.  
+1. Muodosta yhteys [!INCLUDE[prod_short](includes/prod_short.md)] -sovellukseen Exchange Onlinen avulla Microsoft 365 -tilauksessa. Exchange Online käsittelee sähköpostiviestisi. Tämä on helppo tehdä asetusten ohjatun määrityksen oppaan avulla. Tarvitset vain järjestelmänvalvojan tunnistetiedot Microsoft 365:n järjestelmänvalvojan tiliä varten. Aloita oppaan käyttäminen siirtymällä **Asetusten ohjattu määritys** -sivulle ja valitsemalla **Määritä sähköpostin lokiinkirjaus** -oppaan.  
 
 2. Varmista, että [!INCLUDE[prod_short](includes/prod_short.md)] -sovellukseen on määritetty oikeat sähköpostiosoitteet myyjille ja yhteyshenkilöille sen mukaan, ovatko he potentiaalisia vai olemassa olevia asiakkaita. Tee tämä avaamalla kunkin asiakkaan tai myyjän **Yhteyshenkilö**- tai **Myyjä/ostaja**-kortti ja tarkistamalla **Sähköposti**-kenttä.
 
 > [!Tip]
-> Kun olet tehnyt nämä oppaan vaiheet, voit tarkistaa yhteyden tilan. Siirry **Kontaktienhallinnan asetukset** -kohtaan, valitse **Prosessi** ja valitse sitten **Toiminnot**. Valitse lopuksi **Tarkista sähköpostin lokiinkirjauksen asetukset**.
+> Kun olet tehnyt nämä oppaan vaiheet, voit tarkistaa yhteyden tilan. Siirry **Kontaktienhallinnan asetukset** -kohtaan, valitse **Käytä** ja valitse sitten **Toiminnot**. Valitse lopuksi **Tarkista sähköpostin lokiinkirjauksen asetukset**.
 
 ## <a name="viewing-email-message-exchanges-in-the-interaction-log"></a>Sähköpostiviestien tarkasteleminen vuorovaikutuslokissa
-[!INCLUDE[prod_short](includes/prod_short.md)] luo **Vuorovaikutusloki**-sivulle tapahtuman aina, kun myyjä ja yhteyshenkilö lähettävät sähköpostiviestejä. Voit tarkastella vuorovaikutuslokia avaamalla **Yhteyshenkilö**- tai **Myyjä/ostaja**-kortin ja valitsemalla sitten **Historia**- ja **Vuorovaikutuslokin tapahtumat** -kohdat. Lokin tapahtumille voi tehdä esimerkiksi seuraavia toimintoja:
 
-- Voit tarkastella sähköpostiviestin sisältöä valitsemalla **Näytä liitteet** -toiminnon.
-- Voit muuttaa sähköpostiviestinnän myyntimahdollisuudeksi. Jos tapahtuma näyttää lupaavalta, voit muuttaa sen mahdollisuudeksi, jonka jälkeen siitä voi kehittyä myyntiä. Valitse ensin tapahtuma ja valitse sitten **Luo mahdollisuus**-toiminto. Lisätietoja on kohdassa [Myyntimahdollisuuksien hallinta](marketing-manage-sales-opportunities.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] luo **Vuorovaikutusloki**-sivulle tapahtuman aina, kun myyjä ja yhteyshenkilö lähettävät sähköpostiviestejä. Voit tarkastella vuorovaikutuslokia avaamalla **Yhteyshenkilö**-kortin, valitsemalla sitten **Liittyvä** ja valitsemalla sitten **Historia**- ja **Vuorovaikutuslokin tapahtumat**. Lokin tapahtumille voi tehdä esimerkiksi seuraavia toimintoja:
+
+- Voit tarkastella sähköpostiviestin sisältöä valitsemalla **Prosessi** ja sitten **Näytä liitteet** -toiminnon.
+- Voit muuttaa sähköpostiviestinnän myyntimahdollisuudeksi. Jos tapahtuma näyttää lupaavalta, voit muuttaa sen mahdollisuudeksi, jonka jälkeen siitä voi kehittyä myyntiä. Voit tehdä tämän valitsemalla merkinnän, valitsemalla sitten **Käsittele** ja sitten **Luo mahdollisuus**. Lisätietoja on kohdassa [Myyntimahdollisuuksien hallinta](marketing-manage-sales-opportunities.md).
 
 ## <a name="connecting-on-premises-versions-to-microsoft-exchange"></a>On-Premises-versioiden yhdistäminen Microsoft Exchangeen
-Voit muodostaa yhteyden [!INCLUDE[prod_short](includes/prod_short.md)] on-premises -ratkaisusta paikalliseen Exchange on-premisesiin tai Exchange Onlineen sähköpostin lokiinkirjaamiseksi. Molemmissa Exchange-versioissa yhteyden asetukset ovat käytettävissä **Kontaktienhallinnan asetukset** -sivulla. Exchange Onlinessa voit käyttää myös avustettua asennusopasta. 
+
+Voit muodostaa yhteyden [!INCLUDE[prod_short](includes/prod_short.md)] on-premises -ratkaisusta paikalliseen Exchange on-premisesiin tai Exchange Onlineen sähköpostin lokiinkirjaamiseksi. Molemmissa Exchange-versioissa yhteyden asetukset ovat käytettävissä **Kontaktienhallinnan asetukset** -sivulla. Exchange Onlinessa voit käyttää myös avustettua asennusopasta.
 
 ### <a name="connecting-to-exchange-on-premises"></a>Yhdistäminen Exchange On-premisesiin
-Jos haluat yhdistää [!INCLUDE[prod_short](includes/prod_short.md)] on-premisesin Exchange on-premisesiin, voit käyttää **Kontaktienhallinnan asetukset** -sivulla **Perus**-vaihtoehtoa **todennustyyppinä** ja kirjoittaa sitten Exchange on-premisesin käyttäjätilin tunnistetiedot. Aloita sitten sähköpostin lokiinkirjaaminen valitsemalla **Käytössä**-valitsin. 
+
+Jos haluat yhdistää [!INCLUDE[prod_short](includes/prod_short.md)] on-premisesin Exchange on-premisesiin, voit käyttää **Kontaktienhallinnan asetukset** -sivulla **Perus**-vaihtoehtoa **todennustyyppinä** ja kirjoittaa sitten Exchange on-premisesin käyttäjätilin tunnistetiedot. Aloita sitten sähköpostin lokiinkirjaaminen valitsemalla **Käytössä**-valitsin.
 
 ### <a name="connecting-to-exchange-online"></a>Yhdistäminen Exchange Onlineen
-Jos haluat muodostaa yhteyden Exchange Onlineen, sinun on käytettävä **OAuth2**-arvoa **todennustyyppinä**. Sovellus on myös rekisteröitävä Azure Active Directoryssä, minkä lisäksi on asennettava sovelluksen tunnus, avainsäilön salaisuus ja käytettävä uudelleenohjauksen URL-osoite. Uudelleenohjauksen URL-osoite täytetään valmiiksi, ja sen pitäisi toimia useimmissa asennuksissa. Lisätietoja on kohdassa [Sovelluksen rekisteröiminen Azure AD:ssä yhteyden muodostamiseksi Business Centralista Exchange Onlineen](marketing-set-up-email-logging.md#to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-exchange-online). 
+
+Jos haluat muodostaa yhteyden Exchange Onlineen, sinun on käytettävä **OAuth2**-arvoa **todennustyyppinä**. Sovellus on myös rekisteröitävä Azure Active Directoryssä, minkä lisäksi on asennettava sovelluksen tunnus, avainsäilön salaisuus ja käytettävä uudelleenohjauksen URL-osoite. Uudelleenohjauksen URL-osoite täytetään valmiiksi, ja sen pitäisi toimia useimmissa asennuksissa. Lisätietoja on kohdassa Sovelluksen rekisteröiminen Azure AD:ssä yhteyden muodostamiseksi Business Centralista Exchange Onlineen.
 
 Asennus on määritettävä käyttämään HTTPS-yhteyttä. Lisätietoja on kohdassa [SSL:n määrittäminen suojaamaan Business Centralin verkkoasiakasohjelman yhteyttä](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Jos palvelimelle määritetään jokin muu aloitussivu, URL-osoitteen voi vaihtaa. Asiakasohjelman salaisuus tallennetaan tietokantaan salattuna merkkijonona.
 
 ### <a name="to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-exchange-online"></a>Sovelluksen rekisteröiminen Azure AD:ssä muodostamaan yhteys Business Centralista Exchange Onlineen
+
 Seuraavissa vaiheissa oletetaan, käyttäjätietojen ja käyttöoikeuksien hallintaan käytetään Azure Active Directory:tä. Lisätietoja on kohdassa [Pika-aloitus: sovelluksen rekisteröinti Microsoftin käyttäjätietoympäristössä](/azure/active-directory/develop/quickstart-register-app). Jos Azure Active Directory ei ole käytössä, lisätietoja on kohdassa [Jonkin muun käyttäjätieto- ja käyttöoikeuspalvelun käyttäminen](marketing-set-up-email-logging.md#using-another-identity-and-access-management-service). 
 
 1. Valitse Azure-portaalin **Hallinta**-kohdassa **Todennus**.

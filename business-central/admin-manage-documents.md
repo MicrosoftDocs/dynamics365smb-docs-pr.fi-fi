@@ -6,19 +6,19 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: e29e3c0c4ce7b6cfc5ce3f38cd67781c377991ad
-ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
+ms.openlocfilehash: 149f035dfd6b1abd2e00048bb1af4059e00c976f
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6543043"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482168"
 ---
 # <a name="manage-storage-by-deleting-documents-or-compressing-data"></a>Hallitse tallennustilaa poistamalla asiakirjoja tai pakkaamalla tietoja.
 
 Keskitetyn roolin, kuten sovelluksen järjestelmänvalvojan, on huolehdittava säännöllisesti siitä, että vanhat asiakirjat joko poistetaan tai tiivistetään.  
 
 > [!TIP]
-> Tietoja muista tavoista vähentää tietokantaan tallennettujen tietojen määrää on kehittäjien ja IT-ammattilaisten ohjeessa [Business Central -tietoantoihin tallennetttujen tietojen vähentäminen](/dynamics365/business-central/dev-itpro/administration/database-reduce-data).
+> Tietoja muista tavoista vähentää tietokantaan tallennettujen tietojen määrää on kehittäjien ja IT-ammattilaisten ohjeessa [Business Central -tietoantoihin tallennettujen tietojen vähentäminen](/dynamics365/business-central/dev-itpro/administration/database-reduce-data).
 
 ## <a name="delete-documents"></a>Asiakirjojen poistaminen
 
@@ -34,7 +34,13 @@ Ohjelma ei poista huoltotilauksia automaattisesti, jos tilauksen kokonaismäär�
 
 ## <a name="compress-data-with-date-compression"></a>Pakkaa tiedot päivämäärätiivistyksen avulla
 
-Voit pakata tietoja [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmassa niin, että säästät tilaa tietokannassa, joka [!INCLUDE [prod_short](includes/prod_short.md)] onlinessa voi jopa säästää rahaa. Tiivistys perustuu päivämääriin ja yhdistää useita vanhoja tapahtumia yhdeksi uudeksi tapahtumaksi. Tapahtumia voi tiivistää vain suljetuilta tilikausilta, ja voit tiivistää vain sellaisia tapahtumia, joiden **Avoin**-kentän arvo on **Ei**.  
+Voit pakata tietoja [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmassa niin, että säästät tilaa tietokannassa, joka [!INCLUDE [prod_short](includes/prod_short.md)] onlinessa voi jopa säästää rahaa. Tiivistys perustuu päivämääriin ja yhdistää useita vanhoja tapahtumia yhdeksi uudeksi tapahtumaksi. 
+
+Voit tiivistää tapahtumat seuraavissa olosuhteissa:
+
+* Ne ovat suljetuilta tilikausilta.
+* **Avoin**-kentän arvoksi asetetaan **Ei**. 
+* Ne ovat ainakin viisi vuotta vanhoja. Jos haluat pakata alle viisi vuotta vanhoja tietoja, ota yhteyttä Microsoft-kumppaniisi.
 
 Esimerkiksi aiempien tilikausien toimittajatapahtumat voidaan tiivistää siten, että jokaista tiliä ja jokaista kuukautta kohti on vain yksi kredit- ja yksi debet-tapahtuma. Uuden tapahtuman summa on kaikkien tiivistettyjen tapahtumien summa. Määritetty päivämäärä on tiivistettävän ajanjakson aloituspäivämäärä, esimerkiksi kuukauden ensimmäinen päivä (jos tapahtumat on tiivistetty kuukauden mukaan). Tiivistyksen jälkeen voit yhä nähdä jokaisen tilin nettomuutoksen edellisen tilikauden osalta.
 
@@ -55,16 +61,17 @@ Kun määrität tiivistyksen ehtoja, voit käyttää **Säilytä kentän sisält
 
 Tiivistyksen jälkeen seuraavien kenttien sisältö säilytetään aina: **Kirjauspvm**, **Toimittajanro**, **Asiakirjan tyyppi**, **Valuutan koodi**, **Kirjausryhmä**, **Summa**, **Jäljellä oleva summa**, **Alkuperäinen summa (PVA)**, **Jäljellä oleva summa (PVA)**, **Summa (PVA)**, **Osto (PVA)**, **Laskualennus (PVA)**, **Annettu maksualennus (PVA)** ja **Maksualennus mahdollinen**.
 
-> [!NOTE]
-> Tiivistetyt tapahtumat kirjataan hieman eri tavalla kuin vakiokirjaukset. Tämä vähentää tiivistyksen avulla luotujen uusien pääkirjanpidon tapahtumien määrää, ja se on erityisen tärkeää, kun pidät yllä tietoja, kuten dimensioita ja asiakirjanumeroita. Päivämäärätiivistys luo uusia tapahtumia seuraavasti:
->* **Pääkirjanpidon tapahtumat** -sivulla uusille tapahtumille luodaan uusia tapahtuma numeroita tiivistetyistä tapahtumista. **Kuvaus**-kenttä sisältää **Tiivistetty**-päivämäärän niin, että tiivistetyt tapahtumat on helppo yksilöidä. 
->* Kirjanpitosivuilla, kuten **Asiakastapahtumat**-sivulla, luodaan yksi tai useampia tapahtumia uusien tapahtumanumeroiden avulla. 
-> Kirjausprosessi luo numerosarjojen aukkoja **Pääkirjanpidon tapahtumat** -sivulla oleville tapahtumille. Nämä numerot on määritelty vain kirjanpitosivujen tapahtumille. Tapahtumiin liitetty numeroalue on saatavilla **KP-rekisteri**-sivun **Tapahtumasta nro**- ja **Tapahtumaan nro** -kentistä. 
+## <a name="posting-compressed-entries"></a>Tiivistettyjen tapahtumien kirjaaminen
+Tiivistetyt tapahtumat kirjataan hieman eri tavalla kuin vakiokirjaukset. Tämä vähentää tiivistyksen avulla luotujen uusien pääkirjanpidon tapahtumien määrää, ja se on erityisen tärkeää, kun pidät yllä tietoja, kuten dimensioita ja asiakirjanumeroita. Päivämäärätiivistys luo uusia tapahtumia seuraavasti:
+* **Pääkirjanpidon tapahtumat** -sivulla uusille tapahtumille luodaan uusia tapahtuma numeroita tiivistetyistä tapahtumista. **Kuvaus**-kenttä sisältää **Tiivistetty**-päivämäärän niin, että tiivistetyt tapahtumat on helppo yksilöidä. 
+* Kirjanpitosivuilla, kuten **Asiakastapahtumat**-sivulla, luodaan yksi tai useampia tapahtumia uusien tapahtumanumeroiden avulla. 
+
+Kirjausprosessi luo numerosarjojen aukkoja **Pääkirjanpidon tapahtumat** -sivulla oleville tapahtumille. Nämä numerot on määritelty vain kirjanpitosivujen tapahtumille. Tapahtumiin liitetty numeroalue on saatavilla **KP-rekisteri**-sivun **Tapahtumasta nro**- ja **Tapahtumaan nro** -kentistä. 
 
 > [!NOTE]
 > Kun olet suorittanut päivämäärien tiivistyksen, kaikki kirjanpidon tilit on lukittu. Et voi esimerkiksi poistaa toimittaja- tai pankkitapahtumien kohdistamista millekään tilille sen kauden osalta, jonka ajalta päivämäärät tiivistetään.
 
-Päivämäärätiivistys-eräajon tuloksena syntyvien tapahtumien määrä perustuu siihen, kuinka monta suodatinta asetat, mitkä kentät yhdistetään ja minkä jakson pituuden valitset. Tapahtumia syntyy aina vähintään yksi. 
+Päivämäärätiivistyksen tuloksena syntyvien tapahtumien määrä perustuu siihen, kuinka monta suodatinta asetat, mitkä kentät yhdistetään ja minkä jakson pituuden valitset. Tapahtumia syntyy aina vähintään yksi. 
 
 > [!WARNING]
 > Tiivistys poistaa tapahtumia, joten aina ennen kuin aloitat eräajon, tee varmuuskopio tietokannasta.
@@ -72,8 +79,11 @@ Päivämäärätiivistys-eräajon tuloksena syntyvien tapahtumien määrä perus
 ### <a name="to-run-a-date-compression"></a>Suorita Pvmtiivistys
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") -kuvake, syötä **Tietojen hallinta** ja valitse sitten aiheeseen liittyvä linkki.
 2. Tee jompikumpi seuraavista toimista:
-    1. Jos haluat käyttää avustettua asennusopasta asentaaksesi päivämäärätiivistyksen vähintään yhdelle tietotyypille, valitse **Tietojen hallinnan opas**.
-    1. Jos haluat määrittää tiivistyksen yksittäiselle tietotyypille, valitse **Pvmtiivistys**, **Tiivistä tapahtumat** ja valitse sitten tiivistettävät tiedot.
+    * Jos haluat käyttää avustettua asennusopasta asentaaksesi päivämäärätiivistyksen vähintään yhdelle tietotyypille, valitse **Tietojen hallinnan opas**.
+    * Jos haluat määrittää tiivistyksen yksittäiselle tietotyypille, valitse **Pvmtiivistys**, **Tiivistä tapahtumat** ja valitse sitten tiivistettävät tiedot.
+
+   > [!NOTE]
+   > Voit pakata vain yli viisi vuotta vanhoja tietoja. Jos haluat pakata alle viisi vuotta vanhoja tietoja, ota yhteyttä Microsoft-kumppaniisi.
 
 ## <a name="see-also"></a>Katso myös
 

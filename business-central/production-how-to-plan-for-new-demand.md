@@ -1,21 +1,20 @@
 ---
-title: Tilauskohtainen suunnittelu
-description: Tämä suunnittelutehtävä voidaan suorittaa Tilauksen suunnittelu -sivulla, jossa näkyvät kaikki uusi kysyntä, saatavuustiedot sekä tarjontaa koskevat ehdotukset.
+title: Uuden kysynnän tilauskohtainen suunnittelu
+description: Tämä suunnittelutehtävä voidaan suorittaa Tilauksen suunnittelu -sivulla, jossa näkyvät kaikki uusi kysyntä, saatavuustiedot sekä tarjontaa koskevat ehdotukset, sisältäen nimikkeen korvaamiseen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/22/2021
+ms.date: 07/29/2021
 ms.author: edupont
-ms.openlocfilehash: 5a3481f1f1b1c08fd3006d1d62b92387414f0d41
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 63277d695f373c1914e55530a12cb921c8b6cc4f
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444228"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440715"
 ---
 # <a name="plan-for-new-demand-order-by-order"></a>Uuden kysynnän tilauskohtainen suunnittelu
 Tämä suunnittelutehtävä voidaan suorittaa **Tilauksen suunnittelu** -sivulla, jossa näkyvät kaikki uusi kysyntä, saatavuustiedot sekä tarjontaa koskevat ehdotukset. Ikkunan tietojen ja työkalujen avulla voidaan suunnitella tehokkaasti myynti- ja komponenttirivien synnyttämä kysyntä sekä luoda erityyppisiä toimitustilauksia suoraan.  
@@ -67,6 +66,9 @@ Sivulla näkyvät suunnittelurivit on suodatettu **Tuotantokysyntä**-suodatukse
 
     Jos tarvittavalle nimikkeelle on olemassa korvaava nimike, sivun alaosan **Korvaavia olemassa** -kentässä lukee **Kyllä** ja korvaava nimike voidaan etsiä ja valita **Nimikekorvaustapahtumat**-sivulta.  
 
+    > [!NOTE]  
+    > Huomaa, että nimikkeen korvaaminen ei automaattisesti aiheuta nimikkeen korvaamista toisella nimikkeellä esimerkiksi myyntitilausta luotaessa tai tuoterakenteessa. Sen sijaan sinua varoitetaan siitä, että käytettävissäsi on korvaaminen.
+
 7.  Lisää **Varaa**-kenttään valintamerkki, jos haluat tehdä varauksen parhaillaan luotavan toimitustilauksen ja kysynnän luoneen kysyntärivin (myyntirivin tai komponenttirivin) välille. Kenttä on oletusarvoisesti tyhjä.  
 
     > [!NOTE]  
@@ -117,7 +119,7 @@ Kun **Tilauksen suunnittelu** -sivun suunnitelma on valmis (nimikkeelle on esime
 [Osto](purchasing-manage-purchasing.md)  
 [Rakennetiedot: Toimitusten suunnittelu](design-details-supply-planning.md)   
 [Asetukset - parhaat käytännöt: toimitusten suunnittelu](setup-best-practices-supply-planning.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
-
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

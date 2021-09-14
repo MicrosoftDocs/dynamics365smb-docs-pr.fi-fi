@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 06/01/2021
 ms.author: andreipa
-ms.openlocfilehash: 76f93a75f9f7fd52b2495d75bffe648d53f9c844
-ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
+ms.openlocfilehash: b738eeef9771185c6907d963f368c462ae02f2d2
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6543245"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440389"
 ---
 # <a name="sales-reports-and-analytics-in-business-central"></a>Business Centralin myyntiraportit ja analytiikka
 
@@ -36,6 +36,7 @@ Seuraavassa taulukossa kuvataan joitakin myyntiraportoinnin keskeisiä raporttej
 |**Fyysisen varaston toimituksen tila**|7313|Tätä raporttia voidaan käyttää kaikissa sijainneissa, joissa **Vaadi toimitus** -kenttä on valittu. **Fyysisen varaston toimituksen tila** -raportissa näkyvät kaikki kirjaamattomat fyysisen varastoinnin toimitusasiakirjat, kuten sijainnit, varastopaikkakoodit, asiakirjan tila ja määrät. Tämä raportti on täydellinen yleiskuvan saamiseen.|
 |**Varaston poimintaluettelo**|813|Raportissa näkyy luettelo myyntitilauksista, joihin nimike sisältyy. Jokaisesta nimikkeestä näkyvät seuraavat tiedot: asiakkaan nimen sisältävä myyntitilausrivi, varianttikoodi, sijantikoodi, var.paikkakoodi, toimituspäivämäärä, toimitettava määrä ja mittayksikkö. Toimitettava määrä lasketaan yhteen jokaisen nimikkeen osalta. Raporttia voidaan käyttää silloin, kun nimikkeet poimitaan varastosta.<br>**Huomautus**: Tämä raportti ei ole käytettävissä varaston lisätoiminnoissa.|
 |**Varasto – Myynnin jälkitoim.**|718|Tässä raportissa on luettelo, jossa on tilausrivit, joiden lähetyksen päivämäärä on mennyt ohi. Kunkin nimikkeen yksittäisistä tilauksista näytetään seuraavia tietoja: numero, asiakkaan nimi, asiakkaan puhelinnumero, lähetyksen päivämäärä, tilausmäärä ja jälkitoimituksen määrä. Raportissa näkyy myös se, onko asiakkaalle muita nimikkeitä jälkitoimituksessa.|
+|**Varaston tilauserittelyt**|708|Tässä raportissa on luettelo tilauksista, joita ei ole vielä toimitettu, ja tilauksissa olevista nimikkeistä. Siinä on tilausnumero, asiakkaan nimi, lähetyksen päivämäärä, tilausmäärä, viivästynyt määrä, avoin määrä ja yksikköhinta sekä mahdollinen alennusprosentti ja summa. Jälkitoimituksen määrä, avoin määrä ja summa lasketaan yhteen kaikkien nimikkeiden osalta. Raporttia voidaan käyttää saamaan selville se, onko tällä hetkellä toimitusongelmia tai onko niitä odotettavissa.|
 
 
 

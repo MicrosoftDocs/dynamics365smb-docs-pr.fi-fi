@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: analysis, history, track, business intelligence
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ddcb3b3074a33fa279aa9a7cc0b04e5b5904fbac
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 982f61396f1d49eeaa688d580801c14ac9c33ccb
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444685"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482220"
 ---
 # <a name="working-with-dimensions"></a>Dimensioiden käyttäminen
 Dimensiot ovat tapahtumia luokittelevia arvoja, jotta voit seurata ja analysoida tapahtumia asiakirjoissa, kuten myyntitilauksissa. Dimensioiden avulla voit esimerkiksi ilmaista, mistä projektista tai osastosta tapahtuma on lähtöisin.  
@@ -53,6 +53,9 @@ Kun dimensiot ja arvot on määritetty, voit määrittää **Pääkirjanpidon as
 
 * **Globaaleja dimensioita** käytetään suodattimina esimerkiksi raporteissa, erätöissä ja XMLporteissa. Käytössä on vain kaksi globaalia dimensiota, joten valitse usein käytetyt dimensiot.
 * **Pikadimensiot** ovat käytössä kenttinä päiväkirjassa, asiakirjan riveillä ja kirjanpitotapahtumissa. Voit luoda niitä enintään kahdeksan.  
+
+> [!NOTE]
+> Kun olet lisännyt uuden dimension mihin tahansa tapahtumaan, kuten riviin tai uuteen tietueeseen, et voi poistaa dimensiota, vaikka et kirjaakaan tapahtumaa. Tämä johtuu siitä, että [!INCLUDE[prod_short](includes/prod_short.md)] luo riville tai tietueelle välittömästi dimensioyhdistelmän. Lisätietoja on kohdassa [Dimensioyhdistelmät](finance-dimensions.md#dimension-sets).
 
 ### <a name="to-set-up-default-dimensions-for-customers-vendors-and-other-accounts"></a>Asiakkaiden, toimittajien ja muiden tilien oletusdimensioiden määrittäminen
 Voit määrittää oletusdimension tietylle tilille. Dimensio kopioidaan päiväkirjaan tai asiakirjaan, kun lisäät tilinumeron riville, mutta voit tarvittaessa poistaa koodin rivillä tai muuttaa sitä. Voit määrittää myös dimension, jota tarvitaan tietyn tyyppisen tilitapahtuman kirjaamiseen.  

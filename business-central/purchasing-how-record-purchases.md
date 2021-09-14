@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement
-ms.date: 04/01/2021
+ms.date: 09/07/2021
 ms.author: edupont
-ms.openlocfilehash: 74c984d1abdd78f4d8af1364b3c8d285297a1cdd
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 18aef7bfc5324d17d2af9f4aa4ff0ba2602c70e0
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445499"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482395"
 ---
 # <a name="record-purchases-with-purchase-invoices"></a>Ostojen kirjaaminen ostolaskujen avulla
 
@@ -25,25 +25,10 @@ Voit luoda ostolaskun tai -tilauksen ostojen kustannusten tallentamiseksi ja ost
 
 Varaston arvostukseen vaikuttavien fyysisten nimikkeiden (**Varasto**-nimiketyyppi) ostamisen lisäksi voit ostaa palveluita, jotka osoitetaan aikayksiköiden avulla. Voit tehdä tämän joko **Palvelu**-nimiketyypin tai **Resurssi**-rivityypin avulla.
 
-> [!NOTE]  
-> Ostotilauksia on käytettävä, jos ostoprosessi vaatii tilausmäärän osittaisten vastaanottojen tallentamisen esimerkiksi silloin, kun koko määrä ei ole kerralla toimittajan käytettävissä. Jos myyt nimikkeitä toimittamalla ne suoraan toimittajalta asiakkaalle (suoratoimituksena), ostotilauksia on käytettävä. Lisätietoja on kohdassa [Suoratoimitusten tekeminen](sales-how-drop-shipment.md). Kaikilta muilta osin ostotilaukset toimivat samalla tavalla kuin ostolaskut. Seuraava toimenpide perustuu ostolaskuun. Vaiheet ovat samankaltaisia ostotilaukselle.
-
 Kun varastonimikkeitä vastaanotetaan tai ostettu palvelu on valmis, ostolasku tai -tilaus kirjataan varasto- ja taloustietueiden päivittämiseksi ja laskun aktivoimiseksi toimittajalle maksuehtojen mukaan. Lisätietoja on kohdissa [Ostojen kirjaaminen](ui-post-purchases.md) ja [Maksujen tekeminen](payables-make-payments.md).
 
 > [!CAUTION]  
 > Älä kirjaa ostolaskun fyysisiä nimikkeitä, ennen kuin vastaanotat nimikkeet ja tiedät oston lopullisen kustannuksen, mahdolliset lisäkustannukset mukaan lukien. Muussa tapauksessa varaston arvo ja voittoluvut voivat olla virheelliset.
-
-Nimikkeen kortin tyyppi voi olla **Varasto**, **Huolto** ja **Muu kuin huolto**. Se määrittää, onko nimike fyysisen varasto yksikkö, työn aikayksikkö vai fyysinen yksikkö, jota ei säilytetä varastossa. Lisätietoja on ohjeaiheessa [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md). Ostolaskuprosessi on sama kaikille kolmelle nimiketyypeille.
-
-> [!NOTE]
-> **Resurssi**-ostorivityypin avulla voit ostaa myös ulkoisia resursseja, kuten esimerkiksi laskuttaa toimittajaa tehdystä työstä. Lisätietoja on kohdassa [Resurssien määrittäminen](projects-how-setup-resources.md).
->
-> Jos haluat käyttää ostettua resurssia, resurssin kapasiteetti on mahdollisesti määritettävä ja liitettävä manuaalisesti työhön. Resurssin ostaminen luo resurssitapahtuman. Resurssitapahtumia ei kuitenkaan seurata määrän ja arvon osalta kuten esimerkiksi nimikkeitä. Jos määrän ja arvon seuranta on pakollista, kannattaa harkita muiden rivinimiketyyppien käyttämistä.
-
-Voit täyttää ostolaskun toimittajan kentät kahdella tavalla sen mukaan, onko toimittaja jo rekisteröity.
-<br><br>  
-
-> [!Video https://www.microsoft.com/videoplayer/embed/RE4b3tt?rel=0]
 
 ### <a name="to-create-a-purchase-invoice"></a>Ostolaskun kirjaamiseksi
 
@@ -56,12 +41,9 @@ Seuraavassa kerrotaan, miten ostolasku luodaan. Vaiheet ovat samankaltaisia osto
 
     1. Syötä **Toimittaja**-kenttään uuden toimittajan nimi.
     2. Valitse uuden toimittajan rekisteröimisen valintaikkunassa **Kyllä**-painike.
-    3. Valitse **Valitse uuden toimittajan malli** -sivulla malli uuden toimittajakortin perusteella ja valitse sitten **OK**-painike.
-    4. Uuden toimittajan kortti avautuu esitäytettynä valitun toimittajamallin tiedoilla. **Nimi**-kenttään esitäytetään uuden toimittajan nimi, jonka syötit ostolaskulle.
-    5. Jatka täyttämällä toimittajan kortin jäljellä olevat kentät. Lisätietoja on kohdassa [Uusien toimittajien rekisteröinti](purchasing-how-register-new-vendors.md).  
-    6. Kun olet määrittänyt toimittajakortin, valitse **OK**-painike palataksesi **Ostolasku**-sivulle.
+    3. Lisätietoja toimittajan kortin täyttämisestä on kohdassa [Uusien toimittajien rekisteröiminen](purchasing-how-register-new-vendors.md).  
+    4. Kun olet määrittänyt toimittajakortin, valitse **OK**-painike palataksesi **Ostolasku**-sivulle.
 
-    Useat kentät **Ostolasku** -sivulla täytetään tiedoilla, jotka olet määrittänyt uuden toimittajan kortissa.
 3. Täytä tarvittaessa jäljellä olevat kentät **Ostolasku**-sivulla. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     Voit nyt täyttää ostolaskurivit nimikkeillä tai resursseilla, joita olet ostanut toimittajalta.
@@ -71,19 +53,11 @@ Seuraavassa kerrotaan, miten ostolasku luodaan. Vaiheet ovat samankaltaisia osto
 4. Syötä **Rivit**-pikavälilehden **Nimikenro**-kenttään varastonimikkeen tai palvelun numero.
 5. Syötä **Määrä**-kenttään ostettavien nimikkeiden lukumäärä.
 
-    > [!NOTE]  
-    > Jos nimikkeen tyyppi on **Palvelu** ja rivien tyyppi on **Resurssi**, määrä on aikayksikkö, kuten tunnit, rivin **Mittayksikön koodi** -kentän mukaisesti.
-
     **Rivisumma**-kenttä päivitetään näyttämään arvoa, joka saadaan kertomalla **Välitön yksikkökustannus** -kentän arvo **Määrä**-kentän arvolla.
 
     Hinta ja rivin summa näytetään ALV:n kanssa tai ilman riippuen siitä, mitä valitsit **Hinnat verojen kanssa** -kenttään toimittajan kortissa.
 
     Rivien alla olevat summakentät päivitetään automaattisesti aina, kun luot tai muokkaat rivejä ja näytät summat, jotka kirjataan päiväkirjoihin.
-
-    > [!NOTE]
-    > Kirjatut summat ovat harvoin erilaisia kuin summakenttien summat. Tämä johtuu yleensä arvonlisäveroon liittyvistä pyöristyslaskelmista.
-    >
-    > Voit tarkistaa kirjattavat summat käyttämällä **Tilastot**-sivua. Sivulla otetaan huomioon pyöristyslaskelmat. Jos valitset **Vapauta**-toiminnon, summakentät päivitetään niin, että ne sisältävät pyöristyslaskelmat.
 
 6. Syötä **Laskun alennussumma** -kenttään summa, joka vähennetään laskun alaosan **Yhteensä sis. ALV:n** -kentässä olevasta arvosta.
 
@@ -92,6 +66,28 @@ Seuraavassa kerrotaan, miten ostolasku luodaan. Vaiheet ovat samankaltaisia osto
 7. Kun vastaanotat ostettuja nimikkeitä tai palveluita, valitse **Kirjaa**.
 
 Osto vaikuttaa nyt varastoon, resurssitapahtumiin ja taloustietueisiin, ja myyjän maksu on aktivoitu. Ostolasku poistetaan ostolaskujen luettelosta ja korvataan uudella asiakirjalla kirjattujen ostolaskujen luettelosta.  
+
+> [!NOTE]
+> Kirjatut summat ovat harvoin erilaisia kuin summakenttien summat. Tämä johtuu yleensä arvonlisäveroon liittyvistä pyöristyslaskelmista.
+>
+> Voit tarkistaa kirjattavat summat käyttämällä **Tilastot**-sivua. Sivulla otetaan huomioon pyöristyslaskelmat. Jos valitset **Vapauta**-toiminnon, summakentät päivitetään niin, että ne sisältävät pyöristyslaskelmat.
+
+## <a name="when-to-use-purchase-orders"></a>Ostotilausten käyttö
+
+Ostotilauksia on käytettävä, jos ostoprosessi vaatii tilausmäärän osittaisten vastaanottojen tallentamisen esimerkiksi silloin, kun koko määrä ei ole kerralla toimittajan käytettävissä. Jos myyt nimikkeitä toimittamalla ne suoraan toimittajalta asiakkaalle (suoratoimituksena), ostotilauksia on käytettävä. Lisätietoja on kohdassa [Suoratoimitusten tekeminen](sales-how-drop-shipment.md). Kaikilta muilta osin ostotilaukset toimivat samalla tavalla kuin ostolaskut. Seuraava toimenpide perustuu ostolaskuun. Vaiheet ovat samankaltaisia ostotilaukselle.
+
+<br><br>
+
+> [!Video https://www.microsoft.com/videoplayer/embed/RE4b3tt?rel=0]
+
+## <a name="selling-non-inventory-items"></a>Muiden kuin varastonimikkeiden myynti
+
+Ostolaskun nimikkeiden tyyppi voi olla **Varasto**, **Huolto**, **Resurssi** ja **Muu kuin varasto**. Se määrittää, onko nimike fyysinen varastoyksikkö, työn aikayksikkö vai fyysinen yksikkö, jota ei säilytetä varastossa. Lisätietoja on ohjeaiheessa [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md). Ostolaskuprosessi on sama kaikille kolmelle nimiketyypeille.
+
+> [!NOTE]
+> **Resurssi**-ostorivityypin avulla voit ostaa myös ulkoisia resursseja, kuten esimerkiksi laskuttaa toimittajaa tehdystä työstä. Lisätietoja on kohdassa [Resurssien määrittäminen](projects-how-setup-resources.md).
+>
+> Jos haluat käyttää ostettua resurssia, resurssin kapasiteetti on mahdollisesti määritettävä ja liitettävä manuaalisesti työhön. Resurssin ostaminen luo resurssitapahtuman. Resurssitapahtumia ei kuitenkaan seurata määrän ja arvon osalta kuten esimerkiksi nimikkeitä. Jos määrän ja arvon seuranta on pakollista, kannattaa harkita muiden rivinimiketyyppien käyttämistä.
 
 ## <a name="posted-invoices"></a>Kirjatut laskut
 

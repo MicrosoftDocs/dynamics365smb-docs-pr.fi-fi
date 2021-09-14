@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/27/2021
+ms.date: 08/19/2021
 ms.author: edupont
-ms.openlocfilehash: 2a3d35672905094e714f85ac4758cbf39ec88cb6
-ms.sourcegitcommit: 769d20d299155cba30c35636d02b2ef021e4ecc1
+ms.openlocfilehash: 3dcda7f44797f52e50babe4dbec90e3b2be6f19d
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "6688312"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440736"
 ---
 # <a name="design-details-posting-date-on-adjustment-value-entry"></a>Rakennetiedot: Muutoksen arvotapahtuman kirjauspäivämäärä  
 
@@ -94,7 +94,7 @@ Ensimmäinen sallittu kirjauspäivämäärä on ensimmäisen avoimen kauden ensi
 |Rekisteröi aika:       |         |
 |Paikallinen osoitemuoto:|   Postinro      |  
 
- Ensimmäinen sallittu kirjauspäivämäärä on Ensimm. sallittu kirjauspvm -kentässä mainittu päivämäärä: 1.9.2020.  
+ Ensimmäinen sallittu kirjauspäivämäärä on Ensimm. sallittu kirjauspvm -kentässä mainittu päivämäärä: 10.9.2020.  
  Jos pääkirjanpidon asetuksissa on määritetty sekä varastokaudet että sallitut kirjauspäivämäärät, jälkimmäinen päivämäärä määrittää sallitun kirjauspäivämäärän.  
 
  Vaihe 3: Sallitun kirjauspäivämäärän määrittäminen  
@@ -164,7 +164,7 @@ Lajittelu: Käyttäjätunnus
 
 |Käyttäjätunnus  |Ensimm. sallittu kirjauspvm  | Viimeinen sallittu kirjauspvm  |
 |---------|---------|--------|
-|<name> |  2020-09-11      |2020-09-30      |
+|KÄYTTÄJÄTUNNUS |  2020-09-10      |2020-09-30      |
 
  Jos käyttäjälle määritetään laajempi (tai sama) sallittu kirjauspäivämääräalue kuin varastokaudella tai kirjanpidon asetuksissa, mainittu ristiriita vältetään. Oikaisun arvotapahtuma, jonka kirjauspvm on 10. syyskuuta, kirjataan onnistuneesti näillä asetuksilla.
 

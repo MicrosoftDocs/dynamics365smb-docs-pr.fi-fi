@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 06/16/2021
+ms.search.keywords: item, finished good, component, raw material, assembly item, item substitution
+ms.date: 07/29/2021
 ms.author: edupont
-ms.openlocfilehash: 2195940a65ffa6cfe904e09028846991f68dfb6f
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: a3ef2fee2b6a2c868fa4085d08bf76bb02b96b49
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435641"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440439"
 ---
 # <a name="register-new-items"></a>Uusien nimikkeiden rekisteröiminen
 
@@ -85,6 +85,23 @@ Jos ostat saman nimikkeen useammalta kuin yhdeltä toimittajalta, sinun tulee sy
 6. Toista vaiheet 2–5 kullekin toimittajalle, jolta haluat ostaa nimikkeitä.
 
 Toimittajat näkyvät nyt nimikkeen kortissa avattavassa **Nimikkeen toimittajaluettelo** -sivulla, jossa voit valita kätevästi vaihtoehtoisen toimittajan.
+
+## <a name="set-up-item-substitutions"></a>Määritä nimikekorvaukset
+
+Voit määrittää nimikkeille korvaavia tuotteita, kuten muita nimikkeitä, joita voidaan käyttää alkuperäisen nimikkeen tilalla.
+
+### <a name="to-make-an-item-substitution"></a>Nimikkeen korvaamisen toteuttaminen
+
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten vastaava linkki.  
+2. Etsi asianmukainen nimike ja avaa nimikekortti napsauttamalla **Nimikenro**-painiketta.  
+3. Valitse **Liittyvä**-toiminto, valitse **Nimike** ja sitten **Korvaamiset** avataksesi Nimikkeen korvaustapahtuma -sivun.  
+4. Valitse **Korvaava nro** -kenttä ja valitse korvaava nimike luettelosta.
+5. Voit täyttää tai muuttaa muita kenttiä sivulla tarvittaessa.
+
+Kun esimerkiksi myyntirivin pyydetty nimikkeiden määrä on suurempi kuin määrä, joka on saatavilla varastossa, näyttöön tulee viesti, joka ilmoittaa, että korvaavia nimikkeitä on olemassa.
+
+> [!NOTE]  
+> Huomaa, että nimikkeen korvaaminen ei automaattisesti aiheuta nimikkeen korvaamista toisella nimikkeellä esimerkiksi myyntitilausta luotaessa tai tuoterakenteessa. Sen sijaan sinua varoitetaan siitä, että käytettävissäsi on korvaaminen.
 
 ## <a name="categories-attributes-and-variants"></a>Luokat, määritteet ja variantit
 

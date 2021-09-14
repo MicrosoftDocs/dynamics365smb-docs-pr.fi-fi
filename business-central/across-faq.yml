@@ -6,14 +6,14 @@ metadata:
   ms.service: dynamics365-business-central
   ms.topic: conceptual
   ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-  ms.date: 04/01/2021
+  ms.date: 08/24/2021
   ms.author: edupont
-  ms.openlocfilehash: 4d4864b0baa6b8455e51931701d72eea8923545f
-  ms.sourcegitcommit: 0c8428e1468d4f5c18fbe35c79d6bbe509b79620
+  ms.openlocfilehash: 3cc1b5fc394d63cd3741337263eafecdfa878fbb
+  ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
   ms.translationtype: HT
   ms.contentlocale: fi-FI
-  ms.lasthandoff: 06/01/2021
-  ms.locfileid: "6124001"
+  ms.lasthandoff: 08/27/2021
+  ms.locfileid: "7440689"
 title: Usein kysyttyjä kysymyksiä Business Centralin käyttämisestä
 summary: "Tässä osassa on vastauksia [!INCLUDE[prod_short](includes/prod_short.md)]in kokeiluversioon rekisteröitymiseen, tilauksen ostamisen ja sen käyttämiseen liittyviin usein kysyttyihin kysymyksiin. Saat myös lisätietoja teknisen tuen saamisesta.  \n"
 sections:
@@ -67,6 +67,10 @@ sections:
       Mitkä ovat pilvipalvelun palvelutasosopimukset?
     answer: >
       [!INCLUDE [service-terms](includes/service-terms.md)]
+  - question: >
+      Kuinka usein Business Central online päivitetään?
+    answer: >
+      [!INCLUDE[prod_short](includes/prod_short.md)] online on palvelu, joka koostuu Microsoftin ylläpitämästä alustasta ja liiketoimintatoiminnoista. Monet Microsoft-kumppanit tarjoavat ylimääräisiä liiketoimintatoimintoja, kuten tiettyjen toimiala- tai lokalisointitarpeiden ratkaisemisen. Sekä liiketoiminnan toiminnallisuutta että palvelukomponentteja seurataan jatkuvasti ja päivitetään tarpeen mukaan. Voit aina tarkistaa uudet ja tulevat toiminnot [julkaisusuunnitelmasta](/dynamics365/release-plans/). Lisätietoja on kohdassa [Palvelun yleiskatsaus: Business Central Online](/dynamics365/business-central/dev-itpro/service-overview) (vain englanniksi) sekä [Uudet ja suunnitellut toiminnot](product-news.md).
   - question: >
       Järjestelmänvalvoja on siirtänyt minut toiseen tilaukseen, jotta voin käyttää toista roolia, mutta näen kuitenkin edelleen saman Business Central -aloitusnäytön. Miksi?
     answer: "Selitys on hieman monimutkainen, mutta ilmeisesti järjestelmänvalvoja ei vaihtanut määritettyä roolia eikä määrittänyt uutta käyttöoikeutta vastaavia käyttäjäryhmiä. [!INCLUDE[prod_short](includes/prod_short.md)]in käyttöoikeus määräytyy periaatteessa tilaussuunnitelman (käyttöoikeuden) mukaan, sillä sen avulla määritetään käyttöoikeudet, rooli ja oletusarvoinen aloitusnäyttö. Voit vaihtaa nykyisen roolin manuaalisesti omissa asetuksissa, mutta jos sinut siirretään toiseen tilaussuunnitelmaan, vaikkapa yritystilauksesta Team Members -tilaukseen, vanha aloitusnäyttö voi olla näkyvissä, koska käyttöoikeuksia ei muutettu.  \n"
