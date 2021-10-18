@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 0ed9b58b9ceec962d7f55ef5687ac36e11fbd681
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 7f6f79ba1f8005363204f48c5ea9b91073b517f7
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446363"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588674"
 ---
 # <a name="setting-up-cost-accounting"></a>Kustannuslaskennan määrittäminen
 Ennen kuin alat käsitellä kustannuslaskentaa, sinun täytyy suorittaa asetustehtävät.
@@ -36,7 +36,7 @@ Kustannustyyppikartta vastaa pääkirjanpidon tilikarttaa. Voit määrittää ku
 -   Luo uusi kustannustyyppien kaavio tai lisää uudet kustannustyypit aiemmin luotuun kustannustyyppien kaavioon. Sinun on luotava jokainen uusi kustannustyyppi erikseen.  
 
 ### <a name="to-transfer-the-general-ledger-chart-of-accounts-to-the-chart-of-cost-types"></a>Siirrä pääkirjanpidon tilikartta kustannustyyppikaavioon  
-1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kustannustyyppikartta** ja valitse sitten vastaava linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 1.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kustannustyyppikartta** ja valitse sitten vastaava linkki.  
 2.  Valitse **Hae kustannustyypit tilikartasta** -toiminto. Vahvista siirto valitsemalla valintaikkunassa **Kyllä**. Funktio käyttää tilikarttaa kustannustyyppikaavion luontiin.  
 
     Kustannustyyppikaavio sisältää nyt kaikki pääkirjanpidon tuloslaskelmat, mukaan lukien otsikot ja välisummat. Voit tarvittaessa muuttaa kustannustyyppejä. Voit esimerkiksi poistaa kustannustyyppien kaksoiskappaleet.  
@@ -80,8 +80,8 @@ Pääkirjanpitotilien ja kustannustyyppien välissä on olemassa n:1-suhde. Usei
 |------------------|------------------------------------------------|-------------------------------------------|  
 |Yksi pääkirjanpidon tilin kullekin kustannustyypille|kirjanpitotili.|Yksi kustannuslaji|  
 |Useita kirjanpitotilejä yhdelle kustannustyypille|Kirjanpitotiliväli, kuten 7110–7193 jokaisen kirjanpitotilin kohdalla|Alueen kaikille pääkirjanpidon tileillä on vain yksi kustannustyyppi|  
-|Kustannustyypit ilman vastaavia pääkirjanpitotilejä|<Empty>||  
-|Kirjanpitotilit, joiden tapahtumia ei siirretä||<Empty>|  
+|Kustannustyypit ilman vastaavia pääkirjanpitotilejä|\<Empty\>||  
+|Kirjanpitotilit, joiden tapahtumia ei siirretä||\<Empty\>|  
 
 ### <a name="cost-types-without-a-relationship-to-the-general-ledger"></a>Kustannustyypit ilman suhdetta pääkirjanpitoon  
 Kustannuksen tyypillä ei ehkä ole yhteyttä pääkirjanpidon tileille, jos jokin seuraavista ehdoista toteutuu:  
@@ -98,7 +98,7 @@ Kustannuspaikat ovat osastoja, jotka vastaavat tuloista ja menoista. Kustannuspa
 
 ### <a name="to-transfer-dimension-values-in-the-general-ledger-to-the-chart-of-cost-centers"></a>Dimensioarvojen siirtäminen pääkirjanpidosta kustannuspaikkakaavioon  
 1.  Määritä dimensio kustannuspaikan dimensioksi **Päivitä kustannuslaskennan dimensiot** -sivulla. Vain tämän dimension arvot siirretään.  
-2.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kustannuspaikkakartta** ja valitse sitten vastaava linkki.  
+2.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 2.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kustannuspaikkakartta** ja valitse sitten vastaava linkki.  
 3.  Valitse **Toiminnot**-välilehden **Funktiot**-ryhmässä **Nouda kustannuspaikat dimensiosta**, jolloin dimensioarvot siirretään kustannuspaikkakaavioon. Toiminto siirtää kohdassa 1 määritetyt dimensioarvot.  
 
     > [!NOTE]  
@@ -131,7 +131,7 @@ Kustannuskohteet ovat yrityksen projekteja, tuotteita tai palveluja. Kustannusko
 
 ### <a name="to-transfer-dimension-values-from-the-general-ledger-to-the-chart-of-cost-objects"></a>Dimensioarvojen siirtäminen pääkirjanpidosta kustannuskohdekaavioon  
 1.  Määritä dimensio kustannuskohteen dimensioksi **Päivitä KL-dimensiot** -sivulla. Vain tämän dimension arvot siirretään.  
-2.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kustannuskohdekartta** ja valitse sitten vastaava linkki.  
+2.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 3.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kustannuskohdekartta** ja valitse sitten vastaava linkki.  
 3.  Valitse **Nouda kustannuskohteet dimensiosta** -toiminto, jolla dimensioarvot siirretään kustannuskohdekaavioon. Toiminto siirtää kohdassa 1 määritetyt dimensioarvot.  
 
     > [!NOTE]  

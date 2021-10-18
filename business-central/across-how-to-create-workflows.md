@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/30/2021
 ms.author: edupont
-ms.openlocfilehash: b4f6894c0d9c5a23445f70b2a50fcd677b17be66
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 2734f4d65869ba666a53333c9338239a1cb1a1b4
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438405"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588224"
 ---
 # <a name="create-workflows-to-connect-business-process-tasks"></a>Työnkulkujen luominen liiketoimintaprosessin tehtävien yhdistämista varten
 
@@ -133,7 +133,7 @@ Seuraavassa esimerkissä tehdään uusi työnkulku, joka hyväksyy muutokset aie
     2. Valitse **Ehto**-kentässä sana **Aina** ja valitse sitten **Tapahtuman ehdot** -sivulla **Lisää ehto, kun kentän arvo muuttuu** -linkki ja valitse sitten *Nimi*-kenttä.  
 
       Tämän vaiheen tulos on se, että ehto näkyy muodossa *Nimi muutetaan*.  
-    3. Valitse **Sitten - vastaus** -kentässä **Valitse vastaus** -linkki ja valitse **Työnkulun vastaukset** -sivun **Valitse vastaus** -kentässä *Palauta <Field> kentän arvo tietueessa ja tallenna muutos* -vastaus ja määritä sitten **Valitun vastauksen asetukset** -osassa *Nimi*-kenttä.  
+    3. Valitse **Sitten - vastaus** -kentässä **Valitse vastaus** -linkki ja valitse **Työnkulun vastaukset** -sivun **Valitse vastaus** -kentässä *Palauta \<Field\> kentän arvo tietueessa ja tallenna muutos* -vastaus ja määritä sitten **Valitun vastauksen asetukset** -osassa *Nimi*-kenttä.  
     4. Valitse **Lisää vastauksia** -linkki ja lisää sitten merkintä *Luo tietueelle hyväksyntäpyyntö käyttäen hyväksyjätyyppejä <%1> ja <%2>.* -vastaukselle.  
     5. Vaihda uuden vastauksen **Valitun vastauksen asetukset** -osassa **Hyväksyjätyyppi**-kenttä vaihtoehtoon *Työnkulun käyttäjäryhmä* ja määritä sitten **Työnkulun käyttäjäryhmä** -kentässä asiaankuuluva käyttäjäryhmä.  
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Power BI, reports, faq, errors
 ms.date: 04/22/2021
 ms.author: jswymer
-ms.openlocfilehash: ef63963c7c37f36db34e3e8292e73d64c1b67538
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 5dde158d3710219fec518633d90d145acb3e420b
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438750"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587997"
 ---
 # <a name="power-bi--faq"></a>Power BI – usein kysytyt kysymykset
 
@@ -129,12 +129,6 @@ Tässä ovat muut sivut, jotka sisältävät laajemman, ei-suodatetun **Power BI
 Jos haluat suodattaa suuria tietojoukkoja, helpoin tapa on määrittää Power BI -raportin suodatin muokkaamalla suoraan Power Query -kaavaa. Suurin osa näin määritetyistä suodattimista välitetään Business Centraliin delegoimalla kysely lähteeseen. Katso [Tietojoukkojen lisäävä päivitys](/power-bi/admin/service-premium-incremental-refresh).
 
 Tällä hetkellä ei ole mahdollista määrittää verkkopalveluiden tietojen suodatinta Business Centralissa. Jos sovelluksen on määritettävä suodatin Business Centralissa, sinun on luotava tätä varten mukautettu Business Central -sovellus.
-
-<!-- 8 and 9 -->
-
-### <a name="for-embedding-reports-in-business-central-pages-right-now-its-only-possible-to-get-reports-from-my-workspace-in-power-bi-are-there-plans-to-make-it-possible-to-get-them-from-custom-workspaces"></a>Business Centralin sivujen raporttien upottamista varten voidaan hakea raportteja vain Power BI:n *Oma työtila* -kohdassa. Onko niitä mahdollista saada mukautetuista työtiloista tulevaisuudessa?
-
-Kyllä. Jaettujen työtilojen tuen lisääminen on suunnitelmissa, mutta tarkka ajankohta ei vielä ole tiedossa.  
 
 <!-- 10 -->
 ### <a name="from-power-bi-besides-using-a-query-is-there-another-way-to-get-data-from-business-central-tables-that-dont-have-an-associated-page-for-example-like-the-item-attributes-value-mapping-table"></a>Voiko Power BI:ssa hakea tietoja kyselyn lisäksi myös muilla tavoilla sellaista Business Centralin taulukoista, joilla ei ole liitettyä sivua? Esimerkiksi *Nimikemääritteen arvon yhdistämismääritys* -taulukosta.

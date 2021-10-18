@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 921eb4cc054ee61ffac543b68f19097927c511e1
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 4ec0aba869d2a171e12c42822ecf1726ed4ac81e
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442108"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587913"
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Nimiketapahtumien poistaminen ja uudelleenkohdistaminen
 Voit tarkastella ja muuttaa **Kohdistustyökirja**-sivulla manuaalisesti tietyn nimikkeen kohdistustapahtumia, jotka on luotu automaattisesti varastotapahtumien yhteydessä.  
@@ -40,8 +40,9 @@ Jos et tehdä uudelleenkohdistusta, kuten korjata kiinteää kohdistusta, asiaki
     - Voit poistaa usean tapahtuman kohdistukset samanaikaisesti kohdistustyökirjassa. Koska tapahtumien kohdistaminen vaikuttaa useisiin kohdistuksen käytettävissä oleviin tapahtumiin, voit luoda kohdistuksen vain yhdelle tapahtumalle samanaikaisesti.
     - Kohdistustyökirja ei voi tehdä kohdistusta seuraavassa tilanteessa: Jos varastossa ei ole tarpeeksi kohdistettavaa määrää, kohdistustyökirja ei voi tehdä kohdistusta, jos yrität kohdistaa varaston vähennystapahtumaa, jolla ei ole nimikeseurannan tietoja, sellaiseen varaston lisäystapahtumaan, jolla on nimikeseurannan tiedot.
 
-## <a name="to-remove-an-item-application-by-using-the-application-worksheet"></a>Nimikkeen kohdistuksen ja kohdistustyökirjan poistaminen  
-1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kohdistustyökirja** ja valitse sitten vastaava linkki.  
+## <a name="to-remove-an-item-application-by-using-the-application-worksheet"></a>Nimikkeen kohdistuksen ja kohdistustyökirjan poistaminen
+
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 1.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kohdistustyökirja** ja valitse sitten vastaava linkki.  
 2.  **Kohdistustyökirja**-sivu aukeaa näyttäen kaikkia nimikkeitä koskevat nimiketapahtumat.  
 3.  Syötä suodattimet **Yleinen**-pikavälilehdelle, jotta on helpompi löytää nimiketapahtumat, joille haluat muuttaa sovelluksen.  
 4.  Valitse ensin nimiketapahtuma ja sitten **Kohdistetut tapahtumat** -toiminto. **Näytä kohdistetut tapahtumat - Kohdistetut tapahtumat** -sivu avautuu ja sivulla näkyvä valittuun tapahtumaan kohdistetut nimiketapahtumat.  
@@ -54,10 +55,11 @@ Jos et tehdä uudelleenkohdistusta, kuten korjata kiinteää kohdistusta, asiaki
 > [!IMPORTANT]  
 >  Älä jätä kohdistustapahtumia pitkäksi aikaa käyttämättä, koska muut käyttäjät eivät voi käsitellä nimikkeitä ennen kuin käytät kohdistustapahtumia uudelleen tai suljet **Kohdistustyökirja**-sivun. Seuraava virhesanoma näytetään, jos yrität suorittaa toimintoja, jotka liittyvät manuaalisesti peruutettuun kohdistustapahtumaan:  
 >   
->  **Et voi suorittaa tätä toimintoa, koska käyttäjä <user> on peruuttanut nimikkeen <item> kohdistuksen kohdistustyökirjassa.**  
+>  **Et voi suorittaa tätä toimintoa, koska käyttäjä \<user\> on peruuttanut nimikkeen \<item\> kohdistuksen kohdistustyökirjassa.**  
 
-## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>Nimikkeen kohdistuksen ja kohdistustyökirjan luominen  
-1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kohdistustyökirja** ja valitse sitten vastaava linkki.  
+## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>Nimikkeen kohdistuksen ja kohdistustyökirjan luominen
+
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 2.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kohdistustyökirja** ja valitse sitten vastaava linkki.  
 2.  **Kohdistustyökirja**-sivu aukeaa näyttäen kaikkia nimikkeitä koskevat nimiketapahtumat.  
 3.  Voit kohdistaa työkirjan avaamisen jälkeen poistetut tapahtumat uudelleen valitsemalla uudelleenkohdistettavan nimiketapahtuman ja valitsemalla sitten **Kohdista uudelleen** -toiminto.  
 
@@ -72,7 +74,8 @@ Jos et tehdä uudelleenkohdistusta, kuten korjata kiinteää kohdistusta, asiaki
     >  Jos olet valinnut sellaisen kohdistuksen tekemisen, joka loisi päättymättömän silmukan kustannusten muutosprosessiin, ehdottamaasi kohdistusta ei tehdä. Näin voi tapahtua, kun alkuperäiset tapahtumat loivat negatiivisen varaston. Sovellusta ei ole tehty. Tämän vuoksi on valittava sovellukselle eri tapahtuma.  
 6.  Jos **varastonhallinnan asetusten** **Automaattinen kustannusten muuttaminen** -kentän arvoksi määritetään **Aina**, kustannusten muuttamisen eräajo suoritetaan automaattisesti uudelleenkohdistuksen jälkeen. Muussa tapauksessa voit varmistaa suorittamalla **Muuta kustannuksia - Nimiketapahtumat** -eräajon, että kaikki kustannukset on päivitetty.  
 
-## <a name="see-also"></a>Katso myös  
+## <a name="see-also"></a>Katso myös
+
 [Nimikepäiväkirjan kiinteästä kohdistuksesta aiheutuvien avointen nimiketapahtumien sulkeminen](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
  [Ostopalautusten tai peruutusten käsittely](purchasing-how-process-purchase-returns-cancellations.md)  
  [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)   

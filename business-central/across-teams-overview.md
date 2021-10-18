@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: c1912cda437b16495e52120eb353830751b1c06a
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 49cc504c95d5636957e93b4543b05e3bfb22d989
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446463"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587503"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Business Centralin ja Microsoft Teamsin integraatio
 
@@ -51,6 +51,14 @@ Keskustelun aikana sinä ja työtoverisi voitte tarkastella lisätietoja tietuee
 
 Lisätietoja on kohdassa [Jaa tietueita Microsoft Teams](across-working-with-teams.md)issa.
 
+### <a name="share-links-from-pages-in-business-central-to-teams"></a>Jaa sivujen linkit Business Centralista Teamsiin
+
+Suoraan useimmista Business Centralin kokoelma- ja tietosivuilta voit käyttää **Jaa Teamsiin** -toimintoa ![!Sivujen Jaa-valikkokuvake.](media/share-icon.png "Kortilla näkyvä Jaa-valikko.") -kuvakkeesta, jolloin voit kirjoittaa viestin, valita vastaanottajat, kuten ryhmän jäsenet, ryhmät tai kanavat, ja lähettää viestin, jossa on linkki Business Central -sivulle.
+
+![! Kortilla näkyvä Jaa-valikko.](media/teams-share-link.png "Kortilla näkyvä Jaa-valikko.")
+
+Lisätietoja on kohdassa [Jaa tietueiden ja sivujen linkkejä Microsoft Teamsissa](across-working-with-teams.md#share-link).
+
 ## <a name="get-started"></a>Aloita
 
 1. [!INCLUDE [prod_short](includes/prod_short.md)] online -käyttäjätili tarvitaan Teamsin [!INCLUDE [prod_short](includes/prod_short.md)] -sovellukseen.
@@ -62,7 +70,7 @@ Lisätietoja on kohdassa [Jaa tietueita Microsoft Teams](across-working-with-tea
 
 2. Katso järjestelmänvalvojana [Microsoft Teamsin ja Business Centralin integroinnin hallinta](admin-teams-integration.md) saadaksesi tietoja käyttäjien asetusten käyttämisestä [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmassa ja Teamsissa.
 3. [!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksen asentaminen Teamsiin. Katso [Asenna [!INCLUDE [prod_short](includes/prod_short.md)] -sovellus Microsoft Teamsiin](across-install-app-for-teams.md).
-4. Kun sovellus on asennettu, olet valmis aloittamaan. Lisätietoja on kohdassa [Asiakkaiden, toimittajien ja muiden yhteystietojen etsiminen Microsoft Teams](across-search-contacts-teams.md)issa ja [Jaa tietueita Microsoft Teams](across-working-with-teams.md)issa. 
+4. Kun sovellus on asennettu, olet valmis aloittamaan. Lisätietoja on kohdassa [Asiakkaiden, toimittajien ja muiden yhteystietojen etsiminen Microsoft Teams](across-search-contacts-teams.md)issa ja [Jaa tietueita Microsoft Teams](across-working-with-teams.md)issa.
 
 ## <a name="see-also"></a>Katso myös
 

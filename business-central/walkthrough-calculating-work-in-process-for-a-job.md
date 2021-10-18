@@ -1,5 +1,5 @@
 ---
-title: Vaihekuvaus – Projektin keskeneräisen työn laskeminen | Microsoft Docs
+title: Vaihekuvaus – Projektin keskeneräisen työn laskeminen
 description: Projekteissa kuluu esimerkiksi työntekijöiden työtunteja, koneiden käyttötunteja ja varastonimikkeitä, joita täytyy seurata projektin edetessä.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 58cc257b30829fe0b9a2fe2bdec4ef6e5a5855cc
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 8f508ae0f867fe63ee557df6aba727c0165464d1
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445224"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588099"
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Vaihekuvaus: Projektin keskeneräisen työn laskeminen
 
@@ -52,7 +52,7 @@ Projektien avulla voit laatia yrityksen resurssien käyttöön liittyviä aikata
 
 |Kenttä|Description|  
 |-------------------------------------|---------------------------------------|  
-|**<blank>**|Jätä tyhjäksi, jos projektitehtävä on osa tehtäväryhmää.|  
+|**\<blank\>**|Jätä tyhjäksi, jos projektitehtävä on osa tehtäväryhmää.|  
 |**Yhteensä**|Määrittää alueen tai tehtäväryhmän, jotka kuuluvat KET:n ja tunnistuksen laskentaan. Ryhmässä mikä tahansa projektitehtävä, jonka **Projektitehtävätyyppi** on **Kirjaus**, sisällytetään KET yhteensä -summaan, ellei sen **KET yhteensä** -kentäksi ole määritetty **Pois suljettu**.|  
 |**Pois suljettu**|Koskee vain tehtävää, jonka **Projektitehtävätyyppi** on **Kirjaus**. Tehtävää ei oteta lukuun, kun KET ja tuloutus lasketaan.|  
 

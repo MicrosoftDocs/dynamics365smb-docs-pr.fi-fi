@@ -7,27 +7,53 @@ ms.topic: conceptual
 ms.service: dynamics365-business-central
 ms.author: edupont
 ms.date: 07/09/2021
-ms.openlocfilehash: 44b354818d75de8e36abccca0de5b5189d2d4268
-ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
+ms.openlocfilehash: 3dc07c19093ff2068a2d749fdf2b260ea82c4672
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6543068"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588049"
 ---
 # <a name="resources-for-help-and-support"></a>Ohje- ja tukiresurssit
 
-[!INCLUDE[prod_long](includes/prod_long.md)]in Ohje-valikossa (kysymysmerkki oikeassa yläkulmassa) voi avata **Ohje ja tuki** -sivun, josta voi etsiä vastauksia kysymyksiin. Näet myös, miten voit ottaa yhteyttä [!INCLUDE[prod_short](includes/prod_short.md)]in tekniseen tukeen.  
+[!INCLUDE[prod_long](includes/prod_long.md)]in Ohje-valikossa (kysymysmerkki oikeassa yläkulmassa) voi avata ohjeruudun, josta voi etsiä vastauksia kysymyksiin.  
 
-Tällä sivulla käsitellään resursseja, jotka ovat käytössäsi **Ohje ja tuki** -sivun eri osissa.  
+## <a name="search-in-the-help-pane"></a>Haku ohjeruudusta
+
+[!INCLUDE [2021_releasewave2](includes/2021_releasewave2.md)]
+
+Vuoden 2021 2. julkaisuaalto sisältää uuden ohjeruudun, jossa on hakuvälilehti. Hakukentän avulla voit etsiä ohjeita tuotteen, sisäänrakennettujen ominaisuuksien ja käytettävissä olevien koulutusmoduulien käyttämisestä. Hakutermien mukaan ruudussa näkyy vähintään viisi linkkiä, joissa on lyhyt kuvaus. Valitse linkki tai tarkenna hakutermejä. Kun valitset linkin, kohdeartikkeli avautuu uuteen selainvälilehteen. Voit päättää poistaa selaimen välilehden kiinnityksen ja siten voit tarkastella asiaankuuluvia tietoja rinnakkain [!INCLUDE [prod_short](includes/prod_short.md)]in kanssa. Ruutu pysyy avoimena, kun siirryt [!INCLUDE [prod_short](includes/prod_short.md)]issa, jotta etsimäsi sisältö pysyy näkyvissä.  
+
+> [!NOTE]
+> [!INCLUDE [prod_short](includes/prod_short.md)]in tämänhetkisessä versiossa Ohje-ruudun hakukenttä koskee vain sisältöä, joka on julkaistu docs.microsoft.com-sivustossa.
+
+[!INCLUDE [ua-get-help](includes/ua-get-help.md)] Nämä linkit voivat myös käyttää sisältöä, joka on julkaistu muilla verkkosivustoilla, kuten [!INCLUDE [prod_short](includes/prod_short.md)]iin asennettujen sovellusten tarjoajien verkkosivustoilla.  
+
+## <a name="help--support-page"></a>Ohje- ja tukisivu
+
+Ohje-ruudusta voit avata **Ohje ja tuki** -sivun, [!INCLUDE [prod_short](includes/prod_short.md)]issa, joka sisältää hyödyllisiä linkkejä. Näet myös, miten voit ottaa yhteyttä [!INCLUDE[prod_short](includes/prod_short.md)]in tekniseen tukeen.  
+
+Tässä osassa käsitellään resursseja, jotka ovat käytössäsi **Ohje ja tuki** -sivun eri osissa, kuten seuraavassa luettelossa on hahmoteltu:
+
+- [Vastauksien etsiminen](#find-answers)  
+- [Tuotteen ohje](#product-help)  
+- [Yhteisö](#community)  
+- [Blogi](#blog)  
+- [Tulossa olevat ominaisuudet](#capabilities-coming-soon)  
+- [Hyödynnä kokeilua lisää](#do-more-with-your-trial)  
+- [Anna palautetta](#give-feedback)  
+- [Vianetsintä](#troubleshooting)  
+- [Ongelman ilmoittaminen](#report-a-problem)  
+- [Tukikontaktit](#support-contacts)  
 
 > [!TIP]
 > [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
-## <a name="find-answers"></a>Vastauksien etsiminen
+### <a name="find-answers"></a>Vastauksien etsiminen
 
 **Etsi se** -osassa on linkkejä sijainteihin, joista useimmiten löytää vastauksia kysymyksiin. Linkit voidaan jakaa neljään luokkaan, joita kukin käsitellään seuraavaksi. [!INCLUDE[prod_short](includes/prod_short.md)] -kumppanisi on voinut määrittää osan linkeistä, minkä vuoksi niiden käyttö voi olla hieman erilaista.  
 
-### <a name="product-help"></a>Tuotteen ohje
+#### <a name="product-help"></a>Tuotteen ohje
 
 **Etsi se** -osassa on kaksi linkkiä tuotteen ohjeeseen:
 
@@ -38,36 +64,36 @@ Tällä sivulla käsitellään resursseja, jotka ovat käytössäsi **Ohje ja tu
 
   [!INCLUDE[prod_short](includes/prod_short.md)]in oletusversion toimintoja käsitellään [Docs.microsoft.com](/dynamics365/business-central)-sivustossa. Lisätietoja on kohdassa [Lisätietojen etsiminen docs.microsoft.com-sivustossa](#use-the-docsmicrosoftcom-site-to-learn-more). [!INCLUDE[prod_short](includes/prod_short.md)]ia voi myös laajentaa ja mukauttaa AppSourcen sovelluksilla. Kaikissa sovelluksissa on linkkejä liittyvän tuotteen ohjeeseen, joten löydät aina oman [!INCLUDE[prod_short](includes/prod_short.md)] -versiosi työnkulkuja koskevaa opastusta.  
 
-### <a name="community"></a>Yhteisö
+#### <a name="community"></a>Yhteisö
 
 Voit lähettää [Business Centralin keskustelupalstalle](https://community.dynamics.com/business/f) kysymyksen ja oppia [!INCLUDE[prod_short](includes/prod_short.md)] -yhteisön muilta jäseniltä. Kumppanit ja Microsoftin työntekijät osallistuvat keskusteluihin.  
 
 Jos kumppania ei vielä ole, myös yhteisö voi auttaa sinua pääsemään eteenpäin, jos sinulla on kysymyksiä. Jos olet esimerkiksi juuri rekisteröitynyt kokeiluversioon, yhteisö voi olla hyvä aloituskohta.  
 
-### <a name="blog"></a>Blogi
+#### <a name="blog"></a>Blogi
 
 Uusia ominaisuuksia, kuten mahdollisia huomioon otettavia seikkoja, käsitellään [Dynamics 365 -blogissa](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/).  
 
-### <a name="capabilities-coming-soon"></a>Tulossa olevat ominaisuudet
+#### <a name="capabilities-coming-soon"></a>Tulossa olevat ominaisuudet
 
 [!INCLUDE[prod_short](includes/prod_short.md)] päivitetään suurilla ominaisuuspäivityksellä kuuden kuukauden välein ja kuukausittain julkaistavilla palvelupäivityksillä. Voit tarkastella uusimpia julkaisusuunnitelmia valitsemalla linkin. [Dynamics 365:n julkaisusuunnitelmissa](/dynamics365/release-plans/) on myös yleiskuva tulevista ja äskettäin julkaistuista ominaisuuksista.  
 
 Pidemmän ajan kattavan yleiskuvan saa [!INCLUDE[prod_short](includes/prod_short.md)]in [tulevien toimintojen sivulla](https://dynamics.microsoft.com/roadmap/business-central/), jossa käsitellään tulevien vuosien [!INCLUDE[prod_short](includes/prod_short.md)]in yleiset prioriteetit.  
 
-## <a name="do-more-with-your-trial"></a>Hyödynnä kokeilua lisää
+### <a name="do-more-with-your-trial"></a>Hyödynnä kokeilua lisää
 
 Tässä osassa on Microsoft AppSourcen pikakuvakkeet, ja voit etsiä sieltä [!INCLUDE[prod_short](includes/prod_short.md)] -kumppaneiden ratkaisuja ja palveluja. Voit tutustua linkkien avulla kaikkiin [!INCLUDE[prod_short](includes/prod_short.md)]in ominaisuuksiin, ennen kuin päätät, haluatko ostaa tilauksen. Täällä on myös linkki, jolla voi olla yhteyttä myyntitiimiin.
 
 > [!NOTE]
 > Tämä osa on käytössä vain kokeiluversioissa. Jos olet jo ostanut [!INCLUDE[prod_short](includes/prod_short.md)]in, osa ei enää näy.
 
-## <a name="give-feedback"></a>Anna palautetta
+### <a name="give-feedback"></a>Anna palautetta
 
 Voit tehdä ehdotuksia uusista ominaisuuksista ja toiminnoista [Dynamics 365:n ideasivustossa](https://aka.ms/bcideas). Ehdotuksesi siirtyy suodaan Business Centralin insinöörien käsittelemättömiin töihin tutustumista ja priorisointia varten.  
 
 Varmista, että käyt läpi lähetettyjen ehdotusten luettelon. On todennäköistä, että joku on jo lähettänyt jotakin samankaltaista ja siitä on voitu jo äänestää. Äänestä jo lähetettyä ideaa, jos haluat, että se priorisoidaan insinöörien käsittelemättömissä töissä.  
 
-## <a name="troubleshooting"></a>Vianetsintä
+### <a name="troubleshooting"></a>Vianetsintä
 
 **Vianetsintä**-osassa on teknisiä tietoja, joiden avulla järjestelmänvalvoja tai [!INCLUDE[prod_short](includes/prod_short.md)] -kumppani voi auttaa käyttäjiä selviämään ongelmista. Nämä tiedot sisältävät myös viimeisen virhesanomat tiedot, [!INCLUDE[prod_short](includes/prod_short.md)]in nykyisen version ja linkin **Sivun tarkastus** -sivulle. Lisätietoja on kohdassa [Sivujen tarkastaminen Business Centralissa](across-inspect-page.md).  
 
@@ -80,7 +106,7 @@ Sisäinen järjestelmänvalvoja voi käyttää hallintakeskusta, jossa voit jatk
 - [Telemetrian seuranta ja analysointi](/dynamics365/business-central/dev-itpro/administration/telemetry-overview)  
 - [Ota käyttöön telemetrian lähettäminen Application Insights iin](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights)  
 
-## <a name="report-a-problem"></a>Ongelman ilmoittaminen
+### <a name="report-a-problem"></a>Ongelman ilmoittaminen
 
 [!INCLUDE[prod_short](includes/prod_short.md)] -jälleenmyyntikumppani antaa teknistä tukea. Tämä osa helpottaa yhteyden ottamista jälleenmyyntikumppaniin, jos tämä on antanut tuen yhteystiedot. Jos [!INCLUDE[prod_short](includes/prod_short.md)] -kumppani, ei pysty ratkaisemaan ongelmaan, he voivat tehdä tukipyynnön Microsoftille.  
 
@@ -123,9 +149,12 @@ Sisällysluettelo sisältää sisältöryhmiä, jossa kuvataan niiden maiden [pa
 
 Paikallinen toimintosisältö käsittelee [!INCLUDE [prod_short](includes/prod_short.md)]in toimintoja, joiden avulla voidaan noudattaa tuettujen markkinoiden vaatimuksia esimerkiksi veroilmoitusten ja muiden raporttien osalta. Joissakin tapauksissa käyttäjät eivät havaitse oletusversion ja maakohtaisen version eroa. Muissa tapauksissa käyttäjien on määritettävä raportointi tai sähköinen laskutus tietyllä tavalla. Jos tietyn painikkeen tai toiminnon kuvausta ei löydy yleisestä osasta, se toivottavasti löytyy *Paikalliset toiminnot* -osasta.  
 
+> [!TIP]
+> Hakutulokset näyttävät kohdeartikkelin kontekstia docs.microsoft.com-sivustossa sekä tuotteen sisäisessä hakukentässä ja ohjeruudussa. Konteksti sisältää linkin, joka voi näyttää maan/alueen nimen, tai lyhyen kuvauksen, joka kuvaa tiettyä ominaisuutta tai esimerkiksi maata/aluetta.
+
 ### <a name="finding-other-content"></a>Muun sisällön etsiminen
 
-Jos artikkeli ei vastaa kysymyksiin, muuta sisältöä voi etsiä kahdella tavalla:
+Jos artikkeli ei vastaa kysymyksiin, muuta sisältöä voi etsiä kahdella tavalla docs.microsoft.com-sivustolla:
 
 - Käyttämällä sisällysluettelon **Suodata otsikon mukaan** -kenttää sivuston vasemmassa reunassa.
 
@@ -148,7 +177,7 @@ Kunkin kielen sisällysluettelo on käännetty, mutta *Paikalliset toiminnot* -o
 
 ### <a name="recommended-content"></a>Suositeltu sisältö
 
-Maaliskuussa 2021 docs.microsoft.com-sivuston useimpiin artikkeleihin tuli näkyviin uusi osa. **Suositeltu sisältö** -osa luodaan automaattisesti sen perusteella, miten kutakin artikkelia käytetään muun sivuston yhteydessä. Linkit eivät ole staattisia ja muuttuvat ajan mittaan.
+Maaliskuussa 2021 docs.microsoft.com-sivuston useimpiin artikkeleihin tuli näkyviin uusi osa. **Suositeltu sisältö** -osa luodaan automaattisesti sen perusteella, miten kutakin artikkelia käytetään docs.microsoft.com-sivuston muun sisällön yhteydessä. Linkit eivät ole staattisia ja muuttuvat ajan mittaan.
 
 ### <a name="tell-us-what-you-think"></a>Kerro mielipiteesi
 
@@ -172,6 +201,7 @@ Tämä koskee myös [!INCLUDE [prod_short](includes/prod_short.md)]in paikallist
 ## <a name="see-also"></a>Katso myös
 
 [Business Central -opintoluettelo](readiness/readiness-learning-catalog.md)  
+[Business Centralin pika-aloitus](quick-start-business-central.md)  
 [Miten löydän jälleenmyyjäkumppanin?](/dynamics365/business-central/across-faq#findpartner)  
 [Ohjejärjestelmä (vain englanninkielinen)](/dynamics365/business-central/dev-itpro/user-assistance?toc=/dynamics365/business-central/toc.json)  
 [Blogikirjoitus: Oikeiden resurssien etsiminen ja palautteen antaminen](https://community.dynamics.com/business/b/financials/posts/find-the-right-resources-and-provide-feedback)  

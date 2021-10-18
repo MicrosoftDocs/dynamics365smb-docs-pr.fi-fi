@@ -1,21 +1,21 @@
 ---
 title: Tietojen syöttäminen Business Centralissa
 description: Käytettävissä on monia yleisiä ominaisuuksia, jotka helpottavat, nopeuttavat ja täsmentävät tietojen antamista. Perusperiaatteet ja kehittyneet ominaisuudet on kuvattu tässä.
-author: SorenGP
+author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/23/2021
-ms.author: edupont
-ms.openlocfilehash: 5832f30074c1e1d8215c705c19d75594fc017593
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.search.keywords: decimal separator, data entry, focus
+ms.date: 10/01/2021
+ms.author: jswymer
+ms.openlocfilehash: 1e6dbdd5880902c7b649464ad967f01cc599f37f
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443666"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588955"
 ---
 # <a name="entering-data"></a>Tietojen antaminen
 
@@ -35,7 +35,6 @@ Joidenkin muokattavien kenttien avulla voit määrittää arvon.
 |Avattavat valikot          |Avattavat valikot tarjoavat valikoiman kiinteitä arvoja tai viitetietueita toisesta taulukosta|
 |Kytkin tai valintaruutu|Joissakin kentissä on helppo valita *Kyllä*- tai *Ei*-arvoja. Valitsinta käytetään määrittämään tämä arvo, ja se näkyy aina valintaruutuna luetteloissa|
 |Muokkausapu       |Joissakin kentissä on mukautettuja valitsimia, jotka soveltuvat kyseisen kentän parhaan arvon etsimiseen ja valitsemiseen, esimerkiksi ponnahdusikkunaan|
-
 
 ### <a name="modifying-a-field-value"></a>Kentän arvon muokkaaminen
 
@@ -58,7 +57,6 @@ Kun kohdistin näkyy kentän arvon lopussa:
 
 > [!NOTE]
 > Kun olet määrittänyt arvon, Business Central tarkistaa vain, että se on kelvollinen sen jälkeen, kun olet napsauttanut kentän ulkopuolella tai asettanut kohdistuksen toiseen elementtiin, kuten seuraavaan kenttään.  
-
 
 ## <a name="keyboard-shortcuts"></a>Pikanäppäimet
 
@@ -267,9 +265,16 @@ Seuraavassa on muutamia esimerkkejä:
 
  Numero 5 muunnetaan 5 tunniksi, jos mittayksikkö on tunti.  
 
-## <a name="see-also"></a>Katso myös  
- [Luetteloiden lajitteleminen ja suodattaminen sekä luetteloista hakeminen](ui-enter-criteria-filters.md)  
- [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+## <a name="setting-the-decimal-separator-used-by-numeric-keyboards"></a><a name="decimal"></a>Numeeristen näppäimistöjen käyttämän desimaalierottimen asettaminen
+
+Kun syötät tietoja numeronäppäimistön desimaalierottimen avulla, kenttään syötetty todellinen desimaali erotin määräytyy Business Centralin alueasetuksen mukaan. Määritä alue Business Centralin **Omat asetukset** -sivulla.
+
+Oletetaan esimerkiksi, että käytät numeronäppäimistöä, joka käyttää pistettä (.) desimaalierottimen näppäimenä. Mutta olet syöttämässä tietoja alueelliselle kielelle, joka käyttää pilkkua (**,**) desimaalierottimena, kuten tanskan (Tanska) tai ranskan (Ranska) kielessä. Haluat siis desimaalit kuten "1.23" syötettävän muodossa "1,23". Tässä tapauksessa voit siirtyä **Omat asetukset** -sivulle ja määrittää **alueen** kohdealuekieleksi, kuten **tanska (Tanska)** tai **ranska (Ranska)**. Lisätietoja on kohdassa [Perusasetusten muuttaminen](ui-change-basic-settings.md#region).
+
+## <a name="see-also"></a>Katso myös
+
+[Luetteloiden lajitteleminen ja suodattaminen sekä luetteloista hakeminen](ui-enter-criteria-filters.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

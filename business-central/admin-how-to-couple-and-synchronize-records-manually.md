@@ -1,8 +1,6 @@
 ---
-title: Yhdistäminen ja synkronointi | Microsoft Docs
+title: Yhdistäminen ja synkronointi
 description: Kun integrointitaulukon yhdistämismääritys synkronoidaan, yhdistettyjen Business Central- ja Dynamics 365 Sales -taulukoiden kaikkien tietueiden tiedot voidaan synkronoida.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: crm, sales, couple, decouple, synchronize
-ms.date: 04/01/2021
+ms.date: 10/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 53b12b6ab7e53a20bb1b8fcc659b2f1454e85321
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8e2b36b4b90e1cc348ef381a6d0f6145a87ed043
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779930"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588724"
 ---
-# <a name="coupling-and-synchronizing"></a>Yhdistäminen ja synkronointi
+# <a name="coupling-and-synchronizing-records-between-dataverse-and-business-central"></a>Tietueiden yhdistäminen ja synkronoiminen Dataversen ja Business Centralin välillä
+
 Tässä ohjeaiheessa kerrotaan, miten yksi tietue tai useita tietueita yhdistetään [!INCLUDE[prod_short](includes/prod_short.md)]:ssä Dataverse- tai [!INCLUDE[crm_md](includes/crm_md.md)]-tietueisiin. Tietueiden yhdistämisen ansiosta voit tarkastella Dataversein tietoja [!INCLUDE[prod_short](includes/prod_short.md)]ista ja päin vastoin. Yhdistäminen mahdollistaa myös tietojen synkronoinnin tietueiden välillä. Voit yhdistää aiemmin luotuja tietueita tai luoda ja yhdistää uusia tietueita.
 
 > [!Note]
@@ -48,6 +47,14 @@ Tässä ohjeaiheessa kerrotaan, miten yksi tietue tai useita tietueita yhdistet�
 
 > [!Note]
 > Voit synkronoida yhden tietueen [!INCLUDE[crm_md](includes/crm_md.md)]-sovelluksesta automaattisesti vain, kun **Synkronoi vain yhdistetyt tietueet** on poistettu käytöstä ja synkronoinnin suunnaksi on määritetty Kaksisuuntainen tai Integrointitaulukosta tietueen **Integrointitaulukon yhdistämismääritys** -sivulla. Lisätietoja on kohdassa [Taulukoiden ja kenttien yhdistäminen synkronointia varten](admin-how-to-modify-table-mappings-for-synchronization.md#creating-new-records).     
+
+## <a name="to-couple-multiple-records-using-match-based-coupling"></a>Voit yhdistää monta tietuetta vastaavuuspohjaisen yhdistämisen avulla.
+
+Voit määrittää entiteetin (esimerkiksi asiakkaan tai kontaktin) synkronoitavat tiedot yhdistämällä tietueet vastaavuuksien perusteella. Voit tarkentaa vastaavuuksia määrittämällä haun kirjainkoon merkitseväksi ja määrittämällä kullekin vastaavuudelle prioriteetin. Jos vastaavuutta ei löydy, voit myös määrittää, että haluat luoda entiteetin Dataversessa. Lisätietoja on kohdassa [Vastaavuuspohjaisen yhdistämisen mukauttaminen](admin-how-to-set-up-a-dynamics-crm-connection.md#customize-the-match-based-coupling).  
+
+1. Avaa [!INCLUDE[prod_short](includes/prod_short.md)]issa tietueen luettelosivu, kuten asiakkaiden tai yhteyshenkilöiden luettelosivu.
+2. Valitse **Vastaavuuspohjainen yhdistäminen** -toiminto.
+3. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-synchronize-multiple-records"></a>Useiden tietueiden synkronointi  
 1.  Avaa [!INCLUDE[prod_short](includes/prod_short.md)]issa tietueen luettelosivu, kuten asiakkaiden tai yhteyshenkilöiden luettelosivu.  

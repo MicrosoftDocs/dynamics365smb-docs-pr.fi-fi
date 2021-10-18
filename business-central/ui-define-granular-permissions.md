@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 3a3025e94fa05d3e0c0bf49e9afd1f13a55a60fb
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d048350c9963ae889b5320b3c78b87336197a7a9
+ms.sourcegitcommit: 81a35248e6f1e8773339281b6f5c0ebd4942e05a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443715"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547021"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Määritä käyttöoikeudet käyttäjille ja ryhmille
 
@@ -158,6 +158,9 @@ Voit valita kaikissa viidessä käyttöoikeustyyppien kentässä (**luku-**, **l
 |**Kyllä**|Käyttäjä voi suorittaa kyseiselle objektille toiminnon.|Suurin|
 |**Epäsuora**|Käyttäjä voi suorittaa kyseiselle objektille toiminnon, mutta vain toisen sellaisen liittyvän objektin kautta, jonka täydet käyttöoikeudet käyttäjällä on. Lisätietoja epäsuorista käyttöoikeuksista on kehitys- ja IT-ammattilaisten ohjeessa [Käyttöoikeudet-ominaisuus](/dynamics365/business-central/dev-itpro/developer/properties/devenv-permissions-property)|Toiseksi korkein|
 |**Tyhjä**|Käyttäjä ei voi suorittaa kyseiselle objektille toimintoa.|Pienin|
+
+> [!IMPORTANT]
+> Käytä harkintaa, kun määrität **Lisäysoikeus**- tai **Muokkausoikeus**-oikeuksia **9001-käyttäjäryhmän jäsenelle** tai **9003-käyttäjäryhmän käyttöoikeusjoukolle**. Kaikki käyttöoikeus joukkoon liitetyt käyttäjät voivat mahdollisesti määrittää itsensä muihin käyttäjäryhmiin, mikä puolestaan voi antaa heille tahattomia käyttöoikeuksia.
 
 ### <a name="example---indirect-permission"></a>Esimerkki - epäsuora käyttöoikeus
 

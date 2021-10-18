@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: contacts, profiles
 ms.author: edupont
 ms.date: 06/22/2021
-ms.openlocfilehash: b71c63b8a02b2ddbf6f6135f30cba297dfcf418b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 6ce13672651a5b6b65712928b764ad11b3db514d
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445524"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588524"
 ---
 # <a name="use-profile-questionnaires-to-classify-business-contacts"></a>Liiketoimintakontaktien luokittelu profiilikyselyiden avulla
 Voit määrittää kyselyprofiileja niille kyselyille, joita haluat käyttää, kun syötät tietoja kontaktiesi profiileista. Jokaisessa kyselyssä voit määrittää eri kysymykset, jotka aiot esittää kontakteillesi.  
@@ -49,114 +49,35 @@ Voit saada ohjelman luokittelemaan kontaktisi automaattisesti asiakkaan, toimitt
 Kun olet määrittänyt automaattisesti vastattuja profiilikysymyksiä, jos liität niistä koostuvan profiilikyselyn kontaktiin, [!INCLUDE[prod_short](includes/prod_short.md)] liittää kontaktiin automaattisesti oikeat vastaukset.  
 
 ## <a name="example"></a>Esimerkki
+
 Voit luokitella kontaktisi sen mukaan, kuinka paljon he ostivat sinulta:
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Vastaus</strong></th>
-<th><strong>Pätee seuraaviin</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>A</p></td>
-<td><p>kontaktit, jotka ovat ostaneet vähintään 500 000 PVA</p></td>
-</tr>
-<tr class="even">
-<td><p>B</p></td>
-<td><p>kontaktit, jotka ovat ostaneet 100 000 - 499 999 PVA</p></td>
-</tr>
-<tr class="odd">
-<td><p>S</p></td>
-<td><p>kontaktit, jotka ovat ostaneet enintään 99 999 PVA</p></td>
-</tr>
-</tbody>
-</table>
+|Vastaus|Pätee seuraaviin|
+|--- |--- |
+|A|kontaktit, jotka ovat ostaneet vähintään 500 000 PVA|
+|B|kontaktit, jotka ovat ostaneet 100 000 - 499 999 PVA|
+|S|kontaktit, jotka ovat ostaneet enintään 99 999 PVA|
 
 Jotta voisit tehdä tämän, täytä **Profiilikyselyjen asetukset** -sivu seuraavalla tavalla:
 
-
-<table>
-<colgroup>
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Tyyppi</strong></th>
-<th><strong>Kuvaus</strong></th>
-<th><strong>Automaattinen luokittelu</strong></th>
-<th><strong>Arvosta</strong></th>
-<th><strong>Arvoon</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>Kysymys</p></td>
-<td><p>ABC-luokittelu</p></td>
-<td><p>Lisää rasti napsauttamalla</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-</tr>
-<tr class="even">
-<td><p>Vastaus</p></td>
-<td><p>L</p></td>
-<td><p> </p></td>
-<td><p>500,000</p></td>
-<td><p> </p></td>
-</tr>
-<tr class="odd">
-<td><p>Vastaus</p></td>
-<td><p>B</p></td>
-<td><p> </p></td>
-<td><p>100,000</p></td>
-<td><p>499,999</p></td>
-</tr>
-<tr class="even">
-<td><p>Vastaus</p></td>
-<td><p>S</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p>99 999</p></td>
-</tr>
-</tbody>
-</table>
+| Tyyppi     | Kuvaus        | Automaattinen luokittelu     | Arvosta | Arvoon |
+|----------|--------------------|------------------------------|------------|----------|
+| Kysymys | ABC-luokittelu | Lisää rasti napsauttamalla |            |          |
+| Vastaus   | L                  |                              | 500,000    |          |
+| Vastaus   | B                  |                              | 100,000    | 499,999  |
+| Vastaus   | S                  |                              |            | 99 999   |
 
 Täytä sitten **Profiilikyselyn yksityiskohdat** -sivu seuraavalla tavalla:
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Kenttä</strong></th>
-<th><strong>Arvo</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Asiakkaan luokituskenttä</strong></td>
-<td><emphasis>Myynti (PVA)</emphasis></td>
-</tr>
-<tr>
-<td><strong>Luokittelutapa</strong></td>
-<td><emphasis>Määritetty arvo</emphasis></td>
-</tr>
-</tbody>
-</table>
+
+| Kenttä                         | Arvo         |
+|-------------------------------|---------------|
+| Asiakkaan luokituskenttä | Myynti (PVA)   |
+| Luokittelutapa         | Määritetty arvo |
 
 Kun määrität sen profiilikyselyn, jossa tämä kysymys on, kontaktiin, sovellus lisää automaattisesti asianomaisen vastauksen tälle kontaktille kontaktikortin profiiliriveille.
 
 ## <a name="see-also"></a>Katso myös
+
 [Kontaktien luominen](marketing-create-contact-companies.md)  
 
 

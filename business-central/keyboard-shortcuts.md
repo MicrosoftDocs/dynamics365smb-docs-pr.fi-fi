@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6ec88aa72ba5498a72ffe8c7ae30983657677005
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: cf59fb5169419698e3593e1326a38898543b2ac9
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438925"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588249"
 ---
 # <a name="keyboard-shortcuts"></a>Pikanäppäimet
 
@@ -89,22 +89,22 @@ Seuraavassa taulukossa kuvataan luettelosivulla käytettävät pikanäppäimet. 
 
 Rivejä ja sarakkeita sisältäviä ruudukoita on useilla sivutyypeillä sovelluksessa [!INCLUDE[prod_short](includes/prod_short.md)]. Sivuja ovat esimerkiksi luettelosivut ja asiakirjojen **Rivit**-osat. Siirtyminen yhdestä solusta toiseen ruudukossa voidaan tehdä täysin näppäimistön avulla.
 
-|Paina näitä näppäimiä<br />(macOS)|Luettelonäkymän toiminnot |Ruutunäkymän toiminnot |
-|--------------------------------|--------------------------|--------------------------|
-|Ctrl+Home<br />(Fn+vasen nuoli)|Valitse luettelon ensimmäinen rivi; kohdistuu pysyy samassa sarakkeessa.|Siirry ensimmäisen rivin ensimmäiseen ruutuun. |
-|Ctrl+End<br />(Fn+Ctrl+oikea nuoli)|Valitse luettelon viimeinen rivi; kohdistuu pysyy samassa sarakkeessa.|Siirry viimeisen rivin viimeiseen ruutuun.|
-|Kotitalous<br />(Fn+vasen nuoli)|Siirry rivin ensimmäiseen kenttään.|Siirry rivin ensimmäiseen ruutuun.|
-|End<br />(Fn+oikea nuoli)|Siirry rivin viimeiseen kenttään.|Siirry rivin viimeiseen ruutuun.|
-|Syötä|Avaa tähän kenttään liittyvä tietue.<br /><br />Käytetään vain, jos korttisivu on liitetty tietueeseen.|Avaa tietueen.<br /><br />Käytetään vain, jos korttisivu on liitetty tietueeseen.|
-|Ctrl+Enter|Siirrä kohdistus seuraavaan luettelon ulkopuolella olevaan elementtiin.|Siirrä kohdistus seuraavaan luettelon ulkopuolella olevaan elementtiin.|
-|Sivu ylös<br />(Fn+ylänuoli)|Vieritä näkymän nykyisten rivien yläpuolella olevat rivit näkyviin. |Vierittää näkymän nykyisten ruutujen yläpuolella olevat ruutujoukot näkyviin. |
-|Sivu alas<br />(Fn+alanuoli)|Vieritä näkymän nykyisten rivien alapuolella olevat rivit näkyviin.|Vieritä näkymän nykyisten ruutujen alapuolella olevat ruutujoukot näkyviin.|
-|Nuoli alas|Siirry saman sarakkeen alemman rivin kenttään. |Siirry saman sarakkeen alemman rivin ruutuun. |
-|Ylänuoli|Siirry saman sarakkeen ylemmän rivin kenttään.| Siirry saman sarakkeen ylemmän rivin ruutuun.  |
-|Oikea nuoli|Siirry vain luku -luettelossa saman rivin seuraavaan oikealla olevaan kenttään.<br /><br />Siirry muokattavassa luettelossa oikealle nykyisestä kentästä.| Siirry saman rivin seuraavaan oikealla olevaan ruutuun. |
-|Vasen nuoli|Siirry vain luku -luettelossa saman rivin edelliseen vasemmalla olevaan kenttään. <br /><br />Siirry muokattavassa luettelossa vasemmalle nykyisestä kentästä.| Siirry saman rivin edelliseen vasemmalla olevaan ruutuun. |
-|Sarkain|Siirry muokattavassa luettelossa saman rivin seuraavaan oikealla olevaan kenttään.|Ei sovellu.||
-|Vaihto+Sarkain|Siirry muokattavassa luettelossa saman rivin edelliseen vasemmalla olevaan kenttään. | Ei sovellu. |
+| Paina näitä näppäimiä<br />(macOS) | Luettelonäkymän toiminnot | Ruutunäkymän toiminnot |
+|--|--|--|
+| Ctrl+Home<br />(Fn+vasen nuoli) | Valitse luettelon ensimmäinen rivi; kohdistuu pysyy samassa sarakkeessa. | Siirry ensimmäisen rivin ensimmäiseen ruutuun. |
+| Ctrl+End<br />(Fn+Ctrl+oikea nuoli) | Valitse luettelon viimeinen rivi; kohdistuu pysyy samassa sarakkeessa. | Siirry viimeisen rivin viimeiseen ruutuun. |
+| Kotitalous<br />(Fn+vasen nuoli) | Siirry rivin ensimmäiseen kenttään. | Siirry rivin ensimmäiseen ruutuun. |
+| End<br />(Fn+oikea nuoli) | Siirry rivin viimeiseen kenttään. | Siirry rivin viimeiseen ruutuun. |
+| Syötä | Avaa tähän kenttään liittyvä tietue.<br /><br />Käytetään vain, jos korttisivu on liitetty tietueeseen. | Avaa tietueen.<br /><br />Käytetään vain, jos korttisivu on liitetty tietueeseen. |
+| Ctrl+Enter | Siirrä kohdistus seuraavaan luettelon ulkopuolella olevaan elementtiin. | Siirrä kohdistus seuraavaan luettelon ulkopuolella olevaan elementtiin. |
+| Sivu ylös<br />(Fn+ylänuoli) | Vieritä näkymän nykyisten rivien yläpuolella olevat rivit näkyviin. | Vierittää näkymän nykyisten ruutujen yläpuolella olevat ruutujoukot näkyviin. |
+| Sivu alas<br />(Fn+alanuoli) | Vieritä näkymän nykyisten rivien alapuolella olevat rivit näkyviin. | Vieritä näkymän nykyisten ruutujen alapuolella olevat ruutujoukot näkyviin. |
+| Nuoli alas | Siirry saman sarakkeen alemman rivin kenttään. | Siirry saman sarakkeen alemman rivin ruutuun. |
+| Ylänuoli | Siirry saman sarakkeen ylemmän rivin kenttään. | Siirry saman sarakkeen ylemmän rivin ruutuun. |
+| Oikea nuoli | Siirry vain luku -luettelossa saman rivin seuraavaan oikealla olevaan kenttään.<br /><br />Siirry muokattavassa luettelossa oikealle nykyisestä kentästä. | Siirry saman rivin seuraavaan oikealla olevaan ruutuun. |
+| Vasen nuoli | Siirry vain luku -luettelossa saman rivin edelliseen vasemmalla olevaan kenttään. <br /><br />Siirry muokattavassa luettelossa vasemmalle nykyisestä kentästä. | Siirry saman rivin edelliseen vasemmalla olevaan ruutuun. |
+| Sarkain | Siirry muokattavassa luettelossa saman rivin seuraavaan oikealla olevaan kenttään. | Ei sovellu. |  |
+| Vaihto+Sarkain | Siirry muokattavassa luettelossa saman rivin edelliseen vasemmalla olevaan kenttään. | Ei sovellu. |
 
 ### <a name="selecting-copying-and-pasting"></a><a name="CopyRows"></a>Valitseminen, kopioiminen ja liittäminen
 

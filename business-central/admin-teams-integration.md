@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: ad1fd27bf6687993fed82ab418d621520e3439a1
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 7fef0f2ffe23155e840fa89a62b1822fee1efd35
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443204"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589080"
 ---
 # <a name="managing-microsoft-teams-integration-with-prod_short"></a>Microsoft Teamsin ja [!INCLUDE [prod_short](includes/prod_short.md)]in integroinnin hallinta
 
@@ -37,8 +37,10 @@ Tässä osassa kuvataan vähimmäisvaatimukset, jotka koskevat [!INCLUDE [prod_s
     |----|---|---|
     |Hae [!INCLUDE [prod_short](includes/prod_short.md)] yhteyshenkilöitä.|![valintamerkki.](media/check.png "tarkistus")|![valintamerkki](media/check.png "tarkistus")|
     |Liitä linkki [!INCLUDE [prod_short](includes/prod_short.md)] -tietueeseen keskusteluun ja lähetä se korttina.|![valintamerkki](media/check.png "tarkistus")|![valintamerkki](media/check.png "tarkistus")|
+    |Jaa linkki [!INCLUDE [prod_short](includes/prod_short.md)] -sivulta Teams-keskusteluun.|![valintamerkki](media/check.png "tarkistus")|![valintamerkki](media/check.png "tarkistus")|
     |Näytä [!INCLUDE [prod_short](includes/prod_short.md)] -tietueen kortti keskustelussa.|![valintamerkki](media/check.png "tarkistus")||
     |Näytä lisätietoja [!INCLUDE [prod_short](includes/prod_short.md)] -tietueen kortista keskustelussa.|![valintamerkki](media/check.png "tarkistus")|![valintamerkki](media/check.png "tarkistus")|
+    |Avaa sivulinkki [!INCLUDE [prod_short](includes/prod_short.md)]iin keskustelusta.|![valintamerkki](media/check.png "tarkistus")|![valintamerkki](media/check.png "tarkistus")|
 
 - Salli URL-esikatselut
 
@@ -68,7 +70,7 @@ Lisätietoja on seuraavissa Microsoft Teams -asiakirjojen artikkeleissa:
 - <a name="permissions"></a>Käyttöoikeudet:
 
     Suurin osa niistä yhteyshenkilöhauista, sivuista ja tiedoista, joita käyttäjät voivat tarkastella ja muokata Teams-keskusteluissa, määräytyy niiden käyttöoikeuksien mukaan [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmassa.
-    
+
     - Käyttäjät voivat hakea yhteyshenkilöitä, jos heillä on ainakin **Yhteyshenkilöt**-taulukon lukuoikeus. 
     - Jos haluat liittää [!INCLUDE [prod_short](includes/prod_short.md)] -linkin Teams-keskusteluun ja lisätä sen korttiin, käyttäjillä on oltava vähintään lukuoikeus sivulle ja sen tietoihin.
     - Kun kortti on lähetetty keskusteluun, kuka tahansa kyseisessä keskustelussa oleva käyttäjä voi tarkastella korttia ilman [!INCLUDE [prod_short](includes/prod_short.md)]in käyttöoikeutta.
@@ -77,11 +79,35 @@ Lisätietoja on seuraavissa Microsoft Teams -asiakirjojen artikkeleissa:
     
     Tietoja käyttöoikeuksista on kohdassa [Määritä käyttöoikeudet käyttäjille ja ryhmille](ui-define-granular-permissions.md).
 
+## <a name="installing-the-business-central-app-by-using-centralized-deployment"></a>Business Central -sovelluksen asentaminen keskitetyn käyttöönoton avulla
+
+Microsoft Teams -hallintakeskus on paikka, jossa määritetään Teams-sovelluksen asetuskäytännöt organisaatiota varten. Teams-hallintakeskuksessa voit käyttää keskitetyn käyttöönoton ominaisuutta, kun haluat asentaa Business Central -sovelluksen automaattisesti Teamsiin kaikille organisaation käyttäjille, tietyille ryhmille tai yksittäisille käyttäjille.
+
+> [!NOTE]
+> Jotta voisit määrittää keskitetyn käyttöönoton, Teams-tililläsi täytyy olla **Teams-palvelun järjestelmänvalvoja** -rooli tai **Yleinen järjestelmänvalvoja** -rooli.
+
+1. Valitse Business Centralissa ![Suurennuslasi, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita **Teams-sovelluksen keskitetty käyttöönotto** ja valitse sitten liittyvä linkki. Voit myös avata sivun suoraan valitsemalla [tämän](https://businesscentral.dynamics.com/?page=1833).
+2. Lue tietoja **Teamsin Business Central-sovelluksen määrittämisestä** ja valitse sitten **Seuraava**, kun olet valmis.
+3. Avaa [Teamsin hallintakeskus ](https://go.microsoft.com/fwlink/?linkid=2163970) ja tee seuraavat toimet.
+    1. Siirry kohtaan **Teams-sovellukset** > **Asennuskäytännöt**.
+    2. Luo uusi käytäntö tai valitse käytäntö, jota haluat käyttää Business Central -sovelluksen asentamiseen, ja valitse sitten **Lisää sovelluksia**.
+    3. Etsi ja valitse **Lisää asennetut sovellukset** -sivulla **Business Central**.
+    4. Valitse **Lisää**.
+
+       Business Centralin pitäisi nyt näkyä käytännön **Asennetut sovellukset** -kohdassa.
+    5. Määritä mahdolliset muut asetukset ja valitse **Tallenna**.
+
+    Lisä tietoja Teamsin asennuskäytännöistä on Teams-dokumentaation ohjeaiheessa [Sovelluksen asennuskäytäntöjen hallinta Microsoft Teamsissa](/MicrosoftTeams/teams-app-setup-policies).
+4. Siirry takaisin **Teams-sovellusten keskitetty käyttöönotto** -kohtaanBusiness Centralissa ja valitse **Valmis**.
+
+> [!IMPORTANT]
+> Sovelluksen asennuskäytännön päivitys ja sovelluksen käyttöönotto käyttäjille voi kestää jopa 24 tuntia.
+
 ## <a name="managing-privacy-and-compliance"></a>Tietosuojan ja vaatimustenmukaisuuden hallinta 
 
 Microsoft Teams sisältää laajoja hallintatoimintoja, jotka koskevat arkaluontoisten tai henkilökohtaisten tunnistetietojen säännöstenmukaisuutta ja hallintaa – koskien myös [!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksen chatteihin ja kanaviin lisättyjä tietoja.
 
-### <a name="understanding-where-prod_short-cards-are-stored"></a>[!INCLUDE [prod_short](includes/prod_short.md)] -korttien tallennussijainnin ymmärtäminen 
+### <a name="understanding-where-prod_short-cards-are-stored"></a>[!INCLUDE [prod_short](includes/prod_short.md)] -korttien tallennussijainnin ymmärtäminen
 
 Kun kortti on lähetetty chattiin, kortti ja kortissa näkyvät kentät kopioidaan Teamsiin. Nämä tiedot ovat organisaation Teams-käytäntöjen, esimerkiksi tietojensäilytyskäytäntöjen, alaisia. Kun näytetään kortin tiedot, mitään Tiedot-ikkunan tietoja ei tallenneta Teamsiin. Tiedot säilyvät tallennettuna [!INCLUDE [prod_short](includes/prod_short.md)]iin ja Teams vain noutaa ne, kun käyttäjä päättää tarkastella tietoja. 
 

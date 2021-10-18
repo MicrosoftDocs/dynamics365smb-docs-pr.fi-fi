@@ -10,19 +10,20 @@ ms.workload: na
 ms.search.keywords: feature overview
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c24e6142780fa5935576320a0d5edf683caf0a9f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8b60f8df6d40ceaf6c2c62397cb4d21f848d9aee
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776270"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588349"
 ---
 # <a name="business-functionality"></a>Liiketoiminnan toiminnallisuus
+
 [!INCLUDE[prod_short](includes/prod_short.md)]issa on lähinnä tukkukauppa- ja palvelualalla toimivien PK-yritysten tavallisissa liiketoimintaprosesseissa tarvitsemat toiminnot. Tämän lisäksi tuetaan myös monimutkaisia prosesseja, kuten kokoonpanoa, tuotantoa, huoltoa ja ohjattua varastoinninhallintaa.
 
-[!INCLUDE[prod_short](includes/prod_short.md)] sisältää vakiomääritykset useimmille liiketoimintaprosesseille. Voit muuttaa määritykset omaa liiketoimintaasi vastaavaksi. Roolisivulla on avustettuja asennusoppaita, joiden avulla voit määrittää tiettyjä skenaarioita sekä lisätä ominaisuuksia [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmaan. Useat liiketoiminnan toiminnallisuusalueet on määritettävä manuaalisesti. Lisätietoja on ohjeaiheessa [[!INCLUDE[prod_short](includes/prod_short.md)]in määrittäminen](setup.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] sisältää vakiomääritykset useimmille liiketoimintaprosesseille. Voit muuttaa määritykset omaa liiketoimintaasi vastaavaksi. Roolisivulla on avustettuja asennusoppaita, joiden avulla voit määrittää tiettyjä skenaarioita sekä lisätä ominaisuuksia [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmaan. Useat liiketoiminnan toiminnallisuusalueet on määritettävä manuaalisesti. [Business Centralin pika-aloituksen](quick-start-business-central.md) artikkelien avulla voit ottaa ensimmäiset askelet [!INCLUDE [prod_short](includes/prod_short.md)]in käyttöönotossa. Lisätietoja on ohjeaiheessa [[!INCLUDE[prod_short](includes/prod_short.md)]in määrittäminen](setup.md).
 
-| Vastaanottaja | Katso |
+| Tehtävä | Katso |
 | --- | --- |
 |Maksujen suorittaminen ja kerääminen, kassavirran hallinta, tuottojen siirtäminen, vuoden lopun sulkemisen valmistelut ja käyttöomaisuuden hallinta.|[Rahoitus](finance.md)|
 |Tietojen hankkiminen liiketoiminnan suorituskyvystä budjettien, raportointimallien ja analyysinäkymien avulla.|[Business Intelligence](bi.md)|

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, partial deliveries, customer sales order
-ms.date: 08/17/2021
+ms.date: 09/24/2021
 ms.author: edupont
-ms.openlocfilehash: 2ecf6884e37467504bc2f4573ef60c870993b799
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: 7156684c2b12af7e5b3e8b51791a702566824009
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440414"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588499"
 ---
 # <a name="sell-products-with-a-customer-sales-order"></a>Tuotteiden myyminen asiakkaan myyntitilauksen avulla  
 
@@ -67,8 +67,8 @@ Voit luoda jopa suoraan maksettavia tilauksia rekisteröimättömille asiakkaill
 8. Syötä **Rivialennus-%**-kenttään prosentti, jos haluat myöntää asiakkaalle alennuksen tuotteesta. Sama arvo päivitetään **Rivisumma**-kenttään.
 
     Jos olet määrittänyt asiakkaan tai nimikkeen kortin **Myyntihinnat ja myyntirivien alennukset**-pikavälilehdellä erityisiä nimikehintoja, rivialennusprosentti, hinta ja summa päivitetään automaattisesti tarjousrivillä, jos sovitut hinnan ehdot täyttyvät. Lisätietoja on kohdassa [Myyntihinnan, alennuksen ja maksusopimusten tallentaminen](sales-how-record-sales-price-discount-payment-agreements.md).
-9. Voit lisätä tarjousriviä koskevan huomautuksen, jonka asiakas näkee tulostetussa myyntitarjouksessa, kirjoittamalla kommentin **Kuvaus**-kentän tyhjälle riville.  
-10. Toista vaiheet 4–8 jokaiselle nimikkeelle, jonka haluat myydä asiakkaalle.
+9. Voit lisätä tilausriviä koskevan huomautuksen, jonka asiakas näkee tulostetussa myyntitilauksessa, kirjoittamalla kommentin **Kuvaus**-kentän tyhjälle riville.  
+10. Toista vaiheet 5–9 jokaiselle nimikkeelle, jonka haluat myydä asiakkaalle.
 
     Rivien alla olevat summakentät päivitetään automaattisesti aina, kun luot tai muokkaat rivejä ja näytät summat, jotka kirjataan päiväkirjoihin.
 

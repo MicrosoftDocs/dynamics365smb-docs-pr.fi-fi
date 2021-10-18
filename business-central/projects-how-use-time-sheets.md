@@ -1,5 +1,5 @@
 ---
-title: Projektien aikaraporttien käyttäminen
+title: Aikaraporttien käyttäminen projekteissa
 description: Tässä ohjeaiheessa kerrotaan, miten projektin aikaraportti luodaan, suunnittelurivit kopioidaan siihen, työtyypit määritetään, aikaraportti täytetään ja lähetetään hyväksyttäväksi.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,14 +10,14 @@ ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource, time sheets
 ms.date: 08/24/2021
 ms.author: edupont
-ms.openlocfilehash: 02d9536b27290ef27e5954ad6ea9004094e5cfe2
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: 3e29d1b745c27f7d6e5f0e8d9e444d70b2218b10
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440639"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588830"
 ---
-# <a name="use-time-sheets-for-jobs"></a>Aikaraporttien käyttäminen projekteissa
+# <a name="use-time-sheets-for-projects"></a>Aikaraporttien käyttäminen projekteissa
 
 Käytä **Luo aikaraportit** -eräajoa, kun määrität aikaraportit tietylle määrälle ajanjaksoja tai viikkoja. Sinulla on oltava oikeudet luoda aikaraportteja.
 
@@ -25,9 +25,12 @@ Voit kopioida projektin suunnittelurivit aikaraportista ja käyttää niitä. N�
 
 Kun olet hyväksynyt projektin aikaraportin tapahtumia, voit julkaista ne asianmukaiseen projekti- tai resurssipäiväkirjaan.
 
-Ennen kuin käytät aikaraportteja, sinun on määritettävä aikaraporttien yleistiedot, järjestelmänvalvoja ja vähintään yksi hyväksyjä. Lisätietoja on kohdassa [Aikaraporttien määrittäminen](projects-how-setup-time-sheets.md).
+Ennen kuin käytät aikaraportteja, sinun on määritettävä aikaraporttien yleistiedot, järjestelmänvalvoja ja vähintään yksi hyväksyjä. Lisätietoja on kohdassa [Aikaraporttien määrittäminen](projects-how-setup-time-sheets.md).  
 
-## <a name="to-create-a-time-sheet"></a>Aikaraportin luominen
+> [!TIP]
+> Vuoden 2021 2. julkaisuaallosta eteenpäin voit hallita määritettyjä työaikataulukoita mobiililaitteessa. Järjestelmänvalvoja voi kuitenkin joutua ottamaan **Ominaisuuden päivitys: Uusi tuntiraporttikokemus** -ominaisuuden käyttöön [Ominaisuuksien hallinta](https://businesscentral.dynamics.com/?page=2610) -sivulla, jotta voit käyttää tätä ominaisuutta. Lisätietoja on kohdassa [Aikaraporttien määrittäminen](projects-how-setup-time-sheets.md).
+
+## <a name="to-create-time-sheets"></a>Luo aikaraportit
 
 Käytä **Luo aikaraportit** -eräajoa, kun määrität aikaraportit tietylle määrälle ajanjaksoja tai viikkoja. Tämän jälkeen aikaraportin omistaja voi avata sen ja kirjata ajan, joka tehtävään on kulunut.
 

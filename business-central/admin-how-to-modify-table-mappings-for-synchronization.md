@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 185d0a1c55830f6e4ed979154744076d457b5724
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 44729a82d50a925d9ad904f8035dd49daee24262
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446388"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588699"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>Synkronoitavien taulujen ja kenttien yhdistäminen
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -49,6 +49,8 @@ Yhdistämistaulut ovat vasta ensimmäinen vaihe. Sinun täytyy myös yhdistää 
 
 > [!Note]
 > Jos käytössä on paikallinen versio [!INCLUDE[prod_short](includes/prod_short.md)]sta, integrointikenttien yhdistämismääritykset on määritelty taulun 5336 integrointikenttien yhdistämismäärityksessä.
+
+Voit yhdistää kentät manuaalisesti tai voit automatisoida prosessin yhdistämällä useita kenttiä samaan aikaan niiden arvojen vastaavuuskriteerien perusteella. Lisätietoja on kohdassa [Usean tietueen yhdistäminen kentän arvon täsmäytyksen perusteella](admin-how-to-couple-and-synchronize-records-manually.md).
 
 ### <a name="handling-differences-in-field-values"></a>Kenttien arvojen erojen käsitteleminen
 Joskus kenttien arvot, jotka haluat yhdistää, ovat erilaisia. Esimerkiksi [!INCLUDE[crm_md](includes/crm_md.md)] -sovelluksessa Yhdysvaltojen kielikoodi on U.S., mutta [!INCLUDE[prod_short](includes/prod_short.md)]:ssä se on US. Tämä tarkoittaa, että arvo on muunnettava, kun tietoja synkronoidaan. Tämä tapahtuu muutossäännöillä, jotka määrität kentille. Muunnossäännöt määritetään **Integrointitaulukon yhdistämismääritykset** -sivulla valitsemalla **Yhdistämismääritys** ja sitten **Kentät**. Ennalta määritetyt säännöt ovat käytettävissä, mutta voit myös luoda omia sääntöjä. Lisätietoja on kohdassa [Muunnossäännöt](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).

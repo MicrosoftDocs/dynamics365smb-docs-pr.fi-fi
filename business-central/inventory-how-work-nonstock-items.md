@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: non-inventoriable
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3f4047e6d1a8a7533933fd8faefe9a43f22f23e6
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 328417821e8e5cc14bc8267e64687ce2a14f15af
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445574"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588549"
 ---
 # <a name="work-with-catalog-items"></a>Luettelonimikkeiden käsitteleminen
 Voit tarjota asiakkaille tiettyjä nimikkeitä, joita et halua ylläpitää järjestelmässäsi ennen kuin niitä myydään. Kun haluat alkaa ylläpitää tällaisia nimikkeitä järjestelmässäsi, voit muuntaa ne normaaleiden nimikkeiden korteiksi kahdella eri tavalla.
@@ -66,7 +66,7 @@ Luodaan uusi nimikekortti, johon on täytetty luettelonimikkeen tiedot, ja asiaa
 Tämän jälkeen voit täyttää uuden nimikekortin kentät tai muokata niitä tarvittaessa. Lisätietoja on ohjeaiheessa [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md).
 
 > [!NOTE]  
->   Toimittajalle luodaan automaattisesti nimikkeen viittaustietue nimikkeelle, jonka numero on toimittajan nimikenumeron ja uuden nimikenumeron välissä. Lisätietoja on kohdassa [Nimikkeen viittausten käyttäminen](inventory-how-use-item-cross-refs.md).
+>   Nimikkeen viittaus on automaattisesti nimike, jonka numero on toimittajan nimikenumeron ja uuden nimikenumeron välissä. Lisätietoja on kohdassa [Nimikkeen viittausten käyttäminen](inventory-how-use-item-cross-refs.md).
 
 ## <a name="see-also"></a>Katso myös
 [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md)  

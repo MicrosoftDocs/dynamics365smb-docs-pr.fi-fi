@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 10/01/2021
 ms.author: edupont
-ms.openlocfilehash: d6c67ea5529e885483858064201a1d850bab7eff
-ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
+ms.openlocfilehash: fdacd0fcfd681d641f7c81249632662e90707951
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "6649860"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588880"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Käytä työjonoja ajoitustehtäviin
 
@@ -60,6 +60,15 @@ Seuraavassa taulukossa kuvataan **Tila**-kentän arvot.
 
 > [!TIP]
 > Voit myös tarkastella työjonotapahtumien tilaa käyttämällä Microsoft Azuren Application Insightsin telemetriaan perustuvaa analyysia. Lisätietoja on kohdassa [Telemetrian seuranta ja analysointi](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) sekä [Työjonon elinkaaren jäljitystelemetrian analysointi](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace) [!INCLUDE [prod_short](includes/prod_short.md)] kehittäjän ja hallinnan sisällössä.
+
+## <a name="view-scheduled-tasks"></a>Näytä ajoitetut tehtävät
+
+**Ajoitetut tehtävät** -sivulla [!INCLUDE [prod_short](includes/prod_short.md)]issa näkyy, mitkä tehtävät ovat valmiita suoritettaviksi työjonossa. Sivulla näkyy myös tietoja yrityksestä, jossa kukin tehtävä on määritetty suoritettavaksi. Kuitenkin vain tehtävät, jotka on merkitty kuuluvaksi nykyiseen ympäristöön, voivat toimia.  
+
+Jos tämänhetkinen yritys on esimerkiksi ympäristössä, joka on toisen ympäristön kopio, kaikki suunnitellut tehtävät pysäytetään automaattisesti. **Ajoitetut tehtävät** -sivulla voit määrittää tehtävät valmiiksi suoritettaviksi työjonossa.  
+
+> [!NOTE]
+> Sisäiset järjestelmänvalvojat ja käyttäjät voivat ajoittaa tehtäviä suoritettavaksi. Delegoidut järjestelmänvalvojat eivät voi.
 
 ## <a name="the-my-job-queue-part"></a>Oma työjono -osa
 Roolikeskuksen **Oma työjono** -osa sisältää työjonotapahtumat, jotka olet aloittanut mutta jotka eivät ole vielä valmiita. Oletusarvoisesti osa ei ole näkyvissä, joten se on lisättävä omaan roolikeskukseesi. Lisätietoja on kohdassa [Työtilan mukauttaminen](ui-personalization-user.md).  

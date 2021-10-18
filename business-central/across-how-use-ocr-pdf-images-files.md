@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: cb71c71ec67514e4ed2df02a83afe2a56e36868e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: a5defde47d21492c104c767f21165573221a1e51
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440947"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587528"
 ---
 # <a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>PDF- ja kuvatiedostojen muuntaminen sähköisiksi asiakirjoiksi OCR-palvelun avulla
 Ulkoinen OCR (Optical Character Recognition) -palvelu voi luoda liikekumppaneilta vastaanotetuista PDF- tai kuvatiedostoista sähköisiä asiakirjoja, jotka voit muuntaa tiedostotietueiksi [!INCLUDE[prod_short](includes/prod_short.md)]issa. Kun esimerkiksi saat PDF-muotoisen laskun toimittajalta, voit lähettää sen OCR-palveluun **Saapuvat asiakirjat** -sivulta. Tämä kuvataan ensimmäisessä menettelytavassa.
@@ -69,11 +69,11 @@ Voit nyt jatkaa asiakirjatietueiden luomista vastaanotetuille sähköisille asi
 Seuraavassa kuvataan, miten ostolaskutietue luodaan toimittajan laskusta, joka on vastaanotettu sähköisenä asiakirjana OCR-palvelusta. Menettelytapa on sama kuin esimerkiksi silloin, kun yleisen päiväkirjan rivi luodaan kulutositteesta tai myyntipalautustilaus asiakkaasta.
 
 > [!NOTE]  
->   **Kuvaus**- ja **Nro**-kenttä täytetään luoduilla asiakirjariveillä vain, jos OCR-asiakirjasta löytynyt teksti on ensin linkitetty kahteen [!INCLUDE[prod_short](includes/prod_short.md)]in kenttään. Voit tehdä tämän yhdistämismäärityksen nimiketyyppisten asiakirjarivien nimikkeen ristiviittauksena. Lisätietoja on kohdassa [Nimikkeen viittausten käyttäminen](inventory-how-use-item-cross-refs.md). Voit käyttää myös Tekstin yhdistäminen tiliin -toimintoa. Lisätietoja on kohdassa [Saapuvan asiakirjan tekstin yhdistäminen tiettyyn toimittajaan, kirjanpitoon tai pankkitiliin](across-how-use-ocr-pdf-images-files.md#to-map-text-on-an-incoming-document-to-a-specific-vendor-account).
+>   **Kuvaus**- ja **Nro**-kenttä täytetään luoduilla asiakirjariveillä vain, jos OCR-asiakirjasta löytynyt teksti on ensin linkitetty kahteen [!INCLUDE[prod_short](includes/prod_short.md)]in kenttään. Voit tehdä tämän yhdistämismäärityksen nimiketyyppisten asiakirjarivien nimikkeen viittauksena. Lisätietoja on kohdassa [Nimikkeen viittausten käyttäminen](inventory-how-use-item-cross-refs.md). Voit käyttää myös Tekstin yhdistäminen tiliin -toimintoa. Lisätietoja on kohdassa [Saapuvan asiakirjan tekstin yhdistäminen tiettyyn toimittajaan, kirjanpitoon tai pankkitiliin](across-how-use-ocr-pdf-images-files.md#to-map-text-on-an-incoming-document-to-a-specific-vendor-account).
 
 1. Valitse ensin saapuvan asiakirjan rivi ja sitten **Luo asiakirja** -toiminto.
 
-[!INCLUDE[prod_short](includes/prod_short.md)]iin luodaan ostolasku OCR-palvelusta vastaanotetun toimittajan sähköisen laskun tietojen perusteella. Tiedot lisätään uuteen ostolaskuun sen yhdistämismäärityksen perusteella, jonka olet määrittänyt ristiviittaukseksi tai tekstin ja tilin yhdistämiselle.
+[!INCLUDE[prod_short](includes/prod_short.md)]iin luodaan ostolasku OCR-palvelusta vastaanotetun toimittajan sähköisen laskun tietojen perusteella. Tiedot lisätään uuteen ostolaskuun sen yhdistämismäärityksen perusteella, jonka olet määrittänyt viittaukseksi tai tekstin ja tilin yhdistämiselle.
 
 Vahvistusvirheet (jotka yleensä liittyvät [!INCLUDE[prod_short](includes/prod_short.md)]in vääriin tai puuttuviin perustietoihin) näkyvät **Virheet ja varoitukset** -pikavälilehdessä. Lisätietoja on kohdassa [Virheiden käsitteleminen vastaanotettaessa sähköisiä asiakirjoja](across-how-use-ocr-pdf-images-files.md#to-handle-errors-when-receiving-electronic-documents).
 

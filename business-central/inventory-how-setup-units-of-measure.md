@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: UOM
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 92fc62cf5b1e2db5d1eb34ab2aa9f86823cfe3bb
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 499ed3db4b82a92d147f4fcdffef4df516a80bf1
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435545"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588574"
 ---
 # <a name="set-up-units-of-measure"></a>Mittayksikön määrittäminen
 
@@ -27,6 +27,8 @@ Voit määrittää useita mittayksiköitä, jotka on määritetty kohteelle niin
 - Määritä vaihtoehtoiset mittayksiköt osto-, tuotanto- tai myyntiasiakirjojoille määrittääksesi, kuinka monta perusmittayksikön yksikköä käsittelet kerrallaan kyseisissä prosesseissa. Voi esimerkiksi ostaa nimikkeen kuormalavoihin ja käyttää tuotannossa vain yksittäisiä kappaleita.
 
 Jos nimike varastoidaan yhtä mittayksikköä ja tuotetaan toista mittayksikköä käyttäen, ohjelma voi laskea komponenttien oikean määrän **Päivitä tuotantotilaus** -eräajon aikana luomalla tuotantoerän mittayksikköä käyttävän tuotantotilauksen. Tuotantoerän mittayksikön laskentaa voidaan tarvita esimerkiksi, kun nimike varastoidaan kappaleina mutta tuotetaan tonneina. Lisätietoja on kohdassa [Tuotantoerän mittayksiköiden käyttäminen](production-how-to-use-the-manufacturing-batch-unit-of-measure.md).  
+
+Toinen työkalu, jonka avulla nimikkeiden eri mittayksiköitä on helpompi käsitellä, on mahdollisuus määrittää pyöristystarkkuus perusmittayksiköitä varten. Pyöristystarkkuuden määrittäminen antaa ohjeita siitä, mitä jonkun tiettyyn liiketoimintaprosessiin tulee syöttää, ja auttaa vähentämään pyöristysongelmia. Kun käytät vaihtoehtoisia mittayksiköitä, **Määrä mittayksikköä kohti** -kentän arvo auttaa laskemaan määrän perusmittayksikössä, mikä voi johtaa pyöristysongelmiin. Oletetaan esimerkiksi, että vastaanotat yhden laatikon, jossa on kuusi nimikettä. Kun laatikko saapuu fyysiseen varastoon, huomaat, että yksi kuudesta nimikkeestä puuttuu. Et kirjaakaan yhden laatikon vastaanottoa, vaan muutat vastaanotetuksi määräksi viisi kuudesta kappaleesta. Tämä johtaisi viiden sijasta 4,99998 kappaleen vastaanottoon. **Nimikkeen mittayksiköt** -sivulla **Määrän pyöristystarkkuus** -kenttään voidaan määrittää arvo, joka muuntaa määrän helpommin ymmärrettävän numeromuotoon. Jatkaen esimerkistä, syötämme **1** kenttään, jotta pyöristetään täyteen viiteen kappaleeseen.
 
 ## <a name="to-set-up-units-of-measure"></a>Mittayksikön määrittäminen
 
@@ -57,11 +59,11 @@ Kun rekisteröit uuden nimikkeen, voit valita perusmittayksikön mittayksikkölu
 
     Nimikkeen perusmittayksikköä voi tarkastella ja muuttaa **Perusmittayksikkö**-kentässä ikkunan alaosassa. Perusmittayksikön voi lisäksi vaihtaa nimikkeen kortin **Perusmittayksikkö**-kentässä. **Nimikkeen mittayksikkö** -sivun **Määrä mittayksikköä kohti** -kentässä mittayksikön arvon on oltava **1**-
 
-Vaihtoehtoista mittayksikköä voi nyt käyttää osto-, tuotanto- ja myyntiasiakirjoissa osassa [Oletusmittayksikön koodien määrittäminen myynti- ja ostotapahtumille](#to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions) kuvatulla tavalla.  
+Voit nyt käyttää vaihtoehtoisia mittayksiköitä osto-, tuotanto- ja myyntiasiakirjoissa. Lisätietoja: [Oletusmittayksikön koodien määrittäminen myynti- ja ostotapahtumille](#to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions).  
 
 ## <a name="to-set-up-unit-of-measure-translations"></a>Mittayksikön käännösten määrittäminen
 
-Jos myyt nimikkeitä ulkomaisille asiakkaille, mittayksikkö halutaan enkä määrittää asiakkaan kielellä. Tällä tavalla voi tehdä sen jälkeen kun tarpeelliset mittayksiköiden käännökset on määritetty.
+Jos myyt nimikkeitä ulkomaisille asiakkaille, mittayksikkö halutaan enkä määrittää asiakkaan kielellä. Voit tehdä sen määrittämällä mittayksiköiden käännökset.
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Mittayksiköt** ja valitse sitten vastaava linkki.
 2. Valitse koodi, jonka käännökset haluat määrittää, ja valitse sitten **Käännökset** -toiminto.

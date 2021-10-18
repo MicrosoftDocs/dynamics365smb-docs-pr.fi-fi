@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: cf74aaee1351af28bc5492a0fc555d14e221e2a9
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 4c6ee9aceb0282e417fe40aef2ae6f148df4c9d1
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443052"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587657"
 ---
 # <a name="work-on-service-tasks"></a>Huoltotehtävien käyttäminen
 Kun huoltotilaukset tai huoltotarjoukset on luotu, huoltonimikerivit rekisteröity ja resurssit on kohdistettu tilausten tai tarjousten huoltonimikkeille, huoltonimikkeiden korjauksen ja ylläpidon voi aloittaa.  
@@ -25,12 +25,12 @@ Kun huoltotilaukset tai huoltotarjoukset on luotu, huoltonimikerivit rekisteröi
 Voit seurata huollon muutoksia sekä tarkastella huollon graafista näkyvää [!INCLUDE[prod_short](includes/prod_short.md)]:n tilastotyökalujen avulla, jotka luovat kaavoja ja analyyseja nopeasti ja automaattisesti.  
 
 ## <a name="to-work-on-a-service-task"></a>Huoltotehtävien parissa työskenteleminen  
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltotehtävät** ja valitse sitten vastaava linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 1.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltotehtävät** ja valitse sitten vastaava linkki.
 2. Jos haluat nähdä luettelon huoltotehtävistä, joihin tietty resurssi tai resurssiryhmä on kohdistettu, täytä **Resurssisuodatus**- tai **Resurssiryhmän suodatus** -kenttä ja paina Enter.  
 3. Jos haluat nähdä luettelon huoltotehtävistä, joiden vastauspäivämäärä tai -päivämäärät ovat tietyn aikajakson sisällä, täytä **Vastauspvm suodatus** -kenttä ja paina Enter.  
 4. Jos haluat nähdä luettelon huoltotehtävistä, joilla on jokin tietty kohdistuksen tai korjauksen tila, täytä **Kohdistuksen tilan suodatus**- tai  **Korjaustilakoodin suodatus** -kenttä ja paina Enter.  
 5. Valitse huoltotehtävä, jota haluat työstää. Valitse **Nimikkeen työkirja** -toiminto. **Huoltonimikkeen työkirja** -sivu avautuu.  
-6. Rekisteröi vakiotekstit, varaosat, resurssitunnit ja kustannukset käyttämällä **Tyyppi**-kentän vaihtoehtoja: <Blank>, **Nimike**, **Resurssi** ja **Kustannus**.  
+6. Rekisteröi vakiotekstit, varaosat, resurssitunnit ja kustannukset käyttämällä **Tyyppi**-kentän vaihtoehtoja: \<Blank\>, **Nimike**, **Resurssi** ja **Kustannus**.  
 7. Valitse **Korjauksen tila**-kentässä asianmukainen tila.  
 
    > [!NOTE]  
@@ -39,7 +39,7 @@ Voit seurata huollon muutoksia sekä tarkastella huollon graafista näkyvää [!
 ## <a name="to-register-service-operations"></a>Huoltotoimintojen rekisteröiminen  
 Kun suoritat huoltotilauksen huoltoa, voit rekisteröidä käytetyt nimikkeet, aiheutuneet kustannukset ja kuluneen ajan määrittävät tiedot. Ohjelma tallettaa **Huoltonimikkeen työkirja** -sivulla määrittämäsi tiedot. Voit päivittää tietoja tarvittaessa.
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltotilaukset** ja valitse sitten vastaava linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 2.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltotilaukset** ja valitse sitten vastaava linkki.  
 2. Avaa huoltotilaus, johon haluat rekisteröidä huollon, ja valitse nimikerivi.  
 3. Valitse **Huoltonimiketyökirja**-toiminto  
 4. Määritä riveillä käytetyt nimikkeet, aiheutuneet kustannukset ja huoltoon käytetty aika.  
@@ -50,7 +50,7 @@ Kun suoritat huoltotilauksen huoltoa, voit rekisteröidä käytetyt nimikkeet, a
 ## <a name="to-register-spare-parts"></a>Varaosien rekisteröiminen  
 Kun työskentelet huoltotilauksissa olevien huoltonimikkeiden parissa, voit tarvita huoltoa varten varaosia. Seuraavassa kuvataan, miten käyttämäsi varaosat rekisteröidään **Huoltonimikkeen työkirja** -sivulla.  
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltotehtävät** ja valitse sitten vastaava linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 3.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltotehtävät** ja valitse sitten vastaava linkki.
 2. Valitse ensin huoltonimikkeen sisältävä rivi ja sitten **Nimikkeen työkirja** -toiminto.  
 3. Määritä uusi huoltorivi.  
 4. Valitse **Tyyppi**-kentässä **Nimike**.  
@@ -60,7 +60,7 @@ Kun työskentelet huoltotilauksissa olevien huoltonimikkeiden parissa, voit tarv
  Samalla tavoin voidaan rekisteröidä varaosia **Huoltorivit**-sivulla, jonka voit avata **Huoltotilaus**-sivulta.  
 
 ## <a name="to-register-spare-parts-from-a-service-order"></a>Rekisteröi varaosat huoltotilauksesta  
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltotilaukset** ja valitse sitten vastaava linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 4.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltotilaukset** ja valitse sitten vastaava linkki.  
 2. Avaa huoltotilaus, jolle haluat rekisteröidä varaosat.  
 3. Valitse rivi, joka sisältää käsiteltävän huoltonimikkeen. Valitse ensin **Toiminnot**, sitten **Tilaus** ja lopuksi **Huoltorivit**.  
 4. Anna uusi huoltorivi.  
@@ -68,7 +68,7 @@ Kun työskentelet huoltotilauksissa olevien huoltonimikkeiden parissa, voit tarv
 ## <a name="to-replace-a-service-item-or-a-service-item-component"></a>Huoltonimikkeen tai huoltonimikkeen komponentin korvaaminen  
 Kun huolletaan komponenteista koostuvaa huoltonimikettä, viallinen komponentti voidaan joutua vaihtamaan uuteen. Joka kerta, kun komponentteja sisältävälle huoltonimikkeelle syötetään varaosa, ohjelma antaa valita komponentin vaihtamisen tai uuden komponentin luomisen välillä. Ohjelma ei rekisteröi uutta nimikettä huoltonimikkeen komponentiksi, ennen kuin tämä huoltorivi tai huoltotilaus kirjataan.
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltotehtävät** ja valitse sitten vastaava linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 5.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltotehtävät** ja valitse sitten vastaava linkki.
 2. Valitse ensin huoltonimikkeen sisältävä rivi ja sitten **Nimikkeen työkirja** -toiminto.  
 3. Anna uusi huoltorivi.  
 4. Valitse **Tyyppi**-kentässä **Nimike**.  
@@ -87,14 +87,14 @@ Kun huolletaan komponenteista koostuvaa huoltonimikettä, viallinen komponentti 
 ## <a name="to-change-the-response-time-for-a-service-item-line"></a>Huoltonimikerivin vastausajan muuttaminen  
 Kun huoltonimikerivi rekisteröidään huoltotilaukseen tai -tarjoukseen ja jos huoltonimike on huoltosopimuksessa, automaattinen oletusvastausaika annetaan vastauspäivämäärä ja -aika lasketaan sen mukaisesti. Vastausajan tuntimäärää sekä vastauspäivämäärää ja -aikaa voi muuttaa tarpeen mukaan.  
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltotilaukset** tai **Huoltotarjoukset** ja valitse sitten vastaava linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 6.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltotilaukset** tai **Huoltotarjoukset** ja valitse sitten vastaava linkki.  
 2. Avaa kortti valitsemalla huoltotilaus tai -tarjous.  
 3. Anna sen huoltonimikkeen rivillä, jonka vastausajan haluat muuttaa, joko **Vastausaika (tuntia)** -kentässä tai **Vastauspvm**- ja **Vastausaika**-kentissä uusi vastausaika tunteina tai vastauspäivämäärä ja -aika.  
 
 ## <a name="to-register-faultresolution-codes"></a>Vika-/ratkaisukoodien rekisteröiminen  
 Huoltonimikkeen korjauksen jälkeen nimikkeelle voi rekisteröidä sekä vikakoodin että ratkaisukoodin valitsemalla yhdistelmän olemassa olevista vika-/ratkaisukoodien suhteista. Vika- ja ratkaisukoodit tulevat näkyviin vastaaviin kenttiin **Huoltonimikkeen työkirja** -sivulla. Koodit voi rekisteröidä myös suoraan tällä sivulla.  
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltotehtävät** ja valitse sitten vastaava linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 7.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltotehtävät** ja valitse sitten vastaava linkki.
 2. Valitse ensin huoltonimikkeen sisältävä rivi ja sitten **Nimikkeen työkirja** -toiminto.  
 3. Valitse **Huoltonimikkeen työkirja** -sivulla **Vika-/ratkaisukoodien suhteet**. **Vika-/ratkaisukoodien suhteet** -sivu avautuu.  
 

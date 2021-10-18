@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d94ecf2314e28dafbcf73a816446d6e3b929aedc
-ms.sourcegitcommit: cbd00f24fb471381bbfd64670237eda176bd78e5
+ms.openlocfilehash: 0cfcf4bcda748ec2f46f24013d887252310596c0
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947361"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588022"
 ---
 # <a name="available-fonts"></a>Käytettävissä olevat fontit
 
@@ -65,6 +65,6 @@ Lisätietoja on kohdassa [Business Central Onlinen viivakoodifontit](/dynamics36
 [Raporttiasetteluiden hallinta](ui-manage-report-layouts.md)  
 [Sekin asettelun valitseminen](finance-how-define-check-layouts.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)]in käyttäminen](ui-work-product.md)
-[Business Central Onlineen sisältyvät viivakoodifontit](/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts.md)
+[Business Central Onlineen sisältyvät viivakoodifontit](/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

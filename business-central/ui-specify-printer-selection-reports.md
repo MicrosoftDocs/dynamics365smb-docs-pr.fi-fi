@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
 ms.date: 06/24/2021
 ms.author: jswymer
-ms.openlocfilehash: 4f59ac35a6c5ffb266603ac2e98c513d279ddd1e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e459c854bfba13689b5dc6213ed7e88347780483
+ms.sourcegitcommit: 81a35248e6f1e8773339281b6f5c0ebd4942e05a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437214"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547046"
 ---
 # <a name="set-up-printers"></a>Tulostimien määrittäminen
 
@@ -132,9 +132,6 @@ Lisätietoja määrittämisestä on yleistulostuksen ohjeiden kohdassa [Aloitus:
     Yleistulostus hahmontaa tulostuksen sisällön XPS-muodossa. Osa markkinoilla olevista vanhoista tulostimista ei tue XPS-sisällön hahmontamista vaan usein tuetaan vain PDF-muotoa. Tulostaminen tällaisiin tulostimiin epäonnistuu, ellei yleistulostusta ole määritetty muuntamaan asiakirjat tulostimen tukemaan muotoon.
 
     Lisätietoja on kohdassa [Asiakirjan muuntamisen yleiskatsaus](/universal-print/portal/document-conversion).
-
-    > [!TIP]
-    > Jos mikään tulostimista ei edellytä PDF-muotoista sisällön hahmontamista, asiakirjan muuntamista ei kannata ottaa käyttöön, sillä se voi vaikuttaa tulostuksen tulostuslaatuun.
 
 Olet nyt valmis lisäämään tulostimia [!INCLUDE[prod_short](includes/prod_short.md)]iin, määrittämään raporttien oletustulostimet ja tulostamaan.  
 

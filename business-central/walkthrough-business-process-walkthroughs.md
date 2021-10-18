@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: fda901d7737d7818b7ebc965d9babf1f0868f1de
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: d60dbe10adf00c375121e2fc944b626e48d28970
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6322170"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587478"
 ---
 # <a name="business-process-walkthroughs"></a>Liiketoimintaprosessien vaihekuvaukset
 
@@ -24,7 +24,7 @@ Näissä vaihekuvauksissa käsitellään yksityiskohtaisesti ja kattavasti liike
  Näiden vaihekuvausten tilanteet ovat luonteeltaan kattavia, ja vaihekuvauksista onkin eniten hyötyä, kun niissä esitetyt toimet suoritetaan alusta loppuun. Monet kuvaukset perustuvat [!INCLUDE[prod_short](includes/prod_short.md)] -esittelyihin, ja voit kokeilla toimintaohjeita sinulle sopivaan tahtiin.  
 
 > [!NOTE]
-> Joissakin vaihekuvauksissa tarvitaan näytetietoja, joita ei ole saatavana [!INCLUDE[prod_short](includes/prod_short.md)]in oletusesittely-yrityksessä. <!--For more information, see [To create a company with complete sample data in a sandbox](across-how-create-sandbox-environment.md#to-create-a-company-with-complete-sample-data-in-a-sandbox). -->
+> Joissakin vaihekuvauksissa tarvitaan näytetietoja, joita ei ole saatavana [!INCLUDE[prod_short](includes/prod_short.md)]in oletusesittely-yrityksessä. <!--For more information, see [Sandbox Environments](admin-sandbox-environments). -->
 
 |Tehtävä|Katso|  
 |--------|---------|  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier
-ms.date: 06/23/2021
+ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 2d4943415af6f5cd91ac35c68a9d8433e024b6be
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 662239446426cf64ac20d766e21aee55b92f9809
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445374"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587682"
 ---
 # <a name="register-new-vendors"></a>Uusien toimittajien rekisteröiminen
 
@@ -32,32 +32,31 @@ Toimittajan kortti sisältää tiedot, joita tarvitaan tuotteiden ostamiseksi to
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd?rel=0]
 
 ## <a name="adding-new-vendors"></a>Uusien toimittajien lisääminen
+Voit lisätä uusia toimittajia manuaalisesti täyttämällä **Toimittajankortti**-sivun kentät tai käyttämällä malleja, jotka sisältävät ennalta määritettyjä tietoja. Voit esimerkiksi luoda malleja erityyppisille toimittajaprofiileille. Mallien käyttäminen säästää aikaa uusien toimittajien lisäämisen aikana ja varmistaa, että tiedot ovat aina oikein. Jos luot malleja useammalle kuin yhdelle toimittajatyypille, voit valita mallin, jota käytetään, kun lisäät toimittajan. Jos luot vain yhden mallin, sitä käytetään kaikille uusille toimittajille. Kun olet luonut mallin, voit kohdistaa sen yhteen tai useampaan valittuun toimittajaan käyttämällä **Käytä mallia** -toimintoa. Kun haluat luoda mallin, täytä tiedot, joita haluat käyttää uudelleen Toimittajan kortti -sivulla, ja tallenna se mallina. Lisätietoja on osassa [Toimittajakortti-sivun tallentaminen mallina](purchasing-how-register-new-vendors.md#to-save-the-vendor-card-as-a-template).
 
-Uusi toimittaja rekisteröidään täyttämällä toimittajakortti. Eri toimittajaprofiileille voi luoda malleja tai toimittajat voidaan lisätä ilman malleja. Toimittajan voi luoda myös yhteyshenkilöstä. Lisätietoja on kohdassa [Asiakkaan, toimittajan, työntekijän tai pankkitilin luominen yhteyshenkilöstä](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
+> [!TIP]
+> Voi olla hyödyllistä mukauttaa **Toimittajamalli**-sivua, kun luot mallin. Voit esimerkiksi haluta lisätä kentän, joka ei vielä näy sivulla. Lisätietoja on kohdassa [Työtilan mukauttaminen](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner).
 
-> [!NOTE]  
-> Jos eri toimittajan tyypeille on olemassa toimittajamalleja, sivu avautuu, kun luot uuden toimittajan kortin, jossa voit valita haluamasi mallin. Jos vain yksi toimittajamalli on olemassa, uudet toimittajan kortit käyttävät aina kyseistä mallia.  
+Toimittajan voi luoda myös yhteyshenkilöstä. Lisätietoja on kohdassa [Asiakkaan, toimittajan, työntekijän tai pankkitilin luominen yhteyshenkilöstä](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact). 
 
-### <a name="to-create-a-new-vendor-card"></a>Uuden toimittajan kortin luominen
+### <a name="to-create-a-new-vendor"></a>Uuden toimittajan luominen
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Toimittajat** ja valitse sitten vastaava linkki.  
-2. Valitse **Toimittajat**-sivulla **Uusi**.
+[!INCLUDE[create_new_vendor](includes/create_new_vendor.md)]
 
-    Jos on olemassa useita toimittajamalleja, näyttöön avautuu automaattisesti sivu, jossa voit valita toimittajamallin. Noudata tällaisessa tapauksessa kahta seuraavaa vaihetta.
-    1. Valitse **Valitse malli uudelle toimittajalle** -sivulla malli, jota haluat käyttää uudessa toimittajan kortissa.
-    2. Valitse **OK**-painike. Uuden toimittajan kortti avautuu. Jotkin sen kentät on täytetty mallin tiedoilla.
-3. Voit täyttää toimittajan kortin kenttiä tai muuttaa niitä tarvittaessa. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-
-    > [!TIP]  
-    > Jos et tiedä laskutusosoitetta, jota käytetään kaikissa toimittajan laskuissa, älä täytä **Toimittajan nro** -kenttää. Valitse sen sijaan tavaran laskuttajan numeron sen jälkeen, kun olet määrittänyt ostotarjouksen, -tilauksen, -laskun otsikon.
+> [!TIP]  
+> Jos et tiedä laskutusosoitetta, jota käytetään kaikissa toimittajan laskuissa, älä täytä **Toimittajan nro** -kenttää. Valitse sen sijaan tavaran laskuttajan numeron sen jälkeen, kun olet määrittänyt ostotarjouksen, -tilauksen, -laskun otsikon.
 
 Toimittaja on nyt rekisteröity, ja toimittajan kortti on valmis käytettäväksi ostoasiakirjoissa.
 
 Jos haluat käyttää tätä toimittajan korttia mallina, kun luot uusia toimittajan kortteja, tallenna se toimittajamallina. Lisätietoja on osassa [Toimittajakortin tallentaminen mallina](#to-save-the-vendor-card-as-a-template).
 
-### <a name="deleting-vendor-cards"></a>Toimittajakorttien poistaminen
+### <a name="deleting-and-editing-vendor-information"></a>Toimittajan tietojen poistaminen ja muokkaaminen
 
-Jos olet kirjannut toimittajalle tapahtuman, et voi poistaa korttia, koska nimiketapahtumia voi tarvita valvontaan. Voit poistaa tapahtumia sisältäviä toimittajakortteja koodin avulla ottamalla yhteyttä Microsoft-kumppaniin.
+Voit muokata toimittajakorttien tietoja milloin tahansa. Jos olet kirjannut toimittajalle tapahtuman, et voi kuitenkaan poistaa korttia, koska nimiketapahtumia voi tarvita valvontaan. Voit poistaa tapahtumia sisältäviä toimittajakortteja koodin avulla ottamalla yhteyttä Microsoft-kumppaniin.
+
+> [!TIP]
+> Voit muuttaa toimittajan pankkitilin IBAN-tunnusta ilman, että muutos vaikuttaa aikaisempiin tilisiirtorekisterin tapahtumiin. Kredit-siirron rekisteröintitapahtumat tallentavat vastaanottajan IBAN-tunnuksen ja vastaanottajan pankkitilinumeron, jotka määritettiin Toimittajan pankkitili- ja Vastaanottajan nimi -kentissä Toimittajakortti-sivulta, kun tapahtumat luotiin.
+
 
 ## <a name="to-save-the-vendor-card-as-a-template"></a>Toimittajan kortin tallentaminen mallina
 

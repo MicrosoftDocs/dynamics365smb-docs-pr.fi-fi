@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client, customer, credit
-ms.date: 04/01/2021
+ms.date: 09/24/2021
 ms.author: edupont
-ms.openlocfilehash: 37ed53ba578a9c08d82a447d3f9dc970fe558a63
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: 3d014015946f9202d59127d6e871aa5dd0ec90bd
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440364"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588980"
 ---
 # <a name="register-new-customers"></a>Uusien asiakkaiden rekisteröinti
 
@@ -26,23 +26,16 @@ Ennen kuin voit rekisteröidä uusia asiakkaita, sinun on määritettävä myynt
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
 ## <a name="adding-new-customers"></a>Uusien asiakkaiden lisääminen
+Voit lisätä uusia asiakkaita manuaalisesti täyttämällä **Asiakaskortti**-sivun kentät tai käyttämällä malleja, jotka sisältävät ennalta määritettyjä tietoja. Voit esimerkiksi luoda malleja erityyppisille asiakasprofiileille. Mallien käyttäminen säästää aikaa uusien asiakkaiden lisäämisen aikana ja varmistaa, että tiedot ovat aina oikein. Jos luot malleja useammalle kuin yhdelle asiakastyypille, voit valita mallin, jota käytetään, kun lisäät asiakkaan. Jos luot vain yhden mallin, sitä käytetään kaikille uusille asiakkaille. Kun olet luonut mallin, voit kohdistaa sen yhteen tai useampaan valittuun asiakkaaseen käyttämällä **Käytä mallia** -toimintoa. Kun haluat luoda mallin, täytä tiedot, joita haluat käyttää uudelleen Asiakaskortti-sivulla, ja tallenna se mallina. Lisätietoja on osassa [Asiakaskortin tallentaminen mallina](sales-how-register-new-customers.md#to-save-the-customer-card-as-a-template).
 
-Uusi asiakas rekisteröidään täyttämällä asiakaskortti. Eri asiakasprofiileille voi luoda mallit tai asiakkaat voidaan lisätä ilman malleja. Asiakkaan voi luoda myös yhteyshenkilöstä. Lisätietoja on kohdassa [Asiakkaan, toimittajan, työntekijän tai pankkitilin luominen yhteyshenkilöstä](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
+> [!TIP]
+> Voi olla hyödyllistä mukauttaa **Asiakasmalli**-sivua, kun luot mallin. Haluat ehkä esimerkiksi lisätä **Luottoraja**-kentän malliin. Lisätietoja on kohdassa [Työtilan mukauttaminen](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner).
 
-> [!NOTE]  
-> Jos eri asiakastyypeille on olemassa asiakasmalleja, sivu avautuu, kun luot uuden asiakkaan kortin, jossa voit valita haluamasi mallin. Jos vain yksi asiakasmalli on olemassa, uudet asiakaskortit käyttävät aina kyseistä mallia.  
+Asiakkaan voi luoda myös yhteyshenkilöstä. Lisätietoja on kohdassa [Asiakkaan, toimittajan, työntekijän tai pankkitilin luominen yhteyshenkilöstä](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
 
 ### <a name="to-create-a-new-customer-card"></a>Uuden asiakkaan kortin luominen
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asiakkaat** ja valitse sitten vastaava linkki.  
-2. Valitse **Asiakkaat** -sivulla **Uusi**-toiminto.
-
-    Jos vain yksi asiakasmalli on olemassa, uusi asiakkaan kortin avautuu. Osa kortin kentistä täytetty mallin tiedoilla.
-
-    Jos on olemassa useita asiakasmalleja, näyttöön avautuu automaattisesti sivu, jossa voit valita asiakasmallin. Noudata tällaisessa tapauksessa kahta seuraavaa vaihetta.
-3. Valitse **Valitse malli uudelle asiakkaalle** -sivulla malli, jota haluat käyttää uudessa asiakkaan kortissa.
-4. Valitse **OK**-painike. Uuden asiakkaan kortti avautuu. Osa kortin kentistä on täytetty mallin tiedoilla.  
-5. Voit täyttää asiakkaan kortin kenttiä tai muuttaa niitä tarvittaessa. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+[!INCLUDE[create_new_customer](includes/create_new_customer.md)]
 
 **Hinnat ja alennukset** -toiminto tarjoaa vaihtoehtoja asiakkaan erikoishintojen tai -alennusten hallintaan, kun tilaus täyttää tietyt ehdot. Ehdot voivat olla esimerkiksi silloin, kun he ostavat tietyn nimikkeen, tilaavat vähimmäismäärän tai ostavat ennen päivämäärää, kuten kampanjan loppuessa. Lisätietoja on kohdassa [Myyntihinnan, alennuksen ja maksusopimusten tallentaminen](sales-how-record-sales-price-discount-payment-agreements.md).
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: write down
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 5ef67d3720ea83ead055e9ed2f9e83310c75ac16
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 3d1372425b15ee8b7b63efd64513c131cb1f1f9b
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442258"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588299"
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Käyttöomaisuuden poisto tai kuolettaminen
 Poistoja käytetään jakamaan käyttöomaisuuden, esimerkiksi koneiden ja laitteiden, kustannuksia niiden poistoajalle. Jokaisen käyttöomaisuuserän osalta tulee määrittää, miten sille tehdään poistoja.  
@@ -48,7 +48,10 @@ Indeksointia käytetään muuttamaan arvoja yleisten hintatason muutosten mukaan
 5. Valitse **Kirjaa**-toiminto.  
 
 > [!NOTE]
-> Jos valitset **Pakota päivien lukumäärä** -kentän ja **Pakota päivien lukumäärä** -kenttään on määritetty arvo, jonka tuloksena kirjauspäivämäärä miinus **Päivien lukumäärä** -kenttien arvo on edellisen kalenterivuoden päivämäärä, poistoa ei voi kirjata. Kiertotapa on vähentää **Pakota päivien lukumäärä** -arvo korkeintaan laskettuihin päiviin kirjauspäivämäärään asti käyttämällä 30 päivää/kuukausi -mallia TAI valita **Tilikausi 365 päivää** -kenttä poistokirjassa. Suosittelemme ensimmäistä vaihtoehtoa, koska et ehkä halua muuttaa 30 päivää/kuukausi -mallin käyttöä poistoissa. Lisätietoja on kohdassa [Tilikausi 365 päivää -kentän poisto](fa-how-setup-depreciation.md#fiscal-year-365-days-field-depreciation).
+> Tunnettu rajoitus: Jos valitset **Käytä päivien lukumäärän pakottamista** -kentän arvoksi Kyllä ja **Pakota päivien lukumäärä** -kenttään on määritetty arvo, jonka tuloksena **Kirjauspäivämäärä** miinus **Päivien lukumäärä** -kenttien arvo on edellisen kalenterivuoden päivämäärä, poistoa ei voi kirjata.
+> Kiertotapa on vähentää **Pakota päivien lukumäärä** -kenttä korkeintaan laskettuihin päiviin kirjauspäivämäärään asti käyttämällä 30 päivää/kuukausi -mallia TAI valita **Tilikausi 365 päivää** -kenttä poistokirjassa.
+> Suosittelemme ensimmäistä vaihtoehtoa, koska et ehkä halua muuttaa 30 päivää/kuukausi -mallin käyttöä poistoissa. Lisätietoja on kohdassa [Tilikausi 365 päivää -kentän poisto](fa-how-setup-depreciation.md#fiscal-year-365-days-field-depreciation).
+
 
 ## <a name="to-post-depreciation-manually-from-the-fixed-asset-gl-journal"></a>Poistojen kirjaaminen manuaalisesti käyttöomaisuuden KP-päiväkirjasta
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttöom. KP-päiväkirja** ja valitse sitten liittyvä linkki.  

@@ -12,19 +12,23 @@ ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: ed22406b4e02c1217e2e99db0fa6bbc811bae28b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 9f25ea61c41bfeb08b9283153a96b8a78ce7c9b7
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440547"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589280"
 ---
 # <a name="register-employees"></a>Työntekijöiden rekisteröiminen
-Henkilöstöhallinnan toimintojen käyttämiseksi sinun on rekisteröitävä kukin työntekijä luomalla heille kortti, joka sisältää kaikki perus- ja lisätiedot.
+Jotta voisit käyttää Human Resources -toiminnallisuutta, sinun täytyy ensin lisätä jokainen työntekijä täyttämällä **Työntekijäkortti**-sivun kentät.
 
-Voit muokata työntekijän tietoja milloin tahansa. Työntekijöiden tietueiden ylläpitäminen helpottaa henkilöstöhallintotehtäviä. Jos esimerkiksi työntekijän osoite muuttuu, voit rekisteröidä uuden tiedon työntekijän korttiin.
+## <a name="adding-new-customers"></a>Uusien asiakkaiden lisääminen
+Voit lisätä uusia työntekijöitä manuaalisesti täyttämällä **Työntekijäkortti**-sivun kentät tai käyttämällä malleja, jotka sisältävät ennalta määritettyjä tietoja. Voit esimerkiksi luoda malleja erityyppisille työntekijäprofiileille. Mallien käyttäminen säästää aikaa uusien työntekijöiden lisäämisen aikana ja varmistaa, että tiedot ovat aina oikein. Jos luot malleja useammalle kuin yhdelle työntekijätyypille, voit valita mallin, jota käytetään, kun lisäät työntekijän. Jos luot vain yhden mallin, sitä käytetään kaikille uusille työntekijöille. Kun olet luonut mallin, voit kohdistaa sen yhteen tai useampaan valittuun työntekijään käyttämällä **Käytä mallia** -toimintoa. Kun haluat luoda mallin, täytä tiedot, joita haluat käyttää uudelleen Työntekijäkortti-sivulla, ja tallenna se mallina.
 
-Seuraavissa ohjeissa kuvataan ensimmäisen työntekijäkortin luominen sekä kahden erilaisen työntekijätiedon määrittäminen työntekijälle. Voit lisäksi määrittää muita lisätietoja, kuten pätevyyksiä tai toimettomuuden syitä. Voit määrittää työntekijätiedot valitsemalla joko kentän tai toiminnon **Työntekijän kortti** -sivulla.
+> [!TIP]
+> Voi olla hyödyllistä mukauttaa **Työntekijämalli**-sivua, kun luot mallin. Voit esimerkiksi haluta lisätä kentän, joka ei vielä näy sivulla. Lisätietoja on kohdassa [Työtilan mukauttaminen](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner).
+
+Voit muokata työntekijän tietoja milloin tahansa. Työntekijätietueiden pitäminen ajan tasalla voi helpottaa henkilöstöhallintotehtäviä. Jos esimerkiksi työntekijän osoite muuttuu, voit rekisteröidä uuden tiedon Työntekijäkortti-sivulla.
 
 > [!NOTE]  
 > Voit hyvittää työntekijöille heidän liiketoimintaan liittyvät kulut. Sitä varten on täytettävä **Työntekijän kortti**-sivun **Maksut**-pikavälilehden kentät. Lisätietoja on kohdassa [Työntekijöiden kulujen kirjaaminen ja hyvittäminen](finance-how-record-reimburse-employee-expenses.md).
@@ -35,7 +39,7 @@ Seuraavissa ohjeissa kuvataan ensimmäisen työntekijäkortin luominen sekä kah
 3. Täytä **Työntekijän kortti** -sivulla tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-insert-a-picture-of-an-employee"></a>Työntekijän kuvan lisääminen
-Jos työntekijästä on .bmp-muotoinen kuva, voit lisätä sen työntekijän korttiin.
+Jos työntekijästä on kuva, voit lisätä sen työntekijän korttiin.
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Työntekijät** ja valitse sitten vastaava linkki.
 2. Avaa soveltuvan työntekijän kortti.

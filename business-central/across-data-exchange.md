@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: Data exchange framework, data files, data exchange, electronic document, invoice, Business Central, business document, standard-compliant file
 ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: 41d7ca5a8ce110d2335dd6a350636d77f2bce2c3
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 3f67cf78444e263932897948f93c8ece028989d8
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325811"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588374"
 ---
 # <a name="exchanging-data-electronically"></a>Sähköinen tiedonsiirto
 Voit hallita liiketoiminta-asiakirjojen, pankkitiedostojen, vaihtokurssien ja muiden datatiedostojen siirtoa liikekumppaneille tiedonsiirtokehyksen avulla.
 
-[!INCLUDE[prod_short](includes/prod_short.md)]in perusversiossa tiedonsiirtokehystä käytetään toiminnoissa, kuten elektronisissa asiakirjoissa, pankkitiedostojen tuonnissa/viennissä ja valuutanvaihtokurssien päivityksessä. Lisätietoja on kohdassa [Tietoja tiedonsiirtokehyksestä](across-about-the-data-exchange-framework.md).
+[!INCLUDE[prod_short](includes/prod_short.md)]in perusversiossa tiedonsiirtokehystä käytetään prosesseissa, kuten elektronisten asiakirjojen vaihdossa, pankkitiedostojen tuonnissa/viennissä ja valuutanvaihtokurssien päivityksessä. Lisätietoja on kohdassa [Tietoja tiedonsiirtokehyksestä](across-about-the-data-exchange-framework.md).
 
 Järjestelmänvalvojana tai Microsoft-kumppanina voit käyttää kehystä uusissa integrointiominaisuuksissa määrittämällä, mitä tietoja vaihdetaan ja miten. Lisätietoja on kohdassa [Tietojenvaihtomääritysten määrittäminen](across-how-to-set-up-data-exchange-definitions.md).
 

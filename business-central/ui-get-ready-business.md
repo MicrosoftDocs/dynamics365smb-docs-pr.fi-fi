@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
-ms.date: 04/01/2021
+ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 6bac247787efde5e23a7460b696c241e93f5de89
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: ba9039d637dcdee7f42302d1f1260b1224414677
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444818"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589130"
 ---
 # <a name="getting-ready-for-doing-business"></a>Valmistautuminen liiketoimintaan
 
@@ -32,7 +32,7 @@ Löydät myös luettelon asetusten ohjatun määrityksen oppaista, jos valitset 
 
 ## <a name="get-started"></a>Aloitus
 
-Vuoden 2021 1. julkaisuaallosta alkaen **Aloitus**-tarkistusluettelo opastaa toiminnan käytön aloittamisessa ensimmäisen kirjautumisen yhteydessä tai käynnistettäessä uusi yritys ensimmäisen kerran. Opastus vaihtelee maittain ja mahdollisten [!INCLUDE [prod_short](includes/prod_short.md)]iin lisättyjen toimialakohtaisten toimintojen mukaan.  
+**Aloitus**-tarkistusluettelo opastaa toiminnan käytön aloittamisessa ensimmäisen kirjautumisen yhteydessä tai käynnistettäessä uusi yritys ensimmäisen kerran. Opastus vaihtelee maittain ja mahdollisten [!INCLUDE [prod_short](includes/prod_short.md)]iin lisättyjen toimialakohtaisten toimintojen mukaan. Alkaen vuoden 2021 2. julkaisuaallosta, kun ensin kirjaudut CRONUS-esittely yritykseen, kotisivu on optimoitu ensimmäistä käyttökokemusta varten. Jos haluat nähdä enemmän linkkejä useammalle sivulle, siirry Business Manager -rooliin. Lisätietoja on kohdassa [Perusasetusten muuttaminen](ui-change-basic-settings.md).  
 
 Kun olet siirtänyt olemassa olevasta taloustietojen järjestelmästä tiedot, kuten toimittajat, asiakkaat ja nimikkeet, olet valmis aloittamaan. Voit käyttää tarvittaessa myös luettelon jotain toista avustetun asennuksen opasta.
 
@@ -43,7 +43,7 @@ Jos alue ei kuulu asetusten ohjattuun määritykseen, valitse ![Hammaspyöräkuv
 >
 > Ensimmäisellä kirjautumiskerralla käytössä on **Essential**-kokemus. Lisätietoja on kohdassa [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md).
 
-Kun olet suorittanut asetusten ohjatun määrityksen, sen tilaksi merkitään **Valmis**. <!--VERIFY-->  
+Kun olet suorittanut asetusten ohjatun määrityksen, sen tilaksi merkitään **Valmis**.  
 
 ## <a name="teaching-tips-and-tours"></a>Opastusvihjeet ja esittelyt
 
@@ -80,13 +80,18 @@ Kun käyttäjät on luotu Microsoft 365:ssä, heidät voidaan tuoda **Käyttäj�
 
 ## <a name="next-steps"></a>Seuraavat vaiheet
 
-Voit jatkaa luomalla uusia myynti- tai ostoasiakirjoja siirrettyjen tietojen perusteella. Voit luoda nopeasti myyntitarjouksen, myyntilaskun, myyntitilauksen, ostolaskun tai maksurekisteröinnin aloitussivun **Toiminnot**-osassa.
+Voit jatkaa luomalla uusia myynti- tai ostoasiakirjoja siirrettyjen tietojen perusteella. Voit luoda nopeasti myyntitarjouksen, myyntilaskun, myyntitilauksen, ostolaskun tai maksurekisteröinnin aloitussivun **Toiminnot**-osassa. Tutustu [pika-aloituksen](quick-start-business-central.md) artikkeleihin, joiden avulla voit suorittaa ensimmäiset vaiheet.  
 
 ## <a name="see-also"></a>Katso myös
 
+[Business Centralin pika-aloitus](quick-start-business-central.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[Perusasetusten muuttaminen](ui-change-basic-settings.md)  
+[Helppokäyttötoiminnot ja pikanäppäimet](ui-accessibility.md)  
+[Kokeilut ja tilaukset](across-preview.md)  
+[Liiketoiminnan toiminnallisuus](across-business-functionality.md)  
 [Käyttöoikeuksien määrittäminen käyttäjille ja ryhmille](ui-define-granular-permissions.md)  
-[[!INCLUDE[prod_long](includes/prod_long.md)]Kokeilut ja tilaukset](across-preview.md)  
+[Haku ohjeruudusta](product-help-and-support.md#search-in-the-help-pane)  
 [Ohje- ja tukiresurssit](product-help-and-support.md)  
 [Microsoft Learn -sivusto](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 

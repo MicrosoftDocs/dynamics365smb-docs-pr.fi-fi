@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: trade, sell, configure
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: d2b94d03ef8aeb75e9f1300ee90cbc08c22e339c
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: ab745b2f0cc98081bfb9640ca9fc2a2161b62ad2
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6318582"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588648"
 ---
 # <a name="setting-up-sales"></a>Myynnin määrittäminen
 Ennen myyntiprosessien hallinnan aloittamista on määritettävä yrityksen myyntikäytäntöjen säännöt ja arvot.
 
-Ensin määritetään yleiset asetukset, kuten tarvittavat myyntiasiakirjat ja niiden arvojen kirjaustavat. Nämä yleiset asetukset tehdään tavallisesti kerran alustavan käyttöönoton yhteydessä.
+Määritä **Myynti ja myyntisaamiset** -sivun yleiset asetukset, kuten tarvittavat myyntiasiakirjat, niiden arvojen kirjaustapa sekä oletusarvon mukaan luotava rivityyppi. Nämä yleiset asetukset tehdään tavallisesti kerran alustavan käyttöönoton yhteydessä.
 
-Uusien asiakkaiden rekisteröintiin liittyy erillinen sarja tehtäviä, joilla kirjataan kunkin asiakkaan mahdolliset erikoishinta- tai alennussopimukset.
+Uusien asiakkaiden rekisteröintiin liittyy erillinen sarja tehtäviä, joilla kirjataan kunkin asiakkaan mahdolliset erikoishinta- tai alennussopimukset. Lisätietoja on kohdassa [Erityisten myyntihintojen ja alennusten tallentaminen](sales-how-record-sales-price-discount-payment-agreements.md).
 
 Maksumenetelmiä ja valuuttoja sekä muita rahoitukseen liittyviä myyntiasetuksia käsitellään Rahoituksen asetukset -osassa. Lisätietoja on kohdassa [Rahoituksen määrittäminen](finance-setup-finance.md).
 

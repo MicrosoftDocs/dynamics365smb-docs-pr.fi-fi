@@ -7,19 +7,19 @@ ms.topic: conceptual
 ms.search.keywords: app, add-in, manifest, customize
 ms.date: 08/25/2021
 ms.author: edupont
-ms.openlocfilehash: b408afe65f2063ab77dca4e4e87fcfc4715f1204
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: b9a4d6b37bce0772540a307edc9c64cba1780dc5
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440490"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587782"
 ---
 # <a name="customizing-business-central-online-using-extensions"></a>Business Central Onlinen mukauttaminen laajennusten avulla
 
 Voit muuttaa [!INCLUDE[prod_short](includes/prod_short.md)] onlinea asentamalla laajennuksia, jotka sisältävät lisätoimintoja, muuttavat toimintaa tai mahdollistavat esimerkiksi uusien verkkopalveluiden käyttämisen.
 
 > [!NOTE]
-> Jos haluat asentaa AppSourcen laajennuksia tai poistaa niitä tai lisätä vuokraajakohtaisia laajennuksia, sinulla on oltava vaaditut käyttöoikeudet. Sinun täytyy olla jäsen joko EXTEND. MGT. - ADMIN -käyttäjäryhmässsä tai sinulla on oltava EXTEND. MGT. - ADMIN -käyttöoikeudet. Jos olet järjestelmänvalvoja, voit määrittää käyttäjäryhmiä ja käyttöoikeuksia yrityksesi muille käyttäjille.
+> Jos haluat asentaa AppSourcen laajennuksia tai poistaa niitä tai lisätä vuokraajakohtaisia laajennuksia, sinulla on oltava vaaditut käyttöoikeudet. Sinun täytyy olla jäsen joko EXTEND. MGT. - ADMIN -käyttäjäryhmässä tai sinulla on oltava EXTEND. MGT. - ADMIN -käyttöoikeudet. Jos olet järjestelmänvalvoja, voit määrittää käyttäjäryhmiä ja käyttöoikeuksia yrityksesi muille käyttäjille.
 >
 > Jos haluat käyttää laajennuksen mahdollistamaa toimintoa, kuten avata sivuja, suorittaa raportteja tai valita toimintoja, sinulla on oltava käyttöoikeuksien joukko, joka on asennettu laajennuksen osana.
 
@@ -53,32 +53,6 @@ Jos poistat laajennuksen asennuksen ja haluat ottaa sen takaisin käyttöön, vo
 
 Jotkin ovat Microsoftin laajennuksia, jotkin [muiden yritysten](ui-extensions-other.md). Kaikki laajennukset testataan, ennen kuin ne ovat käyttäjien käytettävissä. Suosittelemme kuitenkin lisätietoihin tutustumista laajennuksen mukana saatavien linkkien avulla ennen laajennuksen asentamista.  
 
-Microsoft tarjoaa seuraavat laajennukset:  
-
-* [AMC Banking 365 Fundamentals -laajennus](ui-extensions-amc-banking.md)
-* [Ceridian Payroll](ui-extensions-ceridian-payroll.md)
-* [Yritystoiminto](ui-extensions-company-hub.md)  
-* [Dynamics GP -tietojen siirto](ui-extensions-dynamicsgp-data-migration.md)
-* [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)
-* [Olennaiset liiketoimintanäkemykset](ui-extensions-essential-business-insights.md)
-* [Kuvan analysointitoiminto](ui-extensions-image-analyzer.md)
-* [Älykäs pilvi](ui-extensions-data-replication.md)
-* [Älykäs Pilvipohja](ui-extensions-intelligent-cloud.md)  
-* [Myöhästyneen maksun ennusteet](ui-extensions-late-payment-prediction.md)
-* [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)
-* [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)
-* [QuickBooks-tietojen siirto](ui-extensions-quickbooks-data-migration.md)
-* [QuickBooks Online -tietojen siirto](ui-extensions-quickbooks-online-data-migration.md)
-* [Quickbooks Payroll -tiedostojen tuonti](ui-extensions-quickbooks-payroll.md)
-* [Myynti- ja varastoennuste](ui-extensions-sales-forecast.md)
-* [Arvonlisäveroryhmä](ui-extensions-vat-group.md)
-* [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
-* [DK – C5-tietojen siirto](ui-extensions-c5-data-migration.md)
-* [DK - Maksut ja täsmäytykset](ui-extensions-payments-reconciliation-formats-dk.md)
-* [DK – Verotiedostomuodot](ui-extensions-tax-file-formats-dk.md)
-* [Ison-Britannian postinumeroiden GetAddress.io-laajennus](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)  
-* [US/CA/UK/AU/NZ/ZA - Maksusuositusehdotuksen lähettäminen](ui-extensions-send-remittance-advice.md)
-
 > [!NOTE]  
 > Voit pitää silmällä Microsoftin ja muiden toimittajien uusia laajennuksia osoitteessa [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).
 
@@ -102,6 +76,12 @@ Tämä koskee myös joitakin perussovelluksen toimintoja, kuten seuraavia ominai
 * OCR-palvelu
 * Online Map
 * EU:n ALV-nron tarkistuksen Palvelu
+
+## <a name="recommended-apps"></a>Suositellut sovellukset
+Microsoft-kumppanit ja -jälleenmyyjät voivat luoda laajennuksia, joita he voivat käyttää sovellusluetteloiden laatimiseen, joita he usein suosittelevat asiakkailleen. Jos he tekevät näin ja ovat ottaneet laajennuksen käyttöön vuokraajassasi, sovellukset ovat käytettävissä **Suositellut sovellukset** -sivulla. Siellä voit lukea kustakin sovelluksesta ja päättää, asennetaanko se.
+
+> [!NOTE]
+> Jos olet Microsoft-kumppani tai -jälleenmyyjä ja olet kiinnostunut tarjoamaan luettelon suositelluista sovelluksista, katso [Suositellut sovellukset AppSourcesta](/dynamics365/business-central/dev-itpro/administration/recommend-apps).
 
 ## <a name="see-also"></a>Katso myös
 

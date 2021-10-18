@@ -7,12 +7,12 @@ ms.topic: get-started-article
 ms.search.keywords: news, release plan, roadmap, whats new
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 7d487bdb24284583b2ea11f5f18ae3b9d8b7ab04
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 67767e95743d10b0f0b49ec2c034984187ffc5ff
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438725"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587590"
 ---
 # <a name="new-and-planned-for-dynamics-365-business-central"></a>Uusia ja suunniteltuja ominaisuuksia Dynamics 365 Business Centralille
 
@@ -22,9 +22,9 @@ Voit aina tarkistaa uudet ja tulevat toiminnot julkaisusuunnitelmasta. Voit sitt
 
 Seuraavassa luettelossa on tietoja uusimmista [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelman versioista.  
 
+* [Vuoden 2021 2. julkaisuaalto](/dynamics365-release-plan/2021wave2/smb/dynamics365-business-central/planned-features)  
 * [Vuoden 2021 1. julkaisuaalto](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/planned-features)  
 * [2020 julkaisuaalto 2](/dynamics365-release-plan/2020wave2/smb/dynamics365-business-central/planned-features)  
-* [2020 julkaisuaalto 1](/dynamics365-release-plan/2020wave1/dynamics365-business-central/planned-features)  
 
 Voit myös tutustua [Dynamics 365 Business Central -ominaisuudet](https://dynamics.microsoft.com/business-central/capabilities/) -sivustoon ja [Dynamics 365 Business Central -etenemissuunnitelma](https://dynamics.microsoft.com/roadmap/business-central/) -sivustoon.  
 
@@ -32,9 +32,10 @@ Voit myös tutustua [Dynamics 365 Business Central -ominaisuudet](https://dynami
 
 ## <a name="see-also"></a>Katso myös
 
-[Vieraile Microsoftin videokirjastossa](across-videos.md)  
+[Microsoftin videokirjastoon tutustuminen](across-videos.md)  
 [Ohje- ja tukiresurssit](product-help-and-support.md)  
 [Dynamics 365 Business Central Microsoft Learnissa](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
+[Business Centralin pika-aloitus](quick-start-business-central.md)  
 [Dynamics 365 Business Central ominaisuudet](https://dynamics.microsoft.com/business-central/capabilities/)  
 [Dynamics 365 Business Central -etenemissuunnitelma](https://dynamics.microsoft.com/roadmap/business-central/)  
 [Dynamics 365 -blogi](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/)  

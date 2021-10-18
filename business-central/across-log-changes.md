@@ -10,20 +10,21 @@ ms.workload: na
 ms.search.keywords: user log, user activity, tracking
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 656def609801a85716a4afe57d603fe93eb7569c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4d15eb7ee412b4b7447c179c04b4c434ec5fc8b7
+ms.sourcegitcommit: 99c705d160451c05b226350ff94b52fb0c3ae7a0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770961"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7606437"
 ---
 # <a name="auditing-changes-in-business-central"></a>Business Centralin tilintarkastuksen muutokset
 Monien liikkeenjohtosovellusten yhteisenä haasteena on välttää ei-toivottuja muutoksia tiedoissa. Kyseessä voi olla mikä tahansa väärästä asiakkaan puhelinnumerosta väärään pääkirjanpitokirjaukseen. Tässä ohjeaiheessa kuvataan, miten voidaan selvittää, mitä muutoksia on tehty, kuka sen muutoksen teki ja milloin se tehtiin.
 
 ## <a name="about-the-change-log"></a>Muutoslokista 
-Voit seurata muutoslokiin avulla kaikkia suoria muutoksia, joita käyttäjä tekee tietokannan tietoihin. Jokainen taulukko ja kenttä niissä pitää haluttaessa määrittää erikseen seurattavaksi, ja sitten loki tulee aktivoida.  
+Voit seurata muutoslokiin avulla kaikkia suoria muutoksia, joita käyttäjä tekee tietokannan tietoihin. Jokainen taulukko ja kenttä voidaan haluttaessa määrittää erikseen seurattavaksi, ja sitten loki aktivoidaan.  
 
 Muutosten seuraaminen voi vaikuttaa suorituskykyyn. Tämä voi viedä enemmän aikaa ja suurentaa tietokannan kokoa, jolloin kustannukset saattavat nousta. Voit pienentää näitä kustannuksia seuraavasti:
+
 - Valitse taulukot ja toiminnot huolellisesti.
 - Älä lisää tapahtumia tai kirjattuja asiakirjoja. Sen sijaan priorisoi järjestelmäkenttiä, kuten Luonut ja Luontipäivämäärä.
 - Älä käytä Kaikki kentät -seurantatyyppiä. Valitse sen sijaan "Joitakin kenttiä" ja seuraa vain tärkeimpiä kenttiä.
@@ -32,7 +33,7 @@ Muutosloki perustuu seuraamiesi taulukoiden tietoihin tehtyihin muutoksiin. **Mu
 
 > [!Important]
 > Muutokset näkyvät **Muutoslokin tapahtumat** -kohdassa vasta, kun käyttäjän istunto on käynnistetty uudelleen, mikä tapahtuu seuraavasti:
-<br />
+>
 > * Istunto vanhentui ja se päivitettiin.
 > * Käyttäjä valitsi toisen yrityksen tai roolikeskuksen.
 > * Käyttäjä kirjautui ensin ulos ja sitten takaisin sisään.
@@ -40,7 +41,7 @@ Muutosloki perustuu seuraamiesi taulukoiden tietoihin tehtyihin muutoksiin. **Mu
 ### <a name="working-with-the-change-log"></a>Muutoslokin käyttäminen
 Voit aktivoida muutoslokin ja poistaa sen aktivoinnin **Muutoslokin asetukset** -sivulla. Kun käyttäjä aktivoi muutoslokin tai poistaa sen aktivoinnin, tämä aktiviteetti kirjataan, joten näet aina, kuka käyttäjistä poisti muutoslokin aktivoinnin tai aktivoi sen uudelleen.
 
-Jos valitset **Muutoslokin asetukset** -sivulla **Taulukot**-toiminnon, voit määrittää sekä taulukot, joiden muutoksia seurataan, että seurattavat muutokset. [!INCLUDE[prod_short](includes/prod_short.md)] seuraa myös tiettyjä järjestelmätaulukoita.
+Jos valitset **Muutoslokin asetukset** -sivulla **Taulukot**-toiminnon, voit määrittää sekä taulukot, joiden muutoksia seurataan, että seurattavat muutokset. [!INCLUDE[prod_short](includes/prod_short.md)] seuraa myös useita järjestelmätaulukoita.
 
 > [!NOTE]
 > Voit valvoa tiettyjä muutoksia koskevia kenttiä, kuten arkaluonteisia tietoja sisältäviä kenttiä, määrittämällä kenttien seurannan. Jos teet niin, redundanssin välttämiseksi kenttää sisältävä taulukko ei ole käytettävissä muutoslokin määrityksessä. Lisätietoja on kohdassa [Herkkien kenttien valvonta](across-log-changes.md#monitoring-sensitive-fields).
@@ -60,7 +61,10 @@ Luottamuksellisten tietojen suojaaminen ja yksityisyys ovat useimmille yrityksil
 > Ilmoitusten lähettäminen sähköpostitse edellyttää, että määrität sähköpostiominaisuuden [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmaan. Lisätietoja on kohdassa [Sähköpostin määrittäminen](admin-how-setup-email.md).
 
 ### <a name="setting-up-field-monitoring"></a>Kentän valvonnan asetusten määrittäminen
-**Kentän valvonnan asetusten määrittäminen** -avustetun asennusoppaan avulla kentät, joita haluat seurata suodatusehtojen, kuten kenttien tietojen arkaluonteisuusluokituksen perusteella. Lisätietoja on kohdassa [Tietojen arkaluontoisuuden luokitteleminen](admin-classifying-data-sensitivity.md). Oppaassa voidaan myös määrittää henkilö, joka saa sähköposti-ilmoituksen muutoksen tapahtuessa, sekä sähköpostitili, jolla ilmoitus lähetetään. Sinun täytyy määrittää sekä käyttäjä, jolle ilmoitetaan että tili, josta ilmoitus lähetetään. Kun ohjelma on valmis, voit hallita kentän seurannan asetuksia **Kentän seuranta-asetukset** -sivulla. 
+**Kentän valvonnan asetusten määrittäminen** -avustetun asennusoppaan avulla kentät, joita haluat seurata suodatusehtojen, kuten kenttien tietojen arkaluonteisuusluokituksen perusteella. Lisätietoja on kohdassa [Tietojen arkaluontoisuuden luokitteleminen](admin-classifying-data-sensitivity.md). Oppaassa voidaan myös määrittää henkilö, joka saa sähköposti-ilmoituksen muutoksen tapahtuessa, sekä sähköpostitili, jolla ilmoitus lähetetään. Määritä sekä käyttäjä, jolle ilmoitetaan että tili, josta ilmoitus lähetetään. Kun ohjelma on valmis, voit hallita kentän seurannan asetuksia **Kentän seuranta-asetukset** -sivulla. 
+
+> [!NOTE]
+> Kun määrität sähköpostitilin, josta ilmoitukset lähetetään, sinun on lisättävä joko **Microsoft 365**- tai **SMTP**-tilityyppi. Ilmoitukset tulee lähettää tililtä, jota ei ole liitetty todelliseen käyttäjään. Tämän vuoksi et voi valita **Nykyinen käyttäjä** -tilityyppiä. Jos teet näin, ilmoituksia ei lähetetä. 
 
 **Tarkkailtavien kenttien lokitapahtumat** -sivun tapahtumaluettelo kasvaa ajan mittaan. Voit vähentää merkintöjen määrää luomalla säilytyskäytännön, joka poistaa tapahtumat tietyn ajanjakson jälkeen. Lisätietoja on kohdassa [Säilytyskäytäntöjen määrittäminen](admin-data-retention-policies.md).
 
@@ -73,7 +77,13 @@ Voit hallita kentän seurannan asetuksia, kuten sen, lähetetäänkö sähköpos
 
 ### <a name="working-with-field-monitoring"></a>Kentän seurannan käsitteleminen
 
-Tarkkailtujen kenttien kaikkien muutettujen arvojen tapahtumat ovat käytettävissä **Tarkkailtavat kentät-lokin tapahtumat** -sivulla. Esimerkiksi tapahtumat sisältävät tietoja, kuten kentän, jonka arvoa on muutettu, alkuperäiset ja uudet arvot sekä kuka teki muutoksen ja milloin he tekivät sen. Jos haluat tutkia muutosta edelleen, valitse arvo, joka avaa sivun, jossa se on tehty. Voit tarkastella kaikkien tapahtumien luetteloa valitsemalla **Kentän muutostapahtumat**.
+Tarkkailtujen kenttien kaikkien muutettujen arvojen tapahtumat ovat käytettävissä **Tarkkailtavat kentät-lokin tapahtumat** -sivulla. Merkinnät sisältävät esimerkiksi seuraavat tiedot:
+
+* Kenttä, jonka arvoa on muutettu.
+* Alkuperäiset ja uudet arvot.
+* Kuka teki muutoksen ja milloin. 
+
+Jos haluat tutkia muutosta edelleen, valitse arvo, joka avaa sivun, jossa se on tehty. Voit tarkastella kaikkien tapahtumien luetteloa valitsemalla **Kentän muutostapahtumat**.
 
 ### <a name="viewing-field-monitoring-telemetry"></a>Kentän seurannan telemetrian tarkastelu 
 

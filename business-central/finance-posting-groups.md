@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: posting setup, initialize
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 384bbdbc3630928298367956da133b0b488559b8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fc57271d36d02c3ca7dcb8ad30ce597d9f9a7673
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783507"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588805"
 ---
 # <a name="setting-up-posting-groups"></a>Kirjausryhmien määrittäminen
 Kirjausryhmät yhdistävät objektit, kuten asiakkaat, toimittajat, nimikkeet, resurssit sekä myynti- ja ostoasiakirjoja pääkirjanpidon tileille. Ne säästävät aikaa ja auttavat välttämään virheitä tapahtumia kirjattaessa. Tapahtuman arvot viedään kyseisen objektin kirjausryhmässä määritetylle tilille. Kirjausryhmiä varten tarvitaan vain tilikartta. Lisätietoja on kohdassa [Tilikartan määrittäminen](finance-setup-chart-accounts.md).  
@@ -74,6 +74,14 @@ Kirjausajankohta määräytyy asetusten mukaan. Esimerkiksi jaksoittaiset toimin
 
 ## <a name="copying-posting-setup-lines"></a>Kirjausasetusrivien kopioiminen
 Mitä enemmän tuotteen ja liiketoiminnan kirjausryhmiä on luotu, sitä enemmän rivejä näkyy Yleiset kirjausasetukset -sivulla. Yrityksen yleisten kirjausasetusten määrittäminen voi siis vaatia paljon tietojen syöttämistä. Vaikka liiketoiminnan ja tuotteen kirjausryhmiä saattaa olla useita, eri yhdistelmillä voi kuitenkin kirjata samoille pääkirjanpidon tileille. Manuaalisia vientejä voi rajoittaa kopioimalla pääkirjanpidon tilit aiemmin luodulta riviltä **Yleiset kirjausasetukset** -sivulla.
+
+## <a name="troubleshooting-posting-group-errors"></a>Kirjausryhmän virheiden vianetsintä
+Kirjausryhmät ovat eräs kehittyneimmistä käsitteistä, jotka määritetään [!INCLUDE[prod_short](includes/prod_short.md)]issa. Jos niitä ei ole määritetty oikein, asiakirjojen tai päiväkirjarivien kirjauksessa voi ilmetä virheitä. Virheet johtuvat esimerkiksi siitä, miten kirjanpitotilit määritetään tai miten kirjausryhmät yhdistetään virheellisesti.
+
+Kun jotain on vialla, [!INCLUDE[prod_short](includes/prod_short.md)] -näyttöön tulee **Virhesanomat**-sivu. **Virhesanomat**-sivu voi helpottaa ongelman tunnistamista ja ratkaisemista. Sivulla on kuvaus virheestä, joka korostaa kirjausryhmän asetukset, joihin on kiinnitettävä huomiota. Viesti voi esimerkiksi olla: "Myynnin ennakkomaksutililtä puuttuvat yleiset kirjausasetukset". On myös linkki avata sivu, joka on ongelman aiheuttaja, joten voit nopeasti ratkaista sen.  
+
+> [!NOTE]
+> Yllä kuvattu virheen käsittely ei ole käytettävissä nimike-, resurssi-, työntekijä- ja käyttöomaisuuspäiväkirjoissa tai KP-tileissä, jotka on lisätty kirjausryhmien paikallisiin versioihin.
 
 ## <a name="see-also"></a>Katso myös
 [Pääkirjanpito ja tilikartta](finance-general-ledger.md)  

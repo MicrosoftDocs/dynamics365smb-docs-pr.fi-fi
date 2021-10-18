@@ -8,16 +8,16 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: af5bdf35a2868e735aed32c120a2dcc943391e3e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 3322199feee09c656b01c7723a8c95396015cde4
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435242"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588449"
 ---
 # <a name="send-documents-and-emails"></a>Asiakirjojen ja sähköpostien lähettäminen
 
-Voit helposti jakaa tietoja ja asiakirjoja, kuten myynti- ja ostoilauksia ja laskuja, sähköpostitse suoraan [!INCLUDE[prod_short](includes/prod_short.md)]ista ilman sähköpostisovelluksen avaamista.  
+Voit helposti jakaa tietoja ja asiakirjoja, kuten myynti- ja ostotilauksia ja laskuja, sähköpostitse suoraan [!INCLUDE[prod_short](includes/prod_short.md)]ista ilman sähköpostisovelluksen avaamista.  
 
 Voit lähettää lähes kaikentyyppisiä asiakirjoja PDF-liitteinä. Vaihtoehtoisesti voit määrittää raportin asettelun, joka sisältää asiakirjan tiedot sähköpostin tekstissä sekä tekstin, joka tekee sähköposteista entistä ystävällisempiä, esimerkiksi vakiotervehdyksen. Lisätietoja on kohdassa [Raporttien ja asiakirjojen asettelujen hallinta](ui-manage-report-layouts.md). <!--this topic does not mention how to set up a layout for email. Need to investigate.-->
 
@@ -33,7 +33,7 @@ Ota sähköpostit käyttöön [!INCLUDE[prod_short](includes/prod_short.md)]issa
 Tässä kuvataan, miten kirjattu myyntilasku liitetään sähköpostiin PDF-tiedostona ja asiakirjakohtaisen sähköpostiviestin tekstinä. <!--update this-->
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kirjatut myyntilaskut** ja valitse sitten vastaava linkki.
-2. Valitse lasku ja sitten **Tulosta/Lähetä**-toiminto.
+2. Valitse lasku ja sitten **Tulosta/Lähetä**-toiminto ja valitse **Lähetä**.
 3. Valitse **Sähköposti**-kentässä **Kyllä (Pyydä asetuksia)**. Lisätietoja on kohdassa [Asiakirjan lähetysprofiilien määrittäminen](sales-how-setup-document-send-profiles.md).
     
     Jos **Sähköposti**-kentän arvoksi on **Lähetä asiakirja kohteeseen** -sivulla määritetty **Kyllä (Pyydä asetuksia)**, **Lähetä sähköposti** -sivu avautuu. Sivun **Vastaanottaja:**-kenttään on esitäytetty kontaktihenkilön tiedot ja asiakirja on liitetty PDF-tiedostona. Voit syöttää tekstin manuaalisesti **Perusteksti**-kenttään tai kenttään voidaan täyttää määrittämäsi asiakirjakohtaisen sähköpostin perusteksti.
@@ -51,9 +51,10 @@ Tässä kuvataan, miten kirjattu myyntilasku liitetään sähköpostiin PDF-tied
 > Jos et halua määrittää sähköpostiviestin asetuksia aina, kun lähetät asiakirjan sähköpostitse, valitse **Kyllä (Käytä oletusasetuksia)** -vaihtoehto **Lähetä asiakirja kohteeseen** -sivun **Sähköposti**-kentässä. Tällöin **Lähetä sähköposti** -sivu ei avaudu. Lisätietoja on vaiheessa 4. Lisätietoja on kohdassa [Asiakirjan lähetysprofiilien määrittäminen](sales-how-setup-document-send-profiles.md).  
 
 ## <a name="to-compose-and-send-an-email"></a>Sähköpostin kirjoittaminen ja lähettäminen
+Voit luoda nopeasti sähköpostit kontakteille, asiakkaille, toimittajille, myyjille/ostajille ja pankkitileille suoraan kyseisten entiteettien sivuilta. Valitse vain **Käsittele** ja **Lähetä sähköpostiviesti** sähköpostieditorin avaamista varten. Pankkitileille **Lähetä sähköpostiviesti** -toiminto on kohdassa **Toiminnot**.
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sähköpostitilit** ja valitse sitten vastaava linkki.
-2. Valitse tili, josta sähköpostiviesti lähetetään, ja valitse sitten **Luo sähköpostiviesti** -toiminto.
+> [!TIP]
+> Jos lähetät usein samankaltaisia sähköpostiviestejä tai haluat lähettää joukkoviestintää esimerkiksi myyntikampanjan mainostamista varten, voit nopeuttaa prosessia käyttämällä Word-malleja sähköpostiviesteissä. Voit luoda mallin sellaisille entiteeteille kuten asiakkaat, toimittajat ja kontaktit, jotka luovat sähköpostiviestin sisällön ja jopa räätälöivät sen vastaanottajan mukaan [!INCLUDE[prod_short](includes/prod_short.md)]in tietojen perusteella. Lisätietoja on kohdassa [Word-mallien käyttäminen joukkoviestinnässä](ui-mail-merge.md).  
 
 ## <a name="documents-marked-as-printed-when-they-are-sent"></a>Asiakirjat, jotka on merkitty tulostetuiksi, kun ne lähetetään
 

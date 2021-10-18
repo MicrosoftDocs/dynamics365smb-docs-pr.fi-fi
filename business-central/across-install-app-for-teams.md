@@ -10,18 +10,21 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: ef2c12ea5e956b9bfdaeb2c464ac74684b630c48
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 420a94c3996840c2d75687f533e06625258ca0f7
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440848"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588174"
 ---
 # <a name="install-the-prod_short-app-for-microsoft-teams"></a>Asenna [!INCLUDE [prod_short](includes/prod_short.md)] -sovellus Microsoft Teamsiin
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
 Tässä artikkelissa opit asentamaan [!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksen [Microsoft Teamsiin](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams). Sovellus on saatavilla Teams marketplacesta, ja sitä voi käyttää Teamsin verkko-, työpöytä- tai mobiilisovelluksella.
+
+> [!NOTE]
+> Järjestelmänvalvoja on saattanut määrittää asiat niin, että sovellus asennetaan automaattisesti puolestasi. Jos haluat tarkistaa, onko sovellus asennettu, avaa Teams ja valitse **Sovellukset**. Etsi **Business Central** ja valitse se, kun löydät sen. Jos näet **Avaa**-painikkeen **Business Central** -sivulla, sovellus on jo asennettu.  
 
 ## <a name="prerequisites"></a>Vaatimukset
 
@@ -35,9 +38,9 @@ Tässä artikkelissa opit asentamaan [!INCLUDE [prod_short](includes/prod_short.
 
 ## <a name="add-the-business-central-app-to-teams"></a>Lisää Business Central -sovellus Teamsiin
 
-Business Central -sovelluksen voi asentaa kahdella tavalla:
+Business Central -sovelluksen voi asentaa kolmella tavalla:
 
-**Vaihtoehto 1**
+**Vaihtoehto 1: linkistä**
 
 Tämä vaihtoehto on nopein tapa asentaa sovellus.
 
@@ -49,7 +52,7 @@ Tämä vaihtoehto on nopein tapa asentaa sovellus.
 
 3. Valitse **Lisää**.
 
-**Vaihtoehto 2**
+**Vaihtoehto 2: Teamsista**
 
 1. Avaa ja kirjaudu Teamsiin.
 2. Valitse vasemmasta reunasta **Sovellukset**.
@@ -59,6 +62,13 @@ Tämä vaihtoehto on nopein tapa asentaa sovellus.
 
 > [!NOTE]
 > Kummassakin tapauksessa pyydetään kirjautumaan [!INCLUDE [prod_short](includes/prod_short.md)] -sovellukseen. Valitse **kirjautumisen** linkki ja anna [!INCLUDE [prod_short](includes/prod_short.md)] -kirjautumisnimi ja -salasana ohjeiden mukaan.
+
+**Vaihtoehto 3: Business Centralista**
+
+1. Avaa Business Central.
+2. Valitse ![Suurennuslasi, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita **Hae Business Central -sovellus Teamsille** ja valitse sitten liittyvä linkki.  
+3. Valitse **Hae sovellus kaupasta**.
+4. Odota, että Teams avautuu ja Business Central -sovellus tulee näkyviin, ja valitse sitten **Lisää**.
 
 ## <a name="next-step"></a>Seuraava vaihe
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/14/2021
+ms.date: 09/30/2021
 ms.author: bholtorf
-ms.openlocfilehash: f3aa23c9037d47785bb6d07a51e3d48ff28c5747
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: 7711fc0dc0ad7256f6ed58962634e39bbad86cfe
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440539"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587757"
 ---
 # <a name="connect-to-microsoft-dataverse"></a>Yhteyden muodostaminen Microsoft Dataverseen
 
@@ -107,9 +107,70 @@ The following video shows the steps to connect [!INCLUDE[prod_short](includes/pr
 
 -->
 
+## <a name="customize-the-match-based-coupling"></a>Osumapohjaisen yhdistämisen mukauttaminen
+
+Alkaen vuoden 2021 2. julkaisuaallosta voit yhdistää tietueita [!INCLUDE [prod_short](includes/prod_short.md)]issa ja [!INCLUDE [cds_long_md](includes/cds_long_md.md)]issa ylläpitäjän määrittelemien vastaavuuskriteerien perusteella.  
+
+Tietueiden vastaavuuden algoritmi voidaan aloittaa seuraavista paikoista [!INCLUDE [prod_short](includes/prod_short.md)]ista:
+
+* Luettelosivut, jotka näyttävät [!INCLUDE [cds_long_md](includes/cds_long_md.md)]in kanssa synkronoitavia tietueita , kuten Asiakkaat- ja Nimikkeet-sivut.  
+
+    Valitse monta tietuetta ja valitse sitten **Liittyvä**-toiminto, valitse **Dataverse**, valitse **Yhdistäminen** ja valitse sitten **Vastaavuuspohjainen yhdistäminen**.
+
+    Kun vastaavuuspohjainen yhdistämisprosessi aloitetaan päätietoluettelosta, yhdistämistyö ajoitetaan suoraan sen jälkeen, kun olet valinnut yhdistämiskriteerit.  
+* **Täyden Dataverse-synkr. tarkistus** -sivu.  
+
+    Kun täyden synkronoinnin prosessi havaitsee, että ei-sidottuja tietueita on sekä [!INCLUDE [prod_short](includes/prod_short.md)]issa että [!INCLUDE [cds_long_md](includes/cds_long_md.md)]issa, **Valitse yhdistämisehdot** -linkki näkyy asianomaisen integrointitaulukon kohdalla.  
+
+    Voit käynnistää **Suorita täysi synkronointi** -toiminnon **Dataverse-yhteyden määritys**- ja **Dynamics 365 -yhteyden määritys** -sivuilta, ja se voidaan aloittaa vaiheena kohdassa **Määritä yhteys Dataverseen** avustetussa asennusoppaassa, kun valitset suorittaa asennuksen loppuun ja suorittaa täydellisen synkronoinnin lopussa.  
+
+    Kun vastaavuuspohjainen yhdistämisprosessi aloitetaan **Täyden Dataverse-synkr. tarkistus** -sivulta, yhdistämistyö ajoitetaan suoraan sen jälkeen, kun määritys on valmis.  
+* **Integrointitaulukon yhdistämismääritysluettelo**.  
+
+    Valitse yhdistämismääritys, sitten **Yhdistäminen**-toiminto ja valitse sitten **Vastaavuuspohjainen yhdistäminen**.
+
+    Kun vastaavuuspohjainen yhdistämisprosessi aloitetaan integrointitaulukon yhdistämismäärityksestä, kaikki kyseisen yhdistämismäärityksen yhdistelemättömien tietueiden yhdistämistyöt suoritetaan. Jos se on suoritettu luettelon valituille tietueille, se suoritetaan vain valittujen kytkemättömien tietueiden osalta.
+
+Kaikissa kolmessa tapauksessa **Valitse yhdistämisehdot** -sivu avautuu, jotta voit määrittää asianmukaiset kytkentäkriteerit. Mukauta tällä sivulla kytkentä seuraavien tehtävien avulla:
+
+* Valitse kentät , joiden mukaan [!INCLUDE [prod_short](includes/prod_short.md)] -tietueet ja [!INCLUDE [cds_long_md](includes/cds_long_md.md)] -entiteetit vastaavat toisiaan, ja valitse, otetaanko kentässä huomioon kirjainkoko.  
+
+* Määritä, suoritetaanko synkronointi tietueiden yhdistämisen jälkeen, ja jos tietue käyttää kaksisuuntaista yhdistämistä, valitse myös, mitä tapahtuu, jos ristiriidat on luetteloitu **Ratkaise päivitysristiriidat** -sivulla.  
+
+* Priorisoi tietueiden hakujärjestystä määrittämällä asianmukaisten yhdistettävien kenttien *vastaavuusprioriteetti*. Vastaavuusprioriteetti saa algoritmin hakemaan vastaavuutta useissa toistoissa, jotka on määritetty **Vastaavuusprioriteetti** -kentän arvoissa nousevassa järjestyksessä. **Vastaavuusprioriteetti**-kentässä oleva tyhjä arvo tulkitaan prioriteetiksi 0, joten tämän arvon kentät otetaan ensin huomioon.  
+
+* Määrittää, luodaanko uusi entiteettiesiintymä [!INCLUDE [cds_long_md](includes/cds_long_md.md)]issa siinä tapauksessa, että hakuehdoilla ei löydy yksilöllistä yhdistämättä olevaa vastaavuutta. Voit aktivoida tämän ominaisuuden valitsemalla **Luo uusi, jos ei löydy vastaavuutta** -toiminto.  
+
+### <a name="view-the-results-of-the-coupling-job"></a>Yhdistämistyön tulosten tarkasteleminen
+
+Jos haluat tarkastella yhdistämistyön tuloksia, avaa **Integrointitaulukon yhdistämismääritykset** -sivu, valitse haluamasi linkitys, valitse **Yhdistäminen**-toiminto ja valitse sitten **Integroinnin yhdistämistyön loki** -toiminto.  
+
+Jos tietueita ei ole kytketty, voit porautua alaspäin Epäonnistunut-sarakkeen arvoon, jolloin näyttöön tulee virheluettelo, joka määrittää, miksi tietueita ei voitu yhdistää.  
+
+Epäonnistunut kytkentä tapahtuu usein seuraavissa tapauksissa:
+
+* Vastaavuuskriteerejä ei ole määritetty
+
+    Tässä tapauksessa suorita vastaavuuspohjainen yhdistäminen uudelleen, mutta muista määrittää yhdistämiskriteerit.
+
+* Useista tietueista ei löytynyt vastaavuutta valittujen vastaavien kenttien perusteella.
+
+    Toista tässä tapauksessa yhdistäminen joillakin muilla vastaavilla kentillä.
+
+* Useista tietueista löytyi useita vastaavuuksia valittujen vastaavien kenttien perusteella  
+
+    Toista tässä tapauksessa yhdistäminen joillakin muilla vastaavilla kentillä.
+
+* Löytyi yksi vastine, mutta vastaava tietue on jo liitetty toiseen tietueeseen [!INCLUDE [prod_short](includes/prod_short.md)]issa  
+
+    Toista tässä tapauksessa kytkentä jollakin muulla vastaavalla kentällä tai tutki, miksi kyseinen [!INCLUDE [cds_long_md](includes/cds_long_md.md)] -objekti on liitetty kyseiseen toiseen tietueeseen [!INCLUDE [prod_short](includes/prod_short.md)]issa.
+
+> [!TIP]
+> Jotta saat yleiskuvan yhdistämisen edistymisestä, **Yhdistetty Dataverseen** -kentässä näkyy, onko tietty tietue liitetty [!INCLUDE [cds_long_md](includes/cds_long_md.md)] -kohteeseen vai ei. Voit suodattaa tämän kentän mukaan [!INCLUDE [cds_long_md](includes/cds_long_md.md)]in kanssa synkronoitavien tietueiden luettelon.
+
 ## <a name="upgrade-connections-from-business-central-online-to-use-certificate-based-authentication"></a>Päivitä yhteydet Business Central Onlinesta käyttääksesi varmennepohjaista todennusta
 > [!NOTE]
-> Tämä osa on merkityksellinen vain Microsoftin isännöimille Business Central online -vuokraajille. Tämä ei vaikuta ISV-isännöityihin online-vuokralaisiin tai paikan päällä tehtyihin asennuksiin.
+> Tämä osa on merkityksellinen vain Microsoftin isännöimille [!INCLUDE[prod_short](includes/prod_short.md)] online -vuokraajille. Tämä ei vaikuta ISV-isännöityihin online-vuokralaisiin tai paikan päällä tehtyihin asennuksiin.
 
 Huhtikuussa 2022 [!INCLUDE[cds_long_md](includes/cds_long_md.md)]issa vanhentuu Office365-todennustyyppi (käyttäjänimi/salasana). Lisätietoja on kohdassa [Office365-todennustyypin vanheneminen](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse). Lisäksi maaliskuussa 2022 [!INCLUDE[prod_short](includes/prod_short.md)]issa vanhenee online-vuokraajien asiakassalaisuuspohjaisen palvelujenvälisen todennuksen käyttö [!INCLUDE[cds_long_md](includes/cds_long_md.md)] -yhteyksissä. ISV-toimittajien isännöimät [!INCLUDE[prod_short](includes/prod_short.md)] online -vuokralaiset ja paikalliset asennukset voivat edelleen käyttää asiakkaan salaisuuden todennusta yhteyden muodostamiseen kohteeseen [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 

@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: configure, initialize
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: c2edc726ef61f832e0db4ca93300c89342b400e0
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 5cbd8a674945fa5c33d502cffb865677c66bce39
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441420"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588474"
 ---
 # <a name="overview-of-tasks-to-set-up-prod_short"></a>[!INCLUDE[prod_short](includes/prod_short.md)]in määritystehtävien yleiskatsaus
 
-[!INCLUDE[prod_short](includes/prod_short.md)] sisältää vakiomääritykset useimmille liiketoimintaprosesseille. Voit muuttaa määritykset organisaatiosi tarpeita vastaaviksi.  
+[!INCLUDE[prod_short](includes/prod_short.md)] sisältää vakiomääritykset useimmille liiketoimintaprosesseille. Voit muuttaa määritykset organisaatiosi tarpeita vastaaviksi. [Business Centralin pika-aloituksen](quick-start-business-central.md) artikkelien avulla voit ottaa ensimmäiset askelet [!INCLUDE [prod_short](includes/prod_short.md)]in käyttöönotossa. Tässä artikkelissa on yleiskuvaus siitä, miten voit määrittää [!INCLUDE [prod_short](includes/prod_short.md)]in organisaatiollesi.  
 
 Esimerkiksi tilikarttaan on kerätty käyttövalmiita kirjaustilejä. Voit tietysti muuttaa tilikarttaa liiketoimintasi vaatimalla tavalla. Lisätietoja on kohdassa [Rahoitus](finance.md).
 
@@ -77,6 +77,7 @@ Joidenkin alueiden edellytyksenä on, että käyttäjä on [!INCLUDE[prod_short]
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Uusien yritysten luominen [!INCLUDE[prod_short](includes/prod_short.md)]issa](about-new-company.md)  
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
+[Business Centralin pika-aloitus](quick-start-business-central.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

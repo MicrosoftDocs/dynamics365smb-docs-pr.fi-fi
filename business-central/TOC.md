@@ -41,7 +41,10 @@
 ##### [Rakennetiedot: Nimikkeen kohdistus](design-details-item-application.md)  
 ##### [Rakennetiedot: Nimikkeen kohdistuksen tunnettu ongelma](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 ##### [Rakennetiedot: Kustannuksen muutos](design-details-cost-adjustment.md)  
-##### [Rakennetiedot: Muutoksen arvotapahtuman kirjauspäivämäärä](design-details-inventory-adjustment-value-entry-posting-date.md)  
+##### Rakennetiedot: Muutoksen arvotapahtuman kirjauspäivämäärä
+###### [Rakennetiedot: Muutoksen arvotapahtuman kirjauspäivämäärä](design-details-inventory-adjustment-value-entry-posting-date.md)  
+###### [Virhesanoma: "Kirjauspäivämäärä ei kuulu sallittujen kirjauspäivämäärien alueeseen"](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
+###### [Oikaisun arvon tapahtuman kirjauspäivämäärä verrattuna lähdetapahtumaan](design-details-inventory-adjustment-value-entry-source-entry.md)  
 ##### [Rakennetiedot: Oletetun kustannuksen kirjaus](design-details-expected-cost-posting.md)  
 ##### [Rakennetiedot: Keskimääräinen kustannus](design-details-average-cost.md)  
 ##### [Rakennetiedot: varianssi](design-details-variance.md)  
@@ -94,6 +97,12 @@
 ### [Tilauksen käytön aloittaminen](across-preview.md#getting-started-with-a-subscription)
 ### [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)
 
+## Pikaoppaat
+### [Business Centralin pika-aloitus](quick-start-business-central.md)
+### [Yrityksen tietojen määrittäminen](quick-start-company-information.md)
+### [Tuotteiden ja palveluiden myynti](quick-start-sell-products-and-services.md)
+### [Tuotteiden ja palveluiden ostaminen](quick-start-procurement.md)
+
 <!--setup-->
 ## Business Central -sovelluksen määrittäminen
 ### [Tehtävien yleiskuvaus](setup.md)
@@ -133,6 +142,7 @@
 #### [Uusien asiakkaiden rekisteröinti](sales-how-register-new-customers.md)
 #### [Asiakasmaksujen ottaminen käyttöön maksupalvelujen kautta](sales-how-enable-payment-service-extensions.md)
 #### [Erikoismyyntihintojen ja -alennusten kirjaaminen](sales-how-record-sales-price-discount-payment-agreements.md)
+#### [Asiakashintaryhmien määrittäminen](sales-how-to-set-up-customer-price-groups.md)
 #### [Myyjien määrittäminen](sales-how-setup-salespeople.md)
 #### [Asiakirjan lähetysprofiilien määrittäminen](sales-how-setup-document-send-profiles.md)
 #### [Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md)
@@ -240,14 +250,16 @@
 #### [Vihjeitä: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
 ### Sähköpostin määrittäminen
 #### [Määritä sähköposti](admin-how-setup-email.md)
-#### Määritä yrityssähköpostisi Microsoft Outlookiin 
-##### [Business Central -sovelluksen käyttäminen yrityssähköpostina Outlookissa](admin-outlook.md)
+#### Määritä yrityssähköpostisi Microsoft Outlookiin
+##### [Business Central -apuohjelman hankkiminen Outlookiin](admin-outlook.md)
+##### [Business Central -sovelluksen käyttäminen yrityssähköpostina Outlookissa](work-outlook-addin.md)
 ##### [Synkronoiminen Outlookin kontaktien kanssa](admin-synchronize-outlook-contacts.md)
 ##### [Optimoi Outlook](admin-outlook-optimize.md)
 ##### [Business Central -sovelluksen käyttäminen ilman Outlookia](admin-no-outlook.md)
 ### Raporttien määrittäminen
 #### [Raporttivalinta](across-report-selections.md)
 ### Yhteyksien määrittäminen
+#### [Business Central -apuohjelman hankkiminen Exceliin](admin-deploy-excel-addin.md)
 #### Business Central -sovelluksen käyttäminen yrityssähköpostina Outlookissa 
 ##### [Yleiskuvaus](admin-outlook.md)
 ##### [Yhteyshenkilöiden synkronointi Microsoft Outlookissa](admin-synchronize-outlook-contacts.md)
@@ -257,10 +269,15 @@
 ##### [Teamsin integroinnin hallinta](admin-teams-integration.md)
 ##### [Business Central -sovelluksen asentaminen Teamsiin](across-install-app-for-teams.md)
 ##### [Asiakkaiden, toimittajien ja yhteyshenkilöiden hakeminen](across-search-contacts-teams.md)
-##### [Tietueiden jakaminen Teamsissa](across-working-with-teams.md)
+##### [Tietueiden ja sivulinkkien jakaminen Teamsissa](across-working-with-teams.md)
 ##### [Yrityksen ja muiden asetusten muuttaminen](across-teams-settings.md)
 ##### [Teams – usein kysytyt kysymykset](teams-faq.md)
 ##### [Vianetsintä](admin-teams-troubleshooting.md)
+#### OneDrive for Businessin käyttäminen Business Centralin kanssa
+##### [Yleiskuvaus](across-onedrive-overview.md)
+##### [OneDrive for Business -integraation hallinta](admin-onedrive-integration.md)
+##### [Business Central-tiedostojen avaaminen OneDrivessa](across-share-onedrive.md)
+##### [OneDrive – usein kysytyt kysymykset](admin-onedrive-faq.md)
 #### Power BI:n käyttäminen Business Centralin kanssa
 ##### [Esittely](admin-powerbi.md)
 ##### Järjestelmänvalvoja
@@ -285,6 +302,8 @@
 ### [Peruskalenterien määrittäminen](across-how-to-assign-base-calendars.md)
 ### [Tulostimien määrittäminen](ui-specify-printer-selection-reports.md)
 ### [Business Central -sovelluksen hakeminen mobiililaitteeseen](install-mobile-app.md)
+### [Business Centralin asentaminen työpöydälle](install-desktop-app.md)
+
 
 ## Usein kysytyt kysymykset
 ### [Usein kysytyt kysymykset](across-faq.yml)
@@ -329,7 +348,9 @@
 ## [Pakollisten kenttien havaitseminen](ui-mandatory-fields.md)
 ## [Kielen ja alueen muuttaminen](about-locale-language.md)
 ## [Tarkastelu ja muokkaus Excelissä](across-work-with-excel.md)
+## [Tiedostojen tallentaminen ja jakaminen OneDrivessa](across-share-onedrive.md)
 ## [Korttien ja asiakirjojen liitteiden, linkkien ja muistioiden hallinta](ui-how-add-link-to-record.md)
+## [Word-mallien käyttö joukkoviestinnässä](ui-mail-merge.md)
 ## [Perusasetusten muuttaminen](ui-change-basic-settings.md)
 ## [Siirtyminen toiseen yritykseen tai ympäristöön](ui-organization-switch.md)
 ## [Ilmoitusten hallinta](ui-smart-notifications.md)
@@ -608,6 +629,7 @@
 ### [Suoratoimitusten tekeminen](sales-how-drop-shipment.md)
 ### [Erikoistilausten luominen](sales-how-to-create-special-orders.md)
 ### [Myynnin palautusten tai peruutusten käsittely](sales-how-process-sales-returns-cancellations.md)
+### [Myyntipalautustilausten käsittely](sales-how-process-sales-returns-orders.md)
 ### [Maksamattomien myyntilaskujen korjaaminen tai peruuttaminen](sales-how-correct-cancel-sales-invoice.md)
 ### [Puitemyyntitilausten käyttäminen](sales-how-to-create-blanket-sales-orders.md)
 ### [Toimitusten yhdistäminen yhteen laskuun](sales-how-to-combine-shipments-on-a-single-invoice.md)
@@ -653,7 +675,7 @@
 ### [Sarja-, erä- ja pakettinumeroita sisältävien nimikkeiden seurannan määrittäminen](inventory-how-setup-item-tracking.md)
 ### [Sarja-, erä- ja pakettinumeroita sisältävien nimikkeiden seuraaminen](inventory-how-work-item-tracking.md)
 ### [Nimikeseurannan nimikkeiden jäljittäminen](inventory-how-to-trace-item-tracked-items.md)
-### [Nimikkeen viittausten käyttäminen](inventory-how-use-item-cross-refs.md)
+### [Käytä nimikeviittauksia](inventory-how-use-item-cross-refs.md)
 ### [Nimikkeiden estäminen](inventory-how-block-items.md)
 ### [Vastuupaikkojen käyttäminen](inventory-responsibility-centers.md)
 
@@ -951,10 +973,12 @@
 ##### [Käyttöomaisuuden lokalisointi – Tšekki (laajennus)](LocalFunctionality/Czech/ui-extensions-fixed-asset-localization-cz.md)
 #### Pankkitoiminta ja maksut
 ##### [Pankkiominaisuus](LocalFunctionality/Czech/bank-feature.md)
+##### [Pankkidokumenttien lokalisointi tšekinkielistä versiota varten (laajennus)](LocalFunctionality/Czech/ui-extensions-banking-documents-localization-cz.md)
 ##### [Kassanhallinta](LocalFunctionality/Czech/cash-desk-management.md)
 ##### [Kassan lokalisointi – Tšekki (laajennus)](LocalFunctionality/Czech/ui-extensions-cash-desk-localization-cz.md)
 ##### [Myynnin rekisteröinti (EET)](LocalFunctionality/Czech/eet.md)
 ##### [Lisäasetukset](LocalFunctionality/Czech/advances.md)
+##### [Ennakkomaksujen lokalisointi tšekinkielistä versiota varten (laajennus)](LocalFunctionality/Czech/ui-extensions-advance-payments-localization-cz.md)
 #### Ostovelat ja myyntisaamiset
 ##### [Ostovelat ja myyntisaamiset](LocalFunctionality/Czech/receivables-payables.md)
 ##### [Intrastat](LocalFunctionality/Czech/intrastat.md)
@@ -1085,6 +1109,7 @@
 
 ### Intia
 #### [Yleiskuvaus](LocalFunctionality/India/india-local-functionality.md)
+#### [Kirjauksen numerosarjojen määrittäminen](LocalFunctionality/India/posting-no-series-setup.md)
 #### Veromoduuli
 ##### [Yleiskuvaus](LocalFunctionality/India/TaxEngine-001-Overview.md)  
 ##### [Veromoduulin tuonnin ja viennin konfiguraatio](LocalFunctionality/India/TaxEngine-002-Import-Export-Configuration.md)
@@ -1161,6 +1186,8 @@
 ##### [TDS väliaikainen merkintä](LocalFunctionality/India/TDS-Provisional-Entries.md)
 ##### [TDS-muutoksen merkintä](LocalFunctionality/India/TDS-Adjustment-Entries.md)
 ##### [TDS-maksu viranomaiselle](LocalFunctionality/India/TDS-TDS-Payment-to-Authority.md)
+##### [TDS 194Q -osion yleiskuvaus](LocalFunctionality/India/TDS-194Q-Section-Overview.md)
+##### [TDS 194Q -tapahtumat](LocalFunctionality/India/TDS-194Q-Transactions.md)
 #### Asiakkaan TDS
 ##### [Asiakkaan yleiskatsauksen TDS](LocalFunctionality/India/TDS-for-Customer-Overview.md)
 ##### [TDS-laskenta asiakkaalle](LocalFunctionality/India/TDS-Calculation-for-Customer.md)
@@ -1188,6 +1215,7 @@
 ##### [Alihankintatapahtumat](LocalFunctionality/India/Subcontracting-Transactions.md)
 ##### [GST-velan luonti](LocalFunctionality/India/Subcontracting-Create-GST-Liability.md)
 ##### [Alihankintaraportti](LocalFunctionality/India/Subcontracting-Reports.md)
+#### [Stale Cheque](LocalFunctionality/India/Stale-Check.md)
 
 ### Italia
 #### [Paikallinen toiminnallisuus Italian versiossa](LocalFunctionality/Italy/italy-local-functionality.md)
@@ -1603,6 +1631,7 @@
 ### [Muutosten kirjaaminen lokiin](across-log-changes.md)
 ### [Työjonojen käyttäminen tehtävien aikatauluttamiseen](admin-job-queues-schedule-tasks.md)
 ### [Hallitse tallennustilaa pakkaamalla tietoja tai poistamalla asiakirjoja](admin-manage-documents.md)
+### [Arkistoi tiedot](admin-archive-data.md)
 ### [Tietojen säilytyskäytäntöjen määrittäminen](admin-data-retention-policies.md)
 ### [Verkkopalvelun julkaiseminen](across-how-publish-web-service.md)
 ### [API-mallien määritys](admin-configuring-api-template.md)
@@ -1613,7 +1642,7 @@
 ### [Näyttää taulukon tiedot](admin-view-table-information.md)
 ### [Uusien ominaisuuksien käyttöönotto etuajassa](admin-feature-management.md)
 ### [Käyttäjien perehdyttäminen tarkistusluetteloiden avulla](admin-checklist.md)
-### [Eristysympäristöt](across-how-create-sandbox-environment.md)
+### [Eristysympäristöt](admin-sandbox-environments.md)
 ## Business Central -sovelluksen mukauttaminen
 ### [Mukautuksen yleiskuvaus](ui-customizing-overview.md)
 ### [Profiilien sivujen mukauttaminen](ui-personalization-manage.md)

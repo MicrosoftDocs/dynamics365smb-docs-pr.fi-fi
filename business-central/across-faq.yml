@@ -6,14 +6,14 @@ metadata:
   ms.service: dynamics365-business-central
   ms.topic: conceptual
   ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-  ms.date: 08/24/2021
+  ms.date: 09/29/2021
   ms.author: edupont
-  ms.openlocfilehash: 3cc1b5fc394d63cd3741337263eafecdfa878fbb
-  ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+  ms.openlocfilehash: 53f4a87fea747b59bed7942885b1374377381029
+  ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
   ms.translationtype: HT
   ms.contentlocale: fi-FI
-  ms.lasthandoff: 08/27/2021
-  ms.locfileid: "7440689"
+  ms.lasthandoff: 10/01/2021
+  ms.locfileid: "7588108"
 title: Usein kysyttyjä kysymyksiä Business Centralin käyttämisestä
 summary: "Tässä osassa on vastauksia [!INCLUDE[prod_short](includes/prod_short.md)]in kokeiluversioon rekisteröitymiseen, tilauksen ostamisen ja sen käyttämiseen liittyviin usein kysyttyihin kysymyksiin. Saat myös lisätietoja teknisen tuen saamisesta.  \n"
 sections:
@@ -27,7 +27,7 @@ sections:
     answer: "Voit tutustua [!INCLUDE[prod_short](includes/prod_short.md)]iin rekisteröitymällä maksuttomaan kokeiluversioon. [!INCLUDE[free_trial_md](includes/free_trial_md.md)] Jos haluat enemmän aikaa perehtymiseen, [voit pidentää kokeilujaksoa](#can-i-extend-my-30-day--new-company--trial-period-).  \n\nPääset [!INCLUDE[prod_short](includes/prod_short.md)]in käytön alkuun käynnistämällä asetusten ohjatut määritysoppaat, videot tai valitut asennustehtävien ohjeaiheet. Lisätietoja on kohdassa [Valmistautuminen liiketoimintaan](ui-get-ready-business.md).  \n\nKun olet valmis ostamaan [!INCLUDE[prod_short](includes/prod_short.md)]in, voit etsiä [!INCLUDE[prod_short](includes/prod_short.md)]in kumppanin [Ratkaisutoimittajien haku](https://go.microsoft.com/fwlink/?linkid=2038145) -sivulla. Lisätietoja on kohdassa [Miten löydän jälleenmyyjäkumppanin?](#how-do-i-find-a-reselling-partner).  \n"
   - question: >
       Mistä saan tarvittaessa lisätietoja?
-    answer: "Jos sinulla on sellaisia [!INCLUDE[prod_short](includes/prod_short.md)]ia koskevia kysymyksiä, joihin ei ole vastauksia tässä dokumentaatiossa, voit kysyä asiaa Business Central -yhteisöltä. Lisätietoja on kohdassa [Dynamics 365 Business Central -yhteisö](https://community.dynamics.com/business).  \n\nYhteisön kotisivulta on lisäksi linkkejä blogeihin, joissa on lisää vihjeitä. Lisätietoja on [Microsoft Dynamics 365 Business Centralia käsittelevässä Dynamics 365 -blogissa](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) ja vanhoissa [Dynamics 365 Business Central -blogeissa](https://community.dynamics.com/business/b/financials).  \n\nViime kädessä voi ottaa yhteyttä [!INCLUDE[prod_short](includes/prod_short.md)]in jälleenmyyntikumppaniin. Lisätietoja on kohdassa [Miten saan teknistä tukea?](/dynamics365/business-central/across-faq#hdigetsupport) ja [Miten löydän jälleenmyyjäkumppanin?](#how-do-i-find-a-reselling-partner) -osissa.  \n"
+    answer: "Jos sinulla on sellaisia [!INCLUDE[prod_short](includes/prod_short.md)]ia koskevia kysymyksiä, joihin ei ole vastauksia tässä dokumentaatiossa, voit kysyä asiaa Business Central -yhteisöltä. Lisätietoja on kohdassa [Dynamics 365 Business Central -yhteisö](https://community.dynamics.com/business).  \n\nYhteisön kotisivulta on lisäksi linkkejä blogeihin, joissa on lisää vihjeitä. Lisätietoja on [Microsoft Dynamics 365 Business Centralia käsittelevässä Dynamics 365 -blogissa](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) ja vanhoissa [Dynamics 365 Business Central -blogeissa](https://community.dynamics.com/business/b/financials).  \n\nViime kädessä voi ottaa yhteyttä [!INCLUDE[prod_short](includes/prod_short.md)]in jälleenmyyntikumppaniin. Lisätietoja on kohdassa [Miten saan teknistä tukea?](/dynamics365/business-central/across-faq#how-do-i-get-technical-support-for-business-central) ja [Miten löydän jälleenmyyjäpartnerin? ](#how-do-i-find-a-reselling-partner) -osissa.  \n"
   - question: >
       Miksi tätä toimintoa ei löydy omasta Business Centralistani?
     answer: "Luitko uudesta toiminnosta julkaisusuunnitelmasta vai blogistamme? Siinä tapauksessa [!INCLUDE[prod_short](includes/prod_short.md)]-versiotasi ei ehkä ole vielä päivitetty uusimpaan versioon. Voit tarkistaa, mihin versioon [!INCLUDE[prod_short](includes/prod_short.md)] perustuu, [Ohje ja tuki](product-help-and-support.md) -sivulla.  \n\nTämä koskee [!INCLUDE [prod_short](includes/prod_short.md)] online - ja on-premises-versioita.  \n\nJos toiminto on lisäksi julkaistu laajennuksena AppSourcessa, laajennuksen julkistamisesta kuluu hetki, ennen kuin se on saatavilla AppSourcessa. Tämä koskee vain [!INCLUDE [prod_short](includes/prod_short.md)] online -versiota.  \n"
